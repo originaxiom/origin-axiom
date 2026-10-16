@@ -1,5 +1,16 @@
 # Common-model physics campaign: execution record
 
+Phase9 sourcefbb0b4cd0 verified:93direct proof/property mappings,three
+aliases,89pending,17external;185blobs/11metadata controls PASS. Phase8
+unchanged except checker hash;18520tracked/index/39pins unchanged.
+GLOBAL_END_AND_GAUGE_SPECIFICATION joins source momenta/current,real
+Grassmann work,actual tube/bundle lifts and scoped local gauge dynamics.
+All33surface_ proof paths in the original inventory are mapped,not all
+packets or historical alternatives. End state and allowed variations
+remain a derivation duty distinct from the action's flux identities.
+PHASE9_VALIDATION preserves full source/staged-failure custody; no new
+scientific execution,independent acceptance or selected physical spectrum.
+
 Phase8 sourceb20a3280d verified:83direct proof/property mappings,three
 aliases,99pending,17external; all185blobs/11metadata controls PASS.
 Phase7 unchanged except checker hash;18475tracked/index/40pins unchanged.

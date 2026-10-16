@@ -1,0 +1,3093 @@
+{
+  "scope": "185 pinned proof-path artifacts at the two declared heads, including eight stored dependency paths. This is not 185 unique primary results or a complete historical/packet census.",
+  "metadata_producer_sha256": "b6f31bf8bf9e4ed460f7f7349e77f86523257947af72909b27eb40affecf5316",
+  "initial_inventory_scope_retained_in": "specification_inventory.json",
+  "scope_erratum": "The original inventory's description overstates the exclusion of received/source copies: five received_r46/received_r54 paths and three silver_complete_flag sources paths remain in its population. Preserve the original and account for these roles and byte aliases explicitly.",
+  "reading_grade": "Personally read authored proof sources and explicit property mapping; byte aliases separate. No new scientific execution, full packet audit or independent analytic acceptance.",
+  "review_records": [
+    {
+      "path": "review_records_phase9.json",
+      "sha256": "bf9b80e1e6faa198436d4e7d6941edaf9130b5c20ccdf29efd4d0aafabaf48e1"
+    },
+    {
+      "path": "review_records.json",
+      "sha256": "aa16c0b84df97c0241ddd063c56ff5c837ba121c2751655d3a5e9c948c2de985"
+    },
+    {
+      "path": "review_records_phase8.json",
+      "sha256": "5b830f595f8f1ef0db21f89e5fe2a4e4957ce30b5b4c4ed935c9242a932082a5"
+    }
+  ],
+  "inventory_rows": 185,
+  "proofs_source_read_and_property_mapped": 93,
+  "source_alias_rows_of_directly_read_proofs": 3,
+  "distinct_inventory_byte_groups": 182,
+  "distinct_directly_read_byte_groups": 93,
+  "stored_dependency_rows": 8,
+  "remaining_initial_inventory_rows": 89,
+  "complete_packet_reaudits_claimed": 0,
+  "external_dependency_source_readings": 17,
+  "unreconciled_coverage": "The 19 proof paths in the fork's pinned genesis_root_review subtree are source-read, not complete packet re-audits. Other current, historical, deleted and findings-only populations remain incomplete.",
+  "noninventory_cases": [
+    "R4 compact E6 scalar action and its competing-minimum control: EXTENSION_2.md and EXTENSION_2_CONTROL.md",
+    "R15 prescribed singular-source ansatz and full finite boundary pair: GLOBAL_SINGULAR_DESIGN.md and GLOBAL_SINGULAR.md"
+  ],
+  "rows": [
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/ACT_REGISTER_PROOF.md",
+      "blob": "80b1adaefa5c929370350d0503252ddb24a553c5",
+      "packet": "ACT_REGISTER_PROOF",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "8769cd53168dece8a8a12d2728b01d110c227fb08ce5d2b3d835d2f7e6eb5e6b",
+      "current_read_source_sha256": "8769cd53168dece8a8a12d2728b01d110c227fb08ce5d2b3d835d2f7e6eb5e6b",
+      "property_rows": [
+        "Sufficient retained record for declared updates and outputs"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_PROOF.md",
+      "blob": "7a6f90990fbc74f150c11ceaaf60393ce449fe57",
+      "packet": "AFFINE_BACKGROUND_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "487e69d9db5d1f44303890f14fb958a49f207971cdd1350450f3622fcb026c33",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_SPIN_PROOF.md",
+      "blob": "33a0f57ae4b687e864aec73f69c808f412b7171f",
+      "packet": "AFFINE_SPIN_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "df152ffaa0393a7020912b19bfab52c36c581b128bdfcc8afd29f62e3ab1611b",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_CUSP_PROOF.md",
+      "blob": "16df7d8af8e4e28bf1ee9fe08f3e0583a0331ad3",
+      "packet": "CANONICAL_CUSP_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "93836bfe7ca0be900caa37d2f9dee45435a881c29fff2b461458bc37bd8982a7",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_PROOF.md",
+      "blob": "70e4c3f68d25127a20ad33b7c778bb04820e9305",
+      "packet": "CANONICAL_DUALITY_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "29d200ebb4fe8ca6ff01629341bae3d5fc4f09e58744785218d0a97b7571bd35",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION_PROOF.md",
+      "blob": "f5bdac79f06fce1cf52bc542aa3dcdf870997208",
+      "packet": "CANONICAL_INTERACTION_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "bdc2f85f720b353ff5babf0eaafd1c4acb70057a4dc3774a21975ed6b8b5654d",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_PROOF.md",
+      "blob": "7d71ea9968be276406b348179c7e22cae1338ecf",
+      "packet": "CARRIER_PERIPHERY_PROOF",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "9cc1c8b9f2f05e6521880d3986c1e2138468e8ed09419bdab6d34bc7be280447",
+      "current_read_source_sha256": "9cc1c8b9f2f05e6521880d3986c1e2138468e8ed09419bdab6d34bc7be280447",
+      "property_rows": [
+        "Unoriented peripheral class"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md",
+      "blob": "9c503b9ccad27e7db78ef170c4431f78af3af237",
+      "packet": "COEFFICIENT_PARENT_PROOF",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b",
+      "current_read_source_sha256": "082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b",
+      "property_rows": [
+        "Determinant-preserving coefficient enlargement",
+        "Compact E8 gauge frame and complete charged roster",
+        "Metric and current transport"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/COMPACT_GLUING_KINETIC_PROOF.md",
+      "blob": "65aa6e77ff857c9ba6189dd8c24cd113d31a2adc",
+      "packet": "COMPACT_GLUING_KINETIC_PROOF",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "7540f6d2abafd4451913f07ee4456f0d6207ec5eff7427447926a67066abcef6",
+      "current_read_source_sha256": "7540f6d2abafd4451913f07ee4456f0d6207ec5eff7427447926a67066abcef6",
+      "property_rows": [
+        "Compact harmonic-family admission",
+        "Positive physical kinetic coefficient"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_CHANNEL_PROOF.md",
+      "blob": "17d856236de14756b5aad89be0c82a92b178b885",
+      "packet": "CONE_CHANNEL_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "f2658c840b56c4300637629167edd92dd4dc7f62b38c11d5b14b547f93e7ab85",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_EXACT_PROOF.md",
+      "blob": "262cd30dd78cc8c8f704f9d290c88764861e142c",
+      "packet": "CONE_EXACT_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "81246bb202f26c813a34c3321dd138c8de3e9e86c3804ffc7d407c3431c0a29e",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_FERMION_PROOF.md",
+      "blob": "1fae5d072677626fdd0bedf4723bde94ebda8143",
+      "packet": "CONE_FERMION_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "e38547885a70015e970ac3f9c6d80ddf7d1b931b67ad8f4a88c2720670b98404",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_FLUX_PROOF.md",
+      "blob": "d489a1da22c3c251f644939b0bbee8aa37fe6b56",
+      "packet": "CONE_FLUX_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "713f2e8068a712e1ed44b43f2a173c5fd1b3e3ac481252044efd97f5be113731",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_GAUGE_PROOF.md",
+      "blob": "3da0127d5aaf596c5aaf90874506753db731c905",
+      "packet": "CONE_GAUGE_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "72a2d08198ae46c2cc32ce4817fb33e1d6e0c89156e7943ba9ff3857a3768b15",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_MATCH_PROOF.md",
+      "blob": "2563912a4e4d9d8fb4fe39f91803f14a17f381e2",
+      "packet": "CONE_MATCH_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "7e412809894736a63e3ffb00f817650fedf883f2f91ebc51fea3177c843171d1",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_MATTER_PROOF.md",
+      "blob": "de161dfc7cb2300c53b474b90de00e4f158980ce",
+      "packet": "CONE_MATTER_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "be70e174d7a5ae8b98d9558423d02d4eab5f9784508e572aa0e8a5453f2c3e86",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_MULTIPLET_PROOF.md",
+      "blob": "707ce843fafb040db02e538c49cdfe471d9502f9",
+      "packet": "CONE_MULTIPLET_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "525ef354b906c4001f63dedb2e21ff0846744d2316f73ca10a3543c4212bf34e",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_ORBIT_PROOF.md",
+      "blob": "4f2064e1dd725b0d272894fc260c30383c2d8bba",
+      "packet": "CONE_ORBIT_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "be503be9635abd8f4406eaeeb8c2caf9f8ac94ed1b0300edda6af163b1ddad37",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CROSS_BRANCH_POSITIVES_PROOF.md",
+      "blob": "212019508d894e815848c33d51964070475b0485",
+      "packet": "CROSS_BRANCH_POSITIVES_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "519f22e2efc268700e4514f19f88b278e584451adbca2e8562269ff2c331fc5e",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CS_SECTOR_SCOPE_PROOF.md",
+      "blob": "f52095afebe1a6448d2b2d6b8e405ff3ebd53e10",
+      "packet": "CS_SECTOR_SCOPE_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "068b140d31f05d8379974139273fadf1b8ac04afb949320f1788099ef0e09720",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CURRENT_BALANCE_PROOF.md",
+      "blob": "cf0db0ef8cccf3b0dc4e286afd8a9e96354deebb",
+      "packet": "CURRENT_BALANCE_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "335865ab38098489a496283111606bf5d237e4c44376d93f6ca09b8edc4973d2",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/DEFECT_GAUGE_PROOF.md",
+      "blob": "369f90a8826d7fd41e862735e9c15b24678ec75c",
+      "packet": "DEFECT_GAUGE_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "c0b8a00fab779a194e1b12af2ee026da29ae50d198871dc3a0c50d8e01e9e374",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/DIRICHLET_ADMISSION_PROOF.md",
+      "blob": "9cea57c26cbcefbd8c43e29ebff8819ddf0187c2",
+      "packet": "DIRICHLET_ADMISSION_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "ed6f831f72a10868ca527a615910fd3cff127dd8cb5000a33779eccdcdcbba44",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/FINITE_TWIST_PROOF.md",
+      "blob": "780903cf449ea71c28cea22649ea811698ba9a9b",
+      "packet": "FINITE_TWIST_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "114f788b34c3bc5843feeab260643f0f7048f7e14828260295cc9a47e91e935c",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/FLAT_DOMAIN_PROOF.md",
+      "blob": "53a63a9b3047a732b5a82f50e15d36e55de0637b",
+      "packet": "FLAT_DOMAIN_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "60513727e87fae8dc10d05bb5ffb9823a8e6c874e709652348a6a9c8c512091a",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/FLAT_VACUUM_PROOF.md",
+      "blob": "6d2e3ca001e748642b9592f7b0ba818f7b43fd7a",
+      "packet": "FLAT_VACUUM_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "f36b9b432767a54db62e19135f34bb7968f7e3c39c5914719bef208d54da5685",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/GLOBAL_POISSON_PROOF.md",
+      "blob": "1e9ad26d7c7ba4be6d9d75b3dd100221f739af8c",
+      "packet": "GLOBAL_POISSON_PROOF",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "0320fabfc02587888140b2867e24b93d151425f25c817ca1c9458c102dd7e2a5",
+      "current_read_source_sha256": "0320fabfc02587888140b2867e24b93d151425f25c817ca1c9458c102dd7e2a5",
+      "property_rows": [
+        "Resolved singular-source family",
+        "Fixed-domain spectral pairing"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/GLUING_FREEDOM_PROOF.md",
+      "blob": "18fb38a40bb25fa0d117b67ba98e49c73e2781d9",
+      "packet": "GLUING_FREEDOM_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "12e2a21cf23ea31c111ff36670570e69d5a51293bd596817b0a2fe122f95b932",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/INDEX_STABILITY_PROOF.md",
+      "blob": "61c285834dfb72b08e9fb05b2f9a7ab6d9b67ab1",
+      "packet": "INDEX_STABILITY_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "f306313cfb80bc1be1138ff8d00751b9a04f8f5e7a59419ea6ed74160ed9f408",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_PROOF.md",
+      "blob": "fd5657dae2558f7ec055867e4d8ecf36cd938c50",
+      "packet": "JOINED_BACKGROUND_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "e071e28279f7d9653df8ea8a236133eb29647fd1e5e82bab74bf5b7c3ddfa816",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/JOINED_WILSON_PROOF.md",
+      "blob": "e3e8f161911519c719555cb0b6f5bbb3538df67c",
+      "packet": "JOINED_WILSON_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "a8ef5d831e3801848c3b0ab24223e440faf40c837d26f1f5167e44f09dcea4f3",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/LIGHT_CUBIC_PROOF.md",
+      "blob": "5c783c8827808a75ee90529ce18f31615606974d",
+      "packet": "LIGHT_CUBIC_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "9a32acbdcd725403447f258290f8f8c15efee0e734ba0eb536fdf2e87e718723",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_PROOF.md",
+      "blob": "bf1fac10fc3d352c40e6289da33dc9104cc73a1a",
+      "packet": "MIRROR_INTERACTION_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "58a3f4eeaae94d52e1b20cd992b979a0a86ab746ca15d101cb53fe8cbb3ecba7",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_PROOF.md",
+      "blob": "b1a1d7f5fcb2e4cb8ff53864ac068dd5f6ea9d42",
+      "packet": "MIRROR_QUARTIC_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "a66da7ac8dc05012bf3d78b8e2db62661ba16cf45e19b9471db709447097ae87",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/MIXED_CURRENT_PROOF.md",
+      "blob": "b02ed9543e99d78f46b88af8de1e617c8ca4025d",
+      "packet": "MIXED_CURRENT_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "21d6b895f54abdaf78be9c552cc65c09ff5874bbf3efc85a394fc581a0f9e22f",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/MIXING_SELECTION_PROOF.md",
+      "blob": "ae6b03e8493de6513cbab65a31f7ec98b863b0cf",
+      "packet": "MIXING_SELECTION_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "b4be127362d66c1bc69a576eb48dd71c53bd180ac04c5237ee57854f3d1d1c52",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS_PROOF.md",
+      "blob": "5a30d620b33f7a72b8f51958e20667aaa66752fe",
+      "packet": "NEUTRAL_CENSUS_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "6c4013920390a5835af30eff49b79caf399baa9f5ca160a42351bc745b0df421",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY_PROOF.md",
+      "blob": "c047463dc36c788913e11d28ac3f04df8107837c",
+      "packet": "NEUTRAL_CONTINUITY_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "42f9a81c5e608450adc491ead687d76c77c14e02de0948ff40fc393a5c27a798",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_PROOF.md",
+      "blob": "419d1f5b674134229e42cf9aceb6313f5051bab8",
+      "packet": "NEUTRAL_EXISTENCE_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "502b1e45a797387094b5b1f4227f213f408cee9dba8195afd1865600395e0217",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_MATTER_PROOF.md",
+      "blob": "550ff144b812fe2721b91dbc9e6a1ff3ab97a5fb",
+      "packet": "NEUTRAL_MATTER_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "897100eedebb7cca5689897de38472a66f503458d7b11a3f81a5b38bd9d22e1d",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY_PROOF.md",
+      "blob": "295a61ea16a23f506b1f605abc43e1e0c94b6893",
+      "packet": "NEUTRAL_REGULARITY_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "02b0abf8b4fe16092931504feadd1a4eac665e232f34d20ba2e247eb261c80b1",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER_PROOF.md",
+      "blob": "29c935fcc58d01509fd78b943d32b726a9cb0c3e",
+      "packet": "NEUTRAL_SECOND_ORDER_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "0e7504749407c45ae675123ca1c09bc1e54bcaca38da824cf2b7bccb890a99ca",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT_PROOF.md",
+      "blob": "edbf33a33386e0b83fdc694667d6923564860fcd",
+      "packet": "NEUTRAL_TANGENT_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "f5d04fc41d9c3d6010cfe51a97b67fae87e2e7c8a3f51eb9fab61a3a76efea61",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY_PROOF.md",
+      "blob": "7e20a03d215ecab0956eb77e74720b9e7c2b8a70",
+      "packet": "NEUTRAL_VELOCITY_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "936f3110797e8a27e9522c2d29f601e32215bf5a3c1bd1a37b34614fe1de64c9",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NILPOTENT_CONE_PROOF.md",
+      "blob": "bd58acd4f0800b7d7311d608c5dd5aefff94a8c3",
+      "packet": "NILPOTENT_CONE_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "d94b4c68d16b244ee5140687e394c101846044afbda7851dee60e4268bffe756",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PROOF.md",
+      "blob": "17a6a9384585750a5f72e526ecfc8a261ce04ca8",
+      "packet": "PARENT_BACKGROUND_PROOF",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "2b6f262e87ac8f31321b77225ffc7eb88b546226484beba3abb8e0a32323f866",
+      "current_read_source_sha256": "2b6f262e87ac8f31321b77225ffc7eb88b546226484beba3abb8e0a32323f866",
+      "property_rows": [
+        "Noncommuting stationary geometric parent baseline",
+        "Whole-parent unbroken algebra",
+        "Positive-metric duality and matched-domain pairing"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_CUSP_PROOF.md",
+      "blob": "e2f1e26765799a376179d7051805ef97abf6f7f5",
+      "packet": "PARENT_CUSP_PROOF",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "fcca2f930bea13d4e5aeaba283d64b15e39bc7826a9e5901232a679a1b12d6ab",
+      "current_read_source_sha256": "fcca2f930bea13d4e5aeaba283d64b15e39bc7826a9e5901232a679a1b12d6ab",
+      "property_rows": [
+        "Actual coefficient type rather than equal rank",
+        "Complete parent gauge kernel and peripheral sectors"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_GLUING_CHARACTER_PROOF.md",
+      "blob": "6e5a5fc57e54dc7e0fdfba06e543e5e88b9e8532",
+      "packet": "PARENT_GLUING_CHARACTER_PROOF",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "cc963aa5777732531038806c728dddae103ed0faa69b6c12f045a3a717151c60",
+      "current_read_source_sha256": "cc963aa5777732531038806c728dddae103ed0faa69b6c12f045a3a717151c60",
+      "property_rows": [
+        "Full-parent character detector",
+        "Compact harmonic-family admission"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_VERTEX_PROOF.md",
+      "blob": "a40db56dd324e2449fc7315076f493f1a0118299",
+      "packet": "PARENT_VERTEX_PROOF",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "aa5065f40de6053bcbc5a3b08b2c6a31041c86bc4945609e492a5abee37c9fd7",
+      "current_read_source_sha256": "aa5065f40de6053bcbc5a3b08b2c6a31041c86bc4945609e492a5abee37c9fd7",
+      "property_rows": [
+        "Faithful compact subgroup map and complete E8 roster",
+        "Actual field statistics and cubic form degree",
+        "Wedge overlap versus scalar metric overlap"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PROOF.md",
+      "blob": "afd2ff62c599d0ee32927326d78a4db13f67456c",
+      "packet": "REGISTER_ACTION_PROOF",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "6f15a77b434d2b9787d9f90b01c2d7b684f468e225eb872ef4511fbe64734252",
+      "current_read_source_sha256": "6f15a77b434d2b9787d9f90b01c2d7b684f468e225eb872ef4511fbe64734252",
+      "property_rows": [
+        "Registered local variational structure"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/REGISTER_WILSON_PROOF.md",
+      "blob": "cda2358e72d1bc36462e7690efca76cdde539ade",
+      "packet": "REGISTER_WILSON_PROOF",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "efd23d23a2b25edd04345a0a302ea81d32dbd9555968566b04e9e825fe3342cd",
+      "current_read_source_sha256": "efd23d23a2b25edd04345a0a302ea81d32dbd9555968566b04e9e825fe3342cd",
+      "property_rows": [
+        "Gauge-invariant character readout and odd register",
+        "Anomaly cancellation versus self-conjugacy",
+        "Readability versus source equations or a quantum measure"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/RESOLVED_FERMION_PROOF.md",
+      "blob": "f8a26d0e6ad9dce070cac8cad139b0a37b659b64",
+      "packet": "RESOLVED_FERMION_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "089af58b8cb3d23c4ba70cb1e457ea60ddf6086cdf9faed315d4a2606e3b416d",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/RIGIDITY_TRANSPORT_PROOF.md",
+      "blob": "aa0ba2b32ad00a790a2bbb67130558b708ad9fe5",
+      "packet": "RIGIDITY_TRANSPORT_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "bb3ecda980ab38f9f046694560a9a6801828be77e95c26b9d6e257ce96de80c4",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/SIGNED_LEVEL_PROOF.md",
+      "blob": "f6cb788c22b5684bda07a40f9594bb5e7695b63f",
+      "packet": "SIGNED_LEVEL_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "1d3e2229df4741e997532b8102f3e7d0c86c12090c4e5e8e0649bc76346f2c0c",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md",
+      "blob": "9324d4f3dc6ce16c7d4319b5af6d4e9943696a01",
+      "packet": "SOURCE_ACTION_PROOF",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "3407bfc4acfce3b8dd1a8926e92aa68be2213052ea02bf4cb48d2bb9dff2881e",
+      "current_read_source_sha256": "3407bfc4acfce3b8dd1a8926e92aa68be2213052ea02bf4cb48d2bb9dff2881e",
+      "property_rows": [
+        "Static residual action versus kinetic metric",
+        "Enlarged nonlinear multiplier action versus regular autonomous same-state action",
+        "Specified core cost versus sourced alternatives"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_C3_PROOF.md",
+      "blob": "7d94fee3c1b2703016aa1f0a95106839c54f5858",
+      "packet": "SOURCE_C3_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "f9595fd330f8531623207bddd8a1aae728830aee18b93fbf047c4317b7a232e5",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_CORE_PROOF.md",
+      "blob": "f2d3b6872c39baea248cbb2b91824b94020fd188",
+      "packet": "SOURCE_CORE_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "0f6b1e7b5e7322cc2ad869a4cb47d53f7eb1ecec90426061c481a709b5619eee",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_PROFILE_PROOF.md",
+      "blob": "53957e050ef849451beccc1d2b34b235f57b5045",
+      "packet": "SOURCE_PROFILE_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "60133ab411d768ddad0f525b58743128d6ecfebcc021615760d6f8fc91ac9c2c",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_SCALAR_PROOF.md",
+      "blob": "37aca7504cb6fbc4164d5257f7d654dc01933ac9",
+      "packet": "SOURCE_SCALAR_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "0091019aa10da119545a31cbbcc3d458a9517f5289ba52e917e8ea616d57f383",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/TRACE_PARENT_PROOF.md",
+      "blob": "93a2dee9886ab958d75a1e1e4d22d1ad598c96b7",
+      "packet": "TRACE_PARENT_PROOF",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "c91c467dcb7a297d424595d0ab0837f7439e91a653cd37af5e43d8297fe2a11c",
+      "current_read_source_sha256": "c91c467dcb7a297d424595d0ab0837f7439e91a653cd37af5e43d8297fe2a11c",
+      "property_rows": [
+        "Registered local variational structure",
+        "Compact E8 gauge frame and complete charged roster"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP_PROOF.md",
+      "blob": "a4c6c198278952fa8d5bd078d38d9e7ab93cd3ee",
+      "packet": "YUKAWA_OVERLAP_PROOF",
+      "review_status": "PENDING",
+      "source_sha256": "62a82da9e95f0b66fd2340f4779a8ae8cb087e7918f1d189f1c52205ebac50f7",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/PROOF.md",
+      "blob": "4a0aee767f7faa659d14d98091967d87c84f0eb8",
+      "packet": "apex_scope_2026_10_05",
+      "review_status": "PENDING",
+      "source_sha256": "1d8ced98b1dc82bb4f23bfffbdc1fd1df12ee711bcbd5dbcd3ffba79a243899a",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/PROOF.md",
+      "blob": "d973dc411bdf0f1e4c184694286cb1fe1ce41366",
+      "packet": "based_transition_prerequisite_2026_10_13",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "8374933126c41e24b9d167fae89f931f7b72c95bba0da6aa927646cafb3d91d6",
+      "current_read_source_sha256": "8374933126c41e24b9d167fae89f931f7b72c95bba0da6aa927646cafb3d91d6",
+      "property_rows": [
+        "Full based-lift prescription versus scalar centre matching",
+        "Complete adjoint parity rather than defining-six identity",
+        "Half-period coefficient equivalence versus a physical Higgs"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/PROOF.md",
+      "blob": "d84c6b64c2392ea6f1e1cb44729e6005165d15d0",
+      "packet": "cusp_negative_audit_2026_10_09",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "6dd463a75b70340b239a66caef67f72af1630987f523f876e1a8d155e8d60925",
+      "current_read_source_sha256": "6dd463a75b70340b239a66caef67f72af1630987f523f876e1a8d155e8d60925",
+      "property_rows": [
+        "Exact finite symbolic occupancy versus its limiting tail",
+        "Letter measure versus geometric time and unbounded observables",
+        "Dynamical scope correction versus a derived physical end mechanism"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/received_r46/reports/balanced_parent_2026_09_20/PROOF.md",
+      "blob": "e08b031a9ffed2f0087371df1061ebfc8c1c4e40",
+      "packet": "received_r46/reports/balanced_parent_2026_09_20",
+      "review_status": "PENDING",
+      "source_sha256": "400a258b6dd9a3249d8eea5a115668170e8e46405b387278b7d7bc247785c124",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "STORED_DEPENDENCY"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/received_r46/reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md",
+      "blob": "9324d4f3dc6ce16c7d4319b5af6d4e9943696a01",
+      "packet": "received_r46/reports/physical_bridge_2026_09_05",
+      "review_status": "SOURCE_ALIAS_OF_READ_PROOF",
+      "source_sha256": "3407bfc4acfce3b8dd1a8926e92aa68be2213052ea02bf4cb48d2bb9dff2881e",
+      "current_read_source_sha256": "3407bfc4acfce3b8dd1a8926e92aa68be2213052ea02bf4cb48d2bb9dff2881e",
+      "property_rows": [
+        "Static residual action versus kinetic metric",
+        "Enlarged nonlinear multiplier action versus regular autonomous same-state action",
+        "Specified core cost versus sourced alternatives"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_alias_of": "reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md",
+      "source_role": "STORED_DEPENDENCY"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/received_r46/reports/projective_fluctuations_2026_09_25/PROOF.md",
+      "blob": "79313c2777a8f25341662ad4e20bf5dc7d635d6b",
+      "packet": "received_r46/reports/projective_fluctuations_2026_09_25",
+      "review_status": "PENDING",
+      "source_sha256": "78cad2ebdfcd9e3b065dfaaf3eb7c545dd9348b7e7a6bcc3846ae17a23b34cd0",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "STORED_DEPENDENCY"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/received_r46/reports/projective_global_metric_2026_09_21/PROOF.md",
+      "blob": "74b001c39dcdcd31b787cea3ca2c67153438c8ae",
+      "packet": "received_r46/reports/projective_global_metric_2026_09_21",
+      "review_status": "PENDING",
+      "source_sha256": "10de1c74db67a18b1bbbc2a7c6c2fc20229185db3faffbc63d6f7a5fcac37e8d",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "STORED_DEPENDENCY"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/PROOF.md",
+      "blob": "940fd35e675e0b43881205624283a94a557c1882",
+      "packet": "received_r54/reports/projective_deformation_tangent_2026_09_25",
+      "review_status": "PENDING",
+      "source_sha256": "4b95bc794f51458f33339aa58c5c48a7dd859b4ebe10f73740af78ac414e0a81",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "STORED_DEPENDENCY"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/PROOF.md",
+      "blob": "8788d96e2a367498a3a8cb9e4bc4a9d613714388",
+      "packet": "residue_pairing_audit_2026_10_13",
+      "review_status": "PENDING",
+      "source_sha256": "c8b5ec3d19074c36c22256615a7203566dae32b005607fbeac7e10f400ef839b",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/PROOF.md",
+      "blob": "45d8d37c5d29da05326b02888b3bb9d2b41d889d",
+      "packet": "silver_adjoint_phase_2026_10_11",
+      "review_status": "PENDING",
+      "source_sha256": "6f3eee6acfed04e98f4df0d4fe98aff6d717be416a3aee05fb350d571934b8fa",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_analytic_transfer_2026_10_09/PROOF.md",
+      "blob": "38ff333f10b33fc3b84b9606adec8f1856e26e1e",
+      "packet": "silver_analytic_transfer_2026_10_09",
+      "review_status": "PENDING",
+      "source_sha256": "5f36c6d1b79d648f82b710d591ca16903fa5bd1c4e87b1401b788b999e4ca3ac",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/PROOF.md",
+      "blob": "df16c0ba1f5570acc7209a09ea324412ca7e6b76",
+      "packet": "silver_bosonic_quotient_2026_10_11",
+      "review_status": "PENDING",
+      "source_sha256": "0666cc040c486f69d7b8cda4e581d7da31a265d2dd9a7cc4d18ae5beb30837d8",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/PROOF.md",
+      "blob": "74e2555551c9ce8fab16bc5f8602dd6a024d2fab",
+      "packet": "silver_charged_cubic_2026_10_11",
+      "review_status": "PENDING",
+      "source_sha256": "53cd127aaf00cbb6d0c3bc52d2f60c84ab227fe86541354b58f8b505bb2cb0e4",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/PROOF.md",
+      "blob": "264717aae44eb9c7804447bd867ee25d7d20b886",
+      "packet": "silver_charged_pair_lift_2026_10_11",
+      "review_status": "PENDING",
+      "source_sha256": "bb191480f617384355951de464278a2a353082a4d6461303e38ce2012530f68e",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md",
+      "blob": "b259e55a6dd836bb5850e05e7ea56ecdc4df01b9",
+      "packet": "silver_complementary_boundary_2026_10_09",
+      "review_status": "PENDING",
+      "source_sha256": "78693f6656fff74e67c2d94d4fe84a100b02f5ca7ab50ec8b98ae375ccf449c4",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/PROOF.md",
+      "blob": "c52c717e7f4493b430530158d9e87b197a62e162",
+      "packet": "silver_complete_flag_2026_10_13",
+      "review_status": "PENDING",
+      "source_sha256": "e6a814a1c5cda51c17cee9b8055b48b6a581d9df12a77e6b082ae932743bb1a9",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/admission_PROOF.md",
+      "blob": "27b5cbd73d18270d9f09718d08d3a6e8a9e54909",
+      "packet": "silver_complete_flag_2026_10_13/sources",
+      "review_status": "SOURCE_ALIAS_OF_READ_PROOF",
+      "source_sha256": "899ecfc306683155d9c396c7f92365c0f4679f4a9498698ae7da973817d0f9a0",
+      "current_read_source_sha256": "899ecfc306683155d9c396c7f92365c0f4679f4a9498698ae7da973817d0f9a0",
+      "property_rows": [
+        "Conditional nonsplit harmonic admission in a prescribed complete flag class"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_alias_of": "reports/genesis_root_review_2026_10_11/noncompact_admission/PROOF.md",
+      "source_role": "STORED_DEPENDENCY"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/complete_domain_PROOF.md",
+      "blob": "0e891b2d478ae33d046b53234ce7f76975aeb020",
+      "packet": "silver_complete_flag_2026_10_13/sources",
+      "review_status": "PENDING",
+      "source_sha256": "bf4e414902ce2699484db67e720ffc155791559d5ff3e476330f7e1b9796c720",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "STORED_DEPENDENCY"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/transport_PROOF.md",
+      "blob": "c673c79a3be7daddd84481545b4c58ab4e4d9d62",
+      "packet": "silver_complete_flag_2026_10_13/sources",
+      "review_status": "SOURCE_ALIAS_OF_READ_PROOF",
+      "source_sha256": "a2ab03d02337b5203a0921ff54bb0f40e7dcb955eba5897b9f965c8008530fc6",
+      "current_read_source_sha256": "a2ab03d02337b5203a0921ff54bb0f40e7dcb955eba5897b9f965c8008530fc6",
+      "property_rows": [
+        "Bounded complex transport",
+        "Positive flag amplitude independent of zero-mode multiplicity"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_alias_of": "reports/genesis_root_review_2026_10_11/kernel_transport/PROOF.md",
+      "source_role": "STORED_DEPENDENCY"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/PROOF.md",
+      "blob": "14b8d50b9f48e0b14796b0bbe1e45e117f0ac734",
+      "packet": "silver_cover_cubic_2026_10_12",
+      "review_status": "PENDING",
+      "source_sha256": "330ff23227fe403c4727986d6767bb147d2871dd07b3320e329e836adba38469",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12/PROOF.md",
+      "blob": "562e16131d62245e5292e1173bb7718a988401cc",
+      "packet": "silver_cover_currents_2026_10_12",
+      "review_status": "PENDING",
+      "source_sha256": "a5d28db3e68c817537160f22dac2b8150a47fe503a8a2062223316a35704dacc",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/PROOF.md",
+      "blob": "7a941b9ae44db4782d7add40a00448d061e6ba03",
+      "packet": "silver_cover_domain_2026_10_12",
+      "review_status": "PENDING",
+      "source_sha256": "a8c55fabeb9c1580c773819ce0e91d85005151c74479ec34c6fa204d6f77d36b",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_extension_2026_10_13/PROOF.md",
+      "blob": "d52bc6c66cc8796559717f8aa2de84c109b167f6",
+      "packet": "silver_cover_extension_2026_10_13",
+      "review_status": "PENDING",
+      "source_sha256": "0d8efd2fec89f3242daf94e44bf8ef04104cb0dbe33bd185b7ae462281a5e9d0",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/PROOF.md",
+      "blob": "24d69174b582790253b9de91f648f5257b0921ed",
+      "packet": "silver_cover_families_2026_10_12",
+      "review_status": "PENDING",
+      "source_sha256": "070f7b3afddca748f20ea5a960b776fd73847444700f5618c96b6a51e76464e7",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/PROOF.md",
+      "blob": "c4bc1495eca763cf2c97dfeb3f2e2f6c239b3d38",
+      "packet": "silver_cover_neutral_2026_10_12",
+      "review_status": "PENDING",
+      "source_sha256": "c6a6672b0a2c94d7a5051c30e84fd74549df1f303f08d633bc688436962e789f",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/PROOF.md",
+      "blob": "1b6c02fdc3e97733941d5fa3a478ed2055dcd17d",
+      "packet": "silver_cover_nil_flat_2026_10_13",
+      "review_status": "PENDING",
+      "source_sha256": "bdb923f55df79b87a6e250796f255f87660d65a2bf477287318f10e373eda288",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/PROOF.md",
+      "blob": "199d7a188736d94b9282418cc21c00b2e944d79d",
+      "packet": "silver_cover_stationary_2026_10_13",
+      "review_status": "PENDING",
+      "source_sha256": "d9ba38dd14c467558613ad4e0c848dc4917d6800ed2574e6a4235272c8709111",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/PROOF.md",
+      "blob": "9051eee6c5c4301c7bc9c43929decd0f86bcc988",
+      "packet": "silver_cyclic_transfer_2026_10_06",
+      "review_status": "PENDING",
+      "source_sha256": "4ecca881878431c4177ab13ed7b74bf8514a5ed050defc8c59232b47008c35a6",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+      "blob": "8c7059116f683828064daa06664ab271ce92e140",
+      "packet": "silver_fermion_action_2026_10_11",
+      "review_status": "PENDING",
+      "source_sha256": "83ea7b7310615769810a51753624db22ce7366d8deeb12b879f3672471d29ae7",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/PROOF.md",
+      "blob": "3714baae3843b4ef8298ae2d2f769e03d44bdd5f",
+      "packet": "silver_framed_coupled_domains_2026_10_11",
+      "review_status": "PENDING",
+      "source_sha256": "4be9b7eb7e247201cdbd6b37874444a4f383a89004a067ec5722a5b5773b40fe",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/PROOF.md",
+      "blob": "695a8523a4b6c496f9658c37a3b57e69fe4c5e5e",
+      "packet": "silver_gauge_end_transport_2026_10_12",
+      "review_status": "PENDING",
+      "source_sha256": "1f5df5fd3f53384163892c6e9fcf37f2ce197f2043340606a113958309a02593",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_quartic_2026_10_11/PROOF.md",
+      "blob": "0a63a6cba60151d70410a204e7e9a44b39cbebe6",
+      "packet": "silver_higgs_quartic_2026_10_11",
+      "review_status": "PENDING",
+      "source_sha256": "7d4e4611b0ba99d9f706975c38d910c8a35c33fc20ae51c5bb1f351d8c4ada6b",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/PROOF.md",
+      "blob": "00b76261acee98b231125a7cd6201b3096ee4185",
+      "packet": "silver_higgs_scope_2026_10_11",
+      "review_status": "PENDING",
+      "source_sha256": "8ab9b7917f2488d3cda417e6e1b1c2e9b12dd8be0c3536afffead8312ccae19e",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/PROOF.md",
+      "blob": "a1c50b1a40b48ccdccda7ccf045a49013e06d868",
+      "packet": "silver_interaction_radical_2026_10_11",
+      "review_status": "PENDING",
+      "source_sha256": "07acffd7de75ceb915988ff3064e2b270d61cd9a861f9af2a68880274abc8e89",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_neutral_cubic_2026_10_11/PROOF.md",
+      "blob": "e1ecee848fac99a1bed0fa8ad0a14b32ab755425",
+      "packet": "silver_neutral_cubic_2026_10_11",
+      "review_status": "PENDING",
+      "source_sha256": "49e9f755942d8ce629737ccbedfe83b258b2d0cd1a48c1a911541b4bb34f627f",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/PROOF.md",
+      "blob": "0bcd9c1dd912b05f38c173ae7f106da091f829c6",
+      "packet": "silver_nonlinear_boundary_2026_10_06",
+      "review_status": "PENDING",
+      "source_sha256": "32947d8cc8688e82462746112cbee011ae275ea326861a6fde57646750cc1d7c",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/PROOF.md",
+      "blob": "84ce1786e72e1d9ab2705e7039ffd5417b949039",
+      "packet": "silver_operator_gate_2026_10_05",
+      "review_status": "PENDING",
+      "source_sha256": "e285aad75e8e1bfb4d2dbab7ffb98cc5412fcc9d83fd2b8f5e057bc68c930e0f",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/PROOF.md",
+      "blob": "9e42fd4804bb5d1d6771884b3b48780bca456b07",
+      "packet": "silver_physical_multiplets_2026_10_11",
+      "review_status": "PENDING",
+      "source_sha256": "8557539bf0e764ea4350204403e26791473261f20f0b63b176618aa87b5be398",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/PROOF.md",
+      "blob": "e31169d3d2fe21547dfcfadb2e1174d6a4f3eec5",
+      "packet": "silver_selective_boundary_2026_10_11",
+      "review_status": "PENDING",
+      "source_sha256": "0b584af9cf725570797c2efd8fad17e578bcb2b07a3c2792212aee7c1198a44a",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/PROOF.md",
+      "blob": "a2f3ada69a4391814f109621ca0ae2335f98ae11",
+      "packet": "silver_smooth_boundary_gate_2026_10_05",
+      "review_status": "PENDING",
+      "source_sha256": "b1fc46adf8f9e6c397635badd425b8dbed359e792233180840564e2948a22890",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/PROOF.md",
+      "blob": "76f84778f608d7f517c353dcfbc31f76db908467",
+      "packet": "silver_spectral_completion_2026_10_05",
+      "review_status": "PENDING",
+      "source_sha256": "d3eb15c5bb5e4d90c319e662eb65f906c10decf45772953ccdcb632b48de0f5b",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/PROOF_FIRST.md",
+      "blob": "3af34648b5ed6bcdb2a331bdd4d85899f79fb80d",
+      "packet": "silver_spectral_completion_2026_10_05",
+      "review_status": "PENDING",
+      "source_sha256": "de56310f6235173e31f33221ae47a31ed53dec9a5f8f7926bdd6941fdee62277",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md",
+      "blob": "4133e436096b89a652de980b37ddc461bc74486d",
+      "packet": "silver_static_energy_2026_10_10",
+      "review_status": "PENDING",
+      "source_sha256": "20d20923474012672616c752b57ecb087817bf0acabc7ca04c4b2b38b1d1792e",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/PROOF.md",
+      "blob": "62920c4610afa2db24a54dc4d1ba99344ff3b5f2",
+      "packet": "silver_superfield_covariance_2026_10_11",
+      "review_status": "PENDING",
+      "source_sha256": "29eeca6a93d85c5f2f8119743976c3b7bdc18b528913a3cdf3cafb579f545c44",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/PROOF.md",
+      "blob": "8fb5fd90c8286d0a58946a675896beb238591fba",
+      "packet": "silver_superfield_response_2026_10_10",
+      "review_status": "PENDING",
+      "source_sha256": "da4a73d4559fadbd42d1862b9b4b417b1bba3eb5f4e107cba206456ee37c9eaf",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/PROOF.md",
+      "blob": "bec14d7812bdc5146d232cd359452d19b641002f",
+      "packet": "silver_zero_cauchy_2026_10_12",
+      "review_status": "PENDING",
+      "source_sha256": "72d65948fc0e800a46d17a7f4f36f98bb3bbf53594075356f1de23df62a75976",
+      "current_read_source_sha256": null,
+      "property_rows": [
+
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/PROOF.md",
+      "blob": "3dc055cb67a9a0bee26a4ee3e358162f9f1077b6",
+      "packet": "spinor_uniformization_joint_2026_10_14",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "a56dcbb3d4571f466f0a179de0ce843179f90045465a43ba8cea44ec7adab057",
+      "current_read_source_sha256": "a56dcbb3d4571f466f0a179de0ce843179f90045465a43ba8cea44ec7adab057",
+      "property_rows": [
+        "Same-action field degree and continuous lift",
+        "Retained quartic interaction versus an invented scalar portal"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_actual_tube_2026_10_16/PROOF.md",
+      "blob": "7482c8d01d74be3fe8a16715b122513ab781ba67",
+      "packet": "surface_actual_tube_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "ebb95939e07ef678438f3799d42f52b9bbf7508f4d42d23eab8d76ed7a3a6647",
+      "current_read_source_sha256": "ebb95939e07ef678438f3799d42f52b9bbf7508f4d42d23eab8d76ed7a3a6647",
+      "property_rows": [
+        "Tilted actual normal and moving real Green-null projector",
+        "Contact bracket and compact gauge stabilizer",
+        "Complex matter countercontrol and later principal limitations"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_all_angular_response_2026_10_16/PROOF.md",
+      "blob": "550dc7ccbcea6b7e2e90699a3470ec2e1ad2a4cb",
+      "packet": "surface_all_angular_response_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "f9247338b5a07b5a1ee7b716d5e64e12ce6f9c339dd137f0d1e54855025427a5",
+      "current_read_source_sha256": "f9247338b5a07b5a1ee7b716d5e64e12ce6f9c339dd137f0d1e54855025427a5",
+      "property_rows": [
+        "All shifted noncritical angular integers and L2 completeness",
+        "Convergent regular series and exact resonance compatibility",
+        "Both-end field-dependent work versus uniform joint symbol"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/PROOF.md",
+      "blob": "eeaa1a46009a5ce013e18a1351dd03d34cc8e1d9",
+      "packet": "surface_all_boson_response_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "f41b1a1f2309f2ef8bf1f0d9977ecd1e07c91204ec9bd9e1d7e95179980dd904",
+      "current_read_source_sha256": "f41b1a1f2309f2ef8bf1f0d9977ecd1e07c91204ec9bd9e1d7e95179980dd904",
+      "property_rows": [
+        "All ten sourced degree-two equations and real auxiliary response",
+        "Retained primitives and actual source boundary benchmark",
+        "Dirichlet exclusion of constant multiplet versus every end ensemble"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_angular_response_2026_10_16/PROOF.md",
+      "blob": "9f71e3d37cdc8259376b7e4b36aaa69c08965afd",
+      "packet": "surface_angular_response_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "d3930d302789b982cbefc4f448c799d8c92b4ff97fa715930c8a23af8ac4acbd",
+      "current_read_source_sha256": "d3930d302789b982cbefc4f448c799d8c92b4ff97fa715930c8a23af8ac4acbd",
+      "property_rows": [
+        "All-covector characteristic failure of pointwise adapted plane",
+        "Same-source nonlocal exterior response and explicit zero threshold",
+        "Real conjugate-charge bag alternative and gauge patching costs"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_arena_boundary_2026_10_16/PROOF.md",
+      "blob": "32e7db7e9bbe413a08adcd8e56f6e9af7c7858c3",
+      "packet": "surface_arena_boundary_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "dfcd28d9b60d146c054594e5bdce6b47efc1d68ac1258be2c7c54f28dd46706d",
+      "current_read_source_sha256": "dfcd28d9b60d146c054594e5bdce6b47efc1d68ac1258be2c7c54f28dd46706d",
+      "property_rows": [
+        "Actual normal bundle map with central and based lifts",
+        "Globally embedded shrinking tube and nonuniform contact strictness",
+        "Distinct circle CR geodesic forms and actual source connection"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/PROOF.md",
+      "blob": "550b689b6a132a7abd6ac5e328d366042c3873bf",
+      "packet": "surface_based_gauge_2026_10_14",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "b04c64f9c85b2cc2b3686b747b1187db0872c6ebebdf66284c5f7682b1f914f7",
+      "current_read_source_sha256": "b04c64f9c85b2cc2b3686b747b1187db0872c6ebebdf66284c5f7682b1f914f7",
+      "property_rows": [
+        "Full based presentation and finite-image compact gauge completion",
+        "Actual centre quotient and complete gauge/phase cost",
+        "Faithful subgroup maps versus infinite move-group faithfulness"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/PROOF.md",
+      "blob": "286206e40c3e4dd39079b49eefcc440ae2046495",
+      "packet": "surface_critical_cauchy_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "5c6c8f8bd5708f3fb6fb98d6d36fe6e80f46fbae1041a252e9a5a6c1dd82f4eb",
+      "current_read_source_sha256": "5c6c8f8bd5708f3fb6fb98d6d36fe6e80f46fbae1041a252e9a5a6c1dd82f4eb",
+      "property_rows": [
+        "Complete critical fundamental solutions including log and regular partner",
+        "Controlled finite-momentum response with preserved current plane",
+        "Local Cauchy space versus physical particle and global boundary law"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_curved_boson_2026_10_16/PROOF.md",
+      "blob": "2f623a3e3d6ac77167a1af4e8429108ef34e1299",
+      "packet": "surface_curved_boson_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "a24765309dabeed8c5baeae72d0115d338834bb88e97572c60e31e6418cdf451",
+      "current_read_source_sha256": "a24765309dabeed8c5baeae72d0115d338834bb88e97572c60e31e6418cdf451",
+      "property_rows": [
+        "Source-normalized residual potential and canonical-line curvature",
+        "Gauge topology both boundary primitives and patch duties",
+        "Kahler field-space moment versus physical-time Gauss charge"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/FULL_EVEN_PROOF.md",
+      "blob": "346f9a7e40da3ce1fdbc353a506fb815b4aced38",
+      "packet": "surface_even_channels_2026_10_14",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "7c8c3ce51460df5f843d02525274f2c4b59a44f126b745fd76dac2d8c82551e3",
+      "current_read_source_sha256": "7c8c3ce51460df5f843d02525274f2c4b59a44f126b745fd76dac2d8c82551e3",
+      "property_rows": [
+        "Entire regular even coefficient and exhaustive Fourier strata",
+        "Same-operator uniform tail coercivity",
+        "End estimate versus global admission and actual kernel"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/PROOF.md",
+      "blob": "c170fa9d8b0388dae970c11b0f0675aecc88579f",
+      "packet": "surface_even_channels_2026_10_14",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "e9be9d6141fc0d4949530d470ee007467a7a54ed0833cdf0fb8d575b92ceeaa4",
+      "current_read_source_sha256": "e9be9d6141fc0d4949530d470ee007467a7a54ed0833cdf0fb8d575b92ceeaa4",
+      "property_rows": [
+        "Nonuniform high-frequency ordinary-spin Weyl sequence",
+        "Geometric canonical R shift and conditional positive bound",
+        "Minimal even domain versus odd trace selection"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/PROOF.md",
+      "blob": "cd0bb876bafa6434927d2fbc4051ce33148e2441",
+      "packet": "surface_full_real_parent_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "21ec3924a0fa747de5bfb37d6a1ec385b91ef71ca89b211efbe96ea533d7ff5a",
+      "current_read_source_sha256": "21ec3924a0fa747de5bfb37d6a1ec385b91ef71ca89b211efbe96ea533d7ff5a",
+      "property_rows": [
+        "Same real parent kinetic and residual action",
+        "Retained auxiliary and boundary terms",
+        "Local field map versus global physical admission"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_gauss_charge_2026_10_16/PROOF.md",
+      "blob": "2bd1224c3cc753b5d6bfef3657187e2bb2aae428",
+      "packet": "surface_gauss_charge_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "bf214945674630ac6e9ac27567b93577b369e8893ae774e97fda4300f2372121",
+      "current_read_source_sha256": "bf214945674630ac6e9ac27567b93577b369e8893ae774e97fda4300f2372121",
+      "property_rows": [
+        "Actual temporal kinetic coefficient and full real E8 current",
+        "Canonical both-end charge and field-dependent parameter correction",
+        "Nilpotent Gauss response versus selected full stationary ensemble"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/PROOF.md",
+      "blob": "52dc7e31c6a9ee1376e44bc241fd5a7b57c597af",
+      "packet": "surface_geometric_loops_2026_10_14",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "1b9bc3e1e03100ef76eeb5c4d9b523cb40545d312c549c6a79ed02efd7fa5bff",
+      "current_read_source_sha256": "1b9bc3e1e03100ef76eeb5c4d9b523cb40545d312c549c6a79ed02efd7fa5bff",
+      "property_rows": [
+        "Natural based versus outer bundle action",
+        "Frame orientation correction and full coefficient transport",
+        "Leading complex trace gluing versus physical reality/domain"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_global_boundary_variation_2026_10_16/PROOF.md",
+      "blob": "69860de9c719dcec23798b5bab43fb0d845bb77c",
+      "packet": "surface_global_boundary_variation_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "719704f5225ae4d99624b561c241aca89340a48909cbd0df7c60089bc52361bc",
+      "current_read_source_sha256": "719704f5225ae4d99624b561c241aca89340a48909cbd0df7c60089bc52361bc",
+      "property_rows": [
+        "Boundary variation of the interacting source"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/PROOF.md",
+      "blob": "ab398a07d55edc471df8ae0ef0c2091695b9423b",
+      "packet": "surface_global_spin_2026_10_13",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "9d11b84270e5fccb949915fcb761c075038cda51b2e1230f1c7188daf9f76050",
+      "current_read_source_sha256": "9d11b84270e5fccb949915fcb761c075038cda51b2e1230f1c7188daf9f76050",
+      "property_rows": [
+        "Physical kinetic operator and twist"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_inner_cauchy_2026_10_16/PROOF.md",
+      "blob": "f9f8c815b9f444f0b93239fb2db840382bd3ee93",
+      "packet": "surface_inner_cauchy_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "723138fdf6b9b8b1e81e09773bd236ed1d6954faabcfb8dddb21428b3fbfbafa",
+      "current_read_source_sha256": "723138fdf6b9b8b1e81e09773bd236ed1d6954faabcfb8dddb21428b3fbfbafa",
+      "property_rows": [
+        "Both holonomy lattices and complete free response branches",
+        "Pointwise versus uniform-frequency and singular-domain limits",
+        "Frozen complement and full regular gaugino recovery"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_interacting_domain_2026_10_15/PROOF.md",
+      "blob": "291d1fce0b70346097660dc13da9a9ea1e1ff633",
+      "packet": "surface_interacting_domain_2026_10_15",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "8ee3ec7041b7211c9f3fe049405c6c4256ed8aed05cfd36fe4ad5b99818c1498",
+      "current_read_source_sha256": "8ee3ec7041b7211c9f3fe049405c6c4256ed8aed05cfd36fe4ad5b99818c1498",
+      "property_rows": [
+        "Minimal-domain relative bound and proper deficiency argument",
+        "Exhausted dressed fixed-fibre traces and self-adjoint extension",
+        "Nonabelian local residual/action and retained end terms"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_interacting_transport_2026_10_16/PROOF.md",
+      "blob": "039297defd72591fc82396f158ee77e1f0d9212f",
+      "packet": "surface_interacting_transport_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "d77124cc759b2c6f11a715349352f4cd0a4260f3b6cb9fa95ca0cf1e97943657",
+      "current_read_source_sha256": "d77124cc759b2c6f11a715349352f4cd0a4260f3b6cb9fa95ca0cf1e97943657",
+      "property_rows": [
+        "Actual source/MW isometry and coupled angular normal equation",
+        "Interacting dressed-domain horizontal inverse bound",
+        "Fixed-fibre local result versus curved global edge admission"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/PROOF.md",
+      "blob": "2d9de185d80ce7306aa8d69014c87d32cfa863bc",
+      "packet": "surface_invariant_brackets_2026_10_14",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "5b5d00c0a40d500150f044c1afeb140405b0bf9b3421da01ef7f5d405f1b167f",
+      "current_read_source_sha256": "5b5d00c0a40d500150f044c1afeb140405b0bf9b3421da01ef7f5d405f1b167f",
+      "property_rows": [
+        "Actual module intertwiners and entire invariant bracket algebra",
+        "Compact real form and intrinsic Killing certificate",
+        "Fixed parallel gauge phase versus all physical backgrounds"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_mode_transport_2026_10_15/PROOF.md",
+      "blob": "c252ea63d4a3ba85be61becadab52acb6fbc42ad",
+      "packet": "surface_mode_transport_2026_10_15",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "d8e1c1c80d8a8dbed06ef8db190df727d68386614f9cb326f1aad443a7ed21ca",
+      "current_read_source_sha256": "d8e1c1c80d8a8dbed06ef8db190df727d68386614f9cb326f1aad443a7ed21ca",
+      "property_rows": [
+        "Cochain homotopy versus local coefficient action",
+        "Actual analytic cusp kernel frame and section transition",
+        "Hodge line versus Dirac chirality and full projected connection"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/PROOF.md",
+      "blob": "a15e5e8ccf8a1bf4df797b4d45525d2fb49e2230",
+      "packet": "surface_odd_form_2026_10_14",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "085b455657006000508da58b708a0d54b90f9694ed194894a5b0b73c2a9f00ad",
+      "current_read_source_sha256": "085b455657006000508da58b708a0d54b90f9694ed194894a5b0b73c2a9f00ad",
+      "property_rows": [
+        "Odd complementary estimate without squaring the half-pole",
+        "Conditional total odd-sector confinement"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/PROOF.md",
+      "blob": "df32ad6f09d0f2c03658a0676d382b51124b2568",
+      "packet": "surface_parent_dictionary_2026_10_13",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "299e95d002398359ee3a3c8a1421f7acf256618284c0ad1e4b8a70dee3072b55",
+      "current_read_source_sha256": "299e95d002398359ee3a3c8a1421f7acf256618284c0ad1e4b8a70dee3072b55",
+      "property_rows": [
+        "Physical kinetic operator and twist"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_real_boundary_2026_10_15/PROOF.md",
+      "blob": "b03d821b1eb36a12f97f35ae9232645fb2c71378",
+      "packet": "surface_real_boundary_2026_10_15",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "039229d521e880b9c8d1954a39b711dd0749fd8368d8fe95f99ccf79ce197831",
+      "current_read_source_sha256": "039229d521e880b9c8d1954a39b711dd0749fd8368d8fe95f99ccf79ce197831",
+      "property_rows": [
+        "Actual MW/compact real structure and conjugate R slots",
+        "Both paired critical extremes without independent mirror doubling",
+        "Dressed local graphs versus bare-domain failures"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/PROOF.md",
+      "blob": "01c005fe1fb7705fbff0cad88c1c19182b9f1d6a",
+      "packet": "surface_real_fermion_work_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "9e9d56663a4eeafe296328901acccb9e18575e4dd1dfd4e06bfe0a0d916bc6a0",
+      "current_read_source_sha256": "9e9d56663a4eeafe296328901acccb9e18575e4dd1dfd4e06bfe0a0d916bc6a0",
+      "property_rows": [
+        "Full real Majorana trace and nonzero Grassmann work",
+        "Signed bulk-background balance and both orientations",
+        "Actual temporal source calibration versus Hamiltonian convention"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/PROOF.md",
+      "blob": "03eb78bbccd2869aaac689d5580db66c76179895",
+      "packet": "surface_real_superfield_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "c823f2ae951fe3fdedfdcd1b66938c64897d4b9d46dc29417ae36e12705c1306",
+      "current_read_source_sha256": "c823f2ae951fe3fdedfdcd1b66938c64897d4b9d46dc29417ae36e12705c1306",
+      "property_rows": [
+        "Whole superfield reduction and retained F primitive",
+        "Actual auxiliaries conjugates and finite-cutoff variation",
+        "Restricted boundary gauge class versus full local gauge law"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/PROOF.md",
+      "blob": "82edb9ccfd24fb2d2f357ccd10d9f1a57b62fea3",
+      "packet": "surface_real_twist_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "73b22dbc6e55c849e4100127ae4db0d2ca80278a9c77de51fbc9309da23f531f",
+      "current_read_source_sha256": "73b22dbc6e55c849e4100127ae4db0d2ca80278a9c77de51fbc9309da23f531f",
+      "property_rows": [
+        "Actual Noether scalar-plane generator",
+        "Opposite MW alternative and full geometric connection",
+        "Product-bundle descent versus selected physical handedness"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/PROOF.md",
+      "blob": "edcb8bc7f3bfae1f408ccd6a529387176838169a",
+      "packet": "surface_reverse_susy_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "c5a06952e068ce4cb233b9ba6136f2dfb8c21a2bc14fdea58864a69ee48fa77c",
+      "current_read_source_sha256": "c5a06952e068ce4cb233b9ba6136f2dfb8c21a2bc14fdea58864a69ee48fa77c",
+      "property_rows": [
+        "Actual reverse supersymmetry and local Euler map",
+        "Boundary gauge direction versus proper redundancy",
+        "Finite inner norm versus outer end completion"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_root_gauge_sector_2026_10_16/PROOF.md",
+      "blob": "8443a108b0f8771be2aa77d765bd4356a0db81d5",
+      "packet": "surface_root_gauge_sector_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "5cc11529bf7600f719763460c3a5f70277928568fdd66efbfaaf6df50baece76",
+      "current_read_source_sha256": "5cc11529bf7600f719763460c3a5f70277928568fdd66efbfaaf6df50baece76",
+      "property_rows": [
+        "Complete actual E8 root and source intertwiners",
+        "Local nonabelian gauge multiplet with omitted equations unsourced",
+        "Local algebra versus global based gauge phase and physical spectrum"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_same_action_transmission_2026_10_16/PROOF.md",
+      "blob": "22b9bc552a4e4dcfb356941c7805edf52d9cacc1",
+      "packet": "surface_same_action_transmission_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "d57ea6c28332a54437c9c2f9eca4372505322e25b66a340f7474ce5462cf5d6e",
+      "current_read_source_sha256": "d57ea6c28332a54437c9c2f9eca4372505322e25b66a340f7474ce5462cf5d6e",
+      "property_rows": [
+        "Same-source fields/momenta and full real trace matching",
+        "All joint principal directions and admitted gauge charges",
+        "Artificial smooth seam versus selection of true physical end"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/PROOF.md",
+      "blob": "768f0048bb13d0186bea259e0e63eec83ede065b",
+      "packet": "surface_source_operator_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "63c873342beb1fe445d4b53cab31dc684d7fe9e33d3a983619d5bef7c786bf97",
+      "current_read_source_sha256": "63c873342beb1fe445d4b53cab31dc684d7fe9e33d3a983619d5bef7c786bf97",
+      "property_rows": [
+        "Signed source component/action map",
+        "Hermitian completion versus printed conjugate action",
+        "Internal congruence and exact zero-kernel/domain transport"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/PROOF.md",
+      "blob": "b6ece4c3e84c2d566dadebf51485c8bbc549e3e9",
+      "packet": "surface_variational_join_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "a4d5dd39babdd00ce6121804e1070350e133bd35ff0c2d97bd9d946fa87106c5",
+      "current_read_source_sha256": "a4d5dd39babdd00ce6121804e1070350e133bd35ff0c2d97bd9d946fa87106c5",
+      "property_rows": [
+        "Same-normal-action BPS tangent and relative boundary functional",
+        "Ramified gauge transport of entire dressed graph",
+        "Literal source dictionary fence and later completion distinction"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/PROOF.md",
+      "blob": "5904e32d3ecd87b0483e251603f1790e8b09e8bf",
+      "packet": "surface_weak_completions_2026_10_14",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "1da419962ddf3c87ae9e457dc7cd72e26dc5899ff4eb52ed27033d79aac46d10",
+      "current_read_source_sha256": "1da419962ddf3c87ae9e457dc7cd72e26dc5899ff4eb52ed27033d79aac46d10",
+      "property_rows": [
+        "Complete stated commuting weak-correction family",
+        "Zero phase versus nonzero canonical radial mass",
+        "Conditional Fredholmness versus compact resolvent and actual index"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_weighted_hessian_2026_10_16/PROOF.md",
+      "blob": "6d592aae5748580aceea5206ad01451a60048132",
+      "packet": "surface_weighted_hessian_2026_10_16",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "bd1cb0651a05d07f7f7642bf3bf1660fa9d12f840ae9eeb850d8800e84df2824",
+      "current_read_source_sha256": "bd1cb0651a05d07f7f7642bf3bf1660fa9d12f840ae9eeb850d8800e84df2824",
+      "property_rows": [
+        "Actual projector and weighted real quadratic action map",
+        "Retained curvature-Higgs and both-end terms",
+        "Preserved BPS kernel versus changed nonzero norms and energies"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/PROOF.md",
+      "blob": "5470bcbb163da49c3bf08568794f7b404740297b",
+      "packet": "weave_boundary_index_2026_10_09",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "bfda6878689b9ecd73a1ecbcbcc0d0c17364501f05612f94eaf0a44730806bd5",
+      "current_read_source_sha256": "bfda6878689b9ecd73a1ecbcbcc0d0c17364501f05612f94eaf0a44730806bd5",
+      "property_rows": [
+        "Physical kinetic operator and twist",
+        "Coefficient-sensitive versus coefficient-blind boundary response"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/PROOF.md",
+      "blob": "53f50f2bc19b49a7b39ea3d8ba07a1eb88c228aa",
+      "packet": "weave_boundary_lift_2026_10_09",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "bb61e6692d221e43a376477f9e901fccc0716686ef9833634e8a342eab9f5060",
+      "current_read_source_sha256": "bb61e6692d221e43a376477f9e901fccc0716686ef9833634e8a342eab9f5060",
+      "property_rows": [
+        "Physical kinetic operator and twist",
+        "Angular boundary ellipticity and reality"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/PROOF.md",
+      "blob": "66343f2826f5e1a2cad176e0394d3e3f1355dfeb",
+      "packet": "weave_companion_roster_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "3ac161b2e4418b8826de0926ef853262d2f98ef57a1743a663d0b488f7d153c0",
+      "current_read_source_sha256": "3ac161b2e4418b8826de0926ef853262d2f98ef57a1743a663d0b488f7d153c0",
+      "property_rows": [
+        "Actual joint gauge-weight roster for specified minimal twists",
+        "Canonical parabolic dual versus ordinary dual and spin domain",
+        "Finite kernels versus continuum and isolated physical spectrum"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "blob": "ba609d278d63ca4b8e5b9e8efcf629ad5e63c542",
+      "packet": "weave_curved_action_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "current_read_source_sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "property_rows": [
+        "Supplied curved parent action",
+        "Physical kinetic operator and twist",
+        "Boundary variation of the interacting source"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/PROOF.md",
+      "blob": "76446d200e3802786629318d2cfc7f970b8f1b91",
+      "packet": "weave_cusp_anomaly_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "3a47346842499df5c0faff2aa7fec496d74f697b8d1d75132ee65e93cb40dd70",
+      "current_read_source_sha256": "3a47346842499df5c0faff2aa7fec496d74f697b8d1d75132ee65e93cb40dd70",
+      "property_rows": [
+        "Zero interior density versus complete physical index",
+        "Actual end extremes versus full eta invariant or compensator",
+        "Gauge admission and graph-compact equivariant index scope"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/PROOF.md",
+      "blob": "4064145526dfff943c9a7fed1d0885918b0d1a4e",
+      "packet": "weave_cusp_condensate_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "fbb0f0d51fcf915a1b3b5203d03a8d1f6df7011b5d8f00aa4be3223a14440977",
+      "current_read_source_sha256": "fbb0f0d51fcf915a1b3b5203d03a8d1f6df7011b5d8f00aa4be3223a14440977",
+      "property_rows": [
+        "Same-action nonlinear finite-norm end solution",
+        "Changed connection and logarithmic asymptotics",
+        "Actual root embedding and retained gapless companions"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/PROOF.md",
+      "blob": "615e5c5d6353724e9be5c1cef043f4f37a088266",
+      "packet": "weave_cusp_heat_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "f9a638cf8224f877ff41225f3bc356c7da6246500bedcbd8d46ca1f207522c9e",
+      "current_read_source_sha256": "f9a638cf8224f877ff41225f3bc356c7da6246500bedcbd8d46ca1f207522c9e",
+      "property_rows": [
+        "Common spatial-cutoff current and continuum relative density",
+        "Regulator limit order versus a consistent phase",
+        "Finite supertrace versus divergent ungraded action"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/PROOF.md",
+      "blob": "14b36977716a4e70814e77426fd726cb387decae",
+      "packet": "weave_cusp_ward_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "6e3dc4e96a75716035e85a85716221d721418e62bcdbf9531b0ff40f8a4a35e7",
+      "current_read_source_sha256": "6e3dc4e96a75716035e85a85716221d721418e62bcdbf9531b0ff40f8a4a35e7",
+      "property_rows": [
+        "Retained propagator end current on admitted external probes",
+        "Gauge-direction curl versus an integrable phase variation",
+        "Specified candidate failure versus every quantum completion"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/PROOF.md",
+      "blob": "7df4f878f5cd9081812faf4208b4f015b61a6821",
+      "packet": "weave_end_gaussian_2026_10_09",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "21739f08bbe2ed0b95fe4232b48cb2bba484a57779e9021cad06f8f62f8fc4bf",
+      "current_read_source_sha256": "21739f08bbe2ed0b95fe4232b48cb2bba484a57779e9021cad06f8f62f8fc4bf",
+      "property_rows": [
+        "Normal kinetic Hamiltonian and retained Weyl endpoint factor",
+        "Supplied balanced reference and charged endpoint modes",
+        "Normal admission versus full angular boundary law"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/PROOF.md",
+      "blob": "50b838428dec771a6a4282d7fea30a31767adb48",
+      "packet": "weave_field_map_2026_10_14",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "24cab7e65ddbb8b37c5c8dddb5cde0171e588e7918eb619f54ee8bd53c0332e0",
+      "current_read_source_sha256": "24cab7e65ddbb8b37c5c8dddb5cde0171e588e7918eb619f54ee8bd53c0332e0",
+      "property_rows": [
+        "Three parity quaternion doublets",
+        "Compact E8 gauge frame and complete charged roster"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/PROOF.md",
+      "blob": "448ba125e48f9735eb690b21cff25666ba03f948",
+      "packet": "weave_form_parent_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "9c496728d230798a4db14841f91fe2ef272720be69950292164b4c697414bbd5",
+      "current_read_source_sha256": "9c496728d230798a4db14841f91fe2ef272720be69950292164b4c697414bbd5",
+      "property_rows": [
+        "Compact E8 gauge frame and complete charged roster",
+        "Physical kinetic operator and twist"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/PROOF.md",
+      "blob": "c17da822c5cc52981bedf2309ecc182c05116f42",
+      "packet": "weave_four_dimensional_unit_2026_10_12",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "dccf9f2ca192d99578204544d2c150380f6d92eaf18fc7044a7bd50ca2d1a1f2",
+      "current_read_source_sha256": "dccf9f2ca192d99578204544d2c150380f6d92eaf18fc7044a7bd50ca2d1a1f2",
+      "property_rows": [
+        "Finite-action four-real-dimensional pure-gauge lift",
+        "Yang-Mills versus zero-moment stationarity"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/PROOF.md",
+      "blob": "cf9f8aeb770f587a0b629000a082d634df542d13",
+      "packet": "weave_gauge_limit_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "2300e028c044ce7a38cd87ec4f897b2f5e936b0b47e0fed093c5d166b2e2c22e",
+      "current_read_source_sha256": "2300e028c044ce7a38cd87ec4f897b2f5e936b0b47e0fed093c5d166b2e2c22e",
+      "property_rows": [
+        "Actual local heat jets and full physical slot cancellation",
+        "Classical graph convergence versus quantum end continuity",
+        "Admitted constant gauge mode and actual reference-state duty"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/PROOF.md",
+      "blob": "dc1e3c00b5d4162d51ea9f7a07c6f7da0df5bbf4",
+      "packet": "weave_global_condensate_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "05a4f2423a6ba030d8f041c0a3236c32117f1ee78b69feb2cc71ce5050b03e55",
+      "current_read_source_sha256": "05a4f2423a6ba030d8f041c0a3236c32117f1ee78b69feb2cc71ce5050b03e55",
+      "property_rows": [
+        "Explicit global nonflat stationary admission and compensated peripheral",
+        "Actual surviving g2 versus all compensator choices",
+        "Finite graph norms and retained essential channels"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/PROOF.md",
+      "blob": "ed9513e649014bb955e924fa17544617ee4228cb",
+      "packet": "weave_graded_condensate_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "22a1a213a739348eddc3431f5d022bcd8f604f3bba58febfe48ef044d6f806b9",
+      "current_read_source_sha256": "22a1a213a739348eddc3431f5d022bcd8f604f3bba58febfe48ef044d6f806b9",
+      "property_rows": [
+        "Matched cocharacter and full geometric spin grading",
+        "Parent-derived full fermion blocks and essential gap",
+        "Global charged intertwiner versus all SU3 backgrounds"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/PROOF.md",
+      "blob": "4176c40c642ad1a396fb1c09e2bdc5d12ac5b514",
+      "packet": "weave_magnetic_index_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "8ca99b10c3da48289e47d76cf78870e904558861e19b1e0f9b9dce59079473a7",
+      "current_read_source_sha256": "8ca99b10c3da48289e47d76cf78870e904558861e19b1e0f9b9dce59079473a7",
+      "property_rows": [
+        "Complete-cusp Dolbeault domains with logarithmic endpoints",
+        "Bosonic residual index versus physical fermion index",
+        "R-zero instability for all nonzero flux and retained second-field hatch"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/PROOF.md",
+      "blob": "967d566fd2b4e0789a8aff726682bfccda962785",
+      "packet": "weave_magnetic_stationarity_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "939d5c756963c7f6113a444772780255eb19087250886a682306f319cc7fc81f",
+      "current_read_source_sha256": "939d5c756963c7f6113a444772780255eb19087250886a682306f319cc7fc81f",
+      "property_rows": [
+        "Full stationarity with nonzero parallel residual",
+        "Admitted complete-domain negative directions",
+        "Limiting peripheral versus normalized end operator"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "blob": "0e9086207e2b44f3421377f95c2f235cb779528b",
+      "packet": "weave_neutral_stability_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862",
+      "current_read_source_sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862",
+      "property_rows": [
+        "Finite-norm neutral spin modulus and complete real Hessian",
+        "Essential instability versus discrete stability",
+        "Retained charged, gauge and conjugate sectors"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/PROOF.md",
+      "blob": "f7183127d6907607f68127abefd1ffd10f0b3e72",
+      "packet": "weave_paired_phase_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "4177cf899a621b324a658602e4638f6e3e5217b80f91dff349ec415ccc9c599d",
+      "current_read_source_sha256": "4177cf899a621b324a658602e4638f6e3e5217b80f91dff349ec415ccc9c599d",
+      "property_rows": [
+        "Actual polar pairing and both finite kernels",
+        "Supplied nonlocal phase prescription versus a local quantum action",
+        "Consistent anomaly versus gauge invariance"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "blob": "df4bae0daca59451632a9aa96fef60f88780d5a0",
+      "packet": "weave_physical_mass_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "current_read_source_sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "property_rows": [
+        "Actual four-Weyl mass from same-action Hessian and gauge coupling",
+        "Weighted global bundle isometries and complete graph-domain map",
+        "Conditional physical charged index versus a stable anomaly-free vacuum"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/PROOF.md",
+      "blob": "e9a127a531ca42c5747d1b2dce679a1194417720",
+      "packet": "weave_puncture_operator_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "0102fc971479acc9d57a05c6234dcbf4ada7007269d96bc4931719bebabf929f",
+      "current_read_source_sha256": "0102fc971479acc9d57a05c6234dcbf4ada7007269d96bc4931719bebabf929f",
+      "property_rows": [
+        "Three parity quaternion doublets",
+        "Finite-distance spin Dirac realization",
+        "Graded self-adjoint domain",
+        "Complete cusp versus finite-distance domain"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md",
+      "blob": "8f1ca92a3ee8016c3767a4dcc93a9bef954bdf35",
+      "packet": "weave_registered_embedding_2026_10_13",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "cedd75ade10476f0cf20ff783edd3a4e81caa5196b3b702ede66a066669b360d",
+      "current_read_source_sha256": "cedd75ade10476f0cf20ff783edd3a4e81caa5196b3b702ede66a066669b360d",
+      "property_rows": [
+        "Three parity quaternion doublets",
+        "Compact E8 gauge frame and complete charged roster"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "blob": "94bebd3ac299c496b1c610733d7688d4aa880bfe",
+      "packet": "weave_sm_parallel_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c",
+      "current_read_source_sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c",
+      "property_rows": [
+        "Admitted stationary gapped SM-gauge phase",
+        "Fixed-domain charged index and compact-core invariance",
+        "Parallel ansatz classification versus all physical backgrounds"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/PROOF.md",
+      "blob": "409ba909deb5244515be7fcfcaa5339710741fae",
+      "packet": "weave_two_field_gauge_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "6fde4ee72a8e041c2c70af31a36e56b9c78c31feffe1b8cc485ffdd1e184d7f5",
+      "current_read_source_sha256": "6fde4ee72a8e041c2c70af31a36e56b9c78c31feffe1b8cc485ffdd1e184d7f5",
+      "property_rows": [
+        "Two-field zero-residual global completion and actual E8 quotient",
+        "Supplied cube roots and flat compensator",
+        "Failed old pairing map versus computed chirality"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "blob": "7ddccb3f5cf7901e3280fc60b05d58bfd4b82d27",
+      "packet": "weave_two_neutral_index_2026_10_08",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b",
+      "current_read_source_sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b",
+      "property_rows": [
+        "Complete two-field elliptic complex and auxiliary-kernel removal",
+        "Physical negative directions versus a bosonic Hodge index",
+        "All-flux neutral-family obstruction with zero-flux positives retained"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/bundle_transport/PROOF.md",
+      "blob": "a0cb3955d5f57a6806f30b141223204cba845ca5",
+      "packet": "bundle_transport",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "04ef0e436861351d7880a8e552049fe7c654a658f3d98717c5128cb453bd0703",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Cohomology and coefficient transport",
+        "Lift-sign and parity preservation"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/cohomology_carrier/PROOF.md",
+      "blob": "2f672d35fb0a2e1cb2174a6b66eb4939dcae0923",
+      "packet": "cohomology_carrier",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "6193c07eaeccdbb33ef1bc4d54522e62d2c2b9922367ce6b2fe60c6af6a916a4",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Minimal retained algebra for the specified coefficient cocycles"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/cusp_connection/PROOF.md",
+      "blob": "72a9d7d732e4b7420c1a65088819b716cba3c779",
+      "packet": "cusp_connection",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "676dea8c0ab74562c251134f294ec2294f41aa86aadd03beedff02161adf8908",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Smooth finite-action end-line realization",
+        "Integral extension versus continuous open flux"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/cusp_spin_extension/PROOF.md",
+      "blob": "b284dfaedb6e20591806bcbd65bd04e953b5baa8",
+      "packet": "cusp_spin_extension",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "ee993b3ee7277fdb716222718c1fefba8c827d02d2642860c738a7ceaf5bb28a",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Ordinary versus logarithmic spin extension",
+        "Nonuniform cusp correction under the half-weight shift"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/fibre_family/PROOF.md",
+      "blob": "a37d23a6e9d47f3f27e494edf32830e0804a7bc1",
+      "packet": "fibre_family",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "07b0323b162864d45452bda35fd0158849f46f65289bba98395481cb03e87817",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Spin-coordinate cancellation in the critical trace",
+        "Smooth vertical Fredholm family and connecting map"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/horizontal_projection/PROOF.md",
+      "blob": "854f34e24ddfe2a101da37aa93edb3a6c50d182c",
+      "packet": "horizontal_projection",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "6f5d690c998c25535c950618615fb97831029e62e77c7780138ad85e7c51bff1",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Bounded horizontal projection and nonzero mixing",
+        "Actual projected cusp phases and confinement"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/kernel_transport/PROOF.md",
+      "blob": "c673c79a3be7daddd84481545b4c58ab4e4d9d62",
+      "packet": "kernel_transport",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "a2ab03d02337b5203a0921ff54bb0f40e7dcb955eba5897b9f965c8008530fc6",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Bounded complex transport",
+        "Positive flag amplitude independent of zero-mode multiplicity"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/matter_line_compatibility/PROOF.md",
+      "blob": "34ddf93ecedcbd233f782c7a55f6a00dfd19ca21",
+      "packet": "matter_line_compatibility",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "c53b2ecc73191692c6f24448b0d46668776f4a4025b62993b13b06d8f325f39f",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Interacting two-field line compatibility",
+        "Opposite charges versus common scalar adjoint twist"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/nodal_transport/PROOF.md",
+      "blob": "1583ab2bd0dbb76bafe6e05bea1b3ac896e37a59",
+      "packet": "nodal_transport",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "1af1f90cfa6dcc6a8c1c5cda5472eb45f60ee299228c69329f01b0d6558e1fc5",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Primitive node holonomy and framing",
+        "Local contraction without integer-extension selection"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/noncompact_admission/PROOF.md",
+      "blob": "27b5cbd73d18270d9f09718d08d3a6e8a9e54909",
+      "packet": "noncompact_admission",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "899ecfc306683155d9c396c7f92365c0f4679f4a9498698ae7da973817d0f9a0",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Conditional nonsplit harmonic admission in a prescribed complete flag class"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/positive_carrier/PROOF.md",
+      "blob": "3c0477e2ceb8fcfee0784af7416f97e1f05eb05b",
+      "packet": "positive_carrier",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "97e48617c47b858f91f91e36fcdd28f405445fa132c33441354a3663e5e79dc7",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Positive-word retention versus signed-word universality"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/puncture_fredholm/PROOF.md",
+      "blob": "b748524880eb0c519ddbe336705886797969370c",
+      "packet": "puncture_fredholm",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "0977f84f75df44e11ce1f65bbe17e5b6d4a602e2ff3bb927ea991f81d93e2aaf",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Finite-distance closed Dirac domain",
+        "Actual kernel and cokernel to sheaf map"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/puncture_symmetry/PROOF.md",
+      "blob": "5e5dd23dbd9019727710e1dae702a7055aafb793",
+      "packet": "puncture_symmetry",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "eb5cb00e092be2569a33f6938598fd441c08fce902ccd2e6c99eab7afac21aa6",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Graded self-adjoint domain",
+        "Symmetry constraints on the domain"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/theta_cusp/PROOF.md",
+      "blob": "ff5d95c1e4c6a831f4f2390887f00f990bb1e31a",
+      "packet": "theta_cusp",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "9cb2760b9bc2ac2f988565dd1bb99b11bb0bfbe5f490071b33d8e0ca5b4cb2b9",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Classical discriminant from the existing theta functions",
+        "Open trivialization versus chosen end sector"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/total_domain/PROOF.md",
+      "blob": "60643ee3875dbe07c8495bce5f0722dcb2937c96",
+      "packet": "total_domain",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "f7ea165d00b5b5af31dd932a530515142b7112ce4a2b1544a9f4b4449b21ebb3",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Horizontal normal-family ellipticity",
+        "Global total selfadjoint closure with prescribed trace"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/total_metric_dirac/PROOF.md",
+      "blob": "9f43f415bb83f5352a70b84a6593c6232563272e",
+      "packet": "total_metric_dirac",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "a34062c820e711ef79b0224c7668436fc293789c36da646f39f6bfb648436cf1",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Actual total metric and mixed spin connection"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/vertical_cusp_gap/PROOF.md",
+      "blob": "5f04baabc6e57072b6018df933a6605f974d21a6",
+      "packet": "vertical_cusp_gap",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "27d58c5be9d8aa36a1b227393f529436b733797b8cfbe4cc30282f2a5870e1b8",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Uniform vertical complement estimate retaining the puncture modes"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/weighted_global_complex/PROOF.md",
+      "blob": "17c7bf3d6c56049cf45318f34ce5c68a73d276d7",
+      "packet": "weighted_global_complex",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "012955dbcda1815182b2f8057db11af18cad525a6ca7f46c6302e223b21a59f5",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Complete weighted charged complex and full compact-core restriction"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/word_lifts/PROOF.md",
+      "blob": "5be4b3be8e4505ee4a61010c9b5315c8e6d4d7e0",
+      "packet": "word_lifts",
+      "review_status": "SOURCE_READ_AND_PROPERTY_MAPPED",
+      "source_sha256": "fb4c19711ae094b10a63ee92e865a4e2d07936dda5bc0d6e2ab51ef05d4ea561",
+      "current_read_source_sha256": null,
+      "property_rows": [
+        "Coherent positive lift transport",
+        "Based versus outer symmetry"
+      ],
+      "fresh_scientific_execution_in_this_audit": false,
+      "source_role": "UNCLASSIFIED_INVENTORY_ARTIFACT"
+    }
+  ],
+  "external_dependencies": [
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "frontier/B1606_three_on_the_weave_graded/FINDINGS.md",
+      "bytes": 5088,
+      "blob": "8818ef3eb64d0b4407a6abb6bc15f41d18af619b",
+      "sha256": "30817f2c2a3a2380748878cdf0b5f6870f98f96233b2b2ff43c5f0403da17ef7",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    },
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "frontier/B1606_three_on_the_weave_graded/verification/puncture_condition.py",
+      "bytes": 5804,
+      "blob": "e74e9511afd6883f3bd7e215fc9794c167577e87",
+      "sha256": "ec5e6bdf5362183899b418104317bef970478c9e80e7203b4b95c1601a89ddad",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    },
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "tests/test_b1606_three_on_the_weave_graded.py",
+      "bytes": 2108,
+      "blob": "73391bb2c7758856492f322171ed095a8d4547d9",
+      "sha256": "63e30bcdc81ea316cdfb5284c6cbd08c2564bcbfad45e923e8a8c9764a9065a8",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    },
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md",
+      "bytes": 8021,
+      "blob": "bb38c241644c4273650716b95c2029ba505f37af",
+      "sha256": "5e8b5b70ae06682707e79dd40692a824cb4e037aa695518d11d293486fe19554",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    },
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "frontier/B1641_w46_on_main_and_the_two_objects/ADDENDUM_2026-10-14_scoped_at_review_63.md",
+      "bytes": 708,
+      "blob": "aca06c3e8c1a393d2d192a91b4b030bd39d2f5ce",
+      "sha256": "69f4bd50ea02aa61c4cdd6974ea58415e7db1e5ab3bcf7634a4ebd8214a99826",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    },
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "frontier/B1641_w46_on_main_and_the_two_objects/verification/w46_on_main.py",
+      "bytes": 13511,
+      "blob": "e0467b53123e4b3ab9ec70471337b6525c1e7559",
+      "sha256": "ce5898250ed25b807b34a06dc622308a08bbb2719306195db5c9fdc24e91f259",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    },
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "tests/test_b1641_w46_on_main_and_the_two_objects.py",
+      "bytes": 3586,
+      "blob": "0640f8e4522ab7a0c21c2e410134cefcc1795a24",
+      "sha256": "a5505ef5a6dd51b5212a99be893c9c1c53e44883427aaf019e490fb5c8ec9315",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    },
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "frontier/B1667_the_canonical_cusp/FINDINGS.md",
+      "bytes": 6233,
+      "blob": "6b1eff326e39047b41acd9b9bb98bacce0ddb502",
+      "sha256": "42d71d7270dbf38666d7ea437c3ed6485880992b7ff5ab7e6000c89546c6d859",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    },
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-16_THE_CANONICAL_CUSP.md",
+      "bytes": 2744,
+      "blob": "da5bcee40fc088bc2365be24bf032e2d66a0b0ea",
+      "sha256": "ea639a6108738906fdba350108f4b0024bec3b67b9753757ce50480cbc1c16ab",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    },
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "frontier/B1609_the_even_subweave/FINDINGS.md",
+      "bytes": 6580,
+      "blob": "fbd949904b7233c002db98b72ff2aa236e960435",
+      "sha256": "598f094bb80e297602204fec71a60d1ed4a1c2441cc7502fdad2a5df611039c5",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    },
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "frontier/B1609_the_even_subweave/verification/even_subweave.py",
+      "bytes": 11855,
+      "blob": "e21f2162b981a27d0a4ed2742c0e2508e41a9cb5",
+      "sha256": "c4f5f1497d93f1f11ad40ff4ecbe225e0dd80872bdd2bdc0600ff1808b811e69",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    },
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "tests/test_b1609_the_even_subweave.py",
+      "bytes": 2430,
+      "blob": "4239e26caf1f72d7221a14e0203d50b1cef9830f",
+      "sha256": "9b66aa0fed2418f5d8fa6c8cd242e5bc9b064a321e4fbd15dffce605a566ea8e",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    },
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "frontier/B1609_the_even_subweave/ARTIFACT_HASHES.txt",
+      "bytes": 860,
+      "blob": "8b7197a940d83944432b6ed2c1104dde15aabb94",
+      "sha256": "e5e21e9c65823d31e871c79e3c21299093aa48a4e62225a7fd6ffa78667386f9",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    },
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "frontier/B1651_where_a_higgs_can_couple/FINDINGS.md",
+      "bytes": 10351,
+      "blob": "1cc04781502b9b21265e86a60e365622a183b497",
+      "sha256": "b35923ceb32781ab21f25f6c6dd08c5dc9b26b348333773cf2682aca5639568a",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    },
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "frontier/B1651_where_a_higgs_can_couple/ADDENDUM_2026-10-14_the_szego_reading.md",
+      "bytes": 9760,
+      "blob": "a5dd6c61a31683c0ee1aa90eff2ee42fb537e701",
+      "sha256": "f0ac1b7cb0fc8cb6e8d0f4a72d8954bf502153b24cf675fd751d31159ec623fd",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    },
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "frontier/B1654_the_norm_of_the_boundary_class/FINDINGS.md",
+      "bytes": 10653,
+      "blob": "244fa0d8e6b2c1f971676a66e4078bbd639cfa10",
+      "sha256": "97e8890704dbbc43a50a2f36d70ce7a41eda9106d87b3525be3d07dcbe75aeb4",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    },
+    {
+      "commit": "562882d15a5f4b9a3d6e651733d5df967167c53c",
+      "path": "frontier/B1651_where_a_higgs_can_couple/ADDENDUM_2026-10-14_the_seats_answers.md",
+      "bytes": 3377,
+      "blob": "8405327c5388a3acd463659ffe73fd4fb278cc37",
+      "sha256": "e069888a0384b912cdebc7ba93cf1d36d1e5988045add148a2f84bdd6a778c2a",
+      "grade": "SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT"
+    }
+  ]
+}

@@ -1,5 +1,16 @@
 # Approved physics mission and execution criteria
 
+Verified phase9 sourcefbb0b4cd0:93direct source/property mappings,three
+aliases,89pending,17external;185blobs/11metadata controls PASS. Phase8
+reproduces except checker hash;18520tracked/index/39pins unchanged.
+All33surface_ proof paths in the frozen inventory are mapped,not all
+source/dependency/history packets. Actual Gauss/end variation,real odd
+work,tilted global geometry and local interacting gauge positive retained.
+Their boundary state/ensemble and same-field physical admission remain
+distinct duties. GLOBAL_END_AND_GAUGE_SPECIFICATION and PHASE9_VALIDATION
+preserve precise alternatives and original historical failure custody.
+No new science,accepted admission or full physical-goal completion.
+
 Verified phase8 sourceb20a3280d:83direct source/property mappings,three
 aliases,99pending,17external;185blobs/11metadata controls PASS. Phase7
 reproduces except checker hash;18475tracked/index/40pins unchanged.

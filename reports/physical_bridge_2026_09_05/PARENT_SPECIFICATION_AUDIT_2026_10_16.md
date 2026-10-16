@@ -16,11 +16,11 @@ of one realization does not discharge or refute the others.
 
 ## Current coverage and next derivation duty
 
-The verified phase8 reconciliation at source b20a3280d records 83 directly
+The verified phase9 reconciliation at source fbb0b4cd0 records 93 directly
 read and property-mapped proof paths, three byte-identical aliases and
-99 pending paths among the original 185. All pinned blobs and eleven
+89 pending paths among the original 185. All pinned blobs and eleven
 metadata controls pass; 17 external dependency readings are recorded.
-[Phase8 validation](specification_audit_2026_10_16/PHASE8_VALIDATION.md)
+[Phase9 validation](specification_audit_2026_10_16/PHASE9_VALIDATION.md)
 preserves the source envelope and earlier reconciliations. These are
 source-reading counts, not independently accepted proofs or complete
 packet re-audits. The staged publication check is a separate envelope.
@@ -57,6 +57,15 @@ pair does not select a sign, a gap does not select a sector, and artificial
 matching does not select the true physical end. These scoped positives
 sharpen the required global field/action/end derivation without substituting
 the full-parent trace for the separate rank-six matter coefficient.
+
+[Global boundary and gauge specification](GLOBAL_END_AND_GAUGE_SPECIFICATION_2026_10_16.md)
+recovers actual Gauss charge and source variation, real Grassmann work,
+tilted tube geometry, full boundary lifts and the interacting local gauge
+multiplet. All 33 surface_ proof paths in this frozen inventory are now
+mapped, not all source packets or history. Canonical electric charge,
+field-space moment and Green reciprocity are different structures. The
+action's momenta do not choose an allowed end state; local principal
+failures retain their paired/nonlocal alternatives and bounded scope.
 
 ## Population and coverage history
 

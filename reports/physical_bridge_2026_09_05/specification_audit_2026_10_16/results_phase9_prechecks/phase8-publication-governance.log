@@ -1,0 +1,3658 @@
+{
+  "results": {
+    "append-only": [
+      true,
+      "HEAD prefix preserved"
+    ],
+    "arc-verdicts": [
+      true,
+      "ok"
+    ],
+    "atlas-fresh": [
+      true,
+      "ok"
+    ],
+    "atlas-lexicon-current": [
+      true,
+      "ok (16 substantial blind, all triaged; 4 open GAPs: B1076, B1078, B899, B935; 19 thin arcs excluded)"
+    ],
+    "attribution": [
+      true,
+      []
+    ],
+    "chain-locks": [
+      true,
+      "ok (46 links, every non-AXIOM one locked)"
+    ],
+    "claims": [
+      true,
+      []
+    ],
+    "doc-currency": [
+      true,
+      "ok"
+    ],
+    "firewall-oneway": [
+      true,
+      []
+    ],
+    "framing": [
+      true,
+      []
+    ],
+    "id-collisions": [
+      true,
+      "ok (1201 arcs, next free B1256)"
+    ],
+    "identification-register": [
+      true,
+      "ok"
+    ],
+    "knowledge-index": [
+      true,
+      "ok (27 explainers, all indexed)"
+    ],
+    "law-map-provenance": [
+      true,
+      "ok (723 rows all traceable; 385 locked -- index, not ledger)"
+    ],
+    "lawmap-scope": [
+      true,
+      "ok"
+    ],
+    "log-changelog-paired": [
+      true,
+      "ok (one progress log; changelog lag 0)"
+    ],
+    "path-refs": [
+      true,
+      "ok (3579 citations resolve)"
+    ],
+    "practices-register": [
+      true,
+      "ok (30 gates all registered)"
+    ],
+    "relay-debt": [
+      true,
+      "ok"
+    ],
+    "representation-sweep": [
+      true,
+      "ok"
+    ],
+    "retraction-sweep": [
+      true,
+      "ok"
+    ],
+    "review-actions": [
+      true,
+      "ok (5 open in the latest block, advisory; carry chain continuous)"
+    ],
+    "seal-digests": [
+      true,
+      "ok (736 sealed digests recomputed and matching)"
+    ],
+    "seal-provenance": [
+      false,
+      {
+        "counts": {
+          "absent_branch": 0,
+          "data": 1,
+          "historical_violation": 5,
+          "preregistration": 153,
+          "source": 3,
+          "unknown": 562
+        },
+        "problems": [
+          {
+            "path": "frontier/B1138_structural_completion/verification/my_chevalley.py",
+            "rows": 43,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/CONE_CHANNEL_PROOF.md",
+            "rows": 32,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/CONE_MULTIPLET_PROOF.md",
+            "rows": 32,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/EXTENSION_2.md",
+            "rows": 1,
+            "status": "historical_noncompliant"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md",
+            "rows": 1,
+            "status": "historical_noncompliant"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md",
+            "rows": 1,
+            "status": "historical_noncompliant"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/HARMONIC_CUSP_DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/HARMONIC_CUSP_TRANSPORT_DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/SINGULAR_CUSP_DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md",
+            "rows": 21,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md",
+            "rows": 1,
+            "status": "historical_noncompliant"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md",
+            "rows": 1,
+            "status": "historical_noncompliant"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/HIGGS_PARENT_MAP_REVIEW.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/INPUTS.json",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/METADATA_REPAIR.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/probe.py",
+            "rows": 5,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/replay.rb",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/finite_twist_reductivity.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/joining_handoff_replay_2026_10_12/DESIGN.md",
+            "rows": 2,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/joining_handoff_replay_2026_10_12/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/joining_handoff_replay_2026_10_12/replay.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/joining_handoff_replay_2026_10_12/results/gate3/END_MATRICES.json",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/joining_handoff_replay_2026_10_12/results/gate3/EXACT_RESULTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/upstream_PREREGISTRATION.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/upstream_residue_coupling.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/SOURCE_CUSTODY.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/expected/the_completion_dichotomy.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/expected/the_lane_su2_branching.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/expected/where_a_higgs_couples.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/incoming/the_completion_dichotomy.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/incoming/the_cusp_condensate_charge_map.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/incoming/the_lane_su2_branching.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/incoming/where_a_higgs_couples.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/MODEL.json",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/PROOF.md",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/REPAIR.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/probe.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/reference.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_analytic_transfer_2026_10_09/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_analytic_transfer_2026_10_09/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_analytic_transfer_2026_10_09/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_analytic_transfer_2026_10_09/custody.rb",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_analytic_transfer_2026_10_09/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_analytic_transfer_2026_10_09/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/MODEL.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/PROOF.md",
+            "rows": 22,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/MODEL.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/REPAIR.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/REPAIR_2.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/REPAIR_3.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/REPAIR_4.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/REPAIR_5.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/REPAIR_6.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py",
+            "rows": 7,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/custody.rb",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/probe.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/SOURCE_AUDIT.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/admission_PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/complete_domain_PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/transport_PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/POST_RESULT_LOCK.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/DESIGN.md",
+            "rows": 2,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/FIRST_FAILURE.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/INPUTS.json",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/probe.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_extension_2026_10_13/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_extension_2026_10_13/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_extension_2026_10_13/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_extension_2026_10_13/SOURCE_AUDIT.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_extension_2026_10_13/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_extension_2026_10_13/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_extension_2026_10_13/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/DESIGN.md",
+            "rows": 2,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/FIRST_FAILURE.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/INPUTS.json",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/probe.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/reference.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/INITIAL_INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/INPUTS.json",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/REPAIR_2026_10_13.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/reference.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/FIRST_EXECUTION_RECEIPT.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/FIRST_FAILURE.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/FIRST_INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/FIRST_LAUNCH.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/FIRST_LAUNCH_RECEIPT.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/FIRST_NATIVE.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/FIRST_NATIVE.stderr.redacted.log",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/INPUTS.json",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/SOURCE_AUDIT.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/probe.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+            "rows": 30,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/probe.py",
+            "rows": 28,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/reference.py",
+            "rows": 28,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/MODEL.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/PROOF.md",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/probe.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_higgs_quartic_2026_10_11/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_higgs_quartic_2026_10_11/HODGE_SCOPE.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_higgs_quartic_2026_10_11/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_higgs_quartic_2026_10_11/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_higgs_quartic_2026_10_11/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_higgs_quartic_2026_10_11/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/MODEL.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/BLOCK_REFINEMENT.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/CONTROL_WIRING_REPAIR.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/REPAIR_1.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/probe.py",
+            "rows": 3,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/reference.py",
+            "rows": 4,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_neutral_cubic_2026_10_11/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_neutral_cubic_2026_10_11/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_neutral_cubic_2026_10_11/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_neutral_cubic_2026_10_11/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_neutral_cubic_2026_10_11/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/PROOF.md",
+            "rows": 21,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json",
+            "rows": 3,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/MODEL.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/REPAIR.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/REPAIR_2.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/reference.py",
+            "rows": 3,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/MODEL.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/MODEL.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/probe.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/DESIGN.md",
+            "rows": 2,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/MODEL.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/PROOF.md",
+            "rows": 34,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/probe.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/reference.py",
+            "rows": 34,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/PROOF.md",
+            "rows": 32,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/probe.py",
+            "rows": 32,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/PROOF.md",
+            "rows": 17,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/PROOF.md",
+            "rows": 14,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/SOURCE_CUSTODY.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/probe.py",
+            "rows": 14,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/upstream_SM_relay.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/upstream_W75.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_actual_tube_2026_10_16/DESIGN.md",
+            "rows": 19,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_actual_tube_2026_10_16/INPUTS.json",
+            "rows": 19,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_actual_tube_2026_10_16/POST_HOC_REPAIR.md",
+            "rows": 17,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_actual_tube_2026_10_16/PROOF.md",
+            "rows": 19,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_actual_tube_2026_10_16/analysis.py",
+            "rows": 19,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_actual_tube_2026_10_16/execute.py",
+            "rows": 19,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_actual_tube_2026_10_16/make_seal.rb",
+            "rows": 19,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_actual_tube_2026_10_16/probe.py",
+            "rows": 19,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_actual_tube_2026_10_16/reference.py",
+            "rows": 19,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_actual_tube_2026_10_16/validate.rb",
+            "rows": 19,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_all_angular_response_2026_10_16/DESIGN.md",
+            "rows": 10,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_all_angular_response_2026_10_16/INPUTS.json",
+            "rows": 10,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_all_angular_response_2026_10_16/POST_HOC_REPAIR.md",
+            "rows": 9,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_all_angular_response_2026_10_16/PROOF.md",
+            "rows": 10,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_all_angular_response_2026_10_16/analysis.py",
+            "rows": 10,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_all_angular_response_2026_10_16/execute.py",
+            "rows": 10,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_all_angular_response_2026_10_16/make_seal.rb",
+            "rows": 10,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_all_angular_response_2026_10_16/probe.py",
+            "rows": 10,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_all_angular_response_2026_10_16/reference.py",
+            "rows": 10,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_all_angular_response_2026_10_16/results/repair_run/probe.json",
+            "rows": 8,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_all_angular_response_2026_10_16/validate.rb",
+            "rows": 10,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_angular_response_2026_10_16/DESIGN.md",
+            "rows": 16,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_angular_response_2026_10_16/INPUTS.json",
+            "rows": 16,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_angular_response_2026_10_16/PROOF.md",
+            "rows": 16,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_angular_response_2026_10_16/analysis.py",
+            "rows": 16,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_angular_response_2026_10_16/execute.py",
+            "rows": 16,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_angular_response_2026_10_16/make_seal.rb",
+            "rows": 16,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_angular_response_2026_10_16/probe.py",
+            "rows": 16,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_angular_response_2026_10_16/reference.py",
+            "rows": 16,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_angular_response_2026_10_16/validate.rb",
+            "rows": 16,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/DESIGN.md",
+            "rows": 4,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/INPUTS.json",
+            "rows": 4,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/PROOF.md",
+            "rows": 7,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/REPAIR.md",
+            "rows": 4,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/execute.py",
+            "rows": 4,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/probe.py",
+            "rows": 6,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/reference.py",
+            "rows": 4,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/DESIGN.md",
+            "rows": 12,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/INPUTS.json",
+            "rows": 12,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/POST_HOC_REPAIR.md",
+            "rows": 11,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/PROOF.md",
+            "rows": 12,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/analysis.py",
+            "rows": 12,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/execute.py",
+            "rows": 12,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/make_seal.rb",
+            "rows": 12,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/probe.py",
+            "rows": 12,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/reference.py",
+            "rows": 12,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/results/repair_run/probe.json",
+            "rows": 10,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/validate.rb",
+            "rows": 12,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_curved_boson_2026_10_16/DESIGN.md",
+            "rows": 21,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_curved_boson_2026_10_16/INPUTS.json",
+            "rows": 21,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_curved_boson_2026_10_16/PROOF.md",
+            "rows": 21,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_curved_boson_2026_10_16/analysis.py",
+            "rows": 21,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_curved_boson_2026_10_16/execute.py",
+            "rows": 21,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_curved_boson_2026_10_16/make_seal.rb",
+            "rows": 21,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_curved_boson_2026_10_16/probe.py",
+            "rows": 21,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_curved_boson_2026_10_16/reference.py",
+            "rows": 21,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_curved_boson_2026_10_16/validate.rb",
+            "rows": 21,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/DESIGN.md",
+            "rows": 2,
+            "status": "missing_fields"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/FULL_EVEN_DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/FULL_EVEN_INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/FULL_EVEN_PROOF.md",
+            "rows": 7,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/PROOF.md",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/execute.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/full_even_execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/full_even_probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/full_even_reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/probe.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/reference.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/CLIFFORD_DIAGNOSTIC_DESIGN.md",
+            "rows": 26,
+            "status": "missing_fields"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/CUTOFF_PLANE_DESIGN.md",
+            "rows": 24,
+            "status": "missing_fields"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/DESIGN.md",
+            "rows": 28,
+            "status": "missing_fields"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/END_TRANSPORT_DESIGN.md",
+            "rows": 23,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/INPUTS.json",
+            "rows": 28,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/POST_HOC_REPAIR.md",
+            "rows": 27,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/PROOF.md",
+            "rows": 28,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/analysis.py",
+            "rows": 28,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/clifford_diagnostic.py",
+            "rows": 26,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/execute.py",
+            "rows": 28,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/make_seal.rb",
+            "rows": 28,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/probe.py",
+            "rows": 28,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/reference.py",
+            "rows": 28,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/results/gauge_frame_run/probe.stdout.log",
+            "rows": 26,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/scope_execute.py",
+            "rows": 24,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/superfield.py",
+            "rows": 28,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/validate.rb",
+            "rows": 28,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/DESIGN.md",
+            "rows": 2,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/INPUTS.json",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/ORIENTATION_REPAIR.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/PROOF.md",
+            "rows": 46,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/SOURCE_NOTES.md",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/execute.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/probe.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/reference.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/results/corrected_science/probe.stdout.log",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_global_boundary_variation_2026_10_16/DESIGN.md",
+            "rows": 2,
+            "status": "missing_fields"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/PROOF.md",
+            "rows": 50,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/SOURCE_AUDIT.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/probe.py",
+            "rows": 23,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/reference.py",
+            "rows": 23,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_inner_cauchy_2026_10_16/DESIGN.md",
+            "rows": 15,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_inner_cauchy_2026_10_16/INPUTS.json",
+            "rows": 15,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_inner_cauchy_2026_10_16/PROOF.md",
+            "rows": 15,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_inner_cauchy_2026_10_16/analysis.py",
+            "rows": 15,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_inner_cauchy_2026_10_16/execute.py",
+            "rows": 15,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_inner_cauchy_2026_10_16/make_seal.rb",
+            "rows": 15,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_inner_cauchy_2026_10_16/probe.py",
+            "rows": 15,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_inner_cauchy_2026_10_16/reference.py",
+            "rows": 15,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_inner_cauchy_2026_10_16/validate.rb",
+            "rows": 15,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_domain_2026_10_15/DESIGN.md",
+            "rows": 40,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_domain_2026_10_15/INPUTS.json",
+            "rows": 40,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_domain_2026_10_15/PROOF.md",
+            "rows": 40,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_domain_2026_10_15/analysis.py",
+            "rows": 40,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_domain_2026_10_15/execute.py",
+            "rows": 40,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_domain_2026_10_15/make_seal.rb",
+            "rows": 40,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_domain_2026_10_15/probe.py",
+            "rows": 40,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_domain_2026_10_15/reference.py",
+            "rows": 40,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_transport_2026_10_16/DESIGN.md",
+            "rows": 14,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_transport_2026_10_16/INPUTS.json",
+            "rows": 14,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_transport_2026_10_16/PROOF.md",
+            "rows": 14,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_transport_2026_10_16/analysis.py",
+            "rows": 14,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_transport_2026_10_16/execute.py",
+            "rows": 14,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_transport_2026_10_16/make_seal.rb",
+            "rows": 14,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_transport_2026_10_16/probe.py",
+            "rows": 14,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_transport_2026_10_16/reference.py",
+            "rows": 14,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_interacting_transport_2026_10_16/validate.rb",
+            "rows": 14,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/DESIGN.md",
+            "rows": 2,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/INPUTS.json",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/POST_HOC_REPAIR.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/PROOF.md",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/SEAL_PREPARATION.md",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/analysis.py",
+            "rows": 43,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/execute.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/make_seal.rb",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/probe.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/reference.py",
+            "rows": 43,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_mode_transport_2026_10_15/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_mode_transport_2026_10_15/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_mode_transport_2026_10_15/PROOF.md",
+            "rows": 42,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_mode_transport_2026_10_15/analysis.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_mode_transport_2026_10_15/execute.py",
+            "rows": 42,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_mode_transport_2026_10_15/make_seal.rb",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_mode_transport_2026_10_15/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_mode_transport_2026_10_15/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/DESIGN.md",
+            "rows": 5,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/INPUTS.json",
+            "rows": 5,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/PROOF.md",
+            "rows": 6,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/SOURCE_CUSTODY.json",
+            "rows": 5,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/execute.py",
+            "rows": 5,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/probe.py",
+            "rows": 5,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/reference.py",
+            "rows": 5,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/upstream_horizontal_projection_PROOF.md",
+            "rows": 6,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/upstream_puncture_fredholm_PROOF.md",
+            "rows": 46,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/upstream_total_domain_PROOF.md",
+            "rows": 46,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/upstream_vertical_cusp_gap_PROOF.md",
+            "rows": 6,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/PROOF.md",
+            "rows": 49,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/SCOPE_REVIEW.md",
+            "rows": 5,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/SOURCE_AUDIT.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/probe.py",
+            "rows": 23,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/upstream_total_domain_PROOF.md",
+            "rows": 16,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/upstream_total_metric.py",
+            "rows": 49,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/upstream_total_metric_PROOF.md",
+            "rows": 3,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/upstream_vertical_cusp_gap_PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_real_boundary_2026_10_15/DESIGN.md",
+            "rows": 41,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_boundary_2026_10_15/INPUTS.json",
+            "rows": 41,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_boundary_2026_10_15/PROOF.md",
+            "rows": 41,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_boundary_2026_10_15/analysis.py",
+            "rows": 41,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_boundary_2026_10_15/execute.py",
+            "rows": 41,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_boundary_2026_10_15/make_seal.rb",
+            "rows": 41,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_boundary_2026_10_15/probe.py",
+            "rows": 41,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_boundary_2026_10_15/reference.py",
+            "rows": 41,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/DESIGN.md",
+            "rows": 8,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/INPUTS.json",
+            "rows": 8,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/POST_HOC_REPAIR.md",
+            "rows": 6,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/PROOF.md",
+            "rows": 8,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/analysis.py",
+            "rows": 8,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/execute.py",
+            "rows": 8,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/make_seal.rb",
+            "rows": 8,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/probe.py",
+            "rows": 8,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/reference.py",
+            "rows": 8,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/results/action_calibration_run/probe.json",
+            "rows": 5,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/validate.rb",
+            "rows": 8,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/DESIGN.md",
+            "rows": 32,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/INPUTS.json",
+            "rows": 32,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/POST_HOC_REPAIR.md",
+            "rows": 30,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/PROOF.md",
+            "rows": 32,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/TRACE_NORMALIZATION_REPAIR.md",
+            "rows": 29,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/analysis.py",
+            "rows": 32,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/execute.py",
+            "rows": 32,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/make_seal.rb",
+            "rows": 32,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/probe.py",
+            "rows": 32,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/reference.py",
+            "rows": 32,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/validate.rb",
+            "rows": 32,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/DESIGN.md",
+            "rows": 22,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/INPUTS.json",
+            "rows": 22,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/PROOF.md",
+            "rows": 22,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/analysis.py",
+            "rows": 22,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/execute.py",
+            "rows": 22,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/validate.rb",
+            "rows": 22,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_root_gauge_sector_2026_10_16/DESIGN.md",
+            "rows": 13,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_root_gauge_sector_2026_10_16/INPUTS.json",
+            "rows": 13,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_root_gauge_sector_2026_10_16/PROOF.md",
+            "rows": 13,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_root_gauge_sector_2026_10_16/analysis.py",
+            "rows": 13,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_root_gauge_sector_2026_10_16/execute.py",
+            "rows": 13,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_root_gauge_sector_2026_10_16/make_seal.rb",
+            "rows": 13,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_root_gauge_sector_2026_10_16/probe.py",
+            "rows": 13,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_root_gauge_sector_2026_10_16/reference.py",
+            "rows": 13,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_root_gauge_sector_2026_10_16/results/first_run/probe.json",
+            "rows": 12,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_root_gauge_sector_2026_10_16/validate.rb",
+            "rows": 13,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/DESIGN.md",
+            "rows": 36,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/POST_HOC_REPAIR.md",
+            "rows": 34,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/PROOF.md",
+            "rows": 36,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/analysis.py",
+            "rows": 36,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/execute.py",
+            "rows": 36,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/make_seal.rb",
+            "rows": 36,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/probe.py",
+            "rows": 36,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/reference.py",
+            "rows": 36,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/validate.rb",
+            "rows": 36,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/DESIGN.md",
+            "rows": 39,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/INPUTS.json",
+            "rows": 39,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/POST_HOC_REPAIR.md",
+            "rows": 38,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/PROOF.md",
+            "rows": 39,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/SECOND_INSTRUMENT_REPAIR.md",
+            "rows": 37,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/SOURCE_CHECK.md",
+            "rows": 38,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/analysis.py",
+            "rows": 39,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/execute.py",
+            "rows": 39,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/make_seal.rb",
+            "rows": 39,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/probe.py",
+            "rows": 39,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/reference.py",
+            "rows": 39,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/validate.rb",
+            "rows": 39,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/DESIGN.md",
+            "rows": 3,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/INPUTS.json",
+            "rows": 3,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/PROOF.md",
+            "rows": 6,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/execute.py",
+            "rows": 3,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/probe.py",
+            "rows": 5,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/reference.py",
+            "rows": 3,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/surface_weighted_hessian_2026_10_16/DESIGN.md",
+            "rows": 33,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_weighted_hessian_2026_10_16/INPUTS.json",
+            "rows": 33,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_weighted_hessian_2026_10_16/PROOF.md",
+            "rows": 33,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_weighted_hessian_2026_10_16/analysis.py",
+            "rows": 33,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_weighted_hessian_2026_10_16/execute.py",
+            "rows": 33,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_weighted_hessian_2026_10_16/make_seal.rb",
+            "rows": 33,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_weighted_hessian_2026_10_16/probe.py",
+            "rows": 33,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_weighted_hessian_2026_10_16/reference.py",
+            "rows": 33,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/surface_weighted_hessian_2026_10_16/validate.rb",
+            "rows": 33,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/DESIGN.md",
+            "rows": 2,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/INPUTS.json",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/PROOF.md",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/custody.rb",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/PROOF.md",
+            "rows": 17,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/custody.rb",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/probe.py",
+            "rows": 17,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/reference.py",
+            "rows": 17,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+            "rows": 33,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/probe.py",
+            "rows": 32,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/reference.py",
+            "rows": 32,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/custody.rb",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/DESIGN.md",
+            "rows": 2,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/custody.rb",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/reference.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/PROOF.md",
+            "rows": 8,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/SOURCE_CUSTODY.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/probe.py",
+            "rows": 5,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W21_periods.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W59.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W61.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W61.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W61_RULE.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_spin_room.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/DESIGN.md",
+            "rows": 2,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/FIRST_FAILURE.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/INPUTS.json",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/probe.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/custody.rb",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/INPUTS.json",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/custody.rb",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/probe.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/reference.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "missing": [
+              "BANKED IDENTITY:",
+              "PRIOR ART:"
+            ],
+            "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/DESIGN.md",
+            "rows": 1,
+            "status": "missing_fields"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/INPUTS.json",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/METADATA_RESEAL.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md",
+            "rows": 13,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/SOURCE_AUDIT.md",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/execute.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/probe.py",
+            "rows": 10,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/reference.py",
+            "rows": 11,
+            "status": "unclassified"
+          },
+          {
+            "path": "reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/PROOF.md",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_based_transition_prerequisite.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_cusp_negative_audit.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_joining_handoff_replay.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_residue_pairing_audit.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_adjoint_phase.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_analytic_transfer.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_bosonic_quotient.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_charged_cubic.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_charged_pair_lift.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_complementary_boundary.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_complete_flag.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_cover_cubic.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_cover_cubic_outcome.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_cover_currents.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_cover_domain.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_cover_extension.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_cover_families.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_cover_neutral.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_cover_nil_flat.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_cover_stationary.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_framed_coupled_domains.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_gauge_end_transport.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_higgs_quartic.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_higgs_scope.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_interaction_radical.py",
+            "rows": 3,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_neutral_cubic.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_physical_multiplets.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_selective_boundary.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_static_energy.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_superfield_covariance.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_silver_zero_cauchy.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_spinor_uniformization_joint.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_actual_tube.py",
+            "rows": 19,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_all_angular_response.py",
+            "rows": 10,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_angular_response.py",
+            "rows": 16,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_based_gauge.py",
+            "rows": 4,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_critical_cauchy.py",
+            "rows": 12,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_curved_boson.py",
+            "rows": 21,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_even_channels.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_full_even.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_full_real_parent.py",
+            "rows": 28,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_geometric_loops.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_global_spin.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_inner_cauchy.py",
+            "rows": 15,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_interacting_domain.py",
+            "rows": 40,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_interacting_transport.py",
+            "rows": 14,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_invariant_brackets.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_mode_transport.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_odd_form.py",
+            "rows": 5,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_parent_dictionary.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_real_boundary.py",
+            "rows": 41,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_real_fermion_work.py",
+            "rows": 8,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_real_superfield.py",
+            "rows": 32,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_real_twist.py",
+            "rows": 22,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_root_gauge_sector.py",
+            "rows": 13,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_source_operator.py",
+            "rows": 36,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_variational_join.py",
+            "rows": 39,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_weak_completions.py",
+            "rows": 3,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_surface_weighted_hessian.py",
+            "rows": 33,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_weave_boundary_index.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_weave_boundary_lift.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_weave_cusp_ward.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_weave_end_gaussian.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_weave_field_map.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_weave_four_dimensional_unit.py",
+            "rows": 2,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_weave_gauge_limit.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_weave_paired_phase.py",
+            "rows": 1,
+            "status": "unclassified"
+          },
+          {
+            "path": "tests/test_physical_bridge_weave_registered_embedding.py",
+            "rows": 1,
+            "status": "unclassified"
+          }
+        ]
+      }
+    ],
+    "test-vacuity": [
+      true,
+      "ok (6826 tests, 0 vacuous; 88 both-literal for review)"
+    ],
+    "theorem-registry": [
+      true,
+      "ok"
+    ],
+    "tracked-deps": [
+      true,
+      "ok"
+    ],
+    "tracked-forbidden": [
+      true,
+      []
+    ],
+    "views-fresh": [
+      true,
+      "ok"
+    ],
+    "views-generated": [
+      true,
+      "ok (5 views current)"
+    ]
+  },
+  "review_status": [
+    674,
+    true
+  ]
+}

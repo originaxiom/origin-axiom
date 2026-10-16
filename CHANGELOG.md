@@ -1,5 +1,14 @@
 # Changelog
 
+Phase9 sourcefbb0b4cd0 verified:11metadata controls/all185blobs PASS;
+93direct mappings,three aliases,89pending,17external. Phase8 unchanged
+except checker hash;18520tracked/index/39pins unchanged. Ten proofs map
+actual Gauss/current/work,whole-superfield variation,weighted/curved action,
+tilted/global boundary and local gauge/response alternatives. All33surface_
+inventory proofs mapped,not complete packet/history audits. Action momenta
+do not select end states. Full source/staged failure custody retained;
+existing OPEN main relay extended. No new science or physical completion.
+
 Phase8 sourceb20a3280d verified:11metadata controls/all185blobs PASS;
 83direct mappings,three aliases,99pending,17external. Phase7 unchanged
 except checker hash;18475tracked/index/40pins unchanged. Twelve proofs

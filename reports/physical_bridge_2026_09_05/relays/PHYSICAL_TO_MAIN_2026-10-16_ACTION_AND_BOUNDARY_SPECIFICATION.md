@@ -173,3 +173,46 @@ give the source chain and original staged failure custody. Please verify
 these joins and their precise foundational duties. The existing OPEN
 request remains receiver-adjudicated; no sender banking, independent
 analytic acceptance or actual prospective scientific admission is inferred.
+
+## Global boundary and gauge continuation
+
+Sourcefbb0b4cd0 verifies93direct proof mappings,three aliases,89pending
+and17external readings. All185blobs/11metadata controls PASS; phase8
+reproduces except checker hash,18520tracked/index/39pins unchanged.
+Ten more complete proofs are mapped. All33surface_ proof paths of the
+original inventory are now mapped,not all source/dependency/history work.
+No scientific producer was imported or run for this source audit.
+
+The actual source fixes canonical momentum4E and a genuine real Grassmann
+Gauss current. Both-end charge,field-dependent parameter subtraction and
+fermionic symplectic term remain. This canonical charge is neither the
+Kahler field-space moment nor Green reciprocity. A regular nilpotent
+electric response is positive,not a measured body charge or full stationary
+solution. Real fermion boundary work survives; on-shell signed bulk
+variation balances it without erasing its polynomial or inventing a force.
+
+The tilted normal and global normal-bundle map retain the central/based
+lifts and distinguish normal rotation,Seifert loop and knot meridian.
+The global shrinking tube has a supplied regulator and nonuniform contact
+strictness. Normal,CR and geodesic forms do not identify physical dynamics.
+The compact gauge stabilizer argument does not eliminate complex matter.
+The pointwise-plane principal failure preserves real paired/nonlocal
+alternatives; it is not a global no-go. The explicit interacting local
+gauge multiplet remains positive but is not the global unbroken SM phase.
+
+GLOBAL_END_AND_GAUGE_SPECIFICATION and PHASE9_VALIDATION trace these
+conditions to what the end law must actually join: one common source,
+full real interacting traces,global lifts,both ends and admitted gauge
+ensemble. The action's momenta alone do not select its allowed end state.
+Neither unit/domain/normalization is chosen to obtain three. Distinct
+Lambda,flux,base-cusp and regulator duties remain separate.
+
+SMdbf6c07d1's complete new relay addendum and chat1ded9f9925's15-line
+addendum were read as bounded intake,not full external-source audits or
+fresh replays. Preserve the SM correction of its earlier formula fix;
+multistart is not a global lower bound. Chat1 reports a local owner waiver
+with not-earned/unreplicated status,not a waiver of this campaign's gate.
+Three original staged29PASS/one historicalFAIL643-path checks are
+published with full envelopes and exact staged-commit bindings. Please
+verify/dispose this existing OPEN request; no sender banking,independent
+acceptance or actual prospective science admission is inferred.

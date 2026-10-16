@@ -21420,3 +21420,38 @@ their exact scope and later qualifications. No new scientific producer,
 independent analytic acceptance or physical spectrum claimed. Actual
 foundational field/action/trace/end and full SM/three/gravity goal remain
 active/unachieved; final staged publication precheck is a separate envelope.
+
+Phase9 designb5572987f preceded metadata changes; sourcefbb0b4cd0 was
+pushed/server-confirmed before controls. Ten additional complete proofs,
+three complete analyses/native wrappers and relevant repair notes read;
+global-boundary variation reread without double counting. Actual Gauss
+normalization,real Grassmann current/work,weighted/curved action,whole
+superfield boundary costs,tilted/global geometry and local interacting
+gauge positive are mapped with principal/paired alternatives retained.
+No scientific import,collection or execution. The action's momenta do
+not by themselves choose the allowed end states or gauge ensemble.
+
+Seven carry/four alias controls PASS; all185pinned blobs reconcile93
+direct proof/property mappings,three aliases,89pending,17external.
+All33surface_ proof paths of the original inventory are mapped,not
+all source/test/history packets. Phase8 successor differs only by
+checker hash. Complete18520tracked/index/39pins before/after identical.
+GLOBAL_END_AND_GAUGE_SPECIFICATION and PHASE9_VALIDATION preserve exact
+source/transfer scope; results_phase9 has all eight captures/receipts,
+lossless states and custody. Three original staged maintenance prechecks
+retain29PASS/one historical sealFAIL643paths and exact published-index
+bindings. No historical failure,original source or raw evidence rewritten.
+
+Fresh fetch found SMdbf6c07d1's paper-review addendum; its full new relay
+section read,not independently reproduced. Its prior residue fix is
+withdrawn; canonical-radius and unshown-versus-failed qualifications
+preserved. New multistart is not a global minimum certificate. Chat1's
+15-line ded9f9925 addendum reports an owner waiver preserving not-earned/
+unreplicated status; no new complete external-source reading,scientific
+positive or waiver of this seat's prospective gate. Main remains4cc3658a8.
+
+Current specification/mission/roadmap and existing OPEN action/boundary
+relay updated. Main alone disposes/banks the request. Same-field critical
+trace action,foundational end-state law,coverage beyond this subset and
+actual independent admission remain; full physical SM/three/gravity goal
+active/unachieved. Final publication precheck has its own later envelope.
