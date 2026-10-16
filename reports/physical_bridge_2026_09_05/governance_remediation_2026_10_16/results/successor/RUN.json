@@ -1,0 +1,19 @@
+{
+  "source_head": "235539458c71d9a93e8c90cdb7e3bfd9cd5e3c03",
+  "pins": 16,
+  "tracked_files": 18074,
+  "tree_index_pins_unchanged": true,
+  "exit_codes": {
+    "focused": 0,
+    "metadata_capture": 0,
+    "vacuity": 0,
+    "relay": 1,
+    "governance": 1
+  },
+  "before_sha256": "4f84b3e97c7bc6a14da6ae5df0e075eed1ddf89618bf188f1eb4831be846ebab",
+  "after_sha256": "4f84b3e97c7bc6a14da6ae5df0e075eed1ddf89618bf188f1eb4831be846ebab",
+  "new_scientific_experiment": false,
+  "full_suite_run": false,
+  "physical_goal_achieved": false,
+  "expected_maintenance_outcomes": true
+}

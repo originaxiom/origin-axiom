@@ -1,5 +1,21 @@
 # Changelog
 
+October16 maintenance successor at published235539458:12 targeted tests
+PASS38.00s, original16 pins/18074tracked/index unchanged; unchanged
+vacuity checker PASS. Full governance27PASS/threeFAIL; remaining actual
+categories attribution/seal-provenance/relay-debt, not repo green.
+Both first failures and full normalized captures/custody retained.
+Complete inventory647 unique marker-missing paths across6174seal rows
+is not647 established historical preregistration failures. Seven raw
+Git-reference attribution cases need evidence-preserving rule handling.
+Main e68a87550's41 canonical relay dispositions imported, twelve unrowed
+sender relays registered OPEN, September16 ask escalated without resetting
+date/self-banking; fresh post-repair capture still due. Focused sender
+relay asks main for exact rule/receiver decisions. Latest main562882d15
+B1667/P-184 read only; do not skip actual critical-trace/end map. Mission
+and roadmap current with ACTIVE specification-first order. No new science,
+full-suite/independent/main/recipient or physical completion.
+
 October16 governance maintenance first attempt at076b05bef preserved:
 regression exited4 during collection (SciPy absent in chosen runtime),
 no selected tests ran. Metadata payload collided with its receipt's

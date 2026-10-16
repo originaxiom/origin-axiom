@@ -1,0 +1,13 @@
+{
+  "command": [
+    "ruby",
+    "-EUTF-8",
+    "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/inventory.rb",
+    "<private-capture>/metadata_payload.json"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 6.1307249999954365,
+  "log_bytes": 329,
+  "log_sha256": "2c708041a6ac473932aec3ea710c282dd4ac52febc06141e92e090beeaa8d40b"
+}

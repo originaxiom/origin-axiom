@@ -1,0 +1,23 @@
+{
+  "command": [
+    "<existing-python-environment>/bin/python3",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "--noconftest",
+    "-p",
+    "no:cacheprovider",
+    "-o",
+    "addopts=",
+    "tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain",
+    "tests/test_physical_bridge_family_domain.py::test_delegated_sealed_lock_rejects_changed_computed_result",
+    "tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives",
+    "tests/test_physical_bridge_quantum_shift.py::test_mass_derivative_predicate_has_positive_and_rejecting_controls"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 38.87273099999584,
+  "log_bytes": 100,
+  "log_sha256": "51b52b0c15c731fda2fbb71f892ce2eb0ccb2f0bb3eaf2a8687f226dd21da212"
+}

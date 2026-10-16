@@ -1,0 +1,229 @@
+{
+  "scope": "mechanical publication of complete diagnostic logs, payloads and process receipts",
+  "source_captures_retained_privately": true,
+  "original_process_receipts_unmodified": true,
+  "no_missing_receipt_reconstructed": true,
+  "receipt_log_hashes_refer_to": "original raw logs, not necessarily normalized presentations",
+  "case_collision_note": "In the first attempt INVENTORY.json is metadata, NOT a process receipt.",
+  "files": [
+    {
+      "name": "RUN.json",
+      "original_bytes": 577,
+      "original_sha256": "bc91c922df285de0e6371628a3b84ac64b470ad38121af1ab948cd527229f878",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 577,
+      "published_sha256": "bc91c922df285de0e6371628a3b84ac64b470ad38121af1ab948cd527229f878",
+      "changed": false
+    },
+    {
+      "name": "after.json",
+      "original_bytes": 3452864,
+      "original_sha256": "4f84b3e97c7bc6a14da6ae5df0e075eed1ddf89618bf188f1eb4831be846ebab",
+      "publication": "complete raw inventory retained privately; original hash published"
+    },
+    {
+      "name": "before.json",
+      "original_bytes": 3452864,
+      "original_sha256": "4f84b3e97c7bc6a14da6ae5df0e075eed1ddf89618bf188f1eb4831be846ebab",
+      "publication": "complete raw inventory retained privately; original hash published"
+    },
+    {
+      "name": "environment.json",
+      "original_bytes": 767,
+      "original_sha256": "38f5380a5507972eb23db1e7ec488b90ae6d43566bb2efc5ec452c07fba37234",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 747,
+      "published_sha256": "e83578420a6f4276f46dce12f86b8459c7713bad87b68cdeb8687ae984dc4119",
+      "changed": true
+    },
+    {
+      "name": "focused.capture.stderr.log",
+      "original_bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "name": "focused.capture.stdout.log",
+      "original_bytes": 162,
+      "original_sha256": "3e8013acd42f051d6a52666993b9577a6c1d6251b388c12528cba20228fe280f",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 162,
+      "published_sha256": "3e8013acd42f051d6a52666993b9577a6c1d6251b388c12528cba20228fe280f",
+      "changed": false
+    },
+    {
+      "name": "focused.json",
+      "original_bytes": 809,
+      "original_sha256": "d302f1f9b2e6c155928695b2389d9983268d742a0d08de7e76ef769c19e9bffd",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 805,
+      "published_sha256": "552a7baf7d094fc9d4d996695b8e8f11f51158d898fded507fd60596eb1329d6",
+      "changed": true
+    },
+    {
+      "name": "focused.log",
+      "original_bytes": 100,
+      "original_sha256": "51b52b0c15c731fda2fbb71f892ce2eb0ccb2f0bb3eaf2a8687f226dd21da212",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 100,
+      "published_sha256": "51b52b0c15c731fda2fbb71f892ce2eb0ccb2f0bb3eaf2a8687f226dd21da212",
+      "changed": false
+    },
+    {
+      "name": "governance.capture.stderr.log",
+      "original_bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "name": "governance.capture.stdout.log",
+      "original_bytes": 163,
+      "original_sha256": "8db1e83aec5ba8d1662e4a9688844dc922d67be7046e6a5b6c7a1924eeb84443",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 163,
+      "published_sha256": "8db1e83aec5ba8d1662e4a9688844dc922d67be7046e6a5b6c7a1924eeb84443",
+      "changed": false
+    },
+    {
+      "name": "governance.json",
+      "original_bytes": 296,
+      "original_sha256": "3a0a95f4b6792de8d0f788b164aae480e4591d0cbc260825b6a59337f9d1a2a4",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 292,
+      "published_sha256": "3df564c8bdaa69258c4d6331f0acb1894b061b2503b6988270c02380ec22acf3",
+      "changed": true
+    },
+    {
+      "name": "governance.log",
+      "original_bytes": 2320,
+      "original_sha256": "eeebb3685e9c0de1562329c84bccd6e930a827788b01f284a75a07422dd5949a",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 2320,
+      "published_sha256": "eeebb3685e9c0de1562329c84bccd6e930a827788b01f284a75a07422dd5949a",
+      "changed": false
+    },
+    {
+      "name": "metadata_capture.capture.stderr.log",
+      "original_bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "name": "metadata_capture.capture.stdout.log",
+      "original_bytes": 163,
+      "original_sha256": "1bb55853c2a700d86337e11e621f37b0ead7ac0593c9c8d88c123f266e312fd3",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 163,
+      "published_sha256": "1bb55853c2a700d86337e11e621f37b0ead7ac0593c9c8d88c123f266e312fd3",
+      "changed": false
+    },
+    {
+      "name": "metadata_capture.json",
+      "original_bytes": 392,
+      "original_sha256": "f7d76658a9585a46bb5cf9301a2670ac9a2e814f915fc60c9d8924a2ea65c466",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 366,
+      "published_sha256": "2cc9756f82fe17bc69e37ba0cfeb50e5757aaf48b1b4d4b99e7084c697947cbd",
+      "changed": true
+    },
+    {
+      "name": "metadata_capture.log",
+      "original_bytes": 329,
+      "original_sha256": "2c708041a6ac473932aec3ea710c282dd4ac52febc06141e92e090beeaa8d40b",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 329,
+      "published_sha256": "2c708041a6ac473932aec3ea710c282dd4ac52febc06141e92e090beeaa8d40b",
+      "changed": false
+    },
+    {
+      "name": "metadata_payload.json",
+      "original_bytes": 301694,
+      "original_sha256": "f44bdbe853dfb6cced8ad45b47e105cbb492d2fefa4056841530dd9531dc07d8",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 301694,
+      "published_sha256": "f44bdbe853dfb6cced8ad45b47e105cbb492d2fefa4056841530dd9531dc07d8",
+      "changed": false
+    },
+    {
+      "name": "relay.capture.stderr.log",
+      "original_bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "name": "relay.capture.stdout.log",
+      "original_bytes": 164,
+      "original_sha256": "0437ef070498db60e593029b0ad704bc1d4fb76fd26bd10321c78fca6d4b0ebb",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 164,
+      "published_sha256": "0437ef070498db60e593029b0ad704bc1d4fb76fd26bd10321c78fca6d4b0ebb",
+      "changed": false
+    },
+    {
+      "name": "relay.json",
+      "original_bytes": 303,
+      "original_sha256": "b19c7d9ab6f94f6c5b35a8f50ac6c4ae1b8a223a3899d0b5f54b38340ed3109b",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 299,
+      "published_sha256": "5bc5b94e4a477c6ee719a8f804c57fb8bf8b2d8c4b94fa525efbcf6a9f65f034",
+      "changed": true
+    },
+    {
+      "name": "relay.log",
+      "original_bytes": 5888,
+      "original_sha256": "8092ec21e14c9ee0e3e0ce352719015352dd97dce9eddeb4c954c3e980debbcb",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 5888,
+      "published_sha256": "8092ec21e14c9ee0e3e0ce352719015352dd97dce9eddeb4c954c3e980debbcb",
+      "changed": false
+    },
+    {
+      "name": "vacuity.capture.stderr.log",
+      "original_bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "name": "vacuity.capture.stdout.log",
+      "original_bytes": 162,
+      "original_sha256": "17c2df43f38431415109af324abb37562177dbf47e941ece8e386931ccaa1821",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 162,
+      "published_sha256": "17c2df43f38431415109af324abb37562177dbf47e941ece8e386931ccaa1821",
+      "changed": false
+    },
+    {
+      "name": "vacuity.json",
+      "original_bytes": 309,
+      "original_sha256": "97c68426096356afe7c0d89ffcc0eec8157d49c7f322b16b7f1ae9657aa69991",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 305,
+      "published_sha256": "faebdd7874b1a1076ee43ccfa391434f84253f0ccc4c2bcf4cb2b7e1be42b0a8",
+      "changed": true
+    },
+    {
+      "name": "vacuity.log",
+      "original_bytes": 130,
+      "original_sha256": "0b6c8029b6a4835f0813026cb528e36210d7fb0c3d89b25ec9c88f8f732bba53",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 130,
+      "published_sha256": "0b6c8029b6a4835f0813026cb528e36210d7fb0c3d89b25ec9c88f8f732bba53",
+      "changed": false
+    }
+  ]
+}

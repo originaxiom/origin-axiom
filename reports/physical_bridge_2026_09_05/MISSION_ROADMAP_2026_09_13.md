@@ -1,5 +1,22 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+October16 current order is the approved P-181/P-184 reorientation, not
+the older supplied-parent extensions below. Session goal read confirms
+ACTIVE: coverage-accounted specification first, reuse native derivations,
+resolve actual governance, then derive actual puncture critical symmetry
+and end law without selecting a domain/count to obtain three.
+REORIENTATION_WORK_ORDER_2026_10_16.md and
+PARENT_SPECIFICATION_AUDIT_2026_10_16.md are the current front doors.
+Targeted test visibility repair now verified12PASS38.00s at235539458;
+all16pins/18074tracked/index unchanged. Full governance27PASS/threeFAIL,
+not green. First execution failures and full diagnostics retained under
+governance_remediation_2026_10_16. Sender relay asks main for precise
+provenance-role and immutable-Git-reference rulings; historical relay
+dispositions reconciled without self-banking. Latest main562882d15's
+canonical-cusp and V2-plus-V4 pointers are read, not reproduced or
+automatically identified with the actual operator's critical quotient.
+New scientific packets and full specification acceptance remain open.
+
 Terminal global-boundary validation at afe8ab742:14selected LIVE
 PASS242.98s; governance26PASS/four inherited reported FAIL20.977007s.
 332pins/18,017tracked/index unchanged. Two new test-helper visibility

@@ -1,5 +1,21 @@
 # Physical-bridge mission status and next questions
 
+October16 current campaign: approved specification-first reorientation
+P-181/P-184, persisted goal ACTIVE. New supplied-parent extensions paused.
+Reuse existing native maps, identify required supplied properties and
+exact foundational duties, then actual puncture symmetry/end law after
+governance resolution. Work order and initial incomplete specification
+are REORIENTATION_WORK_ORDER_2026_10_16.md and
+PARENT_SPECIFICATION_AUDIT_2026_10_16.md. Targeted mathematical-test repair
+verified12PASS38.00s at235539458, original16 pins/tree/index unchanged;
+unchanged vacuity checker passes, full governance27PASS/threeFAIL.
+Both execution failures retained. Complete provenance/attribution and
+relay metadata are in governance_remediation_2026_10_16/FINDINGS.md;
+focused main rulings asked, no waiver, self-banking or new physical claim.
+Main562882d15's canonical-cusp/P-184 update read, actual trace-action/end
+identifications remain verification duties. Older epoch entries below
+are retained history, not authority to resume supplied-parent extensions.
+
 October12 publication of October11 first massive-exchange Higgs quartic:
 25 native/305 separate Fraction exact predicates and59 seven-packet
 regression PASS in700.12s,8 new, unchanged science/test seal f9122858c.
