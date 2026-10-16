@@ -164,8 +164,27 @@ def run(method):
     ck('actual linear Lorenz condition all coefficients',all(zero(sum((eta10[N]*Dt(response[N][st],N) for N in range(10)),s.zeros(3,1))) for st in pairs))
     hc=(1+x)/den;hroot=s.sqrt(r)/den;hcart=s.Matrix([0,hc,0]);hup=s.Matrix([z*hroot,0,0]);hdn=s.Matrix([0,0,hroot/z])
     ck('actual Cartan and both dual root harmonic freedoms',all(zero(lap(v)) for v in (hcart,hup,hdn)))
-    outer=[{st:cm(v-v.subs(r,R)*(hc/hc.subs(r,R) if N<4 else hroot/hroot.subs(r,R))) if N<6 else v for st,v in row.items()} for N,row in enumerate(response)]
-    outerres=euler(outer)
+    # Generic ten-field block identity, before root/R specialization.
+    nb=[a.letter('normal_body'+str(i)) for i in range(4)];aa=[a.letter('off_response'+str(i)) for i in range(6)]+[{} for _ in range(4)]
+    DB=lambda p,N:a.add(a.op(p,'normal_derivative'+str(N-6)) if N in (6,7) else {},a.comm(nb[N-6],p)) if N>=6 else {}
+    ff=lambda M,N:a.add(a.op(nb[N-6],'normal_derivative'+str(M-6)) if M in (6,7) and N>=6 else {},a.scale(a.op(nb[M-6],'normal_derivative'+str(N-6)),-1) if N in (6,7) and M>=6 else {},a.comm(nb[M-6],nb[N-6]) if M>=6 and N>=6 else {})
+    blockbad=[]
+    for N in range(10):
+        fullblock=a.scale(a.add(*(a.scale(a.add(DB(a.add(DB(aa[N],M),a.scale(DB(aa[M],N),-1)),M),a.comm(aa[M],ff(M,N))),eta10[M]) for M in range(10))),4*eta10[N])
+        reduced=a.scale(a.add(*(DB(DB(aa[N],M),M) for M in range(6,10))),4*eta10[N]) if N<6 else {}
+        blockbad.append(a.add(fullblock,a.scale(reduced,-1)))
+    ck('universal all ten off background Hessian block identity',all(not p for p in blockbad))
+    hb=[hcart,hup,hdn];hblap=[lap(v) for v in hb];coeffs=[];outer=[]
+    for N,row in enumerate(response):
+        print('STAGE exact outer harmonic subtraction component '+str(N),file=sys.stderr,flush=True)
+        cr={};rr={}
+        for st,v in row.items():
+            ks=[clean(v[1].subs(r,R)/hc.subs(r,R)),0,0] if N<4 else [0,clean(v[0].subs(r,R)/(z*hroot.subs(r,R))),clean(v[2].subs(r,R)*z/hroot.subs(r,R))] if N<6 else [0,0,0]
+            cr[st]=ks;rr[st]=cm(v-sum((k*h for k,h in zip(ks,hb)),s.zeros(3,1)))
+        coeffs.append(cr);outer.append(rr)
+    ck('actual outer harmonic coefficients independent of both normal coordinates',all(not k.has(r,z) for row in coeffs for ks in row.values() for k in map(s.sympify,ks)))
+    outerres=[{st:cm(residual[N][st]-4*eta10[N]*sum((k*h for k,h in zip(coeffs[N][st],hblap)),s.zeros(3,1))) for st in pairs} for N in range(10)]
+    ck('nonharmonic outer subtraction fails actual operator',not zero(lap(hcart+s.Matrix([0,r,0]))))
     ck('outer zero benchmark retains every actual boson equation',all(zero(v) for row in outerres for v in row.values()) and all(zero(v.subs(r,R)) for row in outer for v in row.values()))
     ck('outer correction preserves odd compact reality and transition',all(zero(-tc*conj(v)-v) and zero(v.subs(z,-z)-mon*v) for row in outer for v in row.values()))
     # Exact coefficient asymptotics, not positivity of a Grassmann number.
@@ -218,7 +237,9 @@ def run(method):
         ck('transverse complement control sign '+str(sign),zero(control) and s.trace(S)==8)
     records['degree2']={'responses':[{st:enc(v) for st,v in row.items()} for row in response], 'outer_zero_responses':[{st:enc(v) for st,v in row.items()} for row in outer],
       'all_ten_Euler_residuals':[{st:enc(v) for st,v in row.items()} for row in residual], 'outer_Euler_residuals':[{st:enc(v) for st,v in row.items()} for row in outerres],
-      'auxiliary_responses':auxout,'outer_free_boson_momenta':momenta}
+      'auxiliary_responses':auxout,'outer_free_boson_momenta':momenta,
+      'outer_linearity_certificate':{'all_ten_generic_block_residuals':[a.sf.encoded(v) for v in blockbad], 'harmonic_columns':[enc(v) for v in hb],
+        'actual_coefficients':[{st:list(map(str,ks)) for st,ks in row.items()} for row in coeffs], 'method':'exact universal block and linearity; direct particular Euler retained; no expanded two-radius residual shortcut'}}
     records['boundary']={'free_trace_projector':enc(P),'actual_angular_principal':enc(B),'principal_tests':principal,
       'fermion_raw_normal_primitives':{k:a.sf.encoded(v) for k,v in sorted(fprim.items()) if k in ('d1','b1')},'benchmark':'supplied outer V=C0=0; C1/C2 free; this background through degree two only'}
     records['meaning']={'all_ten_boson_equations_solved_at_degree2':True,'source_auxiliary_and_surface_terms_retained':True,

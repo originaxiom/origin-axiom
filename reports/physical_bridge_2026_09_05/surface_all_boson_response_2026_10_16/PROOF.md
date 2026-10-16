@@ -89,3 +89,26 @@ defined angular principal counterexample, not a global kernel theorem.
 The complement control I-S is transverse by direct multiplication.
 Levi/subelliptic structure, full horizontal frequency, curvature,
 exterior response and singular global admission remain separate duties.
+
+## Exact linearity for the outer harmonic subtraction
+
+The direct expanded two-radius run was interrupted for performance,
+not a failed identity. To avoid multivariate rational expression swell,
+apply the full source Hessian's block identity before expanding R.
+For arbitrary Lie-valued off-direction variations a_0,...,a_5 depending
+only on the normal coordinates, body X_0,...,X_5=0 implies D_off=0 and
+F_off,N=0. The four normal variations are zero. Consequently the FULL
+ten-component Hessian is diag(4 eta_N Delta) on these six variations,
+and identically zero on the four normal equations. This uses no small
+root bracket assumption. The free-word gate constructs this identity
+on arbitrary noncommuting normal body fields and variations.
+
+Each actual outer correction is a linear combination of the THREE
+explicit harmonic columns H_cart,h_up,h_down already tested by BOTH
+Cartesian and polar operators. Extract its coefficients at R, divide
+out the actual zeta factors, and verify that they depend on neither r
+nor zeta. Thus L(a_part-sum k(R)H)=L(a_part)-sum k(R)L(H) exactly,
+with all ten equations included. A nonharmonic added r column must
+fail. First derivatives, auxiliary responses and boundary momenta are
+still computed on the actual corrected fields. The criterion is the
+same exact Euler equation, not a numerical cutoff or relaxed residual.

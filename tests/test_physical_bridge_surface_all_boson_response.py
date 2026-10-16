@@ -21,7 +21,7 @@ def test_all_ten_actual_response_equations(cert):
     for k in ('all freshly computed current coefficients faithfully projected','all ten actual boson Euler equations at fermion degree two','independent polar and Cartesian scalar full operators on response','time and all five spatial source signs independently retained','wrong source signs and normalization fail','all degree two responses have correct odd compact reality','all responses retain actual half winding gauge transition','actual linear Lorenz condition all coefficients'):assert cert['checks'][k]
     assert len(cert['records']['degree2']['all_ten_Euler_residuals'])==10
 def test_outer_homogeneous_freedom_and_actual_auxiliary_conditions(cert):
-    for k in ('actual Cartan and both dual root harmonic freedoms','outer zero benchmark retains every actual boson equation','outer correction preserves odd compact reality and transition','outer corrected coefficient norm and derivative energy integrable at inner end'):assert cert['checks'][k]
+    for k in ('actual Cartan and both dual root harmonic freedoms','universal all ten off background Hessian block identity','actual outer harmonic coefficients independent of both normal coordinates','nonharmonic outer subtraction fails actual operator','outer zero benchmark retains every actual boson equation','outer correction preserves odd compact reality and transition','outer corrected coefficient norm and derivative energy integrable at inner end'):assert cert['checks'][k]
     for st in cert['records']['degree2']['auxiliary_responses']:
         assert cert['checks']['all six auxiliary and D responses '+st]
         assert cert['checks']['actual free normal boson momenta zero at outer '+st]
