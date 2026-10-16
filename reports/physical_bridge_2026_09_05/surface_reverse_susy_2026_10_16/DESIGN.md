@@ -1,5 +1,13 @@
 # Source supersymmetry and the boundary gauge partner
 
+BANKED IDENTITY: the credited actual positive time A0=i C16 and all
+nine spatial Aj=A0 vj are replayed inside each method before new source
+maps; actual E8 root and BPS background identities are replayed before
+the new amplitude phase result.
+PRIOR ART: already_banked terms 'supersymmetry amplitude phase gauge
+partner boundary' returned198 broad/two settled broad overlaps; actual
+real-boundary and variational-join PROOF bodies read, no absence claim.
+
 Pre-execution scope: the SAME supplied local source action, its complete
 16 component Majorana field, the actual odd compact E8 root background,
 and the complete real four parameter scalar supercharge. First earn the

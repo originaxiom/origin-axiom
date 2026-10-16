@@ -1,3 +1,6 @@
+# BANKED IDENTITY: hash the exact antecedents whose source time/spatial
+# and root identities both executable methods replay before new results.
+# PRIOR ART: credited real_fermion_work transitive seal construction.
 require 'json'
 require 'digest'
 require 'pathname'
@@ -11,6 +14,8 @@ paths << 'reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_1
 repair=local+'/POST_HOC_REPAIR.md';paths << repair if File.exist?(root.join(repair))
 rows=paths.uniq.sort.map{|p|{'path'=>p,'sha256'=>Digest::SHA256.file(root.join(p)).hexdigest}}
 data={'scope'=>'Actual source reverse Noether map, universal local Ward coefficients and known amplitude/phase family; not complete boundary ensemble or physical SM',
+ 'BANKED IDENTITY:'=>'Both pipelines replay actual A0=iC16/all spatial source coefficients, then faithful root/BPS antecedents before new family results.',
+ 'PRIOR ART:'=>'DESIGN records198 broad/two settled source-map overlaps and credited real-boundary/variational-join/source/root proofs and code; no absence claim.',
  'runtime'=>{'python'=>'3.12.14','sympy'=>'1.14.0'},'shared_formulation'=>'Same author/parent/proof; superspace versus closed components; actual roots versus faithful normalized triplet',
  'source_files'=>rows}
 File.write(root.join(local,'INPUTS.json'),JSON.pretty_generate(data)+"\n")

@@ -1,4 +1,8 @@
 """Actual source reverse supersymmetry and a boundary gauge partner."""
+# BANKED IDENTITY: replay actual A0=iC16/all spatial coefficients before
+# new source maps, and faithful root/BPS identities before new profiles.
+# PRIOR ART: actual source/root and real-boundary/variational-join code
+# credited in DESIGN;198 broad/two settled source-map search overlaps.
 import json,sys
 from pathlib import Path
 from functools import lru_cache

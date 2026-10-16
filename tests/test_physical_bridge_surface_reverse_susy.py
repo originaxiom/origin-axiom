@@ -1,4 +1,7 @@
 """LIVE source supersymmetry and the amplitude phase boundary pair."""
+# BANKED IDENTITY: fixtures rerun BOTH pipelines, which replay actual
+# source time/spatial and root identities before returning new results.
+# PRIOR ART: credited real_fermion_work LIVE capture/test layout; DESIGN.
 import json,os,subprocess,sys
 from pathlib import Path
 import pytest

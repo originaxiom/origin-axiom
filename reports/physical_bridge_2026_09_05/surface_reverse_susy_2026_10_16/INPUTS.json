@@ -1,5 +1,7 @@
 {
   "scope": "Actual source reverse Noether map, universal local Ward coefficients and known amplitude/phase family; not complete boundary ensemble or physical SM",
+  "BANKED IDENTITY:": "Both pipelines replay actual A0=iC16/all spatial source coefficients, then faithful root/BPS antecedents before new family results.",
+  "PRIOR ART:": "DESIGN records198 broad/two settled source-map overlaps and credited real-boundary/variational-join/source/root proofs and code; no absence claim.",
   "runtime": {
     "python": "3.12.14",
     "sympy": "1.14.0"
@@ -656,39 +658,39 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/DESIGN.md",
-      "sha256": "b84e2b2b106fcc25fb9f9b688fc6555bc5c2bbc5d622e286f5473d9e1d66013c"
+      "sha256": "6596a3342b07e039b36eadd829a4d99429dec48c96f2e682bf23c8caa58c4e9d"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/POST_HOC_REPAIR.md",
-      "sha256": "922397cd2491439a0e9fd71ff9c660c9e5738962e9775484c9230b3a415ed220"
+      "sha256": "64b2541673236f8091734b990e57e97684eb71f4066e004de6fc45acb84b83da"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/PROOF.md",
-      "sha256": "aedd9716516634f9671baa3fb476fd1dd82077c0285ec92a5ff97c8888ab3674"
+      "sha256": "c5a06952e068ce4cb233b9ba6136f2dfb8c21a2bc14fdea58864a69ee48fa77c"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/analysis.py",
-      "sha256": "1a5e02e4afd1d9b5137bd10803d1c904fc88682e59d930e2ca4e2c9eb5398686"
+      "sha256": "e1f091f6651de030b24f265a3a30fa880d540752c6dc530979abbe0edcc72569"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/execute.py",
-      "sha256": "552856316e09cebd54e05be72a68d72e4857a4df4420ddc0a196828545ebde03"
+      "sha256": "d1f04334c3ea93e6641b4478e52c6ffe1d44f9018120689bc0c416fddcdbae64"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/make_seal.rb",
-      "sha256": "dcbaea83d93703e3591057bf59bd27966d93c20ac564cf248640f0a1c5d409ee"
+      "sha256": "208e35f337a7bad24f7d2094d8580a1373b90f2f8976636f0f01a31f1e95038b"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/probe.py",
-      "sha256": "4e1a3c661864505f7e66ba2187efb762ff047544faffef75832c2595c07b68c1"
+      "sha256": "e3ccf754b49815e86f6027c61d7a5a445a06e1b803e790275da5d5a9f32bef25"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/reference.py",
-      "sha256": "1dd9801b2db840bec128e74359e82967fa36b89dacdc9763132d66d9263080e4"
+      "sha256": "be2555a04bc11790238ed1f01f859e28929fe4b1c1140322057ba676fa368258"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/validate.rb",
-      "sha256": "749c2633f6e6795b2a5706373c2f799d92a23a53a2748efe2a069e959741cc2d"
+      "sha256": "621cdc7a7dc2454065916a66e6db2cbba0cab11c7dc5a23f2ae054d533f65eb1"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_root_gauge_sector_2026_10_16/DESIGN.md",
@@ -932,7 +934,7 @@
     },
     {
       "path": "tests/test_physical_bridge_surface_reverse_susy.py",
-      "sha256": "e6cc5c47dcc87743ff4ae61eb1b21d5592bd30e367a08e9ef337cb680a4140ec"
+      "sha256": "83325fa6bbfd70fd25441b6942973b8a999f2a43626ba7004891776c84cc20fa"
     },
     {
       "path": "tests/test_physical_bridge_surface_root_gauge_sector.py",

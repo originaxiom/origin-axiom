@@ -1,5 +1,12 @@
 # Reverse supersymmetry and the amplitude phase boundary pair
 
+BANKED IDENTITY: each executable method first replays the actual
+positive time/all spatial source identities, then actual root/BPS
+antecedents before the new family image and flux.
+PRIOR ART: the credited real-boundary and variational-join proofs and
+actual source/root implementations were read; the198hit source-map
+search is recorded in DESIGN, not asserted as an absence certificate.
+
 Authored conditional proof, submitted with explicit computational gates.
 All fields and gauge transformations here belong to the supplied local
 parent. A boundary law still needs an ensemble and an action principle.

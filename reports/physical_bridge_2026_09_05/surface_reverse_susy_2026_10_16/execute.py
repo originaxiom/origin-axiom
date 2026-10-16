@@ -1,4 +1,7 @@
 """Credited immutable source/tree/index capture for source reverse map."""
+# BANKED IDENTITY: both children replay actual source and root identities
+# before returning new scientific records; this wrapper checks pins/tree.
+# PRIOR ART: credited surface_mode_transport immutable capture, unmodified.
 import importlib.util
 from pathlib import Path
 HERE=Path(__file__).resolve().parent
