@@ -43,6 +43,10 @@ def run():
     # Velocities are C-even; the Hamiltonian -i velocity*partial is C-odd.
     ck('actual full Nambu reality on all coefficients',all(zero(swap*v.conjugate()*swap-v) for v in va))
     ck('external matrices identical before any new hatch',all(zero(a-b) for a,b in zip(ea,ec)))
+    Qsource=s.diag(*[int(j in (2,3)) for bar in range(2) for j in range(4) for alpha in range(2)])
+    ck('actual whole cutoff trace half rank and real',Qsource.rank()==8 and zero(swap*Qsource.conjugate()-Qsource*swap))
+    ck('actual cutoff both real normal Green forms zero',all(zero(Qsource*v*Qsource) for v in va[5:7]))
+    ck('actual cutoff external and internal tangential action invariant',all(zero(Qsource*v-v*Qsource) for v in va[:5]))
     maps=[];rejections=[]
     for r4,r5 in product((-1,1),repeat=2):
         signs=[1,1,1,1,r4,r5];target=[r*m for r,m in zip(signs,ic)]
@@ -68,13 +72,16 @@ def run():
             for ep in (-1,1):
                 Q=cm(fr['MW']*(s.eye(32)+ep*R*vv0)/2)
                 planes.append({'epsilon':ep,'preserved':zero(phys*Q-Q*phys),
+                    'mapped_to_opposite':zero(phys*Q*phys.H-(fr['MW']-Q)),
                     'target_Green_zero':zero(Q.H*phys.H*(s.I*fr['G0']*fr['G'][2])*phys*Q)})
+            image=cm(fr['S']*V*Qsource*V.H*fr['S'].H)
+            cutoff_image=[ep for ep in (-1,1) if zero(image-fr['MW']*(s.eye(32)+ep*R*vv0)/2)]
             maps.append({'scalar_signs':[r4,r5],'permutation':list(perm),'phases':[str(x) for x in ph],
                 'complete_coefficients':full,'unitary':zero(phys.H*phys-s.eye(32)),
                 'C_compatible':zero(fr['B']*phys.conjugate()-phys*fr['B']),
                 'R_compatible':zero(phys*R-R*phys),
                 'same_U2_generators':all(zero(phys*s.kronecker_product(s.eye(4),z,s.eye(2))-s.kronecker_product(s.eye(4),z,s.eye(2))*phys) for z in u2),
-                'paired_planes':planes})
+                'paired_planes':planes,'actual_whole_cutoff_image_epsilon':cutoff_image})
     records['hatch_maps']=maps;records['hatch_rejections']=rejections
     records['linear_fixed_orientation_intertwiner_obstructed']=records['actual_volume']!=records['canonical_volume']
     ck('full scalar-sign permutation phase census accounted',len(maps)+len(rejections)==96)

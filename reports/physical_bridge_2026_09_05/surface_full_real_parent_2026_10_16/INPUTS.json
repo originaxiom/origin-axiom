@@ -51,6 +51,10 @@
       "sha256": "b8c492d0831a2e53cb04885c513c2d9833c6e7ee237f6231151c4b41b2a89e1d"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/CUTOFF_PLANE_DESIGN.md",
+      "sha256": "c0e6c8428eb7492bd578646a470cc8e412dc689990e779785acb503e029c00e6"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/DESIGN.md",
       "sha256": "8a97ab696e3a6b73de03c353d414f3d6f1fe32ece86a3a431c260b546ec25faf"
     },
@@ -68,7 +72,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/clifford_diagnostic.py",
-      "sha256": "aa1a08ee33c8b6ef37a20f329041e7b3d1e4c851394af672597cd2dfe35f5a1f"
+      "sha256": "35722f2dd108aa3678203e1d337a55735747f6b33f7a5ae56e8f287925383721"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/execute.py",
@@ -76,7 +80,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/make_seal.rb",
-      "sha256": "bd5699445c288a67f48e3cfe61a96f90abf53aa24def99f7072054dc7984b906"
+      "sha256": "ce83dcd5948d040d730007e59adee31f0c22d2dff25ebaae06ded5ca25cd924c"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/probe.py",
@@ -89,6 +93,10 @@
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/results/gauge_frame_run/probe.stdout.log",
       "sha256": "cc5b961ae78eb458e031d93f993e2899ee0e91d82f187dc68e2a5fe816f60143"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/scope_execute.py",
+      "sha256": "94206b566bad2c961ca327cb487134d5759c01f73c2bd24cbd941c415d9c52aa"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/superfield.py",
@@ -384,7 +392,7 @@
     },
     {
       "path": "tests/test_physical_bridge_surface_full_real_parent.py",
-      "sha256": "b70218d1a5ed6def9ee0c2e13e3a6e81f00eb0c3efbfd48f578bacadbcc6b2ba"
+      "sha256": "be057eac0ec2f3b41bdbcedbb8f7336e6970015d3eb07ef4abfbe2f6f5782c6d"
     },
     {
       "path": "tests/test_physical_bridge_surface_interacting_domain.py",

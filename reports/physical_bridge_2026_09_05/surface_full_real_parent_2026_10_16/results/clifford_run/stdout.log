@@ -1,0 +1,1905 @@
+{
+  "checks": {
+    "frozen complete action record hash": true,
+    "all twenty coefficient tensors factor exactly": true,
+    "actual nine Hermitian velocities": true,
+    "actual all81 Clifford relations": true,
+    "actual signed central volume": true,
+    "canonical nine Hermitian velocities": true,
+    "canonical all81 Clifford relations": true,
+    "canonical signed central volume": true,
+    "same actual canonical target frame": true,
+    "actual full Nambu reality on all coefficients": true,
+    "external matrices identical before any new hatch": true,
+    "full scalar-sign permutation phase census accounted": true
+  },
+  "all_passed": true,
+  "records": {
+    "actual_volume": "1",
+    "canonical_volume": "-1",
+    "hatch_maps": [
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "phases": [
+          "I",
+          "I",
+          "-I",
+          "1"
+        ],
+        "complete_coefficients": true,
+        "unitary": true,
+        "C_compatible": true,
+        "R_compatible": true,
+        "same_U2_generators": false,
+        "paired_planes": [
+          {
+            "epsilon": -1,
+            "preserved": false,
+            "target_Green_zero": true
+          },
+          {
+            "epsilon": 1,
+            "preserved": false,
+            "target_Green_zero": true
+          }
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "phases": [
+          "1",
+          "-1",
+          "1",
+          "-I"
+        ],
+        "complete_coefficients": true,
+        "unitary": true,
+        "C_compatible": true,
+        "R_compatible": true,
+        "same_U2_generators": false,
+        "paired_planes": [
+          {
+            "epsilon": -1,
+            "preserved": false,
+            "target_Green_zero": true
+          },
+          {
+            "epsilon": 1,
+            "preserved": false,
+            "target_Green_zero": true
+          }
+        ]
+      }
+    ],
+    "hatch_rejections": [
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "reason": [
+          "inconsistent edge",
+          1,
+          0,
+          10,
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "reason": [
+          "inconsistent edge",
+          1,
+          0,
+          10,
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "reason": [
+          "inconsistent edge",
+          1,
+          0,
+          10,
+          "-1",
+          "1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "reason": [
+          "inconsistent edge",
+          1,
+          0,
+          10,
+          "-1",
+          "1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          2,
+          1,
+          3,
+          0
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "reason": [
+          "inconsistent edge",
+          3,
+          0,
+          16,
+          "-1",
+          "1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          2,
+          3,
+          1,
+          0
+        ],
+        "reason": [
+          "support",
+          2,
+          0,
+          16,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          3,
+          0,
+          1,
+          2
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          3,
+          2,
+          0,
+          1
+        ],
+        "reason": [
+          "support",
+          2,
+          0,
+          16,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          -1
+        ],
+        "permutation": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "reason": [
+          "inconsistent edge",
+          5,
+          0,
+          22,
+          "-I",
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "reason": [
+          "inconsistent edge",
+          1,
+          0,
+          10,
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "reason": [
+          "inconsistent edge",
+          1,
+          0,
+          10,
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "reason": [
+          "inconsistent edge",
+          1,
+          0,
+          10,
+          "-1",
+          "1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "reason": [
+          "inconsistent edge",
+          1,
+          0,
+          10,
+          "-1",
+          "1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          2,
+          1,
+          3,
+          0
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "reason": [
+          "inconsistent edge",
+          3,
+          0,
+          16,
+          "-1",
+          "1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          2,
+          3,
+          1,
+          0
+        ],
+        "reason": [
+          "support",
+          2,
+          0,
+          16,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          3,
+          0,
+          1,
+          2
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          -1,
+          1
+        ],
+        "permutation": [
+          3,
+          2,
+          0,
+          1
+        ],
+        "reason": [
+          "support",
+          2,
+          0,
+          16,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "reason": [
+          "inconsistent edge",
+          1,
+          0,
+          10,
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "reason": [
+          "inconsistent edge",
+          1,
+          0,
+          10,
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "reason": [
+          "inconsistent edge",
+          1,
+          0,
+          10,
+          "-1",
+          "1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "reason": [
+          "inconsistent edge",
+          1,
+          0,
+          10,
+          "-1",
+          "1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          2,
+          1,
+          3,
+          0
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "reason": [
+          "inconsistent edge",
+          3,
+          0,
+          16,
+          "-1",
+          "1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          2,
+          3,
+          1,
+          0
+        ],
+        "reason": [
+          "support",
+          2,
+          0,
+          16,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          3,
+          0,
+          1,
+          2
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          -1
+        ],
+        "permutation": [
+          3,
+          2,
+          0,
+          1
+        ],
+        "reason": [
+          "support",
+          2,
+          0,
+          16,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "reason": [
+          "inconsistent edge",
+          1,
+          0,
+          10,
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "reason": [
+          "inconsistent edge",
+          1,
+          0,
+          10,
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "reason": [
+          "inconsistent edge",
+          1,
+          0,
+          10,
+          "-1",
+          "1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "reason": [
+          "inconsistent edge",
+          1,
+          0,
+          10,
+          "-1",
+          "1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          2,
+          1,
+          3,
+          0
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "reason": [
+          "inconsistent edge",
+          3,
+          0,
+          16,
+          "-1",
+          "1"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          2,
+          3,
+          1,
+          0
+        ],
+        "reason": [
+          "support",
+          2,
+          0,
+          16,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          3,
+          0,
+          1,
+          2
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "reason": [
+          "support",
+          0,
+          0,
+          10,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          3,
+          2,
+          0,
+          1
+        ],
+        "reason": [
+          "support",
+          2,
+          0,
+          16,
+          "I"
+        ]
+      },
+      {
+        "scalar_signs": [
+          1,
+          1
+        ],
+        "permutation": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "reason": [
+          "inconsistent edge",
+          5,
+          0,
+          22,
+          "I",
+          "-I"
+        ]
+      }
+    ],
+    "linear_fixed_orientation_intertwiner_obstructed": true,
+    "scope": "actual local Clifford realization and bounded scalar-frame hatches; not named U2 bundle/domain or global physics"
+  }
+}

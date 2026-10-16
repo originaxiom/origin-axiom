@@ -1,0 +1,25 @@
+{
+  "mode": "diagnostic",
+  "capture_leaf": "clifford_run",
+  "command": [
+    "PYTHON3.12.14",
+    "-B",
+    "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/clifford_diagnostic.py"
+  ],
+  "exit_code": 0,
+  "seconds": 9.426094999995257,
+  "before_completed_before_launch": true,
+  "state_unchanged": true,
+  "tracked_files": 13607,
+  "source_pins": 101,
+  "tree_sha256": "a16d41c13ea99897f2b7a154ddca66655c9b20835d60fb5a84ddc713f7befea0",
+  "index_sha256": "c6a8d6535dbac412323fb7487cfe4cb6cdbdf90ba80286971a66308778c02da7",
+  "stdout": {
+    "bytes": 28519,
+    "sha256": "c7c96d652046cacb100a0dc49a3d01bcd110be1b8c9b054bcf764f0be7bd650f"
+  },
+  "stderr": {
+    "bytes": 520,
+    "sha256": "470713a1fe0e1abe46ac83e3031bb074957942a555a0548e605ddcf86e6645f7"
+  }
+}
