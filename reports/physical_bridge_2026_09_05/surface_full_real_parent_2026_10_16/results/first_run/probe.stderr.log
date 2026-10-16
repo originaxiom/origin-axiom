@@ -1,0 +1,38 @@
+PASS actual frame supplied
+PASS actual MW frame normalized
+PASS actual spatial sigma Pauli frame
+PASS full WZ vector reality and inverse
+PASS nonzero V squared retained V cubed zero
+PASS all actual chirals satisfy barD
+PASS actual real K density
+PASS actual F action real
+FAIL actual full fermion action equals ordered components
+PASS native fermion IBP keeps all currents
+PASS reference fermion IBP keeps all currents
+PASS derivative current not silently zero
+PASS wrong gaugino sign changes bulk action
+PASS no higher fermion derivative or unpriced field
+PASS actual K D terms before IBP
+PASS actual D moment with retained boundary
+PASS D commutator cannot be dropped
+PASS actual vector D Gaussian half
+PASS actual chiral auxiliary unit metric 0
+PASS actual chiral auxiliary unit metric 1
+PASS actual chiral auxiliary unit metric 2
+FAIL actual full vector Yang Mills action
+PASS coefficient reader actual compact trace and adjoint
+FAIL actual external gauge covariance 0
+PASS actual internal gauge covariance 0
+FAIL actual external gauge covariance 1
+PASS actual internal gauge covariance 1
+FAIL actual external gauge covariance 2
+PASS actual internal gauge covariance 2
+FAIL actual external gauge covariance 3
+PASS actual internal gauge covariance 3
+PASS actual signed time weights positive
+PASS complete signed time metric
+FAIL full positive identity flavour Clifford map
+PASS actual normal moment equals canonical curvature
+PASS actual normal F source equals canonical derivative
+PASS actual complete normal potential twice residual action
+PASS normal quartic omission detected
