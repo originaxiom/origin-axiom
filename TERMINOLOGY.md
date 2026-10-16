@@ -842,3 +842,22 @@ theorem ledger and conditional claims in `CLAIMS.md`. Write "UNIQUENESS A6", "P0
   the second-to-third mass ratio is the Higgs's distance from the cone (B1645, B1646).
 - **the point register** — `docs/POINT_REGISTER.md`: every point raised (by the owner, a referee lens, a seat, or this
   seat) rowed the same day with a queue slot, and worked in queue order; the gate `point-debt` (E88).
+
+## Added at Review 64 (2026-10-16) — the terms minted in the B1637–B1660 window
+
+- **committed unread** — a sealed run's output is committed and pushed before anyone reads it. Only the exit code and
+  the instrument's hash against the seal are checked first. The read-out comes in a later commit, so the record shows
+  that the output was fixed before it was judged (B1656–B1660).
+- **a scoreboard** — a sealed arc whose data were seen before the seal (in explorations, disclosed). It can exclude, but
+  a fit it finds is not evidence until sealed blind on unseen quantities (B1658, B1660).
+- **the canonical end condition (P4) and the end radius L** — each sector's matter carries its own defect:
+  u_s = √(2πL + c_s)·R_s, with c_s the channel norms and L the radius at which the cusp is cut off. L is a datum, not
+  derived (B1654, B1656).
+- **the twisted frame; the per-field reading** — B1656's coupling, with each field's hypercharge twist applied to its
+  own mode (q_L·w on the left, q_R·w on the right) and the residue the pair product. This is the reading the SM seat
+  agreed (S134, its §137).
+- **the joint law** — in the twisted frame, det Y = 4 det S det M tr(εSMᵀ) and adj Y = det S·A(M) + det M·P A(S),
+  exactly, for every Higgs S and matter M. The masses are closed-form in the two defects and their pairing (B1659).
+- **the arena** — the SM seat's reading (P-178, not adopted): the space of the records' placements, SL(2, ℝ)/SL(2, ℤ),
+  is the trefoil's complement. The threads are its geodesic flow's closed orbits, and ω and i are its exceptional
+  fibres.

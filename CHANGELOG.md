@@ -1,5 +1,15 @@
 # Changelog
 
+## REVIEW 64 THE FIELD STAGE (B1661)
+
+- **Review 64** (34 merges since Review 63; anchor `bf44d9032`; fresh clone PASS; full suite 7335 passed, 10 failed, 68 skipped (35:37, -n 8): eight fixed at the review, two parallel-only under investigation (§5b)). The loop: R63-3
+  done (B1648); four items carried a second time. The seeded sample (B1648, B1649, B1651, B1658, B1660) read in full
+  by a reviewing agent, its locks run. Filed: B1660's headline, a non-sequitur and its post-seal files repaired (an E65
+  instance); B1654's post-seal path repair recast in the seal check's form (clean, 69 of 69; an E80 instance); six terms
+  glossed. B1649, B1651 and B1658 go to one scope-repair arc (R64-3); hashing every stored output becomes a rule
+  (R64-4). Lock frontier/B1661_review_64_the_field_stage/verification/test_b1661_review_64.py. Also: the sweep for the
+  pull-back fork (S_THE_PUSH_BACK §9.3). 0 of 19.
+
 ## S136 THE ONE-HIGGS CENSUS (B1660, NEGATIVE AS SEALED); "ARE WE SURE?" (P-179); THE SEATS READ (P-180)
 
 - **B1660, the one-Higgs census under the canonical end condition** (sealed `f798b2368`; output unread at

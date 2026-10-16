@@ -6385,11 +6385,158 @@ locks are their checks.
 
 ### Action items (Review 63)
 - [>] R63-1: restore the Codeberg mirror; then push main and mirror the SM, audit and fork lanes (owner: the owner, then cc; carried from R62-1; P-067)
-- [ ] R63-2: make the premise audit a standing part of every review — each review judges its window's "forced", "every", "only" and "cannot" with their premises — as a governance delta in its own arc (owner: cc; source: P-029, §4)
-- [ ] R63-3: the scope repairs P-119–P-122 in one arc, with GENESIS's scope notes through adoption/amend.py and B1631's correction line; next after B1646's landing (owner: cc; source: §4)
-- [ ] R63-4: the Seen-first alias table and full-text sweep for preregistrations, with a failing-path test, and the late Seen addenda (owner: cc; source: P-123)
-- [ ] R63-5: the reliance reading of GENESIS, THE_WEAVE and LAW_MAP against unverified seat results (P-124), and the REPRODUCED disposition with an artefact for every VERIFIED (P-125) (owner: cc)
-- [ ] R63-6: the enforcement gaps and the seat register (P-126, P-127) (owner: cc; the dependabot branches the owner's)
+- [>] R63-2: make the premise audit a standing part of every review — each review judges its window's "forced", "every", "only" and "cannot" with their premises — as a governance delta in its own arc (owner: cc; source: P-029, §4)
+- [x] R63-3: the scope repairs P-119–P-122 in one arc, with GENESIS's scope notes through adoption/amend.py and B1631's correction line; next after B1646's landing (owner: cc; source: §4) — done: B1648 (Review 64)
+- [>] R63-4: the Seen-first alias table and full-text sweep for preregistrations, with a failing-path test, and the late Seen addenda (owner: cc; source: P-123)
+- [>] R63-5: the reliance reading of GENESIS, THE_WEAVE and LAW_MAP against unverified seat results (P-124), and the REPRODUCED disposition with an artefact for every VERIFIED (P-125) (owner: cc)
+- [>] R63-6: the enforcement gaps and the seat register (P-126, P-127) (owner: cc; the dependabot branches the owner's)
 - [x] R63-7: filed at this review: nine ledger rows corrected and one upgraded, B1600's addendum, three relay rows, the smlaws marker, B1629's retitle, B1644's hash line, the E82 instance, eight terms glossed, P-119–P-127 rowed, P-019, P-078 and P-114 amended
 
 **anchor-commit: `0bbbb6cab`**
+
+# Review 64 (2026-10-16) — the field stage: one Higgs fails, the pull-back is asked, and the seals read in their own form
+
+Thirty-four merges since Review 63, against a period of twenty: due. The window has 34 first-parent commits
+(`0bbbb6cab..bf44d9032`) and 16 arcs with a verdict (B1637, B1646–B1660), written at the head. One read-only reviewing
+agent of main's read the seeded sample in full and ran its locks. Main checked every finding taken below against the
+pages before writing it.
+
+**What the window did:**
+- Review 63's scope repairs (B1648).
+- The field at the puncture: the kernel (B1649), where a Higgs can couple (B1651), the frame tribunal (B1652), the rank
+  of a point coupling (B1653), the boundary class's norm (B1654).
+- Main's audit of its own negatives (B1655; E89, the failed guess as a door).
+- The twisted frame: the electron's zero (B1656), the symmetric point (B1657), the twisted half bound (B1658), the joint
+  law (B1659).
+- The one-Higgs census (B1660, NEGATIVE as sealed, a scoreboard).
+- The owner's passages on the push-back and the question "are we sure?" (P-177, P-179; firewalled).
+- GENESIS moved v1.43 → v1.47; the price restated as 4 + 9 = 13. 0 of 19.
+
+**fresh-clone: PASS @ bf44d9032** (gates all PASS; belt ok) · **sample seed: 0bbbb6cab**; to be read in full: B1648,
+B1649, B1651, B1658, B1660 · **gate controls: 45 registered** failing-path tests; unregistered: none · **full suite:
+7335 passed, 10 failed, 68 skipped (35:37, -n 8): eight fixed at the review, two parallel-only under investigation (§5b)**.
+
+## 1. The loop
+
+- **R63-1 (Codeberg): carried.** The account's quota (P-067) still blocks every Codeberg push. It is the owner's.
+- **R63-2 (the premise audit as a standing part of every review): carried.** This review ran it on the sample only (§4);
+  the governance delta is not written.
+- **R63-3 (the scope repairs P-119–P-122): done** (B1648; the four rows DONE).
+- **R63-4 (the Seen-first alias table, P-123), R63-5 (the reliance reading and REPRODUCED, P-124, P-125), R63-6 (the
+  enforcement gaps and the seat register, P-126, P-127): carried.** All three are queued at Q5. The window spent itself
+  on the field stage, and none was started. Four items carried for a second review is the loop's main debt.
+
+## 2. The branch inventory and the lanes
+
+- **Branches.** 10 unmerged leaves, all registered; none unclassified. `weave-physics-archive-2026-10-11` lives on one
+  remote only, an archive of the owner's recovery files.
+- **The four lanes are out of step with Codeberg**, the quota again (R64-1).
+- **Every live lane is read to its head** (harvest-debt: NEW unrowed 0, relays without a row 0):
+  - the SM seat at `1c6c3717`;
+  - the web seat at `fc15550e`;
+  - the audit lane at `7ae6451c`;
+  - its fork at `0c6570ba`.
+
+## 3. The declared modulus
+
+- **Read in full:** the five seeded arcs, by the reviewing agent, with their locks run one at a time (all pass:
+  B1648 3, B1649 2, B1651 3, B1658 2, B1660 2), and B1649's stored output spot-checked against its findings.
+- **Read at banking only:** the other eleven arcs.
+- **Certified mechanically:** the gates and the reproduction belt in a fresh clone at the head; every seal's hashes and
+  order.
+- **Not certified:** the eleven unread arcs' prose; the firewalled speculation files, which promote nothing; the seats'
+  results not verified on main.
+
+## 4. The sample, and the premise audit on it
+
+| arc | finding | kind | done |
+|---|---|---|---|
+| B1660 | the headline "every cell holds as predicted" rounded two missed expectations (C1's start rates exceeded for S̃ and S̄; S̄ at 34.40 on two lines, not "several hundred"); a non-sequitur ("seven parameters cannot reach five targets"); "the only version with content" unscoped; the post-seal numbers in the claim line rested on files in the draft room | defect (E65 instance) | **repaired here:** the headline distinguishes the pass criteria from the expectations; the sentence rewritten; the explorations kept in `verification/after_the_seal/` with their outputs, hashed |
+| B1658 | "cannot spread … by more than a factor 4 — exactly" is exact in t + 1/t, and first order in t for a nearly null Higgs; "one Higgs is out" assumes the ratios survive running (stated at its §3) | scope | R64-3 |
+| B1649 | its findings still say the five zeros are "fixed by Jacobi's identity" (B1653 superseded that), and the frame caveat (the surface frame, the E8 flavon) sits only in the addendum and the claim line's bracket | scope | R64-3 |
+| B1651 | the claim line carries about 2000 characters of post-seal reading beside the sealed cells; the post-seal `szego_check.py` is not hashed | scope | R64-3 |
+| B1648 | a correction arc with no preregistration or hash list (acceptable), its lock under the arc, not `tests/` | note | — |
+| B1649, B1651, B1658 | the locks pin the instrument's hash, not the stored output's; B1658's output has no hash line | note | R64-4 |
+
+**The premise audit on the sample.** Every "every", "only", "cannot" and "exactly" in the five claim lines was read
+against its premises.
+- Two over-reach their premises: B1658's "exactly" and B1660's "only version with content".
+- One is stale: B1649's "Jacobi's".
+- The rest are scoped.
+- The pattern of Review 63 recurs: the seals caught nothing here. The outside readers did, this time a reviewing agent
+  and the review's own seal check.
+
+## 5. Protocol integrity
+
+- **Nine seals in the window.** Each was sealed before its results, and every hash matches except one.
+- **The exception is B1654.** Four reviewer helpers kept beside its seal were changed after it at S131: an absolute path
+  into the draft room made relative, an E80 instance.
+  - S131 noted the change in the hash file, but kept the sealed hashes on plain lines and named the files nowhere in the
+    findings, so the seal check (R61-4) counted them as undisclosed.
+  - **Repaired here:** the sealed hashes are now `# sealed at` lines, a findings addendum names the four files, and the
+    check is clean (69 of 69).
+- **"Seal not on every remote" on all nine** is Codeberg (R64-1).
+
+## 5b. The full suite (parallel, -n 8, the owner's video apps open)
+
+The full suite gave 7335 passed, 10 failed and 68 skipped (35:37). The ten failures:
+- **Six from this review's own state mid-run**, all fixed:
+  - the atlas and the views did not yet hold B1661;
+  - B1661's claim line was on no synthesis surface until its log line;
+  - the carry chain needed R62-1 named again in R64-1.
+- **Two from a stale lock.** B1421's completeness sweep had asserted 8 irreducible sources since S133 (GENESIS v1.47),
+  when the identification ledger gained I-31 to I-34. The live method gives 9, so the price is 4 + 9 = 13 (I-26 now
+  with I-34; I-29, I-32 and I-33 with the listener map).
+  - The landing suites since S133 were selective and never reached it. This is P-143's risk, made real.
+  - Fixed: the lock now asserts the live ledger, with a dated note.
+- **Two that depend on the BLAS thread count** (B186's off-axis box dimension; B616's held-out census). Diagnosed at
+  this review: neither is hash order (16 seeds) nor a race. Both turn on Apple's BLAS running multithreaded (the
+  default) or single-threaded (`VECLIB_MAXIMUM_THREADS=1`, which the owner's CPU-sharing rule sets in every parallel
+  run).
+  - **B616:** its float-threshold census prints 378 pairs in the first case and 384 in the second, every time. It is
+    already a recorded platform pin, and its verdict and sign law, the lock's content, are unaffected.
+  - **B186:** the on-axis band's box dimension is ill-conditioned (m = 2: 0.847 against 0.792), while the off-axis value
+    is stable (0.765). The ordering holds in both, but the lock's 0.04 margin does not (0.027 single-threaded).
+  - Both locks fail under the rule's setting and are not repaired here (R64-10).
+
+All eight fixed tests pass when rerun.
+
+## 6. Advancement, errors, provenance, vocabulary
+
+- **Advancement.** LAW_MAP +13 rows and THEOREM_REGISTRY +13 (B1637–B1659's laws). Nothing moved down a class. The
+  firewalled readings (the arena, the push-back) entered no table.
+- **Errors.**
+  - One new class: E89, the failed guess as a door (B1655).
+  - Instances: E82 ×3, E65, E58, E53, E66 (main's audit, B1655).
+  - Filed here: an E80 instance (B1654's helpers) and an E65 instance (B1660's read-out narrowed before it was
+    computed, caught the same day by main's post-seal checks and by this review's reader).
+- **Provenance.** One hit: B1647's own sentence recording the retitle of "Independently verified". It is a quotation
+  of the removed phrase, not a claim, so there is no pretense.
+- **Vocabulary.** The window's unglossed pairs are read. Six load-bearing terms are glossed (TERMINOLOGY "Added at
+  Review 64"): committed unread, a scoreboard, the canonical end condition and the end radius L, the twisted frame and
+  the per-field reading, the joint law, the arena. The rest are protocol phrases ("cell holds", "sealed sha") or
+  fragments.
+- **The chain gap** (845 arcs on a surface and not in the chain; top B1098, B959, B1100) is unchanged in kind. Not
+  adjudicated here (R64-5).
+
+## 7. What this review cannot certify
+
+- That the eleven unread arcs' prose is scoped as their cells are.
+- That the seats' results the window relies on are right, beyond those verified on main (W67, W88, W90, §138).
+- Anything about the goal: the field stage's sealed tests have now excluded one Higgs at ω on W59's lines. The price
+  stands at 4 + 9 = 13. 0 of 19.
+
+### Action items (Review 64)
+- [>] R64-1: restore the Codeberg mirror; then push main and mirror the SM, audit and fork lanes (owner: the owner, then cc; carried from R63-1, itself carried from R62-1; P-067)
+- [>] R64-2: make the premise audit a standing part of every review, as a governance delta in its own arc (owner: cc; carried from R63-2; P-029)
+- [ ] R64-3: one scope-repair arc for B1658 (its "exactly" in t + 1/t), B1649 (Jacobi's superseded; the frame caveat into the findings) and B1651 (the claim line split into sealed cells and post-seal reading; szego_check.py hashed) (owner: cc; source: §4)
+- [ ] R64-4: a standing rule with a failing-path test — every banked arc hashes its stored output and any post-seal file it cites (owner: cc; source: §4)
+- [ ] R64-5: adjudicate the chain gap's top entries (owner: cc; source: §6)
+- [>] R64-6: the Seen-first alias table and full-text sweep, with a failing-path test (owner: cc; carried from R63-4; P-123)
+- [>] R64-7: the reliance reading of GENESIS, THE_WEAVE and LAW_MAP against unverified seat results, and the REPRODUCED disposition (owner: cc; carried from R63-5; P-124, P-125)
+- [>] R64-8: the enforcement gaps and the seat register (owner: cc; carried from R63-6; P-126, P-127)
+- [x] R64-9: filed at this review: B1654's seal record recast and its addendum; B1660's headline, sentence and post-seal files repaired; the E80 and E65 instances; six terms glossed; B1421's stale lock brought to the live ledger (4 + 9 = 13)
+- [ ] R64-10: the two BLAS-thread-dependent locks: B616 records 384 as the single-threaded value beside its other pins; B186's band box dimension is ill-conditioned, so its 0.04 margin is re-graded in its own arc (owner: cc; source: §5b)
+- [ ] R64-11: a full suite at every review and before any GENESIS amendment, since the selective landing suites missed B1421 for three landings (owner: cc; source: §5b; P-143)
+
+**anchor-commit: `bf44d9032`**

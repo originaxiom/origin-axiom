@@ -10,7 +10,7 @@ e5562ef8c7c48936c224c65cfff4de59a51c034a22804e9fcb7a40a527f8dfa0  verification/b
 8a87ffac85c6146c0c70cadc538ca8539bcee07a66da0a874350a82931ae84a5  verification/before_the_seal/end_data_scan.py
 0522beeccb34a89d788ca705fde1e08600e5957be18d4ba1b02f00fd0faffc35  verification/before_the_seal/end_data_scan_output.txt
 3cc5e027339d396b77055c6e418546fd0070c9f979839e8dd3df7e501b6f821d  verification/before_the_seal/review/README.md
-cc6456f8fde94186c5f9d93f80f093e20c736a50f653fda7d09a0772e06d1e98  verification/before_the_seal/review/pre.py
+# sealed at 155959126: cc6456f8fde94186c5f9d93f80f093e20c736a50f653fda7d09a0772e06d1e98  verification/before_the_seal/review/pre.py (changed after the seal at bc9c815ec, S131: its absolute path made relative; the current hash below; recast as a '# sealed at' line at Review 64)
 8fcedaeb077fbc0633dafaf9eb3e1b17180f28dda6e1b15f67d0616c862f6d5b  verification/before_the_seal/review/s10_det.py
 1298c9d89a8da704251d99ae67df4ad1e13d765036ad736477621c180d1574c2  verification/before_the_seal/review/s11_n1_tall.py
 a25dfa269dcdee7b65d3e877ba319d8622aee9bf3c75aa596de93898b40f2f0b  verification/before_the_seal/review/s12_autom.py
@@ -26,7 +26,7 @@ e0891caf73b5695980cf6c83dff4c21c58d8cbef9e58ba0ba2dd3172d917f8d7  verification/b
 1fcadb9accfbe47a6a1537060a15df4feddb0038a8ddc243c3a25aeab431b445  verification/before_the_seal/review/s20_routeB_more.py
 66fc3079f6063f9a9f09397e3babcfc251f63052db199061ffdad05ec94a9348  verification/before_the_seal/review/s21_svd_conv.py
 15337153af26957cc3e05aaf3bdb6d7766233937363ed8a38c8dede671b3cb5e  verification/before_the_seal/review/s22_modular.py
-f03a53197f0cde2ebb3d461f6ed09eb2037519a71a9cca10196173a741d5322f  verification/before_the_seal/review/s23_names.py
+# sealed at 155959126: f03a53197f0cde2ebb3d461f6ed09eb2037519a71a9cca10196173a741d5322f  verification/before_the_seal/review/s23_names.py (changed after the seal at bc9c815ec, S131: its absolute path made relative; the current hash below; recast as a '# sealed at' line at Review 64)
 4aff707ecdfce4c861f5205f1d5a1bfec5932d79f601f4c1ea5bc0824f0690bf  verification/before_the_seal/review/s24_W_near0.py
 f726feb07f203bd3f120dc6443e4bd2c75b663fa53e8117487de2d94fd6ec926  verification/before_the_seal/review/s25_cusp_closed.py
 21b69b72d47e4661f9264307ea1e3fcae5494f20651711042b7e7fc0ddf60a23  verification/before_the_seal/review/s26_toprow.py
@@ -41,8 +41,8 @@ c0e693f01fe0c250f50a4dec984719534f4feacc522ac6429f3fa6121e9e9ec0  verification/b
 60e53ac39366f9412353a05fc2a348386053a521b5702b1dc9cad143058e40c5  verification/before_the_seal/review/s8_n6_sim.py
 86d3bdcd91293cf319b8e45b515ece8a8b9a4d106b80d4a3cbcc1f8c58c96b7f  verification/before_the_seal/review/s9_grid.py
 d23bd3108c50486790ba63da0e104285b203a5e08577da54aa3585858ef34e26  verification/before_the_seal/review2/README.md
-e81e6f95a69e7223748c9f009f6c98cc3abdf4f4d07999e850887e5d2fbe30ae  verification/before_the_seal/review2/blocks.py
-5e94afdc71480d951c3a295240ba656749888056b95f73a374550d607a5f193f  verification/before_the_seal/review2/pre2.py
+# sealed at 155959126: e81e6f95a69e7223748c9f009f6c98cc3abdf4f4d07999e850887e5d2fbe30ae  verification/before_the_seal/review2/blocks.py (changed after the seal at bc9c815ec, S131: its absolute path made relative; the current hash below; recast as a '# sealed at' line at Review 64)
+# sealed at 155959126: 5e94afdc71480d951c3a295240ba656749888056b95f73a374550d607a5f193f  verification/before_the_seal/review2/pre2.py (changed after the seal at bc9c815ec, S131: its absolute path made relative; the current hash below; recast as a '# sealed at' line at Review 64)
 0bcd96132d68986e60e2f141117bf73c8a75e1333ada828e956e841ce39fd5d0  verification/before_the_seal/review2/t01_cusp_laws.py
 d4776eaaf6ece3ad6be695bc78fc951caa91ea713648f1f5853f5abde6431eda  verification/before_the_seal/review2/t02_K24.py
 86f01f40a8f8db6d3e22d5a7e0ab7f9aa27f68e3a61845f108b9fae7043eab2a  verification/before_the_seal/review2/t02b_K24.py

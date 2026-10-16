@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1389** |
-| words of findings prose | **1,099,185** |
+| research arcs with findings | **1390** |
+| words of findings prose | **1,099,821** |
 | test lock files referenced | **812** |
-| arcs carrying an authored verdict | **1389** (100.0 %) |
+| arcs carrying an authored verdict | **1390** (100.0 %) |
 | recorded closures | **821** (654 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 942 |
+| PROVED | 943 |
 | NEGATIVE | 345 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,12 +65,12 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1659`** (1012 words, 0 locks)  
-THE JOINT LAW (sealed f4b12d788, sha256 8123044b; PROVED -- every cell holds as sealed; the output committed unread at c98fbe782): in B1656's twisted, quaternionic frame, for EVERY Higgs S and EVERY matter M in M2(C), det Y(S, M) = 4 det S det M tr(eps S M^T) and adj Y(S, M) = det S A(M) + det M P A(S) with P = diag(1, -1, -1) and A an explicit quadratic, equal to B1658's q~ p~^T on the null cone; with the matter labelled N = M eps the coupling is symmetric in (S, N) and det Y = -4 det S det N polar(S, N), the shape of B1657's (a.a)(v.v)(a.v). So the three masses are closed-form in the two defects and their pairing: m1 = 0 if and only if a defect or the pairing vanishes; in the hierarchical limit the middle mass reads the sum of the two defects' terms and the lightest their product over the other two; at the coincident point N = S the masses are exactly geometric (m1 m3 = m2^2); both light masses are first order in the defects. On B1656's sector matter (324 cases) the identities hold to 4e-17 and 2e-16; controls bite (a perturbation breaks J1; A for P A breaks J2; N != S departs from the geometric law). No data. 0 of 19.  
-`B1659_the_joint_law/FINDINGS.md`
+**PROVED — `B1661`** (392 words, 0 locks)  
+REVIEW 64: THE FIELD STAGE. Thirty-four merges since Review 63; fresh clone PASS at bf44d9032; every live lane read to its head. The loop: R63-3 done (B1648), four items carried a second time (the premise audit's governance delta, the Seen-first alias table, the reliance reading and REPRODUCED, the enforcement gaps), Codeberg still the owner's. The sample: B1660's headline rounded two missed expectations and carried a non-sequitur (repaired here; its post-seal files kept in the arc and hashed; an E65 instance); B1658's 'exactly' (exact in t + 1/t only), B1649's stale 'Jacobi's' and B1651's mixed claim line go to one scope-repair arc. Protocol: B1654's post-seal path repair was disclosed in a form the seal check cannot read (recast; clean, 69 of 69; an E80 instance). Six terms glossed. 0 of 19.  
+`B1661_review_64_the_field_stage/FINDINGS.md`
 
-**NEGATIVE — `B1660`** (1231 words, 0 locks)  
-THE ONE-HIGGS CENSUS UNDER THE CANONICAL END CONDITION (sealed f798b2368, sha256 f0f9518c; NEGATIVE as sealed, a scoreboard; the output committed unread at aff4233ea): in B1656's twisted frame at omega on W59's 18 lines under P4, with B1659's joint law, ONE Higgs S and the end radius L reproduce HZ2021's five non-electron mass ratios in none of 54 cells (18 lines x 3 readings of the up sector: S, S~ = eps conj(S) eps^T, conj(S)): no fit below 11.07 found, every cell reliable (8 to 160 of 160 starts at its best; no failed fit), with a search that recovered all 15 planted worlds (C1). chi2_min: the same S 85.35-291.14 (three classes of six lines); S~ 542.8-591.8; conj(S) 412-731 except 34.40 on the conjugate pair of lines (1/9, 7/9) and (8/9, 2/9), the census's best. Read-out (C3): at the best points the up quarks' two ratios and the down quarks' m1/m3 are met; the misses are the two middle ratios, m_s/m_b too large and m_mu/m_tau too small: the data's (m_mu/m_tau)/(m_s/m_b) = 3.14 against 0.63-1.75 at the best points. Not a ceiling: alone, that ratio reaches 9-34 on four lines (a post-seal exploration, labelled), so the misfit is a joint conflict among the five targets. 0 of 19.  
+**NEGATIVE — `B1660`** (1315 words, 0 locks)  
+THE ONE-HIGGS CENSUS UNDER THE CANONICAL END CONDITION (sealed f798b2368, sha256 f0f9518c; NEGATIVE as sealed, a scoreboard; the output committed unread at aff4233ea): in B1656's twisted frame at omega on W59's 18 lines under P4, with B1659's joint law, ONE Higgs S and the end radius L reproduce HZ2021's five non-electron mass ratios in none of 54 cells (18 lines x 3 readings of the up sector: S, S~ = eps conj(S) eps^T, conj(S)): no fit below 11.07 found, every cell reliable (8 to 160 of 160 starts at its best; no failed fit), with a search that recovered all 15 planted worlds (C1). chi2_min: the same S 85.35-291.14 (three classes of six lines); S~ 542.8-591.8; conj(S) 412-731 except 34.40 on the conjugate pair of lines (1/9, 7/9) and (8/9, 2/9), the census's best. Read-out (C3): at the best points the up quarks' two ratios and the down quarks' m1/m3 are met; the misses are the two middle ratios, m_s/m_b too large and m_mu/m_tau too small: the data's (m_mu/m_tau)/(m_s/m_b) = 3.14 against 0.63-1.75 at the best points. Not a ceiling: alone, that ratio reaches 9-34 on four lines (a post-seal exploration, labelled, kept in verification/after_the_seal/), so the misfit is a joint conflict among the five targets. 0 of 19.  
 `B1660_the_one_higgs_census/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  

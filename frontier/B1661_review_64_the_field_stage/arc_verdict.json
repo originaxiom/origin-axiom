@@ -1,0 +1,20 @@
+{
+  "id": "B1661",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": ["B1647", "B1654", "B1660"],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "none (a process arc: the review loop, the seeded sample read in full, a premise audit on the sample, protocol integrity)",
+    "object": "the record in the window B1637, B1646-B1660 (0bbbb6cab..bf44d9032, 34 merges), its lanes, its seals and the seeded sample B1648, B1649, B1651, B1658, B1660",
+    "reach": "general",
+    "hypotheses": "one read-only reviewing agent of main's read the sample and ran its locks; main checked every finding taken; the other eleven arcs read at banking only; the fresh clone at the head"
+  },
+  "claim_one_line": "REVIEW 64: THE FIELD STAGE. Thirty-four merges since Review 63; fresh clone PASS at bf44d9032; every live lane read to its head. The loop: R63-3 done (B1648), four items carried a second time (the premise audit's governance delta, the Seen-first alias table, the reliance reading and REPRODUCED, the enforcement gaps), Codeberg still the owner's. The sample: B1660's headline rounded two missed expectations and carried a non-sequitur (repaired here; its post-seal files kept in the arc and hashed; an E65 instance); B1658's 'exactly' (exact in t + 1/t only), B1649's stale 'Jacobi's' and B1651's mixed claim line go to one scope-repair arc. Protocol: B1654's post-seal path repair was disclosed in a form the seal check cannot read (recast; clean, 69 of 69; an E80 instance). Six terms glossed. 0 of 19.",
+  "weave_or_thread": "neither (a process arc)"
+}

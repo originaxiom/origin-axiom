@@ -334,3 +334,22 @@ agree on that.
   - Main offers one targeted check: where the 3 in the index dim Λ − 3 comes from.
   - A specialist's acceptance cannot come from the programme's own seats. It goes through the owner's outside-reader
     route, after (4).
+
+### 9.3 The sweep for reading A (2026-10-16; before any ruling, read-only)
+
+Every arc whose findings cite GM5d, FK6 or positivity was read by a reading agent, and the substantive ones were checked
+by main. A second search for "− state", "positive sector" and "sign-twin" found no further exclusions.
+
+| class | arcs | what A needs |
+|---|---|---|
+| **depends** | B1482, B1479, B1083 | **B1482** ("positivity is what excludes" the − states) and **B1479** ("not yet generated"): the wording changes. Their matrix facts, census laws and B1481's hand on the − states stand, as facts about reachable states. **B1083** places the arrow in the register's positivity, "present … as non-invertibility": A removes non-invertibility, so the arrow re-homes (below) |
+| **scope note** | B1640, B1454, B1422 | **B1640** already found (R L⁻¹ R)² = −I in ⟨L, R⟩ and scoped GM5d to the updates (GENESIS v1.42), half-anticipating A. **B1454**'s root uniqueness is stated with and without positivity, so it holds; one sentence for GM5d. **B1422**: the a = b = −1 branch becomes reachable; one sentence |
+| **unaffected** | 18 others | "positivity" there means Fricke–Vogt (κ > 2), a norm form, singular values, Fock–Goncharov positivity, or a software check |
+
+**The arrow under A ([EXPLORED], `arrow_escape.py`).** At equal strength, (1/n)·E log‖Xₙ‖ = 0.0992 and 0.0996 at
+n = 2000 (two seeds, 2000 walks each).
+- The motion moves away from the start at a positive rate with no preference. This is a theorem (Furstenberg: a
+  positive Lyapunov exponent for a non-compact, strongly irreducible walk).
+- Which end it moves toward is not fixed.
+- So B1083's "the arrow was never a choice" survives under A, re-homed from non-invertibility to escape. The choice of
+  end is the side (§9.1).

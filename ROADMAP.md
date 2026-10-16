@@ -456,3 +456,20 @@ flavour symmetry to the field: what couples to the matter, and what the coupling
 
 **Derived parameters: 0 of 19.** Next: B1646; the scope repairs; the quark count with a massless first generation
 (P-116); B1637's grading.
+
+## ⟳ VIEW REFRESH — 2026-10-16 (Review 64)
+
+Touched at the Review 64 anchor (`bf44d9032`). **The window (B1637, B1646–B1660; 34 merges; two days) built the field
+stage in the twisted frame and tested it once against data.**
+- The field at the puncture and its frames (B1649–B1654). Main audited its own negatives (B1655; E89, the failed guess
+  read as a closed door).
+- In the twisted frame, the electron is massless on W59's lines (B1656). The coupling's determinant and adjugate factor
+  exactly through the Higgs's and the matter's defects (B1659, the joint law).
+- **One Higgs fits the five non-electron mass ratios on none of W59's lines** in any reading of the up sector (B1660,
+  NEGATIVE as sealed, a scoreboard). The miss is W94's down/lepton quantity. A second Higgs makes the ratios fittable,
+  so its test must be blind.
+- **The owner's question "are we sure?"** was answered no, firewalled (P-179). Then the owner ruled, on main's
+  recommendation, that the pull-back acts on the records (B1662, GENESIS v1.48, next).
+- Review 64 found a lock stale since S133 (B1421) that the selective landing suites had missed, and two failures that
+  occur only in parallel (R64-10, R64-11).
+- The price is 4 + 9 = 13. **0 of 19.**

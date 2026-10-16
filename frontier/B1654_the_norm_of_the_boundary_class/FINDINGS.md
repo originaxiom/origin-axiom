@@ -128,3 +128,18 @@ The twisted channels, per sector (the next C arc). With a flat hypercharge line,
 sector its own channel kernels and its own D. The ratios of the first generation's lifts across up, down and leptons do
 not depend on L. They are the first place this frame could give a structural number. They also bear on the parent's
 clause 7, splitting the down quarks from the charged leptons.
+
+## Addendum (2026-10-16, Review 64): four reviewer helpers changed after the seal, already disclosed, now in the seal check's form
+
+- Four helper scripts kept beside the seal were changed after it, at S131 (`bc9c815ec`):
+  - `verification/before_the_seal/review/pre.py`;
+  - `verification/before_the_seal/review/s23_names.py`;
+  - `verification/before_the_seal/review2/blocks.py`;
+  - `verification/before_the_seal/review2/pre2.py`.
+- **What changed.** Each read the instrument from the draft room by an absolute path (an E80 instance), which also broke
+  the no-absolute-paths rule. The repair points them at the arc's own copy by a relative path, and nothing else in them
+  changed. The sealed instrument, the preregistration and the output are untouched.
+- **S131 disclosed it** in `ARTIFACT_HASHES.txt`, with a dated comment and the four current hashes. The sealed hashes,
+  however, stayed on plain lines, and this page did not name the files. Review 64's seal check (R61-4's rule) therefore
+  read the change as undisclosed.
+- **The repair.** The sealed hashes are now `# sealed at` lines, and this addendum names the files. Nothing else changed.

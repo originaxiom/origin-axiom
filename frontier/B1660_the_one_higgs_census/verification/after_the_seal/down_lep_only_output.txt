@@ -1,0 +1,6 @@
+line  0 (1, 1)/9: down+lep chi2_min = 2.755e-20  L 2.870  s/b 0.0187 d/b 9.40e-04 mu/tau 0.0589
+line  1 (1, 4)/9: down+lep chi2_min = 2.887e-20  L 11.381  s/b 0.0187 d/b 9.40e-04 mu/tau 0.0589
+line  5 (4, 7)/9: down+lep chi2_min = 6.933e-18  L 4.918  s/b 0.0187 d/b 9.40e-04 mu/tau 0.0589
+line  2 (1, 7)/9: down+lep chi2_min = 2.337e-19  L 17.886  s/b 0.0187 d/b 9.40e-04 mu/tau 0.0589
+
+

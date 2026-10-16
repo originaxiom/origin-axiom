@@ -1,0 +1,35 @@
+window 0bbbb6cab..bf44d9032: 34 commits (34 on the first-parent line), 16 arcs with a verdict (B1637 … B1660)
+remotes: mirrors ['origin', 'codeberg']; missing mirrors none; other remotes not read: ['golden_gate']
+loop: Review 63 block -- open ['R63-2', 'R63-3', 'R63-4', 'R63-5', 'R63-6']; carried 1 (oldest: [('R63-1', 1)]); open items left in superseded blocks: none
+branches: 10 unmerged leaves; unregistered: none; on one remote only: ['weave-physics-archive-2026-10-11']; remotes out of step: ['fork-2026-09-20', 'physical-bridge-2026-09-05', 'standard-model-derivation-0qt6ao', 'web-seat']
+   fork-2026-09-20                          +311  tip 2026-10-13  registered
+   kind-hypatia-uk0vv9                      +1  tip 2026-10-06  registered
+   outside-bench                            +14  tip 2026-09-18  registered
+   paper-review-verification-kaz3f5         +22  tip 2026-10-01  registered
+   physical-bridge-2026-09-05               +564  tip 2026-10-16  registered
+   project-thread-hctlox                    +3  tip 2026-10-06  registered
+   sep16-branch                             +98  tip 2026-09-29  registered
+   standard-model-derivation-0qt6ao         +746  tip 2026-10-16  registered
+   weave-physics-archive-2026-10-11         +3  tip 2026-10-13  registered
+   web-seat                                 +125  tip 2026-10-16  registered
+seals: 9 in the window; with defects: 9
+   B1649_the_kernel_at_the_puncture                     4/4 hashes, sealed before results  DEFECTS: seal not on every remote
+   B1651_where_a_higgs_can_couple                       5/5 hashes, sealed before results  DEFECTS: seal not on every remote
+   B1653_the_rank_of_a_point_coupling                   24/24 hashes, sealed before results  DEFECTS: seal not on every remote
+   B1654_the_norm_of_the_boundary_class                 69/73 hashes, sealed before results  DEFECTS: changed: verification/before_the_seal/review/pre.py, verification/before_the_seal/review/s23_names.py, verification/before_the_seal/review2/blocks.py, verification/before_the_seal/review2/pre2.py; seal not on every remote
+   B1656_the_electrons_zero                             58/58 hashes, sealed before results  DEFECTS: seal not on every remote
+   B1657_the_symmetric_point                            20/20 hashes, sealed before results  DEFECTS: seal not on every remote
+   B1658_the_twisted_half_bound                         15/15 hashes, sealed before results  DEFECTS: seal not on every remote
+   B1659_the_joint_law                                  24/24 hashes, sealed before results  DEFECTS: seal not on every remote
+   B1660_the_one_higgs_census                           13/13 hashes, sealed before results  DEFECTS: seal not on every remote
+provenance: 10988 added lines scanned, 1 hits, 1 in public-facing files
+   frontier/B1647_review_63_the_field_window/FINDINGS.md: - B1629's "Independently verified" retitled (main's own agents);
+advancement: LAW_MAP +13 rows, THEOREM_REGISTRY +13 rows
+errors: new classes ['E89']; instances {'E82': 3, 'E65': 1, 'E58': 1, 'E53': 1, 'E66': 1}
+new vocabulary (word pairs in >= 3 of the window's claims and in none before) not in TERMINOLOGY.md: cell holds, holds sealed, output committed, committed unread, sealed sha, sha proved, canonical end, main verification, routes agree, order- move, joint law
+gates: 45 named by a test; not named by any: none
+gate controls: 45 registered failing-path tests; unregistered: none
+fresh-clone: PASS @ bf44d9032 (gates all PASS; belt ok)
+relays open: outbound 61 {'CLOUD_CODEX': 3, 'ALL_SEATS': 14, 'CODEX': 13, 'SM': 3, 'SM_AND_CODEX': 25, 'CODEX_AND_SM': 1, 'LP': 1, 'SM_AND_CHAT1': 1}; inbound 21 {'CC3': 3, 'README': 1, 'HANDOFF': 3, 'LINEAGE': 1, 'RETURN': 1, 'CODEX': 6, 'SM': 5, 'CHAT1': 1}; declined 38; banked 506
+chain gap (the review adjudicates the top; promotions are pinned in docs/CHAIN_COVERAGE.json): 845 of the record's arcs on a surface and not in the chain; top: B1098 (8), B959 (7), B1100 (7), B952 (7), B1086 (6), B1000 (6), B1484 (6), B1070 (6)
+sample seed: 0bbbb6cab; to be read in full (seeded by the anchor): B1648, B1649, B1651, B1658, B1660

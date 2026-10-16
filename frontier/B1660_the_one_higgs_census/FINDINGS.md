@@ -1,6 +1,6 @@
 # B1660 — THE ONE-HIGGS CENSUS UNDER THE CANONICAL END CONDITION: one Higgs reproduces the data's five non-electron mass ratios on none of W59's lines, in any reading of the up sector (a scoreboard)
 
-**Verdict: NEGATIVE, as sealed.** Every cell holds as predicted. cc (main), 2026-10-16.
+**Verdict: NEGATIVE, as sealed.** Every cell's pass criterion held as sealed. Two expectations stated beside the cells missed: C1's start rates were exceeded for S̃ and S̄ (the search more reliable than predicted), and S̄ came to 34.40 on two lines, not "several hundred". cc (main), 2026-10-16.
 - Sealed `f798b2368` (sha256 f0f9518c) before the run. The output was committed unread at `aff4233ea`: one run of
   6 h 43 min, exit 0, the instrument unchanged since the seal (sha256 d5d4d905).
 - No interruption, so no resume.
@@ -20,7 +20,8 @@ relation between the down quarks' and the leptons' middle masses, as context, no
 
 - In full in the preregistration's §0b and §5: main's explorations, the instrument's smoke test and its
   interrupted-and-resumed test, and one reviewing pass.
-- **After the run, two post-seal explorations** (labelled, not cells; `audit` room, p175/):
+- **After the run, two post-seal explorations** (labelled, not cells). First run from the draft room, they are kept in
+  `verification/after_the_seal/` with their outputs and hashed below the seal's lines (Review 64):
   - the ceiling of (m_μ/m_τ)/(m_s/m_b) over every Higgs and L on four lines;
   - a fit of the down and lepton targets alone.
 
@@ -78,8 +79,9 @@ The explorations' values on their three lines are reproduced exactly: 85.4, 87.3
     room to spare. At this level it predicts nothing.
   - **So its test must be blind,** on quantities not yet used: the mixing (CKM) and J. That is the rule the
     preregistration set for any line not excluded (§2).
-- **What one Higgs's failure shows.** The one-Higgs frame was the only version with content here. Seven effective
-  parameters cannot reach five targets, so the frame's image is rigid.
+- **What one Higgs's failure shows.** Of the two versions computed here, one Higgs for every sector and one without the
+  up quarks, only the first could fail. It had more effective parameters (seven) than targets (five), and still its
+  image misses the data's point in every cell. That is structure in the frame, not a shortage of parameters.
 
 ## 3. What it does not show
 

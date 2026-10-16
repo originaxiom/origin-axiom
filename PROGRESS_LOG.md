@@ -17196,3 +17196,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - Landing suite: gates 45 of 45; the 174 governance, claim, harvest, register and changed-arc test files, 2318 passed,
   0 failed, 6 skipped (8:15 with -n 8), after one fix found by the first pass (B1660 was not yet routed into the kill
   graph; routed, views regenerated, the suite rerun in full). Next: the owner's rulings on P-179 and P-180. 0 of 19.
+
+## 2026-10-16 — REVIEW 64 THE FIELD STAGE (B1661)
+
+- Review 64 at 34 merges: fresh clone PASS at bf44d9032; full suite 7335 passed, 10 failed, 68 skipped (35:37, -n 8): eight fixed at the review, two parallel-only under investigation (§5b), -n 8, with the owner's video apps open.
+  The seeded sample read in full; B1660's read-out and B1654's seal record repaired; the E80 and E65 instances filed;
+  four of Review 63's items carried a second time (the loop's main debt). The sweep for the pull-back fork recorded
+  (S_THE_PUSH_BACK §9.3). The owner accepted every recommendation (P-179, P-180): the adoption follows as B1662.

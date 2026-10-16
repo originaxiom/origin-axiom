@@ -24,17 +24,20 @@ def _run():
 
 
 def test_twelve_irreducible_inputs():
+    # [Review 64, 2026-10-16] the live ledger, not the B1421-era one: S133 (GENESIS v1.47) added I-31 to I-34, and the
+    # price became 4 axioms + 9 irreducible sources = 13. This lock went stale then, because S133's landing suite was
+    # selective and did not reach it; Review 64's full suite found it. The test name keeps the arc's original count.
     out = _run()
     m = re.search(r"irreducible sources: (\d+)\s+free inputs = 4 axioms \+ \d+ = (\d+)", out)
     assert m, out
-    assert int(m.group(1)) == 8 and int(m.group(2)) == 12
+    assert int(m.group(1)) == 9 and int(m.group(2)) == 13
 
 
 def test_the_method_reproduces_b1266s_partition():
     out = _run()
     assert "'I-10', 'I-11'" in out                                  # a 2-cycle is ONE source, not two
     assert re.search(r"source: \['I-13',[^\]]*'I-18', 'I-23'", out)  # the listener map's three rows are one source
-    assert "source: ['I-6']" in out and "source: ['I-26']" in out
+    assert "source: ['I-6']" in out and "source: ['I-26', 'I-34']" in out and "source: ['I-31']" in out   # Review 64: the live ledger
 
 
 def test_orphan_map_summary_present():

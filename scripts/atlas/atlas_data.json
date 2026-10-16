@@ -11919,7 +11919,8 @@
    ],
    "refs": [
     "B990",
-    "P4"
+    "P4",
+    "S131"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 15,
@@ -12070,6 +12071,20 @@
    "obstacle_conf": 3,
    "status": "banked",
    "domain": "physics"
+  },
+  "B1661": {
+   "slug": "review 64 the field stage",
+   "motifs": [],
+   "refs": [
+    "B186",
+    "B616",
+    "S131",
+    "S133"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
   },
   "B166": {
    "slug": "sln aperiodic",

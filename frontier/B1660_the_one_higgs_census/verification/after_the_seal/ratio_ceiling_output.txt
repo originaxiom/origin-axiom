@@ -1,0 +1,7 @@
+data (m_mu/m_tau)/(m_s/m_b) = 3.144
+line  0 (1, 1)/9: max over S, L of (mu/tau)/(s/b) found = 17.355
+line  1 (1, 4)/9: max over S, L of (mu/tau)/(s/b) found = 33.810
+line  5 (4, 7)/9: max over S, L of (mu/tau)/(s/b) found = 8.980
+line  2 (1, 7)/9: max over S, L of (mu/tau)/(s/b) found = 17.256
+
+
