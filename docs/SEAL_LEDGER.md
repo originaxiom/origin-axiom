@@ -9162,3 +9162,10 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 | 2026-10-16 | explicit source provenance labels BEFORE unchanged science rerun | `tests/test_physical_bridge_surface_variational_join.py` | `df752f00d440f09ba6f74bce8468d16c36e54f0d6df9f1e03e0b6695f5f8a788` | Supplied source reverse map and boundary gauge pair, not full physics |
 | 2026-10-16 | explicit source provenance labels BEFORE unchanged science rerun | `tests/test_physical_bridge_surface_weighted_hessian.py` | `12aba6465ce2517b15b4e29f19427c7acf8f72e41fde5013b897c73c37ccb8d6` | Supplied source reverse map and boundary gauge pair, not full physics |
 | 2026-10-16 | explicit source provenance labels BEFORE unchanged science rerun | `reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/INPUTS.json` | `64fdd981d4d348d386c345e9e818f93ab86dd809af4cc0d3224072c682b00479` | Supplied source reverse map and boundary gauge pair, not full physics |
+
+## Actual source Gauss law Gauss source and boundary law BEFORE first scientific import
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-16 | Gauss source and boundary law BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_gauss_charge_2026_10_16/DESIGN.md` | `bb9f7fdf85635b868c6af29d3fe6012bb0b7bb559618aa8c7121be7f865a07c7` | Preregistration and full transitive code/data hash closure; not raw data labelled as a design |
+| 2026-10-16 | Gauss source and boundary law BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_gauss_charge_2026_10_16/INPUTS.json` | `83664d04c053d7c58d0585890ca376d284da3868ece3f35492f3fc5e12bec759` | Preregistration and full transitive code/data hash closure; not raw data labelled as a design |
