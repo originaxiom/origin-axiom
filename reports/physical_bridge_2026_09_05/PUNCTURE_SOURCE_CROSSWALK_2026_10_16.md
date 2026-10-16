@@ -147,3 +147,16 @@ relationship from admitted structures, not to insert one boundary
 condition separately for the index and another for the desired masses.
 The source readings do not decide physical field admission or establish
 a universal obstruction to such a joint law.
+
+## Existing operator chain recovered in the next source pass
+
+The follow-up [operator derivation chain](OPERATOR_DERIVATION_CHAIN_2026_10_16.md)
+now maps all 19 pinned fork proof paths and three further physical
+proofs. It locates the authored spin-coordinate cancellation on the
+critical trace, actual vertical connecting map, prescribed total
+selfadjoint domain, controlled horizontal projection and the later
+odd complementary form estimate. These are existing conditional
+positives, not newly executed mathematics. The remaining identification
+duties above must not be read as assertions that those intermediate
+operator maps are wholly absent. The physical field/action admission,
+global total index and selected end law still require their own evidence.

@@ -1,0 +1,55 @@
+{
+  "scope": "mechanical publication of complete diagnostic logs, payloads and process receipts",
+  "source_captures_retained_privately": true,
+  "original_process_receipts_unmodified": true,
+  "no_missing_receipt_reconstructed": true,
+  "receipt_log_hashes_refer_to": "original raw logs, not necessarily normalized presentations",
+  "case_collision_note": "In the first attempt INVENTORY.json is metadata, NOT a process receipt.",
+  "files": [
+    {
+      "name": "controls.json",
+      "original_bytes": 354,
+      "original_sha256": "95b19ab552447edfb0694436b627b34ddd5611afd2ac770964ac92a3c0eda8e9",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 354,
+      "published_sha256": "95b19ab552447edfb0694436b627b34ddd5611afd2ac770964ac92a3c0eda8e9",
+      "changed": false
+    },
+    {
+      "name": "controls.log",
+      "original_bytes": 79,
+      "original_sha256": "bf168628e1cfe4f1c8ddce51885d2845f6e294c5fe4cda2a78d5838920e93eaa",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 79,
+      "published_sha256": "bf168628e1cfe4f1c8ddce51885d2845f6e294c5fe4cda2a78d5838920e93eaa",
+      "changed": false
+    },
+    {
+      "name": "coverage.json",
+      "original_bytes": 460,
+      "original_sha256": "d7b0fe5c7dd3027327c5c79befc1d62747e01ce101d46ba0d5616164baa0e6ee",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 460,
+      "published_sha256": "d7b0fe5c7dd3027327c5c79befc1d62747e01ce101d46ba0d5616164baa0e6ee",
+      "changed": false
+    },
+    {
+      "name": "coverage.log",
+      "original_bytes": 2165,
+      "original_sha256": "238f7f9f2d28b71b73bf49c3e7a12415fc6b8fae5bb975a33855360d4d365ddb",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 2165,
+      "published_sha256": "238f7f9f2d28b71b73bf49c3e7a12415fc6b8fae5bb975a33855360d4d365ddb",
+      "changed": false
+    },
+    {
+      "name": "path_map.json",
+      "original_bytes": 3,
+      "original_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 3,
+      "published_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "changed": false
+    }
+  ]
+}

@@ -1,5 +1,16 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+Phase3 retrieves existing operator maps before new experiments: the
+closed-fibre index, spin-coordinate critical trace cancellation, smooth
+vertical connecting complex, total domain and horizontal projection,
+then the later odd complementary estimate. OPERATOR_DERIVATION_CHAIN
+keeps their supplied geometry/field/lift/domain hypotheses and separate
+flag-complex route. Derive physical admission and a same-action end law,
+not those already-authored intermediate maps again. Coverage41direct
+mappings/two aliases/142pending;185path artifacts contain182byte groups
+and eight stored dependencies, correcting our initial scope description.
+Main verification and governance duties remain, goal ACTIVE.
+
 Published8e8ac8bba maintenance now terminal:12selectedPASS114.59s,
 16pins/18203tracked/index unchanged, full governance28PASS/twoFAIL
 (attribution/provenance). Actual original state/receipts retained,

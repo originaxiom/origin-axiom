@@ -1,0 +1,13 @@
+{
+  "command": [
+    "ruby",
+    "-EUTF-8",
+    "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/reconcile_coverage.rb",
+    "--test-alias-controls"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 0.13558499999999185,
+  "log_bytes": 79,
+  "log_sha256": "bf168628e1cfe4f1c8ddce51885d2845f6e294c5fe4cda2a78d5838920e93eaa"
+}

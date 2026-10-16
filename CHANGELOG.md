@@ -1,5 +1,19 @@
 # Changelog
 
+October16 specification phase3 source pass: all19proof paths of the
+pinned genesis-root fork personally read, plus three physical proofs.
+OPERATOR_DERIVATION_CHAIN recovers actual authored closed-fibre/family
+maps, critical pole-spin cancellation, total domain/horizontal projection
+and later odd complementary estimate, without transplanting a total
+physical index. Existing fixed-action opposite line-charge constraint
+preserved. Source ledger41direct mappings/two byte aliases/142pending.
+Own inventory-scope error corrected openly:185paths include eight stored
+dependencies and182distinct byte groups; not185primary results.
+Original inventory/earlier reconciliations unchanged, four alias controls
+and all pinned source reconciliation PASS at metadata grade; no new
+scientific producer or independent analytic acceptance. Main relay OPEN.
+Attribution/provenance policy duties remain; full goal ACTIVE.
+
 October16 terminal maintenance at published8e8ac8bba:12selected PASS
 114.59s,16pins/18203tracked/index unchanged; full governance28PASS/
 twoFAIL111.359583s, actual exit1, attribution/provenance unchanged.

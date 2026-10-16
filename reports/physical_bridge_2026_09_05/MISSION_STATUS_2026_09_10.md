@@ -1,5 +1,17 @@
 # Physical-bridge mission status and next questions
 
+October16 phase3 source audit now41direct proof mappings, two frozen
+byte aliases,142pending paths; all19proof paths in the pinned fork's
+genesis-root subtree read. Eight stored dependencies were erroneously
+described as excluded by the initial185-path inventory; scope corrected,
+original retained,182distinct byte groups. The existing operator chain
+includes actual closed-fibre/family maps and critical spin-coordinate
+cancellation, total domain/projection and our later odd complementary
+estimate. These conditional positives are not new execution/independent
+analytic acceptance or a full physical index. Main relay OPEN; actual
+field/action/end admission remains the target, governance not waived,
+new supplied-parent science paused and goal ACTIVE.
+
 Terminal maintenance at published8e8ac8bba:12selected PASS114.59s,
 16pins/18203tracked/index unchanged; governance28PASS/twoFAIL,
 111.359583s, attribution and provenance unchanged. Original captured

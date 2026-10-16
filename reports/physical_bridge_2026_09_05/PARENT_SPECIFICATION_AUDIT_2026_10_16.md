@@ -18,12 +18,16 @@ of one realization does not discharge or refute the others.
 
 The initial machine inventory is
 [specification_inventory.json](specification_audit_2026_10_16/specification_inventory.json).
-It lists current primary Markdown proof artifacts at physical branch
+It lists Markdown proof-path artifacts at physical branch
 87e7764f78602d68cc80db4a8589e3ba67033625 and audit fork
-0c6570bab3de4c013b73afb206cf80c4f56ccb1a. It excludes stored upstream
-copies and capture/received directories. There are 166 physical-branch
+0c6570bab3de4c013b73afb206cf80c4f56ccb1a. There are 166 physical-branch
 and 19 fork proof artifacts, grouped provisionally into 181 path groups.
 The group names are navigation keys, not an established packet census.
+The original description that stored upstream copies were excluded is
+too broad: five received_r46/received_r54 paths and three
+silver_complete_flag source paths remain. Those eight stored dependency
+paths and the byte-identical aliases are explicitly classified in phase3;
+the immutable initial inventory is retained, not silently corrected.
 
 Every row in that initial immutable inventory starts PENDING. The first
 reconciliation is now in
@@ -42,6 +46,18 @@ separate seven model families, including explicit R4/R15 cases outside
 the proof-only population. None of these counts denotes complete packet
 re-audits or fresh mathematical executions. Historical and deleted
 coverage is still incomplete.
+
+The third reconciliation, [reconciliation_phase3.json](specification_audit_2026_10_16/reconciliation_phase3.json),
+records 41 directly read/mapped paths, two separate stored aliases and
+142 pending paths. The 185 paths have 182 distinct SHA256 byte groups;
+41 distinct groups are directly read. All 19 proof paths of the pinned
+fork's genesis_root_review subtree are now source-read, not fully
+re-audited packets. The [existing operator chain](OPERATOR_DERIVATION_CHAIN_2026_10_16.md)
+maps their actual assumptions, intermediate positives and later
+physical-branch continuation. Four positive/rejecting alias controls
+and the complete pinned-blob reconciliation pass at metadata grade.
+No new scientific producer or independent analytic acceptance is
+claimed by these source-reading counts.
 
 The first nine property rows below do not complete any population-wide
 review. Results recorded

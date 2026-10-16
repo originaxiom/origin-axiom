@@ -1,0 +1,14 @@
+{
+  "command": [
+    "ruby",
+    "-EUTF-8",
+    "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/reconcile_coverage.rb",
+    "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/reconciliation_phase3.json",
+    "review_records_phase3.json"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 15.443408999999974,
+  "log_bytes": 2165,
+  "log_sha256": "238f7f9f2d28b71b73bf49c3e7a12415fc6b8fae5bb975a33855360d4d365ddb"
+}

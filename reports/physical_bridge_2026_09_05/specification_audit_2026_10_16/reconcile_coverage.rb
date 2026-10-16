@@ -3,6 +3,35 @@ require 'json'
 require 'digest'
 require 'open3'
 
+def checked_source_alias(source, target)
+  raise ArgumentError, 'alias target is not a directly read proof' unless target.is_a?(Hash) &&
+    target['review_status'] == 'SOURCE_READ_AND_PROPERTY_MAPPED'
+  raise ArgumentError, 'alias bytes differ' unless
+    source.fetch('source_sha256') == target.fetch('source_sha256')
+  source.merge('review_status' => 'SOURCE_ALIAS_OF_READ_PROOF',
+    'source_alias_of' => target.fetch('path'), 'property_rows' => target.fetch('property_rows'))
+end
+
+if ARGV == ['--test-alias-controls']
+  source = { 'source_sha256' => 'a' * 64 }
+  target = { 'source_sha256' => 'a' * 64, 'path' => 'target',
+    'review_status' => 'SOURCE_READ_AND_PROPERTY_MAPPED', 'property_rows' => ['property'] }
+  result = checked_source_alias(source, target)
+  abort('matching alias control failed') unless result.fetch('source_alias_of') == 'target'
+  [target.merge('source_sha256' => 'b' * 64),
+    target.merge('review_status' => 'PENDING'), nil].each do |bad|
+    rejected = false
+    begin
+      checked_source_alias(source, bad)
+    rescue ArgumentError
+      rejected = true
+    end
+    abort('alias accepted a rejecting control') unless rejected
+  end
+  puts '4 alias controls passed: identity, changed bytes, unread target, absent target'
+  exit
+end
+
 dest = ARGV.fetch(0)
 abort('refusing overwrite') if File.exist?(dest)
 repo = File.expand_path('../../..', __dir__)
@@ -29,6 +58,17 @@ git = lambda do |*args|
   out
 end
 mapped = reviews.fetch('inventory_mappings')
+if reviews.key?('carries_forward')
+  carry_name = reviews.fetch('carries_forward')
+  abort('invalid carried manifest') unless carry_name == 'review_records_phase2.json'
+  carry = JSON.parse(File.read(File.join(__dir__, carry_name)))
+  abort('carried mapping changed or disappeared') unless carry.fetch('added_inventory_mappings').all? do |path, properties|
+    mapped[path] == properties
+  end
+  abort('carried external reading disappeared') unless
+    (carry.fetch('added_external_sources_read_completely') - reviews.fetch('external_sources_read_completely')).empty?
+  review_paths << carry_name
+end
 abort('a mapped proof is outside the declared inventory') unless
   (mapped.keys - inventory.fetch('rows').map { |row| row.fetch('path') }).empty?
 rows = inventory.fetch('rows').map do |row|
@@ -46,6 +86,24 @@ rows = inventory.fetch('rows').map do |row|
     'property_rows' => mapped.fetch(row.fetch('path'), []),
     'fresh_scientific_execution_in_this_audit' => false)
 end
+aliases = reviews.fetch('byte_aliases', {})
+abort('alias would overwrite a directly read row') unless (aliases.keys & mapped.keys).empty?
+by_path = rows.to_h { |row| [row.fetch('path'), row] }
+aliases.each do |path, target|
+  abort('alias path absent from inventory') unless by_path.key?(path)
+  by_path[path] = checked_source_alias(by_path.fetch(path), by_path[target])
+  if by_path.fetch(path).fetch('seat') == 'physical'
+    actual = Digest::SHA256.file(File.join(repo, path)).hexdigest
+    abort('current stored alias changed') unless actual == by_path.fetch(path).fetch('source_sha256')
+    by_path[path]['current_read_source_sha256'] = actual
+  end
+end
+stored = reviews.fetch('stored_dependency_paths', [])
+abort('stored dependency outside inventory') unless (stored - by_path.keys).empty?
+rows = rows.map do |row|
+  by_path.fetch(row.fetch('path')).merge('source_role' =>
+    (stored.include?(row.fetch('path')) ? 'STORED_DEPENDENCY' : 'UNCLASSIFIED_INVENTORY_ARTIFACT'))
+end
 main = git.call('rev-parse', reviews.fetch('external_source_head')).strip
 external = reviews.fetch('external_sources_read_completely').map do |path|
   bytes = git.call('show', main + ':' + path)
@@ -54,11 +112,18 @@ external = reviews.fetch('external_sources_read_completely').map do |path|
     'sha256' => Digest::SHA256.hexdigest(bytes),
     'grade' => 'SOURCE_READ_NOT_REPRODUCED_IN_THIS_AUDIT' }
 end
-out = { 'scope' => inventory.fetch('scope'), 'reading_grade' => reviews.fetch('grade'),
+out = { 'scope' => reviews.fetch('inventory_scope', inventory.fetch('scope')),
+  'metadata_producer_sha256' => Digest::SHA256.file(__FILE__).hexdigest,
+  'initial_inventory_scope_retained_in' => 'specification_inventory.json',
+  'scope_erratum' => reviews.fetch('scope_erratum', nil), 'reading_grade' => reviews.fetch('grade'),
   'review_records' => review_paths.map { |path| { 'path' => path,
     'sha256' => Digest::SHA256.file(File.join(__dir__, path)).hexdigest } },
   'inventory_rows' => rows.size, 'proofs_source_read_and_property_mapped' => mapped.size,
-  'remaining_initial_inventory_rows' => rows.size - mapped.size,
+  'source_alias_rows_of_directly_read_proofs' => aliases.size,
+  'distinct_inventory_byte_groups' => rows.map { |r| r.fetch('source_sha256') }.uniq.size,
+  'distinct_directly_read_byte_groups' => rows.select { |r| mapped.key?(r.fetch('path')) }.map { |r| r.fetch('source_sha256') }.uniq.size,
+  'stored_dependency_rows' => stored.size,
+  'remaining_initial_inventory_rows' => rows.count { |r| r.fetch('review_status') == 'PENDING' },
   'complete_packet_reaudits_claimed' => 0, 'external_dependency_source_readings' => external.size,
   'unreconciled_coverage' => reviews.fetch('historical_deleted_and_findings_only_coverage'),
   'noninventory_cases' => reviews.fetch('noninventory_cases', []),
