@@ -1,0 +1,602 @@
+{
+ "status": "POST HOC, labelled; reads the committed output only",
+ "PH1": {
+  "D < 0 with masses defined": 148,
+  "law holds": 148,
+  "failures": [],
+  "undefined": [
+   {
+    "D": -3,
+    "n_D": 1,
+    "K rank": 1,
+    "law": "masses undefined"
+   },
+   {
+    "D": -4,
+    "n_D": 1,
+    "K rank": 1,
+    "law": "masses undefined"
+   }
+  ]
+ },
+ "PH2": {
+  "classes with H below H_true": 103,
+  "of": 282,
+  "V6's worst class": {
+   "D": 285,
+   "form": [
+    15,
+    45,
+    29
+   ],
+   "H used": 0.5627314338711378,
+   "H_true": 8.440971508067067,
+   "r_calc": 0.0037236552333501823
+  },
+  "V6's worst class under-resolved": true,
+  "under-resolved classes with r_calc > 1e-6": [
+   {
+    "D": 285,
+    "form": [
+     15,
+     45,
+     29
+    ],
+    "H used": 0.5627314338711378,
+    "H_true": 8.440971508067067,
+    "r_calc": 0.0037236552333501823
+   }
+  ],
+  "largest r_calc among correctly sized classes": 4.364405725504313e-33
+ },
+ "PH3": {
+  "tested": 71,
+  "within 1e-3": 38,
+  "highest classes one geodesic in every D": true,
+  "largest gap": 3.4264021038484955,
+  "rows": [
+   {
+    "D": 104,
+    "classes": 2,
+    "highest (true)": 1,
+    "one geodesic": true,
+    "|trace - highest|": 1.4970377491135096
+   },
+   {
+    "D": 105,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 2.0827675099697984
+   },
+   {
+    "D": 108,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 112,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 117,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 120,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.6309224915511038
+   },
+   {
+    "D": 124,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 128,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 129,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 132,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 133,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 136,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.12605540619006206
+   },
+   {
+    "D": 140,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.4866097658249231
+   },
+   {
+    "D": 141,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 145,
+    "classes": 4,
+    "highest (true)": 1,
+    "one geodesic": true,
+    "|trace - highest|": 3.4264021038484955
+   },
+   {
+    "D": 148,
+    "classes": 3,
+    "highest (true)": 1,
+    "one geodesic": true,
+    "|trace - highest|": 0.7713924126068505
+   },
+   {
+    "D": 152,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 153,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 156,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 2.934196414188591
+   },
+   {
+    "D": 160,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.9100126896057645
+   },
+   {
+    "D": 161,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 165,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 1.1004861875477587
+   },
+   {
+    "D": 168,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 2.2042715804993165
+   },
+   {
+    "D": 172,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 176,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 177,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 180,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 184,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 185,
+    "classes": 2,
+    "highest (true)": 1,
+    "one geodesic": true,
+    "|trace - highest|": 0.657710891395773
+   },
+   {
+    "D": 188,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 189,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 192,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.04707025461780745
+   },
+   {
+    "D": 200,
+    "classes": 2,
+    "highest (true)": 1,
+    "one geodesic": true,
+    "|trace - highest|": 0.5060607951160137
+   },
+   {
+    "D": 201,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 204,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.9782742679616163
+   },
+   {
+    "D": 205,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.3250320252261858
+   },
+   {
+    "D": 208,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 209,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 213,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 216,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 217,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 220,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.7668195572636449
+   },
+   {
+    "D": 221,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 1.1131509464639677
+   },
+   {
+    "D": 224,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 1.3156011181544471
+   },
+   {
+    "D": 228,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 229,
+    "classes": 3,
+    "highest (true)": 1,
+    "one geodesic": true,
+    "|trace - highest|": 0.8926149807338035
+   },
+   {
+    "D": 232,
+    "classes": 2,
+    "highest (true)": 1,
+    "one geodesic": true,
+    "|trace - highest|": 0.45862221397647573
+   },
+   {
+    "D": 236,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 237,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 240,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.30054625517308864
+   },
+   {
+    "D": 245,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 248,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 249,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 252,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.8832949657135174
+   },
+   {
+    "D": 253,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 257,
+    "classes": 3,
+    "highest (true)": 1,
+    "one geodesic": true,
+    "|trace - highest|": 2.6956852423736137
+   },
+   {
+    "D": 260,
+    "classes": 2,
+    "highest (true)": 1,
+    "one geodesic": true,
+    "|trace - highest|": 1.0617791780709922
+   },
+   {
+    "D": 261,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 264,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.6717810982528647
+   },
+   {
+    "D": 265,
+    "classes": 2,
+    "highest (true)": 1,
+    "one geodesic": true,
+    "|trace - highest|": 1.106318283475261
+   },
+   {
+    "D": 268,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 272,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 273,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.16312118046128887
+   },
+   {
+    "D": 276,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 280,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.23581637719080817
+   },
+   {
+    "D": 284,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 285,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.33468113132171595
+   },
+   {
+    "D": 288,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.620331376641559
+   },
+   {
+    "D": 296,
+    "classes": 2,
+    "highest (true)": 1,
+    "one geodesic": true,
+    "|trace - highest|": 0.7448663712929573
+   },
+   {
+    "D": 297,
+    "classes": 2,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 0.0
+   },
+   {
+    "D": 300,
+    "classes": 4,
+    "highest (true)": 2,
+    "one geodesic": true,
+    "|trace - highest|": 1.4602575554835937
+   }
+  ]
+ },
+ "PH4": {
+  "up": {
+   "data": [
+    -11.826251511720479,
+    -5.603546203065667
+   ],
+   "nearest D": 17,
+   "its point": [
+    -10.84850683069728,
+    -7.972339425758464
+   ],
+   "distance": 2.5626482382770526,
+   "data kappa": 2.1104941555135937
+  },
+  "down": {
+   "data": [
+    -6.969128684060813,
+    -3.9779009226279265
+   ],
+   "nearest D": 8,
+   "its point": [
+    -5.138989037640204,
+    -3.3314261828443983
+   ],
+   "distance": 1.9409638622547125,
+   "data kappa": 1.7519613533905685
+  },
+  "lepton": {
+   "data": [
+    -8.182637679231728,
+    -2.832367910819658
+   ],
+   "nearest D": 12,
+   "its point": [
+    -8.008949499780073,
+    -5.688074243580636
+   ],
+   "distance": 2.860983439772482,
+   "data kappa": 2.888974150559331
+  },
+  "kappa at the largest D": {
+   "D": 300,
+   "kappa": 1.5004605268459117
+  }
+ }
+}

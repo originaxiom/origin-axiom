@@ -100,7 +100,8 @@ def main():
     OUT.write_text(json.dumps(out, indent=1) + "\n", encoding="utf-8")
     print({"PH1": [out["PH1"]["law holds"], out["PH1"]["D < 0 with masses defined"]],
            "PH2": [out["PH2"]["classes with H below H_true"], out["PH2"]["V6's worst class under-resolved"]],
-           "PH3": [held, tested, twins_ok], "PH4": {k: round(v["distance"], 2) for k, v in ph4.items() if "distance" in v}})
+           "PH3": [held, tested, twins_ok],
+           "PH4": {k: round(v["distance"], 2) for k, v in ph4.items() if "distance" in v}})
 
 
 if __name__ == "__main__":
