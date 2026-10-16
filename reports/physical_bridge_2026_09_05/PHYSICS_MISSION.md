@@ -1,12 +1,21 @@
 # Approved physics mission and execution criteria
 
-October16 owner approved a separate prospective experiment gate while
-preserving historical failures and the failing global verdict. Implementation
-is in prospective_governance_2026_10_16; tests and independent/main review
-are still pending at this source checkpoint. A new scientific packet needs
+October16 prospective maintenance verified at472be2a2a:88controls PASS,
+29real governance gates PASS, historical seal FAIL643paths retained, absent
+admission refused. All18332tracked/index/nine pins unchanged. Implementation
+and complete evidence are in prospective_governance_2026_10_16; independent
+main review and actual scientific admission remain pending. A new packet needs
 an exact sealed specification, complete source/input/environment inventory,
 non-authoring review and main acceptance. This is not a supplied-parent
 restart or completion of the specification/critical-trace/end-law mission.
+
+OPERATOR_PACKET_AUDIT_2026_10_16 personally reads the complete existing
+October8 packet/test and fork puncture-symmetry producer;7scientific/4prior
+pins and3stored-output receipts checked. Not new science or independent
+analytic acceptance. Preserve one-form/sheaf/local Green positives and scope
+the massless ordinary-spin cusp obstruction. Rank-deficient control promised
+but not exercised in native/test sources; successor duty, not proof refutation.
+Previously mapped proof/coverage counts unchanged. Main relay OPEN.
 
 Latest specification source d82351525: eight more authored action/parent proofs
 mapped;49direct source paths,three checked aliases,133pending. Eleven metadata

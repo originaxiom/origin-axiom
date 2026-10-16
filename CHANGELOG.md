@@ -1,5 +1,14 @@
 # Changelog
 
+Prospective source472be2a2a verified:88focused maintenance tests PASS70.42s,
+full real governance29PASS/oneFAIL,643historical/unclassified seal paths
+preserved; absent admission refused. Complete18332tracked/index/nine pins
+unchanged. Original captures, lossless inventories and separate later
+operator custody retained. Main independent mechanism review/actual scientific
+admission remain owed. Old operator packet personally read:7science/4prior
+pins and3saved receipts agree; scoped rank-deficient-control gap found,
+one-form/sheaf positives preserved, no new scientific run or coverage inflation.
+
 Prospective admission source prepared under sealed design b63f03442.
 Read-only checker binds immutable specification/source pins, separate
 non-authoring review and main-reachable acceptance; all other governance

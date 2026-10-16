@@ -1,0 +1,51 @@
+{
+  "source_commit": "472be2a2a06494226a481cdd58951af5d38816b1",
+  "tracked_count": 18332,
+  "source_pins": 9,
+  "tracked_index_pins_unchanged": true,
+  "state_sha256": "ef9c2c211996901a93597b62f1259e130a60a979de65fe715423053515be7f89",
+  "index_sha256": "921242592be45dedbbd2061488db72a706df7b9b995e72333f3f5581e4f01903",
+  "compressed_state_sha256": "37b63891d325235c0eba7a8f3aa38ea9a43bbf46bba92c2dc91b576c9b5d4912",
+  "maintenance_tests_passed": 88,
+  "new_prospective_controls": 42,
+  "unchanged_provenance_controls": 46,
+  "governance_pass": 29,
+  "governance_fail": [
+    "seal-provenance"
+  ],
+  "historical_unresolved_paths": 643,
+  "actual_scientific_packet_admitted": false,
+  "independent_review_claimed": false,
+  "full_suite_claimed": false,
+  "scientific_producer_executed": false,
+  "captures": [
+    {
+      "name": "before",
+      "original_log_sha256": "ef9c2c211996901a93597b62f1259e130a60a979de65fe715423053515be7f89",
+      "original_receipt_sha256": "4e13c98c0429b0820b0f562b655b8029f198ffefd8415679e9b37296f6903c63",
+      "presentation_log_sha256": "ef9c2c211996901a93597b62f1259e130a60a979de65fe715423053515be7f89",
+      "normalization": "private absolute paths only"
+    },
+    {
+      "name": "tests",
+      "original_log_sha256": "19f06cdc32faca7211ee42805032236ec6308fa63c924b8733a574d9ec95ddb9",
+      "original_receipt_sha256": "91fbbdf744f4ae9685b625cb6baa8480e70421f8f468507faf8da53b03c8afed",
+      "presentation_log_sha256": "19f06cdc32faca7211ee42805032236ec6308fa63c924b8733a574d9ec95ddb9",
+      "normalization": "private absolute paths only"
+    },
+    {
+      "name": "production",
+      "original_log_sha256": "a0e44b25b53943c8a9cd3afbc5727a8a8a9098eac45a84824d4246bd9b4a731f",
+      "original_receipt_sha256": "9aa8478638e95d6980574a29e5bafc014cee4a24eed66e7a47340562f5182e75",
+      "presentation_log_sha256": "af17fe4596b36badc26798433d8c9b94b2a9e1cfe3063bfa19e4c94375a4e87d",
+      "normalization": "private absolute paths only"
+    },
+    {
+      "name": "after",
+      "original_log_sha256": "ef9c2c211996901a93597b62f1259e130a60a979de65fe715423053515be7f89",
+      "original_receipt_sha256": "378186abd77a18ceece52e76b209836d39045643f6d67a37710f7c7c18eecc95",
+      "presentation_log_sha256": "ef9c2c211996901a93597b62f1259e130a60a979de65fe715423053515be7f89",
+      "normalization": "private absolute paths only"
+    }
+  ]
+}

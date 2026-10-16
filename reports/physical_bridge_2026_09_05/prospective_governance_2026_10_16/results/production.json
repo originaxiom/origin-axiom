@@ -1,0 +1,18 @@
+{
+  "command": [
+    "[PROJECT_PYTHON]",
+    "-B",
+    "scripts/gates/prospective.py",
+    "--admission",
+    "reports/physical_bridge_2026_09_05/prospective_governance_2026_10_16/NO_ADMISSION.json"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 39.4133810000003,
+  "log_bytes": 245317,
+  "log_sha256": "a0e44b25b53943c8a9cd3afbc5727a8a8a9098eac45a84824d4246bd9b4a731f",
+  "presentation_log_bytes": 245294,
+  "presentation_log_sha256": "af17fe4596b36badc26798433d8c9b94b2a9e1cfe3063bfa19e4c94375a4e87d",
+  "original_capture_retained_in_task_workspace": true,
+  "presentation_log_path": "production.log"
+}

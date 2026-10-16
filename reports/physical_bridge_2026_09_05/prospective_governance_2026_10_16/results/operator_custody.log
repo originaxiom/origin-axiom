@@ -1,0 +1,74 @@
+{
+  "scope": "existing byte/receipt audit, no scientific execution or independent analytic acceptance",
+  "head": "472be2a2a06494226a481cdd58951af5d38816b1",
+  "seal_commit": "1f7982071d1ea04bb0c88002883f221b9d0b6a2c",
+  "first_results_commit": "23d15ed982f40a9098a8a0a6fbe10e797d795ee8",
+  "seal_ancestor_of_result_publication": true,
+  "source_pins_checked": 4,
+  "scientific_pins_checked": 7,
+  "saved_outputs_match_original_receipts": 3,
+  "stored_native_predicate_count": 35,
+  "stored_reference_predicate_count": 33,
+  "stored_focused_tests": 11,
+  "first_failed_launch_raw_reaudited": false,
+  "design_literal_fields_present": {
+    "BANKED IDENTITY:": false,
+    "PRIOR ART:": false
+  },
+  "files_personally_read": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/DESIGN.md",
+      "sha256": "c614e53f65785bdda685cda58139299f4df08a47ce2693a26c200d837d6dfb96"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/PROOF.md",
+      "sha256": "0102fc971479acc9d57a05c6234dcbf4ada7007269d96bc4931719bebabf929f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/FINDINGS.md",
+      "sha256": "59910a361ceab0f06975f7b28fc5f7e2c98e7e92e6455eaa025f9c3fc425df71"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/probe.py",
+      "sha256": "3474603ed114ef24c26909abeacc97f1fafddc179705e83536acca8cfc8c1a6f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/reference.py",
+      "sha256": "a3bf2838e5db90d3c30190e964da0901048b57a3ec3b302bae40ec7dea12ec72"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/custody.rb",
+      "sha256": "960e3fd1e816d2c3e00106f461a022fec799f67502079fdbf6fa56bd25aafdfe"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/INPUTS.json",
+      "sha256": "2162aabfaf58a9821ba5c7ab3b8c550a3eec6a4186889e18a6fa3743dcc1b240"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/PRESEAL.json",
+      "sha256": "87541fd8dcbe9cf58f95dbdaa851de41e95335381ff233b2135748e9a2cda097"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/RECEIPTS.json",
+      "sha256": "be6813faeb20e575bb63bf611d5cc72e2fbe8006939835050dae8b8696d3de07"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/NATIVE.json",
+      "sha256": "856b2320d40dd9c4e9ce52ad6d6353a4bbadeff03fe6c1f63a66a2df8435d308"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/REFERENCE.json",
+      "sha256": "daa8bcd0a08a5a73793acbd0354d46ec5a48a3e34b82c0931f18dafc2305f8f0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/FOCUSED.txt",
+      "sha256": "2250a6f52f39501ea77041422fdbb2d02a20eff52d1b06c70ee3b0e160617399"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_puncture_operator.py",
+      "sha256": "8e6c130298653a80c0b37c2cc0c54de95a6cf07779c0b64307debe12922c3401"
+    }
+  ],
+  "fresh_reproduction": false,
+  "historical_noncompliance_waived": false
+}

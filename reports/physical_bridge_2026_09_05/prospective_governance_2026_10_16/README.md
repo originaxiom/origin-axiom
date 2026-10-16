@@ -3,9 +3,10 @@
 The owner approved a separate prospective decision on October 16.
 Historical failures remain noncompliant in the unchanged global gate.
 A new scientific experiment needs a properly sealed specification,
-complete source inventory and accepted independent review. This source
-checkpoint implements the evidence check; maintenance tests and main's
-independent review remain pending. No scientific packet is admitted here.
+complete source inventory and accepted independent review. At published
+source 472be2a2a, all 88 focused maintenance tests pass: 42 prospective
+controls and the unchanged 46 provenance controls. Main's independent
+review remains pending. No scientific packet is admitted here.
 
 ## The two decisions
 
@@ -64,13 +65,39 @@ be presented as real admission. Their scope excludes scientific adequacy.
 
 ## Current status and scientific next step
 
-The implementation was designed under DESIGN.md before changes. The
-test file is tests/test_prospective_experiment_gate.py; the original
-46 provenance controls remain unchanged. No original scientific
-producer, prior failed capture, attribution budget or historical seal
-is amended. Source publication precedes the maintenance test run.
+The implementation was designed under DESIGN.md, committed b63f03442,
+before changes. Source 472be2a2a was pushed and server-confirmed before
+the maintenance run. Tests pass in 70.42 seconds; the captured process
+exits zero after 71.405725 seconds. The integration fixtures use two
+gates in isolated synthetic repositories, not the full scientific suite.
 
-Read-only audit of the existing critical-operator packet continues.
+The separate real production command executes all 30 governance gates:
+29 pass and seal-provenance fails with all 643 unresolved paths retained
+(562 unclassified, 76 missing-field design candidates and five explicit
+historical violations). It refuses the deliberately absent admission
+manifest, exit one after 39.413381 seconds. Thus the test does not issue
+a real admission or describe the repository as globally compliant.
+
+All 18,332 tracked contents, the index and nine source pins match in
+complete before/after inventories. Original inventory SHA256 is
+ef9c2c211996901a93597b62f1259e130a60a979de65fe715423053515be7f89.
+The two identical inventories are preserved losslessly once in
+results/state_before_and_after.json.gz. Complete test and production
+output, four receipt presentations with original hashes, and scope
+metadata are in results/VALIDATION.json. Only private absolute paths
+are normalized in presentations; original captures remain in the task
+workspace. The publisher verifies process exits, log sizes/hashes,
+source-commit pins and the compressed inventory roundtrip. This is
+selected maintenance evidence, not independent review or a full suite.
+
+No original scientific producer, prior failed capture, attribution
+budget or historical seal is amended. The later operator-custody check
+is published separately and is not part of the maintenance test envelope.
+
+The read-only critical-operator audit is recorded in
+../OPERATOR_PACKET_AUDIT_2026_10_16.md. Stored-output custody is checked,
+not newly reproduced; the promised rank-deficient-domain control needs
+its own successor. No prior source-coverage count is incremented.
 The next scientific question remains the actual induced action on its
 critical coefficient quotient and the admissible end law, not selection
 of a representation or domain because it yields three generations.

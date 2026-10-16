@@ -1,0 +1,25 @@
+{
+  "command": [
+    "[PROJECT_PYTHON]",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "--noconftest",
+    "-p",
+    "no:cacheprovider",
+    "-o",
+    "addopts=",
+    "tests/test_prospective_experiment_gate.py",
+    "tests/test_governance_provenance_policy.py"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 71.40572499999962,
+  "log_bytes": 190,
+  "log_sha256": "19f06cdc32faca7211ee42805032236ec6308fa63c924b8733a574d9ec95ddb9",
+  "presentation_log_bytes": 190,
+  "presentation_log_sha256": "19f06cdc32faca7211ee42805032236ec6308fa63c924b8733a574d9ec95ddb9",
+  "original_capture_retained_in_task_workspace": true,
+  "presentation_log_path": "tests.log"
+}
