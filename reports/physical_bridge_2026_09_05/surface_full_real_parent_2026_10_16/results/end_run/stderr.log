@@ -1,0 +1,22 @@
+PASS frozen complete action record hash
+PASS all twenty coefficient tensors factor exactly
+PASS actual nine Hermitian velocities
+PASS actual all81 Clifford relations
+PASS actual signed central volume
+PASS canonical nine Hermitian velocities
+PASS canonical all81 Clifford relations
+PASS canonical signed central volume
+PASS same actual canonical target frame
+PASS actual full Nambu reality on all coefficients
+PASS external matrices identical before any new hatch
+PASS actual whole cutoff trace half rank and real
+PASS actual cutoff both real normal Green forms zero
+PASS actual cutoff external and internal tangential action invariant
+PASS full scalar-sign permutation phase census accounted
+PASS credited universal normal end identity recovered
+PASS scalar reflection transports BOTH ends 4
+PASS scalar reflection keeps actual first variation 4
+PASS unchanged old end fails after scalar reflection 4
+PASS scalar reflection transports BOTH ends 5
+PASS scalar reflection keeps actual first variation 5
+PASS unchanged old end fails after scalar reflection 5

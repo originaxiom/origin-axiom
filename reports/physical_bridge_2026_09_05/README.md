@@ -1,5 +1,18 @@
 # Physical bridge audit — 2026-09-05
 
+October16 real action/Clifford/end: complete native/component records
+agree at published0d44cabb7,38/39 each; the ORIGINAL named-map gate
+remains false. Actual Clifford9/positive time/reality/gauge/normal potential
+and whole finite-cutoff Green plane verified. Two local scalar-reflection
+maps exist, exchange the boundary signs, but do not commute with old U2
+bundle generators. Final22/22 diagnostic at published2f041f01b with
+104pins/tree/index unchanged: scalar reflection MUST reverse retained
+normal end current at BOTH ends. No source/programme kill or silent old
+spectrum/gap transfer. NEXT actual twist/bundle/changed-end map and SAME
+auxiliary-eliminated singular/gauge/global charged joint. Fixed based
+rank3 g2+u1 not SM; full generated SM/three/gravity ACTIVE. Evidence:
+physical-bridge surface_full_real_parent_2026_10_16/FINDINGS.md.
+
 October16 real-superfield validation:5selected LIVE PASS7.63s at
 68602e367,83pins/tree/index unchanged. Governance26PASS/four inherited
 FAIL24.923198s, full captures retained, no waiver or new science path.

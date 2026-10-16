@@ -19871,3 +19871,39 @@ gauge/domain map, then SAME global charged physics remain required.
 83scientific pins rechecked unchanged; final metadata not back-certified.
 No independent analytic/full-suite/main/physical TOE acceptance. Ultimate
 full generated physical SM/three/gravity goal remains ACTIVE.
+
+### October16 real action Clifford and boundary transport
+
+New surface_full_real_parent_2026_10_16: first30/37 failure preserved
+with97sources; opposite gauge-frame declaration corrected from AGW's
+transformation, not by a Clifford fit. Second38/39 failure preserved
+with98sources; original named map STILL false. At published0d44cabb7,
+native64.703285s/reference69.409978s complete159785-byte records agree,
+SHA256cc5b961ae78eb458e031d93f993e2899ee0e91d82f187dc68e2a5fe816f60143;
+103pins/13,614tracked contents/index unchanged. Shared author/formulation,
+not independent convention review. Explicit scope audit passed while
+ORIGINAL full named dictionary remains failed in both producer outputs.
+
+Actual full local fermion components/positive h=(1,1,1,1)/gauge/vectorYM,
+D Gaussian/moment/current and normal scalar potential agree. Universal
+Clifford9 velocities/Hermiticity/C verified; source volume+1 versus old
+target-1 obstructs a SAME-oriented linear map. Two scalar-reflection
+maps (bounded4x24 census, phases modulo common sign) match all local
+coefficients, exchange both old boundary alternatives and preserve
+C/time/R but NOT the old U2 bundle generators. Actual whole source
+cutoff plane is real half-rank with both normal Green forms zero.
+
+Final extended diagnostic22/22 at published2f041f01b,6.190608s,
+104pins/13,622tracked/index unchanged. Scalar reflection also sends
+J->-J while E fixed:2E-2divJ becomes2E+2divJ, BOTH oriented ends and
+first variation retained; wrong unchanged-end control nonzero. Credited
+old energy identity, not a new generic discovery or a selected global end.
+
+Eight scoped LAW rows, leads/identification/current surfaces and sender
+relay registered. Identification24rows/9UNEARNED at baseline9; five
+planted controls pass with known bare-assertion blind spot. NEXT actual
+twist/bundle/changed-end map, SAME auxiliary-eliminated singular/gauge
+limit and global stationary charged physics. Fixed based rank3 g2+u1
+not relabelled SM; no R93 different-parent splice, old count/gap transfer
+or full SM/three/gravity acceptance. Ultimate goal ACTIVE. Selected live
+regression/governance follow; not already claimed green.

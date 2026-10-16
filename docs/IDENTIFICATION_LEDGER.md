@@ -694,3 +694,16 @@ action, preceding canonical MW operator or interacting singular graph.
 The smooth cutoff flavour pattern is insufficient: actual kinetic/
 Clifford/auxiliary-eliminated/gauge/domain map must act. No I-status
 promotion or transfer of old physical indices/gaps/counts is licensed.
+
+## October16 real action local map and global bundle distinction
+
+surface_full_real_parent_2026_10_16 exhibits the ACTUAL real local
+Clifford9 action with positive time and two explicit scalar-reflection/
+flavour maps. The old SAME-oriented named map is not earned: volume
+signs differ. Neither new map commutes with the old U2 generators; both
+exchange the boundary alternatives and reverse the retained bosonic
+end current in reflected scalar coordinates. Local operator agreement
+is not an identification of global twist/bundle connections or singular
+domains. All maps, rejected coefficients and preserved failures are in
+FINDINGS/code/complete outputs. No shared I-status is promoted and no
+SM/generation/physical particle identification is licensed.

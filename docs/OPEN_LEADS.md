@@ -6657,3 +6657,28 @@ Registered hand note under new packet followup_hypotheses/GAUGE_LIMIT_
 UNVERIFIED.txt. No SM gauge or physical chirality follows by flavour names.
 GLOBAL stationary fields/end, SAME charged kernels/norms/vertices/anomalies
 and foundational selection of full observed SM/three/gravity remain.
+
+## October16 actual real action and required boundary transport
+
+PB-SURFACE-FULL-REAL-PARENT: PARTIAL POSITIVE in this declared parent.
+Complete action records agree38/39, full original named map STILL false;
+all real local fermion/positive kinetic/gauge/auxiliary/normal-potential
+controls pass. Exact Clifford9 exists; fixed oriented volume differs.
+Source surface_full_real_parent_2026_10_16/FINDINGS, all failures kept.
+
+PB-SURFACE-REAL-TWIST-TRANSPORT OPEN for the two NEW scalar-reflection
+dictionaries: exact local C/time/R maps exchange the old boundary
+alternatives but do not commute with the old U2 generators. Derive the
+actual source spin/twist and bundle connection, rather than require names
+to agree or assume any conjugate connection is the physical one. Carry
+the bosonic end too: J reverses, so reflected functional is2E+2divJ.
+Keeping the unreflected end fails an exact universal control. This is
+a local transport duty, not a whole-architecture obstruction.
+
+PB-SURFACE-CUTOFF-LIMIT remains OPEN: actual source whole cutoff trace
+now verified half-rank/C-real/zero flux, but the auxiliary-eliminated
+interacting graph, singular gauge/vector limit and selection of this end
+are not obtained. No transfer of old local BPS, gap or particle counts
+without SAME-action/connection/domain transport. Fixed based g2+u1
+rank3 and other-parent R93 SM remain separate. Full generated physical
+SM/three/gravity active; same global stationary charged physics next.
