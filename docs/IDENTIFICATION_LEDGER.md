@@ -783,3 +783,16 @@ hypercharge. The interacting inverse bound assumes fixed FLAT fibre;
 it is not the full curved operator's physical mass gap. Finite Cauchy
 response/angle, global charged spectrum and foundational SM/three/
 gravity identifications remain open. No shared I-status promoted.
+
+## October16 complete root blocks and local vector multiplet
+
+surface_root_gauge_sector_2026_10_16 exhibits complete actual E8-root
+and source-spin intertwiners, not merely dimension matches. The root
+SU2 is not the different geometrical/quaternion embedding. Computational
+W signs are not physical species/chiralities; external Lorentz mixes
+them. The actual scalar-supercharge image IS the named source lambda
+projector by full matrix equality, not rank. The local classical gauge
+ansatz is not a global KK/SM spectrum, absent/massive omitted fields,
+dynamically selected supersymmetry or predicted coupling. Kernel and
+representation dimensions are not particle/family counts. No shared
+I-status or full physical SM/three/gravity identification promoted.

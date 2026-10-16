@@ -1,5 +1,19 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October16 complete root/gauge sector:80/80each at publishedf19680893,
+188pins/tree/index unchanged. Faithful full-source/root maps give28
+radial matrix types size<=4, all3968complex coefficient directions and
+both computational signs retained; not particle counts. Common root
+kernel133=79even+54odd has EXACT free response at nonzero Higgs.
+Actual scalar supercharge=lambda, all internal currents0 and6241gauge
+bracket checks support a local nonlinear interacting gauge ansatz.
+Not full charged response/global KK/spectrum/SM selection; omitted
+modes may be massless. NEXT full charged Cauchy seeds/response and
+SAME curved/common boundary/global charged theory. Full foundational
+physical SM/three/gravity ACTIVE. surface_root_gauge_sector_2026_10_16
+FINDINGS/PROOF/NEXT_TEST, all reduced matrices preserved in raw JSON.
+
+
 October16 actual interacting normal joint:48/48 each at published
 3394a294e,176pins/tree/index unchanged. Earned source/complementary
 MW/sign map retains generic dressed traces and the actual nonnormal

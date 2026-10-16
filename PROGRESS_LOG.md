@@ -20225,3 +20225,34 @@ separate zero-horizontal controls. No finite response/exterior/action
 selection or physical particle result claimed. Full generated physical
 SM/three/gravity ACTIVE, no independent analytic/banking/recipient/main/
 full-suite acceptance. No kill-graph/new B-dir or view-population change.
+
+### October16 complete small root blocks and local interacting gauge sector
+
+At published pre-runf19680893,80/80native8.925837s and reference
+11.089219s; complete56,590-byte records identical SHA256
+e9c314476edc01ebe2222d120a3cf13fd39c815883e8e367a072cf3265819254.
+188pins/13,998tracked/index unchanged, no failed first attempt. Full
+raw records include ALL28reduced coefficient/current matrix types,
+79centralizer basis, noncommuting witness and closure hash. Actual/
+lower-E8/generator versus reconstructed/upper-E8/projector methods
+share author/conventions, not independent analytic acceptance.
+
+Faithful root/source maps retain all248x16=3968complex coefficient
+directions, all angular j, holonomies/conjugates and computational
+signs. Conserved adH+R gives size<=4matrices; external Lorentz mixes
+W signs, not physical species. Root embedding not geometric SU2.
+Common kernel133=79even+54odd has exact free response at nonzero
+Higgs; preserve odd critical channels, no generic-source overread.
+Charged finite Cauchy response/log seeds still uncomputed.
+
+All6241even-centralizer bracket pairs close,1976nonzero; actual scalar
+supercharge equals NAMED source lambda, all6untraced internal currents0,
+external/real slot preserved. Authored local classical consistent
+interacting gauge/gaugino/auxiliary ansatz retains regular boundary
+response on SAME background, not full spectrum/global KK/SM selection.
+Omitted modes may be massless; volume/coupling supplied. Twelve scoped
+LAW rows, all leads/identification/current surfaces/sender relay banked.
+NEXT exact full-BPS-vector control in reduced matrices then complete
+charged Cauchy seeds/response, SAME curved/common nonlinear boundary
+and global charged spectrum/norms/vertices/anomalies. Foundational
+physical SM/three/gravity ACTIVE. LIVE/governance validation follows.

@@ -6955,3 +6955,47 @@ Terminal at published0517bbe75:12selected LIVE PASS69.69s,176pins/
 13,976tracked/index unchanged. Governance26PASS/four inherited FAIL,
 first3failure lines identical;42stale/166open, review592. No waiver,
 full-suite/nonauthor/main/physical acceptance. Full VALIDATION retained.
+
+## October16 complete root blocks and retained gauge physics
+
+PB-SURFACE-ROOT-R-REDUCTION POSITIVE for this chosen-root/source normal
+model. Closing sentence: "The actual chosen-root normal operator reduces
+faithfully to28block types of size at most4, retaining all3968complex
+source/coefficient directions, both computational signs, neutral sectors
+and conjugates." Source surface_root_gauge_sector_2026_10_16/FINDINGS.md,
+80/80each at publishedf19680893,188pins/tree/index unchanged. Full actual
+radial matrices and intertwiners saved. Not a physical count, geometrical
+SU2 substitution or completed charged finite Cauchy response.
+
+PB-SURFACE-COUPLED-CAUCHY-DATA remains OPEN. Now solve the complete small
+matrix family with all critical/regular/logarithmic seeds and both
+conjugate/holonomy/computational signs. First map the EXISTING exact
+BPS tangent's FULL radial profile into these matrices as a positive
+control; this reduction is UNVERIFIED, not a new tangent-existence claim.
+No index/gap/family count copied from a different domain or parent.
+
+PB-SURFACE-PROTECTED-ROOT-KERNEL POSITIVE for specified nonzero Higgs:
+common gauge kernel133=79even+54odd has EXACT free normal operator,
+not only g->0. Preserve odd critical and regular branches; generic
+non-L2 Yukawa source does not mean every odd direction is affected.
+Additional spin-dependent zero-Yukawa blocks can retain Cartan connection;
+they are not automatically this free kernel. No physical particle census.
+
+PB-SURFACE-GAUGE-MULTIPLET-RECOVERY POSITIVE LOCALLY/CLASSICALLY: actual
+scalar supercharge equals source lambda, all internal currents vanish,
+ALL6241even-centralizer basis brackets close with nonzero compact
+interactions. Authored no-omitted-source argument admits internally
+constant external gauge/gaugino/auxiliary ansatz with regular interior
+response on SAME BPS background. This does not remove omitted massless
+modes, select the full theory's amount of supersymmetry, global79dim
+gauge group, SM or observed coupling. Global admission remains OPEN.
+
+PB-SURFACE-EXTERIOR-TRANSVERSALITY remains UNVERIFIED/open; complete
+source/action/exterior/domain and zero-horizontal tests are still owed.
+PB-SURFACE-ACTION-GENERATED-RESPONSE, curved/extrinsic/gauge/cusp/full
+SUSY boundary, global stationary charged theory, norms/vertices/anomalies
+and foundational physical SM/three/gravity remain ACTIVE. Local79dim
+algebra not SM, fixed based rank3 not SM, other phases not excluded.
+already_banked terms 'Cartan R coupled boundary centralizer gaugino'
+gave127broad hits/one settled consolidation; code/body/prior geometric
+SU2 audit read. No universal absence or generic first-ever claim.
