@@ -1,5 +1,27 @@
 # Changelog
 
+## S138 THE FIVE STEPS (P-183): B1663 (NEGATIVE); B1664, B1665 (OPEN); B1666 (PROVED, THE PERIOD PHASE)
+
+- **B1663, the pull-back's strength** (sealed `9c3f74238`; NEGATIVE as sealed). Its central prediction failed. p sets
+  the side (P(ξ > 0) from 1 to ½) and the speed (0.396 → 0.101 per step), not the motion's averaged defect: 0.517 at
+  every p. Post-seal, the surviving digits follow 2⁻ᵏ at every p, so cancelling changes only the sign and the clock.
+  Routed into the kill graph.
+- **B1664 and B1665, the layers** (OPEN). Their gates failed on main's own zeros of D: the cusp cut-off, then ω (E74,
+  twice, filed). The diagnoses found the mathematics right on every thread.
+- **B1666, the layers with a robust phase** (PROVED, a scoreboard; T-THE-PERIOD-PHASE; LAW_MAP; the claim pool;
+  THE_WEAVE).
+  - On every thread with trace ≤ 600 the matter's amplitude returns by the Higgs's character i^(#L−#R).
+  - By trace, the threads reach the constant mode (⟨f⟩ → 0.315, the gap ∝ t^(−½)).
+  - The amplitude's coherence decays, and the coherent rule favours the cusp family, not the root.
+- **Step 4** is answered by the web seat's sealed thread frame and the SM seat's W97 (none passes).
+- **Step 5:** L is the log of a regulator at the puncture (cA, B1654). The audit lane gets the precise symmetry
+  question (P-184).
+- **Also:**
+  - B1663's literature line corrected by the paper's attribution check;
+  - the paper's draft 2 begun (in the draft room).
+
+  Relay CC_TO_ALL_SEATS_2026-10-16_THE_FIVE_STEPS.md. 0 of 19.
+
 ## S137 THE PULL-BACK ACTS ON THE RECORDS (B1662; GENESIS v1.48); THE AUDIT LANE REORIENTED; WAVE AND WEAVE
 
 - **B1662, the owner's ruling on P-179, made by the math** ("i accept your recomendations all"). GENESIS v1.47 → v1.48

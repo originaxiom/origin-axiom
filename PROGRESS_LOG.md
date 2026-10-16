@@ -17214,3 +17214,18 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   in five steps; the paper after the first test that can fail (the owner to decide).
 - Full suite before the GENESIS amendment (R64-11): 7351 passed, 2 failed, 68 skipped (23:21, -n 8). The two failures
   are R64-10's BLAS-thread-dependent locks (B186, B616), diagnosed and open; nothing else. Gates 45 of 45. 0 of 19.
+
+## 2026-10-16 — S138 THE FIVE STEPS (P-183)
+
+- The owner: "lets finish all the 5 tests, do decadal review if due and then write the paper".
+  - Step 3: B1663 (NEGATIVE as sealed; p idle for the defect).
+  - Steps 1–2: B1664 and B1665 (OPEN, main's two failed gates at D's zeros; E74 twice), then B1666 (PROVED, a
+    scoreboard: the period-phase law on every thread to trace 600; the layers reach the constant mode; the coherent
+    rule favours the cusp).
+  - Step 4: answered by the seats' sealed work.
+  - Step 5: L is a regulator; the audit lane's symmetry question is P-184.
+- Review 65 is not due (about 10 merges since Review 64).
+- The paper: draft 2's delta written, the attribution gate run, and the LaTeX skeleton, abstract and introduction
+  drafted in the draft room.
+- Landing suite: gates 45 of 45; 185 files, 2357 passed, 0 failed, 6 skipped (6:44, -n 8); R64-10's two
+  BLAS-dependent locks (B186, B616) left out by name, still open. 0 of 19.

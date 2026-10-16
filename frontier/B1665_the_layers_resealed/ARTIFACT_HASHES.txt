@@ -1,2 +1,8 @@
+# sealed at 043c90b6a: 1c14e0a9ab22ebe43ea61f81f123c0b3a907a8b9f00d2c4536c77fcaa755319a  verification/the_layers_resealed.py (unchanged after the seal)
 # sealed with the PREREGISTRATION (the seal commit): sha256 of every file but the preregistration and this list
 1c14e0a9ab22ebe43ea61f81f123c0b3a907a8b9f00d2c4536c77fcaa755319a  verification/the_layers_resealed.py
+# after the seal (not sealed): the output, committed unread at 2a0f41394, and the post-seal diagnosis
+dab64d915714bfdc51e8e5b5966370c3921596d60f21e81ac773bf3dcb8840f2  verification/the_layers_resealed.json
+09e8068f9465108b71ddd01b283cf5bba17508864306b91ffae7c4a598914064  verification/the_layers_resealed_run.txt
+91b1c4ed04ee7d7fa0a4c98de6d23311a4da090896b4fa92134ece5245fa6aba  verification/after_the_seal/gate_diagnosis.py
+02c2852c7de1e423ec976119e5c8a10f51a0119e8262febe2b23482c1df7cafe  verification/after_the_seal/gate_diagnosis_output.json

@@ -572,6 +572,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1657` | PROVED | L | | THE SYMMETRIC POINT: at τ = ω the Higgs's symmetric vacua are B1646's axes; the isotropic two are rank one; near the conjugate vacuum the light masses are the two isotropy defects, near the parallel vacuum their sum and product (a geometric hierarchy); under the canonical end condition one generation massless and the next ∣D∣/(2πL∣R∣²) or a quarter; untwisted, one fibre and one τ |
 | `B1658` | PROVED | L | | THE TWISTED HALF BOUND: in B1656's twisted frame under equal framed data, one Higgs keeps the sectors' second generations within a factor 4, exactly (the Gram spectrum {1, 2, 2, 4}); against the M_Z ratios one Higgs is refuted (a scoreboard) |
 | `B1659` | PROVED | L | | THE JOINT LAW: in B1656's twisted frame det Y = 4 det S det M tr(εSMᵀ) and adj Y = det S·A(M) + det M·P A(S) for every Higgs and matter; the masses closed-form in the two defects and their pairing (the lightest vanishes iff one of them does; geometric at the coincident point); no data |
+| `B1666` | PROVED | L | | THE PERIOD PHASE: on every thread with trace ≤ 600 the matter's amplitude returns by the Higgs's character i^(#L−#R); by trace the threads reach the modular surface's constant mode (⟨f⟩ → 0.315); the amplitude's coherence decays, and the coherent rule favours the cusp, not the root; no data |
 
 ## The exhibit that forced the rebuild
 

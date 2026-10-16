@@ -1,0 +1,15 @@
+{
+ "n": 30674,
+ "n_nan": 593,
+ "nan_start_heights_min": 50.15106086977862,
+ "all_nan_start_above_cut": true,
+ "any_good_start_above_cut": false,
+ "max_phase_err_others": 3.244092829788221e-10,
+ "nan_examples": [
+  "LRRRRRRRRRRRRRRRRRRRRRRRRRRRRR",
+  "LRRRRRRRRRRRRRRRRRRRRRRRRRRRRR",
+  "LRRRRRRRRRRRRRRRRRRRRRRRRRRRRR",
+  "LRRRRRRRRRRRRRRRRRRRRRRRRRRRRR",
+  "LRRRRRRRRRRRRRRRRRRRRRRRRRRRRR"
+ ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "B1663",
+  "verdict": "NEGATIVE",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1662"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "frame-free: the walk on SL(2, Z) with L, R each (1-p)/2 and L^-1, R^-1 each p/2 (GENESIS v1.48); the defect f = |D|/||R||^2 on the modular surface",
+    "object": "the side, the escape rate, the character's steps and the motion's averaged defect (f along the geodesic ray to the walk's limit) as functions of the pull-back's strength p in {0, ..., 1/2}",
+    "reach": "class",
+    "hypotheses": "320 walks per p, stopped at an entry of 10^60; the limit's digits with the last 20 dropped; the ray average by digits; f set to 0 above height 7; resolution about 0.009 (5 SE); the walk as the motion is the push-back picture's reading, firewalled"
+  },
+  "claim_one_line": "THE PULL-BACK'S STRENGTH (sealed 9c3f74238, sha256 1ce96661; NEGATIVE as sealed: the central prediction T4(b), 'the strength is not idle', failed; the output committed unread at 4d9eb2001): on the walk with steps L, R and pull-backs L^-1, R^-1 of strength p, p sets WHICH END the motion reaches (P(xi > 0) = 1, 0.90, 0.75, 0.71, 0.62, 0.53 for p = 0 .. 1/2) and HOW FAST (escape 0.396 -> 0.101 per step), but NOT the motion's averaged defect: E_p<f> along the geodesic ray to the walk's limit is 0.5157, 0.5179, 0.5185, 0.5162, 0.5173, 0.5178 (+- 0.0013; spread 0.0028 over six p), not the typical motion's 0.315 (control 0.3155 +- 0.0018). Post-seal (labelled): the limit's continued-fraction digits follow the geometric law 2^-k at p = 0 and p = 1/2 alike (Gauss-Kuzmin for a typical point), so the motion that survives the cancellations is the forward-only motion whatever the strength; cancelling changes only the sign and the clock. The push-back adds no number to the sizes (to about 0.009). 0 of 19.",
+  "weave_or_thread": "weave (the joint action of the moves and their pull-backs)"
+}

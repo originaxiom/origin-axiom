@@ -12106,6 +12106,69 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1663": {
+   "slug": "the pull backs strength",
+   "motifs": [
+    "amphichiral_cp",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B186",
+    "B451"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "open",
+   "domain": "topology"
+  },
+  "B1664": {
+   "slug": "the layers",
+   "motifs": [
+    "coupling"
+   ],
+   "refs": [
+    "L0",
+    "L1",
+    "L2"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "physics"
+  },
+  "B1665": {
+   "slug": "the layers resealed",
+   "motifs": [
+    "eisenstein"
+   ],
+   "refs": [
+    "L0",
+    "L1",
+    "L2"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1666": {
+   "slug": "the layers robust",
+   "motifs": [
+    "measurement",
+    "coupling"
+   ],
+   "refs": [
+    "L0",
+    "L1",
+    "L2"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B166": {
    "slug": "sln aperiodic",
    "motifs": [

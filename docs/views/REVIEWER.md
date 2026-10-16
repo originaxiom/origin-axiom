@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1391** |
-| words of findings prose | **1,101,191** |
+| research arcs with findings | **1395** |
+| words of findings prose | **1,103,775** |
 | test lock files referenced | **813** |
-| arcs carrying an authored verdict | **1391** (100.0 %) |
-| recorded closures | **821** (654 classified, 167 routed-only) |
+| arcs carrying an authored verdict | **1395** (100.0 %) |
+| recorded closures | **822** (655 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 944 |
-| NEGATIVE | 345 |
-| OPEN | 91 |
+| PROVED | 945 |
+| NEGATIVE | 346 |
+| OPEN | 93 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 91 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 92 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1662`** (898 words, 1 locks)  
-THE PULL-BACK ACTS ON THE RECORDS (the owner's ruling on P-179, 2026-10-16, made by the math; GENESIS v1.48): the inverse moves are legal (GM5b adopted) -- PF1's own form is two steps and their pull-backs, at the root [LR, RL] = -(unipotent) has trace -2 whatever the letters' signs, and at equal strength only this reading never settles (returns to the identity saturate at 0.477; the undo-only reading's grow 33.5 -> 97.0). So the sign is generated (FK4 answered): a full turn round a balance point negates the records, (L R^-1 L)^2 = (L^-1 R)^3 = -I, which no forward word reaches. Positivity is re-read as the choice of side (step and pull-back are mirror images), the arrow as the escape (0.0992 per step with no preference), and the arena recorded with SE1's trace-1 solution (P-178 N1). Re-graded: B1482, B1479 (wording), B1083 (the arrow re-homed); scope sentences on B1640, B1454, B1422. Nothing about the threads changes; the price unchanged; 0 of 19.  
-`B1662_the_pull_back_acts_on_the_records/FINDINGS.md`
+**PROVED — `B1666`** (719 words, 0 locks)  
+THE LAYERS WITH A ROBUST PHASE (sealed aac14a72c, sha256 df6f13d1; PROVED as sealed, a scoreboard for L1-L2 after B1664 and B1665, whose gates failed at D's zeros; the output committed unread at e8197f4cf): on EVERY thread with trace <= 600 (30 674) the matter's amplitude D (dz/ds)^(-1/2) returns after one period multiplied by exactly i^(#L-#R), the Higgs's character (to 1.1e-7), so a coherent average survives only on the quarter of threads with #L = #R mod 4; averaged trace by trace the threads' defect <f> reaches the typical motion's 0.31500491 (0.3144 over traces 451-600 against 0.3692 at t <= 20; the gap falls as t^-1/2) -- the trace formula's constant mode on the program's quantity; the amplitude's coherence decays with length (slope -0.27 +- 0.08), and the coherent rule favours the cusp family L^(4m+1) R (to 0.99994), not the root LR (0.637). 0 of 19.  
+`B1666_the_layers_robust/FINDINGS.md`
 
-**NEGATIVE — `B1660`** (1315 words, 0 locks)  
-THE ONE-HIGGS CENSUS UNDER THE CANONICAL END CONDITION (sealed f798b2368, sha256 f0f9518c; NEGATIVE as sealed, a scoreboard; the output committed unread at aff4233ea): in B1656's twisted frame at omega on W59's 18 lines under P4, with B1659's joint law, ONE Higgs S and the end radius L reproduce HZ2021's five non-electron mass ratios in none of 54 cells (18 lines x 3 readings of the up sector: S, S~ = eps conj(S) eps^T, conj(S)): no fit below 11.07 found, every cell reliable (8 to 160 of 160 starts at its best; no failed fit), with a search that recovered all 15 planted worlds (C1). chi2_min: the same S 85.35-291.14 (three classes of six lines); S~ 542.8-591.8; conj(S) 412-731 except 34.40 on the conjugate pair of lines (1/9, 7/9) and (8/9, 2/9), the census's best. Read-out (C3): at the best points the up quarks' two ratios and the down quarks' m1/m3 are met; the misses are the two middle ratios, m_s/m_b too large and m_mu/m_tau too small: the data's (m_mu/m_tau)/(m_s/m_b) = 3.14 against 0.63-1.75 at the best points. Not a ceiling: alone, that ratio reaches 9-34 on four lines (a post-seal exploration, labelled, kept in verification/after_the_seal/), so the misfit is a joint conflict among the five targets. 0 of 19.  
-`B1660_the_one_higgs_census/FINDINGS.md`
+**NEGATIVE — `B1663`** (840 words, 0 locks)  
+THE PULL-BACK'S STRENGTH (sealed 9c3f74238, sha256 1ce96661; NEGATIVE as sealed: the central prediction T4(b), 'the strength is not idle', failed; the output committed unread at 4d9eb2001): on the walk with steps L, R and pull-backs L^-1, R^-1 of strength p, p sets WHICH END the motion reaches (P(xi > 0) = 1, 0.90, 0.75, 0.71, 0.62, 0.53 for p = 0 .. 1/2) and HOW FAST (escape 0.396 -> 0.101 per step), but NOT the motion's averaged defect: E_p<f> along the geodesic ray to the walk's limit is 0.5157, 0.5179, 0.5185, 0.5162, 0.5173, 0.5178 (+- 0.0013; spread 0.0028 over six p), not the typical motion's 0.315 (control 0.3155 +- 0.0018). Post-seal (labelled): the limit's continued-fraction digits follow the geometric law 2^-k at p = 0 and p = 1/2 alike (Gauss-Kuzmin for a typical point), so the motion that survives the cancellations is the forward-only motion whatever the strength; cancelling changes only the sign and the clock. The push-back adds no number to the sizes (to about 0.009). 0 of 19.  
+`B1663_the_pull_backs_strength/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

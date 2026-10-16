@@ -1,0 +1,22 @@
+{
+  "id": "B1665",
+  "verdict": "OPEN",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1664"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "as B1664",
+    "object": "every thread to trace 600, by layer",
+    "reach": "class",
+    "hypotheses": "the sealed gate failed at omega (D's other zero); the cells after it are read-outs; B1666 re-seals with a least-squares phase"
+  },
+  "claim_one_line": "THE LAYERS, RE-SEALED (sealed 043c90b6a, sha256 9955d1b6; OPEN: the gate failed again -- the repaired start, the period's lowest point, sits at the corners omega where D also vanishes, and 22 threads gave a one-point phase ratio up to 3.7e6; post-seal the least-squares phase over a whole period equals i^(#L-#R) on all 30 674 threads to 1.4e-8; main's second E74 instance of the day, the seal unreviewed as disclosed). Read-outs identical to B1664's: layer averages of f 0.3144 (traces 451-600) against 0.3692 (t <= 20), the gap falling as t^-0.51; phase-1 coherence slope -0.269 +- 0.083; the cusp family L^(4m+1) R to 0.9923. B1666 seals the robust estimator. 0 of 19.",
+  "weave_or_thread": "weave (every thread to trace 600 under one rule)"
+}

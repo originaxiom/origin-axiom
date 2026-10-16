@@ -1,3 +1,4 @@
+# sealed at beaa42ff6: 75a153201f5c7341aab5c780f801161ae8418649210403c4987ecf7156cf9474  verification/the_layers.py (unchanged after the seal)
 # sealed with the PREREGISTRATION (the seal commit): sha256 of every file but the preregistration and this list
 202898f2daa3bc9e8f435b3b19507c63d3c6aa1258f2ef0c3311ca643a63e944  verification/before_the_seal/coherent_period_all.py
 a72c58d54243a739b6ac43452f118177171ba96f45b6abaffb5dc99d0911e646  verification/before_the_seal/d_automorphy.py
@@ -5,3 +6,8 @@ a72c58d54243a739b6ac43452f118177171ba96f45b6abaffb5dc99d0911e646  verification/b
 243037bc7e6a90459e228e9cdd710f5af880803d84a20db3e688fe4a4a760eec  verification/before_the_seal/layers_core.py
 896ef9b8c378a400e2d6974d52e4cb2a62846f64eb688e934dd337829918598d  verification/before_the_seal/motion_defect.py
 75a153201f5c7341aab5c780f801161ae8418649210403c4987ecf7156cf9474  verification/the_layers.py
+# after the seal (not sealed): the output, committed unread at 74165eaf4, and the post-seal diagnosis
+4d633b46c3204de710020645f5979d107ea3504d1d46a2c5bbafff4bdbff97dc  verification/the_layers.json
+c6ecc5c95088260ccbdf09846d82b79445efd59467741b3c748fcba6197d1a58  verification/the_layers_run.txt
+bba024e02658cb8e142bf848fec9a7ba55b29484837486679671b13091c9dfa6  verification/after_the_seal/gate_diagnosis.py
+2e9e3c37cf8534ad5add7b89a3b96a6f32e0a94da680ac64c1227b5fed230a51  verification/after_the_seal/gate_diagnosis_output.json

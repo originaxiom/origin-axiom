@@ -1,0 +1,32 @@
+{
+ "n": 30674,
+ "n_sealed_fail": 22,
+ "sealed_fail_examples": [
+  [
+   "LLLLLLRLRRRRRRRRRRRRRRRRRRRRLR",
+   3659044.346
+  ],
+  [
+   "LLRLRRRRRRRRLR",
+   136572.99
+  ],
+  [
+   "LLLLLLLLLLLLLLLLLRLRRRRRLR",
+   4147.465
+  ],
+  [
+   "LLLLLRLRLR",
+   3132.577
+  ],
+  [
+   "LLLLLRLRRRRRRRRRRRRRRRRRLR",
+   2037.362
+  ],
+  [
+   "LLLLLLLLLLLLLLLLLLLLRLRRRRRRLR",
+   658.503
+  ]
+ ],
+ "robust_max_err": 1.427052894843817e-08,
+ "robust_fail": 0
+}

@@ -1,2 +1,6 @@
+# sealed at aac14a72c: ee01a4b7e8951dd23170b8ac277b60a5cb5f6d615dd8251ef90d3d31180bad81  verification/the_layers_robust.py (unchanged after the seal)
 # sealed with the PREREGISTRATION (the seal commit): sha256 of every file but the preregistration and this list
 ee01a4b7e8951dd23170b8ac277b60a5cb5f6d615dd8251ef90d3d31180bad81  verification/the_layers_robust.py
+# after the seal (not sealed): the output, committed unread at e8197f4cf
+c5797e1e2bef7fda7af4783be01617e525783ef29589fca5bd0d4636a50b3e3a  verification/the_layers_robust.json
+084a1b6de4715267741cd12cc1626ddd69af033a8f0145131c8a5a81da6de817  verification/the_layers_robust_run.txt

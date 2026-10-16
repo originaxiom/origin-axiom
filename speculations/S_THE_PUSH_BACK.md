@@ -384,9 +384,9 @@ n = 2000 (two seeds, 2000 walks each).
 
 | step | computation | can fail by |
 |---|---|---|
-| 1 | **W-trace** (the web seat, approved): layer sums of the matter's quantities over all threads of one trace, untwisted, with each thread's period phase reported | no trend toward the equidistributed value (Duke), or the cusp taking over at every layer |
-| 2 | **the spectral side for the same quantity:** whether the layer sums of D's coherent cycle integrals, on the threads with #L ≡ #R (mod 4), are the Fourier coefficients of one form (the Katok–Sarnak/Shintani pattern, where sums of cycle integrals by discriminant are a half-integral-weight form's coefficients). Feasibility for D's weight and character is checked first | the sums fit no form of the expected weight and character: the duality would not hold for our objects |
-| 3 | **the pull-back's strength p:** whether anything the program uses depends on p. Transience and escape do not. The walk's exit distribution (which end, the side) does | nothing depends on p (then p is idle and the push-back adds no number), or something does and p is a new input |
+| 1 | **W-trace** (the web seat, approved): layer sums of the matter's quantities over all threads of one trace, untwisted, with each thread's period phase reported | no trend toward the equidistributed value (Duke), or the cusp taking over at every layer **— done, main's version (B1666, PROVED, a scoreboard): the layers reach 0.315 (0.3144 at traces 451–600), the gap ∝ t^(−½); the web seat's W-trace stays its own** |
+| 2 | **the spectral side for the same quantity:** whether the layer sums of D's coherent cycle integrals, on the threads with #L ≡ #R (mod 4), are the Fourier coefficients of one form (the Katok–Sarnak/Shintani pattern, where sums of cycle integrals by discriminant are a half-integral-weight form's coefficients). Feasibility for D's weight and character is checked first | the sums fit no form of the expected weight and character: the duality would not hold for our objects **— in part (B1666): the period phase i^(#L−#R) on every thread to trace 600 and the amplitude's coherence decaying (no constant wave); the generating form itself is not computed** |
+| 3 | **the pull-back's strength p:** whether anything the program uses depends on p. Transience and escape do not. The walk's exit distribution (which end, the side) does | nothing depends on p (then p is idle and the push-back adds no number), or something does and p is a new input  **done (B1663, NEGATIVE as sealed): p sets the side (P(ξ > 0) 1 → ½) and the speed (0.396 → 0.101), not the motion's averaged defect (0.517 at every p, spread 0.003); the surviving digits follow 2⁻ᵏ at every p, so cancelling changes only the sign and the clock** |
 | 4 | **the coherent rule on the physical amplitude:** fix the Higgs's transformation law, compute the amplitude's period phase, and seal which threads it keeps before any data | the rule keeps threads whose masses miss the data, or keeps none |
 | 5 | **the end law on the weave's own operator** (the audit lane's reorientation, P-181): does an admissible end condition fix the cusp's unit or L? | "neither" (a clean negative) |
 
@@ -402,3 +402,41 @@ Main's view, for the owner to decide:
 - **The cleanest moment is after step 2 or step 4.** At either point the paper can report a test the picture could
   have failed, not only a reading. P-150's "B then C" still governs; the paper's draft 2 waits on the owner (P-148,
   P-172).
+
+### 10.3 Step 4, the coherent rule on the physical amplitude (2026-10-16)
+
+- **On D alone** (B1664's read-outs; B1665 re-tests them): coherent averaging favours the cusp family L^(4m+1)R
+  (coherence 0.717 → 0.99994), not the root LR (0.637). The amplitude survives coherently where it is carried by one
+  passage deep in the cusp, the end where the defect f vanishes. **The coherent rule picks the weave's "nothing" end,
+  not the root.**
+- **On the physical amplitude, the closing configurations.** Along a thread a W59 line returns transformed by the
+  thread's monodromy. So an amplitude closes only on threads that fix their line, and those (thread, line)
+  configurations are the web seat's T-low.
+  - The web seat's sealed run (`0d83e6981`, read `fc15550e0`) takes coherent cycle integrals of the twisted units,
+    the Higgs mode with its character included, on all 90 configurations at N = 9, 11, 12. **None passes S-mass.**
+  - The SM seat's W97 reproduced it blind, to 3.6 × 10⁻¹⁵.
+  - Any coherent selection is a subset of those configurations, so it keeps none that fit. **Step 4 is answered
+    negatively on T-low**, by two seats' sealed and reproduced work.
+  - Beyond T-low (deeper threads, the layer sums) it is untested. That is the web seat's W-trace, approved.
+
+### 10.4 Step 5, the end law: what L is (2026-10-16)
+
+- **L is the log of a regulator at the puncture.**
+  - B1656's channel norm c_s is the regularised norm ∫ over the fibre minus a disc of radius ε at the puncture, of
+    ∣K_s∣², with 2π·log(1/ε) subtracted (`cA`; B1654).
+  - P4's u_s = √(2πL + c_s)·R_s puts the divergence back with **L = log(1/ε)**.
+  - The coefficient 2π is fixed by the residue's normalisation, and the first generation's lift is D/(2πL) (B1654).
+- **No end condition can fix it at a complete cusp.** There the mode's norm diverges logarithmically, and there is no
+  boundary to impose a condition on, only a regulator. So L behaves as a scale, like a renormalisation scale, not as a
+  radius a law could set.
+- **At a finite-distance puncture** (the audit lane's model) the freedom is a domain Λ in the six critical
+  coefficients, with index dim Λ − 3.
+  - If the weave's symmetry must preserve Λ, the freedom drops from a continuum to a finite set.
+  - If 2T acts on the three parity doublets as its triplet and trivially inside each doublet, the invariant Λ are
+    3 ⊗ V for V ⊂ ℂ², so the index is −3, 0 or +3. A nonzero (chiral) index is then exactly ±3, the cusp's unit fixed
+    up to the side.
+  - If it acts as triplet ⊗ spinor (3 ⊗ 2 = 2 ⊕ 2′ ⊕ 2″), the index is −3, −1, +1 or +3.
+  - **Which action holds is the audit lane's to compute** (P-181), on its own operator. Main's representation theory
+    only names the two outcomes.
+- **So step 5 stands:** L is a regulator scale, not fixed by any end law. Whether the symmetry fixes the cusp's unit
+  waits on the lane.
