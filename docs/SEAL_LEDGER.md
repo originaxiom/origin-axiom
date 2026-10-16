@@ -9176,3 +9176,10 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 |---|---|---|---|---|
 | 2026-10-16 | BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/DESIGN.md` | `e98206219ebcd171ea8106acb71dba5a4047fe1b3b7d4a6876ba63d28ff4fbb8` | Preregistration and full transitive hash closure, not raw data classified as design |
 | 2026-10-16 | BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/INPUTS.json` | `496aa1217ac62d2ab42edee68309464880b850d0a89b24a195b06ad4e6527552` | Preregistration and full transitive hash closure, not raw data classified as design |
+
+## All boson response Diagnostic only after first mixed-sector failure
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-16 | Diagnostic only after first mixed-sector failure | `reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/DESIGN.md` | `e98206219ebcd171ea8106acb71dba5a4047fe1b3b7d4a6876ba63d28ff4fbb8` | Preregistration and full transitive hash closure, not raw data classified as design |
+| 2026-10-16 | Diagnostic only after first mixed-sector failure | `reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/INPUTS.json` | `27093ee1901a204309d823f4bc81490fae92a7891d939f0fc67e5f8f4e3644ab` | Preregistration and full transitive hash closure, not raw data classified as design |

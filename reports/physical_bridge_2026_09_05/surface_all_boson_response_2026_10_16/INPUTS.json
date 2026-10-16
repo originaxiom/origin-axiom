@@ -161,12 +161,16 @@
       "sha256": "e98206219ebcd171ea8106acb71dba5a4047fe1b3b7d4a6876ba63d28ff4fbb8"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/POST_HOC_REPAIR.md",
+      "sha256": "fe4d6f885129dfbdc47e1e20d22db6676450a6302aaf18624e327c1d172af216"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/PROOF.md",
       "sha256": "b1cb97426eb41a6d5f366da6d4d1bbeeec2d2e224d88028f96663ff2ed5fe011"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/analysis.py",
-      "sha256": "5f187db401d95027a93c053bca045893b3a3371327199153aa8efc4f577d6c3f"
+      "sha256": "6ef78d048ac8c33bf99089f4b2413e47ecb64b28195d48ebbfc8420d200bb9f6"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/execute.py",

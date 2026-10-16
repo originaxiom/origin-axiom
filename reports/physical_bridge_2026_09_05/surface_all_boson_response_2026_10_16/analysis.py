@@ -95,7 +95,8 @@ def source(a,ss,ck):
     ck('all six generic Hessians retain actual curvature term',all(not p for p in hess) and omitted)
     mixedraw=physical(a,static(a,ss['K_component'],True));eta=[-1,1,1,1]
     mixed=a.trace(a.add(*(a.scale(a.mul(D(y,i),D(y,i)),2*eta[j]) for j,y in enumerate(yy) for i in range(6))))
-    me,mp,mres=homotopy(a,a.trace(a.add(mixedraw,a.scale(mixed,-1),a.scale(physical(a,static(a,ss['K_component'])),-1))))
+    mdiff=a.trace(a.add(mixedraw,a.scale(mixed,-1),a.scale(physical(a,static(a,ss['K_component'])),-1)))
+    me,mp,mres=homotopy(a,mdiff)
     ck('all four actual vector kinetic sectors and boundary primitives',not mres and all(not v for v in me.values()) and bool(mp))
     em,_=parts(a,mixed)
     ck('actual external Lorentzian source factor four all directions',all(not a.add(em['y'+str(j)],a.scale(a.add(*(D(D(y,i),i) for i in range(6))),4*eta[j])) for j,y in enumerate(yy)))
@@ -105,7 +106,8 @@ def source(a,ss,ck):
     return {'mu':a.sf.encoded(mu),'b':[a.sf.encoded(b) for b in bb], 'auxiliary_primitives':{k:a.sf.encoded(v) for k,v in sorted(auxprim.items())},
       'calibration_primitives':{k:a.sf.encoded(v) for k,v in sorted(calprim.items())},'mixed_primitives':{k:a.sf.encoded(v) for k,v in sorted(mp.items())},
       'source_potential':a.sf.encoded(potential),'mixed_action':a.sf.encoded(mixed),'external_quartic':a.sf.encoded(ym),
-      'generic_Hessian_residuals':[a.sf.encoded(p) for p in hess]},auxprim
+      'generic_Hessian_residuals':[a.sf.encoded(p) for p in hess],
+      'mixed_diagnostic':{'difference':a.sf.encoded(mdiff),'homotopy_residual':a.sf.encoded(mres),'Euler_residuals':{degree:{k:a.sf.encoded(v) for k,v in row.items()} for degree,row in me.items()}}},auxprim
 def run(method):
     checks={};records={}
     def ck(k,v):checks[k]=bool(v);print(('PASS ' if checks[k] else 'FAIL ')+k,file=sys.stderr,flush=True)
