@@ -1,5 +1,18 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October16 SAME-source interface:144/144each at4ced3ad81, complete
+records identical,269pins/tree/index unchanged. Fresh actual action
+normal momenta/primitives, full real/Majorana graph, all28 charged/
+kernel blocks and local nonabelian vector/gaugino sector pass TWO-SIDED
+transmission. Every nonzero joint principal covector has an isometric
+matching map; zero sector retained. Standard transmission credited,
+not new literature. Not the old wall or a selected true end/exterior.
+ADMISSION_STATUS in surface_same_action_transmission_2026_10_16
+preserves existing based/orbifold/register/action maps and prices
+remaining global stationary field/true-end selection. No artificial-cut
+index/three, global Higgs/SM/parameters/gravity or independent acceptance.
+Full goal ACTIVE; LIVE/governance/full-suite/main debts remain separate.
+
 October16 addition: actual source D/G elimination, all six-field
 curvature/Hessian and all external mixed/quartic sectors, with every
 surface primitive, support a complete bosonic response at Grassmann

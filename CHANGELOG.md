@@ -1,5 +1,25 @@
 # Changelog
 
+## October16 same-action charged transmission, not a selected true end
+
+144/144each at pre-run/server-confirmed4ced3ad81, complete240,856byte
+records identical;269pins/16,935tracked/index unchanged. Fresh80 actual
+root/source controls and15 action identities retained. All four source
+normal momenta and12 primitive entries, full real trace/conjugates,
+all28 charged/kernel blocks, canonical gauge charges and the existing
+local interacting gauge multiplet pass smooth TWO-SIDED matching.
+All nonzero joint principal directions have an exact normalized
+matching isometry; zero modes not discarded. Standard transmission
+applied to actual source, not a new generic theorem, selected global
+end or chirality/count generator. No failed science attempt.
+ADMISSION_STATUS credits existing based/orbifold/register/source maps
+and prices remaining global field/action/end selection. NEXT true
+exterior state and GLOBAL stationary noncommuting Higgs/connection in
+actual bundles, then same-theory spectrum/norms/vertices/anomalies.
+Full physical SM/three/parameters/gravity goal ACTIVE. New packet
+surface_same_action_transmission_2026_10_16; LIVE/governance follows,
+four old debts/outside/full-suite/main acceptance not waived.
+
 ## October16 all boson responses and the boundary benchmark
 
 Same-source55/55each at published7ae6451c0, full3,353,996byte records

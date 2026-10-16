@@ -1,5 +1,18 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+LATEST October16 same-action interface:144/144each at4ced3ad81,
+269pins/16,935tracked/index unchanged. Actual source momenta/primitives,
+Majorana/Hermitian graph, all28 charged/kernel blocks and local gauge
+multiplet retained. Uniform joint principal transmission is POSITIVE;
+zero covector matched, not gapped. Not a true end state, new chirality
+or selected physical SM. No failed science run. ADMISSION_STATUS in
+surface_same_action_transmission_2026_10_16 credits existing full based/
+orbifold/register/action maps; next GLOBAL stationary SAME-source
+Higgs/connection and justified true exterior/end law, then physical
+spectrum/vertices/anomalies/three/parameters/gravity. LIVE/governance
+separate; old four debts and nonauthor/full-suite/main duties remain.
+Full original physical goal ACTIVE, no cross-parent result transplant.
+
 LATEST October16 all-boson response:55/55each at7ae6451c0, complete
 3,353,996byte records identical,259pins/16,887tracked/index unchanged.
 Same-source generic full Hessian/auxiliary/surface action and ALL TEN

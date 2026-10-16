@@ -1,5 +1,28 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+PB-SAME-ACTION-TRANSMISSION: smooth finite-interface sub-duty POSITIVE
+October16,144/144each at4ced3ad81,269pins/tree/index unchanged. Source
+momenta/primitives, full real/conjugate/charged trace, all28 radial
+blocks and existing local gauge multiplet retained. Joint principal
+matching uniform; not a singular/cusp/exterior/global count theorem.
+Source physical-bridge surface_same_action_transmission_2026_10_16
+FINDINGS/PROOF/ADMISSION_STATUS/NEXT_TEST. No new selected physical wall.
+PB-GLOBAL-SAME-SOURCE-HIGGS-ADMISSION: OPEN, actual global stationary
+K-valued Higgs/connection with Q8/based/modular/Chern/R/metric maps;
+search existing harmonic-metric/condensed parents before any absence
+claim. Local single-root chart and other-parent spinor not a free splice.
+PB-TRUE-EXTERIOR-STATE-AND-END-ACTION: OPEN, justified exterior/remote
+state and same-action stationary response, all source/auxiliary/gauge/
+curved/SUSY and edge data. Artificial cut cannot select index/three.
+PB-GLOBAL-CHARGED-JOINT-DOMAIN: OPEN, actual singular/cusp graph limits,
+all joint frequencies/thresholds/kernel/complement and gauge quotient;
+smooth principal isometry/finite jets are not this estimate.
+PB-SAME-THEORY-COMPLETE-PHYSICAL-ROSTER: OPEN, spectrum/conjugates/
+boundary modes/norms/vertices/anomalies/Higgs/extras in ONE admitted
+global theory, then physical three/parameters/gravity. Independent
+analytic/banking/receiver/main/full-suite duties remain; no inherited
+debt waived or observer/qualia derivation. Full goal ACTIVE.
+
 PB-ACTUAL-INVARIANT15-BRACKETS: October15 finite identification complete
 for the specified based E8 lifts/ALL commuting weak corrections.
 4407/4407 exact at published repair02fddebb0, complete tensors identical,

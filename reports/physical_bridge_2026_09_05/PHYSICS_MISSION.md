@@ -1,5 +1,18 @@
 # Approved physics mission and execution criteria
 
+October16 same-action transmission:144/144each at4ced3ad81,269pins/
+tree/index unchanged. Full source momenta/primitives, charged/real
+trace, all28 root radial blocks and local interacting gauge multiplet
+pass smooth TWO-SIDED matching; every joint nonzero principal direction
+has an exact isometric matching map. Artificial seam, not true exterior/
+end state or generation index. Existing based/orbifold/register/action
+maps credited in ADMISSION_STATUS. NEXT globally admitted SAME-source
+stationary Higgs/connection plus justified true exterior/end law, then
+whole physical spectrum/norms/vertices/anomalies. Do not let local
+conditional successes replace foundational admission. Physical SM/
+three/parameters/gravity ACTIVE; full-suite/nonauthor/main and four old
+debts remain separate. Report/NEXT: surface_same_action_transmission_2026_10_16.
+
 October16 execution: same-action all-boson degree2response is POSITIVE,
 55/55each at7ae6451c0,259pins/tree/index unchanged. Actual auxiliaries/
 full Hessian/surface law and bounded outer variational benchmark are

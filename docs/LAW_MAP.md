@@ -1,5 +1,20 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October16 same-action transmission sublemmas, path-local CONDITIONAL
+research, not a new shared B allocation or independent analytic acceptance.
+144/144each at published4ced3ad81,269pins/tree/index unchanged. Standard
+transmission and older R30/R89 credited; actual source application below.
+
+| Scoped statement | Argument and LIVE safeguard |
+|---|---|
+| All four source seven-square normal momenta and external mixed currents agree with fresh cyclic variation, retaining raw auxiliary/fermion and calibration primitives in their respective representations. | B1138 physical-parent context ONLY; NEW reports/physical_bridge_2026_09_05/surface_same_action_transmission_2026_10_16/PROOF.md section1; tests/test_physical_bridge_surface_same_action_transmission.py::test_actual_source_and_every_normal_momentum and tests/test_physical_bridge_surface_same_action_transmission.py::test_raw_primitives_are_retained_and_oriented. Not deletion of true end terms or canonical-momentum substitution. |
+| Full matched source graph is maximally Hermitian/Majorana Green-null with actual metric/reality and retains lambda/conjugates. | B1138 parent context ONLY; NEW transmission PROOF.md section2; tests/test_physical_bridge_surface_same_action_transmission.py::test_full_real_graph_retains_gauge_multiplet. Two-sided interface, not a one-sided wall or full global self-adjoint domain. |
+| Every nonzero joint principal covector has complementary decaying sides and an exact isometric matching map; zero sector matched, not gapped. | B1138 parent context ONLY; NEW transmission PROOF.md section3; tests/test_physical_bridge_surface_same_action_transmission.py::test_every_joint_principal_direction_and_zero_sector. No singular/cusp uniform gap, exterior state or global spectral count. |
+| All28 actual noncommuting-Higgs radial blocks preserve current and pass exact order2 transfer ODE/current tests with both W signs and kernel sectors retained. | B1138 parent context ONLY; NEW transmission PROOF.md section4; tests/test_physical_bridge_surface_same_action_transmission.py::test_every_charged_block_and_transfer_derivative. Symbolic current theorem precedes one jet control point, not a global Cauchy spectrum. |
+| Matched canonical charges and field-dependent-parameter corrections cancel; independent parameters may retain charge, and the local gauge multiplet is not projected out. | B1138 parent context ONLY; NEW transmission PROOF.md section5, credited source Gauss law; tests/test_physical_bridge_surface_same_action_transmission.py::test_current_parameter_and_frame_compensation. No edge deletion, selected SM phase or fresh all39 Gauss replay. |
+| Fixed-frame covariance requires the inhomogeneous connection; contractible-collar primitive descent and its variation telescope. | B1138 parent context ONLY; NEW transmission PROOF.md sections1/5; tests/test_physical_bridge_surface_same_action_transmission.py::test_current_parameter_and_frame_compensation. Not arbitrary dynamical frames, global topological/anomaly descent or new boundary dynamics. |
+| Smooth-cut reassembly with the SAME remote domains intertwines the operator and preserves its kernel/index, not generating chirality by bookkeeping. | B1138 parent context ONLY; NEW transmission PROOF.md section6 matching-trace H1 argument, credited R30/R89; tests/test_physical_bridge_surface_same_action_transmission.py::test_interface_is_not_an_earned_physical_end_or_SM and tests/test_physical_bridge_surface_same_action_transmission.py::test_full_real_graph_retains_gauge_multiplet are finite scope/trace safeguards, NOT independent analytic certification. Other physical domains/defects remain live. |
+
 October15 path-local research, no new shared arc or outside acceptance.
 Source physical-bridge surface_invariant_brackets_2026_10_14/PROOF and
 FINDINGS;4407/4407 exact at published repair02fddebb0. Live safeguards

@@ -1,5 +1,18 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October16 interface milestone: SAME-source smooth two-sided matching
+passes144/144each at4ced3ad81,269pins/tree/index unchanged. Full source
+momenta/primitives, real charged fields, existing local gauge multiplet
+and all joint principal directions retained. This is an artificial
+interface, NOT selection of a true physical end or generation index.
+ADMISSION_STATUS preserves existing full-based/orbifold/register/source
+maps. NEXT highest-value joint: GLOBAL stationary Higgs/connection in
+those actual bundles plus justified exterior/end state; then common
+charged domain, whole spectrum/norms/interactions/anomalies. No index
+from bookkeeping or another parent's three. Packet
+surface_same_action_transmission_2026_10_16. Full foundational physical
+SM/three/parameters/gravity ACTIVE; validation/outside debts separate.
+
 October16 ordering after the all-boson response: same-source55/55each
 at7ae6451c0 completes ALL TEN degree2boson equations, actual auxiliary/
 full Hessian/surface law and bounded outer variational benchmark.

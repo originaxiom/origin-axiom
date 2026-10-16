@@ -1,5 +1,17 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+October16 latest boundary joint:144/144each at4ced3ad81,269pins/tree/
+index unchanged. Actual SAME-source two-sided smooth transmission
+keeps charged/conjugate fields, source momenta/primitives and the known
+local gauge multiplet, with uniform joint principal matching. Not a
+true end selection or index-three construction. ADMISSION_STATUS in
+surface_same_action_transmission_2026_10_16 records existing based/
+orbifold/register/action maps and prices remaining choices. NEXT:
+GLOBAL stationary Higgs/connection in actual source bundles, justified
+exterior/end state, same-theory complete domain/spectrum/norms/vertices/
+anomalies, then physical three/parameters/gravity. Full goal ACTIVE;
+validation/nonauthor/full-suite/main debts remain distinct.
+
 October14 odd-domain form checkpoint:26 native/21 separate exact
 safeguards and64 selected live tests PASS46.50s at unchanged9d234b068,
 19 pins and12,567 tracked files. New AUTHORED CONDITIONAL extreme-law

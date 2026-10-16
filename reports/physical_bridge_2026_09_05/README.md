@@ -1,5 +1,17 @@
 # Physical bridge audit — 2026-09-05
 
+Latest October16: [same-action charged transmission](surface_same_action_transmission_2026_10_16/FINDINGS.md),
+144/144each at4ced3ad81,269pins/16,935tracked/index unchanged. Actual
+source momenta/primitives, complete real/Majorana/charged trace,
+all28 radial block types and the known local gauge multiplet survive
+smooth TWO-SIDED matching. Uniform joint principal matching passes;
+zero sector retained. This is an artificial seam, not a selected
+physical end or index-three mechanism. [Admission audit](surface_same_action_transmission_2026_10_16/ADMISSION_STATUS.md)
+credits existing full-based/orbifold/register/source maps and prices
+the next GLOBAL stationary Higgs/connection and true exterior/end
+state. No global SM/three/parameters/gravity claim; full goal ACTIVE.
+Science clean; LIVE/governance/outside/full-suite/main remain separate.
+
 Latest October16: [all boson responses and boundary benchmark](surface_all_boson_response_2026_10_16/FINDINGS.md).
 Both55/55 at published7ae6451c0, complete3,353,996byte records agree,
 259pins/16,887tracked/index unchanged. ALL TEN degree2boson equations,

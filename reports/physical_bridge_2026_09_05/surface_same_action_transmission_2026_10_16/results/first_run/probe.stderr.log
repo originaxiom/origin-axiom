@@ -1,0 +1,224 @@
+PASS same complete actual source dictionary
+PASS actual root compact metric and parity data
+PASS complete root Casimir polynomial not sampled character
+PASS all root Casimir projectors complete and orthogonal
+PASS root branching dimensions are coefficient dimensions
+PASS actual normalized triplet intertwines every root generator
+PASS all actual doublet maps and norms not only dimension match
+PASS actual root maps and singlet kernel resolve all248
+PASS full coefficient decomposition retains eta and compact conjugation
+PASS even and odd root kernels and doublets all retained
+PASS complete even centralizer basis not a selected commuting subset
+PASS centralizer membership criteria act on every basis column
+PASS all6241 retained gauge basis brackets close
+PASS actual compact nonabelian gauge interaction survives
+PASS nonabelian retained pair is actually compact real
+PASS retained gauge algebra is real and orthogonal to root background
+PASS computational spin label is Hermitian and complete
+PASS spin reduction holds on whole unit horizontal circle
+PASS full spin seed multiplicity 1
+PASS source spin isometry and all reduced generators (1, 1)
+PASS source spin isometry and all reduced generators (1, 2)
+PASS full spin seed multiplicity -1
+PASS source spin isometry and all reduced generators (-1, 3)
+PASS source spin isometry and all reduced generators (-1, 4)
+PASS source reconstruction is full16 not one computational sign
+PASS external Lorentz mixes computational signs and full radial law retains it
+PASS actual root Cartan plus R conserved including both Higgs vertices
+PASS full reduced symmetry and current (0, 1, 1)
+PASS small complete charged or neutral block (0, 1, 1, -1)
+PASS small complete charged or neutral block (0, 1, 1, 1)
+PASS full reduced symmetry and current (0, 1, -1)
+PASS small complete charged or neutral block (0, 1, -1, -1)
+PASS small complete charged or neutral block (0, 1, -1, 1)
+PASS full reduced symmetry and current (0, -1, 1)
+PASS small complete charged or neutral block (0, -1, 1, -1)
+PASS small complete charged or neutral block (0, -1, 1, 1)
+PASS full reduced symmetry and current (0, -1, -1)
+PASS small complete charged or neutral block (0, -1, -1, -1)
+PASS small complete charged or neutral block (0, -1, -1, 1)
+PASS full reduced symmetry and current (1, 1, 1)
+PASS wrong Cartan R sign detected (1, 1, 1)
+PASS small complete charged or neutral block (1, 1, 1, -2)
+PASS small complete charged or neutral block (1, 1, 1, 0)
+PASS small complete charged or neutral block (1, 1, 1, 2)
+PASS full reduced symmetry and current (1, 1, -1)
+PASS wrong Cartan R sign detected (1, 1, -1)
+PASS small complete charged or neutral block (1, 1, -1, -2)
+PASS small complete charged or neutral block (1, 1, -1, 0)
+PASS small complete charged or neutral block (1, 1, -1, 2)
+PASS full reduced symmetry and current (1, -1, 1)
+PASS wrong Cartan R sign detected (1, -1, 1)
+PASS small complete charged or neutral block (1, -1, 1, -2)
+PASS small complete charged or neutral block (1, -1, 1, 0)
+PASS small complete charged or neutral block (1, -1, 1, 2)
+PASS full reduced symmetry and current (1, -1, -1)
+PASS wrong Cartan R sign detected (1, -1, -1)
+PASS small complete charged or neutral block (1, -1, -1, -2)
+PASS small complete charged or neutral block (1, -1, -1, 0)
+PASS small complete charged or neutral block (1, -1, -1, 2)
+PASS full reduced symmetry and current (2, -1, 1)
+PASS wrong Cartan R sign detected (2, -1, 1)
+PASS small complete charged or neutral block (2, -1, 1, -3)
+PASS small complete charged or neutral block (2, -1, 1, -1)
+PASS small complete charged or neutral block (2, -1, 1, 1)
+PASS small complete charged or neutral block (2, -1, 1, 3)
+PASS full reduced symmetry and current (2, -1, -1)
+PASS wrong Cartan R sign detected (2, -1, -1)
+PASS small complete charged or neutral block (2, -1, -1, -3)
+PASS small complete charged or neutral block (2, -1, -1, -1)
+PASS small complete charged or neutral block (2, -1, -1, 1)
+PASS small complete charged or neutral block (2, -1, -1, 3)
+PASS all charged and root kernel blocks resolve full3968 coefficients
+PASS actual scalar supercharge is named lambda not equal rank only
+PASS all6 untraced internal gauge and Higgs gaugino currents vanish
+PASS external gauge and kinetic action preserves real lambda
+PASS normal gaugino boundary current zero for every internal normal
+PASS free normal response exact on nonzero background kernel
+PASS all local nonlinear mixed gauge sources vanish without abelianizing
+PASS retained regular gauge and lambda has zero normal response
+PASS reduced gauge kinetic volume factor positive not predicted
+PASS fresh complete80 root and actual source controls
+PASS fresh actual action: actual untraced D and all six G source equations
+PASS fresh actual action: all static raw auxiliary surface terms retained exactly
+PASS fresh actual action: all seven curvature components derived from source auxiliaries
+PASS fresh actual action: actual auxiliary elimination equals seven component potential
+PASS fresh actual action: full curvature calibration is explicit divergence not omission
+PASS fresh actual action: generic source boson Euler 0
+PASS fresh actual action: generic source boson Euler 1
+PASS fresh actual action: generic source boson Euler 2
+PASS fresh actual action: generic source boson Euler 3
+PASS fresh actual action: generic source boson Euler 4
+PASS fresh actual action: generic source boson Euler 5
+PASS fresh actual action: all six generic Hessians retain actual curvature term
+PASS fresh actual action: all four actual vector kinetic sectors and boundary primitives
+PASS fresh actual action: actual external Lorentzian source factor four all directions
+PASS fresh actual action: actual external quartic retained beyond quadratic response
+PASS source replay retains genuine auxiliary and calibration primitives
+PASS actual source normal momenta all fields direction 0
+PASS actual source normal momenta all fields direction 1
+PASS actual source normal momenta all fields direction 2
+PASS actual source normal momenta all fields direction 3
+PASS fresh raw fermion and calibration currents are nonempty
+PASS retained primitive cancels only under oriented matching auxiliary_b0
+PASS retained primitive cancels only under oriented matching auxiliary_b1
+PASS retained primitive cancels only under oriented matching auxiliary_d0
+PASS retained primitive cancels only under oriented matching auxiliary_d1
+PASS retained primitive cancels only under oriented matching calibration_n0
+PASS retained primitive cancels only under oriented matching calibration_n1
+PASS retained primitive cancels only under oriented matching calibration_n2
+PASS retained primitive cancels only under oriented matching calibration_n3
+PASS retained primitive cancels only under oriented matching fermion_b0
+PASS retained primitive cancels only under oriented matching fermion_b1
+PASS retained primitive cancels only under oriented matching fermion_d0
+PASS retained primitive cancels only under oriented matching fermion_d1
+PASS actual coefficient pairing is nontrivial positive and real
+PASS full source Hermitian and Majorana matched graph 0
+PASS same normal sign fails full source graph 0
+PASS full source Hermitian and Majorana matched graph 1
+PASS same normal sign fails full source graph 1
+PASS full source Hermitian and Majorana matched graph 2
+PASS same normal sign fails full source graph 2
+PASS full source Hermitian and Majorana matched graph 3
+PASS same normal sign fails full source graph 3
+PASS nonunitary matching and deletion of conjugates fail distinct controls
+PASS matched graph retains lambda and conjugates without one sided selection
+PASS all joint covectors actual principal Clifford identity
+PASS complementary two sided Cauchy projectors for every nonzero covector
+PASS uniform normalized matching isometry on joint decaying space
+PASS same decaying sign gives a nonzero false interface kernel
+PASS zero principal covector matched not inverted or deleted
+PASS gauge fixed boson and ghost principal transmission determinant
+PASS full charged kernel current identity block 0
+PASS finite transfer ODE and full current coefficients block 0
+PASS wrong transfer derivative fails actual ODE block 0
+PASS full charged kernel current identity block 1
+PASS finite transfer ODE and full current coefficients block 1
+PASS wrong transfer derivative fails actual ODE block 1
+PASS full charged kernel current identity block 2
+PASS finite transfer ODE and full current coefficients block 2
+PASS wrong transfer derivative fails actual ODE block 2
+PASS full charged kernel current identity block 3
+PASS finite transfer ODE and full current coefficients block 3
+PASS wrong transfer derivative fails actual ODE block 3
+PASS full charged kernel current identity block 4
+PASS finite transfer ODE and full current coefficients block 4
+PASS wrong transfer derivative fails actual ODE block 4
+PASS full charged kernel current identity block 5
+PASS finite transfer ODE and full current coefficients block 5
+PASS wrong transfer derivative fails actual ODE block 5
+PASS full charged kernel current identity block 6
+PASS finite transfer ODE and full current coefficients block 6
+PASS wrong transfer derivative fails actual ODE block 6
+PASS full charged kernel current identity block 7
+PASS finite transfer ODE and full current coefficients block 7
+PASS wrong transfer derivative fails actual ODE block 7
+PASS full charged kernel current identity block 8
+PASS finite transfer ODE and full current coefficients block 8
+PASS wrong transfer derivative fails actual ODE block 8
+PASS full charged kernel current identity block 9
+PASS finite transfer ODE and full current coefficients block 9
+PASS wrong transfer derivative fails actual ODE block 9
+PASS full charged kernel current identity block 10
+PASS finite transfer ODE and full current coefficients block 10
+PASS wrong transfer derivative fails actual ODE block 10
+PASS full charged kernel current identity block 11
+PASS finite transfer ODE and full current coefficients block 11
+PASS wrong transfer derivative fails actual ODE block 11
+PASS full charged kernel current identity block 12
+PASS finite transfer ODE and full current coefficients block 12
+PASS wrong transfer derivative fails actual ODE block 12
+PASS full charged kernel current identity block 13
+PASS finite transfer ODE and full current coefficients block 13
+PASS wrong transfer derivative fails actual ODE block 13
+PASS full charged kernel current identity block 14
+PASS finite transfer ODE and full current coefficients block 14
+PASS wrong transfer derivative fails actual ODE block 14
+PASS full charged kernel current identity block 15
+PASS finite transfer ODE and full current coefficients block 15
+PASS wrong transfer derivative fails actual ODE block 15
+PASS full charged kernel current identity block 16
+PASS finite transfer ODE and full current coefficients block 16
+PASS wrong transfer derivative fails actual ODE block 16
+PASS full charged kernel current identity block 17
+PASS finite transfer ODE and full current coefficients block 17
+PASS wrong transfer derivative fails actual ODE block 17
+PASS full charged kernel current identity block 18
+PASS finite transfer ODE and full current coefficients block 18
+PASS wrong transfer derivative fails actual ODE block 18
+PASS full charged kernel current identity block 19
+PASS finite transfer ODE and full current coefficients block 19
+PASS wrong transfer derivative fails actual ODE block 19
+PASS full charged kernel current identity block 20
+PASS finite transfer ODE and full current coefficients block 20
+PASS wrong transfer derivative fails actual ODE block 20
+PASS full charged kernel current identity block 21
+PASS finite transfer ODE and full current coefficients block 21
+PASS wrong transfer derivative fails actual ODE block 21
+PASS full charged kernel current identity block 22
+PASS finite transfer ODE and full current coefficients block 22
+PASS wrong transfer derivative fails actual ODE block 22
+PASS full charged kernel current identity block 23
+PASS finite transfer ODE and full current coefficients block 23
+PASS wrong transfer derivative fails actual ODE block 23
+PASS full charged kernel current identity block 24
+PASS finite transfer ODE and full current coefficients block 24
+PASS wrong transfer derivative fails actual ODE block 24
+PASS full charged kernel current identity block 25
+PASS finite transfer ODE and full current coefficients block 25
+PASS wrong transfer derivative fails actual ODE block 25
+PASS full charged kernel current identity block 26
+PASS finite transfer ODE and full current coefficients block 26
+PASS wrong transfer derivative fails actual ODE block 26
+PASS full charged kernel current identity block 27
+PASS finite transfer ODE and full current coefficients block 27
+PASS wrong transfer derivative fails actual ODE block 27
+PASS all28 blocks and3968 source coefficient directions retained
+PASS opposite source charges cancel only after full matching canonical_charge
+PASS opposite source charges cancel only after full matching parameter_correction
+PASS independent gauge parameters retain possible surface charge
+PASS existing interacting gauge sector has nonzero bracket and admits constants
+PASS tilted normal spin frame and full reality covariant
+PASS actual puncture transition preserves metric reality and both side graph
+PASS inhomogeneous frame connection necessary for covariant transmission
+PASS retained primitive descent and its variation telescope not vanish separately

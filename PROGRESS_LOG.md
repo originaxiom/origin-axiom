@@ -20648,3 +20648,38 @@ in governance_repaired and VALIDATION. First3reported failures unchanged
 not full untruncated debt audit;42stale/173open, review626. No gate/
 baseline/raw-data waiver. Post-check reports not back-certified;259science
 pins separately rechecked. No full-suite/nonauthor/global acceptance.
+
+## 2026-10-16 — Same-action charged transmission and admission audit
+
+Own audit/physical-bridge-2026-09-05. Pre-run4ced3ad81443ecede85f0c361b9720be9e10b225
+committed/pushed/exact server confirmed BEFORE scientific import.
+Native144/14423.936937s; reference144/14422.876726s. Complete240,856byte
+records agree SHA2564a1a5b651b6c4037b90a21a9e55e224e4e3fcf16d23d1f1c8c75806a92c0a2d1;
+269pins/16,935tracked/index unchanged. Full raw/before/after receipts
+in surface_same_action_transmission_2026_10_16/results/first_run.
+Fresh80root controls and15 source identities included in each producer,
+not extra independent discoveries or a new all39/all55 rerun. No failed
+science run or post-result scientific repair; methods share author.
+
+Actual source normal momenta,12 nonzero primitive entries, full real/
+Majorana/charged trace and all28 noncommuting-Higgs radial block types
+pass smooth two-sided matching. Joint principal transmission has an
+exact isometry for every nonzero covector, zero sector retained. Gauge
+charges and field-dependent-parameter correction cancel only under
+matched data; known local interacting gauge multiplet is not removed.
+Wrong-normal/nonunitary/conjugate/primitive/transfer/parameter/frame
+controls bite. Standard Bär--Ballmann transmission/R30/R89 credited,
+not new literature. An artificial seam does not generate chirality or
+select a physical true end/exterior. Old one-sided wall stays failed.
+
+Current GENESIS v1.47 personally read through end, server mainf798b2368/
+SMf3255c108/chat1fc15550e0 fetched unchanged. ADMISSION_STATUS credits
+existing based/orbifold/register/source maps and exposes conditional
+parent/metric/field/end inputs, without repeating old absence claims.
+NEXT GLOBAL stationary SAME-source Higgs/connection in actual bundles
+plus justified true exterior/end state, then complete charged domain/
+roster/norms/vertices/anomalies/three/parameters/gravity. All sublemmas,
+leads, identification scope and sender relay registered; no B/I change,
+cross-parent counts/masses/gaps, receiver acceptance or qualia claim.
+Full original physical goal ACTIVE. LIVE/governance follows; four
+inherited debts and nonauthor/full-suite/main duties remain separate.

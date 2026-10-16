@@ -1,5 +1,18 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October16 SAME-action smooth interface sub-duty POSITIVE:144/144each
+at4ced3ad81,269pins/tree/index unchanged. Actual source momenta/raw
+primitives, full real/conjugate/charged trace, local interacting gauge
+multiplet and uniform joint principal matching retained. No true end
+or generation index selected; not a global exterior, singular/cusp
+uniform bound or stationary Higgs theorem. ADMISSION_STATUS credits
+existing full-based/orbifold/register/source maps, not an old absence.
+NEXT GLOBAL stationary SAME-source Higgs/connection and justified true
+exterior/end state, then whole charged domain/roster/norms/vertices/
+anomalies. Physical SM/three/parameters/gravity ACTIVE. Report/NEXT in
+surface_same_action_transmission_2026_10_16; outside/full-suite/main
+and four inherited governance debts remain separate, not waived.
+
 October16 update: the SAME-source all-boson degree2sub-duty is POSITIVE,
 55/55each at7ae6451c0,259pins/16,887tracked/index unchanged. Actual
 auxiliaries, generic full Hessian and calibration/raw primitives now
