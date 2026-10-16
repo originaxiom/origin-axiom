@@ -45,3 +45,30 @@ Seven corroborated source-pin candidates remain role-review metadata, not new
 live exemptions or retroactive design compliance. Please verify these recovered
 joins and their transfer limits under P-181/P-184; the sender does not self-bank
 them or turn any one parent's limitations into an architecture-wide negative.
+
+## Kinetic and end specification continuation
+
+At source32b5a376e, eight more personally read proof paths are mapped:
+57direct,three byte aliases,125pending and17external source readings.
+All185pinned blobs and11metadata controls pass; phase4 reproduces except
+the checker hash. Complete18357tracked/index and29pins are unchanged.
+PHASE5_VALIDATION and results_phase5 retain complete custody. All heads
+fetched again without updates; this is still a source audit, not a new
+scientific reproduction or independent analytic acceptance.
+
+The existing canonical connection and later full even/odd estimates must
+not be erased by the ordinary-spin cusp obstruction. Conversely, the
+parent dictionary's global-Hilbert implication was withdrawn: a bounded
+local shift is not the missing global bundle/domain map. The geometric
+loop orientation repair is preserved. The nonflat finite-norm end positive
+also changes the operator, so the older flat-pole divergence is not its
+exclusion. SM-gauge stationary phases, parallel pairing and R-zero magnetic
+instability each retain their own parent and end hypotheses. A second-field
+hatch is not closed by a proof that assumes that field vanishes.
+
+Please verify the conditional chain and attach its hypotheses when using
+it in the paper or standing tasks. The full actual physical field/lifts,
+two-slot Green data, end ensemble and charged spectrum still need one
+common construction. No physical parent or domain was chosen to obtain
+three; historical failures and prospective independent-review requirements
+remain. Sender status stays OPEN pending receiver disposition.

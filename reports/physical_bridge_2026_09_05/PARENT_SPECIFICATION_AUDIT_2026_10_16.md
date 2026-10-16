@@ -14,7 +14,27 @@ different operators, metrics or boundary models. Common native properties
 and alternative physical realizations need separate entries. A failure
 of one realization does not discharge or refute the others.
 
-## Population and coverage
+## Current coverage and next derivation duty
+
+The verified phase5 reconciliation at source 32b5a376e records 57 directly
+read and property-mapped proof paths, three byte-identical aliases and
+125 pending paths among the original 185. All pinned blobs and eleven
+metadata controls pass; 17 external dependency readings are recorded.
+[Phase5 validation](specification_audit_2026_10_16/PHASE5_VALIDATION.md)
+preserves the source envelope and earlier reconciliations. These are
+source-reading counts, not independently accepted proofs or complete
+packet re-audits. The staged publication check is a separate envelope.
+
+[Kinetic and end specification](KINETIC_AND_END_SPECIFICATION_2026_10_16.md)
+recovers existing canonical spectral estimates, finite-norm nonflat ends
+and stationary SM-gauge phases, with their supplied parents and scoped
+pairing/instability results. The actual physical field, global lifts,
+two-slot Green trace and admissible end ensemble must belong to one
+construction before its charged index can be interpreted physically.
+Historical and findings-only coverage remains incomplete; no universal
+absence or architecture-wide exclusion follows from this population.
+
+## Population and coverage history
 
 The initial machine inventory is
 [specification_inventory.json](specification_audit_2026_10_16/specification_inventory.json).

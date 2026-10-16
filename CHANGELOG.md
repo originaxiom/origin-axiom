@@ -1,5 +1,14 @@
 # Changelog
 
+Phase5 source32b5a376e verified:11metadata controls/all185pinned blobs PASS;
+57direct source/property mappings,three checked byte aliases,125pending and
+17external readings. Phase4 output unchanged except checker hash;18357tracked/
+index and29pins unchanged. Complete captures/lossless states/custody retained.
+Canonical spectral/nonflat-end/SM-gauge positives and dated repairs preserved,
+parallel/magnetic negatives scoped; no new science or physical index. Existing
+OPEN main relay extended. Historical governance and independent-review duties
+remain; staged publication check separate, full goal ACTIVE/unachieved.
+
 Phase5 source prepared under design a53ad468e: eight pending proofs now
 property-mapped with complete phase4 carry, three aliases retained;57direct/
 125pending still await185-blob reconciliation. Reconciler adds only the

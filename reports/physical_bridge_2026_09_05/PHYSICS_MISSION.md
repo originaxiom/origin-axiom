@@ -1,5 +1,15 @@
 # Approved physics mission and execution criteria
 
+Verified phase5 source32b5a376e maps57proof paths directly,three aliases
+separately,125pending;17external readings. All185pinned blobs/11metadata
+controls PASS and phase4 reproduces except checker hash;18357tracked/index
+and29pins unchanged. KINETIC_AND_END_SPECIFICATION recovers canonical even/
+odd estimates, nonflat finite-norm ends and conditional SM-gauge phases.
+Do not transfer an ordinary-spin negative to a distinct kinetic realization
+or a bosonic index to physical generations. Physical parent/global lifts/
+two-slot trace/end admission remain duties. PHASE5_VALIDATION preserves
+the evidence; no new science, global green or independent acceptance.
+
 Critical-trace/end source intake after chat1 64460af62 recovers existing
 pole-spin cancellation: smooth positive vertical trace carries local L6,
 not the cocycle six with different central-inner action. Actual full two-slot

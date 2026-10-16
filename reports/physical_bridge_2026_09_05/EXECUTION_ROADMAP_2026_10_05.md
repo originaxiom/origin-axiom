@@ -1,5 +1,15 @@
 # Common-model physics campaign: execution record
 
+Phase5 source32b5a376e verified:57direct proof/property mappings,three byte
+aliases,125pending; all185blobs and11metadata controls PASS. Phase4 result
+unchanged except checker hash;18357tracked/index and29pins unchanged.
+KINETIC_AND_END_SPECIFICATION preserves canonical spectral/nonflat-end
+positives, dated repairs and scoped magnetic/parallel negatives. Actual
+physical field, full critical trace and admitted end ensemble remain the
+target; no new scientific producer or independently accepted physical index.
+PHASE5_VALIDATION has complete custody; historical governance failures and
+independent prospective-review duty remain. Full SM/three/gravity unachieved.
+
 Phase4 source d82351525:49direct/three byte aliases/133pending after eight
 action/parent proof mappings. Eleven metadata controls and185pinned blobs PASS,
 phase3 output unchanged except checker hash; original science untouched. See

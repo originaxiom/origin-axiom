@@ -21256,3 +21256,18 @@ full verification. New KINETIC_AND_END_SPECIFICATION records physical
 parent/twist, global-map, field-degree and end-ensemble transfer duties.
 Source pins sealed before controls; no scientific producer execution,
 selected field/normalization, global green or independent acceptance.
+
+Phase5 source32b5a376e controls completed before publication: seven carry
+and four byte-alias controls PASS; full185-blob reconciliation gives57direct
+source/property mappings,three aliases,125pending and17external readings.
+All18357tracked/index and29pins identical before/after. Phase4 successor
+differs only by checker hash. Complete original captures, lossless state
+inventories and receipts preserved in results_phase5; PHASE5_VALIDATION
+records scope and exact timings. New publisher is post-run custody tooling,
+not retroactive scientific design or independent acceptance. Current front
+doors and existing OPEN action/boundary relay updated; all seats fetched
+again without updates. Canonical spectral, finite-norm nonflat and SM-gauge
+positives retained with dated repairs and restricted instability/pairing
+negatives. Actual physical field/lifts/two-slot trace/end and full charged
+spectrum remain. No new scientific producer or goal-completion claim;
+staged governance publication check follows separately, failures retained.
