@@ -1,0 +1,106 @@
+\section{Introduction}\label{sec:intro}
+
+\paragraph{The question.}
+Why is there something rather than nothing, and why this something? We do not answer either half. We ask a narrower
+question that can be answered: if existence is taken to be the minimal thing that is not nothing, what does that
+minimum force, and what does it leave free? The answer has two halves. Structure is forced. The ``which'' is not:
+every number that would single out our world has to be supplied. We locate each of those numbers, and we price each
+thing we assume.
+
+\paragraph{The principle.}
+We start from one sentence: \emph{existence is what remains when cancelling to nothing cannot complete}. We read it as
+a grammar of records.
+\begin{itemize}
+\item Two integers $(a,b)$ are acted on by two unit moves, $L:(a,b)\mapsto(a,a+b)$ and $R:(a,b)\mapsto(a+b,b)$, and
+  by their pull-backs $L^{-1}$ and $R^{-1}$.
+\item The non-cancellation is a commutator. The two two-step words $LR$ and $RL$ generate the commutator subgroup of
+  $\SL(2,\Z)$, the fundamental group of a once-punctured torus. Their commutator, the two steps followed by their two
+  pull-backs, does not return to the start: its trace is $-2$, and the attempt to cancel lands on the puncture, with a
+  sign (Proposition~\ref{prop:sign}).
+\item A closed path of the moves is a \emph{thread}: a hyperbolic conjugacy class of $\SL(2,\Z)$, a closed geodesic on
+  the modular surface. The first such path that mixes the records is $A=LR$, the monodromy of the figure-eight knot's
+  complement. Under four stated inputs it is unique (Theorem~\ref{thm:seed}).
+\end{itemize}
+We do not study one thread. We study all of them at once, the joint action of the moves on the records, which we call
+the \emph{weave}. Every result below is a statement about the weave, or is marked as a statement about one thread.
+
+\paragraph{What is forced, and what holds given inputs.}
+\begin{enumerate}
+\item \textbf{A flavour triplet} (\S\ref{sec:weave}). The moves permute the records' three non-zero parities as
+  $S_3$, on every thread. The odd-trace threads receive the binary tetrahedral group $2T$ at the threads' common
+  point, acting irreducibly on the three parity lines: proved for the words to length six, a census law to length eight,
+  open beyond.
+\item \textbf{The triplet is modular} (\S\ref{sec:modular}). The moves' action on the triplet is the multiplier of
+  $\eta^{21}(\theta_2^2,\theta_3^2,\theta_4^2)$: the weight-one theta triplet of $\Gamma(4)$, the triplet of modular
+  flavour models~\cite{NovichkovPenedoPetcov2021}, twisted by a character of $\eta$ and up to a monomial intertwiner.
+  Up to a stated choice of hand and a power of the eta character, the grammar's symmetry is a classical modular
+  symmetry.
+\item \textbf{One generation is massless at leading order} (\S\ref{sec:couplings}). On the fibre, given the triplet
+  postulate, the zero modes' pairing triplet is isotropic at every point (Jacobi's
+  $\theta_3^4=\theta_2^4+\theta_4^4$), so every single-point coupling has a two-sided null vector. The statement is
+  frame-dependent, and we say where it fails. The hierarchy of the other two is the coupling's distance from the isotropic cone.
+\item \textbf{The masses factor through two defects} (Theorem~\ref{thm:joint}). In the twisted frame the coupling's
+  determinant and adjugate factor exactly:
+  \[
+    \det Y = 4\det S\,\det M\,\tr(\epsilon S M^{T}),\qquad
+    \adj Y = \det S\,A(M)+\det M\,P\,A(S).
+  \]
+  The product of the masses factors through the Higgs's defect, the matter's defect and their pairing; the masses are
+  the roots of a cubic whose other two coefficients are norms of the coupling.
+\item \textbf{A chiral index $\pm3$, given its inputs} (\S\ref{sec:three}). With the triplet postulate, one unit at the
+  cusp and an extreme boundary domain, on $M_{1,2}$ read as the weave's surface, the four-dimensional index is $\pm3$. The
+  $3$ is the postulated triplet's dimension, and a domain respecting the weave's symmetry allows $\pm1$ as well.
+\end{enumerate}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.92\linewidth]{figures/fig_chain}
+\caption{The chain and its prices: what is forced (green), what is stated (orange), what holds given its inputs (blue),
+and what is open (grey). Inputs enter from the right. A drawn schematic of Table~\ref{tab:inputs}.}\label{fig:chain}
+\end{figure}
+
+\paragraph{What is not.}
+The same structure fixes none of the Standard Model's thirteen flavour numbers (\S\ref{sec:boundary}). The boundary
+is as sharp as the forced half:
+\begin{itemize}
+\item in the frames where the inner automorphisms act, no residual subgroup of the weave's group fixes a mass or the
+  mixing;
+\item every frame on record fails one of the principle's demands;
+\item a sealed census finds that one Higgs at the symmetric point $\tau=\omega$ reproduces the five non-electron mass
+  ratios on none of the admissible lines. The miss is the down--lepton ratio $(m_\mu/m_\tau)/(m_s/m_b)$, which the
+  data put at $3.14$;
+\item whatever chooses the numbers is not a symmetry, although it acts at one.
+\end{itemize}
+
+\paragraph{The motion.}
+The grammar's states move. A random walk of steps and pull-backs escapes at a positive rate: for equal weights by the
+theorems of Kesten and Furstenberg, and at the other weights as measured. Three sealed tests read that motion; two of
+them are scoreboards, computed after earlier read-outs had been seen.
+\begin{itemize}
+\item The pull-back's strength sets which end the motion reaches and how fast, but not the defect it averages.
+\item Averaged trace by trace, the threads approach the modular surface's constant mode ($0.3144$ at the largest
+  traces against $0.31500491$, the gap shrinking as $t^{-0.51}$): the weave side of the trace formula comes out where
+  the wave side says.
+\item The matter amplitude carries the Higgs's character, so its coherent average favours the cusp, not the shortest
+  thread.
+\end{itemize}
+These are statements about the mathematics of the motion. We do not claim the motion is physical.
+
+\paragraph{The record.}
+The computations are archived in a public repository~\cite{OriginAxiomRepo}. A label such as B1659 names one
+computation there (an \emph{arc}), with its preregistration, instrument, output and \emph{lock}, a test in the
+repository's suite that fails if the result changes. A \emph{scoreboard} is a result computed on data that were already
+seen, and is called so. A \emph{tagged} input is a working postulate whose results carry the word ``given''. The
+program's \emph{seats} are parallel lines of work on the same record; their cross-checks are internal to the program, not
+external review.
+
+\paragraph{The price.}
+Every input is stated in Table~\ref{tab:inputs}, with what it buys and what would discharge it: the principle, the
+grammar and the root's two conditions, one adopted reading, three choices, two tagged postulates, one reading of the
+weave's surface, and the identifications that turn structure into physics. No value of the Standard Model is derived:
+none of its nineteen parameters. We built the computations as sealed tests: each preregistered,
+run once per sealed version, and its output committed before it was read. The paper keeps its failures, including two failed gates of our own (\S\ref{sec:methods}).
+
+\reading{The principle asks for something that cannot cancel. The grammar's answer is a motion: steps and their
+pull-backs that never settle. The structure that motion carries is forced. What it leaves free is the choice of a
+world.}

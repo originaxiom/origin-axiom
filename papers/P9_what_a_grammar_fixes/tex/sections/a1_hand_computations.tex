@@ -1,0 +1,64 @@
+\section{Three hand computations}\label{app:hand}
+
+Each computation below is short enough to check by hand.
+
+\paragraph{Conventions.} The records $(a,b)$ are a row vector. The moves are the matrices
+\[
+L=\begin{psmallmatrix}1&1\\0&1\end{psmallmatrix},\qquad R=\begin{psmallmatrix}1&0\\1&1\end{psmallmatrix},
+\]
+acting on the right: $(a,b)L=(a,a+b)$ and $(a,b)R=(a+b,b)$. On the upper half-plane they act by Möbius
+transformations, $L:\tau\mapsto\tau+1$ and $R:\tau\mapsto\tau/(\tau+1)$. These are the matrices of the record's locks.
+
+\subsection{Jacobi isotropy}
+
+The theta triplet of Section~\ref{sec:couplings} is
+$\rho=(-\theta_2^2,\,-\theta_4^2,\,i\theta_3^2)/(2\pi\eta^3)$, with $\theta_r=\theta_r(0,\tau)$, paired by the form
+$x\cdot x=x_1^2+x_2^2+x_3^2$. Then
+\[
+  \rho\cdot\rho=\frac{\theta_2^4+\theta_4^4-\theta_3^4}{(2\pi\eta^3)^2}=0
+\]
+by Jacobi's identity $\theta_3^4=\theta_2^4+\theta_4^4$~\cite{WhittakerWatson1927}, so $\rho$ is isotropic.
+
+Hence for a single-point coupling $Y(a)=a\rho^T+\rho a^T-(a\cdot\rho)\mathbb 1$,
+\[
+  Y(a)\rho=(\rho\cdot\rho)\,a+(a\cdot\rho)\,\rho-(a\cdot\rho)\,\rho=0,
+\]
+and likewise $\rho^TY(a)=0$. The theta triplet is a two-sided null vector: one generation is massless at leading
+order (Theorem~\ref{thm:isotropy}).
+
+\subsection{The commutator and the sign}
+
+Take $A=LR=\begin{psmallmatrix}2&1\\1&1\end{psmallmatrix}$, the root, and
+$B=RL=\begin{psmallmatrix}1&1\\1&2\end{psmallmatrix}$. Then
+\[
+  ABA^{-1}B^{-1}=\begin{pmatrix}-7&6\\-6&5\end{pmatrix},\qquad \tr=-2 .
+\]
+The matrix is $-U$ with $U=\begin{psmallmatrix}7&-6\\6&-5\end{psmallmatrix}$ unipotent ($\tr U=2$, $U\neq\mathbb 1$). Changing
+the sign of $A$ or of $B$ does not change the commutator. The attempt to cancel, two steps followed by their
+pull-backs, lands on the cusp with the sign.
+
+The sign is also a power of each balance-point rotation:
+\[
+  LR^{-1}L=\begin{pmatrix}0&1\\-1&0\end{pmatrix},\qquad (LR^{-1}L)^2=-\mathbb 1;\qquad
+  L^{-1}R=\begin{pmatrix}0&-1\\1&1\end{pmatrix},\qquad (L^{-1}R)^3=-\mathbb 1 .
+\]
+$LR^{-1}L$ fixes $i$ and $L^{-1}R$ fixes $\omega=e^{2\pi i/3}$. Neither can be written with $L$ and $R$ alone: a
+determinant-one matrix with non-negative entries has trace $2$ or at least $3$, never $0$ or $\pm1$, and is never
+$-\mathbb 1$.
+
+\subsection{The multiplier of $D$ on the moves}
+
+The matter's defect $D$ has weight $-1$ and the multiplier $\chi$ of $\eta^6$ (Lemma~\ref{lem:automorphy}). From
+$\eta(\tau+1)=e^{2\pi i/24}\eta(\tau)$ and $\eta(-1/\tau)=\sqrt{-i\tau}\,\eta(\tau)$:
+\[
+  \eta^6(\tau+1)=i\,\eta^6(\tau),\qquad \eta^6(-1/\tau)=(-i\tau)^3\eta^6(\tau)=i\,\tau^3\eta^6(\tau).
+\]
+So $\chi(L)=i$ for $L:\tau\mapsto\tau+1$, and $\chi(S_0)=i$ for $S_0=\begin{psmallmatrix}0&-1\\1&0\end{psmallmatrix}$.
+
+The second move is $R=S_0L^{-1}S_0^{-1}$. To check:
+$S_0L^{-1}=\begin{psmallmatrix}0&-1\\1&-1\end{psmallmatrix}$, and multiplying by $S_0^{-1}=\begin{psmallmatrix}0&1\\-1&0\end{psmallmatrix}$
+gives $\begin{psmallmatrix}1&0\\1&1\end{psmallmatrix}=R$. Since $\chi$ is a character, $\chi(R)=\chi(L)^{-1}=-i$.
+
+A thread whose word has $\#L$ letters $L$ and $\#R$ letters $R$ therefore has $\chi=i^{\#L-\#R}$: the period phase of
+Theorem~\ref{thm:phase}. The record's numerical checks of $D$'s law at $L$, $R$, $S_0$ and $L^{-1}R$ (to $10^{-30}$)
+agree.

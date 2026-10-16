@@ -1,5 +1,5 @@
 {
- "measured_at_main_head": "e68a87550",
+ "measured_at_main_head": "562882d15",
  "main_root": "517783f2",
  "lanes": [
   {
@@ -197,8 +197,8 @@
   {
    "ref": "origin/audit/physical-bridge-2026-09-05",
    "branch": "physical-bridge-2026-09-05",
-   "commits_total": 3437,
-   "commits_unique_vs_main": 582,
+   "commits_total": 3443,
+   "commits_unique_vs_main": 588,
    "merge_base": "8f83b5c8",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -304,7 +304,7 @@
   }
  ],
  "lanes_with_unique_work": 20,
- "total_unique_commits_across_lanes": 3155,
+ "total_unique_commits_across_lanes": 3161,
  "same_repository_lanes": 19,
  "every_same_repo_lane_shares_mains_root": true,
  "every_same_repo_lane_has_a_merge_base": true,

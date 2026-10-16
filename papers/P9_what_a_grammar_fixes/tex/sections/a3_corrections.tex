@@ -1,0 +1,32 @@
+\section{The corrections ledger}\label{app:corrections}
+
+The ledger lists corrections relevant to the paper's claims, with the class of error, what was repaired and the rule that
+follows. It is a selection from the repository's error ledger and is not complete. The classes are named by the ledger's
+codes:
+\begin{itemize}
+\item E65: a frame or a reading adopted before the fact that decides it has been computed;
+\item E74: a preregistered rule that is itself mis-derived and then binds;
+\item E80: a verification rooted outside the repository;
+\item E82: a criterion that cannot fail on its domain, presented as a test.
+\end{itemize}
+All dates are in 2026.
+
+\begin{table}[h]
+\centering\footnotesize
+\begin{tabularx}{\linewidth}{lllXX}
+\toprule
+arc & class & found & what happened and the repair & rule \\
+\midrule
+B1604 and others & E82 & internal audit, Oct.\ 15 & a lock ended in \texttt{or True}, and cells that could not fail were shown as tests; the lock now asserts the twenty threads' tiers, and B1655 lists the cells & a cell that cannot fail is sealed as an identity; a lock ends in a clause that can fail \\
+B1620 & scoping & Oct.\ 9 & the first row said ``the TM type'' under the first two tensors; corrected in B1625 (TM1 under $\bar T\otimes T$ only, TM2 under $T\otimes T$) & state the tensor with the type \\
+B1637 & evaluator & internal audit & near-cusp fits were artifacts of the evaluator; withdrawn; the re-run on an accurate evaluator is owed & no figure from B1637's data until the re-run \\
+B1654 & E80 & periodic review, Oct.\ 16 & four review helpers read the instrument by an absolute path outside the repository; the repair note recast in the seal check's form and the files named & a repair to a sealed file is recorded in the seal check's form the same day \\
+B1660 & E65 & Oct.\ 16 & a read-out narrowed before it was computed (an ``obstruction'' and a ceiling that post-seal checks did not find); verdict line corrected, findings repaired & compute the reach before naming an obstruction; separate pass criteria from expectations \\
+B1664 & E74 & its own run & the gate failed on the instrument's cut-off (D set to zero above height 50; 593 of 30\,674 threads); recorded as open & try the guard's region in the smoke test \\
+B1665 & E74 & its own run & the repair moved the start to D's other zero ($\omega$); 22 threads; recorded as open & never take a ratio at one point of a function with zeros; review every re-seal \\
+B1666 & repair & review before the seal & a least-squares period phase over two periods; checked on about 2900 threads before the seal (worst error $1.1\times10^{-7}$), the gate set at $10^{-5}$ on that measurement; the sealed run met it on all 30\,674 & as above \\
+B1421 & stale lock & full suite, Oct.\ 16 & the lock asserted 8 irreducible sources, the ledger's price is $4+9=13$; the lock asserts the live ledger & run the full suite after a ledger change \\
+\bottomrule
+\end{tabularx}
+\caption{This paper's corrections, drawn from the repository's error ledger.}\label{tab:corrections}
+\end{table}

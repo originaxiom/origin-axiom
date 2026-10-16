@@ -1,5 +1,16 @@
 # Changelog
 
+## S140 THE PAPER IN THE REPOSITORY, AND THE SEATS ASKED TO SCRUTINISE IT (the owner's request; P-186)
+
+- **The paper's sources at `papers/P9_what_a_grammar_fixes/`** (draft 3, 36 pp.). The tree holds the LaTeX, the
+  bibliography, one script per figure (the data figures check the record's outputs by hash), the commutator-subgroup
+  check, `build.sh` and the built PDF. The sources were moved from the draft room at the owner's word ("keep them in the
+  source in the repo"). From now on the repository copy is the source. Appendix A2's statement updated.
+- **Relay to every seat:** a hostile read of the paper, with each seat's sections named. The paper waits for the three
+  reads before anything leaves the program.
+- **P-169 sharpened by B1667:** in the fibre frame, the continuous inputs left are τ and the Higgs. B1660 stays NEGATIVE
+  a fortiori under the canonical end.
+
 ## S139 THE CANONICAL CUSP (B1667, PROVED; P-185) and the seats' afternoon harvested
 
 - **B1667, the canonical cusp** (sealed `ca1c08efb`; PROVED as sealed, a census informed by neighbours;

@@ -17250,3 +17250,17 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   P-184 note; P-185 registered and done; FLOOR 185.
 - **PRACTICES** (`e43df9a79`): the window's practices of B1654–B1666.
 - Landing suite: gates 45 of 45; 186 files, 2360 passed, 0 failed, 6 skipped (12:29, -n 8); R64-10's two BLAS-dependent locks (B186, B616) left out by name. 0 of 19.
+
+## 2026-10-16 — S140 THE PAPER IN THE REPOSITORY (P-186)
+
+- **The owner's word.** "Keep them in the source in the repo, the paper. Send me pdf to see it. You should also ask all
+  other seats to scrutinize."
+- **The sources** are at `papers/P9_what_a_grammar_fixes/`: tex, refs, figures, figure scripts, checks, `build.sh`, the
+  built PDF and a README. The tree builds from its new home: 36 pages, no undefined references. Appendix A2 now says the
+  sources are in the repository, with a tagged release and archival snapshot at submission. The PDF was sent to the
+  owner.
+- **The relay** `CC_TO_ALL_SEATS_2026-10-16_SCRUTINISE_THE_PAPER.md` asks every seat for a hostile read: scope, numbers
+  against the arcs, attribution, conventions, the weakest point. Each seat's sections are named, and the web seat is
+  asked to check the paper's phase and commutator conventions against its own. RELAY_LEDGER row OPEN.
+- **P-186** registered and done; FLOOR 186. **P-169** is sharpened by B1667.
+- Landing suite: gates 45 of 45; 191 files (the tree-scanning locks added), 2390 passed, 0 failed, 6 skipped (18:13, -n 8; the first run was cut by a restart at 96% and re-run in full). 0 of 19.

@@ -1,0 +1,61 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{graphicx,booktabs,tabularx,xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{cleveref}
+\usepackage[framemethod=default]{mdframed}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{censuslaw}[theorem]{Census law}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+% A reading: what a result means for the idea. Marked, and never a claim.
+\newmdenv[linecolor=gray!60,backgroundcolor=gray!6,linewidth=0.6pt,innertopmargin=6pt,innerbottommargin=6pt]{readingbox}
+\newcommand{\reading}[1]{\begin{readingbox}\small\textbf{Reading.}\ #1\end{readingbox}}
+
+\newcommand{\SL}{\mathrm{SL}}
+\newcommand{\PSL}{\mathrm{PSL}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Hb}{\mathbb{H}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\adj}{\operatorname{adj}}
+
+\title{What a grammar of records fixes: a modular flavour triplet,\\ its couplings, and the boundary of what it leaves free}
+\author{origin-axiom}
+\date{Draft 3 (internal), \today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\input{sections/abstract}
+\end{abstract}
+
+\input{sections/s01_introduction}
+\input{sections/s02_grammar_seed}
+\input{sections/s03_weave}
+\input{sections/s04_modular}
+\input{sections/s05_couplings}
+\input{sections/s06_chiral_three}
+\input{sections/s07_boundary}
+\input{sections/s08_selection}
+\input{sections/s09_methods}
+\input{sections/s10_essay}
+
+\appendix
+\input{sections/a1_hand_computations}
+\input{sections/a2_verification}
+\input{sections/a3_corrections}
+
+\bibliographystyle{unsrt}
+\bibliography{refs}
+\end{document}
