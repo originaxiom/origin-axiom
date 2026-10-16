@@ -1,0 +1,67 @@
+PASS fresh geometric329 and32 controls with complete records
+PASS credited complete real action record hash
+PASS credited all local covariant coefficient tensors
+PASS complete coordinate or exterior geometry input
+PASS actual scalar Noether charge is opposite old label
+PASS actual scalar charge Hermitian involution C odd
+PASS actual scalar generator acts on both scalar vertices
+PASS actual scalar charge preserves all geometric and external velocities
+PASS opposite normalized MW rank16 frame
+PASS opposite full Majorana and Nambu time
+PASS same named flavours opposite Weyl unit phase map
+PASS all six full scalar and derivative coefficients mapped
+PASS all external kinetic and gauge coefficients mapped
+PASS actual physical isometry reality and true R map
+PASS actual holomorphic covector connection 0
+PASS all actual tensor field connection entries 0
+PASS all actual opposite MW spin R connection entries 0
+PASS source connection actual Clifford compatibility (0, 0)
+PASS source connection actual Clifford compatibility (0, 1)
+PASS source connection actual Clifford compatibility (0, 2)
+PASS source connection actual Clifford compatibility (0, 3)
+PASS actual holomorphic covector connection 1
+PASS all actual tensor field connection entries 1
+PASS all actual opposite MW spin R connection entries 1
+PASS source connection actual Clifford compatibility (1, 0)
+PASS source connection actual Clifford compatibility (1, 1)
+PASS source connection actual Clifford compatibility (1, 2)
+PASS source connection actual Clifford compatibility (1, 3)
+PASS actual holomorphic covector connection 2
+PASS all actual tensor field connection entries 2
+PASS all actual opposite MW spin R connection entries 2
+PASS source connection actual Clifford compatibility (2, 0)
+PASS source connection actual Clifford compatibility (2, 1)
+PASS source connection actual Clifford compatibility (2, 2)
+PASS source connection actual Clifford compatibility (2, 3)
+PASS actual holomorphic covector connection 3
+PASS all actual tensor field connection entries 3
+PASS all actual opposite MW spin R connection entries 3
+PASS source connection actual Clifford compatibility (3, 0)
+PASS source connection actual Clifford compatibility (3, 1)
+PASS source connection actual Clifford compatibility (3, 2)
+PASS source connection actual Clifford compatibility (3, 3)
+PASS whole contracted curved source expression agrees
+PASS actual scalar supersymmetry lambda connection parallel
+PASS reversed and omitted R fail tensor and lambda comparisons
+PASS dropping full mixed term fails curved action comparison
+PASS full actual source geometric weights not named by analogy
+PASS whole variable angle source tensor transition
+PASS full global chart intertwiner including MW and true R
+PASS full variable angle curved differential covariance
+PASS wrong chart R inhomogeneous term rejected
+PASS actual source central spin and R signs cancel
+PASS geometric S4 and ST central angle relations
+PASS source chart C reality
+PASS actual whole cutoff maps to opposite MW minus plane
+PASS both real normal physical Green forms vanish
+PASS actual cutoff geometric charts glue
+PASS wrong unchanged old MW cutoff rejected
+PASS noncommuting gauge coefficient factor retained
+PASS fresh complete actual source tensor and spin R dictionary
+PASS normal direction homogeneous map has determinant one
+PASS exact S normal direction map including phase sign
+PASS exact T normal direction map
+PASS wrong normal phase sign is rejected
+PASS central minus I acts by half normal rotation not identity
+PASS double tangent angle descends but single angle does not
+PASS actual Chern circle connection inhomogeneous S law

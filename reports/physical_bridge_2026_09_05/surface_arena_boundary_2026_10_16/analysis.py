@@ -95,14 +95,20 @@ def run(method):
         coframe = s.Matrix([[ell/y, 0, 0, 0], [0, ell/y, 0, 0],
             [-r*sn/y, r*cc/(2*y), cc, -r*sn], [0, -r*sn/(2*y), sn, r*cc]])
     J = s.Matrix([[0, -1, 0, 0], [1, 0, 0, 0], [0, 0, 0, -1], [0, 0, 1, 0]])
-    N = cm(coframe.T.inv()*s.Matrix([0, 0, 2*r, 0]))
+    # Exact block inverse, certified in BOTH multiplication orders before
+    # use. Avoid generic expression-domain inversion of trigonometric jets.
+    inverse = s.Matrix([[y/ell, 0, 0, 0], [0, y/ell, 0, 0],
+        [r*cc*sn/ell, r*(sn*sn-cc*cc)/(2*ell), cc, sn],
+        [-sn*sn/ell, cc*sn/ell, -sn/r, cc/r]])
+    ck('exact structured inverse certified in both orders', zero(coframe*inverse-s.eye(4)) and zero(inverse*coframe-s.eye(4)))
+    N = cm(inverse.T*s.Matrix([0, 0, 2*r, 0]))
     eta = cm(coframe.T*J*N)
     alpha4 = s.Matrix([1/(2*y), 0, 0, 1])
     ck('actual coframe and radius gradient not a vertical approximation',
        simp(coframe.det()-ell*ell*r/y**2) == 0
        and zero(N-s.Matrix([2*r*r*cc*sn/ell, r*r*(sn*sn-cc*cc)/ell, 2*r*cc, 2*r*sn])))
     ck('actual source characteristic form equals normal circle connection', zero(eta-2*r*r*alpha4))
-    Jcoord = cm(coframe.inv()*J*coframe)
+    Jcoord = cm(inverse*J*coframe)
     fx, fy = s.symbols('partial_x_log_sigma partial_y_log_sigma', real=True)
     dcf = cm(-Jcoord.T*s.Matrix([-fx, -fy, 1/r, 0]))
     wantbeta4 = s.Matrix([1/(2*y)+fy, -fx, 0, 1])

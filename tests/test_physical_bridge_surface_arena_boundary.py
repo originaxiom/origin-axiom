@@ -31,7 +31,8 @@ def test_actual_normal_arena_map_and_both_fresh_antecedents(cert):
         assert cert['checks'][name]
 
 def test_actual_total_normal_and_variable_tube_characteristic(cert):
-    for name in ('actual Chern circle connection inhomogeneous S law',
+    for name in ('exact structured inverse certified in both orders',
+        'actual Chern circle connection inhomogeneous S law',
         'actual coframe and radius gradient not a vertical approximation',
         'actual source characteristic form equals normal circle connection',
         'full total complex structure gives varying tube characteristic',

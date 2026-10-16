@@ -241,12 +241,16 @@
       "sha256": "d82cc72efcd75224a605660b932809017728dc6c8bd854b160f506b5e79f40de"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_arena_boundary_2026_10_16/POST_HOC_REPAIR.md",
+      "sha256": "9ba8d648ee05a95dc4f7b6c742e62a447c32956c5f653a9ad787ede10e81369c"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_arena_boundary_2026_10_16/PROOF.md",
-      "sha256": "d25d664f01a35d3dfb24e4a2a9e2d2b3caa2bf950bc9ae27e7908bde8c903489"
+      "sha256": "dfcd28d9b60d146c054594e5bdce6b47efc1d68ac1258be2c7c54f28dd46706d"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_arena_boundary_2026_10_16/analysis.py",
-      "sha256": "90c040592ac1a65ad1d7ae397e7486474b64e7fefe82a1c01cbac071837ae361"
+      "sha256": "795eda4bb7b25753bd29d2e82768ef75aca16d5739ea7140eab4cbeb00cdb9cf"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_arena_boundary_2026_10_16/execute.py",
@@ -1202,7 +1206,7 @@
     },
     {
       "path": "tests/test_physical_bridge_surface_arena_boundary.py",
-      "sha256": "a9c4d5102bd94d5bb2e433e72b42920c80abd78d7cfcc483276b7b20c2618f96"
+      "sha256": "8616f6ef308501cc5ee5239e5d527bf109b94ac49b427f0d264e5a588e5f6ddc"
     },
     {
       "path": "tests/test_physical_bridge_surface_based_gauge.py",

@@ -181,6 +181,12 @@ terms still travel with any such operator. No old gap/count is copied.
 
 ## 7 Meaning for the mission
 
+Post-interruption implementation certificate: the coordinate coframe's
+structured inverse is multiplied on BOTH sides to check identity before
+computing the same gradient and J. This replaces generic trigonometric
+matrix inversion only. The original interrupted source/manifest is kept
+in first_run and POST_HOC_REPAIR; no original success is claimed.
+
 The proposed common arena is the actual normal boundary of the
 already-supplied surface, with an explicit globally embedded shrinking
 realization and actual field/connection/based-gauge map. It is not a
