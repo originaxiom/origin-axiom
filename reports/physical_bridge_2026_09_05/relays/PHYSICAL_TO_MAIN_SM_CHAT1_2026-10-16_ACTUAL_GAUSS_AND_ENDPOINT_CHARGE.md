@@ -50,3 +50,18 @@ All247code/data pins remain in hashed INPUTS/ARTIFACTS; only DESIGN and
 INPUTS are typed preregistrations in the ledger. No old row/raw data
 altered or gate exception/debt waiver. LIVE/governance follows; no
 recipient/main/nonauthor/full-suite/physical acceptance claimed.
+
+At published17e9692a5,12selected LIVE PASS162.60s,247pins/15,811tracked/
+index unchanged. Intended new+reverse test files verified, both39/34
+methods replayed. Governance26PASS/four FAIL31.992977s, first3reported
+lines unchanged;42stale/172open review618. Full VALIDATION/raw captures.
+Two new typed preregistration rows both have labels; all247code/data
+hashes retained. Truncated provenance list is not full debt audit;
+existing raw-data-scope debt remains, no old-row/raw rewrite/waiver.
+
+Next-test guard: derive source Hessian/all five degree2responses, then
+actual higher-order/external dynamics. A nonzero static cubic/quartic
+residual may be an interaction, not a mode or programme kill. Stationary
+bosonic vacuum does not require arbitrary constant fermions stationary.
+g is background amplitude, not a predicted gauge coupling. No new
+shared identification or full physical boundary/SM/three/gravity claim.

@@ -20558,3 +20558,26 @@ source-factor/current/symplectic review. SM391288e73 intake READ only,
 not reproduction. LIVE/governance follows banking; no full-suite/
 nonauthor/main/recipient/physical acceptance. Full foundational physical
 SM/three/parameters/gravity ACTIVE, not redefined as a local parent.
+
+Gauss validation at published17e9692a5:12selected LIVE PASS162.60s,
+capture163.928188s. Actual gauss_charge+reverse_susy command verified;
+both39new and both34antecedent methods rerun.247pins/15,811tracked/
+index unchanged in regression/governance; complete VALIDATION/raw
+states/streams/receipts. Governance26PASS/four FAIL31.992977s,
+first3REPORTED failure lines byte-identical;42stale/172open review618.
+Truncation is not a no-new-provenance-debt certificate. Direct new-row
+audit: DESIGN/INPUTS are the only two new typed preregistrations, both
+labels present; all247code/data hashes still sealed/captured. Prior
+untruncated inventory/raw-data-scope debt not waived; no raw rewrite.
+Identification24rows/9UNEARNED baseline9, five separate controls PASS
+with known bare-assertion blind spot. No I-status promotion.
+
+Physical next-test guard sharpened: derive actual SAME-source Hessian
+and all five remaining degree2responses, then higher-order/external
+dynamics. A nonzero higher-order STATIC residual can encode an
+interaction, not necessarily invalidate a mode. Stationary bosonic
+vacuum is not arbitrary constant fermion excitations. Do not repeat
+false static-ansatz or whole-program exclusions. The current g is
+background amplitude, not predicted gauge coupling. Post-check metadata
+not back-certified;247science pins separately rechecked. Full goal
+ACTIVE; no full-suite/nonauthor/main/recipient/physical acceptance.

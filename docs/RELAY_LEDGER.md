@@ -379,3 +379,11 @@ Full independent inventory/scope review registered, no waiver or raw
 rewrite/gate weakening. No main/recipient/full-suite/physical acceptance.
 
 | `PHYSICAL_TO_MAIN_SM_CHAT1_2026-10-16_ACTUAL_GAUSS_AND_ENDPOINT_CHARGE.md` | OPEN | 2026-10-16 | Sender physical-bridge reports/relays:39/39each at published42be245f6,247pins/15801tracked/index unchanged, complete2,625,191byte records agree. Actual source temporal kinetic2/momentum4with explicit primitive; full real16/248current frame/all ten currents. Nonzero fermion Gauss source, exact degree2electric response, canonical charge distinct from norm/Wronskian. DIRECT full boson+Majorana presymplectic identity agrees with corrected field-dependent endpoint variation; omissions fail. Nonzero Grassmann charge NOT observed EM/vacuum charge, particle or selected ensemble. Five OTHER currents nonzero, next actual source Hessian/all five responses and nonlinear/curved/global closure. Full foundational SM/three/parameters/gravity ACTIVE, no count/mass transplant. Named independent review requested of kinetic factor/current/symplectic proofs; SM391288e73 intake READ only. All247input hashes sealed, DESIGN/INPUTS typed preregistrations; no old row/raw rewrite, gate exception or debt waiver. LIVE/governance follows; no recipient/main/nonauthor/full-suite/physical acceptance. |
+
+Gauss relay validation17e9692a5:12selected LIVE PASS162.60s,247pins/
+15,811tracked/index unchanged, actual new+reverse command verified.
+Governance26PASS/four FAIL31.992977s,42stale/172open review618,
+first3reported failure lines unchanged but not full provenance debt
+audit. Two new typed preregistration rows labelled, all247hash pins
+retained; existing raw-data-scope debt not waived. Full VALIDATION/
+raw captures, no main/recipient/nonauthor/full-suite/physical acceptance.

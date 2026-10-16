@@ -39,6 +39,12 @@ real Grassmann coefficients make the finite order closure meaningful,
 but do not guarantee solvability: kernel/boundary compatibility and
 interaction conditions must be computed. Do not freeze a normal trace,
 force coefficients to zero, or discard a current to get a desired answer.
+Do NOT make arbitrary static fermion configurations an unearned
+existence criterion for physical modes. The bosonic vacuum can be
+stationary while its interacting excitations obey nontrivial external
+dynamics. Classify any higher-order residual as a source/compatibility
+condition or an effective four-dimensional interaction as appropriate;
+include the actual external equations before a physical exclusion.
 
 Distinguish dynamical modulus, boundary source variation and constrained
 gauge/Higgs partner by the actual ensemble and exterior matching. The
@@ -58,4 +64,8 @@ remain the objective, not this supplied model alone.
 New source/data pins are all sealed transitively in INPUTS and ARTIFACTS;
 only DESIGN/INPUTS are classified as preregistrations in SEAL_LEDGER.
 No gate exception, raw-data rewrite or waiver of the existing provenance
-scope debt. Fresh selected LIVE/governance validation follows banking.
+scope debt. At published17e9692a5,12selected LIVE PASS162.60s,
+247pins/15,811tracked/index unchanged, actual new+reverse pair verified.
+Governance26PASS/four FAIL31.992977s;42stale/172open review618.
+Full VALIDATION/raw captures; truncated reported provenance list is
+not full debt audit. No full-suite/nonauthor/main/physical acceptance.

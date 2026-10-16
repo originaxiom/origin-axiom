@@ -1,5 +1,11 @@
 # The actual fermion current has a consistent Gauss and endpoint response
 
+At published17e9692a5,12selected LIVE PASS162.60s,247pins/15,811tracked/
+index unchanged; intended new+reverse pair verified. Governance26PASS/
+four FAIL31.992977s, not repo-green. Full VALIDATION/raw captures,
+typed-preregistration/full-input-hash scope and remaining debt recorded.
+No full-suite/nonauthor/main/physical acceptance claimed.
+
 The SAME supplied source action now gives an explicit fermion-inclusive
 Gauss constraint and a nonzero canonical endpoint-charge polynomial.
 An electric response solves that constraint at fermion degree2. The
@@ -50,6 +56,9 @@ both expressions look gauge invariant. No auxiliary term hides a
 temporal multiplier. Hence canonical momentum is4 E_j in these source
 units, not the frequently assumed unit-weight Yang--Mills momentum.
 The parent coupling and tangential volume remain supplied common factors.
+Here g denotes the background amplitude, not a predicted Yang--Mills
+coupling. Neither momentum4nor the source charge coefficient normalizes
+SM hypercharge or predicts its observed gauge coupling.
 
 Actual full source fermions match the ordered component bulk, and the
 temporal gauge multiplier yields the positive source form
@@ -186,6 +195,12 @@ connection components. Solve the five remaining computed current
 sources rather than describe the Gauss solution as whole-theory
 stationarity. Then cubic fermion and quartic nilpotent equations,
 auxiliary/source boundary closure and actual residual gauge class.
+Those higher-order equations must be interpreted as part of field
+dynamics: a nonzero static residual may encode an interaction rather
+than invalidate a fermion mode. A stationary bosonic vacuum does not
+require arbitrary constant fermion excitations to be stationary too.
+Derive the effective four-dimensional equations and boundary conditions
+before calling a failed static ansatz a physical obstruction.
 
 The next test has concrete candidate profiles recorded in NEXT_TEST,
 explicitly UNVERIFIED until their actual source Hessian and all end

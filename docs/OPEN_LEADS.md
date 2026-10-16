@@ -7279,3 +7279,17 @@ row/raw-data rewrite, gate exception or waiver of the registered full
 provenance inventory/data-scope review. Named independent source-factor,
 odd-current and actual-symplectic proof review requested in sender relay;
 SM391288e73 older-packet read-only intake is not that acceptance.
+
+Gauss subset validation at17e9692a5:12selected LIVE PASS162.60s,
+247pins/15,811tracked/index unchanged, actual new+reverse command.
+Governance26PASS/four FAIL31.992977s;42stale/172open review618.
+Full VALIDATION/raw captures; typed two preregistration labels checked,
+all247input hashes retained, old provenance data-scope debt not waived.
+
+PB-SOURCE-ALL-BOSON-RESPONSE question guard: after actual Hessian and
+degree2responses, derive higher-order FOUR-DIMENSIONAL interactions
+and dynamics, not only a static nilpotent ansatz. A nonzero cubic/
+quartic static residual is not automatically a physical inconsistency;
+arbitrary constant fermion excitations need not be stationary. Check
+external equations, operator/boundary compatibility and interpretation
+before any exclusion. Full boundary/global physical goal remains OPEN.
