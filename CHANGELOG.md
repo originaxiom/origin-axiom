@@ -1,5 +1,12 @@
 # Changelog
 
+October16 phase5 metadata design records eight newly read kinetic/end
+proofs before source changes. Preserve phase4 mappings/aliases and all
+185pinned blobs; expected57direct/three aliases/125pending awaits checks.
+Retain canonical even-end and nonflat/SM-gauge positives with their
+precise domains, R-zero instability and global-lift limitations. No
+scientific execution or new parent selected; independent review still owed.
+
 October16 source-only critical trace/end intake after chat1 64460af62:
 recover existing local L6 pole-spin map and its distinction from cohomology,
 without repeating matrix experiments. Preserve B1667 actual contour norms;
