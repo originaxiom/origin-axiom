@@ -59,17 +59,22 @@ def run(method):
     A0=twist.strip(twist.read(raw['external_derivative'][0]));Aa=[twist.strip(twist.read(a)) for a in raw['external_derivative'][1:]+raw['internal_background']]
     ck('actual positive time and all spatial source action signs',zero(A0-s.I*C) and zero(-s.I*C*A0-I) and all(zero(a-A0*v) for a,v in zip(Aa,velocities[1:])))
     maps=source_maps(method,twist,cs,C);T=cm((maps[0]*C/s.I).T)
-    ck('single earned Noether parameter map all ten actual bosons',all(zero(a-T.T*s.I*C*v) for a,v in zip(maps,velocities)))
+    lower=[velocities[0]]+[-v for v in velocities[1:]]
+    ck('single earned Noether parameter map all ten actual bosons',all(zero(a-T.T*s.I*C*v) for a,v in zip(maps,lower)))
     ck('actual Noether factor and full real parameter subspace',zero(T-s.I*R*lam/2) and zero(C*T.conjugate()-T*C) and zero(T.H*T-lam/4))
     ck('all actual boson maps have graded rather than commuting reality',all(zero(-C.T*a.conjugate()*C-a) and zero(lam*a-a) for a in maps) and any(not zero(C.T*a.conjugate()*C-a) for a in maps))
-    ck('wrong Noether factor and missing odd reversal rejected',any(not zero(a-2*T.T*s.I*C*v) for a,v in zip(maps,velocities)) and any(not zero(C.T*a.conjugate()*C-a) for a in maps))
+    ck('wrong Noether factor and missing odd reversal rejected',any(not zero(a-2*T.T*s.I*C*v) for a,v in zip(maps,lower)) and any(not zero(C.T*a.conjugate()*C-a) for a in maps))
     if not all(checks.values()):return {'checks':checks,'records':{'source_maps':[enc(a) for a in maps],'parameter_map':enc(T),
-        'expected_maps':[enc(T.T*s.I*C*v) for v in velocities],
-        'map_residuals':[enc(a-T.T*s.I*C*v) for a,v in zip(maps,velocities)]},'all_passed':False}
+        'expected_maps':[enc(T.T*s.I*C*v) for v in lower],
+        'map_residuals':[enc(a-T.T*s.I*C*v) for a,v in zip(maps,lower)]},'all_passed':False}
     # Earn source lambda identification in the actual complementary MW map.
     op=twist.opposite(cs);ph=[1,1,-1,-s.I];ph+=list(map(s.conjugate,ph));L=cm(op['S']*s.diag(*[v for p in ph for v in [p]*2]))
     gh=kron(eye(4),s.I*cs[0]*cs[1],eye(2));gv=kron(eye(4),s.I*cs[2]*cs[3],eye(2))
     Pi=cm(op['MW']*(eye(32)+op['R']*gh)/2*(eye(32)+op['R']*gv)/2)
+    extG=[kron(s.I*cs[j],eye(4),s.diag(1,-1)) for j in range(1,4)]
+    covariant=[-op['G0']]+extG+op['G']
+    ck('full Lorentzian lowered current not Hamiltonian velocity',zero(op['G0']*op['G0']+eye(32)) and all(zero(L.H*op['G0']*gam*L-w) for gam,w in zip(covariant,lower)))
+    ck('old all velocity reverse formula rejected in every spatial direction',all(not zero(a-T.T*s.I*C*v) for a,v in zip(maps[1:],velocities[1:])))
     ck('named scalar supercharge is actual source lambda by its full map',zero(L*lam*L.H-Pi) and zero(L.H*Pi*L-lam) and s.trace(lam)==4)
     active=(2,3,4,5);vnorm=[s.SparseMatrix(vv[j]) for j in active]
     # Three independent selfdual curvature coefficients in source indices.
@@ -167,7 +172,8 @@ def run(method):
     ck('both oriented endpoints and no discarded outer norm',clean(end-2*s.pi*(flux.subs(r,Rout)-flux.subs(r,cut)))==0 and clean(end-2*s.pi*(flux.subs(r,Rout)+flux.subs(r,cut)))!=0 and not zero(eps.subs(r,Rout)))
     ck('normalizable near inner end not a claim across outer pole',s.limit(f,r,0)==0 and s.limit(f,r,1/g**2,dir='-')==s.oo)
     records['source']={'boson_order':['time','external1','external2','external3','internal0','internal1','internal2','internal3','scalar4','scalar5'],
-      'actual_reverse_maps':[enc(a) for a in maps],'Noether_parameter_map':enc(T),'full_real_parameter_frame':enc(Epar),'J':enc(J),'source_action_static_sign':-1}
+      'actual_reverse_maps':[enc(a) for a in maps],'Noether_parameter_map':enc(T),'full_real_parameter_frame':enc(Epar),'J':enc(J),'source_action_static_sign':-1,
+      'Lorentzian_lowered_current_signs':[1]+[-1]*9,'Hermitian_even_factor_for_returned_normal_profiles':'+i epsilon_odd xi_odd'}
     records['root']={'actual_E8_triplet_map':enc(Wt),'full_root_coordinates':list(roots[up-8]),'triplet_adjoint_matrices':[enc(a) for a in ad]}
     records['family']={'background':[enc(a) for a in bg],'amplitude':[enc(a) for a in ag],'phase':[enc(a) for a in phase],
       'actual_fermion_all_parameters':enc(psi),'all_returned_boson_images':reverse,'gauge_parameter':enc(eps),'inner_gauge_parameter':enc(inner),

@@ -25,8 +25,13 @@ The full auxiliary/gauge compensated boundary closure is a further duty.
 
 Let B_0 be the resulting map for X_time. Define T by
 T^T=B_0 C/i on the real lambda parameter subspace. The gate is equality
-B_A=T^T i C v_A for ALL ten bosons, with v_time=I and the nine source
-velocities. If passed, epsilon_can=T epsilon_source is earned, not an
+B_A=T^T i C w_A for ALL ten bosons, with w_time=I and w_spatial=-v_spatial.
+This lowering is not optional: in the actual mostly plus Lorentzian
+frame G0²=-I, v_spatial=-G0 G_spatial and the covariant current is
+G0 G_lower_time=I, G0 G_lower_spatial=-v_spatial. The full32 matrices
+must verify this independently of the component map. The original
+all velocity guess is preserved and explicitly rejected on all nine
+spatial fields. If passed, epsilon_can=T epsilon_source is earned, not an
 assumed adjoint of the forward map. The expected actual value is
 T=(i/2) R P_lambda. T preserves Majorana reality and has norm one half.
 
@@ -64,7 +69,7 @@ With s=1-g²r the known exact family is
 Let a=partial_g(A2,A3,X4,X5). It is gauge fixed and a full BPS tangent.
 Its Dirac partner is Psi_s=-sum_a v_a e_s a_a for each real lambda
 frame vector e_s. Actual source transformations with source parameter
-T^-1 e_r return -i times a Grassmann parameter product times
+T^-1 e_r return +i times a Grassmann parameter product times
 
     a_rs=delta_rs a+J_rs I a,
     J_rs=e_r^dagger iR e_s,
@@ -73,7 +78,7 @@ T^-1 e_r return -i times a Grassmann parameter product times
 J is a real orthogonal complex structure: J^T=-J and J²=-I4.
 The real span of these profiles is exactly two, not four generations,
 and every other boson component vanishes on this family. The stripped
-even factor -i epsilon_odd xi_odd is Hermitian. All four real supercharge
+even factor +i epsilon_odd xi_odd is Hermitian. All four real supercharge
 parameters and all full Majorana conjugate components are retained.
 
 ## 4 The phase partner and the proper gauge group

@@ -8,6 +8,12 @@ local Euler identity and its images of the known amplitude tangent.
 This is not an all mode boundary domain theorem or an OA selection of
 this parent, its cut, its gauge quotient or its background.
 
+Post hoc source map correction is explicitly recorded in
+POST_HOC_REPAIR.md with both original failed captures. Require the
+actual lower index Lorentzian current (I,-v_spatial), independently
+verified in the full32 frame, rather than the rejected (I,v_spatial)
+Hamiltonian guess. No source phase, field or action has been changed.
+
 Acceptance requires the actual WZ vector and all three chiral lowest
 component transformations to agree with a SINGLE explicitly determined
 Noether parameter map for all ten bosons. Determine its normalization

@@ -656,19 +656,19 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/DESIGN.md",
-      "sha256": "6edbee5c3eff1771c2edc0139772c1be7cdd35dafd81c3da5f04f6789afe8a11"
+      "sha256": "54fecabd4508637361d10b6d4bf2212a748981d7e0f4bf693d3415e1456e51b6"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/POST_HOC_REPAIR.md",
-      "sha256": "26baa68f93e194195b8662126d9b50b9bcac16eb73db91d2c16ac8aab4abe30b"
+      "sha256": "3e89b875314bc78e625e72be4496b7cc1f7d10ac04b6c1637b88db869255ff08"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/PROOF.md",
-      "sha256": "156de34337ed30ca715d25a5afffdf36225c1454db5ba97fa145b04e8a37ebcf"
+      "sha256": "898a35d2f4bb0ce10fccc7b679b73a73a3bd223250a151d34cd534655cea186d"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/analysis.py",
-      "sha256": "5ff126990c6626124f9f057a8b949b3730c13211b28276c2564b570b744da69d"
+      "sha256": "73fc7ce1082bcc31625e8bd15783ec6d5e5459ecfecc530f68f357960eeffa87"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/execute.py",
@@ -932,7 +932,7 @@
     },
     {
       "path": "tests/test_physical_bridge_surface_reverse_susy.py",
-      "sha256": "84904364fa3a72424f659c9f57c4e6ede909463a827a814c158334b891a38d11"
+      "sha256": "5949acc9ce12a035ee3dc0536f1583ce7384e014445d5e2c8840b3420be144dc"
     },
     {
       "path": "tests/test_physical_bridge_surface_root_gauge_sector.py",

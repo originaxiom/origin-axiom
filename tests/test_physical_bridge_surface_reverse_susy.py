@@ -14,7 +14,8 @@ def cert():
 def test_live_actual_source_and_Noether_map(cert):
     assert cert[0]==cert[1] and cert[0]['all_passed'] and all(cert[0]['checks'].values())
     for k in ('single earned Noether parameter map all ten actual bosons','actual Noether factor and full real parameter subspace',
-              'actual positive time and all spatial source action signs','all actual boson maps have graded rather than commuting reality'):
+              'actual positive time and all spatial source action signs','all actual boson maps have graded rather than commuting reality',
+              'full Lorentzian lowered current not Hamiltonian velocity','old all velocity reverse formula rejected in every spatial direction'):
         assert cert[0]['checks'][k]
 def test_complete_parameter_frame_and_Ward_coefficients(cert):
     for k in ('named scalar supercharge is actual source lambda by its full map','complete normalized real four parameter source frame',
