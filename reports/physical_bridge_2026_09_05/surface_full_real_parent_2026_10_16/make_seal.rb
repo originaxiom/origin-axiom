@@ -12,7 +12,7 @@ paths += %w[DESIGN.md PROOF.md analysis.py superfield.py probe.py reference.py e
 paths << 'tests/test_physical_bridge_surface_full_real_parent.py'
 repair=local+'/POST_HOC_REPAIR.md';paths << repair if File.exist?(root.join(repair))
 repair_trace=local+'/TRACE_NORMALIZATION_REPAIR.md';paths << repair_trace if File.exist?(root.join(repair_trace))
-%w[CLIFFORD_DIAGNOSTIC_DESIGN.md CUTOFF_PLANE_DESIGN.md clifford_diagnostic.py scope_execute.py results/gauge_frame_run/probe.stdout.log].each{|p|paths << local+'/'+p if File.exist?(root.join(local,p))}
+%w[CLIFFORD_DIAGNOSTIC_DESIGN.md CUTOFF_PLANE_DESIGN.md END_TRANSPORT_DESIGN.md clifford_diagnostic.py scope_execute.py results/gauge_frame_run/probe.stdout.log].each{|p|paths << local+'/'+p if File.exist?(root.join(local,p))}
 rows=paths.uniq.sort.map{|p|{'path'=>p,'sha256'=>Digest::SHA256.file(root.join(p)).hexdigest}}
 data={'scope'=>'Full supplied local K D gaugino and physical operator gate; not printed BHV, singular/global or SM selection',
  'runtime'=>{'python'=>'3.12.14','sympy'=>'1.14.0'},'shared_formulation'=>'Same author/primary and graded algebra/Sympy; full superfield versus ordered components, actual/exterior frames',

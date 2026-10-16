@@ -59,6 +59,10 @@
       "sha256": "8a97ab696e3a6b73de03c353d414f3d6f1fe32ece86a3a431c260b546ec25faf"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/END_TRANSPORT_DESIGN.md",
+      "sha256": "4ae05c07eaca8f0541f91f58a0ce5ac21fb6e5897422a77ad477280a5b6d576d"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/POST_HOC_REPAIR.md",
       "sha256": "954c8eb9d380aea9106780dd1c5cd582169660faa042bbf3c516ce275e6cf273"
     },
@@ -72,7 +76,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/clifford_diagnostic.py",
-      "sha256": "35722f2dd108aa3678203e1d337a55735747f6b33f7a5ae56e8f287925383721"
+      "sha256": "5c7949bcf8b547aba0ab3a48299f842a7e03b5dee38e8fc2f6c91ebc3b8ab4a1"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/execute.py",
@@ -80,7 +84,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/make_seal.rb",
-      "sha256": "ce83dcd5948d040d730007e59adee31f0c22d2dff25ebaae06ded5ca25cd924c"
+      "sha256": "0c25256136ccc1d4823785bb402f5469a1fb12b13bff9027ca9613b1b3bd3b3b"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/probe.py",
@@ -392,7 +396,7 @@
     },
     {
       "path": "tests/test_physical_bridge_surface_full_real_parent.py",
-      "sha256": "be057eac0ec2f3b41bdbcedbb8f7336e6970015d3eb07ef4abfbe2f6f5782c6d"
+      "sha256": "62b9913cdf1057b472dec31b8be0c7d2fdbdcb49ffd6db5c8f192d0b7768b50b"
     },
     {
       "path": "tests/test_physical_bridge_surface_interacting_domain.py",

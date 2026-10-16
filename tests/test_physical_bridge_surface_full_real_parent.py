@@ -56,3 +56,8 @@ def test_actual_finite_cutoff_plane_and_exchanged_extremes(cert):
         assert m['actual_whole_cutoff_image_epsilon']==[1]
         for q in m['paired_planes']:
             assert not q['preserved'] and q['mapped_to_opposite'] and q['target_Green_zero']
+    assert c['credited universal normal end identity recovered']
+    for j in (4,5):
+        assert c['scalar reflection transports BOTH ends '+str(j)]
+        assert c['scalar reflection keeps actual first variation '+str(j)]
+        assert c['unchanged old end fails after scalar reflection '+str(j)]

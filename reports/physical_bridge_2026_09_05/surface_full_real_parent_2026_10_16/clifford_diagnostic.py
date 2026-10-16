@@ -3,7 +3,7 @@ import hashlib,json,sys
 from itertools import permutations,product
 from pathlib import Path
 import sympy as s
-from analysis import source,cm,zero,frame
+from analysis import source,cm,zero,frame,a
 HERE=Path(__file__).resolve().parent
 INPUT=HERE/'results/gauge_frame_run/probe.stdout.log'
 HASH='cc5b961ae78eb458e031d93f993e2899ee0e91d82f187dc68e2a5fe816f60143'
@@ -85,6 +85,27 @@ def run():
     records['hatch_maps']=maps;records['hatch_rejections']=rejections
     records['linear_fixed_orientation_intertwiner_obstructed']=records['actual_volume']!=records['canonical_volume']
     ck('full scalar-sign permutation phase census accounted',len(maps)+len(rejections)==96)
+    # Universal normal-action transport, not a commuting/BPS substitution.
+    X,Y,U,V=[a.letter('X'+str(j)) for j in range(2,6)]
+    dx=lambda p:a.op(p,'n2');dy=lambda p:a.op(p,'n3')
+    DX=lambda p:a.add(dx(p),a.comm(X,p));DY=lambda p:a.add(dy(p),a.comm(Y,p))
+    F=a.add(dx(Y),a.scale(dy(X),-1),a.comm(X,Y));uv=a.comm(U,V)
+    C=[a.add(F,uv),a.add(DX(U),a.scale(DY(V),-1)),a.add(DX(V),DY(U))]
+    B=lambda p,q:a.scale(a.trace(a.mul(p,q)),-1)
+    E=a.add(*(B(p,p) for p in (F,uv,DX(U),DY(U),DX(V),DY(V))))
+    Jx=a.add(B(U,DY(V)),a.scale(B(V,DY(U)),-1))
+    Jy=a.add(a.scale(B(U,DX(V)),-1),B(V,DX(U)))
+    div=a.trace(a.add(dx(Jx),dy(Jy)));res=a.scale(a.add(*(B(c,c) for c in C)),2)
+    eq=lambda p,q:not a.trace(a.add(p,a.scale(q,-1)))
+    ck('credited universal normal end identity recovered',eq(res,a.add(a.scale(E,2),a.scale(div,-2))))
+    for j in (4,5):
+        def flip(p):return a.trace(a.clean({w:c*(-1)**sum(a.sf.base(t)=='X'+str(j) for t in w) for w,c in p.items()}))
+        reflected=a.add(a.scale(E,2),a.scale(div,2))
+        ck('scalar reflection transports BOTH ends '+str(j),eq(flip(E),E) and eq(flip(Jx),a.scale(Jx,-1)) and eq(flip(Jy),a.scale(Jy,-1)) and eq(flip(res),reflected))
+        ck('scalar reflection keeps actual first variation '+str(j),eq(a.sf.variation(flip(res)),a.sf.variation(reflected)))
+        ck('unchanged old end fails after scalar reflection '+str(j),not eq(flip(res),res))
+    records['normal_end_transport']={'energy':'E invariant','current':'J -> -J under either one-scalar reflection',
+        'source':'2E-2div J','reflected':'2E+2div J','scope':'both oriented ends and first variation; not selected global end or transported singular/twist domain'}
     records['scope']='actual local Clifford realization and bounded scalar-frame hatches; not named U2 bundle/domain or global physics'
     return {'checks':checks,'all_passed':all(checks.values()),'records':records}
 if __name__=='__main__':

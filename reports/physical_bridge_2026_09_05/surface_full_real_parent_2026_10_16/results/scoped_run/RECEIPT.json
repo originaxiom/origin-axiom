@@ -1,0 +1,54 @@
+{
+  "seal_commit": "0d44cabb7960f43120ea7d74505b6f56311b394b",
+  "original_full_dictionary_gate_passed": false,
+  "runs": [
+    {
+      "program": "probe",
+      "exit_code": 1,
+      "seconds": 64.70328496299771,
+      "stdout": {
+        "bytes": 159785,
+        "sha256": "cc5b961ae78eb458e031d93f993e2899ee0e91d82f187dc68e2a5fe816f60143"
+      },
+      "stderr": {
+        "bytes": 1627,
+        "sha256": "b4ca69261517ca4f9dddbb2abf5039e10fe947a8a3799a6d2853a84e8e9d2ae8"
+      }
+    },
+    {
+      "program": "reference",
+      "exit_code": 1,
+      "seconds": 69.40997751199757,
+      "stdout": {
+        "bytes": 159785,
+        "sha256": "cc5b961ae78eb458e031d93f993e2899ee0e91d82f187dc68e2a5fe816f60143"
+      },
+      "stderr": {
+        "bytes": 1627,
+        "sha256": "b4ca69261517ca4f9dddbb2abf5039e10fe947a8a3799a6d2853a84e8e9d2ae8"
+      }
+    },
+    {
+      "program": "clifford_diagnostic",
+      "exit_code": 0,
+      "seconds": 6.100674848996277,
+      "stdout": {
+        "bytes": 29015,
+        "sha256": "deada6ffec3dc271904a51edbea179f92bd97befbc76487ec91c3a6d8fec108f"
+      },
+      "stderr": {
+        "bytes": 692,
+        "sha256": "ee87886ea863f5f8b4a6a20c3aa64465d785557da34e2c1c4acee3d5a9458248"
+      }
+    }
+  ],
+  "source_pins": 103,
+  "tracked_files": 13614,
+  "pins_match": true,
+  "pins_unchanged": true,
+  "tracked_unchanged": true,
+  "index_unchanged": true,
+  "fingerprint_before": "b217d93297a24267b0ac7c2ddbc15b18ec71a1f7e2996f8f50b516c912fbea0e",
+  "complete_action_records_identical": true,
+  "scope_audit_passed": true
+}
