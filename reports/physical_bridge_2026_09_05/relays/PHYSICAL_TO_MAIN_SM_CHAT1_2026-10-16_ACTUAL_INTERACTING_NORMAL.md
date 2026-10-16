@@ -43,3 +43,14 @@ then ONE global charged stationary theory/norms/vertices/anomalies.
 Supplied parent/trace not selected from genesis; fixed rank3 not SM.
 Full physical SM/three/gravity ACTIVE. No recipient/main/nonauthor/
 full-suite or physical acceptance. Selected LIVE validation follows.
+
+Terminal at published0517bbe75:12selected LIVE PASS69.69s, capture
+71.270167s; both48-check new and52-check free producers rerun.176pins/
+13,976tracked/index unchanged. Governance26PASS/four inherited FAIL
+32.867488s, first3failure lines identical to prior;42stale/166open,
+review592. No waiver/independent/full-suite/main/physical acceptance.
+Full VALIDATION/raw before/after/receipt retained. Next UNVERIFIED
+strategies: test further root-Cartan/R invariant blocks, and derive
+Cauchy transversality from the dressed-domain symmetry for a fully
+specified exterior, keeping zero-horizontal sectors separate. No
+response or physical exterior has thereby been selected/computed.

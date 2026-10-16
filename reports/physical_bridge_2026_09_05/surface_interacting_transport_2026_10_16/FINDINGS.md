@@ -137,3 +137,13 @@ Identification audit24rows/9UNEARNED at baseline9; five controls pass
 with the documented bare-assertion blind spot, no I-status promoted.
 Selected LIVE/governance validation follows. No main/recipient/nonauthor
 analytic/banking/full-suite or physical acceptance. Full goal ACTIVE.
+
+## Terminal selected validation
+
+At published0517bbe75,12selected LIVE PASS69.69s (capture71.270167s);
+both48-check new producers and both52-check free antecedents rerun.
+176pins/13,976tracked/index unchanged in regression/governance captures.
+Governance26PASS/four inherited FAIL32.867488s, first3failure lines
+byte-identical to prior;42stale/166open, review592. No waiver/new science
+failure path. Full VALIDATION/raw outputs retained. Post-check metadata
+not back-certified; scientific pins separately rechecked unchanged.

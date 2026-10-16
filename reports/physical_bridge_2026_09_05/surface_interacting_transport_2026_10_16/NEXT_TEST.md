@@ -16,6 +16,16 @@ seeds and chosen critical trace. The first two dressed terms are NOT
 the full finite-radius response. Search existing regular-singular/
 Frobenius/interval/Grassmannian tools before writing another solver.
 
+Two UNVERIFIED structural tests may simplify that calculation. First
+test root-Cartan/scalar-R weight combinations for smaller invariant
+blocks, retaining the horizontal symbol, compact metric, holonomy and
+Majorana partner; do not assume that reduction or discard root kernels.
+Second test whether the dressed horizontal-domain symmetry proves
+transversality for an explicitly specified SAME-operator exterior
+continuation. Its action/domain and normal selfadjointness must be
+established; zero horizontal momentum needs its own treatment. Neither
+test is a current finite-response theorem or a selected physical exterior.
+
 Use analytic recurrences or certified bounds to control the starting
 trace and truncation error, plus a genuinely different transport check.
 Verify Green nullity and full Cauchy angle on the SAME operator/domain;

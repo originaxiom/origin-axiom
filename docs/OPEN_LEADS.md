@@ -6940,3 +6940,18 @@ normalized spectrum/vertices/anomalies and foundational gauge/three/
 observed parameter selection remain. Search terms 'interacting horizontal
 anticommutation dressed domain':21broad hits/0settled at3/5, code/body
 and all11heads checked; no universal absence or first-ever assertion.
+
+PB-SURFACE-ROOT-R-REDUCTION OPEN, UNVERIFIED next test: look for further
+root-Cartan/scalar-R invariant blocks of the exact coupled system,
+including horizontal symbol, real metric/holonomy/conjugation and root
+kernels. No reduced-block completeness or physical selection claimed.
+PB-SURFACE-EXTERIOR-TRANSVERSALITY OPEN, UNVERIFIED: test whether the
+dressed horizontal-domain symmetry controls Cauchy transversality for
+an explicitly admitted SAME-operator exterior. Its action/domain/normal
+selfadjointness and zero-horizontal sectors require separate proof;
+not a selected physical exterior or already derived finite response.
+
+Terminal at published0517bbe75:12selected LIVE PASS69.69s,176pins/
+13,976tracked/index unchanged. Governance26PASS/four inherited FAIL,
+first3failure lines identical;42stale/166open, review592. No waiver,
+full-suite/nonauthor/main/physical acceptance. Full VALIDATION retained.

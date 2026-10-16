@@ -20205,3 +20205,23 @@ updated. NEXT full coupled Cauchy response and SAME bosonic/auxiliary/
 source/SUSY curved boundary/global charged theory. Fixed rank3 not SM;
 full generated physical SM/three/gravity ACTIVE. Selected LIVE and
 governance validation follows, not full-suite/main acceptance.
+
+### October16 actual interacting transport terminal validation
+
+At published0517bbe75,12selected LIVE PASS69.69s (capture71.270167s):
+six new interacting source locks plus six free-response antecedents;
+both complete48-check and both52-check producers rerun.176pins and
+13,976tracked/index unchanged in both before-launch/post-terminal
+captures. Governance26PASS/four inherited FAIL32.867488s, first3failure
+lines byte-identical to prior;42stale/166open relay debt, review592.
+No waiver/baseline change/new science failure path. Full VALIDATION
+and raw logs/state/receipts retained. Scientific pins separately
+rechecked unchanged; post-check metadata not back-certified.
+
+Two next strategies registered UNVERIFIED: test further root-Cartan/R
+blocks of the exact interacting radial system; test dressed-domain
+symmetry for Cauchy transversality with a fully specified exterior and
+separate zero-horizontal controls. No finite response/exterior/action
+selection or physical particle result claimed. Full generated physical
+SM/three/gravity ACTIVE, no independent analytic/banking/recipient/main/
+full-suite acceptance. No kill-graph/new B-dir or view-population change.
