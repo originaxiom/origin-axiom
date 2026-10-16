@@ -1,0 +1,7 @@
+threads with trace <= 600: 30674 [19s]
+computed [316s]
+L0 {'sizes_3_6': [1, 2, 2, 3], 'phase_err_max': 1.0892131036650883e-07, 'all_finite': True, 'ref_coherence': {'LR': 0.6368128637702745, 'LLRR': 0.24347865398797075, 'LLLRRR': 0.2591843363404628, 'LLRLRR': 0.3210851680997089}, 'failures': [], 'holds': True}
+L1 {'top_quarter_mean': 0.3144267211466374, 'low_mean': 0.3692304339813725, 'top_traces': [451, 600], 'holds': True}
+L2 {'top_quarter_mean': 0.284847362696838, 'low_mean': 0.44350912042322216, 'per_thread_slope': -0.26934800296465744, 'slope_se': 0.08310683657978298, 'n_threads': 7688, 'holds': True}
+most coherent phase-1 thread ['LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL', 0.9999406085044183]; LR 0.6368128637702745
+all_hold True [316s]
