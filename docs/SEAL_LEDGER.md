@@ -9246,3 +9246,9 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 |---|---|---|---|---|
 | 2026-10-16 | POST-HOC assertion visibility repair BEFORE successor | `reports/physical_bridge_2026_09_05/surface_global_boundary_variation_2026_10_16/DESIGN.md` | `0ea284425129fae798d7918ba5f40eae10383cfdc0717fc8373862cb3d804a89` | Preregistered actual source boundary variation, not physical end selection |
 | 2026-10-16 | POST-HOC assertion visibility repair BEFORE successor | `reports/physical_bridge_2026_09_05/surface_global_boundary_variation_2026_10_16/INPUTS.json` | `eaed29c6a918ba290a5c2951b0bcb841de980032a4095f10470c676ad4a91c0a` | Preregistered actual source boundary variation, not physical end selection |
+
+## Existing mathematical test visibility and full governance diagnosis
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-16 | BEFORE repaired regression collection and inventory execution | `reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/DESIGN.md` | `778387413e4980b6bd87af7026f14fc93efc404ce95455c01c0356533b69046c` | Test-only repair; original science retained, INPUTS pins16 artifacts. Only the design is a preregistration; source pins live in its manifest. No new physical experiment. |

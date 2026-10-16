@@ -1,0 +1,100 @@
+{
+  "source_head": "14c6822dca3621fe7da8dbe8b52cef0413050977",
+  "scope": "test-only visibility repair and complete governance diagnosis; no new scientific experiment",
+  "original_tests": {
+    "tests/test_physical_bridge_family_domain.py": {
+      "source_commit": "14c6822dca3621fe7da8dbe8b52cef0413050977",
+      "stored_path": "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/original_test_physical_bridge_family_domain.py.txt",
+      "bytes": 1647,
+      "sha256": "e60e208f3a36e0a18b103a79a8eed4fb1cf509e40785c8a19e5882bcf9dd2b04"
+    },
+    "tests/test_physical_bridge_quantum_shift.py": {
+      "source_commit": "14c6822dca3621fe7da8dbe8b52cef0413050977",
+      "stored_path": "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/original_test_physical_bridge_quantum_shift.py.txt",
+      "bytes": 2317,
+      "sha256": "0b38c462c8b5834a14184bb49bf09fc959caff47be06eddf7530005bfc8d4dc0"
+    }
+  },
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/DESIGN.md",
+      "bytes": 3899,
+      "sha256": "778387413e4980b6bd87af7026f14fc93efc404ce95455c01c0356533b69046c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/inventory.rb",
+      "bytes": 2903,
+      "sha256": "b6da4149cc380330137673b8f233066ead482f3cbde118d69936ee63d5a5da30"
+    },
+    {
+      "path": "tests/test_physical_bridge_family_domain.py",
+      "bytes": 2597,
+      "sha256": "eb962b5df720eacd72cf69d3815782619d07aa01f5070de5c41f8dcfb67d8a37"
+    },
+    {
+      "path": "tests/test_physical_bridge_quantum_shift.py",
+      "bytes": 3511,
+      "sha256": "4a4687ba2febafe033ed75da3c20a78d40f00b5f3a8624a503d5c9f613a53b3b"
+    },
+    {
+      "path": "tests/test_physical_bridge_family_action.py",
+      "bytes": 3407,
+      "sha256": "e5cbc92349c8c5805070f056d2d0d530ce58ddc586a42f6f27804c999046f3b9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/family_action.py",
+      "bytes": 16083,
+      "sha256": "a26d0c0451a360a6d2d1e8ff5044a84eb6a2b6bc3e6089db4e7b61b914e4b02f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/family_action_domain.py",
+      "bytes": 1996,
+      "sha256": "c4d938bb4d7087cdf2e3ef724616800a4cbfaa42c7568d7c0a1d3624634f9d0c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/quantum_shift.py",
+      "bytes": 12542,
+      "sha256": "94c4399491dfa5bcb702b7b2b75eba00cce6ca9f94be5fe96c487e46053bd5bc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/quantum_vacuum.py",
+      "bytes": 14862,
+      "sha256": "aabef052bb69613a51ee768d53b7dc07062dc005011379f6c1b96b1a68309457"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/vacuum.py",
+      "bytes": 13888,
+      "sha256": "4be56d6b20eeeb4826590c4b5b38f82eaf7603ab1c2688d8fdc06a83540000f0"
+    },
+    {
+      "path": "scripts/gates/gates.py",
+      "bytes": 55805,
+      "sha256": "8bbe4d513f43ddbb14ff1ea0384cfa0deea4cb6c85de6672dd36f70fedbee115"
+    },
+    {
+      "path": "scripts/checks/check_test_vacuity.py",
+      "bytes": 9597,
+      "sha256": "cacea50360bcf3a17bb65a6af85e24cba9e62ac7cd82bfdf6b72675c35dda867"
+    },
+    {
+      "path": "scripts/checks/relay_debt.py",
+      "bytes": 6925,
+      "sha256": "620b4ce71ff2c9227f1d8eafd5cf63e41bd4d30edaba8c4840ee432fedafe2ab"
+    },
+    {
+      "path": "docs/ATTRIBUTION_BASELINE.json",
+      "bytes": 4529,
+      "sha256": "517a2e5dc8fca2d66341d0d3e6d60a9ced4beec44c3d794c2bdf93260e5ce486"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/original_test_physical_bridge_family_domain.py.txt",
+      "bytes": 1647,
+      "sha256": "e60e208f3a36e0a18b103a79a8eed4fb1cf509e40785c8a19e5882bcf9dd2b04"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/original_test_physical_bridge_quantum_shift.py.txt",
+      "bytes": 2317,
+      "sha256": "0b38c462c8b5834a14184bb49bf09fc959caff47be06eddf7530005bfc8d4dc0"
+    }
+  ]
+}

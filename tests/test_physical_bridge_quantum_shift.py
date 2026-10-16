@@ -6,6 +6,20 @@ from reports.physical_bridge_2026_09_05 import quantum_shift as s
 from reports.physical_bridge_2026_09_05 import quantum_vacuum as q
 
 
+def mass_derivative_matches(numerical, analytic, atol):
+    """Same per-entry tolerance as the original numerical assertion.
+
+    Explicitly reject nonfinite or differently shaped results. The original
+    np.testing.assert_allclose uses rtol=1e-7; np.allclose's default differs.
+    """
+    actual, expected = np.asarray(numerical), np.asarray(analytic)
+    if actual.shape != expected.shape:
+        return False
+    if not (np.isfinite(actual).all() and np.isfinite(expected).all()):
+        return False
+    return bool(np.allclose(actual, expected, rtol=1e-7, atol=atol, equal_nan=False))
+
+
 def test_full_quadratic_constraint_reconstruction_and_normal_term_control():
     result = s.primitive_checks()
     assert result["omitted_normal_term_radial_max_error"] > 1
@@ -30,13 +44,28 @@ def test_vector_and_complex_Weyl_mass_derivatives():
     def vm(point):
         g = s.orbit(point)
         return g.T@geo["ks"]@g
-    np.testing.assert_allclose((vm(z+eps*direction)-vm(z-eps*direction))/(2*eps), analytic, atol=1e-10)
+    assert mass_derivative_matches(
+        (vm(z+eps*direction)-vm(z-eps*direction))/(2*eps), analytic, 1e-10)
     mf, dm = s.fermion_mass(z, .25), s.fermion_mass(direction, .25)
     analytic = dm.conj().T@mf+mf.conj().T@dm
     def fm(point):
         m = s.fermion_mass(point, .25)
         return m.conj().T@m
-    np.testing.assert_allclose((fm(z+eps*direction)-fm(z-eps*direction))/(2*eps), analytic, atol=1e-11)
+    assert mass_derivative_matches(
+        (fm(z+eps*direction)-fm(z-eps*direction))/(2*eps), analytic, 1e-11)
+
+
+def test_mass_derivative_predicate_has_positive_and_rejecting_controls():
+    expected = np.array([[1., 2j], [-2j, 3.]], dtype=complex)
+    assert mass_derivative_matches(expected.copy(), expected, 1e-11)
+    changed = expected.copy()
+    changed[0, 1] += 1e-3
+    assert not mass_derivative_matches(changed, expected, 1e-11)
+    changed[0, 1] = np.nan
+    assert not mass_derivative_matches(changed, expected, 1e-11)
+    changed[0, 1] = np.inf
+    assert not mass_derivative_matches(changed, expected, 1e-11)
+    assert not mass_derivative_matches(expected[:1], expected, 1e-11)
 
 
 def test_full_kernel_force_stationarity_and_shifted_SM_action():
