@@ -1,5 +1,14 @@
 # Changelog
 
+Phase5 source prepared under design a53ad468e: eight pending proofs now
+property-mapped with complete phase4 carry, three aliases retained;57direct/
+125pending still await185-blob reconciliation. Reconciler adds only the
+phase4 carry manifest. One new B1651 historical addendum source brings
+expected external readings to17; same bytes at the pinned common main head.
+Kinetic/end crosswalk preserves canonical spectral and nonflat positives,
+dated repairs and scoped instabilities. No science executed or role policy
+changed; metadata controls and independent scientific review remain ahead.
+
 October16 phase5 metadata design records eight newly read kinetic/end
 proofs before source changes. Preserve phase4 mappings/aliases and all
 185pinned blobs; expected57direct/three aliases/125pending awaits checks.

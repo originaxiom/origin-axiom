@@ -1,0 +1,121 @@
+{
+  "scope": "Source reading and metadata verification, not scientific execution",
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/PHASE5_DESIGN.md",
+      "sha256": "cf9e2432e2730cefe59d3b7a272a99952183f9d54be6c28cb642715fe4d41225"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/prepare_phase5.rb",
+      "sha256": "0f228c053b13589d2edefb12c621f85781c0060511a4e079d9364f16467cf2b4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/seal_phase5.rb",
+      "sha256": "46f98014776010a51a1990ef89498e518d4c347d71447266c172be1e758964df"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/reconcile_coverage.rb",
+      "sha256": "f5df21bd7cdaa8134cd5d2d850c001337507a5985228557cf5824b419efe4b05"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/review_records.json",
+      "sha256": "aa16c0b84df97c0241ddd063c56ff5c837ba121c2751655d3a5e9c948c2de985"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/review_records_phase2.json",
+      "sha256": "1bf76d5a762103ab59b89967d41d6eba7a7a5906efa5426460914d9d7b1efd18"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/review_records_phase3.json",
+      "sha256": "2ca9fa291998556dd719326029be99b1955dc34bbe032698ac0931be0ea9a1b9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/review_records_phase4.json",
+      "sha256": "c13c1edd71a0a0ef8aa9a55ac148b55d8d98a3e7a4cde39eb189391bed0cb56d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/review_records_phase5.json",
+      "sha256": "716e1f87749de132695f19cbee8356ea09817225653791b03c6879550c11ce07"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/specification_inventory.json",
+      "sha256": "b22fc6620d69a4100eb3b17a9569f9bcc45ae8d7a8d97229237f3b9170e6da25"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/KINETIC_AND_END_SPECIFICATION_2026_10_16.md",
+      "sha256": "46e5d1eb8636a84f6526d0a09ac9f0d83641f8c93602bd72e365a052319b9733"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/PROOF.md",
+      "sha256": "1b9bc3e1e03100ef76eeb5c4d9b523cb40545d312c549c6a79ed02efd7fa5bff"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/ORIENTATION_REPAIR.md",
+      "sha256": "a5959f2a8171f83efaa9beaf239bd973d6c11d0806df640a9e7bc6b51caffa8b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/PROOF.md",
+      "sha256": "8374933126c41e24b9d167fae89f931f7b72c95bba0da6aa927646cafb3d91d6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/PROOF.md",
+      "sha256": "fbb0f0d51fcf915a1b3b5203d03a8d1f6df7011b5d8f00aa4be3223a14440977"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/PROOF.md",
+      "sha256": "8ca99b10c3da48289e47d76cf78870e904558861e19b1e0f9b9dce59079473a7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/PROOF.md",
+      "sha256": "e9be9d6141fc0d4949530d470ee007467a7a54ed0833cdf0fb8d575b92ceeaa4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/FULL_EVEN_PROOF.md",
+      "sha256": "7c8c3ce51460df5f843d02525274f2c4b59a44f126b745fd76dac2d8c82551e3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/PROOF.md",
+      "sha256": "299e95d002398359ee3a3c8a1421f7acf256618284c0ad1e4b8a70dee3072b55"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/SCOPE_REVIEW.md",
+      "sha256": "1a4a619888e36d2d073b0dec9cc146c692a8a7197e4cc0646dff4387516c9f67"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/PROOF.md",
+      "sha256": "9d11b84270e5fccb949915fcb761c075038cda51b2e1230f1c7188daf9f76050"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/PROOF.md",
+      "sha256": "a56dcbb3d4571f466f0a179de0ce843179f90045465a43ba8cea44ec7adab057"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/PROOF.md",
+      "sha256": "085b455657006000508da58b708a0d54b90f9694ed194894a5b0b73c2a9f00ad"
+    },
+    {
+      "path": "docs/SEAL_ARTIFACT_ROLES.json",
+      "sha256": "e072be80164a8ce40e84095bf7c46a2704b6a41a4ce00bd35de90152ef1af37b"
+    },
+    {
+      "path": "docs/GIT_REFERENCE_PROVENANCE.json",
+      "sha256": "4471714db55cae130705fe8d501e748ccf179461aa5a363ae9153d3d6fa53376"
+    },
+    {
+      "path": "scripts/gates/gates.py",
+      "sha256": "3d4e6ab844a462cdb9ab10d79d4cabefa77154969cc33d4c143ca4b9367f9176"
+    },
+    {
+      "path": "scripts/gates/provenance_policy.py",
+      "sha256": "19b0fa2382a31fb6a0d943f6df11b0b7dc482494a90e94013c2e2947a65f53c2"
+    }
+  ]
+}

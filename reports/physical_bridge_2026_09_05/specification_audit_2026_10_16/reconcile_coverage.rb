@@ -97,7 +97,7 @@ end
 mapped = reviews.fetch('inventory_mappings')
 if reviews.key?('carries_forward')
   carry_name = reviews.fetch('carries_forward')
-  abort('invalid carried manifest') unless %w[review_records_phase2.json review_records_phase3.json].include?(carry_name)
+  abort('invalid carried manifest') unless %w[review_records_phase2.json review_records_phase3.json review_records_phase4.json].include?(carry_name)
   carry = JSON.parse(File.read(File.join(__dir__, carry_name)))
   check_carried_review(mapped, reviews, carry)
   review_paths << carry_name

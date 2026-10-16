@@ -21244,3 +21244,15 @@ scoped. Main B1651 Higgs typings remain distinct from the physical fermion
 kinetic dictionary. New PHASE5_DESIGN precedes metadata checker changes;
 expected57direct/three aliases/125pending not yet certified. No new
 scientific experiment, same-source admission or goal completion claimed.
+
+Phase5 metadata source prepared under committed design a53ad468e. Eight
+new mapping rows preserve every phase4 property/alias/stored role and
+external reading. Only phase4 added to the immediate carry whitelist;
+existing seven carry/four alias controls reused. One additional B1651
+seats-answers addendum counted, existing findings/Szego read not counted
+again; all three match4cc3658a8at the common562882d15external head.
+Expected57direct/three aliases/125pending and17external readings await
+full verification. New KINETIC_AND_END_SPECIFICATION records physical
+parent/twist, global-map, field-degree and end-ensemble transfer duties.
+Source pins sealed before controls; no scientific producer execution,
+selected field/normalization, global green or independent acceptance.
