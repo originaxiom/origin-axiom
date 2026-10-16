@@ -1,0 +1,15 @@
+{
+  "command": [
+    "ruby",
+    "-EUTF-8",
+    "-e",
+    "require 'json'; require 'digest'; require 'open3'; g = lambda { |*a| o,e,s=Open3.capture3('git',*a); abort(e) unless s.success?; o }; abort('tracked tree/index changed') unless g.call('diff','--name-only','--').empty?; fs=g.call('ls-files','-z').split(\"\\0\").sort.map { |p| abort('symlink: '+p) if File.symlink?(p); {'path'=>p,'bytes'=>File.size(p),'sha256'=>Digest::SHA256.file(p).hexdigest} }; inp=JSON.parse(File.read('reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/PHASE6_INPUTS.json')); pins=inp.fetch('source_files').map { |r| actual=Digest::SHA256.file(r.fetch('path')).hexdigest; abort('pin changed') unless actual==r.fetch('sha256'); r }; puts JSON.generate({'head'=>g.call('rev-parse','HEAD').strip,'tracked_count'=>fs.size,'tracked_files'=>fs,'index_sha256'=>Digest::SHA256.hexdigest(g.call('ls-files','--stage','-z')),'source_pins'=>pins})"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 2.7127519999994547,
+  "log_bytes": 3508276,
+  "log_sha256": "99f5d96250f89c9f74bd5a791f5f6e5fa21df11c3e740596810692264f7c0558",
+  "presentation": "Command paths normalized; original receipt bytes retained locally.",
+  "original_receipt_sha256": "8e351240117bf3347a4fcaea5f8e05b976aef27d68bf094a016ea83136255855"
+}

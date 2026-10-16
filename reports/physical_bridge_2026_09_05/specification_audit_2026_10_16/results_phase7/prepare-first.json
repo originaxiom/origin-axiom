@@ -1,0 +1,14 @@
+{
+  "command": [
+    "ruby",
+    "-EUTF-8",
+    "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/prepare_phase7.rb"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 0.137258999999176,
+  "log_bytes": 96,
+  "log_sha256": "ca29da90c0ba18ccbc7be6ed2b8f40a610900de82d91199a1eee75f7d56dc3eb",
+  "presentation": "Only command workspace paths normalized; original receipt retained locally.",
+  "original_receipt_sha256": "3a1a2e43513f3021b1aabcbdb6beb7b8d574504f5977b7a78608548b38aadccf"
+}

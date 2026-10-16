@@ -1,0 +1,16 @@
+{
+  "command": [
+    "ruby",
+    "-EUTF-8",
+    "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/reconcile_coverage.rb",
+    "<workspace>/phase7-reconciliation-first.json",
+    "review_records_phase7.json"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 17.405538000000888,
+  "log_bytes": 2167,
+  "log_sha256": "1c56135dc5098034629008b131a4f1ce852e799d6c3f67ef1db3d97a0c6e43d1",
+  "presentation": "Only command workspace paths normalized; original receipt retained locally.",
+  "original_receipt_sha256": "12c0c39a478bf5768fc504f6e01718d38ba98ff20d0abc935fc106db66f11aef"
+}

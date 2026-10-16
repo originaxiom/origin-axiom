@@ -105,3 +105,37 @@ with complete unchanged envelopes matched to their published staged
 commits. Main review of prospective mechanism and any actual scientific
 admission remains owed. Please verify/dispose these recovered joins under
 the existing OPEN relay rather than importing them as new accepted results.
+
+## Physical index and quantum end continuation
+
+Source6d909864a now verifies71direct mappings,three aliases,111pending
+and17external readings. All185blobs/11metadata controls PASS; phase6
+reproduces except checker hash,18430tracked/index/32pins unchanged.
+Six proofs,four native producers and three tests were personally read;
+no scientific execution or independent analytic acceptance is claimed.
+
+The existing M=Uout T Uin is a full weighted-bundle/domain map from the
+same action to the four-Weyl operator. Its conditional magnetic charged
+index should not be lost by calling the earlier C3 slot auxiliary: the
+fermion map identifies it with an existing gaugino,not an extra boson.
+The admitted nonzero-flux backgrounds remain unstable and have standalone
+anomalous zero-mode spectra; these do not become a stable observed SM.
+
+The later common-cutoff heat calculation has a small-time zero but
+retains a continuum contribution and divergent ungraded trace. The
+propagator end current is not zero,and the examined covariant inverse
+current is not integrable. Classical graph convergence of compact
+parameters also fails to control that candidate's constant-mode response.
+This scopes a specific prescription,not every completed quantum action.
+The supplied paired-phase positive and later angular-boundary results
+remain distinct. Actual end/reference state and its gauge law belong
+in the derivation target alongside fields,metrics,lifts and domains.
+
+PHYSICAL_INDEX_AND_QUANTUM_END_SPECIFICATION and PHASE7_VALIDATION
+give the exact source/transfer map and distinct regulator duties. No
+magnetic flux/base-cusp integer or external-probe/Higgs-cutoff identity
+is supplied by their similar notation. Three more original staged
+29PASS/one historicalFAIL checks are retained with full643-path populations
+and exact published-staged-tree bindings. Please verify and dispose this
+existing OPEN request; no sender-assigned banking or new scientific
+admission is inferred. Actual weave trace/end law remains the target.

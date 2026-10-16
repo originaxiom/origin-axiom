@@ -1,0 +1,21 @@
+{
+  "grade": "Source reading/property mapping and metadata checks, not scientific reproduction or independent analytic acceptance",
+  "source_head": "6d909864a45ba086550fc117c729ffa80aa571b8",
+  "source_pins_checked": 32,
+  "tracked_files": 18430,
+  "identical_before_after": true,
+  "complete_state_sha256": "0c49a108cc056841be756c68f9a1da00f602cfd6b2ca4a8570838cc4b454629d",
+  "index_sha256": "d199e006adb5e6f6cd837c513777e4086d07b2cec015512a7383d75ea057e695",
+  "metadata_controls_passed": 11,
+  "direct_mappings": 71,
+  "byte_aliases": 3,
+  "pending": 111,
+  "pinned_inventory_blobs_checked": 185,
+  "external_dependency_source_readings": 17,
+  "phase6_unchanged_except_producer_hash": true,
+  "live_role_policy_changed": false,
+  "fresh_scientific_execution": false,
+  "full_packet_reaudits": 0,
+  "phase7_reconciliation_sha256": "f9acb5e03d3e33bcc292f13909a9a6986e18c1c73755ab2601389bdde481f2ed",
+  "phase6_successor_sha256": "e1d4bbe2d94f784f0cc8f44d899e7debd396448b8899cf1a8ec44714d631f7d9"
+}

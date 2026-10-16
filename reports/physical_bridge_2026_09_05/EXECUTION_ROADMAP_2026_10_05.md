@@ -1,5 +1,16 @@
 # Common-model physics campaign: execution record
 
+Phase7 source6d909864a verified:71direct proof/property mappings,three
+aliases,111pending,17external readings; all185blobs/11metadata controls
+PASS. Phase6 unchanged except checker hash;18430tracked/index/32pins
+unchanged. PHYSICAL_INDEX_AND_QUANTUM_END_SPECIFICATION preserves the
+actual four-Weyl operator map/conditional charged index and its unstable
+anomalous-background scope. Heat diagnostic,propagator end,current curl
+and supplied consistent phase are not one quantum completion. End-state/
+topology and actual weave trace law remain duties. PHASE7_VALIDATION
+retains full custody and three original29PASS/one historicalFAIL checks.
+No new science or independent acceptance; full physical goal remains.
+
 Phase6 source0b41ad554 verified:65direct proof/property mappings,three byte
 aliases,117pending and17external readings. All185blobs/11metadata controls
 PASS; phase5 unchanged except checker hash,18385tracked/index/31pins unchanged.

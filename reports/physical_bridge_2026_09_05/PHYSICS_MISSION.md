@@ -1,5 +1,15 @@
 # Approved physics mission and execution criteria
 
+Verified phase7 source6d909864a:71direct source/property mappings,three
+aliases,111pending,17external; all185blobs/11metadata controls PASS.
+Phase6 reproduces except checker hash;18430tracked/index/32pins unchanged.
+Actual weighted four-Weyl map and conditional magnetic charged index
+preserved,not merely a bosonic count or a selected stable SM. The source
+chain retains heat/current/phase and classical/quantum end distinctions;
+same-field trace/end selection and full physical spectrum remain. See
+PHYSICAL_INDEX_AND_QUANTUM_END_SPECIFICATION and PHASE7_VALIDATION.
+No scientific execution,new accepted admission or goal completion.
+
 Verified phase6 source0b41ad554:65direct source/property mappings,three
 aliases,117pending,17external readings; all185blobs/11metadata controls
 PASS. Phase5 reproduces except checker hash;18385tracked/index/31pins

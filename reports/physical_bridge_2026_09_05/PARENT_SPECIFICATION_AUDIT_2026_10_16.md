@@ -16,11 +16,11 @@ of one realization does not discharge or refute the others.
 
 ## Current coverage and next derivation duty
 
-The verified phase6 reconciliation at source 0b41ad554 records 65 directly
+The verified phase7 reconciliation at source 6d909864a records 71 directly
 read and property-mapped proof paths, three byte-identical aliases and
-117 pending paths among the original 185. All pinned blobs and eleven
+111 pending paths among the original 185. All pinned blobs and eleven
 metadata controls pass; 17 external dependency readings are recorded.
-[Phase6 validation](specification_audit_2026_10_16/PHASE6_VALIDATION.md)
+[Phase7 validation](specification_audit_2026_10_16/PHASE7_VALIDATION.md)
 preserves the source envelope and earlier reconciliations. These are
 source-reading counts, not independently accepted proofs or complete
 packet re-audits. The staged publication check is a separate envelope.
@@ -30,7 +30,7 @@ recovers existing canonical spectral estimates, finite-norm nonflat ends
 and stationary SM-gauge phases, with their supplied parents and scoped
 pairing/instability results. The actual physical field, global lifts,
 two-slot Green trace and admissible end ensemble must belong to one
-construction before its charged index can be interpreted physically.
+construction before its index can be transferred to a physical claim.
 Historical and findings-only coverage remains incomplete; no universal
 absence or architecture-wide exclusion follows from this population.
 
@@ -41,6 +41,14 @@ and scoped instabilities. The normal Gaussian's charged endpoint states
 cannot be discarded by anomaly bookkeeping; its supplied reference and
 the later local boundary are different domain problems. These eight
 additional readings do not select a physical end or certify its spectrum.
+
+[Physical index and quantum end specification](PHYSICAL_INDEX_AND_QUANTUM_END_SPECIFICATION_2026_10_16.md)
+retains a conditional example where an actual physical mass/domain map
+already exists. Its magnetic-parent charged index is not merely the
+earlier bosonic auxiliary count. Its unstable anomalous saddle is also
+not a stable SM vacuum. The later heat/current/topology arguments price
+the true quantum end response, rather than excluding every regulator or
+silently identifying this parent with the weave's finite-distance operator.
 
 ## Population and coverage history
 

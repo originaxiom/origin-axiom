@@ -1,5 +1,14 @@
 # Changelog
 
+Phase7 source6d909864a verified:11metadata controls/all185blobs PASS;
+71direct mappings,three aliases,111pending,17external. Phase6 unchanged
+except checker hash;18430tracked/index/32pins unchanged. Actual four-Weyl
+map and conditional magnetic charged index preserved with unstable/anomalous
+scope; heat,current,phase and end-topology claims separated. Complete
+captures/lossless states and three original staged failure populations
+preserved. Existing OPEN main relay extended; no scientific execution,
+new admitted end law,independent acceptance or completed physical goal.
+
 Phase7 metadata source prepared under committed design06997e63c. Six
 additional property mappings carry every phase6 row; aliases and17external
 readings unchanged. Only phase6 added to carry whitelist. Expected71direct/
