@@ -1,5 +1,14 @@
 # Changelog
 
+Approved governance supplement f905ca9c5 verified:46controls PASS18.91s,
+full governance29PASS/oneFAIL99.423145s,18265tracked/index unchanged.
+Attribution PASS with baseline/raw bytes preserved; seal remains643paths:
+562unclassified,76design-like missing-field entries,five explicit historical
+violations. Nineteen source pins and13complete captures checked; originals,
+both full state envelopes and failed governance outcomes retained. No science
+execution, retroactive compliance, full-suite/independent/main acceptance or
+physical breakthrough claimed. Source-mapping audit continues; goal ACTIVE.
+
 Governance policy at38ff18ec4:45focused controls PASS18.88s and again
 15.72s inside the strict completed-snapshot envelope;18261tracked/index
 unchanged. Full precheck28PASS/twoFAIL89.413564s; attribution reduced

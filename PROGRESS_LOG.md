@@ -21093,3 +21093,27 @@ earlier FLAT capture tip, timing, count or population. Original policy
 and first captures remain in their source checkpoint. Same verifier,
 one additional cross-capture test, supplementary pins before execution.
 No new science, baseline waiver or historical-design compliance claim.
+
+Supplement f905ca9c5 published/server-confirmed before checks:46focused
+controls PASS18.91s, full governance29PASS/oneFAIL exit1/99.423145s.
+Complete18265tracked/index snapshots byte-identical. Attribution now PASS
+with original baseline/seven artifacts unchanged,31exact ref spans verified.
+Remaining seal report643paths:562unknown,76design-like missing-field entries,
+five explicit historical violations. The earlier shorthand "76 designs"
+does not mean all76personally role-audited actual preregistrations. No old
+labels were inserted and no historical violation is compliant by declaration.
+
+Thirteen capture exits/lengths/hashes, both identical state envelopes and
+19manifest source pins checked. Complete original state logs compressed
+losslessly; full other logs/receipt presentations/custody published. Initial
+45test results and strict-envelope repeat both retained. Report/publication/
+sender OPEN relay are later than the certified source checkpoints. Mission
+and roadmap refresh remaining duties without declaring the repository green.
+No new scientific producer or independent analytic/main/physical acceptance.
+
+SM advanced to2e9cf5cb7; its relay149 read personally, not independently
+reproduced. Useful all-word/period-sign positives and dictionary distinctions
+retained for audit. Further native/parent/source-action/MW/reverse-SUSY proofs
+personally read; explicit coverage mappings still next, not silently counted
+as completed packets. Foundational-to-operator and actual puncture/end-law
+mission remains ACTIVE; supplied-parent extensions stay paused.

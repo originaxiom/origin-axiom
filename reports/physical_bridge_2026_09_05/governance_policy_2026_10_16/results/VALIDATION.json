@@ -1,0 +1,63 @@
+{
+  "grade": "Focused maintenance verification and full governance prechecks, not scientific or historical compliance certification",
+  "envelopes": [
+    {
+      "name": "first",
+      "head": "38ff18ec451777f202d65174563abd17c0499562",
+      "tracked_count": 18261,
+      "index_sha256": "26a8c4c3cd1baabff5cdbd2a22f0ba423dba63b8b1ef368aeb440c56e733bd99",
+      "complete_state_sha256": "fab2ad81717e69c34db2b7dafe5a6652e96b1271088b5dcba4938d5560195564",
+      "identical_before_after": true,
+      "unexpected_original_edits": [
+
+      ]
+    },
+    {
+      "name": "supplement",
+      "head": "f905ca9c5f0d1523c93fd77e3486a0787e387920",
+      "tracked_count": 18265,
+      "index_sha256": "d8ed0b19851bf65bf317313f28624d1773086c42a767bd1505f70850a670a6df",
+      "complete_state_sha256": "6442b45ac1f7fb6182d763e54c921355770abc9cea637b42f48e7b3084769a50",
+      "identical_before_after": true,
+      "unexpected_original_edits": [
+
+      ]
+    }
+  ],
+  "source_pin_sets": [
+    {
+      "manifest": "INPUTS.json",
+      "source_commit": "38ff18ec451777f202d65174563abd17c0499562",
+      "checked_pins": 10,
+      "all_match": true
+    },
+    {
+      "manifest": "INPUTS_SUPPLEMENT.json",
+      "source_commit": "f905ca9c5f0d1523c93fd77e3486a0787e387920",
+      "checked_pins": 9,
+      "all_match": true
+    }
+  ],
+  "initial_focused": "45 passed in 18.88s; overlaps initial read-only snapshot",
+  "strict_envelope_repeat": "45 passed in 15.72s",
+  "supplement_focused": "46 passed in 18.91s",
+  "initial_governance": {
+    "pass": 28,
+    "fail": 2,
+    "exit_code": 1
+  },
+  "supplement_governance": {
+    "pass": 29,
+    "fail": 1,
+    "exit_code": 1,
+    "attribution": "PASS",
+    "seal_provenance": "FAIL",
+    "unclassified_paths": 562,
+    "design_like_missing_field_paths": 76,
+    "historical_noncompliant_paths": 5
+  },
+  "original_seal_prefix_preserved": true,
+  "attribution_baseline_unchanged": true,
+  "new_scientific_execution": false,
+  "full_suite_or_independent_acceptance": false
+}

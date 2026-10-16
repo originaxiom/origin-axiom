@@ -1,0 +1,23 @@
+{
+  "command": [
+    "env",
+    "-u",
+    "PYTHONPATH",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "<scientific-python>",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_governance_provenance_policy.py"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 16.56351900000027,
+  "log_bytes": 100,
+  "log_sha256": "3f3ef5f93a7edbec7a818e5b03028110114a6dd43415692d65a7b23e4946cf60",
+  "presentation": "Only command-path normalization; original receipt hash and complete log retained. Original receipt remains in durable local custody.",
+  "original_receipt_sha256": "783bc795cd3c99879e4af996ebd5d5e7223ea3c3c1043cba4c4bdb3dd9bf8c35"
+}

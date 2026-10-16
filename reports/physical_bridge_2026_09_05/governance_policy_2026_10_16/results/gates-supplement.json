@@ -1,0 +1,18 @@
+{
+  "command": [
+    "env",
+    "-u",
+    "PYTHONPATH",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "<scientific-python>",
+    "-B",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 99.42314499999975,
+  "log_bytes": 87793,
+  "log_sha256": "f660731c2508851d644488c816f68dce530691e587440f4b1369e2a16938f2ef",
+  "presentation": "Only command-path normalization; original receipt hash and complete log retained. Original receipt remains in durable local custody.",
+  "original_receipt_sha256": "77944335a092451bc6fe4433b00e8dfced239262520c8313c96dcea450759f93"
+}

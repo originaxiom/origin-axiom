@@ -1,0 +1,13 @@
+{
+  "command": [
+    "ruby",
+    "reports/physical_bridge_2026_09_05/governance_policy_2026_10_16/seal_supplement.rb"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 0.381507000000056,
+  "log_bytes": 101,
+  "log_sha256": "ec13a4e645d44853e20441cd40f4ccab55e4ca1bd6d87e92fc5ae593371527e2",
+  "presentation": "Only command-path normalization; original receipt hash and complete log retained. Original receipt remains in durable local custody.",
+  "original_receipt_sha256": "3f076731bc9b7e626c23fe4694e08691f82d07e1aefc28795ad8d827cfe2f96c"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "ruby",
+    "reports/physical_bridge_2026_09_05/governance_policy_2026_10_16/snapshot.rb"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 10.653854000000138,
+  "log_bytes": 3471207,
+  "log_sha256": "fab2ad81717e69c34db2b7dafe5a6652e96b1271088b5dcba4938d5560195564",
+  "presentation": "Only command-path normalization; original receipt hash and complete log retained. Original receipt remains in durable local custody.",
+  "original_receipt_sha256": "a489cca47edb7a0691637f052b3c672433a6cf843d5cfc99720081da945dabb2"
+}

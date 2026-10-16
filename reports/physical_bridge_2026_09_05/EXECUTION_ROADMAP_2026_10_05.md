@@ -1,5 +1,12 @@
 # Common-model physics campaign: execution record
 
+Latest governance source f905ca9c5:46focused maintenance controls PASS,
+full precheck29PASS/oneFAIL; attribution repaired by exact pinned provenance,
+baseline/raw evidence unchanged. Remaining seal roles and historical violations
+are not waived. Continue source/property coverage and recover existing native
+to-operator maps; no new supplied-parent experiments yet. Detailed evidence:
+governance_policy_2026_10_16/README.md. Physics objective unchanged/unachieved.
+
 October16 approved P-181/P-184 order: stop new supplied-parent extensions;
 read previous work as a property specification and reuse existing
 derivations; resolve actual governance failures; then seal one question
