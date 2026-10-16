@@ -1,0 +1,22 @@
+{
+  "python": "3.12.1 (main, Dec 18 2025, 19:00:52) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "executable": "<existing-python-environment>/bin/python3",
+  "packages": {
+    "scipy": {
+      "version": "1.16.3",
+      "origin": "<existing-python-environment>/lib/python3.12/site-packages/scipy/__init__.py"
+    },
+    "numpy": {
+      "version": "2.4.0",
+      "origin": "<existing-python-environment>/lib/python3.12/site-packages/numpy/__init__.py"
+    },
+    "sympy": {
+      "version": "1.14.0",
+      "origin": "<existing-python-environment>/lib/python3.12/site-packages/sympy/__init__.py"
+    },
+    "pytest": {
+      "version": "9.0.3",
+      "origin": "<existing-python-environment>/lib/python3.12/site-packages/pytest/__init__.py"
+    }
+  }
+}

@@ -20,6 +20,30 @@ to repeat its decomposition or forget its stronger parity-graded case.
 The new question is the admissibility and actual action of the symmetry,
 not whether a six-dimensional vector space can be given a desired action.
 
+### Recovered before any new restriction calculation: B1609 E4
+
+Main's latest P-184 says the V4 restriction to 2T is not computed.
+The same main head's B1609 E4 already restricts B1606's six-coefficient
+model to the even-word subgroup: its recorded order is24, commutant3,
+and the pieces are three inequivalent doublets. Its recorded invariant
+dimensions are0,2,4,6; with parity grading it again keeps only0 and6.
+The deck fixes one piece and exchanges two. GENESIS v1.30 already
+summarizes this as the spinor and its two omega twists.
+
+Personally read the complete FINDINGS, producing code and test, and
+inspected its stored E4 output. The producer and stored output match
+main's recorded SHA256s. Byte-faithful copies and SOURCE.json live in
+specification_audit_2026_10_16/received_B1609, recovered by the metadata-only
+recover_b1609.rb. This is verified retrieval of an existing computation,
+not a fresh execution or independent mathematical acceptance.
+
+Therefore a blanket "the restriction was not computed" is not current
+for this coefficient model. The exact basis/lift identification with
+B1641's presentation, and then with the physical critical trace quotient,
+still needs to be shown. Reuse E4 and check those maps; do not repeat its
+restriction merely because the latest task register forgot it. The
+retained graded positive and the ungraded alternatives both survive.
+
 ## What the personally read instruments actually check
 
 Read in full: B1606 FINDINGS and puncture_condition.py; B1641 FINDINGS,
@@ -99,3 +123,27 @@ valid failure is scoped to that map, symmetry and operator, not to the
 generated architecture. A valid positive removes an input only when
 the admissibility requirement is itself derived. No extension of the
 supplied compact-E8 parent is resumed by this source crosswalk.
+
+## Further source reading: the cutoff and domain concern different fields
+
+After the first crosswalk landing, personally read main B1651's complete
+FINDINGS and second Szego addendum, and B1654's complete FINDINGS, at
+the same pinned main head. These three readings supplement, rather than
+alter, the nine external-source records in the initial reconciliation.
+No producer in those three sources was rerun by this reading.
+
+B1651's addendum describes the holomorphic doublet's half-pole at the
+puncture and its bilinear pairing's simple pole. B1654 explicitly assigns
+the finite common L2 norm to the modes called matter in its dictionary,
+and the logarithmically cutoff-dependent norm to the Higgs boundary
+class. Thus its L is not already the matter-domain subspace Lambda.
+This is a banked distinction to reuse, not a new integrability discovery.
+
+A proposed common end law must identify which field's operator, domain,
+norm and boundary response it constrains, and exhibit any coupling that
+links those constraints. Neither the shared puncture nor a shared word
+"end" supplies that link. The positive opportunity is to derive that
+relationship from admitted structures, not to insert one boundary
+condition separately for the index and another for the desired masses.
+The source readings do not decide physical field admission or establish
+a universal obstruction to such a joint law.

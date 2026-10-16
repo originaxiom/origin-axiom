@@ -1,5 +1,15 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+Latest terminal maintenance atf2c8355cb:12selectedPASS129.32s,16pins/
+18134tracked/index unchanged; governance28PASS/twoFAIL, attribution and
+seal-provenance. Vacuity/path/relay checks PASS; policy/history questions
+remain with main, no waiver. Specification source coverage10mapped/175
+pending, not complete packet audits. B1609 E4's existing2T restriction
+recovered with original source/data hashes; main asked to refresh P-184.
+Actual operator-trace action, parity-admissibility and coupled end law
+remain. B1654's Higgs cutoff is distinct from the matter domain; no
+separate boundary choices inserted to obtain counts or masses. Goal ACTIVE.
+
 October16 current order is the approved P-181/P-184 reorientation, not
 the older supplied-parent extensions below. Session goal read confirms
 ACTIVE: coverage-accounted specification first, reuse native derivations,

@@ -1,5 +1,17 @@
 # Changelog
 
+October16 terminal repair atf2c8355cb:12selectedPASS129.32s,16pins/
+18134tracked/index unchanged, governance28PASS/twoFAIL122.939799s.
+Vacuity/path/relay PASS, attribution/provenance not waived. Full captures
+and CORRECTED_VALIDATION preserve every earlier failure. Source audit
+recovers main B1609 E4's already-computed2T restriction on B1606's six,
+including stronger parity-graded extreme positive; source/data hashes
+match main, not a fresh execution. Focused relay asks P-184 prior-art
+refresh; actual basis/critical-trace and end-admissibility still to earn.
+Further B1651/B1654 reading preserves finite matter norm versus Higgs
+log-cutoff distinction; no new physical theorem, complete specification,
+full-suite/main/recipient acceptance or TOE. Goal ACTIVE, audit continues.
+
 October16 specification source crosswalk:10 initial proof readings now
 property-mapped,175 initial rows PENDING, nine additional main sources
 read, no complete packet re-audit/history census claimed. B1606's

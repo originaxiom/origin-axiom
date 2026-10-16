@@ -1,0 +1,70 @@
+{
+  "grade": "post-run maintenance custody and targeted regression; no new scientific experiment",
+  "attempts": {
+    "first_attempt": {
+      "source_head": "076b05bef3598a2e2cf5f87db866d14ccdce9a9a",
+      "source_pins": 16,
+      "tracked_files": 18047,
+      "state_unchanged": true,
+      "all_available_process_receipts_match_raw_logs": true,
+      "exit_codes": {
+        "focused": 4,
+        "inventory": 1,
+        "vacuity": 0,
+        "relay": 1,
+        "governance": 1
+      },
+      "passes": 27,
+      "failed_gates": [
+        "attribution",
+        "seal-provenance",
+        "relay-debt"
+      ],
+      "full_suite_run": false,
+      "physical_goal_achieved": false
+    },
+    "corrected": {
+      "source_head": "f2c8355cb1057585e84e0dd088c3d4b48e1a908f",
+      "source_pins": 16,
+      "tracked_files": 18134,
+      "state_unchanged": true,
+      "all_available_process_receipts_match_raw_logs": true,
+      "exit_codes": {
+        "focused": 0,
+        "metadata_capture": 0,
+        "vacuity": 0,
+        "relay": 0,
+        "governance": 1
+      },
+      "passes": 28,
+      "failed_gates": [
+        "attribution",
+        "seal-provenance"
+      ],
+      "full_suite_run": false,
+      "physical_goal_achieved": false
+    }
+  },
+  "selected_regression_summary": "12 passed in 129.32s (0:02:09)",
+  "original_16_pins_still_match": true,
+  "metadata_payloads_agree": true,
+  "missing_inventory_receipt_not_reconstructed": true,
+  "full_failure_population": {
+    "scope": "Exact existing gate populations; metadata diagnosis, not waived scientific provenance",
+    "attribution_paths": 7,
+    "provenance_paths": 647,
+    "provenance_ledger_occurrences": 6174,
+    "provenance_extension_counts": {
+      ".md": 218,
+      ".json": 96,
+      ".py": 287,
+      ".rb": 43,
+      ".log": 3
+    },
+    "original_records_modified": false,
+    "gate_or_baseline_modified": false
+  },
+  "test_vacuity_remediated": true,
+  "all_governance_remediated": false,
+  "non_author_or_recipient_acceptance": false
+}

@@ -20934,3 +20934,35 @@ PUBLICATION_PATH_REPAIR reviewed/sealed before fresh capture; original
 new scientific experiment, main acceptance, end selection or full TOE.
 Specification-first goal remains ACTIVE; two exact policy/history
 questions with main and actual induced puncture trace action stay open.
+
+October16 corrected terminal at published/server-confirmed
+f2c8355cb1057585e84e0dd088c3d4b48e1a908f:12selectedPASS129.32s;
+governance28PASS/twoFAIL122.939799s, actual exit1. Original16pins/
+18134tracked/index unchanged; full before/after states agree. Vacuity,
+path-refs and relay-debt PASS. Attribution and seal-provenance remain
+failed, no baseline/gate/raw-evidence waiver. Complete corrected capture
+and CORRECTED_VALIDATION retain original and public hashes, commands,
+actual exits and all earlier collection/receipt/path failures. No full
+suite, independent analytic/main/recipient or physical acceptance.
+
+Source-reading audit recovers an actual prior result before a new run:
+main B1609 E4 already computes the even-word2T restriction of B1606's
+six coefficient matrices, three inequivalent doublets, ungraded indices
+minus3/minus1/plus1/plus3 and parity-graded extremes only. Personally
+read full FINDINGS/producer/test and stored E4; producer/data SHA256s
+match main's hash record. Byte-faithful sources and SOURCE receipt
+recovered by metadata-only script, no import or execution. P-184's
+blanket not-computed wording is too broad for this model; exact B1606/
+B1641 basis/lift and physical critical-trace identification remain.
+Focused sender relay registered OPEN, no self-bank or new physical result.
+
+Further main B1651/Szego addendum and B1654 full FINDINGS read: the field
+dictionary's matter has finite norm; its logarithmic L normalizes the
+Higgs boundary class. A common end law needs the actual field/operator/
+coupling map, not identification through the word end. Conditional
+laboratories are alternative premises, not one compulsory union of all
+parents. Source coverage remains10mapped/175initial pending, not complete
+packet/history re-audits. Policy/history questions to main stay precise;
+read-only specification work continues under ACTIVE approved goal.
+No new scientific packet, supplied-parent extension, selected physical
+three/SM/gravity/observer/qualia or full TOE completion is claimed.

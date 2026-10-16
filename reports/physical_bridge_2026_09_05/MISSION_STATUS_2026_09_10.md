@@ -1,5 +1,14 @@
 # Physical-bridge mission status and next questions
 
+Latest terminal maintenance atf2c8355cb:12selectedPASS129.32s, all16pins/
+18134tracked/index unchanged, governance28PASS/two remaining FAIL
+(attribution/provenance). Vacuity/path/relay repairs verified, no waiver
+or full-suite acceptance. Specification10proof-source mappings/175
+initial pending, not complete packet audits. B1609 E4 restriction to2T
+already exists; original source/data hashes checked, not re-executed,
+focused relay to main. Actual critical-trace action/end-admissibility
+still the target. Supplied-parent extensions paused; goal ACTIVE.
+
 October16 current campaign: approved specification-first reorientation
 P-181/P-184, persisted goal ACTIVE. New supplied-parent extensions paused.
 Reuse existing native maps, identify required supplied properties and

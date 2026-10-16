@@ -122,3 +122,22 @@ main citations now point to their actual pinned main commit, while full
 original rows stay in the reconciliation evidence. No fake local file,
 gate waiver, source deletion or silent history rewrite is used. A fresh
 capture on the published repaired state is still required.
+
+## Repaired-state capture is terminal
+
+At published/server-confirmed f2c8355cb1057585e84e0dd088c3d4b48e1a908f:
+twelve selected tests pass in129.32s, all original16pins/18134tracked
+contents/index unchanged. Full governance is28PASS/twoFAIL: attribution
+and seal-provenance only. Path-refs, relay-debt and test-vacuity all pass;
+the remaining failures are not waived. Governance elapsed122.939799s,
+actual exit1. Complete raw/presentation custody and
+CORRECTED_VALIDATION.json retain the entire chain, including the introduced
+path error and its successful repair. Source and capture checks pass;
+this is not a full suite, independent analytic or physical acceptance.
+
+Read-only specification work can continue while main resolves the exact
+rule questions. Its first reconciliation maps ten proof-source readings,
+not ten completed packet audits. It also recovers B1609's existing
+six-coefficient 2T restriction and preserves the conditional parity-graded
+positive, without rerunning it or identifying it with a physical domain.
+The actual history and critical-trace/end-law obligations remain open.

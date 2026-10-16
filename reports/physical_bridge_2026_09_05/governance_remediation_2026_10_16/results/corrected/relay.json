@@ -1,0 +1,12 @@
+{
+  "command": [
+    "<existing-python-environment>/bin/python3",
+    "-B",
+    "scripts/checks/relay_debt.py"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 4.159251000004588,
+  "log_bytes": 47,
+  "log_sha256": "65cfe5453e11adc645cc37851b56e921d039431516341fb53e5e7c3e39ce6e09"
+}

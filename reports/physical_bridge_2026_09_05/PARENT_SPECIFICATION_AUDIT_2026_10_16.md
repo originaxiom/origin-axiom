@@ -7,6 +7,13 @@ identifications. These rows are source-based dependencies, not new
 scientific results or a claim that the listed parent is the unique route
 to physics.
 
+Premises must stay attached to their own constructions. The union of
+conditional laboratories is an inventory of supplied structure, not a
+requirement that one physical theory simultaneously instantiate mutually
+different operators, metrics or boundary models. Common native properties
+and alternative physical realizations need separate entries. A failure
+of one realization does not discharge or refute the others.
+
 ## Population and coverage
 
 The initial machine inventory is
