@@ -20622,3 +20622,21 @@ identification24rows/9UNEARNED baseline9, five controls PASS with known
 blind spot. LIVE/governance follows; full foundational physical SM/
 three/parameters/gravity ACTIVE, no different-parent count/mass/index/gap
 or full-suite/nonauthor/recipient/main/physical acceptance claimed.
+
+At published6b1466604,12selected LIVE PASS767.52s, capture768.624817s;
+actual new+Gauss command verified, both55/39methods rerun. All259pins/
+16,908tracked/index unchanged. First governance25PASS/fiveFAIL29.643603s:
+four inherited categories plus11new LAW_MAP rows missing row-level
+lineage. Citations repaired with explicit B1138 CONTEXT ONLY and actual
+new proof/resolving LIVE test paths; no science, gate or baseline change.
+First failing capture retained; fresh governance follows. Reported first3
+failure lines equal preceding Gauss, NOT full untruncated debt audit.
+
+Later fetch SMf3255c108: named review HELD FOR OWNER, not declined or
+complete; substantive section144 personally read and answered in sender
+relay. THIS packet computes source Euler/Hessian/current/end data in
+one supplied model, not a quantity on every allowed thread. No weave
+claim earned. NEXT admission gate placed FIRST: audit existing full-
+architecture -> carrier/bundle/action/joining maps and retain their
+relations/lifts before further physical/global claims. This is not a
+corpus-wide absence claim. Full physical goal unchanged and ACTIVE.

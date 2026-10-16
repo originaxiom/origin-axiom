@@ -17,6 +17,13 @@ failures/interruptions preserved. Full foundational physical SM/three/
 parameters/gravity ACTIVE. LIVE/governance/nonauthor/global acceptance
 remain separate, no other-parent count/mass/index/gap transplant.
 
+Admission gate FIRST next: audit existing full-architecture -> actual
+carrier/spin-gauge bundle/field roster/action/joining maps. The completed
+local response is not an all-thread weave observable. SMf3255c108's
+section144 question answered; its named review held for the owner, not
+declined/completed. Do not deepen an unselected parent as a substitute
+for this map. Existing conditional checks remain positive controls.
+
 October16 actual Gauss/charge:39/39each at published42be245f6,
 247pins/15,801tracked/index unchanged, full2,625,191byte records agree.
 Actual WZ/K/YM source fixes kinetic2/momentum4 with retained explicit

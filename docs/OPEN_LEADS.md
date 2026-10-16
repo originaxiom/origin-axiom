@@ -7347,3 +7347,20 @@ review still required; unchanged first-five reported paths would not
 certify no new debt. LIVE/governance and nonauthor banking/analytic
 review remain distinct. No new B-dir/kill or generated-view population
 change claimed. Full foundational physical SM/three/gravity ACTIVE.
+
+Admission-first refinement after SMf3255c108 section144: THIS packet
+is a conditional local source check, not an all-thread quantity under
+a generated rule. PB-SOURCE-GLOBAL-CHARGED-ADMISSION starts by auditing
+the existing full-architecture -> carrier/spin-gauge bundle/field roster/
+action/joining maps, explicitly retaining relations and lifts and pricing
+supplied choices. Do not assume one independent copy of this parent
+for every thread or claim an absent map without a corpus search. The
+intended physical output is one admitted global charged spectrum and
+normalized interactions, not an arbitrary scalar per thread. Named
+review HELD FOR OWNER, not declined/completed; sender reply recorded.
+
+All-ten packet at6b1466604:12selected LIVE PASS767.52s,259pins/
+16,908tracked/index unchanged. First governance25PASS/fiveFAIL catches
+11new law rows' missing per-row lineage; explicit context plus actual
+proof/test citations repaired, fresh governance follows. No science/
+gate/baseline change or inherited provenance debt waiver.

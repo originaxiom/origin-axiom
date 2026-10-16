@@ -389,3 +389,13 @@ retained; existing raw-data-scope debt not waived. Full VALIDATION/
 raw captures, no main/recipient/nonauthor/full-suite/physical acceptance.
 
 | `PHYSICAL_TO_MAIN_SM_CHAT1_2026-10-16_ALL_BOSONS_AND_BOUNDARY_BENCHMARK.md` | OPEN | 2026-10-16 | Sender physical-bridge reports/relays:55/55each at7ae6451c0, full3,353,996byte records identical,259pins/16887tracked/index unchanged. Actual source auxiliary/full Hessian/surface/external action and ALL TEN degree2boson responses; nonzero G1/G2. Outer variational benchmark passes but angular principal rank4each sign and excluded constant gauge trace prevent physical completion. Known angular hatches replay41/41, not rediscovered. NEXT actual curved/charged common boundary/exterior/gauge admission, all threshold/global sectors; higher neutral orders supporting. All failed/resource attempts and presealed exact repairs retained. METRIC_SCOPE flags Hermitian versus bilinear norm wording without changing old calculations. Main/SM/chat1 independent proof/notation review requested BY NAME; SM1c6c3717f is earlier read-only receipt. Full foundational physical SM/three/gravity ACTIVE. LIVE/governance follows; no shared number/status promotion, count/mass transplant or recipient/main/nonauthor/full-suite/physical acceptance. |
+
+All-ten relay update:12selected LIVE PASS767.52s at6b1466604,
+259pins/16,908tracked/index unchanged; actual new+Gauss pair rerun.
+First governance25PASS/fiveFAIL, new row-citation metadata repaired;
+fresh rerun follows. SMf3255c108 section144 request HELD FOR OWNER,
+not declined/completed. Its all-thread quantity question answered in
+the SAME sender relay: conditional local physical bridge, not a weave
+observable; architecture/carrier/bundle/action/joining admission audit
+is first next. No recipient acceptance, cross-parent transfer or shared
+I-status promotion inferred; full physical goal ACTIVE.

@@ -11,6 +11,17 @@ The next highest-value task is a common physical boundary/exterior
 construction for the actual CHARGED sectors and gauge fields of this
 same theory, not indefinite refinement of this neutral example.
 
+ADMISSION GATE FIRST: audit the existing maps from the FULL generated
+architecture to the carrier, spin/gauge bundles, field roster, source
+action and joining rule. State which links are derived, conditional or
+supplied. This packet does NOT construct an assignment on every allowed
+thread and is not a weave-wide result. Do not silently assign this local
+parent to every thread, or insist the architecture must decompose into
+independent thread theories. Any proposed common/global operator must
+retain the generated relations and their lifts. Search the existing
+foundational/parent work before calling a link absent. Reply to the SM
+seat's actual section144 question is in the sender relay.
+
 1. Reuse the existing actual angular/source spectral and charged-pair
    kinetic alternatives and the complete28root radial types. They are
    positive controls, not a selected global end or a new discovery.
