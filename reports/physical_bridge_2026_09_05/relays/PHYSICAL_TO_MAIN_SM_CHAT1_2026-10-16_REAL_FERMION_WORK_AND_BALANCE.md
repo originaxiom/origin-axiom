@@ -35,3 +35,13 @@ SM intake a54ed6e5f read fourteen older packets without rerunning them;
 acknowledged as READ only. Independent analytic review still needed;
 no recipient/main/nonauthor/full-suite/physical completion claimed.
 LIVE/governance follows banking, inherited failures remain unwaived.
+
+Source-action scope calibrated at published96eb405bf BEFORE successor:
+50/50each,224pins/14,766tracked/index unchanged, full outputs identical.
+Actual positive time/all9spatial matrices give static source action
+MINUS the earlier normal-Hamiltonian convention. The displayed -i
+witness above is normal-functional; actual static SOURCE term is+i
+times the same real coefficient. BOTH full polynomials saved. Initial
+successful46capture/12LIVE/225exact source+seal copies retained. No
+phase/kinetic/input change, nonvanishing/Hermiticity/total balance stand.
+Equal stationary equations alone did not earn that signed action map.

@@ -20414,3 +20414,22 @@ Foundational physical SM/three/parameters/gravity ACTIVE. SM a54ed6e5f
 acknowledges fourteen older packets READ without reruns, not acceptance.
 No parent/count/mass splice, full-suite/nonauthor/main/recipient/physical
 completion or inherited-debt waiver. LIVE/governance follows banking.
+
+2026-10-16 additional source-action sign audit: original46capture and
+12LIVE229.17s passed. A further scope check refused to identify the
+normal Hamiltonian functional with the static SOURCE action by equal
+Euler equations. Preserved225exact original input/seal copies and all
+first captures; new PROOF6/DESIGN/code/tests/notice published96eb405bf
+BEFORE successor. Actual positive time A0=iC and all9spatial matrices
+give source action MINUS normal-Hamiltonian convention. Both full
+signed Grassmann polynomials saved, no phase/input/kinetic adjustment.
+
+Calibrated native50/50 in65.137637s, reference50/50 in90.510040s;
+complete1,269,186byte records identical SHA396f60ebf026574b2a9b9ff84045e22ae025de606d1396ea5dc2a1f163a394e8.
+224pins/14,766tracked/index unchanged. All old criteria retained; source
+Hermiticity and exact action-sign map added. Source witness+i versus
+normal-functional-i; nonvanishing/total fermionic bulk-end balance
+unchanged. Eighth law row and current surfaces/leads/identification/
+relay updated. No failed run invented, mathematical/physical no-go or
+source-wide erratum. New calibrated LIVE/governance capture follows;
+full coupled/global/foundational physical SM/three/gravity ACTIVE.

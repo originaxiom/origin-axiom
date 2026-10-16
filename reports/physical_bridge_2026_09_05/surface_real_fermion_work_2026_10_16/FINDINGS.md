@@ -1,12 +1,11 @@
 # Actual real fermion work survives and has the correct bulk balance
 
-Source-action orientation update: the first46-check work below uses
-the stationary NORMAL HAMILTONIAN functional sign. Its overall sign
-relative to the static Lorentzian source action is being calibrated
-from the actual positive-time/spatial coefficients, PROOF6/DESIGN
-addendum. Original full sources/results are preserved. Do not identify
-the two signed functionals merely from their common stationary equation;
-nonvanishing/Hermiticity/bulk-end balance are unaffected by a global sign.
+Source-action orientation is now calibrated: actual positive-time and
+all9spatial matrices give static Lorentzian source action equal to
+MINUS the stationary NORMAL HAMILTONIAN functional used in the original
+46-check record below. Both full signed polynomials are retained.
+Same stationary equation alone was not that map. Nonvanishing,
+Hermiticity and total bulk/end balance remain unchanged; details below.
 
 The preceding nonzero complex boundary-work matrix survives the
 ACTUAL full source/E8 Majorana condition and genuine Grassmann
@@ -40,6 +39,26 @@ and bitmask exterior contractions agree on the full polynomial. They
 share author/parent/conventions/proof/Sympy, not independent analytic
 acceptance. Standard Majorana/Grassmann/Green methods are credited;
 the new work is the faithful full-source application and balance.
+
+### Additional source action calibration
+
+The original46/46and first12LIVE229.17s selection passed; no failed run
+is invented or hidden. Subsequent scope audit preserved all223original
+inputs plus manifest/seals (225exact copies). PROOF6/DESIGN addendum/
+POST_HOC_REPAIR/code/tests were published at96eb405bf3ded0faa22fdc3519a132d63240ef66
+BEFORE successor. Actual A0=i C16, -i C16 A0=I and EVERY Aj=A0 vj
+give UNIQUE sign-1against the normal Hamiltonian Hj=-i vj. No phase,
+kinetic normalization, old criterion or source equation changed.
+
+Calibrated native50/50 in65.137637s, reference50/50 in90.510040s.
+Full1,269,186byte outputs identical SHA256
+396f60ebf026574b2a9b9ff84045e22ae025de606d1396ea5dc2a1f163a394e8;
+both2728byte diagnostics SHA256
+2ef728f3af6637e41c9f87025750b1e0833e3355cf6d964261fce26e3f676cca.
+224pins/14,766tracked/index unchanged; fingerprint
+f881d2abaa79826baaf7968daa7b0e65d3235234204ad8f2c055db8fe9689044.
+Complete action_calibration_run artifacts retain BOTH normal-functional
+and source-action polynomials, not an overwritten sign convention.
 
 ## Complete real maps rather than a surviving toy block
 
@@ -75,6 +94,11 @@ In the fully saved declared real basis one explicit coefficient is
 
  -i sqrt2 x^2/(1-x^2)^2 xi_2 xi_4.
 
+This displayed sign is the NORMAL HAMILTONIAN convention. The calibrated
+actual static SOURCE-ACTION term is its opposite,
++i sqrt2 x^2/(1-x^2)^2 xi_2 xi_4. Both are Hermitian; the overall sign
+does not make the two functionals identical or change nonvanishing.
+
 It is nonzero throughout the stated interval. Dagger reverses the two
 odd variables as well as conjugating the coefficient, making the term
 Hermitian. The full polynomial agrees by two exterior methods and
@@ -91,10 +115,14 @@ its modes. Both trace choices remain admissible at the tested level.
 
 ## Correct first order action variation rather than a new force
 
-The actual real coefficient action is
+The stationary normal-Hamiltonian coefficient functional is
 
  S_M=-i/2 integral psi^T T(psi'+K psi) dx,
  T=Cdagger V symmetric, T K antisymmetric.
+
+Actual static Lorentzian source action is -S_M by the explicit time/
+all9spatial action calibration above. Its field/bulk/end variations are
+ALL the opposite of the following normal-functional convention.
 
 The Majorana half-factor and actual odd variation give
 

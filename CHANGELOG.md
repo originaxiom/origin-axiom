@@ -1,7 +1,11 @@
 # Changelog
 
-October16 REAL fermion work/balance:46/46each at published36e67bc61,
-223pins/tree/index unchanged. Complete actual16source/248E8 real maps,
+October16 REAL fermion work/balance: initial46/46at36e67bc61; calibrated
+50/50each at published96eb405bf,224pins/tree/index unchanged. Actual
+positive-time/all9spatial coefficients give static source action MINUS
+normal-Hamiltonian functional. Both signed polynomials/first successful
+46capture/225original source+seal copies retained; no input/phase change.
+Complete actual16source/248E8 real maps,
 both trace laws/W/conjugates/external copies. Nonzero Hermitian
 Grassmann boundary term survives; commuting/trace-only tests would
 miss it. Signed bulk/background and BOTH ends balance in the fermionic

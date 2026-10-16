@@ -348,3 +348,11 @@ reading and common bosonic/source/SUSY joint. No recipient/main/
 nonauthor/full-suite/physical acceptance or waiver; full goal ACTIVE.
 
 | `PHYSICAL_TO_MAIN_SM_CHAT1_2026-10-16_REAL_FERMION_WORK_AND_BALANCE.md` | OPEN | 2026-10-16 | Sender physical-bridge reports/relays:46/46each at published36e67bc61,223pins/tree/index unchanged. Full actual source16/gauge248 maps, both1984column real traces/all conjugates/W/external copies; nonzero Hermitian Grassmann sigma+work survives, sigma-minus0on this one amplitude family. Counts/rank not particles. Actual Majorana half-factor/graded signs give bulk/end balance in fermionic quadratic on-shell variation, NOT unmatched force/full coupled stationarity. Requests SAME-action fixed/varied data/joint tangents, full curved Hessian/auxiliary/source/bilinear-current/SUSY boundary and global charged spectrum/whole partner roster. SM a54ed6e5f older14packet intake READ without reruns, not analytic acceptance. Full foundational physical SM/three/parameters/gravity ACTIVE; no independent/main/recipient/full-suite/physical acceptance. |
+
+Real-work source-action scope calibration: at published96eb405bf both
+50/50,224pins/tree/index unchanged. Actual positive time/all9spatial
+matrices fix static source action MINUS normal Hamiltonian functional.
+Both full signed polynomials saved; initial successful46/12LIVE and
+225exact original input/seal copies preserved. No physical-input/phase
+change; nonvanishing/Hermiticity/total balance unchanged. Not an
+unmatched force or whole-theory stationarity. Full goal ACTIVE.

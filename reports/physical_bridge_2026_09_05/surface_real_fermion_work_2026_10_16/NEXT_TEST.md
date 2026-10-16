@@ -7,6 +7,12 @@ quadratic on-shell families. Do not repeat it as unverified; do not
 infer an unmatched force or full coupled stationarity from that result.
 Sigma-minus's restricted-family zero is not a selected boundary law.
 
+Actual source-action sign is ALSO calibrated,50/50each at96eb405bf:
+positive-time/all9spatial matrices give static Lorentzian action MINUS
+the earlier normal-Hamiltonian functional. Use source_action_polynomial
+for source-action work, not the opposite legacy normal-functional
+polynomial. Both-end/bulk signs change together, total balance unchanged.
+
 First define the coupled variational ensemble from the SAME action:
 which bosonic boundary/source/connection data are fixed, which varied,
 and the actual background-dependent admissible fermionic trace. Derive

@@ -847,3 +847,11 @@ generations or measured couplings. Sigma-minus zero on one parameter
 family is not foundational boundary selection. Full common curved/
 bosonic/source/SUSY theory, global spectrum and OA-to-SM/three/gravity
 identifications remain unearned; no shared I-status is promoted.
+
+Source-action orientation now explicitly mapped in PROOF6: actual
+positive time and all9spatial action coefficients fix static source
+action=-normal-Hamiltonian functional. Earlier normal-functional
+polynomial signs are retained and LABELED, not identified by their
+shared stationary equation with Lorentzian source-action signs.
+Calibrated50checks each preserve nonvanishing/real Grassmann/bulk-end
+balance. No source phase/kinetic change or shared I-status promotion.

@@ -7165,3 +7165,13 @@ At published36e67bc61 both46/46 with full identical records,223pins/
 tree/index unchanged. First attempt clean. SM a54ed6e5f reads older
 fourteen packets without reruns, READ only; no independent/main/
 recipient/full-suite or physical acceptance. No universal absence claim.
+
+Real-work source-action calibration at published96eb405bf: actual positive
+time/all9spatial coefficients give static source action=-normal Hamiltonian
+functional. Both50/50,224pins/tree/index unchanged; BOTH full signed
+Grassmann polynomials retained. Initial successful46/46and12LIVE plus
+225exact source/seal copies preserved. No input/phase/kinetic change.
+The old -i witness is normal-functional, actual static source witness+i;
+nonvanishing/Hermiticity/total bulk-end balance unchanged. Equal stationary
+equations alone did not earn this map. Use calibrated source work for
+the coupled variational ensemble; no new unmatched-force or full-SM claim.
