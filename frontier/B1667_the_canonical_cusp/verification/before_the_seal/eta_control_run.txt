@@ -1,0 +1,5 @@
+|Omega| for LR, RL, LR*RL^-1: 0.669492639533 0.669492639533 0.669492639533
+ratio O2/O1: (0.5 - 0.866025403784j)  arg/pi: -0.333333333333
+invariance check (another base point): 1.1025e-31
+L_max(omega) from eta^4: 0.69208004049    (the Lame route gave 0.692080)
+L_2(omega) from eta^4 (h = 3): 2.78647514288    (the Lame route gave 2.786475)

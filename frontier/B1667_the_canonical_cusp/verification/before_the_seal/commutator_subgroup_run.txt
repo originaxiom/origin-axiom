@@ -1,0 +1,2 @@
+[SL(2,Z) : <LR, RL>] = 12
+[LR,RL] = [[-7, 6], [-6, 5]]  tr[L,R] = 3; all checks pass
