@@ -187,21 +187,42 @@ def run(method):
     ck('nonharmonic outer subtraction fails actual operator',not zero(lap(hcart+s.Matrix([0,r,0]))))
     ck('outer zero benchmark retains every actual boson equation',all(zero(v) for row in outerres for v in row.values()) and all(zero(v.subs(r,R)) for row in outer for v in row.values()))
     ck('outer correction preserves odd compact reality and transition',all(zero(-tc*conj(v)-v) and zero(v.subs(z,-z)-mon*v) for row in outer for v in row.values()))
-    # Exact coefficient asymptotics, not positivity of a Grassmann number.
+    # Exact rational valuations on a finite spanning basis; no R-dependent
+    # symbolic series or assumption that a Grassmann number is positive.
+    pb=[s.Matrix([0,r/den**2,0]),s.Matrix([g*r**s.Rational(3,2)*z/den**2,0,0]),s.Matrix([0,0,g*r**s.Rational(3,2)/(z*den**2)])]
+    basis=pb+hb;basisD=[[D(v,j) for j in range(4)] for v in basis];bco=[];spanning=True
+    for N,row in enumerate(response):
+        cr={}
+        for st,v in row.items():
+            ks=[clean(v[1]/pb[0][1]),0,0] if N<4 else [0,clean(v[0]/pb[1][0]),clean(v[2]/pb[2][2])] if N<6 else [0,0,0]
+            cs0=list(map(s.sympify,ks))+[-s.sympify(k) for k in coeffs[N][st]];cr[st]=cs0
+            spanning &= all(not k.has(r,z) for k in cs0) and zero(outer[N][st]-sum((k*h for k,h in zip(cs0,basis)),s.zeros(3,1)))
+        bco.append(cr)
+    ck('actual outer response exactly spans finite constant coefficient basis',spanning)
     u=s.Symbol('positive_inner_sqrt',positive=True)
-    bounded=all(all(clean(vv0.subs(r,u*u)).as_leading_term(u).as_powers_dict().get(u,0)>=0 for vv0 in v if vv0!=0) for row in outer for v in row.values())
-    gradfinite=True
-    for row in outer[:6]:
-        for v in row.values():
-            for j in range(4):
-                for q0 in D(v,j):
-                    if q0!=0:gradfinite &= bool(clean(q0.subs(r,u*u)).as_leading_term(u).as_powers_dict().get(u,0)>-2)
+    def valuation(v):
+        q0=s.cancel(v.subs(r,u*u));num,de=q0.as_numer_denom();np=s.Poly(num,u);dp=s.Poly(de,u)
+        n=min(m[0] for m,c in np.terms());d=min(m[0] for m,c in dp.terms())
+        return n-d,str(clean(np.nth(n)/dp.nth(d)))
+    valrows=[];bounded=True;gradfinite=True
+    for k,v in enumerate(basis):
+        fields=[];derivs=[]
+        for c,q0 in enumerate(v):
+            if q0!=0:
+                power,lead=valuation(q0);fields.append([c,power,lead]);bounded &= power>=0
+        for j,dv in enumerate(basisD[k]):
+            for c,q0 in enumerate(dv):
+                if q0!=0:
+                    power,lead=valuation(q0);derivs.append([j,c,power,lead]);gradfinite &= power>-2
+        valrows.append({'field_valuations':fields,'all_covariant_derivative_valuations':derivs})
     ck('outer corrected coefficient norm and derivative energy integrable at inner end',bounded and gradfinite)
+    ck('nonintegrable inner coefficient control rejected',valuation(1/r)[0]==-2 and valuation(1/r**2)[0]==-4)
+    def outerD(N,st,j):return cm(sum((k*h[j] for k,h in zip(bco[N][st],basisD)),s.zeros(3,1)))
     auxout={};momenta={};aux_nonzero=False;wrong_aux_reality=False
     for st in pairs:
+        print('STAGE actual auxiliary and boundary coefficient '+st,file=sys.stderr,flush=True)
         ai=[outer[4+i][st] for i in range(6)]
-        Di=lambda M,i:D(M,i-2) if i>=2 else s.zeros(*M.shape)
-        dF=lambda i,j:cm(Di(ai[j],i)-Di(ai[i],j))
+        dF=lambda i,j:cm((outerD(4+j,st,i-2) if i>=2 else s.zeros(3,1))-(outerD(4+i,st,j-2) if j>=2 else s.zeros(3,1)))
         cur=[cm(sum((sign*dF(i,j) for i,j,sign in row),s.zeros(3,1))) for row in CSPEC]
         muv=2*s.I*cur[0];bs=[-s.sqrt(2)*(cur[1]-s.I*cur[2]),s.sqrt(2)*(cur[3]-s.I*cur[4]),-s.sqrt(2)*(cur[5]-s.I*cur[6])]
         Gs=[cm(-tc*conj(b)) for b in bs];barGs=[cm(-b) for b in bs]
@@ -228,6 +249,8 @@ def run(method):
     C=kron(s.Matrix([[0,1],[1,0]]),eye(8));P=s.diag(*[int(j in (2,3)) for bar in range(2) for j in range(4) for spin in range(2)])
     psi=read(oldcert['records']['family']['actual_amplitude_fermion'],48,4)
     ck('actual fermion lies in benchmark isotropic normal trace space',zero(kron(P,eye(3))*psi-psi) and all(zero(P.T*C.H*v*P) for v in vv[2:4]))
+    Plambda=s.diag(*[int(j==0) for bar in range(2) for j in range(4) for spin in range(2)])
+    ck('benchmark explicitly excludes earlier constant gauge multiplet trace',zero(P*Plambda) and not zero(Plambda))
     B=cm(s.I*vv[2]*vv[3]);principal={}
     ck('actual angular principal Hermitian involution',zero(B.H-B) and zero(B*B-eye(16)))
     for sign in (1,-1):
@@ -238,6 +261,7 @@ def run(method):
     records['degree2']={'responses':[{st:enc(v) for st,v in row.items()} for row in response], 'outer_zero_responses':[{st:enc(v) for st,v in row.items()} for row in outer],
       'all_ten_Euler_residuals':[{st:enc(v) for st,v in row.items()} for row in residual], 'outer_Euler_residuals':[{st:enc(v) for st,v in row.items()} for row in outerres],
       'auxiliary_responses':auxout,'outer_free_boson_momenta':momenta,
+      'inner_basis_certificate':{'six_columns':[enc(v) for v in basis],'valuations':valrows,'outer_coefficients':[{st:list(map(str,ks)) for st,ks in row.items()} for row in bco]},
       'outer_linearity_certificate':{'all_ten_generic_block_residuals':[a.sf.encoded(v) for v in blockbad], 'harmonic_columns':[enc(v) for v in hb],
         'actual_coefficients':[{st:list(map(str,ks)) for st,ks in row.items()} for row in coeffs], 'method':'exact universal block and linearity; direct particular Euler retained; no expanded two-radius residual shortcut'}}
     records['boundary']={'free_trace_projector':enc(P),'actual_angular_principal':enc(B),'principal_tests':principal,

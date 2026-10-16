@@ -56,3 +56,23 @@ byte contents, timeout, pins/tree/index checks and failed snapshots;
 it additionally retains full before/after hash inventories and original
 manifests automatically. No source action, sign, field or tolerance
 changes. Both methods still share author/proof/Sympy.
+
+## Inner bound performance repair
+
+At c0f7e3d04 the streamed run was deliberately stopped after426.408380s,
+exit-15, with no FAIL line. The universal ten-field block, complete
+outer-zero response equations and reality/transition had PASSED.
+The next step was the direct two-radius inner asymptotic expansion.
+All259pins/16,622tracked/index unchanged. The capture automatically
+preserved complete source snapshots and original manifests. No
+mathematical exclusion follows from this resource interruption.
+
+The successor uses a six-column exact spanning/valuation certificate,
+proved in PROOF before launch. It checks the actual reconstruction,
+all coefficient independence, every derivative and known nonintegrable
+controls. This removes a slow series operation, not an equation or
+integrability threshold. First derivatives for auxiliary/source laws
+use the same exact linearity. The explicit exclusion of the earlier
+constant gauge-multiplet TRACE is a benchmark-control, not a physical
+gauge no-go. Earlier angular-plane counterexample/hatches are credited
+at their actual source, not claimed as newly discovered here.

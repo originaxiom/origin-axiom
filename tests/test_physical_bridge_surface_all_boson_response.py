@@ -21,12 +21,12 @@ def test_all_ten_actual_response_equations(cert):
     for k in ('all freshly computed current coefficients faithfully projected','all ten actual boson Euler equations at fermion degree two','independent polar and Cartesian scalar full operators on response','time and all five spatial source signs independently retained','wrong source signs and normalization fail','all degree two responses have correct odd compact reality','all responses retain actual half winding gauge transition','actual linear Lorenz condition all coefficients'):assert cert['checks'][k]
     assert len(cert['records']['degree2']['all_ten_Euler_residuals'])==10
 def test_outer_homogeneous_freedom_and_actual_auxiliary_conditions(cert):
-    for k in ('actual Cartan and both dual root harmonic freedoms','universal all ten off background Hessian block identity','actual outer harmonic coefficients independent of both normal coordinates','nonharmonic outer subtraction fails actual operator','outer zero benchmark retains every actual boson equation','outer correction preserves odd compact reality and transition','outer corrected coefficient norm and derivative energy integrable at inner end'):assert cert['checks'][k]
+    for k in ('actual Cartan and both dual root harmonic freedoms','universal all ten off background Hessian block identity','actual outer harmonic coefficients independent of both normal coordinates','nonharmonic outer subtraction fails actual operator','outer zero benchmark retains every actual boson equation','outer correction preserves odd compact reality and transition','actual outer response exactly spans finite constant coefficient basis','outer corrected coefficient norm and derivative energy integrable at inner end','nonintegrable inner coefficient control rejected'):assert cert['checks'][k]
     for st in cert['records']['degree2']['auxiliary_responses']:
         assert cert['checks']['all six auxiliary and D responses '+st]
         assert cert['checks']['actual free normal boson momenta zero at outer '+st]
 def test_actual_variational_boundary_tests_are_not_spectrum_claim(cert):
-    for k in ('raw auxiliary normal primitives in undifferentiated boundary ideal','raw fermion normal primitives in undifferentiated boundary ideal','actual fermion lies in benchmark isotropic normal trace space'):assert cert['checks'][k]
+    for k in ('raw auxiliary normal primitives in undifferentiated boundary ideal','raw fermion normal primitives in undifferentiated boundary ideal','actual fermion lies in benchmark isotropic normal trace space','benchmark explicitly excludes earlier constant gauge multiplet trace'):assert cert['checks'][k]
     assert cert['records']['meaning']['benchmark_variational_tests_passed']
 def test_principal_counterexample_and_positive_control_both_retained(cert):
     for sign in ('1','-1'):

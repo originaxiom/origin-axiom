@@ -112,3 +112,35 @@ with all ten equations included. A nonharmonic added r column must
 fail. First derivatives, auxiliary responses and boundary momenta are
 still computed on the actual corrected fields. The criterion is the
 same exact Euler equation, not a numerical cutoff or relaxed residual.
+
+## Finite basis for the actual inner bounds
+
+The streamed successor passed the outer Euler and reality tests, then
+was stopped in the two-radius asymptotic expansion. The exact repair
+uses the three particular columns (0,r/s²,0),
+(g*r^(3/2)*zeta/s²,0,0), (0,0,g*r^(3/2)/(zeta*s²)), together with the
+three harmonic columns. Every actual corrected response must reconstruct
+EXACTLY with coefficients depending on neither r nor zeta. At fixed
+0<R<g^-2 these coefficients are finite; g>0 is supplied.
+
+All six columns and ALL their four actual covariant derivatives are
+tested separately. Substitute r=u²,u>0. For a rational function in u,
+its order is the lowest numerator degree minus the lowest denominator
+degree after exact cancellation. This is a finite polynomial certificate,
+not a numerical sample or truncated series. Nonidentical Laurent
+coefficients in zeta can vanish at special angles only by IMPROVING
+this lower bound; their denominators have no zeros on the unit circle.
+Field order>=0 gives bounded coefficients. Derivative order>-2 gives
+integrability of r*abs(Da)² dr. Actual first derivatives/auxiliaries
+use the same verified constant-coefficient decomposition. The r^-1
+field and r^-2 derivative controls are rejected. These coefficient
+bounds are not Grassmann positivity or finite absolute body action.
+
+The benchmark also excludes a nonzero internally constant vector
+superfield by its DEFINITION V(R)=0; its source projector annihilates
+the earlier constant lambda slot. Thus it is not the final SM gauge
+boundary law. This does not exclude every other gauge profile or end
+ensemble. The earlier actual adapted-plane angular failure and spectral/
+charged alternatives in surface_angular_response_2026_10_16 are PRIOR
+ART, not a new literature discovery or a programme kill. Here the test
+is on the concrete source-superfield trace with its induced response.

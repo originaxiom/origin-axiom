@@ -9197,3 +9197,10 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 |---|---|---|---|---|
 | 2026-10-16 | Exact outer linearity and streamed capture BEFORE successor | `reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/DESIGN.md` | `e98206219ebcd171ea8106acb71dba5a4047fe1b3b7d4a6876ba63d28ff4fbb8` | Preregistration and full transitive hash closure, not raw data classified as design |
 | 2026-10-16 | Exact outer linearity and streamed capture BEFORE successor | `reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/INPUTS.json` | `aaa7c0dee83488d8599d47a34c521544c7f3fcda020bd6d0e0d28a977652a8d1` | Preregistration and full transitive hash closure, not raw data classified as design |
+
+## All boson response Exact spanning valuation and actual gauge trace scope BEFORE successor
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-16 | Exact spanning valuation and actual gauge trace scope BEFORE successor | `reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/DESIGN.md` | `e98206219ebcd171ea8106acb71dba5a4047fe1b3b7d4a6876ba63d28ff4fbb8` | Preregistration and full transitive hash closure, not raw data classified as design |
+| 2026-10-16 | Exact spanning valuation and actual gauge trace scope BEFORE successor | `reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/INPUTS.json` | `45d9f50121c5fc0c7115e40bd66dcc7c84d9fae746529181433c255db70f1dc4` | Preregistration and full transitive hash closure, not raw data classified as design |
