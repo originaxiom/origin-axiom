@@ -7063,3 +7063,50 @@ Critical response validation at publishedc66def9f0:12selected LIVE PASS
 Governance26PASS/four inherited FAIL, first3lines byte-identical;42stale/
 168open, review599. Full VALIDATION/raw states/streams/receipts retained.
 No waiver/full-suite/nonauthor/main/physical acceptance or goal shrink.
+
+## October16 all angular response and first order boundary work
+
+PB-SURFACE-COUPLED-CAUCHY-DATA and INTERACTING-CAUCHY-TRANSFER POSITIVE
+MODEWISE for the specified supplied root/source normal model:
+"The SAME supplied root/source normal model now has a convergent
+modewise Cauchy-response construction for EVERY shifted angular integer
+and every finite real horizontal momentum,0<x=g sqrt(r)<1."
+Source surface_all_angular_response_2026_10_16/FINDINGS.md and PROOF1-3,
+LIVE all-angular recurrence/convergence/L2 tests plus SAME actual critical
+antecedent. All n!=0regular branches now covered; previous wider uniform
+JOINT frequency/curved/global/exterior duties remain OPEN, not overclosed.
+No physical particle/generation count or root/action selection follows.
+
+PB-SURFACE-REGULAR-RESONANCE POSITIVE for n!=0: unique possible first
+regular resonance has ZERO forcing by actual stable-stable Higgs block0.
+Both symbolic-n recurrences and injected-vertex failure control verify
+compatibility. No log needed in THESE regular series; n=0critical log
+branch remains essential and is retained. Not a generic no-log theorem.
+
+PB-SURFACE-FIELD-DEPENDENT-RESPONSE PARTIAL POSITIVE: untraced first-
+order work and physical-variable derivative computed. Actual critical/
+regular sigma+work rank2despite trace0; keeping both columns is necessary.
+"Nonzero work is NOT inconsistency, and zero work on one family does
+NOT select a boundary law." Same FINDINGS/PROOF4-5 and full-work LIVE
+tests. Complete nonlinear boson/auxiliary/source/SUSY boundary law remains
+OPEN. Frozen plane, trace-only work and fixed-beta substitution fail
+their controls; no physical energy/coupling interpretation is promoted.
+
+PB-SURFACE-JOINT-FREQUENCY OPEN: new graph bound is uniform in angular
+integer at each finite beta on a beta-dependent small cut. Test uniform
+joint horizontal/angular complement at a FIXED radius, plus actual
+exterior/domain; do not confuse modewise existence with that theorem.
+
+PB-SURFACE-ACTION-GENERATED-RESPONSE, CURVED-CAUCHY-TRANSPORT,
+EXTERIOR-TRANSVERSALITY, VARYING-TUBE-CUSP, CUTOFF-LIMIT and
+FINITE-CUT-POLES remain OPEN in their wider scopes. Protected root
+kernel/local nonlinear gauge/BPS positives remain. Global stationary
+charged spectrum/norms/vertices/anomalies, FINAL-PARTNER-ROSTER and
+foundational physical SM/three/parameters/gravity ACTIVE. Existing
+other-parent conditional-three/mass-map work not copied across domains.
+
+At published repair5138a9302 both375/375, full outputs identical,
+212pins/tree/index unchanged. Initial373PASS/oneFAIL preserved with
+full sources; exact Gamma diagnostic resolves unchanged known-free
+target. No control waived, mathematical negative or global absence.
+No independent analytic/main/recipient/full-suite/physical acceptance.

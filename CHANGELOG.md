@@ -1,5 +1,22 @@
 # Changelog
 
+October16 ALL-angular local response/work:375/375each at published
+repair5138a9302,212pins/tree/index unchanged. Symbolic BOTH n signs/
+all28types yield compatible regular resonance, convergent series/tails
+and complete L2 response; SAME critical antecedent retains log branches.
+MODEWISE all-angular, not uniform JOINT frequency/curved Sobolev/global
+physics. Exact first-order work mixes critical and regular columns:
+rank2but trace0. Fixed physical momentum variation verified; both ends
+retained. Nonzero work not failure, zero on one family not selection.
+NEXT SAME-action curved boson/auxiliary/source/SUSY boundary joint,
+full joint-frequency/exterior/graph/global charged spectrum/partner
+roster and foundational physical SM/three/parameters/gravity ACTIVE.
+Packet surface_all_angular_response_2026_10_16 FINDINGS/PROOF/NEXT_TEST;
+first control failure fully preserved and exact recurrence repair sealed
+before successor. LIVE/governance pending; no full-suite/nonauthor/main/
+recipient or physical acceptance.
+
+
 October16 interacting critical Cauchy response:115/115each at published
 repair8cef829a8,200pins/tree/index unchanged. ALL28types at j=etaR/4,
 with regular/log partners and both computational signs, have exact
