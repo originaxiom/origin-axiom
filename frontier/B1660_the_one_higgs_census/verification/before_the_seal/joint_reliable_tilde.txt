@@ -1,0 +1,3 @@
+0.111,0.111: data chi2 591.80 (within 5%: 5/120); planted at that point -> recovered chi2 7.32e-09 (within 5%: 7/120); planted ratios up1 6.16e-03, up2 7.32e-06, down1 3.46e-02, down2 1.70e-03, lep1 2.26e-02
+0.444,0.111: data chi2 545.41 (within 5%: 120/120); planted at that point -> recovered chi2 2.28e-14 (within 5%: 72/120); planted ratios up1 8.28e-03, up2 8.03e-06, down1 1.87e-02, down2 1.03e-03, lep1 2.54e-02
+0.778,0.111: data chi2 591.80 (within 5%: 10/120); planted at that point -> recovered chi2 7.24e-08 (within 5%: 10/120); planted ratios up1 6.16e-03, up2 7.32e-06, down1 3.46e-02, down2 1.70e-03, lep1 2.26e-02
