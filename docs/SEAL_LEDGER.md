@@ -9232,3 +9232,10 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 |---|---|---|---|---|
 | 2026-10-16 | Exact rational cancellation order BEFORE successor | `reports/physical_bridge_2026_09_05/surface_arena_boundary_2026_10_16/DESIGN.md` | `d82cc72efcd75224a605660b932809017728dc6c8bd854b160f506b5e79f40de` | Preregistered actual arena/boundary/source map and global tube; not a selected physical end |
 | 2026-10-16 | Exact rational cancellation order BEFORE successor | `reports/physical_bridge_2026_09_05/surface_arena_boundary_2026_10_16/INPUTS.json` | `b5dd7dbea7d08b84b2a7ef9542fc0afda230bd124f05dc76cf6c4998de2b4faa` | Preregistered actual arena/boundary/source map and global tube; not a selected physical end |
+
+## Global source boundary variation BEFORE first scientific import
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-16 | BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_global_boundary_variation_2026_10_16/DESIGN.md` | `0ea284425129fae798d7918ba5f40eae10383cfdc0717fc8373862cb3d804a89` | Preregistered actual source boundary variation, not physical end selection |
+| 2026-10-16 | BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_global_boundary_variation_2026_10_16/INPUTS.json` | `5892d88cde41476e0386492db81243732e74aba9431696077424bf8260285dce` | Preregistered actual source boundary variation, not physical end selection |
