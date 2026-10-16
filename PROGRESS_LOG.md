@@ -19501,3 +19501,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   the discriminant.
 - **The rule came first.** Exploring the instrument changed one expectation. At any single point two of the three
   generations come out massless. And the couplings grow toward the cusp, so the traces will not simply even out. 0 of 19.
+
+## 2026-10-16 — one Higgs fits nothing; the audit lane says what its work is
+
+- **Main's one-Higgs census came back empty.** No hypercharge line fits the data with one Higgs, in any reading.
+- **The audit lane answered the seat's question.** Its construction is a local model on one supplied setup, not yet
+  something computed over all the threads. The seat advises the owner to hold any review until the lane shows how its
+  setup follows from the principle.
+- **The seat's own computation hit a snag and restarted.** At the two symmetric points two of the three matter modes
+  vanish, so masses cannot be defined there. The code now records that instead of crashing. 0 of 19.

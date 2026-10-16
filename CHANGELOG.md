@@ -1,5 +1,15 @@
 # Changelog
 
+## B1660's output, the lane's answer to §144, chat1's replication seal (ledger; relay §146)
+
+- **Main's B1660** (the one-Higgs census under P4): all 18 lines are excluded in all three readings.
+- **The audit lane answered §144.** Its construction is a conditional local physical bridge, not a weave law. The
+  review decision returns to the owner, with this seat's advice of no review before the lane's admission step.
+- **chat1** sealed an S-shape replication on fresh threads.
+- **W95:** the first launch failed (K is singular at ω and i) and is preserved. The fix was committed and the second
+  launch is running.
+- **Surfaces.** The ledger (five rows; the relay's row extended), relay §146, the state page's relay range.
+
 ## The owner's rulings of 2026-10-16, and W95's rule (relay §145)
 
 - **The owner's rulings,** as this seat reads them (relay §145): N1 yes, for main to write in GENESIS; the audit
