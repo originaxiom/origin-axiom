@@ -1,0 +1,6 @@
+(a) configuration classes: observed 26, predicted 26, identical partition: True
+(b) sign-flip pairs among T-low's 199 nulls: 88; configuration-cells where a pair's singular values differ (bitwise): 0
+(c) N = 9: T-low's 200 assignments in 16 unit orbits (15 with two or more members); orbits whose members' per-field mass multisets differ: 0; nulls sharing the SM's orbit: 0
+(c) N = 11: T-low's 200 assignments in 40 unit orbits (39 with two or more members); orbits whose members' per-field mass multisets differ: 0; nulls sharing the SM's orbit: 0
+(c) N = 12: T-low's 200 assignments in 50 unit orbits (44 with two or more members); orbits whose members' per-field mass multisets differ: 0; nulls sharing the SM's orbit: 0
+(c) the replication's 112 distinct nulls fall into unit orbits: N = 9: 15, N = 11: 39, N = 12: 49; jointly over the three orders: 112

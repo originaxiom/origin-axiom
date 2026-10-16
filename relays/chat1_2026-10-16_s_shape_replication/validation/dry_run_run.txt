@@ -1,0 +1,18 @@
+controls: {'LLRRRLRLRLRR N=10 line (6, 3)': True, 'LLLRLLLRLR N=8 line (1, 7)': True} 19 s
+N = 8: 148 configurations in 41 classes
+N = 10: 128 configurations in 34 classes
+job 0 class N=8 LLLLRLRLLLRLRR (0, 1): error None; max closure 9.8e-54; 34 s
+job 1 class N=8 LLLLRLRLLLRLRR (0, 3): error None; max closure 9.8e-54; 33 s
+job 2 class-control N=8 LLLLRRLRLLLRLR (0, 1): error None; max closure 9.8e-54; 34 s
+job 3 class-control N=8 LLRLRRRLRLRRRR (1, 0): error None; max closure 6.8e-54; 35 s
+job 4 class-control N=8 LLRRRRLRLRRRLR (1, 6): error None; max closure 6.8e-54; 37 s
+job 5 sign-control N=8 LLLLRLRLLLRLRR (0, 1): error None; max closure 8.3e-54; 12 s
+job 6 class N=10 LLLLLRLLLRRRR (1, 9): error None; max closure 9.1e-58; 34 s
+job 7 class N=10 LLLLLRLLLRRRR (3, 7): error None; max closure 9.2e-58; 34 s
+job 8 class-control N=10 LLLLLRRRRLLLR (1, 6): error None; max closure 9.0e-58; 33 s
+job 9 class-control N=10 LLLLRRRLRRRRR (1, 1): error None; max closure 3.9e-57; 34 s
+job 10 class-control N=10 LLLLRRRRRLRRR (1, 5): error None; max closure 3.9e-57; 34 s
+job 11 sign-control N=10 LLLLLRLLLRRRR (1, 9): error None; max closure 7.9e-58; 9 s
+symmetry controls hold: True {"class-control N=8 class 0 member 1": {"compared singular values": 5085, "worst difference relative to the cell's largest": 2.0574738932633072e-38, "holds": true}, "class-control N=8 class 0 member 2": {"compared singular values": 5085, "worst difference relative to the cell's largest": 7.981711457517994e-39, "holds": true}, "class-control N=8 class 0 member 3": {"compared singular values": 5085, "worst difference relative to the cell's largest": 1.9230294706431215e-38, "holds": true}, "sign-control N=8 class 0 member 0": {"compared singular values": 135, "worst difference relative to the cell's largest": 0.0, "holds": true}, "class-control N=10 class 0 member 1": {"compared singular values": 5085, "worst difference relative to the cell's largest": 5.928507164307499e-39, "holds": true}, "class-control N=10 class 0 member 2": {"compared singular values": 5085, "worst difference relative to the cell's largest": 6.977407273164119e-35, "holds": true}, "class-control N=10 class 0 member 3": {"compared singular values": 5085, "worst difference relative to the cell's largest": 6.977407273164129e-35, "holds": true}, "sign-control N=10 class 0 member 0": {"compared singular values": 135, "worst difference relative to the cell's largest": 0.0, "holds": true}}
+scorer ran; class-cells per assignment: 20 ; claims' keys: ['PRIMARY: S-shape, per-field, pooled over N = 9, 11, 12'] ; report keys: ['S-shape, per-field, N = 9', 'S-shape, per-field, N = 11', 'S-shape, per-field, N = 12', 'calibration: nulls that would earn the pooled claim against the rest'] ; within-orbit spreads (must be 0 where computed): {'S-shape, per-field, N = 9': 0, 'S-shape, per-field, N = 11': 4, 'S-shape, per-field, N = 12': 0, 'calibration: nulls that would earn the pooled claim against the rest': None} ; acceptance failures (number of keys): 51
+total 382 s
