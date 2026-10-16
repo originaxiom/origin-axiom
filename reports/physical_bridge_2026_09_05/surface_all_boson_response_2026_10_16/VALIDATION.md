@@ -29,8 +29,16 @@ not as author/proof of these new laws, and points to the actual new
 PROOF and resolving LIVE test paths. No new shared number, gate change,
 baseline allowance or fabricated attribution. All executable science,
 tests and259input hashes remain unchanged. The first failing capture
-is retained; a fresh governance rerun is required before reporting its
-repaired result. Post-check documentation is not back-certified by LIVE.
+is retained. At publishedfdc2ae7e3978439632091a900a8d2cc4361ae267,
+fresh results/governance_repaired gives26PASS/fourFAIL39.534663s,
+including law-map-provenance PASS. All259pins/16,919tracked/index
+unchanged. Treeb19de7bbea41d713a834ad97c313a55e3bcf135d5d6827b186574dd324c86053,
+index0eead23d24bd021a9067a319aff946e1aedc23ad8fff3be91ba0d56cbbf0a881.
+Reported first three failure lines still byte-identical;42stale/173open,
+review626. This repairs our NEW documentation defect, not the four
+inherited debts. No repo-green or full untruncated provenance claim.
+Post-check report updates are not back-certified by LIVE/governance;
+all259scientific source/test/data hashes separately rechecked unchanged.
 
 Separate scientific capture at published7ae6451c0:55/55each,
 336.645593s/342.423857s, full3,353,996byte records byte-identical

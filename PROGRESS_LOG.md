@@ -20640,3 +20640,11 @@ claim earned. NEXT admission gate placed FIRST: audit existing full-
 architecture -> carrier/bundle/action/joining maps and retain their
 relations/lifts before further physical/global claims. This is not a
 corpus-wide absence claim. Full physical goal unchanged and ACTIVE.
+
+Fresh governance at publishedfdc2ae7e3:26PASS/four inherited FAIL
+39.534663s; law-map-provenance PASS after citation-only repair.
+All259pins/16,919tracked/index unchanged. Full before/after/raw receipt
+in governance_repaired and VALIDATION. First3reported failures unchanged
+not full untruncated debt audit;42stale/173open, review626. No gate/
+baseline/raw-data waiver. Post-check reports not back-certified;259science
+pins separately rechecked. No full-suite/nonauthor/global acceptance.

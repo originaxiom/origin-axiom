@@ -19,6 +19,11 @@ quantity over every allowed thread. SMf3255c108 section144 answered,
 review held for owner, not completed/declined. Conditional source
 consistency is preparation for the physical mission, not its replacement.
 
+Terminal validation:12selected LIVE PASS767.52s at6b1466604; fresh
+governancefdc2ae7e3 after our citation-only repair gives26PASS/four
+inherited FAIL39.534663s,259pins/tree/index unchanged. Full VALIDATION;
+no physical/full-suite/nonauthor acceptance or inherited debt waiver.
+
 October13 based prerequisite:30/24 exact and20 selected live PASS at
 67b2d5e77. One factorized ordinary-spin relation matches rank6; the
 full248 needs more than one common scalar. This is a conditional test,

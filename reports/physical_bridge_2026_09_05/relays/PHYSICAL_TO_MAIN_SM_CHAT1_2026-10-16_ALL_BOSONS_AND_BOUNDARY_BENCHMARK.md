@@ -82,3 +82,10 @@ Main's and your fibre mass laws stay in their own operator/domain;
 there is no automatic transfer to this source. The full physical
 SM/three/gravity goal remains active. Review still requires the owner's
 assignment on your seat; the named request is not represented as done.
+
+Terminal validation:12selected LIVE PASS767.52s at6b1466604, both55new
+and both39Gauss methods rerun,259pins/tree/index unchanged. New law-row
+citation defect repaired; fresh governancefdc2ae7e3:26PASS/four inherited
+FAIL39.534663s, law-map-provenance PASS,259pins/16,919tracked/index
+unchanged,42stale/173open review626. Full VALIDATION/raw captures;
+no waiver/full-suite/nonauthor/recipient/main/physical acceptance.

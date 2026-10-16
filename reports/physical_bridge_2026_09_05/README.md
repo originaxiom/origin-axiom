@@ -15,7 +15,10 @@ main/SM intake and named analytic-review relay retained. Full goal ACTIVE.
 
 LIVE at6b1466604:12PASS767.52s,259pins/tree/index unchanged. Initial
 governance caught11new row-citation omissions; metadata fixed, rerun
-follows, inherited debts not waived. SMf3255c108 holds review for owner.
+atfdc2ae7e3 gives26PASS/fourFAIL39.534663s, law-map-provenance PASS,
+259pins/16,919tracked/index unchanged. Inherited debts not waived;
+42stale/173open, review626. Full VALIDATION/raw receipts, no full-suite/
+nonauthor/main/physical acceptance. SMf3255c108 holds review for owner.
 Admission gate is FIRST next: audit existing full-architecture ->
 carrier/bundle/action/joining maps. This packet is not an all-thread
 weave observable; the actual reply to SM section144 is in the relay.

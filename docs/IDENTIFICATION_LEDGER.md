@@ -928,3 +928,10 @@ are READ only, not this source's normalized physical couplings. No
 observed charge/SM/three/gravity/observer/qualia identification is earned.
 Shared I-status/baseline unchanged:24rows/9UNEARNED baseline9; five
 separate controls PASS with the known bare-assertion blind spot.
+
+Terminal all-ten validation:12selected LIVE PASS767.52s at6b1466604;
+fresh metadata-repaired governancefdc2ae7e3:26PASS/four inherited FAIL,
+259pins/tree/index unchanged. Citation repair does not earn an all-thread
+or physical identification. SM named review held for owner, not complete;
+local-model/whole-architecture scope explicitly answered. No I-status
+promotion, baseline allowance or full SM/three/gravity identification.

@@ -7364,3 +7364,10 @@ All-ten packet at6b1466604:12selected LIVE PASS767.52s,259pins/
 11new law rows' missing per-row lineage; explicit context plus actual
 proof/test citations repaired, fresh governance follows. No science/
 gate/baseline change or inherited provenance debt waiver.
+
+All-ten terminal metadata validationfdc2ae7e3: law-map-provenance PASS,
+governance26PASS/four inherited FAIL39.534663s,259pins/16,919tracked/
+index unchanged. New citation defect repaired; prior full untruncated
+provenance/data-scope and nonauthor review remain OPEN, no waiver.
+The LIVE12PASS at6b1466604 remains a selected, not full-suite certificate.
+Admission-first/source/charged/global physical duties above remain live.

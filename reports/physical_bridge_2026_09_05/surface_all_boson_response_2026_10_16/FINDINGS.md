@@ -146,7 +146,10 @@ At published6b1466604,12 selected LIVE tests PASS767.52s (capture
 freshly rerun. All259pins/16,908tracked/index unchanged. First governance
 25PASS/fiveFAIL includes one NEW law-map citation defect, now corrected
 by explicit parent-context and actual proof/test references, not a gate
-waiver. Four inherited debts remain; a fresh governance capture follows.
+waiver. Fresh governance atfdc2ae7e3:26PASS/fourFAIL39.534663s,
+law-map-provenance PASS,259pins/16,919tracked/index unchanged.
+Four inherited debts remain;42stale/173open, review626. Reported first
+three failure lines unchanged is NOT a full untruncated debt audit.
 Full receipts and validation chronology are in VALIDATION.md.
 
 Later SMf3255c108 holds the named review for the OWNER, not declined
@@ -159,4 +162,6 @@ Nonauthor review remains separate from these exact/LIVE captures.
 Full foundational parent/action/end selection,
 physical chiral SM/three generations/parameters/gravity remain ACTIVE.
 No new B-number, physical particle count or other-parent mass/index/gap
-is claimed. Every carried duty is registered in OPEN_LEADS.
+is claimed. Every carried duty is registered in OPEN_LEADS. Post-check
+report updates are not back-certified; all259science pins separately
+rechecked unchanged. No repo-wide green or completed nonauthor review.
