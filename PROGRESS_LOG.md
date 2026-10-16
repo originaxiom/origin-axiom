@@ -19815,3 +19815,40 @@ evidence. Final metadata/note not back-certified by those runs; science
 62pins separately rechecked unchanged. Source real-conjugation, common
 nonlinear boundary/SUSY and GLOBAL stationary charged physics remain
 the next gates. Full generated physical SM/three/gravity goal ACTIVE.
+
+## October16 real superfield F-sector and whole cutoff boundary
+
+At pushed/server-confirmed pre-rerun27b15f21f68c86a15bdd75e1b7c6e052dc63d7ee,
+native34/34 PASS3.799846s and component-product reference34/34 PASS3.859945s.
+Complete33520-byte records identical SHA
+c0f27d86aa9a6f9c4432f40de16b3570dafb4a7d39a5cfe1382aaf801f1dec9e.
+83pins/13,369tracked contents/index unchanged. Shared author/trace algebra,
+not independent source/analytic review. Syntax failure84c77f950 and
+27/29 trace-comparison attempt98a129885 kept with full81/82source snapshots.
+Private syntax traceback/public copy both hashed; later raw diagnostic
+contains no private paths. New exact controls prove raw8/52trace residuals
+cancel under graded cyclic trace ONLY; wrong signs/untraced commutator
+remain nonzero. No mathematical criterion was relaxed or physics killed.
+
+Two-complex-derivative parent reduction now retains ALL F components,
+actual dagger/conjugate, auxiliary inverse metrics and boundary primitives.
+Earlier one-derivative CS reduction/WZW/35-vs36 caution ALREADY in the
+weave_curved_action packet, recovered/read/credited, not new discovery.
+Auxiliary metrics2,2,1/2 give inverse1/2,1/2,2; actual real F-sector,
+not full vector/D/gaugino/MW action identification. Old BHV printed
+conjugate witness not resolved by naming this standard superspace action.
+
+Whole tangential chiral/vector Dirichlet cutoff class cancels full surface;
+lowest bosons alone leave actual fermion/auxiliary terms. Authored smooth
+off-shell N=1/variational class uses supplied parent and RESTRICTED gauge
+group; normal compensator derivative remains free. Auxiliary-eliminated
+singular graph/gauge limit unearned; possible vector-mode cost/recovery
+registered as expressly UNVERIFIED next note. No old count/index/gap
+transfer or physical SM claim. Seven LAW rows, open leads/identification
+supplement/current docs and sender relay banked.
+
+All11remote heads refreshed, new web fc15550e0 complete112-line result
+addendum personally read, not reproduced/imported as physical couplings.
+NEXT actual full real K/D/gaugino/MW map and same singular/global stationary
+charged theory. Full generated SM/three/gravity goal remains ACTIVE.
+Selected live validation/governance follow, not already claimed green.

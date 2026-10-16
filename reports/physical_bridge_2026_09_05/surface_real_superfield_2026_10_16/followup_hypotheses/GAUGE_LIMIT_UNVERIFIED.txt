@@ -1,0 +1,20 @@
+UNVERIFIED NEXT analysis, not current34-check evidence.
+
+The finite smooth cutoff law V=0 fixes the entire vector multiplet. Its
+restricted boundary gauge group is explicit. We must test, not assume,
+whether a shrinking codimension-two boundary gives the desired physical
+gauge modes in the limit. The endpoint Dirac trace and vector H1 form
+can have different capacity limits. Conjugate/normal jets must survive.
+
+Possible comparator: scalar radial logarithmic cutoff on an annulus,
+inner Dirichlet and free outer form. Its energy may tend to zero while
+its bulk norm stays finite as the hole shrinks. Need sealed computation
+of exact norm/energy and analytic limiting-domain statement, not a new
+physical gauge claim from a scalar example. Then include actual compact
+connection/Higgs coefficient, Ward maps, interacting fermion graphs and
+the full outer/global geometry. Do not borrow a free/zero-Higgs gap.
+
+The whole-superfield law's algebraic N=1 invariance does not establish
+its auxiliary-eliminated Sobolev closure, a stationary global solution,
+massless4D gauge group, physical chirality, three families or gravity.
+Actual real parent/MW dictionary comes first. No universal negative.

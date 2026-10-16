@@ -20,3 +20,9 @@ UNVERIFIED strategy: derive actual reduced/twisted real superfield action,
 conjugates and gauge/SUSY end together. Do not drop a total derivative or
 copy a different-dimensional boundary theory without its actual map.
 Source reading did not change the already sealed96-check construction.
+
+October16 prior-art recovery: weave_curved_action_2026_10_08 PROOF1 and
+actual code ALREADY used action35, retained the one-derivative primitive
+and warned not to infer35from36. That source-method warning is credited,
+not a new literature discovery here. The later real-superfield packet
+keeps TWO complex derivatives and actual full F-boundary components.

@@ -6633,3 +6633,27 @@ Not computed, not a new generic superspace primitive, not current96
 evidence. Require separately published proof/source/controls before use,
 recover existing different-parent R70/R71 and retain real/K/auxiliary/
 gauge completion rather than borrowing a holomorphic identity alone.
+
+## October16 real F-sector and finite-cutoff boundary joint
+
+PB-SURFACE-REAL-SUPERFIELD: PARTIAL POSITIVE34/34 each at published
+27b15f21f,83pins/tree/index unchanged. Actual two-derivative reduction,
+F-components, conjugates, auxiliary inverse metrics and complete boundary
+multiplet retained. Earlier one-derivative reduction/WZW warning already
+banked in weave_curved_action, not discovered anew. Two instrument
+failures kept; exact trace8/52residuals and opposition controls verified.
+
+PB-SURFACE-FULL-REAL-PARENT remains OPEN: complete K/D/vector/gaugino
+component normalization and actual MW/C/kinetic map, printed BHV source
+adjoint comparison separate. A real F-superfield sector alone does not
+resolve the old conjugate witness or license its prior physical spectrum.
+
+PB-SURFACE-CUTOFF-LIMIT OPEN: new authored smooth V=A_t=0 superfield
+boundary class is variational/N=1 with RESTRICTED gauge group; normal
+compensator derivative free. Need actual auxiliary-eliminated derivative
+laws and singular interacting graph/gauge limit. The possible massless
+vector cost/recovery is a NEW UNVERIFIED follow-up, not34-check evidence.
+Registered hand note under new packet followup_hypotheses/GAUGE_LIMIT_
+UNVERIFIED.txt. No SM gauge or physical chirality follows by flavour names.
+GLOBAL stationary fields/end, SAME charged kernels/norms/vertices/anomalies
+and foundational selection of full observed SM/three/gravity remain.

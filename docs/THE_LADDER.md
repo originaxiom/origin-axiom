@@ -1,5 +1,17 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October16 real F-sector/cutoff boundary:34/34 exact per method at
+published repair27b15f21f,83pins/tree/index unchanged. Two-derivative
+superfield reduction retains fermions/auxiliaries/conjugate and boundary
+primitives; full multiplet Dirichlet cancels the surface, lowest bosons
+alone do not. Authored smooth finite-cutoff N=1/variational class has
+RESTRICTED gauge group, not prior singular Dirac/SM admission. Two
+instrument failures preserved, trace-only repair verified by raw8/52
+residuals and wrong-sign/untraced controls. NEXT full real K/D/gaugino/
+MW map, auxiliary-eliminated singular/gauge limit, then GLOBAL stationary
+charged physics. Full SM/three/gravity ACTIVE. See surface_real_superfield_
+2026_10_16/FINDINGS.md; selected live validation follows.
+
 October16 weighted normal join:96/96 exact per producer at published
 9021549f9,62pins/tree/index unchanged. Actual completed-source all16
 coefficients give the supplied bosonic Hessian norm with weights1,1,t^4,

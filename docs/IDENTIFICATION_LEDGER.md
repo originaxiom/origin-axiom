@@ -684,3 +684,13 @@ and real norm map between SUPPLIED R_t Hessian at BPS and the explicit
 Hermitian-completed source. Not the unmatched full printed action,
 complete nonlinear SUSY or global particle map. Actual Pi=eta is matrix
 equality, not rank matching. No shared I-status promoted.
+
+## October16 real superfield F-sector and boundary distinction
+
+The explicit invertible C_i-to-(A0,A1,P) map and its ordered component/
+conjugate action are computed in surface_real_superfield_2026_10_16.
+This is NOT an identification with the whole printed BHV component
+action, preceding canonical MW operator or interacting singular graph.
+The smooth cutoff flavour pattern is insufficient: actual kinetic/
+Clifford/auxiliary-eliminated/gauge/domain map must act. No I-status
+promotion or transfer of old physical indices/gaps/counts is licensed.
