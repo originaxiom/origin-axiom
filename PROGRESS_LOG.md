@@ -21401,3 +21401,22 @@ await original controls and full185blob reconciliation. Source report
 keeps coefficient/cohomology/kernel maps, full-parent paired real trace,
 fixed-fibre dressed domains, later response and true-end distinctions
 separate. Exact source pins,commit/push precede metadata controls.
+
+Phase8 sourceb20a3280d pushed/server-confirmed before controls. Seven
+carry/four alias controls PASS;185pinned blobs reconcile83direct mappings,
+three aliases,99pending,17external. Phase7 successor differs only by
+checker hash. Complete18475tracked/index/40pins before/after identical.
+Full captures,lossless states and original staged failure populations
+retained with published-tree index bindings. No original scientific
+source or historical evidence rewritten; no global-green claim.
+
+Current specification/mission/roadmap and existing OPEN main relay now
+retain the based gauge/cusp kernel distinction, paired full-parent reality,
+exhausted dressed fixed-fibre graph, later critical/all-angular response
+and smooth same-action transmission. Reality leaves both signs; dressing
+does not delete critical modes; an artificial seam does not select the
+true end/exterior. Dirichlet benchmark and source-action mismatch retain
+their exact scope and later qualifications. No new scientific producer,
+independent analytic acceptance or physical spectrum claimed. Actual
+foundational field/action/trace/end and full SM/three/gravity goal remain
+active/unachieved; final staged publication precheck is a separate envelope.

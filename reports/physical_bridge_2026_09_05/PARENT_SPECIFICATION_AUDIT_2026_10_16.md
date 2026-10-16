@@ -16,11 +16,11 @@ of one realization does not discharge or refute the others.
 
 ## Current coverage and next derivation duty
 
-The verified phase7 reconciliation at source 6d909864a records 71 directly
+The verified phase8 reconciliation at source b20a3280d records 83 directly
 read and property-mapped proof paths, three byte-identical aliases and
-111 pending paths among the original 185. All pinned blobs and eleven
+99 pending paths among the original 185. All pinned blobs and eleven
 metadata controls pass; 17 external dependency readings are recorded.
-[Phase7 validation](specification_audit_2026_10_16/PHASE7_VALIDATION.md)
+[Phase8 validation](specification_audit_2026_10_16/PHASE8_VALIDATION.md)
 preserves the source envelope and earlier reconciliations. These are
 source-reading counts, not independently accepted proofs or complete
 packet re-audits. The staged publication check is a separate envelope.
@@ -49,6 +49,14 @@ earlier bosonic auxiliary count. Its unstable anomalous saddle is also
 not a stable SM vacuum. The later heat/current/topology arguments price
 the true quantum end response, rather than excluding every regulator or
 silently identifying this parent with the weave's finite-distance operator.
+
+[Interacting trace and transport specification](INTERACTING_TRACE_AND_TRANSPORT_SPECIFICATION_2026_10_16.md)
+recovers actual based gauge, cusp section, paired reality, dressed domain,
+all-angular response and smooth same-action transmission maps. A reality
+pair does not select a sign, a gap does not select a sector, and artificial
+matching does not select the true physical end. These scoped positives
+sharpen the required global field/action/end derivation without substituting
+the full-parent trace for the separate rank-six matter coefficient.
 
 ## Population and coverage history
 

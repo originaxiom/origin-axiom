@@ -1,5 +1,15 @@
 # Common-model physics campaign: execution record
 
+Phase8 sourceb20a3280d verified:83direct proof/property mappings,three
+aliases,99pending,17external; all185blobs/11metadata controls PASS.
+Phase7 unchanged except checker hash;18475tracked/index/40pins unchanged.
+INTERACTING_TRACE_AND_TRANSPORT_SPECIFICATION retains actual based/cusp
+maps,paired reality,dressed fixed-fibre domains,all-angular response and
+smooth same-action transmission. Neither sign/sector nor true end state
+is selected by those positives. PHASE8_VALIDATION preserves full source
+and original staged failure custody. No new science or physical index;
+global field/action/end and full SM/three/gravity goal remain unachieved.
+
 Phase7 source6d909864a verified:71direct proof/property mappings,three
 aliases,111pending,17external readings; all185blobs/11metadata controls
 PASS. Phase6 unchanged except checker hash;18430tracked/index/32pins

@@ -1,5 +1,15 @@
 # Approved physics mission and execution criteria
 
+Verified phase8 sourceb20a3280d:83direct source/property mappings,three
+aliases,99pending,17external;185blobs/11metadata controls PASS. Phase7
+reproduces except checker hash;18475tracked/index/40pins unchanged.
+Actual paired/dressed critical traces, cusp sections and later full
+local angular/transmission positives retained with global scope fences.
+True end/reference state,physical field/action and full charged theory
+still require foundational admission. PHASE8_VALIDATION and interacting
+trace specification preserve source custody and historical failures;
+no scientific execution,new accepted admission or physical completion.
+
 Verified phase7 source6d909864a:71direct source/property mappings,three
 aliases,111pending,17external; all185blobs/11metadata controls PASS.
 Phase6 reproduces except checker hash;18430tracked/index/32pins unchanged.

@@ -1,0 +1,35 @@
+{
+  "scope": "185 pinned proof-path artifacts at the two declared heads, including eight stored dependency paths. This is not 185 unique primary results or a complete historical/packet census.",
+  "metadata_producer_sha256": "d2c2868656ebb21938a271de19fb3708fa8051299e5cc7cc8eede6bb8a5bbfc6",
+  "initial_inventory_scope_retained_in": "specification_inventory.json",
+  "scope_erratum": "The original inventory's description overstates the exclusion of received/source copies: five received_r46/received_r54 paths and three silver_complete_flag sources paths remain in its population. Preserve the original and account for these roles and byte aliases explicitly.",
+  "reading_grade": "Personally read authored proof sources and explicit property mapping; byte aliases separate. No new scientific execution, full packet audit or independent analytic acceptance.",
+  "review_records": [
+    {
+      "path": "review_records_phase8.json",
+      "sha256": "5b830f595f8f1ef0db21f89e5fe2a4e4957ce30b5b4c4ed935c9242a932082a5"
+    },
+    {
+      "path": "review_records.json",
+      "sha256": "aa16c0b84df97c0241ddd063c56ff5c837ba121c2751655d3a5e9c948c2de985"
+    },
+    {
+      "path": "review_records_phase7.json",
+      "sha256": "753574259a6810f0c4d8ff05cf5c5562c3e8074e68c2cd78b0607c8c9300db41"
+    }
+  ],
+  "inventory_rows": 185,
+  "proofs_source_read_and_property_mapped": 83,
+  "source_alias_rows_of_directly_read_proofs": 3,
+  "distinct_inventory_byte_groups": 182,
+  "distinct_directly_read_byte_groups": 83,
+  "stored_dependency_rows": 8,
+  "remaining_initial_inventory_rows": 99,
+  "complete_packet_reaudits_claimed": 0,
+  "external_dependency_source_readings": 17,
+  "unreconciled_coverage": "The 19 proof paths in the fork's pinned genesis_root_review subtree are source-read, not complete packet re-audits. Other current, historical, deleted and findings-only populations remain incomplete.",
+  "noninventory_cases": [
+    "R4 compact E6 scalar action and its competing-minimum control: EXTENSION_2.md and EXTENSION_2_CONTROL.md",
+    "R15 prescribed singular-source ansatz and full finite boundary pair: GLOBAL_SINGULAR_DESIGN.md and GLOBAL_SINGULAR.md"
+  ]
+}

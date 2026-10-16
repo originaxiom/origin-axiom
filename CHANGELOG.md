@@ -1,5 +1,14 @@
 # Changelog
 
+Phase8 sourceb20a3280d verified:11metadata controls/all185blobs PASS;
+83direct mappings,three aliases,99pending,17external. Phase7 unchanged
+except checker hash;18475tracked/index/40pins unchanged. Twelve proofs
+map actual based/cusp transport,paired reality,dressed domains and later
+all-angular/transmission positives. True end state remains a different
+duty; no particle count from trace ranks or parent selection by spectra.
+Complete source/staged failure custody retained; existing OPEN main relay
+extended. No scientific execution,independent acceptance or full physics.
+
 Phase8 metadata source prepared after design98d614113:12new mappings,
 complete phase7 carry,unchanged aliases/17external readings. Only phase7
 added to carry whitelist; expected83direct/three aliases/99pending awaits

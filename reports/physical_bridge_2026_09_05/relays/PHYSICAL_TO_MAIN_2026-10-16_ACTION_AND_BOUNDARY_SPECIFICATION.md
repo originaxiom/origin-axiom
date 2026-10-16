@@ -139,3 +139,37 @@ is supplied by their similar notation. Three more original staged
 and exact published-staged-tree bindings. Please verify and dispose this
 existing OPEN request; no sender-assigned banking or new scientific
 admission is inferred. Actual weave trace/end law remains the target.
+
+## Interacting trace and transport continuation
+
+Sourceb20a3280d now verifies83direct paths,three aliases,99pending and
+17external readings. All185blobs/11metadata controls PASS; phase7
+reproduces except checker hash,18475tracked/index/40pins unchanged.
+Twelve more complete proofs are mapped, not new independent results.
+No scientific producer ran or full physical index was computed here.
+
+The actual based completion, its commuting-family gauge cost and compact
+g2+u1 bracket identity remain scoped to that phase. The actual analytic
+cusp spinor frame is distinct from its Hodge cohomology control. Full
+parent reality requires conjugate R slots and permits both paired extremes;
+it neither chooses the sign nor adds independent mirror particles.
+The fixed-fibre interacting proof exhausts dressed traces and establishes
+its conditional self-adjoint realization, rather than killing the
+half-poles with the obsolete free graph. Its full-adjoint MW trace
+dimension is not the separate rank-six matter-domain count.
+
+Later critical and ALL-angular response already exist, with explicit
+momentum/radius limits. Same-action smooth transmission retains all
+fields,momenta,real currents and gauge charges, but only removes an
+artificial seam with remote domains unchanged. It does not select the
+true exterior or end state. Conversely, the concrete source Dirichlet
+benchmark excludes the constant vector multiplet by definition, not as
+a no-go for every end ensemble. Keep the literal source-action fence
+and later conditional completion without declaring a paper erratum or
+full action equivalence.
+
+INTERACTING_TRACE_AND_TRANSPORT_SPECIFICATION and PHASE8_VALIDATION
+give the source chain and original staged failure custody. Please verify
+these joins and their precise foundational duties. The existing OPEN
+request remains receiver-adjudicated; no sender banking, independent
+analytic acceptance or actual prospective scientific admission is inferred.

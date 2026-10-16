@@ -1,0 +1,133 @@
+{
+  "grade": "Completed maintenance checks, not scientific admission",
+  "packets": [
+    {
+      "prefix": "phase7-publication",
+      "published_staged_commit": "47cdde88bbf8b1111508c6350f1d9a836cc30131",
+      "precheck_head": "6d909864a45ba086550fc117c729ffa80aa571b8",
+      "tracked_files": 18469,
+      "source_pins": 32,
+      "index_sha256": "bd2afbd9e4b0cb4a860875e86060d4dd9547583dae60cb43ee762b771c345617",
+      "before_after_identical": true,
+      "state_path": "phase7-publication-before-and-after.log.gz",
+      "state_sha256": "ccdab4b2cb4912ba4e459b89ec1accff69fb43ef289dd7d87a972a618da9ddee",
+      "uncompressed_state_sha256": "4596c1f3ab8604d5f7fef5fae0fe84764c7ff419a6bbfa7fcea270076be2a7c7",
+      "governance_path": "phase7-publication-governance.log",
+      "governance_sha256": "58adf914cca928e2e6ea339c60144d0cf500a898a067e84c6d05f385aab3fa29",
+      "pass": 29,
+      "fail": 1,
+      "historical_problems": 643
+    },
+    {
+      "prefix": "phase8-design",
+      "published_staged_commit": "98d6141132da785829add474c087205de8391e94",
+      "precheck_head": "47cdde88bbf8b1111508c6350f1d9a836cc30131",
+      "tracked_files": 18471,
+      "source_pins": 32,
+      "index_sha256": "182ec4275c2878c0faa0637d40de5c4b31cfbd7cb0067340650eb166221dba4e",
+      "before_after_identical": true,
+      "state_path": "phase8-design-before-and-after.log.gz",
+      "state_sha256": "fa4bac7005cf89846108ed1d01b895012a9ecf07a27c36622ed9be95a6416477",
+      "uncompressed_state_sha256": "6bb1b5582689b40d7c2a9670de7334bc6fc93bf5def78d0f6d6b62ceca895b4e",
+      "governance_path": "phase8-design-governance.log",
+      "governance_sha256": "7d93b2ed9f586db6dc2d77995be39993d5389a89302dcb9b7af041d21549df98",
+      "pass": 29,
+      "fail": 1,
+      "historical_problems": 643
+    },
+    {
+      "prefix": "phase8-source",
+      "published_staged_commit": "b20a3280d97839ba8f0ad711a08930a5273ec539",
+      "precheck_head": "98d6141132da785829add474c087205de8391e94",
+      "tracked_files": 18475,
+      "source_pins": 40,
+      "index_sha256": "d233dcac16eee1db6e8fd6053dd5ad98dc2865c7949bbaf8bd389c25593817cc",
+      "before_after_identical": true,
+      "state_path": "phase8-source-before-and-after.log.gz",
+      "state_sha256": "4199ccd32a999c96c3c262618f35fa5513d5380cb9dc29ef05aef3a961e8d566",
+      "uncompressed_state_sha256": "0723811fc0d22360e29d8a6615b5655127bd859e45114c82129af6a5cb0455a8",
+      "governance_path": "phase8-source-governance.log",
+      "governance_sha256": "f17d8dc6b1318a1608ac8dbce921c35c71f116187e048a0bb9eb7198cde60730",
+      "pass": 29,
+      "fail": 1,
+      "historical_problems": 643
+    }
+  ],
+  "files": [
+    {
+      "path": "phase7-publication-after.json",
+      "bytes": 1309,
+      "sha256": "bbeedb6874f001a4db17cb4e7f83694883efc1c23ca5ed04ec4487261f855434"
+    },
+    {
+      "path": "phase7-publication-before-and-after.log.gz",
+      "bytes": 933651,
+      "sha256": "ccdab4b2cb4912ba4e459b89ec1accff69fb43ef289dd7d87a972a618da9ddee"
+    },
+    {
+      "path": "phase7-publication-before.json",
+      "bytes": 1308,
+      "sha256": "c85f05e138e2f29fb0fa42aba101df77e461b83cee90889b04c97c17914d9fac"
+    },
+    {
+      "path": "phase7-publication-governance.json",
+      "bytes": 747,
+      "sha256": "c5cab33e31610ed260cfd3044140fff96db8c0fe60e6100047acad579b4e2cd1"
+    },
+    {
+      "path": "phase7-publication-governance.log",
+      "bytes": 130621,
+      "sha256": "58adf914cca928e2e6ea339c60144d0cf500a898a067e84c6d05f385aab3fa29"
+    },
+    {
+      "path": "phase8-design-after.json",
+      "bytes": 1308,
+      "sha256": "cbe8a588fdb5d90a4aa219025418733685af64e3b7a9353d0a24fc4ab7b3da07"
+    },
+    {
+      "path": "phase8-design-before-and-after.log.gz",
+      "bytes": 933769,
+      "sha256": "fa4bac7005cf89846108ed1d01b895012a9ecf07a27c36622ed9be95a6416477"
+    },
+    {
+      "path": "phase8-design-before.json",
+      "bytes": 1308,
+      "sha256": "a55157d225097401b1199390b3a8b8136c4a45094fdd84c38937c5aa91523af6"
+    },
+    {
+      "path": "phase8-design-governance.json",
+      "bytes": 748,
+      "sha256": "22c93614c18d2de28303c3daade27525b93bff8f386f1e5bb23686b235a20131"
+    },
+    {
+      "path": "phase8-design-governance.log",
+      "bytes": 130621,
+      "sha256": "7d93b2ed9f586db6dc2d77995be39993d5389a89302dcb9b7af041d21549df98"
+    },
+    {
+      "path": "phase8-source-after.json",
+      "bytes": 1307,
+      "sha256": "35c0bbfe22ba76c2103d473e837cb36a5441d80ad9e361427c58386a4adcc52a"
+    },
+    {
+      "path": "phase8-source-before-and-after.log.gz",
+      "bytes": 934490,
+      "sha256": "4199ccd32a999c96c3c262618f35fa5513d5380cb9dc29ef05aef3a961e8d566"
+    },
+    {
+      "path": "phase8-source-before.json",
+      "bytes": 1308,
+      "sha256": "1268cc7577300c5d4923184efa644e8ddcd6df32e1228fb31b6901635df33216"
+    },
+    {
+      "path": "phase8-source-governance.json",
+      "bytes": 747,
+      "sha256": "6c0bc8014e0285de11a722a87d1c0943f6753669621365da5fd05f0fbe55ddbe"
+    },
+    {
+      "path": "phase8-source-governance.log",
+      "bytes": 130621,
+      "sha256": "f17d8dc6b1318a1608ac8dbce921c35c71f116187e048a0bb9eb7198cde60730"
+    }
+  ]
+}
