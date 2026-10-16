@@ -1133,3 +1133,16 @@ is enforced.
 5. **A relay is closed by the recipient's answer, in the ledger's own grammar** (R62-5, B1626). An outbound row closes
    as BANKED when every ask is answered, its note naming where and the arc that checked it. Otherwise it stays OPEN with
    the outstanding ask named. A disposition the gate cannot parse makes a row invisible. GATED (`relay-debt`).
+
+## The window's practices, B1654–B1666: zeros, re-seals and the instrument's own domain — MANUAL (adopted 2026-10-16, S138)
+
+Three practices came out of the field stage's last window. Each answers a slip that happened.
+1. **A ratio is never read at one point of a function that has zeros** (E74, B1664, B1665). B1664's gate read the period
+   phase as a ratio at one point, which became 0/0 where the instrument set D to zero in the cusp (593 threads). B1665
+   moved the point to the period's lowest point, which is ω, where D also vanishes (22 threads). B1666's least-squares
+   phase over two periods, which no zero can spoil, held on all 30 674 threads. An estimator is read over a whole period
+   or region, never at a chosen point of a function with zeros.
+2. **Every re-seal is reviewed, however small** (B1665). B1665's repair was one line and went unreviewed. A reviewing
+   pass told to try the zeros would have found ω. B1666's pass did, before its seal.
+3. **A repair to a sealed file is recorded the same day in the form the seal check reads** (E80, B1654, Review 64).
+   B1654's relative-path repair was noted in prose, so the seal check read a disclosed repair as an undisclosed change.
