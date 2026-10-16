@@ -133,6 +133,10 @@ def run(engine):
     checks={};records={}
     def ck(k,v):checks[k]=bool(v);print(('PASS ' if checks[k] else 'FAIL ')+k,file=sys.stderr,flush=True)
     e=engine;plus=e.plus;times=e.times;prod=e.product;d=e.d;tr=e.tr
+    # ONLY expressions already mathematically valued in Tr use this.
+    # Derivatives/variations change the lexicographically canonical cyclic
+    # representative. Matrix-valued curvature comparisons stay untraced.
+    eqtr=lambda a,b:e.equal(tr(a),tr(b))
     cm=lambda a,b:plus(prod(a,b),times(prod(b,a),-1))
     C=[e.field(i) for i in range(3)]
     A=[times(a,-1/s.sqrt(2)) for a in C[:2]];P=times(C[2],s.sqrt(2))
@@ -144,10 +148,14 @@ def run(engine):
     F=plus(d(A[1],0),times(d(A[0],1),-1),cm(A[0],A[1]))
     W=times(tr(prod(P,F)),-1)
     primitive=times(plus(d(tr(prod(C[0],C[2])),1),times(d(tr(prod(C[1],C[2])),0),-1)),s.Rational(1,2))
-    ck('whole superfield two derivative reduction',e.equal(parent,plus(W,primitive)))
+    reduction_raw=e.F(plus(parent,times(W,-1),times(primitive,-1)))
+    ck('trace derivative representation diagnostic',bool(reduction_raw) and not trace(reduction_raw))
+    ck('whole superfield two derivative reduction',eqtr(parent,plus(W,primitive)))
+    ck('wrong transgression sign remains detected',not eqtr(parent,plus(W,times(primitive,-1))))
     ck('six cubic permutations retained',e.equal(tr(cubic),times(tr(prod(C[2],cm(C[0],C[1]))),6)))
     ck('nonzero full transgression not dropped',bool(e.F(primitive)) and not e.equal(parent,W))
     ck('nonlinear curvature not omitted',not e.equal(F,plus(d(A[1],0),times(d(A[0],1),-1))))
+    ck('untraced commutator not erased',bool(e.body(cm(A[0],A[1]))) and not trace(e.body(cm(A[0],A[1]))))
     # Expand predicted component density in actual rescaled reduced fields.
     bodies=[e.body(a) for a in A];p=e.body(P)
     psi=[tuple(scale(letter('f'+str(i)+'_'+str(j)),-1/s.sqrt(2)) for j in range(2)) for i in range(2)]
@@ -167,7 +175,10 @@ def run(engine):
     covS=lambda a,j:plus(d(a,j),cm(A[j],a))
     bulk=plus(times(tr(prod(vP,F)),-1),tr(prod(covS(P,0),vA[1])),times(tr(prod(covS(P,1),vA[0])),-1))
     surface=plus(times(d(tr(prod(P,vA[1])),0),-1),d(tr(prod(P,vA[0])),1))
-    ck('whole superfield first variation with surface',e.equal(e.var(W),plus(bulk,surface)))
+    variation_raw=e.F(plus(e.var(W),times(bulk,-1),times(surface,-1)))
+    ck('trace variation representation diagnostic',bool(variation_raw) and not trace(variation_raw))
+    ck('whole superfield first variation with surface',eqtr(e.var(W),plus(bulk,surface)))
+    ck('wrong variation surface sign remains detected',not eqtr(e.var(W),plus(bulk,times(surface,-1))))
     ck('variation surface cannot be dropped',not e.equal(e.var(W),bulk))
     normal=tr(prod(P,vA[0]));nf=e.F(normal)
     def kill(a,names):return {w:c for w,c in a.items() if not any(base(q).lstrip('~') in names for q in w)}
@@ -214,10 +225,13 @@ def run(engine):
         ck('actual auxiliary Gaussian '+str(j),s.expand(ll.diff(x).subs(sol))==0 and s.expand(ll.diff(y).subs(sol))==0 and s.expand(ll.subs(sol)+(bx*bx+by*by)/hj)==0)
         inverse.append(str(1/hj))
     ck('auxiliary inverse metric not copied',inverse==['1/2','1/2','2'])
-    records['F_components']={'parent':encoded(e.F(parent)),'reduced':encoded(e.F(W)),
-        'transgression':encoded(e.F(primitive)),'auxiliary_bulk':encoded(auxbulk),'auxiliary_end':encoded(auxend),
-        'all_fermions':encoded(ferm),'first_variation_surface':encoded(e.F(surface)),
-        'normal_boundary_full_F':encoded(nf),'actual_conjugate':encoded(anti),'real_F_density':encoded(real)}
+    records['F_components']={'parent':encoded(trace(e.F(parent))),'reduced':encoded(trace(e.F(W))),
+        'transgression':encoded(trace(e.F(primitive))),'auxiliary_bulk':encoded(trace(auxbulk)),'auxiliary_end':encoded(trace(auxend)),
+        'all_fermions':encoded(trace(ferm)),'first_variation_surface':encoded(trace(e.F(surface))),
+        'normal_boundary_full_F':encoded(trace(nf)),'actual_conjugate':encoded(trace(anti)),'real_F_density':encoded(trace(real))}
+    records['trace_instrument']={'old_reduction_raw_residual':encoded(reduction_raw),
+        'old_variation_raw_residual':encoded(variation_raw),'both_cyclic_trace_residuals':[],
+        'scope':'traced expressions ONLY; untraced commutator preserved and wrong signs rejected'}
     records['metrics']={'chiral':['2','2','1/2'],'auxiliary_inverse':inverse,
         'F_potential':'2|F01|^2+(|D0p|^2+|D1p|^2)/2','scope':'real F-sector, not full D/gaugino/MW action map'}
     records['boundary']={'finite_cutoff':'V=0,A_t=0 as whole superfields; A_normal,P free',

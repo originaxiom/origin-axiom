@@ -151,8 +151,12 @@
       "sha256": "c823f2ae951fe3fdedfdcd1b66938c64897d4b9d46dc29417ae36e12705c1306"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/TRACE_NORMALIZATION_REPAIR.md",
+      "sha256": "b5d81d5500e13da72841b229d6ff0af076dc594274fae19af11f695652ea7c3e"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/analysis.py",
-      "sha256": "9706f179332f7d6f6dae19545dcece646df96d8581a370b980ead25263133654"
+      "sha256": "ef071615168d74c7397d278ef5fd60bbebf14853a59c7fcc30c016325564200c"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/execute.py",
@@ -160,7 +164,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/make_seal.rb",
-      "sha256": "a7f61bef5ed9925a46ec63ac65e96a09753fad2c2e7005d76d4ca988a6ebeedf"
+      "sha256": "5f18f2f3f2b616faa3c940ce0fedfe58e7f704289743bebf6b817ebd762897f7"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/probe.py",
@@ -320,7 +324,7 @@
     },
     {
       "path": "tests/test_physical_bridge_surface_real_superfield.py",
-      "sha256": "5ae0406a056b69f736ba74bd2a65f6bc47aab65d786b4ea857ef336c591169c2"
+      "sha256": "ad017b4fae87f4efc68502c5f78145bdc35f558a1155bbe07ac75dd56e581ce7"
     },
     {
       "path": "tests/test_physical_bridge_surface_source_operator.py",

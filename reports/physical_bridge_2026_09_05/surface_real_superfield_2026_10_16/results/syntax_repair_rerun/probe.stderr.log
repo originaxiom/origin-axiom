@@ -1,0 +1,29 @@
+FAIL whole superfield two derivative reduction
+PASS six cubic permutations retained
+PASS nonzero full transgression not dropped
+PASS nonlinear curvature not omitted
+PASS all actual fermion auxiliary F components
+PASS auxiliary integration by parts keeps boundary
+PASS auxiliary primitive nonzero control
+PASS both derivative and cubic fermions nonzero
+FAIL whole superfield first variation with surface
+PASS variation surface cannot be dropped
+PASS whole tangential chiral Dirichlet cancels F surface
+PASS lowest boson Dirichlet alone fails boundary multiplet
+PASS boundary auxiliary and fermion terms both retained
+PASS actual whole superfield conjugate F extraction
+PASS actual real F action involution
+PASS wrong anti Berezin sign rejected
+PASS dagger exact anti multiplicative and involutive
+PASS theta odd matrix anticommutes
+PASS commuting fermion instrument fails F term
+PASS actual graded trace cyclicity
+PASS all small gauge curvature jets covariant
+PASS real parent holomorphic trace gauge invariant
+PASS paired second derivative deletion Ward blind
+PASS omitted gauge connection derivative detected
+PASS tangential gauge derivative violates cutoff law
+PASS actual auxiliary Gaussian 0
+PASS actual auxiliary Gaussian 1
+PASS actual auxiliary Gaussian 2
+PASS auxiliary inverse metric not copied

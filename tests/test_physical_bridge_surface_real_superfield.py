@@ -18,7 +18,10 @@ def test_complete_direct_and_component_records_agree(cert):
 def test_full_reduction_fermions_auxiliary_and_end(cert):
     for k in ('whole superfield two derivative reduction','six cubic permutations retained',
         'nonzero full transgression not dropped','all actual fermion auxiliary F components',
-        'auxiliary integration by parts keeps boundary','auxiliary primitive nonzero control'):
+        'auxiliary integration by parts keeps boundary','auxiliary primitive nonzero control',
+        'trace derivative representation diagnostic','trace variation representation diagnostic',
+        'wrong transgression sign remains detected','wrong variation surface sign remains detected',
+        'untraced commutator not erased'):
         assert cert[0]['checks'][k],k
 def test_actual_adjoint_and_two_sided_odd_instruments(cert):
     for k in ('actual whole superfield conjugate F extraction','actual real F action involution',

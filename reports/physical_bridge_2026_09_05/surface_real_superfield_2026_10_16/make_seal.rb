@@ -11,6 +11,7 @@ paths += %w[weave_curved_action_2026_10_08/PROOF.md weave_curved_action_2026_10_
 paths += %w[DESIGN.md PROOF.md analysis.py probe.py reference.py execute.py make_seal.rb validate.rb].map{|p|local+'/'+p}
 paths << 'tests/test_physical_bridge_surface_real_superfield.py'
 repair=local+'/POST_HOC_REPAIR.md';paths << repair if File.exist?(root.join(repair))
+repair_trace=local+'/TRACE_NORMALIZATION_REPAIR.md';paths << repair_trace if File.exist?(root.join(repair_trace))
 rows=paths.uniq.sort.map{|p|{'path'=>p,'sha256'=>Digest::SHA256.file(root.join(p)).hexdigest}}
 data={'scope'=>'Local actual superfield F-sector/conjugate/cutoff boundary; not full printed Clifford/singular/global physical identification',
  'runtime'=>{'python'=>'3.12.14','sympy'=>'1.14.0'},'shared_formulation'=>'Same author/graded trace/Sympy; direct theta expansion and ordered component product',
