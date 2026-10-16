@@ -2580,6 +2580,29 @@ def test_w99_the_paper_read():
         assert abs(ratio(mp.mpc(0, 4)) - line) < 0.01
         assert abs(ratio(mp.mpc(0.5, 4)) - line) > 90 and abs(mp.im(ratio(mp.mpc(0.5, 4)))) > 170
 
+def test_w100_the_canonical_cusp_replication():
+    """W100 (rule 167b60441; one run 105847f32 after a disclosed failed launch): B1667's end radius from the group
+    side; the cells as recorded; the values posted to main; the gate at omega recomputed in process"""
+    import importlib.util
+
+    import mpmath as mp
+
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_canonical_cusp_replication.json").read_text(encoding="utf-8"))
+    assert d["status"] == "one run" and all(d["cells"].values()) and len(d["cells"]) == 7
+    posted = d["for main: L at the targets (N = 60)"]
+    assert abs(float(posted["tau1"]["L_max"]) - 0.67308857561354) < 1e-12
+    assert abs(float(posted["tau2"]["L_2"]) - 2.41622303644214) < 1e-12
+    assert (here / "the_canonical_cusp_replication_failed_launch.txt").exists()
+    spec = importlib.util.spec_from_file_location("w100", here / "the_canonical_cusp_replication.py")
+    M = importlib.util.module_from_spec(spec)
+    saved = mp.mp.dps
+    spec.loader.exec_module(M)
+    mp.mp.dps = saved
+    with mp.workdps(30):
+        r = M.evaluate(mp.mpf(3), mp.mpf(3), 30, 1)
+        assert abs(r["Lmax"] - mp.mpf("0.69208004049")) < 1e-9 and abs(r["L2"] - mp.mpf("2.78647514288")) < 1e-9
+
 def test_w99_the_paper_read_addendum():
     """W99's addendum (relay §150): T3's dimensions exactly; the residue proposition's displayed sum is not the field's
     square; the turns of Delta; B1660's best cell reproduced with main's instrument"""

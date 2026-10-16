@@ -329,6 +329,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   read of P9 draft 3's §§3–5 and §7. Six MAJOR defects and twenty MINOR, no BLOCKER. Two theorems hold more widely than
   stated, with proofs offered: T2's common point for every word, and the period phase with ε = +1 on every thread.
   W87's cusp line was this seat's slip, corrected by a dated note.
+- W100 (a blind replication of B1667's end radius at two generic moduli, at the owner's word; rule first; one run after
+  a disclosed failed launch; every cell as predicted): by a Fuchsian-side route independent of B1667's. ℰ_max and ℰ₂ at
+  τ₁ = 0.137 + 1.291i and τ₂ = −0.284 + 2.173i are posted for main's comparison. Neither weave nor thread: a property
+  of the shared fibre at a supplied τ.
 
 ## The setting
 
@@ -7620,6 +7624,48 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W100. The end radius replicated blind by a second route: B1667's canonical cusp at two generic moduli, from the group side (`the_canonical_cusp_replication.py`; `W100_RULE.md`)
+
+**Why.** Main's S139 welcomed "a blind replication of L at one generic τ (any method)". The owner approved this
+seat's recommendation to do it, on 2026-10-16. The owner also accepted chat1's waiver of this seat's S-shape blind
+check.
+
+**The order.**
+- The rule came first (167b60441). It discloses an exploration at the controls (ω, i) and at one non-target point.
+- The script came next (ded958e34), dry-run on non-target points only.
+- **The first launch failed**, with "matrix is numerically singular" before writing any output. Only its traceback was
+  read, and its log is preserved with paths redacted (`the_canonical_cusp_replication_failed_launch.txt`).
+  - The diagnosis, at non-target points: at N = 60 the system's conditioning outran 30 digits.
+  - The repair (505ba2808) column-scales the unknowns and keeps the rule's parameters.
+- One run (525 s, exit 0), its output committed unread (105847f32).
+
+**Weave or thread.** Neither: a property of the shared fibre, the punctured torus that every thread carries, at two
+supplied values of τ. It is a replication of main's B1667, not a census of threads.
+
+**The cells (all as predicted).**
+- **R0, the gate.** At ω the route gives B1667's η⁴ closed form to 10⁻¹³.
+- **R1, convergence.** N = 45 and N = 60 agree to 1.5 × 10⁻¹⁴.
+- **R2, the target.** τ is reached to 8 × 10⁻²⁸.
+- **R3, covariance.** ℰ(τ₁ + 1) = ℰ(τ₁) to the output's precision, and ℰ(−1/τ₁) = ℰ(τ₁) + log|τ₁| to 10⁻²⁰. Each comes
+  from its own Newton solve, with different traces.
+- **R4, embedding.** The length-2 horocycle is embedded at both targets: Y₂ = 0.343 against Y_max = 0.133, and 0.166
+  against 0.073.
+- **R5, order one.** Both targets lie in the band.
+
+**The read-outs.**
+- **At τ₁ = 0.137 + 1.291i:** ℰ_max = 0.67308857561354 and ℰ₂ = 2.60053746231300. The traces are (3.16884, 2.58750,
+  4.36558), on the larger root.
+- **At τ₂ = −0.284 + 2.173i:** ℰ_max = 0.65409868914335 and ℰ₂ = 2.41622303644214. The traces are (4.22730, 2.27739,
+  4.47555), on the smaller root.
+- **Main's cell, not scored here:** main's instrument at the same points, to 10⁻⁶.
+
+**What it means (a READING).** If main's instrument agrees, the canonical end radius has been computed by two routes
+that share nothing but the definition. One works on the torus side, with the Lamé equation and real monodromy. The other
+works on the group side, with the Fricke traces and the cusp form. The end is then fixed by the fibre's geometry at
+order one, and it supplies no hierarchy, as B1667 found.
+
+0 of 19.
+
 ## W99. The paper read: P9 draft 3, read hostilely at main's S140 (the owner's request), with every number this seat could recompute recomputed (`the_paper_read_checks.py`)
 
 **Why.** Main's S140 relay, `CC_TO_ALL_SEATS_2026-10-16_SCRUTINISE_THE_PAPER.md` (in main's docs/handoffs/), at the
@@ -8809,6 +8855,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W100 | COMPUTED (the rule first; one run after a disclosed failed launch; every cell as predicted); a property of the shared fibre | B1667's end radius replicated blind from the group side: ℰ_max 0.673089, ℰ₂ 2.600537 at τ₁ = 0.137 + 1.291i; 0.654099, 2.416223 at τ₂ = −0.284 + 2.173i; the gate at ω to 10⁻¹³; covariance to 10⁻²⁰; main's comparison owed |
 | W99 | READING with checks (one run of the checks; no rule, no prediction) | the hostile read of P9 draft 3 at main's S140: six MAJOR, twenty MINOR, no BLOCKER; T2's part 2 and the period phase (ε = +1) proved for every thread; W87's cusp line corrected (Re τ = 0 only) |
 | W98 | COMPUTED (the rule first; one run; T1, T3, T4, T6 as predicted; T2, T5 failed as worded at the instrument's precision limit, t ≥ 30); a WEAVE result in a supplied frame | W95 by trace: every primitive thread with trace ≤ 40 (245); the two groupings agree exactly (every shared class, 34 rebuilt discriminant sums); slopes −4.85 and −3.18 per unit t; κ 1.40–1.50; no layer within any sector's allowance |
 | W95 | COMPUTED (the rule first; a failed first launch preserved; one run; V1–V3, V7 as predicted; V4–V6, V8 failed as worded; a labelled post hoc); a WEAVE result in a supplied frame | the surface frame's neutral couplings traced by discriminant over every thread with D ≤ 300 (282) and every CM point to −300: rank one at a point; the rank law min(3, n_D) (post hoc, 148 of 148); K of rank one at ω and i; slopes −4.80 and −3.11 per √D; κ near 1.45; no D within any sector's allowance |
@@ -8891,6 +8938,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `W100_RULE.md`: the rule, committed before the code; `the_canonical_cusp_replication.py` → `the_canonical_cusp_replication.json` and `the_canonical_cusp_replication_run.txt`, with `the_canonical_cusp_replication_failed_launch.txt` (the failed first launch's traceback): W100.
 - `the_paper_read_checks_2.py` → `the_paper_read_checks_2.json` and `the_paper_read_checks_2_run.txt`, and `the_paper_read_b1660_repro.py` → `the_paper_read_b1660_repro_run.txt`: W99's addendum (relay §150).
 - `the_paper_read_checks.py` → `the_paper_read_checks.json` and `the_paper_read_checks_run.txt`: W99, the paper read's checks (one run; first run in scratch while reading).
 - `W98_RULE.md`: the rule, committed before the code, with the number-theory exploration disclosed; `the_traces_by_trace.py` → `the_traces_by_trace.json` and `the_traces_by_trace_run.txt`: W98, W95 by trace, with the per-class matrices saved.

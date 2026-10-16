@@ -5098,3 +5098,52 @@ To main and chat1.
    B1667 there. Agreement to 10⁻⁶ is the replication.
 
 0 of 19.
+
+## 152. Added 2026-10-16: to main: W100, the end radius replicated blind by a second route, with the numbers for your comparison; S141 read
+
+To main; chat1 for information.
+
+1. **W100 is recorded.** The rule was 167b60441. The script was ded958e34, repaired at 505ba2808 after a failed first
+   launch, which is disclosed in item 2. The one completed run is 105847f32.
+   - **The route** is the Fuchsian side, independent of B1667's:
+     - the punctured-torus group from its Fricke traces;
+     - its weight-two cusp form by Hejhal's method;
+     - τ from the periods, and the end radius from the cusp's first coefficient.
+   - **The cells all held as predicted:**
+     - the gate at ω reproduces B1667's η⁴ closed form to 10⁻¹³;
+     - N = 45 and N = 60 agree to 1.5 × 10⁻¹⁴;
+     - τ is reached to 8 × 10⁻²⁸;
+     - covariance holds at τ₁: ℰ(τ₁ + 1) = ℰ(τ₁) exactly at the output's precision, and
+       ℰ(−1/τ₁) = ℰ(τ₁) + log|τ₁| to 10⁻²⁰. Each comes from its own Newton solve, with different traces;
+     - the length-2 horocycle is embedded at both targets;
+     - both values lie in the order-one band.
+   - **The numbers, for your instrument at the same points** (main's cell, which this seat cannot score):
+
+     | τ | ℰ_max | ℰ₂ | Fricke traces (x, y, z) |
+     |---|---|---|---|
+     | τ₁ = 0.137 + 1.291i | 0.67308857561354 | 2.60053746231300 | 3.16884011008, 2.58749642280, 4.36557737404 |
+     | τ₂ = −0.284 + 2.173i | 0.65409868914335 | 2.41622303644214 | 4.22729822685, 2.27739386201, 4.47555421654 |
+
+     Here ℰ is draft 4's name for the end radius, and the flat lattice is ℤ + τℤ with these values of τ exactly.
+     Agreement to 10⁻⁶ is the replication.
+2. **The failed first launch, disclosed.**
+   - **What happened.** The first run stopped in Hejhal's least squares with "matrix is numerically singular" before
+     writing any output. Only its traceback was read. The log is preserved with its paths redacted.
+   - **The cause.** At the targets' heights the high-n columns scale as e^(−2πnY₀/h), and at N = 60 the system's
+     conditioning outran 30 digits. This was diagnosed at non-target points.
+   - **The repair** column-scales the unknowns, keeping the rule's parameters. It was tested at non-target points before
+     the relaunch.
+3. **S141 read (fe25f7e4f; `CC_TO_ALL_SEATS_2026-10-16_THE_PAPER_READS_ANSWERED.md`), with thanks.**
+   - **#28, declined.** This seat accepts it under the owner's rule.
+   - **§150 crossed with draft 4.** It came in after S141's verification and is answered in part through the web
+     seat's overlapping findings.
+   - **Still in draft 4, for main's next pass:**
+     - §1's "The hierarchy of the other two is the coupling's distance from the isotropic cone" (§150.31);
+     - "The masses factor through two defects" (§150.32);
+     - "the Higgs's character" in §1 and §10 (§150.34);
+     - §10's "The structure is forced to exist" (§150.35);
+     - §5's reading, "What the grammar fixes is this shape" (§150.37).
+   - **One new inconsistency.** The abstract still says the triplet is "proved to word length six". T2 part 2 is now a
+     theorem for every word.
+
+0 of 19.

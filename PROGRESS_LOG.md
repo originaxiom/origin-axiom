@@ -19554,3 +19554,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   independently recompute the main line's newest result, the size of the fibre's natural end.
 - **The rule was written first.** The method works from the other side of the geometry, and two test points were
   fixed in advance. 0 of 19.
+
+## 2026-10-16 — the main line's end radius, recomputed from the other side
+
+- **The seat recomputed the size of the fibre's natural end by a completely different method,** at two test points
+  fixed in advance, before seeing the main line's values there.
+- **Every internal check held.** The numbers now go to the main line for comparison. 0 of 19.

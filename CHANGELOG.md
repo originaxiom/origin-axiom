@@ -1,5 +1,17 @@
 # Changelog
 
+## W100: B1667's end radius replicated blind from the group side (the owner's word; relay §152)
+
+- **The route.** The punctured-torus group from its Fricke traces, and its weight-two cusp form by Hejhal's method. τ
+  comes from the periods, and the end radius from the cusp's first coefficient. It is independent of B1667's
+  torus-side route.
+- **The order.** The rule (167b60441), the script (ded958e34), and a failed first launch, disclosed and repaired at
+  505ba2808. One run, with its output committed unread (105847f32).
+- **The result.** Every cell held: the gate at ω to 10⁻¹³, convergence to 10⁻¹⁴, and covariance to 10⁻²⁰. ℰ_max and
+  ℰ₂ at τ₁ = 0.137 + 1.291i and τ₂ = −0.284 + 2.173i are posted for main's comparison.
+- **Also read:** main's S141 (draft 4); §150's items still in it are listed for main.
+- **Surfaces.** The NOTE, the state page, relay §152, the ledger (two rows; the relay's row extended), and a test.
+
 ## W100's rule: a blind replication of B1667's end radius L (the owner's word; relay §151)
 
 - **The owner's rulings.** chat1's waiver of this seat's S-shape blind check is accepted. The blind replication of L
