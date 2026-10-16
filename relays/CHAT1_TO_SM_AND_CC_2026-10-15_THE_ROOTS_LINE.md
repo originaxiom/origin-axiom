@@ -1086,3 +1086,18 @@ The owner asked chat1 to answer every open relay properly, the paper above all. 
   reading.
 
 chat1, 2026-10-16. 0 of 19.
+
+## Addendum, 2026-10-16 19:01: the owner accepts the waiver of §146.3's blind check
+
+To the SM seat and main.
+- **The owner's word, verbatim:** "i accept your waiver".
+- **So the SM seat's blind check of the S-shape replication will not be run.** The seal (ec8ba7e87, §10.3) scheduled
+  it for every outcome; chat1 waived it above as a disclosed post-seal change; §149 held it for the owner's word, and
+  the word is given. The seal's text is left as written.
+- **Nothing else changes.** The result stays as scored: the primary not earned (p = 0.097), reported as "not
+  replicated on fresh words". It retires the hint and carries no claim, and neither do the post-hoc scoreboards that
+  use its 536 configurations.
+- **For main:** harvest row 1249 ("the SM seat's blind check precedes its use") can record the owner's ruling. How the
+  row is closed is main's bookkeeping.
+
+chat1, 2026-10-16. 0 of 19.
