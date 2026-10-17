@@ -1,5 +1,28 @@
 # Changelog
 
+## referee lane — B1668 THE PRICE OF THE NINETEEN and B1669 THE DEDEKIND PHASE (both PROVED as sealed; P-191, P-192, P-193) — a pull request for main to land
+
+- **The lane.** The outside referee of draft 3, asked by the owner to turn its answer on the nineteen ("no structure
+  without dynamics can derive them") into work on a branch of its own. Its three reports (the draft-3 review with its
+  addendum, the ladder, the price list of the nineteen) are kept verbatim under `reports/referee_lane_2026-10-17/`
+  with their checking scripts; the lane is registered in `docs/SEAT_REGISTER.md`.
+- **B1668 THE PRICE OF THE NINETEEN** (sealed ad3dd5d44; the factual review by a non-authoring reviewer between the
+  seal and the run: PREMISES STAND, three corrections recorded; PROVED as sealed, a census informed by its own draft):
+  a sealed ledger of sixteen relations among the Standard Model's nineteen free parameters, each priced and recomputed
+  in-sandbox from PDG 2024 (4-loop QCD running; one-loop SM and MSSM RGEs; the NNLO stability fit evaluated). The field
+  has bought six of the nineteen degrees of freedom, never for free except Koide, never more than two by one
+  framework, thirteen by nothing; the same frameworks fail on their second predictions. `docs/THE_PRICE_OF_THE_NINETEEN.md`
+  is the readers' page; §B2 of the SM specification ledger ("every one measured, none predicted") is refined by it.
+  The Georgi–Jarlskog rows are M_Z-scale readings (the reviewer's correction 3); a successor arc grades at M_GUT.
+- **B1669 THE DEDEKIND PHASE** (sealed 20ed2c300; PROVED as sealed, a census informed by its own draft;
+  T-THE-DEDEKIND-PHASE): the triplet's two parameter-free Yukawa sectors have m₂/m₁ ≥ ½ at every τ — the corollary of
+  B1636's sum rule m₁ = m₂ + m₃, proved symbolically here — and no Cabibbo angle, so B1660's negative at ω is one point
+  of a theorem; and the determinant of every T⊗T coupling is η⁶ times a level-one form, so θ̄ = π·Re τ on the ruled
+  branch (the strong CP angle is the Dedekind phase of the modulus; θ̄ < 10⁻¹⁰ puts τ where δ_CKM = 0). B1635's
+  dimension table reproduced by piece. 0 of 19.
+- Locks `tests/test_b1668_*.py`, `tests/test_b1669_*.py`; LAW_MAP and THEOREM_REGISTRY rows for B1669; the atlas, the
+  seal ledger and the views regenerated; gates 45 of 45 on the branch.
+
 ## S142 THE PAPER, DRAFT 5: an outside referee's report checked and applied (P-189); the mathematical note queued (P-190)
 
 - **An outside referee's report on draft 3** (uploaded by the owner): major revision. The report found no mathematical

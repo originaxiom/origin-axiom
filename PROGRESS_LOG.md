@@ -17303,3 +17303,22 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **Draft 5** (40 pp.) applies every correction (CHANGELOG S142). verify.sh passes. B1663 is sharpened. The report stays
   in the draft room, since it names the owner. P-189 is done; P-190 is queued; FLOOR 190.
 - Landing suite: gates 45 of 45; 192 files, 2390 passed, 0 failed, 6 skipped (6:02, -n 8). 0 of 19.
+
+## 2026-10-17 — referee lane: B1668 THE PRICE OF THE NINETEEN, B1669 THE DEDEKIND PHASE (P-191, P-192; P-193 queued)
+
+- **The owner's challenge** ("derive the 19 parameters of standard model"; "set it as the challenge to you"): the
+  referee's answer (report 03) is that no structure without dynamics can, with two theorems about the weave's triplet
+  and a proposal — the sealed price list of the field. The owner: "create your branch and lets do it".
+- **B1668.** Sealed before the run; a non-authoring reviewer fact-checked every premise against live sources (PDG 2024
+  PDFs, Huang–Zhou 2021, Buttazzo et al. 2013 equation by equation, Martin's primer, INSPIRE): PREMISES STAND; three
+  corrections (α_s's source label; Koide's 1982 paper for the prediction; Georgi–Jarlskog graded at M_Z, not M_GUT).
+  Every cell C0, T1–T11 held: six dof bought, one free (Koide), two by the best framework (SUSY GUT), thirteen untouched.
+  The run's output was committed unread; a labelled post-seal check with the corrected α_s moves nothing.
+- **B1669.** Sealed before the run; every cell held: B1635's table reproduced by piece; the sum rule of B1636 proved
+  symbolically; the floor ½ at every τ; one form per parameter-free sector; the determinant identities (η⁶ × level one;
+  E₆); the phase law 12·arg η = π·Re τ; the lowest fittable models at χ² > 4·10³.
+- **Disclosed throughout:** every threshold set after the referee's own computations (no blind cell); the review file's
+  last save three seconds after B1668's run was launched (FINDINGS 0b).
+- Gates 45 of 45 on the branch; the locks pass; the atlas, seal ledger and views regenerated. The lane consumed main's
+  B-numbers 1668–1669; main may renumber on landing. 0 of 19.
+

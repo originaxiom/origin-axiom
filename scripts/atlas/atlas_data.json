@@ -12187,6 +12187,47 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1668": {
+   "slug": "the price of the nineteen",
+   "motifs": [
+    "closing",
+    "coupling",
+    "metallic",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B2",
+    "B304",
+    "B686",
+    "B687",
+    "B703",
+    "B743",
+    "B915",
+    "B925",
+    "B950",
+    "B952",
+    "B968"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 13,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1669": {
+   "slug": "the dedekind phase",
+   "motifs": [
+    "coupling",
+    "eisenstein",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B166": {
    "slug": "sln aperiodic",
    "motifs": [

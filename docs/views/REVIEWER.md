@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1396** |
-| words of findings prose | **1,105,067** |
-| test lock files referenced | **814** |
-| arcs carrying an authored verdict | **1396** (100.0 %) |
+| research arcs with findings | **1398** |
+| words of findings prose | **1,108,282** |
+| test lock files referenced | **816** |
+| arcs carrying an authored verdict | **1398** (100.0 %) |
 | recorded closures | **822** (655 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 946 |
+| PROVED | 948 |
 | NEGATIVE | 346 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1667`** (1038 words, 1 locks)  
-THE CANONICAL CUSP (sealed ca1c08efb, sha256 83689a5d; PROVED as sealed, a census informed by neighbours; the output committed unread at e68a87550): in the fibre's own hyperbolic metric the puncture is a cusp with canonical horocycles, which fix B1654's end radius L = log(1/eps) as a function of tau alone -- at order one everywhere on the grid (the maximal cusp 0.643-0.691, the length-2 horocycle 2.29-2.78, converging toward the cusp of moduli; at omega exactly the eta^4 values 0.69208, 2.78648) -- so the end supplies no hierarchy (B1654's bulk hierarchy needs L in the hundreds) and the end datum is a discrete choice, not a continuum; under the canonical cut the first generation's lift rho_can(tau) is a function of tau alone, of order 0.03-0.4 in the bulk, with a simple zero at omega (slope 0.96) and a fall like e^(-2.6 Im tau) toward the cusp of moduli. 0 of 19.  
-`B1667_the_canonical_cusp/FINDINGS.md`
+**PROVED — `B1669`** (1241 words, 1 locks)  
+THE DEDEKIND PHASE (sealed 20ed2c300; PROVED as sealed, a census informed by its own draft; the output committed unread at 5aea6a66c): on the ruled branch the triplet's two parameter-free Yukawa sectors -- the symmetric weight-1 coupling, which is the three theta constants placed off-diagonal, and the weight-0 Dirac coupling, which is the identity -- have m2/m1 >= 1/2 at every tau as the corollary of B1636's sum rule m1 = m2 + m3 (proved here symbolically: e1^2 = 4 e2 for the eigenvalues of Y Y-dagger, every complex a, b, c), with equality (1, 1/2, 1/2) at omega and (1, 1/phi, 1/phi^2) at i, and no Cabibbo angle (one form per sector, M_u proportional to M_d); so B1660's negative at omega is one point of a theorem. And the determinant of every T (x) T coupling is eta^6 times a level-one form (a constant at weight 1, E_6 at weight 3), so with CP-real coefficients theta-bar = pi Re(tau) + O(|q|): the strong CP angle is the Dedekind phase of the modulus, and theta-bar < 1e-10 puts tau on the CP-conserving axis where delta_CKM = 0; for R in Tbar the determinant is a level-one form (E_6 at weight 2), exponentially real toward the cusp, where the same limit degenerates the masses and kills J. The lowest fittable models (weight 3 for T (x) T, weight 2 for Tbar (x) T) miss the eight quark observables by chi^2 > 4e3 and 3e4. B1635's dimension table reproduced by piece. 0 of 19.  
+`B1669_the_dedekind_phase/FINDINGS.md`
 
 **NEGATIVE — `B1663`** (954 words, 0 locks)  
 THE PULL-BACK'S STRENGTH (sealed 9c3f74238, sha256 1ce96661; NEGATIVE as sealed: the central prediction T4(b), 'the strength is not idle', failed; the output committed unread at 4d9eb2001): on the walk with steps L, R and pull-backs L^-1, R^-1 of strength p, p sets WHICH END the motion reaches (P(xi > 0) = 1, 0.90, 0.75, 0.71, 0.62, 0.53 for p = 0 .. 1/2) and HOW FAST (escape 0.396 -> 0.101 per step), but NOT the motion's averaged defect: E_p<f> along the geodesic ray to the walk's limit is 0.5157, 0.5179, 0.5185, 0.5162, 0.5173, 0.5178 (+- 0.0013; spread 0.0028 over six p), not the typical motion's 0.315 (control 0.3155 +- 0.0018). Post-seal (labelled): the limit's continued-fraction digits follow the geometric law 2^-k at p = 0 and p = 1/2 alike (Gauss-Kuzmin for a typical point), so the motion that survives the cancellations is the forward-only motion whatever the strength; cancelling changes only the sign and the clock. The push-back adds no number to the sizes (to about 0.009). 0 of 19.  
