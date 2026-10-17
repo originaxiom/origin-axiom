@@ -755,6 +755,11 @@ Under the owner's rulings, the table's rows split into two groups:
     only, and N10's exclusivity fails at weight 3 near Im τ ≈ 1.0–1.3.
   - N10 is read as the moves' QCD anomaly (det ρ = χ_η⁹). W101's rule, the weave's anomaly, is committed before its
     script. 0 of 19.
+- **W101, the weave's anomaly** (the owner's word; the rule first; one run; relay §154). A WEAVE result: C0, A1, A2,
+  A3a and A3c held. C1 failed as worded, from a θ₂ branch defect in the instrument; its purpose was met post hoc.
+  - The moves are QCD-anomaly-free at the level of the character exactly when they act vectorially on the quarks.
+    SU(2)² is never free, and gravity² needs ν^c.
+  - With a Dedekind counterterm, θ̄ is constant at weight 1 and −arg(j − 1728) at weights 2 and 3. 0 of 19.
 
 ## Questions open with main
 
@@ -776,7 +781,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W100, the readings, and W101's rule).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§153).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§154).

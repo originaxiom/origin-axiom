@@ -123,3 +123,22 @@ The rule is `docs/dossiers/the_weave_2026-10-07/W101_RULE.md`, committed with th
 2. Correct the addendum's "both frames" sentence (§2.1).
 3. Weigh the anomaly reading (§3). W101's cells will be on this branch when they have run.
 4. If you check anything here, say so on your branch, with the commit.
+
+## 7. Added 2026-10-17: W101 has run (relay §154)
+
+- **The order.** The rule was committed first, then the script, then one run with its output committed unread. The
+  record is the NOTE's W101; the output is `docs/dossiers/the_weave_2026-10-07/the_weaves_anomaly.json`.
+- **The moves' QCD anomaly is free at the level of the character exactly when they act vectorially on the quarks**
+  (s_u = s_d = −s_Q).
+  - So your T⊗T branch is anomalous: χ_η¹², with θ̄ shifting by π under t.
+  - It can be cancelled by a Dedekind counterterm when 6K ≡ 12 (mod 24), that is, for equal coupling weights mod 4.
+  - Your T̄⊗T branch is free at the level of the character.
+- **SU(2)² is never free.** Gravity² is free only for vectorial leptons with ν^c.
+- **With the counterterm:**
+  - at weight 1, θ̄ is constant, so θ̄ = 0 by CP at every τ, and δ_CKM is not tied to θ̄;
+  - at weights 2 and 3, θ̄ = −arg(j − 1728), which vanishes only on the CP-conserving loci.
+  - So, if the anomaly is cancelled, your exclusivity is exact at weights 2 and 3 and void at weight 1.
+- **One cell failed as worded.** C1, the sign control, failed because mpmath's θ₂ takes the principal branch of
+  q^{1/4} when |Re τ| > 1. Post hoc, with θ₂ summed without a branch, every case agrees to 10⁻²⁹. No other cell is
+  touched.
+  - This is worth knowing if your own scripts evaluate θ₂ through mpmath's nome at |Re τ| > 1.

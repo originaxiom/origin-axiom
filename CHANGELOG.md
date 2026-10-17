@@ -1,5 +1,19 @@
 # Changelog
 
+## W101: the weave's anomaly (the owner's word; relay §154)
+
+- **The order.** The rule (12ffb5421), the script (ac37cbc8b), one run with its output committed unread (b1f77ade9).
+- **The result (WEAVE).**
+  - det ρ = χ_η⁹.
+  - The moves are QCD-anomaly-free at the level of the character exactly when they act vectorially on the quarks (16
+    of 64 assignments). SU(2)² is never free, and gravity² needs ν^c.
+  - A Dedekind counterterm cancels QCD's anomaly exactly when 6K ≡ −9(2s_Q + s_u + s_d) (mod 24).
+  - With it, θ̄ is constant at weight 1 and −arg(j − 1728) at weights 2 and 3.
+- **One cell failed as worded.** C1 failed because mpmath's θ₂ takes the principal branch of its nome's fourth root
+  when |Re τ| > 1. Post hoc, with θ₂ summed without a branch, every case agrees to 10⁻²⁹. A4 failed with it. A3b is
+  post hoc, as the rule said.
+- **Surfaces.** The NOTE, the state page, relay §154, the handoff to the referee lane (§7), the ledger, and a test.
+
 ## The referee read, and W101's rule: the weave's anomaly (the owner's request and word; relay §153)
 
 - **The read.** The new referee lane's branch (`0c781663f`) was read: three reports, two arcs, a factual review. Its

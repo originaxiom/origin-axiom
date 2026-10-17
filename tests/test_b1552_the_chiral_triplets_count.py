@@ -2580,6 +2580,37 @@ def test_w99_the_paper_read():
         assert abs(ratio(mp.mpc(0, 4)) - line) < 0.01
         assert abs(ratio(mp.mpc(0.5, 4)) - line) > 90 and abs(mp.im(ratio(mp.mpc(0.5, 4)))) > 170
 
+def test_w101_the_weaves_anomaly():
+    """W101 (rule 12ffb5421; script ac37cbc8b; one run b1f77ade9): the cells as recorded, C1 failed as worded and
+    explained post hoc; the character layer and A2's congruence recomputed exactly in process"""
+    import itertools
+
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_weaves_anomaly.json").read_text(encoding="utf-8"))
+    assert d["status"] == "one run"
+    assert d["cells"] == {"C0": True, "C1": False, "A1": True, "A2": True, "A3a": True, "A3c": True, "A4": False}
+    a1 = d["A1 the character layer (exponent of chi_eta, mod 24)"]
+    assert a1["SU3 free"] == 16 and a1["SU2 values"] == [6, 12, 18] and a1["grav free without nu^c"] == 0
+    a3b = d["A3b weight 3, all in T, no counterterm (POST HOC): zeros of sin(12 arg eta + 2 arg E6)"]
+    assert len(a3b["crossings with Re tau >= 0.05"]) == 5
+    ph = json.loads((here / "the_weaves_anomaly_posthoc.json").read_text(encoding="utf-8"))
+    assert ph["cases"] == 30 and ph["every recorded mismatch is exactly a case with |Re(gamma tau)| > 1"]
+    assert float(ph["branch-free: worst |measured - det rho^-2| over all cases"]) < 1e-20
+    F = ["Q", "u", "d", "L", "e", "nu"]
+    W = {"SU3": {"Q": 2, "u": 1, "d": 1}, "SU2": {"Q": 3, "L": 1},
+         "grav": {"Q": 6, "u": 3, "d": 3, "L": 2, "e": 1, "nu": 1}}
+    n = lambda G, s: (9 * sum(W[G].get(f, 0) * s[f] for f in F)) % 24
+    every = [dict(zip(F, v)) for v in itertools.product((1, -1), repeat=6)]
+    assert all((n("SU3", s) == 0) == (s["u"] == s["d"] == -s["Q"]) for s in every)
+    assert all(n("SU2", s) != 0 for s in every)
+    for sQ, su, sd in itertools.product((1, -1), repeat=3):
+        m = (-9 * (2 * sQ + su + sd)) % 24
+        classes = {(ku + kd) % 4 for ku in range(8) for kd in range(8)
+                   if (ku % 2 == 1) == (sQ == su) and (kd % 2 == 1) == (sQ == sd) and (m - 6 * (ku + kd)) % 24 == 0}
+        want = {2} if su == sd == sQ else {0} if su == sd == -sQ else {1} if m == 6 else {3}
+        assert classes == want
+
+
 def test_the_referee_read():
     """The referee read (relay §153; post hoc checks, one run): the lane's numbers as recorded, the fibre floor
     real-only, N10's weight-3 interior zero, det rho = chi_eta^9 recomputed in process; the handoff and W101's rule"""

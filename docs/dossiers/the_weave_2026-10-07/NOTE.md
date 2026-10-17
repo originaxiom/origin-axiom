@@ -337,6 +337,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   referee lane): the lane's load-bearing numbers hold on this seat's code. Two claims are narrower than stated: the
   fibre frame's ½ floor (real Higgs directions only), and N10's exclusivity (it fails at weight 3 near Im τ ≈ 1.0–1.3).
   N10 is read as the moves' QCD anomaly. W101's rule, the weave's anomaly, is committed before its script.
+- W101 (the weave's anomaly, at the owner's word; rule first; one run; C0, A1, A2, A3a, A3c as predicted; C1 failed as
+  worded by an instrument defect, explained post hoc): at the character level the moves are QCD-anomaly-free only when
+  they act vectorially on the quarks (s_u = s_d = −s_Q). SU(2)² is never free, and gravity² needs ν^c. With the
+  Dedekind counterterm, θ̄ is constant at weight 1 and −arg(j − 1728) at weights 2 and 3. A WEAVE result.
 
 ## The setting
 
@@ -7628,6 +7632,81 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W101. The weave's anomaly: the moves are QCD-anomaly-free only when they act vectorially, SU(2)² never is, and gravity² needs ν^c; with the Dedekind counterterm, N10's exclusivity is exact at weights 2 and 3 and void at weight 1 (`the_weaves_anomaly.py`; `W101_RULE.md`)
+
+**Why.** The referee read (the reading below; relay §153) reads the referee lane's θ̄ = π·Re τ as the moves' mixed
+anomaly with QCD. The owner agreed (2026-10-17) to compute the weave's anomaly first.
+
+**The order.**
+- The rule was committed first (12ffb5421, pushed after the suite).
+- The script was committed before its single run (ac37cbc8b). A pre-run clarification is disclosed there: ρ's
+  matrices for C1 are in mpmath's 30-digit floating point, without which C1's stated tolerance could not be met.
+- One run (exit 0, 3 s), with its output committed unread (b1f77ade9).
+- Then this read-out, once.
+- One post hoc check, labelled, after the read-out: `the_weaves_anomaly_posthoc.py`.
+
+**Weave or thread.** WEAVE. The anomaly is a character of the whole group the moves generate, taken over all 64
+dictionary assignments with none hand-picked. The claims are about every thread at once.
+
+**The cells.**
+- **C0 held.** s² = (st)³, s⁸ = 1, s⁴ = −1, the image has order 96, and the t-exponents are {⅛, ⅜, ⅞}.
+  det ρ = χ_η⁹ on t and on s.
+- **C1 FAILED as worded.**
+  - 12 of its 30 measurements came out with the sign opposite to det ρ(γ)⁻². In those cases det Y₁(γτ) ≠ 8η⁶(γτ)
+    as evaluated.
+  - **Post hoc**, the cause was found. The 12 are exactly the cases with |Re(γτ)| > 1
+    (`the_weaves_anomaly_posthoc.json`).
+    mpmath's θ₂ through the nome q = e^{iπτ} takes the principal q^{1/4}, which equals e^{iπτ/4} only for |Re τ| < 1.
+  - With θ₂ summed without a branch, all 30 agree with det ρ(γ)⁻² to 1.4·10⁻²⁹.
+  - So C1's purpose, fixing the sign by computation, is met post hoc. The cell stays failed as worded.
+  - No other cell evaluates θ₂ outside |Re τ| < 1: A3c's five moduli have |Re τ| < ½, and the rest use η, E₄ and E₆ in
+    integral powers of q.
+- **A1 held** (exact, all 64 assignments).
+  - **SU(3)²:** free exactly for s_u = s_d = −s_Q, 16 of 64.
+  - **SU(2)²:** never free; the exponent is 6, 12 or 18.
+  - **gravity²:** free exactly for s_e = s_ν = −s_L (4 of the 16). Without ν^c, none is free.
+  - **All three at once:** none is free.
+  - **Read-out, U(1)_Y²** (a normalisation-dependent condition, not a cell): the exponent is 30 for all in T. It is 0
+    for the quark-vectorial assignment with every lepton in T, which is the lepton hand opposite to gravity's.
+- **A2 held** (exact). A Dedekind counterterm cancels the QCD anomaly exactly when 6K ≡ −9(2s_Q + s_u + s_d) (mod 24).
+  - **For all in T:** K ≡ 2 (mod 4). So (1, 1), (3, 3), (1, 5) and (5, 5) are cancellable, but (1, 3) is not.
+  - **For the vectorial hand:** K ≡ 0 (mod 4).
+  - **For the mixed assignments:** K ≡ 1 or 3 by the hand.
+  - Eight weight pairs out of 0..7 are cancellable in each assignment.
+- **A3a held.** At weight 1 with all in T and no counterterm, θ̄ − θ ≡ −12·arg η (mod π).
+  - It is π/2 on Re τ = ½ (to 2·10⁻³¹).
+  - It vanishes nowhere on the grid off the imaginary axis (the least sin there is 0.150).
+  - The mirror holds exactly.
+- **A3b (POST HOC, as the rule states).** At weight 3 with no counterterm, θ̄ vanishes on an interior curve for
+  c_u c_d > 0: x = 0.3241, 0.3028, 0.2736, 0.2329 and 0.1721 at y = 1.00, 1.05, 1.10, 1.15 and 1.20. None was found
+  for y ≥ 1.25 with x ≥ 0.05.
+- **A3c held.** With the counterterm:
+  - **weight 1:** g = det(Y₁)²/η¹² = 64 to 1.3·10⁻³⁰;
+  - **weights 2 and 3:** g ∝ j − 1728 to 1.2·10⁻²⁸;
+  - arg(j − 1728) is a multiple of π on Re τ = 0, on Re τ = ½ and on three points of |τ| = 1, to 2.5·10⁻³⁰. Nowhere
+    else on the grid is it so; the least |sin| there is 1.7·10⁻³.
+- **A4 failed as stated,** because it needs C1. With C1's purpose met post hoc, its content stands as labelled below.
+
+**What it means.**
+- **The moves must act vectorially to be free of QCD's anomaly.** s_u = s_d = −s_Q means the left- and right-handed
+  quarks carry the same representation. In gravity the leptons must do the same, and that needs right-handed
+  neutrinos.
+  - The consequence for the dictionary: of the referee lane's two branches, T⊗T is anomalous and T̄⊗T is free at the
+    level of the character.
+  - So the parameter-free symmetric weight-1 coupling (B1636's, the record's hand by B1640) sits on the anomalous
+    branch. Its anomaly can be cancelled by the counterterm, since K = 2.
+- **SU(2)² is never free,** because only left-handed fields carry SU(2). A vectorial action is anomalous under the
+  electroweak group exactly as baryon number is.
+  - That is harmless if the moves are a global symmetry: SU(2)'s angle is unphysical.
+  - It is fatal if they are gauged, unless weights or a Green–Schwarz term cancel it.
+- **N10 through the anomaly.**
+  - **With the counterterm:** θ̄ is constant at weight 1, so it is 0 by CP at every τ. N8 still removes weight 1 on the
+    masses. At weights 2 and 3, θ̄ = −arg(j − 1728), so θ̄ = 0 only on the CP-conserving loci: the exclusivity is
+    exact.
+  - **Without the counterterm:** the exclusivity holds at weight 1 and near the cusp, and fails at weight 3 at
+    moderate Im τ (post hoc).
+- **It cannot show:** that the moves are an exact symmetry; that τ is a field; any value of the nineteen. 0 of 19.
+
 ## Reading: the referee lane's branch, read and checked (2026-10-17; post hoc checks; relay §153)
 
 **Why.** The owner asked how this seat reads the new referee lane's work, what it misses or gets wrong, and whether
@@ -8896,6 +8975,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W101 | COMPUTED (the rule first; one run; C0, A1, A2, A3a, A3c as predicted; C1 failed as worded by an instrument defect, its purpose met post hoc; A4 failed as stated; A3b post hoc); a WEAVE result | the weave's anomaly: det ρ = χ_η⁹; the moves are QCD-anomaly-free at the character level exactly when they act vectorially on the quarks (16 of 64), SU(2)² is never free (6, 12, 18), gravity² is free exactly for vectorial leptons and needs ν^c; a Dedekind counterterm cancels QCD's anomaly exactly when 6K ≡ −9(2s_Q + s_u + s_d) mod 24; with it θ̄ is constant at weight 1 and −arg(j − 1728) at weights 2 and 3; without it θ̄ = 0 on an interior curve at weight 3 (post hoc) |
 | The referee read | READING with checks (post hoc; one run; no rule, no prediction) | the referee lane's branch read at the owner's request: its load-bearing numbers hold on this seat's code (R1–R6); the fibre frame's ½ floor holds for real Higgs directions only (R7); N10's exclusivity fails at weight 3 on an interior curve near Im τ ≈ 1.0–1.3 (R9); det ρ = χ_η⁹, so the quarks' QCD character is χ_η¹² for all in T (R8); the handoff to the lane and relay §153; W101's rule committed |
 | W100 | COMPUTED (the rule first; one run after a disclosed failed launch; every cell as predicted); a property of the shared fibre | B1667's end radius replicated blind from the group side: ℰ_max 0.673089, ℰ₂ 2.600537 at τ₁ = 0.137 + 1.291i; 0.654099, 2.416223 at τ₂ = −0.284 + 2.173i; the gate at ω to 10⁻¹³; covariance to 10⁻²⁰; main's comparison owed |
 | W99 | READING with checks (one run of the checks; no rule, no prediction) | the hostile read of P9 draft 3 at main's S140: six MAJOR, twenty MINOR, no BLOCKER; T2's part 2 and the period phase (ε = +1) proved for every thread; W87's cusp line corrected (Re τ = 0 only) |
@@ -8980,7 +9060,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
-- `W101_RULE.md`: the rule for W101 (the weave's anomaly), committed before its script; `the_referee_read_checks.py` → `the_referee_read_checks.json` and `the_referee_read_checks_run.txt`: the referee read's checks (post hoc; one run), cited by `docs/handoffs/SM_TO_REFEREE_LANE_2026-10-17_THE_REFEREE_READ.md`.
+- `W101_RULE.md`: the rule, committed before the code; `the_weaves_anomaly.py` → `the_weaves_anomaly.json` and `the_weaves_anomaly_run.txt`: W101, the weave's anomaly; `the_weaves_anomaly_posthoc.py` → `the_weaves_anomaly_posthoc.json` and `the_weaves_anomaly_posthoc_run.txt`: C1's failure explained and C1 recomputed branch-free (post hoc). `the_referee_read_checks.py` → `the_referee_read_checks.json` and `the_referee_read_checks_run.txt`: the referee read's checks (post hoc; one run), cited by `docs/handoffs/SM_TO_REFEREE_LANE_2026-10-17_THE_REFEREE_READ.md`.
 - `W100_RULE.md`: the rule, committed before the code; `the_canonical_cusp_replication.py` → `the_canonical_cusp_replication.json` and `the_canonical_cusp_replication_run.txt`, with `the_canonical_cusp_replication_failed_launch.txt` (the failed first launch's traceback): W100.
 - `the_paper_read_checks_2.py` → `the_paper_read_checks_2.json` and `the_paper_read_checks_2_run.txt`, and `the_paper_read_b1660_repro.py` → `the_paper_read_b1660_repro_run.txt`: W99's addendum (relay §150).
 - `the_paper_read_checks.py` → `the_paper_read_checks.json` and `the_paper_read_checks_run.txt`: W99, the paper read's checks (one run; first run in scratch while reading).

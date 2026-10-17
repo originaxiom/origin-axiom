@@ -1,0 +1,208 @@
+{
+ "what": "W101 POST HOC: C1's failure explained and C1 recomputed branch-free (no cell changed)",
+ "cases": 30,
+ "every recorded mismatch is exactly a case with |Re(gamma tau)| > 1": true,
+ "branch-free: worst |measured - det rho^-2| over all cases": "1.35e-29",
+ "cases detail": {
+  "t": {
+   "det rho^-2": "(-1.6734267e-30 + 1.0j)",
+   "at the three tau": [
+    {
+     "Re(gamma tau)": "1.137",
+     "recorded mismatch": true,
+     "branch-free measurement": "(4.5814126e-32 + 1.0j)"
+    },
+    {
+     "Re(gamma tau)": "0.716",
+     "recorded mismatch": false,
+     "branch-free measurement": "(-4.5879821e-32 + 1.0j)"
+    },
+    {
+     "Re(gamma tau)": "1.41",
+     "recorded mismatch": true,
+     "branch-free measurement": "(1.098726e-31 + 1.0j)"
+    }
+   ]
+  },
+  "t^-1": {
+   "det rho^-2": "(-1.8128789e-30 - 1.0j)",
+   "at the three tau": [
+    {
+     "Re(gamma tau)": "-0.863",
+     "recorded mismatch": false,
+     "branch-free measurement": "(-6.8721189e-32 - 1.0j)"
+    },
+    {
+     "Re(gamma tau)": "-1.284",
+     "recorded mismatch": true,
+     "branch-free measurement": "(4.5879821e-32 - 1.0j)"
+    },
+    {
+     "Re(gamma tau)": "-0.59",
+     "recorded mismatch": false,
+     "branch-free measurement": "(-8.7071129e-32 - 1.0j)"
+    }
+   ]
+  },
+  "s": {
+   "det rho^-2": "(5.4386367e-30 + 1.0j)",
+   "at the three tau": [
+    {
+     "Re(gamma tau)": "-0.0812839",
+     "recorded mismatch": false,
+     "branch-free measurement": "(6.393364e-32 + 1.0j)"
+    },
+    {
+     "Re(gamma tau)": "0.0591348",
+     "recorded mismatch": false,
+     "branch-free measurement": "(1.0475555e-31 + 1.0j)"
+    },
+    {
+     "Re(gamma tau)": "-0.382963",
+     "recorded mismatch": false,
+     "branch-free measurement": "(1.3543636e-31 + 1.0j)"
+    }
+   ]
+  },
+  "s^-1": {
+   "det rho^-2": "(5.4386367e-30 - 1.0j)",
+   "at the three tau": [
+    {
+     "Re(gamma tau)": "-0.0812839",
+     "recorded mismatch": false,
+     "branch-free measurement": "(-6.393364e-32 - 1.0j)"
+    },
+    {
+     "Re(gamma tau)": "0.0591348",
+     "recorded mismatch": false,
+     "branch-free measurement": "(-1.0475555e-31 - 1.0j)"
+    },
+    {
+     "Re(gamma tau)": "-0.382963",
+     "recorded mismatch": false,
+     "branch-free measurement": "(-1.3543636e-31 - 1.0j)"
+    }
+   ]
+  },
+  "LR": {
+   "det rho^-2": "(1.0 - 2.3336307e-61j)",
+   "at the three tau": [
+    {
+     "Re(gamma tau)": "1.61581",
+     "recorded mismatch": true,
+     "branch-free measurement": "(1.0 - 6.1205673e-32j)"
+    },
+    {
+     "Re(gamma tau)": "1.86322",
+     "recorded mismatch": true,
+     "branch-free measurement": "(1.0 + 2.9658475e-31j)"
+    },
+    {
+     "Re(gamma tau)": "1.51221",
+     "recorded mismatch": true,
+     "branch-free measurement": "(1.0 - 9.4357052e-31j)"
+    }
+   ]
+  },
+  "LR^-1": {
+   "det rho^-2": "(1.0 + 2.3336307e-61j)",
+   "at the three tau": [
+    {
+     "Re(gamma tau)": "-0.637369",
+     "recorded mismatch": false,
+     "branch-free measurement": "(1.0 + 6.1171446e-32j)"
+    },
+    {
+     "Re(gamma tau)": "-0.770189",
+     "recorded mismatch": false,
+     "branch-free measurement": "(1.0 + 4.7726333e-32j)"
+    },
+    {
+     "Re(gamma tau)": "-0.536524",
+     "recorded mismatch": false,
+     "branch-free measurement": "(1.0 - 2.8431663e-31j)"
+    }
+   ]
+  },
+  "LLR": {
+   "det rho^-2": "(-1.6734267e-30 + 1.0j)",
+   "at the three tau": [
+    {
+     "Re(gamma tau)": "2.61581",
+     "recorded mismatch": true,
+     "branch-free measurement": "(1.0890117e-31 + 1.0j)"
+    },
+    {
+     "Re(gamma tau)": "2.86322",
+     "recorded mismatch": true,
+     "branch-free measurement": "(2.1385125e-31 + 1.0j)"
+    },
+    {
+     "Re(gamma tau)": "2.51221",
+     "recorded mismatch": true,
+     "branch-free measurement": "(-1.0982628e-31 + 1.0j)"
+    }
+   ]
+  },
+  "LLR^-1": {
+   "det rho^-2": "(-1.6734267e-30 - 1.0j)",
+   "at the three tau": [
+    {
+     "Re(gamma tau)": "-0.709736",
+     "recorded mismatch": false,
+     "branch-free measurement": "(-2.1631227e-31 - 1.0j)"
+    },
+    {
+     "Re(gamma tau)": "-0.788219",
+     "recorded mismatch": false,
+     "branch-free measurement": "(2.3079195e-31 - 1.0j)"
+    },
+    {
+     "Re(gamma tau)": "-0.659685",
+     "recorded mismatch": false,
+     "branch-free measurement": "(3.0137636e-31 - 1.0j)"
+    }
+   ]
+  },
+  "LRLLR": {
+   "det rho^-2": "(-1.6734267e-30 + 1.0j)",
+   "at the three tau": [
+    {
+     "Re(gamma tau)": "1.7274",
+     "recorded mismatch": true,
+     "branch-free measurement": "(6.6910627e-30 + 1.0j)"
+    },
+    {
+     "Re(gamma tau)": "1.7441",
+     "recorded mismatch": true,
+     "branch-free measurement": "(1.1168156e-29 + 1.0j)"
+    },
+    {
+     "Re(gamma tau)": "1.71775",
+     "recorded mismatch": true,
+     "branch-free measurement": "(3.7702489e-30 + 1.0j)"
+    }
+   ]
+  },
+  "LRLLR^-1": {
+   "det rho^-2": "(-1.8128789e-30 - 1.0j)",
+   "at the three tau": [
+    {
+     "Re(gamma tau)": "-0.726382",
+     "recorded mismatch": false,
+     "branch-free measurement": "(3.3128654e-30 - 1.0j)"
+    },
+    {
+     "Re(gamma tau)": "-0.73565",
+     "recorded mismatch": false,
+     "branch-free measurement": "(2.7274044e-30 - 1.0j)"
+    },
+    {
+     "Re(gamma tau)": "-0.71896",
+     "recorded mismatch": false,
+     "branch-free measurement": "(2.3196211e-30 - 1.0j)"
+    }
+   ]
+  }
+ }
+}

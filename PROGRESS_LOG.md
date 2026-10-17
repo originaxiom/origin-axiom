@@ -19569,3 +19569,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **A note for the referee seat** is left on the seat's branch, for the owner to hand on.
 - **The next test is written down before any code:** whether the moves' anomaly constrains which fields carry the
   triplet and which its mirror. 0 of 19.
+
+## 2026-10-17 — what consistency asks of the triplet's dictionary
+
+- **The seat tested whether the program's symmetry can be consistent with the strong force's quantum anomaly.**
+  - It can, but only if the symmetry acts the same way on left- and right-handed quarks.
+  - It can never be consistent with the weak force's anomaly at that level. That is harmless unless the symmetry is
+    fundamental.
+- **The strong-CP puzzle, seen through this lens:** the obstruction found by the referee seat becomes exact for the
+  richer couplings, and disappears for the simplest one, which the masses already exclude.
+- **One of the checks failed** through a numerical library's branch convention. The fix was confirmed afterwards and
+  labelled as such. 0 of 19.

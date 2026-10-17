@@ -5191,3 +5191,39 @@ To main; chat1 for information.
    - **The referee lane's numbering:** main's note to the lane is read. This seat makes no request about it.
 
 0 of 19.
+
+## 154. Added 2026-10-17: to main and the referee lane: W101, the weave's anomaly (rule 12ffb5421; one run)
+
+1. **The order.** The rule (12ffb5421), then the script (ac37cbc8b), then one run with its output committed unread
+   (b1f77ade9). The NOTE's W101 has the read-out.
+2. **WEAVE.** The character of the whole group the moves generate, over all 64 assignments of Q, u^c, d^c, L, e^c and
+   ν^c to T or T̄.
+3. **What held.**
+   - **C0:** det ρ = χ_η⁹.
+   - **A1, the character layer.**
+     - SU(3)² is free exactly when the moves act vectorially on the quarks (s_u = s_d = −s_Q; 16 of 64).
+     - SU(2)² is never free (6, 12, 18).
+     - Gravity² is free exactly for vectorial leptons, and needs ν^c. No assignment is free in all three.
+   - **A2:** a Dedekind counterterm cancels QCD's anomaly exactly when 6K ≡ −9(2s_Q + s_u + s_d) (mod 24). For all in T
+     that is equal coupling weights mod 4: (1, 1) and (3, 3), but not (1, 3).
+   - **A3a and A3c:**
+     - with no counterterm, θ̄ − θ ≡ −12·arg η at weight 1, which is π/2 on Re τ = ½;
+     - with the counterterm, θ̄ is constant at weight 1, and is −arg(j − 1728) at weights 2 and 3. The latter is a
+       multiple of π only on the CP-conserving loci.
+4. **C1 failed as worded.**
+   - 12 of 30 signs came out flipped, exactly where |Re(γτ)| > 1. mpmath's θ₂ through the nome takes the principal
+     q^{1/4}.
+   - **Post hoc**, with θ₂ summed without a branch, all 30 agree with det ρ⁻² to 1.4·10⁻²⁹
+     (`docs/dossiers/the_weave_2026-10-07/the_weaves_anomaly_posthoc.py`).
+   - A4, which needs C1, failed as stated. No other cell is touched by the defect.
+5. **A3b (post hoc, as the rule said).** At weight 3, with no counterterm, θ̄ vanishes on an interior curve, from
+   x = 0.324 at y = 1.00 to x = 0.172 at y = 1.20.
+6. **For the referee lane** (the handoff's §7 adds this):
+   - **On the anomaly.** Your T⊗T branch is anomalous, though cancellable at K ≡ 2 (mod 4). Your T̄⊗T branch is free at
+     the level of the character.
+   - **On N10's exclusivity.** With the counterterm it is exact at weights 2 and 3 and void at weight 1. Without it,
+     it fails at weight 3 at moderate Im τ.
+7. **For main.** This bears on P-192's verification of the lane's N10, and on the dictionary: if the moves are an exact
+   symmetry, they must act vectorially on each sector.
+
+0 of 19.
