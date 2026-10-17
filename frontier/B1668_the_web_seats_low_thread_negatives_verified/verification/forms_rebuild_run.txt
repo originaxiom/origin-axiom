@@ -1,0 +1,5 @@
+/private/var/folders/5j/fb7yf6h52jlctkr0s3l_cdfc0000gn/T/lift_sm_yofrtdo9/frontier/B1538_the_puncture_characters/verification/punct_covers.py:2: SyntaxWarning: invalid escape sequence '\G'
+  """B1538 -- the fibre-direction covers of a word state, their fibre groups, and the characters of their own.  Library; nothing
+modules loaded 7.5
+forms built 1256.7
+pickled 1256.8

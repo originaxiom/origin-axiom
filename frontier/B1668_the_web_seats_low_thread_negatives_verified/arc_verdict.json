@@ -1,0 +1,24 @@
+{
+  "id": "B1668",
+  "verdict": "NEGATIVE",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1652",
+    "B1660",
+    "B1667"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the surface frame's twisted units on the low threads (N = 9, 11, 12; two readings) and the per-field thread frame at every depth computed (h <= 6)",
+    "object": "the web seat's sealed T-low run (0d83e6981 / 09f41b453) and its per-field census (34b2e8061, with the S-shape replication 2a4bd10fe)",
+    "reach": "class",
+    "hypotheses": "re-execution of a seeded sample of 6 of 90 configurations (bit-identical) and main's own re-scoring of every stored record; the mid-height and replication instruments re-scored from stored outputs, not re-executed; the T-tower exponents not rechecked"
+  },
+  "claim_one_line": "THE WEB SEAT'S LOW-THREAD NEGATIVES, VERIFIED ON MAIN (a verification arc; NEGATIVE as the seat found): the sealed T-low run's inputs and output hash as recorded, forms.pkl rebuilds byte-identically, the 199 nulls regenerate, six seeded configurations re-execute bit-identically (about 161 700 numbers each), and main's own scorer over all 216 000 assignment-cells finds no S-mass pass in either reading (SM best chi2 983.26 per-field, 601.77 minimal; best nulls 267.32, 471.29); the per-field census at every depth re-scores to no pass (h <= 3: 578.2 vs 262.9; 3 < h <= 6: 28 281.0 vs 14 482.6). No assignment, the Standard Model's or a null's, passes the mass test in these frames. 0 of 19.",
+  "weave_or_thread": "weave (every low thread, and every class to depth 6, under one rule)"
+}

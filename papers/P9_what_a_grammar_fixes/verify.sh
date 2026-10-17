@@ -20,4 +20,4 @@ python3 -m pytest -q \
   tests/test_b1658_the_twisted_half_bound.py tests/test_b1659_the_joint_law.py \
   tests/test_b1660_the_one_higgs_census.py tests/test_b1662_the_pull_back_acts.py \
   tests/test_b1663_the_pull_backs_strength.py tests/test_b1666_the_layers_robust.py \
-  tests/test_b1667_the_canonical_cusp.py
+  tests/test_b1667_the_canonical_cusp.py tests/test_b1668_the_web_seats_low_thread_negatives_verified.py

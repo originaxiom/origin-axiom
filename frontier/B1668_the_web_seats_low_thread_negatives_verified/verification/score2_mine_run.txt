@@ -1,0 +1,26 @@
+--- ss/midheight_scan.json
+class records 185 errors 0
+assignments 113
+class-cells/assignment 925 accepted (all assignments) 104525
+passes SM 0 nulls total 0
+SM best (28281.004534736898, (9, 'LLLLLRLLRRRRRLRR', (3, 8), 'C3/E4'))
+best null (14482.60688937188, 'null002') (9, 'LLLLLRLLRRRRRLRR', (3, 8), 'C3/ORTH')
+median null best 23947.88126429805
+SM rank 96 of 113
+band best ('SM', '3<h<=4') (28281.004534736898, 'SM')
+band best ('SM', '4<h<=5') (120860.37104848491, 'SM')
+band best ('SM', '5<h<=6') (284727.0258403681, 'SM')
+band best ('null', '3<h<=4') (14482.60688937188, 'null036')
+band best ('null', '4<h<=5') (105654.94086532027, 'null100')
+band best ('null', '5<h<=6') (238053.5394982493, 'null082')
+--- sshape/s_shape_seal_output.json
+class records 136 errors 0
+assignments 113
+class-cells/assignment 680 accepted (all assignments) 76840
+passes SM 0 nulls total 0
+SM best (578.1638237641733, (12, 'LLLRLLRLRRLLRR', (1, 4), 'C3/ORTH'))
+best null (262.9277155939745, 'null015') (12, 'LLLRLLRLRLLRR', (5, 2), 'C2/E4')
+median null best 765.0072972003771
+SM rank 22 of 113
+band best ('SM', 'h<=3') (578.1638237641733, 'SM')
+band best ('null', 'h<=3') (262.9277155939745, 'null021')

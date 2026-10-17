@@ -17321,3 +17321,14 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   the exponent as a choice among the 24 lifts χ_η^k ⊗ ρ_u, with the allowed-weight rule w ≡ 1 + k/2 (mod 2).
 - **P-190** done. P-188's verification is running.
 - Landing suite: gates 45 of 45; 191 files, 2390 passed, 0 failed, 6 skipped (13:16, -n 6). 0 of 19.
+
+## 2026-10-17 — S144 B1668: THE WEB SEAT'S LOW-THREAD NEGATIVES, VERIFIED ON MAIN (P-188)
+
+- **The verification.** One reading pass for main did it, single-threaded at low priority, as specified in its brief.
+  Main checked the report: an apparent gap of four missing re-execution logs was resolved, since each log holds three
+  configurations.
+- **What was banked.** Main's own scripts, logs and report went into `verification/`. The web seat's data were not
+  copied; they are fetched from its commits. The kill-graph entry and the lock were added, and the paper's §8 and
+  `verify.sh` updated.
+- **The record.** P-188 is done; harvest rows 1241 and 1250 carry the banking note.
+- Landing suite: gates 45 of 45; 192 files, 2394 passed, 0 failed, 6 skipped (5:35, -n 8). 0 of 19.

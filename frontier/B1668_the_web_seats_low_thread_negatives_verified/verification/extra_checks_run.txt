@@ -1,0 +1,10 @@
+null draw keys ['Q', 'u', 'd', 'L', 'e', 'H']
+sign-flip pairs inside the 199 nulls: 88 distinct outcomes by assignment-up-to-sign: 111
+pairs with bitwise-identical singular values over all cells: 88 of 88
+SM negated in nulls: False
+distinct words 21 word classes (reversal+mirror, no rotation) 17
+classes by identical SM singular values (all cells, both readings): 26
+SM S-shape passes: distinct (class, cell): 21 classes: 9
+distinct per-field config-cells: 130
+SM max passing chi_shape 7.446427470405715 min failing 7.958037504156976
+class-level: SM classes with a pass 9 p 0.305 classes total 26

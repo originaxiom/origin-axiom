@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1396** |
-| words of findings prose | **1,105,067** |
-| test lock files referenced | **814** |
-| arcs carrying an authored verdict | **1396** (100.0 %) |
-| recorded closures | **822** (655 classified, 167 routed-only) |
+| research arcs with findings | **1397** |
+| words of findings prose | **1,105,914** |
+| test lock files referenced | **815** |
+| arcs carrying an authored verdict | **1397** (100.0 %) |
+| recorded closures | **823** (656 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 946 |
-| NEGATIVE | 346 |
+| NEGATIVE | 347 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 92 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 93 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE CANONICAL CUSP (sealed ca1c08efb, sha256 83689a5d; PROVED as sealed, a census informed by neighbours; the output committed unread at e68a87550): in the fibre's own hyperbolic metric the puncture is a cusp with canonical horocycles, which fix B1654's end radius L = log(1/eps) as a function of tau alone -- at order one everywhere on the grid (the maximal cusp 0.643-0.691, the length-2 horocycle 2.29-2.78, converging toward the cusp of moduli; at omega exactly the eta^4 values 0.69208, 2.78648) -- so the end supplies no hierarchy (B1654's bulk hierarchy needs L in the hundreds) and the end datum is a discrete choice, not a continuum; under the canonical cut the first generation's lift rho_can(tau) is a function of tau alone, of order 0.03-0.4 in the bulk, with a simple zero at omega (slope 0.96) and a fall like e^(-2.6 Im tau) toward the cusp of moduli. 0 of 19.  
 `B1667_the_canonical_cusp/FINDINGS.md`
 
-**NEGATIVE — `B1663`** (954 words, 0 locks)  
-THE PULL-BACK'S STRENGTH (sealed 9c3f74238, sha256 1ce96661; NEGATIVE as sealed: the central prediction T4(b), 'the strength is not idle', failed; the output committed unread at 4d9eb2001): on the walk with steps L, R and pull-backs L^-1, R^-1 of strength p, p sets WHICH END the motion reaches (P(xi > 0) = 1, 0.90, 0.75, 0.71, 0.62, 0.53 for p = 0 .. 1/2) and HOW FAST (escape 0.396 -> 0.101 per step), but NOT the motion's averaged defect: E_p<f> along the geodesic ray to the walk's limit is 0.5157, 0.5179, 0.5185, 0.5162, 0.5173, 0.5178 (+- 0.0013; spread 0.0028 over six p), not the typical motion's 0.315 (control 0.3155 +- 0.0018). Post-seal (labelled): the limit's continued-fraction digits follow the geometric law 2^-k at p = 0 and p = 1/2 alike (Gauss-Kuzmin for a typical point), so the motion that survives the cancellations is the forward-only motion whatever the strength; cancelling changes only the sign and the clock. The push-back adds no number to the sizes (to about 0.009). 0 of 19.  
-`B1663_the_pull_backs_strength/FINDINGS.md`
+**NEGATIVE — `B1668`** (847 words, 1 locks)  
+THE WEB SEAT'S LOW-THREAD NEGATIVES, VERIFIED ON MAIN (a verification arc; NEGATIVE as the seat found): the sealed T-low run's inputs and output hash as recorded, forms.pkl rebuilds byte-identically, the 199 nulls regenerate, six seeded configurations re-execute bit-identically (about 161 700 numbers each), and main's own scorer over all 216 000 assignment-cells finds no S-mass pass in either reading (SM best chi2 983.26 per-field, 601.77 minimal; best nulls 267.32, 471.29); the per-field census at every depth re-scores to no pass (h <= 3: 578.2 vs 262.9; 3 < h <= 6: 28 281.0 vs 14 482.6). No assignment, the Standard Model's or a null's, passes the mass test in these frames. 0 of 19.  
+`B1668_the_web_seats_low_thread_negatives_verified/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

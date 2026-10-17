@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**822 recorded closures — of which 655 are CLASSIFIED by mechanism and
+**823 recorded closures — of which 656 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -105,6 +105,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed (B1644): det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes R isotropic, so the light state is exactly massless for every direction and tau; the golden spectrum is therefore impossible (distance exactly 1/phi^2). [Audited, B1655: a feature -- the exact zero is the leading-order structure a light first generation needs; 'golden impossible' is for the leading-order adjoint-Higgs coupling at one tau.]` | 1 |  |
 | `Sealed (B1660, a scoreboard): no fit below 11.07 in any of 54 cells, every cell reliable, all 15 planted worlds recovered; chi2_min 85.35 (same S), 542.8 (S~), 34.40 (conj S on the conjugate pair of lines). The misses are m_s/m_b (too large) and m_mu/m_tau (too small): the data's (m_mu/m_tau)/(m_s/m_b) = 3.14 against 0.63-1.75 at the best points -- a joint conflict, not a ceiling (post-seal: alone the ratio reaches 9-34).` | 1 |  |
 | `Sealed (B1663): E_p<f> along the geodesic ray to the walk's limit is 0.5157-0.5185 for p = 0 .. 1/2 (spread 0.0028, each +- 0.0013), while the side (P(xi > 0) = 1 -> 0.53) and the escape rate (0.396 -> 0.101) follow p; post-seal the limit's digits follow the geometric law 2^-k at every p.` | 1 |  |
+| `Verified on main (B1668): the web seat's sealed T-low run reproduces bit-identically on a seeded sample and re-scores to 0 passes over 216 000 assignment-cells (SM best chi2 983 per-field / 602 minimal against nulls 267 / 471); the per-field census re-scores to 0 passes at h <= 3 (578 vs 263) and 3 < h <= 6 (28 281 vs 14 483).` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

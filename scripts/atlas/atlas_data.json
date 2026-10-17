@@ -12187,6 +12187,21 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1668": {
+   "slug": "the web seats low thread negatives verified",
+   "motifs": [
+    "closing",
+    "coupling",
+    "metallic",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 11,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B166": {
    "slug": "sln aperiodic",
    "motifs": [

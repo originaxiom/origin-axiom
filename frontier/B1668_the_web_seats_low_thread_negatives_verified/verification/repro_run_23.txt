@@ -1,0 +1,6 @@
+idx 23 N=11 word=LLLLRLRRRLRR line=[1, 10] time 141s (stored 100.7s)
+  numbers compared 161702 differing 0 max rel diff (any) 0.0 max rel diff singular values 0.0 max abs closure diff 0.0 str/none diffs 0 0
+idx 84 N=12 word=LLRLRRLRRLR line=[3, 1] time 139s (stored 103.8s)
+  numbers compared 161708 differing 0 max rel diff (any) 0.0 max rel diff singular values 0.0 max abs closure diff 0.0 str/none diffs 0 0
+idx 15 N=9 word=LLRLLRRLRR line=[3, 5] time 127s (stored 100.8s)
+  numbers compared 161678 differing 0 max rel diff (any) 0.0 max rel diff singular values 0.0 max abs closure diff 0.0 str/none diffs 0 0

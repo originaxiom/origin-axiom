@@ -1,0 +1,20 @@
+rows 216000 failures {} worst closure 5.140181533426312e-36 max r_calc 0.0
+claim mass per-field all (0, 1.0, 0.0)
+claim mass minimal all (0, 1.0, 0.0)
+claim shape per-field all (84, 0.03, 46.57286432160804)
+claim shape minimal all (0, 1.0, 0.3417085427135678)
+claim ckm per-field all (0, 1.0, 0.44221105527638194)
+claim ckm minimal all (2, 0.215, 0.6532663316582915)
+claim mass per-field 9 (0, 1.0, 0.0)
+claim mass per-field 11 (0, 1.0, 0.0)
+claim mass per-field 12 (0, 1.0, 0.0)
+claim shape per-field 9 (12, 0.58, 12.663316582914574)
+claim shape per-field 11 (60, 0.03, 22.79396984924623)
+claim shape per-field 12 (12, 0.39, 11.115577889447236)
+per-field SM best chi2 (983.2576210038577, (12, 'LLLRLLRRRLRR', 'C3/E4')) best null 267.3204438283372 SM rank among 200 by best cell 77
+per-field total mass passes (any assignment) 0
+minimal SM best chi2 (601.7710687863939, (12, 'LLRLLRLRLRR', 'C3/ORTH')) best null 471.2879066739019 SM rank among 200 by best cell 33
+minimal total mass passes (any assignment) 0
+accepted assignment-cells 216000 of 216000
+SM cells 1080
+W94 SM range 0.005962538829581843 216.97654737207503

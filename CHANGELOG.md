@@ -1,5 +1,20 @@
 # Changelog
 
+## S144 THE WEB SEAT'S LOW-THREAD NEGATIVES, VERIFIED ON MAIN (B1668, NEGATIVE; P-188)
+
+- **B1668, a verification arc.** It covers the web seat's sealed run THE TWISTED UNITS ON THE LOW THREADS and its
+  per-field census at every depth, both verified on main.
+  - The seal and input hashes match as recorded.
+  - The stored units file rebuilds byte-identically.
+  - The 199 nulls regenerate.
+  - Six seeded configurations re-execute bit-identically, about 161 700 numbers each.
+  - Main's own scorers, written from the preregistration, re-score every stored record and find no S-mass pass in
+    either result. The SM's best χ² is 983 per-field and 602 minimal, against best nulls of 267 and 471. The census gives
+    0 passes at h ≤ 3 (578 against 263) and at 3 < h ≤ 6 (28 281 against 14 483).
+- **Recording.** Routed into the kill graph, with a lock. The paper's §8 cites it, and `verify.sh` now runs 26 locks.
+- **Credit** to the web seat, whose sealed runs these are, and whose S-shape result was refereed and replicated in the
+  open.
+
 ## S143 THE MATHEMATICAL NOTE (P-190) and the program report released (tag `p9-draft5`)
 
 - **The release.** Draft 5 of the program report is tagged `p9-draft5` and published as a GitHub release with its PDF.

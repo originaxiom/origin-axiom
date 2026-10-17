@@ -11560,5 +11560,27 @@
    "hypotheses": "L, R and inverses with equal weights within each pair; resolution about 0.009"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1668",
+  "claim_killed": "that some assignment of charges (the Standard Model's or a null) passes the six-ratio mass test (S-mass) in the surface frame's twisted units on the low threads or in the per-field thread frame at any depth computed",
+  "kill_form": "Verified on main (B1668): the web seat's sealed T-low run reproduces bit-identically on a seeded sample and re-scores to 0 passes over 216 000 assignment-cells (SM best chi2 983 per-field / 602 minimal against nulls 267 / 471); the per-field census re-scores to 0 passes at h <= 3 (578 vs 263) and 3 < h <= 6 (28 281 vs 14 483).",
+  "hatch": "another frame or end condition; couplings that read more than one thread; a dictionary other than the minimal 6Y normalisation; the T-tower exponents (not rechecked)",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-17), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: in these frames the hierarchies come out too strong, growing with depth, and the SM's charges fit no better than the nulls; a hierarchy of the observed kind needs something these frames do not contain.",
+  "faces_consulted": [
+   "B1652",
+   "B1660",
+   "B1667"
+  ],
+  "fact_computed": "seal and input hashes; forms.pkl rebuilt (1257 s); six configurations re-executed; main's own scorers over every stored record of both results",
+  "scope": {
+   "frame": "the surface frame's twisted units on the low threads (N = 9, 11, 12; two readings) and the per-field thread frame at every depth computed (h <= 6)",
+   "object": "the web seat's sealed T-low run (0d83e6981 / 09f41b453) and its per-field census (34b2e8061, with the S-shape replication 2a4bd10fe)",
+   "reach": "class",
+   "hypotheses": "re-execution of a seeded sample of 6 of 90 configurations (bit-identical) and main's own re-scoring of every stored record; the mid-height and replication instruments re-scored from stored outputs, not re-executed; the T-tower exponents not rechecked"
+  },
+  "weave_or_thread": "weave (every low thread, and every class to depth 6, under one rule)"
  }
 ]
