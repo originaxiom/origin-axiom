@@ -1,5 +1,20 @@
 # Changelog
 
+## Reading: the measurer as a thread (the owner's question; relay §155)
+
+- **No computation.** A design reading for I-13, the listener map u, at the owner's question: what if the measurer is
+  counted as part of the ecosystem?
+- **The findings.**
+  - Under the weave rule the measurer is not a thread chosen by hand.
+  - W34's facts mean no thread and not the joint action keeps a record; only a shear or the mirror does. So a measurer
+    inside the weave can sit only at an end.
+  - The composition lemma: a pairwise read-out of magnitudes is f(γ)/f(γ′). For masses the measurer buys only the
+    unit, and a pairwise invariant can stand only for relations (mixing, phases).
+  - Three of F-MC's five typed inputs are re-read as the measurer's conventions.
+- **Proposed, not started:** W102 (the linking matrix of the threads) and W103 (the shear's kept record as a read-out).
+- **Surfaces.** The NOTE (a reading section, a header bullet, a table row), the state page, relay §155, the ledger's
+  relay row, and a test.
+
 ## W101: the weave's anomaly (the owner's word; relay §154)
 
 - **The order.** The rule (12ffb5421), the script (ac37cbc8b), one run with its output committed unread (b1f77ade9).

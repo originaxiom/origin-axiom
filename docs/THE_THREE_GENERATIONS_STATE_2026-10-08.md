@@ -760,6 +760,11 @@ Under the owner's rulings, the table's rows split into two groups:
   - The moves are QCD-anomaly-free at the level of the character exactly when they act vectorially on the quarks.
     SU(2)² is never free, and gravity² needs ν^c.
   - With a Dedekind counterterm, θ̄ is constant at weight 1 and −arg(j − 1728) at weights 2 and 3. 0 of 19.
+- **Reading: the measurer as a thread** (the owner's question; no computation; relay §155).
+  - Under the weave rule the measurer is not a thread chosen by hand. No thread and not the joint action keeps a
+    record, only a shear or the mirror does (W34), so a measurer inside the weave can sit only at an end.
+  - For masses, counting the measurer buys only the unit (the composition lemma). A pairwise invariant of threads can
+    stand only for relational data (mixing, phases). W102 and W103 are proposed, not started. 0 of 19.
 
 ## Questions open with main
 
@@ -784,4 +789,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§154).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§155).

@@ -341,6 +341,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   worded by an instrument defect, explained post hoc): at the character level the moves are QCD-anomaly-free only when
   they act vectorially on the quarks (s_u = s_d = −s_Q). SU(2)² is never free, and gravity² needs ν^c. With the
   Dedekind counterterm, θ̄ is constant at weight 1 and −arg(j − 1728) at weights 2 and 3. A WEAVE result.
+- Reading: the measurer as a thread (the owner's question; no computation): under the weave rule the measurer is
+  not a thread chosen by hand. No thread and not the joint action keeps a record (W34); only a shear or the mirror
+  does. For magnitudes, counting the measurer buys only the unit (the composition lemma); a pairwise invariant of
+  threads can stand only for relational data (mixing, phases).
 
 ## The setting
 
@@ -7632,6 +7636,106 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## Reading: the measurer as a thread (READING; the owner's question, 2026-10-17)
+
+**Why.** The owner asked: "what if when we measure parameters we count for the measurer to be part of the ecosystem".
+The owner agreed to a reading first. Nothing here is computed.
+
+**The link this would build.** I-13 in the identification ledger is the listener map u, the programme's master
+identification of a structural analogue with a physical quantity "on the observer's side". It is UNEARNED. Its
+crossing cell asks for u built from field data, never fitted. Counting the measurer inside the weave is a way to build u
+from the inside: a value becomes a relation between two parts of the weave.
+
+**Weave or thread.** A fourth word to watch, beside the three of the owner's rule: "the measurer". In the singular it
+pulls the work back to one thread. Under the weave rule the measurer is not a thread chosen by hand. Two forms are
+allowed:
+- every thread measures every thread, so the data are pairwise, over all pairs;
+- or the measurer is a joint object, a place shared by every thread.
+
+### 1. What a measurer needs: a record kept by its own dynamics
+
+W34 has the facts.
+- **No thread keeps a record.** A thread acts on the private states as its own hyperbolic matrix (eigenvalues λ^{±1})
+  times a map of finite order. So no thread keeps any private state, on all 758 states to length 12.
+- **The joint action keeps nothing either.**
+- **A single shear keeps one.**
+  - At n = 3 the private states are the Wilson lines of the three parity lines (fiber_dim 4).
+  - The shear L, and likewise R, keeps (H¹, private) = (1, 1) there.
+  - The involution P keeps two.
+
+**The reading.**
+- **Only a parabolic or involutive move can keep a record:** a shear or the mirror. Never a thread, and never the weave
+  as a whole.
+- So a measurer inside the weave cannot sit on a thread. It can sit only where a shear fixes something: at a cusp of
+  the modulus, the asymptotic end, or at the mirror.
+- This is the weave's form of a familiar fact. Pointer states are the states left fixed by the measuring interaction
+  (Zurek's einselection, Rev. Mod. Phys. 75, 715, 2003).
+
+**Two ends must be kept apart.**
+- **The fibre's puncture.** This is where the record reads its couplings: B1649's residue coupling, and B1651's bulk
+  couplings that factor through the puncture's residue (relay §107). The private states are, by definition, invisible
+  there.
+- **The cusp of the modulus,** where the shear L is parabolic. This is where W34's kept record sits.
+
+### 2. Magnitudes: the composition lemma
+
+- **The lemma.** Suppose a pairwise read-out r(γ, γ′) is to be a ratio of measured magnitudes. Then it must compose:
+  r(γ, γ″) = r(γ, γ′)·r(γ′, γ″), with r(γ, γ) = 1. So r(γ, γ′) = f(γ)/f(γ′), with f(γ) = r(γ, γ₀) for any fixed γ₀.
+- **The proof.** r(γ, γ′) = r(γ, γ₀)·r(γ₀, γ′), and r(γ₀, γ′) = 1/r(γ′, γ₀).
+- **For masses,** counting the measurer therefore buys exactly one degree of freedom: the unit.
+  - The overall scale becomes the measurer's unit, not an input.
+  - What remains is a single function on the threads. That is the form of the record's per-field read-outs (a field's
+    mass from its own thread), such as the web seat's per-field census, whose negatives main verified at S144 (main's
+    B1668).
+- **A pairwise invariant that does not compose,** such as a linking number or an intersection number, cannot be a mass
+  ratio. It can stand only for relational data: the mixing between two sectors (V = U_u†U_d is a relation between two
+  bases), or a phase.
+
+### 3. F-MC's typed inputs, re-read
+
+- **Three of F-MC's five typed inputs become conventions of the measurer:**
+  - **the scale,** which is its unit (§2);
+  - **the time's-arrow bit,** which is the direction in which its records accumulate. This is the reading of
+    Page and Wootters (Phys. Rev. D 27, 2885, 1983): time as correlation with a clock inside the system;
+  - **the chirality bit,** which is the hand, already read as conventional (Reading W24–W29, point 1).
+- **Two remain inputs:** the Lie type J and the rank-closing VEV direction.
+- **Nothing is discharged.** Three inputs change type, from a fact about nature to a convention of the measurer.
+
+### 4. The three versions, priced
+
+| version | what it needs | what the record says | what it can give | its price |
+| --- | --- | --- | --- | --- |
+| Relational: every thread measures every thread | no new input | the composition lemma (§2) | the unit; a home for relational parameters (mixing, phases) | none beyond u itself, for the relations |
+| Selection: only where a measurer can exist | an observer criterion | the record's own criterion, a kept private record, holds on no thread (W34) | windows at most (Weinberg, PRL 59, 2607, 1987; Agrawal, Barr, Donoghue and Seckel, PRD 57, 5480, 1998) | a new input, the criterion |
+| Self-consistency: the measurer's record of a parameter is the parameter | a kept record and an internal u | records are kept only by a shear or the mirror (W34): at a cusp of the modulus, never at a finite τ on a thread | a number, if a fixed-point condition at the end closed; none is known (Wheeler's self-excited circuit) | an end condition, which the record already prices as a choice; at the fibre's canonical end the radius is of order one (B1667, replicated by W100), so that end supplies no hierarchy |
+
+### 5. The decision
+
+- **The principle allows the measurer inside in two places only:**
+  - relationally, over all pairs of threads;
+  - at an end, where a shear keeps a record.
+- **It does not allow** a measurer on a thread, or in the weave's joint action (W34).
+- **For magnitudes the gain is the unit alone** (the lemma).
+- **For relations** (mixing, phases), a pairwise invariant of threads is a class that I-13's crossing cell has not yet
+  tried.
+- **Consistency conditions** (W101's anomaly) already include the measurer, since its fermions are the same fields.
+
+### 6. What would test it (neither is started; the owner's word first)
+
+- **W102, relational.**
+  - The quantity: the linking matrix of the threads as modular knots, over every pair to a stated length (Ghys,
+    "Knots and dynamics", ICM 2006; Duke, Imamoḡlu and Tóth, Duke Math. J. 166, 2017). This is a weave quantity.
+  - Fixed before any data: a stated null, random pairs of words of the same lengths, and one sealed question. The
+    question: does the joint action fix any structure in the pairwise invariants from which a mixing angle could be
+    read?
+  - Taking two sectors to two threads is itself a dictionary choice (I-13 again), and it is stated as a hypothesis.
+  - This seat's prior that it yields a CKM-like number is low, under 5%.
+- **W103, the end.** Does the private state kept by the shear at n = 3, one Wilson line of the parity lines, define a
+  canonical read-out vector at the cusp of the modulus? That would be a candidate u built from field data, as I-13's
+  crossing cell asks.
+
+**What this reading cannot show:** that a measurer is inside the weave, or any value. 0 of 19.
+
 ## W101. The weave's anomaly: the moves are QCD-anomaly-free only when they act vectorially, SU(2)² never is, and gravity² needs ν^c; with the Dedekind counterterm, N10's exclusivity is exact at weights 2 and 3 and void at weight 1 (`the_weaves_anomaly.py`; `W101_RULE.md`)
 
 **Why.** The referee read (the reading below; relay §153) reads the referee lane's θ̄ = π·Re τ as the moves' mixed
@@ -8975,6 +9079,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| Reading: the measurer as a thread | READING (no computation; the owner's question) | under the weave rule the measurer is not a thread chosen by hand: every thread measures every thread, or the measurer is a joint object; no thread and not the joint action keeps a record, only a shear or the mirror (W34), so a measurer can sit only at an end; the composition lemma: a pairwise read-out of magnitudes is f(γ)/f(γ′), so the measurer buys only the unit for masses, and non-composing pairwise invariants can stand only for relations (mixing, phases); three of F-MC's five typed inputs re-read as the measurer's conventions; W102 (the linking matrix) and W103 (the shear's kept record) proposed, not started |
 | W101 | COMPUTED (the rule first; one run; C0, A1, A2, A3a, A3c as predicted; C1 failed as worded by an instrument defect, its purpose met post hoc; A4 failed as stated; A3b post hoc); a WEAVE result | the weave's anomaly: det ρ = χ_η⁹; the moves are QCD-anomaly-free at the character level exactly when they act vectorially on the quarks (16 of 64), SU(2)² is never free (6, 12, 18), gravity² is free exactly for vectorial leptons and needs ν^c; a Dedekind counterterm cancels QCD's anomaly exactly when 6K ≡ −9(2s_Q + s_u + s_d) mod 24; with it θ̄ is constant at weight 1 and −arg(j − 1728) at weights 2 and 3; without it θ̄ = 0 on an interior curve at weight 3 (post hoc) |
 | The referee read | READING with checks (post hoc; one run; no rule, no prediction) | the referee lane's branch read at the owner's request: its load-bearing numbers hold on this seat's code (R1–R6); the fibre frame's ½ floor holds for real Higgs directions only (R7); N10's exclusivity fails at weight 3 on an interior curve near Im τ ≈ 1.0–1.3 (R9); det ρ = χ_η⁹, so the quarks' QCD character is χ_η¹² for all in T (R8); the handoff to the lane and relay §153; W101's rule committed |
 | W100 | COMPUTED (the rule first; one run after a disclosed failed launch; every cell as predicted); a property of the shared fibre | B1667's end radius replicated blind from the group side: ℰ_max 0.673089, ℰ₂ 2.600537 at τ₁ = 0.137 + 1.291i; 0.654099, 2.416223 at τ₂ = −0.284 + 2.173i; the gate at ω to 10⁻¹³; covariance to 10⁻²⁰; main's comparison owed |

@@ -19580,3 +19580,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   richer couplings, and disappears for the simplest one, which the masses already exclude.
 - **One of the checks failed** through a numerical library's branch convention. The fix was confirmed afterwards and
   labelled as such. 0 of 19.
+
+## 2026-10-17 — if the one who measures is part of the system
+
+- **The owner asked what changes if the measurer is counted as part of the ecosystem.** The seat wrote down what the
+  record already implies, without computing anything new.
+  - A measuring part needs a record that its own motion keeps. In this structure no single path, and not the whole,
+    can keep one. Only the special "edge" motions can, so a measurer could live only at an edge.
+  - For masses, counting the measurer removes only the choice of unit. A relation between two paths could stand only
+    for mixing between families, not for masses.
+- **Two follow-up tests are written down but not started.** 0 of 19.

@@ -5227,3 +5227,31 @@ To main; chat1 for information.
    symmetry, they must act vectorially on each sector.
 
 0 of 19.
+
+## 155. Added 2026-10-17: to main: a reading, the measurer as a thread (the owner's question; no computation)
+
+1. **The question.** The owner asked what changes if the measurer is counted as part of the ecosystem when parameters
+   are measured. The reading is in the NOTE ("Reading: the measurer as a thread"). It is a design reading for I-13, the
+   listener map u, and its crossing cell.
+2. **What it finds.**
+   - **The weave rule.** The measurer is not a thread chosen by hand. Either every thread measures every thread, or the
+     measurer is a joint object.
+   - **W34's facts.** No thread keeps a private record, since each acts hyperbolically. The joint action keeps none
+     either. Only a shear (L or R keeps one at n = 3, a Wilson line of the parity lines) or the mirror P does. So a
+     measurer inside the weave can sit only at an end, never on a thread.
+   - **The composition lemma.** A pairwise read-out of magnitudes must compose, so it is f(γ)/f(γ′). For masses,
+     counting the measurer buys only the unit: the scale becomes the measurer's unit. A pairwise invariant that does
+     not compose can stand only for relational data (mixing, phases).
+   - **The typed inputs.** Three of F-MC's five typed inputs (the scale and the two bits) are re-read as the measurer's
+     conventions. Nothing is discharged.
+   - **The pricing.** Selection needs an observer criterion, and the record's own criterion holds on no thread.
+     Self-consistency needs a kept record, which exists only at an end, where the record already prices the end data
+     as a choice.
+3. **Proposed, not started:**
+   - **W102:** the threads' linking matrix as modular knots, under a stated null;
+   - **W103:** whether the shear's kept record defines a canonical read-out at the cusp of the modulus.
+4. **A question for main (not binding).** Does main read I-13's crossing cell as admitting a relational u: a pairwise
+   invariant of threads read as a relation between sectors, with the dictionary taking sectors to threads stated as a
+   hypothesis?
+
+0 of 19.

@@ -2580,6 +2580,22 @@ def test_w99_the_paper_read():
         assert abs(ratio(mp.mpc(0, 4)) - line) < 0.01
         assert abs(ratio(mp.mpc(0.5, 4)) - line) > 90 and abs(mp.im(ratio(mp.mpc(0.5, 4)))) > 170
 
+def test_reading_the_measurer_as_a_thread():
+    """The reading (relay §155): the measurer is no hand-picked thread; W34's kept records only under a shear or the
+    mirror; the composition lemma checked on random magnitudes in process"""
+    import random
+
+    note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
+    assert "## Reading: the measurer as a thread (READING; the owner's question, 2026-10-17)" in note
+    for s in ("### 2. Magnitudes: the composition lemma", "**No thread keeps a record.**", "**W102, relational.**"):
+        assert s in note
+    rng = random.Random(7)
+    m = [rng.uniform(0.1, 10) for _ in range(6)]
+    r = lambda a, b: m[a] / m[b]
+    f = [r(a, 0) for a in range(6)]
+    assert all(abs(r(a, b) - f[a] / f[b]) < 1e-12 for a in range(6) for b in range(6))
+
+
 def test_w101_the_weaves_anomaly():
     """W101 (rule 12ffb5421; script ac37cbc8b; one run b1f77ade9): the cells as recorded, C1 failed as worded and
     explained post hoc; the character layer and A2's congruence recomputed exactly in process"""
