@@ -1,0 +1,24 @@
+{
+  "id": "B1668",
+  "verdict": "PROVED",
+  "instrument": true,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B687",
+    "B950",
+    "B968"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "referee",
+  "scope": {
+    "frame": "the literature's relations among the Standard Model's nineteen free parameters, tested against PDG 2024 and Huang-Zhou 2021 in-sandbox (4-loop QCD running; one-loop SM and MSSM RGEs; the NNLO stability fit of Buttazzo et al. 2013 evaluated); nothing of the weave or the object enters",
+    "object": "sixteen relations (unification with SM and MSSM content, Koide, Gatto-Sartori-Tonin and the Fritzsch texture, Georgi-Jarlskog at M_Z, criticality, the quasi-fixed point, Veltman, theta_C = pi/14, Froggatt-Nielsen, b-tau, three strong-CP mechanisms, the massless up quark, modular fits) graded by a sealed rubric and a sealed counting rule",
+    "reach": "a measurement of the literature, first page; the Georgi-Jarlskog rows are M_Z-scale readings (the GUT-scale running is a successor arc)",
+    "hypotheses": "a census informed by its own draft (every threshold set after seeing; disclosed); the factual review by a non-authoring reviewer found the premises standing with three corrections, none moving a cell"
+  },
+  "claim_one_line": "THE PRICE OF THE NINETEEN (sealed ad3dd5d44, sha256 c2f69fae; PROVED as sealed, a census informed by its own draft; the factual review PREMISES STAND; the output committed unread at 65a387530): a sealed ledger of the literature's relations among the Standard Model's nineteen free parameters, each priced and recomputed in-sandbox against PDG 2024 -- the field has bought six of the nineteen degrees of freedom (one gauge relation by unification with MSSM content, m_H by criticality at +2.6%, m_s by Georgi-Jarlskog at +5% at M_Z, m_tau by Koide at 1e-5, theta_C by Gatto-Sartori-Tonin at 0.1 sigma or by Delta(6 7^2) at 1%, theta-bar by a mechanism), never for free except Koide, never more than two by one framework (SUSY GUT), and thirteen by nothing; the same frameworks fail on their second predictions (|V_cb| by 3.3x, m_e = m_d/3 by 12% at M_Z, the quasi-fixed-point m_t by 25%, Veltman by 150%, m_u = 0 by 31 sigma). The comparison class for any claim about the nineteen: a structure without dynamics buys zero rows. 0 of 19.",
+  "weave_or_thread": "neither (the literature against the data)"
+}
