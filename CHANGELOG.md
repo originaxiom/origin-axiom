@@ -1,5 +1,22 @@
 # Changelog
 
+## S143 THE MATHEMATICAL NOTE (P-190) and the program report released (tag `p9-draft5`)
+
+- **The release.** Draft 5 of the program report is tagged `p9-draft5` and published as a GitHub release with its PDF.
+- **The note** (`papers/P10_theta_triplet_note/`, draft 1, 5 pp.), written at the owner's choice of both venues on the
+  outside referee's recommendation. It is self-contained, with no principle and no programme apparatus:
+  - a nilpotent field on the torus (Φ_ρ² = 0), with its two-line proof from the half-period values;
+  - the determinant identity det Y = 4 det S det M tr(εSMᵀ), with its adjugate, the symmetric form and the cubic;
+  - the weight −1 form D = −θ₃⁴h(λ)/(4πη⁶) and its automorphy;
+  - the period phase ψ(s+ℓ) = i^(#L−#R)ψ(s) on every closed geodesic, with the sign argument closed;
+  - the surface average of f, 0.3150049063.
+  - One script per computation; `verify.sh` runs them all. New checks: `period_phase.py` (eight geodesics, three starts
+    each, to 10⁻²⁸), `nilpotent.py`, `joint_law.py`, `surface_average.py`.
+- **A hostile read of the note.** It found the mathematics correct and reproduced every number independently. Its one
+  error, the one-period corollary, is corrected: the n-period average tends to 0 unless i^(#L−#R) = 1. The geometric
+  progression is now an unproved observation, the dimension list is cut, the sign step says "the smaller eigenvalue",
+  and the layer weighting is stated (fixed trace means fixed length).
+
 ## S142 THE PAPER, DRAFT 5: an outside referee's report checked and applied (P-189); the mathematical note queued (P-190)
 
 - **An outside referee's report on draft 3** (uploaded by the owner): major revision. The report found no mathematical

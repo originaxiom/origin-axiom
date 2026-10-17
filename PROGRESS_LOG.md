@@ -17303,3 +17303,21 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **Draft 5** (40 pp.) applies every correction (CHANGELOG S142). verify.sh passes. B1663 is sharpened. The report stays
   in the draft room, since it names the owner. P-189 is done; P-190 is queued; FLOOR 190.
 - Landing suite: gates 45 of 45; 192 files, 2390 passed, 0 failed, 6 skipped (6:02, -n 8). 0 of 19.
+
+## 2026-10-17 — S143 THE MATHEMATICAL NOTE (P-190); the release p9-draft5
+
+- **The owner's word.** "Do all as you recommend."
+- **The release.** Tag `p9-draft5` at d58d0512b and a GitHub release with the PDF.
+- **The note** (`papers/P10_theta_triplet_note/`, 5 pp.) and its checks, all passing:
+  - the nilpotent identity to 10⁻³⁰, with every other placement at least 0.43 away at generic τ;
+  - the determinant identity, symbolically;
+  - the period phase on eight geodesics to 10⁻²⁸;
+  - the surface average 0.3150049063 at three resolutions.
+  - One bug in a check, not in the note: the attracting fixed point was picked as the repelling one, so the geodesic was
+    traversed backwards and the ±i phases came out conjugated. It was found and fixed before anything was written.
+- **A hostile read.** No error in the mathematics; one wrong corollary and one false "every computation has a script",
+  both corrected; gaps closed or relabelled.
+- **Lift note.** The record's raw lift matrices satisfy the braid relation only up to a scalar. The note therefore states
+  the exponent as a choice among the 24 lifts χ_η^k ⊗ ρ_u, with the allowed-weight rule w ≡ 1 + k/2 (mod 2).
+- **P-190** done. P-188's verification is running.
+- Landing suite: gates 45 of 45; 191 files, 2390 passed, 0 failed, 6 skipped (13:16, -n 6). 0 of 19.
