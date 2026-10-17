@@ -1,0 +1,274 @@
+{
+ "what": "the referee read's checks (post hoc; every number seen in scratch first)",
+ "branch read": "referee/B1668_the_price_of_the_nineteen @ 0c781663f",
+ "R1 zero-diagonal complex symmetric 3x3 (20000 draws)": {
+  "max |s1 - s2 - s3| / s1": 9.717086890770882e-16,
+  "min s2 / s1": 0.500877
+ },
+ "R2 Y1 = theta constants off the diagonal": {
+  "det Y1 / (8 eta^6) at (0.137 + 1.291j)": "(1.0 + 6.87211891763495e-32j)",
+  "det Y1 / (8 eta^6) at (-0.284 + 2.173j)": "(1.0 + 1.10147572955449e-32j)",
+  "det Y1 / (8 eta^6) at (0.4 + 0.9j)": "(1.0 - 1.38904050921263e-31j)",
+  "spectrum / s1 at omega": [
+   1.0,
+   0.5,
+   0.5
+  ],
+  "spectrum / s1 at i": [
+   1.0,
+   0.6180339887,
+   0.3819660113
+  ],
+  "phi^-1, phi^-2": [
+   0.6180339887,
+   0.3819660113
+  ]
+ },
+ "R3 12 arg eta(x+iy) - pi x": {
+  "(0.3, 2.5)": "-1.71991e-6",
+  "(-0.45, 2.5)": "5.58832e-7",
+  "(0.3, 1.0)": "-0.0212756",
+  "(0.45, 0.9)": "-0.0128513"
+ },
+ "R4 the triplet as a square": {
+  "|th3^2 - (p^2 + q^2)|, |th2^2 - 2pq|, |th4^2 - (p^2 - q^2)|, (p, q) = (th3(2tau), th2(2tau))": [
+   "1.97e-31",
+   "0.0",
+   "9.94e-32"
+  ],
+  "t-exponents (turns): rho, Sym2(flux-2 doublet), flux-4 even triplet": [
+   [
+    "1/8",
+    "3/8",
+    "7/8"
+   ],
+   [
+    "0",
+    "1/4",
+    "1/2"
+   ],
+   [
+    "0",
+    "1/8",
+    "1/2"
+   ]
+  ],
+  "characters chi_eta^k taking Sym2(flux-2) onto rho": [
+   21
+  ],
+  "characters chi_eta^k taking the flux-4 even triplet onto rho": []
+ },
+ "R5 eta^6 multiplier against the period-phase law": {
+  "words (both letters, length 2..8)": 494,
+  "L = upper shear: i^(#L-#R)": 494,
+  "L = lower shear: i^(#R-#L)": 494
+ },
+ "R6 trace triples": {
+  "LR, RL^-1": {
+   "traces": [
+    3,
+    3,
+    3
+   ],
+   "x^2+y^2+z^2-xyz": 0,
+   "Markov triple (/3)": [
+    1,
+    1,
+    1
+   ],
+   "a^2+b^2+c^2-3abc": 0
+  },
+  "LR, RL": {
+   "traces": [
+    3,
+    3,
+    6
+   ],
+   "x^2+y^2+z^2-xyz": 0,
+   "Markov triple (/3)": [
+    1,
+    1,
+    2
+   ],
+   "a^2+b^2+c^2-3abc": 0
+  },
+  "LR, LRRL": {
+   "traces": [
+    3,
+    6,
+    15
+   ],
+   "x^2+y^2+z^2-xyz": 0,
+   "Markov triple (/3)": [
+    1,
+    2,
+    5
+   ],
+   "a^2+b^2+c^2-3abc": 0
+  },
+  "LRRL, LRLRRL": {
+   "traces": [
+    6,
+    15,
+    87
+   ],
+   "x^2+y^2+z^2-xyz": 0,
+   "Markov triple (/3)": [
+    2,
+    5,
+    29
+   ],
+   "a^2+b^2+c^2-3abc": 0
+  }
+ },
+ "R7 Y(a) = a rho^T + rho a^T - (a.rho) 1, rho isotropic (20000 draws each)": {
+  "min m, real a": 0.5,
+  "min m, complex a": 0.001295,
+  "m at a = conj(rho) (on the isotropic cone)": 0.0,
+  "max s3 / s1 (the null vector)": 2.1429758280910583e-15
+ },
+ "R8 det rho as a power of chi_eta": {
+  "k with det rho(t) = chi_eta(t)^k": [
+   9
+  ],
+  "k with det rho(s) = chi_eta(s)^k (mod 8)": [
+   1,
+   9,
+   17
+  ],
+  "QCD character exponent 9(2 sQ + su + sd) mod 24 (+1 = T, -1 = Tbar)": {
+   "(sQ, su, sd) = (1, 1, 1)": 12,
+   "(sQ, su, sd) = (1, 1, -1)": 18,
+   "(sQ, su, sd) = (1, -1, 1)": 18,
+   "(sQ, su, sd) = (1, -1, -1)": 0,
+   "(sQ, su, sd) = (-1, 1, 1)": 0,
+   "(sQ, su, sd) = (-1, 1, -1)": 6,
+   "(sQ, su, sd) = (-1, -1, 1)": 6,
+   "(sQ, su, sd) = (-1, -1, -1)": 12
+  }
+ },
+ "R9 phases [12 arg eta + 2 arg E6 (no counterterm), arg(j - 1728) (after the eta counterterm)]": {
+  "y = 1.0": {
+   "0.05": [
+    -2.642,
+    -3.092
+   ],
+   "0.15": [
+    -1.653,
+    -3.012
+   ],
+   "0.25": [
+    -0.69,
+    -2.979
+   ],
+   "0.35": [
+    0.236,
+    -3.009
+   ],
+   "0.45": [
+    1.13,
+    -3.09
+   ]
+  },
+  "y = 1.2": {
+   "0.05": [
+    -0.075,
+    -0.54
+   ],
+   "0.15": [
+    -0.047,
+    -1.445
+   ],
+   "0.25": [
+    0.258,
+    -2.079
+   ],
+   "0.35": [
+    0.732,
+    -2.551
+   ],
+   "0.45": [
+    1.284,
+    -2.951
+   ]
+  },
+  "y = 1.5": {
+   "0.05": [
+    0.13,
+    -0.34
+   ],
+   "0.15": [
+    0.403,
+    -1.009
+   ],
+   "0.25": [
+    0.703,
+    -1.65
+   ],
+   "0.35": [
+    1.035,
+    -2.262
+   ],
+   "0.45": [
+    1.389,
+    -2.851
+   ]
+  },
+  "y = 2.0": {
+   "0.05": [
+    0.156,
+    -0.315
+   ],
+   "0.15": [
+    0.468,
+    -0.945
+   ],
+   "0.25": [
+    0.782,
+    -1.574
+   ],
+   "0.35": [
+    1.097,
+    -2.202
+   ],
+   "0.45": [
+    1.413,
+    -2.828
+   ]
+  },
+  "y = 2.5": {
+   "0.05": [
+    0.157,
+    -0.314
+   ],
+   "0.15": [
+    0.471,
+    -0.943
+   ],
+   "0.25": [
+    0.785,
+    -1.571
+   ],
+   "0.35": [
+    1.099,
+    -2.199
+   ],
+   "0.45": [
+    1.414,
+    -2.827
+   ]
+  }
+ },
+ "R9 interior zeros of the no-counterterm phase (bisection on sin)": {
+  "y = 1.0": {
+   "x": "0.3241467876",
+   "|tau|": "1.05122",
+   "phase there": "-3.3102e-19"
+  },
+  "y = 1.2": {
+   "x": "0.1721222282",
+   "|tau|": "1.21228",
+   "phase there": "6.8889e-22"
+  }
+ }
+}

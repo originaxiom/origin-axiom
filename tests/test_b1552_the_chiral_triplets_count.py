@@ -2580,6 +2580,45 @@ def test_w99_the_paper_read():
         assert abs(ratio(mp.mpc(0, 4)) - line) < 0.01
         assert abs(ratio(mp.mpc(0.5, 4)) - line) > 90 and abs(mp.im(ratio(mp.mpc(0.5, 4)))) > 170
 
+def test_the_referee_read():
+    """The referee read (relay §153; post hoc checks, one run): the lane's numbers as recorded, the fibre floor
+    real-only, N10's weight-3 interior zero, det rho = chi_eta^9 recomputed in process; the handoff and W101's rule"""
+    import mpmath as mp
+    import numpy as np
+
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_referee_read_checks.json").read_text(encoding="utf-8"))
+    r1 = d["R1 zero-diagonal complex symmetric 3x3 (20000 draws)"]
+    assert r1["max |s1 - s2 - s3| / s1"] < 1e-13 and 0.5 <= r1["min s2 / s1"] < 0.502
+    r4 = d["R4 the triplet as a square"]
+    assert r4["characters chi_eta^k taking Sym2(flux-2) onto rho"] == [21]
+    assert r4["characters chi_eta^k taking the flux-4 even triplet onto rho"] == []
+    r5 = d["R5 eta^6 multiplier against the period-phase law"]
+    assert r5["L = upper shear: i^(#L-#R)"] == r5["words (both letters, length 2..8)"] == 494
+    r7 = d["R7 Y(a) = a rho^T + rho a^T - (a.rho) 1, rho isotropic (20000 draws each)"]
+    assert abs(r7["min m, real a"] - 0.5) < 1e-6 and r7["min m, complex a"] < 0.01
+    assert r7["m at a = conj(rho) (on the isotropic cone)"] < 1e-9
+    r8 = d["R8 det rho as a power of chi_eta"]
+    assert r8["k with det rho(t) = chi_eta(t)^k"] == [9]
+    rT = np.exp(2j * np.pi * 21 / 24) * np.array([[1j, 0, 0], [0, 0, 1], [0, 1, 0]])
+    assert abs(np.linalg.det(rT) - np.exp(2j * np.pi * 9 / 24)) < 1e-12
+    for key, n in r8["QCD character exponent 9(2 sQ + su + sd) mod 24 (+1 = T, -1 = Tbar)"].items():
+        sQ, su, sd = (int(v) for v in key.split("= (")[1].rstrip(")").split(", "))
+        assert n == (9 * (2 * sQ + su + sd)) % 24
+    root = d["R9 interior zeros of the no-counterterm phase (bisection on sin)"]["y = 1.0"]
+    with mp.workdps(30):
+        t = mp.mpc(mp.mpf(root["x"]), 1)
+        q = mp.exp(2j * mp.pi * t)
+        eta = mp.exp(2j * mp.pi * t / 24) * mp.qp(q)
+        e6 = 1 - 504 * mp.nsum(lambda n: n ** 5 * q ** n / (1 - q ** n), [1, mp.inf])
+        assert abs(mp.sin(12 * mp.arg(eta) + 2 * mp.arg(e6))) < 1e-8 and abs(t) > 1
+    handoff = ROOT / "docs" / "handoffs" / "SM_TO_REFEREE_LANE_2026-10-17_THE_REFEREE_READ.md"
+    note = handoff.read_text(encoding="utf-8")
+    assert "0c781663f" in note and "the_referee_read_checks.py" in note and "W101_RULE.md" in note
+    rule = (here / "W101_RULE.md").read_text(encoding="utf-8")
+    assert "**WEAVE.**" in rule and "Committed before the script" in rule
+
+
 def test_w100_the_canonical_cusp_replication():
     """W100 (rule 167b60441; one run 105847f32 after a disclosed failed launch): B1667's end radius from the group
     side; the cells as recorded; the values posted to main; the gate at omega recomputed in process"""

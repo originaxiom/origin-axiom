@@ -1,5 +1,22 @@
 # Changelog
 
+## The referee read, and W101's rule: the weave's anomaly (the owner's request and word; relay §153)
+
+- **The read.** The new referee lane's branch (`0c781663f`) was read: three reports, two arcs, a factual review. Its
+  load-bearing numbers were checked post hoc on this seat's code (`the_referee_read_checks.py`, one run): R1–R6 hold.
+- **Two claims narrower than stated.**
+  - The fibre frame's ½ floor holds for real Higgs directions only. Complex ones reach 0 on the isotropic cone.
+  - N10's exclusivity fails at weight 3 on an interior curve near Im τ ≈ 1.0–1.3. J there is not computed.
+- **N10 read as the moves' QCD anomaly:** det ρ = χ_η⁹, so the character is χ_η¹² for all quarks in T, and trivial for
+  s_u = s_d = −s_Q.
+- **A note for the lane,** left at the owner's request:
+  `docs/handoffs/SM_TO_REFEREE_LANE_2026-10-17_THE_REFEREE_READ.md`.
+- **W101's rule**, committed before its script: the weave's anomaly, over all 64 assignments to T or T̄, in SU(3)²,
+  SU(2)² and gravity², with the coupling layer and θ̄ with and without a Dedekind counterterm.
+- **Also read:** main's S142, S143, S144 and Review 65. W100 is matched by main to about 10⁻¹¹.
+- **Surfaces.** The NOTE (a reading section, a header bullet, a table row, files), the state page, relay §153, the
+  ledger (four rows; the relay's row extended), and a test.
+
 ## W100: B1667's end radius replicated blind from the group side (the owner's word; relay §152)
 
 - **The route.** The punctured-torus group from its Fricke traces, and its weight-two cusp form by Hejhal's method. τ

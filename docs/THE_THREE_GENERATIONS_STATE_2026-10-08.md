@@ -748,6 +748,13 @@ Under the owner's rulings, the table's rows split into two groups:
   launch; relay §152). The route is the group side: Fricke traces and Hejhal's cusp form.
   - ℰ_max and ℰ₂ at two generic moduli are posted for main's comparison. Every cell held, including the gate at ω and
     covariance. 0 of 19.
+  - *Added 2026-10-17:* main's instrument matches both values to about 10⁻¹¹ (Review 65; B1667's dated note).
+- **The referee read** (2026-10-17, at the owner's request; post hoc checks; relay §153 and the handoff to the referee
+  lane, `docs/handoffs/SM_TO_REFEREE_LANE_2026-10-17_THE_REFEREE_READ.md`).
+  - The lane's load-bearing numbers hold on this seat's code. The fibre frame's ½ floor holds for real Higgs directions
+    only, and N10's exclusivity fails at weight 3 near Im τ ≈ 1.0–1.3.
+  - N10 is read as the moves' QCD anomaly (det ρ = χ_η⁹). W101's rule, the weave's anomaly, is committed before its
+    script. 0 of 19.
 
 ## Questions open with main
 
@@ -769,7 +776,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W100 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W100, the readings, and W101's rule).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§152).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§153).

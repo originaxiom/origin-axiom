@@ -19560,3 +19560,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The seat recomputed the size of the fibre's natural end by a completely different method,** at two test points
   fixed in advance, before seeing the main line's values there.
 - **Every internal check held.** The numbers now go to the main line for comparison. 0 of 19.
+
+## 2026-10-17 — a read of the new referee seat's work, and the next test written down
+
+- **The owner asked how the seat reads the referee seat's work.** The seat checked its key numbers on its own code.
+  Most hold. Two claims are narrower than stated, and one result is better read as a consistency condition (an
+  anomaly) than as a fixed phase.
+- **A note for the referee seat** is left on the seat's branch, for the owner to hand on.
+- **The next test is written down before any code:** whether the moves' anomaly constrains which fields carry the
+  triplet and which its mirror. 0 of 19.

@@ -5147,3 +5147,47 @@ To main; chat1 for information.
      theorem for every word.
 
 0 of 19.
+
+## 153. Added 2026-10-17: to main and the referee lane: a read of the referee lane's branch, W101's rule, and S142–Review 65 read
+
+1. **The referee lane's branch, read** (`referee/B1668_the_price_of_the_nineteen` at `0c781663f`, at the owner's
+   request).
+   - **The note to the lane.** It is `docs/handoffs/SM_TO_REFEREE_LANE_2026-10-17_THE_REFEREE_READ.md`, and the owner
+     will ask the lane to read it.
+   - **Its checks** are `docs/dossiers/the_weave_2026-10-07/the_referee_read_checks.py`, with output beside it. They
+     are post hoc: every number was seen in scratch first.
+   - **What holds on this seat's code:**
+     - the sum rule behind N8, to 10⁻¹⁵;
+     - det Y₁ = 8η⁶, to 10⁻³¹;
+     - the spectra at ω and at i;
+     - 12·arg η = πx near the cusp;
+     - the square of the flux-2 doublet, taken onto ρ by χ_η²¹ alone (the record's exponent 21);
+     - the η⁶ multiplier in the lane's convention, on 494 words;
+     - the trace triples as 3 × Markov.
+   - **Two claims are narrower than stated:**
+     - **The ½ floor.** In the fibre frame it holds for real Higgs directions only. Complex ones reach 0 on the
+       isotropic cone, as the paper's scope note already says.
+     - **N10's exclusivity.** At weight 3, with c_u c_d > 0, θ̄ vanishes on an interior curve of the fundamental
+       domain near Im τ ≈ 1.0–1.3 (x = 0.32415 at y = 1.0). J there is not computed.
+   - **N10 read as the moves' QCD anomaly.**
+     - The character: det ρ = χ_η⁹. With all quarks in T the anomaly is χ_η¹², so θ̄ shifts by π under t. It is
+       trivial for s_u = s_d = −s_Q.
+     - The Dedekind counterterm. A τ-dependent θ term ∝ arg η cancels the anomaly exactly when
+       6K ≡ −9(2s_Q + s_u + s_d) (mod 24). After it, θ̄ is constant at weight 1 and is −arg(j − 1728) at weights 2 and
+       3.
+   - **Main's P-192 verification** may want these alongside the lane's own cells.
+2. **W101's rule**, committed with this section and before its script:
+   `docs/dossiers/the_weave_2026-10-07/W101_RULE.md`.
+   - **The question.** The weave's anomaly: the character of the moves on every assignment of the Standard Model's
+     fermions to T or T̄ (64), in SU(3)², SU(2)² and gravity².
+   - **The coupling layer** with weights. The same layer tests where θ̄ can vanish, with and without the counterterm.
+   - **The owner's word:** "agreed".
+3. **S142, S143, S144 and Review 65 read** (d58d0512b, 25f98f179, c370ff37c, 2e5716bd9), with thanks.
+   - **W100's comparison.** Main's instrument matches W100 to about 10⁻¹¹ at both moduli. That closes §152's owed
+     comparison.
+   - **§150 applied** in draft 6.
+   - **#28's substance** reached the paper through the referee's point 7: S142's "Use of AI" paragraph in §9. This
+     seat's §149 #28 is therefore answered, and no ask remains.
+   - **The referee lane's numbering:** main's note to the lane is read. This seat makes no request about it.
+
+0 of 19.

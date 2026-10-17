@@ -333,6 +333,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   a disclosed failed launch; every cell as predicted): by a Fuchsian-side route independent of B1667's. ℰ_max and ℰ₂ at
   τ₁ = 0.137 + 1.291i and τ₂ = −0.284 + 2.173i are posted for main's comparison. Neither weave nor thread: a property
   of the shared fibre at a supplied τ.
+- The referee read (2026-10-17, at the owner's request; post hoc checks, one run; relay §153 and the handoff to the
+  referee lane): the lane's load-bearing numbers hold on this seat's code. Two claims are narrower than stated: the
+  fibre frame's ½ floor (real Higgs directions only), and N10's exclusivity (it fails at weight 3 near Im τ ≈ 1.0–1.3).
+  N10 is read as the moves' QCD anomaly. W101's rule, the weave's anomaly, is committed before its script.
 
 ## The setting
 
@@ -7624,6 +7628,43 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## Reading: the referee lane's branch, read and checked (2026-10-17; post hoc checks; relay §153)
+
+**Why.** The owner asked how this seat reads the new referee lane's work, what it misses or gets wrong, and whether
+the program could supply more. The owner then asked for a note the referee lane can read. That note is
+`docs/handoffs/SM_TO_REFEREE_LANE_2026-10-17_THE_REFEREE_READ.md`.
+
+**The order.**
+- The lane's branch, `referee/B1668_the_price_of_the_nineteen` at `0c781663f`, was read: its three reports, both
+  FINDINGS, and B1668's factual review.
+- Every check was first run in scratch while reading. The checks were then gathered into
+  `the_referee_read_checks.py` and run once, and its output was committed as written. They are post hoc: every number
+  was seen first. There is no rule and no prediction.
+
+**Weave or thread.** The read is neither. N8 and N10 are the lane's claims about the triplet at every modulus.
+
+**What the checks found (R1–R9).**
+- **They hold:**
+  - the sum rule behind N8, to 10⁻¹⁵ (min m₂/m₁ = 0.50088 on 20 000 draws);
+  - det Y₁ = 8η⁶, to 10⁻³¹, with the spectra (1, ½, ½) at ω and (1, φ⁻¹, φ⁻²) at i;
+  - 12·arg η = πx near the cusp: 2·10⁻⁶ at Im τ = 2.5, but 0.02 at Im τ ≈ 1;
+  - the square of the flux-2 doublet carries ρ through χ_η²¹ alone, and the flux-4 even triplet carries it through no
+    character;
+  - the η⁶ multiplier in the lane's convention, on all 494 words;
+  - the weave's trace triples, which are 3 × Markov.
+- **The fibre frame's ½ floor holds for real Higgs directions only.** Complex directions reach 0.0013 on random draws,
+  and 0 on the isotropic cone (R7), as the paper's scope note says.
+- **N10's exclusivity.** At weight 3, with c_u c_d > 0, θ̄ = 0 on an interior curve: x = 0.32415 at y = 1.0, and
+  x = 0.17212 at y = 1.2 (R9). J there is not computed.
+- **The determinant character.** det ρ = χ_η⁹ (R8). The quarks' exponent 9(2s_Q + s_u + s_d) mod 24 is 12 for all in
+  T, 0 for s_u = s_d = −s_Q, and 6 or 18 for the mixed assignments.
+
+**This seat's corrections to its own first reading (in conversation with the owner, not on the record before now).**
+- It first expected the flux-4 even triplet to carry ρ. R4 refutes that.
+- It first called the lane's η⁶ convention a slip. It is the lane's convention (L the upper shear), and R5 holds in it.
+
+**What follows.** W101 tests the anomaly reading under a rule committed before its script.
+
 ## W100. The end radius replicated blind by a second route: B1667's canonical cusp at two generic moduli, from the group side (`the_canonical_cusp_replication.py`; `W100_RULE.md`)
 
 **Why.** Main's S139 welcomed "a blind replication of L at one generic τ (any method)". The owner approved this
@@ -8855,6 +8896,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| The referee read | READING with checks (post hoc; one run; no rule, no prediction) | the referee lane's branch read at the owner's request: its load-bearing numbers hold on this seat's code (R1–R6); the fibre frame's ½ floor holds for real Higgs directions only (R7); N10's exclusivity fails at weight 3 on an interior curve near Im τ ≈ 1.0–1.3 (R9); det ρ = χ_η⁹, so the quarks' QCD character is χ_η¹² for all in T (R8); the handoff to the lane and relay §153; W101's rule committed |
 | W100 | COMPUTED (the rule first; one run after a disclosed failed launch; every cell as predicted); a property of the shared fibre | B1667's end radius replicated blind from the group side: ℰ_max 0.673089, ℰ₂ 2.600537 at τ₁ = 0.137 + 1.291i; 0.654099, 2.416223 at τ₂ = −0.284 + 2.173i; the gate at ω to 10⁻¹³; covariance to 10⁻²⁰; main's comparison owed |
 | W99 | READING with checks (one run of the checks; no rule, no prediction) | the hostile read of P9 draft 3 at main's S140: six MAJOR, twenty MINOR, no BLOCKER; T2's part 2 and the period phase (ε = +1) proved for every thread; W87's cusp line corrected (Re τ = 0 only) |
 | W98 | COMPUTED (the rule first; one run; T1, T3, T4, T6 as predicted; T2, T5 failed as worded at the instrument's precision limit, t ≥ 30); a WEAVE result in a supplied frame | W95 by trace: every primitive thread with trace ≤ 40 (245); the two groupings agree exactly (every shared class, 34 rebuilt discriminant sums); slopes −4.85 and −3.18 per unit t; κ 1.40–1.50; no layer within any sector's allowance |
@@ -8938,6 +8980,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `W101_RULE.md`: the rule for W101 (the weave's anomaly), committed before its script; `the_referee_read_checks.py` → `the_referee_read_checks.json` and `the_referee_read_checks_run.txt`: the referee read's checks (post hoc; one run), cited by `docs/handoffs/SM_TO_REFEREE_LANE_2026-10-17_THE_REFEREE_READ.md`.
 - `W100_RULE.md`: the rule, committed before the code; `the_canonical_cusp_replication.py` → `the_canonical_cusp_replication.json` and `the_canonical_cusp_replication_run.txt`, with `the_canonical_cusp_replication_failed_launch.txt` (the failed first launch's traceback): W100.
 - `the_paper_read_checks_2.py` → `the_paper_read_checks_2.json` and `the_paper_read_checks_2_run.txt`, and `the_paper_read_b1660_repro.py` → `the_paper_read_b1660_repro_run.txt`: W99's addendum (relay §150).
 - `the_paper_read_checks.py` → `the_paper_read_checks.json` and `the_paper_read_checks_run.txt`: W99, the paper read's checks (one run; first run in scratch while reading).
