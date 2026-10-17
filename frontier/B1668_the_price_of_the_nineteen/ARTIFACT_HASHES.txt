@@ -1,0 +1,8 @@
+# sealed at ad3dd5d44: c2f69faef5b725822ac82a3728822dd095a090a165d7b255349d78924a2e0283  verification/the_price_of_the_nineteen.py (unchanged after the seal)
+# sealed with the PREREGISTRATION (the seal commit ad3dd5d44): sha256 of every file but the preregistration and this list
+0ccece15516b409f51a63859ee9cd05db1b07e249449219185ed106170e76943  verification/before_the_seal/relations_draft.py
+9a2db030e72775e7033d2eaf1a1e5a5d93dc0fd7e4237b400b4da4a34c913749  verification/before_the_seal/relations_draft_run.txt
+9cec7f68670880a82b526527f81b073ca800d910b687f038e2b97a496211c19f  verification/before_the_seal/smoke.json
+4b5479e64cb5894a55cd004e88d391cf75ca6c12f5828a164f7c70b31edaf51d  verification/before_the_seal/smoke_run.txt
+c2f69faef5b725822ac82a3728822dd095a090a165d7b255349d78924a2e0283  verification/the_price_of_the_nineteen.py
+# PREREGISTRATION.md at the seal: de17fa3d06a3ba33dc8ef8853d5d67d8ca89f4572dacdd27312d2cf751090d25
