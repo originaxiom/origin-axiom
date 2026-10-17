@@ -19590,3 +19590,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - For masses, counting the measurer removes only the choice of unit. A relation between two paths could stand only
     for mixing between families, not for masses.
 - **Two follow-up tests are written down but not started.** 0 of 19.
+
+## 2026-10-17 — the paper, updated while the main line was away
+
+- **At the owner's request the seat updated the paper with today's arguments and sent the PDF.** The additions are:
+  - why the simplest couplings cannot make a hierarchy;
+  - the consistency condition (the anomaly) and what it says about the strong-CP angle;
+  - what counting the measurer would and would not add.
+- **The main line will review the changes** before they enter its copy. 0 of 19.

@@ -2580,6 +2580,24 @@ def test_w99_the_paper_read():
         assert abs(ratio(mp.mpc(0, 4)) - line) < 0.01
         assert abs(ratio(mp.mpc(0.5, 4)) - line) > 90 and abs(mp.im(ratio(mp.mpc(0.5, 4)))) > 170
 
+def test_the_paper_draft7():
+    """The paper's draft 7 (relay §156): the new labels and references are in the sources, every cited key exists in
+    refs.bib, and the built PDF is present"""
+    import re
+
+    tex = ROOT / "papers" / "P9_what_a_grammar_fixes" / "tex"
+    src = "".join(p.read_text(encoding="utf-8") for p in sorted((tex / "sections").glob("*.tex")))
+    for label in ("sec:anomaly", "cor:halffloor", "prop:detchar", "prop:anomaly", "prop:strong",
+                  "lem:composition", "prop:records"):
+        assert "\\label{%s}" % label in src
+    bib = (tex / "refs.bib").read_text(encoding="utf-8")
+    keys = set(re.findall(r"@\w+\{([^,]+),", bib))
+    cited = {k.strip() for group in re.findall(r"\\cite(?:\[[^\]]*\])?\{([^}]+)\}", src) for k in group.split(",")}
+    assert cited <= keys, cited - keys
+    assert "Draft 7" in (tex / "main.tex").read_text(encoding="utf-8")
+    assert (tex.parent / "what_a_grammar_fixes.pdf").stat().st_size > 500_000
+
+
 def test_reading_the_measurer_as_a_thread():
     """The reading (relay §155): the measurer is no hand-picked thread; W34's kept records only under a shear or the
     mirror; the composition lemma checked on random magnitudes in process"""

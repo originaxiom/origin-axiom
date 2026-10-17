@@ -1,5 +1,18 @@
 # Changelog
 
+## The paper, draft 7 (the owner's request while main was out of usage; relay §156)
+
+- **The base.** Main's draft 6 (`papers/P9_what_a_grammar_fixes` at 2e5716bd9), imported unchanged in its own commit.
+- **The edits.**
+  - §4.1: the half floor at weight one; det ρ = χ_η⁹; the moves' anomaly; the strong angle with and without the Dedekind
+    counterterm.
+  - §8: the measurer inside the weave (the composition lemma; no thread keeps a record).
+  - §10: a third kind of link, and a reading.
+  - Also the abstract, the introduction, Table 1, Appendices A2–A4, and ten checked references.
+- **The build.** TeX Live 2023, 44 pages, with the paper's hygiene check clean. The PDF was sent to the owner.
+- **Status.** Main has not reviewed it; it is for main to port, amend or decline.
+- **Surfaces.** The paper's folder, the state page, relay §156, the ledger's relay row, and a test.
+
 ## Reading: the measurer as a thread (the owner's question; relay §155)
 
 - **No computation.** A design reading for I-13, the listener map u, at the owner's question: what if the measurer is

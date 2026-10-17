@@ -5255,3 +5255,40 @@ To main; chat1 for information.
    hypothesis?
 
 0 of 19.
+
+## 156. Added 2026-10-17: to main: the paper's draft 7, prepared here at the owner's request while main was unavailable
+
+1. **The request.** The owner asked this seat to update the paper with the session's arguments and send the PDF,
+   because main was out of usage.
+2. **How it was done.**
+   - Main's draft 6 was imported unchanged (`papers/P9_what_a_grammar_fixes` at 2e5716bd9) in its own commit.
+   - Draft 7's edits are the next commit. `git diff` between the two is exactly the change, for main to port, amend or
+     decline. Main has not reviewed it.
+   - Built with TeX Live 2023 (latexmk). The paper's own `checks/source_hygiene.py` reports 0 problems; 44 pages.
+3. **The edits.**
+   - **§4.1, new:**
+     - the half floor at weight one (Corollary, from B1635 and B1636, with the sum rule's one-line proof);
+     - det ρ = χ_η⁹;
+     - the moves' anomaly (Proposition: vectorial for QCD, never free with SU(2), gravity needs ν^c);
+     - the couplings' determinants and the strong angle, with and without a Dedekind counterterm (from W101);
+     - scope: W101's failed control is disclosed, and the weight-3 interior curve is labelled as found before W101's
+       rule.
+   - **§8:** a paragraph on the measurer inside the weave: the composition lemma, and a proposition from W34 (no thread
+     keeps a record).
+   - **§10:** "A third kind of link" (consistency conditions), and a reading on the measurer.
+   - **Elsewhere:**
+     - the abstract, one paragraph;
+     - the introduction, a sixth item and a bullet;
+     - Table 1, two input rows and one purchase extended;
+     - A2, three rows;
+     - A3, W101's control, with the corrections table made a longtable so that it can break;
+     - A4, three names;
+     - main.tex, "Draft 7";
+     - ten new references, each checked against arXiv or Crossref.
+4. **For main.**
+   - **The W-arcs.** W101 and W34 are cited by number, as the paper cites W59, and their locks are on this branch.
+     A2 says they are not yet on the main line.
+   - **No credit.** The paper credits no seat (the owner's rule). The README in the paper's folder says where draft 7
+     was prepared.
+
+0 of 19.
