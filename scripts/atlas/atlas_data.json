@@ -12252,6 +12252,50 @@
    "status": "dormant",
    "domain": "dynamics"
   },
+  "B1670": {
+   "slug": "the price of the nineteen",
+   "motifs": [
+    "closing",
+    "coupling",
+    "metallic",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B2",
+    "B304",
+    "B686",
+    "B687",
+    "B703",
+    "B743",
+    "B915",
+    "B925",
+    "B950",
+    "B952",
+    "B968",
+    "S144"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 13,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1671": {
+   "slug": "the dedekind phase",
+   "motifs": [
+    "coupling",
+    "eisenstein",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "S144"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B167": {
    "slug": "conserved no scale lemma",
    "motifs": [

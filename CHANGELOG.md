@@ -1,5 +1,31 @@
 # Changelog
 
+## referee lane — B1670 THE PRICE OF THE NINETEEN and B1671 THE DEDEKIND PHASE (both PROVED as sealed; P-193, P-194, P-195) — a pull request for main to land
+
+- **The lane.** The outside referee of draft 3, asked by the owner to turn its answer on the nineteen ("no structure
+  without dynamics can derive them") into work on a branch of its own. Its three reports (the draft-3 review with its
+  addendum, the ladder, the price list of the nineteen) are kept verbatim under `reports/referee_lane_2026-10-17/`
+  with their checking scripts; the lane is registered in `docs/SEAT_REGISTER.md`. The arcs were sealed on the lane as
+  B1668 and B1669; main banked its own B1668 (S144) and B1669 (Review 65) in between, so they land as B1670 and B1671,
+  the sealed files byte-identical and the seal commits kept on the lane's frozen branch.
+- **B1670 THE PRICE OF THE NINETEEN** (sealed ad3dd5d44 on the lane; the factual review by a non-authoring reviewer
+  between the seal and the run: PREMISES STAND, three corrections recorded; PROVED as sealed, a census informed by its
+  own draft): a sealed ledger of sixteen relations among the Standard Model's nineteen free parameters, each priced and
+  recomputed in-sandbox from PDG 2024 (4-loop QCD running; one-loop SM and MSSM RGEs; the NNLO stability fit
+  evaluated). The field has bought six of the nineteen degrees of freedom, never for free except Koide, never more than
+  two by one framework, thirteen by nothing; the same frameworks fail on their second predictions.
+  `docs/THE_PRICE_OF_THE_NINETEEN.md` is the readers' page; §B2 of the SM specification ledger ("every one measured,
+  none predicted") is refined by it. The Georgi–Jarlskog rows are M_Z-scale readings (the reviewer's correction 3); a
+  successor arc grades at M_GUT.
+- **B1671 THE DEDEKIND PHASE** (sealed 20ed2c300 on the lane; PROVED as sealed, a census informed by its own draft;
+  T-THE-DEDEKIND-PHASE): the triplet's two parameter-free Yukawa sectors have m₂/m₁ ≥ ½ at every τ — the corollary of
+  B1636's sum rule m₁ = m₂ + m₃, proved symbolically here — and no Cabibbo angle, so B1660's negative at ω is one point
+  of a theorem; and the determinant of every T⊗T coupling is η⁶ times a level-one form, so θ̄ = π·Re τ on the ruled
+  branch (the strong CP angle is the Dedekind phase of the modulus; θ̄ < 10⁻¹⁰ puts τ where δ_CKM = 0). B1635's
+  dimension table reproduced by piece. 0 of 19.
+- Locks `tests/test_b1670_*.py`, `tests/test_b1671_*.py`; LAW_MAP and THEOREM_REGISTRY rows for B1671; the atlas, the
+  seal ledger and the views regenerated; gates 45 of 45 on the branch.
+
 ## REVIEW 65 (B1669): the paper and the page — and the paper's draft 6
 
 - **The review.** Twenty merges since Review 64.

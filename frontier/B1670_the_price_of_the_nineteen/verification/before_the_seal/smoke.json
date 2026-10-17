@@ -1,0 +1,686 @@
+{
+ "data": {
+  "MZ": 91.188,
+  "MW": 80.3692,
+  "alpha_inv_MZ": [
+   127.93,
+   0.008
+  ],
+  "s2W": [
+   0.23129,
+   4e-05
+  ],
+  "alpha_s": [
+   0.1179,
+   0.001
+  ],
+  "mu2": [
+   0.0022,
+   7e-05
+  ],
+  "md2": [
+   0.00469,
+   5e-05
+  ],
+  "ms2": [
+   0.09274,
+   0.00054
+  ],
+  "mc_mc": [
+   1.275,
+   0.009
+  ],
+  "mb_mb": [
+   4.196,
+   0.012
+  ],
+  "mt": [
+   172.57,
+   0.29
+  ],
+  "mt_pole_xs": [
+   172.4,
+   0.7
+  ],
+  "mH": [
+   125.2,
+   0.11
+  ],
+  "me_pole": 0.00051099895,
+  "mmu_pole": 0.1056583755,
+  "mtau_pole": [
+   1.77693,
+   9e-05
+  ],
+  "me_Z": 0.00048307,
+  "mmu_Z": 0.101766,
+  "mtau_Z": 1.72856,
+  "Vus": [
+   0.22501,
+   0.00068
+  ],
+  "Vcb": [
+   0.04183,
+   0.00079
+  ],
+  "Vub": [
+   0.003732,
+   9e-05
+  ],
+  "J": [
+   3.12e-05,
+   1.3e-06
+  ],
+  "v": 246.22,
+  "BDGGSSS": {
+   "lam_Mt": [
+    0.12711,
+    0.00206,
+    -4e-05,
+    0.0003
+   ],
+   "yt_Mt": [
+    0.93558,
+    0.0055,
+    -0.00042,
+    -0.00042,
+    0.0005
+   ],
+   "g3_Mt": [
+    1.1666,
+    0.00314,
+    -0.00046
+   ],
+   "g2_Mt": 0.64822,
+   "gY_Mt": 0.35761,
+   "Mh_crit": [
+    129.1,
+    2.0,
+    -0.5,
+    0.3
+   ],
+   "lam_Pl": [
+    -0.0113,
+    -0.0065,
+    0.0018,
+    0.0029
+   ],
+   "logLI": [
+    11.3,
+    1.0,
+    -1.2,
+    0.4
+   ],
+   "ref": {
+    "Mt": 173.1,
+    "as_": 0.1184,
+    "das": 0.0007,
+    "Mh": 125.66,
+    "MW": 80.384,
+    "dMW": 0.014
+   }
+  },
+  "theory_err_double_ratio": 0.02,
+  "theory_err_crit_total": 1.5
+ },
+ "masses_MZ": {
+  "u": 0.0012714454341148386,
+  "d": 0.0027104904936357237,
+  "s": 0.05359720434536826,
+  "c": 0.6334534763689598,
+  "b": 2.8776510565236024
+ },
+ "relations": {
+  "R1_koide_pole": {
+   "value": 0.6666644634145003,
+   "target": 0.6666666666666666,
+   "sigma": 5.080823845537985e-06,
+   "pull": -0.43364073098346073,
+   "rel": -3.3048782496214457e-06,
+   "status": "HOLDS",
+   "mtau_predicted_MeV": 1776.9690270830135,
+   "mtau_measured_MeV": [
+    1776.9299999999998,
+    0.09000000000000001
+   ],
+   "mtau_pull": 0.4336342557081312
+  },
+  "R1_koide_MZ": {
+   "value": 0.6678239941864692,
+   "target": 0.6666666666666666,
+   "dev": 0.0011573275198025756,
+   "status": "FAILS at M_Z (scale-specific)"
+  },
+  "R2_gst": {
+   "value": 0.2248810578675343,
+   "target": 0.22501,
+   "sigma": 0.0015257755765767775,
+   "pull": -0.08450923874072752,
+   "rel": -0.0005730506753730547,
+   "status": "HOLDS"
+  },
+  "R2_texture_Vcb": {
+   "value": 0.13647465448942575,
+   "target": 0.04183,
+   "sigma": 0.002841519404685327,
+   "pull": 33.307762858619924,
+   "rel": 2.2626023067039385,
+   "status": "FAILS"
+  },
+  "R3_gj_mu_s": {
+   "value": 3.1609253441789504,
+   "target": 3.0,
+   "sigma": 0.0664608907524606,
+   "pull": 2.4213540077025293,
+   "rel": 0.05364178139298348,
+   "status": "APPROXIMATE"
+  },
+  "R3_gj_e_d": {
+   "value": 3.3704209809924954,
+   "target": 3.0,
+   "sigma": 0.07699293878813178,
+   "pull": 4.811103288469289,
+   "rel": 0.12347366033083174,
+   "status": "FAILS"
+  },
+  "R4": {
+   "SM": {
+    "meeting_scales_log10": {
+     "12": 13.00602095820619,
+     "13": 14.380157516586547,
+     "23": 16.98504247073366
+    },
+    "spread_decades": 3.9790215125274706,
+    "s2W_predicted": 0.20759554446006892,
+    "logMX": 14.827264635581946,
+    "value": 0.20759554446006892,
+    "target": 0.23129,
+    "sigma": 0.0023132458602578326,
+    "pull": -10.242947343820216,
+    "rel": -0.10244479026300779,
+    "status": "FAILS"
+   },
+   "MSSM": {
+    "meeting_scales_log10": {
+     "12": 15.984003386243744,
+     "13": 16.158307128553197,
+     "23": 16.40233236778643
+    },
+    "spread_decades": 0.4183289815426843,
+    "s2W_predicted": 0.22905309188013312,
+    "logMX": 16.207112176399843,
+    "value": 0.22905309188013312,
+    "target": 0.23129,
+    "sigma": 0.0023132458602578326,
+    "pull": -0.9669997289512288,
+    "rel": -0.009671443295719118,
+    "status": "HOLDS"
+   }
+  },
+  "R5": {
+   "direct": {
+    "gap_GeV": 3.1971428571428504,
+    "lam_Pl_NNLO": -0.01047471428571426,
+    "log10_Lambda_I": 11.190285714285721,
+    "value": 128.39714285714285,
+    "target": 125.2,
+    "sigma": 1.3959599140493444,
+    "pull": 2.2902827115348225,
+    "rel": 0.025536284801460418,
+    "status": "APPROXIMATE"
+   },
+   "pole_xs": {
+    "gap_GeV": 2.8571428571428754,
+    "lam_Pl_NNLO": -0.009369714285714342,
+    "log10_Lambda_I": 11.394285714285706,
+    "value": 128.05714285714288,
+    "target": 125.2,
+    "sigma": 1.8900539890787915,
+    "pull": 1.51167261551901,
+    "rel": 0.022820629849384044,
+    "status": "HOLDS"
+   },
+   "one_loop_control": {
+    "lam_Pl": -0.030297101901053558,
+    "lam_zero_log10": 8.286906259430632,
+    "boundary": {
+     "lam": 0.1261836,
+     "yt": 0.9334089999999997,
+     "g3": 1.1646009428571429,
+     "g2": 0.64822,
+     "g1": 0.46167252481241144
+    }
+   }
+  },
+  "R6": {
+   "1.5": {
+    "value": 214.82667848323,
+    "target": 172.57,
+    "sigma": 6.451321694763281,
+    "pull": 6.550080817940136,
+    "rel": 0.24486688580419558,
+    "status": "FAILS",
+    "yt_IR": 1.2338997736599313
+   },
+   "3.0": {
+    "value": 219.6617275970976,
+    "target": 172.57,
+    "sigma": 6.596229765089096,
+    "pull": 7.1391884870859315,
+    "rel": 0.2728847864466455,
+    "status": "FAILS",
+    "yt_IR": 1.2616708403140273
+   },
+   "10.0": {
+    "value": 221.19413195244405,
+    "target": 172.57,
+    "sigma": 6.642157752506011,
+    "pull": 7.320532538405719,
+    "rel": 0.28176468651819,
+    "status": "FAILS",
+    "yt_IR": 1.2704725096437754
+   }
+  },
+  "R7_veltman": {
+   "value": 312.87050298601173,
+   "target": 125.2,
+   "sigma": 0.6492081692718102,
+   "pull": 289.0760034589736,
+   "rel": 1.4989656788020107,
+   "status": "FAILS"
+  },
+  "R8_pi14": {
+   "value": 12.857142857142858,
+   "target": 13.003466199369875,
+   "sigma": 0.0399865263885162,
+   "pull": -3.659316160781598,
+   "rel": -0.011252641409881026,
+   "status": "APPROXIMATE"
+  },
+  "R9_FN": {
+   "exponents": {
+    "u_t": 7.923250988227227,
+    "c_t": 3.7592735656399134,
+    "d_b": 4.6711928710373565,
+    "s_b": 2.670424285730012,
+    "e_tau": 5.485773963791629,
+    "mu_tau": 1.8988657142292305
+   },
+   "within_0p2_of_integer": 2,
+   "of": 6,
+   "base_rate_each": 0.4,
+   "status": "STRUCTURE"
+  },
+  "R10": {
+   "ratio_MZ": 1.6647678162884727,
+   "SM": 0.6651191208914589,
+   "MSSM": {
+    "3": 0.8537397858442974,
+    "10": 0.8392169604870088,
+    "50": 0.8817079657391192
+   },
+   "status": "FIT (tan beta is a continuous input of the MSSM)"
+  },
+  "R11_mu_zero": {
+   "value": 0.0,
+   "target": 0.0022,
+   "sigma": 7e-05,
+   "pull": -31.428571428571434,
+   "rel": -1.0,
+   "status": "FAILS"
+  }
+ },
+ "ledger": [
+  {
+   "name": "gauge unification (SU(5) 3/8 + MSSM content)",
+   "dof": [
+    "g_i: one relation among three"
+   ],
+   "status": "HOLDS",
+   "price": [
+    "a GUT group",
+    "the particle content to M_GUT (TeV supersymmetry)",
+    "thresholds"
+   ],
+   "fitted": false,
+   "hyp": "SUSY GUT",
+   "buys": true
+  },
+  {
+   "name": "gauge unification (SM content)",
+   "dof": [
+    "g_i: one relation among three"
+   ],
+   "status": "FAILS",
+   "price": [
+    "a GUT group"
+   ],
+   "fitted": false,
+   "hyp": "non-SUSY GUT",
+   "buys": false
+  },
+  {
+   "name": "Koide (pole masses)",
+   "dof": [
+    "m_tau given m_e, m_mu"
+   ],
+   "status": "HOLDS",
+   "price": [],
+   "fitted": false,
+   "hyp": "none (no accepted mechanism)",
+   "buys": true
+  },
+  {
+   "name": "Gatto-Sartori-Tonin",
+   "dof": [
+    "theta_C"
+   ],
+   "status": "HOLDS",
+   "price": [
+    "a texture zero in the (1,1) entries"
+   ],
+   "fitted": false,
+   "hyp": "texture zeros",
+   "buys": true
+  },
+  {
+   "name": "the same texture: |V_cb| = sqrt(m_s/m_b)",
+   "dof": [
+    "|V_cb|"
+   ],
+   "status": "FAILS",
+   "price": [
+    "a texture zero in the (1,1) entries"
+   ],
+   "fitted": false,
+   "hyp": "texture zeros",
+   "buys": false
+  },
+  {
+   "name": "Georgi-Jarlskog m_mu = 3 m_s",
+   "dof": [
+    "m_s given m_mu (and m_b, m_tau)"
+   ],
+   "status": "APPROXIMATE",
+   "price": [
+    "a Higgs with a colour-charged component (45 of SU(5) or (15,2,2))",
+    "a GUT group",
+    "running"
+   ],
+   "fitted": false,
+   "hyp": "SUSY GUT",
+   "buys": true
+  },
+  {
+   "name": "Georgi-Jarlskog m_e = m_d/3",
+   "dof": [
+    "m_d given m_e (and m_b, m_tau)"
+   ],
+   "status": "FAILS",
+   "price": [
+    "a Higgs with a colour-charged component",
+    "a GUT group",
+    "running"
+   ],
+   "fitted": false,
+   "hyp": "SUSY GUT",
+   "buys": false
+  },
+  {
+   "name": "criticality / asymptotic safety: lambda(M_Pl) = 0",
+   "dof": [
+    "m_H"
+   ],
+   "status": "APPROXIMATE",
+   "price": [
+    "no new physics to M_Planck",
+    "one UV boundary condition"
+   ],
+   "fitted": false,
+   "hyp": "SM to M_Planck",
+   "buys": true
+  },
+  {
+   "name": "quasi-infrared fixed point of y_t",
+   "dof": [
+    "y_t"
+   ],
+   "status": "FAILS",
+   "price": [
+    "a large top Yukawa at M_Planck"
+   ],
+   "fitted": false,
+   "hyp": "SM to M_Planck",
+   "buys": false
+  },
+  {
+   "name": "Veltman condition",
+   "dof": [
+    "m_H"
+   ],
+   "status": "FAILS",
+   "price": [
+    "cancellation of the one-loop quadratic divergence"
+   ],
+   "fitted": false,
+   "hyp": "none",
+   "buys": false
+  },
+  {
+   "name": "theta_C = pi/14 from Delta(6 7^2)",
+   "dof": [
+    "theta_C"
+   ],
+   "status": "APPROXIMATE",
+   "price": [
+    "a finite group of order 294 and a residual symmetry"
+   ],
+   "fitted": false,
+   "hyp": "finite flavour group",
+   "buys": true
+  },
+  {
+   "name": "Froggatt-Nielsen powers",
+   "dof": [
+    "the six light mass ratios"
+   ],
+   "status": "STRUCTURE",
+   "price": [
+    "a U(1) charge per field",
+    "lambda",
+    "O(1) coefficients"
+   ],
+   "fitted": true,
+   "hyp": "FN",
+   "buys": false
+  },
+  {
+   "name": "b-tau unification",
+   "dof": [
+    "m_b given m_tau"
+   ],
+   "status": "FIT",
+   "price": [
+    "a GUT group",
+    "the MSSM with tan beta"
+   ],
+   "fitted": true,
+   "hyp": "SUSY GUT",
+   "buys": false
+  },
+  {
+   "name": "theta-bar = 0 by a mechanism (PQ, Nelson-Barr, weight-zero determinants)",
+   "dof": [
+    "theta-bar"
+   ],
+   "status": "HOLDS",
+   "price": [
+    "a new U(1) and particle, or spontaneous CP with vector-like quarks, or CP + SUSY + reducible representations with chosen weights"
+   ],
+   "fitted": false,
+   "hyp": "strong CP mechanism",
+   "buys": true
+  },
+  {
+   "name": "theta-bar = 0 by m_u = 0",
+   "dof": [
+    "theta-bar"
+   ],
+   "status": "FAILS",
+   "price": [],
+   "fitted": false,
+   "hyp": "massless up",
+   "buys": false
+  },
+  {
+   "name": "modular fits near fixed points / the cusp",
+   "dof": [
+    "the mass ratios and mixing of a sector"
+   ],
+   "status": "FIT",
+   "price": [
+    "a finite modular group",
+    "tau",
+    "O(1) coefficients"
+   ],
+   "fitted": true,
+   "hyp": "modular flavour",
+   "buys": false
+  }
+ ],
+ "dof_bought": [
+  "g_i: one relation among three",
+  "m_H",
+  "m_s given m_mu (and m_b, m_tau)",
+  "m_tau given m_e, m_mu",
+  "theta-bar",
+  "theta_C"
+ ],
+ "T2": [
+  "Koide (pole masses)"
+ ],
+ "hypothesis_sets": {
+  "SUSY GUT": [
+   "g_i: one relation among three",
+   "m_s given m_mu (and m_b, m_tau)"
+  ],
+  "none (no accepted mechanism)": [
+   "m_tau given m_e, m_mu"
+  ],
+  "texture zeros": [
+   "theta_C"
+  ],
+  "SM to M_Planck": [
+   "m_H"
+  ],
+  "finite flavour group": [
+   "theta_C"
+  ],
+  "strong CP mechanism": [
+   "theta-bar"
+  ]
+ },
+ "cells": {
+  "C0": {
+   "holds": true,
+   "detail": {
+    "control_vs_HZ": {
+     "u": 0.014950065695708448,
+     "d": 0.010884774650214979,
+     "s": 0.01109977230628112,
+     "c": 0.016164533940267845,
+     "b": 0.009037843944964763
+    }
+   },
+   "predicted": "this running on Huang-Zhou's inputs within 2.5% of their table for every flavour; Koide within 1e-4"
+  },
+  "T1": {
+   "holds": true,
+   "value": 6,
+   "predicted": "4..8"
+  },
+  "T2": {
+   "holds": true,
+   "value": [
+    "Koide (pole masses)"
+   ],
+   "predicted": "exactly one: Koide"
+  },
+  "T3": {
+   "holds": true,
+   "value": 2,
+   "predicted": "<= 3"
+  },
+  "T4": {
+   "holds": true,
+   "value": 13,
+   "predicted": ">= 11"
+  },
+  "T5": {
+   "holds": true,
+   "value": {
+    "Qpole": 0.6666644634145003,
+    "mtau_pull": 0.4336342557081312,
+    "QMZ": 0.6678239941864692
+   },
+   "predicted": "|Q-2/3| < 2e-5, m_tau pull < 2, |Q(M_Z)-2/3| > 5e-4"
+  },
+  "T6": {
+   "holds": true,
+   "value": {
+    "gst_pull": -0.08450923874072752,
+    "Vcb_ratio": 3.2626023067039385
+   },
+   "predicted": "GST pull <= 2; texture |V_cb| off by > 2x"
+  },
+  "T7": {
+   "holds": "True",
+   "value": {
+    "SM_spread": 3.9790215125274706,
+    "MSSM_spread": 0.4183289815426843,
+    "MSSM_rel": -0.009671443295719118,
+    "SM_rel": -0.10244479026300779
+   },
+   "predicted": "SM spread >= 1.5; MSSM spread <= 0.6; MSSM sin^2 within 2%; SM off by >= 5%"
+  },
+  "T8": {
+   "holds": true,
+   "value": {
+    "gap": 3.1971428571428504,
+    "one_loop_zero_log10": 8.286906259430632
+   },
+   "predicted": "gap in [1, 6] GeV; one-loop lambda crosses zero below M_Pl"
+  },
+  "T9": {
+   "holds": true,
+   "value": {
+    "1.5": 0.24486688580419558,
+    "3.0": 0.2728847864466455,
+    "10.0": 0.28176468651819
+   },
+   "predicted": "fixed-point m_t above the data by > 15% for every y_t(M_Pl)"
+  },
+  "T10": {
+   "holds": true,
+   "value": {
+    "gj1": 3.1609253441789504,
+    "gj2": 3.3704209809924954
+   },
+   "predicted": "m_mu/m_s double ratio within 10% of 3; the m_e/m_d one outside 10%"
+  },
+  "T11": {
+   "holds": true,
+   "value": {
+    "SM": 0.6651191208914589,
+    "MSSM": {
+     "3": 0.8537397858442974,
+     "10": 0.8392169604870088,
+     "50": 0.8817079657391192
+    }
+   },
+   "predicted": "SM ratio < 0.8 at 2e16; MSSM in [0.8, 1.0] at one loop for tan beta 3, 10, 50"
+  }
+ },
+ "all_hold": true,
+ "seconds": 0.07471346855163574
+}
