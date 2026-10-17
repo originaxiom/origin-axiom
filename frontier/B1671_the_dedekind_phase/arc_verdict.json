@@ -1,0 +1,27 @@
+{
+  "id": "B1671",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": true,
+  "identifications": [],
+  "depends_on": [
+    "B1634",
+    "B1635",
+    "B1636",
+    "B1640",
+    "B1660"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "referee",
+  "scope": {
+    "frame": "the ruled branch under the holomorphic modular-flavour ansatz (B1635's): couplings as vector-valued forms for rhobar (x) rhobar (L, R in T) and rhobar (x) rho (R in Tbar), the Higgs a singlet, the dictionary I-33 assumed; the record's hand (B1640)",
+    "object": "the triplet T = (theta2^2, theta3^2, theta4^2) with rho = chi_eta^21 (x) rho_u, at every tau",
+    "reach": "class",
+    "hypotheses": "a census informed by its own draft (every threshold set after seeing; disclosed); the fits use Huang-Zhou's M_Z masses; reach: class (every tau; the sum rule is a theorem, the floor its corollary; the determinant law is a theorem)"
+  },
+  "claim_one_line": "THE DEDEKIND PHASE (sealed 20ed2c300; PROVED as sealed, a census informed by its own draft; the output committed unread at 5aea6a66c): on the ruled branch the triplet's two parameter-free Yukawa sectors -- the symmetric weight-1 coupling, which is the three theta constants placed off-diagonal, and the weight-0 Dirac coupling, which is the identity -- have m2/m1 >= 1/2 at every tau as the corollary of B1636's sum rule m1 = m2 + m3 (proved here symbolically: e1^2 = 4 e2 for the eigenvalues of Y Y-dagger, every complex a, b, c), with equality (1, 1/2, 1/2) at omega and (1, 1/phi, 1/phi^2) at i, and no Cabibbo angle (one form per sector, M_u proportional to M_d); so B1660's negative at omega is one point of a theorem. And the determinant of every T (x) T coupling is eta^6 times a level-one form (a constant at weight 1, E_6 at weight 3), so with CP-real coefficients theta-bar = pi Re(tau) + O(|q|): the strong CP angle is the Dedekind phase of the modulus, and theta-bar < 1e-10 puts tau on the CP-conserving axis where delta_CKM = 0; for R in Tbar the determinant is a level-one form (E_6 at weight 2), exponentially real toward the cusp, where the same limit degenerates the masses and kills J. The lowest fittable models (weight 3 for T (x) T, weight 2 for Tbar (x) T) miss the eight quark observables by chi^2 > 4e3 and 3e4. B1635's dimension table reproduced by piece. 0 of 19.",
+  "weave_or_thread": "the weave (the triplet on the ruled branch at every modulus)",
+  "note": "sealed and run on the referee lane under the provisional number B1669 (branch referee/B1668_the_price_of_the_nineteen, kept frozen); renumbered to B1671 on landing because main banked its own B1669 (S144) and B1669 (Review 65) in the meantime; the sealed files are byte-identical and carry the provisional number in their text"
+}

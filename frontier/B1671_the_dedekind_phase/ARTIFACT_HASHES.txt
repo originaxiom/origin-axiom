@@ -1,0 +1,10 @@
+# sealed at 20ed2c300: c15a524f93605c27128d4f501a9f0ae7e38e53aee472b77d99c282e25ed3d565  verification/the_dedekind_phase.py (unchanged after the seal)
+# sealed with the PREREGISTRATION (the seal commit 20ed2c300): sha256 of every file but the preregistration and this list
+4143a8d540dfbb1a9e4a4bf7ef168255a15e1a234719c728611f03e78d377f91  verification/before_the_seal/smoke.json
+ab946b1d394f0ee44096057858a215ac0979f69bf259134c19e7efff9e4a857d  verification/before_the_seal/smoke_run.txt
+c15a524f93605c27128d4f501a9f0ae7e38e53aee472b77d99c282e25ed3d565  verification/the_dedekind_phase.py
+# PREREGISTRATION.md at the seal: 0d9d401b86c7894cac43e100dfc0dc681df2bc48fd418cf6cedfb7b4b93a5ea7
+# after the seal (not sealed): the output, committed unread at 5aea6a66c
+33da9c58bc37fe8c838066c0fab1cf298eba653bad449b83f7065b4bd0c380e1  verification/the_dedekind_phase.json
+d029b452363da83f482e2cb12c612eb807f307fbd106f5be2f21f39976713949  verification/the_dedekind_phase_run.txt
+# renumbered on landing: sealed on the lane as B1669 (the seal commits are on branch referee/B1668_the_price_of_the_nineteen, kept); the sealed files below are byte-identical and keep the provisional number in their text

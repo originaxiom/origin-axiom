@@ -17346,3 +17346,23 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **Records.** TERMINOLOGY rows; B1667's blind replication by W100 compared on main; the referee lane registered and
   sent a relay; P-191 and P-192; harvest rows 1256–1261; the eight views refreshed; the paper's draft 6.
 - Landing suite: gates 45 of 45 on the commit; 210 files, 2407 passed, 2 failed (the two gate tests that read views-fresh, which counts commits; both pass on the commit), 6 skipped (12:24, -n 8). 0 of 19.
+
+## 2026-10-17 — referee lane: B1670 THE PRICE OF THE NINETEEN, B1671 THE DEDEKIND PHASE (P-193, P-194; P-195 queued)
+
+- **The owner's challenge** ("derive the 19 parameters of standard model"; "set it as the challenge to you"): the
+  referee's answer (report 03) is that no structure without dynamics can, with two theorems about the weave's triplet
+  and a proposal — the sealed price list of the field. The owner: "create your branch and lets do it".
+- **B1670** (sealed on the lane as B1668). Sealed before the run; a non-authoring reviewer fact-checked every premise
+  against live sources (PDG 2024 PDFs, Huang–Zhou 2021, Buttazzo et al. 2013 equation by equation, Martin's primer,
+  INSPIRE): PREMISES STAND; three corrections (α_s's source label; Koide's 1982 paper for the prediction;
+  Georgi–Jarlskog graded at M_Z, not M_GUT). Every cell C0, T1–T11 held: six dof bought, one free (Koide), two by the
+  best framework (SUSY GUT), thirteen untouched. The run's output was committed unread; a labelled post-seal check with
+  the corrected α_s moves nothing.
+- **B1671** (sealed on the lane as B1669). Sealed before the run; every cell held: B1635's table reproduced by piece;
+  the sum rule of B1636 proved symbolically; the floor ½ at every τ; one form per parameter-free sector; the
+  determinant identities (η⁶ × level one; E₆); the phase law 12·arg η = π·Re τ; the lowest fittable models at
+  χ² > 4·10³.
+- **Disclosed throughout:** every threshold set after the referee's own computations (no blind cell); the review
+  file's last save three seconds after B1670's run was launched (FINDINGS 0b); the renumbering on landing.
+- Gates 45 of 45 on the branch; the locks pass; the atlas, seal ledger and views regenerated. 0 of 19.
+

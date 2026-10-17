@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1398** |
-| words of findings prose | **1,107,061** |
-| test lock files referenced | **815** |
-| arcs carrying an authored verdict | **1398** (100.0 %) |
+| research arcs with findings | **1400** |
+| words of findings prose | **1,110,398** |
+| test lock files referenced | **817** |
+| arcs carrying an authored verdict | **1400** (100.0 %) |
 | recorded closures | **823** (656 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 947 |
+| PROVED | 949 |
 | NEGATIVE | 347 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1669`** (319 words, 0 locks)  
-REVIEW 65: THE PAPER AND THE PAGE. Twenty merges since Review 64; fresh clone PASS at c370ff37c; a full suite run (R64-11); every lane read to its head. The loop: R64-3 done (scope notes on B1649, B1651, B1658), R64-2 resolved by practice (the premise audit standing), B616's single-threaded pin recorded; R64-1 (the mirror, the owner's), R64-4, R64-5, B186 and R64-6..8 carried (R64-6..8 due at Review 66). The sample's premise audit: six over-reaches (B1662 x3, B1663 x2, B1666), filed as dated notes; the seals' defects remote-only. E90, the built page not read (a broken reference and a dropped table, both found by outside readers), with a source-hygiene check and its failing-path test. B1667 replicated blind by a seat (1e-11). The paper's draft 6. 0 of 19.  
-`B1669_review_65_the_paper_and_the_page/FINDINGS.md`
+**PROVED — `B1671`** (1302 words, 1 locks)  
+THE DEDEKIND PHASE (sealed 20ed2c300; PROVED as sealed, a census informed by its own draft; the output committed unread at 5aea6a66c): on the ruled branch the triplet's two parameter-free Yukawa sectors -- the symmetric weight-1 coupling, which is the three theta constants placed off-diagonal, and the weight-0 Dirac coupling, which is the identity -- have m2/m1 >= 1/2 at every tau as the corollary of B1636's sum rule m1 = m2 + m3 (proved here symbolically: e1^2 = 4 e2 for the eigenvalues of Y Y-dagger, every complex a, b, c), with equality (1, 1/2, 1/2) at omega and (1, 1/phi, 1/phi^2) at i, and no Cabibbo angle (one form per sector, M_u proportional to M_d); so B1660's negative at omega is one point of a theorem. And the determinant of every T (x) T coupling is eta^6 times a level-one form (a constant at weight 1, E_6 at weight 3), so with CP-real coefficients theta-bar = pi Re(tau) + O(|q|): the strong CP angle is the Dedekind phase of the modulus, and theta-bar < 1e-10 puts tau on the CP-conserving axis where delta_CKM = 0; for R in Tbar the determinant is a level-one form (E_6 at weight 2), exponentially real toward the cusp, where the same limit degenerates the masses and kills J. The lowest fittable models (weight 3 for T (x) T, weight 2 for Tbar (x) T) miss the eight quark observables by chi^2 > 4e3 and 3e4. B1635's dimension table reproduced by piece. 0 of 19.  
+`B1671_the_dedekind_phase/FINDINGS.md`
 
 **NEGATIVE — `B1668`** (847 words, 1 locks)  
 THE WEB SEAT'S LOW-THREAD NEGATIVES, VERIFIED ON MAIN (a verification arc; NEGATIVE as the seat found): the sealed T-low run's inputs and output hash as recorded, forms.pkl rebuilds byte-identically, the 199 nulls regenerate, six seeded configurations re-execute bit-identically (about 161 700 numbers each), and main's own scorer over all 216 000 assignment-cells finds no S-mass pass in either reading (SM best chi2 983.26 per-field, 601.77 minimal; best nulls 267.32, 471.29); the per-field census at every depth re-scores to no pass (h <= 3: 578.2 vs 262.9; 3 < h <= 6: 28 281.0 vs 14 482.6). No assignment, the Standard Model's or a null's, passes the mass test in these frames. 0 of 19.  

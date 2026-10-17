@@ -1,0 +1,196 @@
+# Referee verification log — What a grammar of records fixes (Draft 3), 2026-10-16
+
+===== check1_identities.py =====
+=== A.2: commutator, sign, balance points ===
+LR = [[2, 1], [1, 1]]  RL = [[1, 1], [1, 2]]
+[LR,RL] = [[-7, 6], [-6, 5]]  trace = -2
+U = -[LR,RL]: [[7, -6], [6, -5]]  tr U = 2  unipotent: True
+LR^-1L = [[0, 1], [-1, 0]]  square = [[-1, 0], [0, -1]]
+L^-1R = [[0, -1], [1, 1]]  cube = [[-1, 0], [0, -1]]  6th power = [[1, 0], [0, 1]]
+mirror sends L->L^-1: True  R->R^-1: True
+tr[L,R] = 3
+Fricke check: x^2+y^2+z^2-xyz-2 = -2  (tr commutator = -2 )
+fixed points of LR^-1L: [-I, I]
+fixed points of L^-1R: [-1/2 - sqrt(3)*I/2, -1/2 + sqrt(3)*I/2]
+
+=== Theorem 2 grid: torsion of H1 = |2 - tr B(a,b)| = ab ===
+det B = 1  tr B = a*b + 2  det(B-I) = -a*b
+torsion-free closures on 12x12 grid: 1 ; all hyperbolic: True
+Smith normal form of LR - I: [[1, 0], [0, 1]]  -> torsion trivial
+
+=== Lemma 4: parity action of L, R on F_2^2 (row vectors, right action) ===
+L {(1, 0): (1, 1), (0, 1): (0, 1), (1, 1): (1, 0)}
+R {(1, 0): (1, 0), (0, 1): (1, 1), (1, 1): (0, 1)}
+LR {(1, 0): (0, 1), (0, 1): (1, 1), (1, 1): (1, 0)}
+
+=== Lemma 11: Jacobi isotropy of the theta triplet ===
+tau = (0.13 + 1.21j)  rho.rho = (-2.4652e-32 + 0.0j)  |rho|^2 = 0.4040586493
+tau = (-0.3 + 0.9j)  rho.rho = (-2.4652e-32 - 7.7037e-33j)  |rho|^2 = 0.3142451028
+tau = (0.0 + 1.0j)  rho.rho = (0.0 + 0.0j)  |rho|^2 = 0.3433625302
+tau = (-0.5 + 0.866025j)  rho.rho = (-2.4652e-32 + 9.2445e-33j)  |rho|^2 = 0.2987624558
+
+=== Theorem 12(1): det Y(a) = (rho.rho)(a.a)(rho.a) as a polynomial identity ===
+det Y - (rho.rho)(a.a)(rho.a) = 0
+Y rho (general rho) = Matrix([[0, 0, 0]])  = (rho.rho) a  -> vanishes iff rho isotropic
+
+=== Theorem 12(2): singular value identities for real a, isotropic rho ===
+s=(1.6536,0.8295,1.3e-16) s1*s2/(|rho|^2|a|^2)=1.000000 (s1^2+s2^2)/(|rho|^2|a|^2)-2=0.495208 |a.rho|^2/(|rho|^2|a|^2)=0.495208  m=0.501604 vs sqrt(xi-/xi+)=0.501604  kappa=0.9904
+s=(0.8221,0.4188,9.7e-17) s1*s2/(|rho|^2|a|^2)=1.000000 (s1^2+s2^2)/(|rho|^2|a|^2)-2=0.472571 |a.rho|^2/(|rho|^2|a|^2)=0.472571  m=0.509373 vs sqrt(xi-/xi+)=0.509373  kappa=0.9451
+s=(5.4335,2.7309,2.9e-16) s1*s2/(|rho|^2|a|^2)=1.000000 (s1^2+s2^2)/(|rho|^2|a|^2)-2=0.492224 |a.rho|^2/(|rho|^2|a|^2)=0.492224  m=0.502610 vs sqrt(xi-/xi+)=0.502610  kappa=0.9844
+s=(2.1220,1.2855,4.2e-16) s1*s2/(|rho|^2|a|^2)=1.000000 (s1^2+s2^2)/(|rho|^2|a|^2)-2=0.256518 |a.rho|^2/(|rho|^2|a|^2)=0.256518  m=0.605795 vs sqrt(xi-/xi+)=0.605795  kappa=0.5130
+s=(3.2998,1.6545,0.0e+00) s1*s2/(|rho|^2|a|^2)=1.000000 (s1^2+s2^2)/(|rho|^2|a|^2)-2=0.495813 |a.rho|^2/(|rho|^2|a|^2)=0.495813  m=0.501401 vs sqrt(xi-/xi+)=0.501401  kappa=0.9916
+
+=== Theorem 20: the joint law ===
+det Y - 4 det S det M tr(eps S M^T) = 0
+adj Y - (det S A(M) + det M P A(S)) = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+transpose variant residual zero? False
+symmetric form holds: True
+det Y + 4 det S det N polar(S,N) = 0
+tr(eps S M^T) + polar(S,N) = 0
+rank of A(pq^T): 1  det M (null): 0
+||A(M)||_F = 1.6616  2||M||_F^2 = 1.6616
+singular values at N=S: [8.35481327 1.23645461 0.18298673]  m1*m3 - m2^2 = -1.7763568394002505e-15
+roots of x^3 - e1 x^2 + e2 x - e3: [ 0.39038148  2.46766552 19.24282299]  vs squared singular values: [ 0.39038148  2.46766552 19.24282299]
+Gram eigenvalues / ||M||^2: [1. 2. 2. 4.]
+
+=== Proposition 13: sum_r rho_r^2 wp(z_r) = 0 with wp at the half periods ===
+tau= (0.13 + 1.21j)  wp(1/2)-(pi^2/3)(t3^4+t4^4)= (2.11e-12 - 4.77e-13j)  wp(tau/2)+(pi^2/3)(t2^4+t3^4)= (2.11e-12 - 4.77e-13j)  wp((1+tau)/2)-(pi^2/3)(t2^4-t4^4)= (2.11e-12 - 4.77e-13j)
+   paper's assignment: (4.93e-32 + 2.47e-32j)   i<->j swapped: (0.953 - 0.536j)   another: (-2.13 + 0.276j)
+tau= (-0.3 + 0.9j)  wp(1/2)-(pi^2/3)(t3^4+t4^4)= (4.34e-12 + 3.96e-12j)  wp(tau/2)+(pi^2/3)(t2^4+t3^4)= (4.34e-12 + 3.96e-12j)  wp((1+tau)/2)-(pi^2/3)(t2^4-t4^4)= (4.34e-12 + 3.96e-12j)
+   paper's assignment: (1.73e-31 + 1.97e-31j)   i<->j swapped: (0.0762 + 1.47j)   another: (-1.64 - 0.433j)
+tau= (0.2 + 1.5j)  wp(1/2)-(pi^2/3)(t3^4+t4^4)= (2.51e-12 - 9.85e-14j)  wp(tau/2)+(pi^2/3)(t2^4+t3^4)= (2.51e-12 - 9.85e-14j)  wp((1+tau)/2)-(pi^2/3)(t2^4-t4^4)= (2.51e-12 - 9.85e-14j)
+   paper's assignment: (9.86e-32 - 9.86e-32j)   i<->j swapped: (2.13 - 0.957j)   another: (-2.85 + 0.721j)
+
+===== check2_representation.py =====
+rho(s) =
+ [[0.      +0.j       0.      +0.j       0.707107+0.707107j]
+ [0.      +0.j       0.707107+0.707107j 0.      +0.j      ]
+ [0.707107+0.707107j 0.      +0.j       0.      +0.j      ]]
+rho(t) =
+ [[0.707107+0.707107j 0.      +0.j       0.      +0.j      ]
+ [0.      +0.j       0.      +0.j       0.707107-0.707107j]
+ [0.      +0.j       0.707107-0.707107j 0.      +0.j      ]]
+
+|<rho(s),rho(t)>| = 96    |<rho_u(s),rho_u(t)>| = 48
+s^2 = (st)^3 : True   s^8 = 1 : True   s^4 = -1 : True   s^2 = i*1 : True
+exponents of t (turns): [np.float64(0.125), np.float64(0.375), np.float64(0.875)]
+Delta^4 -> s^4 acts as -1: True
+rho(s^2) scalar = (-0+1j)  => allowed weights k with i^(-2k) = (-0+1j) : k = 3/2 mod 2; dual rep would need k = 1/2 mod 2
+commutant dimension (1 = irreducible): 1
+<chi,chi> = 1.0   <chi,chibar> = 0.0  (0 = not self-conjugate)
+
+order of rho(s) = 8  order of rho(st) = 12
+rho(s) eigenvalues (turns): [0.125 0.625 0.125]
+   eigvec [ 0.707-0.j -0.   +0.j  0.707+0.j]
+   eigvec [ 0.707+0.j  0.   +0.j -0.707-0.j]
+   eigvec [0.+0.j 1.+0.j 0.+0.j]
+rho(st) eigenvalues (turns): [0.4167 0.75   0.0833]
+   eigvec |components|^2 = [0.3333 0.3333 0.3333]
+   eigvec |components|^2 = [0.3333 0.3333 0.3333]
+   eigvec |components|^2 = [0.3333 0.3333 0.3333]
+
+rho(LR) eigenvalues (turns): [0.3333 0.6667 0.    ]  det = (1-0j)
+operator mean of LR: rank 1 ; |entries| = [[0.3333, 0.3333, 0.3333], [0.3333, 0.3333, 0.3333], [0.3333, 0.3333, 0.3333]]
+rho(LR) is monomial with a 3-cycle: [[0.0, 1.0, 0.0], [0.0, 0.0, 1.0], [1.0, 0.0, 0.0]]
+centre of the image has order 4  scalars: [np.complex128(1+0j), np.complex128(-0+1j), np.complex128(-1-0j), np.complex128(-1j)]
+
+number of subgroups: 68
+conjugacy classes of subgroups: 26
+abelian subgroups: 57
+subgroups with T|H a sum of three characters (= abelian): 57
+subgroup orders: {1: 1, 2: 7, 3: 4, 4: 11, 6: 4, 8: 19, 12: 5, 16: 7, 24: 5, 32: 3, 48: 1, 96: 1}
+class representatives (order, abelian): [(1, True), (2, True), (2, True), (2, True), (3, True), (4, True), (4, True), (4, True), (4, True), (4, True), (6, True), (8, True), (8, True), (8, True), (8, True), (8, True), (12, False), (12, True), (16, True), (16, True), (16, True), (24, False), (24, False), (32, False), (48, False), (96, False)]
+derived subgroup order: 12  abelianisation order: 8  G/[G,G] cyclic? False
+
+===== check3_motion.py =====
+=== Lemma 21: automorphy of D (weight -1, multiplier of eta^6) ===
+tau = (0.13 + 1.21j)
+   D(tau+1) - i D(tau)              = (-8.47e-33 - 9.86e-32j)
+   D(-1/tau) - i tau^-1 D(tau)      = (-1.97e-31 - 1.23e-32j)
+   D(tau/(tau+1)) +i (tau+1)^-1 D   = (0.0 - 2.47e-32j)    [R: chi=-i]
+   D(-1/(tau+1)) + (tau+1)^-1 D     = (-2.47e-32 + 4.93e-32j)    [L^-1 R: chi=-1]
+   f(tau) - f(-1/tau) = 0.0   f(tau) - f(tau+1) = 2.96e-31
+tau = (-0.31 + 0.95j)
+   D(tau+1) - i D(tau)              = (3.08e-32 + 4.93e-32j)
+   D(-1/tau) - i tau^-1 D(tau)      = (-1.23e-31 + 1.54e-32j)
+   D(tau/(tau+1)) +i (tau+1)^-1 D   = (-1.23e-32 - 6.16e-32j)    [R: chi=-i]
+   D(-1/(tau+1)) + (tau+1)^-1 D     = (1.23e-32 + 0.0j)    [L^-1 R: chi=-1]
+   f(tau) - f(-1/tau) = -9.86e-32   f(tau) - f(tau+1) = -9.86e-32
+f(omega) = 7.2283e-31    f(i) = 1.088793045   (pi/2) ln 2 = 1.088793045   D(omega) = (1.73e-31 + 1.29e-31j)
+
+=== Prop 16 cusp law: D/(q |rho|^2) vs e^{-i pi x/2}(8 pi^2 y + 4 pi (1+e^{-2 pi i x}) - 32 pi ln2) ===
+x=0.00 y=4: D/(q|rho|^2) = (271.269759 + 0.0j)  predicted = (271.2773272 + 0.0j)  rel.err = 2.79e-5   [x=0 form 271.2773272]
+x=0.00 y=5: D/(q|rho|^2) = (350.2337401 + 0.0j)  predicted = (350.2341624 + 0.0j)  rel.err = 1.21e-6   [x=0 form 350.2341624]
+x=0.30 y=4: D/(q|rho|^2) = (221.6212013 - 126.3345577j)  predicted = (221.6273843 - 126.3380823j)  rel.err = 2.79e-5
+x=0.30 y=5: D/(q|rho|^2) = (291.9780876 - 162.1835399j)  predicted = (291.9784396 - 162.1837354j)  rel.err = 1.21e-6
+x=0.50 y=4: D/(q|rho|^2) = (174.0456502 - 174.0456502j)  predicted = (174.0505059 - 174.0505059j)  rel.err = 2.79e-5
+x=0.50 y=5: D/(q|rho|^2) = (229.8811423 - 229.8811423j)  predicted = (229.8814195 - 229.8814195j)  rel.err = 1.21e-6
+x=1.00 y=4: D/(q|rho|^2) = (7.828179603e-29 - 271.269759j)  predicted = (2.726177451e-29 - 271.2773272j)  rel.err = 2.79e-5
+x=1.00 y=5: D/(q|rho|^2) = (1.343129235e-28 - 350.2337401j)  predicted = (3.395607267e-29 - 350.2341624j)  rel.err = 1.21e-6
+
+=== Census 32(1): the constant mode (3/pi) * int_F f dmu ===
+f_np(i) = 1.0887930451518013  f_np(omega) = 2.325245665339089e-16  f(0.13+1.21i) mp = 0.902654848569  np = 0.9026548485694806
+  nx=60 ny=120 ymax=10.0: <f> = 0.3150049063
+  nx=120 ny=240 ymax=12.0: <f> = 0.3150049063
+  nx=200 ny=400 ymax=14.0: <f> = 0.3150049063
+  paper: 0.31500491
+
+=== Theorem 22 / Census 23: the period phase psi(s+l) = i^{#L-#R} psi(s) ===
+LR        #L-#R=+0 expected i^(#L-#R)=(1+0j): length=1.92485
+     psi(s+l)/psi(s) = (1.0 + 1.5776378e-30j)   branch ratio r/(cz+d) = (1.0 + 3.3541j)   cz+d = (1.5 + 1.118j)   |z(s+l) - gamma z(s)| = 4.9e-32
+     psi(s+l)/psi(s) = (1.0 - 3.0981422e-31j)   branch ratio r/(cz+d) = (3.94026 + 3.87599j)   cz+d = (2.1757 + 0.89074j)   |z(s+l) - gamma z(s)| = 7.4e-32
+     psi(s+l)/psi(s) = (1.0 + 3.815218e-30j)   branch ratio r/(cz+d) = (6.49329 + 1.68085j)   cz+d = (2.5691 + 0.32713j)   |z(s+l) - gamma z(s)| = 2.0e-31
+LLR       #L-#R=+1 expected i^(#L-#R)=1j: length=2.63392
+     psi(s+l)/psi(s) = (3.0706918e-31 + 1.0j)   branch ratio r/(cz+d) = (1.0 + 6.9282j)   cz+d = (2.0 + 1.7321j)   |z(s+l) - gamma z(s)| = 1.5e-31
+     psi(s+l)/psi(s) = (-2.1328824e-31 + 1.0j)   branch ratio r/(cz+d) = (7.37875 + 8.40876j)   cz+d = (3.0468 + 1.3799j)   |z(s+l) - gamma z(s)| = 1.2e-32
+     psi(s+l)/psi(s) = (-4.913156e-30 + 1.0j)   branch ratio r/(cz+d) = (13.1113 + 3.70586j)   cz+d = (3.6563 + 0.50678j)   |z(s+l) - gamma z(s)| = 4.0e-31
+LLLR      #L-#R=+2 expected i^(#L-#R)=(-1+0j): length=3.1336
+     psi(s+l)/psi(s) = (-1.0 + 9.4175234e-30j)   branch ratio r/(cz+d) = (1.0 + 11.4564j)   cz+d = (2.5 + 2.2913j)   |z(s+l) - gamma z(s)| = 2.5e-32
+     psi(s+l)/psi(s) = (-1.0 + 7.7775118e-31j)   branch ratio r/(cz+d) = (11.7591 + 14.1832j)   cz+d = (3.8848 + 1.8255j)   |z(s+l) - gamma z(s)| = 0.0
+     psi(s+l)/psi(s) = (-1.0 + 1.3350773e-29j)   branch ratio r/(cz+d) = (21.5562 + 6.28982j)   cz+d = (4.691 + 0.67041j)   |z(s+l) - gamma z(s)| = 3.9e-31
+LLLLLR    #L-#R=+4 expected i^(#L-#R)=(1+0j): length=3.84969
+     psi(s+l)/psi(s) = (1.0 - 1.0673537e-28j)   branch ratio r/(cz+d) = (1.0 + 23.4787j)   cz+d = (3.5 + 3.3541j)   |z(s+l) - gamma z(s)| = 7.9e-31
+     psi(s+l)/psi(s) = (1.0 - 1.13005e-29j)   branch ratio r/(cz+d) = (23.4081 + 29.5394j)   cz+d = (5.5271 + 2.6722j)   |z(s+l) - gamma z(s)| = 7.9e-31
+     psi(s+l)/psi(s) = (1.0 + 6.2244561e-30j)   branch ratio r/(cz+d) = (44.025 + 13.1649j)   cz+d = (6.7073 + 0.98138j)   |z(s+l) - gamma z(s)| = 7.7e-32
+LLRR      #L-#R=+0 expected i^(#L-#R)=(1+0j): length=3.52549
+     psi(s+l)/psi(s) = (1.0 - 9.7341001e-31j)   branch ratio r/(cz+d) = (1.0 + 16.9706j)   cz+d = (3.0 + 2.8284j)   |z(s+l) - gamma z(s)| = 4.0e-31
+     psi(s+l)/psi(s) = (1.0 - 5.1858562e-31j)   branch ratio r/(cz+d) = (17.1006 + 21.2246j)   cz+d = (4.7094 + 2.2534j)   |z(s+l) - gamma z(s)| = 0.0
+     psi(s+l)/psi(s) = (1.0 + 2.6361345e-30j)   branch ratio r/(cz+d) = (31.8581 + 9.44204j)   cz+d = (5.7046 + 0.82757j)   |z(s+l) - gamma z(s)| = 3.9e-31
+LRLLR     #L-#R=+1 expected i^(#L-#R)=1j: length=4.58486
+     psi(s+l)/psi(s) = (1.8325298e-30 + 1.0j)   branch ratio r/(cz+d) = (1.0 + 48.9898j)   cz+d = (5.0 + 4.899j)   |z(s+l) - gamma z(s)| = 2.5e-32
+     psi(s+l)/psi(s) = (-1.0884347e-29 + 1.0j)   branch ratio r/(cz+d) = (48.1404 + 62.1426j)   cz+d = (7.9608 + 3.903j)   |z(s+l) - gamma z(s)| = 3.9e-31
+     psi(s+l)/psi(s) = (-5.8419763e-29 + 1.0j)   branch ratio r/(cz+d) = (91.7366 + 27.7638j)   cz+d = (9.6846 + 1.4334j)   |z(s+l) - gamma z(s)| = 2.0e-31
+LLLLRRL   #L-#R=+3 expected i^(#L-#R)=(-0-1j): length=4.95578
+     psi(s+l)/psi(s) = (1.8817639e-30 - 1.0j)   branch ratio r/(cz+d) = (1.0 + 70.993j)   cz+d = (6.0 + 5.9161j)   |z(s+l) - gamma z(s)| = 6.2e-32
+     psi(s+l)/psi(s) = (-6.613287e-29 - 1.0j)   branch ratio r/(cz+d) = (69.4741 + 90.2657j)   cz+d = (9.5755 + 4.7134j)   |z(s+l) - gamma z(s)| = 7.9e-31
+     psi(s+l)/psi(s) = (-1.7483837e-30 - 1.0j)   branch ratio r/(cz+d) = (132.893 + 40.3571j)   cz+d = (11.657 + 1.731j)   |z(s+l) - gamma z(s)| = 2.8e-32
+LRRRRR    #L-#R=-4 expected i^(#L-#R)=(1+0j): length=3.84969
+     psi(s+l)/psi(s) = (1.0 + 2.6639673e-30j)   branch ratio r/(cz+d) = (1.0 + 23.4787j)   cz+d = (3.5 + 3.3541j)   |z(s+l) - gamma z(s)| = 9.2e-33
+     psi(s+l)/psi(s) = (1.0 + 1.3979963e-29j)   branch ratio r/(cz+d) = (23.4081 + 29.5394j)   cz+d = (5.5271 + 2.6722j)   |z(s+l) - gamma z(s)| = 7.9e-32
+     psi(s+l)/psi(s) = (1.0 + 2.6382694e-28j)   branch ratio r/(cz+d) = (44.025 + 13.1649j)   cz+d = (6.7073 + 0.98138j)   |z(s+l) - gamma z(s)| = 2.0e-31
+
+=== Census 31: escape rates (Monte Carlo, drift of d(i, g i) per step) ===
+  p=0.0: escape rate 0.7928 +- 0.0007 per step (paper: p=0 -> 0.3959, p=1/2 -> 0.1007);  P(xi>0) ~ 1.000
+  p=0.1: escape rate 0.5777 +- 0.0023 per step (paper: p=0 -> 0.3959, p=1/2 -> 0.1007);  P(xi>0) ~ 0.900
+  p=0.3: escape rate 0.2902 +- 0.0018 per step (paper: p=0 -> 0.3959, p=1/2 -> 0.1007);  P(xi>0) ~ 0.575
+  p=0.5: escape rate 0.1966 +- 0.0016 per step (paper: p=0 -> 0.3959, p=1/2 -> 0.1007);  P(xi>0) ~ 0.525
+
+=== word and geometry counts ===
+words of length 2..8 with both letters: 494  x2 signs = 988  (paper: 988);  odd trace: 224  x2 = 448  (paper: 448)
+geometries (primitive cyclic words to length 8 up to rotation and L<->R): 37  odd trace: 16  even: 21  (paper: 37 = 16 + 21)
+primitive cyclic words to length 12 (up to rotation): 745  (up to rotation and swap): 379   (paper's 'every state remains': 758)
+
+===== check4_dims.py =====
+K = k+3/2 =  1 (k =  -0.5): dim M_K(rho_u) = 1,  dim M_k(rho) = 0
+K = k+3/2 =  3 (k =   1.5): dim M_K(rho_u) = 1,  dim M_k(rho) = 0
+K = k+3/2 =  5 (k =   3.5): dim M_K(rho_u) = 2,  dim M_k(rho) = 1
+K = k+3/2 =  7 (k =   5.5): dim M_K(rho_u) = 2,  dim M_k(rho) = 1
+K = k+3/2 =  9 (k =   7.5): dim M_K(rho_u) = 3,  dim M_k(rho) = 2
+K = k+3/2 = 11 (k =   9.5): dim M_K(rho_u) = 3,  dim M_k(rho) = 2
+K = k+3/2 = 13 (k =  11.5): dim M_K(rho_u) = 4,  dim M_k(rho) = 3
+K = k+3/2 = 15 (k =  13.5): dim M_K(rho_u) = 4,  dim M_k(rho) = 3
+paper: 0,0,1,1,2,2,3,3 at k = -1/2, 3/2, ..., 27/2
+
+===== check3b_escape.py (60 words x 40000 letters) =====
+p=0.0: Lyapunov exponent (log-norm growth per step) = 0.3962 +- 0.0001   [paper's 'escape rate': 0.3959 at p=0, 0.1007 at p=1/2]
+p=0.5: Lyapunov exponent (log-norm growth per step) = 0.0991 +- 0.0002   [paper's 'escape rate': 0.3959 at p=0, 0.1007 at p=1/2]

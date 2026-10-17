@@ -70,6 +70,8 @@ EXEMPT_CITERS = ("PROGRESS_LOG.md",
 # Paths that correctly name something outside this repo.
 EXEMPT_TARGETS = frozenset({
     "docs/CLOSURE_2026-07-10.md",          # audit-seat clone, closure/phase1-duels @ e42c336
+    "tests/test_b1668_the_price_of_the_nineteen.py",   # 2026-10-17: the referee lane's sealed preregistrations name their locks by the lane's provisional numbers (B1668, B1669); the arcs landed as B1670, B1671 and the locks are tests/test_b1670_*, tests/test_b1671_*; the sealed files are byte-identical to the seal by design
+    "tests/test_b1669_the_dedekind_phase.py",          # the same (B1671)
 })
 
 
