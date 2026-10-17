@@ -1,0 +1,67 @@
+\section{Methods: how the record is kept}\label{sec:methods}
+
+\paragraph{The question.}
+A program that asks what is forced must show what it assumed and must show its errors. This section says how the
+record is kept and gives three corrections as examples. The repository holds every script, output and
+lock~\cite{OriginAxiomRepo}.
+
+\paragraph{Sealed preregistration.}
+A computation that bears on a claim is written as a preregistration before it is run. It has three parts:
+\begin{itemize}
+\item its cells, each a prediction with a criterion that can fail;
+\item a ``seen first'' section: a sweep of the record for prior work, so that no question is asked twice unknowingly,
+  and the literature read;
+\item a ``disclosed'' section: everything known or explored before sealing, and any reviewing pass.
+\end{itemize}
+The preregistration and the instrument are hashed and committed. The instrument is then run once. Its output goes into
+its own commit, before the commit that holds any read-out. The history shows that order. That the output was not
+looked at in between is the authors' statement, which the history cannot show.
+
+Results are graded by the preregistration's rule: a cell that holds, a cell that fails, or a cell that is an identity
+and cannot fail (reported apart from the tests). A result computed on data that were seen is a \emph{scoreboard}, and
+its statement says so. Explorations after the seal are labelled and kept apart, with their outputs hashed. A later
+change to a sealed file is recorded the same day, in a form that the seal check reads.
+
+\paragraph{Parallel lines and reproduction.}
+The work is done on several parallel lines, each on its own branch. A result from one line enters the record as an arc only
+after it has been reproduced from its statement on the main line, in independently written code where possible.
+Results that were read and not re-run are marked so in the record.
+All verification described in this paper is internal to the program. None of it is external review.
+
+\paragraph{Use of AI.} Most of the program's computing, its parallel lines of work, and the drafting of this paper were
+done with AI assistance: large-language-model sessions working in the repository under the author's direction. The
+record's safeguards (sealed preregistrations, outputs committed before they are read, reproduction of one line's result
+on the main line in independently written code, locks) are internal to the program. The independent lines are
+instances of the same kind of model, so their agreement is weaker evidence than reproduction by independent people. The
+author chose the questions, ruled on the forks the computations could not settle, and is responsible for the text.
+
+\paragraph{Three corrections.}
+Errors are recorded as classes and instances in a ledger; the classes this paper meets are listed in
+Appendix~\ref{app:corrections}. Three instances from the arcs reported here show the checks at work.
+\begin{itemize}
+\item \textbf{A read-out that outran its computation (B1660).} The first read-out of the one-Higgs census called the
+  down--lepton miss an obstruction that a separate up-quark Higgs ``does not touch'', and implied a ceiling on
+  $(m_\mu/m_\tau)/(m_s/m_b)$. Two checks after the seal found no ceiling, and an exact fit once the up quarks are
+  dropped. The verdict line was corrected before the result entered the record. Two further faults in the findings
+  were repaired at the next review: a step that did not follow, and a headline that rounded two misses.
+\item \textbf{A gate that failed at the function's zeros (B1664, B1665, B1666).} The gate asked for the period phase on
+  every thread, read at one point of each period. The instrument set $D$ to zero above height $50$, and $593$ of the
+  $30\,674$ threads began their sampling there, so B1664 was recorded as open. B1665 moved each start to the period's
+  lowest point. That point is the corner at $\omega$, where $D$ also vanishes, and the gate failed on $22$ threads. The
+  second repair had not been reviewed. B1666 replaced the one-point ratio by a least-squares phase over two consecutive
+  periods, which no zero can spoil. Before the seal, a review checked it on about $2900$ threads, including every
+  thread of trace at least $560$; the worst error was $1.1\times10^{-7}$, and the gate was set at $10^{-5}$ on that
+  measurement. The sealed run met the gate on all $30\,674$ threads. The rule taken from this: a ratio is never read at
+  one point of a function with zeros, and every re-seal is reviewed, however small.
+\item \textbf{Checks that read the wrong thing (B1654, B1421).} In B1654, four review helpers read the instrument by an
+  absolute path outside the repository. The repair made the paths relative and was noted, but not in the form that
+  the seal check reads, so the check reported a disclosed repair as an undisclosed change. The note was recast. Separately, the
+  full test suite found a lock (B1421) that still asserted an old count of irreducible inputs after the count had
+  become $4+9=13$; the smaller suites run at each landing had missed it.
+\end{itemize}
+
+\paragraph{What the method does and does not give.}
+It gives a record in which every computed statement has a script, a seal and a stated scope, and in which failures are
+kept. It does not give external verification. A statement graded ``proved'' here is proved by the program's own
+computation or by a cited theorem. The verification package of Appendix~\ref{app:verify} lets a reader repeat the
+load-bearing computations.
