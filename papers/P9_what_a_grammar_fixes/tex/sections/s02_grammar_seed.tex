@@ -146,15 +146,20 @@ within the program for the genesis is graded proved in the record (one is refute
 Table~\ref{tab:inputs} lists every input this paper uses, with its status, what it buys and what would discharge it. The
 last lines of the table state the price as the record counts it.
 
-\begin{table}[!t]
-\centering\footnotesize
+{\footnotesize
+\begin{longtable}{@{}p{3.2cm}p{2.4cm}p{3.6cm}p{6.0cm}@{}}
 \caption{The inputs ledger. Status words follow the record: \emph{postulated}, \emph{chosen} (a selection),
-\emph{adopted} (a ruling made on the mathematics), \emph{tagged} (a working postulate whose results carry ``given'').}
-\label{tab:inputs}
-\begin{tabularx}{\linewidth}{@{}p{3.3cm}p{2.5cm}p{3.5cm}X@{}}
+\emph{adopted} (a ruling made on the mathematics), \emph{tagged} (a working postulate whose results carry ``given'').}\label{tab:inputs}\\
 \toprule
 input & status & what it buys & what would discharge it\\
 \midrule
+\endfirsthead
+\toprule
+input & status & what it buys & what would discharge it\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
 PF1--PF3, the principle & postulated & the question: what a non-cancelling description forces & none in the record\\
 the grammar, GM1--GM5a & postulated (GM3 cheap; GM4's puncture conditional) & the moves, the threads, the carrier & none; GM1 is not independent of GM4\\
 SE1, torsion-free first homology & postulated & the root among the states & alternatives are kept: minimal trace, minimal volume\\
@@ -173,19 +178,18 @@ the index as the generation count & identification & reads the index $\pm3$ of S
 the read-out and the hypercharge dictionary & identifications & singular values as masses, flat-line twists as hypercharges and the Higgs line as the electroweak Higgs, with $6Y$ the minimal integral normalisation, itself a choice (Sections~\ref{sec:couplings}, \ref{sec:boundary}) & a derivation of the dictionary\\
 the fibre frame (the Higgs a section on the fibre, at one $\tau$) & chosen (see Verdict~\ref{bd:tribunal}) & the couplings of Section~\ref{sec:couplings} & a frame shown to meet the demands\\
 the Higgs's type and locus (a point or density Higgs, at the puncture) & stated & the covariance theorem and the rank of a point coupling (Section~\ref{sec:couplings}) & a Higgs of another type, or a derived locus\\
+zero Wilson line on the fibre & stated (a restriction of the frame) & the isotropy theorem and its null vector (Section~\ref{sec:couplings}) & a derivation of the connection, or the theorem for a non-zero line\\
 the hand and the $\eta$ twist & chosen conventions, not derived & $\rho$ as the theta multiplier (Section~\ref{sec:modular}) & a derived hand; a reason for the twist\\
 the modular-flavour ansatz (holomorphic couplings, a minimal K\"ahler term, one copy of $T$ per field, one Higgs per sector) & stated where used, not adopted & the ruled-branch bound of Theorem~\ref{bd:reducesnone} & none\\
 the index formula $\dim\Lambda_+-3$ & taken as stated (B1606) & the index of Section~\ref{sec:three} & an independent derivation\\
 \midrule
-\multicolumn{4}{@{}p{\linewidth}@{}}{\textbf{Price.} The rows above are this paper's inputs. For comparison, the
+\multicolumn{4}{@{}p{15.4cm}@{}}{\textbf{Price.} The rows above are this paper's inputs. For comparison, the
 record's identification ledger, which prices the program's whole chain to the Standard Model including frames this paper
 does not use, counts four axioms and nine irreducible identifications; this paper uses three of the nine (the triplet
 postulate, the index as the generation count, and the read-out with its dictionary). The modulus $\tau$ and the
 choice of canonical horocycle are not rows of that ledger. Against the Standard Model's nineteen values the paper derives
 none.}\\
-\bottomrule
-\end{tabularx}
-\end{table}
+\end{longtable}}
 
 \reading{The arena. SE1 has two solutions: trace $3$, the root, and trace $1$, the order-six move $L^{-1}R$ whose mapping
 torus is the trefoil complement. Under the pull-back the second is reached by the moves (it fixes $\omega$), and GM3

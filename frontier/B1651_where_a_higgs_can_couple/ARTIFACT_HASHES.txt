@@ -4,3 +4,6 @@ b31c756f4b120efcb8d9690151d91807e5f6253e2cd873314bcb34f9c0edfdd5  verification/c
 646c268126062842fa0541deb0f7a3473816f94a0fa23eaa118335134d31eb30  verification/controls_output.json
 36eb5993b13f49e771b1d8e814591998aaad0c935c95848546bcff7043cfe691  verification/where_a_higgs_couples.json
 e0ba79ef378de72c24ef1a207c0ce397c678a2fbf233edae50eef400ed9403d2  verification/where_a_higgs_couples_run.txt
+# after the seal (not sealed): the post-seal Szego check, hashed at Review 65 (R64-3, 2026-10-17)
+e46ae722d38326e79cee994bcf54b5da67014ffc34ddb70c87f6ad1bbc914722  verification/szego_check.py
+54acc3230c3b6e482e7223641bf2f52f0565754252c035a04abbbf3c07546536  verification/szego_check_output.txt

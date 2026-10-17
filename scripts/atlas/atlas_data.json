@@ -11779,6 +11779,7 @@
    "motifs": [
     "choice",
     "coupling",
+    "golden",
     "z3_generation",
     "firewall"
    ],
@@ -12166,8 +12167,8 @@
     "L1",
     "L2"
    ],
-   "obstacle": "measure",
-   "obstacle_conf": 1,
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "dynamics"
   },
@@ -12175,8 +12176,10 @@
    "slug": "the canonical cusp",
    "motifs": [
     "figure_eight",
+    "kappa",
     "eisenstein",
     "z3_generation",
+    "amphichiral_cp",
     "markov_cubic"
    ],
    "refs": [
@@ -12201,6 +12204,20 @@
    "obstacle_conf": 11,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1669": {
+   "slug": "review 65 the paper and the page",
+   "motifs": [
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B186",
+    "B616"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
   },
   "B166": {
    "slug": "sln aperiodic",

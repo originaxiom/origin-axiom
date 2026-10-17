@@ -6528,15 +6528,150 @@ All eight fixed tests pass when rerun.
 
 ### Action items (Review 64)
 - [>] R64-1: restore the Codeberg mirror; then push main and mirror the SM, audit and fork lanes (owner: the owner, then cc; carried from R63-1, itself carried from R62-1; P-067)
-- [>] R64-2: make the premise audit a standing part of every review, as a governance delta in its own arc (owner: cc; carried from R63-2; P-029)
-- [ ] R64-3: one scope-repair arc for B1658 (its "exactly" in t + 1/t), B1649 (Jacobi's superseded; the frame caveat into the findings) and B1651 (the claim line split into sealed cells and post-seal reading; szego_check.py hashed) (owner: cc; source: §4)
-- [ ] R64-4: a standing rule with a failing-path test — every banked arc hashes its stored output and any post-seal file it cites (owner: cc; source: §4)
-- [ ] R64-5: adjudicate the chain gap's top entries (owner: cc; source: §6)
+- [x] R64-2: make the premise audit a standing part of every review, as a governance delta in its own arc (owner: cc; carried from R63-2; P-029) — resolved at Review 65 by practice (PRACTICES, the premise audit standing)
+- [x] R64-3: one scope-repair arc for B1658 (its "exactly" in t + 1/t), B1649 (Jacobi's superseded; the frame caveat into the findings) and B1651 (the claim line split into sealed cells and post-seal reading; szego_check.py hashed) (owner: cc; source: §4)
+- [>] R64-4: a standing rule with a failing-path test — every banked arc hashes its stored output and any post-seal file it cites (owner: cc; source: §4)
+- [>] R64-5: adjudicate the chain gap's top entries (owner: cc; source: §6)
 - [>] R64-6: the Seen-first alias table and full-text sweep, with a failing-path test (owner: cc; carried from R63-4; P-123)
 - [>] R64-7: the reliance reading of GENESIS, THE_WEAVE and LAW_MAP against unverified seat results, and the REPRODUCED disposition (owner: cc; carried from R63-5; P-124, P-125)
 - [>] R64-8: the enforcement gaps and the seat register (owner: cc; carried from R63-6; P-126, P-127)
 - [x] R64-9: filed at this review: B1654's seal record recast and its addendum; B1660's headline, sentence and post-seal files repaired; the E80 and E65 instances; six terms glossed; B1421's stale lock brought to the live ledger (4 + 9 = 13)
-- [ ] R64-10: the two BLAS-thread-dependent locks: B616 records 384 as the single-threaded value beside its other pins; B186's band box dimension is ill-conditioned, so its 0.04 margin is re-graded in its own arc (owner: cc; source: §5b)
-- [ ] R64-11: a full suite at every review and before any GENESIS amendment, since the selective landing suites missed B1421 for three landings (owner: cc; source: §5b; P-143)
+- [>] R64-10: the two BLAS-thread-dependent locks: B616 records 384 as the single-threaded value beside its other pins; B186's band box dimension is ill-conditioned, so its 0.04 margin is re-graded in its own arc (owner: cc; source: §5b)
+- [x] R64-11: a full suite at every review and before any GENESIS amendment, since the selective landing suites missed B1421 for three landings (owner: cc; source: §5b; P-143)
 
 **anchor-commit: `bf44d9032`**
+
+# Review 65 (2026-10-17) — the paper reviewed four times over, the end fixed by the fibre, and the page not read
+
+Twenty merges since Review 64, against a period of twenty: due. The window has 20 first-parent commits
+(`bf44d9032..c370ff37c`) and 8 arcs with a verdict (B1661–B1668), written at the head. One read-only reviewing agent of
+main's read the seeded sample in full and ran its locks. Main checked every finding taken below against the pages before
+writing it.
+
+**What the window did:**
+- **The owner's rulings and the motion.**
+  - GENESIS v1.48: the pull-back acts (B1662).
+  - The five steps of P-183: B1663 is NEGATIVE; B1664 and B1665 are OPEN, both gates failed at D's zeros; B1666 PROVED
+    the period phase, a scoreboard.
+- **The canonical cusp** (B1667, PROVED). The fibre's own hyperbolic geometry fixes the end radius at order one, so the
+  end supplies no hierarchy. The SM seat's W100 replicated it blind from the group side, agreeing to about 10⁻¹¹.
+- **The web seat's low-thread negatives, verified on main** (B1668, NEGATIVE).
+- **The paper** (`papers/P9_what_a_grammar_fixes/`):
+  - draft 3 built from the record;
+  - the sources moved into the repository at the owner's word (S140);
+  - three seats' hostile reads verified and applied (draft 4);
+  - an outside referee's report checked and applied (draft 5);
+  - the release `p9-draft5`;
+  - draft 6 at this review: the SM seat's §150 and the web seat's nine items verified and applied, Table 1 made a
+    longtable (E90), Figure 1's arrow corrected.
+- **The mathematical note** (`papers/P10_theta_triplet_note/`, P-190).
+- 0 of 19.
+
+**fresh-clone: PASS @ c370ff37c** (gates all PASS; belt ok) · **sample seed: bf44d9032**; to be read in full: B1661,
+B1662, B1663, B1665, B1666 · **gate controls: 45 registered** failing-path tests; unregistered: none · **full suite:
+7362 passed, 5 failed, 68 skipped (29:02, -n 8): B186, the BLAS-dependent lock (R65-9); four gate locks that failed because the tree was edited during the run (the atlas not regenerated, B1669's Seen-first line) and because a new lane appeared mid-run (the referee lane); all four pass after the repairs, re-run at the review**.
+
+## 1. The loop
+
+- **R64-1 (Codeberg): carried, a second time.** Codeberg's July 2026 terms bar mostly-AI repositories. Main
+  recommended a replacement host; the choice is the owner's. Every seal of this window is flagged "not on every
+  remote" for this reason alone (§4).
+- **R64-2 (the premise audit as a standing part of every review): resolved by practice.** Reviews 64 and 65 both ran it
+  on the sample. It is written into PRACTICES as a standing review step, and §4 below is this review's instance.
+- **R64-3 (the scope repairs of B1658, B1649, B1651): done.** Dated notes on all three. B1651's post-seal Szegő check
+  and its output are now hashed.
+- **R64-4 (every banked arc hashes its stored output): carried.** Not started; the window spent itself on the paper.
+- **R64-5 (the chain gap's top entries): carried.**
+- **R64-6, R64-7, R64-8 (carried from Review 63): carried a second time.** By the carry-age rule each must be resolved,
+  declined with its reason, or waived by the owner at Review 66.
+- **R64-10 (the BLAS-thread locks): B616 done, B186 carried.** B616's lock now records the single-threaded pin, "2
+  coarse-tier matches of 384 pairs", measured on main at this review. B186's band box dimension needs its own arc.
+- **R64-11 (a full suite at every review): done**, the line above. It stands as a rule.
+
+## 2. The branch inventory and the lanes
+
+- **Branches.** 10 unmerged leaves, all registered. `weave-physics-archive-2026-10-11` lives on one remote only.
+- **The lanes are out of step with Codeberg** (R64-1).
+- **A new lane appeared during the full suite:** `referee/B1668_the_price_of_the_nineteen`, the outside referee's lane.
+  It was forked at `d58d0512b`, and its two sealed arcs are numbered B1668 and B1669, colliding with main's. Registered and
+  watched (harvest row 1261), pinned at its head. A relay asks it to keep a prefix of its own, and main verifies and
+  re-banks its arcs under main's numbers (P-192).
+- **Every live lane is read to its head** (harvest-debt: NEW unrowed 0, relays without a row 0, backlog 0):
+  - the SM seat at `cbe74025`;
+  - the web seat at `75e326e0`;
+  - the audit lane at `c5c46789`;
+  - its fork at `0c6570ba`;
+  - the referee lane at `0c781663`.
+
+## 3. The declared modulus
+
+- **Read in full:** the five seeded arcs, by the reviewing agent, with their locks run one at a time (all pass: B1661 4,
+  B1662 2, B1663 2, B1665 1, B1666 2), and two numbers per arc spot-checked against the stored outputs (all found).
+- **Read in full by main at banking:** B1667 and B1668. B1667 was also replicated blind by a seat.
+- **Read in full by outside readers:** the paper, by four internal hostile reads, three seats and one outside referee.
+- **Certified mechanically:** the gates and the reproduction belt in a fresh clone at the head; every seal's hashes and
+  order.
+- **Not certified:** the firewalled speculation files, which promote nothing; the seats' results not verified on main.
+
+## 4. The sample, and the premise audit on it
+
+| arc | finding | kind | done |
+|---|---|---|---|
+| B1662 | "the sign is generated" holds given GM5b, an adopted reading; F3 is enumerated to entries ≤ 40, though it holds for every word; "only this reading never settles" compares two readings, and the returns saturate under A (transient) | scope | dated note; GENESIS GM5b's sentence → R65-3 |
+| B1663 | the sha beside "Sealed 9c3f74238" is the preregistration's, the instrument's is ce1cf289; the estimator note said "runs high", but it runs 0.1% low at p = 0 and 2% high at p = ½; the digit reading is marginal frequencies only; "Gauss–Kuzmin for a typical point" names the comparison law | scope | dated note |
+| B1665, B1666 | the same sha labelling; B1666's "exactly" is a check to 1.1 × 10⁻⁷ in the arc (the exact theorem is now in the paper and the note); "only the quarter" follows from the phase law; the cusp family's climb ends at the enumeration's edge | scope | dated notes |
+| B1661 | "four items carried a second time" against the five its lock checks; the seal defects not said to be remote-only | note | recorded here |
+
+**The premise audit on the sample.** Every "every", "only", "all", "cannot", "exactly", "forced" and "proves" in the
+five claim lines was read against its premises.
+- Six over-reach: B1662 three times, B1663 twice, B1666 once.
+- None is stale beyond B1662's open question about p, which B1663 partly answers.
+- No number in a claim line disagrees with its output.
+- **The seals' defects are remote-only.** Every seal hashes as recorded and precedes its results; "not on every remote"
+  is the Codeberg mirror (R64-1).
+
+## 5. Protocol integrity
+
+- **The paper's pipeline worked as a protocol, and it found main's own errors.**
+  - Four internal hostile reads found a false sentence (the commutator's trace).
+  - The seats' three reads found the unpriced inputs, a non-nilpotent display, and a cusp law stated beyond its axis.
+  - The outside referee found the rest: Theorem 9's calibration, the conditional index in the abstract, the
+    literature, and a broken reference.
+  - The referee also checked every identity independently and found no mathematical error.
+- **E90, a new class: the built page not read.** Twice the build passed and the rendered page was wrong. A LaTeX `\ref`
+  in an edit script became a line break, and Table 1's oversized float silently dropped its last rows and the Price
+  paragraph. Outside readers caught both, not main. The remedy is a standing check: after every scripted edit, scan
+  the sources for control characters and orphaned command fragments; read the build log's warnings as failures; sweep
+  the rendered text.
+- **A check of main's own had a bug, caught before anything was written.** The period-phase script picked the
+  repelling fixed point as the attracting one, so the ±i phases came out conjugated. The ±1 phases agreed, which
+  located the error.
+- **The B1660 "a fortiori".** Main wrote it at S139–S140 and the web seat in its evening note. The audit lane showed
+  that a free-radius multistart bounds a best fit from above only. Both corrected (P-169, N5's scope, the web seat's
+  standing).
+
+## 6. Advancement, errors, provenance
+
+- **Advancement:** LAW_MAP +2 rows and THEOREM_REGISTRY +2 rows (T-THE-PERIOD-PHASE, T-THE-CANONICAL-CUSP). The period
+  phase is now proved for every closed geodesic, in the paper and the note.
+- **Errors:** new class E90; instances E74 ×2 (B1664, B1665), E80 (B1654), E65 (B1660); B1654 and B1663 sharpened by
+  dated notes.
+- **Provenance:** 2789 added lines scanned, 0 hits; no vendor or model name in a tracked file. The paper's AI-use
+  statement is in its §9, at the owner's word.
+- **Vocabulary:** "typical motion", "cusp family" and "end radius ℰ" added to TERMINOLOGY.
+
+### Action items (Review 65)
+- [>] R65-1: restore a mirror (Codeberg's terms bar mostly-AI repositories; a replacement host is the owner's choice); then push main and mirror the lanes (owner: the owner, then cc; carried from R64-1, itself from R63-1 and R62-1)
+- [x] R65-2: the premise audit is a standing review step, written into PRACTICES (resolves R64-2)
+- [ ] R65-3: scope GENESIS GM5b's "only this reading never settles" through adoption/amend.py, after a full suite (owner: cc; source: §4)
+- [>] R65-4: every banked arc hashes its stored output and any post-seal file it cites, with a failing-path test (owner: cc; carried from R64-4)
+- [>] R65-5: adjudicate the chain gap's top entries (owner: cc; carried from R64-5)
+- [>] R65-6: the Seen-first alias table and full-text sweep (owner: cc; carried from R64-6, itself from R63-4; due at Review 66)
+- [>] R65-7: the reliance reading and the REPRODUCED disposition (owner: cc; carried from R64-7, itself from R63-5; due at Review 66)
+- [>] R65-8: the enforcement gaps and the seat register (owner: cc; carried from R64-8, itself from R63-6; due at Review 66)
+- [>] R65-9: B186's band box dimension re-graded in its own arc (owner: cc; carried from R64-10; B616 done at this review)
+- [x] R65-10: filed at this review: the scope notes on B1649, B1651, B1658 (R64-3), B1662, B1663, B1665, B1666; B616's single-threaded pin; E90; TERMINOLOGY; B1667's blind replication noted; the paper's draft 6 (Table 1 a longtable, 25 verified edits, Figure 1)
+- [x] R65-11: done at this review — the E90 remedy as a check in the paper's build (`build.sh` fails on a control character, an orphaned fragment, or an oversized-float warning), with a failing-path test (owner: cc; source: §5)
+- [ ] R65-12: verify the referee lane's two arcs on main and re-bank them under main's numbers, THE DEDEKIND PHASE first (owner: cc; P-192)
+
+**anchor-commit: `c370ff37c`**

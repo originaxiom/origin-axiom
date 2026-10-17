@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1397** |
-| words of findings prose | **1,105,914** |
+| research arcs with findings | **1398** |
+| words of findings prose | **1,107,061** |
 | test lock files referenced | **815** |
-| arcs carrying an authored verdict | **1397** (100.0 %) |
+| arcs carrying an authored verdict | **1398** (100.0 %) |
 | recorded closures | **823** (656 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 946 |
+| PROVED | 947 |
 | NEGATIVE | 347 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1667`** (1038 words, 1 locks)  
-THE CANONICAL CUSP (sealed ca1c08efb, sha256 83689a5d; PROVED as sealed, a census informed by neighbours; the output committed unread at e68a87550): in the fibre's own hyperbolic metric the puncture is a cusp with canonical horocycles, which fix B1654's end radius L = log(1/eps) as a function of tau alone -- at order one everywhere on the grid (the maximal cusp 0.643-0.691, the length-2 horocycle 2.29-2.78, converging toward the cusp of moduli; at omega exactly the eta^4 values 0.69208, 2.78648) -- so the end supplies no hierarchy (B1654's bulk hierarchy needs L in the hundreds) and the end datum is a discrete choice, not a continuum; under the canonical cut the first generation's lift rho_can(tau) is a function of tau alone, of order 0.03-0.4 in the bulk, with a simple zero at omega (slope 0.96) and a fall like e^(-2.6 Im tau) toward the cusp of moduli. 0 of 19.  
-`B1667_the_canonical_cusp/FINDINGS.md`
+**PROVED — `B1669`** (319 words, 0 locks)  
+REVIEW 65: THE PAPER AND THE PAGE. Twenty merges since Review 64; fresh clone PASS at c370ff37c; a full suite run (R64-11); every lane read to its head. The loop: R64-3 done (scope notes on B1649, B1651, B1658), R64-2 resolved by practice (the premise audit standing), B616's single-threaded pin recorded; R64-1 (the mirror, the owner's), R64-4, R64-5, B186 and R64-6..8 carried (R64-6..8 due at Review 66). The sample's premise audit: six over-reaches (B1662 x3, B1663 x2, B1666), filed as dated notes; the seals' defects remote-only. E90, the built page not read (a broken reference and a dropped table, both found by outside readers), with a source-hygiene check and its failing-path test. B1667 replicated blind by a seat (1e-11). The paper's draft 6. 0 of 19.  
+`B1669_review_65_the_paper_and_the_page/FINDINGS.md`
 
 **NEGATIVE — `B1668`** (847 words, 1 locks)  
 THE WEB SEAT'S LOW-THREAD NEGATIVES, VERIFIED ON MAIN (a verification arc; NEGATIVE as the seat found): the sealed T-low run's inputs and output hash as recorded, forms.pkl rebuilds byte-identically, the 199 nulls regenerate, six seeded configurations re-execute bit-identically (about 161 700 numbers each), and main's own scorer over all 216 000 assignment-cells finds no S-mass pass in either reading (SM best chi2 983.26 per-field, 601.77 minimal; best nulls 267.32, 471.29); the per-field census at every depth re-scores to no pass (h <= 3: 578.2 vs 262.9; 3 < h <= 6: 28 281.0 vs 14 482.6). No assignment, the Standard Model's or a null's, passes the mass test in these frames. 0 of 19.  

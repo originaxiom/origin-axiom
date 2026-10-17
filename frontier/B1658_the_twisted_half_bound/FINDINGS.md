@@ -7,6 +7,8 @@
 - POINT_REGISTER P-163, after the SM seat's W90 (verified on main). The weave's fibre at ω on W59's lines, given Λ,
   the dictionary and B1654's premises with B1656's four channels; T1–T2b hold for any null matter residue.
 
+> *Sharpened 2026-10-17 (Review 65, R64-3). "Cannot spread … by more than a factor 4, exactly" is exact in t + 1/t. In t itself it holds to first order for a nearly null Higgs. "One Higgs is out" assumes the ratios survive running, as §3 states. The computation stands; the wording is scoped.*
+
 ## 0. Seen first
 
 As sealed: `VERDICT topic-sweep /twisted half bound|one higgs|quaternion.{0,20}(null|norm)|adj.{0,10}Y|half bound/: 16 of 1429 arcs on main match (NEGATIVE 3, OPEN 2, PROVED 11)`

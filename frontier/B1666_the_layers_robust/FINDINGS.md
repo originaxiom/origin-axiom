@@ -7,6 +7,12 @@ are scoreboard results, not blind ones. L0's law, the period phase on every thre
   316 s, exit 0, the instrument unchanged since the seal (sha256 ee01a4b7).
 - **0 of 19.** POINT_REGISTER P-183, steps 1–2, after B1664 and B1665 (both OPEN, gates failed at D's two zeros).
 
+> *Sharpened 2026-10-17 (Review 65, from its sample read).*
+> - *"Returns … multiplied by exactly i^(#L−#R)" is, in this arc, a numerical check to 1.1 × 10⁻⁷ on every thread to trace 600. The exact statement for every closed geodesic is now proved: the paper `papers/P9_what_a_grammar_fixes/` (the period phase theorem) and the note `papers/P10_theta_triplet_note/` (Theorem 6, with the sign argument closed).*
+> - *"A coherent average survives only on the quarter of threads with #L ≡ #R (mod 4)" follows from the phase law; L2 computed coherences on the phase-one threads only.*
+> - *"The coherent rule favours the cusp family" is a read-out. The cusp family's coherence climbs toward one because one passage deep in the cusp dominates, and its maximum, 0.99994, sits at the enumeration's edge (length 598).*
+> - *The same sha labelling as B1663: the sha beside the seal commit is the preregistration's; the instrument's is the first line of ARTIFACT_HASHES.txt.*
+
 ## 0. Seen first
 
 As sealed: `VERDICT topic-sweep /Duke|equidistribut|trace formula|cycle integral|period phase|layer average/: 2 of 1435 arcs on main match (NEGATIVE 1, PROVED 1)`

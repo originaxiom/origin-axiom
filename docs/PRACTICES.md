@@ -1146,3 +1146,18 @@ Three practices came out of the field stage's last window. Each answers a slip t
    pass told to try the zeros would have found ω. B1666's pass did, before its seal.
 3. **A repair to a sealed file is recorded the same day in the form the seal check reads** (E80, B1654, Review 64).
    B1654's relative-path repair was noted in prose, so the seal check read a disclosed repair as an undisclosed change.
+
+## Review 65's practices: the premise audit and the built page — MIXED (adopted 2026-10-17, Review 65)
+
+1. **Every review runs the premise audit on its sample** (resolves R64-2). Every "every", "only", "all", "cannot",
+   "exactly", "forced" and "proves" in the sample's claim lines is read against the arc's own premises. The review's §4
+   reports what over-reaches, what is stale, and any number that disagrees with its output. Reviews 64 and 65 ran it,
+   and it is now a standing step. MANUAL (the review template).
+2. **A built page is read, not only built** (E90). After a scripted edit, scan the sources for control characters and
+   for command fragments left without their backslash. Read the build log's warnings (an oversized float, an undefined
+   reference) as failures. Sweep the rendered text. A table longer than a page is a longtable. GATED for the paper:
+   `papers/P9_what_a_grammar_fixes/checks/source_hygiene.py` runs in its `build.sh`, and
+   `tests/test_p9_source_hygiene.py` proves it fails on each planted defect (R65-11).
+3. **A sealed arc names both hashes** (from B1663, B1665, B1666 at Review 65): the preregistration's beside the seal
+   commit, and the instrument's as the first line of ARTIFACT_HASHES. A reader takes the first sha printed as the
+   instrument's. MANUAL.

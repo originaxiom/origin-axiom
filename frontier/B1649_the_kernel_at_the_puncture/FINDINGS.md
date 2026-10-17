@@ -3,6 +3,8 @@
 **Verdict: PROVED.** Every cell holds as sealed. cc (main), 2026-10-14. Sealed `a1bd642a6` before the run. No data.
 **0 of 19.** POINT_REGISTER P-116 (its leading-order half).
 
+> *Sharpened 2026-10-17 (Review 65, R64-3). The findings' "the five zeros are fixed by Jacobi's identity" is superseded by B1653: at a point the residue is rank one, and the coupling has rank at most two for every flat line. The frame caveat applies to the findings, not only to the addendum. The result holds in the fibre frame; in the surface frame the null vector is not present, and in the E8 frame the Higgs is a flavon. The computation stands.*
+
 ## 0. Seen first
 
 As sealed: `VERDICT topic-sweep /massless (first )?generation|first generation|Cabibbo|block.diagonal|texture zero|rank.two|rank 2|two-sided|null vector|unmixed|CKM.*(zero|trivial)|V_us|kernel at the puncture/: 44 of 1419 arcs on main match (NEGATIVE 8, OPEN 3, PROVED 33)`

@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1397 of 1397 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1398 of 1398 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (946)
+## PROVED (947)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -958,6 +958,7 @@
 | `B1662` | THE PULL-BACK ACTS ON THE RECORDS (the owner's ruling on P-179, 2026-10-16, made by the math; GENESIS v1.48): the inverse moves are legal (GM5b adopted) -- PF1's own form is two steps and their pull-backs, at the root [LR, RL] = -(unipotent) has trace -2 whatever the letters' signs, and at equal strength only this reading never settles (returns to the identity saturate at 0.477; the undo-only reading's grow 33.5 -> 97.0). So the sign is generated (FK4 answered): a full turn round a balance point negates the records, (L R^-1 L)^2 = (L^-1 R)^3 = -I, which no forward word reaches. Positivity is re-read as the choice of side (step and pull-back are mirror images), the arrow as the escape (0.0992 per step with no preference), and the arena recorded with SE1's trace-1 solution (P-178 N1). Re-graded: B1482, B1479 (wording), B1083 (the arrow re-homed); scope sentences on B1640, B1454, B1422. Nothing about the threads changes; the price unchanged; 0 of 19. |  | 1 |
 | `B1666` | THE LAYERS WITH A ROBUST PHASE (sealed aac14a72c, sha256 df6f13d1; PROVED as sealed, a scoreboard for L1-L2 after B1664 and B1665, whose gates failed at D's zeros; the output committed unread at e8197f4cf): on EVERY thread with trace <= 600 (30 674) the matter's amplitude D (dz/ds)^(-1/2) returns after one period multiplied by exactly i^(#L-#R), the Higgs's character (to 1.1e-7), so a coherent average survives only on the quarter of threads with #L = #R mod 4; averaged trace by trace the threads' defect <f> reaches the typical motion's 0.31500491 (0.3144 over traces 451-600 against 0.3692 at t <= 20; the gap falls as t^-1/2) -- the trace formula's constant mode on the program's quantity; the amplitude's coherence decays with length (slope -0.27 +- 0.08), and the coherent rule favours the cusp family L^(4m+1) R (to 0.99994), not the root LR (0.637). 0 of 19. |  | 0 |
 | `B1667` | THE CANONICAL CUSP (sealed ca1c08efb, sha256 83689a5d; PROVED as sealed, a census informed by neighbours; the output committed unread at e68a87550): in the fibre's own hyperbolic metric the puncture is a cusp with canonical horocycles, which fix B1654's end radius L = log(1/eps) as a function of tau alone -- at order one everywhere on the grid (the maximal cusp 0.643-0.691, the length-2 horocycle 2.29-2.78, converging toward the cusp of moduli; at omega exactly the eta^4 values 0.69208, 2.78648) -- so the end supplies no hierarchy (B1654's bulk hierarchy needs L in the hundreds) and the end datum is a discrete choice, not a continuum; under the canonical cut the first generation's lift rho_can(tau) is a function of tau alone, of order 0.03-0.4 in the bulk, with a simple zero at omega (slope 0.96) and a fall like e^(-2.6 Im tau) toward the cusp of moduli. 0 of 19. |  | 1 |
+| `B1669` | REVIEW 65: THE PAPER AND THE PAGE. Twenty merges since Review 64; fresh clone PASS at c370ff37c; a full suite run (R64-11); every lane read to its head. The loop: R64-3 done (scope notes on B1649, B1651, B1658), R64-2 resolved by practice (the premise audit standing), B616's single-threaded pin recorded; R64-1 (the mirror, the owner's), R64-4, R64-5, B186 and R64-6..8 carried (R64-6..8 due at Review 66). The sample's premise audit: six over-reaches (B1662 x3, B1663 x2, B1666), filed as dated notes; the seals' defects remote-only. E90, the built page not read (a broken reference and a dropped table, both found by outside readers), with a source-hygiene check and its failing-path test. B1667 replicated blind by a seat (1e-11). The paper's draft 6. 0 of 19. |  | 0 |
 
 ## NEGATIVE (347)
 

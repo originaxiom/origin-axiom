@@ -3,6 +3,12 @@
 **Verdict: PROVED** (a ruling arc: the facts the ruling rests on are verified and locked; GENESIS amended through the
 adoption step). cc (main), 2026-10-16. **0 of 19;** the price unchanged, 4 + 9 = 13.
 
+> *Sharpened 2026-10-17 (Review 65, from its sample read).*
+> - *"The sign is generated" holds given GM5b, the adopted reading; it is a consequence of that ruling, not an independent derivation.*
+> - *F3 is enumerated to entries ≤ 40, but it holds for every word in L and R. A word in L and R has non-negative entries, so ad = 1 + bc ≥ 1 and a, d ≥ 1. Its trace is then 2 only when a = d = 1, and otherwise at least 3, while an element fixing i or ω has trace 0 or ±1.*
+> - *"At equal strength only this reading never settles" compares two readings, A and B′. Under A the returns saturate (the walk is transient); under B′ they grow. "Only" is relative to those two. The same sentence in GENESIS GM5b is to be scoped through adoption/amend.py (R65-3).*
+> - *The open question about the pull-back's strength p is partly answered by B1663: p sets the side and the speed, not the averaged defect.*
+
 ## 0. Seen first
 
 `VERDICT topic-sweep /pull.back|inverse move|GM5b|negating the records|sign of the word|positivity/: 10 of 1433 arcs on main match (NEGATIVE 2, PROVED 8)`

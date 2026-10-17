@@ -39,6 +39,9 @@ def test_b616_heldout():
     # outside-bench Linux container prints "3 coarse-tier matches of 390 pairs" (its commit 5fd9ecc5 re-pinned to
     # that and flagged the fragility). Both are recorded; the verdict (STILL-AMBIGUOUS) and the sign law are the
     # lock's content, the count is not. A count outside {2, 3} of {378, 390} still fails.
+    # [Review 65, 2026-10-17; R64-10] Under single-threaded BLAS (the CPU rule's landing suites) the same macOS bench
+    # prints "2 coarse-tier matches of 384 pairs" (run on main at Review 65); recorded beside the other two pins.
     assert ("observed 2 coarse-tier matches of 378 pairs" in out
+            or "observed 2 coarse-tier matches of 384 pairs" in out
             or "observed 3 coarse-tier matches of 390 pairs" in out), out[-400:]
     assert "STILL-AMBIGUOUS" in out

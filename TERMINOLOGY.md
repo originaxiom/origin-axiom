@@ -861,3 +861,10 @@ theorem ledger and conditional claims in `CLAIMS.md`. Write "UNIQUENESS A6", "P0
 - **the arena** — the SM seat's reading (P-178, not adopted): the space of the records' placements, SL(2, ℝ)/SL(2, ℤ),
   is the trefoil's complement. The threads are its geodesic flow's closed orbits, and ω and i are its exceptional
   fibres.
+- **the typical motion** (B1663, B1666): the value of a function along a typical geodesic of the modular surface, which
+  is its average over the surface. For the defect f = ∣D∣/‖ρ‖² it is 0.31500491. Trace-layer averages approach it, by
+  the equidistribution of closed geodesics. The forward walk's own average, 0.517, is not the typical motion's.
+- **the cusp family** (B1664, B1666): the threads L^(4m+1)R. Their period phase is 1, and their normalised coherence
+  climbs toward one along the family. The family runs into the cusp of the modular surface.
+- **the end radius ℰ** (B1654, B1667): ℰ = log(1/ε) for a disc of radius ε removed at the fibre's puncture (written L
+  in the arcs before the paper's draft 4). The fibre's canonical horocycles fix it at order one.

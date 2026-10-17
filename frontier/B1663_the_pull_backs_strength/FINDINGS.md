@@ -7,6 +7,12 @@ pull-back strength. cc (main), 2026-10-16.
   187 s, exit 0, the instrument unchanged since the seal (sha256 ce1cf289).
 - **0 of 19.** POINT_REGISTER P-183, step 3 of `speculations/S_THE_PUSH_BACK.md` §10.1, after B1662.
 
+> *Sharpened again 2026-10-17 (Review 65, from its sample read).*
+> - *The sha256 1ce96661 printed beside "Sealed 9c3f74238" is the preregistration's. The instrument's is ce1cf289, the first line of ARTIFACT_HASHES.txt.*
+> - *The estimator note above should read: "differs from a fixed-length estimate by about 0.1% at p = 0 (low) and about 2% at p = ½ (high)".*
+> - *The post-seal digit reading is of marginal digit frequencies (1 to ≥ 5) at p = 0 and ½ only, not of the exit law or of the digits' independence.*
+> - *"Gauss–Kuzmin for a typical point" in the claim line means the comparison law, not the digits found: the digits found are not Gauss–Kuzmin.*
+
 > *Sharpened 2026-10-17 (S142, after an outside referee's report on the paper). The escape rate of T3 is the instrument's (1/n) log‖X_n‖_F at the first n at which an entry passes 10⁶⁰ (or n = 40 000). This is a first-passage estimate of the top Lyapunov exponent, half the hyperbolic drift of d(i, X_n i), and it runs high at the per-cent level. A fixed-length estimate (`papers/P9_what_a_grammar_fixes/checks/lyapunov_fixed.py`, 60 walks of 40 000 steps) gives 0.3964 ± 0.0001 at p = 0 and 0.0987 ± 0.0002 at p = ½, against 0.3959 and 0.1007 here. T3's cell (a difference of more than 10 SE between p = 0 and ½) is unaffected. No verdict changes.*
 
 ## 0. Seen first

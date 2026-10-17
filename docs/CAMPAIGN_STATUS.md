@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-10-17, REVIEW 65 (B1669): fresh clone PASS; full suite run; the sample's premise audit (six over-reaches, dated notes); R64-3 done, R64-2 resolved by practice; E90 (the built page not read) and the paper's source-hygiene check; B1667 replicated blind by a seat; the referee lane registered (P-192); the paper's draft 6. 0 of 19.)**
+
 **LATEST (2026-10-17, S144 B1668 (NEGATIVE, a verification arc): the web seat's sealed low-thread run and per-field census verified on main (hashes, byte-identical rebuild, bit-identical re-execution of six configurations, main's own re-scoring of every record): no assignment, the SM's or a null's, passes the mass test in these frames; the paper's §8 cites it. 0 of 19.)**
 
 **LATEST (2026-10-17, S143 THE MATHEMATICAL NOTE (P-190): papers/P10_theta_triplet_note/, a 5-page self-contained note (a nilpotent field, a determinant identity, a weight −1 form and its period phase on every closed geodesic, the surface average 0.3150049063), every computation scripted, a hostile read applied; the program report released as tag p9-draft5. 0 of 19.)**
@@ -3228,3 +3230,21 @@ v1.28 — the flavour three (alike, chiral under the weave's own group, one per 
 selection (B1606); and the principle's own tick a → ab, b → a carries one hand and erases the other while every move does
 the reverse, so neither hand is derived on the weave (B1607, GENESIS v1.29). **Derived parameters: 0 of 19.** Next: the
 even subweave, where both hands are global choices (B1609); the review's items R61-1 to R61-5.
+
+## ⟳ VIEW REFRESH — 2026-10-17 (Review 65)
+
+Touched at the Review 65 anchor (`c370ff37c`). **The window (B1661–B1668; 20 merges) fixed the end, wrote the paper,
+and had it read four times over.**
+- **The pull-back acts** (B1662, GENESIS v1.48). Its strength sets the side and the speed, not the averaged defect
+  (B1663). The period phase of the matter amplitude is i^(#L−#R) on every thread to trace 600 (B1666). It is now proved
+  for every closed geodesic in the paper and in the note.
+- **The canonical cusp** (B1667): the fibre's own geometry fixes the end radius at order one, so the end supplies no
+  hierarchy. A seat replicated it blind from the group side, agreeing to about 10⁻¹¹.
+- **The web seat's low-thread negatives**, verified on main (B1668): no assignment passes the mass test in those frames.
+- **The paper.** `papers/P9_what_a_grammar_fixes/` went from draft 3 to draft 6. It was read by four internal hostile
+  reads, three seats and one outside referee, and released as `p9-draft5`. A five-page mathematical note sits beside
+  it (`papers/P10_theta_triplet_note/`).
+- **Review 65** (B1669) found the built page unread twice (E90) and added a source-hygiene check. It found a new lane, the
+  referee lane, whose arc numbers collide with main's; main will re-bank them (P-192).
+- **0 of 19.**
+

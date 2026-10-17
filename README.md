@@ -612,6 +612,23 @@ flavour symmetry to the field: what couples to the matter, and what the coupling
 **Derived parameters: 0 of 19.** Next: B1646; the scope repairs; the quark count with a massless first generation
 (P-116); B1637's grading.
 
+## ⟳ VIEW REFRESH — 2026-10-17 (Review 65)
+
+Touched at the Review 65 anchor (`c370ff37c`). **The window (B1661–B1668; 20 merges) fixed the end, wrote the paper,
+and had it read four times over.**
+- **The pull-back acts** (B1662, GENESIS v1.48). Its strength sets the side and the speed, not the averaged defect
+  (B1663). The period phase of the matter amplitude is i^(#L−#R) on every thread to trace 600 (B1666). It is now proved
+  for every closed geodesic in the paper and in the note.
+- **The canonical cusp** (B1667): the fibre's own geometry fixes the end radius at order one, so the end supplies no
+  hierarchy. A seat replicated it blind from the group side, agreeing to about 10⁻¹¹.
+- **The web seat's low-thread negatives**, verified on main (B1668): no assignment passes the mass test in those frames.
+- **The paper.** `papers/P9_what_a_grammar_fixes/` went from draft 3 to draft 6. It was read by four internal hostile
+  reads, three seats and one outside referee, and released as `p9-draft5`. A five-page mathematical note sits beside
+  it (`papers/P10_theta_triplet_note/`).
+- **Review 65** (B1669) found the built page unread twice (E90) and added a source-hygiene check. It found a new lane, the
+  referee lane, whose arc numbers collide with main's; main will re-bank them (P-192).
+- **0 of 19.**
+
 ## ⟳ VIEW REFRESH — 2026-10-16 (Review 64)
 
 Touched at the Review 64 anchor (`bf44d9032`). **The window (B1637, B1646–B1660; 34 merges; two days) built the field

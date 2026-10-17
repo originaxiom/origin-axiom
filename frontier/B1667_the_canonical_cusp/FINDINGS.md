@@ -6,6 +6,13 @@ seal and the reviewing pass printed off-grid neighbours, so no cell is blind. cc
   327 s, exit 0, the instrument unchanged since the seal (sha256 dd5fe689).
 - **0 of 19.** POINT_REGISTER P-185 (P-183 step 5).
 
+> *Replicated blind, 2026-10-16/17 (the SM seat's W100; harvest row 1257; compared on main at Review 65).*
+> - *The route is independent of this arc's: the Fuchsian side, through Fricke traces, Hejhal's weight-two cusp form and its periods. The arc's own route is the Lamé equation.*
+> - *The values agree with this arc's instrument run at the same moduli to about 10⁻¹¹:*
+>   - *τ₁ = 0.137 + 1.291i: ℰ_max = 0.673088575614 (W100) against 0.673088575622 (main), and ℰ_2 = 2.600537462313 against 2.600537462323;*
+>   - *τ₂ = −0.284 + 2.173i (main computes its mirror; ℰ is mirror-invariant): ℰ_max = 0.654098689143 against 0.654098689154, and ℰ_2 = 2.416223036442 against 2.416223036455.*
+> - *W100's gate at ω reproduces the η⁴ closed form to 17 digits, and its covariance checks hold to 10⁻²⁰.*
+
 ## 0. Seen first
 
 As sealed: `VERDICT topic-sweep /horocycl|maximal cusp|Shimizu|cusp neighbo|end radius|canonical end|accessory parameter|Lam[eé]|uniformi[sz]|Fuchsian (once-)?punctured|developing map/: 7 of 1438 arcs on main match (NEGATIVE 3, PROVED 4)`

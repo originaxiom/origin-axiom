@@ -17332,3 +17332,17 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   `verify.sh` updated.
 - **The record.** P-188 is done; harvest rows 1241 and 1250 carry the banking note.
 - Landing suite: gates 45 of 45; 192 files, 2394 passed, 0 failed, 6 skipped (5:35, -n 8). 0 of 19.
+
+## 2026-10-17 — REVIEW 65 (B1669): the paper and the page
+
+- **The block** is in `docs/progress/REVIEWS.md` (anchor `c370ff37c`).
+- **Fresh clone:** PASS.
+- **Full suite:** 7362 passed, 5 failed (B186, plus four gate locks broken by edits made during the run and by the
+  referee lane's appearance; all four green on re-run).
+- **The sample read** was done by a reviewing agent. Its locks pass, its spot-checks match, and the premise audit found
+  six over-reaches, filed as dated notes on B1662, B1663, B1665 and B1666.
+- **The loop.** R64-3 done; R64-2 resolved; R64-11 done; B616 pinned; the rest carried, each with its reason.
+- **E90 and R65-11:** the paper's source-hygiene check.
+- **Records.** TERMINOLOGY rows; B1667's blind replication by W100 compared on main; the referee lane registered and
+  sent a relay; P-191 and P-192; harvest rows 1256–1261; the eight views refreshed; the paper's draft 6.
+- Landing suite: gates 45 of 45 on the commit; 210 files, 2407 passed, 2 failed (the two gate tests that read views-fresh, which counts commits; both pass on the commit), 6 skipped (12:24, -n 8). 0 of 19.

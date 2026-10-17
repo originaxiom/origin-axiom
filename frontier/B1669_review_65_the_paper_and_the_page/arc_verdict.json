@@ -1,0 +1,28 @@
+{
+ "id": "B1669",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1661",
+  "B1662",
+  "B1663",
+  "B1665",
+  "B1666",
+  "B1667",
+  "B1668"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record's governance",
+  "object": "the window bf44d9032..c370ff37c (20 merges; B1661-B1668) and the paper's drafts 3-6",
+  "reach": "general",
+  "hypotheses": "the sample of five read in full by one reviewing agent; the rest read at banking or by the paper's outside readers"
+ },
+ "claim_one_line": "REVIEW 65: THE PAPER AND THE PAGE. Twenty merges since Review 64; fresh clone PASS at c370ff37c; a full suite run (R64-11); every lane read to its head. The loop: R64-3 done (scope notes on B1649, B1651, B1658), R64-2 resolved by practice (the premise audit standing), B616's single-threaded pin recorded; R64-1 (the mirror, the owner's), R64-4, R64-5, B186 and R64-6..8 carried (R64-6..8 due at Review 66). The sample's premise audit: six over-reaches (B1662 x3, B1663 x2, B1666), filed as dated notes; the seals' defects remote-only. E90, the built page not read (a broken reference and a dropped table, both found by outside readers), with a source-hygiene check and its failing-path test. B1667 replicated blind by a seat (1e-11). The paper's draft 6. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

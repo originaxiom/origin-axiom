@@ -23,7 +23,7 @@ yg = len(chain) - 2
 ax.add_patch(FancyBboxPatch((6.2, yg - 1.0 - 0.32), 3.6, 0.64, boxstyle="round,pad=0.02", fc=OI["green"], ec="black", lw=0.6, alpha=0.8, ls="--"))
 ax.text(8.0, yg - 1.0 + 0.08, "side branch: the seed $A=LR$", ha="center", va="center", fontsize=7)
 ax.text(8.0, yg - 1.0 - 0.14, "(four inputs: GM3, GM4, SE1, SE2)", ha="center", va="center", fontsize=6.3)
-ax.annotate("", (6.2, yg - 1.0), (5.45, yg - 0.15), arrowprops=dict(arrowstyle="<-", lw=0.6, ls="--"))
+ax.annotate("", (6.2, yg - 1.0), (5.45, yg - 0.15), arrowprops=dict(arrowstyle="->", lw=0.6, ls="--"))
 ax.text(0.2, -0.85, "green: follows from the stated inputs of its section $\\cdot$ orange: stated $\\cdot$ blue: also needs tagged postulates $\\cdot$ grey: open",
         fontsize=6.4)
 ax.text(0.2, -1.2, "for comparison, the record prices its whole chain at four axioms and nine irreducible identifications; this paper derives 0 of 19", fontsize=6.4)

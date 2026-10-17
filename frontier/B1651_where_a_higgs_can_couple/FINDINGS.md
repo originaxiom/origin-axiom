@@ -5,6 +5,8 @@
 **Verdict: PROVED.** Every cell holds as sealed. cc (main), 2026-10-14. Sealed `6d6f7f660` before the run (6.1 s). No
 data. **0 of 19.** POINT_REGISTER P-131 (Step 4 of the field's genesis); P-129's first premise.
 
+> *Sharpened 2026-10-17 (Review 65, R64-3). The claim line runs about 2000 characters, and they are of two kinds. The sealed cells (U1–U5, each holding as sealed, part of U3 an identity) and the read-out U6 are the result. The rest is a post-seal reading, labelled, which the seal does not cover. The post-seal `szego_check.py` and its output are now hashed in ARTIFACT_HASHES.txt. No verdict changes.*
+
 ## 0. Seen first
 
 As sealed: `VERDICT topic-sweep /half.period|2.torsion|fixed point.*involution|elliptic involution|pillowcase|where a Higgs|bulk Higgs|Riemann.Roch|residue.*canonical|Higgs.*localis/: 29 of 1422 arcs on main match`.

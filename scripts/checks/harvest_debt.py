@@ -128,6 +128,13 @@ SEATS = [
     # restored and read is the owner's decision.
     dict(key="weavearchive", label="weave archive import lane (not a seat)", branch="weave-physics-archive-2026-10-11",
          remotes=("origin",), cell=("archive lane", "weave archive")),
+    # ADDED 2026-10-17 (Review 65): a branch that appeared on origin during Review 65's full suite, forked from main at
+    # d58d0512b -- "the referee lane": the outside referee's three reports (the draft-3 review, the ladder, the price list of the
+    # nineteen) with their checks, and two sealed arcs numbered B1668 and B1669 on its branch, which collide with main's
+    # B1668 (S144) and B1669 (Review 65). Registered so that it is watched, pinned at its head so it carries no items;
+    # main verifies and re-banks its results under main's numbers (P-192), and asked it to keep a prefix of its own.
+    dict(key="referee", label="referee lane (the outside referee's reports and arcs)", branch="B1668_the_price_of_the_nineteen",
+         remotes=("origin",), cell=("referee lane",)),
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;

@@ -6,6 +6,8 @@ phase estimator that no zero can spoil. cc (main), 2026-10-16.
   instrument unchanged since the seal (sha256 1c14e0a9).
 - **0 of 19.** POINT_REGISTER P-183, steps 1–2.
 
+> *Sharpened 2026-10-17 (Review 65): the sha beside the seal commit is the preregistration's; the instrument's is the first line of ARTIFACT_HASHES.txt. The "1.4 × 10⁻⁸ on all threads" of its diagnosis is the one-period least-squares estimator; B1666's 1.1 × 10⁻⁷ is the two-period estimator it sealed.*
+
 ## 0. Seen first
 
 As sealed: `VERDICT topic-sweep /Duke|equidistribut|trace formula|cycle integral|period phase|layer average/: 2 of 1435 arcs on main match (NEGATIVE 1, PROVED 1)`

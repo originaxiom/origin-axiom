@@ -1,5 +1,31 @@
 # Changelog
 
+## REVIEW 65 (B1669): the paper and the page — and the paper's draft 6
+
+- **The review.** Twenty merges since Review 64.
+  - The fresh clone passes at `c370ff37c`.
+  - A full suite ran: 7362 passed and 5 failed. One is B186, the BLAS-dependent lock; four are gate locks broken by
+    edits during the run and by a new lane appearing. All four were re-run green after the repairs.
+  - The sample (B1661, B1662, B1663, B1665, B1666) was read in full by a reviewing agent. Its locks pass, its numbers
+    match, and its premise audit found six over-reaches, filed as dated notes.
+- **The loop.**
+  - Done: R64-3 (scope notes on B1649, B1651 and B1658; B1651's Szegő check hashed) and R64-11 (the full suite, a rule).
+  - Resolved by practice: R64-2 (the premise audit, written into PRACTICES).
+  - B616's single-threaded pin is recorded.
+  - Carried: the mirror (the owner's choice), R64-4, R64-5, B186, and R64-6 to R64-8. R64-6 to R64-8 are due at
+    Review 66.
+- **E90, the built page not read.** A broken reference and a dropped table, both found by outside readers. The paper's
+  build now runs `checks/source_hygiene.py`, with a failing-path test (R65-11).
+- **B1667 replicated blind** by the SM seat's W100, from the group side, to about 10⁻¹¹. Credit to the SM seat.
+- **The referee lane** was found and registered. Its two sealed arcs (THE PRICE OF THE NINETEEN; THE DEDEKIND PHASE)
+  collide with main's numbers. A relay was sent, and main will verify and re-bank them (P-192). Credit to the referee
+  lane for the draft-3 report.
+- **The paper's draft 6.**
+  - Table 1 is a longtable and complete. Credit to the web seat, which found the overflow.
+  - The SM seat's §150 and the web seat's nine remaining items were verified, with 25 edits applied.
+  - Figure 1's arrow is corrected.
+- **Records.** Harvest rows 1256–1261 and pins; P-191 (the waiver, the owner's word as relayed) and P-192.
+
 ## S144 THE WEB SEAT'S LOW-THREAD NEGATIVES, VERIFIED ON MAIN (B1668, NEGATIVE; P-188)
 
 - **B1668, a verification arc.** It covers the web seat's sealed run THE TWISTED UNITS ON THE LOW THREADS and its
