@@ -1,0 +1,523 @@
+{
+ "what": "W101, the weave's anomaly",
+ "rule": "W101_RULE.md",
+ "status": "one run",
+ "precision": "mpmath 30 digits; rho's matrices for C1 in mpmath floating point (exact roots of unity)",
+ "C0 the representation": {
+  "s^2 = (st)^3": true,
+  "s^8 = 1": true,
+  "s^4 = -1": true,
+  "image order": 96,
+  "t-exponents (turns)": [
+   "1/8",
+   "3/8",
+   "7/8"
+  ],
+  "e with det rho(t) = chi_eta(t)^e": [
+   9
+  ],
+  "det rho(s) = chi_eta(s)^e": true
+ },
+ "C1 det Y1(gamma tau) / ((c tau + d)^3 det Y1(tau)) against det rho(gamma)^-2": {
+  "words": {
+   "t": {
+    "det rho^-2": "(-1.6734267e-30 + 1.0j)",
+    "measured at three tau": [
+     "(-1.7723707e-31 - 1.0j)",
+     "(8.2580678e-32 + 1.0j)",
+     "(-1.7414226e-31 - 1.0j)"
+    ]
+   },
+   "t^-1": {
+    "det rho^-2": "(-1.8128789e-30 - 1.0j)",
+    "measured at three tau": [
+     "(-1.6887625e-32 - 1.0j)",
+     "(-1.2662471e-31 + 1.0j)",
+     "(6.4269662e-32 - 1.0j)"
+    ]
+   },
+   "s": {
+    "det rho^-2": "(5.4386367e-30 + 1.0j)",
+    "measured at three tau": [
+     "(6.393364e-32 + 1.0j)",
+     "(5.9488777e-32 + 1.0j)",
+     "(2.6754854e-32 + 1.0j)"
+    ]
+   },
+   "s^-1": {
+    "det rho^-2": "(5.4386367e-30 - 1.0j)",
+    "measured at three tau": [
+     "(-6.393364e-32 - 1.0j)",
+     "(-5.9488777e-32 - 1.0j)",
+     "(-2.6754854e-32 - 1.0j)"
+    ]
+   },
+   "LR": {
+    "det rho^-2": "(1.0 - 2.3336307e-61j)",
+    "measured at three tau": [
+     "(-1.0 + 1.9794697e-31j)",
+     "(-1.0 - 9.6768525e-33j)",
+     "(-1.0 + 8.1194907e-31j)"
+    ]
+   },
+   "LR^-1": {
+    "det rho^-2": "(1.0 + 2.3336307e-61j)",
+    "measured at three tau": [
+     "(1.0 + 8.1019492e-32j)",
+     "(1.0 + 4.2024441e-31j)",
+     "(1.0 - 2.4563466e-31j)"
+    ]
+   },
+   "LLR": {
+    "det rho^-2": "(-1.6734267e-30 + 1.0j)",
+    "measured at three tau": [
+     "(-3.1401312e-31 - 1.0j)",
+     "(-1.0031431e-31 - 1.0j)",
+     "(6.5810723e-32 - 1.0j)"
+    ]
+   },
+   "LLR^-1": {
+    "det rho^-2": "(-1.6734267e-30 - 1.0j)",
+    "measured at three tau": [
+     "(-1.7955912e-31 - 1.0j)",
+     "(3.8940774e-31 - 1.0j)",
+     "(6.1928265e-31 - 1.0j)"
+    ]
+   },
+   "LRLLR": {
+    "det rho^-2": "(-1.6734267e-30 + 1.0j)",
+    "measured at three tau": [
+     "(-6.4222579e-30 - 1.0j)",
+     "(7.5876102e-31 - 1.0j)",
+     "(-7.1227004e-30 - 1.0j)"
+    ]
+   },
+   "LRLLR^-1": {
+    "det rho^-2": "(-1.8128789e-30 - 1.0j)",
+    "measured at three tau": [
+     "(4.8553321e-30 - 1.0j)",
+     "(4.0910766e-30 - 1.0j)",
+     "(2.7315229e-30 - 1.0j)"
+    ]
+   }
+  },
+  "worst |difference|": "2.0"
+ },
+ "A1 the character layer (exponent of chi_eta, mod 24)": {
+  "SU3 free": 16,
+  "SU3 free = {s_u = s_d = -s_Q}": true,
+  "SU2 values": [
+   6,
+   12,
+   18
+  ],
+  "grav free among SU3 free": 4,
+  "grav free = {s_e = s_nu = -s_L} among SU3 free": true,
+  "grav free without nu^c": 0,
+  "free in SU3, SU2 and grav at once": 0,
+  "U(1)_Y^2 read-out, e * sum s dim Y^2, for (all T) and (s_u = s_d = -s_Q, leptons T)": [
+   "30",
+   "0"
+  ]
+ },
+ "A2 the coupling layer: det(Y_u Y_d)/eta^(6K) of trivial character": {
+  "(sQ, su, sd) = (1, 1, 1)": {
+   "m": 12,
+   "K mod 4 cancellable": [
+    2
+   ],
+   "cancellable (k_u, k_d)": [
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     5,
+     5
+    ],
+    [
+     7,
+     3
+    ],
+    [
+     7,
+     7
+    ]
+   ],
+   "count": 8
+  },
+  "(sQ, su, sd) = (1, 1, -1)": {
+   "m": 6,
+   "K mod 4 cancellable": [
+    1
+   ],
+   "cancellable (k_u, k_d)": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     5,
+     0
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     7,
+     2
+    ],
+    [
+     7,
+     6
+    ]
+   ],
+   "count": 8
+  },
+  "(sQ, su, sd) = (1, -1, 1)": {
+   "m": 6,
+   "K mod 4 cancellable": [
+    1
+   ],
+   "cancellable (k_u, k_d)": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     6,
+     3
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "count": 8
+  },
+  "(sQ, su, sd) = (1, -1, -1)": {
+   "m": 0,
+   "K mod 4 cancellable": [
+    0
+   ],
+   "cancellable (k_u, k_d)": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     6,
+     6
+    ]
+   ],
+   "count": 8
+  },
+  "(sQ, su, sd) = (-1, 1, 1)": {
+   "m": 0,
+   "K mod 4 cancellable": [
+    0
+   ],
+   "cancellable (k_u, k_d)": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     6,
+     6
+    ]
+   ],
+   "count": 8
+  },
+  "(sQ, su, sd) = (-1, 1, -1)": {
+   "m": 18,
+   "K mod 4 cancellable": [
+    3
+   ],
+   "cancellable (k_u, k_d)": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     6,
+     1
+    ],
+    [
+     6,
+     5
+    ]
+   ],
+   "count": 8
+  },
+  "(sQ, su, sd) = (-1, -1, 1)": {
+   "m": 18,
+   "K mod 4 cancellable": [
+    3
+   ],
+   "cancellable (k_u, k_d)": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     0
+    ],
+    [
+     7,
+     4
+    ]
+   ],
+   "count": 8
+  },
+  "(sQ, su, sd) = (-1, -1, -1)": {
+   "m": 12,
+   "K mod 4 cancellable": [
+    2
+   ],
+   "cancellable (k_u, k_d)": [
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     5,
+     5
+    ],
+    [
+     7,
+     3
+    ],
+    [
+     7,
+     7
+    ]
+   ],
+   "count": 8
+  }
+ },
+ "A3a weight 1, all in T, no counterterm: -12 arg eta (mod pi)": {
+  "max |sin(12 arg eta - pi/2)| on Re tau = 1/2": "1.97e-31",
+  "min sin(12 arg eta) over the grid with x > 0": "0.149555",
+  "max |sin(12 arg eta)| on x = 0": "0.0",
+  "mirror |12 arg eta(-x+iy) + 12 arg eta(x+iy)|": [
+   "0.0",
+   "0.0",
+   "0.0"
+  ]
+ },
+ "A3b weight 3, all in T, no counterterm (POST HOC): zeros of sin(12 arg eta + 2 arg E6)": {
+  "crossings with Re tau >= 0.05": [
+   {
+    "x": "0.3241467876",
+    "y": "1.0",
+    "|tau|": "1.05122",
+    "theta-bar = 0 for": "c_u c_d > 0",
+    "residual": "-3.43e-14"
+   },
+   {
+    "x": "0.3028108207",
+    "y": "1.05",
+    "|tau|": "1.09279",
+    "theta-bar = 0 for": "c_u c_d > 0",
+    "residual": "-2.36e-14"
+   },
+   {
+    "x": "0.2735727478",
+    "y": "1.1",
+    "|tau|": "1.13351",
+    "theta-bar = 0 for": "c_u c_d > 0",
+    "residual": "-2.59e-14"
+   },
+   {
+    "x": "0.2328849545",
+    "y": "1.15",
+    "|tau|": "1.17334",
+    "theta-bar = 0 for": "c_u c_d > 0",
+    "residual": "-2.65e-15"
+   },
+   {
+    "x": "0.1721222282",
+    "y": "1.2",
+    "|tau|": "1.21228",
+    "theta-bar = 0 for": "c_u c_d > 0",
+    "residual": "1.2e-14"
+   }
+  ],
+  "crossings with Re tau < 0.05 (not reported)": 0
+ },
+ "A3c with the Dedekind counterterm": {
+  "weight 1 (all T): det(Y1)^2 / eta^12, spread and value": [
+   "1.29e-30",
+   "(64.0 + 7.78828203909e-30j)"
+  ],
+  "weight 3 (all T): (eta^6 E6)^2 / eta^36 / (j - 1728), spread": "1.24e-28",
+  "weight 2 (s_u = s_d = -s_Q): E6^2 / eta^24 / (j - 1728), spread": "1.24e-28",
+  "max |sin arg(j - 1728)| on x = 0, x = 1/2 and three arc points": "2.5e-30",
+  "min |sin arg(j - 1728)| at grid points with 0 < x < 1/2": "0.00165506"
+ },
+ "cells": {
+  "C0": true,
+  "C1": false,
+  "A1": true,
+  "A2": true,
+  "A3a": true,
+  "A3c": true,
+  "A4": false
+ },
+ "A4 the verdict, as the rule states it if every cell holds": "The moves' QCD anomaly vanishes at the level of the character only for s_u = s_d = -s_Q; it is cancellable by a Dedekind counterterm exactly when the coupling weights satisfy A2's congruence; SU(2)^2 is never free at the level of the character, and gravity^2 needs nu^c. With the counterterm, theta-bar is constant at weight 1 and is -arg(j - 1728) at weights 2 and 3. 0 of 19."
+}

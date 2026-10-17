@@ -1,0 +1,11 @@
+{
+ "cells": {
+  "C0": true,
+  "C1": false,
+  "A1": true,
+  "A2": true,
+  "A3a": true,
+  "A3c": true,
+  "A4": false
+ }
+}
