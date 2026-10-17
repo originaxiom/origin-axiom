@@ -768,6 +768,9 @@ Under the owner's rulings, the table's rows split into two groups:
 - **The paper, draft 7** (the owner's request while main was out of usage; relay §156). Main's draft 6 plus §4.1 (the
   half floor, det ρ = χ_η⁹, the moves' anomaly, the strong angle), §8's measurer and §10's third kind of link, at
   `papers/P9_what_a_grammar_fixes/` on this branch. It is for main to port; main has not reviewed it. 0 of 19.
+- **The paper, draft 8** (relay §157). An external referee report on draft 6 is applied, F1–F5, each checked against the
+  record. verify.sh runs 45 locks; the tables precede the References; Theorem 9's convention note is corrected; the
+  estimator's sizes and five precision fixes are in. The author is Dritëro Mehmetaj, at the owner's request. 0 of 19.
 
 ## Questions open with main
 
@@ -792,4 +795,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§156).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§157).

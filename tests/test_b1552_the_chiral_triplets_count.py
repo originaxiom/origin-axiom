@@ -2594,9 +2594,68 @@ def test_the_paper_draft7():
     keys = set(re.findall(r"@\w+\{([^,]+),", bib))
     cited = {k.strip() for group in re.findall(r"\\cite(?:\[[^\]]*\])?\{([^}]+)\}", src) for k in group.split(",")}
     assert cited <= keys, cited - keys
-    assert "Draft 7" in (tex / "main.tex").read_text(encoding="utf-8")
+    assert re.search(r"Draft [7-9] \(internal\)", (tex / "main.tex").read_text(encoding="utf-8"))
     assert (tex.parent / "what_a_grammar_fixes.pdf").stat().st_size > 500_000
 
+
+
+def test_the_paper_draft8():
+    """The paper's draft 8 (relay §157): the referee report on draft 6 applied (F1-F5), and the author set at the
+    owner's request; the corrected statements recomputed exactly in process (the parity lines, the braid relation)"""
+    import functools
+    import re
+    import sympy as sp
+    from sympy.algebras.quaternion import Quaternion as Q
+
+    paper = ROOT / "papers" / "P9_what_a_grammar_fixes"
+    tex = paper / "tex"
+    sec = lambda n: (tex / "sections" / n).read_text(encoding="utf-8")
+    main = (tex / "main.tex").read_text(encoding="utf-8")
+    assert "\\author{Drit\\\"ero Mehmetaj}" in main and "Draft 8 (internal)" in main
+    assert main.index("\\clearpage") < main.index("\\bibliographystyle")
+    # F1: the lock count stated in A2 is the count verify.sh runs
+    locks = re.findall(r"(?:tests|frontier)/\S+?\.py", (paper / "verify.sh").read_text(encoding="utf-8"))
+    assert len(locks) == len(set(locks)) == 45 and "$45$ lock files" in sec("a2_verification.tex")
+    assert "(printed checks; no lock)" in sec("a2_verification.tex")
+    # F2: no floating table in the appendices after A2
+    assert all("\\begin{table}" not in sec(n) for n in ("a3_corrections.tex", "a4_glossary.tex"))
+    # F3: the labels; F4: the estimator; F5: the braid relation, the tilde, SL(2, Z)
+    s04 = sec("s04_modular.tex")
+    assert "exchange only under left multiplication of column vectors" in s04
+    assert "in Appendix A's row-vector convention the labels" not in s04
+    assert "about $0.1\\%$ at $p=0$ (low)" in sec("s07_boundary.tex")
+    assert "The braid relation holds exactly" in s04
+    assert "\\tilde v=(v_0^2+v_1^2" in sec("s05_couplings.tex")
+    L, R = sp.Matrix([[1, 1], [0, 1]]), sp.Matrix([[1, 0], [1, 1]])
+    fix = lambda M: [v for v in ((0, 1), (1, 0), (1, 1)) if [x % 2 for x in sp.Matrix([v]) * M] == list(v)]
+    assert fix(L) == [(0, 1)] and fix(R) == [(1, 0)]
+    gL, gR = Q(1, 1, 0, 0) / sp.sqrt(2), Q(1, 0, -1, 0) / sp.sqrt(2)
+    gRi = Q(1, 0, 1, 0) / sp.sqrt(2)
+    target = Q(0, 1, 1, 0) / sp.sqrt(2)
+    for w in (gL * gRi * gL, gRi * gL * gRi):
+        assert all(sp.simplify(x - y) == 0 for x, y in zip(w.args, target.args))
+    assert all(sp.simplify(x - y) == 0 for x, y in zip((gR * gRi).args, (1, 0, 0, 0)))
+    # LR^-1L = R^-1LR^-1 in Aut(F2), with L: a->a, b->ab and R: a->ab, b->b (both sides are palindromes, so the
+    # order of composition does not matter); words are tuples of (letter, +-1)
+    def red(w):
+        out = []
+        for x in w:
+            if out and out[-1][0] == x[0] and out[-1][1] == -x[1]:
+                out.pop()
+            else:
+                out.append(x)
+        return tuple(out)
+    inv = lambda w: tuple((x, -e) for x, e in reversed(w))
+    A, B = (("a", 1),), (("b", 1),)
+    auto = {"L": {"a": A, "b": A + B}, "R": {"a": A + B, "b": B}}
+    auto["Ri"] = {"a": A + inv(B), "b": B}
+    def ap(f, w):
+        return red(sum((f[x] if e == 1 else inv(f[x]) for x, e in w), ()))
+    def comp(*names):
+        return {g: functools.reduce(lambda w, n: ap(auto[n], w), reversed(names), ((g, 1),)) for g in "ab"}
+    assert comp("L", "Ri", "L") == comp("Ri", "L", "Ri") == {"a": A + inv(B) + inv(A), "b": A}
+    assert comp("L", "R", "L") != comp("R", "L", "R")
+    assert {k: ap(auto["R"], v) for k, v in auto["Ri"].items()} == {"a": A, "b": B}
 
 def test_reading_the_measurer_as_a_thread():
     """The reading (relay §155): the measurer is no hand-picked thread; W34's kept records only under a shear or the

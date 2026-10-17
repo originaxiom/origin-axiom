@@ -2,12 +2,18 @@
 
 The paper's working names, with the standard object each one names.
 
-\begin{table}[h]
-\centering\footnotesize
-\begin{tabularx}{\linewidth}{@{}p{3.4cm}X@{}}
+{\footnotesize
+\begin{longtable}{@{}p{3.4cm}p{12.0cm}@{}}
 \toprule
 name & meaning \\
 \midrule
+\endfirsthead
+\toprule
+name & meaning \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
 records, moves & a pair $(a,b)\in\Z^2$; the unit shears $L$, $R$ and their inverses, acting on row vectors \\
 thread & a primitive hyperbolic conjugacy class $\pm w$ of $\SL(2,\Z)$, $w$ a positive word in $L$ and $R$; a closed geodesic of the modular surface \\
 weave & the joint action of all moves on the records, with what it forces; a statement for all threads at once \\
@@ -31,6 +37,4 @@ census law & a statement checked on every case in a stated finite range, not pro
 scoreboard & a result computed on data that were already seen \\
 verdict & a compiled judgement over the record's evidence, with each cell cited \\
 tagged & a working postulate whose results carry the word ``given'' \\
-\bottomrule
-\end{tabularx}
-\end{table}
+\end{longtable}}

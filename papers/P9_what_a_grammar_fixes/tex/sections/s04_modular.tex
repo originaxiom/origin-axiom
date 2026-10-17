@@ -52,9 +52,11 @@ Take the ruled weave on the triplet $T$ in the convention above.
   \]
   the weight-one multiplier $\rho_u$ of the $\Gamma(4)$ triplet twisted by a power of the eta character. The intertwiner
   from the parity lines to the theta constants is monomial: $\theta_3^2$ lies on the clock's line (the parity
-  character $(-,-)$), $\theta_2^2$ on the line $(+,-)$, and $\theta_4^2$ on the line $(-,+)$. (A line is labelled by the signs of its character on $a$ and $b$ in the
-  column-vector convention of the record's lifts; in Appendix~\ref{app:hand}'s row-vector convention the labels $(+,-)$
-  and $(-,+)$ exchange.) The exponents of $t$ on $T$ are
+  character $(-,-)$), $\theta_2^2$ on the line $(+,-)$, and $\theta_4^2$ on the line $(-,+)$. (A line is labelled by the
+  signs of its character on $a$ and $b$. Lemma~\ref{lem:parity}, Appendix~\ref{app:hand}'s row-vector right action and
+  the record's pull-back of characters share these labels: $L$ fixes the parity $(0,1)$, the line $(+,-)$, and $R$ fixes
+  $(1,0)$, the line $(-,+)$. The labels $(+,-)$ and $(-,+)$ exchange only under left multiplication of column vectors.)
+  The exponents of $t$ on $T$ are
   $(\tfrac18,\tfrac38,\tfrac78)$ turns.
 \item The dimension of the space $M_k(\rho)$ of vector-valued forms of weight $k$ for $\rho$ is
   $0,0,1,1,2,2,3,3$ at the allowed weights $k=-\tfrac12,\tfrac32,\tfrac72,\dots,\tfrac{27}{2}$ (step $2$; a weight is
@@ -66,7 +68,9 @@ Take the ruled weave on the triplet $T$ in the convention above.
 \begin{proof}[Proof sketch (record B1634, with B1640's convention scoping)]
 (1) The spin lifts of the moves are elements of the binary octahedral group $2O\subset\mathrm{SU}(2)$ (B1634). Acting on
 $V=T\oplus\bar T$ through the parity twist they generate a finite group of order $96$, which acts faithfully on $T$
-because $T$ and $\bar T$ have the same kernel (B1600). The braid relation holds to the double-precision floor ($3\cdot10^{-16}$) and $\Delta^4$, the generator of the kernel, acts as $-1$ (turns $\tfrac18,\tfrac18,\tfrac58$ for the
+because $T$ and $\bar T$ have the same kernel (B1600). The braid relation holds exactly: $g_Lg_R^{-1}g_L=g_R^{-1}g_Lg_R^{-1}=(i+j)/\sqrt2$ in $2O$ for the spin lifts
+$g_L=(1+i)/\sqrt2$ and $g_R=(1-j)/\sqrt2$, and $LR^{-1}L=R^{-1}LR^{-1}$ in $\mathrm{Aut}(F_2)$ (the record also checks it
+numerically, to $3\cdot10^{-16}$); and $\Delta^4$, the generator of the kernel, acts as $-1$ (turns $\tfrac18,\tfrac18,\tfrac58$ for the
 lift of $\Delta$). The lifts compose in reverse, so $\rho=\mathrm{lift}^{-1}$ is a homomorphism. (2) With $s,t$ as above,
 $\rho(s)$ and $\rho(t)$ satisfy $s^2=(st)^3$ and $s^8=1$ exactly, so $\rho$ is a representation of $\mathrm{Mp}_2(\Z)$. The
 theta transformation laws, evaluated from the series in $\tau$ at several points, fix $\rho_u$, and a linear solve for an

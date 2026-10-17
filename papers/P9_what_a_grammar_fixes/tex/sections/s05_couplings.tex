@@ -206,8 +206,9 @@ $|D|/(8\pi|\rho|^2)$; $D(\gamma\tau)(c\tau+d)=-D(\tau)$ for the order-3 move mak
 of this frame; it is not a selection of $\omega$ (Section~\ref{sec:selection}).
 
 \begin{proposition}[The twisted half bound; B1658]\label{prop:twisted}
-In the twisted frame of B1656, under equal framed data, one Higgs keeps the sectors' second generations within a factor
-$4$, exactly. For a null matter residue $M=pq^T$ and any complex Higgs $S$, $\adj Y(S,M)=\det S\,A$ with $A=\tilde q\tilde p^T=A(M)$ (Theorem~\ref{thm:joint}) and
+In the twisted frame of B1656, under equal framed data, one Higgs keeps the sectors' values of $t+1/t$ within a factor
+$4$, exactly; for small $t$ this is the ratio of each sector's second generation to its third. For a null matter residue $M=pq^T$ and any complex Higgs $S$, $\adj Y(S,M)=\det S\,A$ with $A=\tilde q\tilde p^T=A(M)$ (Theorem~\ref{thm:joint}), where
+$\tilde v=(v_0^2+v_1^2,\ 2iv_0v_1,\ -i(v_0^2-v_1^2))^T$ for $v=(v_0,v_1)$ and
 $\|A\|=2\|M\|^2$, and each sector's spectrum is $(1,t,0)$ with $t+1/t=\|Y\|^2/(2|\det S|\|M\|^2)$. The Gram spectrum of $S\mapsto Y(S,M)$ is
 $\{1,2,2,4\}\|M\|^2$, so $\|Y\|^2\in[1,4]\|S\|^2\|M\|^2$. One Higgs shares $\det S$, so the sectors' $t+1/t$ lie within a
 factor $4$ of each other.
@@ -289,8 +290,10 @@ the moves decides how an amplitude built from it can be averaged over a thread.
 
 \begin{lemma}[Automorphy of the defect]\label{lem:automorphy}
 The defect $D$ has weight $-1$ and the multiplier $\chi$ of $\eta^6$: for $g=\begin{psmallmatrix}a&b\\c&d\end{psmallmatrix}$
-in the modular group, $D(g\tau)=\chi(g)(c\tau+d)^{-1}D(\tau)$, with $\chi(\tau\mapsto\tau+1)=\chi(\tau\mapsto-1/\tau)=i$. Hence $\chi(L)=i$ and
-$\chi(R)=-i$ for the two letters of the grammar.
+in $\SL(2,\Z)$, $D(g\tau)=\chi(g)(c\tau+d)^{-1}D(\tau)$, with $\chi(L)=\chi(S_0)=i$ for
+$L=\begin{psmallmatrix}1&1\\0&1\end{psmallmatrix}$ and $S_0=\begin{psmallmatrix}0&-1\\1&0\end{psmallmatrix}$. The weight is
+odd, so $\chi(-I)=-1$ and both factors change sign under $g\mapsto-g$. Hence $\chi(L)=i$ and $\chi(R)=-i$ for the two
+letters of the grammar.
 \end{lemma}
 \begin{proof}
 Write $D=-\theta_3^4h(\lambda)/(4\pi\eta^6)$ with $\lambda=\theta_2^4/\theta_3^4$ and

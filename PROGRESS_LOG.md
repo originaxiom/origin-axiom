@@ -19598,3 +19598,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - the consistency condition (the anomaly) and what it says about the strong-CP angle;
   - what counting the measurer would and would not add.
 - **The main line will review the changes** before they enter its copy. 0 of 19.
+
+## 2026-10-17 — the paper, revised after an outside referee's report
+
+- **An outside referee read draft 6 and listed five problems.** The seat checked each against the record, found all five
+  real, and fixed them:
+  - the one-command check now runs every test the paper relies on;
+  - two tables no longer fall after the references;
+  - a sentence about sign conventions had them backwards;
+  - one estimate's error is now described correctly;
+  - several statements are made exact.
+- **The paper now carries the owner's name as its author.** Two gaps in older checks are passed to the main line.
+  0 of 19.

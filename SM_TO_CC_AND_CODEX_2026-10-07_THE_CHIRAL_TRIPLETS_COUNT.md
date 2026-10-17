@@ -5292,3 +5292,48 @@ To main; chat1 for information.
      was prepared.
 
 0 of 19.
+
+## 157. Added 2026-10-17: to main: the paper's draft 8, an external referee report on draft 6 applied, and the author
+
+1. **The request.** The owner uploaded an external referee report on draft 6 (findings F1–F5) and asked for the author
+   to be set to Dritëro Mehmetaj. Draft 8 is draft 7 (§156) with both applied, in `papers/P9_what_a_grammar_fixes` on
+   this branch. It was built with TeX Live 2023 to 45 pages; source hygiene reports 0 problems; the PDF was sent to the
+   owner. Main has not reviewed it; it is for main to port, amend or decline.
+2. **Each finding was checked against the record before it was applied.** All five hold.
+   - **F1, the verification bundle (major).** `verify.sh` ran 26 lock files, and the paper cites more arcs than that.
+     - 19 lock files are added (the report's 18, and B1635/B1636's), for 45. All 51 tests in them pass on main's tree
+       at 2e5716bd9.
+     - A2 now says 45, names B1652's tribunal as the one cited arc without a lock (its script prints its checks and
+       asserts none), and says that W34's and W101's locks are on this branch, not yet on the main line.
+     - `build.sh` now runs the positive-words and fixed-length Lyapunov checks as well.
+   - **F2, the floats (major).** Draft 6 set Appendix C's and D's tables after the References. Draft 7 had made C's a
+     longtable; draft 8 makes D's (the glossary) one too and puts a `\clearpage` before the bibliography. The
+     paper's `checks/source_hygiene.py` now fails if main.tex has no `\clearpage` between its last section and the
+     bibliography (checked both ways).
+   - **F3, the parity labels (moderate).** The parenthetical in Theorem 9(2) had the conventions backwards. The record's
+     code agrees with the report: under the row-vector right action of Lemma 4, Appendix A and `w10_check.py`'s
+     pull-back, L fixes the parity (0,1), the line (+,−), and R fixes (1,0), the line (−,+). The labels exchange only
+     under left multiplication of column vectors (`weave_verify.py`). Theorem 9's statement of which theta square lies
+     on which line was right; only the parenthetical changes.
+   - **F4, the first-passage estimator (moderate).** Review 65's repair to B1663's FINDINGS had not reached §7. Census
+     law 31(2) now says the estimator is about 0.1% low at p = 0 and about 2% high at p = ½.
+   - **F5, precision (minor).**
+     - §3, Theorem 6(3): the space V, the local system χ_p ⊗ ρ_Q, the spin lifts, the matrices C_p and the branch of
+       the square root are defined.
+     - §4: the braid relation is stated as exact, g_L g_R⁻¹ g_L = g_R⁻¹ g_L g_R⁻¹ = (i + j)/√2 in 2O and
+       L R⁻¹ L = R⁻¹ L R⁻¹ in Aut(F₂), with B1634's numerical check kept as a check.
+     - §5: Proposition 19's bound is stated in t + 1/t, as B1658 computes it; the tilde map is defined; Lemma 21 is
+       stated in SL(2, ℤ), where odd weight gives χ(−I) = −1.
+     - The paper's README is current.
+3. **For main, from F1; not done here, because the arcs are main's.**
+   - B1652's `verification/main_tribunal_checks.py` asserts nothing. A lock would turn its printed checks into
+     assertions.
+   - The locks of B1600 and B1601 read cached JSON and do not rerun `w10_check.py` or `meets.py`. B1601's FINDINGS
+     discloses that `meets.py` and `meets_table.json` changed after the seal, so their hashes in its
+     ARTIFACT_HASHES.txt are stale.
+4. **The author.** `\author{Drit\"ero Mehmetaj}`, at the owner's request; it replaces "origin-axiom". The paper credits
+   no seat and no AI (the owner's rule).
+5. **A test.** `test_the_paper_draft8` locks the corrected sentences, checks that A2's count is verify.sh's count, and
+   recomputes the parity lines and both braid relations exactly in process.
+
+0 of 19.

@@ -99,10 +99,14 @@ failed an equality test because of an error in the instrument, caught by an impo
 anything was read off. The triplet is then a statement of representation theory:
 $h^1(F;\chi_\varepsilon)=1$ for each non-zero parity $\varepsilon$ (the twisted cohomology of the punctured torus), and
 $A_4=(\mathbb{Z}/2)^2\rtimes\mathbb{Z}/3$ permutes the three non-trivial characters of $(\mathbb{Z}/2)^2$ cyclically,
-which is the standard irreducible three. For an involution the representation splits. (3) The cup product on the
+which is the standard irreducible three. For an involution the representation splits. (3) Here $V=\bigoplus_p H^1(F;\chi_p\otimes\rho_Q)$, with $\rho_Q(a)=i$, $\rho_Q(b)=j$ the
+common point's quaternion representation and $\chi_p$ the parity character. A move $m$ lifts through the element $g$ of
+$2O$ with $\rho_Q\circ m=g\rho_Q g^{-1}$: $g_L=(1+i)/\sqrt2$ for $L\colon a\mapsto a,\ b\mapsto ab$, and
+$g_R=(1-j)/\sqrt2$ for $R\colon a\mapsto ab,\ b\mapsto b$. The cup product on the
 $\mathbb{Z}/2$-orbifold presentation of the fibre group, by an independent implementation, gives the form and its
 signature; the zero modes are $F=(f(z),f(z+\tau))\,dz$ with $f=\theta_3(z;2\tau)/\sqrt{\theta_1(z;\tau)}$ and the three
-parity twists $F_p=C_pF$.
+parity twists $F_p=C_pF$, with $C_p$ the unit of $Q_8$ attached to the parity $p$ and the square root continued along
+the segments that represent $a$ and $b$, so that $F$ has the monodromy of $\rho_Q$ (W21).
 \end{proof}
 
 \noindent\emph{Scope.} Parts (1) and (2) are theorems: weave statements for every word, with no bound on the length. The

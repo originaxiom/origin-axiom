@@ -1,5 +1,18 @@
 # Changelog
 
+## The paper, draft 8 (an external referee report on draft 6 applied; the author; relay §157)
+
+- **The report.** Five findings (F1–F5), each checked against the record before it was applied; all five hold.
+  - F1: `verify.sh` runs 45 lock files, not 26, and Appendix A2 names the one cited arc without a lock.
+  - F2: the appendix tables come before the References, and the paper's hygiene check now guards it.
+  - F3: Theorem 9's convention note had the row and column conventions backwards; it is corrected against the code.
+  - F4: the first-passage estimator's difference is stated with its sign at each end.
+  - F5: five precision fixes in §3–§5 (definitions, the exact braid relation, the bound in t + 1/t, SL(2, ℤ)).
+- **The author.** Dritëro Mehmetaj, at the owner's request.
+- **For main.** B1652's script asserts nothing; B1600's and B1601's locks read cached JSON.
+- **The build.** 45 pages, hygiene clean; the PDF was sent to the owner. Main has not reviewed it.
+- **Surfaces.** The paper's folder, the state page, relay §157, the ledger's relay row, and a test.
+
 ## The paper, draft 7 (the owner's request while main was out of usage; relay §156)
 
 - **The base.** Main's draft 6 (`papers/P9_what_a_grammar_fixes` at 2e5716bd9), imported unchanged in its own commit.
