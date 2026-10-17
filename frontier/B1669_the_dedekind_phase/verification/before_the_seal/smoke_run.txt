@@ -1,0 +1,27 @@
+rho: image order 96, s^2 = (st)^3 True, s^4 = -1 True, exponents of t [0.125, 0.375, 0.875]
+dim M_k(rhobar x rhobar) by piece, k odd: k=1: D 0, O+ 1, O- 0 (total 1); k=3: D 0, O+ 1, O- 1 (total 2); k=5: D 1, O+ 2, O- 1 (total 4); k=7: D 1, O+ 2, O- 2 (total 5); k=9: D 2, O+ 3, O- 2 (total 7); k=11: D 2, O+ 3, O- 3 (total 8)
+dim M_k(rhobar x rho), k even: k=0: D 1, O+ 0, O- 0 (total 1); k=2: D 1, O+ 1, O- 1 (total 2); k=4: D 2, O+ 2, O- 2 (total 4); k=6: D 2, O+ 3, O- 3 (total 5)
+   B1635's table (D 0,0,1,1,2,2; O+ 1,1,2,2,3,3; O- 0,1,1,2,2,3) reproduced: True
+
+N8: the unique weight-1 form equals c * [[0, theta4^2, theta3^2], [theta4^2, 0, theta2^2], [theta3^2, theta2^2, 0]]: relative residual 1.7e-14
+   the sum rule s1 = s2 + s3 (B1636): e1^2 - 4 e2 for the eigenvalues of Y Y^dagger, symbolically = 0  (0 means the identity holds for every complex a, b, c)
+   200000 random complex zero-diagonal symmetric matrices: max |s1 - s2 - s3|/s1 = 1.2e-15, min s2/s1 = 0.500576
+   floor on the fundamental domain (|Im| <= 6): min m2/m1 = 0.512403 at tau = -0.500 + 0.892i; max m2/m1 = 0.999838
+   at omega: (m2, m3)/m1 = (0.500000000, 0.500000000); at i: (0.618033989, 0.381966011) vs (1/phi, 1/phi^2) = (0.618033989, 0.381966011)
+   dim M_0(rhobar x rho) = 1, the form is the identity (residual 4.4e-16); dim M_1(rhobar x rhobar) = 1: one form per parameter-free sector, so M_u is proportional to M_d and V_CKM = 1
+   as a Majorana texture (charged leptons diagonal): (theta13, theta12, theta23) in degrees: 0.5+2.5i: (9.05e-11, 44.2, 45.0); 0.5+3.5i: (7.92e-09, 44.8, 45.0); 0.25+3.5i: (6.30e-05, 44.8, 45.0); 0.0+3.0i: (9.41e-04, 44.6, 45.0)
+
+N10: det Y_1 / eta^6 constant over five tau (relative spread 4.8e-09); det(Y_s + r Y_a) / (eta^6 E_6) constant (spread 1.4e-09, three r); weight-2 Dirac: det(A + r B) / E_6 constant (spread 3.8e-15)
+   the phase law: max |12 arg eta(x + iy) - pi x| over x in [-1/2, 1/2], y in {2.5, 3, 4} = 1.81e-06;  max |arg E_6| at y >= 4.5: 2.65e-10
+   fit TT_weight3: chi2_min = 4221.8 at tau = 0.092 + 4.510i  [365s]
+   fit TbT_weight2: chi2_min = 33516.5 at tau = 0.052 + 6.743i  [322s]
+   fit TbT_weight2_Im_tau_ge_4.5: chi2_min = 33521.4 at tau = -0.151 + 5.740i  [350s]
+
+CELLS
+   C0: HOLDS  null
+   N8a: HOLDS  {"sum_rule_symbolic": "0", "random_floor": 0.5005758359792, "grid_floor": 0.512402693551447, "omega": [0.49999999999999756, 0.49999999999999595], "closed_form_residual": 1.6857143943536457e-14}
+   N8b: HOLDS  {"dim_M1_TT": 1, "dim_M0_TbT": 1, "identity_residual": 4.440892098500626e-16}
+   N10a: HOLDS  {"weight1": 4.835296694350717e-09, "weight3": 1.4127453038964999e-09, "Dirac_weight2": 3.843013511872781e-15}
+   N10b: HOLDS  {"phase_dev": 1.8084207304980282e-06, "argE6_max": 2.648764528707253e-10}
+   N10c: HOLDS  {"TT_weight3": 4221.779353327188, "TbT_weight2": 33516.48749034812, "TbT_weight2_Im_tau_ge_4.5": 33521.438966786045}
+all_hold True  [1047s]
