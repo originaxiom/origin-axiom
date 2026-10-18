@@ -133,6 +133,74 @@ does not certify their minimal logical independence, compare that count
 with fitted SM parameters, or change any shared status/baseline.
 Observer and qualia interpretations remain distinct from formal memory.
 
+## Fidelity of the proposed controls
+
+An author-side source audit of the scientific control/helper files,
+the runner and its sentinel tests found two points that must accompany
+review of revision two. This is source inspection, not execution or
+independent approval.
+
+### Complementary direction coordinates
+
+The infinite-history proof defines beta(x,y)=y/(x+y), whereas
+`extended_checks.py` uses gamma(x,y)=x/(x+y) in `cone` and its
+chronological controls. The source does not name this conversion. It is
+the same projective direction in complementary coordinates, not two
+inconsistent predictions:
+
+    gamma = 1-beta,
+    I_gamma = [1-upper(I_beta), 1-lower(I_beta)],
+    gamma²+gamma-1 = beta²-3beta+1.
+
+This explains the test's golden polynomial gamma²+gamma-1 rather than
+the proof's beta²-3beta+1, while preserving interval length and nesting.
+For chronological updates, its lower bound for gamma after L^k is the
+proof's upper bound for beta; its upper bound after R^k is the proof's
+lower bound. Thus the displayed tests are analytically equivalent under
+this map. They still need actual execution and review. The convention
+was not explicitly declared in the frozen design, so the reviewer must
+resolve that omission; this note does not retroactively amend the seal.
+
+### Existing instrument checks are not all rerun
+
+The new `ActualJoinChecks` invokes the retained producer's `case`
+function for all three characters. It freshly computes representation,
+matching and full-matrix-algebra premises when admitted; it does not
+call the producer's `fixtures` or `spectrum` functions. Therefore the
+new run, even if successful, cannot be reported as a fresh execution of
+all old instrument controls, the old spectrum or its separate modular
+reference.
+
+Those instrument controls already exist. The personally inspected
+`tests/test_physical_bridge_joined_background.py` invokes `fixtures`
+for the singular-intertwiner and reducible-flag counterexamples, and its
+separate-reference test invokes `joined_background_reference.py`.
+The [R85 report](../JOINED_BACKGROUND.md) records their older execution
+and its scope. That report is received evidence here, not a newly
+verified receipt or rerun. The reference producer was located, not
+newly read in full during this check.
+
+The review must either justify reuse of that unchanged instrument
+evidence for this bounded experiment or require the relevant existing
+controls in a separately sealed successor. A successful new matching
+test alone does not independently validate every underlying rank,
+kernel and span routine. Conversely, omission from this proposed
+entrypoint is not evidence that the repository never tested them.
+
+The remaining coverage boundaries are explicit in the design:
+
+| Proposed finite controls | What remains a proof duty |
+|---|---|
+| All 324 two-state machines, plus delayed-output/domain controls | Coarsest sufficient quotient for arbitrary specified partial actions |
+| Generator identities, four fixed lift pairs and the nontrivial registering loop | Full group/kernel classifications and any physical interpretation |
+| Positive prefixes through depth nine and finite chronological blocks | All-infinite-history convergence, irrational coverage and acceptance |
+| Six finite graph rank calculations | Peripheral injectivity, asphericity and the topological Mayer–Vietoris inputs |
+| Small explicit exterior tensors | The actual twisted B1043 cubic and a physical integration/interaction law |
+
+These distinctions prevent a passing finite suite from certifying its
+own assumed inputs. No new scientific pass, physical-input payment or
+programme-wide exclusion follows from this source audit.
+
 ## Completion assessment and the next step
 
 | Contract stage | Work available | Requirement still outstanding |
@@ -148,7 +216,9 @@ The next dependency is review of the sealed package, not a larger word
 search. Review must challenge the general proofs as well as the code:
 passing finite controls would not prove asphericity, an infinite-family
 claim or a physical identification. Any defect requires a separately
-sealed successor, with the old evidence retained.
+sealed successor, with the old evidence retained. The coordinate
+declaration and instrument-reuse questions above are explicit review
+items, not silently resolved by this author's source inspection.
 
 After that review, the highest-value physical follow-through is to test
 whether the retained based/interface data determine a term or domain in
