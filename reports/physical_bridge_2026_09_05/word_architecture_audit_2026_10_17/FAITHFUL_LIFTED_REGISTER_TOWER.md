@@ -2,9 +2,10 @@
 
 October 18, 2026. Analytical continuation of
 [the coefficient lift construction](COHERENT_WORD_LIFTS_AND_LOCAL_BOUNDARY.md),
-pending independent review. No new finite groups were enumerated and no
-scientific checks were executed. This is not a replacement for the
-frozen verification package or completion of the Banking Seat's Gate 12.
+with [independent analytical review](LIFTED_REGISTER_REVIEW_INTAKE.md)
+recorded separately. No new finite groups were enumerated and no
+scientific checks were executed. This is not a replacement for the frozen
+verification package or completion of the Banking Seat's Gate 12.
 
 The specified central extension can be retained alongside the entire
 based operation group through compatible finite quotients. The local
@@ -86,8 +87,9 @@ whole register.
 For completeness, separation of based automorphisms can be proved
 without relying on a bounded census. The free group F2 is residually
 finite. One elementary proof for a nontrivial reduced word w uses the
-finite ball of radius |w| in its Cayley tree: each generator is a partial
-bijection on the ball, extendible to a permutation of that finite set.
+finite ball of radius |w| in its Cayley tree: left multiplication by each
+generator is a partial bijection on the ball, extendible to a permutation
+of that finite set.
 The word's successive suffixes remain in the ball, so its permutation
 sends the identity to w and is not the identity. This gives a separating
 finite quotient of F2.
@@ -107,7 +109,7 @@ maps to E_N separate elements of E: different g are distinguished at
 every level, and different phi at some finite level. This is a proof
 for the whole family, not a claim that the first few levels are faithful.
 
-## The family includes every finite quotient of the lifted group
+## The family is cofinal among finite quotients of the lifted group
 
 The above family is cofinal among all finite quotients of E, not only
 separating. To see this, let K be any finite-index normal subgroup of E.

@@ -1,9 +1,10 @@
 # Coherent word lifts and the local boundary action
 
 October 18, 2026. Analytical successor to the four-wording intake, with
-explicit proofs for independent review. No scientific producer has been
-run for this note. The frozen verification packages are unchanged; this
-argument is outside their controls and has not received main acceptance.
+explicit proofs. [Independent analytical review](LIFTED_REGISTER_REVIEW_INTAKE.md)
+is recorded separately. No scientific producer has been run for this
+note. The frozen verification packages are unchanged; this argument is
+outside their controls and has not received main acceptance.
 
 The specified quaternion coefficient system admits a coherent central
 lift of the enlarged word action. Keeping the lift as part of the act
@@ -298,8 +299,9 @@ input-payment claim can be made.
 
 ## Verification obligations
 
-The proof is ready for independent criticism, not banked as verified
-science. A separately sealed successor would need exact controls for:
+The proof has received conditional analytical review, not banking or
+experimental admission. A separately sealed successor would need exact
+controls for:
 
 1. The four intertwining identities and the product/inverse convention.
 2. The inversion lift's square and the distinction between a central
