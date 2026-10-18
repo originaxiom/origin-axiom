@@ -143,18 +143,20 @@ conditions.
   composition, partial-future quotient, relative-position freedom and
   conditional coefficient matching. These are unreviewed analytical
   drafts, not completion of the verification stages below.
-- [x] Draft [verification package](verification/DESIGN.md): seventeen
+- [x] Historical first [verification package](verification/DESIGN.md): seventeen
   mathematical controls, a twenty-eight-artifact byte-pinned candidate
   specification and an admitted-only runner. Fourteen non-scientific
   runner checks pass after a preserved harness-path correction. The
-  mathematical tests remain unrun; the design is unsealed and has no
-  independent review or main acceptance.
+  mathematical tests were unrun and that first draft was unsealed.
+  Revision two below supersedes this inventory and sealing status;
+  independent review and main acceptance remain outstanding.
 - [x] [Lift-family and register analysis](LIFT_FAMILY_AND_REGISTER.md)
   drafted: all four fixed elementary lift pairs are related by common
   inner changes of frame, whereas allowing them independently enlarges
   the operation group. The relative register's cocycle and finite-path
   transport laws are displayed. This reuses B1323/B1634/R79; it is
-  unreviewed and outside the existing seventeen-control draft.
+  unreviewed and was outside the first seventeen-control draft; revision
+  two now includes its specified finite safeguards.
 - [x] [Infinite-history specification](INFINITE_HISTORIES_AND_WEIGHTS.md)
   drafted: exact positive-cone coverage, explicit distinction from
   chronological state updates, global acceptance and symmetric weight
@@ -165,18 +167,24 @@ conditions.
   transport, and an explicit distinction between B1043's presentation
   and group H³. The argument gives C³ for the latter; its twisted triple
   product remains unevaluated. Later Y3 coupling work is preserved.
-  This is unreviewed source analysis outside the seventeen-control draft.
+  This is unreviewed source analysis. Revision two adds finite safeguards
+  without treating them as a proof of its topological inputs.
 - [x] Verification draft revision 2 adds eleven controls for those later
   arguments, retaining the original seventeen. The twenty-eight-method
   inventory and syntax pass static inspection; the unchanged fourteen
   infrastructure sentinel cases pass again. No mathematical control was
   imported or run. Its topological rank test is explicitly conditional
   on reviewed inputs, not a substitute for constructing B1043 cochains.
-- [x] Revision-two design and thirty-three-artifact specification prepared
-  with exact seal-ledger bindings. The typed metadata classification
+- [x] Revision-two design and thirty-three-artifact specification sealed
+  in commit `4b0ad6d541133c5ddc39aa07142c1e4bb99032c4`, with exact
+  seal-ledger bindings. The typed metadata classification
   preserves the separate narrative preregistration. A committed seal
   fixes the proposal, not its truth or permission to run; review and
   main acceptance remain outstanding.
+- [x] [Completion and input assessment](ASSESSMENT_PENDING_REVIEW.md)
+  maps all six stages, preserves the existing joined physical positives,
+  scopes the proposed repairs to old exclusions, and identifies the
+  review/execution dependency. No complete physical-input row is paid.
 - [ ] Complete the typed premise/domain map, including the location of
   minimality and the admissibility of nonstationary histories.
 - [ ] Complete the joining/transport specification and residual-freedom
