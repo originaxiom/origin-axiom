@@ -149,6 +149,12 @@ conditions.
   runner checks pass after a preserved harness-path correction. The
   mathematical tests remain unrun; the design is unsealed and has no
   independent review or main acceptance.
+- [x] [Lift-family and register analysis](LIFT_FAMILY_AND_REGISTER.md)
+  drafted: all four fixed elementary lift pairs are related by common
+  inner changes of frame, whereas allowing them independently enlarges
+  the operation group. The relative register's cocycle and finite-path
+  transport laws are displayed. This reuses B1323/B1634/R79; it is
+  unreviewed and outside the existing seventeen-control draft.
 - [ ] Complete the typed premise/domain map, including the location of
   minimality and the admissibility of nonstationary histories.
 - [ ] Complete the joining/transport specification and residual-freedom
