@@ -14,9 +14,18 @@ insufficient for a higher-cohomology question. Increasing a census does
 not repair these losses.
 
 The audit gives explicit conditional composition and joining laws. It
-does not derive the grammar, a physical history measure, a selected
-assembly or its field theory from the philosophical principle. No
+does not derive the grammar, a physical history measure, the physically
+realized relational architecture or its field theory from the principle. No
 complete physical-input row is earned by this audit.
+
+The owner's subsequent October 18 clarification is retained in
+[the contract](GOAL_CONTRACT.md#owner-clarification-of-the-intended-whole):
+the target is all allowed structure together with its interactions, not
+one selected member. A derivation of the whole generating law is the
+duty; a unique global assembly selector is not an additional requirement
+unless the proposed physical account actually needs one. This scopes
+earlier selection language without pretending that compatibility alone
+already proves physical realization.
 
 ## What can be calculated without selecting one root
 
@@ -250,8 +259,11 @@ goal contract. A targeted content search over docs and reports at all
 14 origin references, including the symbolic HEAD alias, found no exact
 occurrence of this experiment identifier or specification hash. This is
 not an exhaustive deleted-history search or a claim that no related
-review exists. No independent review or main acceptance is supplied by
-this assessment. Authorization to arrange that review is pending.
+review exists. No independent approval or main acceptance is supplied by
+this assessment. The owner subsequently authorized separate review and
+coordination with main; proof and code reviews have been requested.
+Main is unavailable until Tuesday, October 20, according to the owner.
+Self-review and separate review do not substitute for its acceptance.
 
 This assessment and the current contract are outside the frozen proposal.
 They do not alter its source pins or replace historical draft-status

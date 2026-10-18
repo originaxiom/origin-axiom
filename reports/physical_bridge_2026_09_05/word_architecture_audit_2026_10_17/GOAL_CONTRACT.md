@@ -22,6 +22,61 @@ later composition or observations use them. Whether a register can support
 an observer or qualia remains a separate question; neither is identified
 with a formal memory variable by definition.
 
+## Owner clarification of the intended whole
+
+On October 18 the owner clarified:
+
+> existence is all allowed to happen, combined and interacting with
+> eachother because nothingness cant be stable
+
+The target is therefore the whole allowed relational architecture,
+including interactions, not a catalogue of independent possibilities
+and not one privileged member selected from it. The failure of
+nothingness is the proposed reason for that emergence. This records
+the intended principle and the question to investigate; it does not
+declare the physical implication proved or amend canonical GENESIS.
+
+This clarification changes how the unresolved duties are posed:
+
+- Derive the generating and compatibility law for the whole architecture.
+  Do not demand a selector for one global carrier unless that selection
+  is genuinely required by the proposed physical account. Wording in
+  earlier notes about a selected assembly must not reintroduce a
+  single-root requirement.
+- Preserve the act together with the relation registering it. Relations
+  must be allowed to constrain or generate further structure; they are
+  not merely annotations added after isolated objects have been chosen.
+- Determine what allowed means from the principle or declare the
+  interpretation. Do not silently choose an alphabet, exclude a branch,
+  impose one-system minimality on a composite, or grant arbitrary
+  concatenation and every possible coupling.
+- Keep non-cancellation, exhaustive allowed structure, physical
+  realization and interaction as distinct proof duties. Separating them
+  tests the owner's proposed connection; it does not replace that
+  connection with the weaker claim that merely some structure exists.
+- Do not interpret all occurrence as equiprobability, quantum
+  superposition, simultaneous events in a pre-existing time, or every
+  pair having a nonzero interaction. Whether any of these follows is a
+  question for the law, not an unstated reading of the word all.
+
+The primary source reconciliation is specific. P000's opening already
+states that a family is intended; P019's unique-object chain is not the
+sole foundation. GENESIS v1.48 section 1 retains that correction, while
+section 3 distinguishes generated closure from every legal state
+occurring in one history or being physically realized together. The
+current work must investigate that distinction, not erase it in either
+direction. P000 and P019 were reread in full for this clarification;
+the cited current GENESIS passages were read at the pinned main commit.
+
+Nothingness must also receive a precise role before stability is used
+mathematically. An instability calculation normally has a specified
+state space and update law; those cannot be treated as already derived
+from nothing. A non-temporal consistency or non-cancellation formulation
+is also possible and must not be ruled out by demanding a prior clock.
+Likewise, the existence of a description of nothing is not by itself a
+proof that its referent is impossible. These are interpretation checks,
+not a no-go for the principle or an adopted replacement foundation.
+
 ## Evidence baseline and scope
 
 The starting audit is [AUDIT.md](AUDIT.md), committed at
@@ -131,7 +186,7 @@ conditions.
 
 ## Current execution state
 
-- [x] Session goal active; full-physics aim retained as the parent ambition.
+- [x] Session goal established; full-physics aim retained as the parent ambition.
 - [x] Starting analytical audit recorded; remote source pins refreshed.
 - [x] Current GENESIS principle/grammar and older operational contract
   compared at their relevant sections; inverse adoption is not derivation.
@@ -193,5 +248,9 @@ conditions.
   agreed controls; secure independent review of load-bearing proofs.
 - [ ] Produce the verified input-payment verdict and physical next step.
 
-The goal stays active. Planning, an analytical note or a failed restricted
-candidate is not its completion.
+The research objective remains unfinished. On October 18 the session's
+goal mechanism still reports blocked from the earlier review dependency;
+the owner's later authorization now permits separate review to proceed.
+This document does not change that mechanism's status. Main acceptance
+and prospective admission remain separate requirements. Planning, an
+analytical note or a failed restricted candidate is not completion.
