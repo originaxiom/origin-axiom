@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "status": "Author classification record, not independent review or execution admission",
+  "classification": "SPECIFICATION.json is structured prospective metadata; DESIGN.md is the narrative preregistration. Both retain independent seal-ledger bindings.",
+  "frozen_paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/SPECIFICATION.json",
+      "sha256": "6207558d7144bad113d87ee5abab66e7fa771c7d169e6266268e9157bfe22ea7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/DESIGN.md",
+      "sha256": "48ffeb95343d9808225729a033c54c7d07072b9677aa9f9df47b6efd8c934f56"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "status": "author static metadata checks, not scientific admission or full governance certificate",
+  "validation": {
+    "all_pins_match": true,
+    "matching_seal_rows": true,
+    "mathematical_imports_or_execution": false,
+    "mathematical_methods_ast_only": 32,
+    "new_design": {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/DESIGN.md",
+      "sha256": "48ffeb95343d9808225729a033c54c7d07072b9677aa9f9df47b6efd8c934f56"
+    },
+    "new_design_and_artifact_pins": 41,
+    "new_specification": {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/SPECIFICATION.json",
+      "sha256": "6207558d7144bad113d87ee5abab66e7fa771c7d169e6266268e9157bfe22ea7"
+    },
+    "old_and_new_reserved_outputs_absent": true,
+    "old_design_and_artifact_pins": 34,
+    "specification_role": "data"
+  },
+  "historical_before": {
+    "counts": {
+      "absent_branch": 0,
+      "data": 2,
+      "historical_violation": 5,
+      "preregistration": 156,
+      "source": 3,
+      "unknown": 562
+    },
+    "cutoff": "2026-08-08",
+    "problem_count": 643,
+    "problems_sha256": "786cd0edce92e96c8ceba4a6296cd0ed6c1842e1ead588c4a8facf3550914d44"
+  },
+  "historical_after": {
+    "counts": {
+      "absent_branch": 0,
+      "data": 3,
+      "historical_violation": 5,
+      "preregistration": 157,
+      "source": 3,
+      "unknown": 562
+    },
+    "cutoff": "2026-08-08",
+    "problem_count": 643,
+    "problems_sha256": "786cd0edce92e96c8ceba4a6296cd0ed6c1842e1ead588c4a8facf3550914d44"
+  },
+  "initial_overbroad_cutoff_read": {
+    "cutoff": "2026-07-16",
+    "interpretation": "Diagnostic read included seals predating this gate; not the governing comparison. Corrected cutoff used for before/after.",
+    "counts": {
+      "absent_branch": 0,
+      "data": 2,
+      "historical_violation": 5,
+      "preregistration": 168,
+      "source": 3,
+      "unknown": 562
+    },
+    "problem_count": 655,
+    "problems_sha256": "175df9201558138755faf87419e3a2adb18c236551d37e528c519d853fe43bf1"
+  },
+  "infrastructure": {
+    "runner_tests_passed": 20,
+    "focused_git_admission_tests_passed": 51
+  },
+  "scientific_tests_run": 0,
+  "independent_successor_review": "pending",
+  "main_acceptance": "pending",
+  "global_compliant": false
+}

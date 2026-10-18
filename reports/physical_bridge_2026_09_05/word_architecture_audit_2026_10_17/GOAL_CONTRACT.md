@@ -248,9 +248,12 @@ conditions.
   agreed controls; secure independent review of load-bearing proofs.
 - [ ] Produce the verified input-payment verdict and physical next step.
 
-The research objective remains unfinished. On October 18 the session's
-goal mechanism still reports blocked from the earlier review dependency;
-the owner's later authorization now permits separate review to proceed.
-This document does not change that mechanism's status. Main acceptance
-and prospective admission remain separate requirements. Planning, an
-analytical note or a failed restricted candidate is not completion.
+The research objective remains unfinished. The session's goal mechanism
+now reports active with the full objective above. Separate review of
+revision two has returned changes required; its findings are preserved
+in REVIEW_INTAKE_2026_10_18.md. The verification_v3 successor addresses
+those findings without changing the original package. Its 20 runner
+sentinels and 51 focused Git/admission fixture tests pass; its 32
+mathematical methods are unrun. Main acceptance and prospective admission
+remain separate requirements. Planning, an analytical note or a failed
+restricted candidate is not completion.

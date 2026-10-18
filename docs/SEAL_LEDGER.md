@@ -9296,3 +9296,10 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 |---|---|---|---|---|
 | 2026-10-18 | BEFORE all mathematical imports and runs, revision 2 | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/SPECIFICATION.json` | `1b2ba7de9c89c40bc8c4518d75b5dec2263bc636e80b9c1ab27057b3bb2fb304` | Twenty-eight intended controls; source-complete review, main acceptance and prospective admission still required. Historical failures remain failures. |
 | 2026-10-18 | BEFORE all mathematical imports and runs, revision 2 | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/DESIGN.md` | `0ca386c0e6de556468b4f219c5d53cbf4617fba73075aaa3dd87634e1546d124` | Twenty-eight intended controls; source-complete review, main acceptance and prospective admission still required. Historical failures remain failures. |
+
+## Whole word verification successor after separate review
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-18 | BEFORE all mathematical imports and runs, revision 3 | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/SPECIFICATION.json` | `6207558d7144bad113d87ee5abab66e7fa771c7d169e6266268e9157bfe22ea7` | Thirty-two intended controls; forty artifact pins; separate successor review, main acceptance and prospective admission required. Original proposal and historical failures preserved. |
+| 2026-10-18 | BEFORE all mathematical imports and runs, revision 3 | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/DESIGN.md` | `48ffeb95343d9808225729a033c54c7d07072b9677aa9f9df47b6efd8c934f56` | Corrected order/coordinate declarations, inherited instrument controls and strict source custody; no mathematical execution or physical completion. |

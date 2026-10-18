@@ -106,6 +106,17 @@
         "sha256": "0c32c3074e5f950070656243aa0bd249dd7b9402e3009e32596809b51a68d83b",
         "collection": "frozen_paths"
       }
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/SPECIFICATION.json",
+      "sha256": "6207558d7144bad113d87ee5abab66e7fa771c7d169e6266268e9157bfe22ea7",
+      "role": "data",
+      "reason": "Personally inspected successor specification metadata: exact sources, command, outputs and runtime. The corrected narrative design remains separately sealed; neither metadata nor the prior review grants execution.",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/SEAL_ROLE_EVIDENCE.json",
+        "sha256": "3cd391e873e09f59bb195bf3032f95c3a1e0c8049d5d461cb94298d1db35b635",
+        "collection": "frozen_paths"
+      }
     }
   ]
 }
