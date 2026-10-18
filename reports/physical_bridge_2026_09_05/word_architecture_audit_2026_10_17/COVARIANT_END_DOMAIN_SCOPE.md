@@ -3,14 +3,16 @@
 October 18, 2026. Analytical scope test using the same registered action
 as [the matter and boundary proof](MATTER_AND_BOUNDARY_COMMON_REGISTER.md)
 and [the coupling transport](REGISTERED_COUPLING_TRANSPORT.md).
-Unreviewed; no scientific code executed or experimental admission claimed.
+[Independent analytical review](MATTER_COUPLING_REVIEW_INTAKE.md) is
+recorded separately; no scientific code executed or admission claimed.
 
 A symmetry-preserving law of boundary domains is not necessarily one
 domain fixed by every move. The two requirements coincide at a state
 fixed by the whole group; elsewhere the relevant constraint is its
 stabilizer. In the specified local coefficient model, a field-dependent
 rank-three family exists on an open locus, but cannot extend at rank
-three to a state fixed by the natural quaternion subgroup. This proves
+three to a state fixed by the natural inner lifts, whose local image
+is Q8. This proves
 both a freedom and a restriction. It does not derive an end law or
 declare that every physical state has that stabilizer.
 
@@ -26,7 +28,10 @@ The coordinates used in B1606 are related by the fixed block change
 C=diag(j,i,k); a subspace Lambda here is C^-1 Lambda there. The
 source parameterizes its chirality-preserving self-adjoint puncture
 conditions by subspaces Lambda_+ of this six-dimensional module.
-Its index formula is a separate analytic input; it is not reproved here.
+That parametrization and its index formula are supplied analytic inputs;
+the producer computes representation data, not an analytic classification
+of operator domains. Here the families are candidate coefficient
+subspaces under that parametrization, not constructed physical operators.
 
 For the present test, use the specified state base
 
@@ -39,7 +44,7 @@ with the transport
                beta(e) g M g^T).
 
 One may take alpha=beta=1 for the tensor transport alone, or
-alpha=mu^k, beta=mu^(-2-k) for the bilinear compatibility in the
+alpha=mu^k, beta=mu^(-2-k), k an integer, for the bilinear compatibility in the
 companion note. The latter are unitary characters and are trivial on
 every natural J_h. This declares X and its action; it does not derive
 X as the complete physical state space. In particular it has no extra
@@ -85,7 +90,8 @@ Consequently
 
     Lambda_+(e x)=A_e Lambda_+(x)
 
-for every e in E and x in X_gap. This is a smooth covariant family,
+for every e in E and x in X_gap. This is a real-smooth covariant
+family, generally not holomorphic,
 not a fixed three-dimensional constituent of the 2+4 representation.
 For S=diag(1,0) it selects the first doublet coordinate in each block;
 a quaternion rotation carrying that line to the second also changes S,
@@ -156,7 +162,7 @@ its fixed invariant domains, the separately supplied grading, and the
 paper's three distinct uses of an end are preserved. No existing
 numerical result is rerun or reclassified by this note.
 
-Independent analytical review is still required. An executable
+Independent analytical review is recorded in the linked intake. An executable
 successor would need the actual state action, projector identities,
 intertwining frames, a deliberately frozen-state negative control,
 and the Q8 stabilizer countercontrol. The frozen verification packages

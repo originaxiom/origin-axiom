@@ -257,3 +257,33 @@ sentinels and 51 focused Git/admission fixture tests pass; its 32
 mathematical methods are unrun. Main acceptance and prospective admission
 remain separate requirements. Planning, an analytical note or a failed
 restricted candidate is not completion.
+
+## Analytical successors on the registered fields
+
+October 18 continuation, outside the frozen v3 controls:
+
+- [The coherent lifted action](COHERENT_WORD_LIFTS_AND_LOCAL_BOUNDARY.md)
+  and [faithful finite refinements](FAITHFUL_LIFTED_REGISTER_TOWER.md)
+  preserve the based act and its coefficient implementation separately.
+  Their [analytical review](LIFTED_REGISTER_REVIEW_INTAKE.md) does not
+  substitute for main acceptance or scientific admission.
+- [The common matter and boundary action](MATTER_AND_BOUNDARY_COMMON_REGISTER.md)
+  now gives an exact cochain tensor factorization and two characters on
+  the entire specified E. Its common finite image has order 192; it is
+  not the whole based architecture or an added boundary grading.
+- [The coupling transport](REGISTERED_COUPLING_TRANSPORT.md) derives
+  simultaneous compatibility for the actual supplied tensor and exposes
+  the additional phase condition. Rotation averaging, phase-aware
+  averaging and common-frame comparison are distinguished by exact
+  controls; none is automatically a physical join.
+- [The boundary family analysis](COVARIANT_END_DOMAIN_SCOPE.md) gives
+  both an open-locus rank-three coefficient family and a symmetric-state
+  obstruction to extending that rank on the stated base. The stabilizer
+  must be checked again if further register data are retained.
+
+The latter three notes received separate non-authoring analytical
+review, with corrections and limitations recorded in
+[the intake](MATTER_COUPLING_REVIEW_INTAKE.md). The full operation set,
+actual geometric field transport, physical operator and end law remain
+obligations. No input-payment row, full scientific execution, publication
+certificate or completed goal is claimed.

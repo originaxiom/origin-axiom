@@ -2,7 +2,8 @@
 
 October 18, 2026. Analytical successor to
 [the shared matter and boundary action](MATTER_AND_BOUNDARY_COMMON_REGISTER.md).
-This draft is unreviewed, with no new scientific execution or admission.
+[Independent analytical review](MATTER_COUPLING_REVIEW_INTAKE.md) is
+recorded separately, with no new scientific execution or admission.
 
 The paper's existing bilinear coupling admits an exact simultaneous
 transport of its Higgs and matter matrices. The transport preserves
@@ -109,6 +110,11 @@ kinematic assignments, not two derived physical theories. Existing
 geometric weights or a derived field identification could constrain
 them further; none is removed by (6).
 
+For an explicit check, e=Delta^2 J_c^-1 has g=1 and z=-i on T_+.
+The unscaled transport (3) is the identity, but (5) requires Y->-Y.
+Thus the phase compensation is a genuine part of this contraction's
+compatibility, not a notation change in the quaternion action.
+
 For a Hermitian contraction with a conjugated left field, the analogous
 phase condition is different. So is the condition if the two matter
 fields carry opposite hands. Equation (6) is not a universal Yukawa
@@ -151,6 +157,14 @@ equalizes the three diagonal entries. Thus
 The untransported average has rank three. Yet every term in it has
 rank one, and returning each term to the reference frame before
 averaging gives precisely Y0, of rank one.
+
+Equation (8) deliberately averages the unphased rotation action (3),
+not the character-compensated action (5) over the full common group K.
+The latter average is zero: the element (g,z)=(1,-i) lies in K and
+acts on Y by -1, pairing cancelling terms in the group sum. Thus the
+rotation-only average, the full compensated group average and the
+common-frame average are three different operations with different
+answers; none is selected as a physical join by mere admissibility.
 
 Equation (8) is a valid Reynolds average, not an arithmetic error.
 The unsupported step would be to identify it with a physically joined
@@ -209,7 +223,7 @@ joining analysis already separates relative placement from existence
 of joins; (7)-(8) is a concrete control in this actual coupling tensor,
 not a claim that this general distinction is new.
 
-The derivations are analytical and await separate non-authoring review.
+The derivations have received separate non-authoring analytical review.
 The unrun v3 scientific controls remain unchanged. Any executable
 successor must seal this exact tensor, the conjugation/congruence and
 inverse-action conventions, the phase compensation, both examples,

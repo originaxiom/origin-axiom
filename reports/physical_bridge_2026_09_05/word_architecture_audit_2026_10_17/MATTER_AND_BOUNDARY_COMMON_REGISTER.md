@@ -3,7 +3,8 @@
 October 18, 2026. Analytical continuation of
 [the coherent coefficient action](COHERENT_WORD_LIFTS_AND_LOCAL_BOUNDARY.md)
 and [its faithful finite refinements](FAITHFUL_LIFTED_REGISTER_TOWER.md).
-This draft is not experimentally admitted or independently reviewed.
+[Independent analytical review](MATTER_COUPLING_REVIEW_INTAKE.md) is
+recorded separately; this is not experimental admission or main acceptance.
 No scientific producer has been imported, collected or executed.
 
 For the specified quaternion local system, the six-dimensional
@@ -199,7 +200,7 @@ those two inner maps are not moves on that restricted branch. Nor is
 it an obstruction to fields depending on the registered state. For
 example take the deliberately unreduced state space X=H_upper times E
 with e acting by (tau,r)->(h(e)tau,e r), where h is the homology
-matrix. For any holomorphic f on H_upper, the field
+matrix. For any holomorphic f:H_upper->T_+ (or T_-), the field
 
     F(tau,r)=U_r f(h(r)^-1 tau)
 
@@ -233,6 +234,6 @@ regulator and physical matter assignments still need a simultaneous
 specification. The
 [coupling transport analysis](REGISTERED_COUPLING_TRANSPORT.md)
 addresses the algebraic tensor and distinguishes transport from joining.
-No complete physical-input row is paid. Exact finite controls, separate
-review, main acceptance and the applicable admission/publication checks
+No complete physical-input row is paid. Exact finite controls, formal
+review bindings, main acceptance and the applicable admission/publication checks
 remain required; this proof does not amend the frozen v2/v3 packages.
