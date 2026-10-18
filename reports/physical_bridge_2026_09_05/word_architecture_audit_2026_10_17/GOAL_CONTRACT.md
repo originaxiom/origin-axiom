@@ -155,6 +155,11 @@ conditions.
   the operation group. The relative register's cocycle and finite-path
   transport laws are displayed. This reuses B1323/B1634/R79; it is
   unreviewed and outside the existing seventeen-control draft.
+- [x] [Infinite-history specification](INFINITE_HISTORIES_AND_WEIGHTS.md)
+  drafted: exact positive-cone coverage, explicit distinction from
+  chronological state updates, global acceptance and symmetric weight
+  countercontrols, with fixed-language statistics preserved. These are
+  analytical arguments awaiting review, not new scientific test passes.
 - [ ] Complete the typed premise/domain map, including the location of
   minimality and the admissibility of nonstationary histories.
 - [ ] Complete the joining/transport specification and residual-freedom
