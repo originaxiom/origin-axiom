@@ -103,7 +103,7 @@ predecessors:
 
 - **B1248:** the nondegenerate entry-gcd realizer law is retained. The
   degenerate claim of both determinant signs does not follow in general;
-  the homogeneous silver example gives an explicit proposed repair.
+  the homogeneous LRL example gives an explicit proposed repair.
 - **B144:** mirror closure of a family is retained. Literal inequality of
   two gluing matrices does not certify manifold chirality, and family
   mirror closure is not an obstruction to every symmetry-breaking theory.
@@ -264,6 +264,9 @@ this assessment. The owner subsequently authorized separate review and
 coordination with main; proof and code reviews have been requested.
 Main is unavailable until Tuesday, October 20, according to the owner.
 Self-review and separate review do not substitute for its acceptance.
+The two reports have now returned: [review intake](REVIEW_INTAKE_2026_10_18.md).
+They require a separately sealed successor for convention and custody
+repairs before execution. The original proposal remains unchanged and unrun.
 
 This assessment and the current contract are outside the frozen proposal.
 They do not alter its source pins or replace historical draft-status
