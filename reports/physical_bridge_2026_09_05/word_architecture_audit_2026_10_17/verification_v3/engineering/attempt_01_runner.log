@@ -1,0 +1,36 @@
+Non-scientific runner sentinel attempt 01
+22ac6ab65ed48fa5e1aeb92f74a9c7215ae4bf61825749a1ce66ce81854cc7f1  scripts/gates/tracked_state.py
+82985893d0db217514f7acfa5e676089e14eed30c6d98b0e6f22770fc4533f26  scripts/gates/prospective_strict.py
+8f8fc7c93dc0069dd476052c226ed5cebf11e18bcee71694b5dab88c6c938e92  tests/test_strict_tracked_state.py
+f0f4af98399677445eba42a07ef7055b2cb394f53b8b9da3a950c6f68966009e  tests/test_prospective_experiment_gate.py
+1cc1c9e299be3f85df41d066b2673c2c62b33e83ad978603f769cf04fd8adbf0  reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py
+cfcf43ea058f77d4bfb0beab1fb818af566fcf63cddb4d599e7c239cae3d67bd  reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/runner_policy_checks.py
+c44a270532500514eb10d442336c4e33894e5103ef8e487ceb39b1dcc20bb8f5  reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/ENGINEERING_PLAN.md
+
+test_changed_pin_never_imports (__main__.RunnerPolicyChecks.test_changed_pin_never_imports) ... ok
+test_changed_runtime_never_imports (__main__.RunnerPolicyChecks.test_changed_runtime_never_imports) ... ok
+test_complete_sentinel_run_records_success_without_science (__main__.RunnerPolicyChecks.test_complete_sentinel_run_records_success_without_science) ... ok
+test_custody_failure_does_not_mask_original_import_error (__main__.RunnerPolicyChecks.test_custody_failure_does_not_mask_original_import_error) ... ok
+test_dirty_index_before_admission_never_imports (__main__.RunnerPolicyChecks.test_dirty_index_before_admission_never_imports) ... ok
+test_dirty_index_during_run_cannot_pass (__main__.RunnerPolicyChecks.test_dirty_index_during_run_cannot_pass) ... ok
+test_during_run_source_change_is_not_a_pass (__main__.RunnerPolicyChecks.test_during_run_source_change_is_not_a_pass) ... ok
+test_during_run_tracked_change_is_not_a_pass (__main__.RunnerPolicyChecks.test_during_run_tracked_change_is_not_a_pass) ... ok
+test_expected_failure_is_not_a_pass (__main__.RunnerPolicyChecks.test_expected_failure_is_not_a_pass) ... ok
+test_import_error_keeps_original_error_and_final_custody (__main__.RunnerPolicyChecks.test_import_error_keeps_original_error_and_final_custody) ... ok
+test_import_interruption_records_final_custody (__main__.RunnerPolicyChecks.test_import_interruption_records_final_custody) ... ok
+test_malformed_report_never_imports (__main__.RunnerPolicyChecks.test_malformed_report_never_imports) ... ok
+test_missing_positive_admission_never_imports (__main__.RunnerPolicyChecks.test_missing_positive_admission_never_imports) ... ok
+test_preexisting_output_is_preserved (__main__.RunnerPolicyChecks.test_preexisting_output_is_preserved) ... ok
+test_rejected_admission_never_imports (__main__.RunnerPolicyChecks.test_rejected_admission_never_imports) ... ok
+test_skip_is_not_a_pass (__main__.RunnerPolicyChecks.test_skip_is_not_a_pass) ... ok
+test_test_interruption_records_changed_source (__main__.RunnerPolicyChecks.test_test_interruption_records_changed_source) ... ok
+test_unadmitted_command_never_imports (__main__.RunnerPolicyChecks.test_unadmitted_command_never_imports) ... ok
+test_unadmitted_output_never_imports (__main__.RunnerPolicyChecks.test_unadmitted_output_never_imports) ... ok
+test_wrong_population_halts_before_any_test (__main__.RunnerPolicyChecks.test_wrong_population_halts_before_any_test) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.128s
+
+OK
+
+Exit status: 0

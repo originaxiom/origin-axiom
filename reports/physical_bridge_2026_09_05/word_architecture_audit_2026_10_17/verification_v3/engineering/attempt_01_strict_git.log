@@ -1,0 +1,14 @@
+Non-scientific strict-Git and base-admission fixture tests, attempt 01
+Command: PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 python3 -B -m pytest --noconftest -p no:cacheprovider -q tests/test_strict_tracked_state.py tests/test_prospective_experiment_gate.py
+22ac6ab65ed48fa5e1aeb92f74a9c7215ae4bf61825749a1ce66ce81854cc7f1  scripts/gates/tracked_state.py
+82985893d0db217514f7acfa5e676089e14eed30c6d98b0e6f22770fc4533f26  scripts/gates/prospective_strict.py
+8f8fc7c93dc0069dd476052c226ed5cebf11e18bcee71694b5dab88c6c938e92  tests/test_strict_tracked_state.py
+f0f4af98399677445eba42a07ef7055b2cb394f53b8b9da3a950c6f68966009e  tests/test_prospective_experiment_gate.py
+1cc1c9e299be3f85df41d066b2673c2c62b33e83ad978603f769cf04fd8adbf0  reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py
+cfcf43ea058f77d4bfb0beab1fb818af566fcf63cddb4d599e7c239cae3d67bd  reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/runner_policy_checks.py
+c44a270532500514eb10d442336c4e33894e5103ef8e487ceb39b1dcc20bb8f5  reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/ENGINEERING_PLAN.md
+
+...................................................                      [100%]
+51 passed in 74.68s (0:01:14)
+
+Exit status: 0
