@@ -160,6 +160,12 @@ conditions.
   chronological state updates, global acceptance and symmetric weight
   countercontrols, with fixed-language statistics preserved. These are
   analytical arguments awaiting review, not new scientific test passes.
+- [x] [Graph joining and higher cohomology](GRAPH_JOINING_AND_HIGHER_COHOMOLOGY.md)
+  drafted: conditional compatibility on finite graphs, retained cycle
+  transport, and an explicit distinction between B1043's presentation
+  and group H³. The argument gives C³ for the latter; its twisted triple
+  product remains unevaluated. Later Y3 coupling work is preserved.
+  This is unreviewed source analysis outside the seventeen-control draft.
 - [ ] Complete the typed premise/domain map, including the location of
   minimality and the admissibility of nonstationary histories.
 - [ ] Complete the joining/transport specification and residual-freedom
