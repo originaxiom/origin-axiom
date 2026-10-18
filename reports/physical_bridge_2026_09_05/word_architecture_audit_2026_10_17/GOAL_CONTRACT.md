@@ -138,6 +138,11 @@ conditions.
 - [x] Existing R79 and AR1–AR2 identified as reuse requirements.
 - [x] First word-level source comparison recorded in
   [LIFT_SCOPE_NOTE.md](LIFT_SCOPE_NOTE.md), unreviewed and not executed.
+- [x] Draft [typed architecture](TYPED_ARCHITECTURE.md) and
+  [joining analysis](JOINING_LAW_ANALYSIS.md) recorded: shared-frame
+  composition, partial-future quotient, relative-position freedom and
+  conditional coefficient matching. These are unreviewed analytical
+  drafts, not completion of the verification stages below.
 - [ ] Complete the typed premise/domain map, including the location of
   minimality and the admissibility of nonstationary histories.
 - [ ] Complete the joining/transport specification and residual-freedom
