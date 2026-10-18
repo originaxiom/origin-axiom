@@ -166,6 +166,17 @@ conditions.
   and group H³. The argument gives C³ for the latter; its twisted triple
   product remains unevaluated. Later Y3 coupling work is preserved.
   This is unreviewed source analysis outside the seventeen-control draft.
+- [x] Verification draft revision 2 adds eleven controls for those later
+  arguments, retaining the original seventeen. The twenty-eight-method
+  inventory and syntax pass static inspection; the unchanged fourteen
+  infrastructure sentinel cases pass again. No mathematical control was
+  imported or run. Its topological rank test is explicitly conditional
+  on reviewed inputs, not a substitute for constructing B1043 cochains.
+- [x] Revision-two design and thirty-three-artifact specification prepared
+  with exact seal-ledger bindings. The typed metadata classification
+  preserves the separate narrative preregistration. A committed seal
+  fixes the proposal, not its truth or permission to run; review and
+  main acceptance remain outstanding.
 - [ ] Complete the typed premise/domain map, including the location of
   minimality and the admissibility of nonstationary histories.
 - [ ] Complete the joining/transport specification and residual-freedom

@@ -9,6 +9,7 @@ import unittest
 import sympy as s
 from sympy.matrices.exceptions import NonInvertibleMatrixError
 import controls as c
+from extended_checks import LiftFamilyChecks, InfiniteHistoryChecks, GraphJoiningChecks
 
 
 def refined_partition(states, updates, outputs):

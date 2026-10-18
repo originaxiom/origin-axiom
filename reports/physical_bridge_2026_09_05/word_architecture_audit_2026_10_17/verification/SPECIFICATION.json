@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "experiment_id": "whole-word-composition-joining-controls-v1",
+  "experiment_id": "whole-word-composition-joining-controls-v2",
   "authors": [
     "physical-bridge-seat"
   ],
   "design": {
     "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/DESIGN.md",
-    "sha256": "8cc925b9a46b561c917de5a6a13036b994b9aaa2efbe94936c3501165dc609ca"
+    "sha256": "0ca386c0e6de556468b4f219c5d53cbf4617fba73075aaa3dd87634e1546d124"
   },
   "artifacts": [
     {
       "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/run_checks.py",
-      "sha256": "ad4ecc6110b16c05457975290e682e9353fb3e6de08b31eb8d77996194d1fcd3",
+      "sha256": "c049a6a1e8be80a96d1b4102fa2f41cefeb477d71f04b284566af62708764691",
       "role": "source"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/checks.py",
-      "sha256": "e614a70ca2bb713db212f991b65237858205b1d00897778f82bb713415cf3f92",
+      "sha256": "18085a024151e3b14d076451f1f58a596136675fd0f72e984d9043757b2598c5",
       "role": "test"
     },
     {
@@ -91,7 +91,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/SOURCE_INVENTORY.md",
-      "sha256": "c4ecedf4292a004486ac2605b29a5534e88d382ae4accafad804105d24e0a749",
+      "sha256": "f633db95d3522d215f1857c1502a7d4adc52a32c7c66972f56e7854479728b73",
       "role": "input"
     },
     {
@@ -136,7 +136,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/ENGINEERING_CHECKS.md",
-      "sha256": "59613b40f3c6a33d33630c822b6c33da34cc3f9863c908113cd7129369559be4",
+      "sha256": "93a9eab3db201f4a07f72146c7d7c9471de26fa66c8e79b6ff5fbe07764eaa29",
       "role": "input"
     },
     {
@@ -147,6 +147,31 @@
     {
       "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/engineering/attempt_02_policy_checks.log",
       "sha256": "60fc94236261ac994f776998ace6d2972d58fa9c2902b9902ecf23fdcd72d864",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/extended_checks.py",
+      "sha256": "2c8baa3df2e09e2b4d57420c601e0c73336574bd46cce6ed148f6f36e66e6563",
+      "role": "test"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/LIFT_FAMILY_AND_REGISTER.md",
+      "sha256": "6c92d4f83d94a069c2df091b5f9839040fc7b6ca77502385a56df4929a3da20f",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/INFINITE_HISTORIES_AND_WEIGHTS.md",
+      "sha256": "51ab1920ee422406a4a67efbfb66e70d695db991ab5630fa1b3832397c77b13f",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GRAPH_JOINING_AND_HIGHER_COHOMOLOGY.md",
+      "sha256": "ec9b92f621516edb6d5c4d6d69256fd8e8db53c71c189649415278e1098c08d0",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/engineering/attempt_03_extended_inventory_policy_checks.log",
+      "sha256": "82e92c6012028d07d66e33164d53c8f3086d79b0fb2ee33606841dcaa2764c4f",
       "role": "input"
     }
   ],
@@ -160,15 +185,15 @@
         "--admission",
         "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/ADMISSION.json",
         "--output",
-        "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/results/v1_controls.jsonl",
+        "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/results/v2_controls.jsonl",
         "--log",
-        "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/results/v1_controls.log"
+        "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/results/v2_controls.log"
       ]
     }
   ],
   "outputs": [
-    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/results/v1_controls.jsonl",
-    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/results/v1_controls.log"
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/results/v2_controls.jsonl",
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/results/v2_controls.log"
   ],
   "environment": {
     "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/ENVIRONMENT.json",

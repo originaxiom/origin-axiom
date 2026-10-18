@@ -47,12 +47,30 @@ runner_policy_checks.py. This is the author's engineering validation,
 not non-authoring review, a security proof, the full repository suite,
 or any of the seventeen planned mathematical tests.
 
+## Revision two infrastructure check
+
+The intended mathematical population is now twenty-eight methods: the
+original seventeen plus eleven extension controls. A standard-library
+AST inspection found exactly those twenty-eight literal method names,
+without importing or executing the scientific modules. Syntax and an
+inventory match are not mathematical test passes.
+
+The unchanged sentinel harness was rerun after the runner's expected
+population was extended. All fourteen infrastructure cases pass, exit
+zero; raw output is retained in
+engineering/attempt_03_extended_inventory_policy_checks.log. The harness
+still substitutes a one-test dummy population and does not execute any
+of the twenty-eight controls. This repeat supports the runner's same
+refusal paths, not the new mathematical conclusions. Earlier failure
+and success captures remain unchanged.
+
 ## Still required
 
 Independent review must challenge both the proofs and the runner. In
 particular these sentinels do not prove the actual prospective checker's
 independence checks, source inventory completeness, all filesystem-race
 cases, or an adversarially modified interpreter. Those are not claimed.
-The design/specification remain unsealed; genuine review and main
-acceptance are absent. Mathematical execution is still prohibited until
-the real prospective admission succeeds in a clean checkout.
+The revision-two design/specification are prepared for pre-execution
+sealing; genuine review and main acceptance remain outstanding.
+Mathematical execution is prohibited until the real prospective admission
+succeeds in a clean checkout. A committed seal is not an admission.

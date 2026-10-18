@@ -40,6 +40,17 @@ EXPECTED = (
     "ActualJoinChecks.test_separate_frame_change_needs_its_intertwiner",
     "ActualJoinChecks.test_compatible_bend_is_not_automatically_a_common_frame_change",
     "ActualJoinChecks.test_interface_roster_and_singular_frame_are_rejected",
+    "LiftFamilyChecks.test_all_four_fixed_pairs_and_their_transported_boundaries",
+    "LiftFamilyChecks.test_independent_lifts_add_inner_moves_and_the_old_loop_survives",
+    "LiftFamilyChecks.test_relative_register_is_a_crossed_not_ordinary_product",
+    "LiftFamilyChecks.test_changing_frames_retains_both_path_endpoints",
+    "InfiniteHistoryChecks.test_all_positive_prefixes_through_depth_nine_are_nested_cones",
+    "InfiniteHistoryChecks.test_golden_recovery_and_constant_letter_endpoint_controls",
+    "InfiniteHistoryChecks.test_chronological_blocks_have_opposite_endpoint_bounds",
+    "InfiniteHistoryChecks.test_symmetric_stationary_laws_do_not_fix_history_correlations",
+    "GraphJoiningChecks.test_edge_matching_preserves_nontrivial_loop_transport",
+    "GraphJoiningChecks.test_finite_graph_cohomology_consequences_and_disconnected_control",
+    "GraphJoiningChecks.test_cubic_sign_depends_on_the_fibre_tensor_not_its_name",
 )
 
 

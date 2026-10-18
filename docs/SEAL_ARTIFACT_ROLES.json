@@ -95,6 +95,17 @@
         "sha256": "2042026b8d13e8ec7a9984b4abcc0c4582a7b4dd3d2e343ef55b0d128c3baa26",
         "collection": "source_files"
       }
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/SPECIFICATION.json",
+      "sha256": "1b2ba7de9c89c40bc8c4518d75b5dec2263bc636e80b9c1ab27057b3bb2fb304",
+      "role": "data",
+      "reason": "Personally inspected prospective specification metadata: exact sources, command, outputs and runtime. It points to the separately sealed narrative design and is not independent review or an execution permission.",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/SEAL_ROLE_EVIDENCE.json",
+        "sha256": "0c32c3074e5f950070656243aa0bd249dd7b9402e3009e32596809b51a68d83b",
+        "collection": "frozen_paths"
+      }
     }
   ]
 }

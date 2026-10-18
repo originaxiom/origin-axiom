@@ -1,0 +1,19 @@
+test_changed_pin_never_imports (__main__.RunnerPolicyChecks.test_changed_pin_never_imports) ... ok
+test_changed_runtime_never_imports (__main__.RunnerPolicyChecks.test_changed_runtime_never_imports) ... ok
+test_complete_sentinel_run_records_success_without_science (__main__.RunnerPolicyChecks.test_complete_sentinel_run_records_success_without_science) ... ok
+test_during_run_source_change_is_not_a_pass (__main__.RunnerPolicyChecks.test_during_run_source_change_is_not_a_pass) ... ok
+test_during_run_tracked_change_is_not_a_pass (__main__.RunnerPolicyChecks.test_during_run_tracked_change_is_not_a_pass) ... ok
+test_expected_failure_is_not_a_pass (__main__.RunnerPolicyChecks.test_expected_failure_is_not_a_pass) ... ok
+test_malformed_report_never_imports (__main__.RunnerPolicyChecks.test_malformed_report_never_imports) ... ok
+test_missing_positive_admission_never_imports (__main__.RunnerPolicyChecks.test_missing_positive_admission_never_imports) ... ok
+test_preexisting_output_is_preserved (__main__.RunnerPolicyChecks.test_preexisting_output_is_preserved) ... ok
+test_rejected_admission_never_imports (__main__.RunnerPolicyChecks.test_rejected_admission_never_imports) ... ok
+test_skip_is_not_a_pass (__main__.RunnerPolicyChecks.test_skip_is_not_a_pass) ... ok
+test_unadmitted_command_never_imports (__main__.RunnerPolicyChecks.test_unadmitted_command_never_imports) ... ok
+test_unadmitted_output_never_imports (__main__.RunnerPolicyChecks.test_unadmitted_output_never_imports) ... ok
+test_wrong_population_halts_before_any_test (__main__.RunnerPolicyChecks.test_wrong_population_halts_before_any_test) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.067s
+
+OK

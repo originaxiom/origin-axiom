@@ -9289,3 +9289,10 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 | 2026-10-16 | BEFORE phase8 metadata controls | `reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/PHASE8_DESIGN.md` | `d21111882666a86aee9952e7815dec2ef62e9a37dfd430e8a13cd4942d0d6a7a` | Only design sealed; metadata pins do not admit science or waive history. |
 | 2026-10-16 | BEFORE phase9 metadata controls | `reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/PHASE9_DESIGN.md` | `efb98ebd82031df899e7799cb94849f36dd1bf588ca559df33f48dfb50380cb0` | Only design sealed; metadata pins do not admit science or waive history. |
 | 2026-10-16 | BEFORE phase10 metadata controls | `reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/PHASE10_DESIGN.md` | `56c19a31cc9568bcacafd521d59d38d019f525bd1ccbffa4ceffa1f02f65d26c` | Only design sealed; metadata pins do not admit science or waive history. |
+
+## Whole word composition and joining verification before scientific execution
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-18 | BEFORE all mathematical imports and runs, revision 2 | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/SPECIFICATION.json` | `1b2ba7de9c89c40bc8c4518d75b5dec2263bc636e80b9c1ab27057b3bb2fb304` | Twenty-eight intended controls; source-complete review, main acceptance and prospective admission still required. Historical failures remain failures. |
+| 2026-10-18 | BEFORE all mathematical imports and runs, revision 2 | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/DESIGN.md` | `0ca386c0e6de556468b4f219c5d53cbf4617fba73075aaa3dd87634e1546d124` | Twenty-eight intended controls; source-complete review, main acceptance and prospective admission still required. Historical failures remain failures. |

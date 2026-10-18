@@ -1,0 +1,13 @@
+{
+  "status": "author metadata validation only; no scientific execution or independent review",
+  "specification_sha256": "1b2ba7de9c89c40bc8c4518d75b5dec2263bc636e80b9c1ab27057b3bb2fb304",
+  "artifact_pins_match": 33,
+  "expected_and_defined_methods": 28,
+  "scientific_outputs_absent": true,
+  "seal_provenance_cutoff": "2026-08-08",
+  "historical_problems_before": 643,
+  "historical_problems_after": 643,
+  "historical_problem_list_unchanged": true,
+  "global_gate_aggregate_run": false,
+  "prospective_admission": false
+}

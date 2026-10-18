@@ -1,10 +1,13 @@
 # Exact controls for shared records and compatible joins
 
-October 18, 2026. DRAFT, NOT SEALED OR ADMITTED. No new scientific run
-has occurred. This design tests the analytical notes at source checkpoint
-15160fffc8b1f91640b1762afb49acbeefb2abfc. A source-complete seal, independent
-review, main acceptance and a prospective pass are required before any
-scientific import, collection or execution.
+October 18, 2026. Revision 2, PRE-EXECUTION DESIGN, NOT ADMITTED. No new
+scientific run has occurred. The first seventeen controls are retained;
+eleven are added for analytical notes through source checkpoint
+0140511c847291d54c3c87e7b46d38dfac47c03b. The design and specification are
+prepared for commitment with matching seal-ledger rows. Sealing freezes
+the proposal; independent source-completeness review, main acceptance and
+a prospective pass remain required before any scientific import,
+collection or execution.
 
 BANKED IDENTITY: Verification successor for the whole-word source audit, AR1–AR2, B1634/B1662 lift scope, B1192/B1248 relational classification, B144 test scope, and R85/R86 compatible joins. No new numbered claim or claim of physical completion.
 PRIOR ART: ACT_REGISTER_PROOF; LIFT_SCOPE_NOTE; JOINING_LAW_ANALYSIS; TYPED_ARCHITECTURE; main B1192 and B1248 producers; B144 producer/tests; local R75/R85/R86 producers and proofs. The all-word trace theorem is classical Fricke–Vogt theory, not novelty.
@@ -28,7 +31,7 @@ positive controls to hold; expect the two overbroad historical predicates
 to fail on their stated counterexamples. These expectations were written
 after analytical source inspection, not blinded prediction.
 
-All seventeen named tests must run and pass, with no skip or expected failure, unchanged
+All twenty-eight named tests must run and pass, with no skip or expected failure, unchanged
 sources and complete logs. Any failed predicate, import, missing test,
 source change or incomplete run is a HALT requiring diagnosis and a
 separately sealed successor. A pass is finite corroboration plus exact
@@ -73,8 +76,15 @@ the affected statement; it does not kill every joining route.
 | Actual join | R75/R85 re-executed from pinned sources, exact field irreducibility and six relators for all three characters | Fresh verification of those existing representation inputs, not a new spectrum. |
 | Lost/restored matching | Conjugate the right piece by I+E_04; its own relations survive, naive matching fails, and the correctly transported h restores it; then change both frames | Required matching covariance on the actual join, not merely a scalar model. |
 | Compatible freedom | Recompute R86's retained mixed x/x loop at t=1,2,3; exact t^-5 formula and boundary-compatible bends | Recovery of genuine relative freedom within the specified representation. Full-parent gauge interpretation remains R87's separate duty. |
+| Fixed lift families | All four elementary pairs and transported boundaries; separately added inner moves; S^4 with trivial homology and nontrivial word action | Generator identities support the induction argument; they do not independently prove the full Nielsen/kernel theorem. |
+| Relative register | Crossed versus ordinary multiplication and path endpoint transport | Actual free-word maps with two endpoint frames, not an observer or physical gauge interpretation. |
+| Positive limits | Every positive prefix through depth nine, 1,023 including the empty prefix; exact cone nesting/diameter; sixteen golden-return prefixes and constant-letter endpoint controls | Finite exact safeguards, not proof of universal convergence, irrational coverage or arbitrary signed products. |
+| Chronological updates and weights | Symbolic opposite endpoint bounds and twenty alternating block pairs; symmetric stationary Markov matrix, invariant law and nonconstant correlation eigenvalue | Countercontrols to identifying description limits with evolution, or symmetry with a unique history law. |
+| Graph transport | Three nontrivial frames and compatible edges with a nonidentity cycle, tree normalization and incompatible-edge control | Checks the specified transport equations, not derivation of the graph or its physical realization. |
+| Higher cohomology inputs | Six finite graphs, scalar restriction/incidence ranks, Euler characteristic and a disconnected comparator | Consequences GIVEN the vertex/edge cohomology and restriction maps. Peripheral injectivity, asphericity and the MV theorem require analytic review. This is not a new B1043 cochain producer. |
+| Cubic tensor type | Exact exterior algebra with symmetric versus antisymmetric fibre tensors, repeated arguments and a two-dimensional subspace | Degree signs and elementary positive/zero controls, not evaluation of B1043's twisted triple product or E6 invariant. |
 
-The seventeen methods are enumerated literally in run_checks.EXPECTED.
+The twenty-eight methods are enumerated literally in run_checks.EXPECTED.
 Their population must match the discovered suite exactly. The runner
 uses fail-fast execution, so subsequent controls after a failure are
 unrun, not silently counted as passes. The actual old producers compute
@@ -137,13 +147,15 @@ window is quiescent; source hashes and tracked state are rechecked after
 the run. These local controls do not replace the full exact-tree suite
 or publication conditions.
 
-## Requirements before a real seal and execution
+## Seal and requirements before execution
 
-The author's local import inventory is in SOURCE_INVENTORY.md. The draft
+The author's local import inventory is in SOURCE_INVENTORY.md.
 SPECIFICATION.json pins both scientific sources and the existing preflight
-helpers. It does not replace independent source-completeness review or
-the later review/acceptance bindings. Its reserved output names are not
-evidence that a run occurred.
+helpers. The seal binds those bytes; it does not replace independent
+source-completeness review or the later review/acceptance bindings. Its
+reserved output names are not evidence that a run occurred. The JSON is
+typed specification metadata referring to this narrative preregistration,
+not an independent review or a second narrative design.
 
 - Verify the complete local/transitive scientific source inventory and
   runtime. Retain R75 and R85 without editing their historical bytes.
@@ -160,5 +172,7 @@ evidence that a run occurred.
 
 ENGINEERING_CHECKS.md records fourteen non-scientific sentinel checks of
 the wrapper, including the initial harness-path failure and correction.
-This is author validation only. No mathematical test or independent review
+The same fourteen checks were rerun for revision 2 and pass; an AST-only
+inventory check matches the twenty-eight intended methods. This is author
+infrastructure validation only. No mathematical test or independent review
 has been completed; the remaining requirements above are outstanding.

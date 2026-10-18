@@ -1,14 +1,18 @@
 # Proposed execution boundary and review inventory
 
 October 18, 2026. Author's source inventory, not an independent
-source-completeness attestation. SPECIFICATION.json is a draft with exact
-byte pins; neither this inventory nor its presence authorizes execution.
+source-completeness attestation. SPECIFICATION.json carries exact byte
+pins for pre-execution sealing; neither this inventory nor its presence
+authorizes execution.
 
 ## Local scientific execution
 
 The sole proposed entrypoint is run_checks.py. Before admission it imports
 standard-library modules only and checks runtime metadata. After admission
-it imports checks.py, which imports controls.py and SymPy. The controls
+it imports checks.py, which imports controls.py, extended_checks.py and
+SymPy. The extension imports the same controls, SymPy and standard-library
+arithmetic/test utilities; it loads no additional scientific producer.
+The controls
 load the retained joined_background.py by its explicit path; that producer
 loads cross_branch_positives.py by its explicit path. Both retained sources
 have an additional digest check inside the control path. The retained
@@ -19,7 +23,8 @@ or substituted for live arithmetic.
 | Local source | Duty |
 |---|---|
 | run_checks.py | Admission, exact test population, immutable output capture and post-run custody |
-| checks.py | Seventeen controls, with a separate partition-refinement implementation |
+| checks.py | Original seventeen controls, with a separate partition-refinement implementation, plus explicit imports of the extension classes |
+| extended_checks.py | Eleven controls for fixed/independent lifts, retained registers, limits/weights and graph/cohomology scope |
 | controls.py | Word maps, partial-future equivalence, relative-placement and actual-join helpers |
 | [joined_background.py](../../joined_background.py) | Existing R85 representation producer, cases and exact field utilities |
 | [cross_branch_positives.py](../../cross_branch_positives.py) | Existing R75 symbolic generators, transport and field matrix primitives |
@@ -69,9 +74,10 @@ runner's final custody check. No change to this existing gate is proposed.
 ## Analytical review, separate from execution
 
 The source-pinned review inputs include TYPED_ARCHITECTURE.md,
-JOINING_LAW_ANALYSIS.md and LIFT_SCOPE_NOTE.md, plus the retained AR and
-R85/R86 proofs. Their general statements are not proven merely by a pass
-on seventeen tests. R87's full-parent detector and R88's kinetic transfer
+JOINING_LAW_ANALYSIS.md, LIFT_SCOPE_NOTE.md, LIFT_FAMILY_AND_REGISTER.md,
+INFINITE_HISTORIES_AND_WEIGHTS.md and GRAPH_JOINING_AND_HIGHER_COHOMOLOGY.md,
+plus the retained AR and R85/R86 proofs. Their general statements are
+not proven merely by a pass on twenty-eight tests. R87's full-parent detector and R88's kinetic transfer
 are preserved as distinct prior results, not reverified by this package.
 
 The B144 control proves a limitation of a literal boundary-matrix
@@ -79,6 +85,15 @@ inequality using extendable solid-torus reflections. It does not compute
 the mapping-class groups of B144's hyperbolic pieces. The B1248 control
 addresses a degenerate-locus overstatement; the nondegenerate primitive
 commutator law and the homogeneous golden positive are retained.
+
+The extended graph test checks the Mayer–Vietoris rank arithmetic after
+the cohomology inputs have been specified. It does not reconstruct the
+peripheral embedding, prove asphericity, compute a cellular cup product
+or independently establish the B1043 target. The exterior-algebra test
+uses small explicit tensors, not E6 matrices or B1043's ten classes.
+These limits are deliberate: a general proof review and a genuine
+twisted-product calculation must not be replaced by tests of their own
+assumed inputs. The latter is a separately designed future experiment.
 
 ## Outstanding independent checks
 
