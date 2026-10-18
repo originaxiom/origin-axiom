@@ -143,6 +143,12 @@ conditions.
   composition, partial-future quotient, relative-position freedom and
   conditional coefficient matching. These are unreviewed analytical
   drafts, not completion of the verification stages below.
+- [x] Draft [verification package](verification/DESIGN.md): seventeen
+  mathematical controls, a twenty-eight-artifact byte-pinned candidate
+  specification and an admitted-only runner. Fourteen non-scientific
+  runner checks pass after a preserved harness-path correction. The
+  mathematical tests remain unrun; the design is unsealed and has no
+  independent review or main acceptance.
 - [ ] Complete the typed premise/domain map, including the location of
   minimality and the admissibility of nonstationary histories.
 - [ ] Complete the joining/transport specification and residual-freedom

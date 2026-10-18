@@ -1,0 +1,217 @@
+Non-scientific engineering check: replay of the initial harness failure to preserve the full diagnostic.
+Source: 799cd58c08e9ef1238d3284cd79eb9cb06fcadf2a9950605a3ddbe1be77a25f9  reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py
+Exit status: 1
+test_changed_pin_never_imports (__main__.RunnerPolicyChecks.test_changed_pin_never_imports) ... FAIL
+test_changed_runtime_never_imports (__main__.RunnerPolicyChecks.test_changed_runtime_never_imports) ... FAIL
+test_complete_sentinel_run_records_success_without_science (__main__.RunnerPolicyChecks.test_complete_sentinel_run_records_success_without_science) ... ERROR
+test_during_run_source_change_is_not_a_pass (__main__.RunnerPolicyChecks.test_during_run_source_change_is_not_a_pass) ... ERROR
+test_during_run_tracked_change_is_not_a_pass (__main__.RunnerPolicyChecks.test_during_run_tracked_change_is_not_a_pass) ... ERROR
+test_expected_failure_is_not_a_pass (__main__.RunnerPolicyChecks.test_expected_failure_is_not_a_pass) ... ERROR
+test_malformed_report_never_imports (__main__.RunnerPolicyChecks.test_malformed_report_never_imports) ... ERROR
+test_missing_positive_admission_never_imports (__main__.RunnerPolicyChecks.test_missing_positive_admission_never_imports) ... FAIL
+test_preexisting_output_is_preserved (__main__.RunnerPolicyChecks.test_preexisting_output_is_preserved) ... FAIL
+test_rejected_admission_never_imports (__main__.RunnerPolicyChecks.test_rejected_admission_never_imports) ... ERROR
+test_skip_is_not_a_pass (__main__.RunnerPolicyChecks.test_skip_is_not_a_pass) ... ERROR
+test_unadmitted_command_never_imports (__main__.RunnerPolicyChecks.test_unadmitted_command_never_imports) ... FAIL
+test_unadmitted_output_never_imports (__main__.RunnerPolicyChecks.test_unadmitted_output_never_imports) ... FAIL
+test_wrong_population_halts_before_any_test (__main__.RunnerPolicyChecks.test_wrong_population_halts_before_any_test) ... FAIL
+
+======================================================================
+ERROR: test_complete_sentinel_run_records_success_without_science (__main__.RunnerPolicyChecks.test_complete_sentinel_run_records_success_without_science)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 207, in test_complete_sentinel_run_records_success_without_science
+    self.assertEqual(self.run_subject(), 0)
+                     ^^^^^^^^^^^^^^^^^^
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 109, in run_subject
+    return runner.main()
+           ^^^^^^^^^^^^^
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/run_checks.py", line 69, in main
+    require(Path.cwd().resolve() == ROOT, "Run from the repository root")
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/run_checks.py", line 48, in require
+    raise ValueError(message)
+ValueError: Run from the repository root
+
+======================================================================
+ERROR: test_during_run_source_change_is_not_a_pass (__main__.RunnerPolicyChecks.test_during_run_source_change_is_not_a_pass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 196, in test_during_run_source_change_is_not_a_pass
+    self.assertEqual(self.run_subject(), 1)
+                     ^^^^^^^^^^^^^^^^^^
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 109, in run_subject
+    return runner.main()
+           ^^^^^^^^^^^^^
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/run_checks.py", line 69, in main
+    require(Path.cwd().resolve() == ROOT, "Run from the repository root")
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/run_checks.py", line 48, in require
+    raise ValueError(message)
+ValueError: Run from the repository root
+
+======================================================================
+ERROR: test_during_run_tracked_change_is_not_a_pass (__main__.RunnerPolicyChecks.test_during_run_tracked_change_is_not_a_pass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 202, in test_during_run_tracked_change_is_not_a_pass
+    self.assertEqual(self.run_subject(), 1)
+                     ^^^^^^^^^^^^^^^^^^
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 109, in run_subject
+    return runner.main()
+           ^^^^^^^^^^^^^
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/run_checks.py", line 69, in main
+    require(Path.cwd().resolve() == ROOT, "Run from the repository root")
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/run_checks.py", line 48, in require
+    raise ValueError(message)
+ValueError: Run from the repository root
+
+======================================================================
+ERROR: test_expected_failure_is_not_a_pass (__main__.RunnerPolicyChecks.test_expected_failure_is_not_a_pass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 190, in test_expected_failure_is_not_a_pass
+    self.assertEqual(self.run_subject(), 1)
+                     ^^^^^^^^^^^^^^^^^^
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 109, in run_subject
+    return runner.main()
+           ^^^^^^^^^^^^^
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/run_checks.py", line 69, in main
+    require(Path.cwd().resolve() == ROOT, "Run from the repository root")
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/run_checks.py", line 48, in require
+    raise ValueError(message)
+ValueError: Run from the repository root
+
+======================================================================
+ERROR: test_malformed_report_never_imports (__main__.RunnerPolicyChecks.test_malformed_report_never_imports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 128, in test_malformed_report_never_imports
+    self.run_subject()
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 109, in run_subject
+    return runner.main()
+           ^^^^^^^^^^^^^
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/run_checks.py", line 69, in main
+    require(Path.cwd().resolve() == ROOT, "Run from the repository root")
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/run_checks.py", line 48, in require
+    raise ValueError(message)
+ValueError: Run from the repository root
+
+======================================================================
+ERROR: test_rejected_admission_never_imports (__main__.RunnerPolicyChecks.test_rejected_admission_never_imports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 122, in test_rejected_admission_never_imports
+    self.assertEqual(self.run_subject(), 2)
+                     ^^^^^^^^^^^^^^^^^^
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 109, in run_subject
+    return runner.main()
+           ^^^^^^^^^^^^^
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/run_checks.py", line 69, in main
+    require(Path.cwd().resolve() == ROOT, "Run from the repository root")
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/run_checks.py", line 48, in require
+    raise ValueError(message)
+ValueError: Run from the repository root
+
+======================================================================
+ERROR: test_skip_is_not_a_pass (__main__.RunnerPolicyChecks.test_skip_is_not_a_pass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 184, in test_skip_is_not_a_pass
+    self.assertEqual(self.run_subject(), 1)
+                     ^^^^^^^^^^^^^^^^^^
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 109, in run_subject
+    return runner.main()
+           ^^^^^^^^^^^^^
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/run_checks.py", line 69, in main
+    require(Path.cwd().resolve() == ROOT, "Run from the repository root")
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/run_checks.py", line 48, in require
+    raise ValueError(message)
+ValueError: Run from the repository root
+
+======================================================================
+FAIL: test_changed_pin_never_imports (__main__.RunnerPolicyChecks.test_changed_pin_never_imports)
+----------------------------------------------------------------------
+ValueError: Run from the repository root
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 163, in test_changed_pin_never_imports
+    with self.assertRaisesRegex(ValueError, "Input changed"):
+AssertionError: "Input changed" does not match "Run from the repository root"
+
+======================================================================
+FAIL: test_changed_runtime_never_imports (__main__.RunnerPolicyChecks.test_changed_runtime_never_imports)
+----------------------------------------------------------------------
+ValueError: Run from the repository root
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 170, in test_changed_runtime_never_imports
+    with self.assertRaisesRegex(ValueError, "Runtime differs"):
+AssertionError: "Runtime differs" does not match "Run from the repository root"
+
+======================================================================
+FAIL: test_missing_positive_admission_never_imports (__main__.RunnerPolicyChecks.test_missing_positive_admission_never_imports)
+----------------------------------------------------------------------
+ValueError: Run from the repository root
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 134, in test_missing_positive_admission_never_imports
+    with self.assertRaisesRegex(ValueError, "Prospective admission missing"):
+AssertionError: "Prospective admission missing" does not match "Run from the repository root"
+
+======================================================================
+FAIL: test_preexisting_output_is_preserved (__main__.RunnerPolicyChecks.test_preexisting_output_is_preserved)
+----------------------------------------------------------------------
+ValueError: Run from the repository root
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 155, in test_preexisting_output_is_preserved
+    with self.assertRaisesRegex(ValueError, "Output collision"):
+AssertionError: "Output collision" does not match "Run from the repository root"
+
+======================================================================
+FAIL: test_unadmitted_command_never_imports (__main__.RunnerPolicyChecks.test_unadmitted_command_never_imports)
+----------------------------------------------------------------------
+ValueError: Run from the repository root
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 141, in test_unadmitted_command_never_imports
+    with self.assertRaisesRegex(ValueError, "exact command"):
+AssertionError: "exact command" does not match "Run from the repository root"
+
+======================================================================
+FAIL: test_unadmitted_output_never_imports (__main__.RunnerPolicyChecks.test_unadmitted_output_never_imports)
+----------------------------------------------------------------------
+ValueError: Run from the repository root
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 148, in test_unadmitted_output_never_imports
+    with self.assertRaisesRegex(ValueError, "Output population"):
+AssertionError: "Output population" does not match "Run from the repository root"
+
+======================================================================
+FAIL: test_wrong_population_halts_before_any_test (__main__.RunnerPolicyChecks.test_wrong_population_halts_before_any_test)
+----------------------------------------------------------------------
+ValueError: Run from the repository root
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<repository-root>/reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification/runner_policy_checks.py", line 176, in test_wrong_population_halts_before_any_test
+    with self.assertRaisesRegex(ValueError, "control population"):
+AssertionError: "control population" does not match "Run from the repository root"
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.138s
+
+FAILED (failures=7, errors=7)
