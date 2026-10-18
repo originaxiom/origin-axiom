@@ -287,3 +287,21 @@ review, with corrections and limitations recorded in
 actual geometric field transport, physical operator and end law remain
 obligations. No input-payment row, full scientific execution, publication
 certificate or completed goal is claimed.
+
+## Geometric fields and exterior response continuation
+
+At `b33fe3dcc` the [actual theta-field transport](GEOMETRIC_THETA_REGISTER.md)
+and [end-norm transport](GEOMETRIC_END_NORM_TRANSPORT.md) were committed.
+They retain the fibre coordinate, metaplectic factor and transported cut
+in one specified lifted action. The norm's common subtraction shift
+cancels from the existing defect, while compatible cuts remain a family.
+The requested separate review stopped before returning findings because
+of a service usage limit. These arguments remain pending review.
+
+[The exterior response analysis](EXTERIOR_RESPONSE_AND_JOINING.md)
+recovers the existing source's interface and stationary positives and
+derives the induced response equation and conditional Hessian feedback.
+Exterior kernel data and compatibility constraints cannot be dropped
+when eliminating fields. The derived evolution still needs an admitted
+global exterior/state to supply its initial response; no physical end
+law is claimed. This remains analytic work outside frozen v3 execution.

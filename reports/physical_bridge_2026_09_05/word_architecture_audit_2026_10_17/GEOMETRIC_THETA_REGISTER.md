@@ -205,6 +205,13 @@ pairing field is instead a section with a fibre argument and an
 automorphy line. It is a nonzero, explicit realization of the latter
 possibility, not a counterexample to the former theorem's hypotheses.
 
+The negative weight of R does not contradict the paper's vanishing
+space of cusp-holomorphic forms at weight -1/2. As Im tau tends to
+infinity, theta_3 and theta_4 tend to 1 while d is asymptotic to
+2 pi exp(pi i tau/4); R has cusp growth. Likewise v depends on a fibre
+argument and is odd under z->-z, so it is not a tau-only holomorphic
+form at weight +1/2. Keeping the actual function class is essential.
+
 The same correction has a strict limit. Period translations preserve
 the point and the degree-zero flat-line class on the torus. Their
 transition signs cannot connect eighteen distinct hypercharge lines
@@ -241,7 +248,9 @@ This argument does not pay a complete physical-input row.
 ## Verification scope
 
 This checkpoint is an analytical proof awaiting separate non-authoring
-review. It does not modify the frozen v2/v3 specifications or authorize
+review. The requested review of `b33fe3dcc` stopped at a service usage
+limit before delivering findings; no recommendation is inferred from
+that interruption. It does not modify the frozen v2/v3 specifications or authorize
 their execution. A sealed successor should check exact central relations,
 the minus sign in the affine action, both square-root branches through
 composition, the full multipliers rather than overlaps, generic fibre
