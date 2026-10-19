@@ -529,3 +529,23 @@ admitted execution, not a completed physical input payment. The full-E
 family identification of the actual sheaf sequence still needs its
 transported puncture, normal frame and duality factors. Frozen science
 packages and staged historical work are unchanged; no push is claimed.
+
+## Smooth completion and determinant/curvature accounting
+
+The [smooth-completion audit](SMOOTH_COMPLETION_DETERMINANT_AND_END_PRICE.md)
+derives det E_Lambda=O((dim Lambda-3)p) from the actual determinant
+frame. A completion preserving the specified principal SU6 bundle and
+holomorphic extension must therefore have dim Lambda=3. This is NOT an
+E8/architecture chirality kill: charged splittings, R/spin-c twists,
+defects or different ends change the hypotheses and must keep their
+complements and full operator. Kernel multiplicities remain distinct
+from the degree constraint.
+
+Contracting the puncture while retaining -I6 transport requires some
+curvature, but a smooth traceless disc control shows it does not force
+determinant flux three. For a separately specified positive trace-flux
+cap, Cauchy--Schwarz gives its 1/area energy cost at fixed coupling.
+Neither control is a derived stationary global cap or a selected scale.
+This constrains the physical completion's missing data rather than
+supply a favourable boundary condition. It is analytical work pending
+review, with no scientific execution, full input payment or push.
