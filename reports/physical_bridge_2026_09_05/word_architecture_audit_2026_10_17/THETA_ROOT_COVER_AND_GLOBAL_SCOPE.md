@@ -194,12 +194,19 @@ that their entire combined group with deck maps is the previously
 specified E with all of its based relations and coefficient factors.
 
 Indeed this remaining check has teeth: in E the existing proof has
-s^4=epsilon J_c with J_c acting trivially on the reduced base. Here
+s^4=epsilon J_c^-1 with J_c acting trivially on the reduced base. Here
 the concrete S^4 is C. Identifying J_c with C would consequently force
 epsilon to act trivially on this GEOMETRIC base, not as another C.
 Both assignments and the source's minus-period convention must be
 tested together on all relations. A new independent square-root sign
 per word would not be a proof of descent.
+
+October 19 own-error correction: commit `94613bc41` omitted the inverse
+on J_c in that paragraph. Since s=Delta^-1, its fourth power is the
+inverse of epsilon J_c. Q8 hides this based-word distinction. The
+[joint-action successor](JOINT_ROOT_ACTION_AND_AUTOMORPHY.md) discloses
+the correction and constructs the actual based root action; the original
+mistake remains visible in that commit's historical text.
 
 ## What this pays, and what it does not
 

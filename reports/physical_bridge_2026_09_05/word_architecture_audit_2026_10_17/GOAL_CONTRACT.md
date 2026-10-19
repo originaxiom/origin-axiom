@@ -478,3 +478,28 @@ the puncture evaluation sequence or a physical index. The physical end
 law, source/target bundles and same-parent dictionary remain duties;
 no full priced-input row or completed research goal is claimed. Frozen
 v2/v3 remain unchanged and their scientific controls unrun.
+
+## Joint based root action and combined automorphy line
+
+The [joint-action proof](JOINT_ROOT_ACTION_AND_AUTOMORPHY.md) now
+constructs the actual H action on the root surface using D_a=A and
+D_b=C B^-1. It recovers the earlier minus-period affine convention,
+checks conjugation on the actual based generators, and proves descent
+through the Inn(F2)/braid intersection, rather than compare Q8 labels
+only. Pullback to E has epsilon geometrically trivial and J_c the sheet
+flip. The nonzero theta field determines a coherent scalar multiplier
+k with k^2=j mu and k_epsilon=-1. The resulting full-E exact sequence
+carries its actual line factors, not the old theta-constant weights.
+
+An own-error correction is preserved: the previous checkpoint's
+s^4=epsilon J_c must read epsilon J_c^-1 because s=Delta^-1. Their Q8
+images agree but their based words do not. Coherent alternative root
+markings are not automatically excluded or physically identified.
+
+This is unreviewed analytical progress, not a scientific execution or
+physical index. The root action is not faithful; the full register is
+retained separately. The sequence still needs identification with actual
+geometric direct images and the same physical operator/domain, including
+the half-order normal frame and interacting end response. No complete
+input row, execution admission, publication certificate or completed
+SM/gravity goal is claimed.
