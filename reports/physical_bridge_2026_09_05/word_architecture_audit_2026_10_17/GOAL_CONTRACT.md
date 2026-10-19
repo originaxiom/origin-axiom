@@ -1,10 +1,54 @@
-# Whole word architecture and derived joining laws
+# Derivation-led input reduction and the whole relational architecture
 
 October 18, 2026. Owner-approved research goal and execution contract.
 This is a planning and source-audit record, not a scientific preregistration,
 experiment-admission manifest, new numbered arc or completed result.
 
-## Goal and relationship to physics
+## Core mission adopted October 19
+
+The owner's active session goal now reads:
+
+Derive the physical content of Origin Axiom while reducing its genuinely
+independent assumptions, supplied structures and adjustable parameters.
+Starting from explicitly stated foundational premises, determine what is
+forced, what is allowed, what is excluded, and what remains undetermined
+across the generated relational architecture. Preserve the act together
+with its registering relation. Treat Fibonacci and m004 as recovery
+controls, not as the whole architecture.
+
+For each proposed physical ingredient—composition, interactions, fields,
+geometry, boundary law, chirality, generations, gauge assignments and
+normalized observables—trace its dependencies. Attempt to replace supplied
+choices with derivations. A reduction counts only when it removes an
+independent choice without hiding that choice in another definition,
+boundary condition, representation, normalization or selection rule.
+
+Distinguish physical freedom from changes of coordinates, gauge and
+equivalent descriptions. Where multiple completions remain, derive their
+compatibility constraints and any predictions common to them; do not
+demand uniqueness unnecessarily.
+
+Require one compatible field/action/domain construction before combining
+physical conclusions. Verify load-bearing proofs and computations, audit
+both positive claims and exclusions, reuse existing results, and preserve
+conditional successes.
+
+Work toward a physically consistent Standard Model with three generations
+and gravity. Record progress through reviewed derivations, an explicit
+remaining-input ledger, and testable physical consequences—not numerical
+coincidences or matching group names. Keep observer and qualia questions
+explicit but separate from established results.
+
+Continue autonomously within the approved scope and verification rules,
+committing checkpoints and pushing when the required gates permit.
+
+The October 18 joining-law objective and its six stages below remain a
+workstream within this full mission, not a narrower replacement success
+condition. Their bounded mathematical verdict cannot complete the new
+physical objective. The session goal was inspected and is active with
+this full objective; no completion or pause is claimed.
+
+## October 18 joining-law workstream and relationship to physics
 
 Derive the allowed composition and joining laws, or establish precisely
 what the admitted foundations leave undetermined. Study the generated
@@ -357,3 +401,21 @@ and outside the frozen scientific controls.
 Both attempted independent review lanes stopped at service usage limits;
 the latest geometric, response, integer and normalization notes remain
 pending review and prospective admission. The full goal is unfinished.
+
+## Full doublet-plus-quadruplet continuation
+
+October 19. The [full sector calculation](FULL_DOUBLET_QUARTET_AND_NORMALIZATION.md)
+retains both actual local irreducibles, rather than privilege the doublet.
+Exact contraction projectors show the theta image projects with rank two
+to W2 and rank three to W4. A nonzero homogeneous cubic in the doublet
+gives the W4 representation, with all branch factors cubed. Constant
+invariant Hermitian forms have two sector coefficients; the symmetry
+does not fix their ratio or physical scale. This constrains allowed maps
+and Grams, but derives no physical field assignment or boundary condition.
+The proof remains pending separate review, with no new scientific run
+and no physical-input row marked paid.
+
+All configured remote references were refreshed again on October 19;
+main remains `2e5716bd9` and the SM seat `11ec0144e`. This refresh
+does not promote the other checkout's untracked B1672 packet to an
+accepted main result or establish correctness by branch provenance.
