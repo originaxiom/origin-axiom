@@ -305,3 +305,28 @@ Exterior kernel data and compatibility constraints cannot be dropped
 when eliminating fields. The derived evolution still needs an admitted
 global exterior/state to supply its initial response; no physical end
 law is claimed. This remains analytic work outside frozen v3 execution.
+
+## Same domain normalization continuation
+
+October 19. The [weight-three intake](KINETIC_NORMALIZATION_AND_WEIGHT_THREE.md)
+establishes rank/phase preservation under positive normalization and
+quantifies the remaining metric dependence. The earlier
+`silver_cover_extension_2026_10_13` source already proves the complete
+charged holomorphic tensor constant under its exact extension; its
+older stationary NEXT paragraph must not trigger another tensor scan.
+
+[The profile Gram derivation](CHARGED_PROFILE_GRAM_FROM_THE_SAME_DOMAIN.md)
+reduces harmonic representative normalization to the actual charged
+Dirichlet inverse with zero boundary primitives. Arbitrary absolute
+primitives are not allowable physical quotients. This gives a specified
+conditional calculation, not computed norms or a generated kinetic metric.
+It reuses the compact theory as a control and does not transfer it to
+the modular/puncture model without the missing carrier/field/domain map.
+
+The [integer end-data proof](INTEGER_END_DATA_AND_REGISTER.md) limits
+ordinary additive integers on the specified reversible group. Relational
+cocycles, generated topology and state-dependent end fields remain open.
+No conclusion about that limited route is a whole-program chirality kill.
+Both attempted independent review lanes stopped at service usage limits;
+the latest geometric, response, integer and normalization notes remain
+pending review and prospective admission. The full goal is unfinished.
