@@ -436,3 +436,17 @@ original fibre coefficient. Its quartet-valued cubic needs a complete
 bulk transition map, not only the matching puncture sign. That duty
 prevents promoting the allowed representation map into a physical
 sector or truncation before the same-parent identification is proved.
+
+## Explicit matter-profile normalization continuation
+
+The [profile-norm calculation](EXPLICIT_MATTER_PROFILE_NORM_AND_END_SCOPE.md)
+reuses W21/B1642's actual branched doublet. Its three equivalent parity
+copies have a common scalar integrated Gram under the specified scalar
+coefficient metric and identical domains. Matter one-form norms are
+finite, finite-distance ordinary-spin norms are finite on the upper
+domain, and the complete-cusp ordinary-spin norm diverges. None is the
+Higgs channel's logarithmic cutoff norm. The scalar form-profile norm's
+modular covariance is derived, not its numerical value. This constrains
+normalization without inventing three free family weights, while leaving
+the same-parent physical dictionary and end-response derivation open.
+It is analytical work pending review, not a new scientific execution.
