@@ -315,6 +315,15 @@ quantifies the remaining metric dependence. The earlier
 charged holomorphic tensor constant under its exact extension; its
 older stationary NEXT paragraph must not trigger another tensor scan.
 
+The [relative word-area analysis](RELATIVE_WORD_AREA_AND_PHYSICAL_END_SCOPE.md)
+preserves a positive outside the additive-label obstruction: equal-count
+word pairs carry an integer invariant under common orientation-preserving
+word-frame transport. This reuses classical class-two nilpotent algebra
+and the existing deeper register tower. Its scalar central-circle map
+does not extend to a representation of all words, and no physical end
+field, interaction law or index is derived. It remains pending review,
+outside the frozen v3 controls and without scientific execution.
+
 [The profile Gram derivation](CHARGED_PROFILE_GRAM_FROM_THE_SAME_DOMAIN.md)
 reduces harmonic representative normalization to the actual charged
 Dirichlet inverse with zero boundary primitives. Arbitrary absolute
@@ -327,6 +336,13 @@ The [integer end-data proof](INTEGER_END_DATA_AND_REGISTER.md) limits
 ordinary additive integers on the specified reversible group. Relational
 cocycles, generated topology and state-dependent end fields remain open.
 No conclusion about that limited route is a whole-program chirality kill.
+The [received frontier-resolution audit](FRONTIER_RESOLUTION_REPORT_INTAKE.md)
+preserves the odd-determinant quaternion extension and candidate theta/
+gauge constructions, but rejects the transfer of cohomology parity signs
+to the different local boundary action. The supplied script does not
+verify its claimed four-dimensional index or physical mass derivation.
+Its full source/output were read, not executed, and no priced-input row
+is changed by that received report.
 Both attempted independent review lanes stopped at service usage limits;
 the latest geometric, response, integer and normalization notes remain
 pending review and prospective admission. The full goal is unfinished.
