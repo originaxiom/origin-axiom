@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "status": "Author classification record, not independent review or execution admission",
+  "classification": "SPECIFICATION.json is prospective source/command metadata; DESIGN.md is the separately sealed narrative verification design. The analytical results predate this verification proposal; no retrospective discovery preregistration is asserted.",
+  "frozen_paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/SPECIFICATION.json",
+      "sha256": "ce62d4eef2d694086091033ac3df8d05e31f0d9bb74841b57c04197f1d1ba069"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/DESIGN.md",
+      "sha256": "971fc3859f0a198ce2cb795e1afa3218d5bd134fb56bf70cdce4ef046b092ad4"
+    }
+  ]
+}

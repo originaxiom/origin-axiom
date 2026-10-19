@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "status": "Proposed runtime from existing v3 metadata; not newly executed or admitted",
+  "python": "3.12.1",
+  "implementation": "CPython",
+  "packages": {"sympy": "1.14.0", "mpmath": "1.3.0"},
+  "required_environment": {
+    "PYTHONHASHSEED": "0",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "SYMPY_GROUND_TYPES": "python"
+  },
+  "external_tools": ["git"],
+  "scope": "Exact symbolic algebra and finite rational/Gaussian populations; no numeric theta evaluation, physical measurements or global PDE certification."
+}

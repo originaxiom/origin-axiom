@@ -549,3 +549,30 @@ Neither control is a derived stationary global cap or a selected scale.
 This constrains the physical completion's missing data rather than
 supply a favourable boundary condition. It is analytical work pending
 review, with no scientific execution, full input payment or push.
+
+## Root/trace verification packet before execution
+
+October 19. [The dedicated verification proposal](verification_root_trace/DESIGN.md)
+contains eighteen exact methods covering root/based transport, the
+connecting-map algebra and actual trace intersections, the retained 2+4
+sector, and determinant/curvature controls. It preserves the exceptional
+theta domain and rank-jump locus, with 256 declared coordinate-domain
+cases and explicit wrong-sign/type/flux controls. None of these scientific
+methods has been imported, collected or run.
+
+Its specification pins 39 artifacts and a separate narrative design;
+both have prospective seal-ledger entries. The source inventory states
+its runtime closure and the primary-literature/global-analysis obligations
+that still need substantive review. Author hashing does not establish
+independent source completeness. The entrypoint reuses frozen v3's
+admission/custody infrastructure without editing it; its new parameter
+binding itself remains untested, and inherited fixture results are not
+a certificate for that wrapper.
+
+Only static syntax/JSON/population and whitespace checks were performed.
+The separate review checklist names the analytic proof duties rather
+than replace them with finite tests. Independent review, main acceptance,
+strict prospective admission, execution, and publication gates remain
+outstanding. Historical noncompliance remains unchanged. The previous
+frozen v2/v3 packages and old staged phase10 work are preserved. No
+physical-input payment, scientific pass or push is claimed.

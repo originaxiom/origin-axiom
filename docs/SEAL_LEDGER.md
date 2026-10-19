@@ -9303,3 +9303,10 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 |---|---|---|---|---|
 | 2026-10-18 | BEFORE all mathematical imports and runs, revision 3 | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/SPECIFICATION.json` | `6207558d7144bad113d87ee5abab66e7fa771c7d169e6266268e9157bfe22ea7` | Thirty-two intended controls; forty artifact pins; separate successor review, main acceptance and prospective admission required. Original proposal and historical failures preserved. |
 | 2026-10-18 | BEFORE all mathematical imports and runs, revision 3 | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/DESIGN.md` | `48ffeb95343d9808225729a033c54c7d07072b9677aa9f9df47b6efd8c934f56` | Corrected order/coordinate declarations, inherited instrument controls and strict source custody; no mathematical execution or physical completion. |
+
+## Theta root, puncture trace and completion verification proposal
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-19 | BEFORE scientific import, collection and execution; AFTER analytical derivation | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/SPECIFICATION.json` | `ce62d4eef2d694086091033ac3df8d05e31f0d9bb74841b57c04197f1d1ba069` | Eighteen intended controls and 39 artifact pins; independent source review, exact main acceptance and strict prospective admission remain required. Not permission to run. |
+| 2026-10-19 | BEFORE scientific import, collection and execution; AFTER analytical derivation | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/DESIGN.md` | `971fc3859f0a198ce2cb795e1afa3218d5bd134fb56bf70cdce4ef046b092ad4` | Exact positive/countercontrols plus explicit analytic-review duties; syntax inspection is not scientific execution and earlier authored results are not retrospectively preregistered. |

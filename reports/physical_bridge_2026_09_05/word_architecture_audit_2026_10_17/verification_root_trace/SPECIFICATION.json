@@ -1,0 +1,232 @@
+{
+  "schema": 1,
+  "experiment_id": "theta-root-trace-completion-controls-v1",
+  "authors": [
+    "physical-bridge-seat"
+  ],
+  "design": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/DESIGN.md",
+    "sha256": "971fc3859f0a198ce2cb795e1afa3218d5bd134fb56bf70cdce4ef046b092ad4"
+  },
+  "artifacts": [
+    {
+      "path": "scripts/gates/prospective.py",
+      "sha256": "f1f446846d07cbdb649eb04cc0971ad6f5fc1bc89a85493203b3f2ede0c52065",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/gates.py",
+      "sha256": "3d4e6ab844a462cdb9ab10d79d4cabefa77154969cc33d4c143ca4b9367f9176",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/provenance_policy.py",
+      "sha256": "19b0fa2382a31fb6a0d943f6df11b0b7dc482494a90e94013c2e2947a65f53c2",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/check_path_references.py",
+      "sha256": "4c04dda43e898e0f58ff46aa711de5035f7bc394583989f1ac71ffd027665b01",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/check_test_vacuity.py",
+      "sha256": "cacea50360bcf3a17bb65a6af85e24cba9e62ac7cd82bfdf6b72675c35dda867",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/retraction_sweep.py",
+      "sha256": "4d1ecc5e57a0ed56c428b2b5f4b8e107755ce3a511f2924dae26b73840ee37f4",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/relay_debt.py",
+      "sha256": "620b4ce71ff2c9227f1d8eafd5cf63e41bd4d30edaba8c4840ee432fedafe2ab",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/doc_currency.py",
+      "sha256": "89c0d8d5e401b622cffc5a8a85dcb082c59e89bef4bdfacb1529c025ac6dfed4",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/representation_sweep.py",
+      "sha256": "0c9b5daadbac3a3f6e7edb9b8cf55bb47d65cc9baa2153c84293bb091e3d4e37",
+      "role": "source"
+    },
+    {
+      "path": "scripts/views/generate.py",
+      "sha256": "e8f5594c877ff3df10c27b5637a931904bed85fec21b62300b11b2d2f4dcf0af",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/tracked_state.py",
+      "sha256": "22ac6ab65ed48fa5e1aeb92f74a9c7215ae4bf61825749a1ce66ce81854cc7f1",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/prospective_strict.py",
+      "sha256": "82985893d0db217514f7acfa5e676089e14eed30c6d98b0e6f22770fc4533f26",
+      "role": "source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py",
+      "sha256": "1cc1c9e299be3f85df41d066b2673c2c62b33e83ad978603f769cf04fd8adbf0",
+      "role": "source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/run_checks.py",
+      "sha256": "5b50cb08220bae9e6b4ef697cb11a9ddbdd6c97c5eca60df7ddac44fedd4725d",
+      "role": "source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/checks.py",
+      "sha256": "6e85b06cc9adf3c69d68906402742dd43f0682d0b154367e4bee05d6fdc14f28",
+      "role": "test"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/ENVIRONMENT.json",
+      "sha256": "1386206ae4d8d75cb6c1612163d3c3c2227a5cd660e0f368c02b1ee9b05efd26",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/SOURCE_INVENTORY.md",
+      "sha256": "be5bc0b31b3db23cc8cea723732607d60579f726912eb861f74930262b8a19fe",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/REVIEW_CHECKLIST.md",
+      "sha256": "5c8c0d1844008f6675b4a56a1429d3e4e5979b26744c0ea7af0e65b712a1968a",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/STATIC_INSPECTION.md",
+      "sha256": "2974e42a6641e2524d971b94f29b491b462013073b8b292f0ec070868dcadc44",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/THETA_ROOT_COVER_AND_GLOBAL_SCOPE.md",
+      "sha256": "759ad3f7b92e616e0f47c29d313a197877485ea1e41f84705a32d02b23d5ca98",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/JOINT_ROOT_ACTION_AND_AUTOMORPHY.md",
+      "sha256": "a6067694e723761b17042703c0d50f67cc7f749655575dade187ada2cc045536",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_PUNCTURE_CONNECTING_MAP_AND_TRACE.md",
+      "sha256": "531821069962385beeb04f6b6c6c99a1c9f712e36bd36eb0eaf26b62c2daef35",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SMOOTH_COMPLETION_DETERMINANT_AND_END_PRICE.md",
+      "sha256": "b5d722d581e778b4c7207cdd2d830085027d77e8ebad846d65105d02fdc6b7d7",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COHERENT_WORD_LIFTS_AND_LOCAL_BOUNDARY.md",
+      "sha256": "000a8df7534b57bbbd62a5ff22a5b2d9a3817e52c8cd03e08ffb3428e3cf28ca",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FAITHFUL_LIFTED_REGISTER_TOWER.md",
+      "sha256": "31c8126d379401b0bd1660d9881bacdf3f85df5020307e196b445bb43b287223",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/MATTER_AND_BOUNDARY_COMMON_REGISTER.md",
+      "sha256": "919d215b4f6f6d32095c8341d7bef2036b97ae41d74b2fd849881a32cd6551f6",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GEOMETRIC_THETA_REGISTER.md",
+      "sha256": "59268072937a02e17e48794ecaa3b9f64fc7870e2de14d85ff7efbcbe3ca9c69",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/THETA_SEQUENCE_REPAIR_AND_MONODROMY_DUTY.md",
+      "sha256": "9ef89181bac358d63c5de77be091fade474085ab5f39ea6397105f933038a0ae",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_DOUBLET_QUARTET_AND_NORMALIZATION.md",
+      "sha256": "33d1fe14ed077a20814c93bd7f4be89627794264f7fc4dc3c399eb7de4c3cb78",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COEFFICIENT_METRIC_CONSTRAINTS_AND_PHYSICAL_PRICES.md",
+      "sha256": "b13da01dddef09d1c2ed4c95f5d43aaf2a7b7a27728c8529ca8a2ed0cd0b082e",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXPLICIT_MATTER_PROFILE_NORM_AND_END_SCOPE.md",
+      "sha256": "0a0fba944ef54b00e1a658f839a1ea93ba6fa7db5b4a3113e9e9cc6dcbe28443",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXTERIOR_RESPONSE_AND_JOINING.md",
+      "sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/PROOF.md",
+      "sha256": "9c496728d230798a4db14841f91fe2ef272720be69950292164b4c697414bbd5",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/PROOF.md",
+      "sha256": "3ac161b2e4418b8826de0926ef853262d2f98ef57a1743a663d0b488f7d153c0",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/PROOF.md",
+      "sha256": "0102fc971479acc9d57a05c6234dcbf4ada7007269d96bc4931719bebabf929f",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md",
+      "sha256": "cedd75ade10476f0cf20ff783edd3a4e81caa5196b3b702ede66a066669b360d",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/PROOF.md",
+      "sha256": "b1fc46adf8f9e6c397635badd425b8dbed359e792233180840564e2948a22890",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/upstream_puncture_fredholm_PROOF.md",
+      "sha256": "0977f84f75df44e11ce1f65bbe17e5b6d4a602e2ff3bb927ea991f81d93e2aaf",
+      "role": "input"
+    }
+  ],
+  "commands": [
+    {
+      "entrypoint": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/run_checks.py",
+      "argv": [
+        "python3",
+        "-B",
+        "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/run_checks.py",
+        "--admission",
+        "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/ADMISSION.json",
+        "--output",
+        "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/results/attempt_01.jsonl",
+        "--log",
+        "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/results/attempt_01.log"
+      ]
+    }
+  ],
+  "outputs": [
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/results/attempt_01.jsonl",
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/results/attempt_01.log"
+  ],
+  "environment": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/ENVIRONMENT.json",
+    "sha256": "1386206ae4d8d75cb6c1612163d3c3c2227a5cd660e0f368c02b1ee9b05efd26"
+  }
+}
