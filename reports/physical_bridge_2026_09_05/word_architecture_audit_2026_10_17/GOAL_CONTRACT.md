@@ -503,3 +503,29 @@ geometric direct images and the same physical operator/domain, including
 the half-order normal frame and interacting end response. No complete
 input row, execution admission, publication certificate or completed
 SM/gravity goal is claimed.
+
+## Actual puncture connecting map and physical trace comparison
+
+The [principal-parts calculation](ACTUAL_PUNCTURE_CONNECTING_MAP_AND_TRACE.md)
+reuses the fixed elliptic fibre's actual lower/upper sheaves and finite-
+distance Fredholm theorem. Its connecting map is derived through Serre
+duality as delta(u)_p=b^T epsilon u_p, b=v/sqrt(theta_1'(0)). The
+three-dimensional theta image is the space of GLOBAL solution traces U,
+not the six-dimensional upper domain or an independently chosen Lambda.
+Both kernel dimensions reduce to the rank of delta restricted to Lambda.
+Choosing Lambda=U would retain three modes of either grading, not earn
+the upper extreme's index. This is a scoped comparison, not a new kill.
+
+The same cover yields lower scalar and upper one-form lattices by its
+actual inertia action. Smoothness cannot be applied without specifying
+the field type; a branched pullback of an ordinary spin line is not
+automatically a smooth spin line upstairs. The complete-cusp spin norm,
+twisted-form positive and full companion continuum remain distinct.
+The actual interior trace now constrains a future physical exterior
+response, but does not generate that response or select a domain.
+
+This is authored analytical progress awaiting independent review and
+admitted execution, not a completed physical input payment. The full-E
+family identification of the actual sheaf sequence still needs its
+transported puncture, normal frame and duality factors. Frozen science
+packages and staged historical work are unchanged; no push is claimed.
