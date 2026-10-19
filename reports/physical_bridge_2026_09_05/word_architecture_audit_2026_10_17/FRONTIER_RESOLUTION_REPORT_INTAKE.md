@@ -229,3 +229,41 @@ resolution: it mixes useful constructions, missing bridges and concrete
 checking defects. The latest analytic work here also remains pending
 separate review. Frozen v3 and the preserved historical failures are
 unchanged; no new scientific execution or publication pass is claimed.
+
+## Follow-up: untracked B1672 and its added locks
+
+The same producer was subsequently located in the other local checkout
+at `/Users/dri/origin-axiom/frontier/B1672_discharging_triplet_index_gauge_frontier/`.
+Its hash matches the scratch producer above. That checkout's HEAD is
+still `2e5716bd9`; Git reports both the B1672 directory and its new test
+file as UNTRACKED. Its FINDINGS author/verdict text is received content,
+not evidence that main committed or independently accepted this result.
+
+The complete FINDINGS and added test file were read, without execution.
+FINDINGS SHA256 is
+`0bf9661ec063986f6e15c5b51dc0602aab1544562716489f19c0b300f62d21f5`;
+`tests/test_b1672_discharging_triplet_index_gauge_frontier.py` SHA256 is
+`bd5b4e056588f0d98ef2b1f634545c74aac7b1f5efe063197a88c59bb6ea86af`.
+
+The purported live local-domain check does not construct the actual
+B1606 generator action or its invariant doublet. It chooses a coordinate
+rank-two projector and manually enters a different `Pa_L6` that mixes
+it. That verifies the entered example, not the required representation.
+The spin-sign check likewise assigns its desired matrices directly.
+Its explanatory comment even equates exp(2 pi i) with -1; the actual
+character on Delta^4 needs the correct word exponent, not that equality.
+The weak-root test only checks that -I2 commutes with the SU(2) adjoint,
+not the full E8 relation. These are insufficient locks for the claims.
+
+FINDINGS adds an assertion that a minimal nontrivial divisor fixes n=1.
+No proof of its quoted integral cohomology group or of a physical
+minimal-divisor selection is supplied by the inspected producer/test.
+Selecting a generator of a mathematical integer group is not in itself
+a law forcing the physical background to carry that generator.
+
+The next [theta-sequence derivation](THETA_SEQUENCE_REPAIR_AND_MONODROMY_DUTY.md)
+does recover an exact, weight-dependent sequence on the restricted
+Omega quotient, with explicit frames and hands. Its full-E extension
+fails on the modulus/lattice-only base by the J_c stabilizer sign.
+This is a useful positive and a precise next monodromy duty, not a
+global rejection of theta-dependent puncture maps.

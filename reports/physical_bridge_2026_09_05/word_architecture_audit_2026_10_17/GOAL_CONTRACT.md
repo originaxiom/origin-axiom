@@ -343,6 +343,17 @@ to the different local boundary action. The supplied script does not
 verify its claimed four-dimensional index or physical mass derivation.
 Its full source/output were read, not executed, and no priced-input row
 is changed by that received report.
+The [corrected theta sequence](THETA_SEQUENCE_REPAIR_AND_MONODROMY_DUTY.md)
+now supplies exact weight-dependent maps on the restricted braid quotient,
+including analytic nonvanishing and generator automorphy. Its extension
+to the full E on the reduced base is obstructed by the retained J_c
+monodromy sign. An explicit branched theta doublet recovers the required
+fibre commutator monodromy, but its half-order pole, derivative factor
+and modular multiplier cannot be dropped. Its complete modular/branch
+cocycle and geometric map identification remain the next duty,
+not another constant-intertwiner search or an index
+inferred from the sequence alone. This analytical repair is unreviewed
+and outside the frozen scientific controls.
 Both attempted independent review lanes stopped at service usage limits;
 the latest geometric, response, integer and normalization notes remain
 pending review and prospective admission. The full goal is unfinished.
