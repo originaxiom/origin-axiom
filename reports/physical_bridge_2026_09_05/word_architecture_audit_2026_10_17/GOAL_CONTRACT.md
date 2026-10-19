@@ -419,3 +419,20 @@ All configured remote references were refreshed again on October 19;
 main remains `2e5716bd9` and the SM seat `11ec0144e`. This refresh
 does not promote the other checkout's untracked B1672 packet to an
 accepted main result or establish correctness by branch provenance.
+
+## Coefficient-metric input reduction
+
+The [same-frame flat-metric audit](COEFFICIENT_METRIC_CONSTRAINTS_AND_PHYSICAL_PRICES.md)
+adds actual fibre holonomy unitarity to the constant move-invariant
+coefficient form. Together they force equal doublet/quartet weights,
+so that conditional model has no independent sector ratio. A positive
+modulus-dependent covariant family shows why dropping constancy changes
+the result; a physical field redefinition must carry its connection,
+interactions and domain. Metric uniqueness does not imply domain
+uniqueness. This is a derived compatibility constraint pending review,
+not a completed physical kinetic-input payment or a scientific run.
+The move-invariant 2+4 split is also not a parallel splitting of the
+original fibre coefficient. Its quartet-valued cubic needs a complete
+bulk transition map, not only the matching puncture sign. That duty
+prevents promoting the allowed representation map into a physical
+sector or truncation before the same-parent identification is proved.

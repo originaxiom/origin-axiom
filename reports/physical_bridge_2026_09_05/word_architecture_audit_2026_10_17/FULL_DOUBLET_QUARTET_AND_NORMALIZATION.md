@@ -115,6 +115,14 @@ This constrains an allowed map; it does not force the theory to
 include that field or vertex. Conjugate-dependent maps and additional
 coefficients have other domains and are not excluded by this uniqueness.
 
+The [actual-holonomy comparison](COEFFICIENT_METRIC_CONSTRAINTS_AND_PHYSICAL_PRICES.md)
+further shows that W4 here is a move-invariant summand, not a
+parallel subbundle of the original rank-six flat coefficient.
+For a branched f, cubic covariance under O_g tensor g does not
+equal its original bulk period action I3 tensor g. No bulk quartet
+field/truncation is obtained until that full transition map is supplied
+or derived. Its central monodromy match alone does not discharge this.
+
 ## What symmetry does and does not fix about normalization
 
 Inequivalence and irreducibility imply every CONSTANT invariant
@@ -129,6 +137,13 @@ a physical input count. Symmetry does not fix h2/h4.
 State-dependent covariant forms, integrated harmonic-profile Grams
 and physical boundary metrics need not belong to this constant class.
 Those conditions must be derived before (7) prices a physical input.
+
+The [flat-coefficient successor](COEFFICIENT_METRIC_CONSTRAINTS_AND_PHYSICAL_PRICES.md)
+now imposes the actual holonomy compatibility in this same frame.
+Within the constant, fibre-parallel, move-invariant class it forces
+h2=h4: the two-weight freedom above was for move invariance alone.
+State-dependent covariance and physical profile normalization remain
+different questions. Neither conclusion selects a boundary domain.
 
 Pulling (7) back through the SAME I_v gives
 
