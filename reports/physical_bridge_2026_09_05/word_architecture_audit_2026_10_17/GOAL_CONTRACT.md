@@ -450,3 +450,31 @@ modular covariance is derived, not its numerical value. This constrains
 normalization without inventing three free family weights, while leaving
 the same-parent physical dictionary and end-response derivation open.
 It is analytical work pending review, not a new scientific execution.
+
+## Actual root-cover and geometric-sequence continuation
+
+October 19. After the correspondence detour, the saved goal initially
+reported a usage limit; those status-only turns made no research progress.
+The subsequent authorized continuation refreshed all remote references
+successfully, with main and the SM branch unchanged, and preserved the
+old staged phase10 diff. No scientific suite was running at the process
+inspection and no scientific producer was executed.
+
+The [root-cover checkpoint](THETA_ROOT_COVER_AND_GLOBAL_SCOPE.md)
+gives the existing theta profile an explicit global presentation on the
+already-known degree-eight quaternion cover. The intermediate double
+cover is over the doubled-period torus, with four branch points, not a
+double cover with one branch point over the original torus. Actual period
+maps recover Q8; modular root maps descend and obey S^4=C and
+(S L)^3=S^2 with their phases retained. The regular form doublet has no
+common zero and supplies an explicit global Koszul-sequence control.
+
+These authored arguments are pending independent review, not an accepted
+physical derivation or a new discovery of the quaternion cover. Full-E
+identification still requires the joint based relations and marking
+comparison: assigning its J_c to the sheet flip forces a particular
+geometric action for epsilon. The global sequence is not automatically
+the puncture evaluation sequence or a physical index. The physical end
+law, source/target bundles and same-parent dictionary remain duties;
+no full priced-input row or completed research goal is claimed. Frozen
+v2/v3 remain unchanged and their scientific controls unrun.
