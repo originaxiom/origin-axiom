@@ -576,3 +576,27 @@ strict prospective admission, execution, and publication gates remain
 outstanding. Historical noncompliance remains unchanged. The previous
 frozen v2/v3 packages and old staged phase10 work are preserved. No
 physical-input payment, scientific pass or push is claimed.
+
+## Registered principal parts and the vertical Green pairing
+
+The [normal-frame successor](REGISTERED_PRINCIPAL_PARTS_AND_GREEN_TRANSPORT.md)
+retains the actual ramification lift y and normal derivative r_e(y).
+The root equation derives d'=j^2 r^2 d and n'=r k g n. With trace
+I_y(x)=x tensor n_y and the actual connecting row n_y^T epsilon/d_y,
+the three sequence maps have actions k^-1 O, r W and k j^-2 O.
+This gives an explicit compatible transport of the actual fibrewise
+principal-parts sequences, rather than borrow the pointwise Koszul
+module or forget the normal half-order frame.
+
+For the declared vertical ordinary-spin lift, the extra j factor
+also preserves the actual Green form in the w normal coordinates.
+The commutator sign cancels against the geometric normal derivative;
+the separate epsilon sign cancels in that spin/coefficient product.
+These are conditional field-specific cancellations, not loss of the
+full register or a new physical domain selector. The higher-dimensional
+Spin-c/R/whole-E8 dictionary and modular-cusp extension remain separate.
+
+This is unreviewed analysis outside the frozen 444648150 proposal.
+Its 39 pins and eighteen unrun controls are unchanged. No admitted
+scientific run, main acceptance, input-row payment, publication or
+completed physical goal is claimed.
