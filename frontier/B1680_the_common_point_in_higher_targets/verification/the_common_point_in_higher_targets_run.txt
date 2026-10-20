@@ -1,0 +1,26 @@
+n=2 Q8 (SU2)       order    8: filtered generating tuples      24; fixed by every move 24
+n=2 2T (SU2)       order   24: filtered generating tuples       0; fixed by every move 0
+n=2 H(3) (U3)      order   27: filtered generating tuples     432; fixed by every move 432
+n=2 H(5) (U5)      order  125: filtered generating tuples   12000; fixed by every move 12000
+n=2 A4 (SO3)       order   12: filtered generating tuples       0; fixed by every move 0
+n=2 S4 (SO3)       order   24: filtered generating tuples       0; fixed by every move 0
+n=2 A5 (SO3)       order   60: filtered generating tuples       0; fixed by every move 0
+n=2 Delta54 (SU3)  order   54: filtered generating tuples       0; fixed by every move 0
+n=2 PSL27 (SU3)    order  168: filtered generating tuples       0; fixed by every move 0
+n=3 Q8 (SU2)       order    8: filtered generating tuples       0; fixed by every move 0
+n=3 2T (SU2)       order   24: filtered generating tuples       0; fixed by every move 0
+n=3 H(3) (U3)      order   27: filtered generating tuples    3888; fixed by every move 0
+n=3 A4 (SO3)       order   12: filtered generating tuples       0; fixed by every move 0
+n=3 S4 (SO3)       order   24: filtered generating tuples       0; fixed by every move 0
+n=3 A5 (SO3)       order   60: filtered generating tuples       0; fixed by every move 0
+n=3 Delta54 (SU3)  order   54: filtered generating tuples       0; fixed by every move 0
+n=3 PSL27 (SU3)    order  168: filtered generating tuples       0; fixed by every move 0
+n=4 Q8 (SU2)       order    8: filtered generating tuples       0; fixed by every move 0
+n=4 2T (SU2)       order   24: filtered generating tuples       0; fixed by every move 0
+n=4 H(3) (U3)      order   27: filtered generating tuples       0; fixed by every move 0
+n=4 A4 (SO3)       order   12: filtered generating tuples       0; fixed by every move 0
+n=4 S4 (SO3)       order   24: filtered generating tuples       0; fixed by every move 0
+n=4 A5 (SO3)       order   60: filtered generating tuples       0; fixed by every move 0
+n=4 Delta54 (SU3)  order   54: filtered generating tuples       0; fixed by every move 0
+cells: {'C0 n = 2: H(3), H(5) and Q8 have a common point': True, 'C1 n = 3: no target has a common point': True, 'C2 n = 4: no target (order <= 60) has a common point': True}
+n = 2 targets with a common point: ['n=2 Q8 (SU2)', 'n=2 H(3) (U3)', 'n=2 H(5) (U5)']
