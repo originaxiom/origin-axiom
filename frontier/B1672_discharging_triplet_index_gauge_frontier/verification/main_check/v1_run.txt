@@ -1,0 +1,20 @@
+Lab^-1 o Lba = {'a': 'a', 'b': 'Aba'}  (f o g = f after g)
+Lba o Lab^-1 = {'a': 'a', 'b': 'Aba'}
+Rba^-1 o Rab = {'a': 'Bab', 'b': 'b'}
+Rab o Rba^-1 = {'a': 'Bab', 'b': 'b'}
+conj(A) {'a': 'a', 'b': 'Aba'} conj(B) {'a': 'Bab', 'b': 'b'} conj(a) {'a': 'a', 'b': 'abA'} conj(b) {'a': 'baB', 'b': 'b'}
+Lab H1= [[1, 1], [0, 1]] det 1
+Lba H1= [[1, 1], [0, 1]] det 1
+Rab H1= [[1, 0], [1, 1]] det 1
+Rba H1= [[1, 0], [1, 1]] det 1
+ML shape (6, 6)
+PAR [(1, 0), (0, 1), (1, 1)] [-1, 1, -1] [1, -1, -1]
+RL2R==Pa True  ==Pb False  LR2L==Pb True ==Pa False
+RL2R diag [-1. -1.  1.  1. -1. -1.] offdiag norm 5.769712276720044e-16
+LR2L diag [ 1.  1. -1. -1. -1. -1.]
+order <ML,MR> = 96
+order <ML,MR,Pa,Pb> = 96
+Pa in G: True Pb in G: True
+<chi,chi> on V (G) 2.0000000000000067 (G2) 2.000000000000001
+commutant dim <ML,MR>: 2  <ML,MR,Pa,Pb>: 2
+T invariant under ML,MR: [np.float64(1.7580204057384416e-10), np.float64(1.7580199929348565e-10)]

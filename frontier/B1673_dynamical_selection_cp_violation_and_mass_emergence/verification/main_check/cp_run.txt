@@ -1,0 +1,4 @@
+true complex points: fixed by reflection: [False, False, False, False, False, False, False, False, False, False, False, False]
+arc reading a+b om: 4 of 12
+true reading cp-even among 72: 36
+closed under reflections True under mu6 True

@@ -1,0 +1,24 @@
+{
+  "id": "B1671",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": true,
+  "identifications": [],
+  "depends_on": [
+    "B1635",
+    "B1636",
+    "B1640"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the triplet's Yukawa couplings on the ruled branch (modular forms for rho-bar (x) rho-bar and rho-bar (x) rho at one tau)",
+    "object": "the parameter-free sectors (the weight-one symmetric zero-diagonal coupling and the identity), the determinants of the minimal couplings, the strong-CP phase",
+    "reach": "class",
+    "hypotheses": "the sum rule for symmetric zero-diagonal couplings only; no Cabibbo angle given the same tau and representation in both sectors; the phase law with real coefficients, |Re tau| <= 1/2, large Im tau, tree level; the fits of N10c not certified"
+  },
+  "claim_one_line": "THE DEDEKIND PHASE, VERIFIED AND SCOPED ON MAIN (re-banks the referee lane's sealed arc, numbered B1669 on its branch; seal 20ed2c300 intact, the deterministic cells re-executed, every identity checked independently): in a symmetric zero-diagonal sector the masses obey m1 = m2 + m3 (B1636; e1^2 = 4 e2 symbolically), so the parameter-free sectors (the weight-one O+ coupling and the identity) have m2/m1 >= 1/2 at every tau -- no hierarchy; no Cabibbo angle in them, from the dimension fact (both sectors one-dimensional at the minimal weights); det Y1 = 8 eta^6 and the higher determinants are eta^6 times level-one forms; with real coefficients the strong-CP phase is 12 arg eta(tau) = pi Re tau + O(|q|) (1.7e-6 at Im tau = 2.5, 2.1e-2 at Im tau = 1). For a general zero-diagonal coupling the sum rule fails (min m2/m1 = 0.128). 0 of 19.",
+  "weave_or_thread": "neither (the triplet's couplings at one tau; one frame)"
+}

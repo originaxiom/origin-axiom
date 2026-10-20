@@ -1,0 +1,32 @@
+{
+  "id": "B1673",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": true,
+  "identifications": [],
+  "depends_on": [
+    "B1606",
+    "B1649",
+    "B1651",
+    "B1653",
+    "B1654",
+    "B1656",
+    "B1657",
+    "B1659",
+    "B1670",
+    "B1671",
+    "B1672"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the full wordings weave Aut+(F2) on the moduli space M1,2 and the Selberg path sum on the trefoil arena",
+    "object": "dynamical vacuum selection of modulus tau and flat hypercharge lines w; spontaneous CP violation; rank-3 lift of electron and first-generation quark masses; emergence of generational mass hierarchies via inter-thread Selberg amplitudes",
+    "reach": "class",
+    "hypotheses": "4D modular Casimir potential on M1,1; Kronecker limit Green function on E_omega; the full wordings weave Aut+(F2); Selberg trace sum over closed hyperbolic geodesics"
+  },
+  "claim_one_line": "DYNAMICAL SELECTION, SPONTANEOUS CP VIOLATION, AND FERMION MASS EMERGENCE: (1) The modular Casimir potential V_mod(tau) = -ln(Im tau |eta(tau)|^4) on M1,1 has its unique global minimum at tau = omega (V = 1.033519, gap 0.021169 to saddle tau = i, divergent at cusp), dynamically deriving the hexagonal modulus tau = omega. (2) The Kronecker limit Green function on E_omega over all 72 order-9 torsion points attains its unique global minimum (G = -0.504572) on an orbit of exactly 12 points, discharging the choice of flat hypercharge lines. (3) 8 of the 12 ground state points are CP-odd (2:1 dominance), so ground-state orbit averaging spontaneously breaks reflection symmetry, yielding non-zero Jarlskog J_CKM != 0. (4) While single points enforce rank <= 2 (massless first generation), ground-state orbit averaging lifts the algebraic rank to 3 across all sectors, yielding non-zero masses for electron, up quark, and down quark naturally without ad-hoc regulators. (5) Selberg geodesic path summation on the trefoil arena at the golden length s = 4 ln phi yields a realistic generational mass hierarchy and non-zero CKM mixing.",
+  "weave_or_thread": "weave (the full non-cancelling wordings grammar Aut+(F2) and Selberg path sum)"
+}

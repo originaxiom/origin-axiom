@@ -1,0 +1,87 @@
+quark masses at M_Z (GeV, 4-loop QCD from PDG 2024 inputs): u 0.0012714, d 0.0027105, s 0.053597, c 0.63345, b 2.8777
+   control: this running on Huang-Zhou's inputs against their table (the residual is their EW/Yukawa part): u +1.5%, d +1.1%, s +1.1%, c +1.6%, b +0.9%
+   this running on PDG 2024 inputs against their table: u +3.4%, d +1.5%, s +0.8%, c +2.2%, b +1.4%
+
+R1 Koide (pole masses; and at M_Z)
+   Q(pole) vs 2/3: value 0.666664 target 0.666667 sigma 5.08e-06 pull -0.43 rel -0.00% -> HOLDS
+   m_tau from Q = 2/3 and (m_e, m_mu): 1776.97 MeV vs 1776.93 +- 0.09 (pull +0.43)
+   Q(M_Z running masses) = 0.66782, deviation +1.16e-03 -> FAILS at M_Z (scale-specific)
+
+R2 Gatto-Sartori-Tonin
+   sqrt(m_d/m_s) vs |V_us|: value 0.224881 target 0.22501 sigma 0.00153 pull -0.08 rel -0.06% -> HOLDS
+   sqrt(m_s/m_b) vs |V_cb|: value 0.136475 target 0.04183 sigma 0.00284 pull +33.31 rel +226.26% -> FAILS
+
+R3 Georgi-Jarlskog
+   (m_mu/m_tau)/(m_s/m_b) vs 3: value 3.16093 target 3 sigma 0.0665 pull +2.42 rel +5.36% -> APPROXIMATE
+   (m_d/m_b)/(m_e/m_tau) vs 3: value 3.37042 target 3 sigma 0.077 pull +4.81 rel +12.35% -> FAILS
+
+R4 gauge unification, one loop (SM content; MSSM content above 1 TeV)
+   SM: unification-predicted sin^2 theta_W: value 0.207596 target 0.23129 sigma 0.00231 pull -10.24 rel -10.24% -> FAILS
+   SM: pairwise meeting scales log10 {'12': 13.01, '13': 14.38, '23': 16.99}, spread 3.98 decades; M_X = 10^14.83
+   MSSM: unification-predicted sin^2 theta_W: value 0.229053 target 0.23129 sigma 0.00231 pull -0.97 rel -0.97% -> HOLDS
+   MSSM: pairwise meeting scales log10 {'12': 15.98, '13': 16.16, '23': 16.4}, spread 0.42 decades; M_X = 10^16.21
+
+R5 criticality of the Higgs quartic
+   M_h,crit(direct m_t) vs M_h: value 128.397 target 125.2 sigma 1.4 pull +2.29 rel +2.55% -> APPROXIMATE
+   direct: gap M_h,crit - M_h = +3.20 GeV; lambda(M_Pl) NNLO fit = -0.0105; log10 Lambda_I = 11.2
+   M_h,crit(pole_xs m_t) vs M_h: value 128.057 target 125.2 sigma 1.89 pull +1.51 rel +2.28% -> HOLDS
+   pole_xs: gap M_h,crit - M_h = +2.86 GeV; lambda(M_Pl) NNLO fit = -0.0094; log10 Lambda_I = 11.4
+   one-loop control: lambda(M_Pl) = -0.0303; lambda crosses zero at 10^8.3 GeV
+
+R6 quasi-infrared fixed point of y_t (one loop)
+   y_t(M_Pl) = 1.5: fixed-point m_t (tree) vs m_t: value 214.827 target 172.57 sigma 6.45 pull +6.55 rel +24.49% -> FAILS
+   y_t(M_Pl) = 3.0: fixed-point m_t (tree) vs m_t: value 219.662 target 172.57 sigma 6.6 pull +7.14 rel +27.29% -> FAILS
+   y_t(M_Pl) = 10.0: fixed-point m_t (tree) vs m_t: value 221.194 target 172.57 sigma 6.64 pull +7.32 rel +28.18% -> FAILS
+
+R7 Veltman condition
+   m_H from 4 m_t^2 - 2 M_W^2 - M_Z^2 vs M_h: value 312.871 target 125.2 sigma 0.649 pull +289.08 rel +149.90% -> FAILS
+
+R8 theta_C = pi/14 (Delta(6 7^2))
+   pi/14 (deg) vs theta_C: value 12.8571 target 13.0035 sigma 0.04 pull -3.66 rel -1.13% -> APPROXIMATE
+
+R9 Froggatt-Nielsen exponents log_lambda of the six mass ratios (lambda = |V_us|)
+   u_t 7.92, c_t 3.76, d_b 4.67, s_b 2.67, e_tau 5.49, mu_tau 1.90; within 0.2 of an integer: 2 of 6 (base rate 0.4 each; binomial expectation 2.4)
+
+R10 b-tau unification at 2e16 GeV, one loop
+   m_b/m_tau at M_Z 1.665; at 2e16 GeV: SM 0.665; MSSM tan beta 3/10/50: 3: 0.854, 10: 0.839, 50: 0.882
+
+R11 m_u = 0?
+   m_u = 0 vs m_u(2 GeV): value 0 target 0.0022 sigma 7e-05 pull -31.43 rel -100.00% -> FAILS
+
+THE LEDGER
+   gauge unification (SU(5) 3/8 + MSSM content)                             HOLDS        buys True  price a GUT group; the particle content to M_GUT (TeV supersymmetry); thresholds
+   gauge unification (SM content)                                           FAILS        buys False price a GUT group
+   Koide (pole masses)                                                      HOLDS        buys True  price (none)
+   Gatto-Sartori-Tonin                                                      HOLDS        buys True  price a texture zero in the (1,1) entries
+   the same texture: |V_cb| = sqrt(m_s/m_b)                                 FAILS        buys False price a texture zero in the (1,1) entries
+   Georgi-Jarlskog m_mu = 3 m_s                                             APPROXIMATE  buys True  price a Higgs with a colour-charged component (45 of SU(5) or (15,2,2)); a GUT group; running
+   Georgi-Jarlskog m_e = m_d/3                                              FAILS        buys False price a Higgs with a colour-charged component; a GUT group; running
+   criticality / asymptotic safety: lambda(M_Pl) = 0                        APPROXIMATE  buys True  price no new physics to M_Planck; one UV boundary condition
+   quasi-infrared fixed point of y_t                                        FAILS        buys False price a large top Yukawa at M_Planck
+   Veltman condition                                                        FAILS        buys False price cancellation of the one-loop quadratic divergence
+   theta_C = pi/14 from Delta(6 7^2)                                        APPROXIMATE  buys True  price a finite group of order 294 and a residual symmetry
+   Froggatt-Nielsen powers                                                  STRUCTURE    buys False price a U(1) charge per field; lambda; O(1) coefficients
+   b-tau unification                                                        FIT          buys False price a GUT group; the MSSM with tan beta
+   theta-bar = 0 by a mechanism (PQ, Nelson-Barr, weight-zero determinants) HOLDS        buys True  price a new U(1) and particle, or spontaneous CP with vector-like quarks, or CP + SUSY + reducible representations with chosen weights
+   theta-bar = 0 by m_u = 0                                                 FAILS        buys False price (none)
+   modular fits near fixed points / the cusp                                FIT          buys False price a finite modular group; tau; O(1) coefficients
+
+   dof bought (T1) = 6: ['g_i: one relation among three', 'm_H', 'm_s given m_mu (and m_b, m_tau)', 'm_tau given m_e, m_mu', 'theta-bar', 'theta_C']
+   HOLDS with an empty price (T2) = 1: ['Koide (pole masses)']
+   largest dof count of one hypothesis set (T3) = 2 (SUSY GUT: ['g_i: one relation among three', 'm_s given m_mu (and m_b, m_tau)'])
+   dof not bought (T4) = 13
+
+CELLS
+   C0: HOLDS  value null  (predicted this running on Huang-Zhou's inputs within 2.5% of their table for every flavour; Koide within 1e-4)
+   T1: HOLDS  value 6  (predicted 4..8)
+   T2: HOLDS  value ["Koide (pole masses)"]  (predicted exactly one: Koide)
+   T3: HOLDS  value 2  (predicted <= 3)
+   T4: HOLDS  value 13  (predicted >= 11)
+   T5: HOLDS  value {"Qpole": 0.6666644634145003, "mtau_pull": 0.4336342557081312, "QMZ": 0.6678239941864692}  (predicted |Q-2/3| < 2e-5, m_tau pull < 2, |Q(M_Z)-2/3| > 5e-4)
+   T6: HOLDS  value {"gst_pull": -0.08450923874072752, "Vcb_ratio": 3.2626023067039385}  (predicted GST pull <= 2; texture |V_cb| off by > 2x)
+   T7: HOLDS  value {"SM_spread": 3.9790215125274706, "MSSM_spread": 0.4183289815426843, "MSSM_rel": -0.009671443295719118, "SM_rel": -0.10244479026300779}  (predicted SM spread >= 1.5; MSSM spread <= 0.6; MSSM sin^2 within 2%; SM off by >= 5%)
+   T8: HOLDS  value {"gap": 3.1971428571428504, "one_loop_zero_log10": 8.286906259430632}  (predicted gap in [1, 6] GeV; one-loop lambda crosses zero below M_Pl)
+   T9: HOLDS  value {"1.5": 0.24486688580419558, "3.0": 0.2728847864466455, "10.0": 0.28176468651819}  (predicted fixed-point m_t above the data by > 15% for every y_t(M_Pl))
+   T10: HOLDS  value {"gj1": 3.1609253441789504, "gj2": 3.3704209809924954}  (predicted m_mu/m_s double ratio within 10% of 3; the m_e/m_d one outside 10%)
+   T11: HOLDS  value {"SM": 0.6651191208914589, "MSSM": {"3": 0.8537397858442974, "10": 0.8392169604870088, "50": 0.8817079657391192}}  (predicted SM ratio < 0.8 at 2e16; MSSM in [0.8, 1.0] at one loop for tan beta 3, 10, 50)
+all_hold True  [0s]

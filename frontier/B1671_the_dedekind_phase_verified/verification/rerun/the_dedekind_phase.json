@@ -1,0 +1,229 @@
+{
+ "plumbing": {
+  "order": 96,
+  "braid": true,
+  "s4_is_minus_one": true,
+  "exponents": [
+   0.125,
+   0.375,
+   0.875
+  ]
+ },
+ "table_TT": {
+  "1": {
+   "total": 1,
+   "D": 0,
+   "O+": 1,
+   "O-": 0
+  },
+  "3": {
+   "total": 2,
+   "D": 0,
+   "O+": 1,
+   "O-": 1
+  },
+  "5": {
+   "total": 4,
+   "D": 1,
+   "O+": 2,
+   "O-": 1
+  },
+  "7": {
+   "total": 5,
+   "D": 1,
+   "O+": 2,
+   "O-": 2
+  },
+  "9": {
+   "total": 7,
+   "D": 2,
+   "O+": 3,
+   "O-": 2
+  },
+  "11": {
+   "total": 8,
+   "D": 2,
+   "O+": 3,
+   "O-": 3
+  }
+ },
+ "table_TbT": {
+  "0": {
+   "total": 1,
+   "D": 1,
+   "O+": 0,
+   "O-": 0
+  },
+  "2": {
+   "total": 2,
+   "D": 1,
+   "O+": 1,
+   "O-": 1
+  },
+  "4": {
+   "total": 4,
+   "D": 2,
+   "O+": 2,
+   "O-": 2
+  },
+  "6": {
+   "total": 5,
+   "D": 2,
+   "O+": 3,
+   "O-": 3
+  }
+ },
+ "B1635_reproduced": true,
+ "N8": {
+  "closed_form_residual": 1.7491626847377222e-14,
+  "sum_rule_symbolic": "0",
+  "random": {
+   "max_sum_rule_dev": 1.0730277382549506e-15,
+   "min_floor": 0.5005758359792004
+  },
+  "grid_floor": {
+   "value": 0.5124026935514514,
+   "tau": [
+    0.5,
+    0.8923270440251572
+   ],
+   "max": 0.9997796841054833
+  },
+  "omega": [
+   0.5000000000000014,
+   0.5000000000000007
+  ],
+  "i": [
+   0.6180339887498937,
+   0.38196601125010954
+  ],
+  "zee_angles": {
+   "0.5+2.5i": [
+    3.359383805008013e-11,
+    44.20196040206293,
+    45.00000000007389
+   ],
+   "0.5+3.5i": [
+    3.998870116726614e-09,
+    44.834062744377796,
+    45.000000007744475
+   ],
+   "0.25+3.5i": [
+    6.300214406917269e-05,
+    44.8340637580657,
+    45.00271936504485
+   ],
+   "0.0+3.0i": [
+    0.0009410766382006133,
+    44.63606855430546,
+    45.01851887688698
+   ]
+  },
+  "identity_residual": 8.712691573757667e-17
+ },
+ "N10": {
+  "spread_weight1": 6.137756885460131e-10,
+  "spread_weight3": 2.521792154116448e-09,
+  "spread_Dirac2": 1.8467767955843308e-15,
+  "phase_dev": 1.8084207304980282e-06,
+  "argE6_max": 2.648764528707253e-10
+ },
+ "fits": {
+  "TT_weight3": {
+   "chi2_min": 4227.945088105726,
+   "params": [
+    0.1721270720028944,
+    4.507041893310145,
+    -0.42301934470403546,
+    0.90537842921979,
+    0.16984418024114795,
+    0.1157542191978512
+   ],
+   "starts": 100,
+   "seconds": 214.75743412971497
+  },
+  "TbT_weight2": {
+   "chi2_min": 29541.896848747696,
+   "params": [
+    0.4999999999998065,
+    0.8700000000002,
+    1.0189300768832985,
+    -0.9132340550595768,
+    -40.294357037525515,
+    -3434.722763483779
+   ],
+   "starts": 100,
+   "seconds": 223.02713322639465
+  },
+  "TbT_weight2_Im_tau_ge_4.5": {
+   "chi2_min": 38904.91181824335,
+   "params": [
+    -0.4999999999997814,
+    4.5006294365513835,
+    0.5595798330256672,
+    0.32901938406365955,
+    -0.34683808291300616,
+    0.5822751125137722
+   ],
+   "starts": 100,
+   "seconds": 220.58357501029968
+  }
+ },
+ "cells": {
+  "C0": {
+   "holds": "True",
+   "predicted": "order 96, braid, s^4 = -1, exponents 1/8 3/8 7/8; B1635's table by piece; B1636's golden spectrum at i"
+  },
+  "N8a": {
+   "holds": true,
+   "value": {
+    "sum_rule_symbolic": "0",
+    "random_floor": 0.5005758359792004,
+    "grid_floor": 0.5124026935514514,
+    "omega": [
+     0.5000000000000014,
+     0.5000000000000007
+    ],
+    "closed_form_residual": 1.7491626847377222e-14
+   },
+   "predicted": "e1^2 - 4e2 = 0 symbolically; s2/s1 >= 1/2 on 200000 random matrices and on the grid; (1/2, 1/2) at omega; the closed form to 1e-10"
+  },
+  "N8b": {
+   "holds": true,
+   "value": {
+    "dim_M1_TT": 1,
+    "dim_M0_TbT": 1,
+    "identity_residual": 8.712691573757667e-17
+   },
+   "predicted": "one form at weight 1 (T x T) and one at weight 0 (Tbar x T), the latter the identity"
+  },
+  "N10a": {
+   "holds": true,
+   "value": {
+    "weight1": 6.137756885460131e-10,
+    "weight3": 2.521792154116448e-09,
+    "Dirac_weight2": 1.8467767955843308e-15
+   },
+   "predicted": "det Y_1/eta^6, det Y_3/(eta^6 E_6) and det Y_2^Dirac/E_6 constant in tau to 1e-7"
+  },
+  "N10b": {
+   "holds": "True",
+   "value": {
+    "phase_dev": 1.8084207304980282e-06,
+    "argE6_max": 2.648764528707253e-10
+   },
+   "predicted": "|12 arg eta - pi x| < 1e-4 for Im tau >= 2.5; |arg E_6| < 1e-9 for Im tau >= 4.5"
+  },
+  "N10c": {
+   "holds": true,
+   "value": {
+    "TT_weight3": 4227.945088105726,
+    "TbT_weight2": 29541.896848747696,
+    "TbT_weight2_Im_tau_ge_4.5": 38904.91181824335
+   },
+   "predicted": "chi^2_min > 500 for each of the three lowest fittable models (100 starts each)"
+  }
+ },
+ "all_hold": true,
+ "seconds": 667.0535087585449
+}

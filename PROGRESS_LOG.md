@@ -17346,3 +17346,21 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **Records.** TERMINOLOGY rows; B1667's blind replication by W100 compared on main; the referee lane registered and
   sent a relay; P-191 and P-192; harvest rows 1256–1261; the eight views refreshed; the paper's draft 6.
 - Landing suite: gates 45 of 45 on the commit; 210 files, 2407 passed, 2 failed (the two gate tests that read views-fresh, which counts commits; both pass on the commit), 6 skipped (12:24, -n 8). 0 of 19.
+
+## 2026-10-20 — S145: THE SEPARATE WORK VERIFIED AND INTEGRATED (B1670, B1671, B1672, B1673)
+
+- **What main found on return.**
+  - In main's working tree: a separate session's two unsealed arcs (B1672, B1673), its edits to the paper's Table 1,
+    §6, §7, §8 and `verify.sh`, register rows P-198 and P-199 with P-184 flipped to DONE, and the referee lane's B1670
+    staged.
+  - On the lanes: the SM seat's W101, §155, and drafts 7 and 8; the referee lane's landing branch.
+- **The verification.** Four reading passes for main, one per item, ran single-threaded at low priority and changed
+  nothing outside their audit folders. Main rechecked each decisive claim itself:
+  - B1673's coordinate error (72 of 72; 0 of 12 reflection-fixed on the true points);
+  - B1672's reducibility (commutant 2 and order 48 under the moves; 1 and 192 with the parity grading);
+  - B1670's post-import change (9 × 10⁻¹⁵, no status moved).
+- **What was banked.** B1670 with a scope note; B1671; B1672 and B1673 as NEGATIVE verification arcs with replacement
+  locks that bite on the received claims; the paper restored to draft 6, its edits kept as a patch.
+- **The foundations quest.** P-200 and P-201 registered. A disclosed smoke test of the tick on two threads was run
+  before any seal. The relay to the seats went out first, from a clean worktree.
+

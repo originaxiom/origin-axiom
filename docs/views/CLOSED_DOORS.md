@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**823 recorded closures — of which 656 are CLASSIFIED by mechanism and
+**825 recorded closures — of which 658 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -106,6 +106,8 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed (B1660, a scoreboard): no fit below 11.07 in any of 54 cells, every cell reliable, all 15 planted worlds recovered; chi2_min 85.35 (same S), 542.8 (S~), 34.40 (conj S on the conjugate pair of lines). The misses are m_s/m_b (too large) and m_mu/m_tau (too small): the data's (m_mu/m_tau)/(m_s/m_b) = 3.14 against 0.63-1.75 at the best points -- a joint conflict, not a ceiling (post-seal: alone the ratio reaches 9-34).` | 1 |  |
 | `Sealed (B1663): E_p<f> along the geodesic ray to the walk's limit is 0.5157-0.5185 for p = 0 .. 1/2 (spread 0.0028, each +- 0.0013), while the side (P(xi > 0) = 1 -> 0.53) and the escape rate (0.396 -> 0.101) follow p; post-seal the limit's digits follow the geometric law 2^-k at every p.` | 1 |  |
 | `Verified on main (B1668): the web seat's sealed T-low run reproduces bit-identically on a seeded sample and re-scores to 0 passes over 216 000 assignment-cells (SM best chi2 983 per-field / 602 minimal against nulls 267 / 471); the per-field census re-scores to 0 passes at h <= 3 (578 vs 263) and 3 < h <= 6 (28 281 vs 14 483).` | 1 |  |
+| `Verified on main (B1672, NEGATIVE): on the puncture module L6 the moves generate 2O (order 48, commutant 2) and RL^2R acts as diag(i,-i,...), not as P_a; irreducibility (order 192) needs P_a, P_b added by hand (the paper's Proposition 24). The 4D index on M_{1,2} is asserted, not computed; the E8 steps are classical branching plus identifications.` | 1 |  |
+| `Verified on main (B1673, NEGATIVE): the potential's minimum at omega is the classical torus-determinant extremum (a choice as the modulus's potential); the 12-point orbit is disjoint from W59's eighteen lines; the CP count is a coordinate error (wrong on 72 of 72 points; on the true points 0 of 12 reflection-fixed and the orbit reflection-closed); averaged J is set by the input matrix (~1200x the data); the spectra give ratios near 1/2.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

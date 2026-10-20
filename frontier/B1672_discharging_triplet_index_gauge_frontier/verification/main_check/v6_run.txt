@@ -1,0 +1,5 @@
+check S^2 central and (ST)^3=S^2 relation in L6 module: True
+commutant dim of (S6,T6): 2
+k 3 Hom dim ((chi^k rho_T) x V2 -> L6) = 2
+k 15 Hom dim ((chi^k rho_T) x V2 -> L6) = 1
+group order of (S6,T6): None

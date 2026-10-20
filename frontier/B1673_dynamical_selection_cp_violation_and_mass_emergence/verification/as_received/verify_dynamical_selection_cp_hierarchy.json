@@ -1,0 +1,143 @@
+{
+  "Theorem_1": {
+    "V_casimir_at_omega": 1.03351928,
+    "V_casimir_at_i": 1.05468828,
+    "V_casimir_at_4i": 2.80249584,
+    "omega_is_unique_global_minimum": true,
+    "delta_V_to_saddle_point_i": 0.02116901
+  },
+  "Theorem_2": {
+    "total_order_9_points": 72,
+    "min_green_function_energy": -0.504572,
+    "ground_state_degeneracy": 12,
+    "ground_state_points": [
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        7,
+        6
+      ]
+    ],
+    "ground_state_energy_gap_to_next": 0.022908
+  },
+  "Theorem_3": {
+    "ground_state_cp_odd_count": 8,
+    "ground_state_cp_even_count": 4,
+    "cp_odd_dominance_ratio": "8:4 (2:1)",
+    "reflection_symmetry_broken_in_ground_state": true
+  },
+  "Theorem_4": {
+    "single_point_rank": 2,
+    "single_point_m1_is_zero": true,
+    "orbit_avg_up_singular_values": [
+      0.112341,
+      0.087889,
+      0.031332
+    ],
+    "orbit_avg_down_singular_values": [
+      0.135537,
+      0.064313,
+      0.017774
+    ],
+    "orbit_avg_lepton_singular_values": [
+      0.2087,
+      0.125575,
+      0.03052
+    ],
+    "all_3_generations_strictly_massive": true,
+    "ckm_matrix_magnitudes": [
+      [
+        0.6724,
+        0.6922,
+        0.262
+      ],
+      [
+        0.6416,
+        0.4364,
+        0.6308
+      ],
+      [
+        0.369,
+        0.5748,
+        0.7303
+      ]
+    ],
+    "jarlskog_cp_invariant": -0.03676734
+  },
+  "Theorem_5": {
+    "selberg_parameter_s": 1.925,
+    "golden_geodesic_length_LR": 1.924847,
+    "up_singular_values": [
+      0.025972,
+      0.014666,
+      0.006957
+    ],
+    "down_singular_values": [
+      0.023712,
+      0.015432,
+      0.002446
+    ],
+    "up_hierarchy_m2_over_m3": 0.5647,
+    "up_hierarchy_m1_over_m2": 0.4744,
+    "ckm_matrix_selberg": [
+      [
+        0.5645,
+        0.6035,
+        0.5632
+      ],
+      [
+        0.6745,
+        0.4571,
+        0.5798
+      ],
+      [
+        0.4758,
+        0.6534,
+        0.5888
+      ]
+    ],
+    "jarlskog_invariant_selberg": -0.08806666
+  }
+}

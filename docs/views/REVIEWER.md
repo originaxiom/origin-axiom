@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1398** |
-| words of findings prose | **1,107,061** |
-| test lock files referenced | **815** |
-| arcs carrying an authored verdict | **1398** (100.0 %) |
-| recorded closures | **823** (656 classified, 167 routed-only) |
+| research arcs with findings | **1402** |
+| words of findings prose | **1,112,653** |
+| test lock files referenced | **819** |
+| arcs carrying an authored verdict | **1402** (100.0 %) |
+| recorded closures | **825** (658 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 947 |
-| NEGATIVE | 347 |
+| PROVED | 949 |
+| NEGATIVE | 349 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 93 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 95 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1669`** (319 words, 0 locks)  
-REVIEW 65: THE PAPER AND THE PAGE. Twenty merges since Review 64; fresh clone PASS at c370ff37c; a full suite run (R64-11); every lane read to its head. The loop: R64-3 done (scope notes on B1649, B1651, B1658), R64-2 resolved by practice (the premise audit standing), B616's single-threaded pin recorded; R64-1 (the mirror, the owner's), R64-4, R64-5, B186 and R64-6..8 carried (R64-6..8 due at Review 66). The sample's premise audit: six over-reaches (B1662 x3, B1663 x2, B1666), filed as dated notes; the seals' defects remote-only. E90, the built page not read (a broken reference and a dropped table, both found by outside readers), with a source-hygiene check and its failing-path test. B1667 replicated blind by a seat (1e-11). The paper's draft 6. 0 of 19.  
-`B1669_review_65_the_paper_and_the_page/FINDINGS.md`
+**PROVED — `B1671`** (940 words, 1 locks)  
+THE DEDEKIND PHASE, VERIFIED AND SCOPED ON MAIN (re-banks the referee lane's sealed arc, numbered B1669 on its branch; seal 20ed2c300 intact, the deterministic cells re-executed, every identity checked independently): in a symmetric zero-diagonal sector the masses obey m1 = m2 + m3 (B1636; e1^2 = 4 e2 symbolically), so the parameter-free sectors (the weight-one O+ coupling and the identity) have m2/m1 >= 1/2 at every tau -- no hierarchy; no Cabibbo angle in them, from the dimension fact (both sectors one-dimensional at the minimal weights); det Y1 = 8 eta^6 and the higher determinants are eta^6 times level-one forms; with real coefficients the strong-CP phase is 12 arg eta(tau) = pi Re tau + O(|q|) (1.7e-6 at Im tau = 2.5, 2.1e-2 at Im tau = 1). For a general zero-diagonal coupling the sum rule fails (min m2/m1 = 0.128). 0 of 19.  
+`B1671_the_dedekind_phase_verified/FINDINGS.md`
 
-**NEGATIVE — `B1668`** (847 words, 1 locks)  
-THE WEB SEAT'S LOW-THREAD NEGATIVES, VERIFIED ON MAIN (a verification arc; NEGATIVE as the seat found): the sealed T-low run's inputs and output hash as recorded, forms.pkl rebuilds byte-identically, the 199 nulls regenerate, six seeded configurations re-execute bit-identically (about 161 700 numbers each), and main's own scorer over all 216 000 assignment-cells finds no S-mass pass in either reading (SM best chi2 983.26 per-field, 601.77 minimal; best nulls 267.32, 471.29); the per-field census at every depth re-scores to no pass (h <= 3: 578.2 vs 262.9; 3 < h <= 6: 28 281.0 vs 14 482.6). No assignment, the Standard Model's or a null's, passes the mass test in these frames. 0 of 19.  
-`B1668_the_web_seats_low_thread_negatives_verified/FINDINGS.md`
+**NEGATIVE — `B1673`** (1020 words, 1 locks)  
+THE DYNAMICAL-SELECTION CLAIMS OF 19 OCTOBER, VERIFIED (NEGATIVE; a verification arc of a separate session's unsealed arc, banked under its number; P-199): no static debt of Table 1 is discharged. V = -ln(Im tau |eta|^4) is minimal at omega (1.0335192760; saddle at i, gap 0.0211690050), the classical torus-determinant extremum, already in W51/W59: taking it as the modulus's potential is a choice. The Green function's minimum over the 72 points of exact order 9 is a 12-point orbit (-0.504572), disjoint from W59's eighteen lines; the 3-torsion lies lower. The 8:4 CP count is a coordinate error (points built as (a omega - b)/9, rotated as a + b omega; wrong on 72 of 72); on the true points 0 of 12 are reflection-fixed and the orbit is reflection-closed, so nothing breaks; averaged J is set by the input matrix and is ~1200x the measured 3.1e-5. Orbit-averaged and Selberg spectra (s = l(LR), one thread's length) give ratios near 1/2, missing the data by one to three orders. 0 of 19.  
+`B1673_dynamical_selection_cp_violation_and_mass_emergence/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

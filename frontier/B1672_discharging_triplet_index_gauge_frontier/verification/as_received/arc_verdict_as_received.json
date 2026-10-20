@@ -1,0 +1,30 @@
+{
+  "id": "B1672",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": true,
+  "identifications": [],
+  "depends_on": [
+    "B1606",
+    "B1609",
+    "B1632",
+    "B1634",
+    "B1641",
+    "B1652",
+    "B1654",
+    "B1656",
+    "B1662"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the full non-cancelling wordings weave on Aut+(F2) =~ Mod(M1,2) and its unimodular completion in E8",
+    "object": "discharge of the Triplet Postulate, the Index Postulate, and the Dictionary debts; emergence of 4D spacetime Dirac operator, SU(3)c x SU(2)w x U(1)Y gauge group, and three chiral fermion families with inter-thread mass hierarchies",
+    "reach": "class",
+    "hypotheses": "the non-cancelling wordings grammar Aut+(F2); unimodular embedding E6 x SU(3)T / Z3 in E8; 4D Dolbeault-Dirac operator on M1,2 coupled to the spin-twisted boundary module"
+  },
+  "claim_one_line": "DISCHARGING THE TRIPLET & INDEX POSTULATES (SPACETIME & GAUGE EMERGENCE): The wordings weave <L_ab, L_ba, R_ab, R_ba> generates the full mapping class group Aut+(F2) =~ Mod(M1,2) and acts on V = T (+) T_bar via G96 (order 96), leaving no proper sub-domains in the 6D puncture module L6 invariant, uniquely forcing |ind_4D| = 3. On M1,2, a 4D Dolbeault-Dirac operator coupled to K^(1/2) (x) W_Lambda+(nD_inf) has index exactly +-3n with Leray E2 degeneration, turning the modular count into a physical 4D index. Under (E6 x SU(3)T)/Z3 in E8, V sits in the fundamental 6 of SU(6) and L6 sits in (6, 3_T); the center (-I6, -I2, +I3) = 1_E8 protects all three SU(2)w weak roots intact, and boundary polarization yields the exact Standard Model gauge group SU(3)c x SU(2)w x U(1)Y with all 5 rational hypercharges. Finally, non-Sturmian weave moves activate T -> T_bar couplings, and wave interference breaks flavour degeneracy, producing three distinct generational eigenvalues.",
+  "weave_or_thread": "weave (the full non-cancelling wordings grammar Aut+(F2))"
+}

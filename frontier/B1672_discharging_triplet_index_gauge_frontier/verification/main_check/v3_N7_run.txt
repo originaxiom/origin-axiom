@@ -1,0 +1,11 @@
+inverse pairs {'Lab': 'lab', 'Lba': 'lba', 'Rab': 'rab', 'Rba': 'rba', 'lab': 'Lab', 'lba': 'Lba', 'rab': 'Rab', 'rba': 'Rba'}
+Lab lift found True
+Lba lift found True
+Rab lift found True
+Rba lift found True
+lab lift found True
+lba lift found True
+rab lift found True
+rba lift found True
+det H1 of each: [1, 1, 1, 1, 1, 1, 1, 1]
+N 7 (128661, 67284, 2950, 0, None)

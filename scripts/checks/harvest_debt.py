@@ -135,6 +135,11 @@ SEATS = [
     # main verifies and re-banks its results under main's numbers (P-192), and asked it to keep a prefix of its own.
     dict(key="referee", label="referee lane (the outside referee's reports and arcs)", branch="B1668_the_price_of_the_nineteen",
          remotes=("origin",), cell=("referee lane",)),
+    # ADDED 2026-10-20 (S145): the referee lane's landing branch `referee/landing` (806dfd600, on main's 2e5716bd9), which renumbered
+    # its two sealed arcs B1670 and B1671 and carried its register rows P-193-P-195. Read and integrated (harvest row 1266): main adopted
+    # the numbers and banked B1670 and B1671; the branch is not merged. Registered so that it is watched, pinned at its head.
+    dict(key="refereeland", label="referee lane's landing branch", branch="landing",
+         remotes=("origin",), cell=("referee lane",)),
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;

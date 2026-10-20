@@ -11582,5 +11582,50 @@
    "hypotheses": "re-execution of a seeded sample of 6 of 90 configurations (bit-identical) and main's own re-scoring of every stored record; the mid-height and replication instruments re-scored from stored outputs, not re-executed; the T-tower exponents not rechecked"
   },
   "weave_or_thread": "weave (every low thread, and every class to depth 6, under one rule)"
+ },
+ {
+  "id": "B1672",
+  "claim_killed": "that the four Nielsen shears (the wordings weave on Aut+(F2)) discharge the triplet postulate, the index postulate, the extreme boundary domain and the hypercharge dictionary: in particular that L6 is irreducible under the moves alone, forcing |Lambda+| in {0, 6} and the index +-3",
+  "kill_form": "Verified on main (B1672, NEGATIVE): on the puncture module L6 the moves generate 2O (order 48, commutant 2) and RL^2R acts as diag(i,-i,...), not as P_a; irreducibility (order 192) needs P_a, P_b added by hand (the paper's Proposition 24). The 4D index on M_{1,2} is asserted, not computed; the E8 steps are classical branching plus identifications.",
+  "hatch": "a derivation that the base point's moves (point-pushes) act on L6 as the parity grading (the bridge question, P-204); a composition law carrying the lift sign (Gate 12 closed only to shear-word length 7)",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-20), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: the wordings weave is real (Aut+(F2) = PMod(S_{1,2})); what it would take to pay the boundary-domain input is named.",
+  "faces_consulted": [
+   "B1600",
+   "B1606",
+   "B1641"
+  ],
+  "fact_computed": "the four shears' generation of Aut+(F2) (free-group code); L6's commutant and group order under the moves (2, 48) and with the parity matrices (1, 192), with the repo's weave module; the eta-twisted lift coherence over 67 284 automorphisms to shear-word length 7",
+  "scope": {
+   "frame": "the received claims of 18 October: the four Nielsen shears on F2, the puncture module L6, the eta-twisted lifts, the E8 branchings",
+   "object": "the triplet, index, boundary-domain and hypercharge postulates; Gate 12",
+   "reach": "class",
+   "hypotheses": "a verification after the fact, not a sealed test; Gate 12 closed to shear-word length 7 only"
+  },
+  "weave_or_thread": "weave (the words' weave Aut+(F2) against the records' SL(2,Z))"
+ },
+ {
+  "id": "B1673",
+  "claim_killed": "that the modular potential -ln(Im tau |eta|^4), the Green function's 12-point orbit on E_omega, orbit averaging and Selberg amplitudes at the golden length derive tau = omega, the flat hypercharge lines, spontaneous CP violation and the fermion masses",
+  "kill_form": "Verified on main (B1673, NEGATIVE): the potential's minimum at omega is the classical torus-determinant extremum (a choice as the modulus's potential); the 12-point orbit is disjoint from W59's eighteen lines; the CP count is a coordinate error (wrong on 72 of 72 points; on the true points 0 of 12 reflection-fixed and the orbit reflection-closed); averaged J is set by the input matrix (~1200x the data); the spectra give ratios near 1/2.",
+  "hatch": "a derived joining law for averaging (the audit lane's safeguard, P-204); a potential for the modulus derived rather than chosen; a weight for the Selberg sum not taken from one thread",
+  "priority": "low",
+  "routed_from": "main, at banking (2026-10-20), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: no static debt of Table 1 is paid by symmetry and averaging alone.",
+  "faces_consulted": [
+   "B1653",
+   "B1656",
+   "B1660",
+   "B1640"
+  ],
+  "fact_computed": "V(omega) and the saddle gap; the Green function at all 80 nonzero 9-torsion points; the CP parity of the 12 ground points under the true geometry (0 of 12 fixed, reflection-closed) against the received coordinates (wrong on 72 of 72); orbit-averaged J under real, complex and random inputs; the Selberg spectra over s in [0.5, 4]",
+  "scope": {
+   "frame": "the received claims of 19 October: the modulus potential, the Green function on E_omega's 9-torsion, orbit-averaged couplings, Selberg sums",
+   "object": "tau = omega, the flat hypercharge lines, CP, the fermion spectrum",
+   "reach": "single",
+   "hypotheses": "a verification after the fact, not a sealed test"
+  },
+  "weave_or_thread": "thread (the Selberg weight set at one thread's length; one modulus)"
  }
 ]

@@ -1,0 +1,24 @@
+{
+  "id": "B1672",
+  "verdict": "NEGATIVE",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1600",
+    "B1606",
+    "B1641"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the received claims of 18 October: the four Nielsen shears on F2, the puncture module L6, the eta-twisted lifts, the E8 branchings",
+    "object": "the triplet, index, boundary-domain and hypercharge postulates; Gate 12",
+    "reach": "class",
+    "hypotheses": "a verification after the fact, not a sealed test; Gate 12 closed to shear-word length 7 only; the received arc's identifications (M_{1,2} as 4D spacetime; left-handed matter in (27, 3_T)) are recorded in FINDINGS, not made or used here"
+  },
+  "claim_one_line": "THE WORDINGS-WEAVE CLAIMS OF 18 OCTOBER, VERIFIED (NEGATIVE; a verification arc of a separate session's unsealed arc, banked under its number; P-198): no postulate of Table 1 is discharged. On the puncture module L6 the moves generate 2O (order 48, commutant 2) and RL^2R acts as diag(i,-i,...), so L6 is reducible; irreducibility (order 192) needs P_a, P_b added by hand, the paper's Proposition 24. The 4D index on M_{1,2} is asserted (Leray degeneration typed in; H^2 of the compactification has rank 2, not 1); the E8 steps are classical branching plus identifications (matter in (27, 3_T), a typed-in hypercharge). What holds: the four shears L_ab, L_ba, R_ab, R_ba generate Aut+(F2) (the wording discrepancies are conj(a^-1), conj(b^-1)); RL^2R, LR^2L lift to P_a, P_b on W10's V; L6 = (chi_eta^3 rho_T) (x) V_2 under Mp2(Z) with the level-2 theta doublet; Gate 12 (P-074) closes to shear-word length 7 after an odd eta-twist (67 284 automorphisms: 2 950 conflicts untwisted, 0 twisted). 0 of 19.",
+  "weave_or_thread": "weave (the words' weave Aut+(F2) against the records' SL(2,Z); the foundations question P-200)"
+}

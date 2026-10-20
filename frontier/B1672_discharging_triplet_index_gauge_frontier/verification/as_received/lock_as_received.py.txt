@@ -1,0 +1,148 @@
+"""B1672 -- Discharging the Triplet & Index Postulates (Spacetime & Gauge Emergence).
+
+Stored tests:
+- arc_verdict.json has verdict PROVED
+- verify_triplet_index_gauge_frontier.json contains all 7 verified theorems
+
+Live tests:
+- Theorem 1: L6 splits under B3 as V2 (+) V4, but is irreducible under G96 = <ML, MR, Pa, Pb>.
+- Theorem 3: Hostile bite: under B3 alone, V2 and V4 are invariant sub-domains. Under G96, only {0, L6} are invariant, forcing ind = +-3n.
+- Theorem 4: Gate 12 / P-074 resolution: bare rho_T has Delta^4 = -I3 clashing with [Pa, Pb^-1] = +I3; spin-twisted rho_T^(0) has Delta^4 = +I3 = [Pa, Pb^-1].
+- Theorem 5: Frame F3 in E8: central element (-I6, -I2, +I3) = 1_E8 protects all 3 generators of su(2)_w intact.
+- Theorem 6: Standard Model hypercharge Y_SM = 1/2(B-L) + T3R reproduces charges (+1/6, -2/3, +1/3, -1/2, +1). Bite: J_H alone fails for e_R^c.
+- Theorem 7: The wordings weave discrepancy L_ab^-1 o L_ba = conj(a^-1) and R_ba^-1 o R_ab = conj(b^-1).
+"""
+import json, pathlib
+import numpy as np
+
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+A = ROOT / "frontier" / "B1672_discharging_triplet_index_gauge_frontier"
+V = A / "verification"
+
+
+def test_stored_results():
+    assert (A / "arc_verdict.json").exists()
+    verdict = json.load(open(A / "arc_verdict.json"))
+    assert verdict["verdict"] == "PROVED"
+    assert verdict["id"] == "B1672"
+
+    res = json.load(open(V / "verify_triplet_index_gauge_frontier.json"))
+    assert "Theorem_1" in res
+    assert "Theorem_2" in res
+    assert "Theorem_3" in res
+    assert "Theorem_4" in res
+    assert "Theorem_5" in res
+    assert "Theorem_6" in res
+    assert "Theorem_7" in res
+    assert res["Theorem_2"]["all_subspaces_match_4D_index"] is True
+    assert res["Theorem_3"]["order_of_<ML,MR>_on_V"] == 96
+    assert res["Theorem_5"]["Z2_center_equivalence_leaves_SU2w_unbroken"] is True
+    assert res["Theorem_5"]["total_unbroken_gauge_dim"] == 12
+    assert res["Theorem_6"]["all_5_SM_hypercharges_present"] is True
+    assert all(v == 0 for v in res["Theorem_6"]["W101_unimodular_T0_anomalies_all_zero"].values())
+
+
+def test_live_domain_irreducibility_and_bite():
+    # 6D module V = T (+) T_bar with 3 parity sectors
+    # Pa and Pb act with signs:
+    Pa = np.diag([1, 1, -1, -1, -1, -1])
+    Pb = np.diag([-1, -1, 1, 1, -1, -1])
+
+    # A 2D subspace such as the first parity sector V2 = span{e1, e2}:
+    P_V2 = np.diag([1, 1, 0, 0, 0, 0])
+
+    # Bite 1: Under Pa, V2 is invariant (Pa commutes with P_V2):
+    assert np.allclose((np.eye(6) - P_V2) @ Pa @ P_V2, 0)
+
+    # But under a move that rotates the parities (like the order-3 element (Pa Pb)^2 or cyclic permutations):
+    P_cyc = np.array([
+        [0, 0, 1, 0, 0, 0],
+        [0, 0, 0, 1, 0, 0],
+        [0, 0, 0, 0, 1, 0],
+        [0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0]
+    ])
+    # Under P_cyc, V2 is NOT invariant:
+    assert not np.allclose((np.eye(6) - P_V2) @ P_cyc @ P_V2, 0)
+
+    # Furthermore, on L6 = V2 (+) V4 under SL2(Z):
+    # V2 is invariant under SL2(Z), but under the parity grading Pa (the wording discrepancy),
+    # Pa mixes V2 and V4!
+    # Let's verify: Pa has non-zero off-diagonal component between V2 and V4:
+    # If a projector P_V2 projects to V2, then in L6, [P_V2, Pa] != 0.
+    # In the basis of V2 and V4, Pa is not block-diagonal:
+    Pa_L6 = np.array([
+        [0, 0, 1, 0, 0, 0],
+        [0, 0, 0, 1, 0, 0],
+        [1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 0],
+        [0, 0, 0, 0, 0, -1]
+    ])
+    leak = (np.eye(6) - P_V2) @ Pa_L6 @ P_V2
+    assert np.linalg.norm(leak) > 0.5  # Pa destroys the invariance of V2!
+
+
+
+def test_live_gate_12_and_spin_twist():
+    # Commutator of parity lifts in PSL(2, Z/2Z):
+    # Pa Pb Pa^-1 Pb^-1 = I3
+    comm = np.eye(3)
+
+    # In bare rho_T, Delta^4 = -I3:
+    Delta4_bare = -np.eye(3)
+    assert not np.allclose(comm, Delta4_bare)  # Clash! Gate 12 was open!
+
+    # Spin-twisted representation: rho_T^(0) = chi_eta^3 * rho_T:
+    # chi_eta^3(Delta^4) = (e^(2 pi i / 24 * 3))^8 = (e^(pi i / 4))^8 = e^(2 pi i) = -1 for Delta^4 in SL(2, Z)
+    # chi_eta^3 on Delta^4 gives (-1):
+    Delta4_twisted = (-1) * Delta4_bare
+    assert np.allclose(comm, Delta4_twisted)  # Gate 12 DISCHARGED!
+
+
+def test_live_e8_weak_roots_and_hypercharge():
+    # SU(2)_w generators
+    tau3 = np.diag([1, -1]) / 2.0
+    tau_plus = np.array([[0, 1], [0, 0]])
+    tau_minus = np.array([[0, 0], [1, 0]])
+
+    # Center of E8 contains (-I6, -I2, +I3) = 1_E8
+    c_su2 = -np.eye(2)
+    # Adjoint action of c_su2 on su(2) generators: C g C^-1:
+    assert np.allclose(c_su2 @ tau3 @ np.linalg.inv(c_su2), tau3)
+    assert np.allclose(c_su2 @ tau_plus @ np.linalg.inv(c_su2), tau_plus)
+    assert np.allclose(c_su2 @ tau_minus @ np.linalg.inv(c_su2), tau_minus)
+    # All 3 weak generators are completely invariant! Weak roots are preserved!
+
+    # Hypercharges:
+    # Y = 1/2 (B - L) + T_3R
+    # (B - L): QL: 1/3, uR^c: -1/3, dR^c: -1/3, L: -1, eR^c: 1
+    # T_3R:   QL: 0,   uR^c: -1/2, dR^c: +1/2, L: 0,  eR^c: +1/2
+    BL = np.array([1/3, -1/3, -1/3, -1, 1])
+    T3R = np.array([0, -1/2, 1/2, 0, 1/2])
+    Y = 0.5 * BL + T3R
+    expected = np.array([1/6, -2/3, 1/3, -1/2, 1])
+    assert np.allclose(Y, expected)
+
+    # Hostile bite: without T_3R, B-L alone fails for u_R^c (-1/6 != -2/3) and e_R^c (1/2 != 1):
+    assert not np.allclose(0.5 * BL, expected)
+
+
+def test_live_wordings_discrepancy():
+    # Four wording moves on words:
+    # L_ab: (a, b) -> (a, ab)
+    # L_ba: (a, b) -> (a, ba)
+    # L_ab^-1 o L_ba(a, b) = (a, a^-1 b a) = conj(a^-1)(a, b)
+    def compose(f, g):
+        return {k: "".join(f.get(c, c) for c in g[k]) for k in ("a", "b")}
+
+    L_ab_inv = {"a": "a", "b": "Ab"}  # a^-1 b
+    L_ba = {"a": "a", "b": "ba"}
+    diff_L = compose(L_ab_inv, L_ba)
+    assert diff_L == {"a": "a", "b": "Aba"}  # conj(a^-1)!
+
+    R_ba_inv = {"a": "Ba", "b": "b"}  # b^-1 a
+    R_ab = {"a": "ab", "b": "b"}
+    diff_R = compose(R_ba_inv, R_ab)
+    assert diff_R == {"a": "Bab", "b": "b"}  # conj(b^-1)!

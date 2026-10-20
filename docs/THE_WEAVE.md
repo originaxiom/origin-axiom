@@ -614,3 +614,17 @@ found with B1635's sealed instrument.
   0.03–0.41 in the bulk, with a simple zero at the symmetric point and a fall like e^(−2.6 Im τ) toward the cusp of
   moduli. A small first generation is then a statement about τ (P-169), and the weave's end is no longer a place to put
   a number.
+
+## Main's addition: the Dedekind phase (B1671, PROVED) — what the triplet gives with no free number
+
+- **No hierarchy and no mixing without free numbers.** The triplet's couplings have two parameter-free sectors: the
+  weight-one O⁺ coupling and the identity. Both are symmetric with zero diagonal, so their masses obey m₁ = m₂ + m₃ and
+  m₂/m₁ ≥ ½ at every τ. Both are one-dimensional at the minimal weights, so at one τ the up and down sectors are
+  proportional and V = 1. A hierarchy or a Cabibbo angle on the ruled branch needs higher weights and their
+  coefficients (B1637's count).
+- **The determinant is η⁶, and its phase is τ's.** det Y₁ = 8η⁶, and the higher minimal determinants are η⁶ or a
+  constant times level-one forms. With real coefficients the strong-CP phase is 12 arg η(τ), which approaches π Re τ
+  at large Im τ. A τ high in the domain (P-169) would then carry a strong-CP phase fixed by Re τ alone.
+- **The scope.** The sum rule needs the symmetry: a general zero-diagonal coupling breaks it. The phase law holds for
+  ∣Re τ∣ ≤ ½ in the fixed triplet basis, at tree level. The arc was the referee lane's; main checked its seal,
+  re-ran it, and verified every identity independently.

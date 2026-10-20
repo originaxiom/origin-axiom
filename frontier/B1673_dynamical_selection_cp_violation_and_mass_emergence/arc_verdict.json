@@ -1,0 +1,25 @@
+{
+  "id": "B1673",
+  "verdict": "NEGATIVE",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1653",
+    "B1656",
+    "B1660",
+    "B1640"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the received claims of 19 October: the modulus potential, the Green function on E_omega's 9-torsion, orbit-averaged couplings, Selberg sums",
+    "object": "tau = omega, the flat hypercharge lines, CP, the fermion spectrum",
+    "reach": "single",
+    "hypotheses": "a verification after the fact, not a sealed test; the received arc's own frames and inputs"
+  },
+  "claim_one_line": "THE DYNAMICAL-SELECTION CLAIMS OF 19 OCTOBER, VERIFIED (NEGATIVE; a verification arc of a separate session's unsealed arc, banked under its number; P-199): no static debt of Table 1 is discharged. V = -ln(Im tau |eta|^4) is minimal at omega (1.0335192760; saddle at i, gap 0.0211690050), the classical torus-determinant extremum, already in W51/W59: taking it as the modulus's potential is a choice. The Green function's minimum over the 72 points of exact order 9 is a 12-point orbit (-0.504572), disjoint from W59's eighteen lines; the 3-torsion lies lower. The 8:4 CP count is a coordinate error (points built as (a omega - b)/9, rotated as a + b omega; wrong on 72 of 72); on the true points 0 of 12 are reflection-fixed and the orbit is reflection-closed, so nothing breaks; averaged J is set by the input matrix and is ~1200x the measured 3.1e-5. Orbit-averaged and Selberg spectra (s = l(LR), one thread's length) give ratios near 1/2, missing the data by one to three orders. 0 of 19.",
+  "weave_or_thread": "thread (the Selberg weight set at one thread's length; one modulus)"
+}

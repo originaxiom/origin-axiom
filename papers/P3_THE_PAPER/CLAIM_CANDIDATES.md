@@ -574,6 +574,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1659` | PROVED | L | | THE JOINT LAW: in B1656's twisted frame det Y = 4 det S det M tr(εSMᵀ) and adj Y = det S·A(M) + det M·P A(S) for every Higgs and matter; the masses closed-form in the two defects and their pairing (the lightest vanishes iff one of them does; geometric at the coincident point); no data |
 | `B1666` | PROVED | L | | THE PERIOD PHASE: on every thread with trace ≤ 600 the matter's amplitude returns by the Higgs's character i^(#L−#R); by trace the threads reach the modular surface's constant mode (⟨f⟩ → 0.315); the amplitude's coherence decays, and the coherent rule favours the cusp, not the root; no data |
 | `B1667` | PROVED | L | | THE CANONICAL CUSP: in the fibre's own hyperbolic metric the end radius of B1654 is fixed by canonical horocycles at order one (L_max 0.64–0.69, L_2 2.29–2.78 on the whole grid), so the end supplies no hierarchy; the canonical lift is a function of τ alone, with a simple zero at ω and an exponential fall toward the cusp of moduli; no data |
+| `B1671` | PROVED | L | | THE DEDEKIND PHASE: the triplet's parameter-free Yukawa sectors obey the symmetric sum rule m₁ = m₂ + m₃ (m₂/m₁ ≥ ½ at every τ, no hierarchy) and give no mixing (V = 1); det Y₁ = 8η⁶; with real coefficients the strong-CP phase approaches π Re τ at large Im τ; a general zero-diagonal coupling breaks the rule; no data |
 
 ## The exhibit that forced the rebuild
 

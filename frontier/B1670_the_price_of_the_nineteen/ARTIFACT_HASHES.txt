@@ -1,0 +1,18 @@
+# sealed at ad3dd5d44: c2f69faef5b725822ac82a3728822dd095a090a165d7b255349d78924a2e0283  verification/the_price_of_the_nineteen.py (unchanged after the seal)
+# sealed with the PREREGISTRATION (the seal commit ad3dd5d44): sha256 of every file but the preregistration and this list
+0ccece15516b409f51a63859ee9cd05db1b07e249449219185ed106170e76943  verification/before_the_seal/relations_draft.py
+9a2db030e72775e7033d2eaf1a1e5a5d93dc0fd7e4237b400b4da4a34c913749  verification/before_the_seal/relations_draft_run.txt
+9cec7f68670880a82b526527f81b073ca800d910b687f038e2b97a496211c19f  verification/before_the_seal/smoke.json
+4b5479e64cb5894a55cd004e88d391cf75ca6c12f5828a164f7c70b31edaf51d  verification/before_the_seal/smoke_run.txt
+c2f69faef5b725822ac82a3728822dd095a090a165d7b255349d78924a2e0283  verification/the_price_of_the_nineteen.py
+# PREREGISTRATION.md at the seal: de17fa3d06a3ba33dc8ef8853d5d67d8ca89f4572dacdd27312d2cf751090d25
+# after the seal (not sealed): the output, committed unread at 65a387530
+d5b8476665c16df45d60e50f6e0cd9376529b6c4f60e4e7059902f48f663035c  verification/the_price_of_the_nineteen.json
+4b5479e64cb5894a55cd004e88d391cf75ca6c12f5828a164f7c70b31edaf51d  verification/the_price_of_the_nineteen_run.txt
+# the factual review (WORKING_RULES 13), written between the seal and the run (last save three seconds after the run's output; disclosed in FINDINGS 0b)
+3f9674cfc31345a93a3c9e4b18cddce17fd38a186d0bb5bc905d24fb8300dd16  verification/factual_review.md
+# post-seal check, labelled (the reviewer's correction 1: alpha_s = 0.1180 +- 0.0009)
+6f2ef7fa86b3a209d1fbcbce76941a33879886714ee00a957c8516c5c06dfb25  verification/after_the_seal/alpha_s_0p1180.json
+185372f733cceefc8ce0928df178d4b6d58a1940782ebef981eaa0d4cfbe58b9  verification/after_the_seal/alpha_s_0p1180.py
+aed67f1c195be60ac75d061f6ad67d429aeffa75495d77719ff83e3558150627  verification/after_the_seal/alpha_s_0p1180_run.txt
+# renumbered on landing: sealed on the lane as B1668 (the seal commits are on branch referee/B1668_the_price_of_the_nineteen, kept); the sealed files below are byte-identical and keep the provisional number in their text

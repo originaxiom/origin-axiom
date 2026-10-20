@@ -1,5 +1,44 @@
 # Changelog
 
+## S145 THE SEPARATE WORK VERIFIED AND INTEGRATED (B1670, B1671, B1672, B1673; P-192–P-202)
+
+- **Why.** Main was away from 17 to 20 October. The owner worked with the seats in the meantime, and on return asked
+  main to "verify all … verify digest integrate all you nead", and to discuss directly with the seats through relays.
+  Four independent reading passes recomputed every claim; main rechecked the decisive one in each.
+- **B1670 THE PRICE OF THE NINETEEN** (the referee lane's sealed arc; PROVED as sealed). Banked under the lane's
+  landing number.
+  - The seal is intact, and the import is byte-identical to `referee/landing`.
+  - An in-place re-run on 19 October changed only float noise (at most 9 × 10⁻¹⁵ relative); main restored the sealed
+    files.
+  - Main's own recomputation on PDG 2024 agrees.
+  - Seven scope notes, among them: 16 listed relations at M_Z and one loop, a ledger rather than a census, and
+    "never more than two by one framework" only at M_Z.
+- **B1671 THE DEDEKIND PHASE** (main's verification of the lane's second arc; PROVED). Renumbered from B1670 to match
+  the lane's landing branch.
+- **B1672 and B1673** (a separate session's unsealed arcs, written into main's tree on 18–19 October). Both are
+  NEGATIVE as verified, and banked under their numbers. The received files are kept unchanged, with their sha256.
+  - **B1672:** no postulate is discharged. L₆ is reducible under the moves (2O, commutant 2), and irreducible only
+    with the parity grading added (Proposition 24). The 4D index is asserted, and the E₈ steps are classical branching
+    plus identifications. What holds: the four shears generate Aut⁺(F₂), and Gate 12 closes to shear-word length 7
+    after an odd η-twist.
+  - **B1673:** no static debt is discharged. τ = ω's potential is the classical torus-determinant extremum, a choice.
+    The 12-point orbit is disjoint from W59's lines. The CP count was a coordinate error (wrong on 72 of 72 points).
+    No spectrum comes near the data. The Selberg weight is one thread's length.
+- **The paper.** The separate session's edits to Table 1, §6, §7 and §8 are declined and kept as a patch with B1672.
+  The paper is at draft 6 until draft 9.
+- **The seats.** The SM seat's W101 (the weave's anomaly) and W34 (no thread keeps a record) were verified, and drafts 7
+  and 8 checked. They are to be banked and ported with draft 9.
+- **The foundations quest** (the owner, 2026-10-20). Two questions are registered:
+  - P-200: is the golden rule a thread? Partly yes. N3 and GENESIS GM5c are thread statements, and a disclosed smoke
+    test gives the tick's mean rank one on LR and zero on LLLR.
+  - P-201: two records, or four or more? GM1 is a postulate, and fork F9 is FRAGILE at depth four.
+- **Records.**
+  - P-184 is restored to QUEUED; P-193–P-199 are carried or set; P-200–P-202 are new (P-202, the author line, is the
+    owner's call).
+  - Harvest rows 1262–1266 and pins; one relay row.
+  - The relay `CC_TO_ALL_SEATS_2026-10-20_FOUNDATIONS_AND_THE_SEPARATE_WORK.md` was sent ahead of this landing.
+  - Registry and law rows for B1671; T-OFFDIAG-SUM-RULE scoped to symmetric couplings.
+
 ## REVIEW 65 (B1669): the paper and the page — and the paper's draft 6
 
 - **The review.** Twenty merges since Review 64.

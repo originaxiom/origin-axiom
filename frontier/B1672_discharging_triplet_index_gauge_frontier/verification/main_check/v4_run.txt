@@ -1,0 +1,30 @@
+Delta^4 on T: [-1. -1. -1.] is -I: True
+[Pa,Pb^-1]-type commutators on T: Pa Pb^-1 Pa^-1 Pb = True ; Pa,Pb on T: nondiag
+Pa,Pb commute: True
+chi_eta^3(Delta^4)= (-1+0j)
+chi_eta^k(Delta^4) for k=1..6: [np.float64(-1.0), np.float64(1.0), np.float64(-1.0), np.float64(1.0), np.float64(-1.0), np.float64(1.0)]
+T0 Delta^4=I: True det L0,R0 (1-0j) (1+0j)
+order <T0_L,T0_R>: 24 order <TL,TR>: 96
+order of group <T0_L,T0_R,Pa,Pb>: 24
+1 Delta4=I True order 144
+3 Delta4=I True order 24
+5 Delta4=I True order 144
+7 Delta4=I True order 72
+9 Delta4=I True order 48
+11 Delta4=I True order 72
+13 Delta4=I True order 144
+15 Delta4=I True order 24
+17 Delta4=I True order 144
+19 Delta4=I True order 72
+21 Delta4=I True order 48
+23 Delta4=I True order 72
+trace Y 0
+27 = (15,1)+(6b,2)  Y: {Fraction(-1, 1): 1, Fraction(-1, 2): 2, Fraction(-1, 3): 6, Fraction(-1, 6): 6, Fraction(0, 1): 2, Fraction(1, 3): 3, Fraction(1, 2): 4, Fraction(2, 3): 3}
+27 = (15b,1)+(6,2)  Y: {Fraction(-2, 3): 3, Fraction(-1, 2): 4, Fraction(-1, 3): 3, Fraction(0, 1): 2, Fraction(1, 6): 6, Fraction(1, 3): 6, Fraction(1, 2): 2, Fraction(1, 1): 1}
+A contains SM16 multiset: False
+B contains SM16 multiset: True
+tr over 27 of Y (A): 0
+dim check SU6xSU2xSU3: 248
+dim check E6xSU3: 248
+generator of Z6 acts: {'(6,2,3)': np.complex128(1-0j), '(6b,2,3b)': np.complex128(1+0j), '(15,1,3b)': np.complex128(1+0j), '(15b,1,3)': np.complex128(1+0j), '(20,2,1)': np.complex128(1-0j)}
+c=g^3 = ((-1+3.885780586188048e-16j), -1, (1.0000000000000002-8.326672684688674e-16j))

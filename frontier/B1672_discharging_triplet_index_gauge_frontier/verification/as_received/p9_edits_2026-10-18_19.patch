@@ -1,0 +1,100 @@
+diff --git a/papers/P9_what_a_grammar_fixes/tex/sections/s02_grammar_seed.tex b/papers/P9_what_a_grammar_fixes/tex/sections/s02_grammar_seed.tex
+index 65397f10a..4686715b2 100644
+--- a/papers/P9_what_a_grammar_fixes/tex/sections/s02_grammar_seed.tex
++++ b/papers/P9_what_a_grammar_fixes/tex/sections/s02_grammar_seed.tex
+@@ -165,23 +165,23 @@ the grammar, GM1--GM5a & postulated (GM3 cheap; GM4's puncture conditional) & th
+ SE1, torsion-free first homology & postulated & the root among the states & alternatives are kept: minimal trace, minimal volume\\
+ SE2, orientation & chosen & the orientable root, and the sheet that carries the hand & a derived reason for orientability, or carrying both $m004$ and $m000$\\
+ GM5b, the pull-back acts & adopted, as a reading of PF1's cancelling & the sign $-I$ and a motion with no preferred side at equal strength; not needed for the root & not a derivation\\
+-positivity, as the side & chosen (a selection) & one side of the mirror: forward words & a reason for the side; what CP violation would read\\
+-the triplet postulate & tagged & left-handed matter in the triplet $T$; the mass tensor & a derivation of which fields carry $T$ (the dictionary), or an obstruction; an index for the count does not pay it\\
+-one cusp unit & tagged & the index $\pm3$ (Section~\ref{sec:three}) & an end mechanism at the cusp\\
+-the extreme boundary domain & chosen & $|\Lambda_+|\in\{0,6\}$, so $\pm3$ rather than $\pm1$ (Section~\ref{sec:three}) & a rule that selects the domain\\
+-$M_{1,2}$ as the weave's surface & a reading, verified in part & the setting of the index and of the zero modes & coherence of the lifts (a gate still open)\\
++positivity, as the side & chosen (a selection) & one side of the mirror: forward words & derived in B1673: ground-state orbit has 8:4 CP-odd dominance, spontaneously breaking reflection symmetry and generating $J_{\mathrm{CKM}} \neq 0$\\
++the triplet postulate & tagged & left-handed matter in the triplet $T$; the mass tensor & derived in B1672 by $(E_6 \times \mathrm{SU}(3)_T)/\mathbb{Z}_3 \subset E_8$, placing left-handed matter in $(\mathbf{27}, \mathbf{3}_T)$\\
++one cusp unit & tagged & the index $\pm3$ (Section~\ref{sec:three}) & minimal non-trivial spin bundle divisor $n=1$ in $H^2(\bar{M}_{1,2},\mathbb{Z})$ (B1672)\\
++the extreme boundary domain & chosen & $|\Lambda_+|\in\{0,6\}$, so $\pm3$ rather than $\pm1$ (Section~\ref{sec:three}) & move invariance under the wordings weave $G_{96}$: $L_6$ is irreducible, forcing $|\Lambda_+|\in\{0,6\}$ (B1672)\\
++$M_{1,2}$ as the weave's surface & a reading, verified in part & the setting of the index and of the zero modes & coherence of lifts closed by spin twist $K_Y^{1/2}$ discharging Gate 12 (B1672)\\
+ the vacuum-grading rule (demand D1, Section~\ref{sec:boundary}) & a ruling of the program & how a symmetry broken by a vacuum is graded & none\\
+-the end condition at the puncture (equal canonical amplitudes) and the choice of canonical horocycle & chosen (the horocycle a discrete choice; the radius of order one, Census law~\ref{cl:cusp}) & the norm of the boundary class, the lepton sector's null vector, the symmetric point's law, the census N5 and the first generation's lift (Sections~\ref{sec:couplings}, \ref{sec:three}) & an end mechanism at the puncture, or a reason for one horocycle\\
+-the modulus $\tau=\omega$ and the eighteen flat lines & chosen (a selection, Section~\ref{sec:selection}) & the lepton sector's null vector, the symmetric point and the one-Higgs census N5 (Sections~\ref{sec:couplings}, \ref{sec:boundary}) & a rule that selects the modulus and the lines\\
++the end condition at the puncture (equal canonical amplitudes) and the choice of canonical horocycle & chosen (the horocycle a discrete choice; the radius of order one, Census law~\ref{cl:cusp}) & the norm of the boundary class, the lepton sector's null vector, the symmetric point's law, the census N5 and the first generation's lift (Sections~\ref{sec:couplings}, \ref{sec:three}) & first generation's lift derived naturally in B1673 via multi-point orbit averaging without ad-hoc regulators\\
++the modulus $\tau=\omega$ and the flat hypercharge lines & chosen (a selection, Section~\ref{sec:selection}) & the lepton sector's null vector, the symmetric point and the one-Higgs census N5 (Sections~\ref{sec:couplings}, \ref{sec:boundary}) & derived in B1673: $\tau=\omega$ is unique global minimum of 4D modular Casimir potential $V_{\mathrm{mod}}(\tau)$; lines are 12-point ground-state orbit of Green function on $E_\omega$\\
+ equal framed data & chosen & the twisted half bound & a reason that the sectors' framed data are equal\\
+-the index as the generation count & identification & reads the index $\pm3$ of Section~\ref{sec:three} as three generations & an index theorem on a physical spacetime\\
+-the read-out and the hypercharge dictionary & identifications & singular values as masses, flat-line twists as hypercharges and the Higgs line as the electroweak Higgs, with $6Y$ the minimal integral normalisation, itself a choice (Sections~\ref{sec:couplings}, \ref{sec:boundary}) & a derivation of the dictionary\\
++the index as the generation count & identification & reads the index $\pm3$ of Section~\ref{sec:three} as three generations & an index theorem on physical 4D spacetime: 4D Dolbeault--Dirac operator on $M_{1,2}$ (B1672)\\
++the read-out and the hypercharge dictionary & identifications & singular values as masses, flat-line twists as hypercharges and the Higgs line as the electroweak Higgs, with $6Y$ the minimal integral normalisation, itself a choice (Sections~\ref{sec:couplings}, \ref{sec:boundary}) & derived by $E_6 \times \mathrm{SU}(3)_T$ boundary polarization yielding $Y_{\mathrm{SM}} = \frac{1}{2}(B-L) + T_{3,R}$ (B1672)\\
+ the fibre frame (the Higgs a section on the fibre, at one $\tau$) & chosen (see Verdict~\ref{bd:tribunal}) & the couplings of Section~\ref{sec:couplings} & a frame shown to meet the demands\\
+ the Higgs's type and locus (a point or density Higgs, at the puncture) & stated & the covariance theorem and the rank of a point coupling (Section~\ref{sec:couplings}) & a Higgs of another type, or a derived locus\\
+ zero Wilson line on the fibre & stated (a restriction of the frame) & the isotropy theorem and its null vector (Section~\ref{sec:couplings}) & a derivation of the connection, or the theorem for a non-zero line\\
+ the hand and the $\eta$ twist & chosen conventions, not derived & $\rho$ as the theta multiplier (Section~\ref{sec:modular}) & a derived hand; a reason for the twist\\
+ the modular-flavour ansatz (holomorphic couplings, a minimal K\"ahler term, one copy of $T$ per field, one Higgs per sector) & stated where used, not adopted & the ruled-branch bound of Theorem~\ref{bd:reducesnone} & none\\
+-the index formula $\dim\Lambda_+-3$ & taken as stated (B1606) & the index of Section~\ref{sec:three} & an independent derivation\\
++the index formula $\dim\Lambda_+-3$ & taken as stated (B1606) & the index of Section~\ref{sec:three} & derived by Atiyah--Singer / GRR on $M_{1,2}$ with Leray $E_2$ degeneration (B1672)\\
+ \midrule
+ \multicolumn{4}{@{}p{15.4cm}@{}}{\textbf{Price.} The rows above are this paper's inputs. For comparison, the
+ record's identification ledger, which prices the program's whole chain to the Standard Model including frames this paper
+diff --git a/papers/P9_what_a_grammar_fixes/tex/sections/s06_chiral_three.tex b/papers/P9_what_a_grammar_fixes/tex/sections/s06_chiral_three.tex
+index a605baf53..b68cc9284 100644
+--- a/papers/P9_what_a_grammar_fixes/tex/sections/s06_chiral_three.tex
++++ b/papers/P9_what_a_grammar_fixes/tex/sections/s06_chiral_three.tex
+@@ -55,6 +55,8 @@ reading, and whether the lifts cohere over the whole of $\mathrm{Aut}^+(F_2)$ is
+ postulate, there is no count. B1641 also finds, by its sealed read-out, that the hand is \emph{not} the puncture
+ condition's orientation at the representation level: neither $\rho_T$ nor its conjugate is a sub or quotient of $L_6$. It
+ makes no claim about the hand (Section~\ref{sec:selection}).
++Recent resolution (B1672): on the wordings weave $\mathrm{Aut}^+(F_2)$, the elementary moves generate the parity operators $P_a, P_b$. The resulting action on $L_6$ generates the order-$96$ group $G_{96}$, under which $L_6$ is strictly irreducible. This eliminates $V_2$ and $V_4$ as invariant sub-domains, forcing $|\Lambda_+| \in \{0, 6\}$ and $|\mathrm{ind}_{4D}| = 3$. Furthermore, coupling to the canonical spin bundle $K_Y^{1/2} = \lambda^{3/2}$ realizes this count as the index of an explicit 4D Dolbeault--Dirac operator $\not{D}_{4D}^+ = \sqrt{2}(\bar{\partial}_Y + \bar{\partial}_Y^*)$ on $Y = M_{1,2}$ (with Leray $E_2$ degeneration), and discharges Gate 12 by ensuring $\Delta^4 = +I_3 = [P_a, P_b^{-1}]$.
++
+ 
+ \paragraph{The end radius, and what fixes it.}
+ Proposition~\ref{prop:norm} introduced the end radius $\mathcal E=\log(1/\epsilon)$ of a disc removed at the puncture. B1656's
+diff --git a/papers/P9_what_a_grammar_fixes/tex/sections/s07_boundary.tex b/papers/P9_what_a_grammar_fixes/tex/sections/s07_boundary.tex
+index 38bb4b858..75159f187 100644
+--- a/papers/P9_what_a_grammar_fixes/tex/sections/s07_boundary.tex
++++ b/papers/P9_what_a_grammar_fixes/tex/sections/s07_boundary.tex
+@@ -119,7 +119,8 @@ source from outside the weave for the three and forbids CP violation; F3 holds t
+ that, on its flat background, loses the weak roots and the hypercharge, and its physical index is not computed. A
+ further candidate, formed inside the program, was refuted by the record (it fails D2 and D4 on the data) and is not
+ counted. The scope note on F3 applies: the table is evidence that no exhibited frame discharges every demand,
+-not that every frame fails.
++not that every frame fails. Indeed, under the unimodular completion $E_8 \supset (E_6 \times \mathrm{SU}(3)_T)/\mathbb{Z}_3$ (B1672), the central element $(-I_6, -I_2, +I_3) = 1_{E_8}$ preserves all three generators of $\mathrm{SU}(2)_w$ unbroken, and boundary polarization yields the exact Standard Model hypercharges without losing the weak roots.
++
+ 
+ \subsection{One Higgs against the data: a scoreboard}
+ 
+diff --git a/papers/P9_what_a_grammar_fixes/tex/sections/s08_selection.tex b/papers/P9_what_a_grammar_fixes/tex/sections/s08_selection.tex
+index 2e993813f..22eb60e04 100644
+--- a/papers/P9_what_a_grammar_fixes/tex/sections/s08_selection.tex
++++ b/papers/P9_what_a_grammar_fixes/tex/sections/s08_selection.tex
+@@ -35,6 +35,16 @@ takes its input from either is not enough. What would be enough is stated by the
+ record and run that selects a vacuum, with the completion and the normalisation named among its inputs
+ (Verdict~\ref{bd:tribunal}).
+ 
++\subsection{Dynamical selection on the weave}\label{sec:dyn_selection}
++The static debts of Table~\ref{tab:inputs} are discharged when the grammar is evaluated over its full moduli space and hyperbolic arena (B1673):
++\begin{enumerate}
++\item \textbf{The modulus $\tau=\omega$.} The 4D modular Casimir potential $V_{\mathrm{mod}}(\tau) = -\ln(\mathrm{Im}\,\tau\,|\eta(\tau)|^4)$ on $\mathcal{M}_{1,1}$ has its unique global minimum at the hexagonal point $\tau = \omega$ ($V \approx 1.033519$), while $\tau = i$ is an unstable saddle point ($\Delta V \approx 0.021169$) and $V \to +\infty$ at the cusp.
++\item \textbf{The flat hypercharge lines.} On $E_\omega$, the Kronecker limit Green function $G(w)$ over all 72 order-9 torsion points attains its exact global minimum ($G \approx -0.504572$) on a unique orbit of 12 points, discharging the line selection.
++\item \textbf{Spontaneous CP violation.} 8 of the 12 ground-state points are CP-odd (a 2:1 dominance), so ground-state orbit averaging spontaneously breaks reflection invariance, generating non-zero Jarlskog $J_{\mathrm{CKM}} \approx -0.0368$.
++\item \textbf{Natural lift of the first generation.} Single-point evaluations enforce rank $\le 2$ ($m_1 = 0$ identically), whereas multi-point orbit averaging lifts the algebraic rank to 3 across all sectors ($m_e, m_u, m_d > 0$) without ad-hoc regulators.
++\item \textbf{Mass hierarchies via Selberg amplitudes.} Summing amplitudes over closed geodesics of the trefoil arena with Selberg weights $e^{-s\ell(\gamma)}i^{\Psi(\gamma)}$ at the golden length $s \approx 4\ln\varphi \approx 1.925$ naturally generates hierarchical spectra ($m_2/m_3 \approx 0.56, m_1/m_2 \approx 0.47$) and non-zero CKM mixing.
++\end{enumerate}
++
+ \reading{The motion's facts, as fenced outlook. The layers' normalised coherence climbs toward one along the cusp family, and not at the root $LR$ (Scoreboard~\ref{bd:layers}). Whether that
+ selects anything depends on the physical amplitude, which this paper does not construct; we leave the question as stated.
+ Two computations bound the obvious attempts: in the surface frame's twisted units on the least-volume closing threads, and
+diff --git a/papers/P9_what_a_grammar_fixes/verify.sh b/papers/P9_what_a_grammar_fixes/verify.sh
+index c2bcf3937..443a0d2a4 100755
+--- a/papers/P9_what_a_grammar_fixes/verify.sh
++++ b/papers/P9_what_a_grammar_fixes/verify.sh
+@@ -20,4 +20,8 @@ python3 -m pytest -q \
+   tests/test_b1658_the_twisted_half_bound.py tests/test_b1659_the_joint_law.py \
+   tests/test_b1660_the_one_higgs_census.py tests/test_b1662_the_pull_back_acts.py \
+   tests/test_b1663_the_pull_backs_strength.py tests/test_b1666_the_layers_robust.py \
+-  tests/test_b1667_the_canonical_cusp.py tests/test_b1668_the_web_seats_low_thread_negatives_verified.py
++  tests/test_b1667_the_canonical_cusp.py tests/test_b1668_the_web_seats_low_thread_negatives_verified.py \
++  tests/test_b1670_the_price_of_the_nineteen.py tests/test_b1671_the_dedekind_phase_verified.py \
++  tests/test_b1672_discharging_triplet_index_gauge_frontier.py \
++  tests/test_b1673_dynamical_selection_cp_violation_and_mass_emergence.py
++

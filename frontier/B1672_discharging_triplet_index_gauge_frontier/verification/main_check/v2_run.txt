@@ -1,0 +1,18 @@
+arc T_L6 == W.ML ? False  T_R6==MR? False
+L==ML 3.660664925258631
+R==MR 2.325006488086876
+commutant {T_L6,T_R6} 2
+commutant {T_L6,T_R6,Pa,Pb} 1
+commutant {ML,MR} 2
+---- arc's L6-module (blocks_action) words
+R L^2 R in arc L6-module == Pa? False ==Pb? False  diag-ness 0.0
+[[0.+1.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j]
+ [0.+0.j 0.-1.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j]
+ [0.+0.j 0.+0.j 0.+1.j 0.+0.j 0.+0.j 0.+0.j]
+ [0.+0.j 0.+0.j 0.+0.j 0.-1.j 0.+0.j 0.+0.j]
+ [0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+1.j 0.+0.j]
+ [0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.-1.j]]
+order <T_L6,T_R6> 48   with Pa,Pb 192
+sorted |tr| multiset equal? False
+w1 commutes with T_L6: True
+commutant {TL6,TR6,Pa} 1 {..,Pb} 1

@@ -1,0 +1,2 @@
+positive pairs len<=4 with abelianised det = 1: 55 ; of them bases of F2 (automorphisms): 39
+examples of det-1 pairs that are NOT bases (non-invertible endomorphisms): [('ab', 'bba'), ('ba', 'abb'), ('aab', 'ba'), ('abb', 'bbab'), ('abb', 'bbba'), ('baa', 'ab'), ('bab', 'abbb'), ('bab', 'bbba')]
