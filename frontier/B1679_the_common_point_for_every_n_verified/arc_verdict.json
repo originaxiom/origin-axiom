@@ -1,0 +1,27 @@
+{
+  "id": "B1679",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": true,
+  "identifications": [],
+  "depends_on": [
+    "B1677",
+    "B1601",
+    "B1600"
+  ],
+  "rests_on_seat": [
+    "sm:W109",
+    "sm:W108"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "characters of the free group F_n in SL(2, C); the moves R_ij: a_i -> a_i a_j and L_ij: a_i -> a_j a_i",
+    "object": "the weave of n records for every n >= 2; every finite subgroup of SU(2) on the class reading",
+    "reach": "general",
+    "hypotheses": "the rank-two target SL(2, C) and the requirement of a non-trivial common character are inputs; higher-rank targets are open (P-209)"
+  },
+  "claim_one_line": "THE COMMON POINT FOR EVERY n, VERIFIED ON MAIN (re-banks the SM seat's W109 proof, proof before checks before run, and its W108 census, rule before script before run; main re-derived the proof and ran an independent search; both seat scripts re-run): for every n >= 3 the only character of F_n in SL(2, C) fixed by every move R_ij (or every L_ij) is the trivial one -- one common trace t, Fricke forces t in {0, 2}, t = 0 makes the generators an orthonormal frame whose triple product has trace -/+2, t = 2 is trivial; at n = 2 the record's R and L fix exactly the trivial point and the quaternion point (0, 0, 0); on the class reading no finite subgroup of SU(2) has a fixed class for n >= 3 (a perfect image in a solvable Out(G)); W108: 2I at n = 3 has none, its 13 344 classes one orbit. So B1677 holds for every n with no SU(2) and no finite image assumed: two records follows from a non-trivial common character in SL(2, C), the finite image then forced (tr[a, b] = -2, Q8). The rank-two target stays priced. 0 of 19.",
+  "weave_or_thread": "weave (every move of the weave of n records, every n)"
+}

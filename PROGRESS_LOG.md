@@ -17410,3 +17410,16 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **One error of main's, caught by the lock.** The lock first assumed a fixed product order for M_of; the action's order
   is a convention, and the verifier's test allows either.
 
+## 2026-10-20 — S150: B1679 AND THE PAPER'S ERRATUM 1
+
+- **The owner's "start with step 1 all the way to the end"** (step 1: verify the SM seat's W109 and W108 and its
+  erratum candidates).
+- **The verification.**
+  - The proof was re-derived by hand: the Fricke step, the orthonormal frame, the perfect group.
+  - Main's own search uses least squares on the move-defect over SL(2, ℂ)ⁿ, with no seat code.
+  - The seat's scripts were re-run from extracted copies.
+- **Errata judged under P-203.** One is applied (a wrong claim: "the principle's tick"); one is declined as a scope
+  wording ("At the root").
+- **One slip of main's, caught before commit.** An escaped ASCII pipe in a table cell would have broken the ledger's
+  cell count.
+

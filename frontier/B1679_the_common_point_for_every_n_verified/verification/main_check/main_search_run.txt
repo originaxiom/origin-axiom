@@ -1,0 +1,2 @@
+n = 3, the six R_ij: 119 zeros of the defect from 200 starts; distinct trace vectors: [(np.float64(2.0), np.float64(2.0), np.float64(2.0), np.float64(2.0), np.float64(2.0), np.float64(2.0))]
+n = 2, the record's R and L: 200 zeros from 200 starts; distinct (x, y, z): [(np.float64(-0.0), np.float64(-0.0), np.float64(0.0)), (np.float64(2.0), np.float64(2.0), np.float64(2.0))]

@@ -8,6 +8,12 @@
 - **Why.** The owner asked for the best parameter-free structure that could show the principle has real ground, and
   whether "two records" (GENESIS GM1, a postulate) is forced (P-201, P-205).
 
+> *Dated note, 2026-10-20: strengthened by B1679.* The SM seat's W109, verified on main, proves this arc's result for
+> every n ≥ 3 and drops both assumptions: a non-trivial character of F_n in SL(2, ℂ) fixed by every move exists only at
+> n = 2, where it is the quaternion point, and the finite image there is forced. Its W108 confirms the binary
+> icosahedral case at n = 3 exhaustively. The census above stands as sealed; its "n ≤ 4" and "SU(2), finite image" are
+> superseded by B1679's statement.
+
 ## 0. Seen first, and disclosed
 
 As sealed: `VERDICT topic-sweep /common point|quaternion point|Nielsen|generating (pair|triple|tuple)|record count|substrate count|two records/: 14 of 1448 arcs on main match (NEGATIVE 1, PROVED 13)`.

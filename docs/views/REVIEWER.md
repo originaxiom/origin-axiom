@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1407** |
-| words of findings prose | **1,117,416** |
-| test lock files referenced | **824** |
-| arcs carrying an authored verdict | **1407** (100.0 %) |
+| research arcs with findings | **1408** |
+| words of findings prose | **1,118,449** |
+| test lock files referenced | **825** |
+| arcs carrying an authored verdict | **1408** (100.0 %) |
 | recorded closures | **825** (658 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 954 |
+| PROVED | 955 |
 | NEGATIVE | 349 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1678`** (1139 words, 1 locks)  
-THE LIFTED REGISTER, VERIFIED ON MAIN (re-banks the audit lane's word-architecture audit, 41 commits c5c467891..17cdad33a, re-implemented by main's reading pass; and P-207's sign audit): the four wordings lift coherently through a central double cover E = {(phi, g): rho phi = Ad_g rho} of Aut+(F2) -- Delta^4 lifts to eps J_c, the inner lifts' commutator is J_c, D_eps = -I, D_Jc = +I -- which closes Gate 12 by a structure (superseding B1672's census to word length 7); the joint image of V and W has order 192 but is a subdirect product of reducible modules (the extreme domain stays chosen); the coupling's transport needs a phase alpha beta = z^-2 and averaging rotated copies manufactures rank; the theta field's automorphy and the puncture's connecting map hold; a covariant rank-3 end family exists on an open set but not at the symmetric state. B1617's pointwise lift is not a group section (-1 in 55 of 200 products): the sign audit of the eight arcs using it moves one number (B1630's S~ eigen-turns: 3/8, 7/8, 7/8) and one verdict the record had already corrected (B1632's C1, refuted in part by B1634). No physical input is paid. 0 of 19.  
-`B1678_the_lifted_register_verified/FINDINGS.md`
+**PROVED — `B1679`** (940 words, 1 locks)  
+THE COMMON POINT FOR EVERY n, VERIFIED ON MAIN (re-banks the SM seat's W109 proof, proof before checks before run, and its W108 census, rule before script before run; main re-derived the proof and ran an independent search; both seat scripts re-run): for every n >= 3 the only character of F_n in SL(2, C) fixed by every move R_ij (or every L_ij) is the trivial one -- one common trace t, Fricke forces t in {0, 2}, t = 0 makes the generators an orthonormal frame whose triple product has trace -/+2, t = 2 is trivial; at n = 2 the record's R and L fix exactly the trivial point and the quaternion point (0, 0, 0); on the class reading no finite subgroup of SU(2) has a fixed class for n >= 3 (a perfect image in a solvable Out(G)); W108: 2I at n = 3 has none, its 13 344 classes one orbit. So B1677 holds for every n with no SU(2) and no finite image assumed: two records follows from a non-trivial common character in SL(2, C), the finite image then forced (tr[a, b] = -2, Q8). The rank-two target stays priced. 0 of 19.  
+`B1679_the_common_point_for_every_n_verified/FINDINGS.md`
 
 **NEGATIVE — `B1673`** (1020 words, 1 locks)  
 THE DYNAMICAL-SELECTION CLAIMS OF 19 OCTOBER, VERIFIED (NEGATIVE; a verification arc of a separate session's unsealed arc, banked under its number; P-199): no static debt of Table 1 is discharged. V = -ln(Im tau |eta|^4) is minimal at omega (1.0335192760; saddle at i, gap 0.0211690050), the classical torus-determinant extremum, already in W51/W59: taking it as the modulus's potential is a choice. The Green function's minimum over the 72 points of exact order 9 is a 12-point orbit (-0.504572), disjoint from W59's eighteen lines; the 3-torsion lies lower. The 8:4 CP count is a coordinate error (points built as (a omega - b)/9, rotated as a + b omega; wrong on 72 of 72); on the true points 0 of 12 are reflection-fixed and the orbit is reflection-closed, so nothing breaks; averaged J is set by the input matrix and is ~1200x the measured 3.1e-5. Orbit-averaged and Selberg spectra (s = l(LR), one thread's length) give ratios near 1/2, missing the data by one to three orders. 0 of 19.  

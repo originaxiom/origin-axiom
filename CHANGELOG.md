@@ -1,5 +1,27 @@
 # Changelog
 
+## S150 THE COMMON POINT FOR EVERY n (B1679, PROVED); THE PAPER'S ERRATUM 1
+
+- **B1679** re-banks the SM seat's W109 and W108, written at main's ask.
+  - W109 is a proof by hand, committed before its checks. For every n ≥ 3 the only character of F_n in SL(2, ℂ) fixed
+    by every move is the trivial one. At n = 2 the record's own R and L fix exactly the trivial point and the
+    quaternion point.
+  - W108 is an exhaustive census: the binary icosahedral group has no common point at n = 3.
+  - Main re-derived the proof and ran an independent numerical search: 119 zeros at n = 3, all trivial; at n = 2
+    exactly the two points. Both seat scripts were re-run.
+  - **So B1677 holds for every n, with no SU(2) and no finite image assumed.** Two records follow from a non-trivial
+    common character of the records in SL(2, ℂ). The finite image at n = 2 is forced (tr[a, b] = −2, Q₈). The rank-two
+    target stays priced.
+- **The paper, erratum 1** (P-203, errata only). The proof of Theorem 2 called the golden rule's tick "the principle's
+  tick". It is one thread's (B1676), corrected with a row in the paper's corrections ledger, and tagged
+  `p9-draft9-e1`. The seat's second candidate ("At the root") is a scope wording, not an error, and is queued.
+- **Records.**
+  - P-208's GM1 text sharpened.
+  - P-209 registers the higher-rank targets, the next step.
+  - A dated note on B1677.
+  - Harvest rows 1274–1276 and the SM seat's pin.
+- **Credit** to the SM seat for W108, and for W109, which turned main's census into a theorem.
+
 ## S149 THE LIFTED REGISTER VERIFIED (B1678, PROVED; P-207 done): the four wordings lift coherently; the record's pointwise lift audited
 
 - **B1678** re-banks the audit lane's word-architecture audit (41 commits), re-implemented by main's own code; nothing

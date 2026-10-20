@@ -12412,6 +12412,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1679": {
+   "slug": "the common point for every n verified",
+   "motifs": [
+    "coupling",
+    "trace_map",
+    "kappa",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B167": {
    "slug": "conserved no scale lemma",
    "motifs": [

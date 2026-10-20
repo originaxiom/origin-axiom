@@ -1,0 +1,25 @@
+C1 held {'Fricke tr(xy) + tr(x adj y) - tr x tr y': '0', 'triple identity residual': '0', 'Cayley-Hamilton at trace 0, x^2 + det(x) I': '[0, 0, 0, 0]', 'polarisation xy + yx - tr(xy) I': '[0, 0, 0, 0]'}
+C2 held {'n = 3': {'ordered triples': 6, 'R failures': [], 'L failures': [], 'R failure count': 0, 'L failure count': 0}, 'n = 4': {'ordered triples': 24, 'R failures': [], 'L failures': [], 'R failure count': 0, 'L failure count': 0}}
+C3 held {'fixed points of R and L': [(0, 0, 0), (2, 2, 2)], 'fixed by the inversion': True, 'fixed by the swap': True, "the reducer's R and L equal the hand formulas": True, 'R by the reducer': ['y12', 'x2', '-x1 + x2*y12'], 'L by the reducer': ['x1', 'y12', 'x1*y12 - x2']}
+C4 reducer: 2400 random words; worst relative error 8.26e-15 ; the relation of z, worst residual 1.01e-15
+C4 six R_ij : 25 equations; Groebner basis ['x1 - 2', 'x2 - 2', 'x3 - 2', 'y12 - 2', 'y13 - 2', 'y23 - 2', 'z - 2'] ; points [('2', '2', '2', '2', '2', '2', '2')]
+C4 six L_ij : 25 equations; Groebner basis ['x1 - 2', 'x2 - 2', 'x3 - 2', 'y12 - 2', 'y13 - 2', 'y23 - 2', 'z - 2'] ; points [('2', '2', '2', '2', '2', '2', '2')]
+C4 all twelve : 49 equations; Groebner basis ['x1 - 2', 'x2 - 2', 'x3 - 2', 'y12 - 2', 'y13 - 2', 'y23 - 2', 'z - 2'] ; points [('2', '2', '2', '2', '2', '2', '2')]
+C4 frames: {'z = 2': {'on the variety': True, 'image under R_12': ['0', '0', '0', '0', '2', '0', '0'], 'moved': True}, 'z = -2': {'on the variety': True, 'image under R_12': ['0', '0', '0', '0', '-2', '0', '0'], 'moved': True}}
+C4 held
+C5 Q8 {'order': 8, '|Aut|': 24, '|Inn|': 4, '|Out|': 6, 'Inn inside Aut': True, 'derived series of Aut (orders)': [24, 12, 4], 'Out solvable': True, 'Out abelian': False, '|Aut| as expected': True, '|Inn| as expected': True}
+C5 2T {'order': 24, '|Aut|': 24, '|Inn|': 12, '|Out|': 2, 'Inn inside Aut': True, 'derived series of Aut (orders)': [24, 12], 'Out solvable': True, 'Out abelian': True, '|Aut| as expected': True, '|Inn| as expected': True}
+C5 2O {'order': 48, '|Aut|': 48, '|Inn|': 24, '|Out|': 2, 'Inn inside Aut': True, 'derived series of Aut (orders)': [48, 12], 'Out solvable': True, 'Out abelian': True, '|Aut| as expected': True, '|Inn| as expected': True}
+C5 2I {'order': 120, '|Aut|': 120, '|Inn|': 60, '|Out|': 2, 'Inn inside Aut': True, 'derived series of Aut (orders)': [120, 60], 'Out solvable': True, 'Out abelian': True, '|Aut| as expected': True, '|Inn| as expected': True}
+C5 Dic_3 {'order': 12, '|Aut|': 12, '|Inn|': 6, '|Out|': 2, 'Inn inside Aut': True, 'derived series of Aut (orders)': [12, 3], 'Out solvable': True, 'Out abelian': True, '|Aut| as expected': True, '|Inn| as expected': True}
+C5 Dic_4 {'order': 16, '|Aut|': 32, '|Inn|': 8, '|Out|': 4, 'Inn inside Aut': True, 'derived series of Aut (orders)': [32, 4], 'Out solvable': True, 'Out abelian': True, '|Aut| as expected': True, '|Inn| as expected': True}
+C5 Dic_5 {'order': 20, '|Aut|': 40, '|Inn|': 10, '|Out|': 4, 'Inn inside Aut': True, 'derived series of Aut (orders)': [40, 5], 'Out solvable': True, 'Out abelian': True, '|Aut| as expected': True, '|Inn| as expected': True}
+C5 Dic_6 {'order': 24, '|Aut|': 48, '|Inn|': 12, '|Out|': 4, 'Inn inside Aut': True, 'derived series of Aut (orders)': [48, 6], 'Out solvable': True, 'Out abelian': True, '|Aut| as expected': True, '|Inn| as expected': True}
+C5 Dic_7 {'order': 28, '|Aut|': 84, '|Inn|': 14, '|Out|': 6, 'Inn inside Aut': True, 'derived series of Aut (orders)': [84, 7], 'Out solvable': True, 'Out abelian': True, '|Aut| as expected': True, '|Inn| as expected': True}
+C5 Dic_8 {'order': 32, '|Aut|': 128, '|Inn|': 16, '|Out|': 8, 'Inn inside Aut': True, 'derived series of Aut (orders)': [128, 8], 'Out solvable': True, 'Out abelian': True, '|Aut| as expected': True, '|Inn| as expected': True}
+C5 Dic_9 {'order': 36, '|Aut|': 108, '|Inn|': 18, '|Out|': 6, 'Inn inside Aut': True, 'derived series of Aut (orders)': [108, 9], 'Out solvable': True, 'Out abelian': True, '|Aut| as expected': True, '|Inn| as expected': True}
+C5 Dic_10 {'order': 40, '|Aut|': 160, '|Inn|': 20, '|Out|': 8, 'Inn inside Aut': True, 'derived series of Aut (orders)': [160, 10], 'Out solvable': True, 'Out abelian': True, '|Aut| as expected': True, '|Inn| as expected': True}
+C5 Dic_11 {'order': 44, '|Aut|': 220, '|Inn|': 22, '|Out|': 10, 'Inn inside Aut': True, 'derived series of Aut (orders)': [220, 11], 'Out solvable': True, 'Out abelian': True, '|Aut| as expected': True, '|Inn| as expected': True}
+C5 Dic_12 {'order': 48, '|Aut|': 192, '|Inn|': 24, '|Out|': 8, 'Inn inside Aut': True, 'derived series of Aut (orders)': [192, 12], 'Out solvable': True, 'Out abelian': True, '|Aut| as expected': True, '|Inn| as expected': True}
+C5 solvability held ; the orders held
+cells: {'C1': True, 'C2': True, 'C3': True, 'C4': True, 'C5 solvability': True, 'C5 orders': True}
