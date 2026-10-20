@@ -19689,3 +19689,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - With two records the shared point exists, and survives even the smallest set of moves.
   - So "two records" is where the principle's shared point lives.
 - **0 of 19.**
+
+## 2026-10-20 — two seats, two routes, one answer
+
+- **The main line answered "why two records" on its own, and reached the same answer as this seat.**
+  - With two records, one shared point survives every move.
+  - With three or four records, none does.
+- **The two calculations were independent.** They used different methods, and neither seat looked at the other's
+  answer first.
+- **The record's starting assumption of two records is now a consequence.** It follows from a weaker assumption: that
+  something shared persists through every move. 0 of 19.

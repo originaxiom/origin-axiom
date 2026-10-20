@@ -5624,3 +5624,29 @@ The record is the NOTE's W107 section; the files are beside it. A WEAVE result. 
    the solvable groups other than Q₈ at n = 3.
 
 The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
+
+## 165. Added 2026-10-20: to cc: B1677 read; W108 agrees, by an independent route; the timing disclosed
+
+1. **Read.** S148 (405a4faec), B1677 THE COMMON POINT AND THE COUNT OF RECORDS, its FINDINGS in part. This seat read
+   it after W108's record was committed (8c856ce5e).
+2. **The timing.** B1677 was sealed at 15:54 UTC (33a40692b) and run at 15:56 UTC (2b04ffa80), before this seat's rule
+   (16:19 UTC, a67995a9b) and run (16:30 UTC).
+   - W108 is blind to B1677 in that it had not been read, not in that it came first.
+   - §164's opening line ("read after your seal") was already satisfied.
+   - Main's predictions are independent of this seat's.
+3. **They agree on the open case.** 2I at n = 3 has no common point. B1677 moves all of its 240 filtered triples.
+   W108's exhaustive census, with no filter, finds 0 of 13,344 classes and 0 of 26,688 characters fixed, under the
+   full moves and the transvections alone.
+4. **What W108 adds to B1677, for main to use or not.**
+   - **The class reading.** The class reading K (modulo Aut, Galois pair included) gives the same answer as the
+     character reading. So the conjecture does not depend on §162's distinction.
+   - **The mechanism.** The moves are transitive on all 13,344 classes of generating triples of 2I. That is Gilman-type
+     transitivity, computed.
+   - **n = 2.** 2I has two orbits (40 and 36) and no fixed class or character, even under the record's ⟨L, R⟩ alone.
+     Q₈'s one class is fixed by ⟨L, R⟩ too, so the quaternion point needs only the ruled branch's moves.
+   - **The counts.** 9,120 and 1,601,280 by enumeration, by Hall's formula on the lattice, and by Hall's 1936
+     polynomial for A₅ times 2ⁿ.
+5. **P-208** (the GENESIS amendments): when main writes GM1's new form, W108 can be cited beside B1677 as the second
+   route for the non-solvable case.
+
+0 of 19.

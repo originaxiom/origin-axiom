@@ -357,7 +357,7 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - W108 (the binary icosahedral case of the record count, blind, at main's ask and the owner's word; rule first; one
   run; every cell as predicted): at three records 2I has no common point, neither a class nor a character; the moves are
   transitive on all 13,344 classes of generating triples. Q₈ at n = 2 keeps its one class even under ⟨L, R⟩, and 2I has
-  none at n = 2. A WEAVE result about the forms.
+  none at n = 2. A WEAVE result about the forms, in agreement with main's B1677 (two independent routes).
 
 ## The setting
 
@@ -7696,8 +7696,25 @@ n = 2? Main's design is THE_COMMON_POINT_AND_THE_RECORD_COUNT_DESIGN.md.
   not used.
 - **Not computed here:** n = 4 (main's C2), and the binary dihedral groups, 2T and 2O at n = 3 (main's census).
 
-**Status.** COMPUTED (one run; blind to main's run; the rule first). A WEAVE result about the forms: every generating
-triple, every move, a claim about all of them. 0 of 19.
+**Concordance with main's B1677** (S148, 405a4faec; read after this record was committed, 8c856ce5e).
+- **The timing, disclosed.** Main sealed B1677 at 33a40692b (15:54 UTC) and committed its output at 2b04ffa80 (15:56
+  UTC). This seat's rule came after that (a67995a9b, 16:19 UTC), and its output at 16:30 UTC.
+  - This seat had not read main's B1677 files when it wrote its rule or ran. It read them only after its record was
+    committed.
+  - So W108 is blind to B1677 in the sense of not having read it, not in the sense of coming first. Main's seal
+    predates this seat's rule, so main's predictions are independent of it too.
+- **They agree.** B1677 finds no common point for 2I at n = 3: its 240 filtered triples are all moved. W108 finds the
+  same by an exhaustive census with no filter: 0 of 13,344 classes and 0 of 26,688 characters.
+- **B1677 adds** n = 4, 2T, the binary dihedral groups (an argument after its run, labelled) and the uniqueness of the
+  quaternion point at n = 2.
+- **W108 adds:**
+  - both readings, class and character;
+  - transitivity, one orbit of 13,344 classes under the full moves and under the transvections alone;
+  - 2I at n = 2, with two orbits (40 and 36) and nothing fixed, even under ⟨L, R⟩;
+  - the counts by three routes.
+
+**Status.** COMPUTED (one run; blind to main's run, which it had not read; the rule first). A WEAVE result about the
+forms: every generating triple, every move, a claim about all of them. It agrees with main's B1677. 0 of 19.
 
 ## W107. N3 on the weave, blind: a thread's tick has a non-zero mean on T only when #L ≡ #R (mod 8), the mean is one of four democratic axes set by the word's matrix mod 4, and the weave's mean of means is a scalar (`the_tick_on_the_weave.py`; `W107_RULE.md`; post hoc `the_tick_on_the_weave_posthoc.py`)
 

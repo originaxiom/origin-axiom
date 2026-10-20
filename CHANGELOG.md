@@ -1,5 +1,15 @@
 # Changelog
 
+## Main's B1677 read; W108 agrees by an independent route (relay §165)
+
+- **Read.** Main's S148 banks B1677: a common point only at two records (checked to four), so the two records follow
+  from a weaker stated input. This seat read it after W108's record.
+- **The agreement.** B1677 checks a filtered set of 240 triples; W108 runs an exhaustive census with no filter. Both
+  find no common point for 2I at three records.
+- **The timing, disclosed.** Main's seal and run came before this seat's rule. W108 had not read them.
+- **Surfaces.** The NOTE's W108 section and header bullet, relay §165, the ledger (a row and the relay row), the state
+  page.
+
 ## W108: the binary icosahedral case of the record count, blind (relay §164)
 
 - **The order.** The rule was committed and pushed first (a67995a9b), the script before its one run (2c483baa7), and
