@@ -224,9 +224,16 @@ being presented as certified experiments.
 
 Commit scoped checkpoints without absorbing unrelated staged changes.
 Push only when the exact-tree suite and applicable publication gates
-permit. An historical noncompliance report remains a report of failure,
-not an exemption. No deadline or promised TOE result overrides these
-conditions.
+permit for banking or certified publication. On October 20 the owner
+explicitly approved an exception for sharing committed UNREVIEWED
+checkpoints on this existing audit branch so other seats can inspect
+them. Such a push is review access only: it supplies no test certificate,
+execution admission, independent acceptance, banking or merge permission.
+Scientific execution, banking and merge checks remain required. See
+[the review sharing notice](UNREVIEWED_REVIEW_ACCESS_2026_10_20.md).
+An historical noncompliance report remains a report of failure, not an
+exemption or retroactive compliance. No deadline or promised TOE result
+overrides the remaining conditions.
 
 ## Current execution state
 
