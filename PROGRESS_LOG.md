@@ -19711,3 +19711,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   make to be finite. At two records the finite group follows by itself.
 - **The checks came out as expected.** The proof was written down before the checks ran, and the checks ran once.
   0 of 19.
+
+## 2026-10-20 — the main line checked the proof
+
+- **The main line checked this seat's proof three ways and accepted it.** It worked through the proof itself, ran its
+  own independent search, and re-ran this seat's two programs.
+- **So the count of two records now follows, for any number of records, from one shared point that every move
+  keeps.** 0 of 19.

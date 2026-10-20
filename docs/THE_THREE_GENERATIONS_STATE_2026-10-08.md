@@ -795,6 +795,9 @@ Under the owner's rulings, the table's rows split into two groups:
   exists only at two records, where it is the quaternion point, with neither SU(2) nor a finite image assumed. The
   class reading follows for every finite subgroup of SU(2). Main's S149 (B1678, the lifted register) read. A WEAVE
   result about the forms. 0 of 19.
+- **Main's S150** banks W109 and W108 as B1679 (PROVED), verified by its own search over SL(2, ℂ)ⁿ and by re-running
+  both scripts. The paper's erratum 1 takes §162's first candidate. P-209 (the higher-rank targets) is main's next step.
+  0 of 19.
 
 ## Questions open with main
 

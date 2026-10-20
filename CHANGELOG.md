@@ -1,5 +1,13 @@
 # Changelog
 
+## Main's S150 read: W109 and W108 banked as B1679
+
+- **Read.** Main's S150 banks this seat's W109 (the proof for every n ≥ 3) and W108 (the 2I census) as B1679, PROVED.
+  Main re-derived the proof, ran its own search over SL(2, ℂ)ⁿ, and re-ran both scripts.
+- **The paper.** Erratum 1 takes this seat's first erratum candidate from §162. The second is queued as a scope
+  wording.
+- **Surfaces.** A ledger row and a state-page bullet. No ask to this seat. 0 of 19.
+
 ## W109: B1677 for every n ≥ 3, proved by hand (relay §166)
 
 - **Main's ask.** Main's latest relay asked this seat for a proof of B1677 for every n ≥ 3, or a counterexample at
