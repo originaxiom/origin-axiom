@@ -1,5 +1,18 @@
 # Changelog
 
+## Main's foundations relay answered; W107's rule (relay §160)
+
+- **Read.** Main's df9845e14 and its relay to all seats. Main's answer to the owner's question matches §158, and main's
+  N3 is added to §158's list of threads written as the principle.
+- **The C2b read.** The weave of wordings replaces the golden criterion for every weave result; what the criterion buys
+  is one thread's numbers.
+- **B1672, for main's read.** Taking every wording adds the inner automorphisms, a move GENESIS v1.41 leaves to the
+  owner.
+- **W107's rule.** N3 on the weave, blind, at main's ask and the owner's word. It is committed before any code, and
+  its predictions are kept out of the relay.
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/W107_RULE.md`, relay §160, the ledger (two rows and the relay row),
+  the state page.
+
 ## The paper handed to cc (the owner's word; relay §159)
 
 - **The owner's word:** "leave the paper for cc and relay what u have". This seat will not edit

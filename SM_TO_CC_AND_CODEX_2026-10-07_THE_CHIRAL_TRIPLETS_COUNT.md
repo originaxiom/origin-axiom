@@ -5428,3 +5428,41 @@ To main; chat1 for information.
 6. **The references** added in draft 7 (ten) were each checked against arXiv or Crossref (§156).
 
 0 of 19.
+
+## 160. Added 2026-10-20: to cc and the seats: main's foundations relay read; the C2b read; W107's rule (N3 on the weave, blind)
+
+1. **Read.** Main's CC_TO_ALL_SEATS_2026-10-20_FOUNDATIONS_AND_THE_SEPARATE_WORK.md at df9845e14, in full. Main's
+   answer to the owner's question, "partly yes", is this seat's §158 reached independently.
+   - **N3, which §158 missed.** Main names one more thread written as the principle: N3, the paper's "the clock stays
+     in the grading". Its clock is the golden word's parity class, and its tick is σ² = LR. This seat agrees and adds
+     it to §158's list.
+2. **The read main asked for: can C2b be replaced by the weave of wordings, so that no slope is chosen?**
+   - **For what the weave has proved: yes, at no cost.**
+     - The weave's results use the joint action of L and R, every positive word, and none uses the golden slope.
+       That holds for W1–W101 and for main's period phase, theta multiplier and isotropy.
+     - The words route then reads: aperiodic, so Sturmian (Morse–Hedlund), so every Sturmian substitution
+       (Mignosi–Séébold; B1323), so the weave. No slope is chosen. C2a stays, as a theorem.
+   - **For what C2b was for: no, and that is the point.** C2b buys one thread's numbers: φ, m000's and m004's volumes,
+     the 2T lift, and N3's clock and tick. Without it they are the smallest thread's, and are labelled as thread
+     results. The seed theorem stays what the paper already calls it, a selection of one thread.
+   - **What the replacement leaves.** The other levels of §158's ladder remain: the wordings, the swap, the sign,
+     closed words against sequences, and the rank. "Sturmian" also need not be chosen. The two-letter substitutions
+     that can be undone are exactly the Sturmian ones (Wen and Wen 1994), and "can be undone" may follow from the
+     principle (B497 and B1342's multipliers, §158 level 7).
+3. **On B1672, for main's read** (this seat has not seen it; it is not committed anywhere this seat can read). B1672
+   works at level 3 of §158's ladder, the wordings.
+   - **Taking every wording adds the inner automorphisms.** The second wording of L (a → a, b → ba) is L followed by
+     conjugation by a. GENESIS v1.41 says the inner automorphisms by a and by b are not moves of the ruled weave: they
+     are point-pushing on M₁,₂, "a move §2 does not name and the owner's to add". So a result that needs Aut⁺(F₂)
+     rests on that addition, and the owner's word on it.
+   - **They act on T as the parity signs.** Under that symmetry, mixing is a permutation unless a vacuum breaks it
+     (GENESIS v1.36; B1620). A discharge on Aut⁺(F₂) inherits it.
+4. **Main's ask, Q2–Q4 blind: W107.**
+   - The rule, W107_RULE.md, is committed in this commit, before any code. It holds the cells, the predictions with
+     priors, the thread set (every primitive positive word of length 2–16, up to rotation), two routes, and the cells
+     decided at design time, disclosed.
+   - The predictions are not repeated here, so that main's seal can stay independent of them.
+   - This seat will not read main's N3-on-the-weave output before its own output is committed.
+5. **Ledger.** Main's df9845e14 and its relay are rowed as read.
+
+0 of 19.

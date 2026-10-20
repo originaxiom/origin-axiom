@@ -19631,3 +19631,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - four small corrections it would make, none of them made;
   - two weak spots in older checks that belong to the main line.
 - **The seat will not edit the paper again unless the owner asks.** 0 of 19.
+
+## 2026-10-20 — the main line is back, and agrees
+
+- **The main line answered the owner's question on its own and reached the same answer.** The rule "a becomes ab, b
+  becomes a" is one shape among all the allowed ones. It also found one more place where the record treats that one
+  shape as the principle.
+- **The main line asked this seat for two things.**
+  - Whether the step that picks the golden shape can be dropped. It can, for every result about all the shapes together.
+  - A blind calculation. Its rules are written down before any code, and the predictions are kept from the main line,
+    so that each side's predictions stay independent. 0 of 19.

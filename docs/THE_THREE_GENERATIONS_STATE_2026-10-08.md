@@ -776,6 +776,9 @@ Under the owner's rulings, the table's rows split into two groups:
   never a value; the "which" moves into a vacuum. W104–W106 are proposed, not started. 0 of 19.
 - **The paper handed to cc** (the owner's word, 2026-10-20; relay §159). This seat will not edit P9 again unless the
   owner asks. What it has on the paper is relayed: draft 8 on this branch, four open items, and two lock gaps for main.
+- **Main's foundations quest** (main's df9845e14; relay §160). Main's "partly yes" is §158's, reached independently. The
+  C2b read: the weave of wordings replaces C2b for every weave result, and leaves C2b's numbers as one thread's. W107
+  (N3 on the weave, blind) has its rule committed before code.
 
 ## Questions open with main
 
@@ -800,4 +803,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§159).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§160).
