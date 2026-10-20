@@ -625,3 +625,23 @@ or the total rank six. The candidate regularity law must be derived
 from the same physical action, not selected because one sign gives +3.
 This is authored unreviewed analysis outside all frozen test proposals;
 no scientific execution, physical-input payment or push is claimed.
+
+## Full gauge compatibility of the candidate end law
+
+October 20. The [same-action compatibility audit](PROJECTIVE_END_LAW_AND_FULL_GAUGE_COMPATIBILITY.md)
+retains the earlier full E8 puncture-to-weak-centre equality and derives
+the product subgroup's Z6 kernel from every charged branching block.
+Projective regularity of the bare six-component coefficient does not
+regularize its nonscalar full E8 puncture transport. A concrete weak
+quaternion compensation gives commuting full E8 torus holonomies, but
+changes the mixed coefficient to rho tensor rho and does not preserve
+the original weak factor. Its stationary flat compact control has
+degree-zero ordinary-spin index, not the puncture +/-3 count.
+
+The source's classical potential already vanishes at the flat zero-field
+origin for the unchanged punctured connection, independently of how
+one proposes extending its coefficient lattice. Its value alone cannot
+derive the projective regularity condition. A complete variational end
+law or actual exterior, with all compensating fields and lift information,
+remains the target. These are unreviewed conditional derivations;
+no scientific packet was executed or complete physical-input row paid.
