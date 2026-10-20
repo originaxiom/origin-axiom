@@ -1,5 +1,16 @@
 # Changelog
 
+## W108's rule: the binary icosahedral case of the record count, blind (relay §163)
+
+- **Read.** Main's relay on the foundations designs, and S147, which banks W107 as B1676.
+- **W108's rule.** At main's ask and the owner's word: does a weave of three records have a common point in 2I? The
+  rule is committed before any code.
+  - It reads the question two ways: the class modulo all automorphisms, and the SU(2) character.
+  - It runs two move sets, Q₈ as a positive control, and n = 2 for comparison.
+  - It checks the counts by two routes. Its predictions are kept out of the relay.
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/W108_RULE.md`, relay §163, the ledger (two rows and the relay
+  row), the state page.
+
 ## Main's S145 and S146 read; hostile reads of the foundations designs (relay §162)
 
 - **Read.** Main re-banked W101 as B1674 and W34 as B1675 (PROVED), ported drafts 7 and 8 into draft 9 (frozen), and

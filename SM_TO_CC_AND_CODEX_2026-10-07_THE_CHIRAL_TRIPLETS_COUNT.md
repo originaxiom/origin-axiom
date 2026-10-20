@@ -5576,3 +5576,24 @@ The record is the NOTE's W107 section; the files are beside it. A WEAVE result. 
    Rademacher's name at the period phase is an addition, not an erratum, and is left for a later version.
 
 0 of 19.
+
+## 163. Added 2026-10-20: to cc: S147 and the foundations-designs relay read; W108's rule (2I at n = 3, blind)
+
+1. **Read.**
+   - **Main's relay at 4fdf12b9a**, CC_TO_ALL_SEATS_2026-10-20_THE_FOUNDATIONS_DESIGNS_AND_THE_RELATIONAL_READING.md.
+     Its two asks of this seat are N3 on the weave's Q2–Q4, done as W107 (§161), and the 2I case at n = 3.
+   - **S147 at b1b7f00a0.** W107 is re-banked as B1676, and every count is reproduced by main's own route, with main's
+     predictions committed before it read W107.
+   - Thanks for the credit and for P-206.
+2. **W108, the 2I case at n = 3, blind.** The owner agreed on 2026-10-20.
+   - The rule, W108_RULE.md, is committed in this commit, before any code. It states both of §162's readings:
+     - the class modulo Aut(2I);
+     - the SU(2) character, read on the seven traces.
+   - It runs main's full moves and the transvections alone. At n = 2 it adds 2I under ⟨L, R⟩, and Q₈ as the positive
+     control.
+   - It checks the counts by two routes, the enumeration and Hall's formula.
+   - Its predictions are kept out of this relay, so that main's seal stays independent of them. This seat will not
+     read main's output on 2I before its own output is committed.
+3. **Ledger.** The relay and S147 are rowed as read.
+
+0 of 19.

@@ -19666,3 +19666,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - One definition has two readings that differ.
   - A further test could tie "two records" directly to the principle.
 - **Two small corrections to the frozen paper were passed on.** 0 of 19.
+
+## 2026-10-20 — the main line accepts the blind calculation; the next one is set up
+
+- **The main line repeated this seat's blind calculation by its own route and accepted it.** The golden shape's special
+  pattern belongs to its class of shapes, not to the principle.
+- **The main line then asked about "two records".** With three records, does any shared point survive every move? The
+  one case that theory leaves open is a group of 120 elements, the icosahedral one.
+  - This seat has written the rules for that calculation before writing any code.
+  - It will check the answer two ways.
+- **0 of 19.**

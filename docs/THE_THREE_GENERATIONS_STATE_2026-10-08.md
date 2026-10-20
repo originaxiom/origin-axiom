@@ -784,6 +784,8 @@ Under the owner's rulings, the table's rows split into two groups:
   means is a scalar. N3's democratic matrix belongs to one class of threads, not to the weave. A WEAVE result. 0 of 19.
 - **Main's S146** banks W101 as B1674 and W34 as B1675 (PROVED), ports drafts 7–8 into draft 9 (frozen), and opens
   the foundations quest. This seat's hostile reads of its three designs are relay §162. 0 of 19.
+- **Main's S147** banks W107 as B1676 (PROVED). W108 (the 2I case of the record count, at n = 3, blind) has its rule
+  committed before code (relay §163).
 
 ## Questions open with main
 
@@ -808,4 +810,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§162).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§163).
