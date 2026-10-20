@@ -1,0 +1,19 @@
+census n = 2 to length 12: 34998 classes; lemma failures 0; rev failures 0; length kept by every R_ij^±1: 178
+  kept, <L, R>, exactly: 3 [[-2, -1, 2, 1], [-2, -1, 2, 1, -2, -1, 2, 1], [-2, -1, 2, 1, -2, -1, 2, 1, -2, -1, 2, 1]]
+  kept, <L, R>, up to inversion: 3 [[-2, -1, 2, 1], [-2, -1, 2, 1, -2, -1, 2, 1], [-2, -1, 2, 1, -2, -1, 2, 1, -2, -1, 2, 1]]
+  kept, transvections, exactly: 3 [[-2, -1, 2, 1], [-2, -1, 2, 1, -2, -1, 2, 1], [-2, -1, 2, 1, -2, -1, 2, 1, -2, -1, 2, 1]]
+  kept, transvections, up to inversion: 3 [[-2, -1, 2, 1], [-2, -1, 2, 1, -2, -1, 2, 1], [-2, -1, 2, 1, -2, -1, 2, 1, -2, -1, 2, 1]]
+  kept, full, exactly: 0 
+  kept, full, up to inversion: 3 [[-2, -1, 2, 1], [-2, -1, 2, 1, -2, -1, 2, 1], [-2, -1, 2, 1, -2, -1, 2, 1, -2, -1, 2, 1]]
+census n = 3 to length 8: 31795 classes; lemma failures 0; rev failures 0; length kept by every R_ij^±1: 0
+  kept, transvections, exactly: 0 
+  kept, transvections, up to inversion: 0 
+  kept, full, exactly: 0 
+  kept, full, up to inversion: 0 
+census n = 4 to length 7: 70746 classes; lemma failures 0; rev failures 0; length kept by every R_ij^±1: 0
+  kept, transvections, exactly: 0 
+  kept, transvections, up to inversion: 0 
+  kept, full, exactly: 0 
+  kept, full, up to inversion: 0 
+C4 singular points of kappa = -2: [('0', '0', '0')]
+cells: {'C1': True, 'C2': True, 'C3': True, 'C4': True}

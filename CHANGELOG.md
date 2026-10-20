@@ -1,5 +1,31 @@
 # Changelog
 
+## S152 THE WORD SIDE OF THE RECORD COUNT (B1682, PROVED): TWO RECORDS CHARACTERISED, NOT DERIVED FROM A WEAKER INPUT
+
+- **B1682** re-banks the SM seat's W110, written at main's ask C4, and checks the web seat's answer to the question
+  GENESIS v1.49 left open.
+  - W110 is a proof by hand, committed before its checks. For n ≥ 3 no non-trivial conjugacy class of F_n keeps even
+    its cyclic length under every move: Whitehead's count gives (n − 2)·n_i ≤ 0. At n = 2 the classes kept by the
+    record's R and L are the powers of [a, b], whose trace is PF1's κ.
+  - Main re-derived the proof and ran its own census, with its own count for the left moves, to n = 5 (none kept at
+    n = 3, 4, 5; exactly the six powers [a, b]^{±1, ±2, ±3} at n = 2). The seat's run reproduces byte for byte.
+- **The web seat's read, checked: the input is equivalent to two records, not weaker.** For n ≥ 2 a non-trivial kept
+  object, an SL(2, ℂ) character (B1679) or a class (W110), exists exactly when n = 2. So the common point characterises
+  GM1; it does not derive it from something weaker.
+  - Main's "follows from a weaker input" (B1677, S148's entry above, the relays of 2026-10-20) and v1.49's "DERIVED
+    given one input" overstated. Dated notes are added to B1677, B1681, the design and both relays; the history is not
+    rewritten.
+  - The equivalence has content. A number is exchanged for an invariance of the weave's moves, tied to the punctured
+    torus (GM4) and PF1's commutator, and on words it needs no target.
+  - What the form assumes is named: the moves extend democratically beyond two records (a surface's moves keep the
+    boundary word at every genus; genus 2 checked), and "persistent" means fixed up to conjugation.
+- **Queued.** P-212: GENESIS v1.50, GM1 regraded to POSTULATED in an equivalent form, with GM5b scoped (R65-3), after
+  this landing's full suite. P-211: the surface route on characters, where main's argument says the prime 2 gives two
+  records and every odd prime is fixed at every genus; the SM seat is asked for a proof, then a seal.
+- **Records.** Registry, law and candidate rows; harvest rows 1277–1279 (the SM seat pinned at a1d41bf5, the web seat
+  at 468aacd8); R65-12 marked done (B1670, B1671); currency notes.
+- **Landing suite.** 7416 passed, 1 failed, 68 skipped (1:06:45, -n 8, single-threaded BLAS). The one failure is B186's box-dimension lock, Review 65's open R65-9 (BLAS-thread-dependent: it fails under single-threaded BLAS and passes at the default thread count, re-run); nothing in S152 touches it. Gates 45 of 45. 0 of 19.
+
 ## S151 GENESIS v1.49 (B1681; P-208 done) AND THE COMMON POINT IN HIGHER TARGETS (B1680, PROVED as sealed; P-209 done)
 
 - **B1680** was sealed at `8b91162f8` and its output committed unread at `bb43604dd`; every cell held.

@@ -678,3 +678,16 @@ found with B1635's sealed instrument.
   exactly in rank two. The target supplies only the prime.
 - **GENESIS v1.49 (B1681)** records GM1 as derived given one input: a non-trivial common character of the records.
   p = 2 is the case whose three non-trivial directions are the triplet's parity lines.
+
+## Main's addition: the kept word, and what the common point is (B1682, PROVED) — two records characterised, not derived
+
+- **On words, as on characters (B1682, the SM seat's W110, verified).** For n ≥ 3 no non-trivial conjugacy class of
+  the records keeps even its length under every move. At two records the kept classes are the powers of the
+  commutator [a, b], whose trace is PF1's κ. No target is needed.
+- **So a kept object exists exactly at two records,** a class or an SL(2, ℂ) character. The input GENESIS v1.49 named
+  is equivalent to two records, not weaker (the web seat's read): it characterises GM1, as an invariance of the
+  weave's moves, and it ties GM1 to the punctured torus (GM4) and to PF1's commutator. GENESIS v1.50 regrades GM1
+  accordingly (P-212).
+- **What the form assumes is a weave choice:** how the moves extend beyond two records. Under democracy (every
+  a_i ↦ a_i a_j) the count is two on words and in every target tested. A surface's moves keep the boundary word at
+  every genus; on characters, whether the prime 2 then gives two records is P-211.

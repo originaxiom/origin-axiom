@@ -36,3 +36,13 @@
 - `received/GENESIS_v1_48_main.md`: v1.48 as amended, hash-pinned in the script.
 - `adoption/amend.py`: the amendment, with `--check`.
 - The lock: `tests/test_b1681_genesis_v1_49.py`.
+
+## Addendum (2026-10-21, B1682)
+
+> *Sharpened 2026-10-21.* The question this arc left open is answered: the web seat's read, checked on main in B1682.
+> For n ≥ 2 the input "the records have a non-trivial common character in SL(2, ℂ)" holds exactly when n = 2, so it is
+> equivalent to GM1, not weaker. The status written here, "DERIVED given one input", read it as weaker; the record's
+> legend gives an assumption the status POSTULATED, and GENESIS v1.50 regrades GM1 to POSTULATED in an equivalent form,
+> with the extension of the moves named (P-212). This arc's sentence "one postulate is exchanged for one input" was
+> accurate and stands; the rest of v1.49 (the principle's form as the family of wordings, the golden rule's tick) is
+> untouched.

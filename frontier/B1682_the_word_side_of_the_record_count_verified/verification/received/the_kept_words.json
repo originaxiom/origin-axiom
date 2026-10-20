@@ -1,0 +1,413 @@
+{
+ "status": "one run",
+ "proof": "W110_PROOF.md (6ed2c3373)",
+ "cells": {
+  "C1": true,
+  "C2": true,
+  "C3": true,
+  "C4": true
+ },
+ "census": {
+  "n = 2": {
+   "n": 2,
+   "max length": 12,
+   "classes up to inversion": 34998,
+   "lemma failures": 0,
+   "lemma failures (first five)": [],
+   "L = rev R rev failures": 0,
+   "classes keeping their length under every R_ij^{+-1}": 178,
+   "those classes (first ten)": [
+    [
+     -2,
+     -1,
+     2,
+     1
+    ],
+    [
+     -2,
+     -1,
+     2,
+     1,
+     -2,
+     -1,
+     2,
+     1
+    ],
+    [
+     -2,
+     -1,
+     2,
+     1,
+     -2,
+     -1,
+     2,
+     1,
+     -2,
+     -1,
+     2,
+     1
+    ],
+    [
+     -2,
+     -1,
+     2,
+     -1
+    ],
+    [
+     -2,
+     -1,
+     2,
+     -1,
+     -2,
+     1,
+     2,
+     1
+    ],
+    [
+     -2,
+     -1,
+     2,
+     -1,
+     -2,
+     1,
+     2,
+     1,
+     -2,
+     -1,
+     2,
+     1
+    ],
+    [
+     -2,
+     -1,
+     2,
+     -1,
+     -2,
+     1,
+     2,
+     -1
+    ],
+    [
+     -2,
+     -1,
+     2,
+     -1,
+     -2,
+     1,
+     2,
+     -1,
+     -2,
+     1,
+     2,
+     1
+    ],
+    [
+     -2,
+     -1,
+     2,
+     -1,
+     -2,
+     1,
+     2,
+     -1,
+     -2,
+     1,
+     2,
+     -1
+    ],
+    [
+     -2,
+     -1,
+     2,
+     -1,
+     -2,
+     1,
+     2,
+     -1,
+     -2,
+     -1,
+     2,
+     1
+    ]
+   ],
+   "kept": {
+    "<L, R>, exactly": {
+     "count": 3,
+     "classes (first ten)": [
+      [
+       -2,
+       -1,
+       2,
+       1
+      ],
+      [
+       -2,
+       -1,
+       2,
+       1,
+       -2,
+       -1,
+       2,
+       1
+      ],
+      [
+       -2,
+       -1,
+       2,
+       1,
+       -2,
+       -1,
+       2,
+       1,
+       -2,
+       -1,
+       2,
+       1
+      ]
+     ]
+    },
+    "<L, R>, up to inversion": {
+     "count": 3,
+     "classes (first ten)": [
+      [
+       -2,
+       -1,
+       2,
+       1
+      ],
+      [
+       -2,
+       -1,
+       2,
+       1,
+       -2,
+       -1,
+       2,
+       1
+      ],
+      [
+       -2,
+       -1,
+       2,
+       1,
+       -2,
+       -1,
+       2,
+       1,
+       -2,
+       -1,
+       2,
+       1
+      ]
+     ]
+    },
+    "transvections, exactly": {
+     "count": 3,
+     "classes (first ten)": [
+      [
+       -2,
+       -1,
+       2,
+       1
+      ],
+      [
+       -2,
+       -1,
+       2,
+       1,
+       -2,
+       -1,
+       2,
+       1
+      ],
+      [
+       -2,
+       -1,
+       2,
+       1,
+       -2,
+       -1,
+       2,
+       1,
+       -2,
+       -1,
+       2,
+       1
+      ]
+     ]
+    },
+    "transvections, up to inversion": {
+     "count": 3,
+     "classes (first ten)": [
+      [
+       -2,
+       -1,
+       2,
+       1
+      ],
+      [
+       -2,
+       -1,
+       2,
+       1,
+       -2,
+       -1,
+       2,
+       1
+      ],
+      [
+       -2,
+       -1,
+       2,
+       1,
+       -2,
+       -1,
+       2,
+       1,
+       -2,
+       -1,
+       2,
+       1
+      ]
+     ]
+    },
+    "full, exactly": {
+     "count": 0,
+     "classes (first ten)": []
+    },
+    "full, up to inversion": {
+     "count": 3,
+     "classes (first ten)": [
+      [
+       -2,
+       -1,
+       2,
+       1
+      ],
+      [
+       -2,
+       -1,
+       2,
+       1,
+       -2,
+       -1,
+       2,
+       1
+      ],
+      [
+       -2,
+       -1,
+       2,
+       1,
+       -2,
+       -1,
+       2,
+       1,
+       -2,
+       -1,
+       2,
+       1
+      ]
+     ]
+    }
+   }
+  },
+  "n = 3": {
+   "n": 3,
+   "max length": 8,
+   "classes up to inversion": 31795,
+   "lemma failures": 0,
+   "lemma failures (first five)": [],
+   "L = rev R rev failures": 0,
+   "classes keeping their length under every R_ij^{+-1}": 0,
+   "those classes (first ten)": [],
+   "kept": {
+    "transvections, exactly": {
+     "count": 0,
+     "classes (first ten)": []
+    },
+    "transvections, up to inversion": {
+     "count": 0,
+     "classes (first ten)": []
+    },
+    "full, exactly": {
+     "count": 0,
+     "classes (first ten)": []
+    },
+    "full, up to inversion": {
+     "count": 0,
+     "classes (first ten)": []
+    }
+   }
+  },
+  "n = 4": {
+   "n": 4,
+   "max length": 7,
+   "classes up to inversion": 70746,
+   "lemma failures": 0,
+   "lemma failures (first five)": [],
+   "L = rev R rev failures": 0,
+   "classes keeping their length under every R_ij^{+-1}": 0,
+   "those classes (first ten)": [],
+   "kept": {
+    "transvections, exactly": {
+     "count": 0,
+     "classes (first ten)": []
+    },
+    "transvections, up to inversion": {
+     "count": 0,
+     "classes (first ten)": []
+    },
+    "full, exactly": {
+     "count": 0,
+     "classes (first ten)": []
+    },
+    "full, up to inversion": {
+     "count": 0,
+     "classes (first ten)": []
+    }
+   }
+  }
+ },
+ "C3 expected classes": [
+  [
+   -2,
+   -1,
+   2,
+   1
+  ],
+  [
+   -2,
+   -1,
+   2,
+   1,
+   -2,
+   -1,
+   2,
+   1
+  ],
+  [
+   -2,
+   -1,
+   2,
+   1,
+   -2,
+   -1,
+   2,
+   1,
+   -2,
+   -1,
+   2,
+   1
+  ]
+ ],
+ "C4": {
+  "singular points of kappa = -2": [
+   [
+    "0",
+    "0",
+    "0"
+   ]
+  ]
+ }
+}

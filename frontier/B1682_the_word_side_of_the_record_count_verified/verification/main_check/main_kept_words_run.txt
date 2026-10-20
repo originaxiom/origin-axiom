@@ -1,0 +1,7 @@
+T1 length counts: 232584 move applications, failures 0
+T2 n = 2 to length 12: 69996 classes; length kept by every R^+-1 356, by every L^+-1 356; kept by every transvection 6, up to inversion 6; kept by the record's R and L 6: [(-2, -1, 2, 1), (-2, 1, 2, -1), (-2, -1, 2, 1, -2, -1, 2, 1), (-2, 1, 2, -1, -2, 1, 2, -1), (-2, -1, 2, 1, -2, -1, 2, 1, -2, -1, 2, 1), (-2, 1, 2, -1, -2, 1, 2, -1, -2, 1, 2, -1)]
+T2 n = 3 to length 8: 63590 classes; length kept by every R^+-1 0, by every L^+-1 0; kept by every transvection 0, up to inversion 0; T3 violations 0
+T2 n = 4 to length 7: 141492 classes; length kept by every R^+-1 0, by every L^+-1 0; kept by every transvection 0, up to inversion 0; T3 violations 0
+T2 n = 5 to length 6: 102528 classes; length kept by every R^+-1 0, by every L^+-1 0; kept by every transvection 0, up to inversion 0; T3 violations 0
+T4 genus 2: {'twists_keep_the_word': [True, True, True, True], 'between_handle_transvections': 8, 'moved': [True, True, True, True, True, True, True, True]}
+hold: {'T1': True, 'T2_n_ge_3': True, 'T2_n2': True, 'T3': True, 'T4': True}

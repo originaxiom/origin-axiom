@@ -12467,13 +12467,14 @@
   "B1680": {
    "slug": "the common point in higher targets",
    "motifs": [
+    "dickson_tower",
     "eisenstein"
    ],
    "refs": [],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 4,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "representation"
   },
   "B1681": {
    "slug": "genesis v1 49 two records derived",
@@ -12489,6 +12490,27 @@
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1682": {
+   "slug": "the word side of the record count verified",
+   "motifs": [
+    "closing",
+    "action",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "symplectic",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B160",
+    "S148"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
   },
   "B168": {
    "slug": "omega accretion generative",

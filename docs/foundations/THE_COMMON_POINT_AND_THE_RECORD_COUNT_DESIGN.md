@@ -56,3 +56,7 @@ Neumann 1951; Dunwoody 1970, transitivity for solvable groups with n > d(G)); th
   multiplicity the larger point carries is named.
 - **Either way, the line's three on 𝔽₂ is rank-independent** (the design facts). Whether matter attaches to lines is a
   separate question, left open.
+
+> *Dated note (2026-10-21, B1682).* §3's "GM1 then follows from one weaker, stated input" overstates. C0–C2 held
+> (B1677), and B1679 extends them to every n, so for n ≥ 2 the input holds exactly when n = 2: it characterises two
+> records rather than being weaker than them (the web seat's read, checked on main). GM1 is regraded in GENESIS v1.50.

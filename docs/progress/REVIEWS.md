@@ -6672,6 +6672,6 @@ five claim lines was read against its premises.
 - [>] R65-9: B186's band box dimension re-graded in its own arc (owner: cc; carried from R64-10; B616 done at this review)
 - [x] R65-10: filed at this review: the scope notes on B1649, B1651, B1658 (R64-3), B1662, B1663, B1665, B1666; B616's single-threaded pin; E90; TERMINOLOGY; B1667's blind replication noted; the paper's draft 6 (Table 1 a longtable, 25 verified edits, Figure 1)
 - [x] R65-11: done at this review — the E90 remedy as a check in the paper's build (`build.sh` fails on a control character, an orphaned fragment, or an oversized-float warning), with a failing-path test (owner: cc; source: §5)
-- [ ] R65-12: verify the referee lane's two arcs on main and re-bank them under main's numbers, THE DEDEKIND PHASE first (owner: cc; P-192)
+- [x] R65-12: verify the referee lane's two arcs on main and re-bank them under main's numbers, THE DEDEKIND PHASE first (owner: cc; P-192) — done 2026-10-20 (S145): B1671 (THE DEDEKIND PHASE, verified) and B1670 (THE PRICE OF THE NINETEEN, banked with scope notes); marked 2026-10-21
 
 **anchor-commit: `c370ff37c`**

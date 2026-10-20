@@ -72,3 +72,17 @@ trace coordinates).
 - `verification/the_common_point.py` (sealed), with `.json`, `_run.txt` and `_time.txt` (the run).
 - `verification/before_the_seal/`: the design facts and the rank-2 smoke test.
 - The lock: `tests/test_b1677_the_common_point_and_the_record_count.py`.
+
+## Addendum (2026-10-21, B1682)
+
+> *Sharpened 2026-10-21, from the web seat's read (its relay addendum of 2026-10-20 night), checked on main in B1682.*
+> - *§2's "follows from a weaker, stated input" and "the first time a postulate … has been replaced by a consequence of
+>   a weaker input" overstate. For n ≥ 2 a non-trivial common character exists exactly when n = 2 (B1679 (i) and (ii)),
+>   so the input **characterises** two records; it is GM1 in an invariant form, not a weaker premise. The same holds on
+>   words, with no target (B1682, the SM seat's W110). GM1's status is regraded in GENESIS v1.50 (P-212).*
+> - *§2's "it could have failed (2I is not solvable)" is weak for the character statement. B1679 (i) uses no
+>   solvability, and its steps 1 and 4 were in this arc's own preregistration (§0b item 4). The mathematics is
+>   elementary or classical; what is new is the reading.*
+> - *"Persistent" means fixed up to the target's conjugation. Read as a finite orbit, every finite-image character
+>   persists at every n, and nothing is selected.*
+> - *The census, its cells and the verdict stand as sealed.*

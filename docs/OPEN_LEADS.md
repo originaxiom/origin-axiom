@@ -3915,3 +3915,16 @@ stage in the twisted frame and tested it once against data.**
   5. The web seat's question whether B1677's input is weaker than "two records".
 - **The paper** is frozen at draft 9 with erratum 1 (`p9-draft9-e1`). **0 of 19.**
 
+
+## ⟳ CURRENCY NOTE — 2026-10-21 (S152)
+
+- **The web seat's question is answered:** the common character is equivalent to two records, not weaker; with the SM
+  seat's W110 the same holds on words (B1682, verified). GM1 is characterised, not derived.
+- **Open leads, in order.**
+  1. **P-212:** GENESIS v1.50 — GM1 regraded to POSTULATED in an equivalent form; GM5b scoped (R65-3). Next, after a
+     full suite.
+  2. **P-210:** the end's index at a symmetric state (the audit lane's lead).
+  3. **P-211:** the surface route — is the prime 2 what gives two records under a surface's moves? Main's argument
+     says yes; the SM seat is asked for a proof, then a seal. Not before the seats' reads.
+  4. **P-204:** a relational record, Hom_G(W, V).
+- **Review 66** falls due at twenty merges; R65-6, R65-7 and R65-8 must be resolved there. **0 of 19.**

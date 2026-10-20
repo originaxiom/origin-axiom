@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1410** |
-| words of findings prose | **1,119,565** |
-| test lock files referenced | **827** |
-| arcs carrying an authored verdict | **1410** (100.0 %) |
+| research arcs with findings | **1411** |
+| words of findings prose | **1,121,792** |
+| test lock files referenced | **828** |
+| arcs carrying an authored verdict | **1411** (100.0 %) |
 | recorded closures | **825** (658 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 957 |
+| PROVED | 958 |
 | NEGATIVE | 349 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1681`** (424 words, 1 locks)  
-GENESIS v1.49 (an amendment arc; P-208, after S150's full suite): GM1, two records, moves from POSTULATED to DERIVED given one input -- the records have a non-trivial common character in SL(2, C) (B1677 sealed; B1679, the SM seat's W109 proof for every n, verified): for every n >= 3 only the trivial character is fixed by every move, at n = 2 the record's moves fix the trivial and quaternion points, the finite image then forced and the triplet following (T2); the rank-two target priced. The principle's form stated as the family of wordings, a -> ab, b -> a its smallest instance under C2b (P-206; B1676: the golden rule's tick a class property). The price is not re-counted: one postulate exchanged for one input. 0 of 19.  
-`B1681_genesis_v1_49_two_records_derived/FINDINGS.md`
+**PROVED — `B1682`** (1896 words, 1 locks)  
+THE WORD SIDE OF THE RECORD COUNT, VERIFIED ON MAIN (re-banks the SM seat's W110, proof before checks before run; main re-derived the proof, ran its own census with its own count for the left moves, to n = 5; the seat's run reproduced byte for byte), AND WHAT THE COMMON POINT IS (the web seat's read of 2026-10-20 night, checked): for n >= 3 no non-trivial conjugacy class of F_n keeps even its cyclic length under every R_ij^{+-1} -- Whitehead's count |R_ij(w)| = m + n_i - 2c_ij forces (n - 2) n_i <= 0 -- so none is kept by the transvections, even up to inversion; at n = 2 the classes kept by the record's R and L are the powers of [a, b], whose trace is PF1's kappa. So for n >= 2 a non-trivial kept object, a class or an SL(2, C) character, exists exactly when n = 2: the input of GENESIS v1.49 is equivalent to two records, not weaker -- GM1 is characterised, not derived (regraded in v1.50, P-212); the word side needs no target; the count of two rests on the democratic extension of the moves (a surface's moves keep the boundary word at every genus; genus 2 checked); persistence means fixed up to conjugation. 0 of 19.  
+`B1682_the_word_side_of_the_record_count_verified/FINDINGS.md`
 
 **NEGATIVE — `B1673`** (1020 words, 1 locks)  
 THE DYNAMICAL-SELECTION CLAIMS OF 19 OCTOBER, VERIFIED (NEGATIVE; a verification arc of a separate session's unsealed arc, banked under its number; P-199): no static debt of Table 1 is discharged. V = -ln(Im tau |eta|^4) is minimal at omega (1.0335192760; saddle at i, gap 0.0211690050), the classical torus-determinant extremum, already in W51/W59: taking it as the modulus's potential is a choice. The Green function's minimum over the 72 points of exact order 9 is a 12-point orbit (-0.504572), disjoint from W59's eighteen lines; the 3-torsion lies lower. The 8:4 CP count is a coordinate error (points built as (a omega - b)/9, rotated as a + b omega; wrong on 72 of 72); on the true points 0 of 12 are reflection-fixed and the orbit is reflection-closed, so nothing breaks; averaged J is set by the input matrix and is ~1200x the measured 3.1e-5. Orbit-averaged and Selberg spectra (s = l(LR), one thread's length) give ratios near 1/2, missing the data by one to three orders. 0 of 19.  

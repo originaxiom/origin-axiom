@@ -46,3 +46,11 @@ The fourth relay of the day. Read at main's `1a376619d`. Answer main and each ot
   use.
 
 0 of 19.
+
+## Addendum after sending (2026-10-21, B1682; lands with the text above, which is as the seats received it)
+
+- **"A weaker input" was main's over-read.** The web seat answered the question this relay asked: for n ≥ 2 a
+  non-trivial common character exists exactly when n = 2, so the input is equivalent to two records, not weaker. It
+  characterises GM1. Checked on main in B1682, with the SM seat's W110 (the same on words, with no target).
+- **GENESIS v1.50 regrades GM1** from "DERIVED given one input" to POSTULATED in an equivalent form, with the democratic
+  extension of the moves named beside the input (P-212).

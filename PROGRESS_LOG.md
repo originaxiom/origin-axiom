@@ -17431,3 +17431,16 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **The doc-currency gate at B1680's seal.** Two living documents were brought current in their own commit, so the
   seal commit carries only the seal.
 
+## 2026-10-21 — S152: B1682, THE WORD SIDE OF THE RECORD COUNT, AND THE WEB SEAT'S READ
+
+- **The owner's "yes" to the unrushed step:** let the seats' reads land, then pay the review debts, R65-3 first. The
+  web seat's read arrived first ("websear has verified it"), with the SM seat's W110.
+- **The verification.**
+  - W110's proof was re-derived by hand: each original letter cancels at most once, against the insert on its own side.
+  - Main's own census uses its own count for the left moves, not the seat's reversal, and goes one rank further.
+  - The seat's script was re-run from an extracted copy; run and output identical.
+- **Main's own grade of yesterday corrected.** GM1's v1.49 status read an equivalent input as a weaker one. The regrade
+  goes through GENESIS v1.50 after this suite, with R65-3's scope of GM5b in the same amendment.
+- **One slip, caught before commit.** A verdict file named the web seat's relay as a seat item it rests on; the
+  seat-item gate accepts only numbered items, and B1682 does not rest on the read (main checked it), so it was removed.
+- **Landing suite.** 7416 passed, 1 failed, 68 skipped (1:06:45, -n 8, single-threaded BLAS). The one failure is B186's box-dimension lock, Review 65's open R65-9 (BLAS-thread-dependent: it fails under single-threaded BLAS and passes at the default thread count, re-run); nothing in S152 touches it. Gates 45 of 45. 0 of 19.

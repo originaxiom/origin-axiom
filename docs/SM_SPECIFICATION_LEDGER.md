@@ -651,3 +651,11 @@ this ledger's sections on the flavour sector, the strong angle and the generatio
 - a law of interaction, a joining law, that fixes the boundary domain and the modulus;
 - the dictionary from the carrier to physical fields.
 
+
+## Currency note — 2026-10-21, through B1682 (the count of records characterised)
+
+- **Two records is characterised, not derived from a weaker input (B1682; the web seat's read, checked on main).** For
+  n ≥ 2 a non-trivial character fixed by every move (B1679), or a non-trivial kept conjugacy class (W110, verified),
+  exists exactly when n = 2. GENESIS v1.49's "DERIVED given one input" is regraded in v1.50 (P-212): POSTULATED, in an
+  equivalent form, with the democratic extension of the moves named.
+- **What this does not supply.** Any of the nineteen parameters. **0 of 19.**
