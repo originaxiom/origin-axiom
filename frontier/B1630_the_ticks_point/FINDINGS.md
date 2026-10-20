@@ -6,6 +6,11 @@
 only basis vectors of two-dimensional eigenspaces). cc (main), 2026-10-09. Sealed `87d769c7a` before the run. A READING,
 "given τ = i"; adopting τ = i would be the owner's to decide. No data. **0 of 19.**
 
+> *Dated note, 2026-10-20 (P-207; B1678's sign audit).* The eigen-turns of S̃ = R L⁻¹ R stated above, (⅜, ⅜, ⅞), come
+> from B1617's pointwise lift `M_of`, which is not a group section. The representation's own lift, the product of the
+> letters' lifts, gives (⅜, ⅞, ⅞); the two differ by exactly −1, rechecked on main. Order 8, the group order and every
+> ℤ₃ cell are unchanged, so the arc's result stands.
+
 ## 0. Seen first
 
 As sealed: `VERDICT topic-sweep /tau = i|τ = i|the point i|elliptic point|stabiliser of i/: 1 of 1401 arcs on main match (PROVED 1)`

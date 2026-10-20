@@ -1,0 +1,4 @@
+J = I_u o Delta^2 with u = (2, -1)
+L,R only : |V image|= 96  |W image|= 48  |joint V+W|= 192
+four wordings : |V image|= 96  |W image|= 48  |joint V+W|= 192
+joint image contains eps (= -I on V, -I? on W)?

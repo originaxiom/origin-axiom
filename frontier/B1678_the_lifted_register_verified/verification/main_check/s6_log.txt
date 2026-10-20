@@ -1,0 +1,14 @@
+max second/first singular value of reshaped F^-1 D_V F (0 => exact Kronecker): 2.8655717120645885e-16
+M0 action: generators commute & diagonalizable?
+ max commutator norm 2.7476618026966064e-16
+  L diag chars [0.7071+0.7071j 0.7071-0.7071j]  offdiag 1.1793320058772942e-15
+  Lb diag chars [0.7071+0.7071j 0.7071-0.7071j]  offdiag 1.3418992007367153e-15
+  R diag chars [0.7071-0.7071j 0.7071+0.7071j]  offdiag 1.234586454588919e-15
+  Rb diag chars [0.7071-0.7071j 0.7071+0.7071j]  offdiag 1.4384677952027935e-15
+e=Delta^2 Jc^-1: g= [[(1+0j), 0j], [0j, (1+0j)]]
+ M0 chars of e: [0.-1.j 0.+1.j] offdiag 1.4986154023131022e-15
+det Y = 4 detS detM tr(eps S M^T): 7.191640501203643e-15
+Y(S',M')=O Y O^T err over 50 SL2C: 9.165725883006586e-13
+Y0= [[(-1+0j), 0j, -1j], [0j, 0j, 0j], [1j, 0j, (-1+0j)]] rank 1 trace (-2+0j)
+#rots 24  avg= [[(-0.66667+0j), 0j, 0j], [0j, (-0.66667+0j), 0j], [0j, 0j, (-0.66667+0j)]]
+Y(I,eps^-1)= [[(-2+0j), 0j, 0j], [0j, (-2+0j), 0j], [0j, 0j, (-2+0j)]]

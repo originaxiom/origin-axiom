@@ -5,6 +5,11 @@
 **Verdict: NEGATIVE as sealed** (C0 holds; C1 fails — no identification satisfies the Mp2(Z) relations exactly; C2 and C3
 were therefore not computed as sealed). cc (main), 2026-10-09. Sealed `7a5a62442` before the run. No data. **0 of 19.**
 
+> *Dated note, 2026-10-20 (P-207; B1678's sign audit).* The mechanism of this arc's C1, already refuted in part by B1634:
+> the identifications were tested with B1617's pointwise lift `M_of`, which is not a group section. With the
+> multiplicative lift, 4 of the 8 identifications satisfy the Mp₂(ℤ) relations, not 0. χ_{3/2} ∈ {0, 1} and the
+> rescaling counts are unchanged.
+
 ## 0. Seen first
 
 As sealed: `VERDICT topic-sweep /vector-valued modular|Borcherds|Skoruppa|Riemann-Roch|metaplectic|W45/: 4 of 1403 arcs on main match (NEGATIVE 2, PROVED 2)`

@@ -657,3 +657,14 @@ found with B1635's sealed instrument.
 - **So the count of two moves from the seed to the weave.** GM1 was postulated. It now follows from the input that the
   weave of the records shares a persistent point in SU(2) with finite image. The three parities and the triplet
   follow from that point. The input "SU(2), finite image" stays priced, and n ≥ 5 is not covered.
+
+## Main's addition: the lifted register (B1678, PROVED) — the act kept with its registering relation
+
+- **The owner's argument made into one structure** (P-204; the audit lane's derivation, re-implemented on main). Keep
+  each word operation together with its action on the coefficients, and the four wordings lift coherently through a
+  central double cover of Aut⁺(F₂). The lift-sign conflict that Gate 12 tracked is resolved by that cover, not by a
+  census.
+- **What it does not do.** The joint image of matter and boundary is reducible, so the extreme boundary domain stays a
+  choice. The projective end law leaves the integer and the side free. No physical input is paid.
+- **A hygiene finding for the record.** B1617's pointwise lift is not a group section. A sign audit of the eight arcs
+  that use it moved one number (B1630) and one verdict the record had already corrected (B1632).

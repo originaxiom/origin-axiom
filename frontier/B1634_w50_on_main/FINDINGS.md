@@ -5,6 +5,10 @@ failure is the instrument's branch of the nome, diagnosed exactly in §2; with t
 hold to 2·10⁻¹⁵ at every point, and V3's equivalence clause held as sealed). cc (main), 2026-10-09. Sealed `478abc379`
 before the run. No data. **0 of 19.**
 
+> *Dated note, 2026-10-20 (P-207; B1678's sign audit).* The audit confirms this arc's own P6 disclosure. Its sealed
+> half-turns move under the multiplicative lift (S̃'s phases 36/48 → 12/48 and 24/48 → 0, a half turn), while the
+> post-seal word-lift computation the banked claim rests on does not.
+
 ## 0. Seen first
 
 As sealed: `VERDICT topic-sweep /inner automorphism|ruled branch|theta constant|metaplectic|braid/: 7 of 1405 arcs on main match (NEGATIVE 4, PROVED 3)`

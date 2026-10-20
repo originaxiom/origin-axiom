@@ -1,0 +1,26 @@
+{
+  "id": "B1678",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": true,
+  "identifications": [],
+  "depends_on": [
+    "B1617",
+    "B1641",
+    "B1672",
+    "B1600",
+    "B1606"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the four wordings and their inverses (Aut+(F2)), the quaternion coefficient system rho_Q, the triplet modules V and the boundary module W",
+    "object": "the lifted register (a central double cover), its composition law, the joint image, the coupling transport, the theta field's automorphy, the puncture's connecting map; and the sign audit of every main arc using B1617's pointwise lift",
+    "reach": "class",
+    "hypotheses": "the four wordings admitted (the owner's to add, GENESIS v1.41); the connecting map's kernel table conditional on the finite-distance Fredholm application; the sign audit's patched tabulation to word length 7"
+  },
+  "claim_one_line": "THE LIFTED REGISTER, VERIFIED ON MAIN (re-banks the audit lane's word-architecture audit, 41 commits c5c467891..17cdad33a, re-implemented by main's reading pass; and P-207's sign audit): the four wordings lift coherently through a central double cover E = {(phi, g): rho phi = Ad_g rho} of Aut+(F2) -- Delta^4 lifts to eps J_c, the inner lifts' commutator is J_c, D_eps = -I, D_Jc = +I -- which closes Gate 12 by a structure (superseding B1672's census to word length 7); the joint image of V and W has order 192 but is a subdirect product of reducible modules (the extreme domain stays chosen); the coupling's transport needs a phase alpha beta = z^-2 and averaging rotated copies manufactures rank; the theta field's automorphy and the puncture's connecting map hold; a covariant rank-3 end family exists on an open set but not at the symmetric state. B1617's pointwise lift is not a group section (-1 in 55 of 200 products): the sign audit of the eight arcs using it moves one number (B1630's S~ eigen-turns: 3/8, 7/8, 7/8) and one verdict the record had already corrected (B1632's C1, refuted in part by B1634). No physical input is paid. 0 of 19.",
+  "weave_or_thread": "weave (the whole word group and its coefficient action)"
+}

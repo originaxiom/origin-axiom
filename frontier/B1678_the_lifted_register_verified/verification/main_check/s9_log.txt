@@ -1,0 +1,1 @@
+pointwise M_of on positive words: product law holds 145 ; fails by exact sign -1: 55 ; other/None: 0

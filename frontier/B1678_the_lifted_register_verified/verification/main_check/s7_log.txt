@@ -1,0 +1,7 @@
+F(z,tau+1)=G F(z,tau), residual 1.05e-30
+ G/e^{i pi/8} = [[(0.70711+0.70711j), -0j], [(-0-0j), (0.70711-0.70711j)]]  vs gL = [[(0.70711+0.70711j), 0j], [0j, (0.70711-0.70711j)]]
+F(z/tau,-1/tau)=G2 F(z,tau), residual 1.99e-31
+ G2/(tau^{1/4} e^{-3 pi i/8}) = [[-0.70711j, (-0.70711-0j)], [(0.70711+0j), (-0+0.70711j)]]
+  cand gS=gR gL^-1 gR det (1+0j) match up to scalar? [np.complex128(1+0j)] resid 0.0
+  cand gL^-1 gR gL^-1 (Delta^-1) det (1+0j) match up to scalar? [np.complex128(1+0j)] resid 0.0
+  cand gDelta=gL gR^-1 gL det (1+0j) match up to scalar? [np.complex128(-1-0j)] resid 0.0

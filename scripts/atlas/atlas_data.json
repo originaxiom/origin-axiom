@@ -11483,6 +11483,7 @@
   "B1634": {
    "slug": "w50 on main",
    "motifs": [
+    "closing",
     "coupling",
     "figure_eight",
     "trace_map",
@@ -11504,7 +11505,7 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 2,
    "status": "banked",
-   "domain": "physics"
+   "domain": "topology"
   },
   "B1635": {
    "slug": "couplings on the ruled branch",
@@ -12390,6 +12391,24 @@
    "refs": [],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1678": {
+   "slug": "the lifted register verified",
+   "motifs": [
+    "choice",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "P6"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
    "status": "banked",
    "domain": "arithmetic"
   },

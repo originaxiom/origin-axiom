@@ -17402,3 +17402,11 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **After the run, labelled:** the binary dihedral family is covered for every m by an argument, and the scope stops at
   n ≤ 4.
 
+## 2026-10-20 — S149: B1678, THE LIFTED REGISTER (P-207)
+
+- **Two reading passes.** One re-implemented the audit lane's claims (s1–s9). The other re-ran the eight arcs using
+  B1617's lift with the multiplicative lift substituted, after reproducing all twelve stored outputs unpatched first.
+- **Main rechecked** B1630's S̃ (the two lifts differ by exactly −1).
+- **One error of main's, caught by the lock.** The lock first assumed a fixed product order for M_of; the action's order
+  is a convention, and the verifier's test allows either.
+

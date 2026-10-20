@@ -1,0 +1,6 @@
+V order 96 <chi,chi> (=dim commutant) 2.0
+W order 48 <chi,chi> (=dim commutant) 2.0
+V+W order 192 <chi,chi> (=dim commutant) 4.0
+P_a in W image: False P_b: False ; +-P_a: False
+A_J_a = I3 (x) rho?  True
+A_J_b = I3 (x) rho?  True

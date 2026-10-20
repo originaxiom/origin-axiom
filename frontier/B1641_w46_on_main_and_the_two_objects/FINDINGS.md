@@ -6,6 +6,11 @@
 its sealed rule refutes the reading that the hand is the puncture condition's orientation at the representation level.
 cc (main), 2026-10-13. Sealed `99975fb63` before the run. No data. **0 of 19.** POINT_REGISTER slot Q2.
 
+> *Dated note, 2026-10-20 (P-207; B1678's sign audit).* "The record's uniform lift acts on Δ⁴ by −1" is the lift of
+> the automorphism Δ⁴, which the word lift of Δ⁴ also gives. The inner lifts are not a homomorphism together with the L
+> and R lifts: that is the central extension this arc reports, made a structure by the audit lane's lifted register
+> (B1678), not a sign artefact.
+
 ## 0. Seen first
 
 As sealed: `VERDICT topic-sweep /W46|point-push|fibre loop|fiber loop|Birman|central extension|inner automorphism|puncture condition/: 10 of 1412 arcs on main match (NEGATIVE 2, PROVED 8)`.

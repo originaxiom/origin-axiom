@@ -1,5 +1,24 @@
 # Changelog
 
+## S149 THE LIFTED REGISTER VERIFIED (B1678, PROVED; P-207 done): the four wordings lift coherently; the record's pointwise lift audited
+
+- **B1678** re-banks the audit lane's word-architecture audit (41 commits), re-implemented by main's own code; nothing
+  recomputed failed.
+  - A central double cover of Aut⁺(F₂), keeping each operation with its coefficient action, gives one coherent lift
+    of the four wordings. Δ⁴ lifts to εJ_c and the inner commutator to J_c, which closes Gate 12 by a structure.
+  - The joint image of matter and boundary has order 192 but is reducible, so the extreme domain stays chosen.
+  - The coupling's transport needs a phase; averaging rotated copies manufactures rank.
+  - The theta field's automorphy and the puncture's connecting map hold.
+  - A covariant rank-3 end family dies at the symmetric state.
+  - No physical input is paid, as the lane said.
+- **P-207, the sign audit.** B1617's pointwise lift is not a group section (−1 in 55 of 200 products). Re-running the
+  eight arcs that use it with the multiplicative lift moved:
+  - one number: B1630's S̃ eigen-turns are (⅜, ⅞, ⅞), and its result stands;
+  - one verdict, already corrected by the record: B1632's C1 is 4 of 8.
+  Dated notes on B1630, B1632, B1634 and B1641.
+- **Credit** to the audit lane, whose reading of the owner's argument and whose diagnosis of the lift found what main
+  had missed.
+
 ## S148 THE COMMON POINT FIXES THE COUNT OF RECORDS (B1677, PROVED as sealed; P-205, P-201 done)
 
 - **The question** (the owner's, 2026-10-20): the best parameter-free structure that could show the principle has real
