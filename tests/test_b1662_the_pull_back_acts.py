@@ -31,7 +31,9 @@ def test_stored_walks_and_the_record():
     assert abs(d["W1"]["mean_returns_T4000"] - d["W1"]["mean_returns_T500"]) < 0.15
     assert d["W2"]["mean_returns_T4000"] > 2.2*d["W2"]["mean_returns_T500"] and 0.07 < d["W3"]["escape_rate"] < 0.13
     g = (ROOT / "GENESIS.md").read_text(encoding="utf-8")
-    assert "**Version 1.48 · 2026-10-16 · canonical.**" in g
+    # v1.48 was this arc's amendment; later versions keep it (2026-10-20: the check reads the v1.48 log entry, not the
+    # current version, which B1681 moved to v1.49)
+    assert "- **v1.48 · 2026-10-16 · main B1662.**" in g
     assert "| GM5b | Inverse moves are legal | **ADOPTED [v1.48]**" in g and "| FK4 | Inverse moves (GM5b) | **[v1.48] ANSWERED**" in g
     r = subprocess.run([sys.executable, str(A / "adoption" / "amend.py"), "--check"], capture_output=True)
     assert r.returncode == 0

@@ -1,0 +1,23 @@
+{
+  "id": "B1680",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": true,
+  "identifications": [],
+  "depends_on": [
+    "B1677",
+    "B1679"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "representations of F_n onto finite irreducible subgroups of U(m), m = 2, 3, 5; the moves R_ij, L_ij; equivalence tested by an exact intertwiner",
+    "object": "the targets Q8, 2T (SU(2)); H(3) (U(3)), H(5) (U(5)); A4, S4, A5 (SO(3)); Delta(54), PSL(2,7) (SU(3)); n = 2, 3, 4",
+    "reach": "class",
+    "hypotheses": "finite targets in the listed groups; H(5) at n = 2 only (the Sp(2) argument decides n >= 3); infinite images and other ranks outside the claim"
+  },
+  "claim_one_line": "THE COMMON POINT IN TARGETS OF HIGHER RANK (sealed 8b91162f8 before the run; output bb43604dd committed unread; every cell holds): in every target tested -- SU(2), U(3), U(5), finite irreducible images -- a common point of the weave of n records exists only at n = 2, and at n = 2 the targets that have one are exactly the Heisenberg groups (Q8, the p = 2 Pauli group; H(3); H(5)), every generating pair fixed by every move; 2T, A4, S4, A5, Delta(54) and PSL(2,7) have none even at n = 2; at n = 3 H(3)'s 3 888 filtered triples are all moved; at n = 4 none. The common point of two records is a commutator-pairing (Heisenberg) point, the moves preserving the pairing exactly in rank two (SL(2) = Sp(2)); a target supplies only the prime p. p = 2 gives the quaternion point and its three parity directions (the triplet, T2); p = 3 gives a 3-dimensional point whose 8 directions are not a triplet. 0 of 19.",
+  "weave_or_thread": "weave (every move of the weave of n records)"
+}

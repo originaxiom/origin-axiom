@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1408** |
-| words of findings prose | **1,118,449** |
-| test lock files referenced | **825** |
-| arcs carrying an authored verdict | **1408** (100.0 %) |
+| research arcs with findings | **1410** |
+| words of findings prose | **1,119,565** |
+| test lock files referenced | **827** |
+| arcs carrying an authored verdict | **1410** (100.0 %) |
 | recorded closures | **825** (658 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 955 |
+| PROVED | 957 |
 | NEGATIVE | 349 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1679`** (940 words, 1 locks)  
-THE COMMON POINT FOR EVERY n, VERIFIED ON MAIN (re-banks the SM seat's W109 proof, proof before checks before run, and its W108 census, rule before script before run; main re-derived the proof and ran an independent search; both seat scripts re-run): for every n >= 3 the only character of F_n in SL(2, C) fixed by every move R_ij (or every L_ij) is the trivial one -- one common trace t, Fricke forces t in {0, 2}, t = 0 makes the generators an orthonormal frame whose triple product has trace -/+2, t = 2 is trivial; at n = 2 the record's R and L fix exactly the trivial point and the quaternion point (0, 0, 0); on the class reading no finite subgroup of SU(2) has a fixed class for n >= 3 (a perfect image in a solvable Out(G)); W108: 2I at n = 3 has none, its 13 344 classes one orbit. So B1677 holds for every n with no SU(2) and no finite image assumed: two records follows from a non-trivial common character in SL(2, C), the finite image then forced (tr[a, b] = -2, Q8). The rank-two target stays priced. 0 of 19.  
-`B1679_the_common_point_for_every_n_verified/FINDINGS.md`
+**PROVED — `B1681`** (424 words, 1 locks)  
+GENESIS v1.49 (an amendment arc; P-208, after S150's full suite): GM1, two records, moves from POSTULATED to DERIVED given one input -- the records have a non-trivial common character in SL(2, C) (B1677 sealed; B1679, the SM seat's W109 proof for every n, verified): for every n >= 3 only the trivial character is fixed by every move, at n = 2 the record's moves fix the trivial and quaternion points, the finite image then forced and the triplet following (T2); the rank-two target priced. The principle's form stated as the family of wordings, a -> ab, b -> a its smallest instance under C2b (P-206; B1676: the golden rule's tick a class property). The price is not re-counted: one postulate exchanged for one input. 0 of 19.  
+`B1681_genesis_v1_49_two_records_derived/FINDINGS.md`
 
 **NEGATIVE — `B1673`** (1020 words, 1 locks)  
 THE DYNAMICAL-SELECTION CLAIMS OF 19 OCTOBER, VERIFIED (NEGATIVE; a verification arc of a separate session's unsealed arc, banked under its number; P-199): no static debt of Table 1 is discharged. V = -ln(Im tau |eta|^4) is minimal at omega (1.0335192760; saddle at i, gap 0.0211690050), the classical torus-determinant extremum, already in W51/W59: taking it as the modulus's potential is a choice. The Green function's minimum over the 72 points of exact order 9 is a 12-point orbit (-0.504572), disjoint from W59's eighteen lines; the 3-torsion lies lower. The 8:4 CP count is a coordinate error (points built as (a omega - b)/9, rotated as a + b omega; wrong on 72 of 72); on the true points 0 of 12 are reflection-fixed and the orbit is reflection-closed, so nothing breaks; averaged J is set by the input matrix and is ~1200x the measured 3.1e-5. Orbit-averaged and Selberg spectra (s = l(LR), one thread's length) give ratios near 1/2, missing the data by one to three orders. 0 of 19.  

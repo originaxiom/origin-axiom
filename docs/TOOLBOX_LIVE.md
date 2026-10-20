@@ -200,3 +200,25 @@ Each run on the bench the day its arc banked; reuse by importing the banked file
 **Two traps of the window.** A landing step that parses the suite's summary must read each count by its own keyword and
 gate on the exit status (E87: "1 failed, 7226 passed" read as 0 failed). A detector of a ℤ/2 must be shown to return both
 values on a planted pair before it is sealed (E82, B1610's spectrum {1, ω, ω²} was its own conjugate).
+
+## The foundations quest's instruments (2026-10-20, B1670–B1681)
+
+- **The tick of every Sturmian wording on the triplet**, as the product of the letters' lifts, with its operator mean
+  and its line in the parity basis — `frontier/B1676_the_tick_on_the_weave_verified/verification/main_check/tick_on_the_weave_main.py`.
+- **The common point of the weave of n records** among finite non-abelian SU(2) characters (Dic_m, 2T, 2O, 2I), with the
+  exact equal-trace filter — `frontier/B1677_the_common_point_and_the_record_count/verification/the_common_point.py`
+  (sealed).
+- **A numerical search for move-fixed characters** over SL(2, ℂ)ⁿ, by least squares on the move-defect —
+  `frontier/B1679_the_common_point_for_every_n_verified/verification/main_check/main_search.py`.
+- **The common point in higher-rank targets,** with an exact intertwiner test of equivalence —
+  `frontier/B1680_the_common_point_in_higher_targets/verification/the_common_point_in_higher_targets.py` (sealed).
+- **The lifted register's checks and the record's lift,** by the multiplicative product of the letters' lifts —
+  `frontier/B1678_the_lifted_register_verified/verification/main_check/` (s1–s9).
+- **A GENESIS amendment script** with a hash-pinned source and `--check` —
+  `frontier/B1681_genesis_v1_49_two_records_derived/adoption/amend.py`.
+
+**Two traps of the window.**
+- B1617's `M_of` is a pointwise lift, not a group section. Lift a word as the product of its letters' lifts, never by
+  lifting the composite automorphism (P-207).
+- A ledger row's table cell must not contain an ASCII pipe, escaped or not: the parsers split on every `|`.
+

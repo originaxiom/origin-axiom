@@ -12464,6 +12464,32 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1680": {
+   "slug": "the common point in higher targets",
+   "motifs": [
+    "eisenstein"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1681": {
+   "slug": "genesis v1 49 two records derived",
+   "motifs": [
+    "golden",
+    "quasicrystal"
+   ],
+   "refs": [
+    "B749",
+    "S150"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B168": {
    "slug": "omega accretion generative",
    "motifs": [

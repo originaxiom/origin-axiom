@@ -17423,3 +17423,11 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **One slip of main's, caught before commit.** An escaped ASCII pipe in a table cell would have broken the ledger's
   cell count.
 
+## 2026-10-20 — S151: GENESIS v1.49 (B1681; P-208)
+
+- **Step 3 of main's plan** (the owner: "start with step 1 all the way to the end"). The amendment script was written
+  against a hash-pinned copy of v1.48 and dry-run before S150's full suite. It was applied after the suite was green.
+  Its `--check` passes.
+- **The doc-currency gate at B1680's seal.** Two living documents were brought current in their own commit, so the
+  seal commit carries only the seal.
+

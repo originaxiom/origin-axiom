@@ -1,0 +1,25 @@
+{
+  "id": "B1681",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1677",
+    "B1679",
+    "B1676",
+    "B1662"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "GENESIS.md, the foundation document",
+    "object": "GM1 (two records) and the words route",
+    "reach": "general",
+    "hypotheses": "the input 'a non-trivial common character in SL(2, C)' and the rank-two target are priced; the price is not re-counted"
+  },
+  "claim_one_line": "GENESIS v1.49 (an amendment arc; P-208, after S150's full suite): GM1, two records, moves from POSTULATED to DERIVED given one input -- the records have a non-trivial common character in SL(2, C) (B1677 sealed; B1679, the SM seat's W109 proof for every n, verified): for every n >= 3 only the trivial character is fixed by every move, at n = 2 the record's moves fix the trivial and quaternion points, the finite image then forced and the triplet following (T2); the rank-two target priced. The principle's form stated as the family of wordings, a -> ab, b -> a its smallest instance under C2b (P-206; B1676: the golden rule's tick a class property). The price is not re-counted: one postulate exchanged for one input. 0 of 19.",
+  "weave_or_thread": "weave (the foundation's statement of the weave)"
+}

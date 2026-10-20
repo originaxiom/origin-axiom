@@ -668,3 +668,13 @@ found with B1635's sealed instrument.
   choice. The projective end law leaves the integer and the side free. No physical input is paid.
 - **A hygiene finding for the record.** B1617's pointwise lift is not a group section. A sign audit of the eight arcs
   that use it moved one number (B1630) and one verdict the record had already corrected (B1632).
+
+## Main's addition: the common point for every n and in every target (B1679, B1680, PROVED) — two records is the weave's
+
+- **For every n, in SL(2, ℂ) (B1679, the SM seat's proof).** A non-trivial character of the records fixed by every
+  move exists only at two records, where it is the quaternion point. No SU(2) and no finite image are assumed.
+- **In targets of higher rank (B1680, sealed).** The same in U(3) and U(5): a common point only at two records. There
+  it is always a Heisenberg point, the representation of the two records' commutator pairing, which the moves preserve
+  exactly in rank two. The target supplies only the prime.
+- **GENESIS v1.49 (B1681)** records GM1 as derived given one input: a non-trivial common character of the records.
+  p = 2 is the case whose three non-trivial directions are the triplet's parity lines.

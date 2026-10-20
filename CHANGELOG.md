@@ -1,5 +1,28 @@
 # Changelog
 
+## S151 GENESIS v1.49 (B1681; P-208 done) AND THE COMMON POINT IN HIGHER TARGETS (B1680, PROVED as sealed; P-209 done)
+
+- **B1680** was sealed at `8b91162f8` and its output committed unread at `bb43604dd`; every cell held.
+  - In every finite target tested (SU(2), U(3), U(5)) a common point exists only at two records.
+  - There it is always a Heisenberg point: Q₈, H(3) and H(5) have one, with every generating pair fixed. 2T, A₄, S₄,
+    A₅, Δ(54) and PSL(2, 7) have none even at two records.
+  - The moves preserve the commutator pairing exactly in rank two (SL(2) = Sp(2)), so the target supplies only the
+    prime. p = 2 gives the triplet's three parity directions.
+- B1662's lock now reads its own v1.48 log entry rather than pinning the current version.
+
+
+- **The amendment.** GENESIS v1.48 to v1.49, through B1681's `adoption/amend.py` against a hash-pinned v1.48, after
+  S150's green full suite (7 407 passed).
+  - **GM1, two records, moves from POSTULATED to DERIVED given one input:** the records have a non-trivial common
+    character in SL(2, ℂ) (B1677, sealed; B1679, the SM seat's proof for every n). The finite image at n = 2 is forced,
+    and the triplet follows from that point. The rank-two target stays priced.
+  - **The words route now states the principle's form as the family of wordings.** a → ab, b → a is its smallest
+    instance under the criterion C2b, not forced, and results about the golden rule's word, clock or tick are thread
+    results (B1676; the SM seat's proposal P-206).
+  - The v1.29 log entry's "the principle's tick" reads as the golden rule's tick; the history is not rewritten.
+- **What it does not do.** It does not re-count the price: one postulate is exchanged for one input. Whether that input
+  is weaker is the web seat's open question. 0 of 19.
+
 ## S150 THE COMMON POINT FOR EVERY n (B1679, PROVED); THE PAPER'S ERRATUM 1
 
 - **B1679** re-banks the SM seat's W109 and W108, written at main's ask.
