@@ -358,6 +358,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   run; every cell as predicted): at three records 2I has no common point, neither a class nor a character; the moves are
   transitive on all 13,344 classes of generating triples. Q₈ at n = 2 keeps its one class even under ⟨L, R⟩, and 2I has
   none at n = 2. A WEAVE result about the forms, in agreement with main's B1677 (two independent routes).
+- W109 (B1677 for every n ≥ 3, at main's ask; PROVED by hand, the proof committed before its checks; five checks, one
+  run, every one as expected): the only character of F_n in SL(2, ℂ) fixed by every transvection is the trivial one,
+  for every n ≥ 3, so a non-trivial common point exists only at two records, where it is the quaternion point. SU(2)
+  and a finite image are not needed. The class reading follows for every finite subgroup of SU(2). A WEAVE result
+  about the forms.
 
 ## The setting
 
@@ -7649,6 +7654,75 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W109. B1677 for every n ≥ 3, by hand: the only character of F_n in SL(2, ℂ) fixed by every transvection is the trivial one, so a non-trivial common point exists only at two records, and the class reading follows for every finite subgroup of SU(2) (`W109_PROOF.md`; checks `the_record_count_for_every_n.py`)
+
+**Why.** Main's relay of 2026-10-20 (the common point and the lifted register, §2) asks this seat for "a proof of B1677
+for every n ≥ 3, or a counterexample at n ≥ 5". B1677's census stops at n = 4, because a sub-tuple can pass its filter
+without generating.
+
+**The order.**
+- The proof (`W109_PROOF.md`) was worked by hand and committed first (2d10142d3), with the five checks, their expected
+  outcomes and priors.
+- The checks script was committed before its one run (6c395c4f7), and its output before it was read (7f12776ca).
+
+**Disclosed.**
+- The pre-run review was by reading only; the script was byte-compiled, and nothing else was exercised before the run.
+- The proof does not rest on the checks.
+
+**The theorem (PROVED).** F_n is free on a₁, …, a_n; R_ij is a_i ↦ a_i a_j and L_ij is a_i ↦ a_j a_i (i ≠ j).
+- **(i) Every n ≥ 3.** A character of F_n in SL(2, ℂ) fixed by every R_ij is the trivial one. The same holds for the
+  L_ij, or for one of the two per ordered pair.
+- **(ii) n = 2.** The characters fixed by the record's R and L are exactly (2, 2, 2) and the quaternion point
+  (0, 0, 0), and Aut(F₂) fixes both.
+- **(iii) The class reading.** For n ≥ 3 and a non-trivial finite subgroup G of SU(2), no class of
+  Epi(F_n, G)/Aut(G) is fixed by every R_ij.
+
+**The proof in five lines** (in full in `W109_PROOF.md`). Let i, j and k be distinct; let t be the common trace.
+1. The test word a_i gives tr(g_i g_j) = tr g_i. So every generator and every product of two has one trace, t.
+2. The test word a_i a_j⁻¹ gives tr(g_i g_j⁻¹) = t. Fricke's identity then gives 2t = t², so t is 0 or 2.
+3. The test word a_i a_k gives tr(g_i g_j g_k) = t.
+4. At t = 0 the g_i are orthonormal for the trace form on sl(2, ℂ). Then g₁g₂ = ±g₃, and tr(g₁g₂g₃) = ∓2 ≠ 0.
+5. At t = 2 every trace of at most three distinct generators is 2. By Horowitz and Procesi, the character is trivial.
+- **For (iii).** R_ij⁻¹ = R_ik⁻¹ R_kj⁻¹ R_ik R_kj, so the automorphisms of G that the moves induce generate a perfect
+  subgroup of Out(G). Out(G) is solvable for every finite subgroup of SU(2), so they are inner, and (i) applies.
+
+**The checks (one run; every check as expected).**
+
+| check | expected | prior | result |
+| --- | --- | --- | --- |
+| C1 | Fricke's identity, its triple form, Cayley–Hamilton at trace 0, the polarisation, exact | 99% | **held** — every residual 0 |
+| C2 | R_ij⁻¹ = R_ik⁻¹ R_kj⁻¹ R_ik R_kj, and the same for the L_ij, on F₃ and F₄ | 90% | **held** — 6 and 24 ordered triples, no failure |
+| C3 | n = 2: the fixed characters of R and L are (0, 0, 0) and (2, 2, 2), both fixed by the inversion and the swap | 99% | **held** — and the reducer's R and L equal the hand formulas |
+| C4 | n = 3, independent of the test words: the only fixed point on the character variety is (2, …, 2), for the six R_ij, the six L_ij and all twelve | 90% | **held** — each Groebner basis is exactly x_i − 2, y_ij − 2, z − 2; the reducer agrees with 2,400 random words to 8 × 10⁻¹⁵; the two t = 0 frames lie on the variety and are moved |
+| C5 | Out(G) solvable for Q₈, 2T, 2O, 2I and Dic_m (3 ≤ m ≤ 12); \|Aut\| = 24, 24, 48, 120 and 2m·φ(2m); \|Inn\| = 4, 12, 24, 60 and 2m | 85% | **held** — Out(Q₈) = S₃ (solvable, not abelian); every other Out abelian, of order 2 for 2T, 2O and 2I |
+
+**What it shows.**
+- **B1677 holds for every n ≥ 3, with less input.**
+  - Neither SU(2) nor a finite image is needed. Among all characters of F_n in SL(2, ℂ), a non-trivial one fixed by
+    every move exists only at n = 2, and it is the quaternion point.
+  - At n = 2 the finite image is forced: tr[a, b] = −2 there, so the point is irreducible, and it is Q₈'s
+    representation up to conjugacy.
+- **So the input behind two records (GENESIS GM1) shrinks.** It becomes: the records share a non-trivial point, fixed
+  by every move, in SL(2, ℂ). The rank-two target stays priced. Whether the principle requires a common point stays a
+  reading, as B1677 says.
+- **The census's work is one identity.** B1677's filter left the common trace t free. The test word a_i a_j⁻¹, with
+  Fricke's identity, leaves only t = 0 and t = 2.
+  - t = 0 is B1677's own rank-3 argument, made uniform in n.
+  - t = 2 is the trivial character.
+  - So n ≥ 5 needs nothing more, and no counterexample exists.
+- **The class reading needs no census either** (§162's class-or-character question). For every n ≥ 3 and every finite
+  subgroup of SU(2), the Galois twists of 2O, 2I and Dic_m included, the class reading gives the same answer as the
+  character reading.
+  - The mechanism is not transitivity. It is that the transvections generate a perfect group, while Out(G) is
+    solvable.
+  - W108's transitivity for 2I at n = 3 is a stronger, separate fact.
+- **Prior art.** The statement is elementary and probably known. This seat has not searched the literature; main's
+  ask to the referee lane covers it.
+
+**Status.** PROVED (by hand; the proof committed before its checks; five checks, one run, every one as expected). A
+WEAVE result about the forms: every move of the weave of n records and every character, for all n ≥ 3 at once. 0 of
+19.
+
 ## W108. The binary icosahedral case of the record count, blind: at three records 2I has no common point, and the moves are transitive on all 13,344 classes of generating triples (`the_icosahedral_common_point.py`; `W108_RULE.md`)
 
 **Why.** Main's foundations quest opens with P-205: does a weave of n records have an SU(2) common point only at
@@ -9431,6 +9505,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W109 | PROVED (by hand; the proof committed before its checks; five checks, one run, every one as expected) | B1677 for every n ≥ 3: a character of F_n in SL(2, ℂ) fixed by every transvection is trivial (Fricke's identity on a_i a_j⁻¹ leaves t ∈ {0, 2}; t = 0 fails by the trace-form frame; t = 2 is trivial by Horowitz–Procesi); at n = 2 the fixed characters of R and L are (2, 2, 2) and the quaternion point; the class reading for every finite subgroup of SU(2), since the transvections generate a perfect group and Out(G) is solvable; the n = 3 Groebner basis is exactly the trivial point; SU(2) and a finite image not needed. A WEAVE result about the forms |
 | W108 | COMPUTED (the rule first; one run, blind to main's; every cell as predicted) | the record count's open case: Epi(F₃, 2I) = 1,601,280 (Hall's formula agrees), 13,344 classes and 26,688 characters, none fixed by every move, the full moves and the transvections each transitive; Q₈ at n = 2 one class fixed even by ⟨L, R⟩, at n = 3 14 classes in one orbit; 2I at n = 2 76 classes in two orbits, none fixed |
 | W107 | COMPUTED (the rule first; one run, blind to main's; A0, Q2a–Q2c, Q3a–Q3c, Q4b, Q4c as predicted; Q4a failed as worded by the instrument, the span measured for the algebra; post hoc: the algebra 9) | N3 on the weave: every primitive positive word to length 16; an odd-trace thread's tick has a non-zero mean on T only when #L ≡ #R (mod 8), 916 of 3,822, its line one of four democratic axes fixed by the word's matrix mod 4; the weave's mean of means a scalar, 0.0799 · I; every odd-trace tick cycles the parity lines (zero diagonal) |
 | Reading: the ladder of choices | READING (no arc; four exploratory checks, labelled; the owner's question) | the substitution a → ab, b → a is L∘P, a thread (m000; its square m004), the smallest of every allowed wording (202 invertible substitutions to size 8 over 42 matrices, s − 1 wordings per matrix); eleven levels of choice listed; GENESIS GM5a may follow from PF1 (B1342's multipliers) and the two records from non-discrimination (exploratory: no class kept by every move at rank 3); not discriminating supplies the form, a symmetry or uniformity, never a value; the "which" moves into a vacuum; θ̄ = 0 by CP only at weight 1, which makes no hierarchy; W104–W106 proposed, not started |
@@ -9520,6 +9595,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `W109_PROOF.md`: the proof, committed before its checks; `the_record_count_for_every_n.py` → `the_record_count_for_every_n.json` and `the_record_count_for_every_n_run.txt`: W109, the checks of B1677 for every n ≥ 3 (one run).
 - `W108_RULE.md`: the rule, committed before the code; `the_icosahedral_common_point.py` → `the_icosahedral_common_point.json` and `the_icosahedral_common_point_run.txt`: W108, the binary icosahedral case of the record count (one run, blind to main's).
 - `W107_RULE.md`: the rule, committed before the code; `the_tick_on_the_weave.py` → `the_tick_on_the_weave.json` and `the_tick_on_the_weave_run.txt`: W107, N3 on the weave (one run, blind to main's); `the_tick_on_the_weave_posthoc.py` → `the_tick_on_the_weave_posthoc.json` and `the_tick_on_the_weave_posthoc_run.txt`: Q4a's algebra and the ticks' zero diagonal (post hoc).
 - `the_ladder_exploration_invariants.py` → `the_ladder_exploration_invariants_run.txt`, `the_ladder_exploration_bases.py` → `the_ladder_exploration_bases_run.txt`, `the_ladder_exploration_wordings.py` → `the_ladder_exploration_wordings_run.txt` and `the_ladder_exploration_rademacher.py` → `the_ladder_exploration_rademacher_run.txt`: the ladder reading's exploratory checks (run in scratch before the record and read, then copied unchanged and run once more to write these outputs; no rule).

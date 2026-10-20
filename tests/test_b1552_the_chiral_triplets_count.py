@@ -2599,6 +2599,55 @@ def test_the_paper_draft7():
 
 
 
+def test_w109_the_record_count_for_every_n():
+    """W109 (proof 2d10142d3; checks script 6c395c4f7; one run 7f12776ca): every check as expected; the proof's two
+    load-bearing facts recomputed in process: Fricke's identity on random SL(2, C) leaves the common trace in {0, 2},
+    and the trace-zero frame has triple trace +-2, never 0; the n = 2 control and the commutator relation on words"""
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_record_count_for_every_n.json").read_text(encoding="utf-8"))
+    assert d["status"] == "one run" and all(d["cells"].values()) and len(d["cells"]) == 6
+    for k in ("six R_ij", "six L_ij", "all twelve"):
+        assert d["C4"]["move sets"][k]["Groebner basis"] == ["x1 - 2", "x2 - 2", "x3 - 2", "y12 - 2", "y13 - 2",
+                                                             "y23 - 2", "z - 2"]
+    assert d["C3"]["fixed points of R and L"] == [[0, 0, 0], [2, 2, 2]]
+    assert d["C5"]["Q8"]["|Out|"] == 6 and d["C5"]["2I"]["|Out|"] == 2 and d["C5"]["Q8"]["Out solvable"]
+    rng = np.random.default_rng(109)
+    for _ in range(20):
+        x, y = (m / np.sqrt(np.linalg.det(m)) for m in (rng.normal(size=(2, 2)) + 1j * rng.normal(size=(2, 2))
+                                                        for _ in range(2)))
+        assert abs(np.trace(x @ y) + np.trace(x @ np.linalg.inv(y)) - np.trace(x) * np.trace(y)) < 1e-9
+    assert [t for t in range(-4, 5) if t + t == t * t] == [0, 2]
+    i_, j_ = np.array([[1j, 0], [0, -1j]]), np.array([[0, 1], [-1, 0]])
+    for k_ in (i_ @ j_, -(i_ @ j_)):
+        g = (i_, j_, k_)
+        assert all(abs(np.trace(a @ b)) < 1e-12 for a in g for b in g if a is not b)
+        assert abs(abs(np.trace(g[0] @ g[1] @ g[2])) - 2) < 1e-12
+    for x, y, z in ((0, 0, 0), (2, 2, 2)):
+        assert (z, y, y * z - x) == (x, y, z) == (x, z, x * z - y) == (x, y, x * y - z)
+
+    def apply(phi, w):
+        out = []
+        for c in w:
+            for e in (phi.get(c, (c,)) if c > 0 else tuple(-v for v in reversed(phi.get(-c, (-c,))))):
+                if out and out[-1] == -e:
+                    out.pop()
+                else:
+                    out.append(e)
+        return tuple(out)
+    for i, j, k in ((1, 2, 3), (3, 1, 2), (2, 3, 1)):
+        chain = [{i: (i, -k)}, {k: (k, -j)}, {i: (i, k)}, {k: (k, j)}]
+        for a in (1, 2, 3):
+            w = (a,)
+            for phi in reversed(chain):
+                w = apply(phi, w)
+            assert w == ((i, -j) if a == i else (a,))
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W109. B1677 for every n ≥ 3, by hand" in note
+    relay = (ROOT / "SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md").read_text(encoding="utf-8")
+    assert "## 166. Added 2026-10-20" in relay
+
+
 def test_w108_the_icosahedral_common_point():
     """W108 (rule a67995a9b; script 2c483baa7; one run e9d30b8a3): every cell as predicted; the counts recomputed in
     process by a third route, Hall's 1936 polynomial for A5 times 2^n (2I's Frattini subgroup is its centre), and Q8's

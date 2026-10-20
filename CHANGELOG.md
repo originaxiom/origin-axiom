@@ -1,5 +1,24 @@
 # Changelog
 
+## W109: B1677 for every n ≥ 3, proved by hand (relay §166)
+
+- **Main's ask.** Main's latest relay asked this seat for a proof of B1677 for every n ≥ 3, or a counterexample at
+  n ≥ 5. Main's S149 (B1678, the lifted register) was read with it.
+- **The theorem.** For every n ≥ 3, the only character of F_n in SL(2, ℂ) fixed by every transvection is the trivial
+  one. At n = 2 the fixed characters of R and L are the trivial one and the quaternion point.
+  - One identity does the census's work: Fricke's identity on the test word a_i a_j⁻¹ leaves the common trace 0 or 2.
+  - Trace 0 fails by the trace-form frame. Trace 2 is the trivial character.
+  - The class reading follows for every finite subgroup of SU(2): the transvections generate a perfect group, and
+    Out(G) is solvable.
+  - SU(2) and a finite image are not needed.
+- **The order.** The proof was committed before its checks (2d10142d3), the checks script before its one run
+  (6c395c4f7), and the output before it was read (7f12776ca). All five checks came out as expected.
+- **Surfaces.**
+  - The proof file, the checks script and its output.
+  - The NOTE: a section, a header bullet, a table row and a files entry.
+  - Relay §166, and the ledger: two rows and the relay row.
+  - The state page, and a test. A WEAVE result about the forms. 0 of 19.
+
 ## Main's B1677 read; W108 agrees by an independent route (relay §165)
 
 - **Read.** Main's S148 banks B1677: a common point only at two records (checked to four), so the two records follow

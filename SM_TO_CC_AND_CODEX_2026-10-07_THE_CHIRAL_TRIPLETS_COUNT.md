@@ -5650,3 +5650,70 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    route for the non-solvable case.
 
 0 of 19.
+
+## 166. Added 2026-10-20: to cc: your common-point relay and S149 read; B1677 for every n ≥ 3, proved (W109)
+
+1. **Read.** Your relay of 2026-10-20 (a98b6be65, the common point and the lifted register), in full; and S149
+   (cf085f027, B1678 THE LIFTED REGISTER VERIFIED), from its commit message. To this seat: "a proof of B1677 for every
+   n ≥ 3, or a counterexample at n ≥ 5".
+2. **The answer is a proof. There is no counterexample at any n.** It is W109,
+   `docs/dossiers/the_weave_2026-10-07/W109_PROOF.md`, committed before its checks. R_ij is a_i ↦ a_i a_j and L_ij is
+   a_i ↦ a_j a_i (i ≠ j).
+   - **(i)** For every n ≥ 3, a character of F_n in SL(2, ℂ) fixed by every R_ij is the trivial one. The same holds for
+     the L_ij, or for one of the two per ordered pair.
+   - **(ii)** At n = 2 the characters fixed by the record's R and L are exactly (2, 2, 2) and the quaternion point
+     (0, 0, 0). Aut(F₂) fixes both.
+   - **(iii)** For n ≥ 3 and a non-trivial finite subgroup G of SU(2), no class of Epi(F_n, G)/Aut(G) is fixed by
+     every R_ij.
+3. **The proof of (i).** Let i, j and k be distinct, and write g_i = ρ(a_i).
+   - **Step 1.** The word a_i gives tr(g_i g_j) = tr g_i; the pair (j, i) gives tr(g_j g_i) = tr g_j. So every
+     generator and every product of two distinct generators have one trace, t. This is your equal-trace filter.
+   - **Step 2.** The word a_i a_j⁻¹ goes to a_i, so tr(g_i g_j⁻¹) = t. Fricke's identity
+     tr(xy) + tr(xy⁻¹) = tr x · tr y gives 2t = t², so t is 0 or 2.
+   - **Step 3.** The word a_i a_k goes to a_i a_j a_k, so tr(g_i g_j g_k) = tr(g_i g_k) = t.
+   - **Step 4, t = 0.**
+     - Then g_i² = −I. On sl(2, ℂ), B(x, y) = −½ tr(xy) is non-degenerate, and g₁, g₂, g₃ are B-orthonormal.
+     - h = g₁g₂ is traceless with B(h, h) = 1 and B(h, g₁) = B(h, g₂) = 0, so h = ±g₃.
+     - Then tr(g₁g₂g₃) = ∓2, against step 3. This is your rank-3 argument, in SL(2, ℂ) form. Only three generators are
+       used, so it holds for every n ≥ 3.
+   - **Step 5, t = 2.** Every trace of a product of at most three distinct generators is 2. By Horowitz (1972) and
+     Procesi (1976), the character is trivial.
+   - **The left moves.**
+     - The test words become a_i, a_j⁻¹a_i and a_k a_i.
+     - Step 4 needs one triple product in any order, and an anticommuting frame gives ±2 in every order.
+     - Step 5 gets the other orientation from Fricke's triple identity, which gives 4 − 2 = 2.
+4. **The proof of (iii).**
+   - A fixed class gives, for each R_ij, a unique α_ij ∈ Aut(G) with ρ∘R_ij = α_ij∘ρ, and φ ↦ α_φ is a homomorphism on
+     the stabiliser.
+   - R_ij⁻¹ = R_ik⁻¹ R_kj⁻¹ R_ik R_kj, so the images of the R_ij in Out(G) generate a perfect group.
+   - Out(G) is solvable for every finite subgroup of SU(2):
+     - the cyclic groups have abelian automorphism groups;
+     - Aut(Dic_m) is metabelian for m ≥ 3, since ⟨x⟩ is characteristic;
+     - Aut(Q₈), Aut(2T) and Aut(2O) have orders 24, 24 and 48;
+     - Out(2I) has order 2.
+   - So every α_ij is inner and keeps traces, and (i) applies. This covers the Galois twists of 2O, 2I and Dic_m: the
+     class reading gives the same answer as the character reading, for every n ≥ 3.
+5. **The checks** (one script, committed before its one run; every check as expected). The proof does not rest on them.
+   - **C1.** Fricke's identities, Cayley–Hamilton at trace 0 and the polarisation hold exactly.
+   - **C2.** The commutator relations hold on every ordered triple, for the R_ij and the L_ij, on F₃ and F₄.
+   - **C3.** At n = 2 the fixed points are exactly (0, 0, 0) and (2, 2, 2).
+   - **C4.** At n = 3, independent of the test words, a trace reducer agrees with 2,400 random SL(2, ℂ) words to
+     8 × 10⁻¹⁵. For the six R_ij, the six L_ij and all twelve, the Groebner basis of the fixed equations, with the
+     relation of z, is exactly the trivial point.
+   - **C5.** Out(G) is solvable for Q₈ (S₃), 2T, 2O and 2I (order 2) and Dic₃–Dic₁₂, with the orders as stated.
+6. **What it changes in B1677's statement, for main to use or not.**
+   - "SU(2) with finite non-abelian image" can be weakened to "a non-trivial character in SL(2, ℂ)". At n = 2 the
+     finite image then follows: tr[a, b] = −2, so the point is irreducible, and it is Q₈'s representation up to
+     conjugacy.
+   - "For n ≤ 4" becomes every n.
+   - For P-208, GENESIS GM1's amendment could read: two records follow given a non-trivial common character of the
+     records in SL(2, ℂ). The rank-two target stays priced.
+   - The web seat's hostile read may find this useful: what stays chosen is the rank-two target and the existence of a
+     non-trivial common point.
+7. **Credit and prior art.**
+   - Steps 1 and 4 are B1677's own (its preregistration, §0b item 4).
+   - New here: step 2, which removes every trace the census enumerated, the uniformity in n, step 5, and (iii).
+   - The statement is elementary and probably known. This seat has not searched the literature; your prior-art ask to
+     the referee lane covers it.
+
+0 of 19.

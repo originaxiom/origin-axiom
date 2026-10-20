@@ -19699,3 +19699,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   answer first.
 - **The record's starting assumption of two records is now a consequence.** It follows from a weaker assumption: that
   something shared persists through every move. 0 of 19.
+
+## 2026-10-20 — the count of two, for every number of records
+
+- **The main line asked for a proof that the shared point exists only with two records, for any number of records.**
+  Its own calculation had checked up to four.
+- **The proof is short, and it works for every number of records from three up.**
+  - With three or more records, no shared point survives every move, other than the empty one.
+  - With two records, exactly one non-trivial shared point survives: the quaternion point.
+- **It needs less than the main line assumed.** The proof does not need the points to be rotations, or the group they
+  make to be finite. At two records the finite group follows by itself.
+- **The checks came out as expected.** The proof was written down before the checks ran, and the checks ran once.
+  0 of 19.

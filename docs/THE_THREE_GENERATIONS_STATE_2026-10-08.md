@@ -790,6 +790,11 @@ Under the owner's rulings, the table's rows split into two groups:
   no common point (0 of 13,344 classes, 0 of 26,688 characters fixed), and the moves are transitive on its generating
   triples. With the solvable groups, P-205 holds at n = 3. A WEAVE result about the forms. It agrees with main's
   B1677 (S148, PROVED as sealed: a common point only at n = 2 for n ≤ 4), by an independent route (relay §165). 0 of 19.
+- **W109, B1677 for every n ≥ 3** (PROVED by hand, at main's ask; five checks, one run; relay §166). The only character
+  of F_n in SL(2, ℂ) fixed by every transvection is the trivial one, for every n ≥ 3. So a non-trivial common point
+  exists only at two records, where it is the quaternion point, with neither SU(2) nor a finite image assumed. The
+  class reading follows for every finite subgroup of SU(2). Main's S149 (B1678, the lifted register) read. A WEAVE
+  result about the forms. 0 of 19.
 
 ## Questions open with main
 
@@ -811,7 +816,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107, W108 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W109 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§165).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§166).
