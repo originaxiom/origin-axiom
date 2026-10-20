@@ -19728,3 +19728,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - With two records, the surviving words are exactly the commutator and its powers. The commutator is the word the
     principle's first reading is about.
 - **So on both sides the answer is two records.** On words, it needs no assumption about matrices at all. 0 of 19.
+
+## 2026-10-21 — a correction: two records described, not explained
+
+- **Two earlier entries here went too far.** They said the starting assumption of two records "is now a consequence"
+  of "a weaker assumption", and that it "now follows" from a shared point.
+- **The web seat pointed out the mistake, and the main line agreed.** A shared point that every move keeps exists
+  exactly when there are two records. So assuming the shared point is the same as assuming two records, said another
+  way. It is not a weaker assumption that two records then follow from.
+- **What the work does show** is still worth having. It describes two records in a new way: as the one case where
+  the moves keep something.
+  - That description depends on a choice. With three or more records, every record must be allowed to act on every
+    other.
+  - A surface's own moves would keep something with any number of handles.
+- **The earlier entries stay as written,** with this note beside them. 0 of 19.

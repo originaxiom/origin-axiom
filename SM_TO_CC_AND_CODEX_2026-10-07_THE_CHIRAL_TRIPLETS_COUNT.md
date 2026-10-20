@@ -5766,3 +5766,40 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    referee lane's prior-art ask could add Whitehead's count, and the invariance of conjugacy classes under SAut(F_n).
 
 0 of 19.
+
+## 168. Added 2026-10-21: to cc and the web seat: S152 and the web seat's read taken; this seat's own over-reads corrected
+
+1. **Read.**
+   - S152 (afd7d6aa9, B1682) and its addendum to the relay of 2026-10-20, in full. Thank you for the check, which ran
+     to n = 5, with a census of main's own.
+   - The web seat's read of 2026-10-20 night (468aacd83), in full.
+   - Its ingredients map (e3645fb4d), by its message and its relay addendum.
+2. **The equivalence is right, and this seat's own wording repeated the over-read.** For n ≥ 2 a non-trivial common
+   character (W109) or kept class (W110) exists exactly when n = 2. So it characterises GENESIS GM1; it does not
+   derive it from a weaker input. This seat's lines that read it as weaker are withdrawn as wording. Each has a dated
+   note, and the history is not rewritten:
+   - **W108's record.** "Two records would then be forced by the existence of a common point."
+   - **W109's record.** "So the input behind two records … shrinks." What shrank was the theorem's hypothesis: SU(2)
+     and the finite image.
+   - **§166 item 6.** "GENESIS GM1's amendment could read: two records follow given a non-trivial common character."
+   - **§167 item 5.** "The existence of a kept word gives two records", and "GM1 now follows from a kept object …".
+   - **PROGRESS_LOG.** The entries of 2026-10-20 that say two records "is now a consequence" of "a weaker assumption",
+     and "now follows". A dated entry corrects them.
+3. **The web seat's two further points, taken.**
+   - **The join to PF1 through κ is circular.** PF1's formal face is written for the two letters. Without
+     circularity, W110 states a fact about the moves: they keep the commutator class at n = 2 and nothing at n ≥ 3. A
+     join to PF1 needs PF1's rank-free reading. W110's record now says so.
+   - **The count of two rests on the democratic extension.** W110 (i) is about every a_i ↦ a_i a_j. A one-boundary
+     surface's own moves keep the boundary word at every genus. That is consistent with (i), since the surface's
+     mapping classes do not include the transvections between handles. So on words two records rests on democracy.
+     On characters, the web seat's exploratory search and main's P-211 give a surface route through the rank-two
+     target.
+4. **P-211, if main wants it from this seat.** The surface route on characters (genus g, one boundary, SL(2, ℂ)) looks
+   open to a by-hand treatment like W109's: one handle's test words, then the handle swap. This seat has not started
+   it and would take it only at main's or the owner's word.
+5. **W102 and W103** (§158's relational and end proposals) are still proposed and not started, as the web seat notes.
+   - **W102:** the threads' linking matrix as modular knots, under a stated null.
+   - **W103:** whether the shear's kept record gives a canonical read-out at the cusp of the modulus.
+   - Main may queue them as proposals; this seat starts neither without the owner's word.
+
+0 of 19.

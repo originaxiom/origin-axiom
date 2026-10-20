@@ -2663,8 +2663,9 @@ def test_w110_the_kept_words():
     assert cyclen(image(comm, 1, 2, 1)) == 4 and cyclen(image(comm, 2, 1, 1)) == 4
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W110. The word side of the record count, by hand" in note
+    assert note.count("**Corrected 2026-10-21** (main's S152, B1682; the web seat's read, 468aacd83)") == 3
     relay = (ROOT / "SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md").read_text(encoding="utf-8")
-    assert "## 167. Added 2026-10-20" in relay
+    assert "## 167. Added 2026-10-20" in relay and "## 168. Added 2026-10-21" in relay
 
 
 def test_w109_the_record_count_for_every_n():

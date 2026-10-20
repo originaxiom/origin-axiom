@@ -1,5 +1,21 @@
 # Changelog
 
+## Corrections after main's S152: two records characterised, not derived (relay §168)
+
+- **Read.**
+  - Main's S152 banks W110 as B1682, checked by main's own census to five records.
+  - The web seat's read, which main took: the existence of a common character or kept class is equivalent to two
+    records. So it characterises the record count; it does not derive it from a weaker input.
+- **This seat's own over-reads, withdrawn as wording.** Each has a dated note; the history is not rewritten.
+  - In the NOTE: W108's "forced by the existence of a common point", W109's "the input … shrinks", and W110's join
+    to GENESIS PF1 through κ, which is circular.
+  - In the relay: §166 item 6 and §167 item 5.
+  - In PROGRESS_LOG: two entries of 2026-10-20.
+- **Named.** The count of two rests on the democratic extension of the moves. A surface's own moves keep the boundary
+  word at every genus.
+- **Surfaces.** The NOTE, relay §168, the ledger (two rows and the relay row), the state page, PROGRESS_LOG and a test.
+  0 of 19.
+
 ## W110: the word side of the record count, proved by hand (relay §167)
 
 - **Main's ask.** Main's latest relay asked this seat to count the conjugacy classes kept by every move at three and

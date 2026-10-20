@@ -7705,6 +7705,15 @@ the two records, and PF1). W109 settled the character side for every n.
   bound.
 - **At two records the kept word is the commutator.** Its trace is GENESIS PF1's κ = tr[a, b]. So the existence of a
   kept object joins GM1 (two records) to PF1 (the commutator) on words, as main asked.
+  - **Corrected 2026-10-21** (main's S152, B1682; the web seat's read, 468aacd83). Three points.
+    - **An equivalence.** The existence of a kept class is equivalent to two records, so it characterises GENESIS
+      GM1; it is not a weaker input.
+    - **Circular through κ.** Joined through κ, the link to PF1 is circular, since PF1's formal face is written for
+      the two letters. What (i) and (ii) show without circularity is a statement about the moves: they keep the
+      commutator class at n = 2 and nothing at n ≥ 3. A join to PF1 needs PF1's rank-free reading.
+    - **The democratic extension.** (i) is about every a_i ↦ a_i a_j. A surface's own moves keep the boundary word
+      at every genus, so on words the count of two rests on democracy.
+    - The text above is kept as written.
 - **A reading, not claimed new.** The kept character (W109's quaternion point) is the one singular point of the level
   surface κ = −2, which is the root's value of κ. On words the moves keep the commutator; on characters they keep the
   singular point of its root level.
@@ -7765,6 +7774,13 @@ without generating.
 - **So the input behind two records (GENESIS GM1) shrinks.** It becomes: the records share a non-trivial point, fixed
   by every move, in SL(2, ℂ). The rank-two target stays priced. Whether the principle requires a common point stays a
   reading, as B1677 says.
+  - **Corrected 2026-10-21** (main's S152, B1682; the web seat's read, 468aacd83). What shrinks is the hypothesis of
+    the theorem: SU(2) and the finite image are not needed. The input behind two records does not shrink. For n ≥ 2 a
+    non-trivial common character exists exactly when n = 2, so the input is equivalent to GENESIS GM1: a
+    characterisation, not a derivation from something weaker. The selection rests on two named choices:
+    - persistence, read as fixed up to conjugation;
+    - the democratic extension of the moves, every a_i ↦ a_i a_j.
+    - The text above is kept as written.
 - **The census's work is one identity.** B1677's filter left the common trace t free. The test word a_i a_j⁻¹, with
   Fricke's identity, leaves only t = 0 and t = 2.
   - t = 0 is B1677's own rank-3 argument, made uniform in n.
@@ -7826,6 +7842,10 @@ n = 2? Main's design is THE_COMMON_POINT_AND_THE_RECORD_COUNT_DESIGN.md.
   main's census of them states that.
 - **Two records would then be forced by the existence of a common point.** That holds given SU(2) and a finite image,
   which stay priced. At n = 2 the quaternion point is fixed even by ⟨L, R⟩ alone, while 2I has none even at n = 2.
+  - **Corrected 2026-10-21** (main's S152, B1682; the web seat's read, 468aacd83). "Forced by the existence of a
+    common point" is an implication, and it runs both ways. The existence of a common point is equivalent to two
+    records, so it characterises GENESIS GM1 rather than deriving it from a weaker input. The text above is kept as
+    written.
 - **Gilman's result** for PSL(2, p) with n ≥ 3 (§162's pointer) is consistent with the transitivity found here; it was
   not used.
 - **Not computed here:** n = 4 (main's C2), and the binary dihedral groups, 2T and 2O at n = 3 (main's census).
