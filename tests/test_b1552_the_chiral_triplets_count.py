@@ -2599,6 +2599,28 @@ def test_the_paper_draft7():
 
 
 
+def test_w108_the_icosahedral_common_point():
+    """W108 (rule a67995a9b; script 2c483baa7; one run e9d30b8a3): every cell as predicted; the counts recomputed in
+    process by a third route, Hall's 1936 polynomial for A5 times 2^n (2I's Frattini subgroup is its centre), and Q8's
+    by its own lattice"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_icosahedral_common_point.json").read_text(encoding="utf-8"))
+    assert d["status"] == "one run" and all(d["cells"].values()) and len(d["cells"]) == 10
+    a5 = lambda n: 60 ** n - 5 * 12 ** n - 6 * 10 ** n - 10 * 6 ** n + 20 * 3 ** n + 60 * 2 ** n - 60
+    q8 = lambda n: 8 ** n - 3 * 4 ** n + 2 * 2 ** n
+    r = d["results"]
+    for n in (2, 3):
+        assert r[f"2I, n = {n}"]["|Epi|"] == 2 ** n * a5(n) == r[f"2I, n = {n}"]["Hall's formula"]
+        assert r[f"Q8, n = {n}"]["|Epi|"] == q8(n)
+        assert r[f"2I, n = {n}"]["classes (K)"] * 120 == r[f"2I, n = {n}"]["|Epi|"]
+    i3 = r["2I, n = 3"]
+    assert i3["classes (K)"] == 13344 and i3["distinct characters (X)"] == 26688
+    for k in ("full", "trans"):
+        assert i3[k]["classes fixed by every move (K)"] == 0 and i3[k]["characters fixed by every move (X)"] == 0
+        assert i3[k]["orbits on the classes"] == 1
+    assert r["Q8, n = 2"]["LR"]["classes fixed by every move (K)"] == 1
+    assert r["2I, n = 2"]["LR"]["orbit sizes (largest ten)"] == [40, 36]
+
 def test_w107_the_tick_on_the_weave():
     """W107 (rule 2daabdde4; script 7beaa530d; one run 191c367a7): the cells as recorded, Q4a failed as worded and the
     algebra post hoc; the law recomputed in process from the run's exact normal forms: an odd-trace thread's mean is

@@ -354,6 +354,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   instrument, the rest as predicted): an odd-trace thread's tick has a non-zero mean on T only when #L ≡ #R (mod 8),
   916 of 3,822 to length 16. The mean is then one of four democratic axes, fixed by the word's matrix mod 4. The weave's
   mean of means is a scalar, 0.0799 · I. A WEAVE result.
+- W108 (the binary icosahedral case of the record count, blind, at main's ask and the owner's word; rule first; one
+  run; every cell as predicted): at three records 2I has no common point, neither a class nor a character; the moves are
+  transitive on all 13,344 classes of generating triples. Q₈ at n = 2 keeps its one class even under ⟨L, R⟩, and 2I has
+  none at n = 2. A WEAVE result about the forms.
 
 ## The setting
 
@@ -7645,6 +7649,56 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W108. The binary icosahedral case of the record count, blind: at three records 2I has no common point, and the moves are transitive on all 13,344 classes of generating triples (`the_icosahedral_common_point.py`; `W108_RULE.md`)
+
+**Why.** Main's foundations quest opens with P-205: does a weave of n records have an SU(2) common point only at
+n = 2? Main's design is THE_COMMON_POINT_AND_THE_RECORD_COUNT_DESIGN.md.
+- Dunwoody's theorem decides the solvable groups. The binary icosahedral group 2I is not solvable.
+- Main asked this seat for "the 2I case at n = 3, blind, by your own route". The owner agreed.
+
+**The order.**
+- The rule (`W108_RULE.md`) was committed and pushed first, in a67995a9b, with relay §163. Its predictions were kept
+  out of the relay.
+- The script was committed before its one run (2c483baa7), and the output before it was read (e9d30b8a3).
+- This seat has read no output of main's on 2I.
+
+**Disclosed.**
+- **The pre-run review** made two changes:
+  - a guard that stops at A0 if the 2I closure does not have 120 elements;
+  - the presentation pair searched over all pairs.
+- **Only the 2I closure was exercised before the run** (120 elements).
+
+**The result (COMPUTED; one run; every cell as predicted).**
+
+| cell | prediction | prior | result |
+| --- | --- | --- | --- |
+| A0 | 2I of order 120, centre ±1, 21 maximal subgroups (5 × 24, 6 × 20, 10 × 12), \|Aut\| = 120, \|Inn\| = 60, Aut acting freely; Q₈'s counts 24 (one class) and 336 (14 classes) | 97% | **held** — 76 subgroups of 2I; Aut and Inn act freely on every Epi |
+| H | the enumerated counts equal Hall's formula | 95% | **held** — 2I: 9,120 at n = 2 and 1,601,280 at n = 3; Q₈: 24 and 336 |
+| P | Q₈ at n = 2: its one class and its character (0, 0, 0) fixed by every full move and by L and R | 99% | **held** |
+| N2 | 2I at n = 2: no class, no character fixed, under the full moves or ⟨L, R⟩ | 90% | **held** — 76 classes in two orbits (40 and 36) under every move set, ⟨L, R⟩ included |
+| C1-K | 2I at n = 3: no class fixed by every full move | 97% | **held** — 0 of 13,344 |
+| C1-X | 2I at n = 3: no character fixed | 98% | **held** — 0 of 26,688; the characters are exactly the Inn-classes (2I is self-normalising in SU(2)) |
+| C1-T | the same under the transvections alone | 95% | **held** — 0 and 0 |
+| C1-Q | Q₈ at n = 3: no class fixed | 95% | **held** — 0 of 14 |
+| O-full | the full moves transitive on Epi(F₃, 2I)/Aut(2I) | 70% | **held** — one orbit of 13,344 |
+| O-T | the transvections alone transitive | 60% | **held** — one orbit of 13,344 |
+
+**What it shows.**
+- **At three records the binary icosahedral group gives no common point,** on the class reading and on the character
+  reading alike. The moves are transitive on its 13,344 classes of generating triples, so no class, and no character,
+  can stay put. Q₈ behaves the same way: 14 classes in one orbit.
+- **With Dunwoody's theorem for the solvable groups,** P-205's conjecture holds at n = 3 for every finite non-abelian
+  subgroup of SU(2). The proviso is the class count: the solvable groups need at least two classes each at n = 3, and
+  main's census of them states that.
+- **Two records would then be forced by the existence of a common point.** That holds given SU(2) and a finite image,
+  which stay priced. At n = 2 the quaternion point is fixed even by ⟨L, R⟩ alone, while 2I has none even at n = 2.
+- **Gilman's result** for PSL(2, p) with n ≥ 3 (§162's pointer) is consistent with the transitivity found here; it was
+  not used.
+- **Not computed here:** n = 4 (main's C2), and the binary dihedral groups, 2T and 2O at n = 3 (main's census).
+
+**Status.** COMPUTED (one run; blind to main's run; the rule first). A WEAVE result about the forms: every generating
+triple, every move, a claim about all of them. 0 of 19.
+
 ## W107. N3 on the weave, blind: a thread's tick has a non-zero mean on T only when #L ≡ #R (mod 8), the mean is one of four democratic axes set by the word's matrix mod 4, and the weave's mean of means is a scalar (`the_tick_on_the_weave.py`; `W107_RULE.md`; post hoc `the_tick_on_the_weave_posthoc.py`)
 
 **Why.** Main's relay of 2026-10-20 (the foundations quest) proposes "N3 on the weave": every Sturmian wording's tick
@@ -9360,6 +9414,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W108 | COMPUTED (the rule first; one run, blind to main's; every cell as predicted) | the record count's open case: Epi(F₃, 2I) = 1,601,280 (Hall's formula agrees), 13,344 classes and 26,688 characters, none fixed by every move, the full moves and the transvections each transitive; Q₈ at n = 2 one class fixed even by ⟨L, R⟩, at n = 3 14 classes in one orbit; 2I at n = 2 76 classes in two orbits, none fixed |
 | W107 | COMPUTED (the rule first; one run, blind to main's; A0, Q2a–Q2c, Q3a–Q3c, Q4b, Q4c as predicted; Q4a failed as worded by the instrument, the span measured for the algebra; post hoc: the algebra 9) | N3 on the weave: every primitive positive word to length 16; an odd-trace thread's tick has a non-zero mean on T only when #L ≡ #R (mod 8), 916 of 3,822, its line one of four democratic axes fixed by the word's matrix mod 4; the weave's mean of means a scalar, 0.0799 · I; every odd-trace tick cycles the parity lines (zero diagonal) |
 | Reading: the ladder of choices | READING (no arc; four exploratory checks, labelled; the owner's question) | the substitution a → ab, b → a is L∘P, a thread (m000; its square m004), the smallest of every allowed wording (202 invertible substitutions to size 8 over 42 matrices, s − 1 wordings per matrix); eleven levels of choice listed; GENESIS GM5a may follow from PF1 (B1342's multipliers) and the two records from non-discrimination (exploratory: no class kept by every move at rank 3); not discriminating supplies the form, a symmetry or uniformity, never a value; the "which" moves into a vacuum; θ̄ = 0 by CP only at weight 1, which makes no hierarchy; W104–W106 proposed, not started |
 | Reading: the measurer as a thread | READING (no computation; the owner's question) | under the weave rule the measurer is not a thread chosen by hand: every thread measures every thread, or the measurer is a joint object; no thread and not the joint action keeps a record, only a shear or the mirror (W34), so a measurer can sit only at an end; the composition lemma: a pairwise read-out of magnitudes is f(γ)/f(γ′), so the measurer buys only the unit for masses, and non-composing pairwise invariants can stand only for relations (mixing, phases); three of F-MC's five typed inputs re-read as the measurer's conventions; W102 (the linking matrix) and W103 (the shear's kept record) proposed, not started |
@@ -9448,6 +9503,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `W108_RULE.md`: the rule, committed before the code; `the_icosahedral_common_point.py` → `the_icosahedral_common_point.json` and `the_icosahedral_common_point_run.txt`: W108, the binary icosahedral case of the record count (one run, blind to main's).
 - `W107_RULE.md`: the rule, committed before the code; `the_tick_on_the_weave.py` → `the_tick_on_the_weave.json` and `the_tick_on_the_weave_run.txt`: W107, N3 on the weave (one run, blind to main's); `the_tick_on_the_weave_posthoc.py` → `the_tick_on_the_weave_posthoc.json` and `the_tick_on_the_weave_posthoc_run.txt`: Q4a's algebra and the ticks' zero diagonal (post hoc).
 - `the_ladder_exploration_invariants.py` → `the_ladder_exploration_invariants_run.txt`, `the_ladder_exploration_bases.py` → `the_ladder_exploration_bases_run.txt`, `the_ladder_exploration_wordings.py` → `the_ladder_exploration_wordings_run.txt` and `the_ladder_exploration_rademacher.py` → `the_ladder_exploration_rademacher_run.txt`: the ladder reading's exploratory checks (run in scratch before the record and read, then copied unchanged and run once more to write these outputs; no rule).
 - `W101_RULE.md`: the rule, committed before the code; `the_weaves_anomaly.py` → `the_weaves_anomaly.json` and `the_weaves_anomaly_run.txt`: W101, the weave's anomaly; `the_weaves_anomaly_posthoc.py` → `the_weaves_anomaly_posthoc.json` and `the_weaves_anomaly_posthoc_run.txt`: C1's failure explained and C1 recomputed branch-free (post hoc). `the_referee_read_checks.py` → `the_referee_read_checks.json` and `the_referee_read_checks_run.txt`: the referee read's checks (post hoc; one run), cited by `docs/handoffs/SM_TO_REFEREE_LANE_2026-10-17_THE_REFEREE_READ.md`.

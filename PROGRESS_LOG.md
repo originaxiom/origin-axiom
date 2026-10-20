@@ -19676,3 +19676,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - This seat has written the rules for that calculation before writing any code.
   - It will check the answer two ways.
 - **0 of 19.**
+
+## 2026-10-20 — why two records, tested on the hardest case
+
+- **The question.** The programme starts from two records. With three records, is there still a shared point that no
+  move can disturb, as there is with two?
+- **The test.** Theory settles every case except one, a group of 120 elements. This seat computed that case without
+  seeing the main line's answer, from rules fixed in advance.
+- **The answer is no.**
+  - With three records, every one of the 13,344 ways of generating the group can be moved into every other, so nothing
+    stays put.
+  - With two records the shared point exists, and survives even the smallest set of moves.
+  - So "two records" is where the principle's shared point lives.
+- **0 of 19.**

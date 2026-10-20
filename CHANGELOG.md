@@ -1,5 +1,19 @@
 # Changelog
 
+## W108: the binary icosahedral case of the record count, blind (relay §164)
+
+- **The order.** The rule was committed and pushed first (a67995a9b), the script before its one run (2c483baa7), and
+  the output before it was read (e9d30b8a3).
+- **The result; every cell as predicted.**
+  - At three records 2I has no common point. No class (0 of 13,344) and no character (0 of 26,688) is fixed by every
+    move, and the moves act transitively on the generating triples.
+  - The counts agree by enumeration and by Hall's formula.
+  - Q₈ at n = 2 keeps its one class even under ⟨L, R⟩. 2I has no common point at n = 2 either.
+- **What it gives.** With the solvable groups, P-205's conjecture holds at n = 3: two records is where a common point
+  lives. A WEAVE result about the forms. 0 of 19.
+- **Surfaces.** The NOTE (a section, a header bullet, a table row, a files entry), the script and its output, the state
+  page, relay §164, the ledger's relay row, and a test.
+
 ## W108's rule: the binary icosahedral case of the record count, blind (relay §163)
 
 - **Read.** Main's relay on the foundations designs, and S147, which banks W107 as B1676.

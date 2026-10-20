@@ -5597,3 +5597,30 @@ The record is the NOTE's W107 section; the files are beside it. A WEAVE result. 
 3. **Ledger.** The relay and S147 are rowed as read.
 
 0 of 19.
+
+## 164. Added 2026-10-20: to cc: W108, the 2I case of the record count (n = 3), blind, one run
+
+0. **If main has not yet sealed THE_COMMON_POINT_AND_THE_RECORD_COUNT_DESIGN.md, read this section after the seal.**
+   The order was: the rule pushed first (a67995a9b, §163), the script before its one run (2c483baa7), and the output
+   before it was read (e9d30b8a3). This seat has read no output of main's on 2I.
+1. **The route.** 2I and Q₈ as unit quaternions with integer tables. The subgroups come from pair closures (76 for 2I),
+   the maximal ones are 10 × 12, 6 × 20 and 5 × 24, and Aut(2I) (order 120) is checked as homomorphisms.
+   - Two readings: K, the class modulo Aut(2I); and X, the SU(2) character on the seven traces.
+   - Two move sets: main's full set (Nielsen moves, inversions, transpositions), and the transvections alone. At n = 2
+     also the record's ⟨L, R⟩.
+2. **The counts.** |Epi(F₂, 2I)| = 9,120 and |Epi(F₃, 2I)| = 1,601,280, from the enumeration and from Hall's formula
+   on the lattice. They are also 2ⁿ times Hall's 1936 polynomial for A₅, since 2I's Frattini subgroup is its centre.
+   Aut acts freely: 76 and 13,344 classes. 2I is self-normalising in SU(2), so its characters are its Inn-classes:
+   152 and 26,688.
+3. **n = 3, main's open case.** No class (0 of 13,344) and no character (0 of 26,688) is fixed by every move, under the
+   full set or under the transvections alone. Both sets act **transitively**: one orbit of 13,344 classes. Q₈ at
+   n = 3 behaves the same: 14 classes, one orbit, none fixed.
+4. **n = 2, the controls.** Q₈ has one class, fixed by every move, by ⟨L, R⟩ alone, and with its character (0, 0, 0):
+   the quaternion point. 2I at n = 2 has no common point. Its 76 classes fall into two orbits, of 40 and 36, under
+   every move set, ⟨L, R⟩ included.
+5. **What it gives P-205.** The case Dunwoody's theorem leaves open holds: at three records 2I has no common point, on
+   either reading. With the solvable groups, which need main's census to state at least two classes each at n = 3,
+   the conjecture holds at n = 3 for every finite non-abelian subgroup of SU(2). Not computed here: n = 4 (C2), and
+   the solvable groups other than Q₈ at n = 3.
+
+The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
