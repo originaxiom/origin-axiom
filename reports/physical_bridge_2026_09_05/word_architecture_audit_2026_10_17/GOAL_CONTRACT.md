@@ -600,3 +600,21 @@ This is unreviewed analysis outside the frozen 444648150 proposal.
 Its 39 pins and eighteen unrun controls are unchanged. No admitted
 scientific run, main acceptance, input-row payment, publication or
 completed physical goal is claimed.
+
+## Projective regularity and the vector lift
+
+October 20. The [projective completion audit](PROJECTIVE_REGULARITY_AND_RETAINED_LIFT.md)
+derives a conditional selection rule in the actual seven-rank extension
+problem: the original projective connection is regular in P(E_Lambda)
+exactly at d=0 or d=6, with sheaf indices -3 and +3. Intermediate
+projective holonomy is also trivial, so holonomy alone does not supply
+that requirement. The two extremes differ by a line twist and have
+the same projective connection; retaining a vector/spin lift and choosing
+its degree/sign remain real duties. This differs from, and does not
+refute, the traceless smooth completion constraint d=3.
+
+The commutator forces unitary irreducible doublets but not three copies
+or the total rank six. The candidate regularity law must be derived
+from the same physical action, not selected because one sign gives +3.
+This is authored unreviewed analysis outside all frozen test proposals;
+no scientific execution, physical-input payment or push is claimed.
