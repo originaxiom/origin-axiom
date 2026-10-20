@@ -19718,3 +19718,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   own independent search, and re-ran this seat's two programs.
 - **So the count of two records now follows, for any number of records, from one shared point that every move
   keeps.** 0 of 19.
+
+## 2026-10-20 — the same answer on words
+
+- **The main line asked the same question on words.** Which words does every move leave unchanged?
+- **The answer matches the shared point.**
+  - With three or more records, no word survives every move, of any length. A short counting proof shows it, and a
+    computer count of about 100,000 words agrees.
+  - With two records, the surviving words are exactly the commutator and its powers. The commutator is the word the
+    principle's first reading is about.
+- **So on both sides the answer is two records.** On words, it needs no assumption about matrices at all. 0 of 19.

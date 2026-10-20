@@ -363,6 +363,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   for every n ≥ 3, so a non-trivial common point exists only at two records, where it is the quaternion point. SU(2)
   and a finite image are not needed. The class reading follows for every finite subgroup of SU(2). A WEAVE result
   about the forms.
+- W110 (the word side of the record count, at main's ask C4; PROVED by hand, the proof committed before its checks;
+  four checks, one run, every one as expected): for n ≥ 3 no non-trivial conjugacy class of F_n keeps even its cyclic
+  length under every transvection, so none is kept, at any length; at n = 2 the kept classes are the powers of
+  [a, b]. A WEAVE result about the forms.
 
 ## The setting
 
@@ -7654,6 +7658,62 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W110. The word side of the record count, by hand: for n ≥ 3 no non-trivial conjugacy class of F_n keeps even its length under every transvection, so none is kept; at n = 2 the kept classes are the powers of [a, b] (`W110_PROOF.md`; checks `the_kept_words.py`)
+
+**Why.** Main's relay of 2026-10-20 (two records derived, §2) asks this seat for the word-side cell C4 from its relay
+§162: "Count the conjugacy classes kept by every move at n = 3, 4. … That would join GM1 to PF1 on words" (GENESIS GM1,
+the two records, and PF1). W109 settled the character side for every n.
+
+**The order.**
+- The proof (`W110_PROOF.md`) was worked by hand and committed first (6ed2c3373), with the four checks, their expected
+  outcomes and priors.
+- The checks script was committed before its one run (69313b426), and its output before it was read (a7f3878bb).
+
+**Disclosed.**
+- The pre-run review was by reading only; the script was byte-compiled, and nothing else was exercised before the run.
+- Before the proof, only §162's exploratory note was on record.
+
+**The theorem (PROVED).** R_ij is a_i ↦ a_i a_j and L_ij is a_i ↦ a_j a_i (i ≠ j); ‖v‖ is cyclic length.
+- **(i) Every n ≥ 3.** If ‖R_ij^{±1}(w)‖ = ‖w‖ for every ordered pair, then w = 1. So no non-trivial class is kept by
+  every R_ij, even up to inversion, and the same holds for the L_ij.
+- **(ii) n = 2.** The classes kept by the record's R and L are exactly those of [a, b]^k. With the inversions they are
+  kept only up to inversion.
+
+**The proof of (i) in four lines** (in full in `W110_PROOF.md`).
+1. **Whitehead's count.** ‖R_ij(w)‖ = m + n_i − 2c_ij, where c_ij counts the adjacent pairs a_i a_j⁻¹ and a_j a_i⁻¹.
+   For R_ij⁻¹, c′_ij counts a_i a_j and a_j⁻¹ a_i⁻¹.
+2. **Kept lengths.** If the lengths are kept, then c_ij = c′_ij = n_i/2. So every other letter a_j takes all n_i of
+   a_i's right contacts: the successor of each a_i and the predecessor of each a_i⁻¹.
+3. **The count.** n − 1 letters cannot each take all n_i contacts. So (n − 2)·n_i ≤ 0, and n_i = 0 for n ≥ 3.
+4. **The left moves.** L_ij = rev ∘ R_ij ∘ rev, with rev the reversal of words.
+
+**The checks (one run; every check as expected).**
+
+| check | expected | prior | result |
+| --- | --- | --- | --- |
+| C1 | the lemma by direct reduction, for every R_ij^{±1} and L_ij^{±1} on every class of the census | 95% | **held** — 0 failures on 34,998, 31,795 and 70,746 classes (n = 2, 3, 4); L_ij = rev R_ij rev on all |
+| C2 | n = 3 to length 8, n = 4 to length 7: no class kept by the transvections or the full moves, exactly or up to inversion; none keeping its length | 97% | **held** — 0 in all ten counts |
+| C3 | n = 2 to length 12: [a, b]^k for k = 1, 2, 3 in every count, except 0 for the full moves kept exactly | 95% | **held** — the three classes under ⟨L, R⟩, the transvections and the full moves up to inversion; 0 for the full moves exactly |
+| C4 | the singular points of κ = −2 | 99% | **held** — only (0, 0, 0) |
+
+- **Reported.** At n = 2, 178 classes keep their lengths under every R_ij^{±1}, and only the three powers are kept. The
+  length condition decides n ≥ 3 by itself; at n = 2 it is necessary, not sufficient.
+
+**What it shows.**
+- **On words, as on characters, a non-trivial kept object exists only at two records.** At n ≥ 3 no class is kept, at
+  any length, by any move set containing the transvections. The census's zeros are instances of a count, not a search
+  bound.
+- **At two records the kept word is the commutator.** Its trace is GENESIS PF1's κ = tr[a, b]. So the existence of a
+  kept object joins GM1 (two records) to PF1 (the commutator) on words, as main asked.
+- **A reading, not claimed new.** The kept character (W109's quaternion point) is the one singular point of the level
+  surface κ = −2, which is the root's value of κ. On words the moves keep the commutator; on characters they keep the
+  singular point of its root level.
+- **Prior art.** Statement (i) is elementary, and probably known in some form; this seat has not searched the
+  literature. (ii)'s converse is the cited mapping-class fact, checked to length 12.
+
+**Status.** PROVED (by hand; the proof committed before its checks; four checks, one run, every one as expected). A
+WEAVE result about the forms: every move and every conjugacy class, for all n ≥ 3 at once. 0 of 19.
+
 ## W109. B1677 for every n ≥ 3, by hand: the only character of F_n in SL(2, ℂ) fixed by every transvection is the trivial one, so a non-trivial common point exists only at two records, and the class reading follows for every finite subgroup of SU(2) (`W109_PROOF.md`; checks `the_record_count_for_every_n.py`)
 
 **Why.** Main's relay of 2026-10-20 (the common point and the lifted register, §2) asks this seat for "a proof of B1677
@@ -9505,6 +9565,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W110 | PROVED (by hand; the proof committed before its checks; four checks, one run, every one as expected) | the word side of the record count: for n ≥ 3 no non-trivial conjugacy class of F_n keeps its cyclic length under every R_ij^{±1} (Whitehead's count, (n − 2)·n_i ≤ 0), so none is kept by the transvections, even up to inversion; at n = 2 the classes kept by L and R are the powers of [a, b]; the census (34,998, 31,795 and 70,746 classes at n = 2, 3, 4) agrees; the kept character is the one singular point of κ = −2 (a reading). A WEAVE result about the forms |
 | W109 | PROVED (by hand; the proof committed before its checks; five checks, one run, every one as expected) | B1677 for every n ≥ 3: a character of F_n in SL(2, ℂ) fixed by every transvection is trivial (Fricke's identity on a_i a_j⁻¹ leaves t ∈ {0, 2}; t = 0 fails by the trace-form frame; t = 2 is trivial by Horowitz–Procesi); at n = 2 the fixed characters of R and L are (2, 2, 2) and the quaternion point; the class reading for every finite subgroup of SU(2), since the transvections generate a perfect group and Out(G) is solvable; the n = 3 Groebner basis is exactly the trivial point; SU(2) and a finite image not needed. A WEAVE result about the forms |
 | W108 | COMPUTED (the rule first; one run, blind to main's; every cell as predicted) | the record count's open case: Epi(F₃, 2I) = 1,601,280 (Hall's formula agrees), 13,344 classes and 26,688 characters, none fixed by every move, the full moves and the transvections each transitive; Q₈ at n = 2 one class fixed even by ⟨L, R⟩, at n = 3 14 classes in one orbit; 2I at n = 2 76 classes in two orbits, none fixed |
 | W107 | COMPUTED (the rule first; one run, blind to main's; A0, Q2a–Q2c, Q3a–Q3c, Q4b, Q4c as predicted; Q4a failed as worded by the instrument, the span measured for the algebra; post hoc: the algebra 9) | N3 on the weave: every primitive positive word to length 16; an odd-trace thread's tick has a non-zero mean on T only when #L ≡ #R (mod 8), 916 of 3,822, its line one of four democratic axes fixed by the word's matrix mod 4; the weave's mean of means a scalar, 0.0799 · I; every odd-trace tick cycles the parity lines (zero diagonal) |
@@ -9595,6 +9656,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `W110_PROOF.md`: the proof, committed before its checks; `the_kept_words.py` → `the_kept_words.json` and `the_kept_words_run.txt`: W110, the checks of the word side of the record count (one run).
 - `W109_PROOF.md`: the proof, committed before its checks; `the_record_count_for_every_n.py` → `the_record_count_for_every_n.json` and `the_record_count_for_every_n_run.txt`: W109, the checks of B1677 for every n ≥ 3 (one run).
 - `W108_RULE.md`: the rule, committed before the code; `the_icosahedral_common_point.py` → `the_icosahedral_common_point.json` and `the_icosahedral_common_point_run.txt`: W108, the binary icosahedral case of the record count (one run, blind to main's).
 - `W107_RULE.md`: the rule, committed before the code; `the_tick_on_the_weave.py` → `the_tick_on_the_weave.json` and `the_tick_on_the_weave_run.txt`: W107, N3 on the weave (one run, blind to main's); `the_tick_on_the_weave_posthoc.py` → `the_tick_on_the_weave_posthoc.json` and `the_tick_on_the_weave_posthoc_run.txt`: Q4a's algebra and the ticks' zero diagonal (post hoc).

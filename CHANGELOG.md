@@ -1,5 +1,22 @@
 # Changelog
 
+## W110: the word side of the record count, proved by hand (relay §167)
+
+- **Main's ask.** Main's latest relay asked this seat to count the conjugacy classes kept by every move at three and
+  four records (cell C4). Main's S150 and S151 (GENESIS v1.49, B1680) were read with it.
+- **The theorem.**
+  - For every n ≥ 3, no non-trivial conjugacy class of F_n keeps even its cyclic length under every transvection, so
+    none is kept, at any length. The proof is Whitehead's count: the kept lengths force (n − 2)·n_i ≤ 0.
+  - At n = 2 the classes kept by L and R are the powers of [a, b].
+- **The order.** The proof was committed before its checks (6ed2c3373), the census script before its one run
+  (69313b426), and the output before it was read (a7f3878bb). All four checks came out as expected, on 34,998, 31,795
+  and 70,746 classes at n = 2, 3 and 4.
+- **Surfaces.**
+  - The proof file, the script and its output.
+  - The NOTE: a section, a header bullet, a table row and a files entry.
+  - Relay §167, and the ledger: two rows and the relay row.
+  - The state page, and a test. A WEAVE result about the forms. 0 of 19.
+
 ## Main's S150 read: W109 and W108 banked as B1679
 
 - **Read.** Main's S150 banks this seat's W109 (the proof for every n ≥ 3) and W108 (the 2I census) as B1679, PROVED.

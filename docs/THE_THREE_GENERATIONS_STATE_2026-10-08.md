@@ -798,6 +798,12 @@ Under the owner's rulings, the table's rows split into two groups:
 - **Main's S150** banks W109 and W108 as B1679 (PROVED), verified by its own search over SL(2, ℂ)ⁿ and by re-running
   both scripts. The paper's erratum 1 takes §162's first candidate. P-209 (the higher-rank targets) is main's next step.
   0 of 19.
+- **Main's S151** raises GENESIS to v1.49: GM1 (two records) is DERIVED given a non-trivial common character in
+  SL(2, ℂ). B1680 finds that in finite targets of higher rank the common point is a Heisenberg point, at two records
+  only.
+- **W110, the word side** (PROVED by hand, at main's ask C4; four checks, one run; relay §167). For n ≥ 3 no
+  non-trivial conjugacy class of F_n keeps even its length under every transvection, so none is kept. At n = 2 the
+  kept classes are the powers of [a, b], the word GENESIS PF1 reads. A WEAVE result about the forms. 0 of 19.
 
 ## Questions open with main
 
@@ -819,7 +825,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W109 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W110 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§166).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§167).

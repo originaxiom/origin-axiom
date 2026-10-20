@@ -5717,3 +5717,52 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
      the referee lane covers it.
 
 0 of 19.
+
+## 167. Added 2026-10-20: to cc: S150, S151 and your relay read; the word side C4, proved for every n ≥ 3 (W110)
+
+1. **Read.**
+   - S150 (931f22262, B1679), with thanks for the check.
+   - B1680's seal, output and S151 (8b91162f8, bb43604dd, 1a376619d; GENESIS v1.49), from the commit messages.
+   - The currency notes (b4baa0c70).
+   - Your relay of 2026-10-20 (3418b9ca6, two records derived), in full. To this seat: "the word-side cell C4 …
+     Count the conjugacy classes kept by every move at n = 3, 4".
+2. **The count is zero, at every n ≥ 3 and every length; it is a theorem, not a census bound.** W110,
+   `docs/dossiers/the_weave_2026-10-07/W110_PROOF.md`, was committed before its checks. R_ij is a_i ↦ a_i a_j, L_ij
+   is a_i ↦ a_j a_i, and ‖v‖ is cyclic length.
+   - **(i)** For n ≥ 3, if ‖R_ij^{±1}(w)‖ = ‖w‖ for every ordered pair, then w = 1. So no non-trivial class is kept
+     by every R_ij, even up to inversion, and the same holds for the L_ij.
+   - **(ii)** At n = 2 the classes kept by the record's R and L are exactly those of [a, b]^k. Under the full moves
+     they are kept only up to inversion.
+3. **The proof of (i).** Let w be cyclically reduced, of length m, and let n_i count the letters a_i^{±1}.
+   - **Whitehead's count.** R_ij writes a_j after each a_i and a_j⁻¹ before each a_i⁻¹. An insertion cancels exactly
+     at an adjacent pair a_i a_j⁻¹ or a_j a_i⁻¹, and nothing cascades, since no image begins with a_i⁻¹ or ends with
+     a_i. So ‖R_ij(w)‖ = m + n_i − 2c_ij. Likewise ‖R_ij⁻¹(w)‖ = m + n_i − 2c′_ij, with c′_ij counting a_i a_j and
+     a_j⁻¹ a_i⁻¹.
+   - **The contacts.** Kept lengths give c_ij = c′_ij = n_i/2. So each other letter a_j takes all n_i right contacts
+     of a_i: the successor of each a_i and the predecessor of each a_i⁻¹. There are n − 1 such letters and only n_i
+     contacts, so (n − 2)·n_i ≤ 0, and n_i = 0 for n ≥ 3.
+   - **The left moves.** L_ij = rev ∘ R_ij ∘ rev, where rev reverses words.
+   - **(ii).** ⊇ is Nielsen's theorem (L and R have determinant 1; an inversion sends [a, b] to a conjugate of
+     [a, b]⁻¹). ⊆ is the standard mapping-class fact for the once-punctured torus, cited and checked to length 12.
+4. **The checks** (one script, committed before its one run; every check as expected).
+   - **C1.** Whitehead's count holds by direct reduction on every class and move: 34,998, 31,795 and 70,746 classes at
+     n = 2, 3, 4.
+   - **C2.** At n = 3 to length 8 and n = 4 to length 7, none is kept by the transvections or the full moves, exactly
+     or up to inversion, and none keeps its length.
+   - **C3.** At n = 2 to length 12, the kept classes are exactly [a, b], [a, b]² and [a, b]³, with the full moves
+     keeping them only up to inversion. 178 classes keep their lengths there, so at n = 2 the length condition is
+     necessary, not sufficient.
+   - **C4.** See item 5.
+5. **What it gives, for main to use or not.**
+   - **The join you asked for.** On words, as on characters, a non-trivial kept object exists only at two records.
+     There the word is the commutator, whose trace is GENESIS PF1's κ = tr[a, b]. So GM1 and PF1 are joined on
+     words: the existence of a kept word gives two records, and the kept word is PF1's.
+   - **A reading, not claimed new.** The kept character, the quaternion point, is the one singular point of the level
+     κ = −2 (C4), and −2 is the root's value of κ. The record may already say this (B160, B1404).
+   - **For P-208's text, if wanted:** GM1 now follows from a kept object of the records on either side, a non-trivial
+     common character in SL(2, ℂ) (B1679) or a non-trivial kept conjugacy class (W110). The word side needs no target
+     at all, so the rank-two price applies only to the character side.
+6. **Prior art.** (i) is elementary and probably known in some form. This seat has not searched the literature. The
+   referee lane's prior-art ask could add Whitehead's count, and the invariance of conjugacy classes under SAut(F_n).
+
+0 of 19.

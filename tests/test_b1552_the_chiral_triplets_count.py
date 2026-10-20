@@ -2599,6 +2599,74 @@ def test_the_paper_draft7():
 
 
 
+def test_w110_the_kept_words():
+    """W110 (proof 6ed2c3373; checks script 69313b426; one run a7f3878bb): every check as expected; Whitehead's count
+    recomputed in process on random cyclic words of F_3 and F_4, with the contact bound that forces n_i = 0 for n >= 3,
+    and the n = 2 control: [a, b] kept by R and L"""
+    import random
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_kept_words.json").read_text(encoding="utf-8"))
+    assert d["status"] == "one run" and all(d["cells"].values()) and len(d["cells"]) == 4
+    c = d["census"]
+    assert [c[f"n = {n}"]["classes up to inversion"] for n in (2, 3, 4)] == [34998, 31795, 70746]
+    for n in (3, 4):
+        assert c[f"n = {n}"]["classes keeping their length under every R_ij^{+-1}"] == 0
+        assert all(v["count"] == 0 for v in c[f"n = {n}"]["kept"].values())
+    assert c["n = 2"]["kept"]["<L, R>, exactly"]["count"] == 3 and c["n = 2"]["kept"]["full, exactly"]["count"] == 0
+
+    def free(w):
+        st = []
+        for x in w:
+            if st and st[-1] == -x:
+                st.pop()
+            else:
+                st.append(x)
+        return st
+
+    def cyclen(w):
+        w = free(w)
+        while len(w) >= 2 and w[0] == -w[-1]:
+            w = w[1:-1]
+        return len(w)
+
+    def image(w, i, j, e):
+        out = []
+        for x in w:
+            out += [i, e * j] if x == i else ([-e * j, -i] if x == -i else [x])
+        return out
+    rng = random.Random(110)
+    for n in (3, 4):
+        letters = [x for k in range(1, n + 1) for x in (k, -k)]
+        for _ in range(300):
+            w = []
+            while len(w) < rng.randint(1, 14):
+                x = rng.choice(letters)
+                if not w or w[-1] != -x:
+                    w.append(x)
+            if len(w) >= 2 and w[0] == -w[-1]:
+                continue
+            m = len(w)
+            pairs = [(w[p], w[(p + 1) % m]) for p in range(m)]
+            for i in range(1, n + 1):
+                ni = sum(1 for x in w if abs(x) == i)
+                contacts = 0
+                for j in range(1, n + 1):
+                    if j == i:
+                        continue
+                    cij = sum(1 for p in pairs if p in ((i, -j), (j, -i)))
+                    cpij = sum(1 for p in pairs if p in ((i, j), (-j, -i)))
+                    assert cyclen(image(w, i, j, 1)) == m + ni - 2 * cij
+                    assert cyclen(image(w, i, j, -1)) == m + ni - 2 * cpij
+                    contacts += cij + cpij
+                assert contacts <= ni
+    comm = [1, 2, -1, -2]
+    assert cyclen(image(comm, 1, 2, 1)) == 4 and cyclen(image(comm, 2, 1, 1)) == 4
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W110. The word side of the record count, by hand" in note
+    relay = (ROOT / "SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md").read_text(encoding="utf-8")
+    assert "## 167. Added 2026-10-20" in relay
+
+
 def test_w109_the_record_count_for_every_n():
     """W109 (proof 2d10142d3; checks script 6c395c4f7; one run 7f12776ca): every check as expected; the proof's two
     load-bearing facts recomputed in process: Fricke's identity on random SL(2, C) leaves the common trace in {0, 2},
