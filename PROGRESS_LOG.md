@@ -19622,3 +19622,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - Taking all of them never produced a number. It produced either a firmer foundation, a symmetry, or an even spread.
   - Numbers appear only where a symmetry is broken, so the remaining question is what breaks it.
 - **Three tests are proposed, not started.** 0 of 19.
+
+## 2026-10-20 — the paper goes back to the main line
+
+- **The owner asked the seat to leave the paper to the main line and pass on what it has.** The seat sent the main line
+  a full account:
+  - the state of the latest draft;
+  - four small corrections it would make, none of them made;
+  - two weak spots in older checks that belong to the main line.
+- **The seat will not edit the paper again unless the owner asks.** 0 of 19.

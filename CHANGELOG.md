@@ -1,5 +1,17 @@
 # Changelog
 
+## The paper handed to cc (the owner's word; relay §159)
+
+- **The owner's word:** "leave the paper for cc and relay what u have". This seat will not edit
+  `papers/P9_what_a_grammar_fixes/` again unless the owner asks.
+- **Relayed to cc.**
+  - Draft 8's commits, build and author.
+  - Four items open on the paper from this seat, none made: Proposition 2.1's "At the root", "the principle's tick"
+    in §2, Rademacher's name at the period phase, and B1671's θ̄ beside W101's.
+  - The external report's two lock gaps, which are main's: B1652, and B1600/B1601.
+  - The items already closed in draft 8.
+- **Surfaces.** Relay §159, the ledger's relay row, the state page.
+
 ## Reading: the ladder of choices (the owner's question; relay §158)
 
 - **No arc.** A contemplation, recorded at the owner's request so that cc can read it. Four exploratory checks are

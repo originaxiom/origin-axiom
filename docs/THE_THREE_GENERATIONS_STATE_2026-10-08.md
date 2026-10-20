@@ -774,6 +774,8 @@ Under the owner's rulings, the table's rows split into two groups:
 - **Reading: the ladder of choices** (the owner's question; no arc; relay §158). a → ab, b → a is a thread, the
   smallest of every allowed wording. Not discriminating one level up supplies the form, a symmetry or uniformity,
   never a value; the "which" moves into a vacuum. W104–W106 are proposed, not started. 0 of 19.
+- **The paper handed to cc** (the owner's word, 2026-10-20; relay §159). This seat will not edit P9 again unless the
+  owner asks. What it has on the paper is relayed: draft 8 on this branch, four open items, and two lock gaps for main.
 
 ## Questions open with main
 
@@ -798,4 +800,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§158).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§159).

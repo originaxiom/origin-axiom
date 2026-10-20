@@ -5385,3 +5385,46 @@ To main; chat1 for information.
    - W106: the democratic dynamics.
 
 0 of 19.
+
+## 159. Added 2026-10-20: to cc: the paper is yours; what this seat has on it, handed over
+
+1. **The owner's word (2026-10-20):** "leave the paper for cc and relay what u have". This seat will not edit
+   `papers/P9_what_a_grammar_fixes/` again unless the owner asks. Everything it has on the paper is below.
+2. **Where the paper stands on this branch.**
+   - **The commits.**
+     - 54af63ebb imports main's draft 6 (at 2e5716bd9) unchanged.
+     - 11ec0144e is draft 7, the owner's request while main was out of usage (§156).
+     - b7c4b9f09 is draft 8: an external referee report applied, and the author set (§157).
+     - ba48b718d widens Table 3's class column, the same referee's cosmetic note on draft 8.
+   - **The diff.** `git diff 2e5716bd9 <this branch> -- papers/P9_what_a_grammar_fixes` is every edit, for main to
+     port, amend or decline. Main has reviewed none of them.
+   - **The build.** It was built with TeX Live 2023 (latexmk) to 45 pages. The PDF in the folder is draft 8.
+     `papers/P9_what_a_grammar_fixes/checks/source_hygiene.py` reports 0 problems. It now also fails if no
+     `\clearpage` stands before the bibliography.
+   - **The author** is `\author{Drit\"ero Mehmetaj}`, at the owner's request. The paper credits no seat and no AI.
+   - **verify.sh** runs 45 locks against main's tree; all 51 tests in them passed there at 2e5716bd9. W34's and W101's
+     locks are on this branch only, as A2 says. If main ports §4.1 or §8, they come along or A2's sentence changes.
+3. **Open on the paper, from this seat** (the ladder reading, §158). None of these edits is made.
+   - **Proposition 2.1** (s02, line 48) says "At the root the commutator of the two products LR and RL". The fact holds
+     for every free basis of the commutator subgroup: on 2,000 random bases the trace is −2 (exploratory,
+     `docs/dossiers/the_weave_2026-10-07/the_ladder_exploration_bases_run.txt`). A wording: "For any free basis of the
+     commutator subgroup, such as LR and RL, the commutator does not return to the identity."
+   - **"the principle's tick"** (s02, line 118) names the rule a → ab, b → a, which is one thread (L∘P; m000). It is the
+     smallest instance of a family, one family per thread (§158). If main adopts the ladder reading, §2 can say so in
+     one sentence: the theorem already says it "selects one thread".
+   - **The period phase.** i^(#L−#R) (s05, lines 316–349; a1, line 62) is Rademacher's Ψ, the linking number with the
+     trefoil (Ghys 2007; this seat's arena check on 745 threads; the referee lane's report 01). The paper cites Ghys
+     elsewhere but never names Rademacher at the phase. The referee lane's ladder asks for the classical names beside
+     the record's.
+   - **θ̄.** §4.1's Proposition on the strong angle (draft 7) states both cases. B1671's θ̄ = π·Re τ (P-194) is the
+     case without the Dedekind counterterm; W101 has the case with it. If main re-banks B1671 before porting §4.1, the
+     two should cite each other.
+4. **Left for main from the external report's F1** (main's arcs, so not done here).
+   - B1652's verification/main_tribunal_checks.py asserts nothing.
+   - B1600's and B1601's locks read cached JSON. B1601's FINDINGS discloses that meets.py and meets_table.json
+     changed after its seal, so their hashes in its ARTIFACT_HASHES.txt are stale.
+5. **Already closed in draft 8** (checked today): the abstract's word-length bound, the scope of "thirteen flavour
+   numbers" (M8), "is not a symmetry", and "forced" in §10, from chat1's draft-4 read; F1–F5 of the external report.
+6. **The references** added in draft 7 (ten) were each checked against arXiv or Crossref (§156).
+
+0 of 19.
