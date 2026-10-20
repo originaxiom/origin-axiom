@@ -1,0 +1,4 @@
+{'Q8 (SU2)': 8, '2T (SU2)': 24, 'H(3) (U3)': 27, 'H(5) (U5)': 125, 'A4 (SO3)': 12, 'S4 (SO3)': 24, 'A5 (SO3)': 60, 'Delta54 (SU3)': 54, 'PSL27 (SU3)': 168}
+n=2 Q8 (SU2): filtered generating pairs 24, fixed by every move 24 (0.0 s)
+n=2 H(3) (U3): filtered generating pairs 432, fixed by every move 432 (1.5 s)
+n=2 H(5) (U5): filtered generating pairs 12000, fixed by every move 12000 (161.5 s)
