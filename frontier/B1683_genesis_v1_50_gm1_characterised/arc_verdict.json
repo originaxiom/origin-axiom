@@ -1,0 +1,25 @@
+{
+  "id": "B1683",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1682",
+    "B1681",
+    "B1679",
+    "B1662"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "GENESIS.md, the foundation document",
+    "object": "GM1 (two records) and GM5b (inverse moves)",
+    "reach": "general",
+    "hypotheses": "the price is not re-counted; the democratic extension of the moves and persistence as fixed up to conjugation are named as what GM1's equivalent form assumes; the surface route (P-211) is open"
+  },
+  "claim_one_line": "GENESIS v1.50 (an amendment arc; P-212 and R65-3, after S152's full suite): GM1, two records, regraded from DERIVED given one input (v1.49) to POSTULATED, in an equivalent form -- for n >= 2 a non-trivial common character in SL(2, C) (B1679) or a non-trivial kept conjugacy class (B1682, the SM seat's W110) exists exactly when n = 2, so the input characterises two records and is not weaker (the web seat's read, checked on main); named beside it: persistence as fixed up to conjugation, and the democratic extension of the moves (a surface's moves keep the boundary word at every genus; P-211 open). GM5b's 'only this reading never settles' scoped to the two readings B1662 compared (Review 65). The price is not re-counted. 0 of 19.",
+  "weave_or_thread": "weave (the foundation's statement of the weave)"
+}

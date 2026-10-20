@@ -17444,3 +17444,18 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **One slip, caught before commit.** A verdict file named the web seat's relay as a seat item it rests on; the
   seat-item gate accepts only numbered items, and B1682 does not rest on the read (main checked it), so it was removed.
 - **Landing suite.** 7416 passed, 1 failed, 68 skipped (1:06:45, -n 8, single-threaded BLAS). The one failure is B186's box-dimension lock, Review 65's open R65-9 (BLAS-thread-dependent: it fails under single-threaded BLAS and passes at the default thread count, re-run); nothing in S152 touches it. Gates 45 of 45. 0 of 19.
+
+## 2026-10-21 — S153 GENESIS v1.50 (B1683): GM1 POSTULATED, IN AN EQUIVALENT FORM; GM5b SCOPED (P-212, R65-3)
+
+- S152 landed and pushed at afd7d6aa9 after its full suite (7416 passed, 1 failed: B186, R65-9, known).
+- **The amendment.** B1683's `adoption/amend.py` against v1.49 pinned by hash (347ea2d2); five anchors, each unique;
+  `--check` passes on the written root. GM1 regraded to POSTULATED, in an equivalent form, with the web seat's
+  question answered in its row and what the form assumes named (persistence up to conjugation; the democratic
+  extension). GM5b's "only" scoped (R65-3). A v1.50 log entry above the unrewritten v1.49 entry.
+- **Locks.** `tests/test_b1683_genesis_v1_50.py` (new); `tests/test_b1681_genesis_v1_49.py` rewritten to read B1683's
+  received v1.49, hash-checked, as B1662's reads its own log entry.
+- **Main's correction of its own grade.** The grade main wrote yesterday overstated; the record now says so in the
+  foundation document itself, through the amendment route, and the history is kept.
+- **Records.** P-212 DONE; R65-3 [x]; THE_WEAVE's B1682 section names v1.50; currency notes.
+- **Landing suite.** gates 45 of 45; 187 files (the governance, claim and gate tests, and this landing's arcs), 2378 passed, 1 failed, 6 skipped (20:40, -n 8, single-threaded BLAS). The one failure is B186's box-dimension lock, R65-9's known BLAS-thread-dependent item, as in S152's full suite; nothing else.
+

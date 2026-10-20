@@ -6663,7 +6663,7 @@ five claim lines was read against its premises.
 ### Action items (Review 65)
 - [>] R65-1: restore a mirror (Codeberg's terms bar mostly-AI repositories; a replacement host is the owner's choice); then push main and mirror the lanes (owner: the owner, then cc; carried from R64-1, itself from R63-1 and R62-1)
 - [x] R65-2: the premise audit is a standing review step, written into PRACTICES (resolves R64-2)
-- [ ] R65-3: scope GENESIS GM5b's "only this reading never settles" through adoption/amend.py, after a full suite (owner: cc; source: §4)
+- [x] R65-3: scope GENESIS GM5b's "only this reading never settles" through adoption/amend.py, after a full suite (owner: cc; source: §4) — done 2026-10-21 (S153): GENESIS v1.50 (B1683), "of the two readings B1662 compared, only this one never settles"
 - [>] R65-4: every banked arc hashes its stored output and any post-seal file it cites, with a failing-path test (owner: cc; carried from R64-4)
 - [>] R65-5: adjudicate the chain gap's top entries (owner: cc; carried from R64-5)
 - [>] R65-6: the Seen-first alias table and full-text sweep (owner: cc; carried from R64-6, itself from R63-4; due at Review 66)

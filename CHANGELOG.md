@@ -1,5 +1,24 @@
 # Changelog
 
+## S153 GENESIS v1.50 (B1683; P-212 done, R65-3 done): GM1 POSTULATED, IN AN EQUIVALENT FORM; GM5b SCOPED
+
+- **The amendment.** GENESIS v1.49 to v1.50, through B1683's `adoption/amend.py` against a hash-pinned v1.49, after
+  S152's full suite (7 416 passed; the one failure B186's BLAS-dependent lock, R65-9, untouched).
+  - **GM1, two records, goes back to POSTULATED, in an equivalent form.** For n ≥ 2 a non-trivial common character in
+    SL(2, ℂ) (B1679) or a non-trivial kept conjugacy class (B1682, the SM seat's W110) exists exactly when n = 2. So
+    the input v1.49 named characterises two records; it is not weaker (the web seat's read, checked on main). v1.49's
+    status, "DERIVED given one input", was not one of the legend's five and read the input as weaker.
+  - **What the form assumes is named beside it:** persistence means fixed up to the target's conjugation (a finite
+    orbit selects nothing), and the moves extend beyond two records democratically. A surface's moves keep the
+    boundary word at every genus, so on words the count of two rests on that extension; on characters, P-211 asks
+    whether the prime 2 then gives two records.
+  - **GM5b's "only this reading never settles"** now reads "of the two readings B1662 compared, only this one never
+    settles" (Review 65's premise audit, R65-3). Its status, ADOPTED [v1.48], is unchanged.
+  - The v1.49 log entry is not rewritten. B1681's lock now reads B1683's pinned v1.49 rather than the root file.
+- **What it does not do.** It does not re-count the price: GM1 stays one assumption, now stated as an invariance of the
+  weave's moves, tied to GM4's punctured torus and to PF1's commutator. It does not settle P-211. 0 of 19.
+- **Landing suite.** gates 45 of 45; 187 files (the governance, claim and gate tests, and this landing's arcs), 2378 passed, 1 failed, 6 skipped (20:40, -n 8, single-threaded BLAS). The one failure is B186's box-dimension lock, R65-9's known BLAS-thread-dependent item, as in S152's full suite; nothing else. 0 of 19.
+
 ## S152 THE WORD SIDE OF THE RECORD COUNT (B1682, PROVED): TWO RECORDS CHARACTERISED, NOT DERIVED FROM A WEAKER INPUT
 
 - **B1682** re-banks the SM seat's W110, written at main's ask C4, and checks the web seat's answer to the question

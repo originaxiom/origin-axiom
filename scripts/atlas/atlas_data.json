@@ -12512,6 +12512,20 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1683": {
+   "slug": "genesis v1 50 gm1 characterised",
+   "motifs": [
+    "feedback",
+    "golden"
+   ],
+   "refs": [
+    "S152"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B168": {
    "slug": "omega accretion generative",
    "motifs": [

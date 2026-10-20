@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1411 of 1411 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1412 of 1412 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (958)
+## PROVED (959)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -970,6 +970,7 @@
 | `B1680` | THE COMMON POINT IN TARGETS OF HIGHER RANK (sealed 8b91162f8 before the run; output bb43604dd committed unread; every cell holds): in every target tested -- SU(2), U(3), U(5), finite irreducible images -- a common point of the weave of n records exists only at n = 2, and at n = 2 the targets that have one are exactly the Heisenberg groups (Q8, the p = 2 Pauli group; H(3); H(5)), every generating pair fixed by every move; 2T, A4, S4, A5, Delta(54) and PSL(2,7) have none even at n = 2; at n = 3 H(3)'s 3 888 filtered triples are all moved; at n = 4 none. The common point of two records is a commutator-pairing (Heisenberg) point, the moves preserving the pairing exactly in rank two (SL(2) = Sp(2)); a target supplies only the prime p. p = 2 gives the quaternion point and its three parity directions (the triplet, T2); p = 3 gives a 3-dimensional point whose 8 directions are not a triplet. 0 of 19. |  | 1 |
 | `B1681` | GENESIS v1.49 (an amendment arc; P-208, after S150's full suite): GM1, two records, moves from POSTULATED to DERIVED given one input -- the records have a non-trivial common character in SL(2, C) (B1677 sealed; B1679, the SM seat's W109 proof for every n, verified): for every n >= 3 only the trivial character is fixed by every move, at n = 2 the record's moves fix the trivial and quaternion points, the finite image then forced and the triplet following (T2); the rank-two target priced. The principle's form stated as the family of wordings, a -> ab, b -> a its smallest instance under C2b (P-206; B1676: the golden rule's tick a class property). The price is not re-counted: one postulate exchanged for one input. 0 of 19. |  | 1 |
 | `B1682` | THE WORD SIDE OF THE RECORD COUNT, VERIFIED ON MAIN (re-banks the SM seat's W110, proof before checks before run; main re-derived the proof, ran its own census with its own count for the left moves, to n = 5; the seat's run reproduced byte for byte), AND WHAT THE COMMON POINT IS (the web seat's read of 2026-10-20 night, checked): for n >= 3 no non-trivial conjugacy class of F_n keeps even its cyclic length under every R_ij^{+-1} -- Whitehead's count |R_ij(w)| = m + n_i - 2c_ij forces (n - 2) n_i <= 0 -- so none is kept by the transvections, even up to inversion; at n = 2 the classes kept by the record's R and L are the powers of [a, b], whose trace is PF1's kappa. So for n >= 2 a non-trivial kept object, a class or an SL(2, C) character, exists exactly when n = 2: the input of GENESIS v1.49 is equivalent to two records, not weaker -- GM1 is characterised, not derived (regraded in v1.50, P-212); the word side needs no target; the count of two rests on the democratic extension of the moves (a surface's moves keep the boundary word at every genus; genus 2 checked); persistence means fixed up to conjugation. 0 of 19. |  | 1 |
+| `B1683` | GENESIS v1.50 (an amendment arc; P-212 and R65-3, after S152's full suite): GM1, two records, regraded from DERIVED given one input (v1.49) to POSTULATED, in an equivalent form -- for n >= 2 a non-trivial common character in SL(2, C) (B1679) or a non-trivial kept conjugacy class (B1682, the SM seat's W110) exists exactly when n = 2, so the input characterises two records and is not weaker (the web seat's read, checked on main); named beside it: persistence as fixed up to conjugation, and the democratic extension of the moves (a surface's moves keep the boundary word at every genus; P-211 open). GM5b's 'only this reading never settles' scoped to the two readings B1662 compared (Review 65). The price is not re-counted. 0 of 19. |  | 1 |
 
 ## NEGATIVE (349)
 
