@@ -647,3 +647,13 @@ found with B1635's sealed instrument.
 - **Why the seed looked like the principle.** The weave's characters sort the threads by #L − #R: the period phase
   mod 4, the tick's mean mod 8. LR has #L − #R = 0, so it lies in the trivial class of both, and what made it special
   is that class. The seed is the trivial class's simplest representative, not the principle.
+
+## Main's addition: the common point fixes the count of records (B1677, PROVED, sealed) — two records is the weave's, not the seed's
+
+- **The owner's question of 2026-10-20** ("are we sure we end up with a weave of two records instead of a weave of four
+  or more?"), answered within a stated scope. A point that every move of the weave of n records keeps, among the SU(2)
+  characters with finite non-abelian image, exists only at n = 2, for n ≤ 4. There it is unique: the quaternion
+  point, the common point the paper's T2 builds the triplet on.
+- **So the count of two moves from the seed to the weave.** GM1 was postulated. It now follows from the input that the
+  weave of the records shares a persistent point in SU(2) with finite image. The three parities and the triplet
+  follow from that point. The input "SU(2), finite image" stays priced, and n ≥ 5 is not covered.

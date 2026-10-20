@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1405** |
-| words of findings prose | **1,115,220** |
-| test lock files referenced | **822** |
-| arcs carrying an authored verdict | **1405** (100.0 %) |
+| research arcs with findings | **1406** |
+| words of findings prose | **1,116,018** |
+| test lock files referenced | **823** |
+| arcs carrying an authored verdict | **1406** (100.0 %) |
 | recorded closures | **825** (658 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 952 |
+| PROVED | 953 |
 | NEGATIVE | 349 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1676`** (871 words, 1 locks)  
-THE TICK ON THE WEAVE, VERIFIED ON MAIN (re-banks the SM seat's W107, run blind at main's ask; rule 2daabdde4 before script 7beaa530d before run 191c367a7; main's design predictions committed before main read it; every count reproduced by main's own route): N3 on the weave. On the 8 798 primitive positive words of length 2-16 (3 822 of odd trace, each a 3-cycle on the parity lines) the tick's operator mean is rank one exactly when #L = #R (mod 8) (916) and zero otherwise (2 906); every rank-one mean is a body diagonal of the parity basis, all four occurring (215, 229, 235, 237); the weave's mean of means is a scalar (0.0799 I, off-diagonal 3.1%), the ticks' commutant the scalars, and they generate End(T). So N3's democratic matrix is a property of one class of threads (LR's, #L - #R = 0), not of the principle; on the weave the ticks fix no direction. Which threads carry the mean moves with the lift's sign convention (916 vs 906); the structure does not. 0 of 19.  
-`B1676_the_tick_on_the_weave_verified/FINDINGS.md`
+**PROVED — `B1677`** (798 words, 1 locks)  
+THE COMMON POINT AND THE COUNT OF RECORDS (sealed 33a40692b before the run; output 2b04ffa80 committed unread; every cell holds): among the characters of F_n in SU(2) with finite non-abelian image, a point fixed by every move of the weave of n records exists only at n = 2 (for n <= 4), where it is unique -- the quaternion point (Q8, traces (0, 0, 0)); at n = 3 and 4 every filtered generating tuple of Q8, 2T and 2I is moved, and the binary dihedral groups have no common point for any m (they force trace zero, which confines the generators to Q8). So the count of two records (GM1) follows from a weaker stated input, that the weave shares a persistent point in SU(2) with finite non-abelian image, and the triplet follows from that point (the paper's T2, T3). The transitivity is known for solvable groups (Dunwoody) and PSL(2, p) (Gilman); the census includes the non-solvable 2I; the reading is the record's. SU(2) and a finite image stay priced; n >= 5 not covered. 0 of 19.  
+`B1677_the_common_point_and_the_record_count/FINDINGS.md`
 
 **NEGATIVE — `B1673`** (1020 words, 1 locks)  
 THE DYNAMICAL-SELECTION CLAIMS OF 19 OCTOBER, VERIFIED (NEGATIVE; a verification arc of a separate session's unsealed arc, banked under its number; P-199): no static debt of Table 1 is discharged. V = -ln(Im tau |eta|^4) is minimal at omega (1.0335192760; saddle at i, gap 0.0211690050), the classical torus-determinant extremum, already in W51/W59: taking it as the modulus's potential is a choice. The Green function's minimum over the 72 points of exact order 9 is a 12-point orbit (-0.504572), disjoint from W59's eighteen lines; the 3-torsion lies lower. The 8:4 CP count is a coordinate error (points built as (a omega - b)/9, rotated as a + b omega; wrong on 72 of 72); on the true points 0 of 12 are reflection-fixed and the orbit is reflection-closed, so nothing breaks; averaged J is set by the input matrix and is ~1200x the measured 3.1e-5. Orbit-averaged and Selberg spectra (s = l(LR), one thread's length) give ratios near 1/2, missing the data by one to three orders. 0 of 19.  

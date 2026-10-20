@@ -578,6 +578,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1674` | PROVED | L | | THE WEAVE'S ANOMALY: det ρ = χ_η⁹; if the moves are a symmetry of the fermions, they are free with QCD exactly when they act alike on left- and right-handed quarks, never with SU(2), with gravity only given ν^c; the couplings' determinants carry η^{6K} under a congruence and the strong angle is tied to τ or free, never fixed; no data |
 | `B1675` | PROVED | L | | NO THREAD KEEPS A RECORD: at the common point no thread and not the joint action fixes a private class; only a shear or the mirror does, so a fixed record exists only at an end (a relational record is not excluded); no data |
 | `B1676` | PROVED | L | | THE TICK ON THE WEAVE: the democratic tick mean belongs to one class of threads (#L ≡ #R mod 8), not to the principle; on the weave the ticks' joint mean is a scalar and fixes no direction; no data |
+| `B1677` | PROVED | L | | THE COMMON POINT AND THE COUNT OF RECORDS: among finite non-abelian SU(2) characters the weave of n records has a common point only at n = 2 (n ≤ 4), the quaternion point; two records and the triplet follow from the existence of a common point; no data |
 
 ## The exhibit that forced the rebuild
 

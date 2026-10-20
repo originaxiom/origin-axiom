@@ -1,0 +1,26 @@
+{
+  "id": "B1677",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": true,
+  "identifications": [],
+  "depends_on": [
+    "B1600",
+    "B1601",
+    "B749",
+    "B1323",
+    "B1672"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "characters of the free group F_n in SU(2) with finite non-abelian image; the moves a_i -> a_i a_j, a_j a_i (generating SAut(F_n))",
+    "object": "the weave of n records, n = 2, 3, 4; every finite non-abelian subgroup of SU(2) (Dic_m by census for m <= 15 and by an argument for every m; 2T, 2O, 2I by census)",
+    "reach": "class",
+    "hypotheses": "SU(2) and a finite image are inputs; infinite images and other targets are outside the claim; n >= 5 is not covered"
+  },
+  "claim_one_line": "THE COMMON POINT AND THE COUNT OF RECORDS (sealed 33a40692b before the run; output 2b04ffa80 committed unread; every cell holds): among the characters of F_n in SU(2) with finite non-abelian image, a point fixed by every move of the weave of n records exists only at n = 2 (for n <= 4), where it is unique -- the quaternion point (Q8, traces (0, 0, 0)); at n = 3 and 4 every filtered generating tuple of Q8, 2T and 2I is moved, and the binary dihedral groups have no common point for any m (they force trace zero, which confines the generators to Q8). So the count of two records (GM1) follows from a weaker stated input, that the weave shares a persistent point in SU(2) with finite non-abelian image, and the triplet follows from that point (the paper's T2, T3). The transitivity is known for solvable groups (Dunwoody) and PSL(2, p) (Gilman); the census includes the non-solvable 2I; the reading is the record's. SU(2) and a finite image stay priced; n >= 5 not covered. 0 of 19.",
+  "weave_or_thread": "weave (every move of the weave of n records, every finite non-abelian image)"
+}

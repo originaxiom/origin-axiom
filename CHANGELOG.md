@@ -1,5 +1,25 @@
 # Changelog
 
+## S148 THE COMMON POINT FIXES THE COUNT OF RECORDS (B1677, PROVED as sealed; P-205, P-201 done)
+
+- **The question** (the owner's, 2026-10-20): the best parameter-free structure that could show the principle has real
+  ground, and whether "two records" is forced. Promoted to first in the foundations quest.
+- **The arc.** B1677 was sealed and pushed before its one 16-second run (`33a40692b`), and its output was committed
+  unread (`2b04ffa80`).
+  - Among the characters of F_n in SU(2) with finite non-abelian image, a point fixed by every move of the weave of n
+    records exists only at n = 2, for n ≤ 4. There it is unique: the quaternion point.
+  - At n = 3 and 4, every filtered generating tuple of Q₈, 2T and 2I is moved. That includes the non-solvable 2I, the
+    case theory did not decide.
+  - The binary dihedral groups never have one: they force trace zero, which confines the generators to Q₈.
+- **What it means.** The count of two records (GENESIS GM1, a postulate) follows from a weaker, stated input: the weave
+  shares a persistent point in SU(2) with finite non-abelian image. The triplet follows from that point. It is the
+  first time a postulate of the foundation has been replaced by a consequence of a weaker input.
+  - The transitivity behind it is known (Dunwoody; Gilman). The reading is the record's.
+  - SU(2) and a finite image stay priced; n ≥ 5 is not covered.
+- **Records.** Registry, law and candidate rows. P-205 and P-201 done. P-208 queues the GENESIS amendments (GM1 derived
+  given a common point; the principle as the family of wordings; the golden rule's tick a class property) for the
+  next full suite.
+
 ## S147 THE TICK ON THE WEAVE (B1676, PROVED; P-200 done): N3's democratic matrix is a class property, not the principle's
 
 - **B1676** re-banks the SM seat's W107, N3 on the weave, run blind at main's ask. Its rule came before its script,

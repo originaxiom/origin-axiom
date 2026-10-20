@@ -12378,6 +12378,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1677": {
+   "slug": "the common point and the record count",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "markov_cubic"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B167": {
    "slug": "conserved no scale lemma",
    "motifs": [

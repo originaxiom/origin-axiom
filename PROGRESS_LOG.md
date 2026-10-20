@@ -17389,3 +17389,16 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   count to length 12 is 322, not 398.
 - **The owner's question "what is weave and what is seed"** was answered from this result and recorded in THE_WEAVE.
 
+## 2026-10-20 — S148: B1677, THE COMMON POINT AND THE COUNT OF RECORDS (P-205, P-201)
+
+- **The design.** The first idea, the cycle census, showed the line's three persists in every rank but is not singled
+  out (higher ranks cycle 5, 7 and 15 points). The decisive question became whether a common point exists.
+  - Seen before the seal and disclosed: the design facts, the hand counts (one class of Epi(F₂, Q₈), fourteen of
+    Epi(F₃, Q₈)), Dunwoody for the solvable groups, the trace-zero argument, and a smoke test on the rank-2 control
+    only.
+  - A completeness fix before the seal: every first generator is run, since conjugation can leave G.
+- **The seal and run.** The seal was pushed before the run; the output was committed unread; the instrument's hash was
+  identical at the seal, the run and the commit. Every cell held.
+- **After the run, labelled:** the binary dihedral family is covered for every m by an argument, and the scope stops at
+  n ≤ 4.
+
