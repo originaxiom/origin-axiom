@@ -1161,3 +1161,13 @@ Three practices came out of the field stage's last window. Each answers a slip t
 3. **A sealed arc names both hashes** (from B1663, B1665, B1666 at Review 65): the preregistration's beside the seal
    commit, and the instrument's as the first line of ARTIFACT_HASHES. A reader takes the first sha printed as the
    instrument's. MANUAL.
+
+## The paper frozen after draft 9 (the owner, 2026-10-20; P-203)
+
+- The paper's draft 9 is a tagged release (`p9-draft9`). After it, the paper takes **errata only**: a mathematical
+  error found by anyone gets a dated correction, and nothing else is written in.
+- A result meant for a later draft is queued in the point register, not written into the paper.
+- The author line carries the owner's name, at the owner's word of 2026-10-20 (P-202).
+- **Why:** nine drafts in five days, the last outside reads found no mathematical error, and every new result was
+  pulling the paper along at a full verification cycle each. The foundations questions (P-200, P-201) may reframe the
+  paper, so they are answered first.

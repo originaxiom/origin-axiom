@@ -53,9 +53,15 @@ moves and their pull-backs,
 \]
 \end{proposition}
 \begin{proof}
-Direct multiplication. $[LR,RL]=\begin{psmallmatrix}-7&6\\-6&5\end{psmallmatrix}=-U$ with $U=\begin{psmallmatrix}7&-6\\6&-5\end{psmallmatrix}$,
-which has trace $2$ and is not the identity. Next, $L R^{-1}L=\begin{psmallmatrix}0&1\\-1&0\end{psmallmatrix}$ squares to $-I$, and
-$L^{-1}R=\begin{psmallmatrix}0&-1\\1&1\end{psmallmatrix}$ has order six with cube $-I$. The square $(LR^{-1}L)^2=-I$ is unchanged when
+Direct multiplication:
+\[
+  [LR,RL]=\begin{pmatrix}-7&6\\-6&5\end{pmatrix}=-U,\qquad U=\begin{pmatrix}7&-6\\6&-5\end{pmatrix},
+\]
+and $U$ has trace $2$ and is not the identity. Next,
+\[
+  LR^{-1}L=\begin{pmatrix}0&1\\-1&0\end{pmatrix},\qquad L^{-1}R=\begin{pmatrix}0&-1\\1&1\end{pmatrix};
+\]
+the first squares to $-I$, and the second has order six with cube $-I$. The square $(LR^{-1}L)^2=-I$ is unchanged when
 $L$ and $R$ are replaced by their inverses (the mirror, B1662). The two elements fix the points $i$ and $\omega=e^{2\pi i/3}$ of the
 upper half-plane, and no word in $L,R$ alone reaches them: a word in $L,R$ has non-negative entries, so $ad=1+bc\ge1$
 forces $a,d\ge1$, and its trace is $2$ only when $a=d=1$, otherwise at least $3$; a finite order element has trace $0$ or
@@ -161,7 +167,7 @@ input & status & what it buys & what would discharge it\\
 \bottomrule
 \endlastfoot
 PF1--PF3, the principle & postulated & the question: what a non-cancelling description forces & none in the record\\
-the grammar, GM1--GM5a & postulated (GM3 cheap; GM4's puncture conditional) & the moves, the threads, the carrier & none; GM1 is not independent of GM4\\
+the grammar, GM1--GM5a & postulated (GM3 cheap; GM4's puncture conditional) & the moves, the threads, the carrier & none; GM1 is not independent of GM4, and the count of two records is a postulate: three records were compared only to word length five, where the comparison is fragile (B749), and four or more were not computed\\
 SE1, torsion-free first homology & postulated & the root among the states & alternatives are kept: minimal trace, minimal volume\\
 SE2, orientation & chosen & the orientable root, and the sheet that carries the hand & a derived reason for orientability, or carrying both $m004$ and $m000$\\
 GM5b, the pull-back acts & adopted, as a reading of PF1's cancelling & the sign $-I$ and a motion with no preferred side at equal strength; not needed for the root & not a derivation\\
@@ -169,7 +175,7 @@ positivity, as the side & chosen (a selection) & one side of the mirror: forward
 the triplet postulate & tagged & left-handed matter in the triplet $T$; the mass tensor & a derivation of which fields carry $T$ (the dictionary), or an obstruction; an index for the count does not pay it\\
 one cusp unit & tagged & the index $\pm3$ (Section~\ref{sec:three}) & an end mechanism at the cusp\\
 the extreme boundary domain & chosen & $|\Lambda_+|\in\{0,6\}$, so $\pm3$ rather than $\pm1$ (Section~\ref{sec:three}) & a rule that selects the domain\\
-$M_{1,2}$ as the weave's surface & a reading, verified in part & the setting of the index and of the zero modes & coherence of the lifts (a gate still open)\\
+$M_{1,2}$ as the weave's surface & a reading, verified in part & the setting of the index and of the zero modes & coherence of the lifts: closed after an odd $\eta$-twist on every word of length at most $7$ in the four shears that generate $\mathrm{Aut}^+(F_2)$ (B1672); a theorem needs a presentation\\
 the vacuum-grading rule (demand D1, Section~\ref{sec:boundary}) & a ruling of the program & how a symmetry broken by a vacuum is graded & none\\
 the end condition at the puncture (equal canonical amplitudes) and the choice of canonical horocycle & chosen (the horocycle a discrete choice; the radius of order one, Census law~\ref{cl:cusp}) & the norm of the boundary class, the lepton sector's null vector, the symmetric point's law, the census N5 and the first generation's lift (Sections~\ref{sec:couplings}, \ref{sec:three}) & an end mechanism at the puncture, or a reason for one horocycle\\
 the modulus $\tau=\omega$ and the eighteen flat lines & chosen (a selection, Section~\ref{sec:selection}) & the lepton sector's null vector, the symmetric point and the one-Higgs census N5 (Sections~\ref{sec:couplings}, \ref{sec:boundary}) & a rule that selects the modulus and the lines\\
@@ -180,7 +186,9 @@ the fibre frame (the Higgs a section on the fibre, at one $\tau$) & chosen (see 
 the Higgs's type and locus (a point or density Higgs, at the puncture) & stated & the covariance theorem and the rank of a point coupling (Section~\ref{sec:couplings}) & a Higgs of another type, or a derived locus\\
 zero Wilson line on the fibre & stated (a restriction of the frame) & the isotropy theorem and its null vector (Section~\ref{sec:couplings}) & a derivation of the connection, or the theorem for a non-zero line\\
 the hand and the $\eta$ twist & chosen conventions, not derived & $\rho$ as the theta multiplier (Section~\ref{sec:modular}) & a derived hand; a reason for the twist\\
-the modular-flavour ansatz (holomorphic couplings, a minimal K\"ahler term, one copy of $T$ per field, one Higgs per sector) & stated where used, not adopted & the ruled-branch bound of Theorem~\ref{bd:reducesnone} & none\\
+the modular-flavour ansatz (holomorphic couplings, a minimal K\"ahler term, one copy of $T$ per field, one Higgs per sector) & stated where used, not adopted & the ruled-branch bound of Theorem~\ref{bd:reducesnone}; the half floor and the determinant laws of Section~\ref{sec:anomaly} (with real coefficients where the strong angle is read) & none\\
+the moves as a symmetry of the fermions, with weights, and $\tau$ a field & stated where used & the anomaly of the moves and the strong angle's transformation (Section~\ref{sec:anomaly}) & a derivation that the moves act on the fermions as a symmetry\\
+the Dedekind counterterm $\theta(\tau)=\theta_0+6K\arg\eta(\tau)$ & stated where used (an input with a field: $\mathrm{Re}\,\tau$ coupled to the gluons' $G\tilde G$) & a strong angle invariant under the moves (Proposition~\ref{prop:strong}) & a mechanism that supplies it, or weights with no anomaly\\
 the index formula $\dim\Lambda_+-3$ & taken as stated (B1606) & the index of Section~\ref{sec:three} & an independent derivation\\
 \midrule
 \multicolumn{4}{@{}p{15.4cm}@{}}{\textbf{Price.} The rows above are this paper's inputs. For comparison, the

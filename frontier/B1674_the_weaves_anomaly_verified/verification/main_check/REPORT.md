@@ -1,0 +1,46 @@
+# Verification of the SM seat's lane at ba48b718d (2026-10-20)
+
+Extracted to src/; scripts and logs in this folder (v1_independent.py, v2_w34_independent.py, v3_paper.py, v4_curve.py and their _run.txt;
+rerun_anomaly.txt, rerun_posthoc.txt, w34_test_run.txt, v3_lyapunov_run.txt, draft7_to_8.diff). Nothing in the main tree or git state was changed.
+
+## 1. W101, the weave's anomaly
+
+Ordering (git log, author dates 2026-10-17): rule 12ffb5421 (12:56:27) < script ac37cbc8b (13:09:05) < output b1f77ade9 (13:09:36) < record d61faa0cc (13:13:26). HOLDS. The post-hoc script is labelled post hoc and written after the output.
+
+Re-run: the_weaves_anomaly.py gives the same JSON byte for byte (C0 true, C1 false, A1 true, A2 true, A3a true, A3c true, A4 false); the post-hoc script gives the same JSON (30 cases, 12 mismatches exactly the |Re gamma tau|>1 cases, branch-free worst 1.35e-29). HOLDS.
+
+Independent code (v1_independent.py; derives rho_u from the theta^2 triplet by solving linear systems, does not import the lane's code):
+- Triplet rep: T-exponents {1/8,3/8,7/8}; s^2=(st)^3, s^4=-1, s^8=1; image order 96; det rho(t)=chi_eta(t)^9 (only e=9 mod 24); det rho(s)=chi_eta(s)^9 (e=9 mod 8); det rho(word)=chi_eta^9 on 200 random words. HOLDS (on t and on s).
+- Anomaly table: SU(3)^2 free exactly s_u=s_d=-s_Q, 16 of 64 (values over 64: 0,6,12,18 each 16); SU(2)^2 values {6,12,18}, never 0; gravity given SU(3)-free: 4 of 16, exactly s_e=s_nu=-s_L; without nu^c none free (0 of 32, 0 of 16). The paper's proof (3 invertible mod 8; sums in {0,+-2,+-4}; {+-2,+-4}; odd without nu^c) is correct by inspection. HOLDS.
+- Determinants: m=-9(2sQ+su+sd) gives K mod 4 = 2 (all T or all Tbar), 0 (s_u=s_d=-s_Q), 1 or 3 (mixed, by hand): matches. det Y1 = 2 th2^2 th3^2 th4^2 = 8 eta^6 to 1e-31 at three tau. -12 arg eta + pi Re tau = O(e^{-2 pi y}) checked (e.g. 9.2e-4 vs 8e-5 at (0.2,1.5), same order); exactly pi/2 mod pi on Re tau=1/2 (nome real negative, the product real positive). Weight 3/2: det per sector in M_6 by the cusp-exponent argument (exponents >= 0, character fixes them mod 1, so det/eta^6 is holomorphic at infinity), dim M_6 = 1, hence eta^6 E6 (weight 3) and E6 (weight 2); g = E6^2/Delta = j-1728 checked numerically. HOLDS. (I did not construct a weight-3 holomorphic coupling; the existence of the coupling is an input, the determinant form is forced given it.)
+- Interior zero curve of 12 arg eta + 2 arg E6 (mod pi): x = 0.32415 (y=1.00), 0.30281 (1.05), 0.27357 (1.10), 0.23288 (1.15), 0.17212 (1.20), none at y>=1.3 for x>=0.05; matches the lane to 8 digits. HOLDS. Scope note: the curve ends on the imaginary axis near Im tau ~ 1.25 (sin changes sign at x=0.001 between y=1.24 and 1.26); the paper states only the two endpoints it quotes, which is fine.
+- Failed control C1: 12 of 30 mismatches, all with |Re gamma tau|>1 (recomputed from the lane's recorded values). Cause confirmed independently: mpmath jtheta(2,0,exp(i pi tau)) / branch-free theta2 = 1, -i, -i, 1 at Re tau = 0.3, 1.3, 2.3, 8.3 (principal q^{1/4}). With an eta^6-based branch-free test on 12 words x 3 tau (own words, own rho): 0 mismatches of 36. HOLDS. The attribution is correct; the post-hoc repair does what it says. Scope note: C1 as worded stays failed, and A4 (which depends on it) is correctly recorded as failed; the paper's Scope bullet discloses both.
+
+Physics point: "SU(2)^2 never anomaly-free" is correctly scoped in the paper (s04 Scope bullet: binds only if the moves are gauged) and in the rule. HOLDS WITH SCOPE NOTE. Two refinements the draft could add: (a) the statement concerns the pure modular character; with B+L (anomalous under SU(2)) available to compensate, a nonzero n_SU(2) does not by itself break a global move, which is why the angle is unphysical; (b) the gravity-squared condition is likewise a gauged/gravitational-consistency condition only. The SU(3) result is the physical one (shifts thetabar). Minor text defect: s04 proof (3) says "the space of such forms is spanned by E6, E4^3-E6^2=1728 Delta, and j is real ..." which reads as a garbled list (M_6 is spanned by E6 alone; E6^2/Delta=j-1728 is what is used).
+
+## 2. W34, no thread keeps a record
+
+Lane test test_w34_the_observer_layer_on_the_weave passes (3.3 s, w34_test_run.txt). Not re-run: the full SnapPy 60-digit census (Q1, 758 threads); the proposition does not rest on it.
+
+Independent code (v2_w34_independent.py): F2=<a,b>, rho_Q a->i, b->j, V=Sym^{2k}, H^1(F2;V)=V^2/B^1, private = kernel of z -> z([a,b]); moves act by (phi^*z)(x)=g^-1 z(phi x), g in SL2 from g rho(x) g^-1 = rho(phi x). Results:
+- Table (dim V, H^1, rank to puncture, private) = (3,3,3,0), (5,7,3,4), (7,8,6,2) for k=1,2,3: matches (fiber_dim 0,4,6). HOLDS.
+- All 758 states (379 cyclic words x two signs): no thread keeps a private class in any block; smallest nonzero singular value of (phi^*-1) on the private part 0.599 (no near-degeneracy). Also with the opposite composition order (200 states) and for LR, RL, LLR, LRLLR, L^11 R, (LR)^5 LL, (LLR)^3 R, LLRRLRLLRRLR, both signs: 0. HOLDS. The proof (hyperbolic matrix tensor finite order has no eigenvalue 1; a shear is unipotent) is correct; the sign '-' multiplies by -I, still |eigenvalue|>1.
+- Joint action of L and R keeps 0 (private and on all H^1 in the sense reported; also with P and -I added: 0). HOLDS.
+- L keeps 1 private class and R keeps 1 in the Sym^4 block (rank three = k=1,2: 1 each); P keeps 2 at rank three (k=2 block), and 3 at rank four (2+1). The paper says rank three: HOLDS. Scope note: at rank four P keeps three.
+- On all of H^1 many threads keep visible classes (e.g. 718 of 758 keep one in k=1), so "private" is doing the work; the paper says so.
+
+Is "private state" checkable as defined in the proposition? NOT SUFFICIENTLY. The proposition says only "classes that the puncture cannot detect". A reader needs: coefficients (Sym^{2k} of rho_Q, rank n = sl(n) = sum_{k<n} Sym^{2k}), the cohomology H^1(F2;.) and the restriction to <[a,b]>. This is in W34_RULE.md, not in the paper. Also "the flat twists of the three parity lines" is loose: at rank three the private space is 4-dimensional (Hom of the torus' H_1 into the 2-dimensional Cartan, i.e. traceless combinations of the three lines times two cycles), not three. Recommend adding the kernel definition and "rank n" meaning. Also the 758 states exclude orientation-reversing threads (the lane's rule covers them by argument only; the paper's "all 758 states" is accurate).
+
+## 3. Drafts 7 and 8
+
+Draft 7 (11ec0144e) is on top of 54af63ebb (draft 6 imported unchanged): +277 lines: section 4.1 (W101, det rho = chi_eta^9, half floor), section 8 (composition lemma, W34 proposition), section 10 (a third kind of link), abstract/intro/Table 1/A2/A3/A4, ten references. I checked the W101 and W34 content above (holds). Draft 7 to 8 diff is in draft7_to_8.diff.
+
+Draft 8 (b7c4b9f09, ba48b718d):
+- F1 verification bundle: verify.sh 26 -> 45 locks; A2 says so, names B1652 (printed checks, no lock) and W34/W101 locks not on main; build.sh also runs positive_words.py and lyapunov_fixed.py. Checked: all 45 paths exist at main HEAD, none lane-only; no B1652 test and no test_b1552 on main. HOLDS. (verify.sh from the lane tree itself cannot run: the arcs' tests are absent there; it is meant for main.)
+- F2 layout: \clearpage before the bibliography, source_hygiene.py check for it, glossary as a longtable. HOLDS (logic sound).
+- F3 parity labels: s04 now says L fixes (0,1), line (+,-); R fixes (1,0), line (-,+); labels exchange only for column-vector left multiplication. Checked by pulling back characters under L: a->a, b->ab (fixes (0,1)) and R (fixes (1,0)); consistent with theta2^2 (fixed by t=L) on (+,-) and theta4^2 on (-,+). HOLDS.
+- F4 first-passage estimator: now "about 0.1% low at p=0, about 2% high at p=1/2". Re-ran lyapunov_fixed.py: 0.3964 +- 0.0001 and 0.0987 +- 0.0002; versus 0.3959, 0.1007: -0.13%, +2.0%. HOLDS.
+- F5 precision: s03 lifts g_L=(1+i)/sqrt2, g_R=(1-j)/sqrt2 verified (g_L j g_L^-1 = ij = k; g_R i g_R^-1 = k; both fix the other generator); braid g_L g_R^-1 g_L = g_R^-1 g_L g_R^-1 = (i+j)/sqrt2 exactly, and L R^-1 L = R^-1 L R^-1 in Aut(F2) (both a->a b^-1 a^-1, b->a). Lemma 21: D(tau+1)=iD, D(-1/tau)=i tau^-1 D, D(tau/(tau+1))(tau+1)=-iD to 1e-30, so chi(L)=i, chi(R)=-i. Proposition 19 rephrased as t+1/t within factor 4 (small t: second to third generation) consistent. HOLDS.
+- Table 3 column (ba48b718d): class column 1.65 cm, description 5.05 cm, same total width; cosmetic; not built here. NOT CHECKED (build not requested).
+
+Author line: set in papers/P9_what_a_grammar_fixes/tex/main.tex (\author{...}, replacing "origin-axiom") and named in the b7c4b9f09 commit message and README relay note; an author line was set (owner's request). Flags for main: (i) the repo rule "no surname in tracked files" (and the repo is public) conflicts with the author line in main.tex and in a commit message, main must decide; (ii) the lane commits carry AI co-author trailers against the "no AI trailer" rule; (iii) the author line removes "origin-axiom" and the README still says draft prepared on the SM branch; the paper credits no seat (consistent).

@@ -62,7 +62,9 @@ EXEMPT_CITERS = ("PROGRESS_LOG.md",
                  "frontier/B1467_the_seats_evening_and_mains_absence_claim_corrected/received/",  # B1467: the SM seat's v1.8 as received
                  "frontier/B1462_the_seats_harvested_p_is_the_swap_and_the_levels/received/",  # B1462: GENESIS v1.6 and THE_BAR as received from the SM seat; they cite that branch's paths
                  "frontier/B1458_the_bar_adopted_and_the_own_level_law/received/",  # B1458: the SM seat's THE_BAR as received, and GENESIS v1.3 as it was  # B1456: the same, for the received GENESIS v1.2
-                 "frontier/B1454_genesis_v1_verified_and_adopted/received/",  # B1454: hash-pinned copies of the SM seat's GENESIS v1.0 and its relay, as received; they cite paths of that seat's branch by design
+                 "frontier/B1454_genesis_v1_verified_and_adopted/received/",
+                 "frontier/B1674_the_weaves_anomaly_verified/verification/received/",  # 2026-10-20: the SM seat's W101 files as received; they cite the seat's branch layout by design
+                 "frontier/B1675_no_thread_keeps_a_record_verified/verification/received/",  # the same, for W34  # B1454: hash-pinned copies of the SM seat's GENESIS v1.0 and its relay, as received; they cite paths of that seat's branch by design
 
                  "frontier/B921_branch_harvest/harvested/",  # forensic ARCHIVE copies: their internal citations reference the SOURCE BRANCH's layout by design (the harvest preserves them verbatim; the manifest maps them) -- added at the B921 harvest, same class as the B742 forensic seals
                  "frontier/B742_negatives_hunt_p1/reviews/")

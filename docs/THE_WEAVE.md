@@ -628,3 +628,13 @@ found with B1635's sealed instrument.
 - **The scope.** The sum rule needs the symmetry: a general zero-diagonal coupling breaks it. The phase law holds for
   ∣Re τ∣ ≤ ½ in the fixed triplet basis, at tree level. The arc was the referee lane's; main checked its seal,
   re-ran it, and verified every identity independently.
+
+## Main's addition: the anomaly and the record (B1674, B1675, PROVED) — two weave results the SM seat found
+
+- **The moves' anomaly (B1674, the SM seat's W101).** The triplet's determinant character is χ_η⁹. If the moves are a
+  symmetry of the fermions, they must act on left- and right-handed quarks alike (free with QCD exactly then), they are
+  never free with SU(2), and gravity needs ν^c. This is a condition of consistency on the dictionary, not an
+  identification, and it reads the whole group the moves generate over every assignment: a weave result.
+- **No thread keeps a record (B1675, the SM seat's W34).** A class the puncture cannot detect is fixed by no thread and
+  not by the moves together, only by a shear or the mirror. A fixed record exists only at an end. A record carried by a
+  relation between changing parts is not excluded, and is open (P-204).

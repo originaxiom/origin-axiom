@@ -3,7 +3,8 @@
 Every boundary claim of the paper maps to an arc of the record, a lock (a test in the repository's suite), and a script. The
 repository is~\cite{OriginAxiomRepo}; the table lists the claims whose scripts a reader should re-run. One command,
 \texttt{verify.sh} in the paper's tree, runs the paper's own checks (\texttt{checks/}) and then the locks of every arc
-the paper cites, $26$ lock files, from a clone of the repository; it takes under a minute.
+the paper cites that has one, $49$ lock files, from a clone of the repository; it takes about a minute. One cited arc
+has no lock: B1652's tribunal, whose script prints its checks and asserts none.
 The figure scripts exist, one per figure, in the paper's source tree. The data figures (\ref{fig:census},
 \ref{fig:pullback}, \ref{fig:layers}) read the record's committed outputs and check them by hash. Figures~\ref{fig:fig_joint}
 and \ref{fig:defect} recompute from the stated formulas and the sealed instrument's function, and the chain and the seed's
@@ -20,10 +21,13 @@ claim & arc & lock, script \\
 N1: no index on a thread & B1604 & \texttt{tests/test\_\allowbreak b1604\_\allowbreak the\_\allowbreak class\_\allowbreak index\_\allowbreak is\_\allowbreak not\_\allowbreak an\_\allowbreak index.py} \\
 N2: residual symmetries against the CKM matrix & B1620, B1625 & \texttt{tests/test\_\allowbreak b1620\_\allowbreak the\_\allowbreak breaking\_\allowbreak the\_\allowbreak weave\_\allowbreak allows.py} \\
 N3: the clock stays in the grading & B1621, B1633 & \texttt{tests/test\_\allowbreak b1621\_\allowbreak the\_\allowbreak principles\_\allowbreak clock\_\allowbreak and\_\allowbreak tick.py} \\
-N4: the frame tribunal & B1652 & arc's \texttt{verification/main\_\allowbreak tribunal\_\allowbreak checks.py} \\
+N4: the frame tribunal & B1652 & arc's \texttt{verification/main\_\allowbreak tribunal\_\allowbreak checks.py} (printed checks; no lock) \\
 N5: one-Higgs census & B1660 & \texttt{tests/test\_\allowbreak b1660\_\allowbreak the\_\allowbreak one\_\allowbreak higgs\_\allowbreak census.py}; arc's \texttt{verification/the\_\allowbreak one\_\allowbreak higgs\_\allowbreak census.py}, output in its own commit \\
 N6: the pull-back's strength & B1663 & \texttt{tests/test\_\allowbreak b1663\_\allowbreak the\_\allowbreak pull\_\allowbreak backs\_\allowbreak strength.py}; arc's \texttt{verification/the\_\allowbreak pull\_\allowbreak backs\_\allowbreak strength.py} \\
 N7: the layers, the period phase & B1666 (B1664, B1665) & \texttt{tests/test\_\allowbreak b1666\_\allowbreak the\_\allowbreak layers\_\allowbreak robust.py} \\
+the half floor at weight one & B1635, B1636, B1671 & \texttt{tests/test\_\allowbreak b1635\_\allowbreak b1636\_\allowbreak couplings\_\allowbreak and\_\allowbreak the\_\allowbreak golden\_\allowbreak spectrum.py} \\
+the anomaly and the strong angle & B1674, B1671 & \texttt{tests/test\_\allowbreak b1674\_\allowbreak the\_\allowbreak weaves\_\allowbreak anomaly\_\allowbreak verified.py} \\
+no thread keeps a record & B1675 & \texttt{tests/test\_\allowbreak b1675\_\allowbreak no\_\allowbreak thread\_\allowbreak keeps\_\allowbreak a\_\allowbreak record\_\allowbreak verified.py} \\
 \bottomrule
 \end{tabularx}
 \caption{Boundary claims, with the arc, the lock and the script. Theorems T1--T7 follow the same pattern and are listed

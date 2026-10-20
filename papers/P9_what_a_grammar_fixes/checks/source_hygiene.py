@@ -4,6 +4,8 @@ Fails (exit 1) on any of:
   - a control character in a .tex or .bib source (a scripted edit's escape: \\r, \\t, \\b, \\f, \\v, \\a became a byte);
   - a line that starts with the tail of a LaTeX command whose backslash and first letter were eaten by such an escape
     (ef{, oindent, ho_, eq$ ...);
+  - main.tex without a \\clearpage between its last section and the bibliography, so that a float could be set after
+    the References (the referee's F2 on draft 6);
   - in the build log, when one is given: an oversized float, an undefined reference or citation, or a LaTeX error.
 
 Usage: python3 checks/source_hygiene.py [TEXDIR] [LOGFILE]   (defaults: tex/ beside this script, and tex/main.log if present)
@@ -26,6 +28,12 @@ def problems(texdir, logfile=None):
             out.append(f"{f}:{s.count(chr(10), 0, m.start()) + 1}: control character {m.group(0)!r}")
         for m in FRAGMENT.finditer(s):
             out.append(f"{f}:{s.count(chr(10), 0, m.start()) + 1}: line starts with an orphaned command fragment {m.group(0)!r}")
+    main = pathlib.Path(texdir) / "main.tex"
+    if main.exists():
+        m = main.read_text(encoding="utf-8")
+        i = m.find("\\bibliographystyle")
+        if i >= 0 and "\\clearpage" not in m[m.rfind("\\input{", 0, i):i]:
+            out.append(f"{main}: no \\clearpage between the last section and the bibliography")
     if logfile and pathlib.Path(logfile).exists():
         log = pathlib.Path(logfile).read_text(encoding="utf-8", errors="replace")
         for rx in LOG_BAD:

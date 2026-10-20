@@ -1,0 +1,26 @@
+{
+  "id": "B1675",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": true,
+  "identifications": [],
+  "depends_on": [
+    "B761",
+    "B1600",
+    "B1601"
+  ],
+  "rests_on_seat": [
+    "sm:W34"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the common point (the quaternion representation rho_Q), coefficients Sym^{2k} rho_Q, the private states = the kernel of restriction to the puncture",
+    "object": "every thread (758 states to word length 12), the joint action of the moves, the shears and the mirror P",
+    "reach": "class",
+    "hypotheses": "ranks n = 2, 3, 4 (k = 1, 2, 3); a census to word length 12 with a structural reason (hyperbolic times finite order)"
+  },
+  "claim_one_line": "NO THREAD KEEPS A RECORD, VERIFIED ON MAIN (re-banks the SM seat's W34; rule 1915fe928 before script ddd62c4ee before output 47a86fa8b; the table reproduced with main's independent code): at the common point, with coefficients Sym^{2k} rho_Q, the private states (the kernel of restriction to the puncture) have dimensions 0, 4, 2 for k = 1, 2, 3 (= 2 m_0, m_0 the Q8-invariant multiplicity); no thread among the 758 states to word length 12 fixes a private class, in any block, nor does the joint action of L and R (with P and -I added); at rank three L and R each keep one and P keeps two (three at rank four). A thread acts as its hyperbolic matrix tensored with a finite-order map, so it fixes nothing. So a fixed record exists only at an end; a relational record (an invariant relation between changing parts, a non-zero equivariant map) is not excluded and is open. 0 of 19.",
+  "weave_or_thread": "weave (every thread and the joint action)"
+}

@@ -52,9 +52,11 @@ Take the ruled weave on the triplet $T$ in the convention above.
   \]
   the weight-one multiplier $\rho_u$ of the $\Gamma(4)$ triplet twisted by a power of the eta character. The intertwiner
   from the parity lines to the theta constants is monomial: $\theta_3^2$ lies on the clock's line (the parity
-  character $(-,-)$), $\theta_2^2$ on the line $(+,-)$, and $\theta_4^2$ on the line $(-,+)$. (A line is labelled by the signs of its character on $a$ and $b$ in the
-  column-vector convention of the record's lifts; in Appendix~\ref{app:hand}'s row-vector convention the labels $(+,-)$
-  and $(-,+)$ exchange.) The exponents of $t$ on $T$ are
+  character $(-,-)$), $\theta_2^2$ on the line $(+,-)$, and $\theta_4^2$ on the line $(-,+)$. (A line is labelled by the
+  signs of its character on $a$ and $b$. Lemma~\ref{lem:parity}, Appendix~\ref{app:hand}'s row-vector right action and
+  the record's pull-back of characters share these labels: $L$ fixes the parity $(0,1)$, the line $(+,-)$, and $R$ fixes
+  $(1,0)$, the line $(-,+)$. The labels $(+,-)$ and $(-,+)$ exchange only under left multiplication of column vectors.)
+  The exponents of $t$ on $T$ are
   $(\tfrac18,\tfrac38,\tfrac78)$ turns.
 \item The dimension of the space $M_k(\rho)$ of vector-valued forms of weight $k$ for $\rho$ is
   $0,0,1,1,2,2,3,3$ at the allowed weights $k=-\tfrac12,\tfrac32,\tfrac72,\dots,\tfrac{27}{2}$ (step $2$; a weight is
@@ -66,7 +68,9 @@ Take the ruled weave on the triplet $T$ in the convention above.
 \begin{proof}[Proof sketch (record B1634, with B1640's convention scoping)]
 (1) The spin lifts of the moves are elements of the binary octahedral group $2O\subset\mathrm{SU}(2)$ (B1634). Acting on
 $V=T\oplus\bar T$ through the parity twist they generate a finite group of order $96$, which acts faithfully on $T$
-because $T$ and $\bar T$ have the same kernel (B1600). The braid relation holds to the double-precision floor ($3\cdot10^{-16}$) and $\Delta^4$, the generator of the kernel, acts as $-1$ (turns $\tfrac18,\tfrac18,\tfrac58$ for the
+because $T$ and $\bar T$ have the same kernel (B1600). The braid relation holds exactly: $g_Lg_R^{-1}g_L=g_R^{-1}g_Lg_R^{-1}=(i+j)/\sqrt2$ in $2O$ for the spin lifts
+$g_L=(1+i)/\sqrt2$ and $g_R=(1-j)/\sqrt2$, and $LR^{-1}L=R^{-1}LR^{-1}$ in $\mathrm{Aut}(F_2)$ (the record also checks it
+numerically, to $3\cdot10^{-16}$); and $\Delta^4$, the generator of the kernel, acts as $-1$ (turns $\tfrac18,\tfrac18,\tfrac58$ for the
 lift of $\Delta$). The lifts compose in reverse, so $\rho=\mathrm{lift}^{-1}$ is a homomorphism. (2) With $s,t$ as above,
 $\rho(s)$ and $\rho(t)$ satisfy $s^2=(st)^3$ and $s^8=1$ exactly, so $\rho$ is a representation of $\mathrm{Mp}_2(\Z)$. The
 theta transformation laws, evaluated from the series in $\tau$ at several points, fix $\rho_u$, and a linear solve for an
@@ -121,6 +125,153 @@ kind. The
 statements of the earlier record that used the inner automorphisms as symmetries (an order-48 residual at $\omega$, a
 permutation mixing for every $\tau$) hold on the branches where those act and not on the ruled branch.
 \end{remark}
+
+\subsection{The lowest couplings, the determinant character and the strong angle}\label{sec:anomaly}
+
+This subsection works on the ruled branch with the modular-flavour ansatz of Remark~\ref{rem:modulus}, with one singlet
+Higgs of weight zero, so that a sector's coupling between fields carried by $\rho_L$ and $\rho_R$ is a form in
+$M_k(\rho_L^\vee\otimes\rho_R^\vee)$: odd $k$ when both fields carry $T$, even $k$ when one carries $\bar T$. The
+statements about the strong angle add one input, the moves as a symmetry of the fermions (Table~\ref{tab:inputs}).
+
+\begin{corollary}[the half floor at weight one, B1635, B1636]\label{cor:halffloor}
+With every field in $T$, the coupling of weight one is unique up to a constant (B1635) and is the theta constants placed
+off the diagonal,
+\[
+  Y_1\propto\begin{pmatrix}0&\theta_4^2&\theta_3^2\\ \theta_4^2&0&\theta_2^2\\ \theta_3^2&\theta_2^2&0\end{pmatrix}.
+\]
+Its singular values $s_1\ge s_2\ge s_3$ satisfy $s_1=s_2+s_3$ at every $\tau$, so $s_2/s_1\ge\tfrac12$ at every
+$\tau$. The spectrum is $(1,\tfrac12,\tfrac12)$ at $\omega$ and $(1,\varphi^{-1},\varphi^{-2})$ at $i$. With one form per
+sector, $M_u\propto M_d$ and the mixing matrix is the identity.
+\end{corollary}
+\begin{proof}
+For a complex symmetric matrix with zero diagonal, the elementary symmetric functions of the eigenvalues of $YY^\dagger$
+satisfy $e_1^2=4e_2$, a polynomial identity in the three entries (checked symbolically). In terms of the singular values
+this is $(s_1+s_2+s_3)(-s_1+s_2+s_3)(s_1-s_2+s_3)(s_1+s_2-s_3)=0$, so the largest is the sum of the other two, and
+$s_2\ge s_3$ gives $s_2\ge s_1/2$. The coupling's form and the spectrum at $i$ and on the tick's geodesic are B1636's,
+and the sum rule for every coupling of that piece is its census G2. At $\omega$ the three theta constants have equal
+moduli, since $\lambda(\omega)=e^{i\pi/3}$ gives $|\theta_2^4|=|\theta_4^4|=|\theta_3^4|$; the spectrum computed there
+is $(1,\tfrac12,\tfrac12)$.
+\end{proof}
+\noindent\emph{Scope.} The floor is a statement about the ruled branch's parameter-free coupling under the ansatz; the
+data need $m_2/m_1$ below $0.06$ in every charged sector. With $R$ in $\bar T$ the coupling of weight zero is the
+identity, three degenerate masses (B1635). In the fibre frame the floor $\tfrac12$ of Theorem~\ref{thm:isotropy}(2)
+holds for real Higgs directions only; complex directions reach any ratio near the isotropic cone. So the floor is not a
+property of every frame.
+
+\paragraph{The determinant character.}
+\begin{proposition}[the determinant character, B1674]\label{prop:detchar}
+$\det\rho=\chi_\eta^{9}$.
+\end{proposition}
+\begin{proof}
+A character of $\mathrm{Mp}_2(\Z)$ is fixed by its value on $t$, whose image generates the abelianisation $\Z/24$, and
+$\chi_\eta(t)=e^{2\pi i/24}$. By Theorem~\ref{thm:theta}(2) the exponents of $t$ on $T$ sum to $\tfrac18+\tfrac38+\tfrac78
+=\tfrac{11}8\equiv\tfrac{9}{24}$ turns. The value on $s$ agrees (B1674).
+\end{proof}
+
+\paragraph{The moves' anomaly.}
+Suppose the moves act on the Standard Model's fermions as a symmetry. Each multiplet $f\in\{Q,u^c,d^c,L,e^c\}$, and
+$\nu^c$ where it is named, carries its three generations in $T$ ($s_f=+1$) or in $\bar T$ ($s_f=-1$). A modular
+transformation then rotates the left-handed fermions, and the rotation shifts the angle of each gauge factor $G$ by its
+anomaly. At the level of the character the shift is the character $\chi_\eta^{n_G}$, with
+\[
+  n_G(s)=9\sum_f w_G(f)\,s_f\pmod{24},
+\]
+where $w_G(f)$ is twice the Dynkin index of $f$'s representation of $G$ times its multiplicity under the other factors:
+$(w_Q,w_{u},w_{d})=(2,1,1)$ for $\mathrm{SU}(3)^2$, $(w_Q,w_L)=(3,1)$ for $\mathrm{SU}(2)^2$, and the dimensions
+$(6,3,3,2,1,1)$ for gravity.
+
+\begin{proposition}[the anomaly of the moves, B1674]\label{prop:anomaly}
+Given the triplet postulate and the moves as a symmetry of the fermions, at the level of the character:
+\begin{enumerate}
+\item the mixed anomaly with $\mathrm{SU}(3)$ vanishes exactly when $s_u=s_d=-s_Q$, that is, when the moves act on the
+  left-handed and the right-handed quarks by the same representation (16 of the 64 assignments);
+\item the mixed anomaly with $\mathrm{SU}(2)$ never vanishes: $n_{\mathrm{SU}(2)}\in\{6,12,18\}$;
+\item among the assignments of (1), the gravitational anomaly vanishes exactly when $s_e=s_\nu=-s_L$, and without
+  $\nu^c$ it never vanishes.
+\end{enumerate}
+\end{proposition}
+\begin{proof}
+Since $3$ is invertible modulo $8$, $n_G\equiv0\pmod{24}$ exactly when $\sum_f w_G(f)s_f\equiv0\pmod 8$. In (1) the sum
+$2s_Q+s_u+s_d$ lies in $\{0,\pm2,\pm4\}$ and vanishes exactly as stated. In (2) the sum $3s_Q+s_L$ lies in
+$\{\pm2,\pm4\}$. In (3), given (1), the sum is $2s_L+s_e+s_\nu$, which vanishes exactly when $s_e=s_\nu=-s_L$; without
+$\nu^c$ it is odd. B1674 enumerates the 64 assignments exactly.
+\end{proof}
+
+\paragraph{The couplings' determinants and the strong angle.}
+The strong angle is $\bar\theta=\theta-\arg\det(M_uM_d)$, with $M=Yv$. With one singlet Higgs its phase cancels from
+$\bar\theta$, and a move shifts $\bar\theta$ by the phase of the multiplier of $\det(Y_uY_d)$. That is the anomaly of
+Proposition~\ref{prop:anomaly} together with the cocycle of the weights.
+
+\begin{proposition}[the determinants and the strong angle, B1674]\label{prop:strong}
+Let the up and down couplings have weights $k_u,k_d$, and put $K=k_u+k_d$.
+\begin{enumerate}
+\item $\det(Y_uY_d)$ is a form of weight $3K$ with character $\chi_\eta^{m}$, $m=-9(2s_Q+s_u+s_d)$. It is $\eta^{6K}$ times
+  a modular function exactly when $6K\equiv m\pmod{24}$:
+  \begin{itemize}
+  \item for every quark in $T$, exactly when $K\equiv2\pmod 4$;
+  \item for $s_u=s_d=-s_Q$, exactly when $K\equiv0\pmod 4$;
+  \item for the mixed assignments, when $K\equiv1$ or $3\pmod4$, by the hand.
+  \end{itemize}
+  When it holds, a counterterm $\theta(\tau)=\theta_0+6K\arg\eta(\tau)$, which we call the Dedekind counterterm, makes
+  $\bar\theta$ invariant under the moves, and $\bar\theta-\theta_0=-\arg g$ with $g=\det(Y_uY_d)/\eta^{6K}$.
+\item At weight one with every quark in $T$, $\det Y_1=2\theta_2^2\theta_3^2\theta_4^2=8\eta^6$. With real coefficients
+  and no counterterm, $\bar\theta-\theta\equiv-12\arg\eta(\tau)\pmod\pi$. This is $-\pi\,\mathrm{Re}\,\tau$ up to terms
+  of order $e^{-2\pi\,\mathrm{Im}\,\tau}$, and it is $\pi/2$ exactly on $\mathrm{Re}\,\tau=\tfrac12$. With the counterterm,
+  $g$ is constant, so $\bar\theta$ takes one value at every $\tau$.
+\item At weight three with every quark in $T$, and at weight two with $s_u=s_d=-s_Q$, each sector's determinant is a
+  constant times $\eta^6E_6$, and a constant times $E_6$, respectively.
+  \begin{itemize}
+  \item With the counterterm, $g$ is a constant times $E_6^2/\Delta=j-1728$. With real coefficients, $\bar\theta-\theta_0$
+    is a multiple of $\pi$ exactly on the imaginary axis and on the boundary of the fundamental domain. These are the
+    loci where generalised CP is conserved in modular models~\cite{NovichkovPenedoPetcovTitov2019}, and there the mixing
+    phase vanishes.
+  \item Without the counterterm, at weight three, $\bar\theta-\theta\equiv-(12\arg\eta+2\arg E_6)\pmod\pi$. This vanishes
+    on the imaginary axis and also on a curve inside the fundamental domain: from $\mathrm{Re}\,\tau\approx0.324$ at
+    $\mathrm{Im}\,\tau=1$ to $\mathrm{Re}\,\tau\approx0.172$ at $\mathrm{Im}\,\tau=1.2$.
+  \end{itemize}
+\end{enumerate}
+\end{proposition}
+\begin{proof}[Proof sketch]
+(1) The coupling transforms as $Y(\gamma\tau)=(c\tau+d)^k\rho_L^\vee(\gamma)Y(\tau)\rho_R^\vee(\gamma)^{T}$, so its
+determinant carries $(c\tau+d)^{3k}(\det\rho_L\det\rho_R)^{-1}$, and Proposition~\ref{prop:detchar} gives $m$. The power
+$\eta^{6K}$ carries $\chi_\eta^{6K}(c\tau+d)^{3K}$, so the quotient has weight zero and trivial character exactly when
+$6K\equiv m$.
+
+(2) The determinant of a zero-diagonal symmetric matrix is twice the product of its entries, and
+$\theta_2\theta_3\theta_4=2\eta^3$~\cite{WhittakerWatson1927}; the identity and the phase law are also checked
+independently in B1671. On $\mathrm{Re}\,\tau=\tfrac12$ the nome
+$e^{2\pi i\tau}$ is negative, so $\eta^{12}$ is $i$ times a positive number.
+
+(3) The quotient of the determinant by $\eta^6$, or the determinant itself, is a form of weight six for $\SL(2,\Z)$:
+its exponents at the cusp are integers no smaller than $-\tfrac14$, hence non-negative. The space of such forms is
+spanned by $E_6$ alone. Since $E_4^3-E_6^2=1728\Delta$, the quotient $g$ with the counterterm is a constant times
+$E_6^2/\Delta=j-1728$, and $j$ is real on the fundamental domain exactly on the imaginary axis and on its
+boundary~\cite{DiamondShurman2005}. B1674 checks every identity at five moduli to $10^{-28}$, and the zero sets on a
+grid. The interior curve was first seen while reading the record, before B1674's rule, and B1674 restates it rather than
+predicting it.
+\end{proof}
+\noindent\emph{Scope.} Several limitations are part of the statements.
+\begin{itemize}
+\item The moves as a symmetry of the fermions and $\tau$ as a field are inputs, and so is the Dedekind counterterm
+  (Table~\ref{tab:inputs}). In string compactifications a term of this form comes with the threshold corrections that
+  cancel the target-space modular anomaly~\cite{DixonKaplunovskyLouis1991,IbanezLust1992}.
+\item The strong angle $\bar\theta$ is one of the nineteen, and it is not fixed here. With the counterterm it is the
+  constant $\theta_0$, a free input. Without it, with real coefficients, it is $\theta-\pi\,\mathrm{Re}\,\tau$ up to
+  terms of order $e^{-2\pi\,\mathrm{Im}\,\tau}$ (B1671), tied to $\mathrm{Re}\,\tau$ but not fixed by it. The count
+  stays at 0 of 19.
+\item The strong-angle statements are tree-level, on the holomorphic ansatz with real coefficients and the read-out of
+  Table~\ref{tab:inputs}. The mixing phase on the interior curve of (3) is not computed.
+\item $\mathrm{SU}(2)$'s angle is not physical in the Standard Model, so Proposition~\ref{prop:anomaly}(2) binds only if
+  the moves are gauged. The condition with $\mathrm{U}(1)_Y$ depends on the normalisation and is not stated.
+\item One control of B1674 failed as worded: the sign of the determinant character on words whose image has
+  $|\mathrm{Re}\,\gamma\tau|>1$, through the instrument's principal branch of $q^{1/4}$, as in B1634. It was recomputed
+  without a branch after the run (Appendix~\ref{app:corrections}).
+\end{itemize}
+The known escape from the obstruction in (3) keeps determinants of weight zero, with reducible representations and
+unequal weights~\cite{FeruglioParriciatuStrumiaTitov2024,PenedoPetcov2024}. With the irreducible triplet it is not
+available, and Proposition~\ref{prop:strong} states what is: at weight one the angle is constant, and the masses are
+excluded by Corollary~\ref{cor:halffloor}; at weights two and three, with real coefficients, $\bar\theta-\theta_0$ is a multiple of $\pi$ only where
+generalised CP is conserved.
 
 \paragraph{Position against the literature.}
 We state which parts are known and which are the paper's.

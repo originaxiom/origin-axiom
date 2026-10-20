@@ -1,0 +1,27 @@
+{
+  "id": "B1674",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": true,
+  "identifications": [],
+  "depends_on": [
+    "B1671",
+    "B1635",
+    "B1636",
+    "B1600"
+  ],
+  "rests_on_seat": [
+    "sm:W101"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the ruled branch's holomorphic modular-flavour ansatz with one singlet Higgs; the moves as a symmetry of the fermions (an input)",
+    "object": "the triplet's determinant character, the moves' anomaly, the couplings' determinants and the strong angle",
+    "reach": "class",
+    "hypotheses": "tree level; real coefficients where the strong angle is read; the SU(2) statement binds only if the moves are gauged; the Dedekind counterterm an input"
+  },
+  "claim_one_line": "THE WEAVE'S ANOMALY, VERIFIED ON MAIN (re-banks the SM seat's W101; rule 12ffb5421 before script ac37cbc8b before run b1f77ade9; re-run byte-identical; every claim checked with main's independent code): det rho = chi_eta^9 (t-exponents 1/8, 3/8, 7/8; s and 200 words agree; image order 96). If the moves act on the fermions as a symmetry: the mixed anomaly with SU(3) vanishes exactly when s_u = s_d = -s_Q (16 of 64, the moves acting on left- and right-handed quarks alike); with SU(2) never (n in {6, 12, 18}; binding only if gauged); with gravity, given SU(3)-freedom, exactly when s_e = s_nu = -s_L, never without nu^c. det(Y_u Y_d) carries chi_eta^m, m = -9(2s_Q + s_u + s_d), and is eta^(6K) times a modular function iff 6K = m (mod 24); det Y_1 = 8 eta^6; with real coefficients and no counterterm theta-bar - theta = -12 arg eta (mod pi), pi/2 on Re tau = 1/2; at weights 3 (all in T) and 2 (vectorial) the determinants are eta^6 E_6 and E_6 times constants, and with the counterterm g is a constant times j - 1728. The control C1 failed as worded (a principal branch of q^(1/4)); repaired post hoc and disclosed. 0 of 19.",
+  "weave_or_thread": "weave (the whole group the moves generate, every assignment)"
+}

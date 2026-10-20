@@ -1,0 +1,6 @@
+{
+ "what": "W101 POST HOC: C1's failure explained and C1 recomputed branch-free (no cell changed)",
+ "cases": 30,
+ "every recorded mismatch is exactly a case with |Re(gamma tau)| > 1": true,
+ "branch-free: worst |measured - det rho^-2| over all cases": "1.35e-29"
+}

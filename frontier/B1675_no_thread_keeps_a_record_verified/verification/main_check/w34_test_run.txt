@@ -1,0 +1,4 @@
+.                                                                        [100%]
+1 passed, 123 deselected in 3.33s
+nice -n 10 python3 -m pytest tests/test_b1552_the_chiral_triplets_count.py -k  3.26s user 0.48s system 75% cpu 4.977 total
+tail -8  0.00s user 0.00s system 0% cpu 4.975 total

@@ -90,8 +90,11 @@ by the word's prefix, which is $\mathrm{diag}(\chi_p)$ on $T$.
 
 \emph{Scope.} Exact up to floating point, with the word taken to $F_{30}$. The democratic matrix is classical; the
 statement that it is a mean and not a commutant leaves the earlier refutation of $\mathbb Z/3$-forced democracy untouched.
-The consequence is that the principle's own data (its clock and its tick) fix no number: they supply a grading and a
-scalar.
+The consequence is that the golden rule's clock and tick fix no number: they supply a grading and a scalar. The rule
+$a\to ab$, $b\to a$ is the golden matrix $LP$, whose square is the root's monodromy $LR$, so N3 is a statement about one
+thread. The principle's words are all the Sturmian wordings, which abelianise onto exactly the non-negative matrices of
+$\mathrm{GL}(2,\Z)$ (B1323), and the golden slope among them is selected by a criterion, not forced. The same question on
+every wording, each with its own clock and tick and all of them acting together, is not computed here.
 
 \subsection{The frame tribunal}
 
@@ -174,7 +177,8 @@ For $p=0,0.1,\dots,0.5$ the walk on $L,R,L^{-1},R^{-1}$ (equal weights within ea
 \item The escape rate falls from $0.3959\pm0.0004$ per step at $p=0$ to $0.1007\pm0.0005$ at $p=\tfrac12$. The escape rate
   is $(1/n)\log\|X_n\|_F$ at the first $n$ at which an entry of the walk's product $X_n$ exceeds $10^{60}$ (or at
   $n=40\,000$), an estimate of the top Lyapunov exponent, which is half the hyperbolic drift of $d(i,X_n i)$. This
-  first-passage estimator runs high at the per-cent level: a fixed-length estimate gives $0.3964\pm0.0001$ and
+  first-passage estimator differs from a fixed-length estimate by about $0.1\%$ at $p=0$ (low) and about $2\%$ at
+  $p=\tfrac12$ (high): the fixed-length estimate gives $0.3964\pm0.0001$ and
   $0.0987\pm0.0002$ (\texttt{checks/lyapunov\_fixed.py}; B1662 reports $0.0992$ at $p=\tfrac12$).
 \item The motion's averaged defect $\langle f\rangle$ is $0.5157\pm0.0012$ at $p=0$ and $0.5178\pm0.0013$ at
   $p=\tfrac12$; over all six values of $p$ it varies by $0.0028$. The preregistered prediction that it would differ by

@@ -11,12 +11,19 @@ codes:
 \end{itemize}
 All dates are in 2026.
 
-\begin{table}[h]
-\centering\footnotesize
-\begin{tabularx}{\linewidth}{lllXX}
+{\footnotesize
+\begin{longtable}{@{}p{1.8cm}p{1.65cm}p{2.0cm}p{5.05cm}p{3.6cm}@{}}
+\caption{This paper's corrections, drawn from the repository's error ledger and the findings of the arcs named.}\label{tab:corrections}\\
 \toprule
 arc & class & found & what happened and the repair & rule \\
 \midrule
+\endfirsthead
+\toprule
+arc & class & found & what happened and the repair & rule \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
 B1604 and others & E82 & internal audit, Oct.\ 15 & a lock ended in \texttt{or True}, and cells that could not fail were shown as tests; the lock now asserts the twenty threads' tiers, and B1655 lists the cells & a cell that cannot fail is sealed as an identity; a lock ends in a clause that can fail \\
 B1620 & E65 & Oct.\ 9 & the first row said ``the TM type'' under the first two tensors; corrected in B1625 (TM1 under $\bar T\otimes T$ only, TM2 under $T\otimes T$) & state the tensor with the type \\
 B1637 & evaluator & internal audit & near-cusp fits were artifacts of the evaluator; withdrawn; the re-run on an accurate evaluator is owed & no figure from B1637's data until the re-run \\
@@ -25,8 +32,6 @@ B1660 & E65 & Oct.\ 16 & a read-out narrowed before it was computed (an ``obstru
 B1664 & E74 & its own run & the gate failed on the instrument's cut-off (D set to zero above height 50; 593 of 30\,674 threads); recorded as open & try the guard's region in the smoke test \\
 B1665 & E74 & its own run & the repair moved the start to D's other zero ($\omega$); 22 threads; recorded as open & never take a ratio at one point of a function with zeros; review every re-seal \\
 B1666 & repair & review before the seal & a least-squares period phase over two periods; checked on about 2900 threads before the seal (worst error $1.1\times10^{-7}$), the gate set at $10^{-5}$ on that measurement; the sealed run met it on all 30\,674 & as above \\
+B1674 & instrument & its own run, Oct.\ 17 & the control of the determinant character failed as worded on the 12 of its 30 cases with $|\mathrm{Re}\,\gamma\tau|>1$, where the instrument's $\theta_2$ took the principal branch of $q^{1/4}$ (as in B1634); recomputed after the run with $\theta_2$ summed without a branch, all 30 agree to $10^{-29}$; no other statement uses it & sum $\theta_2$ by its series in $\tau$, not through the nome \\
 B1421 & stale lock & full suite, Oct.\ 16 & the lock asserted 8 irreducible sources, the ledger's price is $4+9=13$; the lock asserts the live ledger & run the full suite after a ledger change \\
-\bottomrule
-\end{tabularx}
-\caption{This paper's corrections, drawn from the repository's error ledger and the findings of the arcs named.}\label{tab:corrections}
-\end{table}
+\end{longtable}}

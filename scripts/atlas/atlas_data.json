@@ -12331,6 +12331,35 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1674": {
+   "slug": "the weaves anomaly verified",
+   "motifs": [
+    "coupling",
+    "eisenstein",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1675": {
+   "slug": "no thread keeps a record verified",
+   "motifs": [
+    "coupling",
+    "dickson_tower",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B761"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B167": {
    "slug": "conserved no scale lemma",
    "motifs": [

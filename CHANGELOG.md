@@ -1,5 +1,45 @@
 # Changelog
 
+## S146 THE ANOMALY AND THE RECORD VERIFIED (B1674, B1675); THE PAPER'S DRAFT 9, TAGGED AND FROZEN (`p9-draft9`)
+
+- **B1674, THE WEAVE'S ANOMALY** (the SM seat's W101, verified and re-banked; PROVED).
+  - det ρ = χ_η⁹.
+  - If the moves are a symmetry of the fermions: they are free with QCD exactly for the vectorial action (16 of 64),
+    never free with SU(2), and free with gravity only given ν^c.
+  - The couplings' determinants carry η^{6K} under a congruence. The strong angle is tied to τ or is a free constant,
+    and is never fixed.
+  - W101's failed control C1 is disclosed.
+- **B1675, NO THREAD KEEPS A RECORD** (the SM seat's W34, verified and re-banked; PROVED). At the common point no thread
+  and no joint action fixes a private class; only a shear or the mirror does. The audit lane's reading is taken: a fixed
+  record exists only at an end, but a relational record is not excluded.
+- **The paper's draft 9** (`papers/P9_what_a_grammar_fixes/`, 46 pp.).
+  - It is the SM seat's drafts 7 and 8, prepared at the owner's request while main was away, verified on main, with
+    main's amendments:
+    - §4.1 cites B1636, B1671 and B1674.
+    - M₆ is spanned by E₆ alone.
+    - The strong angle at weights two and three differs from its free constant term by a multiple of π, not
+      "vanishes".
+    - θ̄ is noted as one of the nineteen and not fixed.
+    - §8's proposition defines its private states.
+    - The measurer passages are scoped: a fixed record only at an end, a relational record open, and the composition
+      lemma about scalar ratios.
+    - N3 is scoped as a statement about one thread.
+    - Table 1 prices GM1's count of two records, and closes Gate 12 to shear-word length 7 (B1672).
+    - Proposition 1's matrices are displayed.
+    - `verify.sh` runs 49 lock files.
+  - The second outside report on draft 6 is applied: its float placement is fixed and its matrix "typos" were
+    misreadings.
+  - The author line carries the owner's name, at the owner's word.
+  - Tagged `p9-draft9`. **The paper is frozen: errata only** (P-203, the owner's word).
+- **The foundations quest opened.**
+  - First (P-205): does a weave of n records have an SU(2) common point only at n = 2? If so, the count of two records
+    and the triplet follow from the existence of a common point.
+  - Then P-200 (N3 on the weave) and P-201 (the record count).
+  - The designs are tracked in `docs/foundations/` for the seats' hostile reads before any seal.
+  - P-204 takes the audit lane's relational reading of the owner's argument, and the distinction test.
+- **Credit.** To the SM seat for W101, W34 and drafts 7 and 8. To the audit lane for its reading of the owner's argument,
+  which caught main's over-read of B1675.
+
 ## S145 THE SEPARATE WORK VERIFIED AND INTEGRATED (B1670, B1671, B1672, B1673; P-192–P-202)
 
 - **Why.** Main was away from 17 to 20 October. The owner worked with the seats in the meantime, and on return asked

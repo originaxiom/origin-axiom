@@ -17364,3 +17364,17 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **The foundations quest.** P-200 and P-201 registered. A disclosed smoke test of the tick on two threads was run
   before any seal. The relay to the seats went out first, from a clean worktree.
 
+## 2026-10-20 — S146: B1674, B1675, AND THE PAPER'S DRAFT 9 (TAGGED, FROZEN)
+
+- **The arcs.** W101 and W34 were verified on main by a reading pass with its own code; main checked the report and
+  logs. They are banked as B1674 and B1675, with the received files hashed and locks that bite (B1674: a wrong
+  determinant exponent changes the anomaly counts; B1675: the binary octahedral group gives a different invariant
+  table).
+- **The paper.** Draft 9 was built from the SM seat's draft 8, with main's amendments made outside the tree while
+  S145's suite ran. It builds at 46 pages, and the source-hygiene check finds 0 problems. The audit lane's reading
+  caught an over-read in B1675 and in the paper's measurer passages, corrected before the lock. Tagged `p9-draft9`;
+  frozen at the owner's word.
+- **The foundations quest.** The common-point question (P-205) was promoted to first at the owner's word. Design facts
+  were disclosed: the line's three persists in every rank (1/3, 1/3, 0.311 of the acts cycle a line); Epi(F₂, Q₈) is
+  one class, Epi(F₃, Q₈) fourteen.
+

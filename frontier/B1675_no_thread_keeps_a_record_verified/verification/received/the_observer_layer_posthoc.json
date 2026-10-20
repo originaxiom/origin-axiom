@@ -1,0 +1,278 @@
+{
+ "status": "POST HOC: after W34's one run; the 11 states its rank rule left undecided, and the control m004",
+ "precision": {
+  "holonomy bits": 400,
+  "mpmath dps": 120,
+  "zero below": "1e-90",
+  "non-zero above": "1e-50"
+ },
+ "rows": [
+  {
+   "state": "+LR",
+   "blocks (H1, rank, private) or undecided": [
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ],
+   "smallest non-zero ratio": "0.000239450959961",
+   "largest zero ratio": "8.17782476739e-118"
+  },
+  {
+   "state": "-LLLLLLLLLLLR",
+   "blocks (H1, rank, private) or undecided": [
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ],
+   "smallest non-zero ratio": "1.45499854423e-14",
+   "largest zero ratio": "2.27157451909e-100"
+  },
+  {
+   "state": "-LLLLLLLLRRLR",
+   "blocks (H1, rank, private) or undecided": [
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ],
+   "smallest non-zero ratio": "5.80389384615e-17",
+   "largest zero ratio": "5.3824844972e-99"
+  },
+  {
+   "state": "-LLLLLLLRLLRR",
+   "blocks (H1, rank, private) or undecided": [
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ],
+   "smallest non-zero ratio": "1.28180968591e-17",
+   "largest zero ratio": "7.74344938157e-100"
+  },
+  {
+   "state": "+LLLLLLRLLRLR",
+   "blocks (H1, rank, private) or undecided": [
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ],
+   "smallest non-zero ratio": "1.69431377823e-23",
+   "largest zero ratio": "4.07657670763e-97"
+  },
+  {
+   "state": "-LLLLLLRLLRLR",
+   "blocks (H1, rank, private) or undecided": [
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ],
+   "smallest non-zero ratio": "1.03715923175e-35",
+   "largest zero ratio": "5.06378269953e-98"
+  },
+  {
+   "state": "-LLLLLLRLLRRR",
+   "blocks (H1, rank, private) or undecided": [
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ],
+   "smallest non-zero ratio": "4.03197620879e-18",
+   "largest zero ratio": "1.08233901624e-100"
+  },
+  {
+   "state": "+LLLLLLRLRLRR",
+   "blocks (H1, rank, private) or undecided": [
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ],
+   "smallest non-zero ratio": "1.64157826671e-20",
+   "largest zero ratio": "1.28336269414e-100"
+  },
+  {
+   "state": "-LLLLLLRRLRLR",
+   "blocks (H1, rank, private) or undecided": [
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ],
+   "smallest non-zero ratio": "8.18918393178e-34",
+   "largest zero ratio": "2.61459746319e-98"
+  },
+  {
+   "state": "-LLLLLLRRRLRR",
+   "blocks (H1, rank, private) or undecided": [
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ],
+   "smallest non-zero ratio": "9.64202022548e-19",
+   "largest zero ratio": "1.82322925294e-100"
+  },
+  {
+   "state": "-LLLLRLRRLRLR",
+   "blocks (H1, rank, private) or undecided": [
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ],
+   "smallest non-zero ratio": "6.67086419265e-26",
+   "largest zero ratio": "1.98969027976e-104"
+  },
+  {
+   "state": "+LLLRLLRRLRLR",
+   "blocks (H1, rank, private) or undecided": [
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ],
+   "smallest non-zero ratio": "4.64480012633e-22",
+   "largest zero ratio": "4.80840569368e-99"
+  }
+ ],
+ "the control m004 (1, 1, 0) in each block": true,
+ "every undecided state now (1, 1, 0) in every block": true,
+ "seconds": 10.3
+}
