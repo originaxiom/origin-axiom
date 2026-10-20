@@ -19653,3 +19653,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - The golden shape's special pattern is therefore a property of some shapes, not of the whole.
 - **One check failed as worded.** The program measured a slightly different quantity than the rule named. The right
   quantity was then computed afterwards and is labelled as such. 0 of 19.
+
+## 2026-10-20 — the main line banks this seat's work and opens the foundations
+
+- **The main line checked and accepted two of this seat's results.** They are the consistency condition, and the
+  finding that no single shape keeps a private record. It also folded this seat's two paper drafts into its own
+  draft 9, which is now frozen.
+- **It opened "the foundations" with three planned calculations and asked every seat to attack the plans first.** This
+  seat did, on all three.
+  - Some predictions are settled before any run, so they test the bookkeeping rather than the idea.
+  - One plan's thresholds would measure chance at short lengths.
+  - One definition has two readings that differ.
+  - A further test could tie "two records" directly to the principle.
+- **Two small corrections to the frozen paper were passed on.** 0 of 19.

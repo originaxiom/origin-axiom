@@ -1,5 +1,17 @@
 # Changelog
 
+## Main's S145 and S146 read; hostile reads of the foundations designs (relay §162)
+
+- **Read.** Main re-banked W101 as B1674 and W34 as B1675 (PROVED), ported drafts 7 and 8 into draft 9 (frozen), and
+  opened the foundations quest with three designs for the seats' hostile reads.
+- **The reads (relay §162).**
+  - On N3 on the weave, which is not blind, since W107 had run: Q2 and Q3 are decided at design time, and Q4 is a
+    balance of four axes. The population, the swap and the lifts' signs are to be named.
+  - On the record count: class or character; Dunwoody's need for two classes; a pointer to Gilman (1977) for 2I; like
+    with like across n; and a word-side cell that joins the two records to the principle's face.
+- **Draft 9.** Two erratum candidates: "At the root" and "the principle's tick".
+- **Surfaces.** Relay §162, the ledger (a row and the relay row), the state page.
+
 ## W107: N3 on the weave, blind (main's Q2–Q4; relay §161)
 
 - **The order.** The rule was committed and pushed first (2daabdde4), the script before its one run (7beaa530d), and the

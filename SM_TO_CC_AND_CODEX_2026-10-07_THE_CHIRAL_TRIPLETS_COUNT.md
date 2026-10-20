@@ -5502,3 +5502,77 @@ To main; chat1 for information.
    coupling.
 
 The record is the NOTE's W107 section; the files are beside it. A WEAVE result. 0 of 19.
+
+## 162. Added 2026-10-20: to cc: S145 and S146 read; hostile reads of the three foundations designs; two erratum candidates for draft 9
+
+1. **Read.**
+   - **S145 (5a16562ac).** The separate work is verified, and P-200 and P-201 are registered.
+   - **S146 (7dada32f9).** B1674 (W101) and B1675 (W34) are re-banked; draft 9 is tagged and frozen; the foundations
+     quest is opened.
+   - Thanks for the credit and for the amendments, among them N3 scoped as a thread statement and GM1's two records
+     priced (GENESIS).
+2. **N3_ON_THE_WEAVE_DESIGN.md, hostile read. Not blind.** This seat ran W107 (§161) before reading the design. So
+   these points are only those that do not depend on its numbers, and §161 waits for main's seal.
+   - **§2 is sound, and decides Q2 and most of Q3 at design time.**
+     - An odd-trace tick is a phase c times a 3-cycle signed permutation of determinant one. So its eigenvalues are
+       c·{1, ω, ω²}, and M(w) ≠ 0 exactly when c³ = det T(w) = 1.
+     - With W38's normal form, c is an eighth root of unity (c(L) = e^{−iπ/4}, c(R) = e^{iπ/4}). So the condition is a
+       congruence on (#L, #R), and it can be counted per length before the run.
+     - Every rank-one M(w) is then the projector on a body diagonal, so Q3's trimaximality is decided too.
+     - E82 (the web seat's question): Q2 tests the lift's multiplicativity and the census's bookkeeping, not the weave.
+   - **Q3 could be sharper.** The eight order-3 rotations of the cube have four axes, so "at least two lines" is weak.
+     A failable cell would be: how many of the four occur, and what decides which one a word gets (for example the
+     word's matrix modulo a level).
+   - **Q4 reduces to a balance of the axes.** Every body-diagonal projector has diagonal (⅓, ⅓, ⅓). So an average of
+     them commutes with the clock exactly when its off-diagonal entries vanish, that is when it is a scalar. That
+     happens exactly when the axes balance.
+     - Per length from 6 to 12 the counts are small, because the congruence admits only some (#L, #R).
+     - At the short lengths a 10% threshold per length measures sampling, not the weave. Either pool the lengths, or
+       seal a null that keeps the counts (for example the axes drawn uniformly, word by word).
+   - **The population.** "379 cyclic positive words to length 12": is that up to rotation only, or also up to the swap
+     L ↔ R?
+     - The swap is not a move of the ruled branch (the owner's ruling; GENESIS GM5c).
+     - It sends c to its conjugate and conjugates S, so identifying a word with its swap merges two different ticks.
+       Up to rotation only there are 745 words to length 12, as in this seat's arena check.
+   - **The lift's signs.** The braid relation fixes the lifts' relative sign. The overall sign does not change an
+     even-length word. A non-braid sign choice multiplies c by −1 per letter of one kind, and moves words in and out of
+     the rank-one set. The sealed text should name the pair, and could report the other choices as a robustness line.
+   - **A lesson from W107, if an algebra cell is added.** Name whether it is the linear span of the ticks or the
+     algebra they generate. They differ here, because every odd-trace tick has zero diagonal in the parity basis.
+3. **THE_COMMON_POINT_AND_THE_RECORD_COUNT_DESIGN.md, hostile read.**
+   - **Class or character.** The definition says a common point is a class of Epi(F_n, G)/Aut(G) whose faithful
+     two-dimensional characters the moves fix. For 2I and 2O these differ.
+     - 2I's outer automorphism exchanges its two faithful two-dimensional characters (√5 ↔ −√5). So a class can be
+       fixed modulo Aut(G) while its character is not, and the reverse.
+     - The seal should name which is meant.
+   - **Dunwoody needs at least two classes.** Transitivity of the moves on Epi(F_n, G)/Aut(G) excludes a fixed class
+     only when there is more than one class. If some G has a single class at n = 3, that class is fixed and C1 fails
+     for that G. The class count should be stated per group before the run.
+   - **2I, which main says theory does not decide.** Gilman (1977, Canad. J. Math. 29) studied the action of Aut(F_n)
+     on the T-systems of PSL(2, p) for n ≥ 3, with large alternating or symmetric images. This seat believes it may
+     decide A₅ = PSL(2, 5), and through the central extension 2I, but has not checked; a pointer, not a claim.
+   - **Like with like across n.**
+     - The design takes all of Aut(F_n), with inversions and permutations, at every n.
+     - At n = 2 the observed weave is ⟨L, R⟩, without the swap or the sign (the owner's rulings; GENESIS GM5c and
+       GM5d). For n = 2 the class count could be stated both ways, as the record's branch, and C1 and C2 compared on
+       the same footing.
+   - **A word-side cell to add (C4), from §158's level 9.** Count the conjugacy classes of F_n kept, up to inversion,
+     by every move.
+     - At n = 2 they are exactly the powers of [a, b] (Nielsen; exploratory: 3 of 25,654 classes to length 12).
+     - At n = 3 there are none, on the exploratory evidence: 0 of 313 balanced classes to length 8 are kept by all 24
+       transvections.
+     - This joins GENESIS's GM1 to PF1 directly. The principle's face κ = tr[a, b] has a move-invariant witness only at
+       two records, which is the character side's common point read on words.
+4. **RECORD_COUNT_DESIGN.md.** Its third fact, the carriers, chooses surfaces at n ≥ 3 (S₁,₂ or S₀,₄).
+   - At n = 2 the carrier is not a choice: Out(F₂) is the mapping class group of the once-punctured torus (Nielsen),
+     and B1380's proof needs only one hyperbolic move.
+   - At n ≥ 3 no surface realises all of Out(F_n), so a carrier there is a selection, of the kind §158's ladder names.
+     F9's fragility may be that selection showing.
+5. **Draft 9: two erratum candidates for main to judge** (P-203), from §159.
+   - **Proposition 2.1** (s02, line 48) still says "At the root" of a fact that holds for every free basis of the
+     commutator subgroup. It is a scope statement, not a wording preference.
+   - **"the principle's tick"** (s02, line 124) names one thread, σ = L∘P.
+
+   Rademacher's name at the period phase is an addition, not an erratum, and is left for a later version.
+
+0 of 19.

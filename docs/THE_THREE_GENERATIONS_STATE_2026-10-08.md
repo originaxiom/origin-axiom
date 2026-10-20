@@ -782,6 +782,8 @@ Under the owner's rulings, the table's rows split into two groups:
 - **W107, N3 on the weave** (blind; one run; relay §161). An odd-trace thread's tick has a non-zero mean on T only when
   #L ≡ #R (mod 8); the mean is then one of four democratic axes, fixed by the word's matrix mod 4. The weave's mean of
   means is a scalar. N3's democratic matrix belongs to one class of threads, not to the weave. A WEAVE result. 0 of 19.
+- **Main's S146** banks W101 as B1674 and W34 as B1675 (PROVED), ports drafts 7–8 into draft 9 (frozen), and opens
+  the foundations quest. This seat's hostile reads of its three designs are relay §162. 0 of 19.
 
 ## Questions open with main
 
@@ -806,4 +808,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§161).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§162).
