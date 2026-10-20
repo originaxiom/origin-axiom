@@ -1,0 +1,237 @@
+{
+ "groups": {
+  "n=2 Dic2": {
+   "tuples passing the filter and generating": 24,
+   "common points": [
+    {
+     "traces": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "generators": [
+      [
+       0.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     "generating tuples with this character": 24
+    }
+   ]
+  },
+  "n=2 Dic3": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=2 Dic4": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=2 Dic5": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=2 Dic6": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=2 Dic7": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=2 Dic8": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=2 Dic9": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=2 Dic10": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=2 Dic11": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=2 Dic12": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=2 Dic13": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=2 Dic14": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=2 Dic15": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=2 2T": {
+   "tuples passing the filter and generating": 24,
+   "common points": []
+  },
+  "n=2 2O": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=2 2I": {
+   "tuples passing the filter and generating": 120,
+   "common points": []
+  },
+  "n=3 Dic2": {
+   "tuples passing the filter and generating": 48,
+   "common points": []
+  },
+  "n=3 Dic3": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=3 Dic4": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=3 Dic5": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=3 Dic6": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=3 Dic7": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=3 Dic8": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=3 Dic9": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=3 Dic10": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=3 Dic11": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=3 Dic12": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=3 Dic13": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=3 Dic14": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=3 Dic15": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=3 2T": {
+   "tuples passing the filter and generating": 48,
+   "common points": []
+  },
+  "n=3 2O": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=3 2I": {
+   "tuples passing the filter and generating": 240,
+   "common points": []
+  },
+  "n=4 Dic2": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=4 Dic3": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=4 Dic4": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=4 Dic5": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=4 Dic6": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=4 Dic7": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=4 Dic8": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=4 Dic9": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=4 Dic10": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=4 Dic11": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=4 Dic12": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=4 Dic13": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=4 Dic14": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=4 Dic15": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=4 2T": {
+   "tuples passing the filter and generating": 48,
+   "common points": []
+  },
+  "n=4 2O": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  },
+  "n=4 2I": {
+   "tuples passing the filter and generating": 0,
+   "common points": []
+  }
+ },
+ "cells": {
+  "C0 the quaternion character is a common point at n = 2": true,
+  "C1 no common point at n = 3": true,
+  "C2 no common point at n = 4": true
+ },
+ "seconds": 15.2
+}

@@ -1,0 +1,1 @@
+nice -n 10 env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1   >  15.34s user 0.07s system 98% cpu 15.628 total
