@@ -638,3 +638,12 @@ found with B1635's sealed instrument.
 - **No thread keeps a record (B1675, the SM seat's W34).** A class the puncture cannot detect is fixed by no thread and
   not by the moves together, only by a shear or the mirror. A fixed record exists only at an end. A record carried by a
   relation between changing parts is not excluded, and is open (P-204).
+
+## Main's addition: the tick on the weave (B1676, PROVED) — the seed's specialness is its class
+
+- **N3 lifted to the weave** (the owner's question of 2026-10-20 whether the golden rule is a thread; the SM seat's W107,
+  blind, reproduced on main). The golden rule's tick mean, B1621's democratic matrix, is rank one exactly on the
+  threads with #L ≡ #R (mod 8), and zero on the rest. Over the weave the ticks' joint mean is a scalar.
+- **Why the seed looked like the principle.** The weave's characters sort the threads by #L − #R: the period phase
+  mod 4, the tick's mean mod 8. LR has #L − #R = 0, so it lies in the trivial class of both, and what made it special
+  is that class. The seed is the trivial class's simplest representative, not the principle.

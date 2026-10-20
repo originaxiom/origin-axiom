@@ -1,5 +1,30 @@
 # Changelog
 
+## S147 THE TICK ON THE WEAVE (B1676, PROVED; P-200 done): N3's democratic matrix is a class property, not the principle's
+
+- **B1676** re-banks the SM seat's W107, N3 on the weave, run blind at main's ask. Its rule came before its script,
+  which came before its one run. Main's own design predictions were committed at S146, before main read it. Main's own
+  route reproduces every count.
+  - Of the 8 798 primitive positive words to length 16, 3 822 have odd trace. Each acts on the parity lines as a
+    3-cycle.
+  - The tick's mean is rank one exactly when #L ≡ #R (mod 8) (916 threads) and zero otherwise (2 906).
+  - The rank-one lines are the four body diagonals of the parity basis, all occurring.
+  - The weave's joint mean is a scalar (0.0799 I).
+  - So the democratic matrix belongs to LR's class, the trivial class of the weave's characters, and not to the
+    principle. Over the weave the ticks fix no direction.
+- **The answer to the owner's question of the day:** the seed's specialness is its class.
+- **Records.**
+  - P-200 done.
+  - P-206 registers the SM seat's proposals: GENESIS states the principle as the family of wordings; a scope note on
+    B1380; a wording fix to P9 for a later draft.
+  - Harvest rows 1268–1272 and pins: the SM seat's §158–§161, and the audit lane's 41 commits, read at headline level
+    with a verification pass running.
+  - One relay row.
+  - P-207: the audit lane found that B1617's pointwise lift is not a group section (−1 in 55 of 200 products), and
+    main's reading pass verified it. Every main arc that lifts a composite automorphism directly is to be audited.
+- **Credit** to the SM seat for W107 and for the reading of the ladder of choices, which reached main's answer to the
+  owner's question independently.
+
 ## S146 THE ANOMALY AND THE RECORD VERIFIED (B1674, B1675); THE PAPER'S DRAFT 9, TAGGED AND FROZEN (`p9-draft9`)
 
 - **B1674, THE WEAVE'S ANOMALY** (the SM seat's W101, verified and re-banked; PROVED).

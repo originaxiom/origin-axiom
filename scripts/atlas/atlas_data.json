@@ -12360,6 +12360,24 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1676": {
+   "slug": "the tick on the weave verified",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "quasicrystal"
+   ],
+   "refs": [
+    "S146"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B167": {
    "slug": "conserved no scale lemma",
    "motifs": [

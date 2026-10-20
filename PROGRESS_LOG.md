@@ -17378,3 +17378,14 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   were disclosed: the line's three persists in every rank (1/3, 1/3, 0.311 of the acts cycle a line); Epi(F₂, Q₈) is
   one class, Epi(F₃, Q₈) fourteen.
 
+## 2026-10-20 — S147: B1676, THE TICK ON THE WEAVE (P-200)
+
+- **The run.** The SM seat ran W107 blind. Main's independent route reproduced it in seconds: every count, the
+  mod-8 rule on all 3 822 odd threads, the four axes once each line is paired with its negative, and the joint mean
+  0.0799 I.
+- **A scope point from the seat's output.** Flipping one letter's lift sign moves the class (916 becomes 906). The lock's
+  bite is exactly that.
+- **One error of main's, caught by the lock.** Main misread W107's per-length table when writing the lock: the odd
+  count to length 12 is 322, not 398.
+- **The owner's question "what is weave and what is seed"** was answered from this result and recorded in THE_WEAVE.
+

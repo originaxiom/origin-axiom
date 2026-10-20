@@ -1,5 +1,5 @@
 {
- "measured_at_main_head": "5a16562ac",
+ "measured_at_main_head": "4fdf12b9a",
  "main_root": "517783f2",
  "lanes": [
   {
@@ -197,8 +197,8 @@
   {
    "ref": "origin/audit/physical-bridge-2026-09-05",
    "branch": "physical-bridge-2026-09-05",
-   "commits_total": 3475,
-   "commits_unique_vs_main": 620,
+   "commits_total": 3516,
+   "commits_unique_vs_main": 661,
    "merge_base": "8f83b5c8",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -281,8 +281,8 @@
   {
    "ref": "origin/<v>/standard-model-derivation-0qt6ao",
    "branch": "standard-model-derivation-0qt6ao",
-   "commits_total": 3652,
-   "commits_unique_vs_main": 777,
+   "commits_total": 3659,
+   "commits_unique_vs_main": 784,
    "merge_base": "44c75c36",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -328,7 +328,7 @@
   }
  ],
  "lanes_with_unique_work": 22,
- "total_unique_commits_across_lanes": 3223,
+ "total_unique_commits_across_lanes": 3271,
  "same_repository_lanes": 21,
  "every_same_repo_lane_shares_mains_root": true,
  "every_same_repo_lane_has_a_merge_base": true,

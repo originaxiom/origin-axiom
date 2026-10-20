@@ -577,6 +577,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1671` | PROVED | L | | THE DEDEKIND PHASE: the triplet's parameter-free Yukawa sectors obey the symmetric sum rule m₁ = m₂ + m₃ (m₂/m₁ ≥ ½ at every τ, no hierarchy) and give no mixing (V = 1); det Y₁ = 8η⁶; with real coefficients the strong-CP phase approaches π Re τ at large Im τ; a general zero-diagonal coupling breaks the rule; no data |
 | `B1674` | PROVED | L | | THE WEAVE'S ANOMALY: det ρ = χ_η⁹; if the moves are a symmetry of the fermions, they are free with QCD exactly when they act alike on left- and right-handed quarks, never with SU(2), with gravity only given ν^c; the couplings' determinants carry η^{6K} under a congruence and the strong angle is tied to τ or free, never fixed; no data |
 | `B1675` | PROVED | L | | NO THREAD KEEPS A RECORD: at the common point no thread and not the joint action fixes a private class; only a shear or the mirror does, so a fixed record exists only at an end (a relational record is not excluded); no data |
+| `B1676` | PROVED | L | | THE TICK ON THE WEAVE: the democratic tick mean belongs to one class of threads (#L ≡ #R mod 8), not to the principle; on the weave the ticks' joint mean is a scalar and fixes no direction; no data |
 
 ## The exhibit that forced the rebuild
 

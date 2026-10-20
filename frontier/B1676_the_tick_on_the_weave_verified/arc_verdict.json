@@ -1,0 +1,27 @@
+{
+  "id": "B1676",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": true,
+  "identifications": [],
+  "depends_on": [
+    "B1621",
+    "B1633",
+    "B1607",
+    "B1323"
+  ],
+  "rests_on_seat": [
+    "sm:W107"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the weave's triplet T with the record's letter lifts (the product along the word), the parity basis of B1621",
+    "object": "every primitive positive word of length 2-16 up to rotation (8 798 threads; 3 822 of odd trace)",
+    "reach": "class",
+    "hypotheses": "a census to length 16 with a structural reason (a phase times a signed 3-cycle); which threads carry the mean depends on the lift's sign convention, the fraction and the scalar joint mean do not"
+  },
+  "claim_one_line": "THE TICK ON THE WEAVE, VERIFIED ON MAIN (re-banks the SM seat's W107, run blind at main's ask; rule 2daabdde4 before script 7beaa530d before run 191c367a7; main's design predictions committed before main read it; every count reproduced by main's own route): N3 on the weave. On the 8 798 primitive positive words of length 2-16 (3 822 of odd trace, each a 3-cycle on the parity lines) the tick's operator mean is rank one exactly when #L = #R (mod 8) (916) and zero otherwise (2 906); every rank-one mean is a body diagonal of the parity basis, all four occurring (215, 229, 235, 237); the weave's mean of means is a scalar (0.0799 I, off-diagonal 3.1%), the ticks' commutant the scalars, and they generate End(T). So N3's democratic matrix is a property of one class of threads (LR's, #L - #R = 0), not of the principle; on the weave the ticks fix no direction. Which threads carry the mean moves with the lift's sign convention (916 vs 906); the structure does not. 0 of 19.",
+  "weave_or_thread": "weave (every thread to length 16, and their joint action)"
+}

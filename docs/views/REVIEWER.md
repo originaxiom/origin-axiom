@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1404** |
-| words of findings prose | **1,114,349** |
-| test lock files referenced | **821** |
-| arcs carrying an authored verdict | **1404** (100.0 %) |
+| research arcs with findings | **1405** |
+| words of findings prose | **1,115,220** |
+| test lock files referenced | **822** |
+| arcs carrying an authored verdict | **1405** (100.0 %) |
 | recorded closures | **825** (658 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 951 |
+| PROVED | 952 |
 | NEGATIVE | 349 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1675`** (802 words, 1 locks)  
-NO THREAD KEEPS A RECORD, VERIFIED ON MAIN (re-banks the SM seat's W34; rule 1915fe928 before script ddd62c4ee before output 47a86fa8b; the table reproduced with main's independent code): at the common point, with coefficients Sym^{2k} rho_Q, the private states (the kernel of restriction to the puncture) have dimensions 0, 4, 2 for k = 1, 2, 3 (= 2 m_0, m_0 the Q8-invariant multiplicity); no thread among the 758 states to word length 12 fixes a private class, in any block, nor does the joint action of L and R (with P and -I added); at rank three L and R each keep one and P keeps two (three at rank four). A thread acts as its hyperbolic matrix tensored with a finite-order map, so it fixes nothing. So a fixed record exists only at an end; a relational record (an invariant relation between changing parts, a non-zero equivariant map) is not excluded and is open. 0 of 19.  
-`B1675_no_thread_keeps_a_record_verified/FINDINGS.md`
+**PROVED — `B1676`** (871 words, 1 locks)  
+THE TICK ON THE WEAVE, VERIFIED ON MAIN (re-banks the SM seat's W107, run blind at main's ask; rule 2daabdde4 before script 7beaa530d before run 191c367a7; main's design predictions committed before main read it; every count reproduced by main's own route): N3 on the weave. On the 8 798 primitive positive words of length 2-16 (3 822 of odd trace, each a 3-cycle on the parity lines) the tick's operator mean is rank one exactly when #L = #R (mod 8) (916) and zero otherwise (2 906); every rank-one mean is a body diagonal of the parity basis, all four occurring (215, 229, 235, 237); the weave's mean of means is a scalar (0.0799 I, off-diagonal 3.1%), the ticks' commutant the scalars, and they generate End(T). So N3's democratic matrix is a property of one class of threads (LR's, #L - #R = 0), not of the principle; on the weave the ticks fix no direction. Which threads carry the mean moves with the lift's sign convention (916 vs 906); the structure does not. 0 of 19.  
+`B1676_the_tick_on_the_weave_verified/FINDINGS.md`
 
 **NEGATIVE — `B1673`** (1020 words, 1 locks)  
 THE DYNAMICAL-SELECTION CLAIMS OF 19 OCTOBER, VERIFIED (NEGATIVE; a verification arc of a separate session's unsealed arc, banked under its number; P-199): no static debt of Table 1 is discharged. V = -ln(Im tau |eta|^4) is minimal at omega (1.0335192760; saddle at i, gap 0.0211690050), the classical torus-determinant extremum, already in W51/W59: taking it as the modulus's potential is a choice. The Green function's minimum over the 72 points of exact order 9 is a 12-point orbit (-0.504572), disjoint from W59's eighteen lines; the 3-torsion lies lower. The 8:4 CP count is a coordinate error (points built as (a omega - b)/9, rotated as a + b omega; wrong on 72 of 72); on the true points 0 of 12 are reflection-fixed and the orbit is reflection-closed, so nothing breaks; averaged J is set by the input matrix and is ~1200x the measured 3.1e-5. Orbit-averaged and Selberg spectra (s = l(LR), one thread's length) give ratios near 1/2, missing the data by one to three orders. 0 of 19.  
