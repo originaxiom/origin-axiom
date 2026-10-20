@@ -19610,3 +19610,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - several statements are made exact.
 - **The paper now carries the owner's name as its author.** Two gaps in older checks are passed to the main line.
   0 of 19.
+
+## 2026-10-20 — choosing nothing, one level up
+
+- **The owner asked whether the programme repeats an old mistake one level higher.** The old mistake was picking one
+  shape by hand where the rule says to take all of them together. The worry is that the same happened with the rule
+  "a becomes ab, b becomes a".
+  - It did, in the naming. That rule is one of infinitely many allowed rules of the same kind, and the smallest.
+  - The calculations since early October already used all of them together, so they stand.
+- **The seat listed eleven places where the programme makes one choice where it could take all.**
+  - Taking all of them never produced a number. It produced either a firmer foundation, a symmetry, or an even spread.
+  - Numbers appear only where a symmetry is broken, so the remaining question is what breaks it.
+- **Three tests are proposed, not started.** 0 of 19.

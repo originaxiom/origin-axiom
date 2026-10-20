@@ -1,5 +1,23 @@
 # Changelog
 
+## Reading: the ladder of choices (the owner's question; relay §158)
+
+- **No arc.** A contemplation, recorded at the owner's request so that cc can read it. Four exploratory checks are
+  committed with their outputs, labelled.
+- **The findings.**
+  - The substitution a → ab, b → a is a thread (m000; its square m004). It is the smallest of every allowed wording:
+    202 invertible substitutions to size 8, over 42 matrices. Taking it as the principle is the m004 choice one level
+    up.
+  - Eleven levels of choice are listed. Not discriminating at a level supplies the form, a symmetry or uniformity,
+    never a value. Reversibility and the two records may follow from the principle.
+  - The "which" moves from the law into a vacuum. The open question is a dynamics that discriminates nothing whose
+    vacuum is not a symmetric point.
+- **Read today.** The referee lane's landing branch (B1670, B1671), chat1's two commits, and the audit lane's 50
+  commits (five in full).
+- **Proposed, not started:** W104, W105, W106.
+- **Surfaces.** The NOTE (a reading section, a header bullet, a table row, a files entry), four exploratory scripts with
+  their outputs, the state page, relay §158, the ledger (three rows and the relay row), and a test.
+
 ## The paper, draft 8 (an external referee report on draft 6 applied; the author; relay §157)
 
 - **The report.** Five findings (F1–F5), each checked against the record before it was applied; all five hold.

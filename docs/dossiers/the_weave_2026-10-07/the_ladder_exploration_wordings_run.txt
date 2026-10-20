@@ -1,0 +1,42 @@
+substitutions that can be undone, |u|+|v| <= 8: 202, with 42 distinct matrices
+every matrix carries exactly |u|+|v|-1 wordings (the conjugates; Seebold): True
+
+they grow a word that repeats (not primitive): 56 wordings, 14 matrices:
+   |u|+|v|=2 det -1 tr 0: a->b b->a
+   |u|+|v|=2 det +1 tr 2: a->a b->b
+   |u|+|v|=3 det +1 tr 2: a->ab b->b, a->ba b->b
+   |u|+|v|=3 det +1 tr 2: a->a b->ab, a->a b->ba
+   |u|+|v|=4 det +1 tr 2: a->abb b->b, a->bab b->b, a->bba b->b
+   |u|+|v|=4 det +1 tr 2: a->a b->aab, a->a b->aba, a->a b->baa
+   |u|+|v|=5 det +1 tr 2: a->abbb b->b, a->babb b->b, a->bbab b->b, a->bbba b->b
+   |u|+|v|=5 det +1 tr 2: a->a b->aaab, a->a b->aaba, a->a b->abaa, a->a b->baaa
+   |u|+|v|=6 det +1 tr 2: a->abbbb b->b, a->babbb b->b, a->bbabb b->b, a->bbbab b->b, a->bbbba b->b
+   |u|+|v|=6 det +1 tr 2: a->a b->aaaab, a->a b->aaaba, a->a b->aabaa, a->a b->abaaa, a->a b->baaaa
+   |u|+|v|=7 det +1 tr 2: a->abbbbb b->b, a->babbbb b->b, a->bbabbb b->b, a->bbbabb b->b, a->bbbbab b->b, a->bbbbba b->b
+   |u|+|v|=7 det +1 tr 2: a->a b->aaaaab, a->a b->aaaaba, a->a b->aaabaa, a->a b->aabaaa, a->a b->abaaaa, a->a b->baaaaa
+   |u|+|v|=8 det +1 tr 2: a->abbbbbb b->b, a->babbbbb b->b, a->bbabbbb b->b, a->bbbabbb b->b, a->bbbbabb b->b, a->bbbbbab b->b, a->bbbbbba b->b
+   |u|+|v|=8 det +1 tr 2: a->a b->aaaaaab, a->a b->aaaaaba, a->a b->aaaabaa, a->a b->aaabaaa, a->a b->aabaaaa, a->a b->abaaaaa, a->a b->baaaaaa
+
+they grow a word that never repeats: 146 wordings, 28 matrices
+   |u|+|v|=3 det -1 tr 1 thread LR (square): a->b b->ab, a->b b->ba
+   |u|+|v|=3 det -1 tr 1 thread LR (square): a->ab b->a, a->ba b->a
+   |u|+|v|=4 det -1 tr 2 thread LLRR (square): a->b b->abb, a->b b->bab, a->b b->bba
+   |u|+|v|=4 det -1 tr 2 thread LLRR (square): a->aab b->a, a->aba b->a, a->baa b->a
+   |u|+|v|=5 det -1 tr 3 thread LLLRRR (square): a->b b->abbb, a->b b->babb, a->b b->bbab, a->b b->bbba
+   |u|+|v|=5 det +1 tr 3 thread LR: a->ab b->abb, a->ab b->bab, a->ba b->bab, a->ba b->bba
+   |u|+|v|=5 det -1 tr 2 thread LLRR (square): a->abb b->ab, a->bab b->ab, a->bab b->ba, a->bba b->ba
+   |u|+|v|=5 det -1 tr 2 thread LLRR (square): a->ab b->aab, a->ab b->aba, a->ba b->aba, a->ba b->baa
+   |u|+|v|=5 det +1 tr 3 thread LR: a->aab b->ab, a->aba b->ab, a->aba b->ba, a->baa b->ba
+   |u|+|v|=5 det -1 tr 3 thread LLLRRR (square): a->aaab b->a, a->aaba b->a, a->abaa b->a, a->baaa b->a
+
+threads (as cyclic words in L, R) reached, with the number of wordings that reach each:
+   LR             8
+   LLR            19
+   LRR            19
+   LR (square)    4
+   LLRR (square)  14
+   LLLRRR (square) 32
+   LRLRLR (square) 14
+   LLLLRRRR (square) 10
+   LLLLLRRRRR (square) 12
+   LLLLLLRRRRRR (square) 14

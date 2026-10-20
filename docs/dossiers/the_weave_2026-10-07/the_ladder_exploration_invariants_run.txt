@@ -1,0 +1,12 @@
+(1) dim of invariant polynomials of degree <= 6: 3
+     1   in terms of kappa: 
+     x**2 - x*y*z + y**2 + z**2   in terms of kappa: 
+     (x**2 - x*y*z + y**2 + z**2)**2   in terms of kappa: 
+    rank of the invariants: 3 ; with 1, kappa, kappa^2 added: 3
+(2) F2 classes up to inversion of length <= 12: 25654; fixed by L and R: 3 (9.2s)
+     BAba
+     BAbaBAba
+     BAbaBAbaBAba
+(3) F3 balanced classes of length <= 8: 313; fixed by all 24 transvections: 0; fewest moved by: 8 ((-2, -1, 2, 1)) (3.8s)
+    control [a,b] moved by 8 of 24
+    control [a,b][b,c][c,a] moved by 24 of 24

@@ -771,6 +771,9 @@ Under the owner's rulings, the table's rows split into two groups:
 - **The paper, draft 8** (relay §157). An external referee report on draft 6 is applied, F1–F5, each checked against the
   record. verify.sh runs 45 locks; the tables precede the References; Theorem 9's convention note is corrected; the
   estimator's sizes and five precision fixes are in. The author is Dritëro Mehmetaj, at the owner's request. 0 of 19.
+- **Reading: the ladder of choices** (the owner's question; no arc; relay §158). a → ab, b → a is a thread, the
+  smallest of every allowed wording. Not discriminating one level up supplies the form, a symmetry or uniformity,
+  never a value; the "which" moves into a vacuum. W104–W106 are proposed, not started. 0 of 19.
 
 ## Questions open with main
 
@@ -795,4 +798,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§157).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§158).

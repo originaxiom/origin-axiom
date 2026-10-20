@@ -1,0 +1,2 @@
+bases reached by 2000 random Nielsen products of (LR, RL): traces of their commutator: {-2}
+not bases: tr[LR, (RL)^2] = -34 ; tr[(LR)^2, RL] = -34 ; tr[L, R] = 3

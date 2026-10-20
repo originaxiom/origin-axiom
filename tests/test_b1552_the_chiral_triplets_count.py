@@ -2599,6 +2599,75 @@ def test_the_paper_draft7():
 
 
 
+def test_reading_the_ladder_of_choices():
+    """The reading (relay §158): the ladder of choices recorded with its exploratory outputs; recomputed in process:
+    a move's two wordings differ by conjugation, B1342's multipliers, and the classes of F2 kept by L and R"""
+    import random
+    import numpy as np
+
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert ("## Reading: the ladder of choices, or no discrimination one level up (READING; the owner's question, "
+            "2026-10-20)") in note
+    for s in ("### 3. The ladder", "**The exploratory checks.**", "**W104, the forms' weave.**", "0 of 19."):
+        assert s in note
+    run = lambda n: (here / f"the_ladder_exploration_{n}_run.txt").read_text(encoding="utf-8")
+    assert "fixed by L and R: 3" in run("invariants") and "fixed by all 24 transvections: 0" in run("invariants")
+    assert "202, with 42 distinct matrices" in run("wordings") and "(the conjugates; Seebold): True" in run("wordings")
+    assert "{-2}" in run("bases") and "Psi != #L - #R on 0" in run("rademacher")
+
+    # words are lists of signed letters (1 = a, 2 = b, negative = inverse); a map is the images of a and b
+    def red(w):
+        out = []
+        for t in w:
+            if out and out[-1] == -t:
+                out.pop()
+            else:
+                out.append(t)
+        return out
+    inv = lambda w: [-t for t in reversed(w)]
+    ap = lambda f, w: red([x for t in w for x in (f[t] if t > 0 else inv(f[-t]))])
+    L, Lt, R = {1: [1], 2: [1, 2]}, {1: [1], 2: [2, 1]}, {1: [1, 2], 2: [2]}
+    conj_a = lambda w: red([-1] + w + [1])
+    assert all(conj_a(ap(L, [g])) == ap(Lt, [g]) for g in (1, 2))          # L~ = L followed by conjugation by a
+
+    # B1342: kappa' - 2 = (kappa - 2) * multiplier on random SL(2, C) pairs
+    rng = np.random.default_rng(5)
+    def sl2():
+        m = rng.normal(size=(2, 2)) + 1j * rng.normal(size=(2, 2))
+        return m / np.sqrt(np.linalg.det(m))
+    kap = lambda A, B: np.trace(A @ B @ np.linalg.inv(A) @ np.linalg.inv(B))
+    for _ in range(20):
+        A, B = sl2(), sl2()
+        x, y, z, k = np.trace(A), np.trace(B), np.trace(A @ B), kap(A, B)
+        assert abs(kap(A @ B, A) - k) < 1e-8 * (1 + abs(k))                                   # a -> ab, b -> a
+        assert abs(kap(A @ B, A @ A) - 2 - (k - 2) * x * x) < 1e-8 * (1 + abs(k * x * x))      # period doubling
+        tm = (k - 2) * (x * x + y * y - x * y * z)
+        assert abs(kap(A @ B, B @ A) - 2 - tm) < 1e-8 * (1 + abs(tm))                         # Thue-Morse
+
+    # the classes of F2, up to inversion, kept by L and R to length 8: [a,b] and [a,b]^2 only
+    def canon(w):
+        w = red(w)
+        while len(w) > 1 and w[0] == -w[-1]:
+            w = w[1:-1]
+        return min(tuple(u[i:] + u[:i]) for u in (w, inv(w)) for i in range(len(u))) if w else ()
+    kept, seen = [], set()
+    def grow(w, n):
+        if len(w) == n:
+            c = canon(w)
+            if len(c) == n and c not in seen:
+                seen.add(c)
+                if all(canon(ap(m, list(c))) == c for m in (L, R)):
+                    kept.append(c)
+            return
+        for t in (1, -1, 2, -2):
+            if not (w and w[-1] == -t):
+                grow(w + [t], n)
+    for n in range(2, 9, 2):
+        grow([], n)
+    comm = canon([1, 2, -1, -2])
+    assert kept == [comm, canon(list(comm) * 2)], kept
+
 def test_the_paper_draft8():
     """The paper's draft 8 (relay §157): the referee report on draft 6 applied (F1-F5), and the author set at the
     owner's request; the corrected statements recomputed exactly in process (the parity lines, the braid relation)"""

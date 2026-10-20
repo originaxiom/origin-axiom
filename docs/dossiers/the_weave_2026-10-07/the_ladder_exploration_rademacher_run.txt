@@ -1,0 +1,1 @@
+positive words with both letters, length 2..10: 2026; Psi != #L - #R on 0

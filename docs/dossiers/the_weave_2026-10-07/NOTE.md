@@ -345,6 +345,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   not a thread chosen by hand. No thread and not the joint action keeps a record (W34); only a shear or the mirror
   does. For magnitudes, counting the measurer buys only the unit (the composition lemma); a pairwise invariant of
   threads can stand only for relational data (mixing, phases).
+- Reading: the ladder of choices (the owner's question, 2026-10-20; no arc; four exploratory checks, labelled): the
+  substitution a → ab, b → a is a thread, the smallest of every allowed wording, so taking it as the principle is the
+  m004 choice one level up. Eleven levels of choice are listed. Not discriminating supplies the form (GENESIS GM5a and
+  the two records may follow), a symmetry or uniformity, never a value; the "which" moves into a vacuum. W104–W106
+  proposed, not started.
 
 ## The setting
 
@@ -7636,6 +7641,213 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## Reading: the ladder of choices, or no discrimination one level up (READING; the owner's question, 2026-10-20)
+
+**Why.** The owner asked, in order:
+- "are we doing same threwd vs weave mistake with chosing a ab ba principle compared to all allowed wordings like we
+  dis qith n004 compared to the whole weave";
+- "its not ab vs ba, pur principle is substitution principle, a->ab, b->a";
+- "but that is not the only non-trivial pr allowed strumian wordings";
+- "lets sit in it and contemplate first, whst it means what implications it had, werher what we lack currently on our
+  program to a complete 19 parameter sm could be provided if we do no disctiminations one or more levels up?", and, of
+  the rule this seat had proposed, "lets make sure were not discriminating again".
+
+The owner then asked for the contemplation to be recorded so that cc can read it. Main, chat1, the audit lane and the
+referee lane were fetched and read first (section 9).
+
+**Weave or thread.** Neither. This is a reading about the form the principle is given, one level above the threads. It
+has no arc and no rule. Four exploratory checks were run in scratch before this record, read, and then committed with
+their outputs (listed at the end). Nothing here rests on them beyond evidence.
+
+### 1. The substitution is a thread
+
+- **What it is.** a → ab, b → a is L∘P exactly (GENESIS v1.29, main's B1607). Its matrix is the golden LP, of
+  determinant −1. Its mapping torus is m000, and its square σ² = LR is m004's monodromy. The words route and the records
+  route are one construction in two presentations (B1323, PROVED).
+- **So the choice is the m004 choice.** Taking σ as "the principle" chooses m000 and m004 among the threads, one level
+  up, in the words presentation. The m004 choice was its image.
+- **The record already prices it.**
+  - P000: the golden member is "most-selected, not forced".
+  - GENESIS: SE1 is "one more selector of it, and, like the others, a chosen one".
+  - B1323 splits C2 into a theorem (a Sturmian word fixed by a substitution has a quadratic slope) and a criterion
+    (minimality selects φ).
+  - Main's ERROR_LEDGER E76 (UNPRICED-SETTING) names, as its first instance, the golden word read as background
+    rather than as a choice.
+
+### 2. Every allowed wording
+
+The owner's correction: a → ab, b → a is not the only non-trivial allowed Sturmian wording. The exploratory census
+(`the_ladder_exploration_wordings.py`) takes every substitution a → u, b → v with u and v non-empty and |u| + |v| ≤ 8
+that can be undone. Here "can be undone" means the pair generates F₂, decided by Stallings folding.
+- **The count.** There are 202 wordings over 42 matrices. These are exactly the non-negative matrices of determinant ±1
+  with entry sum at most 8 (B1323's dictionary; Mignosi and Séébold).
+- **Several wordings per matrix.** A matrix whose images have s letters in total carries exactly s − 1 wordings: the
+  same letters, placed differently (Séébold's count).
+  - "ab against ba" is the two wordings of the size-3 matrix.
+  - Every thread has its own version of that choice.
+- **56 wordings grow a word that repeats.** They are the identity, the swap a ↔ b, and the moves themselves with their
+  powers (a → a, b → ab is L; a → ab, b → b is R). They are allowed and non-trivial. They are what the threads are made
+  of, not threads.
+- **146 wordings, over 28 matrices, grow a word that never repeats.** The smallest:
+  - size 3: a → ab, b → a and a → ba, b → a (the golden LP);
+  - size 4: a → aab, aba or baa, b → a (the silver L²P, whose square is L²R²);
+  - size 5: the bronze L³P; the eight wordings of LR itself, σ² = (a → aba, b → ab) among them; and eight in L²P's
+    square class;
+  - by size 8 also L²R, LR², and LᵐRᵐ for m up to 6.
+
+σ is the smallest member of an infinite family, one family per thread. Picking it is the m004 choice.
+
+### 3. The ladder
+
+Each level is a place where the form makes one choice where it could take all. The ids are GENESIS's.
+
+| Level | Chosen now | Not discriminating means | What it does |
+| --- | --- | --- | --- |
+| 1 | one thread (m004) | every thread | done: the weave (2026-10-07) |
+| 2 | one substitution, σ | every allowed substitution | the same as level 1 (B1323); σ is the smallest thread, picked by a criterion (C2b) |
+| 3 | one wording (ab against ba; the base point; A7) | every wording | L̃: a → a, b → ba is L followed by conjugation by a, so the wordings of the moves add the inner automorphisms, the base point's moves on M₁,₂ (W19; GENESIS v1.41, "the owner's to add"). They act on the triplet as the parity signs: a symmetry under which mixing is a permutation until a vacuum breaks it (GENESIS v1.36). Main's lead L241: "the measurer is the marking … Every class invariant forgets it" |
+| 4 | determinant +1 (no swap; σ itself has −1) | the swap in the law (GM5c) | mirror and CP are symmetries of the law (GENESIS v1.29, v1.32). The owner's ruling of 2026-10-08, "P is part of the act but not a symmetry of what we observe", is already this level's non-discriminating form |
+| 5 | forward only (GM5d) | both signs | −I is generated anyway (B1662; GENESIS v1.48); positivity is a choice of side |
+| 6 | never repeats (GM3) | the moves, the cusp and the elliptic points too | the arena, the trefoil complement, and the full trace formula (GENESIS v1.48's reading) |
+| 7 | can be undone (GM5a) | every substitution | not a discrimination, read through PF1: on every stratum of End(F₂) other than the automorphisms, κ − 2 is multiplied by a polynomial that vanishes somewhere, or κ′ ≡ 2 (B497, B1342); there a description with κ ≠ 2 is sent to κ = 2, and cancelling completes. "κ is conserved only in stratum 1" (B1342) |
+| 8 | one rule iterated | every sequence of substitutions | all geodesics, not only the closed ones: the walk (B1662, B1663) and the typical motion 0.31500491 (B1666) |
+| 9 | two records (GM1) | n records | exploratory: at rank 3 no balanced class of length ≤ 8 is kept by all 24 transvections; at rank 2 exactly the powers of the commutator are kept by L and R (to length 12). Only at rank 2 is every automorphism a mapping class of a surface (Nielsen); at rank ≥ 3, keeping a witness means choosing a surface (B1323's F9 is fragile). If it holds, not discriminating selects rank 2, and with it three = 2² − 1 parities |
+| 10 | one frame | every frame | only the shared structure (B1652) |
+| 11 | the weave's own premise | — | GENESIS §3 lists "All legal states are physically realised together" as not derived |
+
+### 4. The rule this seat proposed, audited
+
+The proposal (this seat, 2026-10-17, to the owner): "a substitution of the two records that erases nothing, can be
+undone, and whose word never repeats", with a → ab, b → a as its shortest instance. Against GENESIS:
+- **"Erases nothing"** is PF1 itself.
+- **"Can be undone"** follows from PF1 (level 7). It is not a discrimination.
+- **"Never repeats"** (GM3) should sort, not exclude. The threads are the wordings that never repeat. The moves and the
+  arena stay in the weave as what the threads are made of and where they live.
+- **It hid five choices:** two records (level 9), no swap (4), forward only (5), one wording (3) and one rule iterated
+  (8).
+
+A form that discriminates nothing: *the moves are every substitution of two records that keeps the principle's face κ;
+the threads are those whose words never repeat; a → ab, b → a is the smallest thread.* The two records would have to
+be argued from level 9. Levels 3, 4, 5 and 8 would each be stated either in the law or as the owner's named rulings,
+never left as background.
+
+### 5. What not discriminating supplies, and what it cannot
+
+At no level did removing a choice add a number. It adds one of three things.
+- **The form.** Levels 7 and 9 would turn two inputs (GENESIS GM5a, and GM1's two records) into consequences of PF1
+  and non-discrimination. B1380's carrier, the once-punctured torus, follows from any thread and not from σ alone: its
+  proof uses only that the move is hyperbolic, and the moves together are realised there by Nielsen's theorem. The
+  foundation would need fewer inputs.
+- **Symmetry.** The parity signs (level 3), CP (level 4), the sign (level 5). A symmetry forbids values (degeneracy,
+  no mixing, θ̄ = 0) until something breaks it.
+- **Uniformity.** Every thread weighted alike spreads evenly over the modular surface. The record has this as Duke's
+  equidistribution, as the layers approaching the constant mode (B1666), and as the uniform measure on threads having
+  no atom at the cusp (B1629). Nothing is selected.
+
+Values live where a symmetry breaks, and a break is a "which". Three other seats say the same in their own words
+(section 9). The audit lane's caution applies to this reading too: "supplied choices remain derivation targets, not a
+prescription to combine every alternative". Averaging over every alternative needs a measure, and the invariant
+measure is not unique (main's P-107). So a quantity defined by the joint action must be an invariant, not an average
+under a chosen measure.
+
+### 6. Where the "which" goes
+
+If the law chooses nothing, the choices move into the state, and the 19 become coordinates of a vacuum.
+- **A choice inside one orbit of the moves is not a hand-pick** (this seat's relay §116). It is spontaneous breaking,
+  which physics uses everywhere.
+- **An invariant dynamics can have its minimum away from the symmetric points,** since a whole orbit is one physical
+  point. B990 forbids an invariant selector only from picking a point inside an orbit.
+- **So far the record finds only symmetric points.** Its canonical functionals land on ω, i or the cusp (W51), and those
+  points carry no hierarchy (B1653, B1657, B1671).
+
+The open question becomes precise: **is there a dynamics that discriminates nothing whose vacuum is not a symmetric
+point?** It is the referee lane's "axiom that is not a reading of G", with one constraint added: under the owner's
+rule it must itself discriminate nothing.
+
+### 7. Per parameter
+
+- **θ̄, the one value in reach.**
+  - With the swap in the law (level 4), CP is a symmetry of the law.
+  - With the Dedekind counterterm that the anomaly needs, W101 found θ̄ constant at weight 1, so it is 0 by CP at every
+    τ. But weight 1 makes no hierarchy (N8; B1671's one form per sector).
+  - At weights 2 and 3, θ̄ = −arg(j − 1728). It is zero only on the CP-conserving loci, where B1671 finds δ_CKM = 0.
+  - So the sector in which not discriminating fixes θ̄ = 0 is the sector that cannot make masses. Mixed weights
+    across the sectors are untested.
+  - A note for main's re-banking of B1671 (P-194): its θ̄ = π·Re τ is the case without the counterterm; W101 has the
+    case with it.
+- **The CKM phase.** It exists only if the vacuum breaks CP. That is the owner's ruling of 2026-10-08, read at level 4.
+- **The scale.** The measurer's unit, a convention (the composition lemma; relay §155).
+- **The other magnitudes.** They need the vacuum (section 6).
+- **The count three.** It is not one of the 19. It is three = 2² − 1 if level 9 holds.
+
+### 8. One link across the levels
+
+The phase law i^(#L−#R) (P9's period phase; B1666) is each thread's linking number with the trefoil. The trefoil is
+the arena that GM3 sets aside (GENESIS v1.48's reading).
+- **Already on record.** Rademacher's Ψ equals #R − #L in the record's words on all 745 threads to length 12 (this
+  seat's arena check, A1, 2026-10-15; the fresh look's §3.3). By Ghys (2007), Ψ is the linking number with the trefoil.
+  The referee lane's report 01 noted the same identity on nine words.
+- **The convention's sign.** In P9's column convention Ψ = #L − #R, on 2,026 positive words to length 10
+  (`the_ladder_exploration_rademacher.py`).
+- **New here is only the join.** W101's anomaly character det ρ = χ_η⁹ and B1671's Dedekind phase 12·arg η are both
+  powers of η's multiplier. On a thread that multiplier is set by Ψ (chat1's reading: η⁶'s multiplier is i^Ψ, to
+  10⁻²⁸).
+
+So the level above the threads already acts on the weave, as phases. No magnitude comes with it. The referee lane's
+ladder says the same of its rung B: "every phase and every allowed weight" is fixed there, and "anything with a
+magnitude" is not.
+
+### 9. The other seats, read on 2026-10-20
+
+- **The referee lane** (its landing branch at 806dfd600; B1670 and B1671, renumbered from its B1668 and B1669; three
+  reports).
+  - Report 02, "the ladder": everything the record proved is a statement about G = SL(2,ℤ) on ℤ². Of 12
+    identifications of a structure with a value, none is earned.
+  - Its prediction 2: "No arc will earn a structure-to-value identification until an axiom is added that is not a
+    reading of G — a dynamics, a flux, a potential, an end mechanism".
+  - Report 03: the best single framework in the literature buys 2 of the 19, and "The nineteen will not be derived by
+    this structure, or by any structure without dynamics".
+  - B1671: on the ruled branch the strong CP angle is the Dedekind phase of the modulus.
+  - This reading agrees, and adds section 6's constraint.
+- **chat1** (64460af62 → 75e326e09).
+  - "the claim that the principle alone forces the 19 values has no support".
+  - "The open question for the strong claim is now what selects τ".
+  - It withdraws its "negative a fortiori" for B1660 at the canonical cuts.
+- **The audit lane** (114bdc680 → c5c467891; 50 commits, of which this seat read the five newest, phases 9 and 10, and
+  the others' messages).
+  - "supplied choices remain derivation targets, not a prescription to combine every alternative".
+  - A physical claim "still needs one admitted stationary theory".
+- **Main** (2e5716bd9, unchanged since Review 65). E76, and OPEN_ITEMS H5, "the object supplies the group, never the
+  point — now seen at three levels", say the same of the record's own history.
+
+### 10. Proposed, not started (the owner's word first)
+
+- **W104, the forms' weave.** A weave result about the forms, with the rule first.
+  - It would prove level 7: GENESIS's PF1, read as "no move completes the cancelling", gives exactly the
+    automorphisms.
+  - It would prove level 9: no class is kept by every automorphism at rank ≥ 3, and at rank 2 exactly the powers of the
+    commutator are.
+  - Priors: 90% that level 9 holds; 60% that the arc proves it in general.
+- **W105, θ̄ with the swap in the law.** Is there an assignment of weights to the sectors with θ̄ = 0 at every τ by CP
+  and a hierarchy? Prior: 25%.
+- **W106, the democratic dynamics.** Beyond the even spread at leading order, does any spectral correction (a wave)
+  have a minimum away from ω, i and the cusp? Prior that one exists: 50%. Prior that it carries a hierarchy: under 10%.
+
+**The exploratory checks.** Each was run in scratch on 2026-10-20 before this record and read. Each was then copied
+unchanged and run once more to write its output. No rule and no prediction preceded them.
+- `the_ladder_exploration_invariants.py` → `the_ladder_exploration_invariants_run.txt`:
+  - the polynomials of degree ≤ 6 in (tr a, tr b, tr ab) kept by L and R are 1, κ + 2 and (κ + 2)², with κ = tr[a,b];
+  - the classes of F₂ kept by L and R, up to inversion and to length 12, are [a,b], [a,b]² and [a,b]³, of 25,654;
+  - at rank 3, none of 313 balanced classes to length 8 is kept by all 24 transvections.
+- `the_ladder_exploration_bases.py` → `the_ladder_exploration_bases_run.txt`: on 2,000 random bases of the commutator
+  subgroup reached from (LR, RL), the commutator's trace is −2. Pairs that are not bases give −34, and tr[L, R] = 3.
+  P9's Proposition 2.1 says "At the root" of a fact that holds for every free basis.
+- `the_ladder_exploration_wordings.py` → `the_ladder_exploration_wordings_run.txt`: section 2's census.
+- `the_ladder_exploration_rademacher.py` → `the_ladder_exploration_rademacher_run.txt`: Ψ = #L − #R on 2,026 positive
+  words to length 10 (P9's convention).
+
+**What this reading cannot show.** That the form is forced, or any value. 0 of 19.
+
 ## Reading: the measurer as a thread (READING; the owner's question, 2026-10-17)
 
 **Why.** The owner asked: "what if when we measure parameters we count for the measurer to be part of the ecosystem".
@@ -9079,6 +9291,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| Reading: the ladder of choices | READING (no arc; four exploratory checks, labelled; the owner's question) | the substitution a → ab, b → a is L∘P, a thread (m000; its square m004), the smallest of every allowed wording (202 invertible substitutions to size 8 over 42 matrices, s − 1 wordings per matrix); eleven levels of choice listed; GENESIS GM5a may follow from PF1 (B1342's multipliers) and the two records from non-discrimination (exploratory: no class kept by every move at rank 3); not discriminating supplies the form, a symmetry or uniformity, never a value; the "which" moves into a vacuum; θ̄ = 0 by CP only at weight 1, which makes no hierarchy; W104–W106 proposed, not started |
 | Reading: the measurer as a thread | READING (no computation; the owner's question) | under the weave rule the measurer is not a thread chosen by hand: every thread measures every thread, or the measurer is a joint object; no thread and not the joint action keeps a record, only a shear or the mirror (W34), so a measurer can sit only at an end; the composition lemma: a pairwise read-out of magnitudes is f(γ)/f(γ′), so the measurer buys only the unit for masses, and non-composing pairwise invariants can stand only for relations (mixing, phases); three of F-MC's five typed inputs re-read as the measurer's conventions; W102 (the linking matrix) and W103 (the shear's kept record) proposed, not started |
 | W101 | COMPUTED (the rule first; one run; C0, A1, A2, A3a, A3c as predicted; C1 failed as worded by an instrument defect, its purpose met post hoc; A4 failed as stated; A3b post hoc); a WEAVE result | the weave's anomaly: det ρ = χ_η⁹; the moves are QCD-anomaly-free at the character level exactly when they act vectorially on the quarks (16 of 64), SU(2)² is never free (6, 12, 18), gravity² is free exactly for vectorial leptons and needs ν^c; a Dedekind counterterm cancels QCD's anomaly exactly when 6K ≡ −9(2s_Q + s_u + s_d) mod 24; with it θ̄ is constant at weight 1 and −arg(j − 1728) at weights 2 and 3; without it θ̄ = 0 on an interior curve at weight 3 (post hoc) |
 | The referee read | READING with checks (post hoc; one run; no rule, no prediction) | the referee lane's branch read at the owner's request: its load-bearing numbers hold on this seat's code (R1–R6); the fibre frame's ½ floor holds for real Higgs directions only (R7); N10's exclusivity fails at weight 3 on an interior curve near Im τ ≈ 1.0–1.3 (R9); det ρ = χ_η⁹, so the quarks' QCD character is χ_η¹² for all in T (R8); the handoff to the lane and relay §153; W101's rule committed |
@@ -9165,6 +9378,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `the_ladder_exploration_invariants.py` → `the_ladder_exploration_invariants_run.txt`, `the_ladder_exploration_bases.py` → `the_ladder_exploration_bases_run.txt`, `the_ladder_exploration_wordings.py` → `the_ladder_exploration_wordings_run.txt` and `the_ladder_exploration_rademacher.py` → `the_ladder_exploration_rademacher_run.txt`: the ladder reading's exploratory checks (run in scratch before the record and read, then copied unchanged and run once more to write these outputs; no rule).
 - `W101_RULE.md`: the rule, committed before the code; `the_weaves_anomaly.py` → `the_weaves_anomaly.json` and `the_weaves_anomaly_run.txt`: W101, the weave's anomaly; `the_weaves_anomaly_posthoc.py` → `the_weaves_anomaly_posthoc.json` and `the_weaves_anomaly_posthoc_run.txt`: C1's failure explained and C1 recomputed branch-free (post hoc). `the_referee_read_checks.py` → `the_referee_read_checks.json` and `the_referee_read_checks_run.txt`: the referee read's checks (post hoc; one run), cited by `docs/handoffs/SM_TO_REFEREE_LANE_2026-10-17_THE_REFEREE_READ.md`.
 - `W100_RULE.md`: the rule, committed before the code; `the_canonical_cusp_replication.py` → `the_canonical_cusp_replication.json` and `the_canonical_cusp_replication_run.txt`, with `the_canonical_cusp_replication_failed_launch.txt` (the failed first launch's traceback): W100.
 - `the_paper_read_checks_2.py` → `the_paper_read_checks_2.json` and `the_paper_read_checks_2_run.txt`, and `the_paper_read_b1660_repro.py` → `the_paper_read_b1660_repro_run.txt`: W99's addendum (relay §150).

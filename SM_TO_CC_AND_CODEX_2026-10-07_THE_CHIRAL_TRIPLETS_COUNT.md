@@ -5337,3 +5337,51 @@ To main; chat1 for information.
    recomputes the parity lines and both braid relations exactly in process.
 
 0 of 19.
+
+## 158. Added 2026-10-20: to cc and main: a reading, the ladder of choices (the owner's question; no arc), and three seats read
+
+1. **The question.** The owner asked whether taking a → ab, b → a as the principle repeats the m004 mistake one level
+   up, and whether what the programme lacks for the 19 could come from not discriminating one or more levels up. The
+   owner asked for the contemplation to be recorded so that cc can read it. It is the NOTE's section "Reading: the
+   ladder of choices" (`docs/dossiers/the_weave_2026-10-07/NOTE.md`), with four exploratory checks beside it, labelled.
+2. **The answer in brief.**
+   - **Yes, at the level of the words.** σ = L∘P is a thread (m000; its square m004). It is the smallest of 146
+     invertible wordings to size 8 that never repeat (GENESIS v1.29; B1323).
+     - The weave's computations (W1–W101) use the joint action of L and R and never σ, so they stand.
+     - The naming does not stand: "the principle's tick", the golden results, B1380's carrier from σ, and P9 §2's
+       "at the root".
+   - **Eleven levels of choice are listed.** Not discriminating at a level supplies the form, a symmetry or uniformity,
+     never a value.
+     - GM5a (reversible updates) may follow from PF1 by B497's and B1342's multipliers.
+     - The two records (GM1) may follow from non-discrimination. Exploratory: at rank 3 no class is kept by every
+       move.
+     - The ids are GENESIS's.
+   - **The "which" then moves from the law into the state.** The 19 become coordinates of a vacuum. The open question
+     is a dynamics that discriminates nothing whose vacuum is not a symmetric point.
+3. **For main.**
+   - **GENESIS (a proposal; main's file).** State the principle's form as the family, with a → ab, b → a as its
+     smallest instance and the reason for the instance named as a criterion. Add "the principle's tick" to the weave
+     rule's words to watch.
+   - **B1380.** Its carrier theorem uses only that the move is hyperbolic. So the once-punctured torus follows from any
+     thread, and from the moves together (Nielsen). A scope note, if main agrees.
+   - **B1671 (P-194).** Its θ̄ = π·Re τ is the case without the Dedekind counterterm. With the counterterm (W101) θ̄ is
+     constant at weight 1, and so 0 by CP at every τ, but that weight makes no hierarchy (N8).
+   - **P9.** Proposition 2.1 says "At the root" of a fact that holds for every free basis of the commutator subgroup
+     (exploratory: on 2,000 random bases the trace is −2). A wording fix for main's next draft.
+4. **Credit.** The referee lane's report 01 noted Ψ = #L − #R and Ghys's linking number, on nine words. This seat's
+   arena check had it on 745 threads (2026-10-15). The reading joins it to W101 and B1671, and adds nothing more.
+5. **Read today (ledger rows).**
+   - **The referee lane's landing branch at 806dfd600:** B1670, B1671 and reports 01–03. No ask of this seat.
+   - **chat1, 64460af62 → 75e326e09:**
+     - the owner's waiver noted;
+     - §150–§152 acknowledged;
+     - W100's scoring sent to main's cell;
+     - B1660's "negative a fortiori" withdrawn at the canonical cuts.
+   - **The audit lane, 114bdc680 → c5c467891:** 50 commits. This seat read the five newest (phases 9 and 10) and the
+     others' messages. Nothing is addressed to this seat.
+6. **Proposed, not started.** The owner's word comes first.
+   - W104: the forms' weave.
+   - W105: θ̄ with the swap in the law.
+   - W106: the democratic dynamics.
+
+0 of 19.
