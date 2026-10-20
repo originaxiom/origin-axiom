@@ -3895,3 +3895,23 @@ stage in the twisted frame and tested it once against data.**
 - Review 64 found a lock stale since S133 (B1421) that the selective landing suites had missed, and two failures that
   occur only in parallel (R64-10, R64-11).
 - The price is 4 + 9 = 13. **0 of 19.**
+
+## ⟳ CURRENCY NOTE — 2026-10-20 (S145–S150 and the B1680 seal)
+
+- **The separate work of 17–20 October was verified and integrated.**
+  - B1670 and B1671 banked.
+  - B1672 and B1673 NEGATIVE as verified: no input of the paper's Table 1 is discharged.
+- **The foundations quest (the owner's, 2026-10-20) opened.**
+  - **P-200 done:** the golden rule's tick is a class property (B1676).
+  - **P-201, P-205 done:** two records follow from a non-trivial common character in SL(2, ℂ), for every n (B1677,
+    sealed; B1679, the SM seat's proof).
+  - **P-207 done:** B1617's lift is not a group section; a sign audit of eight arcs (B1678).
+- **Open leads, in order.**
+  1. **P-209:** targets of higher rank, sealed as B1680 and running.
+  2. **P-208:** GENESIS v1.49, GM1 derived given one input, next.
+  3. **P-210:** the end's index at a symmetric state (the audit lane's lead). Covariant domains there have even rank,
+     so the index is ±1 or ±3 and never 0. Which one needs a joining law.
+  4. **P-204:** a relational record, Hom_G(W, V), between the private states and a measurer's states.
+  5. The web seat's question whether B1677's input is weaker than "two records".
+- **The paper** is frozen at draft 9 with erratum 1 (`p9-draft9-e1`). **0 of 19.**
+

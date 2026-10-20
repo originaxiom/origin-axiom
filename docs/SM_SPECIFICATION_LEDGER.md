@@ -616,3 +616,38 @@ ledger's sections on the flavour sector. Scope throughout: the weave's fibre at 
 - what lifts R, which carries the first generation's masses, the Cabibbo angle, θ₁₃ and J (P-128; the Wilson line
   first);
 - what fixes the Higgs's direction (the cusp datum, the SM seat's W64).
+
+## Currency note — 2026-10-20, through B1680 (the end, the price, the anomaly, and the foundation's count of records)
+
+*Added at the B1680 seal (the doc-currency gate: this ledger lagged 31 arcs). The window is B1650–B1680, read against
+this ledger's sections on the flavour sector, the strong angle and the generation count. 0 of 19 throughout.*
+
+- **The end and the Higgs (B1656–B1667).**
+  - On W59's lines the electron is massless in the twisted frame (B1656).
+  - One Higgs fits the five non-electron ratios on none of the lines (B1660, NEGATIVE as sealed).
+  - The fibre's canonical cusp fixes the end radius at order one, so the end supplies no hierarchy; the hierarchy is
+    τ's (B1667).
+- **The low threads and the price (B1668, B1670).**
+  - No charge assignment passes the six-ratio mass test on the low threads or in the per-field frame at any depth
+    computed (B1668).
+  - The field's price list: 16 listed relations at M_Z and one loop, never more than two bought by one framework at M_Z
+    (B1670, a ledger with scope notes).
+- **The couplings' parameter-free sectors and the strong angle (B1671, B1674).**
+  - The triplet's parameter-free sectors carry no hierarchy (m₂/m₁ ≥ ½) and no Cabibbo angle.
+  - If the moves are a symmetry of the fermions, they must act alike on left- and right-handed quarks, are never free
+    with SU(2), and need ν^c for gravity.
+  - The strong angle θ̄, one of the nineteen, is tied to τ (−12 arg η without a counterterm) or is a free constant (with
+    one). It is never fixed.
+- **What does not discharge anything (B1672, B1673, NEGATIVE as verified).** The separate session's claims to derive
+  the triplet postulate, the index, the hypercharge dictionary, τ = ω and CP do not hold.
+- **The foundation (B1676–B1680).**
+  - The golden rule's tick is a class property (B1676).
+  - Two records follow from a non-trivial common character in SL(2, ℂ), for every n (B1677, B1679; GENESIS GM1 is
+    amended next).
+  - The four wordings lift coherently through a central double cover (B1678).
+  - Targets of higher rank are sealed for test (B1680).
+
+**What this does not supply.** Any of the nineteen parameters. Open on this route:
+- a law of interaction, a joining law, that fixes the boundary domain and the modulus;
+- the dictionary from the carrier to physical fields.
+
