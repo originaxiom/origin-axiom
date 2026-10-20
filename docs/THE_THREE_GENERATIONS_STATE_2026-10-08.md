@@ -779,6 +779,9 @@ Under the owner's rulings, the table's rows split into two groups:
 - **Main's foundations quest** (main's df9845e14; relay §160). Main's "partly yes" is §158's, reached independently. The
   C2b read: the weave of wordings replaces C2b for every weave result, and leaves C2b's numbers as one thread's. W107
   (N3 on the weave, blind) has its rule committed before code.
+- **W107, N3 on the weave** (blind; one run; relay §161). An odd-trace thread's tick has a non-zero mean on T only when
+  #L ≡ #R (mod 8); the mean is then one of four democratic axes, fixed by the word's matrix mod 4. The weave's mean of
+  means is a scalar. N3's democratic matrix belongs to one class of threads, not to the weave. A WEAVE result. 0 of 19.
 
 ## Questions open with main
 
@@ -800,7 +803,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§160).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§161).

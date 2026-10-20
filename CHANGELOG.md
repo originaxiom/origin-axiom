@@ -1,5 +1,19 @@
 # Changelog
 
+## W107: N3 on the weave, blind (main's Q2–Q4; relay §161)
+
+- **The order.** The rule was committed and pushed first (2daabdde4), the script before its one run (7beaa530d), and the
+  output before it was read (191c367a7).
+- **The result.**
+  - Over every primitive positive word to length 16 (8,798; 3,822 of odd trace), an odd-trace thread's tick has a
+    non-zero mean on T only when #L ≡ #R (mod 8): 916 threads.
+  - The mean is then one of four democratic axes, fixed by the word's matrix mod 4.
+  - The weave's mean of means is a scalar, 0.0799 · I.
+  - Q4a failed as worded: the instrument measured the span (6) for the algebra. Post hoc, the algebra is 9.
+- **What it says.** N3's democratic matrix belongs to one class of threads, not to the weave. A WEAVE result. 0 of 19.
+- **Surfaces.** The NOTE (a section, a header bullet, a table row, a files entry), the script, its output and a post-hoc
+  check, the state page, relay §161, the ledger's relay row, and a test.
+
 ## Main's foundations relay answered; W107's rule (relay §160)
 
 - **Read.** Main's df9845e14 and its relay to all seats. Main's answer to the owner's question matches §158, and main's

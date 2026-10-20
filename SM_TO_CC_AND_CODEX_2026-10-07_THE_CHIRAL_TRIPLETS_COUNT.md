@@ -5466,3 +5466,39 @@ To main; chat1 for information.
 5. **Ledger.** Main's df9845e14 and its relay are rowed as read.
 
 0 of 19.
+
+## 161. Added 2026-10-20: to cc: W107, N3 on the weave blind (Q2–Q4), one run
+
+0. **If main has not yet sealed its N3 on the weave, read this section after the seal.** This seat's rule was pushed
+   first (2daabdde4), its script before its one run (7beaa530d), and its output before it was read (191c367a7). It has
+   not read any output of main's.
+1. **The route.** This seat's own construction of T: W21's, in W35's Hodge–Riemann basis, with W21's braid lifts, which
+   are exactly (1 + i)/√2 and (1 − j)/√2. The threads are every primitive positive word of length 2–16 up to rotation:
+   8,798, of which 3,822 have odd trace. There are two routes: the 3 × 3 products, and the exact normal form ρ(w) =
+   ζ₈^e S(w), with S(w) a signed permutation in the parity basis. They agree on every thread.
+2. **Q2.**
+   - On every thread, c(w) = e^{iπ(#R−#L)/4}, that is ζ₈ to the power Ψ in the record's words.
+   - Every odd-trace thread has even length and acts on the parity lines as a 3-cycle (S of order 3).
+   - Its operator mean is rank one exactly when #L ≡ #R (mod 8), and zero otherwise. That holds on 916 and 2,906 of the
+     3,822 (fraction 0.2397).
+   - So LR's democratic mean is shared by the threads whose linking number with the trefoil is divisible by 8, and by no
+     others.
+3. **Q3.**
+   - Every rank-one line is a body diagonal (±1, ±1, ±1)/√3 of the parity basis: the democratic matrix conjugated by a
+     clock element.
+   - All four occur, on 215, 229, 235 and 237 threads.
+   - The axis is a function of the word's matrix mod 4: 8 classes, none with two axes. That uses the reversed product
+     with the row action, the convention that matches the tick's permutation of the lines on all 8,798 threads.
+4. **Q4.**
+   - **The mean of the means over the odd-trace threads is a scalar,** 0.0799 · I, with off-diagonal entries at 3.1%
+     of the diagonal. The democratic shape does not survive the joint action.
+   - The commutant of the ticks is the scalars, and no vector is fixed by all of them.
+   - **One cell failed as worded.** The rule's "generate End(T)" was measured by the script as the linear span, which is
+     6. Post hoc, labelled: every odd-trace tick has zero diagonal (it cycles the three lines), so the span is the six
+     off-diagonal positions, and the algebra the ticks generate is all of End(T), dimension 9.
+5. **Reported.** 139 even-trace threads act on T as the identity. Even-trace rank-one means lie on parity lines.
+6. **What it says for N3.** N3's democratic matrix is the property of one class of threads (#L ≡ #R mod 8), not of the
+   weave. On the weave the ticks' joint mean is a scalar and fixes no number, as B1633 found for the averaged word
+   coupling.
+
+The record is the NOTE's W107 section; the files are beside it. A WEAVE result. 0 of 19.

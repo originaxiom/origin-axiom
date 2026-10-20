@@ -2599,6 +2599,42 @@ def test_the_paper_draft7():
 
 
 
+def test_w107_the_tick_on_the_weave():
+    """W107 (rule 2daabdde4; script 7beaa530d; one run 191c367a7): the cells as recorded, Q4a failed as worded and the
+    algebra post hoc; the law recomputed in process from the run's exact normal forms: an odd-trace thread's mean is
+    non-zero exactly when #L = #R (mod 8), and every odd-trace tick has zero diagonal"""
+    import numpy as np
+
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_tick_on_the_weave.json").read_text(encoding="utf-8"))
+    assert d["status"] == "one run"
+    assert d["cells"] == {"A0": True, "Q2a": True, "Q2b": True, "Q2c": True, "Q3a": True, "Q3b": True, "Q3c": True,
+                          "Q4a": False, "Q4b": True, "Q4c": True}
+    assert d["census"]["threads"] == 8798 and d["census"]["odd-trace threads"] == 3822
+    assert d["Q4"]["span of the odd-trace ticks"] == 6 and d["Q4"]["commutant dimension"] == 1
+    ph = json.loads((here / "the_tick_on_the_weave_posthoc.json").read_text(encoding="utf-8"))
+    assert ph["algebra generated (span of products, to closure)"] == 9
+    SL, SR = np.array(d["A0"]["S(L)"]), np.array(d["A0"]["S(R)"])
+    assert d["A0"]["exponents mod 8 (c = zeta8^e)"] == {"L": 7, "R": 1}
+    z8 = np.exp(1j * np.pi / 4)
+    n_odd = n_one = 0
+    for r in d["threads"]:
+        if r["len"] > 12:
+            continue
+        S = np.eye(3, dtype=int)
+        for ch in r["w"]:
+            S = S @ (SL if ch == "L" else SR)
+        M = np.array(r["M"])
+        if (M[0, 0] + M[1, 1]) % 2 == 0:
+            continue
+        n_odd += 1
+        tick = z8 ** ((r["nR"] - r["nL"]) % 8) * S
+        assert np.allclose(np.diag(tick), 0)                                     # the tick cycles the parity lines
+        mult = int(sum(abs(ev - 1) < 1e-9 for ev in np.linalg.eigvals(tick)))
+        assert mult == (1 if (r["nL"] - r["nR"]) % 8 == 0 else 0) == r["rank"]
+        n_one += mult
+    assert n_odd == sum(v[1] for k, v in d["census"]["by length"].items() if int(k) <= 12) and n_one == 1 + 3 + 4 + 22 + 46
+
 def test_reading_the_ladder_of_choices():
     """The reading (relay §158): the ladder of choices recorded with its exploratory outputs; recomputed in process:
     a move's two wordings differ by conjugation, B1342's multipliers, and the classes of F2 kept by L and R"""

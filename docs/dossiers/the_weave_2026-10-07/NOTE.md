@@ -350,6 +350,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   m004 choice one level up. Eleven levels of choice are listed. Not discriminating supplies the form (GENESIS GM5a and
   the two records may follow), a symmetry or uniformity, never a value; the "which" moves into a vacuum. W104–W106
   proposed, not started.
+- W107 (N3 on the weave, blind, at main's ask and the owner's word; rule first; one run; Q4a failed as worded by the
+  instrument, the rest as predicted): an odd-trace thread's tick has a non-zero mean on T only when #L ≡ #R (mod 8),
+  916 of 3,822 to length 16. The mean is then one of four democratic axes, fixed by the word's matrix mod 4. The weave's
+  mean of means is a scalar, 0.0799 · I. A WEAVE result.
 
 ## The setting
 
@@ -7641,6 +7645,71 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W107. N3 on the weave, blind: a thread's tick has a non-zero mean on T only when #L ≡ #R (mod 8), the mean is one of four democratic axes set by the word's matrix mod 4, and the weave's mean of means is a scalar (`the_tick_on_the_weave.py`; `W107_RULE.md`; post hoc `the_tick_on_the_weave_posthoc.py`)
+
+**Why.** Main's relay of 2026-10-20 (the foundations quest) proposes "N3 on the weave": every Sturmian wording's tick
+acting on the triplet T. It asks this seat to compute its Q2–Q4 blind, by its own route, as W100 did for B1667. The
+owner agreed. N3 as the paper states it (B1621, B1633) is the golden thread's clock and tick, so it is a thread written
+as the principle (relay §160).
+
+**The order.**
+- The rule (`W107_RULE.md`) was committed and pushed first, in 2daabdde4, with relay §160. The predictions were kept out
+  of the relay, so that main's seal stays independent of them.
+- The script was committed before its one run (7beaa530d), and the output before it was read (191c367a7).
+- This seat has not read any output of main's N3 on the weave.
+
+**Disclosed.**
+- **The pre-run review** made four changes, all in the script's commit message:
+  - a local 3 × 3 closure, since the record's closure is written for 6 × 6;
+  - guards for a missing exact axis;
+  - the Q3 cells read on the odd-trace threads, as the rule's Q2b sets them;
+  - the even-trace rank-one lines added to R1, as reported.
+- **Only the word generator was exercised before the run:** 8,798 Lyndon words, matching the necklace counts.
+- **A convention chosen by a control.** Q3c needs "the word's matrix". The script tests four conventions (the product
+  forward or reversed; a row or a column action) against the tick's permutation of the parity lines on every thread. It
+  uses the one that matches all of them: reversed, with the row action, on 8,798 of 8,798.
+
+**The result (COMPUTED; one run; A0, Q2a–Q2c, Q3a–Q3c, Q4b and Q4c as predicted; Q4a failed as worded by the
+instrument).**
+
+| cell | prediction | prior | result |
+| --- | --- | --- | --- |
+| A0 | the lifts, the braid relation, order 96, c(L) = e^{−iπ/4}, c(R) = e^{iπ/4}, quarter-turns about two coordinate axes | 97% | **held** — the lifts are exactly (1 + i)/√2 and (1 − j)/√2; one normal form; the clock's characters (−, +), (+, −), (−, −) |
+| Q2a | c(w) = e^{iπ(#R−#L)/4}, S(w) a cube rotation, on every thread | 97% | **held** — on 8,798 threads; the numerical tick equals ζ₈^e S on all, and the rank equals the exact multiplicity on all |
+| Q2b | odd trace: even length, S of order 3, rank one exactly when #L ≡ #R (mod 8), zero otherwise | 95% | **held** — 3,822 odd-trace threads: 916 of rank one, 2,906 of rank zero |
+| Q2c | the fraction between 0.18 and 0.32 | 75% | **held** — 0.2397; by (#L − #R) mod 8: 0, 2, 4, 6 on 916, 1,009, 888, 1,009 |
+| Q3a | each rank-one line a body diagonal | 95% | **held** — every modulus² is ⅓; every exact axis is (±1, ±1, ±1) |
+| Q3b | all four body diagonals occur | 85% | **held** — 215, 229, 235, 237 |
+| Q3c | the axis a function of the word's matrix mod 4 | 70% | **held** — 8 classes mod 4 among the rank-one threads, none with two axes |
+| Q4a | the ticks generate End(T) (9); commutant scalars; no common fixed vector | 97% | **failed as worded** — the run measured the linear span, 6; the commutant (1) and the fixed vectors (0) as predicted |
+| Q4b | the mean of the means a scalar to a tenth | 65% | **held** — 0.0799 · I; off-diagonal at 3.1% of the diagonal |
+| Q4c | the average over the image zero | 99% | **held** — 2 × 10⁻¹⁶ |
+
+- **R1, reported.**
+  - Among the even-trace threads, 139 act on T as the identity (S = I and c = 1). 391 have a rank-one mean, always on
+    a parity line, and 400 have a rank-two mean.
+  - With the other sign choices of the lifts, the odd-trace counts are 916, 906, 906 and 916.
+- **Q4a, post hoc** (`the_tick_on_the_weave_posthoc.py`, run after the read; labelled). Every odd-trace tick has zero
+  diagonal in the parity basis: it cycles the three lines. So their linear span is the six off-diagonal positions. The
+  algebra they generate, the span of their products to closure, is all of End(T), dimension 9. The rule's cell asked
+  for the algebra, and the instrument measured the span. The failure is recorded as the instrument's, and the
+  post-hoc value as post hoc.
+
+**What it shows.**
+- **N3's democratic matrix belongs to some threads, not to the weave.** An odd-trace thread's tick has a non-zero mean
+  on T only when #L ≡ #R (mod 8). That is 916 of 3,822 threads to length 16; LR is the first of them.
+  - Through Ψ = #R − #L (the arena check's A1), the condition is that the thread's linking number with the trefoil is
+    divisible by 8.
+  - The mean is then one of four democratic axes, the democratic matrix conjugated by a clock element. Which axis is
+    fixed by the word's matrix mod 4.
+- **The weave's joint mean is a scalar.** Averaged over every odd-trace thread, the four axes nearly balance, and the
+  mean is 0.0799 times the identity. That is the fraction 0.2397 divided by 3. So the democratic shape does not survive
+  the joint action, and the weave fixes no number here, as B1633 found for the averaged word coupling.
+- **The ticks together reach every operator on T** (post hoc), and nothing but the scalars commutes with all of them.
+
+**Status.** COMPUTED (one run; blind to main's run; the rule first). A WEAVE result: every thread to length 16, the
+joint action, a claim about all threads at once. 0 of 19.
+
 ## Reading: the ladder of choices, or no discrimination one level up (READING; the owner's question, 2026-10-20)
 
 **Why.** The owner asked, in order:
@@ -9291,6 +9360,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W107 | COMPUTED (the rule first; one run, blind to main's; A0, Q2a–Q2c, Q3a–Q3c, Q4b, Q4c as predicted; Q4a failed as worded by the instrument, the span measured for the algebra; post hoc: the algebra 9) | N3 on the weave: every primitive positive word to length 16; an odd-trace thread's tick has a non-zero mean on T only when #L ≡ #R (mod 8), 916 of 3,822, its line one of four democratic axes fixed by the word's matrix mod 4; the weave's mean of means a scalar, 0.0799 · I; every odd-trace tick cycles the parity lines (zero diagonal) |
 | Reading: the ladder of choices | READING (no arc; four exploratory checks, labelled; the owner's question) | the substitution a → ab, b → a is L∘P, a thread (m000; its square m004), the smallest of every allowed wording (202 invertible substitutions to size 8 over 42 matrices, s − 1 wordings per matrix); eleven levels of choice listed; GENESIS GM5a may follow from PF1 (B1342's multipliers) and the two records from non-discrimination (exploratory: no class kept by every move at rank 3); not discriminating supplies the form, a symmetry or uniformity, never a value; the "which" moves into a vacuum; θ̄ = 0 by CP only at weight 1, which makes no hierarchy; W104–W106 proposed, not started |
 | Reading: the measurer as a thread | READING (no computation; the owner's question) | under the weave rule the measurer is not a thread chosen by hand: every thread measures every thread, or the measurer is a joint object; no thread and not the joint action keeps a record, only a shear or the mirror (W34), so a measurer can sit only at an end; the composition lemma: a pairwise read-out of magnitudes is f(γ)/f(γ′), so the measurer buys only the unit for masses, and non-composing pairwise invariants can stand only for relations (mixing, phases); three of F-MC's five typed inputs re-read as the measurer's conventions; W102 (the linking matrix) and W103 (the shear's kept record) proposed, not started |
 | W101 | COMPUTED (the rule first; one run; C0, A1, A2, A3a, A3c as predicted; C1 failed as worded by an instrument defect, its purpose met post hoc; A4 failed as stated; A3b post hoc); a WEAVE result | the weave's anomaly: det ρ = χ_η⁹; the moves are QCD-anomaly-free at the character level exactly when they act vectorially on the quarks (16 of 64), SU(2)² is never free (6, 12, 18), gravity² is free exactly for vectorial leptons and needs ν^c; a Dedekind counterterm cancels QCD's anomaly exactly when 6K ≡ −9(2s_Q + s_u + s_d) mod 24; with it θ̄ is constant at weight 1 and −arg(j − 1728) at weights 2 and 3; without it θ̄ = 0 on an interior curve at weight 3 (post hoc) |
@@ -9378,6 +9448,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `W107_RULE.md`: the rule, committed before the code; `the_tick_on_the_weave.py` → `the_tick_on_the_weave.json` and `the_tick_on_the_weave_run.txt`: W107, N3 on the weave (one run, blind to main's); `the_tick_on_the_weave_posthoc.py` → `the_tick_on_the_weave_posthoc.json` and `the_tick_on_the_weave_posthoc_run.txt`: Q4a's algebra and the ticks' zero diagonal (post hoc).
 - `the_ladder_exploration_invariants.py` → `the_ladder_exploration_invariants_run.txt`, `the_ladder_exploration_bases.py` → `the_ladder_exploration_bases_run.txt`, `the_ladder_exploration_wordings.py` → `the_ladder_exploration_wordings_run.txt` and `the_ladder_exploration_rademacher.py` → `the_ladder_exploration_rademacher_run.txt`: the ladder reading's exploratory checks (run in scratch before the record and read, then copied unchanged and run once more to write these outputs; no rule).
 - `W101_RULE.md`: the rule, committed before the code; `the_weaves_anomaly.py` → `the_weaves_anomaly.json` and `the_weaves_anomaly_run.txt`: W101, the weave's anomaly; `the_weaves_anomaly_posthoc.py` → `the_weaves_anomaly_posthoc.json` and `the_weaves_anomaly_posthoc_run.txt`: C1's failure explained and C1 recomputed branch-free (post hoc). `the_referee_read_checks.py` → `the_referee_read_checks.json` and `the_referee_read_checks_run.txt`: the referee read's checks (post hoc; one run), cited by `docs/handoffs/SM_TO_REFEREE_LANE_2026-10-17_THE_REFEREE_READ.md`.
 - `W100_RULE.md`: the rule, committed before the code; `the_canonical_cusp_replication.py` → `the_canonical_cusp_replication.json` and `the_canonical_cusp_replication_run.txt`, with `the_canonical_cusp_replication_failed_launch.txt` (the failed first launch's traceback): W100.

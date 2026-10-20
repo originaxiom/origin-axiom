@@ -1,0 +1,7 @@
+{
+ "status": "post hoc",
+ "odd-trace ticks": 3822,
+ "every odd-trace tick has zero diagonal (parity basis)": true,
+ "linear span of the ticks": 6,
+ "algebra generated (span of products, to closure)": 9
+}

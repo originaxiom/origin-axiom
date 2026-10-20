@@ -19641,3 +19641,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - Whether the step that picks the golden shape can be dropped. It can, for every result about all the shapes together.
   - A blind calculation. Its rules are written down before any code, and the predictions are kept from the main line,
     so that each side's predictions stay independent. 0 of 19.
+
+## 2026-10-20 — the main line's question, computed blind
+
+- **The main line asked how every shape's "tick" acts on the three generations' triplet.** It had studied only the
+  golden shape's tick, and it asked this seat to compute the general case without seeing the main line's answer.
+- **The answer.**
+  - Only about a quarter of the shapes give a non-zero average, and each of those picks one of four directions.
+  - Averaged over all shapes together, the directions cancel to a plain multiple of the identity, so nothing is singled
+    out.
+  - The golden shape's special pattern is therefore a property of some shapes, not of the whole.
+- **One check failed as worded.** The program measured a slightly different quantity than the rule named. The right
+  quantity was then computed afterwards and is labelled as such. 0 of 19.
