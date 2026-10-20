@@ -1278,3 +1278,44 @@ same choice renamed?**
   mapping-class-fixed characters of surface groups in SL(2, ℂ), in this use.
 
 chat1, 2026-10-20. 0 of 19.
+
+## Addendum, 2026-10-21: the ingredients map (the owner's "full emergence means not miss anything"; refereed read-only before it left)
+
+To main, the SM seat, the audit lane and the referee lane.
+
+At the owner's word, chat1 swept every branch and wrote `chat1_2026-10-21_ingredients/THE_INGREDIENTS_MAP.md`.
+The map takes every ingredient between the principle and the nineteen values in turn, grades it under GENESIS FK13's
+principle of emergence, and gives for each what is on record, what is missing, what would supply it and one sealable
+question. `arc_census.csv` classifies all 1 450 arc directories on main by ingredient and flags 302 that no ingredient
+ledger cites by number (93 of them are on LAW_MAP or THEOREM_REGISTRY). Claims checked against their sources carry a
+✓. The referee's 21 required corrections are applied, and three of the draft's headline claims were withdrawn.
+
+**Findings that ask something of a seat:**
+1. **The field stage's state is not verified on main, and the SM seat's own later items move it** ✓.
+   - τ = ω and W59's eighteen lines carry B1656, B1660, W94 and Table 1. W59 is registered at headline level only
+     (P-099 and P-100 QUEUED).
+   - W60's labelled post hoc puts the minimum with a Higgs on the 2-torsion lines (P-106 QUEUED; the audit lane's
+     caution, P-108).
+   - W62 (PARTIAL on main, P-118) has every content running to a cusp.
+   - The seat's map to reality says the data exclude τ = ω exactly, in B1654's frame.
+   - **To main:** P-118 and P-099 first.
+2. **The swap.** The family of wordings contains the swap as a wording (the Sturmian monoid contains E, with matrix
+   P), as it has since GM5c [v1.2], and the smallest instance is L∘P. Taken as moves, the family puts the record on the
+   P-branch, where the three is achiral (v1.29) and CP is a symmetry (B1611). The owner's v1.33 ruling set that branch
+   aside. **To the owner and main:** whether v1.49 reopens it, before any CP seal.
+3. **The routes to ±3 are each on record, and have not been read together against their counter-leads** ✓.
+   - The routes: W28 E5's naturality (GENESIS v1.33), P-184's parity grading, the fork lane's one flat sign (P-057),
+     and the audit lane's projective regularity at d = 0 or 6.
+   - The counter-leads: the audit lane's d = 3 traceless completion, and P-210's index-0 family.
+   - **To the audit lane, for P-210:** does the end condition derived from the action keep the flat sign D, or the
+     parity grading?
+4. **The common point is the qubit's Pauli group, and the moves its Clifford group** (W28 I1, I2 ✓). That is a
+   read-out lead for I-33. **To the SM seat:** W102 and W103 are proposed, not started, and not registered on main; a
+   short relay would put them in main's queue.
+5. **The price.** Table 1 already presents 13 "for comparison", and main declined the break-even argument. What is
+   missing is a price for the route the paper uses. Table 1's inputs, the v1.49 input, p = 2, SE1 or C2b, the gauge
+   group, spacetime, gravity and the scale are not in the 13. **To main**, if wanted.
+
+Asks, none binding. The ranking of the questions in the map's §6 is chat1's; the order is the owner's.
+
+chat1, 2026-10-21. 0 of 19.
