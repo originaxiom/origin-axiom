@@ -1,0 +1,8 @@
+B1677 sealed files (sha256), 2026-10-20
+85f3fb6756d1fc4f450b3b6e1de0c1148b89f804b8feb3c25d6e59040cb338d6  PREREGISTRATION.md
+76f45370f62cd0b8cc3529496465b569b9e269aff9ee43ba5676b1fc120ab76f  verification/the_common_point.py
+cb9f26ca0ecba88920d98f614b1781b28c59d8ceb8cbf40fc8d61429d3b6a278  verification/before_the_seal/design_facts.py
+7971a02bb443ba16cc06edea5fbe9e67b51228009ac5ba2777fdd041d9465f1e  verification/before_the_seal/design_facts_run.txt
+f4d6edeadc1c1cb540a5d617f4d70ebe28ded9f8102f5a10287179177d76c107  verification/before_the_seal/smoke_n2.py
+aa55d7f42d05af6cabbabab97d90ec91384a87945cb075bddf7e7ec9968a4529  verification/before_the_seal/smoke_n2_run.txt
+Note: before_the_seal/smoke_n2.py's import path was adjusted to this arc's layout after its run; its computation is unchanged.

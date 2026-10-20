@@ -1,0 +1,6 @@
+{'Dic2': 8, 'Dic3': 12, 'Dic4': 16, 'Dic5': 20, 'Dic6': 24, 'Dic7': 28, 'Dic8': 32, 'Dic9': 36, 'Dic10': 40, 'Dic11': 44, 'Dic12': 48, 'Dic13': 52, 'Dic14': 56, 'Dic15': 60, '2T': 24, '2O': 48, '2I': 120}
+n=2 Dic2: tested 24, common points [[0.0, 0.0, 0.0]]  (0.04 s)
+n=2 Dic3: tested 0, common points []  (0.00 s)
+n=2 2T: tested 24, common points []  (0.02 s)
+n=2 2O: tested 0, common points []  (0.27 s)
+n=2 2I: tested 120, common points []  (0.55 s)
