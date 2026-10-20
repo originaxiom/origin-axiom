@@ -1,0 +1,491 @@
+{
+ "status": "one run",
+ "proof": "W109_PROOF.md (2d10142d3)",
+ "cells": {
+  "C1": true,
+  "C2": true,
+  "C3": true,
+  "C4": true,
+  "C5 solvability": true,
+  "C5 orders": true
+ },
+ "C1": {
+  "Fricke tr(xy) + tr(x adj y) - tr x tr y": "0",
+  "triple identity residual": "0",
+  "Cayley-Hamilton at trace 0, x^2 + det(x) I": "[0, 0, 0, 0]",
+  "polarisation xy + yx - tr(xy) I": "[0, 0, 0, 0]"
+ },
+ "C2": {
+  "n = 3": {
+   "ordered triples": 6,
+   "R failures": [],
+   "L failures": [],
+   "R failure count": 0,
+   "L failure count": 0
+  },
+  "n = 4": {
+   "ordered triples": 24,
+   "R failures": [],
+   "L failures": [],
+   "R failure count": 0,
+   "L failure count": 0
+  }
+ },
+ "C3": {
+  "fixed points of R and L": [
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    2,
+    2
+   ]
+  ],
+  "fixed by the inversion": true,
+  "fixed by the swap": true,
+  "the reducer's R and L equal the hand formulas": true,
+  "R by the reducer": [
+   "y12",
+   "x2",
+   "-x1 + x2*y12"
+  ],
+  "L by the reducer": [
+   "x1",
+   "y12",
+   "x1*y12 - x2"
+  ]
+ },
+ "C4": {
+  "random words": 2400,
+  "worst relative error": 8.257208484046016e-15,
+  "relation residual": 1.0101795161136788e-15,
+  "the moves on (x1, x2, x3, y12, y13, y23, z)": {
+   "R_12": [
+    "y12",
+    "x2",
+    "x3",
+    "-x1 + x2*y12",
+    "z",
+    "y23",
+    "x2*z - y13"
+   ],
+   "L_12": [
+    "y12",
+    "x2",
+    "x3",
+    "-x1 + x2*y12",
+    "-x1*x2*x3 + x1*y23 + x2*y13 + x3*y12 - z",
+    "y23",
+    "-x1*x3 + y12*y23 + y13"
+   ],
+   "R_13": [
+    "y13",
+    "x2",
+    "x3",
+    "-x1*x2*x3 + x1*y23 + x2*y13 + x3*y12 - z",
+    "-x1 + x3*y13",
+    "y23",
+    "-x1*x2 + y12 + y13*y23"
+   ],
+   "L_13": [
+    "y13",
+    "x2",
+    "x3",
+    "z",
+    "-x1 + x3*y13",
+    "y23",
+    "x3*z - y12"
+   ],
+   "R_21": [
+    "x1",
+    "y12",
+    "x3",
+    "x1*y12 - x2",
+    "y13",
+    "-x1*x2*x3 + x1*y23 + x2*y13 + x3*y12 - z",
+    "-x2*x3 + y12*y13 + y23"
+   ],
+   "L_21": [
+    "x1",
+    "y12",
+    "x3",
+    "x1*y12 - x2",
+    "y13",
+    "z",
+    "x1*z - y23"
+   ],
+   "R_23": [
+    "x1",
+    "y23",
+    "x3",
+    "z",
+    "y13",
+    "-x2 + x3*y23",
+    "x3*z - y12"
+   ],
+   "L_23": [
+    "x1",
+    "y23",
+    "x3",
+    "-x1*x2*x3 + x1*y23 + x2*y13 + x3*y12 - z",
+    "y13",
+    "-x2 + x3*y23",
+    "-x1*x2 + y12 + y13*y23"
+   ],
+   "R_31": [
+    "x1",
+    "x2",
+    "y13",
+    "y12",
+    "x1*y13 - x3",
+    "z",
+    "x1*z - y23"
+   ],
+   "L_31": [
+    "x1",
+    "x2",
+    "y13",
+    "y12",
+    "x1*y13 - x3",
+    "-x1*x2*x3 + x1*y23 + x2*y13 + x3*y12 - z",
+    "-x2*x3 + y12*y13 + y23"
+   ],
+   "R_32": [
+    "x1",
+    "x2",
+    "y23",
+    "y12",
+    "-x1*x2*x3 + x1*y23 + x2*y13 + x3*y12 - z",
+    "x2*y23 - x3",
+    "-x1*x3 + y12*y23 + y13"
+   ],
+   "L_32": [
+    "x1",
+    "x2",
+    "y23",
+    "y12",
+    "z",
+    "x2*y23 - x3",
+    "x2*z - y13"
+   ]
+  },
+  "move sets": {
+   "six R_ij": {
+    "equations": 25,
+    "Groebner basis": [
+     "x1 - 2",
+     "x2 - 2",
+     "x3 - 2",
+     "y12 - 2",
+     "y13 - 2",
+     "y23 - 2",
+     "z - 2"
+    ],
+    "points": [
+     [
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+     ]
+    ],
+    "only (2, ..., 2)": true
+   },
+   "six L_ij": {
+    "equations": 25,
+    "Groebner basis": [
+     "x1 - 2",
+     "x2 - 2",
+     "x3 - 2",
+     "y12 - 2",
+     "y13 - 2",
+     "y23 - 2",
+     "z - 2"
+    ],
+    "points": [
+     [
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+     ]
+    ],
+    "only (2, ..., 2)": true
+   },
+   "all twelve": {
+    "equations": 49,
+    "Groebner basis": [
+     "x1 - 2",
+     "x2 - 2",
+     "x3 - 2",
+     "y12 - 2",
+     "y13 - 2",
+     "y23 - 2",
+     "z - 2"
+    ],
+    "points": [
+     [
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+     ]
+    ],
+    "only (2, ..., 2)": true
+   }
+  },
+  "the t = 0 frames": {
+   "z = 2": {
+    "on the variety": true,
+    "image under R_12": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "2",
+     "0",
+     "0"
+    ],
+    "moved": true
+   },
+   "z = -2": {
+    "on the variety": true,
+    "image under R_12": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "-2",
+     "0",
+     "0"
+    ],
+    "moved": true
+   }
+  }
+ },
+ "C5": {
+  "Q8": {
+   "order": 8,
+   "|Aut|": 24,
+   "|Inn|": 4,
+   "|Out|": 6,
+   "Inn inside Aut": true,
+   "derived series of Aut (orders)": [
+    24,
+    12,
+    4
+   ],
+   "Out solvable": true,
+   "Out abelian": false,
+   "|Aut| as expected": true,
+   "|Inn| as expected": true
+  },
+  "2T": {
+   "order": 24,
+   "|Aut|": 24,
+   "|Inn|": 12,
+   "|Out|": 2,
+   "Inn inside Aut": true,
+   "derived series of Aut (orders)": [
+    24,
+    12
+   ],
+   "Out solvable": true,
+   "Out abelian": true,
+   "|Aut| as expected": true,
+   "|Inn| as expected": true
+  },
+  "2O": {
+   "order": 48,
+   "|Aut|": 48,
+   "|Inn|": 24,
+   "|Out|": 2,
+   "Inn inside Aut": true,
+   "derived series of Aut (orders)": [
+    48,
+    12
+   ],
+   "Out solvable": true,
+   "Out abelian": true,
+   "|Aut| as expected": true,
+   "|Inn| as expected": true
+  },
+  "2I": {
+   "order": 120,
+   "|Aut|": 120,
+   "|Inn|": 60,
+   "|Out|": 2,
+   "Inn inside Aut": true,
+   "derived series of Aut (orders)": [
+    120,
+    60
+   ],
+   "Out solvable": true,
+   "Out abelian": true,
+   "|Aut| as expected": true,
+   "|Inn| as expected": true
+  },
+  "Dic_3": {
+   "order": 12,
+   "|Aut|": 12,
+   "|Inn|": 6,
+   "|Out|": 2,
+   "Inn inside Aut": true,
+   "derived series of Aut (orders)": [
+    12,
+    3
+   ],
+   "Out solvable": true,
+   "Out abelian": true,
+   "|Aut| as expected": true,
+   "|Inn| as expected": true
+  },
+  "Dic_4": {
+   "order": 16,
+   "|Aut|": 32,
+   "|Inn|": 8,
+   "|Out|": 4,
+   "Inn inside Aut": true,
+   "derived series of Aut (orders)": [
+    32,
+    4
+   ],
+   "Out solvable": true,
+   "Out abelian": true,
+   "|Aut| as expected": true,
+   "|Inn| as expected": true
+  },
+  "Dic_5": {
+   "order": 20,
+   "|Aut|": 40,
+   "|Inn|": 10,
+   "|Out|": 4,
+   "Inn inside Aut": true,
+   "derived series of Aut (orders)": [
+    40,
+    5
+   ],
+   "Out solvable": true,
+   "Out abelian": true,
+   "|Aut| as expected": true,
+   "|Inn| as expected": true
+  },
+  "Dic_6": {
+   "order": 24,
+   "|Aut|": 48,
+   "|Inn|": 12,
+   "|Out|": 4,
+   "Inn inside Aut": true,
+   "derived series of Aut (orders)": [
+    48,
+    6
+   ],
+   "Out solvable": true,
+   "Out abelian": true,
+   "|Aut| as expected": true,
+   "|Inn| as expected": true
+  },
+  "Dic_7": {
+   "order": 28,
+   "|Aut|": 84,
+   "|Inn|": 14,
+   "|Out|": 6,
+   "Inn inside Aut": true,
+   "derived series of Aut (orders)": [
+    84,
+    7
+   ],
+   "Out solvable": true,
+   "Out abelian": true,
+   "|Aut| as expected": true,
+   "|Inn| as expected": true
+  },
+  "Dic_8": {
+   "order": 32,
+   "|Aut|": 128,
+   "|Inn|": 16,
+   "|Out|": 8,
+   "Inn inside Aut": true,
+   "derived series of Aut (orders)": [
+    128,
+    8
+   ],
+   "Out solvable": true,
+   "Out abelian": true,
+   "|Aut| as expected": true,
+   "|Inn| as expected": true
+  },
+  "Dic_9": {
+   "order": 36,
+   "|Aut|": 108,
+   "|Inn|": 18,
+   "|Out|": 6,
+   "Inn inside Aut": true,
+   "derived series of Aut (orders)": [
+    108,
+    9
+   ],
+   "Out solvable": true,
+   "Out abelian": true,
+   "|Aut| as expected": true,
+   "|Inn| as expected": true
+  },
+  "Dic_10": {
+   "order": 40,
+   "|Aut|": 160,
+   "|Inn|": 20,
+   "|Out|": 8,
+   "Inn inside Aut": true,
+   "derived series of Aut (orders)": [
+    160,
+    10
+   ],
+   "Out solvable": true,
+   "Out abelian": true,
+   "|Aut| as expected": true,
+   "|Inn| as expected": true
+  },
+  "Dic_11": {
+   "order": 44,
+   "|Aut|": 220,
+   "|Inn|": 22,
+   "|Out|": 10,
+   "Inn inside Aut": true,
+   "derived series of Aut (orders)": [
+    220,
+    11
+   ],
+   "Out solvable": true,
+   "Out abelian": true,
+   "|Aut| as expected": true,
+   "|Inn| as expected": true
+  },
+  "Dic_12": {
+   "order": 48,
+   "|Aut|": 192,
+   "|Inn|": 24,
+   "|Out|": 8,
+   "Inn inside Aut": true,
+   "derived series of Aut (orders)": [
+    192,
+    12
+   ],
+   "Out solvable": true,
+   "Out abelian": true,
+   "|Aut| as expected": true,
+   "|Inn| as expected": true
+  }
+ }
+}
