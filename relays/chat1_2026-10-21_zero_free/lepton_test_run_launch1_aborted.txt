@@ -1,0 +1,2 @@
+[     0.3s] stage Q
+[  1210.7s] assignment 11 18 kept; 16 distinct tau*; best 4.564885743781783e-22
