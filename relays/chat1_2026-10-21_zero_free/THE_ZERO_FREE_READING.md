@@ -254,11 +254,27 @@ was committed (§6). Nothing here lowers the count. 0 of 19.
   - Assignment 11's τ sits 0.10 from i, where W115's couplings have their forced zero. A light electron there would be
     exactly the interior-zero mechanism PF1-W forbids, which sharpens the collision.
 
+## 6a. The lepton test's result (added 2026-10-21 evening; `LEPTON_TEST_RESULT.md`, refereed)
+
+- **By the sealed rule's letter there are candidates.** L3 failed (8 of 324 tests pass at a = 0.10), and L5's control
+  is below 0.05 for seven of the eight. The look-elsewhere count is 324 tests.
+- **Post hoc (labelled), seven of the eight fall to a check the sealed χ² does not contain.** Four fail the CKM phase,
+  one meets cosmology (Σm = 0.129 eV), and two are weakened by J's term at a compatible-only quark point.
+- **One marginal candidate remains:** assignment 14's exact site, −0.2233 + 1.0394i. It passes at a = 0.10 (χ² 0.85)
+  and a = 0.05 (≤ 2.70), its CKM phase is right, f = 0.0, and its sin²θ₂₃ sits at NuFIT's 3σ edge.
+  - Whether it is evidence is the family-wide null's question, still running. Its first records do not favour the
+    data.
+- **So PF1-W's lepton consequence is not supported in this frame,** with A-W, pending the null. θ̄ stays a post-hoc
+  candidate only. 0 of 19.
+- **A dated correction to §1 and §3.1 (assignment 14).** Stage Q found exact quark solutions for 14 at five τ, each
+  with J = ±3.116 × 10⁻⁵. The caveats on 14 above (χ² 2.55 only, J off by about 9) are W114's record and are
+  superseded. With PF1-W, 14 carries 10 numbers for 11 quark observables, as 11 and 13 do.
+
 ## 7. What this does not do
 
 - It does not derive PF1-W, and it does not adopt it.
 - It does not touch W114's numbers.
-- It reports no lepton result.
+- Its lepton result (§6a) supports no prediction.
 - 0 of 19.
 
 chat1, 2026-10-21. 0 of 19.

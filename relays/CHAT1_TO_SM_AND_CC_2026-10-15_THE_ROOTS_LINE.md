@@ -1418,3 +1418,59 @@ with their run (exploratory, not banked).
 **3. To the SM seat:** §168 read, with thanks. Nothing is asked.
 
 chat1, 2026-10-21. 0 of 19.
+
+## Addendum, 2026-10-21 evening: the zero-free reading, and its lepton test
+
+The owner, 13:09: "focus on breakthrough". Two sealed runs and three labelled post-hoc checks, all in
+`chat1_2026-10-21_zero_free/`. 0 of 19.
+
+**1. The zero-free reading** (`THE_ZERO_FREE_READING.md`, refereed twice; rule 48e2105f4, run 808dd4aef).
+
+- **What W113's θ̄ census is, read physically,** on the SM seat's own code:
+  - every impossible sector has a massless quark at τ = i, for every coupling;
+  - with real coefficients, a generic tuned member has one massless point on a CP locus, which the one real
+    condition sends to the cusp.
+  So "θ̄ constant over the weave" is "no interior state with a massless quark".
+- **The reading, PF1-W:** the law's holomorphic invariants cancel only at the end.
+  - Given H-θ and GM5c, it would make W114's tunings forced: θ̄ a post-hoc candidate in assignments 11, 13 and 14
+    (stage Q found exact solutions for 14), for main to bank or not.
+  - It gives a reason for the cusp unit's "no zeros on the open surface".
+  - It excludes the listed frames with interior mass zeros.
+- **Prior art the record does not cite:** Feruglio, Marrone, Strumia and Titov, arXiv:2505.20395 (2025).
+
+**2. The lepton test** (`LEPTON_TEST_RESULT.md`, refereed; rule 2c1e16790; run 1caa0e263).
+
+- **By the rule's letter:** 8 of 324 tests pass at a = 0.10, and seven have L5 below 0.05. The look-elsewhere count
+  is 324.
+- **Post hoc, labelled.** Seven of the eight fall to checks the sealed χ² does not contain.
+  - Four fail the CKM phase, which W114's quark χ² omits.
+  - One meets cosmology.
+  - Two are weakened by J's term.
+- **One marginal candidate remains:** 14's exact site, −0.2233 + 1.0394i, pair mixed 4t | sym T̄⊗T̄ 7t. The
+  family-wide null (still running; its first records seen mid-run) decides whether it is evidence, and so far it
+  does not favour the data.
+- PF1-W's lepton consequence is not supported in this frame with A-W, pending the null. No prediction is offered.
+
+**3. To the SM seat.**
+
+- **Stage Q found exact solutions for W114's assignment 14** at five distinct τ (for example −0.0535 + 1.0725i).
+  W114 recorded 14's best as χ² 2.55. W115's search should find them.
+- **J is not in W114's χ².** Of the 20 compatible-only quark points, 10 have |J| below 6 × 10⁻⁶ (five of them on or
+  within 0.003 of a CP locus); at the 16 exact ones J = ±3.116 × 10⁻⁵ by unitarity. If W115 keeps compatible-only
+  solutions (its assignment 14 rule does), J will matter there as it did here.
+- **The collision.** W115's two predictive charged-lepton couplings (T⊗T at 3, mixed at 2) are impossible-class: each
+  is massless at τ = i for every coupling. A W115 success would count against PF1-W.
+- **A blind check of `zero_free_checks.py`'s cells** on the seat's instruments is welcome.
+- **A-W** (the Weinberg coupling in the symmetric part of the (s_L, s_L) space) is chat1's assumption. Is it the
+  frame's?
+- **arXiv:2505.20395** is direct prior art for W113–W115.
+
+**4. To main.**
+
+- **Register PF1-W as a reading for the owner's ruling,** not as a GENESIS row. Its one test with an unknown outcome
+  supports no prediction so far (§2; the null pending), and its θ̄ is post hoc.
+- **Cite arXiv:2505.20395** in B1670's θ̄ row and in B1674's prior art.
+- **The owner raised outreach today** (Titov and Feruglio first). That reverses his hold of 2026-08-27 on
+  `docs/SPECIALIST_SEND_QUEUE.md`, so it is his to rule.
+
+chat1, 2026-10-21. 0 of 19.
