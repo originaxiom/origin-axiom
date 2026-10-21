@@ -1,0 +1,31 @@
+[   710.7s] assignment 11: W114 reproduced True; 3 distinct solutions [(0.0513, 1.0679, '6.1e-19'), (0.0159, 1.1467, '2.5e-17'), (-0.0529, 1.0866, '2.4e-15')]
+[  1428.3s] assignment 13: W114 reproduced True; 2 distinct solutions [(0.0687, 1.5341, '1.1e-21'), (-0.0687, 1.5341, '6.9e-21')]
+[  2032.0s] assignment 14: W114 reproduced True; 4 distinct solutions [(-0.0856, 1.1993, '1.8e-19'), (0.0856, 1.1993, '1.2e-16'), (-0.4239, 1.5832, '2.5e+00'), (0.5, 1.6854, '3.3e+00')]
+[  2032.5s] T1 11/0/T(x)T k=3 chi2_min 546.6 exact fits 0
+[  2033.0s] T1 11/0/mixed k=2 chi2_min 563.6 exact fits 0
+[  2033.6s] T1 11/1/T(x)T k=3 chi2_min 499.8 exact fits 0
+[  2034.1s] T1 11/1/mixed k=2 chi2_min 577.2 exact fits 0
+[  2034.7s] T1 11/2/T(x)T k=3 chi2_min 537.6 exact fits 0
+[  2035.1s] T1 11/2/mixed k=2 chi2_min 566 exact fits 0
+[  2035.6s] T1 13/0/T(x)T k=3 chi2_min 238.2 exact fits 0
+[  2036.1s] T1 13/0/mixed k=2 chi2_min 663.1 exact fits 0
+[  2036.5s] T1 13/1/T(x)T k=3 chi2_min 238.2 exact fits 0
+[  2036.8s] T1 13/1/mixed k=2 chi2_min 663.1 exact fits 0
+[  2037.2s] T1 14/0/T(x)T k=3 chi2_min 462.9 exact fits 0
+[  2037.5s] T1 14/0/mixed k=2 chi2_min 585.1 exact fits 0
+[  2037.9s] T1 14/1/T(x)T k=3 chi2_min 462.9 exact fits 0
+[  2038.2s] T1 14/1/mixed k=2 chi2_min 585.1 exact fits 0
+[  2038.9s] T1 14/2/T(x)T k=3 chi2_min 212.2 exact fits 0
+[  2039.3s] T1 14/2/mixed k=2 chi2_min 666.6 exact fits 0
+[  2039.7s] T1 14/3/T(x)T k=3 chi2_min 163.4 exact fits 0
+[  2040.1s] T1 14/3/mixed k=2 chi2_min 687.2 exact fits 0
+[  2042.6s] V0 5.131037549105777e-16 5.883689949573711e-21 True
+[  2065.5s] T2 11 T(x)T k=3 chi2_min 242.9
+[  2087.9s] T2 11 mixed k=2 chi2_min 561.1
+[  2102.6s] T2 13 T(x)T k=3 chi2_min 131.6
+[  2117.6s] T2 13 mixed k=2 chi2_min 638.8
+[  2144.4s] T2 14 T(x)T k=3 chi2_min 109.2
+[  2171.0s] T2 14 mixed k=2 chi2_min 579.2
+[  2288.4s] T3 p (family) 0.507 data's family-best 163.41930477652005
+[  2288.4s] cells {'V0': True, 'V1': True, 'V2': True, 'V3': True, 'V4': True, 'V5': True}
+[  2288.4s] written the_shared_tau.json
