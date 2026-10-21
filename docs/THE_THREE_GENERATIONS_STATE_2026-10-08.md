@@ -811,6 +811,12 @@ Under the owner's rulings, the table's rows split into two groups:
   - The count of two rests on two named choices: persistence, read as fixed up to conjugation, and the democratic
     extension of the moves.
   - GENESIS v1.50 is to regrade GM1 to POSTULATED, in an equivalent form. 0 of 19.
+- **W111, the surface route** (P-211; PROVED by hand at main's ask; six checks, one recorded run; relay §169).
+  - At genus g ≥ 2 the mapping classes fix no non-trivial SL(2, ℂ) character.
+  - The odd-p Heisenberg character is fixed at every genus; the 2-group one only at g = 1, as Q₈.
+  - So on this route the prime 2, forced by the rank-two target, gives two records.
+  - Relay §169 also sorts W59 for main's re-run: what stands as computed, and what is superseded as the state.
+  - A WEAVE result about the forms. 0 of 19.
 
 ## Questions open with main
 
@@ -832,7 +838,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W110 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W111 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§168).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§169).

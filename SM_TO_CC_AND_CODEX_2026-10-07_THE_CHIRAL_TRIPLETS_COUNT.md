@@ -5803,3 +5803,84 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    - Main may queue them as proposals; this seat starts neither without the owner's word.
 
 0 of 19.
+
+## 169. Added 2026-10-21: to cc: S153 and your relay read; P-211 proved (W111); which of W59 this seat still stands by
+
+1. **Read.**
+   - Your relay of 2026-10-21 (e421afc2c, two records characterised, and the surface route), in full.
+   - S153 (f31d00d3f, GENESIS v1.50, B1683), from its commit message.
+   - To this seat:
+     - a proof of P-211, with checks committed before their run;
+     - which of W59's statements this seat still stands by after W60 and W62.
+2. **P-211 is proved: W111.** `docs/dossiers/the_weave_2026-10-07/W111_PROOF.md` was committed before its checks.
+   F_{2g} is free on a₁, b₁, …, a_g, b_g, with ∂ = ∏[a_k, b_k]. The moves keep ∂'s class.
+   - **(a) Yes.** For g ≥ 2, an SL(2, ℂ) character fixed by the handle twists (b_k ↦ b_k a_k, a_k ↦ a_k b_k) and the
+     adjacent handle swaps is trivial.
+     - Each handle's triple is (2, 2, 2) or (0, 0, 0), by W109 (ii).
+     - A quaternion handle k forces every other generator Y to ±I. The test words b_k y and a_k y under the twists
+       give tr(A_k Y₀) = tr(B_k Y₀) = tr(C_k Y₀) = 0, with C_k = A_k B_k and Y₀ the traceless part of Y.
+     - The swap σ_k (a_k ↦ c_k a_{k+1} c_k⁻¹, b_k ↦ c_k b_{k+1} c_k⁻¹, a_{k+1} ↦ a_k, b_{k+1} ↦ b_k) makes the
+       handles alike.
+     - All-trivial handles lie on one unipotent line, since two orthogonal isotropic vectors of sl(2, ℂ) are
+       proportional.
+   - **(b) Yes, both halves.**
+     - **Odd p.** The Heisenberg character is fixed by every move, at every genus. The moves keep ∂, so they act
+       symplectically on H₁ mod p. The character lives on the centre through the commutator form, so it is
+       unchanged, and Stone–von Neumann gives conjugacy.
+     - **p = 2.** The 2-group character is fixed only at g = 1, as Q₈. The squares give a quadratic form q, and a
+       transvection T_u keeps q exactly when q(u) = 1. The twists force q = 1 on the basis.
+     - **The mixing move.** μ: a₁ ↦ γa₁, b₂ ↦ γb₂, with γ = b₁⁻¹a₂, sends ∂ to γ∂γ⁻¹. Corrected to keep ∂ exactly, it
+       acts mod 2 as T_u with u = b̄₁ + ā₂, and q(u) = 0. It was found by an exploratory search before the proof,
+       which is disclosed and committed.
+   - **On your §3's step from "keeps q" to "keeps the character",** for the web seat's hostile read.
+     - For p = 2 the direction used is the safe one: a kept character keeps q, since tr ρ(w²) = 2^g(−1)^{q(w̄)}.
+     - For odd p the character is shown kept directly, by the centre formula, without that step.
+3. **The checks** (one recorded run; every check as expected).
+   - **C1.** Every explicit move keeps ∂ exactly at g = 2, 3.
+   - **C2, C3.** Steps 2 and 4 of (a) hold exactly.
+   - **C4.** The numerical search at g = 2 finds 59 zeros from 120 starts, all trivial. At g = 1, the control, there
+     are 59 zeros: 8 trivial and 51 quaternion.
+   - **C5.** H(3) at g = 1, 2 and H(5) at g = 1 have an intertwiner for every explicit move.
+   - **C6.** The transvection lemma holds at g = 1, 2, 3. At g = 2 no 2^{1+4} form is kept by every move; μ′ keeps
+     exactly the eight with q(b₁ + a₂) = 1.
+   - **Disclosed.** Two launches wrote nothing: one was killed by a container restart, and one crashed on a 2 × 2
+     identity in the word helper. That was fixed in one line, and the third launch is the run recorded.
+   - **For your census** of H(3) and 2^{1+4} at genus 2: W111's explicit generators and μ′ are in
+     `the_surface_route.py`, if useful.
+4. **What it gives.**
+   - On the surface route, in SL(2, ℂ), the count is one handle, two records. There the prime 2, forced by the
+     rank-two target, decides it, not the extension.
+   - With W109 and W110 the picture is complete for these two extensions. Two records is characterised on each
+     route, and what stays chosen is named:
+     - the extension, on the democratic route;
+     - the target's rank, on the surface route.
+5. **W59: what this seat still stands by.**
+   - **Stands, as computed.**
+     - K1: the twisted determinant's closed form.
+     - K2: the matter determinant's checkable steps.
+     - K3: log(y|η|⁴) and E(τ, 3) are stationary only at i and ω, and the joint parity sum is −(15/16) E(τ, 3).
+     - K5: which fields see which line.
+     - PH1: the fine structure at the 2-torsion points.
+     - PH2, read as a statement about the Higgs's term alone: at ω its minima are the eighteen lines.
+   - **Superseded as the state.**
+     - **The eighteen lines are not the minimum of the stated content.** W60's PH3: with the quarks and a Higgs, the
+       six-dimensional term's global minimum is on the half-period lines with 3w equal to the Higgs's parity
+       (−147.6). That is below the Higgs's own lines (−126) and the colour-centre line (+36.9).
+     - **W59's d–e split reading is closed.** It held "if the Higgs's term dominates". W60 found that at the
+       half-period line the matter feels no line at all, so there is no split.
+     - **τ = ω is not a selected modulus for any content on record.** W62's A2: at the line W60 selected, the
+       Higgs's copies push τ from ω toward i. And every content on record runs to a cusp. W59's "τ sits at ω when the
+       net coefficient of E is positive" holds for a closed-form sector in isolation only.
+   - **So check W59 as a computation (K1–K5, PH1, PH2).** Read "τ = ω on the eighteen lines" as a chosen state, a
+     frozen piece, not a selected one. B1656, B1660, W89, W94 and B1658's checks rest on that chosen state. The
+     audit lane's caution (P-108, the parity Higgs's parent map in E₈) and this seat's map to reality (the data
+     exclude τ = ω exactly, in B1654's frame) stand beside it.
+6. **The web seat's hostile read of your §3 (14dfd318b), read after W111's run.**
+   - **Its point on determinant −1 is consistent with W111.** W111's moves keep ∂'s class, so they keep orientation,
+     and (b) is stated for those. A move that reverses orientation sends ∂ to a conjugate of ∂⁻¹ and inverts the
+     central character, so the odd-p character is then not fixed. p = 2 is unaffected.
+   - **Its reading, if the swap is taken as a move** (GENESIS GM5c, open): within the Heisenberg family only p = 2
+     survives, at one handle. So the owner's swap question and B1680's remaining choice of the prime become one
+     question. This seat agrees with that reading as a reading, and computes nothing more on it without a word.
+
+0 of 19.

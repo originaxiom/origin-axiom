@@ -2599,6 +2599,65 @@ def test_the_paper_draft7():
 
 
 
+def test_w111_the_surface_route():
+    """W111 (proof bfd9ffadc; checks script 663a7904a with the fix 4278ac3b1; one recorded run fdbec8e8e): every check
+    as expected; the explicit moves recomputed in process: the handle twists, the swap and mu' keep the boundary word,
+    mu' mod 2 is the transvection along b1 + a2, and the transvection lemma holds at g = 2"""
+    import itertools
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_surface_route.json").read_text(encoding="utf-8"))
+    assert d["status"] == "one run" and all(d["cells"].values()) and len(d["cells"]) == 6
+    c4 = d["C4"]["g = 2"]
+    assert c4["zeros"] > 0 and c4["zeros by kind"]["trivial"] == c4["zeros"]
+    assert d["C6"]["g = 2, the sixteen forms (q on a1 b1 a2 b2)"]["kept by every move"] == []
+
+    def inv(w):
+        return tuple(-x for x in reversed(w))
+
+    def free(w):
+        st = []
+        for x in w:
+            if st and st[-1] == -x:
+                st.pop()
+            else:
+                st.append(x)
+        return tuple(st)
+
+    def apply(phi, w):
+        out = []
+        for x in w:
+            out.extend(phi.get(x, (x,)) if x > 0 else inv(phi.get(-x, (-x,))))
+        return free(out)
+    D = (1, 2, -1, -2, 3, 4, -3, -4)
+    c1 = (1, 2, -1, -2)
+    gamma = (-2, 3)
+    mu = {1: gamma + (1,), 4: gamma + (4,)}
+    mup = {x: free(inv(gamma) + mu.get(x, (x,)) + gamma) for x in (1, 2, 3, 4)}
+    moves = [{2: (2, 1)}, {1: (1, 2)}, {4: (4, 3)}, {3: (3, 4)},
+             {1: free(c1 + (3,) + inv(c1)), 2: free(c1 + (4,) + inv(c1)), 3: (1,), 4: (2,)}, mup]
+    assert all(apply(phi, D) == D for phi in moves)
+    M = np.zeros((4, 4), dtype=int)
+    for a in range(1, 5):
+        for x in mup.get(a, (a,)):
+            M[abs(x) - 1, a - 1] ^= 1
+    W = np.array([[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]])
+    u = np.array([0, 1, 1, 0])
+    T = np.array([(np.eye(4, dtype=int)[j] + (np.eye(4, dtype=int)[j] @ W @ u % 2) * u) % 2 for j in range(4)]).T
+    assert (M == T).all()
+    vecs = [np.array(v) for v in itertools.product((0, 1), repeat=4)]
+    for qb in itertools.product((0, 1), repeat=4):
+        q = {tuple(v): (int(v @ np.array(qb)) + int(v[0] * v[1]) + int(v[2] * v[3])) % 2 for v in vecs}
+        for uu in vecs[1:]:
+            Tu = np.array([(e + (e @ W @ uu % 2) * uu) % 2 for e in np.eye(4, dtype=int)]).T
+            keeps = all(q[tuple(Tu @ v % 2)] == q[tuple(v)] for v in vecs)
+            assert keeps == (q[tuple(uu)] == 1)
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W111. The surface route (P-211), by hand" in note
+    relay = (ROOT / "SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md").read_text(encoding="utf-8")
+    assert "## 169. Added 2026-10-21" in relay
+
+
 def test_w110_the_kept_words():
     """W110 (proof 6ed2c3373; checks script 69313b426; one run a7f3878bb): every check as expected; Whitehead's count
     recomputed in process on random cyclic words of F_3 and F_4, with the contact bound that forces n_i = 0 for n >= 3,

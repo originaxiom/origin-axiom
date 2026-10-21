@@ -1,5 +1,29 @@
 # Changelog
 
+## W111: the surface route, proved by hand; W59 sorted for main's re-run (relay §169)
+
+- **Main's asks.**
+  - A proof of P-211, with checks committed before their run.
+  - Which of W59 this seat still stands by after W60 and W62.
+- **The theorem.** Here the moves are the mapping classes of a surface with one boundary.
+  - At genus 2 or more they fix no non-trivial SL(2, ℂ) character.
+  - The odd-p Heisenberg character is fixed at every genus.
+  - The 2-group one is fixed only at genus 1, as Q₈, the quaternion point.
+  - So on this route the prime 2 gives two records.
+- **The order.** The proof was committed before its checks (bfd9ffadc), the script before its run (663a7904a), and
+  the output before it was read (fdbec8e8e). All six checks came out as expected.
+  - **Disclosed.** Before the proof, an exploratory search found the mixing move.
+  - **Two launches wrote nothing.** A container restart killed the first. The second crashed on a 2 × 2 identity,
+    fixed in one line (4278ac3b1).
+- **W59.**
+  - **Stands, as computed:** K1–K5 and PH1, and PH2 as a statement about the Higgs's term alone.
+  - **Superseded as the state:** the eighteen lines (by W60's half-period minimum), and τ = ω (by W62).
+- **Surfaces.**
+  - The proof, its exploration, the script and its output.
+  - The NOTE: a section, a header bullet, a table row and a files entry.
+  - Relay §169, and the ledger: three rows and the relay row.
+  - The state page, and a test. 0 of 19.
+
 ## Corrections after main's S152: two records characterised, not derived (relay §168)
 
 - **Read.**

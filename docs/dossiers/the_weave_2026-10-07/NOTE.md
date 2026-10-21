@@ -367,6 +367,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   four checks, one run, every one as expected): for n ≥ 3 no non-trivial conjugacy class of F_n keeps even its cyclic
   length under every transvection, so none is kept, at any length; at n = 2 the kept classes are the powers of
   [a, b]. A WEAVE result about the forms.
+- W111 (the surface route, P-211, at main's ask; PROVED by hand, the proof committed before its checks; six checks,
+  one recorded run, every one as expected): at genus g ≥ 2 the mapping classes fix no non-trivial SL(2, ℂ) character;
+  the odd-p Heisenberg character is fixed at every genus; the 2-group one only at g = 1, as Q₈. On this route the
+  prime 2, not the extension, gives two records. A WEAVE result about the forms.
 
 ## The setting
 
@@ -7658,6 +7662,78 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W111. The surface route (P-211), by hand: at genus g ≥ 2 the mapping classes fix no non-trivial SL(2, ℂ) character; the odd-p Heisenberg character is fixed at every genus; the 2-group one only at g = 1, as Q₈ (`W111_PROOF.md`; checks `the_surface_route.py`)
+
+**Why.** Main's relay of 2026-10-21 (two records characterised, and the surface route, §4) asks this seat for a proof
+of P-211, with checks committed before their run. The question is the other natural extension of the moves beyond
+two records: a surface's own mapping classes, in place of every transvection (relay §168).
+
+**The order.**
+- The proof (`W111_PROOF.md`) was worked by hand and committed first (bfd9ffadc), with six checks, their expected
+  outcomes and priors.
+- The checks script was committed before its run (663a7904a), and its output before it was read (fdbec8e8e).
+
+**Disclosed.**
+- **An exploratory search came first.** It was run before the proof, to find an explicit move that mixes two handles.
+  It found μ: a₁ ↦ γa₁, b₂ ↦ γb₂, with γ = b₁⁻¹a₂. Its script and output (`the_surface_route_exploration.py`) were
+  committed with the proof.
+- **Two launches wrote nothing.**
+  - The first was killed by a container restart.
+  - The second crashed in C5: the word helper began from a 2 × 2 identity, so the larger matrices of C5 and C6
+    could not multiply.
+  - Only the traceback was read; C1–C4's values went unread. A one-line fix was committed (4278ac3b1), and the third
+    launch is the one run recorded.
+
+**The theorem (PROVED).** F_{2g} is free on a₁, b₁, …, a_g, b_g, with boundary word ∂ = ∏[a_k, b_k]. The moves of
+the surface route are the automorphisms keeping ∂'s class: the mapping classes (Zieschang).
+- **(a)** For g ≥ 2, an SL(2, ℂ) character fixed by the handle twists and the adjacent handle swaps is trivial.
+  - Each handle is trivial or quaternion (W109 (ii)).
+  - A quaternion handle forces every other generator to ±I, through the trace form.
+  - The swaps make the handles alike.
+  - All-trivial handles lie on one unipotent line.
+- **(b)** For odd p, the Heisenberg character is fixed by every move, at every genus.
+  - The moves act symplectically on H₁ mod p, since they keep ∂.
+  - The character lives on the centre, through the commutator form.
+  - Stone–von Neumann gives conjugacy.
+- **(c)** The extraspecial 2-group character is fixed only at g = 1, where it is Q₈.
+  - The squares give a quadratic form q.
+  - A transvection T_u keeps q exactly when q(u) = 1.
+  - The handle twists force q = 1 on the basis, and μ′ (μ made to keep ∂ exactly) is T_u with q(u) = 0.
+
+**The checks (one run; every check as expected).**
+
+| check | expected | prior | result |
+| --- | --- | --- | --- |
+| C1 | the explicit moves keep ∂ exactly at g = 2, 3; the inverses compose to the identity; μ′ mod 2 is T_{b₁+a₂}; the twists mod 2 are T_{a_k}, T_{b_k} | 95% | **held** — all of it, at both genera |
+| C2 | step 2 of (a), exact: Y = ±I only | 97% | **held** — exactly ±I |
+| C3 | step 4 of (a), exact: X ∝ N | 99% | **held** |
+| C4 | (a) by numerical search at g = 2: every zero trivial; at g = 1 the zeros trivial or quaternion | 85% | **held** — g = 2: 59 zeros from 120 starts, all trivial; the other 61 ends at defect ≥ 0.198. g = 1: 59 zeros, 8 trivial and 51 quaternion |
+| C5 | (b): an intertwiner for every explicit move, H(3) at g = 1, 2 and H(5) at g = 1; the character formula | 95% | **held** — smallest singular values ≈ 10⁻¹⁶, the next ≈ √3 for H(3); the intertwiners unitary up to scale; 0 formula failures |
+| C6 | (c): the transvection lemma at g = 1, 2, 3; one form equal to 1 off zero at g = 1, none at g = 2, 3; at g = 2 none of the sixteen forms kept by every move | 95% | **held** — the lemma without failure; Arf-1 counts 1, 6, 28; at g = 2 the twists keep only 1111, μ′ keeps exactly the eight forms with q(b₁ + a₂) = 1, and no form is kept by every move |
+
+**What it shows.**
+- **On the surface route, in SL(2, ℂ), the count is one handle: two records.** It is reached by the rank-two target,
+  not by the democratic extension, which W109 and W110 used.
+- **The prime is what decides it.** In the Heisenberg family the odd primes keep a fixed point at every genus. Only
+  p = 2 is confined to one handle. Main's §3 argument is proved: on this route it is p = 2, not the extension, that
+  gives two records.
+- **The two routes compared.**
+  - Under democracy the count of two holds on words with no target (W110) and on characters in SL(2, ℂ) (W109).
+  - Under the surface's moves it holds on characters in SL(2, ℂ) (this arc), but not on words, since the boundary
+    word is kept at every genus.
+  - **Either way two records is characterised, not derived** (relay §168). What remains chosen is named: the target's
+    rank (here SL(2), which fixes p = 2) on the surface route, and the extension on the democratic route.
+- **Scope: orientation.** The moves keep ∂'s class, so they keep orientation. A move that reverses it sends ∂ to a
+  conjugate of ∂⁻¹ and inverts the central character, so the odd-p character is then not fixed. p = 2 is unaffected.
+  The web seat's hostile read of main's argument (14dfd318b, read after this arc's run) makes this point. It is
+  consistent with (b) as stated. Taking such a move is GENESIS GM5c's swap question, which stays open.
+- **Prior art.** Elementary, and probably known in some form. This seat has not searched the literature; main's ask
+  to the referee lane covers it.
+
+**Status.** PROVED (by hand; the proof committed before its checks; six checks, one recorded run, every one as
+expected; two launches that wrote nothing, disclosed). A WEAVE result about the forms: every mapping class and every
+character of the stated kinds, at every genus. 0 of 19.
+
 ## W110. The word side of the record count, by hand: for n ≥ 3 no non-trivial conjugacy class of F_n keeps even its length under every transvection, so none is kept; at n = 2 the kept classes are the powers of [a, b] (`W110_PROOF.md`; checks `the_kept_words.py`)
 
 **Why.** Main's relay of 2026-10-20 (two records derived, §2) asks this seat for the word-side cell C4 from its relay
@@ -9585,6 +9661,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W111 | PROVED (by hand; the proof committed before its checks; six checks, one recorded run, every one as expected; two launches that wrote nothing, disclosed) | the surface route (P-211): at g ≥ 2 an SL(2, ℂ) character fixed by the handle twists and swaps is trivial (a quaternion handle forces the rest to ±I; the swaps make the handles alike); the odd-p Heisenberg character is fixed by every mapping class at every genus (symplectic action, Stone–von Neumann); the 2-group one only at g = 1, as Q₈ (a transvection keeps q exactly when q(u) = 1; the explicit mixing move μ′ moves it); the numerical search at g = 2 finds 59 zeros, all trivial. A WEAVE result about the forms |
 | W110 | PROVED (by hand; the proof committed before its checks; four checks, one run, every one as expected) | the word side of the record count: for n ≥ 3 no non-trivial conjugacy class of F_n keeps its cyclic length under every R_ij^{±1} (Whitehead's count, (n − 2)·n_i ≤ 0), so none is kept by the transvections, even up to inversion; at n = 2 the classes kept by L and R are the powers of [a, b]; the census (34,998, 31,795 and 70,746 classes at n = 2, 3, 4) agrees; the kept character is the one singular point of κ = −2 (a reading). A WEAVE result about the forms |
 | W109 | PROVED (by hand; the proof committed before its checks; five checks, one run, every one as expected) | B1677 for every n ≥ 3: a character of F_n in SL(2, ℂ) fixed by every transvection is trivial (Fricke's identity on a_i a_j⁻¹ leaves t ∈ {0, 2}; t = 0 fails by the trace-form frame; t = 2 is trivial by Horowitz–Procesi); at n = 2 the fixed characters of R and L are (2, 2, 2) and the quaternion point; the class reading for every finite subgroup of SU(2), since the transvections generate a perfect group and Out(G) is solvable; the n = 3 Groebner basis is exactly the trivial point; SU(2) and a finite image not needed. A WEAVE result about the forms |
 | W108 | COMPUTED (the rule first; one run, blind to main's; every cell as predicted) | the record count's open case: Epi(F₃, 2I) = 1,601,280 (Hall's formula agrees), 13,344 classes and 26,688 characters, none fixed by every move, the full moves and the transvections each transitive; Q₈ at n = 2 one class fixed even by ⟨L, R⟩, at n = 3 14 classes in one orbit; 2I at n = 2 76 classes in two orbits, none fixed |
@@ -9676,6 +9753,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `W111_PROOF.md`: the proof, committed before its checks; `the_surface_route_exploration.py` → `the_surface_route_exploration_run.txt`: the exploratory search for the mixing move, run before the proof (disclosed); `the_surface_route.py` → `the_surface_route.json` and `the_surface_route_run.txt`: W111, the checks of the surface route (one recorded run).
 - `W110_PROOF.md`: the proof, committed before its checks; `the_kept_words.py` → `the_kept_words.json` and `the_kept_words_run.txt`: W110, the checks of the word side of the record count (one run).
 - `W109_PROOF.md`: the proof, committed before its checks; `the_record_count_for_every_n.py` → `the_record_count_for_every_n.json` and `the_record_count_for_every_n_run.txt`: W109, the checks of B1677 for every n ≥ 3 (one run).
 - `W108_RULE.md`: the rule, committed before the code; `the_icosahedral_common_point.py` → `the_icosahedral_common_point.json` and `the_icosahedral_common_point_run.txt`: W108, the binary icosahedral case of the record count (one run, blind to main's).

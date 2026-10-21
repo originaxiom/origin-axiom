@@ -19742,3 +19742,19 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
     other.
   - A surface's own moves would keep something with any number of handles.
 - **The earlier entries stay as written,** with this note beside them. 0 of 19.
+
+## 2026-10-21 — the other way of extending the moves
+
+- **The main line asked about a second way to extend the moves beyond two records:** a surface's own moves, in place
+  of letting every record act on every other.
+- **On the shared point the answer is the same: two records.**
+  - With two or more handles, the surface's moves leave no shared point of the record's kind except the trivial one.
+  - Other kinds of shared point would survive with any number of handles. It is the record's choice of two-by-two
+    matrices that leaves only the case of two records.
+- **So two records now comes out the same way under both extensions,** each time resting on a named choice. The
+  proof was written down before the checks ran. The checks came out as expected, after two launches that produced
+  nothing.
+- **The main line also asked which parts of an earlier calculation still stand.**
+  - The calculations themselves stand.
+  - The particular state they were read at is no longer the selected one.
+  - 0 of 19.
