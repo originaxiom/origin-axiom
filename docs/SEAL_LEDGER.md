@@ -155,7 +155,8 @@ hash-first status.*
 | frontier/B1693_the_bound_against_the_masses/PREREGISTRATION.md | ffe0a6e1 | aa36d2667 | 1 | yes |
 | frontier/B1694_the_parameter_free_curve/PREREGISTRATION.md | a6d90f7e | 90edb73e3 | 1 | yes |
 | frontier/B1695_one_line_one_tau_the_unique_section/PREREGISTRATION.md | aced715b | fc3bf0684 | 1 | yes |
-| frontier/B1696_tau_is_the_cusp_shape/PREREGISTRATION.md | 6481d943 | untracked | 0 | NO |
+| frontier/B1696_tau_is_the_cusp_shape/PREREGISTRATION.md | 6481d943 | 1a3f6e2aa | 1 | yes |
+| frontier/B1698_the_order5_lines/PREREGISTRATION.md | 6cb3ac13 | untracked | 0 | NO |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f4771 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c1 | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8cf | 1 | yes |
@@ -415,9 +416,10 @@ hash-first status.*
 | frontier/B959_nontoral_rank4/PREREGISTRATION.md | 6c5d76e6 | 4c3c47756 | 1 | yes |
 | frontier/B995_separating_and_rare/PREREGISTRATION.md | a356e987 | 3bae686c2 | 1 | yes |
 
-*Totals: 404 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
+*Totals: 405 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
 
 
 
