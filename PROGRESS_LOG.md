@@ -17582,3 +17582,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   lifted at finite L (1/L²), against B1691's large-L "m₁ = 0". Corrected the same hour; P-242 registered for the
   parameter-free curve, with the disclosure that main set its first numbers beside recalled masses.
 - **Landing suite.** 123 files (B1691's lock, every arc lock, the corpus-scanning, register- and LAW_MAP-reading tests), 2072 passed, 1 failed, 3 skipped (6:54, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-21 — S165 THE PARAMETER-FREE CURVE (B1694; P-242)
+
+- After the S164 correction, main built the curve from B1656's four-channel coupling at B1667's canonical L (its stored
+  column), sealed it with the comparison (90edb73e3), ran both once (f9a9b2c42), read once. One lock wording fixed before
+  landing (a flat start of m₁/m₃ on the L₂ curves; the findings say so).
+- **Landing suite.** 116 files (B1694's lock, every arc lock and the corpus-scanning tests), 2034 passed, 1 failed, 3 skipped (7:59, -n 8); the one failure is B805's attachment lock (P-239)

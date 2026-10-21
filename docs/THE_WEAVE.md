@@ -754,3 +754,12 @@ found with B1635's sealed instrument.
   with two Higgs fields the bound binds the pair that shares one. **Against data (B1693, sealed): one Higgs is
   EXCLUDED** — at M_Z the leptons' m₂/m₃ is 16 times the up quarks' — **and the down–lepton pair (3.1) is ALLOWED**: in this
   frame the up quarks need a Higgs of their own.
+
+## Main's addition: the parameter-free curve against the masses (B1694, PROVED as sealed)
+
+- **No free number, three sectors within about eight.** The weight-3/2 section ∂R at the canonical end gives
+  m₁/m₃ = F(m₂/m₃) with nothing to adjust (B1691's correction). Sealed against the data: the up quarks pass every curve,
+  the leptons three of four, the down quarks one; no curve passes all three; on the best curve all three sectors lie within
+  a factor of about eight across three orders of magnitude of m₁/m₃. The down quarks and the leptons miss in opposite
+  directions — the down–lepton split again — and each sector sits at its own τ, which one fibre does not allow without a
+  line or more Higgs fields.

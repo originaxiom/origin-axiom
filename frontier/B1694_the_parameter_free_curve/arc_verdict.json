@@ -1,0 +1,28 @@
+{
+  "id": "B1694",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1691",
+    "B1656",
+    "B1667",
+    "B1654",
+    "B1637",
+    "B1693"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the fibre at one tau, given Lambda; B1656's four-channel coupling at B1667's canonical end; the Higgs the weight-3/2 covariant section DR (H-cov); no line",
+    "object": "the curve m1/m3 = F(m2/m3) on the CP lines Re tau = 0, 1/2 for both canonical horocycles, against the three charged sectors at M_Z",
+    "reach": "class",
+    "hypotheses": "each sector at the tau where the curve meets its own m2/m3 (one fibre would need a line or more Higgs fields); a factor-3 theory tolerance; B1637's 10% allowance; 3 sigma; the outcome partly foreseen before the seal (disclosed)"
+  },
+  "claim_one_line": "THE PARAMETER-FREE CURVE (P-242; sealed 90edb73e3, sha256 a6d90f7e; PROVED as sealed for its question -- C1, C2, C4 hold, C0 failed as worded, C3 failed; outputs committed unread at f9a9b2c42): the weight-3/2 section DR, the unique covariant Higgs direction of its weight, at the canonical end gives m1/m3 = F(m2/m3) with no free number (four curves: Re tau = 0, 1/2; two horocycles); against Huang-Zhou 2021 at M_Z the up quarks pass every curve (rho = 1.2-4.9), the leptons three of four (0.27-2.3), the down quarks one (5.5 on Re tau = 1/2, L_max; 8.3-41 elsewhere), so no curve passes all three; on the best curve all three sectors are within a factor of about eight (up 1.7, leptons 0.27, down 8.3) across three orders of magnitude of m1/m3, and the misses of the down quarks and the leptons are opposite -- the down-lepton split again, which in this frame needs a line or a second Higgs. Each sector sits at its own tau (3.1, 2.5, 2.1), which one fibre does not allow. 0 of 19.",
+  "weave_or_thread": "weave (every sector on one fibre; the curve sector-independent without a line)"
+}

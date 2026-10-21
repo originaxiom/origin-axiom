@@ -12772,6 +12772,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1694": {
+   "slug": "the parameter free curve",
+   "motifs": [
+    "choice",
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B169": {
    "slug": "isomonodromy flow",
    "motifs": [

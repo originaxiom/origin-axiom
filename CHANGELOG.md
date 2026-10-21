@@ -1,5 +1,19 @@
 # Changelog
 
+## S165 THE PARAMETER-FREE CURVE AGAINST THE MASSES (B1694, PROVED as sealed for its question; P-242) (2026-10-21)
+
+- **B1694.** Sealed at 90edb73e3 (sha256 a6d90f7e) before its two instruments ran (outputs committed unread at
+  f9a9b2c42). The weight-3/2 section ∂R at B1667's canonical end gives m₁/m₃ = F(m₂/m₃) with no free number (four
+  curves: Re τ = 0, ½; two horocycles). Against Huang–Zhou 2021 at M_Z (factor-3 tolerance at 3σ): the up quarks pass every
+  curve (ρ 1.2–4.9), the leptons three of four (0.27–2.3), the down quarks one (5.5; 8.3–41 elsewhere); no curve passes all
+  three (C4 holds); on the best curve (Re τ = 0, L_max) all three within a factor of about eight. C0 failed as worded (the
+  curve starts at 0.44–0.62, not 0.2–0.3), C3 failed (the down quarks pass one curve). The misses of the down quarks and
+  the leptons are opposite: the d–e split again. Each sector at its own τ (3.1, 2.5, 2.1), which one fibre does not allow.
+- **Disclosed.** The curve's first points were set beside recalled masses before the seal.
+- **Register.** P-242 DONE.
+- **Landing suite.** 116 files (B1694's lock, every arc lock and the corpus-scanning tests), 2034 passed, 1 failed, 3 skipped (7:59, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S164 A CORRECTION TO B1691: THE FIRST GENERATION IS LIFTED AT THE CANONICAL END (2026-10-21)
 
 - **Found by main, targeted.** B1691's m₁ statements (m₁ = 0 for a section without a ∂²R component; the weight-3/2
