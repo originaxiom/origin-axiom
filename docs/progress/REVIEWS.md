@@ -6799,7 +6799,7 @@ text and are not repaired. "Not on every remote" is the mirror (R65-1).
   before run", "REPRODUCED", "the seat's, unverified" and "cites_seat" added to TERMINOLOGY.
 
 ### Action items (Review 66)
-- [>] R66-1: the mirror — a replacement host, then push main and mirror the lanes (owner: the owner; carried from R65-1, R64-1, R63-1, R62-1; the carry-age rule asks the owner to decide or waive it now)
+- [x] R66-1: the mirror — a replacement host, then push main and mirror the lanes (owner: the owner; carried from R65-1, R64-1, R63-1, R62-1; the carry-age rule asks the owner to decide or waive it now) — **resolved 2026-10-21 by the owner's decision** ("do all you recommend"): no second forge; a local bare mirror on an external drive holding every ref (heads, tags and the lanes' remote-tracking refs; 61 at creation), pushed after every landing with `+refs/*:refs/*` so that it never deletes a ref; a Software Heritage save request for the public repository (accepted, request 2567175); the `codeberg` remote's push disabled
 - [>] R66-2: every banked arc hashes its stored output and any post-seal file it cites, with a failing-path test (owner: cc; carried from R65-4, R64-4; due at Review 67)
 - [>] R66-3: adjudicate the chain gap's top entries (owner: cc; carried from R65-5, R64-5; due at Review 67)
 - [>] R66-4: B186's band box dimension re-graded in its own arc (owner: cc; carried from R65-9, R64-10; due at Review 67)

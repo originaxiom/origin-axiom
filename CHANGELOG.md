@@ -1,5 +1,19 @@
 # Changelog
 
+## S157 EVERY LOCK IN THE FULL SUITE (P-232) AND THE MIRROR DECIDED (R66-1) (2026-10-21)
+
+- **P-232.** The full suite collected `tests/` only, so the arcs' own locks in `frontier/B*/verification/` (fourteen
+  files, 27 tests) never ran in it; Review 66's suite missed B1626's lock that way. pyproject's testpaths now names
+  them exactly, `scripts/run_suite.sh` passes no path, and `scripts/affected_tests.py` counts them as corpus-scanning
+  and selects an arc's own lock. The glob excludes the probe scripts named `*_test.py`, two of which run SnapPy at
+  import. Lock: `tests/test_p232_every_lock_in_the_suite.py`.
+- **R66-1, the mirror (the owner's decision, 2026-10-21: "do all you recommend").** No second forge. A local bare
+  mirror on an external drive holds every ref (61 at creation: branches, tags and the lanes' refs) and is pushed after
+  every landing with `+refs/*:refs/*`, so it never deletes a ref. A Software Heritage save request for the public
+  repository was accepted (request 2567175). The `codeberg` remote's push is disabled. Carried since R62-1; closed.
+- **Full suite.** 7461 passed, 1 failed, 68 skipped (31:29, -n 7), the first full suite to collect the arcs' fourteen locks (27 tests, all passing); the one failure is B186's BLAS-dependent lock (R65-9).
+- 0 of 19.
+
 ## S156 GENESIS v1.51 (2026-10-21): EVERY RELIANCE ON AN UNVERIFIED SEAT RESULT TAGGED IN GENESIS (B1685; P-228, P-221, R66-5)
 
 - **What.** GENESIS v1.50 → v1.51 through B1685's `adoption/amend.py` against a hash-pinned v1.50 (98a8dda5), after

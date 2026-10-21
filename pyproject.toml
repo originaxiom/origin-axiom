@@ -21,4 +21,6 @@ where = ["src"]
 # Lets a plain `pytest` invocation import both the installed-style `src` package and the
 # repo-root `frontier`/`scripts` namespace packages without an install step or PYTHONPATH.
 pythonpath = ["src", "."]
-testpaths = ["tests"]
+# P-232 (2026-10-21): the arcs' own locks in frontier/B*/verification/ run in the full suite too; the glob names
+# them exactly, so the probe scripts named *_test.py elsewhere in frontier/ are never collected
+testpaths = ["tests", "frontier/B*/verification/test_b*.py"]

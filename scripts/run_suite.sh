@@ -25,4 +25,5 @@ while :; do
     *)        break;;
   esac
 done
-exec python3 -m pytest tests/ -q -p no:randomly $MODE ${MARK[@]+"${MARK[@]}"} "$@"
+# no path: pyproject's testpaths names the suite (tests/ and the arcs' locks in frontier/B*/verification/; P-232)
+exec python3 -m pytest -q -p no:randomly $MODE ${MARK[@]+"${MARK[@]}"} "$@"

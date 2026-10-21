@@ -17510,3 +17510,14 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   review's full suite never ran the lock (testpaths = tests; fifteen locks live under frontier/). The lock now counts the
   later dispositions; P-232 registered (FLOOR 232). Re-run below.
 - **Landing suite.** 201 files (the landing set, every GENESIS-reading lock and all fifteen frontier locks), 2413 passed, 1 failed, 6 skipped (9:54, -n 8); the one failure is B186's BLAS-dependent lock (R65-9).
+
+## 2026-10-21 — S157 EVERY LOCK IN THE FULL SUITE (P-232); THE MIRROR DECIDED (R66-1)
+
+- The owner: golden_gate is dormant and irrelevant; "do all you recommend".
+- R66-1: the local bare mirror created on the external drive (61 refs; connectivity checked), the `backup` remote with
+  `+refs/*:refs/*`; the Software Heritage save request accepted (2567175); `codeberg`'s push disabled.
+- golden_gate's five Dependabot pull requests and its `dependabot.yml`: closing and deleting them were writes to
+  another repository, refused by this session's permission check; left for the owner.
+- P-232: testpaths, the runner and the selector; the lock; the register says fourteen locks (the fifteenth file
+  counted at registration defines no test).
+- **Full suite.** 7461 passed, 1 failed, 68 skipped (31:29, -n 7), the first full suite to collect the arcs' fourteen locks (27 tests, all passing); the one failure is B186's BLAS-dependent lock (R65-9).

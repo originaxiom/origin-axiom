@@ -11,7 +11,8 @@ CONSERVATIVE BY DESIGN -- it never risks a false green. Any change it cannot map
 superset of affected tests makes it fall back to the FULL suite. Safe mappings:
   - a test file             -> itself
   - conftest / plugin       -> FULL (affects every test)
-  - frontier/B<id>/...      -> tests/test_b<id>_*.py  +  EVERY corpus-scanning test
+  - frontier/B<id>/...      -> tests/test_b<id>_*.py + the arc's own lock  +  EVERY corpus-scanning test
+  (the arcs' own locks, frontier/B*/verification/test_b*.py, count as corpus-scanning: P-232)
   - kill_graph/atlas/views  -> EVERY corpus-scanning test
   - anything else           -> FULL (scripts, gates, core docs, data, root)
 
@@ -29,7 +30,9 @@ import subprocess
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
-ALL = sorted(glob.glob("tests/test_*.py"))
+# the arcs' own locks (P-232) follow tests/ (pyproject's testpaths); tests/ stays first
+LOCKS = sorted(glob.glob("frontier/B*/verification/test_b*.py"))
+ALL = sorted(glob.glob("tests/test_*.py")) + LOCKS
 _ARC = re.compile(r"frontier/(B\d+[a-zA-Z]?)[_/]")
 # A test is "corpus-scanning" (must run on any arc / shared-doc change) if it references any of
 # these repo-wide inputs. Kept liberal -- over-inclusion only runs more tests, never fewer.
@@ -67,6 +70,7 @@ def _corpus_scanners():
         except OSError:
             pass
     s.add("tests/test_repo_gates.py")  # the gate runner: always, on any repo/arc change
+    s |= set(LOCKS)                     # the arcs' locks are review and ledger locks: they read the shared docs (P-232)
     return {f for f in s if f in ALL}
 
 
@@ -85,6 +89,7 @@ def select(files):
             if m:
                 bid = m.group(1).lower()
                 sel |= set(glob.glob(f"tests/test_{bid}_*.py")) | set(glob.glob(f"tests/test_{bid}.py"))
+                sel |= {x for x in LOCKS if x.startswith(f"frontier/{m.group(1)}_")}   # the arc's own lock (P-232)
                 sel |= agg                          # an arc edit can flip a corpus-aggregate test
             else:
                 full.append(f)
