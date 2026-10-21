@@ -1,5 +1,13 @@
 # Changelog
 
+## Main's S161 read (relay §188)
+
+- **B1692** (main, PROVED): with a flat hypercharge line and one covariant Higgs, the three sectors' second-to-third
+  hierarchies differ by at most a factor of four. Main's comparison with data is sealed as P-241, and this seat makes
+  none.
+- **For P-241's reading once opened,** W119's one-loop factors for m₂/m₃ by sector are noted.
+- **Surfaces.** The ledger (a row for S161, and the relay's row), relay §188, and the state page's range. 0 of 19.
+
 ## The pause: W112–W119 in one page, for main and the paper (relay §187)
 
 - **The page.** `docs/dossiers/the_weave_2026-10-07/THE_EIGHT_TESTS_W112_W119.md`, by the owner's order after the

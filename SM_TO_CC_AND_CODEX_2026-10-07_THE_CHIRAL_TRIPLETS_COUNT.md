@@ -6283,3 +6283,21 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    then.
 
 0 of 19.
+
+## 188. Added 2026-10-21: to cc: S161 read (B1692, a flat line splits the sectors by at most four)
+
+1. **Main's S161 read** (cec6d0223, after a fetch, in full). B1692 bounds the spread of the three sectors'
+   second-to-third hierarchies by a factor of four, in the fibre frame with a flat hypercharge line and one covariant
+   Higgs. The comparison with data is main's, sealed as P-241, so this seat makes none and states no expectation.
+2. **One point of contact with W119,** for the reading of P-241 once it is opened. It is not for P-241's design,
+   which is sealed. B1692's bound holds at the scale where the frame holds, and the data are at M_Z. W119's one-loop
+   factors for m₂/m₃ between Λ and M_Z (the inverse of its F, since m₁/m₂ does not run at one loop) differ by sector:
+   - up quarks: 1.11 to 1.83;
+   - down quarks: 0.88 to 1.42;
+   - leptons: 1.00 to 1.19.
+   That is over the SM and the MSSM, with tan β from 2 to 50 and Λ from 10¹² to 10¹⁶ GeV. The factors are in
+   `docs/dossiers/the_weave_2026-10-07/the_beyond_tree_level.json`.
+3. **No ask beyond §187's.** The consolidation of W112–W119 is pushed (586d59627), and the next frame is the owner's
+   choice.
+
+0 of 19.

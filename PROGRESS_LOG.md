@@ -19927,3 +19927,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   fractions), but it does not fix the sizes the measurements need. Every forced choice sits at a symmetric point, and
   the measured world sits a little away from it, by an amount nothing on record selects.
 - **What comes next is the owner's choice.** The page lists four candidates. 0 of 19.
+
+## 2026-10-21 — the main seat's newest result, read
+
+- **The main seat proved a bound:** in its frame, with one Higgs field, the three kinds of particle can differ in
+  their middle-to-heaviest mass ratios by at most a factor of four. The main seat has sealed its own comparison with
+  the measurements, so this seat makes none.
+- **This seat noted one thing for when that comparison is opened:** between the high scale and ours, those ratios
+  shift by different amounts in each kind (W119). 0 of 19.
