@@ -12751,7 +12751,9 @@
     "eisenstein",
     "wrt_quantum"
    ],
-   "refs": [],
+   "refs": [
+    "S167"
+   ],
    "obstacle": "measure",
    "obstacle_conf": 3,
    "status": "banked",
@@ -12765,7 +12767,8 @@
     "z3_generation"
    ],
    "refs": [
-    "B308"
+    "B308",
+    "S167"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 10,

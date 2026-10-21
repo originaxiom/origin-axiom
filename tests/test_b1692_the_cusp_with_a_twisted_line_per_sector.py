@@ -51,3 +51,9 @@ def test_the_censuses_stored():
     f = json.loads((A / "finite_census.json").read_text(encoding="utf-8"))
     for y, cap in ((1.5, 3.02), (2, 3.61), (3, 3.93)):
         assert max(max(v) / min(v) for j, yy, n, v in f if yy == y) < cap
+
+
+def test_the_correction_the_bound_is_the_large_L_limit():
+    d = json.loads((A / "correction" / "the_bound_at_finite_L.json").read_text(encoding="utf-8"))
+    assert d["2560"]["spread"] < 4 and d["640"]["spread"] < 4                    # the point-coupling limit keeps the bound
+    assert d["0.648"]["spread"] > 4 and d["2.5"]["spread"] > 4                    # the canonical end does not

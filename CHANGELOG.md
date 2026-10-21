@@ -1,5 +1,17 @@
 # Changelog
 
+## S167 A SCOPE CORRECTION TO B1692 AND B1693: THE BOUND OF FOUR AND THE ONE-HIGGS EXCLUSION ARE LARGE-L STATEMENTS (2026-10-21)
+
+- **Found by main, targeted.** B1695's one-Higgs best point has an up–lepton m₂/m₃ spread of 7.7, above B1692's bound of
+  four. Checked against L at that point: 7.7 at L_max = 0.648, 10.8 at L = 2.5, 5.4 at 10, 2.4 at L ≥ 160. B1692's bound is
+  B1653's point coupling — the large-L limit of B1656's four-channel coupling — and fails at the canonical end; B1693's
+  "one Higgs EXCLUDED" is scoped the same way (its sealed grades stand as computed). Corrected in B1692 and B1693 (dated
+  notes, verdict lines, B1692's lock and `verification/correction/`), THE_WEAVE, LAW_MAP, P-241's cell, and RETRACTIONS'
+  42nd row (P3's count sentence and its generator to forty-two). The same scope error as B1691's (S164): main's arcs of
+  this session used the large-L limit where the record's end is of order one.
+- **Landing suite.** 131 files (the corrected arcs' locks, every arc lock, the corpus-scanning, register-, LAW_MAP-, RETRACTIONS- and paper-reading tests), 2111 passed, 1 failed, 3 skipped (9:16, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S166 ONE LINE, ONE τ, THE UNIQUE SECTION (B1695, PROVED as sealed for its question; P-243) (2026-10-21)
 
 - **B1695.** Sealed at fc3bf0684 (sha256 aced715b) before its grid (4 018 points, 22 min on 8 workers) and comparison ran

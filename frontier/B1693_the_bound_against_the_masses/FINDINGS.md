@@ -46,3 +46,10 @@ down–lepton pattern; Huang and Zhou (2021, arXiv:2009.04851v2) for the running
 
 - `PREREGISTRATION.md` (sealed), `ARTIFACT_HASHES.txt`, `verification/compare.py` → `comparison.json`,
   `compare_run.txt`. The lock: `tests/test_b1693_the_bound_against_the_masses.py`.
+
+> *Correction 2026-10-21 (S167; found by main, targeted).* **T1's exclusion holds for B1692's point coupling (the large-L
+> limit), not at the canonical end.** B1692's bound of four fails at L of order one (B1692's correction: spreads of 7.7
+> to 10.8 at B1695's best point), and B1695's one-Higgs point (the down quarks and leptons through S, the up quarks through
+> the conjugate Higgs of the same field) brings all six ratios within a factor of 1.8, with an up–lepton m₂/m₃ spread of
+> 7.7 against the measured 16. So "one Higgs is EXCLUDED in this frame" is scoped to the point coupling; at the canonical
+> end one Higgs is not excluded by this test. The sealed computation and its grades stand as computed.

@@ -754,6 +754,8 @@ found with B1635's sealed instrument.
   with two Higgs fields the bound binds the pair that shares one. **Against data (B1693, sealed): one Higgs is
   EXCLUDED** — at M_Z the leptons' m₂/m₃ is 16 times the up quarks' — **and the down–lepton pair (3.1) is ALLOWED**: in this
   frame the up quarks need a Higgs of their own.
+  **Corrected (S167): the bound and the exclusion hold for the point coupling, the large-L limit; at the canonical end the
+  spread reaches 8–11, and one Higgs is not excluded there (B1692's and B1693's corrections; B1695).**
 
 ## Main's addition: the parameter-free curve against the masses (B1694, PROVED as sealed)
 

@@ -4,7 +4,12 @@
   "instrument": false,
   "creates_law": false,
   "identifications": [],
-  "depends_on": ["B1692", "B1691", "B1637", "B1660"],
+  "depends_on": [
+    "B1692",
+    "B1691",
+    "B1637",
+    "B1660"
+  ],
   "rests_on_seat": [],
   "cites_seat": [],
   "supersedes": null,
@@ -16,6 +21,6 @@
     "reach": "class",
     "hypotheses": "B1692's bound (four sections tested, Im tau >= 1.5); B1637's 10% running allowance per ratio; 3 sigma; the outcome largely known before the seal (disclosed)"
   },
-  "claim_one_line": "B1692'S BOUND AGAINST THE MEASURED MASSES (P-241; sealed aa36d2667, sha256 ffe0a6e1; PROVED as sealed, both cells hold; the output committed unread at 4eac2b5b1): in the fibre frame with a flat hypercharge line, one covariant Higgs splits the three charged sectors' m2/m3 by at most four (B1692), but at M_Z the leptons' m_mu/m_tau = 0.0589 is 15.98 times the up quarks' m_c/m_t = 0.00368 (3 sigma band 10.37-24.62 with B1637's 10% allowance): one Higgs is EXCLUDED in this frame, so the up quarks need a Higgs of their own; the down-lepton pair (3.14, band 1.91-5.18) is ALLOWED. A structural conclusion, not a number; the outcome was largely known before the seal (B1660's 3.14; main's recall), disclosed. 0 of 19.",
+  "claim_one_line": "B1692'S BOUND AGAINST THE MEASURED MASSES (P-241; sealed aa36d2667, sha256 ffe0a6e1; PROVED as sealed, both cells hold; the output committed unread at 4eac2b5b1): in the fibre frame with a flat hypercharge line, one covariant Higgs splits the three charged sectors' m2/m3 by at most four (B1692), but at M_Z the leptons' m_mu/m_tau = 0.0589 is 15.98 times the up quarks' m_c/m_t = 0.00368 (3 sigma band 10.37-24.62 with B1637's 10% allowance): one Higgs is EXCLUDED in this frame, so the up quarks need a Higgs of their own; the down-lepton pair (3.14, band 1.91-5.18) is ALLOWED. A structural conclusion, not a number; the outcome was largely known before the seal (B1660's 3.14; main's recall), disclosed. 0 of 19. [CORRECTED 2026-10-21: T1's exclusion holds for the point coupling (large L); at the canonical end B1692's bound fails and B1695's one-Higgs point brings all six ratios within 1.8, so one Higgs is not excluded there.]",
   "weave_or_thread": "weave (every charged sector on one fibre under one line)"
 }

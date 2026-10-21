@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-10-21, S167: correction — B1692's bound of four and B1693's one-Higgs exclusion hold for the point coupling (large L) only; at the canonical end the sectors' spread reaches 8–11 and one Higgs is not excluded (B1695's point fits all six within 1.8). 0 of 19.)**
+
 **LATEST (2026-10-21, S166: B1695, sealed — one line, one τ and the unique section bring all six charged-fermion ratios within a factor of 1.8, not to the data's precision (χ² 61); after the seal the match is shown not specific (wrong sector orders fit as well; 6% of random hierarchies fit as well): flexibility, not prediction. 0 of 19.)**
 
 **LATEST (2026-10-21, S165: B1694, sealed — the parameter-free curve m₁/m₃ = F(m₂/m₃) (∂R at the canonical end, no free number) passes the up quarks on every curve and the leptons on three of four; no curve passes all three; on the best all three sectors within a factor of about eight; the down quarks and leptons miss in opposite directions (the d–e split). 0 of 19.)**

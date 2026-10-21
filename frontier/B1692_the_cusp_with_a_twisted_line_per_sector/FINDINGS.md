@@ -62,3 +62,11 @@ characteristics; Feruglio and collaborators, and Novichkov, Penedo and Petcov, f
 - `verification/b1653_funcs.py`; `verification/line_census.py` → `line_census.json` (Im τ = 14, 484 lines);
   `verification/finite_census.py` → `finite_census.json` (Im τ = 1.5, 2, 3; four sections); the logs.
 - The lock: `tests/test_b1692_the_cusp_with_a_twisted_line_per_sector.py`.
+
+> *Correction 2026-10-21 (S167; found by main, targeted).* **The bound of four is B1653's point coupling — the large-L
+> limit of B1656's four-channel coupling — not the coupling at the record's canonical end.** At the canonical end radius of
+> order one (B1667) the channel norms weight the residue's four channels unequally, and the cross-sector spread of m₂/m₃
+> exceeds four: at B1695's best point (α = 37/96, Im τ = 3.15, Re τ = 0, the up quarks through the conjugate Higgs) it is
+> 7.7 at L_max = 0.648 and 10.8 at L = 2.5, falling to 5.4, 2.6 and 2.4 at L = 10, 40 and ≥ 160. Every statement above
+> holds for the point coupling (and so as L → ∞); none bounds the canonical end.
+> `verification/correction/the_bound_at_finite_L.py` → `the_bound_at_finite_L.json`.

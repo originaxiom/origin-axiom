@@ -17597,3 +17597,9 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   outputs committed unread (cedc14c5b), read once. G2 passed against the prediction; before banking any positive
   value match main calibrated it (after the seal, labelled): not specific, not rare. Banked as flexibility.
 - **Landing suite.** 116 files (B1695's lock, every arc lock and the corpus-scanning tests), 2036 passed, 1 failed, 3 skipped (7:25, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-21 — S167 SCOPE CORRECTION TO B1692 AND B1693 (large L)
+
+- Under the goal's continuation main noticed B1695's best point violating B1692's bound and checked it against L: the
+  bound and B1693's exclusion are large-L statements. Corrected the same hour, a second instance of S164's scope error.
+- **Landing suite.** 131 files (the corrected arcs' locks, every arc lock, the corpus-scanning, register-, LAW_MAP-, RETRACTIONS- and paper-reading tests), 2111 passed, 1 failed, 3 skipped (9:16, -n 8); the one failure is B805's attachment lock (P-239)
