@@ -1,0 +1,5 @@
+T(x)T 5 142 2
+Tbar(x)Tbar 7 88 1
+mixed (Q in T) 4 143 5
+mixed (Q in Tbar) 4 139 4
+written the_strong_angle_posthoc.json

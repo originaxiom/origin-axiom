@@ -1,0 +1,176 @@
+{
+ "label": "POST HOC, after the read-out",
+ "of": "the_strong_angle.py, cell T1",
+ "T(x)T k=5": {
+  "real roots": 142,
+  "failed in the run": 2,
+  "the failed roots": [
+   {
+    "line": 10,
+    "s": 0.5,
+    "spread": 2.1460181548858013,
+    "m_min/m_max at the three tau (30 digits)": [
+     1.010629269442632e-30,
+     1.1633243348264416e-30,
+     7.00845961477046e-31
+    ],
+    "m_min/m_max at tau_0 (double, the run's test)": 7.349679848272458e-17,
+    "passed in the run": false
+   },
+   {
+    "line": 43,
+    "s": 0.0,
+    "spread": Infinity,
+    "m_min/m_max at the three tau (30 digits)": [
+     3.675101834696571e-32,
+     7.199730980418642e-32,
+     1.3832356633817289e-32
+    ],
+    "m_min/m_max at tau_0 (double, the run's test)": 7.349679848272458e-17,
+    "passed in the run": false
+   }
+  ],
+  "largest spread among the passed": 1.391334682581781e-26
+ },
+ "Tbar(x)Tbar k=7": {
+  "real roots": 88,
+  "failed in the run": 1,
+  "the failed roots": [
+   {
+    "line": 1,
+    "s": 3.4,
+    "spread": Infinity,
+    "m_min/m_max at the three tau (30 digits)": [
+     1.2070015506789178e-32,
+     2.2313698945513307e-32,
+     1.4890819810386643e-32
+    ],
+    "m_min/m_max at tau_0 (double, the run's test)": 7.103270601571659e-17,
+    "passed in the run": false
+   }
+  ],
+  "largest spread among the passed": 1.0052248391894774e-27
+ },
+ "mixed (Q in T) k=4": {
+  "real roots": 143,
+  "failed in the run": 5,
+  "the failed roots": [
+   {
+    "line": 16,
+    "s": 3.5,
+    "spread": 1.0,
+    "m_min/m_max at the three tau (30 digits)": [
+     4.185531481208797e-31,
+     4.1641670379951183e-32,
+     0.0
+    ],
+    "m_min/m_max at tau_0 (double, the run's test)": 1.6438644939190652e-16,
+    "passed in the run": false
+   },
+   {
+    "line": 18,
+    "s": 1.0,
+    "spread": 1.0,
+    "m_min/m_max at the three tau (30 digits)": [
+     1.182644936290973e-31,
+     1.0049494057193084e-31,
+     7.463611423275506e-32
+    ],
+    "m_min/m_max at tau_0 (double, the run's test)": 2.4530658513433017e-17,
+    "passed in the run": false
+   },
+   {
+    "line": 19,
+    "s": 1.0,
+    "spread": 2.9645098721533936,
+    "m_min/m_max at the three tau (30 digits)": [
+     8.031682242401182e-32,
+     1.2093372341837575e-31,
+     8.612658522049572e-32
+    ],
+    "m_min/m_max at tau_0 (double, the run's test)": 8.752706369653744e-17,
+    "passed in the run": false
+   },
+   {
+    "line": 32,
+    "s": -1.3333333333333333,
+    "spread": Infinity,
+    "m_min/m_max at the three tau (30 digits)": [
+     1.5116605622799777e-32,
+     2.008846973028761e-32,
+     3.2906606335072477e-32
+    ],
+    "m_min/m_max at tau_0 (double, the run's test)": 2.514669113673633e-16,
+    "passed in the run": false
+   },
+   {
+    "line": 46,
+    "s": -0.3333333333333333,
+    "spread": 1.0,
+    "m_min/m_max at the three tau (30 digits)": [
+     1.7268497655106932e-31,
+     6.184375138005246e-32,
+     2.4307435856034738e-32
+    ],
+    "m_min/m_max at tau_0 (double, the run's test)": 1.3767455723942212e-17,
+    "passed in the run": false
+   }
+  ],
+  "largest spread among the passed": 3.027297415525011e-28
+ },
+ "mixed (Q in Tbar) k=4": {
+  "real roots": 139,
+  "failed in the run": 4,
+  "the failed roots": [
+   {
+    "line": 8,
+    "s": 1.0,
+    "spread": 3.142038396177224,
+    "m_min/m_max at the three tau (30 digits)": [
+     7.42339258015049e-32,
+     9.446362437162264e-32,
+     4.732091859871221e-32
+    ],
+    "m_min/m_max at tau_0 (double, the run's test)": 6.550146275321557e-17,
+    "passed in the run": false
+   },
+   {
+    "line": 19,
+    "s": -1.0,
+    "spread": Infinity,
+    "m_min/m_max at the three tau (30 digits)": [
+     7.767243940926175e-32,
+     8.268828855592473e-32,
+     1.3716896956987336e-31
+    ],
+    "m_min/m_max at tau_0 (double, the run's test)": 4.938995103459637e-17,
+    "passed in the run": false
+   },
+   {
+    "line": 24,
+    "s": 0.0,
+    "spread": Infinity,
+    "m_min/m_max at the three tau (30 digits)": [
+     6.470418767437423e-32,
+     1.4196501980468863e-31,
+     9.360768559820139e-32
+    ],
+    "m_min/m_max at tau_0 (double, the run's test)": 5.151303934086182e-17,
+    "passed in the run": false
+   },
+   {
+    "line": 30,
+    "s": -0.9,
+    "spread": 13.04313364285903,
+    "m_min/m_max at the three tau (30 digits)": [
+     1.2530103724607098e-31,
+     2.3846756483496666e-31,
+     4.759025238905586e-31
+    ],
+    "m_min/m_max at tau_0 (double, the run's test)": 5.1667643808524335e-17,
+    "passed in the run": false
+   }
+  ],
+  "largest spread among the passed": 2.0299632850475517e-28
+ }
+}
