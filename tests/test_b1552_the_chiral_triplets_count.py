@@ -2599,6 +2599,46 @@ def test_the_paper_draft7():
 
 
 
+def test_w119_the_beyond_tree_level():
+    """W119 (rule 403bf62b7; script 7144030fe; one run 1423a23a5): every cell as predicted; B0's one-loop gauge
+    couplings recomputed in process; each point's reaches recomputed from F, the forced rationals and the windows;
+    the band, the control and the margins checked"""
+    import math
+    from fractions import Fraction
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_beyond_tree_level.json").read_text(encoding="utf-8"))
+    assert d["status"] == "one run"
+    assert d["cells"] == {"B0": True, "B1": True, "B2": True, "B3": True}
+    e = math.sqrt(4 * math.pi / 127.95)
+    g0 = (math.sqrt(5 / 3) * e / math.sqrt(1 - 0.23122), e / math.sqrt(0.23122), math.sqrt(4 * math.pi * 0.1179))
+    for model, b in (("SM", (41 / 10, -19 / 6, -7.0)), ("MSSM", (33 / 5, 1.0, -3.0))):
+        L = math.log(2e16 / 91.1876)
+        gs = [1 / math.sqrt(1 / g ** 2 - 2 * bi * L / (16 * math.pi ** 2)) for g, bi in zip(g0, b)]
+        assert all(abs(x - y) < 1e-12 for x, y in zip(gs, d["B0"][model]["g at 2e16 GeV"]))
+    assert d["B0"]["MSSM"]["spread"] < 0.002 and d["B0"]["SM"]["spread"] > 0.10
+    assert d["B1"]["worst change"] < 1e-40
+    assert all(abs(r["non-Hermitian control, change"] - 0.6) < 1e-12 for r in d["B1"]["per tau"].values())
+    forced = {"W68 E with X": Fraction(15), "W68 EE, X with X": Fraction(1), "W118 P2 with E": Fraction(735, 121),
+              "W118 P2 with X": Fraction(77, 4), "W118 P3 with E": Fraction(3, 5), "W118 P3 with X": Fraction(5, 4),
+              "W118 P2 with P3": Fraction(385, 529)}
+    wins = d["windows"]
+    pts = d["points"]
+    assert len(pts) == 24 and all(p["kept"] for p in pts) and max(max(p["y at Lambda"]) for p in pts) < 1.03
+    for p in pts:
+        for sec in ("up", "down", "leptons"):
+            got = [k for k, v in forced.items() if wins[sec][0] <= float(v) * p["F"][sec] <= wins[sec][1]]
+            assert got == p["reaches"][sec]
+        assert not p["reaches"]["down"] and not p["reaches"]["leptons"] and p["reaches"]["up"]
+    band = d["B2"]["band of F over the kept points"]
+    assert 0.54 < band["up"][0] < 0.55 and 1.12 < band["down"][1] < 1.14 and band["leptons"][0] > 0.84
+    assert 735 / 121 * band["down"][0] > wins["down"][1] and 1.25 * band["down"][1] < wins["down"][0]
+    assert 0.6 * band["leptons"][0] > wins["leptons"][1]
+    assert d["B3"]["coherent points"] == []
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W119. Beyond tree level" in note
+    assert (here / "W119_RULE.md").exists()
+
+
 def test_w118_the_first_generation():
     """W118 (rule cab7adf9e; script 4d34d010d; one run 191dbfab1): H0-H2 held, H4 failed; the hits recomputed from the
     scored double ratios and the windows, the windows from their own sigma, and 3/5 checked"""

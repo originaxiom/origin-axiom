@@ -874,6 +874,10 @@ Under the owner's rulings, the table's rows split into two groups:
   quarks' window, and nothing reaches the down quarks' or the leptons'. 0 of 19.
 - **The owner's third arc: beyond tree level, W119** (`W119_RULE.md` in the weave dossier; relay §185), its rule
   committed before its script: Kähler corrections and θ̄, and the running of the forced coefficients. 0 of 19.
+- **W119: beyond tree level, the tree level's results stand** (one run; relay §186). No Kähler metric moves
+  arg det(Y_u Y_d), so W113's structural θ̄ stays structural. One-loop running from Λ to M_Z, in the SM and the
+  MSSM, multiplies the forced double ratios by 0.55 to 1.13, and none reaches the down quarks' or the leptons'
+  window. The owner's three arcs are done; a pause to consolidate W112–W119 follows. 0 of 19.
 
 ## Questions open with main
 
@@ -895,7 +899,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W118 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W119 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§185).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§186).

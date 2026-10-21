@@ -19909,3 +19909,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The second kind changes the lightest family's mass ratios a little.** The test asks whether it can carry the fixed
   fractions found last time onto the measured values.
 - **The rule and its predictions are fixed before the program exists.** 0 of 19.
+
+## 2026-10-21 — the third test: the corrections beyond the simplest level change nothing that matters
+
+- **The normalization of the fields cannot move the strong force's mirror-symmetry angle.** The program checked this
+  on 300 random normalizations, to fifty digits. So the angle's natural zero, found earlier, survives.
+- **How the couplings change with energy moves the lightest family's mass ratios by a factor between about a half
+  and one.** The fixed fractions found last time needed a much larger change to match the down quarks or the
+  leptons, so they still do not match.
+- **The owner's three planned tests are done.** Next is a pause, to gather the last eight results onto one page for
+  the main seat and the paper. 0 of 19.

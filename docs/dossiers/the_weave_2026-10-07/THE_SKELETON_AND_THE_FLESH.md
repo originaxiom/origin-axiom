@@ -167,6 +167,16 @@ failures. 0 of 19.
   - **Loops:** the double ratio m₁m₃/m₂² runs through the third generation's Yukawas. The SM and the MSSM are
     scanned over tan β and the high scale, asking whether running carries the forced coefficients into all three
     sectors' windows.
+- **W119: beyond tree level, the tree level's results stand** (one run; relay §186; every cell as predicted).
+  - **Kähler:** no metric moves arg det(Y_u Y_d), checked at three τ over 300 metrics to 7 × 10⁻⁴⁸. W113's structural
+    θ̄ stays structural, and its assignment still does not fit the quarks.
+  - **Loops:** one-loop running from Λ to M_Z (SM and MSSM, tan β 2 to 50, Λ 10¹² to 10¹⁶ GeV) multiplies the double
+    ratio by 0.55 to 1.13. No forced coefficient reaches the down quarks' or the leptons' window, and no point is
+    coherent. W118's negative stands in both frames.
+  - Non-minimal Kähler terms could move the values, but only with free coefficients of their own: they cannot lower
+    the count.
+  - **The owner's three arcs are done.** Next, by the owner's order: a pause to consolidate W112–W119 into one page
+    for main and the paper.
 
 ## The stopping rules
 

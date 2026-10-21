@@ -401,6 +401,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   forced power δ² and an exact rational coefficient (15, 735/121, 77/4, 3/5, 5/4, 385/529 or 1). Two fall in the
   up quarks' window (3/5 against 0.54), none in the down quarks' or the leptons', so no coherent assignment
   exists. A WEAVE-type result given Λ and the stated hypotheses.
+- W119 (the third of the owner's three arcs: beyond tree level; rule first; one run; every cell as predicted): no
+  Kähler metric moves arg det(Y_u Y_d), so W113's structural θ̄ stays structural. One-loop running from Λ to M_Z
+  (SM and MSSM, tan β 2 to 50, Λ 10¹² to 10¹⁶ GeV) moves the forced double ratios by a factor 0.55 to 1.13, too
+  little to bring any into the down quarks' or the leptons' window. W118's negative stands. A WEAVE-type result
+  given the frames.
 
 ## The setting
 
@@ -7695,6 +7700,76 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W119. Beyond tree level (the third of the owner's three arcs): no Kähler metric moves θ̄'s structural zero, and running between the forced scale and M_Z moves the forced coefficients by a factor 0.55 to 1.13, too little to reach the down quarks' or the leptons' window (`the_beyond_tree_level.py`; `W119_RULE.md`)
+
+**Why.** After W118, by the owner's order: the third arc, one step beyond the holomorphic tree level.
+- W113 left θ̄ ∈ {0, π} at every τ by structure, in one forced assignment. W118 left exact rational double ratios
+  m₁m₃/m₂² near ω, two of them in the up quarks' window and none in the down quarks' or the leptons'.
+- **The question.** Do the corrections beyond tree level change either result?
+  - **Part K, the Kähler correction.** The matter fields' metrics, which the holomorphic couplings do not fix.
+    Canonical normalization replaces Y by K_L^{−1/2} Y K_R^{−1/2}, which multiplies det Y by a positive real number.
+    So arg det(Y_u Y_d) is unchanged by every Hermitian positive metric. This was derived by hand in the rule and
+    checked here.
+  - **Part L, the loops.** The one-loop running of the double ratio between the scale where the forced structure
+    holds, Λ, and M_Z. DR(M_Z) = F · DR(Λ), with F = exp(−∫ c(y) dt / 16π²) driven by the third generation's
+    Yukawas, in the SM and the MSSM.
+- **Cited, not redone:** the one-loop potential for τ (W59), and main's B1686 (nothing computed holds τ).
+
+**The order.**
+- The rule (`W119_RULE.md`) was committed and pushed first (403bf62b7), with relay §185.
+- The script was committed before its one run (7144030fe), and its output before it was read (1423a23a5).
+
+**Disclosed.**
+- W113, W114, W118, W59 and main's B1686 were seen before the rule. The β functions were recalled, not re-derived.
+  The rough size of the running was estimated by hand before the rule (F of order e^{±0.5}).
+- While the script was written, its code paths were run in scratch only on random matrices and on a toy equation,
+  dy/dt = y³, whose blow-up time is exact.
+- **What the dev test changed, before the run.** On random hierarchical matrices, float64 rounding alone moved
+  arg det by up to 8 × 10⁻³, against 5 × 10⁻³⁸ at 50 digits. So B1 is decided at 50 digits, with each K^{−1/2} made
+  exactly Hermitian in float64, and the float64 change is reported beside it. A non-Hermitian control, which must move
+  the phase by 0.6, is reported too. The script's docstring states this.
+
+**The result (COMPUTED; one run; every cell as predicted).**
+
+| cell | prediction | prior | result |
+| --- | --- | --- | --- |
+| B0 | the control: the MSSM's gauge couplings meet within 2% at 2 × 10¹⁶ GeV; the SM's spread is above 5% | 90% | **held** — MSSM 0.17% (g ≈ 0.719); SM 10.6% |
+| B1 | the Kähler theorem: arg det(Y_u Y_d) changes by less than 10⁻¹² under every sampled metric, at three τ | 99% | **held** — worst 7.3 × 10⁻⁴⁸ at 50 digits over 300 metrics; the control moves it by 0.6 at every τ |
+| B2 | the band: F in [0.4, 2.5] for each sector at every kept point | 85% | **held** — all 24 points kept; up 0.545 to 0.903, down 0.702 to 1.130, leptons 0.843 to 1.000 |
+| B3 | **no coherent point;** no forced coefficient reaches the leptons' window at any point | 95% | **held** — none coherent; nothing reaches the leptons' window or the down quarks' |
+| B4 | read-out: each sector's range of F, and which coefficient reaches which window where | — | up: 385/529 at all 24 points, 3/5 at 23, W68's 1 at the 21 MSSM points, 5/4 at 5; down and leptons: none |
+
+- **The float64 read-out** of B1 is up to 1.3 × 10⁻¹² (at τ = 0.05 + 1.6i). That is above the cell's 10⁻¹² from
+  rounding alone; the 50-digit decision, fixed before the run, is what B1 reads.
+- **No Yukawa approaches √(4π).** The largest at any Λ is y_t ≈ 1.03 (the MSSM at tan β = 2 and 10¹⁶ GeV).
+
+**The margins (arithmetic on the read-outs, after the run; not a cell).**
+- **The down quarks.** The forced coefficients nearest the window (1.81 to 3.97) are 5/4 and 735/121 ≈ 6.07.
+  - 5/4 rises at most to 1.41, at F = 1.13.
+  - 735/121 falls at least to 4.27, at F = 0.702. It would need F ≤ 0.654, which no scan point gives.
+- **The leptons.** The smallest forced coefficient, 3/5, falls at least to 0.51 (window 0.061 to 0.107). It would
+  need F ≤ 0.18.
+- **The up quarks.** Every scan point brings two to four coefficients into the window. Its width (a factor 2.4) and
+  the band of F make that uninformative, as in W118.
+
+**What it shows.**
+- **θ̄'s structural zero is safe beyond tree level.** No Kähler metric, minimal or not, τ-dependent or not, moves
+  arg det(Y_u Y_d); B1 checks the theorem at three τ. With the literature cited in the rule (θ̄'s running is of high
+  loop order and negligible), W113's structural θ̄ stays structural. The assignment that has it still does not fit
+  the quarks (W113, W114).
+- **W118's negative stands beyond tree level.** One-loop running moves the forced double ratios by a factor 0.55 to
+  1.13 across the SM and the MSSM (tan β 2 to 50, Λ 10¹² to 10¹⁶ GeV). The gap between the forced values 5/4 and
+  735/121 still covers the down quarks' window. The leptons' 0.081 lies more than a factor of six below every forced
+  value after running.
+- **What would change it lies outside the frame.** Non-minimal Kähler terms carry their own free coefficients (Chen,
+  Ramos-Sánchez and Ratz, arXiv:1909.06910). They can move masses and mixings, but they add free numbers and cannot
+  lower the count. Read with W118, the forced rationals are predictions only if the Kähler metric is minimal.
+- The departure from the symmetric points stays unexplained at one loop (W59, B1686).
+
+**Status.** COMPUTED (the rule first; one run; every cell as predicted). A WEAVE-type result given the frames: Part K
+is about every Kähler metric on the weave's matter, and Part L takes every forced coefficient on record at every scan
+point. 0 of 19.
+
 ## W118. The first generation (the second of the owner's three arcs): the composite field, the fermions' own bilinear, lifts the first generation's zero with a forced power and an exact rational coefficient; two coefficients fall in the up quarks' window, but none in the down quarks' or the leptons', so no coherent assignment exists (`the_first_generation.py`; `W118_RULE.md`)
 
 **Why.** After W117, by the owner's order: the first generation, stage 3 of the goal page.
@@ -10172,6 +10247,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W119 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE-type result given the frames | beyond tree level (the third of the owner's three arcs): canonical normalization multiplies det Y by a positive real, so no Kähler metric moves arg det(Y_u Y_d) (checked at three τ over 300 metrics, worst 7 × 10⁻⁴⁸ at 50 digits; a non-Hermitian control moves it by 0.6), and W113's structural θ̄ survives; one-loop running of m₁m₃/m₂² from Λ to M_Z, in the SM and the MSSM (tan β 2 to 50, Λ 10¹² to 10¹⁶ GeV, all 24 points perturbative), multiplies it by F in 0.545 to 0.903 (up), 0.702 to 1.130 (down), 0.843 to 1.000 (leptons); the MSSM's gauge couplings meet to 0.17%; no point is coherent, and no forced coefficient reaches the down or lepton window (735/121 would need F ≤ 0.654, 3/5 F ≤ 0.18). W118's negative stands. 0 of 19 |
 | W118 | COMPUTED (the rule first; one run; H0–H2 as predicted; H4 failed, closed by arithmetic after the run); a WEAVE-type result given Λ and the stated hypotheses | the first generation (the second of the owner's three arcs): of stage 3's candidates only (d), the composite field, has an object; its directions P₁ = S₂ × S₃, P₂ = S₃ × S₁, P₃ = S₁ × S₂ vanish at ω toward X's line; paired by B1644's form, 15 of 27 pairings lift m₁ as derived, all with δ² : δ : 1 near ω and exact rational double ratios (15, 735/121, 77/4, 3/5, 5/4, 385/529, 1); 3/5 and 385/529 fall in the up window (data 0.538), none in the down (2.68) or lepton (0.081) windows, so no coherent assignment exists; 2 hits in 36 tries is chance level. (c) and (e) stay open. 0 of 19 |
 | W117 | COMPUTED (the rule first; one run; every cell as predicted); a census of thread results with weave functionals | a point on the line (the first of the owner's three arcs): τ held on each thread's closed geodesic up to length 8 and settled where W51's functionals are extremal along it (205 marks); the tick's line is marked only at i, where the masses are degenerate (χ² 1310 to 1378); eleven lines are marked only at a CP-fixed point; 10 of the 40 lines carry a mark that holds the quarks with two dof (best χ² 1.07, mostly just off i), p = 0.90, and none is named by a rule; one passing mark is CP-conserving (J = 0, χ² 4.24), since W66's eight observables carry no CP phase. A clean negative for the tick. 0 of 19 |
 | W116 | COMPUTED (the rule first; one run; S4 failed, the other cells as predicted); a census of thread results | the seed's marks (the owner's choice after W115): with τ on a thread's closed geodesic (every thread up to length 8: 69 words, 40 lines), W114's zero-dof quark assignments 11, 13 and 14 keep one degree of freedom, and the family passes on all 40 lines (χ²_fam 0.0013 to 2.96); the tick's line passes too (11 at χ² 0.33, its best point 0.072 + 1.033i, next to i), but p = 0.60; the quark data hold τ only to about 0.05 around each solution, and every line comes within 0.062 of one. No evidence. 0 of 19 |
@@ -10271,6 +10347,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `W119_RULE.md`: the rule, committed and pushed before the code; `the_beyond_tree_level.py` → `the_beyond_tree_level.json` and `the_beyond_tree_level_run.txt`: W119, beyond tree level (one run).
 - `W118_RULE.md`: the rule, committed and pushed before the code; `the_first_generation.py` → `the_first_generation.json` and `the_first_generation_run.txt`: W118, the first generation (one run).
 - `W117_RULE.md`: the rule, committed and pushed before the code; `the_points_on_the_line.py` → `the_points_on_the_line.json` and `the_points_on_the_line_run.txt`: W117, a point on the line (one run).
 - `W116_RULE.md`: the rule, committed and pushed before the code; `the_seed_geodesics.py` → `the_seed_geodesics.json` and `the_seed_geodesics_run.txt`: W116, the seed's marks (one run).

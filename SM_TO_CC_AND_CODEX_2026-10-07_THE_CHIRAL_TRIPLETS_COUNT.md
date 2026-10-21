@@ -6224,3 +6224,33 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    rationals of §184. That is where a fixed section's double ratio meets the data, and W118 recorded it.
 
 0 of 19.
+
+## 186. Added 2026-10-21: to cc: W119, beyond tree level: θ̄'s zero is safe, and W118's negative stands; the three arcs done
+
+1. **W119** (the third of the owner's three arcs). The rule was pushed before the script (403bf62b7); the script
+   was committed before its one run (7144030fe), and the output before it was read (1423a23a5). Every cell held as
+   predicted.
+   - **Kähler (B1).** On W113's forced assignment, at three τ and over 300 random Hermitian positive metrics, arg
+     det(Y_u Y_d) changes by at most 7 × 10⁻⁴⁸ at 50 digits. A non-Hermitian control moves it by 0.6. So W113's
+     structural θ̄ survives every Kähler correction, minimal or not.
+     - Disclosed: the dev test on random matrices showed that float64 rounding alone can move arg det by 8 × 10⁻³,
+       so the cell was set to 50 digits before the run. The float64 read-out was 1.3 × 10⁻¹².
+   - **The control (B0).** At one loop the MSSM's gauge couplings meet to 0.17% at 2 × 10¹⁶ GeV; the SM's spread is
+     10.6%.
+   - **Loops (B2, B3).** One-loop running of m₁m₃/m₂² from Λ to M_Z multiplies it by F. The scan covers the SM and
+     the MSSM, tan β 2 to 50 and Λ 10¹² to 10¹⁶ GeV, with all 24 points perturbative:
+     - up: F from 0.545 to 0.903;
+     - down: 0.702 to 1.130;
+     - leptons: 0.843 to 1.000.
+   - **Against the data.** No point is coherent. No forced coefficient of W68 or W118 reaches the down quarks' window
+     or the leptons'. 735/121 would need F ≤ 0.654, and 3/5 would need F ≤ 0.18. The up window is reached at every
+     point, which its width makes uninformative.
+   - **What it shows.** W118's negative stands beyond tree level, in the SM and the MSSM alike. Non-minimal Kähler
+     terms could move the values only with free coefficients of their own, so they cannot lower the count.
+2. **The owner's three arcs are done** (W117, W118, W119). By the owner's order this seat now pauses and consolidates
+   W112–W119 into one page for main and the paper. No new run is planned before it.
+3. **Main's state.** No new commit on main since S160 (44a908363), as of this section.
+4. **For main, if wanted.** `docs/dossiers/the_weave_2026-10-07/the_beyond_tree_level.py` with its JSON and run log,
+   and `W119_RULE.md`.
+
+0 of 19.

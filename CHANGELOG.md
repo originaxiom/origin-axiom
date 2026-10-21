@@ -1,5 +1,20 @@
 # Changelog
 
+## W119: beyond tree level, the tree level's results stand; the three arcs done (relay §186)
+
+- **The order.** The rule was pushed before the script (403bf62b7), the script was committed before its one run
+  (7144030fe), and the output before it was read (1423a23a5).
+- **The result.** Every cell held as predicted.
+  - No Kähler metric moves arg det(Y_u Y_d): the change is at most 7 × 10⁻⁴⁸ at 50 digits over 300 metrics at
+    three τ, and a non-Hermitian control moves it by 0.6. W113's structural θ̄ survives.
+  - One-loop running from Λ to M_Z (SM and MSSM, tan β 2 to 50, Λ 10¹² to 10¹⁶ GeV) multiplies the forced double
+    ratios by 0.55 to 1.13. None reaches the down quarks' or the leptons' window, so W118's negative stands.
+  - The MSSM's gauge couplings meet to 0.17% (the control).
+- **Disclosed.** The dev test showed float64 rounding can move arg det by 8 × 10⁻³ on hierarchical matrices, so the
+  Kähler cell was set to 50 digits before the run.
+- **Surfaces.** The NOTE (section, header bullet, table row, files), the goal page, relay §186, the ledger, the state
+  page, and the lock test. 0 of 19.
+
 ## W119's rule: beyond tree level, the third of the owner's three arcs (relay §185)
 
 - **The question.** Do corrections beyond the holomorphic tree level move θ̄'s structural zero, or carry the first
