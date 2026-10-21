@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1423** |
-| words of findings prose | **1,137,301** |
-| test lock files referenced | **840** |
-| arcs carrying an authored verdict | **1423** (100.0 %) |
+| research arcs with findings | **1424** |
+| words of findings prose | **1,138,069** |
+| test lock files referenced | **841** |
+| arcs carrying an authored verdict | **1424** (100.0 %) |
 | recorded closures | **825** (658 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 970 |
+| PROVED | 971 |
 | NEGATIVE | 349 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1694`** (833 words, 1 locks)  
-THE PARAMETER-FREE CURVE (P-242; sealed 90edb73e3, sha256 a6d90f7e; PROVED as sealed for its question -- C1, C2, C4 hold, C0 failed as worded, C3 failed; outputs committed unread at f9a9b2c42): the weight-3/2 section DR, the unique covariant Higgs direction of its weight, at the canonical end gives m1/m3 = F(m2/m3) with no free number (four curves: Re tau = 0, 1/2; two horocycles); against Huang-Zhou 2021 at M_Z the up quarks pass every curve (rho = 1.2-4.9), the leptons three of four (0.27-2.3), the down quarks one (5.5 on Re tau = 1/2, L_max; 8.3-41 elsewhere), so no curve passes all three; on the best curve all three sectors are within a factor of about eight (up 1.7, leptons 0.27, down 8.3) across three orders of magnitude of m1/m3, and the misses of the down quarks and the leptons are opposite -- the down-lepton split again, which in this frame needs a line or a second Higgs. Each sector sits at its own tau (3.1, 2.5, 2.1), which one fibre does not allow. 0 of 19.  
-`B1694_the_parameter_free_curve/FINDINGS.md`
+**PROVED — `B1695`** (768 words, 1 locks)  
+ONE LINE, ONE TAU, THE UNIQUE SECTION (P-243; sealed fc3bf0684, sha256 aced715b; PROVED as sealed for its question -- G1 holds, G2's prediction failed; outputs committed unread at cedc14c5b): the weight-3/2 covariant Higgs DR at the canonical end with one flat hypercharge line and one tau brings all six charged-fermion mass ratios within a factor of 1.79 of Huang-Zhou 2021 (best: Re tau = 0, L_max, the up quarks through the conjugate Higgs, alpha = 37/96, Im tau = 3.15; 29 grid points within a factor 3) but not to the data's precision (min chi2 61.3); after the seal (labelled) the match is shown not specific -- two wrong sector assignments fit better (1.58, 1.64) and 6.25% of random hierarchical targets fit as well -- so it measures the frame's flexibility, not a prediction; the second generation's down-lepton split (3.1 measured, about 1 here) is its clearest miss. 0 of 19.  
+`B1695_one_line_one_tau_the_unique_section/FINDINGS.md`
 
 **NEGATIVE — `B1673`** (1143 words, 1 locks)  
 THE DYNAMICAL-SELECTION CLAIMS OF 19 OCTOBER, VERIFIED (NEGATIVE; a verification arc of a separate session's unsealed arc, banked under its number; P-199): no static debt of Table 1 is discharged. V = -ln(Im tau |eta|^4) is minimal at omega (1.0335192760; saddle at i, gap 0.0211690050), the classical torus-determinant extremum, already in W51/W59: taking it as the modulus's potential is a choice. The Green function's minimum over the 72 points of exact order 9 is a 12-point orbit (-0.504572), disjoint from W59's eighteen lines; the 3-torsion lies lower. The 8:4 CP count is a coordinate error (points built as (a omega - b)/9, rotated as a + b omega; wrong on 72 of 72); on the true points 0 of 12 are reflection-fixed and the orbit is reflection-closed, so nothing breaks; averaged J is set by the input matrix and is ~1200x the measured 3.1e-5. Orbit-averaged and Selberg spectra (s = l(LR), one thread's length) give ratios near 1/2, missing the data by one to three orders. 0 of 19.  

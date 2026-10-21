@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1423 of 1423 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1424 of 1424 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (970)
+## PROVED (971)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -982,6 +982,7 @@
 | `B1692` | THE CUSP WITH A TWISTED LINE PER SECTOR (P-169, part 1): with a flat hypercharge line on the fibre and one covariant Higgs, B1653's residue coupling and B1645's closed form agree (18 |q|^(1/2) without the line), the line keeps the m2/m3 exponent 1/2 in every sector, and it splits the three sectors' second-to-third hierarchies only by a coefficient that lies in [1, 4]: at Im tau = 14 over 484 lines the largest spread is 3.99999993 (generic factors 1, 2, 4; 4/3 and 8/3 at isolated tie lines; the line's real part never matters), at Im tau = 1.5, 2, 3 over four sections it is 3.01, 3.60, 3.92, and at W60's half-period line the sectors coincide (the d-e wall at the selected state); the reason is that m2/m3 depends only on the residue doublets' directions, which tend to basis lines except at ties. So in this frame a flat line can make the sectors' 2-3 hierarchies differ by at most four; the comparison with data is P-241, sealed first. 0 of 19. |  | 1 |
 | `B1693` | B1692'S BOUND AGAINST THE MEASURED MASSES (P-241; sealed aa36d2667, sha256 ffe0a6e1; PROVED as sealed, both cells hold; the output committed unread at 4eac2b5b1): in the fibre frame with a flat hypercharge line, one covariant Higgs splits the three charged sectors' m2/m3 by at most four (B1692), but at M_Z the leptons' m_mu/m_tau = 0.0589 is 15.98 times the up quarks' m_c/m_t = 0.00368 (3 sigma band 10.37-24.62 with B1637's 10% allowance): one Higgs is EXCLUDED in this frame, so the up quarks need a Higgs of their own; the down-lepton pair (3.14, band 1.91-5.18) is ALLOWED. A structural conclusion, not a number; the outcome was largely known before the seal (B1660's 3.14; main's recall), disclosed. 0 of 19. |  | 1 |
 | `B1694` | THE PARAMETER-FREE CURVE (P-242; sealed 90edb73e3, sha256 a6d90f7e; PROVED as sealed for its question -- C1, C2, C4 hold, C0 failed as worded, C3 failed; outputs committed unread at f9a9b2c42): the weight-3/2 section DR, the unique covariant Higgs direction of its weight, at the canonical end gives m1/m3 = F(m2/m3) with no free number (four curves: Re tau = 0, 1/2; two horocycles); against Huang-Zhou 2021 at M_Z the up quarks pass every curve (rho = 1.2-4.9), the leptons three of four (0.27-2.3), the down quarks one (5.5 on Re tau = 1/2, L_max; 8.3-41 elsewhere), so no curve passes all three; on the best curve all three sectors are within a factor of about eight (up 1.7, leptons 0.27, down 8.3) across three orders of magnitude of m1/m3, and the misses of the down quarks and the leptons are opposite -- the down-lepton split again, which in this frame needs a line or a second Higgs. Each sector sits at its own tau (3.1, 2.5, 2.1), which one fibre does not allow. 0 of 19. |  | 1 |
+| `B1695` | ONE LINE, ONE TAU, THE UNIQUE SECTION (P-243; sealed fc3bf0684, sha256 aced715b; PROVED as sealed for its question -- G1 holds, G2's prediction failed; outputs committed unread at cedc14c5b): the weight-3/2 covariant Higgs DR at the canonical end with one flat hypercharge line and one tau brings all six charged-fermion mass ratios within a factor of 1.79 of Huang-Zhou 2021 (best: Re tau = 0, L_max, the up quarks through the conjugate Higgs, alpha = 37/96, Im tau = 3.15; 29 grid points within a factor 3) but not to the data's precision (min chi2 61.3); after the seal (labelled) the match is shown not specific -- two wrong sector assignments fit better (1.58, 1.64) and 6.25% of random hierarchical targets fit as well -- so it measures the frame's flexibility, not a prediction; the second generation's down-lepton split (3.1 measured, about 1 here) is its clearest miss. 0 of 19. |  | 1 |
 
 ## NEGATIVE (349)
 

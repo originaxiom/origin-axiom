@@ -12788,6 +12788,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1695": {
+   "slug": "one line one tau the unique section",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "observable",
+   "obstacle_conf": 10,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B169": {
    "slug": "isomonodromy flow",
    "motifs": [

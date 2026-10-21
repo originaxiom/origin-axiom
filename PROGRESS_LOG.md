@@ -17589,3 +17589,11 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   column), sealed it with the comparison (90edb73e3), ran both once (f9a9b2c42), read once. One lock wording fixed before
   landing (a flat start of m₁/m₃ on the L₂ curves; the findings say so).
 - **Landing suite.** 116 files (B1694's lock, every arc lock and the corpus-scanning tests), 2034 passed, 1 failed, 3 skipped (7:59, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-21 — S166 ONE LINE, ONE τ, THE UNIQUE SECTION (B1695; P-243)
+
+- Seal fc3bf0684 (only the seal), its push blocked by doc-currency (OPEN_LEADS, RETRACTIONS stale), the reads in their
+  own commit (P3's retraction count moved to forty-one, as S112 did); the grid run once (22 min), the comparison once,
+  outputs committed unread (cedc14c5b), read once. G2 passed against the prediction; before banking any positive
+  value match main calibrated it (after the seal, labelled): not specific, not rare. Banked as flexibility.
+- **Landing suite.** 116 files (B1695's lock, every arc lock and the corpus-scanning tests), 2036 passed, 1 failed, 3 skipped (7:25, -n 8); the one failure is B805's attachment lock (P-239)

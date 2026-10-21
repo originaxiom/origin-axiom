@@ -1,0 +1,29 @@
+{
+  "id": "B1695",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1694",
+    "B1692",
+    "B1691",
+    "B1656",
+    "B1667",
+    "B1660",
+    "B1637"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the fibre at one tau, given Lambda; B1656's four-channel coupling at B1667's canonical end; the weight-3/2 covariant section DR (H-cov); one flat hypercharge line",
+    "object": "the six charged-fermion mass ratios at M_Z from (alpha, Im tau) and twelve discrete choices, on a grid",
+    "reach": "class",
+    "hypotheses": "a grid (upper bound on the minimum chi2); beta = 0; B1637's 10% allowance; the calibration after the seal is labelled and its random prior main's choice"
+  },
+  "claim_one_line": "ONE LINE, ONE TAU, THE UNIQUE SECTION (P-243; sealed fc3bf0684, sha256 aced715b; PROVED as sealed for its question -- G1 holds, G2's prediction failed; outputs committed unread at cedc14c5b): the weight-3/2 covariant Higgs DR at the canonical end with one flat hypercharge line and one tau brings all six charged-fermion mass ratios within a factor of 1.79 of Huang-Zhou 2021 (best: Re tau = 0, L_max, the up quarks through the conjugate Higgs, alpha = 37/96, Im tau = 3.15; 29 grid points within a factor 3) but not to the data's precision (min chi2 61.3); after the seal (labelled) the match is shown not specific -- two wrong sector assignments fit better (1.58, 1.64) and 6.25% of random hierarchical targets fit as well -- so it measures the frame's flexibility, not a prediction; the second generation's down-lepton split (3.1 measured, about 1 here) is its clearest miss. 0 of 19.",
+  "weave_or_thread": "weave (the three charged sectors on one fibre under one line and one tau)"
+}

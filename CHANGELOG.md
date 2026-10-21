@@ -1,5 +1,20 @@
 # Changelog
 
+## S166 ONE LINE, ONE τ, THE UNIQUE SECTION (B1695, PROVED as sealed for its question; P-243) (2026-10-21)
+
+- **B1695.** Sealed at fc3bf0684 (sha256 aced715b) before its grid (4 018 points, 22 min on 8 workers) and comparison ran
+  (outputs committed unread at cedc14c5b). The weight-3/2 section ∂R at the canonical end with one flat line and one τ:
+  **G1 (χ² < 14.86) fails as predicted** (minimum 61.3); **G2 (all six within a factor 3) passes, against the prediction**
+  — at Re τ = 0, L_max, the conjugate Higgs for the up quarks, α = 37/96, Im τ = 3.15, every ratio is within a factor of
+  1.79. After the seal (labelled): two wrong sector orders fit better (1.58, 1.64) and 6.25% of random hierarchical
+  targets fit as well — the match is the frame's flexibility, not a prediction. The second generation's d–e split
+  (3.1 measured, about 1 here) is the clearest miss.
+- **Also.** OPEN_LEADS and RETRACTIONS currency reads (a separate commit after the seal; B1691's correction as
+  RETRACTIONS' 41st row, P3's count sentence and its generator moved to forty-one).
+- **Register.** P-243 registered and DONE. FLOOR 243.
+- **Landing suite.** 116 files (B1695's lock, every arc lock and the corpus-scanning tests), 2036 passed, 1 failed, 3 skipped (7:25, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S165 THE PARAMETER-FREE CURVE AGAINST THE MASSES (B1694, PROVED as sealed for its question; P-242) (2026-10-21)
 
 - **B1694.** Sealed at 90edb73e3 (sha256 a6d90f7e) before its two instruments ran (outputs committed unread at

@@ -1,0 +1,21 @@
+{
+ "true_order_best_worst_factor": 1.7880282193414192,
+ "model_rows": 24108,
+ "sector_permutations_best_worst_factor": {
+  "udl": 1.7880282193414192,
+  "uld": 2.412059545288199,
+  "dul": 1.909061068524488,
+  "dlu": 1.639534315267478,
+  "lud": 2.886520434731282,
+  "ldu": 1.5814075946886603
+ },
+ "random_targets": {
+  "N": 2000,
+  "fraction_fit_as_well": 0.0625,
+  "median_best_worst": 3.263020174816855,
+  "quantiles_5_25": [
+   1.7175386884688235,
+   2.3993279772835456
+  ]
+ }
+}

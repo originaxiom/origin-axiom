@@ -763,3 +763,7 @@ found with B1635's sealed instrument.
   a factor of about eight across three orders of magnitude of m₁/m₃. The down quarks and the leptons miss in opposite
   directions — the down–lepton split again — and each sector sits at its own τ, which one fibre does not allow without a
   line or more Higgs fields.
+- **One line, one τ (B1695, sealed).** With one flat line and one τ, the unique section brings all six charged-fermion
+  ratios within a factor of 1.8 — but not to the data's precision, and the match is not specific: wrong sector
+  assignments fit as well and about one random hierarchy in sixteen fits as well (labelled, after the seal). The frame
+  can make hierarchies of the observed size; it does not yet predict them.
