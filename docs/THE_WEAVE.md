@@ -723,3 +723,15 @@ found with B1635's sealed instrument.
 - **The tribunal's FAILS cells (B1690).** W76 (every mirror-symmetric thread to length 16 has CS = 0) and W83 (in the
   lane's E₈ frame the commutant is su(6), and a trace-free Y commuting with the weave's moves on T has dimension 0) are
   verified on main; W81's branching too; W74's CP-invariance of the surface frame holds given W64's dimension count (the seat's, unverified on main; row 1124).
+
+## Main's addition: the exponents at the two fixed points (B1691, PROVED)
+
+- **If the Higgs's direction is covariant, the hierarchy is exponents times one departure.** Under the tagged hypothesis
+  that the direction in M is a vector-valued form for the matter's representation (P-115's open question, answered by a
+  choice), the sections are free on R, ∂R, ∂²R (Wronskian −(i/8)η⁹), and R·R = R·∂R = 0, R·∂²R = −∂R·∂R exactly. Near the
+  cusp, where W62 says τ runs (B1686), every section with a ∂²R component gives m₂/m₃ ~ |q|^½ and m₁/m₃ ~ Im τ·|q|, the
+  same |q| for every sector on the fibre; near ω the exponents are the weight's residual ℤ₃ charge. A constant
+  (non-covariant) direction gives no 2–3 hierarchy at all.
+- **What it is not.** Not a number: τ and the section's coefficients stay free, and nothing computed holds τ. The
+  comparison with measured masses is sealed first (P-240).
+- **The SM seat's surface Higgs mode is η⁶R** (W72's coefficients reproduced exactly), so it is isotropic.

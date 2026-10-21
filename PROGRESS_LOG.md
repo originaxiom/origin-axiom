@@ -17537,3 +17537,12 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - B1689's verdict: sm:B1544 and sm:B1545 moved to cites_seat (their rows PARTLY VERIFIED: the lemmas' proofs checked,
   their censuses not), sm:B1535 kept (Theorem C checked given Garland–Raghunathan).
 - **Landing suite.** 122 files (the landing set: the five new locks, every arc lock and the corpus-scanning tests), 2049 passed, 1 failed, 3 skipped (13:13, -n 8); the one failure is B805's attachment lock, which S158's five arcs tipped past half (719 of 1 435 arcs on no face; the kill graph's attachment ends near B800; P-239)
+
+## 2026-10-21 — S159 THE EXPONENTS AT THE TWO FIXED POINTS (B1691; P-227)
+
+- Exploration first (kept in the arc's before_the_instrument/): R's exact q^{1/8}-series, the basis R, ∂R, ∂²R, generic
+  sections per weight, the ω probe. Then the instrument, run as given; two slips caught (B1654's nome; the second route's
+  |R|²) and disclosed.
+- Disclosed in the arc and in P-240: while planning, main recalled measured mass log-ratios from memory beside hand
+  estimates of the exponents. No computation touched data.
+- **Landing suite.** 116 files (B1691's lock, every arc lock and the corpus-scanning tests), 2031 passed, 1 failed, 3 skipped (19:06, -n 8); the one failure is B805's attachment lock (P-239, registered at S158)

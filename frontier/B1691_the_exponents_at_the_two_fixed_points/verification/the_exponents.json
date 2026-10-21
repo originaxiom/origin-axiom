@@ -1,0 +1,619 @@
+{
+ "C1": {
+  "R.R_identically_0": true,
+  "R.DR_identically_0": true,
+  "R.D2R_plus_DR.DR_identically_0": true,
+  "DR.DR_order_in_x": 2,
+  "DR.DR_leading": [
+   "1/4",
+   "0"
+  ],
+  "wronskian_over_8eta9_constant": true,
+  "wronskian_over_8eta9": [
+   "0",
+   "-1/64"
+  ],
+  "R_orders_on_(e_i,e_j,e_k)": [
+   1,
+   -1,
+   -1
+  ]
+ },
+ "C2_cusp": {
+  "-1/2": {
+   "seed1": {
+    "m2/m3_exponent_in_|q|": null,
+    "m1/m3_exponent_in_|q|_times_Im_tau": null,
+    "orders_x": [
+     null,
+     null,
+     -2,
+     -4
+    ]
+   },
+   "dim": 1,
+   "carries_D2R": false,
+   "seed2": {
+    "m2/m3_exponent_in_|q|": null,
+    "m1/m3_exponent_in_|q|_times_Im_tau": null,
+    "orders_x": [
+     null,
+     null,
+     -2,
+     -4
+    ]
+   }
+  },
+  "3/2": {
+   "seed1": {
+    "m2/m3_exponent_in_|q|": "1/2",
+    "m1/m3_exponent_in_|q|_times_Im_tau": null,
+    "orders_x": [
+     2,
+     null,
+     -2,
+     -4
+    ]
+   },
+   "dim": 1,
+   "carries_D2R": false,
+   "seed2": {
+    "m2/m3_exponent_in_|q|": "1/2",
+    "m1/m3_exponent_in_|q|_times_Im_tau": null,
+    "orders_x": [
+     2,
+     null,
+     -2,
+     -4
+    ]
+   }
+  },
+  "7/2": {
+   "seed1": {
+    "m2/m3_exponent_in_|q|": "1/2",
+    "m1/m3_exponent_in_|q|_times_Im_tau": "1",
+    "orders_x": [
+     2,
+     2,
+     -2,
+     -4
+    ]
+   },
+   "dim": 2,
+   "carries_D2R": true,
+   "seed2": {
+    "m2/m3_exponent_in_|q|": "1/2",
+    "m1/m3_exponent_in_|q|_times_Im_tau": "1",
+    "orders_x": [
+     2,
+     2,
+     -2,
+     -4
+    ]
+   },
+   "f2 = 0 (no D2R)": {
+    "m2/m3_exponent_in_|q|": null,
+    "m1/m3_exponent_in_|q|_times_Im_tau": null,
+    "orders_x": [
+     null,
+     null,
+     -2,
+     -4
+    ]
+   }
+  },
+  "11/2": {
+   "seed1": {
+    "m2/m3_exponent_in_|q|": "1/2",
+    "m1/m3_exponent_in_|q|_times_Im_tau": null,
+    "orders_x": [
+     2,
+     null,
+     -2,
+     -4
+    ]
+   },
+   "dim": 2,
+   "carries_D2R": false,
+   "seed2": {
+    "m2/m3_exponent_in_|q|": "1/2",
+    "m1/m3_exponent_in_|q|_times_Im_tau": null,
+    "orders_x": [
+     2,
+     null,
+     -2,
+     -4
+    ]
+   }
+  },
+  "15/2": {
+   "seed1": {
+    "m2/m3_exponent_in_|q|": "1/2",
+    "m1/m3_exponent_in_|q|_times_Im_tau": "1",
+    "orders_x": [
+     2,
+     2,
+     -2,
+     -4
+    ]
+   },
+   "dim": 3,
+   "carries_D2R": true,
+   "seed2": {
+    "m2/m3_exponent_in_|q|": "1/2",
+    "m1/m3_exponent_in_|q|_times_Im_tau": "1",
+    "orders_x": [
+     2,
+     2,
+     -2,
+     -4
+    ]
+   },
+   "f2 = 0 (no D2R)": {
+    "m2/m3_exponent_in_|q|": "1/2",
+    "m1/m3_exponent_in_|q|_times_Im_tau": null,
+    "orders_x": [
+     2,
+     null,
+     -2,
+     -4
+    ]
+   }
+  },
+  "19/2": {
+   "seed1": {
+    "m2/m3_exponent_in_|q|": "1/2",
+    "m1/m3_exponent_in_|q|_times_Im_tau": "1",
+    "orders_x": [
+     2,
+     2,
+     -2,
+     -4
+    ]
+   },
+   "dim": 3,
+   "carries_D2R": true,
+   "seed2": {
+    "m2/m3_exponent_in_|q|": "1/2",
+    "m1/m3_exponent_in_|q|_times_Im_tau": "1",
+    "orders_x": [
+     2,
+     2,
+     -2,
+     -4
+    ]
+   },
+   "f2 = 0 (no D2R)": {
+    "m2/m3_exponent_in_|q|": "1/2",
+    "m1/m3_exponent_in_|q|_times_Im_tau": null,
+    "orders_x": [
+     2,
+     null,
+     -2,
+     -4
+    ]
+   }
+  },
+  "23/2": {
+   "seed1": {
+    "m2/m3_exponent_in_|q|": "1/2",
+    "m1/m3_exponent_in_|q|_times_Im_tau": "1",
+    "orders_x": [
+     2,
+     2,
+     -2,
+     -4
+    ]
+   },
+   "dim": 4,
+   "carries_D2R": true,
+   "seed2": {
+    "m2/m3_exponent_in_|q|": "1/2",
+    "m1/m3_exponent_in_|q|_times_Im_tau": "1",
+    "orders_x": [
+     2,
+     2,
+     -2,
+     -4
+    ]
+   },
+   "f2 = 0 (no D2R)": {
+    "m2/m3_exponent_in_|q|": "1/2",
+    "m1/m3_exponent_in_|q|_times_Im_tau": null,
+    "orders_x": [
+     2,
+     null,
+     -2,
+     -4
+    ]
+   }
+  }
+ },
+ "C2_controls_constant_directions": {
+  "e_i": {
+   "m2/m3_exponent_in_|q|": "0",
+   "m1/m3_exponent_in_|q|_times_Im_tau": "3/4",
+   "orders_x": [
+    0,
+    1,
+    0,
+    -2
+   ]
+  },
+  "e_j": {
+   "m2/m3_exponent_in_|q|": "0",
+   "m1/m3_exponent_in_|q|_times_Im_tau": "1/2",
+   "orders_x": [
+    0,
+    -1,
+    0,
+    -2
+   ]
+  },
+  "e_k": {
+   "m2/m3_exponent_in_|q|": "0",
+   "m1/m3_exponent_in_|q|_times_Im_tau": "1/2",
+   "orders_x": [
+    0,
+    -1,
+    0,
+    -2
+   ]
+  },
+  "generic real": {
+   "m2/m3_exponent_in_|q|": "0",
+   "m1/m3_exponent_in_|q|_times_Im_tau": "1/2",
+   "orders_x": [
+    0,
+    -1,
+    0,
+    -2
+   ]
+  }
+ },
+ "C3_rho_ST_eigenvalues": [
+  "(-1.0710461e-41 - 1.0j)",
+  "(-0.8660254 + 0.5j)",
+  "(0.8660254 + 0.5j)"
+ ],
+ "C3_rho_ST_eigenlines_isotropic": [
+  "1.0",
+  "3.49e-41",
+  "4.39e-41"
+ ],
+ "C3_omega": {
+  "-1/2": {
+   "seed1": {
+    "|a(omega)|^2": "50.127",
+    "m2/m3_at_omega": "2.89672e-42",
+    "slope_m2/m3_in_eps": null,
+    "slope_lift_factor_in_eps": null,
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "1.17e-40",
+     "1.54e-40",
+     "7.08"
+    ]
+   },
+   "seed2": {
+    "|a(omega)|^2": "85.511",
+    "m2/m3_at_omega": "1.20072e-42",
+    "slope_m2/m3_in_eps": null,
+    "slope_lift_factor_in_eps": null,
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "1.72e-40",
+     "2.18e-40",
+     "9.25"
+    ]
+   }
+  },
+  "3/2": {
+   "seed1": {
+    "|a(omega)|^2": "1.1822",
+    "m2/m3_at_omega": "0.5",
+    "slope_m2/m3_in_eps": [
+     -0.0,
+     -0.0,
+     -0.0
+    ],
+    "slope_lift_factor_in_eps": null,
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "1.09",
+     "2.16e-41",
+     "2.64e-41"
+    ]
+   },
+   "seed2": {
+    "|a(omega)|^2": "5.5948",
+    "m2/m3_at_omega": "0.5",
+    "slope_m2/m3_in_eps": [
+     -0.0,
+     -0.0,
+     -0.0
+    ],
+    "slope_lift_factor_in_eps": null,
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "2.37",
+     "4.59e-41",
+     "4.08e-41"
+    ]
+   }
+  },
+  "7/2": {
+   "seed1": {
+    "|a(omega)|^2": "0.0092749",
+    "m2/m3_at_omega": "4.51167e-39",
+    "slope_m2/m3_in_eps": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "slope_lift_factor_in_eps": [
+     -0.0,
+     -0.0,
+     -0.0
+    ],
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "3.35e-41",
+     "0.0963",
+     "2.19e-40"
+    ]
+   },
+   "seed2": {
+    "|a(omega)|^2": "0.0058772",
+    "m2/m3_at_omega": "4.99772e-39",
+    "slope_m2/m3_in_eps": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "slope_lift_factor_in_eps": [
+     -0.0,
+     -0.0,
+     -0.0
+    ],
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "1.39e-41",
+     "0.0767",
+     "1.91e-40"
+    ]
+   }
+  },
+  "11/2": {
+   "seed1": {
+    "|a(omega)|^2": "59.74",
+    "m2/m3_at_omega": "6.72548e-43",
+    "slope_m2/m3_in_eps": [
+     2.0,
+     2.0,
+     2.0
+    ],
+    "slope_lift_factor_in_eps": null,
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "1.86e-40",
+     "1.96e-40",
+     "7.73"
+    ]
+   },
+   "seed2": {
+    "|a(omega)|^2": "46.138",
+    "m2/m3_at_omega": "1.49284e-42",
+    "slope_m2/m3_in_eps": [
+     2.0,
+     2.0,
+     2.0
+    ],
+    "slope_lift_factor_in_eps": null,
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "1.15e-40",
+     "1.6e-40",
+     "6.79"
+    ]
+   }
+  },
+  "15/2": {
+   "seed1": {
+    "|a(omega)|^2": "1.7762",
+    "m2/m3_at_omega": "0.5",
+    "slope_m2/m3_in_eps": [
+     -0.0,
+     -0.0,
+     -0.0
+    ],
+    "slope_lift_factor_in_eps": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "1.33",
+     "2.04e-41",
+     "9.89e-41"
+    ]
+   },
+   "seed2": {
+    "|a(omega)|^2": "1.8582",
+    "m2/m3_at_omega": "0.5",
+    "slope_m2/m3_in_eps": [
+     -0.0,
+     -0.0,
+     -0.0
+    ],
+    "slope_lift_factor_in_eps": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "1.36",
+     "1.83e-40",
+     "1.22e-40"
+    ]
+   }
+  },
+  "19/2": {
+   "seed1": {
+    "|a(omega)|^2": "0.029768",
+    "m2/m3_at_omega": "6.32088e-39",
+    "slope_m2/m3_in_eps": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "slope_lift_factor_in_eps": [
+     -0.0,
+     -0.0,
+     -0.0
+    ],
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "2.91e-41",
+     "0.173",
+     "5.47e-40"
+    ]
+   },
+   "seed2": {
+    "|a(omega)|^2": "0.0038125",
+    "m2/m3_at_omega": "4.67633e-38",
+    "slope_m2/m3_in_eps": [
+     0.999,
+     0.999,
+     0.999
+    ],
+    "slope_lift_factor_in_eps": [
+     -0.001,
+     -0.001,
+     -0.001
+    ],
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "2.61e-40",
+     "0.0617",
+     "1.44e-39"
+    ]
+   }
+  },
+  "23/2": {
+   "seed1": {
+    "|a(omega)|^2": "864.0",
+    "m2/m3_at_omega": "1.27549e-42",
+    "slope_m2/m3_in_eps": [
+     2.0,
+     2.0,
+     2.0
+    ],
+    "slope_lift_factor_in_eps": [
+     2.0,
+     2.0,
+     2.0
+    ],
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "5.52e-40",
+     "5.95e-40",
+     "29.4"
+    ]
+   },
+   "seed2": {
+    "|a(omega)|^2": "10775.0",
+    "m2/m3_at_omega": "1.09099e-42",
+    "slope_m2/m3_in_eps": [
+     2.0,
+     2.0,
+     2.0
+    ],
+    "slope_lift_factor_in_eps": [
+     2.0,
+     2.0,
+     2.0
+    ],
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "1.97e-39",
+     "2.55e-39",
+     "104.0"
+    ]
+   }
+  }
+ },
+ "C2b_cusp_direct": {
+  "7/2": {
+   "m2/m3_slope_in_|q|": [
+    0.5,
+    0.5
+   ],
+   "m1/m3_slope_in_|q|_with_D_law": [
+    0.945,
+    0.959
+   ]
+  },
+  "15/2": {
+   "m2/m3_slope_in_|q|": [
+    0.5,
+    0.5
+   ],
+   "m1/m3_slope_in_|q|_with_D_law": [
+    0.945,
+    0.959
+   ]
+  },
+  "19/2": {
+   "m2/m3_slope_in_|q|": [
+    0.5,
+    0.5
+   ],
+   "m1/m3_slope_in_|q|_with_D_law": [
+    0.945,
+    0.959
+   ]
+  },
+  "23/2": {
+   "m2/m3_slope_in_|q|": [
+    0.5,
+    0.5
+   ],
+   "m1/m3_slope_in_|q|_with_D_law": [
+    0.945,
+    0.959
+   ]
+  }
+ },
+ "C4_h_is_eta6_R": {
+  "coefficients": {
+   "v+:1/8": [
+    "1",
+    "0"
+   ],
+   "e_i:3/8": [
+    "4",
+    "0"
+   ],
+   "v-:5/8": [
+    "-4",
+    "0"
+   ],
+   "v+:9/8": [
+    "1",
+    "0"
+   ],
+   "e_i:11/8": [
+    "-4",
+    "0"
+   ],
+   "v-:13/8": [
+    "12",
+    "0"
+   ],
+   "v+:17/8": [
+    "-8",
+    "0"
+   ],
+   "e_i:19/8": [
+    "-20",
+    "0"
+   ],
+   "v-:21/8": [
+    "-8",
+    "0"
+   ]
+  },
+  "equal_to_the_seats": true,
+  "h.h_identically_0": true
+ },
+ "notes": "m1/m3 = |D| x (the lift factor) / (2 pi L); |D|/|R|^2 ~ |q|^(1/2) (8 pi^2 Im tau + const) at the cusp (q = e^{2 pi i tau}; B1654's nome) and |D| ~ |tau - omega| at omega (B1654), L of order one (B1667): so near omega m1/m3's exponent is the lift factor's plus 1; the control: a constant direction falls as |q|^(1/2) Im tau = e^(-pi Im tau) Im tau, B1667's T4 law"
+}

@@ -12722,6 +12722,22 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1691": {
+   "slug": "the exponents at the two fixed points",
+   "motifs": [
+    "coupling",
+    "trace_map",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 21,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B169": {
    "slug": "isomonodromy flow",
    "motifs": [

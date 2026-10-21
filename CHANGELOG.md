@@ -1,5 +1,20 @@
 # Changelog
 
+## S159 THE EXPONENTS AT THE TWO FIXED POINTS (B1691, PROVED; P-227 done) (2026-10-21)
+
+- **B1691 (P-227, part 1; mathematics, no data).** Under the tagged hypothesis that the Higgs's direction in M is a
+  covariant section of the matter's representation ρ_R (P-115 open), the record's mass ratios near the cusp are powers of
+  one |q|: m₂/m₃ ~ |q|^½ and m₁/m₃ ~ Im τ·|q| for every section with a ∂²R component at every weight to 23/2, m₁ = 0
+  without it, and no 2–3 hierarchy for a constant direction (the control, consistent with B1667's measured fall). Exact:
+  R·R = R·∂R = 0 and R·∂²R = −∂R·∂R; the sections are free on R, ∂R, ∂²R (Wronskian −(i/8)η⁹). Near ω the exponents follow
+  the residual ℤ₃ charge (k mod 6). W72's Higgs surface mode is η⁶R exactly. Two routes (exact q^{1/8}-series; direct
+  evaluation along τ = iy). A reduction to exponents and one scale, not a number.
+- **Disclosed.** Main recalled measured mass log-ratios from memory while planning, beside hand estimates (P-240 carries
+  it); main's nome slip (B1654's q is e^{iπτ}) caught by the control against B1667; a dropped |R|² in the second route.
+- **Register.** P-227 DONE; P-115 noted; P-240 registered (the sealed comparison). FLOOR 240.
+- **Landing suite.** 116 files (B1691's lock, every arc lock and the corpus-scanning tests), 2031 passed, 1 failed, 3 skipped (19:06, -n 8); the one failure is B805's attachment lock (P-239, registered at S158)
+- 0 of 19.
+
 ## S158 FIVE ARCS: W60 AND W62 ON MAIN, THE WEAVE AS THE QUBIT'S CLIFFORD GROUP, TRICRITICAL ISING AS ISING × FIBONACCI, AND P-229'S VERIFICATIONS (B1686–B1690) (2026-10-21)
 
 - **B1686 (P-222): W60 and W62 on main.** Every cell of the SM seat's W60 (the quark sector with a Wilson line) and W62

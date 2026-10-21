@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1419** |
-| words of findings prose | **1,133,034** |
-| test lock files referenced | **836** |
-| arcs carrying an authored verdict | **1419** (100.0 %) |
+| research arcs with findings | **1420** |
+| words of findings prose | **1,134,394** |
+| test lock files referenced | **837** |
+| arcs carrying an authored verdict | **1420** (100.0 %) |
 | recorded closures | **825** (658 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 966 |
+| PROVED | 967 |
 | NEGATIVE | 349 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1690`** (1701 words, 1 locks)  
-P-229'S LAST ITEMS ON MAIN: every word state to length 12 (758) and m004's levels 1-12 have one cusp, b1 = 1 and peripheral rank 1, so none has a free cusp (sm:B1385 T1, re-derived: det(phi - I) = 2 - tr phi); on B1186's 112, 35 members carry 83 free cusps and the region-swap parity, run with the isometries' exact action on H1, closes 79, leaving the seat's four (o10_150688, o10_150708, o10_150716 and o10_150725's cusp 1): 108 of 112 closed (sm:B1369); the four residual cusps have unique shortest vectors (sm:B1370); 14 of m004's 87 covers of degree <= 10 have a hexagonal cusp; all 536 manifolds of the word states are infinitesimally projectively rigid rel cusp at 60 digits, 262 with no fibre-boundary-inverting isometry (131 per sign, 220 chiral, 42 swaprev-only; sm:B1523); B1652's cells: W76 (248 mirror-symmetric threads of 8798, all CS = 0), W83 (commutant su(6); trace-free Y of dimension 0, 1, 8 through O, S3, trivially) and W81's branching (55 + 52x2 + 27x3 + 2x4) reproduced, W74's identities exact and its reality given W64's K5. 0 of 19.  
-`B1690_free_cusps_rigidity_and_the_tribunal_cells/FINDINGS.md`
+**PROVED — `B1691`** (1360 words, 1 locks)  
+THE EXPONENTS AT THE TWO FIXED POINTS (P-227, part 1): if the Higgs's direction in M is a covariant section of the matter's representation, the record's mass ratios near the cusp are powers of one |q| -- m2/m3 ~ |q|^(1/2) and m1/m3 ~ Im tau |q| for every section with a second-derivative component at every weight to 23/2 (by exact q^(1/8)-series and by direct evaluation), m1 = 0 without it, and no 2-3 hierarchy for a constant direction (the control) -- because R.R = R.DR = 0 and R.D2R = -DR.DR exactly (the sections are free on R, DR, D2R: Wronskian -(i/8) eta^9); near omega the exponents follow the residual Z3 charge (k mod 6: (1, 1), (2, 3), or no 2-3 hierarchy); the SM seat's W72 Higgs mode is exactly eta^6 R, isotropic. A reduction to discrete exponents and one scale, not a number: tau and the coefficients stay free, and nothing computed holds tau (B1686). The comparison with measured masses is P-240, sealed first. 0 of 19.  
+`B1691_the_exponents_at_the_two_fixed_points/FINDINGS.md`
 
 **NEGATIVE — `B1673`** (1143 words, 1 locks)  
 THE DYNAMICAL-SELECTION CLAIMS OF 19 OCTOBER, VERIFIED (NEGATIVE; a verification arc of a separate session's unsealed arc, banked under its number; P-199): no static debt of Table 1 is discharged. V = -ln(Im tau |eta|^4) is minimal at omega (1.0335192760; saddle at i, gap 0.0211690050), the classical torus-determinant extremum, already in W51/W59: taking it as the modulus's potential is a choice. The Green function's minimum over the 72 points of exact order 9 is a 12-point orbit (-0.504572), disjoint from W59's eighteen lines; the 3-torsion lies lower. The 8:4 CP count is a coordinate error (points built as (a omega - b)/9, rotated as a + b omega; wrong on 72 of 72); on the true points 0 of 12 are reflection-fixed and the orbit is reflection-closed, so nothing breaks; averaged J is set by the input matrix and is ~1200x the measured 3.1e-5. Orbit-averaged and Selberg spectra (s = l(LR), one thread's length) give ratios near 1/2, missing the data by one to three orders. 0 of 19.  
