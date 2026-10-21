@@ -19788,3 +19788,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The plan:** go through every way the framework allows the quarks to be assigned, and sort them. Then test the
   ones where the zero comes for free against the measured quark masses and mixings.
 - **The rule and its predictions are fixed before the program exists.** 0 of 19.
+
+## 2026-10-21 — the second test: the zero is possible, but not in our world
+
+- **The question was whether the framework can make the strong-force angle exactly zero for free, while still
+  allowing matter and antimatter to behave differently.**
+- **It can, in exactly one way:** all the quarks must sit in the opposite version of the three-generation pattern
+  from the one the record has used. There the angle is zero at every value of the modulus, and the asymmetry
+  survives.
+- **But that one way cannot reproduce the measured quark masses and mixings.** It misses by far more than chance
+  allows, and its best attempt has no matter–antimatter asymmetry at all.
+- **So both halves of the project's idea fail in the frameworks on record.** The next framework to try is the
+  owner's choice. 0 of 19.

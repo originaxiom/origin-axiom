@@ -2599,6 +2599,42 @@ def test_the_paper_draft7():
 
 
 
+def test_w113_the_strong_angle():
+    """W113 (rule 4fce60ad1; script b0c1072fe; one run 12086539a): the census held, C1-C5 and T2 as predicted, C6 failed
+    as predicted, T1 failed as worded; the best fit's chi-squared recomputed in process from its recorded observables,
+    and the exact cubic kappa evaluated on four rational points"""
+    import numpy as np
+    from fractions import Fraction
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_strong_angle.json").read_text(encoding="utf-8"))
+    for cell in ("F0", "F1", "F3", "F4"):
+        assert d[cell]["holds"] is True
+    assert d["F2"]["holds"] is True
+    assert d["F1"]["Tbar(x)Tbar dims k=1,3,5,7"] == [1, 3, 4, 6]
+    assert d["F4"]["viable"] == ["(-1, -1, -1)"]
+    C = d["C"]["(-1, -1, -1)"]
+    for cell in ("C1", "C2", "C3", "C4", "C5"):
+        assert C[cell]["holds"] is True
+    assert C["C6"]["holds"] is False and C["C6"]["chi2_min (a = 0.10)"] > 5.99
+    assert d["T"]["T1"]["holds"] is False and d["T"]["T2"]["holds"] is True
+    best = C["C6"]["best point"]
+    obs = np.array(list(best["observables"].values()))
+    dat = np.array(list(best["data"].values()))
+    pulls = np.array(list(best["pulls"].values()))
+    rel = np.log(obs / dat) / pulls
+    assert abs(float(np.sum(pulls ** 2)) - C["C6"]["chi2_min (a = 0.10)"]) < 1e-6
+    assert np.all(rel > 0.0999)
+    assert abs(best["tau_in_F"][0]) < 1e-5 and abs(best["J"]) < 1e-9
+    kappa = {tuple(int(x) for x in k): Fraction(v) for k, v in
+             d["F3"]["kappa (cubic form; key = exponents of c)"].items()}
+    values = [sum(v * c[0] ** e[0] * c[1] ** e[1] * c[2] ** e[2] for e, v in kappa.items())
+              for c in ((1, 0, 0), (0, 1, 0), (0, 0, 1), (2, -1, 3))]
+    assert values == [-1, 2, 2, 140]
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W113. The strong angle at every τ" in note
+    assert (here / "W113_RULE.md").exists()
+
+
 def test_w112_the_skeleton():
     """W112 (rule e49b89655; script a0e4bb701; one run 7e45b18cb): K2 and K3 failed as predicted, the rest held; the
     skeleton distance of the best point recomputed in process from its recorded observables"""

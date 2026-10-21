@@ -66,6 +66,23 @@ failures. 0 of 19.
   - **The test.** On what the census forces: the CKM phase, a hierarchy, and a fit of the eight quark observables.
   - **The stakes.** A forced assignment that also fits would make θ̄ a prediction of the frame, not a fitted number.
     A tuned one trades one real number for another and cannot lower the count.
+- **Stage 2, W113: structurally yes, physically no** (one run; relay §173).
+  - Exactly one assignment makes θ̄ constant without tuning: every quark in T̄ at weight 3. There θ̄ ∈ {0, π} at
+    every τ while J ≠ 0, so θ̄ = 0 and CP violation can coexist in the frame.
+  - But it does not fit the quarks (χ²_min = 104 for 2 dof), and its best point is CP-conserving.
+  - So in the record's frame, a θ̄ = 0 that comes free and the observed quark sector exclude each other. The count
+    does not move.
+- **Where the project stands.** Both halves of the vision fail in the record's frames.
+  - The skeleton fits no better than chance (W112).
+  - The one zero the frame can force comes only in an assignment the data excludes (W113).
+  - By the stopping rules, the next frame is chosen with the owner.
+- **Candidates for the next frame** (this seat's reading; none started):
+  1. **The tuned layer's fit.** Are θ̄ = 0 at every τ and the quark data compatible at all in the frame, at the cost
+     of one tuned number? It cannot lower the count, but it would say whether the frame can hold the data with θ̄ = 0.
+  2. **Stage 3, the first generation.** W113's forced assignment lifts the first generation's zero with a forced
+     exponent (one mass suppressed by q^¾ in each sector), where every forced coupling of W112's menu left it massless.
+  3. **Beyond the holomorphic tree level.** Kähler and loop corrections, where θ̄ is generated radiatively, or a
+     triplet other than ρ. Either is a new frame, not a repair.
 
 ## The stopping rules
 

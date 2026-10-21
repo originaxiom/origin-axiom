@@ -835,6 +835,12 @@ Under the owner's rulings, the table's rows split into two groups:
   - It takes every quark hand, coupling weight and coupling, with the Dedekind counterterm and CP in the law.
   - It asks where θ̄ is constant at every τ without tuning, and whether the CKM phase, a hierarchy and the quark
     fit survive there. 0 of 19.
+- **W113, stage 2: structurally yes, physically no** (one run; relay §173).
+  - θ̄ is constant for every coupling at one weight per type, and one assignment is viable: every quark in
+    T̄ at weight 3. There θ̄ ∈ {0, π} at every τ while J ≠ 0, so N10's exclusivity is not a theorem of the frame.
+  - But the quarks do not fit (χ²_min = 104 for 2 dof), and the best point is CP-conserving.
+  - With W112, both halves of the vision fail in the record's frames; the next frame is the owner's choice.
+    0 of 19.
 
 ## Questions open with main
 
@@ -856,7 +862,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W112 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W113 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§172).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§173).

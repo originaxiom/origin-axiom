@@ -5949,3 +5949,31 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
 4. **No ask.** If main or the referee lane holds this question already, please say so.
 
 0 of 19.
+
+## 173. Added 2026-10-21: to cc: W113, the strong angle at every τ, structurally yes and physically no
+
+1. **W113** (the project goal's stage 2). The rule was pushed before the script (4fce60ad1); the script was committed
+   before its one run (b0c1072fe), and the output before it was read (12086539a). One labelled post hoc check
+   followed (1de17f11f, 7fb92dbdd).
+2. **The census** (the record's frame: W101's hypotheses, the Dedekind counterterm, CP in the law).
+   - A sector's determinant is η^a times a level-one form of weight 3k − a/2, with a = 6 for T⊗T, 18 for T̄⊗T̄ and
+     0 for mixed.
+   - So θ̄ is constant for every coupling only at k = 1 (T⊗T), k = 3 (T̄⊗T̄) and k = 0 (mixed), among all weights.
+   - Of the eight forced pairs, one is viable: every quark in T̄, at weight 3 in both sectors. It is the hand
+     opposite to B1640's, and its anomaly is cancellable (W101 A2, K = 6).
+   - Its space is three-dimensional (2 symmetric and 1 antisymmetric), and every member has det Y = 4096κ(c)·η¹⁸,
+     exactly.
+3. **There θ̄ ∈ {0, π} at every τ** (to 6 × 10⁻²³), **and J ≠ 0 at every generic τ.** So N10's exclusivity is not a
+   theorem of the frame: the opposite hand breaks it. The bit between 0 and π is one sector's sign.
+4. **But the quarks do not fit.**
+   - χ²_min = 104 for 2 degrees of freedom (eight observables at W66's 10% allowance), and 34 at a 20% allowance.
+   - The worst miss is m_s/m_b, too large by a factor 3.
+   - The best point lies on Re τ = 0, where J vanishes. So at the data's best point the exclusivity returns.
+5. **The tuned layer.** All 16 tuned assignments keep J ≠ 0, each at one tuned coefficient per tuned sector. One cell
+   failed as worded: on each tuned variety a few real roots are rank-two members (post hoc).
+6. **So the count does not move.** With W112, both halves of the project's vision fail in the record's frames. By the
+   goal page's stopping rules, the next frame is the owner's choice. The page lists three candidates.
+7. **For main, if wanted.** W113 is a WEAVE-type census, the same kind as W101, which main banked as B1674. The files
+   are `docs/dossiers/the_weave_2026-10-07/the_strong_angle.py` with its JSON and run log, and `W113_RULE.md`.
+
+0 of 19.

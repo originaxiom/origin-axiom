@@ -375,6 +375,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   predicted): W69's forced menu fits the data's five numbers within a factor 1.81, at one displacement from ω, but
   14% of random targets within a decade are fitted as well (p = 0.139), and the first generation fails at every fit.
   A clean negative for the skeleton in the fibre frame. A WEAVE-type result.
+- W113 (the owner's project goal, stage 2: θ̄ at every τ; rule first; one run; C6 failed as predicted, T1 as
+  worded): with the counterterm and CP in the law, θ̄ is constant for every coupling at one weight per type, and
+  exactly one assignment is viable, every quark in T̄ at weight 3. There θ̄ ∈ {0, π} at every τ and J ≠ 0, but the
+  quarks do not fit (χ²_min = 104 for 2 dof), and the best point is CP-conserving. A WEAVE-type result.
 
 ## The setting
 
@@ -7666,6 +7670,91 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W113. The strong angle at every τ (the project goal's stage 2): exactly one assignment makes θ̄ constant without tuning, every quark in T̄ at weight 3, and it keeps the CKM phase, but it does not fit the quarks, and its best point is CP-conserving (`the_strong_angle.py`; `W113_RULE.md`)
+
+**Why.** This is stage 2 of the owner's project goal (`THE_SKELETON_AND_THE_FLESH.md`): θ̄, the record's W105.
+- θ̄ is the one of the nineteen that nature puts at zero.
+- W101 found it constant only at weight 1 with every quark in T, where there is no hierarchy. At weights 2 and 3 it
+  vanishes only where δ_CKM does.
+- The other hands and mixed weights were untested.
+
+**The order.**
+- The rule (`W113_RULE.md`) was committed and pushed first (4fce60ad1), with relay §172.
+- The script was committed before its one run (b0c1072fe), and its output before it was read (12086539a).
+- One post hoc check, labelled, after the read-out: `the_strong_angle_posthoc.py` (script 1de17f11f, output
+  7fb92dbdd).
+
+**Disclosed.**
+- While the script was written, its parts were run in scratch on control cases only, to find coding errors:
+  - T⊗T and the mixed spaces, on record in B1635 and B1671;
+  - the fit on synthetic data in T⊗T at weight 3;
+  - the tuned-variety path on T⊗T at weight 3, which is not a cell.
+- Three robustness fixes came from those tests: an exact cubic, a scaled root search, and skipping a root at the
+  origin. No T̄⊗T̄ space, candidate or tuned variety was computed before the run.
+
+**The result (COMPUTED; one run; F0–F4, C1–C5 and T2 as predicted; C6 failed as predicted; T1 failed as worded).**
+
+| cell | prediction | prior | result |
+| --- | --- | --- | --- |
+| F0 | main's dimensions, T⊗T 1, 2, 4, 5 and the mixed type 1, 2, 4, 5 in both orders; the k = 1 member the zero-diagonal theta matrix, det ∝ η⁶ | 95% | **held** — exactly; the k = 1 member has θ₄², θ₃², θ₂² off the diagonal, det/(λ₁λ₂λ₃η⁶) = 8 to 3 × 10⁻³¹, and det W = 2c³(θ₂θ₃θ₄)²⁰ exactly |
+| F1 | T̄⊗T̄ dimensions 3, 4, 6 at k = 3, 5, 7; at k = 3, 2 symmetric and 1 antisymmetric | 80% | **held** — 3, 4, 6, split (2, 1); the k = 1 read-out is 1 |
+| F2 | det Y/η^a in level-one M_w for every type and k ≤ 7 | 90% | **held** — residuals ≤ 8 × 10⁻³⁰; constant at w = 0; ≡ 0 at T̄⊗T̄, k = 1; both components non-zero at w = 12 and 18 |
+| F3 | at T̄⊗T̄, k = 3, det W = κ(c)·(θ₂θ₃θ₄)¹² exactly, κ ≠ 0 | 85% | **held** — exactly, with κ the cubic form below |
+| F4 | exactly one viable automatic assignment, every quark in T̄ at k = 3 | 80% | **held** — the other seven fail: V a permutation (T⊗T at k = 1 twice), or a sector of degenerate masses (the identity) |
+| C1 | a real basis; Y(−τ̄) = conj Y(τ) | 95% | **held** — the space is closed under conjugation; deviation 0 |
+| C2 | θ̄ ∈ {0, π} at every τ with the counterterm | 95% | **held** — max \|Im r\|/\|r\| = 5.7 × 10⁻²³ over 200 pairs at 30 τ; θ̄ = 0 for 45.5% of them, π for the rest |
+| C3 | J ≠ 0 at generic τ; J = 0 on the CP loci | 85% | **held** — 100 of 100 pairs at each of five τ (median \|J\| from 1.4 × 10⁻⁴ to 6.7 × 10⁻³); at most 2.4 × 10⁻¹⁶ on the loci |
+| C4 | a hierarchy available: m₂/m₁ ≤ 0.1 and m₃/m₂ ≤ 0.1 in both sectors | 80% | **held** — 9.0 × 10⁻⁵, at the cap Im τ = 6, where \|V_cb\| ≈ 1 |
+| C5 | the fit's control | 85% | **held** — χ² = 1.6 × 10⁻²⁸ |
+| C6 | the fit: χ²_min ≤ 5.99 (2 degrees of freedom) | 5% | **failed, as predicted** — 103.6 at a = 0.10; 34.5 at a = 0.20; 212 at a = 0.05 |
+| T1 | every real root on each tuned variety pure and non-degenerate | 90% | **failed as worded** — 140 of 142, 87 of 88, 138 of 143, 135 of 139; post hoc, every exception is a rank-two member (m_min/m_max ≈ 10⁻³¹ at all three τ), and every non-degenerate root is pure (spread ≤ 1.4 × 10⁻²⁶) |
+| T2 | J ≠ 0 in each of the 16 viable tuned assignments | 85% | **held** — 16 of 16, with \|J\| > 10⁻⁸ for 18 to 20 of 20 pairs |
+| T3 | read-out: the smallest hierarchy measure | — | from 6.6 × 10⁻⁴ (T⊗T at 5 in both sectors) to 0.64 (with T⊗T at 1, B1636's sum rule) |
+
+- **The census in one line.** With the counterterm and CP in the law, θ̄ is constant for every coupling only at one
+  weight per type: k = 1 for T⊗T, k = 3 for T̄⊗T̄ and k = 0 for mixed. Among all weights, these are the only ones.
+- **The one forced assignment.** Every quark field in T̄, at coupling weight 3 in both sectors. It is the hand
+  opposite to the record's (B1640). Its anomaly is cancellable (W101 A2, with K = 6).
+  - Its space is three-dimensional, and the up and down sectors draw on it with their own real coefficients.
+  - Every member has det Y = 4096κ(c)·η¹⁸, with κ = −c₁³ + 3c₁c₂² + 3c₁c₃² − 3c₁c₂c₃ + 2c₂³ − 3c₂²c₃ − 3c₂c₃² + 2c₃³
+    in the script's rational real basis.
+  - **The cusp exponents** of the mass ratios for generic members are ¾ and 0: τ suppresses one mass by q^¾, and the
+    other two are comparable. A second hierarchy needs a tuned coefficient in each sector.
+- **The best fit** (C6), at τ = −3 × 10⁻⁷ + 1.854i, on the imaginary axis:
+
+| observable | fit | data | pull |
+| --- | --- | --- | --- |
+| m_u/m_c | 0.00235 | 0.00198 | 0.85 |
+| m_c/m_t | 0.00374 | 0.00368 | 0.14 |
+| m_d/m_s | 0.075 | 0.050 | 2.68 |
+| m_s/m_b | 0.056 | 0.0187 | 8.21 |
+| \|V_us\| | 0.248 | 0.225 | 0.97 |
+| \|V_cb\| | 0.028 | 0.042 | −3.89 |
+| \|V_ub\| | 0.0026 | 0.0037 | −3.34 |
+| \|V_td\| | 0.0095 | 0.0086 | 1.04 |
+
+  - J there is 9 × 10⁻¹³, against the measured 3.1 × 10⁻⁵ (B1673). θ̄ there is π, a bit any one sector's sign flips.
+  - The next stage-2 minima are 104.1, 104.5 and 108.5.
+
+**What it shows.**
+- **θ̄ = 0 and CP violation can coexist without tuning in the record's frame.** In exactly one assignment, θ̄ ∈ {0, π}
+  at every τ while J ≠ 0 at every generic τ. N10's exclusivity, exact at weights 2 and 3 with the quarks in T (W101),
+  is not a theorem of the frame: the opposite hand breaks it.
+- **But that assignment does not fit the quarks.** χ²_min is 104 with two degrees of freedom, and 34 even at a 20%
+  allowance. The worst miss is m_s/m_b, too large by a factor 3. The cusp exponents say why: one light mass per
+  sector comes from τ, and the second hierarchy has to come from coefficients both sectors draw from one small space.
+- **And its best point is CP-conserving.** The fit settles on the imaginary axis, where J vanishes. So at the data's
+  best point, θ̄ = 0 and CP violation exclude each other again. This is a read-out, not a cell.
+- **The tuned layer** keeps J ≠ 0 in all 16 tuned assignments, but each pays one tuned coefficient per tuned sector. It
+  trades one real number for another and cannot lower the count.
+- **By the rule fixed in advance:** F4, C2 and C3 hold, but C6 fails. θ̄ = 0 and the CKM phase are compatible without
+  tuning in exactly one assignment, but that assignment does not fit the data. N10's exclusivity is broken
+  structurally, not physically. The count does not move. 0 of 19.
+
+**Status.** COMPUTED (the rule first; one run; C6 failed as predicted; T1 failed as worded, its exceptions classified
+post hoc as rank-two members; the rest held). A WEAVE-type result, given the frame (W101's hypotheses and CP in the
+law): every quark hand, every coupling weight, every coupling. 0 of 19.
+
 ## W112. The skeleton's significance (the project goal's stage 1): the forced menu fits the data within a factor 1.81, but no better than chance; 14% of random targets are fitted as well, and the first generation fails at every fit (`the_skeleton.py`; `W112_RULE.md`)
 
 **Why.** This is stage 1 of the owner's project goal (`THE_SKELETON_AND_THE_FLESH.md`, 2026-10-21).
@@ -9719,6 +9808,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W113 | COMPUTED (the rule first; one run; F0–F4, C1–C5 and T2 as predicted; C6 failed as predicted; T1 failed as worded, its exceptions rank-two members post hoc); a WEAVE-type result given W101's frame and CP in the law | θ̄ at every τ (the project goal's stage 2): θ̄ is constant for every coupling only at T⊗T k = 1, T̄⊗T̄ k = 3 and mixed k = 0; of the eight forced pairs one is viable, every quark in T̄ at weight 3 (dimension 3, det = 4096κ(c)η¹⁸ exactly); there θ̄ ∈ {0, π} at every τ (5.7 × 10⁻²³) and J ≠ 0 at every generic τ, but χ²_min = 104 for 2 dof (m_s/m_b off by a factor 3), and the best point lies on Re τ = 0, where J = 0; the 16 tuned assignments keep J ≠ 0 at one tuned coefficient per tuned sector. 0 of 19 |
 | W112 | COMPUTED (the rule first; one run; K0, K1, K4, K5, K6 as predicted; K2 and K3 failed as predicted); a WEAVE-type result given Λ and W69's hypotheses | the skeleton's significance (the project goal's stage 1): the best factor over W69's 21 952 assignments is 1.81 (ER / EE with any of RG, R′G, EG, at δ = 0.0227 from ω), but against 4000 synthetic targets within a decade p = 0.139, and within half a decade p = 0.190; the first generation zero or off by a factor 5 at every fit. A clean negative: the fit is no evidence |
 | W111 | PROVED (by hand; the proof committed before its checks; six checks, one recorded run, every one as expected; two launches that wrote nothing, disclosed) | the surface route (P-211): at g ≥ 2 an SL(2, ℂ) character fixed by the handle twists and swaps is trivial (a quaternion handle forces the rest to ±I; the swaps make the handles alike); the odd-p Heisenberg character is fixed by every mapping class at every genus (symplectic action, Stone–von Neumann); the 2-group one only at g = 1, as Q₈ (a transvection keeps q exactly when q(u) = 1; the explicit mixing move μ′ moves it); the numerical search at g = 2 finds 59 zeros, all trivial. A WEAVE result about the forms |
 | W110 | PROVED (by hand; the proof committed before its checks; four checks, one run, every one as expected) | the word side of the record count: for n ≥ 3 no non-trivial conjugacy class of F_n keeps its cyclic length under every R_ij^{±1} (Whitehead's count, (n − 2)·n_i ≤ 0), so none is kept by the transvections, even up to inversion; at n = 2 the classes kept by L and R are the powers of [a, b]; the census (34,998, 31,795 and 70,746 classes at n = 2, 3, 4) agrees; the kept character is the one singular point of κ = −2 (a reading). A WEAVE result about the forms |
@@ -9812,6 +9902,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `W113_RULE.md`: the rule, committed and pushed before the code; `the_strong_angle.py` → `the_strong_angle.json` and `the_strong_angle_run.txt`: W113, the strong angle at every τ (one run); `the_strong_angle_posthoc.py` → `the_strong_angle_posthoc.json` and `the_strong_angle_posthoc_run.txt`: T1's exceptions classified (post hoc).
 - `THE_SKELETON_AND_THE_FLESH.md`: the owner's project goal of 2026-10-21, its stages and stopping rules. `W112_RULE.md`: the rule, committed and pushed before the code; `the_skeleton.py` → `the_skeleton.json` and `the_skeleton_run.txt`: W112, the skeleton's significance (one run).
 - `W111_PROOF.md`: the proof, committed before its checks; `the_surface_route_exploration.py` → `the_surface_route_exploration_run.txt`: the exploratory search for the mixing move, run before the proof (disclosed); `the_surface_route.py` → `the_surface_route.json` and `the_surface_route_run.txt`: W111, the checks of the surface route (one recorded run).
 - `W110_PROOF.md`: the proof, committed before its checks; `the_kept_words.py` → `the_kept_words.json` and `the_kept_words_run.txt`: W110, the checks of the word side of the record count (one run).

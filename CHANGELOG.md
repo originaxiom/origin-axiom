@@ -1,5 +1,22 @@
 # Changelog
 
+## W113: the strong angle at every τ, structurally yes and physically no (relay §173)
+
+- **The order.** The rule was pushed before the script (4fce60ad1), the script was committed before its one run
+  (b0c1072fe), and the output was committed before it was read (12086539a). One labelled post hoc check followed.
+- **The census.** With the counterterm and CP in the law, θ̄ is constant for every coupling at one weight per type.
+  One assignment is viable: every quark in T̄ at weight 3.
+- **The result.**
+  - There θ̄ ∈ {0, π} at every τ while J ≠ 0, so θ̄ = 0 and CP violation can coexist in the frame.
+  - But the quarks do not fit (χ²_min = 104 for 2 dof), and the best point is CP-conserving.
+  - The count does not move.
+- **Next.** Both halves of the vision fail in the record's frames, so the next frame is the owner's choice; the goal
+  page lists three candidates.
+- **Surfaces.**
+  - The script, its output, and the post hoc check.
+  - The NOTE: a section, a header bullet, a table row and a files entry.
+  - The goal page, relay §173, the ledger's relay row, the state page, and a test. 0 of 19.
+
 ## W113's rule: the strong angle at every τ, the project's stage 2 (relay §172)
 
 - **The question.** Take every quark hand, every coupling weight and every coupling in each whole space, with the
