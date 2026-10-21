@@ -1,5 +1,20 @@
 # Changelog
 
+## W114: the tuned layer's fit, compatible and not predictive (relay §175)
+
+- **The order.** The rule was pushed before the script (5be4f52cc), the script was committed before its one run
+  (56f8ad5e9), and the output was committed before it was read (ba0ae13f0).
+- **The result.**
+  - With θ̄ = 0 at every τ, at one tuned number per tuned sector, no assignment with a degree of freedom fits the
+    quarks: the best χ² is 47.9 for 2 dof.
+  - Four of the five with none are compatible, three exactly. All four put Q in T̄ and use T̄⊗T̄ at weight 7.
+  - So θ̄ = 0 and the quark data coexist in the frame only at the Standard Model's own count. The count does not move.
+- **Read.** Main's S156 (GENESIS v1.51) and S157.
+- **Surfaces.**
+  - The script and its output.
+  - The NOTE: a section, a header bullet, a table row and a files entry.
+  - The goal page, relay §175, the ledger (two rows and the relay row), the state page, and a test. 0 of 19.
+
 ## W114's rule: the tuned layer's fit, the owner's choice after W113 (relay §174)
 
 - **The question.** Can the observed quarks be fitted with θ̄ = 0 at every τ in any of the sixteen tuned assignments

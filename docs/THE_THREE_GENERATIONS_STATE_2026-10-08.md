@@ -845,6 +845,11 @@ Under the owner's rulings, the table's rows split into two groups:
 - **The owner's choice after W113: the tuned layer's fit, W114** (`W114_RULE.md` in the weave dossier;
   relay §174). Its rule is committed before its script: the quark fit in all sixteen tuned assignments up
   to weight 7, with θ̄ = 0 at every τ. 0 of 19.
+- **W114: compatible, not predictive** (one run; relay §175). No assignment with a degree of freedom fits the
+  quarks (the best χ² 47.9 for 2 dof); four with none are compatible, three exactly. θ̄ = 0 at every τ and the
+  quark data coexist in the frame only at the Standard Model's own count. 0 of 19.
+- **Main's S156 and S157:** GENESIS v1.51 tags every unverified seat reliance and reads GM1's join to PF1 through κ
+  as circular (GENESIS v1.51; P-221); every arc lock now runs in the full suite.
 
 ## Questions open with main
 
@@ -866,7 +871,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W113 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W114 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§174).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§175).

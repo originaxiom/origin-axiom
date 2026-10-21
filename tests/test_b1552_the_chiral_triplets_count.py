@@ -2599,6 +2599,35 @@ def test_the_paper_draft7():
 
 
 
+def test_w114_the_tuned_fit():
+    """W114 (rule 5be4f52cc; script 56f8ad5e9; one run ba0ae13f0): U0-U3 held, U4 failed; the exact fits' chi-squared
+    recomputed in process from their recorded pulls, every compatible assignment with Q in Tbar and Tbar(x)Tbar at 7"""
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_tuned_fit.json").read_text(encoding="utf-8"))
+    assert d["status"] == "one run"
+    assert d["cells"] == {"U0": True, "U1": True, "U2": True, "U3": True, "U4": False}
+    rows = d["assignments"]
+    assert len(rows) == 16
+    assert all(not r["passes"] for r in rows.values() if r["dof"] >= 1)
+    compatible = sorted(int(n) for n, r in rows.items() if r.get("compatible"))
+    assert compatible == [11, 13, 14, 16]
+    for n in compatible:
+        r = rows[str(n)]
+        assert r["hand"].startswith("(-1") and "Tbar(x)Tbar k=7" in (r["up"], r["down"])
+        bp = r["best point"]
+        pulls = np.array(list(bp["pulls"].values()))
+        assert abs(float(np.sum(pulls ** 2)) - r["chi2_min (a = 0.10)"]) < 1e-6
+        assert bp["U1 holds"] is True
+    for n in (11, 13, 16):
+        assert rows[str(n)]["chi2_min (a = 0.10)"] < 1e-10
+        assert abs(abs(rows[str(n)]["best point"]["J"]) - 3.116e-5) < 1e-8
+    assert min(r["chi2_min (a = 0.10)"] for r in rows.values() if r["dof"] >= 1) > 40
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W114. The tuned layer's fit" in note
+    assert (here / "W114_RULE.md").exists()
+
+
 def test_w113_the_strong_angle():
     """W113 (rule 4fce60ad1; script b0c1072fe; one run 12086539a): the census held, C1-C5 and T2 as predicted, C6 failed
     as predicted, T1 failed as worded; the best fit's chi-squared recomputed in process from its recorded observables,

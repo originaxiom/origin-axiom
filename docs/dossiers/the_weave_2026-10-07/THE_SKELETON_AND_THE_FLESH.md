@@ -86,6 +86,15 @@ failures. 0 of 19.
 - **The owner's choice (2026-10-21): the first candidate, the tuned layer's fit.** That is W114 (`W114_RULE.md`,
   committed before its script; relay §174). It fits the quarks in all sixteen tuned assignments up to weight 7, on the
   varieties where θ̄ = 0 at every τ, with pass marks by degrees of freedom.
+- **W114: compatible, not predictive** (one run; relay §175).
+  - No assignment with a degree of freedom to spare fits the quarks: the best χ² is 47.9 for 2 dof.
+  - Four of the five with none are compatible, three of them exactly. Each puts Q in T̄ and uses T̄⊗T̄ at weight 7,
+    the six-dimensional space.
+  - So θ̄ = 0 at every τ and the observed quarks coexist in the frame only where the model carries as many numbers as
+    the data. That is the Standard Model's own count with θ̄ tuned. The count does not move.
+- **What it leaves (a READING; offered to the owner, not started).** A zero-dof quark fit fixes τ, and τ is one
+  modulus for every sector. The leptons, coupled at that same τ, could then make a prediction the quarks cannot. Such
+  an arc would need its own census of the lepton couplings and a stated look-elsewhere count.
 
 ## The stopping rules
 

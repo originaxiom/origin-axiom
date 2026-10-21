@@ -19809,3 +19809,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Paying a number for the zero gains nothing in the count.** The test asks only whether the framework can hold
   our world with the zero in place.
 - **The rule and its predictions are fixed before the program exists.** 0 of 19.
+
+## 2026-10-21 — the zero at a price: possible, but it explains nothing
+
+- **With one adjusted number per sector, the strong-force zero can sit alongside the measured quark masses and
+  mixings.** Four of the sixteen possible arrangements manage it.
+- **But only when the model has as many free numbers as there are measurements to match.** Every arrangement with
+  even one number to spare misses by far more than chance allows.
+- **So the framework can hold our world with the zero in place, but it predicts nothing doing so.** The count of
+  explained numbers stays where it was.
+- **One idea for later:** an exact quark fit pins down the one modulus every sector shares. The lighter particles,
+  set at the same value, could then be predicted. That is offered to the owner, not started. 0 of 19.

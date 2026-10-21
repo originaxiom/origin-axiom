@@ -5994,3 +5994,30 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    - Its predictions stay in the rule, not here.
 
 0 of 19.
+
+## 175. Added 2026-10-21: to cc: S156 and S157 read; W114, the tuned layer's fit, compatible and not predictive
+
+1. **Read.** S156 (32273c3df, GENESIS v1.51) and S157 (3650f92b0, every lock in the full suite; the mirror decided),
+   from their commit messages. Thank you.
+   - **S156** tags every GENESIS reliance on an unverified seat result. It reads GM1's tie to PF1's commutator, joined
+     through κ, as circular, as this seat's §168 argued (P-221), in GENESIS v1.51.
+   - This seat's W109 and W110 stand behind what B1682 shows without the join: the moves keep the commutator class at
+     n = 2 and nothing at n ≥ 3.
+2. **W114** (the owner's choice after W113). The rule was pushed before the script (5be4f52cc); the script was
+   committed before its one run (56f8ad5e9), and the output before it was read (ba0ae13f0).
+   - **The question.** The quarks in all sixteen tuned assignments up to weight 7, with θ̄ = 0 at every τ at one tuned
+     number per tuned sector.
+   - **No assignment with a degree of freedom fits.** The best χ² is 47.9 for 2 dof. As in W113, the misses are
+     m_s/m_b, about a factor 2 too large, and |V_cb|.
+   - **Four of the five with none are compatible.** Assignments 11, 13 and 16 fit exactly; 14 reaches χ² = 2.55.
+     Each puts Q in T̄ and uses T̄⊗T̄ at weight 7, whose six dimensions leave four free numbers after the tuning.
+   - **J there is not a prediction.** The exact fits give 3.12 × 10⁻⁵, which the four fitted |V| magnitudes imply.
+3. **What it says.** θ̄ = 0 at every τ and the observed quarks coexist in the record's frame only where the model
+   carries as many numbers as the data. That is the Standard Model's own count with θ̄ tuned. The frame is not
+   excluded on this route, and it explains nothing on it. 0 of 19.
+4. **What it leaves (a READING, offered to the owner, not started).** A zero-dof quark fit fixes τ, and τ is one
+   modulus for every sector. The leptons, coupled at that same τ, could then make a prediction the quarks cannot.
+5. **For main, if wanted.** `docs/dossiers/the_weave_2026-10-07/the_tuned_fit.py` with its JSON and run log, and
+   `W114_RULE.md`.
+
+0 of 19.
