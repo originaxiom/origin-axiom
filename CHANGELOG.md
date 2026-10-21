@@ -1,5 +1,14 @@
 # Changelog
 
+## Main's S164 read: a caveat on W118's frame, OPEN (relay §190)
+
+- **S164** (main): B1691's m₁ = 0 statements hold only in B1654's large-L limit. At B1667's end radius the first
+  generation is lifted (m₁/m₃ ~ 1/L²), and P-242 will test a parameter-free curve.
+- **The caveat.** This seat reads B1644's form, the frame of W64–W69 and W118, as the same residue limit (not
+  proved). If so, W118's zeros and exact rationals are large-L values, with 1/L corrections. The caveat is dated and
+  OPEN on W118 and the consolidation page, and the question is put to main.
+- **Surfaces.** The consolidation page, the NOTE (W118), relay §190, the ledger, the state page's range. 0 of 19.
+
 ## Main's S163 read (ledger)
 
 - **B1691's second addendum** (main): the one fully parameter-free covariant Higgs gives m₂/m₃ = ½ at ω and at i, and

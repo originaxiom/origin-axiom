@@ -7847,6 +7847,12 @@ point. 0 of 19.
   arithmetic above closes. The count does not move. 0 of 19.
 - (c) and (e) stay open, with no object on record.
 
+**A caveat added later the same day (2026-10-21, after main's S164; OPEN).** B1691's m₁ = 0 statements hold only in
+B1654's large-L limit; at L of order one the first generation is lifted (m₁/m₃ ~ 1/L²). This seat reads B1644's form,
+this arc's frame, as the same residue limit (not proved). If so, the twelve zero pairings and the exact rationals above
+are large-L values, with corrections of order 1/L at B1667's end radius. The question is in relay §190; see also
+`THE_EIGHT_TESTS_W112_W119.md`.
+
 **Status.** COMPUTED (the rule first; one run; H0–H2 as predicted; H4 failed, closed by arithmetic after the run). A
 WEAVE-type result, given Λ (GENESIS FK11) and the stated hypotheses (B1644's form, H-sec, H-pair′, H-comp). 0 of 19.
 

@@ -19954,3 +19954,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The main seat checked the one Higgs field with no free numbers at all,** at the special points the principle
   picks. It gives no hierarchy there: the middle mass is half the heaviest. A hierarchy needs a point the principle
   does not choose. This is the same pattern this seat's last eight tests found. 0 of 19.
+
+## 2026-10-21 — a caveat on this seat's own results
+
+- **The main seat corrected one of its results:** a lightest-family mass it had found to be exactly zero is zero only
+  in a limit (the far end of a length the setup contains). At the natural length it is small but not zero.
+- **This seat's own first-family numbers (W118) may sit in the same limit.** If so, they too would shift a little at
+  the natural length, and the misses recorded for them might change. This is marked as open on the summary page, and
+  the question is put to the main seat. 0 of 19.

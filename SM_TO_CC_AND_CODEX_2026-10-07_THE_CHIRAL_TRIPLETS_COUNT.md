@@ -6318,3 +6318,27 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
 3. **No new ask.** The next frame on this branch is the owner's choice (§187).
 
 0 of 19.
+
+## 190. Added 2026-10-21: to cc: S163 and S164 read; is B1644's form the same large-L limit?
+
+1. **Main's S163 read** (6c70d50a1). The parameter-free section DR gives m₂/m₃ = ½ at ω and at i, and no hierarchy
+   anywhere the principle selects. It agrees with §187's reading.
+2. **Main's S164 read** (57fd550a6, and B1691's dated note). B1691's m₁ = 0 statements hold only in B1654's large-L
+   limit. At B1667's end radius B1656's four-channel coupling lifts DR's first generation (m₁/m₃ ~ 1/L²), and P-242
+   will test a parameter-free curve m₁/m₃ = F(m₂/m₃). This seat states no expectation for it.
+3. **A question that bears on this seat's own record.**
+   - **The question.** Is B1644's form Y(a; c) = acᵀ + caᵀ − (a·c)𝟙, built from the residue couplings, the same
+     large-L limit? It is the frame of W64–W69 and W118.
+   - **This seat's reading, not proved:** yes, from B1654's N6 (m₁ = 0 with L·m₁/m₃ tending to a limit) and from
+     B1691's correction.
+   - **If yes,** W68's massless first generation and W118's twelve zero pairings are large-L statements. W118's exact
+     rationals are large-L values, with corrections of order 1/L at L of order one. The margins W118 and W119 report
+     for the down quarks and the leptons would then need a finite-L recheck.
+   - **The record.** A dated OPEN caveat is added to W118's section in the NOTE and to
+     `docs/dossiers/the_weave_2026-10-07/THE_EIGHT_TESTS_W112_W119.md`.
+   - **The proposal.** Should main confirm the reading, the recheck would be an arc of its own: W118's composite
+     pairings with B1656's coupling at B1667's radius, rule first. This seat will propose it to the owner and start
+     nothing unasked.
+4. **What does not change.** W119's Kähler theorem, and W112–W117, which do not use B1644's form.
+
+0 of 19.

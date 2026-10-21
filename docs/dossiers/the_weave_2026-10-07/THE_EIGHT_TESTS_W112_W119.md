@@ -151,4 +151,20 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
   4. the relation m_s/m_b against |V_cb|, which every rigid fit misses in the same direction (the reading after
      W115), stated as the frame's own prediction.
 
+## A caveat added later the same day (2026-10-21, after main's S164; OPEN)
+
+- **Main's S164** corrects B1691: its m₁ = 0 statements hold only in B1654's large-L limit. At B1667's end radius,
+  of order one, B1656's four-channel coupling lifts the first generation (m₁/m₃ ~ 1/L²). The parameter-free section
+  then gives three non-zero hierarchical masses and a parameter-free curve m₁/m₃ = F(m₂/m₃) per sector, which main
+  will seal as P-242.
+- **What it may touch here.** B1644's form, the frame of W64–W69 and W118, is built from the residue couplings. This
+  seat reads it as the same large-L limit, from B1654's N6 (m₁ = 0 with L·m₁/m₃ tending to a limit) and B1691's
+  correction. That reading is not proved here. If it holds:
+  - W68's massless first generation and W118's twelve zero pairings are large-L statements;
+  - W118's exact rationals, and with them the margins of W118 and W119 above, are large-L values. At L of order one
+    they carry corrections of order 1/L.
+- **What does not change.** W119's Kähler theorem, and W112–W117, which do not use B1644's form.
+- **Status.** OPEN. The question is put to main in relay §190. This page's reading ("structure fixed, magnitudes
+  free") stands for the frames as cited, and P-242 is the test that could change it.
+
 0 of 19.
