@@ -8,3 +8,17 @@ lepton_test_head:169: RuntimeWarning: invalid value encountered in scalar divide
 [  2518.7s] target 2 family-best p 0.1348 passes 1
 [  3282.4s] target 4 family-best p 0.8665 passes 7
 [  3304.2s] target 3 family-best p 0.0389 passes 0
+[  3905.0s] target 5 family-best p 0.0331 passes 0
+[  3935.6s] target 6 family-best p 0.0208 passes 0
+lepton_test_head:169: RuntimeWarning: invalid value encountered in scalar divide
+[  4528.9s] target 7 family-best p 0.0289 passes 0
+[  4557.4s] target 8 family-best p 0.0297 passes 0
+[  5114.2s] target 9 family-best p 0.0214 passes 0
+[  5144.9s] target 10 family-best p 0.0071 passes 0
+[  5687.4s] target 12 family-best p 0.0438 passes 0
+[  5701.0s] target 11 family-best p 0.0247 passes 0
+[  6273.4s] target 13 family-best p 0.4381 passes 2
+[  6274.0s] target 14 family-best p 0.1652 passes 1
+[  6837.8s] target 16 family-best p 0.0223 passes 0
+[  6848.4s] target 15 family-best p 0.0294 passes 0
+[launch 3: resumed from the checkpoint after the job limit]
