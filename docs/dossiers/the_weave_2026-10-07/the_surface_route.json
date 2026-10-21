@@ -1,0 +1,294 @@
+{
+ "status": "one run",
+ "proof": "W111_PROOF.md (bfd9ffadc)",
+ "cells": {
+  "C1": true,
+  "C2": true,
+  "C3": true,
+  "C4": true,
+  "C5": true,
+  "C6": true
+ },
+ "C1": {
+  "g = 2": {
+   "boundary kept exactly": {
+    "tau_1": true,
+    "tau_1^-1": true,
+    "tau'_1": true,
+    "tau'_1^-1": true,
+    "tau_2": true,
+    "tau_2^-1": true,
+    "tau'_2": true,
+    "tau'_2^-1": true,
+    "sigma_1": true,
+    "sigma_1^-1": true,
+    "mu'": true,
+    "mu'^-1": true
+   },
+   "sigma inverses": true,
+   "mu' inverse": true,
+   "mu' mod 2 is T_(b1 + a2)": true,
+   "tau_k, tau'_k mod 2 are T_(a_k), T_(b_k)": true
+  },
+  "g = 3": {
+   "boundary kept exactly": {
+    "tau_1": true,
+    "tau_1^-1": true,
+    "tau'_1": true,
+    "tau'_1^-1": true,
+    "tau_2": true,
+    "tau_2^-1": true,
+    "tau'_2": true,
+    "tau'_2^-1": true,
+    "tau_3": true,
+    "tau_3^-1": true,
+    "tau'_3": true,
+    "tau'_3^-1": true,
+    "sigma_1": true,
+    "sigma_1^-1": true,
+    "sigma_2": true,
+    "sigma_2^-1": true,
+    "mu'": true,
+    "mu'^-1": true
+   },
+   "sigma inverses": true,
+   "mu' inverse": true,
+   "mu' mod 2 is T_(b1 + a2)": true,
+   "tau_k, tau'_k mod 2 are T_(a_k), T_(b_k)": true
+  }
+ },
+ "C2": {
+  "solutions (p, q, r, s)": [
+   [
+    "-1",
+    "0",
+    "0",
+    "-1"
+   ],
+   [
+    "1",
+    "0",
+    "0",
+    "1"
+   ]
+  ]
+ },
+ "C3": {
+  "solutions": [
+   {
+    "u": "0",
+    "w": "0"
+   }
+  ],
+  "so X = [[0, v], [0, 0]], proportional to N": true
+ },
+ "C4": {
+  "g = 2": {
+   "starts": 120,
+   "zeros": 59,
+   "non-zero ends": 61,
+   "zeros by kind": {
+    "trivial": 59,
+    "quaternion": 0,
+    "other": 0
+   },
+   "smallest defect among the non-zero ends": 0.19765243218290152
+  },
+  "g = 1 (control)": {
+   "starts": 60,
+   "zeros": 59,
+   "non-zero ends": 1,
+   "zeros by kind": {
+    "trivial": 8,
+    "quaternion": 51,
+    "other": 0
+   },
+   "smallest defect among the non-zero ends": 0.9245876274334432
+  }
+ },
+ "C5": {
+  "H(3), g = 1": {
+   "tau_1": {
+    "smallest singular value": 4.775333811615163e-16,
+    "next": 1.7320508075688772,
+    "cond(M)": 1.0000000000000009,
+    "residual": 6.162737906427328e-16,
+    "intertwiner": true
+   },
+   "tau_1^-1": {
+    "smallest singular value": 4.0424020128964564e-16,
+    "next": 1.732050807568877,
+    "cond(M)": 1.000000000000001,
+    "residual": 7.934662325483612e-16,
+    "intertwiner": true
+   },
+   "tau'_1": {
+    "smallest singular value": 3.1175441305699376e-16,
+    "next": 1.732050807568877,
+    "cond(M)": 1.0000000000000004,
+    "residual": 1.705958422173634e-16,
+    "intertwiner": true
+   },
+   "tau'_1^-1": {
+    "smallest singular value": 2.745015796543478e-16,
+    "next": 1.732050807568877,
+    "cond(M)": 1.0000000000000002,
+    "residual": 2.4054832200211723e-16,
+    "intertwiner": true
+   },
+   "character formula failures (400 random words)": 0
+  },
+  "H(3), g = 2": {
+   "tau_1": {
+    "smallest singular value": 4.819207779609913e-16,
+    "next": 1.7320508075688767,
+    "cond(M)": 1.000000000000001,
+    "residual": 2.51427890272973e-16,
+    "intertwiner": true
+   },
+   "tau_1^-1": {
+    "smallest singular value": 5.648638024999118e-16,
+    "next": 1.7320508075688767,
+    "cond(M)": 1.000000000000003,
+    "residual": 1.2218344814593932e-15,
+    "intertwiner": true
+   },
+   "tau'_1": {
+    "smallest singular value": 5.378347308951268e-16,
+    "next": 1.7320508075688767,
+    "cond(M)": 1.0000000000000004,
+    "residual": 2.2207239618792808e-16,
+    "intertwiner": true
+   },
+   "tau'_1^-1": {
+    "smallest singular value": 3.7437386089254144e-16,
+    "next": 1.7320508075688772,
+    "cond(M)": 1.0000000000000016,
+    "residual": 6.206335383118183e-16,
+    "intertwiner": true
+   },
+   "tau_2": {
+    "smallest singular value": 5.891561316124517e-16,
+    "next": 1.732050807568876,
+    "cond(M)": 1.0000000000000022,
+    "residual": 2.027407440106198e-15,
+    "intertwiner": true
+   },
+   "tau_2^-1": {
+    "smallest singular value": 6.210207490822897e-16,
+    "next": 1.7320508075688765,
+    "cond(M)": 1.0000000000000042,
+    "residual": 1.2659250794279332e-15,
+    "intertwiner": true
+   },
+   "tau'_2": {
+    "smallest singular value": 4.1203511429323124e-16,
+    "next": 1.732050807568877,
+    "cond(M)": 1.0000000000000009,
+    "residual": 2.1677797545656835e-16,
+    "intertwiner": true
+   },
+   "tau'_2^-1": {
+    "smallest singular value": 3.6801277915409763e-16,
+    "next": 1.7320508075688767,
+    "cond(M)": 1.0000000000000049,
+    "residual": 2.9800786552827435e-15,
+    "intertwiner": true
+   },
+   "sigma_1": {
+    "smallest singular value": 4.3004681004779387e-16,
+    "next": 1.7320508075688765,
+    "cond(M)": 1.0000000000000007,
+    "residual": 1.9230301268069797e-16,
+    "intertwiner": true
+   },
+   "sigma_1^-1": {
+    "smallest singular value": 3.441291225307944e-16,
+    "next": 1.732050807568877,
+    "cond(M)": 1.000000000000001,
+    "residual": 2.7758097499218987e-16,
+    "intertwiner": true
+   },
+   "mu'": {
+    "smallest singular value": 7.071584169820853e-16,
+    "next": 1.7320508075688765,
+    "cond(M)": 1.0000000000000027,
+    "residual": 1.8835635657438977e-15,
+    "intertwiner": true
+   },
+   "mu'^-1": {
+    "smallest singular value": 7.170587568725605e-16,
+    "next": 1.732050807568877,
+    "cond(M)": 1.0000000000000058,
+    "residual": 1.4528863559193642e-15,
+    "intertwiner": true
+   },
+   "character formula failures (400 random words)": 0
+  },
+  "H(5), g = 1": {
+   "tau_1": {
+    "smallest singular value": 4.4217244995672674e-16,
+    "next": 1.175570504584946,
+    "cond(M)": 1.0000000000000004,
+    "residual": 3.6188843062238402e-16,
+    "intertwiner": true
+   },
+   "tau_1^-1": {
+    "smallest singular value": 3.851825721033427e-16,
+    "next": 1.1755705045849456,
+    "cond(M)": 1.0000000000000007,
+    "residual": 4.997930709674e-16,
+    "intertwiner": true
+   },
+   "tau'_1": {
+    "smallest singular value": 1.5780960510564106e-16,
+    "next": 1.175570504584946,
+    "cond(M)": 1.0000000000000007,
+    "residual": 1.679456125744243e-16,
+    "intertwiner": true
+   },
+   "tau'_1^-1": {
+    "smallest singular value": 1.7685875497620493e-16,
+    "next": 1.1755705045849458,
+    "cond(M)": 1.0000000000000009,
+    "residual": 3.433175098891678e-16,
+    "intertwiner": true
+   },
+   "character formula failures (400 random words)": 0
+  }
+ },
+ "C6": {
+  "g = 1": {
+   "transvection lemma failures": 0,
+   "forms equal to 1 off zero": 1,
+   "forms of Arf invariant 1": 1
+  },
+  "g = 2": {
+   "transvection lemma failures": 0,
+   "forms equal to 1 off zero": 0,
+   "forms of Arf invariant 1": 6
+  },
+  "g = 3": {
+   "transvection lemma failures": 0,
+   "forms equal to 1 off zero": 0,
+   "forms of Arf invariant 1": 28
+  },
+  "g = 2, the sixteen forms (q on a1 b1 a2 b2)": {
+   "kept by every tau": [
+    "1111"
+   ],
+   "kept by mu'": [
+    "0010",
+    "0011",
+    "0100",
+    "0101",
+    "1010",
+    "1011",
+    "1100",
+    "1101"
+   ],
+   "kept by every move": [],
+   "mu' keeps exactly the forms with q(b1 + a2) = 1": true
+  }
+ }
+}
