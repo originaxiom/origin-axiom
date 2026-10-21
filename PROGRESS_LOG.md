@@ -20053,3 +20053,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The main seat reproduced this seat's W63 on its own code, and found one limit:** the mass pattern W63 reported
   holds only in a simpler version of the coupling. In the full version, at the special state the record singles out,
   the two heavier masses come out equal. The correction is written into W63's own section. 0 of 19.
+
+## 2026-10-21 — the main seat sealed a test of two more shapes
+
+- **The main seat sealed a test that takes τ from the shapes of two other threads,** with every line tried at once.
+  This seat logged it, states no expectation, and noted that the fully fair version would take every thread's shape
+  under one rule. 0 of 19.

@@ -1,5 +1,12 @@
 # Changelog
 
+## Main's B1702 seal read (ledger)
+
+- **B1702's preregistration** (main, sealed; P-249): τ at the silver word's cusp shape or the golden word's spin end
+  curve, with all 576 lines. Rowed as read; no expectation. A weave note for its reading: the weave form takes every
+  thread's cusp shape under one stated rule, not two named words.
+- **Surfaces.** One ledger row. 0 of 19.
+
 ## Main's S173 read: a correction to W63 on the line (ledger; NOTE)
 
 - **B1701** (main, PROVED): W63's cells reproduce on main's code, and on the line itself the tied Higgs gives every
