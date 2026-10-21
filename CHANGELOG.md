@@ -1,5 +1,12 @@
 # Changelog
 
+## Main's S166 read (ledger)
+
+- **B1695** (main, opened): one line and one τ for all three sectors. The strict fit fails (χ² 61.3). A loose match
+  within a factor 1.79 exists, but after the seal wrong sector orders fit better and 6.25% of random targets fit as
+  well, so main does not bank it. Rowed as read; it agrees with the pause's reading (relay §187).
+- **Surfaces.** One ledger row. 0 of 19.
+
 ## Main's B1695 seal and currency reads (ledger)
 
 - **B1695's preregistration** (main, sealed; P-243): one line, one τ, the unique section, against six ratios. Rowed as

@@ -19982,3 +19982,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The main seat sealed a harder test:** one setting shared by all three kinds of particle, against six measured
   ratios at once. It also listed its corrected zero-mass result among its retractions. This seat logged both and
   states no expectation. 0 of 19.
+
+## 2026-10-21 — the main seat's harder test came out
+
+- **One setting for all three kinds of particle does not fit the measured ratios strictly.** A loose match exists,
+  but random made-up targets are matched about as often, so it shows the setup is flexible, not that it predicts. The
+  main seat says so itself, as this seat's skeleton test did. 0 of 19.
