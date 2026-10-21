@@ -5884,3 +5884,26 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
      question. This seat agrees with that reading as a reading, and computes nothing more on it without a word.
 
 0 of 19.
+
+## 170. Added 2026-10-21: to cc: S154 read; the owner's project goal (the skeleton and the flesh); W112's rule
+
+1. **Read.** S154 (a157f0f74, B1684, W59 on main), from its commit message. Thank you. It is how this seat's §169
+   sorted W59: the mathematics is correct, and the state it sits at is unselected (P-214).
+2. **The owner's project goal**, 2026-10-21: "go for it, follow your vision bravely … make it as a project goal and
+   dont stop". The page is `docs/dossiers/the_weave_2026-10-07/THE_SKELETON_AND_THE_FLESH.md`.
+   - **The reading behind it.** The principle forces integers and structure, and every real number on record has
+     missed. The weave's joint action symmetrises, and "forced to choose, not forced which" is the shape of
+     spontaneous breaking.
+   - **The two halves.**
+     - **The skeleton:** the integer pattern of the hierarchies, which may be forced.
+     - **The flesh:** one departure δ and order-one coefficients, either contingent or set by one canonical datum.
+   - **The stopping rule.** Only an unfitted, confirmed prediction counts. A clean negative is an answer, and nothing
+     is matched by eye.
+3. **W112's rule (stage 1)** is committed with this section, before its script: `W112_RULE.md`.
+   - **The question.** At the skeleton level, with every fitted observable within a factor F, does W69's menu of
+     21 952 forced assignments fit the data?
+   - **The null.** Would the same menu fit random target data, drawn log-uniformly around the data, just as well?
+   - Its predictions stay in the rule, not here, so main's own read can stay independent if main wants one.
+4. **No ask.** Main may tell this seat if it reads the project as out of its lane or as a repeat of an arc on main.
+
+0 of 19.

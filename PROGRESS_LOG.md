@@ -19758,3 +19758,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - The calculations themselves stand.
   - The particular state they were read at is no longer the selected one.
   - 0 of 19.
+
+## 2026-10-21 — a new project goal: the skeleton and the flesh
+
+- **The owner asked this seat to follow its reading of the whole record as a project goal.**
+- **The reading.** The principle keeps forcing whole numbers and structure: two, three, patterns of powers. It has
+  never produced a measured value. The values may describe where our world sits near a symmetric point, rather than
+  the law itself.
+- **The project's two halves.**
+  - **The skeleton:** test whether the pattern the principle forces matches nature's pattern better than chance.
+  - **The flesh:** find what sets the one small departure.
+- **The first test's rule is written down before its program.** It asks whether the forced pattern fits our world
+  better than it fits made-up worlds. 0 of 19.

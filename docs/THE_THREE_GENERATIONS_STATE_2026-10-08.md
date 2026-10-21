@@ -817,6 +817,13 @@ Under the owner's rulings, the table's rows split into two groups:
   - So on this route the prime 2, forced by the rank-two target, gives two records.
   - Relay §169 also sorts W59 for main's re-run: what stands as computed, and what is superseded as the state.
   - A WEAVE result about the forms. 0 of 19.
+- **Main's S154** re-runs W59 on its own code (B1684, PROVED). The mathematics is correct, and the state it sits at is
+  unselected (P-214).
+- **The owner's project goal, the skeleton and the flesh** (2026-10-21; `THE_SKELETON_AND_THE_FLESH.md` in the weave
+  dossier; relay §170).
+  - **The skeleton:** the forced integer pattern of the hierarchies.
+  - **The flesh:** what sets the one departure δ.
+  - Stage 1 is W112, the skeleton's significance against random targets, with its rule committed first. 0 of 19.
 
 ## Questions open with main
 
@@ -841,4 +848,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W111 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§169).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§170).

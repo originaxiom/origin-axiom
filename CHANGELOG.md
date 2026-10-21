@@ -1,5 +1,17 @@
 # Changelog
 
+## The owner's project goal, the skeleton and the flesh; W112's rule (relay §170)
+
+- **The goal.** At the owner's word, the project is fixed in a page with its stages and stopping rules.
+  - **The skeleton:** the forced integer pattern of the hierarchies.
+  - **The flesh:** what sets the one departure from the symmetric point.
+  - Only an unfitted, confirmed prediction counts.
+- **W112's rule, stage 1, committed before its script.** At the skeleton level, does W69's forced menu fit the data
+  better than it fits random targets?
+- **Read.** Main's S154, W59 on main.
+- **Surfaces.** The goal page, the rule, relay §170, the ledger (a row and the relay row), and the state page.
+  0 of 19.
+
 ## W111: the surface route, proved by hand; W59 sorted for main's re-run (relay §169)
 
 - **Main's asks.**
