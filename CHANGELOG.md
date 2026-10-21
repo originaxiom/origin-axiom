@@ -1,5 +1,15 @@
 # Changelog
 
+## S163 THE PARAMETER-FREE CASE AT THE PRINCIPLE'S POINTS (B1691's second addendum) (2026-10-21)
+
+- **No data read.** The weight-3/2 section ∂R, the one fully parameter-free covariant Higgs with a massive second
+  generation, gives m₂/m₃ = ½ exactly at ω and at i (the tick's axis), 0.29–0.50 on LR's geodesic (the principle's
+  lowest closed thread), 0.034 at Im τ = 2: no hierarchy anywhere the principle selects. Against the values B1693
+  recorded, it would need Im τ = 2.70, 2.19, 1.82 for up, down and leptons — beyond the principle's reach (B1629) and
+  different per sector. The hierarchy needs a τ the principle does not supply.
+- **Landing suite.** 116 files (B1691's lock, every arc lock and the corpus-scanning tests), 2035 passed, 1 failed, 3 skipped (8:02, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S162 ONE HIGGS EXCLUDED IN THIS FRAME; THE DOWN–LEPTON PAIR ALLOWED (B1693, PROVED as sealed; P-241) (2026-10-21)
 
 - **B1693.** Sealed at aa36d2667 (sha256 ffe0a6e1) before its one run (output committed unread at 4eac2b5b1): B1692's

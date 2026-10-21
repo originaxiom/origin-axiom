@@ -100,3 +100,12 @@ Feruglio, Gherardi, Romanino and Titov, modular invariant dynamics and fermion m
 > weight-3/2 section a = ∂R (the space is one-dimensional): m₁ = 0 and **m₂/m₃ = 18 |q|^½ + …** (exact leading
 > coefficient; direct evaluation 18.0058, 18.00001, 18.0000000 at Im τ = 3, 5, 7). Two sectors with that Higgs would have
 > equal m₂/m₃. `verification/the_coefficients_are_free.py` → `the_coefficients_are_free.json`. No comparison was made.
+
+> *Addendum 2026-10-21 (S163; the parameter-free case at the principle's points).* The weight-3/2 section ∂R has no free
+> coefficient, so its m₂/m₃ is a function of τ alone (B1646's exact formulas, no asymptotics): **½ exactly at ω and at
+> i** (where the tick LR's axis passes, B1630), **between 0.295 and 0.500 on LR's geodesic** (the principle's lowest
+> closed thread, Im τ ≤ √5/2, B1629), and 0.034, 0.0070, 0.0015 at Im τ = 2, 2.5, 3. So at every τ the principle
+> selects, the program's one fully parameter-free mass ratio shows no second-to-third hierarchy. Read inversely against
+> the values B1693 recorded (no new data read), the section would need Im τ = 2.70 (up), 2.19 (down) and 1.82 (leptons):
+> deeper toward the cusp than anything the principle forces visits (B1629), and a different τ for each sector, which one
+> fibre does not allow (B1693). `verification/the_principles_points.py` → `the_principles_points.json`.

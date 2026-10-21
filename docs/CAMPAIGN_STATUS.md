@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-10-21, S163: the one fully parameter-free mass ratio (the weight-3/2 section ∂R, B1691's second addendum) is ½ at ω and i and 0.29–0.50 on the principle's lowest thread: no hierarchy where the principle points; the measured values would need Im τ = 1.8–2.7, a different τ per sector. 0 of 19.)**
+
 **LATEST (2026-10-21, S162: B1693, sealed — one covariant Higgs with a flat line is EXCLUDED in the fibre frame (the leptons' m₂/m₃ is 16 times the up quarks', beyond the bound of four); the down–lepton pair (3.1) is ALLOWED; the up quarks need a Higgs of their own. 0 of 19.)**
 
 **LATEST (2026-10-21, S161: a flat hypercharge line with one covariant Higgs splits the three sectors' 2–3 hierarchies by at most a factor of four, keeping the exponent (B1692; P-169's first part); the comparison with data is sealed first (P-241). 0 of 19.)**

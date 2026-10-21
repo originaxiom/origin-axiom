@@ -17568,3 +17568,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   (B1637's checklist); a grading change from the allowance's arithmetic, disclosed. Seal aa36d2667 (only the seal),
   LAW_MAP's two rows in their own commit (its currency), both pushed; the one run committed unread (4eac2b5b1), read once.
 - **Landing suite.** 123 files (B1693's lock, every arc lock, the corpus-scanning and LAW_MAP-reading tests), 2069 passed, 1 failed, 3 skipped (5:29, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-21 — S163 THE PARAMETER-FREE CASE AT THE PRINCIPLE'S POINTS (B1691's second addendum)
+
+- The owner asked what the weight-3/2 result says about the core idea; main's answer: the program's choice-free output
+  has the right shape (one heavy, one light, one massless; exact rationals times one modulus) but needs τ, and at every
+  τ the principle selects it gives no hierarchy (this addendum). The leverage is a principle that selects τ.
+- **Landing suite.** 116 files (B1691's lock, every arc lock and the corpus-scanning tests), 2035 passed, 1 failed, 3 skipped (8:02, -n 8); the one failure is B805's attachment lock (P-239)

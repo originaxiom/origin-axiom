@@ -738,6 +738,10 @@ found with B1635's sealed instrument.
 - **The exponents alone predict no mass (P-240, assessed without data).** The section's coefficients are free: at weight
   7/2 the ratio (m₁/m₃)/(m₂/m₃)² takes every positive value. The one parameter-free covariant direction with a massive
   second generation is the weight-3/2 section ∂R: m₁ = 0 and m₂/m₃ = 18|q|^½ + …. What fixes the section is P-115.
+- **At the principle's own τ the parameter-free ratio has no hierarchy.** ∂R gives m₂/m₃ = ½ exactly at ω and at i, and
+  0.29–0.50 on LR's geodesic (Im τ ≤ √5/2); the measured values would need Im τ = 1.8–2.7, a different τ per sector,
+  deeper than anything the principle forces visits (B1691's second addendum). The hierarchy needs a τ the principle does
+  not supply.
 
 ## Main's addition: a flat line splits the sectors by at most four (B1692, PROVED)
 

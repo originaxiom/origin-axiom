@@ -12728,15 +12728,17 @@
     "coupling",
     "trace_map",
     "eisenstein",
+    "golden",
     "z3_generation",
     "amphichiral_cp",
     "wrt_quantum"
    ],
    "refs": [
-    "S160"
+    "S160",
+    "S163"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 24,
+   "obstacle_conf": 26,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -12757,13 +12759,17 @@
   "B1693": {
    "slug": "the bound against the masses",
    "motifs": [
-    "coupling"
+    "coupling",
+    "eisenstein",
+    "z3_generation"
    ],
-   "refs": [],
+   "refs": [
+    "B308"
+   ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 7,
+   "obstacle_conf": 10,
    "status": "banked",
-   "domain": "physics"
+   "domain": "arithmetic"
   },
   "B169": {
    "slug": "isomonodromy flow",

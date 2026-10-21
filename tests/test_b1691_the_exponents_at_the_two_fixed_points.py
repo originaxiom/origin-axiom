@@ -52,3 +52,11 @@ def test_the_coefficients_are_free_addendum():
     assert d["distinct"] and abs(d["pole_t"][0] + 5 / 288) < 1e-15 and abs(d["zero_t"][0] + 1 / 48) < 1e-15
     assert (d["r"], d["r2"], d["D2R.D2R_x2"], d["DR.DR_x2"]) == (["-1/2", "0"], ["-1/96", "0"], ["-5/576", "0"], ["1/4", "0"])
     assert abs(d["weight_3/2_m2/m3_over_|q|^(1/2)"] - 18) < 1e-12
+
+
+def test_the_principles_points_addendum():
+    d = json.loads((A / "the_principles_points.json").read_text(encoding="utf-8"))
+    assert abs(d["m2/m3_at"]["omega"] - 0.5) < 1e-12 and abs(d["m2/m3_at"]["i"] - 0.5) < 1e-12
+    lo, hi = d["on_LR_geodesic_min_max"]; assert 0.29 < lo < 0.30 and 0.49 < hi <= 0.5 + 1e-12
+    need = d["Im_tau_needed_for_B1693s_values"]
+    assert all(y > 5 ** 0.5 / 2 for y in need.values()) and need["up m_c/m_t"] > need["down m_s/m_b"] > need["lepton m_mu/m_tau"]
