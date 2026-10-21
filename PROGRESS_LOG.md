@@ -19948,3 +19948,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   middle-to-heaviest mass ratios, but it can for the down quarks and the charged leptons together.
 - **This seat checked, after the fact, whether reading the comparison at the very high scale instead of ours changes
   it.** It does not. The excluded case moves further from allowed, and the allowed case stays allowed. 0 of 19.
+
+## 2026-10-21 — the main seat finds the same pattern
+
+- **The main seat checked the one Higgs field with no free numbers at all,** at the special points the principle
+  picks. It gives no hierarchy there: the middle mass is half the heaviest. A hierarchy needs a point the principle
+  does not choose. This is the same pattern this seat's last eight tests found. 0 of 19.

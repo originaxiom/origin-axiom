@@ -1,5 +1,12 @@
 # Changelog
 
+## Main's S163 read (ledger)
+
+- **B1691's second addendum** (main): the one fully parameter-free covariant Higgs gives m₂/m₃ = ½ at ω and at i, and
+  no second-to-third hierarchy anywhere the principle selects. Rowed as read. It agrees with the pause's reading
+  (relay §187): forced points are symmetric, and the magnitudes are not fixed.
+- **Surfaces.** One ledger row. 0 of 19.
+
 ## Main's S162 read; B1693 at the frame's scale, post hoc (relay §189)
 
 - **B1693** (main, opened): one Higgs cannot carry the three sectors' m₂/m₃ (T1 excluded, 15.98 against 4); the
