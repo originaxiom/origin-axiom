@@ -58,3 +58,9 @@ determinant of the flat torus's Laplacian, which is extremal at the hexagonal to
   runs.
 - The lock: `tests/test_b1673_dynamical_selection_cp_violation_and_mass_emergence.py`. It replaces the received lock,
   which asserted the coordinate error.
+
+## Addendum (2026-10-21, B1684)
+
+> *Noted 2026-10-21 (P-214).* This arc uses W59's lines only as a comparison (the Green function's twelve-point orbit
+> is disjoint from them); nothing here rests on them. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen lines are exactly the minima of the Higgs alone, a joint-parity boson of charge 3. They are not the state the SM seat's later potential selects: its W60 puts the full potential's line at a half-period, and its W62 finds that state not stationary in τ (both held on main at headline level, P-222; W62's mechanism for the Higgs's term checked in B1684). The verdict, that no static debt of Table 1 is discharged,
+> is unaffected.

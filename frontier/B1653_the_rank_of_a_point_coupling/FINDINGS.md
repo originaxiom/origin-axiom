@@ -127,3 +127,9 @@ Szegő kernel S_χ. Couple the zero modes to that profile in each typing, and re
 - **The web seat's step 3a scopes it.** Where R is itself a matter mode, the τ-integral cannot lift the zero, since
   G(R, F, R) = (R·R)F = 0 at every point (harvest row 1183).
 - The cells and their numbers are unchanged.
+
+## Addendum (2026-10-21, B1684)
+
+> *Scoped 2026-10-21 (P-214).* The rank result (rank one at a point, for every flat line and every Higgs) does not use
+> W59's lines and is unaffected. The U7 read-out does: the leptons' triplet isotropic on W59's lines at ω. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen lines are exactly the minima of the Higgs alone, a joint-parity boson of charge 3. They are not the state the SM seat's later potential selects: its W60 puts the full potential's line at a half-period, and its W62 finds that state not stationary in τ (both held on main at headline level, P-222; W62's mechanism for the Higgs's term checked in B1684). So U7
+> is a read-out at an input state. The cells and numbers are unchanged.

@@ -17473,3 +17473,15 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **Read.** The seat's relay §168: S152's corrections taken in its own text; its new point registered (P-221).
 - **Landing suite.** gates 45 of 45; 188 files, 2382 passed, 1 failed, 6 skipped (30:50, -n 8, single-threaded BLAS); the one failure is B186's BLAS-dependent lock (R65-9). The first landing run also failed the verdict-schema test on B1684 (its scope's reach written as free text, not single, class or general); fixed to class, re-run.
 
+## 2026-10-21 — S155 P-214 DONE; THE PATTERN REGISTERED (P-223–P-227)
+
+- S154 landed at a157f0f74. The owner: "continue your order. btw any breakthroughs yet? … whats emerging, what pattern
+  is emerging".
+- **The answer given: no breakthrough, 0 of 19; a pattern.** The foundation derives the discrete skeleton of one qubit
+  and nothing that is a magnitude. One claim checked before saying it (exploratory, audit/explore_clifford): the weave's
+  group G of B1611 has centre ℤ₄ and G/Z ≅ S₄, the one-qubit Clifford group modulo phases; the linear lift differs from
+  the standard Clifford group (no index-2 subgroup of ⟨H, S⟩ matches). Registered as P-223–P-227, each a reading until
+  computed.
+- **P-214.** Addenda on B1653, B1656, B1660, B1673; Table 1 already prices the state as chosen.
+- **Landing suite.** gates 45 of 45; 190 files (the landing set and the four scoped arcs' locks), 2388 passed, 1 failed, 6 skipped (24:10, -n 8); the one failure is B186's BLAS-dependent lock (R65-9).
+

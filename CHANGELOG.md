@@ -1,5 +1,26 @@
 # Changelog
 
+## S155 P-214 DONE (the arcs on W59's lines scoped) AND THE PATTERN, REGISTERED (P-223 to P-227)
+
+- **P-214.** Dated addenda (B1684) on the four arcs that use W59's lines at τ = ω:
+  - B1656: the electron's zero is a theorem at an input state; whether nature's state is there is open.
+  - B1653: the rank result does not use the lines and is unaffected; its U7 read-out is at the input state.
+  - B1660: the negative blocks only at ω on W59's lines, not at the half-period state the seat's W60 selects.
+  - B1673: the lines a comparison only; the verdict unaffected.
+  - The paper's Table 1 already prices "the modulus τ = ω and the eighteen flat lines" as chosen, a selection: no
+    erratum. W94 is the SM seat's, at the same state.
+- **The owner's question, "what pattern is emerging".** Main's reading, firewalled, registered as points:
+  - What the foundation derives is the discrete skeleton of one qubit: PF1's κ ≠ 2 says the records do not commute,
+    and at the common point κ = −2, so they anticommute (X and Z); the common point is a Heisenberg (Pauli) point;
+    three is the three nonzero vectors of (ℤ/2)² (X, Y, Z); the moves act on them through SL(2, 𝔽₂) ≅ S₃, the Clifford
+    group modulo Paulis. Exploratory check (audit): B1611's weave group has centre ℤ₄ and G/Z ≅ S₄, the one-qubit
+    Clifford group modulo phases; its linear lift is not the standard one (P-223).
+  - What it has not derived is every magnitude. A stabilizer no-go is stated as a point to prove (P-224); the seed as
+    the magic state (P-225); the tricritical Ising thread against Ising × Fibonacci (P-226); magnitudes as discrete
+    exponents times one departure, near ω or the cusp (P-227).
+- FLOOR 227. 0 of 19.
+- **Landing suite.** gates 45 of 45; 190 files (the landing set and the four scoped arcs' locks), 2388 passed, 1 failed, 6 skipped (24:10, -n 8); the one failure is B186's BLAS-dependent lock (R65-9). 0 of 19.
+
 ## S154 W59 ON MAIN (B1684, PROVED; P-099 and P-100 done): THE ONE-LOOP POTENTIAL'S FACTS VERIFIED, THE STATE AN INPUT
 
 - **First in Q3 at the owner's approval** ("all your recommendations approved", 2026-10-21): the SM seat's W59 re-run on

@@ -92,3 +92,9 @@ B1657 (the symmetric point: two isotropic vacua, two laws), in review before its
 line its conjugate law makes the lifted light mass ∣d_v∣ = ∣D_sector∣/(2πL∣R∣²), so this arc's three values become
 cross-sector mass ratios at fixed L and Higgs direction; and the Higgs's own defect is the candidate source of the
 electron's mass.
+
+## Addendum (2026-10-21, B1684)
+
+> *Scoped 2026-10-21 (P-214).* This arc names τ = ω and W59's lines as stated inputs. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen lines are exactly the minima of the Higgs alone, a joint-parity boson of charge 3. They are not the state the SM seat's later potential selects: its W60 puts the full potential's line at a half-period, and its W62 finds that state not stationary in τ (both held on main at headline level, P-222; W62's mechanism for the Higgs's term checked in B1684). So the electron's zero
+> is a theorem about an input state, not about a selected one: it holds on W59's lines at ω, and whether nature's state is
+> there is open. The cells and numbers are unchanged.

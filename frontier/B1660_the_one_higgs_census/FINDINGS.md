@@ -100,3 +100,9 @@ The explorations' values on their three lines are reproduced exactly: 85.4, 87.3
 - **The SM seat:** W93's read-out (P-175) and W94's relation, whose quantity (m_μ/m_τ)/(m_s/m_b) is the one this census
   misses most.
 - **The owner:** the binary behind the three readings (H and H̃).
+
+## Addendum (2026-10-21, B1684)
+
+> *Scoped 2026-10-21 (P-214).* This scoreboard's scope already names its frame: τ = ω on W59's eighteen lines. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen lines are exactly the minima of the Higgs alone, a joint-parity boson of charge 3. They are not the state the SM seat's later potential selects: its W60 puts the full potential's line at a half-period, and its W62 finds that state not stationary in τ (both held on main at headline level, P-222; W62's mechanism for the Higgs's term checked in B1684).
+> So the negative blocks only there: it does not reach the half-period state W60 selects, nor any state off ω. The cells
+> and numbers are unchanged.
