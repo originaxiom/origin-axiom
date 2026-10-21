@@ -109,3 +109,12 @@ Feruglio, Gherardi, Romanino and Titov, modular invariant dynamics and fermion m
 > the values B1693 recorded (no new data read), the section would need Im τ = 2.70 (up), 2.19 (down) and 1.82 (leptons):
 > deeper toward the cusp than anything the principle forces visits (B1629), and a different τ for each sector, which one
 > fibre does not allow (B1693). `verification/the_principles_points.py` → `the_principles_points.json`.
+
+> *Correction 2026-10-21 (S164; found by main, targeted).* **"m₁ = 0 without a ∂²R component" (above, the table's second
+> row, the first addendum's "m₁ = 0" for ∂R) holds only in B1654's large-L limit**, which this arc used for every m₁
+> statement. At the canonical end radius of order one (B1667) the full four-channel coupling (B1656's machinery, reused
+> verbatim) lifts the first generation of ∂R: m₁/m₃ falls like 1/L² (Im τ = 2: 1.7 × 10⁻³, 6.5 × 10⁻⁵, 3.8 × 10⁻⁶ at L = 0.65,
+> 2.5, 10; a factor 16–17 per factor 4 in L at Im τ = 1.5, 2, 2.5), while m₂/m₃ tends to the large-L value (0.0339 against
+> 0.0338). So the parameter-free section gives three non-zero, hierarchical masses at the canonical end, the first
+> generation set by the 1/L² term. The exponents for sections with a ∂²R component (the O(1/L) term) stand.
+> `verification/correction/the_lift_at_finite_L.py` → `the_lift_at_finite_L.json`.

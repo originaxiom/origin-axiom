@@ -1,5 +1,18 @@
 # Changelog
 
+## S164 A CORRECTION TO B1691: THE FIRST GENERATION IS LIFTED AT THE CANONICAL END (2026-10-21)
+
+- **Found by main, targeted.** B1691's m₁ statements (m₁ = 0 for a section without a ∂²R component; the weight-3/2
+  section's "massless first generation") are B1654's large-L limit. At the canonical end radius of order one (B1667),
+  B1656's four-channel coupling lifts ∂R's first generation, m₁/m₃ ~ 1/L² (Im τ = 2: 6.5 × 10⁻⁵ at L = 2.5; a factor
+  16–17 per factor 4 in L), m₂/m₃ unchanged in the limit. So the parameter-free section gives three non-zero hierarchical
+  masses, and a parameter-free curve m₁/m₃ = F(m₂/m₃) per sector: P-242, to be sealed. Corrected in B1691 (a dated note,
+  its verdict line, its lock), THE_WEAVE, LAW_MAP, P-240's cell; main's answer to the owner of the same day said
+  "massless first generation" and is corrected in conversation.
+- **Register.** P-242 registered. FLOOR 242.
+- **Landing suite.** 123 files (B1691's lock, every arc lock, the corpus-scanning, register- and LAW_MAP-reading tests), 2072 passed, 1 failed, 3 skipped (6:54, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S163 THE PARAMETER-FREE CASE AT THE PRINCIPLE'S POINTS (B1691's second addendum) (2026-10-21)
 
 - **No data read.** The weight-3/2 section ∂R, the one fully parameter-free covariant Higgs with a massive second

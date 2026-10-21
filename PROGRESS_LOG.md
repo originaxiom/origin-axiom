@@ -17575,3 +17575,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   has the right shape (one heavy, one light, one massless; exact rationals times one modulus) but needs τ, and at every
   τ the principle selects it gives no hierarchy (this addendum). The leverage is a principle that selects τ.
 - **Landing suite.** 116 files (B1691's lock, every arc lock and the corpus-scanning tests), 2035 passed, 1 failed, 3 skipped (8:02, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-21 — S164 A CORRECTION TO B1691 (the first generation at the canonical end)
+
+- Under the goal's continuation, main ran B1656's four-channel machinery near the cusp and found ∂R's first generation
+  lifted at finite L (1/L²), against B1691's large-L "m₁ = 0". Corrected the same hour; P-242 registered for the
+  parameter-free curve, with the disclosure that main set its first numbers beside recalled masses.
+- **Landing suite.** 123 files (B1691's lock, every arc lock, the corpus-scanning, register- and LAW_MAP-reading tests), 2072 passed, 1 failed, 3 skipped (6:54, -n 8); the one failure is B805's attachment lock (P-239)

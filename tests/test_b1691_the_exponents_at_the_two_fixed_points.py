@@ -60,3 +60,12 @@ def test_the_principles_points_addendum():
     lo, hi = d["on_LR_geodesic_min_max"]; assert 0.29 < lo < 0.30 and 0.49 < hi <= 0.5 + 1e-12
     need = d["Im_tau_needed_for_B1693s_values"]
     assert all(y > 5 ** 0.5 / 2 for y in need.values()) and need["up m_c/m_t"] > need["down m_s/m_b"] > need["lepton m_mu/m_tau"]
+
+
+def test_the_correction_the_lift_at_finite_L():
+    d = json.loads((A / "correction" / "the_lift_at_finite_L.json").read_text(encoding="utf-8"))
+    for y, row in d.items():
+        r = [row[L]["m1/m3"] for L in ("10", "40", "160", "640")]
+        assert all(14 < r[i] / r[i + 1] < 18 for i in range(3))           # 1/L^2, not zero at finite L
+        assert row["2.5"]["m1/m3"] > 1e-7
+    assert abs(d["2.0"]["640"]["m2/m3"] - 0.0339) < 2e-4

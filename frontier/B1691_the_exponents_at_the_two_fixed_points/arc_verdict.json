@@ -4,9 +4,18 @@
   "instrument": false,
   "creates_law": false,
   "identifications": [],
-  "depends_on": ["B1645", "B1646", "B1654", "B1667", "B1686"],
+  "depends_on": [
+    "B1645",
+    "B1646",
+    "B1654",
+    "B1667",
+    "B1686"
+  ],
   "rests_on_seat": [],
-  "cites_seat": ["sm:W64", "sm:W72"],
+  "cites_seat": [
+    "sm:W64",
+    "sm:W72"
+  ],
   "supersedes": null,
   "superseded_by": null,
   "authored_by": "cc",
@@ -16,6 +25,6 @@
     "reach": "class",
     "hypotheses": "H-cov: the Higgs's direction is a covariant section (P-115 open; a dictionary choice); one Higgs direction per sector; B1654's large-L lift formula at L of order one (B1667: within 17-25%); no data"
   },
-  "claim_one_line": "THE EXPONENTS AT THE TWO FIXED POINTS (P-227, part 1): if the Higgs's direction in M is a covariant section of the matter's representation, the record's mass ratios near the cusp are powers of one |q| -- m2/m3 ~ |q|^(1/2) and m1/m3 ~ Im tau |q| for every section with a second-derivative component at every weight to 23/2 (by exact q^(1/8)-series and by direct evaluation), m1 = 0 without it, and no 2-3 hierarchy for a constant direction (the control) -- because R.R = R.DR = 0 and R.D2R = -DR.DR exactly (the sections are free on R, DR, D2R: Wronskian -(i/8) eta^9); near omega the exponents follow the residual Z3 charge (k mod 6: (1, 1), (2, 3), or no 2-3 hierarchy); the SM seat's W72 Higgs mode is exactly eta^6 R, isotropic. A reduction to discrete exponents and one scale, not a number: tau and the coefficients stay free, and nothing computed holds tau (B1686). The comparison with measured masses is P-240, sealed first. 0 of 19.",
+  "claim_one_line": "THE EXPONENTS AT THE TWO FIXED POINTS (P-227, part 1): if the Higgs's direction in M is a covariant section of the matter's representation, the record's mass ratios near the cusp are powers of one |q| -- m2/m3 ~ |q|^(1/2) and m1/m3 ~ Im tau |q| for every section with a second-derivative component at every weight to 23/2 (by exact q^(1/8)-series and by direct evaluation), m1 = 0 without it, and no 2-3 hierarchy for a constant direction (the control) -- because R.R = R.DR = 0 and R.D2R = -DR.DR exactly (the sections are free on R, DR, D2R: Wronskian -(i/8) eta^9); near omega the exponents follow the residual Z3 charge (k mod 6: (1, 1), (2, 3), or no 2-3 hierarchy); the SM seat's W72 Higgs mode is exactly eta^6 R, isotropic. A reduction to discrete exponents and one scale, not a number: tau and the coefficients stay free, and nothing computed holds tau (B1686). The comparison with measured masses is P-240, sealed first. 0 of 19. [CORRECTED 2026-10-21: every m1 statement is B1654's large-L limit; at the canonical L of order one (B1667) the first generation of a section without the second-derivative component is lifted, m1/m3 ~ 1/L^2 (DR at Im tau 2, L 2.5: 6.5e-5), so the parameter-free section gives three non-zero hierarchical masses.]",
   "weave_or_thread": "weave (the coupling of every sector on one fibre, under the moves' covariance)"
 }

@@ -12735,10 +12735,11 @@
    ],
    "refs": [
     "S160",
-    "S163"
+    "S163",
+    "S164"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 26,
+   "obstacle_conf": 29,
    "status": "banked",
    "domain": "arithmetic"
   },
