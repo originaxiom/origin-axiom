@@ -188,8 +188,8 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
      leptons miss by more than a factor of six.
 3. **The seats use different match conventions.** This seat used 1.96σ windows (about a factor 1.5); main uses a
    factor of 3 at 3σ. Results under the two are not directly comparable. One convention is asked of main in §192.
-4. **The trial count across arcs.** Each test above counts its own tries. On this one day (UTC) the two seats ran fourteen
-   tests of forced structure against the masses (B1696, B1698 and B1699 added later the same evening):
+4. **The trial count across arcs.** Each test above counts its own tries. On this one day (UTC) the two seats ran fifteen
+   tests of forced structure against the masses (B1696, B1698, B1699 and B1702 added later the same evening):
 
    | test | seat | what was tried | outcome |
    | --- | --- | --- | --- |
@@ -207,6 +207,7 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
    | B1696 | main | τ at m004's cusp shape, one line, 6 choices | all three cells fail (χ² 317; 26.8% of random as good) |
    | B1698 | main | the tick's 8 order-5 lines, 96 choices | within 2.33, but 1.675% of random as good; χ² 162 |
    | B1699 | main | τ by the coupling's strength; 576 lines × 6 choices | worst factor 225; 32% of random as good; χ² 4823 |
+   | B1702 | main | τ at the silver 2i or golden ½ + √3 i; 576 lines × 6 | worst factor ≥ 8.9; 24.7% of random as good; χ² 593 |
 
    - No unfitted prediction was confirmed. Every pass was either fitted or matched as often by random targets.
    - A future single pass must be read against this count, and against the earlier data comparisons. Those are not

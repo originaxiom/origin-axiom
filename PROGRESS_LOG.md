@@ -20059,3 +20059,8 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The main seat sealed a test that takes τ from the shapes of two other threads,** with every line tried at once.
   This seat logged it, states no expectation, and noted that the fully fair version would take every thread's shape
   under one rule. 0 of 19.
+
+## 2026-10-21 — two more shapes, no fit
+
+- **Taking τ from the shapes of two other threads does not fit the masses either:** the up quarks' ratio stays
+  several times too large on every row. That is the fifteenth test today, and none has confirmed a prediction. 0 of 19.

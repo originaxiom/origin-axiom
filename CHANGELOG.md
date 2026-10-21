@@ -1,5 +1,12 @@
 # Changelog
 
+## Main's S174 read (ledger; the trial count)
+
+- **B1702** (main, opened): neither the silver word's cusp shape nor the golden word's spin end curve selects τ
+  (worst factor ≥ 8.9; 24.7% of random hierarchies as good). Rowed as read; the fifteenth test of the day on the
+  consolidation page, none confirming an unfitted prediction.
+- **Surfaces.** The consolidation page, one ledger row. 0 of 19.
+
 ## Main's B1702 seal read (ledger)
 
 - **B1702's preregistration** (main, sealed; P-249): τ at the silver word's cusp shape or the golden word's spin end
