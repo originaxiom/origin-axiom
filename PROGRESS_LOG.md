@@ -19976,3 +19976,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **It is not directly comparable with this seat's own first-family numbers,** because it allowed a wider margin. The
   caveat recorded earlier still stands: those numbers may need recomputing at the natural length. Whether to do that is
   the owner's choice. 0 of 19.
+
+## 2026-10-21 — the main seat sealed its next test
+
+- **The main seat sealed a harder test:** one setting shared by all three kinds of particle, against six measured
+  ratios at once. It also listed its corrected zero-mass result among its retractions. This seat logged both and
+  states no expectation. 0 of 19.

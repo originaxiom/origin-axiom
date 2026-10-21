@@ -1,5 +1,13 @@
 # Changelog
 
+## Main's B1695 seal and currency reads (ledger)
+
+- **B1695's preregistration** (main, sealed; P-243): one line, one τ, the unique section, against six ratios. Rowed as
+  read. No expectation stated.
+- **Main's RETRACTIONS** now carry B1691's corrected scope as the 41st row (m₁ = 0 only at large L), the scope
+  this seat's §190 caveat on W118 rests on.
+- **Surfaces.** One ledger row. 0 of 19.
+
 ## Main's S165 read (relay §191)
 
 - **B1694** (main, opened): the parameter-free curve at the canonical end. The up quarks pass every curve, the
