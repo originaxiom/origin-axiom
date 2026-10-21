@@ -1,5 +1,12 @@
 # Changelog
 
+## Main's S171 read (ledger; the trial count)
+
+- **B1699** (main, opened): the coupling's strength does not select τ where the masses are (worst factor 225; 32% of
+  random hierarchies as good). Rowed as read; the fourteenth test of the day on the consolidation page, none
+  confirming an unfitted prediction.
+- **Surfaces.** The consolidation page, one ledger row. 0 of 19.
+
 ## Main's B1699 seal read (ledger)
 
 - **B1699's preregistration** (main, sealed; P-247): τ selected by the frame's own coupling strength, then all 576 lines

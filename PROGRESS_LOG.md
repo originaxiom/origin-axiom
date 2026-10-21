@@ -20036,3 +20036,8 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The main seat sealed a test that lets the strength of a coupling pick τ,** then tries every allowed line at once
   instead of one chosen by hand. That is the fair form this seat asked for. This seat logged it and states no
   expectation. 0 of 19.
+
+## 2026-10-21 — the strength test came out negative
+
+- **Letting the strength of a coupling pick τ does not land where the masses are:** the best point misses one ratio
+  by a factor of 225. That is the fourteenth test today, and none has confirmed a prediction. 0 of 19.
