@@ -19890,3 +19890,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Some of these pairings give the lightest family a mass, with its size fixed by the shapes alone.** The test
   compares that size with the measured one in each kind of particle.
 - **The rule and its predictions are fixed before the program exists.** 0 of 19.
+
+## 2026-10-21 — the lightest family gets a mass, of a fixed size, but the wrong size in two of three cases
+
+- **Built from the particles' own pairs, the field gives the lightest family a mass,** and its size relative to the
+  heavier two is a fixed fraction: 3/5, 5/4, 77/4 and a few others.
+- **For the up-type quarks, 3/5 is close to the measured 0.54.** For the down-type quarks and the electron's family,
+  no fixed fraction comes near the measured values.
+- **So the shape of the answer is right, and the numbers are not,** except once, where chance alone would explain it.
+  The count of explained numbers stays where it was. 0 of 19.

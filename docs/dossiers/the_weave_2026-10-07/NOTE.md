@@ -396,6 +396,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   i, where the masses are degenerate (χ² 1310). A quarter of the other lines carry a mark that holds the quarks
   with two degrees of freedom, which no rule selects (p = 0.90). One passing mark is CP-conserving: the record's
   fits lack the CP phase. A census of thread results with weave functionals.
+- W118 (the second of the owner's three arcs: the first generation; rule first; one run; H4 failed): the composite
+  field, the cross products of the weight-3/2 fermion sections, lifts the first generation's zero near ω with the
+  forced power δ² and an exact rational coefficient (15, 735/121, 77/4, 3/5, 5/4, 385/529 or 1). Two fall in the
+  up quarks' window (3/5 against 0.54), none in the down quarks' or the leptons', so no coherent assignment
+  exists. A WEAVE-type result given Λ and the stated hypotheses.
 
 ## The setting
 
@@ -7690,6 +7695,75 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W118. The first generation (the second of the owner's three arcs): the composite field, the fermions' own bilinear, lifts the first generation's zero with a forced power and an exact rational coefficient; two coefficients fall in the up quarks' window, but none in the down quarks' or the leptons', so no coherent assignment exists (`the_first_generation.py`; `W118_RULE.md`)
+
+**Why.** After W117, by the owner's order: the first generation, stage 3 of the goal page.
+- In W68's frame every forced pairing leaves the first generation massless, or fixes m₁m₃/m₂² near ω at 15 or 1. The
+  data give 0.54 (up), 2.7 (down) and 0.081 (leptons).
+- Of stage 3's three candidates, only (d) has an object on record: the composite field, the fermions' own bilinear.
+  (c), end data at the puncture, needs P-108's parent map. (e), the exponential sector, was never built. Both stay
+  open by name.
+- **The composite Higgs directions** are the cross products of the three weight-3/2 one-unit sections:
+  P₁ = S₂ × S₃, P₂ = S₃ × S₁ and P₃ = S₁ × S₂. They are paired by B1644's form with W68's seven sections and with
+  each other: 27 new pairings.
+
+**The order.**
+- The rule (`W118_RULE.md`) was committed and pushed first (cab7adf9e), with relay §183.
+- The script was committed before its one run (4d34d010d), and its output before it was read (191dbfab1).
+
+**Disclosed.**
+- W64 to W69's records were seen before the rule. The data's windows and the lift's identities were derived by hand.
+- While the script was written, only its algebra and read-out were run, on random vectors and a synthetic family.
+- Main's S159 (B1691, the exponents at the two fixed points) was read after the rule's commit and before the
+  script's. It works with main's coupling to R and a covariant Higgs. The composites are not among its sections, and no
+  number in it decided a cell.
+
+**The result (COMPUTED; one run; H0–H2 as predicted; H4 failed).**
+
+| cell | prediction | prior | result |
+| --- | --- | --- | --- |
+| H0 | the control: W68's seven sections and their lines at ω; W68's double ratios 15 (E with X) and 1 (X with X) | 95% | **held** — residuals below 6 × 10⁻⁴¹; 14.999999999 and 1 |
+| H1 | each composite vanishes at ω to first order, toward an isotropic line | 80% | **held** — slopes 0.999 and 0.991; all three tend to l_ω², X's line (sines 10⁻⁴ to 5 × 10⁻⁴ at δ = 10⁻⁴) |
+| H2 | the lift as derived: 12 pairings keep m₁ ≡ 0, 15 lift it | 85% | **held** — 15 and 12, exactly as derived |
+| H3 | read-out: powers and double ratios | — | every pairing with three masses near ω has the powers (2, 1): δ² : δ : 1; 12 are scored |
+| H4 | **no scored double ratio falls in any sector's window** | 60% | **failed** — two fall in the up window: P₃ with E (3/5) and P₂ with P₃ (385/529) |
+
+- **The forced coefficients are exact rationals** (identified to 10⁻⁸ to 10⁻¹², not proved):
+
+  | pairing | m₁m₃/m₂² near ω | in a window |
+  | --- | --- | --- |
+  | P₁ with E | 15 | — |
+  | P₂ with E | 735/121 | — |
+  | P₃ with E | 3/5 | **up** (data 0.538; window 0.35 to 0.84) |
+  | P₂ with X, and P₁ with P₂ | 77/4 | — |
+  | P₃ with X, and P₁ with P₃ | 5/4 | — |
+  | P₂ with P₃ | 385/529 | **up** |
+  | P₁ with X, and each composite with itself | 1 | — |
+
+- **P₁ behaves as X near ω:** every double ratio with P₁ equals the one with X (15, 1, 77/4, 5/4).
+- **The look-elsewhere count** is 12 scored pairings times 3 sectors, so 36. There are two hits, both up. The up
+  window spans 0.88 in ln, and the scored values spread over about 3.5, so two hits in 12 is about what chance gives.
+
+**A consequence by arithmetic (after the run, from the read-outs; not a cell).**
+- No forced pairing on record, W68's or W118's, has a double ratio in the down window (1.81 to 3.97) or the
+  leptons' (0.061 to 0.107). The values are 15, 735/121, 77/4, 3/5, 5/4, 385/529 and 1.
+- So the coherent assignment the rule requires (each sector's pairing, one δ, and the CKM) cannot be made. The up
+  hits stay single-sector coincidences, and the candidate cannot be completed.
+
+**What it shows.**
+- **Candidate (d) does what stage 3 asked, in form.** The fermions' own bilinear lifts the first generation's zero.
+  Its power is forced (δ²), and its size is a pure number fixed by the sections: an exact rational. That is the kind
+  of identity the reading of W49–W54 expected a principle to force.
+- **In value it fails two sectors of three.** The down quarks' 2.7 and the leptons' 0.081 lie outside every forced
+  coefficient. The up quarks' 0.54 lies near 3/5, but with two hits in 36 tries that is chance level, and it cannot be
+  completed across the sectors.
+- **By the rule fixed in advance,** H4 failed: a candidate, read against the look-elsewhere count, which the
+  arithmetic above closes. The count does not move. 0 of 19.
+- (c) and (e) stay open, with no object on record.
+
+**Status.** COMPUTED (the rule first; one run; H0–H2 as predicted; H4 failed, closed by arithmetic after the run). A
+WEAVE-type result, given Λ (GENESIS FK11) and the stated hypotheses (B1644's form, H-sec, H-pair′, H-comp). 0 of 19.
+
 ## W117. A point on the line (the first of the owner's three arcs): the weave's canonical functionals, extremized along each thread's closed geodesic, mark the tick's line only at i, where the masses are degenerate; a quarter of the other lines carry a mark that holds the quarks with two degrees of freedom, which no rule selects (`the_points_on_the_line.py`; `W117_RULE.md`)
 
 **Why.** After W116 the owner set three arcs in order, each done properly, then a pause to consolidate. This is the
@@ -10098,6 +10172,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W118 | COMPUTED (the rule first; one run; H0–H2 as predicted; H4 failed, closed by arithmetic after the run); a WEAVE-type result given Λ and the stated hypotheses | the first generation (the second of the owner's three arcs): of stage 3's candidates only (d), the composite field, has an object; its directions P₁ = S₂ × S₃, P₂ = S₃ × S₁, P₃ = S₁ × S₂ vanish at ω toward X's line; paired by B1644's form, 15 of 27 pairings lift m₁ as derived, all with δ² : δ : 1 near ω and exact rational double ratios (15, 735/121, 77/4, 3/5, 5/4, 385/529, 1); 3/5 and 385/529 fall in the up window (data 0.538), none in the down (2.68) or lepton (0.081) windows, so no coherent assignment exists; 2 hits in 36 tries is chance level. (c) and (e) stay open. 0 of 19 |
 | W117 | COMPUTED (the rule first; one run; every cell as predicted); a census of thread results with weave functionals | a point on the line (the first of the owner's three arcs): τ held on each thread's closed geodesic up to length 8 and settled where W51's functionals are extremal along it (205 marks); the tick's line is marked only at i, where the masses are degenerate (χ² 1310 to 1378); eleven lines are marked only at a CP-fixed point; 10 of the 40 lines carry a mark that holds the quarks with two dof (best χ² 1.07, mostly just off i), p = 0.90, and none is named by a rule; one passing mark is CP-conserving (J = 0, χ² 4.24), since W66's eight observables carry no CP phase. A clean negative for the tick. 0 of 19 |
 | W116 | COMPUTED (the rule first; one run; S4 failed, the other cells as predicted); a census of thread results | the seed's marks (the owner's choice after W115): with τ on a thread's closed geodesic (every thread up to length 8: 69 words, 40 lines), W114's zero-dof quark assignments 11, 13 and 14 keep one degree of freedom, and the family passes on all 40 lines (χ²_fam 0.0013 to 2.96); the tick's line passes too (11 at χ² 0.33, its best point 0.072 + 1.033i, next to i), but p = 0.60; the quark data hold τ only to about 0.05 around each solution, and every line comes within 0.062 of one. No evidence. 0 of 19 |
 | W115 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE-type result given the frame | the leptons at the shared τ (the owner's choice after W114): the zero-dof quark fits pin τ at three points for 11, a CP-mirror pair for 13 and an exact mirror pair for 14 (correcting W114's 2.55), all at Im τ ≈ 1.07–1.69; the only lepton couplings with one free number (T⊗T at 3, mixed at 2) keep m_μ/m_τ above 0.21 there (the best pinned χ² 163; the best joint 109, with τ pushed to 1.94i at χ²_q = 38); a null of 4000 random targets gives p = 0.51. The shared modulus predicts nothing for the leptons. 0 of 19 |
@@ -10196,6 +10271,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `W118_RULE.md`: the rule, committed and pushed before the code; `the_first_generation.py` → `the_first_generation.json` and `the_first_generation_run.txt`: W118, the first generation (one run).
 - `W117_RULE.md`: the rule, committed and pushed before the code; `the_points_on_the_line.py` → `the_points_on_the_line.json` and `the_points_on_the_line_run.txt`: W117, a point on the line (one run).
 - `W116_RULE.md`: the rule, committed and pushed before the code; `the_seed_geodesics.py` → `the_seed_geodesics.json` and `the_seed_geodesics_run.txt`: W116, the seed's marks (one run).
 - `W115_RULE.md`: the rule, committed and pushed before the code; `the_shared_tau.py` → `the_shared_tau.json` and `the_shared_tau_run.txt`: W115, the leptons at the shared τ (one run).

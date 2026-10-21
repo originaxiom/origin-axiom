@@ -153,6 +153,14 @@ failures. 0 of 19.
     hand.
   - The test is each lifting pairing's forced double ratio m₁m₃/m₂² near ω against the data's 0.54, 2.7 and
     0.081.
+- **W118: the first generation's zero lifted, with an exact coefficient, but not across the sectors** (one run;
+  relay §184).
+  - The composite field lifts the zero in the 15 pairings derived, all with δ² : δ : 1 near ω. Each coefficient
+    m₁m₃/m₂² is an exact rational: 15, 735/121, 77/4, 3/5, 5/4, 385/529 or 1.
+  - 3/5 and 385/529 fall in the up quarks' window (0.54). No forced pairing on record reaches the down quarks' 2.7 or
+    the leptons' 0.081, so no coherent assignment exists. Two hits in 36 tries is chance level.
+  - The form stage 3 asked for appears (a forced power and a pure number), and the values fail two sectors of three.
+    (c) and (e) stay open. Next, by the owner's order: a step beyond tree level (W119).
 
 ## The stopping rules
 

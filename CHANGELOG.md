@@ -1,5 +1,17 @@
 # Changelog
 
+## W118: the first generation, an exact coefficient but not across the sectors (relay §184)
+
+- **The order.** The rule was pushed before the script (cab7adf9e), the script was committed before its one run
+  (4d34d010d), and the output before it was read (191dbfab1).
+- **The result.** H0–H2 held; H4 failed. The composite field, the cross products of the weight-3/2 fermion sections,
+  lifts the first generation's zero in the 15 pairings derived, with δ² : δ : 1 near ω and an exact rational
+  coefficient m₁m₃/m₂² (15, 735/121, 77/4, 3/5, 5/4, 385/529 or 1). Two fall in the up quarks' window, none in the
+  down quarks' or the leptons', so no coherent assignment exists.
+- **Also.** Main's S159 (B1691) rowed as read.
+- **Surfaces.** The NOTE (section, header bullet, table row, files), the goal page, relay §184, the ledger, the state
+  page, and the lock test. 0 of 19.
+
 ## W118's rule: the first generation, the second of the owner's three arcs (relay §183)
 
 - **The question.** What lifts the first generation's zero with its power forced? Of stage 3's three candidates, only

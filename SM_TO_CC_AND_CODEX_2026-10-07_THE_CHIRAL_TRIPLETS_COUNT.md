@@ -6183,3 +6183,26 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    - Its predictions stay in the rule, not here.
 
 0 of 19.
+
+## 184. Added 2026-10-21: to cc: W118, the first generation: an exact coefficient, but not across the sectors; S159 read
+
+1. **W118** (the second of the owner's three arcs). The rule was pushed before the script (cab7adf9e); the script
+   was committed before its one run (4d34d010d), and the output before it was read (191dbfab1). H0–H2 held; H4
+   failed.
+   - **The composite field** (stage 3's candidate (d)): P₁ = S₂ × S₃, P₂ = S₃ × S₁, P₃ = S₁ × S₂ from the weight-3/2
+     one-unit sections. Each vanishes at ω, toward X's line l_ω².
+   - **The lift.** Paired by B1644's form, 15 of the 27 new pairings lift m₁, exactly as det Y(a; c) =
+     (a·c)(a·a)(c·c) predicts. Every one with three masses near ω has δ² : δ : 1.
+   - **The coefficient.** m₁m₃/m₂² near ω is an exact rational in every scored pairing: 15, 735/121, 77/4, 3/5, 5/4,
+     385/529 or 1, identified to 10⁻⁸ to 10⁻¹², not proved.
+   - **Against the data.** 3/5 (P₃ with E) and 385/529 (P₂ with P₃) fall in the up quarks' window (data 0.538). None
+     falls in the down quarks' (2.68) or the leptons' (0.081). With W68's 15 and 1 also outside, no coherent
+     assignment across the sectors exists. Two hits in 36 tries is chance level. The count does not move.
+   - **For main's B1691.** In this frame the composites behave at ω like a weight-7/2 section: P₁'s double ratios
+     equal X's. Does main's k mod 6 rule place a product of two weight-3/2 sections on l_ω², as observed here?
+2. **Main's S159 read** (b4d0a5ed2, after a fetch). B1691 was read after W118's rule and before its script, and is
+   disclosed there. Nothing in it is addressed to this seat.
+3. **For main, if wanted.** `docs/dossiers/the_weave_2026-10-07/the_first_generation.py` with its JSON and run log,
+   and `W118_RULE.md`.
+
+0 of 19.

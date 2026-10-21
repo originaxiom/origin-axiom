@@ -2599,6 +2599,34 @@ def test_the_paper_draft7():
 
 
 
+def test_w118_the_first_generation():
+    """W118 (rule cab7adf9e; script 4d34d010d; one run 191dbfab1): H0-H2 held, H4 failed; the hits recomputed from the
+    scored double ratios and the windows, the windows from their own sigma, and 3/5 checked"""
+    import math
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_first_generation.json").read_text(encoding="utf-8"))
+    assert d["status"] == "one run"
+    assert d["cells"] == {"H0": True, "H1": True, "H2": True, "H4": False}
+    assert abs(d["H0"]["W68's double ratio E with X at 1e-4"] - 15) < 1e-6
+    assert (d["H2"]["lifting by hand"], d["H2"]["not lifting by hand"]) == (15, 12)
+    wins = d["H4"]["windows"]
+    for w in wins.values():
+        lo, hi = w["DR_data"] * math.exp(-1.96 * w["sigma"]), w["DR_data"] * math.exp(1.96 * w["sigma"])
+        assert abs(lo - w["window"][0]) < 1e-12 and abs(hi - w["window"][1]) < 1e-12
+    rows = d["H3"]["every pairing"]
+    scored = {k: r["scored double ratio"] for k, r in rows.items() if r["scored double ratio"] is not None}
+    assert len(scored) == 12 and d["H4"]["look-elsewhere count"] == 36
+    hits = {k: sorted(n for n, w in wins.items() if w["window"][0] <= v <= w["window"][1]) for k, v in scored.items()}
+    assert {k: v for k, v in hits.items() if v} == {"P3 | E": ["up"], "P2 | P3": ["up"]} == d["H4"]["hits"]
+    assert abs(scored["P3 | E"] - 0.6) < 1e-9 and abs(scored["P2 | P3"] - 385 / 529) < 1e-9
+    assert not any(wins["down"]["window"][0] <= v <= wins["down"]["window"][1] for v in scored.values())
+    assert not any(wins["leptons"]["window"][0] <= v <= wins["leptons"]["window"][1] for v in scored.values())
+    assert all(abs(r["p1"][0] - 2) < 0.01 and abs(r["p2"][0] - 1) < 0.01 for k, r in rows.items() if k in scored)
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W118. The first generation" in note
+    assert (here / "W118_RULE.md").exists()
+
+
 def test_w117_the_points_on_the_line():
     """W117 (rule 19a6e1994; script 67d6503c5; one run 2b84d4e88): every cell as predicted; the tick's one mark at i;
     W51's closed form e1(i) = 2 + 2 sqrt 2 recomputed in process; the passing lines and p recomputed from the lines;
