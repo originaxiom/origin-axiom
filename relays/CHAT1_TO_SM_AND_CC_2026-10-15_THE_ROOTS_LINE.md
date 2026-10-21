@@ -1442,9 +1442,9 @@ The owner, 13:09: "focus on breakthrough". Two sealed runs and three labelled po
 
 - **By the rule's letter:** 8 of 324 tests pass at a = 0.10, and seven have L5 below 0.05. The look-elsewhere count
   is 324.
-- **Post hoc, labelled.** Seven of the eight fall to checks the sealed χ² does not contain.
+- **Post hoc, labelled.** Four of the eight fail and three are weakened, by checks the sealed χ² does not contain.
   - Four fail the CKM phase, which W114's quark χ² omits.
-  - One meets cosmology.
+  - One is weakened by cosmology.
   - Two are weakened by J's term.
 - **One marginal candidate remains:** 14's exact site, −0.2233 + 1.0394i, pair mixed 4t | sym T̄⊗T̄ 7t. The
   family-wide null (still running; its first records seen mid-run) decides whether it is evidence, and so far it

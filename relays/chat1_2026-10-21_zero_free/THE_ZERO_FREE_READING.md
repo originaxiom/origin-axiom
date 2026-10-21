@@ -258,10 +258,12 @@ was committed (§6). Nothing here lowers the count. 0 of 19.
 
 - **By the sealed rule's letter there are candidates.** L3 failed (8 of 324 tests pass at a = 0.10), and L5's control
   is below 0.05 for seven of the eight. The look-elsewhere count is 324 tests.
-- **Post hoc (labelled), seven of the eight fall to a check the sealed χ² does not contain.** Four fail the CKM phase,
-  one meets cosmology (Σm = 0.129 eV), and two are weakened by J's term at a compatible-only quark point.
+- **Post hoc (labelled), four of the eight fail and three are weakened, by checks the sealed χ² does not contain.**
+  Four fail the CKM phase. One is weakened by cosmology (Σm = 0.129 eV), and two by J's term at a compatible-only
+  quark point.
 - **One marginal candidate remains:** assignment 14's exact site, −0.2233 + 1.0394i. It passes at a = 0.10 (χ² 0.85)
-  and a = 0.05 (≤ 2.70), its CKM phase is right, f = 0.0, and its sin²θ₂₃ sits at NuFIT's 3σ edge.
+  and a = 0.05 (≤ 2.70), its CKM phase is right, and f = 0.0. Its sin²θ₂₃ is just outside NuFIT's 3σ
+  range (by 0.004), and its Σm ≈ 0.064 eV sits at the tightest ΛCDM bound.
   - Whether it is evidence is the family-wide null's question, still running. Its first records do not favour the
     data.
 - **So PF1-W's lepton consequence is not supported in this frame,** with A-W, pending the null. θ̄ stays a post-hoc

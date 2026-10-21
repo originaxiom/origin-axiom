@@ -18,11 +18,11 @@ chat1, 2026-10-21. 0 of 19.
   - L3 failed: 8 of 324 tests with a degree of freedom pass their marks at the SM seat's allowance a = 0.10.
   - L5's random-target control is below 0.05 for seven of the eight.
   - **The look-elsewhere count the rule asks to be stated is 324 tests.** Each f is per test and uncorrected for them.
-- **Post hoc (labelled), seven of the eight fall to a check the sealed χ² does not contain:**
+- **Post hoc (labelled), four of the eight fail and three are weakened, by checks the sealed χ² does not contain:**
   - **four on the CKM phase.** The quark χ² that fixes τ omits J (W114's choice, inherited). At those four, the
     stage-Q quark solution has J_CKM between 6 × 10⁻¹⁰ and 5.6 × 10⁻⁶, against the measured 3.08 × 10⁻⁵;
-  - **one on cosmology.** Σm = 0.129 eV at 13's exact site, above current cosmological bounds; that comparison is
-    model-dependent;
+  - **one weakened by cosmology.** Σm = 0.129 eV at 13's exact site, above current cosmological bounds; that
+    comparison is model-dependent;
   - **two weakened.** Both sit at one compatible-only quark point of assignment 14. There, adding J's term to the
     quark χ² at the stage-Q solution gives about 4.8, above the compatibility mark 3.84, with no refit.
 - **One candidate remains:** assignment 14's exact quark site, τ\* = −0.2233 + 1.0394i, with charged leptons mixed at
@@ -30,12 +30,15 @@ chat1, 2026-10-21. 0 of 19.
   - Its χ² is 0.85 for 2 dof, and at most 2.70 at a = 0.05.
   - J_CKM = +3.116 × 10⁻⁵, as the four fitted |V| fix it by unitarity.
   - L2 holds there, and f = 0.0 in 200 targets.
-  - Its sin²θ₂₃ = 0.431 sits at NuFIT's 3σ lower edge (0.435).
+  - Its sin²θ₂₃ = 0.431 is just outside NuFIT's 3σ range, by 0.004 (the lower edge is 0.435).
+  - Its Σm ≈ 0.064 eV sits at the tightest current ΛCDM bound (DESI DR2 with CMB, about 0.064 eV at 95%). That
+    comparison is model-dependent.
 - **Whether that candidate is evidence is the look-elsewhere question over 324 tests.** The family-wide null (post
   hoc, 40 random targets) answers it and is still running.
-  - Its first records were read from disk mid-run by the referee and reported: the data's family-best p under the
-    null's reduced search is 0.777, with 2 passes; three random targets have 21, 9 and 1 passes.
-  - So far, then, the family fits random targets about as often as it fits the data.
+  - Its first six records were read from disk mid-run by the referee and reported to chat1. Under the null's reduced
+    search, the data's family-best p is 0.777, with 2 passes. Five random targets have 21, 9, 1, 7 and 0 passes, with
+    family-best p of 0.98, 0.58, 0.13, 0.87 and 0.04.
+  - So far, then, two of five random targets reach a family-best p above the data's. The null decides.
 - **Verdict now:** PF1-W's lepton consequence is not supported in this frame (with A-W). One marginal candidate is
   pending the null. No prediction is offered. 0 of 19.
 
@@ -67,10 +70,10 @@ chat1, 2026-10-21. 0 of 19.
 | --- | --- | --- | --- | --- | --- |
 | 0.003 + 1.4875i (11) | 2.53 | T̄⊗T̄ 3 \| sym T̄⊗T̄ 7t | 1.55 / 4.93 (5.99) | −1.8 × 10⁻⁷ | fails: CKM phase ×170 too small |
 | 0.003 + 1.4875i (11) | 2.53 | mixed 4t \| sym T̄⊗T̄ 7t | 0.50 / 1.58 (5.99) | −1.8 × 10⁻⁷ | fails: CKM phase |
-| 0.436 + 1.134i (13) | exact | mixed 4t \| sym T̄⊗T̄ 7t | 4.67 / 14.6 (5.99) | −3.1 × 10⁻⁵ | Σm = 0.129 eV, against cosmological bounds; sin²θ₂₃ = 0.589, at NuFIT's 3σ upper edge (0.585) |
+| 0.436 + 1.134i (13) | exact | mixed 4t \| sym T̄⊗T̄ 7t | 4.67 / 14.6 (5.99) | −3.1 × 10⁻⁵ | weakened: Σm = 0.129 eV, against cosmological bounds; sin²θ₂₃ = 0.589, just outside NuFIT's 3σ range (0.585) |
 | 0.4748 + 0.908i (13) | 2.45 | T̄⊗T̄ 7t \| sym T̄⊗T̄ 3 | 0.44 / 1.36 (3.84) | −5.6 × 10⁻⁶ | fails: CKM phase ×5.5 too small |
 | 0.0000 + 1.4061i (13) | 2.79 | T̄⊗T̄ 3 \| sym T̄⊗T̄ 7t | 5.82 / 18.2 (5.99) | 6 × 10⁻¹⁰ | fails: CKM phase |
-| −0.2233 + 1.0394i (14) | exact | mixed 4t \| sym T̄⊗T̄ 7t | 0.85 / 2.70 (5.99) | +3.1 × 10⁻⁵ | **none fails**; sin²θ₂₃ = 0.431, at NuFIT's 3σ lower edge (0.435) |
+| −0.2233 + 1.0394i (14) | exact | mixed 4t \| sym T̄⊗T̄ 7t | 0.85 / 2.70 (5.99) | +3.1 × 10⁻⁵ | **none fails**; sin²θ₂₃ = 0.431, just outside NuFIT's 3σ range (0.435); Σm at the tightest ΛCDM bound |
 | 0.2347 + 1.0503i (14) | 2.83 | T̄⊗T̄ 3 \| sym T̄⊗T̄ 7t | 5.17 / 16.8 (5.99) | −2.6 × 10⁻⁵ | weakened: quark χ² with J's term ≈ 4.8, above 3.84 (no refit) |
 | 0.2347 + 1.0503i (14) | 2.83 | mixed 4t \| sym T̄⊗T̄ 7t | 4.16 / 13.7 (5.99) | −2.6 × 10⁻⁵ | weakened: as above |
 
@@ -95,8 +98,8 @@ chat1, 2026-10-21. 0 of 19.
   That was a double standard, since without the allowance every pass also misses m_μ/m_τ by 6.8σ or more. It is
   withdrawn.
 - **So the substance turns on one candidate and on the look-elsewhere.** A pass among 324 tests with per-test f near
-  zero is roughly what chance can give somewhere. The family-wide null is the test, and its first records do not
-  favour the data.
+  zero may be what chance gives somewhere; the family-wide null decides, and its first records do not favour the
+  data.
 - **Prior art.** Feruglio, Marrone, Strumia and Titov found that their minimal choice at their quark-fixed τ did not
   fit the leptons, and they added a parameter. That minimal choice had zero degrees of freedom; here the passes have
   two to five free numbers. The two outcomes are not of one kind.
@@ -115,8 +118,8 @@ chat1, 2026-10-21. 0 of 19.
   fixed.
 - **The first post-hoc J instrument is not trusted.** It refitted at fixed τ with a small search and did not reproduce
   stage Q's χ²_q (166 against 2.7 × 10⁻¹⁸ at one site). The second instrument replays stage Q exactly.
-- **The global null's first four records were seen mid-run.** The referee read them from disk and reported them. They
-  are committed as they stood (ee1afd5d4).
+- **The global null's first six records were seen mid-run.** The referee read them from disk and reported them to
+  chat1. They are committed as they stood (ee1afd5d4).
 - **Corrected after the referee.**
   - The first draft quoted the unconverged a = 0.05 read-outs as minima. It used NuFIT's 3σ ranges with the allowance
     removed for neutrinos only. It gave 11 rather than 10 for the low-J count (a mirror pair counted twice). It also
