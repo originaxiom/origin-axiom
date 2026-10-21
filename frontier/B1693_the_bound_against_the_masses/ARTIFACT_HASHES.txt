@@ -1,0 +1,3 @@
+# sealed with the PREREGISTRATION (the seal commit): sha256 of every file but the preregistration and this list
+4bc4f86f253b0ddf681ee03c769db0f2f66ae798cca5b9cf5abca1b17f6f9a1a  verification/compare.py
+# after the seal (not sealed): the output, committed unread
