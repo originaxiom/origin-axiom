@@ -1,0 +1,25 @@
+[     0.1s] sector T(x)T k=1: dim 1, tuned False, tensor check None (0.1s)
+[     0.3s] sector T(x)T k=5: dim 4, tuned True, tensor check True (0.2s)
+[     0.3s] sector mixed (Q in T) k=4: dim 4, tuned True, tensor check True (0.0s)
+[     0.3s] sector mixed (Q in Tbar) k=4: dim 4, tuned True, tensor check True (0.0s)
+[     0.3s] sector Tbar(x)Tbar k=3: dim 3, tuned False, tensor check None (0.0s)
+[     0.3s] sector Tbar(x)Tbar k=7: dim 6, tuned True, tensor check True (0.1s)
+[    94.4s] U0 7.106859789397109e-25 True
+[   254.8s] assignment 1 (1, 1, 1) T(x)T k=1 / T(x)T k=5 dof 4 chi2_min 3205.5164387408217
+[   419.2s] assignment 2 (1, 1, 1) T(x)T k=5 / T(x)T k=1 dof 4 chi2_min 1642.6707315376207
+[   628.5s] assignment 3 (1, 1, 1) T(x)T k=5 / T(x)T k=5 dof 2 chi2_min 132.11957255713452
+[   760.0s] assignment 4 (1, 1, -1) T(x)T k=1 / mixed (Q in T) k=4 dof 4 chi2_min 3378.62522811786
+[   973.0s] assignment 5 (1, 1, -1) T(x)T k=5 / mixed (Q in T) k=4 dof 2 chi2_min 219.13175356281482
+[  1162.9s] assignment 6 (1, -1, 1) mixed (Q in T) k=4 / T(x)T k=1 dof 4 chi2_min 1355.3361902489546
+[  1370.9s] assignment 7 (1, -1, 1) mixed (Q in T) k=4 / T(x)T k=5 dof 2 chi2_min 116.86922007579476
+[  1577.9s] assignment 8 (1, -1, -1) mixed (Q in T) k=4 / mixed (Q in T) k=4 dof 2 chi2_min 54.57493738775898
+[  1779.0s] assignment 9 (-1, 1, 1) mixed (Q in Tbar) k=4 / mixed (Q in Tbar) k=4 dof 2 chi2_min 47.9016236725538
+[  1947.1s] assignment 10 (-1, 1, -1) mixed (Q in Tbar) k=4 / Tbar(x)Tbar k=3 dof 2 chi2_min 81.39783305314046
+[  2150.0s] assignment 11 (-1, 1, -1) mixed (Q in Tbar) k=4 / Tbar(x)Tbar k=7 dof 0 chi2_min 8.893117060919158e-13
+[  2310.1s] assignment 12 (-1, -1, 1) Tbar(x)Tbar k=3 / mixed (Q in Tbar) k=4 dof 2 chi2_min 53.56893157554538
+[  2528.5s] assignment 13 (-1, -1, 1) Tbar(x)Tbar k=7 / mixed (Q in Tbar) k=4 dof 0 chi2_min 2.10486132308458e-21
+[  2710.9s] assignment 14 (-1, -1, -1) Tbar(x)Tbar k=3 / Tbar(x)Tbar k=7 dof 0 chi2_min 2.5516161544954996
+[  2903.7s] assignment 15 (-1, -1, -1) Tbar(x)Tbar k=7 / Tbar(x)Tbar k=3 dof 0 chi2_min 8.181010531748436
+[  3128.3s] assignment 16 (-1, -1, -1) Tbar(x)Tbar k=7 / Tbar(x)Tbar k=7 dof -2 chi2_min 2.3453514042887217e-21
+[  3128.3s] cells {'U0': True, 'U1': True, 'U2': True, 'U3': True, 'U4': False}
+[  3128.3s] written the_tuned_fit.json
