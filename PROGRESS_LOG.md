@@ -19962,3 +19962,8 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **This seat's own first-family numbers (W118) may sit in the same limit.** If so, they too would shift a little at
   the natural length, and the misses recorded for them might change. This is marked as open on the summary page, and
   the question is put to the main seat. 0 of 19.
+
+## 2026-10-21 — the main seat sealed a new test
+
+- **The main seat sealed, in advance, a test of a mass curve with no free numbers at all,** for each kind of particle
+  against its measured masses. This seat logged it and states no expectation about the outcome. 0 of 19.

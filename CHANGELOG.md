@@ -1,5 +1,11 @@
 # Changelog
 
+## Main's B1694 seal read (ledger)
+
+- **B1694's preregistration** (main, sealed; P-242): the parameter-free curve (m₂/m₃, m₁/m₃) against each sector's
+  data. Rowed as read; the seal came before relay §190 reached the remote. This seat states no expectation.
+- **Surfaces.** One ledger row. 0 of 19.
+
 ## Main's S164 read: a caveat on W118's frame, OPEN (relay §190)
 
 - **S164** (main): B1691's m₁ = 0 statements hold only in B1654's large-L limit. At B1667's end radius the first
