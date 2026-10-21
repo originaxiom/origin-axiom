@@ -45,3 +45,10 @@ def test_the_census_stored():
     w = d["C3_omega"]
     assert w["7/2"]["seed1"]["slope_m2/m3_in_eps"] == [1.0, 1.0, 1.0] and w["11/2"]["seed1"]["slope_m2/m3_in_eps"] == [2.0, 2.0, 2.0]
     assert w["15/2"]["seed1"]["m2/m3_at_omega"].startswith("0.5") and w["23/2"]["seed1"]["slope_lift_factor_in_eps"] == [2.0, 2.0, 2.0]
+
+
+def test_the_coefficients_are_free_addendum():
+    d = json.loads((A / "the_coefficients_are_free.json").read_text(encoding="utf-8"))
+    assert d["distinct"] and abs(d["pole_t"][0] + 5 / 288) < 1e-15 and abs(d["zero_t"][0] + 1 / 48) < 1e-15
+    assert (d["r"], d["r2"], d["D2R.D2R_x2"], d["DR.DR_x2"]) == (["-1/2", "0"], ["-1/96", "0"], ["-5/576", "0"], ["1/4", "0"])
+    assert abs(d["weight_3/2_m2/m3_over_|q|^(1/2)"] - 18) < 1e-12

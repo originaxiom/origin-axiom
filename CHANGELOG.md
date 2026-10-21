@@ -1,5 +1,15 @@
 # Changelog
 
+## S160 P-240 ASSESSED: THE EXPONENTS ALONE PREDICT NO MASS (B1691's addendum) (2026-10-21)
+
+- **Without data.** At weight 7/2, the lowest covariant section with a ∂²R component, the section's free ratio t makes
+  (m₁/m₃)/(m₂/m₃)² take every positive value (exact leading coefficients; pole t = −5/288, zero t = −1/48): six measured
+  ratios against seven unknowns, no inequality. A test needs the section fixed (P-115). The one parameter-free covariant
+  direction with a massive second generation, the weight-3/2 section ∂R, gives m₁ = 0 and m₂/m₃ = 18|q|^½ + … (exact;
+  direct evaluation to 10⁻⁸ at Im τ = 7). P-240 DONE as not a test; no comparison made, no seal spent.
+- **Landing suite.** 116 files (B1691's lock, every arc lock and the corpus-scanning tests), 2032 passed, 1 failed, 3 skipped (11:16, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S159 THE EXPONENTS AT THE TWO FIXED POINTS (B1691, PROVED; P-227 done) (2026-10-21)
 
 - **B1691 (P-227, part 1; mathematics, no data).** Under the tagged hypothesis that the Higgs's direction in M is a

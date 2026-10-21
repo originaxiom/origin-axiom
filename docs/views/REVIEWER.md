@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1420** |
-| words of findings prose | **1,134,394** |
+| words of findings prose | **1,134,596** |
 | test lock files referenced | **837** |
 | arcs carrying an authored verdict | **1420** (100.0 %) |
 | recorded closures | **825** (658 classified, 167 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1691`** (1360 words, 1 locks)  
+**PROVED — `B1691`** (1562 words, 1 locks)  
 THE EXPONENTS AT THE TWO FIXED POINTS (P-227, part 1): if the Higgs's direction in M is a covariant section of the matter's representation, the record's mass ratios near the cusp are powers of one |q| -- m2/m3 ~ |q|^(1/2) and m1/m3 ~ Im tau |q| for every section with a second-derivative component at every weight to 23/2 (by exact q^(1/8)-series and by direct evaluation), m1 = 0 without it, and no 2-3 hierarchy for a constant direction (the control) -- because R.R = R.DR = 0 and R.D2R = -DR.DR exactly (the sections are free on R, DR, D2R: Wronskian -(i/8) eta^9); near omega the exponents follow the residual Z3 charge (k mod 6: (1, 1), (2, 3), or no 2-3 hierarchy); the SM seat's W72 Higgs mode is exactly eta^6 R, isotropic. A reduction to discrete exponents and one scale, not a number: tau and the coefficients stay free, and nothing computed holds tau (B1686). The comparison with measured masses is P-240, sealed first. 0 of 19.  
 `B1691_the_exponents_at_the_two_fixed_points/FINDINGS.md`
 

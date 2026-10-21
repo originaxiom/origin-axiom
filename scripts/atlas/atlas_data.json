@@ -12732,9 +12732,11 @@
     "amphichiral_cp",
     "wrt_quantum"
    ],
-   "refs": [],
+   "refs": [
+    "S160"
+   ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 21,
+   "obstacle_conf": 24,
    "status": "banked",
    "domain": "arithmetic"
   },

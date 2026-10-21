@@ -89,3 +89,14 @@ Feruglio, Gherardi, Romanino and Titov, modular invariant dynamics and fermion m
 - `verification/qseries.py` (exact series in q^{1/8} over ℚ(i)), `verification/the_exponents.py` → `the_exponents.json`,
   `verification/the_exponents_run.txt`; `verification/before_the_instrument/` (the exploration).
 - The lock: `tests/test_b1691_the_exponents_at_the_two_fixed_points.py`.
+
+> *Addendum 2026-10-21 (S160; P-240 assessed, no data read).* **The exponents alone predict no mass, because the
+> section's coefficients are free.** At weight 7/2, the lowest with a ∂²R component, a = α E₄R + β ∂²R, and the leading
+> coefficients (exact: R and ∂²R on v₊ at x⁻¹ are −½ and −1/96; ∂R·∂R and ∂²R·∂²R at x² are ¼ and −5/576) give
+> (m₁/m₃)/(m₂/m₃)² ∝ Im τ·|t r + r₂|³ / (|r|·|t − c₂₂/(2 d₁₁)|²) with t = α/β. Its pole (t = −5/288, where a·a's leading
+> coefficient vanishes) and its zero (t = −1/48, where |a|²'s does) are distinct, so the ratio takes every positive value:
+> six measured ratios against seven unknowns (|q| and one complex t per sector), and no inequality survives. A test needs
+> the section fixed (P-115). **The one parameter-free covariant direction with a massive second generation** is the
+> weight-3/2 section a = ∂R (the space is one-dimensional): m₁ = 0 and **m₂/m₃ = 18 |q|^½ + …** (exact leading
+> coefficient; direct evaluation 18.0058, 18.00001, 18.0000000 at Im τ = 3, 5, 7). Two sectors with that Higgs would have
+> equal m₂/m₃. `verification/the_coefficients_are_free.py` → `the_coefficients_are_free.json`. No comparison was made.

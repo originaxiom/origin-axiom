@@ -17546,3 +17546,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - Disclosed in the arc and in P-240: while planning, main recalled measured mass log-ratios from memory beside hand
   estimates of the exponents. No computation touched data.
 - **Landing suite.** 116 files (B1691's lock, every arc lock and the corpus-scanning tests), 2031 passed, 1 failed, 3 skipped (19:06, -n 8); the one failure is B805's attachment lock (P-239, registered at S158)
+
+## 2026-10-21 — S160 P-240 ASSESSED WITHOUT DATA (B1691's addendum)
+
+- Before designing P-240's seal, main asked whether the comparison could test anything: at weight 7/2 the section's free
+  ratio spans every value of (m₁/m₃)/(m₂/m₃)² (computed exactly), so no seal was spent and no data were read.
+- The weight-3/2 section ∂R's constant, 18, found exactly and checked by direct evaluation.
+- **Landing suite.** 116 files (B1691's lock, every arc lock and the corpus-scanning tests), 2032 passed, 1 failed, 3 skipped (11:16, -n 8); the one failure is B805's attachment lock (P-239)

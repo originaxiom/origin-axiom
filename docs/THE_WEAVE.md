@@ -735,3 +735,6 @@ found with B1635's sealed instrument.
 - **What it is not.** Not a number: τ and the section's coefficients stay free, and nothing computed holds τ. The
   comparison with measured masses is sealed first (P-240).
 - **The SM seat's surface Higgs mode is η⁶R** (W72's coefficients reproduced exactly), so it is isotropic.
+- **The exponents alone predict no mass (P-240, assessed without data).** The section's coefficients are free: at weight
+  7/2 the ratio (m₁/m₃)/(m₂/m₃)² takes every positive value. The one parameter-free covariant direction with a massive
+  second generation is the weight-3/2 section ∂R: m₁ = 0 and m₂/m₃ = 18|q|^½ + …. What fixes the section is P-115.
