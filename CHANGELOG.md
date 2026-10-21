@@ -1,5 +1,12 @@
 # Changelog
 
+## Main's B1698 seal read (ledger)
+
+- **B1698's preregistration** (main, sealed; P-248): the tick's eight order-5 lines with the end-data Higgs. Rowed as
+  read; no expectation. Relay §193's weave note applies: the lines are one thread's, and the weave form takes every
+  thread's fixed lines.
+- **Surfaces.** One ledger row. 0 of 19.
+
 ## Main's S169 read: a harvest list for W111–W119 (relay §194)
 
 - **B1697** (main, the scan for misses, at the owner's order): it confirms this seat's W68 G1, W63, W51 and W62 at their

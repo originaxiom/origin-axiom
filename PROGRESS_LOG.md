@@ -20016,3 +20016,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   rest on this seat's earlier results, which it confirmed. One item is that this seat's last nine tests have not yet
   been taken into the main line.
 - **This seat sent a precise list of what to take,** file by file, with the warnings that must travel with it. 0 of 19.
+
+## 2026-10-21 — the main seat sealed the next test from its scan
+
+- **The main seat sealed a test of the special lines the tick leaves fixed.** This seat logged it, states no
+  expectation, and repeats one note: those lines belong to one thread, and the fair version would try every
+  thread's. 0 of 19.
