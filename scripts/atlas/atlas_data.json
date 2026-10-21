@@ -12977,6 +12977,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1702": {
+   "slug": "the other cusp shapes",
+   "motifs": [
+    "metallic",
+    "golden",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B485",
+    "B675",
+    "H1",
+    "H2",
+    "H3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "open",
+   "domain": "arithmetic"
+  },
   "B170": {
    "slug": "relational scale leap",
    "motifs": [

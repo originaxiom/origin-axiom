@@ -1,5 +1,16 @@
 # Changelog
 
+## S174 THE OTHER CUSP SHAPES (B1702, NEGATIVE as sealed; P-249) (2026-10-22)
+
+- **The sealed test** (`f51ab2718`, sha256 8f26df36; outputs committed unread at `df0737fa1`): τ at the silver word
+  state's cusp shape 2i (B675) or the golden word's spin end curve ½ + √3 i (B1483), the end-data Higgs ∂R, the canonical
+  end, 576 lines × 6 choices each. H1 FAILS (best worst factor 8.9 at 2i, 19.4 at ½ + √3 i; the up quarks' m₂/m₃ ≥ 0.0134
+  on every row against 0.0037), H2 FAILS (24.7% of random hierarchies fit as well), H3 FAILS (χ² 593). With B1696, no
+  word-state cusp shape tested selects τ in this frame; 4√3 i lies beyond the canonical end. Routed into B738's kill graph.
+- **Register.** P-249 DONE. FLOOR 252.
+- **Landing suite.** 117 files (B1702's lock, every arc lock and the corpus-scanning tests), 2044 passed, 1 failed, 3 skipped (4:50, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S173 W63 ON MAIN (B1701, PROVED; P-246) (2026-10-22)
 
 - **W63 reproduced on main's own triplet** (min m = ½ over real directions, m(e_k) = ½ on the axis, 0.565741 for every

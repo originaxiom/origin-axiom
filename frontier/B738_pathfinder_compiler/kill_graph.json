@@ -11697,5 +11697,28 @@
    "hypotheses": "one strength as fixed before it was computed; a grid of lines"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1702",
+  "claim_killed": "That the silver word state's cusp shape 2i or the golden word's spin end curve 1/2 + sqrt3 i, as the weave's tau, with the end-data Higgs and any line of order dividing 24, reproduces the six charged-fermion ratios.",
+  "kill_form": "Sealed (B1702; f51ab2718): best worst factor 8.9 (2i) and 19.4 (1/2 + sqrt3 i); the up quarks' m2/m3 >= 0.0134 against 0.0037 on every row; 24.7% of random hierarchies fit as well; chi2 593.",
+  "hatch": "a tau near Im 3 from another principle; the other word states' shapes (B1483's 68 words) as a sealed census with its look-elsewhere count",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-22), for tests/test_b833_negative_routing.py",
+  "note": "With B1696 (2sqrt3 i), no word-state cusp shape tested selects tau in this frame; 4sqrt3 i lies beyond the canonical end (m2/m3 ~ 6e-9 there at large L).",
+  "faces_consulted": [
+   "B1697",
+   "B1696",
+   "B675",
+   "B1483"
+  ],
+  "fact_computed": "6912 rows at two taus and their comparison with its calibration, by the sealed instruments (df0737fa1)",
+  "scope": {
+   "frame": "the fibre given Lambda; B1656's coupling at the canonical end; DR",
+   "object": "six ratios at two cusp-shape taus",
+   "reach": "class",
+   "hypotheses": "a grid of lines"
+  },
+  "weave_or_thread": "weave"
  }
 ]

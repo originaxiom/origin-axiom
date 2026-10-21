@@ -800,3 +800,7 @@ found with B1635's sealed instrument.
   copy the line leaves untwisted). On the line itself, in B1656's twisted coupling, that Higgs makes every sector exactly
   0 : 1 : 1 on all 27 lines with 6w in the lattice, every τ and both ends; the untied units do not. The state W60 and W62
   single out therefore gives degenerate heavy pairs; the hierarchy needs the untied covariant ∂R.
+- **No word-state cusp shape tested selects τ (B1702, sealed, NEGATIVE).** At the silver word state's cusp shape 2i and the
+  golden word's spin end curve ½ + √3 i no line of order dividing 24 brings the six ratios within a factor of 3 (best
+  8.9): at Im τ ≈ 2 the up quarks' hierarchy is out of reach (m₂/m₃ ≥ 0.0134). With B1696 (2√3 i), the record's cusp
+  shapes do not supply the τ the up quarks need (Im τ ≈ 3).

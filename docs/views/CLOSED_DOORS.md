@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**828 recorded closures — of which 661 are CLASSIFIED by mechanism and
+**829 recorded closures — of which 662 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -111,6 +111,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed (B1696; 1a3f6e2aa): the best of 97 lines x 6 discrete choices misses by a factor 3.56 (five of six ratios about three times too small), chi2 317, and 26.8% of 4000 random hierarchical targets fit as well (the calibration sealed in).` | 1 |  |
 | `Sealed (B1698; 9c2a50039): best worst factor 2.33 (alpha = 2/5), but 1.675% of 4000 random hierarchies fit as well against the sealed 1%; chi2 162; on these lines the down quarks and leptons coincide.` | 1 |  |
 | `Sealed (B1699; 8ac889d14): the strength has no maximum (it rises to the cusp) and one non-elliptic critical point, a saddle at tau = 0.2754 + 0.9613i; there m2/m3 >= 0.31 in every sector on all 576 lines (worst factor 225; 32% of random hierarchies fit as well).` | 1 |  |
+| `Sealed (B1702; f51ab2718): best worst factor 8.9 (2i) and 19.4 (1/2 + sqrt3 i); the up quarks' m2/m3 >= 0.0134 against 0.0037 on every row; 24.7% of random hierarchies fit as well; chi2 593.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

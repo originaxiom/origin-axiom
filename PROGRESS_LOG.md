@@ -17648,3 +17648,9 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   0 : 1 : 1 everywhere; the untied units as control. W63's harvest row annotated (verified; its 0 : 1 : 2 corrected on the
   line). P-246 DONE.
 - **Landing suite.** 117 files (B1701's lock, every arc lock and the corpus-scanning tests), 2043 passed, 1 failed, 3 skipped (6:05, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-22 — S174 THE OTHER CUSP SHAPES (B1702)
+
+- B1702 sealed at f51ab2718 (the instrument import-tested before the seal); outputs committed unread at df0737fa1 and read
+  once: H1, H2, H3 fail (best 8.9; the up quarks' floor 0.0134). NEGATIVE; routed. P-249 DONE.
+- **Landing suite.** 117 files (B1702's lock, every arc lock and the corpus-scanning tests), 2044 passed, 1 failed, 3 skipped (4:50, -n 8); the one failure is B805's attachment lock (P-239)

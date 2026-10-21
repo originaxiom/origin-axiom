@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1430** |
-| words of findings prose | **1,144,130** |
-| test lock files referenced | **847** |
-| arcs carrying an authored verdict | **1430** (100.0 %) |
-| recorded closures | **828** (661 classified, 167 routed-only) |
+| research arcs with findings | **1431** |
+| words of findings prose | **1,144,766** |
+| test lock files referenced | **848** |
+| arcs carrying an authored verdict | **1431** (100.0 %) |
+| recorded closures | **829** (662 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 974 |
-| NEGATIVE | 352 |
+| NEGATIVE | 353 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 98 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 99 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 W63 ON MAIN (P-246; computed, no data): the SM seat's W63 cells reproduce on main's own triplet (min m = 1/2 over real directions, m(e_k) = 1/2 on the axis, 0.565741 for every unit at omega, m = 0 on the cone); and with the Higgs's direction tied to the line as W63 ties it (the unit C_{p*}, p* = -3w), on B1656's twisted coupling at the canonical end, every sector's spectrum is exactly 0 : 1 : 1 (m2/m3 = 1 to 9e-16, m1/m3 = 0 to 2.4e-16) on all 27 lines with 6w in the lattice, every tau, both horocycles and every up reading, while the untied units never degenerate (control): the line-tied Higgs gives no second-to-third hierarchy at all -- W63's 0 : 1 : 2 holds untwisted only -- and the state W60 and W62 single out gives degenerate heavy pairs. 0 of 19.  
 `B1701_w63_on_main/FINDINGS.md`
 
-**NEGATIVE — `B1699`** (987 words, 1 locks)  
-THE COUPLING'S STRENGTH AND TAU (P-247; sealed 8ac889d14, sha256 317b4d67; NEGATIVE as sealed -- S0 holds, H1, H2, H3 fail; outputs committed unread at cd9a9f963): this frame's own Yukawa strength y s1(Y)^2 (B1645's covariant coupling, the Higgs DR; modular-invariant to 1e-15) has no maximum -- it rises to the cusp, where DR's unit of end data drives it -- and one non-elliptic critical point, a saddle on the arc at tau = 0.2754 + 0.9613i; there no line of order dividing 24 gives any hierarchy (m2/m3 >= 0.31 in every sector; best worst factor 225; 32% of random hierarchies fit as well; chi2 4823). The strength does not select tau where the masses are; W51's peaks (sm:W51) belong to cusp-form couplings, which this frame's Higgs is not. 0 of 19.  
-`B1699_the_coupling_strength_and_tau/FINDINGS.md`
+**NEGATIVE — `B1702`** (636 words, 1 locks)  
+THE OTHER CUSP SHAPES (P-249; sealed f51ab2718, sha256 8f26df36; NEGATIVE as sealed -- H1, H2, H3 fail; outputs committed unread at df0737fa1): with the weave's tau at the silver word state's cusp shape 2i (B675) or the golden word's spin end curve 1/2 + sqrt3 i (B1483), the end-data Higgs DR, the canonical end and any of 576 lines, no choice brings the six ratios within a factor of 3 (best 8.9 at 2i, 19.4 at 1/2 + sqrt3 i; chi2 593; 24.7% of random hierarchies fit as well); the up quarks' m2/m3 stays >= 0.0134 (measured 0.0037). With B1696, no word-state cusp shape tested selects tau in this frame. 0 of 19.  
+`B1702_the_other_cusp_shapes/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

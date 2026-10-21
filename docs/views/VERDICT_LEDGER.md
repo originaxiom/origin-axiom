@@ -5,7 +5,7 @@
 
 # Arc verdict ledger (generated)
 
-1430 of 1430 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1431 of 1431 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
 ## PROVED (974)
@@ -987,7 +987,7 @@
 | `B1700` | THE HIGGS'S END DATA IS THE UNIT (P-245; exact, no data): FK10's tagged unit as W46 defines it (n uniform units; B1641's index -chi_{3/2+12n}(rho_T), rho_T = rho_R by B1634) makes the weight-3/2 sections of rho_T a three-dimensional space -- W46's three -- spanned by DR, E4^2(E4 DR + E6 R/12)/Delta and E4 E6 a0/Delta; DR lies in it and is its only member holomorphic off v+ (the coupling triplet R's own end condition); only DR gives a second-to-third hierarchy at the cusp (m2/m3 ~ |q|^(1/2); exponent 0 for the other members and generic ones). So the hierarchy's end data are FK10's unit, not a second postulate, but the unit does not select DR: the hierarchy arcs hold given Lambda, the unit and H-cov in R's own module. 0 of 19. |  | 1 |
 | `B1701` | W63 ON MAIN (P-246; computed, no data): the SM seat's W63 cells reproduce on main's own triplet (min m = 1/2 over real directions, m(e_k) = 1/2 on the axis, 0.565741 for every unit at omega, m = 0 on the cone); and with the Higgs's direction tied to the line as W63 ties it (the unit C_{p*}, p* = -3w), on B1656's twisted coupling at the canonical end, every sector's spectrum is exactly 0 : 1 : 1 (m2/m3 = 1 to 9e-16, m1/m3 = 0 to 2.4e-16) on all 27 lines with 6w in the lattice, every tau, both horocycles and every up reading, while the untied units never degenerate (control): the line-tied Higgs gives no second-to-third hierarchy at all -- W63's 0 : 1 : 2 holds untwisted only -- and the state W60 and W62 single out gives degenerate heavy pairs. 0 of 19. |  | 1 |
 
-## NEGATIVE (352)
+## NEGATIVE (353)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1343,6 +1343,7 @@
 | `B1696` | TAU IS THE STATE'S OWN CUSP SHAPE (P-244; sealed 1a3f6e2aa, sha256 6481d943; NEGATIVE as sealed -- H1, H2, H3 all fail; output committed unread at 31f956e26): the sweep at the owner's question found B357's universal tau (the figure-eight's cusp shape 2 sqrt(-3), governing every E6 block) never identified with the weave's fibre modulus; with tau = 2 sqrt3 i, the unique section, the canonical end and one line, the six charged-fermion ratios come out about three times too small (best worst factor 3.56; chi2 317) and no better than a random hierarchy (26.8% of 4000 fit as well): the cusp shape does not select tau in this frame. 0 of 19. |  | 1 |
 | `B1698` | THE ORDER-5 LINES (P-248; sealed 9c2a50039, sha256 6cb3ac13; NEGATIVE as sealed -- H1 holds, H2 fails narrowly, H3 fails; output committed unread at 9e5e535bc): on the lines the tick fixes up to sign (det(LR + I) = 5) the end-data Higgs brings all six charged-fermion ratios within a factor of 2.33 with one continuous number (best: alpha = 2/5, Re tau = 1/2, Im tau = 3.1, L_max, the conjugate Higgs for the up quarks), but 1.675% of random hierarchies fit as well against the sealed 1% bar (chi2 162), and on these lines the down quarks and the leptons come out identical, which the data's d-e split forbids: the tick's lines do not select the line in this frame; the near miss recorded as such. After the seal (labelled): 6Y mod 5 is constant on SU(5)'s multiplets, so the order-5 lines give minimal SU(5)'s Y_e = Y_d^T exactly (and order-4 lines Pati-Salam's Y_e = Y_d); computed on N = 2-12, down and leptons coincide exactly when the line's order divides 4 or 5 -- a d-e split needs a line of another order. 0 of 19. |  | 1 |
 | `B1699` | THE COUPLING'S STRENGTH AND TAU (P-247; sealed 8ac889d14, sha256 317b4d67; NEGATIVE as sealed -- S0 holds, H1, H2, H3 fail; outputs committed unread at cd9a9f963): this frame's own Yukawa strength y s1(Y)^2 (B1645's covariant coupling, the Higgs DR; modular-invariant to 1e-15) has no maximum -- it rises to the cusp, where DR's unit of end data drives it -- and one non-elliptic critical point, a saddle on the arc at tau = 0.2754 + 0.9613i; there no line of order dividing 24 gives any hierarchy (m2/m3 >= 0.31 in every sector; best worst factor 225; 32% of random hierarchies fit as well; chi2 4823). The strength does not select tau where the masses are; W51's peaks (sm:W51) belong to cusp-form couplings, which this frame's Higgs is not. 0 of 19. |  | 1 |
+| `B1702` | THE OTHER CUSP SHAPES (P-249; sealed f51ab2718, sha256 8f26df36; NEGATIVE as sealed -- H1, H2, H3 fail; outputs committed unread at df0737fa1): with the weave's tau at the silver word state's cusp shape 2i (B675) or the golden word's spin end curve 1/2 + sqrt3 i (B1483), the end-data Higgs DR, the canonical end and any of 576 lines, no choice brings the six ratios within a factor of 3 (best 8.9 at 2i, 19.4 at 1/2 + sqrt3 i; chi2 593; 24.7% of random hierarchies fit as well); the up quarks' m2/m3 stays >= 0.0134 (measured 0.0037). With B1696, no word-state cusp shape tested selects tau in this frame. 0 of 19. |  | 1 |
 
 ## OPEN (93)
 
