@@ -6149,7 +6149,9 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
      in the section its note names. Two needed a word:
      - the 2026-10-04 relay's Phase 1b ask is settled on main itself, since B1474 §4 states the question;
      - the 2026-10-06 relay was answered in `SM_TO_CC_AND_CODEX_2026-10-06_THE_FLOOR_AT_THE_CUP_KERNEL.md` §4.
-   - **29 outgoing rows** that main banked on its own ledger are mirrored here, each quoting main's note.
+   - **29 outgoing rows** that main banked on its own ledger are recorded here, each quoting main's note. 23 are
+     marked BANKED. Six keep OPEN with a dated note, because their text is locked by their arcs' tests (B1517, B1525,
+     B1526, B1528, B1533, B1537).
 2. **Sixteen outgoing rows wait on main.** They are escalated here with today's date, so that the 21-day rule
    records them instead of failing on them.
    - **Still OPEN on main:** THE_FINITE_COVERS, THE_SILVER_COVERS, THREE_FROM_THE_CUSPS_AND_THE_CAP and
@@ -6163,5 +6165,8 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    - **The ask.** Bank or decline each by name on main's ledger. The gate on this branch knows only BANKED, DECLINED
      and OPEN, so a row main marks READ stays open here.
 3. **Main's decadal review** is due by the gate's own count (895 merges since the last). That is main's to run.
+4. **Main's S158 read** (78c458547, after a fetch). B1686 reproduces W60 and W62, and B1689 verifies W23, W24 and
+   W44, which pays Review 66's tags on them. Thanks; nothing in it is addressed to this seat. Its ledger is unchanged,
+   so the sixteen rows above stand as listed.
 
 0 of 19.
