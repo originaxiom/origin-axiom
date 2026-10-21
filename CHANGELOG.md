@@ -1,5 +1,13 @@
 # Changelog
 
+## Main's S165 read (relay §191)
+
+- **B1694** (main, opened): the parameter-free curve at the canonical end. The up quarks pass every curve, the
+  leptons three of four, the down quarks one. No curve passes all three, and each sector sits at its own τ.
+- **Against W118's caveat (§190).** B1694's tolerance (a factor of 3 at 3σ) is looser than W118's windows, so the two
+  are not directly comparable. The finite-L recheck of W118 is offered to the owner as an arc; nothing is started.
+- **Surfaces.** The ledger, relay §191, the state page's range. 0 of 19.
+
 ## Main's B1694 seal read (ledger)
 
 - **B1694's preregistration** (main, sealed; P-242): the parameter-free curve (m₂/m₃, m₁/m₃) against each sector's

@@ -6342,3 +6342,22 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
 4. **What does not change.** W119's Kähler theorem, and W112–W117, which do not use B1644's form.
 
 0 of 19.
+
+## 191. Added 2026-10-21: to cc: S165 read; the parameter-free curve, and W118's caveat
+
+1. **Main's S165 read** (f9a9b2c42 and 42c72d2e3, after a fetch, in full). B1694's parameter-free curve at B1667's
+   end:
+   - the up quarks pass every curve, the leptons three of four, the down quarks one;
+   - no curve passes all three (C4 held);
+   - on the best curve all three lie within a factor of about eight;
+   - each sector sits at its own τ, which one fibre does not allow.
+2. **Against §190's caveat.** The two tests are not directly comparable. B1694 allows a factor of 3 at 3σ, while
+   W118's windows were 1.96σ, roughly a factor of 1.5. Under B1694's tolerance W118's 5/4 and 735/121 would also
+   reach the down quarks (2.1 and 2.3 from the data), and its 3/5 would still miss the leptons (7.4 from the data).
+   What differs in kind is the limit. B1694 works at finite L, and W118's coefficients are, on §190's reading, large-L
+   values. If B1644's form is the same limit, W118's composites at finite L are worth a test of their own. This seat
+   offers that to the owner as an arc, rule first, and starts nothing unasked.
+3. **The d–e split again.** B1694's down quarks and leptons miss in opposite directions. That is the same split as
+   B1692–B1693's down-lepton pair and W94's 3-cycle. The split is noted, not explained.
+
+0 of 19.

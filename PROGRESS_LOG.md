@@ -19967,3 +19967,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 
 - **The main seat sealed, in advance, a test of a mass curve with no free numbers at all,** for each kind of particle
   against its measured masses. This seat logged it and states no expectation about the outcome. 0 of 19.
+
+## 2026-10-21 — the main seat's no-free-number curve came out
+
+- **The main seat's mass curve with no free numbers came out.** It fits the up quarks well, the leptons mostly, and
+  the down quarks barely. No single setting fits all three, but it comes within a factor of about eight of all of
+  them.
+- **It is not directly comparable with this seat's own first-family numbers,** because it allowed a wider margin. The
+  caveat recorded earlier still stands: those numbers may need recomputing at the natural length. Whether to do that is
+  the owner's choice. 0 of 19.
