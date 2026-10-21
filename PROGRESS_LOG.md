@@ -19881,3 +19881,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Every message main sent this seat is now marked as answered,** with the place of the answer named.
 - **Most of this seat's messages to main were already accepted on main's side,** and that is now copied here.
 - **Sixteen still wait on main.** They are listed by name in a message to main, so none is lost. 0 of 19.
+
+## 2026-10-21 — the second test: can the particles' own pairs give the lightest family its mass?
+
+- **Every structure tried so far leaves the lightest family massless, or fixes its mass at the wrong size.**
+- **The next test builds the field from the particles themselves,** as pairs of the three families' own shapes, the
+  way the strong force builds its condensate.
+- **Some of these pairings give the lightest family a mass, with its size fixed by the shapes alone.** The test
+  compares that size with the measured one in each kind of particle.
+- **The rule and its predictions are fixed before the program exists.** 0 of 19.

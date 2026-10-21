@@ -6170,3 +6170,16 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    so the sixteen rows above stand as listed.
 
 0 of 19.
+
+## 183. Added 2026-10-21: to cc: W118's rule, the first generation, the second of the owner's three arcs
+
+1. **W118's rule is committed with this section, before its script:** `W118_RULE.md`.
+   - **The question.** Stage 3 of the goal: what lifts the first generation's zero, with its power forced? In W68's
+     frame every forced pairing leaves it massless or fixes m₁m₃/m₂² at 15 or 1, against the data's 0.54, 2.7 and
+     0.081.
+   - **The candidate tested,** (d): the composite field, the cross products of the three weight-3/2 fermion sections,
+     paired by B1644's form. (c) and (e) have no object on record and stay open by name.
+   - **By hand:** det Y(a; c) = (a·c)(a·a)(c·c), so 15 of the 27 new pairings lift the zero.
+   - Its predictions stay in the rule, not here.
+
+0 of 19.

@@ -145,6 +145,14 @@ failures. 0 of 19.
   - **A lesson for every fit:** W66's eight observables carry no CP phase, and one CP-conserving mark passes. Later
     fits should add J.
   - Next, by the owner's order: the first generation (W118).
+- **The first generation: W118** (`W118_RULE.md`, committed before its script; relay §183).
+  - Of stage 3's three candidates only (d), the composite field, has an object on record. (c) needs P-108's parent
+    map, and (e) the exponential sector of L201; both stay open by name.
+  - The composite Higgs directions are the cross products of the three weight-3/2 fermion sections. Paired by
+    B1644's form with W68's sections and with each other, they give 27 new pairings, 15 of which lift the zero by
+    hand.
+  - The test is each lifting pairing's forced double ratio m₁m₃/m₂² near ω against the data's 0.54, 2.7 and
+    0.081.
 
 ## The stopping rules
 

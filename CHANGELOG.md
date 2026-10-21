@@ -1,5 +1,13 @@
 # Changelog
 
+## W118's rule: the first generation, the second of the owner's three arcs (relay §183)
+
+- **The question.** What lifts the first generation's zero with its power forced? Of stage 3's three candidates, only
+  the composite field (d) has an object on record. The rule tests it in W68's frame near ω.
+- **The rule is committed before its script.** It fixes the composite directions, the 27 new pairings and which of
+  them lift the zero (by hand), the powers, the double ratio's windows from the data, the cells and their priors.
+- **Surfaces.** The rule, the goal page, relay §183, the ledger's relay row, and the state page. 0 of 19.
+
 ## The relay ledger reconciled (relay §182)
 
 - **Incoming.** The 30 rows from main to this seat are banked here as the receiving seat; each was read and answered
