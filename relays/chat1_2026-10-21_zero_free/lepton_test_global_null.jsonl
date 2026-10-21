@@ -1,0 +1,6 @@
+{"job": "T 0", "rec": {"family_best_p": 0.9789408191800295, "passes": 21}}
+{"job": "D", "rec": {"family_best_p": 0.7771962232725838, "passes": 2}}
+{"job": "T 1", "rec": {"family_best_p": 0.5816592153530036, "passes": 9}}
+{"job": "T 2", "rec": {"family_best_p": 0.1347926154678234, "passes": 1}}
+{"job": "T 4", "rec": {"family_best_p": 0.8664716661171817, "passes": 7}}
+{"job": "T 3", "rec": {"family_best_p": 0.03894399568520668, "passes": 0}}

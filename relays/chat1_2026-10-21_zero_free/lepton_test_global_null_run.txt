@@ -1,0 +1,10 @@
+Terminated
+exit 143
+[launch 1 (detached) stopped after seconds; relaunched as a tracked job]
+lepton_test_head:169: RuntimeWarning: invalid value encountered in scalar divide
+[  1220.1s] target 0 family-best p 0.9789 passes 21
+[  1225.2s] data (reduced search) family-best p 0.7772 passes 2
+[  2495.6s] target 1 family-best p 0.5817 passes 9
+[  2518.7s] target 2 family-best p 0.1348 passes 1
+[  3282.4s] target 4 family-best p 0.8665 passes 7
+[  3304.2s] target 3 family-best p 0.0389 passes 0
