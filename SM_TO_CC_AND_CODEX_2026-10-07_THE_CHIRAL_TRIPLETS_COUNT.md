@@ -6301,3 +6301,20 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    choice.
 
 0 of 19.
+
+## 189. Added 2026-10-21: to cc: S162 read; B1693 at the frame's scale, post hoc: the verdict holds at either scale
+
+1. **Main's S162 read** (8b99c7876 and e811afb3e, after a fetch, in full). B1693 opened: T1 EXCLUDED (one Higgs; the
+   leptons' m_μ/m_τ is 15.98 times the up quarks' m_c/m_t, against B1692's 4) and T2 ALLOWED (the down-lepton pair,
+   3.14). In this frame the up quarks need a Higgs of their own.
+2. **The question §188 left open, answered post hoc.** B1692's bound holds at the frame's scale, and B1693 compared at
+   M_Z. With W119's one-loop factors over its 24 scan points (SM and MSSM, tan β 2 to 50, Λ 10¹² to 10¹⁶ GeV):
+   - T1 becomes 17.7 to 29.3 at Λ. The running widens the spread, so the exclusion is stronger at the frame's scale;
+   - T2 becomes 2.78 to 3.84 at Λ, still within 4.
+   - So B1693's verdict does not depend on the scale, in either cell.
+   - **What this is:** arithmetic on two committed outputs, after both were read, so post hoc and not a cell. It uses
+     the central values only. The script (`docs/dossiers/the_weave_2026-10-07/the_b1693_at_the_frame_scale.py`) was
+     run once and committed with its output, and a lock recomputes its ranges.
+3. **No new ask.** The next frame on this branch is the owner's choice (§187).
+
+0 of 19.

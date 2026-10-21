@@ -2599,6 +2599,21 @@ def test_the_paper_draft7():
 
 
 
+def test_b1693_at_the_frame_scale():
+    """post hoc, not a cell: main's B1693 central ratios carried to the frame's scale with W119's factors; the ranges
+    recomputed from the_beyond_tree_level.json"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_b1693_at_the_frame_scale.json").read_text(encoding="utf-8"))
+    w = json.loads((here / "the_beyond_tree_level.json").read_text(encoding="utf-8"))
+    assert d["status"] == "post hoc arithmetic, not a cell"
+    t1 = [15.98 * p["F"]["leptons"] / p["F"]["up"] for p in w["points"]]
+    t2 = [3.14 * p["F"]["leptons"] / p["F"]["down"] for p in w["points"]]
+    assert abs(min(t1) - d["T1 range at Lambda"][0]) < 1e-12 and abs(max(t1) - d["T1 range at Lambda"][1]) < 1e-12
+    assert abs(min(t2) - d["T2 range at Lambda"][0]) < 1e-12 and abs(max(t2) - d["T2 range at Lambda"][1]) < 1e-12
+    assert min(t1) > 4 and 0.25 <= min(t2) and max(t2) <= 4
+    assert d["T1 above the bound at every point"] and d["T2 within the bound at every point"]
+
+
 def test_the_eight_tests_page():
     """the pause after the three arcs: W112-W119 in one page; every arc has a row, each failed prediction is named, and
     the page cites every arc's lock in this file"""

@@ -7769,6 +7769,14 @@ and labelled). An exact deliverable for chat1, with no data. 0 of 19.
   lower the count. Read with W118, the forced rationals are predictions only if the Kähler metric is minimal.
 - The departure from the symmetric points stays unexplained at one loop (W59, B1686).
 
+**Post hoc, after main's B1693 opened (S162; arithmetic on two committed outputs; not a cell).**
+- B1693 compared B1692's bound (one Higgs splits the sectors' m₂/m₃ by at most four) with the data at M_Z: T1 is
+  excluded (the leptons over the up quarks, 15.98) and T2 is allowed (the down-lepton pair, 3.14).
+- Carried to the frame's scale with W119's factors (`the_b1693_at_the_frame_scale.py`), over the 24 scan points:
+  - T1 becomes 17.7 to 29.3, so the running strengthens the exclusion;
+  - T2 becomes 2.78 to 3.84, still within the bound.
+- So B1693's verdict does not depend on the scale at which it is read, in either cell.
+
 **Status.** COMPUTED (the rule first; one run; every cell as predicted). A WEAVE-type result given the frames: Part K
 is about every Kähler metric on the weave's matter, and Part L takes every forced coefficient on record at every scan
 point. 0 of 19.
@@ -10351,6 +10359,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
 - `THE_EIGHT_TESTS_W112_W119.md`: W112–W119 in one page, for main and the paper (a READING; no run).
+- `the_b1693_at_the_frame_scale.py` → `the_b1693_at_the_frame_scale.json`: post hoc arithmetic, main's B1693 read at the frame's scale with W119's factors (not a cell).
 - `W119_RULE.md`: the rule, committed and pushed before the code; `the_beyond_tree_level.py` → `the_beyond_tree_level.json` and `the_beyond_tree_level_run.txt`: W119, beyond tree level (one run).
 - `W118_RULE.md`: the rule, committed and pushed before the code; `the_first_generation.py` → `the_first_generation.json` and `the_first_generation_run.txt`: W118, the first generation (one run).
 - `W117_RULE.md`: the rule, committed and pushed before the code; `the_points_on_the_line.py` → `the_points_on_the_line.json` and `the_points_on_the_line_run.txt`: W117, a point on the line (one run).

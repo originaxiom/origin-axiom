@@ -19941,3 +19941,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The main seat sealed, in advance, how it will compare its new bound with the measured masses.** This seat logged
   the seal, noted that it came before this seat's last message reached the shared record, and states no expectation
   about the outcome. 0 of 19.
+
+## 2026-10-21 — the main seat's comparison came out, and the scale does not change it
+
+- **The main seat's comparison came out:** one Higgs field cannot give all three kinds of particle their measured
+  middle-to-heaviest mass ratios, but it can for the down quarks and the charged leptons together.
+- **This seat checked, after the fact, whether reading the comparison at the very high scale instead of ours changes
+  it.** It does not. The excluded case moves further from allowed, and the allowed case stays allowed. 0 of 19.

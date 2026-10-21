@@ -1,0 +1,188 @@
+{
+ "status": "post hoc arithmetic, not a cell",
+ "inputs": {
+  "T1 at M_Z": 15.98,
+  "T2 at M_Z": 3.14,
+  "bound": 4.0
+ },
+ "T1 range at Lambda": [
+  17.704231110573787,
+  29.300311544304133
+ ],
+ "T2 range at Lambda": [
+  2.778575513946049,
+  3.84369645560016
+ ],
+ "T1 above the bound at every point": true,
+ "T2 within the bound at every point": true,
+ "points": [
+  {
+   "model": "SM",
+   "tan beta": null,
+   "Lambda": 1000000000000.0,
+   "T1 at Lambda (leptons over up)": 17.704231110573787,
+   "T2 at Lambda (leptons over down)": 2.8340638567154364
+  },
+  {
+   "model": "SM",
+   "tan beta": null,
+   "Lambda": 100000000000000.0,
+   "T1 at Lambda (leptons over up)": 17.89263987082768,
+   "T2 at Lambda (leptons over down)": 2.8041971700281794
+  },
+  {
+   "model": "SM",
+   "tan beta": null,
+   "Lambda": 1e+16,
+   "T1 at Lambda (leptons over up)": 18.057481188242114,
+   "T2 at Lambda (leptons over down)": 2.778575513946049
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 2,
+   "Lambda": 1000000000000.0,
+   "T1 at Lambda (leptons over up)": 24.65137511783637,
+   "T2 at Lambda (leptons over down)": 3.6285854886511903
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 2,
+   "Lambda": 100000000000000.0,
+   "T1 at Lambda (leptons over up)": 26.810841213179394,
+   "T2 at Lambda (leptons over down)": 3.7315978411787296
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 2,
+   "Lambda": 1e+16,
+   "T1 at Lambda (leptons over up)": 29.300311544304133,
+   "T2 at Lambda (leptons over down)": 3.84369645560016
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 5,
+   "Lambda": 1000000000000.0,
+   "T1 at Lambda (leptons over up)": 21.327371429810384,
+   "T2 at Lambda (leptons over down)": 3.4592146651516105
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 5,
+   "Lambda": 100000000000000.0,
+   "T1 at Lambda (leptons over up)": 22.10192694532744,
+   "T2 at Lambda (leptons over down)": 3.500603525678157
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 5,
+   "Lambda": 1e+16,
+   "T1 at Lambda (leptons over up)": 22.78656929601769,
+   "T2 at Lambda (leptons over down)": 3.536359255502714
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 10,
+   "Lambda": 1000000000000.0,
+   "T1 at Lambda (leptons over up)": 20.99113895483559,
+   "T2 at Lambda (leptons over down)": 3.446928551028981
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 10,
+   "Lambda": 100000000000000.0,
+   "T1 at Lambda (leptons over up)": 21.67995624162299,
+   "T2 at Lambda (leptons over down)": 3.4842534376169083
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 10,
+   "Lambda": 1e+16,
+   "T1 at Lambda (leptons over up)": 22.27905446005709,
+   "T2 at Lambda (leptons over down)": 3.5159570583140716
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 20,
+   "Lambda": 1000000000000.0,
+   "T1 at Lambda (leptons over up)": 20.85586603378613,
+   "T2 at Lambda (leptons over down)": 3.464668812867486
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 20,
+   "Lambda": 100000000000000.0,
+   "T1 at Lambda (leptons over up)": 21.514523285874485,
+   "T2 at Lambda (leptons over down)": 3.500926699729287
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 20,
+   "Lambda": 1e+16,
+   "T1 at Lambda (leptons over up)": 22.08513102459226,
+   "T2 at Lambda (leptons over down)": 3.531216855513459
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 30,
+   "Lambda": 1000000000000.0,
+   "T1 at Lambda (leptons over up)": 20.73552352688886,
+   "T2 at Lambda (leptons over down)": 3.5050486827387437
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 30,
+   "Lambda": 100000000000000.0,
+   "T1 at Lambda (leptons over up)": 21.3676426553809,
+   "T2 at Lambda (leptons over down)": 3.5410193375686165
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 30,
+   "Lambda": 1e+16,
+   "T1 at Lambda (leptons over up)": 21.913822689439396,
+   "T2 at Lambda (leptons over down)": 3.5701515708669103
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 40,
+   "Lambda": 1000000000000.0,
+   "T1 at Lambda (leptons over up)": 20.557158515715784,
+   "T2 at Lambda (leptons over down)": 3.575361264894613
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 40,
+   "Lambda": 100000000000000.0,
+   "T1 at Lambda (leptons over up)": 21.14176458724695,
+   "T2 at Lambda (leptons over down)": 3.6116649810298553
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 40,
+   "Lambda": 1e+16,
+   "T1 at Lambda (leptons over up)": 21.641603316320513,
+   "T2 at Lambda (leptons over down)": 3.639049791101916
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 50,
+   "Lambda": 1000000000000.0,
+   "T1 at Lambda (leptons over up)": 20.263446866556862,
+   "T2 at Lambda (leptons over down)": 3.703067414880509
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 50,
+   "Lambda": 100000000000000.0,
+   "T1 at Lambda (leptons over up)": 20.73711834629337,
+   "T2 at Lambda (leptons over down)": 3.7429769087856943
+  },
+  {
+   "model": "MSSM",
+   "tan beta": 50,
+   "Lambda": 1e+16,
+   "T1 at Lambda (leptons over up)": 21.113417664663167,
+   "T2 at Lambda (leptons over down)": 3.767705176687465
+  }
+ ]
+}

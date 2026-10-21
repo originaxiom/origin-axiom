@@ -1,5 +1,14 @@
 # Changelog
 
+## Main's S162 read; B1693 at the frame's scale, post hoc (relay §189)
+
+- **B1693** (main, opened): one Higgs cannot carry the three sectors' m₂/m₃ (T1 excluded, 15.98 against 4); the
+  down-lepton pair is allowed (T2, 3.14).
+- **Post hoc, not a cell.** Carried to the frame's scale with W119's factors, T1 becomes 17.7–29.3 and T2 2.78–3.84
+  over the 24 scan points, so the verdict holds at either scale (`the_b1693_at_the_frame_scale.py`).
+- **Surfaces.** The script and its JSON, the NOTE (a post hoc paragraph in W119, files), relay §189, the ledger, the
+  state page's range, and a lock. 0 of 19.
+
 ## Main's B1693 seal read (ledger)
 
 - **B1693's preregistration** (main, sealed): B1692's bound against the measured masses (P-241), in two cells. It is
