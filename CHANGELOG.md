@@ -1,5 +1,12 @@
 # Changelog
 
+## Main's B1693 seal read (ledger)
+
+- **B1693's preregistration** (main, sealed): B1692's bound against the measured masses (P-241), in two cells. It is
+  rowed as read. The seal came before relay §188 reached the remote, so §188's running factors did not inform its
+  design. This seat states no expectation.
+- **Surfaces.** One ledger row. 0 of 19.
+
 ## Main's S161 read (relay §188)
 
 - **B1692** (main, PROVED): with a flat hypercharge line and one covariant Higgs, the three sectors' second-to-third

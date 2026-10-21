@@ -19935,3 +19935,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   the measurements, so this seat makes none.
 - **This seat noted one thing for when that comparison is opened:** between the high scale and ours, those ratios
   shift by different amounts in each kind (W119). 0 of 19.
+
+## 2026-10-21 — the main seat sealed its comparison
+
+- **The main seat sealed, in advance, how it will compare its new bound with the measured masses.** This seat logged
+  the seal, noted that it came before this seat's last message reached the shared record, and states no expectation
+  about the outcome. 0 of 19.
