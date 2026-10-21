@@ -12883,6 +12883,27 @@
    "status": "open",
    "domain": "physics"
   },
+  "B1699": {
+   "slug": "the coupling strength and tau",
+   "motifs": [
+    "coupling",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "H1",
+    "H2",
+    "H3",
+    "S0"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 10,
+   "status": "open",
+   "domain": "arithmetic"
+  },
   "B169": {
    "slug": "isomonodromy flow",
    "motifs": [

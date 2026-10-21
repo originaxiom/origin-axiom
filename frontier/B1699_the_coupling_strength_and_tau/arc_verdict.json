@@ -1,0 +1,32 @@
+{
+  "id": "B1699",
+  "verdict": "NEGATIVE",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1697",
+    "B1645",
+    "B1646",
+    "B1691",
+    "B1656",
+    "B1667",
+    "B1698",
+    "B1684"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [
+    "sm:W51"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the fibre given Lambda; B1645's covariant coupling with the end-data Higgs DR for the strength; B1656's four-channel coupling at B1667's canonical end for the masses",
+    "object": "the strength y s1(Y)^2 over the fundamental domain; the six charged-fermion ratios at its selected tau",
+    "reach": "class",
+    "hypotheses": "one strength (the top Yukawa's, for DR) as fixed before it was computed; a 24 x 24 grid of lines"
+  },
+  "claim_one_line": "THE COUPLING'S STRENGTH AND TAU (P-247; sealed 8ac889d14, sha256 317b4d67; NEGATIVE as sealed -- S0 holds, H1, H2, H3 fail; outputs committed unread at cd9a9f963): this frame's own Yukawa strength y s1(Y)^2 (B1645's covariant coupling, the Higgs DR; modular-invariant to 1e-15) has no maximum -- it rises to the cusp, where DR's unit of end data drives it -- and one non-elliptic critical point, a saddle on the arc at tau = 0.2754 + 0.9613i; there no line of order dividing 24 gives any hierarchy (m2/m3 >= 0.31 in every sector; best worst factor 225; 32% of random hierarchies fit as well; chi2 4823). The strength does not select tau where the masses are; W51's peaks (sm:W51) belong to cusp-form couplings, which this frame's Higgs is not. 0 of 19.",
+  "weave_or_thread": "weave (every charged sector on one fibre at the selected tau)"
+}

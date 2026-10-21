@@ -11674,5 +11674,28 @@
    "hypotheses": "a grid in Im tau"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1699",
+  "claim_killed": "That this frame's own coupling strength (y s1(Y)^2 for B1645's covariant coupling with the Higgs DR) selects a tau at which the six charged-fermion ratios come out.",
+  "kill_form": "Sealed (B1699; 8ac889d14): the strength has no maximum (it rises to the cusp) and one non-elliptic critical point, a saddle at tau = 0.2754 + 0.9613i; there m2/m3 >= 0.31 in every sector on all 576 lines (worst factor 225; 32% of random hierarchies fit as well).",
+  "hatch": "a Higgs that vanishes at the cusp (a cusp form, whose strength peaks inside, as W51's) with its own hierarchy mechanism (P-245); another strength (Frobenius, a0) or another frame",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-22), for tests/test_b833_negative_routing.py",
+  "note": "The end data that make the hierarchy (B1697) are what send this frame's strength to the cusp: hierarchy and an interior strength extremum pull in opposite directions for DR.",
+  "faces_consulted": [
+   "B1697",
+   "B1645",
+   "B1684",
+   "B1673"
+  ],
+  "fact_computed": "the strength over the fundamental domain and the 576-line masses at its saddle, by the sealed instruments (cd9a9f963)",
+  "scope": {
+   "frame": "the fibre given Lambda; B1645's coupling for the strength; B1656's at the canonical end for the masses",
+   "object": "the strength's selected tau and the six ratios there",
+   "reach": "class",
+   "hypotheses": "one strength as fixed before it was computed; a grid of lines"
+  },
+  "weave_or_thread": "weave"
  }
 ]

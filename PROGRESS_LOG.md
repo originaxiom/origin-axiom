@@ -17626,3 +17626,11 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   Pati–Salam's multiplets) and computed on lines of order 2–12 (`after_the_seal/the_d_e_criterion.py`; its comparison
   rewritten twice after seeing output, disclosed). P-248 DONE; P-084 and P-250 annotated.
 - **Landing suite.** 116 files (B1698's lock, every arc lock and the corpus-scanning tests), 2039 passed, 1 failed, 3 skipped (5:34, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-22 — S171 THE COUPLING'S STRENGTH AND TAU (B1699)
+
+- The rule written down before the strength was computed (data-free exploration in drafts, disclosed); B1699 sealed at
+  8ac889d14; the first run failed at import (a missing sys.path line), re-run unchanged with PYTHONPATH; outputs committed
+  unread at cd9a9f963 and read once: S0 holds; H1, H2, H3 fail (m₂/m₃ ≥ 0.31 at the saddle on every line). NEGATIVE;
+  routed. P-247 DONE.
+- **Landing suite.** 116 files (B1699's lock, every arc lock and the corpus-scanning tests), 2041 passed, 1 failed, 3 skipped (5:32, -n 8); the one failure is B805's attachment lock (P-239)

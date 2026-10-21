@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1427** |
-| words of findings prose | **1,141,379** |
-| test lock files referenced | **844** |
-| arcs carrying an authored verdict | **1427** (100.0 %) |
-| recorded closures | **827** (660 classified, 167 routed-only) |
+| research arcs with findings | **1428** |
+| words of findings prose | **1,142,297** |
+| test lock files referenced | **845** |
+| arcs carrying an authored verdict | **1428** (100.0 %) |
+| recorded closures | **828** (661 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 972 |
-| NEGATIVE | 351 |
+| NEGATIVE | 352 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 97 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 98 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE SCAN FOR MISSES (the owner's order; no data): the Higgs without end data is unique, at weight 7/2 -- a0 = D2R - E4 R/48, holomorphic at the cusp (W68 G1, computed on main) -- and gives no second-to-third hierarchy at the cusp (m2/m3 -> 1/2), so in this frame the hierarchy exists only if the Higgs carries end data on v+ (B1694-B1696's DR assumed it); the tick LR fixes no non-zero line but exactly four order-5 lines up to sign (det(LR + I) = 5; B591, B489), beside the fits' alpha = 0.385-0.391 but with a non-zero second coordinate the grids never held; the line fixes the Higgs's direction (W63); W51's coupling-strength peaks (1/2 + 2.224 i in the band), the silver cusp shape 2i (B485) and W62's holding condition were never used; the line's arithmetic (closure, move-invariance, W88's orders, CP-odd lines) was never imposed; the SM seat is past main's pin. Each a point (P-245-P-252). 0 of 19.  
 `B1697_the_scan_for_misses/FINDINGS.md`
 
-**NEGATIVE — `B1698`** (1068 words, 1 locks)  
-THE ORDER-5 LINES (P-248; sealed 9c2a50039, sha256 6cb3ac13; NEGATIVE as sealed -- H1 holds, H2 fails narrowly, H3 fails; output committed unread at 9e5e535bc): on the lines the tick fixes up to sign (det(LR + I) = 5) the end-data Higgs brings all six charged-fermion ratios within a factor of 2.33 with one continuous number (best: alpha = 2/5, Re tau = 1/2, Im tau = 3.1, L_max, the conjugate Higgs for the up quarks), but 1.675% of random hierarchies fit as well against the sealed 1% bar (chi2 162), and on these lines the down quarks and the leptons come out identical, which the data's d-e split forbids: the tick's lines do not select the line in this frame; the near miss recorded as such. After the seal (labelled): 6Y mod 5 is constant on SU(5)'s multiplets, so the order-5 lines give minimal SU(5)'s Y_e = Y_d^T exactly (and order-4 lines Pati-Salam's Y_e = Y_d); computed on N = 2-12, down and leptons coincide exactly when the line's order divides 4 or 5 -- a d-e split needs a line of another order. 0 of 19.  
-`B1698_the_order5_lines/FINDINGS.md`
+**NEGATIVE — `B1699`** (918 words, 1 locks)  
+THE COUPLING'S STRENGTH AND TAU (P-247; sealed 8ac889d14, sha256 317b4d67; NEGATIVE as sealed -- S0 holds, H1, H2, H3 fail; outputs committed unread at cd9a9f963): this frame's own Yukawa strength y s1(Y)^2 (B1645's covariant coupling, the Higgs DR; modular-invariant to 1e-15) has no maximum -- it rises to the cusp, where DR's unit of end data drives it -- and one non-elliptic critical point, a saddle on the arc at tau = 0.2754 + 0.9613i; there no line of order dividing 24 gives any hierarchy (m2/m3 >= 0.31 in every sector; best worst factor 225; 32% of random hierarchies fit as well; chi2 4823). The strength does not select tau where the masses are; W51's peaks (sm:W51) belong to cusp-form couplings, which this frame's Higgs is not. 0 of 19.  
+`B1699_the_coupling_strength_and_tau/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

@@ -788,3 +788,7 @@ found with B1635's sealed instrument.
   SU(5)'s multiplets, so on an order-5 line the lepton coupling is the down coupling transposed — minimal SU(5)'s
   Y_e = Y_dᵀ, which the data's Georgi–Jarlskog split forbids (after the seal: down and leptons coincide exactly when the
   line's order divides 4 or 5; order 4 is Pati–Salam's Y_e = Y_d). A d–e split needs a line of another order (P-250).
+- **The coupling's own strength does not select τ (B1699, sealed, NEGATIVE).** This frame's Yukawa strength y·s₁² (the
+  Higgs ∂R) has no maximum: it rises to the cusp, driven by the same unit of end data that makes the hierarchy. Its one
+  non-elliptic critical point is a saddle on the arc at τ ≈ 0.275 + 0.961 i, where no line gives any hierarchy
+  (m₂/m₃ ≥ 0.31 in every sector). W51's interior peaks belong to cusp-form couplings, which this Higgs is not (P-245).

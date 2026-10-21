@@ -1,5 +1,20 @@
 # Changelog
 
+## S171 THE COUPLING'S STRENGTH AND TAU (B1699, NEGATIVE as sealed; P-247) (2026-10-22)
+
+- **The sealed test** (`8ac889d14`, sha256 317b4d67; outputs committed unread at `cd9a9f963`): the selection rule fixed
+  before the strength was computed — the critical points, other than i and ω, of this frame's own Yukawa strength
+  y·s₁(Y)² (B1645's covariant coupling with ∂R; modular-invariant to 10⁻¹⁵). S0 HOLDS: no interior critical point
+  (dS/dy > 0 on 2 138 grid points), monotone on both symmetry lines to the cusp, one saddle on the arc at
+  τ = 0.2754 + 0.9613 i. There, on 576 lines × 6 choices, m₂/m₃ ≥ 0.31 in every sector: H1 FAILS (worst factor 225),
+  H2 FAILS (32% of random hierarchies fit as well), H3 FAILS (χ² 4 823). The strength does not select τ where the masses
+  are; the end data that make the hierarchy drive it to the cusp. Routed into B738's kill graph.
+- **Disclosed.** The first run failed at import (the masses instrument omits B1698's `sys.path` line for B1691's
+  module); the same sealed files were re-run with `PYTHONPATH` set; the first run's logs kept.
+- **Register.** P-247 DONE. FLOOR 252.
+- **Landing suite.** 116 files (B1699's lock, every arc lock and the corpus-scanning tests), 2041 passed, 1 failed, 3 skipped (5:32, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S170 THE ORDER-5 LINES (B1698, NEGATIVE as sealed; P-248) (2026-10-21)
 
 - **The sealed test** (`9c2a50039`, sha256 6cb3ac13; outputs committed unread at `9e5e535bc`): with the flat line at one
