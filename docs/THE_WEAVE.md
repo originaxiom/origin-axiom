@@ -792,3 +792,7 @@ found with B1635's sealed instrument.
   Higgs ∂R) has no maximum: it rises to the cusp, driven by the same unit of end data that makes the hierarchy. Its one
   non-elliptic critical point is a saddle on the arc at τ ≈ 0.275 + 0.961 i, where no line gives any hierarchy
   (m₂/m₃ ≥ 0.31 in every sector). W51's interior peaks belong to cusp-form couplings, which this Higgs is not (P-245).
+- **The Higgs's end data is the cusp's unit (B1700, exact).** FK10's tagged unit, as W46 defines it, makes the
+  weight-3/2 sections of the matter's representation a three-dimensional space — the chiral three's. The end-data Higgs
+  ∂R lies in it, so the hierarchy needs no second end postulate; but the unit does not select ∂R: it is the space's only
+  member with the coupling triplet's own end condition (holomorphic off v₊), and the only one giving a hierarchy.

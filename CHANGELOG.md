@@ -1,5 +1,17 @@
 # Changelog
 
+## S172 THE HIGGS'S END DATA IS THE UNIT (B1700, PROVED; P-245) (2026-10-22)
+
+- **The fork decided by the math (exact, no data).** W46's unit (n uniform units at the cusp; B1641's index
+  −χ_{3/2+12n}(ρ_T); ρ_T = ρ_R, B1634) makes the weight-3/2 sections a three-dimensional space — W46's three — with basis
+  ∂R, E₄²(E₄∂R + E₆R/12)/Δ and E₄E₆·a₀/Δ. ∂R lies in it and is its only member holomorphic off v₊ (the coupling triplet
+  R's own end condition); only ∂R gives a hierarchy (m₂/m₃ ~ ∣q∣^{1/2}; exponent 0 for the others and generic members).
+  So the hierarchy's end data are FK10's unit, not a second postulate, and the hierarchy arcs hold given Λ, the unit and
+  H-cov in R's own module. Scope notes on B1691 and B1694–B1699; the GENESIS sentence joins v1.52 (P-237).
+- **Register.** P-245 DONE; P-237 extended. FLOOR 252.
+- **Landing suite.** 123 files (B1700's lock, the noted arcs' locks, every arc lock and the corpus-scanning tests), 2061 passed, 1 failed, 3 skipped (4:48, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S171 THE COUPLING'S STRENGTH AND TAU (B1699, NEGATIVE as sealed; P-247) (2026-10-22)
 
 - **The sealed test** (`8ac889d14`, sha256 317b4d67; outputs committed unread at `cd9a9f963`): the selection rule fixed

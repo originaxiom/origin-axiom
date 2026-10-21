@@ -17634,3 +17634,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   unread at cd9a9f963 and read once: S0 holds; H1, H2, H3 fail (m₂/m₃ ≥ 0.31 at the saddle on every line). NEGATIVE;
   routed. P-247 DONE.
 - **Landing suite.** 116 files (B1699's lock, every arc lock and the corpus-scanning tests), 2041 passed, 1 failed, 3 skipped (5:32, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-22 — S172 THE HIGGS'S END DATA IS THE UNIT (B1700)
+
+- P-245 worked: W46's index (B1641) defines the unit as a uniform twist; the weight-3/2 space under it computed exactly
+  (dimension three, agreeing with B1641's −χ_{27/2} = −3); ∂R its only member holomorphic off v₊ and the only one with a
+  hierarchy. Scope notes on the hierarchy arcs; P-245 DONE; FK10's sentence queued into P-237 (GENESIS v1.52).
+- **Landing suite.** 123 files (B1700's lock, the noted arcs' locks, every arc lock and the corpus-scanning tests), 2061 passed, 1 failed, 3 skipped (4:48, -n 8); the one failure is B805's attachment lock (P-239)

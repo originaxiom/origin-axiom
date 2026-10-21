@@ -27,6 +27,9 @@
 - **What it does not do.** The Higgs here carries end data on v₊ (B1697's scope); the unit-free Higgs, β's role
   elsewhere and other lines are not tested; a grid in Im τ.
 
+
+> *Scope note 2026-10-22 (B1700, P-245).* ∂R's end data are FK10's tagged unit (W46's), not a second datum: given the unit, the weight-3/2 Higgs directions form a three-dimensional space (W46's three), ∂R is its only member holomorphic off v₊ — the coupling triplet R's own end condition — and the only one giving a hierarchy. So this arc holds given Λ, the unit and H-cov in R's own module.
+
 ## After the seal (labelled; not part of the sealed test)
 
 - **Why d and e coincide: the order-5 lines are SU(5)-blind.** The line enters a sector through the twists 6Y·w of its two

@@ -1,0 +1,31 @@
+{
+  "id": "B1700",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1641",
+    "B1634",
+    "B1691",
+    "B1697",
+    "B1631",
+    "B1627"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [
+    "sm:W45",
+    "sm:W46"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the fibre given Lambda; rho_T = rho_R's vector-valued forms at the weave's cusp; W46's end condition (n uniform units)",
+    "object": "the weight-3/2 sections under one unit; the end-data Higgs DR among them",
+    "reach": "class",
+    "hypotheses": "H-cov (the Higgs a section of rho_R); q-series truncated at x^240"
+  },
+  "claim_one_line": "THE HIGGS'S END DATA IS THE UNIT (P-245; exact, no data): FK10's tagged unit as W46 defines it (n uniform units; B1641's index -chi_{3/2+12n}(rho_T), rho_T = rho_R by B1634) makes the weight-3/2 sections of rho_T a three-dimensional space -- W46's three -- spanned by DR, E4^2(E4 DR + E6 R/12)/Delta and E4 E6 a0/Delta; DR lies in it and is its only member holomorphic off v+ (the coupling triplet R's own end condition); only DR gives a second-to-third hierarchy at the cusp (m2/m3 ~ |q|^(1/2); exponent 0 for the other members and generic ones). So the hierarchy's end data are FK10's unit, not a second postulate, but the unit does not select DR: the hierarchy arcs hold given Lambda, the unit and H-cov in R's own module. 0 of 19.",
+  "weave_or_thread": "weave (the fibre's sections at the weave's cusp)"
+}

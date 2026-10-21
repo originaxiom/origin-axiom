@@ -26,6 +26,9 @@ not a value derived. 0 of 19.
   would need its own hierarchy mechanism (P-245).
 - **What it does not do.** One strength (the top Yukawa's, for ∂R), as fixed before it was computed; a grid of lines.
 
+
+> *Scope note 2026-10-22 (B1700, P-245).* ∂R's end data are FK10's tagged unit (W46's), not a second datum: given the unit, the weight-3/2 Higgs directions form a three-dimensional space (W46's three), ∂R is its only member holomorphic off v₊ — the coupling triplet R's own end condition — and the only one giving a hierarchy. So this arc holds given Λ, the unit and H-cov in R's own module.
+
 ## Seen first
 
 `VERDICT topic-sweep /coupling'?s strength|strength of (the|a) coupling|extremi[sz](es|ing|ed)? (a|the) coupling|Petersson.normali[sz]ed|Petersson norm|W51/ (full text): 8 of 1470 arcs on main match (NEGATIVE 1, PROVED 7)` —

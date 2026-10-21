@@ -51,6 +51,9 @@ to our math now", after B1696 (B357's universal τ, never connected to the weave
   limit where the record's end is of order one (S164, S167).
 - **What it does not do.** No test against data. Items 3, 4 and 5 are the next sealed tests (P-247, P-248, P-249).
 
+
+> *Scope note 2026-10-22 (B1700, P-245).* ∂R's end data are FK10's tagged unit (W46's), not a second datum: given the unit, the weight-3/2 Higgs directions form a three-dimensional space (W46's three), ∂R is its only member holomorphic off v₊ — the coupling triplet R's own end condition — and the only one giving a hierarchy. So this arc holds given Λ, the unit and H-cov in R's own module.
+
 ## 0. Seen first
 
 The scan is itself the sweep: `topic_sweep.py --full` and `--refs` on τ-selection, the cusp shape, the line, the Higgs's

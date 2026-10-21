@@ -12739,7 +12739,7 @@
     "S164"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 31,
+   "obstacle_conf": 32,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -12787,7 +12787,7 @@
    ],
    "refs": [],
    "obstacle": "particle_dict",
-   "obstacle_conf": 9,
+   "obstacle_conf": 10,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -12828,7 +12828,7 @@
     "H3"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 5,
+   "obstacle_conf": 6,
    "status": "open",
    "domain": "arithmetic"
   },
@@ -12856,7 +12856,7 @@
     "S167"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 5,
+   "obstacle_conf": 6,
    "status": "dormant",
    "domain": "topology"
   },
@@ -12879,7 +12879,7 @@
     "H3"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 4,
+   "obstacle_conf": 5,
    "status": "open",
    "domain": "physics"
   },
@@ -12900,7 +12900,7 @@
     "S0"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 10,
+   "obstacle_conf": 11,
    "status": "open",
    "domain": "arithmetic"
   },
@@ -12949,6 +12949,20 @@
    "obstacle_conf": 0,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1700": {
+   "slug": "the higgs end data is the unit",
+   "motifs": [
+    "choice",
+    "coupling",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B170": {
    "slug": "relational scale leap",
