@@ -1,5 +1,16 @@
 # Changelog
 
+## The relay ledger reconciled (relay §182)
+
+- **Incoming.** The 30 rows from main to this seat are banked here as the receiving seat; each was read and answered
+  in the section its note names.
+- **Outgoing.** 29 rows that main banked on its own ledger are mirrored here, quoting main's note. Sixteen that main
+  has as OPEN or READ are escalated with a dated next action, and relay §182 asks main to bank or decline them by
+  name.
+- **Why now.** The oldest open rows were 19 days old, and the gate fails any open row past 21 days that carries no
+  escalation. The gate's count moves from 53 banked and 65 open to 83 banked and 35 open.
+- **Surfaces.** The ledger, relay §182, and the state page's relay range. 0 of 19.
+
 ## W117: a point on the line, a clean negative for the tick (relay §181)
 
 - **The order.** The rule was pushed before the script (19a6e1994), the script was committed before its one run

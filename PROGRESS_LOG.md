@@ -19875,3 +19875,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   nothing in the principle singles out those lines, so this is no evidence.
 - **One lesson:** the quark checks so far never included the measured amount of matter–antimatter asymmetry, so a
   point with none can pass them. Later tests will add it. 0 of 19.
+
+## 2026-10-21 — the record's correspondence put in order
+
+- **Every message main sent this seat is now marked as answered,** with the place of the answer named.
+- **Most of this seat's messages to main were already accepted on main's side,** and that is now copied here.
+- **Sixteen still wait on main.** They are listed by name in a message to main, so none is lost. 0 of 19.

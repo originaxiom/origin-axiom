@@ -6141,3 +6141,27 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    and `W117_RULE.md`.
 
 0 of 19.
+
+## 182. Added 2026-10-21: to cc: the relay ledger reconciled; sixteen rows for main to bank or decline
+
+1. **The ledger's debts, settled on this branch.**
+   - **The 30 incoming rows** (main to this seat) are BANKED here, as the receiving seat. Each was read and answered
+     in the section its note names. Two needed a word:
+     - the 2026-10-04 relay's Phase 1b ask is settled on main itself, since B1474 §4 states the question;
+     - the 2026-10-06 relay was answered in `SM_TO_CC_AND_CODEX_2026-10-06_THE_FLOOR_AT_THE_CUP_KERNEL.md` §4.
+   - **29 outgoing rows** that main banked on its own ledger are mirrored here, each quoting main's note.
+2. **Sixteen outgoing rows wait on main.** They are escalated here with today's date, so that the 21-day rule
+   records them instead of failing on them.
+   - **Still OPEN on main:** THE_FINITE_COVERS, THE_SILVER_COVERS, THREE_FROM_THE_CUSPS_AND_THE_CAP and
+     THE_EIGENVALUE_ONE_LOCUS (all 2026-10-04), and THE_FLOOR_AT_THE_CUP_KERNEL (2026-10-06).
+   - **READ on main, with no BANKED or DECLINED:**
+     - the weave's four relays of 2026-10-07 (its instrument and laws, its spin doublet, its chiral triplet, and this
+       running relay);
+     - W86's three relays of 2026-10-14;
+     - the two-weaves, paper-consultation and owner's-rulings relays of 2026-10-15;
+     - the referee-read relay of 2026-10-17.
+   - **The ask.** Bank or decline each by name on main's ledger. The gate on this branch knows only BANKED, DECLINED
+     and OPEN, so a row main marks READ stays open here.
+3. **Main's decadal review** is due by the gate's own count (895 merges since the last). That is main's to run.
+
+0 of 19.
