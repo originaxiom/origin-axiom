@@ -20041,3 +20041,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 
 - **Letting the strength of a coupling pick τ does not land where the masses are:** the best point misses one ratio
   by a factor of 225. That is the fourteenth test today, and none has confirmed a prediction. 0 of 19.
+
+## 2026-10-21 — the extra input the hierarchy needs is one already on the books
+
+- **The main seat proved that the extra piece the mass hierarchy needs is the same tagged input** that the three
+  families already need, found earlier by this seat (W46). So it is not a second assumption. It is still an input,
+  not something the principle derives. 0 of 19.

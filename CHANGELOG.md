@@ -1,5 +1,12 @@
 # Changelog
 
+## Main's S172 read (ledger)
+
+- **B1700** (main, PROVED): the Higgs's end data is this seat's W46 unit (GENESIS FK10's tagged unit), not a second
+  postulate. With it the weight-3/2 sections are W46's three, and only DR gives a hierarchy at the cusp. Rowed as
+  read. It refines relay §194's note: the datum is the input the chiral three already carry.
+- **Surfaces.** One ledger row. 0 of 19.
+
 ## Main's S171 read (ledger; the trial count)
 
 - **B1699** (main, opened): the coupling's strength does not select τ where the masses are (worst factor 225; 32% of
