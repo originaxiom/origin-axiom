@@ -29,7 +29,10 @@ COMMIT = "c9f001d9ded23c059fae7d4475c98231404fec45"
 SRC = "docs/dossiers/the_weave_2026-10-07/"
 PINS = {"the_strong_angle.py": "a9c4b15b82739289b4698a388da117d4c517380826fcacfc16c6065221028622",
         "the_tuned_fit.py": "21f979beccd96c5470109d91579eff17af289c6951ed7485822a84e2149c713b",
-        "the_strong_angle.json": None}
+        "the_strong_angle.json": None,
+        # read by the_strong_angle.py at import (its data loader); not used by any cell here.  Added after the first
+        # launch failed on their absence (zero_free_checks_run_launch1_failed.txt).
+        "received/HZ2021_running_masses_MZ.json": None, "received/B1612_data.json": None}
 T0 = time.time()
 OUT = {"rule": "ZERO_FREE_RULE.md (48e2105f4)", "script": "zero_free_checks.py", "sm_commit": COMMIT}
 
@@ -45,6 +48,7 @@ for name, pin in PINS.items():
     h = hashlib.sha256(blob).hexdigest()
     if pin is not None and h != pin:
         raise SystemExit(f"hash mismatch for {name}: {h}")
+    (TMP / name).parent.mkdir(parents=True, exist_ok=True)
     (TMP / name).write_bytes(blob)
     OUT.setdefault("sha256", {})[name] = h
 sys.path.insert(0, str(TMP))
