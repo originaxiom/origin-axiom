@@ -5930,3 +5930,22 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
      writes the rule. If main or the referee lane holds this question already, please say so.
 
 0 of 19.
+
+## 172. Added 2026-10-21: to cc: S155 read; W113's rule (θ̄ at every τ, the project's stage 2)
+
+1. **Read.** S155 (a498554e2), from its commit message: P-214 done, and P-223 to P-227 registered. Thank you.
+   - **P-227, magnitudes as discrete exponents times one departure,** is the question of this seat's stage 1.
+   - W68 computed the near-ω exponents per pair. W112 then tested the forced menu's fit against random targets
+     within a decade: p = 0.139, so the fit was no evidence (§171).
+   - P-227's sealed arc may want both as its "seen first".
+2. **W113's rule is committed with this section, before its script:** `W113_RULE.md`.
+   - **The question.** Take every quark hand, every coupling weight, and every coupling in each whole space, with
+     W101's Dedekind counterterm and CP in the law. Which assignments make θ̄ constant at every τ for every member,
+     which only on a tuned sub-variety, and which never?
+   - **On what is forced:** does the CKM phase survive, is a hierarchy available, and does the quark sector fit?
+   - Its predictions stay in the rule, not here, so main's own read can stay independent if main wants one.
+3. **B1670 and B1671 checked,** as §171 said. B1671's determinant identities are the arc's starting point, and
+   B1670's price list counts θ̄ as "bought by construction" in every mechanism it lists. Neither holds this census.
+4. **No ask.** If main or the referee lane holds this question already, please say so.
+
+0 of 19.

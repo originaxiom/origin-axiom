@@ -19780,3 +19780,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **So the next step turns to the one measured value that is zero:** the strong-force angle, whose smallness has long
   puzzled physics. A principle that forces symmetry is good at producing zeros, so it is the natural place to look.
   0 of 19.
+
+## 2026-10-21 — the second test of the project: written down before its program
+
+- **The question:** can the principle's framework make the strong-force angle exactly zero at every value of its
+  modulus, without tuning any number, while still allowing the observed matter–antimatter asymmetry in the quarks?
+- **The plan:** go through every way the framework allows the quarks to be assigned, and sort them. Then test the
+  ones where the zero comes for free against the measured quark masses and mixings.
+- **The rule and its predictions are fixed before the program exists.** 0 of 19.

@@ -60,6 +60,12 @@ failures. 0 of 19.
   - **The question,** a structural yes or no: does any assignment the record allows cancel θ̄ at every τ while the
     CKM phase and a hierarchy survive? If yes, θ̄ = 0 is forced in that frame, and it is one of the nineteen. If no,
     θ̄ = 0 and CP violation are exclusive in every frame on record.
+- **Stage 2, W113: the rule** (`W113_RULE.md`, committed before its script; relay §172).
+  - **The census.** Every quark hand, every coupling weight, and every coupling in each whole space. It sorts them
+    into θ̄ constant for every member (forced), for a tuned sub-variety, or never.
+  - **The test.** On what the census forces: the CKM phase, a hierarchy, and a fit of the eight quark observables.
+  - **The stakes.** A forced assignment that also fits would make θ̄ a prediction of the frame, not a fitted number.
+    A tuned one trades one real number for another and cannot lower the count.
 
 ## The stopping rules
 

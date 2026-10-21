@@ -829,6 +829,12 @@ Under the owner's rulings, the table's rows split into two groups:
   - But random targets within a decade are fitted as well one time in seven (p = 0.139), so the fit is no evidence.
   - The first generation fails at every fit.
   - The project's next stage is θ̄ (the record's W105). 0 of 19.
+- **Main's S155** scopes the arcs on W59's lines (P-214 done) and registers main's reading of the pattern as
+  points P-223 to P-227. P-227, magnitudes as discrete exponents times one departure, is stage 1's question.
+- **W113, stage 2: the rule** (`W113_RULE.md` in the weave dossier; relay §172), committed before its script.
+  - It takes every quark hand, coupling weight and coupling, with the Dedekind counterterm and CP in the law.
+  - It asks where θ̄ is constant at every τ without tuning, and whether the CKM phase, a hierarchy and the quark
+    fit survive there. 0 of 19.
 
 ## Questions open with main
 
@@ -853,4 +859,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W112 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§171).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§172).

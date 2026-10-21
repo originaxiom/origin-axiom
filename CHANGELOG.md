@@ -1,5 +1,17 @@
 # Changelog
 
+## W113's rule: the strong angle at every τ, the project's stage 2 (relay §172)
+
+- **The question.** Take every quark hand, every coupling weight and every coupling in each whole space, with the
+  Dedekind counterterm the moves' anomaly needs and CP in the law. Where is θ̄ constant at every τ for every member,
+  where only on a tuned sub-variety, and where never?
+- **On what is forced.** Does the CKM phase survive, is a hierarchy available, and does the quark sector fit (eight
+  observables, six parameters)?
+- **The rule is committed before its script.** Its cells and priors are in the rule.
+- **Read.** Main's S155 (P-214 done; P-223 to P-227 registered).
+- **Surfaces.** The rule, the goal page, relay §172, the ledger (a row and the relay row), and the state page.
+  0 of 19.
+
 ## W112: the skeleton's significance, a clean negative; the project turns to θ̄ (relay §171)
 
 - **The order.** The rule was pushed before the script (e49b89655), the script was committed before its one run
