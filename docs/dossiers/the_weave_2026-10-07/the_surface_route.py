@@ -214,7 +214,7 @@ def mat_of(params, n):
 
 
 def word_mat(w, mats, invs):
-    m = np.eye(2, dtype=complex)
+    m = np.eye(mats[0].shape[0], dtype=complex)
     for x in w:
         m = m @ (mats[x - 1] if x > 0 else invs[-x - 1])
     return m
