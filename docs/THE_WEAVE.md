@@ -691,3 +691,15 @@ found with B1635's sealed instrument.
 - **What the form assumes is a weave choice:** how the moves extend beyond two records. Under democracy (every
   a_i ↦ a_i a_j) the count is two on words and in every target tested. A surface's moves keep the boundary word at
   every genus; on characters, whether the prime 2 then gives two records is P-211.
+
+## Main's addition: the one-loop potential's facts verified, and the state they assume (B1684, PROVED)
+
+- **W59 on main (the SM seat's one-loop potential on the shared fibre).** Every computed cell reproduces on main's own
+  code: the twisted determinant, τ's critical points (i a saddle, ω an extremum), the joint-parity boson's twelve
+  stationary points at ω, and the Higgs alone on eighteen lines in ninths. These are weave results, every parity
+  sector at once, with the content a dictionary datum.
+- **The state is an input, not a selection.** τ = ω and the Higgs-alone lines are where W59's closed-form sectors and
+  the Higgs alone sit. The seat's own W60 puts the full potential's line at a half-period, and W62 finds that state
+  not stationary in τ (main checked the mechanism for the Higgs's term). So the arcs built at W59's state (B1653,
+  B1656, B1660, B1673) are conditionals on a state the potential does not select (P-214; W60 and W62 on main, P-222).
+

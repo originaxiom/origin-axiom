@@ -1,0 +1,11 @@
+<the seat tree at a068e47ed>/frontier/B1538_the_puncture_characters/verification/punct_covers.py:2: SyntaxWarning: invalid escape sequence '\G'
+  """B1538 -- the fibre-direction covers of a word state, their fibre groups, and the characters of their own.  Library; nothing
+{
+ "K1": true,
+ "K2": true,
+ "K3": true,
+ "K4": false,
+ "K5": true
+} 
+every cell holds: False
+EXIT 0

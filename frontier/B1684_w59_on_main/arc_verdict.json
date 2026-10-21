@@ -1,0 +1,29 @@
+{
+  "id": "B1684",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1653",
+    "B1656",
+    "B1660",
+    "B1673",
+    "B1640",
+    "B1634"
+  ],
+  "rests_on_seat": [
+    "sm:W59"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the shared fibre E_tau with flat U(1) twists; the parity sectors; the six-dimensional Casimir term and the two-dimensional twisted determinant (given Lambda, GENESIS FK11; the ruled branch)",
+    "object": "the weave's local systems on the shared fibre, sector by sector; the content a dictionary datum",
+    "reach": "class",
+    "hypotheses": "the computed cells of W59 at the sampled tau and at omega (the class: the closed-form sectors and the joint-parity bosons); the matter determinant's exponent rests on Kokotov's formula (cited, not re-derived); the state (tau = omega, the Higgs-alone lines) is an input, not selected: the seat's W60 and W62 (headline on main, P-222) move it; M7 checks W62's mechanism for the Higgs's closed-form term only"
+  },
+  "claim_one_line": "W59 ON MAIN (P-099, P-100; first in Q3 at the owner's approval of 2026-10-21): every computed cell of the SM seat's W59 (the one-loop potential on the shared fibre) reproduced by main's own code -- the twisted determinant |theta_1(w|tau)/eta|^2 e^{-2 pi (Im w)^2/y} by an Epstein-Poisson route (1e-15; w = phi_2 - phi_1 tau), the parity product 4; the cover's arithmetic; log(y|eta|^4) and E(tau, 3) critical only at i (saddle) and omega; the joint parity sum -(15/16) E; the joint-parity boson's stationary points (at omega twelve, the global minimum at the 3-torsion points, the 2-torsion points shallow minima -- K4's failure as worded reproduced); who sees which line; the Higgs alone at omega on eighteen lines in ninths, d^c and e^c differing -- and the seat's runs reproduced to machine precision. The state is an input: the seat's W60 puts the full potential's line at a half-period and W62 finds it not stationary in tau; main checks W62's mechanism for the Higgs's term (gradient 8.68 at omega on a half-period line; the joint sum 9e-8). So B1653, B1656, B1660 and B1673 rest on correct mathematics at an unselected state (P-214). 0 of 19.",
+  "weave_or_thread": "weave (every parity sector at once; the content a dictionary datum)"
+}

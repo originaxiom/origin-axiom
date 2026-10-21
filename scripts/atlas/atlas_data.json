@@ -12526,6 +12526,29 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1684": {
+   "slug": "w59 on main",
+   "motifs": [
+    "action",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "K5"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B168": {
    "slug": "omega accretion generative",
    "motifs": [

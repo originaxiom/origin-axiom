@@ -17459,3 +17459,17 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **Records.** P-212 DONE; R65-3 [x]; THE_WEAVE's B1682 section names v1.50; currency notes.
 - **Landing suite.** gates 45 of 45; 187 files (the governance, claim and gate tests, and this landing's arcs), 2378 passed, 1 failed, 6 skipped (20:40, -n 8, single-threaded BLAS). The one failure is B186's box-dimension lock, R65-9's known BLAS-thread-dependent item, as in S152's full suite; nothing else.
 
+## 2026-10-21 — S154 W59 ON MAIN (B1684, PROVED; P-099, P-100 done)
+
+- S153 landed at f31d00d3f; the relay e421afc2c registered the web seat's map (P-213–P-220) and moved P-099/P-100 first,
+  at the owner's approval.
+- **B1684.** Main's own check (M1–M7), written from W59's rule; every cell holds. The seat's runs reproduced in its own
+  tree at a068e47ed (the scripts import the seat's libraries back to sm:B1549, so a detached checkout, not copied
+  files): machine precision, not byte for byte. The state (τ = ω, the Higgs-alone lines) is an input; W60 and W62 move
+  it; M7 checks W62's mechanism for the Higgs's term.
+- **Slips, caught.** The Epstein route's prefactor and incomplete gamma (smoke test; a Kronecker sum beside it found
+  them); M3 and M7 tolerances below the truncation in the first full run (kept); the τ₁ shallow minimum missed by the
+  grid, then seeded at the symmetric points.
+- **Read.** The seat's relay §168: S152's corrections taken in its own text; its new point registered (P-221).
+- **Landing suite.** gates 45 of 45; 188 files, 2382 passed, 1 failed, 6 skipped (30:50, -n 8, single-threaded BLAS); the one failure is B186's BLAS-dependent lock (R65-9). The first landing run also failed the verdict-schema test on B1684 (its scope's reach written as free text, not single, class or general); fixed to class, re-run.
+

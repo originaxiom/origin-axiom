@@ -1,5 +1,32 @@
 # Changelog
 
+## S154 W59 ON MAIN (B1684, PROVED; P-099 and P-100 done): THE ONE-LOOP POTENTIAL'S FACTS VERIFIED, THE STATE AN INPUT
+
+- **First in Q3 at the owner's approval** ("all your recommendations approved", 2026-10-21): the SM seat's W59 re-run on
+  main before any new mass work, because B1656 (sealed, PROVED) rests on W59's lines and W59 was held at headline
+  level only. The web seat's map named the same dependency.
+- **B1684 checks every computed cell of W59 with main's own code,** written from the seat's rule.
+  - The twisted determinant ∣θ₁(w∣τ)/η∣² e^{−2π(Im w)²/y} by an Epstein–Poisson route, to 10⁻¹⁵, with w = φ₂ − φ₁τ;
+    the three parity sectors multiply to 4.
+  - The matter determinant's checkable steps (genus 3, the three differentials, ζ_Σ(0) = −3/2); Kokotov's formula cited.
+  - log(y∣η∣⁴) and E(τ, 3) critical only at i (a saddle) and ω; the joint parity sum −(15/16) E(τ, 3).
+  - The joint-parity boson: at ω twelve stationary points, the global minimum −1.72552 at the 3-torsion points, the
+    2-torsion points shallow minima (K4's failure as worded reproduced); at τ₁ six, with the shallow minimum at (½, 0).
+  - Who sees which line; the Higgs alone at ω on eighteen lines in ninths, d^c and e^c differing on every one.
+  - The seat's two runs reproduce to machine precision (in its own tree; 60 floats differ in the last digit).
+- **The state is an input.** τ = ω and the Higgs-alone lines are not selected: the seat's W60 puts the full potential's
+  line at a half-period, and W62 finds that state not stationary in τ. Main checked W62's mechanism for the Higgs's
+  closed-form term: on a half-period line the term keeps only that line's stabiliser, and its gradient at ω is 8.68,
+  where the joint parity sum's is 9 × 10⁻⁸. So B1653, B1656, B1660 and B1673 rest on correct mathematics at an
+  unselected state; dated scope notes follow (P-214).
+- **Disclosed.** Main's Epstein route had two errors in a smoke test, located by a direct Kronecker sum computed beside
+  it; the first full run's M3 and M7 tolerances sat below the lattice truncation, and its grid missed τ₁'s shallow
+  minimum (as the seat's post hoc grid did); the first run is kept.
+- **Records.** Harvest row 1105 VERIFIED (B1684); row 1280 (the seat's §168, READ); the seat pinned at e1724317.
+  P-221 (the κ join is circular at two letters, the SM seat's point) and P-222 (W60 and W62 on main) registered;
+  FLOOR 222. 0 of 19.
+- **Landing suite.** gates 45 of 45; 188 files, 2382 passed, 1 failed, 6 skipped (30:50, -n 8, single-threaded BLAS); the one failure is B186's BLAS-dependent lock (R65-9). The first landing run also failed the verdict-schema test on B1684 (its scope's reach written as free text, not single, class or general); fixed to class, re-run. 0 of 19.
+
 ## S153 GENESIS v1.50 (B1683; P-212 done, R65-3 done): GM1 POSTULATED, IN AN EQUIVALENT FORM; GM5b SCOPED
 
 - **The amendment.** GENESIS v1.49 to v1.50, through B1683's `adoption/amend.py` against a hash-pinned v1.49, after

@@ -1,0 +1,12 @@
+<audit>/verify_w59/main_check/main_w59.py:152: RuntimeWarning: invalid value encountered in divide
+  nrm = np.linalg.norm(step, axis=1, keepdims=True); step = np.where(nrm > 0.05, step * 0.05 / nrm, step)
+<audit>/verify_w59/main_check/main_w59.py:152: RuntimeWarning: divide by zero encountered in divide
+  nrm = np.linalg.norm(step, axis=1, keepdims=True); step = np.where(nrm > 0.05, step * 0.05 / nrm, step)
+{"M1": true, "M2": true, "M3": false, "M4": true, "M5": true, "M6": true, "M7": false}
+M1 phi2-phi1*tau 1.1102230246251565e-15 [3.9999999999999973, 4.000000000000002, 4.000000000000001, 4.0000000000000036, 4.000000000000002]
+M3 eta [{'tau': [0.5, 0.8660254], 'type': 'max'}, {'tau': [0.0, 1.0], 'type': 'saddle'}] E3 [{'tau': [0.5, 0.8660254], 'type': 'min'}, {'tau': [-0.0, 1.0], 'type': 'saddle'}]
+M4 omega 12 -1.7255235613716473 [([0.5, 0.5], -1.553, 'min'), ([0.5, 0.0], -1.553, 'min'), ([0.0, 0.5], -1.553, 'min')]
+M4 tau_0 4 [0.5, 0.5] tau_1 5 [([0.5, 0.5], -6.1822)]
+M6 18 {'Q': '1/9', 'u^c': '5/9', 'd^c': '2/9', 'L': '2/3', 'e^c': '2/3', 'H': '1/3'}
+M7 {'(0.5, 0.0)': 8.681, '(0.0, 0.5)': 8.681, '(0.5, 0.5)': 8.681} 8.704727679018501e-08
+EXIT 1
