@@ -12860,6 +12860,29 @@
    "status": "dormant",
    "domain": "topology"
   },
+  "B1698": {
+   "slug": "the order5 lines",
+   "motifs": [
+    "closing",
+    "coupling",
+    "z3_generation",
+    "torsion",
+    "lorentzian"
+   ],
+   "refs": [
+    "B489",
+    "B591",
+    "B925",
+    "B952",
+    "H1",
+    "H2",
+    "H3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "open",
+   "domain": "physics"
+  },
   "B169": {
    "slug": "isomonodromy flow",
    "motifs": [

@@ -1,5 +1,23 @@
 # Changelog
 
+## S170 THE ORDER-5 LINES (B1698, NEGATIVE as sealed; P-248) (2026-10-21)
+
+- **The sealed test** (`9c2a50039`, sha256 6cb3ac13; outputs committed unread at `9e5e535bc`): with the flat line at one
+  of the eight lines the tick fixes up to sign (det(LR + I) = 5), the end-data Higgs ∂R, B1667's canonical end and one
+  continuous number (Im τ; 96 discrete choices). H1 HOLDS — all six charged-fermion ratios within a factor of 2.33 (the
+  α = 2/5 line, Re τ = ½, Im τ = 3.1, L_max, the conjugate Higgs for the up quarks); H2, the decisive cell, FAILS —
+  1.675% of 4 000 random hierarchies fit as well, against the sealed 1%; H3 FAILS (χ² 162). In this frame the tick's lines
+  do not select the line. Routed into B738's kill graph.
+- **The structural reason (after the seal, labelled).** On these lines the down quarks and the leptons are identical on
+  all 1 616 rows: 6Y mod 5 is constant on SU(5)'s multiplets, so the lepton coupling is the down coupling transposed
+  (minimal SU(5)'s Y_e = Y_dᵀ), which the measured Georgi–Jarlskog split forbids. Computed on lines of order 2–12:
+  down and leptons coincide exactly when the order divides 4 or 5 (order 4: Pati–Salam's Y_e = Y_d) and split otherwise;
+  a d–e split needs another order — W88's 9, 11, 12 qualify (P-250). The relations themselves are on record (B952's GUT
+  ledger row 7; B1208); their tie to the line's order is new.
+- **Register.** P-248 DONE; notes on P-084 and P-250. FLOOR 252.
+- **Landing suite.** 116 files (B1698's lock, every arc lock and the corpus-scanning tests), 2039 passed, 1 failed, 3 skipped (5:34, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S169 THE SCAN FOR MISSES (B1697, PROVED; the owner's order) (2026-10-21)
 
 - **The owner: "lets treat this seriously … scan the repo for similar misses that are crucial to our math now".** Five

@@ -1,0 +1,29 @@
+{
+  "id": "B1698",
+  "verdict": "NEGATIVE",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1697",
+    "B591",
+    "B489",
+    "B1695",
+    "B1694",
+    "B1656",
+    "B1667"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the fibre given Lambda; B1656's four-channel coupling at B1667's canonical end; the end-data Higgs DR (H-cov, one unit on v+); the flat line at the tick's order-5 sign-fixed points",
+    "object": "the six charged-fermion ratios at M_Z from Im tau and 96 discrete choices",
+    "reach": "class",
+    "hypotheses": "a grid in Im tau; the calibration's random prior main's (B1695's); the Higgs's end data assumed (P-245)"
+  },
+  "claim_one_line": "THE ORDER-5 LINES (P-248; sealed 9c2a50039, sha256 6cb3ac13; NEGATIVE as sealed -- H1 holds, H2 fails narrowly, H3 fails; output committed unread at 9e5e535bc): on the lines the tick fixes up to sign (det(LR + I) = 5) the end-data Higgs brings all six charged-fermion ratios within a factor of 2.33 with one continuous number (best: alpha = 2/5, Re tau = 1/2, Im tau = 3.1, L_max, the conjugate Higgs for the up quarks), but 1.675% of random hierarchies fit as well against the sealed 1% bar (chi2 162), and on these lines the down quarks and the leptons come out identical, which the data's d-e split forbids: the tick's lines do not select the line in this frame; the near miss recorded as such. After the seal (labelled): 6Y mod 5 is constant on SU(5)'s multiplets, so the order-5 lines give minimal SU(5)'s Y_e = Y_d^T exactly (and order-4 lines Pati-Salam's Y_e = Y_d); computed on N = 2-12, down and leptons coincide exactly when the line's order divides 4 or 5 -- a d-e split needs a line of another order. 0 of 19.",
+  "weave_or_thread": "weave (every charged sector on one fibre at the tick's line)"
+}

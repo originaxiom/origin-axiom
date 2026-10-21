@@ -11651,5 +11651,28 @@
    "hypotheses": "the tick LR only; beta = 0; the calibration's random prior main's"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1698",
+  "claim_killed": "That the tick's order-5 sign-fixed lines, with the end-data Higgs DR at the canonical end, reproduce the six charged-fermion ratios specifically (one continuous number, Im tau).",
+  "kill_form": "Sealed (B1698; 9c2a50039): best worst factor 2.33 (alpha = 2/5), but 1.675% of 4000 random hierarchies fit as well against the sealed 1%; chi2 162; on these lines the down quarks and leptons coincide.",
+  "hatch": "a line whose order divides neither 4 nor 5 (the order-4 and order-5 lines give Pati-Salam's Y_e = Y_d and minimal SU(5)'s Y_e = Y_d^T exactly; computed after the seal), e.g. W88's orders 9, 11, 12 (P-250); the unit-free Higgs (P-245); W63's line-fixed direction (P-246)",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-21), for tests/test_b833_negative_routing.py",
+  "note": "A near miss, recorded as such: the data sit at the 1.7% level of random hierarchies with one continuous number. The structural obstacle: 6Y mod 5 is constant on SU(5)'s multiplets, so on the tick's lines the down and lepton couplings are transposes (minimal SU(5)), which the data's Georgi-Jarlskog split forbids.",
+  "faces_consulted": [
+   "B1697",
+   "B591",
+   "B489",
+   "B1695"
+  ],
+  "fact_computed": "the 1616-point model and the comparison with its calibration, by the sealed instruments (9e5e535bc)",
+  "scope": {
+   "frame": "the fibre given Lambda; B1656's coupling at the canonical end; DR with end data; the tick's order-5 lines",
+   "object": "six charged-fermion ratios at M_Z",
+   "reach": "class",
+   "hypotheses": "a grid in Im tau"
+  },
+  "weave_or_thread": "weave"
  }
 ]

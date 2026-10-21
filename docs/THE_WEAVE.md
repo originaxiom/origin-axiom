@@ -782,3 +782,9 @@ found with B1635's sealed instrument.
 - **The tick fixes four order-5 lines up to sign** (det(LR + I) = 5), beside where the fits put the line (P-248); the
   line fixes the Higgs's direction (W63, P-246); a coupling's strength (W51), the silver cusp shape and W62's holding
   condition were never used (P-247, P-249, P-251).
+- **The tick's lines are SU(5)-blind (B1698, sealed, NEGATIVE).** On the four order-5 lines (and their swaps) the
+  end-data Higgs brings all six charged-fermion ratios within a factor of 2.33 with one continuous number (Im τ), but
+  1.7% of random hierarchies fit as well (the sealed bar 1%). The reason it cannot do better: 6Y mod 5 is constant on
+  SU(5)'s multiplets, so on an order-5 line the lepton coupling is the down coupling transposed — minimal SU(5)'s
+  Y_e = Y_dᵀ, which the data's Georgi–Jarlskog split forbids (after the seal: down and leptons coincide exactly when the
+  line's order divides 4 or 5; order 4 is Pati–Salam's Y_e = Y_d). A d–e split needs a line of another order (P-250).

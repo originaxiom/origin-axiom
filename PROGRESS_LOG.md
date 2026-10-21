@@ -17617,3 +17617,12 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   every lead checked by main; the computable items computed (the unit-free section, the order-5 lines, the candidate
   taus, the silver shape). Scope notes on B1691 and B1694–B1696. P-245–P-252 registered.
 - **Landing suite.** 120 files (B1697's lock, the noted arcs' locks, every arc lock and the corpus-scanning tests), 2049 passed, 1 failed, 3 skipped (5:37, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-21 — S170 THE ORDER-5 LINES (B1698)
+
+- B1698 sealed at 9c2a50039 before its instruments ran; outputs committed unread at 9e5e535bc and read once: H1 holds
+  (worst factor 2.33), H2 fails narrowly (1.675% against 1%), H3 fails (χ² 162) — NEGATIVE as sealed; routed into the
+  kill graph. After the seal: the down–lepton coincidence explained (6Y mod 5 and mod 4 constant on SU(5)'s and
+  Pati–Salam's multiplets) and computed on lines of order 2–12 (`after_the_seal/the_d_e_criterion.py`; its comparison
+  rewritten twice after seeing output, disclosed). P-248 DONE; P-084 and P-250 annotated.
+- **Landing suite.** 116 files (B1698's lock, every arc lock and the corpus-scanning tests), 2039 passed, 1 failed, 3 skipped (5:34, -n 8); the one failure is B805's attachment lock (P-239)
