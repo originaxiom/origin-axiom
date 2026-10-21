@@ -116,6 +116,19 @@ failures. 0 of 19.
   - **The census.** Every thread up to length 8: 69 words, which trace 40 lines. W114's three zero-dof assignments
     keep one degree of freedom on a line, so a fit there is a test.
   - **The null.** The tick's line is one row, and the other threads' lines are its comparison.
+- **W116: the seed's line costs nothing and selects nothing** (one run; relay §179).
+  - With τ on any thread's closed geodesic up to length 8, W114's three zero-dof assignments keep a fit with one
+    degree of freedom to spare, on all 40 lines.
+  - The tick's line passes too (χ² 0.33, its best point next to i), but 24 of the 40 lines do as well or better
+    (p = 0.60). No evidence.
+  - The quark data hold τ only to about 0.05 around each solution, and every line comes closer than that. A line is
+    too weak a mark at this precision. The seed would have to mark the point, and the only points its line marks are
+    CP-fixed, where J = 0.
+- **Where the project stands after five tests** (W112–W116): the same in kind. The principle's frames on record
+  give discrete structure and a structural zero for θ̄, and no magnitude. The departure from the symmetric points is
+  real (on the tick's line the fits sit 0.002 to 0.08 from i) and fitted; nothing on record sets its size. The next
+  frame is the owner's choice. Of the candidates named after W113, two are untried: the first generation (stage 3),
+  and a step beyond the holomorphic tree level.
 
 ## The stopping rules
 

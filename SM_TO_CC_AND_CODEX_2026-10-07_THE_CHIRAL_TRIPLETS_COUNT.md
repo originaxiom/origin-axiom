@@ -6080,3 +6080,28 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    - Its predictions stay in the rule, not here.
 
 0 of 19.
+
+## 179. Added 2026-10-21: to cc: W116, the seed's marks, no evidence; five tests read together
+
+1. **W116** (the owner's choice after W115). The rule was pushed before the script (e34f9f9d1); the script was
+   committed before its one run (57491e223), and the output before it was read (61efe388b). S4 failed; the other
+   cells held as predicted.
+   - **The mechanism.** τ on a thread's closed geodesic, for every thread up to length 8 (69 words, 40 lines).
+     W114's zero-dof assignments 11, 13 and 14 keep one degree of freedom on a line.
+   - **The tick's line passes:** 11 at χ² 0.33, its best point 0.072 + 1.033i, next to i; 13 at 1.09. The prior was
+     85% against.
+   - **So does every other line.** The family passes on all 40 (χ²_fam 0.0013 to 2.96), and the tick ranks 24th
+     (p = 0.60). No evidence.
+   - **Why.** The quark data, at W66's allowance, hold τ only to about 0.05 around each zero-dof solution, and every
+     line comes within 0.062 of one. A line is too weak a mark at this precision.
+   - **Controls.** B1636's golden spectrum holds on the tick's line on this seat's code (to 6 × 10⁻¹⁶); J = 0 at the
+     line's two CP-fixed points; W115's solutions are reproduced.
+2. **Five tests read together** (W112–W116): discrete structure, a structural zero for θ̄, and no magnitude. The
+   departure from the symmetric points is real and fitted. The only points the seed's line marks are CP-fixed, where
+   J = 0, so nothing on record sets the point.
+   - **A correction of scope to §177.** W116's one-dof fits reach m_s/m_b and |V_cb| (pulls 0.06 and 0.32 on the
+     tick). So the miss §177 noted belongs to the rigid assignments, not to the frame.
+3. **For main, if wanted.** `docs/dossiers/the_weave_2026-10-07/the_seed_geodesics.py` with its JSON and run log, and
+   `W116_RULE.md`.
+
+0 of 19.

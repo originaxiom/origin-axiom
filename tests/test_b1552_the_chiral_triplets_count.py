@@ -2599,6 +2599,52 @@ def test_the_paper_draft7():
 
 
 
+def test_w116_the_seed_geodesics():
+    """W116 (rule e34f9f9d1; script 57491e223; one run 61efe388b): S4 failed, the other cells as predicted; the census
+    counts recomputed in process from the words, the family statistic and p recomputed from the lines, and the tick's
+    best fit recomputed from its pulls and checked to lie on the tick's line"""
+    import itertools
+    import math
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_seed_geodesics.json").read_text(encoding="utf-8"))
+    assert d["status"] == "one run"
+    assert d["cells"] == {"S0": True, "S1": True, "S2": True, "S3": True, "S4": False, "S5": True, "S6": True}
+
+    def canon(w):
+        return min(w[i:] + w[:i] for i in range(len(w)))
+
+    def mirror(w):
+        return w.translate(str.maketrans("LR", "RL"))
+
+    words = set()
+    for n in range(2, 9):
+        for t in itertools.product("LR", repeat=n):
+            w = "".join(t)
+            if "L" in w and "R" in w and all(w != w[:k] * (n // k) for k in range(1, n) if n % k == 0):
+                words.add(canon(w))
+    lines = {min(canon(w), canon(mirror(w)[::-1])) for w in words}
+    classes = {min(k, min(canon(mirror(k)), canon(k[::-1]))) for k in lines}
+    assert (len(words), len(lines), len(classes)) == (69, 40, 34)
+    assert set(d["lines"]) == lines
+    fam = {k: r["chi2_fam"] for k, r in d["lines"].items()}
+    for k, r in d["lines"].items():
+        assert r["chi2_fam"] == min(r["chi2_min"][n] for n in ("11", "13", "14"))
+    assert all(v <= 3.84 for v in fam.values())
+    p = sum(1 for v in fam.values() if v <= fam["LR"]) / len(fam)
+    assert math.isclose(p, d["S6"]["p"]) and math.isclose(p, 0.6)
+    best = d["fits"]["tick"]["LR"]["11"]
+    pulls = np.array(list(best["pulls"].values()))
+    assert abs(float(np.sum(pulls ** 2)) - best["chi2_min"]) < 1e-6 * max(1.0, best["chi2_min"])
+    assert best["chi2_min"] < 3.84
+    x, y = best["tau_in_F"]
+    assert abs(y - math.sqrt(1.25 - (abs(x) - 0.5) ** 2)) < 1e-9
+    assert d["S0"]["golden: worst deviation on the tick's line (64 points)"] < 1e-10
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W116. The seed's marks" in note
+    assert (here / "W116_RULE.md").exists()
+
+
 def test_w115_the_shared_tau():
     """W115 (rule 5a9914425; script 79d7ad5eb; one run 6d5e09598): every cell as predicted; the lepton chi-squared at
     the best pinned point recomputed in process from its recorded ratios, and the mirror solutions' equality"""

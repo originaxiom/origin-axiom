@@ -1,5 +1,15 @@
 # Changelog
 
+## W116: the seed's marks, no evidence (relay §179)
+
+- **The order.** The rule was pushed before the script (e34f9f9d1), the script was committed before its one run
+  (57491e223), and the output before it was read (61efe388b).
+- **The result.** With τ on any thread's closed geodesic up to length 8, W114's zero-dof quark assignments keep a fit
+  with one degree of freedom to spare on all 40 lines. The tick's line passes too, so S4 failed (prior 85%), but
+  p = 0.60. The quark data hold τ only to about 0.05 around each solution. No evidence.
+- **Surfaces.** The NOTE (section, header bullet, table row, files), the goal page, relay §179, the ledger's relay
+  row, the state page, and the lock test. 0 of 19.
+
 ## W116's rule: the seed's marks, the owner's choice after W115 (relay §178)
 
 - **The question.** Does the seed set the departure from the symmetric points? The mechanism is fixed first: τ lies on

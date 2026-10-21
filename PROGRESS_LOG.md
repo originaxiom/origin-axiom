@@ -19848,3 +19848,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **On a line, the exact quark fits that had no number to spare keep one,** so a fit there becomes a real test.
 - **The seed's own line is one of the forty, and the other lines are its comparison.**
 - **The rule and its predictions are fixed before the program exists.** 0 of 19.
+
+## 2026-10-21 — the seed's lines: every one works, so none is special
+
+- **The test put the shape of space on each of the forty lines the patterns of moves mark.**
+- **The quark fits work on all forty, with a number to spare,** the seed's own line among them.
+- **So a line tells us nothing.** The quark data fix the shape only roughly, more roughly than the lines are spaced.
+- **The seed would have to mark a point, not a line,** and the only points its own line marks are symmetric ones,
+  where the data cannot sit. The count of explained numbers stays where it was. 0 of 19.
