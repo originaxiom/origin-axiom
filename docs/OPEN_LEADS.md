@@ -3946,3 +3946,17 @@ stage in the twisted frame and tested it once against data.**
      says yes; the SM seat is asked for a proof, then a seal. Not before the seats' reads.
   4. **P-204:** a relational record, Hom_G(W, V).
 - **Review 66** falls due at twenty merges; R65-6, R65-7 and R65-8 must be resolved there. **0 of 19.**
+
+## ⟳ CURRENCY NOTE — 2026-10-21 (S158–S165 and the B1695 seal)
+
+- **The state moves and nothing computed holds τ** (B1686: W60 and W62 verified). **Under a covariant Higgs the hierarchy
+  is exponents times one modulus** (B1691, corrected at S164: at the canonical end the first generation is lifted), a flat
+  line splits the sectors' m₂/m₃ by at most four (B1692), one Higgs is excluded and the down–lepton pair allowed (B1693,
+  sealed), and the parameter-free curve puts all three sectors within a factor of about eight but passes none jointly
+  (B1694, sealed).
+- **Open leads, in order.**
+  1. **P-243 (B1695, sealed):** one line, one τ, the unique section against the six ratios — running.
+  2. **What selects τ** (W62 runs it to the cusp; the principle's own points give no hierarchy, B1691's second addendum).
+  3. **P-169's rest:** the first generation with a line, its channel R₁ (B1656's twist).
+  4. **P-115:** what fixes the Higgs's section and weight.
+- **0 of 19.**
