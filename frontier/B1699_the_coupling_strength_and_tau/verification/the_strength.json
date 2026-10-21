@@ -1,0 +1,131 @@
+{
+ "invariance_max_rel_dev": 1.3322676295501878e-15,
+ "symmetry_lines": {
+  "0.0|DR|top": {
+   "critical_y": [],
+   "monotone_increasing": true,
+   "at_y_min": 0.1741504912107096,
+   "at_y_5": 230403.7499768296
+  },
+  "0.0|DR|frob": {
+   "critical_y": [],
+   "monotone_increasing": true,
+   "at_y_min": 0.34830098242141916,
+   "at_y_5": 230403.749978525
+  },
+  "0.0|a0|top": {
+   "critical_y": [],
+   "monotone_increasing": true,
+   "at_y_min": 0.002640852320572074,
+   "at_y_5": 0.1086262818712917
+  },
+  "0.0|a0|frob": {
+   "critical_y": [],
+   "monotone_increasing": true,
+   "at_y_min": 0.0038145644630485508,
+   "at_y_5": 0.21701428134260572
+  },
+  "0.5|DR|top": {
+   "critical_y": [],
+   "monotone_increasing": true,
+   "at_y_min": 0.16935192971860485,
+   "at_y_5": 230403.74997804372
+  },
+  "0.5|DR|frob": {
+   "critical_y": [],
+   "monotone_increasing": true,
+   "at_y_min": 0.336177700925236,
+   "at_y_5": 230403.7499797391
+  },
+  "0.5|a0|top": {
+   "critical_y": [],
+   "monotone_increasing": true,
+   "at_y_min": 0.002814039303110496,
+   "at_y_5": 0.10862628244527672
+  },
+  "0.5|a0|frob": {
+   "critical_y": [],
+   "monotone_increasing": true,
+   "at_y_min": 0.0028141952848204903,
+   "at_y_5": 0.21701428134142256
+  }
+ },
+ "grid": {
+  "points": 2138,
+  "reflection_max_rel_dev": 0.0,
+  "DR": {
+   "dS_dy_nonpositive_at": [],
+   "min_dS_dy": 0.06670063558283923,
+   "nonpositive_within_0.05_of_the_arc": true
+  },
+  "a0": {
+   "dS_dy_nonpositive_at": [
+    [
+     -0.3,
+     0.96
+    ],
+    [
+     -0.1,
+     1.0
+    ],
+    [
+     -0.05,
+     1.0
+    ],
+    [
+     0.05,
+     1.0
+    ],
+    [
+     0.1,
+     1.0
+    ],
+    [
+     0.3,
+     0.96
+    ]
+   ],
+   "min_dS_dy": -7.301692622925515e-06,
+   "nonpositive_within_0.05_of_the_arc": true
+  }
+ },
+ "arc": {
+  "DR|top": {
+   "at_i": 0.17415049121070955,
+   "at_omega": 0.16808264789564312,
+   "critical_theta_over_pi": [
+    0.5889
+   ]
+  },
+  "DR|frob": {
+   "at_i": 0.34830098242141905,
+   "at_omega": 0.33616529579128607,
+   "critical_theta_over_pi": [
+    0.566
+   ]
+  },
+  "a0|top": {
+   "at_i": 0.002640852320572074,
+   "at_omega": 0.0028140049812411592,
+   "critical_theta_over_pi": [
+    0.6153
+   ]
+  },
+  "a0|frob": {
+   "at_i": 0.0038145644630485508,
+   "at_omega": 0.0028140049812411592,
+   "critical_theta_over_pi": []
+  }
+ },
+ "selected": {
+  "theta_over_pi": 0.5888214675333712,
+  "tau": [
+   0.2754337443773236,
+   0.9613200572433133
+  ],
+  "strength": 0.20892803278280164,
+  "second_difference_along_arc": -1.320998387011052e-06,
+  "second_difference_normal": 1.377280820402671e-05,
+  "kind": "saddle"
+ }
+}

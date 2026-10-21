@@ -1,0 +1,1 @@
+selected tau 0.275434+0.961320i (saddle); strength 0.208928

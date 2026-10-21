@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<repo>/frontier/B1699_the_coupling_strength_and_tau/verification/the_selected_tau.py", line 16, in <module>
+    with contextlib.redirect_stdout(io.StringIO()): spec.loader.exec_module(te)
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<repo>/frontier/B1691_the_exponents_at_the_two_fixed_points/verification/the_exponents.py", line 18, in <module>
+    from qseries import S, theta2, theta3, E2, E4, E6, serre
+ModuleNotFoundError: No module named 'qseries'

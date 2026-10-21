@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<repo>/frontier/B1699_the_coupling_strength_and_tau/verification/compare.py", line 17, in <module>
+    G = json.loads((HERE / "the_selected_tau.json").read_text(encoding="utf-8"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '<repo>/frontier/B1699_the_coupling_strength_and_tau/verification/the_selected_tau.json'
