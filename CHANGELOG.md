@@ -1,5 +1,17 @@
 # Changelog
 
+## A correction and the known gaps, after the owner's check (relay §192)
+
+- **The correction.** Relay §190 wrongly exempted W112 from the large-L question. W64–W69, W112 and W118 rest on
+  B1644's form, so W112's massless first generation (K6) is under the same OPEN caveat. W113–W117 are not.
+- **The known gaps,** now on the consolidation page:
+  - the frame's scale is never stated, while running moves m₂/m₃ by up to 1.8;
+  - W119's down-quark margin is thin;
+  - the two seats use different match conventions;
+  - eleven tests of forced structure against the masses ran on one day, with no unfitted prediction confirmed.
+- **Asks to main:** a stated scale, and one match convention.
+- **Surfaces.** The consolidation page, the NOTE (W112), relay §192, the ledger, the state page's range. 0 of 19.
+
 ## Main's S166 read (ledger)
 
 - **B1695** (main, opened): one line and one τ for all three sectors. The strict fit fails (χ² 61.3). A loose match

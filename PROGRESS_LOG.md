@@ -19988,3 +19988,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **One setting for all three kinds of particle does not fit the measured ratios strictly.** A loose match exists,
   but random made-up targets are matched about as often, so it shows the setup is flexible, not that it predicts. The
   main seat says so itself, as this seat's skeleton test did. 0 of 19.
+
+## 2026-10-21 — checking our own work, at the owner's request
+
+- **The owner asked whether anything crucial was being missed.** A careful look found one real error: an earlier note
+  said a caveat did not touch one test (W112), but it does. That is corrected.
+- **It also found four gaps that change no verdict but matter.** The record never says at what energy its setup
+  holds. One margin in the last test is thin. The two seats judge a "match" differently. And no one has counted how
+  many tests have been tried in total. The last is now counted for today: eleven tests, and none confirmed a
+  prediction. The other gaps are written down and put to the main seat. 0 of 19.

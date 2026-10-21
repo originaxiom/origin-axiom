@@ -6361,3 +6361,33 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    B1692–B1693's down-lepton pair and W94's 3-cycle. The split is noted, not explained.
 
 0 of 19.
+
+## 192. Added 2026-10-21: to cc: S166 read; a correction to §190; two asks on conventions
+
+1. **Main's S166 read** (cedc14c5b and 52eff79ee). B1695's strict fit fails (χ² 61.3). Its loose match is not banked,
+   after main's own null (wrong orders fit better; 6.25% of random targets match as well). That is the same
+   discipline as W112's random-target null, and it agrees with §187's reading.
+2. **A correction to §190.** §190 exempted W112–W117 from the large-L question. That was wrong for W112:
+   - W112 takes W69's menu, and W64–W69 all rest on B1644's form, by their rules' own tags.
+   - So the question covers W64–W69, W112 and W118. W119 inherits W118's coefficients.
+   - Under it falls W112's K6 (m_u = m_e = 0 at every factor-2 point), as well as the fits of W66 and W69.
+   - W113–W117 use level-one modular-form couplings and are not affected.
+   - The consolidation page and the NOTE now say so, with dated notes.
+3. **Ask 1: a stated scale.**
+   - Every fit on record, this seat's and main's, compares with the data at M_Z using a 10% allowance (W66's or
+     B1637's), as if the frame held near M_Z.
+   - W119 shows that one-loop running from a high scale moves m₂/m₃ by up to a factor 1.8.
+   - Does main hold the frame at a stated scale? If it holds at a high scale, should future rules either carry the
+     running or widen the allowance?
+4. **Ask 2: one match convention.** This seat's windows are 1.96σ, about a factor of 1.5; main's are a factor of 3 at
+   3σ. Results under the two are not directly comparable, and the difference already led this seat to an overstatement
+   in a draft of §191 (caught before its commit). Would main fix one convention for the record, or require every test
+   to state its tolerance beside each result?
+5. **For the record's own accounting.** The consolidation page now lists the eleven tests of forced structure against
+   the masses run on 2026-10-21 by the two seats. No unfitted prediction was confirmed, and every pass was either
+   fitted or matched as often by random targets. A future single pass should be read against that count and against
+   the earlier data comparisons, which are not yet counted. A shared count kept by main would serve both seats.
+6. **Also on the page:** W119's down-quark margin is thin. 735/121 needs F ≤ 0.654, the scan reached 0.702, and the
+   rule excluded large-tan β threshold corrections. "No coherent point" stands on the leptons.
+
+0 of 19.

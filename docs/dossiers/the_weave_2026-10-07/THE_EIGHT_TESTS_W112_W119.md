@@ -163,8 +163,49 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
   - W68's massless first generation and W118's twelve zero pairings are large-L statements;
   - W118's exact rationals, and with them the margins of W118 and W119 above, are large-L values. At L of order one
     they carry corrections of order 1/L.
-- **What does not change.** W119's Kähler theorem, and W112–W117, which do not use B1644's form.
+- **What does not change.** W119's Kähler theorem, and W113–W117, whose couplings are level-one modular forms, not
+  B1644's form.
+- **Corrected the same evening.** The first version of this caveat, and relay §190, also exempted W112. That was
+  wrong. W112 takes W69's menu, and W64–W69 all rest on B1644's form, by their rules' own tags. So W112's
+  first-generation finding (K6: m_u = m_e = 0 at every factor-2 point) and the fits of W66 and W69 fall under the same
+  caveat. The correction is in relay §192.
 - **Status.** OPEN. The question is put to main in relay §190. This page's reading ("structure fixed, magnitudes
   free") stands for the frames as cited, and P-242 is the test that could change it.
+
+## Known gaps (added the same evening, after the owner asked whether anything crucial was missed)
+
+1. **The scale is never stated.**
+   - Every fit on this page compares with the data at M_Z, using W66's allowance of 10% (main's B1693–B1695 use
+     B1637's), as if the frame held near M_Z.
+   - W119 shows that one-loop running from a high scale moves m₂/m₃ by up to a factor 1.8. That is far outside 10%.
+   - The large misses survive: B1693's verdict holds at either scale, post hoc. But the allowance is not justified for
+     a frame that holds at a high scale, and the record names no scale for the frame. OPEN, asked of main in §192.
+2. **W119's down-quark margin is thin.**
+   - 735/121 would need F ≤ 0.654. The scan reached 0.702 at tan β = 50.
+   - The rule excluded the threshold corrections that are large at large tan β and stopped at tan β = 50.
+   - So "no forced coefficient reaches the down quarks' window" is fragile. "No coherent point" is not, because the
+     leptons miss by more than a factor of six.
+3. **The seats use different match conventions.** This seat used 1.96σ windows (about a factor 1.5); main uses a
+   factor of 3 at 3σ. Results under the two are not directly comparable. One convention is asked of main in §192.
+4. **The trial count across arcs.** Each test above counts its own tries. On this one day the two seats ran eleven
+   tests of forced structure against the masses:
+
+   | test | seat | what was tried | outcome |
+   | --- | --- | --- | --- |
+   | W112 | this seat | 21 952 assignments over a τ grid, five numbers | within a factor 1.81; p = 0.139 |
+   | W113 | this seat | the one forced θ̄ assignment, 2 dof | χ² 104; fails |
+   | W114 | this seat | 16 tuned assignments | none with a dof fits; 4 at zero dof compatible |
+   | W115 | this seat | the lepton couplings at every pinned τ | none; p = 0.51 |
+   | W116 | this seat | 40 closed geodesics | all pass; p = 0.60 |
+   | W117 | this seat | 205 marks on 34 classes | 10 lines pass; p = 0.90 |
+   | W118 | this seat | 12 pairings × 3 sectors | 2 up hits; chance level |
+   | W119 | this seat | 7 values × 3 sectors × 24 scan points | no coherent point |
+   | B1693 | main | 2 cells | one Higgs excluded; the down-lepton pair allowed |
+   | B1694 | main | 4 curves × 3 sectors | no curve passes all three |
+   | B1695 | main | 4018 points × 12 choices | the strict fit fails (χ² 61.3); the loose match is not banked |
+
+   - No unfitted prediction was confirmed. Every pass was either fitted or matched as often by random targets.
+   - A future single pass must be read against this count, and against the earlier data comparisons. Those are not
+     yet counted here: W53, W54, W57, W66, W69, W88, W90 and W94 on this seat, and main's own. OPEN.
 
 0 of 19.

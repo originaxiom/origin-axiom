@@ -8261,6 +8261,11 @@ law): every quark hand, every coupling weight, every coupling. 0 of 19.
   with the CKM phase alive, through mixed weights across the sectors. The project's next stage takes it (the goal page,
   updated).
 
+**A caveat added later the same day (2026-10-21, after main's S164; OPEN).** W69's menu rests on B1644's form, which
+this seat reads as B1654's large-L limit (relay §190; not proved). If so, K6's massless first generation
+(m_u = m_e = 0) is a large-L statement, and at B1667's end radius the first generation may be lifted, as main found for
+B1691. Relay §190 wrongly exempted this arc; the correction is in §192.
+
 **Status.** COMPUTED (the rule first; one run; K2 and K3 failed as predicted, the rest held). A WEAVE-type result
 given Λ and W69's hypotheses: every assignment, every point, against random targets. A clean negative for stage 1.
 0 of 19.
