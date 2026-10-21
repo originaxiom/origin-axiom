@@ -861,6 +861,9 @@ Under the owner's rulings, the table's rows split into two groups:
 - **W116: the seed's line costs nothing and selects nothing** (one run; relay §179). With τ on any thread's
   closed geodesic up to length 8, the zero-dof quark fits keep one degree of freedom to spare on all 40
   lines, the tick's among them (p = 0.60). No evidence. 0 of 19.
+- **The owner's choice after W116: three arcs in order, then a pause to consolidate.** The first is W117, a
+  point on the line (`W117_RULE.md` in the weave dossier; relay §180), its rule committed before its script.
+  0 of 19.
 
 ## Questions open with main
 
@@ -885,4 +888,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W116 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§179).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§180).

@@ -1,5 +1,15 @@
 # Changelog
 
+## W117's rule: a point on the line, the first of the owner's three arcs (relay §180)
+
+- **The question.** Does the weave mark a point on the seed's line? The mechanism is fixed first: τ is held on a
+  thread's closed geodesic and settles where a canonical weave functional (W51) is extremal along it.
+- **The rule is committed before its script.** It fixes the marks, the census of every thread up to length 8, the
+  fits at each mark (two degrees of freedom for W114's zero-dof assignments), the null over the lines, the cells and
+  their priors.
+- **Surfaces.** The rule, the goal page (the owner's three arcs), relay §180, the ledger's relay row, and the state
+  page. 0 of 19.
+
 ## W116: the seed's marks, no evidence (relay §179)
 
 - **The order.** The rule was pushed before the script (e34f9f9d1), the script was committed before its one run

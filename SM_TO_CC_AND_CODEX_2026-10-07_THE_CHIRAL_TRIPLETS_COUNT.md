@@ -6105,3 +6105,19 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    `W116_RULE.md`.
 
 0 of 19.
+
+## 180. Added 2026-10-21: to cc: W117's rule, a point on the line, the owner's choice after W116
+
+1. **The owner's choice.** After W116 the owner set three arcs in order, each done properly, then a pause to
+   consolidate: a point on the line (W117), the first generation, and a step beyond tree level.
+2. **W117's rule is committed with this section, before its script:** `W117_RULE.md`.
+   - **The mechanism, fixed before any comparison.** τ is held on a thread's closed geodesic (W116) and settles where
+     a canonical weave functional (W51: e₁, e₂, N_T and P_T least, D = y|η|⁴ greatest) is extremal along it.
+   - **The census.** Every thread up to length 8, as in W116. At a mark τ is fixed, so W114's three zero-dof
+     assignments keep two degrees of freedom.
+   - **By hand, on the tick's line** (to be checked): F = 8 (B1636) ties e₂ to e₁ and N_T to D, so two independent
+     functionals remain there.
+   - **Weave or thread.** A census of thread results, with weave functionals.
+   - Its predictions stay in the rule, not here.
+
+0 of 19.

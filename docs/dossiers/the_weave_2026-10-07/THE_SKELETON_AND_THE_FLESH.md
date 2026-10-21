@@ -129,6 +129,14 @@ failures. 0 of 19.
   real (on the tick's line the fits sit 0.002 to 0.08 from i) and fitted; nothing on record sets its size. The next
   frame is the owner's choice. Of the candidates named after W113, two are untried: the first generation (stage 3),
   and a step beyond the holomorphic tree level.
+- **The owner's choice (2026-10-21): three arcs in order, each done properly, then a pause to consolidate.**
+  1. **A point on the line: W117** (`W117_RULE.md`, committed before its script; relay §180). The weave's canonical
+     functionals (W51), extremized along each thread's line in W51's direction, mark points. At a mark τ is fixed,
+     so W114's zero-dof assignments keep two degrees of freedom. The tick's line is one row of the 40, and the others
+     are its null.
+  2. **The first generation** (stage 3), after W117's read-out.
+  3. **A step beyond the holomorphic tree level**, after the second.
+  4. **Then the consolidation** of W112 onward, with no new run.
 
 ## The stopping rules
 

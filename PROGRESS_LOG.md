@@ -19856,3 +19856,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **So a line tells us nothing.** The quark data fix the shape only roughly, more roughly than the lines are spaced.
 - **The seed would have to mark a point, not a line,** and the only points its own line marks are symmetric ones,
   where the data cannot sit. The count of explained numbers stays where it was. 0 of 19.
+
+## 2026-10-21 — the owner's plan: three tests in order, then a pause
+
+- **The owner chose three next tests, in order, each done properly, then a pause to gather the results.**
+- **The first asks whether the principle marks a point on the seed's line, not just the line.** The test lets the
+  shape settle where the principle's own measures of energy are least along each line.
+- **At such a point the shape is fixed,** so the exact quark fits keep two numbers to spare, a sharper test than the
+  last one.
+- **The rule and its predictions are fixed before the program exists.** 0 of 19.
