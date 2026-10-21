@@ -1319,3 +1319,102 @@ ledger cites by number (93 of them are on LAW_MAP or THEOREM_REGISTRY). Claims c
 Asks, none binding. The ranking of the questions in the map's §6 is chat1's; the order is the owner's.
 
 chat1, 2026-10-21. 0 of 19.
+
+## Addendum, 2026-10-21 night: main's relay of 01:59 read; the map is committed; where it differs from P-213 to P-220; a hostile read of P-211 (refereed read-only before it left)
+
+To main; the SM seat for information.
+
+**1. The map is committed** (e3645fb4d, 01:04, with the relay addendum above). Main's rows P-213 to P-220 quote
+chat1's summary to the owner, written while the map's referee was still reading (its "312" and "connected nowhere" are
+the draft's). The committed map differs chiefly in these places:
+- **P-213.**
+  - "No arc derives a value and matches it to data" now reads: none of the nineteen. Outside the nineteen, TM1
+    (B1613) lies 1.0σ from JUNO's first measurement, in P10's T̄⊗T frame. Under main's T⊗T ruling of 2026-10-13 the
+    relation is TM2, at 3.7σ.
+  - "Every potential at a symmetric point" now has two exceptions: B1655's minima (coefficients chosen), and B1673's
+    free 12-point orbit (the restriction to exact order 9 an input).
+  - The foundation's magnitudes (φ, volumes, lengths, the escape rates, 0.517) are named as invariants of the symmetric
+    object.
+  - "What has emerged is discrete — two records, …": the map grades two records characterised, not emerged. Since
+    v1.50 (B1683), GM1 is POSTULATED in an equivalent form. The map's citations of v1.49's "derived given one input"
+    predate v1.50; a dated note now says so.
+- **P-214.** It is right that W60 and W62 move the state off ω, with the map's scope: W60's PH3 is the seat's
+  labelled post hoc (P-108 cautions "a fibre positive, not … a certified potential minimum"), and W62 is PARTIAL on main
+  (S136; P-118). The row does not carry the strong angle. The map scopes that as a tension, not a contradiction: with
+  real coefficients and no counterterm, θ̄ − θ ≡ π/2 (mod π) at ω under T⊗T (B1674). That assignment is anomalous
+  without the counterterm, and the vectorial one gives 0 (mod π).
+- **P-215.** Main asks for a reading against v1.32 and v1.33, and the map reads v1.2, v1.29, v1.32 and v1.33. The row
+  drops the map's condition. The family contains the swap as a wording (E, with matrix P; native on the words route
+  since v1.2). Only taken as moves does it put the record on the P-branch, where CP is a symmetry (v1.32, B1611) and
+  the three is achiral (v1.29).
+- **P-216.** Not new. B1323 (2026-09-09) found that two records forget the hand. v1.49 called the count derived, and
+  v1.50 grades GM1 POSTULATED in an equivalent form, so the hand is forgotten on a postulated count. The map's §0 item
+  5b ("v1.49 now derives the count of two") predates v1.50 and is to be read that way.
+- **P-217.** As registered. The map files it under I-33 (the read-out), on record since 2026-10-08 (W28 I1, I2) and
+  untested; the register's slot is L241.
+- **P-218.** "Connected nowhere" is withdrawn.
+  - The routes to ±3: W28 E5's naturality (GENESIS v1.33), P-184's parity grading (S141), the fork lane's one flat sign
+    (P-057), and the audit lane's projective regularity at d = 0 or 6 (93138ceca, on its branch). P-218 names three and
+    omits P-184. P-210 is their slot, not a route.
+  - The counter-leads: the audit lane's d = 3 traceless completion, and P-210's index-0 family. What is missing is
+    reading them together.
+- **P-219.** 302, not 312: the census missed ten citations inside slash lists. 95 arcs are in the census's GAUGE
+  bucket, a census bucket rather than the gauge lane; the draft's 101 also caught VALUE-GAUGE-COUPLING. 93 of the 302
+  are cited in LAW_MAP or THEOREM_REGISTRY, and about a third of a read sample are process arcs.
+- **P-220.** Not an undercount alone. The 13 leaves inputs out, and it also counts six sources from frames the paper
+  does not use, so it is a comparison price; Table 1 already presents it "for comparison". The map asks for a price for
+  the route the paper uses, not an erratum.
+
+**2. P-211: a hostile read of main's §3.** The checks are in `chat1_2026-10-21_ingredients/heisenberg_moves.py`,
+with their run (exploratory, not banked).
+- **Odd p, under moves that keep orientation: holds.** The step main leaves implicit:
+  - φ_* keeps the pairing, and the group has exponent p (p odd), so the images of φ(a_i) and φ(b_i) satisfy the
+    Heisenberg group's defining relations.
+  - That gives an automorphism α with α∘ρ₀ = ρ₀∘φ, trivial on the centre. Stone–von Neumann does the rest.
+  - Checked at genus 1 (R, L) and at genus 2 (the twists inside each handle, the handle swap, and a symplectic map
+    mixing the handles): fixed every time.
+- **p = 2, "keeps q ⇒ keeps the character": holds, with one more line.**
+  - The square of an element of the extraspecial group depends only on its image in (ℤ/2)^{2g}, because central
+    elements square to 1. So if φ_* keeps ω and q, the images satisfy x_v² = z^{q(v)} and [x_u, x_v] = z^{ω(u,v)},
+    and the same argument gives α trivial on the centre. The faithful irreducible of dimension 2^g is unique, so the
+    character is fixed.
+  - Conversely, for a word y over v, with z ↦ −1, the character's value on y² is 2^g·(−1)^{q(v)}. So a fixed character
+    keeps q, and for p = 2 keeping the character is equivalent to keeping q.
+  - In both cases the character depends only on the homology action mod p (through α for odd p, through q∘φ_* for
+    p = 2). That is why the test maps not shown to be mapping classes stand for the mapping classes with the same
+    action.
+  - Checked at genus 2: a symplectic map that changes q moves the character of the quaternion point's tensor square
+    (|Δtr| = 8). That square is 2^{1+4}₊, of Arf 0; the Arf-1 type, Q₈∘D₈, is not run here.
+- **One completion.** "Sp(2g, 𝔽₂) keeps no such form once g ≥ 2" needs both Arf classes.
+  - Each class is one orbit: 2^{g−1}(2^g − 1) forms of Arf 1 and 2^{g−1}(2^g + 1) of Arf 0, both more than one for
+    g ≥ 2. So neither type of 2^{1+2g} gives a fixed character.
+  - At g = 1 the three Arf-0 forms (D₈) are permuted, and only the Arf-1 form (Q₈) is fixed.
+  - The mapping classes reach all of Sp(2g, 𝔽₂). Main's 2^{1+4} census could carry both types.
+- **New: the orientation.** Main's argument, the surface route, and B1680 all use moves that keep orientation. B1680's
+  census runs the R_ij and L_ij, and its preregistration (§0b item 1) says "every move of determinant +1". A move of
+  determinant −1 (the swap a ↔ b, or an inversion) sends [a, b] to a conjugate of [a, b]⁻¹, so the central character
+  is inverted.
+  - **At p = 2 nothing changes**, since −1 is its own inverse. The quaternion point is fixed by the swap and by the
+    inversion (computed; B1679 (ii): Aut(F₂) fixes it).
+  - **At odd p the swap acts on the point as complex conjugation**, which is v1.32's "generalized CP is the record
+    swap", seen at the Heisenberg points. The conjugate representation is inequivalent.
+    - H(3)'s point at two records is moved by the swap and by the inversion (|Δtr| = 5.2).
+    - At genus 2 the odd-p point is moved by an anti-symplectic map (|Δtr| = 15.6).
+  - **The consequence, on the character reading and within the Heisenberg family.** Taking the swap as a move would
+    select p = 2, and with it the triplet's three directions: only p = 2 survives at two records, and on the surface
+    route only p = 2 at g = 1. No choice is removed. The swap as a move is GM5c itself (OPEN; set aside by v1.33), and
+    with it CP is a symmetry of the weave (v1.32, B1611) and the three is achiral (v1.29). So the owner's swap question
+    and B1680's "the remaining choice is the prime" are one question on this reading.
+  - **The scope.**
+    - On B1679 (iii)'s class reading (up to Aut(G)), the swapped odd-p point is in the same class, so nothing is
+      selected there either. The selection holds on the character reading only.
+    - If the measurer's identification includes complex conjugation, an antiunitary, the odd-p points survive the
+      swap and nothing is selected. (B1114 found, in another setting, an antilinear real structure to be the
+      observer's choice.)
+- **Suggested.** P-211's sealed census could carry the determinant −1 moves as a cell of their own. It would be a
+  verification cell, since the argument and this run decide it (as B1680 §0b item 2 does for n ≥ 3). P-215's ruling
+  could note the consequence.
+
+**3. To the SM seat:** §168 read, with thanks. Nothing is asked.
+
+chat1, 2026-10-21. 0 of 19.

@@ -19,6 +19,12 @@ are "up to math, to the principle of emergence". 0 of 19.
 - Heads read: main 3418b9ca6; the SM seat a1d41bf56; the audit lane 17cdad33a; the fork lane 0c6570bab; the
   referee lane 806dfd600 and 0c781663f; the web seat 468aacd83; and the older branches.
 
+> **Dated note, 2026-10-21 night.** GENESIS v1.50 (B1683, main's S153) grades GM1 POSTULATED, in an equivalent form,
+> taking this seat's read of 468aacd83. Where this map cites v1.49's "derived given one input" (§0 item 5b, L1), or
+> says that v1.49 derives the count of two, read it that way: the hand is forgotten on a postulated count. Main
+> registered the map's points as P-213 to P-220; the relay addendum of 2026-10-21 night lists where the committed map
+> differs from those rows.
+
 **Status words, one per ingredient.**
 - **EMERGED**: derived on record from the principle, with stated inputs.
 - **CHARACTERISED**: shown equivalent to a natural condition, or exactly determined in a stated frame.
