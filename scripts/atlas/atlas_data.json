@@ -12740,6 +12740,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1692": {
+   "slug": "the cusp with a twisted line per sector",
+   "motifs": [
+    "choice",
+    "coupling",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B169": {
    "slug": "isomonodromy flow",
    "motifs": [

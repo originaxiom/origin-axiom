@@ -1,5 +1,19 @@
 # Changelog
 
+## S161 A FLAT LINE SPLITS THE SECTORS BY AT MOST FOUR (B1692, PROVED; P-169's first part) (2026-10-21)
+
+- **B1692 (no data).** In the record's fibre frame with a flat hypercharge line (B1653's residue coupling and charges)
+  and one covariant Higgs (B1691), the two codes agree (18 |q|^½ without the line), the m₂/m₃ exponent ½ is kept in
+  every sector, and the sectors' second-to-third hierarchies differ only by a coefficient in [1, 4]: 484 lines at
+  Im τ = 14 (largest spread 3.99999993; generic factors 1, 2, 4; 4/3 and 8/3 at tie lines; β never matters), four
+  sections at Im τ = 1.5, 2, 3 (3.01, 3.60, 3.92); the half-period line makes the sectors coincide. The mechanism: only
+  the residue doublets' directions enter, and they tend to basis lines except at ties.
+- **Disclosed.** Main recalled running masses at M_Z from memory and set the bound against them before any seal; the
+  comparison is P-241, to be sealed with the disclosure.
+- **Register.** P-169 noted (its first part done); P-241 registered. FLOOR 241.
+- **Landing suite.** 116 files (B1692's lock, every arc lock and the corpus-scanning tests), 2032 passed, 1 failed, 3 skipped (9:01, -n 8); the one failure is B805's attachment lock (P-239); after the suite B1692 gained its up-readings check (B1660's three readings of one Higgs: the bound holds, largest spread 3.99999999985), its lock and the gates re-run
+- 0 of 19.
+
 ## S160 P-240 ASSESSED: THE EXPONENTS ALONE PREDICT NO MASS (B1691's addendum) (2026-10-21)
 
 - **Without data.** At weight 7/2, the lowest covariant section with a ∂²R component, the section's free ratio t makes

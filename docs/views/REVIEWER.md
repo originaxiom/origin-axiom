@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1420** |
-| words of findings prose | **1,134,596** |
-| test lock files referenced | **837** |
-| arcs carrying an authored verdict | **1420** (100.0 %) |
+| research arcs with findings | **1421** |
+| words of findings prose | **1,135,585** |
+| test lock files referenced | **838** |
+| arcs carrying an authored verdict | **1421** (100.0 %) |
 | recorded closures | **825** (658 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 967 |
+| PROVED | 968 |
 | NEGATIVE | 349 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1691`** (1562 words, 1 locks)  
-THE EXPONENTS AT THE TWO FIXED POINTS (P-227, part 1): if the Higgs's direction in M is a covariant section of the matter's representation, the record's mass ratios near the cusp are powers of one |q| -- m2/m3 ~ |q|^(1/2) and m1/m3 ~ Im tau |q| for every section with a second-derivative component at every weight to 23/2 (by exact q^(1/8)-series and by direct evaluation), m1 = 0 without it, and no 2-3 hierarchy for a constant direction (the control) -- because R.R = R.DR = 0 and R.D2R = -DR.DR exactly (the sections are free on R, DR, D2R: Wronskian -(i/8) eta^9); near omega the exponents follow the residual Z3 charge (k mod 6: (1, 1), (2, 3), or no 2-3 hierarchy); the SM seat's W72 Higgs mode is exactly eta^6 R, isotropic. A reduction to discrete exponents and one scale, not a number: tau and the coefficients stay free, and nothing computed holds tau (B1686). The comparison with measured masses is P-240, sealed first. 0 of 19.  
-`B1691_the_exponents_at_the_two_fixed_points/FINDINGS.md`
+**PROVED — `B1692`** (989 words, 1 locks)  
+THE CUSP WITH A TWISTED LINE PER SECTOR (P-169, part 1): with a flat hypercharge line on the fibre and one covariant Higgs, B1653's residue coupling and B1645's closed form agree (18 |q|^(1/2) without the line), the line keeps the m2/m3 exponent 1/2 in every sector, and it splits the three sectors' second-to-third hierarchies only by a coefficient that lies in [1, 4]: at Im tau = 14 over 484 lines the largest spread is 3.99999993 (generic factors 1, 2, 4; 4/3 and 8/3 at isolated tie lines; the line's real part never matters), at Im tau = 1.5, 2, 3 over four sections it is 3.01, 3.60, 3.92, and at W60's half-period line the sectors coincide (the d-e wall at the selected state); the reason is that m2/m3 depends only on the residue doublets' directions, which tend to basis lines except at ties. So in this frame a flat line can make the sectors' 2-3 hierarchies differ by at most four; the comparison with data is P-241, sealed first. 0 of 19.  
+`B1692_the_cusp_with_a_twisted_line_per_sector/FINDINGS.md`
 
 **NEGATIVE — `B1673`** (1143 words, 1 locks)  
 THE DYNAMICAL-SELECTION CLAIMS OF 19 OCTOBER, VERIFIED (NEGATIVE; a verification arc of a separate session's unsealed arc, banked under its number; P-199): no static debt of Table 1 is discharged. V = -ln(Im tau |eta|^4) is minimal at omega (1.0335192760; saddle at i, gap 0.0211690050), the classical torus-determinant extremum, already in W51/W59: taking it as the modulus's potential is a choice. The Green function's minimum over the 72 points of exact order 9 is a 12-point orbit (-0.504572), disjoint from W59's eighteen lines; the 3-torsion lies lower. The 8:4 CP count is a coordinate error (points built as (a omega - b)/9, rotated as a + b omega; wrong on 72 of 72); on the true points 0 of 12 are reflection-fixed and the orbit is reflection-closed, so nothing breaks; averaged J is set by the input matrix and is ~1200x the measured 3.1e-5. Orbit-averaged and Selberg spectra (s = l(LR), one thread's length) give ratios near 1/2, missing the data by one to three orders. 0 of 19.  

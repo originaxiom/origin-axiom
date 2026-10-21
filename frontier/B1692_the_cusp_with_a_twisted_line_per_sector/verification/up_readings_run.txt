@@ -1,0 +1,8 @@
+y 2 DR max one-Higgs spread over lines and up readings: 3.640 (16, 'St', 0.27474131080530834, 0.2827736969475441)
+y 2 w7/2 max one-Higgs spread over lines and up readings: 4.000 (0, 'St', 3.99996204661222, 1.0)
+y 3 DR max one-Higgs spread over lines and up readings: 3.966 (0, 'St', 3.9655513150401944, 1.0)
+y 3 w7/2 max one-Higgs spread over lines and up readings: 4.000 (24, 'St', 3.9999981773874214, 1.0)
+y 6 DR max one-Higgs spread over lines and up readings: 4.000 (0, 'St', 3.9999971866406874, 1.0)
+y 6 w7/2 max one-Higgs spread over lines and up readings: 4.000 (0, 'St', 3.9999999998522364, 1.0)
+
+[exited with code 0]

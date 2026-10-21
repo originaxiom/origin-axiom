@@ -17553,3 +17553,11 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   ratio spans every value of (m₁/m₃)/(m₂/m₃)² (computed exactly), so no seal was spent and no data were read.
 - The weight-3/2 section ∂R's constant, 18, found exactly and checked by direct evaluation.
 - **Landing suite.** 116 files (B1691's lock, every arc lock and the corpus-scanning tests), 2032 passed, 1 failed, 3 skipped (11:16, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-21 — S161 A FLAT LINE SPLITS THE SECTORS BY AT MOST FOUR (B1692; P-169)
+
+- After P-240 (no test while the section is free), main took P-169: B1653's residue coupling with a flat line and
+  B1691's covariant Higgs. Exploration first (kept), then two censuses (484 lines at Im τ = 14; 61 lines × four sections
+  at Im τ = 1.5, 2, 3), run as written. Absolute paths in the copied scripts replaced by root discovery before the arc.
+- Disclosed: the running masses at M_Z recalled from memory and set against the bound before any seal (P-241).
+- **Landing suite.** 116 files (B1692's lock, every arc lock and the corpus-scanning tests), 2032 passed, 1 failed, 3 skipped (9:01, -n 8); the one failure is B805's attachment lock (P-239); after the suite B1692 gained its up-readings check (B1660's three readings of one Higgs: the bound holds, largest spread 3.99999999985), its lock and the gates re-run

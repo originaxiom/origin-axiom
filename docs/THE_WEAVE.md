@@ -738,3 +738,12 @@ found with B1635's sealed instrument.
 - **The exponents alone predict no mass (P-240, assessed without data).** The section's coefficients are free: at weight
   7/2 the ratio (m₁/m₃)/(m₂/m₃)² takes every positive value. The one parameter-free covariant direction with a massive
   second generation is the weight-3/2 section ∂R: m₁ = 0 and m₂/m₃ = 18|q|^½ + …. What fixes the section is P-115.
+
+## Main's addition: a flat line splits the sectors by at most four (B1692, PROVED)
+
+- **With a flat hypercharge line and one covariant Higgs** (B1653's residue coupling; B1691's sections), the m₂/m₃
+  exponent ½ is the same in every sector, and the line splits the three sectors' second-to-third hierarchies only by a
+  coefficient in [1, 4]: generic factors 1, 2, 4, with 4/3 and 8/3 at isolated lines; the line's real part never
+  matters; at W60's half-period line the sectors coincide. The reason is that the mass ratio sees only the directions of
+  the residue doublets. So in this frame a single Higgs cannot give sectors whose 2–3 hierarchies differ by more than four;
+  with two Higgs fields the bound binds the pair that shares one. The comparison with data is sealed first (P-241).
