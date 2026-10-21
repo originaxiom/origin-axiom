@@ -1,5 +1,20 @@
 # Changelog
 
+## W112: the skeleton's significance, a clean negative; the project turns to θ̄ (relay §171)
+
+- **The order.** The rule was pushed before the script (e49b89655), the script was committed before its one run
+  (a0e4bb701), and the output was committed before it was read (7e45b18cb).
+- **The result.**
+  - W69's forced menu fits the five fitted numbers within a factor 1.81, at one displacement from ω.
+  - But it fits random targets within a decade just as well one time in seven (p = 0.139; p = 0.190 within half a
+    decade). By the rule fixed in advance, the fit is no evidence.
+  - The first generation fails at every fit.
+- **Next.** θ̄, the one of the nineteen that nature puts at zero (the record's W105). The goal page is updated.
+- **Surfaces.**
+  - The script and its output.
+  - The NOTE: a section, a header bullet, a table row and a files entry.
+  - The goal page, relay §171, the ledger's relay row, the state page, and a test. 0 of 19.
+
 ## The owner's project goal, the skeleton and the flesh; W112's rule (relay §170)
 
 - **The goal.** At the owner's word, the project is fixed in a page with its stages and stopping rules.

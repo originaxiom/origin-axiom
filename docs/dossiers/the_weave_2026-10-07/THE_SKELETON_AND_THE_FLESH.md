@@ -43,6 +43,24 @@ failures. 0 of 19.
 4. **After each stage:** a relay to main, the record's surfaces, and a push. The next stage's rule is written only
    after the last stage's read-out.
 
+## The stages as they went (each recorded in the NOTE)
+
+- **Stage 1, W112: a clean negative.**
+  - The forced menu fits the data's five numbers within a factor 1.81, at one displacement from ω (δ = 0.0227).
+  - But 14% of random targets within a decade of the data are fitted as well (p = 0.139), so the fit is no evidence.
+  - Its one rigid prediction, the first generation, fails at every fit.
+  - So the skeleton is not supported in the fibre frame, and stage 2 as first written (what sets δ) has nothing to
+    explain.
+- **The next stage, by the owner's standing word ("dont stop until it"):** θ̄, the record's own proposal W105. The
+  owner may redirect at any time.
+  - **The reason.** A symmetric principle fixes zeros, and among the nineteen the one value nature puts at zero is θ̄.
+  - **The structure.** W101 found θ̄ = 0 by CP at weight 1, where there is no hierarchy, and θ̄ = −arg(j − 1728) at
+    weights 2 and 3, which vanishes only where δ_CKM also vanishes. Mixed weights and branches across the sectors are
+    untested.
+  - **The question,** a structural yes or no: does any assignment the record allows cancel θ̄ at every τ while the
+    CKM phase and a hierarchy survive? If yes, θ̄ = 0 is forced in that frame, and it is one of the nineteen. If no,
+    θ̄ = 0 and CP violation are exclusive in every frame on record.
+
 ## The stopping rules
 
 - **Success.** An unfitted prediction confirmed, with the look-elsewhere count stated.

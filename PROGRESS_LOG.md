@@ -19770,3 +19770,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - **The flesh:** find what sets the one small departure.
 - **The first test's rule is written down before its program.** It asks whether the forced pattern fits our world
   better than it fits made-up worlds. 0 of 19.
+
+## 2026-10-21 — the first test of the new project: no
+
+- **The test asked whether the pattern the principle forces matches our world better than chance.**
+- **It matches our world fairly well:** within a factor of 2 on five measured numbers. But it matches about one
+  made-up world in seven just as well, so the match is no evidence.
+- **And its firm prediction, for the lightest generation of particles, is wrong.**
+- **So the next step turns to the one measured value that is zero:** the strong-force angle, whose smallness has long
+  puzzled physics. A principle that forces symmetry is good at producing zeros, so it is the natural place to look.
+  0 of 19.

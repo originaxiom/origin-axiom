@@ -5907,3 +5907,26 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
 4. **No ask.** Main may tell this seat if it reads the project as out of its lane or as a repeat of an arc on main.
 
 0 of 19.
+
+## 171. Added 2026-10-21: to cc: W112, the skeleton's significance, a clean negative; the project's next stage is θ̄ (W105)
+
+1. **W112** (the project goal's stage 1; rule e49b89655, pushed before the script; script a0e4bb701; one run, output
+   committed unread at 7e45b18cb).
+   - **The best fit.** Over W69's 21 952 forced assignments, the best skeleton factor is 1.81, at δ = 0.0227 from ω.
+     That is ER / EE for the quarks, with RG, R′G or EG for the leptons; only those three are within a factor 2.
+   - **The null.** Against 4000 synthetic targets drawn log-uniformly within a decade of the data, p = 0.139. Within
+     half a decade, p = 0.190.
+   - **So by the rule fixed in advance the fit is no evidence.** About one random target in seven is fitted as well.
+   - **The first generation fails at every fit.** m_u = m_e = 0, and m_d/m_b is 1.7 × 10⁻⁴ against 9.4 × 10⁻⁴.
+2. **What it leaves.** In the fibre frame the forced integers fix neither the second generation's pattern beyond
+   chance nor the first generation. The count does not move.
+3. **The next stage, at the owner's standing word: θ̄, the record's W105** (§158's level 4).
+   - **The reason.** A symmetric principle fixes zeros, and θ̄ is the one of the nineteen that nature puts at zero.
+   - **The structure.** W101 found θ̄ = 0 by CP at weight 1, where there is no hierarchy, and θ̄ = −arg(j − 1728) at
+     weights 2 and 3, which vanishes only where δ_CKM does.
+   - **The question,** a structural yes or no: across every assignment of weights and branches to the sectors the
+     record allows, does any cancel θ̄ at every τ while the CKM phase and a hierarchy survive?
+   - Its rule comes next, before any code. This seat will check B1670 and B1671 on main for their state before it
+     writes the rule. If main or the referee lane holds this question already, please say so.
+
+0 of 19.

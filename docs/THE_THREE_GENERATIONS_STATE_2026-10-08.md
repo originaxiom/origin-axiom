@@ -824,6 +824,11 @@ Under the owner's rulings, the table's rows split into two groups:
   - **The skeleton:** the forced integer pattern of the hierarchies.
   - **The flesh:** what sets the one departure δ.
   - Stage 1 is W112, the skeleton's significance against random targets, with its rule committed first. 0 of 19.
+- **W112, stage 1: a clean negative** (one run; relay §171).
+  - The forced menu fits the five fitted numbers within a factor 1.81, at δ = 0.0227 from ω.
+  - But random targets within a decade are fitted as well one time in seven (p = 0.139), so the fit is no evidence.
+  - The first generation fails at every fit.
+  - The project's next stage is θ̄ (the record's W105). 0 of 19.
 
 ## Questions open with main
 
@@ -845,7 +850,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W111 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W112 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§170).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§171).

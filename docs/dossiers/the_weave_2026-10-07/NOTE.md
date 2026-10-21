@@ -371,6 +371,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   one recorded run, every one as expected): at genus g ≥ 2 the mapping classes fix no non-trivial SL(2, ℂ) character;
   the odd-p Heisenberg character is fixed at every genus; the 2-group one only at g = 1, as Q₈. On this route the
   prime 2, not the extension, gives two records. A WEAVE result about the forms.
+- W112 (the owner's project goal, stage 1: the skeleton's significance; rule first; one run; K2 and K3 failed as
+  predicted): W69's forced menu fits the data's five numbers within a factor 1.81, at one displacement from ω, but
+  14% of random targets within a decade are fitted as well (p = 0.139), and the first generation fails at every fit.
+  A clean negative for the skeleton in the fibre frame. A WEAVE-type result.
 
 ## The setting
 
@@ -7662,6 +7666,60 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W112. The skeleton's significance (the project goal's stage 1): the forced menu fits the data within a factor 1.81, but no better than chance; 14% of random targets are fitted as well, and the first generation fails at every fit (`the_skeleton.py`; `W112_RULE.md`)
+
+**Why.** This is stage 1 of the owner's project goal (`THE_SKELETON_AND_THE_FLESH.md`, 2026-10-21).
+- W69 scored its 21 952 forced assignments with a χ² at a 10% allowance, and none passed.
+- At the skeleton level, with every fitted observable within a factor F, does the menu fit the data better than it
+  fits random targets?
+
+**The order.**
+- The rule (`W112_RULE.md`) was committed and pushed first (e49b89655), with relay §170.
+- The script was committed before its one run (a0e4bb701), and its output before it was read (7e45b18cb).
+
+**Disclosed.**
+- W69's best point and its unfitted values were seen before the rule. K1's prior was set with them.
+- The script was drafted in scratch while the rule's suite ran, and was not run before its commit.
+
+**The result (COMPUTED; one run; K0, K1, K4, K5 and K6 as predicted; K2 and K3 failed as predicted).**
+
+| cell | prediction | prior | result |
+| --- | --- | --- | --- |
+| K0 | the control: W69's best point reproduced to 1%, by both paths | 95% | **held** — to 10⁻¹³ |
+| K1 | F*(data) ≤ 2 on the grid | 70% | **held** — 1.809 on the grid, 1.808 refined |
+| K2 | p_B1 < 0.05 (within a decade of the data) | 20% | **failed** — p = 0.139; 21% of the synthetic targets are within a factor 2 |
+| K3 | p_B2 < 0.05 (within half a decade) | 10% | **failed** — p = 0.190; 30% of them are within a factor 2 |
+| K4 | at most 50 assignments within a factor 2 | 50% | **held** — 3, and 24 within a factor 3 |
+| K5 | every factor-2 point within 0.12 of an elliptic point | 60% | **held** — all at δ = 0.0227 from ω |
+| K6 | the first generation fails at every factor-2 point | 85% | **held** — m_u = m_e = 0; m_d/m_b 1.7 × 10⁻⁴ against 9.4 × 10⁻⁴ |
+
+- **The one family within a factor 2.** ER / EE for the quarks, with RG, R′G or EG for the leptons. These give one
+  lepton ratio near ω (W68: 1.877 δ). They sit at τ = −0.4857 + 0.8836i, δ = 0.0227 from ω.
+  - m_c/m_t 0.0067 against 0.0037
+  - m_s/m_b 0.0132 against 0.0187
+  - m_μ/m_τ 0.0422 against 0.0589
+  - |V_us| 0.124 against 0.225
+  - |V_cb| 0.062 against 0.042
+- **The next best are away from ω.** RF₊ / F₊F₊ / F₊F₋ at a factor 2.03, at y = 2.48. Then R′F₋ / F₋F₋ / RF₋ at 2.11.
+- **The synthetic targets' best factors** (box B1): median 2.69, and 5% to 95% from 1.50 to 5.59.
+
+**What it shows.**
+- **The skeleton fits, but not specially.** The forced menu reaches the data's five numbers within a factor 1.81, at
+  one displacement from ω. About one target in seven, drawn within a decade of the data, is fitted as well. By the rule
+  fixed in advance, the fit is no evidence: the vision's first half is not supported in the fibre frame.
+- **Its one rigid prediction fails.** The first generation is zero, or off by a factor 5, at every fit. W68 found the
+  same, and B1362 says a small correction cannot lift it.
+- **So in the record's fibre frame,** the principle's integers fix neither the second generation's pattern beyond
+  chance, nor the first generation at all. The count does not move. 0 of 19.
+- **What the negative points to (a READING).** The values a symmetric principle can fix are zeros. Among the
+  nineteen, the one value nature puts at zero is θ̄. The record's own open proposal is W105: θ̄ = 0 at every τ by CP,
+  with the CKM phase alive, through mixed weights across the sectors. The project's next stage takes it (the goal page,
+  updated).
+
+**Status.** COMPUTED (the rule first; one run; K2 and K3 failed as predicted, the rest held). A WEAVE-type result
+given Λ and W69's hypotheses: every assignment, every point, against random targets. A clean negative for stage 1.
+0 of 19.
+
 ## W111. The surface route (P-211), by hand: at genus g ≥ 2 the mapping classes fix no non-trivial SL(2, ℂ) character; the odd-p Heisenberg character is fixed at every genus; the 2-group one only at g = 1, as Q₈ (`W111_PROOF.md`; checks `the_surface_route.py`)
 
 **Why.** Main's relay of 2026-10-21 (two records characterised, and the surface route, §4) asks this seat for a proof
@@ -9661,6 +9719,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W112 | COMPUTED (the rule first; one run; K0, K1, K4, K5, K6 as predicted; K2 and K3 failed as predicted); a WEAVE-type result given Λ and W69's hypotheses | the skeleton's significance (the project goal's stage 1): the best factor over W69's 21 952 assignments is 1.81 (ER / EE with any of RG, R′G, EG, at δ = 0.0227 from ω), but against 4000 synthetic targets within a decade p = 0.139, and within half a decade p = 0.190; the first generation zero or off by a factor 5 at every fit. A clean negative: the fit is no evidence |
 | W111 | PROVED (by hand; the proof committed before its checks; six checks, one recorded run, every one as expected; two launches that wrote nothing, disclosed) | the surface route (P-211): at g ≥ 2 an SL(2, ℂ) character fixed by the handle twists and swaps is trivial (a quaternion handle forces the rest to ±I; the swaps make the handles alike); the odd-p Heisenberg character is fixed by every mapping class at every genus (symplectic action, Stone–von Neumann); the 2-group one only at g = 1, as Q₈ (a transvection keeps q exactly when q(u) = 1; the explicit mixing move μ′ moves it); the numerical search at g = 2 finds 59 zeros, all trivial. A WEAVE result about the forms |
 | W110 | PROVED (by hand; the proof committed before its checks; four checks, one run, every one as expected) | the word side of the record count: for n ≥ 3 no non-trivial conjugacy class of F_n keeps its cyclic length under every R_ij^{±1} (Whitehead's count, (n − 2)·n_i ≤ 0), so none is kept by the transvections, even up to inversion; at n = 2 the classes kept by L and R are the powers of [a, b]; the census (34,998, 31,795 and 70,746 classes at n = 2, 3, 4) agrees; the kept character is the one singular point of κ = −2 (a reading). A WEAVE result about the forms |
 | W109 | PROVED (by hand; the proof committed before its checks; five checks, one run, every one as expected) | B1677 for every n ≥ 3: a character of F_n in SL(2, ℂ) fixed by every transvection is trivial (Fricke's identity on a_i a_j⁻¹ leaves t ∈ {0, 2}; t = 0 fails by the trace-form frame; t = 2 is trivial by Horowitz–Procesi); at n = 2 the fixed characters of R and L are (2, 2, 2) and the quaternion point; the class reading for every finite subgroup of SU(2), since the transvections generate a perfect group and Out(G) is solvable; the n = 3 Groebner basis is exactly the trivial point; SU(2) and a finite image not needed. A WEAVE result about the forms |
@@ -9753,6 +9812,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `THE_SKELETON_AND_THE_FLESH.md`: the owner's project goal of 2026-10-21, its stages and stopping rules. `W112_RULE.md`: the rule, committed and pushed before the code; `the_skeleton.py` → `the_skeleton.json` and `the_skeleton_run.txt`: W112, the skeleton's significance (one run).
 - `W111_PROOF.md`: the proof, committed before its checks; `the_surface_route_exploration.py` → `the_surface_route_exploration_run.txt`: the exploratory search for the mixing move, run before the proof (disclosed); `the_surface_route.py` → `the_surface_route.json` and `the_surface_route_run.txt`: W111, the checks of the surface route (one recorded run).
 - `W110_PROOF.md`: the proof, committed before its checks; `the_kept_words.py` → `the_kept_words.json` and `the_kept_words_run.txt`: W110, the checks of the word side of the record count (one run).
 - `W109_PROOF.md`: the proof, committed before its checks; `the_record_count_for_every_n.py` → `the_record_count_for_every_n.json` and `the_record_count_for_every_n_run.txt`: W109, the checks of B1677 for every n ≥ 3 (one run).

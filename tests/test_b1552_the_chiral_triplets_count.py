@@ -2599,6 +2599,25 @@ def test_the_paper_draft7():
 
 
 
+def test_w112_the_skeleton():
+    """W112 (rule e49b89655; script a0e4bb701; one run 7e45b18cb): K2 and K3 failed as predicted, the rest held; the
+    skeleton distance of the best point recomputed in process from its recorded observables"""
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_skeleton.json").read_text(encoding="utf-8"))
+    assert d["status"] == "one run"
+    assert d["cells"] == {"K0": True, "K1": True, "K4": True, "K5": True, "K6": True, "K2": False, "K3": False}
+    assert 0.05 < d["null"]["B1"]["p"] < 0.5 and 0.05 < d["null"]["B2"]["p"] < 0.5
+    best = d["the ten best, refined"][0]
+    obs = np.array(list(best["observables"].values()))
+    dat = np.array(list(d["data"]["fitted"].values()))
+    assert abs(float(np.exp(np.max(np.abs(np.log(obs / dat))))) - best["refined factor"]) < 1e-6
+    assert best["refined factor"] < 2 and abs(best["delta"] - 0.0227) < 1e-3
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W112. The skeleton's significance" in note
+    assert (here / "THE_SKELETON_AND_THE_FLESH.md").exists()
+
+
 def test_w111_the_surface_route():
     """W111 (proof bfd9ffadc; checks script 663a7904a with the fix 4278ac3b1; one recorded run fdbec8e8e): every check
     as expected; the explicit moves recomputed in process: the handle twists, the swap and mu' keep the boundary word,
