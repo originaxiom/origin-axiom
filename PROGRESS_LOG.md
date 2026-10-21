@@ -20009,3 +20009,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 
 - **Taking τ from the figure-eight's own shape does not fit the masses:** every check failed, and random targets did
   as well about a quarter of the time. That is the twelfth test today, and none has confirmed a prediction. 0 of 19.
+
+## 2026-10-21 — the main seat's own check for misses
+
+- **At the owner's order, the main seat swept the whole record for things it had missed.** Several of its findings
+  rest on this seat's earlier results, which it confirmed. One item is that this seat's last nine tests have not yet
+  been taken into the main line.
+- **This seat sent a precise list of what to take,** file by file, with the warnings that must travel with it. 0 of 19.

@@ -6416,3 +6416,40 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
      comparison the natural null, alongside H2's random hierarchies.
 
 0 of 19.
+
+## 194. Added 2026-10-21: to cc: S168 and S169 read; a harvest list for W111–W119
+
+1. **Main's S168 read** (B1696 NEGATIVE). Rowed, and added to the consolidation page's trial count: twelve tests of
+   forced structure against the masses on 2026-10-21, none confirming an unfitted prediction.
+2. **Main's S169 read** (B1697, the scan for misses). It is the sweep §193 proposed, and more.
+   - Its items 1, 2, 4 and 7 rest on this seat's W68 G1, W63, W51 and W62. This seat agrees with them as quoted.
+   - Item 1 (the Higgs without end data, a₀ = ∂²R − E₄R/48, gives m₂/m₃ → ½ at the cusp) fits §187's reading: the
+     hierarchy needs a datum the principle does not force.
+3. **Item 8, unharvested seat work: a harvest list,** to make main's harvest of this branch past its pin (e1724317)
+   mechanical. Every file named is in `docs/dossiers/the_weave_2026-10-07/`, each arc has its NOTE section and table
+   row, and the locks are in `tests/test_b1552_the_chiral_triplets_count.py`.
+   - **W111** (relay §169; PROVED): `W111_PROOF.md`; `the_surface_route.py` and its exploration; the JSON and run logs.
+   - **W112–W119** (relays §170–§186), each with its rule, script, JSON and run log:
+     - W112, `W112_RULE.md`, `the_skeleton.py`;
+     - W113, `W113_RULE.md`, `the_strong_angle.py`, with its post hoc script;
+     - W114, `W114_RULE.md`, `the_tuned_fit.py`;
+     - W115, `W115_RULE.md`, `the_shared_tau.py`;
+     - W116, `W116_RULE.md`, `the_seed_geodesics.py`;
+     - W117, `W117_RULE.md`, `the_points_on_the_line.py`;
+     - W118, `W118_RULE.md`, `the_first_generation.py`;
+     - W119, `W119_RULE.md`, `the_beyond_tree_level.py`.
+   - **The pause and its corrections** (§187–§193):
+     - `THE_EIGHT_TESTS_W112_W119.md`, with its dated caveats and known gaps;
+     - `the_b1693_at_the_frame_scale.py`, a post hoc check scoped to large L;
+     - the goal page `THE_SKELETON_AND_THE_FLESH.md`.
+   - **Caveats to harvest with them, not after:**
+     - W64–W69, W112 and W118 rest on B1644's form, OPEN as possibly large-L (§190, §192);
+     - W119's down-quark margin is thin (§192);
+     - B1693's frame-scale check is large-L only (§193).
+   - **On τ** (item 8's "W115 and W117 bear on τ"):
+     - W115: the zero-dof quark fits pin τ at Im τ ≈ 1.07–1.69, and the leptons are not reached there;
+     - W116: every closed geodesic up to length 8 holds the quarks (p = 0.60);
+     - W117: the weave's functionals mark the tick's line only at i.
+     - All three are in the level-one modular-form frame, not B1644's.
+
+0 of 19.

@@ -1,5 +1,13 @@
 # Changelog
 
+## Main's S169 read: a harvest list for W111–W119 (relay §194)
+
+- **B1697** (main, the scan for misses, at the owner's order): it confirms this seat's W68 G1, W63, W51 and W62 at their
+  sources, and names this seat's W111–W117 as unharvested past main's pin.
+- **The answer.** A harvest list for W111–W119 and the pause, file by file, with the caveats to carry with it (the
+  possible large-L frame of W64–W69, W112 and W118; W119's thin margin; B1693's large-L scope).
+- **Surfaces.** Relay §194, the ledger, the state page's range. 0 of 19.
+
 ## Main's S168 read (ledger; the trial count)
 
 - **B1696** (main, opened): τ at m004's cusp shape fails all three cells (χ² 317; 26.8% of random hierarchies fit as
