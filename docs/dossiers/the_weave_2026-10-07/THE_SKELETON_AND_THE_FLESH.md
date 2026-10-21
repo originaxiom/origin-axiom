@@ -95,6 +95,9 @@ failures. 0 of 19.
 - **What it leaves (a READING; offered to the owner, not started).** A zero-dof quark fit fixes τ, and τ is one
   modulus for every sector. The leptons, coupled at that same τ, could then make a prediction the quarks cannot. Such
   an arc would need its own census of the lepton couplings and a stated look-elsewhere count.
+- **The owner's choice (2026-10-21): the leptons at the shared τ.** That is W115 (`W115_RULE.md`, committed before
+  its script; relay §176). It maps the quark solutions that pin τ and takes the lepton couplings with one free number
+  for two ratios. It runs a pinned fit, a joint fit and a null with the look-elsewhere count built in.
 
 ## The stopping rules
 

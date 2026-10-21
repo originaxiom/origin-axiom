@@ -850,6 +850,8 @@ Under the owner's rulings, the table's rows split into two groups:
   quark data coexist in the frame only at the Standard Model's own count. 0 of 19.
 - **Main's S156 and S157:** GENESIS v1.51 tags every unverified seat reliance and reads GM1's join to PF1 through κ
   as circular (GENESIS v1.51; P-221); every arc lock now runs in the full suite.
+- **The owner's choice after W114: the leptons at the shared τ, W115** (`W115_RULE.md` in the weave dossier;
+  relay §176), its rule committed before its script. 0 of 19.
 
 ## Questions open with main
 
@@ -874,4 +876,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W114 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§175).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§176).

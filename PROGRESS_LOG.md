@@ -19820,3 +19820,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   explained numbers stays where it was.
 - **One idea for later:** an exact quark fit pins down the one modulus every sector shares. The lighter particles,
   set at the same value, could then be predicted. That is offered to the owner, not started. 0 of 19.
+
+## 2026-10-21 — the owner's choice: can the quarks predict the electron?
+
+- **The exact quark fits pin down one number, the modulus, that every kind of particle shares.**
+- **The next test sets the electron, muon and tau at that same value.** It allows only one adjustable number for
+  their two mass ratios, so one ratio becomes a genuine prediction.
+- **A comparison with made-up data is built in,** so a lucky match cannot pass for evidence.
+- **The rule and its predictions are fixed before the program exists.** 0 of 19.

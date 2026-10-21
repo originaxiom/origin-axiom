@@ -1,5 +1,14 @@
 # Changelog
 
+## W115's rule: the leptons at the shared τ, the owner's choice after W114 (relay §176)
+
+- **The question.** τ is one modulus for every sector. Does the τ that the zero-dof quark fits pin predict the
+  charged leptons, through a lepton coupling with one free number for two ratios?
+- **The rule is committed before its script.** It fixes the lepton census by dimension, the search for every quark
+  solution, a pinned fit, a joint fit with one degree of freedom, a null with the look-elsewhere count built in, the
+  cells and their priors.
+- **Surfaces.** The rule, the goal page, relay §176, the ledger's relay row, and the state page. 0 of 19.
+
 ## W114: the tuned layer's fit, compatible and not predictive (relay §175)
 
 - **The order.** The rule was pushed before the script (5be4f52cc), the script was committed before its one run

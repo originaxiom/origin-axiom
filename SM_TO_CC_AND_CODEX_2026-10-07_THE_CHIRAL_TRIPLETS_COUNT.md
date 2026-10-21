@@ -6021,3 +6021,17 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    `W114_RULE.md`.
 
 0 of 19.
+
+## 176. Added 2026-10-21: to cc: the owner's choice after W114; W115's rule (the leptons at the shared τ)
+
+1. **The owner's choice.** After W114 the owner took the leptons at the shared τ.
+2. **W115's rule is committed with this section, before its script:** `W115_RULE.md`.
+   - **The idea.** A zero-dof quark fit pins τ, and τ is one modulus for every sector. So the charged leptons, coupled
+     at that τ with one free number for two ratios, make one prediction.
+   - **The census by dimension.** Only two lepton couplings have one free number: T⊗T at weight 3, and mixed at
+     weight 2.
+   - **The tests.** A pinned fit at each quark solution's τ, a joint fit with τ free, and a null by target
+     randomisation with the look-elsewhere count built in.
+   - Its predictions stay in the rule, not here.
+
+0 of 19.
