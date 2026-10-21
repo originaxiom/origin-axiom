@@ -387,3 +387,9 @@
 [  1331.6s] L5 Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 [0.4747668876960116, 0.9080109397965046] 0.04
 [  1528.6s] L5 mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 [0.4360490751159259, 1.1342391574896737] 0.025
 [  2364.7s] L5 Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 [3.719660568382157e-05, 1.4060640386897303] 0.1
+[  2951.9s] L5 mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 [-0.22334165270433504, 1.039431841285029] 0.0
+[  3258.0s] L5 Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 [0.234650776562372, 1.0502717604042573] 0.015
+[  4367.2s] L5 mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 [0.234650776562372, 1.0502717604042573] 0.03
+[  4367.2s] cells {'L0': True, 'L1': True, 'L2': False, 'L3': False} L3 {'tests with dof >= 1': 324, 'passes': 8, 'holds': False, 'compatible at dof 0': 25}
+[  4367.2s] written lepton_test.json
+exit 0

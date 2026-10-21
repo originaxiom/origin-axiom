@@ -364,3 +364,6 @@
 {"job": "L5 3", "rec": {"pair": "Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3", "tau*": [0.4747668876960116, 0.9080109397965046], "f": 0.04}}
 {"job": "L5 2", "rec": {"pair": "mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7", "tau*": [0.4360490751159259, 1.1342391574896737], "f": 0.025}}
 {"job": "L5 4", "rec": {"pair": "Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7", "tau*": [3.719660568382157e-05, 1.4060640386897303], "f": 0.1}}
+{"job": "L5 5", "rec": {"pair": "mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7", "tau*": [-0.22334165270433504, 1.039431841285029], "f": 0.0}}
+{"job": "L5 6", "rec": {"pair": "Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7", "tau*": [0.234650776562372, 1.0502717604042573], "f": 0.015}}
+{"job": "L5 7", "rec": {"pair": "mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7", "tau*": [0.234650776562372, 1.0502717604042573], "f": 0.03}}
