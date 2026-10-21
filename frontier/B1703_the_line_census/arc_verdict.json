@@ -1,0 +1,34 @@
+{
+  "id": "B1703",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1656",
+    "B1698",
+    "B1701",
+    "B1686",
+    "B1684",
+    "B1700",
+    "B1667",
+    "B1697"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [
+    "sm:W88",
+    "sm:W63",
+    "sm:W59"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the fibre given Lambda; B1656's four-channel coupling at B1667's canonical end (and its large-L limit); the end-data Higgs DR",
+    "object": "the flat hypercharge lines of order <= 16 (and 21): which charged sectors coincide and which first generations are protected",
+    "reach": "class",
+    "hypotheses": "one Higgs; generic tau plus omega; the coincidences computed to 1e-9, R1 to 1e-15"
+  },
+  "claim_one_line": "THE LINE CENSUS (P-250; computed, no data): in B1656's frame at the canonical end two charged sectors coincide on a flat hypercharge line of order N exactly when N divides 4 or 5 (d = e), 6 (u = d), or 2 or 7 (u = e) -- their twist pairs agree up to swap and negation -- so every order from 8 on splits all three; a first generation is protected (R1 = 0) iff N divides its q_L - q_R or 3 (the Higgs's charge), so the only all-splitting protected order is 9 (the leptons) and no line protects the up quarks while splitting all three. Every line a principle on record selects (closure, move-invariance, the potential's half-period state, W63's tie, the tick's order-5 lines) leaves two sectors degenerate; W59's order-9 lines are an input. Corrections: P-170's 'down never' fails at order 3; the delta-rule (W88: d = e iff N | 8 or 10) is not B1656's -- orders 8 and 10 split d from e at every L up to 1e8, so the seat's frame question is answered: not the end. The first census's printed prediction failed twice; the corrected laws held on fresh data at a new tau and at omega. 0 of 19.",
+  "weave_or_thread": "weave (every charged sector on one fibre)"
+}

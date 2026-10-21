@@ -1,0 +1,25 @@
+corrected laws: d=e iff N|4 or N|5; u=d iff N|6; u=e iff N|2 or N|7; protected iff N|delta or N|3
+A 1 {'lines': 1, 'd=e': 1, 'u=d': 1, 'u=e': 1, 'all_split': 0, 'up': 1, 'down': 1, 'lep': 1}
+A 2 {'lines': 3, 'd=e': 3, 'u=d': 3, 'u=e': 3, 'all_split': 0, 'up': 0, 'down': 0, 'lep': 0}
+A 3 {'lines': 8, 'd=e': 0, 'u=d': 8, 'u=e': 0, 'all_split': 0, 'up': 8, 'down': 8, 'lep': 8}
+A 4 {'lines': 12, 'd=e': 12, 'u=d': 0, 'u=e': 0, 'all_split': 0, 'up': 0, 'down': 0, 'lep': 0}
+A 5 {'lines': 24, 'd=e': 24, 'u=d': 0, 'u=e': 0, 'all_split': 0, 'up': 24, 'down': 0, 'lep': 0}
+A 6 {'lines': 24, 'd=e': 0, 'u=d': 24, 'u=e': 0, 'all_split': 0, 'up': 0, 'down': 0, 'lep': 0}
+A 7 {'lines': 48, 'd=e': 0, 'u=d': 0, 'u=e': 48, 'all_split': 0, 'up': 0, 'down': 0, 'lep': 0}
+A 8 {'lines': 48, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 48, 'up': 0, 'down': 0, 'lep': 0}
+A 9 {'lines': 72, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 72, 'up': 0, 'down': 0, 'lep': 72}
+A 14 {'lines': 144, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 144, 'up': 0, 'down': 0, 'lep': 0}
+A 21 {'lines': 384, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 384, 'up': 0, 'down': 0, 'lep': 0}
+set A: the corrected laws hold on every line: True
+B (omega) 1 {'lines': 1, 'd=e': 1, 'u=d': 1, 'u=e': 1, 'all_split': 0, 'up': 1, 'down': 1, 'lep': 1}
+B (omega) 2 {'lines': 3, 'd=e': 3, 'u=d': 3, 'u=e': 3, 'all_split': 0, 'up': 0, 'down': 0, 'lep': 0}
+B (omega) 3 {'lines': 8, 'd=e': 0, 'u=d': 8, 'u=e': 0, 'all_split': 0, 'up': 8, 'down': 8, 'lep': 8}
+B (omega) 4 {'lines': 12, 'd=e': 12, 'u=d': 0, 'u=e': 0, 'all_split': 0, 'up': 0, 'down': 0, 'lep': 0}
+B (omega) 5 {'lines': 24, 'd=e': 24, 'u=d': 0, 'u=e': 0, 'all_split': 0, 'up': 24, 'down': 0, 'lep': 0}
+B (omega) 6 {'lines': 24, 'd=e': 0, 'u=d': 24, 'u=e': 0, 'all_split': 0, 'up': 0, 'down': 0, 'lep': 0}
+B (omega) 7 {'lines': 48, 'd=e': 0, 'u=d': 0, 'u=e': 48, 'all_split': 0, 'up': 0, 'down': 0, 'lep': 0}
+B (omega) 8 {'lines': 48, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 48, 'up': 0, 'down': 0, 'lep': 0}
+B (omega) 9 {'lines': 72, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 72, 'up': 0, 'down': 0, 'lep': 72}
+B (omega) 10 {'lines': 72, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 72, 'up': 0, 'down': 0, 'lep': 0}
+B (omega) 11 {'lines': 120, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 120, 'up': 0, 'down': 0, 'lep': 0}
+B (omega) 12 {'lines': 96, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 96, 'up': 0, 'down': 0, 'lep': 0}

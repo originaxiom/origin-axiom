@@ -17654,3 +17654,9 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - B1702 sealed at f51ab2718 (the instrument import-tested before the seal); outputs committed unread at df0737fa1 and read
   once: H1, H2, H3 fail (best 8.9; the up quarks' floor 0.0134). NEGATIVE; routed. P-249 DONE.
 - **Landing suite.** 117 files (B1702's lock, every arc lock and the corpus-scanning tests), 2044 passed, 1 failed, 3 skipped (4:50, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-22 — S175 THE LINE CENSUS (B1703)
+
+- The census (its printed prediction failed at orders 7 and 3), the corrected laws confirmed on fresh data and at ω, the
+  SM seat's §195 answered by a large-L run (orders 8, 10 split at every L). Relay to the SM seat and codex. P-250 DONE.
+- **Landing suite.** 117 files (B1703's lock, every arc lock and the corpus-scanning tests), 2046 passed, 1 failed, 3 skipped (7:34, -n 8); the one failure is B805's attachment lock (P-239)

@@ -12997,6 +12997,23 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B1703": {
+   "slug": "the line census",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B366"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B170": {
    "slug": "relational scale leap",
    "motifs": [

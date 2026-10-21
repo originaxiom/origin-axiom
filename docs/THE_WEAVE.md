@@ -804,3 +804,8 @@ found with B1635's sealed instrument.
   golden word's spin end curve ½ + √3 i no line of order dividing 24 brings the six ratios within a factor of 3 (best
   8.9): at Im τ ≈ 2 the up quarks' hierarchy is out of reach (m₂/m₃ ≥ 0.0134). With B1696 (2√3 i), the record's cusp
   shapes do not supply the τ the up quarks need (Im τ ≈ 3).
+- **The line census: no principled line splits all three sectors (B1703, computed).** In B1656's frame two charged
+  sectors coincide on a line of order N exactly when N divides 4 or 5 (d = e), 6 (u = d), or 2 or 7 (u = e); every order
+  from 8 on splits all three. A first generation is protected iff N divides its q_L − q_R or 3, so the only all-splitting
+  protected order is 9 (the leptons) and none protects the up quarks. Every line a principle on record selects — closure,
+  move-invariance, the potential's state, W63's tie, the tick's order-5 lines — leaves two sectors degenerate.

@@ -1,5 +1,22 @@
 # Changelog
 
+## S175 THE LINE CENSUS (B1703, PROVED; P-250) (2026-10-22)
+
+- **The laws, computed** (no data; 1 224 lines of order ≤ 16 at two τ; confirmed on fresh data at a new τ and at ω): in
+  B1656's frame at the canonical end, d = e iff N ∣ 4 or 5, u = d iff N ∣ 6, u = e iff N ∣ 2 or 7 (twist pairs equal up to
+  swap and negation), so every order N ≥ 8 splits all three charged sectors; protection (R₁ = 0) iff N ∣ δ or N ∣ 3, so the
+  only all-splitting protected order is 9 (the leptons) and none protects the up quarks.
+- **The principled lines, placed.** Closure, move-invariance, the potential's half-period state, W63's tie and the tick's
+  order-5 lines each leave two sectors degenerate; W59's order-9 lines split all three but are an input.
+- **Corrections.** P-170's "the down quarks never" fails at order 3; the SM seat's δ-rule (W88; d = e iff N ∣ 8 or 10) is a
+  δ-only coupling's — in B1656's frame orders 8 and 10 split d from e at every L up to 10⁸, answering the seat's §195 (not
+  the end). The first census's printed prediction failed twice (order 7, order 3); the corrected laws passed fresh data.
+- **Relay.** `docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-22_THE_LINE_CENSUS_AND_YOUR_195.md` (S170–S175 summarised; a
+  question back; the harvest of W111–W119 owed, P-252).
+- **Register.** P-250 DONE; P-170 annotated. FLOOR 252.
+- **Landing suite.** 117 files (B1703's lock, every arc lock and the corpus-scanning tests), 2046 passed, 1 failed, 3 skipped (7:34, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S174 THE OTHER CUSP SHAPES (B1702, NEGATIVE as sealed; P-249) (2026-10-22)
 
 - **The sealed test** (`f51ab2718`, sha256 8f26df36; outputs committed unread at `df0737fa1`): τ at the silver word

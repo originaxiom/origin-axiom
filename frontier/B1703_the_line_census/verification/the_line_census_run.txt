@@ -1,0 +1,18 @@
+prediction: d=e iff N|4 or N|5; u=d iff N|6; u=e iff N|2; protected: up iff N|5, leptons iff N|9, down never
+1 {'lines': 2, 'd=e': 2, 'u=d': 2, 'u=e': 2, 'all_split': 0, 'protected': {'up': 2, 'down': 2, 'lep': 2}}
+2 {'lines': 6, 'd=e': 6, 'u=d': 6, 'u=e': 6, 'all_split': 0, 'protected': {'up': 0, 'down': 0, 'lep': 0}}
+3 {'lines': 16, 'd=e': 0, 'u=d': 16, 'u=e': 0, 'all_split': 0, 'protected': {'up': 16, 'down': 16, 'lep': 16}}
+4 {'lines': 24, 'd=e': 24, 'u=d': 0, 'u=e': 0, 'all_split': 0, 'protected': {'up': 0, 'down': 0, 'lep': 0}}
+5 {'lines': 48, 'd=e': 48, 'u=d': 0, 'u=e': 0, 'all_split': 0, 'protected': {'up': 48, 'down': 0, 'lep': 0}}
+6 {'lines': 48, 'd=e': 0, 'u=d': 48, 'u=e': 0, 'all_split': 0, 'protected': {'up': 0, 'down': 0, 'lep': 0}}
+7 {'lines': 96, 'd=e': 0, 'u=d': 0, 'u=e': 96, 'all_split': 0, 'protected': {'up': 0, 'down': 0, 'lep': 0}}
+8 {'lines': 96, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 96, 'protected': {'up': 0, 'down': 0, 'lep': 0}}
+9 {'lines': 144, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 144, 'protected': {'up': 0, 'down': 0, 'lep': 144}}
+10 {'lines': 144, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 144, 'protected': {'up': 0, 'down': 0, 'lep': 0}}
+11 {'lines': 240, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 240, 'protected': {'up': 0, 'down': 0, 'lep': 0}}
+12 {'lines': 192, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 192, 'protected': {'up': 0, 'down': 0, 'lep': 0}}
+13 {'lines': 336, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 336, 'protected': {'up': 0, 'down': 0, 'lep': 0}}
+14 {'lines': 288, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 288, 'protected': {'up': 0, 'down': 0, 'lep': 0}}
+15 {'lines': 384, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 384, 'protected': {'up': 0, 'down': 0, 'lep': 0}}
+16 {'lines': 384, 'd=e': 0, 'u=d': 0, 'u=e': 0, 'all_split': 384, 'protected': {'up': 0, 'down': 0, 'lep': 0}}
+the arithmetic holds on every line and tau: False

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1431** |
-| words of findings prose | **1,144,766** |
-| test lock files referenced | **848** |
-| arcs carrying an authored verdict | **1431** (100.0 %) |
+| research arcs with findings | **1432** |
+| words of findings prose | **1,145,672** |
+| test lock files referenced | **849** |
+| arcs carrying an authored verdict | **1432** (100.0 %) |
 | recorded closures | **829** (662 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 974 |
+| PROVED | 975 |
 | NEGATIVE | 353 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1701`** (660 words, 1 locks)  
-W63 ON MAIN (P-246; computed, no data): the SM seat's W63 cells reproduce on main's own triplet (min m = 1/2 over real directions, m(e_k) = 1/2 on the axis, 0.565741 for every unit at omega, m = 0 on the cone); and with the Higgs's direction tied to the line as W63 ties it (the unit C_{p*}, p* = -3w), on B1656's twisted coupling at the canonical end, every sector's spectrum is exactly 0 : 1 : 1 (m2/m3 = 1 to 9e-16, m1/m3 = 0 to 2.4e-16) on all 27 lines with 6w in the lattice, every tau, both horocycles and every up reading, while the untied units never degenerate (control): the line-tied Higgs gives no second-to-third hierarchy at all -- W63's 0 : 1 : 2 holds untwisted only -- and the state W60 and W62 single out gives degenerate heavy pairs. 0 of 19.  
-`B1701_w63_on_main/FINDINGS.md`
+**PROVED — `B1703`** (906 words, 1 locks)  
+THE LINE CENSUS (P-250; computed, no data): in B1656's frame at the canonical end two charged sectors coincide on a flat hypercharge line of order N exactly when N divides 4 or 5 (d = e), 6 (u = d), or 2 or 7 (u = e) -- their twist pairs agree up to swap and negation -- so every order from 8 on splits all three; a first generation is protected (R1 = 0) iff N divides its q_L - q_R or 3 (the Higgs's charge), so the only all-splitting protected order is 9 (the leptons) and no line protects the up quarks while splitting all three. Every line a principle on record selects (closure, move-invariance, the potential's half-period state, W63's tie, the tick's order-5 lines) leaves two sectors degenerate; W59's order-9 lines are an input. Corrections: P-170's 'down never' fails at order 3; the delta-rule (W88: d = e iff N | 8 or 10) is not B1656's -- orders 8 and 10 split d from e at every L up to 1e8, so the seat's frame question is answered: not the end. The first census's printed prediction failed twice; the corrected laws held on fresh data at a new tau and at omega. 0 of 19.  
+`B1703_the_line_census/FINDINGS.md`
 
 **NEGATIVE — `B1702`** (636 words, 1 locks)  
 THE OTHER CUSP SHAPES (P-249; sealed f51ab2718, sha256 8f26df36; NEGATIVE as sealed -- H1, H2, H3 fail; outputs committed unread at df0737fa1): with the weave's tau at the silver word state's cusp shape 2i (B675) or the golden word's spin end curve 1/2 + sqrt3 i (B1483), the end-data Higgs DR, the canonical end and any of 576 lines, no choice brings the six ratios within a factor of 3 (best 8.9 at 2i, 19.4 at 1/2 + sqrt3 i; chi2 593; 24.7% of random hierarchies fit as well); the up quarks' m2/m3 stays >= 0.0134 (measured 0.0037). With B1696, no word-state cusp shape tested selects tau in this frame. 0 of 19.  
