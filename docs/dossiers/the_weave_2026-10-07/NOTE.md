@@ -383,6 +383,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   at one tuned number per tuned sector, no assignment with a degree of freedom fits the quarks (the best χ² 47.9 for
   2 dof), and four with none are compatible, three exactly. θ̄ = 0 and the quark data coexist in the frame only where
   the fit predicts nothing. A WEAVE-type result.
+- W115 (the owner's choice after W114: the leptons at the shared τ; rule first; one run; every cell as predicted): at
+  every τ the zero-dof quark fits pin, the two lepton couplings with one free number keep m_μ/m_τ above 0.21 (the best
+  pinned χ² 163, joint 109), and random targets fare as well (p = 0.51). The shared modulus predicts nothing for the
+  leptons in this frame. A WEAVE-type result.
 
 ## The setting
 
@@ -1866,6 +1870,9 @@ systems that fixes the gauge half. The owner named two candidates:
   - So neither named candidate supplies a forced complex structure on the gauge side.
 - **The weave's only hand is the records' orientation on the shared fibre** (W21). It is forced only if the swap P is
   not a move (GENESIS GM5c, OPEN). In physics, the name of a hand is a convention.
+  - *Note 2026-10-21 (W113, W114):* that holds for the count, where the hand is a sign. It does not hold for
+    holomorphic couplings: T and T̄ give different coupling spaces (dimensions 1, 2, 4, 5 against 1, 3, 4, 6 at
+    k = 1, 3, 5, 7). W113's one θ̄-forced assignment, and every quark fit W114 found, put the doublet in T̄.
 - **The record's best statement of the derivation is now this:**
   - the gauge structure from F-MC, with its typed inputs, the chirality bit among them;
   - the count from the weave (three, the parities'), with their common hand (W22);
@@ -7674,6 +7681,63 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W115. The leptons at the shared τ (the owner's choice after W114): at every τ the quark fits pin, no lepton coupling with one free number reaches the charged leptons; m_μ/m_τ stays above 0.21, and random targets fare as well (`the_shared_tau.py`; `W115_RULE.md`)
+
+**Why.** After W114 the owner chose the leptons at the shared τ.
+- A zero-dof quark fit pins τ, and τ is one modulus for every sector.
+- The charged leptons, coupled at that τ with one free number for two ratios, then make one prediction that the
+  quarks cannot make.
+
+**The order.**
+- The rule (`W115_RULE.md`) was committed and pushed first (5a9914425), with relay §176.
+- The script was committed before its one run (79d7ad5eb), and its output before it was read (6d5e09598).
+
+**Disclosed.**
+- W114's whole record was seen before the rule, and so was the lepton data, to write the ratios into it.
+- While the script was written, its code paths were run in scratch only where they touch no cell. That included once
+  at τ = 0.21 + 1.17i, which is not a quark solution. That run printed that no angle of T⊗T at weight 3 fits m_μ/m_τ
+  exactly there, and printed no χ².
+
+**The result (COMPUTED; one run; every cell as predicted).**
+
+| cell | prediction | prior | result |
+| --- | --- | --- | --- |
+| V0 | the control is recovered by T1 to 10⁻⁶ and by T2 to 0.01 | 85% | **held** — 5 × 10⁻¹⁶ and 6 × 10⁻²¹ |
+| V1 | the census: only T⊗T at 1 and 3, T̄⊗T̄ at 1, mixed at 0 and 2 have d ≤ 2; the d = 1 ones fail as stated | 95% | **held** — at every solution, T⊗T at 1 has m₂/m₁ ≈ 0.6, T̄⊗T̄ at 1 has m_e = 0, and mixed at 0 is degenerate; the two mixed orders agree to 6 × 10⁻¹⁶ |
+| V2 | W114's best point is recovered as a solution for 11 and 13 | 95% | **held** — and for 14, W114's point (χ² 2.55) is reproduced but is not a solution, because exact ones exist (below) |
+| V3 | no combination passes the pinned fit | 80% | **held** — the best χ²_ℓ,min is 163 |
+| V4 | no combination passes the joint fit | 75% | **held** — the best is 109 |
+| V5 | the null: p ≥ 0.05 | 85% | **held** — p = 0.507 |
+
+- **The quark solutions** (χ²_q ≤ 10⁻⁶ for 11 and 13; ≤ 3.84 for 14):
+  - **11:** three, at τ = 0.0513 + 1.0679i, 0.0159 + 1.1467i and −0.0529 + 1.0866i.
+  - **13:** one pair, at τ = ±0.0687 + 1.5341i. The two are CP mirrors (τ ↔ −τ̄) with identical results.
+  - **14:** an exact mirror pair, at τ = ±0.0856 + 1.1993i (χ²_q ≈ 10⁻¹⁹ and 10⁻¹⁶), and two compatible local minima,
+    at −0.424 + 1.583i (2.55, W114's) and 0.5 + 1.685i (3.3).
+- **Pinned** (18 combinations).
+  - At every solution's best angle, m_e/m_μ lands on the data (0.0048), but m_μ/m_τ stays between 0.21 and 0.81,
+    against 0.059.
+  - Neither coupling reaches m_μ/m_τ = 0.059 at any angle, at any of the solutions.
+  - T⊗T at 3 comes closest (χ² 163 to 547), and mixed at 2 is far (564 to 687).
+- **Joint.** With τ free, the fit can only lower m_μ/m_τ to 0.137 (T⊗T at 3, assignment 14). It does so by moving τ
+  up to 1.94i, which costs the quarks χ²_q = 38. The best total is 109.
+- **The null.** Over 4000 random lepton targets within a decade of the data, the median family-best χ² is 154. The
+  data's is 163 (p = 0.507), so the data sits at the median of chance.
+
+**What it shows.**
+- **The shared modulus predicts nothing for the leptons in this frame.** At every τ the zero-dof quark fits pin, no
+  lepton coupling with a free number to spare reaches the charged leptons.
+  - The miss is the heavy pair: m_μ/m_τ stays above 0.21.
+  - These τ lie at Im τ ≈ 1.1–1.7, where the lepton couplings' second hierarchy has not yet opened.
+- **By the rule fixed in advance:** V3 and V4 hold, a clean negative. The count does not move. 0 of 19.
+- **A correction to W114, from W115's broader search.** Assignment 14 also fits the quarks exactly, at
+  τ = ±0.0856 + 1.199i. W114's χ²_min of 2.55 was a local minimum. W114's verdict stands (14 was compatible
+  either way), and its section carries a dated note.
+
+**Status.** COMPUTED (the rule first; one run; every cell as predicted). A WEAVE-type result, given the frame: every
+compatible zero-dof quark assignment, every solution the stated search found, and every lepton coupling with a
+prediction. A clean negative. 0 of 19.
+
 ## W114. The tuned layer's fit (the owner's choice after W113): with θ̄ = 0 at every τ, no assignment with a degree of freedom fits the quarks, and four with none are compatible; θ̄ = 0 and the quark data coexist in the frame only where the fit predicts nothing (`the_tuned_fit.py`; `W114_RULE.md`)
 
 **Why.** After W113 the owner chose the goal page's first candidate (`THE_SKELETON_AND_THE_FLESH.md`): fit the quarks
@@ -7747,6 +7811,10 @@ The question: can the frame hold the observed quarks with θ̄ = 0 at every τ a
 
 **Status.** COMPUTED (the rule first; one run; U4 failed, the rest held). A WEAVE-type result, given the frame: all
 sixteen tuned assignments up to weight 7, none hand-picked. 0 of 19.
+
+**Corrected 2026-10-21 (W115's broader search, labelled).** Assignment 14 also fits the quarks exactly, at
+τ = ±0.0856 + 1.199i (χ²_q ≈ 10⁻¹⁹). The χ²_min of 2.55 above was a local minimum of this search. The verdict
+stands: 14 was compatible either way, and U4 failed either way.
 
 ## W113. The strong angle at every τ (the project goal's stage 2): exactly one assignment makes θ̄ constant without tuning, every quark in T̄ at weight 3, and it keeps the CKM phase, but it does not fit the quarks, and its best point is CP-conserving (`the_strong_angle.py`; `W113_RULE.md`)
 
@@ -9886,6 +9954,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W115 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE-type result given the frame | the leptons at the shared τ (the owner's choice after W114): the zero-dof quark fits pin τ at three points for 11, a CP-mirror pair for 13 and an exact mirror pair for 14 (correcting W114's 2.55), all at Im τ ≈ 1.07–1.69; the only lepton couplings with one free number (T⊗T at 3, mixed at 2) keep m_μ/m_τ above 0.21 there (the best pinned χ² 163; the best joint 109, with τ pushed to 1.94i at χ²_q = 38); a null of 4000 random targets gives p = 0.51. The shared modulus predicts nothing for the leptons. 0 of 19 |
 | W114 | COMPUTED (the rule first; one run; U0–U3 as predicted; U4 failed); a WEAVE-type result given W101's frame and CP in the law | the tuned layer's fit (the owner's choice after W113): the quarks in all sixteen tuned assignments up to weight 7, with θ̄ = 0 at every τ at one tuned number per tuned sector; none with a degree of freedom fits (the best χ² 47.9 for 2 dof; m_s/m_b and \|V_cb\| miss), and four of the five with none are compatible (11, 13 and 16 exactly, 14 at 2.55), all with Q in T̄ and T̄⊗T̄ at weight 7; θ̄ = 0 and the quark data coexist only where the fit predicts nothing, the Standard Model's own count with θ̄ tuned. 0 of 19 |
 | W113 | COMPUTED (the rule first; one run; F0–F4, C1–C5 and T2 as predicted; C6 failed as predicted; T1 failed as worded, its exceptions rank-two members post hoc); a WEAVE-type result given W101's frame and CP in the law | θ̄ at every τ (the project goal's stage 2): θ̄ is constant for every coupling only at T⊗T k = 1, T̄⊗T̄ k = 3 and mixed k = 0; of the eight forced pairs one is viable, every quark in T̄ at weight 3 (dimension 3, det = 4096κ(c)η¹⁸ exactly); there θ̄ ∈ {0, π} at every τ (5.7 × 10⁻²³) and J ≠ 0 at every generic τ, but χ²_min = 104 for 2 dof (m_s/m_b off by a factor 3), and the best point lies on Re τ = 0, where J = 0; the 16 tuned assignments keep J ≠ 0 at one tuned coefficient per tuned sector. 0 of 19 |
 | W112 | COMPUTED (the rule first; one run; K0, K1, K4, K5, K6 as predicted; K2 and K3 failed as predicted); a WEAVE-type result given Λ and W69's hypotheses | the skeleton's significance (the project goal's stage 1): the best factor over W69's 21 952 assignments is 1.81 (ER / EE with any of RG, R′G, EG, at δ = 0.0227 from ω), but against 4000 synthetic targets within a decade p = 0.139, and within half a decade p = 0.190; the first generation zero or off by a factor 5 at every fit. A clean negative: the fit is no evidence |
@@ -9981,6 +10050,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `W115_RULE.md`: the rule, committed and pushed before the code; `the_shared_tau.py` → `the_shared_tau.json` and `the_shared_tau_run.txt`: W115, the leptons at the shared τ (one run).
 - `W114_RULE.md`: the rule, committed and pushed before the code; `the_tuned_fit.py` → `the_tuned_fit.json` and `the_tuned_fit_run.txt`: W114, the tuned layer's fit (one run).
 - `W113_RULE.md`: the rule, committed and pushed before the code; `the_strong_angle.py` → `the_strong_angle.json` and `the_strong_angle_run.txt`: W113, the strong angle at every τ (one run); `the_strong_angle_posthoc.py` → `the_strong_angle_posthoc.json` and `the_strong_angle_posthoc_run.txt`: T1's exceptions classified (post hoc).
 - `THE_SKELETON_AND_THE_FLESH.md`: the owner's project goal of 2026-10-21, its stages and stopping rules. `W112_RULE.md`: the rule, committed and pushed before the code; `the_skeleton.py` → `the_skeleton.json` and `the_skeleton_run.txt`: W112, the skeleton's significance (one run).

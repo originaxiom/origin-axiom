@@ -98,6 +98,17 @@ failures. 0 of 19.
 - **The owner's choice (2026-10-21): the leptons at the shared τ.** That is W115 (`W115_RULE.md`, committed before
   its script; relay §176). It maps the quark solutions that pin τ and takes the lepton couplings with one free number
   for two ratios. It runs a pinned fit, a joint fit and a null with the look-elsewhere count built in.
+- **W115: the shared modulus predicts nothing for the leptons** (one run; relay §177).
+  - At every τ the zero-dof quark fits pin (Im τ ≈ 1.07–1.69), the two lepton couplings with one free number keep
+    m_μ/m_τ above 0.21, against 0.059.
+  - The best pinned χ² is 163, and the best joint fit 109. Random targets fare as well (p = 0.51).
+  - A clean negative. The count does not move.
+- **Where the project stands after four tests** (W112–W115): the principle's frames on record deliver discrete
+  structure and a structural zero for θ̄, and no magnitude. Every forced choice lands on a symmetric point, and the
+  data lives in the departure, which nothing on record selects. The next frame is the owner's choice. This seat's
+  reading names two candidates: the seed as the source of the departure (main's P-224 and P-225), with its mechanism
+  fixed in a rule first; and the relation m_s/m_b against |V_cb| that every rigid fit misses in the same direction,
+  stated as the frame's own prediction.
 
 ## The stopping rules
 

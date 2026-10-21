@@ -2599,6 +2599,34 @@ def test_the_paper_draft7():
 
 
 
+def test_w115_the_shared_tau():
+    """W115 (rule 5a9914425; script 79d7ad5eb; one run 6d5e09598): every cell as predicted; the lepton chi-squared at
+    the best pinned point recomputed in process from its recorded ratios, and the mirror solutions' equality"""
+    import math
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_shared_tau.json").read_text(encoding="utf-8"))
+    assert d["status"] == "one run"
+    assert d["cells"] == {"V0": True, "V1": True, "V2": True, "V3": True, "V4": True, "V5": True}
+    assert d["best pinned chi2"] > 100 and d["best joint chi2"] > 100
+    ld = d["lepton data"]
+    sig = np.hypot(np.array(ld["relative errors"]), ld["allowance"])
+    data = np.log([ld["m_e/m_mu"], ld["m_mu/m_tau"]])
+    t1 = d["T1"]
+    for key, v in t1.items():
+        r = np.log(v["ratios at the minimum"])
+        assert abs(float(np.sum(((r - data) / sig) ** 2)) - v["chi2_min"]) < 1e-6 * max(1.0, v["chi2_min"])
+        assert v["ratios at the minimum"][1] > 0.2 and v["exact m_mu/m_tau fits"] == []
+    assert abs(t1["13/0/T(x)T k=3"]["chi2_min"] - t1["13/1/T(x)T k=3"]["chi2_min"]) < 1e-6
+    assert 0.05 <= d["T3"]["p (family)"] <= 1.0
+    sols14 = [s["tau"] for s in d["V2"]["14"]["solutions"]]
+    assert any(abs(t[0] + 0.0856) < 1e-3 and abs(t[1] - 1.1993) < 1e-3 for t in sols14)
+    assert math.isclose(min(d["V2"]["14"]["solutions"], key=lambda s: s["chi2_q"])["chi2_q"], 0.0, abs_tol=1e-12)
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W115. The leptons at the shared τ" in note
+    assert (here / "W115_RULE.md").exists()
+
+
 def test_w114_the_tuned_fit():
     """W114 (rule 5be4f52cc; script 56f8ad5e9; one run ba0ae13f0): U0-U3 held, U4 failed; the exact fits' chi-squared
     recomputed in process from their recorded pulls, every compatible assignment with Q in Tbar and Tbar(x)Tbar at 7"""

@@ -19828,3 +19828,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   their two mass ratios, so one ratio becomes a genuine prediction.
 - **A comparison with made-up data is built in,** so a lucky match cannot pass for evidence.
 - **The rule and its predictions are fixed before the program exists.** 0 of 19.
+
+## 2026-10-21 — the quarks do not predict the electron
+
+- **The test set the electron, muon and tau at the value the exact quark fits pin down.** It allowed one adjustable
+  number for their two mass ratios.
+- **It fails.** At every such value the muon comes out too heavy relative to the tau, by a factor of four or more,
+  and made-up data does as well as the real data.
+- **Four tests read together** say the same thing. The principle's frameworks give structure and a zero, but no
+  measured magnitude. Every choice the principle makes lands on a symmetric point, and our world sits a little away
+  from one, with nothing yet saying how far.
+- **The next framework is the owner's choice.** 0 of 19.

@@ -6035,3 +6035,31 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    - Its predictions stay in the rule, not here.
 
 0 of 19.
+
+## 177. Added 2026-10-21: to cc: W115, the leptons at the shared τ, a clean negative; four tests read together
+
+1. **W115** (the owner's choice after W114). The rule was pushed before the script (5a9914425); the script was
+   committed before its one run (79d7ad5eb), and the output before it was read (6d5e09598). Every cell held as
+   predicted.
+   - **The quark solutions** that pin τ:
+     - 11: three, at Im τ 1.07 to 1.15;
+     - 13: one CP-mirror pair, at ±0.0687 + 1.534i;
+     - 14: an exact mirror pair, at ±0.0856 + 1.199i. W114's 2.55 there was a local minimum, now corrected with a
+       dated note.
+   - **The leptons.** Only T⊗T at 3 and mixed at 2 leave one free number for the two ratios. At every solution both
+     keep m_μ/m_τ above 0.21, against 0.059. The best pinned χ² is 163.
+   - **The joint fit** lowers m_μ/m_τ to 0.137 only by moving τ to 1.94i, at χ²_q = 38. The best is 109.
+   - **The null.** p = 0.51 over 4000 random targets with the look-elsewhere count built in.
+2. **The four tests read together** (W112–W115).
+   - The frames on record give discrete structure and a structural zero for θ̄ (W113), and no magnitude.
+   - Every forced choice lands on a symmetric point. The data lives in the departure, which nothing on record selects.
+     This agrees with main's P-224.
+   - **Two observations for main.**
+     - In every rigid fit, m_s/m_b comes out too large (0.04 to 0.06 against 0.019) and |V_cb| too small (0.028
+       against 0.042). That looks like a relation the frame imposes.
+     - The hand is not a convention for holomorphic couplings: T and T̄ give different spaces, and every fit found puts
+       the doublet in T̄. The NOTE carries a dated note on its earlier reading.
+3. **For main, if wanted.** `docs/dossiers/the_weave_2026-10-07/the_shared_tau.py` with its JSON and run log, and
+   `W115_RULE.md`. W112–W115 are WEAVE-type censuses of the same kind as W101 (B1674).
+
+0 of 19.

@@ -1,5 +1,20 @@
 # Changelog
 
+## W115: the leptons at the shared τ, a clean negative; four tests read together (relay §177)
+
+- **The order.** The rule was pushed before the script (5a9914425), the script was committed before its one run
+  (79d7ad5eb), and the output was committed before it was read (6d5e09598). Every cell held as predicted.
+- **The result.**
+  - At every τ the zero-dof quark fits pin, the two lepton couplings with one free number keep m_μ/m_τ above 0.21,
+    against 0.059.
+  - The best pinned χ² is 163, and the best joint fit 109. Random targets fare as well (p = 0.51).
+- **Corrections, dated.** W114's assignment 14 also fits exactly; its 2.55 was a local minimum. The hand is a
+  convention for the count but not for holomorphic couplings.
+- **Surfaces.**
+  - The script and its output.
+  - The NOTE: a section, a header bullet, a table row, a files entry and two dated notes.
+  - The goal page, relay §177, the ledger's relay row, the state page, and a test. 0 of 19.
+
 ## W115's rule: the leptons at the shared τ, the owner's choice after W114 (relay §176)
 
 - **The question.** τ is one modulus for every sector. Does the τ that the zero-dof quark fits pin predict the
