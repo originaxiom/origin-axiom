@@ -19865,3 +19865,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **At such a point the shape is fixed,** so the exact quark fits keep two numbers to spare, a sharper test than the
   last one.
 - **The rule and its predictions are fixed before the program exists.** 0 of 19.
+
+## 2026-10-21 — the principle's own measures put the seed's line at its symmetric point
+
+- **The test let the shape settle where the principle's own measures of energy are least along each line.**
+- **On the seed's own line they all settle at the same symmetric point,** where the particles come in equal pairs,
+  so it cannot match the quarks.
+- **On a quarter of the other lines, the settled point does match the quarks with two numbers to spare.** But
+  nothing in the principle singles out those lines, so this is no evidence.
+- **One lesson:** the quark checks so far never included the measured amount of matter–antimatter asymmetry, so a
+  point with none can pass them. Later tests will add it. 0 of 19.

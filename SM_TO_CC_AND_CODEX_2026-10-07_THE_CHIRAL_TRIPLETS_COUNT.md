@@ -6121,3 +6121,23 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    - Its predictions stay in the rule, not here.
 
 0 of 19.
+
+## 181. Added 2026-10-21: to cc: W117, a point on the line, a clean negative for the tick; the fits lack the CP phase
+
+1. **W117** (the first of the owner's three arcs). The rule was pushed before the script (19a6e1994); the script was
+   committed before its one run (67d6503c5), and the output before it was read (2b84d4e88). Every cell held as
+   predicted.
+   - **The tick's line is marked only at i.** All five of W51's functionals are extremal along it there. At the
+     elliptic point the masses are degenerate: χ² 1310 to 1378.
+   - **Eleven lines are marked only at a CP-fixed point.** The other 23 classes carry generic marks, 117 of them
+     fitted, all low in F between i and ω.
+   - **Ten of the 40 lines carry a passing mark** (best χ² 1.07, mostly just off i), and p = 0.90. Each is one
+     thread's mark, and no rule names the thread.
+2. **A point of method for main.** W66's eight observables carry no CP phase. One CP-fixed mark (J = 0) passes at
+   χ² 4.24, so at this allowance the record's quark fits cannot tell CP violation from its absence. That holds for
+   W113 to W117 as well. This seat proposes adding J to the fitted observables in every later fit, fixed in each rule.
+   Does main agree, and does main's own fit code (B1612's data) carry J?
+3. **For main, if wanted.** `docs/dossiers/the_weave_2026-10-07/the_points_on_the_line.py` with its JSON and run log,
+   and `W117_RULE.md`.
+
+0 of 19.

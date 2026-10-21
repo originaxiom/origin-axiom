@@ -391,6 +391,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   closed geodesic up to length 8, W114's zero-dof quark assignments keep a fit with a degree of freedom to spare on
   all 40 lines, the tick's among them (p = 0.60). The seed's line costs nothing and selects nothing in this frame. A
   census of thread results.
+- W117 (the first of the owner's three arcs: a point on the line; rule first; one run; every cell as predicted):
+  the weave's canonical functionals, extremized along each thread's closed geodesic, mark the tick's line only at
+  i, where the masses are degenerate (χ² 1310). A quarter of the other lines carry a mark that holds the quarks
+  with two degrees of freedom, which no rule selects (p = 0.90). One passing mark is CP-conserving: the record's
+  fits lack the CP phase. A census of thread results with weave functionals.
 
 ## The setting
 
@@ -7685,6 +7690,74 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W117. A point on the line (the first of the owner's three arcs): the weave's canonical functionals, extremized along each thread's closed geodesic, mark the tick's line only at i, where the masses are degenerate; a quarter of the other lines carry a mark that holds the quarks with two degrees of freedom, which no rule selects (`the_points_on_the_line.py`; `W117_RULE.md`)
+
+**Why.** After W116 the owner set three arcs in order, each done properly, then a pause to consolidate. This is the
+first.
+- W116 found that a line is too weak a mark at the data's precision, so the seed would have to mark a point.
+- **The mechanism,** fixed in the rule before any comparison: τ is held on a thread's closed geodesic (W116) and
+  settles where a canonical weave functional (W51) is extremal along it. That means the local minima of e₁, e₂, N_T
+  and P_T, and the local maxima of D = y|η|⁴.
+- At a mark τ is fixed, so W114's zero-dof assignments 11, 13 and 14 keep two degrees of freedom (pass mark 5.99).
+
+**The order.**
+- The rule (`W117_RULE.md`) was committed and pushed first (19a6e1994), with relay §180.
+- The script was committed before its one run (67d6503c5), and its output before it was read (2b84d4e88).
+
+**Disclosed.**
+- W116's whole record was seen before the rule, and so were W51's table and main's B1636.
+- While the script was written, its code paths were run in scratch only on three lines of length 9, outside the
+  census, against synthetic targets.
+- The script places a CP-fixed mark exactly on its reflection line, where symmetry puts it. The refinement had found
+  it within about 10⁻⁸; its docstring states this.
+
+**The result (COMPUTED; one run; every cell as predicted).**
+
+| cell | prediction | prior | result |
+| --- | --- | --- | --- |
+| R0 | the structure: the census as in W116; W51's closed forms at i and ω; e₃ = 4 at every mark; F = 8 on the tick's line; every mark critical | 95% | **held** — the closed forms to 3 × 10⁻¹⁵, e₃ and F to 10⁻¹⁴, every mark critical to 7 × 10⁻⁸; 205 marks on the 34 classes |
+| R1 | the controls: W115's solutions reproduced; synthetic data fitted back at a mark | 80% | **held** — every solution reproduced; the control at a mark of LLRLLRLR's line to χ² 10⁻²⁶ |
+| R2 | J = 0 at every CP-fixed mark | 97% | **held** — \|J\| ≤ 1.1 × 10⁻¹⁵ over 1140 couplings |
+| R3 | the tick's marks are only its CP-fixed points | 70% | **held** — one mark, i, where all five functionals are extremal |
+| R4 | **the tick fails** at its marks | 90% | **held** — χ² 1310 to 1378 at i for 11, 13 and 14, at both budgets |
+| R5 | at least one line passes | 40% | **held** — 10 of the 40 lines, best χ²_line 1.07 |
+| R6 | **the null:** p ≥ 0.05 | 90% | **held** — p = 0.90 |
+| R7 | read-out: assignment 16 at the tick's mark | — | χ² 1244 at i, with 0 dof |
+
+- **The tick's line is marked only at i.** Every functional is extremal along it there, and there only. At the
+  elliptic point the couplings give degenerate pairs (W50), so no assignment comes near the data.
+- **Eleven lines are marked only at a CP-fixed point:** LR, LLR, LLLR, LLRR, L⁴R, L⁵R, L³R³, L⁶R, L⁴RLR, L⁷R and
+  L⁴R⁴. Their marks fail.
+- **The other 23 classes carry generic marks:** 117 were fitted, after the CP-mirror copies. All 136 fitted marks
+  sit low in F, at Im τ from 0.866 to 1.08, between i and ω, where W51's functionals pull.
+- **Ten lines pass** (25%), at 39 passing marks, counting the CP-mirror marks on each line. 32 of those are
+  assignment 11's, 4 are 14's and 3 are 13's.
+  - Most sit just off i, at Im τ ≈ 1.00 to 1.02 and |Re τ| ≈ 0.07 to 0.22, with J between 0.8 and 3.1 × 10⁻⁵. A
+    few sit near ω.
+  - The best is LLLRLLRR's local minimum of N_T at −0.211 + 1.016i (assignment 14, χ² 1.07).
+  - **LLLRR's line, a read-out:** the global marks of e₁, N_T and D on this length-5 line all pass, at ±0.20 + 1.02i
+    (χ² 1.09 to 1.35). It is noted, not claimed: choosing it would be a hand-pick unless the principle names
+    LLLRR.
+- **One passing mark is CP-fixed: J = 0 there.** It is LLRLLRR's at −½ + 0.913i (assignment 13, χ² 4.24). The
+  record's quark χ² (W66's eight observables) contains no CP phase. Its moduli at a = 0.10 allow J from zero to about
+  the measured value, so a CP-conserving point can pass. The measured J (about 3 × 10⁻⁵) excludes this mark, but the
+  fit does not see it.
+
+**What it shows.**
+- **The seed's own line, settled by the weave's functionals, lands on the weave's symmetric point i,** where the
+  masses are degenerate. By the rule fixed in advance, R4 and R3 hold: a clean negative for the tick, and the reason
+  is structural.
+- **The functionals do mark points off the symmetric ones on most other lines,** and a quarter of the lines carry a
+  mark that holds the quarks with two degrees of freedom. Each of those is one thread's mark, and nothing on record
+  names the thread. So choosing one would be a hand-pick, and nothing is claimed. The count does not move. 0 of 19.
+- **A lesson for the frame (a READING).** The record's fits use eight moduli and never the CP phase, so a fit cannot
+  tell CP violation from its absence at this allowance. Every later fit should add J (or the angle β) to the
+  observables. That also bears on W114 and W116, whose fits never tested J. Their passing points had J ≈ 2 to
+  3 × 10⁻⁵, near the measured value, but as a consequence of the moduli, not as a test.
+
+**Status.** COMPUTED (the rule first; one run; every cell as predicted). A census of thread results with weave
+functionals, labelled so. A clean negative for the tick, and no evidence from the other lines. 0 of 19.
+
 ## W116. The seed's marks (the owner's choice after W115): on every thread's closed geodesic up to length 8, W114's zero-dof quark assignments keep a fit with a degree of freedom to spare, the tick's line among them, so the seed's line costs nothing and selects nothing (`the_seed_geodesics.py`; `W116_RULE.md`)
 
 **Why.** After W115 the owner chose the seed as the source of the departure (main's P-224 and P-225).
@@ -10025,6 +10098,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W117 | COMPUTED (the rule first; one run; every cell as predicted); a census of thread results with weave functionals | a point on the line (the first of the owner's three arcs): τ held on each thread's closed geodesic up to length 8 and settled where W51's functionals are extremal along it (205 marks); the tick's line is marked only at i, where the masses are degenerate (χ² 1310 to 1378); eleven lines are marked only at a CP-fixed point; 10 of the 40 lines carry a mark that holds the quarks with two dof (best χ² 1.07, mostly just off i), p = 0.90, and none is named by a rule; one passing mark is CP-conserving (J = 0, χ² 4.24), since W66's eight observables carry no CP phase. A clean negative for the tick. 0 of 19 |
 | W116 | COMPUTED (the rule first; one run; S4 failed, the other cells as predicted); a census of thread results | the seed's marks (the owner's choice after W115): with τ on a thread's closed geodesic (every thread up to length 8: 69 words, 40 lines), W114's zero-dof quark assignments 11, 13 and 14 keep one degree of freedom, and the family passes on all 40 lines (χ²_fam 0.0013 to 2.96); the tick's line passes too (11 at χ² 0.33, its best point 0.072 + 1.033i, next to i), but p = 0.60; the quark data hold τ only to about 0.05 around each solution, and every line comes within 0.062 of one. No evidence. 0 of 19 |
 | W115 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE-type result given the frame | the leptons at the shared τ (the owner's choice after W114): the zero-dof quark fits pin τ at three points for 11, a CP-mirror pair for 13 and an exact mirror pair for 14 (correcting W114's 2.55), all at Im τ ≈ 1.07–1.69; the only lepton couplings with one free number (T⊗T at 3, mixed at 2) keep m_μ/m_τ above 0.21 there (the best pinned χ² 163; the best joint 109, with τ pushed to 1.94i at χ²_q = 38); a null of 4000 random targets gives p = 0.51. The shared modulus predicts nothing for the leptons. 0 of 19 |
 | W114 | COMPUTED (the rule first; one run; U0–U3 as predicted; U4 failed); a WEAVE-type result given W101's frame and CP in the law | the tuned layer's fit (the owner's choice after W113): the quarks in all sixteen tuned assignments up to weight 7, with θ̄ = 0 at every τ at one tuned number per tuned sector; none with a degree of freedom fits (the best χ² 47.9 for 2 dof; m_s/m_b and \|V_cb\| miss), and four of the five with none are compatible (11, 13 and 16 exactly, 14 at 2.55), all with Q in T̄ and T̄⊗T̄ at weight 7; θ̄ = 0 and the quark data coexist only where the fit predicts nothing, the Standard Model's own count with θ̄ tuned. 0 of 19 |
@@ -10122,6 +10196,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `W117_RULE.md`: the rule, committed and pushed before the code; `the_points_on_the_line.py` → `the_points_on_the_line.json` and `the_points_on_the_line_run.txt`: W117, a point on the line (one run).
 - `W116_RULE.md`: the rule, committed and pushed before the code; `the_seed_geodesics.py` → `the_seed_geodesics.json` and `the_seed_geodesics_run.txt`: W116, the seed's marks (one run).
 - `W115_RULE.md`: the rule, committed and pushed before the code; `the_shared_tau.py` → `the_shared_tau.json` and `the_shared_tau_run.txt`: W115, the leptons at the shared τ (one run).
 - `W114_RULE.md`: the rule, committed and pushed before the code; `the_tuned_fit.py` → `the_tuned_fit.json` and `the_tuned_fit_run.txt`: W114, the tuned layer's fit (one run).

@@ -2599,6 +2599,41 @@ def test_the_paper_draft7():
 
 
 
+def test_w117_the_points_on_the_line():
+    """W117 (rule 19a6e1994; script 67d6503c5; one run 2b84d4e88): every cell as predicted; the tick's one mark at i;
+    W51's closed form e1(i) = 2 + 2 sqrt 2 recomputed in process; the passing lines and p recomputed from the lines;
+    the best passing fit recomputed from its pulls"""
+    import math
+    import mpmath as mp
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_points_on_the_line.json").read_text(encoding="utf-8"))
+    assert d["status"] == "one run"
+    assert d["cells"] == {k: True for k in ("R0", "R1", "R2", "R3", "R4", "R5", "R6")}
+    tick = d["R3"]["the tick's marks"]
+    assert len(tick) == 1 and abs(complex(*tick[0]["tau"]) - 1j) < 1e-6 and tick[0]["cp_fixed"]
+    assert {b["functional"] for b in tick[0]["by"]} == {"e1", "e2", "N_T", "P_T", "D"}
+    assert all(min(v.values()) > 1000 for v in d["R4"]["the tick's marks"].values())
+    q = mp.exp(-mp.pi)
+    th = [mp.jtheta(k, 0, q) for k in (2, 3, 4)]
+    eta = mp.exp(-mp.pi / 12) * mp.qp(mp.exp(-2 * mp.pi))
+    e1 = sum(abs(t / eta) ** 2 for t in th)
+    assert abs(float(e1) - (2 + 2 * math.sqrt(2))) < 1e-12
+    lines = d["lines"]
+    passing = sorted(k for k, r in lines.items() if r["chi2_line"] <= 5.99)
+    assert passing == d["R5"]["lines that pass"] and len(passing) == 10 and "LR" not in passing
+    p = sum(1 for r in lines.values() if r["chi2_line"] <= lines["LR"]["chi2_line"]) / len(lines)
+    assert math.isclose(p, d["R6"]["p"]) and math.isclose(p, 0.9)
+    best = min(d["passing marks"], key=lambda r: r["chi2_min"])
+    rec = d["fits"]["census"][str(best["class"])][str(best["mark"])][str(best["assignment"])]
+    pulls = np.array(list(rec["pulls"].values()))
+    assert abs(float(np.sum(pulls ** 2)) - rec["chi2_min"]) < 1e-6 * max(1.0, rec["chi2_min"])
+    assert any(r["cp_fixed"] and abs(r["J"]) < 1e-14 for r in d["passing marks"])
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W117. A point on the line" in note
+    assert (here / "W117_RULE.md").exists()
+
+
 def test_w116_the_seed_geodesics():
     """W116 (rule e34f9f9d1; script 57491e223; one run 61efe388b): S4 failed, the other cells as predicted; the census
     counts recomputed in process from the words, the family statistic and p recomputed from the lines, and the tick's

@@ -864,6 +864,9 @@ Under the owner's rulings, the table's rows split into two groups:
 - **The owner's choice after W116: three arcs in order, then a pause to consolidate.** The first is W117, a
   point on the line (`W117_RULE.md` in the weave dossier; relay §180), its rule committed before its script.
   0 of 19.
+- **W117: the tick's line is marked only at i** (one run; relay §181). The weave's functionals, extremized
+  along the seed's line, land on i, where the masses are degenerate; a quarter of the other lines carry a
+  passing mark that no rule selects (p = 0.90). The record's fits lack the CP phase. 0 of 19.
 
 ## Questions open with main
 
@@ -885,7 +888,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W116 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W117 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§180).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§181).

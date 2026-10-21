@@ -1,5 +1,16 @@
 # Changelog
 
+## W117: a point on the line, a clean negative for the tick (relay §181)
+
+- **The order.** The rule was pushed before the script (19a6e1994), the script was committed before its one run
+  (67d6503c5), and the output before it was read (2b84d4e88).
+- **The result.** Every cell held as predicted. The weave's canonical functionals, extremized along the tick's line,
+  mark it only at i, where the masses are degenerate (χ² 1310). Ten of the 40 lines carry a mark that holds the quarks
+  with two degrees of freedom, but no rule selects them (p = 0.90).
+- **A lesson.** W66's eight observables carry no CP phase, and one CP-conserving mark passes. Later fits should add J.
+- **Surfaces.** The NOTE (section, header bullet, table row, files), the goal page, relay §181, the ledger's relay
+  row, the state page, and the lock test. 0 of 19.
+
 ## W117's rule: a point on the line, the first of the owner's three arcs (relay §180)
 
 - **The question.** Does the weave mark a point on the seed's line? The mechanism is fixed first: τ is held on a

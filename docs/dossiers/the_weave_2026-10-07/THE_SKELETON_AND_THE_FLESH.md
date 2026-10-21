@@ -137,6 +137,14 @@ failures. 0 of 19.
   2. **The first generation** (stage 3), after W117's read-out.
   3. **A step beyond the holomorphic tree level**, after the second.
   4. **Then the consolidation** of W112 onward, with no new run.
+- **W117: the tick's line is marked only at i** (one run; relay §181).
+  - Settled by the weave's functionals, the seed's own line lands on the weave's symmetric point i, where the
+    masses are degenerate (χ² 1310). A clean negative for the tick, and the reason is structural.
+  - A quarter of the other lines carry a mark that holds the quarks with two degrees of freedom (best χ² 1.07),
+    p = 0.90. Each is one thread's mark, and nothing on record names the thread.
+  - **A lesson for every fit:** W66's eight observables carry no CP phase, and one CP-conserving mark passes. Later
+    fits should add J.
+  - Next, by the owner's order: the first generation (W118).
 
 ## The stopping rules
 
