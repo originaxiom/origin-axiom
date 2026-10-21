@@ -19997,3 +19997,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   holds. One margin in the last test is thin. The two seats judge a "match" differently. And no one has counted how
   many tests have been tried in total. The last is now counted for today: eleven tests, and none confirmed a
   prediction. The other gaps are written down and put to the main seat. 0 of 19.
+
+## 2026-10-21 — a second correction of the same kind, and a note on the next test
+
+- **The main seat found a second result that holds only in a limit,** not at the natural length. One check this seat
+  made rests on it, so that check is now marked as limited the same way.
+- **The main seat sealed a test that takes τ from one object's shape.** Under the owner's rule that is one thread
+  chosen by hand. This seat noted that the fair version would try every thread's shape in the same way. 0 of 19.

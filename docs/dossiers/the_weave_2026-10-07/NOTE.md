@@ -7776,6 +7776,9 @@ and labelled). An exact deliverable for chat1, with no data. 0 of 19.
   - T1 becomes 17.7 to 29.3, so the running strengthens the exclusion;
   - T2 becomes 2.78 to 3.84, still within the bound.
 - So B1693's verdict does not depend on the scale at which it is read, in either cell.
+- *Scope, added later the same day (main's S167):* B1692's bound and B1693's exclusion hold for B1653's point
+  coupling, the large-L limit. At the canonical end one Higgs is not excluded. This check is arithmetic on the
+  large-L values and says nothing about the canonical end (relay §193).
 
 **Status.** COMPUTED (the rule first; one run; every cell as predicted). A WEAVE-type result given the frames: Part K
 is about every Kähler metric on the weave's matter, and Part L takes every forced coefficient on record at every scan

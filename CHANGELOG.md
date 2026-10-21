@@ -1,5 +1,16 @@
 # Changelog
 
+## Main's S167 and B1696 seal read: scope notes and a weave note (relay §193)
+
+- **S167** (main): B1692's bound and B1693's exclusion hold only at large L. This seat's §189 check and the
+  consolidation page's B1693 row are scoped to match.
+- **The pattern.** Two scope errors of one kind in one evening. The proposal: main sweeps the record and tags every
+  large-L result.
+- **B1696** (main, sealed): τ at m004's cusp shape. A weave note for its reading: τ from one thread's cusp is a thread
+  choice under the owner's rule. No expectation stated.
+- **Surfaces.** The consolidation page, the NOTE (W119's post hoc paragraph), relay §193, the ledger, the state page's
+  range. 0 of 19.
+
 ## A correction and the known gaps, after the owner's check (relay §192)
 
 - **The correction.** Relay §190 wrongly exempted W112 from the large-L question. W64–W69, W112 and W118 rest on

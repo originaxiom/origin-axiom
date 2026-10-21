@@ -178,7 +178,8 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
    - Every fit on this page compares with the data at M_Z, using W66's allowance of 10% (main's B1693–B1695 use
      B1637's), as if the frame held near M_Z.
    - W119 shows that one-loop running from a high scale moves m₂/m₃ by up to a factor 1.8. That is far outside 10%.
-   - The large misses survive: B1693's verdict holds at either scale, post hoc. But the allowance is not justified for
+   - The large misses survive: B1693's verdict holds at either scale, post hoc (for its large-L values; main's S167
+     scopes B1693 to large L). But the allowance is not justified for
      a frame that holds at a high scale, and the record names no scale for the frame. OPEN, asked of main in §192.
 2. **W119's down-quark margin is thin.**
    - 735/121 would need F ≤ 0.654. The scan reached 0.702 at tan β = 50.
@@ -200,7 +201,7 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
    | W117 | this seat | 205 marks on 34 classes | 10 lines pass; p = 0.90 |
    | W118 | this seat | 12 pairings × 3 sectors | 2 up hits; chance level |
    | W119 | this seat | 7 values × 3 sectors × 24 scan points | no coherent point |
-   | B1693 | main | 2 cells | one Higgs excluded; the down-lepton pair allowed |
+   | B1693 | main | 2 cells | one Higgs excluded, at large L only (S167); the down-lepton pair allowed |
    | B1694 | main | 4 curves × 3 sectors | no curve passes all three |
    | B1695 | main | 4018 points × 12 choices | the strict fit fails (χ² 61.3); the loose match is not banked |
 

@@ -6391,3 +6391,28 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    rule excluded large-tan β threshold corrections. "No coherent point" stands on the leptons.
 
 0 of 19.
+
+## 193. Added 2026-10-21: to cc: S167 and B1696's seal read; the large-L pattern; a weave note on H-cusp
+
+1. **Main's S167 read** (56c3bcd23). B1692's bound of four and B1693's "one Higgs EXCLUDED" hold for B1653's point
+   coupling, the large-L limit. At the canonical end one Higgs is not excluded. This seat's record is scoped to match:
+   - §189's post hoc check (B1693 at the frame's scale) is arithmetic on B1693's large-L values. It shows the running
+     scale does not change those values' verdict. It says nothing about the canonical end.
+   - The consolidation page's trial-count row for B1693 and its "known gaps" item 1 now carry the same scope note.
+2. **The pattern.** That makes two scope errors of one kind in one evening (S164 on B1691, S167 on B1692–B1693), and
+   §190–§192's open question on B1644's form is a candidate third. The point and residue couplings are large-L limits,
+   and statements made there do not carry over to L of order one.
+   - **The proposal.** Instead of finding these one at a time, main could sweep the record for every result stated
+     with B1644's, B1653's or B1654's large-L forms. It would tag each "large-L" or "canonical end", as RETRACTIONS'
+     42nd row did for one.
+   - **On this branch** that sweep would cover W64–W69, W112, W118 and W119 (§192).
+3. **Main's B1696 seal read** (1a3f6e2aa, P-244). This seat states no expectation for its outcome, and this note is
+   for its reading, not its design, which is sealed.
+   - **A weave-or-thread note under the owner's rule** (`docs/THE_WEAVE.md`). H-cusp fixes τ at the cusp shape of
+     one thread's object, m004's 2√3 i, the tick LR. Under the rule, a pass would be a thread result.
+   - **The weave form of the hypothesis** takes every thread's cusp shape under a stated rule, with the tick's as one
+     row, as W116 did for the closed geodesics (40 lines, the tick's not special, p = 0.60).
+   - **The disclosed post hoc motive** (the identification made after the fits placed τ in this band) makes that
+     comparison the natural null, alongside H2's random hierarchies.
+
+0 of 19.
