@@ -1,0 +1,988 @@
+{
+ "rule": "W113_RULE.md",
+ "script": "the_strong_angle.py",
+ "F0": {
+  "T(x)T dims k=1,3,5,7": [
+   1,
+   2,
+   4,
+   5
+  ],
+  "mixed (Q in T) dims k=0,2,4,6": [
+   1,
+   2,
+   4,
+   5
+  ],
+  "mixed (Q in Tbar) dims k=0,2,4,6": [
+   1,
+   2,
+   4,
+   5
+  ],
+  "k=1 member": {
+   "diagonal_over_max": 0.0,
+   "antisymmetry_over_max": 0.0,
+   "off_diagonal_entries": {
+    "01": "theta_4^2",
+    "02": "theta_3^2",
+    "12": "theta_2^2"
+   },
+   "ratio_spread": 2.1809043643055238e-30,
+   "det_over_lambdas_eta6": [
+    8.0,
+    -3.2418745398819235e-31
+   ],
+   "det_over_eta6_spread": 6.216573704776758e-30,
+   "exact det W = kappa (u1u2u3)^10": true
+  },
+  "holds": true
+ },
+ "F1": {
+  "Tbar(x)Tbar dims k=1,3,5,7": [
+   1,
+   3,
+   4,
+   6
+  ],
+  "k=1 (read-out)": 1,
+  "k=3 split (symmetric, antisymmetric)": [
+   2,
+   1
+  ],
+  "holds": true
+ },
+ "F2": {
+  "rows": {
+   "T(x)T k=1": {
+    "w": 0,
+    "a": 6,
+    "components": [
+     [
+      5.144485763404778e+50,
+      -9.353610478917779e+49
+     ]
+    ],
+    "relative_residual": 6.496557370305976e-30,
+    "pure_for_this_member": true,
+    "holds": true,
+    "dim": 1,
+    "class": "automatic"
+   },
+   "T(x)T k=3": {
+    "w": 6,
+    "a": 6,
+    "components": [
+     [
+      -6.129982163463555e+55,
+      5.5169839471172e+56
+     ]
+    ],
+    "relative_residual": 6.364686500085274e-30,
+    "holds": true,
+    "dim": 2,
+    "class": "impossible"
+   },
+   "T(x)T k=5": {
+    "w": 12,
+    "a": 6,
+    "components": [
+     [
+      -2.259756624739205e+60,
+      -2.711707949687046e+60
+     ],
+     [
+      -6.941972351198838e+63,
+      3.470986175599419e+63
+     ]
+    ],
+    "relative_residual": 4.667595075222554e-30,
+    "both_components_nonzero": true,
+    "holds": true,
+    "dim": 4,
+    "class": "tuned"
+   },
+   "T(x)T k=7": {
+    "w": 18,
+    "a": 6,
+    "components": [
+     [
+      8.087984000145192e+67,
+      1.5586219166946464e+67
+     ],
+     [
+      2.0348019747031945e+70,
+      1.1255777733535392e+69
+     ]
+    ],
+    "relative_residual": 7.930945762131866e-30,
+    "both_components_nonzero": true,
+    "holds": true,
+    "dim": 5,
+    "class": "impossible"
+   },
+   "Tbar(x)Tbar k=1": {
+    "w": -6,
+    "a": 18,
+    "det_identically_zero_rel": 0.0,
+    "holds": true,
+    "dim": 1,
+    "class": "det identically 0"
+   },
+   "Tbar(x)Tbar k=3": {
+    "w": 0,
+    "a": 18,
+    "components": [
+     [
+      -4.827858800541172e+18,
+      -1.3564842077639934e+19
+     ]
+    ],
+    "relative_residual": 4.432816054790245e-30,
+    "pure_for_this_member": true,
+    "holds": true,
+    "dim": 3,
+    "class": "automatic"
+   },
+   "Tbar(x)Tbar k=5": {
+    "w": 6,
+    "a": 18,
+    "components": [
+     [
+      -4.1320706725109396e+23,
+      8.098858518121442e+23
+     ]
+    ],
+    "relative_residual": 3.109956852113794e-30,
+    "holds": true,
+    "dim": 4,
+    "class": "impossible"
+   },
+   "Tbar(x)Tbar k=7": {
+    "w": 12,
+    "a": 18,
+    "components": [
+     [
+      1.8569100589280704e+27,
+      -1.7137732418856983e+28
+     ],
+     [
+      -7.873298649855019e+29,
+      -2.0698357456851558e+30
+     ]
+    ],
+    "relative_residual": 5.1905874821988736e-30,
+    "both_components_nonzero": true,
+    "holds": true,
+    "dim": 6,
+    "class": "tuned"
+   },
+   "mixed (Q in T) k=0": {
+    "w": 0,
+    "a": 0,
+    "components": [
+     [
+      -208.0,
+      -144.0
+     ]
+    ],
+    "relative_residual": 0.0,
+    "pure_for_this_member": true,
+    "holds": true,
+    "dim": 1,
+    "class": "automatic"
+   },
+   "mixed (Q in T) k=2": {
+    "w": 6,
+    "a": 0,
+    "components": [
+     [
+      -99614720.0,
+      47185920.0
+     ]
+    ],
+    "relative_residual": 1.0611646335829992e-30,
+    "holds": true,
+    "dim": 2,
+    "class": "impossible"
+   },
+   "mixed (Q in T) k=4": {
+    "w": 12,
+    "a": 0,
+    "components": [
+     [
+      -68719476736.0,
+      -1168231104512.0
+     ],
+     [
+      1372190511464448.0,
+      1380986604486656.0
+     ]
+    ],
+    "relative_residual": 1.8441768594596684e-30,
+    "both_components_nonzero": true,
+    "holds": true,
+    "dim": 4,
+    "class": "tuned"
+   },
+   "mixed (Q in T) k=6": {
+    "w": 18,
+    "a": 0,
+    "components": [
+     [
+      7.656119366529843e+17,
+      -3.6366566991016755e+17
+     ],
+     [
+      -5.963486482578916e+20,
+      -7.953717229906486e+20
+     ]
+    ],
+    "relative_residual": 1.2691905624280306e-30,
+    "both_components_nonzero": true,
+    "holds": true,
+    "dim": 5,
+    "class": "impossible"
+   },
+   "mixed (Q in Tbar) k=0": {
+    "w": 0,
+    "a": 0,
+    "components": [
+     [
+      128.0,
+      -704.0
+     ]
+    ],
+    "relative_residual": 1.3780832881767197e-34,
+    "pure_for_this_member": true,
+    "holds": true,
+    "dim": 1,
+    "class": "automatic"
+   },
+   "mixed (Q in Tbar) k=2": {
+    "w": 6,
+    "a": 0,
+    "components": [
+     [
+      -86507520.0,
+      78643200.0
+     ]
+    ],
+    "relative_residual": 8.347955902098581e-31,
+    "holds": true,
+    "dim": 2,
+    "class": "impossible"
+   },
+   "mixed (Q in Tbar) k=4": {
+    "w": 12,
+    "a": 0,
+    "components": [
+     [
+      -1649267441664.0,
+      2199023255552.0
+     ],
+     [
+      2163838883463168.0,
+      -1073123348709376.0
+     ]
+    ],
+    "relative_residual": 1.530381318127405e-30,
+    "both_components_nonzero": true,
+    "holds": true,
+    "dim": 4,
+    "class": "tuned"
+   },
+   "mixed (Q in Tbar) k=6": {
+    "w": 18,
+    "a": 0,
+    "components": [
+     [
+      7.318349394477056e+17,
+      -4.3910096366862336e+17
+     ],
+     [
+      3.039965777272104e+21,
+      -1.9833132182999285e+21
+     ]
+    ],
+    "relative_residual": 2.0966744705101432e-30,
+    "both_components_nonzero": true,
+    "holds": true,
+    "dim": 5,
+    "class": "impossible"
+   }
+  },
+  "holds": true
+ },
+ "F3": {
+  "exact det W = kappa(c) (u1 u2 u3)^6": true,
+  "kappa (cubic form; key = exponents of c)": {
+   "003": "2",
+   "012": "-3",
+   "021": "-3",
+   "030": "2",
+   "102": "3",
+   "111": "-3",
+   "120": "3",
+   "300": "-1"
+  },
+  "kappa nonzero": true,
+  "holds": true
+ },
+ "F4": {
+  "hands (s_Q, s_u, s_d)": {
+   "(1, 1, 1)": {
+    "viable": false,
+    "draws": [
+     {
+      "degenerate": false,
+      "massless": false,
+      "V_a_permutation": true
+     },
+     {
+      "degenerate": false,
+      "massless": false,
+      "V_a_permutation": true
+     },
+     {
+      "degenerate": false,
+      "massless": false,
+      "V_a_permutation": true
+     },
+     {
+      "degenerate": false,
+      "massless": false,
+      "V_a_permutation": true
+     },
+     {
+      "degenerate": false,
+      "massless": false,
+      "V_a_permutation": true
+     }
+    ],
+    "up": "T(x)T k=1",
+    "down": "T(x)T k=1"
+   },
+   "(1, 1, -1)": {
+    "viable": false,
+    "draws": [
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     }
+    ],
+    "up": "T(x)T k=1",
+    "down": "mixed (Q in T) k=0"
+   },
+   "(1, -1, 1)": {
+    "viable": false,
+    "draws": [
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     }
+    ],
+    "up": "mixed (Q in T) k=0",
+    "down": "T(x)T k=1"
+   },
+   "(1, -1, -1)": {
+    "viable": false,
+    "draws": [
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": true
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": true
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": true
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": true
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": true
+     }
+    ],
+    "up": "mixed (Q in T) k=0",
+    "down": "mixed (Q in T) k=0"
+   },
+   "(-1, 1, 1)": {
+    "viable": false,
+    "draws": [
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": true
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": true
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": true
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": true
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": true
+     }
+    ],
+    "up": "mixed (Q in Tbar) k=0",
+    "down": "mixed (Q in Tbar) k=0"
+   },
+   "(-1, 1, -1)": {
+    "viable": false,
+    "draws": [
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     }
+    ],
+    "up": "mixed (Q in Tbar) k=0",
+    "down": "Tbar(x)Tbar k=3"
+   },
+   "(-1, -1, 1)": {
+    "viable": false,
+    "draws": [
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": true,
+      "massless": false,
+      "V_a_permutation": false
+     }
+    ],
+    "up": "Tbar(x)Tbar k=3",
+    "down": "mixed (Q in Tbar) k=0"
+   },
+   "(-1, -1, -1)": {
+    "viable": true,
+    "draws": [
+     {
+      "degenerate": false,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": false,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": false,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": false,
+      "massless": false,
+      "V_a_permutation": false
+     },
+     {
+      "degenerate": false,
+      "massless": false,
+      "V_a_permutation": false
+     }
+    ],
+    "up": "Tbar(x)Tbar k=3",
+    "down": "Tbar(x)Tbar k=3"
+   }
+  },
+  "viable": [
+   "(-1, -1, -1)"
+  ],
+  "holds": true
+ },
+ "C": {
+  "(-1, -1, -1)": {
+   "assignment": {
+    "hand": "(-1, -1, -1)",
+    "up": "Tbar(x)Tbar k=3",
+    "down": "Tbar(x)Tbar k=3",
+    "K": 6
+   },
+   "C1": {
+    "conjugation_closed": true,
+    "max |Y(-conj tau) - conj Y(tau)| / max|Y|": 0.0,
+    "holds": true
+   },
+   "C2": {
+    "max |Im r| / |r|, r = det(Y_u) det(Y_d) / eta^(6K)": 5.676308777667562e-23,
+    "pairs": 200,
+    "taus": 30,
+    "fraction with theta-bar = 0 (r > 0)": 0.455,
+    "evaluations with r = 0": 0,
+    "without the counterterm": "theta-bar = -36 arg eta - arg r (mod 2 pi), r real",
+    "holds": true
+   },
+   "C3": {
+    "pairs with |J| > 1e-8, per generic tau": [
+     100,
+     100,
+     100,
+     100,
+     100
+    ],
+    "median |J| per generic tau": [
+     0.006712632689676834,
+     0.0014810154881028529,
+     0.0022143253600797864,
+     0.003322251694087312,
+     0.00013842911053182257
+    ],
+    "max |J| on the CP loci": {
+     "Re tau = 0": 0.0,
+     "Re tau = 1/2": 2.4467779113669277e-16,
+     "|tau| = 1": 2.277076913941627e-16
+    },
+    "holds": true
+   },
+   "C4": {
+    "min over (tau, coefficients) of max over sectors of max(m2/m1, m3/m2)": 9.007970462957632e-05,
+    "at": {
+     "tau_in_F": [
+      -0.132025641135446,
+      5.9999999699454145
+     ],
+     "delta_to_nearest_elliptic_point": 5.001742743221744,
+     "observables": {
+      "m_u/m_c": 8.067154728917898e-05,
+      "m_c/m_t": 9.007953478249592e-05,
+      "m_d/m_s": 5.644788477152413e-05,
+      "m_s/m_b": 9.007970462957626e-05,
+      "|V_us|": 0.2816416966817348,
+      "|V_cb|": 0.99999994479743,
+      "|V_ub|": 0.00021466335944987126,
+      "|V_td|": 0.281641746352273
+     },
+     "data": {
+      "m_u/m_c": 0.0019838709677419348,
+      "m_c/m_t": 0.0036847735647212655,
+      "m_d/m_s": 0.050225733634311515,
+      "m_s/m_b": 0.01872490313490666,
+      "|V_us|": 0.22501000000000002,
+      "|V_cb|": 0.04182999999999999,
+      "|V_ub|": 0.0037319999999999996,
+      "|V_td|": 0.008579999999999999
+     },
+     "pulls": {
+      "m_u/m_c": -16.03192087406838,
+      "m_c/m_t": -35.75862411596845,
+      "m_d/m_s": -45.18868748652316,
+      "m_s/m_b": -40.22380613243481,
+      "|V_us|": 2.243883945169739,
+      "|V_cb|": 31.19004499228164,
+      "|V_ub|": -27.76046040295737,
+      "|V_td|": 34.08626090313911
+     },
+     "J": -4.559078108278754e-16,
+     "m_u/m_t": 7.266855449993363e-09,
+     "m_d/m_b": 5.084808787183249e-09,
+     "coefficients_up": [
+      -0.5201592689614348,
+      -0.6038927159092005,
+      -0.6039436418949333
+     ],
+     "coefficients_down": [
+      0.7433567166267137,
+      5.781257275755143e-05,
+      -0.6688951999406619
+     ],
+     "perm_distance_of_V": 0.281641746352273
+    },
+    "read-out: cusp exponents of m_i / m_max for three random real members (lightest first)": [
+     [
+      0.7498547776986625,
+      -0.00018895919064769706,
+      -0.0
+     ],
+     [
+      0.7497861087539505,
+      -1.5906950315247396e-05,
+      -0.0
+     ],
+     [
+      0.7498136645311322,
+      -3.33869291941482e-05,
+      -0.0
+     ]
+    ],
+    "holds": true
+   },
+   "C5": {
+    "chi2_min (a = 0.10)": 1.6136394767600885e-28,
+    "stage-1 best chi2": 32.68832347342588,
+    "stage-2 best ten": [
+     8.957045381681806e-21,
+     9.405909605296942e-21,
+     1.2419957177776489e-20,
+     0.008195045278664615,
+     0.5874217771782404,
+     1.276254118108289,
+     3.636247034229972,
+     3.636247034229974,
+     3.6362470342299744,
+     3.6362470342299744
+    ],
+    "seconds": 104.77288579940796,
+    "synthetic point": [
+     0.3030007194660489,
+     1.8628519591333639,
+     -1.5368756275677984,
+     -0.20456906599843003,
+     -1.709300621796744,
+     0.5982332269004657,
+     -1.8637273373277967,
+     -1.2972198879728254
+    ],
+    "synthetic observables": [
+     0.1326689821260963,
+     0.3492182764536466,
+     0.04709278419278471,
+     0.34194150698813947,
+     0.09478147542865219,
+     0.42640117383461457,
+     0.8874128139684585,
+     0.13997520026876642
+    ],
+    "holds": true
+   },
+   "C6": {
+    "chi2_min (a = 0.10)": 103.64801053933783,
+    "stage-1 best chi2": 573.1928046030695,
+    "stage-2 best ten": [
+     103.64801053933783,
+     103.64801053936444,
+     103.64801053936621,
+     103.6480105393853,
+     103.64801053938976,
+     103.6480105393982,
+     104.12058680868975,
+     104.51915755554337,
+     108.51002166347126,
+     108.51002166347428
+    ],
+    "seconds": 439.21288561820984,
+    "best point": {
+     "tau_in_F": [
+      -3.2520026133144073e-07,
+      1.8535969118890352
+     ],
+     "delta_to_nearest_elliptic_point": 0.8535969118890971,
+     "observables": {
+      "m_u/m_c": 0.0023495036358974213,
+      "m_c/m_t": 0.003738029304527496,
+      "m_d/m_s": 0.07514412269908634,
+      "m_s/m_b": 0.05566495832476794,
+      "|V_us|": 0.2479982842873106,
+      "|V_cb|": 0.02815251042412507,
+      "|V_ub|": 0.0026480247064277936,
+      "|V_td|": 0.00954610752279848
+     },
+     "data": {
+      "m_u/m_c": 0.0019838709677419348,
+      "m_c/m_t": 0.0036847735647212655,
+      "m_d/m_s": 0.050225733634311515,
+      "m_s/m_b": 0.01872490313490666,
+      "|V_us|": 0.22501000000000002,
+      "|V_cb|": 0.04182999999999999,
+      "|V_ub|": 0.0037319999999999996,
+      "|V_td|": 0.008579999999999999
+     },
+     "pulls": {
+      "m_u/m_c": 0.846817718955312,
+      "m_c/m_t": 0.13825919797981231,
+      "m_d/m_s": 2.6808614104073296,
+      "m_s/m_b": 8.211428732215003,
+      "|V_us|": 0.9723259107961786,
+      "|V_cb|": -3.8909886741368345,
+      "|V_ub|": -3.3356773865949254,
+      "|V_td|": 1.0417585093534782
+     },
+     "J": 9.419298918799344e-13,
+     "m_u/m_t": 8.78251344207846e-06,
+     "m_d/m_b": 0.004182894458395889,
+     "coefficients_up": [
+      -0.7085796445911196,
+      0.002745905933389347,
+      0.70562550072381
+     ],
+     "coefficients_down": [
+      0.6412992051798423,
+      0.041857445967835194,
+      -0.7661483431116669
+     ],
+     "perm_distance_of_V": 0.2479982842873106
+    },
+    "theta-bar at the best point": {
+     "det_ratio": [
+      -2.395539963679677,
+      4.8064102626838295e-33
+     ],
+     "theta_bar": "pi",
+     "imag_over_abs": 2.0063995322795318e-33
+    },
+    "chi2_min (a = 0.05)": 211.97328825893885,
+    "chi2_min (a = 0.2)": 34.50598865115635,
+    "pass mark": 5.99,
+    "holds": false
+   }
+  }
+ },
+ "T": {
+  "T1": {
+   "rows": {
+    "T(x)T k=5": {
+     "dim": 4,
+     "real roots": 142,
+     "pure and non-degenerate": 140,
+     "root searches that did not converge": 0,
+     "holds": false
+    },
+    "Tbar(x)Tbar k=7": {
+     "dim": 6,
+     "real roots": 88,
+     "pure and non-degenerate": 87,
+     "root searches that did not converge": 0,
+     "holds": false
+    },
+    "mixed (Q in T) k=4": {
+     "dim": 4,
+     "real roots": 143,
+     "pure and non-degenerate": 138,
+     "root searches that did not converge": 0,
+     "holds": false
+    },
+    "mixed (Q in Tbar) k=4": {
+     "dim": 4,
+     "real roots": 139,
+     "pure and non-degenerate": 135,
+     "root searches that did not converge": 0,
+     "holds": false
+    }
+   },
+   "holds": false
+  },
+  "T2": {
+   "assignments": {
+    "(1, 1, 1): up T(x)T k=1, down T(x)T k=5": {
+     "pairs with |J| > 1e-8": 20,
+     "max |J|": 0.06456202611535565,
+     "T3: smallest hierarchy measure": 0.6360324278372387,
+     "holds": true
+    },
+    "(1, 1, 1): up T(x)T k=5, down T(x)T k=1": {
+     "pairs with |J| > 1e-8": 20,
+     "max |J|": 0.06456202611535568,
+     "T3: smallest hierarchy measure": 0.6360324278372387,
+     "holds": true
+    },
+    "(1, 1, 1): up T(x)T k=5, down T(x)T k=5": {
+     "pairs with |J| > 1e-8": 20,
+     "max |J|": 0.044792308369323915,
+     "T3: smallest hierarchy measure": 0.0006568500103142908,
+     "holds": true
+    },
+    "(1, 1, -1): up T(x)T k=1, down mixed (Q in T) k=4": {
+     "pairs with |J| > 1e-8": 18,
+     "max |J|": 0.04324395297698072,
+     "T3: smallest hierarchy measure": 0.6360324278372388,
+     "holds": true
+    },
+    "(1, 1, -1): up T(x)T k=5, down mixed (Q in T) k=4": {
+     "pairs with |J| > 1e-8": 20,
+     "max |J|": 0.06736692021410064,
+     "T3: smallest hierarchy measure": 0.04762054883150131,
+     "holds": true
+    },
+    "(1, -1, 1): up mixed (Q in T) k=4, down T(x)T k=1": {
+     "pairs with |J| > 1e-8": 18,
+     "max |J|": 0.043243952976980624,
+     "T3: smallest hierarchy measure": 0.6360324278372387,
+     "holds": true
+    },
+    "(1, -1, 1): up mixed (Q in T) k=4, down T(x)T k=5": {
+     "pairs with |J| > 1e-8": 20,
+     "max |J|": 0.0673669202141005,
+     "T3: smallest hierarchy measure": 0.04762054883150131,
+     "holds": true
+    },
+    "(1, -1, -1): up mixed (Q in T) k=4, down mixed (Q in T) k=4": {
+     "pairs with |J| > 1e-8": 19,
+     "max |J|": 0.08171081999593548,
+     "T3: smallest hierarchy measure": 0.05882581904382683,
+     "holds": true
+    },
+    "(-1, 1, 1): up mixed (Q in Tbar) k=4, down mixed (Q in Tbar) k=4": {
+     "pairs with |J| > 1e-8": 20,
+     "max |J|": 0.04661192197745487,
+     "T3: smallest hierarchy measure": 0.25051672473375963,
+     "holds": true
+    },
+    "(-1, 1, -1): up mixed (Q in Tbar) k=4, down Tbar(x)Tbar k=3": {
+     "pairs with |J| > 1e-8": 20,
+     "max |J|": 0.058064067407557075,
+     "T3: smallest hierarchy measure": 0.18750004465182715,
+     "holds": true
+    },
+    "(-1, 1, -1): up mixed (Q in Tbar) k=4, down Tbar(x)Tbar k=7": {
+     "pairs with |J| > 1e-8": 20,
+     "max |J|": 0.07144089727525252,
+     "T3: smallest hierarchy measure": 0.15009490202084688,
+     "holds": true
+    },
+    "(-1, -1, 1): up Tbar(x)Tbar k=3, down mixed (Q in Tbar) k=4": {
+     "pairs with |J| > 1e-8": 20,
+     "max |J|": 0.05690960220665999,
+     "T3: smallest hierarchy measure": 0.18750004465182715,
+     "holds": true
+    },
+    "(-1, -1, 1): up Tbar(x)Tbar k=7, down mixed (Q in Tbar) k=4": {
+     "pairs with |J| > 1e-8": 20,
+     "max |J|": 0.07144089727525257,
+     "T3: smallest hierarchy measure": 0.15009490202084688,
+     "holds": true
+    },
+    "(-1, -1, -1): up Tbar(x)Tbar k=3, down Tbar(x)Tbar k=7": {
+     "pairs with |J| > 1e-8": 20,
+     "max |J|": 0.05407313334687236,
+     "T3: smallest hierarchy measure": 0.04493573504579451,
+     "holds": true
+    },
+    "(-1, -1, -1): up Tbar(x)Tbar k=7, down Tbar(x)Tbar k=3": {
+     "pairs with |J| > 1e-8": 20,
+     "max |J|": 0.08613291786860758,
+     "T3: smallest hierarchy measure": 0.1285234717955956,
+     "holds": true
+    },
+    "(-1, -1, -1): up Tbar(x)Tbar k=7, down Tbar(x)Tbar k=7": {
+     "pairs with |J| > 1e-8": 20,
+     "max |J|": 0.05918775411918025,
+     "T3: smallest hierarchy measure": 0.05308997724092654,
+     "holds": true
+    }
+   },
+   "count": 16,
+   "holds": true
+  }
+ },
+ "dims": {
+  "T(x)T k=1": 1,
+  "T(x)T k=3": 2,
+  "T(x)T k=5": 4,
+  "T(x)T k=7": 5,
+  "Tbar(x)Tbar k=1": 1,
+  "Tbar(x)Tbar k=3": 3,
+  "Tbar(x)Tbar k=5": 4,
+  "Tbar(x)Tbar k=7": 6,
+  "mixed (Q in T) k=0": 1,
+  "mixed (Q in T) k=2": 2,
+  "mixed (Q in T) k=4": 4,
+  "mixed (Q in T) k=6": 5,
+  "mixed (Q in Tbar) k=0": 1,
+  "mixed (Q in Tbar) k=2": 2,
+  "mixed (Q in Tbar) k=4": 4,
+  "mixed (Q in Tbar) k=6": 5
+ },
+ "seconds": 624.7395737171173
+}
