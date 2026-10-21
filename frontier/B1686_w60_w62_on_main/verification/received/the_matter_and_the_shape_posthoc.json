@@ -1,0 +1,85 @@
+{
+ "status": "W62 post hoc: A1 traced; the shape of D from the stored values; the content window against the cusp (labelled; W62's JSON unchanged; no new spectrum)",
+ "PH1": {
+  "omega + 1 is omega's mirror image": true,
+  "|S(omega + 1) - S(-conj(omega))|": 0.0,
+  "T's change at the other four points": {
+   "[0.0, 1.0]": 3.057412060240022,
+   "[0.3, 1.1]": 1.2080979089315003,
+   "[0.1, 1.7]": 0.23559497614485814,
+   "[-0.4, 0.95]": 1.094731676684697
+  },
+  "the identity's largest error at all five": 2.522015229631626e-12,
+  "A1 holds at every point where T is not the mirror": true
+ },
+ "PH2": {
+  "n": {
+   "E2 alone: coefficient": -0.029674420282847863,
+   "E2 alone: rms residual / rms dD": 0.0056702868311480185,
+   "E3 and E2: coefficients": [
+    0.0014046772207754112,
+    -0.03331895298393169
+   ],
+   "E3 and E2: rms residual / rms dD": 0.0004814660667338714,
+   "E2 alone: coefficient / (31/1024)": -0.9802131086979423
+  },
+  "4n": {
+   "E2 alone: coefficient": -0.029904592285251563,
+   "E2 alone: rms residual / rms dD": 0.005584005555540196,
+   "E3 and E2: coefficients": [
+    0.0013936607985736479,
+    -0.03352054211308206
+   ],
+   "E3 and E2: rms residual / rms dD": 0.0004912213186722545,
+   "E2 alone: coefficient / (31/1024)": -0.9878162096805677
+  },
+  "O(h)": {
+   "E2 alone: coefficient": -0.03013476428765527,
+   "E2 alone: rms residual / rms dD": 0.005499095882995703,
+   "E3 and E2: coefficients": [
+    0.0013826443763718702,
+    -0.03372213124223238
+   ],
+   "E3 and E2: rms residual / rms dD": 0.0005008344872128437,
+   "E2 alone: coefficient / (31/1024)": -0.9954193106631934
+  },
+  "O(h^2)": {
+   "E2 alone: coefficient": -0.029981316286052797,
+   "E2 alone: rms residual / rms dD": 0.00555555142963718,
+   "E3 and E2: coefficients": [
+    0.001389988657839726,
+    -0.03358773848946551
+   ],
+   "E3 and E2: rms residual / rms dD": 0.0004944413616930232,
+   "E2 alone: coefficient / (31/1024)": -0.9903505766747762
+  },
+  "31/1024": 0.0302734375
+ },
+ "PH3": {
+  "r per axis interval (4n)": [
+   0.01705988092072988,
+   0.017414262715495846,
+   0.017823193689371953,
+   0.018250096743190468,
+   0.01856647577505353,
+   0.018694702105240314,
+   0.019047175347420432,
+   0.019654759795232887,
+   0.020344534307790874,
+   0.020775434503739306
+  ],
+  "rising": true,
+  "r on the arc against omega (4n)": {
+   "arc x = 0.4103": 0.01590411125600157,
+   "arc x = 0.3583": 0.0158717461708719,
+   "arc x = 0.2895": 0.01584553214550207,
+   "arc x = 0.2558": 0.015837479060751364,
+   "arc x = 0.1826": 0.015826882355180538,
+   "arc x = 0.0103": 0.015820220367225912
+  },
+  "the cusp limit (31/1024)": 0.0302734375,
+  "the cusp-stability threshold for W_triv/W_rho, from Sum W kappa < 0": 0.0302734375,
+  "every measured r below the threshold": true,
+  "reading": "with W_rho < 0, f' along the axis has the sign of W_triv/W_rho - r; a cusp-stable content has W_triv/W_rho > 31/1024 > r, so f rises from i up the axis and from omega to i on the arc: its minimum on the sampled curves is at omega; a content with W_triv/W_rho inside the window has a stationary point on the axis that is a maximum, and runs to the cusp (assumes r keeps rising beyond y = 2.02, not computed)"
+ }
+}

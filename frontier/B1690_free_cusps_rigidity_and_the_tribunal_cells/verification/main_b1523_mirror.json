@@ -1,0 +1,5071 @@
+{
+"summary": {
+"states": 758,
+"manifolds": 536,
+"mirror_broken": 262,
+"broken_by_sign": {
+"+": 131,
+"-": 131
+},
+"broken_chiral": 220,
+"broken_with_orientation_reversing": 42,
+"states_on_broken": 482,
+"broken_by_length_manifolds": {
+"6": 2,
+"7": 2,
+"8": 8,
+"9": 14,
+"10": 36,
+"11": 62,
+"12": 138
+}
+},
+"manifolds": [
+{
+"states": [
+"+LR"
+],
+"sign": "+",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LR"
+],
+"sign": "-",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRR"
+],
+"sign": "+",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRR"
+],
+"sign": "-",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRRR"
+],
+"sign": "+",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRRR"
+],
+"sign": "-",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLRR",
+"+LLLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRR",
+"-LLLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLRLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRLRR",
+"+LLLLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLRR",
+"-LLLLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRRRR"
+],
+"sign": "+",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRRRR"
+],
+"sign": "-",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLLRR",
+"+LLLRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRR",
+"-LLLRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLRLRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLRLRRLR"
+],
+"sign": "+",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLRRLR"
+],
+"sign": "-",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRLRR",
+"+LLLLLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLRR",
+"-LLLLLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRLLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRLLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRLLRR",
+"+LLLLRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLRR",
+"-LLLLRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRLRRR",
+"+LLLLRRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLRRR",
+"-LLLLRRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLLRLR",
+"+LLLRLRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRLR",
+"-LLLRLRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLRRR",
+"+LLLRRLRRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRRR",
+"-LLLRRLRRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRLRR",
+"+LLLRRLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRLRR",
+"-LLLRRLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLRRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRRLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRRLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLLRLRR",
+"+LLRLLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLRLLRLRR",
+"-LLRLLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLRLRLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLRLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLRLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLRLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLRLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLRLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLRLRR",
+"+LLLLLLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLLRLRR",
+"-LLLLLLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLLRRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLRRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRLLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRLLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRLLRR",
+"+LLLLLRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLLRR",
+"-LLLLLRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRLRRR",
+"+LLLLLRRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLRRR",
+"-LLLLLRRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRRRRR"
+],
+"sign": "+",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRRRRR"
+],
+"sign": "-",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRLLLRR",
+"+LLLLRRLLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLLRR",
+"-LLLLRRLLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLLRLR",
+"+LLLLRLRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLRLR",
+"-LLLLRLRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLLRRR",
+"+LLLLRRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLRRR",
+"-LLLLRRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLRLRR",
+"+LLLLRRLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLRLRR",
+"-LLLLRRLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLRRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRLRRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRLRRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLRRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRRLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRRLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRRLRRR",
+"+LLLLRRRLRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRRLRRR",
+"-LLLLRRRLRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLLLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLLLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLLLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLLRLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLLRLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLLRLRR",
+"+LLLRRLRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRLRR",
+"-LLLRRLRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLRRLR",
+"+LLLRLRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRRLR",
+"-LLLRLRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRLLRR",
+"+LLLRRLLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRLLRR",
+"-LLLRRLLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLRLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLRLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRRLRR",
+"+LLLRRLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRRLRR",
+"-LLLRRLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRRRLR"
+],
+"sign": "+",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLRRRLR"
+],
+"sign": "-",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRRLLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRRLLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRRLRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRRLRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLLRLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLLRLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLLRLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLLRLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLLRRLRR"
+],
+"sign": "+",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLLRRLRR"
+],
+"sign": "-",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLRLRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLRLRLRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLRLRLRRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLRLRLRRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLRLRRLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLRLRRLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLLLLLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLLLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLRLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLRLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLRLRR",
+"+LLLLLLLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLLLRLRR",
+"-LLLLLLLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLLLRRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLRRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLRLLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLRLLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLRLLRR",
+"+LLLLLLRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLLRLLRR",
+"-LLLLLLRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLLRLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLRLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLRLRRR",
+"+LLLLLLRRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLLRLRRR",
+"-LLLLLLRRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLLRRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLRRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLRRRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLRRRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRLLLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRLLLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRLLLRR",
+"+LLLLLRRLLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLLLRR",
+"-LLLLLRRLLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRLLRLR",
+"+LLLLLRLRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLLRLR",
+"-LLLLLRLRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRLLRRR",
+"+LLLLLRRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLLRRR",
+"-LLLLLRRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRLRLRR",
+"+LLLLLRRLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLRLRR",
+"-LLLLLRRLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRLRRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRLRRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRLRRRR",
+"+LLLLLRRRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLRRRR",
+"-LLLLLRRRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRRLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRRLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRRLRRR",
+"+LLLLLRRRLRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRRLRRR",
+"-LLLLLRRRLRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLLLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRLLLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRLLLRLR",
+"+LLLLRLRLLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLLRLR",
+"-LLLLRLRLLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLLLRRR",
+"+LLLLRRRLLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLLRRR",
+"-LLLLRRRLLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLLRLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRLLRLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRLLRLRR",
+"+LLLLRRLRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLRLRR",
+"-LLLLRRLRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLLRRLR",
+"+LLLLRLRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLRRLR",
+"-LLLLRLRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLLRRRR",
+"+LLLLRRLRRRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLRRRR",
+"-LLLLRRLRRRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLRLLRR",
+"+LLLLRRLLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLRLLRR",
+"-LLLLRRLLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLRLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRLRLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRLRLRRR",
+"+LLLLRRRLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLRLRRR",
+"-LLLLRRRLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLRRLRR",
+"+LLLLRRLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLRRLRR",
+"-LLLLRRLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLRRRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRLRRRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRRLLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRRLLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRRLLRRR",
+"+LLLLRRRLLRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRRLLRRR",
+"-LLLLRRRLLRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRRLRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRRLRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRRRLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRRRLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLLLRLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLLLRLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLLLRLRR",
+"+LLLRLLLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLLRLRR",
+"-LLLRLLLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLRLLRR",
+"+LLLRRLLRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRLLRR",
+"-LLLRRLLRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLRLRLR",
+"+LLLRLRLRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRLRLR",
+"-LLLRLRLRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLRLRRR",
+"+LLLRLRRLRRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRLRRR",
+"-LLLRLRRLRRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLRRLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLLRRLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLLRRLRR",
+"+LLLRRLRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRRLRR",
+"-LLLRRLRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLRRRLR",
+"+LLLRLRRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRRRLR",
+"-LLLRLRRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRLLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLRLLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLRLLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLRLLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLRLLRRR",
+"+LLLRRLRLRRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRLLRRR",
+"-LLLRRLRLRRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRLRLRR",
+"+LLLRRLRLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRLRLRR",
+"-LLLRRLRLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRLRRLR",
+"+LLLRLRRLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRLRRLR",
+"-LLLRLRRLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRRLLRR",
+"+LLLRRLLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRRLLRR",
+"-LLLRRLLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRRLLLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRRLLLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRRLLRLRR",
+"+LLLRRLRLLRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRRLLRLRR",
+"-LLLRRLRLLRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRRLRRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRRLRRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLLRLLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLLRLLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLLRLRLRR",
+"+LLRLLRRLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLRLLRLRLRR",
+"-LLRLLRRLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLRLLRLRRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLLRLRRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLLRRLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLLRRLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLRLLRLRR",
+"+LLRLRLLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLRLRLLRLRR",
+"-LLRLRLLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLRLRLRLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLRLRLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLRLRLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLRLRLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLLLLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLLLLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLLLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLLLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLLLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLLLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLLLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLLLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLLRLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLLRLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLLRLRR",
+"+LLLLLLLLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLLLLRLRR",
+"-LLLLLLLLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLLLLRRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLLRRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLRLLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLRLLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLRLLRR",
+"+LLLLLLLRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLLLRLLRR",
+"-LLLLLLLRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLLLRLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLRLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLRLRRR",
+"+LLLLLLLRRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLLLRLRRR",
+"-LLLLLLLRRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLLLRRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLRRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLLRRRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLLRRRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLRLLLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLRLLLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLRLLLRR",
+"+LLLLLLRRLLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLLRLLLRR",
+"-LLLLLLRRLLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLLRLLRLR",
+"+LLLLLLRLRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLLRLLRLR",
+"-LLLLLLRLRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLLRLLRRR",
+"+LLLLLLRRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLLRLLRRR",
+"-LLLLLLRRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLLRLRLRR",
+"+LLLLLLRRLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLLRLRLRR",
+"-LLLLLLRRLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLLRLRRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLRLRRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLRLRRRR",
+"+LLLLLLRRRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLLRLRRRR",
+"-LLLLLLRRRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLLRRLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLRRLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLLRRLRRR",
+"+LLLLLLRRRLRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLLRRLRRR",
+"-LLLLLLRRRLRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLLRRRRRR"
+],
+"sign": "+",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLLRRRRRR"
+],
+"sign": "-",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRLLLLRR",
+"+LLLLLRRLLLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLLLLRR",
+"-LLLLLRRLLLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRLLLRLR",
+"+LLLLLRLRLLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLLLRLR",
+"-LLLLLRLRLLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRLLLRRR",
+"+LLLLLRRRLLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLLLRRR",
+"-LLLLLRRRLLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRLLRLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRLLRLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRLLRLRR",
+"+LLLLLRRLRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLLRLRR",
+"-LLLLLRRLRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRLLRRLR",
+"+LLLLLRLRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLLRRLR",
+"-LLLLLRLRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRLLRRRR",
+"+LLLLLRRRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLLRRRR",
+"-LLLLLRRRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRLRLLRR",
+"+LLLLLRRLLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLRLLRR",
+"-LLLLLRRLLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRLRLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRLRLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRLRLRRR",
+"+LLLLLRRRLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLRLRRR",
+"-LLLLLRRRLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRLRRLRR",
+"+LLLLLRRLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLRRLRR",
+"-LLLLLRRLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRLRRRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRLRRRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRLRRRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRLRRRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRRLLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRRLLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRRLLRRR",
+"+LLLLLRRRLLRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRRLLRRR",
+"-LLLLLRRRLLRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRRLRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRRLRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLLRRLRRRR",
+"+LLLLLRRRRLRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLLRRLRRRR",
+"-LLLLLRRRRLRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLLRRRLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLLRRRLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRLLLLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRLLLLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRLLLLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRLLLLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRLLLRLLR",
+"+LLLLRLLRLLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLLRLLR",
+"-LLLLRLLRLLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLLLRLRR",
+"+LLLLRRLRLLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLLRLRR",
+"-LLLLRRLRLLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLLLRRLR",
+"+LLLLRLRRLLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLLRRLR",
+"-LLLLRLRRLLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLLLRRRR",
+"+LLLLRRRLRRRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLLRRRR",
+"-LLLLRRRLRRRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLLRLLRR",
+"+LLLLRRLLRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLRLLRR",
+"-LLLLRRLLRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLLRLRLR",
+"+LLLLRLRLRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLRLRLR",
+"-LLLLRLRLRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLLRLRRR",
+"+LLLLRRRLRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLRLRRR",
+"-LLLLRRRLRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLLRRLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRLLRRLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRLLRRLRR",
+"+LLLLRRLRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLRRLRR",
+"-LLLLRRLRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLLRRRLR",
+"+LLLLRLRRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLLRRRLR",
+"-LLLLRLRRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLRLLLRR",
+"+LLLLRRLLLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLRLLLRR",
+"-LLLLRRLLLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLRLLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRLRLLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRLRLLRRR",
+"+LLLLRRRLLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLRLLRRR",
+"-LLLLRRRLLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLRLRLRR",
+"+LLLLRRLRLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLRLRLRR",
+"-LLLLRRLRLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLRLRRLR",
+"+LLLLRLRRLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLRLRRLR",
+"-LLLLRLRRLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLRLRRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLRLRRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLRRLLRR",
+"+LLLLRRLLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLRRLLRR",
+"-LLLLRRLLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLRRLRRR",
+"+LLLLRRRLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLRRLRRR",
+"-LLLLRRRLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLRRRLRR",
+"+LLLLRRLRRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRLRRRLRR",
+"-LLLLRRLRRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRLRRRRLR"
+],
+"sign": "+",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRLRRRRLR"
+],
+"sign": "-",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRRLLLRRR",
+"+LLLLRRRLLLRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRRLLLRRR",
+"-LLLLRRRLLLRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRRLLRLRR",
+"+LLLLRRLRLLRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRRLLRLRR",
+"-LLLLRRLRLLRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRRLLRRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRRLLRRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRRLRLRRR",
+"+LLLLRRRLRLRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLLRRLRLRRR",
+"-LLLLRRRLRLRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLLRRLRRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRRLRRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLLRRRLLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLLRRRLLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLLLRLLRR",
+"+LLLRLLLRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLLRLLRR",
+"-LLLRLLLRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLLRLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLLLRLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLLLRLRRR",
+"+LLLRLLLRRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLLRLRRR",
+"-LLLRLLLRRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLLRRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLLLRRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLLRLLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLLRLLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLLRLLRLR",
+"+LLLRLRLLRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRLLRLR",
+"-LLLRLRLLRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLRLLRRR",
+"+LLLRRLRRLRRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRLLRRR",
+"-LLLRRLRRLRRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLRLRLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLLRLRLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLLRLRLRR",
+"+LLLRRLRLRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRLRLRR",
+"-LLLRRLRLRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLRLRRLR",
+"+LLLRLRRLRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRLRRLR",
+"-LLLRLRRLRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLRRLLRR",
+"+LLLRRLLRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRRLLRR",
+"-LLLRRLLRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLRRLRLR",
+"+LLLRLRLRRLLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRRLRLR",
+"-LLLRLRLRRLLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLRRLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLLRRLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLLRRRLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLLRRRLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLLRRRLRR",
+"+LLLRRLRRRLLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLLRRRLRR",
+"-LLLRRLRRRLLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLRLLLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLRLLLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLRLLRLRR",
+"+LLLRRLRLLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRLLRLRR",
+"-LLLRRLRLLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRLLRRLR",
+"+LLLRLRRLLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRLLRRLR",
+"-LLLRLRRLLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRLRLLRR",
+"+LLLRRLLRLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRLRLLRR",
+"-LLLRRLLRLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRLRLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLRLRLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLRLRLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRLRLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRLRRLRR",
+"+LLLRRLRRLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRLRRLRR",
+"-LLLRRLRRLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRLRRRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRLRRRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRRLLLRR",
+"+LLLRRLLLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRRLLLRR",
+"-LLLRRLLLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRRLLRRR",
+"+LLLRRLLRLRRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRRLLRRR",
+"-LLLRRLLRLRRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRRLRLRR",
+"+LLLRRLRLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRRLRLRR",
+"-LLLRRLRLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRLRRLRRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRLRRLRRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRLRRRLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRLRRRLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRRLLRLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRRLLRLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLLRRLLRRLRR",
+"+LLLRRLRRLLRR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRRLLRRLRR",
+"-LLLRRLRRLLRR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRRLRLLRRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLLRRLRLLRRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLLRRLRLRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLLRRLRLRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLLRLLRLRR",
+"+LLRLLRLLRRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLRLLRLLRLRR",
+"-LLRLLRLLRRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLRLLRLRLLRR",
+"+LLRLLRRLLRLR"
+],
+"sign": "+",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLRLLRLRLLRR",
+"-LLRLLRRLLRLR"
+],
+"sign": "-",
+"n_isom": 2,
+"orientation_reversing": false,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLRLLRLRLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLLRLRLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLLRLRRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLRLLRLRRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLRLLRRLRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLLRRLRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLRLLRLRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLRLLRLRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLRLRLRLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLRLRLRLRLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLRLRLRLRRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLRLRLRLRRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLRLRLRRLLRR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"-LLRLRLRRLLRR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": true,
+"longitude_inverting": false
+},
+{
+"states": [
+"+LLRLRLRRLRLR"
+],
+"sign": "+",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLRLRRLRLR"
+],
+"sign": "-",
+"n_isom": 8,
+"orientation_reversing": true,
+"longitude_inverting": true
+},
+{
+"states": [
+"+LLRLRRLLRRLR"
+],
+"sign": "+",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+},
+{
+"states": [
+"-LLRLRRLLRRLR"
+],
+"sign": "-",
+"n_isom": 4,
+"orientation_reversing": false,
+"longitude_inverting": true
+}
+]
+}

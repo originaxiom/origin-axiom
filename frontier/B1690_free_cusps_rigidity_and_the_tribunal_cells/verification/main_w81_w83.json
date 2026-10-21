@@ -1,0 +1,22 @@
+{
+ "centraliser_of_A2_roots": 72,
+ "commutant_roots": 30,
+ "commutant_dim": 35,
+ "commutant_simple_roots": 5,
+ "commutant_cartan_is_A5": true,
+ "moves_on_T_commutant_dim": 1,
+ "Y_dim_moves_through_O": 0,
+ "Y_dim_through_S3": 1,
+ "Y_dim_trivial": 8,
+ "moves_on_T_order": 96,
+ "moves_on_T_character_norm": 1.0000000000000004,
+ "W81_SU2q_multiplicities_by_dim": {
+  "1": 55,
+  "2": 52,
+  "3": 27,
+  "4": 2
+ },
+ "W81_rhoQ_multiplicity_on_Q8": 56,
+ "W81_each_character_multiplicity_on_Q8": 27,
+ "W81_trivial_on_Q8": 55
+}

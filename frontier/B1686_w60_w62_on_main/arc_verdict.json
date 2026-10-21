@@ -1,0 +1,21 @@
+{
+  "id": "B1686",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": ["B1653", "B1656", "B1660", "B1673", "B1684"],
+  "rests_on_seat": ["sm:W60", "sm:W62"],
+  "cites_seat": ["sm:W59"],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the weave's shared fibre with the matter's local system rho_Q and the Higgs's parity copies (the SM seat's W59-W62 setting, given Lambda)",
+    "object": "the one-loop potential of the computed contents on the fibre torus at tau = omega (W60) and on the index-8400 family of shapes on the imaginary axis and the unit arc (W62)",
+    "reach": "class",
+    "hypotheses": "the heat-kernel definition with t0 = 30/lambda_K (W60) and lambda_K t0 = 24 for W62 (a truncation control bounds the effect at 2e-9); the contents on record (matter, Higgs copies, gauge, graviton) and nothing else; a windowed family of shapes, not a global minimisation over tau"
+  },
+  "claim_one_line": "W60 AND W62 ON MAIN (P-222): every cell of the SM seat's W60 (the quark sector with a Wilson line) and W62 (what holds tau at the selected state) reproduced by main's own lattice and code from the rules -- the quarks resist the colour-centre line; the net six-dimensional term has its minimum -147.64 on the three half-period lines, where the matter sees nothing and one parity copy of the Higgs is untwisted; at that line the Higgs's copies keep only the theta group, the state is not stationary in tau (-1.553 at omega, gradient (-7.52, -4.34), falling to -3.785 at i), and every content on record has a positive cusp coefficient, so it runs to a cusp; the lattice cells M0-M6 agree with the seat's to 7e-10 on all seventeen shapes at both sizes. So W59's tau = omega and eighteen lines (verified, B1684) are not the potential's state, and nothing computed holds tau. Main's own observation: the puncture's diffraction cancels 79% of the periodic part at (1/6, 1/6). 0 of 19.",
+  "weave_or_thread": "weave (the shared fibre's potential, every sector the record carries)"
+}

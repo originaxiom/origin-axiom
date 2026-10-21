@@ -1,0 +1,6828 @@
+{
+"n": 758,
+"exceptions": [],
+"states": [
+{
+"state": "+LR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLLRRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLLRRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLLRRRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLLRRRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRLRRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRLRRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRLLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLLRRRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLLRRRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRLRRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRLRRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLRLLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLLRRRLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLLRRRLRRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLLRRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLLRRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRLRRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRRLLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRLRRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRLRRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLLRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLLRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRLLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRLRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRRLRRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLLRRLRRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLLRRLRRRLLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRLLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRLRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRLRRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRRLLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLLRRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLLRRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRLLRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRLRLRLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRLRLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRLRRLLRR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRLRRLRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "+LLRLRRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+},
+{
+"state": "-LLRLRRLLRRLR",
+"cusps": 1,
+"b1": 1,
+"ranks": [
+1
+],
+"oriented": true
+}
+]
+}

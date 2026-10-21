@@ -63,3 +63,5 @@ Test: `tests/test_b1606_three_on_the_weave_graded.py`.
 ## Addendum (2026-10-21, Review 66; P-124, the reliance census)
 
 > *Tagged 2026-10-21.* Review 66's reliance census found this arc relying on seat results that are not verified on main, and its `rests_on_seat` field does not declare them, so the gate seat-positive-verified could not see them. W23 (row 937) and W24 (row 939) carry the grade's UNEARNED and NEGATIVES clauses ("the gauge three is a selection"); P-156 holds their verification. They are the seat's, unverified (harvest rows named); the verifications are queued by consequence (P-229). The cells and numbers are unchanged.
+
+> *Note 2026-10-21 (B1689).* W23 and W24's computed cells are verified on main since (rows 937, 939 VERIFIED); the grade's UNEARNED and NEGATIVES clauses that rest on them now rest on main's computation. P-156's other premises (the end condition, dim Λ₊ − 3, the M₁,₂ identification) are unchanged.

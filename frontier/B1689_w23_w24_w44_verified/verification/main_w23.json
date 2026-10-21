@@ -1,0 +1,33 @@
+{
+ "doublets_all_isomorphic_to_rho_Q": true,
+ "E6_27xV_n3": [
+  0,
+  1
+ ],
+ "SO10_16xV_n4": [
+  0,
+  1,
+  2
+ ],
+ "SU5_(10xW,5barxL2W)_n5": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   3
+  ],
+  [
+   2,
+   2
+  ]
+ ],
+ "counts_of_bundles": {
+  "3": 9,
+  "4": 37,
+  "5": 44
+ },
+ "max_complete_generations": 2,
+ "holds_as_recorded": true
+}

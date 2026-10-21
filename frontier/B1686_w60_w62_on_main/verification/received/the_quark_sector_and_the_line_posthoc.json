@@ -1,0 +1,265 @@
+{
+ "status": "W60 post hoc: P1 re-scored; the matter's potential fitted; the net term minimized over every line (labelled; W60's JSON unchanged)",
+ "PH1": {
+  "N = 96": {
+   "largest |Delta V6 - exact|": 0.017106658984126,
+   "largest relative error where the exact value is not 0": 0.0005480764364634478,
+   "largest |Delta log det - Kronecker|": 4.2044068226942954e-09
+  },
+  "N = 192": {
+   "largest |Delta V6 - exact|": 0.004274793992848913,
+   "largest relative error where the exact value is not 0": 0.00013695540584157255,
+   "largest |Delta log det - Kronecker|": 2.627703610258436e-10
+  },
+  "holds with absolute errors (2e-3 log det; 3% of the largest |exact| for V6) at N = 192": true
+ },
+ "PH2": {
+  "the fit's largest residual on the grid": 2.1834879807003382e-09,
+  "against the N = 192 points": {
+   "(1/4, 0)": {
+    "fit (N = 96)": -0.45801671920860926,
+    "N = 192": -0.4553173104539813
+   },
+   "(1/6, 1/6)": {
+    "fit (N = 96)": -0.5154568146691972,
+    "N = 192": -0.5124173232280951
+   },
+   "(1/9, 1/9)": {
+    "fit (N = 96)": -0.41115296840320287,
+    "N = 192": -0.4087303682602252
+   },
+   "(2/9, 2/9)": {
+    "fit (N = 96)": -0.47102967463507944,
+    "N = 192": -0.4682536075755048
+   },
+   "(1/18, 1/18)": {
+    "fit (N = 96)": -0.14780299307592798,
+    "N = 192": -0.14693567352627962
+   }
+  }
+ },
+ "PH3": {
+  "(i) the rule's: quarks, Higgs jointly": {
+   "the global minimum w": [
+    0.5,
+    0.5
+   ],
+   "its value": -147.63871091230166,
+   "the value at w = 0": 1.5721113624193178e-07,
+   "the grid points within 1e-6 of the minimum value": 3,
+   "w on the ninths (largest distance)": 0.05555555555555558,
+   "the twists there (q w mod 1)": {
+    "Q": [
+     0.5,
+     0.5
+    ],
+    "u^c": [
+     0.0,
+     0.0
+    ],
+    "d^c": [
+     0.0,
+     0.0
+    ],
+    "L": [
+     0.5,
+     0.5
+    ],
+    "e^c": [
+     0.0,
+     0.0
+    ],
+    "H": [
+     0.5,
+     0.5
+    ]
+   },
+   "d^c and e^c see different twists": false
+  },
+  "(ii) quarks, leptons, Higgs jointly": {
+   "the global minimum w": [
+    0.5,
+    0.5
+   ],
+   "its value": -147.63871087299887,
+   "the value at w = 0": 1.9651392030241473e-07,
+   "the grid points within 1e-6 of the minimum value": 3,
+   "w on the ninths (largest distance)": 0.05555555555555558,
+   "the twists there (q w mod 1)": {
+    "Q": [
+     0.5,
+     0.5
+    ],
+    "u^c": [
+     0.0,
+     0.0
+    ],
+    "d^c": [
+     0.0,
+     0.0
+    ],
+    "L": [
+     0.5,
+     0.5
+    ],
+    "e^c": [
+     0.0,
+     0.0
+    ],
+    "H": [
+     0.5,
+     0.5
+    ]
+   },
+   "d^c and e^c see different twists": false
+  },
+  "(iii) quarks, leptons, Higgs in (1/2, 0)": {
+   "the global minimum w": [
+    0.5,
+    0.0
+   ],
+   "its value": -147.63871053623495,
+   "the value at w = 0": 1.9651392030241473e-07,
+   "the grid points within 1e-6 of the minimum value": 1,
+   "w on the ninths (largest distance)": 0.05555555555555558,
+   "the twists there (q w mod 1)": {
+    "Q": [
+     0.5,
+     0.0
+    ],
+    "u^c": [
+     0.0,
+     0.0
+    ],
+    "d^c": [
+     0.0,
+     0.0
+    ],
+    "L": [
+     0.5,
+     0.0
+    ],
+    "e^c": [
+     0.0,
+     0.0
+    ],
+    "H": [
+     0.5,
+     0.0
+    ]
+   },
+   "d^c and e^c see different twists": false
+  },
+  "(iii) quarks, leptons, Higgs in (0, 1/2)": {
+   "the global minimum w": [
+    0.0,
+    0.5
+   ],
+   "its value": -147.63871053623498,
+   "the value at w = 0": 1.9651392030241473e-07,
+   "the grid points within 1e-6 of the minimum value": 1,
+   "w on the ninths (largest distance)": 0.05555555555555558,
+   "the twists there (q w mod 1)": {
+    "Q": [
+     0.0,
+     0.5
+    ],
+    "u^c": [
+     0.0,
+     0.0
+    ],
+    "d^c": [
+     0.0,
+     0.0
+    ],
+    "L": [
+     0.0,
+     0.5
+    ],
+    "e^c": [
+     0.0,
+     0.0
+    ],
+    "H": [
+     0.0,
+     0.5
+    ]
+   },
+   "d^c and e^c see different twists": false
+  },
+  "(iii) quarks, leptons, Higgs in (1/2, 1/2)": {
+   "the global minimum w": [
+    0.5,
+    0.5
+   ],
+   "its value": -147.63871087299887,
+   "the value at w = 0": 1.9651392030241473e-07,
+   "the grid points within 1e-6 of the minimum value": 1,
+   "w on the ninths (largest distance)": 0.05555555555555558,
+   "the twists there (q w mod 1)": {
+    "Q": [
+     0.5,
+     0.5
+    ],
+    "u^c": [
+     0.0,
+     0.0
+    ],
+    "d^c": [
+     0.0,
+     0.0
+    ],
+    "L": [
+     0.5,
+     0.5
+    ],
+    "e^c": [
+     0.0,
+     0.0
+    ],
+    "H": [
+     0.5,
+     0.5
+    ]
+   },
+   "d^c and e^c see different twists": false
+  },
+  "(iv) quarks and leptons alone": {
+   "the global minimum w": [
+    1.2745088266653815e-10,
+    0.9999999998150891
+   ],
+   "its value": 1.9651392030240477e-07,
+   "the value at w = 0": 1.9651392030241473e-07,
+   "the grid points within 1e-6 of the minimum value": 4,
+   "w on the ninths (largest distance)": 1.8491086439809123e-10,
+   "the twists there (q w mod 1)": {
+    "Q": [
+     1.2745088266653815e-10,
+     0.9999999998150891
+    ],
+    "u^c": [
+     0.9999999994901965,
+     7.396434575923649e-10
+    ],
+    "d^c": [
+     2.549017653330763e-10,
+     0.9999999996301783
+    ],
+    "L": [
+     0.9999999996176474,
+     5.547327042165762e-10
+    ],
+    "e^c": [
+     7.647052959992289e-10,
+     0.9999999988905346
+    ],
+    "H": [
+     3.8235264799961444e-10,
+     0.9999999994452673
+    ]
+   },
+   "d^c and e^c see different twists": false
+  }
+ }
+}

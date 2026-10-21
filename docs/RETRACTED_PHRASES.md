@@ -241,3 +241,7 @@ received copies of GENESIS, which are records and are not edited.
 | "τ = ω gives degenerate masses at every weight" | the Review-62 refresh blocks (B1617, B1618); withdrawn 2026-10-15 (B1655) | computed where the inner automorphisms act; on the ruled branch τ = ω is retired only as "no hierarchy found at ω" (B1640), and the near-ω regime is uncomputed |
 | "zero modes give no flavour structure by themselves. Their residue coupling" | the Review-63 refresh blocks (B1642's addendum, B1643 C6); withdrawn 2026-10-15 (B1655) | the residue coupling is rank two with an exact massless direction along the theta-triplet, the pattern a light first generation needs (B1644–B1653); it gives no 2–3 hierarchy and no golden pattern |
 | "explains W72's rank 3" | B1653's claim line and THE_WEAVE; withdrawn by B1653's S129 correction and B1655 | W72's lift is the two-point mechanism carried in τ, not a fibre profile; where R is a matter mode the τ-integral cannot lift the zero |
+
+**Currency read, 2026-10-21 (S158, at B1690).** The arcs B1656–B1690 were read for withdrawn phrases: none withdraws a
+banked phrase (B1659 and B1664 withdrew readings before their seals, which are not banked phrases; B1685's tags
+withdraw no result; B1687 corrects a register point's expectation, not a banked sentence). No row added.

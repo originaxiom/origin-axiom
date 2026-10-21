@@ -1,0 +1,1775 @@
+{
+"summary": {
+"threads": 8798,
+"by_length": {
+"2": 1,
+"3": 2,
+"4": 3,
+"5": 6,
+"6": 9,
+"7": 18,
+"8": 30,
+"9": 56,
+"10": 99,
+"11": 186,
+"12": 335,
+"13": 630,
+"14": 1161,
+"15": 2182,
+"16": 4080
+},
+"mirror_symmetric": 248,
+"bits": {
+"0": 248,
+"0.5": 0,
+"neither": 0
+},
+"kinds": {
+"rot": 12,
+"rev": 210,
+"rotrev": 26
+},
+"max_abs_cs": 5.551115123125783e-14,
+"solutions": [
+"all tetrahedra positively oriented"
+]
+},
+"rows": [
+{
+"word": "LR",
+"kind": "rotrev",
+"cs": -4.6629367034256575e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRR",
+"kind": "rotrev",
+"cs": -2.220446049250313e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRR",
+"kind": "rotrev",
+"cs": 5.329070518200751e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRR",
+"kind": "rev",
+"cs": 1.7763568394002505e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRRLR",
+"kind": "rev",
+"cs": 1.7763568394002505e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRR",
+"kind": "rotrev",
+"cs": -2.220446049250313e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRR",
+"kind": "rev",
+"cs": 2.220446049250313e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLR",
+"kind": "rev",
+"cs": 2.220446049250313e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRR",
+"kind": "rev",
+"cs": 2.220446049250313e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRRLR",
+"kind": "rotrev",
+"cs": 9.325873406851315e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRRLRLR",
+"kind": "rev",
+"cs": 9.325873406851315e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRRRRR",
+"kind": "rotrev",
+"cs": 2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLRRRR",
+"kind": "rev",
+"cs": -1.9984014443252818e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRRLR",
+"kind": "rev",
+"cs": 9.992007221626409e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLRRR",
+"kind": "rev",
+"cs": -2.4424906541753444e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRRLR",
+"kind": "rotrev",
+"cs": 2.0650148258027912e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLLRRR",
+"kind": "rev",
+"cs": 9.992007221626409e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLLRR",
+"kind": "rev",
+"cs": 9.992007221626409e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLRLR",
+"kind": "rev",
+"cs": 6.439293542825908e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRRLRR",
+"kind": "rotrev",
+"cs": -4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRLRR",
+"kind": "rev",
+"cs": 2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRRLR",
+"kind": "rev",
+"cs": -4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRRLLRR",
+"kind": "rev",
+"cs": -4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRRLRLR",
+"kind": "rev",
+"cs": 9.992007221626409e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRRLLRRLR",
+"kind": "rev",
+"cs": -4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRRLRLRLR",
+"kind": "rev",
+"cs": 2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLLRRRRRR",
+"kind": "rotrev",
+"cs": 7.105427357601002e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRLRRRRR",
+"kind": "rev",
+"cs": 0.0,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRRRRRLR",
+"kind": "rev",
+"cs": 0.0,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLRLRRRR",
+"kind": "rev",
+"cs": -1.0658141036401503e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLRRRRLR",
+"kind": "rotrev",
+"cs": 0.0,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRLLRRRR",
+"kind": "rev",
+"cs": -1.7763568394002505e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRRLLRR",
+"kind": "rev",
+"cs": 1.4210854715202004e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRRLRLR",
+"kind": "rev",
+"cs": 0.0,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLLRRLRRR",
+"kind": "rev",
+"cs": -1.0658141036401503e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLLRRRLRR",
+"kind": "rot",
+"cs": 0.0,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLRLRRR",
+"kind": "rev",
+"cs": 0.0,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLRRRLR",
+"kind": "rev",
+"cs": 1.4210854715202004e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRRLLRR",
+"kind": "rev",
+"cs": 0.0,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRRLRLR",
+"kind": "rev",
+"cs": 1.4210854715202004e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLLRRRLR",
+"kind": "rev",
+"cs": 0.0,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLRLLRRR",
+"kind": "rev",
+"cs": 2.842170943040401e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLRRRLLR",
+"kind": "rot",
+"cs": 1.4210854715202004e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLLRLRR",
+"kind": "rev",
+"cs": 0.0,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLRLRLR",
+"kind": "rev",
+"cs": 1.4210854715202004e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLRRLLR",
+"kind": "rev",
+"cs": -3.552713678800501e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRLRRLRR",
+"kind": "rev",
+"cs": -2.1316282072803006e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRRLRRLR",
+"kind": "rev",
+"cs": -7.105427357601002e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRLRLRR",
+"kind": "rev",
+"cs": 7.105427357601002e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRLRRLR",
+"kind": "rev",
+"cs": -7.105427357601002e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRRLLRR",
+"kind": "rev",
+"cs": -1.4210854715202004e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRRLRLR",
+"kind": "rotrev",
+"cs": -1.4210854715202004e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRRLRLRLR",
+"kind": "rev",
+"cs": 1.4210854715202004e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRRLLRRLRLR",
+"kind": "rev",
+"cs": 0.0,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRRLRLRLRLR",
+"kind": "rev",
+"cs": -7.105427357601002e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLLLRRRRRRR",
+"kind": "rotrev",
+"cs": 1.1324274851176597e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLLRLRRRRRR",
+"kind": "rev",
+"cs": -8.215650382226158e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLLRRRRRRLR",
+"kind": "rev",
+"cs": -2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRLRLRRRRR",
+"kind": "rev",
+"cs": 2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRLRRRRRLR",
+"kind": "rotrev",
+"cs": 1.84297022087776e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRRLLRRRRR",
+"kind": "rev",
+"cs": 1.4876988529977098e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRRRRRLLRR",
+"kind": "rev",
+"cs": 1.1324274851176597e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRRRRRLRLR",
+"kind": "rev",
+"cs": 3.9745984281580604e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLLRRLRRRR",
+"kind": "rev",
+"cs": -3.3306690738754696e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLLRRRRLRR",
+"kind": "rot",
+"cs": -2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLRLRLRRRR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLRLRRRRLR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLRRRRLLRR",
+"kind": "rev",
+"cs": -2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLRRRRLRLR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRLLRRRRLR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRLRLLRRRR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRLRRRRLLR",
+"kind": "rot",
+"cs": -2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRLLLRRRR",
+"kind": "rev",
+"cs": 1.6653345369377348e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRRLLLRRR",
+"kind": "rev",
+"cs": 6.661338147750939e-16,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRRLLRLRR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRRLRLRLR",
+"kind": "rev",
+"cs": -2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRRLRRLLR",
+"kind": "rev",
+"cs": 1.84297022087776e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLLLRRRLRRR",
+"kind": "rotrev",
+"cs": -4.6629367034256575e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLLRLRRLRRR",
+"kind": "rev",
+"cs": 6.661338147750939e-16,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLLRRLRRRLR",
+"kind": "rev",
+"cs": -2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLRLRLRRR",
+"kind": "rev",
+"cs": 1.1324274851176597e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLRLRRRLR",
+"kind": "rev",
+"cs": 1.84297022087776e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLRRRLLRR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLRRRLRLR",
+"kind": "rotrev",
+"cs": 2.55351295663786e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRLLRLRRR",
+"kind": "rev",
+"cs": -1.709743457922741e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRRLLLRRR",
+"kind": "rev",
+"cs": -2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRRLLRLRR",
+"kind": "rev",
+"cs": -1.709743457922741e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRRLRLRLR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRRLRRLLR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLLRRLLRRR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLLRRRLLRR",
+"kind": "rotrev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLLRRRLRLR",
+"kind": "rev",
+"cs": -2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLRLLRRRLR",
+"kind": "rev",
+"cs": -2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLRLRLLRRR",
+"kind": "rev",
+"cs": -9.992007221626409e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLLLRRRLR",
+"kind": "rev",
+"cs": -2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLLRLRLRR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLLRRLLRR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLRLLRRLR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLRLRLRLR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLRRLRLLR",
+"kind": "rev",
+"cs": 1.1324274851176597e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRLRLRRLRR",
+"kind": "rev",
+"cs": 1.1324274851176597e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRLRRLRRLR",
+"kind": "rotrev",
+"cs": 1.84297022087776e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRRLLRRLRR",
+"kind": "rev",
+"cs": -1.709743457922741e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRRLRRLLRR",
+"kind": "rev",
+"cs": -2.4202861936828413e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRRLRRLRLR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLLRRLRLRR",
+"kind": "rotrev",
+"cs": -2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRLRLRLRR",
+"kind": "rev",
+"cs": -2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRLRLRRLR",
+"kind": "rev",
+"cs": 2.55351295663786e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRLRRLLRR",
+"kind": "rev",
+"cs": -2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRLRRLRLR",
+"kind": "rev",
+"cs": 1.84297022087776e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRRLLRLRR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRRLRLRLR",
+"kind": "rev",
+"cs": 1.1324274851176597e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRRLLRLRRLR",
+"kind": "rev",
+"cs": 1.1324274851176597e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRRLLRRLLRR",
+"kind": "rev",
+"cs": 4.218847493575595e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRRLRLLRRLR",
+"kind": "rev",
+"cs": 1.1324274851176597e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRRLRLRLRLR",
+"kind": "rev",
+"cs": -2.886579864025407e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRRLLRRLLRRLR",
+"kind": "rev",
+"cs": -9.992007221626409e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRRLLRRLRLRLR",
+"kind": "rev",
+"cs": 1.1324274851176597e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRRLRLLRRLRLR",
+"kind": "rev",
+"cs": 3.26405569239796e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRRLRLRLRLRLR",
+"kind": "rev",
+"cs": -9.992007221626409e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLLLLRRRRRRRR",
+"kind": "rotrev",
+"cs": -5.551115123125783e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLLLRLRRRRRRR",
+"kind": "rev",
+"cs": -3.774758283725532e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLLLRRRRRRRLR",
+"kind": "rev",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLLRLRLRRRRRR",
+"kind": "rev",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLLRLRRRRRRLR",
+"kind": "rotrev",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLLRRLLRRRRRR",
+"kind": "rev",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLLRRRRRRLLRR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLLRRRRRRLRLR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRLLRRLRRRRR",
+"kind": "rev",
+"cs": -4.440892098500626e-16,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRLLRRRRRLRR",
+"kind": "rot",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRLRLRLRRRRR",
+"kind": "rev",
+"cs": -9.325873406851315e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRLRLRRRRRLR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRLRRRRRLLRR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRLRRRRRLRLR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRRLLRRRRRLR",
+"kind": "rev",
+"cs": -1.2878587085651816e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRRLRLLRRRRR",
+"kind": "rev",
+"cs": -1.6431300764452317e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRRLRRRRRLLR",
+"kind": "rot",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRRRLLLRRRRR",
+"kind": "rev",
+"cs": -2.220446049250313e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRRRRRLLLRRR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRRRRRLLRLRR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRRRRRLRLRLR",
+"kind": "rev",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLLRRRRRLRRLLR",
+"kind": "rev",
+"cs": -1.2878587085651816e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLLLRRRLRRRR",
+"kind": "rev",
+"cs": -7.549516567451064e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLLLRRRRLRRR",
+"kind": "rot",
+"cs": -7.549516567451064e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLLRLRRLRRRR",
+"kind": "rev",
+"cs": -1.1102230246251565e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLLRRLRRRRLR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLRLRLRLRRRR",
+"kind": "rev",
+"cs": -9.325873406851315e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLRLRLRRRRLR",
+"kind": "rev",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLRLRRRRLLRR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLRLRRRRLRLR",
+"kind": "rotrev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLRRLLRLRRRR",
+"kind": "rev",
+"cs": -6.661338147750939e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLRRRRLLLRRR",
+"kind": "rev",
+"cs": -1.2878587085651816e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLRRRRLLRLRR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLRRRRLRLRLR",
+"kind": "rev",
+"cs": 1.554312234475219e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRLRRRRLRRLLR",
+"kind": "rev",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRLLRRLLRRRR",
+"kind": "rev",
+"cs": 4.884981308350689e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRLLRRRRLLRR",
+"kind": "rotrev",
+"cs": 2.2648549702353193e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRLLRRRRLRLR",
+"kind": "rev",
+"cs": 2.9753977059954195e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRLRLLRRRRLR",
+"kind": "rev",
+"cs": 1.554312234475219e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRLRLRLLRRRR",
+"kind": "rev",
+"cs": 1.9095836023552692e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRLLLRRRRLR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRLRLLLRRRR",
+"kind": "rev",
+"cs": 7.993605777301127e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRLRRRRLLLR",
+"kind": "rot",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRRLLLRLRRR",
+"kind": "rev",
+"cs": -4.884981308350689e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRRLLRLRLRR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRRLLRRLLRR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRRLRLLRRLR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRRLRLRLRLR",
+"kind": "rev",
+"cs": 1.554312234475219e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRRLRRLRLLR",
+"kind": "rev",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLLRRRRLRRRLLLR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLLLRLRRRLRRR",
+"kind": "rev",
+"cs": -3.9968028886505635e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLLLRRRLRRRLR",
+"kind": "rev",
+"cs": -1.2878587085651816e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLLRLRLRRLRRR",
+"kind": "rev",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLLRLRRLRRRLR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLLRLRRRLRRLR",
+"kind": "rot",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLLRRLLRRLRRR",
+"kind": "rev",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLLRRLRRRLLRR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLLRRLRRRLRLR",
+"kind": "rev",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLLRRLRLRRR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLLRRRLRLRR",
+"kind": "rot",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLRLRLRLRRR",
+"kind": "rev",
+"cs": 1.554312234475219e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLRLRLRRRLR",
+"kind": "rev",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLRLRRRLLRR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLRLRRRLRLR",
+"kind": "rev",
+"cs": 5.10702591327572e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLRRRLLLRRR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLRRRLLRLRR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLRRRLRLRLR",
+"kind": "rev",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRLRRRLRRLLR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRLLRLRRRLR",
+"kind": "rev",
+"cs": 1.554312234475219e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRLRLLRLRRR",
+"kind": "rev",
+"cs": 2.2648549702353193e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRLRRRLRLLR",
+"kind": "rot",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRRLLRLRLRR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRRLLRRLLRR",
+"kind": "rev",
+"cs": 2.2648549702353193e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRRLRLLRRLR",
+"kind": "rev",
+"cs": 1.554312234475219e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRRLRLRLRLR",
+"kind": "rev",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRLRRRLRRLRLLR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLLLRRRLLRRR",
+"kind": "rotrev",
+"cs": 2.2648549702353193e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLLRLRRLLRRR",
+"kind": "rev",
+"cs": 2.2648549702353193e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLLRRLLRRRLR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLLRRRLLLRRR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLLRRRLLRLRR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLLRRRLRLRLR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLLRRRLRRLLR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLRLLRRRLLRR",
+"kind": "rev",
+"cs": 2.2648549702353193e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLRLLRRRLRLR",
+"kind": "rev",
+"cs": 2.2648549702353193e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLRLRLLRRRLR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLRLRLRLLRRR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLRLRRRLLRLR",
+"kind": "rot",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRLRRLLRLLRRR",
+"kind": "rev",
+"cs": 2.2648549702353193e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLLLRRRLLRR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLLLRRRLRLR",
+"kind": "rev",
+"cs": 1.3322676295501878e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLLRLLRRLRR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLLRLRLRLRR",
+"kind": "rev",
+"cs": -1.9984014443252818e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLLRRLRLLRR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLRLLRLRRLR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLRLRLRLRLR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLRLRRLLRLR",
+"kind": "rev",
+"cs": -1.9984014443252818e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLRRLLRRLLR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLLRRRLRRLRLRLLR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRLLRRLRRLRR",
+"kind": "rotrev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRLRLRLRRLRR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRLRLRRLRRLR",
+"kind": "rev",
+"cs": 2.2648549702353193e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRLRRLRRLLRR",
+"kind": "rev",
+"cs": -1.9984014443252818e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRLRRLRRLRLR",
+"kind": "rev",
+"cs": 2.2648549702353193e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRRLLRRLRRLR",
+"kind": "rev",
+"cs": 2.2648549702353193e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRRLRLLRRLRR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRRLRRLLRLRR",
+"kind": "rev",
+"cs": -1.9984014443252818e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLLRRLRRLRLRLR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLLRLRRLRLRR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLLRRLRLRRLR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRLRLRLRLRR",
+"kind": "rev",
+"cs": 2.2648549702353193e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRLRLRLRRLR",
+"kind": "rev",
+"cs": 3.68594044175552e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRLRLRRLLRR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRLRLRRLRLR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRLRRLLRLRR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRLRRLRLRLR",
+"kind": "rotrev",
+"cs": 3.68594044175552e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRRLLRRLLRR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRRLRLLRRLR",
+"kind": "rev",
+"cs": 2.2648549702353193e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRLRRLRLRLRLR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRRLLRLRRLLRR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRRLLRLRRLRLR",
+"kind": "rev",
+"cs": -5.773159728050814e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRRLLRRLRLLRR",
+"kind": "rotrev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRLRRLRLRLRLRLR",
+"kind": "rev",
+"cs": 2.2648549702353193e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRRLLRRLLRRLRLR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRRLLRRLRLLRRLR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRRLLRRLRLRLRLR",
+"kind": "rev",
+"cs": 8.43769498715119e-15,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRRLRLLRRLRLRLR",
+"kind": "rev",
+"cs": 5.10702591327572e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+},
+{
+"word": "LLRRLRLRLRLRLRLR",
+"kind": "rev",
+"cs": -1.9984014443252818e-14,
+"bit": 0,
+"solution": "all tetrahedra positively oriented"
+}
+]
+}

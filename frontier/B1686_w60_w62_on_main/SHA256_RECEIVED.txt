@@ -1,0 +1,11 @@
+# The SM seat's files read by B1686, at its commit e1724317 (docs/dossiers/the_weave_2026-10-07/); hashed as received.
+# W60_READOUT.md and W62_READOUT.md are verbatim extracts of NOTE.md (lines 4886-4976 and 5098-5205); NOTE.md's hash is listed.
+8e32b1f09f4d95580de1c79fc21ba36bed409dd8b47474002f2124c6e00d878d  W60_RULE.md
+7a3a15ff7be53ddfc65b5c5f1ae67de5e343264ae16544220baab861cec67bb2  W62_RULE.md
+89dc11734778d73ff7608cd74a04280c3279610977c86ae5c77738afb5800aa1  the_quark_sector_and_the_line.json
+551eda9bfc5f19dee5a6606aefe56a50d952c94edde5d1046c1e8114575c58fc  the_quark_sector_and_the_line_posthoc.json
+07e6523bd2bea3031621a9ee383d0661432829b489fcd19517fb73f590a0f65b  the_matter_and_the_shape.json
+769fdbc6915c35e4b36442c88b6476a056139e08c83c843906ed6b6b8dc1c45b  the_matter_and_the_shape_posthoc.json
+ffe2ae34aec1845bd7c8c3bc8cfb13bf96499f27f3d7985bd50971d58b0bf098  W60_READOUT.md
+bc17eb419a46936c78dd15030738c225be76fd53ae2f393c09a63dc3736b9233  W62_READOUT.md
+7ddd936e71df1ddd12dfc41293f34be491a17d83bbc1c457b744b52b6a525580  NOTE.md (not copied)

@@ -1,0 +1,8 @@
+{
+ "subgroups_of_O_h": 98,
+ "viable_nonscalar_residuals": 64,
+ "pairs_tested": 4096,
+ "pairs_passing_the_block_test": 0,
+ "passing": [],
+ "control_pattern_passes": true
+}

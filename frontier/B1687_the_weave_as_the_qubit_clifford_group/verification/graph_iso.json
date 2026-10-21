@@ -1,0 +1,12 @@
+{
+ "order_G": 96,
+ "centre_orders": [
+  1,
+  2,
+  4,
+  4
+ ],
+ "order_G_mod_Z": 24,
+ "paired_order": 24,
+ "isomorphism_matching_L_and_R": true
+}

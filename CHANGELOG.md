@@ -1,5 +1,33 @@
 # Changelog
 
+## S158 FIVE ARCS: W60 AND W62 ON MAIN, THE WEAVE AS THE QUBIT'S CLIFFORD GROUP, TRICRITICAL ISING AS ISING × FIBONACCI, AND P-229'S VERIFICATIONS (B1686–B1690) (2026-10-21)
+
+- **B1686 (P-222): W60 and W62 on main.** Every cell of the SM seat's W60 (the quark sector with a Wilson line) and W62
+  (what holds τ at the selected state) reproduced by main's own lattice and code from the rules: the net term's minimum
+  −147.64 on the three half-period lines; the selected state not stationary in τ (−1.553 at ω, gradient (−7.52, −4.34));
+  every content on record runs to a cusp; the lattice cells M0–M6 to 7 × 10⁻¹⁰ on all seventeen shapes at both sizes.
+  So nothing computed holds τ. Main's solver uses the real symmetric form (SciPy's complex shift-invert lost 3 × 10⁻⁷);
+  K = 150/200 for time, with K-independence and a truncation control (λ_K t₀ = 24 against the rule's 30, effect 2 × 10⁻⁹).
+  Rows 1109, 1115 VERIFIED.
+- **B1687 (P-223): the weave's group is the one-qubit Clifford group modulo phases.** L and R generate Aut(Q₈) ≅ S₄ on
+  the common point's axes; G/Z ≅ Aut(Q₈) matching L and R (centre ℤ₄). The point's expectation that the swap is the
+  anti-symplectic element is corrected: on the Pauli point it is a rotation (−1 = 1 over 𝔽₂).
+- **B1688 (P-226): the tricritical Ising model as Ising × Fibonacci.** One bijection of fusion rings; the twists those of
+  Ising (ν = 7) × conjugate Fibonacci, c ≡ 7/10 mod 8; the supercurrent is the Ising fermion. Known mathematics, main's
+  own check; a reading, no number.
+- **B1689 (P-229, items 1–3; P-053): W23, W24 and W44's frame F_c verified; the floor's and Theorem C's proofs read.**
+  Rows 937, 939, 888 VERIFIED; 897, 898, 1061 PARTLY VERIFIED.
+- **B1690 (P-229, items 4–5): GENESIS §5's F-FC column, sm:B1523 and B1652's FAILS cells.** Every word state to length 12
+  closed in the free-cusp frame; B1186's 112: 108 closed with the seat's four cusps open (main's own homology and the
+  isometries' exact action on H₁); 14 of m004's 87 covers of degree ≤ 10 with a hexagonal cusp; all 536 manifolds of
+  the word states projectively rigid rel cusp at 60 digits, 262 mirror-broken; W76, W83 and W81's branching reproduced,
+  W74's identities exact. Rows 646, 1149, 1166 VERIFIED; 645, 647, 660, 828, 1147, 1157 PARTLY VERIFIED. A first
+  float64 rigidity route miscounted ranks and was voided before its output was read as a result (disclosed).
+- **Register.** P-053, P-222, P-223, P-226, P-229 DONE; P-156 noted; P-237 extended (lift the tags now paid); P-238
+  registered (the §5 cells not reached); P-239 registered (B805's attachment lock). FLOOR 239.
+- **Landing suite.** 122 files (the landing set: the five new locks, every arc lock and the corpus-scanning tests), 2049 passed, 1 failed, 3 skipped (13:13, -n 8); the one failure is B805's attachment lock, which S158's five arcs tipped past half (719 of 1 435 arcs on no face; the kill graph's attachment ends near B800; P-239)
+- 0 of 19.
+
 ## S157 EVERY LOCK IN THE FULL SUITE (P-232) AND THE MIRROR DECIDED (R66-1) (2026-10-21)
 
 - **P-232.** The full suite collected `tests/` only, so the arcs' own locks in `frontier/B*/verification/` (fourteen

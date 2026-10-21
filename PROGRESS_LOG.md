@@ -17521,3 +17521,19 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - P-232: testpaths, the runner and the selector; the lock; the register says fourteen locks (the fifteenth file
   counted at registration defines no test).
 - **Full suite.** 7461 passed, 1 failed, 68 skipped (31:29, -n 7), the first full suite to collect the arcs' fourteen locks (27 tests, all passing); the one failure is B186's BLAS-dependent lock (R65-9).
+
+## 2026-10-21 — S158 FIVE ARCS (B1686–B1690): W60 AND W62 ON MAIN; THE CLIFFORD GROUP; ISING × FIBONACCI; P-229 DONE
+
+- The owner: "lets evaluate the goal and continue working". Evaluated: 0 of 19, no breakthrough; the one departure is τ,
+  and W62 on main says nothing computed holds it.
+- P-222 (B1686): main's lattice spectra for W62 ran under nohup (19 shapes × 2 sizes, K = 200); a second pool started
+  from the far end of the task list recomputed three members the first pool held (identical within tolerance; every
+  file checked; disclosed); the machine slept for about 3.8 hours mid-run. Read once: every cell agrees with the seat's
+  to 7 × 10⁻¹⁰. W60 re-read with the convergence field fixed.
+- P-229's last items (B1690): the F-FC census by main's own dual-spine homology and triangulation automorphisms; the
+  rigidity census, first in float64 (280 of 536 "non-rigid", traced to main's tolerance on b++LLLLLR before it was
+  taken as a result, voided) and then at 60 digits (536 of 536 rigid); W76's census to length 16; W81/W83 by roots and
+  weights; W74's identities in sympy.
+- B1689's verdict: sm:B1544 and sm:B1545 moved to cites_seat (their rows PARTLY VERIFIED: the lemmas' proofs checked,
+  their censuses not), sm:B1535 kept (Theorem C checked given Garland–Raghunathan).
+- **Landing suite.** 122 files (the landing set: the five new locks, every arc lock and the corpus-scanning tests), 2049 passed, 1 failed, 3 skipped (13:13, -n 8); the one failure is B805's attachment lock, which S158's five arcs tipped past half (719 of 1 435 arcs on no face; the kill graph's attachment ends near B800; P-239)

@@ -1,0 +1,30 @@
+{
+  "id": "B1687",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1600",
+    "B1607",
+    "B1610",
+    "B1611",
+    "B1679",
+    "B1680"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the weave's moves on two records at the common point (the image Q8 in SU(2))",
+    "object": "the group the moves induce on Q8 and B1611's group G on V = T + T-bar",
+    "reach": "class",
+    "hypotheses": "the common point as banked (B1679, B1680) and W10's matrices as sealed in B1610; the Clifford names are the standard identification of Aut(Q8) with the one-qubit Clifford group modulo phases"
+  },
+  "claim_one_line": "THE WEAVE'S GROUP IS THE ONE-QUBIT CLIFFORD GROUP MODULO PHASES (P-223): the moves induce automorphisms of the common point Q8; L and R generate all of Aut(Q8) = S4 (order 24, element orders 1:1, 2:9, 3:8, 4:6), the octahedral rotation group on the three axes, which is the one-qubit Clifford group modulo phases; B1611's G (order 96) has centre Z4 and G/Z = Aut(Q8) by an isomorphism matching L and R. L and R are quarter turns about two axes (phase-gate type), the rule sigma = L o P is the third of a turn about the body diagonal (the T-type magic axis), the swap a half turn about a face diagonal (Hadamard type). Correcting P-223's wording: on the common point the swap is a rotation, not anti-symplectic; over F2 the two coincide, and the swap's reversal shows only on H1 and in the lift (T to T-bar, B1611). No number of the 19. 0 of 19.",
+  "weave_or_thread": "weave (the moves of two records at the common point)",
+  "cites_seat": [
+    "sm:W10"
+  ]
+}

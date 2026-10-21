@@ -107,9 +107,9 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   and ±3 with the parity grading.
 - **The grade (THE_BAR):** DERIVED on the weave — three, alike, chiral under the weave's own group, one per parity: the
   flavour structure of three generations. READINGS — the triplet as the generations (FK14); holomorphic zero modes as
-  the left-handed matter (FK11). UNEARNED — which fields carry 𝕎 (W24's D4: the Lagrangian half is the frame choice [the seat's, unverified: W24, harvest row 939, P-156; Review 66]);
+  the left-handed matter (FK11). UNEARNED — which fields carry 𝕎 (W24's D4: the Lagrangian half is the frame choice [verified on main since: B1689, row 939; Review 66's tag lifted]);
   gauge chirality. NEGATIVES — no index on a thread (B1604: no twisted Euler characteristic and not the class index; B1655); the E₈ frames on the fibre give at most two complete
-  generations (W23 [the seat's, unverified: row 937; Review 66]); no forced six-dimensional object gives three by the heterotic dictionary (W24 [the seat's, unverified: row 939; Review 66]). **"Did we derive
+  generations (W23 [verified on main since: B1689, row 937]); no forced six-dimensional object gives three by the heterotic dictionary (W24 [verified on main since: B1689, row 939]). **"Did we derive
   three generations?" — no: the flavour three is derived, the gauge three is a selection.**
 
 ## Main's addition: the principle's tick and the two hands (B1607, 2026-10-08; GENESIS v1.29; `frontier/B1607_the_principles_tick_at_the_common_point/`)
@@ -260,7 +260,7 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
   sin²θ₁₂ = 1/(3 cos²θ₁₃)), as B1620's own stored fits show. Under Sym² T neither is allowed. P10 (TM1) applies under
   T̄ ⊗ T, so it tests Λ, a frame and a Higgs content together. B1620 had written "TM1 under T̄ ⊗ T and T ⊗ T".
 - **The frame is named:** B1620's is "all of the weave's group is flavour". Where c is gauge (the SM seat's W44 [the seat's, unverified: its c-gauge frame, row 1061, P-053; Review 66]), TM1
-  and TM2 return under T̄ ⊗ T and T ⊗ T, and Sym² T allows one lepton relation. In W24's frame nothing is constrained [the seat's, unverified: row 939; Review 66].
+  and TM2 return under T̄ ⊗ T and T ⊗ T, and Sym² T allows one lepton relation. In W24's frame nothing is constrained [verified on main since: B1689, row 939].
   **The 13 are unreduced in every frame on record** *(scoped 2026-10-13, B1640: in every frame where the inner
   automorphisms act; on the ruled branch the count is B1635's, a lower bound under the modular-flavour ansatz, and the
   TM1 reading's residual pair cannot come from one τ)*.
@@ -521,7 +521,7 @@ found with B1635's sealed instrument.
   - F1, the fibre at one τ: its hierarchy needs free numbers, and its D1 needs a vacuum that no run dynamics selects.
   - F2, the surface: it needs an outside source for the three, forbids CP violation and has no hypercharge.
   - F3, the audit lane's E₈ frame: the moves act only through a supplied completion that, on its flat background, loses
-    the weak roots and Y; its index is not computed. By the SM seat's W83 [the seat's, unverified: row 1166; Review 66], Y survives only if the family index is not
+    the weak roots and Y; its index is not computed. By the SM seat's W83 [verified on main since: B1690, row 1166], Y survives only if the family index is not
     the weave's three.
   - F5, chat1's thread frame: τ's role and the normalisation are fixed within a vacuum, but the vacuum is weighed, not
     selected, at c = 6, and no CP sign can be chosen.
@@ -705,3 +705,21 @@ found with B1635's sealed instrument.
   not stationary in τ (main checked the mechanism for the Higgs's term). So the arcs built at W59's state (B1653,
   B1656, B1660, B1673) are conditionals on a state the potential does not select (P-214; W60 and W62 on main, P-222).
 
+
+## Main's addition: the state moves, nothing computed holds τ, and the moves are the qubit's Clifford group (B1686–B1690, PROVED)
+
+- **W60 and W62 on main (B1686).** Every cell reproduces on main's own lattice: with the quarks' Wilson line the full
+  potential's minimum sits on the three half-period lines, where the matter sees nothing and one parity copy of the
+  Higgs is untwisted; at that line the Higgs's copies keep only the theta group, the state is not stationary in τ, and
+  every content on record has a positive cusp coefficient, so it runs to a cusp. A weave result, every sector at once,
+  with the content a dictionary datum. **So τ is not held by anything computed**, and the arcs at W59's state stay
+  conditionals (P-214). Main's own observation: the puncture's diffraction cancels four fifths of the periodic part.
+- **The moves at the common point are the one-qubit Clifford group modulo phases (B1687).** L and R act on Q₈'s axes
+  as quarter turns and generate Aut(Q₈) ≅ S₄; B1611's group modulo its centre ℤ₄ is that group, L to L and R to R; the
+  rule is the third turn about the magic axis and the swap a Hadamard-type half turn. The hand is not in the Pauli
+  layer: over 𝔽₂ the swap's reversal of the pairing is invisible, and it shows only on H₁ and in the lift.
+- **A reading checked (B1688).** The tricritical Ising model's fusion and twists are Ising × Fibonacci: the qubit's
+  Clifford layer and the seed's golden layer multiply to the record's first N = 1 theory. Discrete data; no number.
+- **The tribunal's FAILS cells (B1690).** W76 (every mirror-symmetric thread to length 16 has CS = 0) and W83 (in the
+  lane's E₈ frame the commutant is su(6), and a trace-free Y commuting with the weave's moves on T has dimension 0) are
+  verified on main; W81's branching too; W74's CP-invariance of the surface frame holds given W64's dimension count (the seat's, unverified on main; row 1124).

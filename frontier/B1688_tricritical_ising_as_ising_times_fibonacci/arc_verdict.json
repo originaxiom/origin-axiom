@@ -1,0 +1,20 @@
+{
+  "id": "B1688",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": ["B236", "B218", "B1607", "B1680"],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "two-dimensional conformal field theory: the tricritical Ising minimal model M(5, 4)",
+    "object": "its fusion ring and twists, against the Ising and Fibonacci theories",
+    "reach": "class",
+    "hypotheses": "fusion and twists only (not the full modular tensor category data); the link to the weave (the Pauli point as the Ising layer, the rule's LP as the Fibonacci fusion matrix) is a reading"
+  },
+  "claim_one_line": "THE TRICRITICAL ISING MODEL AS ISING TIMES FIBONACCI (P-226; a check of a reading, known mathematics): the fusion ring of M(5, 4) (c = 7/10), from its S-matrix by Verlinde's formula, equals Ising x Fibonacci under exactly one bijection of labels, and the twists agree mod 1 with exactly one product, Ising with nu = 7 times the conjugate Fibonacci (c = 7/2 - 14/5 = 7/10 mod 8); the N = 1 supercurrent (h = 3/2) is the Ising layer's fermion. Read with the record: the common point's qubit (Clifford) layer and the rule's golden (Fibonacci) layer multiply, at the level of fusion and twists, to the record's c = 7/10 thread; the golden chain of Fibonacci anyons is critical there. No number of the 19. 0 of 19.",
+  "weave_or_thread": "thread (a reading connecting the weave's two discrete layers)"
+}

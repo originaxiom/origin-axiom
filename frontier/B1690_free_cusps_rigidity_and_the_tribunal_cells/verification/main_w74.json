@@ -1,0 +1,36 @@
+{
+ "CLC_is_Linv": true,
+ "CPC_is_P": true,
+ "L_quarter_turn": true,
+ "S_condition_rhoR": {
+  "-1/2": true,
+  "3/2": true,
+  "7/2": true,
+  "1/2": false,
+  "1": false
+ },
+ "S_condition_rhoprime_5/2": true,
+ "eigenlines": {
+  "e_i": true,
+  "v+": true,
+  "v-": true
+ },
+ "C_conj_fixes": {
+  "e_i": true,
+  "v+": true,
+  "v-": true
+ },
+ "minus_P_in_O": true,
+ "Y_max_abs_im_over_max_abs": 1.5268318459700569e-13,
+ "Y_symmetric": true,
+ "det_Y_real_part": 12257739020.337616,
+ "eigenvalues_real_part": [
+  -76597.31040799506,
+  -57.4035449430933,
+  2787.7776836812786
+ ],
+ "arg_det_YY_over_pi": 7.195872969320913e-14,
+ "h_max_abs_im": 3.0553741897388046e-34,
+ "h_max_abs_re": 20.0,
+ "CKM_one_coupling_is_identity": true
+}

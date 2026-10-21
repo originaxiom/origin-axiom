@@ -1,0 +1,125 @@
+{
+ "K1": {
+  "L": {
+   "keeps_kappa": true,
+   "jacobian": "1"
+  },
+  "R": {
+   "keeps_kappa": true,
+   "jacobian": "1"
+  },
+  "P": {
+   "keeps_kappa": true,
+   "jacobian": "-1"
+  },
+  "fixed_by_every_move_among_candidates": [
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    2,
+    2
+   ]
+  ],
+  "critical_points": [
+   [
+    -2,
+    -2,
+    2,
+    2
+   ],
+   [
+    -2,
+    2,
+    -2,
+    2
+   ],
+   [
+    0,
+    0,
+    0,
+    -2
+   ],
+   [
+    2,
+    -2,
+    -2,
+    2
+   ],
+   [
+    2,
+    2,
+    2,
+    2
+   ]
+  ],
+  "linear_parts_at_common_point_order": 24,
+  "with_swap_order": 48
+ },
+ "K1b": {
+  "singular_points_at_infinity": [],
+  "hessian_ranks_at_critical_points": {
+   "(0, 0, 0)": 3,
+   "(2, 2, 2)": 3,
+   "(2, -2, -2)": 3,
+   "(-2, 2, -2)": 3,
+   "(-2, -2, 2)": 3
+  },
+  "chi_generic": 6,
+  "chi_at_-2": 5,
+  "chi_at_2": 2,
+  "fibration_check_chi_C3": 1
+ },
+ "K2": {
+  "V4": {
+   "order": "4",
+   "all_det_plus_1": "True",
+   "chi_orb": "96",
+   "net_generations_standard_embedding": "48"
+  },
+  "A4": {
+   "order": "12",
+   "all_det_plus_1": "True",
+   "chi_orb": "32",
+   "net_generations_standard_embedding": "16"
+  },
+  "O": {
+   "order": "24",
+   "all_det_plus_1": "True",
+   "chi_orb": "28",
+   "net_generations_standard_embedding": "14"
+  },
+  "T_d (control, not Calabi-Yau)": {
+   "order": "24",
+   "all_det_plus_1": "False",
+   "chi_orb": "40",
+   "net_generations_standard_embedding": "20"
+  }
+ },
+ "D1": {
+  "(1, 0)": true,
+  "(0, 1)": true,
+  "(1, 1)": true
+ },
+ "D2": {
+  "via_SU2xSU3xSU6": {
+   "1": 248.0,
+   "-1": 24.0,
+   "i": 28.0
+  },
+  "via_G2xF4": {
+   "1": 248.0,
+   "-1": 24.0,
+   "i": 28.0
+  }
+ },
+ "D3": {
+  "trivial": 55.0,
+  "each_character": 27.0,
+  "rho": 56.0,
+  "sum_check": 248.0
+ }
+}

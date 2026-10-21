@@ -1,0 +1,42 @@
+{
+  "id": "B1690",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1186",
+    "B1610",
+    "B1611",
+    "B1652",
+    "B1685"
+  ],
+  "rests_on_seat": [
+    "sm:B1369",
+    "sm:W76",
+    "sm:W83"
+  ],
+  "cites_seat": [
+    "sm:B1368",
+    "sm:B1370",
+    "sm:B1385",
+    "sm:B1501",
+    "sm:B1523",
+    "sm:W64",
+    "sm:W72",
+    "sm:W74",
+    "sm:W75",
+    "sm:W81"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "F-FC (the SM seat's free-cusp frame) for the census; none for the rigidity and the mirror census; the surface frame (W74) and the lane's E8 frame (W81, W83) for the tribunal cells",
+    "object": "the word states to length 12 (758; 536 manifolds); m004's levels 1-12; B1186's 112; m004's covers of degree <= 10; the Lyndon threads to length 16 (8798)",
+    "reach": "class",
+    "hypotheses": "the frame's harmonic representative is metric-natural (the region-swap lemma); W74's one-unit spaces one-dimensional (W64's K5, registered); not checked: the deciding Fourier coefficients of the four open cusps, sm:B1501's cones, sm:B1523's Lemmas R and T, W81's condensate placement"
+  },
+  "claim_one_line": "P-229'S LAST ITEMS ON MAIN: every word state to length 12 (758) and m004's levels 1-12 have one cusp, b1 = 1 and peripheral rank 1, so none has a free cusp (sm:B1385 T1, re-derived: det(phi - I) = 2 - tr phi); on B1186's 112, 35 members carry 83 free cusps and the region-swap parity, run with the isometries' exact action on H1, closes 79, leaving the seat's four (o10_150688, o10_150708, o10_150716 and o10_150725's cusp 1): 108 of 112 closed (sm:B1369); the four residual cusps have unique shortest vectors (sm:B1370); 14 of m004's 87 covers of degree <= 10 have a hexagonal cusp; all 536 manifolds of the word states are infinitesimally projectively rigid rel cusp at 60 digits, 262 with no fibre-boundary-inverting isometry (131 per sign, 220 chiral, 42 swaprev-only; sm:B1523); B1652's cells: W76 (248 mirror-symmetric threads of 8798, all CS = 0), W83 (commutant su(6); trace-free Y of dimension 0, 1, 8 through O, S3, trivially) and W81's branching (55 + 52x2 + 27x3 + 2x4) reproduced, W74's identities exact and its reality given W64's K5. 0 of 19.",
+  "weave_or_thread": "thread censuses over every state of the grammar (word states, threads) and the weave's group on T (W83)"
+}

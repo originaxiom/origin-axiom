@@ -132,3 +132,9 @@ no new PENDING. The short-claim lane is built (B1464, 2026-10-03): an arc two or
 weave's arcs (B1600–B1625) are represented on `docs/THE_WEAVE.md`, LAW_MAP, THEOREM_REGISTRY (T-WEAVE-REDUCES-NONE,
 T-TAU-ONLY-PERMUTATION, T-CLOCK-IN-GRADING) and GENESIS v1.24–v1.36. The 13 PENDING rows above are unchanged.
 
+
+**Currency read, 2026-10-21 (S158, at B1690).** `representation_sweep.py` at the corpus head B1690: 589 substantial
+arcs, 12 cited on no synthesis surface, **0 untriaged**. The window B1626–B1690 added no unrepresented substantial arc:
+the field stage and the foundations quest are on `docs/THE_WEAVE.md`, CAMPAIGN_STATUS and GENESIS v1.37–v1.51, and
+S158's five (B1686 W60 and W62 on main, B1687 the Clifford group, B1688 Ising × Fibonacci, B1689 and B1690 P-229's
+verifications) are on CAMPAIGN_STATUS. The 13 PENDING rows above are unchanged.
