@@ -12754,6 +12754,17 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1693": {
+   "slug": "the bound against the masses",
+   "motifs": [
+    "coupling"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B169": {
    "slug": "isomonodromy flow",
    "motifs": [

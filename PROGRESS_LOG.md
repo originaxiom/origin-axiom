@@ -17561,3 +17561,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   at Im τ = 1.5, 2, 3), run as written. Absolute paths in the copied scripts replaced by root discovery before the arc.
 - Disclosed: the running masses at M_Z recalled from memory and set against the bound before any seal (P-241).
 - **Landing suite.** 116 files (B1692's lock, every arc lock and the corpus-scanning tests), 2032 passed, 1 failed, 3 skipped (9:01, -n 8); the one failure is B805's attachment lock (P-239); after the suite B1692 gained its up-readings check (B1660's three readings of one Higgs: the bound holds, largest spread 3.99999999985), its lock and the gates re-run
+
+## 2026-10-21 — S162 B1693: ONE HIGGS EXCLUDED IN THIS FRAME (P-241)
+
+- Before the seal: B1692 checked against B1660's three readings of the up sector (the bound holds). P-241's design fixed
+  (B1637's checklist); a grading change from the allowance's arithmetic, disclosed. Seal aa36d2667 (only the seal),
+  LAW_MAP's two rows in their own commit (its currency), both pushed; the one run committed unread (4eac2b5b1), read once.
+- **Landing suite.** 123 files (B1693's lock, every arc lock, the corpus-scanning and LAW_MAP-reading tests), 2069 passed, 1 failed, 3 skipped (5:29, -n 8); the one failure is B805's attachment lock (P-239)

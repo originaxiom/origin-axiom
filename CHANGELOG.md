@@ -1,5 +1,18 @@
 # Changelog
 
+## S162 ONE HIGGS EXCLUDED IN THIS FRAME; THE DOWN–LEPTON PAIR ALLOWED (B1693, PROVED as sealed; P-241) (2026-10-21)
+
+- **B1693.** Sealed at aa36d2667 (sha256 ffe0a6e1) before its one run (output committed unread at 4eac2b5b1): B1692's
+  bound (a flat line and one covariant Higgs split the sectors' m₂/m₃ by at most four) against Huang–Zhou 2021 at M_Z
+  (B1637's pinned transcription, its 10% allowance): **T1 EXCLUDED** — the leptons' m_μ/m_τ = 0.0589 is 15.98 times the up
+  quarks' m_c/m_t = 0.00368 (3σ band 10.37–24.62); **T2 ALLOWED** — the down–lepton pair, 3.14 (band 1.91–5.18). In this
+  frame one Higgs cannot carry the three sectors; the up quarks need a Higgs of their own. The outcome was largely known
+  before the seal (B1660's 3.14; main's recall), disclosed; a grading change before the seal, disclosed.
+- **Also.** LAW_MAP rows for B1691 and B1692 (a separate commit after the seal; LAW_MAP had fallen 11 arcs behind).
+- **Register.** P-241 DONE; P-084 noted.
+- **Landing suite.** 123 files (B1693's lock, every arc lock, the corpus-scanning and LAW_MAP-reading tests), 2069 passed, 1 failed, 3 skipped (5:29, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S161 A FLAT LINE SPLITS THE SECTORS BY AT MOST FOUR (B1692, PROVED; P-169's first part) (2026-10-21)
 
 - **B1692 (no data).** In the record's fibre frame with a flat hypercharge line (B1653's residue coupling and charges)

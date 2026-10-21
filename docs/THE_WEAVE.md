@@ -746,4 +746,6 @@ found with B1635's sealed instrument.
   coefficient in [1, 4]: generic factors 1, 2, 4, with 4/3 and 8/3 at isolated lines; the line's real part never
   matters; at W60's half-period line the sectors coincide. The reason is that the mass ratio sees only the directions of
   the residue doublets. So in this frame a single Higgs cannot give sectors whose 2–3 hierarchies differ by more than four;
-  with two Higgs fields the bound binds the pair that shares one. The comparison with data is sealed first (P-241).
+  with two Higgs fields the bound binds the pair that shares one. **Against data (B1693, sealed): one Higgs is
+  EXCLUDED** — at M_Z the leptons' m₂/m₃ is 16 times the up quarks' — **and the down–lepton pair (3.1) is ALLOWED**: in this
+  frame the up quarks need a Higgs of their own.
