@@ -1,0 +1,39 @@
+{
+ "data_sha256": "63450365401c149c726e928f842bc7810086ad4d897a62f51217e3c12189880f",
+ "ratios": {
+  "up": {
+   "value": 0.0036847735647212647,
+   "rel_sigma_with_allowance": 0.10378674926018663
+  },
+  "down": {
+   "value": 0.018724903134906656,
+   "rel_sigma_with_allowance": 0.13268050100375323
+  },
+  "lepton": {
+   "value": 0.05887328180682186,
+   "rel_sigma_with_allowance": 0.10000038659384412
+  }
+ },
+ "T1_one_Higgs": {
+  "pair": [
+   "lepton",
+   "up"
+  ],
+  "S": 15.977449027122333,
+  "lower_3sigma": 10.368847556211488,
+  "upper_3sigma": 24.61979270409534,
+  "grade": "EXCLUDED"
+ },
+ "T2_down_lepton": {
+  "pair": [
+   "lepton",
+   "down"
+  ],
+  "S": 3.144116761654764,
+  "lower_3sigma": 1.9099894646428142,
+  "upper_3sigma": 5.175667402315811,
+  "grade": "ALLOWED"
+ },
+ "bound": 4.0,
+ "allowance": 0.1
+}
