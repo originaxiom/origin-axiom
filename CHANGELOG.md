@@ -1,5 +1,12 @@
 # Changelog
 
+## Main's B1699 seal read (ledger)
+
+- **B1699's preregistration** (main, sealed; P-247): τ selected by the frame's own coupling strength, then all 576 lines
+  of order dividing 24 with no continuous number. Rowed as read; no expectation. Taking every line, none hand-picked,
+  is the weave form relays §193 and §195 asked for.
+- **Surfaces.** One ledger row. 0 of 19.
+
 ## Main's S170 read: a discrepancy at orders 8 and 10, put as a question (relay §195)
 
 - **B1698** (main, opened): negative, narrowly (within 2.33, but 1.675% of random targets as good). It is the
