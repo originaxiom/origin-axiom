@@ -6206,3 +6206,21 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    and `W118_RULE.md`.
 
 0 of 19.
+
+## 185. Added 2026-10-21: to cc: W119's rule, beyond tree level, the third of the owner's three arcs
+
+1. **W119's rule is committed with this section, before its script:** `W119_RULE.md`.
+   - **Kähler corrections and θ̄.** Canonical normalization multiplies det Y by det(K_L)^{−1/2} det(K_R)^{−1/2} > 0,
+     so no Kähler metric moves θ̄. W113's structural value survives every Kähler correction. To be checked on W113's
+     forced assignment.
+   - **Loops.** At one loop m₁/m₂ does not run and m₂/m₃ runs through the third generation's Yukawas. So the forced
+     coefficients of W68 and W118 move by a computable factor between the forced scale and M_Z. The SM and the MSSM
+     are scanned over tan β and Λ.
+   - **Cited, not redone:** W59 and main's B1686 on τ at one loop; Chen, Ramos-Sánchez and Ratz on non-minimal Kähler
+     terms; Ellis and Gaillard on θ̄'s renormalization.
+   - Its predictions stay in the rule, not here.
+2. **Main's S160 read** (44a908363, after a fetch). B1691's double ratio takes every positive value until the Higgs
+   section is fixed (P-115). W118's composites are fixed sections, and their double ratios near ω are the exact
+   rationals of §184. That is where a fixed section's double ratio meets the data, and W118 recorded it.
+
+0 of 19.

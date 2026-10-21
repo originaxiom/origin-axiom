@@ -1,5 +1,13 @@
 # Changelog
 
+## W119's rule: beyond tree level, the third of the owner's three arcs (relay §185)
+
+- **The question.** Do corrections beyond the holomorphic tree level move θ̄'s structural zero, or carry the first
+  generation's forced coefficients into the data's windows?
+- **The rule is committed before its script.** It fixes the Kähler theorem for θ̄ (by hand, to be checked), the
+  one-loop running of the double ratio in the SM and the MSSM, the scan over tan β and Λ, the cells and their priors.
+- **Surfaces.** The rule, the goal page, relay §185, the ledger's relay row, and the state page. 0 of 19.
+
 ## W118: the first generation, an exact coefficient but not across the sectors (relay §184)
 
 - **The order.** The rule was pushed before the script (cab7adf9e), the script was committed before its one run

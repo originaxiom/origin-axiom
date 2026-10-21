@@ -19899,3 +19899,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   no fixed fraction comes near the measured values.
 - **So the shape of the answer is right, and the numbers are not,** except once, where chance alone would explain it.
   The count of explained numbers stays where it was. 0 of 19.
+
+## 2026-10-21 — the third test: does anything beyond the simplest level change the answers?
+
+- **The answers so far come from the simplest level of the theory.** Two kinds of correction go beyond it: how each
+  particle's field is normalized, and how the couplings change between very high energies and ours.
+- **The first kind cannot move the strong force's mirror-symmetry angle at all,** by a short argument the program will
+  check.
+- **The second kind changes the lightest family's mass ratios a little.** The test asks whether it can carry the fixed
+  fractions found last time onto the measured values.
+- **The rule and its predictions are fixed before the program exists.** 0 of 19.

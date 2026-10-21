@@ -161,6 +161,12 @@ failures. 0 of 19.
     the leptons' 0.081, so no coherent assignment exists. Two hits in 36 tries is chance level.
   - The form stage 3 asked for appears (a forced power and a pure number), and the values fail two sectors of three.
     (c) and (e) stay open. Next, by the owner's order: a step beyond tree level (W119).
+- **Beyond tree level: W119** (`W119_RULE.md`, committed before its script; relay §185).
+  - **Kähler corrections:** canonical normalization multiplies det Y by a positive number, so no Kähler metric moves
+    θ̄ (by hand, checked on W113's forced assignment).
+  - **Loops:** the double ratio m₁m₃/m₂² runs through the third generation's Yukawas. The SM and the MSSM are
+    scanned over tan β and the high scale, asking whether running carries the forced coefficients into all three
+    sectors' windows.
 
 ## The stopping rules
 

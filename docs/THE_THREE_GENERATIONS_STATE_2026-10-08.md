@@ -872,6 +872,8 @@ Under the owner's rulings, the table's rows split into two groups:
 - **W118: the first generation's zero lifted, with an exact coefficient, but not across the sectors** (one run;
   relay §184). The composite field gives δ² : δ : 1 near ω and rational double ratios; 3/5 falls in the up
   quarks' window, and nothing reaches the down quarks' or the leptons'. 0 of 19.
+- **The owner's third arc: beyond tree level, W119** (`W119_RULE.md` in the weave dossier; relay §185), its rule
+  committed before its script: Kähler corrections and θ̄, and the running of the forced coefficients. 0 of 19.
 
 ## Questions open with main
 
@@ -896,4 +898,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W118 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§184).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§185).
