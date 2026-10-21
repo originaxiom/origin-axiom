@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**825 recorded closures — of which 658 are CLASSIFIED by mechanism and
+**826 recorded closures — of which 659 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -108,6 +108,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Verified on main (B1668): the web seat's sealed T-low run reproduces bit-identically on a seeded sample and re-scores to 0 passes over 216 000 assignment-cells (SM best chi2 983 per-field / 602 minimal against nulls 267 / 471); the per-field census re-scores to 0 passes at h <= 3 (578 vs 263) and 3 < h <= 6 (28 281 vs 14 483).` | 1 |  |
 | `Verified on main (B1672, NEGATIVE): on the puncture module L6 the moves generate 2O (order 48, commutant 2) and RL^2R acts as diag(i,-i,...), not as P_a; irreducibility (order 192) needs P_a, P_b added by hand (the paper's Proposition 24). The 4D index on M_{1,2} is asserted, not computed; the E8 steps are classical branching plus identifications.` | 1 |  |
 | `Verified on main (B1673, NEGATIVE): the potential's minimum at omega is the classical torus-determinant extremum (a choice as the modulus's potential); the 12-point orbit is disjoint from W59's eighteen lines; the CP count is a coordinate error (wrong on 72 of 72 points; on the true points 0 of 12 reflection-fixed and the orbit reflection-closed); averaged J is set by the input matrix (~1200x the data); the spectra give ratios near 1/2.` | 1 |  |
+| `Sealed (B1696; 1a3f6e2aa): the best of 97 lines x 6 discrete choices misses by a factor 3.56 (five of six ratios about three times too small), chi2 317, and 26.8% of 4000 random hierarchical targets fit as well (the calibration sealed in).` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

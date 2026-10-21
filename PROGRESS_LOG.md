@@ -17603,3 +17603,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - Under the goal's continuation main noticed B1695's best point violating B1692's bound and checked it against L: the
   bound and B1693's exclusion are large-L statements. Corrected the same hour, a second instance of S164's scope error.
 - **Landing suite.** 131 files (the corrected arcs' locks, every arc lock, the corpus-scanning, register-, LAW_MAP-, RETRACTIONS- and paper-reading tests), 2111 passed, 1 failed, 3 skipped (9:16, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-21 — S168 τ IS THE STATE'S OWN CUSP SHAPE (B1696, NEGATIVE as sealed; P-244)
+
+- The owner: "are we sure it isn't hiding somewhere in our math already, how come we didn't understand". Main had stated
+  an absence without the sweep; the sweep found B357's universal τ. Sealed the test before computing (1a3f6e2aa), ran
+  once (31f956e26), read once: NEGATIVE.
+- **Landing suite.** 116 files (B1696's lock, every arc lock and the corpus-scanning tests; re-run after routing B1696 into the kill graph), 2034 passed, 3 failed, 3 skipped (5:53, -n 6): B805's attachment lock (P-239) and two whole-gate locks on views-fresh, which pass after the views were regenerated (13 passed, re-run)

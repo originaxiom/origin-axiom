@@ -769,3 +769,7 @@ found with B1635's sealed instrument.
   ratios within a factor of 1.8 — but not to the data's precision, and the match is not specific: wrong sector
   assignments fit as well and about one random hierarchy in sixteen fits as well (labelled, after the seal). The frame
   can make hierarchies of the observed size; it does not yet predict them.
+- **The state's own cusp shape does not select τ here (B1696, sealed, NEGATIVE).** At the owner's question the sweep found
+  the object's one canonical modulus, B357's universal τ (the cusp shape 2√−3), never tied to the weave's τ. Tested with
+  τ = 2√3 i, the unique section and one line: the ratios come out about three times too small and fit no better than a
+  random hierarchy. Open for other frames.

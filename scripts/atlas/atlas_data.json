@@ -12805,6 +12805,33 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1696": {
+   "slug": "tau is the cusp shape",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "torsion",
+    "symplectic"
+   ],
+   "refs": [
+    "B290",
+    "B357",
+    "B366",
+    "B675",
+    "B712",
+    "B762",
+    "B859",
+    "H1",
+    "H2",
+    "H3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "open",
+   "domain": "arithmetic"
+  },
   "B169": {
    "slug": "isomonodromy flow",
    "motifs": [

@@ -11627,5 +11627,29 @@
    "hypotheses": "a verification after the fact, not a sealed test"
   },
   "weave_or_thread": "thread (the Selberg weight set at one thread's length; one modulus)"
+ },
+ {
+  "id": "B1696",
+  "claim_killed": "That the weave's fibre modulus is the state's own cusp shape (B357's universal tau; tau = 2 sqrt3 i for the tick LR): with it, the unique covariant section DR at B1667's canonical end and one flat hypercharge line reproduce the six charged-fermion mass ratios specifically.",
+  "kill_form": "Sealed (B1696; 1a3f6e2aa): the best of 97 lines x 6 discrete choices misses by a factor 3.56 (five of six ratios about three times too small), chi2 317, and 26.8% of 4000 random hierarchical targets fit as well (the calibration sealed in).",
+  "hatch": "another frame for the identification (another coupling or section; the cusp shape entering through B357's own E6 blocks rather than as the fibre's modulus); the other word states' cusp shapes",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-21), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: the cusp shape lies deeper (Im 3.46) than where the data place tau in this frame (about 3.15, B1695); the lead from B357 is closed for this frame only.",
+  "faces_consulted": [
+   "B357",
+   "B712",
+   "B1695",
+   "B1694",
+   "B1691"
+  ],
+  "fact_computed": "the 97-line model and the comparison with its calibration, by the sealed instruments (31f956e26)",
+  "scope": {
+   "frame": "the fibre at tau = the tick's cusp shape, given Lambda; B1656's four-channel coupling at the canonical end; DR (H-cov); one flat line",
+   "object": "six charged-fermion ratios at M_Z",
+   "reach": "single",
+   "hypotheses": "the tick LR only; beta = 0; the calibration's random prior main's"
+  },
+  "weave_or_thread": "weave"
  }
 ]

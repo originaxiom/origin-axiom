@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1424** |
-| words of findings prose | **1,138,331** |
-| test lock files referenced | **841** |
-| arcs carrying an authored verdict | **1424** (100.0 %) |
-| recorded closures | **825** (658 classified, 167 routed-only) |
+| research arcs with findings | **1425** |
+| words of findings prose | **1,138,885** |
+| test lock files referenced | **842** |
+| arcs carrying an authored verdict | **1425** (100.0 %) |
+| recorded closures | **826** (659 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 971 |
-| NEGATIVE | 349 |
+| NEGATIVE | 350 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 95 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 96 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 ONE LINE, ONE TAU, THE UNIQUE SECTION (P-243; sealed fc3bf0684, sha256 aced715b; PROVED as sealed for its question -- G1 holds, G2's prediction failed; outputs committed unread at cedc14c5b): the weight-3/2 covariant Higgs DR at the canonical end with one flat hypercharge line and one tau brings all six charged-fermion mass ratios within a factor of 1.79 of Huang-Zhou 2021 (best: Re tau = 0, L_max, the up quarks through the conjugate Higgs, alpha = 37/96, Im tau = 3.15; 29 grid points within a factor 3) but not to the data's precision (min chi2 61.3); after the seal (labelled) the match is shown not specific -- two wrong sector assignments fit better (1.58, 1.64) and 6.25% of random hierarchical targets fit as well -- so it measures the frame's flexibility, not a prediction; the second generation's down-lepton split (3.1 measured, about 1 here) is its clearest miss. 0 of 19.  
 `B1695_one_line_one_tau_the_unique_section/FINDINGS.md`
 
-**NEGATIVE — `B1673`** (1143 words, 1 locks)  
-THE DYNAMICAL-SELECTION CLAIMS OF 19 OCTOBER, VERIFIED (NEGATIVE; a verification arc of a separate session's unsealed arc, banked under its number; P-199): no static debt of Table 1 is discharged. V = -ln(Im tau |eta|^4) is minimal at omega (1.0335192760; saddle at i, gap 0.0211690050), the classical torus-determinant extremum, already in W51/W59: taking it as the modulus's potential is a choice. The Green function's minimum over the 72 points of exact order 9 is a 12-point orbit (-0.504572), disjoint from W59's eighteen lines; the 3-torsion lies lower. The 8:4 CP count is a coordinate error (points built as (a omega - b)/9, rotated as a + b omega; wrong on 72 of 72); on the true points 0 of 12 are reflection-fixed and the orbit is reflection-closed, so nothing breaks; averaged J is set by the input matrix and is ~1200x the measured 3.1e-5. Orbit-averaged and Selberg spectra (s = l(LR), one thread's length) give ratios near 1/2, missing the data by one to three orders. 0 of 19.  
-`B1673_dynamical_selection_cp_violation_and_mass_emergence/FINDINGS.md`
+**NEGATIVE — `B1696`** (554 words, 1 locks)  
+TAU IS THE STATE'S OWN CUSP SHAPE (P-244; sealed 1a3f6e2aa, sha256 6481d943; NEGATIVE as sealed -- H1, H2, H3 all fail; output committed unread at 31f956e26): the sweep at the owner's question found B357's universal tau (the figure-eight's cusp shape 2 sqrt(-3), governing every E6 block) never identified with the weave's fibre modulus; with tau = 2 sqrt3 i, the unique section, the canonical end and one line, the six charged-fermion ratios come out about three times too small (best worst factor 3.56; chi2 317) and no better than a random hierarchy (26.8% of 4000 fit as well): the cusp shape does not select tau in this frame. 0 of 19.  
+`B1696_tau_is_the_cusp_shape/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

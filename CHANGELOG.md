@@ -1,5 +1,20 @@
 # Changelog
 
+## S168 τ IS THE STATE'S OWN CUSP SHAPE — NEGATIVE AS SEALED (B1696; P-244) (2026-10-21)
+
+- **The owner asked** whether the principle that selects τ is hiding in the record's math. Main had said none was on
+  record without sweeping (an unswept absence claim); the sweep (full text, the seats' lanes) found B357's universal τ —
+  the figure-eight's cusp shape 2√−3, which governs every E₆ block's leading Neumann–Zagier data — never identified with
+  the weave's fibre modulus.
+- **B1696.** Sealed at 1a3f6e2aa (sha256 6481d943) before its instruments ran (outputs committed unread at 31f956e26):
+  τ = 2√3 i, the unique section ∂R, the canonical end, one line α (j/192), six discrete choices, with a calibration sealed
+  in. **H1 fails** (best worst factor 3.56: five of six ratios about three times too small), **H2 fails** (26.8% of random
+  hierarchies fit as well), **H3 fails** (χ² 317). The cusp shape does not select τ in this frame; the lead stays open for
+  other frames.
+- **Register.** P-244 registered and DONE. FLOOR 244.
+- **Landing suite.** 116 files (B1696's lock, every arc lock and the corpus-scanning tests; re-run after routing B1696 into the kill graph), 2034 passed, 3 failed, 3 skipped (5:53, -n 6): B805's attachment lock (P-239) and two whole-gate locks on views-fresh, which pass after the views were regenerated (13 passed, re-run)
+- 0 of 19.
+
 ## S167 A SCOPE CORRECTION TO B1692 AND B1693: THE BOUND OF FOUR AND THE ONE-HIGGS EXCLUSION ARE LARGE-L STATEMENTS (2026-10-21)
 
 - **Found by main, targeted.** B1695's one-Higgs best point has an up–lepton m₂/m₃ spread of 7.7, above B1692's bound of
