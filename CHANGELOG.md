@@ -1,5 +1,12 @@
 # Changelog
 
+## Main's S168 read (ledger; the trial count)
+
+- **B1696** (main, opened): τ at m004's cusp shape fails all three cells (χ² 317; 26.8% of random hierarchies fit as
+  well). Rowed as read, and added to the consolidation page's trial count: twelve tests on one day, none confirming
+  an unfitted prediction.
+- **Surfaces.** The consolidation page, one ledger row. 0 of 19.
+
 ## Main's S167 and B1696 seal read: scope notes and a weave note (relay §193)
 
 - **S167** (main): B1692's bound and B1693's exclusion hold only at large L. This seat's §189 check and the

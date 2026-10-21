@@ -20004,3 +20004,8 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   made rests on it, so that check is now marked as limited the same way.
 - **The main seat sealed a test that takes τ from one object's shape.** Under the owner's rule that is one thread
   chosen by hand. This seat noted that the fair version would try every thread's shape in the same way. 0 of 19.
+
+## 2026-10-21 — the shape test came out negative
+
+- **Taking τ from the figure-eight's own shape does not fit the masses:** every check failed, and random targets did
+  as well about a quarter of the time. That is the twelfth test today, and none has confirmed a prediction. 0 of 19.
