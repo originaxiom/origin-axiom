@@ -1,0 +1,1 @@
+1152 rows at ['silver 2i', 'spin curve 1/2 + sqrt3 i']
