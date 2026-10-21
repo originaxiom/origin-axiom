@@ -773,3 +773,12 @@ found with B1635's sealed instrument.
   the object's one canonical modulus, B357's universal τ (the cusp shape 2√−3), never tied to the weave's τ. Tested with
   τ = 2√3 i, the unique section and one line: the ratios come out about three times too small and fit no better than a
   random hierarchy. Open for other frames.
+
+## Main's addition: the scan for misses (B1697, PROVED; the owner's order)
+
+- **The hierarchy needs end data on the Higgs.** The Higgs without end data is unique, at weight 7/2 (a₀ = ∂²R − E₄R/48),
+  and gives no second-to-third hierarchy at the cusp; the arcs' ∂R carries one unit on v₊. Whether FK10's unit extends to
+  the Higgs is a fork to rule (P-245).
+- **The tick fixes four order-5 lines up to sign** (det(LR + I) = 5), beside where the fits put the line (P-248); the
+  line fixes the Higgs's direction (W63, P-246); a coupling's strength (W51), the silver cusp shape and W62's holding
+  condition were never used (P-247, P-249, P-251).

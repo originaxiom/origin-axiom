@@ -41,3 +41,5 @@ are shared documents). **Literature:** the cusp shape as a geometric invariant (
 - `PREREGISTRATION.md` (sealed), `ARTIFACT_HASHES.txt`; `verification/the_cusp_tau.py` → `the_cusp_tau.json`,
   `the_cusp_tau_run.txt`; `verification/compare.py` → `comparison.json`, `compare_run.txt`; `verification/b1656_funcs.py`.
 - The lock: `tests/test_b1696_tau_is_the_cusp_shape.py`.
+
+> *Scope note 2026-10-21 (B1697, the scan for misses).* The section ∂R used here is unique among the covariant sections that carry **one unit of end data on v₊** (B1691's family f₀R + f₁∂R + f₂∂²R is exactly those). The Higgs without end data is unique at weight 7/2, a₀ = ∂²R − E₄R/48 (W68 G1, computed on main in B1697), and gives no second-to-third hierarchy at the cusp (m₂/m₃ → ½). So this arc's hierarchy rests on the Higgs carrying end data on v₊, a datum of FK10's kind (P-245).

@@ -17610,3 +17610,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   an absence without the sweep; the sweep found B357's universal τ. Sealed the test before computing (1a3f6e2aa), ran
   once (31f956e26), read once: NEGATIVE.
 - **Landing suite.** 116 files (B1696's lock, every arc lock and the corpus-scanning tests; re-run after routing B1696 into the kill graph), 2034 passed, 3 failed, 3 skipped (5:53, -n 6): B805's attachment lock (P-239) and two whole-gate locks on views-fresh, which pass after the views were regenerated (13 passed, re-run)
+
+## 2026-10-21 — S169 THE SCAN FOR MISSES (B1697)
+
+- The owner asked to treat the question seriously and scan for misses. Five read-only searches (subagents) in parallel;
+  every lead checked by main; the computable items computed (the unit-free section, the order-5 lines, the candidate
+  taus, the silver shape). Scope notes on B1691 and B1694–B1696. P-245–P-252 registered.
+- **Landing suite.** 120 files (B1697's lock, the noted arcs' locks, every arc lock and the corpus-scanning tests), 2049 passed, 1 failed, 3 skipped (5:37, -n 8); the one failure is B805's attachment lock (P-239)

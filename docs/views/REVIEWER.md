@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1425** |
-| words of findings prose | **1,138,885** |
-| test lock files referenced | **842** |
-| arcs carrying an authored verdict | **1425** (100.0 %) |
+| research arcs with findings | **1426** |
+| words of findings prose | **1,140,311** |
+| test lock files referenced | **843** |
+| arcs carrying an authored verdict | **1426** (100.0 %) |
 | recorded closures | **826** (659 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 971 |
+| PROVED | 972 |
 | NEGATIVE | 350 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,11 +65,11 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1695`** (768 words, 1 locks)  
-ONE LINE, ONE TAU, THE UNIQUE SECTION (P-243; sealed fc3bf0684, sha256 aced715b; PROVED as sealed for its question -- G1 holds, G2's prediction failed; outputs committed unread at cedc14c5b): the weight-3/2 covariant Higgs DR at the canonical end with one flat hypercharge line and one tau brings all six charged-fermion mass ratios within a factor of 1.79 of Huang-Zhou 2021 (best: Re tau = 0, L_max, the up quarks through the conjugate Higgs, alpha = 37/96, Im tau = 3.15; 29 grid points within a factor 3) but not to the data's precision (min chi2 61.3); after the seal (labelled) the match is shown not specific -- two wrong sector assignments fit better (1.58, 1.64) and 6.25% of random hierarchical targets fit as well -- so it measures the frame's flexibility, not a prediction; the second generation's down-lepton split (3.1 measured, about 1 here) is its clearest miss. 0 of 19.  
-`B1695_one_line_one_tau_the_unique_section/FINDINGS.md`
+**PROVED — `B1697`** (1062 words, 1 locks)  
+THE SCAN FOR MISSES (the owner's order; no data): the Higgs without end data is unique, at weight 7/2 -- a0 = D2R - E4 R/48, holomorphic at the cusp (W68 G1, computed on main) -- and gives no second-to-third hierarchy at the cusp (m2/m3 -> 1/2), so in this frame the hierarchy exists only if the Higgs carries end data on v+ (B1694-B1696's DR assumed it); the tick LR fixes no non-zero line but exactly four order-5 lines up to sign (det(LR + I) = 5; B591, B489), beside the fits' alpha = 0.385-0.391 but with a non-zero second coordinate the grids never held; the line fixes the Higgs's direction (W63); W51's coupling-strength peaks (1/2 + 2.224 i in the band), the silver cusp shape 2i (B485) and W62's holding condition were never used; the line's arithmetic (closure, move-invariance, W88's orders, CP-odd lines) was never imposed; the SM seat is past main's pin. Each a point (P-245-P-252). 0 of 19.  
+`B1697_the_scan_for_misses/FINDINGS.md`
 
-**NEGATIVE — `B1696`** (554 words, 1 locks)  
+**NEGATIVE — `B1696`** (645 words, 1 locks)  
 TAU IS THE STATE'S OWN CUSP SHAPE (P-244; sealed 1a3f6e2aa, sha256 6481d943; NEGATIVE as sealed -- H1, H2, H3 all fail; output committed unread at 31f956e26): the sweep at the owner's question found B357's universal tau (the figure-eight's cusp shape 2 sqrt(-3), governing every E6 block) never identified with the weave's fibre modulus; with tau = 2 sqrt3 i, the unique section, the canonical end and one line, the six charged-fermion ratios come out about three times too small (best worst factor 3.56; chi2 317) and no better than a random hierarchy (26.8% of 4000 fit as well): the cusp shape does not select tau in this frame. 0 of 19.  
 `B1696_tau_is_the_cusp_shape/FINDINGS.md`
 

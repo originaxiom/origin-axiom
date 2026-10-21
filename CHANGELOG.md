@@ -1,5 +1,20 @@
 # Changelog
 
+## S169 THE SCAN FOR MISSES (B1697, PROVED; the owner's order) (2026-10-21)
+
+- **The owner: "lets treat this seriously … scan the repo for similar misses that are crucial to our math now".** Five
+  independent read-only searches, every lead checked by main at its source, the computable ones computed
+  (`the_scan.py`). Crucial, verified: (1) the Higgs without end data is unique at weight 7/2, a₀ = ∂²R − E₄R/48
+  (W68 G1, computed on main), and gives no hierarchy at the cusp — the newest arcs' ∂R carries end data on v₊ (scope notes
+  on B1691, B1694, B1695, B1696); (2) the line fixes the Higgs's direction (W63); (3) the tick fixes exactly four order-5
+  lines up to sign (det(LR + I) = 5), beside the fits' α but with a non-zero second coordinate; (4) W51's coupling-strength
+  peaks (½ + 2.224i in the band); (5) the silver cusp shape 2i and B1483's spin end curves; (6) the line's arithmetic never
+  imposed; (7) W62's holding condition; (8) the SM seat past main's pin. Why missed: free inputs treated one at a time
+  without the sweep; three meanings of τ, the line and the Higgs never joined; main's two large-L slips of the day.
+- **Register.** P-245–P-252. FLOOR 252.
+- **Landing suite.** 120 files (B1697's lock, the noted arcs' locks, every arc lock and the corpus-scanning tests), 2049 passed, 1 failed, 3 skipped (5:37, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S168 τ IS THE STATE'S OWN CUSP SHAPE — NEGATIVE AS SEALED (B1696; P-244) (2026-10-21)
 
 - **The owner asked** whether the principle that selects τ is hiding in the record's math. Main had said none was on

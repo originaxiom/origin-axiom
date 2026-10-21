@@ -118,3 +118,5 @@ Feruglio, Gherardi, Romanino and Titov, modular invariant dynamics and fermion m
 > 0.0338). So the parameter-free section gives three non-zero, hierarchical masses at the canonical end, the first
 > generation set by the 1/L² term. The exponents for sections with a ∂²R component (the O(1/L) term) stand.
 > `verification/correction/the_lift_at_finite_L.py` → `the_lift_at_finite_L.json`.
+
+> *Scope note 2026-10-21 (B1697, the scan for misses).* The section ∂R used here is unique among the covariant sections that carry **one unit of end data on v₊** (B1691's family f₀R + f₁∂R + f₂∂²R is exactly those). The Higgs without end data is unique at weight 7/2, a₀ = ∂²R − E₄R/48 (W68 G1, computed on main in B1697), and gives no second-to-third hierarchy at the cusp (m₂/m₃ → ½). So this arc's hierarchy rests on the Higgs carrying end data on v₊, a datum of FK10's kind (P-245).

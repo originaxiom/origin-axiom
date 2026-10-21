@@ -1,0 +1,41 @@
+{
+  "id": "B1697",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1691",
+    "B1694",
+    "B1695",
+    "B1696",
+    "B591",
+    "B489",
+    "B485",
+    "B1483",
+    "B1686"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [
+    "sm:W51",
+    "sm:W62",
+    "sm:W63",
+    "sm:W67",
+    "sm:W68",
+    "sm:W88",
+    "sm:W94",
+    "sm:W45",
+    "sm:W46"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the newest mass computations' frame (Lambda; B1645/B1656's coupling; covariant sections; the canonical end); the record's object-era, seat and weave-era items that bear on its free inputs",
+    "object": "the free inputs tau, the flat line, the Higgs's section and weight, the end, the up sector's reading",
+    "reach": "class",
+    "hypotheses": "no data; the lower-weight items as the searches quoted them"
+  },
+  "claim_one_line": "THE SCAN FOR MISSES (the owner's order; no data): the Higgs without end data is unique, at weight 7/2 -- a0 = D2R - E4 R/48, holomorphic at the cusp (W68 G1, computed on main) -- and gives no second-to-third hierarchy at the cusp (m2/m3 -> 1/2), so in this frame the hierarchy exists only if the Higgs carries end data on v+ (B1694-B1696's DR assumed it); the tick LR fixes no non-zero line but exactly four order-5 lines up to sign (det(LR + I) = 5; B591, B489), beside the fits' alpha = 0.385-0.391 but with a non-zero second coordinate the grids never held; the line fixes the Higgs's direction (W63); W51's coupling-strength peaks (1/2 + 2.224 i in the band), the silver cusp shape 2i (B485) and W62's holding condition were never used; the line's arithmetic (closure, move-invariance, W88's orders, CP-odd lines) was never imposed; the SM seat is past main's pin. Each a point (P-245-P-252). 0 of 19.",
+  "weave_or_thread": "weave (the shared fibre's free inputs)"
+}
