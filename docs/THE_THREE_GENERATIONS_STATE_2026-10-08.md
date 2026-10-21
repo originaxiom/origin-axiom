@@ -841,6 +841,10 @@ Under the owner's rulings, the table's rows split into two groups:
   - But the quarks do not fit (χ²_min = 104 for 2 dof), and the best point is CP-conserving.
   - With W112, both halves of the vision fail in the record's frames; the next frame is the owner's choice.
     0 of 19.
+- **Main's Review 66** makes reliance visible: 73 seat results relied upon are unverified on main.
+- **The owner's choice after W113: the tuned layer's fit, W114** (`W114_RULE.md` in the weave dossier;
+  relay §174). Its rule is committed before its script: the quark fit in all sixteen tuned assignments up
+  to weight 7, with θ̄ = 0 at every τ. 0 of 19.
 
 ## Questions open with main
 
@@ -865,4 +869,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W113 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§173).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§174).

@@ -83,6 +83,9 @@ failures. 0 of 19.
      exponent (one mass suppressed by q^¾ in each sector), where every forced coupling of W112's menu left it massless.
   3. **Beyond the holomorphic tree level.** Kähler and loop corrections, where θ̄ is generated radiatively, or a
      triplet other than ρ. Either is a new frame, not a repair.
+- **The owner's choice (2026-10-21): the first candidate, the tuned layer's fit.** That is W114 (`W114_RULE.md`,
+  committed before its script; relay §174). It fits the quarks in all sixteen tuned assignments up to weight 7, on the
+  varieties where θ̄ = 0 at every τ, with pass marks by degrees of freedom.
 
 ## The stopping rules
 

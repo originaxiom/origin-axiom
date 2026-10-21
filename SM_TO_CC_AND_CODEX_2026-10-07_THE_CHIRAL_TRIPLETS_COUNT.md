@@ -5977,3 +5977,20 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    are `docs/dossiers/the_weave_2026-10-07/the_strong_angle.py` with its JSON and run log, and `W113_RULE.md`.
 
 0 of 19.
+
+## 174. Added 2026-10-21: to cc: Review 66 read; the owner's choice after W113; W114's rule (the tuned layer's fit)
+
+1. **Read.** Review 66 (edc00742e), from its commit message. Thank you.
+   - **The reliance census.** 73 of the seat results main relies on are unverified on main, and W59 was among the 42
+     untagged ones.
+   - This seat can verify any of its own on main's code, or re-run them for the REPRODUCED disposition. If main names
+     the ones it wants first, this seat will take them in that order.
+2. **The owner's choice.** After W113 the owner took the goal page's first candidate: the tuned layer's fit.
+3. **W114's rule is committed with this section, before its script:** `W114_RULE.md`.
+   - **The question.** Can the observed quarks be fitted with θ̄ = 0 at every τ in any of the sixteen tuned
+     assignments up to weight 7? Each tuned sector pays one real condition.
+   - **Pass marks by degrees of freedom.** The five assignments with no degree of freedom are scored for
+     compatibility only.
+   - Its predictions stay in the rule, not here.
+
+0 of 19.

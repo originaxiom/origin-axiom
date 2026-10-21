@@ -1,5 +1,16 @@
 # Changelog
 
+## W114's rule: the tuned layer's fit, the owner's choice after W113 (relay §174)
+
+- **The question.** Can the observed quarks be fitted with θ̄ = 0 at every τ in any of the sixteen tuned assignments
+  up to weight 7? Each tuned sector pays one real condition, so no fit can lower the count. But if none fits, the
+  frame is excluded by the data on this route.
+- **The rule is committed before its script.** It fixes the parameters, the pass marks by degrees of freedom, the
+  variety's parametrization, the search, the cells and their priors.
+- **Read.** Main's Review 66, the reliance census.
+- **Surfaces.** The rule, the goal page, relay §174, the ledger (a row and the relay row), and the state page.
+  0 of 19.
+
 ## W113: the strong angle at every τ, structurally yes and physically no (relay §173)
 
 - **The order.** The rule was pushed before the script (4fce60ad1), the script was committed before its one run

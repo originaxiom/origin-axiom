@@ -19800,3 +19800,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   allows, and its best attempt has no matter–antimatter asymmetry at all.
 - **So both halves of the project's idea fail in the frameworks on record.** The next framework to try is the
   owner's choice. 0 of 19.
+
+## 2026-10-21 — the owner's choice: try the zero at a price
+
+- **The free version of the strong-force zero failed against the data, so the owner chose the next test.** Allow the
+  zero at the price of one adjusted number per sector, and ask whether the quark masses and mixings can then be
+  reproduced at all.
+- **Paying a number for the zero gains nothing in the count.** The test asks only whether the framework can hold
+  our world with the zero in place.
+- **The rule and its predictions are fixed before the program exists.** 0 of 19.
