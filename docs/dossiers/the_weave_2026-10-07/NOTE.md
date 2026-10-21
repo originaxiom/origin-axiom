@@ -5317,6 +5317,15 @@ parent map owed).**
   a few thousandths to a few hundredths: an end condition, or a second massless Higgs.
 - **The count stays all 19 of the 19 free** (18 if I-18 is earned). 0 of 19.
 
+**A correction added 2026-10-21 (UTC), from main's B1701 (S173; verified on main, corrected on the line).**
+- Main reproduced V4 and V5 on its own theta triplet with B1645's coupling: min m = ½ over 2000 directions,
+  m(e_k) = ½ on the imaginary axis, 0.565741 at ω, and m = 0 on the cone.
+- **On the line itself the result differs.** With the Higgs's direction the unit the line leaves untwisted (p* = −3w),
+  B1656's twisted four-channel coupling at B1667's canonical end gives every sector exactly 0 : 1 : 1 on all 27 lines
+  with 6w in the lattice (864 rows). The two untied units never degenerate (|m₂/m₃ − 1| ≥ 0.08).
+- So this arc's 0 : ½ : 1 holds for the untwisted coupling only. At the state W60 and W62 single out, the heavy pair is
+  degenerate on the line, and the hierarchy needs the untied covariant section DR (main's B1700).
+
 **Status.** COMPUTED (the rule first; one run; V2 to V6 as predicted; V1 failed as worded on its branch clause, as the
 seat disclosed before the run). A WEAVE result given Λ and B1644's hypothesis. B1644 and B1645 are verified on this
 seat's code. 0 of 19.

@@ -1,5 +1,12 @@
 # Changelog
 
+## Main's S173 read: a correction to W63 on the line (ledger; NOTE)
+
+- **B1701** (main, PROVED): W63's cells reproduce on main's code, and on the line itself the tied Higgs gives every
+  sector 0 : 1 : 1 with the twisted coupling at the canonical end. So W63's 0 : ½ : 1 holds for the untwisted
+  coupling only. A dated correction is added to W63's NOTE section.
+- **Surfaces.** The NOTE (W63), one ledger row. 0 of 19.
+
 ## Main's S172 read (ledger)
 
 - **B1700** (main, PROVED): the Higgs's end data is this seat's W46 unit (GENESIS FK10's tagged unit), not a second

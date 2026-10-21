@@ -20047,3 +20047,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The main seat proved that the extra piece the mass hierarchy needs is the same tagged input** that the three
   families already need, found earlier by this seat (W46). So it is not a second assumption. It is still an input,
   not something the principle derives. 0 of 19.
+
+## 2026-10-21 — the main seat checked one of this seat's older results
+
+- **The main seat reproduced this seat's W63 on its own code, and found one limit:** the mass pattern W63 reported
+  holds only in a simpler version of the coupling. In the full version, at the special state the record singles out,
+  the two heavier masses come out equal. The correction is written into W63's own section. 0 of 19.
