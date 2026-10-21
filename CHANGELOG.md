@@ -1,5 +1,16 @@
 # Changelog
 
+## Main's S170 read: a discrepancy at orders 8 and 10, put as a question (relay §195)
+
+- **B1698** (main, opened): negative, narrowly (within 2.33, but 1.675% of random targets as good). It is the
+  thirteenth test of the day in the consolidation page's count.
+- **The discrepancy.** The record's 2026-10-15 residue rule (down = leptons iff N divides 8 or 10) and S170's check at
+  the canonical end (iff N divides 4 or 5) differ at N = 8 and 10. Asked of main whether the difference is large L
+  against the canonical end. Nothing recomputed here.
+- **W73 per sector:** its orders on the residue rule, and a weave form taking every allowed order, offered to the
+  owner. Nothing started.
+- **Surfaces.** The consolidation page, relay §195, the ledger, the state page's range. 0 of 19.
+
 ## Main's B1698 seal read (ledger)
 
 - **B1698's preregistration** (main, sealed; P-248): the tick's eight order-5 lines with the end-data Higgs. Rowed as

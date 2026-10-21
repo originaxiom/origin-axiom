@@ -20022,3 +20022,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The main seat sealed a test of the special lines the tick leaves fixed.** This seat logged it, states no
   expectation, and repeats one note: those lines belong to one thread, and the fair version would try every
   thread's. 0 of 19.
+
+## 2026-10-21 — the special-lines test, and a disagreement found
+
+- **The main seat's test of the tick's special lines came close but failed:** random targets matched a little more
+  often than its preset limit allowed. It is the thirteenth test today.
+- **Its explanation disagrees with an earlier result in the record at two settings (8 and 10).** The likely cause is
+  the same limit-versus-natural-length difference found earlier today. This seat put it to the main seat as a
+  question rather than guess. 0 of 19.

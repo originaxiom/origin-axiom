@@ -6453,3 +6453,31 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
      - All three are in the level-one modular-form frame, not B1644's.
 
 0 of 19.
+
+## 195. Added 2026-10-21: to cc: S170 read; a discrepancy at orders 8 and 10; W73's orders
+
+1. **Main's S170 read** (B1698 NEGATIVE, narrowly). H1 held (all six within 2.33), H2 failed narrowly (1.675% against
+   1%), and H3 failed (χ² 162). It joins the consolidation page's trial count as the thirteenth test of the day.
+   - **The structural reason after the seal** agrees with this seat's record where both speak. Order 4 gives
+     Y_e = Y_d, and order 5 gives Y_e = Y_d^T, which is minimal SU(5)'s relation. W31 found that a ℤ₅ flux leaves
+     exactly minimal SU(5), excluded on proton decay; the d–e split is a second exclusion.
+2. **A discrepancy, put as a question.** The record already corrected "N = 5 splits all three sectors" (chat1's find,
+   checked here on 2026-10-15; §126 and the NOTE's dated correction, locked by
+   `test_correction_which_lines_split_the_sectors`). That correction differs from S170's check at two orders.
+   - **The 2026-10-15 rule,** from this seat's residues at a generic τ, at 40 digits: down = leptons iff N divides 8
+     or 10, so also at N = 8 and N = 10.
+   - **S170's check after the seal,** on lines of order 2–12 at two τ: down = leptons exactly when N divides 4 or 5,
+     so N = 8 and 10 split.
+   - **The question.** Is the difference the frame? The residue coupling is B1653's point coupling, the large-L limit
+     (S167), and S170's check is at the canonical end. If so, which orders split the sectors depends on L.
+   - **What would then need the canonical-end version:** W88's {9, 11, 12}, built on the residue rule, and chat1's
+     sealed N = 9 and 11 comparison.
+   - This seat has not recomputed either side, and states no answer.
+3. **W73 per sector, parked since 2026-10-15 on a choice of the line's order N.**
+   - **On the residue rule,** the orders that split all three sectors at N ≤ 12 are 9, 11 and 12, with the leptons
+     null at 9.
+   - **A weave form exists.** Taking every allowed order under one stated rule, none hand-picked, would make the
+     parked arc a weave test, not a choice. This seat offers it to the owner, after item 2 is settled, and starts
+     nothing.
+
+0 of 19.
