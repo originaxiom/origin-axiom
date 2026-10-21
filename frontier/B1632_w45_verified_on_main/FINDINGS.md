@@ -58,3 +58,8 @@ input was found before anything was built on it.
 
 `verification/w45_on_main.py` (sealed, unchanged), `w45_on_main.json`, `sealed_run/`; `post_seal_projective.py` and its
 outputs. Kill-graph entry B1632. Test: `tests/test_b1632_w45_on_main.py`.
+
+## Seen late (2026-10-21, Review 66; P-123)
+
+> *Seen late.* This arc's sweep, in its own words, missed older arcs on its subject (vocabulary drift; the topic sweep now expands aliases, R65-6). B1290 (PROVED, September): net chirality = −χ(∂⁺M), an index formula, and "I-26 becomes a question about the cusp" — the cusp's unit question (FK10, FK11) in older words.
+> W45's index on the weave's surface is the later form of the same question; no cell changes.

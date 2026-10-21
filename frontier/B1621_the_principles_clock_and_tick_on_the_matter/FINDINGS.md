@@ -56,3 +56,7 @@ As sealed: `VERDICT topic-sweep /democratic|rank.one|invariant mean|Ces[aà]ro|t
 
 `verification/clock_and_tick.py` (sealed, unchanged), `clock_and_tick.json`, `clock_run.txt`. Test:
 `tests/test_b1621_the_principles_clock_and_tick.py`.
+
+## Addendum (2026-10-21, Review 66; P-124, the reliance census)
+
+> *Tagged 2026-10-21.* Review 66's reliance census found this arc relying on seat results that are not verified on main, and its `rests_on_seat` field does not declare them, so the gate seat-positive-verified could not see them. W38 (row 1049, read, not re-run) explains the equal masses. They are the seat's, unverified (harvest rows named); the verifications are queued by consequence (P-229). The cells and numbers are unchanged.

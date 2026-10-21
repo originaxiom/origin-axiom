@@ -40,3 +40,12 @@ As sealed: `VERDICT topic-sweep /word.reading|thread's own H|zero.mode projector
 
 `verification/weave_word_coupling.py` (sealed, unchanged), `weave_word_coupling.json`, `word_run.txt`. Test:
 `tests/test_b1633_the_weaves_word_coupling.py`.
+
+## Seen late (2026-10-21, Review 66; P-123)
+
+> *Seen late.* This arc's sweep, in its own words, missed older arcs on its subject (vocabulary drift; the topic sweep now expands aliases, R65-6). B415 (PROVED): the tower measure's continuum limit, a Gauss-sum-modulated Haar measure on ℤ₃ × ℤ/5 — the record's earlier measure over its threads.
+> Whether B415's measure is this arc's uniform measure over threads is not checked here; no cell changes.
+
+## Addendum (2026-10-21, Review 66; P-124, the reliance census)
+
+> *Tagged 2026-10-21.* Review 66's reliance census found this arc relying on seat results that are not verified on main, and its `rests_on_seat` field does not declare them, so the gate seat-positive-verified could not see them. W42 (row 1058, read, its thread-H¹ census registered) is the premise of "only through a choice of thread". They are the seat's, unverified (harvest rows named); the verifications are queued by consequence (P-229). The cells and numbers are unchanged.

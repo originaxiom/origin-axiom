@@ -329,6 +329,24 @@ flavour symmetry to the field: what couples to the matter, and what the coupling
 **Derived parameters: 0 of 19.** Next: B1646; the scope repairs; the quark count with a massless first generation
 (P-116); B1637's grading.
 
+## ⟳ VIEW REFRESH — 2026-10-21 (Review 66)
+
+Touched at the Review 66 anchor (`a498554e2`). **The window (B1669–B1684; 22 merges) took the foundations quest to two
+records and made the record's reliance on its seats visible.**
+- **Two records, characterised.** A common point of the weave of n records exists only at n = 2, in SL(2, ℂ) for every n
+  (B1677, B1679) and in every finite target tested, where it is a Heisenberg point (B1680); on words, a kept class exists
+  only at n = 2 (B1682). The common point is equivalent to two records, so GENESIS v1.50 regrades GM1 to POSTULATED in an
+  equivalent form (B1683), walking back v1.49's "derived given one input" — the web seat's read.
+- **W59 on main** (B1684): the one-loop potential's facts verified; the state they assume (τ = ω, the Higgs-alone lines)
+  is an input the seat's later W60 and W62 move, so the arcs built there are conditionals (P-214).
+- **The pattern** (P-223–P-227, readings): the foundation derives the discrete skeleton of one qubit — two anticommuting
+  records, a Pauli point, Clifford moves, three axes, a hand — and no magnitude.
+- **Review 66**: a census of reliance (73 seat results relied upon without verification on main, 42 untagged), the
+  sites tagged, a gate so that every seat id a new verdict names is declared, the REPRODUCED disposition, the topic
+  sweep's aliases, and the enforcement gaps closed. GENESIS v1.51 (P-228) and the verifications by consequence (P-229)
+  are next.
+- **0 of 19.**
+
 ## ⟳ VIEW REFRESH — 2026-10-17 (Review 65)
 
 Touched at the Review 65 anchor (`c370ff37c`). **The window (B1661–B1668; 20 merges) fixed the end, wrote the paper,

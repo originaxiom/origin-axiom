@@ -83,3 +83,7 @@ but a failure is a statement about this search.
 
 `verification/fits_on_the_ruled_branch.py` (sealed, unchanged), `fits_on_the_ruled_branch.json`, `fits_run.txt`;
 `received/` (the inputs, hashed); the lock `tests/test_b1637_fits_on_the_ruled_branch.py`.
+
+## Addendum (2026-10-21, Review 66; P-124, the reliance census)
+
+> *Tagged 2026-10-21.* Review 66's reliance census found this arc relying on seat results that are not verified on main, and its `rests_on_seat` field does not declare them, so the gate seat-positive-verified could not see them. W62 (row 1115, headline, partial) is cited in an aside on where τ runs. They are the seat's, unverified (harvest rows named); the verifications are queued by consequence (P-229). The cells and numbers are unchanged.

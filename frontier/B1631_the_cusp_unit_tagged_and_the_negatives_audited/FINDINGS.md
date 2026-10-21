@@ -48,3 +48,7 @@ next audit.
 `adoption/amend.py` (GENESIS v1.38 → v1.39, against `received/GENESIS_v1_38_main.md`); `verification/audit_sweep.py`,
 `audit_sweep.json`; `verification/independent/` (the verifiers' scripts, path-clean). Lock:
 `verification/test_b1631_the_cusp_unit_tagged_and_the_negatives_audited.py`.
+
+## Addendum (2026-10-21, Review 66; P-124, the reliance census)
+
+> *Tagged 2026-10-21.* Review 66's reliance census found this arc relying on seat results that are not verified on main, and its `rests_on_seat` field does not declare them, so the gate seat-positive-verified could not see them. W38, W40 and W42 (rows 1049, 1051, 1058, read) and W44's c-gauge frame (row 1061) form the "independent re-derivation" leg of the negatives audit. They are the seat's, unverified (harvest rows named); the verifications are queued by consequence (P-229). The cells and numbers are unchanged.

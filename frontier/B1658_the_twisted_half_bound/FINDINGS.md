@@ -74,3 +74,7 @@ were read first) reproduced every cell on its own code: the factorisation to 2 �
 The SM seat's W90, which this extends, and its relay §124 (the Higgs's factor is the same in every sector of B1656's
 frame). Main's two reading agents: the first found that the bound holds for every complex Higgs, which made the census
 exact; the second made the census two-sided and its controls able to fail.
+
+## Addendum (2026-10-21, B1684)
+
+> *Scoped 2026-10-21 (P-214, completed at Review 66).* T3 is a read-out on W59's lines at ω. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen lines are exactly the minima of the Higgs alone. They are not the state the SM seat's later potential selects: its W60 puts the full potential's line at a half-period, and its W62 finds that state not stationary in τ (headline on main, P-222). So it is a read-out at an input state. The cells and numbers are unchanged.

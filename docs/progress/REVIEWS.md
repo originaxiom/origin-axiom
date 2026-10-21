@@ -6666,12 +6666,146 @@ five claim lines was read against its premises.
 - [x] R65-3: scope GENESIS GM5b's "only this reading never settles" through adoption/amend.py, after a full suite (owner: cc; source: §4) — done 2026-10-21 (S153): GENESIS v1.50 (B1683), "of the two readings B1662 compared, only this one never settles"
 - [>] R65-4: every banked arc hashes its stored output and any post-seal file it cites, with a failing-path test (owner: cc; carried from R64-4)
 - [>] R65-5: adjudicate the chain gap's top entries (owner: cc; carried from R64-5)
-- [>] R65-6: the Seen-first alias table and full-text sweep (owner: cc; carried from R64-6, itself from R63-4; due at Review 66)
-- [>] R65-7: the reliance reading and the REPRODUCED disposition (owner: cc; carried from R64-7, itself from R63-5; due at Review 66)
-- [>] R65-8: the enforcement gaps and the seat register (owner: cc; carried from R64-8, itself from R63-6; due at Review 66)
+- [x] R65-6: the Seen-first alias table and full-text sweep (owner: cc; carried from R64-6, itself from R63-4; due at Review 66) — resolved at Review 66 (§5; P-123)
+- [x] R65-7: the reliance reading and the REPRODUCED disposition (owner: cc; carried from R64-7, itself from R63-5; due at Review 66) — resolved at Review 66 (§5; P-124, P-125; follow-ups P-228–P-230)
+- [x] R65-8: the enforcement gaps and the seat register (owner: cc; carried from R64-8, itself from R63-6; due at Review 66) — resolved at Review 66 (§5; P-126, P-127; follow-up P-231; golden_gate's branches the owner's)
 - [>] R65-9: B186's band box dimension re-graded in its own arc (owner: cc; carried from R64-10; B616 done at this review)
 - [x] R65-10: filed at this review: the scope notes on B1649, B1651, B1658 (R64-3), B1662, B1663, B1665, B1666; B616's single-threaded pin; E90; TERMINOLOGY; B1667's blind replication noted; the paper's draft 6 (Table 1 a longtable, 25 verified edits, Figure 1)
 - [x] R65-11: done at this review — the E90 remedy as a check in the paper's build (`build.sh` fails on a control character, an orphaned fragment, or an oversized-float warning), with a failing-path test (owner: cc; source: §5)
 - [x] R65-12: verify the referee lane's two arcs on main and re-bank them under main's numbers, THE DEDEKIND PHASE first (owner: cc; P-192) — done 2026-10-20 (S145): B1671 (THE DEDEKIND PHASE, verified) and B1670 (THE PRICE OF THE NINETEEN, banked with scope notes); marked 2026-10-21
 
 **anchor-commit: `c370ff37c`**
+
+# Review 66 (2026-10-21) — two records characterised, the qubit's skeleton, and reliance made visible
+
+Twenty-two merges since Review 65 (`c370ff37c..a498554e2`, all on the first-parent line) and 16 arcs with a verdict
+(B1669–B1684), written at the head. A read-only census agent of main's ran the reliance reading (R65-7); main checked
+what is taken from it against the cited lines before writing it.
+
+**What the window did:**
+- **The owner's separate work, verified and integrated** (S145, S146): B1670 and B1671 re-banked from the referee lane;
+  B1672 and B1673, written in main's tree by another session, NEGATIVE as verified; the paper's draft 9 tagged and FROZEN.
+- **The foundations quest** (the owner's "the next quest is foundations"):
+  - B1676: the tick's democratic mean is a class property (#L ≡ #R mod 8).
+  - B1677 (sealed) and B1679: a common point of the weave of n records exists only at n = 2, for every n in SL(2, ℂ).
+  - B1680 (sealed): in every finite target tested the common point is a Heisenberg point; the target supplies the prime.
+  - B1682: the SM seat's W110, the word side; the web seat's read taken — the common point characterises two records,
+    it does not derive them.
+  - GENESIS v1.49 (B1681) and v1.50 (B1683): GM1 graded "derived given one input", then walked back to POSTULATED in an
+    equivalent form; GM5b's "only" scoped (R65-3).
+- **B1678**: the audit lane's lifted register verified; P-207's sign audit.
+- **B1684**: the SM seat's W59 verified on main; the state it assumes (τ = ω, the Higgs-alone lines) is an input that
+  the seat's own W60 and W62 move; P-214's scope notes on the arcs built there.
+- **The pattern** (the owner's question, S155): the foundation derives the discrete skeleton of one qubit and no
+  magnitude; registered as readings, P-223–P-227.
+- 0 of 19.
+
+**fresh-clone: PASS @ a498554e2 (gates all PASS; belt ok)** · **sample seed: c370ff37c**; to be read in full: B1670, B1679, B1680, B1682, B1683 ·
+**gate controls: 45 registered** failing-path tests; unregistered: none · **full suite: 7425 passed, 3 failed, 68 skipped (58:05, -n 8): B186, the BLAS-dependent lock (R65-9); the two whole-gate locks (tests/test_repo_gates.py, tests/test_b887_gate_audit.py), on views-fresh alone, which reads the views against the last review anchor and passes once this review's commit lands; both re-run after the commit**
+
+## 1. The loop
+
+- **R65-1 (the mirror): the owner's, carried a fourth time.** Codeberg's terms bar mostly-AI repositories and every
+  seal of this window is "not on every remote" for that reason alone. By the carry-age rule the owner decides or waives
+  it at this review (asked in the report).
+- **R65-3 (GM5b's "only"): done**, GENESIS v1.50 (B1683).
+- **R65-4 (every banked arc hashes its stored output) and R65-5 (the chain gap's top entries): carried a second time.**
+  By the carry-age rule each is resolved, declined with its reason, or waived at Review 67.
+- **R65-6, R65-7, R65-8 (carried from Review 63): resolved at this review** (§5). They were due here by the carry-age
+  rule; none is carried again.
+- **R65-9 (B186's box dimension): carried a second time.** It failed every suite of this window under single-threaded
+  BLAS and passes at the default thread count. Resolved, declined or waived at Review 67.
+- **R65-10, R65-11, R65-12: done** (R65-12 marked 2026-10-21).
+
+## 2. The branch inventory and the lanes
+
+- **Branches.** 12 unmerged leaves, all registered. On one remote only: `referee/B1668_the_price_of_the_nineteen`,
+  `referee/landing`, `weave-physics-archive-2026-10-11`. The lanes are out of step with Codeberg (R65-1).
+- **Every live lane is read to its head** (harvest-debt --strict: NEW unrowed 0, backlog 0, stale rows 0, relays
+  without a row 0): the SM seat at `e1724317`, the web seat at `468aacd8`, the audit lane, its fork and the referee
+  lanes at their pins.
+- **The seat register now names every registered lane** (P-127): hypatia, lp, weavearchive, referee, refereeland.
+
+## 3. The declared modulus
+
+- **Read in full:** the five seeded arcs, by main, against their claim lines and stored outputs; their locks run.
+- **Read in full by main at banking:** every arc of the window; the four verification arcs (B1679, B1682, B1684, B1678)
+  re-derived on main's own code.
+- **Read by outside readers:** the web seat read B1677's reading and corrected main's v1.49 grade (B1682); the SM seat's
+  relay §168 found the κ join circular (P-221).
+- **Certified mechanically:** the gates and the reproduction belt in a fresh clone; every seal's hashes and order.
+- **Not certified:** the firewalled readings of S155 (P-223–P-227), which promote nothing; the seats' results not
+  verified on main, now listed (§5, the census).
+
+## 4. The sample, and the premise audit on it
+
+| arc | finding | kind | done |
+|---|---|---|---|
+| B1679 | "two records follows from a non-trivial common character" is an implication that runs both ways: the input characterises GM1 (B1682) | scope | dated note |
+| B1682 | "whose trace is PF1's κ": joined through κ the link to PF1 is circular, PF1 being written for two letters (the SM seat's §168) | scope | dated note; GENESIS's wording with v1.51 (P-221, P-228) |
+| B1670 | "a structure without dynamics buys zero rows", stated for "any claim", is a reading of this census | scope | dated note; P-220 (the web seat: the price of 13 undercounts the paper's route) |
+| B1680, B1683 | every "only", "exactly" and "every" scoped to the targets tested or the readings compared | none | — |
+
+**The premise audit on the sample.** Every "every", "only", "all", "cannot", "exactly", "forced" and "proves" in the
+five claim lines was read against its premises. Three over-reach, one each in B1679, B1682 and B1670; B1679's is the
+over-read of the window (the v1.49 grade), already corrected by B1682 and v1.50. No number in a claim line disagrees with
+its output.
+
+**The seals.** Three in the window. B1677 and B1680 are sealed before their results; B1670 is sealed with its results,
+as its claim line discloses (the referee lane's census, re-banked). The "unparsed lines" the tool reports are each hash
+file's title line and, in B1677, a note, written without a `#`: every hash line parses and matches. The files are sealed
+text and are not repaired. "Not on every remote" is the mirror (R65-1).
+
+## 5. Protocol integrity — the review's headline: reliance made visible
+
+- **The window's main error was main's grade, and a seat caught it.** GENESIS v1.49 wrote "DERIVED given one input", a
+  status outside the legend's five, for an input equivalent to GM1. The web seat's read found it within a day; v1.50
+  walked it back through the amendment route, and the history is kept.
+- **The second was a reliance the gates could not see.** B1656 (sealed, PROVED) was built on the SM seat's W59 lines,
+  held on main at headline level only; its `rests_on_seat` did not name W59, so the gate seat-positive-verified never
+  read it. The web seat's map named the dependency; B1684 verified W59 and found the state an input.
+- **The census (R65-7, P-124; `docs/progress/REVIEW_66_RELIANCE_CENSUS.md`).** 185 seat items cited on main's four
+  surfaces and in the 66 PROVED arcs B1600–B1684; 146 relied upon; 64 verified; **73 relied upon without verification,
+  42 of them untagged at every site**. The largest block is GENESIS §5's frames-by-object table.
+- **Repairs at this review:**
+  - every untagged site in THE_WEAVE, LAW_MAP and THEOREM_REGISTRY now carries "the seat's, unverified" with its
+    harvest row; ten arcs carry dated notes naming what they rely on (B1606, B1609, B1621, B1631, B1633, B1637, B1643,
+    B1650, B1652, and B1658–B1659 for W59's state, completing P-214);
+  - **enforcement:** from arc 1685 on, a seat id named in a verdict's claim line or scope must be declared, in
+    `rests_on_seat` (built on, verified) or in the new `cites_seat` (cited only); failing path tested;
+  - **REPRODUCED** (P-125): the seat's code re-run on main, weaker than VERIFIED; defined in the ledger, applied to
+    eleven rows, accepted by the gate as its definition always was;
+  - GENESIS's sites go through v1.51 after this review's full suite (P-228); the verifications are queued by
+    consequence (P-229): W23 and W24 (the gauge three's grade), W44's c-gauge frame ("13 unreduced in every frame"), the
+    seat's floor, ceiling and Theorem C, GENESIS §5's table, B1652's FAILS cells.
+- **Vocabulary drift (R65-6, P-123).** The topic sweep expands aliases (six groups from the known misses) and names
+  them on its VERDICT line; a sealed file's Seen-first section cites a full-text sweep from arc 1685 on; seven arcs carry
+  late Seen addenda.
+- **Enforcement gaps (R65-8, P-126, P-127).** The strict harvest check skips the four retired seats by their archive
+  tags (a missing tag fails); it leaves the SCHEDULED backlog to its ratchet; `gates.py review-due` now exits with the
+  strict code, so "a review cannot close with unread seat results" is enforced. The relay ledger's duplicate row is
+  removed and the fifteen rows to retired seats are declined with the reason (their asks read later, P-231).
+- **Main's own slips this window, caught before the record:** a smoke-test error in B1684's Epstein route (a Kronecker
+  sum beside it found it); tolerances below the truncation in B1684's first run (kept); a verdict file's free-text
+  reach (the schema test); a seat's relay named as a seat item (B1682, before commit).
+
+## 6. Advancement, errors, provenance
+
+- **Advancement:** LAW_MAP +9 rows, THEOREM_REGISTRY +12 rows; GENESIS v1.49 and v1.50.
+- **Errors:** no new class. The v1.49 grade is an instance of reading an equivalent input as a weaker one (recorded as
+  a correction, B1682, B1683); the W59 reliance is P-124's class, now gated.
+- **Provenance:** 6067 added lines scanned, 0 hits; no vendor or model name in a tracked file.
+- **Vocabulary:** "the common character", "the kept class", "characterise, not derive", "re-bank", "rule before script
+  before run", "REPRODUCED", "the seat's, unverified" and "cites_seat" added to TERMINOLOGY.
+
+### Action items (Review 66)
+- [>] R66-1: the mirror — a replacement host, then push main and mirror the lanes (owner: the owner; carried from R65-1, R64-1, R63-1, R62-1; the carry-age rule asks the owner to decide or waive it now)
+- [>] R66-2: every banked arc hashes its stored output and any post-seal file it cites, with a failing-path test (owner: cc; carried from R65-4, R64-4; due at Review 67)
+- [>] R66-3: adjudicate the chain gap's top entries (owner: cc; carried from R65-5, R64-5; due at Review 67)
+- [>] R66-4: B186's band box dimension re-graded in its own arc (owner: cc; carried from R65-9, R64-10; due at Review 67)
+- [ ] R66-5: GENESIS v1.51 — every untagged reliance in GENESIS tagged, FK11's W45 and W46 read as verified, the κ wording (P-221) — through adoption/amend.py after this review's full suite (owner: cc; P-228)
+- [ ] R66-6: the verifications by consequence: W60 and W62 (P-222), then P-229's list in order (owner: cc)
+- [ ] R66-7: ledger currency (P-230) and the declined relays' asks (P-231) (owner: cc)
+- [x] R66-8: filed at this review: R65-6, R65-7 and R65-8 resolved (§5); the census banked; the premise-audit notes on B1679, B1670 and B1682; P-214 completed (B1658, B1659); eight terms in TERMINOLOGY
+
+**anchor-commit: `a498554e2`**

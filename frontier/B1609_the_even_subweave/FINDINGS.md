@@ -65,3 +65,7 @@ orientation — a reason, in the principle, for one sheet of the orientation dou
 `verification/even_subweave.py` (the repaired instrument; sealed copy in `sealed_run/`), `even_subweave.json`,
 `even_subweave_run.txt`, `controls.json`; `post_seal_78_sectors.py` → `post_seal_78_sectors.json`; `adoption/amend.py`
 (GENESIS v1.30), `received/GENESIS_v1_29_main.md`. Test: `tests/test_b1609_the_even_subweave.py`.
+
+## Addendum (2026-10-21, Review 66; P-124, the reliance census)
+
+> *Tagged 2026-10-21.* Review 66's reliance census found this arc relying on seat results that are not verified on main, and its `rests_on_seat` field does not declare them, so the gate seat-positive-verified could not see them. W30 (row 946) is one of three computations said to meet at GM5c; the verdict does not rest on it. They are the seat's, unverified (harvest rows named); the verifications are queued by consequence (P-229). The cells and numbers are unchanged.

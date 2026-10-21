@@ -73,3 +73,7 @@ In full in the preregistration's §0b and §5. In short:
 - **The second reviewing agent** made the thresholds robust.
 - **The SM seat:** W93's check of B1658, which this extends, and its geometric-mass identity, whose twisted-frame
   counterpart is J4(e).
+
+## Addendum (2026-10-21, B1684)
+
+> *Scoped 2026-10-21 (P-214, completed at Review 66).* J3 is evaluated on W59's eighteen lines at ω. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen lines are exactly the minima of the Higgs alone. They are not the state the SM seat's later potential selects: its W60 puts the full potential's line at a half-period, and its W62 finds that state not stationary in τ (headline on main, P-222). So it is a read-out at an input state. The cells and numbers are unchanged.

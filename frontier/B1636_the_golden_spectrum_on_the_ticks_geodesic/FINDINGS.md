@@ -73,3 +73,8 @@ geodesic; golden-ratio *mixing* (tan θ₁₂ = 1/φ) is a known pattern of A₅
 `verification/golden_on_the_ticks_geodesic.py` (sealed, unchanged) with `golden_on_the_ticks_geodesic.json` and
 `golden_run.txt`; `verification/post_seal_golden.py` with its json and run log; the lock
 `tests/test_b1635_b1636_couplings_and_the_golden_spectrum.py`.
+
+## Seen late (2026-10-21, Review 66; P-123)
+
+> *Seen late.* This arc's sweep, in its own words, missed older arcs on its subject (vocabulary drift; the topic sweep now expands aliases, R65-6). B424 (PROVED: Gate B's Hessian spectrum golden to the last term, with no Standard Model mass ratio within 2%), B8 (NEGATIVE: a golden near-miss killed), B751 (NEGATIVE: a golden identification with α_s not earned) and B752 (NEGATIVE: φ⁻ⁿ hits at base rate) — the record's earlier golden spectra and their negatives.
+> They warn that a golden ratio in a spectrum is not by itself contact with the Standard Model; this arc's grading is read with them. No cell changes.

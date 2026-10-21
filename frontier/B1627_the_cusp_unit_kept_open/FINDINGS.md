@@ -26,3 +26,8 @@ none new.
 
 `adoption/amend.py` (against `received/GENESIS_v1_36_main.md`); harvest rows 1064–1066; `scripts/checks/lead_debt.py`.
 Lock: `verification/test_b1627_the_cusp_unit_kept_open.py`.
+
+## Seen late (2026-10-21, Review 66; P-123)
+
+> *Seen late.* This arc's sweep, in its own words, missed older arcs on its subject (vocabulary drift; the topic sweep now expands aliases, R65-6). B1290 (PROVED, September): net chirality = −χ(∂⁺M), an index formula, and "I-26 becomes a question about the cusp" — the cusp's unit question (FK10, FK11) in older words.
+> It frames the same question this arc keeps open; no cell changes, and the lineage is now linked.

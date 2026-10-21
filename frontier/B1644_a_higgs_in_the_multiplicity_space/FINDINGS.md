@@ -77,3 +77,8 @@ difference. The crash's output is kept (`adjoint_run_crash_before_output.txt`).
 The SM seat's W63 (its rule first, one run; HARVEST_LEDGER row 1117) recomputed this arc's coupling on its own theta
 routines by two routes (contour and duplication, to 10⁻³⁰) and reproduced its numbers. Its one failed clause was the
 square root's branch, which it predicted before the run: W21's continued branch is the one used here. Credit: the SM seat.
+
+## Seen late (2026-10-21, Review 66; P-123)
+
+> *Seen late.* This arc's sweep, in its own words, missed older arcs on its subject (vocabulary drift; the topic sweep now expands aliases, R65-6). B1443 (PROVED: the orbit's coupling tensor, each member coupling to its own Higgs class), B308 (NEGATIVE: the inter-generation Yukawa hierarchy not forced; E₆ fixes the coupling, not the texture) and B632 (PROVED: h¹(M; 27) = 3, a three-slot cohomological generation structure).
+> B308 is the older form of this arc's finding that the coupling's texture is not forced. No cell changes.

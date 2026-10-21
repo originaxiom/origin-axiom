@@ -66,3 +66,7 @@ through the fundamental domain, agreed. Among all 2536 threads (the standard nec
 lowest (√5/2), then LLRR (√2), then √221/10, accumulating at 3/2. L^k R has height √(k² + 4k)/2 exactly. The fraction
 (k+1)/2^k holds to 2.3 × 10⁻⁵ at n = 18, with the analytic reason that runs are geometric. No discrepancy.
 
+## Seen late (2026-10-21, Review 66; P-123)
+
+> *Seen late.* This arc's sweep, in its own words, missed older arcs on its subject (vocabulary drift; the topic sweep now expands aliases, R65-6). B1290 (PROVED, September): net chirality = −χ(∂⁺M), an index formula, and "I-26 becomes a question about the cusp" — the cusp's unit question (FK10, FK11) in older words. And B92 (PROVED): "m = 1 selected only by the systole metric" — the selection by the shortest closed geodesic that this arc finds for the tick LR on the weave, stated for the metallic family.
+> Neither changes a cell; B92 is the earlier statement of the lowest-geodesic selection.

@@ -214,3 +214,7 @@ and every frame on record has a supplied or free link. The gates are the parent 
 ## 8. Files
 
 `verification/main_tribunal_checks.py` and `main_tribunal_checks.json`: V1, lemma A's halves; V2, the lane's count.
+
+## Addendum (2026-10-21, Review 66; P-124, the reliance census)
+
+> *Tagged 2026-10-21.* Review 66's reliance census found this arc relying on seat results that are not verified on main, and its `rests_on_seat` field does not declare them, so the gate seat-positive-verified could not see them. The tribunal's FAILS cells on F2 and F3 rest in part on W74 and W76 (rows 1147, 1149; F2's D7), W81 (row 1157; F3's D5) and W83 (row 1166; F3's D3/D4 dichotomy, its kernel 0 hand-checked here); W55, W56, W23, W47, W48, W65, W72, W73, W27, W70, W75, W80 and W84 support other cells (census Table A). The outcome, 2, is not re-graded here; its FAILS cells that rest only on the four named items are conditional on them until P-229 reaches them. They are the seat's, unverified (harvest rows named); the verifications are queued by consequence (P-229). The cells and numbers are unchanged.

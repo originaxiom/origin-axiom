@@ -868,3 +868,22 @@ theorem ledger and conditional claims in `CLAIMS.md`. Write "UNIQUENESS A6", "P0
   climbs toward one along the family. The family runs into the cusp of the modular surface.
 - **the end radius ℰ** (B1654, B1667): ℰ = log(1/ε) for a disc of radius ε removed at the fibre's puncture (written L
   in the arcs before the paper's draft 4). The fibre's canonical horocycles fix it at order one.
+- **the common character, the common point** (B1677, B1679, B1680): a non-trivial common character, that is, a character of the weave of n records,
+  in a target group, fixed up to conjugation by every move. It exists exactly when n = 2 (in SL(2, ℂ), B1679; in every
+  finite target tested, B1680), and there it is a Heisenberg point (the quaternion point at p = 2).
+- **the kept class** (B1682): a non-trivial conjugacy class of the free group on the records kept by every move. It
+  exists exactly when n = 2, where the kept classes are the powers of [a, b].
+- **characterise, not derive** (B1682, GENESIS v1.50): an input equivalent to an assumption is that assumption in
+  another form. It characterises the assumption; it does not derive it from something weaker. The status stays
+  POSTULATED, "in an equivalent form".
+- **re-bank** (from B1671): main verifies a seat's result on its own bench and banks it under main's arc number, naming
+  the seat's item ("main re-banks W110"). A seat's proof is re-derived by main before it is re-banked. Before that,
+  the result is the seat's.
+- **rule before script before run** (a seat's preregistration order): the rule is committed before the code that reads
+  it, the code before its one run, and the output unread before the record.
+- **REPRODUCED** (Review 66, P-125): a harvest disposition. Main re-ran the seat's own code and got the seat's output.
+  It is weaker than VERIFIED, which needs main's own code or derivation.
+- **the seat's, unverified** (Review 66, P-124): the tag a citation carries when main relies on a seat result that is
+  not VERIFIED or REPRODUCED on main.
+- **cites_seat** (Review 66): a verdict-file field listing the seat items an arc names without building on them (credit,
+  a pointer, a comparison). An item it builds on goes in `rests_on_seat` and must be verified.

@@ -56,3 +56,7 @@ The statement is elementary and may be known. The referee lane was asked for the
   branch at `04407ce39`. The large outputs are identified by sha256 in `LARGE_OUTPUTS_SHA256.txt`.
 - `verification/main_check/`: main's independent search and its run.
 - The lock: `tests/test_b1679_the_common_point_for_every_n_verified.py`.
+
+## Addendum (2026-10-21, Review 66's premise audit)
+
+> *Sharpened 2026-10-21.* The claim line's "two records follows from a non-trivial common character in SL(2, ℂ)" is an implication that runs both ways: for n ≥ 2 such a character exists exactly when n = 2 (this arc's (i) and (ii)), so it characterises GM1 rather than deriving it from a weaker input (B1682; GENESIS v1.50). It also assumes the democratic extension of the moves (every R_ij, or every L_ij) and persistence as fixed up to conjugation. The theorem and the numbers are unchanged.

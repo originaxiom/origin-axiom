@@ -106,3 +106,7 @@ The next crossing waits on one thing, a datum acting on M. It must meet C1–C6.
 
 This FINDINGS; `docs/THE_CROSSINGS_CENSUS_2026-10-13.md` (the same census as a standing page); the lock
 `tests/test_b1643_the_crossings_census.py`.
+
+## Addendum (2026-10-21, Review 66; P-124, the reliance census)
+
+> *Tagged 2026-10-21.* Review 66's reliance census found this arc relying on seat results that are not verified on main, and its `rests_on_seat` field does not declare them, so the gate seat-positive-verified could not see them. W61 (row 1110) and W57 (row 1099) corroborate C6 and the census of contacts. They are the seat's, unverified (harvest rows named); the verifications are queued by consequence (P-229). The cells and numbers are unchanged.

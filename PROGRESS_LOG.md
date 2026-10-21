@@ -17485,3 +17485,17 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **P-214.** Addenda on B1653, B1656, B1660, B1673; Table 1 already prices the state as chosen.
 - **Landing suite.** gates 45 of 45; 190 files (the landing set and the four scoped arcs' locks), 2388 passed, 1 failed, 6 skipped (24:10, -n 8); the one failure is B186's BLAS-dependent lock (R65-9).
 
+## 2026-10-21 — REVIEW 66: RELIANCE MADE VISIBLE (R65-6, R65-7, R65-8 resolved)
+
+- S155 landed at a498554e2. Review 66 due at 21 merges; the carry-age rule required R65-6, R65-7 and R65-8 resolved,
+  declined or waived here.
+- **R65-7.** A read-only census agent read every seat citation on main's four surfaces and the 66 PROVED arcs of
+  B1600–B1684 against the harvest ledger; main spot-checked it. 73 seat items relied upon without verification, 42
+  untagged. Tags placed; the gate extended (declaration from arc 1685); REPRODUCED defined. GENESIS's sites wait for
+  v1.51 (P-228), since GENESIS changes only through adoption/amend.py after a full suite.
+- **R65-6.** The alias table; the full-text rule; tests; late Seen addenda.
+- **R65-8.** Retired seats by tag; the SCHEDULED backlog left to its ratchet; review-due enforced; the relay ledger
+  cleaned (a first wording claimed "nothing is lost" for the declined rows; corrected before commit to "not re-read
+  here", with P-231 to read them).
+- **Full suite.** 7425 passed, 3 failed, 68 skipped (58:05, -n 8): B186, the BLAS-dependent lock (R65-9); the two whole-gate locks (tests/test_repo_gates.py, tests/test_b887_gate_audit.py), on views-fresh alone, which reads the views against the last review anchor and passes once this review's commit lands; both re-run after the commit.
+

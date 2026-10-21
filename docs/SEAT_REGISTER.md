@@ -56,3 +56,23 @@ its hash in the folder. On main: seat `chat1` in `scripts/checks/harvest_debt.py
 `docs/HARVEST_LEDGER.md`, three rows in `docs/RELAY_LEDGER.md`. The branch is on origin only; mirroring it is the seat's
 or the owner's, not main's. Earlier handoffs of this seat reached main through the owner and stay where they were
 archived (`docs/handoffs/chat1_*`).
+
+## 2026-10-21 (Review 66; P-127) — the lanes registered in the harvest gate but not here
+
+Each was already watched by `scripts/checks/harvest_debt.py` and pinned in `docs/HARVEST_LEDGER.md`; this register had no
+row for them. State as of Review 66 (anchor `a498554e2`):
+
+| lane (alias on main) | branch | numbering | what it is | state |
+|---|---|---|---|---|
+| **hypatia** | `<remote>/kind-hypatia-uk0vv9` | none | a one-commit session branch (2026-10-07) pinning B1035's three receipts beside its lock with a manifest | dormant, fully rowed; kept as the receipts' witness |
+| **lp** | `<remote>/project-thread-hctlox` | none | the owner's listening-thread seat (hired 2026-10-07 "for fresh approach"), one commit | dormant, fully rowed |
+| **weavearchive** | `<remote>/weave-physics-archive-2026-10-11` | none (not a seat) | the owner's archive of thirteen earlier weave runs, staged for a check | read; on one remote only; kept until the owner retires it |
+| **referee** | `origin/referee/B1668_the_price_of_the_nineteen` | its own arcs, re-banked under main's numbers (B1670, B1671) | the outside referee's lane, found at Review 65 | pinned at `0c781663`; its landing branch below |
+| **refereeland** | `origin/referee/landing` | — | the referee lane's landing branch | read and integrated (harvest row 1266); not merged |
+
+**The tag `merged/outside-bench@8262c6ed`** marks the commit at which the outside bench's work was taken into main on
+2026-09-15. It is not a retirement: the lane `outside-bench` stays dormant and pinned (above). The tag is kept as written;
+this note is its reading (P-127).
+
+**golden_gate's five dependabot branches** are on a remote main does not write to; their disposition is the owner's
+(waiting since 2026-10-04).

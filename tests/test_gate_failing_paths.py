@@ -203,6 +203,8 @@ def test_seal_provenance_fails_on_a_new_seal_without_the_two_halves(tmp_path):
     (a / "PREREGISTRATION.md").write_text("# sealed\n\n## 1. The claim\n\nno provenance halves here\n")
     bad = gates.seal_provenance_problems(root=str(tmp_path)); assert bad == ["frontier/B99997_x/PREREGISTRATION.md"]
     (a / "PREREGISTRATION.md").write_text("# sealed\n\n## 0. Seen first\n\nswept\n\n## 4. Disclosed\n\nknown before\n")
+    assert gates.seal_provenance_problems(root=str(tmp_path)) == ["frontier/B99997_x/PREREGISTRATION.md (its Seen-first sweep is not full text)"]   # Review 66, R65-6
+    (a / "PREREGISTRATION.md").write_text("# sealed\n\n## 0. Seen first\n\nVERDICT topic-sweep /x/ (full text): swept\n\n## 4. Disclosed\n\nknown before\n")
     assert gates.seal_provenance_problems(root=str(tmp_path)) == []
     (a / "PREREGISTRATION.md").write_text("# sealed\n\nBANKED IDENTITY: x\nPRIOR ART: y\n")
     assert gates.seal_provenance_problems(root=str(tmp_path)) == []
@@ -294,6 +296,11 @@ def test_seat_positive_verified_fails_on_an_undeclared_or_unverified_seat_result
     ok, msg = gates.gate_seat_positive_verified(reader=reader); assert not ok and "B99991" in msg and "sm:B9002" in msg
     mapping["frontier/B99991_b/arc_verdict.json"] = _json.dumps({"id": "B99991", "verdict": "PROVED", "rests_on_seat": ["sm:B9001"]})
     ok, msg = gates.gate_seat_positive_verified(reader=reader); assert ok and "2 declared" in msg
+    # Review 66 (P-125): a REPRODUCED row (the seat's code re-run on main) is accepted, as the gate's definition always was
+    mapping["docs/HARVEST_LEDGER.md"] = ledger.replace("**REGISTERED at headline level**", "**REPRODUCED** (re-run here)")
+    mapping["frontier/B99991_b/arc_verdict.json"] = _json.dumps({"id": "B99991", "verdict": "PROVED", "rests_on_seat": ["sm:B9002"]})
+    ok, msg = gates.gate_seat_positive_verified(reader=reader); assert ok, msg
+    mapping["docs/HARVEST_LEDGER.md"] = ledger
     mapping["frontier/B99991_b/arc_verdict.json"] = _json.dumps({"id": "B99991", "verdict": "PROVED", "rests_on_seat": ["not-an-id"]})
     ok, msg = gates.gate_seat_positive_verified(reader=reader); assert not ok and "not a seat item id" in msg
     assert "seat-positive-verified" in gates.GATES
@@ -306,3 +313,10 @@ def test_seat_positive_verified_fails_on_an_undeclared_or_unverified_seat_result
     for bad_w in ("sm:W8", "sm:W9", "sm:W70"):          # registered only; another seat's row; a different item sharing a prefix
         mapping["frontier/B99991_b/arc_verdict.json"] = _json.dumps({"id": "B99991", "verdict": "PROVED", "rests_on_seat": [bad_w]})
         ok, msg = gates.gate_seat_positive_verified(reader=reader); assert not ok and bad_w in msg, bad_w
+    # Review 66 (R65-7, P-124): a seat id named in a verdict's claim line is declared, or the gate fails (B1656 used W59 undeclared)
+    mapping["frontier/B99991_b/arc_verdict.json"] = _json.dumps({"id": "B99991", "verdict": "PROVED", "rests_on_seat": ["sm:W7"],
+                                                                 "claim_one_line": "on W8's lines and W7's frame"})
+    ok, msg = gates.gate_seat_positive_verified(reader=reader); assert not ok and "B99991 names sm:W8" in msg
+    mapping["frontier/B99991_b/arc_verdict.json"] = _json.dumps({"id": "B99991", "verdict": "PROVED", "rests_on_seat": ["sm:W7"],
+                                                                 "cites_seat": ["sm:W8"], "claim_one_line": "on W8's lines and W7's frame"})
+    ok, msg = gates.gate_seat_positive_verified(reader=reader); assert ok, msg

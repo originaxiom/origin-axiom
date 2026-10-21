@@ -10928,7 +10928,7 @@
     "S85"
    ],
    "obstacle": "gauge_dict",
-   "obstacle_conf": 5,
+   "obstacle_conf": 6,
    "status": "dormant",
    "domain": "arithmetic"
   },
@@ -11273,7 +11273,7 @@
     "P2"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 11,
+   "obstacle_conf": 12,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -11354,13 +11354,14 @@
   "B1627": {
    "slug": "the cusp unit kept open",
    "motifs": [
-    "trace_map"
+    "trace_map",
+    "amphichiral_cp"
    ],
    "refs": [],
    "obstacle": "units_scale",
    "obstacle_conf": 2,
    "status": "banked",
-   "domain": "dynamics"
+   "domain": "topology"
   },
   "B1628": {
    "slug": "the data and the two trimaximal relations",
@@ -11380,11 +11381,14 @@
    "motifs": [
     "measurement",
     "figure_eight",
+    "metallic",
     "golden",
+    "amphichiral_cp",
     "markov_cubic"
    ],
    "refs": [
     "B482",
+    "B92",
     "P2",
     "P3",
     "P4"
@@ -11434,14 +11438,19 @@
     "coupling",
     "figure_eight",
     "trace_map",
+    "metallic",
     "eisenstein",
     "wrt_quantum"
    ],
-   "refs": [],
+   "refs": [
+    "B125",
+    "B239",
+    "B675"
+   ],
    "obstacle": "particle_dict",
    "obstacle_conf": 8,
    "status": "banked",
-   "domain": "physics"
+   "domain": "arithmetic"
   },
   "B1631": {
    "slug": "the cusp unit tagged and the negatives audited",
@@ -11458,6 +11467,7 @@
   "B1632": {
    "slug": "w45 verified on main",
    "motifs": [
+    "amphichiral_cp",
     "wrt_quantum",
     "lorentzian"
    ],
@@ -11465,20 +11475,23 @@
    "obstacle": "measure",
    "obstacle_conf": 1,
    "status": "dead",
-   "domain": "quantum"
+   "domain": "topology"
   },
   "B1633": {
    "slug": "the weaves word coupling",
    "motifs": [
     "closing",
     "coupling",
+    "metallic",
     "z3_generation"
    ],
-   "refs": [],
-   "obstacle": "particle_dict",
-   "obstacle_conf": 7,
+   "refs": [
+    "B415"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 8,
    "status": "banked",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B1634": {
    "slug": "w50 on main",
@@ -11540,10 +11553,14 @@
     "wrt_quantum"
    ],
    "refs": [
+    "B424",
+    "B751",
+    "B752",
+    "B8",
     "B963"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 14,
+   "obstacle_conf": 15,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -11711,15 +11728,18 @@
    "motifs": [
     "choice",
     "coupling",
+    "eisenstein",
     "golden",
     "z3_generation"
    ],
    "refs": [
+    "B308",
+    "B632",
     "S1",
     "S2"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 16,
+   "obstacle_conf": 20,
    "status": "dead",
    "domain": "arithmetic"
   },
@@ -12508,7 +12528,7 @@
     "S148"
    ],
    "obstacle": "cancellation",
-   "obstacle_conf": 4,
+   "obstacle_conf": 6,
    "status": "banked",
    "domain": "topology"
   },

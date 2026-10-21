@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-10-21, REVIEW 66: reliance made visible — a census of every seat result main relies on (185 cited, 146 relied upon, 73 not verified, 42 untagged); the untagged sites tagged "the seat's, unverified" in the living documents and ten arcs; a gate so that from arc 1685 every seat id a verdict names is declared; the REPRODUCED disposition; the topic sweep's alias table and the full-text rule; the enforcement gaps closed (retired seats by their tags; review-due enforced). R65-6, R65-7, R65-8 resolved; GENESIS v1.51 (P-228) and the verifications by consequence (P-229) next. 0 of 19.)**
+
 **LATEST (2026-10-21, S155 P-214 DONE: dated scope addenda on B1653, B1656, B1660 and B1673 — W59's lines at ω are an input state, not the one the SM seat's later potential selects; the paper's Table 1 already prices them as chosen. The owner's question 'what pattern is emerging' answered by main's reading, registered as P-223–P-227: the foundation derives the discrete skeleton of one qubit (two anticommuting records, the Pauli group, Clifford moves — the weave's group modulo its centre is S₄, the one-qubit Clifford group modulo phases, exploratory — three axes, a hand) and nothing that is a magnitude. 0 of 19.)**
 
 **LATEST (2026-10-21, S154 B1684 W59 ON MAIN (PROVED; P-099, P-100 done, first in Q3 at the owner's approval): every computed cell of the SM seat's one-loop potential reproduces on main's own code and the seat's runs reproduce to machine precision; the state it assumes (τ = ω, the Higgs-alone lines) is an input, which the seat's W60 and W62 move — so B1653, B1656, B1660 and B1673 are conditionals on an unselected state (P-214). P-221 (the κ join circular, the SM seat's §168) and P-222 (W60 and W62 on main) registered. 0 of 19.)**
@@ -3252,6 +3254,24 @@ v1.28 — the flavour three (alike, chiral under the weave's own group, one per 
 selection (B1606); and the principle's own tick a → ab, b → a carries one hand and erases the other while every move does
 the reverse, so neither hand is derived on the weave (B1607, GENESIS v1.29). **Derived parameters: 0 of 19.** Next: the
 even subweave, where both hands are global choices (B1609); the review's items R61-1 to R61-5.
+
+## ⟳ VIEW REFRESH — 2026-10-21 (Review 66)
+
+Touched at the Review 66 anchor (`a498554e2`). **The window (B1669–B1684; 22 merges) took the foundations quest to two
+records and made the record's reliance on its seats visible.**
+- **Two records, characterised.** A common point of the weave of n records exists only at n = 2, in SL(2, ℂ) for every n
+  (B1677, B1679) and in every finite target tested, where it is a Heisenberg point (B1680); on words, a kept class exists
+  only at n = 2 (B1682). The common point is equivalent to two records, so GENESIS v1.50 regrades GM1 to POSTULATED in an
+  equivalent form (B1683), walking back v1.49's "derived given one input" — the web seat's read.
+- **W59 on main** (B1684): the one-loop potential's facts verified; the state they assume (τ = ω, the Higgs-alone lines)
+  is an input the seat's later W60 and W62 move, so the arcs built there are conditionals (P-214).
+- **The pattern** (P-223–P-227, readings): the foundation derives the discrete skeleton of one qubit — two anticommuting
+  records, a Pauli point, Clifford moves, three axes, a hand — and no magnitude.
+- **Review 66**: a census of reliance (73 seat results relied upon without verification on main, 42 untagged), the
+  sites tagged, a gate so that every seat id a new verdict names is declared, the REPRODUCED disposition, the topic
+  sweep's aliases, and the enforcement gaps closed. GENESIS v1.51 (P-228) and the verifications by consequence (P-229)
+  are next.
+- **0 of 19.**
 
 ## ⟳ VIEW REFRESH — 2026-10-17 (Review 65)
 

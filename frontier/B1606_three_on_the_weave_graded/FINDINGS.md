@@ -59,3 +59,7 @@ chiral three â€” three, alike, one per parity, chiral under the weave's group â€
 
 `verification/puncture_condition.py` (sealed), `puncture_condition.json`; `adoption/amend.py` (GENESIS v1.28).
 Test: `tests/test_b1606_three_on_the_weave_graded.py`.
+
+## Addendum (2026-10-21, Review 66; P-124, the reliance census)
+
+> *Tagged 2026-10-21.* Review 66's reliance census found this arc relying on seat results that are not verified on main, and its `rests_on_seat` field does not declare them, so the gate seat-positive-verified could not see them. W23 (row 937) and W24 (row 939) carry the grade's UNEARNED and NEGATIVES clauses ("the gauge three is a selection"); P-156 holds their verification. They are the seat's, unverified (harvest rows named); the verifications are queued by consequence (P-229). The cells and numbers are unchanged.

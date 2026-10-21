@@ -150,3 +150,7 @@ row; shifts of 0.02); the plumbing residual is mostly Huang–Zhou's 5→6-flavo
 `verification/before_the_seal/` (the draft, its run, the smoke test); `verification/after_the_seal/alpha_s_0p1180.py`
 (labelled post-seal check, with its outputs); the lock `tests/test_b1670_the_price_of_the_nineteen.py`; the readers'
 page `docs/THE_PRICE_OF_THE_NINETEEN.md`.
+
+## Addendum (2026-10-21, Review 66's premise audit)
+
+> *Scoped 2026-10-21.* The claim line's last sentence, "the comparison class for any claim about the nineteen: a structure without dynamics buys zero rows", is a reading of this census, not a theorem: in the ledger priced here no framework without dynamics bought a row. The web seat's map (P-220) says the price of 13 undercounts the route the paper uses; that is checked when its map is committed. The ledger and its numbers are unchanged.

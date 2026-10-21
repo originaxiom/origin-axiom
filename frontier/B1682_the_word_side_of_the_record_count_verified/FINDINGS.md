@@ -103,3 +103,7 @@ prime and not the extension gives two records on that route. Main's argument say
   `a1d41bf56`; `SHA256_RECEIVED.txt` holds their hashes.
 - `verification/main_check/`: main's own check, its run and its output.
 - The lock: `tests/test_b1682_the_word_side_of_the_record_count_verified.py`.
+
+## Addendum (2026-10-21, the SM seat's relay §168; P-221)
+
+> *Sharpened 2026-10-21.* "At n = 2 the classes kept by the record's R and L are the powers of [a, b], whose trace is PF1's κ": joined through κ, the link to PF1 is circular, since PF1's formal face is written for the two letters (the SM seat's point). What this arc shows without circularity is a statement about the moves: they keep the commutator class at n = 2 and nothing at n ≥ 3. A join to PF1 needs PF1's rank-free reading. GENESIS v1.50's "tied to PF1's commutator, without deriving either" is read the same way; its wording goes with v1.51 (P-228). The theorem is unchanged.

@@ -67,3 +67,8 @@ lines.
 
 `verification/weave_at_i.py` (sealed, unchanged), `weave_at_i.json`, `sealed_run/`; `post_seal_generic.py` and its outputs.
 Test: `tests/test_b1630_the_ticks_point.py`.
+
+## Seen late (2026-10-21, Review 66; P-123)
+
+> *Seen late.* This arc's sweep, in its own words, missed older arcs on its subject (vocabulary drift; the topic sweep now expands aliases, R65-6). B125 (arithmeticity selects m = 1, ℚ(√−3), and m = 2, ℚ(i)), B239 (the only imaginary quadratic trace fields are ℚ(i) and ℚ(√−3)) and B675 (the silver cusp lattice is defined over ℚ(i)) — the point i's arithmetic, the silver thread.
+> The tick's point i is the ℚ(i) point of those arcs; no cell changes.

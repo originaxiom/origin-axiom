@@ -938,6 +938,9 @@ SEAL_PROVENANCE_BASELINE = frozenset((
 # R59-2 (B1468, 2026-10-04): six of the 41 state both halves in other words -- attested with verified quotes in
 # tests/SEAL_PROVENANCE_ATTESTATIONS.json (B1019, B1033, B1036, B1066, B1071, B1442) and removed from the baseline (35 left).
 SEAL_PROVENANCE_ATTESTATIONS = "tests/SEAL_PROVENANCE_ATTESTATIONS.json"
+# Review 66 (R65-6, P-123): vocabulary drift defeats a claim-line sweep, so from this arc on a sealed file's 'Seen first'
+# section cites a full-text sweep (topic_sweep.py --full prints "full text" on its VERDICT line; the aliases are on by default)
+FULL_SWEEP_FROM_ARC = 1685
 
 
 def seal_attestations(root=None):
@@ -967,6 +970,10 @@ def seal_provenance_problems(root=None, baseline=SEAL_PROVENANCE_BASELINE):
         txt = open(os.path.join(root, rel), errors="replace").read()
         markers = "BANKED IDENTITY:" in txt and "PRIOR ART:" in txt
         sections = arc >= SEEN_FIRST_FROM_ARC and re.search(r"(?m)^##[^\n]*Seen first", txt) and re.search(r"(?m)^##[^\n]*Disclosed", txt)
+        if sections and arc >= FULL_SWEEP_FROM_ARC:
+            seen = re.search(r"(?ms)^##[^\n]*Seen first[^\n]*\n(.*?)(?=^## |\Z)", txt)
+            if not (seen and "full text" in seen.group(1).lower()):
+                bad.append(rel + " (its Seen-first sweep is not full text)"); continue
         if markers or sections: continue
         if "B%d" % arc in baseline: continue
         att = seal_attestations(root).get("B%d" % arc)
@@ -1624,11 +1631,38 @@ def seat_positive_rests(reader=None):
                 def _is_row(l, w=w):
                     cells = [c.strip() for c in l.split("|")]
                     return len(cells) > 3 and cells[2] == "SM-derivation seat" and re.match(r"^" + re.escape(w) + r"(?![0-9])", cells[3])
-                verified = any(_is_row(l) and "**VERIFIED" in l for l in rows)
+                verified = any(_is_row(l) and ("**VERIFIED" in l or "**REPRODUCED" in l) for l in rows)   # REPRODUCED: Review 66, P-125
             else:
                 pat = re.compile(r"(?<![A-Za-z0-9:])" + re.escape(sid) + r"(?![0-9])")
-                verified = any(pat.search(l) and "**VERIFIED" in l for l in rows)
+                verified = any(pat.search(l) and ("**VERIFIED" in l or "**REPRODUCED" in l) for l in rows)
             out.append((d.get("id", "?"), sid, verified, "ok" if verified else "no VERIFIED row in docs/HARVEST_LEDGER.md"))
+    return out
+
+
+# Review 66 (R65-7, P-124): declaring was manual, and a sealed arc used W59 undeclared (B1656). From this arc on every
+# seat id named in a verdict's claim line or scope is declared: in `rests_on_seat` (built on; must be VERIFIED) or in
+# `cites_seat` (cited only: credit, a pointer, a comparison, an open question)
+SEAT_DECLARED_FROM_ARC = 1685
+_SEAT_MENTION_RE = re.compile(r"(?<![A-Za-z0-9:])(sm:B\d{4}|xB\d{3}|LP\d{2}|W\d{1,3})(?![0-9])")
+
+
+def seat_undeclared(reader=None, start=SEAT_DECLARED_FROM_ARC):
+    """(arc id, seat id) for every seat id named in a verdict's claim line or scope but in neither `rests_on_seat` nor
+    `cites_seat`, for arcs numbered `start` and above; a bare W<n> is the SM seat's dossier item sm:W<n>"""
+    reader = reader or (lambda rel: _read(rel)); out = []
+    for p in sorted(glob.glob(os.path.join(ROOT, "frontier", "B*", "arc_verdict.json"))):
+        m = re.match(r"B(\d+)_", os.path.basename(os.path.dirname(p)))
+        if not m or int(m.group(1)) < start: continue
+        try:
+            d = json.loads(reader(os.path.relpath(p, ROOT)))
+        except Exception:
+            continue
+        text = (d.get("claim_one_line") or "") + " " + json.dumps(d.get("scope") or {}, ensure_ascii=False)
+        declared = {str(x) for x in (d.get("rests_on_seat") or []) + (d.get("cites_seat") or [])}
+        for sid in sorted(set(_SEAT_MENTION_RE.findall(text))):
+            full = "sm:" + sid if sid.startswith("W") else sid
+            if full not in declared and sid not in declared:
+                out.append((d.get("id", "?"), full))
     return out
 
 
@@ -1641,7 +1675,10 @@ def gate_seat_positive_verified(reader=None):
     bad = [r for r in rests if not r[2]]
     if bad:
         return False, "%d arc(s) rest on a seat item without a VERIFIED row: " % len(bad) + "; ".join("%s rests on %s (%s)" % (a, s, why) for a, s, _, why in bad[:6])
-    return True, "ok (%d declared seat dependencies, all VERIFIED on main)" % len(rests)
+    und = seat_undeclared(reader)
+    if und:
+        return False, "%d seat id(s) named in a verdict but declared in neither rests_on_seat nor cites_seat: " % len(und) + "; ".join("%s names %s" % u for u in und[:6])
+    return True, "ok (%d declared seat dependencies, all VERIFIED or REPRODUCED on main)" % len(rests)
 
 
 GATES = {
@@ -1713,7 +1750,8 @@ if __name__ == "__main__":
         r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "harvest_debt.py"), "--strict"],
                            capture_output=True, text=True, timeout=300)
         print((r.stdout + r.stderr).rstrip())
-        sys.exit(0)
+        # Review 66 (R65-8, P-126): the rule "a review cannot close with unread seat results" is enforced, not advisory
+        sys.exit(r.returncode)
     res = run_all()
     worst = 0
     for name, (ok, detail) in res.items():

@@ -1,5 +1,31 @@
 # Changelog
 
+## REVIEW 66 (2026-10-21): RELIANCE MADE VISIBLE; R65-6, R65-7 AND R65-8 RESOLVED
+
+- **The window** (`c370ff37c..a498554e2`, 22 merges, B1669–B1684): the owner's separate work verified; the foundations
+  quest (B1676–B1683: two records characterised, the common point a Heisenberg point); W59 on main (B1684); the pattern
+  registered (P-223–P-227). Review text: `docs/progress/REVIEWS.md`, Review 66.
+- **The headline: a census of reliance** (`docs/progress/REVIEW_66_RELIANCE_CENSUS.md`, R65-7, P-124). Of 185 seat items
+  cited on GENESIS, THE_WEAVE, LAW_MAP, THEOREM_REGISTRY and the 66 PROVED arcs B1600–B1684, 146 are relied upon and 73
+  of those are not verified on main; 42 were untagged at every site. The W59 case (B1656) was one of them: undeclared in
+  `rests_on_seat`, so the gate never saw it.
+- **Repairs:**
+  - "the seat's, unverified" with its harvest row at every untagged site in THE_WEAVE, LAW_MAP and THEOREM_REGISTRY;
+    dated notes on B1606, B1609, B1621, B1631, B1633, B1637, B1643, B1650, B1652; P-214 completed on B1658 and B1659;
+  - the gate seat-positive-verified: from arc 1685 every seat id named in a verdict's claim line or scope is declared,
+    in `rests_on_seat` (built on, verified) or the new `cites_seat` (cited only); failing path tested;
+  - REPRODUCED (P-125): the seat's code re-run on main, weaker than VERIFIED; defined in the ledger, eleven rows renamed;
+  - the topic sweep's alias table (R65-6, P-123): six groups from the known misses, named on the VERDICT line; a
+    sealed file's Seen-first section cites a full-text sweep from arc 1685 on; late Seen addenda on seven arcs;
+  - the enforcement gaps (R65-8, P-126, P-127): the four retired seats skipped by their archive tags; --strict leaves
+    the SCHEDULED backlog to its ratchet; `review-due` exits with the strict code; the relay ledger's duplicate removed
+    and fifteen rows to retired seats declined with the reason; the seat register names every lane.
+- **The sample's premise audit:** dated notes on B1679 ("follows from" runs both ways), B1682 (the κ join circular,
+  P-221) and B1670 (a universal sentence read as the census's).
+- **Queued:** GENESIS v1.51 (P-228) after this review's full suite; the verifications by consequence (P-229); ledger
+  currency (P-230); the declined relays' asks (P-231). R65-1 (the mirror) is the owner's to decide or waive. FLOOR 231.
+- **Full suite.** 7425 passed, 3 failed, 68 skipped (58:05, -n 8): B186, the BLAS-dependent lock (R65-9); the two whole-gate locks (tests/test_repo_gates.py, tests/test_b887_gate_audit.py), on views-fresh alone, which reads the views against the last review anchor and passes once this review's commit lands; both re-run after the commit.
+
 ## S155 P-214 DONE (the arcs on W59's lines scoped) AND THE PATTERN, REGISTERED (P-223 to P-227)
 
 - **P-214.** Dated addenda (B1684) on the four arcs that use W59's lines at τ = ω:

@@ -77,3 +77,7 @@ scripts were run from their own directories:
 
 `verification/main_recheck.py` and `main_recheck.json`; `verification/reproduction_record.json`; the lock
 `verification/test_b1650_chat1s_field_notes_verified.py`. chat1's own files stay on its lane, pinned at `4636b0fa4`.
+
+## Addendum (2026-10-21, Review 66; P-124, the reliance census)
+
+> *Tagged 2026-10-21.* Review 66's reliance census found this arc relying on seat results that are not verified on main, and its `rests_on_seat` field does not declare them, so the gate seat-positive-verified could not see them. W70's script (row 1131) reproduced the condensate's E₈ claims; an independent derivation is owed, as the arc says. They are the seat's, unverified (harvest rows named); the verifications are queued by consequence (P-229). The cells and numbers are unchanged.

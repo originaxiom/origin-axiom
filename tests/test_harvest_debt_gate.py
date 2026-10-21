@@ -1,7 +1,8 @@
 """B1307 lock -- the harvest-debt gate: (1) the synthetic two-sided controls (planted NEW item reported, harvested one not,
 planted missing index id in BACKLOG, planted stale row flagged, ageing at 21 days) run live; (2) the relay grammar sees every
 lane; (3) the pins table parses and names every branch seat; (4) a live run on this tree returns 0 or 2 (never an integrity
-failure) and reports every seat; (5) the gate is registered in the runner and `review-due` prints the strict debt."""
+failure) and reports every seat; (5) the gate is registered in the runner and `review-due` prints the strict debt and, from Review 66, exits with it; (6) a
+retired seat is skipped only with its archive tag."""
 import importlib.util
 import json
 import os
@@ -76,4 +77,21 @@ def test_registered_in_the_runner_and_in_review_due():
     import gates  # noqa: E402
     assert "harvest-debt" in gates.GATES
     src = (ROOT / "scripts" / "gates" / "gates.py").read_text(encoding="utf-8")
-    assert "--strict" in src.split('sys.argv[1] == "review-due"')[1].split("sys.exit(0)")[0]
+    block = src.split('sys.argv[1] == "review-due"')[1].split("res = run_all()")[0]
+    assert "--strict" in block and "sys.exit(r.returncode)" in block and "sys.exit(0)" not in block   # Review 66 (R65-8): enforced
+
+
+def test_a_retired_seat_needs_its_tag(monkeypatch):
+    """Review 66 (R65-8, P-126): a retired seat is skipped when its archive tag exists, and is an integrity failure when
+    the tag is missing (the failing path); the four retired seats carry their tags."""
+    m = _mod()
+    retired = {s["key"]: s.get("retired") for s in m.SEATS if s.get("retired")}
+    assert set(retired) == {"codex", "cc3", "braver", "qor5up"} and all(t.startswith("archive/") for t in retired.values())
+    rep = m.run(strict=True)
+    assert all(rep["seats"][k]["skipped"].startswith("retired (tag ") for k in retired)
+    fake = [dict(s) for s in m.SEATS]
+    for s in fake:
+        if s["key"] == "codex": s["retired"] = "archive/no-such-tag@00000000"
+    monkeypatch.setattr(m, "SEATS", fake)
+    rep = m.run(strict=True)
+    assert any("codex: retired, but its tag archive/no-such-tag@00000000 is missing" in x for x in rep["integrity"])

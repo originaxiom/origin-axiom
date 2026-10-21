@@ -65,17 +65,17 @@ SEATS = [
     # R01-R72 harvested (R72 rows 1-3 VERIFIED). Kept as a comment so the key's history can be followed.
     # dict(key="fc", label="physics seat (fc)", branch="physics-seat-evaluation-8dkbrl", ...),
     dict(key="codex", label="codex seat", branch="seat-r001",
-         remotes=("origin", "codeberg"), cell=("codex",)),
+         remotes=("origin", "codeberg"), cell=("codex",), retired="archive/codex-seat-r001@f7a49536"),
     dict(key="cc3", label="cc3 (paper seat)", branch="structure-genesis-first",
-         remotes=("origin", "codeberg"), cell=("cc3",), cell_not=("braver",)),
+         remotes=("origin", "codeberg"), cell=("cc3",), cell_not=("braver",), retired="archive/cc3-paper-lane@a31456d2"),
     dict(key="hostile", label="hostile-review seat", branch="paper-hostile-review-alero0",
          remotes=("golden_gate",), cell=("hostile",)),
     dict(key="cloud", label="cloud seat", branch="outside-bench",
          remotes=("origin", "codeberg"), cell=("cloud",)),
     dict(key="braver", label="cc3 (braver-questions branch)", branch="b775-braver-questions",
-         remotes=("origin", "codeberg"), cell=("braver",)),
+         remotes=("origin", "codeberg"), cell=("braver",), retired="archive/braver-questions@53da05f6"),
     dict(key="qor5up", label="consolidation seat (qor5up)", branch="new-session-qor5up",
-         remotes=("origin", "codeberg"), cell=("qor5up", "consolidation")),
+         remotes=("origin", "codeberg"), cell=("qor5up", "consolidation"), retired="archive/qor5up@3851df2a"),
     dict(key="audit", label="audit seat", branch="physical-bridge-2026-09-05",
          remotes=("origin", "codeberg"), cell=("audit seat", "audit:")),
     # ADDED 2026-09-18 (B1425). This lane carried 60 commits and 24 xB-numbered arcs, with sealed
@@ -594,6 +594,14 @@ def run(fetch=False, strict=False):
             s["skipped"] = f"remote {canon} not configured here"
             totals["skipped"] += 1
             continue
+        if seat.get("retired"):                  # Review 66 (R65-8, P-126): retired 2026-09-15, its branch deleted, its tag kept
+            if _rev("refs/tags/" + seat["retired"]):
+                s["skipped"] = f"retired (tag {seat['retired']}; its rows stay in the ledger-wide SCHEDULED count)"
+            else:
+                s["skipped"] = f"retired, but its tag {seat['retired']} is missing"
+                report["integrity"].append(f"{k}: {s['skipped']}")
+            totals["skipped"] += 1
+            continue
         ref = _resolve_branch(canon, seat["branch"])
         head = _rev(ref) if ref else None
         if not head:
@@ -726,8 +734,10 @@ def main():
     if grown:
         print(f"  harvest-debt: SCHEDULED ratchet BROKEN — ledger-wide {rep['ledger_scheduled_total']} > baseline "
               f"{SCHEDULED_BASELINE}. The backlog may shrink; it may not grow silently (L224).")
+    # Review 66 (R65-8, P-126): the SCHEDULED backlog is governed by its ratchet (it may shrink, never grow), not by
+    # --strict, or no review could ever close; --strict fails on everything else, and on a broken ratchet
     if a.strict and (t["new_unrowed"] or t["backlog"] or t["stale_rows"] or t["relays_unrowed"]
-                     or t.get("scheduled_rows") or grown):
+                     or rep["integrity"] or grown):
         print(f"  harvest-debt --strict: DEBT OPEN — a review cannot close with unread seat results")
         return 1
     if grown:

@@ -107,9 +107,9 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   and ±3 with the parity grading.
 - **The grade (THE_BAR):** DERIVED on the weave — three, alike, chiral under the weave's own group, one per parity: the
   flavour structure of three generations. READINGS — the triplet as the generations (FK14); holomorphic zero modes as
-  the left-handed matter (FK11). UNEARNED — which fields carry 𝕎 (W24's D4: the Lagrangian half is the frame choice);
+  the left-handed matter (FK11). UNEARNED — which fields carry 𝕎 (W24's D4: the Lagrangian half is the frame choice [the seat's, unverified: W24, harvest row 939, P-156; Review 66]);
   gauge chirality. NEGATIVES — no index on a thread (B1604: no twisted Euler characteristic and not the class index; B1655); the E₈ frames on the fibre give at most two complete
-  generations (W23); no forced six-dimensional object gives three by the heterotic dictionary (W24). **"Did we derive
+  generations (W23 [the seat's, unverified: row 937; Review 66]); no forced six-dimensional object gives three by the heterotic dictionary (W24 [the seat's, unverified: row 939; Review 66]). **"Did we derive
   three generations?" — no: the flavour three is derived, the gauge three is a selection.**
 
 ## Main's addition: the principle's tick and the two hands (B1607, 2026-10-08; GENESIS v1.29; `frontier/B1607_the_principles_tick_at_the_common_point/`)
@@ -147,7 +147,7 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   three are exclusive on the weave's surface; the McKay orientation is not the three's hand.**
 - On Γ the puncture keeps an odd index (2T: the spinor and its two ω-twists, the deck exchanging the twists; ±3 with the
   grading) and W21's form is kept: the three's hand is **the records' orientation** — the bit the seat's W30 finds
-  carrying the qutrit flux class. B1607, W30 and B1609 meet at **GM5c**: is the swap a move?
+  carrying the qutrit flux class [the seat's, unverified: W30, row 946; Review 66]. B1607, W30 and B1609 meet at **GM5c**: is the swap a move?
 
 ## Main's addition: the hands on the founding torsor (B1610, 2026-10-08; GENESIS v1.31; NEGATIVE as sealed)
 
@@ -259,8 +259,8 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
 - **TM1 is allowed under T̄ ⊗ T only.** Under T ⊗ T the trimaximal family is TM2 (second column ⅓, ⅓, ⅓;
   sin²θ₁₂ = 1/(3 cos²θ₁₃)), as B1620's own stored fits show. Under Sym² T neither is allowed. P10 (TM1) applies under
   T̄ ⊗ T, so it tests Λ, a frame and a Higgs content together. B1620 had written "TM1 under T̄ ⊗ T and T ⊗ T".
-- **The frame is named:** B1620's is "all of the weave's group is flavour". Where c is gauge (the SM seat's W44), TM1
-  and TM2 return under T̄ ⊗ T and T ⊗ T, and Sym² T allows one lepton relation. In W24's frame nothing is constrained.
+- **The frame is named:** B1620's is "all of the weave's group is flavour". Where c is gauge (the SM seat's W44 [the seat's, unverified: its c-gauge frame, row 1061, P-053; Review 66]), TM1
+  and TM2 return under T̄ ⊗ T and T ⊗ T, and Sym² T allows one lepton relation. In W24's frame nothing is constrained [the seat's, unverified: row 939; Review 66].
   **The 13 are unreduced in every frame on record** *(scoped 2026-10-13, B1640: in every frame where the inner
   automorphisms act; on the ruled branch the count is B1635's, a lower bound under the modular-flavour ansatz, and the
   TM1 reading's residual pair cannot come from one τ)*.
@@ -306,7 +306,7 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
 
 ## Main's addition: the weave's word coupling (B1633, PROVED)
 
-- A thread's own H¹ reads the rule's word and breaks the parity grading (the SM seat's W42). **Averaged over all threads
+- A thread's own H¹ reads the rule's word and breaks the parity grading (the SM seat's W42 [the seat's, unverified: its thread-H¹ census, row 1058; Review 66]). **Averaged over all threads
   with the weave's uniform measure it is a scalar on the three generations**, up to corrections exponentially small in
   the thread length (2.4 × 10⁻⁶ at length 40). Odd-length threads carry no zero modes; even ones carry 5/12 on average.
 - So the word reaches masses and mixing only through a choice of thread, a selection. Every datum the principle forces
@@ -322,7 +322,7 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
 - **On the ruled branch the modulus breaks the weave's group.** The residual on T is four scalars at a generic τ, cyclic of
   order 8 at i (a plane containing the clock's line, a line in the letter lines' span) and cyclic of order 12 at ω (three
   lines, each of weight ⅓ on every parity line). Couplings in τ alone are vector-valued modular forms; the flavour numbers
-  are their values at τ, which nothing forces (the seat's W51: the weave's joint determinant is flat).
+  are their values at τ, which nothing forces (the seat's W51: the weave's joint determinant is flat [the seat's, unverified: row 1075; the flatness is Jacobi's identity; Review 66]).
 - **The weave's lifts are the theta constants.** The move matrices are a genuine representation of Mp2(ℤ), exactly the
   multiplier of η²¹·(θ₂², θ₃², θ₄²): θ₃² on the clock's line, θ₂² and θ₄² on the letter lines. B1632's "only projective" was
   a sign in main's lift helper. χ_{3/2} = 0 by the formula and by an independent count, so the cusp's unit gives ±3 given
@@ -465,7 +465,7 @@ found with B1635's sealed instrument.
   weight, fits at χ² 1.86 near Im τ 6.8. Both searches are local; the union of their minima is the record's best.
   **[Withdrawn 2026-10-14, the SM seat's W78 and W79, confirmed on main]** That refutation, and the masses-only 20.6,
   are most likely numerical artifacts: B1635's forms lose precision like |η|⁻¹⁸ near the cusp (good to ~10⁻³ at Im τ 6.8).
-  W54's sentence and W53's 163 stand; the headline holds (25 parameters in the reliable region); re-run owed (P-144).
+  W54's sentence and W53's 163 stand [the seat's, unverified: rows 1091, 1084; Review 66]; the headline holds (25 parameters in the reliable region); re-run owed (P-144).
 
 ## Main's addition: where a Higgs can couple (B1651, PROVED) — Step 4 answered: the puncture is not forced
 
@@ -521,7 +521,7 @@ found with B1635's sealed instrument.
   - F1, the fibre at one τ: its hierarchy needs free numbers, and its D1 needs a vacuum that no run dynamics selects.
   - F2, the surface: it needs an outside source for the three, forbids CP violation and has no hypercharge.
   - F3, the audit lane's E₈ frame: the moves act only through a supplied completion that, on its flat background, loses
-    the weak roots and Y; its index is not computed. By the SM seat's W83, Y survives only if the family index is not
+    the weak roots and Y; its index is not computed. By the SM seat's W83 [the seat's, unverified: row 1166; Review 66], Y survives only if the family index is not
     the weave's three.
   - F5, chat1's thread frame: τ's role and the normalisation are fixed within a vacuum, but the vacuum is weighed, not
     selected, at c = 6, and no CP sign can be chosen.
