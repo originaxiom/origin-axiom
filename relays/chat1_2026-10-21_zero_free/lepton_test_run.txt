@@ -1,0 +1,389 @@
+[     0.3s] launch fresh
+[     0.5s] stage Q
+[  1208.6s] assignment 13 11 kept; 9 distinct tau*; best 9.824257435619671e-22
+[  1220.8s] assignment 11 18 kept; 16 distinct tau*; best 4.564885743781783e-22
+[  2260.2s] assignment 14 12 kept; 11 distinct tau*; best 6.833342722995209e-20
+[  2262.4s] pairs [('T(x)T k=5 | sym T(x)T k=1', 2, 4), ('T(x)T k=5 | sym T(x)T k=5', 3, 3), ('mixed (Q in T) k=4 | sym T(x)T k=1', 2, 4), ('mixed (Q in T) k=4 | sym T(x)T k=5', 3, 3), ('Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3', 3, 3), ('Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7', 4, 2), ('Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3', 5, 1), ('Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7', 6, 0), ('mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3', 3, 3), ('mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7', 4, 2)]
+[  2262.4s] L0
+[  2269.7s] L0 2.7786675591415784e-28
+[  2269.7s] stage L
+[  2269.7s] jobs 360 pending 360
+[  2324.9s] tau* 0 (11) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 457.096 -
+[  2347.7s] tau* 0 (11) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 82.869 -
+[  2383.1s] tau* 0 (11) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 446.71 -
+[  2399.4s] tau* 0 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 382.462 -
+[  2424.8s] tau* 0 (11) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 57.969 -
+[  2454.9s] tau* 0 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 21.902 -
+[  2484.5s] tau* 0 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 23.233 -
+[  2529.2s] tau* 0 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 237.673 -
+[  2535.6s] tau* 0 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 22.886 -
+[  2580.5s] tau* 1 (11) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 913.666 -
+[  2598.4s] tau* 0 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 35.95 -
+[  2648.6s] tau* 1 (11) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 891.456 -
+[  2654.6s] tau* 1 (11) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 162.301 -
+[  2675.0s] tau* 1 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 616.008 -
+[  2718.5s] tau* 1 (11) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 102.152 -
+[  2727.6s] tau* 1 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 47.254 -
+[  2777.0s] tau* 1 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 157.191 -
+[  2803.8s] tau* 1 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.0 compat
+[  2814.5s] tau* 1 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 176.229 -
+[  2866.0s] tau* 2 (11) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 460.027 -
+[  2868.7s] tau* 1 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 9.75 -
+[  2926.2s] tau* 2 (11) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 450.124 -
+[  2940.1s] tau* 2 (11) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 85.709 -
+[  2960.0s] tau* 2 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 385.232 -
+[  2997.9s] tau* 2 (11) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 59.397 -
+[  3006.0s] tau* 2 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 18.99 -
+[  3058.8s] tau* 2 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 35.616 -
+[  3085.8s] tau* 2 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.0 compat
+[  3105.2s] tau* 2 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 237.024 -
+[  3159.8s] tau* 3 (11) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 476.754 -
+[  3165.7s] tau* 2 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 39.595 -
+[  3217.5s] tau* 3 (11) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 461.888 -
+[  3230.5s] tau* 3 (11) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 101.375 -
+[  3248.2s] tau* 3 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 398.035 -
+[  3290.7s] tau* 3 (11) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 106.049 -
+[  3296.9s] tau* 3 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 23.588 -
+[  3348.7s] tau* 3 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 6.893 -
+[  3377.9s] tau* 3 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 20.62 -
+[  3391.3s] tau* 3 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 231.072 -
+[  3450.6s] tau* 3 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 52.06 -
+[  3453.3s] tau* 4 (11) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 240.249 -
+[  3505.0s] tau* 4 (11) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 221.659 -
+[  3528.4s] tau* 4 (11) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 78.047 -
+[  3547.2s] tau* 4 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 183.523 -
+[  3573.4s] tau* 4 (11) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 41.613 -
+[  3599.0s] tau* 4 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 33.782 -
+[  3632.7s] tau* 4 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 7.737 -
+[  3670.6s] tau* 4 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 63.234 -
+[  3678.5s] tau* 4 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 8.614 -
+[  3732.3s] tau* 5 (11) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 618.306 -
+[  3746.2s] tau* 4 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 26.055 -
+[  3798.8s] tau* 5 (11) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 612.482 -
+[  3807.0s] tau* 5 (11) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 91.586 -
+[  3822.2s] tau* 5 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 521.347 -
+[  3865.2s] tau* 5 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 13.468 -
+[  3873.7s] tau* 5 (11) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 12.354 -
+[  3923.3s] tau* 5 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 25.491 -
+[  3949.7s] tau* 5 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.0 compat
+[  3966.0s] tau* 5 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 60.964 -
+[  4019.5s] tau* 6 (11) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 241.933 -
+[  4022.6s] tau* 5 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 9.364 -
+[  4071.7s] tau* 6 (11) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 223.389 -
+[  4095.7s] tau* 6 (11) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 62.548 -
+[  4112.1s] tau* 6 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 175.583 -
+[  4142.0s] tau* 6 (11) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 50.927 -
+[  4172.8s] tau* 6 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 41.536 -
+[  4196.8s] tau* 6 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 8.012 -
+[  4238.5s] tau* 6 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 63.83 -
+[  4252.3s] tau* 6 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 6.33 -
+[  4301.6s] tau* 7 (11) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 295.956 -
+[  4308.5s] tau* 6 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 12.816 -
+[  4345.8s] tau* 7 (11) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 296.134 -
+[  4379.2s] tau* 7 (11) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 185.992 -
+[  4406.9s] tau* 7 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 528.026 -
+[  4415.0s] tau* 7 (11) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 169.834 -
+[  4443.3s] tau* 7 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 30.413 -
+[  4471.7s] tau* 7 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 76.327 -
+[  4515.5s] tau* 7 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 325.484 -
+[  4519.3s] tau* 7 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 1.496 compat
+[  4572.0s] tau* 8 (11) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 489.708 -
+[  4577.8s] tau* 7 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 30.816 -
+[  4627.3s] tau* 8 (11) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 486.763 -
+[  4646.5s] tau* 8 (11) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 115.44 -
+[  4662.8s] tau* 8 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 446.409 -
+[  4703.1s] tau* 8 (11) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 84.973 -
+[  4709.8s] tau* 8 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 17.501 -
+[  4757.9s] tau* 8 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 35.463 -
+[  4784.8s] tau* 8 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.0 compat
+[  4798.0s] tau* 8 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 204.729 -
+[  4848.3s] tau* 9 (11) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 525.283 -
+[  4853.1s] tau* 8 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 40.837 -
+[  4897.4s] tau* 9 (11) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 522.576 -
+[  4921.4s] tau* 9 (11) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 92.021 -
+[  4939.2s] tau* 9 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 444.597 -
+[  4962.8s] tau* 9 (11) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 51.812 -
+[  4986.3s] tau* 9 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 23.802 -
+[  5016.5s] tau* 9 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 34.037 -
+[  5061.9s] tau* 9 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 163.291 -
+[  5063.3s] tau* 9 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.0 compat
+[  5109.4s] tau* 10 (11) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 481.84 -
+[  5132.7s] tau* 9 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 36.434 -
+[  5180.5s] tau* 10 (11) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 94.509 -
+[  5184.6s] tau* 10 (11) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 488.597 -
+[  5208.3s] tau* 10 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 402.23 -
+[  5268.7s] tau* 10 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 28.949 -
+[  5271.4s] tau* 10 (11) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 44.806 -
+[  5328.5s] tau* 10 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 34.961 -
+[  5351.6s] tau* 10 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.22 compat
+[  5369.6s] tau* 10 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 254.193 -
+[  5426.0s] tau* 10 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 41.355 -
+[  5426.7s] tau* 11 (11) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 273.598 -
+[  5464.9s] tau* 11 (11) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 272.858 -
+[  5504.0s] tau* 11 (11) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 320.228 -
+[  5528.4s] tau* 11 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 533.409 -
+[  5538.1s] tau* 11 (11) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 82.64 -
+[  5568.9s] tau* 11 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 182.859 -
+[  5593.6s] tau* 11 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 67.223 -
+[  5631.4s] tau* 11 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 327.51 -
+[  5649.9s] tau* 11 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.044 compat
+[  5699.3s] tau* 11 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 29.707 -
+[  5704.1s] tau* 12 (11) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 304.516 -
+[  5748.5s] tau* 12 (11) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 303.517 -
+[  5769.7s] tau* 12 (11) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 431.221 -
+[  5797.4s] tau* 12 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 562.704 -
+[  5815.6s] tau* 12 (11) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 433.165 -
+[  5844.5s] tau* 12 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 38.602 -
+[  5874.0s] tau* 12 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 78.97 -
+[  5921.3s] tau* 12 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 328.086 -
+[  5924.6s] tau* 12 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 2.652 compat
+[  5979.6s] tau* 13 (11) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 786.102 -
+[  5988.7s] tau* 12 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 35.936 -
+[  6038.1s] tau* 13 (11) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 758.32 -
+[  6057.5s] tau* 13 (11) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 289.68 -
+[  6072.7s] tau* 13 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 675.281 -
+[  6117.4s] tau* 13 (11) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 87.34 -
+[  6121.8s] tau* 13 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 1.549 pass
+[  6176.2s] tau* 13 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 22.629 -
+[  6199.5s] tau* 13 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 1.016 compat
+[  6221.1s] tau* 13 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 37.561 -
+[  6263.8s] tau* 13 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 0.504 pass
+[  6270.3s] tau* 14 (11) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 482.506 -
+[  6326.9s] tau* 14 (11) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 502.175 -
+[  6340.1s] tau* 14 (11) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 64.727 -
+[  6356.9s] tau* 14 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 405.825 -
+[  6400.3s] tau* 14 (11) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 94.004 -
+[  6402.8s] tau* 14 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 20.89 -
+[  6457.8s] tau* 14 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 10.778 -
+[  6479.1s] tau* 14 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.171 compat
+[  6503.9s] tau* 14 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 216.734 -
+[  6547.1s] tau* 14 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 51.595 -
+[  6559.6s] tau* 15 (11) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 599.486 -
+[  6616.2s] tau* 15 (11) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 615.988 -
+[  6626.2s] tau* 15 (11) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 61.059 -
+[  6644.8s] tau* 15 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 555.691 -
+[  6694.1s] tau* 15 (11) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 56.347 -
+[  6696.5s] tau* 15 (11) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 7.098 -
+[  6754.9s] tau* 15 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 34.686 -
+[  6778.2s] tau* 15 (11) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 6.1 -
+[  6805.9s] tau* 15 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 42.583 -
+[  6851.2s] tau* 15 (11) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 31.978 -
+[  6864.5s] tau* 16 (13) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 170.573 -
+[  6913.2s] tau* 16 (13) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 158.41 -
+[  6930.4s] tau* 16 (13) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 97.728 -
+[  6945.0s] tau* 16 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 116.832 -
+[  6985.6s] tau* 16 (13) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 42.463 -
+[  7002.6s] tau* 16 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 20.389 -
+[  7051.4s] tau* 16 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 7.816 -
+[  7085.2s] tau* 16 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 11.374 -
+[  7092.2s] tau* 16 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 61.776 -
+[  7153.4s] tau* 17 (13) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 170.593 -
+[  7159.1s] tau* 16 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 24.584 -
+[launch 3: resumed from the checkpoints after launch 2 reached the 2-hour job limit]
+[     0.4s] launch resuming
+[     0.5s] stage Q from its checkpoint
+[     2.3s] pairs [('T(x)T k=5 | sym T(x)T k=1', 2, 4), ('T(x)T k=5 | sym T(x)T k=5', 3, 3), ('mixed (Q in T) k=4 | sym T(x)T k=1', 2, 4), ('mixed (Q in T) k=4 | sym T(x)T k=5', 3, 3), ('Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3', 3, 3), ('Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7', 4, 2), ('Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3', 5, 1), ('Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7', 6, 0), ('mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3', 3, 3), ('mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7', 4, 2)]
+[     2.3s] stage L
+[     2.3s] jobs 360 pending 189
+[    50.7s] tau* 17 (13) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 158.446 -
+[    77.5s] tau* 17 (13) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 60.054 -
+[    93.0s] tau* 17 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 116.833 -
+[   115.8s] tau* 17 (13) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 45.956 -
+[   149.3s] tau* 17 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 61.135 -
+[   173.7s] tau* 17 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 8.033 -
+[   212.8s] tau* 17 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 62.047 -
+[   232.6s] tau* 17 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 6.1 -
+[   286.3s] tau* 17 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 24.508 -
+[   290.3s] tau* 18 (13) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 720.409 -
+[   333.0s] tau* 18 (13) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 724.873 -
+[   364.5s] tau* 18 (13) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 151.573 -
+[   383.6s] tau* 18 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 449.59 -
+[   403.8s] tau* 18 (13) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 134.092 -
+[   432.2s] tau* 18 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 9.435 -
+[   477.0s] tau* 18 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 33.732 -
+[   520.6s] tau* 18 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.0 compat
+[   521.5s] tau* 18 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 428.912 -
+[   571.5s] tau* 19 (13) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 623.711 -
+[   589.6s] tau* 18 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 19.809 -
+[   633.8s] tau* 19 (13) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 623.414 -
+[   644.7s] tau* 19 (13) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 429.421 -
+[   666.9s] tau* 19 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 450.671 -
+[   702.7s] tau* 19 (13) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 102.283 -
+[   717.9s] tau* 19 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 28.43 -
+[   756.6s] tau* 19 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 264.392 -
+[   791.0s] tau* 19 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.0 compat
+[   800.8s] tau* 19 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 294.564 -
+[   848.8s] tau* 20 (13) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 857.53 -
+[   853.4s] tau* 19 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 4.667 pass
+[   896.5s] tau* 20 (13) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 833.799 -
+[   918.2s] tau* 20 (13) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 154.85 -
+[   936.9s] tau* 20 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 647.964 -
+[   961.8s] tau* 20 (13) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 132.313 -
+[   987.2s] tau* 20 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 10.329 -
+[  1021.4s] tau* 20 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 130.764 -
+[  1056.3s] tau* 20 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 136.256 -
+[  1065.7s] tau* 20 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 6.1 -
+[  1116.4s] tau* 21 (13) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 946.899 -
+[  1118.2s] tau* 20 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 15.267 -
+[  1165.8s] tau* 21 (13) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 947.122 -
+[  1183.6s] tau* 21 (13) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 190.066 -
+[  1205.3s] tau* 21 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 579.083 -
+[  1232.1s] tau* 21 (13) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 123.116 -
+[  1250.9s] tau* 21 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 46.601 -
+[  1289.6s] tau* 21 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 49.627 -
+[  1324.1s] tau* 21 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.0 compat
+[  1336.6s] tau* 21 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 90.401 -
+[  1386.8s] tau* 22 (13) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 284.305 -
+[  1389.1s] tau* 21 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 13.864 -
+[  1433.9s] tau* 22 (13) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 218.083 -
+[  1467.7s] tau* 22 (13) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 340.912 -
+[  1493.8s] tau* 22 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 592.815 -
+[  1504.7s] tau* 22 (13) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 105.887 -
+[  1543.7s] tau* 22 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 99.908 -
+[  1564.0s] tau* 22 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 0.435 pass
+[  1600.7s] tau* 22 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 65.212 -
+[  1619.7s] tau* 22 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.0 compat
+[  1663.1s] tau* 22 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 17.089 -
+[  1676.8s] tau* 23 (13) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 867.495 -
+[  1724.6s] tau* 23 (13) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 848.188 -
+[  1732.3s] tau* 23 (13) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 135.81 -
+[  1750.1s] tau* 23 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 676.924 -
+[  1789.0s] tau* 23 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 5.815 pass
+[  1801.0s] tau* 23 (13) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 117.646 -
+[  1841.6s] tau* 23 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 10.408 -
+[  1877.0s] tau* 23 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.0 compat
+[  1888.1s] tau* 23 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 104.089 -
+[  1945.3s] tau* 23 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 11.869 -
+[  1946.3s] tau* 24 (13) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 179.089 -
+[  1995.1s] tau* 24 (13) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 166.966 -
+[  2017.8s] tau* 24 (13) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 64.967 -
+[  2035.5s] tau* 24 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 123.536 -
+[  2062.2s] tau* 24 (13) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 99.179 -
+[  2088.0s] tau* 24 (13) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 19.333 -
+[  2114.8s] tau* 24 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 7.604 -
+[  2160.5s] tau* 24 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 58.847 -
+[  2165.1s] tau* 24 (13) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 9.54 -
+[  2210.4s] tau* 25 (14) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 664.021 -
+[  2236.5s] tau* 24 (13) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 18.792 -
+[  2272.7s] tau* 25 (14) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 663.421 -
+[  2288.2s] tau* 25 (14) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 65.612 -
+[  2306.5s] tau* 25 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 243.942 -
+[  2338.5s] tau* 25 (14) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 65.102 -
+[  2346.5s] tau* 25 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 9.583 -
+[  2392.0s] tau* 25 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 171.306 -
+[  2424.4s] tau* 25 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 3.423 compat
+[  2429.3s] tau* 25 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 204.055 -
+[  2483.5s] tau* 26 (14) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 447.686 -
+[  2490.0s] tau* 25 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 6.689 -
+[  2522.9s] tau* 26 (14) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 448.419 -
+[  2559.4s] tau* 26 (14) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 152.543 -
+[  2587.1s] tau* 26 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 483.787 -
+[  2593.0s] tau* 26 (14) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 389.161 -
+[  2636.4s] tau* 26 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 45.003 -
+[  2650.6s] tau* 26 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 141.37 -
+[  2689.7s] tau* 26 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 249.775 -
+[  2718.6s] tau* 26 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.0 compat
+[  2753.0s] tau* 26 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 27.426 -
+[  2771.2s] tau* 27 (14) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 856.299 -
+[  2817.9s] tau* 27 (14) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 852.765 -
+[  2830.3s] tau* 27 (14) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 256.616 -
+[  2851.3s] tau* 27 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 310.617 -
+[  2886.3s] tau* 27 (14) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 323.629 -
+[  2888.1s] tau* 27 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 10.826 -
+[  2948.4s] tau* 27 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 203.818 -
+[  2970.2s] tau* 27 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.0 compat
+[  2992.6s] tau* 27 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 628.541 -
+[  3029.1s] tau* 27 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 0.853 pass
+[  3045.5s] tau* 28 (14) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 759.175 -
+[  3085.5s] tau* 28 (14) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 762.825 -
+[  3102.5s] tau* 28 (14) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 72.931 -
+[  3124.0s] tau* 28 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 742.138 -
+[  3151.4s] tau* 28 (14) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 70.017 -
+[  3165.2s] tau* 28 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 19.851 -
+[  3208.4s] tau* 28 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 220.409 -
+[  3240.3s] tau* 28 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 222.093 -
+[  3242.4s] tau* 28 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 1.329 compat
+[  3291.4s] tau* 29 (14) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 721.079 -
+[  3302.0s] tau* 28 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 23.627 -
+[  3353.9s] tau* 29 (14) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 720.133 -
+[  3363.0s] tau* 29 (14) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 55.938 -
+[  3383.9s] tau* 29 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 326.911 -
+[  3412.1s] tau* 29 (14) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 55.928 -
+[  3430.4s] tau* 29 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 13.606 -
+[  3464.2s] tau* 29 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 189.111 -
+[  3504.5s] tau* 29 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 201.625 -
+[  3504.6s] tau* 29 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.0 compat
+[  3548.5s] tau* 30 (14) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 705.688 -
+[  3566.1s] tau* 29 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 8.409 -
+[  3603.8s] tau* 30 (14) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 704.902 -
+[  3618.6s] tau* 30 (14) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 118.208 -
+[  3642.3s] tau* 30 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 316.519 -
+[  3677.3s] tau* 30 (14) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 85.216 -
+[  3686.0s] tau* 30 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 8.697 -
+[  3735.4s] tau* 30 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 174.065 -
+[  3762.3s] tau* 30 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.0 compat
+[  3780.5s] tau* 30 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 218.599 -
+[  3827.3s] tau* 30 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 6.996 -
+[  3829.9s] tau* 31 (14) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 646.814 -
+[  3866.6s] tau* 31 (14) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 625.796 -
+[  3903.3s] tau* 31 (14) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 83.052 -
+[  3921.7s] tau* 31 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 545.0 -
+[  3934.9s] tau* 31 (14) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 55.49 -
+[  3976.4s] tau* 31 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 28.602 -
+[  3995.0s] tau* 31 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 28.637 -
+[  4054.7s] tau* 31 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 85.168 -
+[  4066.2s] tau* 31 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 8.41 -
+[  4111.2s] tau* 32 (14) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 572.771 -
+[  4113.8s] tau* 31 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 22.013 -
+[  4164.4s] tau* 32 (14) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 607.454 -
+[  4184.5s] tau* 32 (14) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 62.406 -
+[  4200.2s] tau* 32 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 539.371 -
+[  4229.9s] tau* 32 (14) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 26.603 -
+[  4248.8s] tau* 32 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 25.928 -
+[  4284.2s] tau* 32 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 29.368 -
+[  4324.6s] tau* 32 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 16.86 -
+[  4327.5s] tau* 32 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 133.629 -
+[  4377.3s] tau* 33 (14) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 838.319 -
+[  4391.6s] tau* 32 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 32.217 -
+[  4437.1s] tau* 33 (14) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 839.551 -
+[  4452.5s] tau* 33 (14) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 411.818 -
+[  4476.5s] tau* 33 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 352.932 -
+[  4511.3s] tau* 33 (14) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 287.67 -
+[  4515.1s] tau* 33 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 5.169 pass
+[  4571.0s] tau* 33 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 257.778 -
+[  4593.2s] tau* 33 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 2.228 compat
+[  4602.8s] tau* 33 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 613.417 -
+[  4652.3s] tau* 33 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 4.163 pass
+[  4660.1s] tau* 34 (14) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 582.373 -
+[  4706.5s] tau* 34 (14) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 609.793 -
+[  4724.1s] tau* 34 (14) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 61.554 -
+[  4740.3s] tau* 34 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 538.213 -
+[  4775.6s] tau* 34 (14) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 66.219 -
+[  4785.9s] tau* 34 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 26.387 -
+[  4826.3s] tau* 34 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 31.872 -
+[  4859.8s] tau* 34 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 2.442 compat
+[  4870.8s] tau* 34 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 49.325 -
+[  4925.3s] tau* 35 (14) T(x)T k=5 | sym T(x)T k=1 dof 4 chi2 582.37 -
+[  4927.0s] tau* 34 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 18.987 -
+[  4979.0s] tau* 35 (14) mixed (Q in T) k=4 | sym T(x)T k=1 dof 4 chi2 591.688 -
+[  4998.1s] tau* 35 (14) T(x)T k=5 | sym T(x)T k=5 dof 3 chi2 57.596 -
+[  5015.1s] tau* 35 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3 dof 3 chi2 538.203 -
+[  5047.0s] tau* 35 (14) mixed (Q in T) k=4 | sym T(x)T k=5 dof 3 chi2 59.074 -
+[  5059.0s] tau* 35 (14) Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 dof 2 chi2 6.304 -
+[  5102.0s] tau* 35 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 dof 1 chi2 33.556 -
+[  5130.7s] tau* 35 (14) Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7 dof 0 chi2 0.89 compat
+[  5149.1s] tau* 35 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3 dof 3 chi2 49.327 -
+[  5197.1s] tau* 35 (14) mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 dof 2 chi2 23.035 -
+[  5197.1s] L5
+[  6367.9s] L5 Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 [0.0029927460719561087, 1.4874694464802036] 0.03
+[  6908.3s] L5 mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 [0.0029927460719561087, 1.4874694464802036] 0.005
+[launch 4: resumed from the checkpoints after launch 3 reached the 2-hour job limit]
+[     1.4s] launch resuming
+[     1.5s] stage Q from its checkpoint
+[     3.3s] pairs [('T(x)T k=5 | sym T(x)T k=1', 2, 4), ('T(x)T k=5 | sym T(x)T k=5', 3, 3), ('mixed (Q in T) k=4 | sym T(x)T k=1', 2, 4), ('mixed (Q in T) k=4 | sym T(x)T k=5', 3, 3), ('Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=3', 3, 3), ('Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7', 4, 2), ('Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3', 5, 1), ('Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=7', 6, 0), ('mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=3', 3, 3), ('mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7', 4, 2)]
+[     3.3s] stage L
+[     3.3s] jobs 360 pending 0
+[     3.3s] L5
+[  1331.6s] L5 Tbar(x)Tbar k=7 | sym Tbar(x)Tbar k=3 [0.4747668876960116, 0.9080109397965046] 0.04
+[  1528.6s] L5 mixed (Q in Tbar) k=4 | sym Tbar(x)Tbar k=7 [0.4360490751159259, 1.1342391574896737] 0.025
+[  2364.7s] L5 Tbar(x)Tbar k=3 | sym Tbar(x)Tbar k=7 [3.719660568382157e-05, 1.4060640386897303] 0.1
