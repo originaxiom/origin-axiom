@@ -796,3 +796,7 @@ found with B1635's sealed instrument.
   weight-3/2 sections of the matter's representation a three-dimensional space — the chiral three's. The end-data Higgs
   ∂R lies in it, so the hierarchy needs no second end postulate; but the unit does not select ∂R: it is the space's only
   member with the coupling triplet's own end condition (holomorphic off v₊), and the only one giving a hierarchy.
+- **The line-tied Higgs gives no hierarchy (B1701, computed).** W63 ties the Higgs's direction to the line (the parity
+  copy the line leaves untwisted). On the line itself, in B1656's twisted coupling, that Higgs makes every sector exactly
+  0 : 1 : 1 on all 27 lines with 6w in the lattice, every τ and both ends; the untied units do not. The state W60 and W62
+  single out therefore gives degenerate heavy pairs; the hierarchy needs the untied covariant ∂R.

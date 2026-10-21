@@ -12964,6 +12964,19 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1701": {
+   "slug": "w63 on main",
+   "motifs": [
+    "choice",
+    "coupling",
+    "eisenstein"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B170": {
    "slug": "relational scale leap",
    "motifs": [

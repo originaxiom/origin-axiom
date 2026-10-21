@@ -1,5 +1,18 @@
 # Changelog
 
+## S173 W63 ON MAIN (B1701, PROVED; P-246) (2026-10-22)
+
+- **W63 reproduced on main's own triplet** (min m = ½ over real directions, m(e_k) = ½ on the axis, 0.565741 for every
+  unit at ω, m = 0 on the cone).
+- **The line-tied Higgs, on the line.** With the direction tied as W63 ties it (the unit C_{p*}, p* ≡ −3w), B1656's twisted
+  coupling at the canonical end gives every sector exactly 0 : 1 : 1 (m₂/m₃ = 1 to 9 × 10⁻¹⁶, m₁/m₃ = 0 to 2.4 × 10⁻¹⁶) on
+  all 27 lines with 6w in the lattice, every τ, both horocycles and every up reading; the untied units never degenerate
+  (control). W63's 0 : 1 : 2 holds untwisted only (its harvest row annotated). The one-line fits with the tied direction
+  need no fitting: no hierarchy anywhere; W60 and W62's state gives degenerate heavy pairs.
+- **Register.** P-246 DONE. FLOOR 252.
+- **Landing suite.** 117 files (B1701's lock, every arc lock and the corpus-scanning tests), 2043 passed, 1 failed, 3 skipped (6:05, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S172 THE HIGGS'S END DATA IS THE UNIT (B1700, PROVED; P-245) (2026-10-22)
 
 - **The fork decided by the math (exact, no data).** W46's unit (n uniform units at the cusp; B1641's index

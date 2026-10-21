@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1429** |
-| words of findings prose | **1,143,470** |
-| test lock files referenced | **846** |
-| arcs carrying an authored verdict | **1429** (100.0 %) |
+| research arcs with findings | **1430** |
+| words of findings prose | **1,144,130** |
+| test lock files referenced | **847** |
+| arcs carrying an authored verdict | **1430** (100.0 %) |
 | recorded closures | **828** (661 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 973 |
+| PROVED | 974 |
 | NEGATIVE | 352 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1700`** (690 words, 1 locks)  
-THE HIGGS'S END DATA IS THE UNIT (P-245; exact, no data): FK10's tagged unit as W46 defines it (n uniform units; B1641's index -chi_{3/2+12n}(rho_T), rho_T = rho_R by B1634) makes the weight-3/2 sections of rho_T a three-dimensional space -- W46's three -- spanned by DR, E4^2(E4 DR + E6 R/12)/Delta and E4 E6 a0/Delta; DR lies in it and is its only member holomorphic off v+ (the coupling triplet R's own end condition); only DR gives a second-to-third hierarchy at the cusp (m2/m3 ~ |q|^(1/2); exponent 0 for the other members and generic ones). So the hierarchy's end data are FK10's unit, not a second postulate, but the unit does not select DR: the hierarchy arcs hold given Lambda, the unit and H-cov in R's own module. 0 of 19.  
-`B1700_the_higgs_end_data_is_the_unit/FINDINGS.md`
+**PROVED — `B1701`** (660 words, 1 locks)  
+W63 ON MAIN (P-246; computed, no data): the SM seat's W63 cells reproduce on main's own triplet (min m = 1/2 over real directions, m(e_k) = 1/2 on the axis, 0.565741 for every unit at omega, m = 0 on the cone); and with the Higgs's direction tied to the line as W63 ties it (the unit C_{p*}, p* = -3w), on B1656's twisted coupling at the canonical end, every sector's spectrum is exactly 0 : 1 : 1 (m2/m3 = 1 to 9e-16, m1/m3 = 0 to 2.4e-16) on all 27 lines with 6w in the lattice, every tau, both horocycles and every up reading, while the untied units never degenerate (control): the line-tied Higgs gives no second-to-third hierarchy at all -- W63's 0 : 1 : 2 holds untwisted only -- and the state W60 and W62 single out gives degenerate heavy pairs. 0 of 19.  
+`B1701_w63_on_main/FINDINGS.md`
 
 **NEGATIVE — `B1699`** (987 words, 1 locks)  
 THE COUPLING'S STRENGTH AND TAU (P-247; sealed 8ac889d14, sha256 317b4d67; NEGATIVE as sealed -- S0 holds, H1, H2, H3 fail; outputs committed unread at cd9a9f963): this frame's own Yukawa strength y s1(Y)^2 (B1645's covariant coupling, the Higgs DR; modular-invariant to 1e-15) has no maximum -- it rises to the cusp, where DR's unit of end data drives it -- and one non-elliptic critical point, a saddle on the arc at tau = 0.2754 + 0.9613i; there no line of order dividing 24 gives any hierarchy (m2/m3 >= 0.31 in every sector; best worst factor 225; 32% of random hierarchies fit as well; chi2 4823). The strength does not select tau where the masses are; W51's peaks (sm:W51) belong to cusp-form couplings, which this frame's Higgs is not. 0 of 19.  

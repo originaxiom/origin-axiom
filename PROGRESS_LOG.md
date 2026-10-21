@@ -17641,3 +17641,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   (dimension three, agreeing with B1641's −χ_{27/2} = −3); ∂R its only member holomorphic off v₊ and the only one with a
   hierarchy. Scope notes on the hierarchy arcs; P-245 DONE; FK10's sentence queued into P-237 (GENESIS v1.52).
 - **Landing suite.** 123 files (B1700's lock, the noted arcs' locks, every arc lock and the corpus-scanning tests), 2061 passed, 1 failed, 3 skipped (4:48, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-22 — S173 W63 ON MAIN (B1701)
+
+- W63's cells on main's triplet; the tie computed on the line in B1656's twisted frame (27 lines, 864 rows): exactly
+  0 : 1 : 1 everywhere; the untied units as control. W63's harvest row annotated (verified; its 0 : 1 : 2 corrected on the
+  line). P-246 DONE.
+- **Landing suite.** 117 files (B1701's lock, every arc lock and the corpus-scanning tests), 2043 passed, 1 failed, 3 skipped (6:05, -n 8); the one failure is B805's attachment lock (P-239)

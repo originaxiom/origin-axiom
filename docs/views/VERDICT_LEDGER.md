@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1429 of 1429 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1430 of 1430 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (973)
+## PROVED (974)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -985,6 +985,7 @@
 | `B1695` | ONE LINE, ONE TAU, THE UNIQUE SECTION (P-243; sealed fc3bf0684, sha256 aced715b; PROVED as sealed for its question -- G1 holds, G2's prediction failed; outputs committed unread at cedc14c5b): the weight-3/2 covariant Higgs DR at the canonical end with one flat hypercharge line and one tau brings all six charged-fermion mass ratios within a factor of 1.79 of Huang-Zhou 2021 (best: Re tau = 0, L_max, the up quarks through the conjugate Higgs, alpha = 37/96, Im tau = 3.15; 29 grid points within a factor 3) but not to the data's precision (min chi2 61.3); after the seal (labelled) the match is shown not specific -- two wrong sector assignments fit better (1.58, 1.64) and 6.25% of random hierarchical targets fit as well -- so it measures the frame's flexibility, not a prediction; the second generation's down-lepton split (3.1 measured, about 1 here) is its clearest miss. 0 of 19. |  | 1 |
 | `B1697` | THE SCAN FOR MISSES (the owner's order; no data): the Higgs without end data is unique, at weight 7/2 -- a0 = D2R - E4 R/48, holomorphic at the cusp (W68 G1, computed on main) -- and gives no second-to-third hierarchy at the cusp (m2/m3 -> 1/2), so in this frame the hierarchy exists only if the Higgs carries end data on v+ (B1694-B1696's DR assumed it); the tick LR fixes no non-zero line but exactly four order-5 lines up to sign (det(LR + I) = 5; B591, B489), beside the fits' alpha = 0.385-0.391 but with a non-zero second coordinate the grids never held; the line fixes the Higgs's direction (W63); W51's coupling-strength peaks (1/2 + 2.224 i in the band), the silver cusp shape 2i (B485) and W62's holding condition were never used; the line's arithmetic (closure, move-invariance, W88's orders, CP-odd lines) was never imposed; the SM seat is past main's pin. Each a point (P-245-P-252). 0 of 19. |  | 1 |
 | `B1700` | THE HIGGS'S END DATA IS THE UNIT (P-245; exact, no data): FK10's tagged unit as W46 defines it (n uniform units; B1641's index -chi_{3/2+12n}(rho_T), rho_T = rho_R by B1634) makes the weight-3/2 sections of rho_T a three-dimensional space -- W46's three -- spanned by DR, E4^2(E4 DR + E6 R/12)/Delta and E4 E6 a0/Delta; DR lies in it and is its only member holomorphic off v+ (the coupling triplet R's own end condition); only DR gives a second-to-third hierarchy at the cusp (m2/m3 ~ |q|^(1/2); exponent 0 for the other members and generic ones). So the hierarchy's end data are FK10's unit, not a second postulate, but the unit does not select DR: the hierarchy arcs hold given Lambda, the unit and H-cov in R's own module. 0 of 19. |  | 1 |
+| `B1701` | W63 ON MAIN (P-246; computed, no data): the SM seat's W63 cells reproduce on main's own triplet (min m = 1/2 over real directions, m(e_k) = 1/2 on the axis, 0.565741 for every unit at omega, m = 0 on the cone); and with the Higgs's direction tied to the line as W63 ties it (the unit C_{p*}, p* = -3w), on B1656's twisted coupling at the canonical end, every sector's spectrum is exactly 0 : 1 : 1 (m2/m3 = 1 to 9e-16, m1/m3 = 0 to 2.4e-16) on all 27 lines with 6w in the lattice, every tau, both horocycles and every up reading, while the untied units never degenerate (control): the line-tied Higgs gives no second-to-third hierarchy at all -- W63's 0 : 1 : 2 holds untwisted only -- and the state W60 and W62 single out gives degenerate heavy pairs. 0 of 19. |  | 1 |
 
 ## NEGATIVE (352)
 

@@ -1,0 +1,36 @@
+{
+  "id": "B1701",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1644",
+    "B1645",
+    "B1656",
+    "B1657",
+    "B1658",
+    "B1667",
+    "B1686",
+    "B1697",
+    "B1700"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [
+    "sm:W63",
+    "sm:W60",
+    "sm:W61",
+    "sm:W62"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the fibre given Lambda; B1645's untwisted coupling for W63's cells; B1656's twisted four-channel coupling at B1667's canonical end for the tie",
+    "object": "the line-tied Higgs (the unit C_{p*}, p* = -3w a half-period) on the 27 lines with 6w in the lattice",
+    "reach": "class",
+    "hypotheses": "a grid in tau; lines with p* = 0 excluded (no adjoint copy)"
+  },
+  "claim_one_line": "W63 ON MAIN (P-246; computed, no data): the SM seat's W63 cells reproduce on main's own triplet (min m = 1/2 over real directions, m(e_k) = 1/2 on the axis, 0.565741 for every unit at omega, m = 0 on the cone); and with the Higgs's direction tied to the line as W63 ties it (the unit C_{p*}, p* = -3w), on B1656's twisted coupling at the canonical end, every sector's spectrum is exactly 0 : 1 : 1 (m2/m3 = 1 to 9e-16, m1/m3 = 0 to 2.4e-16) on all 27 lines with 6w in the lattice, every tau, both horocycles and every up reading, while the untied units never degenerate (control): the line-tied Higgs gives no second-to-third hierarchy at all -- W63's 0 : 1 : 2 holds untwisted only -- and the state W60 and W62 single out gives degenerate heavy pairs. 0 of 19.",
+  "weave_or_thread": "weave (every sector on one fibre at the line)"
+}
