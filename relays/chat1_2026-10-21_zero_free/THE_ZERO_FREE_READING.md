@@ -6,7 +6,8 @@ chat1, 2026-10-21. This is a reading, offered for the owner's ruling. One sealed
   SM seat's module reads at import (the first launch failed there, before any cell; its log is kept);
 - the output `zero_free_checks_run.txt` and `.json` (808dd4aef).
 
-Refereed read-only before commit, and corrected. A lepton test built on it was sealed and launched before this file
+Refereed read-only before commit, and corrected; a dated follow-up (below the first commit, 7ff595af0) applies the
+referee's second pass. A lepton test built on it was sealed and launched before this file
 was committed (§6). Nothing here lowers the count. 0 of 19.
 
 ## 0. In brief
@@ -19,8 +20,8 @@ was committed (§6). Nothing here lowers the count. 0 of 19.
   - with real coefficients (CP in the law), a generic tuned member has exactly one massless point, on a CP locus;
   - the one real condition sends that point to the cusp.
 - **The reading, PF1-W.** On the weave, the law's holomorphic invariants cancel only at the end, the cusp.
-  - The record already reads PF1 this way once: on the ladder, a factor of κ − 2 "that vanishes somewhere" is where
-    "cancelling completes" (the SM seat's ladder reading, level 7; B497, B1342).
+  - The record has read PF1 this way once before: in the SM seat's ladder reading (a READING in its NOTE, level 7;
+    B497, B1342), a factor of κ − 2 "that vanishes somewhere" is where "cancelling completes".
   - PF1-W applies the same reading to the mass determinants over the weave's states.
   - Under it, a quark sector's determinant is c·η^{6k}: it vanishes only where the records' torus degenerates.
 - **What it would give, as candidates, post hoc, given the frame:**
@@ -37,8 +38,8 @@ was committed (§6). Nothing here lowers the count. 0 of 19.
 - **Status.** A READING. It is not derived, and adopting it is the owner's call. Even adopted, θ̄ is a candidate for
   main to bank, not a prediction: θ̄ ≈ 0 was known. 0 of 19.
 - **Where it collides with the seat's next arc.** W115's only predictive charged-lepton couplings are T⊗T at k = 3
-  and mixed at k = 2. Both are impossible-class: they have a massless point at τ = i, so PF1-W forbids them. W115 and
-  PF1-W cannot both succeed (§6).
+  and mixed at k = 2. Both are impossible-class: they have a massless point at τ = i, so PF1-W forbids them. A W115
+  success would count against PF1-W; a failure would be consistent with it, not evidence for it (§6).
 
 ## 1. What the record already had, and what the run confirms
 
@@ -77,13 +78,14 @@ was committed (§6). Nothing here lowers the count. 0 of 19.
 - **How it reads PF1.** It rests on two identifications, each named.
   1. **"A zero is cancellation completed."**
      - PF1 says existence is what remains when cancelling to nothing cannot complete.
-     - The record already reads a factor that vanishes somewhere as cancelling completing: ladder level 7, where
-       non-automorphisms multiply κ − 2 by such a factor (the SM seat's ladder reading).
+     - The record has read a factor that vanishes somewhere as cancelling completing: at ladder level 7,
+       non-automorphisms multiply κ − 2 by such a factor. That is the SM seat's ladder reading, a READING, not a
+       banked result.
      - PF1-W extends this from κ to the law's determinants. A massless quark still exists, so this is an
        identification for that invariant, not a theorem.
   2. **"The end is where a record cancels."**
      - The record ties cancelling completing to κ = 2, "the locus where the cancellation completes" (GENESIS's PF1
-       note, v1.1). The fibre's κ = −2 is the parabolic cusp at the puncture (E72).
+       note, v1.1). The fibre's κ is "−2 at the root, which is the parabolic cusp" (GENESIS; E72).
      - PF1-W instead uses the weave's surface, read as parametrising the records' torus (W19's reading). There the end
        τ → i∞ is where the torus degenerates and the discriminant Δ vanishes.
      - Identifying that end with "a record cancels" is a second identification.
@@ -94,9 +96,10 @@ was committed (§6). Nothing here lowers the count. 0 of 19.
     every invariant. The restriction was chosen to avoid that (§5, point 10).
   - The trivial multiplier, for §3.2, as the record's own definition of a source requires (the reading before W48,
     point 1).
-- **What it is not.** It is not derived, and not adopted. Under it, a sector's determinant is c·η^{6k}. That is a
-  power of the discriminant only up to a multiplier: K/4, with K = k_u + k_d, is not an integer in any of W114's four
-  compatible assignments (K = 11, 11, 10, 14).
+- **What it is not.** It is not derived, and not adopted. Under it, a sector's determinant is c·η^{6k}, and the
+  product of the two quark sectors' determinants is c·η^{6K}, with K = k_u + k_d. The product is a power of the
+  discriminant only up to a multiplier: K/4 is not an integer in any of W114's four compatible assignments (K = 11, 11,
+  10, 14).
 
 ## 3. What PF1-W would give, on the record (candidates, post hoc, given the frame)
 
@@ -159,7 +162,9 @@ was committed (§6). Nothing here lowers the count. 0 of 19.
 - **The data's verdicts on them,** specifically:
   - a massless up quark is excluded at 31σ (B1670);
   - W69's best χ² is 100;
-  - W112 is no better than chance (p = 0.139).
+  - W112 is no better than chance (p = 0.139);
+  - a second generation massless at ω (W65, W67) contradicts the measured c, s, μ masses at whatever τ the data
+    select, and the frames select ω itself.
 - **Out of PF1-W's scope:** B1656/W89 (the electron's zero, in the Wilson-line variable with non-holomorphic twisted
   norms, "at this order") and W61 (L² overlaps at one state). They are not claimed.
 - **What remains.** PF1-W excludes the near-ω form of the goal page's "flesh". It does not exclude a departure from
@@ -186,8 +191,9 @@ was committed (§6). Nothing here lowers the count. 0 of 19.
   - They give the zeros case no derivation ("perhaps realised in some string compactifications"); for the
     singularities they invoke the distance conjecture.
   - They also fit the leptons at the quark-fixed τ. The minimal choice wanted a different τ, so they needed an extra
-    parameter, and they predicted δ_PMNS ≈ 0.94π, m₁ ≈ 10 meV and Σm ≈ 74 meV (the referee's reading of the paper).
-    That is direct prior art for §6.
+    parameter, and they predicted δ_PMNS ≈ 0.94π, m₁ ≈ 10 meV and Σm ≈ 74 meV. Their lepton fit was itself six
+    constants for six observables, with δ_PMNS its only prediction. (These details come from a summarised fetch of the
+    paper's HTML v1, not a full reading.) That is direct prior art for §6.
 - **The record's citations.** The record does not cite the paper. Searched at main 3650f92b0, the audit lane
   17cdad33a and the SM seat 5a9914425 (2026-10-21).
 - **The weight-zero route.** Feruglio, Strumia and Titov (arXiv:2305.08908, 2023) and Feruglio, Parriciatu, Strumia
@@ -204,7 +210,7 @@ was committed (§6). Nothing here lowers the count. 0 of 19.
    and §3.3 reads record results. Only a test with an outcome not known in advance (§6) can move it.
 3. **"The frame does the work."** Largely conceded. PF1-W alone makes each g a power of Δ. θ̄ constant needs H-θ, and
    θ̄ ∈ {0, π} needs GM5c. What PF1-W changes is the status of the two tunings, from chosen to forced.
-4. **"Zero-dof fits predict nothing."** Agreed. The claim is only that the count would move by one, θ̄, as a candidate.
+4. **"Zero-dof fits predict nothing."** Agreed. θ̄ would become a candidate; the count moves only if main banks it.
 5. **"Discrete choices: hand, weights, assignment, the sign bit."** Agreed, and chosen by data. θ̄ = π is also
    CP-conserving. Whether the data exclude it independently is not checked here.
 6. **"Tree level."** Agreed. Without supersymmetry, loops can regenerate θ̄. That is outside the frame (the goal
@@ -233,13 +239,20 @@ was committed (§6). Nothing here lowers the count. 0 of 19.
     each". That counted seven observables with δ. Under the rule's own six, it is 0 to 4, as just stated. The cells are
     unaffected.
   - FMST 2025's lepton fit at the quark-fixed τ is prior art for this test (§4).
-- **W115, the SM seat's next arc** (the owner's choice after W114; rule 5a9914425, not seen before chat1's lepton rule
-  was written).
+- **W115, the SM seat's next arc** (the owner's choice after W114; rule 5a9914425, committed 11:10:55 UTC).
+  - It was not seen before chat1's lepton rule was written: a local fetch at 11:11:01 UTC still returned c9f001d9d;
+    chat1's rule was committed at 11:50:17 UTC and its script at 11:50:24 UTC; the local tracking ref first reached
+    5a9914425 at 12:00:45 UTC.
   - It tests the charged leptons alone, at the same τ, with the only couplings that leave a free number to spare: T⊗T
     at k = 3 and mixed at k = 2.
   - Both are impossible-class (w = 6): each has a massless point at τ = i for every coupling (Z1). PF1-W forbids them.
-  - So if W115 finds a lepton prediction, PF1-W is refuted for this frame's leptons. If W115 fails, PF1-W's account of
-    why stands, and its own test (the neutrinos) is the one left. The two runs are complementary.
+  - So a W115 success (p < 0.05 at one degree of freedom, for a coupling PF1-W forbids) would count against PF1-W. A
+    W115 failure would be consistent with PF1-W, not evidence for it, since W115's own priors expected failure (80%,
+    75%).
+  - The two outcomes are not logically exclusive with chat1's test passing, since PF1-W's allowed charged sectors
+    always fit the two charged ratios. The runs are complementary, not a decision between them.
+  - Assignment 11's τ sits 0.10 from i, where W115's couplings have their forced zero. A light electron there would be
+    exactly the interior-zero mechanism PF1-W forbids, which sharpens the collision.
 
 ## 7. What this does not do
 
