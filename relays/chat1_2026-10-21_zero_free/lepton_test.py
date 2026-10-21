@@ -5,6 +5,9 @@ read.
 
 The SM seat's code is imported unchanged (the_strong_angle.py, the_tuned_fit.py at c9f001d9d, hash-checked), as in
 zero_free_checks.py.  Pre-run: this script was only compiled (py_compile); no part of it was run before the run.
+Second launch: the first (2f0379e61) was aborted for runtime with its log kept unread (b789b234e); this version adds
+two forked workers and checkpoints (see "the launch fix" below) and changes no cell, seed or search size.  A launch
+stopped by the job limit is resumed from the checkpoints; every launch appends to lepton_test_run.txt.
 
 Stages: Q (the quark-fixed tau of W114's assignments 11, 13, 14); L (the ten lepton pairs at each tau*); cells L0-L5.
 """
@@ -257,8 +260,20 @@ def readout(pair, v, U, E, taus_check):
             "L2 holds here": bool(spread_e < 1e-8 and spread_n < 1e-8 and min(masses) > 0)}
 
 
+# ------------------------------------------------------------------------------------------- the launch fix (2nd launch)
+# The first launch (2f0379e61) was aborted at about 20 minutes, its log kept unread (b789b234e): at that pace it would
+# have passed the session's 2-hour job limit.  This version computes exactly the same things with the same seeds and
+# the same creation order of every random direction, but (i) runs stage Q's three assignments and stage L's
+# (tau*, pair) jobs in two forked workers, and (ii) checkpoints after each stage and each job
+# (lepton_test_stageQ.json, lepton_test_stageL.jsonl), so that a relaunch resumes where a job limit stopped it.
+# No cell, threshold, seed or search size is changed.
+import multiprocessing as MPR  # noqa: E402
+
+CKQ = HERE / "lepton_test_stageQ.json"
+CKL = HERE / "lepton_test_stageL.jsonl"
+log("launch", "resuming" if CKQ.exists() else "fresh")
+
 # ------------------------------------------------------------------------------------------- stage Q
-log("stage Q")
 secs = {}
 
 
@@ -269,15 +284,20 @@ def sec(typ, k, rng):
 
 
 rngQ = np.random.default_rng(2110)
-QOUT, TAUS = {}, []
-for num, (ut, uk, dt, dk) in QUARK.items():
+for num, (ut, uk, dt, dk) in QUARK.items():          # the same creation order as the first launch
+    sec(ut, uk, rngQ)
+    sec(dt, dk, rngQ)
+
+
+def q_assignment(num):
+    ut, uk, dt, dk = QUARK[num]
     t = time.time()
-    model = TF.Model(sec(ut, uk, rngQ), sec(dt, dk, rngQ))
+    model = TF.Model(secs[(ut, uk)], secs[(dt, dk)])
     rng = np.random.default_rng(2110 + num)
     P1 = TF.random_starts(model, rng, 40000)
     v1 = TF.stage1(model, P1, SA.LOGD, A_ALLOW)
     order = np.argsort(v1)
-    f = lambda p, model=model: model.chi2(p, SA.LOGD, A_ALLOW)  # noqa: E731
+    f = lambda p: model.chi2(p, SA.LOGD, A_ALLOW)  # noqa: E731
     ends = []
     for i in order[:200]:
         p, v = TF.nm(f, P1[i], 6000)
@@ -285,17 +305,33 @@ for num, (ut, uk, dt, dk) in QUARK.items():
         ends.append((p, v))
     kept = [(p, v) for p, v in ends if v <= 3.84]
     found = []
-    for p, v in sorted(kept, key=lambda t: t[1]):
+    for p, v in sorted(kept, key=lambda t_: t_[1]):
         tf = SA.to_fd(complex(p[0], p[1]))
         key = complex(abs(tf.real), tf.imag)
         if all(abs(key - q["key"]) > 1e-3 for q in found):
             found.append({"key": key, "tau": [tf.real, tf.imag], "chi2": v})
-    QOUT[str(num)] = {"endpoints": len(ends), "kept (chi2 <= 3.84)": len(kept), "best chi2": min(v for _, v in ends),
-                      "distinct tau*": [{"tau": q["tau"], "chi2": q["chi2"]} for q in found], "seconds": time.time() - t}
-    for q in found:
-        TAUS.append({"assignment": num, "tau": complex(q["tau"][0], q["tau"][1]), "chi2_q": q["chi2"]})
-    log(f"assignment {num}", QOUT[str(num)]["kept (chi2 <= 3.84)"], "kept;", len(found), "distinct tau*;",
-        "best", QOUT[str(num)]["best chi2"])
+    rec = {"endpoints": len(ends), "kept (chi2 <= 3.84)": len(kept), "best chi2": min(v for _, v in ends),
+           "distinct tau*": [{"tau": q["tau"], "chi2": q["chi2"]} for q in found], "seconds": time.time() - t}
+    log(f"assignment {num}", rec["kept (chi2 <= 3.84)"], "kept;", len(found), "distinct tau*;", "best", rec["best chi2"])
+    return num, rec
+
+
+if CKQ.exists():
+    ck = json.loads(CKQ.read_text())
+    QOUT = ck["QOUT"]
+    TAUS = [{"assignment": T["assignment"], "tau": complex(*T["tau"]), "chi2_q": T["chi2_q"]} for T in ck["TAUS"]]
+    log("stage Q from its checkpoint")
+else:
+    log("stage Q")
+    with MPR.get_context("fork").Pool(2) as pool:
+        res = dict(pool.map(q_assignment, list(QUARK)))
+    QOUT, TAUS = {}, []
+    for num in QUARK:                                 # the first launch's order: 11, 13, 14
+        QOUT[str(num)] = res[num]
+        for q in res[num]["distinct tau*"]:
+            TAUS.append({"assignment": num, "tau": complex(*q["tau"]), "chi2_q": q["chi2"]})
+    CKQ.write_text(json.dumps({"QOUT": QOUT, "TAUS": [{"assignment": T["assignment"], "tau": [T["tau"].real, T["tau"].imag],
+                                                        "chi2_q": T["chi2_q"]} for T in TAUS]}, indent=1))
 L1 = (QOUT["11"]["best chi2"] <= 1e-6 and QOUT["13"]["best chi2"] <= 1e-6 and QOUT["14"]["best chi2"] <= 3.84)
 OUT["stage Q"] = QOUT
 OUT["L1"] = {"holds": bool(L1), "distinct tau* (all assignments)": len(TAUS)}
@@ -306,62 +342,91 @@ CH = {+1: [(TT, 5), (MQT, 4)], -1: [(BB, 3), (BB, 7), (MQB, 4)]}
 WB = {+1: [(TT, 1), (TT, 5)], -1: [(BB, 3), (BB, 7)]}
 PAIRS = []
 for sL in (+1, -1):
-    for ct, ck in CH[sL]:
+    for ct, ck_ in CH[sL]:
         for wt, wk in WB[sL]:
-            ch = ChargedParam(ct, ck, rngL)
-            ch.base.k = ck
+            ch = ChargedParam(ct, ck_, rngL)
+            ch.base.k = ck_
             wb = SymParam(wt, wk, rngL)
             wb.base.k = wk
             PAIRS.append(Pair(ch, wb))
 OUT["pairs"] = [{"pair": p.label, "free": p.p, "dof": p.dof} for p in PAIRS]
 log("pairs", [(p.label, p.p, p.dof) for p in PAIRS])
 
+DONE = {}
+if CKL.exists():
+    for line in CKL.read_text().splitlines():
+        if line.strip():
+            d = json.loads(line)
+            DONE[d["job"]] = d["rec"]
+
+
+def save(job, rec):
+    with CKL.open("a") as fh:
+        fh.write(json.dumps({"job": job, "rec": rec}, default=str) + "\n")
+    DONE[job] = rec
+
+
 # ------------------------------------------------------------------------------------------- L0 the control
-log("L0")
-ctrl = next(p for p in PAIRS if p.ch.label == "Tbar(x)Tbar k=3" and p.wb.label == "sym Tbar(x)Tbar k=3")
-U0, E0 = SA.u_eta_np(np.array([TAUS[0]["tau"]]))
-rc = np.random.default_rng(2112)
-synth = None
-for _ in range(2000):
-    v = rc.normal(size=ctrl.ch.nfree + ctrl.wb.nfree)
-    r = ctrl.evaluate(v, U0, E0)
-    if r is not None and np.all(r[0] > 1e-6) and np.all(r[0] < 0.99):
-        synth = (v, r)
-        break
-sdata = dict(DATA)
-sdata[synth[1][1]] = (np.log(synth[1][0]), DATA[synth[1][1]][1], 0.0)
-other = "IO" if synth[1][1] == "NO" else "NO"
-sdata[other] = (DATA[other][0], DATA[other][1], 1e6)
-pb, vb = fit_pair(ctrl, U0, E0, np.random.default_rng(2113), data=sdata)
-OUT["L0"] = {"synthetic observables": synth[1][0].tolist(), "order": synth[1][1], "chi2_min": vb, "holds": bool(vb <= 0.01)}
-log("L0", vb)
+if "L0" not in DONE:
+    log("L0")
+    ctrl = next(p for p in PAIRS if p.ch.label == "Tbar(x)Tbar k=3" and p.wb.label == "sym Tbar(x)Tbar k=3")
+    U0, E0 = SA.u_eta_np(np.array([TAUS[0]["tau"]]))
+    rc = np.random.default_rng(2112)
+    synth = None
+    for _ in range(2000):
+        v = rc.normal(size=ctrl.ch.nfree + ctrl.wb.nfree)
+        r = ctrl.evaluate(v, U0, E0)
+        if r is not None and np.all(r[0] > 1e-6) and np.all(r[0] < 0.99):
+            synth = (v, r)
+            break
+    sdata = dict(DATA)
+    sdata[synth[1][1]] = (np.log(synth[1][0]), DATA[synth[1][1]][1], 0.0)
+    other = "IO" if synth[1][1] == "NO" else "NO"
+    sdata[other] = (DATA[other][0], DATA[other][1], 1e6)
+    pb, vb = fit_pair(ctrl, U0, E0, np.random.default_rng(2113), data=sdata)
+    save("L0", {"synthetic observables": synth[1][0].tolist(), "order": synth[1][1], "chi2_min": vb,
+                "holds": bool(vb <= 0.01)})
+    log("L0", vb)
+OUT["L0"] = DONE["L0"]
 
 # ------------------------------------------------------------------------------------------- stage L
-log("stage L")
-rows = []
 CHECK = [complex(0.137, 1.291), complex(-0.284, 2.173), complex(0.41, 0.95)]
-for ti, T in enumerate(TAUS):
+
+
+def l_job(job):
+    ti, pi_ = job
+    T, pair = TAUS[ti], PAIRS[pi_]
     U, E = SA.u_eta_np(np.array([T["tau"]]))
-    for pi_, pair in enumerate(PAIRS):
-        rng = np.random.default_rng(3000 + 100 * ti + pi_)
-        pbest, vbest = fit_pair(pair, U, E, rng)
-        rec = {"assignment": T["assignment"], "tau*": [T["tau"].real, T["tau"].imag], "pair": pair.label,
-               "free": pair.p, "dof": pair.dof, "chi2_min (a = 0.10)": vbest}
-        for a2 in (0.05, 0.20):
-            rec[f"chi2_min (a = {a2})"] = fit_pair(pair, U, E, np.random.default_rng(5000 + 100 * ti + pi_), a=a2,
-                                                   n1=2000, n2=10, n3=2)[1]
-        if vbest < 1e29:
-            rec["best point"] = readout(pair, pbest, U, E, CHECK)
-            rec["params"] = pbest.tolist()
-        if pair.dof >= 1:
-            rec["pass mark"] = float(CHI2.ppf(0.95, pair.dof))
-            rec["passes"] = bool(vbest <= rec["pass mark"])
-        else:
-            rec["pass mark"] = "3.84 (compatibility only)"
-            rec["compatible"] = bool(vbest <= 3.84)
-        rows.append(rec)
-        log(f"tau* {ti} ({T['assignment']})", pair.label, "dof", pair.dof, "chi2", round(vbest, 3),
-            "pass" if rec.get("passes") else ("compat" if rec.get("compatible") else "-"))
+    rng = np.random.default_rng(3000 + 100 * ti + pi_)
+    pbest, vbest = fit_pair(pair, U, E, rng)
+    rec = {"assignment": T["assignment"], "tau*": [T["tau"].real, T["tau"].imag], "pair": pair.label,
+           "free": pair.p, "dof": pair.dof, "chi2_min (a = 0.10)": vbest}
+    for a2 in (0.05, 0.20):
+        rec[f"chi2_min (a = {a2})"] = fit_pair(pair, U, E, np.random.default_rng(5000 + 100 * ti + pi_), a=a2,
+                                               n1=2000, n2=10, n3=2)[1]
+    if vbest < 1e29:
+        rec["best point"] = readout(pair, pbest, U, E, CHECK)
+        rec["params"] = pbest.tolist()
+    if pair.dof >= 1:
+        rec["pass mark"] = float(CHI2.ppf(0.95, pair.dof))
+        rec["passes"] = bool(vbest <= rec["pass mark"])
+    else:
+        rec["pass mark"] = "3.84 (compatibility only)"
+        rec["compatible"] = bool(vbest <= 3.84)
+    log(f"tau* {ti} ({T['assignment']})", pair.label, "dof", pair.dof, "chi2", round(vbest, 3),
+        "pass" if rec.get("passes") else ("compat" if rec.get("compatible") else "-"))
+    return f"L {ti} {pi_}", rec
+
+
+log("stage L")
+JOBS = [(ti, pi_) for ti in range(len(TAUS)) for pi_ in range(len(PAIRS))]
+PENDING = [j for j in JOBS if f"L {j[0]} {j[1]}" not in DONE]
+log("jobs", len(JOBS), "pending", len(PENDING))
+if PENDING:
+    with MPR.get_context("fork").Pool(2) as pool:
+        for key, rec in pool.imap_unordered(l_job, PENDING):
+            save(key, rec)
+rows = [DONE[f"L {ti} {pi_}"] for ti, pi_ in JOBS]
 OUT["stage L"] = rows
 tested = [r for r in rows if r["dof"] >= 1]
 passes = [r for r in tested if r["passes"]]
@@ -371,13 +436,14 @@ OUT["L3"] = {"tests with dof >= 1": len(tested), "passes": len(passes), "holds":
              "compatible at dof 0": sum(1 for r in rows if r.get("compatible"))}
 
 # ------------------------------------------------------------------------------------------- L5 the random-target control
-log("L5")
-L5 = []
-for r in passes:
+
+
+def l5_job(idx):
+    r = passes[idx]
     pair = next(p for p in PAIRS if p.label == r["pair"])
     T = complex(*r["tau*"])
     U, E = SA.u_eta_np(np.array([T]))
-    rt = np.random.default_rng(7000 + len(L5))
+    rt = np.random.default_rng(7000 + idx)
     better, n = 0, 0
     while n < 200:
         tg = {}
@@ -390,11 +456,19 @@ for r in passes:
         _, v = fit_pair(pair, U, E, np.random.default_rng(8000 + n), data=td, n1=1000, n2=5, n3=1)
         better += int(v <= r["chi2_min (a = 0.10)"])
         n += 1
-    L5.append({"pair": r["pair"], "tau*": r["tau*"], "f": better / n})
     log("L5", r["pair"], r["tau*"], better / n)
-OUT["L5"] = L5
+    return f"L5 {idx}", {"pair": r["pair"], "tau*": r["tau*"], "f": better / n}
+
+
+log("L5")
+L5_PENDING = [i for i in range(len(passes)) if f"L5 {i}" not in DONE]
+if L5_PENDING:
+    with MPR.get_context("fork").Pool(2) as pool:
+        for key, rec in pool.imap_unordered(l5_job, L5_PENDING):
+            save(key, rec)
+OUT["L5"] = [DONE[f"L5 {i}"] for i in range(len(passes))]
 OUT["cells"] = {"L0": OUT["L0"]["holds"], "L1": OUT["L1"]["holds"], "L2": OUT["L2"]["holds"], "L3": OUT["L3"]["holds"]}
-OUT["seconds"] = time.time() - T0
+OUT["seconds (this launch)"] = time.time() - T0
 (HERE / "lepton_test.json").write_text(json.dumps(OUT, indent=1, default=str))
 log("cells", OUT["cells"], "L3", OUT["L3"])
 log("written lepton_test.json")
