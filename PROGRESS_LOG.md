@@ -19839,3 +19839,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   measured magnitude. Every choice the principle makes lands on a symmetric point, and our world sits a little away
   from one, with nothing yet saying how far.
 - **The next framework is the owner's choice.** 0 of 19.
+
+## 2026-10-21 — the owner's choice: does the seed mark where the world sits?
+
+- **Every test so far landed on a symmetric point, and the measurements sit away from it.**
+- **The next test lets the seed choose a line.** Each pattern of moves leaves exactly one line in the space of shapes
+  unchanged. The test puts the shape on that line, for every pattern up to eight moves: forty lines in all.
+- **On a line, the exact quark fits that had no number to spare keep one,** so a fit there becomes a real test.
+- **The seed's own line is one of the forty, and the other lines are its comparison.**
+- **The rule and its predictions are fixed before the program exists.** 0 of 19.

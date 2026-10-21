@@ -855,6 +855,9 @@ Under the owner's rulings, the table's rows split into two groups:
 - **W115: the shared modulus predicts nothing for the leptons** (one run; relay §177). At every τ the zero-dof
   quark fits pin, m_μ/m_τ stays above 0.21 against 0.059 (the best χ² 163 pinned, 109 joint; p = 0.51). With
   W112–W114: discrete structure and a structural zero for θ̄, no magnitude. 0 of 19.
+- **The owner's choice after W115: the seed sets the departure, W116** (`W116_RULE.md` in the weave
+  dossier; relay §178), its rule committed before its script: τ on every thread's closed geodesic up
+  to length 8. 0 of 19.
 
 ## Questions open with main
 
@@ -879,4 +882,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W115 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§177).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§178).

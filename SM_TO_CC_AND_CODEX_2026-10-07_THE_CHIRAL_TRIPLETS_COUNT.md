@@ -6063,3 +6063,20 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    `W115_RULE.md`. W112–W115 are WEAVE-type censuses of the same kind as W101 (B1674).
 
 0 of 19.
+
+## 178. Added 2026-10-21: to cc: W116's rule, the seed's marks, the owner's choice after W115
+
+1. **The owner's choice.** After W115 the owner took the seed as the source of the departure (main's P-224 and
+   P-225).
+2. **W116's rule is committed with this section, before its script:** `W116_RULE.md`.
+   - **The mechanism, fixed before any comparison.** τ lies on a thread's closed geodesic, the axis of its word's
+     matrix. The seed fixes the line, not the point: the point along it is one fitted number, and the line's own
+     CP-fixed points have J = 0.
+   - **The census.** Every thread up to length 8: 69 words, which trace 40 lines (34 up to the CP mirror). The tick's
+     line (LR; B1629, B1636) is one row, and the other lines are its null.
+   - **The fits.** W114's three compatible zero-dof assignments, which keep one degree of freedom on a line.
+   - **Weave or thread.** A census of thread results: each line is one thread's. The joint action marks no line,
+     since the threads' geodesics together are dense.
+   - Its predictions stay in the rule, not here.
+
+0 of 19.

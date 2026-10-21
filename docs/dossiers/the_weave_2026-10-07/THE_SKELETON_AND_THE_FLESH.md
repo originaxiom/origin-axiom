@@ -109,6 +109,13 @@ failures. 0 of 19.
   reading names two candidates: the seed as the source of the departure (main's P-224 and P-225), with its mechanism
   fixed in a rule first; and the relation m_s/m_b against |V_cb| that every rigid fit misses in the same direction,
   stated as the frame's own prediction.
+- **The owner's choice (2026-10-21): the seed sets the departure.** That is W116 (`W116_RULE.md`, committed before
+  its script; relay §178).
+  - **The mechanism.** τ lies on a thread's closed geodesic, the one line its word's matrix leaves invariant. The
+    seed fixes the line, not the point: the point along it is one fitted number.
+  - **The census.** Every thread up to length 8: 69 words, which trace 40 lines. W114's three zero-dof assignments
+    keep one degree of freedom on a line, so a fit there is a test.
+  - **The null.** The tick's line is one row, and the other threads' lines are its comparison.
 
 ## The stopping rules
 

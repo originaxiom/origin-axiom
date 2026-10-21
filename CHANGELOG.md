@@ -1,5 +1,14 @@
 # Changelog
 
+## W116's rule: the seed's marks, the owner's choice after W115 (relay §178)
+
+- **The question.** Does the seed set the departure from the symmetric points? The mechanism is fixed first: τ lies on
+  a thread's closed geodesic, and the point along it is one fitted number.
+- **The rule is committed before its script.** It fixes the census (every thread up to length 8: 69 words, 40 lines),
+  the fits (W114's three zero-dof assignments, with one degree of freedom left on a line), the null over the lines,
+  the cells and their priors.
+- **Surfaces.** The rule, the goal page, relay §178, the ledger's relay row, and the state page. 0 of 19.
+
 ## W115: the leptons at the shared τ, a clean negative; four tests read together (relay §177)
 
 - **The order.** The rule was pushed before the script (5a9914425), the script was committed before its one run
