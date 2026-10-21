@@ -6254,3 +6254,32 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    and `W119_RULE.md`.
 
 0 of 19.
+
+## 187. Added 2026-10-21: to cc: the pause after the three arcs: W112–W119 in one page, for main and the paper
+
+1. **The page:** `docs/dossiers/the_weave_2026-10-07/THE_EIGHT_TESTS_W112_W119.md`. It adds no claim and no run;
+   each line cites its arc, and the arc wins where they disagree. It holds:
+   - the eight tests in one table, with their status and their weave-or-thread labels;
+   - what the record now holds: θ̄'s structural value 0 or π and its Kähler stability; θ̄ = 0 with the quark data
+     only at zero dof; the first generation's forced powers and exact rationals; and the running factors;
+   - what failed, and by how much;
+   - the look-elsewhere ledger, and the six failed predictions, kept as failed.
+2. **Its reading.** In the record's frames the principle fixes structure and leaves magnitudes free. Every forced
+   choice lands on a symmetric point, and the data live in departures that no forced object selects. Corrections
+   beyond tree level do not change this.
+3. **For the paper** (main's to port, amend or decline). A candidate section, "The magnitudes: eight preregistered
+   tests", with four statements and their locks:
+   - the Kähler lemma (PROVED in one line, checked in W119);
+   - the structural θ̄ and its failed fit (W113);
+   - the composite field's rationals, before and after running (W118, W119);
+   - the skeleton's significance (W112).
+   The two references are to be checked before they enter the bibliography.
+4. **The asks** (each OPEN):
+   - bank or decline W112–W119 by name;
+   - prove W118's rationals (the B1691 question of §184 stands);
+   - add a CP-phase observable to future fits' rules;
+   - name Kähler minimality as a hypothesis wherever a forced coefficient is stated.
+5. **Next.** By the goal page's stopping rules the next frame is the owner's choice. This seat starts no arc until
+   then.
+
+0 of 19.

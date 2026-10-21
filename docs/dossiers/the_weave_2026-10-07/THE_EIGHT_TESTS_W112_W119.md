@@ -1,0 +1,154 @@
+# The skeleton and the flesh after eight tests: W112–W119 in one page (2026-10-21)
+
+The SM-derivation seat, 2026-10-21. The owner's order after W116 was three arcs, each done properly, then a pause to
+consolidate. This is the pause. The page adds no claim and no run. Every line cites the arc that computes it, and
+that arc wins wherever the two disagree. Each statement carries its status: PROVED (by hand, checked), COMPUTED (one
+preregistered run), READING (an interpretation), or OPEN. It is written for main and for the paper. 0 of 19.
+
+## The question
+
+- **The goal page** (`THE_SKELETON_AND_THE_FLESH.md`) split the owner's vision in two:
+  - **the skeleton,** the integer pattern of the hierarchies, which the principle might force;
+  - **the flesh,** one departure δ from a symmetric point and order-one coefficients, either contingent or set by one
+    canonical datum.
+- **What would count:** an unfitted prediction, confirmed, with its look-elsewhere count stated. A fit alone never
+  counts, and a coincidence never counts.
+- **The discipline, kept in all eight.** Each rule was committed and pushed before its script existed. Each script was
+  committed before its one run, and each output was committed before it was read. Every failed prediction is recorded
+  as failed.
+
+## The eight tests
+
+| arc | the question | the answer | status |
+| --- | --- | --- | --- |
+| W112 | Does W69's forced menu fit the data's hierarchy better than chance? | It fits within a factor 1.81, at δ = 0.0227 from ω, but 14% of random targets fit as well (p = 0.139), and the first generation fails at every fit (m_u = m_e = 0) | COMPUTED; WEAVE-type |
+| W113 | Does any assignment make θ̄ constant at every τ while the CKM phase and a hierarchy survive? | Exactly one does, every quark in T̄ at weight 3: θ̄ ∈ {0, π} at every τ with J ≠ 0. It does not fit the quarks (χ²_min 104 for 2 dof) | COMPUTED; WEAVE-type |
+| W114 | With θ̄ = 0 tuned at every τ, can the frame hold the quark data? | Only with no degree of freedom to spare: four of five such assignments are compatible (11, 13, 16 exactly; 14 at χ² 2.55 in W114, exactly after W115's correction); nothing with a degree of freedom fits (best 47.9) | COMPUTED; WEAVE-type |
+| W115 | At the τ the quark fits pin, do the leptons follow? | No. m_μ/m_τ stays above 0.21 against 0.059 (pinned χ² 163, joint 109), and random targets fare as well (p = 0.51) | COMPUTED; WEAVE-type |
+| W116 | Does the seed's line, a thread's closed geodesic, select τ? | No. All 40 lines up to length 8 hold the quarks with a degree of freedom to spare, the tick's among them (p = 0.60) | COMPUTED; a census of thread results |
+| W117 | Do the weave's functionals mark a point on the line? | On the tick's line only i, where the masses are degenerate (χ² 1310). A quarter of the other lines carry a passing mark that no rule selects (p = 0.90) | COMPUTED; a census of thread results |
+| W118 | Does the composite field lift the first generation's zero with forced numbers? | Yes in form: δ² : δ : 1 near ω and an exact rational m₁m₃/m₂². In value, two of seven rationals reach the up window, none the down or lepton windows | COMPUTED; WEAVE-type given Λ |
+| W119 | Do Kähler and loop corrections change W113 or W118? | No. No Kähler metric moves θ̄; one-loop running moves the double ratios by 0.55 to 1.13, and none reaches the down or lepton windows | COMPUTED (B1 also PROVED); WEAVE-type |
+
+## What the record now holds
+
+1. **θ̄'s structural value, 0 or π.** COMPUTED (W113), with its stability PROVED by hand and checked (W119).
+   - In the record's frame exactly one assignment makes θ̄ constant without tuning: every quark in T̄ at weight 3.
+     There θ̄ ∈ {0, π} at every τ, while J ≠ 0 at generic τ.
+   - Canonical normalization replaces Y by K_L^{−1/2} Y K_R^{−1/2}, which multiplies det Y by a positive real. So no
+     Hermitian positive Kähler metric moves arg det(Y_u Y_d). W119 checks this at three τ over 300 metrics: the
+     change is at most 7 × 10⁻⁴⁸ at 50 digits.
+   - In the Standard Model θ̄'s running is of high loop order and negligible. That is a READING, cited (Ellis and
+     Gaillard 1979).
+   - **The price:** that assignment does not fit the quarks (χ²_min 104 for 2 dof), and its best point conserves CP.
+   - Which of 0 and π occurs depends on the coefficients (0 for 45.5% of W113's sampled pairs).
+2. **θ̄ = 0 and the quark data together.** COMPUTED (W114). They coexist in the frame only with as many numbers as
+   the data: the Standard Model's own count, with θ̄ tuned.
+3. **The first generation's lift.** COMPUTED (W118).
+   - The composite field (the cross products P₁, P₂, P₃ of the weight-3/2 one-unit sections) lifts the zero in the
+     15 pairings derived by hand from det Y(a; c) = (a·c)(a·a)(c·c).
+   - Every scored pairing has the forced powers δ² : δ : 1 near ω. Its coefficient m₁m₃/m₂² is one of 15, 735/121,
+     77/4, 3/5, 5/4, 385/529 and 1. These rationals are identified numerically to 10⁻⁸–10⁻¹²; their proof is OPEN.
+   - With W68's 15 and 1, these are every forced coefficient on record.
+4. **The running of the forced coefficients.** COMPUTED (W119). At one loop m₁/m₂ does not run, and m₂/m₃ runs
+   through the third generation. Over the SM and the MSSM (tan β 2 to 50, Λ 10¹² to 10¹⁶ GeV), F = DR(M_Z)/DR(Λ)
+   lies in 0.545–0.903 (up), 0.702–1.130 (down) and 0.843–1.000 (leptons).
+
+## What failed, and by how much
+
+- **The skeleton** (W112). It fits the five numbers no better than chance: p = 0.139 within a decade, 0.190 within
+  half a decade.
+- **The fit at the structural zero** (W113): χ²_min 104 for 2 dof.
+- **A fit with a degree of freedom** (W114): the best is χ² 47.9 for 2 dof.
+- **The leptons at the shared τ** (W115): at the pinned τ, m_μ/m_τ stays above 0.21 against 0.059.
+- **The seed's line** (W116): it costs nothing and selects nothing; 24 of the 40 lines do as well as the tick or
+  better.
+- **The seed's point** (W117): the tick's only mark is i, where the masses are degenerate (χ² 1310 to 1378).
+- **The first generation's coefficients** (W118 and W119).
+  - **Down quarks.** The data's 2.68 (window 1.81–3.97) falls in the gap between the forced 5/4 and 735/121 ≈ 6.07.
+    After running, 5/4 rises at most to 1.41, and 735/121 falls at least to 4.27.
+  - **Leptons.** The data's 0.081 (window 0.061–0.107) lies below every forced value; the smallest after running is
+    0.51. It would need F ≤ 0.18.
+
+## The look-elsewhere ledger
+
+| arc | what was tried | what passed | against chance |
+| --- | --- | --- | --- |
+| W112 | 21 952 forced assignments, τ over the fundamental domain | 3 within a factor 2 | p = 0.139 (decade), 0.190 (half decade) |
+| W115 | every lepton coupling with one free number, at every pinned τ | none | p = 0.51 |
+| W116 | 40 lines (69 words up to length 8) | all 40 | p = 0.60 |
+| W117 | 205 marks on 34 classes | 10 lines | p = 0.90 |
+| W118 | 12 scored pairings × 3 sectors = 36 | 2, both up | chance level |
+| W119 | 7 forced values × 3 sectors × 24 scan points | 0 coherent points; up only | the up window spans a factor 2.4 |
+
+## The predictions that failed (kept as failed)
+
+- **W112 K2 and K3,** that the fit is significant (priors 20% and 10%). Both failed, as their priors expected.
+- **W113 C6,** that the forced assignment fits (prior 5%). It failed, as predicted.
+- **W113 T1** failed as worded. Its exceptions were classified post hoc as rank-two members.
+- **W114 U4,** that no zero-dof assignment is compatible (prior 65%). It failed: four of five are. W115's broader
+  search later found that 14, too, fits exactly.
+- **W116 S4,** that no assignment passes on the tick's line (prior 85%). It failed: 11 passes at χ² 0.33.
+- **W118 H4,** that no forced double ratio falls in any window (prior 60%). It failed: 3/5 and 385/529 fall in the up
+  window.
+- W115, W117 and W119 held every cell as predicted.
+
+## The pattern across the eight (a READING)
+
+- **Discrete outputs come out exact.** θ̄ ∈ {0, π} (W113); J = 0 on every CP-fixed locus (W113, W116, W117); the
+  powers δ² : δ : 1 and the rational coefficients (W118).
+- **Magnitudes do not.** Every forced choice lands on a symmetric point (ω, i, a CP-fixed point). The data live in
+  departures from those points, which no forced object selects: W112's δ, W116's line, W117's point.
+- **The step beyond tree level does not change this** (W119).
+  - Kähler normalization is powerless on θ̄.
+  - One-loop running is a factor below 2.
+  - Non-minimal Kähler terms could move values only with free coefficients of their own, so they cannot lower the
+    count (Chen, Ramos-Sánchez and Ratz, arXiv:1909.06910).
+- **So, in the record's frames, the principle fixes structure and leaves magnitudes free.** The skeleton is not
+  supported (no better than chance), and the flesh has no mechanism on record. This is the goal page's clean
+  negative, stated once for all eight.
+- **Weave or thread.** W116 and W117 are censuses of thread results. They are never presented as answers to a weave
+  question. The other six are WEAVE-type results given their stated frames.
+
+## For the paper (proposed; for main to port, amend or decline)
+
+- **Where it fits.** The paper's subject is the boundary of what the grammar leaves free
+  (`papers/P9_what_a_grammar_fixes/README.md`). These eight tests mark that boundary on the magnitudes side.
+- **A candidate section, "The magnitudes: eight preregistered tests,"** with four statements:
+  1. **A lemma.** Under canonical normalization with any Hermitian positive Kähler metrics, arg det(Y_u Y_d) is
+     unchanged, so a structural θ̄ is Kähler-stable. PROVED in one line, and checked (W119).
+  2. In the frame's one forced assignment, θ̄ ∈ {0, π} at every τ with J ≠ 0, and χ²_min = 104 for 2 dof. COMPUTED
+     (W113).
+  3. The composite field's forced double ratios near ω are the seven rationals above. None reaches the down or lepton
+     windows, at tree level or after one-loop running in the SM and the MSSM. COMPUTED (W118, W119).
+  4. The forced menu fits the hierarchy no better than chance (p = 0.139). COMPUTED (W112).
+- **The locks.** `test_w112_the_skeleton` through `test_w119_the_beyond_tree_level` in
+  `tests/test_b1552_the_chiral_triplets_count.py`, for `verify.sh` if the section is taken.
+- **The references,** to be checked against Crossref or arXiv before they enter `refs.bib`: Chen, Ramos-Sánchez and
+  Ratz, arXiv:1909.06910; Ellis and Gaillard (1979) on θ̄'s renormalization.
+- The paper credits no seat. Any text taken from here is main's to word.
+
+## For main (each OPEN)
+
+1. **Bank or decline W112–W119 by name.** The relays are §170–§186 of
+   `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md`.
+2. **W118's rationals.** Prove them. The question to B1691's k mod 6 rule (§184) stands.
+3. **The CP phase in the fits.** W66's eight observables carry none, so a CP-conserving point can pass (W117). A ninth
+   observable (J, or δ_CKM) would sharpen every later fit. This is a proposal for future rules, not a rescore.
+4. **Kähler minimality.** Any statement of a forced coefficient assumes a minimal Kähler metric. The proposal is to
+   name that hypothesis wherever such a coefficient is stated.
+5. **The first generation's other candidates** have no object on record: (c), end data at the puncture, needs P-108's
+   parent map; (e), the exponential sector, needs L201's construction.
+
+## What stays open, and what comes next
+
+- **By the goal page's stopping rules,** the next frame is chosen with the owner. No arc is started by this page.
+- **Candidates** (this seat's READING; none started):
+  1. the CP phase added to the fit's observables, under a new rule, on the frames that held the quarks (W114, W116,
+     W117);
+  2. (c), end data at the puncture, once P-108's parent map exists;
+  3. (e), the exponential sector;
+  4. the relation m_s/m_b against |V_cb|, which every rigid fit misses in the same direction (the reading after
+     W115), stated as the frame's own prediction.
+
+0 of 19.

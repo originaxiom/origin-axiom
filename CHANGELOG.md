@@ -1,5 +1,14 @@
 # Changelog
 
+## The pause: W112–W119 in one page, for main and the paper (relay §187)
+
+- **The page.** `docs/dossiers/the_weave_2026-10-07/THE_EIGHT_TESTS_W112_W119.md`, by the owner's order after the
+  three arcs. It adds no claim and no run. It holds the eight tests, what holds, what failed, the look-elsewhere
+  ledger, the failed predictions kept as failed, a candidate section for the paper, and four asks for main.
+- **Its reading.** In the record's frames the principle fixes structure and leaves magnitudes free.
+- **Surfaces.** The page, the goal page, the NOTE (header bullet, files), relay §187, the ledger, the state page, and
+  a lock. 0 of 19.
+
 ## W119: beyond tree level, the tree level's results stand; the three arcs done (relay §186)
 
 - **The order.** The rule was pushed before the script (403bf62b7), the script was committed before its one run

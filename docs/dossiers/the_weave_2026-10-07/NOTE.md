@@ -406,6 +406,9 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   (SM and MSSM, tan β 2 to 50, Λ 10¹² to 10¹⁶ GeV) moves the forced double ratios by a factor 0.55 to 1.13, too
   little to bring any into the down quarks' or the leptons' window. W118's negative stands. A WEAVE-type result
   given the frames.
+- W112–W119 read together (the owner's pause after the three arcs; a READING, no run): `THE_EIGHT_TESTS_W112_W119.md`
+  gathers the eight tests on one page for main and the paper. In the record's frames the principle fixes structure
+  (θ̄ ∈ {0, π}, δ² : δ : 1, exact rationals) and leaves magnitudes free.
 
 ## The setting
 
@@ -10347,6 +10350,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `THE_EIGHT_TESTS_W112_W119.md`: W112–W119 in one page, for main and the paper (a READING; no run).
 - `W119_RULE.md`: the rule, committed and pushed before the code; `the_beyond_tree_level.py` → `the_beyond_tree_level.json` and `the_beyond_tree_level_run.txt`: W119, beyond tree level (one run).
 - `W118_RULE.md`: the rule, committed and pushed before the code; `the_first_generation.py` → `the_first_generation.json` and `the_first_generation_run.txt`: W118, the first generation (one run).
 - `W117_RULE.md`: the rule, committed and pushed before the code; `the_points_on_the_line.py` → `the_points_on_the_line.json` and `the_points_on_the_line_run.txt`: W117, a point on the line (one run).

@@ -19919,3 +19919,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   leptons, so they still do not match.
 - **The owner's three planned tests are done.** Next is a pause, to gather the last eight results onto one page for
   the main seat and the paper. 0 of 19.
+
+## 2026-10-21 — the pause: eight tests on one page
+
+- **The last eight tests are gathered on one page,** for the main seat and the paper, with nothing new computed.
+- **What they show together:** the principle fixes patterns exactly (which numbers are zero, which powers appear, which
+  fractions), but it does not fix the sizes the measurements need. Every forced choice sits at a symmetric point, and
+  the measured world sits a little away from it, by an amount nothing on record selects.
+- **What comes next is the owner's choice.** The page lists four candidates. 0 of 19.

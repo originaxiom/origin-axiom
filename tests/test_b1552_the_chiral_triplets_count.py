@@ -2599,6 +2599,22 @@ def test_the_paper_draft7():
 
 
 
+def test_the_eight_tests_page():
+    """the pause after the three arcs: W112-W119 in one page; every arc has a row, each failed prediction is named, and
+    the page cites every arc's lock in this file"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    page = (here / "THE_EIGHT_TESTS_W112_W119.md").read_text(encoding="utf-8")
+    rows = [ln for ln in page.splitlines() if ln.startswith("| W1")]
+    assert [r.split("|")[1].strip() for r in rows[:8]] == [f"W{n}" for n in range(112, 120)]
+    for cell in ("W112 K2 and K3", "W113 C6", "W113 T1", "W114 U4", "W116 S4", "W118 H4"):
+        assert cell in page
+    src = Path(__file__).read_text(encoding="utf-8")
+    for name in ("test_w112_the_skeleton", "test_w119_the_beyond_tree_level"):
+        assert name in page and f"def {name}(" in src
+    assert page.rstrip().endswith("0 of 19.")
+    assert "THE_EIGHT_TESTS_W112_W119.md" in (here / "THE_SKELETON_AND_THE_FLESH.md").read_text(encoding="utf-8")
+
+
 def test_w119_the_beyond_tree_level():
     """W119 (rule 403bf62b7; script 7144030fe; one run 1423a23a5): every cell as predicted; B0's one-loop gauge
     couplings recomputed in process; each point's reaches recomputed from F, the forced rationals and the windows;

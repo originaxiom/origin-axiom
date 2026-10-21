@@ -878,6 +878,9 @@ Under the owner's rulings, the table's rows split into two groups:
   arg det(Y_u Y_d), so W113's structural θ̄ stays structural. One-loop running from Λ to M_Z, in the SM and the
   MSSM, multiplies the forced double ratios by 0.55 to 1.13, and none reaches the down quarks' or the leptons'
   window. The owner's three arcs are done; a pause to consolidate W112–W119 follows. 0 of 19.
+- **The pause: W112–W119 in one page** (`docs/dossiers/the_weave_2026-10-07/THE_EIGHT_TESTS_W112_W119.md`; relay
+  §187). A READING with no run: the principle fixes structure and leaves magnitudes free in the record's frames. The
+  next frame is the owner's choice. 0 of 19.
 
 ## Questions open with main
 
@@ -902,4 +905,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W119 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§186).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§187).

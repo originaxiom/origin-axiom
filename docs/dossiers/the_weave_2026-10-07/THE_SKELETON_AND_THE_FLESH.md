@@ -177,6 +177,10 @@ failures. 0 of 19.
     the count.
   - **The owner's three arcs are done.** Next, by the owner's order: a pause to consolidate W112–W119 into one page
     for main and the paper.
+- **The pause: W112–W119 in one page** (`THE_EIGHT_TESTS_W112_W119.md`; relay §187; no run). The eight tests,
+  what holds, what failed, the look-elsewhere ledger, the failed predictions, a candidate section for the paper, and
+  the asks for main. Its reading: in the record's frames the principle fixes structure and leaves magnitudes free. The
+  next frame is the owner's choice.
 
 ## The stopping rules
 
