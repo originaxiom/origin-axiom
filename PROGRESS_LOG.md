@@ -17499,3 +17499,14 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   here", with P-231 to read them).
 - **Full suite.** 7425 passed, 3 failed, 68 skipped (58:05, -n 8): B186, the BLAS-dependent lock (R65-9); the two whole-gate locks (tests/test_repo_gates.py, tests/test_b887_gate_audit.py), on views-fresh alone, which reads the views against the last review anchor and passes once this review's commit lands; both re-run after the commit.
 
+## 2026-10-21 — S156 GENESIS v1.51 (B1685): THE RELIANCE TAGS IN GENESIS
+
+- Review 66 committed and pushed (edc00742e); gates 45 of 45 after the commit, the two whole-gate locks re-run and passing.
+- B1685 moved from `audit/drafts/genesis_v1_51/`; `amend.py` applied and `--check` clean; twenty tags, the §5 note, the
+  log; FK11's W45 and W46 verified; GM1's κ wording (P-221). P-228, P-221 DONE; R66-5 paid.
+- The first draft's lock asked for at least 25 tags (the count of anchors, not of tags); the exact count is 22 (twenty
+  sites, the §5 note, the log line), fixed before the suite. P-228's row named GAP3's R41, R76, R77, R80, already tagged.
+- The first landing run failed B1626's lock as well as B186: Review 66 declined eleven rows B1626 had left open, and the
+  review's full suite never ran the lock (testpaths = tests; fifteen locks live under frontier/). The lock now counts the
+  later dispositions; P-232 registered (FLOOR 232). Re-run below.
+- **Landing suite.** 201 files (the landing set, every GENESIS-reading lock and all fifteen frontier locks), 2413 passed, 1 failed, 6 skipped (9:54, -n 8); the one failure is B186's BLAS-dependent lock (R65-9).

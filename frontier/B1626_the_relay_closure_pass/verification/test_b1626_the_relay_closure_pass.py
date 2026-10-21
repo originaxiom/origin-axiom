@@ -8,7 +8,10 @@ def test_the_closure_is_on_the_ledger_and_parses():
     t = ROOT.joinpath("docs", "RELAY_LEDGER.md").read_text(encoding="utf-8")
     closed = [l for l in t.splitlines() if l.startswith("| `CC_TO") and "| BANKED |" in l and "R62-5 (2026-10-09, B1626)" in l]
     still = [l for l in t.splitlines() if l.startswith("| `CC_TO") and "| OPEN |" in l and "R62-5 (2026-10-09, B1626)" in l]
-    assert len(closed) == 40 and len(still) == 25
+    # B1626 left 25 open; Review 66 (P-126) later declined the ones addressed to the retired codex lane, with the reason
+    later = [l for l in t.splitlines() if l.startswith("| `CC_TO") and "| DECLINED |" in l and "R62-5 (2026-10-09, B1626)" in l
+             and "Review 66 (P-126)" in l]
+    assert len(closed) == 40 and len(still) + len(later) == 25
     assert not [l for l in t.splitlines() if l.startswith("| `CC_TO") and re.search(r"\| READ \|", l)]
     for n in ("CUSP_WARD_AND_FLAVOR_TENSOR", "COMPACT_BOUNDARY_INDEX", "SILVER_ANALYTIC_TRANSFER"):
         assert ("CODEX_TO_CC_AND_SM_2026-10-0" in t) and n in t, n

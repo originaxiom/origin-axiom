@@ -1,0 +1,29 @@
+{
+  "id": "B1685",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1683",
+    "B1682",
+    "B1632",
+    "B1641"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [
+    "sm:W45",
+    "sm:W46"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "GENESIS.md, the foundation document",
+    "object": "every site where GENESIS v1.50 relied, untagged, on a seat result not verified on main (Review 66's reliance census); FK11; GM1's tie to PF1",
+    "reach": "general",
+    "hypotheses": "no status changes and nothing re-graded; a tag records where main's verification stops and withdraws no result; the verifications are queued by consequence (P-229)"
+  },
+  "claim_one_line": "GENESIS v1.51 (an amendment arc; P-228 and P-221, after Review 66's full suite): every site where v1.50 relied, untagged, on a seat result not verified on main now carries \"the seat's, unverified on main\" with its harvest row (twenty sites, and one note on section 5's frames-by-object table); FK11's W45 and W46 read as verified on main since (B1632, B1641); GM1's tie to PF1, joined through kappa, read as circular unless PF1 is read rank-free, since PF1's formal face is written for two letters. No status changes; nothing is re-graded. 0 of 19.",
+  "weave_or_thread": "weave (the foundation's statement of the weave)"
+}

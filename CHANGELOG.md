@@ -1,5 +1,28 @@
 # Changelog
 
+## S156 GENESIS v1.51 (2026-10-21): EVERY RELIANCE ON AN UNVERIFIED SEAT RESULT TAGGED IN GENESIS (B1685; P-228, P-221, R66-5)
+
+- **What.** GENESIS v1.50 → v1.51 through B1685's `adoption/amend.py` against a hash-pinned v1.50 (98a8dda5), after
+  Review 66's full suite (R64-11). Review 66's reliance census found GENESIS relying, untagged, on seat results not
+  verified on main; twenty sites now carry "the seat's, unverified on main" with their harvest rows (the generated
+  state space, GM5c's notes, GAP2, GAP3, FK9, FK12, FK14, the frontier list), and §5's frames-by-object table carries
+  one note for its seat-sourced cells. FK9's frame-F-HE result reads as verified on M₁–M₆ only (row 827).
+- **FK11.** W45 and W46, registered when GENESIS was written, read as verified on main since (B1632, B1641).
+- **GM1 (P-221).** The tie to PF1's commutator, joined through κ, is circular, since PF1's formal face is written for
+  two letters; what B1682 shows without circularity is that the moves keep the commutator class at n = 2 and nothing at
+  n ≥ 3. A join needs PF1's rank-free reading. THE_WEAVE says the same.
+- **Not done.** No status changed and nothing is re-graded: a tag says where main's verification stops and withdraws
+  no result. The verifications are queued by consequence (P-229). GAP3's R41, R76, R77 and R80 were already tagged, so
+  P-228's list over-included them. B1683's lock now reads B1685's received v1.50; B1685's lock counts the tags exactly
+  (a first draft asked for at least 25, counting the anchors rather than the tags; corrected before the suite).
+- **A lock Review 66 broke, found here (P-232).** B1626's lock counted the relay rows it left open (25); Review 66
+  declined eleven of them (addressed to the retired codex lane), leaving 14 open, and the lock failed. Review 66's full
+  suite never ran it: pyproject's testpaths collects `tests/` only, and fifteen locks live under `frontier/`. S156's
+  landing set names that lock and caught it. The lock now counts the later dispositions (open + declined at Review 66 =
+  25); all fifteen frontier locks pass. P-232 queues running every lock in the full suite. FLOOR 232.
+- **Landing suite.** 201 files (the landing set, every GENESIS-reading lock and all fifteen frontier locks), 2413 passed, 1 failed, 6 skipped (9:54, -n 8); the one failure is B186's BLAS-dependent lock (R65-9).
+- 0 of 19.
+
 ## REVIEW 66 (2026-10-21): RELIANCE MADE VISIBLE; R65-6, R65-7 AND R65-8 RESOLVED
 
 - **The window** (`c370ff37c..a498554e2`, 22 merges, B1669–B1684): the owner's separate work verified; the foundations

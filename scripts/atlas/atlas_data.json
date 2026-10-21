@@ -12569,6 +12569,17 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1685": {
+   "slug": "genesis v1 51 reliance tagged",
+   "motifs": [
+    "kappa"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "dormant",
+   "domain": "dynamics"
+  },
   "B168": {
    "slug": "omega accretion generative",
    "motifs": [

@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1413 of 1413 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1414 of 1414 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (960)
+## PROVED (961)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -972,6 +972,7 @@
 | `B1682` | THE WORD SIDE OF THE RECORD COUNT, VERIFIED ON MAIN (re-banks the SM seat's W110, proof before checks before run; main re-derived the proof, ran its own census with its own count for the left moves, to n = 5; the seat's run reproduced byte for byte), AND WHAT THE COMMON POINT IS (the web seat's read of 2026-10-20 night, checked): for n >= 3 no non-trivial conjugacy class of F_n keeps even its cyclic length under every R_ij^{+-1} -- Whitehead's count |R_ij(w)| = m + n_i - 2c_ij forces (n - 2) n_i <= 0 -- so none is kept by the transvections, even up to inversion; at n = 2 the classes kept by the record's R and L are the powers of [a, b], whose trace is PF1's kappa. So for n >= 2 a non-trivial kept object, a class or an SL(2, C) character, exists exactly when n = 2: the input of GENESIS v1.49 is equivalent to two records, not weaker -- GM1 is characterised, not derived (regraded in v1.50, P-212); the word side needs no target; the count of two rests on the democratic extension of the moves (a surface's moves keep the boundary word at every genus; genus 2 checked); persistence means fixed up to conjugation. 0 of 19. |  | 1 |
 | `B1683` | GENESIS v1.50 (an amendment arc; P-212 and R65-3, after S152's full suite): GM1, two records, regraded from DERIVED given one input (v1.49) to POSTULATED, in an equivalent form -- for n >= 2 a non-trivial common character in SL(2, C) (B1679) or a non-trivial kept conjugacy class (B1682, the SM seat's W110) exists exactly when n = 2, so the input characterises two records and is not weaker (the web seat's read, checked on main); named beside it: persistence as fixed up to conjugation, and the democratic extension of the moves (a surface's moves keep the boundary word at every genus; P-211 open). GM5b's 'only this reading never settles' scoped to the two readings B1662 compared (Review 65). The price is not re-counted. 0 of 19. |  | 1 |
 | `B1684` | W59 ON MAIN (P-099, P-100; first in Q3 at the owner's approval of 2026-10-21): every computed cell of the SM seat's W59 (the one-loop potential on the shared fibre) reproduced by main's own code -- the twisted determinant |theta_1(w|tau)/eta|^2 e^{-2 pi (Im w)^2/y} by an Epstein-Poisson route (1e-15; w = phi_2 - phi_1 tau), the parity product 4; the cover's arithmetic; log(y|eta|^4) and E(tau, 3) critical only at i (saddle) and omega; the joint parity sum -(15/16) E; the joint-parity boson's stationary points (at omega twelve, the global minimum at the 3-torsion points, the 2-torsion points shallow minima -- K4's failure as worded reproduced); who sees which line; the Higgs alone at omega on eighteen lines in ninths, d^c and e^c differing -- and the seat's runs reproduced to machine precision. The state is an input: the seat's W60 puts the full potential's line at a half-period and W62 finds it not stationary in tau; main checks W62's mechanism for the Higgs's term (gradient 8.68 at omega on a half-period line; the joint sum 9e-8). So B1653, B1656, B1660 and B1673 rest on correct mathematics at an unselected state (P-214). 0 of 19. |  | 1 |
+| `B1685` | GENESIS v1.51 (an amendment arc; P-228 and P-221, after Review 66's full suite): every site where v1.50 relied, untagged, on a seat result not verified on main now carries "the seat's, unverified on main" with its harvest row (twenty sites, and one note on section 5's frames-by-object table); FK11's W45 and W46 read as verified on main since (B1632, B1641); GM1's tie to PF1, joined through kappa, read as circular unless PF1 is read rank-free, since PF1's formal face is written for two letters. No status changes; nothing is re-graded. 0 of 19. |  | 1 |
 
 ## NEGATIVE (349)
 

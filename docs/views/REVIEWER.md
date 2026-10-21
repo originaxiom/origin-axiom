@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1413** |
-| words of findings prose | **1,126,362** |
-| test lock files referenced | **830** |
-| arcs carrying an authored verdict | **1413** (100.0 %) |
+| research arcs with findings | **1414** |
+| words of findings prose | **1,126,778** |
+| test lock files referenced | **831** |
+| arcs carrying an authored verdict | **1414** (100.0 %) |
 | recorded closures | **825** (658 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 960 |
+| PROVED | 961 |
 | NEGATIVE | 349 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1684`** (1566 words, 1 locks)  
-W59 ON MAIN (P-099, P-100; first in Q3 at the owner's approval of 2026-10-21): every computed cell of the SM seat's W59 (the one-loop potential on the shared fibre) reproduced by main's own code -- the twisted determinant |theta_1(w|tau)/eta|^2 e^{-2 pi (Im w)^2/y} by an Epstein-Poisson route (1e-15; w = phi_2 - phi_1 tau), the parity product 4; the cover's arithmetic; log(y|eta|^4) and E(tau, 3) critical only at i (saddle) and omega; the joint parity sum -(15/16) E; the joint-parity boson's stationary points (at omega twelve, the global minimum at the 3-torsion points, the 2-torsion points shallow minima -- K4's failure as worded reproduced); who sees which line; the Higgs alone at omega on eighteen lines in ninths, d^c and e^c differing -- and the seat's runs reproduced to machine precision. The state is an input: the seat's W60 puts the full potential's line at a half-period and W62 finds it not stationary in tau; main checks W62's mechanism for the Higgs's term (gradient 8.68 at omega on a half-period line; the joint sum 9e-8). So B1653, B1656, B1660 and B1673 rest on correct mathematics at an unselected state (P-214). 0 of 19.  
-`B1684_w59_on_main/FINDINGS.md`
+**PROVED — `B1685`** (416 words, 1 locks)  
+GENESIS v1.51 (an amendment arc; P-228 and P-221, after Review 66's full suite): every site where v1.50 relied, untagged, on a seat result not verified on main now carries "the seat's, unverified on main" with its harvest row (twenty sites, and one note on section 5's frames-by-object table); FK11's W45 and W46 read as verified on main since (B1632, B1641); GM1's tie to PF1, joined through kappa, read as circular unless PF1 is read rank-free, since PF1's formal face is written for two letters. No status changes; nothing is re-graded. 0 of 19.  
+`B1685_genesis_v1_51_reliance_tagged/FINDINGS.md`
 
 **NEGATIVE — `B1673`** (1143 words, 1 locks)  
 THE DYNAMICAL-SELECTION CLAIMS OF 19 OCTOBER, VERIFIED (NEGATIVE; a verification arc of a separate session's unsealed arc, banked under its number; P-199): no static debt of Table 1 is discharged. V = -ln(Im tau |eta|^4) is minimal at omega (1.0335192760; saddle at i, gap 0.0211690050), the classical torus-determinant extremum, already in W51/W59: taking it as the modulus's potential is a choice. The Green function's minimum over the 72 points of exact order 9 is a 12-point orbit (-0.504572), disjoint from W59's eighteen lines; the 3-torsion lies lower. The 8:4 CP count is a coordinate error (points built as (a omega - b)/9, rotated as a + b omega; wrong on 72 of 72); on the true points 0 of 12 are reflection-fixed and the orbit is reflection-closed, so nothing breaks; averaged J is set by the input matrix and is ~1200x the measured 3.1e-5. Orbit-averaged and Selberg spectra (s = l(LR), one thread's length) give ratios near 1/2, missing the data by one to three orders. 0 of 19.  

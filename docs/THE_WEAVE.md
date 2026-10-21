@@ -687,7 +687,9 @@ found with B1635's sealed instrument.
 - **So a kept object exists exactly at two records,** a class or an SL(2, ℂ) character. The input GENESIS v1.49 named
   is equivalent to two records, not weaker (the web seat's read): it characterises GM1, as an invariance of the
   weave's moves, and it ties GM1 to the punctured torus (GM4) and to PF1's commutator. GENESIS v1.50 (B1683) regrades
-  GM1 accordingly: POSTULATED, in an equivalent form (P-212).
+  GM1 accordingly: POSTULATED, in an equivalent form (P-212). The tie to PF1 is a coincidence of form at two letters:
+  joined through κ it is circular, since PF1's formal face is written for two letters, unless PF1 is read rank-free
+  (the SM seat's relay §168; GENESIS v1.51, B1685; P-221).
 - **What the form assumes is a weave choice:** how the moves extend beyond two records. Under democracy (every
   a_i ↦ a_i a_j) the count is two on words and in every target tested. A surface's moves keep the boundary word at
   every genus; on characters, whether the prime 2 then gives two records is P-211.

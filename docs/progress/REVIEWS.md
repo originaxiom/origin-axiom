@@ -6803,7 +6803,7 @@ text and are not repaired. "Not on every remote" is the mirror (R65-1).
 - [>] R66-2: every banked arc hashes its stored output and any post-seal file it cites, with a failing-path test (owner: cc; carried from R65-4, R64-4; due at Review 67)
 - [>] R66-3: adjudicate the chain gap's top entries (owner: cc; carried from R65-5, R64-5; due at Review 67)
 - [>] R66-4: B186's band box dimension re-graded in its own arc (owner: cc; carried from R65-9, R64-10; due at Review 67)
-- [ ] R66-5: GENESIS v1.51 — every untagged reliance in GENESIS tagged, FK11's W45 and W46 read as verified, the κ wording (P-221) — through adoption/amend.py after this review's full suite (owner: cc; P-228)
+- [x] R66-5: GENESIS v1.51 — every untagged reliance in GENESIS tagged, FK11's W45 and W46 read as verified, the κ wording (P-221) — through adoption/amend.py after this review's full suite (owner: cc; P-228) — **paid 2026-10-21 (B1685, GENESIS v1.51)**
 - [ ] R66-6: the verifications by consequence: W60 and W62 (P-222), then P-229's list in order (owner: cc)
 - [ ] R66-7: ledger currency (P-230) and the declined relays' asks (P-231) (owner: cc)
 - [x] R66-8: filed at this review: R65-6, R65-7 and R65-8 resolved (§5); the census banked; the premise-audit notes on B1679, B1670 and B1682; P-214 completed (B1658, B1659); eight terms in TERMINOLOGY
