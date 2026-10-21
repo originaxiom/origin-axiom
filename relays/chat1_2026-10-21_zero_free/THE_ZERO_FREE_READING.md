@@ -6,8 +6,8 @@ chat1, 2026-10-21. This is a reading, offered for the owner's ruling. One sealed
   SM seat's module reads at import (the first launch failed there, before any cell; its log is kept);
 - the output `zero_free_checks_run.txt` and `.json` (808dd4aef).
 
-Refereed read-only before commit, and corrected; a dated follow-up (below the first commit, 7ff595af0) applies the
-referee's second pass. A lepton test built on it was sealed and launched before this file
+Refereed read-only before commit (7ff595af0) and corrected; a follow-up commit (8793d4afa) applies the referee's
+second pass. A lepton test built on it was sealed and launched before this file
 was committed (§6). Nothing here lowers the count. 0 of 19.
 
 ## 0. In brief
