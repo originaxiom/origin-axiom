@@ -1,0 +1,1385 @@
+{
+ "rule": "ZERO_FREE_RULE.md (48e2105f4)",
+ "script": "zero_free_checks.py",
+ "sm_commit": "c9f001d9ded23c059fae7d4475c98231404fec45",
+ "sha256": {
+  "the_strong_angle.py": "a9c4b15b82739289b4698a388da117d4c517380826fcacfc16c6065221028622",
+  "the_tuned_fit.py": "21f979beccd96c5470109d91579eff17af289c6951ed7485822a84e2149c713b",
+  "the_strong_angle.json": "c63429450325b204d886e53d3da2fa1263949bbc4df21ccdd63fc5346e0f44fa",
+  "received/HZ2021_running_masses_MZ.json": "63450365401c149c726e928f842bc7810086ad4d897a62f51217e3c12189880f",
+  "received/B1612_data.json": "61ea1565a2a8b4e053c33cc3b29e37484f6c9c2aeca54f9b6a83c89137e0d606"
+ },
+ "Z0": {
+  "rows": {
+   "T(x)T k=1": {
+    "dim": 1,
+    "recorded_dim": 1,
+    "w": 0,
+    "class": "automatic",
+    "recorded_class": "automatic",
+    "real_basis": true,
+    "holds": true
+   },
+   "T(x)T k=3": {
+    "dim": 2,
+    "recorded_dim": 2,
+    "w": 6,
+    "class": "impossible",
+    "recorded_class": "impossible",
+    "real_basis": true,
+    "holds": true
+   },
+   "T(x)T k=5": {
+    "dim": 4,
+    "recorded_dim": 4,
+    "w": 12,
+    "class": "tuned",
+    "recorded_class": "tuned",
+    "real_basis": true,
+    "holds": true
+   },
+   "T(x)T k=7": {
+    "dim": 5,
+    "recorded_dim": 5,
+    "w": 18,
+    "class": "impossible",
+    "recorded_class": "impossible",
+    "real_basis": true,
+    "holds": true
+   },
+   "Tbar(x)Tbar k=1": {
+    "dim": 1,
+    "recorded_dim": 1,
+    "w": -6,
+    "class": "det identically 0",
+    "recorded_class": "det identically 0",
+    "real_basis": true,
+    "holds": true
+   },
+   "Tbar(x)Tbar k=3": {
+    "dim": 3,
+    "recorded_dim": 3,
+    "w": 0,
+    "class": "automatic",
+    "recorded_class": "automatic",
+    "real_basis": true,
+    "holds": true
+   },
+   "Tbar(x)Tbar k=5": {
+    "dim": 4,
+    "recorded_dim": 4,
+    "w": 6,
+    "class": "impossible",
+    "recorded_class": "impossible",
+    "real_basis": true,
+    "holds": true
+   },
+   "Tbar(x)Tbar k=7": {
+    "dim": 6,
+    "recorded_dim": 6,
+    "w": 12,
+    "class": "tuned",
+    "recorded_class": "tuned",
+    "real_basis": true,
+    "holds": true
+   },
+   "mixed (Q in T) k=0": {
+    "dim": 1,
+    "recorded_dim": 1,
+    "w": 0,
+    "class": "automatic",
+    "recorded_class": "automatic",
+    "real_basis": true,
+    "holds": true
+   },
+   "mixed (Q in T) k=2": {
+    "dim": 2,
+    "recorded_dim": 2,
+    "w": 6,
+    "class": "impossible",
+    "recorded_class": "impossible",
+    "real_basis": true,
+    "holds": true
+   },
+   "mixed (Q in T) k=4": {
+    "dim": 4,
+    "recorded_dim": 4,
+    "w": 12,
+    "class": "tuned",
+    "recorded_class": "tuned",
+    "real_basis": true,
+    "holds": true
+   },
+   "mixed (Q in T) k=6": {
+    "dim": 5,
+    "recorded_dim": 5,
+    "w": 18,
+    "class": "impossible",
+    "recorded_class": "impossible",
+    "real_basis": true,
+    "holds": true
+   },
+   "mixed (Q in Tbar) k=0": {
+    "dim": 1,
+    "recorded_dim": 1,
+    "w": 0,
+    "class": "automatic",
+    "recorded_class": "automatic",
+    "real_basis": true,
+    "holds": true
+   },
+   "mixed (Q in Tbar) k=2": {
+    "dim": 2,
+    "recorded_dim": 2,
+    "w": 6,
+    "class": "impossible",
+    "recorded_class": "impossible",
+    "real_basis": true,
+    "holds": true
+   },
+   "mixed (Q in Tbar) k=4": {
+    "dim": 4,
+    "recorded_dim": 4,
+    "w": 12,
+    "class": "tuned",
+    "recorded_class": "tuned",
+    "real_basis": true,
+    "holds": true
+   },
+   "mixed (Q in Tbar) k=6": {
+    "dim": 5,
+    "recorded_dim": 5,
+    "w": 18,
+    "class": "impossible",
+    "recorded_class": "impossible",
+    "real_basis": true,
+    "holds": true
+   }
+  },
+  "holds": true
+ },
+ "Z1": {
+  "sectors": {
+   "T(x)T k=3": {
+    "w": 6,
+    "max r(i)": 1.2841556583968769e-51,
+    "min r(omega)": 0.07350164825206956,
+    "min r(generic)": 0.03662649443471452,
+    "holds": true
+   },
+   "T(x)T k=7": {
+    "w": 18,
+    "max r(i)": 1.2230900369456026e-51,
+    "min r(omega)": 0.051076313043267034,
+    "min r(generic)": 0.007958328606464813,
+    "holds": true
+   },
+   "Tbar(x)Tbar k=5": {
+    "w": 6,
+    "max r(i)": 9.551816504651319e-52,
+    "min r(omega)": 0.10779749829023194,
+    "min r(generic)": 0.00042716831847288756,
+    "holds": true
+   },
+   "mixed (Q in T) k=2": {
+    "w": 6,
+    "max r(i)": 2.0748316966193506e-51,
+    "min r(omega)": 0.02035749101354887,
+    "min r(generic)": 0.013561558917408179,
+    "holds": true
+   },
+   "mixed (Q in T) k=6": {
+    "w": 18,
+    "max r(i)": 4.7138241948527726e-51,
+    "min r(omega)": 0.02337231529155043,
+    "min r(generic)": 0.0041836712591898995,
+    "holds": true
+   },
+   "mixed (Q in Tbar) k=2": {
+    "w": 6,
+    "max r(i)": 2.543248211470344e-51,
+    "min r(omega)": 0.05654705377813324,
+    "min r(generic)": 0.028910158777712285,
+    "holds": true
+   },
+   "mixed (Q in Tbar) k=6": {
+    "w": 18,
+    "max r(i)": 5.108385553667875e-51,
+    "min r(omega)": 0.021289353481236246,
+    "min r(generic)": 0.019434672425293384,
+    "holds": true
+   }
+  },
+  "count": 7,
+  "holds": true
+ },
+ "Z2": {
+  "sectors": {
+   "T(x)T k=5": {
+    "members": [
+     {
+      "linear_residual": 6.836631340065379e-49,
+      "Im/abs alpha": 3.1003765672055483e-49,
+      "Im/abs beta": 1.0815790704616043e-51,
+      "j0": 4192.509371970628,
+      "tau0": [
+       0.0,
+       1.2936346248321735
+      ],
+      "locus": "Re tau = 0",
+      "r(tau0)": 2.7380045143961e-50,
+      "holds": true
+     },
+     {
+      "linear_residual": 1.4391789111986279e-49,
+      "Im/abs alpha": 2.7943401597205563e-50,
+      "Im/abs beta": 7.55415718275039e-50,
+      "j0": 409.3252043862254,
+      "tau0": [
+       -0.2919599859835102,
+       0.9564305341134339
+      ],
+      "locus": "|tau| = 1",
+      "r(tau0)": 1.1754477635024996e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 1.8760959257388802e-49,
+      "Im/abs alpha": 1.1957478308253833e-49,
+      "Im/abs beta": 8.796651878341627e-51,
+      "j0": 1653.7773682654456,
+      "tau0": [
+       -0.05514563369795743,
+       0.9984783217897376
+      ],
+      "locus": "|tau| = 1",
+      "r(tau0)": 1.4495591771028412e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 3.463674558141255e-49,
+      "Im/abs alpha": 9.583584729193457e-50,
+      "Im/abs beta": 2.5825264290347315e-50,
+      "j0": -1124.5048794468232,
+      "tau0": [
+       -0.5,
+       1.1897032350674683
+      ],
+      "locus": "Re tau = -1/2",
+      "r(tau0)": 5.03137143759925e-50,
+      "holds": true
+     },
+     {
+      "linear_residual": 1.824412265597626e-49,
+      "Im/abs alpha": 3.177896270562804e-51,
+      "Im/abs beta": 3.060211353010282e-48,
+      "j0": 12.503958533935506,
+      "tau0": [
+       -0.44164092661723153,
+       0.8971918924826913
+      ],
+      "locus": "|tau| = 1",
+      "r(tau0)": 2.1102175785372953e-50,
+      "holds": true
+     },
+     {
+      "linear_residual": 2.725057995244094e-49,
+      "Im/abs alpha": 1.532203807105e-49,
+      "Im/abs beta": 4.340885560767617e-51,
+      "j0": 2106.906288405528,
+      "tau0": [
+       0.0,
+       1.1257591998772785
+      ],
+      "locus": "Re tau = 0",
+      "r(tau0)": 4.084485341420136e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 1.6075370466606036e-48,
+      "Im/abs alpha": 7.352194414444892e-49,
+      "Im/abs beta": 1.3712202620281327e-50,
+      "j0": -9535.05941555984,
+      "tau0": [
+       -0.5,
+       1.4699574860531197
+      ],
+      "locus": "Re tau = -1/2",
+      "r(tau0)": 1.7774987346743945e-50,
+      "holds": true
+     },
+     {
+      "linear_residual": 8.049201845542865e-49,
+      "Im/abs alpha": 4.3998665930069216e-49,
+      "Im/abs beta": 3.596387550280612e-51,
+      "j0": 5839.4166663454525,
+      "tau0": [
+       0.0,
+       1.3573142344495022
+      ],
+      "locus": "Re tau = 0",
+      "r(tau0)": 1.49442929124195e-50,
+      "holds": true
+     },
+     {
+      "linear_residual": 6.453422577687945e-49,
+      "Im/abs alpha": 2.7886286596244e-49,
+      "Im/abs beta": 1.0951468327773613e-50,
+      "j0": -3534.5642236327376,
+      "tau0": [
+       -0.5,
+       1.3290589569281925
+      ],
+      "locus": "Re tau = -1/2",
+      "r(tau0)": 3.6463947130818634e-50,
+      "holds": true
+     },
+     {
+      "linear_residual": 1.3261995916587884e-49,
+      "Im/abs alpha": 3.380107914213336e-50,
+      "Im/abs beta": 5.458349996141794e-50,
+      "j0": 504.0827472175121,
+      "tau0": [
+       -0.2732847515299218,
+       0.9619331809337013
+      ],
+      "locus": "|tau| = 1",
+      "r(tau0)": 4.715898521656581e-51,
+      "holds": true
+     }
+    ],
+    "holds": true,
+    "loci": [
+     "Re tau = -1/2",
+     "Re tau = 0",
+     "|tau| = 1"
+    ]
+   },
+   "Tbar(x)Tbar k=7": {
+    "members": [
+     {
+      "linear_residual": 8.612302138336046e-50,
+      "Im/abs alpha": 4.087834092911367e-50,
+      "Im/abs beta": 2.5912004109627925e-50,
+      "j0": 762.0176685366183,
+      "tau0": [
+       -0.22809663026778335,
+       0.9736384992698687
+      ],
+      "locus": "|tau| = 1",
+      "r(tau0)": 2.78810066488973e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 1.0874774668333092e-49,
+      "Im/abs alpha": 1.559181596981057e-51,
+      "Im/abs beta": 1.095449231225316e-48,
+      "j0": 24.571224614835145,
+      "tau0": [
+       -0.4261741650919254,
+       0.9046411338250103
+      ],
+      "locus": "|tau| = 1",
+      "r(tau0)": 4.84021518380015e-50,
+      "holds": true
+     },
+     {
+      "linear_residual": 6.41065582386873e-49,
+      "Im/abs alpha": 1.4989489161071344e-50,
+      "Im/abs beta": 2.032399759738917e-48,
+      "j0": -9.967901515807558,
+      "tau0": [
+       -0.5,
+       0.9283222815299766
+      ],
+      "locus": "Re tau = -1/2",
+      "r(tau0)": 1.133731354936287e-50,
+      "holds": true
+     },
+     {
+      "linear_residual": 5.721531428550455e-50,
+      "Im/abs alpha": 4.0259131012669045e-50,
+      "Im/abs beta": 3.012316143985312e-50,
+      "j0": 765.1230182522579,
+      "tau0": [
+       -0.2275817924548567,
+       0.9737589679910704
+      ],
+      "locus": "|tau| = 1",
+      "r(tau0)": 2.4330415658391332e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 8.962311568978565e-50,
+      "Im/abs alpha": 7.399283608909476e-51,
+      "Im/abs beta": 9.511233333304239e-50,
+      "j0": 207.8907372679549,
+      "tau0": [
+       -0.34037806379257834,
+       0.9402886650857892
+      ],
+      "locus": "|tau| = 1",
+      "r(tau0)": 1.6460899165634817e-50,
+      "holds": true
+     },
+     {
+      "linear_residual": 1.1673321864848419e-49,
+      "Im/abs alpha": 8.174781096503938e-51,
+      "Im/abs beta": 1.832751130126606e-49,
+      "j0": -139.86295279613378,
+      "tau0": [
+       -0.5,
+       1.0228198308224363
+      ],
+      "locus": "Re tau = -1/2",
+      "r(tau0)": 4.419339372591015e-50,
+      "holds": true
+     },
+     {
+      "linear_residual": 7.510462157048911e-50,
+      "Im/abs alpha": 4.937082931683093e-50,
+      "Im/abs beta": 1.9309284808241175e-50,
+      "j0": 958.5557531658199,
+      "tau0": [
+       -0.19602981732612787,
+       0.9805979353022751
+      ],
+      "locus": "|tau| = 1",
+      "r(tau0)": 1.405618301522336e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 6.692212328331292e-50,
+      "Im/abs alpha": 4.580516463084088e-50,
+      "Im/abs beta": 1.8927782429803042e-50,
+      "j0": 816.3325635303096,
+      "tau0": [
+       -0.21914633192957841,
+       0.9756920032478543
+      ],
+      "locus": "|tau| = 1",
+      "r(tau0)": 3.316453777510702e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 1.1756689949519528e-49,
+      "Im/abs alpha": 5.117598529396386e-52,
+      "Im/abs beta": 3.769287446118834e-49,
+      "j0": -76.02094221953465,
+      "tau0": [
+       -0.5,
+       0.9924629655469347
+      ],
+      "locus": "Re tau = -1/2",
+      "r(tau0)": 7.19878773386962e-50,
+      "holds": true
+     },
+     {
+      "linear_residual": 2.44909530529149e-49,
+      "Im/abs alpha": 4.897840406035257e-50,
+      "Im/abs beta": 9.792907950307963e-51,
+      "j0": -681.6719225266166,
+      "tau0": [
+       -0.5,
+       1.1393227470616378
+      ],
+      "locus": "Re tau = -1/2",
+      "r(tau0)": 2.1521751321954618e-51,
+      "holds": true
+     }
+    ],
+    "holds": true,
+    "loci": [
+     "Re tau = -1/2",
+     "|tau| = 1"
+    ]
+   },
+   "mixed (Q in T) k=4": {
+    "members": [
+     {
+      "linear_residual": 1.672318851650079e-49,
+      "Im/abs alpha": 1.3752904572873774e-50,
+      "Im/abs beta": 4.847041842190474e-50,
+      "j0": 1275.332593328995,
+      "tau0": [
+       -0.1429972305749659,
+       0.9897230885696716
+      ],
+      "locus": "|tau| = 1",
+      "r(tau0)": 3.7625492921959865e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 3.457914392134411e-49,
+      "Im/abs alpha": 1.8047458980560455e-49,
+      "Im/abs beta": 6.909324790980467e-52,
+      "j0": -8323.446141761291,
+      "tau0": [
+       -0.5,
+       1.4499129304089702
+      ],
+      "locus": "Re tau = -1/2",
+      "r(tau0)": 1.4208621245733864e-50,
+      "holds": true
+     },
+     {
+      "linear_residual": 1.7514514525711327e-49,
+      "Im/abs alpha": 5.498686169192004e-50,
+      "Im/abs beta": 4.895454472238202e-51,
+      "j0": 2408.150442093054,
+      "tau0": [
+       0.0,
+       1.166630221153018
+      ],
+      "locus": "Re tau = 0",
+      "r(tau0)": 2.0005449128720666e-50,
+      "holds": true
+     },
+     {
+      "linear_residual": 1.5579287998205716e-49,
+      "Im/abs alpha": 4.764942947057548e-50,
+      "Im/abs beta": 1.2443703764422691e-51,
+      "j0": 2042.530768128788,
+      "tau0": [
+       0.0,
+       1.1147737769311743
+      ],
+      "locus": "Re tau = 0",
+      "r(tau0)": 2.9700765056196035e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 2.3843713215922296e-50,
+      "Im/abs alpha": 9.126318017192118e-51,
+      "Im/abs beta": 6.017381822034061e-50,
+      "j0": 237.88352322625354,
+      "tau0": [
+       -0.33196683954445216,
+       0.9432910565901004
+      ],
+      "locus": "|tau| = 1",
+      "r(tau0)": 2.2535591195682024e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 4.191392901478819e-50,
+      "Im/abs alpha": 1.4244441677483145e-50,
+      "Im/abs beta": 2.10723188761661e-50,
+      "j0": 520.3694844587794,
+      "tau0": [
+       -0.27022715614879644,
+       0.9627965953822926
+      ],
+      "locus": "|tau| = 1",
+      "r(tau0)": 4.174859641587202e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 6.276912328876775e-50,
+      "Im/abs alpha": 1.3199287594521231e-50,
+      "Im/abs beta": 2.1888543105339373e-50,
+      "j0": -1009.7501694777548,
+      "tau0": [
+       -0.5,
+       1.1782918661981197
+      ],
+      "locus": "Re tau = -1/2",
+      "r(tau0)": 4.303883479602745e-52,
+      "holds": true
+     },
+     {
+      "linear_residual": 2.4967901608003882e-49,
+      "Im/abs alpha": 7.789917687087791e-50,
+      "Im/abs beta": 2.741896320903896e-51,
+      "j0": 3285.277698976202,
+      "tau0": [
+       0.0,
+       1.2425096806322988
+      ],
+      "locus": "Re tau = 0",
+      "r(tau0)": 8.833687896646674e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 6.961132795708435e-49,
+      "Im/abs alpha": 2.4330569699443982e-49,
+      "Im/abs beta": 4.353512678525001e-51,
+      "j0": 12094.511618012084,
+      "tau0": [
+       0.0,
+       1.485786442298191
+      ],
+      "locus": "Re tau = 0",
+      "r(tau0)": 4.0739339001920646e-50,
+      "holds": true
+     },
+     {
+      "linear_residual": 2.5716658803826388e-50,
+      "Im/abs alpha": 1.5838733489411812e-51,
+      "Im/abs beta": 1.8447684404754366e-49,
+      "j0": -73.74769330866728,
+      "tau0": [
+       -0.5,
+       0.9911184646580496
+      ],
+      "locus": "Re tau = -1/2",
+      "r(tau0)": 3.6237849223238813e-51,
+      "holds": true
+     }
+    ],
+    "holds": true,
+    "loci": [
+     "Re tau = -1/2",
+     "Re tau = 0",
+     "|tau| = 1"
+    ]
+   },
+   "mixed (Q in Tbar) k=4": {
+    "members": [
+     {
+      "linear_residual": 1.7162377939998013e-49,
+      "Im/abs alpha": 5.633524981971944e-50,
+      "Im/abs beta": 6.699526690320646e-51,
+      "j0": 2460.4102052220105,
+      "tau0": [
+       0.0,
+       1.1725329947386394
+      ],
+      "locus": "Re tau = 0",
+      "r(tau0)": 1.1813810368616463e-50,
+      "holds": true
+     },
+     {
+      "linear_residual": 9.21554106968729e-50,
+      "Im/abs alpha": 2.74450390497126e-50,
+      "Im/abs beta": 1.6487554975342443e-50,
+      "j0": -1721.5788333622174,
+      "tau0": [
+       -0.5,
+       1.2378608170498024
+      ],
+      "locus": "Re tau = -1/2",
+      "r(tau0)": 3.375462362501093e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 1.4078490089220039e-49,
+      "Im/abs alpha": 4.772064463448807e-50,
+      "Im/abs beta": 6.337490799775061e-51,
+      "j0": 2014.9536975405194,
+      "tau0": [
+       0.0,
+       1.1096918868432861
+      ],
+      "locus": "Re tau = 0",
+      "r(tau0)": 4.581080732340236e-52,
+      "holds": true
+     },
+     {
+      "linear_residual": 2.7127323840233808e-49,
+      "Im/abs alpha": 1.122918840388537e-49,
+      "Im/abs beta": 3.948425422519663e-51,
+      "j0": 6467.0005631967215,
+      "tau0": [
+       0.0,
+       1.3760638242450673
+      ],
+      "locus": "Re tau = 0",
+      "r(tau0)": 5.71747413747946e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 2.4889110192712976e-50,
+      "Im/abs alpha": 1.981593982970161e-51,
+      "Im/abs beta": 9.237792628779782e-50,
+      "j0": -147.09014926803818,
+      "tau0": [
+       -0.5,
+       1.0256377537943204
+      ],
+      "locus": "Re tau = -1/2",
+      "r(tau0)": 2.723060615611356e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 2.3136250197243664e-50,
+      "Im/abs alpha": 2.4955149156278095e-51,
+      "Im/abs beta": 1.5827176072835695e-49,
+      "j0": -72.1381589444637,
+      "tau0": [
+       -0.5,
+       0.9901504233973368
+      ],
+      "locus": "Re tau = -1/2",
+      "r(tau0)": 4.2956658857601823e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 1.2057322123327208e-49,
+      "Im/abs alpha": 4.538140036467515e-50,
+      "Im/abs beta": 1.0155154835916757e-50,
+      "j0": 1670.3268576522385,
+      "tau0": [
+       -0.04851673814841807,
+       0.998822369653102
+      ],
+      "locus": "|tau| = 1",
+      "r(tau0)": 7.119849386233948e-51,
+      "holds": true
+     },
+     {
+      "linear_residual": 4.6570318945071054e-48,
+      "Im/abs alpha": 6.498328900737207e-49,
+      "Im/abs beta": 5.242485609844287e-51,
+      "j0": 36379.95985963502,
+      "tau0": [
+       0.0,
+       1.668095791362133
+      ],
+      "locus": "Re tau = 0",
+      "r(tau0)": 4.881194099922666e-50,
+      "holds": true
+     },
+     {
+      "linear_residual": 1.660071922290909e-47,
+      "Im/abs alpha": 8.057635061040002e-48,
+      "Im/abs beta": 1.8604235416855673e-51,
+      "j0": -419951.235170958,
+      "tau0": [
+       -0.5,
+       2.061002850992336
+      ],
+      "locus": "Re tau = -1/2",
+      "r(tau0)": 5.96617619469084e-49,
+      "holds": true
+     },
+     {
+      "linear_residual": 3.5645015123113546e-49,
+      "Im/abs alpha": 1.7161638488322557e-49,
+      "Im/abs beta": 1.1646308943413666e-51,
+      "j0": -9490.170128118574,
+      "tau0": [
+       -0.5,
+       1.4692583443833334
+      ],
+      "locus": "Re tau = -1/2",
+      "r(tau0)": 1.823721303229759e-50,
+      "holds": true
+     }
+    ],
+    "holds": true,
+    "loci": [
+     "Re tau = -1/2",
+     "Re tau = 0",
+     "|tau| = 1"
+    ]
+   }
+  },
+  "holds": true
+ },
+ "Z3": {
+  "sectors": {
+   "T(x)T k=5": {
+    "members": [
+     {
+      "rank_two": false,
+      "G spread": 4.35921749408597e-49,
+      "min r (incl. i, omega)": 5.107091860297693e-05,
+      "r(i)": 0.11106609255357258,
+      "r(omega)": 0.17737277214488306,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 1.659832957768221e-46,
+      "min r (incl. i, omega)": 4.60752822357984e-07,
+      "r(i)": 0.013138578182997747,
+      "r(omega)": 0.13606611666159893,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 1.0145612830303e-46,
+      "min r (incl. i, omega)": 1.2197473908120523e-06,
+      "r(i)": 0.03378814317044122,
+      "r(omega)": 0.4873326393645449,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 6.798262429965882e-49,
+      "min r (incl. i, omega)": 5.552163047381108e-06,
+      "r(i)": 0.01651852142355919,
+      "r(omega)": 0.034371222285732576,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 4.209380089882485e-49,
+      "min r (incl. i, omega)": 1.5044738629888242e-05,
+      "r(i)": 0.05851156323007617,
+      "r(omega)": 0.15102639225641612,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 4.2463769307568226e-48,
+      "min r (incl. i, omega)": 9.575996448834954e-05,
+      "r(i)": 0.24735466469928424,
+      "r(omega)": 0.28069836881749205,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 2.703738726192299e-47,
+      "min r (incl. i, omega)": 2.2933697927890726e-06,
+      "r(i)": 0.05933744971080773,
+      "r(omega)": 0.7181974821578755,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 4.2381689853943516e-49,
+      "min r (incl. i, omega)": 2.469392867542621e-05,
+      "r(i)": 0.12071015947217437,
+      "r(omega)": 0.32677037309535206,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 3.969209584279179e-47,
+      "min r (incl. i, omega)": 2.0301007974123717e-06,
+      "r(i)": 0.052745627006717075,
+      "r(omega)": 0.7910433903473314,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 4.175034855020938e-49,
+      "min r (incl. i, omega)": 1.226720237903918e-05,
+      "r(i)": 0.04526985211419987,
+      "r(omega)": 0.11666310487276867,
+      "holds": true
+     }
+    ],
+    "holds": true,
+    "tensor_check": true
+   },
+   "Tbar(x)Tbar k=7": {
+    "members": [
+     {
+      "rank_two": false,
+      "G spread": 2.1759612754700608e-45,
+      "min r (incl. i, omega)": 1.1924403239126924e-09,
+      "r(i)": 0.001905976056821514,
+      "r(omega)": 0.1165940837146901,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 3.5954526711688063e-44,
+      "min r (incl. i, omega)": 3.814872269415277e-09,
+      "r(i)": 0.00404150923726353,
+      "r(omega)": 0.06517610519773026,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 3.071761467657141e-45,
+      "min r (incl. i, omega)": 2.995576018392052e-08,
+      "r(i)": 0.03295601284557795,
+      "r(omega)": 0.10225776300441825,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 4.0050033477969706e-46,
+      "min r (incl. i, omega)": 2.0520024996494666e-08,
+      "r(i)": 0.02448856558103265,
+      "r(omega)": 0.534040182561369,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 1.5556738799045722e-45,
+      "min r (incl. i, omega)": 1.330875635585634e-07,
+      "r(i)": 0.03830012377212337,
+      "r(omega)": 0.03170016257624112,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 7.914079594412922e-45,
+      "min r (incl. i, omega)": 1.4780219821955324e-08,
+      "r(i)": 0.0154051635220733,
+      "r(omega)": 0.3288444330872482,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 2.5466965246723297e-44,
+      "min r (incl. i, omega)": 6.921442659107425e-09,
+      "r(i)": 0.004244900958188112,
+      "r(omega)": 0.04845459069969103,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 1.3561187713466864e-45,
+      "min r (incl. i, omega)": 1.4588018303777003e-07,
+      "r(i)": 0.07390310116028828,
+      "r(omega)": 0.7701121095411625,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 1.6715830458107707e-46,
+      "min r (incl. i, omega)": 1.667922503041795e-08,
+      "r(i)": 0.018714660013869677,
+      "r(omega)": 0.39996041094648327,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 2.078047705599804e-42,
+      "min r (incl. i, omega)": 1.1768295539478803e-10,
+      "r(i)": 0.00012421553979846374,
+      "r(omega)": 0.005430730485539188,
+      "holds": true
+     }
+    ],
+    "holds": true,
+    "tensor_check": true
+   },
+   "mixed (Q in T) k=4": {
+    "members": [
+     {
+      "rank_two": false,
+      "G spread": 1.2077423197394402e-49,
+      "min r (incl. i, omega)": 0.0002038084385918565,
+      "r(i)": 0.32250863991976836,
+      "r(omega)": 0.6792070174037875,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 1.2863754126955177e-49,
+      "min r (incl. i, omega)": 2.9609442872910742e-05,
+      "r(i)": 0.2092643796135083,
+      "r(omega)": 0.5042906807880985,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 4.038163622056646e-48,
+      "min r (incl. i, omega)": 0.0001726482736135616,
+      "r(i)": 0.23225183742627242,
+      "r(omega)": 0.4749233952652917,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 1.238481749051895e-48,
+      "min r (incl. i, omega)": 0.0009057966624885271,
+      "r(i)": 0.4260352828172904,
+      "r(omega)": 0.49891048861458015,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 1.2500655281218832e-49,
+      "min r (incl. i, omega)": 0.00013152950093078543,
+      "r(i)": 0.32343887273900845,
+      "r(omega)": 0.7740772924015946,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 8.970712029115572e-46,
+      "min r (incl. i, omega)": 1.657636192496083e-06,
+      "r(i)": 0.004430893815276493,
+      "r(omega)": 0.015332239179796661,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 1.920659256142428e-48,
+      "min r (incl. i, omega)": 7.31092014729044e-05,
+      "r(i)": 0.24191999229375913,
+      "r(omega)": 0.2587772460563277,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 3.910766825203714e-48,
+      "min r (incl. i, omega)": 4.954778474742135e-05,
+      "r(i)": 0.06031440282962107,
+      "r(omega)": 0.0951250085983264,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 2.4751351000001644e-48,
+      "min r (incl. i, omega)": 5.696024727202054e-06,
+      "r(i)": 0.017599351351909636,
+      "r(omega)": 0.037398201481051614,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 2.005504929697941e-49,
+      "min r (incl. i, omega)": 0.00156168990108093,
+      "r(i)": 0.35783050754155094,
+      "r(omega)": 0.3875083135594624,
+      "holds": true
+     }
+    ],
+    "holds": true,
+    "tensor_check": true
+   },
+   "mixed (Q in Tbar) k=4": {
+    "members": [
+     {
+      "rank_two": false,
+      "G spread": 2.924460119240892e-48,
+      "min r (incl. i, omega)": 0.00027335684118514497,
+      "r(i)": 0.16825339520023566,
+      "r(omega)": 0.2582380005978194,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 1.1867750475629384e-49,
+      "min r (incl. i, omega)": 0.00011730887218568379,
+      "r(i)": 0.23203351305613665,
+      "r(omega)": 0.3147908841751686,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 9.164229882250494e-49,
+      "min r (incl. i, omega)": 0.0008197818383673056,
+      "r(i)": 0.1116278194671044,
+      "r(omega)": 0.14001822510361475,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 1.155975427472957e-47,
+      "min r (incl. i, omega)": 4.329917835786412e-06,
+      "r(i)": 0.0021889068885519464,
+      "r(omega)": 0.0026636431420753717,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 1.2442433732968625e-49,
+      "min r (incl. i, omega)": 3.2313018076557755e-05,
+      "r(i)": 0.20880377134458003,
+      "r(omega)": 0.6234179764485331,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 5.129952765594734e-47,
+      "min r (incl. i, omega)": 2.8085171588273863e-05,
+      "r(i)": 0.10537339340724654,
+      "r(omega)": 0.14046127623607157,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 1.1043820755335564e-48,
+      "min r (incl. i, omega)": 0.0005194581903515753,
+      "r(i)": 0.37864215192539946,
+      "r(omega)": 0.49274232496404535,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 1.91260305881814e-47,
+      "min r (incl. i, omega)": 0.00010853452455876489,
+      "r(i)": 0.2698184393344364,
+      "r(omega)": 0.23440907520172724,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 1.9609138378573493e-47,
+      "min r (incl. i, omega)": 2.0585321970286194e-05,
+      "r(i)": 0.12917212259596433,
+      "r(omega)": 0.24133839973817653,
+      "holds": true
+     },
+     {
+      "rank_two": false,
+      "G spread": 5.098855093320735e-48,
+      "min r (incl. i, omega)": 0.00023752210186752358,
+      "r(i)": 0.2749460965975374,
+      "r(omega)": 0.3097351453931014,
+      "holds": true
+     }
+    ],
+    "holds": true,
+    "tensor_check": true
+   }
+  },
+  "rank_two_total": 0,
+  "holds": true
+ },
+ "Z4": {
+  "|E4(omega)|": 6.758720544978206e-51,
+  "Niemeier": {
+   "Leech": {
+    "N": 0,
+    "zero at": [
+     -0.23510833665455064,
+     0.9719691713400844
+    ],
+    "locus": "|tau| = 1",
+    "|Theta_L/Delta| there": 5.67941626974199e-48
+   },
+   "D24+": {
+    "N": 1104,
+    "zero at": [
+     -0.5,
+     1.0899361945745887
+    ],
+    "locus": "Re tau = -1/2",
+    "|Theta_L/Delta| there": 1.2113252091856452e-47
+   }
+  },
+  "eta^c multiplier at T": {
+   "8": {
+    "|ratio - 1|": 1.7320508075688772,
+    "|ratio - e^(2 pi i c/24)|": 2.0627528101612554e-50
+   },
+   "12": {
+    "|ratio - 1|": 2.0,
+    "|ratio - e^(2 pi i c/24)|": 3.20816786399292e-50
+   },
+   "16": {
+    "|ratio - 1|": 1.7320508075688772,
+    "|ratio - e^(2 pi i c/24)|": 4.2644000735251005e-50
+   },
+   "24": {
+    "|ratio - 1|": 6.41633572798584e-50,
+    "|ratio - e^(2 pi i c/24)|": 6.41633572798584e-50
+   }
+  },
+  "holds": true
+ },
+ "R1": {
+  "grid max": 0.5964501343640213,
+  "at": [
+   -0.5,
+   0.8660254037844386
+  ],
+  "psi": {
+   "omega": 0.5964501343640212,
+   "i": 0.5901702995080481,
+   "1.5i": 0.5583177535236551
+  },
+  "max at omega (within grid step)": true
+ },
+ "R2": {
+  "symmetric parts": {
+   "T(x)T k=1": {
+    "dim": 1,
+    "sym_dim": 1,
+    "w": 0,
+    "tuned": false
+   },
+   "T(x)T k=5": {
+    "dim": 4,
+    "sym_dim": 3,
+    "w": 12,
+    "tuned": true,
+    "restricted cubic max |coef|": 699050.6666666669,
+    "automatic on the symmetric part": false,
+    "lines with a real root": 10,
+    "non-degenerate, G constant to 1e-6 (float root)": 10
+   },
+   "Tbar(x)Tbar k=3": {
+    "dim": 3,
+    "sym_dim": 2,
+    "w": 0,
+    "tuned": false
+   },
+   "Tbar(x)Tbar k=7": {
+    "dim": 6,
+    "sym_dim": 4,
+    "w": 12,
+    "tuned": true,
+    "restricted cubic max |coef|": 15018.666666666666,
+    "automatic on the symmetric part": false,
+    "lines with a real root": 10,
+    "non-degenerate, G constant to 1e-6 (float root)": 10
+   }
+  },
+  "pairs": [
+   {
+    "L hand": 1,
+    "charged": "T(x)T k=1",
+    "charged free": 0,
+    "Weinberg": "sym T(x)T k=1",
+    "Weinberg free": 0,
+    "total at fixed tau": 0,
+    "over seven observables": 7,
+    "note": "dim 1: B1636's sum rule, m2/m1 >= 1/2"
+   },
+   {
+    "L hand": 1,
+    "charged": "T(x)T k=1",
+    "charged free": 0,
+    "Weinberg": "sym T(x)T k=5",
+    "Weinberg free": 1,
+    "total at fixed tau": 1,
+    "over seven observables": 6,
+    "note": "dim 1: B1636's sum rule, m2/m1 >= 1/2"
+   },
+   {
+    "L hand": 1,
+    "charged": "T(x)T k=5",
+    "charged free": 2,
+    "Weinberg": "sym T(x)T k=1",
+    "Weinberg free": 0,
+    "total at fixed tau": 2,
+    "over seven observables": 5,
+    "note": ""
+   },
+   {
+    "L hand": 1,
+    "charged": "T(x)T k=5",
+    "charged free": 2,
+    "Weinberg": "sym T(x)T k=5",
+    "Weinberg free": 1,
+    "total at fixed tau": 3,
+    "over seven observables": 4,
+    "note": ""
+   },
+   {
+    "L hand": 1,
+    "charged": "mixed (Q in T) k=0",
+    "charged free": 0,
+    "Weinberg": "sym T(x)T k=1",
+    "Weinberg free": 0,
+    "total at fixed tau": 0,
+    "over seven observables": 7,
+    "note": "identity: degenerate charged leptons"
+   },
+   {
+    "L hand": 1,
+    "charged": "mixed (Q in T) k=0",
+    "charged free": 0,
+    "Weinberg": "sym T(x)T k=5",
+    "Weinberg free": 1,
+    "total at fixed tau": 1,
+    "over seven observables": 6,
+    "note": "identity: degenerate charged leptons"
+   },
+   {
+    "L hand": 1,
+    "charged": "mixed (Q in T) k=4",
+    "charged free": 2,
+    "Weinberg": "sym T(x)T k=1",
+    "Weinberg free": 0,
+    "total at fixed tau": 2,
+    "over seven observables": 5,
+    "note": ""
+   },
+   {
+    "L hand": 1,
+    "charged": "mixed (Q in T) k=4",
+    "charged free": 2,
+    "Weinberg": "sym T(x)T k=5",
+    "Weinberg free": 1,
+    "total at fixed tau": 3,
+    "over seven observables": 4,
+    "note": ""
+   },
+   {
+    "L hand": -1,
+    "charged": "Tbar(x)Tbar k=3",
+    "charged free": 2,
+    "Weinberg": "sym Tbar(x)Tbar k=3",
+    "Weinberg free": 1,
+    "total at fixed tau": 3,
+    "over seven observables": 4,
+    "note": ""
+   },
+   {
+    "L hand": -1,
+    "charged": "Tbar(x)Tbar k=3",
+    "charged free": 2,
+    "Weinberg": "sym Tbar(x)Tbar k=7",
+    "Weinberg free": 2,
+    "total at fixed tau": 4,
+    "over seven observables": 3,
+    "note": ""
+   },
+   {
+    "L hand": -1,
+    "charged": "Tbar(x)Tbar k=7",
+    "charged free": 4,
+    "Weinberg": "sym Tbar(x)Tbar k=3",
+    "Weinberg free": 1,
+    "total at fixed tau": 5,
+    "over seven observables": 2,
+    "note": ""
+   },
+   {
+    "L hand": -1,
+    "charged": "Tbar(x)Tbar k=7",
+    "charged free": 4,
+    "Weinberg": "sym Tbar(x)Tbar k=7",
+    "Weinberg free": 2,
+    "total at fixed tau": 6,
+    "over seven observables": 1,
+    "note": ""
+   },
+   {
+    "L hand": -1,
+    "charged": "mixed (Q in Tbar) k=0",
+    "charged free": 0,
+    "Weinberg": "sym Tbar(x)Tbar k=3",
+    "Weinberg free": 1,
+    "total at fixed tau": 1,
+    "over seven observables": 6,
+    "note": "identity: degenerate charged leptons"
+   },
+   {
+    "L hand": -1,
+    "charged": "mixed (Q in Tbar) k=0",
+    "charged free": 0,
+    "Weinberg": "sym Tbar(x)Tbar k=7",
+    "Weinberg free": 2,
+    "total at fixed tau": 2,
+    "over seven observables": 5,
+    "note": "identity: degenerate charged leptons"
+   },
+   {
+    "L hand": -1,
+    "charged": "mixed (Q in Tbar) k=4",
+    "charged free": 2,
+    "Weinberg": "sym Tbar(x)Tbar k=3",
+    "Weinberg free": 1,
+    "total at fixed tau": 3,
+    "over seven observables": 4,
+    "note": ""
+   },
+   {
+    "L hand": -1,
+    "charged": "mixed (Q in Tbar) k=4",
+    "charged free": 2,
+    "Weinberg": "sym Tbar(x)Tbar k=7",
+    "Weinberg free": 2,
+    "total at fixed tau": 4,
+    "over seven observables": 3,
+    "note": ""
+   }
+  ],
+  "assumption": "Weinberg coupling in the symmetric part of the (s_L, s_L) space at weight k; chat1's"
+ },
+ "seconds": 28.81950831413269
+}

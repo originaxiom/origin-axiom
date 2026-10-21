@@ -1,0 +1,63 @@
+[     0.6s] Z0
+[     0.7s]   T(x)T k=1 {'dim': 1, 'recorded_dim': 1, 'w': 0, 'class': 'automatic', 'recorded_class': 'automatic', 'real_basis': True, 'holds': True}
+[     0.8s]   T(x)T k=3 {'dim': 2, 'recorded_dim': 2, 'w': 6, 'class': 'impossible', 'recorded_class': 'impossible', 'real_basis': True, 'holds': True}
+[     0.9s]   T(x)T k=5 {'dim': 4, 'recorded_dim': 4, 'w': 12, 'class': 'tuned', 'recorded_class': 'tuned', 'real_basis': True, 'holds': True}
+[     1.2s]   T(x)T k=7 {'dim': 5, 'recorded_dim': 5, 'w': 18, 'class': 'impossible', 'recorded_class': 'impossible', 'real_basis': True, 'holds': True}
+[     1.3s]   Tbar(x)Tbar k=1 {'dim': 1, 'recorded_dim': 1, 'w': -6, 'class': 'det identically 0', 'recorded_class': 'det identically 0', 'real_basis': True, 'holds': True}
+[     1.3s]   Tbar(x)Tbar k=3 {'dim': 3, 'recorded_dim': 3, 'w': 0, 'class': 'automatic', 'recorded_class': 'automatic', 'real_basis': True, 'holds': True}
+[     1.3s]   Tbar(x)Tbar k=5 {'dim': 4, 'recorded_dim': 4, 'w': 6, 'class': 'impossible', 'recorded_class': 'impossible', 'real_basis': True, 'holds': True}
+[     1.4s]   Tbar(x)Tbar k=7 {'dim': 6, 'recorded_dim': 6, 'w': 12, 'class': 'tuned', 'recorded_class': 'tuned', 'real_basis': True, 'holds': True}
+[     1.4s]   mixed (Q in T) k=0 {'dim': 1, 'recorded_dim': 1, 'w': 0, 'class': 'automatic', 'recorded_class': 'automatic', 'real_basis': True, 'holds': True}
+[     1.4s]   mixed (Q in T) k=2 {'dim': 2, 'recorded_dim': 2, 'w': 6, 'class': 'impossible', 'recorded_class': 'impossible', 'real_basis': True, 'holds': True}
+[     1.4s]   mixed (Q in T) k=4 {'dim': 4, 'recorded_dim': 4, 'w': 12, 'class': 'tuned', 'recorded_class': 'tuned', 'real_basis': True, 'holds': True}
+[     1.4s]   mixed (Q in T) k=6 {'dim': 5, 'recorded_dim': 5, 'w': 18, 'class': 'impossible', 'recorded_class': 'impossible', 'real_basis': True, 'holds': True}
+[     1.4s]   mixed (Q in Tbar) k=0 {'dim': 1, 'recorded_dim': 1, 'w': 0, 'class': 'automatic', 'recorded_class': 'automatic', 'real_basis': True, 'holds': True}
+[     1.4s]   mixed (Q in Tbar) k=2 {'dim': 2, 'recorded_dim': 2, 'w': 6, 'class': 'impossible', 'recorded_class': 'impossible', 'real_basis': True, 'holds': True}
+[     1.4s]   mixed (Q in Tbar) k=4 {'dim': 4, 'recorded_dim': 4, 'w': 12, 'class': 'tuned', 'recorded_class': 'tuned', 'real_basis': True, 'holds': True}
+[     1.5s]   mixed (Q in Tbar) k=6 {'dim': 5, 'recorded_dim': 5, 'w': 18, 'class': 'impossible', 'recorded_class': 'impossible', 'real_basis': True, 'holds': True}
+[     1.5s] Z1
+[     1.6s]   T(x)T k=3 {'w': 6, 'max r(i)': 1.2841556583968769e-51, 'min r(omega)': 0.07350164825206956, 'min r(generic)': 0.03662649443471452, 'holds': True}
+[     1.8s]   T(x)T k=7 {'w': 18, 'max r(i)': 1.2230900369456026e-51, 'min r(omega)': 0.051076313043267034, 'min r(generic)': 0.007958328606464813, 'holds': True}
+[     2.0s]   Tbar(x)Tbar k=5 {'w': 6, 'max r(i)': 9.551816504651319e-52, 'min r(omega)': 0.10779749829023194, 'min r(generic)': 0.00042716831847288756, 'holds': True}
+[     2.1s]   mixed (Q in T) k=2 {'w': 6, 'max r(i)': 2.0748316966193506e-51, 'min r(omega)': 0.02035749101354887, 'min r(generic)': 0.013561558917408179, 'holds': True}
+[     2.3s]   mixed (Q in T) k=6 {'w': 18, 'max r(i)': 4.7138241948527726e-51, 'min r(omega)': 0.02337231529155043, 'min r(generic)': 0.0041836712591898995, 'holds': True}
+[     2.5s]   mixed (Q in Tbar) k=2 {'w': 6, 'max r(i)': 2.543248211470344e-51, 'min r(omega)': 0.05654705377813324, 'min r(generic)': 0.028910158777712285, 'holds': True}
+[     2.6s]   mixed (Q in Tbar) k=6 {'w': 18, 'max r(i)': 5.108385553667875e-51, 'min r(omega)': 0.021289353481236246, 'min r(generic)': 0.019434672425293384, 'holds': True}
+[     2.6s] Z2
+[     9.2s]   T(x)T k=5 holds True max r(tau0) 5.03137143759925e-50 max residual 1.6075370466606036e-48 loci ['Re tau = -1/2', 'Re tau = 0', '|tau| = 1']
+[    15.5s]   Tbar(x)Tbar k=7 holds True max r(tau0) 7.19878773386962e-50 max residual 6.41065582386873e-49 loci ['Re tau = -1/2', '|tau| = 1']
+[    20.5s]   mixed (Q in T) k=4 holds True max r(tau0) 4.0739339001920646e-50 max residual 6.961132795708435e-49 loci ['Re tau = -1/2', 'Re tau = 0', '|tau| = 1']
+[    25.5s]   mixed (Q in Tbar) k=4 holds True max r(tau0) 5.96617619469084e-49 max residual 1.660071922290909e-47 loci ['Re tau = -1/2', 'Re tau = 0', '|tau| = 1']
+[    25.5s] Z3
+[    25.9s]   T(x)T k=5 holds True rank-two 0 max spread 1.659832957768221e-46 min r 4.60752822357984e-07
+[    26.4s]   Tbar(x)Tbar k=7 holds True rank-two 0 max spread 2.078047705599804e-42 min r 1.1768295539478803e-10
+[    26.7s]   mixed (Q in T) k=4 holds True rank-two 0 max spread 8.970712029115572e-46 min r 1.657636192496083e-06
+[    27.0s]   mixed (Q in Tbar) k=4 holds True rank-two 0 max spread 5.129952765594734e-47 min r 4.329917835786412e-06
+[    27.0s] Z4
+[    27.9s]   {'|E4(omega)|': 6.758720544978206e-51, 'Niemeier': {'Leech': {'N': 0, 'zero at': [-0.23510833665455064, 0.9719691713400844], 'locus': '|tau| = 1', '|Theta_L/Delta| there': 5.67941626974199e-48}, 'D24+': {'N': 1104, 'zero at': [-0.5, 1.0899361945745887], 'locus': 'Re tau = -1/2', '|Theta_L/Delta| there': 1.2113252091856452e-47}}, 'eta^c multiplier at T': {'8': {'|ratio - 1|': 1.7320508075688772, '|ratio - e^(2 pi i c/24)|': 2.0627528101612554e-50}, '12': {'|ratio - 1|': 2.0, '|ratio - e^(2 pi i c/24)|': 3.20816786399292e-50}, '16': {'|ratio - 1|': 1.7320508075688772, '|ratio - e^(2 pi i c/24)|': 4.2644000735251005e-50}, '24': {'|ratio - 1|': 6.41633572798584e-50, '|ratio - e^(2 pi i c/24)|': 6.41633572798584e-50}}, 'holds': True}
+[    27.9s] R1
+[    28.2s]   {'grid max': 0.5964501343640213, 'at': [-0.5, 0.8660254037844386], 'psi': {'omega': 0.5964501343640212, 'i': 0.5901702995080481, '1.5i': 0.5583177535236551}, 'max at omega (within grid step)': True}
+[    28.2s] R2
+[    28.3s]   T(x)T 1 {'dim': 1, 'sym_dim': 1, 'w': 0, 'tuned': False}
+[    28.6s]   T(x)T 5 {'dim': 4, 'sym_dim': 3, 'w': 12, 'tuned': True, 'restricted cubic max |coef|': 699050.6666666669, 'automatic on the symmetric part': False, 'lines with a real root': 10, 'non-degenerate, G constant to 1e-6 (float root)': 10}
+[    28.6s]   Tbar(x)Tbar 3 {'dim': 3, 'sym_dim': 2, 'w': 0, 'tuned': False}
+[    28.8s]   Tbar(x)Tbar 7 {'dim': 6, 'sym_dim': 4, 'w': 12, 'tuned': True, 'restricted cubic max |coef|': 15018.666666666666, 'automatic on the symmetric part': False, 'lines with a real root': 10, 'non-degenerate, G constant to 1e-6 (float root)': 10}
+[    28.8s]   {'L hand': 1, 'charged': 'T(x)T k=1', 'charged free': 0, 'Weinberg': 'sym T(x)T k=1', 'Weinberg free': 0, 'total at fixed tau': 0, 'over seven observables': 7, 'note': "dim 1: B1636's sum rule, m2/m1 >= 1/2"}
+[    28.8s]   {'L hand': 1, 'charged': 'T(x)T k=1', 'charged free': 0, 'Weinberg': 'sym T(x)T k=5', 'Weinberg free': 1, 'total at fixed tau': 1, 'over seven observables': 6, 'note': "dim 1: B1636's sum rule, m2/m1 >= 1/2"}
+[    28.8s]   {'L hand': 1, 'charged': 'T(x)T k=5', 'charged free': 2, 'Weinberg': 'sym T(x)T k=1', 'Weinberg free': 0, 'total at fixed tau': 2, 'over seven observables': 5, 'note': ''}
+[    28.8s]   {'L hand': 1, 'charged': 'T(x)T k=5', 'charged free': 2, 'Weinberg': 'sym T(x)T k=5', 'Weinberg free': 1, 'total at fixed tau': 3, 'over seven observables': 4, 'note': ''}
+[    28.8s]   {'L hand': 1, 'charged': 'mixed (Q in T) k=0', 'charged free': 0, 'Weinberg': 'sym T(x)T k=1', 'Weinberg free': 0, 'total at fixed tau': 0, 'over seven observables': 7, 'note': 'identity: degenerate charged leptons'}
+[    28.8s]   {'L hand': 1, 'charged': 'mixed (Q in T) k=0', 'charged free': 0, 'Weinberg': 'sym T(x)T k=5', 'Weinberg free': 1, 'total at fixed tau': 1, 'over seven observables': 6, 'note': 'identity: degenerate charged leptons'}
+[    28.8s]   {'L hand': 1, 'charged': 'mixed (Q in T) k=4', 'charged free': 2, 'Weinberg': 'sym T(x)T k=1', 'Weinberg free': 0, 'total at fixed tau': 2, 'over seven observables': 5, 'note': ''}
+[    28.8s]   {'L hand': 1, 'charged': 'mixed (Q in T) k=4', 'charged free': 2, 'Weinberg': 'sym T(x)T k=5', 'Weinberg free': 1, 'total at fixed tau': 3, 'over seven observables': 4, 'note': ''}
+[    28.8s]   {'L hand': -1, 'charged': 'Tbar(x)Tbar k=3', 'charged free': 2, 'Weinberg': 'sym Tbar(x)Tbar k=3', 'Weinberg free': 1, 'total at fixed tau': 3, 'over seven observables': 4, 'note': ''}
+[    28.8s]   {'L hand': -1, 'charged': 'Tbar(x)Tbar k=3', 'charged free': 2, 'Weinberg': 'sym Tbar(x)Tbar k=7', 'Weinberg free': 2, 'total at fixed tau': 4, 'over seven observables': 3, 'note': ''}
+[    28.8s]   {'L hand': -1, 'charged': 'Tbar(x)Tbar k=7', 'charged free': 4, 'Weinberg': 'sym Tbar(x)Tbar k=3', 'Weinberg free': 1, 'total at fixed tau': 5, 'over seven observables': 2, 'note': ''}
+[    28.8s]   {'L hand': -1, 'charged': 'Tbar(x)Tbar k=7', 'charged free': 4, 'Weinberg': 'sym Tbar(x)Tbar k=7', 'Weinberg free': 2, 'total at fixed tau': 6, 'over seven observables': 1, 'note': ''}
+[    28.8s]   {'L hand': -1, 'charged': 'mixed (Q in Tbar) k=0', 'charged free': 0, 'Weinberg': 'sym Tbar(x)Tbar k=3', 'Weinberg free': 1, 'total at fixed tau': 1, 'over seven observables': 6, 'note': 'identity: degenerate charged leptons'}
+[    28.8s]   {'L hand': -1, 'charged': 'mixed (Q in Tbar) k=0', 'charged free': 0, 'Weinberg': 'sym Tbar(x)Tbar k=7', 'Weinberg free': 2, 'total at fixed tau': 2, 'over seven observables': 5, 'note': 'identity: degenerate charged leptons'}
+[    28.8s]   {'L hand': -1, 'charged': 'mixed (Q in Tbar) k=4', 'charged free': 2, 'Weinberg': 'sym Tbar(x)Tbar k=3', 'Weinberg free': 1, 'total at fixed tau': 3, 'over seven observables': 4, 'note': ''}
+[    28.8s]   {'L hand': -1, 'charged': 'mixed (Q in Tbar) k=4', 'charged free': 2, 'Weinberg': 'sym Tbar(x)Tbar k=7', 'Weinberg free': 2, 'total at fixed tau': 4, 'over seven observables': 3, 'note': ''}
+[    28.8s] cells {'Z0': True, 'Z1': True, 'Z2': True, 'Z3': True, 'Z4': True}
+[    28.8s] written zero_free_checks.json
+exit 0
