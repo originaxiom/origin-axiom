@@ -1,0 +1,30 @@
+[      0.0s] B0 True {'SM': 0.1064, 'MSSM': 0.0017}
+[      0.6s] B1 True 7.339411893913169e-48
+[      0.6s] SM None 1e+12 kept True {'up': 0.9026, 'down': 1.1079, 'leptons': 1.0} {'up': 2, 'down': 0, 'leptons': 0}
+[      0.6s] SM None 1e+14 kept True {'up': 0.8931, 'down': 1.1197, 'leptons': 1.0} {'up': 2, 'down': 0, 'leptons': 0}
+[      0.6s] SM None 1e+16 kept True {'up': 0.8849, 'down': 1.13, 'leptons': 1.0} {'up': 2, 'down': 0, 'leptons': 0}
+[      0.6s] MSSM 2 1e+12 kept True {'up': 0.6481, 'down': 0.8652, 'leptons': 0.9998} {'up': 4, 'down': 0, 'leptons': 0}
+[      0.6s] MSSM 2 1e+14 kept True {'up': 0.5959, 'down': 0.8413, 'leptons': 0.9998} {'up': 4, 'down': 0, 'leptons': 0}
+[      0.6s] MSSM 2 1e+16 kept True {'up': 0.5453, 'down': 0.8167, 'leptons': 0.9998} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.6s] MSSM 5 1e+12 kept True {'up': 0.7486, 'down': 0.9069, 'leptons': 0.9991} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 5 1e+14 kept True {'up': 0.7223, 'down': 0.8961, 'leptons': 0.999} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 5 1e+16 kept True {'up': 0.7005, 'down': 0.8869, 'leptons': 0.9989} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 10 1e+12 kept True {'up': 0.7586, 'down': 0.9078, 'leptons': 0.9966} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 10 1e+14 kept True {'up': 0.7342, 'down': 0.8977, 'leptons': 0.9961} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 10 1e+16 kept True {'up': 0.7141, 'down': 0.8892, 'leptons': 0.9956} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 20 1e+12 kept True {'up': 0.7554, 'down': 0.8935, 'leptons': 0.9859} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 20 1e+14 kept True {'up': 0.7308, 'down': 0.8825, 'leptons': 0.9839} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 20 1e+16 kept True {'up': 0.7106, 'down': 0.8733, 'leptons': 0.9821} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 30 1e+12 kept True {'up': 0.745, 'down': 0.866, 'leptons': 0.9667} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 30 1e+14 kept True {'up': 0.7192, 'down': 0.8528, 'leptons': 0.9617} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 30 1e+16 kept True {'up': 0.698, 'down': 0.8419, 'leptons': 0.9572} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 40 1e+12 kept True {'up': 0.7275, 'down': 0.8219, 'leptons': 0.9359} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 40 1e+14 kept True {'up': 0.6994, 'down': 0.8045, 'leptons': 0.9253} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 40 1e+16 kept True {'up': 0.6762, 'down': 0.7902, 'leptons': 0.9158} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 50 1e+12 kept True {'up': 0.6984, 'down': 0.751, 'leptons': 0.8856} {'up': 3, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 50 1e+14 kept True {'up': 0.6656, 'down': 0.7246, 'leptons': 0.8637} {'up': 4, 'down': 0, 'leptons': 0}
+[      0.7s] MSSM 50 1e+16 kept True {'up': 0.6379, 'down': 0.7024, 'leptons': 0.8428} {'up': 4, 'down': 0, 'leptons': 0}
+[      0.7s] B2 True {'up': [0.5452702536021244, 0.9025886003087232], 'down': [0.7023881285246287, 1.1300402693880451], 'leptons': [0.8427998050592561, 0.9999772952212106]}
+[      0.7s] B3 True coherent [] lepton reach []
+[      0.7s] cells {'B0': True, 'B1': True, 'B2': True, 'B3': True}
+[      0.7s] written the_beyond_tree_level.json
