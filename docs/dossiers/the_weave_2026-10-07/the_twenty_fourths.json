@@ -1,0 +1,1963 @@
+{
+ "arc": "W132",
+ "rule": "W132_RULE.md",
+ "status": "one run",
+ "G0": {
+  "checks": {
+   "SU(3)-free = {s_u = s_d = -s_Q}, 16 of 64": true,
+   "SU(2) values {6, 12, 18}": true,
+   "gravity-free among the SU(3)-free iff s_e = s_nu = -s_L, 4 of 16": true,
+   "eta(tau + 1) = e^(i pi/12) eta(tau) at three points": true,
+   "eta(-1/tau) = sqrt(-i tau) eta(tau) at three points": true,
+   "Delta = eta^24 has trivial multiplier": true
+  },
+  "max eta defects (T, S)": [
+   7.856999980325593e-42,
+   2.960965943500211e-41
+  ],
+  "B1674's four": [
+   "Q+ u- d- L+ e- nu-",
+   "Q+ u- d- L- e+ nu+",
+   "Q- u+ d+ L+ e- nu-",
+   "Q- u+ d+ L- e+ nu+"
+  ]
+ },
+ "G1": {
+  "checks": {
+   "dressing any set of fields by O(n delta), n = 1..8, changes no n_G": true,
+   "O(n delta)'s multiplier is trivial on S and T": true
+  }
+ },
+ "G2": {
+  "checks": {
+   "n_SU2 = 12 iff s_Q = s_L": true,
+   "SU(2) closes iff n even (s_Q = s_L) or n = 0 mod 4 (s_Q = -s_L)": true,
+   "n = 1 never closes SU(2)": true,
+   "on B1674's free sets SU(3) and gravity close for every n": true
+  },
+  "per assignment": {
+   "Q+ u+ d+ L+ e+ nu+": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q+ u+ d+ L+ e+ nu-": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q+ u+ d+ L+ e- nu+": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q+ u+ d+ L+ e- nu-": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q+ u+ d+ L- e+ nu+": {
+    "n_SU2": 18,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q+ u+ d+ L- e+ nu-": {
+    "n_SU2": 18,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q+ u+ d+ L- e- nu+": {
+    "n_SU2": 18,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q+ u+ d+ L- e- nu-": {
+    "n_SU2": 18,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q+ u+ d- L+ e+ nu+": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q+ u+ d- L+ e+ nu-": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q+ u+ d- L+ e- nu+": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q+ u+ d- L+ e- nu-": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q+ u+ d- L- e+ nu+": {
+    "n_SU2": 18,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q+ u+ d- L- e+ nu-": {
+    "n_SU2": 18,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q+ u+ d- L- e- nu+": {
+    "n_SU2": 18,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q+ u+ d- L- e- nu-": {
+    "n_SU2": 18,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q+ u- d+ L+ e+ nu+": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q+ u- d+ L+ e+ nu-": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q+ u- d+ L+ e- nu+": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q+ u- d+ L+ e- nu-": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q+ u- d+ L- e+ nu+": {
+    "n_SU2": 18,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q+ u- d+ L- e+ nu-": {
+    "n_SU2": 18,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q+ u- d+ L- e- nu+": {
+    "n_SU2": 18,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q+ u- d+ L- e- nu-": {
+    "n_SU2": 18,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q+ u- d- L+ e+ nu+": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q+ u- d- L+ e+ nu-": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q+ u- d- L+ e- nu+": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q+ u- d- L+ e- nu-": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q+ u- d- L- e+ nu+": {
+    "n_SU2": 18,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q+ u- d- L- e+ nu-": {
+    "n_SU2": 18,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q+ u- d- L- e- nu+": {
+    "n_SU2": 18,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q+ u- d- L- e- nu-": {
+    "n_SU2": 18,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u+ d+ L+ e+ nu+": {
+    "n_SU2": 6,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u+ d+ L+ e+ nu-": {
+    "n_SU2": 6,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u+ d+ L+ e- nu+": {
+    "n_SU2": 6,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u+ d+ L+ e- nu-": {
+    "n_SU2": 6,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u+ d+ L- e+ nu+": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q- u+ d+ L- e+ nu-": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q- u+ d+ L- e- nu+": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q- u+ d+ L- e- nu-": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q- u+ d- L+ e+ nu+": {
+    "n_SU2": 6,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u+ d- L+ e+ nu-": {
+    "n_SU2": 6,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u+ d- L+ e- nu+": {
+    "n_SU2": 6,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u+ d- L+ e- nu-": {
+    "n_SU2": 6,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u+ d- L- e+ nu+": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q- u+ d- L- e+ nu-": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q- u+ d- L- e- nu+": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q- u+ d- L- e- nu-": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q- u- d+ L+ e+ nu+": {
+    "n_SU2": 6,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u- d+ L+ e+ nu-": {
+    "n_SU2": 6,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u- d+ L+ e- nu+": {
+    "n_SU2": 6,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u- d+ L+ e- nu-": {
+    "n_SU2": 6,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u- d+ L- e+ nu+": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q- u- d+ L- e+ nu-": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q- u- d+ L- e- nu+": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q- u- d+ L- e- nu-": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q- u- d- L+ e+ nu+": {
+    "n_SU2": 6,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u- d- L+ e+ nu-": {
+    "n_SU2": 6,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u- d- L+ e- nu+": {
+    "n_SU2": 6,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u- d- L+ e- nu-": {
+    "n_SU2": 6,
+    "SU(2) closes at n": [
+     4,
+     8
+    ]
+   },
+   "Q- u- d- L- e+ nu+": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q- u- d- L- e+ nu-": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q- u- d- L- e- nu+": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   "Q- u- d- L- e- nu-": {
+    "n_SU2": 12,
+    "SU(2) closes at n": [
+     2,
+     4,
+     6,
+     8
+    ]
+   }
+  },
+  "the least n closing all three, no absorber": {
+   "Q+ u+ d+ L+ e+ nu+": 2,
+   "Q+ u+ d+ L+ e+ nu-": 4,
+   "Q+ u+ d+ L+ e- nu+": 4,
+   "Q+ u+ d+ L+ e- nu-": 2,
+   "Q+ u+ d+ L- e+ nu+": 4,
+   "Q+ u+ d+ L- e+ nu-": 4,
+   "Q+ u+ d+ L- e- nu+": 4,
+   "Q+ u+ d+ L- e- nu-": 4,
+   "Q+ u+ d- L+ e+ nu+": 4,
+   "Q+ u+ d- L+ e+ nu-": 4,
+   "Q+ u+ d- L+ e- nu+": 4,
+   "Q+ u+ d- L+ e- nu-": 4,
+   "Q+ u+ d- L- e+ nu+": 4,
+   "Q+ u+ d- L- e+ nu-": 4,
+   "Q+ u+ d- L- e- nu+": 4,
+   "Q+ u+ d- L- e- nu-": 4,
+   "Q+ u- d+ L+ e+ nu+": 4,
+   "Q+ u- d+ L+ e+ nu-": 4,
+   "Q+ u- d+ L+ e- nu+": 4,
+   "Q+ u- d+ L+ e- nu-": 4,
+   "Q+ u- d+ L- e+ nu+": 4,
+   "Q+ u- d+ L- e+ nu-": 4,
+   "Q+ u- d+ L- e- nu+": 4,
+   "Q+ u- d+ L- e- nu-": 4,
+   "Q+ u- d- L+ e+ nu+": 2,
+   "Q+ u- d- L+ e+ nu-": 4,
+   "Q+ u- d- L+ e- nu+": 4,
+   "Q+ u- d- L+ e- nu-": 2,
+   "Q+ u- d- L- e+ nu+": 4,
+   "Q+ u- d- L- e+ nu-": 4,
+   "Q+ u- d- L- e- nu+": 4,
+   "Q+ u- d- L- e- nu-": 4,
+   "Q- u+ d+ L+ e+ nu+": 4,
+   "Q- u+ d+ L+ e+ nu-": 4,
+   "Q- u+ d+ L+ e- nu+": 4,
+   "Q- u+ d+ L+ e- nu-": 4,
+   "Q- u+ d+ L- e+ nu+": 2,
+   "Q- u+ d+ L- e+ nu-": 4,
+   "Q- u+ d+ L- e- nu+": 4,
+   "Q- u+ d+ L- e- nu-": 2,
+   "Q- u+ d- L+ e+ nu+": 4,
+   "Q- u+ d- L+ e+ nu-": 4,
+   "Q- u+ d- L+ e- nu+": 4,
+   "Q- u+ d- L+ e- nu-": 4,
+   "Q- u+ d- L- e+ nu+": 4,
+   "Q- u+ d- L- e+ nu-": 4,
+   "Q- u+ d- L- e- nu+": 4,
+   "Q- u+ d- L- e- nu-": 4,
+   "Q- u- d+ L+ e+ nu+": 4,
+   "Q- u- d+ L+ e+ nu-": 4,
+   "Q- u- d+ L+ e- nu+": 4,
+   "Q- u- d+ L+ e- nu-": 4,
+   "Q- u- d+ L- e+ nu+": 4,
+   "Q- u- d+ L- e+ nu-": 4,
+   "Q- u- d+ L- e- nu+": 4,
+   "Q- u- d+ L- e- nu-": 4,
+   "Q- u- d- L+ e+ nu+": 4,
+   "Q- u- d- L+ e+ nu-": 4,
+   "Q- u- d- L+ e- nu+": 4,
+   "Q- u- d- L+ e- nu-": 4,
+   "Q- u- d- L- e+ nu+": 2,
+   "Q- u- d- L- e+ nu-": 4,
+   "Q- u- d- L- e- nu+": 4,
+   "Q- u- d- L- e- nu-": 2
+  }
+ },
+ "G3": {
+  "checks": {
+   "3r mod 24 is 12 for r = 4 mod 8 and 0 for r = 0 mod 8": true,
+   "fully free for exactly 8 sign assignments": true,
+   "they are s_Q = s_L, s_u = s_d, s_e = s_nu": true,
+   "none with s_Q = -s_L": true,
+   "the twist patterns are the rule's parities": true,
+   "every pattern is reached with eps_12 alone": true,
+   "t_12 = 0 at every condition": true,
+   "t_20 = 0 exactly at 0 and V4": true,
+   "t_4 = 0 exactly at V2 and L6": true,
+   "B1674's two with s_Q = s_L become fully free with eps_12 on exactly one of Q, L": true
+  },
+  "fully free (number of twist vectors)": {
+   "Q+ u+ d+ L+ e+ nu+": 5832,
+   "Q+ u+ d+ L+ e- nu-": 5832,
+   "Q+ u- d- L+ e+ nu+": 5832,
+   "Q+ u- d- L+ e- nu-": 5832,
+   "Q- u+ d+ L- e+ nu+": 5832,
+   "Q- u+ d+ L- e- nu-": 5832,
+   "Q- u- d- L- e+ nu+": 5832,
+   "Q- u- d- L- e- nu-": 5832
+  },
+  "twist patterns (t_f = [r_f = 4 mod 8], order Q u d L e nu)": {
+   "Q+ u+ d+ L+ e+ nu+": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     0,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     1,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     1,
+     0,
+     0,
+     1,
+     0
+    ]
+   ],
+   "Q+ u+ d+ L+ e- nu-": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     0,
+     1,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1,
+     0,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0,
+     0,
+     1,
+     1
+    ]
+   ],
+   "Q+ u- d- L+ e+ nu+": [
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     1,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     0,
+     1,
+     0
+    ]
+   ],
+   "Q+ u- d- L+ e- nu-": [
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     1,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     1,
+     0,
+     1,
+     1
+    ]
+   ],
+   "Q- u+ d+ L- e+ nu+": [
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     1,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     1,
+     0,
+     1,
+     1
+    ]
+   ],
+   "Q- u+ d+ L- e- nu-": [
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     1,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     1,
+     1,
+     0,
+     1,
+     0
+    ]
+   ],
+   "Q- u- d- L- e+ nu+": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     0,
+     1,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1,
+     0,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0,
+     0,
+     1,
+     1
+    ]
+   ],
+   "Q- u- d- L- e- nu-": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     0,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     1,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     1,
+     0,
+     0,
+     1,
+     0
+    ]
+   ]
+  },
+  "t_r(cond), recomputed": {
+   "0": {
+    "0": -0.0,
+    "4": -1.0,
+    "8": -0.0,
+    "12": -0.0,
+    "16": -0.0,
+    "20": 0.0
+   },
+   "V2": {
+    "0": -0.0,
+    "4": 0.0,
+    "8": -0.0,
+    "12": -0.0,
+    "16": 0.0,
+    "20": -1.0
+   },
+   "V4": {
+    "0": -0.0,
+    "4": -1.0,
+    "8": 0.0,
+    "12": 0.0,
+    "16": -0.0,
+    "20": 0.0
+   },
+   "L6": {
+    "0": -0.0,
+    "4": 0.0,
+    "8": 0.0,
+    "12": -0.0,
+    "16": 0.0,
+    "20": -1.0
+   }
+  },
+  "B1674's four with eps_12 on Q, on L": {
+   "Q+ u- d- L+ e- nu-": [
+    true,
+    true
+   ],
+   "Q+ u- d- L- e+ nu+": [
+    false,
+    false
+   ],
+   "Q- u+ d+ L+ e- nu-": [
+    false,
+    false
+   ],
+   "Q- u+ d+ L- e+ nu+": [
+    true,
+    true
+   ]
+  }
+ },
+ "G4": {
+  "checks": {
+   "chi_eta^m is trivial on S and T only for m = 0 mod 24": true,
+   "eta^(-n_G) cancels n_G for every assignment, n and group": true
+  }
+ },
+ "G5": {
+  "checks": {
+   "the pair adds m_u + m_d to n_SU2 and 2 (m_u + m_d) to n_grav": true,
+   "it is vector-like in Y": true,
+   "closes SU(2) and keeps gravity iff s_Q = s_L, with m_u + m_d = 12": true
+  },
+  "m_u + m_d that close SU(2) and gravity, on B1674's four": {
+   "Q+ u- d- L+ e- nu-": [
+    12
+   ],
+   "Q+ u- d- L- e+ nu+": [],
+   "Q- u+ d+ L+ e- nu-": [],
+   "Q- u+ d+ L- e+ nu+": [
+    12
+   ]
+  }
+ },
+ "G6 (read-out): per assignment at n = 1": {
+  "Q+ u+ d+ L+ e+ nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    true
+   ],
+   "fully free with a twist": true,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 2
+  },
+  "Q+ u+ d+ L+ e+ nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u+ d+ L+ e- nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u+ d+ L+ e- nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": true,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 2
+  },
+  "Q+ u+ d+ L- e+ nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u+ d+ L- e+ nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u+ d+ L- e- nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u+ d+ L- e- nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    true
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u+ d- L+ e+ nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u+ d- L+ e+ nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    true
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u+ d- L+ e- nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    true
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u+ d- L+ e- nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u+ d- L- e+ nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u+ d- L- e+ nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u+ d- L- e- nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u+ d- L- e- nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u- d+ L+ e+ nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u- d+ L+ e+ nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    true
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u- d+ L+ e- nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    true
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u- d+ L+ e- nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u- d+ L- e+ nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u- d+ L- e+ nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u- d+ L- e- nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u- d+ L- e- nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u- d- L+ e+ nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    true,
+    false,
+    false
+   ],
+   "fully free with a twist": true,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 2
+  },
+  "Q+ u- d- L+ e+ nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    true,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u- d- L+ e- nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    true,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u- d- L+ e- nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    true,
+    false,
+    true
+   ],
+   "fully free with a twist": true,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": true,
+   "least n with no absorber": 2
+  },
+  "Q+ u- d- L- e+ nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    true,
+    false,
+    true
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u- d- L- e+ nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    true,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u- d- L- e- nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    true,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q+ u- d- L- e- nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    true,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": true,
+   "least n with no absorber": 4
+  },
+  "Q- u+ d+ L+ e+ nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    true,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": true,
+   "least n with no absorber": 4
+  },
+  "Q- u+ d+ L+ e+ nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    true,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u+ d+ L+ e- nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    true,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u+ d+ L+ e- nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    true,
+    false,
+    true
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u+ d+ L- e+ nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    true,
+    false,
+    true
+   ],
+   "fully free with a twist": true,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": true,
+   "least n with no absorber": 2
+  },
+  "Q- u+ d+ L- e+ nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    true,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u+ d+ L- e- nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    true,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u+ d+ L- e- nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    true,
+    false,
+    false
+   ],
+   "fully free with a twist": true,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 2
+  },
+  "Q- u+ d- L+ e+ nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u+ d- L+ e+ nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u+ d- L+ e- nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u+ d- L+ e- nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u+ d- L- e+ nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u+ d- L- e+ nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    true
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u+ d- L- e- nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    true
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u+ d- L- e- nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u- d+ L+ e+ nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u- d+ L+ e+ nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u- d+ L+ e- nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u- d+ L+ e- nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u- d+ L- e+ nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u- d+ L- e+ nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    true
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u- d+ L- e- nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    true
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u- d+ L- e- nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u- d- L+ e+ nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    true
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u- d- L+ e+ nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u- d- L+ e- nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u- d- L+ e- nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u- d- L- e+ nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": true,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 2
+  },
+  "Q- u- d- L- e+ nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u- d- L- e- nu+": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    false
+   ],
+   "fully free with a twist": false,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 4
+  },
+  "Q- u- d- L- e- nu-": {
+   "SU3, SU2, grav free at n = 1": [
+    false,
+    false,
+    true
+   ],
+   "fully free with a twist": true,
+   "closed by tau's counterterm": true,
+   "fully closed by a Higgs-like pair": false,
+   "least n with no absorber": 2
+  }
+ },
+ "cells": {
+  "G0": true,
+  "G1": true,
+  "G2": true,
+  "G3": true,
+  "G4": true,
+  "G5": true
+ },
+ "every cell holds": true
+}
