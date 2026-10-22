@@ -250,6 +250,12 @@ exception is the heaviest-left-vector figures (0.998; the j–k mix; the middle 
   with two doublets sharing one flavour section (type II), or if the 2 × 2 index is internal to the theta components.
   If the coefficients are holomorphic in τ, a supersymmetric reading (no H̃) would give S for every sector, not S̃.
   That question is main's.
+- **A flavour-blind Higgs cannot replace the section** (added after the read, COMPUTED, no data;
+  `relays/chat1_2026-10-22_sm_higgs_check/flavour_blind_bound.*`). With S = 1, main's coupling is u₁·1 plus an
+  antisymmetric matrix in (u_i, u_j, u_k) in every sector, and m₂/m₃ ≥ ⅓ for every choice of channel weights (a short
+  argument, checked numerically; the relay `CHAT1_TO_SM_2026-10-22_THE_HIGGS_ARC_CHECKED.md` gives it). So the frame's
+  hierarchy is carried by the Higgs's flavour section, and the reading problem cannot be removed by making the Higgs
+  flavour-blind (the SM seat's W129 test (i), in this coupling).
 
 ## 6. The two sealed tests  [SEALED]
 
@@ -427,6 +433,13 @@ pushed before their runs, and each run's output was committed before its compari
   - The Clebsch acts on the frame's stored singular values (m_μ/m_τ × 3, m_e/m_τ ÷ 3, the determinant kept). It is not
     a coupling with a B − L component built into the frame. Such a coupling would change the other entries too.
   - The reading rule is not derived, and its gauge consistency is open (§5).
+- **The Higgs itself is assumed.** Main's DR is the SM seat's ∂R (W123).
+  - With untwisted end data O(nδ), a weight-3/2 Higgs exists iff n ≥ 1, in a space of dimension 3n (W123 as
+    corrected). A unit on v₊ alone is a chosen line, where ∂R is the only section.
+  - So both sealed tests rest either on GENESIS FK10's unit O(δ) plus the choice of ∂R among its three directions, or
+    on a unit on v₊ alone.
+  - The SM seat's W130 forces a field of the fibre's own SL(2) to be non-zero. Whether that field is this Higgs is the
+    open dictionary question (GENESIS FK11).
 - **The sealed match is at main's coarse measure.** At the precision of the record's double-ratio target (P-094) it
   fails, and the CKM phase is far off.
 - **Even if both ingredients were derived and a selection fixed τ, the line and the horocycle, this frame would reach
