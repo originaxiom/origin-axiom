@@ -1,0 +1,6 @@
+unit weight on '1': Y = [[1, 0, 0], [0, 1, 0], [0, 0, 1]] (imaginary part max 0.0e+00)
+unit weight on 'i': Y = [[0, 0, -1], [0, 0, 0], [1, 0, 0]] (imaginary part max 0.0e+00)
+unit weight on 'j': Y = [[0, 0, 0], [0, 0, 1], [0, -1, 0]] (imaginary part max 0.0e+00)
+unit weight on 'k': Y = [[0, 1, 0], [-1, 0, 0], [0, 0, 0]] (imaginary part max 0.0e+00)
+min over 300 starts of m2/m3 with S = 1: 0.333333 (median of the local minima 0.3333)
+against the data's m_c/m_t = 0.62/168.26 = 0.00368: at least 90 times too large
