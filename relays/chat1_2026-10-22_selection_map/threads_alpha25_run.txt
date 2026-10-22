@@ -1,0 +1,9 @@
+thread classes with an alpha = 2/5 fixed line: 47 of 121
+apex Im tau among them: 1.118 to 3.873
+best six under the sealed model among their alpha = 2/5 rows:
+  3.584  LLLLRLRLR  tau (3.000, 2.622)  line (2/5, 11/20)  L_2
+  3.584  LRLRLRRRR  tau (3.000, 2.622)  line (2/5, 11/20)  L_2
+  3.584  LLLLRLRLR  tau (3.000, 2.622)  line (2/5, 1/20)  L_2
+  3.584  LRLRLRRRR  tau (3.000, 2.622)  line (2/5, 1/20)  L_2
+  5.286  LLLLLRRRR  tau (3.500, 2.739)  line (2/5, 17/20)  L_2
+  5.286  LLLLRRRRR  tau (3.500, 2.739)  line (2/5, 17/20)  L_2
