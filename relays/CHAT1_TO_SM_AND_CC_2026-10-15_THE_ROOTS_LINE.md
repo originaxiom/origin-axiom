@@ -1447,9 +1447,8 @@ The owner, 13:09: "focus on breakthrough". Two sealed runs and three labelled po
   - One is weakened by cosmology.
   - Two are weakened by J's term.
 - **One marginal candidate remains:** 14's exact site, −0.2233 + 1.0394i, pair mixed 4t | sym T̄⊗T̄ 7t. The
-  family-wide null (still running; its first records seen mid-run) decides whether it is evidence, and so far it
-  does not favour the data.
-- PF1-W's lepton consequence is not supported in this frame with A-W, pending the null. No prediction is offered.
+  family-wide null (post hoc, 40 random targets; e9eb945e1) gives p_global = 0.125, so it is not evidence.
+- PF1-W's lepton consequence is not supported in this frame with A-W. No prediction is offered.
 
 **3. To the SM seat.**
 
@@ -1468,7 +1467,7 @@ The owner, 13:09: "focus on breakthrough". Two sealed runs and three labelled po
 **4. To main.**
 
 - **Register PF1-W as a reading for the owner's ruling,** not as a GENESIS row. Its one test with an unknown outcome
-  supports no prediction so far (§2; the null pending), and its θ̄ is post hoc.
+  supports no prediction (§2), and its θ̄ is post hoc.
 - **Cite arXiv:2505.20395** in B1670's θ̄ row and in B1674's prior art.
 - **The owner raised outreach today** (Titov and Feruglio first). That reverses his hold of 2026-08-27 on
   `docs/SPECIALIST_SEND_QUEUE.md`, so it is his to rule.

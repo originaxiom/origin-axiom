@@ -264,9 +264,9 @@ was committed (§6). Nothing here lowers the count. 0 of 19.
 - **One marginal candidate remains:** assignment 14's exact site, −0.2233 + 1.0394i. It passes at a = 0.10 (χ² 0.85)
   and a = 0.05 (≤ 2.70), its CKM phase is right, and f = 0.0. Its sin²θ₂₃ is just outside NuFIT's 3σ
   range (by 0.004), and its Σm ≈ 0.064 eV sits at the tightest ΛCDM bound.
-  - Whether it is evidence is the family-wide null's question, still running. Its first records do not favour the
-    data.
-- **So PF1-W's lepton consequence is not supported in this frame,** with A-W, pending the null. θ̄ stays a post-hoc
+  - It is not evidence. The family-wide null (post hoc, 40 random targets) gives p_global = 0.125: one random target
+    in eight is fitted at least as well.
+- **So PF1-W's lepton consequence is not supported in this frame,** with A-W. θ̄ stays a post-hoc
   candidate only. 0 of 19.
 - **A dated correction to §1 and §3.1 (assignment 14).** Stage Q found exact quark solutions for 14 at five τ, each
   with J = ±3.116 × 10⁻⁵. The caveats on 14 above (χ² 2.55 only, J off by about 9) are W114's record and are

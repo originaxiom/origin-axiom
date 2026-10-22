@@ -9,7 +9,7 @@ chat1, 2026-10-21. 0 of 19.
 - **Post hoc, each labelled:**
   - `lepton_test_posthoc_jckm.py` (ae2f48e7e → 44b51519a), not trusted;
   - `lepton_test_posthoc_jckm2.py` (08229eba7 → e49440daf);
-  - `lepton_test_global_null.py` (9735ab701), still running; partial output at ee1afd5d4.
+  - `lepton_test_global_null.py` (9735ab701 → e9eb945e1; partial snapshots ee1afd5d4 and 817ddbf31).
 - Refereed read-only, and corrected (§4).
 
 ## 0. In brief
@@ -33,14 +33,14 @@ chat1, 2026-10-21. 0 of 19.
   - Its sin²θ₂₃ = 0.431 is just outside NuFIT's 3σ range, by 0.004 (the lower edge is 0.435).
   - Its Σm ≈ 0.064 eV sits at the tightest current ΛCDM bound (DESI DR2 with CMB, about 0.064 eV at 95%). That
     comparison is model-dependent.
-- **Whether that candidate is evidence is the look-elsewhere question over 324 tests.** The family-wide null (post
-  hoc, 40 random targets) answers it and is still running.
-  - Its first six records were read from disk mid-run by the referee and reported to chat1. Under the null's reduced
-    search, the data's family-best p is 0.777, with 2 passes. Five random targets have 21, 9, 1, 7 and 0 passes, with
-    family-best p of 0.98, 0.58, 0.13, 0.87 and 0.04.
-  - So far, then, two of five random targets reach a family-best p above the data's. The null decides.
-- **Verdict now:** PF1-W's lepton consequence is not supported in this frame (with A-W). One marginal candidate is
-  pending the null. No prediction is offered. 0 of 19.
+- **The look-elsewhere answer: it is not evidence.** The family-wide null (post hoc; 40 random targets over all 324
+  tests, the same reduced search on both sides; e9eb945e1) gives p_global = 0.125.
+  - The data's family-best p is 0.777. Five of the 40 targets reach that or more.
+  - The data's 2 passes under the reduced search sit at about the 73rd percentile of the null; 11 of 40 targets have 2
+    or more.
+  - The null's own prediction, p_global ≥ 0.05 (prior 70%), held.
+- **Verdict:** PF1-W's lepton consequence is not supported in this frame (with A-W). The one remaining candidate fits
+  no better than the family fits random targets one time in eight. No prediction is offered. 0 of 19.
 
 ## 1. The sealed cells
 
@@ -98,8 +98,8 @@ chat1, 2026-10-21. 0 of 19.
   That was a double standard, since without the allowance every pass also misses m_μ/m_τ by 6.8σ or more. It is
   withdrawn.
 - **So the substance turns on one candidate and on the look-elsewhere.** A pass among 324 tests with per-test f near
-  zero may be what chance gives somewhere; the family-wide null decides, and its first records do not favour the
-  data.
+  zero may be what chance gives somewhere. The family-wide null decided it: p_global = 0.125, so the best fit to the
+  data is not special.
 - **Prior art.** Feruglio, Marrone, Strumia and Titov found that their minimal choice at their quark-fixed τ did not
   fit the leptons, and they added a parameter. That minimal choice had zero degrees of freedom; here the passes have
   two to five free numbers. The two outcomes are not of one kind.
