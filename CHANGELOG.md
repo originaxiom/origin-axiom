@@ -1,5 +1,17 @@
 # Changelog
 
+## S178 GENESIS v1.52 (B1706; P-237, Review 67's R67-3) (2026-10-22)
+
+- **Through adoption/amend.py from the pinned v1.51**, after Review 67's full suite: sm:B1518's body statements scoped to
+  what B1458 re-derived (THE_BAR's null model, grading and the torsion's AUC the seat's, unverified, row 823); of R57 only
+  the quotient F₂ → ℤ² re-derived (B1457), at its five body sites; R89 tagged (row 981); v1.51's tags lifted where now
+  verified (W23, W24, Theorem C; sm:B1369) and scoped where partly (Lemmas F and F′, sm:B1523, W44's c-gauge frame;
+  sm:B1368, B1370, B1385); FK10 records that the Higgs's end data are the tagged unit (B1700). No status changes; the
+  log's history not rewritten.
+- **Register.** P-237 DONE. FLOOR 253.
+- **Suite.** The full suite (GENESIS changed): 7538 passed, 1 failed, 68 skipped (42:33, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## REVIEW 67 — THE MAGNITUDES' BOUNDARY, MAPPED FROM MAIN'S SIDE (2026-10-22)
 
 - **Forty merges since Review 66** (`a498554e2..b8df0d1ae`, B1685–B1704); the review fired at forty and blocked S177's

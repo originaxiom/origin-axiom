@@ -17680,3 +17680,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   suite (7528/5/68), the loop closed (R66-2, R66-3 declined with reasons; R66-4 resolved by B1705), the premise audit on
   the sample (scope notes on B1692 and B1703, after a deep-cusp computation), TERMINOLOGY, P-253.
 
+## 2026-10-22 — S178 GENESIS v1.52 (B1706)
+
+- P-237's amendment written as B1706's amend.py against the pinned v1.51; every anchor unique; status cells unchanged;
+  thirteen v1.51 tags kept where the seat's result is still unverified. P-237 DONE.
+- **Suite.** The full suite (GENESIS changed): 7538 passed, 1 failed, 68 skipped (42:33, -n 8); the one failure is B805's attachment lock (P-239)

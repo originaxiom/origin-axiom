@@ -1,0 +1,34 @@
+{
+  "id": "B1706",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1685",
+    "B1457",
+    "B1458",
+    "B1689",
+    "B1690",
+    "B1700"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [
+    "sm:B1518",
+    "sm:B1368",
+    "sm:B1369",
+    "sm:B1370",
+    "sm:B1385"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the foundation document",
+    "object": "GENESIS v1.51 -> v1.52",
+    "reach": "general",
+    "hypotheses": "the harvest ledger's statuses as of 2026-10-22"
+  },
+  "claim_one_line": "GENESIS v1.52 (an amendment arc; P-237, Review 67's R67-3, after its full suite): sm:B1518's statements scoped to what B1458 re-derived (the own-level strata; THE_BAR's null model, grading and the torsion's AUC the seat's, unverified, row 823); of the audit lane's R57 only the quotient F2 -> Z^2 re-derived (B1457); R89 tagged (row 981); v1.51's tags lifted where the seat result is now verified on main (rows 888, 937, 939; sm:B1369) and scoped where partly (rows 828, 897, 898, 1061; sm:B1368, sm:B1370, sm:B1385); FK10 records that the Higgs's end data are the tagged unit (B1700). No status changes; the log's history not rewritten. 0 of 19.",
+  "weave_or_thread": "neither (the foundation document)"
+}

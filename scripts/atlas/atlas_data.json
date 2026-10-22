@@ -13041,6 +13041,19 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1706": {
+   "slug": "genesis v1 52",
+   "motifs": [
+    "monoid",
+    "coupling",
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "dormant",
+   "domain": "dynamics"
+  },
   "B170": {
    "slug": "relational scale leap",
    "motifs": [

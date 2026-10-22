@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1434** |
-| words of findings prose | **1,146,968** |
-| test lock files referenced | **851** |
-| arcs carrying an authored verdict | **1434** (100.0 %) |
+| research arcs with findings | **1435** |
+| words of findings prose | **1,147,383** |
+| test lock files referenced | **852** |
+| arcs carrying an authored verdict | **1435** (100.0 %) |
 | recorded closures | **829** (662 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 977 |
+| PROVED | 978 |
 | NEGATIVE | 353 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1705`** (341 words, 2 locks)  
-B186'S BAND DIMENSION RE-GRADED (Review 67, R66-4): at lambda = 0 the operator is Hermitian, so the band's spectrum is real, and B186's lock box-counted it in two dimensions after rescaling noise-level imaginary parts (1e-15) to unit range -- the value moved with the BLAS thread count; counted on the line it is 0.9385 (golden) and 0.8830 (silver) at both settings, against the off-axis 0.8272 and 0.7646, so B186's ordering stands by 0.11-0.12; its lock counts the band on the line and its printed band values carry a dated note. 0 of 19.  
-`B1705_b186_band_dimension_regraded/FINDINGS.md`
+**PROVED — `B1706`** (415 words, 1 locks)  
+GENESIS v1.52 (an amendment arc; P-237, Review 67's R67-3, after its full suite): sm:B1518's statements scoped to what B1458 re-derived (the own-level strata; THE_BAR's null model, grading and the torsion's AUC the seat's, unverified, row 823); of the audit lane's R57 only the quotient F2 -> Z^2 re-derived (B1457); R89 tagged (row 981); v1.51's tags lifted where the seat result is now verified on main (rows 888, 937, 939; sm:B1369) and scoped where partly (rows 828, 897, 898, 1061; sm:B1368, sm:B1370, sm:B1385); FK10 records that the Higgs's end data are the tagged unit (B1700). No status changes; the log's history not rewritten. 0 of 19.  
+`B1706_genesis_v1_52/FINDINGS.md`
 
 **NEGATIVE — `B1702`** (636 words, 1 locks)  
 THE OTHER CUSP SHAPES (P-249; sealed f51ab2718, sha256 8f26df36; NEGATIVE as sealed -- H1, H2, H3 fail; outputs committed unread at df0737fa1): with the weave's tau at the silver word state's cusp shape 2i (B675) or the golden word's spin end curve 1/2 + sqrt3 i (B1483), the end-data Higgs DR, the canonical end and any of 576 lines, no choice brings the six ratios within a factor of 3 (best 8.9 at 2i, 19.4 at 1/2 + sqrt3 i; chi2 593; 24.7% of random hierarchies fit as well); the up quarks' m2/m3 stays >= 0.0134 (measured 0.0037). With B1696, no word-state cusp shape tested selects tau in this frame. 0 of 19.  

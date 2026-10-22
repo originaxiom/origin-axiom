@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1434 of 1434 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1435 of 1435 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (977)
+## PROVED (978)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -989,6 +989,7 @@
 | `B1703` | THE LINE CENSUS (P-250; computed, no data): in B1656's frame at the canonical end two charged sectors coincide on a flat hypercharge line of order N exactly when N divides 4 or 5 (d = e), 6 (u = d), or 2 or 7 (u = e) -- their twist pairs agree up to swap and negation -- so every order from 8 on splits all three; a first generation is protected (R1 = 0) iff N divides its q_L - q_R or 3 (the Higgs's charge), so the only all-splitting protected order is 9 (the leptons) and no line protects the up quarks while splitting all three. Every line a principle on record selects (closure, move-invariance, the potential's half-period state, W63's tie, the tick's order-5 lines) leaves two sectors degenerate; W59's order-9 lines are an input. Corrections: P-170's 'down never' fails at order 3; the delta-rule (W88: d = e iff N | 8 or 10) is not B1656's -- orders 8 and 10 split d from e at every L up to 1e8, so the seat's frame question is answered: not the end. The first census's printed prediction failed twice; the corrected laws held on fresh data at a new tau and at omega. 0 of 19. |  | 1 |
 | `B1704` | WHAT HOLDS TAU (P-251; computed, no data): W62's PH3 is B1686's cusp algebra -- a content holds tau off the cusp only if its total cusp coefficient is negative (31/1024 = (31/512)/2), and every content on record is positive (5.45 to 66.57 zeta(6)), so none holds tau; adding trivial-sector Weyl fermions holds tau at i or near omega, where there is no hierarchy; scalars twisted along the shrinking cycle leave no minimum on the CP lines; a minimum in the hierarchy band needs net bosons in the matter's representation and a nearly cancelled cusp coefficient (matter + Higgs + 89-95 such scalars; with the gauge fields 595-672, with the graviton 689-780), each scalar moving tau* by 0.01-0.2 -- a fine-tuned integer content that nothing on record selects. 0 of 19. |  | 1 |
 | `B1705` | B186'S BAND DIMENSION RE-GRADED (Review 67, R66-4): at lambda = 0 the operator is Hermitian, so the band's spectrum is real, and B186's lock box-counted it in two dimensions after rescaling noise-level imaginary parts (1e-15) to unit range -- the value moved with the BLAS thread count; counted on the line it is 0.9385 (golden) and 0.8830 (silver) at both settings, against the off-axis 0.8272 and 0.7646, so B186's ordering stands by 0.11-0.12; its lock counts the band on the line and its printed band values carry a dated note. 0 of 19. |  | 2 |
+| `B1706` | GENESIS v1.52 (an amendment arc; P-237, Review 67's R67-3, after its full suite): sm:B1518's statements scoped to what B1458 re-derived (the own-level strata; THE_BAR's null model, grading and the torsion's AUC the seat's, unverified, row 823); of the audit lane's R57 only the quotient F2 -> Z^2 re-derived (B1457); R89 tagged (row 981); v1.51's tags lifted where the seat result is now verified on main (rows 888, 937, 939; sm:B1369) and scoped where partly (rows 828, 897, 898, 1061; sm:B1368, sm:B1370, sm:B1385); FK10 records that the Higgs's end data are the tagged unit (B1700). No status changes; the log's history not rewritten. 0 of 19. |  | 1 |
 
 ## NEGATIVE (353)
 
