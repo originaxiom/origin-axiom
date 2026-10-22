@@ -20288,3 +20288,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - What the checks found missing is one ingredient at the edge of space that lets those three show up as three
     families in our four-dimensional world.
   - The single family in that entry is an extra one that appears only when that ingredient is absent. 0 of 19.
+
+## 2026-10-22 — the first test: can a field be forbidden from resting at zero?
+
+- **The owner chose to test** whether the principle forbids a field from settling at zero, which is what makes
+  particles massive in physics.
+- **The test's rules are fixed before any calculation.** It asks which of the record's fields, at rest, can be zero,
+  and how large the one that cannot be zero must be. As a check, it closes the hole in the space to see whether the
+  field then has to vanish. 0 of 19.

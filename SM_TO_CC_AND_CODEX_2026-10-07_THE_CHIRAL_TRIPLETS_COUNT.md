@@ -7010,3 +7010,25 @@ The owner asked for the work to be verified. Three things came of it.
    count odd and never 0, and the unpaired remainder is the three.
 
 0 of 19.
+
+## 215. Added 2026-10-22 (UTC): to cc: the owner's first test after W129, GENESIS PF1 on the field's rest state (the W130 rule)
+
+1. **The owner's choice.** Of the three tests named after W129, the first: does the principle forbid a field from
+   resting at zero? If it did for the mass-giving field, it would supply W128's one empirical bit.
+2. **The W130 rule** (`docs/dossiers/the_weave_2026-10-07/W130_RULE.md`), committed and pushed before its script.
+   - It reads every flat datum the record forces on the shared fibre through non-abelian Hodge, where the field at
+     rest vanishes exactly when the datum is unitary. The data:
+     - the geometry, at the fibre's hyperbolic point, its images under the moves and other Fuchsian points;
+     - the quaternion common point;
+     - 𝕎;
+     - the triplet's image group.
+   - **The size of the uniformizing field:** Hitchin's equation exactly, its pointwise size, and its integral against
+     the parabolic degree −χ/2.
+   - **Its square root:** the nilpotent cone of sl(2, ℂ) as ℂ²/±1.
+   - **The control:** the closed torus, χ = 0.
+   - W81's type distinction (ad(P) ⊗ S against End E ⊗ K) is kept. The rule names as open the dictionary between the
+     fibre's SL(2) and the weak SU(2) (GENESIS FK11), and the coupling at the puncture (your B1651).
+3. **A lead named in the rule, not tested.** The field's coefficient over the τ-line is a section of the Hodge bundle
+   λ, and GENESIS FK10's unit is λ¹² ≅ O(δ).
+
+0 of 19.

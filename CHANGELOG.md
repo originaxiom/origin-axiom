@@ -1,5 +1,14 @@
 # Changelog
 
+## The W130 rule: GENESIS PF1 on the field's rest state (relay §215)
+
+- **The owner's first test after W129.** Does the principle forbid a field from resting at zero? Every flat datum
+  the record forces on the shared fibre is read through non-abelian Hodge, where the field at rest vanishes exactly
+  when the datum is unitary.
+- **The cells:** the uniformizing field's size against the parabolic degree −χ/2, its square root as a doublet, and
+  the closed torus as the control. Committed before the script.
+- **Surfaces.** W130_RULE.md, relay §215, row 317, the state page's range. 0 of 19.
+
 ## A clarification after the owner's check: the three stands; W127 and W129 concern the unit that carries it into four dimensions (relay §214)
 
 - **The three is derived on the record:** the three parities (W1), alike (W6), the triplet T (W21), and the fibre's odd
