@@ -20327,3 +20327,19 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Main's latest test (the golden valley) also failed as sealed.** That makes twenty-one tests of the forced
   structure against the measured masses, none confirming an unfitted prediction.
   0 of 19.
+
+## 2026-10-22 — the three remaining tests, done
+
+- **Does the field the principle forces give the families their masses?** No. It cannot reach them: the only place it
+  could touch them is the hole, and there its effect cancels exactly. It is the shape's own field, not the mass-giver.
+- **Do the smallest leftover phases at the edge force the extra unit that carries three families into four
+  dimensions?** No; that unit carries no phase at all. One leftover never cancels with three families. What can soak it
+  up is the shape's own size parameter, or a twist on one particle type, or a pair of fields with the Higgs's charges.
+- **Which forms of the field survive the web seat's rule that things may vanish only at the edge?** This came out
+  differently from the prediction. Every untwisted form is ruled out, including the one the record had used for three
+  families. But among the twisted forms a small, finite set survives: three directions in each of the two spaces where
+  the family count is three. Some of them are written down exactly. The prediction said none would survive there, so
+  it failed, and the finding is recorded as found.
+- One computer run crashed on a programming error before producing anything; it is disclosed and its log kept. An
+  early numerical count was too generous and was corrected by an exact count.
+  0 of 19.

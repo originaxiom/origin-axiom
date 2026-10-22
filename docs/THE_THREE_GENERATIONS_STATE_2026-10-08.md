@@ -100,6 +100,12 @@ Under the owner's rulings, the table's rows split into two groups:
     own uniformizing Higgs field (W130). Its size is ½ in curvature units at every τ, with integral π·(−χ/2). It must
     vanish if the hole is closed. The matter's flat data carry none. It is the fibre's SL(2) adjoint, with a
     nowhere-zero doublet square root; whether it is the weak Higgs is the dictionary (GENESIS FK11).
+  - *Added 2026-10-22.* That field is silent toward the chiral three: its point coupling at the puncture is a
+    residue that vanishes, and it is parity-blind (W131). The cusp's unit carries no phase, so the edge's
+    twenty-fourths do not force GENESIS FK10's unit; the moves' SU(2) remainder at three generations is carried by τ's
+    counterterm, a sign twist ε₁₂, or a Higgs-like pair (W132). GENESIS PF1 as the web seat reads it (PF1-W), on the
+    families' joint coupling, excludes every untwisted Higgs and keeps finitely many twisted ones, 3 lines in each
+    twisted space where the count is three (W133; its P2 failed as predicted).
 - **No index on a thread or a cover:** NEGATIVE (main's B1604).
 - **The E₈ frames on the fibre give at most two complete generations:** NEGATIVE (W23).
 - **No six-dimensional object the weave forces gives three:** NEGATIVE (W24).
@@ -918,4 +924,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W119 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§218).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§219).

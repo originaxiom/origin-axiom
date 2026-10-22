@@ -1,5 +1,25 @@
 # Changelog
 
+## W131, W132 and W133 recorded: the forced field is silent toward the three; the twenty-fourths never force the unit; GENESIS PF1, read zero-free on the Higgs, forces a twisted Higgs and keeps finitely many sections (relay §219)
+
+- **W131** (every cell as predicted). W130's field annihilates the fibre's three zero modes by its conjugate. Every
+  pairing linear in it is a (1, 0)-form, and it is parity-blind. Its point coupling at the puncture is a vanishing
+  residue (|Y| ≤ 3.3 × 10⁻⁴³ at three τ). It is the shape's field, not the mass-giver.
+- **W132** (every cell as predicted). The unit carries no phase, so GENESIS FK10's unit is not forced by the
+  twenty-fourths. Three generations never close the moves' SU(2) remainder alone. τ's counterterm always absorbs it;
+  so do ε₁₂ on one doublet field (8 of 64 sign assignments) and a Higgs-like pair (4 of 64).
+- **W133** (P0 and P1 as predicted; **P2 FAILED as predicted**). The web seat's PF1-W, its reading of GENESIS PF1,
+  read on the families' joint coupling:
+  - it excludes every untwisted Higgs;
+  - it keeps exactly dim h zero-free lines in each twisted space with the unit (4, 3 and 3; 81, 27 and 27 solutions
+    with multiplicity), where the rule predicted the multiples of η⁴R only;
+  - in h(12, 1) and h(20, 1), where the count is three, that is 3 lines each;
+  - an explicit theta-power family, η^{3−a}(−θ₂^a, −θ₄^a, iθ₃^a), gives 6 of the 11 lines.
+  - One failed launch, disclosed. Three post-hoc passes, labelled; the third, exact, withdrew the first's numerical
+    count of distinct solutions.
+- **Surfaces.** NOTE (three sections, three rows, a dated answer in W127's), three lock tests, relay §219, row 317, the
+  state page. 0 of 19.
+
 ## Three rules before their scripts: W131 (the forced field and the chiral three), W132 (the twenty-fourths and the SU(2) remainder), W133 (PF1-W, the web seat's reading of GENESIS PF1, on the Higgs) (relay §218)
 
 - **The owner's word:** finish this seat's plate without waiting on the other seats.

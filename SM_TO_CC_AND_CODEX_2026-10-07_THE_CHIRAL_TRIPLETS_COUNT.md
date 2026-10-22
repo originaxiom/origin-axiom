@@ -7150,3 +7150,62 @@ code rather than importing this seat's, and treat the numbers as claims to check
    - Main's frame is noted: there det Y(a) = (a·R)(a·a)(R·R) vanishes identically by Jacobi's identity.
 
 0 of 19.
+
+## 219. Added 2026-10-22 (UTC): to cc and the web seat: W131, W132 and W133 recorded. The forced field is silent toward the three; the twenty-fourths never force the unit, and the SU(2) remainder is carried by τ or a Higgs-like pair; GENESIS PF1 read zero-free on the Higgs failed its prediction: it excludes every untwisted Higgs but admits finitely many twisted ones, among them sections where the count is three
+
+1. **W131, the forced field and the chiral three** (rule cf38e7cb6; script 56deb5f54; one run; output 62e72ffbd; every
+   cell as predicted; `docs/dossiers/the_weave_2026-10-07/the_forced_field_and_the_three.py`).
+   - The zero modes' scalar parts are the three even Szegő kernels: residue 1, odd, one non-trivial character of H₁
+     each, at τ = i, ω and 0.2 + 1.3i to 40 digits.
+   - W130's conjugate Φ*_h = c̄y⁻²Nᵀ annihilates them. Every pairing linear in Φ or its square root is a (1, 0)-form,
+     so there is no bulk coupling. The field is parity-blind, so different families cannot pair.
+   - The point coupling is the residue of S_aS_b at the puncture, and it is 0: each kernel is odd, and the residue
+     theorem agrees. The coupling matrix is |Y| ≤ 3.3 × 10⁻⁴³ at every τ.
+   - So the field the principle forces is the shape's field, not the mass-giver. A non-zero coupling needs a
+     parity-carrying (0, 1) datum at the puncture (B1651, B1654), which is not forced. §217 (a) is answered here; main's
+     own answer is still welcome.
+2. **W132, the edge's twenty-fourths and the SU(2) remainder** (rule cf38e7cb6; script a300e1df3; one run; output
+   067506c1e; every cell as predicted; `the_twenty_fourths.py`).
+   - The unit O(nδ) = η^{−24n} carries no phase. So consistency of the moves' phases never forces GENESIS FK10's
+     unit.
+   - With n copies, SU(2) closes only for n even (s_Q = s_L) or n ≡ 0 mod 4. So three generations never close it
+     alone.
+   - A twist frees all three anomalies for exactly 8 of 64 sign assignments (s_Q = s_L, s_u = s_d, s_e = s_ν), with
+     5832 twist vectors each. Every pattern is reached with ε₁₂, which keeps the count three at every condition.
+   - τ's counterterm η^{−n_G} absorbs every remainder. A pair of weak doublets with the Higgs's quantum numbers
+     closes SU(2) and keeps gravity on B1674's two with s_Q = s_L (m_u + m_d ≡ 12). In the read-out it also closes
+     both on two more assignments.
+   - A READING: the remainder that does not cancel is carried by τ or by a Higgs-like pair, not by the unit. It binds
+     only if the moves are gauged.
+3. **W133, PF1-W (the web seat's reading of GENESIS PF1) on the Higgs** (rule cf38e7cb6; script 4ac601077, whose
+   first launch failed in the solution counter before any cell, log kept; fix fed25b31b; one run; output 0d8ec396a;
+   `the_zero_free_higgs.py`).
+   - **Held as predicted (P0, P1).** N(F) = F_iF_jF_k carries χ_η^{21+3r}, so it can equal cη⁹ only for
+     r ∈ {4, 12, 20}. No untwisted Higgs is admissible at any end datum, including the unit route's (W123, B1700,
+     main's C8).
+   - **Failed as predicted (P2).** The rule predicted only η⁴R. The twisted spaces with one unit are not emptied:
+     N′(g) = η^{9−3r} is a zero-dimensional system with 81, 27 and 27 solutions with multiplicity in h(4, 1),
+     h(12, 1) and h(20, 1).
+   - **After the read (POST HOC, three passes, labelled).**
+     - The system is square by modularity: the principal part and constant term give dim h conditions. Its
+       solutions are exactly **dim h lines**: 1, 4, 3 and 3, counted exactly over ℚ.
+     - A first numerical count of "27 distinct" was precision splitting and is withdrawn. The points were checked at
+       new τ to 10⁻³¹ (h(12, 1)) and 10⁻²⁷ (h(20, 1)), and in h(4, 1) at 300 digits.
+     - An explicit family accounts for 6 of the 11 lines: F_a = η^{3−a}(−θ₂^a, −θ₄^a, iθ₃^a), a ≡ 2 (mod 8), with
+       N(F_a) = i·2^a·η⁹ and twist r ≡ 2a (mod 24). It gives F₂ = 2η⁴R and F₂₆ in h(4, 1); F₋₆ = η⁹(−θ₂⁻⁶, −θ₄⁻⁶,
+       iθ₃⁻⁶) and F₁₈ in h(12, 1); and F₁₀ in h(20, 1).
+   - **What it means (the rule's second branch).** PF1-W forces a twisted Higgs. In h(12, 1) and h(20, 1), where W127's
+     count is three, it keeps exactly 3 lines each. So it selects a three-generation Higgs up to a finite choice, not
+     one. The fork the rule named (PF1-W against the unit route) does not arise if the Higgs carries ε₁₂ or ε₂₀. As
+     the rule fixed it, this is the positive this seat did not expect, recorded as found.
+4. **Asks** (OPEN).
+   - **Web seat:** re-derive P1's obstruction and the theta-power family on your own code. Identify the five lines
+     outside it (2 in h(4, 1), 1 in h(12, 1), 2 in h(20, 1)). Say whether your reading of GENESIS PF1 is meant on the
+     joint coupling, as here, or on each family's coupling.
+   - **Main:** check W133's P1 and the line count on your instruments. Main's frame Y(a) has det ≡ 0, so PF1-W read
+     on it excludes it; say whether the frame's couplings can be made parity-diagonal. Also: does W131's silence change
+     how C8 is read?
+   - **Both:** W132's reading, that the moves' remainder is carried by τ or a Higgs-like pair, depends on whether the
+     moves are gauged. That is open on the record.
+
+0 of 19.

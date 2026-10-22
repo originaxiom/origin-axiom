@@ -7726,6 +7726,106 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W133. The web seat's PF1-W, its reading of GENESIS PF1, on the Higgs (relay §217 (b), taken at the owner's word): read on the families' joint coupling F_iF_jF_k, it excludes every untwisted Higgs at every end datum, the record's three-generation Higgs among them. P2 FAILED as predicted: the twisted spaces are not emptied. Each keeps finitely many zero-free lines, exactly as many as its dimension. In h(12, 1) and h(20, 1), where the count is three, these are 3 lines each, and the explicit sections η^{3−a}(−θ₂^a, −θ₄^a, iθ₃^a), a ≡ 2 (mod 8), are among them (`the_zero_free_higgs.py`; `W133_RULE.md`)
+
+**Why.**
+- The web seat's PF1-W, its reading of GENESIS PF1, was registered by the owner as a reading on 2026-10-22: the law's
+  holomorphic invariants have their zeros and poles only at the end. Relay §217 asked which weight-3/2 Higgs sections
+  it admits.
+- W127's dated note found η⁴R admissible and named the unit's space as open. The owner asked this seat to take it
+  without waiting (2026-10-22).
+
+**The order.**
+- The rule (`W133_RULE.md`) was committed and pushed (cf38e7cb6) before the script existed.
+- The script (4ac601077) was committed before its first launch. Before that commit it was only compiled.
+- **The first launch failed** after 2.6 s, in P2's solution counter, before any cell was written. This sympy's
+  `Poly.monoms` takes an ordering object, not the name "grevlex". Its log is kept
+  (`the_zero_free_higgs_run_failed_launch_1.txt`, with the checkout's absolute prefix removed for the path gate).
+- The one-line fix (fed25b31b) was tried only on two toy Gröbner bases and committed before the second launch, the
+  one run (5 s). Its output (0d8ec396a) was committed unread, then read once.
+- Three post-hoc passes followed the read, all labelled; nothing in them was in the rule: 70ba966a0, b54201113 and
+  42d38d1e8 (`the_zero_free_higgs_posthoc.py`, `…posthoc2.py`, `…posthoc3.py`).
+
+**The result (COMPUTED, exact; P0 and P1 as predicted; P2 FAILED as predicted).**
+- **P0, the instrument** (exact series in x = q^{1/8} to x⁶⁰). The line-to-parity change gives R's components
+  (−θ₂², −θ₄², iθ₃²)/(θ₂θ₃θ₄) exactly, and θ₂θ₃θ₄ = 2η³.
+  - N′(R) = ℓ_{1/8}(ℓ_{3/8}² − ℓ_{7/8}²) = 2η⁻³, so N(R) = (i/2)η⁻³ and N(η⁴R) = (i/2)η⁹.
+  - Main's det Y(a) = (a·R)(a·a)(R·R) is an identity, and R·R = 0 by Jacobi's identity.
+- **P1, the obstruction** (exact).
+  - On S and T the product of ρ's entries equals det ρ·sgn, and both equal χ_η²¹. So N(F) carries χ_η^{21+3r},
+    which is χ_η⁹ only for r ∈ {4, 12, 20}.
+  - Every section's line ℓ_e has x-exponents in 8e mod 8 (all six r, n ∈ {0, 1}), so N′ lies in 7 mod 8, while
+    η^{9−3r} lies in 3 − r mod 8.
+  - **So no untwisted Higgs (r ≡ 0 mod 8) is admissible under PF1-W, the web seat's reading of GENESIS PF1, at any
+    end datum.** That includes the unit route's Higgs, with ∂R (W123, B1700, main's C8).
+- **P2, the admissible sections** (Gröbner bases over ℚ of N′(g) = η^{9−3r}, up to x^{3−r} and two orders beyond).
+
+  | space | dim | equations | solutions with multiplicity | the multiples of R |
+  | --- | --- | --- | --- | --- |
+  | h(4, 0) | 1 | 3 | 3 | solve it (all of them) |
+  | h(4, 1) | 4 | 6 | 81 | solve it |
+  | h(12, 1) | 3 | 5 | 27 | — |
+  | h(20, 1) | 3 | 5 | 27 | — |
+
+  - Every system is zero-dimensional. The rule predicted the multiples of η⁴R only (3, 3, 0 and 0 solutions), so
+    **P2 FAILED as predicted**.
+- **P3, the read-out.** W127's index at r = 4 is I = −1 at conditions 0 and V4 for n = 0 (one generation). At n = 1
+  it is (−4, −1, 0, 3) at (0, V2, V4, L6).
+
+**After the read (POST HOC, labelled).**
+- **Why solutions exist.** In each space the conditions that decide whether N(F)/η⁹ is constant (its principal part
+  and constant term) number exactly dim h: 1, 4, 3 and 3. The other equations follow by modularity, since the quotient
+  is a polynomial in j once the character matches. So a square system has solutions, Bezout's 3^{dim} with
+  multiplicity, and each is an exact zero-free section: N(F) = c·η⁹.
+- **The distinct solutions, exactly** (the third pass, over ℚ with two linear forms).
+  - There are 3, 12, 9 and 9 distinct solutions. Since each comes with its cube-root multiples, they are **1, 4, 3 and
+    3 lines through the origin**, as many as each space's dimension.
+  - Their multiplicities per line are (1), (1, 6, 8, 12), (1, 4, 4) and (1, 4, 4).
+- **Corrections inside the post-hoc work.**
+  - The first pass counted 81, 27 and 27 distinct eigenvalues at 100 digits. Those were multiple eigenvalues split
+    by precision, and the counts are withdrawn.
+  - Its check at three new τ still holds: the eigenvector points in h(12, 1) and h(20, 1) give N′(g)/η^{9−3r} = 1 to
+    1.3 × 10⁻³¹ and 1.9 × 10⁻²⁷.
+  - In h(4, 1) the same check failed (up to 7.7 × 10¹⁰), because at 100 digits the eigenvector points did not even
+    solve the equations. The second pass found 66 of the 81 points solving them to 10⁻²⁰ at 300 digits, each giving
+    N′/η⁻³ = 1 to 10⁻¹⁰.
+- **An explicit family, found by hand after the read.** F_a = η^{3−a}(−θ₂^a, −θ₄^a, iθ₃^a) with a ≡ 2 (mod 8).
+  - N(F_a) = i·2^a·η⁹, which is zero-free, and F_a's twist is r ≡ 2a (mod 24). F₂ = 2η⁴R.
+  - Membership, exact: F₂ and F₂₆ lie in h(4, 1); F₋₆ = η⁹(−θ₂⁻⁶, −θ₄⁻⁶, iθ₃⁻⁶) and F₁₈ in h(12, 1); F₁₀ in h(20, 1).
+    Their cube-root multiples solve W133's system exactly.
+  - Their multiplicities: η⁴R has 1 in h(4, 0) and 12 in h(4, 1), and F₂₆ is simple; F₋₆ has 4 and F₁₈ is simple;
+    F₁₀ has 4.
+  - Unidentified: 2 lines in h(4, 1), 1 in h(12, 1), 2 in h(20, 1). By hand, theta monomials give only this family,
+    so those lines need other modular units.
+- **W127's index at n = 1:** r = 12 gives (−3, −1, 1, 3) at (0, V2, V4, L6), three at 0 and at L6; r = 20 gives
+  (−3, −2, 1, 2), three at 0.
+
+**What it shows (the rule's fixed meaning, its second branch: "P2 finds admissible sections beyond η⁴R").**
+1. **PF1-W (the web seat's reading of GENESIS PF1), read on the families' joint coupling, forces the Higgs to be
+   twisted** by ε₄, ε₁₂ or ε₂₀. It excludes every untwisted Higgs, the record's three-generation Higgs among them.
+   This part held as predicted.
+2. **It does not empty the twisted spaces with the unit; it cuts each to finitely many lines.**
+   - In h(12, 1) and h(20, 1), where the count is three, it keeps exactly 3 lines each.
+   - In h(12, 1) two of them are explicit theta-power sections, F₋₆ and F₁₈. In h(20, 1) one is, F₁₀.
+   - So PF1-W selects a three-generation Higgs up to a finite choice: 3 directions in each of two twisted spaces. That
+     is the positive the rule fixed as "recorded as found", which this seat did not expect. It does not select a
+     single Higgs.
+3. **So the fork the rule named does not arise.** PF1-W and the unit route are compatible, provided the Higgs carries
+   ε₁₂ or ε₂₀. PF1-W does not choose among the lines, or between the two twists.
+4. **η⁴R is not singled out either.** h(4, 1) keeps 4 lines, and η⁴R is one of them.
+5. **A coincidence, named, not argued.** ε₁₂ is the twist W132 found to free the moves' anomalies on one doublet
+   field while keeping the count three. There it twists a matter field; here it twists the Higgs.
+
+**What stays open.** The five unidentified lines; whether any principle chooses among the zero-free lines; couplings
+that are not diagonal in the parity basis; end data n ≥ 2.
+
+**Weave or thread.** WEAVE-type: the weave's own surface, every allowed twist, end data n ∈ {0, 1}, the moves' joint
+representation, and claims about every section at once.
+
+**Status.** COMPUTED, exact. One run after a failed launch, disclosed. P0 and P1 as predicted; P2 FAILED as
+predicted, and its finding is recorded. Three post-hoc passes, labelled, one of which withdrew an earlier pass's
+numerical count. No data, so not a trial. 0 of 19.
+
 ## W132. The edge's twenty-fourths and the SU(2) remainder (two tests named after W129, taken together): consistency of the moves' phases never forces the cusp's unit, which carries no phase. With three generations the moves' SU(2) remainder never closes on its own. What closes it is τ's counterterm always; or, on 8 of the 64 sign assignments, a sign twist ε₁₂ on one doublet field, which keeps the count three; or, on two of B1674's four, a pair of weak doublets with the Higgs's quantum numbers (`the_twenty_fourths.py`; `W132_RULE.md`)
 
 **Why.**
@@ -8160,6 +8260,9 @@ a stated order, labelled so.
   - Both fields the principle forces in these arcs have PF1-W's shape.
 - **Open, for the web seat** (relay §217): which weight-3/2 sections with the unit (W123's ∂R and the rest of the
   three-dimensional space) are zero-free on the upper half plane, and so admissible under PF1-W.
+  - *Answered 2026-10-22 by W133.* Read on the families' joint coupling, none of the untwisted unit space is
+    admissible under PF1-W, ∂R included. With one unit, the twisted spaces keep as many zero-free lines as their
+    dimension (3 in h(12, 1) and in h(20, 1), where the count is three). This is GENESIS PF1 as the web seat reads it.
 
 ## W126. The read-out on the physical spacetime (main's C10), for the ground-state universes: on the Milne universe over a closed hyperbolic space the Lorentzian index of the twisted Dirac operator is minus the number of twisted harmonic spinors; over the Weeks manifold no line of the triplet's bundle extends, over the Meyerhoff manifold one does, and neither carries a harmonic spinor, so the read-out is zero on both (`the_physical_readout.py`; `W126_RULE.md`)
 
@@ -11284,6 +11387,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W133 | COMPUTED, exact (the rule first; one run after a failed launch, disclosed; P0 and P1 as predicted; P2 FAILED as predicted; three post-hoc passes, labelled); WEAVE-type | the web seat's PF1-W, its reading of GENESIS PF1, on the families' joint coupling N(F) = F_iF_jF_k: N carries χ_η^{21+3r}, so no untwisted Higgs is admissible at any end datum, the record's three-generation Higgs (W123, B1700, main's C8) among them; but the twisted spaces with one unit are not emptied (predicted: only η⁴R): the cubic system N′(g) = η^{9−3r} is zero-dimensional, square by modularity, with 3^{dim} solutions with multiplicity, which are exactly dim h lines (1, 4, 3, 3 in h(4, 0), h(4, 1), h(12, 1), h(20, 1); exact, post hoc); the explicit sections η^{3−a}(−θ₂^a, −θ₄^a, iθ₃^a), a ≡ 2 mod 8, give 6 of the 11 lines; in h(12, 1) and h(20, 1) the count is three; so PF1-W forces a twisted Higgs and cuts each space to finitely many lines, 3 in each three-generation space, but selects no single one. 0 of 19 |
 | W132 | COMPUTED, exact (the rule first; one run; every cell as predicted); WEAVE-type | the edge's twenty-fourths and the SU(2) remainder: the cusp's unit O(nδ) = η^{−24n} carries no phase, so consistency of the moves' phases never forces GENESIS FK10's unit; with n copies SU(2) closes only for n even (s_Q = s_L) or n ≡ 0 mod 4, so three generations (n = 1) never close it alone; a twist frees all three anomalies for exactly 8 of 64 sign assignments (s_Q = s_L, s_u = s_d, s_e = s_ν; 5832 twist vectors each), every pattern reached with ε₁₂, which keeps the count three at every condition; τ's counterterm η^{−n_G} absorbs every remainder; a pair of weak doublets with the Higgs's quantum numbers closes SU(2) and keeps gravity on B1674's two with s_Q = s_L (m_u + m_d ≡ 12), and closes both on two more assignments (read-out); a READING: the remainder that does not cancel is carried by τ or a Higgs-like pair, not by the unit; binding only if the moves are gauged. 0 of 19 |
 | W131 | COMPUTED (types exact; residues at 40 digits and three τ; the rule first; one run; every cell as predicted); WEAVE-type | the forced field and the chiral three: the Szegő kernels of the three even spin structures (residue 1, odd, one non-trivial character of H₁ each) carry the zero modes; W130's Φ*_h = c̄y⁻²Nᵀ annihilates them, every pairing linear in Φ or its square root is a (1, 0)-form, so no bulk coupling exists; the field is blind to parity, so different families cannot pair; the point coupling at the puncture is the residue of S_aS_b, which is 0 (each kernel is odd; the residue theorem agrees), \|Y\| ≤ 3.3 × 10⁻⁴³ at every τ; so the field the principle forces is silent toward the three and is not the mass-giver; a non-zero coupling needs a parity-carrying (0, 1) datum at the puncture (B1651, B1654), not forced. 0 of 19 |
 | W130 | COMPUTED, exact (the rule first, corrected before the script; one run; every cell as predicted); WEAVE-type | GENESIS PF1 on the field's rest state: by non-abelian Hodge, the field at rest vanishes iff the flat datum is unitary; the geometry (the fibre's point (3, 3, 3), its 5461 images under the moves to length 6, five other Fuchsian points) is never unitary, so its uniformizing Higgs field cannot rest at zero; Hitchin's equation gives \|c\|² = ¼, so \|Φ\| = ½ in curvature units at every point and τ, with ∫\|Φ\|² = π·(−χ/2); closing the hole forces Φ = 0; the quaternion point (commutator −I too), 𝕎 and the triplet's group are unitary and carry none; the square root is a nowhere-zero doublet of the fibre's SL(2); the dictionary to the weak SU(2) (GENESIS FK11) and the coupling at the puncture (B1651) stay open. 0 of 19 |

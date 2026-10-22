@@ -4052,3 +4052,35 @@ def test_w132_the_twenty_fourths():
     g5, ok5, _ = W.G5()
     assert ok5
     assert all(not W.free(s)["SU2"] for s in W.ASSIGN)
+
+
+def test_w133_the_zero_free_higgs():
+    """W133, the web seat's zero-free reading on the Higgs: P0 and P1 as recorded, P2 failed as recorded (3, 81, 27
+    and 27 solutions with multiplicity; 1, 4, 3 and 3 lines, post hoc); in process, the character obstruction (r in {4, 12, 20} only) and the theta-power section
+    F_-6 = eta^9 (-th2^-6, -th4^-6, i th3^-6) lies in h(12, 1) with N'(g) = 2^-4 eta^-27 exactly"""
+    import contextlib
+    import importlib.util
+    import io
+    import sys
+    from fractions import Fraction
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_zero_free_higgs.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"P0": True, "P1": True, "P2": False}
+    cases = d["P2"]["cases"]
+    assert [cases[k]["solutions with multiplicity"] for k in ("r=4 n=0", "r=4 n=1", "r=12 n=1", "r=20 n=1")] == [
+        3, 81, 27, 27]
+    assert all(cases[k]["zero-dimensional"] for k in cases)
+    ph3 = json.loads((here / "the_zero_free_higgs_posthoc3.json").read_text(encoding="utf-8"))
+    assert [ph3[k]["lines through the origin (distinct values / 3)"] for k in ("r=4 n=0", "r=4 n=1", "r=12 n=1",
+                                                                              "r=20 n=1")] == [1, 4, 3, 3]
+    sys.path.insert(0, str(here))
+    spec = importlib.util.spec_from_file_location("w133_lock", here / "the_zero_free_higgs_posthoc.py")
+    PH = importlib.util.module_from_spec(spec)
+    with contextlib.redirect_stdout(io.StringIO()):
+        spec.loader.exec_module(PH)
+    W = PH.W133
+    assert W.P1()[1]
+    lines = PH.theta_power_lines(-6, 12)
+    assert PH.coords(W.basis(12, 1), lines) is not None
+    Np = W.nprime(lines[W.E1], lines[W.E3], lines[W.E7])
+    assert W.same(Np, W.eta_pow(9 - 36).scale(Fraction(1, 16)))
