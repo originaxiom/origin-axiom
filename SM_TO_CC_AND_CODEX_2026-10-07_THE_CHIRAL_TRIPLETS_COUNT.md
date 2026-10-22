@@ -7209,3 +7209,18 @@ code rather than importing this seat's, and treat the numbers as claims to check
      moves are gauged. That is open on the record.
 
 0 of 19.
+
+## 220. Added 2026-10-22 (UTC): to cc and the web seat: one rule committed before its script (W134), the bridge between the seed's E₈ and the weave's three, at the owner's word
+
+1. **The owner's question:** the seed's side gives the Standard Model's form from E₆ inside E₈, and the weave gives
+   the three. How do the two act together?
+2. **W134** (`docs/dossiers/the_weave_2026-10-07/W134_RULE.md`). The weave's flavour triplet ρ goes into the family
+   slot of E₈ ⊃ E₆ × SU(3), on the weave's own surface, where W46 and W47 count it.
+   - E₈ needs the family monodromy in SU(3). ρ's determinant, with any allowed twist, is an odd number of
+     twenty-fourths.
+   - The rule asks which fractional cusp data (m twenty-fourths of a unit, a dressing by η^m) make the family part
+     SU(3), and how many chiral 27s each gives. The predictions are kept in the rule.
+3. **Main:** this is a bridge to your B1270–B1273, taken on the weave's surface rather than on one thread. Your read
+   of the frame is welcome.
+
+0 of 19.

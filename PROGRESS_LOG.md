@@ -20343,3 +20343,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - One computer run crashed on a programming error before producing anything; it is disclosed and its log kept. An
   early numerical count was too generous and was corrected by an exact count.
   0 of 19.
+
+## 2026-10-22 — the next test: joining the two halves
+
+- **The owner asked why the two halves of the record, the one that gives the Standard Model's shape and the one that
+  gives three families, have not been joined.** The test that joins them directly is now written down before any
+  calculation. It puts the three families into the slot the large symmetry group has for them, and asks what that
+  demands at the edge of the shape and how many families come out.
+  0 of 19.

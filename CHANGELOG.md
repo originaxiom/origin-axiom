@@ -1,5 +1,13 @@
 # Changelog
 
+## The W134 rule, committed and pushed before its script: the weave's flavour triplet as the family SU(3) of E₈ ⊃ E₆ × SU(3) (relay §220)
+
+- **The owner's question:** how do the seed's E₈ structure and the weave's three act together?
+- **W134.** The weave's triplet goes into E₈'s family slot on the weave's surface. E₈'s determinant condition is
+  tested against the forced weight, and the chiral 27s are counted at every fractional cusp datum the condition
+  admits. The predictions are in the rule.
+- **Surfaces.** The rule, relay §220, row 317, the state page's range. 0 of 19.
+
 ## W131, W132 and W133 recorded: the forced field is silent toward the three; the twenty-fourths never force the unit; GENESIS PF1, read zero-free on the Higgs, forces a twisted Higgs and keeps finitely many sections (relay §219)
 
 - **W131** (every cell as predicted). W130's field annihilates the fibre's three zero modes by its conjugate. Every
