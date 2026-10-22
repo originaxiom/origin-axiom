@@ -2991,6 +2991,8 @@ state it in C25 and in the paper's sentence (main.tex, "the generic second measu
 The same audit withdrew the "reality ladder" (14, 20, 26 attained at no real point) as float-based; C25's ledger text
 carries it, so B893's exactness is part of this lead.
 
+**ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: not run since 2026-10-01: B1433 found no joint centraliser of dimension 14 among the four charges' subsets (30 or 12). Owed: read B892/B893 for the element the theorem is about and lock the quantifier in C25 and the law map; the paper is frozen at draft 9, so if its text states the generic quantifier, an erratum (errata only). Owner: cc.
+
 ## L229 — THE ARCHITECTURE CENSUS'S RESIDUE (registered 2026-10-01, B1434)
 
 (i) **The own-level law.** Two of 23 generated states to length six carry a generation-shaped background at their own
@@ -3007,6 +3009,8 @@ fourteen of them with every coupling non-zero, the shortest +LLRLRRLR; **no crit
 found** (divisibility by 3 holds for 71 of the 95). The list is the datum and the law is open. (ii) has an answer in kind — a level is silent when
 no three sector characters share a slope while their quotients do not — and no explanation of why those two.
 (iii), (iv), (v) stand.
+
+**ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: (i) has its data (B1439: 95 of 758 states carry a generation at their own level) and no law; (ii)–(v) not run. These are questions of the slope frame (B1438); the work moved to the weave and B1656's frame after 2026-10-07. Owed: Review 68 reads each item and either carries it with an arc or retires it as a question of the slope frame, by name; none is closed here without that read. Owner: cc.
 
 ## L230 — THE WEB SEAT'S CHECKPOINTS: what main carries forward (registered 2026-10-01, B1432; registration over preservation)
 
@@ -3034,6 +3038,8 @@ digests in the gitignored audit room). The SM lane had adopted the corrective on
 - **(f) Unresolved in the archives:** the Y₄ filling screen records one locus with trivial meridian holonomy where its
   report says none; no script shipped.
 
+**ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: (a) and (b) closed (B1436; B1435, B1438); not run: (c) the three index-12 carriers in SL(2, O/4) (a GAP count, unverified), (d) the July closure formula and 1/96's non-invariance (an archive reading), (f) the Y₄ filling-screen locus (no script shipped). Owed: (c) is a bounded group-theory check; (d) and (f) are reads of the gitignored digests. Owner: cc.
+
 ## L231 — WHAT THE SWEEP OF 2026-10-01 FOUND BURIED OR STALE (registered 2026-10-01, B1434)
 
 A seven-part read of main and every lane against four absence statements (the statements were wrong or too strong in
@@ -3050,6 +3056,8 @@ or ten by surface); B1182 resting on the identification B1083 corrected; B723's 
 retractions of its clause; CLAIMS C-cal without B653's voiding; B1137's "last door closed" where the probe has no
 power at measured precision. Each is a row to pay, not a finding to file.
 
+**ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: the list was registered as rows to pay and has not been paid as a whole since 2026-10-01 (some windows were harvested later). Owed: Review 68 reads each item against HARVEST_LEDGER, RETRACTIONS and the surfaces named, and pays, closes or re-registers it as a point row. Owner: cc.
+
 ## L232 — FIVE LIVING DOCUMENTS OWED A READ (registered 2026-10-01, B1437)
 
 Unmasked when the doc-currency gate stopped counting another seat's arc numbers as citations. Lags on the day:
@@ -3060,6 +3068,8 @@ banked since its newest citation and bringing the document to them, then removin
 from the lock's pinned list in the same commit. THE_FRAMEWORK and THE_LADDER carry the "no canonical arrow" sentence
 L231 names; THE_SM_VERDICT predates B1427, B1432, B1434 and B1435. The reads wait on the owner's reshaping of the
 strategy only where the document states strategy; the factual rows do not wait.
+
+**ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: the five documents are still declared debts in `scripts/checks/doc_currency.py` (COMPUTE_THE_PROGRAM, THE_FRAMEWORK, THE_LADDER, THE_SM_VERDICT, WORKING_RULES). Owed: one read per document, the two carrying "no canonical arrow" first (L231); each paid read removes its declared entry in the same commit. Owner: cc.
 
 ## L233 — THE SLOPE: what it is, and what it does not yet say (registered 2026-10-01, B1438)
 
@@ -3094,6 +3104,8 @@ character. Open, in the order they would be worked:
   once-punctured-torus bundle, reducible or not: a rank-five bundle counts at most two. What stays open is where the
   bound does not reach: more cusps, rank six and above, another count.
 
+**ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: (a) and (f) closed the same day (Theorem E; B1440); not run: (b) whether s is the Sczech–Eisenstein cocycle and its transform a partial zeta value (a bounded check on the root's tower), (c) the groupoid cocycle, (d) the Dehn-filling reading of a rational slope, (e) E₆'s Clebsch–Gordan constants. Owner: cc.
+
 ## L234 — THREE IN ONE BACKGROUND: the several-cusped search (registered 2026-10-01, B1441)
 
 B1440 bounds the count of one rank-two background by one on a one-cusped bundle; B1441 found it reach **two** on
@@ -3112,6 +3124,8 @@ to degree six. Open, in order:
   worked out; it would turn (a)–(c) into seconds of compute, as B1438 did for one cusp.
 - **(e) m202 and s959** carry the record's localized three (B1414) and no class index on any module tried
   (N = 2, 3, 12). The two counts are now side by side and disagree; why is not known.
+
+**ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: (a) closed (B1442, NEGATIVE); not run: (b) three live cusps (covers of degree seven and eight), (c) the root's law, (d) the slope law for several cusps, which would make (b) and (c) cheap, (e) m202 and s959. Owed: (d) first. Owner: cc.
 
 ## L235 — WHAT FIXES THE HIGGS VALUES: the deck-invariant functions of an orbit's Higgs classes (registered 2026-10-01, B1443)
 
@@ -3135,6 +3149,8 @@ impossible). Open, in order:
   a Higgs value is a position on the periodic curve of the trace map through the background (B1444), a curve with
   explicit functions on it (on s961: κ − 2 = w(w − 1), m + 1/m − 2 = −w(w² − w + 4)) and distinguished points (the
   other reducible end; the complete cusp in ℚ(√−3, √5)). What selects a point is open, and is L236 (f).
+
+**ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: (a) closed (B1444: the cubic has no group to live in), and the lead restated as L236 (f), what selects a point of the periodic curve; (b) and (c) (the E₆ tensor; the other invariant functions, live because (a) is zero) not run; the 2026-10-15 currency note read it against the field stage. Owed: Review 68 merges what remains into L236 (f) or carries (b), (c) by name. Owner: cc.
 
 ## L236 — WHAT THE PERIODIC CURVE LEAVES OPEN (registered 2026-10-01, B1444)
 
@@ -3162,6 +3178,8 @@ Open, in order of what would move the frame most:
 - **(g) ANSWERED in the arc:** the SL(2)_β direction is not the electroweak one. SL(2)_β is the simple factor of the
   centraliser of the Standard Model's gauge algebra in E₆ (`e6_centraliser.py`), so the curve preserves the whole
   gauge group. Hence (b) is the electroweak question.
+
+**ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: (b) run (B1445), (d) withdrawn, (g) answered; not run: (a) a formula for the second-order coefficients, (c) P4's proof and the filled manifolds, (e) the complete-cusp point's volume and Chern–Simons invariant (coordinates on sixteen levels, B1451), (f) what selects a point of the curve. Owner: cc.
 
 ## L237 — WHAT TELLS THE MEMBERS OF AN ORBIT APART: the branch off one member's Higgs curve (registered 2026-10-01, B1446)
 
@@ -3197,6 +3215,8 @@ six roots of u⁶ − 8u⁴ + 12u³ + 4. Open, in the order approved by the owne
   the root's three-fold cover (2√2; 8 against 16) do not recur. Still open under (e): five-fold covers; the
   recurring 16 of the down type; the fields of the torsions not identified; the values on the branches of (a).
 - **(f) The three sector classes not in ℚ(√5, √−3)** at the complete cusp: their field.
+
+**ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: (a) answered on this level (B1447 and its addendum), (d) evaluated and not read (B1447 §7), (e) run on sixteen levels (B1451); not run: (b) which group makes two members' Higgs directions non-commuting roots, (c) the 624 couplings with η = ℓ^±1, the rest of (e) (five-fold covers, the recurring 16, the torsions' fields). Owner: cc.
 
 ## L238 — B675'S CERTIFICATION DOES NOT RUN ON THIS BENCH (registered 2026-10-02, B1452)
 

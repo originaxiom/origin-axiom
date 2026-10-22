@@ -1,5 +1,14 @@
 # Changelog
 
+## S191, the register commit: the seats' new work rowed the same day; the flavour-blind bound proved on main (P-299, P-300) (2026-10-22)
+
+- **Rowed** (HARVEST_LEDGER 1310–1313; pins fd6303f0 and 25ccfdf4): the web seat's check of the SM seat's Higgs arc (every checked claim of W130 and W128 agrees from textbook definitions), its flavour-blind bound and its B − L line exploration; the SM seat's W131–W133 and relays 217–219.
+- **P-299, the flavour-blind bound, proved on main** (audit room; to land as an arc with B1726). With S = 1 main's coupling is Y = c·1 + [a]_× whatever the line, τ and horocycle, and then m₂/m₃ ≥ 1/3 in every sector, sharp (Weyl's inequalities, with M + Mᵀ = 2c·1 and σ₁(A) = σ₂(A) for the antisymmetric part; equality at singular values 3, 1, 1). The data lie far below, so the hierarchy needs a flavoured Higgs.
+- **P-300, the SM seat's W131–W133.** W133: the web seat's reading of PF1 on the Higgs excludes every untwisted Higgs and keeps exactly as many zero-free lines in each twisted space as its dimension (1, 4, 3, 3), 3 where the count is three. To verify on main.
+- **Updated:** P-294 (the B − L line scales the lepton twist by 3, not the mass ratio; a second Higgs direction carrying the −3 remains), P-295, P-298 (a second-seat check).
+- **The lead-debt ratchet.** At midnight L228–L237 (registered 2026-10-01) passed 21 days and the stale count rose from 43 to 53 above its baseline, failing the push. None was discharged; each is escalated by name in OPEN_LEADS with what was closed, what is owed and its owner, to Review 68 (now due, 33 merges). Back at 43.
+- 0 of 19.
+
 ## S191 THE READINGS' COVARIANCE (B1724, PROVED; P-297) AND THE TWO INGREDIENTS ON MAIN (B1725, PROVED; P-293) (2026-10-22)
 
 - **B1724, the readings' covariance.** B1720's and B1723's controls tested the reading S only.
