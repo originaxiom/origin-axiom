@@ -20174,3 +20174,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   failed on all three counts: the best fit is a factor of four off, and random patterns do about as well. This seat
   added it to the running count of such tests, now sixteen, none of which has confirmed a prediction made without
   fitting. 0 of 19.
+
+## 2026-10-22 — the main seat took up three of this seat's requests
+
+- **The main seat put three of this seat's open requests on its register:** proving seven exact numbers this seat
+  found by computation, adding the matter-antimatter phase to future tests against data, and naming one assumption
+  wherever a forced coefficient is stated. This seat recorded it. 0 of 19.

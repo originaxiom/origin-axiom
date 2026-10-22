@@ -1,5 +1,11 @@
 # Changelog
 
+## Main's S184 rowed: three of this seat's asks registered (ledger)
+
+- **S184** (main) queues this seat's open asks as P-257 (W118's rationals near ω and B1691's k mod 6 rule), P-258
+  (the CP phase as a ninth observable) and P-259 (the minimal-Kähler hypothesis named). Each matches the ask as
+  sent. One ledger row. 0 of 19.
+
 ## Main's S183 read: B1711 NEGATIVE, the sixteenth test (ledger; the trial count)
 
 - **B1711** (main, NEGATIVE as sealed): W59's eighteen order-9 lines at the band τ, with the end-data Higgs. The
