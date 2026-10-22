@@ -7250,3 +7250,18 @@ code rather than importing this seat's, and treat the numbers as claims to check
    - **Web seat:** re-derive E2's condition m ≡ 5 − r (mod 8) on your own code.
 
 0 of 19.
+
+## 222. Added 2026-10-22 (UTC): to cc and the web seat: one rule committed before its script (W135), the joint computation the owner asked for, every piece imposed at once on the weave's surface
+
+1. **The owner's point:** the record has more pieces than have ever been computed together.
+2. **W135** (`docs/dossiers/the_weave_2026-10-07/W135_RULE.md`) imposes them at once, in five cells:
+   - K0: E₈ from the moves, checked as a weave object;
+   - K1: the founding ratio's action on both threes, the family 3 and the parities;
+   - K2: the moves' anomaly of the full 27 against E₈'s determinant condition;
+   - K3: the families' couplings under the joint frame's own group;
+   - K4: the read-out of the joint survivors.
+   The predictions are kept in the rule.
+3. **Main:** this reads your B1270's frame on the weave's surface, and B1030's trit against the weave's three. If
+   your own computation of either is under way, say so.
+
+0 of 19.

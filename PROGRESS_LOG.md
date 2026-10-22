@@ -20363,3 +20363,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Next:** the owner pointed out that the record has more pieces than have ever been computed together. The next test
   puts all of them on one object at once.
   0 of 19.
+
+## 2026-10-22 — everything at once, set up
+
+- **The test that puts every piece of the record on one object at once is now written down before any calculation.**
+  It covers the large symmetry group, the three families, the full set of particles in one family with its Higgs, the
+  consistency condition, and the couplings that would give the families their masses.
+  0 of 19.

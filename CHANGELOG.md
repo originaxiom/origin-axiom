@@ -1,5 +1,12 @@
 # Changelog
 
+## The W135 rule, committed and pushed before its script: the joint computation, every piece imposed at once on the weave's surface (relay §222)
+
+- **The owner's point:** the record's pieces were never computed together.
+- **W135** imposes them at once, with predictions in the rule: E₈ from the moves; both threes under the founding
+  ratio; the full 27's anomaly against E₈'s determinant; the families' couplings under the joint group.
+- **Surfaces.** The rule, relay §222, row 317, the state page's range. 0 of 19.
+
 ## W134 recorded: the weave's triplet fits E₈'s family slot only at an odd number of twenty-fourths of the cusp unit; three chiral 27s need 17/24 of a unit or more (relay §221)
 
 - **E2 and E3 as predicted.** E₈'s determinant condition admits the dressing η^m iff m ≡ 5 − r (mod 8). That excludes
