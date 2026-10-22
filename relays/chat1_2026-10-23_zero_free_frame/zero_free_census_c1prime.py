@@ -4,6 +4,7 @@ mixing at the sealed census's first three stored rows, which lie on the trivial 
 V = 1 and |V_us|, |V_cb|, |V_ub| are rounding noise near 1e-16; its 1.05 in log10 is that noise (every ratio agreed).
 C1': the same comparison at three census rows on non-trivial lines (the census's best six-row line (2/5, 1/10) at
 0.4 + 2.7i, and two lines of order 7 and 12), every field: ratios and |V| in log10, J absolutely.
+Amended after its first run (the ratios' 0.104 sat at rounding-level values): ratios above 1e-12 reported apart.
     python3 -B zero_free_census_c1prime.py      # writes zero_free_census_c1prime.json"""
 import contextlib, importlib.util, io, json, math, sys, pathlib
 HERE = pathlib.Path(__file__).resolve().parent
@@ -19,7 +20,8 @@ for l in (HERE.parent / "chat1_2026-10-22_selection_map" / "two_ingredients_cens
     if name in want and (r["Re_tau"], r["Im_tau"]) == want[name]:
         rows[name] = r
 out = {"rows found": sorted(rows)}
-dr = dv = dj = 0.0
+dr = dv = dj = dr12 = 0.0
+floor = []
 for name, r in rows.items():
     k, re_t, im_t = r["line"], r["Re_tau"], r["Im_tau"]
     a, b, _ = zfc.LINES[k]
@@ -29,10 +31,15 @@ for name, r in rows.items():
         for sec in ("up", "down", "lep"):
             for rd in ("S", "St"):
                 for q in range(2):
-                    dr = max(dr, abs(x[ih, j] - math.log10(r[f"{sec}|{hor}|{rd}"][q]))); j += 1
+                    ref = r[f"{sec}|{hor}|{rd}"][q]; d = abs(x[ih, j] - math.log10(ref)); dr = max(dr, d)
+                    if min(ref, 10 ** x[ih, j]) > 1e-12:
+                        dr12 = max(dr12, d)
+                    else:
+                        floor.append([name, hor, sec, rd, ["m2/m3", "m1/m3"][q], float(10 ** x[ih, j]), ref])
+                    j += 1
         for ru, rd in (("S", "S"), ("S", "St"), ("St", "S"), ("St", "St")):
             ref = r[f"ckm|{hor}|{ru}|{rd}"]
             dv = max(dv, max(abs(math.log10(x[ih, j + q] / ref[q])) for q in range(3))); dj = max(dj, abs(x[ih, j + 3] - ref[3])); j += 4
-out.update({"C1' max |delta log10| ratios": dr, "C1' max |delta log10| |V|": dv, "C1' max |delta J|": dj})
+out.update({"C1' max |delta log10| ratios": dr, "C1' the same, ratios above 1e-12": dr12, "rounding-level entries (mine, census)": floor, "C1' max |delta log10| |V|": dv, "C1' max |delta J|": dj})
 print(json.dumps(out, indent=1))
 (HERE / "zero_free_census_c1prime.json").write_text(json.dumps(out, indent=1) + "\n")
