@@ -1,0 +1,57 @@
+series checks: {'th2 th3 th4 = 2 eta^3': True, 'Delta = eta^24': True, 'th3^4 = th2^4 + th4^4': True}
+line orders (x-units) of R, DR, D2R [i, +, -]: {'R': [1, -1, 3], 'DR': [1, -1, 3], 'D2R': [9, -1, 3]}
+C1: R(tau+1) = z8 Li R and R(-1/tau) = tau^(-1/2) z8 Pm R, max deviation 4.5e-16
+C2: {'prod of entries = det . sgn (S, T)': True, 'det . sgn = chi_eta^21 (S, T)': True, 'r in 0..23 with chi_eta^(21+3r) = chi_eta^9': [4, 12, 20]}
+C3: det(R, DR, D2R) / eta^9 = -1/4 (x-order 0), constant to x^114: True
+C4: dim h(0, 0) = [0, 0] at MMAX 4, 6; G's line bounds {'i': 1, '+': 7, '-': 3}
+C4: dim h(0, 1) = [3, 3] at MMAX 4, 6; G's line bounds {'i': -7, '+': -1, '-': -5}
+C4: dim h(0, 2) = [6, 6] at MMAX 4, 6; G's line bounds {'i': -15, '+': -9, '-': -13}
+C4: dim h(4, 0) = [1, 1] at MMAX 4, 6; G's line bounds {'i': 1, '+': -1, '-': 3}
+C4: dim h(4, 1) = [4, 4] at MMAX 4, 6; G's line bounds {'i': -7, '+': -9, '-': -5}
+C4: dim h(4, 2) = [7, 7] at MMAX 4, 6; G's line bounds {'i': -15, '+': -17, '-': -13}
+C4: dim h(12, 0) = [0, 0] at MMAX 4, 6; G's line bounds {'i': 1, '+': -1, '-': 3}
+C4: dim h(12, 1) = [3, 3] at MMAX 4, 6; G's line bounds {'i': -7, '+': -9, '-': -5}
+C4: dim h(12, 2) = [6, 6] at MMAX 4, 6; G's line bounds {'i': -15, '+': -17, '-': -13}
+C4: dim h(20, 0) = [0, 0] at MMAX 4, 6; G's line bounds {'i': 1, '+': -1, '-': -5}
+C4: dim h(20, 1) = [3, 3] at MMAX 4, 6; G's line bounds {'i': -7, '+': -9, '-': -13}
+C4: dim h(20, 2) = [6, 6] at MMAX 4, 6; G's line bounds {'i': -15, '+': -17, '-': -21}
+C5: F_a for a = -30..50, a = 2 mod 4, both signs: multiplier rho (x) chi_eta^(2a) under T and S and N = i 2^a eta^9, worst relative deviation 1.5e-14
+C6: h(4, 0): family members inside [(2, -1)]; count 1 against dim 1
+C6: h(4, 1): family members inside [(-10, 1), (2, -1), (14, 1), (26, -1)]; count 4 against dim 4
+C6: h(4, 2): family members inside [(-22, -1), (-10, 1), (2, -1), (14, 1), (26, -1), (38, 1), (50, -1)]; count 7 against dim 7
+C6: h(12, 0): family members inside []; count 0 against dim 0
+C6: h(12, 1): family members inside [(-6, -1), (6, 1), (18, -1)]; count 3 against dim 3
+C6: h(12, 2): family members inside [(-18, 1), (-6, -1), (6, 1), (18, -1), (30, 1), (42, -1)]; count 6 against dim 6
+C6: h(20, 0): family members inside []; count 0 against dim 0
+C6: h(20, 1): family members inside [(-2, 1), (10, -1), (22, 1)]; count 3 against dim 3
+C6: h(20, 2): family members inside [(-14, -1), (-2, 1), (10, -1), (22, 1), (34, -1), (46, 1)]; count 6 against dim 6
+C7: h(4, 0), a = 2 (sign -1): in the span of the computed basis
+C7: h(4, 1), a = -10 (sign +1): in the span of the computed basis
+C7: h(4, 1), a = 2 (sign -1): in the span of the computed basis
+C7: h(4, 1), a = 14 (sign +1): in the span of the computed basis
+C7: h(4, 1), a = 26 (sign -1): in the span of the computed basis
+C7: h(4, 2), a = -22 (sign -1): in the span of the computed basis
+C7: h(4, 2), a = -10 (sign +1): in the span of the computed basis
+C7: h(4, 2), a = 2 (sign -1): in the span of the computed basis
+C7: h(4, 2), a = 14 (sign +1): in the span of the computed basis
+C7: h(4, 2), a = 26 (sign -1): in the span of the computed basis
+C7: h(4, 2), a = 38 (sign +1): in the span of the computed basis
+C7: h(4, 2), a = 50 (sign -1): in the span of the computed basis
+C7: h(12, 1), a = -6 (sign -1): in the span of the computed basis
+C7: h(12, 1), a = 6 (sign +1): in the span of the computed basis
+C7: h(12, 1), a = 18 (sign -1): in the span of the computed basis
+C7: h(12, 2), a = -18 (sign +1): in the span of the computed basis
+C7: h(12, 2), a = -6 (sign -1): in the span of the computed basis
+C7: h(12, 2), a = 6 (sign +1): in the span of the computed basis
+C7: h(12, 2), a = 18 (sign -1): in the span of the computed basis
+C7: h(12, 2), a = 30 (sign +1): in the span of the computed basis
+C7: h(12, 2), a = 42 (sign -1): in the span of the computed basis
+C7: h(20, 1), a = -2 (sign +1): in the span of the computed basis
+C7: h(20, 1), a = 10 (sign -1): in the span of the computed basis
+C7: h(20, 1), a = 22 (sign +1): in the span of the computed basis
+C7: h(20, 2), a = -14 (sign -1): in the span of the computed basis
+C7: h(20, 2), a = -2 (sign +1): in the span of the computed basis
+C7: h(20, 2), a = 10 (sign -1): in the span of the computed basis
+C7: h(20, 2), a = 22 (sign +1): in the span of the computed basis
+C7: h(20, 2), a = 34 (sign -1): in the span of the computed basis
+C7: h(20, 2), a = 46 (sign +1): in the span of the computed basis
