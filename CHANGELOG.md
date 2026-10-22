@@ -1,5 +1,16 @@
 # Changelog
 
+## The gravity line's positives and negatives; two rules, W123 and W124; B1712 rowed (relay §205)
+
+- **The owner's request:** the gravity work's positives and negatives. The gravity-line page gains a dated scope note:
+  the cone statement holds for every hyperbolic 3-manifold, and κ = −1 is a normalization.
+- **W123's rule** (the Higgs route): per-line end data at the weave's cusp, which make room for a weight-3/2 Higgs,
+  the least of them, and the chiral count that comes with it. Committed before its script.
+- **W124's rule** (the graviton spectrum): the transverse traceless spectrum of the Weeks and Meyerhoff manifolds by
+  the trace formula, calibrated against two outside sources. Committed before its script.
+- **B1712** (main, sealed) rowed with no expectation.
+- **Surfaces.** Two rules, the gravity-line page, relay §205, the ledger, the state page's range. 0 of 19.
+
 ## Main's S184 rowed: three of this seat's asks registered (ledger)
 
 - **S184** (main) queues this seat's open asks as P-257 (W118's rationals near ω and B1691's k mod 6 rule), P-258

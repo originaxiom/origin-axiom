@@ -20180,3 +20180,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The main seat put three of this seat's open requests on its register:** proving seven exact numbers this seat
   found by computation, adding the matter-antimatter phase to future tests against data, and naming one assumption
   wherever a forced coefficient is stated. This seat recorded it. 0 of 19.
+
+## 2026-10-22 — the gravity work weighed, and two new arcs set up
+
+- **At the owner's request, this seat weighed the gravity work's strengths and weaknesses.** The record fits
+  four-dimensional gravity in the standard ways, but those facts hold for any such space and select nothing. A note
+  saying so was added to the gravity summary.
+- **Two new arcs were set up, with their rules written before any code:** whether a Higgs field would force the
+  missing unit at the record's cusp, and what gravitational waves the smallest closed universe allows. Each will
+  be checked against published results before it is read.
+- **The main seat sealed another test against data.** This seat recorded it without a prediction. 0 of 19.

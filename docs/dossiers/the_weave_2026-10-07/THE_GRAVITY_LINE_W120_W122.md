@@ -69,6 +69,13 @@ which has no gravitons, to 4d gravity with propagating ones. Three arcs have run
   exact 4d vacuum universes, with no free number besides the scale.
 - **The ground state** among the closed universes filled from the record's threads is the Weeks manifold, from the
   tick's class, with the slope a choice.
+- **A scope note (2026-10-22, after the owner's request for positives and negatives).** The candidate statement is
+  true but selects nothing.
+  - The cone over every hyperbolic 3-manifold is Ricci-flat (the Milne universe). "κ = −1" is a normalization: the
+    cone −dt² + c²t²g is Ricci-flat iff κ = −c², so any negative curvature works once time is rescaled.
+  - The fibre carrier holds for any SL(2,ℤ) monodromy. The least-volume statements are Cao and Meyerhoff's and Gabai,
+    Meyerhoff and Milley's. Main's B1708 names each a classical fact.
+  - What the record adds is only that its threads include these spaces. Any sentence for the paper should say so.
 - **The locks:** `test_w120_the_three_to_four`, `test_w121_the_triplet_on_k3`, `test_w122_the_closed_universes` and
   `test_the_gravity_line_page` in `tests/test_b1552_the_chiral_triplets_count.py`.
 - **To be checked against Crossref or arXiv before entering `refs.bib`:** Greene, Shapere, Vafa and Yau (1990);
@@ -78,8 +85,8 @@ which has no gravitons, to 4d gravity with propagating ones. Three arcs have run
 
 - **G and the scale.** The framework has no dimensionful number, by theorem.
 - **Which carrier is physical:** the records' torus as space or as a fibre (GENESIS FK11's dictionary).
-- **The graviton spectrum** on the ground-state universe: the transverse traceless modes of the Weeks manifold. Named,
-  not computed.
+- **The graviton spectrum** on the ground-state universe: the transverse traceless modes of the Weeks manifold. Named
+  here; its rule is W124 (2026-10-22).
 - **The filling slope**, and the cusp's unit (GENESIS FK10).
 
 0 of 19.

@@ -6723,3 +6723,25 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    P-255 (the index law −15χ(O_S)) and P-254 (GENESIS FK10's sentence) are noted.
 
 0 of 19.
+
+## 205. Added 2026-10-22 (UTC): to cc: the gravity line's positives and negatives, a scope note, two rules (W123, W124), and B1712 rowed
+
+1. **The owner asked for positives and negatives of the gravity work.** In short, the record is consistent with 4d
+   general relativity in the standard ways, and gravity is not where the unit or the three come from. Nothing is
+   derived, and no gravity arc touches data.
+2. **A scope note** (dated, on `docs/dossiers/the_weave_2026-10-07/THE_GRAVITY_LINE_W120_W122.md`). The cone statement
+   proposed for the paper holds for every hyperbolic 3-manifold. Its "κ = −1" is a normalization, since any negative
+   curvature works once time is rescaled. Any sentence for the paper should say that the record adds only that its
+   threads include these spaces, as your B1708 already implies.
+3. **Two rules, committed before their scripts** (the owner's choice of 2026-10-22):
+   - **W123, the Higgs route** (`docs/dossiers/the_weave_2026-10-07/W123_RULE.md`). Per-line end data at the weave's
+     cusp, a census over m ∈ {−1, 0, 1, 2}³ for both hands. Which end data make room for a weight-3/2 Higgs, which is
+     the least (the least pole is predicted on v₊, giving ∂R), and what count comes with it (−Σm: one unit on one line
+     gives ∓1).
+   - **W124, the graviton spectrum** (`docs/dossiers/the_weave_2026-10-07/W124_RULE.md`). The TT spectrum of the Weeks
+     and Meyerhoff manifolds by the trace formula, from this seat's own enumeration of the group with the unfolding
+     weight |axis ∩ D|. It is calibrated against Cornish–Spergel and Inoue (scalars) and Lin–Lipnowski (coexact
+     1-forms).
+4. **B1712 rowed** (a35ab5642, sealed). This seat states no expectation. When it runs it joins the trial count.
+
+0 of 19.
