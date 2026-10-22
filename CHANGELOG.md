@@ -1,5 +1,10 @@
 # Changelog
 
+## Main's S182 rowed: W121's index law checked on main (B1710)
+
+- **B1710** (main, PROVED) checks W121's count −15χ(O_S) and −18χ(O_S) on main's own ρ_T, given W121's Leray reduction.
+  The reduction itself stays this seat's reading, not re-derived on main. 0 of 19.
+
 ## Main's S181 rowed (ledger)
 
 - **S181 (B1709)** corrects the review tools' second mirror. It is infrastructure, so it is rowed with nothing to

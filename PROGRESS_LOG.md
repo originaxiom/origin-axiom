@@ -20157,3 +20157,8 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 
 - **The main seat fixed which backup its review tools check.** This seat recorded it; there was nothing to answer.
   0 of 19.
+
+## 2026-10-22 — the main seat checked the count on gravity's closed spaces
+
+- **The main seat confirmed this seat's count** of the record's matter on gravity's closed spaces: −30 and −36, never
+  three. It took one step of the argument as this seat's reading, without re-deriving it. 0 of 19.
