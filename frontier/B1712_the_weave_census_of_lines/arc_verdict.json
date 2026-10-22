@@ -1,0 +1,26 @@
+{
+  "id": "B1712",
+  "verdict": "NEGATIVE",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1656",
+    "B1667",
+    "B1700",
+    "B1703"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the fibre given Lambda; B1656's four-channel coupling at B1667's canonical end; the end-data Higgs DR; every flat line of exact order 8-12",
+    "object": "the six charged-fermion ratios at M_Z from Im tau and 2448 discrete choices",
+    "reach": "class",
+    "hypotheses": "Re tau in {0, 1/2}; a grid in Im tau 1.5-3.5; orders up to 12"
+  },
+  "claim_one_line": "THE WEAVE CENSUS OF LINES (P-260, the owner's choice of 2026-10-22; sealed a35ab5642, sha256 c4856e37; NEGATIVE as sealed -- H1 holds, H2 and H3 fail; outputs committed unread at ba2fea64d): with every flat line of exact order 8-12 (204, each splitting the three charged sectors), the end-data Higgs at the canonical end and Im tau free, the best point is the order-8 line (3/8, 0) at tau = 3.1 i, a factor 2.37 off (the down quarks' m2/m3), chi2 108.5, but 22.45% of 4000 random hierarchies fit as well with the same 51408 rows: the line is not where this frame's missing number lives. Read after the run: the electron is exactly massless on every order-12 line (m1/m3 <= 5.5e-14 on the grid; <= 1.1e-14 at two generic tau checked after the read, every lepton residue non-zero), a zero B1703's protection rule does not name. 0 of 19.",
+  "weave_or_thread": "weave (every charged sector on one fibre; every line of the stated orders)"
+}

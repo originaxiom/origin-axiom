@@ -1,0 +1,12 @@
+census: 21 words, 42 bundles, 72 slopes
+fillings: 3024 | certified: 2668 | not certified: 356 {'contains flat tetrahedra': 96, 'unrecognized solution type': 54, 'contains degenerate tetrahedra': 70, 'contains negatively oriented tetrahedra': 136}
+  0.9427073630 bundles ['b+-LR'] slopes [[2, 5], [3, 5]] identified as ['m003(-3,1)']
+  0.9813688290 bundles ['b++LR', 'b+-LR'] slopes [[-1, 5], [1, 5], [-1, 1], [2, 1]] identified as ['m003(-2,3)']
+  1.2637092390 bundles ['b+-LR'] slopes [[1, 5], [4, 5]] identified as ['m003(-4,3)']
+  1.2844853000 bundles ['b++LR', 'b+-LLR', 'b+-LRR'] slopes [[-1, 6], [1, 6], [2, 1], [-2, 1]] identified as ['m004(6,1)']
+  1.3985088840 bundles ['b++LR'] slopes [[-2, 1], [2, 1]] identified as ['m004(1,2)']
+R1 0.942707363 ['b+-LR'] ['m003(-3,1)'] -> True
+R2 0.981368829 ['b++LR', 'b+-LR'] -> True
+R3 fillings at or above their bundle's volume: 0 -> True
+R4 each bundle's least filling, first twelve: [['b+-LR', 0.942707], ['b++LR', 0.981369], ['b+-LLR', 1.284485], ['b+-LRR', 1.284485], ['b+-LRRR', 1.463777], ['b+-LLLR', 1.463777], ['b+-LLLLR', 1.583167], ['b+-LRRRR', 1.583167], ['b+-LRRRRR', 1.667804], ['b+-LLLLLR', 1.667804], ['b++LRR', 1.831931], ['b++LLR', 1.831931]]
+verdict {'R1': True, 'R2': True, 'R3': True}

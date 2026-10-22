@@ -3979,3 +3979,26 @@ stage in the twisted frame and tested it once against data.**
   3. **P-169's rest:** the first generation with a line, its channel R₁ (B1656's twist).
   4. **P-115:** what fixes the Higgs's section and weight.
 - **0 of 19.**
+
+## ⟳ CURRENCY NOTE — 2026-10-22 (S185: B1712–B1714, B1716–B1719)
+
+- **The line is exhausted as a selector, and so is the mixing as a test of the frame.**
+  - No flat line of order ≤ 12 gives the masses specifically (B1712, B1713, sealed).
+  - The frame's first quark mixing matches PDG's moduli within 14%, but 59.5% of random hierarchical mixings do too
+    (B1713). Cabibbo-sized mixing is generic here; B1649's zero belonged to point couplings.
+- **The frame's exact zeros are a law that predicted unseen lines** (P-268; B1712, B1713, B1716): a left twist of exact
+  order 4 with a right twist of order ≤ 2 gives det M = 0. B1701's 0 : 1 : 1 is derived (B1716).
+- **Closed on the way:**
+  - the rule lifts only at the common point (B1714; P-225);
+  - no relational record on the private modules (B1717; P-278);
+  - the 10% allowance holds against SM running (B1718; P-265);
+  - W122 verified (B1719).
+- **Open leads, in order.**
+  1. **What selects the point** (line, τ, horocycle, reading): the census shows that the frame reaches the data's
+     neighbourhood almost everywhere, and the calibrations show it does so for random data too. The selection principle
+     (P-139, FK9) is the gap, not a mechanism.
+  2. **The law's proofs:** P-268 (the involution) and P-262 (the residue law by duplication).
+  3. **The seats' gravity line** (P-269: W123's per-line end data bears on the canonical end; W124).
+  4. **The map's sealable questions:** P-277 (a potential minimum with J ≠ 0), P-279–P-282.
+- **0 of 19.**
+

@@ -66,6 +66,14 @@ as the trefoil's complement; Series (1985) for the cutting sequences.
 - **Scope sentences:** B1640 (anticipated the ruling), B1454 (the root's uniqueness holds with and without
   positivity), B1422 (the a = b = −1 branch reachable).
 - **The other 18** use "positivity" in other senses.
+- *Added 2026-10-22 (P-274; the web seat's map §4.10).* Two items the list missed:
+  - **The SM seat's W76** (θ̄ = 0 on every mirror-symmetric thread; its census verified on main, B1690).
+  - **IDENTIFICATION_LEDGER I-18** (the Chern–Simons 2-torsion read as θ̄).
+  - Both rest on the + sign. By T-SIGN, an amphichiral thread's Chern–Simons bit is its monodromy's sign: + threads sit
+    at 0 and − threads at ¼ (the web seat's; HARVEST_LEDGER row 1141).
+  - With GM5b adopted and FK4 answered, the − states are generated too, and I-18 reads their ¼ as θ̄ = π.
+  - So θ̄ ∈ {0, π}, CP-conserving either way, and which value holds is the sign's choice. θ̄ = 0 holds given the + side,
+    not as a consequence of the moves. The computations stand.
 
 ## 4. What it does not show
 

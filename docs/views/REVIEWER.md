@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1440** |
-| words of findings prose | **1,150,508** |
-| test lock files referenced | **856** |
-| arcs carrying an authored verdict | **1440** (100.0 %) |
-| recorded closures | **830** (663 classified, 167 routed-only) |
+| research arcs with findings | **1447** |
+| words of findings prose | **1,156,573** |
+| test lock files referenced | **862** |
+| arcs carrying an authored verdict | **1447** (100.0 %) |
+| recorded closures | **832** (665 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 982 |
-| NEGATIVE | 354 |
+| PROVED | 987 |
+| NEGATIVE | 356 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 100 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 102 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1710`** (349 words, 1 locks)  
-W121'S INDEX LAW ON MAIN (P-255; given the seat's Leray reduction): rho_T(T)'s exponents are 1/8, 3/8, 7/8 (sum 11/8) and its conjugate's 1/8, 5/8, 7/8 (sum 13/8), none an integer, so the canonical extension is the condition at a string; W121's Riemann-Roch count on a closed elliptic surface with 12 chi(O_S) strings is then (3/2)chi - 12 chi sum(mu) = -15 chi(O_S) and -18 chi(O_S) exactly, the genus cancelling for chi = 1-6 and g = 0-3; on K3 the canonical extensions have degree -33 and -39 and the index is -30 and -36; no case gives +-3. 0 of 19.  
-`B1710_w121s_index_law_on_main/FINDINGS.md`
+**PROVED — `B1719`** (463 words, 1 locks)  
+W122 ON MAIN (P-269; the SM seat's closed universes verified): the seat's script re-run on main reproduces all 3024 fillings (certification and solution type identical, volumes to 1e-14) and its cells R1-R3, differing only in the order of tied entries in a listing; main's own isometry check finds the least certified fillings of b+-LR to be the Weeks manifold (slopes (2,5), (3,5)) and then the Meyerhoff manifold, and of b++LR the Meyerhoff manifold (slopes (+-1,5)) -- so the least closed universe filled from the record's threads is the Weeks manifold, from -LR only, as W122 found; the ground-state reading stays the seat's READING and the slope a choice. 0 of 19.  
+`B1719_w122_on_main/FINDINGS.md`
 
-**NEGATIVE — `B1711`** (641 words, 1 locks)  
-W59'S ORDER-9 LINES AT THE BAND TAU (P-256; sealed 6fee45181, sha256 8b1c45f4; NEGATIVE as sealed -- H1, H2, H3 fail; outputs committed unread at 2d78304d7): on the record's eighteen order-9 lines, which split all three charged sectors and protect the electron at leading order, the end-data Higgs at the canonical end brings the six ratios no closer than a factor 4.17 (at the grid's edge, Im tau = 3.5; the down and lepton m2/m3 three to four times too small, the electron lifted to four times its ratio), chi2 321, and 9.8% of random hierarchies fit as well. With B1698, the record's selected lines (the tick's order-5, W59's order-9) both fail in this frame. 0 of 19.  
-`B1711_the_order9_lines/FINDINGS.md`
+**NEGATIVE — `B1713`** (1307 words, 1 locks)  
+THE COMPLEMENT AND THE MIXING (P-261, P-129, P-164, P-258; sealed cd294dccf, sha256 1cdf28e5; NEGATIVE as sealed -- A-H1 and K1 hold, A-H2, A-H3, K2, K3, K4 fail, the controls hold; outputs committed unread at 084db486a): on the 62 lines of order 1-7 the best point is the order-5 line (2/5, 4/5), a factor 2.33 off with d = e, and 14.8% of random hierarchies fit as well; the frame's first quark mixing (V = U_u^H U_d, every line of order 1-12) puts |V_us|, |V_cb|, |V_ub| within 14% of PDG's on the order-11 line (0, 5/11) at tau = 1/2 + 2.8i (J = 2.8e-5 there, a read-out) but 59.5% of random hierarchical mixings are matched as well, so Cabibbo-sized mixing is generic in this frame and not specific; masses and mixing together reach only a factor 3.59. P-268's law, committed before the read, held: every order-4 line massless in all three sectors and no exact zero on orders 1-3, 5-7. 0 of 19.  
+`B1713_the_complement_and_the_mixing/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

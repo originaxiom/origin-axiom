@@ -1,0 +1,23 @@
+{
+  "id": "B1718",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1637"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the Standard Model at one loop, diagonal Yukawas, mixing neglected in the running",
+    "object": "the within-sector mass ratios m2/m3, m1/m3 the sealed tests compare",
+    "reach": "general",
+    "hypotheses": "SM content only; gauge couplings at M_Z quoted; the fibre's scale not derived"
+  },
+  "claim_one_line": "THE RUNNING ALLOWANCE (P-265; a premise audit of the sealed mass tests since B1693): in the SM at one loop the within-sector ratios every sealed cell compares run between M_Z and 1e16 GeV by factors 0.884 (up-type), 1.131 (down-type) and 1.000 (leptons) -- at most 12% in log, 13% to 1e18, insensitive to the gauge inputs (< 0.7%) -- because QCD and the flavour-universal terms cancel in a within-sector ratio; the tests' 10% allowance covers the running strictly only to 1e8 GeV, the shift is systematic with a known sign, and no sealed verdict turns on it (the chi2 cells stay above 16.75; B1712's best point moves from 2.37 to 2.31 at 1e16, post hoc). SM content only. 0 of 19.",
+  "weave_or_thread": "neither (the Standard Model's running)"
+}

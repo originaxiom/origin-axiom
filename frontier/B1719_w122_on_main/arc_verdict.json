@@ -1,0 +1,24 @@
+{
+  "id": "B1719",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [],
+  "rests_on_seat": [],
+  "cites_seat": [
+    "sm:W122",
+    "sm:W120"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "Dehn fillings of the once-punctured torus bundles of positive words of length 2-6, slopes |p|, q <= 7",
+    "object": "the least-volume closed fillings",
+    "reach": "class",
+    "hypotheses": "SnapPy's certification by solution type; Gabai-Meyerhoff-Milley cited, not re-derived"
+  },
+  "claim_one_line": "W122 ON MAIN (P-269; the SM seat's closed universes verified): the seat's script re-run on main reproduces all 3024 fillings (certification and solution type identical, volumes to 1e-14) and its cells R1-R3, differing only in the order of tied entries in a listing; main's own isometry check finds the least certified fillings of b+-LR to be the Weeks manifold (slopes (2,5), (3,5)) and then the Meyerhoff manifold, and of b++LR the Meyerhoff manifold (slopes (+-1,5)) -- so the least closed universe filled from the record's threads is the Weeks manifold, from -LR only, as W122 found; the ground-state reading stays the seat's READING and the slope a choice. 0 of 19.",
+  "weave_or_thread": "thread (one filled thread at a time; the census over the record's threads)"
+}

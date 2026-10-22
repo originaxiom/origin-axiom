@@ -903,7 +903,9 @@ theorem ledger and conditional claims in `CLAIMS.md`. Write "UNIQUENESS A6", "P0
   charged sectors coincide exactly when N divides 4 or 5 (d = e), 6 (u = d), or 2 or 7 (u = e); every N ≥ 8 splits all
   three.
 - **protection** (B1703): on a line of order N, a sector's first generation is massless at leading order — its
-  "1"-channel residue R₁ vanishes — exactly when N divides its q_L − q_R or 3.
+  "1"-channel residue R₁ vanishes — exactly when N divides its q_L − q_R or 3. *[S185: in the full four-channel masses at B1667's canonical end order 9's
+  leptons are lifted (B1711) and every order-12 line leaves the electron exactly massless, with no residue vanishing
+  (B1712; P-268).]*
 - **the line-tied Higgs** (B1701; the SM seat's W63): the Higgs whose direction is the unit C_{p*} whose parity copy the
   line leaves untwisted (p* ≡ −3w). On the line it gives every sector exactly 0 : 1 : 1.
 - **the cusp coefficient of a content** (B1686, B1704): the y³ coefficient of a content's one-loop potential, in ζ(6)
@@ -911,3 +913,18 @@ theorem ledger and conditional claims in `CLAIMS.md`. Write "UNIQUENESS A6", "P0
   τ to the cusp.
 - **holds τ** (B1686, B1704): a content holds τ when its potential has a minimum inside the fundamental domain; it needs a
   negative cusp coefficient.
+- **Λ, four meanings** (S185, P-275; the web seat's map §4.11). A sentence that uses the letter says which.
+  - "**given Λ**": the SM seat's tagged postulate that every left-handed field transforms in the weave's triplet T
+    (GENESIS I-31).
+  - **Λ₊**: the boundary domain at the puncture, whose dimension sets the index dim Λ₊ − 3 (B1606, B1641; FK10).
+  - **Λ, the cosmological constant**: in the record's 3d normalisation Λ = −1 (W120, B1708).
+  - **the audit lane's Λ**: its domain in the six critical coefficients (P-184).
+- **the hypercharge normalisation, two senses** (S185, P-271; the web seat's map §4.6).
+  - **6Y, the charge lattice** (B1096; P9's dictionary; B1703's charges Q 1, u −4, d 2, L −3, e 6, H 3): the minimal
+    integral labels, tied to the ℤ₆ quotient, 6Y ≡ 4·triality + 3·duality (mod 6). It is a lattice choice, not a coupling.
+  - **k_Y, the coupling normalisation** (g′² = g₁²/k_Y at unification; sin²θ_W = 1/(1 + k_Y) there). No anomaly
+    condition fixes it (B991), and an embedding sets it:
+    - F-MC's SU(5) direction gives k_Y = 5/3 and sin²θ_W = 3/8 at tree level (B862, B919);
+    - the audit lane's E₈ embedding used by the SM seat's W70 gives k_Y = 14/3 and sin²θ_W = 3/17, which SM running
+      never reaches above M_Z.
+  - "3/8" and "3/17" are two embeddings' values, neither derived.

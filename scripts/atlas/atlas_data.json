@@ -12114,8 +12114,10 @@
    "slug": "the pull back acts on the records",
    "motifs": [
     "monoid",
+    "trace_map",
     "eisenstein",
     "amphichiral_cp",
+    "torsion",
     "firewall"
    ],
    "refs": [
@@ -12127,7 +12129,7 @@
    "obstacle": "cancellation",
    "obstacle_conf": 1,
    "status": "banked",
-   "domain": "dynamics"
+   "domain": "arithmetic"
   },
   "B1663": {
    "slug": "the pull backs strength",
@@ -13010,7 +13012,7 @@
     "B366"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 4,
+   "obstacle_conf": 6,
    "status": "banked",
    "domain": "topology"
   },
@@ -13162,6 +13164,126 @@
    "obstacle_conf": 4,
    "status": "open",
    "domain": "arithmetic"
+  },
+  "B1712": {
+   "slug": "the weave census of lines",
+   "motifs": [
+    "coupling",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "H1",
+    "H2",
+    "H3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1713": {
+   "slug": "the complement and the mixing",
+   "motifs": [
+    "coupling",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "H1",
+    "H2",
+    "H3",
+    "K1",
+    "K2",
+    "K3",
+    "K4"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 34,
+   "status": "open",
+   "domain": "arithmetic"
+  },
+  "B1714": {
+   "slug": "the rules lifts",
+   "motifs": [
+    "choice",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B218",
+    "B220",
+    "B222",
+    "B226",
+    "B24",
+    "B254",
+    "B313"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1716": {
+   "slug": "the zeros derived",
+   "motifs": [
+    "choice",
+    "coupling",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1717": {
+   "slug": "no relational record",
+   "motifs": [
+    "coupling",
+    "dickson_tower"
+   ],
+   "refs": [],
+   "obstacle": "cancellation",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "physics"
+  },
+  "B1718": {
+   "slug": "the running allowance",
+   "motifs": [
+    "coupling",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "H1",
+    "K1"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 13,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1719": {
+   "slug": "w122 on main",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map"
+   ],
+   "refs": [
+    "S7"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
   },
   "B171": {
    "slug": "heterogeneous quasicrystal",

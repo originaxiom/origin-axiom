@@ -98,3 +98,10 @@ along both the axis and the arc.
 - `verification/lattice.py` (the builder), `verification/main_w60.py`, `verification/main_w62.py`, their outputs, and the
   received rules and read-outs (hashes in `SHA256_RECEIVED.txt`).
 - The lock: `tests/test_b1686_w60_w62_on_main.py`.
+
+> *Dated note 2026-10-22 (P-108).* The audit lane's caution on W60's Higgs is recorded as W60's scope:
+> - the half-period Higgs-parity cancellation is a fibre positive, not a total massless Higgs or a certified potential
+>   minimum;
+> - using it needs a parent map, since the lane's E₈ embedding puts the weak doublets at odd quaternion centre.
+>
+> No main test has used W60's Higgs since. The mass tests use the end-data Higgs ∂R (B1700, B1694–B1713).

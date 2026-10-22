@@ -1,5 +1,68 @@
 # Changelog
 
+## S185 THE LINE CENSUS COMPLETED, THE MIXING SEALED, AND THE LEADS FOLLOWED (B1712–B1714, B1716–B1718; P-260, P-261) (2026-10-22)
+
+- **B1712 — the weave census of lines (P-260; the owner's choice): NEGATIVE as sealed** (`a35ab5642`, sha256 c4856e37;
+  outputs committed unread at `ba2fea64d`).
+  - Every flat line of order 8–12 (204), with the end-data Higgs at the canonical end and Im τ free.
+  - H1 holds: the best point is a factor 2.37 off (the order-8 line (3/8, 0) at τ = 3.1i).
+  - H2 fails: 22.45% of 4 000 random hierarchies fit as well with the same 51 408 rows.
+  - H3 fails: χ² 108.5.
+  - The line is not where the frame's missing number lives. Routed into B738's kill graph.
+- **The order-12 electron zero (read after B1712's run; P-268).**
+  - At the canonical end the electron is exactly massless on every order-12 line, for every Higgs, and on no line of
+    order 8–11.
+  - The mechanism: B1659's det Y = 4 det S det M tr(εSMᵀ), with det M = ¼ (2πL ΣR_s² + Σc_sR_s²).
+  - The first sum vanishes for every twist, since the residue matrix has rank one. On order 12 the four channels pair, so
+    the second cancels.
+  - The law read from it (left twist of exact order 4, right twist of order ≤ 2) was committed as a prediction for
+    B1713's unread output (`5063a0f9d`).
+- **B1714 — the rule's lifts (P-225): PROVED.**
+  - The rule and the moves lift to SU(2) only at the common point (and at the central characters).
+  - There the rule's eigenvectors are exactly the T-type magic states.
+  - Off the common point the moves give no gate set.
+- **B1717 — no relational record on the private modules (P-278): PROVED.** On B1675's private modules End_G = ℂ, and no
+  equivariant map joins them or meets ρ_Q. B1675's open clause is answered in its setting.
+- **B1718 — the running allowance (P-265): PROVED.**
+  - In the SM at one loop the within-sector ratios run by at most 12% in log to 10¹⁶ GeV, since QCD cancels in them.
+  - The 10% allowance strictly covers this to 10⁸ GeV, and no sealed verdict turns on it.
+- **The lead audit (the owner's question of 2026-10-22).**
+  - **Closed with evidence:** 27 old Q3 points against the arcs that settled them, and later P-098, P-162, P-206, P-213,
+    P-216, P-217, P-220, P-259, P-270, P-271, P-272, P-274, P-275 and P-276.
+  - **Declined with a reason:** P-266.
+  - **Registered:** the points raised and never carried, P-261–P-282. Among them are thirteen from the web seat's
+    ingredients map, which sat on no queue.
+  - **Corrected:** HARVEST_LEDGER row 1273, where B1678's own report leaves claims 19 and 20 unchecked.
+  - **Scope notes:** TM1's frame (LAW_MAP), F-MC's "DERIVED" (SM_SPECIFICATION_LEDGER, THE_SM_VERDICT), and the
+    minimal-Kähler hypothesis (LAW_MAP, THEOREM_REGISTRY).
+  - **TERMINOLOGY:** Λ's four meanings, and the hypercharge normalisation's two senses.
+  - **Re-grades:** B1662's re-graded list and I-18 (θ̄ ∈ {0, π} by the side chosen).
+  - **B1703:** a dated note.
+  - **THE_LADDER's open rungs:** each disposed of.
+- **P-262, partly derived.** B1701's 0 : 1 : 1 follows from R_{p*} = 0 on the tied lines, together with the quaternion
+  form of the coupling, whose signed cross product has spectrum (‖w‖, ‖w‖, 0).
+- **Harvest.**
+  - The SM seat's W122 and its gravity page (rows 1298–1299; P-269), and W123 and W124's rules.
+  - The web seat's PF1-W ruling (row 1297; P-267) and its ingredients map, checked (row 1300).
+  - Pins: sm `bcc3686a`, chat1 `6bf5c9e1`.
+- **B1713 — the complement and the mixing (P-261, P-129, P-164, P-258): NEGATIVE as sealed** (`cd294dccf`, sha256
+  1cdf28e5; outputs committed unread at `084db486a`).
+  - **Part A, orders 1–7.** The best point is 2.33 (order 5, d = e), and 14.8% of random hierarchies fit as well. With
+    B1712, no line of order ≤ 12 gives the masses specifically.
+  - **Part B, the first quark mixing in this frame.** K1 holds: the moduli come within 14% (order 11, τ = ½ + 2.8i;
+    J = 2.8 × 10⁻⁵ there). K2 fails: 59.5% of random hierarchical mixings are matched as well. So Cabibbo-sized mixing is
+    generic here, not specific (P-129 answered).
+  - **K3 and K4 fail:** masses and mixing together reach 3.59.
+  - **The controls hold:** unitarity, and B1712 reproduced exactly.
+  - **P-268's prediction held blind:** every order-4 line massless in all three sectors, and no other exact zero.
+- **B1716 — the frame's exact zeros, derived (P-262, P-268): PROVED.**
+  - det M = ¼ Σ c_s R_s², independent of L, because the residue matrix has rank one for every twist.
+  - B1701's 0 : 1 : 1 is a signed cross product (R_{p*} = 0 on all 27 tied lines).
+  - The zero law (left twist of exact order 4, right twist of order ≤ 2) agrees with all 798 line-sectors of orders 1–12; its analytic proof is sketched.
+- **B1719 — W122 on main (P-269): PROVED.** The seat's script reproduces (3 024 fillings; volumes to 1e-14). Main's isometry check confirms the Weeks manifold as the least filling, from −LR only.
+- **Landing suite.** full suite 7 575 passed, 3 failed, 68 skipped (32:40, -n 8). Two failures were this landing's and are fixed: the kill-graph scope keys (B1712, B1713), and B805's authored-against-attachment count, after depends_on was trimmed to premises — B1698, B1711, B1660, B1708 and B1712–B1713 as evidence for B1716 are context, cited in the findings. Re-run of the affected locks: 1 482 passed, 1 failed. The one remaining failure is B805's attachment lock (P-239), as at every landing since S173.
+- 0 of 19.
+
 ## S184 THREE SEAT ASKS REGISTERED (P-257–P-259) (2026-10-22)
 
 - The SM seat's open asks, unregistered until now (the point-register rule): W118's seven rationals and the k mod 6

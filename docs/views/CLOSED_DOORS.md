@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**830 recorded closures — of which 663 are CLASSIFIED by mechanism and
+**832 recorded closures — of which 665 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -113,6 +113,8 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed (B1699; 8ac889d14): the strength has no maximum (it rises to the cusp) and one non-elliptic critical point, a saddle at tau = 0.2754 + 0.9613i; there m2/m3 >= 0.31 in every sector on all 576 lines (worst factor 225; 32% of random hierarchies fit as well).` | 1 |  |
 | `Sealed (B1702; f51ab2718): best worst factor 8.9 (2i) and 19.4 (1/2 + sqrt3 i); the up quarks' m2/m3 >= 0.0134 against 0.0037 on every row; 24.7% of random hierarchies fit as well; chi2 593.` | 1 |  |
 | `Sealed (B1711; 6fee45181): best worst factor 4.17 at the grid's edge (Im tau 3.5); 9.8% of 4000 random hierarchies fit as well; chi2 321; the down and lepton m2/m3 three to four times too small, the electron lifted four times too far.` | 1 |  |
+| `Sealed (B1712; a35ab5642): best worst factor 2.37 (the order-8 line (3/8, 0) at tau = 3.1 i; the down quarks' m2/m3 the worst); 22.45% of 4000 random hierarchies fit as well with the same 51408 rows; chi2 108.5.` | 1 |  |
+| `Sealed (B1713; cd294dccf): orders 1-7 best factor 2.33 (order 5, d = e), 14.8% of random hierarchies as good, chi2 162; the CKM moduli within 14% (order 11, tau = 1/2 + 2.8i) but 59.5% of random hierarchical mixings matched as well; masses and mixing together 3.59, 21.6% as good.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

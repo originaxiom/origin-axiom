@@ -1,0 +1,27 @@
+{
+  "id": "B1713",
+  "verdict": "NEGATIVE",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1712",
+    "B1656",
+    "B1667",
+    "B1700",
+    "B1703"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the fibre given Lambda; B1656's four-channel coupling at B1667's canonical end; the end-data Higgs DR; every flat line of order 1-12",
+    "object": "the six charged-fermion ratios (orders 1-7) and the quark mixing moduli (orders 1-12) at M_Z",
+    "reach": "class",
+    "hypotheses": "Re tau in {0, 1/2}; Im tau 1.5-3.5; Y's rows the doublet's generations (the read-out I-33)"
+  },
+  "claim_one_line": "THE COMPLEMENT AND THE MIXING (P-261, P-129, P-164, P-258; sealed cd294dccf, sha256 1cdf28e5; NEGATIVE as sealed -- A-H1 and K1 hold, A-H2, A-H3, K2, K3, K4 fail, the controls hold; outputs committed unread at 084db486a): on the 62 lines of order 1-7 the best point is the order-5 line (2/5, 4/5), a factor 2.33 off with d = e, and 14.8% of random hierarchies fit as well; the frame's first quark mixing (V = U_u^H U_d, every line of order 1-12) puts |V_us|, |V_cb|, |V_ub| within 14% of PDG's on the order-11 line (0, 5/11) at tau = 1/2 + 2.8i (J = 2.8e-5 there, a read-out) but 59.5% of random hierarchical mixings are matched as well, so Cabibbo-sized mixing is generic in this frame and not specific; masses and mixing together reach only a factor 3.59. P-268's law, committed before the read, held: every order-4 line massless in all three sectors and no exact zero on orders 1-3, 5-7. 0 of 19.",
+  "weave_or_thread": "weave (every charged sector on one fibre; every line of the stated orders)"
+}

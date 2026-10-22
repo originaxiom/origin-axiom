@@ -1,0 +1,23 @@
+{
+  "id": "B1717",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1675"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the common point; B1675's private modules with coefficients Sym^{2k} rho_Q, k <= 3",
+    "object": "equivariant maps between the private modules and the coefficient module",
+    "reach": "general",
+    "hypotheses": "numerical rank at 1e-9; higher k, tensor products and other coefficients not computed"
+  },
+  "claim_one_line": "NO RELATIONAL RECORD ON THE PRIVATE MODULES (P-278; no data): at the common point the moves act on B1675's private modules V_2 (dimension 4) and V_3 (dimension 2) with scalar commutants, End_G(V_k) = C for G = <L, R> and for <L, R, P, -I>; Hom_G(V_2, V_3) = Hom_G(V_3, V_2) = 0; and the coefficient module rho_Q maps into neither and receives from neither, for every sign choice of the lifts (control: End_G(V_3 + V_3) = 4, End_G(V_2 + V_3) = 2). So the open clause of B1675 is answered in its setting: the moves keep no non-scalar relation between private classes; a record needs an end or another module. 0 of 19.",
+  "weave_or_thread": "weave (the moves' joint action)"
+}

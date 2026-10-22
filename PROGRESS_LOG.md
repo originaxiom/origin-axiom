@@ -17719,3 +17719,12 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - P-257 (W118's rationals), P-258 (J as a ninth observable), P-259 (minimal Kähler named). FLOOR 259.
 
+## 2026-10-22 — S185 THE LINE CENSUS COMPLETED, THE MIXING SEALED, THE LEADS FOLLOWED (B1712–B1718)
+
+- The owner's question ("did we compute everything we planned, every lead we discovered on the way?") answered with work, not prose.
+  - **The register:** P-260–P-283; more than fifty points closed with evidence; P-266 declined with a reason.
+  - **Sealed:** B1712 (orders 8–12) and B1713 (orders 1–7 and the first CKM in this frame), both NEGATIVE.
+  - **Proved:** B1714, B1716, B1717, B1718.
+  - **Harvest:** rows 1297–1300, with the pins moved.
+- **The blind prediction.** P-268's zero law, committed before B1713's read (`5063a0f9d`), held on orders 1–7.
+- **Landing suite.** full suite 7 575 passed, 3 failed, 68 skipped (32:40, -n 8). Two failures were this landing's and are fixed: the kill-graph scope keys (B1712, B1713), and B805's authored-against-attachment count, after depends_on was trimmed to premises — B1698, B1711, B1660, B1708 and B1712–B1713 as evidence for B1716 are context, cited in the findings. Re-run of the affected locks: 1 482 passed, 1 failed. The one remaining failure is B805's attachment lock (P-239), as at every landing since S173.

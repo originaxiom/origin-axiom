@@ -821,3 +821,19 @@ found with B1635's sealed instrument.
   charged sectors, as B1703 says they must, but with the end-data Higgs the best point is a factor 4.17 off (the down and
   lepton second-to-third ratios too small, the electron lifted too far) and 9.8% of random hierarchies fit as well. With
   B1698 (the tick's order-5 lines, d = e), no line the record selects gives the masses in this frame.
+- **No line of order ≤ 12 gives the masses specifically (B1712, B1713; sealed, NEGATIVE).**
+  - Every flat line of order 1–12 (266) was taken together, with the end-data Higgs and Im τ free.
+  - The best points are factors 2.37 (order 8) and 2.33 (order 5, d = e) off.
+  - 22% and 15% of random hierarchies fit as well with the same rows. The line is not where the frame's missing number
+    lives.
+- **The frame's quark mixing is generic, not specific (B1713, sealed).**
+  - The first CKM in this frame puts PDG's three moduli within 14% at one point, with J = 2.8 × 10⁻⁵ there.
+  - But 59.5% of random hierarchical mixings are matched as well. Cabibbo-sized mixing occurs everywhere, so the
+    Cabibbo zero (B1649) belonged to point couplings.
+  - Masses and mixing at one point reach only a factor 3.59.
+  - What the frame lacks is a principle that selects the point, not a mixing mechanism.
+- **The exact zeros follow a law (B1712, B1713, B1716).**
+  - At the canonical end a sector's first generation is exactly massless, for every Higgs, when its left twist has exact
+    order 4 and its right twist order ≤ 2. The four channels then pair, so det M = 0.
+  - Read from order 12, the law predicted orders 1–7 before they were read: every order-4 line massless in all three
+    sectors, and nothing else. It held.

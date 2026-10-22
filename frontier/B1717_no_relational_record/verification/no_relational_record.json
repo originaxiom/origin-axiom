@@ -1,0 +1,36 @@
+{
+ "<L, R>": {
+  "dim_V2": 4,
+  "dim_V3": 2,
+  "End_V2": 1,
+  "End_V3": 1,
+  "Hom_V2_V3": 0,
+  "Hom_V3_V2": 0,
+  "Hom_rhoQ_Vk_max_over_signs": {
+   "2": 0,
+   "3": 0
+  },
+  "Hom_Vk_rhoQ_max_over_signs": {
+   "2": 0,
+   "3": 0
+  }
+ },
+ "<L, R, P, I>": {
+  "dim_V2": 4,
+  "dim_V3": 2,
+  "End_V2": 1,
+  "End_V3": 1,
+  "Hom_V2_V3": 0,
+  "Hom_V3_V2": 0,
+  "Hom_rhoQ_Vk_max_over_signs": {
+   "2": 0,
+   "3": 0
+  },
+  "Hom_Vk_rhoQ_max_over_signs": {
+   "2": 0,
+   "3": 0
+  }
+ },
+ "control_End_V3_plus_V3": 4,
+ "control_End_V2_plus_V3": 2
+}

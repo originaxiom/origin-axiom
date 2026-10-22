@@ -1,0 +1,9 @@
+G = <L, R> | dim V_2, V_3: 4 2 | End_G(V_2): 1 | End_G(V_3): 1 | Hom_G(V_2, V_3): 0 | Hom_G(V_3, V_2): 0
+   k=2 eigenvalues of L: [ 1.-0.j  1.-0.j -1.+0.j -1.-0.j]
+   k=3 eigenvalues of L: [-1.+0.j -1.+0.j]
+G = <L, R, P, I> | dim V_2, V_3: 4 2 | End_G(V_2): 1 | End_G(V_3): 1 | Hom_G(V_2, V_3): 0 | Hom_G(V_3, V_2): 0
+   k=2 eigenvalues of L: [ 1.-0.j  1.-0.j -1.+0.j -1.-0.j]
+   k=3 eigenvalues of L: [-1.+0.j -1.+0.j]
+G = ('L', 'R') | max over signs dim Hom_G(rho_Q, V_k): {2: 0, 3: 0} | Hom_G(V_k, rho_Q): {2: 0, 3: 0}
+G = ('L', 'R', 'P', 'I') | max over signs dim Hom_G(rho_Q, V_k): {2: 0, 3: 0} | Hom_G(V_k, rho_Q): {2: 0, 3: 0}
+control: End(V_3 + V_3) = 4 (expect 4); End(V_2 + V_3) = 2 (expect 2)

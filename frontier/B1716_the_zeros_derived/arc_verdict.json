@@ -1,0 +1,25 @@
+{
+  "id": "B1716",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1659",
+    "B1656",
+    "B1701"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "B1656's four-channel coupling at B1667's canonical end",
+    "object": "the coupling's determinant, B1701's line-tied spectrum, the first generation's exact zeros",
+    "reach": "class",
+    "hypotheses": "the law's analytic proof sketched (the involution's action on denominators and phases not written out); checked numerically on every line of order 1-12 at two tau"
+  },
+  "claim_one_line": "THE FRAME'S EXACT ZEROS, DERIVED (P-262, P-268; no data): det(sum u_s E_s*) = 1/4 sum u_s^2 and the residue matrix has rank one for every twist (sum R_s^2 = 0, by theta_1's quasi-period), so det M = 1/4 sum c_s R_s^2, independent of L -- the reason B1703's protection is leading-order only; the coupling is Y_ab = sum m_s [C_a^-1 S C_b]_s, so with S = C_p and m_p = 0 it is a signed cross product with spectrum (|w|, |w|, 0), and R_p* = 0 on all 27 tied lines: B1701's 0 : 1 : 1 derived; and D = sum c_s R_s^2 vanishes exactly when the left twist has exact order 4 and the right twist order <= 2 (the involution u -> -u pairs the four channels), on every line of order 1-12 -- the law read from order 12 that predicted B1713's order-4 lines before they were read. 0 of 19.",
+  "weave_or_thread": "weave (every charged sector on one fibre; every line of order <= 12)"
+}

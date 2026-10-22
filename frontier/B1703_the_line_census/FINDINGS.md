@@ -53,3 +53,10 @@ seat's rows 1209–1213 (closing lines, W88, chat1's closure law). **Literature:
   `verification/the_confirmation.py` → `the_confirmation.json`, `the_confirmation_run.txt` (fresh τ and ω);
   `verification/large_L.py` → `large_L.json` (the seat's question); `verification/b1656_funcs.py` (verbatim).
 - The lock: `tests/test_b1703_the_line_census.py`.
+
+> *Dated note 2026-10-22 (B1712).* "Protection" here is R₁ = 0, the leading-order statement. In the full four-channel masses
+> at B1667's canonical end:
+> - order 9's leptons are lifted (B1711);
+> - every order-12 line leaves the electron exactly massless (≤ 5.5 × 10⁻¹⁴), with no residue vanishing. There the
+>   leptons' matter has det M = 0 because the four channels pair (B1712 §2).
+> The general law is open (P-268).

@@ -11743,5 +11743,50 @@
    "hypotheses": "a grid in Im tau to 3.5"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1712",
+  "claim_killed": "That some flat line of exact order 8-12, with the end-data Higgs at the canonical end and Im tau free, reproduces the six charged-fermion ratios specifically, the whole census counted.",
+  "kill_form": "Sealed (B1712; a35ab5642): best worst factor 2.37 (the order-8 line (3/8, 0) at tau = 3.1 i; the down quarks' m2/m3 the worst); 22.45% of 4000 random hierarchies fit as well with the same 51408 rows; chi2 108.5.",
+  "hatch": "a line a principle selects for a reason other than its order; orders above 12; tau off the two CP lines; another Higgs section; the complement (orders 1-7) and the mixing are sealed in B1713",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-22), for tests/test_b833_negative_routing.py",
+  "note": "With B1698 and B1711, every line the record selects and every line of order 8-12 fail specifically in this frame. Read after the run: the electron is exactly massless on every order-12 line (P-268).",
+  "faces_consulted": [
+   "B1698",
+   "B1703",
+   "B1711"
+  ],
+  "fact_computed": "8568 points x 6 choices and their comparison with its calibration, by the sealed instruments (ba2fea64d)",
+  "scope": {
+   "frame": "the fibre given Lambda; B1656's coupling at the canonical end; DR; every line of exact order 8-12",
+   "hypotheses": "Re tau in {0, 1/2}; Im tau 1.5-3.5",
+   "object": "the six charged-fermion ratios at M_Z",
+   "reach": "class"
+  },
+  "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1713",
+  "claim_killed": "That a flat line of order 1-7 gives the six charged-fermion ratios specifically, or that the frame's quark mixing reproduces the CKM specifically (alone or with the masses at one point).",
+  "kill_form": "Sealed (B1713; cd294dccf): orders 1-7 best factor 2.33 (order 5, d = e), 14.8% of random hierarchies as good, chi2 162; the CKM moduli within 14% (order 11, tau = 1/2 + 2.8i) but 59.5% of random hierarchical mixings matched as well; masses and mixing together 3.59, 21.6% as good.",
+  "hatch": "a principle that selects the point (line, tau, horocycle, reading); tau off the two CP lines; orders above 12; another Higgs section",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-22), for tests/test_b833_negative_routing.py",
+  "note": "The mixing is generic in this frame (Cabibbo-sized mixing occurs everywhere), not absent: P-129 answered in this frame. P-268's law predicted every exact first-generation zero on orders 1-12 (orders 4 and 12).",
+  "faces_consulted": [
+   "B1698",
+   "B1703",
+   "B1712",
+   "B1660"
+  ],
+  "fact_computed": "11172 points x 6 choices: ratios and CKM, with three calibrations, by the sealed instruments (084db486a)",
+  "scope": {
+   "frame": "the fibre given Lambda; B1656's coupling at the canonical end; DR; every line of order 1-12",
+   "hypotheses": "Re tau in {0, 1/2}; Im tau 1.5-3.5",
+   "object": "the six charged-fermion ratios (orders 1-7) and the CKM moduli (orders 1-12) at M_Z",
+   "reach": "class"
+  },
+  "weave_or_thread": "weave"
  }
 ]
