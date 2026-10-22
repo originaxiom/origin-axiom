@@ -1,5 +1,17 @@
 # Changelog
 
+## The field findings relayed to main and the web seat for verification and extension; the web seat's work rowed; a fourth form of GENESIS PF1 disclosed in W127 (relay §217)
+
+- **Relay §217, to main and the web seat** at the owner's word. It sets out W127, W128 and W130 with the exact values
+  each seat can re-derive on its own code. It ranks six places to build, first the coupling at the puncture: is
+  B1651's (0, 1) Higgs the conjugate Φ* of W130's forced field?
+- **The web seat's 14dfd318b → 7d261bd2c rowed:** PF1-W and its lepton test, the owner's ruling registering it as a
+  reading, the selection map and its sealed two-ingredient tests, Lemma H and Lemma CP.
+- **A disclosure in W127.** The web seat's PF1-W, registered as a reading that morning, is a fourth form of GENESIS
+  PF1 at the end that W127's rule did not name. It forbids nothing at the empty end, so W127's answer stands. Both
+  forced fields (η⁴R, W130's Φ) vanish nowhere inside, which is PF1-W's shape.
+- **Surfaces.** The NOTE (W127's dated note), relay §217, two ledger rows, the state page's range. 0 of 19.
+
 ## W130 recorded: the principle forbids the zero of exactly one field, the fibre's own uniformizing Higgs field (relay §216)
 
 - **W130** (WEAVE-type; exact; every cell held). By non-abelian Hodge, the field at rest vanishes iff the flat datum

@@ -8028,6 +8028,22 @@ a stated order, labelled so.
 - What no form of GENESIS PF1 at the end forces is the unit n = 1 that carries the fibre's three into four dimensions.
   "No form forces three" in point 5 means that four-dimensional three. See W129's clarification.
 
+**A fourth form of GENESIS PF1 on record, missed by the rule (disclosed 2026-10-22, the same day; a READING by hand).**
+- **The miss.** The web seat's PF1-W (`THE_ZERO_FREE_READING.md` on its branch) says the law's holomorphic invariants
+  have their zeros and poles only at the end, the cusp. The owner ruled at 10:10 that day to register it as a reading.
+  That was before this arc's rule (16:45 UTC), which named three forms and did not read the web seat's branch.
+- **What PF1-W says about this arc's question.** It forbids nothing at the empty end: with no twist and no unit there
+  is no weight-3/2 section to test. It is a selection rule among sections, not a forcing of the end datum. So W127's
+  answer stands with it.
+- **What it says about this arc's field.** η⁴R is admissible under PF1-W.
+  - Every component of R is a ratio of theta constants, and θ₂, θ₃ and θ₄ have no zeros on the upper half plane (the
+    Jacobi triple product). η has none either.
+  - So η⁴R vanishes nowhere inside, and its only zeros are at the cusp, with orders 1/24, 7/24 and 13/24.
+  - W130's uniformizing field is nowhere zero inside too, with |Φ| = ½, and singular only at the puncture.
+  - Both fields the principle forces in these arcs have PF1-W's shape.
+- **Open, for the web seat** (relay §217): which weight-3/2 sections with the unit (W123's ∂R and the rest of the
+  three-dimensional space) are zero-free on the upper half plane, and so admissible under PF1-W.
+
 ## W126. The read-out on the physical spacetime (main's C10), for the ground-state universes: on the Milne universe over a closed hyperbolic space the Lorentzian index of the twisted Dirac operator is minus the number of twisted harmonic spinors; over the Weeks manifold no line of the triplet's bundle extends, over the Meyerhoff manifold one does, and neither carries a harmonic spinor, so the read-out is zero on both (`the_physical_readout.py`; `W126_RULE.md`)
 
 **Why.**

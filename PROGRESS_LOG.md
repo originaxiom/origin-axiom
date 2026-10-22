@@ -20306,3 +20306,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The particles' own fields carry no such forced value.** The forced field is the shape's.
 - **What it does not yet show** is that this field is the one that gives the particles their masses. That needs two
   links still open: the way this field is tied to the weak force, and how it couples to matter at the hole. 0 of 19.
+
+## 2026-10-22 — the field findings sent to the other two seats to check and build on
+
+- **The findings on the field are now sent to main and the web seat,** with the exact numbers each can recompute on
+  its own, and six places where they could take the work further. The most important asks whether the forced field
+  of the shape couples to matter at the hole.
+- **The web seat had already proposed a reading of the principle** (where things may vanish: only at the edge) that
+  this seat's check of the principle at the edge had not included. It is now disclosed. It changes no answer, and the
+  two fields found so far fit it. 0 of 19.
