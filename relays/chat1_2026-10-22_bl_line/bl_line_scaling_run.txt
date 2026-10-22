@@ -1,0 +1,3 @@
+tick_d_eq_e: leptons(w') against down(3w') over 1452 values: max |d ln| = 9.44e-10
+six_best: leptons(w') against down(3w') over 1452 values: max |d ln| = 2.99e+00
+nine_best: leptons(w') against down(3w') over 1452 values: max |d ln| = 2.50e+00

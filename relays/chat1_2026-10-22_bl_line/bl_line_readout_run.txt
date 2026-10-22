@@ -1,0 +1,51 @@
+== six_best: 961 grid points
+  slope of log m2/m3 in a' (S, L_2): down -1.5822, leptons -6.0331, ratio +3.813
+  slope of log m2/m3 in b' (S, L_2): down +0.3092, leptons +0.6907, ratio +2.233
+  slope of log m1/m3 in a' (S, L_2): down +14.2026, leptons +48.7251, ratio +3.431
+  slope of log m1/m3 in b' (S, L_2): down +0.6517, leptons -2.1286, ratio -3.266
+  slope of log m2/m3 in a' (St, L_2): down -5.4254, leptons -15.9249, ratio +2.935
+  slope of log m2/m3 in b' (St, L_2): down +0.7046, leptons +2.5921, ratio +3.679
+  slope of log m1/m3 in a' (St, L_2): down -15.1117, leptons -53.2646, ratio +3.525
+  slope of log m1/m3 in b' (St, L_2): down +2.4271, leptons -11.0437, ratio -4.550
+  [S~ for every sector] baseline w'=0: L_max six 4.22 nine 4.22 D 1.01; L_2 six 4.25 nine 4.25 D 1.00
+  [S~ for every sector] best six 2.774 at w' = (0.02, 0.02) L_max, D 1.52; model/measured [2.43, 1.79, 1.43, 0.66, 0.36, 1.15]
+  [S~ for every sector] best nine 3.840 at w' = (0.02, 0.04) L_max, D 1.83, J -4.8e-07; model/measured [2.45, 2.8, 1.46, 0.69, 0.37, 1.0, 0.26, 0.9, 0.7]
+  [S~ for every sector] 9 rows with D within 3 sigma of P-094; best six among them 11.657 at w' = (0.08, 0.3) L_2 (D 10.86); nine there 11.66
+  [main's readings] baseline w'=0: L_max six 8.58 nine 23.74 D 1.35; L_2 six 10.42 nine 23.82 D 1.27
+  [main's readings] best six 3.705 at w' = (-0.02, 0.1) L_2, D 2.88; model/measured [1.39, 2.71, 0.86, 3.14, 0.27, 3.63]
+  [main's readings] best nine 22.559 at w' = (-0.08, 0.14) L_max, D 5.36, J 4.3e-03; model/measured [2.52, 18.38, 1.67, 1.37, 0.13, 0.22, 4.33, 22.56, 22.56]
+  [main's readings] 14 rows with D within 3 sigma of P-094; best six among them 17.118 at w' = (-0.08, 0.06) L_2 (D 10.82); nine there 23.20
+== nine_best: 961 grid points
+  slope of log m2/m3 in a' (S, L_2): down -2.5862, leptons -11.0471, ratio +4.272
+  slope of log m2/m3 in b' (S, L_2): down -0.3241, leptons -0.7682, ratio +2.371
+  slope of log m1/m3 in a' (S, L_2): down +13.5499, leptons +51.2826, ratio +3.785
+  slope of log m1/m3 in b' (S, L_2): down -0.4236, leptons +1.5615, ratio -3.686
+  slope of log m2/m3 in a' (St, L_2): down -6.5543, leptons -21.9061, ratio +3.342
+  slope of log m2/m3 in b' (St, L_2): down -0.5832, leptons -2.0422, ratio +3.502
+  slope of log m1/m3 in a' (St, L_2): down -16.1445, leptons -52.8751, ratio +3.275
+  slope of log m1/m3 in b' (St, L_2): down -1.3527, leptons +17.1903, ratio -12.708
+  [S~ for every sector] baseline w'=0: L_max six 6.31 nine 6.31 D 1.74; L_2 six 3.84 nine 3.84 D 1.72
+  [S~ for every sector] best six 2.615 at w' = (0.02, -0.04) L_max, D 2.00; model/measured [2.55, 2.62, 1.57, 0.77, 0.39, 1.01]
+  [S~ for every sector] best nine 3.342 at w' = (0.02, -0.04) L_max, D 2.00, J 9.4e-07; model/measured [2.55, 2.62, 1.57, 0.77, 0.39, 1.01, 0.3, 1.02, 0.83]
+  [S~ for every sector] 6 rows with D within 3 sigma of P-094; best six among them 7.273 at w' = (0.0, -0.06) L_max (D 10.40); nine there 7.27
+  [main's readings] baseline w'=0: L_max six 8.28 nine 37.30 D 1.43; L_2 six 10.39 nine 25.72 D 1.32
+  [main's readings] best six 3.340 at w' = (-0.02, -0.04) L_2, D 3.77; model/measured [1.19, 2.49, 0.95, 3.19, 0.3, 2.83]
+  [main's readings] best nine 22.646 at w' = (-0.1, -0.02) L_2, D 4.75, J 3.9e-03; model/measured [1.36, 5.31, 0.77, 1.09, 0.05, 0.17, 3.86, 22.65, 18.92]
+  [main's readings] 17 rows with D within 3 sigma of P-094; best six among them 27.336 at w' = (0.16, -0.26) L_2 (D 10.51); nine there 27.34
+== tick_d_eq_e: 961 grid points
+  slope of log m2/m3 in a' (S, L_max): down -0.9824, leptons -4.7705, ratio +4.856
+  slope of log m2/m3 in b' (S, L_max): down +0.0000, leptons +0.0000, ratio +1.255
+  slope of log m1/m3 in a' (S, L_max): down +21.6471, leptons +66.2246, ratio +3.059
+  slope of log m1/m3 in b' (S, L_max): down +0.0000, leptons -0.0000, ratio +nan
+  slope of log m2/m3 in a' (St, L_max): down -3.7736, leptons -16.5424, ratio +4.384
+  slope of log m2/m3 in b' (St, L_max): down +0.0000, leptons +0.0000, ratio +1.257
+  slope of log m1/m3 in a' (St, L_max): down -26.7428, leptons -44.4496, ratio +1.662
+  slope of log m1/m3 in b' (St, L_max): down +0.0000, leptons +0.0000, ratio +0.921
+  [S~ for every sector] baseline w'=0: L_max six 85.28 nine 85.28 D 1.00; L_2 six 23.09 nine 23.09 D 1.00
+  [S~ for every sector] best six 3.475 at w' = (-0.04, -0.3) L_max, D 0.27; model/measured [0.72, 1.06, 1.35, 0.3, 0.4, 3.48]
+  [S~ for every sector] best nine 3.475 at w' = (-0.04, -0.3) L_max, D 0.27, J -2.7e-07; model/measured [0.72, 1.06, 1.35, 0.3, 0.4, 3.48, 0.47, 1.76, 2.15]
+  [S~ for every sector] 2 rows with D within 3 sigma of P-094; best six among them 8.591 at w' = (-0.18, -0.28) L_max (D 10.74); nine there 9.56
+  [main's readings] baseline w'=0: L_max six 2.33 nine 23.88 D 1.00; L_2 six 5.28 nine 23.90 D 1.00
+  [main's readings] best six 2.314 at w' = (-0.02, 0.0) L_max, D 2.88; model/measured [0.85, 0.74, 1.37, 0.43, 0.43, 0.5]
+  [main's readings] best nine 23.451 at w' = (-0.06, -0.3) L_max, D 2.87, J -4.5e-04; model/measured [0.68, 1.52, 1.35, 0.3, 0.11, 0.09, 4.42, 23.45, 10.61]
+  [main's readings] 8 rows with D within 3 sigma of P-094; best six among them 7.454 at w' = (0.12, 0.12) L_max (D 10.76); nine there 23.86
