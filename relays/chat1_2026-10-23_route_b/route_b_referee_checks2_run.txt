@@ -1,0 +1,9 @@
+1. S for every sector, 0.1 + 3.5i on (0.2222, 0.5556), L_max: R2 2.71, R1 0.61 (no Clebsch, kappa -> 0)
+1. S for every sector, 0.1 + 3.5i on (0.2222, 0.5556), L_2: R2 4.93, R1 0.44 (no Clebsch, kappa -> 0)
+1. S for every sector, 0.4 + 3.5i on (0.2222, 0.5556), L_max: R2 2.43, R1 0.61 (no Clebsch, kappa -> 0)
+1. S for every sector, 0.4 + 3.5i on (0.2222, 0.5556), L_2: R2 4.43, R1 0.45 (no Clebsch, kappa -> 0)
+1. S for every sector, 0.1 + 3.5i on (0.2222, 0.4444), L_max: R2 2.85, R1 0.61 (no Clebsch, kappa -> 0)
+1. S for every sector, 0.1 + 3.5i on (0.2222, 0.4444), L_2: R2 5.19, R1 0.44 (no Clebsch, kappa -> 0)
+1. split, 0.4 + 2.8i on (0.4000, 0.1000), L_max: R2 0.98, R1 1.32 (no Clebsch, kappa -> 0)
+1. split, 0.4 + 2.8i on (0.4000, 0.1000), L_2: R2 0.98, R1 1.25 (no Clebsch, kappa -> 0)
+2. blend S~(DR) + lam S(DR) at 0.4 + 2.8i on (2/5, 1/2), L_max, |lam| 0.0046: under tau -> tau + 1, max |delta ln| lam fixed 1.49e+00; lam times -i 8.93e-12; lam times i 1.32e+00; the c0 model (c0 recomputed at tau + 1) 1.13e-11
