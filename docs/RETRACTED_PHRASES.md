@@ -245,3 +245,14 @@ received copies of GENESIS, which are records and are not edited.
 **Currency read, 2026-10-21 (S158, at B1690).** The arcs B1656–B1690 were read for withdrawn phrases: none withdraws a
 banked phrase (B1659 and B1664 withdrew readings before their seals, which are not banked phrases; B1685's tags
 withdraw no result; B1687 corrects a register point's expectation, not a banked sentence). No row added.
+
+**Currency read, 2026-10-22 (S187, at B1721).** The arcs B1691–B1721 were read for withdrawn phrases.
+- **Four scope corrections are on record:** RETRACTIONS rows 41–44, covering B1691, B1692/B1693, B1704, and B1712,
+  B1713 and B1716 with the Re τ = 0 zero family (P-292).
+- **Each original sentence stands in its own arc's FINDINGS beneath a dated correction.** The synthesis surfaces that
+  repeated them were corrected in place: LAW_MAP's B1712 row and THE_WEAVE's zero-law entry. No living surface
+  repeats them, so no phrase is registered.
+- GENESIS v1.53's three overreaches were corrected by v1.54 (B1721). The v1.53 log line is history and is not
+  rewritten.
+- No row added.
+
