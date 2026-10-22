@@ -1,0 +1,3 @@
+# sealed with the PREREGISTRATION (the seal commit): sha256 of every file but the preregistration and this list
+8e766f2be3d08141aea9189fdc637afe838c166ce0a9164d9643994b2ea271d9  verification/which_thread.py
+# after the seal (not sealed): the outputs, committed unread
