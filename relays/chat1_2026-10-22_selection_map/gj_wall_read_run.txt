@@ -1,0 +1,1 @@
+rows 6134; G1 corr -0.756 -> HOLDS; G2 rows within 0.3: 4 -> FAILS; G3 max D where Z near: 9.160835109101951 -> FAILS; closest maxdev 0.144
