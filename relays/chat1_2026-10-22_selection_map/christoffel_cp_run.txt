@@ -1,0 +1,7 @@
+primitive positive classes, length 2..9: 125
+reversal-symmetric up to conjugacy: 79
+Christoffel classes, length 2..9: 27
+Christoffel classes that are reversal-symmetric: 27 of 27
+shortest classes that are not: ['LLRLRR', 'LLRRLR', 'LLLRLRR', 'LLLRRLR', 'LLRLRRR', 'LLRRRLR']
+B1720's best thread L^5RLR^2 = LLLLLRLRR reversal-symmetric: False
+L^5R^2 = LLLLLRR reversal-symmetric: True
