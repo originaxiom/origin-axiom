@@ -1,0 +1,11 @@
+{
+ "J0": true,
+ "J1": true,
+ "J2": true,
+ "J3": true
+}
+every cell holds: True
+
+real	0m52.811s
+user	0m52.036s
+sys	0m0.056s
