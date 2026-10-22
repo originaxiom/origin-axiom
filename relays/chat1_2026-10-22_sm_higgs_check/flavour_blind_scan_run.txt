@@ -1,0 +1,5 @@
+flavour-blind Higgs S = 1 in main's frame: 750 points, 1500 rows (exploratory, labelled)
+best six: 226.088 at tau [0.25, 2.3], line [0.4, 0.1], L_2; |V_us|, |V_cb|, |V_ub| = [0.0446, 0.5915, 0.0062]; J = 1.32e-04; model/measured (Clebsch) [226.09, 175.17, 27.51, 18.49, 26.25, 20.74, 0.2, 14.14, 1.66]
+best six_clebsch: 226.088 at tau [0.25, 2.3], line [0.4, 0.1], L_2; |V_us|, |V_cb|, |V_ub| = [0.0446, 0.5915, 0.0062]; J = 1.32e-04; model/measured (Clebsch) [226.09, 175.17, 27.51, 18.49, 26.25, 20.74, 0.2, 14.14, 1.66]
+best nine_clebsch: 226.088 at tau [0.25, 2.3], line [0.4, 0.1], L_2; |V_us|, |V_cb|, |V_ub| = [0.0446, 0.5915, 0.0062]; J = 1.32e-04; model/measured (Clebsch) [226.09, 175.17, 27.51, 18.49, 26.25, 20.74, 0.2, 14.14, 1.66]
+|V_us| over all rows: median 0.063, range 0.004-0.888
