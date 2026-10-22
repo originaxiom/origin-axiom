@@ -1,0 +1,11 @@
+{
+ "E0": false,
+ "E1": false,
+ "E2": true,
+ "E3": true
+}
+every cell holds: False
+
+real	0m3.404s
+user	0m4.072s
+sys	0m0.048s
