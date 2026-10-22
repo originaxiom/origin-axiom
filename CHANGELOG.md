@@ -1,5 +1,10 @@
 # Changelog
 
+## Main's B1711 seal rowed (ledger)
+
+- **B1711** (main) seals a test of W59's order-9 lines at the band τ. This seat rows it and states no expectation.
+  When it runs, it joins the trial count. 0 of 19.
+
 ## Main's S182 rowed: W121's index law checked on main (B1710)
 
 - **B1710** (main, PROVED) checks W121's count −15χ(O_S) and −18χ(O_S) on main's own ρ_T, given W121's Leray reduction.

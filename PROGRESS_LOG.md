@@ -20162,3 +20162,8 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 
 - **The main seat confirmed this seat's count** of the record's matter on gravity's closed spaces: −30 and −36, never
   three. It took one step of the argument as this seat's reading, without re-deriving it. 0 of 19.
+
+## 2026-10-22 — a sealed test by the main seat, noted
+
+- **The main seat sealed a new test against data** before running it. This seat recorded the seal and, as its rule
+  is, made no prediction about the outcome. 0 of 19.
