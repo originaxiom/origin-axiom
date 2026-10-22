@@ -1,5 +1,17 @@
 # Changelog
 
+## S183 W59'S ORDER-9 LINES AT THE BAND TAU (B1711, NEGATIVE as sealed; P-256) (2026-10-22)
+
+- **The sealed test** (`6fee45181`, sha256 8b1c45f4; outputs committed unread at `2d78304d7`): the record's eighteen
+  order-9 lines (W59's; by B1703 they split all three sectors and protect the electron at leading order), the end-data
+  Higgs ∂R, the canonical end, Im τ free. H1 FAILS (best worst factor 4.17, at the grid's edge Im τ = 3.5: the down and
+  lepton m₂/m₃ 0.25 and 0.34 of the measured, the electron's m₁/m₃ 4.17 times), H2 FAILS (9.8% of random hierarchies fit
+  as well), H3 FAILS (χ² 321). With B1698, both line sets the record selects fail in this frame. Routed into B738's kill
+  graph.
+- **Register.** P-256 added and DONE; FLOOR 256.
+- **Landing suite.** 117 files (B1711's lock, the point-debt lock, every arc lock and the corpus-scanning tests), 2054 passed, 1 failed, 3 skipped (5:05, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S182 W121'S INDEX LAW ON MAIN (B1710, PROVED; P-255) (2026-10-22)
 
 - Given W121's Leray reduction: ρ_T(T)'s exponents ⅛, ⅜, ⅞ (sum 11/8) and the conjugate's ⅛, ⅝, ⅞ (13/8), none an integer

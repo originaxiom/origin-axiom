@@ -1,0 +1,31 @@
+{
+  "id": "B1711",
+  "verdict": "NEGATIVE",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1698",
+    "B1703",
+    "B1656",
+    "B1684",
+    "B1686",
+    "B1667",
+    "B1700"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [
+    "sm:W59"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the fibre given Lambda; B1656's four-channel coupling at B1667's canonical end; the end-data Higgs DR; W59's eighteen order-9 lines",
+    "object": "the six charged-fermion ratios at M_Z from Im tau and 216 discrete choices",
+    "reach": "class",
+    "hypotheses": "a grid in Im tau to 3.5; W59's lines an input"
+  },
+  "claim_one_line": "W59'S ORDER-9 LINES AT THE BAND TAU (P-256; sealed 6fee45181, sha256 8b1c45f4; NEGATIVE as sealed -- H1, H2, H3 fail; outputs committed unread at 2d78304d7): on the record's eighteen order-9 lines, which split all three charged sectors and protect the electron at leading order, the end-data Higgs at the canonical end brings the six ratios no closer than a factor 4.17 (at the grid's edge, Im tau = 3.5; the down and lepton m2/m3 three to four times too small, the electron lifted to four times its ratio), chi2 321, and 9.8% of random hierarchies fit as well. With B1698, the record's selected lines (the tick's order-5, W59's order-9) both fail in this frame. 0 of 19.",
+  "weave_or_thread": "weave (every charged sector on one fibre)"
+}

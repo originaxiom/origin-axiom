@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1439** |
-| words of findings prose | **1,149,867** |
-| test lock files referenced | **855** |
-| arcs carrying an authored verdict | **1439** (100.0 %) |
-| recorded closures | **829** (662 classified, 167 routed-only) |
+| research arcs with findings | **1440** |
+| words of findings prose | **1,150,508** |
+| test lock files referenced | **856** |
+| arcs carrying an authored verdict | **1440** (100.0 %) |
+| recorded closures | **830** (663 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 982 |
-| NEGATIVE | 353 |
+| NEGATIVE | 354 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 99 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 100 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 W121'S INDEX LAW ON MAIN (P-255; given the seat's Leray reduction): rho_T(T)'s exponents are 1/8, 3/8, 7/8 (sum 11/8) and its conjugate's 1/8, 5/8, 7/8 (sum 13/8), none an integer, so the canonical extension is the condition at a string; W121's Riemann-Roch count on a closed elliptic surface with 12 chi(O_S) strings is then (3/2)chi - 12 chi sum(mu) = -15 chi(O_S) and -18 chi(O_S) exactly, the genus cancelling for chi = 1-6 and g = 0-3; on K3 the canonical extensions have degree -33 and -39 and the index is -30 and -36; no case gives +-3. 0 of 19.  
 `B1710_w121s_index_law_on_main/FINDINGS.md`
 
-**NEGATIVE — `B1702`** (636 words, 1 locks)  
-THE OTHER CUSP SHAPES (P-249; sealed f51ab2718, sha256 8f26df36; NEGATIVE as sealed -- H1, H2, H3 fail; outputs committed unread at df0737fa1): with the weave's tau at the silver word state's cusp shape 2i (B675) or the golden word's spin end curve 1/2 + sqrt3 i (B1483), the end-data Higgs DR, the canonical end and any of 576 lines, no choice brings the six ratios within a factor of 3 (best 8.9 at 2i, 19.4 at 1/2 + sqrt3 i; chi2 593; 24.7% of random hierarchies fit as well); the up quarks' m2/m3 stays >= 0.0134 (measured 0.0037). With B1696, no word-state cusp shape tested selects tau in this frame. 0 of 19.  
-`B1702_the_other_cusp_shapes/FINDINGS.md`
+**NEGATIVE — `B1711`** (641 words, 1 locks)  
+W59'S ORDER-9 LINES AT THE BAND TAU (P-256; sealed 6fee45181, sha256 8b1c45f4; NEGATIVE as sealed -- H1, H2, H3 fail; outputs committed unread at 2d78304d7): on the record's eighteen order-9 lines, which split all three charged sectors and protect the electron at leading order, the end-data Higgs at the canonical end brings the six ratios no closer than a factor 4.17 (at the grid's edge, Im tau = 3.5; the down and lepton m2/m3 three to four times too small, the electron lifted to four times its ratio), chi2 321, and 9.8% of random hierarchies fit as well. With B1698, the record's selected lines (the tick's order-5, W59's order-9) both fail in this frame. 0 of 19.  
+`B1711_the_order9_lines/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

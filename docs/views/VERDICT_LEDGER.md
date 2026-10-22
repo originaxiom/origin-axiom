@@ -5,7 +5,7 @@
 
 # Arc verdict ledger (generated)
 
-1439 of 1439 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1440 of 1440 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
 ## PROVED (982)
@@ -995,7 +995,7 @@
 | `B1709` | THE REVIEW TOOLS READ THE OWNER'S MIRROR (Review 67's R67-1): review_tools.py named Codeberg (disabled since R66-1) as the second mirror, so every seal reported 'not on every remote'; MIRRORS is now origin and backup, and on_mirror reads a pushed-but-unfetched mirror in its own repository; Review 67's seven seals report no defect, and a failing-path test requires an unpushed commit to be reported absent. 0 of 19. | yes | 1 |
 | `B1710` | W121'S INDEX LAW ON MAIN (P-255; given the seat's Leray reduction): rho_T(T)'s exponents are 1/8, 3/8, 7/8 (sum 11/8) and its conjugate's 1/8, 5/8, 7/8 (sum 13/8), none an integer, so the canonical extension is the condition at a string; W121's Riemann-Roch count on a closed elliptic surface with 12 chi(O_S) strings is then (3/2)chi - 12 chi sum(mu) = -15 chi(O_S) and -18 chi(O_S) exactly, the genus cancelling for chi = 1-6 and g = 0-3; on K3 the canonical extensions have degree -33 and -39 and the index is -30 and -36; no case gives +-3. 0 of 19. |  | 1 |
 
-## NEGATIVE (353)
+## NEGATIVE (354)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1352,6 +1352,7 @@
 | `B1698` | THE ORDER-5 LINES (P-248; sealed 9c2a50039, sha256 6cb3ac13; NEGATIVE as sealed -- H1 holds, H2 fails narrowly, H3 fails; output committed unread at 9e5e535bc): on the lines the tick fixes up to sign (det(LR + I) = 5) the end-data Higgs brings all six charged-fermion ratios within a factor of 2.33 with one continuous number (best: alpha = 2/5, Re tau = 1/2, Im tau = 3.1, L_max, the conjugate Higgs for the up quarks), but 1.675% of random hierarchies fit as well against the sealed 1% bar (chi2 162), and on these lines the down quarks and the leptons come out identical, which the data's d-e split forbids: the tick's lines do not select the line in this frame; the near miss recorded as such. After the seal (labelled): 6Y mod 5 is constant on SU(5)'s multiplets, so the order-5 lines give minimal SU(5)'s Y_e = Y_d^T exactly (and order-4 lines Pati-Salam's Y_e = Y_d); computed on N = 2-12, down and leptons coincide exactly when the line's order divides 4 or 5 -- a d-e split needs a line of another order. 0 of 19. |  | 1 |
 | `B1699` | THE COUPLING'S STRENGTH AND TAU (P-247; sealed 8ac889d14, sha256 317b4d67; NEGATIVE as sealed -- S0 holds, H1, H2, H3 fail; outputs committed unread at cd9a9f963): this frame's own Yukawa strength y s1(Y)^2 (B1645's covariant coupling, the Higgs DR; modular-invariant to 1e-15) has no maximum -- it rises to the cusp, where DR's unit of end data drives it -- and one non-elliptic critical point, a saddle on the arc at tau = 0.2754 + 0.9613i; there no line of order dividing 24 gives any hierarchy (m2/m3 >= 0.31 in every sector; best worst factor 225; 32% of random hierarchies fit as well; chi2 4823). The strength does not select tau where the masses are; W51's peaks (sm:W51) belong to cusp-form couplings, which this frame's Higgs is not. 0 of 19. |  | 1 |
 | `B1702` | THE OTHER CUSP SHAPES (P-249; sealed f51ab2718, sha256 8f26df36; NEGATIVE as sealed -- H1, H2, H3 fail; outputs committed unread at df0737fa1): with the weave's tau at the silver word state's cusp shape 2i (B675) or the golden word's spin end curve 1/2 + sqrt3 i (B1483), the end-data Higgs DR, the canonical end and any of 576 lines, no choice brings the six ratios within a factor of 3 (best 8.9 at 2i, 19.4 at 1/2 + sqrt3 i; chi2 593; 24.7% of random hierarchies fit as well); the up quarks' m2/m3 stays >= 0.0134 (measured 0.0037). With B1696, no word-state cusp shape tested selects tau in this frame. 0 of 19. |  | 1 |
+| `B1711` | W59'S ORDER-9 LINES AT THE BAND TAU (P-256; sealed 6fee45181, sha256 8b1c45f4; NEGATIVE as sealed -- H1, H2, H3 fail; outputs committed unread at 2d78304d7): on the record's eighteen order-9 lines, which split all three charged sectors and protect the electron at leading order, the end-data Higgs at the canonical end brings the six ratios no closer than a factor 4.17 (at the grid's edge, Im tau = 3.5; the down and lepton m2/m3 three to four times too small, the electron lifted to four times its ratio), chi2 321, and 9.8% of random hierarchies fit as well. With B1698, the record's selected lines (the tick's order-5, W59's order-9) both fail in this frame. 0 of 19. |  | 1 |
 
 ## OPEN (93)
 

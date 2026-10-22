@@ -817,3 +817,7 @@ found with B1635's sealed instrument.
   vacuum on which gravitons propagate (the Milne universe), and the torus-fibred 4d vacua are the stringy cosmic strings
   on the weave's τ, closing at 12 or 24 strings; the triplet lives only on the twenty-fours (K3), where its count is
   never three (W121). The step supplies no G, no carrier and no chiral three; FK10's unit is not forced by it.
+- **The record's selected lines both fail (B1711, sealed, NEGATIVE).** W59's eighteen order-9 lines split all three
+  charged sectors, as B1703 says they must, but with the end-data Higgs the best point is a factor 4.17 off (the down and
+  lepton second-to-third ratios too small, the electron lifted too far) and 9.8% of random hierarchies fit as well. With
+  B1698 (the tick's order-5 lines, d = e), no line the record selects gives the masses in this frame.

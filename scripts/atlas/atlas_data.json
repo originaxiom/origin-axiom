@@ -13145,6 +13145,24 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1711": {
+   "slug": "the order9 lines",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "H1",
+    "H2",
+    "H3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "open",
+   "domain": "arithmetic"
+  },
   "B171": {
    "slug": "heterogeneous quasicrystal",
    "motifs": [

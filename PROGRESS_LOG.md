@@ -17709,3 +17709,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The exponents from main's own ρ_T; the Riemann–Roch law exact for χ = 1–6, g = 0–3. P-255 DONE.
 - **Landing suite.** 117 files (B1710's lock, every arc lock and the corpus-scanning tests), 2053 passed, 1 failed, 3 skipped (5:30, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-22 — S183 W59'S ORDER-9 LINES (B1711)
+
+- P-256 registered; sealed at 6fee45181 (instruments import-tested first); outputs committed unread at 2d78304d7 and read once: H1, H2, H3 fail. NEGATIVE; routed.
+- **Landing suite.** 117 files (B1711's lock, the point-debt lock, every arc lock and the corpus-scanning tests), 2054 passed, 1 failed, 3 skipped (5:05, -n 8); the one failure is B805's attachment lock (P-239)

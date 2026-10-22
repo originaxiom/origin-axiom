@@ -11720,5 +11720,28 @@
    "hypotheses": "a grid of lines"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1711",
+  "claim_killed": "That W59's eighteen order-9 lines, with the end-data Higgs at the canonical end and Im tau free, reproduce the six charged-fermion ratios specifically.",
+  "kill_form": "Sealed (B1711; 6fee45181): best worst factor 4.17 at the grid's edge (Im tau 3.5); 9.8% of 4000 random hierarchies fit as well; chi2 321; the down and lepton m2/m3 three to four times too small, the electron lifted four times too far.",
+  "hatch": "another order-9 line (72 of exact order 9) or another order >= 8 (B1703), with a principle that selects it; another Higgs section; beta's role",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-22), for tests/test_b833_negative_routing.py",
+  "note": "With B1698, both line sets the record selects (the tick's order-5, W59's order-9) fail in this frame.",
+  "faces_consulted": [
+   "B1698",
+   "B1703",
+   "B1684",
+   "B1686"
+  ],
+  "fact_computed": "3636 points x 6 choices and their comparison with its calibration, by the sealed instruments (2d78304d7)",
+  "scope": {
+   "frame": "the fibre given Lambda; B1656's coupling at the canonical end; DR; W59's order-9 lines",
+   "object": "six charged-fermion ratios at M_Z",
+   "reach": "class",
+   "hypotheses": "a grid in Im tau to 3.5"
+  },
+  "weave_or_thread": "weave"
  }
 ]
