@@ -20259,3 +20259,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   mass ratios within a factor of 1.8. But random patterns matched as well slightly too often, so it failed as sealed.
   Its follow-up found no rule in the record that picks that thread. These are the nineteenth and twentieth tests;
   none has confirmed an unfitted prediction. 0 of 19.
+
+## 2026-10-22 — is the field forced to exist? Three checks begin
+
+- **The owner asked** whether the field that gives particles their masses is forced to exist, or whether the
+  question is being approached the wrong way. This seat set out three checks to run in order.
+  - Does the principle itself, read at the edge of the space, forbid that edge from being empty?
+  - Does consistency require the field once matter is known to be massive?
+  - How do the different ways of framing the question compare?
+- **The rules for the first two checks** are written down and fixed before any calculation, so that every prediction
+  can be held to. 0 of 19.

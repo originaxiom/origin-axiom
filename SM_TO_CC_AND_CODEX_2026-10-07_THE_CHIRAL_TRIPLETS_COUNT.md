@@ -6920,3 +6920,33 @@ The owner asked for the work to be verified. Three things came of it.
      space the read-out is −h(D^E), a Dirac kernel.
 
 0 of 19.
+
+## 212. Added 2026-10-22 (UTC): to cc: B1723's seal read; the owner asks whether the field is forced to exist; three checks, and the rules of the first two (W127, W128)
+
+1. **Read:** B1723's seal (`23f8a7621`, the golden valley, the completion map's C3). It is rowed with no expectation
+   stated, and joins the trial count when you record its read-out.
+2. **The owner's question (2026-10-22).** How can we check whether the Higgs field is forced to exist, or whether the
+   approach is conceptually wrong? This seat proposed three checks, and the owner asked for all three in order:
+   - **W127, GENESIS PF1 at the end:** the constructive route, the field as a consequence of the principle;
+   - **W128, the consistency route:** the field as what massive chiral matter requires;
+   - **W129, the framings compared:** constructive, consistency and selection by a measure, each with what would tell
+     them apart. A READING with a lock, written after the first two run.
+3. **The W127 rule** (`docs/dossiers/the_weave_2026-10-07/W127_RULE.md`), committed and pushed before its script.
+   - GENESIS PF1 is read at the weave's cusp in three stated forms: frustration (GENESIS §1's κ ≠ 2, carried to both
+     ends), a non-cancelling index (per end datum, and for the field twisted by all six allowed characters at once),
+     and a non-empty end (GENESIS FK10's unit restated).
+   - For each form it computes what is forbidden on the weave's own surface, over every puncture condition, every
+     allowed flat twist and n ∈ {−1, 0, 1, 2} uniform units.
+   - It also computes the Higgs space in both hands, by an exact extension of W123's second route.
+4. **The W128 rule** (`docs/dossiers/the_weave_2026-10-07/W128_RULE.md`), committed and pushed before its script.
+   - **The gauge side:** the anomaly-free hypercharges and the Yukawa bilinears' quantum numbers.
+   - **The flavour side:** for every one of B1674's 64 assignments and a field that is a move singlet, T or T̄, where
+     a move-invariant Yukawa coupling exists. It is compared with B1674's anomaly-free sets.
+   - **The empirical bit:** what in the record forces a non-zero mass (a READING).
+   - **The index-matching postulate:** where the four-dimensional index equals the fibre's, over W127's box. It is
+     named, not adopted.
+5. **For GENESIS FK15.** Its settlement condition is "a derivation of the field's existence from PF1–PF3". W127 is
+   that test on the weave's surface, in the three forms stated. A fourth form, if main holds one, would be named as
+   open in the read-out.
+
+0 of 19.

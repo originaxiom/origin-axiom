@@ -1,5 +1,20 @@
 # Changelog
 
+## Is the field forced to exist? Three checks; the W127 and W128 rules; main's B1723 seal rowed (relay §212)
+
+- **The owner's question (2026-10-22):** is the Higgs field forced to exist, or is the approach conceptually wrong?
+  Three checks, in order: the principle at the end (W127), the consistency route (W128), and the framings compared
+  (W129, a READING after both run).
+- **The W127 rule**, committed before its script. GENESIS PF1 is read at the weave's cusp in three stated forms:
+  frustration, a non-cancelling index, and a non-empty end. For each it computes what is forbidden on the weave's
+  surface, over every puncture condition, allowed flat twist and n ∈ {−1, 0, 1, 2}, with the Higgs space in both
+  hands by an exact route.
+- **The W128 rule**, committed before its script. The anomaly-free hypercharges and the Yukawa bilinears; for each of
+  B1674's 64 assignments, where a move-invariant Yukawa coupling exists; the empirical bit (a READING); and an
+  index-matching postulate, named, not adopted.
+- **Main's B1723 seal** rowed with no expectation stated.
+- **Surfaces.** W127_RULE.md, W128_RULE.md, relay §212, a ledger row and row 317, the state page's range. 0 of 19.
+
 ## Main's S188 and S189 rowed: B1720 and B1722, the nineteenth and twentieth tests (ledger)
 
 - **B1720** (main, NEGATIVE as sealed): the thread fixes the point. Every ratio within 1.80 on L⁵RLR²'s fixed line at its
