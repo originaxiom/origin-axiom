@@ -1,0 +1,3 @@
+A: H1 True H2 False H3 False
+B: K1 True K2 False K3 False K4 False
+C1 True C2 True
