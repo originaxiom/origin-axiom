@@ -1,0 +1,10 @@
+Higgs at 1/2 + 3.08i (i, j, k): |.| 0.030, 0.468, 0.468 (normalised 0.045, 0.706, 0.706); phases -158, -22, -113 deg; |h.h|/|h|^2 = 0.005
+fine_scan, main's readings with the Clebsch: best six 1.196 at tau [0.5, 3.08], line [0.4, 0.1], L_max
+  profile: 2.88:2.32 2.90:2.12 2.92:1.94 2.94:1.77 2.96:1.61 2.98:1.47 3.00:1.39 3.02:1.33 3.04:1.28 3.06:1.23 3.08:1.20 3.10:1.28 3.12:1.36 3.14:1.46 3.16:1.57 3.18:1.72 3.20:1.89 3.22:2.08 3.24:2.28 3.26:2.51 3.28:2.76
+  best at Re tau = 0.0: 1.397 at Im 3.1, line [0.4, 0.5], L_max
+  best at Re tau = 0.25: 1.227 at Im 3.0, line [0.4, 0.1], L_max
+  best at Re tau = 0.5: 1.196 at Im 3.08, line [0.4, 0.1], L_max
+readings_scan at 1/2 + 3.1i, (2/5, 1/2), L_max: St-S: 0.9934, 0.9956, 0.0663; St-St: 0.0330, 0.0361, 0.0012; S-S: 0.0970, 0.0645, 0.0002
+  the up sector's m1/m3 with S over the data: 571
+allst_scan, S~ for every sector with the Clebsch: best nine 1.983 at [0.5, 2.55], line [0.4, 0.5], L_2, J 3.18e-06
+  calibration of the nine (fraction of random targets fitting as well): (a) sealed draw order 0.0003; (b) main's order 0.0003; (c) best of the three one-reading models 0.0020 (data 1.983); (d) best of all 27 combinations 0.0053 (data 1.983)
