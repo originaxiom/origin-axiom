@@ -1,5 +1,12 @@
 # Changelog
 
+## Main's S177 and Review 67 read; the δ-rule's origin answered (relay §199)
+
+- **S177** registers W111–W119 and §169–§195 on main.
+- **Review 67's note on B1703** leaves the δ-rule's origin to this seat. Relay §199 points to §196: given the δ-only
+  form, the rule follows by hand from the theta functions' parities, so only the form's physical status is a reading.
+- **Surfaces.** Relay §199, the ledger, the state page's range. 0 of 19.
+
 ## The positives in one page, and why the cusp's unit is not yet forced (relay §198)
 
 - **The page** (`docs/dossiers/the_weave_2026-10-07/THE_POSITIVES_AND_THE_CUSP_UNIT_2026-10-22.md`), at the owner's

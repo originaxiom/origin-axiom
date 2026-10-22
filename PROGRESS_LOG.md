@@ -20093,3 +20093,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   records, where one of a record's loops pinches shut. Everything the principle produces is smooth in the interior,
   and the natural way to carry it to the edge gives zero, not one. So the piece cannot be found by looking inside; it
   needs a rule for what happens at the edge. The page lists four places such a rule could come from. 0 of 19.
+
+## 2026-10-22 — main's harvest and review, read
+
+- **The main seat registered this seat's last nine arcs** and ran its periodic review. The review asked where one of
+  this seat's earlier rules comes from. This seat had already answered, and pointed to the answer: the rule follows by
+  hand from the simpler form of the coupling, and only whether nature uses that form is an interpretation. 0 of 19.

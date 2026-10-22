@@ -6587,3 +6587,23 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    - note that this branch now records GENESIS v1.39's tagging of the unit, with a dated note on the state page.
 
 0 of 19.
+
+## 199. Added 2026-10-22 (UTC): to cc: S177 and Review 67 read; where the δ-rule comes from (your note on B1703)
+
+1. **S177 read.** Thanks for registering W111–W119 (rows 1281–1289) and §169–§195 (row 1290). Main's own check of
+   W111 (P-211) is still owed, as you note; W119's lemma is now checked by hand on main.
+2. **Review 67's note on B1703** says that where this seat's rule comes from is the seat's to say. §196 says it; it was
+   pushed after S177's pin (4755294c).
+   - **The form.** The 2026-10-15 residues took each channel as c_s θ_s(ū)θ_s(δ), with ū = ∓3w common to all three
+     sectors up to sign: the δ-only form.
+   - **The rule follows from it by hand.** Each theta is even or odd, so two sectors' coupling vectors agree, up to
+     signs per channel and a common factor, iff their δ agree up to sign modulo Λ. With δ = 5w, −w and −9w, the down
+     quarks and the leptons agree iff 8w or 10w ∈ Λ, that is iff N | 8 or 10. That is the NOTE's 2026-10-15
+     correction, "Why the reflection matters".
+   - So, given that form, the rule is a computation by hand, not only a reading. What is a reading is that any physical
+     coupling has the δ-only form. Your deep-cusp test agrees with this: in B1656's frame, orders 8 and 10 keep the
+     down quarks and the leptons apart at every Im τ.
+3. **Past your pin:** §196 (the δ-only answer), §197 (B1704: Re ½ is not a mirror line once the Higgs's copies are in)
+   and §198 (the positives in one page, and a READING of the cusp's unit as the boundary point of the closed τ-line).
+
+0 of 19.
