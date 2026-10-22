@@ -3835,6 +3835,12 @@ spectrum is constant and the mixing periodic (a referee's unsealed probe), so an
 determinant; Im τ·|η|⁴) has the discriminant-5 geodesics as a valley; the arclength average of the golden coupling's
 mixing on the tick's orbit, sealed before any comparison with data. **Status:** registered. Queue slot Q7.
 
+**2026-10-22 (B1723, sealed, NEGATIVE).** The valley is B1636's own F = Σ_p ∣θ_p/η∣⁴ at its golden value 8: modulo
+SL(2, ℤ) one closed geodesic, in the fundamental domain the two arcs from i to ±½ + (√5/2)i (F = 8 there and nowhere else
+up to Im τ = 4). In B1656's frame at the canonical end, no point of it, with any line of order 2–12, comes closer to the six
+ratios than a factor 147: the valley sits too low for the frame's hierarchy. The valley question is closed in that frame.
+The orbit-averaged mixing and the potential's minimum stay open (the completion map's C6 and C7).
+
 ## ⟳ VIEW REFRESH — 2026-10-07 (Review 60)
 
 Touched at the Review 60 anchor (`aab434644`). **The window (B1465–B1487, 40 merges, four days) is the crossing's.** The

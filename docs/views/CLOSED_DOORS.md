@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**834 recorded closures — of which 667 are CLASSIFIED by mechanism and
+**835 recorded closures — of which 668 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -117,6 +117,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed (B1713; cd294dccf): orders 1-7 best factor 2.33 (order 5, d = e), 14.8% of random hierarchies as good, chi2 162; the CKM moduli within 14% (order 11, tau = 1/2 + 2.8i) but 59.5% of random hierarchical mixings matched as well; masses and mixing together 3.59, 21.6% as good.` | 1 |  |
 | `Sealed (B1720; a93ff339a): best 1.80 (L^5RLR^2 at its apex, Im tau 2.993, on the order-28 line it fixes), but 1.65% of 4000 random hierarchies fit as well (bar 1%); chi2 79.4; the mixing generic (32.6%); masses and mixing apart (6.5).` | 1 |  |
 | `Sealed (B1722; a9a5d46f9): the measure-weighted mean log-misfit of a thread drawn from each measure is matched by 25.4% (uniform) and 21.0% (action) of random hierarchies; both measures concentrate on short threads whose apexes sit too low; the best class L^5RLR^2 carries 0.27% and 0.65% of them.` | 1 |  |
+| `Sealed (B1723; 23f8a7621): over 49 points of the valley (the arcs from i to +-1/2 + (sqrt5/2) i) and 265 lines of order 2-12, the best row puts the six ratios only within a factor 147 (26.6% of random hierarchies as good; chi2 3891); every ratio too large, the median first-to-third ratio 10^-1.1 against 10^-3 to 10^-5: the valley (Im tau <= 1.118) sits too low for the frame's hierarchy.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

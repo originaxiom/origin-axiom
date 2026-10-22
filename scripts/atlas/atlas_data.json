@@ -13385,6 +13385,29 @@
    "status": "open",
    "domain": "dynamics"
   },
+  "B1723": {
+   "slug": "the golden valley",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "L254"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 11,
+   "status": "open",
+   "domain": "arithmetic"
+  },
   "B172": {
    "slug": "combination gap resolution",
    "motifs": [

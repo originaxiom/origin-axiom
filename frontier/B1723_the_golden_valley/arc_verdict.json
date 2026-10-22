@@ -1,0 +1,28 @@
+{
+ "id": "B1723",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1636",
+  "B1638",
+  "B1656",
+  "B1667",
+  "B1700",
+  "B1720"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the fibre given Lambda; B1656's four-channel coupling at B1667's canonical end; the end-data Higgs DR; tau on the golden valley",
+  "object": "the six charged-fermion ratios and the CKM moduli at M_Z, with no continuous number free but the position along the valley",
+  "reach": "class",
+  "hypotheses": "the valley of (F - 8)^2, F = sum_p |theta_p/eta|^4 (B1636), in the fundamental domain: the two arcs from i to +-1/2 + (sqrt5/2) i; 49 points; 265 lines of order 2-12 up to sign; L read from B1667's Re tau = 1/4 column"
+ },
+ "claim_one_line": "THE GOLDEN VALLEY (the completion map's C3, L254, P-069; sealed 23f8a7621, sha256 3850a2f9; NEGATIVE as sealed -- the six-ratio cells fail, the mixing comes within a factor 1.51 near i but generically, the control holds; outputs committed unread at 8951e7afc): with tau anywhere on the valley of the weave's modular-invariant F = sum_p |theta_p/eta|^4 at its golden value 8 (the discriminant-5 locus; in the fundamental domain the two arcs from i to +-1/2 + (sqrt5/2) i) and any line of order 2-12, the best row puts the six ratios only within a factor 147 (26.6% of random hierarchies as good; chi2 3891) -- every ratio too large, the median first-to-third ratio 10^-1.1 against the data's 10^-3 to 10^-5: the valley sits too low (Im tau <= 1.118) for the frame's hierarchy, which needs Im tau near 3 -- so no functional whose valley is the golden locus produces the six ratios in this frame, and C3 is closed in it; the mixing's best (1.51 at tau = -0.018 + 1.009i) is matched by 30% of random mixings. After the read (labelled): the Georgi-Jarlskog lepton factor 3 does not rescue it (138). 0 of 19.",
+ "weave_or_thread": "weave (the valley is SL(2, Z)-invariant: one closed geodesic, the tick's)"
+}

@@ -1,5 +1,26 @@
 # Changelog
 
+## S190 THE GOLDEN VALLEY (B1723, NEGATIVE as sealed; P-069, L254; the completion map's C3); THE WEB SEAT'S TWO INGREDIENTS REGISTERED (P-293–P-296) (2026-10-22)
+
+- **The sealed test** (`23f8a7621`, sha256 3850a2f9; outputs committed unread at `8951e7afc`).
+  - **The valley:** B1636's modular-invariant F = Σ_p ∣θ_p/η∣⁴ takes its golden value 8 on the discriminant-5 locus: modulo SL(2, ℤ) the tick's closed geodesic, in the fundamental domain the two arcs from i to ±½ + (√5/2)i. So (F − 8)² is a functional whose valley is that locus.
+  - **The census:** 49 valley points × 265 lines of order 2–12, both horocycles, three up readings, in B1656's frame at B1667's canonical end with ∂R: 77 910 mass rows, no continuous number free but the position along the valley.
+  - **T1 fails:** the best row is only within a factor 147 (τ = 0.094 + 1.042i, order 11). T2 fails (26.6% of random hierarchies as good) and T3 fails (χ² 3 891). Every ratio is too large: the median first-to-third ratio is 10⁻¹·¹, against the data's 10⁻³ to 10⁻⁵.
+  - **The mixing:** K1 holds (1.51, next to i), but K2 fails (30.2% of random mixings as good); K3 and K4 fail.
+  - **The control C1 holds** (1.6 × 10⁻¹³; 6.2 × 10⁻¹⁴).
+  - **Read as written before the run:** the valley sits too low (Im τ ≤ 1.118) for the frame's hierarchy, so no functional whose valley is the golden locus produces the six ratios in this frame. C3 is closed in it; the potential's minimum stays C6 and C7.
+  - **After the read (labelled):** the Georgi–Jarlskog lepton factor 3 gives 138, so no lepton factor rescues the valley.
+  - Routed into B738's kill graph. L254 and P-069 carry the closure; the potential's minimum stays C6 and C7.
+- **The web seat's two ingredients, read and recalibrated** (HARVEST_LEDGER rows 1303–1306; P-293).
+  - **Their sealed test** on main's frame (B1720's instrument unchanged; 8 512 points at Re τ ∈ {0.1, 0.4}) added the Georgi–Jarlskog factor 3 on the leptons and one Higgs reading (S̃) for every sector. Every cell held: the six within 1.51, the nine (with ∣V_us∣, ∣V_cb∣, ∣V_ub∣) within 2.09.
+  - **Main's audit-room recalibration** (labelled, not banked) reproduces their numbers exactly, then gives every random target the same menu of ingredients the choice had, over 20 seeds. The six survives every menu: 0.29% with the seat's four configurations, 0.58% with the lepton factor free, 0.50% with all 27 readings, 20 of 20 seeds at or below 1% each. The nine does not: 0.98% (11 of 20), 1.95% and 6.4%.
+  - **So the frame's mass bottleneck was m_μ/m_τ.** Without the lepton factor the same rows give 14%. J and P-094's double ratio still miss.
+  - **Next (P-293):** verify the census's rows with main's instrument, then main's own sealed replication on rows nobody has computed, before C5.
+- **The line's order as a quotient of hypercharge** (P-296; read off B1723's stored rows). A field of charge q on a line of order N gets the twists (qα, 2qb), so the frame sees 6Y mod N. Down = leptons iff N ∣ 4 (Y_e = Y_d) or N ∣ 5 (Y_e = Y_dᵀ, minimal SU(5)), and up = down iff N ∣ 6, each to 10⁻¹³. The Georgi–Jarlskog factor is the textbook correction to the relation the order-5 lines impose. The proof is queued.
+- **Registered:** P-293 (verify and replicate), P-294 (derive the lepton factor 3), P-295 (derive the reading rule; the SM seat's W129 first), P-296 (the mod-N law's proof). The SM seat's W125–W129 rowed (row 1307); W126 bears on C10. The owner's letter of 2026-10-22, sent at the owner's word, logged without names (row 1306).
+- **Landing suite.** full suite 7 598 passed, 2 failed, 68 skipped (1:09:08, -n 8). Both failures are B805's attachment locks (P-239).
+- 0 of 19.
+
 ## S189 WHICH THREAD? (B1722, NEGATIVE as sealed; P-285; the completion map's C2) (2026-10-22)
 
 - **The sealed test** (`a9a5d46f9`, sha256 120707ad; output committed unread at `7f5b6f599`). It reads B1720's stored rows (sha256 pinned), so no new mass computation.

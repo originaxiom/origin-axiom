@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1451** |
-| words of findings prose | **1,160,006** |
-| test lock files referenced | **866** |
-| arcs carrying an authored verdict | **1451** (100.0 %) |
-| recorded closures | **834** (667 classified, 167 routed-only) |
+| research arcs with findings | **1452** |
+| words of findings prose | **1,160,997** |
+| test lock files referenced | **867** |
+| arcs carrying an authored verdict | **1452** (100.0 %) |
+| recorded closures | **835** (668 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 989 |
-| NEGATIVE | 358 |
+| NEGATIVE | 359 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 104 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 105 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 GENESIS v1.54 (a correction amendment; the integrity sweep of 2026-10-22, P-291): v1.53's three overreaches corrected against their sources -- FK10's closed 4d vacua close at 12 chi(O_S) strings (not '12 or 24') and the triplet's count there is given the SM seat's Leray reduction (B1710); FK9's W57 sentence tagged as the seat's, unverified on main (row 1099, P-091, sm:W57); FK12's CP sign 'would have to be chosen', the conjugate-vacua reading the web seat's, P-277 open. No status cell and no price changes; the history is not rewritten. 0 of 19.  
 `B1721_genesis_v1_54/FINDINGS.md`
 
-**NEGATIVE — `B1722`** (825 words, 1 locks)  
-WHICH THREAD? (the completion map's C2, P-285; sealed a9a5d46f9, sha256 120707ad; NEGATIVE as sealed -- both cells fail; output committed unread at 7f5b6f599): on B1720's census, a thread drawn from the record's own measures fits the six ratios no better than random hierarchies -- the weave's uniform word measure (B1629) gives a measure-weighted mean log-misfit 3.85 against a random median 4.62, with 25.4% of random hierarchies as good, and the action weight at c = 6 (e^{-Vol/pi}) 3.04 against 3.77, 21.0% -- because both concentrate on short threads (LR, LLR, LRR, LLLR) whose apexes sit too low for a hierarchy, while the best class L^5RLR^2 carries 0.27% and 0.65% of them. After the read (labelled; the completion map's C4, P-286): the pull-back walk's limit is a uniform random word (digits i.i.d. 2^-k at p = 0 and 1/2, consecutive digits independent to 0.003), so a thread read from it is drawn from the uniform measure, which is flat within each length -- the walk selects at most a length, never a thread (L^5RLR^2 is 1 of 54 at length 9). The selection needs a measure not on record, a dynamics other than the walk, or a principle beyond the measure (P-139). 0 of 19.  
-`B1722_which_thread/FINDINGS.md`
+**NEGATIVE — `B1723`** (991 words, 1 locks)  
+THE GOLDEN VALLEY (the completion map's C3, L254, P-069; sealed 23f8a7621, sha256 3850a2f9; NEGATIVE as sealed -- the six-ratio cells fail, the mixing comes within a factor 1.51 near i but generically, the control holds; outputs committed unread at 8951e7afc): with tau anywhere on the valley of the weave's modular-invariant F = sum_p |theta_p/eta|^4 at its golden value 8 (the discriminant-5 locus; in the fundamental domain the two arcs from i to +-1/2 + (sqrt5/2) i) and any line of order 2-12, the best row puts the six ratios only within a factor 147 (26.6% of random hierarchies as good; chi2 3891) -- every ratio too large, the median first-to-third ratio 10^-1.1 against the data's 10^-3 to 10^-5: the valley sits too low (Im tau <= 1.118) for the frame's hierarchy, which needs Im tau near 3 -- so no functional whose valley is the golden locus produces the six ratios in this frame, and C3 is closed in it; the mixing's best (1.51 at tau = -0.018 + 1.009i) is matched by 30% of random mixings. After the read (labelled): the Georgi-Jarlskog lepton factor 3 does not rescue it (138). 0 of 19.  
+`B1723_the_golden_valley/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

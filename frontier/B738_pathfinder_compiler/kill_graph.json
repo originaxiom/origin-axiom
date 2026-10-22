@@ -11833,5 +11833,27 @@
    "reach": "class"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1723",
+  "claim_killed": "That a modular-invariant functional whose valley is the golden (discriminant-5) locus of the weave's F = sum_p |theta_p/eta|^4 puts tau where the frame produces the six charged-fermion ratios.",
+  "kill_form": "Sealed (B1723; 23f8a7621): over 49 points of the valley (the arcs from i to +-1/2 + (sqrt5/2) i) and 265 lines of order 2-12, the best row puts the six ratios only within a factor 147 (26.6% of random hierarchies as good; chi2 3891); every ratio too large, the median first-to-third ratio 10^-1.1 against 10^-3 to 10^-5: the valley (Im tau <= 1.118) sits too low for the frame's hierarchy.",
+  "hatch": "a functional whose valley crosses Im tau near 3 (where B1712, B1713, B1720 and the web seat's two-ingredient census come closest), another frame (B1636's older coupling), or the potential's minimum itself (C6, C7)",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-22), for tests/test_b833_negative_routing.py",
+  "note": "The golden spectrum stays B1636's, in the older coupling. The lepton factor 3 (after the read, labelled) gives 138, so no lepton factor rescues the valley; its failure is the hierarchy's depth in every sector.",
+  "faces_consulted": [
+   "B1636",
+   "B1638",
+   "B1720"
+  ],
+  "fact_computed": "77910 mass rows on the valley and their calibration against 4000 random hierarchies and mixings, by the sealed instruments (8951e7afc)",
+  "scope": {
+   "frame": "B1656's four-channel coupling at B1667's canonical end, DR",
+   "hypotheses": "the valley of (F - 8)^2 in the fundamental domain; lines of order 2-12",
+   "object": "the six charged-fermion ratios and the CKM moduli",
+   "reach": "class"
+  },
+  "weave_or_thread": "weave"
  }
 ]

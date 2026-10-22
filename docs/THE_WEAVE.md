@@ -849,4 +849,9 @@ found with B1635's sealed instrument.
   - Both measures favour short threads, whose apexes sit too low for a hierarchy.
   - The selection needs something not on record: a measure weighting high-run threads, a dynamics (the walk's limit
     point, C4), or a principle (P-139).
+- **The golden valley is too low (B1723, sealed, NEGATIVE).**
+  - The weave's modular-invariant F = Σ∣θ_p/η∣⁴ takes its golden value 8 on one closed geodesic, the tick's. A functional
+    with that valley would hold τ on it.
+  - On the valley (Im τ from 1 to 1.118), with any line of order 2–12, the six ratios come no closer than a factor 147.
+    The frame's hierarchy is too shallow there: it needs Im τ near 3.
 
