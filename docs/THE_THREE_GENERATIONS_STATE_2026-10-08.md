@@ -106,6 +106,9 @@ Under the owner's rulings, the table's rows split into two groups:
     counterterm, a sign twist ε₁₂, or a Higgs-like pair (W132). GENESIS PF1 as the web seat reads it (PF1-W), on the
     families' joint coupling, excludes every untwisted Higgs and keeps finitely many twisted ones, 3 lines in each
     twisted space where the count is three (W133; its P2 failed as predicted).
+  - *Added 2026-10-22.* The bridge to the seed's E₈: the weave's triplet fits E₈ ⊃ E₆ × SU(3)'s family slot only at
+    an odd number of twenty-fourths of the cusp unit, never at the empty end or GENESIS FK10's whole unit. Three chiral
+    27s need 17/24 of a unit or more, so the bridge does not force three (W134).
 - **No index on a thread or a cover:** NEGATIVE (main's B1604).
 - **The E₈ frames on the fibre give at most two complete generations:** NEGATIVE (W23).
 - **No six-dimensional object the weave forces gives three:** NEGATIVE (W24).
@@ -924,4 +927,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W119 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§220).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§221).

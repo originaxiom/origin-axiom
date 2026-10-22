@@ -7726,6 +7726,76 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W134. The bridge (the owner's question how the seed's E₈ and the weave's three act together): the weave's flavour triplet can be the family SU(3) of E₈ ⊃ E₆ × SU(3) only at a fractional end datum, an odd number of twenty-fourths of the cusp unit. E₈ excludes both the empty end and the whole unit. At the least such datum there is at most one chiral 27; three need at least 17/24 of a unit (`the_bridge_e6_su3.py`; `W134_RULE.md`)
+
+**Why.**
+- The owner asked why the seed's side, which gives the Standard Model's form from E₆ inside E₈, and the weave, which
+  gives the three, have not been shown to act together (2026-10-22).
+- The record's bridges so far each broke at a named place: main's E₈ ⊃ E₆ × SU(3) on one thread (vector-like, no
+  Yukawa); E₈ bundles on the fibre (W23, at most two); fluxes (W29, W31).
+- This arc puts the weave's triplet ρ, on the weave's own surface where W46 and W47 count it, into E₈'s family slot.
+
+**The order.**
+- The rule (`W134_RULE.md`, 2ff8a2c55) was committed and pushed before the script existed.
+- The script (2bb332c13) was committed before its one run, which took 3 s. Before that commit it was only compiled.
+- Its output (496c480d3) was committed unread, then read once.
+- A post-hoc pass (918b49d30), labelled, resolved the two failed instrument checks.
+- **Disclosed.** While that pass was written, a typing slip re-executed W133's script after W133 was recorded. It
+  rewrote its JSON byte-identically (git shows no change), and nothing was read from it.
+
+**The result (COMPUTED, exact; E2 and E3 as predicted; E0 and E1 FAILED as run on one instrument check each,
+resolved post hoc).**
+- **E0, the instrument. FAILED as run.**
+  - E₈'s 240 roots and the 72 orthogonal to A₂ (E₆, closed under root sums) held.
+  - The generalized index reproduced W47's K5 table at m = 24n, for every twist, condition and n ∈ {−1, 0, 1}.
+  - The script took every root on the first three coordinates as A₂'s. That gives 12, adding the six ±(eᵢ + eⱼ), so
+    the other roots counted 26 per weight.
+  - *Post hoc:* with A₂ the span of e₁ − e₂ and e₂ − e₃ (6 roots), the other 162 sit on the six weights of 3 ⊕ 3̄,
+    27 each, so 248 = (78, 1) ⊕ (1, 8) ⊕ (27, 3) ⊕ (27̄, 3̄).
+- **E1, the obstruction. FAILED as run on its identification check;** every other check held.
+  - det(ρ ⊗ ε_r) = χ_η^{9+3r} on S and T, and it is never trivial for an allowed r.
+  - The det-1 twists of ρ are χ_η^k with k ∈ {5, 13, 21}. Each has ρ′(S)² = 1, so it allows only the weights 0 and 2,
+    never the forced 3/2.
+  - The failed check compared W123's ρ entry by entry with W46's T (the index's), which differ by up to 1.42.
+  - *Post hoc:* the two are equivalent. The intertwiner space is one-dimensional and invertible, with equal traces on
+    S, T and ST, so the determinant characters are those of the index's T.
+- **E2, the admissible data (as predicted).**
+  - The dressed family part is in SU(3) iff m ≡ 5 − r (mod 8), checked exactly for every r and every |m| ≤ 24.
+  - Every dressed T is allowed at its weight 3/2 + m/2.
+  - **Neither m = 0 nor m = ±24 is admissible.** The least data are m = 1 (r ≡ 4 mod 8) and m = −3 (r ≡ 0 mod 8).
+- **E3, the count (as predicted).**
+  - The χ formula at the dressed weights and the closed form by floors agree on every twist, condition and
+    m ∈ [−24, 24].
+  - |I| ≤ 1 at the least admissible datum, and |I| ≤ 2 for admissible |m| ≤ 16.
+  - |I| = 3 at exactly the rule's twelve data: (4, 17, 0), (4, −23, L6), (12, 17, 0), (12, −23, 0), (12, −23, L6),
+    (20, −23, L6), (0, 21, 0), (0, 21, L6), (8, 21, 0), (8, 21, L6), (8, −19, 0), (16, 21, L6).
+- **E4, the read-out.**
+  - The least data giving three are (r, m) = (4, 17) and (12, 17) at condition 0: 17/24 of a unit, with ε₄ or ε₁₂.
+  - *A READING by hand on the Yukawas.* E₈'s cubic on (27, 3) is d_abc ε_ijk, symmetric in the 27s and
+    antisymmetric in the family index. On the surface the zero modes pair only to (1, 0)-forms (W131). For commuting
+    fields that contraction vanishes, as main's vanishing superpotential does (B1271). So a tree-level mass needs the
+    puncture or a further datum.
+
+**What it shows (the rule's fixed meaning, its first branch, read after E0's and E1's checks were resolved post hoc).**
+1. **The seed's E₈ and the weave's three can be joined in E₆ × SU(3) only at a fractional end datum.** That is an odd
+   number m of twenty-fourths of the cusp unit, with m ≡ 5 − r (mod 8).
+   - E₈'s determinant condition excludes both the empty end and the whole unit, GENESIS FK10's unit included. So the
+     record's three-generation route (one whole unit) cannot sit in E₈'s family slot as it stands.
+   - The dressing η^m couples the 27s to τ. It is the same kind of absorber W132 found for the moves' SU(2) leftover.
+2. **The bridge does not force three.** At the least admissible datum it gives at most one chiral 27. Three chiral 27s
+   appear only at 17/24 of a unit or more (21/24, −19/24, −23/24): near the whole unit, but never at it.
+3. **So the open question moves** from "is the unit forced?" (GENESIS FK10) to "what fixes m?". The dictionary
+   (GENESIS FK11) gains one entry: the 27's family index is the weave's triplet, with an odd twenty-fourths datum.
+4. **What it does not give.** Tree-level Yukawas in this frame vanish on the surface (E4's READING), so the masses
+   still need the puncture's datum (B1651) and a four-dimensional field (W128).
+
+**Weave or thread.** WEAVE-type: the weave's own surface, the whole triplet in the family slot, every allowed twist,
+all four conditions, and every datum |m| ≤ 24.
+
+**Status.** COMPUTED, exact. One run: E2 and E3 as predicted; E0 and E1 failed as run on one instrument check each,
+both resolved post hoc and labelled. A stray re-execution of W133's script is disclosed. No data, so not a trial.
+0 of 19.
+
 ## W133. The web seat's PF1-W, its reading of GENESIS PF1, on the Higgs (relay §217 (b), taken at the owner's word): read on the families' joint coupling F_iF_jF_k, it excludes every untwisted Higgs at every end datum, the record's three-generation Higgs among them. P2 FAILED as predicted: the twisted spaces are not emptied. Each keeps finitely many zero-free lines, exactly as many as its dimension. In h(12, 1) and h(20, 1), where the count is three, these are 3 lines each, and the explicit sections η^{3−a}(−θ₂^a, −θ₄^a, iθ₃^a), a ≡ 2 (mod 8), are among them (`the_zero_free_higgs.py`; `W133_RULE.md`)
 
 **Why.**
@@ -11387,6 +11457,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W134 | COMPUTED, exact (the rule first; one run; E2 and E3 as predicted; E0 and E1 failed as run on one instrument check each, resolved post hoc); WEAVE-type | the bridge: the weave's triplet ρ in the family slot of E₈ ⊃ E₆ × SU(3) on the weave's surface: det(ρ ⊗ ε_r) = χ_η^{9+3r} is never trivial, and the det-1 twists allow only even weights, so no flat SU(3) family carries the matter at the forced weight 3/2; a dressing η^m (m twenty-fourths of the cusp unit) makes it SU(3) iff m ≡ 5 − r mod 8, so E₈ excludes both the empty end and the whole unit (GENESIS FK10's); at the least datum (m = 1 or −3) at most one chiral 27, for \|m\| ≤ 16 at most two, and three at exactly twelve data, the least at 17/24 of a unit (ε₄ or ε₁₂, condition 0); the tree-level Yukawa vanishes on the surface; the question moves from "is the unit forced?" to "what fixes m?". 0 of 19 |
 | W133 | COMPUTED, exact (the rule first; one run after a failed launch, disclosed; P0 and P1 as predicted; P2 FAILED as predicted; three post-hoc passes, labelled); WEAVE-type | the web seat's PF1-W, its reading of GENESIS PF1, on the families' joint coupling N(F) = F_iF_jF_k: N carries χ_η^{21+3r}, so no untwisted Higgs is admissible at any end datum, the record's three-generation Higgs (W123, B1700, main's C8) among them; but the twisted spaces with one unit are not emptied (predicted: only η⁴R): the cubic system N′(g) = η^{9−3r} is zero-dimensional, square by modularity, with 3^{dim} solutions with multiplicity, which are exactly dim h lines (1, 4, 3, 3 in h(4, 0), h(4, 1), h(12, 1), h(20, 1); exact, post hoc); the explicit sections η^{3−a}(−θ₂^a, −θ₄^a, iθ₃^a), a ≡ 2 mod 8, give 6 of the 11 lines; in h(12, 1) and h(20, 1) the count is three; so PF1-W forces a twisted Higgs and cuts each space to finitely many lines, 3 in each three-generation space, but selects no single one. 0 of 19 |
 | W132 | COMPUTED, exact (the rule first; one run; every cell as predicted); WEAVE-type | the edge's twenty-fourths and the SU(2) remainder: the cusp's unit O(nδ) = η^{−24n} carries no phase, so consistency of the moves' phases never forces GENESIS FK10's unit; with n copies SU(2) closes only for n even (s_Q = s_L) or n ≡ 0 mod 4, so three generations (n = 1) never close it alone; a twist frees all three anomalies for exactly 8 of 64 sign assignments (s_Q = s_L, s_u = s_d, s_e = s_ν; 5832 twist vectors each), every pattern reached with ε₁₂, which keeps the count three at every condition; τ's counterterm η^{−n_G} absorbs every remainder; a pair of weak doublets with the Higgs's quantum numbers closes SU(2) and keeps gravity on B1674's two with s_Q = s_L (m_u + m_d ≡ 12), and closes both on two more assignments (read-out); a READING: the remainder that does not cancel is carried by τ or a Higgs-like pair, not by the unit; binding only if the moves are gauged. 0 of 19 |
 | W131 | COMPUTED (types exact; residues at 40 digits and three τ; the rule first; one run; every cell as predicted); WEAVE-type | the forced field and the chiral three: the Szegő kernels of the three even spin structures (residue 1, odd, one non-trivial character of H₁ each) carry the zero modes; W130's Φ*_h = c̄y⁻²Nᵀ annihilates them, every pairing linear in Φ or its square root is a (1, 0)-form, so no bulk coupling exists; the field is blind to parity, so different families cannot pair; the point coupling at the puncture is the residue of S_aS_b, which is 0 (each kernel is odd; the residue theorem agrees), \|Y\| ≤ 3.3 × 10⁻⁴³ at every τ; so the field the principle forces is silent toward the three and is not the mass-giver; a non-zero coupling needs a parity-carrying (0, 1) datum at the puncture (B1651, B1654), not forced. 0 of 19 |

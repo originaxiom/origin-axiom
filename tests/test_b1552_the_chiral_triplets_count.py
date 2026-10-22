@@ -4084,3 +4084,32 @@ def test_w133_the_zero_free_higgs():
     assert PH.coords(W.basis(12, 1), lines) is not None
     Np = W.nprime(lines[W.E1], lines[W.E3], lines[W.E7])
     assert W.same(Np, W.eta_pow(9 - 36).scale(Fraction(1, 16)))
+
+
+def test_w134_the_bridge_e6_su3():
+    """W134, the weave's triplet in E8's family slot: cells as recorded (E0 and E1 failed as run on one instrument
+    check each, resolved post hoc); in process, the admissible data m = 5 - r mod 8 and the twelve data with |I| = 3"""
+    import contextlib
+    import importlib.util
+    import io
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_bridge_e6_su3.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"E0": False, "E1": False, "E2": True, "E3": True}
+    assert [k for k, v in d["E0"]["checks"].items() if not v] == ["A2's own 6 roots",
+                                                                 "the other 162 sit on the six weights of 3 + 3-bar, "
+                                                                 "27 each"]
+    assert [k for k, v in d["E1"]["checks"].items() if not v] == ["rho(S), rho(T) are the record's T"]
+    ph = json.loads((here / "the_bridge_e6_su3_posthoc.json").read_text(encoding="utf-8"))
+    assert ph["Q1"]["holds"] and ph["Q2"]["equivalent (an invertible intertwiner)"]
+    sys.path.insert(0, str(here))
+    spec = importlib.util.spec_from_file_location("w134_lock", here / "the_bridge_e6_su3.py")
+    W = importlib.util.module_from_spec(spec)
+    with contextlib.redirect_stdout(io.StringIO()):
+        spec.loader.exec_module(W)
+    R = W.the_reps()
+    assert all(W.admissible(r, m) == ((m - 5 + r) % 8 == 0) for r in W.ALLOWED for m in W.MS)
+    tab = {str(r): [m for m in W.MS if W.admissible(r, m)] for r in W.ALLOWED}
+    least = {str(r): min(tab[str(r)], key=lambda m: (abs(m), m)) for r in W.ALLOWED}
+    _, ok3, threes = W.E3(R, tab, least)
+    assert ok3 and threes == W.PREDICTED_THREES

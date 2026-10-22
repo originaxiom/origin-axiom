@@ -20351,3 +20351,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   calculation. It puts the three families into the slot the large symmetry group has for them, and asks what that
   demands at the edge of the shape and how many families come out.
   0 of 19.
+
+## 2026-10-22 — the join, tested
+
+- **Putting the three families into the large symmetry group's family slot works only at a price.** The edge of the
+  shape must carry an odd number of twenty-fourths of the extra unit, never none and never the whole unit. At the
+  smallest such amount there is at most one family. Three families appear only at about three quarters of a unit or
+  more, so the join does not by itself produce three.
+- **Two of the checks failed** because the code defined two things wrongly. Both were fixed and labelled as checks made
+  after the result was read. A stray rerun of an earlier test changed nothing, and is noted.
+- **Next:** the owner pointed out that the record has more pieces than have ever been computed together. The next test
+  puts all of them on one object at once.
+  0 of 19.

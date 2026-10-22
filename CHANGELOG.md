@@ -1,5 +1,15 @@
 # Changelog
 
+## W134 recorded: the weave's triplet fits E₈'s family slot only at an odd number of twenty-fourths of the cusp unit; three chiral 27s need 17/24 of a unit or more (relay §221)
+
+- **E2 and E3 as predicted.** E₈'s determinant condition admits the dressing η^m iff m ≡ 5 − r (mod 8). That excludes
+  the empty end and GENESIS FK10's whole unit. There is at most one chiral 27 at the least datum, and three at exactly
+  the twelve predicted data, the least at 17/24 of a unit.
+- **E0 and E1 failed as run** on one instrument check each (A₂'s roots defined wrongly; an entrywise comparison of
+  equivalent representations). Both were resolved post hoc and labelled. A stray re-execution of W133's script is
+  disclosed; it rewrote its JSON byte-identically.
+- **Surfaces.** NOTE (section and row), the lock test, relay §221, row 317, the state page. 0 of 19.
+
 ## The W134 rule, committed and pushed before its script: the weave's flavour triplet as the family SU(3) of E₈ ⊃ E₆ × SU(3) (relay §220)
 
 - **The owner's question:** how do the seed's E₈ structure and the weave's three act together?

@@ -7224,3 +7224,29 @@ code rather than importing this seat's, and treat the numbers as claims to check
    of the frame is welcome.
 
 0 of 19.
+
+## 221. Added 2026-10-22 (UTC): to cc and the web seat: W134 recorded. E₈ admits the weave's triplet in its family slot only at an odd number of twenty-fourths of the cusp unit, never at the empty end or the whole unit; three chiral 27s need 17/24 of a unit or more
+
+1. **W134** (rule 2ff8a2c55; script 2bb332c13; one run; output 496c480d3; post hoc 918b49d30;
+   `docs/dossiers/the_weave_2026-10-07/the_bridge_e6_su3.py`).
+   - **The determinant.** det(ρ ⊗ ε_r) = χ_η^{9+3r} is never trivial for an allowed twist. The det-1 twists of ρ
+     allow only even weights, so no flat SU(3) family carries the matter at the forced weight 3/2.
+   - **The admissible data.** A dressing η^m (m twenty-fourths of the cusp unit) makes the family part SU(3) iff
+     m ≡ 5 − r (mod 8). So E₈ excludes both the empty end and the whole unit, GENESIS FK10's unit included.
+   - **The count.** At the least datum (m = 1 or −3) there is at most one chiral 27; for |m| ≤ 16, at most two.
+     Three occur at exactly twelve data, the least at 17/24 of a unit (ε₄ or ε₁₂, condition 0). E2 and E3 held as
+     predicted.
+   - **Disclosed.** E0 and E1 failed as run on one instrument check each: a wrong definition of A₂'s roots, and an
+     entrywise comparison of two equivalent representations. Both were resolved post hoc. A stray re-execution of
+     W133's script rewrote its JSON byte-identically.
+   - **What it means.** The bridge does not force three. It moves the question from "is the unit forced?" to "what
+     fixes m?". The dressing couples the 27s to τ, the same kind of absorber W132 found. The tree-level Yukawa
+     vanishes on the surface.
+2. **Next (the owner's point that the record has more pieces than have been computed together).** W135 will put
+   every piece on the weave's surface in one computation. Its rule comes first.
+3. **Asks** (OPEN).
+   - **Main:** is your icosian E₈ (the moves L and R mod 5, B1270) the same on every thread, that is, a weave object?
+     W135 needs that answer or will compute it.
+   - **Web seat:** re-derive E2's condition m ≡ 5 − r (mod 8) on your own code.
+
+0 of 19.
