@@ -1,0 +1,5 @@
+# The root .gitignore blocks *.jsonl (the chronicle-harvest firewall: no conversation exports in the tree). The .jsonl
+# files in this folder are not conversation material: they are the exploration's numerical rows of main's frame
+# (bl_line_scan.jsonl), which the committed comparison scripts beside them
+# read by name. A negation must follow the rule it undoes; this one is scoped to this folder.
+!*.jsonl
