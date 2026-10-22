@@ -3868,3 +3868,36 @@ def test_w125_the_quantum_weave():
     M.dehn_fill((29, 10))
     Q = abs(29 + 10 * tau) ** 2 / tau.imag
     assert abs(Q * (V0 - float(M.volume())) / math.pi ** 2 - 1) < 0.002
+
+
+def test_w126_the_physical_readout():
+    """W126, main's C10 on the ground-state universes: every cell as recorded; W124 reproduced; no harmonic spinor
+    on either; the triplet's lines that extend; in process, the triplet's image group (exact) and the spinor map's
+    inverse"""
+    import contextlib
+    import importlib.util
+    import io
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_physical_readout.json").read_text(encoding="utf-8"))
+    assert d["verdict"] == {"D0": True, "D1": True, "D2": True, "D3": True, "D4": True, "D5": True}
+    wk, my = d["manifolds"]["Weeks"], d["manifolds"]["Meyerhoff"]
+    assert wk["visited"] == 24775769 and my["visited"] == 23236376
+    assert wk["S_1/2(0)"] < 0.05 and my["S_1/2(0)"] < 0.5
+    bound = "lowest |lambda_D| bound at eps 0, 0.01, 0.02"
+    assert wk[bound][2] > 2.7 and my[bound][2] > 1.1
+    assert abs(my["peaks"][0][0] - 1.42) < 0.01 and abs(my["peaks"][0][1] - 2.0) < 0.01
+    m1 = {k: v["m1"] for k, v in d["D5"]["lifts of +-LR"].items()}
+    assert m1 == {"+LR lift +": 1, "+LR lift -": 0, "-LR lift +": 0, "-LR lift -": 0}
+    spec = importlib.util.spec_from_file_location("w126", here / "the_physical_readout.py")
+    T = importlib.util.module_from_spec(spec)
+    with contextlib.redirect_stdout(io.StringIO()):
+        spec.loader.exec_module(T)
+        tg = T.triplet_group()
+    assert tg["order"] == 96 and tg["eigenvalue orders"] == [1, 2, 3, 4, 6, 8, 12]
+    assert not tg["any order divisible by 5"] and tg["identified with W123's rho to"] < 1e-12
+    rng = np.random.default_rng(126)
+    A = rng.normal(size=(20, 2, 2)) + 1j * rng.normal(size=(20, 2, 2))
+    A /= np.sqrt(np.linalg.det(A))[:, None, None]
+    B = T.lift(T.phi(A))
+    assert all(min(float(np.abs(b - a).max()), float(np.abs(b + a).max())) < 1e-12 for a, b in zip(A, B))

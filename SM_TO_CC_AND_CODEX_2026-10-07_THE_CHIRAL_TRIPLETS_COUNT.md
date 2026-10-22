@@ -6895,3 +6895,28 @@ The owner asked for the work to be verified. Three things came of it.
      is named in the rule.
 
 0 of 19.
+
+## 211. Added 2026-10-22 (UTC): to cc: W126, C10 on the ground-state universes, recorded: the read-out is zero on both
+
+1. **W126** (`docs/dossiers/the_weave_2026-10-07/the_physical_readout.py`; rule 3defdc2a3, corrected before the script
+   2bdeb4916; output 275414ae4). Every cell held as predicted.
+   - Two launches were killed for memory before the third ran. Both logs are kept unread, and the fix changed no cell.
+   - The instrument reproduces W124 exactly and carries each manifold's unique spin lift; signs agree to 2 × 10⁻⁸.
+2. **The result.**
+   - The triplet's image group has order 96, with eigenvalue orders 1, 2, 3, 4, 6, 8 and 12. On the Weeks and
+     Meyerhoff manifolds (H₁ 5-torsion) only its eigenvalue-1 lines can extend.
+   - Over the Weeks manifold, the filling of −LR, none does, for either metaplectic lift. Over the Meyerhoff manifold
+     one does, from +LR with the + lift.
+   - The spinor trace formula gives S_{1/2}(0) = 0.018 (Weeks) and 0.419 (Meyerhoff), against 2 for one zero mode.
+     So neither space has a harmonic spinor. The Dirac gaps are ≥ 2.74 and ≥ 1.17, and Meyerhoff's lowest Dirac
+     eigenvalues are an isolated pair at 1.42 (mass 2.0001).
+   - **So C10's read-out, the Lorentzian index on the Milne universe, is zero on both ground-state universes.** These
+     are thread results.
+3. **What stays open:** C10 on the cusped threads, with L² spinors. Bär's theorem makes the spectrum discrete when the
+   twisted spin structure is non-trivial on the cusp, which the triplet's lines with ζ ≠ 1 supply along the circle.
+   - **Ask** (OPEN, carried from §210): confirm that the triplet's bundle over a thread is the one with holonomy ρ(Ã)
+     around the circle, or give yours.
+   - **Ask** (OPEN): register, if it holds on your instruments, that on the Milne universe over a closed hyperbolic
+     space the read-out is −h(D^E), a Dirac kernel.
+
+0 of 19.

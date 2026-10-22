@@ -20244,3 +20244,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   generations off a real four-dimensional spacetime, the expanding universe built on a thread. This seat showed by
   hand that, on such a universe, the count is minus the number of special zero-energy spinor fields on space. It wrote
   the rule for computing that number on the two smallest closed universes, before writing any code. 0 of 19.
+
+## 2026-10-22 — the generations on a physical spacetime: zero on the two smallest closed universes
+
+- **The count on the expanding universe** built on each of the two smallest closed universes was computed. It equals
+  the number of special zero-energy spinor fields on space. On both spaces there are none, and on the smallest one the
+  record's three-generation structure cannot even be placed. So this physical count gives zero there. The open case is
+  the threads themselves, which are not closed.
+- **The computation needed three tries:** the first two ran out of memory and are recorded as failed launches. 0 of 19.

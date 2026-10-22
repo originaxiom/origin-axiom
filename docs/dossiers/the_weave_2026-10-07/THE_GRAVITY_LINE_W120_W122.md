@@ -95,5 +95,10 @@ which has no gravitons, to 4d gravity with propagating ones. Three arcs have run
 - **The filling slope**, and the cusp's unit (GENESIS FK10).
 - **The quantum sum over the closed universes (W125, 2026-10-22).** At tree level the threads are its counterterms
   (Stanford and Yan's proposal, checked on all 42 threads). The one-loop form and the off-shell topologies stay open.
+- **The generations read on the physical spacetime (W126, 2026-10-22; main's C10).** On the Milne universe over a
+  closed hyperbolic space the Lorentzian index of the twisted Dirac operator is minus the number of twisted harmonic
+  spinors (Bär and Strohmaier). Over the Weeks manifold no line of the triplet's bundle extends; over the Meyerhoff
+  manifold one does, and neither space carries a harmonic spinor. So the read-out is zero on both. The cusped threads,
+  with L² spinors and Bär's cusp condition, stay open.
 
 0 of 19.

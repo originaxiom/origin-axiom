@@ -7726,6 +7726,76 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W126. The read-out on the physical spacetime (main's C10), for the ground-state universes: on the Milne universe over a closed hyperbolic space the Lorentzian index of the twisted Dirac operator is minus the number of twisted harmonic spinors; over the Weeks manifold no line of the triplet's bundle extends, over the Meyerhoff manifold one does, and neither carries a harmonic spinor, so the read-out is zero on both (`the_physical_readout.py`; `W126_RULE.md`)
+
+**Why.**
+- Main's completion map (S187) lists C10 as never computed: the index of the triplet-twisted Dirac operator on the Milne
+  cone over a thread, W120's exact 4d vacuum.
+- This seat built the Milne line (W120), chose the closed universes (W122) and computed their graviton spectra (W124).
+  This arc takes C10 on the two ground-state universes, where everything is compact.
+
+**The reduction (READING by hand, stated in the rule).**
+- On the Milne universe over a closed hyperbolic N the metric is flat and each slice is umbilic. The slice operator is
+  D_N^E/t.
+- So in Bär and Strohmaier's Lorentzian index theorem (arXiv 1506.00959) the curvature and transgression terms vanish,
+  and the η-terms cancel. The index is −h(D_N^E) for every pair of Cauchy slices.
+- The read-out on the physical spacetime is minus the number of twisted harmonic spinors on space: a Dirac kernel, not
+  an Euler characteristic, so B1604's theorem does not bear on it.
+- The triplet's bundle over a thread has holonomy ρ(Ã) around the circle, for a metaplectic lift Ã. On a closed filling
+  a line extends only if its character factors through the filling's H₁.
+
+**The order.**
+- The rule (`W126_RULE.md`, 3defdc2a3) was committed first. It was corrected before the script (2bdeb4916): the
+  completion map's path was un-backticked for the path gate, and D0(d)'s tolerance was set to W124's stored rounding.
+- The script (098f6f913) failed at launch twice, killed by the kernel for memory on a 16 GB machine.
+  - The first launch formed every candidate's lift before deduplication.
+  - The second carried a complex 2 × 2 lift through every layer, and peaked at 13.2 GB.
+  - Both logs are kept unread (`the_physical_readout_failed_launch_1.txt`, `the_physical_readout_failed_launch_2.txt`).
+- The fix (9f7a8ef3b, 002525e3c) carries the spin lift as one sign per element. On a manifold outside the census it
+  reproduces the full lift's traces to 5 × 10⁻¹⁴, and no cell changed.
+- The third launch ran in 18 minutes with a 10.4 GB peak. Its output (275414ae4) was committed unread, then read once.
+
+**The result (COMPUTED; every cell held as predicted).**
+- **D0, the instrument.**
+  - Exactly one sign assignment makes every relator +I: (1, −1, 1) on Weeks and (−1, −1, −1) on Meyerhoff.
+  - The frame conjugation's residual is 6 × 10⁻¹⁵, and |tr γ̃|² equals the O(3,1) trace to 4 × 10⁻¹².
+  - Each element's sign agrees with its parent's lift times the pairing's lift to 2.4 × 10⁻⁸.
+  - W124 is reproduced exactly: 24 775 769 and 23 236 376 elements visited, 124 352 and 119 851 axes kept, and S₂ on
+    the grid to 0.
+- **D1, Weyl.** N_{1/2}(8) is 16.99 against 16.49 (Weeks) and 17.11 against 17.17 (Meyerhoff).
+- **D2, positivity.** S_{1/2} ≥ 0.0006 (Weeks) and ≥ 0.096 (Meyerhoff) on [0, 10].
+- **D3 and D4, no harmonic spinor.** S_{1/2}(0) is 0.018 on Weeks and 0.419 on Meyerhoff, against 2 for one zero mode.
+- **D5, the triplet's image group.**
+  - Order 96, exactly. Its eigenvalue orders are 1, 2, 3, 4, 6, 8 and 12, so none is divisible by 5.
+  - The eigenvalue-1 multiplicity m₁ is 1 for +LR with the + lift (eigenvalues at angles 0, ⅓ and ⅔), and 0 for
+    +LR's other lift and for both lifts of −LR.
+- **D6 (read-out).**
+  - The positivity bound on the least |λ_D| at ε = 0.02 is 2.74 (Weeks) and 1.17 (Meyerhoff).
+  - The lowest Dirac cluster on Weeks is a peak at 3.08 of mass 2.16.
+  - On Meyerhoff it is an isolated peak at 1.42 of mass 2.0001: two eigenvalues, ±1.42 or a double one. The integral
+    mass checks the spinor normalization from inside.
+  - The counts run N_{1/2}(1, 2, 3, 4) = 0.005, 0.17, 1.13, 2.40 (Weeks) and 0.53, 1.62, 1.98, 2.14 (Meyerhoff).
+
+**What this does (READING; the rule's fixed outcomes).**
+1. **C10's read-out on the ground-state universes is zero generations.**
+   - Over the Weeks manifold, the filling of −LR, no line of the triplet's bundle extends, for either lift. Its 8th-
+     and 12th-order lines cannot live on a space whose H₁ is ℤ/5 ⊕ ℤ/5.
+   - Over the Meyerhoff manifold one line extends, from +LR with the + lift. The Dirac operator there has no kernel, so
+     the index is −1 · 0 = 0.
+   - Even untwisted, both spaces have a Dirac gap: no harmonic spinor, so no index on the Milne universe for any
+     trivial bundle.
+2. **The reduction stands on its own.** On any closed thread universe the physical read-out is a Dirac kernel. That
+   object is honest and even-dimensional in the sense GENESIS FK11's earning condition asks for, and B1604 does not
+   forbid it. Here it is empty.
+3. **C10's open case is the cusped threads themselves,** with L² spinors.
+   - Bär (J. Differential Geom. 54 (2000)) shows the Dirac spectrum of a finite-volume hyperbolic manifold is discrete
+     when the spin structure, twisted by the line's character, is non-trivial on every cusp.
+   - The triplet's lines with ζ ≠ 1 make it non-trivial along the circle direction. That is the natural form of the
+     cusp's end condition, and the next arc's question.
+4. **Weave or thread.** Thread results: two closed universes chosen by W122's rule.
+
+**Scope.** Closed fillings only; the triplet's abelian lines only; the η-invariant and the scale stay out. 0 of 19.
+
 ## W125. The quantum weave of closed universes (the owner's call to continue bravely): summed over every slope of every thread, the closed universes diverge, and at tree level the divergence is, thread by thread, the thread's own weight e^{−sV} times 3/(πε) + 3πs·log(1/ε), with the same coefficients on all 42 threads; so the cusped threads are the counterterms (Stanford and Yan's proposal); K4 failed as worded on the cut's small-Q terms and converges post hoc (`the_quantum_weave.py`; `W125_RULE.md`; post hoc `the_quantum_weave_posthoc.py`)
 
 **Why.**
@@ -10779,6 +10849,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W126 | COMPUTED (the rule first, corrected before the script; two launches killed for memory, logs kept unread; the third ran; every cell held); thread results | main's C10 on the ground-state universes: on the Milne universe over a closed hyperbolic space the Lorentzian index of the twisted Dirac operator is −h(D^E) (Bär–Strohmaier; by hand); the triplet's image group has order 96 with eigenvalue orders 1, 2, 3, 4, 6, 8, 12, so on the Weeks and Meyerhoff manifolds (H₁ 5-torsion) only eigenvalue-1 lines extend: none from −LR, one from +LR's + lift; the spinor trace formula on W124's instrument with each unique spin lift gives S_{1/2}(0) = 0.018 and 0.419, no harmonic spinor, Dirac gaps ≥ 2.74 and ≥ 1.17, Meyerhoff's lowest an isolated pair at 1.42 (mass 2.0001); so the physical read-out is zero on both. 0 of 19 |
 | W125 | COMPUTED (the rule first; one run; K0–K3 held; K4 failed as worded on the cut's small-Q terms, and the remainder converges post hoc: successive differences halve, ratios 1.81–2.18, all carried by Q ≤ 100); WEAVE-type (the towers' finite parts are thread results) | the quantum weave of closed universes: 641 730 fillings of W122's 42 threads to Q = 16 000; Neumann–Zagier on every thread (Q·ΔV/π² within 0.0047 of 1, Q·ℓ/2π within 0.0094 at Q ≥ 400); each thread's slope count has finite part 1 (to 10⁻³) and Stanford and Yan's (3.30) holds on every cusp to 1.6 × 10⁻¹⁵; so at tree level each tower diverges as e^{−sV}(3/(πε) + 3πs·log(1/ε)) with the same coefficients on every thread, and the cusped threads are the counterterms (Stanford and Yan's proposal); no bare ground state; no orientation-preserving symmetry moves a slope on any thread; in this scheme the tick's class ±LR carries the largest tower at every s read. 0 of 19 |
 | W124 | COMPUTED (the rule first; one run; G2 failed as worded on the constant mode's geodesic tail, which the rule's tolerance missed; G5's read-out biased and replaced post hoc by a positivity bound, found by an independent review); recorded, not banked; thread results | the graviton spectrum of the ground-state universe: the trace formula on the Weeks and Meyerhoff manifolds from this seat's own enumeration (24.8 and 23.2 million elements; the unfolding identity exact to 8 digits on the shortest geodesics), calibrated by Cornish and Spergel (scalars, to 0.045) and Lin and Lipnowski (coexact, both manifolds); every graviton on the Milne cone is τ⁻¹cos(ν log τ + φ); Weeks's lowest has ν₁ ≥ 2.0 (∇*∇ ≥ 7) with about three modes near 2.65; Meyerhoff's ν₁ ≥ 1.18, one mode near 1.20 fitting; the TT values stable to 0.015 across cuts at 5.0, 5.5 and 6.0; no G, no scale. 0 of 19 |
 | W123 | COMPUTED (the rule first; one run; five of seven cells as predicted; Y2 and Y6 failed as worded on the instrument's threshold 10⁻⁹, and the law holds post hoc for all 128 end data with the threshold in the gap, 3.4 × 10⁻¹⁶ against 4.5 × 10⁻¹⁰); WEAVE-type | the Higgs route to the cusp's unit (the owner's choice): with per-line end data m at the weave's cusp, a Higgs at weight 3/2 exists only with a unit (d = 0 for every m ≤ 0); one unit on any one eigenline gives exactly one section, and the least pole, −⅛, is on v₊, whose section is ∂R (this seat's exact series; residual 5.5 × 10⁻³¹), the hierarchy's Higgs; that end datum's count is −1, one chiral generation, and three needs Σm = 3, a generation-blind source; route 1 does not force three; the same structure holds for ρ̄_T; v₊ is not a parity line. Corrected the same day: "does not force three" holds only if a unit may sit on one chosen line; with the canonical unit O(δ), uniform by construction, a forced Higgs gives n = 1 and three generations, the Higgs space having dimension 3n (the exact second route, post hoc, agrees in all 64). 0 of 19 |

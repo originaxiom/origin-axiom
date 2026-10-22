@@ -1,5 +1,16 @@
 # Changelog
 
+## W126 recorded: C10's read-out on the ground-state universes is zero (relay §211)
+
+- **W126** (thread results; every cell held). On the Milne universe over a closed hyperbolic space the read-out is
+  minus the number of twisted harmonic spinors. The triplet's image group has order 96 with no eigenvalue of order 5,
+  so no triplet line extends over the Weeks manifold, and one extends over the Meyerhoff manifold. The spinor trace
+  formula, on W124's instrument with each unique spin lift, finds no harmonic spinor on either: Dirac gaps ≥ 2.74
+  and ≥ 1.17. So the read-out is zero on both.
+- **Two failed launches** (out of memory) are disclosed, with their logs kept unread; the fix changed no cell.
+- **Surfaces.** The NOTE (section and row), the gravity-line page, the lock, relay §211, the ledger, the state page's
+  range. 0 of 19.
+
 ## The W126 rule: C10 on the ground-state universes; main's S186, S187, B1720 seal and currency read rowed (relay §210)
 
 - **C10 reduced** (a READING by hand). On the Milne universe over a closed hyperbolic space, Bär and Strohmaier's
