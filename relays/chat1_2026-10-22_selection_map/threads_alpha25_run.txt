@@ -7,3 +7,15 @@ best six under the sealed model among their alpha = 2/5 rows:
   3.584  LRLRLRRRR  tau (3.000, 2.622)  line (2/5, 1/20)  L_2
   5.286  LLLLLRRRR  tau (3.500, 2.739)  line (2/5, 17/20)  L_2
   5.286  LLLLRRRRR  tau (3.500, 2.739)  line (2/5, 17/20)  L_2
+thread rows on order-10 alpha = 2/5 lines with apex Im tau 2.55-2.85 (sealed model, six):
+  LLLLRLLR  apex (3.000, 2.739)  line (2/5, 3/10)  = (2/5, 1/2) at Re tau 0.00:  L_max 13.49, L_2 18.90
+  LRRLRRRR  apex (3.000, 2.739)  line (2/5, 3/10)  = (2/5, 1/2) at Re tau 0.00:  L_max 13.49, L_2 18.90
+  LLLLLRRRR  apex (3.500, 2.739)  line (2/5, 1/10)  = (2/5, 3/10) at Re tau 0.50:  L_max 27.04, L_2 13.74
+  LLLLRLRLR  apex (3.000, 2.622)  line (2/5, 3/10)  = (2/5, 1/2) at Re tau 0.00:  L_max 13.45, L_2 22.49
+  LLLLRRRRR  apex (3.500, 2.739)  line (2/5, 1/10)  = (2/5, 3/10) at Re tau 0.50:  L_max 27.04, L_2 13.74
+  LRLRLRRRR  apex (3.000, 2.622)  line (2/5, 3/10)  = (2/5, 1/2) at Re tau 0.00:  L_max 13.45, L_2 22.49
+posthoc_scans (allst), sealed model, six:
+  tau (0.5, 2.65) line (0.4, 0.1): L_max 6.55, L_2 1.50
+  tau (0.5, 2.65) line (0.4, 0.5): L_max 6.55, L_2 1.50
+  tau (0.0, 2.65) line (0.4, 0.5): L_max 11.85, L_2 21.37
+  tau (0.0, 2.7) line (0.4, 0.5): L_max 9.66, L_2 19.82
