@@ -120,6 +120,8 @@ chat1, 2026-10-21. 0 of 19.
   stage Q's χ²_q (166 against 2.7 × 10⁻¹⁸ at one site). The second instrument replays stage Q exactly.
 - **The global null's first six records were seen mid-run.** The referee read them from disk and reported them to
   chat1. They are committed as they stood (ee1afd5d4).
+- **The global null's runs.** It ran in three launches, resumed from its checkpoint after each stopped at the 2-hour
+  job limit. All records after the first six were committed before they were read (817ddbf31, e9eb945e1).
 - **Corrected after the referee.**
   - The first draft quoted the unconverged a = 0.05 read-outs as minima. It used NuFIT's 3σ ranges with the allowance
     removed for neutrinos only. It gave 11 rather than 10 for the low-J count (a mirror pair counted twice). It also
