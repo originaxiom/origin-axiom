@@ -137,3 +137,13 @@ As sealed (`PREREGISTRATION.md`):
 > - **The blind prediction for orders 1–7 is unaffected.** No line of order 1–7 has such a zero at any grid point.
 > - **§2's "what the frame does for almost any mixing"** reads: what the frame does for about 60% of random hierarchical
 >   mixings (59.5%).
+
+## Addendum 2026-10-22 (B1724): the reading S* is not SL(2, ℤ)-covariant; the quoted mixing best was an S* row
+
+B1724 found that of B1660's three up readings, S and S̃ are SL(2, ℤ)-covariant in this frame, and S* is covariant exactly
+under Γ⁰(2) (index 3), so S*'s rows depend on which of three sheets τ is taken on.
+- **The mixing best quoted above (1.136, "within 14%", at ½ + 2.8i on (0, 5/11)) and the best nine (3.590) were S* rows,**
+  one sheet's values. With the covariant readings only, the mixing best is **1.174** (63.08% of random mixings as good)
+  and the nine 3.619 (16.10%).
+- **The verdicts stand:** the mass best used S̃ (12.47% without S*, 14.77% as sealed); K2 fails either way (the mixing is
+  generic).

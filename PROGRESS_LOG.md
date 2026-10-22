@@ -17759,3 +17759,9 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **The web seat's two ingredients** (the Georgi–Jarlskog factor 3; S̃ for every sector) read and recalibrated in the audit room: the six's specificity survives every menu of ingredients (0.29%, 0.58%, 0.50% over 20 seeds); the nine's does not. P-293 (verify, then main's sealed replication), P-294 (the factor 3), P-295 (the reading rule), P-296 (the line's order as a quotient of hypercharge: N ∣ 4 or 5 gives down = leptons, N ∣ 6 up = down) registered. Pins advanced for the SM seat (2837df60) and the web seat (a45635d0).
 - **Landing suite.** full suite 7 598 passed, 2 failed, 68 skipped (1:09:08, -n 8). Both failures are B805's attachment locks (P-239).
 - **The register commit (same day).** The seats' new work rowed (1308–1309; the selection-map relay); P-297 (S̃ covariant, S* not under T: ρ(T) = e^{iπ/4}(1 ⊕ R₋₉₀°)) and P-298 (verify W130) registered; P-287, P-289, P-293–P-295 updated.
+
+## 2026-10-22 — S191 THE READINGS' COVARIANCE (B1724) AND THE TWO INGREDIENTS ON MAIN (B1725)
+
+- **B1724 (PROVED; P-297 DONE).** ρ(T) = e^{iπ/4}(1 ⊕ R₋₉₀°): S and S̃ are SL(2, ℤ)-covariant, S* exactly Γ⁰(2)-covariant (index 3). No sealed verdict turns on S*; the quoted mixing bests were S* rows (addenda in B1712, B1713, B1720, B1723). Sealed tests read S and S̃ only from here.
+- **B1725 (PROVED; P-293).** The web seat's census reproduced on main (48 points, 36 keys, 6.9 × 10⁻¹⁰). With the choice counted, the six are specific under the seat's reading rules (0.29%) and with the factor free (0.58%), at the bar under every covariant reading (0.97%); the nine are not. S190's "0.50% with all readings" corrected (it used S*). Next: B1726, main's sealed replication.
+- **Landing suite.** full suite 7 608 passed, 2 failed, 68 skipped (1:28:02, -n 8). Both failures are B805's attachment locks (P-239).

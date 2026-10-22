@@ -85,3 +85,10 @@ modular-flavour vacuum-stabilisation literature); standard.
 - `verification/compare.py` → `comparison.json`, `compare_run.txt`.
 - `verification/b1656_funcs.py` (B1656's functions, verbatim).
 - The lock: `tests/test_b1723_the_golden_valley.py`.
+
+## Addendum 2026-10-22 (B1724): the reading S* is not SL(2, ℤ)-covariant; the mixing best was an S* row
+
+B1724 found that of B1660's three up readings, S and S̃ are SL(2, ℤ)-covariant in this frame, and S* is covariant exactly
+under Γ⁰(2) (index 3). **The mixing best (1.51, next to i) was an S* row,** one sheet's value; with the covariant readings
+it is **1.851** (40.20% of random mixings as good). Every verdict stands: the mass cells fail (147 either way). The
+control C1 tested S only; S̃ passes the same comparisons (B1724).

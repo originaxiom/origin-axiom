@@ -1,0 +1,11 @@
+A: i-phase/2pi ['0.125000', '0.125000', '0.125000'] | (j, k) block vs e^{i pi/4} R_-90: 2.0e-15 | third tau 1.8e-15 | eigenphases ['0.3750', '0.8750']
+D: min Im on the chains 0.31
+E: min Im on the chains 0.50
+F: min Im on the chains 0.60
+T^1  S 6.3e-10  St 9.6e-11  ckm St|S 1.9e-12  ckm St|St 2.8e-12  ckm St|conjS 1.9e+00  ckm S|S 5.2e-11  ckm S|St 3.4e-11  ckm S|conjS 3.4e+00  ckm conjS|S 2.0e+00  ckm conjS|St 2.3e+00  ckm conjS|conjS 2.1e+00  conjS 2.1e+00
+T^2  S 3.5e-10  St 2.8e-10  ckm St|S 3.0e-11  ckm St|St 2.7e-10  ckm St|conjS 1.3e-11  ckm S|S 3.8e-11  ckm S|St 2.5e-11  ckm S|conjS 1.9e-11  ckm conjS|S 2.2e-11  ckm conjS|St 1.8e-11  ckm conjS|conjS 2.1e-11  conjS 3.3e-10
+T^3  S 6.6e-08  St 6.4e-08  ckm St|S 6.4e-08  ckm St|St 1.6e-07  ckm St|conjS 1.9e+00  ckm S|S 1.9e-07  ckm S|St 8.5e-08  ckm S|conjS 3.4e+00  ckm conjS|S 2.0e+00  ckm conjS|St 2.3e+00  ckm conjS|conjS 2.1e+00  conjS 2.1e+00
+S    S 1.5e-09  St 3.6e-10  ckm St|S 4.1e-11  ckm St|St 4.7e-11  ckm St|conjS 4.4e+00  ckm S|S 9.5e-11  ckm S|St 8.2e-11  ckm S|conjS 4.9e+00  ckm conjS|S 7.3e+00  ckm conjS|St 7.2e+00  ckm conjS|conjS 4.9e+00  conjS 7.9e+00
+ST^2S S 2.2e-11  St 3.5e-11  ckm St|S 3.1e-11  ckm St|St 8.8e-12  ckm St|conjS 5.6e-11  ckm S|S 2.4e-11  ckm S|St 1.2e-11  ckm S|conjS 6.3e-11  ckm conjS|S 5.4e-11  ckm conjS|St 1.3e-11  ckm conjS|conjS 2.2e-11  conjS 2.4e-11
+TS   S 7.2e-12  St 7.8e-12  ckm St|S 7.7e-12  ckm St|St 1.4e-11  ckm St|conjS 5.7e+00  ckm S|S 1.2e-11  ckm S|St 8.6e-12  ckm S|conjS 5.9e+00  ckm conjS|S 3.5e+00  ckm conjS|St 2.6e+00  ckm conjS|conjS 2.7e+00  conjS 2.4e+00
+R    S 5.3e-12  St 8.5e-12  ckm St|S 1.7e-11  ckm St|St 4.1e-12  ckm St|conjS 5.8e-12  ckm S|S 6.1e-12  ckm S|St 1.7e-11  ckm S|conjS 5.2e-12  ckm conjS|S 8.4e-12  ckm conjS|St 5.2e-12  ckm conjS|conjS 2.3e-12  conjS 6.6e-12

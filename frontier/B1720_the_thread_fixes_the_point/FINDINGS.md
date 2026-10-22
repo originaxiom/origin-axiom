@@ -84,3 +84,12 @@ As sealed: `VERDICT topic-sweep /thread frame|hierarchy is height|closed geodesi
 - `verification/compare.py` → `comparison.json`, `compare_run.txt`.
 - `verification/b1656_funcs.py`.
 - The lock: `tests/test_b1720_the_thread_fixes_the_point.py`.
+
+## Addendum 2026-10-22 (B1724): the reading S* is not SL(2, ℤ)-covariant
+
+B1724 found that of B1660's three up readings, S and S̃ are SL(2, ℤ)-covariant in this frame, and S* is covariant exactly
+under Γ⁰(2) (index 3). The classes' apexes sit at Re τ up to 3.6, so an S* row depends on which sheet each apex lies on.
+- **The six-ratio result stands:** the best row (1.804) used S̃. Without the S* rows, on the same random targets, 1.475%
+  of random hierarchies fit as well (1.65% as sealed), **still above the 1% bar: T2 still fails.**
+- **The mixing best (1.203) was an S* row,** one sheet's value; with the covariant readings it is **1.225** (29.48% of
+  random mixings as good). K2 fails either way.

@@ -13202,7 +13202,7 @@
     "S188"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 40,
+   "obstacle_conf": 46,
    "status": "open",
    "domain": "arithmetic"
   },
@@ -13359,7 +13359,7 @@
     "K4"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 9,
+   "obstacle_conf": 11,
    "status": "open",
    "domain": "topology"
   },
@@ -13404,9 +13404,35 @@
     "L254"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 11,
+   "obstacle_conf": 15,
    "status": "open",
    "domain": "arithmetic"
+  },
+  "B1724": {
+   "slug": "the readings covariance",
+   "motifs": [
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "H2",
+    "K2"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1725": {
+   "slug": "the two ingredients on main",
+   "motifs": [
+    "coupling"
+   ],
+   "refs": [],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "physics"
   },
   "B172": {
    "slug": "combination gap resolution",

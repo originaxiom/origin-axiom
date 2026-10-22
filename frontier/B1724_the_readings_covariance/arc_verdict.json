@@ -1,0 +1,30 @@
+{
+ "id": "B1724",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1660",
+  "B1656",
+  "B1691",
+  "B1667",
+  "B1712",
+  "B1713",
+  "B1720",
+  "B1723"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling at B1667's canonical end, the end-data Higgs DR, B1691's triplet in B1644's quaternion units",
+  "object": "B1660's three readings of the Higgs (S, S~ = eps S* eps^T, S*) under SL(2, Z), and the sealed tests that used them",
+  "reach": "class",
+  "hypotheses": "four tau and six lines of orders 3, 5, 7, 8, 10, 11 for the transformations; Im tau >= 0.31 on every chain; the end law L' = L + log|c tau + d|"
+ },
+ "claim_one_line": "THE READINGS' COVARIANCE (P-297; computed, the mechanism exact): T acts on S's components by rho(T) = e^{i pi/4}(1 + R_{-90}), real up to a phase (to 1.8e-15), so the reading S~ = eps S* eps^T, which conjugates the components, transforms by rho(T) times a global phase and is SL(2, Z)-covariant with S (T, T^2, T^3, S, S T^2 S, T S and R all to <= 2e-7 on every sector and CKM pair), while S*, which also flips the i and k components, turns R_{-90} into -R_{-90} relative to i and is covariant exactly where rho(gamma) commutes with diag(-1, 1, -1) up to a phase: under R (tau -> tau/(tau + 1)) and T^2 but not T, S or TS, so exactly under Gamma^0(2) = <R, T^2> (index 3): under T it differs by 2.1 in log and under S by 7.9, so its rows depend on which of three sheets tau is taken on. In the four sealed censuses that used it (B1712, B1713, B1720, B1723; every stored calibration reproduced exactly), no verdict turns on S*: every six-ratio best used S~ and stands, and B1720's six-ratio specificity is 1.475% without S* (still above its 1% bar); the quoted mixing bests were S* rows, one sheet's values, and with the covariant readings they are 1.174 (B1713, was 1.136), 1.225 (B1720, was 1.203) and 1.851 (B1723, was 1.512), all still generic. From B1724 on, main's sealed tests read S and S~ only, or S* with all three sheets. The frame's series fail near Im tau = 0.09 (disclosed). 0 of 19.",
+ "weave_or_thread": "weave (a property of the frame's readings at every tau)"
+}

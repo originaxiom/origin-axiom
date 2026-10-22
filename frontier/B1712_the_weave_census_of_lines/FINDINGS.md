@@ -115,3 +115,10 @@ census against data. **Literature:** none beyond the cited arcs.
 > quarks are exactly massless on the 16 order-12 lines with 12α odd (α ∈ {1/12, 1/4, 5/12}). They are lifted at Re τ = ½.
 > The leptons' order-12 zero holds at both. The verdict and every cell are unchanged: those lines already fail by the
 > electron's zero. The Re τ = 0 family is open (P-292).
+
+## Addendum 2026-10-22 (B1724): the reading S* is not SL(2, ℤ)-covariant
+
+B1724 found that of B1660's three up readings, S and S̃ are SL(2, ℤ)-covariant in this frame, and S* is covariant exactly
+under Γ⁰(2) (index 3), so S*'s rows depend on which of three sheets τ is taken on. **The verdict stands:** the best row
+used S̃, and without the S* rows 20.00% of random hierarchies fit as well (22.45% as sealed; same targets). The per-line
+bests marked S* in `comparison.json` are one sheet's values.

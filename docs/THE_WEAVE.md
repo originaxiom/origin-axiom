@@ -854,4 +854,13 @@ found with B1635's sealed instrument.
     with that valley would hold τ on it.
   - On the valley (Im τ from 1 to 1.118), with any line of order 2–12, the six ratios come no closer than a factor 147.
     The frame's hierarchy is too shallow there: it needs Im τ near 3.
+- **Which readings of the Higgs are well defined (B1724, PROVED).**
+  - The frame reads the Higgs three ways. S and the Standard Model's conjugate S̃ give the same answer in every basis of
+    τ. S* does not: its answers depend on which of three sheets τ is taken on.
+  - No sealed verdict turned on S*. The quoted mixing bests were S* rows and are restated.
+- **The two ingredients, verified on main (B1725, PROVED).**
+  - The web seat's census on main's frame reproduces exactly. With a lepton factor of 3 and a fixed reading rule, the six
+    charged-fermion ratios come out within 1.3–1.5, better than 99.7% of random hierarchies.
+  - With the reading free per sector they sit at the bar (0.97%). The reading rule and the factor 3 are now the things
+    to derive.
 

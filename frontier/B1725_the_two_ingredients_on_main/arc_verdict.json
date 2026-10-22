@@ -1,0 +1,26 @@
+{
+ "id": "B1725",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1720",
+  "B1713",
+  "B1724",
+  "B1695"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling at B1667's canonical end, the end-data Higgs DR, with two ingredients put in by hand: the lepton factor 3 (m_mu/m_tau x 3, m_e/m_tau / 3) and one Higgs reading per configuration",
+  "object": "the web seat's sealed two-ingredient census on main's frame (B1713's 266 lines, Re tau in {0.1, 0.4}, Im tau 2.0-3.5) against the six charged-fermion ratios and the CKM moduli",
+  "reach": "class",
+  "hypotheses": "B1695's random-hierarchy prior and B1713's random-mixing prior; four menus of ingredients; seed 1720 and seeds 100-119, 4000 targets each"
+ },
+ "claim_one_line": "THE TWO INGREDIENTS ON MAIN (P-293; a verification arc of the web seat's sealed census on main's frame, relays/chat1_2026-10-22_selection_map, census d79e7f864): 48 random points of the census recomputed with main's frame functions in this arc's own loop agree on all 36 keys (every sector in every reading, both horocycles, every CKM reading pair) to 6.9e-10 in log and J to 4.4e-15; the seat's sealed numbers reproduce exactly (the six within 1.513, 0.725% of random hierarchies as good; the nine within 2.087, 0.475%). With the choice of ingredients counted, every random target getting the same menu: the six are specific under the seat's own four configurations (data 1.270, 0.29% over seeds 100-119, 20 of 20 below 1%) and with the lepton factor free (1.204, 0.58%, 20 of 20), but sit at the bar when every covariant reading assignment is allowed (1.270, 0.97%, 14 of 20); the menu with the non-covariant S* (0.50%) is set aside because its best row uses S* (B1724); the nine are not specific beyond the seat's menu (0.98%, then 1.95% and 3.0%). So the six's specificity depends on the reading rule, which must be derived (P-295); the lepton factor is the frame's mass bottleneck (without it 2.34, 14%); J and P-094's D still miss. A structure with two hand-put ingredients, not a derivation. 0 of 19.",
+ "weave_or_thread": "weave (a census over lines and tau)"
+}

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1452** |
-| words of findings prose | **1,160,997** |
-| test lock files referenced | **867** |
-| arcs carrying an authored verdict | **1452** (100.0 %) |
+| research arcs with findings | **1454** |
+| words of findings prose | **1,164,049** |
+| test lock files referenced | **869** |
+| arcs carrying an authored verdict | **1454** (100.0 %) |
 | recorded closures | **835** (668 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 989 |
+| PROVED | 991 |
 | NEGATIVE | 359 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,11 +65,11 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1721`** (284 words, 1 locks)  
-GENESIS v1.54 (a correction amendment; the integrity sweep of 2026-10-22, P-291): v1.53's three overreaches corrected against their sources -- FK10's closed 4d vacua close at 12 chi(O_S) strings (not '12 or 24') and the triplet's count there is given the SM seat's Leray reduction (B1710); FK9's W57 sentence tagged as the seat's, unverified on main (row 1099, P-091, sm:W57); FK12's CP sign 'would have to be chosen', the conjugate-vacua reading the web seat's, P-277 open. No status cell and no price changes; the history is not rewritten. 0 of 19.  
-`B1721_genesis_v1_54/FINDINGS.md`
+**PROVED — `B1725`** (1221 words, 1 locks)  
+THE TWO INGREDIENTS ON MAIN (P-293; a verification arc of the web seat's sealed census on main's frame, relays/chat1_2026-10-22_selection_map, census d79e7f864): 48 random points of the census recomputed with main's frame functions in this arc's own loop agree on all 36 keys (every sector in every reading, both horocycles, every CKM reading pair) to 6.9e-10 in log and J to 4.4e-15; the seat's sealed numbers reproduce exactly (the six within 1.513, 0.725% of random hierarchies as good; the nine within 2.087, 0.475%). With the choice of ingredients counted, every random target getting the same menu: the six are specific under the seat's own four configurations (data 1.270, 0.29% over seeds 100-119, 20 of 20 below 1%) and with the lepton factor free (1.204, 0.58%, 20 of 20), but sit at the bar when every covariant reading assignment is allowed (1.270, 0.97%, 14 of 20); the menu with the non-covariant S* (0.50%) is set aside because its best row uses S* (B1724); the nine are not specific beyond the seat's menu (0.98%, then 1.95% and 3.0%). So the six's specificity depends on the reading rule, which must be derived (P-295); the lepton factor is the frame's mass bottleneck (without it 2.34, 14%); J and P-094's D still miss. A structure with two hand-put ingredients, not a derivation. 0 of 19.  
+`B1725_the_two_ingredients_on_main/FINDINGS.md`
 
-**NEGATIVE — `B1723`** (991 words, 1 locks)  
+**NEGATIVE — `B1723`** (1084 words, 1 locks)  
 THE GOLDEN VALLEY (the completion map's C3, L254, P-069; sealed 23f8a7621, sha256 3850a2f9; NEGATIVE as sealed -- the six-ratio cells fail, the mixing comes within a factor 1.51 near i but generically, the control holds; outputs committed unread at 8951e7afc): with tau anywhere on the valley of the weave's modular-invariant F = sum_p |theta_p/eta|^4 at its golden value 8 (the discriminant-5 locus; in the fundamental domain the two arcs from i to +-1/2 + (sqrt5/2) i) and any line of order 2-12, the best row puts the six ratios only within a factor 147 (26.6% of random hierarchies as good; chi2 3891) -- every ratio too large, the median first-to-third ratio 10^-1.1 against the data's 10^-3 to 10^-5: the valley sits too low (Im tau <= 1.118) for the frame's hierarchy, which needs Im tau near 3 -- so no functional whose valley is the golden locus produces the six ratios in this frame, and C3 is closed in it; the mixing's best (1.51 at tau = -0.018 + 1.009i) is matched by 30% of random mixings. After the read (labelled): the Georgi-Jarlskog lepton factor 3 does not rescue it (138). 0 of 19.  
 `B1723_the_golden_valley/FINDINGS.md`
 

@@ -1,0 +1,172 @@
+{
+ "B1712|masses": {
+  "stored": {
+   "fraction": 0.2245,
+   "best": 2.3685003546034915
+  },
+  "all_readings": {
+   "best_factor": 2.3685003546034915,
+   "fraction_fit_as_well": 0.2245,
+   "rows": 51408
+  },
+  "covariant_readings": {
+   "best_factor": 2.3685003546034915,
+   "fraction_fit_as_well": 0.2,
+   "rows": 34272
+  },
+  "reproduced": true
+ },
+ "B1713|masses": {
+  "stored": {
+   "fraction": 0.14775,
+   "best": 2.3261886289498737
+  },
+  "all_readings": {
+   "best_factor": 2.3261886289498737,
+   "fraction_fit_as_well": 0.14775,
+   "rows": 15624
+  },
+  "covariant_readings": {
+   "best_factor": 2.3261886289498737,
+   "fraction_fit_as_well": 0.12475,
+   "rows": 10416
+  },
+  "reproduced": true
+ },
+ "B1713|mixing": {
+  "stored": {
+   "fraction": 0.59525,
+   "best": 1.1360332539348763
+  },
+  "all_readings": {
+   "best_factor": 1.1360332539348763,
+   "fraction_fit_as_well": 0.59525,
+   "rows": 67032
+  },
+  "covariant_readings": {
+   "best_factor": 1.1735523824147795,
+   "fraction_fit_as_well": 0.63075,
+   "rows": 44688
+  },
+  "reproduced": true
+ },
+ "B1713|nine": {
+  "stored": {
+   "fraction": 0.216,
+   "best": 3.590353267806262
+  },
+  "all_readings": {
+   "best_factor": 3.590353267806262,
+   "fraction_fit_as_well": 0.216,
+   "rows": 67032
+  },
+  "covariant_readings": {
+   "best_factor": 3.619205220029206,
+   "fraction_fit_as_well": 0.161,
+   "rows": 44688
+  },
+  "reproduced": true
+ },
+ "B1720|masses": {
+  "stored": {
+   "fraction": 0.0165,
+   "best": 1.8037155975369774
+  },
+  "all_readings": {
+   "best_factor": 1.8037155975369774,
+   "fraction_fit_as_well": 0.0165,
+   "rows": 19494
+  },
+  "covariant_readings": {
+   "best_factor": 1.8037155975369774,
+   "fraction_fit_as_well": 0.01475,
+   "rows": 12996
+  },
+  "reproduced": true
+ },
+ "B1720|mixing": {
+  "stored": {
+   "fraction": 0.32625,
+   "best": 1.2029069996463628
+  },
+  "all_readings": {
+   "best_factor": 1.2029069996463628,
+   "fraction_fit_as_well": 0.32625,
+   "rows": 19494
+  },
+  "covariant_readings": {
+   "best_factor": 1.2250531901434023,
+   "fraction_fit_as_well": 0.29475,
+   "rows": 12996
+  },
+  "reproduced": true
+ },
+ "B1720|nine": {
+  "stored": {
+   "fraction": 0.3895,
+   "best": 6.509060727621969
+  },
+  "all_readings": {
+   "best_factor": 6.509060727621969,
+   "fraction_fit_as_well": 0.3895,
+   "rows": 19494
+  },
+  "covariant_readings": {
+   "best_factor": 7.316357667414106,
+   "fraction_fit_as_well": 0.361,
+   "rows": 12996
+  },
+  "reproduced": true
+ },
+ "B1723|masses": {
+  "stored": {
+   "fraction": 0.26625,
+   "best": 147.39146030899417
+  },
+  "all_readings": {
+   "best_factor": 147.39146030899417,
+   "fraction_fit_as_well": 0.26625,
+   "rows": 77910
+  },
+  "covariant_readings": {
+   "best_factor": 147.39146030899417,
+   "fraction_fit_as_well": 0.2525,
+   "rows": 51940
+  },
+  "reproduced": true
+ },
+ "B1723|mixing": {
+  "stored": {
+   "fraction": 0.30225,
+   "best": 1.5119713300338737
+  },
+  "all_readings": {
+   "best_factor": 1.5119713300338737,
+   "fraction_fit_as_well": 0.30225,
+   "rows": 77910
+  },
+  "covariant_readings": {
+   "best_factor": 1.8510250316968528,
+   "fraction_fit_as_well": 0.402,
+   "rows": 51940
+  },
+  "reproduced": true
+ },
+ "B1723|nine": {
+  "stored": {
+   "fraction": 0.2555,
+   "best": 147.39146030899417
+  },
+  "all_readings": {
+   "best_factor": 147.39146030899417,
+   "fraction_fit_as_well": 0.2555,
+   "rows": 77910
+  },
+  "covariant_readings": {
+   "best_factor": 147.39146030899417,
+   "fraction_fit_as_well": 0.21225,
+   "rows": 51940
+  },
+  "reproduced": true
+ }
+}

@@ -1,5 +1,22 @@
 # Changelog
 
+## S191 THE READINGS' COVARIANCE (B1724, PROVED; P-297) AND THE TWO INGREDIENTS ON MAIN (B1725, PROVED; P-293) (2026-10-22)
+
+- **B1724, the readings' covariance.** B1720's and B1723's controls tested the reading S only.
+  - **The mechanism (exact):** T acts on the Higgs's triplet components by ρ(T) = e^{iπ/4}(1 ⊕ R₋₉₀°), real up to a phase (to 1.8 × 10⁻¹⁵). So S̃ = εS*εᵀ, which conjugates the components, transforms by ρ(T) times a global phase and is covariant. S* also flips the i and k components, so it is covariant exactly where ρ(γ) commutes with diag(−1, 1, −1) up to a phase.
+  - **The computation:** S and S̃ pass T, T², T³, S, ST²S, TS and R (≤ 2 × 10⁻⁷ on every sector and CKM pair). S* passes R, T² and ST²S and fails T (2.1), S (7.9) and TS (2.4): it is covariant exactly under Γ⁰(2) = ⟨R, T²⟩, index 3.
+  - **The consequences** (every stored calibration of B1712, B1713, B1720 and B1723 reproduced exactly first): no sealed verdict turns on S*. Every six-ratio best used S̃; B1720's six without S* is 1.475%, still above its bar. The quoted mixing bests were S* rows, one sheet's values: B1713 1.136 → 1.174, B1720 1.203 → 1.225, B1723 1.512 → 1.851, all still generic. Dated addenda in the four arcs; the law map qualified.
+  - **The rule from here:** sealed tests read S and S̃ only, or S* with all three sheets.
+  - **Disclosed:** the frame's series fail near Im τ = 0.09 (a first composed check reached it, and every reading failed there).
+- **B1725, the web seat's two-ingredient census verified on main.**
+  - **Reproduced:** 48 random points recomputed with main's frame in the arc's own loop agree on all 36 keys to 6.9 × 10⁻¹⁰ in log; the sealed fractions reproduce exactly (0.725% and 0.475%).
+  - **Recalibrated with the choice counted** (seed 1720 and seeds 100–119): the six are specific under the seat's four configurations (0.29%, 20 of 20) and with the lepton factor free (0.58%, 20 of 20), but **sit at the bar under every covariant reading assignment (0.97%, 14 of 20)**. The nine are not specific beyond the seat's menu.
+  - **So the six's specificity depends on the reading rule,** which must be derived (P-295).
+- **Correction to S190.** S190 recorded that the six survive every menu, including "0.50% with all readings". That figure's best row used the non-covariant S*. Over the covariant readings the six sit at the bar. Corrected with dated notes in HARVEST_LEDGER row 1303 and P-293.
+- **The completion map** gains a section for the law ingredients (I0–I3: the verification and replication, the lepton factor, the reading, the line's order as a quotient of hypercharge). P-297 DONE; P-293 next is B1726, main's sealed replication.
+- **Landing suite.** full suite 7 608 passed, 2 failed, 68 skipped (1:28:02, -n 8). Both failures are B805's attachment locks (P-239).
+- 0 of 19.
+
 ## S190, the register commit: the seats' new work rowed the same day; the readings' covariance found (P-297, P-298) (2026-10-22)
 
 - **Rowed** (HARVEST_LEDGER 1308–1309; RELAY_LEDGER: the web seat's selection-map relay; pins 7d261bd2 and 82cd8ab9): the web seat's threads-with-ingredients test (all four cells fail) and its selection map; the SM seat's W130 (the principle forbids the zero of exactly one field, the fibre's uniformizing Higgs) and relay 214.
