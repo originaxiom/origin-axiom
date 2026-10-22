@@ -659,3 +659,39 @@ this ledger's sections on the flavour sector, the strong angle and the generatio
   exists exactly when n = 2. GENESIS v1.49's "DERIVED given one input" is regraded in v1.50 (P-212): POSTULATED, in an
   equivalent form, with the democratic extension of the moves named.
 - **What this does not supply.** Any of the nineteen parameters. **0 of 19.**
+
+
+## Currency note — 2026-10-22, through B1713 (the weave's masses tested, the lines counted, the mixing sealed)
+
+*Added at the B1713 seal (the doc-currency gate: this ledger lagged 31 arcs). The window is B1683–B1713, read against
+this ledger's flavour, generation and strong-angle rows. 0 of 19 throughout.*
+
+- **The frame's mass structure (B1691, B1692, B1703).**
+  - In B1656's four-channel coupling at B1667's canonical end, the weight-3/2 section ∂R gives m₂/m₃ = 18∣q∣^½ at the
+    cusp (B1691; its m₁ statements corrected the same week).
+  - The flat line decides the sector coincidences (B1703):
+    - d = e at N ∣ 4 or 5, u = d at N ∣ 6, u = e at N ∣ 2 or 7;
+    - every line of order ≥ 8 splits all three charged sectors;
+    - the first generation is protected exactly when N ∣ δ or N ∣ 3.
+- **Every input the record selects, tested sealed, fails.**
+  - **The lines.** The tick's order-5 lines: H1 holds, the specificity cell fails narrowly at 1.7%, and minimal SU(5)'s
+    Y_e = Y_dᵀ appears (B1698). W59's order-9 lines: best factor 4.17, with 9.8% of random hierarchies fitting as well
+    (B1711).
+  - **τ.** The record's cusp shapes (B1696, B1702) and the frame's own coupling strength (B1699), which has no maximum.
+  - **The parameter-free curve and one-line fits.** B1694 and B1695.
+  - **What would hold τ.** No content on record holds τ in the band, and the natural contents hold it at i or ω (B1704,
+    with its mirror-line correction).
+- **The Higgs.** Its end data is FK10's tagged unit, not a second postulate, but the unit does not select ∂R (B1700). W63's
+  line-tied Higgs is exactly 0 : 1 : 1 (B1701).
+- **The step to four dimensions (B1708, B1710).** On closed elliptic surfaces the triplet's index is −15χ(O_S) or
+  −18χ(O_S) (K3: −30, −36), never ±3.
+- **The foundation.** GENESIS v1.51–v1.52 (B1685, B1706), the surface route's transvection lemma (B1707), and B186's band
+  dimension re-graded (B1705).
+- **In flight (sealed, unread at this note).**
+  - Every line of order 8–12 against the six ratios (B1712).
+  - The census's complement, orders 1–7, together with the first sealed test of the quark mixing in this frame (B1713;
+    B1660's blind rule; P-129, P-164, P-258).
+
+**What this does not supply.** Any of the nineteen parameters. The frame fixes structure (the coincidence laws, the
+protection rule, the cusp exponents); the magnitudes wait on τ and the line, which nothing on record selects in a way
+that fits.
