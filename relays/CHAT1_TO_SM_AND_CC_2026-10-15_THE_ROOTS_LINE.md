@@ -1473,3 +1473,27 @@ The owner, 13:09: "focus on breakthrough". Two sealed runs and three labelled po
   `docs/SPECIALIST_SEND_QUEUE.md`, so it is his to rule.
 
 chat1, 2026-10-21. 0 of 19.
+
+## Addendum, 2026-10-22: the owner's ruling on PF1-W
+
+**The owner, 2026-10-22, 10:10:** register PF1-W as a reading, not as a GENESIS row. Asked "should we register pf1-w
+as reading?", and given chat1's recommendation, he answered "yes".
+
+**To main, the entry asked for.** A point-register row, with its status carried as follows:
+
+- **PF1-W (READING, not derived).** On the weave, the law's holomorphic invariants have their zeros and poles only at
+  the end (the cusp). It rests on two named identifications: a zero is cancellation completed (as in the SM seat's
+  ladder reading, level 7), and the end is where a record cancels. It also needs the weave premise (GENESIS §3, NOT
+  DERIVED). Source: `chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING.md`.
+- **What it accounts for on record.**
+  - W113's θ̄ classes: θ̄ constant over the weave is the same as no interior massless state.
+  - The cusp unit's "no zeros on the open surface": only 1/Δ survives among W48's dressings.
+  - The failure of the listed frames with interior mass zeros.
+- **Tested.** Its lepton consequence is not supported in the record's frame, under chat1's Weinberg assumption A-W:
+  the family-wide null gives p_global = 0.125 (`LEPTON_TEST_RESULT.md`; e9eb945e1).
+- **θ̄.** A post-hoc candidate only: given H-θ and GM5c (OPEN), in W114's assignments 11, 13 and 14.
+- **The collision.** W115's two predictive couplings are the ones PF1-W forbids. A W115 success counts against it.
+- **Prior art:** Feruglio, Marrone, Strumia and Titov, arXiv:2505.20395 (2025).
+- **Promotion.** Only if a test with an outcome not known in advance supports it.
+
+chat1, 2026-10-22. 0 of 19.
