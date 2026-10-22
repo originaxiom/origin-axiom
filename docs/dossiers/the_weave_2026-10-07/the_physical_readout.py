@@ -14,6 +14,7 @@ unfolding identity, unchanged), carrying each element's lift to SL(2, C) for the
     python3 -B the_physical_readout.py      # writes the_physical_readout.json and the_physical_readout_run.txt
 """
 import contextlib
+import gc
 import io
 import itertools
 import json
@@ -45,6 +46,32 @@ def mat(m, n):
 
 
 # ---------------- the domain with words, and the spin lift ----------------
+SIG = np.array([[[1, 0], [0, 1]], [[0, 1], [1, 0]], [[0, -1j], [1j, 0]], [[1, 0], [0, -1]]], dtype=complex)
+
+
+def phi(A):
+    """SL(2, C) -> SO+(3,1) in signature (+,-,-,-): Lambda^mu_nu = tr(sigma_mu A sigma_nu A^dagger) / 2"""
+    A = np.asarray(A)
+    H = np.einsum("...ij,njk,...lk->...nil", A, SIG, A.conj())        # A sigma_nu A^dagger
+    return 0.5 * np.einsum("mji,...nij->...mn", SIG, H).real
+
+
+def lift(L4):
+    """the inverse of phi, with a deterministic sign: the columns a1, a2 from H_0 +- H_3 and H_1 + i H_2, a1's
+    largest component real and positive, then divided by sqrt(det) on the principal branch"""
+    H = np.einsum("...mn,mij->...nij", L4, SIG)                          # H_nu = sum_mu Lambda^mu_nu sigma_mu
+    P1 = (H[..., 0, :, :] + H[..., 3, :, :]) / 2
+    K = (H[..., 1, :, :] + 1j * H[..., 2, :, :]) / 2
+    d = np.stack([P1[..., 0, 0].real, P1[..., 1, 1].real], axis=-1)
+    j = np.argmax(d, axis=-1)
+    ar = np.arange(len(j))
+    a1 = P1[ar, :, j] / np.sqrt(d[ar, j])[:, None]
+    a2 = np.einsum("nji,nj->ni", K.conj(), a1) / np.einsum("ni,ni->n", a1.conj(), a1).real[:, None]
+    A = np.stack([a1, a2], axis=-1)
+    det = A[:, 0, 0] * A[:, 1, 1] - A[:, 0, 1] * A[:, 1, 0]
+    return A / np.sqrt(det)[:, None, None]
+
+
 def domain_with_lifts(name):
     M = snappy.Manifold(name)
     G = M.fundamental_group(simplify_presentation=False)
@@ -58,14 +85,13 @@ def domain_with_lifts(name):
     D = M.dirichlet_domain(include_words=True)
     words = D.pairing_words()
     P = np.array([GS.to_np(m) for m in D.pairing_matrices()])
-    A = [mat(G.O31(w), 4).real for w in words]
+    sg = dict(zip(gens, sols[0])) if sols else None             # D0(a) asks for exactly one
+    lifts = np.array([np.prod([sg[c.lower()] for c in w]) * mat(G.SL2C(w), 2) for w in words])
+    A = phi(lifts)                                               # this script's convention
     K = np.vstack([np.kron(np.eye(4), b) - np.kron(a.T, np.eye(4)) for a, b in zip(A, P)])
     _, sv, vt = np.linalg.svd(K)
-    C = vt[-1].reshape(4, 4).T
+    C = vt[-1].reshape(4, 4).T                                   # P_i C = C phi(lift_i)
     conj_res = max(float(np.abs(C @ a - b @ C).max()) for a, b in zip(A, P)) / float(np.abs(C).max())
-    sg = dict(zip(gens, sols[0])) if sols else None             # D0(a) asks for exactly one
-    lifts = np.array([np.prod([sg[c.lower()] for c in w]) * mat(G.SL2C(w), 2) for w in words]) if sg else None
-    # W124's own domain, for D0(d)
     _, P124, normals, info = GS.domain(name)
     info["out_radius"], info["volume"] = float(D.out_radius()), float(M.volume())
     same_domain = P124.shape == P.shape and float(np.abs(P124 - P).max()) < 1e-12
@@ -75,15 +101,20 @@ def domain_with_lifts(name):
     info["conjugation residual"] = conj_res
     info["the null space's next singular value"] = float(sv[-2])
     info["same domain as W124's"] = bool(same_domain)
+    info["C"], info["Cinv"] = C, np.linalg.inv(C)
     return M, P, lifts, normals, info
 
 
-def enumerate_axes_lifted(P, lifts, normals, r_out):
-    """W124's enumerate_axes, unchanged, with each element's SL(2, C) lift carried alongside"""
+def enumerate_axes_lifted(P, lifts, normals, r_out, Cj, Cjinv):
+    """W124's enumerate_axes, unchanged, with each element's spin lift carried as one sign: the lift of an element
+    with O(3,1) matrix X is sign * lift(Cjinv X Cj); a child's sign is read from its parent's lift times the pairing's
+    lift (the sign's agreement is recorded)"""
+    hol = lambda X: lift(np.einsum("ij,njk,kl->nil", Cjinv, X, Cj))
+    worst = [0.0]
     rho_bfs, rho_keep = R + 3 * r_out, R + 2 * r_out
     cb, ck, cR, s2out = math.cosh(rho_bfs), math.cosh(rho_keep), math.cosh(R), math.sinh(r_out) ** 2
     cur = np.eye(4)[None]
-    cur_s = np.eye(2, dtype=complex)[None]
+    cur_s = np.ones(1, dtype=np.int8)
     cur_keys = GS.keys_of(cur)
     prev_keys = np.array([], dtype=np.int64)
     radii = []
@@ -132,11 +163,11 @@ def enumerate_axes_lifted(P, lifts, normals, r_out):
                 keep_l.append(np.arccosh(np.maximum(ca[pos], 1.0)))
                 keep_c.append(cb_[pos])
                 keep_w.append(length[pos])
-                keep_t.append(np.trace(Gs[pos], axis1=1, axis2=2))
+                keep_t.append(Gs[pos].astype(float) * np.trace(hol(G[pos]), axis1=1, axis2=2))
         nxt_m, nxt_s, nxt_k = [], [], []
         ng = len(P)
-        for s0 in range(0, len(cur), 100000):
-            chunk, chunk_s = cur[s0:s0 + 100000], cur_s[s0:s0 + 100000]
+        for s0 in range(0, len(cur), 50000):
+            chunk, chunk_s = cur[s0:s0 + 50000], cur_s[s0:s0 + 50000]
             C = np.einsum("nij,gjk->ngik", chunk, P).reshape(-1, 4, 4)
             f = np.nonzero(C[:, 0, 0] <= cb)[0]                 # the lifts are formed for survivors only
             C = C[f]
@@ -147,8 +178,16 @@ def enumerate_axes_lifted(P, lifts, normals, r_out):
             C, k, f = C[new], k[new], f[new]
             k, idx = np.unique(k, return_index=True)
             f = f[idx]
-            nxt_m.append(C[idx])
-            nxt_s.append(np.einsum("nij,njk->nik", chunk_s[f // ng], lifts[f % ng]))
+            Ck = C[idx]
+            truth = chunk_s[f // ng].astype(float)[:, None, None] * np.einsum(
+                "nij,njk->nik", hol(chunk[f // ng]), lifts[f % ng])
+            Lc = hol(Ck)
+            kk = np.argmax(np.abs(Lc).reshape(len(Lc), 4), axis=1)
+            ratio = truth.reshape(len(Lc), 4)[np.arange(len(Lc)), kk] / Lc.reshape(len(Lc), 4)[np.arange(len(Lc)), kk]
+            sgn = np.where(ratio.real >= 0, 1, -1).astype(np.int8)
+            worst[0] = max(worst[0], float(np.abs(truth - sgn[:, None, None] * Lc).max()) if len(Lc) else 0.0)
+            nxt_m.append(Ck)
+            nxt_s.append(sgn)
             nxt_k.append(k)
             del C
         if not nxt_m:
@@ -162,7 +201,8 @@ def enumerate_axes_lifted(P, lifts, normals, r_out):
     radii = np.concatenate(radii)
     allk = np.concatenate(kept_keys) if kept_keys else np.array([], dtype=np.int64)
     return {"ell": np.concatenate(keep_l), "cos": np.concatenate(keep_c), "w": np.concatenate(keep_w),
-            "trace": np.concatenate(keep_t), "radii": radii, "visited": int(visited), "layers": layers,
+            "trace": np.concatenate(keep_t), "sign agreement (max |lift - sign * canonical|)": worst[0],
+            "radii": radii, "visited": int(visited), "layers": layers,
             "empty axes": empty_axes, "unbounded flags": bad,
             "duplicate keys among kept": int(len(allk) - len(np.unique(allk)))}
 
@@ -280,7 +320,7 @@ def main():
         M, P, lifts, normals, info = domain_with_lifts(name)
         say(label, "spin sign solutions", info["spin sign solutions"], "| conjugation residual %.1e" %
             info["conjugation residual"], "| same domain as W124's", info["same domain as W124's"])
-        E = enumerate_axes_lifted(P, lifts, normals, info["out_radius"])
+        E = enumerate_axes_lifted(P, lifts, normals, info["out_radius"], info.pop("C"), info.pop("Cinv"))
         vol = info["volume"]
         S12, ident, chk = spinor_sector(E, vol)
         S, _, _ = GS.sectors(E, vol)
@@ -291,6 +331,7 @@ def main():
              "W124 visited, kept axes": [w124[label]["visited"], w124[label]["kept axes"]],
              "max |S2 rounded - W124's stored S2|": s2_dev, "lift checks": chk,
              "duplicate keys among kept": E["duplicate keys among kept"], "unbounded flags": E["unbounded flags"],
+             "sign agreement (max |lift - sign * canonical|)": E["sign agreement (max |lift - sign * canonical|)"],
              "S_1/2(0)": GS.at(S12, 0.0), "S_1/2 min": float(S12.min()),
              "S_1/2 min location": float(TGRID[int(np.argmin(S12))]),
              "N_1/2(8)": float(N12[800]), "Weyl at 8": weyl,
@@ -299,6 +340,8 @@ def main():
              [lowest_bound(S12, e) for e in (0.0, 0.01, 0.02)],
              "S_1/2 on the grid": [round(float(v), 5) for v in S12]}
         res[label] = r
+        del E, S, S12
+        gc.collect()
         say(label, "visited", r["visited"], "kept", r["kept axes"], "(W124:", r["W124 visited, kept axes"], ")",
             "| S2 dev %.1e" % s2_dev, "| lift checks", {k: "%.1e" % v for k, v in chk.items()},
             "(%.0f s)" % (time.time() - t0))
@@ -308,6 +351,7 @@ def main():
     out["manifolds"] = res
     d0 = all(len(v["info"]["spin sign solutions"]) == 1 and v["info"]["conjugation residual"] < 1e-10
              and v["lift checks"]["max | |tr|^2 - O(3,1) trace | / trace"] < 1e-8
+             and v["sign agreement (max |lift - sign * canonical|)"] < 1e-6
              and v["visited"] == v["W124 visited, kept axes"][0] and v["kept axes"] == v["W124 visited, kept axes"][1]
              and v["max |S2 rounded - W124's stored S2|"] <= 6e-6 for v in res.values())
     d1 = all(abs(v["N_1/2(8)"] - v["Weyl at 8"]) <= 0.25 * v["Weyl at 8"] for v in res.values())
