@@ -1,0 +1,11 @@
+W126, failed launch 1 (2026-10-22): killed by the kernel (exit 137, out of memory on a 16 GB machine), no output files written. Its stdout and stderr follow, committed unread.
+--- stdout ---
+D5 the triplet's image group: order 96 | identified to 0.0e+00 | eigenvalue orders [1, 2, 3, 4, 6, 8, 12] | any of order divisible by 5: False
+    +LR lift + {'eigenvalue angles / 2pi': ['0', '1/3', '2/3'], 'm1': 1}
+    +LR lift - {'eigenvalue angles / 2pi': ['1/2', '1/6', '5/6'], 'm1': 0}
+    -LR lift + {'eigenvalue angles / 2pi': ['1/4', '11/12', '7/12'], 'm1': 0}
+    -LR lift - {'eigenvalue angles / 2pi': ['1/12', '3/4', '5/12'], 'm1': 0}
+Weeks spin sign solutions [[1, -1, 1]] | conjugation residual 6.0e-15 | same domain as W124's True
+--- stderr ---
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')

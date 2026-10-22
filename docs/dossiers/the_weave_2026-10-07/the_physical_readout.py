@@ -134,21 +134,23 @@ def enumerate_axes_lifted(P, lifts, normals, r_out):
                 keep_w.append(length[pos])
                 keep_t.append(np.trace(Gs[pos], axis1=1, axis2=2))
         nxt_m, nxt_s, nxt_k = [], [], []
+        ng = len(P)
         for s0 in range(0, len(cur), 100000):
             chunk, chunk_s = cur[s0:s0 + 100000], cur_s[s0:s0 + 100000]
             C = np.einsum("nij,gjk->ngik", chunk, P).reshape(-1, 4, 4)
-            Cs = np.einsum("nij,gjk->ngik", chunk_s, lifts).reshape(-1, 2, 2)
-            f = C[:, 0, 0] <= cb
-            C, Cs = C[f], Cs[f]
+            f = np.nonzero(C[:, 0, 0] <= cb)[0]                 # the lifts are formed for survivors only
+            C = C[f]
             if not len(C):
                 continue
             k = GS.keys_of(C)
             new = ~GS.member(prev_keys, k) & ~GS.member(cur_keys, k)
-            C, Cs, k = C[new], Cs[new], k[new]
+            C, k, f = C[new], k[new], f[new]
             k, idx = np.unique(k, return_index=True)
+            f = f[idx]
             nxt_m.append(C[idx])
-            nxt_s.append(Cs[idx])
+            nxt_s.append(np.einsum("nij,njk->nik", chunk_s[f // ng], lifts[f % ng]))
             nxt_k.append(k)
+            del C
         if not nxt_m:
             break
         nk = np.concatenate(nxt_k)
