@@ -7726,6 +7726,80 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W130. GENESIS PF1 on the field's rest state (the owner's first test after W129): on the shared fibre the principle forbids the zero of exactly one field, the fibre's own uniformizing Higgs field. Its non-commutation with its conjugate is the hole's curvature, its size is ½ in curvature units at every point and every τ, and it must vanish if the hole is closed. The matter's flat data carry none, and its square root is a nowhere-zero doublet of the fibre's SL(2) (`the_field_at_rest.py`; `W130_RULE.md`)
+
+**Why.**
+- The owner chose the first of three tests named after W129: does the principle forbid a field from resting at zero?
+  If it did for the mass-giving field, it would supply W128's one empirical bit.
+- The owner's reframing: the field is where the remainder lives, and the field's non-cancellation generates it.
+
+**The order.**
+- The rule (`W130_RULE.md`, 9fa9f9862) was committed and pushed before the script.
+- It was corrected before the script existed (d580d3ea4). H4's square root is (0, ±i√c) under the rule's own
+  convention, not (0, √c): a phase. It was found while the script was written; only sympy's return formats had been
+  tried, on toy inputs.
+- The script (8d686cb6a) was committed before its one run, which took 1 s. Its output (41bf0838f) was committed
+  unread, then read once.
+
+**The result (COMPUTED, exact; every cell as predicted).**
+- **H0, Hitchin's equation.**
+  - On the upper half plane with the curvature −1 metric, take E = K^{1/2} ⊕ K^{−1/2} with the metric
+    diag(y, 1/y), and Φ = c·N dz.
+  - Then F_h = diag(−1, 1)/(4y²) and [Φ, Φ*_h] = |c|²·diag(1, −1)/y², so the equation holds iff |c|² = ¼.
+  - Φ = 0 is not a solution.
+- **H1, which forced data force a non-zero field.**
+  - **The geometry.** At the fibre's hyperbolic point (3, 3, 3) and its images under all 5461 words of length ≤ 6 in
+    the moves and their inverses, every trace is at least 3 and tr[A, B] = −2. The run found 33 distinct trace
+    triples.
+  - **Five other Fuchsian points** have tr[A, B] = −2 to 3 × 10⁻³⁹ and every trace real and above 2. So no point is
+    unitarizable, and Φ ≠ 0 at all of them.
+  - **The puncture.** The geometry's puncture holonomy is [A, B] = [[−1, 0], [−6, −1]], −1 times a unipotent.
+  - **The quaternion point** also has tr[a, b] = −2, with [a, b] = −I, but it is unitary, so Φ = 0.
+  - **The matter.** 𝕎 = ρ_Q ⊗ χ_p (all four characters) and the triplet's image group (order 96) are unitary, so
+    Φ = 0.
+- **H2, the size.**
+  - |Φ| = ½ pointwise, with no x, y or τ in it.
+  - The modular triangle has area π/3. ⟨A, B⟩ has index 6 in PSL(2, ℤ): its image in PSL(2, ℤ/6), of order 72, has
+    order 12. So the fibre's area is 2π = −2πχ.
+  - The parabolic degree (i/2π)∫F = Area/(4π) = ½ = −χ/2, and ∫|Φ|² dA = π/2 = π·deg.
+- **H3, the hole closed.** With the flat metric, F = 0 while [N, N*] ≠ 0, so c = 0 is forced. An abelian Φ solves the
+  equation at every size, so there is no floor.
+- **H4, the doublet.**
+  - −h ⊗ ε(h, ·) is nilpotent. N has exactly two square roots, h = (0, ±i), and so does every non-zero nilpotent in
+    five cases (negatives of each other).
+  - √c·h = (0, ±i/√2) vanishes nowhere, with |√c·h|² = ½ = |Φ|.
+
+**What it shows (the rule's fixed meaning).**
+1. **GENESIS PF1, read on the rest state, forbids the zero of exactly one field: the geometry's own Higgs field.**
+   - Its failure to commute with its own conjugate is the hole's curvature. That is GENESIS §1's form, a commutator
+     that does not cancel, inside the field's rest equation.
+   - Its size is fixed at ½ in curvature units, 1/(2R), at every point and every τ, with no free number. Its integral
+     is π times the parabolic degree −χ/2. The size is the remainder, as the owner put it.
+   - With the hole closed it must vanish.
+   - This is a weave result: the claim holds at every point of the τ-line, on every image under the moves.
+2. **The −1 alone does not force it.** The quaternion point shares the puncture's commutator −1 and carries no field.
+   The field lives in the unipotent part of the geometry's puncture holonomy, the cusp. This answers, in part, the
+   owner's question about the record's −1s.
+3. **The matter's own flat data carry no field at rest.** The field is the shape's, not the matter's.
+4. **Its square root is a doublet that vanishes nowhere.** It is unique up to sign, and its square is the field. It is
+   a doublet of the fibre's SL(2), not of the weak SU(2).
+5. **What it does not supply** (named in the rule).
+   - The dictionary between the fibre's SL(2) and the weak SU(2) (GENESIS FK11). W81's type distinction is kept: the
+     lane's condensate is ad(P) ⊗ S, this field is End E ⊗ K, and its square root is E ⊗ K^{1/2}.
+   - The coupling to the chiral three. The field is of type (1, 0), so a bulk Yukawa ∫ Φ ψψ is a (2, 0)-form and
+     vanishes on a surface. It couples only through the puncture's residue, which is B1651's place.
+   - So the principle forces a field that cannot rest at zero. Whether that makes the masses non-zero waits on these
+     two links.
+
+**A lead, named in the rule, not tested.** Over the τ-line the field's coefficient dz is a section of the Hodge bundle
+λ, and GENESIS FK10's unit is λ¹² ≅ O(δ).
+
+**Weave or thread.** WEAVE-type: the shared fibre at every τ, every forced flat datum, and every image under the moves
+to length 6.
+
+**Status.** COMPUTED, exact (the rule first, corrected before the script; one run; every cell as predicted). No data,
+so not a trial. 0 of 19.
+
 ## W129. The three framings of "is the field forced?", compared (READING with a lock; the owner's third check, 2026-10-22): the record has used one word for two objects, the Standard Model's doublet and W123's weight-3/2 section; consistency fixes the first's quantum numbers given one empirical bit, the end decides the second's existence, and no framing forces three without the unit
 
 Nothing here is computed beyond W127 and W128. It is the third of the three checks the owner asked for, in order.
@@ -11077,6 +11151,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W130 | COMPUTED, exact (the rule first, corrected before the script; one run; every cell as predicted); WEAVE-type | GENESIS PF1 on the field's rest state: by non-abelian Hodge, the field at rest vanishes iff the flat datum is unitary; the geometry (the fibre's point (3, 3, 3), its 5461 images under the moves to length 6, five other Fuchsian points) is never unitary, so its uniformizing Higgs field cannot rest at zero; Hitchin's equation gives \|c\|² = ¼, so \|Φ\| = ½ in curvature units at every point and τ, with ∫\|Φ\|² = π·(−χ/2); closing the hole forces Φ = 0; the quaternion point (commutator −I too), 𝕎 and the triplet's group are unitary and carry none; the square root is a nowhere-zero doublet of the fibre's SL(2); the dictionary to the weak SU(2) (GENESIS FK11) and the coupling at the puncture (B1651) stay open. 0 of 19 |
 | W129 | READING (no computation; a lock); across W127, W128 and the record | the three framings of "is the field forced?" compared: the record has used one word for two objects, the Standard Model's doublet (a gauge object whose quantum numbers consistency fixes given one empirical bit, a move singlet given the moves as a symmetry) and W123's weight-3/2 section (a flavour object whose existence the end decides, hand-dependent at the empty end once twists are admitted); forced: the doublet's quantum numbers given massive matter, and one chiral mode at the empty end in the joint field; not forced: the unit that carries the fibre's three into four dimensions, and non-zero masses (the three itself is derived, W1 to W22); index matching would force the unit for one field, never for the joint field; a recommendation for the owner. 0 of 19 |
 | W128 | COMPUTED (the rule first; one run; every cell as predicted); weave-type in C0, C2 and C4, C1 the Standard Model's group theory, C3 a READING | the consistency route: the anomaly cubic −18·y_Q(y_u − 2y_Q)(y_u + 4y_Q); one colour-singlet doublet with \|Y\| = ½ serves every Yukawa bilinear; with the moves as a symmetry and constant couplings a move-singlet field couples to both quark bilinears iff B1674's SU(3)-free set (16 of 64), to all four iff its SU(3)- and gravity-free set (4 of 64), and a triplet field never; the empirical bit: no arc on main derives a non-zero mass, and six force a massless first generation; index matching I = f holds at 22 data, at the natural conditions iff n = 1 and t_r = 0, never for the joint field. 0 of 19 |
 | W127 | COMPUTED (the rule first; one run; every cell as predicted; dry-tested at r = 0 only before the commit); WEAVE-type | GENESIS PF1 at the weave's cusp in three forms: F1 (κ = −2, no integral cusp exponent) forbids nothing; F2 per datum forbids only the untwisted empty end, and its least replacement at each natural condition is a flat order-6 twist at the empty end, I = −1, carrying η⁴R (exact, ℂ·R to x⁶⁰) in the canonical hand and nothing in the mirror (h̄ = 0); h(r, n) = 3n + [r = 4] for n ≥ 0, exactly; the six twists together give −1 at the empty end at every condition; F3 is GENESIS FK10's unit, giving three; no form that is not the unit restated forces the four-dimensional three (the fibre's ±3 is untouched). 0 of 19 |

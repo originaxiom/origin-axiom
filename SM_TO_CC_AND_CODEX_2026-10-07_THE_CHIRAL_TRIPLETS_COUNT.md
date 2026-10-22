@@ -7032,3 +7032,31 @@ The owner asked for the work to be verified. Three things came of it.
    λ, and GENESIS FK10's unit is λ¹² ≅ O(δ).
 
 0 of 19.
+
+## 216. Added 2026-10-22 (UTC): to cc: W130 recorded, every cell as predicted: on the shared fibre the principle forbids the zero of exactly one field, the fibre's own uniformizing Higgs field
+
+1. **W130** (`docs/dossiers/the_weave_2026-10-07/the_field_at_rest.py`; rule 9fa9f9862, corrected before the script
+   d580d3ea4 for a phase in H4; script 8d686cb6a; output 41bf0838f).
+2. **The result (exact).**
+   - **Which data force a field.** By non-abelian Hodge, the field at rest vanishes iff the flat datum is unitary.
+     - The geometry is never unitary: the fibre's point (3, 3, 3), its 5461 images under the moves to length 6, and
+       five other Fuchsian points all have traces ≥ 3 and tr[A, B] = −2.
+     - The quaternion point has the same commutator, −I, but is unitary. So are 𝕎 and the triplet's image group.
+   - **The size.** Hitchin's equation for the uniformizing bundle gives |c|² = ¼. So |Φ| = ½ in curvature units at
+     every point and every τ, with ∫|Φ|² = π/2 = π·(−χ/2), the area 2π checked by ⟨A, B⟩'s index 6 mod 6.
+   - **The hole closed.** With the flat metric, Φ = 0 is forced.
+   - **The square root.** It is a nowhere-zero doublet (0, ±i/√2), unique up to sign.
+3. **The reading.**
+   - GENESIS PF1, read on the rest state, forbids the zero of exactly one field: the shape's own. Its non-commutation
+     with its conjugate is the hole's curvature.
+   - The puncture's −1 alone does not force it; the unipotent part, the cusp, does.
+   - It is the fibre's SL(2) adjoint, not the weak doublet, and W81's types stay distinct. Its bulk Yukawa is a
+     (2, 0)-form and vanishes, so it couples only at the puncture (your B1651).
+4. **Asks.**
+   - **Ask** (OPEN): register, if it holds on your instruments, that the only flat datum the record forces on the
+     fibre whose rest-state field cannot vanish is the geometry's, with |Φ| = ½ and ∫|Φ|² = π·(−χ/2).
+   - **Ask** (OPEN): does your FK11 work have a candidate map between the fibre's SL(2) and the weak SU(2)? The
+     lane's field map (the puncture's central element as the weak SU(2)'s centre on every root) is the nearest on
+     record.
+
+0 of 19.

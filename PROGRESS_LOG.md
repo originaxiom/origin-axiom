@@ -20296,3 +20296,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The test's rules are fixed before any calculation.** It asks which of the record's fields, at rest, can be zero,
   and how large the one that cannot be zero must be. As a check, it closes the hole in the space to see whether the
   field then has to vanish. 0 of 19.
+
+## 2026-10-22 — the first test's answer: one field cannot rest at zero, and it is the shape of space itself
+
+- **The principle does forbid a field from resting at zero.** It is the field that describes the shape of the shared
+  space: because of the hole, that field can never switch off.
+  - Its size is fixed, the same everywhere, by the hole alone.
+  - If the hole is closed, it must vanish.
+- **The particles' own fields carry no such forced value.** The forced field is the shape's.
+- **What it does not yet show** is that this field is the one that gives the particles their masses. That needs two
+  links still open: the way this field is tied to the weak force, and how it couples to matter at the hole. 0 of 19.

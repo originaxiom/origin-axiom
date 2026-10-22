@@ -1,5 +1,18 @@
 # Changelog
 
+## W130 recorded: the principle forbids the zero of exactly one field, the fibre's own uniformizing Higgs field (relay §216)
+
+- **W130** (WEAVE-type; exact; every cell held). By non-abelian Hodge, the field at rest vanishes iff the flat datum
+  is unitary.
+  - The geometry never is: the fibre's point (3, 3, 3), its 5461 images under the moves and five other Fuchsian
+    points. So its uniformizing Higgs field cannot rest at zero.
+  - Hitchin's equation gives |Φ| = ½ in curvature units at every τ, with ∫|Φ|² = π·(−χ/2). Closing the hole forces
+    Φ = 0.
+  - The quaternion point, which has the same commutator −I, and the matter's flat data are unitary and carry none.
+  - Its square root is a nowhere-zero doublet of the fibre's SL(2).
+- **Open:** the map from the fibre's SL(2) to the weak SU(2) (GENESIS FK11), and the coupling at the puncture.
+- **Surfaces.** The NOTE (section and row), a lock, the state page's note and range, relay §216 and row 317. 0 of 19.
+
 ## The W130 rule: GENESIS PF1 on the field's rest state (relay §215)
 
 - **The owner's first test after W129.** Does the principle forbid a field from resting at zero? Every flat datum

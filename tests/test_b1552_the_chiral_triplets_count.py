@@ -3969,3 +3969,31 @@ def test_w129_the_framings_reading():
         assert s in sec, s
     for w in ("| W129 | READING", "| W128 | COMPUTED", "| W127 | COMPUTED"):
         assert w in note, w
+
+
+def test_w130_the_field_at_rest():
+    """W130, GENESIS PF1 on the field's rest state: every cell as recorded; in process, Hitchin's equation for the
+    uniformizing bundle forces |c|^2 = 1/4, the flat control forces c = 0, and the geometry's commutator is -1 times
+    a unipotent while the quaternion point's is -I"""
+    import contextlib
+    import importlib.util
+    import io
+    import sys
+    import sympy as sp
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_field_at_rest.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"H0": True, "H1": True, "H2": True, "H3": True, "H4": True}
+    assert d["H1"]["words"] == 5461 and d["H1"]["least trace over the words"] == 3
+    assert d["H2"]["area"] == "2*pi" and d["H2"]["degree"] == "1/2" and d["H2"]["int |Phi|^2"] == "pi/2"
+    sys.path.insert(0, str(here))
+    spec = importlib.util.spec_from_file_location("w130_lock", here / "the_field_at_rest.py")
+    W = importlib.util.module_from_spec(spec)
+    with contextlib.redirect_stdout(io.StringIO()):
+        spec.loader.exec_module(W)
+    h0, ok0 = W.H0()
+    h3, ok3 = W.H3()
+    assert ok0 and ok3
+    A, B = ((1, 1), (1, 2)), ((1, -1), (-1, 2))
+    assert W.mul(W.mul(A, B), W.mul(W.inv(A), W.inv(B))) == ((-1, 0), (-6, -1))
+    qa, qb = sp.Matrix([[sp.I, 0], [0, -sp.I]]), sp.Matrix([[0, 1], [-1, 0]])
+    assert sp.simplify(qa * qb * qa.inv() * qb.inv()) == -sp.eye(2)

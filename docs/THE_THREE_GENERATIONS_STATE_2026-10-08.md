@@ -96,6 +96,10 @@ Under the owner's rulings, the table's rows split into two groups:
     twist with one four-dimensional chiral mode and, in one hand, the form η⁴R. NEGATIVE for the four-dimensional
     three (W127); the fibre's ±3 above is untouched. Consistency forces the field's gauge quantum numbers given massive
     matter, not its existence (W128); W129 compares the framings.
+  - *Added 2026-10-22.* GENESIS PF1, read on a field's rest state, forbids the zero of exactly one field: the fibre's
+    own uniformizing Higgs field (W130). Its size is ½ in curvature units at every τ, with integral π·(−χ/2). It must
+    vanish if the hole is closed. The matter's flat data carry none. It is the fibre's SL(2) adjoint, with a
+    nowhere-zero doublet square root; whether it is the weak Higgs is the dictionary (GENESIS FK11).
 - **No index on a thread or a cover:** NEGATIVE (main's B1604).
 - **The E₈ frames on the fibre give at most two complete generations:** NEGATIVE (W23).
 - **No six-dimensional object the weave forces gives three:** NEGATIVE (W24).
@@ -914,4 +918,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W119 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§215).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§216).
