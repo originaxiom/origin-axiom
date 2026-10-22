@@ -1,0 +1,10 @@
+P1 primitive classes 2224 | not of order 4: [] -> True
+P2 rho_T : (rho(T) rho(STS^-1))^k scalar at k = [3, 6, 9, 12] values {3: [np.float64(-0.0), np.float64(-1.0)], 6: [np.float64(-1.0), np.float64(0.0)], 9: [np.float64(0.0), np.float64(1.0)], 12: [np.float64(1.0), np.float64(-0.0)]} -> True
+P3 rho_T : exponents ['1/8', '3/8', '7/8'] and ['1/8', '3/8', '7/8'] | rounding 0 -> True
+P2 rho_T bar : (rho(T) rho(STS^-1))^k scalar at k = [3, 6, 9, 12] values {3: [np.float64(0.0), np.float64(1.0)], 6: [np.float64(-1.0), np.float64(0.0)], 9: [np.float64(-0.0), np.float64(-1.0)], 12: [np.float64(1.0), np.float64(-0.0)]} -> True
+P3 rho_T bar : exponents ['1/8', '5/8', '7/8'] and ['1/8', '5/8', '7/8'] | rounding 4.2e-17 -> True
+P4 rho_T : degree -33 = -33 | index on K3 -30 -> True
+P4 rho_T bar : degree -39 = -39 | index on K3 -36 -> True
+P5 rho_T : law -15 chi | genus cancels: True | never +-3: True | units to add on K3: [9, 11] | parity: True -> True
+P5 rho_T bar : law -18 chi | genus cancels: True | never +-3: True | units to add on K3: [11, 13] | parity: True -> True
+verdict {'P1': True, 'P2': True, 'P3': True, 'P4': True, 'P5': True}

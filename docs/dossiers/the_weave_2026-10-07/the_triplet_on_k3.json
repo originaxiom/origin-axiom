@@ -1,0 +1,164 @@
+{
+ "arc": "W121",
+ "rule": "W121_RULE.md",
+ "P1": {
+  "primitive classes": 2224,
+  "not of order 4": [],
+  "holds": true
+ },
+ "P2": {
+  "rho_T": {
+   "scalar at k": [
+    3,
+    6,
+    9,
+    12
+   ],
+   "values": {
+    "3": [
+     -0.0,
+     -1.0
+    ],
+    "6": [
+     -1.0,
+     0.0
+    ],
+    "9": [
+     0.0,
+     1.0
+    ],
+    "12": [
+     1.0,
+     -0.0
+    ]
+   },
+   "holds": true
+  },
+  "rho_T bar": {
+   "scalar at k": [
+    3,
+    6,
+    9,
+    12
+   ],
+   "values": {
+    "3": [
+     0.0,
+     1.0
+    ],
+    "6": [
+     -1.0,
+     0.0
+    ],
+    "9": [
+     -0.0,
+     -1.0
+    ],
+    "12": [
+     1.0,
+     -0.0
+    ]
+   },
+   "holds": true
+  }
+ },
+ "P3": {
+  "rho_T": {
+   "exponents of rho(T)": [
+    "1/8",
+    "3/8",
+    "7/8"
+   ],
+   "exponents of rho(STS^-1)": [
+    "1/8",
+    "3/8",
+    "7/8"
+   ],
+   "rounding": 0.0,
+   "sum": "11/8",
+   "no exponent is 0": true,
+   "holds": true
+  },
+  "rho_T bar": {
+   "exponents of rho(T)": [
+    "1/8",
+    "5/8",
+    "7/8"
+   ],
+   "exponents of rho(STS^-1)": [
+    "1/8",
+    "5/8",
+    "7/8"
+   ],
+   "rounding": 4.163336342344337e-17,
+   "sum": "13/8",
+   "no exponent is 0": true,
+   "holds": true
+  }
+ },
+ "P4": {
+  "rho_T": {
+   "degree by the factors": "-33",
+   "degree by the stack": "-33",
+   "index": "-30",
+   "holds": true
+  },
+  "rho_T bar": {
+   "degree by the factors": "-39",
+   "degree by the stack": "-39",
+   "index": "-36",
+   "holds": true
+  }
+ },
+ "P5": {
+  "rho_T": {
+   "index by chi and genus": {
+    "chi 2, g 0": "-30",
+    "chi 2, g 1": "-30",
+    "chi 2, g 2": "-30",
+    "chi 4, g 0": "-60",
+    "chi 4, g 1": "-60",
+    "chi 4, g 2": "-60",
+    "chi 6, g 0": "-90",
+    "chi 6, g 1": "-90",
+    "chi 6, g 2": "-90"
+   },
+   "law": "-15 chi(O_S)",
+   "never +-3 for even chi to 100": true,
+   "added units to reach +-3 on K3": [
+    9,
+    11
+   ],
+   "spinor and lift both need chi even": true,
+   "holds": true
+  },
+  "rho_T bar": {
+   "index by chi and genus": {
+    "chi 2, g 0": "-36",
+    "chi 2, g 1": "-36",
+    "chi 2, g 2": "-36",
+    "chi 4, g 0": "-72",
+    "chi 4, g 1": "-72",
+    "chi 4, g 2": "-72",
+    "chi 6, g 0": "-108",
+    "chi 6, g 1": "-108",
+    "chi 6, g 2": "-108"
+   },
+   "law": "-18 chi(O_S)",
+   "never +-3 for even chi to 100": true,
+   "added units to reach +-3 on K3": [
+    11,
+    13
+   ],
+   "spinor and lift both need chi even": true,
+   "holds": true
+  }
+ },
+ "verdict": {
+  "P1": true,
+  "P2": true,
+  "P3": true,
+  "P4": true,
+  "P5": true
+ }
+}
