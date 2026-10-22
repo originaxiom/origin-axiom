@@ -1,0 +1,49 @@
+A Re 0: tau -> -conj(tau) keeps the copies: True
+A Re 1/2: tau -> 1 - conj(tau) keeps the copies: False
+A Re 1: tau -> 2 - conj(tau) keeps the copies: True
+A unit arc: tau -> 1/conj(tau) keeps the copies: True
+B (a) y 1.0 V(x0+0.1)-V(x0-0.1) at Re 0, 1/2, 1: -8.88e-16 1.82 -1.36e-10
+B (a) y 2.5 V(x0+0.1)-V(x0-0.1) at Re 0, 1/2, 1: 1.42e-14 0.0106 -8.55e-11
+B (a) arc: V(1.1 e^{1.2i}) - V(e^{1.2i}/1.1) = 2.66e-15
+B (b) y 1.0 V(x0+0.1)-V(x0-0.1) at Re 0, 1/2, 1: 0 1.82 -1.36e-10
+B (b) y 2.5 V(x0+0.1)-V(x0-0.1) at Re 0, 1/2, 1: 0 0.0106 -8.55e-11
+B (b) arc: V(1.1 e^{1.2i}) - V(e^{1.2i}/1.1) = 0
+B (c) y 1.0 V(x0+0.1)-V(x0-0.1) at Re 0, 1/2, 1: 0 1.82 -1.36e-10
+B (c) y 2.5 V(x0+0.1)-V(x0-0.1) at Re 0, 1/2, 1: 0 0.0106 -8.55e-11
+B (c) arc: V(1.1 e^{1.2i}) - V(e^{1.2i}/1.1) = 0
+C (a) ('m',) 89 at 1/2 + 3.08i: dV/dx 0.008205, dV/dy -0.05351, d2V/dx2 1.194e-05
+C (a) ('m',) 92 at 1/2 + 2.50i: dV/dx 0.0541, dV/dy -0.05155, d2V/dx2 0.0005229
+C (a) ('m',) 95 at 1/2 + 2.14i: dV/dx 0.1772, dV/dy -0.0258, d2V/dx2 0.005668
+C (b) ('m',) 634 at 1/2 + 2.51i: dV/dx 0.05235, dV/dy -0.5481, d2V/dx2 -0.003522
+C (a) (0.0, 0.0) 3 at 1/2 + 1.02i: dV/dx 8.573, dV/dy -0.01653, d2V/dx2 27.43
+C (a) (0.0, 0.0) 7 at 1/2 + 0.91i: dV/dx 12.81, dV/dy -0.2914, d2V/dx2 155.3
+C (b) (0.0, 0.0) 15 at 1/2 + 1.02i: dV/dx 8.573, dV/dy -0.01653, d2V/dx2 27.43
+C (c) (0.0, 0.0) 17 at 1/2 + 1.05i: dV/dx 7.685, dV/dy 0.04591, d2V/dx2 20.09
+D (a) +3 trivial fermions: at i Vxx -0.033 Vyy 79.189; arc minima [(0.03, 1.0, 78.9)]; i lowest on the arc: False
+D (a) +5 trivial fermions: at i Vxx -29.064 Vyy 220.346; arc minima [(0.362, 0.932, 153.8)]; i lowest on the arc: False
+D (a) +7 trivial fermions: at i Vxx -58.094 Vyy 361.503; arc minima [(0.417, 0.909, 220.1)]; i lowest on the arc: False
+D (a) +14 trivial fermions: at i Vxx -159.701 Vyy 855.552; arc minima [(0.462, 0.887, 458.3)]; i lowest on the arc: False
+D (b) +15 trivial fermions: at i Vxx -0.033 Vyy 79.189; arc minima [(0.03, 1.0, 78.9)]; i lowest on the arc: False
+D (b) +17 trivial fermions: at i Vxx -29.064 Vyy 220.346; arc minima [(0.362, 0.932, 153.8)]; i lowest on the arc: False
+D (b) +19 trivial fermions: at i Vxx -58.094 Vyy 361.503; arc minima [(0.417, 0.909, 220.1)]; i lowest on the arc: False
+D (c) +17 trivial fermions: at i Vxx 3.596 Vyy 61.545; arc minima []; i lowest on the arc: True
+D (c) +19 trivial fermions: at i Vxx -25.435 Vyy 202.702; arc minima [(0.352, 0.936, 144.2)]; i lowest on the arc: False
+D (c) +22 trivial fermions: at i Vxx -68.981 Vyy 414.437; arc minima [(0.426, 0.905, 246.5)]; i lowest on the arc: False
+E (a) +89 rho_Q scalars: axis [(0.32, -21.55, -15.864, 1136.98), (3.08, -21.56, 0.026, 10.78)]; Re 1 [(3.09, -21.55, -0.025)]; arc []
+E (a) +92 rho_Q scalars: axis [(0.4, -16.85, 8.902, 444.41), (2.5, -16.85, 0.169, 11.04)]; Re 1 [(2.51, -16.82, -0.165)]; arc []
+E (a) +95 rho_Q scalars: axis [(0.47, -14.62, 12.3, 231.03), (2.13, -14.62, 0.569, 11.04)]; Re 1 [(2.16, -14.51, -0.526)]; arc []
+E (b) +595 rho_Q scalars: axis [(0.31, -292.56, -227.918, 15672.58), (3.18, -292.67, 0.019, 130.31)]; Re 1 [(0.53, -165.53, -5.498), (3.18, -292.67, -0.019)]; arc [(0.868, 0.497, np.float64(-165.52))]
+E (b) +634 rho_Q scalars: axis [(0.4, -226.66, 88.457, 5001.54), (2.51, -226.67, 0.168, 126.81)]; Re 1 [(0.67, -160.09, 10.973), (2.51, -226.64, -0.161)]; arc [(0.802, 0.597, np.float64(-159.96))]
+E (b) +672 rho_Q scalars: axis [(0.48, -198.82, 46.056, 2223.13), (2.09, -198.82, 0.699, 117.72)]; Re 1 [(2.1, -198.69, -0.596)]; arc []
+E (c) +735 rho_Q scalars: axis [(0.4, -266.65, 135.637, 5783.69), (2.52, -266.68, 0.163, 149.04)]; Re 1 [(0.6, -193.24, 4.393), (2.52, -266.65, -0.155)]; arc [(0.836, 0.548, np.float64(-193.18))]
+F (a) (0.0, 0.0) 3 grid minima: []
+F (a) (0.0, 0.0) 7 grid minima: []
+F (c) (0.0, 0.0) 17 grid minima: []
+F (a) ('m',) 89 grid minima: [(0.0, 3.08, -21.558)]
+F (a) ('m',) 92 grid minima: [(0.0, 2.5, -16.852)]
+F (a) ('m',) 95 grid minima: [(0.0, 2.12, -14.622)]
+F (b) ('m',) 634 grid minima: [(0.0, 2.52, -226.67), (1.0, 0.68, -160.083)]
+G copies' cusp coefficient: at infinity 33/8 ; at tau = 1 -15/4 ; difference 63/8
+G (a) (0.0, 0.0) 3 V on Re 1 at y = 1, .7, .5, .35, .25, .18: [30.22, 51.35, 113.35, 296.55, 767.82, 1980.87]
+G (a) ('m',) 92 V on Re 1 at y = 1, .7, .5, .35, .25, .18: [-5.35, 8.91, 47.34, 170.23, 513.61, 1454.98]
+G (b) ('m',) 634 V on Re 1 at y = 1, .7, .5, .35, .25, .18: [-162.05, -160.04, -149.87, -31.99, 495.47, 2316.8]
