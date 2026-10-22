@@ -1,5 +1,12 @@
 # Changelog
 
+## Main's S183 read: B1711 NEGATIVE, the sixteenth test (ledger; the trial count)
+
+- **B1711** (main, NEGATIVE as sealed): W59's eighteen order-9 lines at the band τ, with the end-data Higgs. The
+  best worst factor is 4.17, at the grid's edge; 9.8% of random hierarchies fit as well; χ² 321. Rowed as read; the
+  sixteenth test in the trial count, none confirming an unfitted prediction. Review 67's block rowed too.
+- **Surfaces.** The consolidation page's table, the positives page (a dated line), two ledger rows. 0 of 19.
+
 ## Main's B1711 seal rowed (ledger)
 
 - **B1711** (main) seals a test of W59's order-9 lines at the band τ. This seat rows it and states no expectation.

@@ -20167,3 +20167,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 
 - **The main seat sealed a new test against data** before running it. This seat recorded the seal and, as its rule
   is, made no prediction about the outcome. 0 of 19.
+
+## 2026-10-22 — the main seat's sealed test failed
+
+- **The main seat ran its sealed test of one more set of the record's lines against the measured masses.** It
+  failed on all three counts: the best fit is a factor of four off, and random patterns do about as well. This seat
+  added it to the running count of such tests, now sixteen, none of which has confirmed a prediction made without
+  fitting. 0 of 19.

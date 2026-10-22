@@ -68,6 +68,8 @@ Each takes every thread the principle allows under one rule, and its claim is ab
 - **Main's grade stands:** "three generations are not derived; the flavour three is; the gauge three is a selection."
 - **0 of 19** free parameters are derived.
 - **None of the 15 tests against data on 2026-10-21 confirmed an unfitted prediction** (`THE_EIGHT_TESTS_W112_W119.md`).
+  - The sixteenth, main's B1711 on 2026-10-22 (W59's order-9 lines at the band τ), also failed as sealed: worst
+    factor 4.17, and 9.8% of random hierarchies as good. Added on the day, after this page.
 - **The magnitudes side is a clean negative.** The forced menu fits the hierarchy no better than chance (p = 0.139,
   W112).
 
