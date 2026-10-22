@@ -1,0 +1,12 @@
+== six_best (S~ in every sector): R2 >= 2.5 on 23% of the window's rows
+   rows with R2 and R1 both in [2, 4.5]: 7; best six there 14.46
+   D-matched rows: 9; R2 0.51-2.57, R1 4.11-20.76
+   all 27 reading combinations, best six among D-matched rows: same down/lepton reading 11.18; mixed 4.77
+== nine_best (S~ in every sector): R2 >= 2.5 on 29% of the window's rows
+   rows with R2 and R1 both in [2, 4.5]: 1; best six there 62.61
+   D-matched rows: 6; R2 0.20-2.33, R1 4.57-54.95
+   all 27 reading combinations, best six among D-matched rows: same down/lepton reading 7.27; mixed 3.92
+== tick_d_eq_e (S~ in every sector): R2 >= 2.5 on 30% of the window's rows
+   no row with R2 and R1 both in [2, 4.5]
+   D-matched rows: 2; R2 1.39-1.60, R1 6.72-7.72
+   all 27 reading combinations, best six among D-matched rows: same down/lepton reading 7.45; mixed 5.38
