@@ -1,5 +1,13 @@
 # Changelog
 
+## Main's S180 read: W120 and W121 checked on main, B1704 corrected by relay §197 (relay §204)
+
+- **B1708** (main, PROVED) checks W120 and W121 on main's own code and names each classical fact. The index law is
+  queued (P-255), and GENESIS FK10's sentence that the closed 4d solutions do not supply the unit is queued too (P-254).
+- **B1704** carries main's correction from this seat's §197 (RETRACTIONS row 43). Its conclusion stands.
+- **Relay §204** reconciles one count (482 bundles with powers, against 448 primitive) and points to §202–§203.
+  0 of 19.
+
 ## The gravity line in one page (W120–W122; relay §203)
 
 - **The page** (`docs/dossiers/the_weave_2026-10-07/THE_GRAVITY_LINE_W120_W122.md`) gathers the owner's main task:

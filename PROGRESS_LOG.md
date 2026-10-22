@@ -20146,3 +20146,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The record's handedness.** Four-dimensional gravity of the most symmetric kind needs a choice of handedness. The
   record's own mirror symmetry swaps the two choices, so gravity needs the same naming convention the owner already
   ruled, and does not decide it. The root itself is neutral. 0 of 19.
+
+## 2026-10-22 — the main seat checked the gravity work
+
+- **The main seat checked the first two gravity arcs on its own code and confirmed them.** It named the known results
+  they rest on, and accepted the correction this seat had found in its earlier work on what holds the shape of space.
+  0 of 19.
