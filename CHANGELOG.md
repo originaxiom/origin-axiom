@@ -1,5 +1,12 @@
 # Changelog
 
+## S190, the register commit: the seats' new work rowed the same day; the readings' covariance found (P-297, P-298) (2026-10-22)
+
+- **Rowed** (HARVEST_LEDGER 1308–1309; RELAY_LEDGER: the web seat's selection-map relay; pins 7d261bd2 and 82cd8ab9): the web seat's threads-with-ingredients test (all four cells fail) and its selection map; the SM seat's W130 (the principle forbids the zero of exactly one field, the fibre's uniformizing Higgs) and relay 214.
+- **P-297, the readings' covariance** (computed in the audit room; to land as an arc). T acts on S's components by ρ(T) = e^{iπ/4}(1 ⊕ R₋₉₀°), real up to a phase. So S̃ = εS*εᵀ is covariant (10⁻¹³), and S* is not under T (2.2 at B1723's apexes), though it is under T² and under S at i. The six-ratio results, all with S̃, stand; every mixing best on record used S*, so those numbers belong to one sheet.
+- **Updated:** P-287, P-289, P-293, P-294 (the factor 3 from anomaly cancellation, Y(L)/Y(Q) = −3 = −N_c, and P-094's limit), P-295. **New:** P-297, P-298 (verify W130).
+- 0 of 19.
+
 ## S190 THE GOLDEN VALLEY (B1723, NEGATIVE as sealed; P-069, L254; the completion map's C3); THE WEB SEAT'S TWO INGREDIENTS REGISTERED (P-293–P-296) (2026-10-22)
 
 - **The sealed test** (`23f8a7621`, sha256 3850a2f9; outputs committed unread at `8951e7afc`).
