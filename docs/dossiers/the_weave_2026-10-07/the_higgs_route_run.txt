@@ -1,0 +1,9 @@
+representation {'rho(S)^2 = (rho(S) rho(T))^3': True, 'rho(S)^2 = i': True, 'the three eigenlines': True}
+Y0 R line orders {'1/8': '1/8', '7/8': '-1/8', '3/8': '3/8'} | residual 2.88e-31 -> True
+Y1 no unit, no Higgs: True | Y2 index law: {'chi_{3/2} at m = 0 (formula)': 0.0, 'd - h1 = sum m for all 64': False, 'formula agrees for all 64': True, 'holds': False}
+Y3 single-line units: {'1/8': (1, 0), '3/8': (1, 0), '7/8': (1, 0)} -> True
+Y4 DR line orders {'1/8': '1/8', '7/8': '-1/8', '3/8': '3/8'} | residual 5.51e-31 | matches the v+ section: True -> True
+Y5 leading pole orders {'1/8': '-7/8', '3/8': '-5/8', '7/8': '-1/8'} | least on 7/8 -> True
+Y6 the other hand: exponents ['1/8', '5/8', '7/8'] | Y1 True | law False | formula True | singles {'1/8': (1, 0, '-7/8'), '5/8': (1, 0, '-3/8'), '7/8': (1, 0, '-1/8')} | least pole on 7/8 -> False
+Y7 parity lines {'1/8': True, '3/8': False, '7/8': False} | uniform unit d, h1 [3, 0]
+verdict {'Y0': True, 'Y1': True, 'Y2': False, 'Y3': True, 'Y4': True, 'Y5': True, 'Y6': False}
