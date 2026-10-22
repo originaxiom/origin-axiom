@@ -1,5 +1,12 @@
 # Changelog
 
+## S184 THREE SEAT ASKS REGISTERED (P-257–P-259) (2026-10-22)
+
+- The SM seat's open asks, unregistered until now (the point-register rule): W118's seven rationals and the k mod 6
+  question (P-257); the CP phase as a ninth observable in future sealed fits (P-258); the minimal-Kähler hypothesis named
+  wherever a forced coefficient is stated (P-259). FLOOR 259.
+- 0 of 19.
+
 ## S183 W59'S ORDER-9 LINES AT THE BAND TAU (B1711, NEGATIVE as sealed; P-256) (2026-10-22)
 
 - **The sealed test** (`6fee45181`, sha256 8b1c45f4; outputs committed unread at `2d78304d7`): the record's eighteen
