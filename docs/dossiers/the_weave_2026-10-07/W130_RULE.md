@@ -107,6 +107,16 @@ result.
   - That the quaternion point has commutator trace −2.
 - **Not run:** no script, and no census of the moves' images or of other Fuchsian points.
 
+## A correction before the script (2026-10-22)
+
+- **What was wrong.** H4's general formula, −h ⊗ ε(h, ·) = [[p, q], [r, −p]] with a² = q, b² = −r and ab = −p, fixes
+  the convention ε(h, v) = b·v₁ − a·v₂. Under it, the uniformizing N = [[0, 0], [1, 0]] has the square roots
+  h = (0, ±i), not (0, ±1). So "√c·h = (0, √c)" should read √c·h = (0, ±i√c).
+- **What did not change.** The difference is a phase. H4's content is unchanged: h vanishes nowhere, it is unique up
+  to sign, and |√c·h|² = |c| = |Φ| = ½. H4 now reads with (0, ±i√c).
+- **When it was found.** While writing the script in the scratch directory, before any cell was run. Only sympy's
+  return formats were tried, on toy inputs. No script existed in the tree when this was corrected.
+
 ## Discipline
 
 - This rule is committed and pushed before the script exists.
