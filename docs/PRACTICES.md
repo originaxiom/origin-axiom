@@ -1171,3 +1171,24 @@ Three practices came out of the field stage's last window. Each answers a slip t
 - **Why:** nine drafts in five days, the last outside reads found no mathematical error, and every new result was
   pulling the paper along at a full verification cycle each. The foundations questions (P-200, P-201) may reframe the
   paper, so they are answered first.
+
+## The window's practices, B1685–B1707: a limit's regime, a sealed instrument's import, a long run's memory — MANUAL (adopted 2026-10-22, Review 67 and after)
+
+1. **A limit is quoted with its regime.** A statement computed in a limit (B1654's large L, B1692's deep cusp) names the
+   limit wherever it is used. B1691's massless first generation and B1692's bound of four were the large-L limit read at
+   the canonical end, where L is of order one (corrected S164, S167); B1692's "the real part never matters" is the
+   deep-cusp limit (Review 67, B1703's run). MANUAL.
+2. **A sealed instrument is import-tested before its seal.** It is imported without computing (its module-level code
+   runs, its main does not). B1699's sealed script failed at import after its seal; from B1702 on the check precedes the
+   seal. MANUAL.
+3. **A sealed lock re-derives its verdict cells from the stored output.** Every sealed arc of the window (B1694–B1702)
+   re-runs its comparison live from the committed outputs and the pinned data, so an output edited after the read fails
+   the lock whenever the edit changes a verdict (the reason R66-2 was declined at Review 67). MANUAL.
+4. **Two numerical zeros are compared absolutely.** A relative comparison of two values at machine zero is noise;
+   B1698's criterion check flagged its order-4 lines that way before the comparison was rewritten (disclosed). MANUAL.
+5. **A long numerical run's memory is checked once.** B1707's first run held every per-call `np.eye` under the
+   environment's NumPy and reached 36 GB before it was stopped; products are built from their first factor. Long runs are
+   launched as tracked background tasks, never with a shell `&`. MANUAL.
+6. **A lock never writes into the repository root.** B1428's lock ran a driver that writes to its working directory
+   with the root as that directory (Review 67's R67-8); a lock that runs a script runs it in a temporary directory. MANUAL.
+

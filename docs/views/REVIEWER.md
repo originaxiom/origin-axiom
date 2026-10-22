@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1435** |
-| words of findings prose | **1,147,383** |
-| test lock files referenced | **852** |
-| arcs carrying an authored verdict | **1435** (100.0 %) |
+| research arcs with findings | **1436** |
+| words of findings prose | **1,148,136** |
+| test lock files referenced | **853** |
+| arcs carrying an authored verdict | **1436** (100.0 %) |
 | recorded closures | **829** (662 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 978 |
+| PROVED | 979 |
 | NEGATIVE | 353 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1706`** (415 words, 1 locks)  
-GENESIS v1.52 (an amendment arc; P-237, Review 67's R67-3, after its full suite): sm:B1518's statements scoped to what B1458 re-derived (the own-level strata; THE_BAR's null model, grading and the torsion's AUC the seat's, unverified, row 823); of the audit lane's R57 only the quotient F2 -> Z^2 re-derived (B1457); R89 tagged (row 981); v1.51's tags lifted where the seat result is now verified on main (rows 888, 937, 939; sm:B1369) and scoped where partly (rows 828, 897, 898, 1061; sm:B1368, sm:B1370, sm:B1385); FK10 records that the Higgs's end data are the tagged unit (B1700). No status changes; the log's history not rewritten. 0 of 19.  
-`B1706_genesis_v1_52/FINDINGS.md`
+**PROVED — `B1707`** (753 words, 1 locks)  
+W111 ON MAIN (P-211; Review 67's R67-6; the proof read step by step, the transvection lemma re-derived by hand, the checks recomputed by main's own code): on a genus-g surface with one boundary the only SL(2, C) character fixed by the mapping classes is the trivial one from g = 2 on (at g = 1 also the quaternion point), the odd-p Heisenberg character is fixed at every genus, and an extraspecial 2-group character is fixed only at g = 1, where it is Q8; main's checks: every move keeps the boundary class (g = 1-3), the g = 2 search finds only the trivial character (21 of 40 starts converge, all trivial; the g = 1 control finds trivial and quaternion), H(3) and H(5) fixed at g = 1, 2, and of the Pauli representations only g = 1 with all squares -I is fixed, the all-minus g = 2 case broken by mu' alone. So on the surface route two records come from the prime 2 that the rank-two target forces, not from extending the moves. 0 of 19.  
+`B1707_w111_on_main/FINDINGS.md`
 
 **NEGATIVE — `B1702`** (636 words, 1 locks)  
 THE OTHER CUSP SHAPES (P-249; sealed f51ab2718, sha256 8f26df36; NEGATIVE as sealed -- H1, H2, H3 fail; outputs committed unread at df0737fa1): with the weave's tau at the silver word state's cusp shape 2i (B675) or the golden word's spin end curve 1/2 + sqrt3 i (B1483), the end-data Higgs DR, the canonical end and any of 576 lines, no choice brings the six ratios within a factor of 3 (best 8.9 at 2i, 19.4 at 1/2 + sqrt3 i; chi2 593; 24.7% of random hierarchies fit as well); the up quarks' m2/m3 stays >= 0.0134 (measured 0.0037). With B1696, no word-state cusp shape tested selects tau in this frame. 0 of 19.  

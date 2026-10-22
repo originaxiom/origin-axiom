@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-10-22, S179: the surface route verified (B1707, the SM seat's W111 on main): on a surface's moves only the trivial SL(2, ℂ) character is fixed from genus 2 on, the odd-p Heisenberg character at every genus, the 2-group only at genus 1 (Q₈) — two records come from the prime 2 the rank-two target forces. 0 of 19.)**
+
 **LATEST (2026-10-22, S178: GENESIS v1.52 (B1706): seat reliances scoped to what main re-derived, v1.51's tags lifted where the seat's result is now verified, and FK10 records that the Higgs's end data are the tagged unit (B1700). 0 of 19.)**
 
 **LATEST (2026-10-22, REVIEW 67: forty merges reviewed (B1685–B1704); the loop closed — R66-2 and R66-3 declined with reasons, R66-4 resolved (B1705: B186's band counted on the line); scope notes on B1692 and B1703 from the premise audit; the window's seven sealed value contacts all short of their bars. 0 of 19.)**

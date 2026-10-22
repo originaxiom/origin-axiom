@@ -1,5 +1,23 @@
 # Changelog
 
+## S179 W111 ON MAIN — THE SURFACE ROUTE VERIFIED (B1707, PROVED; P-211, Review 67's R67-6); B1428'S LOCK REPAIRED (R67-8) (2026-10-22)
+
+- **W111 verified on main** (the proof read step by step, the transvection lemma re-derived by hand, every check
+  recomputed by main's own code): on a genus-g surface with one boundary the only SL(2, ℂ) character the mapping classes
+  fix is the trivial one from g = 2 on (at g = 1 also the quaternion point); the odd-p Heisenberg character is fixed at
+  every genus; an extraspecial 2-group character is fixed only at g = 1, as Q₈. Main's checks: every move keeps the
+  boundary class (g = 1–3); the g = 2 search finds only the trivial character; H(3), H(5) fixed at g = 1, 2; of the
+  Pauli representations only g = 1 with all squares −I is fixed, the g = 2 all-minus case broken by μ′ alone. On the
+  surface route two records come from the prime 2 the rank-two target forces, not from extending the moves.
+- **R67-8.** B1428's lock runs `step7_fixed_gluing.py` in a temporary directory (it left `step7_table.json` in the
+  repository root after every suite).
+- **Instrument note.** The search leaked an `np.eye` per call under this NumPy (36 GB before it was stopped); rewritten
+  to build products from the first factor, the same values at flat memory.
+- **Register.** P-211 DONE; harvest row 1281 VERIFIED; R67-3, R67-6, R67-8 ticked. FLOOR 253.
+- **Currency.** PRACTICES (the window's six practices) and ERROR_LEDGER (five instances filed) read to B1707.
+- **Landing suite.** 118 files (B1707's lock, B1428's repaired lock, every arc lock and the corpus-scanning tests), 2052 passed, 1 failed, 3 skipped (6:19, -n 8; the P-232 glob lock re-run green after the instrument's test_words was renamed); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S178 GENESIS v1.52 (B1706; P-237, Review 67's R67-3) (2026-10-22)
 
 - **Through adoption/amend.py from the pinned v1.51**, after Review 67's full suite: sm:B1518's body statements scoped to

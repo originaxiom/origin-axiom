@@ -27,9 +27,16 @@ def _series(name, order=12):
     return drv.manifold_index(name, order) if hasattr(drv, "manifold_index") else None
 
 
+# Repaired 2026-10-22 (Review 67, R67-8): the driver writes step7_table.json to its working directory; run from the
+# repository root it left the file there after every suite. It runs in a temporary directory now (its imports come
+# from its own folder); the assertions read its stdout only.
+import tempfile as _tempfile
+_SCRATCH = _tempfile.mkdtemp(prefix="b1428_step7_")
+
+
 def test_the_driver_runs_and_reproduces_the_published_series():
     r = subprocess.run([sys.executable, str(V / "step7_fixed_gluing.py")],
-                       capture_output=True, text=True, timeout=1800, cwd=ROOT)
+                       capture_output=True, text=True, timeout=1800, cwd=_SCRATCH)
     assert r.returncode == 0, (r.stdout + r.stderr)[-900:]
     out = r.stdout
     # the published head of m004's series, as printed by the driver's control table
@@ -40,7 +47,7 @@ def test_the_driver_runs_and_reproduces_the_published_series():
 def test_the_index_does_not_separate_the_object_from_its_sibling():
     """the finding: same series on m004 and m003, different H1 -- with m015 as the separating control"""
     r = subprocess.run([sys.executable, str(V / "step7_fixed_gluing.py")],
-                       capture_output=True, text=True, timeout=1800, cwd=ROOT)
+                       capture_output=True, text=True, timeout=1800, cwd=_SCRATCH)
     assert r.returncode == 0
     assert "['m004', 'm003']" in r.stdout or "['m003', 'm004']" in r.stdout, (
         "m003 and m004 no longer collapse: the finding has changed")

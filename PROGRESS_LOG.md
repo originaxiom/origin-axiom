@@ -17685,3 +17685,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - P-237's amendment written as B1706's amend.py against the pinned v1.51; every anchor unique; status cells unchanged;
   thirteen v1.51 tags kept where the seat's result is still unverified. P-237 DONE.
 - **Suite.** The full suite (GENESIS changed): 7538 passed, 1 failed, 68 skipped (42:33, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-22 — S179 W111 ON MAIN (B1707); R67-8
+
+- W111's proof read; its checks written on main's own code and run (the first run stopped at 36 GB: an np.eye leak,
+  rewritten, re-run at flat memory); B1428's lock moved to a temporary directory. P-211 DONE.
+- PRACTICES and ERROR_LEDGER read to B1707 (the doc-currency gate).
+- **Landing suite.** 118 files (B1707's lock, B1428's repaired lock, every arc lock and the corpus-scanning tests), 2052 passed, 1 failed, 3 skipped (6:19, -n 8; the P-232 glob lock re-run green after the instrument's test_words was renamed); the one failure is B805's attachment lock (P-239)

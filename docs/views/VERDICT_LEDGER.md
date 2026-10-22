@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1435 of 1435 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1436 of 1436 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (978)
+## PROVED (979)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -990,6 +990,7 @@
 | `B1704` | WHAT HOLDS TAU (P-251; computed, no data): W62's PH3 is B1686's cusp algebra -- a content holds tau off the cusp only if its total cusp coefficient is negative (31/1024 = (31/512)/2), and every content on record is positive (5.45 to 66.57 zeta(6)), so none holds tau; adding trivial-sector Weyl fermions holds tau at i or near omega, where there is no hierarchy; scalars twisted along the shrinking cycle leave no minimum on the CP lines; a minimum in the hierarchy band needs net bosons in the matter's representation and a nearly cancelled cusp coefficient (matter + Higgs + 89-95 such scalars; with the gauge fields 595-672, with the graviton 689-780), each scalar moving tau* by 0.01-0.2 -- a fine-tuned integer content that nothing on record selects. 0 of 19. |  | 1 |
 | `B1705` | B186'S BAND DIMENSION RE-GRADED (Review 67, R66-4): at lambda = 0 the operator is Hermitian, so the band's spectrum is real, and B186's lock box-counted it in two dimensions after rescaling noise-level imaginary parts (1e-15) to unit range -- the value moved with the BLAS thread count; counted on the line it is 0.9385 (golden) and 0.8830 (silver) at both settings, against the off-axis 0.8272 and 0.7646, so B186's ordering stands by 0.11-0.12; its lock counts the band on the line and its printed band values carry a dated note. 0 of 19. |  | 2 |
 | `B1706` | GENESIS v1.52 (an amendment arc; P-237, Review 67's R67-3, after its full suite): sm:B1518's statements scoped to what B1458 re-derived (the own-level strata; THE_BAR's null model, grading and the torsion's AUC the seat's, unverified, row 823); of the audit lane's R57 only the quotient F2 -> Z^2 re-derived (B1457); R89 tagged (row 981); v1.51's tags lifted where the seat result is now verified on main (rows 888, 937, 939; sm:B1369) and scoped where partly (rows 828, 897, 898, 1061; sm:B1368, sm:B1370, sm:B1385); FK10 records that the Higgs's end data are the tagged unit (B1700). No status changes; the log's history not rewritten. 0 of 19. |  | 1 |
+| `B1707` | W111 ON MAIN (P-211; Review 67's R67-6; the proof read step by step, the transvection lemma re-derived by hand, the checks recomputed by main's own code): on a genus-g surface with one boundary the only SL(2, C) character fixed by the mapping classes is the trivial one from g = 2 on (at g = 1 also the quaternion point), the odd-p Heisenberg character is fixed at every genus, and an extraspecial 2-group character is fixed only at g = 1, where it is Q8; main's checks: every move keeps the boundary class (g = 1-3), the g = 2 search finds only the trivial character (21 of 40 starts converge, all trivial; the g = 1 control finds trivial and quaternion), H(3) and H(5) fixed at g = 1, 2, and of the Pauli representations only g = 1 with all squares -I is fixed, the all-minus g = 2 case broken by mu' alone. So on the surface route two records come from the prime 2 that the rank-two target forces, not from extending the moves. 0 of 19. |  | 1 |
 
 ## NEGATIVE (353)
 

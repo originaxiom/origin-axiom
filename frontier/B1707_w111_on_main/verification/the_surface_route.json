@@ -1,0 +1,204 @@
+{
+ "boundary_kept": {
+  "1": {
+   "tau0": true,
+   "tau'0": true
+  },
+  "2": {
+   "tau0": true,
+   "tau'0": true,
+   "tau1": true,
+   "tau'1": true,
+   "sigma0": true,
+   "mu'": true
+  },
+  "3": {
+   "tau0": true,
+   "tau'0": true,
+   "tau1": true,
+   "tau'1": true,
+   "tau2": true,
+   "tau'2": true,
+   "sigma0": true,
+   "sigma1": true,
+   "mu'": true
+  }
+ },
+ "a_search": {
+  "1": {
+   "converged": 40,
+   "trivial_or_traces_2": 7,
+   "quaternion_handles": 33,
+   "other": []
+  },
+  "2": {
+   "converged": 21,
+   "trivial_or_traces_2": 21,
+   "quaternion_handles": 0,
+   "other": []
+  }
+ },
+ "b_heisenberg_moves_breaking": {
+  "p=3 g=1": {},
+  "p=3 g=2": {},
+  "p=5 g=1": {},
+  "p=5 g=2": {}
+ },
+ "c_extraspecial": {
+  "g=1 squares ++": {
+   "fixed": false,
+   "moves_breaking": [
+    "tau'0",
+    "tau0"
+   ]
+  },
+  "g=1 squares +-": {
+   "fixed": false,
+   "moves_breaking": [
+    "tau0"
+   ]
+  },
+  "g=1 squares -+": {
+   "fixed": false,
+   "moves_breaking": [
+    "tau'0"
+   ]
+  },
+  "g=1 squares --": {
+   "fixed": true,
+   "moves_breaking": []
+  },
+  "g=2 squares ++++": {
+   "fixed": false,
+   "moves_breaking": [
+    "mu'",
+    "tau'0",
+    "tau'1",
+    "tau0",
+    "tau1"
+   ]
+  },
+  "g=2 squares +++-": {
+   "fixed": false,
+   "moves_breaking": [
+    "mu'",
+    "sigma0",
+    "tau'0",
+    "tau0",
+    "tau1"
+   ]
+  },
+  "g=2 squares ++-+": {
+   "fixed": false,
+   "moves_breaking": [
+    "sigma0",
+    "tau'0",
+    "tau'1",
+    "tau0"
+   ]
+  },
+  "g=2 squares ++--": {
+   "fixed": false,
+   "moves_breaking": [
+    "sigma0",
+    "tau'0",
+    "tau0"
+   ]
+  },
+  "g=2 squares +-++": {
+   "fixed": false,
+   "moves_breaking": [
+    "sigma0",
+    "tau'1",
+    "tau0",
+    "tau1"
+   ]
+  },
+  "g=2 squares +-+-": {
+   "fixed": false,
+   "moves_breaking": [
+    "tau0",
+    "tau1"
+   ]
+  },
+  "g=2 squares +--+": {
+   "fixed": false,
+   "moves_breaking": [
+    "mu'",
+    "sigma0",
+    "tau'1",
+    "tau0"
+   ]
+  },
+  "g=2 squares +---": {
+   "fixed": false,
+   "moves_breaking": [
+    "mu'",
+    "sigma0",
+    "tau0"
+   ]
+  },
+  "g=2 squares -+++": {
+   "fixed": false,
+   "moves_breaking": [
+    "mu'",
+    "sigma0",
+    "tau'0",
+    "tau'1",
+    "tau1"
+   ]
+  },
+  "g=2 squares -++-": {
+   "fixed": false,
+   "moves_breaking": [
+    "mu'",
+    "sigma0",
+    "tau'0",
+    "tau1"
+   ]
+  },
+  "g=2 squares -+-+": {
+   "fixed": false,
+   "moves_breaking": [
+    "tau'0",
+    "tau'1"
+   ]
+  },
+  "g=2 squares -+--": {
+   "fixed": false,
+   "moves_breaking": [
+    "sigma0",
+    "tau'0"
+   ]
+  },
+  "g=2 squares --++": {
+   "fixed": false,
+   "moves_breaking": [
+    "sigma0",
+    "tau'1",
+    "tau1"
+   ]
+  },
+  "g=2 squares --+-": {
+   "fixed": false,
+   "moves_breaking": [
+    "sigma0",
+    "tau1"
+   ]
+  },
+  "g=2 squares ---+": {
+   "fixed": false,
+   "moves_breaking": [
+    "mu'",
+    "sigma0",
+    "tau'1"
+   ]
+  },
+  "g=2 squares ----": {
+   "fixed": false,
+   "moves_breaking": [
+    "mu'"
+   ]
+  }
+ }
+}

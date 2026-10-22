@@ -13054,6 +13054,20 @@
    "status": "dormant",
    "domain": "dynamics"
   },
+  "B1707": {
+   "slug": "w111 on main",
+   "motifs": [
+    "action",
+    "trace_map",
+    "eisenstein",
+    "symplectic"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B170": {
    "slug": "relational scale leap",
    "motifs": [
