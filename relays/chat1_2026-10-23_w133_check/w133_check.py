@@ -23,7 +23,12 @@ The objects (as W133 states them; nothing here imports the SM seat's code):
       F_a(-1/tau) = tau^(3/2) rho(S) chi_eta^r(S) F_a with r = 2a mod 24; N(F_a) = i 2^a eta^9.
   C6  Which F_a lie in each h(r, n) (exact line orders against the bounds), and whether their number equals dim h(r, n).
   C7  Each F_a in a window, written in C4's basis (exact linear algebra), to confirm membership independently of C6.
-    python3 -B w133_check.py      # writes w133_check.json and w133_check_run.txt"""
+    python3 -B w133_check.py      # writes w133_check.json and w133_check_run.txt
+
+First launch (f86b337c6, log kept as w133_check_run_launch1_wrong.txt): C1 and C5 failed numerically because mpmath's
+jtheta takes the nome q^(1/2) and its principal q^(1/4) branch is wrong at Re tau outside (-1, 1); C4 counted
+coefficient vectors over a dependent set (E4^a E6^b Delta^-m for every m <= MMAX, which E4^3 - E6^2 = 1728 Delta
+relates).  Fixed here: thetas and eta summed directly in tau; the weakly holomorphic basis is Delta^-MMAX M_(k+12 MMAX)."""
 import json, math, cmath, pathlib, random
 from fractions import Fraction as Fr
 import mpmath as mp
@@ -152,13 +157,18 @@ say(f"line orders (x-units) of R, DR, D2R [i, +, -]: {OUT['line orders of R, DR,
 
 
 # ---------------------------------------------------------------- C1, C2 numerically and exactly
-def th(t):
-    qh = cmath.exp(1j * math.pi * t)                         # q^(1/2)
-    return (complex(mp.jtheta(2, 0, mp.mpc(qh))), complex(mp.jtheta(3, 0, mp.mpc(qh))), complex(mp.jtheta(4, 0, mp.mpc(qh))))
+def th(t):                                                   # direct sums in tau (no nome branch): th2, th3, th4
+    t = mp.mpc(t)
+    t2 = mp.fsum(mp.exp(1j * mp.pi * t * (n + mp.mpf(1) / 2) ** 2) for n in range(-40, 40))
+    t3 = mp.fsum(mp.exp(1j * mp.pi * t * n * n) for n in range(-40, 41))
+    t4 = mp.fsum((-1) ** n * mp.exp(1j * mp.pi * t * n * n) for n in range(-40, 41))
+    return complex(t2), complex(t3), complex(t4)
 
 
-def eta(t):
-    return complex(mp.eta(mp.mpc(t)))
+def eta(t):                                                  # e^(i pi tau/12) prod (1 - q^n), directly in tau
+    t = mp.mpc(t)
+    q = mp.exp(2j * mp.pi * t)
+    return complex(mp.exp(1j * mp.pi * t / 12) * mp.fprod(1 - q ** n for n in range(1, 400)))
 
 
 def Rnum(t):
@@ -224,9 +234,9 @@ def cpw(name, f, m):
     return _PW[(name, m)]
 
 
-def wh_basis(k, mmax):                                       # level-one weakly holomorphic forms of weight k, pole <= mmax
-    out = []
-    for m in range(0, mmax + 1):
+def wh_basis(k, mmax):                                       # level-one weakly holomorphic forms of weight k, pole <= mmax:
+    out = []                                                 # Delta^-mmax M_(k + 12 mmax), whose monomials are independent
+    for m in (mmax,):
         w = k + 12 * m
         if w < 0:
             continue
