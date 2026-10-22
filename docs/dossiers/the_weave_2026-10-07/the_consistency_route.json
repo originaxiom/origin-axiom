@@ -1,0 +1,1549 @@
+{
+ "arc": "W128",
+ "rule": "W128_RULE.md",
+ "status": "one run",
+ "C0": {
+  "checks": {
+   "the image group has order 96": true,
+   "it contains i.1 = rho(S)^2": true,
+   "the generators are W123's matrices (max |difference|)": true,
+   "SU(3)-free = {s_u = s_d = -s_Q}, 16 of 64": true,
+   "SU(2) values {6, 12, 18}": true,
+   "gravity-free given SU(3)-free = {s_e = s_nu = -s_L}, 4 of 16": true,
+   "none gravity-free without nu^c": true
+  },
+  "order": 96,
+  "identification residual": 0.0
+ },
+ "C1": {
+  "checks": {
+   "(a) after the linear conditions the cubic is a constant times y_Q (y_u - 2 y_Q)(y_u + 4 y_Q)": true,
+   "(a) at y_Q = 1/6, y_u is -2/3 (the SM) or 1/3 (u/d relabelled), and both are solutions": true,
+   "(a) at y_Q = 0: y_L = y_e = 0, y_u = -y_d, a family of solutions": true,
+   "(a) Witten's global anomaly: 3 + 1 = 4 doublets per generation, an even number": true,
+   "(b) every SM bilinear needs a doublet with |Y| = 1/2": true,
+   "(b) one field serves all: the colour singlet is forced by the leptons": true,
+   "(c) the degenerate family needs |Y| = |s| and 0: two fields unless s = 0": true,
+   "(d) a Y + b (B - L) is anomaly-free with nu^c": true,
+   "(d) one doublet of charge a/2 and B - L 0 serves every bilinear": true
+  },
+  "the cubic after the linear conditions": "18*y_Q*(2*y_Q - y_u)*(4*y_Q + y_u)",
+  "its ratio": "-18",
+  "the SM bilinears": {
+   "Q u^c": {
+    "Y of the field": "1/2",
+    "SU(2)": 2,
+    "colour allowed": [
+     1,
+     8
+    ]
+   },
+   "Q d^c": {
+    "Y of the field": "-1/2",
+    "SU(2)": 2,
+    "colour allowed": [
+     1,
+     8
+    ]
+   },
+   "L e^c": {
+    "Y of the field": "-1/2",
+    "SU(2)": 2,
+    "colour allowed": [
+     1
+    ]
+   },
+   "L nu^c": {
+    "Y of the field": "1/2",
+    "SU(2)": 2,
+    "colour allowed": [
+     1
+    ]
+   }
+  },
+  "a Y + b (B - L) bilinears (Y, B - L)": {
+   "Q u^c": [
+    "a/2",
+    "0"
+   ],
+   "Q d^c": [
+    "-a/2",
+    "0"
+   ],
+   "L e^c": [
+    "-a/2",
+    "0"
+   ],
+   "L nu^c": [
+    "a/2",
+    "0"
+   ]
+  }
+ },
+ "C2": {
+  "checks": {
+   "(a) both quark bilinears with a singlet field iff the SU(3)-free set": true,
+   "(a) both lepton bilinears iff s_e = s_nu = -s_L": true,
+   "(a) all four iff the SU(3)- and gravity-free set, 4 of 64": true,
+   "(a) the invariant's multiplicity in T (x) T-bar is 1": true,
+   "(b) a T or T-bar field gives no invariant in any bilinear under any assignment": true
+  },
+  "by assignment (Q u d L e nu; + = T)": {
+   "++++++": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+++++-": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "++++-+": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 1,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "++++--": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 1,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+++-++": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 1,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+++-+-": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 1,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+++--+": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+++---": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "++-+++": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 1,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "++-++-": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 1,
+     "L e^c": 0,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "++-+-+": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 1,
+     "L e^c": 1,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "++-+--": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 1,
+     "L e^c": 1,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "++--++": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 1,
+     "L e^c": 1,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "++--+-": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 1,
+     "L e^c": 1,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "++---+": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 1,
+     "L e^c": 0,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "++----": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 1,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+-++++": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+-+++-": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+-++-+": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 0,
+     "L e^c": 1,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+-++--": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 0,
+     "L e^c": 1,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+-+-++": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 0,
+     "L e^c": 1,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+-+-+-": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 0,
+     "L e^c": 1,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+-+--+": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+-+---": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+--+++": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 1,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+--++-": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 1,
+     "L e^c": 0,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+--+-+": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 1,
+     "L e^c": 1,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+--+--": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 1,
+     "L e^c": 1,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+---++": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 1,
+     "L e^c": 1,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+---+-": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 1,
+     "L e^c": 1,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+----+": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 1,
+     "L e^c": 0,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "+-----": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 1,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-+++++": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 1,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-++++-": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 1,
+     "L e^c": 0,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-+++-+": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 1,
+     "L e^c": 1,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-+++--": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 1,
+     "L e^c": 1,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-++-++": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 1,
+     "L e^c": 1,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-++-+-": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 1,
+     "L e^c": 1,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-++--+": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 1,
+     "L e^c": 0,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-++---": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 1,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-+-+++": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-+-++-": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-+-+-+": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 0,
+     "L e^c": 1,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-+-+--": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 0,
+     "L e^c": 1,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-+--++": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 0,
+     "L e^c": 1,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-+--+-": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 0,
+     "L e^c": 1,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-+---+": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-+----": {
+    "1": {
+     "Q u^c": 1,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "--++++": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 1,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "--+++-": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 1,
+     "L e^c": 0,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "--++-+": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 1,
+     "L e^c": 1,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "--++--": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 1,
+     "L e^c": 1,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "--+-++": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 1,
+     "L e^c": 1,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "--+-+-": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 1,
+     "L e^c": 1,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "--+--+": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 1,
+     "L e^c": 0,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "--+---": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 1,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "---+++": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "---++-": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "---+-+": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 1,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "---+--": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 1,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "----++": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 1,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "----+-": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 1,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "-----+": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 1
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   },
+   "------": {
+    "1": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    },
+    "T-bar": {
+     "Q u^c": 0,
+     "Q d^c": 0,
+     "L e^c": 0,
+     "L nu^c": 0
+    }
+   }
+  }
+ },
+ "C3": "a READING by hand, in W128's record",
+ "C4": {
+  "checks": {
+   "22 data match": true,
+   "at 0 and L6, I = f iff n = 1 and t_r = 0": true,
+   "the other solutions are (V2, 20, 0) and (V4, 4, 2)": true,
+   "the joint index never equals 6 f": true
+  },
+  "the matching set (cond, r, n)": [
+   [
+    "0",
+    0,
+    1
+   ],
+   [
+    "0",
+    8,
+    1
+   ],
+   [
+    "0",
+    12,
+    1
+   ],
+   [
+    "0",
+    16,
+    1
+   ],
+   [
+    "0",
+    20,
+    1
+   ],
+   [
+    "L6",
+    0,
+    1
+   ],
+   [
+    "L6",
+    4,
+    1
+   ],
+   [
+    "L6",
+    8,
+    1
+   ],
+   [
+    "L6",
+    12,
+    1
+   ],
+   [
+    "L6",
+    16,
+    1
+   ],
+   [
+    "V2",
+    0,
+    1
+   ],
+   [
+    "V2",
+    4,
+    1
+   ],
+   [
+    "V2",
+    8,
+    1
+   ],
+   [
+    "V2",
+    12,
+    1
+   ],
+   [
+    "V2",
+    16,
+    1
+   ],
+   [
+    "V2",
+    20,
+    0
+   ],
+   [
+    "V4",
+    0,
+    1
+   ],
+   [
+    "V4",
+    4,
+    2
+   ],
+   [
+    "V4",
+    8,
+    1
+   ],
+   [
+    "V4",
+    12,
+    1
+   ],
+   [
+    "V4",
+    16,
+    1
+   ],
+   [
+    "V4",
+    20,
+    1
+   ]
+  ],
+  "W127's exact h at each matching datum (canonical hand)": {
+   "('0', 0, 1)": 3,
+   "('0', 8, 1)": 3,
+   "('0', 12, 1)": 3,
+   "('0', 16, 1)": 3,
+   "('0', 20, 1)": 3,
+   "('L6', 0, 1)": 3,
+   "('L6', 4, 1)": 4,
+   "('L6', 8, 1)": 3,
+   "('L6', 12, 1)": 3,
+   "('L6', 16, 1)": 3,
+   "('V2', 0, 1)": 3,
+   "('V2', 4, 1)": 4,
+   "('V2', 8, 1)": 3,
+   "('V2', 12, 1)": 3,
+   "('V2', 16, 1)": 3,
+   "('V2', 20, 0)": 0,
+   "('V4', 0, 1)": 3,
+   "('V4', 4, 2)": 7,
+   "('V4', 8, 1)": 3,
+   "('V4', 12, 1)": 3,
+   "('V4', 16, 1)": 3,
+   "('V4', 20, 1)": 3
+  },
+  "the joint index, sum over the six twists": {
+   "0 n=-1": 17.0,
+   "0 n=0": -1.0,
+   "0 n=1": -19.0,
+   "0 n=2": -37.0,
+   "V2 n=-1": 5.0,
+   "V2 n=0": -1.0,
+   "V2 n=1": -7.0,
+   "V2 n=2": -13.0,
+   "V4 n=-1": -7.0,
+   "V4 n=0": -1.0,
+   "V4 n=1": 5.0,
+   "V4 n=2": 11.0,
+   "L6 n=-1": -19.0,
+   "L6 n=0": -1.0,
+   "L6 n=1": 17.0,
+   "L6 n=2": 35.0
+  }
+ },
+ "C5 (read-out)": {
+  "the gauge side": "massive chiral matter needs a colour-singlet SU(2) doublet with |Y| = 1/2; one serves every mass (C1)",
+  "the flavour side": "with the moves as a symmetry and constant couplings the field is a move singlet, consistent exactly at B1674's anomaly-free assignments; no triplet field couples (C2)",
+  "index matching": "forces n = 1 with t_r = 0 at the natural conditions; never for the joint field (C4)"
+ },
+ "cells": {
+  "C0": true,
+  "C1": true,
+  "C2": true,
+  "C4": true
+ },
+ "every cell holds": true
+}
