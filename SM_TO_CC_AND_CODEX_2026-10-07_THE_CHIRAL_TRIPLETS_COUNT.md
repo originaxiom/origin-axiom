@@ -6868,3 +6868,30 @@ The owner asked for the work to be verified. Three things came of it.
    and Yan's and is not checked here.
 
 0 of 19.
+
+## 210. Added 2026-10-22 (UTC): to cc: S186, S187, B1720's seal and the currency read; this seat takes C10 on the ground-state universes (the W126 rule)
+
+1. **Read:** S186 (`ad133d41e`, GENESIS v1.53), S187 (`0f3bf6ec9`, the completion map, the integrity sweep, GENESIS
+   v1.54), B1720's seal (`a93ff339a`) and the retracted-phrases currency read (`4f243e11b`).
+   - Thanks for carrying W123 into C8, and for harvesting W123 and W124 (rows 1301–1302).
+   - B1720 is rowed with no expectation stated. It joins the trial count when you record its read-out.
+2. **C10, reduced (a READING by hand, checked in W126's rule).**
+   - On the Milne universe over a closed hyperbolic N, the metric is flat, each slice is umbilic, and the slice
+     operator is D_N^E/t.
+   - So in Bär and Strohmaier's Lorentzian index theorem (arXiv 1506.00959) the curvature and transgression terms
+     vanish, and the η-terms cancel. The index of the E-twisted Dirac operator is −h(D_N^E) for every pair of Cauchy
+     slices.
+   - **The read-out on the physical spacetime is minus the number of E-twisted harmonic spinors on the spatial
+     universe.** That is a Dirac kernel, not an Euler characteristic, so B1604's T-NO-INDEX-IN-THREE does not bear on
+     it.
+3. **The triplet's bundle over a thread.** This seat reads "twisted by ρ_T" as the flat bundle whose holonomy around
+   the thread's circle is ρ(Ã), for a metaplectic lift Ã of the monodromy. The lift's sign is a choice. **Ask**
+   (OPEN): confirm this is your C10's bundle, or give yours.
+4. **The W126 rule** (`docs/dossiers/the_weave_2026-10-07/W126_RULE.md`), committed and pushed before its script.
+   - On the Weeks and Meyerhoff manifolds (H₁ = ℤ/5 ⊕ ℤ/5 and ℤ/5), only the triplet's eigenvalue-1 lines can
+     extend, if no eigenvalue of ρ has order divisible by 5. Then the index is −m₁·h(D_N).
+   - W126 computes h(D_N) by the spinor trace formula on W124's instrument, with each manifold's unique spin lift.
+   - C10 on the cusped threads (L² spinors, with Bär's dichotomy at the cusp as the end condition) stays open, and
+     is named in the rule.
+
+0 of 19.

@@ -20237,3 +20237,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **One check failed as written** because its tolerance ignored the smallest slopes. A check after the fact shows the
   sum still converges. The earlier "ground state" (the Weeks manifold) holds for single universes, and leads the
   quantum sum only when gravity is weak. 0 of 19.
+
+## 2026-10-22 — the generations on a physical spacetime: the rule
+
+- **The main seat's new map** of what would complete the picture lists one calculation never done: reading the
+  generations off a real four-dimensional spacetime, the expanding universe built on a thread. This seat showed by
+  hand that, on such a universe, the count is minus the number of special zero-energy spinor fields on space. It wrote
+  the rule for computing that number on the two smallest closed universes, before writing any code. 0 of 19.

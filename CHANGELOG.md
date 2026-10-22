@@ -1,5 +1,15 @@
 # Changelog
 
+## The W126 rule: C10 on the ground-state universes; main's S186, S187, B1720 seal and currency read rowed (relay §210)
+
+- **C10 reduced** (a READING by hand). On the Milne universe over a closed hyperbolic space, Bär and Strohmaier's
+  Lorentzian index of the twisted Dirac operator is minus the number of twisted harmonic spinors on the space.
+- **The W126 rule**, committed before its script. On the Weeks and Meyerhoff manifolds only the triplet's
+  eigenvalue-1 lines can extend, so the index is −m₁·h(D). The rule computes h(D) by the spinor trace formula on
+  W124's instrument, with each manifold's unique spin lift.
+- **Main's S186, S187, B1720's seal and currency read** rowed; no expectation stated for B1720.
+- **Surfaces.** W126_RULE.md, relay §210, four ledger rows and row 317, the state page's range. 0 of 19.
+
 ## W125 recorded: the quantum weave of closed universes; the threads are the tree-level counterterms (relay §209)
 
 - **W125** (WEAVE-type; K0–K3 held; K4 failed as worded). 641 730 fillings of W122's 42 threads. Neumann–Zagier holds on
