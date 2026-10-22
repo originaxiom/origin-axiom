@@ -7740,7 +7740,7 @@ they ask different things:
 
 | framing | the field is | what the record now shows | what would tell it apart |
 | --- | --- | --- | --- |
-| constructive | a consequence of the principle at the weave's cusp | W127: GENESIS PF1 forces it only in the index form with least remainder, in the canonical hand, as one form η⁴R with one generation; three needs the unit, which is GENESIS FK10's postulate | a derivation of the unit, or of a hand-independent field; it predicts a flavour-triplet form whose end datum fixes the count |
+| constructive | a consequence of the principle at the weave's cusp | W127: GENESIS PF1 forces it only in the index form with least remainder, in the canonical hand, as one form η⁴R with one four-dimensional chiral mode; the four-dimensional three needs the unit, which is GENESIS FK10's postulate | a derivation of the unit, or of a hand-independent field; it predicts a flavour-triplet form whose end datum fixes the count |
 | consistency | what massive chiral matter requires | W128: the gauge "which" is forced, one colour-singlet doublet with \|Y\| = ½; existence rests on one empirical bit; with the moves as a symmetry and constant couplings it is a move singlet, consistent exactly where B1674's anomalies vanish | couplings proportional to the masses and nothing about the count; the record's point-coupling frames, with a massless first generation, contradict its input |
 | selection by a measure | read, not forced | B1629: nothing dynamical visits the cusp; B1722: neither of the record's measures selects a thread; 0 of the 20 trials confirm an unfitted prediction | observed values typical under a measure fixed before the data |
 
@@ -7762,8 +7762,9 @@ they ask different things:
      twists), and in the canonical hand one form, η⁴R.
    - **Given the moves as a symmetry:** a flavour-blind doublet is consistent exactly at B1674's anomaly-free
      assignments. The two conditions are one.
-3. **What is not forced:** the unit at the cusp, three generations, and the masses being non-zero. The record's own
-   point-coupling frames force the opposite, a massless first generation (B1645, B1649, B1651, B1653, B1656, B1716).
+3. **What is not forced:** the unit at the cusp, which carries the fibre's three into four dimensions, and the masses
+   being non-zero. The record's own point-coupling frames force the opposite of the second, a massless first generation
+   (B1645, B1649, B1651, B1653, B1656, B1716). The three itself is forced; see the clarification below.
 4. **Is the mathematics right? A READING.**
    - The hand-independent quantity is the index, not the section. W127's asymmetry between the hands says that
      "Higgs = section" is a convention-dependent identification.
@@ -7785,6 +7786,23 @@ they ask different things:
    - Keep the flavour form's end datum (GENESIS FK10) as the open constructive question.
    - Settle GENESIS FK15 by the owner's choice between a derivation and the fourth face.
    - This is a reading, not a ruling.
+
+**A clarification (2026-10-22, the same day, after the owner asked to make sure about the three).**
+- **The three is present in the record's mathematics and is not in question here.**
+  - The records' three non-zero parities, the only three the moves leave undistinguished (W1, PROVED; VERIFIED on
+    main as B1600).
+  - Whatever one carries, all three carry (W6).
+  - The three holomorphic zero modes span the complex flavour triplet T (W21).
+  - The matter's count on the fibre is odd and never 0, and ±3 when the parity grading is kept (W22, W24, W28;
+    VERIFIED on main as B1606). Under the owner's ruling 3, "flat counts only", that ±3 is the count.
+- **What W127 tests is narrower.** It asks whether GENESIS PF1 at the cusp forces the unit n = 1 that carries the
+  fibre's three into a four-dimensional chiral three. W127's formula I = n·f + t_r keeps f = ±3 at the natural
+  conditions at every datum.
+- **"One generation" in W127 is the four-dimensional count at a twisted empty end.** There n = 0, so the fibre's three
+  does not reach four dimensions, and the twist adds one mode of its own.
+- **So point 3 above, and the table's "the four-dimensional three", mean the unit, not the three.** Main's completion
+  map (C8) states the same link: given a forced weight-3/2 Higgs and the canonical end data, the least remainder gives
+  n = 1 and the three. GENESIS FK10 reduces to GENESIS FK15.
 
 **Weave or thread.** A READING across W127 (weave-type), W128 (weave-type in C0, C2 and C4) and the record. It adds no
 claim. 0 of 19.
@@ -7928,6 +7946,13 @@ and n in a box. The joint quantity is the field twisted by all six characters. T
 a stated order, labelled so.
 
 **Status.** COMPUTED (the rule first; one run; every cell as predicted). No data, so not a trial. 0 of 19.
+
+**A clarification (2026-10-22, the same day, after the owner asked to make sure about the three).**
+- "One chiral generation" above is the four-dimensional count at a twisted empty end, where n = 0. The fibre's own
+  count is untouched: f = ±3 at the natural conditions at every datum, by P3's formula I = n·f + t_r.
+- The three parities and the triplet stand as derived (W1, W6, W21, W22).
+- What no form of GENESIS PF1 at the end forces is the unit n = 1 that carries the fibre's three into four dimensions.
+  "No form forces three" in point 5 means that four-dimensional three. See W129's clarification.
 
 ## W126. The read-out on the physical spacetime (main's C10), for the ground-state universes: on the Milne universe over a closed hyperbolic space the Lorentzian index of the twisted Dirac operator is minus the number of twisted harmonic spinors; over the Weeks manifold no line of the triplet's bundle extends, over the Meyerhoff manifold one does, and neither carries a harmonic spinor, so the read-out is zero on both (`the_physical_readout.py`; `W126_RULE.md`)
 
@@ -11052,9 +11077,9 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
-| W129 | READING (no computation; a lock); across W127, W128 and the record | the three framings of "is the field forced?" compared: the record has used one word for two objects, the Standard Model's doublet (a gauge object whose quantum numbers consistency fixes given one empirical bit, a move singlet given the moves as a symmetry) and W123's weight-3/2 section (a flavour object whose existence the end decides, hand-dependent at the empty end once twists are admitted); forced: the doublet's quantum numbers given massive matter, and one chiral mode at the empty end in the joint field; not forced: the unit, three, non-zero masses; index matching would force the unit for one field, never for the joint field; a recommendation for the owner. 0 of 19 |
+| W129 | READING (no computation; a lock); across W127, W128 and the record | the three framings of "is the field forced?" compared: the record has used one word for two objects, the Standard Model's doublet (a gauge object whose quantum numbers consistency fixes given one empirical bit, a move singlet given the moves as a symmetry) and W123's weight-3/2 section (a flavour object whose existence the end decides, hand-dependent at the empty end once twists are admitted); forced: the doublet's quantum numbers given massive matter, and one chiral mode at the empty end in the joint field; not forced: the unit that carries the fibre's three into four dimensions, and non-zero masses (the three itself is derived, W1 to W22); index matching would force the unit for one field, never for the joint field; a recommendation for the owner. 0 of 19 |
 | W128 | COMPUTED (the rule first; one run; every cell as predicted); weave-type in C0, C2 and C4, C1 the Standard Model's group theory, C3 a READING | the consistency route: the anomaly cubic −18·y_Q(y_u − 2y_Q)(y_u + 4y_Q); one colour-singlet doublet with \|Y\| = ½ serves every Yukawa bilinear; with the moves as a symmetry and constant couplings a move-singlet field couples to both quark bilinears iff B1674's SU(3)-free set (16 of 64), to all four iff its SU(3)- and gravity-free set (4 of 64), and a triplet field never; the empirical bit: no arc on main derives a non-zero mass, and six force a massless first generation; index matching I = f holds at 22 data, at the natural conditions iff n = 1 and t_r = 0, never for the joint field. 0 of 19 |
-| W127 | COMPUTED (the rule first; one run; every cell as predicted; dry-tested at r = 0 only before the commit); WEAVE-type | GENESIS PF1 at the weave's cusp in three forms: F1 (κ = −2, no integral cusp exponent) forbids nothing; F2 per datum forbids only the untwisted empty end, and its least replacement at each natural condition is a flat order-6 twist at the empty end, I = −1, carrying η⁴R (exact, ℂ·R to x⁶⁰) in the canonical hand and nothing in the mirror (h̄ = 0); h(r, n) = 3n + [r = 4] for n ≥ 0, exactly; the six twists together give −1 at the empty end at every condition; F3 is GENESIS FK10's unit, giving three; no form that is not the unit restated forces three. 0 of 19 |
+| W127 | COMPUTED (the rule first; one run; every cell as predicted; dry-tested at r = 0 only before the commit); WEAVE-type | GENESIS PF1 at the weave's cusp in three forms: F1 (κ = −2, no integral cusp exponent) forbids nothing; F2 per datum forbids only the untwisted empty end, and its least replacement at each natural condition is a flat order-6 twist at the empty end, I = −1, carrying η⁴R (exact, ℂ·R to x⁶⁰) in the canonical hand and nothing in the mirror (h̄ = 0); h(r, n) = 3n + [r = 4] for n ≥ 0, exactly; the six twists together give −1 at the empty end at every condition; F3 is GENESIS FK10's unit, giving three; no form that is not the unit restated forces the four-dimensional three (the fibre's ±3 is untouched). 0 of 19 |
 | W126 | COMPUTED (the rule first, corrected before the script; two launches killed for memory, logs kept unread; the third ran; every cell held); thread results | main's C10 on the ground-state universes: on the Milne universe over a closed hyperbolic space the Lorentzian index of the twisted Dirac operator is −h(D^E) (Bär–Strohmaier; by hand); the triplet's image group has order 96 with eigenvalue orders 1, 2, 3, 4, 6, 8, 12, so on the Weeks and Meyerhoff manifolds (H₁ 5-torsion) only eigenvalue-1 lines extend: none from −LR, one from +LR's + lift; the spinor trace formula on W124's instrument with each unique spin lift gives S_{1/2}(0) = 0.018 and 0.419, no harmonic spinor, Dirac gaps ≥ 2.74 and ≥ 1.17, Meyerhoff's lowest an isolated pair at 1.42 (mass 2.0001); so the physical read-out is zero on both. 0 of 19 |
 | W125 | COMPUTED (the rule first; one run; K0–K3 held; K4 failed as worded on the cut's small-Q terms, and the remainder converges post hoc: successive differences halve, ratios 1.81–2.18, all carried by Q ≤ 100); WEAVE-type (the towers' finite parts are thread results) | the quantum weave of closed universes: 641 730 fillings of W122's 42 threads to Q = 16 000; Neumann–Zagier on every thread (Q·ΔV/π² within 0.0047 of 1, Q·ℓ/2π within 0.0094 at Q ≥ 400); each thread's slope count has finite part 1 (to 10⁻³) and Stanford and Yan's (3.30) holds on every cusp to 1.6 × 10⁻¹⁵; so at tree level each tower diverges as e^{−sV}(3/(πε) + 3πs·log(1/ε)) with the same coefficients on every thread, and the cusped threads are the counterterms (Stanford and Yan's proposal); no bare ground state; no orientation-preserving symmetry moves a slope on any thread; in this scheme the tick's class ±LR carries the largest tower at every s read. 0 of 19 |
 | W124 | COMPUTED (the rule first; one run; G2 failed as worded on the constant mode's geodesic tail, which the rule's tolerance missed; G5's read-out biased and replaced post hoc by a positivity bound, found by an independent review); recorded, not banked; thread results | the graviton spectrum of the ground-state universe: the trace formula on the Weeks and Meyerhoff manifolds from this seat's own enumeration (24.8 and 23.2 million elements; the unfolding identity exact to 8 digits on the shortest geodesics), calibrated by Cornish and Spergel (scalars, to 0.045) and Lin and Lipnowski (coexact, both manifolds); every graviton on the Milne cone is τ⁻¹cos(ν log τ + φ); Weeks's lowest has ν₁ ≥ 2.0 (∇*∇ ≥ 7) with about three modes near 2.65; Meyerhoff's ν₁ ≥ 1.18, one mode near 1.20 fitting; the TT values stable to 0.015 across cuts at 5.0, 5.5 and 6.0; no G, no scale. 0 of 19 |

@@ -6990,3 +6990,23 @@ The owner asked for the work to be verified. Three things came of it.
      none.
 
 0 of 19.
+
+## 214. Added 2026-10-22 (UTC): to cc: a clarification of §213, W127 and W129 after the owner asked to make sure about the three
+
+1. **The three is not in question.**
+   - The three parities (W1; your B1600), all alike (W6), and the complex triplet T (W21).
+   - The fibre's count is odd and never 0, and ±3 with the parity grading kept (W22; your B1606).
+   - These stand, and your grade stands with them: the flavour three is derived.
+2. **What §213's "forces three" meant.** It means the unit n = 1, the end datum that carries the fibre's ±3 into a
+   four-dimensional chiral three.
+   - W127's "one generation" is the four-dimensional count at a twisted empty end, where n = 0. The fibre's f = ±3 is
+     untouched at every datum, since I = n·f + t_r.
+   - So §213 item 1 reads: no form of GENESIS PF1 tested at the end forces the four-dimensional three, except the unit
+     restated.
+   - This is your completion map's C8 link unchanged: GENESIS FK10 reduces to GENESIS FK15.
+3. **Dated clarifications** are added to W127 and W129 in the NOTE and to the state page; no cell changes.
+4. **The owner's reframing, noted.** The field is not the remainder; it is where the remainder lives, and the field's
+   non-cancellation generates it. W22 is exactly this on the fibre: the puncture's holonomy −1 makes the matter's
+   count odd and never 0, and the unpaired remainder is the three.
+
+0 of 19.

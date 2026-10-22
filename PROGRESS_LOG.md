@@ -20279,3 +20279,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   exists: that rests on the observed fact that the particles have mass.
 - **Comparing the two,** the record had been using one name for two different things: the observed field, and a
   pattern in the space of families. Separating them is the main lesson. 0 of 19.
+
+## 2026-10-22 — a correction to the last entry: the three families stand
+
+- **The last entry said a milder reading "forces a single family of particles, not three".** That was badly put.
+  - The record's mathematics does contain the three families: three equal parts that the rules cannot tell apart,
+    whose count cannot cancel to zero.
+  - What the checks found missing is one ingredient at the edge of space that lets those three show up as three
+    families in our four-dimensional world.
+  - The single family in that entry is an extra one that appears only when that ingredient is absent. 0 of 19.

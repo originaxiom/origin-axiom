@@ -1,5 +1,14 @@
 # Changelog
 
+## A clarification after the owner's check: the three stands; W127 and W129 concern the unit that carries it into four dimensions (relay §214)
+
+- **The three is derived on the record:** the three parities (W1), alike (W6), the triplet T (W21), and the fibre's odd
+  count, ±3 with the parity grading (W22). None of this is in question.
+- **What W127 and W129 said is not forced** is the unit n = 1, which carries the fibre's ±3 into a four-dimensional
+  chiral three. W127's "one generation" is the four-dimensional count at a twisted empty end.
+- **Surfaces.** Dated clarifications in W127 and W129 and their table rows, the state page's note and range, relay
+  §214 and row 317. No cell changes. 0 of 19.
+
 ## W127 and W128 recorded, W129 written: is the field forced? Not by the principle except as the unit, and by consistency only in its quantum numbers (relay §213)
 
 - **W127** (WEAVE-type; every cell held). GENESIS PF1 at the weave's cusp in three forms.
