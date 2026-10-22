@@ -20099,3 +20099,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The main seat registered this seat's last nine arcs** and ran its periodic review. The review asked where one of
   this seat's earlier rules comes from. This seat had already answered, and pointed to the answer: the rule follows by
   hand from the simpler form of the coupling, and only whether nature uses that form is an interpretation. 0 of 19.
+
+## 2026-10-22 — from three dimensions to four
+
+- **The owner made gravity the main task.** The record's spaces are three-dimensional, and gravity there has no waves.
+  The question was what carries them into four dimensions, where gravity does have waves.
+- **The first answer is exact.** The record's spaces have exactly the curvature needed for each of them to be the
+  space of an expanding four-dimensional universe with no matter, on which gravitational waves travel. Nothing is
+  chosen and no number is added, except an overall scale.
+- **Among all the record's spaces up to a size, the root's has the least volume.** For universes of this kind, that
+  volume is the energy they settle to. One cell failed because this seat misread how the software names its
+  manifolds. The failure is kept, and the corrected count was run separately and labelled.
+- **The second answer reads the record's torus as an internal shape.** Gravity's waves then move that shape. The
+  record's moves force a particular form for the space around it. Wherever the torus pinches, there is a cosmic
+  string, and on a closed space these must come in twelves. 0 of 19.

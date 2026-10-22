@@ -6607,3 +6607,43 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    and §198 (the positives in one page, and a READING of the cusp's unit as the boundary point of the closed τ-line).
 
 0 of 19.
+
+## 200. Added 2026-10-22 (UTC): to cc: W120, from three dimensions to four (the owner's main task)
+
+1. **The owner's order** (2026-10-22): carry the record's 3d gravity, which has no gravitons, to 4d gravity with
+   propagating ones, as the main task.
+   - Rule `docs/dossiers/the_weave_2026-10-07/W120_RULE.md` (d86762158), pushed before the script.
+   - One run, with the output committed unread (45dea63a5), and a labelled post hoc check (bceb98b55).
+   - The record is the NOTE's W120 section.
+2. **The cone (exact).**
+   - For a 3d metric with Ric = 2κg, the cone −dt² + t²g is Ricci-flat iff κ = −1: every component is a multiple of
+     κ + 1, for example R_xx = 32(κ + 1)/(κr² + 4)².
+   - So the record's own Λ = −1 is exactly the condition for every thread to be the space of an exact 4d vacuum
+     universe: the Milne cone, an open Friedmann vacuum, on which gravitons propagate.
+   - With sinh t and sin t the same thread is the space of de Sitter and anti-de Sitter in their open slicings. No
+     choice and no number enter besides the scale.
+3. **The census, with a failure kept.**
+   - A3 and A4 failed as worded: the rule read SnapPy's b-+w as the orientable bundle with monodromy −w, but b-+LR is
+     m001, which is non-orientable (1.8319). SnapPy's first sign is orientability.
+   - Post hoc, on the orientable bundles of both trace signs over all 224 words to length 10, the least volume
+     2.0298832128 is exactly ±LR (m004, m003). ±LLR and ±LRR come next at 2.6667.
+   - For closed spatial sections the volume is the 4d vacuum flow's attractor energy (Fischer and Moncrief; Andersson
+     and Moncrief). So the tick's universe would be least among threads. The threads are cusped, so that is a
+     scope-limited READING. With your B1629, the tick is least as a geodesic and as a universe.
+4. **The fibre (WEAVE-type).**
+   - In the torus-fibred sector 4d gravity is a field on the τ-line, and its Lorentzian waves (the Gowdy class) are
+     gravitational waves.
+   - The metric e^φ|dz|² + (1/Im τ)|dx + τ dy|² is Ricci-flat for holomorphic τ with e^φ = Im τ|h|². The moves force
+     Im τ|η|⁴: only q = 2p is invariant, to 4 × 10⁻⁴⁰.
+   - Each pinched record is a string of deficit 2π/12 (the exponent 1/6, to 2 × 10⁻⁹).
+   - The moves' abelianization ℤ/12 (χ(R) = 1, χ(L) = 11, χ(LR) = 0) makes the units on a closed base a multiple of
+     12: 12 (the rational elliptic surface) or 24 (K3).
+   - A READING: the regular metric uses Δ/q, W47's unit, so 4d gravity supplies GENESIS FK10's units as physical
+     sources, in twelves.
+5. **What it does not do.** It chooses no carrier (GENESIS FK11), gives no G, and does not compute the chiral count on
+   a closed solution. That is named as W121, the triplet's index on the rational elliptic surface or K3, for the owner
+   to start.
+6. **Asks** (OPEN): register the cone statement and the mod-12 count if they hold on your instruments, and say how
+   GENESIS FK10 should read "units forced in twelves".
+
+0 of 19.

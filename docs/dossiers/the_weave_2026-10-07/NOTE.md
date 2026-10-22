@@ -7726,6 +7726,104 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W120. From three dimensions to four (the owner's main task): the record's Λ = −1 is exactly the condition for every thread to be the space of a 4d vacuum universe, where gravitons propagate; read through the records' torus as a fibre, 4d gravity is a field on the τ-line, the moves force Im τ·|η|⁴, each pinched record is a cosmic string, and on a closed base the units come in twelves (`the_three_to_four.py`; `W120_RULE.md`; post hoc `the_three_to_four_posthoc.py`)
+
+**Why.**
+- **The owner's order** (2026-10-22): "GO FOR IT!", then "That's your main task now". The question: what carries the
+  record's 3d gravity, which has no gravitons, to 4d gravity with propagating ones.
+- **What the record had.** Every state is a 3d Einstein space with Λ = −1, family-wide (the fifth-force note, §3.2).
+  A spin-2 field sits in E₆(−26), which no inner involution reaches (main's B1140, B1265). There is no G, no 4d Λ and
+  no dynamics, since the framework has no dimensionful quantity, by theorem.
+- **Why 3d gravity has no gravitons.** A graviton has d(d − 3)/2 polarizations: 0 at d = 3 and 2 at d = 4.
+
+**The order.**
+- The rule (`W120_RULE.md`, d86762158) was committed and pushed before the script. It disclosed one instrument check:
+  b++LR gives 2.0298832128 and m004.
+- The script (d88e9b321) was reviewed against the rule and run once. The output (45dea63a5) was committed unread,
+  then read once.
+- The post hoc check (13cf7a5c2, output bceb98b55) was written after the read, and is labelled.
+
+**The result (COMPUTED; A1, A2 and B1 to B5 as predicted; A3 and A4 failed as worded on the instrument's notation).**
+- **A1 (exact).** Over the curvature −1 metric g on the upper half-space, −dt² + a(t)²g has:
+  - Ric = 0 for a = t;
+  - Ric = 3g₄ for a = sinh t;
+  - Ric = −3g₄ for a = sin t.
+- **A2 (exact).** For g_κ = (dx² + dy² + dz²)/(1 + κr²/4)², which is Einstein with Ric = 2κg, the cone −dt² + t²g_κ
+  is Ricci-flat iff κ = −1.
+  - Every component is a multiple of κ + 1, for example R_xx = 32(κ + 1)/(κr² + 4)².
+  - The cone is not flat at κ = 0, 1 or −2.
+- **A3 (failed as worded).** b-+LR identifies as m001, a non-orientable manifold of volume 1.8319311884, not m003.
+  - The rule read SnapPy's b-+w as the orientable bundle with monodromy −w. In SnapPy the first sign after b is
+    orientability, and the second is the sign of the trace.
+  - Post hoc: b++LR is m004, b+-LR is m003, and b-+LR and b--LR are both m001, non-orientable.
+- **A4 (failed as worded, for the same reason).**
+  - All 448 manifolds (224 words × 2) were geometric and agreed at high precision.
+  - But the least volume, 1.8319311884, is the non-orientable b-+LR.
+  - On the half the rule named correctly (b++w, orientable, positive trace), the least volume is +LR alone,
+    2.0298832128, with +LLR and +LRR next at 2.6667.
+- **A5 (read-out).** 154 distinct volumes; the largest is 9.6688. The two "signs" differ in volume, since one half was
+  non-orientable.
+- **Post hoc (labelled): the orientable census.** The bundles b++w and b+-w were taken over the same 224 words: 448
+  manifolds, all geometric and checked.
+  - The least volume, 2.029883212819307, is attained exactly at ±LR (m004 and m003).
+  - Next come ±LLR and ±LRR at 2.666744783 (a gap of 0.637), then ±L³R and ±LR³ at 2.989, ±L⁴R at 3.177 and ±L⁵R at
+    3.297.
+  - The two trace signs agree in volume for every word.
+  - So A4's intended claim holds post hoc.
+- **B1 (exact).** The Euclidean metric e^φ|dz|² + (1/Im τ)|dx + τ dy|² is Ricci-flat for τ = z and for τ = z², with
+  e^φ = Im τ·|e^{az}|². Both controls fail, as predicted: e^φ = (Im τ)², and the non-holomorphic τ = u + i(1 + v²).
+- **B2.** Im τ·|η|⁴ changes under L and R by at most 3.9 × 10⁻⁴⁰ at 40 digits.
+  - The controls Im τ alone and |η|⁴ alone change by 0.83 and 4.89.
+  - Among (Im τ)^p|η|^{2q}, only (p, q) = (1, 2), (2, 4) and (3, 6) are invariant.
+- **B3.** At a pinch (τ = log z/2πi) the exponent of |z| in |η|⁴ is 0.16670 at 10⁻⁴, 0.1666666683 at 10⁻⁸, and 1/6 to
+  sixteen digits beyond. Gauss–Bonnet, at a deficit of 2π/12 per unit, gives 24 units for a sphere and 12 for a flat
+  cylindrical end.
+- **B4 (exact).** The map χ to ℤ/12 is a homomorphism on 200 random pairs.
+  - χ(R) = 1, χ(L) = 11, χ(S) = 9, χ(−I) = 6 and χ(LR) = 0.
+  - Every sampled conjugate of R has χ = 1.
+  - (RL⁻¹)³ = −I and (RL⁻¹)⁶ = I.
+- **B5.** 12 units for the rational elliptic surface and 24 for K3. The least positive count is 12.
+
+**What it shows (a READING, given the stated hypotheses).**
+1. **The cone: the thread as space.**
+   - The record's normalization, Λ = −1 in three dimensions, is exactly the condition for each thread to be the space
+     of an exact 4d vacuum universe: the flat Milne cone −dt² + t²g, an open Friedmann vacuum.
+   - Over the same g, the scale factors sinh t and sin t give de Sitter and anti-de Sitter in their open slicings.
+   - No choice and no free number enter besides the scale t, and gravitons with two polarizations propagate there.
+     G is not supplied.
+2. **The tick is least.** Among every thread's universe to length 10, the tick's ±LR has the least volume, uniquely
+   (orientable, both trace signs; post hoc).
+   - For closed spatial sections the volume is the 4d vacuum flow's energy at its attractor (Fischer and Moncrief;
+     Andersson and Moncrief). So the tick's universe would be the ground state among threads.
+   - The threads are cusped, outside those theorems' scope, so this part is a scope-limited READING.
+   - With main's B1629, the tick is least both as a geodesic and as a universe.
+3. **The fibre: 4d gravity on the τ-line.**
+   - In the torus-fibred sector, 4d vacuum gravity is a field τ on the record's τ-line. In Lorentzian signature (the
+     Gowdy class) its waves are the gravitational waves.
+   - Invariance under the moves forces the base factor Im τ·|η|⁴.
+4. **The pinched record is a cosmic string, and the units come in twelves.**
+   - Where the records' torus pinches, the solution has a string of deficit 2π/12.
+   - On a closed base, compactness forces such points. The moves' abelianization ℤ/12 makes their signed count a
+     multiple of 12: 12 on the rational elliptic surface, 24 on K3.
+   - The regular metric uses Δ/q, Δ times a simple pole at the cusp, which reads as W47's unit inside a 4d metric. So
+     4d gravity, read through the fibre, supplies GENESIS FK10's units as physical sources, in twelves.
+   - An observation: the tick LR is one twist of each hand (χ(R) = 1, χ(L) = −1), so it is neutral in ℤ/12.
+5. **What it does not do.**
+   - It chooses no carrier. Whether the records' torus is space or a fibre is GENESIS FK11's dictionary.
+   - It gives no G, and no 4d Λ beyond the three maximally symmetric cases.
+   - It computes no graviton spectrum.
+   - It does not compute whether the twelve units give a chiral three. That is the triplet's index on the rational
+     elliptic surface or K3, named here as W121.
+
+**Weave or thread.**
+- A1 and A2 are family-wide.
+- A4 and its post hoc are a census of thread results, labelled so. Their one claim about all threads at once is which
+  thread has the least volume.
+- Part B is WEAVE-type: its quantities are defined by the moves' joint action on the shared fibre.
+
+**Status.** COMPUTED (the rule first; one run; seven cells as predicted; A3 and A4 failed as worded on the instrument's
+notation, traced post hoc and labelled; A4's intended claim holds post hoc). No data, so not a trial. 0 of 19.
+
 ## W119. Beyond tree level (the third of the owner's three arcs): no Kähler metric moves θ̄'s structural zero, and running between the forced scale and M_Z moves the forced coefficients by a factor 0.55 to 1.13, too little to reach the down quarks' or the leptons' window (`the_beyond_tree_level.py`; `W119_RULE.md`)
 
 **Why.** After W118, by the owner's order: the third arc, one step beyond the holomorphic tree level.
@@ -10307,6 +10405,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W120 | COMPUTED (the rule first; one run; seven cells as predicted; A3 and A4 failed as worded on SnapPy's notation, traced post hoc and labelled; A4's intended claim holds post hoc); family-wide (A1, A2), a census of thread results (A4), WEAVE-type (part B) | from three dimensions to four (the owner's main task): the cone −dt² + t²g over a 3d Einstein metric with Ric = 2κg is Ricci-flat iff κ = −1, the record's own Λ = −1, so every thread is the space of an exact 4d vacuum universe (the Milne cone; de Sitter and anti-de Sitter in open slicing with sinh t and sin t) on which gravitons propagate; post hoc, among the orientable bundles of 224 words to length 10 with both trace signs, the least volume 2.0298832128 is exactly ±LR (m004, m003), next ±LLR at 2.6667; through the records' torus as a fibre, the metric e^φ\|dz\|² + (1/Im τ)\|dx + τ dy\|² is Ricci-flat for holomorphic τ with e^φ = Im τ\|h\|², the moves force Im τ\|η\|⁴ (only q = 2p invariant, to 4 × 10⁻⁴⁰), each pinched record is a string of deficit 2π/12 (exponent 1/6 to 2 × 10⁻⁹), and the moves' abelianization ℤ/12 (χ(R) = 1, χ(L) = 11, χ(LR) = 0) makes the units on a closed base a multiple of 12: 12 (rational elliptic surface) or 24 (K3); no G, no carrier chosen; W121 named. 0 of 19 |
 | W119 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE-type result given the frames | beyond tree level (the third of the owner's three arcs): canonical normalization multiplies det Y by a positive real, so no Kähler metric moves arg det(Y_u Y_d) (checked at three τ over 300 metrics, worst 7 × 10⁻⁴⁸ at 50 digits; a non-Hermitian control moves it by 0.6), and W113's structural θ̄ survives; one-loop running of m₁m₃/m₂² from Λ to M_Z, in the SM and the MSSM (tan β 2 to 50, Λ 10¹² to 10¹⁶ GeV, all 24 points perturbative), multiplies it by F in 0.545 to 0.903 (up), 0.702 to 1.130 (down), 0.843 to 1.000 (leptons); the MSSM's gauge couplings meet to 0.17%; no point is coherent, and no forced coefficient reaches the down or lepton window (735/121 would need F ≤ 0.654, 3/5 F ≤ 0.18). W118's negative stands. 0 of 19 |
 | W118 | COMPUTED (the rule first; one run; H0–H2 as predicted; H4 failed, closed by arithmetic after the run); a WEAVE-type result given Λ and the stated hypotheses | the first generation (the second of the owner's three arcs): of stage 3's candidates only (d), the composite field, has an object; its directions P₁ = S₂ × S₃, P₂ = S₃ × S₁, P₃ = S₁ × S₂ vanish at ω toward X's line; paired by B1644's form, 15 of 27 pairings lift m₁ as derived, all with δ² : δ : 1 near ω and exact rational double ratios (15, 735/121, 77/4, 3/5, 5/4, 385/529, 1); 3/5 and 385/529 fall in the up window (data 0.538), none in the down (2.68) or lepton (0.081) windows, so no coherent assignment exists; 2 hits in 36 tries is chance level. (c) and (e) stay open. 0 of 19 |
 | W117 | COMPUTED (the rule first; one run; every cell as predicted); a census of thread results with weave functionals | a point on the line (the first of the owner's three arcs): τ held on each thread's closed geodesic up to length 8 and settled where W51's functionals are extremal along it (205 marks); the tick's line is marked only at i, where the masses are degenerate (χ² 1310 to 1378); eleven lines are marked only at a CP-fixed point; 10 of the 40 lines carry a mark that holds the quarks with two dof (best χ² 1.07, mostly just off i), p = 0.90, and none is named by a rule; one passing mark is CP-conserving (J = 0, χ² 4.24), since W66's eight observables carry no CP phase. A clean negative for the tick. 0 of 19 |

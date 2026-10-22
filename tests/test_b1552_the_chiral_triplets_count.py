@@ -3641,3 +3641,52 @@ def test_the_positives_and_the_cusp_unit_page():
     assert c[:4] == [0, 1, -24, 252]           # Ramanujan's tau(1), tau(2), tau(3): a simple zero at q = 0
     state = (ROOT / "docs" / "THE_THREE_GENERATIONS_STATE_2026-10-08.md").read_text(encoding="utf-8")
     assert "GENESIS v1.39 (B1631)" in state and "THE_POSITIVES_AND_THE_CUSP_UNIT_2026-10-22.md" in state
+
+
+def test_w120_the_three_to_four():
+    """W120, from three dimensions to four: the cone over every thread (A1, A2 exact), the census (A3 and A4 failed as
+    worded on SnapPy's notation; the post hoc orientable census puts the least volume at +-LR), and the fibre (B1 to
+    B5); the abelianization, the census's word count and eta's invariance under the moves recomputed in process"""
+    import mpmath as mp
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_three_to_four.json").read_text(encoding="utf-8"))
+    ph = json.loads((here / "the_three_to_four_posthoc.json").read_text(encoding="utf-8"))
+    v = d["verdict"]
+    assert all(v[c] for c in ("A1", "A2", "B1", "B2", "B3", "B4", "B5"))
+    assert v["A3"] is False and v["A4"] is False                     # failed as worded, kept as failed
+    assert "32*(kappa + 1)" in d["A2"]["R_xx"]
+    assert d["A4"]["attained at"] == [["LR", "-"]] and abs(d["A4"]["least volume"] - 1.8319311884) < 1e-9
+    assert ph["status"] == "post hoc, not a cell"
+    assert ph["notation at LR"]["b-+LR"]["orientable"] is False and ph["notation at LR"]["b+-LR"]["orientable"] is True
+    c = ph["orientable census"]
+    assert c["attained at"] == ["b++LR", "b+-LR"] and abs(c["least volume"] - 2.029883212819307) < 1e-12
+    assert c["the two trace signs agree in volume for every word"] and c["gap above the minimum"] > 0.6
+
+    def lyndon(n):
+        out = []
+        for k in range(2 ** n):
+            w = "".join("R" if (k >> i) & 1 else "L" for i in range(n))
+            rots = [w[i:] + w[:i] for i in range(n)]
+            if "L" in w and "R" in w and w == min(rots) and len(set(rots)) == n:
+                out.append(w)
+        return out
+    assert sum(len(lyndon(n)) for n in range(2, 11)) == 224 == d["A4"]["words"]
+
+    def mul(A, B):
+        return ((A[0][0] * B[0][0] + A[0][1] * B[1][0], A[0][0] * B[0][1] + A[0][1] * B[1][1]),
+                (A[1][0] * B[0][0] + A[1][1] * B[1][0], A[1][0] * B[0][1] + A[1][1] * B[1][1]))
+    R, Linv = ((1, 1), (0, 1)), ((1, 0), (-1, 1))
+    P = ((1, 0), (0, 1))
+    for k in range(1, 7):
+        P = mul(P, mul(R, Linv))
+        if k == 3:
+            assert P == ((-1, 0), (0, -1))
+    assert P == ((1, 0), (0, 1))
+    mp.mp.dps = 30
+
+    def eta(s):
+        q = mp.exp(2j * mp.pi * s)
+        return mp.exp(2j * mp.pi * s / 24) * mp.nprod(lambda n: 1 - q ** n, [1, mp.inf])
+    for s in (mp.mpc(0.3, 0.9), mp.mpc(-0.7, 1.4)):
+        f = lambda t: mp.im(t) * abs(eta(t)) ** 4  # noqa: E731
+        assert abs(f(s / (s + 1)) / f(s) - 1) < 1e-20 and abs(f(s + 1) / f(s) - 1) < 1e-20

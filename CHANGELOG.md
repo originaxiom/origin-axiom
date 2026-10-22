@@ -1,5 +1,19 @@
 # Changelog
 
+## W120: from three dimensions to four (the owner's main task; relay §200)
+
+- **The cone (exact).** For a 3d metric with Ric = 2κg, the cone −dt² + t²g is Ricci-flat iff κ = −1. So the record's
+  own Λ = −1 makes every thread the space of an exact 4d vacuum universe on which gravitons propagate; with sinh t and
+  sin t, de Sitter and anti-de Sitter.
+- **The census.** A3 and A4 failed as worded: SnapPy's b-+w is non-orientable, and the rule had read it as the bundle
+  with monodromy −w. Post hoc, over the orientable bundles of 224 words to length 10, the least volume 2.0298832128 is
+  exactly ±LR.
+- **The fibre (WEAVE-type).** 4d gravity's torus sector is a field on the τ-line. The moves force Im τ|η|⁴, each pinched
+  record is a cosmic string of deficit 2π/12, and the moves' ℤ/12 makes the units on a closed base a multiple of 12.
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/W120_RULE.md`, the script, its output and the post hoc check;
+  the NOTE's W120 section and row; the lock `test_w120_the_three_to_four`; relay §200; the ledger; the state page's
+  range. No data, so not a trial. 0 of 19.
+
 ## Main's S177 and Review 67 read; the δ-rule's origin answered (relay §199)
 
 - **S177** registers W111–W119 and §169–§195 on main.
