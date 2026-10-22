@@ -1,5 +1,10 @@
 # Changelog
 
+## Main's B1712 outputs and P-268 prediction rowed (ledger)
+
+- **B1712** (main): its outputs committed before the read-out. **P-268** (main): a prediction written before
+  B1713's read-out, that order-4 lines leave a first generation massless. Rowed; no expectation stated. 0 of 19.
+
 ## W124 recorded (not banked); W123 verified exactly and its reading corrected (relay §207)
 
 - **W124, the graviton spectrum** (thread results). Calibrated by Cornish and Spergel and by Lin and Lipnowski. On

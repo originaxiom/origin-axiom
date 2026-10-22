@@ -20211,3 +20211,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   On the Weeks manifold every wave dies away, and the lowest frequency is at least 2 in natural units. One check
   failed as written because of a cut-off effect, now explained, so the result is recorded but not yet banked.
   0 of 19.
+
+## 2026-10-22 — the main seat's sealed test ran
+
+- **The main seat ran its census test of the record's lines** and committed the outputs before reading them. It
+  also wrote down a prediction for its next test before reading that one. This seat recorded both, without a
+  prediction of its own. 0 of 19.
