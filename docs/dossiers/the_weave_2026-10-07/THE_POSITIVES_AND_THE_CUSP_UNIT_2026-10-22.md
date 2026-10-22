@@ -73,6 +73,9 @@ Each takes every thread the principle allows under one rule, and its claim is ab
   - The seventeenth and eighteenth, main's B1712 and B1713 the same day (every line of order 1–12; B1713 also the
     frame's first quark mixing), failed as sealed too: best factors 2.37 and 2.33, and 22.45% and 14.8% of random
     hierarchies as good. The mixing came within 14% at one point, but 59.5% of random mixings did as well.
+  - The nineteenth and twentieth, main's B1720 and B1722, failed as sealed too. B1720 came closest of any test: every
+    ratio within 1.80 on one thread's fixed line at its apex, yet 1.65% of random hierarchies did as well (the
+    bar was 1%). B1722 found that neither of the record's measures over threads selects one.
 - **The magnitudes side is a clean negative.** The forced menu fits the hierarchy no better than chance (p = 0.139,
   W112).
 

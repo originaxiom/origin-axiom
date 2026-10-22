@@ -1,5 +1,13 @@
 # Changelog
 
+## Main's S188 and S189 rowed: B1720 and B1722, the nineteenth and twentieth tests (ledger)
+
+- **B1720** (main, NEGATIVE as sealed): the thread fixes the point. Every ratio within 1.80 on L⁵RLR²'s fixed line at its
+  apex, the closest approach; but 1.65% of random hierarchies as good, against a bar of 1%.
+- **B1722** (main, NEGATIVE as sealed): neither of the record's measures over threads selects one; the walk's limit
+  selects at most a length.
+- Five ledger rows; the trial-count pages carry both. 0 of 19.
+
 ## W126 recorded: C10's read-out on the ground-state universes is zero (relay §211)
 
 - **W126** (thread results; every cell held). On the Milne universe over a closed hyperbolic space the read-out is

@@ -20252,3 +20252,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   record's three-generation structure cannot even be placed. So this physical count gives zero there. The open case is
   the threads themselves, which are not closed.
 - **The computation needed three tries:** the first two ran out of memory and are recorded as failed launches. 0 of 19.
+
+## 2026-10-22 — the main seat's two newest tests
+
+- **The main seat tested whether a single thread fixes the masses,** and came closer than any earlier test: all six
+  mass ratios within a factor of 1.8. But random patterns matched as well slightly too often, so it failed as sealed.
+  Its follow-up found no rule in the record that picks that thread. These are the nineteenth and twentieth tests;
+  none has confirmed an unfitted prediction. 0 of 19.

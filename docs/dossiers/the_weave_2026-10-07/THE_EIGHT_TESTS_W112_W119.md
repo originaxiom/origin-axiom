@@ -191,7 +191,8 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
 4. **The trial count across arcs.** Each test above counts its own tries. On this one day (UTC) the two seats ran fifteen
    tests of forced structure against the masses (B1696, B1698, B1699 and B1702 added later the same evening). B1711
    (main, 2026-10-22, NEGATIVE as sealed) is the sixteenth, the first of the next day. B1712 and B1713 (main, the same
-   day, both NEGATIVE as sealed) are the seventeenth and eighteenth:
+   day, both NEGATIVE as sealed) are the seventeenth and eighteenth. B1720 and B1722 (main, the same day, both NEGATIVE as
+   sealed) are the nineteenth and twentieth:
 
    | test | seat | what was tried | outcome |
    | --- | --- | --- | --- |
@@ -213,6 +214,8 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
    | B1711 | main | W59's 18 order-9 lines at the band τ, the end-data Higgs; 216 choices | worst factor 4.17 at the grid's edge; 9.8% of random as good; χ² 321 |
 | B1712 | main | every line of order 8–12 (204), the end-data Higgs at the canonical end; 2448 choices | best factor 2.37; 22.45% of random as good; χ² 108.5 |
 | B1713 | main | every line of order 1–7 (62); and the frame's first quark mixing on all 266 lines of order 1–12 | masses best 2.33, 14.8% of random as good; the three CKM moduli within 14%, but 59.5% of random mixings as good; masses and mixing together 3.59 |
+| B1720 | main | τ at each of 121 threads' apexes and the 3249 lines their monodromies fix; no continuous number free | every ratio within 1.80 at L⁵RLR² on an order-28 line, the closest approach; but 1.65% of random as good (bar 1%); χ² 79.4 |
+| B1722 | main | the record's two measures over threads (uniform word; action weight at c = 6) on B1720's census | 25.4% and 21.0% of random as good |
 
    - No unfitted prediction was confirmed. Every pass was either fitted or matched as often by random targets.
    - A future single pass must be read against this count, and against the earlier data comparisons. Those are not
