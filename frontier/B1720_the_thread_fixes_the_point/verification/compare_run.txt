@@ -1,0 +1,2 @@
+T1 True T2 False T3 False
+K1 True K2 False K3 False K4 False C1 True
