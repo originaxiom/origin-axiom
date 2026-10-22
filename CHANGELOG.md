@@ -1,5 +1,20 @@
 # Changelog
 
+## Main's S176 (B1704) read; Re τ = ½ is not a mirror line once the Higgs's copies are in (relay §197)
+
+- **B1704** (main, PROVED; no data, so not a trial): W62's PH3 is B1686's cusp algebra; no content on record holds τ;
+  a minimum in the hierarchy band needs a fine-tuned bosonic content in ρ_Q that nothing selects.
+- **A post hoc check** (`docs/dossiers/the_weave_2026-10-07/the_b1704_mirror_check.py`, on main's own functions;
+  scratch runs disclosed, then one run from the commit, output committed unread):
+  - with the Higgs's copies the potential keeps only the theta group, whose mirror lines are Re 0, Re 1 and the unit
+    arc, so B1704's Re ½ entries are not critical points;
+  - the trivial-fermion minima lie on the unit arc between i and ω + 1;
+  - the band minima on the axis are genuine;
+  - the second cusp, τ = 1, adds no condition.
+  B1704's verdict stands.
+- **Surfaces.** The check and its lock (`test_b1704_mirror_check`), W62's dated scope note in the NOTE (its closing
+  bullet holds for W_ρ < 0 only), relay §197, the ledger, the state page's range. 0 of 19.
+
 ## Main's line census read; the 2026-10-15 rule scoped to the δ-only coupling (relay §196)
 
 - **B1703** (main, PROVED): in B1656's four-channel frame every line order N ≥ 8 splits all three sectors, and orders

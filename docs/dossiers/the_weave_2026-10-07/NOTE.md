@@ -5254,6 +5254,20 @@ one lead. Weave-type throughout; given Λ (GENESIS FK11).
 point, traced post hoc). A WEAVE result given Λ: every shape of a stated family, per sector, with contents as read-outs.
 0 of 19.
 
+**Scope, added 2026-10-22 (UTC), from main's B1704 (S176; relay §197).** Main verified PH3 as B1686's cusp algebra
+(31/1024 = (31/512)/2) and asked where a holding content would hold τ.
+- **The scope.** PH3 and the bullet "no content of the computed sectors holds it at a generic point" assumed net
+  fermions in the matter's representation (W_ρ < 0).
+  - With net bosons there, B1704 finds minima on the axis in the band 2.1 ≤ Im τ ≤ 3.2 at a fine-tuned content (89 to
+    95 extra complex scalars in ρ_Q without the gauge fields).
+  - This seat's post hoc check (`the_b1704_mirror_check.py`) confirms them as two-dimensional minima.
+  - So that bullet holds for W_ρ < 0 only. Nothing on record selects such a content.
+- **With the Higgs's copies, the mirror lines move.** The copies keep only the theta group, whose mirror lines are
+  Re τ = 0, Re τ = 1 and the unit arc; Re τ = ½ is not one (PROVED by hand in the check).
+  - For trivial-fermion contents the minima lie on the unit arc between i and ω + 1, moving toward ω + 1 as the count
+    grows. That fits A2's push from ω toward i.
+  - The second cusp, τ = 1, adds no condition: the copies' cusp coefficient there is 63/8 below its value at ∞.
+
 ## W63. B1644 and B1645 verified on the seat's own instruments: one generation exactly massless by Jacobi, the other two set by the Higgs's direction; the record's Higgs is a real unit direction, so m ≥ ½ (`b1644_verified.py`; `W63_RULE.md`)
 
 **Why.**

@@ -20072,3 +20072,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   charges only. In the full coupling, every line order from 8 up separates all three kinds of particle.
 - **This seat said so plainly,** marked its earlier rule as belonging to the simpler form, and noted that the parked
   W73 test has no order forced on it in the full coupling. 0 of 19.
+
+## 2026-10-22 — what would hold the shape of the space, checked
+
+- **The main seat checked this seat's earlier condition** for what could hold the shape parameter τ in place. It
+  agreed, and found that nothing on record holds it. Holding it where the mass hierarchy lives would take a finely
+  tuned set of extra fields that nothing selects.
+- **This seat checked that work and found one gap.** One of the two lines it searched is not a line of symmetry once
+  the Higgs's copies are included, so the points found there are not true resting points. On the correct lines, the
+  resting points move but the conclusion does not change.
+- **This seat also narrowed one of its own earlier sentences,** which had assumed a sign the main seat's result now
+  shows matters. 0 of 19.

@@ -3574,3 +3574,49 @@ def test_the_owners_rulings_page():
     assert "GENESIS FK11 stays formally open" in page and "0 of 19" in page
     state = (ROOT / "docs" / "THE_THREE_GENERATIONS_STATE_2026-10-08.md").read_text(encoding="utf-8")
     assert "THE_OWNERS_RULINGS_2026-10-08.md" in state
+
+
+def test_b1704_mirror_check():
+    """post hoc, not a cell: main's B1704 searched Re tau = 0 and 1/2, but with the Higgs's copies at (1/2, 1/2) the
+    potential keeps only the theta group, whose mirror lines are Re 0, Re 1 and the unit arc; the reflections' action on
+    the characteristics and the second cusp's coefficient recomputed exactly, one mirror pair of the copies' sum in
+    process, and the recorded critical points read from the_b1704_mirror_check.json"""
+    from fractions import Fraction as Fr
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_b1704_mirror_check.json").read_text(encoding="utf-8"))
+    assert d["status"] == "post hoc check of main's B1704, not a cell" and d["main commit"] == "22b7d5739"
+    h, z = Fr(1, 2), Fr(0)
+    copies = sorted([(z, h), (h, z), (z, z)])
+    refl = {"Re 0": lambda a, b: (a, -b), "Re 1/2": lambda a, b: (a, a - b), "Re 1": lambda a, b: (a, 2 * a - b),
+            "unit arc": lambda a, b: (b, a)}
+    keeps = {k: sorted((x % 1, y % 1) for x, y in (f(*p) for p in copies)) == copies for k, f in refl.items()}
+    assert keeps == {"Re 0": True, "Re 1/2": False, "Re 1": True, "unit arc": True}
+    for k, v in d["A"].items():
+        if k != "copies":
+            assert v["keeps the copies"] == keeps[k.split(":")[0]]
+    tw_inf = {(h, z), (h, h)}
+    tw_one = {p for p in [(z, z), (h, z), (z, h), (h, h)] if (p[1] - p[0]) % 1 == h}
+    k_inf = 2 * sum(Fr(-31, 16) if p in tw_inf else Fr(2) for p in copies)
+    k_one = 2 * sum(Fr(-31, 16) if p in tw_one else Fr(2) for p in copies)
+    assert (k_inf, k_one) == (Fr(33, 8), Fr(-15, 4))
+    assert d["G"]["copies' cusp coefficient at infinity"] == "33/8" and d["G"]["at tau = 1"] == "-15/4"
+    m, n = np.meshgrid(np.arange(-40, 41), np.arange(-40, 41), indexing="ij")
+    m, n = m.ravel(), n.ravel()
+    nz = (m != 0) | (n != 0)
+    m, n = m[nz], n[nz]
+
+    def S(t, p):
+        return float(np.sum(np.cos(2 * np.pi * (m * p[0] + n * p[1])) * t.imag ** 3 / np.abs(m + n * t) ** 6))
+    t = complex(0.4, 1.0)
+    assert abs(S(1 - t.conjugate(), (0.5, 0.0)) - S(t, (0.5, 0.5))) < 1e-5
+    cps = [(0.0, 0.5), (0.5, 0.0), (0.0, 0.0)]
+    assert abs(sum(S(complex(0.6, 1.0), p) - S(complex(0.4, 1.0), p) for p in cps)) > 0.5
+    assert abs(sum(S(complex(0.1, 1.0), p) - S(complex(-0.1, 1.0), p) for p in cps)) < 1e-9
+    assert all(abs(r["dV/dx"]) > 5e-3 for r in d["C"])
+    assert sum(r["i lowest on the arc"] for r in d["D"]) == 1
+    assert all(a["radial curvature"] > 0 and 0.88 < a["y"] <= 1.0 for r in d["D"] for a in r["arc minima"])
+    for r in d["E"]:
+        band = [a for a in r["Re 0 minima"] if 2.0 <= a["y"] <= 3.3]
+        assert band and all(a["d2V/dx2"] > 0 and a["d2V/dy2"] > 0 for a in band)
+        assert all(a["d2V/dx2"] < 0 for a in r["Re 1 minima"] if 2.0 <= a["y"] <= 3.3)

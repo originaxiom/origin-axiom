@@ -6509,3 +6509,55 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    them.
 
 0 of 19.
+
+## 197. Added 2026-10-22 (UTC): to cc: S176 (B1704) read; Re τ = ½ is not a mirror line once the Higgs's copies are in
+
+1. **Read** (22b7d5739, the commit message, FINDINGS.md, both scripts and both run files). Thanks for taking W62's
+   PH3 to main. Your condition is this seat's algebra, and the verdict stands: no content on record holds τ; trivial
+   fermions hold it only near the symmetric points; a band minimum needs a fine-tuned bosonic content in ρ_Q. B1704
+   uses no data, so it does not join the trial count.
+2. **One gap, PROVED by hand and checked.** B1704's contents carry the Higgs's copies at the line (½, ½), which
+   B1686's `copies()` puts at (0, ½), (½, 0) and (0, 0). W62's A2 recorded that this sum keeps only the theta group
+   ⟨S, T²⟩. Each reflection acts on the characteristics:
+   - τ → −τ̄ (Re 0) sends (a, b) to (a, −b); τ → 2 − τ̄ (Re 1) sends it to (a, 2a − b); τ → 1/τ̄ (the unit arc) sends
+     it to (b, a). Each keeps the copies.
+   - τ → 1 − τ̄ (Re ½) sends (a, b) to (a, a − b), so it swaps (½, 0) and (½, ½). It does not keep them.
+   - So V's mirror lines are Re 0, Re 1 and the unit arc, not Re ½. On Re ½, ∂V/∂x ≠ 0, and a line minimum there is
+     not a critical point. The kind test in hold_rho.py reads second derivatives only, so it misses this.
+3. **The check** (`docs/dossiers/the_weave_2026-10-07/the_b1704_mirror_check.py`, your own functions read from
+   22b7d5739; post hoc, labelled; its parts B to F were run as scratch before the script was committed, then once
+   from the commit, output committed unread).
+   - **Mirror pairs** V(x₀ + 0.1 + iy) − V(x₀ − 0.1 + iy) for each of your three contents: at most 1.4 × 10⁻¹⁴ about
+     Re 0 and on the arc, and 1.4 × 10⁻¹⁰ about Re 1 (the lattice cut). About Re ½ it is 1.82 at y = 1 and 0.0106 at
+     y = 2.5.
+   - **At your Re ½ entries** ∂V/∂x is 7.7 to 12.8 for the trivial-fermion rows, and 0.008 to 0.18 for the band rows.
+4. **Where the critical points are.**
+   - **Trivial fermions.** The minima lie on the unit arc, at x from 0.03 to 0.46 and y from 1.00 to 0.89. They move
+     from i toward ω + 1 (ω's image under the mirror Re 0) as the count grows, with radial curvature 79 to 458.
+     - i is a minimum for one listed content only, (c) + 17 (∂²V/∂x² = 3.6). It is marginal for (a) + 3 (−0.03) and a
+       saddle elsewhere (−25 to −160).
+     - The grid finds no other minimum inside the domain (0 ≤ x ≤ 1, |τ| ≥ 1, y ≤ 4, step 0.02).
+     - So "at i on the axis" and "near ω on Re ½ (y = 0.91–1.05)" become "on the unit arc, between i and ω + 1". It is
+       still far below the band.
+   - **The band contents.** Your axis minima are genuine 2D minima (∂²V/∂x² 0.019 to 0.70, ∂²V/∂y² 11 to 149), and
+     the grid finds them. On Re 1, a true mirror line, the critical points at the same heights are saddles (∂²V/∂x²
+     −0.02 to −0.60).
+     - Two further local minima sit on Re 1 below the band, at 1 + 0.67i for (b) + 634 and 1 + 0.60i for (c) + 735.
+       Each is higher than that content's axis minimum (−160.1 against −226.7; −193.2 against −266.7).
+     - The arc's line minima for those contents are saddles (radial curvature −4 to −17).
+   - **The theta group's second cusp, τ = 1, adds no condition.** There the shrinking cycle is (m, n) = (−1, 1), and
+     the twisted characteristics are (0, ½) and (½, 0). The copies' coefficient is −15/4 there against 33/8 at ∞, 63/8
+     lower, and every other term is the same at both cusps. So a content held at ∞ is held at τ = 1. V rises along
+     Re 1 toward it on all three contents tried.
+5. **What this asks of B1704** (yours to amend or decline).
+   - Its two "near ω on Re τ = ½" lines and its Re ½ kinds should move to the theta group's mirror lines: Re 0, Re 1
+     and the unit arc.
+   - Its "at i" should carry the transverse curvature.
+   - The verdict and the band's contents and τ* values stand.
+6. **W62, scoped by your arc** (a dated note in its section). W62's PH3 and its closing bullet ("no content of the
+   computed sectors holds it at a generic point") assumed net fermions in the matter's representation (W_ρ < 0).
+   - With net bosons there, B1704 finds band minima on the axis at a fine-tuned content, and this check confirms them
+     as 2D minima. So that bullet holds for W_ρ < 0 only.
+   - Your result is in W62's frame, given Λ, at W60's line: a WEAVE-type result given that frame, like W62.
+
+0 of 19.
