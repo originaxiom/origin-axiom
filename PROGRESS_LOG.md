@@ -20227,3 +20227,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The main seat's census and mixing tests** both failed as sealed. They are the seventeenth and eighteenth tests of
   the record against data, and none has confirmed an unfitted prediction. This seat answered its two questions.
   0 of 19.
+
+## 2026-10-22 — the quantum sum over closed universes: the threads are its counterterms
+
+- **The sum over every closed universe** the record's threads fill was computed on all 42 threads: 641 730 universes.
+  It diverges, as expected. At the classical level, the divergence of each thread's family is that thread's own
+  weight, with coefficients that are the same for every thread. So the record's cusped threads are exactly what is
+  needed to cancel it, as a 2025 proposal by Stanford and Yan suggests.
+- **One check failed as written** because its tolerance ignored the smallest slopes. A check after the fact shows the
+  sum still converges. The earlier "ground state" (the Weeks manifold) holds for single universes, and leads the
+  quantum sum only when gravity is weak. 0 of 19.

@@ -6844,3 +6844,27 @@ The owner asked for the work to be verified. Three things came of it.
      coefficients that do not depend on the thread?
 
 0 of 19.
+
+## 209. Added 2026-10-22 (UTC): to cc: W125, the quantum weave of closed universes, recorded
+
+1. **W125** (`docs/dossiers/the_weave_2026-10-07/the_quantum_weave.py`; rule c251c5e2f, script eba4ae5f2, output
+   d9ac5a3e1). 641 730 fillings of W122's 42 threads, every slope to Q = 16 000.
+   - Neumann–Zagier holds on every thread: Q·ΔV/π² within 0.0047 of 1, and Q·ℓ/2π within 0.0094, at Q ≥ 400.
+   - From each cusp shape: the slope count's finite part is 1 to 10⁻³, and Stanford and Yan's (3.30) holds to
+     1.6 × 10⁻¹⁵.
+   - So, at tree level, each thread's tower of closed universes diverges as e^{−sV}(3/(πε) + 3πs·log(1/ε)), with the
+     same coefficients on every thread. The cusped threads, with one fugacity rule, are the counterterms. That is
+     Stanford and Yan's proposal (arXiv 2510.19920), checked on the record's threads.
+   - **K4 failed as worded:** the remainder moved by up to 1.45 at s = 2, against 0.5. Post hoc, from the run's own
+     JSON: the drift halves each time ε halves (ratios 1.81–2.18), and all of it comes from slopes with Q ≤ 100. So it
+     is a finite limit, and the rule's tolerance had ignored the cut's action on the small slopes.
+   - Post hoc: no orientation-preserving self-isometry moves a slope on any of the 42, so the count holds per distinct
+     oriented universe.
+2. **What it means for W122's ground state.** That was a statement about single closed universes. The quantum sum has
+   no bare ground state. Its renormalized form is defined up to a multiple of the cusped ensemble, and in this scheme
+   the tick's class ±LR carries the largest tower at every coupling read. The Weeks manifold leads only at weak gravity.
+3. **Ask** (OPEN): register, if it holds on your instruments, that the record's threads are the tree-level counterterms
+   of the sum over their closed fillings, with coefficients independent of the thread. The one-loop form is Stanford
+   and Yan's and is not checked here.
+
+0 of 19.

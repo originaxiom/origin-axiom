@@ -7726,6 +7726,106 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W125. The quantum weave of closed universes (the owner's call to continue bravely): summed over every slope of every thread, the closed universes diverge, and at tree level the divergence is, thread by thread, the thread's own weight e^{−sV} times 3/(πε) + 3πs·log(1/ε), with the same coefficients on all 42 threads; so the cusped threads are the counterterms (Stanford and Yan's proposal); K4 failed as worded on the cut's small-Q terms and converges post hoc (`the_quantum_weave.py`; `W125_RULE.md`; post hoc `the_quantum_weave_posthoc.py`)
+
+**Why.**
+- W122 named the Weeks manifold the ground state among the closed universes filled from the record's threads. But a
+  filling is a choice of slope, and the principle chooses none.
+- Quantum gravity sums every saddle, weighting each closed hyperbolic universe by e^{−s·Vol} at tree level. Over every
+  slope of every thread that sum is the weave's own operation: every thread, every slope, none chosen.
+- It diverges, because each thread's fillings pile up just below its own volume. Stanford and Yan (arXiv 2510.19920,
+  2025) propose to cancel such pile-ups with the cusped manifold itself, as a counterterm.
+
+**The order.**
+- The rule (`W125_RULE.md`, c251c5e2f) was committed and pushed before the script. It disclosed Neumann–Zagier seen on
+  20 fillings and the literature read.
+- The script (eba4ae5f2) was committed after crash checks on inputs outside the census. It was run once, in about two
+  minutes on four workers, and its output (d9ac5a3e1) was committed unread, then read once.
+
+**The result (COMPUTED; K0–K3 held; K4 failed as worded).**
+- **K0.** 641 730 fillings in all, 15 258 to 15 290 per thread; 641 374 certified.
+  - Every thread's volume equals W122's exactly.
+  - The counts are within 0.14% of (3/π)·16 000.
+  - No slope with Q > 60 fails; the largest Q among the 356 uncertified slopes is 23.3.
+  - The least certified volume is the Weeks manifold's, 0.9427073628, at b+-LR's slope (3, 5).
+- **K1.** Q(V_b − V)/π² is within 0.0047 of 1 for every certified filling with Q ≥ 400, on every thread.
+- **K2.** Q·ℓ/2π is within 0.0094 of 1 on the same fillings.
+- **K3,** from each thread's cusp shape alone:
+  - (a) the finite part of the slope count, 2F(0.002) − F(0.004), is within 0.0010 of 1 on every thread;
+  - (b) the log coefficient's ratio is 1.0030 on every thread, the predicted O(ε) shift (ε/((3/π) log 2) = 0.0030);
+  - (c) Stanford and Yan's (3.30) holds to 1.6 × 10⁻¹⁵ on every thread. The full lattice's corrections stop at O(ε),
+    since its Epstein function vanishes at the negative integers, so the Richardson value is exact.
+- **K4 FAILED as worded.**
+  - At s = ½ and 1 every thread's remainder moved by at most 0.0075 and 0.036 between ε = 0.004 and 0.002.
+  - At s = 2 four threads exceeded the rule's 0.5: b+-LLRLR and b+-LRLRR by 0.87, and b+-LLLRLR and b+-LRLRRR by 1.45.
+    The next largest was 0.38.
+  - Over the same step the bare towers moved by 242 to 257.
+- **K5 (read-out; this scheme).**
+  - The uncertified slopes number 4 to 14 per thread. b++LR has 10, the number of the figure-eight knot's exceptional
+    slopes.
+  - The second-order coefficient's median is between −0.034 and 0.038 on every thread.
+  - The renormalized ensemble Z_ren(s) is −117.0, −31.1, −1.28 and +0.175 at s = ½, 1, 2 and 4. The Richardson values
+    are −117.5, −31.0, −1.18 and +0.183. The cusped ensemble Σ_b e^{−s·V_b} is 6.61, 1.30, 0.080 and 0.00073.
+  - The largest single term is the tick's tower, b++LR, at s = ½, 1 and 2 (6%, 12% and 43% of Z_ren), and its sister's,
+    b+-LR, at s = 4 (48%).
+  - The Weeks manifold's own term is −0.5%, −1.3%, −12% and +13% of Z_ren.
+
+**What failed, and the checks after the read-out (post hoc, labelled).**
+1. **K4's tolerance was wrong by design.**
+   - It counted only the far tail's O(Q⁻²) term. But the cut also acts on the slopes with small Q, where the
+     Neumann–Zagier subtraction e^{sπ²/Q} is large: e^{6.6} at Q = 3 and s = 2. Those are finitely many finite terms,
+     and the cut moves them linearly in ε.
+   - The run's own JSON shows this (`the_quantum_weave_posthoc.py`; no new filling).
+     - The successive differences of the remainder, as ε halves from 0.016 to 0.002, have ratios 1.81 to 2.18 wherever
+       the last exceeds 0.01. A divergence would give ratios of 1 or less.
+     - All of the last drift comes from slopes with Q ≤ 100. The part from Q > 100 is at most 0.13 anywhere: at s = 4,
+       where the whole drift is 1068. At s ≤ 2 it is below 0.003.
+     - The Richardson limits are finite: −240.2 on b+-LLLRLR at s = 2, for instance.
+   - So the remainder converges, and the divergence is exactly the universal form. This holds post hoc, not as the
+     rule worded it.
+2. **The count per universe** (post hoc, SnapPy's self-isometries of each thread).
+   - The run summed (thread, slope) pairs. A sum over distinct oriented universes would divide a thread's count by any
+     orientation-preserving symmetry's action on its slopes.
+   - On all 42 threads every orientation-preserving self-isometry acts on the cusp as ±1, so it fixes every slope.
+     Distinct slopes on one thread give distinct oriented universes, and the coefficient 3/π holds per universe.
+   - Mirror words give mirror spaces. Oriented gravity counts these separately, since their Chern–Simons invariants
+     differ in sign.
+   - Coincidences between threads are not checked. The Meyerhoff manifold fills both ±LR; such coincidences change
+     finite parts only, unless infinitely many coincide.
+
+**What this does (READING; the rule's fixed outcomes, with K4 held only post hoc, so labelled).**
+1. **No bare ground state.** The sum over every closed universe the record's threads fill diverges at every coupling,
+   because its slope count alone grows like (3/π)X (K0, K3). W122's "ground state" is a statement about single closed
+   universes, not about the quantum sum.
+2. **The threads are the counterterms.** At tree level each thread's tower diverges as
+   e^{−s·V_b}·(3/(πε) + 3πs·log(1/ε)), with the same coefficients on all 42 threads (K1, K3, and K4 post hoc). So
+   one fugacity rule, the cusped threads themselves, cancels the divergence for every thread at once. This is
+   Stanford and Yan's proposal, checked at tree level on the record's threads.
+   - It is a proposal, not a theorem: off-shell topologies might cancel the divergence instead (their footnote 4).
+   - Their one-loop form is not checked here.
+3. **One universe per tower.** The finite part of each thread's slope count is 1 to 10⁻³ (K3a). Regularized, each
+   tower of closed universes counts as one universe: the thread.
+4. **The cusp's modular invariant at tree level.** The finite part of the log term carries log(√(Im τ)·|η(τ)|²) of
+   each thread's cusp (K3c). That is the invariant Stanford and Yan find in the cusp's one-loop determinant.
+5. **The renormalized ensemble is defined only up to adding a multiple of the cusped ensemble.**
+   - In this scheme Z_ren is negative at s ≤ 2. Its sign is the scheme's, as Stanford and Yan's fugacity is negative.
+   - The tick's class ±LR carries the largest single tower at every s read.
+   - The Weeks manifold leads only at weak gravity, where e^{−s·0.9427} outgrows every multiple of e^{−s·2.03}.
+     At s = 4 its term is still 13%.
+6. **Weave or thread.** A weave result under the rule's three conditions: every thread of W122's rule and every slope
+   to Q = 16 000; the sum over every closed universe they fill; and one counterterm rule for all threads at once. The
+   towers' finite parts, K5, are thread results.
+
+**Beside it, a READING: the c = 24 lead closed on W48** (relay §208; nothing new computed).
+- The cusp's unit 1/Δ = η⁻²⁴ has weight −12: 24 chiral bosons with no zero modes. W48 counts it as three.
+- Pure gravity at c = 24 sums every SL(2, ℤ) image of the vacuum q⁻¹. Regularized by Rademacher, that sum is J + 12
+  (Duncan and Frenkel, arXiv 0907.4529): weight 0, which W48 counts as none.
+- So pure gravity's own partition function is not the unit's source. Equating the unit's c with the black hole's 6σ
+  would give σ = 4, a posit that B980 fences.
+
+**Scope.** Tree level only. One loop and higher, off-shell topologies, manifolds with more than one cusp and the scale s
+stay out. 0 of 19.
+
 ## W124. The graviton spectrum of the ground-state universe (the owner's choice): every graviton on the Milne cone over a closed thread universe is a damped oscillation in log τ at the transverse traceless frequencies; on the Weeks manifold the lowest has ν₁ ≥ 2.0, with about three modes clustered near 2.65; on the Meyerhoff manifold ν₁ ≥ 1.18, and one mode near 1.20 fits; recorded, not banked, because one calibration cell failed as worded (`the_graviton_spectrum.py`; `W124_RULE.md`; post hoc `the_graviton_spectrum_posthoc.py`)
 
 **Why.**
@@ -10679,6 +10779,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W125 | COMPUTED (the rule first; one run; K0–K3 held; K4 failed as worded on the cut's small-Q terms, and the remainder converges post hoc: successive differences halve, ratios 1.81–2.18, all carried by Q ≤ 100); WEAVE-type (the towers' finite parts are thread results) | the quantum weave of closed universes: 641 730 fillings of W122's 42 threads to Q = 16 000; Neumann–Zagier on every thread (Q·ΔV/π² within 0.0047 of 1, Q·ℓ/2π within 0.0094 at Q ≥ 400); each thread's slope count has finite part 1 (to 10⁻³) and Stanford and Yan's (3.30) holds on every cusp to 1.6 × 10⁻¹⁵; so at tree level each tower diverges as e^{−sV}(3/(πε) + 3πs·log(1/ε)) with the same coefficients on every thread, and the cusped threads are the counterterms (Stanford and Yan's proposal); no bare ground state; no orientation-preserving symmetry moves a slope on any thread; in this scheme the tick's class ±LR carries the largest tower at every s read. 0 of 19 |
 | W124 | COMPUTED (the rule first; one run; G2 failed as worded on the constant mode's geodesic tail, which the rule's tolerance missed; G5's read-out biased and replaced post hoc by a positivity bound, found by an independent review); recorded, not banked; thread results | the graviton spectrum of the ground-state universe: the trace formula on the Weeks and Meyerhoff manifolds from this seat's own enumeration (24.8 and 23.2 million elements; the unfolding identity exact to 8 digits on the shortest geodesics), calibrated by Cornish and Spergel (scalars, to 0.045) and Lin and Lipnowski (coexact, both manifolds); every graviton on the Milne cone is τ⁻¹cos(ν log τ + φ); Weeks's lowest has ν₁ ≥ 2.0 (∇*∇ ≥ 7) with about three modes near 2.65; Meyerhoff's ν₁ ≥ 1.18, one mode near 1.20 fitting; the TT values stable to 0.015 across cuts at 5.0, 5.5 and 6.0; no G, no scale. 0 of 19 |
 | W123 | COMPUTED (the rule first; one run; five of seven cells as predicted; Y2 and Y6 failed as worded on the instrument's threshold 10⁻⁹, and the law holds post hoc for all 128 end data with the threshold in the gap, 3.4 × 10⁻¹⁶ against 4.5 × 10⁻¹⁰); WEAVE-type | the Higgs route to the cusp's unit (the owner's choice): with per-line end data m at the weave's cusp, a Higgs at weight 3/2 exists only with a unit (d = 0 for every m ≤ 0); one unit on any one eigenline gives exactly one section, and the least pole, −⅛, is on v₊, whose section is ∂R (this seat's exact series; residual 5.5 × 10⁻³¹), the hierarchy's Higgs; that end datum's count is −1, one chiral generation, and three needs Σm = 3, a generation-blind source; route 1 does not force three; the same structure holds for ρ̄_T; v₊ is not a parity line. Corrected the same day: "does not force three" holds only if a unit may sit on one chosen line; with the canonical unit O(δ), uniform by construction, a forced Higgs gives n = 1 and three generations, the Higgs space having dimension 3n (the exact second route, post hoc, agrees in all 64). 0 of 19 |
 | W122 | COMPUTED (the rule first; one run; every cell as predicted); a census of thread results | the closed universes: 42 orientable bundles (21 words to length 6, both trace signs) filled at 72 primitive slopes, 2668 of 3024 fillings certified; the least volume 0.9427073630 is the Weeks manifold (m003(−3,1)), only from the sister −LR, and the next 0.9813688290 the Meyerhoff manifold, from both ±LR; every filling lies below its bundle; within Andersson and Moncrief's scope the 4d vacuum flow's ground state among the record's closed universes is a filling of the tick's class, and by Gabai, Meyerhoff and Milley it is the least of all closed orientable hyperbolic spaces; the slope is a choice. 0 of 19 |

@@ -1,5 +1,17 @@
 # Changelog
 
+## W125 recorded: the quantum weave of closed universes; the threads are the tree-level counterterms (relay §209)
+
+- **W125** (WEAVE-type; K0–K3 held; K4 failed as worded). 641 730 fillings of W122's 42 threads. Neumann–Zagier holds on
+  every thread. Each thread's slope count has finite part 1, and Stanford and Yan's (3.30) holds on every cusp to
+  10⁻¹⁵. So at tree level each tower diverges as its thread's own weight times 3/(πε) + 3πs·log(1/ε), with the same
+  coefficients on every thread: the cusped threads are the counterterms.
+- **Failed as worded:** K4, the remainder's drift at s = 2 (1.45 against 0.5). Post hoc, the drift halves with ε and
+  comes from the small slopes alone: a finite limit. No orientation-preserving symmetry moves a slope on any thread.
+- **The c = 24 lead** recorded in the NOTE as a READING beside W125.
+- **Surfaces.** The NOTE (section and row), the gravity-line page, a post hoc script, the lock, relay §209, the ledger,
+  the state page's range. 0 of 19.
+
 ## The W125 rule (the quantum weave of closed universes); main's S185 read and its asks answered (relay §208)
 
 - **The W125 rule**, committed before its script. Summed over every slope of every thread, the closed universes

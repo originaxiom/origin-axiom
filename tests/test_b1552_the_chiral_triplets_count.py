@@ -3825,3 +3825,46 @@ def test_w124_the_graviton_spectrum():
         S2 = np.array(d["manifolds"][lab]["S on the grid"]["S2"])
         bound[lab] = min(nu for nu in np.arange(0.0, 4.0, 0.005) if np.all(G(T - nu) + G(T + nu) <= S2 + 0.02))
     assert 1.95 <= bound["Weeks"] <= 2.0 and 1.17 <= bound["Meyerhoff"] <= 1.19
+
+
+def test_w125_the_quantum_weave():
+    """W125, the quantum weave of closed universes: the verdict as recorded (K4 failed as worded); the post hoc check
+    (successive differences halve, the drift carried by Q <= 100; no orientation-preserving symmetry moves a slope);
+    in process, the lattice's finite part and Stanford and Yan's (3.30) on the sister's cusp, and Neumann-Zagier on one
+    filling"""
+    import contextlib
+    import importlib.util
+    import io
+    import math
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_quantum_weave.json").read_text(encoding="utf-8"))
+    assert d["verdict"] == {"K0": True, "K1": True, "K2": True, "K3": True, "K4": False}
+    assert len(d["per bundle"]) == 42 and sum(a["slopes"] for a in d["per bundle"]) == 641730
+    assert d["K1"]["worst"] < 0.005 and d["K2"]["worst"] < 0.01
+    assert d["K3"]["(c) worst |2H(0.002) - H(0.004) - SY|"] < 1e-12
+    assert 1.4 < d["K4"]["worst |Delta(0.002) - Delta(0.004)|"] < 1.5
+    ph = json.loads((here / "the_quantum_weave_posthoc.json").read_text(encoding="utf-8"))
+    lo, hi = ph["summary"]["ratios of successive differences where the last exceeds 0.01 (min, max)"]
+    assert 1.8 < lo and hi < 2.2
+    assert ph["summary"]["largest |drift from Q > 100| over every bundle and s"] < 0.13
+    assert ph["symmetry"]["acting nontrivially on slopes"] == {}
+    spec = importlib.util.spec_from_file_location("w125", here / "the_quantum_weave.py")
+    T = importlib.util.module_from_spec(spec)
+    with contextlib.redirect_stdout(io.StringIO()):
+        spec.loader.exec_module(T)
+    tau = complex(-0.5, 0.28867513459481287)                  # b+-LR's cusp shape, as the run read it
+    _, Qp = T.slopes(tau, 20000.0)
+    F = {e: float(np.sum(np.exp(-e * Qp))) - 3 / (math.pi * e) for e in (0.004, 0.002)}
+    assert abs(2 * F[0.002] - F[0.004] - 1) < 0.01
+    _, Qf = T.slopes(tau, 20000.0, primitive=False)
+    H = {e: float(np.sum(np.exp(-e * Qf) / Qf)) / (2 * math.pi) - 0.5 * math.log(1 / e) for e in (0.004, 0.002)}
+    le, z = T.log_abs_eta(tau)
+    assert abs(2 * H[0.002] - H[0.004] - (T.EULER / 2 - math.log(2) - 0.5 * math.log(z.imag) - 2 * le)) < 1e-10
+    import pytest
+    snappy = pytest.importorskip("snappy")
+    M = snappy.Manifold("b+-LR")
+    V0 = float(M.volume())
+    M.dehn_fill((29, 10))
+    Q = abs(29 + 10 * tau) ** 2 / tau.imag
+    assert abs(Q * (V0 - float(M.volume())) / math.pi ** 2 - 1) < 0.002

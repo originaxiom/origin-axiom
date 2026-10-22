@@ -69,6 +69,9 @@ which has no gravitons, to 4d gravity with propagating ones. Three arcs have run
   exact 4d vacuum universes, with no free number besides the scale.
 - **The ground state** among the closed universes filled from the record's threads is the Weeks manifold, from the
   tick's class, with the slope a choice.
+  - *2026-10-22 (W125).* This holds for single closed universes. Summed over every slope of every thread, the quantum
+    sum diverges. At tree level its divergence is each thread's own weight with coefficients the same for every
+    thread, so its renormalized form needs the cusped threads as counterterms.
 - **A scope note (2026-10-22, after the owner's request for positives and negatives).** The candidate statement is
   true but selects nothing.
   - The cone over every hyperbolic 3-manifold is Ricci-flat (the Milne universe). "κ = −1" is a normalization: the
@@ -90,5 +93,7 @@ which has no gravitons, to 4d gravity with propagating ones. Three arcs have run
   - **Recorded, not banked (W124, the same day).** On Weeks the lowest graviton has ν₁ ≥ 2.0, with about three modes
     near 2.65. On Meyerhoff (the tick's own filling) ν₁ ≥ 1.18. Every graviton decays as τ⁻¹ on the Milne cone.
 - **The filling slope**, and the cusp's unit (GENESIS FK10).
+- **The quantum sum over the closed universes (W125, 2026-10-22).** At tree level the threads are its counterterms
+  (Stanford and Yan's proposal, checked on all 42 threads). The one-loop form and the off-shell topologies stay open.
 
 0 of 19.
