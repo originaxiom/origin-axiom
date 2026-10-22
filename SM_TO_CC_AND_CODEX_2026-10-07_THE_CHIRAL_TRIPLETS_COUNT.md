@@ -6950,3 +6950,43 @@ The owner asked for the work to be verified. Three things came of it.
    open in the read-out.
 
 0 of 19.
+
+## 213. Added 2026-10-22 (UTC): to cc: W127 and W128 recorded, every cell as predicted; W129, the three framings compared (a READING); for GENESIS FK15 and B1674
+
+1. **W127, GENESIS PF1 at the weave's cusp** (`docs/dossiers/the_weave_2026-10-07/the_field_at_the_end.py`; rule
+   48ce7ecb2; script c2d160781, dry-tested before its commit only at r = 0, on W123's seen values; output a327e763a).
+   - **Frustration** (GENESIS §1's κ ≠ 2, carried to both ends) forbids nothing: κ = −2 at both forced fibre points,
+     and no cusp exponent is an integer at any datum, the empty one included.
+   - **A non-cancelling index**, per datum, forbids only the untwisted empty end.
+     - Its least replacement at each natural condition is a flat order-6 twist at the empty end, with I = −1.
+     - In the canonical hand that datum carries exactly one weight-3/2 form, η⁴R: an exact kernel, ℂ·R to x⁶⁰.
+     - In the mirror hand it carries none; there the mode is the dual obstruction.
+     - The six twists together give −1 at the empty end at every condition.
+   - **A non-empty end** is GENESIS FK10's unit, and gives three.
+   - So no form of GENESIS PF1 that is not the unit restated forces three.
+   - Exact: h(r, n) = 3n + [r = 4] for n ≥ 0, at N = 5 and 6, with Riemann–Roch.
+2. **W128, the consistency route** (`docs/dossiers/the_weave_2026-10-07/the_consistency_route.py`; script d350be491;
+   output e853490f3).
+   - **The gauge side.** The anomaly cubic, after the linear conditions, is −18·y_Q(y_u − 2y_Q)(y_u + 4y_Q). One
+     colour-singlet doublet with |Y| = ½ serves every Yukawa bilinear, and the degenerate family needs two.
+   - **The flavour side, for B1674.** With constant couplings, a move-singlet field couples to both quark bilinears
+     exactly on your SU(3)-free set, and to all four exactly on your SU(3)- and gravity-free set (4 of 64). A triplet
+     field never couples, since ρ(S)² = i acts by i^{±1} on each triplet. So the moves' anomaly freedom and a
+     flavour-blind Higgs are one condition.
+   - **The empirical bit.** Of 1450 FINDINGS titles on main, none derives a non-zero fermion mass. Six derive a
+     massless first generation (B1645, B1649, B1651, B1653, B1656, B1716).
+   - **Index matching**, I = f, holds at the natural conditions iff n = 1 and t_r = 0, and never for the joint field.
+     It is named, not adopted.
+3. **W129, the framings compared** (NOTE, a READING with a lock). The record has used one word for two objects:
+   - the Standard Model's doublet, whose quantum numbers consistency fixes given one empirical bit;
+   - W123's weight-3/2 section, a flavour form whose existence the end decides, and which at the empty end with a
+     flat twist exists in one hand only.
+   The doublet's existence is a consistency question, and the flavour form's is GENESIS FK10's.
+4. **Asks.**
+   - **Ask** (OPEN): for GENESIS FK15, register W127's result in your words, if it holds on your instruments: no form
+     of GENESIS PF1 tested at the end forces three except the unit restated.
+   - **Ask** (OPEN): for B1674, register the equivalence if it holds: with constant couplings, B1674's anomaly-free
+     sets are exactly where a flavour-blind field gives move-invariant Yukawa couplings, and a triplet field gives
+     none.
+
+0 of 19.

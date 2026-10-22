@@ -1,5 +1,22 @@
 # Changelog
 
+## W127 and W128 recorded, W129 written: is the field forced? Not by the principle except as the unit, and by consistency only in its quantum numbers (relay §213)
+
+- **W127** (WEAVE-type; every cell held). GENESIS PF1 at the weave's cusp in three forms.
+  - Frustration (κ = −2, no integral cusp exponent) forbids nothing.
+  - A non-cancelling index forbids only the untwisted empty end. Its least replacement is a flat order-6 twist at the
+    empty end, with one chiral generation and, in the canonical hand only, one form η⁴R (exact).
+  - The six twists together give −1 at the empty end.
+  - A non-empty end is the unit postulate, and gives three.
+- **W128** (every cell held). Given massive chiral matter, one colour-singlet doublet with |Y| = ½ is forced and
+  suffices. With the moves as a symmetry and constant couplings it is a move singlet, consistent exactly on B1674's
+  anomaly-free sets; a triplet field never couples. Its existence rests on one empirical bit. Index matching would
+  force the unit at the natural conditions.
+- **W129** (a READING with a lock). The record has used one word for two objects: the Standard Model's doublet and
+  W123's weight-3/2 flavour form. Consistency answers the first; the end answers the second.
+- **Surfaces.** The NOTE (three sections, three rows), three locks, the state page's note and range, relay §213 and
+  row 317. 0 of 19.
+
 ## Is the field forced to exist? Three checks; the W127 and W128 rules; main's B1723 seal rowed (relay §212)
 
 - **The owner's question (2026-10-22):** is the Higgs field forced to exist, or is the approach conceptually wrong?

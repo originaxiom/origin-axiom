@@ -20269,3 +20269,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - How do the different ways of framing the question compare?
 - **The rules for the first two checks** are written down and fixed before any calculation, so that every prediction
   can be held to. 0 of 19.
+
+## 2026-10-22 — is the field forced to exist? The three checks done
+
+- **The principle, read at the edge of space,** does not force the field that gives masses, except in the one reading
+  that simply assumes what is needed. A milder reading forces a single field and a single family of particles, not
+  three, and only with one of two equivalent conventions.
+- **Consistency** with massive matter fixes what kind of field it must be, exactly the kind observed, but not that it
+  exists: that rests on the observed fact that the particles have mass.
+- **Comparing the two,** the record had been using one name for two different things: the observed field, and a
+  pattern in the space of families. Separating them is the main lesson. 0 of 19.

@@ -91,6 +91,11 @@ Under the owner's rulings, the table's rows split into two groups:
   - Nothing on that surface forces the unit (main's named arc). The natural cusp conditions coincide, since no exponent
     is an integer, and the 24 flat line bundles move the index by at most one, never by three: NEGATIVE (W47). Three
     needs a non-flat source at the cusp (GENESIS FK10).
+  - *Added 2026-10-22.* GENESIS PF1, read at the cusp in three forms, forbids the empty end only in the form that
+    restates the unit. Its index form forbids only the untwisted empty end, whose least replacement is a flat order-6
+    twist with one chiral generation and, in one hand, the form η⁴R: NEGATIVE for three (W127). Consistency forces the
+    field's gauge quantum numbers given massive matter, not its existence and not three (W128); W129 compares the
+    framings.
 - **No index on a thread or a cover:** NEGATIVE (main's B1604).
 - **The E₈ frames on the fibre give at most two complete generations:** NEGATIVE (W23).
 - **No six-dimensional object the weave forces gives three:** NEGATIVE (W24).
@@ -909,4 +914,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W119 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§212).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§213).

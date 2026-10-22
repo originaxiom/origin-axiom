@@ -3901,3 +3901,71 @@ def test_w126_the_physical_readout():
     A /= np.sqrt(np.linalg.det(A))[:, None, None]
     B = T.lift(T.phi(A))
     assert all(min(float(np.abs(b - a).max()), float(np.abs(b + a).max())) < 1e-12 for a, b in zip(A, B))
+
+
+def test_w127_the_field_at_the_end():
+    """W127, GENESIS PF1 at the weave's cusp in three forms: every cell as recorded; in process, the exact Higgs space
+    at the flat twist r = 4 is one-dimensional and spanned by R (so the form is eta^4 R), and the uniform unit gives 3"""
+    import contextlib
+    import importlib.util
+    import io
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_field_at_the_end.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"P0": True, "P1": True, "P2": True, "P2'": True, "P2''": True, "P3": True, "P4": True}
+    h = d["h(r, n) exact, by N"]["6"]
+    assert [h[f"r={r} n=0"] for r in (0, 4, 8, 12, 16, 20)] == [0, 1, 0, 0, 0, 0]
+    assert [h[f"r=4 n={n}"] for n in (-1, 0, 1, 2)] == [0, 1, 4, 7]
+    rd = d["P5 (read-out)"]
+    assert rd["F1 (frustration)"]["forbids the empty end"] is False
+    assert rd["F2 per datum"]["forbids the untwisted empty end"] is True
+    assert rd["F2 per datum"]["its Higgs space, canonical hand h(4, 0)"] == 1
+    assert rd["F2 per datum"]["its Higgs space, mirror hand hbar(20, 0)"] == 0
+    assert rd["F2 at weave level"]["the joint index at n = 0"] == {"0": -1.0, "V2": -1.0, "V4": -1.0, "L6": -1.0}
+    sys.path.insert(0, str(here))
+    spec = importlib.util.spec_from_file_location("w127_lock", here / "the_field_at_the_end.py")
+    W = importlib.util.module_from_spec(spec)
+    with contextlib.redirect_stdout(io.StringIO()):
+        spec.loader.exec_module(W)
+    assert W.h_exact(4, 0, 5) == 1 and W.h_exact(0, 1, 5) == 3 and W.h_exact(0, 0, 5) == 0
+    forms = W.kernel_form(4, 0, 5)
+    assert len(forms) == 1 and W.equals_up_to_scale(forms[0], W.R_LINES, upto=40)[0]
+
+
+def test_w128_the_consistency_route():
+    """W128, the consistency route: every cell as recorded; in process, the image group's order, the invariant in
+    T (x) T-bar, none in an odd number of triplets, and the anomaly cubic's factorisation"""
+    import contextlib
+    import importlib.util
+    import io
+    import sys
+    import sympy as sp
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_consistency_route.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"C0": True, "C1": True, "C2": True, "C4": True}
+    assert d["C1"]["its ratio"] == "-18" and len(d["C4"]["the matching set (cond, r, n)"]) == 22
+    sys.path.insert(0, str(here))
+    spec = importlib.util.spec_from_file_location("w128_lock", here / "the_consistency_route.py")
+    W = importlib.util.module_from_spec(spec)
+    with contextlib.redirect_stdout(io.StringIO()):
+        spec.loader.exec_module(W)
+        G, has_i, _ = W.image_group()
+    assert len(G) == 96 and has_i
+    assert W.invariants(G, (1, -1)) == 1 and W.invariants(G, (1, 1)) == 0
+    assert all(W.invariants(G, p) == 0 for p in ((1, -1, 1), (1, 1, -1), (1, 1, 1), (-1, -1, -1)))
+    yQ, yu = sp.symbols("y_Q y_u")
+    cubic = (6 * yQ ** 3 + 3 * yu ** 3 + 3 * (-2 * yQ - yu) ** 3 + 2 * (-3 * yQ) ** 3 + (6 * yQ) ** 3)
+    assert sp.expand(cubic + 18 * yQ * (yu - 2 * yQ) * (yu + 4 * yQ)) == 0
+
+
+def test_w129_the_framings_reading():
+    """W129, the three framings compared: a READING; the lock pins its section, its table and the two objects"""
+    note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W129. The three framings of \"is the field forced?\", compared (READING with a lock" in note
+    i = note.index("## W129.")
+    sec = note[i:note.index("## W128.", i)]
+    for s in ("| constructive |", "| consistency |", "| selection by a measure |", "**Two objects have shared one name.**",
+              "**So the question \"is the Higgs forced?\" splits.**", "This is a reading, not a ruling."):
+        assert s in sec, s
+    for w in ("| W129 | READING", "| W128 | COMPUTED", "| W127 | COMPUTED"):
+        assert w in note, w
