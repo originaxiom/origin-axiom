@@ -11811,5 +11811,27 @@
    "reach": "class"
   },
   "weave_or_thread": "thread"
+ },
+ {
+  "id": "B1722",
+  "claim_killed": "That the record's own measures over threads (the weave's uniform word measure; the action weight at c = 6) select the thread the six charged-fermion ratios prefer.",
+  "kill_form": "Sealed (B1722; a9a5d46f9): the measure-weighted mean log-misfit of a thread drawn from each measure is matched by 25.4% (uniform) and 21.0% (action) of random hierarchies; both measures concentrate on short threads whose apexes sit too low; the best class L^5RLR^2 carries 0.27% and 0.65% of them.",
+  "hatch": "a measure not on record that weights high-run threads, a dynamics (the walk's limit point, C4), or a principle beyond a measure (P-139)",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-22), for tests/test_b833_negative_routing.py",
+  "note": "With B1720: the thread fixes the point, the apex is its point, but which thread is not selected by any measure on record.",
+  "faces_consulted": [
+   "B1720",
+   "B1629",
+   "B1088"
+  ],
+  "fact_computed": "121 classes' measure weights and the measure-weighted misfit against 4000 random hierarchies, by the sealed instrument (7f5b6f599)",
+  "scope": {
+   "frame": "B1720's census in B1656's frame at the canonical end",
+   "hypotheses": "the measures mu_U and mu_A at c = 6",
+   "object": "the six charged-fermion ratios",
+   "reach": "class"
+  },
+  "weave_or_thread": "weave"
  }
 ]

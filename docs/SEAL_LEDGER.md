@@ -163,7 +163,7 @@ hash-first status.*
 | frontier/B1712_the_weave_census_of_lines/PREREGISTRATION.md | c4856e37 | a35ab5642 | 1 | yes |
 | frontier/B1713_the_complement_and_the_mixing/PREREGISTRATION.md | 1cdf28e5 | cd294dccf | 1 | yes |
 | frontier/B1720_the_thread_fixes_the_point/PREREGISTRATION.md | a0d2a726 | a93ff339a | 1 | yes |
-| frontier/B1722_which_thread/PREREGISTRATION.md | 120707ad | untracked | 0 | NO |
+| frontier/B1722_which_thread/PREREGISTRATION.md | 120707ad | a9a5d46f9 | 1 | yes |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f4771 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c1 | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8cf | 1 | yes |
@@ -423,9 +423,10 @@ hash-first status.*
 | frontier/B959_nontoral_rank4/PREREGISTRATION.md | 6c5d76e6 | 4c3c47756 | 1 | yes |
 | frontier/B995_separating_and_rare/PREREGISTRATION.md | a356e987 | 3bae686c2 | 1 | yes |
 
-*Totals: 412 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
+*Totals: 412 sealed documents; 0 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
 
 
 

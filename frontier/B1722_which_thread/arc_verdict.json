@@ -1,0 +1,26 @@
+{
+ "id": "B1722",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1720",
+  "B1629",
+  "B1088",
+  "B1663"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1720's census of 121 threads in B1656's frame at the canonical end, DR",
+  "object": "the record's measures over threads against the six charged-fermion ratios",
+  "reach": "class",
+  "hypotheses": "the measures mu_U (B1629) and mu_A at c = 6 (L154); the statistic E_mu, the measure-weighted mean log-misfit"
+ },
+ "claim_one_line": "WHICH THREAD? (the completion map's C2, P-285; sealed a9a5d46f9, sha256 120707ad; NEGATIVE as sealed -- both cells fail; output committed unread at 7f5b6f599): on B1720's census, a thread drawn from the record's own measures fits the six ratios no better than random hierarchies -- the weave's uniform word measure (B1629) gives a measure-weighted mean log-misfit 3.85 against a random median 4.62, with 25.4% of random hierarchies as good, and the action weight at c = 6 (e^{-Vol/pi}) 3.04 against 3.77, 21.0% -- because both concentrate on short threads (LR, LLR, LRR, LLLR) whose apexes sit too low for a hierarchy, while the best class L^5RLR^2 carries 0.27% and 0.65% of them. After the read (labelled; the completion map's C4, P-286): the pull-back walk's limit is a uniform random word (digits i.i.d. 2^-k at p = 0 and 1/2, consecutive digits independent to 0.003), so a thread read from it is drawn from the uniform measure, which is flat within each length -- the walk selects at most a length, never a thread (L^5RLR^2 is 1 of 54 at length 9). The selection needs a measure not on record, a dynamics other than the walk, or a principle beyond the measure (P-139). 0 of 19.",
+ "weave_or_thread": "weave (measures over all threads)"
+}

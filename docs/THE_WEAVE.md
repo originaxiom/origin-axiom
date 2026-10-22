@@ -843,4 +843,10 @@ found with B1635's sealed instrument.
   - The thread L⁵RLR² on the order-28 line it fixes puts all six ratios within a factor 1.80, the frame's closest
     approach. But 1.65% of random hierarchies fit as well (the bar was 1%).
   - The next question is which thread: a measure on record that singles it out (P-285).
+- **The record's measures do not pick the thread (B1722, sealed, NEGATIVE).**
+  - A thread drawn from the weave's uniform measure, or from the action weight at c = 6, fits the six ratios no better
+    than random hierarchies.
+  - Both measures favour short threads, whose apexes sit too low for a hierarchy.
+  - The selection needs something not on record: a measure weighting high-run threads, a dynamics (the walk's limit
+    point, C4), or a principle (P-139).
 

@@ -17747,3 +17747,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - **Sealed at a93ff339a; outputs at ceabd0407.** NEGATIVE as sealed, and the frame's closest approach: 1.80 with no continuous number free, 1.65% of random hierarchies as good. P-284 DONE; P-285 next.
 - **Landing suite.** full suite 7 588 passed, 2 failed, 68 skipped (36:12, -n 8). Both failures are B805's attachment locks (P-239).
+
+## 2026-10-22 — S189 WHICH THREAD? (B1722)
+
+- **Sealed at a9a5d46f9; output at 7f5b6f599.** NEGATIVE as sealed: neither the weave's uniform measure (25.4%) nor the action weight at c = 6 (21.0%) selects the data's thread; both favour short threads. P-285 DONE. C4 reduces to it (after the read: the walk's limit is the uniform measure, flat within each length); P-286 DONE. Next: C3.
+- **Landing suite.** full suite 7 593 passed, 2 failed, 68 skipped (46:36, -n 8). Both failures are B805's attachment locks (P-239).

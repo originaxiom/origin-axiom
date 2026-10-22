@@ -1,5 +1,18 @@
 # Changelog
 
+## S189 WHICH THREAD? (B1722, NEGATIVE as sealed; P-285; the completion map's C2) (2026-10-22)
+
+- **The sealed test** (`a9a5d46f9`, sha256 120707ad; output committed unread at `7f5b6f599`). It reads B1720's stored rows (sha256 pinned), so no new mass computation.
+  - **The statistic:** the measure-weighted mean log-misfit of a thread drawn from each of the record's two measures over threads, against 4 000 random hierarchies.
+  - **W1, the weave's uniform word measure (B1629), fails:** 25.4% of random hierarchies are as good (E 3.85 against a median of 4.62).
+  - **W2, the action weight at L154's c = 6 (e^{−Vol/π}), fails:** 21.0% (E 3.04 against 3.77).
+  - **Why:** both measures concentrate on short threads (LR carries 7.6% and 2.7%), whose apexes sit too low for the frame's hierarchy. The best class L⁵RLR² carries 0.27% and 0.65%.
+  - Routed into B738's kill graph.
+- **C4 reduces to it** (after the read, labelled; P-286). The pull-back walk's limit is a uniform random word: its digits are i.i.d. 2⁻ᵏ at p = 0 and ½, and consecutive digits are independent to 0.003. So the walk selects at most a length; within one, every class weighs the same (L⁵RLR² is 1 of 54 at length 9).
+- **The picture with B1720:** a thread fixes the point and the apex is its point, but nothing on record selects the thread. The selection needs a measure not on record, a dynamics other than the walk or a principle (P-139). Next: C3 (the golden valley), then C5 (the near-ω regime).
+- **Landing suite.** full suite 7 593 passed, 2 failed, 68 skipped (46:36, -n 8). Both failures are B805's attachment locks (P-239).
+- 0 of 19.
+
 ## S188 THE THREAD FIXES THE POINT (B1720, NEGATIVE as sealed; P-284; the completion map's C1) (2026-10-22)
 
 - **The sealed test** (`a93ff339a`, sha256 a0d2a726; outputs committed unread at `ceabd0407`).

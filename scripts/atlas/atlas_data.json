@@ -13347,7 +13347,9 @@
    "motifs": [
     "measurement",
     "trace_map",
-    "amphichiral_cp"
+    "amphichiral_cp",
+    "wrt_quantum",
+    "markov_cubic"
    ],
    "refs": [
     "B482",
@@ -13357,9 +13359,9 @@
     "K4"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
    "status": "open",
-   "domain": "dynamics"
+   "domain": "topology"
   },
   "B1721": {
    "slug": "genesis v1 54",
@@ -13371,6 +13373,17 @@
    "obstacle_conf": 0,
    "status": "dormant",
    "domain": "topology"
+  },
+  "B1722": {
+   "slug": "which thread",
+   "motifs": [],
+   "refs": [
+    "L154"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 21,
+   "status": "open",
+   "domain": "dynamics"
   },
   "B172": {
    "slug": "combination gap resolution",
