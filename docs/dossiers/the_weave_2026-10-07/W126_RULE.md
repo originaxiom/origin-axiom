@@ -5,7 +5,7 @@ result.
 
 ## Why
 
-- **The owner's goal, as main's completion map states it** (`docs/THE_COMPLETION_MAP.md` on main, S187).
+- **The owner's goal, as main's completion map states it** (docs/THE_COMPLETION_MAP.md on main, S187).
   - C10 asks for the read-out on a physical spacetime: the APS or L² index of the Dirac operator twisted by the
     triplet's representation on the Milne cone over a thread, W120's exact 4d vacuum.
   - Main lists it as never computed.
@@ -120,6 +120,12 @@ result.
 - **By hand:** the reduction to −h(D_N^E), the extension lemma, the spinor density's heat-kernel check, and the
   criterion S_{1/2}(0) < 2.
 - **No spinor sum, eigenvalue order or ρ image** has been computed.
+
+## A correction before the script (2026-10-22)
+
+D0(d) said W124's S₂ would be reproduced "to 10⁻⁹". W124's JSON stores S₂ rounded to five decimals, so the comparison
+can hold only to that rounding. D0(d) now reads: W124's counts of visited elements and kept axes exactly, and its S₂,
+rounded to five decimals, to within 6 × 10⁻⁶ of the stored values. No script existed when this was corrected.
 
 ## Discipline
 
