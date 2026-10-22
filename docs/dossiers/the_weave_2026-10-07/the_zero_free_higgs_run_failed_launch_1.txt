@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "docs/dossiers/the_weave_2026-10-07/the_zero_free_higgs.py", line 275, in <module>
+    main()
+  File "docs/dossiers/the_weave_2026-10-07/the_zero_free_higgs.py", line 259, in main
+    p2, ok2 = P2()
+              ^^^^
+  File "docs/dossiers/the_weave_2026-10-07/the_zero_free_higgs.py", line 235, in P2
+    count = standard_count(G, a) if zd else (0 if empty else None)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "docs/dossiers/the_weave_2026-10-07/the_zero_free_higgs.py", line 198, in standard_count
+    lms = [sp.Poly(g, *gens).monoms(order="grevlex")[0] for g in G.exprs]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "docs/dossiers/the_weave_2026-10-07/the_zero_free_higgs.py", line 198, in <listcomp>
+    lms = [sp.Poly(g, *gens).monoms(order="grevlex")[0] for g in G.exprs]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/sympy/polys/polytools.py", line 913, in monoms
+    return f.rep.monoms(order=order)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/sympy/polys/polyclasses.py", line 357, in monoms
+    return [ m for m, _ in f.terms(order=order) ]
+                           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/sympy/polys/polyclasses.py", line 365, in terms
+    return f._terms(order=order)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/sympy/polys/polyclasses.py", line 1843, in _terms
+    if order is None or order.alias == 'lex':
+                        ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'alias'
+
+real	0m2.577s
+user	0m2.520s
+sys	0m0.066s

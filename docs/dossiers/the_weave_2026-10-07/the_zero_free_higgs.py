@@ -25,6 +25,7 @@ from pathlib import Path
 
 import numpy as np
 import sympy as sp
+from sympy.polys.orderings import monomial_key
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
@@ -195,7 +196,8 @@ def cubic_system(r, n):
 
 
 def standard_count(G, gens):
-    lms = [sp.Poly(g, *gens).monoms(order="grevlex")[0] for g in G.exprs]
+    key = monomial_key("grevlex")                                   # this sympy takes an ordering, not its name
+    lms = [max(sp.Poly(g, *gens).monoms(), key=key) for g in G.exprs]
     pure = {}
     for m in lms:
         nz = [i for i, x in enumerate(m) if x]
