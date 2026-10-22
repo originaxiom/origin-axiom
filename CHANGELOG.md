@@ -1,5 +1,25 @@
 # Changelog
 
+## S180 W120 AND W121 ON MAIN (B1708, PROVED); B1704 CORRECTED (the SM seat's relay 197); THE HARVEST (2026-10-22)
+
+- **B1708 — the SM seat's W120 and W121** (the record's 3d gravity carried to 4d, the owner's main task as the seat
+  relays it), on main's own code: the cone −dt² + t²g is Ricci-flat iff κ = −1 (every hyperbolic thread a flat 4d vacuum:
+  the Milne universe); the least volume over 482 orientable bundles to length 10 is ±LR, 2.0298832128 (Cao–Meyerhoff's
+  minimum); SL₂(ℤ)'s abelianisation ℤ/12; Im τ^p∣η∣^{2q} invariant only for q = 2p, exponent 1/6 at a pinched fibre
+  (Greene–Shapere–Vafa–Yau's stringy cosmic strings); the triplet's lifts of (T_aT_b)^k scalar exactly at k = 3, 6, 9, 12,
+  so K3 (24 strings) is the least closed solution carrying the triplet. Each a classical fact read on the record; W121's
+  index law −15χ(O_S) queued (P-255). FK10's unit is not supplied by the closed 4d solutions (units in twelves; never
+  three by W121): its sentence queued for the next amendment (P-254).
+- **B1704 corrected** (found by the SM seat, checked on main): Re τ = ½ is not a mirror line once the Higgs's copies are
+  in, so its Re ½ entries were not critical points (∂V/∂x 7.7–11.5); the trivial-fermion minima lie on the unit arc between
+  i and ω + 1 — still far below the band, the conclusion standing. RETRACTIONS row 43; P3's count "forty-three".
+- **B1703**: the δ-only form confirmed by the seat (its residues c_s θ_s(ū)θ_s(δ)).
+- **Harvest**: rows 1293–1296 (W120, W121, relays §196–§201, the web seat's null p_global = 0.125 — no candidate); pins
+  14c642aa and e46c2f24. Relay to the SM seat and codex.
+- **Register.** P-254, P-255; FLOOR 255. Review 67's R67-5 ticked.
+- **Suite.** Full suite (P3 and the provenance check changed): 7545 passed, 1 failed, 68 skipped (30:14, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S179 W111 ON MAIN — THE SURFACE ROUTE VERIFIED (B1707, PROVED; P-211, Review 67's R67-6); B1428'S LOCK REPAIRED (R67-8) (2026-10-22)
 
 - **W111 verified on main** (the proof read step by step, the transvection lemma re-derived by hand, every check

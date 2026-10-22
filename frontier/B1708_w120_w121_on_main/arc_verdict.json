@@ -1,0 +1,31 @@
+{
+  "id": "B1708",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1634",
+    "B1641",
+    "B1700",
+    "B1629"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [
+    "sm:W120",
+    "sm:W121",
+    "sm:W45",
+    "sm:W46"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the record's hyperbolic threads as spatial sections; the torus-fibred sector of 4d vacuum gravity",
+    "object": "the cone's Ricci-flatness, the least bundle volume, SL2(Z)'s abelianization, the fibre metric's invariance and exponent, the triplet's lifts of twist products",
+    "reach": "general",
+    "hypotheses": "orientable bundles to word length 10; rho_T as B1634 defines it; W121's index count not checked"
+  },
+  "claim_one_line": "W120 AND W121 ON MAIN (the SM seat's relays 200-201, the record's 3d gravity carried to 4d): the cone -dt^2 + t^2 g is Ricci-flat iff the 3d curvature is -1 (Ric_ij = 8(kappa + 1)/(1 + kappa r^2)^2 delta_ij), so every hyperbolic thread is the space of a flat 4d vacuum (the Milne universe); the least volume among 482 orientable bundles to length 10 is +-LR, 2.0298832128 (m004, m003; Cao-Meyerhoff); SL2(Z)'s abelianization is Z/12; Im tau^p |eta|^(2q) is invariant only for q = 2p and has exponent 1/6 at a pinched fibre (Greene-Shapere-Vafa-Yau's stringy cosmic strings); the triplet's lifts of (T_a T_b)^k are scalar exactly at k = 3, 6, 9, 12, twelve twists giving -I and twenty-four I, so K3 is the least closed solution carrying the triplet. Each is a classical fact read on the record; W121's index count (-15 chi(O_S)) not checked. The closed 4d solutions supply units only in twelves and, by W121, never a count of three: FK10's unit stays a tagged postulate. 0 of 19.",
+  "weave_or_thread": "weave (every thread; the fibre's modulus over a base)"
+}

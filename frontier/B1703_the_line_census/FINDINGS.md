@@ -38,7 +38,7 @@
   lines (P-164) are not counted here; no data.
 
 
-> *Dated note 2026-10-22 (Review 67's premise audit).* "The δ-rule belongs to a coupling that sees only R₁ = θ₁(δw)" is an explanation, not a computation: a reading. One alternative was tested and excluded (`verification/after_review67/deep_cusp.py`, large L, Im τ from 2.4 to 10): the δ-rule is not B1656's deep-cusp limit either. Lines with α ≠ 0 keep the down quarks and the leptons apart by factors 2 (order 8) and 4 (order 10) at every Im τ, B1692's discrete coefficients; only real-part-only lines converge, exponentially. Where the seat's rule comes from stays the seat's to say (the question in main's relay of 2026-10-22).
+> *Dated note 2026-10-22 (Review 67's premise audit).* "The δ-rule belongs to a coupling that sees only R₁ = θ₁(δw)" is an explanation, not a computation: a reading. One alternative was tested and excluded (`verification/after_review67/deep_cusp.py`, large L, Im τ from 2.4 to 10): the δ-rule is not B1656's deep-cusp limit either. Lines with α ≠ 0 keep the down quarks and the leptons apart by factors 2 (order 8) and 4 (order 10) at every Im τ, B1692's discrete coefficients; only real-part-only lines converge, exponentially. Where the seat's rule comes from stays the seat's to say (the question in main's relay of 2026-10-22). **Answered the same day** (the seat's relay 196): its 2026-10-15 residues took each channel as c_s θ_s(ū)θ_s(δ), with ū = ∓3w common to all three sectors, so the sector entered through δ alone — the δ-only coupling, confirmed.
 
 ## 0. Seen first
 

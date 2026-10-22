@@ -6946,7 +6946,7 @@ explanation). No number in a claim line disagrees with its output.
 - [ ] R67-2: the verifications by consequence, P-229's list in order (owner: cc; carried from R66-6)
 - [x] R67-3: GENESIS v1.52 through adoption/amend.py after this review's full suite — P-237's items and FK10's sentence (B1700) (owner: cc; P-237) — **done 2026-10-22 (S178): B1706**
 - [ ] R67-4: ledger currency (P-230) and the declined relays' asks (P-231) (owner: cc; carried from R66-7)
-- [ ] R67-5: the web seat's lepton test — read its null when finished; verify any candidate on main before banking (owner: cc)
+- [x] R67-5: the web seat's lepton test — read its null when finished; verify any candidate on main before banking (owner: cc) — **done 2026-10-22 (S180): the null p_global = 0.125, no candidate (harvest row 1296)**
 - [x] R67-6: P-211 — verify the SM seat's W111 proof on main (owner: cc) — **done 2026-10-22 (S179): B1707**
 - [x] R67-8: B1428's and B1431's `step7_fixed_gluing.py` write `step7_table.json` to the working directory; write beside the script, in a dated repair (owner: cc) — **done 2026-10-22 (S179): B1428's lock runs the driver in a temporary directory (B1431's copy is run by no lock)**
 - [x] R67-7: filed at this review: R66-2 and R66-3 declined with reasons; R66-4 resolved (B1705); the premise-audit notes on B1692 and B1703; P-253; eight terms in TERMINOLOGY

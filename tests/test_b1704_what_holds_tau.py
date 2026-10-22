@@ -28,3 +28,10 @@ def test_live():
     v = -H.F(c, 0.0); d = np.diff(v)
     mins = [float(H.ys[i + 1]) for i in range(len(d) - 1) if d[i] < 0 <= d[i + 1]]
     assert len(mins) == 1 and abs(mins[0] - 2.85) < 0.02
+
+
+def test_the_correction_stored():
+    d = json.loads((A / "correction" / "mirror_check.json").read_text(encoding="utf-8"))
+    assert d["mirror_pairs"]["0.0"] < 1e-10 and d["mirror_pairs"]["1.0"] < 1e-6 and d["mirror_pairs"]["0.5"] > 0.1
+    assert min(abs(v) for v in d["dVdx_at_B1704_Re_half"].values()) > 1.0
+    assert all(v["on_the_unit_arc"] for v in d["grid_minima"].values())

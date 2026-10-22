@@ -17692,3 +17692,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   rewritten, re-run at flat memory); B1428's lock moved to a temporary directory. P-211 DONE.
 - PRACTICES and ERROR_LEDGER read to B1707 (the doc-currency gate).
 - **Landing suite.** 118 files (B1707's lock, B1428's repaired lock, every arc lock and the corpus-scanning tests), 2052 passed, 1 failed, 3 skipped (6:19, -n 8; the P-232 glob lock re-run green after the instrument's test_words was renamed); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-22 — S180 W120 AND W121 ON MAIN (B1708); B1704 CORRECTED; THE HARVEST
+
+- The SM seat's W120/W121 checked on main's own code (sympy, SnapPy, mpmath; a theta-branch slip in main's own ρ_T
+  construction fixed before the run that counts); prior art named. B1704's Re ½ entries corrected after the seat's
+  relay 197, checked on main. Rows 1293–1296; P-254, P-255.
+- **Suite.** Full suite (P3 and the provenance check changed): 7545 passed, 1 failed, 68 skipped (30:14, -n 8); the one failure is B805's attachment lock (P-239)

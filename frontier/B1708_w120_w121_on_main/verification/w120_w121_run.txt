@@ -1,0 +1,132 @@
+<python>/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+{
+ "1_cone": {
+  "Ric_tt": "0",
+  "Ric_xx": "8*(kappa + 1)/(kappa*x**2 + kappa*y**2 + kappa*z**2 + 1)**2",
+  "Ric_xy": "0",
+  "all_vanish_at_kappa_-1": true,
+  "Ric_xx_proportional_to_kappa_plus_1": true
+ },
+ "2_volumes": {
+  "bundles": 482,
+  "least": [
+   [
+    2.029883212819307,
+    "+LR"
+   ],
+   [
+    2.029883212819307,
+    "-LR"
+   ],
+   [
+    2.666744783449059,
+    "+LRR"
+   ],
+   [
+    2.66674478344906,
+    "+LLR"
+   ]
+  ],
+  "the_least_is_pm_LR": true,
+  "least_value": 2.029883212819307
+ },
+ "3_abelianization": {
+  "smith": [
+   1,
+   12
+  ],
+  "chi(T)": 1,
+  "chi(S)": 9,
+  "chi(L) = chi(S T^-1 S^-1)": 11,
+  "chi(R) = chi(T)": 1,
+  "chi(LR)": 0
+ },
+ "4_invariance_and_exponent": {
+  "max_rel_dev": {
+   "p=1 q=1": 0.27559660004573894,
+   "p=1 q=2": 6.902532920683853e-31,
+   "p=1 q=3": 0.5588925271422103,
+   "p=2 q=4": 1.3805065841367707e-30,
+   "p=2 q=3": 0.11108702959603517
+  },
+  "exponent_of_|z|_after_the_log": [
+   0.16724659533792793,
+   0.1666701410746377,
+   0.16666669148349791
+  ]
+ },
+ "5_lifts": {
+  "rho_T(T)_residual": 1.925929944387236e-34,
+  "rho_T(S)_residual": 1.058389107110832e-34,
+  "products": {
+   "1": {
+    "scalar": false,
+    "lambda": null
+   },
+   "2": {
+    "scalar": false,
+    "lambda": null
+   },
+   "3": {
+    "scalar": true,
+    "lambda": [
+     -0.0,
+     -1.0
+    ]
+   },
+   "4": {
+    "scalar": false,
+    "lambda": null
+   },
+   "5": {
+    "scalar": false,
+    "lambda": null
+   },
+   "6": {
+    "scalar": true,
+    "lambda": [
+     -1.0,
+     0.0
+    ]
+   },
+   "7": {
+    "scalar": false,
+    "lambda": null
+   },
+   "8": {
+    "scalar": false,
+    "lambda": null
+   },
+   "9": {
+    "scalar": true,
+    "lambda": [
+     0.0,
+     1.0
+    ]
+   },
+   "10": {
+    "scalar": false,
+    "lambda": null
+   },
+   "11": {
+    "scalar": false,
+    "lambda": null
+   },
+   "12": {
+    "scalar": true,
+    "lambda": [
+     1.0,
+     -0.0
+    ]
+   }
+  },
+  "scalar_exactly_at": [
+   3,
+   6,
+   9,
+   12
+  ]
+ }
+}
+exit 0

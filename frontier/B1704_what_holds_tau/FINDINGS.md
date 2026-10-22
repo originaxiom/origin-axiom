@@ -28,6 +28,16 @@ main, and ask whether any content meets it. 0 of 19.
 - **What it does not do.** PH2's shape is a 1% fit (verified, B1686); minima were searched on the two CP lines only; the
   Higgs's copies are those of the line (½, ½) (B1686's three half-period lines give the same totals); no data.
 
+
+> *Correction 2026-10-22 (found by the SM seat, its relay 197; checked on main, `verification/correction/mirror_check.py`).*
+> Re τ = ½ is not a mirror line of V once the Higgs's copies are in: the reflection τ ↦ 1 − τ̄ sends a characteristic
+> (a, b) to (a, a − b), swapping the copies at (½, 0) and (½, ½) (mirror pairs: 3 × 10⁻¹⁴ about Re 0, 4 × 10⁻⁹ about Re 1,
+> 0.88 about Re ½). So the line minima reported on Re ½ were not critical points (∂V/∂x = 7.7–11.5 there). The
+> trivial-fermion contents' minima lie **on the unit arc, between i and ω + 1** (y from 1.00 down to 0.89; at i for (a) + 3
+> and (c) + 17, at 0.44 + 0.90 i for (a) + 8 and (c) + 25). The conclusion stands — those minima are far below the band,
+> where there is no hierarchy — and so do the axis band minima, which are genuine. "At i or near ω" and "on Re τ = ½ the
+> gauge contents give saddles" are corrected accordingly.
+
 ## 0. Seen first
 
 `VERDICT topic-sweep /holds? tau|holds? τ|cusp coefficient|runs? to (a|the) cusp|PH3|31/1024|cusp.stab/ (full text): 5 of 1476 arcs on main match (PROVED 5)` —

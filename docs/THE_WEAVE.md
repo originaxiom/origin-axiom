@@ -810,6 +810,10 @@ found with B1635's sealed instrument.
   protected order is 9 (the leptons) and none protects the up quarks. Every line a principle on record selects — closure,
   move-invariance, the potential's state, W63's tie, the tick's order-5 lines — leaves two sectors degenerate.
 - **What would hold τ (B1704, computed).** A content holds τ off the cusp only if its cusp coefficient is negative, and
-  every content on record is positive. The simple ways to flip it (net fermions in the trivial sector) hold τ at i or near
-  ω, where there is no hierarchy; a minimum in the hierarchy band needs net bosons in the matter's representation and a
+  every content on record is positive. The simple ways to flip it (net fermions in the trivial sector) hold τ on the unit arc
+  between i and ω + 1, where there is no hierarchy [corrected S180: Re τ = ½ is not a mirror line]; a minimum in the hierarchy band needs net bosons in the matter's representation and a
   fine-tuned cancellation (89–95 extra such scalars without gauge fields, about 600–780 with them) that nothing selects.
+- **The step to four dimensions (B1708; the SM seat's W120, W121).** Every hyperbolic thread is the space of a flat 4d
+  vacuum on which gravitons propagate (the Milne universe), and the torus-fibred 4d vacua are the stringy cosmic strings
+  on the weave's τ, closing at 12 or 24 strings; the triplet lives only on the twenty-fours (K3), where its count is
+  never three (W121). The step supplies no G, no carrier and no chiral three; FK10's unit is not forced by it.

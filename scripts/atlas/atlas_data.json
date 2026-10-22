@@ -13018,11 +13018,12 @@
    "slug": "what holds tau",
    "motifs": [
     "kappa",
-    "eisenstein"
+    "eisenstein",
+    "amphichiral_cp"
    ],
    "refs": [],
    "obstacle": "gauge_dict",
-   "obstacle_conf": 4,
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "dynamics"
   },
@@ -13067,6 +13068,26 @@
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B1708": {
+   "slug": "w120 w121 on main",
+   "motifs": [
+    "closing",
+    "action",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "golden",
+    "lorentzian"
+   ],
+   "refs": [
+    "B97",
+    "K3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
   },
   "B170": {
    "slug": "relational scale leap",
