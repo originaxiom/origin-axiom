@@ -1,0 +1,16 @@
+A1 a = t : Ric = 0 g -> True
+A1 a = sinh t : Ric = 3 g -> True
+A1 a = sin t : Ric = -3 g -> True
+A2 g_kappa Einstein: True | cone flat at kappa = -1: True | multiples of kappa + 1: True | not flat at 0, 1, -2: {'0': True, '1': True, '-2': True} | R_xx = 32*(kappa + 1)/(kappa*x**2 + kappa*y**2 + kappa*z**2 + 4)**2
+A3 identify: {'b++LR': ['m004(0,0)', '4_1(0,0)', 'K2_1(0,0)', 'K4a1(0,0)', 'otet02_00001(0,0)'], 'b-+LR': ['m001(0,0)']} -> False
+A4 words 224 manifolds 448 geometric and checked 448 | least volume 1.8319311884 at [('LR', '-')] -> False
+A5 distinct volumes 154 | five smallest [[1.831931188, ['-LR']], [2.029883213, ['+LR']], [2.406909593, ['-LLR', '-LRR']], [2.666744783, ['+LLR', '+LRR']], [2.786804556, ['-LLLR', '-LLRR', '-LRRR']]] | gap 0.197952 | largest 9.668800 | the two signs agree for every word: False
+B1 tau = z, e^phi = Im tau |e^{az}|^2 : Ricci-flat True (predicted True )
+B1 tau = z^2, e^phi = Im tau |e^{az}|^2 : Ricci-flat True (predicted True )
+B1 control: tau = z, e^phi = (Im tau)^2 : Ricci-flat False (predicted False )
+B1 control: tau = u + i(1 + v^2), e^phi = Im tau : Ricci-flat False (predicted False )
+B2 worst 3.9e-40 | controls 0.83, 4.89 | invariant (p, q): ['1,2', '2,4', '3,6'] -> True
+B3 exponents [[4, 0.1666998844477576], [8, 0.16666666832750038], [16, 0.16666666666666669], [24, 0.16666666666666666], [40, 0.16666666666666666]] | deviation 1.66e-09 | sphere 24 units, cylinder 12 -> True
+B4 {'homomorphism on 200 pairs': True, 'chi(R)': 1, 'chi(L)': 11, 'chi(S)': 9, 'chi(-I)': 6, 'chi(LR)': 0, 'every sampled conjugate of R has chi 1': True} | (RL^-1)^3 = ((-1, 0), (0, -1)) | (RL^-1)^6 = ((1, 0), (0, 1)) -> True
+B5 {'rational elliptic surface': {'chi(O_S)': 1, 'units 12 chi': 12, 'e(S)': 12}, 'K3': {'chi(O_S)': 2, 'units 12 chi': 24, 'e(S)': 24}, 'least positive count by B4': 12, '(R L^-1)^6 = I uses': 12, 'holds': True}
+verdict {'A3': False, 'A4': False, 'B2': True, 'B3': True, 'B4': True, 'B5': True, 'A1': True, 'A2': True, 'B1': True}
