@@ -1,0 +1,43 @@
+{
+ "line_orders": {
+  "h1": [
+   1,
+   -1,
+   3
+  ],
+  "h2": [
+   -7,
+   -1,
+   -5
+  ],
+  "h3": [
+   -7,
+   -1,
+   -5
+  ]
+ },
+ "expected_B1700": {
+  "h1": [
+   1,
+   -1,
+   3
+  ],
+  "h2": [
+   -7,
+   -1,
+   -5
+  ],
+  "h3": [
+   -7,
+   -1,
+   -5
+  ]
+ },
+ "kappa0_vs_census_max_abs_log": 0.0,
+ "s_equals_h1_invariance_max_abs_log": 1.217936862481706e-11,
+ "T_covariance_mixed_higgs_max_abs_log": 5.935474334233397e-12,
+ "T_covariance_section_ratio_check": {
+  "|h1(tau+1)|/|h1(tau)|": 1.0,
+  "|h2(tau+1)|/|h2(tau)|": 1.0000000000000002
+ }
+}
