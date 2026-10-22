@@ -3780,6 +3780,11 @@ def test_w123_the_higgs_route():
     ph = json.loads((here / "the_higgs_route_posthoc.json").read_text(encoding="utf-8"))
     assert ph["rho"]["d - h1 = sum m for all 64 at 1e-12"] and ph["rho_T-bar"]["d - h1 = sum m for all 64 at 1e-12"]
     assert ph["rho"]["largest value counted null"] < 1e-14 < 1e-11 < ph["rho"]["smallest value kept"]
+    ex = json.loads((here / "the_higgs_route_exact.json").read_text(encoding="utf-8"))
+    assert ex["N = 3 and N = 4 agree"] and not ex["disagreements with the threshold check (1e-12)"]
+    assert ex["d = 0 for every m <= 0"] and ex["the (0, 0, 1) section equals DR (exact, to x^60)"]
+    assert ex["d at N = 4"]["(1, 1, 1)"] == 3 and ex["d at N = 4"]["(2, 2, 2)"] == 6
+    assert len(ex["disagreements with the run (exact, run)"]) == 19
     sys.path.insert(0, str(here))
     import the_higgs_route as HR
     HR.NT = 64
