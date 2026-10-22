@@ -1,5 +1,16 @@
 # Changelog
 
+## The gravity line in one page (W120–W122; relay §203)
+
+- **The page** (`docs/dossiers/the_weave_2026-10-07/THE_GRAVITY_LINE_W120_W122.md`) gathers the owner's main task:
+  every thread is the space of an exact 4d vacuum universe; through the fibre, units in twelves that do not give
+  three; the ground state among the closed universes, the Weeks manifold from the tick's class.
+- **One READING, checked by its lock:** the record's L and R twist in opposite hands, holomorphic 4d gravity twists in
+  one, and the weave's mirror exchanges the two choices. So 4d gravity needs the record's hand convention and does not
+  derive it. The tick is neutral, 12 strings in either hand.
+- **Surfaces.** The page and its lock (`test_the_gravity_line_page`), relay §203, the ledger, the state page's range.
+  0 of 19.
+
 ## W122: the closed universes (relay §202); main's S179 read (W111 verified on main)
 
 - **The census.** The orientable threads to length 6, both trace signs, filled at 72 primitive slopes: 3024 fillings,

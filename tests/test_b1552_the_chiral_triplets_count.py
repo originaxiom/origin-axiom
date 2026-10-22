@@ -3737,3 +3737,30 @@ def test_w122_the_closed_universes():
     assert {r["bundle"] for r in cert if abs(r["volume"] - vmin) < 1e-8} == {"b+-LR"}
     assert all(r["volume"] < d["census"]["bundles"][r["bundle"]]["volume"] for r in cert)
     assert d["R2"]["bundles"] == ["b++LR", "b+-LR"] and "m003(-3,1)" in d["R1"]["identified as"][0]
+
+
+def test_the_gravity_line_page():
+    """the gravity line, W120-W122, in one page: every arc has a row and a lock, and the hand's READING is checked
+    exactly: L = S R^-1 S^-1, L = (R L^-1)^5 R, LR = (R L^-1)^5 R^2 and LR = L (L R^-1)^5 L, each a product of 12
+    twists of one hand"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    page = (here / "THE_GRAVITY_LINE_W120_W122.md").read_text(encoding="utf-8")
+    assert [ln.split("|")[1].strip() for ln in page.splitlines() if ln.startswith("| W12")] == ["W120", "W121", "W122"]
+    src = Path(__file__).read_text(encoding="utf-8")
+    for name in ("test_w120_the_three_to_four", "test_w121_the_triplet_on_k3", "test_w122_the_closed_universes"):
+        assert name in page and f"def {name}(" in src
+    assert "READING" in page and "0 of 19" in page
+
+    def mul(*Ms):
+        A = ((1, 0), (0, 1))
+        for B in Ms:
+            A = ((A[0][0] * B[0][0] + A[0][1] * B[1][0], A[0][0] * B[0][1] + A[0][1] * B[1][1]),
+                 (A[1][0] * B[0][0] + A[1][1] * B[1][0], A[1][0] * B[0][1] + A[1][1] * B[1][1]))
+        return A
+    inv = lambda A: ((A[1][1], -A[0][1]), (-A[1][0], A[0][0]))  # noqa: E731
+    I, L, R, S = ((1, 0), (0, 1)), ((1, 0), (1, 1)), ((1, 1), (0, 1)), ((0, -1), (1, 0))
+    assert L == mul(S, inv(R), inv(S))
+    a, b = mul(R, inv(L)), mul(L, inv(R))
+    assert mul(*[a] * 6) == I and mul(*[b] * 6) == I
+    assert L == mul(*[a] * 5, R) and mul(L, R) == mul(*[a] * 5, R, R)
+    assert R == mul(*[b] * 5, L) and mul(L, R) == mul(L, *[b] * 5, L)

@@ -20136,3 +20136,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   closed space of its kind there is. So within the theorems' scope, the root's family holds the ground state. The way
   the end is closed is still a choice. 0 of 19.
 - **The main seat checked another of this seat's proofs and confirmed it.**
+
+## 2026-10-22 — the gravity work in one page
+
+- **This seat gathered the three gravity arcs into one page** for the main seat and the paper. Every one of the
+  record's spaces is the space of an exact four-dimensional universe with gravitational waves. Read the other way,
+  gravity forces cosmic strings that do not give three generations. And the closed universe with the least energy
+  comes from the root's family.
+- **The record's handedness.** Four-dimensional gravity of the most symmetric kind needs a choice of handedness. The
+  record's own mirror symmetry swaps the two choices, so gravity needs the same naming convention the owner already
+  ruled, and does not decide it. The root itself is neutral. 0 of 19.

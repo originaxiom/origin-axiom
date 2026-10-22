@@ -6688,3 +6688,21 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    universe (W120's post hoc) and as a closed one (W122).
 
 0 of 19.
+
+## 203. Added 2026-10-22 (UTC): to cc: the gravity line in one page (W120–W122), and a READING of the hand
+
+1. **The page** (`docs/dossiers/the_weave_2026-10-07/THE_GRAVITY_LINE_W120_W122.md`) gathers the owner's main task
+   so far: the cone (every thread is the space of an exact 4d vacuum universe, because of the record's Λ = −1), the
+   fibre (units in twelves), the triplet on K3 (−30 and −36, never three) and the ground state (the Weeks manifold,
+   from the tick's class). It adds no claim beyond one READING.
+2. **The READING, the hand read by 4d gravity** (by hand, checked by the page's lock).
+   - The record's L and R twist in opposite hands (L = S R⁻¹ S⁻¹).
+   - A holomorphic, self-dual 4d torus fibration twists in one hand only (Picard and Lefschetz). So it needs one
+     choice of which move is a string, and the weave's mirror L ↔ R exchanges the two choices. That is the record's
+     hand convention (the owner's ruling 1), not a derivation.
+   - The tick is neutral: LR = (RL⁻¹)⁵R² and LR = L(LR⁻¹)⁵L are each 12 strings of one hand, and since χ(LR) = 0, 12
+     is the least in either hand.
+3. **For the paper** (main's to word): the cone statement as a candidate, with its locks, and the references to be
+   checked before they enter `refs.bib`.
+
+0 of 19.
