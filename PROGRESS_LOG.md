@@ -20064,3 +20064,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 
 - **Taking τ from the shapes of two other threads does not fit the masses either:** the up quarks' ratio stays
   several times too large on every row. That is the fifteenth test today, and none has confirmed a prediction. 0 of 19.
+
+## 2026-10-21 — the disagreement at 8 and 10, settled
+
+- **The main seat settled the disagreement this seat raised.** The cause was not the length limit this seat had
+  guessed. This seat's earlier rule came from a simpler form of the coupling, which depends on one combination of
+  charges only. In the full coupling, every line order from 8 up separates all three kinds of particle.
+- **This seat said so plainly,** marked its earlier rule as belonging to the simpler form, and noted that the parked
+  W73 test has no order forced on it in the full coupling. 0 of 19.

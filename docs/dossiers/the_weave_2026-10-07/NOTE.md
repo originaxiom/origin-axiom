@@ -10038,6 +10038,18 @@ reflection δ ↦ −δ.
   not 5. Item 4's "N = 5 is the smallest order that splits all three sectors" and every surface that repeated it are
   corrected by this note. chat1 found the error.
 
+**Scope, added 2026-10-21 (UTC), from main's B1703 (S175; relay §196).** The correction above took each channel's
+residue as c_s θ_s(ū)θ_s(δ), with ū = ∓3w common to all three sectors up to sign. So the sector enters through δ alone:
+this is the δ-only coupling, and the rule "down = leptons iff N | 8 or 10" is that coupling's. Calling it also B1656's
+residue form was wrong. B1656's four channels see each side's twist, and two sectors coincide iff their twist pairs
+(q_L w, q_R w) agree modulo Λ up to swap and negation. Main's census (1224 lines of order ≤ 16, two τ, confirmed on
+fresh data) gives, in that frame:
+- down = leptons iff N | 4 or 5; up = down iff N | 6; up = leptons iff N | 2 or 7;
+- so every order N ≥ 8 splits all three, at every L up to 10⁸, not only {9, 11, 12};
+- a first generation is protected (R₁ = 0) iff N divides its δ or 3, so the only all-splitting protected order is 9
+  (the leptons), and no line protects the up quarks while splitting all three.
+The δ-only table above stays true as that coupling's arithmetic, and its lock still holds.
+
 **chat1's closure law, checked here (dated 2026-10-15, after the correction above; scratch code, not a sealed run;
 relay §127).** chat1's sealed comparison at N = 9 and 11 will rest on its law that a sector's twisted coupling vector
 returns around a thread γ with phase exp(−2πi c(q_L² + q_R²)/N). This seat checked it on its own characteristic thetas.

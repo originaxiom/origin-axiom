@@ -2373,7 +2373,9 @@ def test_chat1_closing_lines_on_the_root():
 def test_correction_which_lines_split_the_sectors():
     """The correction to the reading of which flat lines split the sectors (found by chat1, checked here): with the
     reflection delta -> -delta, two sectors coincide iff their deltas agree up to sign modulo the lattice; the smallest
-    order splitting all three is 9 (leptons null) or 11 (none null); the CP-odd counts for orders 9, 11 and 12"""
+    order splitting all three is 9 (leptons null) or 11 (none null); the CP-odd counts for orders 9, 11 and 12.
+    Scope (2026-10-21, main's B1703): this is the delta-only coupling's arithmetic; in B1656's four-channel frame every
+    order N >= 8 splits all three (the NOTE's dated scope note)"""
     import cmath
     from math import gcd
 

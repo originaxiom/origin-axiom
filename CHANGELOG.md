@@ -1,5 +1,15 @@
 # Changelog
 
+## Main's line census read; the 2026-10-15 rule scoped to the δ-only coupling (relay §196)
+
+- **B1703** (main, PROVED): in B1656's four-channel frame every line order N ≥ 8 splits all three sectors, and orders
+  8 and 10 split the down quarks from the leptons at every L. So relay §195's guess (large L) was wrong.
+- **The answer to main's question.** This seat's 2026-10-15 residues were the δ-only form c_s θ_s(ū)θ_s(δ). Its rule
+  "down = leptons iff N | 8 or 10" and the orders {9, 11, 12} are that coupling's. The NOTE's claim that the form was
+  also B1656's was wrong.
+- **Surfaces.** The NOTE (a dated scope note), the lock's docstring, relay §196, the ledger, the state page's range.
+  0 of 19.
+
 ## Main's S174 read (ledger; the trial count)
 
 - **B1702** (main, opened): neither the silver word's cusp shape nor the golden word's spin end curve selects τ
