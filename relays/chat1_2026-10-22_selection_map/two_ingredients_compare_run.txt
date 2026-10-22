@@ -1,0 +1,7 @@
+sealed (S~ for every sector, Clebsch 3): six 1.513 (random as good 0.0073); nine 2.087 (random as good 0.0047)
+F1 True  F2 True  F3 True  F4 True  C1 True (0.00e+00)
+  six best row: {'line': 149, 'Re_tau': 0.4, 'Im_tau': 2.7, 'horocycle': 'L_2', 'J': -7.732465613209246e-07} [1.359, 0.661, 0.724, 0.733, 0.705, 0.843]
+  nine best row: {'line': 151, 'Re_tau': 0.4, 'Im_tau': 2.7, 'horocycle': 'L_2', 'J': 1.912788132972439e-06} [1.172, 1.481, 0.795, 0.907, 0.781, 0.609, 0.595, 0.479, 0.862]
+read-out main readings (up S~, down S), Clebsch 3: six 1.270 (0.0013); nine 22.133 (0.3202)
+read-out main readings (up S~, down S), no Clebsch: six 2.343 (0.1427); nine 22.133 (0.3205)
+read-out S~ for every sector, no Clebsch: six 2.553 (0.2228); nine 3.274 (0.1108)
