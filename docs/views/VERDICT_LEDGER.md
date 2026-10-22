@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1438 of 1438 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1439 of 1439 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (981)
+## PROVED (982)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -993,6 +993,7 @@
 | `B1707` | W111 ON MAIN (P-211; Review 67's R67-6; the proof read step by step, the transvection lemma re-derived by hand, the checks recomputed by main's own code): on a genus-g surface with one boundary the only SL(2, C) character fixed by the mapping classes is the trivial one from g = 2 on (at g = 1 also the quaternion point), the odd-p Heisenberg character is fixed at every genus, and an extraspecial 2-group character is fixed only at g = 1, where it is Q8; main's checks: every move keeps the boundary class (g = 1-3), the g = 2 search finds only the trivial character (21 of 40 starts converge, all trivial; the g = 1 control finds trivial and quaternion), H(3) and H(5) fixed at g = 1, 2, and of the Pauli representations only g = 1 with all squares -I is fixed, the all-minus g = 2 case broken by mu' alone. So on the surface route two records come from the prime 2 that the rank-two target forces, not from extending the moves. 0 of 19. |  | 1 |
 | `B1708` | W120 AND W121 ON MAIN (the SM seat's relays 200-201, the record's 3d gravity carried to 4d): the cone -dt^2 + t^2 g is Ricci-flat iff the 3d curvature is -1 (Ric_ij = 8(kappa + 1)/(1 + kappa r^2)^2 delta_ij), so every hyperbolic thread is the space of a flat 4d vacuum (the Milne universe); the least volume among 482 orientable bundles to length 10 is +-LR, 2.0298832128 (m004, m003; Cao-Meyerhoff); SL2(Z)'s abelianization is Z/12; Im tau^p |eta|^(2q) is invariant only for q = 2p and has exponent 1/6 at a pinched fibre (Greene-Shapere-Vafa-Yau's stringy cosmic strings); the triplet's lifts of (T_a T_b)^k are scalar exactly at k = 3, 6, 9, 12, twelve twists giving -I and twenty-four I, so K3 is the least closed solution carrying the triplet. Each is a classical fact read on the record; W121's index count (-15 chi(O_S)) not checked. The closed 4d solutions supply units only in twelves and, by W121, never a count of three: FK10's unit stays a tagged postulate. 0 of 19. |  | 1 |
 | `B1709` | THE REVIEW TOOLS READ THE OWNER'S MIRROR (Review 67's R67-1): review_tools.py named Codeberg (disabled since R66-1) as the second mirror, so every seal reported 'not on every remote'; MIRRORS is now origin and backup, and on_mirror reads a pushed-but-unfetched mirror in its own repository; Review 67's seven seals report no defect, and a failing-path test requires an unpushed commit to be reported absent. 0 of 19. | yes | 1 |
+| `B1710` | W121'S INDEX LAW ON MAIN (P-255; given the seat's Leray reduction): rho_T(T)'s exponents are 1/8, 3/8, 7/8 (sum 11/8) and its conjugate's 1/8, 5/8, 7/8 (sum 13/8), none an integer, so the canonical extension is the condition at a string; W121's Riemann-Roch count on a closed elliptic surface with 12 chi(O_S) strings is then (3/2)chi - 12 chi sum(mu) = -15 chi(O_S) and -18 chi(O_S) exactly, the genus cancelling for chi = 1-6 and g = 0-3; on K3 the canonical extensions have degree -33 and -39 and the index is -30 and -36; no case gives +-3. 0 of 19. |  | 1 |
 
 ## NEGATIVE (353)
 

@@ -13134,6 +13134,17 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B1710": {
+   "slug": "w121s index law on main",
+   "motifs": [],
+   "refs": [
+    "K3"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B171": {
    "slug": "heterogeneous quasicrystal",
    "motifs": [

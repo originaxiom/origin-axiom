@@ -1,5 +1,15 @@
 # Changelog
 
+## S182 W121'S INDEX LAW ON MAIN (B1710, PROVED; P-255) (2026-10-22)
+
+- Given W121's Leray reduction: ρ_T(T)'s exponents ⅛, ⅜, ⅞ (sum 11/8) and the conjugate's ⅛, ⅝, ⅞ (13/8), none an integer
+  (the canonical extension is the condition at a string); the count on a closed elliptic surface with 12χ(O_S) strings is
+  −15χ(O_S) and −18χ(O_S) exactly, the genus cancelling; K3: degrees −33 and −39, index −30 and −36; never ±3. The
+  closed 4d solutions do not give a chiral three; three stays one unit at the weave's cusp (FK10, P-254).
+- **Register.** P-255 DONE; harvest row 1294 VERIFIED given the reduction; B1710 triaged as a GAP in BLIND_ARCS. FLOOR 255.
+- **Landing suite.** 117 files (B1710's lock, every arc lock and the corpus-scanning tests), 2053 passed, 1 failed, 3 skipped (5:30, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S181 THE REVIEW TOOLS READ THE OWNER'S MIRROR (B1709; Review 67's R67-1) (2026-10-22)
 
 - `review_tools.py` named Codeberg (disabled since R66-1) as the second mirror, so every seal reported "not on every

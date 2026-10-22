@@ -17704,3 +17704,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - R67-1: the mirror list and on_mirror; the failing-path test; Review 67's window re-read with no seal defect.
 - **Suite.** Full suite (a script changed): 7547 passed, 1 failed, 68 skipped (35:47, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-22 — S182 W121'S INDEX LAW ON MAIN (B1710)
+
+- The exponents from main's own ρ_T; the Riemann–Roch law exact for χ = 1–6, g = 0–3. P-255 DONE.
+- **Landing suite.** 117 files (B1710's lock, every arc lock and the corpus-scanning tests), 2053 passed, 1 failed, 3 skipped (5:30, -n 8); the one failure is B805's attachment lock (P-239)

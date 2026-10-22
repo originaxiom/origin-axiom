@@ -1,0 +1,28 @@
+{
+  "id": "B1710",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1708",
+    "B1634",
+    "B1641"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [
+    "sm:W121",
+    "sm:W45"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "closed elliptic surfaces with a section and only I_1 fibres; the triplet's flat bundle with the canonical extension at the strings",
+    "object": "the triplet's count",
+    "reach": "general",
+    "hypotheses": "W121's reduction of the 4d twisted Dirac index to Riemann-Roch on the base (the seat's reading)"
+  },
+  "claim_one_line": "W121'S INDEX LAW ON MAIN (P-255; given the seat's Leray reduction): rho_T(T)'s exponents are 1/8, 3/8, 7/8 (sum 11/8) and its conjugate's 1/8, 5/8, 7/8 (sum 13/8), none an integer, so the canonical extension is the condition at a string; W121's Riemann-Roch count on a closed elliptic surface with 12 chi(O_S) strings is then (3/2)chi - 12 chi sum(mu) = -15 chi(O_S) and -18 chi(O_S) exactly, the genus cancelling for chi = 1-6 and g = 0-3; on K3 the canonical extensions have degree -33 and -39 and the index is -30 and -36; no case gives +-3. 0 of 19.",
+  "weave_or_thread": "weave (every closed solution of the kind)"
+}

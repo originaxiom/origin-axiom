@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-10-22, S182: W121's index law on main (B1710): on the closed elliptic 4d vacua the triplet's count is −15χ(O_S) or −18χ(O_S) (K3: −30, −36), never three; three stays one unit at the weave's cusp. 0 of 19.)**
+
 **LATEST (2026-10-22, S181: the review tools read the owner's mirror (B1709, R67-1): a seal is on every remote when it is on origin and on the LaCie mirror. 0 of 19.)**
 
 **LATEST (2026-10-22, S180: the step to four dimensions checked (B1708, the SM seat's W120/W121): every hyperbolic thread is a flat 4d vacuum (the Milne universe), the torus-fibred sector is the stringy cosmic strings, and the closed solutions supply units only in twelves and never a count of three — FK10's unit stays a tagged postulate; B1704 corrected (its Re ½ minima were not critical points; the conclusion stands). 0 of 19.)**

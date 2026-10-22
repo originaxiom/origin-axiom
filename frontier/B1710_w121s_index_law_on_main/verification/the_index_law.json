@@ -1,0 +1,54 @@
+{
+ "exponents_rho_T": [
+  "1/8",
+  "3/8",
+  "7/8"
+ ],
+ "sum_rho_T": "11/8",
+ "exponents_conj": [
+  "1/8",
+  "5/8",
+  "7/8"
+ ],
+ "sum_conj": "13/8",
+ "law": {
+  "1": {
+   "rho_T": "-15",
+   "conj": "-18",
+   "genus_cancels": true
+  },
+  "2": {
+   "rho_T": "-30",
+   "conj": "-36",
+   "genus_cancels": true
+  },
+  "3": {
+   "rho_T": "-45",
+   "conj": "-54",
+   "genus_cancels": true
+  },
+  "4": {
+   "rho_T": "-60",
+   "conj": "-72",
+   "genus_cancels": true
+  },
+  "5": {
+   "rho_T": "-75",
+   "conj": "-90",
+   "genus_cancels": true
+  },
+  "6": {
+   "rho_T": "-90",
+   "conj": "-108",
+   "genus_cancels": true
+  }
+ },
+ "law_is_-15chi_and_-18chi": true,
+ "K3": {
+  "canonical_extension_degree_rho_T": "-33",
+  "canonical_extension_degree_conj": "-39",
+  "index_rho_T": "-30",
+  "index_conj": "-36"
+ },
+ "never_pm3": true
+}
