@@ -1,0 +1,61 @@
+{
+ "arc": "W134",
+ "status": "POST HOC, after the read-out",
+ "Q1": {
+  "A2's roots": 6,
+  "the other roots": 162,
+  "their weights": {
+   "(1, 0)": 27,
+   "(-1, 1)": 27,
+   "(0, -1)": 27,
+   "(0, 1)": 27,
+   "(1, -1)": 27,
+   "(-1, 0)": 27
+  },
+  "the run's extra six, +-(e_i + e_j), and their weights": [
+   "(Fraction(-1, 1), Fraction(0, 1))",
+   "(Fraction(-1, 1), Fraction(1, 1))",
+   "(Fraction(0, 1), Fraction(-1, 1))",
+   "(Fraction(0, 1), Fraction(1, 1))",
+   "(Fraction(1, 1), Fraction(-1, 1))",
+   "(Fraction(1, 1), Fraction(0, 1))"
+  ],
+  "holds": true
+ },
+ "Q2": {
+  "intertwiners (null dimension)": 1,
+  "the largest |det X|": 0.19245008972987537,
+  "traces": {
+   "W123": {
+    "S": [
+     0.707106781,
+     0.707106781
+    ],
+    "T": [
+     0.707106781,
+     0.707106781
+    ],
+    "ST": [
+     0.0,
+     0.0
+    ]
+   },
+   "W46": {
+    "S": [
+     0.707106781,
+     0.707106781
+    ],
+    "T": [
+     0.707106781,
+     0.707106781
+    ],
+    "ST": [
+     -0.0,
+     -0.0
+    ]
+   }
+  },
+  "max |entry difference| (the run's equality check)": 1.4158730627590013,
+  "equivalent (an invertible intertwiner)": true
+ }
+}
