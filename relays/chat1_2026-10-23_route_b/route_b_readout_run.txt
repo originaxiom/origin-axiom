@@ -1,0 +1,26 @@
+grid: 14 base points x 6 directions x 51 rho x 24 phi x 2 horocycles x 2 readings
+== reading St_all
+   overall best six 2.169 at {'base': [0.4, 2.8, 0.4, 0.1], 'cand': 'h3', 'rho': 0.039810717055349734, 'phi_deg': 270, 'hor': 'L_max', 'model': 'St_all'}; D there 2.02, R2 1.04, R1 1.94
+   overall best nine 2.468 at {'base': [0.4, 2.8, 0.4, 0.5], 'cand': 'c0', 'rho': 0.05011872336272725, 'phi_deg': 75, 'hor': 'L_max', 'model': 'St_all'}; D there 1.30, J 2.0e-06
+   D within 3 sigma of P-094 on 82 rows; best six there 2.537 at {'base': [0.4, 2.5, 0.4, 0.1], 'cand': 'h3', 'rho': 0.05011872336272725, 'phi_deg': 285, 'hor': 'L_2', 'model': 'St_all'} (nine 2.54)
+   R2 and R1 both in [2, 4.5] on 427 rows; best six there 3.550 at {'base': [0.5, 3.1, 0.4, 0.8], 'cand': 'c0', 'rho': 0.5011872336272725, 'phi_deg': 165, 'hor': 'L_2', 'model': 'St_all'} (D 5.92)
+== reading main
+   overall best six 1.742 at {'base': [0.4, 2.8, 0.4, 0.1], 'cand': 'c180', 'rho': 0.07943282347242822, 'phi_deg': 15, 'hor': 'L_max', 'model': 'main'}; D there 7.44, R2 2.28, R1 3.26
+   overall best nine 22.906 at {'base': [0.5, 3.2, 0.4, 0.8], 'cand': 'c90', 'rho': 0.6309573444801936, 'phi_deg': 45, 'hor': 'L_2', 'model': 'main'}; D there 3.50, J -1.2e-05
+   D within 3 sigma of P-094 on 93 rows; best six there 2.695 at {'base': [0.5, 3.0, 0.4, 0.8], 'cand': 'c0', 'rho': 0.01584893192461114, 'phi_deg': 180, 'hor': 'L_max', 'model': 'main'} (nine 23.87)
+   R2 and R1 both in [2, 4.5] on 240 rows; best six there 1.742 at {'base': [0.4, 2.8, 0.4, 0.1], 'cand': 'c180', 'rho': 0.07943282347242822, 'phi_deg': 15, 'hor': 'L_max', 'model': 'main'} (D 7.44)
+== per base point (reading S~ for every sector): baseline six at rho = 1e-4, best six over kappa and directions (D), best D-matched six
+   [0.4, 2.7, 0.4, 0.1]: baseline 4.22; best 2.29 (h3, rho 5.0e-02, D 0.78); D-matched best 4.29
+   [0.4, 2.7, 0.4, 0.5]: baseline 3.84; best 2.51 (h3, rho 5.0e-02, D 1.46); D-matched best 4.23
+   [0.4, 2.6, 0.4, 0.1]: baseline 3.65; best 2.47 (h3, rho 6.3e-02, D 2.58); D-matched best 4.45
+   [0.1, 2.7, 0.4, 0.7]: baseline 4.77; best 2.75 (h3, rho 6.3e-02, D 2.14); D-matched best 5.21
+   [0.1, 2.8, 0.4, 0.7]: baseline 5.48; best 2.82 (h3, rho 6.3e-02, D 1.55); D-matched best 5.73
+   [0.4, 2.8, 0.4, 0.1]: baseline 2.68; best 2.17 (h3, rho 4.0e-02, D 2.02); D-matched best 3.67
+   [0.4, 2.6, 0.4, 0.5]: baseline 3.27; best 2.48 (h2, rho 4.0e-02, D 2.65); D-matched best 3.31
+   [0.4, 2.5, 0.4, 0.1]: baseline 5.20; best 2.54 (h3, rho 5.0e-02, D 10.34); D-matched best 2.54
+   [0.1, 2.8, 0.4, 0.3]: baseline 4.88; best 2.68 (c0, rho 1.0e-01, D 1.80); D-matched best 5.44
+   [0.4, 2.8, 0.4, 0.5]: baseline 4.02; best 2.18 (h3, rho 5.0e-02, D 0.78); D-matched best 4.08
+   [0.5, 2.9, 0.4, 0.8]: baseline 14.33; best 3.89 (c0, rho 2.5e-01, D 2.43); D-matched best 34.19
+   [0.5, 3.0, 0.4, 0.8]: baseline 17.82; best 3.75 (c0, rho 3.2e-01, D 4.13); D-matched best 43.98
+   [0.5, 3.1, 0.4, 0.8]: baseline 22.98; best 3.51 (h2, rho 5.0e-02, D 0.45); D-matched best 54.07
+   [0.5, 3.2, 0.4, 0.8]: baseline 30.41; best 3.69 (c0, rho 6.3e-01, D 6.13); D-matched best 75.36
