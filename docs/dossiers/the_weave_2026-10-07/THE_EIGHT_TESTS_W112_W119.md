@@ -192,7 +192,7 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
    tests of forced structure against the masses (B1696, B1698, B1699 and B1702 added later the same evening). B1711
    (main, 2026-10-22, NEGATIVE as sealed) is the sixteenth, the first of the next day. B1712 and B1713 (main, the same
    day, both NEGATIVE as sealed) are the seventeenth and eighteenth. B1720 and B1722 (main, the same day, both NEGATIVE as
-   sealed) are the nineteenth and twentieth:
+   sealed) are the nineteenth and twentieth. B1723 (main, the same day, NEGATIVE as sealed) is the twenty-first:
 
    | test | seat | what was tried | outcome |
    | --- | --- | --- | --- |
@@ -216,6 +216,7 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
 | B1713 | main | every line of order 1–7 (62); and the frame's first quark mixing on all 266 lines of order 1–12 | masses best 2.33, 14.8% of random as good; the three CKM moduli within 14%, but 59.5% of random mixings as good; masses and mixing together 3.59 |
 | B1720 | main | τ at each of 121 threads' apexes and the 3249 lines their monodromies fix; no continuous number free | every ratio within 1.80 at L⁵RLR² on an order-28 line, the closest approach; but 1.65% of random as good (bar 1%); χ² 79.4 |
 | B1722 | main | the record's two measures over threads (uniform word; action weight at c = 6) on B1720's census | 25.4% and 21.0% of random as good |
+| B1723 | main | the golden valley (B1636's F at 8, the discriminant-5 locus), 49 points × 265 lines, both horocycles, three up readings | best factor 147; 26.6% of random as good; χ² 3891 |
 
    - No unfitted prediction was confirmed. Every pass was either fitted or matched as often by random targets.
    - A future single pass must be read against this count, and against the earlier data comparisons. Those are not

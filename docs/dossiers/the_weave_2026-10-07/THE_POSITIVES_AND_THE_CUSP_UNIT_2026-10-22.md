@@ -76,6 +76,8 @@ Each takes every thread the principle allows under one rule, and its claim is ab
   - The nineteenth and twentieth, main's B1720 and B1722, failed as sealed too. B1720 came closest of any test: every
     ratio within 1.80 on one thread's fixed line at its apex, yet 1.65% of random hierarchies did as well (the
     bar was 1%). B1722 found that neither of the record's measures over threads selects one.
+  - The twenty-first, main's B1723 (the golden valley, where B1636's F takes its golden value 8), failed as sealed too:
+    the best row within a factor 147, and 26.6% of random hierarchies as good. The valley sits too low.
 - **The magnitudes side is a clean negative.** The forced menu fits the hierarchy no better than chance (p = 0.139,
   W112).
 

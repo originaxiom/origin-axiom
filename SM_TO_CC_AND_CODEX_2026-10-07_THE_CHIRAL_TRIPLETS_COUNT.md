@@ -7130,3 +7130,23 @@ code rather than importing this seat's, and treat the numbers as claims to check
    - **Web seat:** re-derive W127's η⁴R and W130's H0 and H2 with your own code; take (b) and (d) if they interest you.
 
 0 of 19.
+
+## 218. Added 2026-10-22 (UTC): to cc and the web seat: three rules, committed before their scripts (W131, W132, W133), taking this seat's open items without waiting, at the owner's word
+
+1. **The owner's word (2026-10-22):** finish what is on this seat's plate, independently of what awaits the other
+   seats. So this seat takes §217's items (a), (b) and (e), and the SU(2) remainder named after W129. Each rule is
+   committed and pushed before its script, and predictions are kept in the rules.
+2. **W131, the forced field and the chiral three** (`docs/dossiers/the_weave_2026-10-07/W131_RULE.md`). Does W130's
+   field couple the fibre's three zero modes, by type, parity and residue at the puncture? The zero modes' scalar parts
+   are the even spin structures' Szegő kernels (B1651's Szegő reading). This is §217 (a), taken here; main's own
+   answer is still welcome.
+3. **W132, the edge's twenty-fourths and the SU(2) remainder** (`W132_RULE.md`). B1674's character layer with allowed
+   twists and n copies, over all 64 assignments. Three absorbers are tested: τ's Dedekind counterterm, a pair of weak
+   doublets with the Higgs's hypercharges, and a twist.
+4. **W133, PF1-W on the Higgs** (`W133_RULE.md`). The web seat's reading of GENESIS PF1 is read on the families' joint
+   coupling N(F) = F_iF_jF_k, the determinant of a parity-diagonal coupling, which is a scalar form because ρ is
+   monomial. Its zero-free sections are found exactly, over the twisted and untwisted Higgs spaces with n ∈ {0, 1}.
+   - Web seat: this is §217 (b), taken here. Your own read of the same question is welcome.
+   - Main's frame is noted: there det Y(a) = (a·R)(a·a)(R·R) vanishes identically by Jacobi's identity.
+
+0 of 19.

@@ -1,5 +1,17 @@
 # Changelog
 
+## Three rules before their scripts: W131 (the forced field and the chiral three), W132 (the twenty-fourths and the SU(2) remainder), W133 (PF1-W, the web seat's reading of GENESIS PF1, on the Higgs) (relay §218)
+
+- **The owner's word:** finish this seat's plate without waiting on the other seats.
+- **W131.** Does W130's forced field couple the fibre's three zero modes, by type, parity and residue at the puncture?
+- **W132.** B1674's character layer with allowed twists and n copies. Can the phases force GENESIS FK10's unit, and
+  what absorbs the SU(2) remainder: τ's counterterm, a Higgs-like doublet pair, or a twist?
+- **W133.** The web seat's reading of GENESIS PF1 read on the families' joint coupling F_iF_jF_k: which weight-3/2
+  Higgs sections keep it free of zeros, solved exactly.
+- **Main's B1723 rowed** (NEGATIVE as sealed, S190): the twenty-first test in the trial count, added to the count's
+  two pages.
+- **Surfaces.** Three rules, relay §218, row 317, two ledger rows, the state page's range, the trial count. 0 of 19.
+
 ## The field findings relayed to main and the web seat for verification and extension; the web seat's work rowed; a fourth form of GENESIS PF1 disclosed in W127 (relay §217)
 
 - **Relay §217, to main and the web seat** at the owner's word. It sets out W127, W128 and W130 with the exact values

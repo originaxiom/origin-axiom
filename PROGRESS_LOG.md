@@ -20315,3 +20315,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The web seat had already proposed a reading of the principle** (where things may vanish: only at the edge) that
   this seat's check of the principle at the edge had not included. It is now disclosed. It changes no answer, and the
   two fields found so far fit it. 0 of 19.
+
+## 2026-10-22 — the remaining tests, set up together
+
+- **The owner asked this seat to finish its own open work without waiting for the other seats.** Three tests are
+  written down and fixed before any calculation:
+  - whether the field the principle forces actually reaches the particles;
+  - whether the smallest leftover phases at the edge must add up to whole units, and what has to exist to soak up the
+    one leftover that never cancels;
+  - which possible forms of the field are compatible with the web seat's rule that things may vanish only at the edge.
+- **Main's latest test (the golden valley) also failed as sealed.** That makes twenty-one tests of the forced
+  structure against the measured masses, none confirming an unfitted prediction.
+  0 of 19.
