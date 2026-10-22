@@ -17667,3 +17667,9 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   reached only by fine-tuned bosons in the matter's representation; the minima's kind checked. P-251 DONE.
 - LAW_MAP rows for B1698/B1703, B1700, B1701 (the doc-currency gate: LAW_MAP lagged eleven arcs).
 - **Landing suite.** 117 files (B1704's lock, every arc lock and the corpus-scanning tests), 2046 passed, 1 failed, 3 skipped (7:25, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-22 — S177 THE HARVEST PAST THE PINS (P-252)
+
+- Twelve harvest rows (1281–1292): the SM seat's W111–W119 and relays §169–§195; the web seat's zero-free reading and
+  lepton test (its null running). Pins moved. P-252 DONE.
+- **Landing suite.** 116 files (every arc lock and the corpus-scanning tests), 2044 passed, 1 failed, 3 skipped (7:18, -n 8); the one failure is B805's attachment lock (P-239)

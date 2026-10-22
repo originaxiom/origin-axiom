@@ -1,5 +1,21 @@
 # Changelog
 
+## S177 THE HARVEST PAST THE PINS (P-252) (2026-10-22)
+
+- **The SM seat** (pin e1724317 → 4755294c, 58 commits): W111–W119 rowed (harvest rows 1281–1289), each REGISTERED from
+  its record and the seat's consolidation page — W111 proves P-211 by hand (main's verification owed); W112–W117 are
+  clean negatives (the skeleton no better than chance; θ̄'s structural value with no fit; the leptons at the shared τ;
+  neither the seed's line nor its point selects τ); W118 lifts the first generation with exact rationals that reach no
+  down or lepton window; W119's Kähler lemma verified by hand on main. Relays §169–§195 read (row 1290; §195 answered by
+  B1703).
+- **The web seat** (pin 468aacd8 → 817ddbf3, 25 commits): the zero-free reading and the lepton test under PF1-W read
+  (rows 1291–1292). The lepton test's eight sealed passes are weakened post hoc (four fail the CKM phase, three weakened)
+  and its family-wide null is still running, its first records not favouring the data: no candidate yet; main verifies
+  before any banking if one emerges.
+- **Register.** P-252 DONE; P-211 annotated. FLOOR 252.
+- **Landing suite.** 116 files (every arc lock and the corpus-scanning tests), 2044 passed, 1 failed, 3 skipped (7:18, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S176 WHAT HOLDS TAU (B1704, PROVED; P-251) (2026-10-22)
 
 - **W62's PH3 on main** (computed, no data): the holding condition is a negative total cusp coefficient (B1686's exact
