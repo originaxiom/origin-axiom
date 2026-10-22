@@ -20083,3 +20083,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   resting points move but the conclusion does not change.
 - **This seat also narrowed one of its own earlier sentences,** which had assumed a sign the main seat's result now
   shows matters. 0 of 19.
+
+## 2026-10-22 — the strengths in one page, and the missing unit at the edge
+
+- **The owner asked what strengthens the program.** This seat wrote one page. The strongest results are structural:
+  three, alike and chiral, from the principle alone, and given one link the full set of three generations. The page
+  says just as plainly what is not yet derived.
+- **Why the last missing piece is not yet found.** The one input still needed sits at the edge of the space of
+  records, where one of a record's loops pinches shut. Everything the principle produces is smooth in the interior,
+  and the natural way to carry it to the edge gives zero, not one. So the piece cannot be found by looking inside; it
+  needs a rule for what happens at the edge. The page lists four places such a rule could come from. 0 of 19.

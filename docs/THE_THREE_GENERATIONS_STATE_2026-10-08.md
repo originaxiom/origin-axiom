@@ -24,6 +24,10 @@ computed:
 5. **Added 2026-10-09. The cusp's unit (GENESIS FK10): "Keep FK10 open."** No new postulate is added. On the weave's
    own surface the four-dimensional count needs one unit of end data at the cusp, which the weave fixes at zero (W45,
    W46). That count stays unearned.
+   *Note, 2026-10-22: main's GENESIS v1.39 (B1631) records a later decision of the owner the same day, made directly
+   to main: the unit is a tagged working postulate, and results that use it carry "given the unit". This page had
+   not recorded it. GENESIS FK10 itself stays open: nothing forces the unit
+   (`docs/dossiers/the_weave_2026-10-07/THE_POSITIVES_AND_THE_CUSP_UNIT_2026-10-22.md`).*
 
 **What the record can now say.** On the even-tick branch and given Λ, the record derives three chiral, alike,
 anomaly-free Standard Model generations in a complex flavour triplet. The count ±3 is a flat count, and 0 of 19
@@ -905,4 +909,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W119 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§197).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§198).

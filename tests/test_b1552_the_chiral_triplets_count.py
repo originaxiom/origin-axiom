@@ -3620,3 +3620,24 @@ def test_b1704_mirror_check():
         band = [a for a in r["Re 0 minima"] if 2.0 <= a["y"] <= 3.3]
         assert band and all(a["d2V/dx2"] > 0 and a["d2V/dy2"] > 0 for a in band)
         assert all(a["d2V/dx2"] < 0 for a in r["Re 1 minima"] if 2.0 <= a["y"] <= 3.3)
+
+
+def test_the_positives_and_the_cusp_unit_page():
+    """the positives in one page, and the READING of the cusp's unit as the boundary point of the closed tau-line: the
+    page cites the arcs it rests on, labels its reading, and the discriminant's simple zero at the cusp (Delta = q -
+    24 q^2 + ..., the section behind lambda^12 = O(delta)) is recomputed from the product formula"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    page = (here / "THE_POSITIVES_AND_THE_CUSP_UNIT_2026-10-22.md").read_text(encoding="utf-8")
+    for cite in ("W1", "W6", "W21", "W22", "W27", "W45", "W46", "W47", "W48", "W71", "B1600", "B1629", "B1700",
+                 "GENESIS v1.39", "Mumford's relation", "Deligne's", "READING", "0 of 19"):
+        assert cite in page, cite
+    assert "None of the 15 tests against data" in page and "main's grade stands" in page.lower()
+    N = 8
+    c = [0] * (N + 1)
+    c[1] = 1                                   # q
+    for n in range(1, N + 1):                  # times (1 - q^n)^24
+        for _ in range(24):
+            c = [c[k] - (c[k - n] if k >= n else 0) for k in range(N + 1)]
+    assert c[:4] == [0, 1, -24, 252]           # Ramanujan's tau(1), tau(2), tau(3): a simple zero at q = 0
+    state = (ROOT / "docs" / "THE_THREE_GENERATIONS_STATE_2026-10-08.md").read_text(encoding="utf-8")
+    assert "GENESIS v1.39 (B1631)" in state and "THE_POSITIVES_AND_THE_CUSP_UNIT_2026-10-22.md" in state

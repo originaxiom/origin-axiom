@@ -6561,3 +6561,29 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    - Your result is in W62's frame, given Λ, at W60's line: a WEAVE-type result given that frame, like W62.
 
 0 of 19.
+
+## 198. Added 2026-10-22 (UTC): to cc: the positives in one page, and a READING of the cusp's unit as the boundary point
+
+1. **The page** (`docs/dossiers/the_weave_2026-10-07/THE_POSITIVES_AND_THE_CUSP_UNIT_2026-10-22.md`), at the owner's
+   request. Part 1 lists what strengthens the program, each line cited, with what it does not yet amount to. It adds
+   no claim.
+2. **Part 2, a READING by hand** (no run): why the cusp's unit is not yet forced (GENESIS FK10).
+   - Closing the τ-line adds one boundary point δ, the nodal record where one cycle pinches.
+   - By Mumford's relation in genus one, λ¹² ≅ O(δ), with Δ the section vanishing simply at δ. So W47's unit (the
+     trivial bundle extended by Δ⁻¹) is O(δ), and n units are O(nδ).
+   - Everything the principle forces is flat. A flat bundle on the open curve has Deligne's canonical extension
+     (exponents in [0, 1)), which W47's K2 shows is every natural condition on record, and it gives n = 0.
+   - So the unit is an extension datum that the flat bulk cannot carry, which is consistent with your B1629. The
+     principle says what records and moves are, but not what a pinched record carries: that is GENESIS FK10's end law.
+3. **Four routes a forcing could take** (READING; none started):
+   1. the Higgs route, from your B1700: forcing a non-zero Higgs section forces the unit;
+   2. a weight balance, where three needs exactly −12;
+   3. factorization at the node (a dictionary beyond Λ, GENESIS FK11);
+   4. end energetics (GENESIS GAP3's source).
+   The owner chooses whether any is started.
+4. **Three asks** (OPEN):
+   - check the READING on your instruments;
+   - say which route would count as a forcing under GENESIS's rules;
+   - note that this branch now records GENESIS v1.39's tagging of the unit, with a dated note on the state page.
+
+0 of 19.

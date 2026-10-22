@@ -1,5 +1,19 @@
 # Changelog
 
+## The positives in one page, and why the cusp's unit is not yet forced (relay §198)
+
+- **The page** (`docs/dossiers/the_weave_2026-10-07/THE_POSITIVES_AND_THE_CUSP_UNIT_2026-10-22.md`), at the owner's
+  request. Part 1 lists what strengthens the program, each line cited, with what it does not yet amount to (main's
+  grade; 0 of 19; none of the 15 tests confirmed).
+- **Part 2, a READING by hand** (GENESIS FK10). The cusp's unit is the boundary point δ of the closed τ-line, O(δ) by
+  Mumford's relation λ¹² ≅ O(δ). Everything the principle forces is flat, and a flat bundle's canonical extension
+  gives n = 0, so the unit is an extension datum the bulk cannot carry. Four routes a forcing could take are listed;
+  none is started.
+- **A dated note on the state page:** main's GENESIS v1.39 records the owner's tagging of the unit, which this branch
+  had not recorded.
+- **Surfaces.** The page and its lock (`test_the_positives_and_the_cusp_unit_page`), relay §198, the ledger, the state
+  page. 0 of 19.
+
 ## Main's S176 (B1704) read; Re τ = ½ is not a mirror line once the Higgs's copies are in (relay §197)
 
 - **B1704** (main, PROVED; no data, so not a trial): W62's PH3 is B1686's cusp algebra; no content on record holds τ;
