@@ -1,0 +1,2 @@
+# the scan's resumable chunks; the combined zero_free_census.npz is committed instead
+chunks/
