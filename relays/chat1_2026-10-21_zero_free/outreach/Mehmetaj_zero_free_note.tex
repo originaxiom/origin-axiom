@@ -1,0 +1,160 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage[margin=1.8cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{courier}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Zero-free quark determinants and the strong-CP angle in a modular flavour setup},
+            pdfauthor={Dritero Mehmetaj},pdfcreator={LaTeX},pdfproducer={pdfTeX}}
+\setlength{\parskip}{3pt}
+\setlength{\parindent}{0pt}
+\renewcommand{\thesection}{\arabic{section}.}
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{\z@}{-1.3ex plus -0.4ex}{0.4ex}{\normalfont\bfseries}}
+\makeatother
+\newcommand{\tb}{\bar\theta}
+
+\begin{document}
+\begin{center}
+{\large\bfseries Zero-free quark determinants and the strong-CP angle in a modular flavour setup:\\
+an interpretation, a test, and two questions}\\[4pt]
+Dritëro Mehmetaj, independent researcher, Prishtina, Kosovo \quad October 2026
+\end{center}
+
+\textit{Summary.} The setup below is modular-invariant, has CP imposed, and has a Dedekind-$\eta$ counterterm. In it,
+$\tb$ is constant over the whole upper half-plane exactly when no quark is massless at any interior point $\tau$.
+Ref.~[1] states this condition as an assumption. We read it as a principle and tested its consequence for the
+leptons at the values of $\tau$ fixed by the quark data. That test is negative: nothing fits beyond chance. One
+feature of the setup, a multiplier that does not cancel, leads to the first of two questions.
+
+\section{Setup}
+The three generations of each quark field form one triplet $\rho$ of the metaplectic cover of $SL_2(\mathbb Z)$. It
+is realised on $u=(\theta_2^2,\theta_3^2,\theta_4^2)$ and has determinant character $\det\rho=\chi_\eta^9$, where
+$\chi_\eta$ is the multiplier of $\eta$. Each field transforms as $\rho$ or $\bar\rho$ ($s_f=\pm1$).
+
+A Yukawa coupling of type $(s_L,s_R)$ and weight $k$ is $Y(\tau)=\eta^{-m}W(u)$. Here $W$ is a $3\times3$ matrix of
+polynomials with $W(A_\gamma u)=A_L W A_R^{\top}$ for $\gamma=S,T$, where $A_\gamma$ is the multiplier of $u$, and $A_L,A_R$
+equal $\bar A_\gamma$ or $A_\gamma$ for a field in $\rho$ or $\bar\rho$. The exponent is $m=18,6,0$ for $\rho\otimes\rho$, $\bar\rho\otimes\bar\rho$ and the mixed
+types.
+
+CP is imposed, so the coefficients are real in a real basis and $Y(-\bar\tau)=\overline{Y(\tau)}$. In our sign
+convention, $\tb=\theta_0-\arg\det(Y_uY_d)+N\arg\eta(\tau)$, with a counterterm $N=6K$, where $K=k_u+k_d$. The setup
+is tree level, with holomorphic couplings and no supersymmetry, so loop corrections to $\tb$ are outside its scope.
+Its ingredients are stated as hypotheses, not derived.
+
+The quark data are running masses at $M_Z$ [6] and the PDG 2025 $|V_{ij}|$ [7]. Each observable is fitted as a
+logarithm, with its relative error combined in quadrature with a 10\% theory allowance; $J$ is not in the $\chi^2$.
+
+\section{The lemma, read physically}
+The character of $\det\rho$ gives $\det Y=\eta^{a}g$, with $a=6,18,0$ by type and $g$ a level-one form of weight
+$w=3k-a/2$. With real coefficients and $N=6K$, $\tb$ is constant on $\mathbb H$ iff
+$g_ug_d/\eta^{2(w_u+w_d)}$ is constant. By the valence formula, and because $j$ maps onto $\mathbb C$, that holds
+iff each $g$ is zero-free on $\mathbb H$, that is iff $g=c\,\Delta^{w/12}$. Physically: $\tb$ is constant over the
+moduli space exactly when no quark is massless at any interior $\tau$. Checked on all sixteen (type, $k\le7$) at 50
+digits:\\[3pt]
+\begin{tabular}{@{}llll@{}}
+\toprule
+class & $w$ & $\det Y$ & massless point in $\mathbb H$\\
+\midrule
+automatic & 0 & $c\,\eta^{6k}$ & none\\
+tuned, generic & 12 & $\eta^{a}(\alpha E_4^3+\beta\Delta)$ & one, at $j(\tau_0)=-\beta/\alpha$; on a CP locus, since $\alpha,\beta\in\mathbb R$\\
+tuned, on the variety $\alpha=0$ & 12 & $c\,\eta^{6k}$ & none: one real condition moves the zero to the cusp\\
+impossible & 6, 18 & $\eta^{a}E_6\times(\dots)$ & at $\tau=i$, for every coupling\\
+identically zero & $-6$ & $0$ & ($\bar\rho\otimes\bar\rho$ at $k=1$)\\
+\bottomrule
+\end{tabular}
+
+\section{The multiplier}
+For zero-free couplings, $\det(Y_uY_d)=c\,\eta^{6K}$. In this setup the counterterm cancels the QCD anomaly of the
+modular transformations only if $6K\equiv-9(2s_Q+s_u+s_d)\pmod{24}$, and for zero-free couplings that holds
+automatically.
+
+Its right side vanishes modulo 24 only for vectorial hands ($s_u=s_d=-s_Q$). Those assignments fail the quark fit,
+with $\chi^2=47.9$ and $54.6$ for 2 dof. Up to weight 7, no assignment with a degree of freedom fits; the best found is $\chi^2=47.9$. The
+four that are compatible with the data are not vectorial: $K=11,11,10,14$. So $24\nmid6K$, and $\eta^{6K}$ carries the
+multiplier $e^{i\pi K/2}$ under $\tau\to\tau+1$. Ref.~[1] works with $\Delta^m$ and avoids multipliers (its
+footnotes 4 and 6, and \S2.4).
+
+\section{An interpretation}
+We read the zero-free condition as a principle: the holomorphic invariants of the couplings, here the mass
+determinants, vanish only at the cusp $\tau\to i\infty$. This restates ref.~[1]'s assumption as a principle; it does
+not derive it. Refs.~[2,3,8] instead reach a constant determinant by cancelling weights. Given CP and the
+counterterm, the principle fixes $\tb\in\{0,\pi\}$ at every $\tau$. It excludes mechanisms that rest on a mass
+matrix of reduced rank at an interior fixed point, such as the rank-one charged-lepton matrix at $\tau=i$ of ref.~[9];
+ref.~[1]'s assumption does the same for the quarks. Because $\tb\approx0$ was known beforehand, the lepton test below is the
+principle's first test with an outcome not known in advance.
+
+\section{The lepton test}
+The rule, the code and the output were each committed before being read (minor exceptions are disclosed in the
+repository). Checks marked \emph{post hoc} were added
+afterwards.
+
+Three of the four compatible quark assignments ($K=11,11,10$) have as many parameters as observables, so their
+solutions fix $\tau$. The fourth ($K=14$) has two more parameters and is left out. That leaves 36 distinct values of
+$\tau$, counted modulo $SL_2(\mathbb Z)$ and $\tau\to-\bar\tau$: 16 exact fits, and 20 compatible at
+$\chi^2\le3.84$.
+
+At each $\tau$ the same zero-free condition is imposed on the charged-lepton coupling $(s_L,s_e)$. It is imposed
+too on the Weinberg coupling, which we take in the symmetric part of the $(s_L,s_L)$ space; that choice, with no
+right-handed neutrinos, is ours. Ten coupling pairs are admissible, with 2 to 6 real parameters at fixed $\tau$.
+They face six observables: $m_e/m_\mu$ and $m_\mu/m_\tau$ [6], and $\sin^2\theta_{12,13,23}$ and
+$\Delta m^2_{21}/|\Delta m^2_{3\ell}|$ from NuFIT 6.0 with Super-Kamiokande atmospheric data [5]. Nine of the pairs
+have a degree of freedom, giving $9\times36=324$ tests.
+
+8 of the 324 tests pass at 95\%, with the 10\% allowance. The post hoc checks then remove or weaken seven of them:
+\begin{itemize}\setlength\itemsep{0pt}
+\item four sit at compatible-only quark points where $|J_{\rm CKM}|$ is 5.5 to $5\times10^4$ times too small;
+\item one gives $\Sigma m=0.13$~eV, above current cosmological bounds;
+\item two are weakened once $J$ is added to the quark $\chi^2$.
+\end{itemize}
+One survives, at an exact quark point. It has normal ordering, $\Sigma m\simeq0.064$~eV, $m_{\beta\beta}\simeq4$~meV
+and $\sin^2\theta_{23}=0.431$. That value is just below NuFIT 6.0's $3\sigma$ range with Super-Kamiokande data
+(0.435--0.585), and inside it without them.
+
+A family-wide null (\emph{post hoc}: 40 random lepton targets, each fitted over all 324 tests) gives $p=0.125$.
+Nothing fits beyond chance. Ref.~[1] likewise finds that its minimal lepton choice does not fit at the quark-fixed
+$\tau$, and it adds two parameters. The two results are of different kinds: theirs concerns one model, ours a scan
+with a look-elsewhere null.
+
+\section{Two questions}
+\begin{enumerate}\setlength\itemsep{2pt}
+\item \textbf{The multiplier.} In the notation of ref.~[1], our counterterm is its eq.~(24) with $k_{f_3}=-3K$, so
+$e^{-8\pi^2f_3}\propto\eta^{-6K}$.
+\begin{itemize}\setlength\itemsep{0pt}
+\item Ref.~[1] sets $\eta$'s multiplier aside because only $\eta^{24}$ is needed (footnote~4). It notes that Yukawa
+multipliers possibly cancel in $\det Y$ (footnote~6), and it chooses its lepton structure to avoid multipliers (\S2.4).
+\item Here the multipliers do not cancel. Since $\det\rho=\chi_\eta^9$ and none of their hands is vectorial (\S3), the
+four compatible assignments have
+$\det(Y_uY_d)=c\,\eta^{6K}$ with $24\nmid6K$, so the QCD anomaly is cancelled only because the threshold term
+carries the same multiplier.
+\end{itemize}
+Is such a term, with its multiplier matched by phases in the matter transformations, known to arise in a string
+completion? (Ref.~[1], \S3, allows such phases for $W\propto\eta^{-2k_W}$.) Or does consistency force the weight of
+$\det(Y_uY_d)$ to be a multiple of 12, which would exclude these assignments?
+\item \textbf{The principle.} Ref.~[1] states the zero-free condition as an assumption, ``perhaps realised in some
+string compactifications'' (\S2.1). Ref.~[4] argues that the limit $Y\to0$ lies at infinite distance along large
+complex-structure directions. It notes zeros at finite distance through D-brane position moduli, and sets them aside.
+For a theory with a single modulus $\tau$ and full $SL_2(\mathbb Z)$, is any argument known that excludes an
+interior zero of $\det Y$, or is the question open?
+\end{enumerate}
+
+\textit{Reproducibility.} The rules, code and outputs are public, with the commit at which each was fixed:
+\url{https://github.com/originaxiom/origin-axiom/tree/7e01601a8/relays/chat1_2026-10-21_zero_free}. No Standard Model
+parameter is claimed as derived.
+
+\vspace{2pt}
+{\footnotesize
+[1] F. Feruglio, A. Marrone, A. Strumia, A. Titov, arXiv:2505.20395.\;
+[2] F. Feruglio, A. Strumia, A. Titov, JHEP 07 (2023) 027, arXiv:2305.08908.\;
+[3] F. Feruglio, M. Parriciatu, A. Strumia, A. Titov, JHEP 08 (2024) 214, arXiv:2406.01689.\;
+[4] G. F. Casas, L. E. Ibáñez, F. Marchesano, arXiv:2403.09775.\;
+[5] I. Esteban \emph{et al.} (NuFIT 6.0), JHEP 12 (2024) 216, arXiv:2410.05380.\;
+[6] G.-y. Huang, S. Zhou, Phys. Rev. D 103 (2021) 016010, arXiv:2009.04851.\;
+[7] S. Navas \emph{et al.} (Particle Data Group), Phys. Rev. D 110 (2024) 030001, and 2025 update.\;
+[8] J. T. Penedo, S. T. Petcov, JHEP 10 (2024) 172, arXiv:2404.08032.\;
+[9] F. Feruglio, V. Gherardi, A. Romanino, A. Titov, JHEP 05 (2021) 242, arXiv:2101.08718.\par}
+\end{document}
