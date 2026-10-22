@@ -94,3 +94,19 @@ it approximates what a Clebsch in the coupling would do.
   - a Clebsch derived in the frame (a coupling whose lepton/down ratio in the middle generation is fixed by the weave);
   - then a sealed census on rows nobody has seen (Re τ off the grid, a finer Im τ, the tick's lines), with main's
     calibration.
+
+## Corrections (2026-10-22, after chat1's read-only referee; the text above is left as committed)
+
+- **§2, "the leptons copy the down quarks."** True for the second generation only. In the same factor-2 rows,
+  R1 = (m_d/m_b)/(m_e/m_τ) is not pinned: B1712 2.0–2.4, B1713 2.0–10.8, B1720 1.0–2.7 (data 3.37). Within a factor
+  2.5, R2 reaches 3.35 (B1713) on rows that miss elsewhere.
+- **§2, "the frame's precision ceiling."** The √3.14 = 1.77 cost holds for rows with R2 ≈ 1. That no point of main's
+  three census runs does better than 1.80 is a regularity of the computed points, not a bound.
+- **§2, "Y_d = Y_eᵀ".** What is computed is that the down and lepton couplings have equal singular values on order-5
+  lines (B1703; `mod_n_check_run.txt`).
+- **§3, "the data alone pick 3".** The record's target P-094, D = 10.58 ± 0.11 (Antusch, Hinze and Saad,
+  arXiv:2510.01312v2), excludes Georgi–Jarlskog's exact D = 9. The data point to a splitting of about √D = 3.25 per
+  generation; 3 is the closest value in the set. The best rows reach D ≈ 11 because the frame departs from d = e there.
+- **§4, "within 28%"** means within a factor 1.28.
+- **Credit.** B1698 named the frame's d–e miss the Georgi–Jarlskog pattern (P-084, P-094) before this note.
+- The full reading, with these corrections and the sealed test that followed, is `THE_SELECTION_MAP.md`.
