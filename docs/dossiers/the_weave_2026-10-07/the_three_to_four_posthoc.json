@@ -1,0 +1,3685 @@
+{
+ "status": "post hoc, not a cell",
+ "notation at LR": {
+  "b++LR": {
+   "orientable": true,
+   "volume": 2.029883212819307,
+   "identify": [
+    "m004(0,0)",
+    "4_1(0,0)",
+    "K2_1(0,0)",
+    "K4a1(0,0)",
+    "otet02_00001(0,0)"
+   ],
+   "trace of the monodromy's sign read from the name": "+"
+  },
+  "b+-LR": {
+   "orientable": true,
+   "volume": 2.029883212819307,
+   "identify": [
+    "m003(0,0)",
+    "otet02_00000(0,0)"
+   ],
+   "trace of the monodromy's sign read from the name": "-"
+  },
+  "b-+LR": {
+   "orientable": false,
+   "volume": 1.831931188354438,
+   "identify": [
+    "m001(0,0)"
+   ],
+   "trace of the monodromy's sign read from the name": "+"
+  },
+  "b--LR": {
+   "orientable": false,
+   "volume": 1.831931188354438,
+   "identify": [
+    "m001(0,0)"
+   ],
+   "trace of the monodromy's sign read from the name": "-"
+  }
+ },
+ "orientable census": {
+  "words": 224,
+  "manifolds": 448,
+  "orientable, geometric and checked": 448,
+  "least volume": 2.029883212819307,
+  "attained at": [
+   "b++LR",
+   "b+-LR"
+  ],
+  "five smallest": [
+   [
+    2.029883213,
+    [
+     "b++LR",
+     "b+-LR"
+    ]
+   ],
+   [
+    2.666744783,
+    [
+     "b++LLR",
+     "b++LRR",
+     "b+-LLR",
+     "b+-LRR"
+    ]
+   ],
+   [
+    2.989120283,
+    [
+     "b++LLLR",
+     "b++LRRR",
+     "b+-LLLR",
+     "b+-LRRR"
+    ]
+   ],
+   [
+    3.177293279,
+    [
+     "b++LLLLR",
+     "b++LRRRR",
+     "b+-LLLLR",
+     "b+-LRRRR"
+    ]
+   ],
+   [
+    3.296902414,
+    [
+     "b++LLLLLR",
+     "b++LRRRRR",
+     "b+-LLLLLR",
+     "b+-LRRRRR"
+    ]
+   ]
+  ],
+  "gap above the minimum": 0.6368615699999998,
+  "the two trace signs agree in volume for every word": true
+ },
+ "rows": [
+  {
+   "word": "LR",
+   "name": "b++LR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 2.029883212819307,
+   "high precision agrees": true
+  },
+  {
+   "word": "LR",
+   "name": "b+-LR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 2.029883212819307,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLR",
+   "name": "b++LLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 2.6667447834490603,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLR",
+   "name": "b+-LLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 2.6667447834490603,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRR",
+   "name": "b++LRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 2.6667447834490603,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRR",
+   "name": "b+-LRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 2.6667447834490603,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLR",
+   "name": "b++LLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 2.9891202829294845,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLR",
+   "name": "b+-LLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 2.9891202829294845,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRR",
+   "name": "b++LLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.6638623767088765,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRR",
+   "name": "b+-LLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.6638623767088765,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRR",
+   "name": "b++LRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 2.9891202829294845,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRR",
+   "name": "b+-LRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 2.989120282929486,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLR",
+   "name": "b++LLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.1772932786003265,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLR",
+   "name": "b+-LLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.177293278600325,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRR",
+   "name": "b++LLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.177751073189783,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRR",
+   "name": "b+-LLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.177751073189783,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLR",
+   "name": "b++LLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.751701965517899,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLR",
+   "name": "b+-LLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.7517019655179,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRR",
+   "name": "b++LLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.177751073189783,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRR",
+   "name": "b+-LLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.177751073189782,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRR",
+   "name": "b++LRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.751701965517899,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRR",
+   "name": "b+-LRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.7517019655179,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRRR",
+   "name": "b++LRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.1772932786003274,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRRR",
+   "name": "b+-LRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.177293278600325,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLR",
+   "name": "b++LLLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.2969024143266377,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLR",
+   "name": "b+-LLLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.2969024143266368,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRR",
+   "name": "b++LLLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.464658911548681,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRR",
+   "name": "b+-LLLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.46465891154868,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLR",
+   "name": "b++LLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.133548425107058,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLR",
+   "name": "b+-LLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.133548425107058,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRR",
+   "name": "b++LLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.813819186103885,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRR",
+   "name": "b+-LLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.813819186103885,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRR",
+   "name": "b++LLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.625378249566623,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRR",
+   "name": "b+-LLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.625378249566621,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLR",
+   "name": "b++LLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.625378249566622,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLR",
+   "name": "b+-LLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.625378249566621,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRR",
+   "name": "b++LLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.464658911548679,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRR",
+   "name": "b+-LLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.46465891154868,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRR",
+   "name": "b++LRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.133548425107058,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRR",
+   "name": "b+-LRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.13354842510706,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRRRR",
+   "name": "b++LRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.296902414326638,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRRRR",
+   "name": "b+-LRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.296902414326638,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLR",
+   "name": "b++LLLLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.3775974082314417,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLR",
+   "name": "b+-LLLLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.3775974082314417,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRR",
+   "name": "b++LLLLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.636433095826662,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRR",
+   "name": "b+-LLLLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.636433095826663,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLR",
+   "name": "b++LLLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.3570421468203735,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLR",
+   "name": "b+-LLLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.357042146820374,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRR",
+   "name": "b++LLLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.170674078223725,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRR",
+   "name": "b+-LLLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.170674078223726,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLR",
+   "name": "b++LLLRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.666445781713632,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLR",
+   "name": "b+-LLLRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.666445781713631,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRR",
+   "name": "b++LLLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.1056536539693385,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRR",
+   "name": "b+-LLLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.105653653969337,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLR",
+   "name": "b++LLLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.105653653969338,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLR",
+   "name": "b+-LLLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.105653653969338,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRR",
+   "name": "b++LLLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.1706740782237235,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRR",
+   "name": "b+-LLLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.170674078223724,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRR",
+   "name": "b++LLRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.377142550178532,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRR",
+   "name": "b+-LLRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.377142550178531,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLR",
+   "name": "b++LLRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.791984042028281,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLR",
+   "name": "b+-LLRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.791984042028282,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRR",
+   "name": "b++LLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.105653653969339,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRR",
+   "name": "b+-LLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.105653653969338,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRR",
+   "name": "b++LLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.377142550178531,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRR",
+   "name": "b+-LLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.377142550178531,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRLR",
+   "name": "b++LLRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.1056536539693385,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRLR",
+   "name": "b+-LLRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.105653653969338,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRR",
+   "name": "b++LLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.636433095826663,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRR",
+   "name": "b+-LLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.6364330958266615,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRLRR",
+   "name": "b++LRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.791984042028281,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRLRR",
+   "name": "b+-LRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.7919840420282815,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRRR",
+   "name": "b++LRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.357042146820372,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRRR",
+   "name": "b+-LRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.357042146820373,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRLRRR",
+   "name": "b++LRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.666445781713634,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRLRRR",
+   "name": "b+-LRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.666445781713629,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRRRRR",
+   "name": "b++LRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.3775974082314426,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRRRRR",
+   "name": "b+-LRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.3775974082314426,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLLR",
+   "name": "b++LLLLLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.4345408859025626,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLLR",
+   "name": "b+-LLLLLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.434540885902565,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLRR",
+   "name": "b++LLLLLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.745944843324716,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLRR",
+   "name": "b+-LLLLLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.745944843324718,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRLR",
+   "name": "b++LLLLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.495648401403699,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRLR",
+   "name": "b+-LLLLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.4956484014037015,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRRR",
+   "name": "b++LLLLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.380576989079152,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRRR",
+   "name": "b+-LLLLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.3805769890791515,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLLR",
+   "name": "b++LLLLRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.866445349336245,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLLR",
+   "name": "b+-LLLLRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.866445349336244,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLRR",
+   "name": "b++LLLLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.381278082553543,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLRR",
+   "name": "b+-LLLLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.381278082553544,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRLR",
+   "name": "b++LLLLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.381278082553544,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRLR",
+   "name": "b+-LLLLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.381278082553543,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRRR",
+   "name": "b++LLLLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.573609112831137,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRRR",
+   "name": "b+-LLLLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.573609112831137,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLRR",
+   "name": "b++LLLRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.798625679561556,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLRR",
+   "name": "b+-LLLRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.798625679561555,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRLR",
+   "name": "b++LLLRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.186139663416549,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRLR",
+   "name": "b+-LLLRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.186139663416548,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRRR",
+   "name": "b++LLLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.644906443473392,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRRR",
+   "name": "b+-LLLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.64490644347339,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLLR",
+   "name": "b++LLLRRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.798625679561557,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLLR",
+   "name": "b+-LLLRRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.798625679561555,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLRR",
+   "name": "b++LLLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.951839008429099,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLRR",
+   "name": "b+-LLLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.951839008429102,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRLR",
+   "name": "b++LLLRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.644906443473393,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRLR",
+   "name": "b+-LLLRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.644906443473393,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRRR",
+   "name": "b++LLLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.380576989079151,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRRR",
+   "name": "b+-LLLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.38057698907915,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRLR",
+   "name": "b++LLRLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.42259588345201,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRLR",
+   "name": "b+-LLRLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.4225958834520105,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRRR",
+   "name": "b++LLRLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.951839008429102,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRRR",
+   "name": "b+-LLRLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.9518390084291015,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLRR",
+   "name": "b++LLRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.641710594423997,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLRR",
+   "name": "b+-LLRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.641710594423997,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRLR",
+   "name": "b++LLRLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.555014768194506,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRLR",
+   "name": "b+-LLRLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.555014768194506,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRRR",
+   "name": "b++LLRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.3812780825535445,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRRR",
+   "name": "b+-LLRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.381278082553544,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRLR",
+   "name": "b++LLRRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.641710594423999,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRLR",
+   "name": "b+-LLRRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.641710594423999,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRRR",
+   "name": "b++LLRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.798625679561553,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRRR",
+   "name": "b+-LLRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.798625679561553,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRLRR",
+   "name": "b++LLRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.798625679561557,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRLRR",
+   "name": "b+-LLRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.798625679561557,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRLR",
+   "name": "b++LLRRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.381278082553544,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRLR",
+   "name": "b+-LLRRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.381278082553544,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRRR",
+   "name": "b++LLRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.745944843324717,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRRR",
+   "name": "b+-LLRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.745944843324717,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRLRRR",
+   "name": "b++LRLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.186139663416549,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRLRRR",
+   "name": "b+-LRLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.186139663416549,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRLRR",
+   "name": "b++LRLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.42259588345201,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRLRR",
+   "name": "b+-LRLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.42259588345201,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRRRR",
+   "name": "b++LRLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.495648401403701,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRRRR",
+   "name": "b+-LRLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.495648401403701,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRLRRRR",
+   "name": "b++LRRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.866445349336243,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRLRRRR",
+   "name": "b+-LRRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.866445349336243,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRRRRRR",
+   "name": "b++LRRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.434540885902565,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRRRRRR",
+   "name": "b+-LRRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.434540885902565,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLLLR",
+   "name": "b++LLLLLLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.4761739892389865,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLLLR",
+   "name": "b+-LLLLLLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.476173989238987,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLLRR",
+   "name": "b++LLLLLLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.819540434211211,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLLRR",
+   "name": "b+-LLLLLLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.819540434211209,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLRLR",
+   "name": "b++LLLLLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.586361607662565,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLRLR",
+   "name": "b+-LLLLLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.586361607662567,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLRRR",
+   "name": "b++LLLLLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.511254398189118,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLRRR",
+   "name": "b+-LLLLLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.511254398189118,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRLLR",
+   "name": "b++LLLLLRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.992910352001394,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRLLR",
+   "name": "b+-LLLLLRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.9929103520013935,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRLRR",
+   "name": "b++LLLLLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.54773701822071,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRLRR",
+   "name": "b+-LLLLLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.54773701822071,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRRLR",
+   "name": "b++LLLLLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.547737018220712,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRRLR",
+   "name": "b+-LLLLLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.547737018220711,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRRRR",
+   "name": "b++LLLLLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.8111802203049345,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRRRR",
+   "name": "b+-LLLLLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.811180220304934,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLLLR",
+   "name": "b++LLLLRLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.168494398039205,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLLLR",
+   "name": "b+-LLLLRLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.168494398039206,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLLRR",
+   "name": "b++LLLLRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.044876906298032,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLLRR",
+   "name": "b+-LLLLRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.0448769062980325,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLRLR",
+   "name": "b++LLLLRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.416988199558158,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLRLR",
+   "name": "b+-LLLLRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.41698819955816,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLRRR",
+   "name": "b++LLLLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.9544972393533655,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLRRR",
+   "name": "b+-LLLLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.954497239353366,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRLLR",
+   "name": "b++LLLLRRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.044876906298032,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRLLR",
+   "name": "b+-LLLLRRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.044876906298032,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRLRR",
+   "name": "b++LLLLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.2794350798003045,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRLRR",
+   "name": "b+-LLLLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.279435079800304,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRRLR",
+   "name": "b++LLLLRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.954497239353367,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRRLR",
+   "name": "b+-LLLLRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.954497239353367,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRRRR",
+   "name": "b++LLLLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.811180220304933,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRRRR",
+   "name": "b+-LLLLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.811180220304932,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLLRR",
+   "name": "b++LLLRLLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.193530028047222,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLLRR",
+   "name": "b+-LLLRLLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.1935300280472205,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLRLR",
+   "name": "b++LLLRLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.782201805720877,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLRLR",
+   "name": "b+-LLLRLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.782201805720877,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLRRR",
+   "name": "b++LLLRLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.426315417121316,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLRRR",
+   "name": "b+-LLLRLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.426315417121316,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRLLR",
+   "name": "b++LLLRLRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.782201805720877,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRLLR",
+   "name": "b+-LLLRLRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.782201805720877,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRLRR",
+   "name": "b++LLLRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.114850743106237,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRLRR",
+   "name": "b+-LLLRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.114850743106237,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRRLR",
+   "name": "b++LLLRLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.982119517654683,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRRLR",
+   "name": "b+-LLLRLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.982119517654683,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRRRR",
+   "name": "b++LLLRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.954497239353368,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRRRR",
+   "name": "b+-LLLRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.9544972393533655,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLLRR",
+   "name": "b++LLLRRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.853469097889997,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLLRR",
+   "name": "b+-LLLRRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.853469097889994,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLRLR",
+   "name": "b++LLLRRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.114850743106238,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLRLR",
+   "name": "b+-LLLRRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.11485074310624,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLRRR",
+   "name": "b++LLLRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.426315417121315,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLRRR",
+   "name": "b+-LLLRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.426315417121318,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRLLR",
+   "name": "b++LLLRRRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.426315417121314,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRLLR",
+   "name": "b+-LLLRRRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.426315417121318,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRLRR",
+   "name": "b++LLLRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.426315417121315,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRLRR",
+   "name": "b+-LLLRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.426315417121317,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRRLR",
+   "name": "b++LLLRRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.954497239353368,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRRLR",
+   "name": "b+-LLLRRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.954497239353368,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRRRR",
+   "name": "b++LLLRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.511254398189118,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRRRR",
+   "name": "b+-LLLRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.5112543981891156,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRLRR",
+   "name": "b++LLRLLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.31910985857547,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRLRR",
+   "name": "b+-LLRLLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.31910985857547,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRRLR",
+   "name": "b++LLRLLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.31910985857547,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRRLR",
+   "name": "b+-LLRLLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.31910985857547,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRRRR",
+   "name": "b++LLRLLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.279435079800306,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRRRR",
+   "name": "b+-LLRLLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.279435079800305,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLLRR",
+   "name": "b++LLRLRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.44022021170687,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLLRR",
+   "name": "b+-LLRLRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.440220211706873,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLRLR",
+   "name": "b++LLRLRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.8239971564936,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLRLR",
+   "name": "b+-LLRLRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.823997156493599,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLRRR",
+   "name": "b++LLRLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.114850743106237,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLRRR",
+   "name": "b+-LLRLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.114850743106235,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRLRR",
+   "name": "b++LLRLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.31910985857547,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRLRR",
+   "name": "b+-LLRLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.319109858575471,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRRLR",
+   "name": "b++LLRLRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.9821195176546835,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRRLR",
+   "name": "b+-LLRLRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.9821195176546835,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRRRR",
+   "name": "b++LLRLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.547737018220706,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRRRR",
+   "name": "b+-LLRLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.547737018220709,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLLRRR",
+   "name": "b++LLRRLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.853469097889999,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLLRRR",
+   "name": "b+-LLRRLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.853469097889995,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRLRR",
+   "name": "b++LLRRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.440220211706873,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRLRR",
+   "name": "b+-LLRRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.44022021170687,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRRLR",
+   "name": "b++LLRRLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.319109858575471,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRRLR",
+   "name": "b+-LLRRLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.319109858575471,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRRRR",
+   "name": "b++LLRRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.04487690629803,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRRRR",
+   "name": "b+-LLRRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.044876906298032,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRLRLR",
+   "name": "b++LLRRRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.114850743106237,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRLRLR",
+   "name": "b+-LLRRRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.114850743106237,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRLRRR",
+   "name": "b++LLRRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.19353002804722,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRLRRR",
+   "name": "b+-LLRRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.19353002804722,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRLRR",
+   "name": "b++LLRRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.044876906298031,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRLRR",
+   "name": "b+-LLRRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.044876906298031,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRRLR",
+   "name": "b++LLRRRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.547737018220708,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRRLR",
+   "name": "b+-LLRRRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.547737018220708,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRRRR",
+   "name": "b++LLRRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.819540434211211,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRRRR",
+   "name": "b+-LLRRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.819540434211211,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRLRLRR",
+   "name": "b++LRLRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.823997156493599,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRLRLRR",
+   "name": "b+-LRLRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.8239971564936,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRLRRRR",
+   "name": "b++LRLRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.416988199558156,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRLRRRR",
+   "name": "b+-LRLRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.416988199558159,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRLRRR",
+   "name": "b++LRLRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.78220180572088,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRLRRR",
+   "name": "b+-LRLRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.78220180572088,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRRLRR",
+   "name": "b++LRLRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.782201805720879,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRRLRR",
+   "name": "b+-LRLRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.782201805720879,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRRRRR",
+   "name": "b++LRLRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.586361607662567,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRRRRR",
+   "name": "b+-LRLRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.586361607662567,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRLRRRRR",
+   "name": "b++LRRLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.992910352001394,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRLRRRRR",
+   "name": "b+-LRRLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.992910352001394,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRRLRRRR",
+   "name": "b++LRRRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.168494398039205,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRRLRRRR",
+   "name": "b+-LRRRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.168494398039208,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRRRRRRR",
+   "name": "b++LRRRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.476173989238992,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRRRRRRR",
+   "name": "b+-LRRRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.476173989238992,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLLLLR",
+   "name": "b++LLLLLLLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.507503559505839,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLLLLR",
+   "name": "b+-LLLLLLLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.507503559505838,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLLLRR",
+   "name": "b++LLLLLLLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.871182891680359,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLLLRR",
+   "name": "b+-LLLLLLLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.871182891680361,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLLRLR",
+   "name": "b++LLLLLLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.6485496494806995,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLLRLR",
+   "name": "b+-LLLLLLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.6485496494806995,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLLRRR",
+   "name": "b++LLLLLLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.597130091414522,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLLRRR",
+   "name": "b+-LLLLLLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.597130091414523,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLRLLR",
+   "name": "b++LLLLLLRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.076894918993274,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLRLLR",
+   "name": "b+-LLLLLLRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.076894918993274,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLRLRR",
+   "name": "b++LLLLLLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.653941842506352,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLRLRR",
+   "name": "b+-LLLLLLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.65394184250635,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLRRLR",
+   "name": "b++LLLLLLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.653941842506349,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLRRLR",
+   "name": "b+-LLLLLLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.653941842506351,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLRRRR",
+   "name": "b++LLLLLLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.958120836632298,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLLRRRR",
+   "name": "b+-LLLLLLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.958120836632298,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRLLLR",
+   "name": "b++LLLLLRLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.290210632845993,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRLLLR",
+   "name": "b+-LLLLLRLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.290210632845993,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRLLRR",
+   "name": "b++LLLLLRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.196077479978702,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRLLRR",
+   "name": "b+-LLLLLRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.196077479978704,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRLRLR",
+   "name": "b++LLLLLRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.559321157471496,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRLRLR",
+   "name": "b+-LLLLLRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.559321157471495,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRLRRR",
+   "name": "b++LLLLLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.140071220253079,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRLRRR",
+   "name": "b+-LLLLLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.140071220253078,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRRLLR",
+   "name": "b++LLLLLRRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.196077479978702,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRRLLR",
+   "name": "b+-LLLLLRRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.1960774799787,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRRLRR",
+   "name": "b++LLLLLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.4741648372210845,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRRLRR",
+   "name": "b+-LLLLLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.474164837221084,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRRRLR",
+   "name": "b++LLLLLRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.140071220253079,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRRRLR",
+   "name": "b+-LLLLLRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.140071220253077,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRRRRR",
+   "name": "b++LLLLLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.066992240075221,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLLRRRRR",
+   "name": "b+-LLLLLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.066992240075221,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLLLRR",
+   "name": "b++LLLLRLLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.4273058285015665,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLLLRR",
+   "name": "b+-LLLLRLLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.427305828501564,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLLRLR",
+   "name": "b++LLLLRLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.995866673927153,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLLRLR",
+   "name": "b+-LLLLRLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.995866673927151,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLLRRR",
+   "name": "b++LLLLRLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.70187851047105,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLLRRR",
+   "name": "b+-LLLLRLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.70187851047105,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLRLLR",
+   "name": "b++LLLLRLRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.99586667392715,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLRLLR",
+   "name": "b+-LLLLRLRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.99586667392715,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLRLRR",
+   "name": "b++LLLLRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.387995297477405,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLRLRR",
+   "name": "b+-LLLLRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.387995297477406,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLRRLR",
+   "name": "b++LLLLRLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.230535715268061,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLRRLR",
+   "name": "b+-LLLLRLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.230535715268061,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLRRRR",
+   "name": "b++LLLLRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.285583087686864,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRLRRRR",
+   "name": "b+-LLLLRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.285583087686863,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRLLLR",
+   "name": "b++LLLLRRLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.427305828501566,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRLLLR",
+   "name": "b+-LLLLRRLLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.427305828501564,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRLLRR",
+   "name": "b++LLLLRRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.154766609575077,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRLLRR",
+   "name": "b+-LLLLRRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.154766609575077,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRLRLR",
+   "name": "b++LLLLRRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.387995297477405,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRLRLR",
+   "name": "b+-LLLLRRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.387995297477405,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRLRRR",
+   "name": "b++LLLLRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.785719122169675,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRLRRR",
+   "name": "b+-LLLLRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.785719122169673,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRRLLR",
+   "name": "b++LLLLRRRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.701878510471048,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRRLLR",
+   "name": "b+-LLLLRRRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.701878510471051,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRRLRR",
+   "name": "b++LLLLRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.785719122169676,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRRLRR",
+   "name": "b+-LLLLRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.785719122169674,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRRRLR",
+   "name": "b++LLLLRRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.285583087686863,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRRRLR",
+   "name": "b+-LLLLRRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.285583087686863,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRRRRR",
+   "name": "b++LLLLRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.958120836632298,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLLRRRRRR",
+   "name": "b+-LLLLRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.958120836632299,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLLRLR",
+   "name": "b++LLLRLLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.126197552894725,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLLRLR",
+   "name": "b+-LLLRLLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.126197552894725,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLLRRR",
+   "name": "b++LLLRLLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.869961165285071,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLLRRR",
+   "name": "b+-LLLRLLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.86996116528507,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLRLLR",
+   "name": "b++LLLRLLRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.333954232721617,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLRLLR",
+   "name": "b+-LLLRLLRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.333954232721617,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLRLRR",
+   "name": "b++LLLRLLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.749892572070207,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLRLRR",
+   "name": "b+-LLLRLLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.749892572070207,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLRRLR",
+   "name": "b++LLLRLLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.702770481610377,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLRRLR",
+   "name": "b+-LLLRLLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.702770481610377,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLRRRR",
+   "name": "b++LLLRLLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.785719122169675,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLLRRRR",
+   "name": "b+-LLLRLLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.785719122169672,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRLLRR",
+   "name": "b++LLLRLRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.887237994710599,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRLLRR",
+   "name": "b+-LLLRLRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.887237994710599,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRLRLR",
+   "name": "b++LLLRLRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.220724986656137,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRLRLR",
+   "name": "b+-LLLRLRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.220724986656137,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRLRRR",
+   "name": "b++LLLRLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.633675719802369,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRLRRR",
+   "name": "b+-LLLRLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.63367571980237,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRRLLR",
+   "name": "b++LLLRLRRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.70277048161038,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRRLLR",
+   "name": "b+-LLLRLRRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.702770481610377,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRRLRR",
+   "name": "b++LLLRLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.818718635684988,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRRLRR",
+   "name": "b+-LLLRLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.818718635684995,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRRRLR",
+   "name": "b++LLLRLRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.428788382884033,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRRRLR",
+   "name": "b+-LLLRLRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.428788382884033,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRRRRR",
+   "name": "b++LLLRLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.14007122025308,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRLRRRRR",
+   "name": "b+-LLLRLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.140071220253078,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLLRLR",
+   "name": "b++LLLRRLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.887237994710603,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLLRLR",
+   "name": "b+-LLLRRLLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.887237994710603,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLLRRR",
+   "name": "b++LLLRRLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.438012294980453,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLLRRR",
+   "name": "b+-LLLRRLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.438012294980453,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLRLLR",
+   "name": "b++LLLRRLRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.749892572070205,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLRLLR",
+   "name": "b+-LLLRRLRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.749892572070205,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLRLRR",
+   "name": "b++LLLRRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.003333897694013,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLRLRR",
+   "name": "b+-LLLRRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.003333897694013,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLRRLR",
+   "name": "b++LLLRRLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.818718635684991,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLRRLR",
+   "name": "b+-LLLRRLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.818718635684991,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLRRRR",
+   "name": "b++LLLRRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.70187851047105,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRLRRRR",
+   "name": "b+-LLLRRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.70187851047105,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRLLRR",
+   "name": "b++LLLRRRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.438012294980453,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRLLRR",
+   "name": "b+-LLLRRRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.438012294980453,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRLRLR",
+   "name": "b++LLLRRRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.633675719802369,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRLRLR",
+   "name": "b+-LLLRRRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.633675719802369,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRLRRR",
+   "name": "b++LLLRRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.869961165285071,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRLRRR",
+   "name": "b+-LLLRRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.869961165285071,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRRLLR",
+   "name": "b++LLLRRRRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.785719122169674,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRRLLR",
+   "name": "b+-LLLRRRRLLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.785719122169674,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRRLRR",
+   "name": "b++LLLRRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.70187851047105,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRRLRR",
+   "name": "b+-LLLRRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.70187851047105,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRRRLR",
+   "name": "b++LLLRRRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.140071220253079,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRRRLR",
+   "name": "b+-LLLRRRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.140071220253079,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRRRRR",
+   "name": "b++LLLRRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.597130091414521,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLLRRRRRRR",
+   "name": "b+-LLLRRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.597130091414521,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRLLRR",
+   "name": "b++LLRLLRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.048102896456234,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRLLRR",
+   "name": "b+-LLRLLRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.048102896456234,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRLRLR",
+   "name": "b++LLRLLRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.46467909422513,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRLRLR",
+   "name": "b+-LLRLLRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.464679094225128,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRLRRR",
+   "name": "b++LLRLLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.818718635684993,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRLRRR",
+   "name": "b+-LLRLLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.818718635684991,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRRLRR",
+   "name": "b++LLRLLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.116288021789849,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRRLRR",
+   "name": "b+-LLRLLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.116288021789849,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRRRLR",
+   "name": "b++LLRLLRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.818718635684991,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRRRLR",
+   "name": "b+-LLRLLRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.818718635684993,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRRRRR",
+   "name": "b++LLRLLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.474164837221082,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLLRRRRR",
+   "name": "b+-LLRLLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.474164837221081,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLLRRR",
+   "name": "b++LLRLRLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.003333897694016,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLLRRR",
+   "name": "b+-LLRLRLLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.003333897694016,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLRLRR",
+   "name": "b++LLRLRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.668800444843377,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLRLRR",
+   "name": "b+-LLRLRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.668800444843377,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLRRLR",
+   "name": "b++LLRLRLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.564089316583871,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLRRLR",
+   "name": "b+-LLRLRLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.564089316583871,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLRRRR",
+   "name": "b++LLRLRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.387995297477405,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRLRRRR",
+   "name": "b+-LLRLRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.387995297477405,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRLLRR",
+   "name": "b++LLRLRRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.286212753842191,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRLLRR",
+   "name": "b+-LLRLRRLLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.286212753842191,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRLRLR",
+   "name": "b++LLRLRRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.564089316583873,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRLRLR",
+   "name": "b+-LLRLRRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.564089316583873,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRLRRR",
+   "name": "b++LLRLRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.749892572070204,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRLRRR",
+   "name": "b+-LLRLRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.749892572070204,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRRLRR",
+   "name": "b++LLRLRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.702770481610376,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRRLRR",
+   "name": "b+-LLRLRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.702770481610376,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRRRLR",
+   "name": "b++LLRLRRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.230535715268063,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRRRLR",
+   "name": "b+-LLRLRRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.230535715268063,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRRRRR",
+   "name": "b++LLRLRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.653941842506348,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRLRRRRRR",
+   "name": "b+-LLRLRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.653941842506348,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLLRRLR",
+   "name": "b++LLRRLLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.28621275384219,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLLRRLR",
+   "name": "b+-LLRRLLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.28621275384219,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLLRRRR",
+   "name": "b++LLRRLLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.154766609575075,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLLRRRR",
+   "name": "b+-LLRRLLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.154766609575075,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRLRLR",
+   "name": "b++LLRRLRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.668800444843377,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRLRLR",
+   "name": "b+-LLRRLRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.668800444843377,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRLRRR",
+   "name": "b++LLRRLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.887237994710599,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRLRRR",
+   "name": "b+-LLRRLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.887237994710599,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRRLRR",
+   "name": "b++LLRRLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.048102896456232,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRRLRR",
+   "name": "b+-LLRRLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.048102896456232,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRRRLR",
+   "name": "b++LLRRLRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.702770481610376,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRRRLR",
+   "name": "b+-LLRRLRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.702770481610376,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRRRRR",
+   "name": "b++LLRRLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.196077479978703,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRLRRRRR",
+   "name": "b+-LLRRLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.196077479978703,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRLRLRR",
+   "name": "b++LLRRRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.887237994710599,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRLRLRR",
+   "name": "b+-LLRRRLRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.887237994710599,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRLRRLR",
+   "name": "b++LLRRRLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.749892572070207,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRLRRLR",
+   "name": "b+-LLRRRLRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.749892572070207,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRLRRRR",
+   "name": "b++LLRRRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.4273058285015665,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRLRRRR",
+   "name": "b+-LLRRRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.4273058285015665,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRLRLR",
+   "name": "b++LLRRRRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.387995297477405,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRLRLR",
+   "name": "b+-LLRRRRLRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.387995297477405,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRLRRR",
+   "name": "b++LLRRRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.427305828501567,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRLRRR",
+   "name": "b+-LLRRRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.427305828501567,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRRLRR",
+   "name": "b++LLRRRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.1960774799787,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRRLRR",
+   "name": "b+-LLRRRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.1960774799787,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRRRLR",
+   "name": "b++LLRRRRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.65394184250635,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRRRLR",
+   "name": "b+-LLRRRRRRLR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.65394184250635,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRRRRR",
+   "name": "b++LLRRRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.87118289168036,
+   "high precision agrees": true
+  },
+  {
+   "word": "LLRRRRRRRR",
+   "name": "b+-LLRRRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 4.87118289168036,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRLRLRRR",
+   "name": "b++LRLRLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.220724986656137,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRLRLRRR",
+   "name": "b+-LRLRLRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.220724986656137,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRLRRLRR",
+   "name": "b++LRLRLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.46467909422513,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRLRRLRR",
+   "name": "b+-LRLRLRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 9.46467909422513,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRLRRRRR",
+   "name": "b++LRLRLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.559321157471496,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRLRRRRR",
+   "name": "b+-LRLRLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.559321157471496,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRLRRRR",
+   "name": "b++LRLRRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.995866673927149,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRLRRRR",
+   "name": "b+-LRLRRLRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.995866673927149,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRRLRRR",
+   "name": "b++LRLRRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.126197552894727,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRRLRRR",
+   "name": "b+-LRLRRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.126197552894727,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRRRLRR",
+   "name": "b++LRLRRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.99586667392715,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRRRLRR",
+   "name": "b+-LRLRRRRLRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 7.99586667392715,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRRRRRR",
+   "name": "b++LRLRRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.648549649480701,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRLRRRRRRR",
+   "name": "b+-LRLRRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 5.648549649480701,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRLRRLRRR",
+   "name": "b++LRRLRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.333954232721613,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRLRRLRRR",
+   "name": "b+-LRRLRRLRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 8.333954232721613,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRLRRRRRR",
+   "name": "b++LRRLRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.076894918993272,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRLRRRRRR",
+   "name": "b+-LRRLRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.076894918993272,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRRLRRRRR",
+   "name": "b++LRRRLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.290210632845996,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRRLRRRRR",
+   "name": "b+-LRRRLRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 6.290210632845996,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRRRRRRRR",
+   "name": "b++LRRRRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.5075035595058366,
+   "high precision agrees": true
+  },
+  {
+   "word": "LRRRRRRRRR",
+   "name": "b+-LRRRRRRRRR",
+   "orientable": true,
+   "solution": "all tetrahedra positively oriented",
+   "volume": 3.5075035595058366,
+   "high precision agrees": true
+  }
+ ]
+}
