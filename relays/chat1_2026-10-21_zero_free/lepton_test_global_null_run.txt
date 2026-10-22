@@ -22,3 +22,28 @@ lepton_test_head:169: RuntimeWarning: invalid value encountered in scalar divide
 [  6837.8s] target 16 family-best p 0.0223 passes 0
 [  6848.4s] target 15 family-best p 0.0294 passes 0
 [launch 3: resumed from the checkpoint after the job limit]
+[   585.5s] target 18 family-best p 0.9033 passes 1
+[   593.3s] target 17 family-best p 0.0269 passes 0
+[  1152.3s] target 20 family-best p 0.0455 passes 0
+[  1158.8s] target 19 family-best p 0.8643 passes 20
+[  1702.6s] target 21 family-best p 0.0145 passes 0
+[  1722.2s] target 22 family-best p 0.0305 passes 0
+[  2260.2s] target 23 family-best p 0.0242 passes 0
+[  2306.8s] target 24 family-best p 0.0418 passes 0
+[  2807.2s] target 25 family-best p 0.1206 passes 3
+[  2861.7s] target 26 family-best p 0.1413 passes 1
+[  3370.9s] target 27 family-best p 0.0115 passes 0
+[  3425.4s] target 28 family-best p 0.3085 passes 4
+[  3939.1s] target 29 family-best p 0.1121 passes 3
+[  3999.0s] target 30 family-best p 0.9471 passes 8
+[  4516.7s] target 31 family-best p 0.312 passes 4
+[  4562.1s] target 32 family-best p 0.0471 passes 0
+[  5076.6s] target 33 family-best p 0.0263 passes 0
+[  5122.1s] target 34 family-best p 0.0357 passes 0
+[  5608.4s] target 35 family-best p 0.0484 passes 0
+[  5687.8s] target 36 family-best p 0.0179 passes 0
+[  6155.8s] target 37 family-best p 0.1025 passes 1
+[  6225.8s] target 38 family-best p 0.1832 passes 6
+[  6714.7s] target 39 family-best p 0.1801 passes 1
+[  6714.7s] {'label': 'POST HOC, after 1caa0e263 was read', 'tests': 324, 'targets': 40, 'data family-best p (sealed search)': 0.7771962232722189, 'data (reduced search)': {'family_best_p': 0.7771962232725838, 'passes': 2}, 'p_global': 0.125, 'null passes: median': 0.0, 'null passes: quartiles': [0.0, 2.25], 'prediction p_global >= 0.05 holds': True, 'seconds (this launch)': 6714.727157354355}
+exit 0

@@ -1,0 +1,18 @@
+{
+ "label": "POST HOC, after 1caa0e263 was read",
+ "tests": 324,
+ "targets": 40,
+ "data family-best p (sealed search)": 0.7771962232722189,
+ "data (reduced search)": {
+  "family_best_p": 0.7771962232725838,
+  "passes": 2
+ },
+ "p_global": 0.125,
+ "null passes: median": 0.0,
+ "null passes: quartiles": [
+  0.0,
+  2.25
+ ],
+ "prediction p_global >= 0.05 holds": true,
+ "seconds (this launch)": 6714.727157354355
+}
