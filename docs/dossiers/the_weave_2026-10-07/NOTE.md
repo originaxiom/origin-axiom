@@ -7726,6 +7726,123 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W132. The edge's twenty-fourths and the SU(2) remainder (two tests named after W129, taken together): consistency of the moves' phases never forces the cusp's unit, which carries no phase. With three generations the moves' SU(2) remainder never closes on its own. What closes it is τ's counterterm always; or, on 8 of the 64 sign assignments, a sign twist ε₁₂ on one doublet field, which keeps the count three; or, on two of B1674's four, a pair of weak doublets with the Higgs's quantum numbers (`the_twenty_fourths.py`; `W132_RULE.md`)
+
+**Why.**
+- Two tests named after W129 are one arithmetic, so they were taken together.
+  - Must the edge's phases, each an odd number of twenty-fourths, close into a whole unit, and so force GENESIS FK10's
+    unit?
+  - B1674 found the moves' mixed anomaly with SU(2) never free (6, 12 or 18 twenty-fourths). Which field absorbs it?
+- The owner's question behind both: can a cancellation that does not complete generate a field? The owner asked this
+  seat to finish these without waiting on the other seats (2026-10-22).
+
+**The order.**
+- The rule (`W132_RULE.md`) was committed and pushed (cf38e7cb6) before the script existed.
+- The script (a300e1df3) was committed before its one run, which took 1.6 s. Before that commit it was only compiled.
+- Its output (067506c1e) was committed unread, then read once.
+
+**The result (COMPUTED, exact; every cell as predicted).** n_G = Σ_f w_G(f)(9s_f + 3r_f) mod 24, with W101's weights.
+- **G0, the instrument.**
+  - B1674's layer is reproduced: SU(3)-free iff s_u = s_d = −s_Q (16 of 64); SU(2) takes 6, 12 and 18; among the
+    SU(3)-free, gravity-free iff s_e = s_ν = −s_L (4 of 16).
+  - η(τ + 1) = e^{iπ/12}η(τ) and η(−1/τ) = √(−iτ)η(τ) hold at three points to 3 × 10⁻⁴¹. Δ = η²⁴'s multiplier is
+    trivial.
+- **G1, the unit is phase-blind.** Dressing any set of fields by O(nδ) = η^{−24n}, n = 1 to 8, changes no n_G, and
+  its multiplier is trivial on S and T.
+- **G2, copies.** n_SU2 = 12 iff s_Q = s_L. SU(2) closes iff n is even (s_Q = s_L) or n ≡ 0 mod 4 (s_Q = −s_L), so
+  n = 1, three generations, never closes it. On B1674's free sets SU(3) and gravity close for every n.
+  - The least n that closes all three with no absorber is 2 for exactly the 8 assignments in G3 and 4 for the other
+    56.
+- **G3, twists** (64 sign assignments × 6⁶ twists at n = 1).
+  - A twist by r ≡ 4 mod 8 adds 12 to a field's phase; one by r ≡ 0 mod 8 adds nothing.
+  - **Fully free for exactly 8 sign assignments:** s_Q = s_L, s_u = s_d and s_e = s_ν. None has s_Q = −s_L.
+  - Each has 5832 twist vectors. Their pattern is the rule's: an odd number of {Q, L} twisted by r ≡ 4 mod 8; for u
+    and d, and for e and ν, an even number when the sign is opposite to Q's (L's), an odd number when it is the same.
+  - Every pattern is reached with ε₁₂ alone. W47's t_r, recomputed: t₁₂ = 0 at every condition, t₂₀ = 0 exactly at 0
+    and V4, t₄ = 0 exactly at V2 and L6.
+  - On B1674's four, the two with s_Q = s_L become fully free with ε₁₂ on Q alone, or on L alone. The two with
+    s_Q = −s_L do not.
+- **G4, τ's counterterm.** χ_η^m is trivial on S and T only for m ≡ 0 mod 24, and η^{−n_G} cancels n_G for every
+  assignment, n and group.
+- **G5, a Higgs-like pair.** Two colourless weak doublets with Y = ±½ add m_u + m_d to n_SU2 and 2(m_u + m_d) to
+  n_grav, and are vector-like in Y. On B1674's four, the pair closes SU(2) and keeps gravity closed iff s_Q = s_L,
+  with m_u + m_d ≡ 12; for s_Q = −s_L no pair does.
+- **G6, the read-out** (per assignment at n = 1, found, not predicted). A pair closes all three on 4 of the 64
+  assignments:
+  - B1674's two with s_Q = s_L (m_u + m_d ≡ 12);
+  - two more, Q+ u− d− L− e− ν− and Q− u+ d+ L+ e+ ν+. There SU(3) is free but neither SU(2) nor gravity, and the
+    pair closes both at once (m_u + m_d ≡ 6 and 18).
+
+**What it shows (the rule's fixed meaning).**
+1. **Consistency of the twenty-fourths does not force GENESIS FK10's unit.** The unit carries no phase.
+2. **If the moves are a gauged symmetry with no absorber, the SU(2) remainder forbids n = 1.** So three generations
+   then require an absorber:
+   - τ's counterterm, always;
+   - or, when s_Q = s_L, a sign twist ε₁₂ on one doublet field, which keeps the count three at every puncture
+     condition;
+   - or a pair of weak doublets with the Higgs's quantum numbers.
+3. **A READING.** Here a cancellation that does not complete does generate a field.
+   - It is τ (the modulus's counterterm), or, in two of B1674's four assignments, a pair with the Higgs's quantum
+     numbers. It is not the unit.
+   - This bears on the owner's question about the record's −1s: the remainder that does not cancel is carried by τ
+     or by a Higgs-like pair, not by the unit at the cusp.
+4. **If the moves are only a global symmetry, none of this binds** (B1674).
+
+**Weave or thread.** WEAVE-type: the whole group the moves generate, every one of B1674's 64 sign assignments, every
+allowed twist, and the copies n = 1 to 8.
+
+**Status.** COMPUTED, exact (one run; every cell as predicted). No data, so not a trial. 0 of 19.
+
+## W131. The forced field and the chiral three (W130's open link, the owner's word to finish this seat's plate): the field the principle forces is silent toward the three families. Its conjugate annihilates them, every pairing linear in it is a (1, 0)-form, so no bulk coupling exists, it cannot tell the families apart, and its point coupling at the puncture is a residue that vanishes at every τ. The coupling matrix is zero (`the_forced_field_and_the_three.py`; `W131_RULE.md`)
+
+**Why.**
+- W130 found the one field whose zero the principle forbids on the shared fibre: the fibre's uniformizing Higgs
+  field Φ, of size ½. It left open whether Φ couples the chiral three, the link to masses.
+- The owner asked this seat to finish what it had named without waiting on the other seats (2026-10-22). Main's ask
+  in relay §217 (a) is taken here.
+
+**The order.**
+- The rule (`W131_RULE.md`) was committed and pushed (cf38e7cb6) before the script existed.
+- The script (56deb5f54) was committed before its one run, which took 53 s. Before that commit it was only compiled.
+- Its output (62e72ffbd) was committed unread, then read once.
+
+**The result (COMPUTED; types exact, residues at 40 digits and three τ; every cell as predicted).**
+- **J0, the instrument.** At τ = i, ω and 0.2 + 1.3i the Szegő kernels S_k = θ_k(z)θ₁′(0)/(θ_k(0)θ₁(z)), k = 2, 3, 4,
+  have residue 1 at 0 to 2 × 10⁻⁴², are odd exactly, and S_k² − S_l² is constant in z to 4 × 10⁻⁴⁰.
+  - Under z → z + π and z → z + πτ their signs are (+, −), (−, −) and (−, +): the three non-trivial characters of
+    H₁, one per parity block, at all three τ.
+- **J1, type.**
+  - N maps S⁺ to S⁻. The conjugate is Φ*_h = c̄ y⁻² Nᵀ, which annihilates S⁺. So Φ*ψ = 0 for every zero mode.
+  - ε(ψ_a, Φψ_b) and ψ_a·ε(h, ψ_b) are (1, 0)-forms; h's part lies in the trivial summand. The hermitian pairing
+    h(ψ_a, Φψ_b) is 0, since the two lie in different summands. No pairing linear in the field is a (1, 1)-form, so
+    none can be integrated over the fibre.
+- **J2, parity.** End(E ⊗ χ) = End E, and χ_aχ_b = 1 only for a = b. The product S_aS_b of two different blocks
+  carries the third block's character at every τ.
+- **J3, the residue.** The residue of S_aS_b at the puncture, by a circle of radius 0.3, is at most 4.7 × 10⁻⁴³ for
+  every a, b and τ. For S_a² the boundary of a fundamental parallelogram gives at most 1.8 × 10⁻⁴², the residue
+  theorem's second route. So the coupling matrix Y, through Φ, Φ* and h, is zero at every τ: |Y| ≤ 3.3 × 10⁻⁴³.
+
+**What it shows (the rule's fixed meaning).**
+1. **The field the principle forces is silent toward the chiral three on the fibre.**
+   - Its conjugate annihilates them, and it couples nothing in the bulk.
+   - Its coupling at the puncture vanishes: S_a² is even, because each Szegő kernel is odd, so its residue is 0.
+   - It cannot tell the families apart, so it could not pair different families either.
+2. **So W130's field cannot by itself give the masses W128 needed.** It is the shape's field, not the mass-giver, as
+   W129 read.
+3. **J4, a READING by hand on what can couple.**
+   - The index ±3 is topological, so no internal background lifts the three.
+   - A non-zero coupling needs a datum that carries parity and is of type (0, 1) at the puncture. B1651's addendum and
+     B1654 have one framed datum per parity. The principle does not force it.
+   - The masses also need a four-dimensional field that breaks the weak symmetry (W128).
+4. **The owner's question about the field and the remainder.** The field's own non-cancellation, its failure to
+   commute with its conjugate, is the hole's curvature (W130). Toward the families that remainder is silent: the
+   coupling it would carry is a residue that the oddness of the spinor kernels cancels exactly.
+
+**Weave or thread.** WEAVE-type: the shared fibre at three τ, all three parity blocks, the forced field and its
+conjugate and square root, and the coupling to all three at once.
+
+**Status.** COMPUTED (types exact; residues at 40 digits; every cell as predicted). No data, so not a trial. 0 of 19.
+
 ## W130. GENESIS PF1 on the field's rest state (the owner's first test after W129): on the shared fibre the principle forbids the zero of exactly one field, the fibre's own uniformizing Higgs field. Its non-commutation with its conjugate is the hole's curvature, its size is ½ in curvature units at every point and every τ, and it must vanish if the hole is closed. The matter's flat data carry none, and its square root is a nowhere-zero doublet of the fibre's SL(2) (`the_field_at_rest.py`; `W130_RULE.md`)
 
 **Why.**
@@ -11167,6 +11284,8 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W132 | COMPUTED, exact (the rule first; one run; every cell as predicted); WEAVE-type | the edge's twenty-fourths and the SU(2) remainder: the cusp's unit O(nδ) = η^{−24n} carries no phase, so consistency of the moves' phases never forces GENESIS FK10's unit; with n copies SU(2) closes only for n even (s_Q = s_L) or n ≡ 0 mod 4, so three generations (n = 1) never close it alone; a twist frees all three anomalies for exactly 8 of 64 sign assignments (s_Q = s_L, s_u = s_d, s_e = s_ν; 5832 twist vectors each), every pattern reached with ε₁₂, which keeps the count three at every condition; τ's counterterm η^{−n_G} absorbs every remainder; a pair of weak doublets with the Higgs's quantum numbers closes SU(2) and keeps gravity on B1674's two with s_Q = s_L (m_u + m_d ≡ 12), and closes both on two more assignments (read-out); a READING: the remainder that does not cancel is carried by τ or a Higgs-like pair, not by the unit; binding only if the moves are gauged. 0 of 19 |
+| W131 | COMPUTED (types exact; residues at 40 digits and three τ; the rule first; one run; every cell as predicted); WEAVE-type | the forced field and the chiral three: the Szegő kernels of the three even spin structures (residue 1, odd, one non-trivial character of H₁ each) carry the zero modes; W130's Φ*_h = c̄y⁻²Nᵀ annihilates them, every pairing linear in Φ or its square root is a (1, 0)-form, so no bulk coupling exists; the field is blind to parity, so different families cannot pair; the point coupling at the puncture is the residue of S_aS_b, which is 0 (each kernel is odd; the residue theorem agrees), \|Y\| ≤ 3.3 × 10⁻⁴³ at every τ; so the field the principle forces is silent toward the three and is not the mass-giver; a non-zero coupling needs a parity-carrying (0, 1) datum at the puncture (B1651, B1654), not forced. 0 of 19 |
 | W130 | COMPUTED, exact (the rule first, corrected before the script; one run; every cell as predicted); WEAVE-type | GENESIS PF1 on the field's rest state: by non-abelian Hodge, the field at rest vanishes iff the flat datum is unitary; the geometry (the fibre's point (3, 3, 3), its 5461 images under the moves to length 6, five other Fuchsian points) is never unitary, so its uniformizing Higgs field cannot rest at zero; Hitchin's equation gives \|c\|² = ¼, so \|Φ\| = ½ in curvature units at every point and τ, with ∫\|Φ\|² = π·(−χ/2); closing the hole forces Φ = 0; the quaternion point (commutator −I too), 𝕎 and the triplet's group are unitary and carry none; the square root is a nowhere-zero doublet of the fibre's SL(2); the dictionary to the weak SU(2) (GENESIS FK11) and the coupling at the puncture (B1651) stay open. 0 of 19 |
 | W129 | READING (no computation; a lock); across W127, W128 and the record | the three framings of "is the field forced?" compared: the record has used one word for two objects, the Standard Model's doublet (a gauge object whose quantum numbers consistency fixes given one empirical bit, a move singlet given the moves as a symmetry) and W123's weight-3/2 section (a flavour object whose existence the end decides, hand-dependent at the empty end once twists are admitted); forced: the doublet's quantum numbers given massive matter, and one chiral mode at the empty end in the joint field; not forced: the unit that carries the fibre's three into four dimensions, and non-zero masses (the three itself is derived, W1 to W22); index matching would force the unit for one field, never for the joint field; a recommendation for the owner. 0 of 19 |
 | W128 | COMPUTED (the rule first; one run; every cell as predicted); weave-type in C0, C2 and C4, C1 the Standard Model's group theory, C3 a READING | the consistency route: the anomaly cubic −18·y_Q(y_u − 2y_Q)(y_u + 4y_Q); one colour-singlet doublet with \|Y\| = ½ serves every Yukawa bilinear; with the moves as a symmetry and constant couplings a move-singlet field couples to both quark bilinears iff B1674's SU(3)-free set (16 of 64), to all four iff its SU(3)- and gravity-free set (4 of 64), and a triplet field never; the empirical bit: no arc on main derives a non-zero mass, and six force a massless first generation; index matching I = f holds at 22 data, at the natural conditions iff n = 1 and t_r = 0, never for the joint field. 0 of 19 |

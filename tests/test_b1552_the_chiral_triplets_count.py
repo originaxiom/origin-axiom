@@ -3997,3 +3997,58 @@ def test_w130_the_field_at_rest():
     assert W.mul(W.mul(A, B), W.mul(W.inv(A), W.inv(B))) == ((-1, 0), (-6, -1))
     qa, qb = sp.Matrix([[sp.I, 0], [0, -sp.I]]), sp.Matrix([[0, 1], [-1, 0]])
     assert sp.simplify(qa * qb * qa.inv() * qb.inv()) == -sp.eye(2)
+
+
+def test_w131_the_forced_field_and_the_three():
+    """W131, the forced field and the chiral three: every cell as recorded; in process, the types (Phi* annihilates S+,
+    every pairing linear in the field is a (1, 0)-form) and, at 20 digits, the residue of S_2^2 at tau = i is 0"""
+    import contextlib
+    import importlib.util
+    import io
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_forced_field_and_the_three.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"J0": True, "J1": True, "J2": True, "J3": True}
+    assert all(v["max |Y|"] < 1e-40 for v in d["J3"]["per tau"].values())
+    assert all(v["signs under (pi, pi tau)"] == {"2": [1, -1], "3": [-1, -1], "4": [-1, 1]} for v in d["J0"].values())
+    sys.path.insert(0, str(here))
+    spec = importlib.util.spec_from_file_location("w131_lock", here / "the_forced_field_and_the_three.py")
+    W = importlib.util.module_from_spec(spec)
+    with contextlib.redirect_stdout(io.StringIO()):
+        spec.loader.exec_module(W)
+    j1, ok1 = W.J1()
+    assert ok1 and j1["weights"] == {"eps(psi, Phi psi)": "(1, 0)", "psi . eps(h, psi)": "(1, 0)"}
+    dps = W.mp.mp.dps
+    try:
+        W.mp.mp.dps = 20
+        S2 = W.szego(2, W.mp.mpc(0, 1))
+        assert abs(W.circle(lambda z: S2(z) ** 2)) < 1e-15
+        assert abs(W.circle(S2) - 1) < 1e-15
+    finally:
+        W.mp.mp.dps = dps
+
+
+def test_w132_the_twenty_fourths():
+    """W132, the edge's twenty-fourths: every cell as recorded; in process, the twist census (8 sign assignments fully
+    free, 5832 twist vectors each, none with s_Q = -s_L) and the Higgs-like pair on B1674's four"""
+    import contextlib
+    import importlib.util
+    import io
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_twenty_fourths.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"G0": True, "G1": True, "G2": True, "G3": True, "G4": True, "G5": True}
+    assert set(d["G3"]["fully free (number of twist vectors)"].values()) == {5832}
+    table = d["G6 (read-out): per assignment at n = 1"]
+    assert sorted(k for k, v in table.items() if v["fully closed by a Higgs-like pair"]) == sorted(
+        ["Q+ u- d- L+ e- nu-", "Q- u+ d+ L- e+ nu+", "Q+ u- d- L- e- nu-", "Q- u+ d+ L+ e+ nu+"])
+    sys.path.insert(0, str(here))
+    spec = importlib.util.spec_from_file_location("w132_lock", here / "the_twenty_fourths.py")
+    W = importlib.util.module_from_spec(spec)
+    with contextlib.redirect_stdout(io.StringIO()):
+        spec.loader.exec_module(W)
+    g3, ok3, census = W.G3()
+    assert ok3 and len(census) == 8 and all(s["Q"] == s["L"] for s in W.ASSIGN if W.name(s) in census)
+    g5, ok5, _ = W.G5()
+    assert ok5
+    assert all(not W.free(s)["SU2"] for s in W.ASSIGN)
