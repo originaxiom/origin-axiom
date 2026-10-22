@@ -1,0 +1,161 @@
+{
+ "arc": "W130",
+ "rule": "W130_RULE.md",
+ "status": "one run",
+ "H0": {
+  "checks": {
+   "the metric 1/y^2 has curvature -1": true,
+   "F_h = diag(-1, 1)/(4y^2)": true,
+   "[Phi, Phi*_h] = |c|^2 diag(1, -1)/y^2": true,
+   "Hitchin's equation holds iff |c|^2 = 1/4": true,
+   "Phi = 0 is not a solution (F_h is not 0)": true
+  },
+  "F_h": "Matrix([[-1/(4*y**2), 0], [0, 1/(4*y**2)]])",
+  "bracket per |c|^2": "Matrix([[y**(-2), 0], [0, -1/y**2]])",
+  "|c|^2": "[[1/4], [1/4]]"
+ },
+ "H1": {
+  "checks": {
+   "the geometry: every image of (3, 3, 3) under words of length <= 6 has traces > 2 and tr[A, B] = -2": true,
+   "the geometry's puncture holonomy is -1 times a unipotent other than I": true,
+   "five other Fuchsian points: tr[A, B] = -2 to 1e-30 and every trace real and > 2": true,
+   "the quaternion point is unitary with [a, b] = -I (trace -2)": true,
+   "W = rho_Q (x) chi_p is unitary, with the same commutator, for all four characters": true,
+   "the triplet's image group has order 96 and is unitary": true
+  },
+  "words": 5461,
+  "least trace over the words": 3,
+  "distinct sorted trace triples": 33,
+  "Fuchsian points": [
+   {
+    "x, y, z": [
+     "3.0",
+     "4.0",
+     "9.31662479036"
+    ],
+    "|tr[A, B] + 2|": "6.43e-40",
+    "det B - 1": "0.0",
+    "all traces real and > 2": true
+   },
+   {
+    "x, y, z": [
+     "2.5",
+     "5.0",
+     "9.04508497187"
+    ],
+    "|tr[A, B] + 2|": "7.81e-40",
+    "det B - 1": "0.0",
+    "all traces real and > 2": true
+   },
+   {
+    "x, y, z": [
+     "3.5",
+     "3.5",
+     "9.73271742242"
+    ],
+    "|tr[A, B] + 2|": "2.98e-40",
+    "det B - 1": "0.0",
+    "all traces real and > 2": true
+   },
+   {
+    "x, y, z": [
+     "4.0",
+     "4.0",
+     "13.6568542495"
+    ],
+    "|tr[A, B] + 2|": "1.74e-39",
+    "det B - 1": "0.0",
+    "all traces real and > 2": true
+   },
+   {
+    "x, y, z": [
+     "3.0",
+     "10.0",
+     "25.7703296143"
+    ],
+    "|tr[A, B] + 2|": "2.57e-39",
+    "det B - 1": "0.0",
+    "all traces real and > 2": true
+   }
+  ],
+  "the geometry's [A, B]": [
+   [
+    -1,
+    0
+   ],
+   [
+    -6,
+    -1
+   ]
+  ]
+ },
+ "H2": {
+  "checks": {
+   "|Phi| = 1/2 pointwise, with no x, y or tau in it": true,
+   "the modular triangle has area pi/3": true,
+   "<A, B> has index 6 in PSL(2, Z) (by its image mod 6)": true,
+   "the fibre's area is 2 pi = -2 pi chi with chi = -1": true,
+   "the parabolic degree (i/2pi) int F = Area/(4pi) = 1/2 = -chi/2": true,
+   "int |Phi|^2 dA = Area/4 = pi deg = pi/2": true
+  },
+  "|PSL(2, Z/6)|": 72,
+  "|image of <A, B>|": 12,
+  "area": "2*pi",
+  "degree": "1/2",
+  "int |Phi|^2": "pi/2"
+ },
+ "H3": {
+  "checks": {
+   "flat metric: F = 0 and [N, N*] = diag(1, -1) is not 0, so c = 0": true,
+   "an abelian Phi = a diag(1, -1) dz solves it for every a (no floor)": true
+  }
+ },
+ "H4": {
+  "checks": {
+   "-h (x) eps(h, .) is nilpotent and traceless": true,
+   "the uniformizing N has exactly two square roots, h = (0, +-i)": true,
+   "every non-zero nilpotent has exactly two square roots, negatives of each other (five cases)": true,
+   "sqrt(c) h = (0, +-i/sqrt 2): nowhere zero, |sqrt(c) h|^2 = |c| = |Phi| = 1/2": true
+  },
+  "square roots of N": [
+   {
+    "a": "0",
+    "b": "-I"
+   },
+   {
+    "a": "0",
+    "b": "I"
+   }
+  ],
+  "sqrt(c) h": [
+   [
+    "0",
+    "-sqrt(2)*I/2"
+   ],
+   [
+    "0",
+    "sqrt(2)*I/2"
+   ]
+  ]
+ },
+ "H5 (read-out)": {
+  "the forced data": {
+   "the geometry (every Fuchsian point, every move)": "not unitary: the field at rest is not 0",
+   "the quaternion common point": "unitary: the field at rest is 0 (its puncture holonomy is -I, semisimple)",
+   "W = rho_Q (x) chi_p": "unitary: 0",
+   "the triplet's image group": "unitary: 0"
+  },
+  "the forced field": "the uniformizing Higgs field, |Phi| = 1/2 in curvature units at every point and tau; int |Phi|^2 = pi times the parabolic degree -chi/2",
+  "the hole closed": "the field must vanish",
+  "the doublet": "Phi = -h (x) eps(h, .), h = (0, +-i): nowhere zero, unique up to sign, of the fibre's SL(2)",
+  "open": "the dictionary between the fibre's SL(2) and the weak SU(2); the coupling to the chiral three"
+ },
+ "cells": {
+  "H0": true,
+  "H1": true,
+  "H2": true,
+  "H3": true,
+  "H4": true
+ },
+ "every cell holds": true
+}

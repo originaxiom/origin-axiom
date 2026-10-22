@@ -1,0 +1,12 @@
+{
+ "H0": true,
+ "H1": true,
+ "H2": true,
+ "H3": true,
+ "H4": true
+}
+every cell holds: True
+
+real	0m0.939s
+user	0m1.264s
+sys	0m0.041s
