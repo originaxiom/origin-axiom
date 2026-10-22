@@ -1,0 +1,71 @@
+{
+ "arc": "W133",
+ "status": "POST HOC, after the read-out",
+ "r=4 n=1": {
+  "Q1 solutions with multiplicity (W133)": 81,
+  "Q1 distinct eigenvalues": 81,
+  "Q1 least relative gap between eigenvalues": 0.00020032166238978148,
+  "Q2 max |N'(g) / eta^(9-3r) - 1| over the eigenvector points and three tau": 76512302943.00446,
+  "Q3 theta-power vectors F_a (a = 2 mod 8, 2a = r mod 24, -30 <= a <= 42)": {
+   "-22": "not in h",
+   "2": {
+    "in h": true,
+    "t F_a with 2^(a+2) t^3 = 1 solves the system": true
+   },
+   "26": {
+    "in h": true,
+    "t F_a with 2^(a+2) t^3 = 1 solves the system": true
+   }
+  },
+  "Q4 W127's index I(cond, r, n)": {
+   "0": -4.0,
+   "V2": -1.0,
+   "V4": -0.0,
+   "L6": 3.0
+  }
+ },
+ "r=12 n=1": {
+  "Q1 solutions with multiplicity (W133)": 27,
+  "Q1 distinct eigenvalues": 27,
+  "Q1 least relative gap between eigenvalues": 1.5687030481214892e-10,
+  "Q2 max |N'(g) / eta^(9-3r) - 1| over the eigenvector points and three tau": 1.3379428776349482e-31,
+  "Q3 theta-power vectors F_a (a = 2 mod 8, 2a = r mod 24, -30 <= a <= 42)": {
+   "-30": "not in h",
+   "-6": {
+    "in h": true,
+    "t F_a with 2^(a+2) t^3 = 1 solves the system": true
+   },
+   "18": {
+    "in h": true,
+    "t F_a with 2^(a+2) t^3 = 1 solves the system": true
+   },
+   "42": "not in h"
+  },
+  "Q4 W127's index I(cond, r, n)": {
+   "0": -3.0,
+   "V2": -1.0,
+   "V4": 1.0,
+   "L6": 3.0
+  }
+ },
+ "r=20 n=1": {
+  "Q1 solutions with multiplicity (W133)": 27,
+  "Q1 distinct eigenvalues": 27,
+  "Q1 least relative gap between eigenvalues": 6.0320753733214e-16,
+  "Q2 max |N'(g) / eta^(9-3r) - 1| over the eigenvector points and three tau": 1.8788984193495963e-27,
+  "Q3 theta-power vectors F_a (a = 2 mod 8, 2a = r mod 24, -30 <= a <= 42)": {
+   "-14": "not in h",
+   "10": {
+    "in h": true,
+    "t F_a with 2^(a+2) t^3 = 1 solves the system": true
+   },
+   "34": "not in h"
+  },
+  "Q4 W127's index I(cond, r, n)": {
+   "0": -3.0,
+   "V2": -2.0,
+   "V4": 1.0,
+   "L6": 2.0
+  }
+ }
+}
