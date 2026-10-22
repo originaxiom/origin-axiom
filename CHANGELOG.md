@@ -1,5 +1,16 @@
 # Changelog
 
+## S186 GENESIS v1.53 (B1715; P-254, P-093, P-149, P-215) (2026-10-22)
+
+- After S185's full suite, through `adoption/amend.py` against the hash-pinned v1.52.
+- **FK10:** four-dimensional gravity does not supply the cusp's unit (B1708, B1710), and Gate 12 is closed (B1678).
+- **FK9:** a selection may select a measure, tested statistically.
+- **FK12:** the word's order is where a CP sign is chosen.
+- **GM5c:** read against v1.49.
+- No status cell and no price changes.
+- **Landing suite.** full suite 7 580 passed, 2 failed, 68 skipped (38:29, -n 8). Both failures are B805's attachment locks (P-239). The gaps lock has failed since S173. The authored-against-attachment count now ties, because B1715 rests on five arcs: honest edges, not trimmed. The attachment layer has not been extended since B842.
+- 0 of 19.
+
 ## S185 THE LINE CENSUS COMPLETED, THE MIXING SEALED, AND THE LEADS FOLLOWED (B1712–B1714, B1716–B1718; P-260, P-261) (2026-10-22)
 
 - **B1712 — the weave census of lines (P-260; the owner's choice): NEGATIVE as sealed** (`a35ab5642`, sha256 c4856e37;

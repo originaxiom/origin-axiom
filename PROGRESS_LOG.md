@@ -17728,3 +17728,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   - **Harvest:** rows 1297–1300, with the pins moved.
 - **The blind prediction.** P-268's zero law, committed before B1713's read (`5063a0f9d`), held on orders 1–7.
 - **Landing suite.** full suite 7 575 passed, 3 failed, 68 skipped (32:40, -n 8). Two failures were this landing's and are fixed: the kill-graph scope keys (B1712, B1713), and B805's authored-against-attachment count, after depends_on was trimmed to premises — B1698, B1711, B1660, B1708 and B1712–B1713 as evidence for B1716 are context, cited in the findings. Re-run of the affected locks: 1 482 passed, 1 failed. The one remaining failure is B805's attachment lock (P-239), as at every landing since S173.
+
+## 2026-10-22 — S186 GENESIS v1.53 (B1715)
+
+- P-254, P-093, P-149, P-215 DONE. The owner's directive of the same evening is under way: sweep the record for a selection principle, a source of a magnitude, and the tagged inputs' derivations, and map the calculations that would complete the picture.
+- **Landing suite.** full suite 7 580 passed, 2 failed, 68 skipped (38:29, -n 8). Both failures are B805's attachment locks (P-239). The gaps lock has failed since S173. The authored-against-attachment count now ties, because B1715 rests on five arcs: honest edges, not trimmed. The attachment layer has not been extended since B842.

@@ -13228,6 +13228,20 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1715": {
+   "slug": "genesis v1 53",
+   "motifs": [
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "K3",
+    "S185"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B1716": {
    "slug": "the zeros derived",
    "motifs": [

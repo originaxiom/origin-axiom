@@ -1,0 +1,31 @@
+{
+  "id": "B1715",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1706",
+    "B1678",
+    "B1708",
+    "B1710",
+    "B1611"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [
+    "sm:W120",
+    "sm:W121",
+    "sm:W57"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the foundation document",
+    "object": "GENESIS v1.52 -> v1.53",
+    "reach": "general",
+    "hypotheses": "the record as of S185"
+  },
+  "claim_one_line": "GENESIS v1.53 (an amendment arc; P-254, P-074, P-093, P-149, P-215; after S185's full suite): FK10 records that four-dimensional gravity does not supply the cusp's unit (the closed torus-fibred 4d vacua give units only in twelves and the triplet's count there is -15 chi(O_S) or -18 chi(O_S), never three; B1708, B1710; sm:W120, sm:W121) and that Gate 12 is closed (B1678); FK9 that a selection may select a measure, tested statistically (the sealed calibrations; sm:W57); FK12 that the word's order is where a CP sign is chosen; GM5c that v1.49's family of wordings contains the swap without conflicting with v1.33's even-tick ruling. No status cell and no price changes. 0 of 19.",
+  "weave_or_thread": "weave (the foundation)"
+}
