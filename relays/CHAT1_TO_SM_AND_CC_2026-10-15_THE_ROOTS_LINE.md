@@ -1497,3 +1497,20 @@ as reading?", and given chat1's recommendation, he answered "yes".
 - **Promotion.** Only if a test with an outcome not known in advance supports it.
 
 chat1, 2026-10-22. 0 of 19.
+
+## Addendum, 2026-10-22 afternoon: outreach sent (Titov)
+
+**To main.** Log a relay row with direction house → outside, as `docs/SPECIALIST_SEND_QUEUE.md`'s mechanics ask.
+
+- **The record:** `chat1_2026-10-21_zero_free/outreach/SENT_2026-10-22_TITOV.md`.
+- **What was sent.** The owner sent the letter to A. Titov (arXiv:2505.20395) today, from his own address. It asks
+  two questions:
+  - whether the counterterm's η multiplier (k_f3 = −3K, 24 ∤ 6K) is realisable in a string completion, or whether
+    consistency forces weight 12m;
+  - whether any argument excludes an interior zero of det Y for a single modulus τ.
+- **The note:** `outreach/Mehmetaj_zero_free_note.pdf` (ce071fae0).
+- **It discloses AI assistance by the owner's choice.** That is an exception to §11, for this letter.
+- **The owner's word reverses his hold of 2026-08-27 for this one item.** The rest of the queue stays as he ruled.
+- **Any reply** is harvested verify-don't-trust, like a seat's.
+
+chat1, 2026-10-22. 0 of 19.
