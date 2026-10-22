@@ -13014,6 +13014,18 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1704": {
+   "slug": "what holds tau",
+   "motifs": [
+    "kappa",
+    "eisenstein"
+   ],
+   "refs": [],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B170": {
    "slug": "relational scale leap",
    "motifs": [

@@ -1,5 +1,19 @@
 # Changelog
 
+## S176 WHAT HOLDS TAU (B1704, PROVED; P-251) (2026-10-22)
+
+- **W62's PH3 on main** (computed, no data): the holding condition is a negative total cusp coefficient (B1686's exact
+  coefficients; PH3's 31/1024 = (31/512)/2); every content on record is positive (+5.45 to +66.57 ζ(6)), so none holds τ.
+- **Where a holding content would hold it** (PH2's verified shape for the matter; minima on the CP lines): trivial-sector
+  Weyl fermions hold τ at i or near ω (no hierarchy there); scalars twisted along the shrinking cycle leave no minimum on
+  the lines; a minimum in the band 2.1 ≤ Im τ ≤ 3.2 needs net bosons in the matter's representation with the cusp
+  coefficient nearly cancelled — matter + Higgs + 89–95 such scalars, or 595–672 with the gauge fields (689–780 with the
+  graviton), each moving τ* by 0.01–0.2. A fine-tuned integer content that nothing on record selects.
+- **Register.** P-251 DONE; P-118 annotated; W62's harvest row annotated (PH3 verified). FLOOR 252.
+- **LAW_MAP currency.** Rows for B1698/B1703 (which lines split the sectors), B1700 (the Higgs's end data is the unit) and B1701 (the line-tied Higgs is degenerate).
+- **Landing suite.** 117 files (B1704's lock, every arc lock and the corpus-scanning tests), 2046 passed, 1 failed, 3 skipped (7:25, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S175 THE LINE CENSUS (B1703, PROVED; P-250) (2026-10-22)
 
 - **The laws, computed** (no data; 1 224 lines of order ≤ 16 at two τ; confirmed on fresh data at a new τ and at ω): in

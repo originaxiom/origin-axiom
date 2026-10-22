@@ -809,3 +809,7 @@ found with B1635's sealed instrument.
   from 8 on splits all three. A first generation is protected iff N divides its q_L − q_R or 3, so the only all-splitting
   protected order is 9 (the leptons) and none protects the up quarks. Every line a principle on record selects — closure,
   move-invariance, the potential's state, W63's tie, the tick's order-5 lines — leaves two sectors degenerate.
+- **What would hold τ (B1704, computed).** A content holds τ off the cusp only if its cusp coefficient is negative, and
+  every content on record is positive. The simple ways to flip it (net fermions in the trivial sector) hold τ at i or near
+  ω, where there is no hierarchy; a minimum in the hierarchy band needs net bosons in the matter's representation and a
+  fine-tuned cancellation (89–95 extra such scalars without gauge fields, about 600–780 with them) that nothing selects.

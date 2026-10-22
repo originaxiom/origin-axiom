@@ -1,0 +1,3752 @@
+{
+ "contents": {
+  "(a)": {
+   "('m',)": 90,
+   "(0.0, 0.5)": 2,
+   "(0.5, 0.0)": 2,
+   "(0.0, 0.0)": 2
+  },
+  "(b)": {
+   "('m',)": 90,
+   "(0.0, 0.5)": 2,
+   "(0.5, 0.0)": 2,
+   "(0.0, 0.0)": 26
+  },
+  "(c)": {
+   "('m',)": 90,
+   "(0.0, 0.5)": 2,
+   "(0.5, 0.0)": 2,
+   "(0.0, 0.0)": 30.5
+  }
+ },
+ "copies": [
+  [
+   0.0,
+   0.5
+  ],
+  [
+   0.5,
+   0.0
+  ],
+  [
+   0.0,
+   0.0
+  ]
+ ],
+ "rows": [
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 3,
+   "cusp": -2.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": [
+    1.02
+   ]
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 4,
+   "cusp": -6.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": [
+    0.96
+   ]
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 5,
+   "cusp": -10.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": [
+    0.94
+   ]
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 6,
+   "cusp": -14.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": [
+    0.92
+   ]
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 7,
+   "cusp": -18.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": [
+    0.91
+   ]
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 8,
+   "cusp": -22.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 9,
+   "cusp": -26.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 10,
+   "cusp": -30.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 11,
+   "cusp": -34.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 12,
+   "cusp": -38.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 13,
+   "cusp": -42.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 14,
+   "cusp": -46.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 15,
+   "cusp": -50.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 16,
+   "cusp": -54.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 17,
+   "cusp": -58.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 18,
+   "cusp": -62.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 19,
+   "cusp": -66.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 20,
+   "cusp": -70.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 21,
+   "cusp": -74.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 22,
+   "cusp": -78.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 23,
+   "cusp": -82.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 24,
+   "cusp": -86.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 25,
+   "cusp": -90.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 26,
+   "cusp": -94.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 27,
+   "cusp": -98.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 28,
+   "cusp": -102.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 29,
+   "cusp": -106.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 30,
+   "cusp": -110.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 31,
+   "cusp": -114.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 32,
+   "cusp": -118.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 33,
+   "cusp": -122.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 34,
+   "cusp": -126.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 35,
+   "cusp": -130.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 36,
+   "cusp": -134.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 37,
+   "cusp": -138.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 38,
+   "cusp": -142.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 39,
+   "cusp": -146.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 40,
+   "cusp": -150.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 41,
+   "cusp": -154.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 42,
+   "cusp": -158.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 43,
+   "cusp": -162.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 44,
+   "cusp": -166.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 45,
+   "cusp": -170.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 46,
+   "cusp": -174.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 47,
+   "cusp": -178.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 48,
+   "cusp": -182.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 49,
+   "cusp": -186.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 50,
+   "cusp": -190.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 51,
+   "cusp": -194.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 52,
+   "cusp": -198.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 53,
+   "cusp": -202.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 54,
+   "cusp": -206.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 55,
+   "cusp": -210.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 56,
+   "cusp": -214.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 57,
+   "cusp": -218.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 58,
+   "cusp": -222.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 59,
+   "cusp": -226.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 60,
+   "cusp": -230.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 61,
+   "cusp": -234.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 62,
+   "cusp": -238.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 63,
+   "cusp": -242.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 64,
+   "cusp": -246.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 65,
+   "cusp": -250.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 66,
+   "cusp": -254.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 67,
+   "cusp": -258.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 68,
+   "cusp": -262.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 69,
+   "cusp": -266.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 70,
+   "cusp": -270.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 71,
+   "cusp": -274.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 72,
+   "cusp": -278.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 73,
+   "cusp": -282.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 74,
+   "cusp": -286.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 75,
+   "cusp": -290.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 76,
+   "cusp": -294.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 77,
+   "cusp": -298.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 78,
+   "cusp": -302.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "trivial Weyl fermions",
+   "n": 79,
+   "cusp": -306.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 3,
+   "cusp": -2.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 4,
+   "cusp": -5.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 5,
+   "cusp": -9.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 6,
+   "cusp": -13.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 7,
+   "cusp": -17.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 8,
+   "cusp": -21.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 9,
+   "cusp": -25.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 10,
+   "cusp": -29.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 11,
+   "cusp": -33.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 12,
+   "cusp": -36.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 13,
+   "cusp": -40.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 14,
+   "cusp": -44.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 15,
+   "cusp": -48.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 16,
+   "cusp": -52.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 17,
+   "cusp": -56.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 18,
+   "cusp": -60.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 19,
+   "cusp": -64.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 20,
+   "cusp": -67.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 21,
+   "cusp": -71.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 22,
+   "cusp": -75.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 23,
+   "cusp": -79.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 24,
+   "cusp": -83.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 25,
+   "cusp": -87.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 26,
+   "cusp": -91.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 27,
+   "cusp": -95.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 28,
+   "cusp": -98.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 29,
+   "cusp": -102.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 30,
+   "cusp": -106.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 31,
+   "cusp": -110.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 32,
+   "cusp": -114.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 33,
+   "cusp": -118.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 34,
+   "cusp": -122.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 35,
+   "cusp": -126.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 36,
+   "cusp": -129.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 37,
+   "cusp": -133.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 38,
+   "cusp": -137.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 39,
+   "cusp": -141.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 40,
+   "cusp": -145.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 41,
+   "cusp": -149.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 42,
+   "cusp": -153.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 43,
+   "cusp": -157.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 44,
+   "cusp": -160.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 45,
+   "cusp": -164.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 46,
+   "cusp": -168.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 47,
+   "cusp": -172.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 48,
+   "cusp": -176.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 49,
+   "cusp": -180.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 50,
+   "cusp": -184.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 51,
+   "cusp": -188.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 52,
+   "cusp": -191.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 53,
+   "cusp": -195.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 54,
+   "cusp": -199.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 55,
+   "cusp": -203.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 56,
+   "cusp": -207.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 57,
+   "cusp": -211.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 58,
+   "cusp": -215.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 59,
+   "cusp": -219.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 60,
+   "cusp": -222.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 61,
+   "cusp": -226.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 62,
+   "cusp": -230.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 63,
+   "cusp": -234.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 64,
+   "cusp": -238.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 65,
+   "cusp": -242.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 66,
+   "cusp": -246.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 67,
+   "cusp": -250.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 68,
+   "cusp": -253.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 69,
+   "cusp": -257.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 70,
+   "cusp": -261.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 71,
+   "cusp": -265.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 72,
+   "cusp": -269.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 73,
+   "cusp": -273.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 74,
+   "cusp": -277.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 75,
+   "cusp": -281.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 76,
+   "cusp": -284.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 77,
+   "cusp": -288.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 78,
+   "cusp": -292.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(a)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 79,
+   "cusp": -296.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 15,
+   "cusp": -2.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": [
+    1.02
+   ]
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 16,
+   "cusp": -6.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": [
+    0.96
+   ]
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 17,
+   "cusp": -10.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": [
+    0.94
+   ]
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 18,
+   "cusp": -14.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": [
+    0.92
+   ]
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 19,
+   "cusp": -18.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": [
+    0.91
+   ]
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 20,
+   "cusp": -22.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 21,
+   "cusp": -26.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 22,
+   "cusp": -30.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 23,
+   "cusp": -34.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 24,
+   "cusp": -38.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 25,
+   "cusp": -42.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 26,
+   "cusp": -46.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 27,
+   "cusp": -50.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 28,
+   "cusp": -54.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 29,
+   "cusp": -58.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 30,
+   "cusp": -62.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 31,
+   "cusp": -66.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 32,
+   "cusp": -70.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 33,
+   "cusp": -74.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 34,
+   "cusp": -78.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 35,
+   "cusp": -82.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 36,
+   "cusp": -86.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 37,
+   "cusp": -90.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 38,
+   "cusp": -94.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 39,
+   "cusp": -98.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 40,
+   "cusp": -102.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 41,
+   "cusp": -106.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 42,
+   "cusp": -110.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 43,
+   "cusp": -114.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 44,
+   "cusp": -118.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 45,
+   "cusp": -122.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 46,
+   "cusp": -126.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 47,
+   "cusp": -130.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 48,
+   "cusp": -134.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 49,
+   "cusp": -138.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 50,
+   "cusp": -142.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 51,
+   "cusp": -146.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 52,
+   "cusp": -150.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 53,
+   "cusp": -154.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 54,
+   "cusp": -158.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 55,
+   "cusp": -162.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 56,
+   "cusp": -166.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 57,
+   "cusp": -170.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 58,
+   "cusp": -174.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 59,
+   "cusp": -178.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 60,
+   "cusp": -182.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 61,
+   "cusp": -186.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 62,
+   "cusp": -190.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 63,
+   "cusp": -194.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 64,
+   "cusp": -198.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 65,
+   "cusp": -202.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 66,
+   "cusp": -206.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 67,
+   "cusp": -210.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 68,
+   "cusp": -214.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 69,
+   "cusp": -218.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 70,
+   "cusp": -222.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 71,
+   "cusp": -226.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 72,
+   "cusp": -230.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 73,
+   "cusp": -234.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 74,
+   "cusp": -238.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 75,
+   "cusp": -242.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 76,
+   "cusp": -246.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 77,
+   "cusp": -250.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 78,
+   "cusp": -254.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "trivial Weyl fermions",
+   "n": 79,
+   "cusp": -258.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 15,
+   "cusp": -0.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 16,
+   "cusp": -4.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 17,
+   "cusp": -8.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 18,
+   "cusp": -12.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 19,
+   "cusp": -16.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 20,
+   "cusp": -19.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 21,
+   "cusp": -23.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 22,
+   "cusp": -27.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 23,
+   "cusp": -31.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 24,
+   "cusp": -35.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 25,
+   "cusp": -39.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 26,
+   "cusp": -43.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 27,
+   "cusp": -47.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 28,
+   "cusp": -50.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 29,
+   "cusp": -54.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 30,
+   "cusp": -58.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 31,
+   "cusp": -62.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 32,
+   "cusp": -66.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 33,
+   "cusp": -70.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 34,
+   "cusp": -74.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 35,
+   "cusp": -78.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 36,
+   "cusp": -81.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 37,
+   "cusp": -85.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 38,
+   "cusp": -89.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 39,
+   "cusp": -93.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 40,
+   "cusp": -97.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 41,
+   "cusp": -101.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 42,
+   "cusp": -105.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 43,
+   "cusp": -109.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 44,
+   "cusp": -112.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 45,
+   "cusp": -116.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 46,
+   "cusp": -120.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 47,
+   "cusp": -124.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 48,
+   "cusp": -128.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 49,
+   "cusp": -132.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 50,
+   "cusp": -136.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 51,
+   "cusp": -140.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 52,
+   "cusp": -143.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 53,
+   "cusp": -147.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 54,
+   "cusp": -151.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 55,
+   "cusp": -155.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 56,
+   "cusp": -159.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 57,
+   "cusp": -163.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 58,
+   "cusp": -167.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 59,
+   "cusp": -171.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 60,
+   "cusp": -174.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 61,
+   "cusp": -178.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 62,
+   "cusp": -182.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 63,
+   "cusp": -186.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 64,
+   "cusp": -190.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 65,
+   "cusp": -194.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 66,
+   "cusp": -198.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 67,
+   "cusp": -202.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 68,
+   "cusp": -205.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 69,
+   "cusp": -209.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 70,
+   "cusp": -213.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 71,
+   "cusp": -217.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 72,
+   "cusp": -221.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 73,
+   "cusp": -225.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 74,
+   "cusp": -229.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 75,
+   "cusp": -233.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 76,
+   "cusp": -236.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 77,
+   "cusp": -240.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 78,
+   "cusp": -244.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(b)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 79,
+   "cusp": -248.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 17,
+   "cusp": -1.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": [
+    1.05
+   ]
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 18,
+   "cusp": -5.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": [
+    0.97
+   ]
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 19,
+   "cusp": -9.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": [
+    0.94
+   ]
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 20,
+   "cusp": -13.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": [
+    0.92
+   ]
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 21,
+   "cusp": -17.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": [
+    0.91
+   ]
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 22,
+   "cusp": -21.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": [
+    0.91
+   ]
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 23,
+   "cusp": -25.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 24,
+   "cusp": -29.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 25,
+   "cusp": -33.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 26,
+   "cusp": -37.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 27,
+   "cusp": -41.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 28,
+   "cusp": -45.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 29,
+   "cusp": -49.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 30,
+   "cusp": -53.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 31,
+   "cusp": -57.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 32,
+   "cusp": -61.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 33,
+   "cusp": -65.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 34,
+   "cusp": -69.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 35,
+   "cusp": -73.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 36,
+   "cusp": -77.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 37,
+   "cusp": -81.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 38,
+   "cusp": -85.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 39,
+   "cusp": -89.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 40,
+   "cusp": -93.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 41,
+   "cusp": -97.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 42,
+   "cusp": -101.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 43,
+   "cusp": -105.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 44,
+   "cusp": -109.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 45,
+   "cusp": -113.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 46,
+   "cusp": -117.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 47,
+   "cusp": -121.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 48,
+   "cusp": -125.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 49,
+   "cusp": -129.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 50,
+   "cusp": -133.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 51,
+   "cusp": -137.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 52,
+   "cusp": -141.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 53,
+   "cusp": -145.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 54,
+   "cusp": -149.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 55,
+   "cusp": -153.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 56,
+   "cusp": -157.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 57,
+   "cusp": -161.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 58,
+   "cusp": -165.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 59,
+   "cusp": -169.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 60,
+   "cusp": -173.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 61,
+   "cusp": -177.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 62,
+   "cusp": -181.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 63,
+   "cusp": -185.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 64,
+   "cusp": -189.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 65,
+   "cusp": -193.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 66,
+   "cusp": -197.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 67,
+   "cusp": -201.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 68,
+   "cusp": -205.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 69,
+   "cusp": -209.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 70,
+   "cusp": -213.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 71,
+   "cusp": -217.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 72,
+   "cusp": -221.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 73,
+   "cusp": -225.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 74,
+   "cusp": -229.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 75,
+   "cusp": -233.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 76,
+   "cusp": -237.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 77,
+   "cusp": -241.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 78,
+   "cusp": -245.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "trivial Weyl fermions",
+   "n": 79,
+   "cusp": -249.42578125,
+   "minima_y_Re0.0": [
+    1.0
+   ],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 18,
+   "cusp": -3.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 19,
+   "cusp": -7.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 20,
+   "cusp": -10.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 21,
+   "cusp": -14.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 22,
+   "cusp": -18.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 23,
+   "cusp": -22.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 24,
+   "cusp": -26.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 25,
+   "cusp": -30.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 26,
+   "cusp": -34.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 27,
+   "cusp": -38.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 28,
+   "cusp": -41.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 29,
+   "cusp": -45.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 30,
+   "cusp": -49.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 31,
+   "cusp": -53.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 32,
+   "cusp": -57.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 33,
+   "cusp": -61.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 34,
+   "cusp": -65.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 35,
+   "cusp": -69.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 36,
+   "cusp": -72.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 37,
+   "cusp": -76.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 38,
+   "cusp": -80.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 39,
+   "cusp": -84.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 40,
+   "cusp": -88.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 41,
+   "cusp": -92.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 42,
+   "cusp": -96.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 43,
+   "cusp": -100.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 44,
+   "cusp": -103.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 45,
+   "cusp": -107.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 46,
+   "cusp": -111.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 47,
+   "cusp": -115.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 48,
+   "cusp": -119.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 49,
+   "cusp": -123.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 50,
+   "cusp": -127.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 51,
+   "cusp": -131.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 52,
+   "cusp": -134.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 53,
+   "cusp": -138.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 54,
+   "cusp": -142.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 55,
+   "cusp": -146.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 56,
+   "cusp": -150.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 57,
+   "cusp": -154.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 58,
+   "cusp": -158.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 59,
+   "cusp": -162.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 60,
+   "cusp": -165.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 61,
+   "cusp": -169.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 62,
+   "cusp": -173.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 63,
+   "cusp": -177.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 64,
+   "cusp": -181.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 65,
+   "cusp": -185.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 66,
+   "cusp": -189.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 67,
+   "cusp": -193.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 68,
+   "cusp": -196.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 69,
+   "cusp": -200.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 70,
+   "cusp": -204.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 71,
+   "cusp": -208.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 72,
+   "cusp": -212.42578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 73,
+   "cusp": -216.30078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 74,
+   "cusp": -220.17578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 75,
+   "cusp": -224.05078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 76,
+   "cusp": -227.92578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 77,
+   "cusp": -231.80078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 78,
+   "cusp": -235.67578125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  },
+  {
+   "content": "(c)",
+   "extra": "scalars along the shrinking cycle",
+   "n": 79,
+   "cusp": -239.55078125,
+   "minima_y_Re0.0": [],
+   "minima_y_Re0.5": []
+  }
+ ]
+}

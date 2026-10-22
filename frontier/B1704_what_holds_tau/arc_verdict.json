@@ -1,0 +1,28 @@
+{
+  "id": "B1704",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1686",
+    "B1684",
+    "B1697",
+    "B1640"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [
+    "sm:W62"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the fibre's one-loop potential on tau (B1686's lattice sums; PH2's verified shape for the matter)",
+    "object": "contents that hold tau, and where",
+    "reach": "class",
+    "hypotheses": "minima on Re tau = 0 and 1/2 only; PH2's 1% shape; the Higgs's copies at the line (1/2, 1/2)"
+  },
+  "claim_one_line": "WHAT HOLDS TAU (P-251; computed, no data): W62's PH3 is B1686's cusp algebra -- a content holds tau off the cusp only if its total cusp coefficient is negative (31/1024 = (31/512)/2), and every content on record is positive (5.45 to 66.57 zeta(6)), so none holds tau; adding trivial-sector Weyl fermions holds tau at i or near omega, where there is no hierarchy; scalars twisted along the shrinking cycle leave no minimum on the CP lines; a minimum in the hierarchy band needs net bosons in the matter's representation and a nearly cancelled cusp coefficient (matter + Higgs + 89-95 such scalars; with the gauge fields 595-672, with the graviton 689-780), each scalar moving tau* by 0.01-0.2 -- a fine-tuned integer content that nothing on record selects. 0 of 19.",
+  "weave_or_thread": "weave (the fibre's potential on the modulus)"
+}

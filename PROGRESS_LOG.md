@@ -17660,3 +17660,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - The census (its printed prediction failed at orders 7 and 3), the corrected laws confirmed on fresh data and at ω, the
   SM seat's §195 answered by a large-L run (orders 8, 10 split at every L). Relay to the SM seat and codex. P-250 DONE.
 - **Landing suite.** 117 files (B1703's lock, every arc lock and the corpus-scanning tests), 2046 passed, 1 failed, 3 skipped (7:34, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-22 — S176 WHAT HOLDS TAU (B1704)
+
+- PH3 checked against B1686's cusp algebra; three families of added content scanned for minima on the CP lines; the band
+  reached only by fine-tuned bosons in the matter's representation; the minima's kind checked. P-251 DONE.
+- LAW_MAP rows for B1698/B1703, B1700, B1701 (the doc-currency gate: LAW_MAP lagged eleven arcs).
+- **Landing suite.** 117 files (B1704's lock, every arc lock and the corpus-scanning tests), 2046 passed, 1 failed, 3 skipped (7:25, -n 8); the one failure is B805's attachment lock (P-239)

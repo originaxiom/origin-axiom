@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1432** |
-| words of findings prose | **1,145,672** |
-| test lock files referenced | **849** |
-| arcs carrying an authored verdict | **1432** (100.0 %) |
+| research arcs with findings | **1433** |
+| words of findings prose | **1,146,329** |
+| test lock files referenced | **850** |
+| arcs carrying an authored verdict | **1433** (100.0 %) |
 | recorded closures | **829** (662 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 975 |
+| PROVED | 976 |
 | NEGATIVE | 353 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1703`** (906 words, 1 locks)  
-THE LINE CENSUS (P-250; computed, no data): in B1656's frame at the canonical end two charged sectors coincide on a flat hypercharge line of order N exactly when N divides 4 or 5 (d = e), 6 (u = d), or 2 or 7 (u = e) -- their twist pairs agree up to swap and negation -- so every order from 8 on splits all three; a first generation is protected (R1 = 0) iff N divides its q_L - q_R or 3 (the Higgs's charge), so the only all-splitting protected order is 9 (the leptons) and no line protects the up quarks while splitting all three. Every line a principle on record selects (closure, move-invariance, the potential's half-period state, W63's tie, the tick's order-5 lines) leaves two sectors degenerate; W59's order-9 lines are an input. Corrections: P-170's 'down never' fails at order 3; the delta-rule (W88: d = e iff N | 8 or 10) is not B1656's -- orders 8 and 10 split d from e at every L up to 1e8, so the seat's frame question is answered: not the end. The first census's printed prediction failed twice; the corrected laws held on fresh data at a new tau and at omega. 0 of 19.  
-`B1703_the_line_census/FINDINGS.md`
+**PROVED — `B1704`** (657 words, 1 locks)  
+WHAT HOLDS TAU (P-251; computed, no data): W62's PH3 is B1686's cusp algebra -- a content holds tau off the cusp only if its total cusp coefficient is negative (31/1024 = (31/512)/2), and every content on record is positive (5.45 to 66.57 zeta(6)), so none holds tau; adding trivial-sector Weyl fermions holds tau at i or near omega, where there is no hierarchy; scalars twisted along the shrinking cycle leave no minimum on the CP lines; a minimum in the hierarchy band needs net bosons in the matter's representation and a nearly cancelled cusp coefficient (matter + Higgs + 89-95 such scalars; with the gauge fields 595-672, with the graviton 689-780), each scalar moving tau* by 0.01-0.2 -- a fine-tuned integer content that nothing on record selects. 0 of 19.  
+`B1704_what_holds_tau/FINDINGS.md`
 
 **NEGATIVE — `B1702`** (636 words, 1 locks)  
 THE OTHER CUSP SHAPES (P-249; sealed f51ab2718, sha256 8f26df36; NEGATIVE as sealed -- H1, H2, H3 fail; outputs committed unread at df0737fa1): with the weave's tau at the silver word state's cusp shape 2i (B675) or the golden word's spin end curve 1/2 + sqrt3 i (B1483), the end-data Higgs DR, the canonical end and any of 576 lines, no choice brings the six ratios within a factor of 3 (best 8.9 at 2i, 19.4 at 1/2 + sqrt3 i; chi2 593; 24.7% of random hierarchies fit as well); the up quarks' m2/m3 stays >= 0.0134 (measured 0.0037). With B1696, no word-state cusp shape tested selects tau in this frame. 0 of 19.  
