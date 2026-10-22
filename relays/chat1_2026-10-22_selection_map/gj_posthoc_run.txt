@@ -1,0 +1,10 @@
+B1712: rows 51408; best six-ratio factor by Clebsch c: 0.3333: 3.378, 0.5: 2.771, 0.6667: 2.369, 1: 2.369, 1.5: 1.611, 2: 1.395, 3: 1.277, 4: 1.552, 5: 1.715
+   good region (four down/lepton ratios within 2.0): n = 5, R2 from 0.9331496190738818 to 1.0394962776643715
+B1713: rows 67032; best six-ratio factor by Clebsch c: 0.3333: 3.378, 0.5: 2.771, 0.6667: 2.369, 1: 2.326, 1.5: 1.551, 2: 1.395, 3: 1.277, 4: 1.476, 5: 1.549
+   good region (four down/lepton ratios within 2.0): n = 8, R2 from 0.9331496190738818 to 1.4008418356454237
+   calibration (main's prior, seed 1720): c = 1 0.2657; c = 3 fixed 0.0020; best of the set for every target 0.0085
+   nine (with CKM moduli): c = 1 3.590; c = 3 2.723
+B1720: rows 19494; best six-ratio factor by Clebsch c: 0.3333: 4.011, 0.5: 3.419, 0.6667: 2.564, 1: 1.804, 1.5: 1.804, 2: 1.804, 3: 1.614, 4: 1.878, 5: 1.976
+   good region (four down/lepton ratios within 2.0): n = 6, R2 from 1.0000000000000164 to 1.019648883517754
+   calibration (main's prior, seed 1720): c = 1 0.0165; c = 3 fixed 0.0053; best of the set for every target 0.0225
+   nine (with CKM moduli): c = 1 6.509; c = 3 4.709
