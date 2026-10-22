@@ -1,0 +1,13 @@
+tau = 0.37 + 2.71i; charges 6Y = {'Q': 1, 'u': -4, 'd': 2, 'L': -3, 'e': 6, 'H': 3}
+line (0.25, 0.75), order 4: charges + 4 x (1, -2, 3, -1, 2): masses 5.9e-14, |V| 1.4e-12
+line (0.25, 0.75), order 4: charges + 4 x (-2, 1, 1, 2, -1): masses 1.1e-13, |V| 1.8e-12
+   down vs leptons on this line: 5.1e-15 (down m1/m3 at S: 2.25e-15)
+line (0.4, 0.2), order 5: charges + 5 x (1, -2, 3, -1, 2): masses 6.8e-13, |V| 3.1e-13
+line (0.4, 0.2), order 5: charges + 5 x (-2, 1, 1, 2, -1): masses 1.6e-12, |V| 2.7e-13
+   down vs leptons on this line: 5.6e-14 (down m1/m3 at S: 2.44e-03)
+line (0.2857, 0.4286), order 7: charges + 7 x (1, -2, 3, -1, 2): masses 2.7e-13, |V| 1.1e-13
+line (0.2857, 0.4286), order 7: charges + 7 x (-2, 1, 1, 2, -1): masses 1.2e-13, |V| 4.0e-13
+   down vs leptons on this line: 2.7e+00 (down m1/m3 at S: 6.08e-03)
+line (0.4, 0.1), order 10: charges + 10 x (1, -2, 3, -1, 2): masses 1.6e-11, |V| 6.8e-13
+line (0.4, 0.1), order 10: charges + 10 x (-2, 1, 1, 2, -1): masses 2.4e-11, |V| 6.7e-13
+   down vs leptons on this line: 3.1e-01 (down m1/m3 at S: 3.18e-03)
