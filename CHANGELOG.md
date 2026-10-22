@@ -1,5 +1,15 @@
 # Changelog
 
+## W123: the Higgs route to the cusp's unit (relay §206); B1713 rowed
+
+- **W123** (WEAVE-type; five of seven cells as predicted). A weight-3/2 Higgs exists only with a unit at the
+  weave's cusp. One unit on one eigenline gives exactly one section; the least pole is v₊'s, whose section is ∂R,
+  the hierarchy's Higgs. That end datum carries one chiral generation, so the Higgs route does not force three.
+- **Failed as worded:** Y2 and Y6, the per-line index law, on the run's singular-value threshold. Post hoc, with the
+  threshold in the gap, the law holds for all 128 end data.
+- **Main's B1713** (sealed) and its specification-ledger note rowed with no expectation.
+- **Surfaces.** The NOTE (section and row), the lock, relay §206, the ledger, the state page's range. 0 of 19.
+
 ## The gravity line's positives and negatives; two rules, W123 and W124; B1712 rowed (relay §205)
 
 - **The owner's request:** the gravity work's positives and negatives. The gravity-line page gains a dated scope note:

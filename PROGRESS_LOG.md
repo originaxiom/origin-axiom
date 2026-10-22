@@ -20190,3 +20190,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   missing unit at the record's cusp, and what gravitational waves the smallest closed universe allows. Each will
   be checked against published results before it is read.
 - **The main seat sealed another test against data.** This seat recorded it without a prediction. 0 of 19.
+
+## 2026-10-22 — the Higgs route checked
+
+- **This seat checked whether forcing a Higgs field would force the record's missing unit and with it three
+  generations.** A Higgs does need the unit. But the smallest form of the unit that makes room for a Higgs gives
+  one generation, not three. The Higgs it gives is exactly the one that produces the mass hierarchy. Three needs
+  the unit to treat all generations alike, and nothing found so far forces that.
+- **Two of the seven predictions failed as written,** because of a numerical threshold in the instrument. A labelled
+  follow-up check with the threshold set correctly confirms the law they tested. 0 of 19.

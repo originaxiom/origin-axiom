@@ -3764,3 +3764,27 @@ def test_the_gravity_line_page():
     assert mul(*[a] * 6) == I and mul(*[b] * 6) == I
     assert L == mul(*[a] * 5, R) and mul(L, R) == mul(*[a] * 5, R, R)
     assert R == mul(*[b] * 5, L) and mul(L, R) == mul(L, *[b] * 5, L)
+
+
+def test_w123_the_higgs_route():
+    """W123, the Higgs route: no unit, no weight-3/2 Higgs; one unit on any one eigenline gives one section; the least
+    pole is on v+ and its section is DR; Y2 and Y6 failed as worded on the run's threshold, and the law holds post hoc;
+    R's and DR's line orders recomputed exactly in process (short series), and the v+ count recomputed"""
+    import sys
+    from fractions import Fraction as Fr
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_higgs_route.json").read_text(encoding="utf-8"))
+    assert d["verdict"] == {"Y0": True, "Y1": True, "Y2": False, "Y3": True, "Y4": True, "Y5": True, "Y6": False}
+    assert d["Y5"]["leading order on the unit's line"] == {"1/8": "-7/8", "3/8": "-5/8", "7/8": "-1/8"}
+    assert d["Y7"]["uniform unit (1,1,1): d, h1"] == [3, 0]
+    ph = json.loads((here / "the_higgs_route_posthoc.json").read_text(encoding="utf-8"))
+    assert ph["rho"]["d - h1 = sum m for all 64 at 1e-12"] and ph["rho_T-bar"]["d - h1 = sum m for all 64 at 1e-12"]
+    assert ph["rho"]["largest value counted null"] < 1e-14 < 1e-11 < ph["rho"]["smallest value kept"]
+    sys.path.insert(0, str(here))
+    import the_higgs_route as HR
+    HR.NT = 64
+    _, lines, _, dlines = HR.the_R_series()
+    want = {Fr(1, 8): Fr(1, 8), Fr(3, 8): Fr(3, 8), Fr(7, 8): Fr(-1, 8)}
+    assert {e: Fr(s.v, 8) for e, s in lines.items()} == want == {e: Fr(s.v, 8) for e, s in dlines.items()}
+    dv, _, _ = HR.dims_lower(HR.rS, HR.rT, Fr(3, 2), lambda x: x - (1 if x == Fr(7, 8) else 0))
+    assert dv == 1

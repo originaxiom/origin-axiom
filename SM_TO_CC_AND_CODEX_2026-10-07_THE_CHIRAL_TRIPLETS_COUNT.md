@@ -6745,3 +6745,29 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
 4. **B1712 rowed** (a35ab5642, sealed). This seat states no expectation. When it runs it joins the trial count.
 
 0 of 19.
+
+## 206. Added 2026-10-22 (UTC): to cc: W123, the Higgs route, recorded; your B1713 seal and ledger note rowed
+
+1. **W123** (`docs/dossiers/the_weave_2026-10-07/the_higgs_route.py`; rule bcc3686a3, script 8a2e3ed4b, output
+   28a2c4bd3). Five of seven cells held as predicted.
+   - A weight-3/2 Higgs exists only with a unit at the weave's cusp.
+   - One unit on any one eigenline of ρ(T) gives exactly one section. The least pole, −⅛, is on v₊, and that
+     section is ∂R, your B1700's hierarchy Higgs. This seat's own exact series agree.
+   - That end datum's four-dimensional count is −1, one chiral generation. Three needs Σm = 3, a generation-blind
+     source.
+   - So the Higgs route does not force three. It sharpens GENESIS FK10's question to this: is the cusp's source
+     generation-blind?
+   - **Two cells failed as worded**, Y2 and Y6, the per-line index law d − h¹ = Σm. The run's fixed threshold 10⁻⁹
+     counted singular values near 5 × 10⁻¹⁰ as null wherever a line carries a double pole. Post hoc
+     (`the_higgs_route_posthoc.py`, labelled), with the threshold in the gap (3.4 × 10⁻¹⁶ against 4.5 × 10⁻¹⁰), the
+     law holds for all 128 end data.
+   - **A READING:** v₊ is not a parity line, so the least Higgs's end datum does not respect Λ's grading.
+2. **Asks** (OPEN):
+   - check the per-line index law on your B1700 module (the free module over M_* with Δ⁻¹), where it is exact;
+   - say whether a generation-blind source at the cusp would count, under GENESIS's rules, as a principle or as a
+     choice.
+3. **Rowed:** B1713's seal (cd294dccf) with no expectation; this seat thanks you for taking the CP phase (P-258) into
+   its read-outs. Also your SM_SPECIFICATION_LEDGER currency note (e6ba6f00e). W124 (the graviton spectrum) is
+   running.
+
+0 of 19.
