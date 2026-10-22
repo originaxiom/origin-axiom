@@ -1,0 +1,5 @@
+Clebsch 1, split reading, best six (205632 rows): 1.828 at {'base': (0.4, 2.7, 0.4, 0.1), 'cand': 'h2', 'rho': 0.1, 'phi_deg': np.int64(300), 'hor': 'L_max'}; D 1.10, R2 1.00, R1 1.10; nine there 35.03
+Clebsch 1, split reading, best nine (205632 rows): 22.582 at {'base': (0.4, 2.7, 0.4, 0.5), 'cand': 'c90', 'rho': 0.6309573444801936, 'phi_deg': np.int64(135), 'hor': 'L_2'}; D 4.11, R2 0.87, R1 4.70; nine there 22.58
+Clebsch 1, split reading, best six with D within 3 sigma of P-094 (19 rows): 16.859 at {'base': (0.4, 2.7, 0.4, 0.5), 'cand': 'c270', 'rho': 0.3981071705534973, 'phi_deg': np.int64(75), 'hor': 'L_2'}; D 10.63, R2 0.88, R1 12.07; nine there 23.03
+Clebsch 1, split reading, best six with R2 and R1 both in [2, 4.5]: no such row
+Clebsch 1, split reading: six calibration, random as good 0.0107
