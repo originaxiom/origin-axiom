@@ -17742,3 +17742,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **The referee's corrections:** RETRACTIONS row 44 (the Re τ = 0 family, P-292), B1716's "if" proved, B1717 by Burnside, B1718's 5.4 × 10¹⁰ GeV, B1714's wording, GENESIS v1.54 (B1721).
 - B1720's preregistration revised (C1 as implemented and pre-checked; R1 a read-out).
 - **Landing suite.** full suite 7 584 passed, 2 failed, 68 skipped (33:39, -n 8). Both failures are B805's attachment locks (P-239): the gaps lock, and the authored-against-attachment count, which still ties after the forcing builder's id-regex fix because the attachment layer is not maintained for new arcs.
+
+## 2026-10-22 — S188 THE THREAD FIXES THE POINT (B1720)
+
+- **Sealed at a93ff339a; outputs at ceabd0407.** NEGATIVE as sealed, and the frame's closest approach: 1.80 with no continuous number free, 1.65% of random hierarchies as good. P-284 DONE; P-285 next.
+- **Landing suite.** full suite 7 588 passed, 2 failed, 68 skipped (36:12, -n 8). Both failures are B805's attachment locks (P-239).

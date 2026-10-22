@@ -838,3 +838,9 @@ found with B1635's sealed instrument.
   - Read from order 12, the law predicted orders 1–7 before they were read: every order-4 line massless in all three
     sectors, and nothing else over the whole grid. It held. *[Corrected S188, RETRACTIONS row 44: on Re τ = 0 the up and
     down quarks also vanish on the 16 order-12 lines with 12α odd, a family the law does not name (P-292).]*
+- **A thread fixes the point, and comes closest (B1720, sealed, NEGATIVE).**
+  - With τ at each thread's apex and the lines its monodromy fixes, no number is free.
+  - The thread L⁵RLR² on the order-28 line it fixes puts all six ratios within a factor 1.80, the frame's closest
+    approach. But 1.65% of random hierarchies fit as well (the bar was 1%).
+  - The next question is which thread: a measure on record that singles it out (P-285).
+

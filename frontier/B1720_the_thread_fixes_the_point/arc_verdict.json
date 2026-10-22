@@ -1,0 +1,26 @@
+{
+  "id": "B1720",
+  "verdict": "NEGATIVE",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1656",
+    "B1667",
+    "B1700",
+    "B1698"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the fibre given Lambda; B1656's four-channel coupling at B1667's canonical end; the end-data Higgs DR; tau at a thread's apex and the lines its monodromy fixes",
+    "object": "the six charged-fermion ratios and the CKM moduli at M_Z, with no continuous number free",
+    "reach": "class",
+    "hypotheses": "121 primitive positive classes of length 2-9 with apex Im tau <= 4; the apex as the thread's point"
+  },
+  "claim_one_line": "THE THREAD FIXES THE POINT (the completion map's C1, P-284; sealed a93ff339a, sha256 a0d2a726; NEGATIVE as sealed -- T1 and K1 hold, T2, T3, K2-K4 fail, the control C1 holds; outputs committed unread at ceabd0407): with tau at each thread's apex (Im tau = Lagrange/2) and the lines its monodromy fixes, no continuous number free, the thread L^5 R L R^2 (trace 30) at its apex tau = 3.6 + 2.993i on the order-28 line (11/28, 2/7) it fixes puts all six ratios within a factor 1.80 -- the frame's closest approach -- but 1.65% of random hierarchies fit as well (the sealed bar 1%), chi2 79.4; the mixing is matched generically (32.6%); masses and mixing do not meet (6.5); the height adds nothing beyond the frame's tau-free correlation; along each best geodesic the fit is best at the apex. The selection needs a measure over threads (C2, P-285). 0 of 19.",
+  "weave_or_thread": "thread (each class's own point), over a census of threads"
+}

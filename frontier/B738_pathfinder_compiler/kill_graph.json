@@ -11788,5 +11788,28 @@
    "reach": "class"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1720",
+  "claim_killed": "That a thread fixes the point -- tau at its apex and the lines its monodromy fixes -- so that some thread reproduces the six charged-fermion ratios (or the CKM) specifically, with no continuous number free.",
+  "kill_form": "Sealed (B1720; a93ff339a): best 1.80 (L^5RLR^2 at its apex, Im tau 2.993, on the order-28 line it fixes), but 1.65% of 4000 random hierarchies fit as well (bar 1%); chi2 79.4; the mixing generic (32.6%); masses and mixing apart (6.5).",
+  "hatch": "a measure over threads that singles out the best class (C2, P-285: B1629's uniform measure, the action weight at c = 6); longer threads; other Higgs sections",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-22), for tests/test_b833_negative_routing.py",
+  "note": "The frame's closest approach (1.80 with no continuous parameter); specificity just above the bar, as B1698's thread-fixed lines (1.675%).",
+  "faces_consulted": [
+   "B1698",
+   "B1712",
+   "B1713",
+   "B1668"
+  ],
+  "fact_computed": "3249 (class, line) points x 6 choices and their comparison with its calibration, by the sealed instruments (ceabd0407)",
+  "scope": {
+   "frame": "the fibre given Lambda; B1656's coupling at the canonical end; DR; tau at a thread's apex and its fixed lines",
+   "hypotheses": "121 classes of length 2-9, apex Im tau <= 4",
+   "object": "the six charged-fermion ratios and the CKM moduli at M_Z",
+   "reach": "class"
+  },
+  "weave_or_thread": "thread"
  }
 ]

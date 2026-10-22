@@ -13342,6 +13342,25 @@
    "status": "open",
    "domain": "dynamics"
   },
+  "B1720": {
+   "slug": "the thread fixes the point",
+   "motifs": [
+    "measurement",
+    "trace_map",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B482",
+    "K1",
+    "K2",
+    "K3",
+    "K4"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "open",
+   "domain": "dynamics"
+  },
   "B1721": {
    "slug": "genesis v1 54",
    "motifs": [

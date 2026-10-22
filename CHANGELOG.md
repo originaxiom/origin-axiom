@@ -1,5 +1,19 @@
 # Changelog
 
+## S188 THE THREAD FIXES THE POINT (B1720, NEGATIVE as sealed; P-284; the completion map's C1) (2026-10-22)
+
+- **The sealed test** (`a93ff339a`, sha256 a0d2a726; outputs committed unread at `ceabd0407`).
+  - τ at each of 121 threads' apexes (Im τ = Lagrange/2) and the 3 249 lines their monodromies fix, so no continuous number is free.
+  - **T1 holds at 1.80:** the thread L⁵RLR² on the order-28 line (11/28, 2/7) it fixes, at τ = 3.6 + 2.993i. This is the frame's closest approach.
+  - **T2 fails narrowly:** 1.65% of random hierarchies fit as well, against the bar of 1%. T3 fails (χ² 79.4).
+  - **The mixing:** K1 holds (1.20), K2 fails (32.6%), and the masses and mixing do not meet (6.5).
+  - **The control C1 holds** (5.9 × 10⁻⁸; 1.3 × 10⁻¹⁰).
+  - **The height adds nothing beyond τ's own correlation.** Along each best geodesic, the apex is the best point.
+  - Routed into B738's kill graph.
+- **Next: which thread** (P-285), a measure on record that singles out L⁵RLR².
+- **Landing suite.** full suite 7 588 passed, 2 failed, 68 skipped (36:12, -n 8). Both failures are B805's attachment locks (P-239).
+- 0 of 19.
+
 ## S187 THE COMPLETION MAP, THE INTEGRITY SWEEP AND ITS CORRECTIONS, GENESIS v1.54 (B1721; P-284–P-292; RETRACTIONS row 44) (2026-10-22)
 
 - **The owner's directive:** the record should provide, or pinpoint, a selection principle, a source of a magnitude and the tagged inputs' derivations.

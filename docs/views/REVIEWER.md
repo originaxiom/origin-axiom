@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1449** |
-| words of findings prose | **1,158,199** |
-| test lock files referenced | **864** |
-| arcs carrying an authored verdict | **1449** (100.0 %) |
-| recorded closures | **832** (665 classified, 167 routed-only) |
+| research arcs with findings | **1450** |
+| words of findings prose | **1,159,181** |
+| test lock files referenced | **865** |
+| arcs carrying an authored verdict | **1450** (100.0 %) |
+| recorded closures | **833** (666 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 989 |
-| NEGATIVE | 356 |
+| NEGATIVE | 357 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 102 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 103 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 GENESIS v1.54 (a correction amendment; the integrity sweep of 2026-10-22, P-291): v1.53's three overreaches corrected against their sources -- FK10's closed 4d vacua close at 12 chi(O_S) strings (not '12 or 24') and the triplet's count there is given the SM seat's Leray reduction (B1710); FK9's W57 sentence tagged as the seat's, unverified on main (row 1099, P-091, sm:W57); FK12's CP sign 'would have to be chosen', the conjugate-vacua reading the web seat's, P-277 open. No status cell and no price changes; the history is not rewritten. 0 of 19.  
 `B1721_genesis_v1_54/FINDINGS.md`
 
-**NEGATIVE — `B1713`** (1554 words, 1 locks)  
-THE COMPLEMENT AND THE MIXING (P-261, P-129, P-164, P-258; sealed cd294dccf, sha256 1cdf28e5; NEGATIVE as sealed -- A-H1 and K1 hold, A-H2, A-H3, K2, K3, K4 fail, the controls hold; outputs committed unread at 084db486a): on the 62 lines of order 1-7 the best point is the order-5 line (2/5, 4/5), a factor 2.33 off with d = e, and 14.8% of random hierarchies fit as well; the frame's first quark mixing (V = U_u^H U_d, every line of order 1-12) puts |V_us|, |V_cb|, |V_ub| within 14% of PDG's on the order-11 line (0, 5/11) at tau = 1/2 + 2.8i (J = 2.8e-5 there, a read-out) but 59.5% of random hierarchical mixings are matched as well, so Cabibbo-sized mixing is generic in this frame and not specific; masses and mixing together reach only a factor 3.59. P-268's law, committed before the read, held: every order-4 line massless in all three sectors and no exact zero on orders 1-3, 5-7 (over the whole grid; on Re tau = 0 a further order-12 quark family exists, P-292, RETRACTIONS row 44). 0 of 19.  
-`B1713_the_complement_and_the_mixing/FINDINGS.md`
+**NEGATIVE — `B1720`** (982 words, 1 locks)  
+THE THREAD FIXES THE POINT (the completion map's C1, P-284; sealed a93ff339a, sha256 a0d2a726; NEGATIVE as sealed -- T1 and K1 hold, T2, T3, K2-K4 fail, the control C1 holds; outputs committed unread at ceabd0407): with tau at each thread's apex (Im tau = Lagrange/2) and the lines its monodromy fixes, no continuous number free, the thread L^5 R L R^2 (trace 30) at its apex tau = 3.6 + 2.993i on the order-28 line (11/28, 2/7) it fixes puts all six ratios within a factor 1.80 -- the frame's closest approach -- but 1.65% of random hierarchies fit as well (the sealed bar 1%), chi2 79.4; the mixing is matched generically (32.6%); masses and mixing do not meet (6.5); the height adds nothing beyond the frame's tau-free correlation; along each best geodesic the fit is best at the apex. The selection needs a measure over threads (C2, P-285). 0 of 19.  
+`B1720_the_thread_fixes_the_point/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

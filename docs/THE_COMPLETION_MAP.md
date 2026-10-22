@@ -22,7 +22,7 @@ Every load-bearing item below was re-checked at its source. 0 of 19.
 
 | # | the calculation | what the record supplies | status |
 |---|---|---|---|
-| **C1** | **The thread fixes the point.** For every thread: τ at its closed geodesic's apex (Im τ = Lagrange/2), the lines its monodromy fixes up to sign, DR at B1667's canonical end in B1656's frame; the six ratios and the CKM; the census over threads with the calibration; the cell "hierarchy is height" | the web seat's thread frame ("hierarchy is height", Spearman −0.986, sealed in W72's frame, `relays/chat1_2026-10-14_selection/`); B1698 (the tick's fixed lines); B482, B1629 (heights); W116, W117 | **B1720, being sealed now** |
+| **C1** | **The thread fixes the point.** For every thread: τ at its closed geodesic's apex (Im τ = Lagrange/2), the lines its monodromy fixes up to sign, DR at B1667's canonical end in B1656's frame; the six ratios and the CKM; the census over threads with the calibration; the cell "hierarchy is height" | the web seat's thread frame ("hierarchy is height", Spearman −0.986, sealed in W72's frame, `relays/chat1_2026-10-14_selection/`); B1698 (the tick's fixed lines); B482, B1629 (heights); W116, W117 | **B1720, NEGATIVE as sealed — the closest approach: 1.80 with no continuous number free (L⁵RLR², the order-28 line), 1.65% of random hierarchies as good (bar 1%)** |
 | C2 | Which thread: the record's measures (B1629's uniform (k+1)/2^k; the action weight e^{−c·Vol/6π} at c = 6, L154) evaluated on C1's best classes. A selection may select a measure (GENESIS v1.53, FK9) | B1629, B1088, B1015; the web seat's root-share check | after C1 |
 | C3 | The discriminant-5 valley: a modular-invariant functional of the weave's forms with the golden geodesics as a valley (τ as a field) | L254, P-069; B1636's golden locus | LEAD; the functional to be defined |
 | C4 | The walk's limit point: a sealed rule that reads τ from the pull-back walk's boundary point (its continued-fraction digits follow 2^−k) | B1662, B1663; the web seat's map §3 item 3 | never computed |
@@ -45,7 +45,8 @@ heights are the first place a hierarchy of magnitudes comes from the principle's
 
 ## Order of work
 
-1. C1, sealed: B1720 now.
+1. C1, sealed: B1720, NEGATIVE as sealed and the frame's closest approach.
+   C2 is next: does a measure on record single out L⁵RLR²?
 2. C8: verify W123 on main, then the GENESIS sentence.
 3. C2, on C1's result.
 4. C10: the index on the Milne cone, the read-out's missing physical spacetime.
