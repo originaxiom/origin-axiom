@@ -1,0 +1,7 @@
+1. census, S~, Clebsch 3: 17024 rows, 164 with D within 3 sigma; best six there 8.455 at (0.4, 3.3, '(1/2, 3/8)', 'L_max'); best nine there 13.789 at (0.4, 3.0, '(3/7, 3/7)', 'L_2')
+1. census, S~, Clebsch 1: 17024 rows, 86 with D within 3 sigma; best six there 4.326 at (0.4, 3.3, '(1/8, 1/4)', 'L_2'); best nine there 7.507 at (0.4, 3.1, '(1/9, 4/9)', 'L_max')
+2. from base [0.4, 2.5, 0.4, 0.1], h3, L_2: grid D-matched six 2.537 -> continuous 2.531 (nine 2.531, D 10.25, in band True) at rho 0.05033, phi 285.1
+2. from base [0.4, 2.5, 0.4, 0.1], c270, L_2: grid D-matched six 2.812 -> continuous 2.773 (nine 2.841, D 10.25, in band True) at rho 0.04558, phi 49.2
+2. from base [0.4, 2.6, 0.4, 0.5], h2, L_2: grid D-matched six 3.305 -> continuous 3.067 (nine 3.067, D 10.25, in band True) at rho 0.03616, phi 220.4
+2. from base [0.4, 2.8, 0.4, 0.1], h2, L_max: grid D-matched six 3.670 -> continuous 3.366 (nine 3.366, D 10.25, in band True) at rho 0.02733, phi 166.7
+2. from base [0.4, 2.6, 0.4, 0.5], c270, L_2: grid D-matched six 3.759 -> continuous 3.751 (nine 3.751, D 10.25, in band True) at rho 0.03269, phi 179.7
