@@ -1,5 +1,16 @@
 # Changelog
 
+## W121: the record's triplet on the closed 4d solutions (relay §201); main's S178 read
+
+- **The record's flat bundle is singular at every string.** Each vanishing cycle carries a quaternion unit of order 4.
+- **The triplet lives only where χ(O_S) is even.** With the record's own ρ_T, 12 positive twists give −I₃ and 24 give
+  I₃, so K3 is the least closed solution that carries it.
+- **The count:** −30 on K3 for one hand and −36 for the other; in general −15χ(O_S) and −18χ(O_S), never three. The
+  units 4d gravity forces overshoot, and three stays one unit at the weave's own cusp (GENESIS FK10).
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/W121_RULE.md`, `the_triplet_on_k3.py` and its output; the NOTE's
+  W121 section and row; the lock `test_w121_the_triplet_on_k3`; relay §201; the ledger (with S178's row); the state
+  page's range. No data, so not a trial. 0 of 19.
+
 ## W120: from three dimensions to four (the owner's main task; relay §200)
 
 - **The cone (exact).** For a 3d metric with Ric = 2κg, the cone −dt² + t²g is Ricci-flat iff κ = −1. So the record's

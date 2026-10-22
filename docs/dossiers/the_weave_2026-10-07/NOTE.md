@@ -7726,6 +7726,61 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W121. The record's triplet on the closed 4d solutions (the owner's main task, continued): the record's flat bundle is singular at every string, the triplet lives only where χ(O_S) is even, so K3 is the least closed solution, and there the count is −30 for one hand and −36 for the other; in general −15χ(O_S) and −18χ(O_S), never three (`the_triplet_on_k3.py`; `W121_RULE.md`)
+
+**Why.**
+- W120 found that a closed torus-fibred 4d vacuum solution has 12χ(O_S) pinched records, each a cosmic string, and
+  that the regular metric uses W47's unit at every one.
+- On the weave's own surface, three is exactly one unit at the cusp (W45, W46). This arc counts the record's triplet
+  on the closed solutions, where 4d gravity supplies the units itself.
+
+**The order.**
+- The rule (`W121_RULE.md`, c360757b0) was committed and pushed before the script. P2's wording was corrected before
+  the rule's commit: the lifts of −I are central in the metaplectic cover, so the products are scalar at k = 3 and 9
+  as well.
+- The script was reviewed against the rule and run once. Its output (f6702d662) was committed unread, then read once.
+
+**The result (COMPUTED; every cell as predicted).**
+- **P1.** For all 2224 primitive classes with |p|, |q| ≤ 30, the Christoffel word's image under ρ_Q has order 4.
+- **P2.** With the record's own ρ_T (W45's kept identification), (ρ(T)ρ(STS⁻¹))^k is scalar exactly at k = 3, 6, 9
+  and 12.
+  - The values are −i, −1, i and 1 (times I₃). For ρ̄_T they are i, −1, −i and 1.
+  - So 12 positive twists give −I₃, the metaplectic cover's central −1, and 24 give I₃.
+- **P3.** Both factor types have exponents {⅛, ⅜, ⅞} under ρ_T and {⅛, ⅝, ⅞} under ρ̄_T, exact to 4 × 10⁻¹⁷, none 0.
+- **P4.** On K3 the canonical extensions have degrees −33 and −39, so the indices are −30 and −36.
+- **P5.** The index is −15χ(O_S) for ρ_T and −18χ(O_S) for ρ̄_T, at χ = 2, 4 and 6 and genus 0, 1 and 2: the genus
+  cancels.
+  - It is never ±3 for any even χ up to 100.
+  - On K3, ±3 would need 9 or 11 added units (ρ_T), or 11 or 13 (ρ̄_T).
+  - The spinor's square root and the triplet's lift both need χ(O_S) even.
+- **Disclosed.** P4's two degree routes are one expression. The independent check is P3: the record's own matrices
+  return the exponents the rule took by hand from W45's record.
+
+**What it shows (a READING, given the stated operator).**
+1. **The units 4d gravity forces do not give three.**
+   - K3, the least closed solution that carries the triplet (and the compact Ricci-flat one), gives −30 for one hand
+     and −36 for the other.
+   - Each forced string lowers the count by 11/8 or 13/8. The forced units overshoot, and only added units, a choice,
+     reach ±3.
+2. **The record's flat bundle is singular at every string.** Each vanishing cycle carries a quaternion unit of order
+   4, so every pinched record is a defect of 𝕎. A closed 4d vacuum solution is not a smooth home for the record's
+   matter, and its strings carry the record's own holonomy.
+3. **The metaplectic triplet prefers K3 to the rational elliptic surface.** Twelve strings give the central −1 on T,
+   twenty-four give 1: the ℤ/24 of the metaplectic cover. A caution on numerology: 24 recurs on the record (W48's
+   c = 24, Mp₂(ℤ)^ab).
+4. **Three stays one unit at the weave's own cusp** (W46), GENESIS FK10's open datum. 4d gravity, read through the
+   fibre, does not supply that unit. It supplies 24 at once, and they move the count the other way.
+5. **What it does not do.**
+   - It does not treat singular fibres other than I₁, or the non-compact solutions with an end.
+   - It does not settle the operator's physical status, or whether the string defects carry modes of their own.
+
+**Weave or thread.** WEAVE-type. The quantities come from the moves' joint action (the monodromy group, the
+metaplectic abelianization, T's representation of the whole modular group). The claims are about every closed
+torus-fibred solution with I₁ fibres.
+
+**Status.** COMPUTED (the rule first; one run; every cell as predicted; P2's wording corrected before the rule's
+commit). A negative for three on the closed 4d solutions. No data, so not a trial. 0 of 19.
+
 ## W120. From three dimensions to four (the owner's main task): the record's Λ = −1 is exactly the condition for every thread to be the space of a 4d vacuum universe, where gravitons propagate; read through the records' torus as a fibre, 4d gravity is a field on the τ-line, the moves force Im τ·|η|⁴, each pinched record is a cosmic string, and on a closed base the units come in twelves (`the_three_to_four.py`; `W120_RULE.md`; post hoc `the_three_to_four_posthoc.py`)
 
 **Why.**
@@ -10405,6 +10460,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W121 | COMPUTED (the rule first; one run; every cell as predicted; P2's wording corrected before the rule's commit); WEAVE-type | the record's triplet on the closed 4d solutions: every vanishing cycle carries a quaternion unit of order 4 under ρ_Q (2224 primitive classes), so the record's flat bundle is singular at every string; with the record's own ρ_T, 12 positive twists give −I₃ and 24 give I₃ (scalar exactly at k = 3, 6, 9, 12), so the triplet lives only where χ(O_S) is even and K3 is the least closed solution; exponents {⅛, ⅜, ⅞} and {⅛, ⅝, ⅞} at every string; on K3 the index is −30 (ρ_T) and −36 (ρ̄_T), and in general −15χ(O_S) and −18χ(O_S) for every base genus, never ±3; the units 4d gravity forces overshoot, and three stays one unit at the weave's own cusp (GENESIS FK10). 0 of 19 |
 | W120 | COMPUTED (the rule first; one run; seven cells as predicted; A3 and A4 failed as worded on SnapPy's notation, traced post hoc and labelled; A4's intended claim holds post hoc); family-wide (A1, A2), a census of thread results (A4), WEAVE-type (part B) | from three dimensions to four (the owner's main task): the cone −dt² + t²g over a 3d Einstein metric with Ric = 2κg is Ricci-flat iff κ = −1, the record's own Λ = −1, so every thread is the space of an exact 4d vacuum universe (the Milne cone; de Sitter and anti-de Sitter in open slicing with sinh t and sin t) on which gravitons propagate; post hoc, among the orientable bundles of 224 words to length 10 with both trace signs, the least volume 2.0298832128 is exactly ±LR (m004, m003), next ±LLR at 2.6667; through the records' torus as a fibre, the metric e^φ\|dz\|² + (1/Im τ)\|dx + τ dy\|² is Ricci-flat for holomorphic τ with e^φ = Im τ\|h\|², the moves force Im τ\|η\|⁴ (only q = 2p invariant, to 4 × 10⁻⁴⁰), each pinched record is a string of deficit 2π/12 (exponent 1/6 to 2 × 10⁻⁹), and the moves' abelianization ℤ/12 (χ(R) = 1, χ(L) = 11, χ(LR) = 0) makes the units on a closed base a multiple of 12: 12 (rational elliptic surface) or 24 (K3); no G, no carrier chosen; W121 named. 0 of 19 |
 | W119 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE-type result given the frames | beyond tree level (the third of the owner's three arcs): canonical normalization multiplies det Y by a positive real, so no Kähler metric moves arg det(Y_u Y_d) (checked at three τ over 300 metrics, worst 7 × 10⁻⁴⁸ at 50 digits; a non-Hermitian control moves it by 0.6), and W113's structural θ̄ survives; one-loop running of m₁m₃/m₂² from Λ to M_Z, in the SM and the MSSM (tan β 2 to 50, Λ 10¹² to 10¹⁶ GeV, all 24 points perturbative), multiplies it by F in 0.545 to 0.903 (up), 0.702 to 1.130 (down), 0.843 to 1.000 (leptons); the MSSM's gauge couplings meet to 0.17%; no point is coherent, and no forced coefficient reaches the down or lepton window (735/121 would need F ≤ 0.654, 3/5 F ≤ 0.18). W118's negative stands. 0 of 19 |
 | W118 | COMPUTED (the rule first; one run; H0–H2 as predicted; H4 failed, closed by arithmetic after the run); a WEAVE-type result given Λ and the stated hypotheses | the first generation (the second of the owner's three arcs): of stage 3's candidates only (d), the composite field, has an object; its directions P₁ = S₂ × S₃, P₂ = S₃ × S₁, P₃ = S₁ × S₂ vanish at ω toward X's line; paired by B1644's form, 15 of 27 pairings lift m₁ as derived, all with δ² : δ : 1 near ω and exact rational double ratios (15, 735/121, 77/4, 3/5, 5/4, 385/529, 1); 3/5 and 385/529 fall in the up window (data 0.538), none in the down (2.68) or lepton (0.081) windows, so no coherent assignment exists; 2 hits in 36 tries is chance level. (c) and (e) stay open. 0 of 19 |

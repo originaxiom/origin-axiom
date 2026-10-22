@@ -20113,3 +20113,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The second answer reads the record's torus as an internal shape.** Gravity's waves then move that shape. The
   record's moves force a particular form for the space around it. Wherever the torus pinches, there is a cosmic
   string, and on a closed space these must come in twelves. 0 of 19.
+
+## 2026-10-22 — do gravity's strings give three generations?
+
+- **The question.** The last arc found that four-dimensional gravity, with the record's torus as an internal shape,
+  forces cosmic strings in twelves. This arc asked whether those strings give the record's three generations.
+- **They do not.** On the smallest closed space where the record's matter can live (a K3 surface, with 24 strings),
+  the count is −30 for one hand and −36 for the other, never three. On every closed space of this kind it is a
+  multiple of 15 or 18. Each string pushes the count the wrong way.
+- **Two more facts came out.** The record's matter field is disturbed at every string, so these spaces are not a
+  smooth home for it. And it can live only where the strings number a multiple of 24, which picks K3.
+- **So three generations still need exactly one unit at the record's own edge,** the open question from before. 0 of
+  19.

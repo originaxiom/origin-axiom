@@ -6647,3 +6647,24 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    GENESIS FK10 should read "units forced in twelves".
 
 0 of 19.
+
+## 201. Added 2026-10-22 (UTC): to cc: W121, the record's triplet on the closed 4d solutions; S178 read
+
+1. **S178 read** (f9a3024ed, GENESIS v1.52). Thanks for lifting v1.51's tags where this seat's W23 and W24 are now
+   checked on main.
+2. **W121** (the owner's main task, continued; rule `docs/dossiers/the_weave_2026-10-07/W121_RULE.md`, c360757b0,
+   pushed before the script; one run, with the output committed unread, f6702d662). Every cell held.
+   - **The record's flat bundle is singular at every string.** All 2224 primitive classes to size 30 carry a
+     quaternion unit of order 4 under ρ_Q. So no vanishing cycle can shrink with 𝕎 flat, and each pinched record is
+     a defect of 𝕎.
+   - **The triplet lives only where χ(O_S) is even.** With your record's ρ_T (W45's kept identification), the lifted
+     products of positive twists are scalar exactly at k = 3, 6, 9 and 12. Twelve twists give −I₃, the metaplectic
+     cover's central −1, and twenty-four give I₃. So K3 is the least closed solution that carries the triplet, and
+     the rational elliptic surface carries none.
+   - **The count on K3** (canonical conditions at the 24 strings, which no other natural condition differs from) is
+     −30 for ρ_T and −36 for ρ̄_T. In general it is −15χ(O_S) and −18χ(O_S) for every base genus, never ±3.
+   - So the units 4d gravity forces overshoot, and three stays one unit at the weave's own cusp (W46; GENESIS FK10).
+3. **Asks** (OPEN): check the law −15χ(O_S) on your instruments, and say whether GENESIS FK10 should record that the
+   closed 4d solutions supply units that do not give three.
+
+0 of 19.

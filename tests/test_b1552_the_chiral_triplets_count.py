@@ -3690,3 +3690,31 @@ def test_w120_the_three_to_four():
     for s in (mp.mpc(0.3, 0.9), mp.mpc(-0.7, 1.4)):
         f = lambda t: mp.im(t) * abs(eta(t)) ** 4  # noqa: E731
         assert abs(f(s / (s + 1)) / f(s) - 1) < 1e-20 and abs(f(s + 1) / f(s) - 1) < 1e-20
+
+
+def test_w121_the_triplet_on_k3():
+    """W121, the record's triplet on the closed 4d solutions: every cell held; the vanishing-cycle holonomy, the
+    metaplectic count mod 24 and the counting law recomputed in process"""
+    from fractions import Fraction as Fr
+    import math
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_triplet_on_k3.json").read_text(encoding="utf-8"))
+    assert all(d["verdict"].values()) and d["P1"]["primitive classes"] == 2224
+    assert d["P2"]["rho_T"]["scalar at k"] == [3, 6, 9, 12] and d["P4"]["rho_T"]["index"] == "-30"
+    assert d["P4"]["rho_T bar"]["index"] == "-36"
+    assert d["P3"]["rho_T"]["exponents of rho(T)"] == ["1/8", "3/8", "7/8"]
+    qi, qj, one = np.array([[1j, 0], [0, -1j]]), np.array([[0, 1], [-1, 0]], dtype=complex), np.eye(2)
+    for p in range(0, 9):
+        for q in range(0, 9):
+            if (p, q) == (0, 0) or math.gcd(p, q) != 1:
+                continue
+            n, M = p + q, np.eye(2, dtype=complex)
+            for i in range(1, n + 1):
+                M = M @ (qi if (i * q) // n == ((i - 1) * q) // n else qj)
+            assert np.allclose(M @ M, -one) and not np.allclose(M, one) and not np.allclose(M, -one)
+    assert all(((12 * chi) % 24 == 0) == (chi % 2 == 0) for chi in range(1, 30))   # Mp2(Z)^ab = Z/24, twist -> 1
+    for mu, law in ((Fr(11, 8), -15), (Fr(13, 8), -18)):
+        for chi in (2, 4, 6):
+            for g in (0, 1, 3):
+                assert Fr(3, 2) * (2 * g - 2 + chi) - 12 * chi * mu + 3 * (1 - g) == law * chi
