@@ -1,0 +1,14 @@
+{
+ "P0": true,
+ "P1": true,
+ "P2": true,
+ "P2'": true,
+ "P2''": true,
+ "P3": true,
+ "P4": true
+}
+every cell holds: True
+
+real	0m2.715s
+user	0m6.413s
+sys	0m0.056s

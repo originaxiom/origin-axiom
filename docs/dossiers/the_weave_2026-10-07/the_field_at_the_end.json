@@ -1,0 +1,821 @@
+{
+ "arc": "W127",
+ "rule": "W127_RULE.md",
+ "status": "one run",
+ "the index I(cond, r, n)": {
+  "0": {
+   "0": {
+    "-1": 3.0,
+    "0": -0.0,
+    "1": -3.0,
+    "2": -6.0
+   },
+   "4": {
+    "-1": 2.0,
+    "0": -1.0,
+    "1": -4.0,
+    "2": -7.0
+   },
+   "8": {
+    "-1": 3.0,
+    "0": -0.0,
+    "1": -3.0,
+    "2": -6.0
+   },
+   "12": {
+    "-1": 3.0,
+    "0": -0.0,
+    "1": -3.0,
+    "2": -6.0
+   },
+   "16": {
+    "-1": 3.0,
+    "0": -0.0,
+    "1": -3.0,
+    "2": -6.0
+   },
+   "20": {
+    "-1": 3.0,
+    "0": 0.0,
+    "1": -3.0,
+    "2": -6.0
+   }
+  },
+  "V2": {
+   "0": {
+    "-1": 1.0,
+    "0": -0.0,
+    "1": -1.0,
+    "2": -2.0
+   },
+   "4": {
+    "-1": 1.0,
+    "0": 0.0,
+    "1": -1.0,
+    "2": -2.0
+   },
+   "8": {
+    "-1": 1.0,
+    "0": -0.0,
+    "1": -1.0,
+    "2": -2.0
+   },
+   "12": {
+    "-1": 1.0,
+    "0": -0.0,
+    "1": -1.0,
+    "2": -2.0
+   },
+   "16": {
+    "-1": 1.0,
+    "0": 0.0,
+    "1": -1.0,
+    "2": -2.0
+   },
+   "20": {
+    "-1": 0.0,
+    "0": -1.0,
+    "1": -2.0,
+    "2": -3.0
+   }
+  },
+  "V4": {
+   "0": {
+    "-1": -1.0,
+    "0": -0.0,
+    "1": 1.0,
+    "2": 2.0
+   },
+   "4": {
+    "-1": -2.0,
+    "0": -1.0,
+    "1": -0.0,
+    "2": 1.0
+   },
+   "8": {
+    "-1": -1.0,
+    "0": 0.0,
+    "1": 1.0,
+    "2": 2.0
+   },
+   "12": {
+    "-1": -1.0,
+    "0": 0.0,
+    "1": 1.0,
+    "2": 2.0
+   },
+   "16": {
+    "-1": -1.0,
+    "0": -0.0,
+    "1": 1.0,
+    "2": 2.0
+   },
+   "20": {
+    "-1": -1.0,
+    "0": 0.0,
+    "1": 1.0,
+    "2": 2.0
+   }
+  },
+  "L6": {
+   "0": {
+    "-1": -3.0,
+    "0": -0.0,
+    "1": 3.0,
+    "2": 6.0
+   },
+   "4": {
+    "-1": -3.0,
+    "0": 0.0,
+    "1": 3.0,
+    "2": 6.0
+   },
+   "8": {
+    "-1": -3.0,
+    "0": 0.0,
+    "1": 3.0,
+    "2": 6.0
+   },
+   "12": {
+    "-1": -3.0,
+    "0": -0.0,
+    "1": 3.0,
+    "2": 6.0
+   },
+   "16": {
+    "-1": -3.0,
+    "0": 0.0,
+    "1": 3.0,
+    "2": 6.0
+   },
+   "20": {
+    "-1": -4.0,
+    "0": -1.0,
+    "1": 2.0,
+    "2": 5.0
+   }
+  }
+ },
+ "h(r, n) exact, by N": {
+  "5": {
+   "r=0 n=-2": 0,
+   "r=0 n=-1": 0,
+   "r=0 n=0": 0,
+   "r=0 n=1": 3,
+   "r=0 n=2": 6,
+   "r=4 n=-2": 0,
+   "r=4 n=-1": 0,
+   "r=4 n=0": 1,
+   "r=4 n=1": 4,
+   "r=4 n=2": 7,
+   "r=8 n=-2": 0,
+   "r=8 n=-1": 0,
+   "r=8 n=0": 0,
+   "r=8 n=1": 3,
+   "r=8 n=2": 6,
+   "r=12 n=-2": 0,
+   "r=12 n=-1": 0,
+   "r=12 n=0": 0,
+   "r=12 n=1": 3,
+   "r=12 n=2": 6,
+   "r=16 n=-2": 0,
+   "r=16 n=-1": 0,
+   "r=16 n=0": 0,
+   "r=16 n=1": 3,
+   "r=16 n=2": 6,
+   "r=20 n=-2": 0,
+   "r=20 n=-1": 0,
+   "r=20 n=0": 0,
+   "r=20 n=1": 3,
+   "r=20 n=2": 6
+  },
+  "6": {
+   "r=0 n=-2": 0,
+   "r=0 n=-1": 0,
+   "r=0 n=0": 0,
+   "r=0 n=1": 3,
+   "r=0 n=2": 6,
+   "r=4 n=-2": 0,
+   "r=4 n=-1": 0,
+   "r=4 n=0": 1,
+   "r=4 n=1": 4,
+   "r=4 n=2": 7,
+   "r=8 n=-2": 0,
+   "r=8 n=-1": 0,
+   "r=8 n=0": 0,
+   "r=8 n=1": 3,
+   "r=8 n=2": 6,
+   "r=12 n=-2": 0,
+   "r=12 n=-1": 0,
+   "r=12 n=0": 0,
+   "r=12 n=1": 3,
+   "r=12 n=2": 6,
+   "r=16 n=-2": 0,
+   "r=16 n=-1": 0,
+   "r=16 n=0": 0,
+   "r=16 n=1": 3,
+   "r=16 n=2": 6,
+   "r=20 n=-2": 0,
+   "r=20 n=-1": 0,
+   "r=20 n=0": 0,
+   "r=20 n=1": 3,
+   "r=20 n=2": 6
+  }
+ },
+ "P0": {
+  "checks": {
+   "W46's table at r = 0, n in {-1, 0, 1}": true,
+   "W47's K3 at n = 0 for every allowed r": true,
+   "W47's K2 exponents": true,
+   "W123's exact h(0, 0) = 0, h(0, 1) = 3, h(0, 2) = 6": true,
+   "W123's single-line sections, one each": true
+  },
+  "single-line h at r = 0": {
+   "(1, 0, 0)": 1,
+   "(0, 1, 0)": 1,
+   "(0, 0, 1)": 1
+  }
+ },
+ "P1": {
+  "checks": {
+   "the hyperbolic fibre point is the Markov triple (3, 3, 3)": true,
+   "kappa = tr[a, b] = -2 there": true,
+   "kappa = -2 at the quaternion point": true,
+   "every cusp exponent under every allowed twist is an odd multiple of 1/24 (never 0)": true
+  },
+  "kappa": [
+   "-2",
+   "-2"
+  ],
+  "n-independence": "by construction: O(n delta) changes the bundle, not the local system, so neither kappa nor any cusp exponent depends on n"
+ },
+ "P2": {
+  "checks": {
+   "h(r, n) as predicted on the box": true,
+   "N = 5 and N = 6 agree": true,
+   "Riemann-Roch (n >= 1 exactly; n = 0 with the dual counted numerically)": true
+  },
+  "table": {
+   "r=0 n=-1": {
+    "h exact": 0,
+    "chi_{3/2+12n}": -3.0
+   },
+   "r=0 n=0": {
+    "h exact": 0,
+    "chi_{3/2+12n}": 0.0,
+    "dims M_{3/2} numerically (null, gap)": [
+     0,
+     [
+      1.451585807149893e-07,
+      null
+     ]
+    ],
+    "dims S_{1/2} of the dual (null, gap)": [
+     0,
+     [
+      1.8886985089795462e-07,
+      null
+     ]
+    ]
+   },
+   "r=0 n=1": {
+    "h exact": 3,
+    "chi_{3/2+12n}": 3.0
+   },
+   "r=0 n=2": {
+    "h exact": 6,
+    "chi_{3/2+12n}": 6.0
+   },
+   "r=4 n=-1": {
+    "h exact": 0,
+    "chi_{3/2+12n}": -2.0
+   },
+   "r=4 n=0": {
+    "h exact": 1,
+    "chi_{3/2+12n}": 1.0,
+    "dims M_{3/2} numerically (null, gap)": [
+     1,
+     [
+      1.7847339266303445e-07,
+      4.872241609122644e-16
+     ]
+    ],
+    "dims S_{1/2} of the dual (null, gap)": [
+     0,
+     [
+      1.8691463476199595e-07,
+      null
+     ]
+    ]
+   },
+   "r=4 n=1": {
+    "h exact": 4,
+    "chi_{3/2+12n}": 4.0
+   },
+   "r=4 n=2": {
+    "h exact": 7,
+    "chi_{3/2+12n}": 7.0
+   },
+   "r=8 n=-1": {
+    "h exact": 0,
+    "chi_{3/2+12n}": -3.0
+   },
+   "r=8 n=0": {
+    "h exact": 0,
+    "chi_{3/2+12n}": 0.0,
+    "dims M_{3/2} numerically (null, gap)": [
+     0,
+     [
+      1.6561675695511312e-07,
+      null
+     ]
+    ],
+    "dims S_{1/2} of the dual (null, gap)": [
+     0,
+     [
+      2.0178711918387713e-07,
+      null
+     ]
+    ]
+   },
+   "r=8 n=1": {
+    "h exact": 3,
+    "chi_{3/2+12n}": 3.0
+   },
+   "r=8 n=2": {
+    "h exact": 6,
+    "chi_{3/2+12n}": 6.0
+   },
+   "r=12 n=-1": {
+    "h exact": 0,
+    "chi_{3/2+12n}": -3.0
+   },
+   "r=12 n=0": {
+    "h exact": 0,
+    "chi_{3/2+12n}": 0.0,
+    "dims M_{3/2} numerically (null, gap)": [
+     0,
+     [
+      1.949426574101388e-07,
+      null
+     ]
+    ],
+    "dims S_{1/2} of the dual (null, gap)": [
+     0,
+     [
+      1.6843752230677112e-07,
+      null
+     ]
+    ]
+   },
+   "r=12 n=1": {
+    "h exact": 3,
+    "chi_{3/2+12n}": 3.0
+   },
+   "r=12 n=2": {
+    "h exact": 6,
+    "chi_{3/2+12n}": 6.0
+   },
+   "r=16 n=-1": {
+    "h exact": 0,
+    "chi_{3/2+12n}": -3.0
+   },
+   "r=16 n=0": {
+    "h exact": 0,
+    "chi_{3/2+12n}": 0.0,
+    "dims M_{3/2} numerically (null, gap)": [
+     0,
+     [
+      1.4854367532421176e-07,
+      null
+     ]
+    ],
+    "dims S_{1/2} of the dual (null, gap)": [
+     0,
+     [
+      1.6436943541868349e-07,
+      null
+     ]
+    ]
+   },
+   "r=16 n=1": {
+    "h exact": 3,
+    "chi_{3/2+12n}": 3.0
+   },
+   "r=16 n=2": {
+    "h exact": 6,
+    "chi_{3/2+12n}": 6.0
+   },
+   "r=20 n=-1": {
+    "h exact": 0,
+    "chi_{3/2+12n}": -3.0
+   },
+   "r=20 n=0": {
+    "h exact": 0,
+    "chi_{3/2+12n}": -0.0,
+    "dims M_{3/2} numerically (null, gap)": [
+     0,
+     [
+      1.823846230724844e-07,
+      null
+     ]
+    ],
+    "dims S_{1/2} of the dual (null, gap)": [
+     0,
+     [
+      1.4762704079446218e-07,
+      null
+     ]
+    ]
+   },
+   "r=20 n=1": {
+    "h exact": 3,
+    "chi_{3/2+12n}": 3.0
+   },
+   "r=20 n=2": {
+    "h exact": 6,
+    "chi_{3/2+12n}": 6.0
+   }
+  },
+  "reported, not a cell condition: W45's numerical M_{3/2} equals the exact h at n = 0": true,
+  "auxiliary h(r, -2)": {
+   "0": 0,
+   "4": 0,
+   "8": 0,
+   "12": 0,
+   "16": 0,
+   "20": 0
+  }
+ },
+ "P2'": {
+  "checks": {
+   "the kernel at r = 4, n = 0 is one-dimensional": true,
+   "it is C R exactly (to x^60), so the form is eta^4 R": true,
+   "eta^4 R has line orders 1/24, 7/24, 13/24": true
+  },
+  "ratio to R": "26623333280885243904",
+  "line orders of eta^4 R, by g's line": {
+   "1/8": "7/24",
+   "3/8": "13/24",
+   "7/8": "1/24"
+  }
+ },
+ "P2''": {
+  "checks": {
+   "hbar(r, 0) = 0 at every r; hbar(r, 1) = 3 except hbar(20, 1) = 2; hbar(r, -1) = 0": true,
+   "the numerical dims at n = 0 agree": true
+  },
+  "table": {
+   "r=0 n=-1": {
+    "chi_{1/2+12n}(T-bar)": -3.0,
+    "h(24 - r, -n)": 3,
+    "hbar": 0
+   },
+   "r=0 n=0": {
+    "chi_{1/2+12n}(T-bar)": 0.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 0,
+    "dims M_{1/2}(T-bar) numerically (null, gap)": [
+     0,
+     [
+      1.8886985089859564e-07,
+      null
+     ]
+    ]
+   },
+   "r=0 n=1": {
+    "chi_{1/2+12n}(T-bar)": 3.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 3
+   },
+   "r=0 n=2": {
+    "chi_{1/2+12n}(T-bar)": 6.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 6
+   },
+   "r=4 n=-1": {
+    "chi_{1/2+12n}(T-bar)": -3.0,
+    "h(24 - r, -n)": 3,
+    "hbar": 0
+   },
+   "r=4 n=0": {
+    "chi_{1/2+12n}(T-bar)": 0.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 0,
+    "dims M_{1/2}(T-bar) numerically (null, gap)": [
+     0,
+     [
+      1.4762704079497432e-07,
+      null
+     ]
+    ]
+   },
+   "r=4 n=1": {
+    "chi_{1/2+12n}(T-bar)": 3.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 3
+   },
+   "r=4 n=2": {
+    "chi_{1/2+12n}(T-bar)": 6.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 6
+   },
+   "r=8 n=-1": {
+    "chi_{1/2+12n}(T-bar)": -3.0,
+    "h(24 - r, -n)": 3,
+    "hbar": 0
+   },
+   "r=8 n=0": {
+    "chi_{1/2+12n}(T-bar)": 0.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 0,
+    "dims M_{1/2}(T-bar) numerically (null, gap)": [
+     0,
+     [
+      1.6436943542165133e-07,
+      null
+     ]
+    ]
+   },
+   "r=8 n=1": {
+    "chi_{1/2+12n}(T-bar)": 3.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 3
+   },
+   "r=8 n=2": {
+    "chi_{1/2+12n}(T-bar)": 6.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 6
+   },
+   "r=12 n=-1": {
+    "chi_{1/2+12n}(T-bar)": -3.0,
+    "h(24 - r, -n)": 3,
+    "hbar": 0
+   },
+   "r=12 n=0": {
+    "chi_{1/2+12n}(T-bar)": -0.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 0,
+    "dims M_{1/2}(T-bar) numerically (null, gap)": [
+     0,
+     [
+      1.6843752230572932e-07,
+      null
+     ]
+    ]
+   },
+   "r=12 n=1": {
+    "chi_{1/2+12n}(T-bar)": 3.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 3
+   },
+   "r=12 n=2": {
+    "chi_{1/2+12n}(T-bar)": 6.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 6
+   },
+   "r=16 n=-1": {
+    "chi_{1/2+12n}(T-bar)": -3.0,
+    "h(24 - r, -n)": 3,
+    "hbar": 0
+   },
+   "r=16 n=0": {
+    "chi_{1/2+12n}(T-bar)": 0.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 0,
+    "dims M_{1/2}(T-bar) numerically (null, gap)": [
+     0,
+     [
+      2.017871191817034e-07,
+      null
+     ]
+    ]
+   },
+   "r=16 n=1": {
+    "chi_{1/2+12n}(T-bar)": 3.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 3
+   },
+   "r=16 n=2": {
+    "chi_{1/2+12n}(T-bar)": 6.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 6
+   },
+   "r=20 n=-1": {
+    "chi_{1/2+12n}(T-bar)": -4.0,
+    "h(24 - r, -n)": 4,
+    "hbar": 0
+   },
+   "r=20 n=0": {
+    "chi_{1/2+12n}(T-bar)": -1.0,
+    "h(24 - r, -n)": 1,
+    "hbar": 0,
+    "dims M_{1/2}(T-bar) numerically (null, gap)": [
+     0,
+     [
+      1.8691463476135077e-07,
+      null
+     ]
+    ]
+   },
+   "r=20 n=1": {
+    "chi_{1/2+12n}(T-bar)": 2.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 2
+   },
+   "r=20 n=2": {
+    "chi_{1/2+12n}(T-bar)": 5.0,
+    "h(24 - r, -n)": 0,
+    "hbar": 5
+   }
+  },
+  "hbar(r, 2)": {
+   "0": 6,
+   "4": 6,
+   "8": 6,
+   "12": 6,
+   "16": 6,
+   "20": 5
+  }
+ },
+ "P3": {
+  "checks": {
+   "I = n f + t_r on the whole box": true,
+   "the untwisted empty end cancels at every condition": true,
+   "the least non-cancelling datum at 0 is unique: r = 4, n = 0, I = -1": true,
+   "the least non-cancelling datum at L6 is unique: r = 20, n = 0, I = -1": true,
+   "the weave totals are 6 n f - 1": true
+  },
+  "t_r(cond)": {
+   "0": {
+    "0": -0.0,
+    "4": -1.0,
+    "8": -0.0,
+    "12": -0.0,
+    "16": -0.0,
+    "20": 0.0
+   },
+   "V2": {
+    "0": -0.0,
+    "4": 0.0,
+    "8": -0.0,
+    "12": -0.0,
+    "16": 0.0,
+    "20": -1.0
+   },
+   "V4": {
+    "0": -0.0,
+    "4": -1.0,
+    "8": 0.0,
+    "12": 0.0,
+    "16": -0.0,
+    "20": 0.0
+   },
+   "L6": {
+    "0": -0.0,
+    "4": 0.0,
+    "8": 0.0,
+    "12": -0.0,
+    "16": 0.0,
+    "20": -1.0
+   }
+  },
+  "the least non-cancelling data (least |n|, then least |I|)": {
+   "0": [
+    {
+     "r": 4,
+     "n": 0,
+     "I": -1
+    }
+   ],
+   "V2": [
+    {
+     "r": 20,
+     "n": 0,
+     "I": -1
+    }
+   ],
+   "V4": [
+    {
+     "r": 4,
+     "n": 0,
+     "I": -1
+    }
+   ],
+   "L6": [
+    {
+     "r": 20,
+     "n": 0,
+     "I": -1
+    }
+   ]
+  },
+  "the weave totals, sum over the six twists": {
+   "0": {
+    "-1": 17.0,
+    "0": -1.0,
+    "1": -19.0,
+    "2": -37.0
+   },
+   "V2": {
+    "-1": 5.0,
+    "0": -1.0,
+    "1": -7.0,
+    "2": -13.0
+   },
+   "V4": {
+    "-1": -7.0,
+    "0": -1.0,
+    "1": 5.0,
+    "2": 11.0
+   },
+   "L6": {
+    "-1": -19.0,
+    "0": -1.0,
+    "1": 17.0,
+    "2": 35.0
+   }
+  }
+ },
+ "P4": {
+  "checks": {
+   "n = 1: h = 3, I = -3 at 0 and +3 at L6, hbar = 3": true,
+   "one unit on one line: h = 1 and I = -1 on each line": true
+  },
+  "per-line I = -(chi_{3/2} + 1)": {
+   "(1, 0, 0)": -1,
+   "(0, 1, 0)": -1,
+   "(0, 0, 1)": -1
+  }
+ },
+ "P5 (read-out)": {
+  "F1 (frustration)": {
+   "forbids the empty end": false,
+   "why": "kappa = -2 and no cusp exponent is an integer at every datum, the empty one included; F1 cannot see n"
+  },
+  "F2 per datum": {
+   "forbids the untwisted empty end": true,
+   "the least non-cancelling datum": {
+    "0": [
+     {
+      "r": 4,
+      "n": 0,
+      "I": -1
+     }
+    ],
+    "L6": [
+     {
+      "r": 20,
+      "n": 0,
+      "I": -1
+     }
+    ]
+   },
+   "its Higgs space, canonical hand h(4, 0)": 1,
+   "its Higgs space, mirror hand hbar(20, 0)": 0,
+   "non-cancelling data with no Higgs (canonical hand, condition 0)": [
+    "r=0 n=-1",
+    "r=4 n=-1",
+    "r=8 n=-1",
+    "r=12 n=-1",
+    "r=16 n=-1",
+    "r=20 n=-1"
+   ]
+  },
+  "F2 at weave level": {
+   "the joint index at n = 0": {
+    "0": -1.0,
+    "V2": -1.0,
+    "V4": -1.0,
+    "L6": -1.0
+   },
+   "forbids the empty end": false,
+   "the joint Higgs space at n = 0, canonical and mirror": [
+    1,
+    0
+   ]
+  },
+  "F3 (non-empty end)": {
+   "forbids the empty end": "by definition (GENESIS FK10's unit restated)",
+   "least line-bundle datum n = 1": {
+    "h": 3,
+    "I at 0": -3.0
+   },
+   "least per-line datum": {
+    "h": 1,
+    "I": -1,
+    "cost": "a chosen line (W123)"
+   }
+  }
+ },
+ "cells": {
+  "P0": true,
+  "P1": true,
+  "P2": true,
+  "P2'": true,
+  "P2''": true,
+  "P3": true,
+  "P4": true
+ },
+ "every cell holds": true
+}
