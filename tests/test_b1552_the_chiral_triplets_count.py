@@ -4113,3 +4113,28 @@ def test_w134_the_bridge_e6_su3():
     least = {str(r): min(tab[str(r)], key=lambda m: (abs(m), m)) for r in W.ALLOWED}
     _, ok3, threes = W.E3(R, tab, least)
     assert ok3 and threes == W.PREDICTED_THREES
+
+
+def test_w135_the_joint_computation():
+    """W135, the joint computation: every cell as recorded; in process, the full 27's anomaly equals E8's determinant
+    condition, the det-1 triplet's group is the cube's rotations with no cubic invariant, and rho(g) is a 3-cycle"""
+    import contextlib
+    import importlib.util
+    import io
+    import sys
+    import sympy as sp
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_joint_computation.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"K0": True, "K1": True, "K2": True, "K3": True}
+    assert d["K4 (read-out)"]["Sym^3 rho' (k = 21) against Gamma's characters"] == {
+        "trivial": 0.0, "the sign of the permutation": 1.0, "rho'": 2.0, "rho' (x) sign": 1.0}
+    sys.path.insert(0, str(here))
+    spec = importlib.util.spec_from_file_location("w135_lock", here / "the_joint_computation.py")
+    W = importlib.util.module_from_spec(spec)
+    with contextlib.redirect_stdout(io.StringIO()):
+        spec.loader.exec_module(W)
+    assert all((W.anomalies(r, m, W.FIELDS27) == (0, 0, 0)) == ((m - 5 + r) % 8 == 0) for r in W.ALLOWED for m in W.MS)
+    k3, ok3 = W.K3()
+    assert ok3 and k3["per k"]["21"]["order"] == 24
+    rS, rT = W.W134.rho_exact()
+    assert sp.simplify(rS ** 2 * rT * rS * rT * rS.inv()) == sp.Matrix([[0, 0, -1], [1, 0, 0], [0, 1, 0]])

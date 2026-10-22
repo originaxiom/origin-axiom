@@ -1,5 +1,15 @@
 # Changelog
 
+## W135 recorded, every cell as predicted: the record's pieces computed together give one frame, and every family mass must be a modular form of τ (relay §223)
+
+- **The skeleton.** E₈ and E₆ × SU(3) come from the moves, unique up to them. One founding ratio cycles both threes,
+  so B1030's trit is their identification's ℤ/3. E₈'s determinant condition is the moves' anomaly of the full 27,
+  so W132 and W134 are one condition.
+- **The flesh.** The joint family group is the cube's rotations, and Sym³ρ′ = 1′ ⊕ 2ρ′ ⊕ ρ′ ⊗ sgn has no invariant. So
+  there is no constant Yukawa, and every family mass is a modular form Y(τ) in one of three irreps: the record's
+  modular-flavour frames (a READING by hand).
+- **Surfaces.** NOTE (section and row), the lock test, relay §223, row 317, the state page. 0 of 19.
+
 ## The W135 rule, committed and pushed before its script: the joint computation, every piece imposed at once on the weave's surface (relay §222)
 
 - **The owner's point:** the record's pieces were never computed together.

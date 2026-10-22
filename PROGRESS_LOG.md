@@ -20370,3 +20370,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   It covers the large symmetry group, the three families, the full set of particles in one family with its Higgs, the
   consistency condition, and the couplings that would give the families their masses.
   0 of 19.
+
+## 2026-10-22 — everything at once, computed
+
+- **All the record's pieces were put on one object at once, and every check came out as predicted.**
+  - The large symmetry group and its split come from the basic moves themselves, the same way for every path.
+  - One single move cycles both the three families and the three slots the symmetry group has for them. So the
+    "one trit" the record counted as an outside input is just the choice of how to line the two threes up.
+  - The consistency condition and the symmetry group's own condition turn out to be the same condition.
+- **What it does not give: the masses.** The families' combined symmetry allows no fixed coupling at all. Every mass
+  has to come from a coupling that changes with the shape's single number τ. Those are exactly the couplings the
+  record has already been testing against the data, so far without success.
+  0 of 19.

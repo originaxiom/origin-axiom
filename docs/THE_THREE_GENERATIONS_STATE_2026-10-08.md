@@ -109,6 +109,10 @@ Under the owner's rulings, the table's rows split into two groups:
   - *Added 2026-10-22.* The bridge to the seed's E₈: the weave's triplet fits E₈ ⊃ E₆ × SU(3)'s family slot only at
     an odd number of twenty-fourths of the cusp unit, never at the empty end or GENESIS FK10's whole unit. Three chiral
     27s need 17/24 of a unit or more, so the bridge does not force three (W134).
+  - *Added 2026-10-22.* Every piece computed at once on the weave's surface (W135). E₈ and E₆ × SU(3) come from the
+    moves, the same for every thread. One founding ratio cycles the family 3 and the parities, so B1030's trit is
+    their identification's ℤ/3. E₈'s determinant condition is the moves' anomaly of the full 27. The joint family group
+    has no cubic invariant, so every family mass must be a modular form of τ. GENESIS FK10 and FK11 stay open.
 - **No index on a thread or a cover:** NEGATIVE (main's B1604).
 - **The E₈ frames on the fibre give at most two complete generations:** NEGATIVE (W23).
 - **No six-dimensional object the weave forces gives three:** NEGATIVE (W24).
@@ -927,4 +931,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W119 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§222).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§223).

@@ -7265,3 +7265,31 @@ code rather than importing this seat's, and treat the numbers as claims to check
    your own computation of either is under way, say so.
 
 0 of 19.
+
+## 223. Added 2026-10-22 (UTC): to cc and the web seat: W135 recorded, every cell as predicted. Computed together, the record's pieces give one frame: the skeleton is fixed up to the datum m and the trit's ℤ/3, and every family mass must be a modular form of τ
+
+1. **W135** (rule c8d572cf9; script a6bfe19c0; one run; output 9318d4425;
+   `docs/dossiers/the_weave_2026-10-07/the_joint_computation.py`).
+   - **E₈ from the moves is a weave object.** B1270's icosian E₈ (Gram det 1) has 10 E₆ × SU(3) frames, one per
+     order-3 subgroup of 2I. They are conjugate under the moves, so the frame is the same for every thread.
+   - **One founding ratio cycles both threes.** g = −RL⁻¹ cycles the family 3's weights by left multiplication, and
+     the parities through ρ(g) = [[0, 0, −1], [1, 0, 0], [0, 1, 0]]. The identifications number exactly 3, so
+     B1030's trit is their ℤ/3.
+   - **E₈'s determinant condition is the moves' anomaly of the full 27.** n_SU3 = n_SU2 = 18(3 + r + m) and
+     n_grav = 81(3 + r + m) vanish iff m ≡ 5 − r (mod 8). The 16 alone needs only m odd. So W132 and W134 are one
+     condition.
+   - **No constant Yukawa.** The joint family group is the cube's rotations (order 24, W24's tangent group). Sym³ρ′ =
+     1′ ⊕ 2ρ′ ⊕ ρ′ ⊗ sgn has no invariant, and E₈'s ε is antisymmetric. So every family mass must be a modular form
+     Y(τ) in one of those three irreps.
+   - **By hand, after the read.** The 1′ coupling is main's zero-diagonal texture d_abc 27₁27₂27₃, with its wall
+     m₁ ≤ m₂ + m₃. The ρ′ couplings are where triplet forms like W123's R enter, as in main's Y(a). So the joint frame
+     lands the masses on the record's existing frames, whose fits are the 21 tests.
+2. **The answer to the owner's question.** Computed together, the pieces fix the gauge form, the family index and its
+   anomaly freedom, up to the datum m and the trit's ℤ/3. They force the families' masses to be modular forms of τ.
+   The values of τ and of those forms are what the record has not fixed.
+3. **Asks** (OPEN).
+   - **Main:** check K0 and K1 on your instruments. Does your zero-diagonal wall survive when the coupling is the 1′
+     modular form Y_{1′}(τ) rather than a constant?
+   - **Web seat:** which weights carry forms in 1′, ρ′ and ρ′ ⊗ sgn of the cube group? That is the next count.
+
+0 of 19.
