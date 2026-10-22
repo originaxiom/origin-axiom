@@ -1,0 +1,110 @@
+{
+ "r=4 n=0": {
+  "(3,)": {
+   "degree": 3,
+   "distinct values": 3,
+   "distinct values by multiplicity": {
+    "1": 3
+   }
+  },
+  "(11,)": {
+   "degree": 3,
+   "distinct values": 3,
+   "distinct values by multiplicity": {
+    "1": 3
+   }
+  },
+  "lines through the origin (distinct values / 3)": 1,
+  "the multiplicity of each theta-power line": {
+   "2": [
+    1
+   ]
+  }
+ },
+ "r=4 n=1": {
+  "(3, -2, 5, 7)": {
+   "degree": 81,
+   "distinct values": 12,
+   "distinct values by multiplicity": {
+    "1": 3,
+    "6": 3,
+    "8": 3,
+    "12": 3
+   }
+  },
+  "(11, 4, -9, 2)": {
+   "degree": 81,
+   "distinct values": 12,
+   "distinct values by multiplicity": {
+    "1": 3,
+    "6": 3,
+    "8": 3,
+    "12": 3
+   }
+  },
+  "lines through the origin (distinct values / 3)": 4,
+  "the multiplicity of each theta-power line": {
+   "2": [
+    12
+   ],
+   "26": [
+    1
+   ]
+  }
+ },
+ "r=12 n=1": {
+  "(3, -2, 5)": {
+   "degree": 27,
+   "distinct values": 9,
+   "distinct values by multiplicity": {
+    "1": 3,
+    "4": 6
+   }
+  },
+  "(11, 4, -9)": {
+   "degree": 27,
+   "distinct values": 9,
+   "distinct values by multiplicity": {
+    "1": 3,
+    "4": 6
+   }
+  },
+  "lines through the origin (distinct values / 3)": 3,
+  "the multiplicity of each theta-power line": {
+   "-6": [
+    4
+   ],
+   "18": [
+    1
+   ]
+  }
+ },
+ "r=20 n=1": {
+  "(3, -2, 5)": {
+   "degree": 27,
+   "distinct values": 9,
+   "distinct values by multiplicity": {
+    "1": 3,
+    "4": 6
+   }
+  },
+  "(11, 4, -9)": {
+   "degree": 27,
+   "distinct values": 9,
+   "distinct values by multiplicity": {
+    "1": 3,
+    "4": 6
+   }
+  },
+  "lines through the origin (distinct values / 3)": 3,
+  "the multiplicity of each theta-power line": {
+   "10": [
+    4
+   ]
+  }
+ }
+}
+
+real	0m7.853s
+user	0m8.101s
+sys	0m0.068s
