@@ -1,0 +1,23 @@
+{
+  "id": "B1705",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B186"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "B186's Fricke trace-map spectra at the lock's depths",
+    "object": "the kappa = 2 band's box dimension against the off-axis one",
+    "reach": "single",
+    "hypotheses": "the lock's scales and depths"
+  },
+  "claim_one_line": "B186'S BAND DIMENSION RE-GRADED (Review 67, R66-4): at lambda = 0 the operator is Hermitian, so the band's spectrum is real, and B186's lock box-counted it in two dimensions after rescaling noise-level imaginary parts (1e-15) to unit range -- the value moved with the BLAS thread count; counted on the line it is 0.9385 (golden) and 0.8830 (silver) at both settings, against the off-axis 0.8272 and 0.7646, so B186's ordering stands by 0.11-0.12; its lock counts the band on the line and its printed band values carry a dated note. 0 of 19.",
+  "weave_or_thread": "thread (one spectrum per word)"
+}

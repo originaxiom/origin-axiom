@@ -17673,3 +17673,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - Twelve harvest rows (1281–1292): the SM seat's W111–W119 and relays §169–§195; the web seat's zero-free reading and
   lepton test (its null running). Pins moved. P-252 DONE.
 - **Landing suite.** 116 files (every arc lock and the corpus-scanning tests), 2044 passed, 1 failed, 3 skipped (7:18, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-22 — REVIEW 67
+
+- The review fired at forty merges and blocked S177's push. The tools (fresh clone, seals, branches, sample), the full
+  suite (7528/5/68), the loop closed (R66-2, R66-3 declined with reasons; R66-4 resolved by B1705), the premise audit on
+  the sample (scope notes on B1692 and B1703, after a deep-cusp computation), TERMINOLOGY, P-253.
+

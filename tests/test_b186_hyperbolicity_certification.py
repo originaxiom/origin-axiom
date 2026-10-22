@@ -59,9 +59,20 @@ def test_escape_rate_separates_hyperbolic_from_band():
     assert g_off > 0.1         # off-axis: same horseshoe signature
 
 
+def _box_dim_line(x, scales=2.0**np.arange(-2, -8, -1)):
+    x = (x - x.min())/np.ptp(x)
+    Ns = [len({int(a//s) for a in x}) for s in scales]
+    return float(np.polyfit(np.log(1/scales), np.log(np.array(Ns, float)), 1)[0])
+
+
 def test_box_dim_off_axis_below_band():
+    # Re-graded 2026-10-22 (Review 67, R66-4; B1705): at lambda = 0 the operator is Hermitian, so the band's spectrum is
+    # real and is counted on the line; the two-dimensional count rescaled noise-level imaginary parts and moved with the
+    # BLAS thread count (0.903/0.928 and 0.847/0.792).  On the line: 0.939 and 0.883 at either setting.
     for m, depth in [(1, 12), (2, 6)]:
-        d_band = _box_dim(_spectrum(_word(depth, m), 0.0))
+        ev_band = _spectrum(_word(depth, m), 0.0)
+        assert np.abs(ev_band.imag).max() < 1e-12
+        d_band = _box_dim_line(np.sort(ev_band.real))
         d_off = _box_dim(_spectrum(_word(depth, m), 2.0j))
         assert d_off < 1.0
         assert d_off < d_band - 0.04

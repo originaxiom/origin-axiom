@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-10-22, REVIEW 67: forty merges reviewed (B1685–B1704); the loop closed — R66-2 and R66-3 declined with reasons, R66-4 resolved (B1705: B186's band counted on the line); scope notes on B1692 and B1703 from the premise audit; the window's seven sealed value contacts all short of their bars. 0 of 19.)**
+
 **LATEST (2026-10-22, S177: the harvest past the pins (P-252): the SM seat's W111–W119 rowed — eight preregistered tests that agree with main's: the principle fixes structure and leaves magnitudes free in the record's frames; the web seat's lepton test read, its null still running, no candidate yet. 0 of 19.)**
 
 **LATEST (2026-10-22, S176: what holds τ (B1704): no content on record does; the natural holding contents hold it at i or near ω, where there is no hierarchy; the hierarchy band needs a fine-tuned bosonic content in the matter's representation that nothing selects. 0 of 19.)**
@@ -3298,6 +3300,25 @@ v1.28 — the flavour three (alike, chiral under the weave's own group, one per 
 selection (B1606); and the principle's own tick a → ab, b → a carries one hand and erases the other while every move does
 the reverse, so neither hand is derived on the weave (B1607, GENESIS v1.29). **Derived parameters: 0 of 19.** Next: the
 even subweave, where both hands are global choices (B1609); the review's items R61-1 to R61-5.
+
+## ⟳ VIEW REFRESH — 2026-10-22 (Review 67)
+
+Touched at the Review 67 anchor (`b8df0d1ae`). **The window (B1685–B1704; 40 merges) tested the weave's mass computation
+sealed, seven times, and mapped why it falls short.**
+- **The frame:** B1656's four-channel coupling at the canonical end with a covariant Higgs. The cusp gives the
+  hierarchy's exponents (B1691) when the Higgs carries the cusp's tagged unit — FK10's, not a second postulate (B1700).
+- **Seven sealed value contacts** (B1693–B1696, B1698, B1699, B1702), each written before its data were read: none
+  reaches its specificity bar. The nearest is the tick's order-5 lines (B1698: 1.7% of random hierarchies fit as well,
+  against 1%), which give minimal SU(5)'s Y_e = Y_dᵀ.
+- **Why:** no line a principle on record selects splits all three charged sectors (B1703); the line-tied Higgs is
+  exactly 0 : 1 : 1 (B1701); nothing on record puts τ where the up quarks need it — not the record's cusp shapes (B1696,
+  B1702), not the coupling's strength (B1699), not the one-loop potential, which runs to the cusp or stops at i and ω
+  unless a content is fine-tuned (B1704).
+- **The scan for misses** (B1697, the owner's order) and the seats' work verified on main (B1685, B1686, B1689, B1701);
+  the SM seat's W111–W119 and the web seat's lepton test harvested.
+- **Review 67:** the loop closed (R66-4 resolved by B1705, B186's band counted on the line; R66-2 and R66-3 declined with
+  reasons); scope notes on B1692 and B1703 from the premise audit.
+- **0 of 19.**
 
 ## ⟳ VIEW REFRESH — 2026-10-21 (Review 66)
 

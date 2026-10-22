@@ -1,0 +1,40 @@
+{
+ "single-threaded BLAS": {
+  "1": {
+   "depth": 12,
+   "band_imag_max": 1.0919496294135342e-15,
+   "d_band_lock_2d": 0.9277814229024111,
+   "d_band_line": 0.9385155049225873,
+   "d_band_line_eigvalsh": 0.9385155049225873,
+   "d_off": 0.827160566342385
+  },
+  "2": {
+   "depth": 6,
+   "band_imag_max": 9.080501299991402e-16,
+   "d_band_lock_2d": 0.7916273349518228,
+   "d_band_line": 0.8829766699818676,
+   "d_band_line_eigvalsh": 0.8829766699818676,
+   "d_off": 0.7646040190888432
+  }
+ },
+ "default BLAS": {
+  "1": {
+   "depth": 12,
+   "band_imag_max": 9.373966038126393e-16,
+   "d_band_lock_2d": 0.9031110471276577,
+   "d_band_line": 0.9385155049225873,
+   "d_band_line_eigvalsh": 0.9385155049225873,
+   "d_off": 0.827160566342385
+  },
+  "2": {
+   "depth": 6,
+   "band_imag_max": 1.5543122315904424e-15,
+   "d_band_lock_2d": 0.8472132143780245,
+   "d_band_line": 0.8829766699818676,
+   "d_band_line_eigvalsh": 0.8829766699818676,
+   "d_off": 0.7646040190888432
+  }
+ },
+ "the line count is BLAS-independent": true,
+ "the ordering holds by at least 0.1 at both settings": true
+}

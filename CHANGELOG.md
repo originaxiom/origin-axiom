@@ -1,5 +1,28 @@
 # Changelog
 
+## REVIEW 67 — THE MAGNITUDES' BOUNDARY, MAPPED FROM MAIN'S SIDE (2026-10-22)
+
+- **Forty merges since Review 66** (`a498554e2..b8df0d1ae`, B1685–B1704); the review fired at forty and blocked S177's
+  push, so it ran first. Fresh clone: every gate but review-fires PASS, belt ok; 45 gate controls; full suite 7528
+  passed, 5 failed (B186's band lock, repaired here; B805's attachment lock, P-239; three whole-gate locks on
+  review-fires alone), 68 skipped.
+- **The loop.** R66-2 (hash every stored output) declined with its reason — each sealed lock re-derives its verdict
+  cells live from the stored output and the pinned data; R66-3 (the chain gap) declined — the chain is the frozen paper's
+  spine — and registered as P-253; R66-4 resolved by **B1705**; R66-6 and R66-7 carried as R67-2 and R67-4.
+- **B1705 (R66-4).** B186's κ = 2 band is Hermitian, its spectrum real; the lock box-counted it in two dimensions on
+  noise-scaled imaginary parts, so it moved with the BLAS thread count. Counted on the line: 0.939 and 0.883 at either
+  setting against the off-axis 0.827 and 0.765 — the ordering stands by 0.11–0.12; the lock repaired, B186 noted.
+- **The premise audit on the seeded sample** (B1685, B1689, B1692, B1702, B1703): B1692's "the line's real part never
+  matters" is the deep-cusp limit (on real-part-only lines the d–e difference decays from 6 × 10⁻³ at Im τ = 2.4 to
+  3 × 10⁻¹³ at 10); B1703's "the δ-rule belongs to a coupling that sees only R₁" is a reading — the deep-cusp alternative
+  was tested and excluded (lines with α ≠ 0 keep d and e apart by factors 2 and 4 at every Im τ). Dated notes on both.
+- **Errors:** no new class (E82 twice, E54, E85, an E80-shaped import path). **Provenance:** 4450 added lines, 0 hits.
+  **Vocabulary:** eight terms in TERMINOLOGY ("Added at Review 67").
+- **Action items:** R67-1 (the review tools' mirror list), R67-2 (P-229's verifications), R67-3 (GENESIS v1.52, P-237,
+  with FK10's sentence), R67-4 (ledger currency), R67-5 (the web seat's lepton null), R67-6 (P-211's W111 proof).
+- **Register.** P-253 added; FLOOR 253.
+- 0 of 19.
+
 ## S177 THE HARVEST PAST THE PINS (P-252) (2026-10-22)
 
 - **The SM seat** (pin e1724317 → 4755294c, 58 commits): W111–W119 rowed (harvest rows 1281–1289), each REGISTERED from

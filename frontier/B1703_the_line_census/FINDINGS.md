@@ -37,6 +37,9 @@
 - **What it does not do.** One Higgs (∂R), one end; the extra zero of R₁ at N ∣ 3 is computed, not derived; the CP-odd
   lines (P-164) are not counted here; no data.
 
+
+> *Dated note 2026-10-22 (Review 67's premise audit).* "The δ-rule belongs to a coupling that sees only R₁ = θ₁(δw)" is an explanation, not a computation: a reading. One alternative was tested and excluded (`verification/after_review67/deep_cusp.py`, large L, Im τ from 2.4 to 10): the δ-rule is not B1656's deep-cusp limit either. Lines with α ≠ 0 keep the down quarks and the leptons apart by factors 2 (order 8) and 4 (order 10) at every Im τ, B1692's discrete coefficients; only real-part-only lines converge, exponentially. Where the seat's rule comes from stays the seat's to say (the question in main's relay of 2026-10-22).
+
 ## 0. Seen first
 
 `VERDICT topic-sweep /line.?s order|order of the line|lines? of order|which lines split|split(s|ting)? (all )?three sectors|protection rule|W88/ (full text): 7 of 1475 arcs on main match (NEGATIVE 4, PROVED 2, no verdict file 1)` —

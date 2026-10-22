@@ -13026,6 +13026,21 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1705": {
+   "slug": "b186 band dimension regraded",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "golden"
+   ],
+   "refs": [
+    "B186"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B170": {
    "slug": "relational scale leap",
    "motifs": [

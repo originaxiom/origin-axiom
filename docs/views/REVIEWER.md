@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1433** |
-| words of findings prose | **1,146,329** |
-| test lock files referenced | **850** |
-| arcs carrying an authored verdict | **1433** (100.0 %) |
+| research arcs with findings | **1434** |
+| words of findings prose | **1,146,968** |
+| test lock files referenced | **851** |
+| arcs carrying an authored verdict | **1434** (100.0 %) |
 | recorded closures | **829** (662 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 976 |
+| PROVED | 977 |
 | NEGATIVE | 353 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1704`** (657 words, 1 locks)  
-WHAT HOLDS TAU (P-251; computed, no data): W62's PH3 is B1686's cusp algebra -- a content holds tau off the cusp only if its total cusp coefficient is negative (31/1024 = (31/512)/2), and every content on record is positive (5.45 to 66.57 zeta(6)), so none holds tau; adding trivial-sector Weyl fermions holds tau at i or near omega, where there is no hierarchy; scalars twisted along the shrinking cycle leave no minimum on the CP lines; a minimum in the hierarchy band needs net bosons in the matter's representation and a nearly cancelled cusp coefficient (matter + Higgs + 89-95 such scalars; with the gauge fields 595-672, with the graviton 689-780), each scalar moving tau* by 0.01-0.2 -- a fine-tuned integer content that nothing on record selects. 0 of 19.  
-`B1704_what_holds_tau/FINDINGS.md`
+**PROVED — `B1705`** (341 words, 2 locks)  
+B186'S BAND DIMENSION RE-GRADED (Review 67, R66-4): at lambda = 0 the operator is Hermitian, so the band's spectrum is real, and B186's lock box-counted it in two dimensions after rescaling noise-level imaginary parts (1e-15) to unit range -- the value moved with the BLAS thread count; counted on the line it is 0.9385 (golden) and 0.8830 (silver) at both settings, against the off-axis 0.8272 and 0.7646, so B186's ordering stands by 0.11-0.12; its lock counts the band on the line and its printed band values carry a dated note. 0 of 19.  
+`B1705_b186_band_dimension_regraded/FINDINGS.md`
 
 **NEGATIVE — `B1702`** (636 words, 1 locks)  
 THE OTHER CUSP SHAPES (P-249; sealed f51ab2718, sha256 8f26df36; NEGATIVE as sealed -- H1, H2, H3 fail; outputs committed unread at df0737fa1): with the weave's tau at the silver word state's cusp shape 2i (B675) or the golden word's spin end curve 1/2 + sqrt3 i (B1483), the end-data Higgs DR, the canonical end and any of 576 lines, no choice brings the six ratios within a factor of 3 (best 8.9 at 2i, 19.4 at 1/2 + sqrt3 i; chi2 593; 24.7% of random hierarchies fit as well); the up quarks' m2/m3 stays >= 0.0134 (measured 0.0037). With B1696, no word-state cusp shape tested selects tau in this frame. 0 of 19.  

@@ -887,3 +887,27 @@ theorem ledger and conditional claims in `CLAIMS.md`. Write "UNIQUENESS A6", "P0
   not VERIFIED or REPRODUCED on main.
 - **cites_seat** (Review 66): a verdict-file field listing the seat items an arc names without building on them (credit,
   a pointer, a comparison). An item it builds on goes in `rests_on_seat` and must be verified.
+
+## Added at Review 67 (2026-10-22) — the terms minted in the B1685–B1704 window
+
+- **H-cov, the covariant Higgs** (B1691): the tagged hypothesis that the Higgs's direction in M is a vector-valued
+  modular form for the matter's representation ρ_R, in the module R generates (f₀R + f₁∂R + f₂∂²R, ∂ the Serre
+  derivative). At weight 3/2 its only member is ∂R.
+- **the end-data Higgs ∂R; the unit-free Higgs a₀** (B1697, B1700): ∂R carries one unit of end data at the cusp, on v₊
+  alone — the coupling triplet R's own end condition — and gives the cusp hierarchy m₂/m₃ ~ ∣q∣^½; a₀ = ∂²R − E₄R/48
+  (weight 7/2) is the unique section with none and gives no hierarchy. The unit is FK10's tagged one (B1700).
+- **the calibration** (B1695 onward): a sealed comparison's specificity cell — the fraction of 4 000 random hierarchical
+  target sets (log-uniform m₂/m₃ in [10⁻³, 10⁻¹] and m₁/m₃ in [10⁻⁶, 10^−2.5] per sector) that the same model rows fit at
+  least as well as the data. A fit counts only below the fraction sealed (1% in B1696–B1702).
+- **a line's order** (B1698, B1703): the order N of a flat hypercharge line w = ατ + b in (ℚ/ℤ)². On B1656's coupling two
+  charged sectors coincide exactly when N divides 4 or 5 (d = e), 6 (u = d), or 2 or 7 (u = e); every N ≥ 8 splits all
+  three.
+- **protection** (B1703): on a line of order N, a sector's first generation is massless at leading order — its
+  "1"-channel residue R₁ vanishes — exactly when N divides its q_L − q_R or 3.
+- **the line-tied Higgs** (B1701; the SM seat's W63): the Higgs whose direction is the unit C_{p*} whose parity copy the
+  line leaves untwisted (p* ≡ −3w). On the line it gives every sector exactly 0 : 1 : 1.
+- **the cusp coefficient of a content** (B1686, B1704): the y³ coefficient of a content's one-loop potential, in ζ(6)
+  units per unit weight (2 untwisted, −31/16 twisted along the shrinking cycle, −31/512 the matter's comb). Positive runs
+  τ to the cusp.
+- **holds τ** (B1686, B1704): a content holds τ when its potential has a minimum inside the fundamental domain; it needs a
+  negative cusp coefficient.

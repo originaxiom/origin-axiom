@@ -612,6 +612,25 @@ flavour symmetry to the field: what couples to the matter, and what the coupling
 **Derived parameters: 0 of 19.** Next: B1646; the scope repairs; the quark count with a massless first generation
 (P-116); B1637's grading.
 
+## ⟳ VIEW REFRESH — 2026-10-22 (Review 67)
+
+Touched at the Review 67 anchor (`b8df0d1ae`). **The window (B1685–B1704; 40 merges) tested the weave's mass computation
+sealed, seven times, and mapped why it falls short.**
+- **The frame:** B1656's four-channel coupling at the canonical end with a covariant Higgs. The cusp gives the
+  hierarchy's exponents (B1691) when the Higgs carries the cusp's tagged unit — FK10's, not a second postulate (B1700).
+- **Seven sealed value contacts** (B1693–B1696, B1698, B1699, B1702), each written before its data were read: none
+  reaches its specificity bar. The nearest is the tick's order-5 lines (B1698: 1.7% of random hierarchies fit as well,
+  against 1%), which give minimal SU(5)'s Y_e = Y_dᵀ.
+- **Why:** no line a principle on record selects splits all three charged sectors (B1703); the line-tied Higgs is
+  exactly 0 : 1 : 1 (B1701); nothing on record puts τ where the up quarks need it — not the record's cusp shapes (B1696,
+  B1702), not the coupling's strength (B1699), not the one-loop potential, which runs to the cusp or stops at i and ω
+  unless a content is fine-tuned (B1704).
+- **The scan for misses** (B1697, the owner's order) and the seats' work verified on main (B1685, B1686, B1689, B1701);
+  the SM seat's W111–W119 and the web seat's lepton test harvested.
+- **Review 67:** the loop closed (R66-4 resolved by B1705, B186's band counted on the line; R66-2 and R66-3 declined with
+  reasons); scope notes on B1692 and B1703 from the premise audit.
+- **0 of 19.**
+
 ## ⟳ VIEW REFRESH — 2026-10-21 (Review 66)
 
 Touched at the Review 66 anchor (`a498554e2`). **The window (B1669–B1684; 22 merges) took the foundations quest to two

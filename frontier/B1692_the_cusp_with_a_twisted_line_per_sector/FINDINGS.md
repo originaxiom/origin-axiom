@@ -38,6 +38,9 @@ comparison with the measured masses is P-241, to be sealed). 0 of 19.
   here); the twisted Higgs (the Higgs's own charge on the line is carried, as in B1653, by the point coupling's gauge
   invariance, not by a twisted section); the sections tested are four, not all.
 
+
+> *Scope note 2026-10-22 (Review 67's premise audit).* "The line's real part never matters" was computed at Im τ = 14, deep in the cusp. In B1656's coupling (whose large-L limit is this point coupling) a line's real part moves the sectors by an amount that decays exponentially with Im τ: on real-part-only lines of order 8 the down–lepton difference in m₂/m₃ is 6 × 10⁻³ at Im τ = 2.4, 7 × 10⁻⁸ at 6 and 3 × 10⁻¹³ at 10 (B1703, `verification/after_review67/`). The statement is the deep-cusp limit.
+
 ## 0. Seen first
 
 `VERDICT topic-sweep /near the cusp|near omega|near ω|q-expansion|residual (charge|symmetr)|exponents? (of|fixed by)|hierarch(y|ies) (from|as) (powers|exponents)|Froggatt|modular weight|discrete exponents/

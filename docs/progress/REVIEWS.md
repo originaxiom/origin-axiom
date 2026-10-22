@@ -6800,12 +6800,155 @@ text and are not repaired. "Not on every remote" is the mirror (R65-1).
 
 ### Action items (Review 66)
 - [x] R66-1: the mirror — a replacement host, then push main and mirror the lanes (owner: the owner; carried from R65-1, R64-1, R63-1, R62-1; the carry-age rule asks the owner to decide or waive it now) — **resolved 2026-10-21 by the owner's decision** ("do all you recommend"): no second forge; a local bare mirror on an external drive holding every ref (heads, tags and the lanes' remote-tracking refs; 61 at creation), pushed after every landing with `+refs/*:refs/*` so that it never deletes a ref; a Software Heritage save request for the public repository (accepted, request 2567175); the `codeberg` remote's push disabled
-- [>] R66-2: every banked arc hashes its stored output and any post-seal file it cites, with a failing-path test (owner: cc; carried from R65-4, R64-4; due at Review 67)
-- [>] R66-3: adjudicate the chain gap's top entries (owner: cc; carried from R65-5, R64-5; due at Review 67)
-- [>] R66-4: B186's band box dimension re-graded in its own arc (owner: cc; carried from R65-9, R64-10; due at Review 67)
+- [x] R66-2: every banked arc hashes its stored output and any post-seal file it cites, with a failing-path test (owner: cc; carried from R65-4, R64-4; due at Review 67) — **declined at Review 67** (its §1: every sealed lock re-derives its verdict cells live from the stored output and the pinned data)
+- [x] R66-3: adjudicate the chain gap's top entries (owner: cc; carried from R65-5, R64-5; due at Review 67) — **declined at Review 67** (its §1: the chain is the frozen paper's spine; the entries registered as P-253 for the next draft)
+- [x] R66-4: B186's band box dimension re-graded in its own arc (owner: cc; carried from R65-9, R64-10; due at Review 67) — **resolved at Review 67** (B1705: the band counted on the line; the ordering stands by 0.11–0.12)
 - [x] R66-5: GENESIS v1.51 — every untagged reliance in GENESIS tagged, FK11's W45 and W46 read as verified, the κ wording (P-221) — through adoption/amend.py after this review's full suite (owner: cc; P-228) — **paid 2026-10-21 (B1685, GENESIS v1.51)**
-- [ ] R66-6: the verifications by consequence: W60 and W62 (P-222), then P-229's list in order (owner: cc)
-- [ ] R66-7: ledger currency (P-230) and the declined relays' asks (P-231) (owner: cc)
+- [>] R66-6: the verifications by consequence: W60 and W62 (P-222), then P-229's list in order (owner: cc) (carried as R67-2)
+- [>] R66-7: ledger currency (P-230) and the declined relays' asks (P-231) (owner: cc) (carried as R67-4)
 - [x] R66-8: filed at this review: R65-6, R65-7 and R65-8 resolved (§5); the census banked; the premise-audit notes on B1679, B1670 and B1682; P-214 completed (B1658, B1659); eight terms in TERMINOLOGY
 
 **anchor-commit: `a498554e2`**
+
+# Review 67 (2026-10-22) — the magnitudes' boundary, mapped from main's side
+
+Forty merges since Review 66 (`a498554e2..b8df0d1ae`, all on the first-parent line) and 20 arcs with a verdict
+(B1685–B1704), written at the head. The review fired at forty (the gate blocked the push of S177), so it runs before
+anything else lands.
+
+**What the window did:**
+- **The weave's mass computation, tested sealed and unsealed** (S156–S176). Main's frame is B1656's four-channel
+  coupling at B1667's canonical end, with a covariant Higgs (H-cov).
+  - B1691 found the cusp exponents (m₂/m₃ ~ ∣q∣^½ for the weight-3/2 section ∂R). B1692 bounded the sectors' spread for
+    the point coupling.
+  - Seven sealed value contacts followed, every one written before its data were read: B1693, B1694, B1695, B1696,
+    B1698, B1699 and B1702. None reaches the bar sealed for specificity. The nearest is B1698 (the tick's order-5 lines:
+    1.7% of random hierarchies fit as well, against 1%).
+  - The structure behind the misses:
+    - the order-5 lines give minimal SU(5)'s Y_e = Y_dᵀ (B1698);
+    - the line census (B1703): no line a principle selects splits all three charged sectors;
+    - the line-tied Higgs is exactly 0 : 1 : 1 (B1701);
+    - the frame's own coupling strength has no maximum (B1699);
+    - the record's cusp shapes do not supply the τ the up quarks need (B1696, B1702);
+    - no content on record holds τ, and the natural holding contents hold it at i or ω (B1704).
+- **The scan for misses** (B1697, the owner's order) and the Higgs's end data ruled by the math (B1700): it is FK10's
+  tagged unit, not a second postulate, but the unit does not select ∂R.
+- **The seats' work verified on main:** GENESIS v1.51 (B1685); W23, W24 and W44's frame (B1689); W60 and W62 (B1686);
+  W63 (B1701, with a correction on the line). The SM seat's W111–W119 and the web seat's lepton test are harvested
+  (S177).
+- **Corrections, targeted:** B1691's m₁ statements (S164), and B1692 and B1693's large-L scope (S167; RETRACTIONS rows
+  41 and 42). Both are main's own, found the same day.
+- 0 of 19.
+
+**fresh-clone: FAIL @ b8df0d1ae only on review-fires** (the gate this review satisfies; every other gate PASS; belt
+ok) · **sample seed: a498554e2**; read in full: B1685, B1689, B1692, B1702, B1703 · **gate controls: 45 registered**
+failing-path tests; unregistered: none · **full suite: 7528 passed, 5 failed, 68 skipped (42:59, -n 8, single-threaded BLAS) at b8df0d1ae: B186's band lock (R66-4, repaired by B1705 at this review), B805's attachment lock (P-239), and three whole-gate locks (test_repo_gates, test_b887, test_b1461) failing on review-fires alone, which this review satisfies**
+
+## 1. The loop
+
+- **R66-1 (the mirror): resolved** in Review 66's own block (the LaCie mirror, `git push backup`). The review tools
+  still name Codeberg as a mirror, so every seal of the window reports "not on every remote" for that reason alone
+  (R67-1).
+- **R66-2 (every banked arc hashes its stored output): declined, with its reason** (due here by the carry-age rule;
+  carried from R65-4 and R64-4).
+  - Every sealed arc of this window commits its outputs unread in a named commit, cited in its claim line.
+  - Each sealed arc's lock re-derives its verdict cells live from the stored output and the pinned data (B1694–B1702).
+    An output edited after the read therefore fails the lock whenever the edit changes a verdict, and git's own content
+    hashes pin it otherwise.
+  - A second hash file would duplicate git's hashing. The protection Review 64 asked for, the verdict tied to the
+    stored output, is the live re-derivation, and this window's practice is to write every sealed lock that way.
+- **R66-3 (the chain gap's top entries): declined, with its reason** (due here; carried from R65-5 and R64-5).
+  - The chain is the paper's spine, and the paper is frozen after draft 9 (the owner, 2026-10-20). Promotions into it
+    wait for the next draft.
+  - The top entries (B1098, B959, B1100, B952, B1086, B1000, B1484, B1070) are registered for that draft (P-253).
+- **R66-4 (B186's box dimension): resolved by B1705** (§5). The band's spectrum is real, and the lock box-counted
+  noise-scaled imaginary parts. Counted on the line, the ordering holds by 0.11–0.12 at either BLAS setting.
+- **R66-5: done** in Review 66's block (GENESIS v1.51, B1685).
+- **R66-6 (the verifications by consequence): carried.** W60 and W62 are done (B1686), and W23, W24 and W44 (B1689).
+  The rest of P-229's list remains.
+- **R66-7 (ledger currency and the declined relays' asks): carried.**
+- **R66-8: done.**
+
+## 2. The branch inventory and the lanes
+
+- **Branches.** 12 unmerged leaves, all registered. On one remote only: `B1668_the_price_of_the_nineteen`, `landing`,
+  `weave-physics-archive-2026-10-11`.
+- **Every live lane is read to its head** (harvest-debt --strict: NEW unrowed 0, backlog 0, stale 0). The SM seat is at
+  `4755294c` and the web seat at `817ddbf3` (S177). The audit lane, its fork and the referee lanes are at their pins.
+- **The web seat's lepton test is in progress.** Its family-wide null is still running. A candidate emerges only if the
+  finished null favours the data; main then verifies before any banking (R67-5).
+
+## 3. The declared modulus
+
+- **Read in full:** the five seeded arcs, against their claim lines and stored outputs, with their locks run. Two are
+  main's arcs of this session (B1702, B1703), read here as a reviewer reads them.
+- **Read in full by main at banking:** every arc of the window. The seven sealed arcs were read once, after their
+  outputs were committed unread.
+- **Certified mechanically:** the gates and the reproduction belt in a fresh clone; every seal's hashes and order; the
+  full suite on the head.
+- **Not certified:** the seats' results registered and not verified on main (W111–W118; the lepton test); the readings
+  in B1703 and B1704 marked as readings; P-237's GENESIS sentences, which land after this review (R67-3).
+
+## 4. The sample, and the premise audit on it
+
+| arc | finding | kind | done |
+|---|---|---|---|
+| B1692 | "the line's real part never matters" was computed at Im τ = 14, deep in the cusp, where the real part's effect is exponentially small. At Im τ ≈ 2–3 the line's full twist matters (B1703: lines with α = 0 split d from e at every L) | scope | dated note |
+| B1703 | "the δ-rule belongs to a coupling that sees only R₁ = θ₁(δw)" was an explanation, not a computation. One alternative was tested at this review and excluded (`verification/after_review67/deep_cusp.py`): the δ-rule is not B1656's deep-cusp limit either — lines with α ≠ 0 keep d and e apart by factors 2 and 4 at every Im τ to 10; only real-part-only lines converge, exponentially | reading marked | dated note; the question stays with the seat |
+| B1685 | "every site" reads as every site the Review 66 census found | none | — |
+| B1689, B1702 | every "at most", "never" and "no choice" is scoped to the frames, lines and τ tested | none | — |
+
+**The premise audit on the sample.** Every "every", "only", "all", "cannot", "exactly", "never" and "no" in the five
+claim lines was read against its premises and outputs. Two over-reach, B1692's (scope) and B1703's (an unverified
+explanation). No number in a claim line disagrees with its output.
+
+## 5. Protocol integrity
+
+- **Seven seals in the window** (B1693, B1694, B1695, B1696, B1698, B1699, B1702). Every one is sealed before its
+  results, its hashes unchanged, its outputs committed unread and then read once. "Not on every remote" is the stale
+  mirror list (R67-1).
+- **One sealed instrument failed at import** (B1699). It omitted the `sys.path` line another arc's module needs. The
+  same sealed files were re-run with `PYTHONPATH` set, and the first run's logs are kept and disclosed. From B1702 on,
+  main import-tests a sealed instrument before the seal, without computing (an E80-shaped instance: the instrument
+  leaned on a path its drafts' environment supplied).
+- **The window's main errors are main's own, and main found them the same day:**
+  - B1691's m₁ statements and B1692's bound of four were the large-L limit applied where the record's end is of order
+    one (E82). Corrected targeted (S164, S167), with RETRACTIONS rows 41 and 42.
+  - "Nothing on record selects τ" was said without the sweep (E54). The owner asked; the sweep found B357's cusp shape
+    and the scan's eight misses (B1696, B1697).
+  - Two numerical zeros were compared relatively in B1698's criterion check (E85). The comparison was rewritten after
+    the output was seen, and disclosed.
+  - Four wording slips were caught before landing by locks and gates: a rounded floor, a sphere's resolution, a range
+    reported from its maximum, and a spurious dependency that the representation sweep caught.
+  - **A lock writes into the repository root.** The full suite left `step7_table.json` there: B1428's lock runs
+    `step7_fixed_gluing.py` (B1428, B1431), which writes to the working directory. Deleted; the instrument should write
+    beside itself (R67-8).
+- **B186 re-graded (R66-4, B1705).**
+  - At λ = 0 the operator is Hermitian. The lock's two-dimensional box count rescaled the general solver's 10⁻¹⁵
+    imaginary parts to unit range, so the band's dimension partly counted noise, and the noise moved with the BLAS
+    thread count.
+  - Counted on the line, the band gives 0.939 (golden) and 0.883 (silver) at both settings, against the off-axis
+    0.827 and 0.765. B186's ordering stands by 0.11–0.12, and the printed band values (1.10, 0.85) are corrected by a
+    dated note.
+
+## 6. Advancement, errors, provenance
+
+- **Advancement:** LAW_MAP +11 rows (with S176's three), THEOREM_REGISTRY +4. Nothing moved down a class.
+- **Errors:** no new class. Instances: E82 (the large-L scope, twice), E54 (the unswept absence), E85 (zeros compared
+  relatively) and an E80-shaped import path.
+- **Provenance:** 4450 added lines scanned, 0 hits; no vendor or model name in a tracked file.
+- **Vocabulary:** eight terms added to TERMINOLOGY ("Added at Review 67"): H-cov and the covariant Higgs, the
+  end-data Higgs and the unit-free Higgs, the calibration, a line's order, protection, the line-tied Higgs, the cusp
+  coefficient, holds τ.
+
+### Action items (Review 67)
+- [ ] R67-1: the review tools' mirror list — the LaCie backup in place of Codeberg (R66-1), so a seal's "on every remote" reads the mirror the owner chose (owner: cc; a separate arc)
+- [ ] R67-2: the verifications by consequence, P-229's list in order (owner: cc; carried from R66-6)
+- [ ] R67-3: GENESIS v1.52 through adoption/amend.py after this review's full suite — P-237's items and FK10's sentence (B1700) (owner: cc; P-237)
+- [ ] R67-4: ledger currency (P-230) and the declined relays' asks (P-231) (owner: cc; carried from R66-7)
+- [ ] R67-5: the web seat's lepton test — read its null when finished; verify any candidate on main before banking (owner: cc)
+- [ ] R67-6: P-211 — verify the SM seat's W111 proof on main (owner: cc)
+- [ ] R67-8: B1428's and B1431's `step7_fixed_gluing.py` write `step7_table.json` to the working directory; write beside the script, in a dated repair (owner: cc)
+- [x] R67-7: filed at this review: R66-2 and R66-3 declined with reasons; R66-4 resolved (B1705); the premise-audit notes on B1692 and B1703; P-253; eight terms in TERMINOLOGY
+
+**anchor-commit: `b8df0d1ae`**

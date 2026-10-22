@@ -50,6 +50,12 @@ horseshoe is a theorem (Damanik–Gorodetski)** — only then applied off-axis.
 - **C2 — box-counting dimension (2nd independent Cantor diagnostic).** The spectrum's box dimension is `<1` and
   strictly below the κ=2 band's at matched depth, for golden (`m=1`: off-axis 0.91 < band 1.10) and silver
   (`m=2`: 0.77 < 0.85) — the fractal thinning of a Cantor set, independent of B163's MST.
+  > *Re-graded 2026-10-22 (Review 67, R66-4; B1705).* At κ = 2 (λ = 0) the operator is Hermitian, so the band's spectrum
+  > is real. The two-dimensional box count rescaled the general solver's noise-level imaginary parts (≈ 10⁻¹⁵) to unit
+  > range, so the band values printed here measured partly noise and moved with the BLAS thread count. Counted on the
+  > line, the band's dimension is 0.939 (golden, depth 12) and 0.883 (silver, depth 6) at either setting, against the
+  > off-axis 0.827 and 0.765 at the lock's depths. The ordering stands, by 0.11–0.12; the lock now counts the band on the
+  > line.
 - **C3 — recorded NEGATIVE (verify-don't-trust).** Two *local* diagnostics do **not** cleanly separate and are
   discarded (matching B165's warning): (a) the per-point index `|λ_max(DT)|` — the κ=2 band's median is also `>1`
   (a parabolic *set* has individual points with `|DT|>1`; per-point derivative magnitude is not the invariant);
