@@ -20125,3 +20125,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   smooth home for it. And it can live only where the strings number a multiple of 24, which picks K3.
 - **So three generations still need exactly one unit at the record's own edge,** the open question from before. 0 of
   19.
+
+## 2026-10-22 — the smallest closed universe
+
+- **Closing a gap.** The earlier result that the root's universe has the least energy leaned on theorems about
+  universes whose space is closed. The record's spaces each have one open end, so that reading was limited.
+- **What this arc did.** It closed each of the record's spaces in every way within a stated range, about 3000 closed
+  spaces in all, and found the one with the least volume. That volume is the energy such a universe settles to.
+- **The answer is the Weeks manifold,** which comes only from the root's sister. It is also known to be the smallest
+  closed space of its kind there is. So within the theorems' scope, the root's family holds the ground state. The way
+  the end is closed is still a choice. 0 of 19.
+- **The main seat checked another of this seat's proofs and confirmed it.**

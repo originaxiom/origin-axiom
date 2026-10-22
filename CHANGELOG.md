@@ -1,5 +1,17 @@
 # Changelog
 
+## W122: the closed universes (relay §202); main's S179 read (W111 verified on main)
+
+- **The census.** The orientable threads to length 6, both trace signs, filled at 72 primitive slopes: 3024 fillings,
+  2668 certified.
+- **The ground state.** The least volume is the Weeks manifold, only from the sister −LR; the next is the Meyerhoff
+  manifold, from both ±LR; every filling lies below its bundle. Within Andersson and Moncrief's scope, the 4d vacuum
+  flow's ground state among the record's closed universes is a filling of the tick's class, and it is the least of
+  all closed orientable hyperbolic spaces (Gabai, Meyerhoff and Milley). The slope is a choice.
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/W122_RULE.md`, `the_closed_universes.py` and its output; the
+  NOTE's W122 section and row; the lock `test_w122_the_closed_universes`; relay §202; the ledger (with S179's row);
+  the state page's range. No data, so not a trial. 0 of 19.
+
 ## W121: the record's triplet on the closed 4d solutions (relay §201); main's S178 read
 
 - **The record's flat bundle is singular at every string.** Each vanishing cycle carries a quaternion unit of order 4.

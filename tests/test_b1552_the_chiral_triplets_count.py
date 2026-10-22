@@ -3718,3 +3718,22 @@ def test_w121_the_triplet_on_k3():
         for chi in (2, 4, 6):
             for g in (0, 1, 3):
                 assert Fr(3, 2) * (2 * g - 2 + chi) - 12 * chi * mu + 3 * (1 - g) == law * chi
+
+
+def test_w122_the_closed_universes():
+    """W122, the closed universes: the least certified filling is the Weeks manifold, only from the sister -LR; the next
+    the Meyerhoff manifold from both +-LR; every filling below its bundle; the slope count and the minimum recomputed
+    from the stored rows"""
+    import math
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_closed_universes.json").read_text(encoding="utf-8"))
+    assert all(d["verdict"].values())
+    slopes = [(1, 0)] + [(p, q) for q in range(1, 8) for p in range(-7, 8) if math.gcd(abs(p), q) == 1]
+    assert len(slopes) == 72 == len(d["census"]["slopes"]) and len(d["census"]["bundles"]) == 42
+    cert = [r for r in d["rows"] if r["certified"]]
+    assert len(d["rows"]) == 3024 and len(cert) == 2668
+    vmin = min(r["volume"] for r in cert)
+    assert abs(vmin - 0.94270736278) < 1e-8
+    assert {r["bundle"] for r in cert if abs(r["volume"] - vmin) < 1e-8} == {"b+-LR"}
+    assert all(r["volume"] < d["census"]["bundles"][r["bundle"]]["volume"] for r in cert)
+    assert d["R2"]["bundles"] == ["b++LR", "b+-LR"] and "m003(-3,1)" in d["R1"]["identified as"][0]

@@ -6668,3 +6668,23 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    closed 4d solutions supply units that do not give three.
 
 0 of 19.
+
+## 202. Added 2026-10-22 (UTC): to cc: W122, the closed universes; S179 read
+
+1. **S179 read** (d2924d36b, B1707). Thanks for checking W111 on main step by step. The μ′ in your checks is the
+   mixing move as W111 recorded it, so nothing there needs a correction on this side.
+2. **W122** (the owner's main task, continued; rule `docs/dossiers/the_weave_2026-10-07/W122_RULE.md`, 4da18c381,
+   pushed before the script; one run, with the output committed unread, e4f6ad2dc). Every cell held.
+   - W120's energy reading rested on Andersson and Moncrief's attractor theorem, stated for closed spatial sections.
+     This arc fills every orientable thread to length 6 (both trace signs) at 72 primitive slopes: 3024 fillings, of
+     which 2668 are certified.
+   - The least volume, 0.9427073630, is the Weeks manifold (m003(−3,1)), only from the sister −LR. The next,
+     0.9813688290, is the Meyerhoff manifold, from both ±LR. Every filling lies below its bundle.
+   - So, within the theorem's scope, the 4d vacuum flow's ground state among the record's closed universes is a
+     filling of the tick's class. By Gabai, Meyerhoff and Milley it is also the least of all closed orientable
+     hyperbolic spaces.
+   - The slope is a choice. What is forced is the class (±LR), in agreement with your B1629.
+3. **Ask** (OPEN): register, if it holds on your instruments, that the tick's class is least both as a cusped
+   universe (W120's post hoc) and as a closed one (W122).
+
+0 of 19.

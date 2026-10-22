@@ -7726,6 +7726,59 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W122. The closed universes (the owner's main task, continued): among the closed hyperbolic spaces filled from the record's threads, the least volume, the 4d vacuum flow's ground state, is the Weeks manifold, from the tick's sister −LR; the next is the Meyerhoff manifold, from both ±LR (`the_closed_universes.py`; `W122_RULE.md`)
+
+**Why.**
+- W120 found every thread to be the space of an exact 4d vacuum universe, with the tick's ±LR the least in volume.
+  But the attractor theorem behind the energy reading (Andersson and Moncrief) is stated for closed spatial sections,
+  and the threads are cusped.
+- Dehn filling a thread's cusp gives closed hyperbolic spaces, inside that theorem's scope. A filling is a choice of
+  slope, which the principle does not make, so every slope in a stated box is taken.
+
+**The order.**
+- The rule (`W122_RULE.md`, 4da18c381) was committed and pushed before the script. It disclosed an instrument check on
+  census names only.
+- The script (7cbf1ba8a) was run once. Its output (e4f6ad2dc) was committed unread, then read once.
+
+**The result (COMPUTED; every cell as predicted).**
+- **The census.** 21 words to length 6 and both trace signs give 42 bundles. Filled at 72 primitive slopes each, they
+  give 3024 fillings.
+  - 2668 are certified: all tetrahedra positively oriented, with high precision agreeing within 10⁻⁹.
+  - 356 are not certified: 136 contain negatively oriented tetrahedra, 96 flat, 70 degenerate, and 54 have an
+    unrecognized solution type.
+- **R1.** The least certified volume, 0.9427073630, is the Weeks manifold (identified as m003(−3,1)). It is attained
+  only at fillings of b+-LR, the sister −LR, at the slopes (2, 5) and (3, 5) in SnapPy's basis.
+- **R2.** The next, 0.9813688290, is the Meyerhoff manifold (identified as m003(−2,3)). It is attained at fillings of
+  both b++LR and b+-LR.
+- **R3.** Every certified filling lies below its bundle's volume (0 exceptions).
+- **R4 (read-out).**
+  - The next three volumes are 1.2637092390 (m003(−4,3), from −LR), 1.2844853000 (m004(6,1), from +LR, −LLR and −LRR)
+    and 1.3985088840 (m004(1,2), from +LR).
+  - Ranked by each bundle's least filling: −LR (0.9427), +LR (0.9814), −LLR and −LRR (1.2845), then −LR³ and −L³R
+    (1.4638).
+
+**What it shows (a READING, cited).**
+1. **W120's scope gap is closed for closed sections.**
+   - Each certified filling is a closed hyperbolic space, so its Milne cone is a stable attractor of the 4d vacuum
+     Einstein flow (Andersson and Moncrief), with energy proportional to its volume (Fischer and Moncrief).
+   - Among the closed universes filled from the record's threads in the box, the ground state is the Weeks manifold,
+     and only the tick's class (its sister −LR) reaches it.
+2. **The record's family reaches the absolute minimum.** By Gabai, Meyerhoff and Milley (2009), the Weeks manifold has
+   the least volume of all closed orientable hyperbolic 3-manifolds. So the least closed 4d vacuum universe of any
+   kind is a filling of the tick's class.
+3. **The choice it costs.** The slope is a choice that the principle does not make. So what is forced is the class
+   (±LR), as in W120 and main's B1629, and the closed universe that realizes it needs one choice of filling.
+4. **What it does not do.**
+   - It does not select the slope.
+   - It does not treat fillings outside the box, or the uncertified ones. No closed orientable hyperbolic space has
+     less volume than the Weeks manifold, so the minimum stands regardless.
+   - It gives no G and no scale.
+
+**Weave or thread.** A census of thread results, labelled so. Its one claim about all threads at once is which has
+the least filling.
+
+**Status.** COMPUTED (the rule first; one run; every cell as predicted). No data, so not a trial. 0 of 19.
+
 ## W121. The record's triplet on the closed 4d solutions (the owner's main task, continued): the record's flat bundle is singular at every string, the triplet lives only where χ(O_S) is even, so K3 is the least closed solution, and there the count is −30 for one hand and −36 for the other; in general −15χ(O_S) and −18χ(O_S), never three (`the_triplet_on_k3.py`; `W121_RULE.md`)
 
 **Why.**
@@ -10460,6 +10513,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W122 | COMPUTED (the rule first; one run; every cell as predicted); a census of thread results | the closed universes: 42 orientable bundles (21 words to length 6, both trace signs) filled at 72 primitive slopes, 2668 of 3024 fillings certified; the least volume 0.9427073630 is the Weeks manifold (m003(−3,1)), only from the sister −LR, and the next 0.9813688290 the Meyerhoff manifold, from both ±LR; every filling lies below its bundle; within Andersson and Moncrief's scope the 4d vacuum flow's ground state among the record's closed universes is a filling of the tick's class, and by Gabai, Meyerhoff and Milley it is the least of all closed orientable hyperbolic spaces; the slope is a choice. 0 of 19 |
 | W121 | COMPUTED (the rule first; one run; every cell as predicted; P2's wording corrected before the rule's commit); WEAVE-type | the record's triplet on the closed 4d solutions: every vanishing cycle carries a quaternion unit of order 4 under ρ_Q (2224 primitive classes), so the record's flat bundle is singular at every string; with the record's own ρ_T, 12 positive twists give −I₃ and 24 give I₃ (scalar exactly at k = 3, 6, 9, 12), so the triplet lives only where χ(O_S) is even and K3 is the least closed solution; exponents {⅛, ⅜, ⅞} and {⅛, ⅝, ⅞} at every string; on K3 the index is −30 (ρ_T) and −36 (ρ̄_T), and in general −15χ(O_S) and −18χ(O_S) for every base genus, never ±3; the units 4d gravity forces overshoot, and three stays one unit at the weave's own cusp (GENESIS FK10). 0 of 19 |
 | W120 | COMPUTED (the rule first; one run; seven cells as predicted; A3 and A4 failed as worded on SnapPy's notation, traced post hoc and labelled; A4's intended claim holds post hoc); family-wide (A1, A2), a census of thread results (A4), WEAVE-type (part B) | from three dimensions to four (the owner's main task): the cone −dt² + t²g over a 3d Einstein metric with Ric = 2κg is Ricci-flat iff κ = −1, the record's own Λ = −1, so every thread is the space of an exact 4d vacuum universe (the Milne cone; de Sitter and anti-de Sitter in open slicing with sinh t and sin t) on which gravitons propagate; post hoc, among the orientable bundles of 224 words to length 10 with both trace signs, the least volume 2.0298832128 is exactly ±LR (m004, m003), next ±LLR at 2.6667; through the records' torus as a fibre, the metric e^φ\|dz\|² + (1/Im τ)\|dx + τ dy\|² is Ricci-flat for holomorphic τ with e^φ = Im τ\|h\|², the moves force Im τ\|η\|⁴ (only q = 2p invariant, to 4 × 10⁻⁴⁰), each pinched record is a string of deficit 2π/12 (exponent 1/6 to 2 × 10⁻⁹), and the moves' abelianization ℤ/12 (χ(R) = 1, χ(L) = 11, χ(LR) = 0) makes the units on a closed base a multiple of 12: 12 (rational elliptic surface) or 24 (K3); no G, no carrier chosen; W121 named. 0 of 19 |
 | W119 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE-type result given the frames | beyond tree level (the third of the owner's three arcs): canonical normalization multiplies det Y by a positive real, so no Kähler metric moves arg det(Y_u Y_d) (checked at three τ over 300 metrics, worst 7 × 10⁻⁴⁸ at 50 digits; a non-Hermitian control moves it by 0.6), and W113's structural θ̄ survives; one-loop running of m₁m₃/m₂² from Λ to M_Z, in the SM and the MSSM (tan β 2 to 50, Λ 10¹² to 10¹⁶ GeV, all 24 points perturbative), multiplies it by F in 0.545 to 0.903 (up), 0.702 to 1.130 (down), 0.843 to 1.000 (leptons); the MSSM's gauge couplings meet to 0.17%; no point is coherent, and no forced coefficient reaches the down or lepton window (735/121 would need F ≤ 0.654, 3/5 F ≤ 0.18). W118's negative stands. 0 of 19 |
