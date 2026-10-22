@@ -87,6 +87,8 @@ which has no gravitons, to 4d gravity with propagating ones. Three arcs have run
 - **Which carrier is physical:** the records' torus as space or as a fibre (GENESIS FK11's dictionary).
 - **The graviton spectrum** on the ground-state universe: the transverse traceless modes of the Weeks manifold. Named
   here; its rule is W124 (2026-10-22).
+  - **Recorded, not banked (W124, the same day).** On Weeks the lowest graviton has ν₁ ≥ 2.0, with about three modes
+    near 2.65. On Meyerhoff (the tick's own filling) ν₁ ≥ 1.18. Every graviton decays as τ⁻¹ on the Milne cone.
 - **The filling slope**, and the cusp's unit (GENESIS FK10).
 
 0 of 19.

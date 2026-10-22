@@ -3793,3 +3793,35 @@ def test_w123_the_higgs_route():
     assert {e: Fr(s.v, 8) for e, s in lines.items()} == want == {e: Fr(s.v, 8) for e, s in dlines.items()}
     dv, _, _ = HR.dims_lower(HR.rS, HR.rT, Fr(3, 2), lambda x: x - (1 if x == Fr(7, 8) else 0))
     assert dv == 1
+
+
+def test_w124_the_graviton_spectrum():
+    """W124, the graviton spectrum: the verdict as recorded (G2 failed on the constant mode's tail); the unfolding
+    identity exact on the shortest geodesics; the post hoc cuts (the constant-mode deficit tracks the main term, the TT
+    values stable); the lowest graviton's positivity bound recomputed from the stored grid"""
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_graviton_spectrum.json").read_text(encoding="utf-8"))
+    v = d["verdict"]
+    assert v["G0"] and v["G1"] and not v["G2"] and v["G2 parts (a, b, c)"] == [False, True, True]
+    assert v["G3"] and v["G4"] and v["G5"] and v["G6"]
+    for lab in ("Weeks", "Meyerhoff"):
+        for L0, mult, w, want in d["manifolds"][lab]["shortest geodesics [l, mult, sum w, 2 mult l]"]:
+            assert abs(w - want) < 1e-7
+    assert d["manifolds"]["Weeks"]["Cornish-Spergel max |diff| on [0,7]"] < 0.05
+    ph = json.loads((here / "the_graviton_spectrum_posthoc.json").read_text(encoding="utf-8"))
+    for lab in ("Weeks", "Meyerhoff"):
+        rows = ph[lab]
+        for cut in ("5.0", "5.5", "6.0"):
+            r = rows[cut]
+            assert abs(-r["constant mode: S0(0) - h0(i)"] - r["main-term tail beyond R'"]) < 0.02
+        tt = [rows[c]["TT peaks"][0][0] for c in ("5.0", "5.5", "6.0")]
+        assert max(tt) - min(tt) <= 0.02
+    W = d["parameters"]["w"]
+    T = np.round(np.arange(0, 10.0001, 0.01), 2)
+    G = lambda x: np.exp(-x ** 2 / (2 * W ** 2))
+    bound = {}
+    for lab in ("Weeks", "Meyerhoff"):
+        S2 = np.array(d["manifolds"][lab]["S on the grid"]["S2"])
+        bound[lab] = min(nu for nu in np.arange(0.0, 4.0, 0.005) if np.all(G(T - nu) + G(T + nu) <= S2 + 0.02))
+    assert 1.95 <= bound["Weeks"] <= 2.0 and 1.17 <= bound["Meyerhoff"] <= 1.19

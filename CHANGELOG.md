@@ -1,5 +1,17 @@
 # Changelog
 
+## W124 recorded (not banked); W123 verified exactly and its reading corrected (relay §207)
+
+- **W124, the graviton spectrum** (thread results). Calibrated by Cornish and Spergel and by Lin and Lipnowski. On
+  the Weeks manifold the lowest graviton has ν₁ ≥ 2.0; on the Meyerhoff manifold ν₁ ≥ 1.18. G2 failed as worded on
+  the constant mode's geodesic tail; G5's read-out was biased and is replaced by a positivity bound. Recorded, not
+  banked.
+- **W123, verified and corrected.** An exact second route confirms every count. With the line-bundle unit O(δ),
+  uniform by construction, a forced Higgs gives three generations; one generation needs a unit on one chosen line.
+- **An independent review** of both arcs, at the owner's request to verify; its findings are recorded.
+- **Surfaces.** The NOTE (W124 section and row; W123's correction), the gravity-line page, two post hoc scripts,
+  the locks, relay §207, the ledger, the state page's range. 0 of 19.
+
 ## W123: the Higgs route to the cusp's unit (relay §206); B1713 rowed
 
 - **W123** (WEAVE-type; five of seven cells as predicted). A weight-3/2 Higgs exists only with a unit at the

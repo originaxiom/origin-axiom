@@ -7726,6 +7726,91 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W124. The graviton spectrum of the ground-state universe (the owner's choice): every graviton on the Milne cone over a closed thread universe is a damped oscillation in log τ at the transverse traceless frequencies; on the Weeks manifold the lowest has ν₁ ≥ 2.0, with about three modes clustered near 2.65; on the Meyerhoff manifold ν₁ ≥ 1.18, and one mode near 1.20 fits; recorded, not banked, because one calibration cell failed as worded (`the_graviton_spectrum.py`; `W124_RULE.md`; post hoc `the_graviton_spectrum_posthoc.py`)
+
+**Why.**
+- Every thread is the space of an exact 4d vacuum universe, the Milne cone (W120). Its gravitons are the transverse
+  traceless (TT) modes of the space.
+- The least closed universe from the record's threads is the Weeks manifold, and the next is the Meyerhoff manifold, a
+  filling of the tick itself (W122). The gravity line named their graviton spectrum and did not compute it.
+
+**The order.**
+- The rule (`W124_RULE.md`, bcc3686a3) was committed and pushed before the script. It disclosed the literature read
+  for calibration (Cornish and Spergel; Inoue; Lin and Lipnowski) and the instrument checks.
+- The script was reviewed (two fixes before its commit) and committed (8a2e3ed4b). It was run once, in 13 minutes. Its
+  output (6e4ffb620) was committed unread, then read once.
+- At the owner's request to verify, an independent adversarial review was run. A fresh agent was given the code and
+  the rules, not the conclusions. Its findings are below with this seat's checks of them.
+
+**The result (COMPUTED; G2 failed as worded; G5 held as worded, but its read-out was biased).**
+- **G0.** The instrument checks:
+  - O(3,1) defects are 10⁻¹⁴, and the vertex inequalities hold to 5 × 10⁻¹⁵ with the farthest vertex at r_out.
+  - Lattice counts are within 0.7% of the volume law at ρ = 5, 6 and 7 on both manifolds.
+  - The unfolding identity, checked directly: for the shortest geodesics, Σ|axis ∩ D| equals 2 × multiplicity ×
+    length to 8 digits on both manifolds. On Weeks these are 0.5846, 0.7941 and 1.2899, each ×3.
+  - 24.8 and 23.2 million elements were visited, and 124 352 and 119 851 axes kept.
+- **G1.** For h = z^{a−2}(dx dy + dy dx), μ(a) = −a² + 2a + 2, and Ric₁ ∝ τ²T'' + 3τT' + a(2 − a)T, that is
+  (μ − 2)T. With a = 1 + iν, μ = ν² + 3.
+- **G2 FAILED** (part a).
+  - (a) The constant mode at T = 0 gives 6.1335 (Weeks) and 6.1225 (Meyerhoff) against 6.1604. The deficits, 0.44%
+    and 0.62%, exceed the tolerance of 0.1%.
+  - (b) Weeks's scalar spectral function agrees with Cornish and Spergel's 74 eigenvalues, smoothed by the same window,
+    to 0.045 on [0, 7].
+  - (c) Meyerhoff's scalar count reaches 0.5 at 5.02.
+- **G3.** Weeks has S₁ ≤ 0.021 on [0, 1], with its first coexact peak at t ≈ 3.14 (λ* ≈ 9.9, above Lin and
+  Lipnowski's bound 8.9). Meyerhoff has S₁(0) = 1.369, against 1.38 for one eigenvalue at their λ₁* ≈ 0.33.
+- **G4.** S₂ ≥ 0.0059 (Weeks) and ≥ 0.398 (Meyerhoff) on [0, 10].
+- **G5, held as worded:** N₂ reaches 0.5 at 1.66, inside [1, 4]. The statistic is biased; see below.
+- **G6.** N₂(8) is 19.18 against Weyl's 19.36 (Weeks), and 21.40 against 20.15 (Meyerhoff).
+- **G7 (read-out).** Weeks has TT peaks at 2.65 (height 3.18) and 6.02 (6.58). Meyerhoff has a TT peak at 1.81
+  (1.41), and S₂(0) = 0.398.
+
+**What failed, and the checks after the read-out (post hoc, labelled).**
+1. **G2(a)'s tolerance was wrong by design.**
+   - The rule said that cutting at |u| ≤ R costs e⁻⁸. But the geodesic count grows like e^{2ℓ} and the weight falls
+     like e^{−ℓ}. So the constant mode's geometric weight is a Gaussian in ℓ centred at 1/w² = 2.25 with spread 1.5,
+     and the cut at 6 drops 0.038 (0.62%).
+   - Re-enumerated, with cuts at 5.0, 5.5 and 6.0: the deficits are 0.191, 0.080 and 0.027 (Weeks) and 0.199, 0.093
+     and 0.038 (Meyerhoff), against the main term's 0.206, 0.093 and 0.038. Cornish and Spergel's agreement tightens
+     from 0.19 to 0.09 to 0.045 with the cut.
+   - The coexact and TT sectors have no such main term. Across the three cuts their values move by at most 0.015.
+     The TT peaks stay at 2.64 to 2.65 and 1.80 to 1.81, and N₂ agrees to 10⁻³.
+   - So the failure is the scalar constant mode's tail, not the calibration. The review found the same and checked it
+     on its own reduced enumerations.
+2. **G5's statistic was biased** (found by the review; checked by this seat).
+   - The point where the smoothed count reaches 0.5 sits below the lowest eigenvalue: by 0.45 for a double one. The
+     scalar side shows it, 4.80 against Cornish and Spergel's 5.18.
+   - Positivity gives a bound instead. Since S₂(T) = Σ h_T(ν_k) with every term ≥ 0, a lowest eigenvalue ν₁ needs
+     G(T − ν₁) + G(T + ν₁) ≤ S₂(T) + ε at every T.
+   - Weeks: ν₁ ≥ 2.28 (ε = 0), 2.07 (ε = 0.01) and 1.97 (ε = 0.02). Meyerhoff: ν₁ ≥ 1.20, 1.19 and 1.18.
+   - So 1.66 is not the lowest graviton, and the bound replaces it.
+   - Meyerhoff's S₂(0) = 0.398 is what one mode at ν = 1.20 gives (0.396), a fit, not a proof.
+3. **The review's other points, accepted.**
+   - "No growing graviton" is a theorem (helicity ±2 has no complementary series), which G4 cannot test. It checks
+     the normalization only.
+   - The TT formula has no correction for any b₁, since the trivial character has only θ-modes 0 and ±1. The coexact
+     factor 2 undoes Lin and Lipnowski's ½; the rule's "doubled to sum both helicities" misdescribes it.
+   - The dedup key's rounding re-finds the identity six times at depth 2. It is filtered, and G0's duplicate check saw
+     only kept elements.
+
+**What it shows (READING; recorded, not banked, per the rule).**
+1. **On the Milne cone over the Weeks manifold,** every graviton is τ⁻¹cos(ν_k log τ + φ), with discrete ν_k and no
+   growing or zero mode.
+   - The lowest has ν₁ ≥ 2.0: ∇*∇ ≥ 7, Δ_E ≥ 5, and a log-period at most π.
+   - About three modes cluster near ν ≈ 2.65, and the next weight is near 6.
+2. **The tick's own closed universe, the Meyerhoff manifold, has a lower graviton:** ν₁ ≥ 1.18, with one mode near
+   1.20 fitting the data.
+3. **No G and no scale.** The frequencies are in curvature units.
+4. **The instrument is calibrated by two outside sources:** Cornish and Spergel (scalars) and Lin and Lipnowski
+   (coexact 1-forms, on both manifolds).
+
+**Weave or thread.** Thread results, each one filled thread, chosen by W122's stated rule; the slope is a choice.
+
+**Status.** COMPUTED (the rule first; one run). G2 failed as worded, on the constant mode's tail, which the rule's
+tolerance did not allow for. G5's read-out was biased and is replaced by the positivity bound. Both were diagnosed
+post hoc, the second by an independent review. The TT read-out is recorded, not banked. No data, so not a trial.
+0 of 19.
+
 ## W123. The Higgs route to the cusp's unit (the owner's choice): a Higgs at weight 3/2 exists only with a unit at the weave's cusp; the least end data that make room for one is one unit on one eigenline, and the least pole is v₊'s, whose Higgs is ∂R; that end datum carries one chiral generation, not three (`the_higgs_route.py`; `W123_RULE.md`; post hoc `the_higgs_route_posthoc.py`)
 
 **Why.**
@@ -10594,6 +10679,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W124 | COMPUTED (the rule first; one run; G2 failed as worded on the constant mode's geodesic tail, which the rule's tolerance missed; G5's read-out biased and replaced post hoc by a positivity bound, found by an independent review); recorded, not banked; thread results | the graviton spectrum of the ground-state universe: the trace formula on the Weeks and Meyerhoff manifolds from this seat's own enumeration (24.8 and 23.2 million elements; the unfolding identity exact to 8 digits on the shortest geodesics), calibrated by Cornish and Spergel (scalars, to 0.045) and Lin and Lipnowski (coexact, both manifolds); every graviton on the Milne cone is τ⁻¹cos(ν log τ + φ); Weeks's lowest has ν₁ ≥ 2.0 (∇*∇ ≥ 7) with about three modes near 2.65; Meyerhoff's ν₁ ≥ 1.18, one mode near 1.20 fitting; the TT values stable to 0.015 across cuts at 5.0, 5.5 and 6.0; no G, no scale. 0 of 19 |
 | W123 | COMPUTED (the rule first; one run; five of seven cells as predicted; Y2 and Y6 failed as worded on the instrument's threshold 10⁻⁹, and the law holds post hoc for all 128 end data with the threshold in the gap, 3.4 × 10⁻¹⁶ against 4.5 × 10⁻¹⁰); WEAVE-type | the Higgs route to the cusp's unit (the owner's choice): with per-line end data m at the weave's cusp, a Higgs at weight 3/2 exists only with a unit (d = 0 for every m ≤ 0); one unit on any one eigenline gives exactly one section, and the least pole, −⅛, is on v₊, whose section is ∂R (this seat's exact series; residual 5.5 × 10⁻³¹), the hierarchy's Higgs; that end datum's count is −1, one chiral generation, and three needs Σm = 3, a generation-blind source; route 1 does not force three; the same structure holds for ρ̄_T; v₊ is not a parity line. Corrected the same day: "does not force three" holds only if a unit may sit on one chosen line; with the canonical unit O(δ), uniform by construction, a forced Higgs gives n = 1 and three generations, the Higgs space having dimension 3n (the exact second route, post hoc, agrees in all 64). 0 of 19 |
 | W122 | COMPUTED (the rule first; one run; every cell as predicted); a census of thread results | the closed universes: 42 orientable bundles (21 words to length 6, both trace signs) filled at 72 primitive slopes, 2668 of 3024 fillings certified; the least volume 0.9427073630 is the Weeks manifold (m003(−3,1)), only from the sister −LR, and the next 0.9813688290 the Meyerhoff manifold, from both ±LR; every filling lies below its bundle; within Andersson and Moncrief's scope the 4d vacuum flow's ground state among the record's closed universes is a filling of the tick's class, and by Gabai, Meyerhoff and Milley it is the least of all closed orientable hyperbolic spaces; the slope is a choice. 0 of 19 |
 | W121 | COMPUTED (the rule first; one run; every cell as predicted; P2's wording corrected before the rule's commit); WEAVE-type | the record's triplet on the closed 4d solutions: every vanishing cycle carries a quaternion unit of order 4 under ρ_Q (2224 primitive classes), so the record's flat bundle is singular at every string; with the record's own ρ_T, 12 positive twists give −I₃ and 24 give I₃ (scalar exactly at k = 3, 6, 9, 12), so the triplet lives only where χ(O_S) is even and K3 is the least closed solution; exponents {⅛, ⅜, ⅞} and {⅛, ⅝, ⅞} at every string; on K3 the index is −30 (ρ_T) and −36 (ρ̄_T), and in general −15χ(O_S) and −18χ(O_S) for every base genus, never ±3; the units 4d gravity forces overshoot, and three stays one unit at the weave's own cusp (GENESIS FK10). 0 of 19 |

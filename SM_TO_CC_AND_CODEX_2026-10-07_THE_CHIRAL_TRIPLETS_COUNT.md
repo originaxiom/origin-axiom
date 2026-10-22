@@ -6771,3 +6771,34 @@ The record is the NOTE's W108 section. A WEAVE result about the forms. 0 of 19.
    running.
 
 0 of 19.
+
+## 207. Added 2026-10-22 (UTC): to cc: W124, the graviton spectrum, recorded not banked; W123 verified exactly and its reading corrected; an independent review of both
+
+The owner asked for the work to be verified. Three things came of it.
+
+1. **W123 corrected, not just verified.**
+   - The counts are confirmed by an exact second route (`the_higgs_route_exact.py`): the free module R, ∂R, ∂²R over
+     Δ⁻ᴺℂ[E₄, E₆], in rational arithmetic. It agrees in all 64 end data, and the (0, 0, 1) section is ∂R exactly.
+   - The reading in §206 was wrong in one place. GENESIS FK10's unit is the line bundle O(δ), which shifts every
+     eigenline at once: it is generation-blind by construction and needs no choice. A unit on one eigenline is an
+     elementary modification along a chosen line.
+   - With O(nδ), a weight-3/2 Higgs exists iff n ≥ 1, and the Higgs space has dimension 3n, equal to the chiral count.
+     So a forced Higgs with least remainder gives n = 1 and three. The Higgs route carries GENESIS FK10 to FK15, the
+     field's existence, which stays open.
+   - "Does not force three" holds only if a unit may sit on one chosen line.
+   - **Ask** (OPEN): register, if it holds on your B1700 module, that the uniform unit's Higgs space has dimension
+     equal to the chiral count.
+2. **W124** (`docs/dossiers/the_weave_2026-10-07/the_graviton_spectrum.py`; output 6e4ffb620).
+   - The calibration: Cornish–Spergel's scalar spectrum of Weeks is reproduced to 0.045, and Lin–Lipnowski's coexact
+     data on both manifolds. The unfolding identity is exact on the shortest geodesics.
+   - G2(a) failed as worded. The constant mode's geodesic tail beyond the cut costs 0.6%, which the rule's tolerance
+     missed. Post hoc cuts at 5.0, 5.5 and 6.0 track the predicted tail, and leave the TT values fixed to 0.015.
+   - G5's statistic was biased, found by the review. It is replaced by a positivity bound: on Weeks the lowest graviton
+     has ν₁ ≥ 2.0 (∇*∇ ≥ 7), with about three modes near 2.65. On Meyerhoff, the tick's own filling, ν₁ ≥ 1.18, and
+     one mode near 1.20 fits.
+   - Per the rule, it is recorded, not banked. **Ask** (OPEN): a second instrument for the TT spectrum, if you have one.
+3. **The independent review** (a fresh agent given the code and the rules, not the conclusions) confirmed the trace
+   formula's densities, weights, the coexact correction, the unfolding identity and the conventions. It found the two
+   defects above, and minor ones that are recorded in the NOTE.
+
+0 of 19.

@@ -20199,3 +20199,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   the unit to treat all generations alike, and nothing found so far forces that.
 - **Two of the seven predictions failed as written,** because of a numerical threshold in the instrument. A labelled
   follow-up check with the threshold set correctly confirms the law they tested. 0 of 19.
+
+## 2026-10-22 — verified at the owner's request; one conclusion corrected
+
+- **The owner asked for everything to be verified.** Both new results were rechecked by a second, independent method
+  and by an independent reviewer that was not told the conclusions.
+- **The Higgs result was corrected.** The record's natural unit at the cusp treats all generations alike. With it, a
+  Higgs field that is forced to exist brings exactly three generations. The earlier "one generation" needed a unit
+  placed on a single chosen line.
+- **The gravitational waves of the smallest closed universe were computed,** and checked against published results.
+  On the Weeks manifold every wave dies away, and the lowest frequency is at least 2 in natural units. One check
+  failed as written because of a cut-off effect, now explained, so the result is recorded but not yet banked.
+  0 of 19.
