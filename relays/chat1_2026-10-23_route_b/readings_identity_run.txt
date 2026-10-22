@@ -1,0 +1,7 @@
+eps Q_I eps^T + Q_I: 0.0e+00
+eps Q_J eps^T - Q_J: 0.0e+00
+eps Q_K eps^T + Q_K: 0.0e+00
+conj Q_I + Q_I: 0.0e+00
+conj Q_J - Q_J: 0.0e+00
+conj Q_K + Q_K: 0.0e+00
+max |S~(v) - S(conj v)| over 1000 random v: 0.0e+00
