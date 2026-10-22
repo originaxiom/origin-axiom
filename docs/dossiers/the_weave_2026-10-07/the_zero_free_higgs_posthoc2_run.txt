@@ -1,0 +1,44 @@
+{
+ "100 digits": {
+  "distinct eigenvalues": 81,
+  "max relative residual of the cubic equations over the points": 0.1935296324313489,
+  "points with relative residual < 1e-20": 0,
+  "max |N'/eta^-3 - 1| at 1.5i, 2.5i, 3.5i": [
+   76510694277.3634,
+   3689089752831.8657,
+   5.666051325012195e+20
+  ],
+  "points with |N'/eta^-3 - 1| < 1e-10 at 2.5i": 0,
+  "the worst point: residual, deviations": [
+   0.0021781919983350946,
+   [
+    76510694277.3634,
+    272824536301.73663,
+    2.2465209308416225e+19
+   ]
+  ]
+ },
+ "300 digits": {
+  "distinct eigenvalues": 72,
+  "max relative residual of the cubic equations over the points": 0.30589122627428833,
+  "points with relative residual < 1e-20": 66,
+  "max |N'/eta^-3 - 1| at 1.5i, 2.5i, 3.5i": [
+   118464.88693775232,
+   18942672150179.81,
+   2.908915874458155e+21
+  ],
+  "points with |N'/eta^-3 - 1| < 1e-10 at 2.5i": 66,
+  "the worst point: residual, deviations": [
+   0.30589122627428833,
+   [
+    118464.88693775232,
+    18942672150179.81,
+    2.908915874458155e+21
+   ]
+  ]
+ }
+}
+
+real	8m31.464s
+user	8m24.829s
+sys	0m0.083s
