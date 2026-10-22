@@ -1,21 +1,21 @@
 Traceback (most recent call last):
-  File "/home/claude/origin-axiom/relays/chat1_2026-10-21_zero_free/zero_free_checks.py", line 51, in <module>
+  File "<repo>/relays/chat1_2026-10-21_zero_free/zero_free_checks.py", line 51, in <module>
     import the_strong_angle as SA  # noqa: E402
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/tmp/zf_sm_hm7ypp34/the_strong_angle.py", line 477, in <module>
+  File "<tmpdir>/the_strong_angle.py", line 477, in <module>
     LOGD, REL = load_data()
                 ~~~~~~~~~^^
-  File "/tmp/zf_sm_hm7ypp34/the_strong_angle.py", line 464, in load_data
+  File "<tmpdir>/the_strong_angle.py", line 464, in load_data
     hz = json.loads((HERE / "received" / "HZ2021_running_masses_MZ.json").read_text(encoding="utf-8"))
                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.13/pathlib/_local.py", line 546, in read_text
+  File "<python>/pathlib/_local.py", line 546, in read_text
     return PathBase.read_text(self, encoding, errors, newline)
            ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.13/pathlib/_abc.py", line 632, in read_text
+  File "<python>/pathlib/_abc.py", line 632, in read_text
     with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
          ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.13/pathlib/_local.py", line 537, in open
+  File "<python>/pathlib/_local.py", line 537, in open
     return io.open(self, mode, buffering, encoding, errors, newline)
            ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/tmp/zf_sm_hm7ypp34/received/HZ2021_running_masses_MZ.json'
+FileNotFoundError: [Errno 2] No such file or directory: '<tmpdir>/received/HZ2021_running_masses_MZ.json'
 exit 1
