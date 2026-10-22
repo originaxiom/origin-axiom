@@ -1,0 +1,11 @@
+{
+ "K0": true,
+ "K1": true,
+ "K2": true,
+ "K3": true
+}
+every cell holds: True
+
+real	0m6.033s
+user	0m6.311s
+sys	0m0.088s

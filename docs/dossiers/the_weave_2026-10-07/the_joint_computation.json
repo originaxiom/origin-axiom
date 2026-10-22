@@ -1,0 +1,176 @@
+{
+ "arc": "W135",
+ "rule": "W135_RULE.md",
+ "status": "one run",
+ "K0": {
+  "checks": {
+   "240 roots of norm 2": true,
+   "a Z-basis of 8 vectors with Gram determinant 1 (E8)": true,
+   "2I has 20 elements of order 3, in one conjugacy class": true,
+   "they form 10 subgroups": true,
+   "each subgroup's frame: 72 orthogonal roots, six classes of 27": true,
+   "the 10 frames are distinct": true,
+   "conjugation by 2I permutes the 10 frames transitively": true
+  },
+  "Gram determinant": "1"
+ },
+ "K1": {
+  "checks": {
+   "g = -R L^-1 mod 5 has order 3 and maps to an order-3 icosian": true,
+   "left multiplication by g_q is well defined on the six classes": true,
+   "it cycles the 3's three weights and the 3-bar's": true,
+   "rho(g) is monomial with a 3-cycle pattern": true,
+   "rho(g)^3 is a scalar": true,
+   "the eigenvalue ratios are (1, omega, omega^2)": true,
+   "exactly 3 equivariant identifications of the parities with the weights": true
+  },
+  "rho(g)": "Matrix([[0, 0, -1], [1, 0, 0], [0, 1, 0]])",
+  "rho(g)^3": "Matrix([[-1, 0, 0], [0, -1, 0], [0, 0, -1]])",
+  "g_q": [
+   "(-1/2+0r5)",
+   "(-1/4+-1/4r5)",
+   "(0+0r5)",
+   "(-1/4+1/4r5)"
+  ]
+ },
+ "K2": {
+  "checks": {
+   "the 27's weight sums are (6, 6, 27), the 16's (4, 4, 16)": true,
+   "the SM fields' weights are W101's": true,
+   "n_SU3 = n_SU2 = 18(3 + r + m), n_grav = 81(3 + r + m) mod 24": true,
+   "the full 27 is anomaly-free iff m = 5 - r mod 8 (W134's condition)": true,
+   "the 16 alone needs only m odd": true
+  }
+ },
+ "K3": {
+  "checks": {
+   "k = 21: the cube's rotation group (order 24, real, det 1; orders 1, 2^9, 3^8, 4^6)": true,
+   "k = 5, 13: order 72": true,
+   "E8's lambda = eps has symmetric part 0": true,
+   "Sym^3 has no invariant for every k": true,
+   "Lambda^3 has one invariant for every k": true
+  },
+  "per k": {
+   "5": {
+    "order": 72,
+    "real rotations": false,
+    "element orders": {
+     "1": 1,
+     "2": 9,
+     "3": 26,
+     "4": 6,
+     "6": 18,
+     "12": 12
+    },
+    "dim Sym^3 invariants": -0.0,
+    "dim Lambda^3 invariants": 1.0
+   },
+   "13": {
+    "order": 72,
+    "real rotations": false,
+    "element orders": {
+     "1": 1,
+     "2": 9,
+     "3": 26,
+     "4": 6,
+     "6": 18,
+     "12": 12
+    },
+    "dim Sym^3 invariants": -0.0,
+    "dim Lambda^3 invariants": 1.0
+   },
+   "21": {
+    "order": 24,
+    "real rotations": true,
+    "element orders": {
+     "1": 1,
+     "2": 9,
+     "3": 8,
+     "4": 6
+    },
+    "dim Sym^3 invariants": 0.0,
+    "dim Lambda^3 invariants": 1.0
+   }
+  }
+ },
+ "K4 (read-out)": {
+  "the joint survivors (W134's twelve, r, m, condition)": [
+   [
+    0,
+    21,
+    "0"
+   ],
+   [
+    0,
+    21,
+    "L6"
+   ],
+   [
+    4,
+    -23,
+    "L6"
+   ],
+   [
+    4,
+    17,
+    "0"
+   ],
+   [
+    8,
+    -19,
+    "0"
+   ],
+   [
+    8,
+    21,
+    "0"
+   ],
+   [
+    8,
+    21,
+    "L6"
+   ],
+   [
+    12,
+    -23,
+    "0"
+   ],
+   [
+    12,
+    -23,
+    "L6"
+   ],
+   [
+    12,
+    17,
+    "0"
+   ],
+   [
+    16,
+    21,
+    "L6"
+   ],
+   [
+    20,
+    -23,
+    "L6"
+   ]
+  ],
+  "each is anomaly-free for the full 27": true,
+  "Sym^3 rho' (k = 21) against Gamma's characters": {
+   "trivial": 0.0,
+   "the sign of the permutation": 1.0,
+   "rho'": 2.0,
+   "rho' (x) sign": 1.0
+  },
+  "<Sym^3, Sym^3> (the sum of squared multiplicities)": 6.0,
+  "the Higgs": "three doublet pairs, one per family, in the same 27s (a READING)"
+ },
+ "cells": {
+  "K0": true,
+  "K1": true,
+  "K2": true,
+  "K3": true
+ },
+ "every cell holds": true
+}
