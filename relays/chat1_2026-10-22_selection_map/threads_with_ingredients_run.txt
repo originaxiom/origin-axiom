@@ -1,0 +1,6 @@
+sealed (S~ for every sector, Clebsch 3): six 3.216 (random as good 0.2660) at {'word': 'LLLLRLLLR', 'height': 2.792848008753788, 'tau': [3.0, 2.792848008753788], 'line': ['11/26', '3/13'], 'horocycle': 'L_max', 'J': 7.011182871999463e-21}
+  nine 3.511 (random as good 0.0510) at {'word': 'LLLLLRRLR', 'height': 2.9933259094191533, 'tau': [3.4, 2.9933259094191533], 'line': ['11/28', '27/28'], 'horocycle': 'L_2', 'J': -9.186556535088196e-08}
+H1 False  H2 False  H3 False  H4 False
+C2: max |dlog| against B1720's rows 6.55e+02; six under main's readings, no Clebsch 1.8037155975 (B1720 1.8037155975) -> False
+read-out, main's readings with the Clebsch: six 1.614 at {'word': 'LLLLLRR', 'height': 2.9580398915498076, 'tau': [3.5, 2.9580398915498076], 'line': ['2/5', '3/5'], 'horocycle': 'L_max', 'J': 2.4712274327570727e-14}; nine 22.209
+read-out, ten best classes (six, sealed rule): LLLLRLLLR 3.216; LRRRLRRRR 3.216; LLLLRLRLR 3.287; LRLRLRRRR 3.287; LLLLLRRLR 3.511; LLRRRRRLR 3.511; LLLLLRLRR 3.511; LLRLRRRRR 3.511; LLLLR 4.608; LRRRR 4.608

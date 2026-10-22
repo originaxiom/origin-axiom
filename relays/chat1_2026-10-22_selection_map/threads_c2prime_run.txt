@@ -1,0 +1,1 @@
+C2' (a): 123462 values, 5012 below 1e-8 (max |diff| 4.2e-12); the rest max |dln| 1.4e-07 -> True; (b) -> True; C2' holds: True.  Sealed C2 as written: max |dln| 6.55e+02, holds False

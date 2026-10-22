@@ -1,0 +1,13 @@
+{
+ "values_compared": 123462,
+ "values_below_1e-8": 5012,
+ "max_abs_diff_below_1e-8": 4.179389201257937e-12,
+ "max_abs_log_diff_otherwise": 1.378940723423184e-07,
+ "C2prime_a": true,
+ "C2prime_b": true,
+ "C2prime_holds": true,
+ "sealed_C2_as_reported": {
+  "max_abs_log": 654.8071010928312,
+  "holds": false
+ }
+}
