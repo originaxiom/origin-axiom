@@ -1,0 +1,5 @@
+P-094: D = 10.58 +- 0.11.  Sealed model: D at the best six-row 8.96, at the best nine-row 15.49
+rows with six within 2.0: 6; D from 8.83 to 15.49; within 3 sigma of P-094: 0
+rows with six within 1.8: 3; D from 8.84 to 15.49; within 3 sigma of P-094: 0
+rows with nine within 2.5: 4; D from 8.72 to 15.49; within 3 sigma of P-094: 0
+rows with nine within 3.0: 9; D from 8.72 to 15.49; within 3 sigma of P-094: 0
