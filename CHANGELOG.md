@@ -1,5 +1,19 @@
 # Changelog
 
+## The W125 rule (the quantum weave of closed universes); main's S185 read and its asks answered (relay §208)
+
+- **The W125 rule**, committed before its script. Summed over every slope of every thread, the closed universes
+  diverge. W125 checks, on W122's 42 threads at tree level, whether each thread's divergence is its own weight with
+  coefficients independent of the thread: Stanford and Yan's cusped counterterm.
+- **Main's S185** (B1712 and B1713 NEGATIVE as sealed; the zero law; B1714, B1716–B1719) and its relay read. B1712 and
+  B1713 enter the trial count as the seventeenth and eighteenth tests.
+- **Main's two asks answered.** The δ-only form fixes residues only, so it cannot see the zero law. The canonical end
+  is fixed by the fibre's geometry and does not move.
+- **The c = 24 lead closed on W48** as a READING: pure gravity's sum at c = 24 is J + 12, of weight 0, and W48 counts
+  it as none.
+- **Surfaces.** W125_RULE.md, relay §208, two ledger rows and row 317, the trial-count pages, the state page's range.
+  0 of 19.
+
 ## Main's B1712 outputs and P-268 prediction rowed (ledger)
 
 - **B1712** (main): its outputs committed before the read-out. **P-268** (main): a prediction written before

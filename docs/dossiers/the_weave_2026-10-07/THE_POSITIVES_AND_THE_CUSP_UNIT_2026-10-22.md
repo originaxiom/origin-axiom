@@ -70,6 +70,9 @@ Each takes every thread the principle allows under one rule, and its claim is ab
 - **None of the 15 tests against data on 2026-10-21 confirmed an unfitted prediction** (`THE_EIGHT_TESTS_W112_W119.md`).
   - The sixteenth, main's B1711 on 2026-10-22 (W59's order-9 lines at the band τ), also failed as sealed: worst
     factor 4.17, and 9.8% of random hierarchies as good. Added on the day, after this page.
+  - The seventeenth and eighteenth, main's B1712 and B1713 the same day (every line of order 1–12; B1713 also the
+    frame's first quark mixing), failed as sealed too: best factors 2.37 and 2.33, and 22.45% and 14.8% of random
+    hierarchies as good. The mixing came within 14% at one point, but 59.5% of random mixings did as well.
 - **The magnitudes side is a clean negative.** The forced menu fits the hierarchy no better than chance (p = 0.139,
   W112).
 

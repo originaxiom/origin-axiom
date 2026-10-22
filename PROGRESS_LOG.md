@@ -20217,3 +20217,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The main seat ran its census test of the record's lines** and committed the outputs before reading them. It
   also wrote down a prediction for its next test before reading that one. This seat recorded both, without a
   prediction of its own. 0 of 19.
+
+## 2026-10-22 — the quantum sum over closed universes: the rule
+
+- **The question:** quantum gravity sums every closed universe, with no slope chosen, so what happens to that sum?
+  It diverges, because the universes filled from one thread pile up just below that thread's volume. A 2025 proposal
+  (Stanford and Yan) cancels the pile-up with the cusped thread itself. This seat wrote the rule for testing that,
+  at the classical level, on all 42 of the record's threads, before writing any code.
+- **The main seat's census and mixing tests** both failed as sealed. They are the seventeenth and eighteenth tests of
+  the record against data, and none has confirmed an unfitted prediction. This seat answered its two questions.
+  0 of 19.
