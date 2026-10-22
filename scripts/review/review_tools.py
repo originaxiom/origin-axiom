@@ -20,7 +20,8 @@ Template sections covered (docs/progress/REVIEW_TEMPLATE.md):
 import os, sys, re, json, hashlib, subprocess, pathlib, random, collections
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
-MIRRORS = ("origin", "codeberg")          # the remotes that mirror THIS repository; any other remote is named in the report and not read
+MIRRORS = ("origin", "backup")            # the remotes that mirror THIS repository (R67-1, B1709: the owner's mirror is the LaCie
+                                          # bare repository, `git push backup`, since R66-1; Codeberg is disabled); any other remote is named and not read
 
 # ------------------------------------------------------------------ pure checks
 PHRASES = ["independently verified", "externally verified", "peer-reviewed", "peer reviewed", "third-party verif", "third party verif",
@@ -59,6 +60,20 @@ def parse_hash_file(text):
 def sealed_hash_lines(text):
     """the paths a hash file records at their SEALED version ('# sealed at <commit>: <sha256>  <path> ...' comment lines)"""
     return {m.group(2) for m in re.finditer(r"^#\s*sealed at [0-9a-f]{7,40}:\s*([0-9a-f]{64})\s+\*?(\S+)", text, re.M)}
+
+def on_mirror(commit, remote, root=None):
+    """R67-1 (B1709): is `commit` on the mirror's main?  Through the remote-tracking ref when there is one; for a mirror
+    pushed to but never fetched (a local bare repository, like `backup`), in that repository itself."""
+    root = root or ROOT
+    run = lambda *a: subprocess.run(list(a), cwd=root, capture_output=True, text=True)
+    if run("git", "rev-parse", "--verify", "-q", remote + "/main").returncode == 0:
+        return run("git", "merge-base", "--is-ancestor", commit, remote + "/main").returncode == 0
+    url = run("git", "remote", "get-url", remote).stdout.strip()
+    if url and os.path.isdir(url):
+        full = run("git", "rev-parse", commit).stdout.strip() or commit
+        return run("git", "--git-dir", url, "merge-base", "--is-ancestor", full, "main").returncode == 0
+    return False
+
 
 def seal_check(hash_text, read_file, seal_commit, verdict_commit, is_ancestor, remotes_have, disclosure_text="", sealed_copy=None):
     """one arc: hashes against the files as they are now; the seal strictly before the verdict; the seal on every remote.
@@ -264,7 +279,7 @@ def gather(anchor):
         rd = lambda rel, arc=arc: ((ROOT / arc / rel).resolve().read_bytes() if (ROOT / arc / rel).resolve().exists() else None)
         pages = "".join(f.read_text(errors="replace") for f in sorted((ROOT / arc).glob("*.md")) if f.name != "PREREGISTRATION.md")
         kept = lambda rel, arc=arc: any("sealed_run" in q.name for q in (ROOT / arc).rglob("*sealed_run*"))   # the arc keeps its sealed run (R61-4's wording); the sealed instrument is in git at the seal
-        c = seal_check((ROOT / p).read_text(), rd, sc, vc, anc, all(anc(sc, r + "/main") for r in remotes), pages, kept)
+        c = seal_check((ROOT / p).read_text(), rd, sc, vc, anc, all(on_mirror(sc, r) for r in remotes), pages, kept)
         c.update(arc=arc.name, seal=sc, verdict=vc); seals.append(c)
     R["seals"] = seals
     addl = []

@@ -1,0 +1,21 @@
+{
+  "id": "B1709",
+  "verdict": "PROVED",
+  "instrument": true,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the review tools",
+    "object": "the mirror list and the seal-on-every-remote check",
+    "reach": "general",
+    "hypotheses": "the LaCie mirror mounted at the path `git remote get-url backup` names"
+  },
+  "claim_one_line": "THE REVIEW TOOLS READ THE OWNER'S MIRROR (Review 67's R67-1): review_tools.py named Codeberg (disabled since R66-1) as the second mirror, so every seal reported 'not on every remote'; MIRRORS is now origin and backup, and on_mirror reads a pushed-but-unfetched mirror in its own repository; Review 67's seven seals report no defect, and a failing-path test requires an unpushed commit to be reported absent. 0 of 19.",
+  "weave_or_thread": "neither (tooling)"
+}

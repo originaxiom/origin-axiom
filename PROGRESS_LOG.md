@@ -17699,3 +17699,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   construction fixed before the run that counts); prior art named. B1704's Re ½ entries corrected after the seat's
   relay 197, checked on main. Rows 1293–1296; P-254, P-255.
 - **Suite.** Full suite (P3 and the provenance check changed): 7545 passed, 1 failed, 68 skipped (30:14, -n 8); the one failure is B805's attachment lock (P-239)
+
+## 2026-10-22 — S181 THE REVIEW TOOLS READ THE OWNER'S MIRROR (B1709)
+
+- R67-1: the mirror list and on_mirror; the failing-path test; Review 67's window re-read with no seal defect.
+- **Suite.** Full suite (a script changed): 7547 passed, 1 failed, 68 skipped (35:47, -n 8); the one failure is B805's attachment lock (P-239)

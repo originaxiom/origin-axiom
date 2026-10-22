@@ -6942,7 +6942,7 @@ explanation). No number in a claim line disagrees with its output.
   coefficient, holds τ.
 
 ### Action items (Review 67)
-- [ ] R67-1: the review tools' mirror list — the LaCie backup in place of Codeberg (R66-1), so a seal's "on every remote" reads the mirror the owner chose (owner: cc; a separate arc)
+- [x] R67-1: the review tools' mirror list — the LaCie backup in place of Codeberg (R66-1), so a seal's "on every remote" reads the mirror the owner chose (owner: cc; a separate arc) — **done 2026-10-22 (S181): B1709**
 - [ ] R67-2: the verifications by consequence, P-229's list in order (owner: cc; carried from R66-6)
 - [x] R67-3: GENESIS v1.52 through adoption/amend.py after this review's full suite — P-237's items and FK10's sentence (B1700) (owner: cc; P-237) — **done 2026-10-22 (S178): B1706**
 - [ ] R67-4: ledger currency (P-230) and the declined relays' asks (P-231) (owner: cc; carried from R66-7)

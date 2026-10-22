@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1437** |
-| words of findings prose | **1,149,231** |
+| research arcs with findings | **1438** |
+| words of findings prose | **1,149,518** |
 | test lock files referenced | **854** |
-| arcs carrying an authored verdict | **1437** (100.0 %) |
+| arcs carrying an authored verdict | **1438** (100.0 %) |
 | recorded closures | **829** (662 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 980 |
+| PROVED | 981 |
 | NEGATIVE | 353 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1708`** (868 words, 1 locks)  
-W120 AND W121 ON MAIN (the SM seat's relays 200-201, the record's 3d gravity carried to 4d): the cone -dt^2 + t^2 g is Ricci-flat iff the 3d curvature is -1 (Ric_ij = 8(kappa + 1)/(1 + kappa r^2)^2 delta_ij), so every hyperbolic thread is the space of a flat 4d vacuum (the Milne universe); the least volume among 482 orientable bundles to length 10 is +-LR, 2.0298832128 (m004, m003; Cao-Meyerhoff); SL2(Z)'s abelianization is Z/12; Im tau^p |eta|^(2q) is invariant only for q = 2p and has exponent 1/6 at a pinched fibre (Greene-Shapere-Vafa-Yau's stringy cosmic strings); the triplet's lifts of (T_a T_b)^k are scalar exactly at k = 3, 6, 9, 12, twelve twists giving -I and twenty-four I, so K3 is the least closed solution carrying the triplet. Each is a classical fact read on the record; W121's index count (-15 chi(O_S)) not checked. The closed 4d solutions supply units only in twelves and, by W121, never a count of three: FK10's unit stays a tagged postulate. 0 of 19.  
-`B1708_w120_w121_on_main/FINDINGS.md`
+**PROVED — `B1709`** (287 words, 1 locks)  
+THE REVIEW TOOLS READ THE OWNER'S MIRROR (Review 67's R67-1): review_tools.py named Codeberg (disabled since R66-1) as the second mirror, so every seal reported 'not on every remote'; MIRRORS is now origin and backup, and on_mirror reads a pushed-but-unfetched mirror in its own repository; Review 67's seven seals report no defect, and a failing-path test requires an unpushed commit to be reported absent. 0 of 19.  
+`B1709_the_review_tools_read_the_owners_mirror/FINDINGS.md`
 
 **NEGATIVE — `B1702`** (636 words, 1 locks)  
 THE OTHER CUSP SHAPES (P-249; sealed f51ab2718, sha256 8f26df36; NEGATIVE as sealed -- H1, H2, H3 fail; outputs committed unread at df0737fa1): with the weave's tau at the silver word state's cusp shape 2i (B675) or the golden word's spin end curve 1/2 + sqrt3 i (B1483), the end-data Higgs DR, the canonical end and any of 576 lines, no choice brings the six ratios within a factor of 3 (best 8.9 at 2i, 19.4 at 1/2 + sqrt3 i; chi2 593; 24.7% of random hierarchies fit as well); the up quarks' m2/m3 stays >= 0.0134 (measured 0.0037). With B1696, no word-state cusp shape tested selects tau in this frame. 0 of 19.  

@@ -1,5 +1,14 @@
 # Changelog
 
+## S181 THE REVIEW TOOLS READ THE OWNER'S MIRROR (B1709; Review 67's R67-1) (2026-10-22)
+
+- `review_tools.py` named Codeberg (disabled since R66-1) as the second mirror, so every seal reported "not on every
+  remote". MIRRORS is now origin and backup; `on_mirror` reads a pushed-but-unfetched mirror in its own repository.
+  Review 67's seven seals report no defect; a failing-path test requires an unpushed commit to be reported absent.
+- **Register.** R67-1 ticked. FLOOR 255.
+- **Suite.** Full suite (a script changed): 7547 passed, 1 failed, 68 skipped (35:47, -n 8); the one failure is B805's attachment lock (P-239)
+- 0 of 19.
+
 ## S180 W120 AND W121 ON MAIN (B1708, PROVED); B1704 CORRECTED (the SM seat's relay 197); THE HARVEST (2026-10-22)
 
 - **B1708 — the SM seat's W120 and W121** (the record's 3d gravity carried to 4d, the owner's main task as the seat

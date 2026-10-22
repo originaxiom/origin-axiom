@@ -89,7 +89,7 @@ def test_sample_draw_is_seeded_not_chosen():
 def test_the_tools_run_on_this_repository():
     """the wrappers, live: the window since the last anchor is read without error and the mirrors are the two declared"""
     R = rt.gather(rt.last_anchor())
-    assert R["remotes"]["mirrors"] == ["origin", "codeberg"] or R["remotes"]["missing_mirrors"], "a missing mirror is reported, not ignored"
+    assert R["remotes"]["mirrors"] == ["origin", "backup"] or R["remotes"]["missing_mirrors"], "a missing mirror is reported, not ignored"
     assert R["window"]["commits"] >= 0 and isinstance(R["seals"], list) and R["loop"]["review"] is not None
     assert all(not s["defects"] or s["defects"] for s in R["seals"])
     assert rt.render(R).startswith("window ")
@@ -127,3 +127,20 @@ def test_seal_check_tells_a_disclosed_change_from_an_undisclosed_one():
     assert rt.seal_check(plain, now, "s1", "v1", anc, True, "nothing named here", lambda rel: True)["defects"] == ["changed: a.py"]
     assert rt.seal_check(plain, now, "s1", "v1", anc, True)["defects"] == ["changed: a.py"], "the old call is unchanged"
 
+
+
+def test_on_mirror_reads_a_pushed_but_unfetched_mirror(tmp_path):
+    """R67-1 (B1709): a mirror with no remote-tracking ref is read in its own repository; a commit it lacks is reported
+    absent (the failing path)."""
+    import subprocess as sp
+    run = lambda *a, cwd=tmp_path: sp.run(list(a), cwd=cwd, capture_output=True, text=True, check=True)
+    work, bare = tmp_path / "work", tmp_path / "mirror.git"
+    run("git", "init", "-q", "-b", "main", str(work)); run("git", "init", "-q", "--bare", "-b", "main", str(bare))
+    for i in (1, 2):
+        (work / "f.txt").write_text(str(i)); run("git", "add", "f.txt", cwd=work)
+        run("git", "-c", "user.name=t", "-c", "user.email=t@t", "commit", "-q", "-m", str(i), cwd=work)
+        if i == 1:
+            run("git", "remote", "add", "m", str(bare), cwd=work); run("git", "push", "-q", "m", "main", cwd=work)
+    first = run("git", "rev-parse", "HEAD~1", cwd=work).stdout.strip(); head = run("git", "rev-parse", "HEAD", cwd=work).stdout.strip()
+    assert rt.on_mirror(first, "m", root=work)
+    assert not rt.on_mirror(head, "m", root=work)                  # not pushed yet: reported absent
