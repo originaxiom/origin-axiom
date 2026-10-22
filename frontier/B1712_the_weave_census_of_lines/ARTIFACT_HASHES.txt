@@ -1,0 +1,5 @@
+# sealed with the PREREGISTRATION (the seal commit): sha256 of every file but the preregistration and this list
+31f09c433c14312d9cee8cfa29a632a72ce13fc46ae838757bf9b22958f22528  verification/b1656_funcs.py
+41116608173c9e77a900ce4f04c39b37d96c0f24f9d94840ce10265c664a3c8d  verification/compare.py
+28c0b99afe809f36d846f2abf7f9ebaa93ad0268095ae5e2981ae75d62e798a5  verification/the_line_census_masses.py
+# after the seal (not sealed): the outputs, committed unread
