@@ -13175,10 +13175,11 @@
    "refs": [
     "H1",
     "H2",
-    "H3"
+    "H3",
+    "S188"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 8,
+   "obstacle_conf": 10,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -13196,10 +13197,12 @@
     "K1",
     "K2",
     "K3",
-    "K4"
+    "K4",
+    "S187",
+    "S188"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 34,
+   "obstacle_conf": 40,
    "status": "open",
    "domain": "arithmetic"
   },
@@ -13250,7 +13253,9 @@
     "z3_generation",
     "torsion"
    ],
-   "refs": [],
+   "refs": [
+    "S188"
+   ],
    "obstacle": "particle_dict",
    "obstacle_conf": 4,
    "status": "banked",
@@ -13262,9 +13267,11 @@
     "coupling",
     "dickson_tower"
    ],
-   "refs": [],
+   "refs": [
+    "S188"
+   ],
    "obstacle": "cancellation",
-   "obstacle_conf": 4,
+   "obstacle_conf": 6,
    "status": "banked",
    "domain": "physics"
   },
@@ -13277,7 +13284,8 @@
    ],
    "refs": [
     "H1",
-    "K1"
+    "K1",
+    "S188"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 13,
@@ -13333,6 +13341,17 @@
    "obstacle_conf": 10,
    "status": "open",
    "domain": "dynamics"
+  },
+  "B1721": {
+   "slug": "genesis v1 54",
+   "motifs": [
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dormant",
+   "domain": "topology"
   },
   "B172": {
    "slug": "combination gap resolution",

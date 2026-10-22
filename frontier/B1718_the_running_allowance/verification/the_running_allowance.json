@@ -93,5 +93,5 @@
  },
  "largest_abs_log_to_1e16": 0.12302390398447254,
  "largest_abs_log_to_1e18": 0.13116597014683581,
- "allowance_0.10_covers_up_to": "1e+08"
+ "allowance_0.10_covers_up_to_GeV": 53777890269.2311
 }

@@ -52,3 +52,8 @@ questions (§6.5; P-278). No arc computes it. **Literature:** none (linear algeb
 
 - `verification/no_relational_record.py` → `no_relational_record.json`, `no_relational_record_run.txt`.
 - The lock: `tests/test_b1717_no_relational_record.py`.
+
+> *Dated note 2026-10-22 (the math referee's audit, S188).* §2's "irreducible with scalar commutant" inferred
+> irreducibility from the commutant. That step needs a semisimple action, and L acts on V₃ non-semisimply (rank(L + I) = 1).
+> Irreducibility is now checked directly by Burnside's theorem in the script: the moves generate all of End(V₂)
+> (dimension 16) and all of End(V₃) (dimension 4). The conclusion stands on that check.

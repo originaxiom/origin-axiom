@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1448** |
-| words of findings prose | **1,156,983** |
-| test lock files referenced | **863** |
-| arcs carrying an authored verdict | **1448** (100.0 %) |
+| research arcs with findings | **1449** |
+| words of findings prose | **1,158,199** |
+| test lock files referenced | **864** |
+| arcs carrying an authored verdict | **1449** (100.0 %) |
 | recorded closures | **832** (665 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 988 |
+| PROVED | 989 |
 | NEGATIVE | 356 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,12 +65,12 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1719`** (463 words, 1 locks)  
-W122 ON MAIN (P-269; the SM seat's closed universes verified): the seat's script re-run on main reproduces all 3024 fillings (certification and solution type identical, volumes to 1e-14) and its cells R1-R3, differing only in the order of tied entries in a listing; main's own isometry check finds the least certified fillings of b+-LR to be the Weeks manifold (slopes (2,5), (3,5)) and then the Meyerhoff manifold, and of b++LR the Meyerhoff manifold (slopes (+-1,5)) -- so the least closed universe filled from the record's threads is the Weeks manifold, from -LR only, as W122 found; the ground-state reading stays the seat's READING and the slope a choice. 0 of 19.  
-`B1719_w122_on_main/FINDINGS.md`
+**PROVED — `B1721`** (284 words, 1 locks)  
+GENESIS v1.54 (a correction amendment; the integrity sweep of 2026-10-22, P-291): v1.53's three overreaches corrected against their sources -- FK10's closed 4d vacua close at 12 chi(O_S) strings (not '12 or 24') and the triplet's count there is given the SM seat's Leray reduction (B1710); FK9's W57 sentence tagged as the seat's, unverified on main (row 1099, P-091, sm:W57); FK12's CP sign 'would have to be chosen', the conjugate-vacua reading the web seat's, P-277 open. No status cell and no price changes; the history is not rewritten. 0 of 19.  
+`B1721_genesis_v1_54/FINDINGS.md`
 
-**NEGATIVE — `B1713`** (1307 words, 1 locks)  
-THE COMPLEMENT AND THE MIXING (P-261, P-129, P-164, P-258; sealed cd294dccf, sha256 1cdf28e5; NEGATIVE as sealed -- A-H1 and K1 hold, A-H2, A-H3, K2, K3, K4 fail, the controls hold; outputs committed unread at 084db486a): on the 62 lines of order 1-7 the best point is the order-5 line (2/5, 4/5), a factor 2.33 off with d = e, and 14.8% of random hierarchies fit as well; the frame's first quark mixing (V = U_u^H U_d, every line of order 1-12) puts |V_us|, |V_cb|, |V_ub| within 14% of PDG's on the order-11 line (0, 5/11) at tau = 1/2 + 2.8i (J = 2.8e-5 there, a read-out) but 59.5% of random hierarchical mixings are matched as well, so Cabibbo-sized mixing is generic in this frame and not specific; masses and mixing together reach only a factor 3.59. P-268's law, committed before the read, held: every order-4 line massless in all three sectors and no exact zero on orders 1-3, 5-7. 0 of 19.  
+**NEGATIVE — `B1713`** (1554 words, 1 locks)  
+THE COMPLEMENT AND THE MIXING (P-261, P-129, P-164, P-258; sealed cd294dccf, sha256 1cdf28e5; NEGATIVE as sealed -- A-H1 and K1 hold, A-H2, A-H3, K2, K3, K4 fail, the controls hold; outputs committed unread at 084db486a): on the 62 lines of order 1-7 the best point is the order-5 line (2/5, 4/5), a factor 2.33 off with d = e, and 14.8% of random hierarchies fit as well; the frame's first quark mixing (V = U_u^H U_d, every line of order 1-12) puts |V_us|, |V_cb|, |V_ub| within 14% of PDG's on the order-11 line (0, 5/11) at tau = 1/2 + 2.8i (J = 2.8e-5 there, a read-out) but 59.5% of random hierarchical mixings are matched as well, so Cabibbo-sized mixing is generic in this frame and not specific; masses and mixing together reach only a factor 3.59. P-268's law, committed before the read, held: every order-4 line massless in all three sectors and no exact zero on orders 1-3, 5-7 (over the whole grid; on Re tau = 0 a further order-12 quark family exists, P-292, RETRACTIONS row 44). 0 of 19.  
 `B1713_the_complement_and_the_mixing/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  

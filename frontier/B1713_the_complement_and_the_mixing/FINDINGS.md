@@ -121,3 +121,19 @@ As sealed (`PREREGISTRATION.md`):
 - `verification/compare.py` → `comparison.json`, `compare_run.txt`.
 - `verification/b1656_funcs.py`.
 - The lock: `tests/test_b1713_the_complement_and_the_mixing.py`.
+
+> *Dated note 2026-10-22 (the core-code audit, S187).*
+> - **Why J vanishes on the order-4 lines.** §2 says "because both quark sectors' first generation is massless".
+>   Masslessness alone does not force J = 0. The computed reason is that the up and down null vectors coincide:
+>   ∣V_ud∣ = 1 and V_us = V_ub = 0, checked at (0, 1/4), (1/4, 1/2) and (1/4, 0) at τ = ½ + 2.8i.
+> - **J's sign is a convention.** The coupling is a holomorphic bilinear, so the physical left rotation is conj(U), and
+>   V = conj(U_u^H U_d). The moduli are unchanged and J's sign flips. Only ∣J∣ is read, as the preregistration said.
+
+> *Dated correction 2026-10-22 (the math referee's audit, S188; RETRACTIONS row 44).*
+> - **§3's "the exact first-generation zeros are exactly the law's … and nowhere else"** used the criterion "zero at every
+>   grid point". In that form it is right: the line-sectors that vanish over the whole grid are exactly the law's.
+> - **Per grid point it is wrong.** On Re τ = 0 the up and down quarks also vanish on the 16 order-12 lines with 12α odd
+>   (P-292).
+> - **The blind prediction for orders 1–7 is unaffected.** No line of order 1–7 has such a zero at any grid point.
+> - **§2's "what the frame does for almost any mixing"** reads: what the frame does for about 60% of random hierarchical
+>   mixings (59.5%).

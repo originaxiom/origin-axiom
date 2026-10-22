@@ -72,6 +72,8 @@ def _read(rel):
 
 
 def build():
+    # arc ids are matched as B\d{2,4} (widened 2026-10-22, P-291: B\d{2,3} had made every arc from B1000 on invisible to the
+    # K-layer, LAW_MAP and THEOREM_LEDGER layers; the same widening was made in gates.py at R43-7 and in the atlas at B1001)
     G = {"faces": defaultdict(set), "facets": {}, "laws": {}, "chain": {},
          "authored": [], "arcs": {}}
 
@@ -111,14 +113,14 @@ def build():
     for f in sorted(os.listdir(kdir)):
         km = re.match(r"(K\d{3})_", f)
         if km:
-            G["facets"][km.group(1)] = set(re.findall(r"\bB\d{2,3}\b", _read(f"knowledge/{f}")))
+            G["facets"][km.group(1)] = set(re.findall(r"\bB\d{2,4}\b", _read(f"knowledge/{f}")))
 
     # --- law -> arc -------------------------------------------------------------------------
     for line in _read("docs/LAW_MAP.md").splitlines():
         if line.startswith("|") and "---" not in line:
             name = re.search(r"\*\*(.+?)\*\*", line)
             if name:
-                G["laws"][name.group(1)[:60]] = set(re.findall(r"\bB\d{2,3}\b", line))
+                G["laws"][name.group(1)[:60]] = set(re.findall(r"\bB\d{2,4}\b", line))
 
     # --- chain link -> arc ------------------------------------------------------------------
     t = _read("docs/THEOREM_LEDGER.md")
@@ -126,7 +128,7 @@ def build():
         cm = re.match(r"\*\*(C\d+) \[([A-Z-]+)", b)
         if cm:
             G["chain"][cm.group(1)] = {"label": cm.group(2),
-                                       "arcs": set(re.findall(r"\bB\d{2,3}\b", b))}
+                                       "arcs": set(re.findall(r"\bB\d{2,4}\b", b))}
     return G
 
 

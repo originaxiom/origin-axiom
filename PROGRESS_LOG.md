@@ -17733,3 +17733,12 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - P-254, P-093, P-149, P-215 DONE. The owner's directive of the same evening is under way: sweep the record for a selection principle, a source of a magnitude, and the tagged inputs' derivations, and map the calculations that would complete the picture.
 - **Landing suite.** full suite 7 580 passed, 2 failed, 68 skipped (38:29, -n 8). Both failures are B805's attachment locks (P-239). The gaps lock has failed since S173. The authored-against-attachment count now ties, because B1715 rests on five arcs: honest edges, not trimmed. The attachment layer has not been extended since B842.
+
+## 2026-10-22 — S187 THE COMPLETION MAP AND THE INTEGRITY SWEEP'S FIRST FINDINGS
+
+- `docs/THE_COMPLETION_MAP.md` (C1–C11; P-284–P-291).
+- **The integrity sweep's findings:** B1720's control fixed before the seal; the forcing builder's B\d{2,3} blind spot fixed; B1713's J wording noted.
+- **Harvest:** the SM seat's W123 and W124 rowed.
+- **The referee's corrections:** RETRACTIONS row 44 (the Re τ = 0 family, P-292), B1716's "if" proved, B1717 by Burnside, B1718's 5.4 × 10¹⁰ GeV, B1714's wording, GENESIS v1.54 (B1721).
+- B1720's preregistration revised (C1 as implemented and pre-checked; R1 a read-out).
+- **Landing suite.** full suite 7 584 passed, 2 failed, 68 skipped (33:39, -n 8). Both failures are B805's attachment locks (P-239): the gaps lock, and the authored-against-attachment count, which still ties after the forcing builder's id-regex fix because the attachment layer is not maintained for new arcs.

@@ -3,4 +3,4 @@
 1e+12 y_t 0.514 c/t 0.902 u/t 0.902 s/b 1.109 d/b 1.109 mu/tau 1.000 e/tau 1.000 | max|log| 0.103 | sensitivity 0.0043
 1e+16 y_t 0.445 c/t 0.884 u/t 0.884 s/b 1.131 d/b 1.131 mu/tau 1.000 e/tau 1.000 | max|log| 0.123 | sensitivity 0.0061
 1e+18 y_t 0.418 c/t 0.877 u/t 0.877 s/b 1.140 d/b 1.140 mu/tau 1.000 e/tau 1.000 | max|log| 0.131 | sensitivity 0.0069
-a 10% allowance covers the running up to 1e+08 GeV
+a 10% allowance covers the running up to 5.38e+10 GeV

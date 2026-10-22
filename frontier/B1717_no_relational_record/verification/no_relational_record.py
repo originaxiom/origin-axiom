@@ -47,6 +47,23 @@ for gens in (("L", "R"), ("L", "R", "P", "I")):
     best_back = {k: max(commutant_dim(A[k], [s * g for s, g in zip(signs, G)]) for signs in itertools.product((1, -1), repeat=len(G))) for k in blocks}
     OUT["<%s>" % ", ".join(gens)].update({"Hom_rhoQ_Vk_max_over_signs": best, "Hom_Vk_rhoQ_max_over_signs": best_back})
     print("G =", gens, "| max over signs dim Hom_G(rho_Q, V_k):", best, "| Hom_G(V_k, rho_Q):", best_back)
+# Burnside: a scalar commutant shows irreducibility only for a semisimple action, and L acts on V_3 non-semisimply; so
+# the algebra the moves generate on V_k is computed: irreducible iff it is all of End(V_k) (dimension 16, 4)
+def algebra_dim(mats, n_words=6):
+    from itertools import product
+    span = [np.eye(mats[0].shape[0], dtype=complex)]
+    words = [np.eye(mats[0].shape[0], dtype=complex)]
+    for _ in range(n_words):
+        new = [w @ g for w in words for g in mats]
+        words = new; span += new
+        M = np.array([x.reshape(-1) for x in span]); r = np.linalg.matrix_rank(M, tol=1e-9)
+        if r == mats[0].shape[0] ** 2: break
+    return int(np.linalg.matrix_rank(np.array([x.reshape(-1) for x in span]), tol=1e-9))
+for k in blocks:
+    gens = [induced(blocks[k], m.AUT[g]) for g in ("L", "R")]
+    gens = gens + [np.linalg.inv(g) for g in gens]
+    OUT["Burnside_algebra_dim_V%d" % k] = algebra_dim(gens)
+    print("Burnside: the algebra generated on V_%d has dimension %d (End = %d)" % (k, OUT["Burnside_algebra_dim_V%d" % k], gens[0].shape[0] ** 2))
 # the control: on V_3 (+) V_3 the commutant must be M_2(C), dimension 4; on V_2 (+) V_3 it must be 2
 A3 = [induced(blocks[3], m.AUT[g]) for g in ("L", "R")]; A2 = [induced(blocks[2], m.AUT[g]) for g in ("L", "R")]
 dsum = lambda X, Y: np.block([[X, np.zeros((X.shape[0], Y.shape[1]))], [np.zeros((Y.shape[0], X.shape[1])), Y]])

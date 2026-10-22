@@ -1,4 +1,4 @@
-# B1718 — THE RUNNING ALLOWANCE (P-265; no fit): in the SM at one loop the within-sector mass ratios every sealed test compares run by at most 12% in log up to 10¹⁶ GeV (13% to 10¹⁸), up-type down and down-type up, the leptons not at all; the tests' 10% allowance covers the running strictly only to 10⁸ GeV, and no sealed verdict turns on the difference
+# B1718 — THE RUNNING ALLOWANCE (P-265; no fit): in the SM at one loop the within-sector mass ratios every sealed test compares run by at most 12% in log up to 10¹⁶ GeV (13% to 10¹⁸), up-type down and down-type up, the leptons not at all; the tests' 10% allowance covers the running strictly to 5.4 × 10¹⁰ GeV, and no sealed verdict turns on the difference
 
 **Verdict: PROVED** (a computation with the standard one-loop SM equations, a premise audit of the sealed tests). cc
 (main), 2026-10-22. **0 of 19.**
@@ -39,7 +39,7 @@ printed digits, since only the third generation's coupling drives the running.)
     down-type ratios rise.
   - It reaches 12% by 10¹⁶ GeV. Against the factor-3 cells (H1, K1) and the calibrations, which use the same rows, that
     is small.
-  - The 10% allowance strictly covers the running only up to 10⁸ GeV.
+  - The 10% allowance strictly covers the running up to 5.4 × 10¹⁰ GeV (corrected; see the dated note).
 - **The χ² cells would loosen.** Their quark terms loosen by at most (0.10/0.13)² ≈ 0.6 if the fibre's scale were near
   the Planck scale. Every sealed χ² (B1711: 321; B1712: 108.5) stays far above 16.75.
 - **A post hoc illustration, not a re-test.** At 10¹⁶ GeV, B1712's best point moves from a factor 2.37 to 2.31 against
@@ -53,3 +53,11 @@ printed digits, since only the third generation's coupling drives the running.)
 
 - `verification/the_running_allowance.py` → `the_running_allowance.json`, `the_running_allowance_run.txt`.
 - The lock: `tests/test_b1718_the_running_allowance.py`.
+
+> *Dated note 2026-10-22 (the math referee's audit, S188).*
+> - **The coverage scale.** The first statement, "strictly only to 10⁸ GeV", was an artefact of the five-point scale grid.
+>   The crossover where the running reaches log 1.10 is 5.4 × 10¹⁰ GeV, by bisection, now in the script.
+> - **The lowest sealed χ² was omitted.** It is B1695's 61.3, about 36 with the quark terms loosened by 0.59, still above
+>   16.75. Recomputed with targets run up to 10¹⁶ GeV, B1712's minimum χ² is 99.2 and B1713-A's 161.2.
+> - **Scope.** The CKM moduli ∣V_cb∣ and ∣V_ub∣ also run, by about 12% to 10¹⁶ GeV. They are not covered here, and no
+>   verdict turns on it.

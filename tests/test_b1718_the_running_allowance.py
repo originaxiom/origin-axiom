@@ -8,7 +8,7 @@ def test_stored():
     d = json.loads((A / "the_running_allowance.json").read_text(encoding="utf-8"))
     f = d["scales"]["1e+16"]["factors"]
     assert abs(f["c/t"] - 0.884) < 0.002 and abs(f["s/b"] - 1.131) < 0.002 and abs(f["mu/tau"] - 1) < 1e-3
-    assert 0.12 < d["largest_abs_log_to_1e16"] < 0.13 and d["allowance_0.10_covers_up_to"] == "1e+08"
+    assert 0.12 < d["largest_abs_log_to_1e16"] < 0.13 and 4e10 < d["allowance_0.10_covers_up_to_GeV"] < 7e10
 
 
 def test_live():

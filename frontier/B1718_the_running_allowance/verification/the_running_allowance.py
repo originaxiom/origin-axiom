@@ -40,9 +40,15 @@ for L in (1e4, 1e8, 1e12, 1e16, 1e18):
             g = list(G0); g[i] *= s; f2, _ = factors(L, g); sens = max(sens, max(abs(math.log(f2[k] / f[k])) for k in f))
     OUT["scales"]["%.0e" % L] = {"y_t": yt, "factors": f, "largest_abs_log": max(abs(math.log(x)) for x in f.values()), "sensitivity_3pc_gauge": sens}
 OUT["largest_abs_log_to_1e16"] = OUT["scales"]["1e+16"]["largest_abs_log"]; OUT["largest_abs_log_to_1e18"] = OUT["scales"]["1e+18"]["largest_abs_log"]
-OUT["allowance_0.10_covers_up_to"] = max((L for L in OUT["scales"] if OUT["scales"][L]["largest_abs_log"] <= math.log(1.10) + 1e-12), key=float, default=None)
+def maxlog(L): f, _ = factors(L, G0); return max(abs(math.log(x)) for x in f.values())
+lo, hi = 1e8, 1e14                                     # the crossover where the running reaches log 1.10, by bisection in log L
+for _ in range(40):
+    mid = math.sqrt(lo * hi)
+    if maxlog(mid) <= math.log(1.10): lo = mid
+    else: hi = mid
+OUT["allowance_0.10_covers_up_to_GeV"] = lo            # corrected 2026-10-22: the coarse grid had read this as 1e8
 if __name__ == "__main__":
     json.dump(OUT, open(HERE / "the_running_allowance.json", "w"), indent=1)
     for L, r in OUT["scales"].items():
         print(L, "y_t %.3f" % r["y_t"], " ".join("%s %.3f" % kv for kv in r["factors"].items()), "| max|log| %.3f | sensitivity %.4f" % (r["largest_abs_log"], r["sensitivity_3pc_gauge"]))
-    print("a 10% allowance covers the running up to", OUT["allowance_0.10_covers_up_to"], "GeV")
+    print("a 10%% allowance covers the running up to %.2e GeV" % OUT["allowance_0.10_covers_up_to_GeV"])

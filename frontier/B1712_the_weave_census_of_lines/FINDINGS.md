@@ -109,3 +109,9 @@ census against data. **Literature:** none beyond the cited arcs.
 - `verification/compare.py` → `comparison.json`, `compare_run.txt`.
 - `verification/b1656_funcs.py`.
 - The lock: `tests/test_b1712_the_weave_census_of_lines.py`.
+
+> *Dated correction 2026-10-22 (the math referee's audit, S188; RETRACTIONS row 44).* §2's "and so are the up and down
+> quarks' [first generation lifted] on every line" is wrong for this arc's own stored output. On Re τ = 0, the up and down
+> quarks are exactly massless on the 16 order-12 lines with 12α odd (α ∈ {1/12, 1/4, 5/12}). They are lifted at Re τ = ½.
+> The leptons' order-12 zero holds at both. The verdict and every cell are unchanged: those lines already fail by the
+> electron's zero. The Re τ = 0 family is open (P-292).

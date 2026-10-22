@@ -836,4 +836,5 @@ found with B1635's sealed instrument.
   - At the canonical end a sector's first generation is exactly massless, for every Higgs, when its left twist has exact
     order 4 and its right twist order ≤ 2. The four channels then pair, so det M = 0.
   - Read from order 12, the law predicted orders 1–7 before they were read: every order-4 line massless in all three
-    sectors, and nothing else. It held.
+    sectors, and nothing else over the whole grid. It held. *[Corrected S188, RETRACTIONS row 44: on Re τ = 0 the up and
+    down quarks also vanish on the 16 order-12 lines with 12α odd, a family the law does not name (P-292).]*

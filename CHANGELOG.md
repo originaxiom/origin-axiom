@@ -1,5 +1,32 @@
 # Changelog
 
+## S187 THE COMPLETION MAP, THE INTEGRITY SWEEP AND ITS CORRECTIONS, GENESIS v1.54 (B1721; P-284–P-292; RETRACTIONS row 44) (2026-10-22)
+
+- **The owner's directive:** the record should provide, or pinpoint, a selection principle, a source of a magnitude and the tagged inputs' derivations.
+  - Three read-only sweeps of main and the seats produced `docs/THE_COMPLETION_MAP.md`, eleven calculations (C1–C11), each registered (P-284–P-290 where new).
+  - **Selection and magnitude meet in the thread** (C1): the lines its monodromy fixes, and its geodesic's height Im τ = Lagrange/2, a hierarchy ∣q∣ = e^{−π·Lagrange} that is computed, not chosen. B1720 is sealed next.
+  - **The cusp unit reduces to the field's existence** (C8): the SM seat's W123 with B1700. The canonical end data O(nδ) give a 3n-dimensional weight-3/2 Higgs space, so a forced Higgs with least remainder gives n = 1 and three generations.
+- **The owner's integrity ask (P-291).** A targeted sweep of B1720's chain ran first, as three audits: the core code, the day's math, the reliance chain.
+  - **The core:** no bug in what B1712, B1713 and B1716 rest on, and the frame is covariant.
+  - **B1720's draft control C1:** it would have failed spuriously (the end radius read at the wrong scale under the R-move, ∂R's q-series used below Im 0.3, and order-4 noise ratios). Fixed before the seal.
+  - **A counting bug:** `scripts/forcing/build.py` matched arc ids as B\d{2,3}, so every arc from B1000 on was invisible to three of the forcing graph's layers. Fixed (P-239 extended).
+  - **B1713:** J's wording corrected by a dated note.
+  - **The math referee's findings, each checked and corrected:**
+    - **A second family of exact zeros.** On Re τ = 0 the up and down quarks vanish on the 16 order-12 lines with 12α odd, and the zero law does not name it. B1712's "lifted on every line", B1713's "nowhere else" and B1716's converse were scoped by dated corrections (RETRACTIONS row 44; P-292). P3's count now reads forty-four.
+    - **B1716.** The determinant identity needs unclipped channels (minimum 1.24 on the grids). The 0 : 1 : 1 is derived given Z5. The law's "if" direction is now proved: the involution's phases λ = ±i were worked out by the referee and checked numerically in the b-slot and both a-slot cases, with the order-2 control giving λ = 1.
+    - **B1717.** Irreducibility was inferred from the commutant on a non-semisimple action. It is now checked by Burnside: the algebras have dimension 16 and 4.
+    - **B1718.** The coverage scale is 5.4 × 10¹⁰ GeV by bisection; "10⁸" was a grid artefact. B1695's χ² is noted and the CKM running scoped.
+    - **B1714.** "Lift with a determined element."
+    - **GENESIS v1.54 (B1721).** FK10's 12χ(O_S) strings and its Leray condition; FK9's W57 tagged; FK12's "would have to be chosen".
+  - **B1720's preregistration revised before its seal:**
+    - the control C1 as implemented, its pre-check T ≤ 5.9 × 10⁻⁸ and R ≤ 1.3 × 10⁻¹⁰ on 8 classes;
+    - R1 demoted to a read-out (the frame's τ-free baseline −0.63, −0.56, −0.77 makes it nearly vacuous);
+    - the redundancies and the Re τ = 0 family disclosed.
+  - **The reliance map's gaps:** replay-only locks, scope corrections not propagated, premises unchecked, cites_seat ungated, no scheduled re-runs, no postulate exposure, no cross-arc identities. These feed P-291's design.
+- **Harvest:** the SM seat's W123 and its exact second route, and W124, in rows 1301–1302; pin `11a25122`.
+- **Landing suite.** full suite 7 584 passed, 2 failed, 68 skipped (33:39, -n 8). Both failures are B805's attachment locks (P-239): the gaps lock, and the authored-against-attachment count, which still ties after the forcing builder's id-regex fix because the attachment layer is not maintained for new arcs.
+- 0 of 19.
+
 ## S186 GENESIS v1.53 (B1715; P-254, P-093, P-149, P-215) (2026-10-22)
 
 - After S185's full suite, through `adoption/amend.py` against the hash-pinned v1.52.

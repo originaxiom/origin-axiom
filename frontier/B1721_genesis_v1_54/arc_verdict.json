@@ -1,0 +1,26 @@
+{
+  "id": "B1721",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1715",
+    "B1710"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [
+    "sm:W57"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the foundation document",
+    "object": "GENESIS v1.53 -> v1.54",
+    "reach": "general",
+    "hypotheses": "the record as of S188"
+  },
+  "claim_one_line": "GENESIS v1.54 (a correction amendment; the integrity sweep of 2026-10-22, P-291): v1.53's three overreaches corrected against their sources -- FK10's closed 4d vacua close at 12 chi(O_S) strings (not '12 or 24') and the triplet's count there is given the SM seat's Leray reduction (B1710); FK9's W57 sentence tagged as the seat's, unverified on main (row 1099, P-091, sm:W57); FK12's CP sign 'would have to be chosen', the conjugate-vacua reading the web seat's, P-277 open. No status cell and no price changes; the history is not rewritten. 0 of 19.",
+  "weave_or_thread": "weave (the foundation)"
+}

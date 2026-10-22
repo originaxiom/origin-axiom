@@ -61,3 +61,26 @@ B1712's read-out found the order-12 zero, and P-268's law was committed before B
 - `verification/the_zeros_derived.py` → `the_zeros_derived.json`, `the_zeros_derived_run.txt`.
 - `verification/b1656_funcs.py` (B1656's functions, verbatim).
 - The lock: `tests/test_b1716_the_zeros_derived.py`.
+
+> *Dated correction 2026-10-22 (the math referee's audit, S188; RETRACTIONS row 44).*
+> 1. **The converse is scoped.** "D vanishes exactly where the law says, on every line of order 1–12" was checked at two τ off
+>    the CP lines.
+>    - Off Re τ = 0 it holds as stated.
+>    - **On Re τ = 0 there is a second family the law does not name.** On the 16 order-12 lines with 12α odd (α ∈ {1/12, 1/4,
+>      5/12}), the up and down quarks have D = 0 (∣D∣/scale 4 × 10⁻¹⁵ to 5 × 10⁻¹⁴), against 0.19–0.26 at Re τ = ½ and
+>      0.37. B1713's stored output agrees: m₁/m₃ < 10⁻¹² at every Re τ = 0 grid point on those lines.
+>    - Within the census there is no other such zero. Its explanation is open (P-292); the rectangular torus's reflection
+>      symmetry is the likely source.
+> 2. **The "if" direction's phases, worked out by the audit.**
+>    - A right twist of order ≤ 2 has b_y ∈ ℤ, so Δ = I.
+>    - A left twist of exact order 4 in the b-slot gives Π = ±diag(1, −1) = ∓i·QI. In the a-slot it gives Π = ±i·j
+>      (b_x ∈ ℤ) or ±i·k (b_x ∈ ½ + ℤ).
+>    - So λ = ±i always, λ² = −1, and c_s = c_s′, since the parallelogram and the ε-disc are centrally symmetric and
+>      a0 ↦ −a0.
+>    - The "if" direction is therefore proved, with Z6 as its numerical confirmation. The same argument would cancel D for
+>      a left twist of order ≤ 2 with a right twist of exact order 4, which these charges cannot produce (q_R/q_L is even).
+> 3. **"det M = ¼ Σ c_s R_s², independent of L" holds when no channel is clipped.** The instruments set u_s = 0 when
+>    2πL + c_s ≤ 0. On the grids used, the smallest 2πL_max + c_s is 1.24, so nothing is clipped. The zero law survives
+>    clipping, since paired channels have equal c and are clipped together.
+> 4. **B1701's 0 : 1 : 1 is derived given Z5.** R_{p*} = 0 on the tied lines is numerical, and its residue law is sketched
+>    (P-262).
