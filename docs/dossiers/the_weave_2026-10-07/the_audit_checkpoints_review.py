@@ -468,7 +468,7 @@ def B2():
           and all(g[3] for g in green) and all(g[4] in (True, None) for g in green))
     return {"checks": checks, "kernel table (positive, adjoint)": table,
             "Green control rows (d, r, dim(U perp cap Lambda perp), = 3 - r, generic r = min(d, 3))":
-                [list(map(str, g)) for g in green]}, ok
+                [list(g) for g in green]}, ok
 
 
 # ---------------------------------------------------------------- C1 and C2
