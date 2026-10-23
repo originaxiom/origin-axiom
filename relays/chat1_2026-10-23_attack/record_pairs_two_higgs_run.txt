@@ -1,0 +1,12 @@
+point 0 of 1280
+point 128 of 1280
+point 256 of 1280
+point 384 of 1280
+point 512 of 1280
+point 640 of 1280
+point 768 of 1280
+point 896 of 1280
+point 1024 of 1280
+point 1152 of 1280
+written
+exit 0
