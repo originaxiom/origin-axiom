@@ -1,0 +1,930 @@
+{
+ "arc": "W143",
+ "rule": "W143_RULE.md",
+ "C0 the instrument and the record": {
+  "r=4 n=0": {
+   "eps = -1 lines equal W133's theta_power_lines to x^(v + NT - 8) at every a scanned": true,
+   "a scanned with eps = -1": 3,
+   "eps = -1 members equal W133's Q3 record": null,
+   "eps = -1 multiplicities equal W133's posthoc3 record": true
+  },
+  "r=4 n=1": {
+   "eps = -1 lines equal W133's theta_power_lines to x^(v + NT - 8) at every a scanned": true,
+   "a scanned with eps = -1": 3,
+   "eps = -1 members equal W133's Q3 record": true,
+   "eps = -1 multiplicities equal W133's posthoc3 record": true
+  },
+  "r=12 n=1": {
+   "eps = -1 lines equal W133's theta_power_lines to x^(v + NT - 8) at every a scanned": true,
+   "a scanned with eps = -1": 4,
+   "eps = -1 members equal W133's Q3 record": true,
+   "eps = -1 multiplicities equal W133's posthoc3 record": true
+  },
+  "r=20 n=1": {
+   "eps = -1 lines equal W133's theta_power_lines to x^(v + NT - 8) at every a scanned": true,
+   "a scanned with eps = -1": 3,
+   "eps = -1 members equal W133's Q3 record": true,
+   "eps = -1 multiplicities equal W133's posthoc3 record": true
+  }
+ },
+ "cells": {
+  "H1": true,
+  "H2": true,
+  "H3": true,
+  "H4": "read-out"
+ },
+ "H1": {
+  "r=4 n=0": {
+   "members": [
+    2
+   ],
+   "expected": [
+    2
+   ],
+   "members as expected": true,
+   "every member solves": true,
+   "every member agrees to x^60": true,
+   "members = lines": true,
+   "lines as W133 recorded (1, 4, 3, 3)": true,
+   "the two forms count the same lines": true
+  },
+  "r=4 n=1": {
+   "members": [
+    -10,
+    2,
+    14,
+    26
+   ],
+   "expected": [
+    -10,
+    2,
+    14,
+    26
+   ],
+   "members as expected": true,
+   "every member solves": true,
+   "every member agrees to x^60": true,
+   "members = lines": true,
+   "lines as W133 recorded (1, 4, 3, 3)": true,
+   "the two forms count the same lines": true
+  },
+  "r=12 n=1": {
+   "members": [
+    -6,
+    6,
+    18
+   ],
+   "expected": [
+    -6,
+    6,
+    18
+   ],
+   "members as expected": true,
+   "every member solves": true,
+   "every member agrees to x^60": true,
+   "members = lines": true,
+   "lines as W133 recorded (1, 4, 3, 3)": true,
+   "the two forms count the same lines": true
+  },
+  "r=20 n=1": {
+   "members": [
+    -2,
+    10,
+    22
+   ],
+   "expected": [
+    -2,
+    10,
+    22
+   ],
+   "members as expected": true,
+   "every member solves": true,
+   "every member agrees to x^60": true,
+   "members = lines": true,
+   "lines as W133 recorded (1, 4, 3, 3)": true,
+   "the two forms count the same lines": true
+  }
+ },
+ "H2": {
+  "F_6 in h(12, 1)": 4,
+  "F_-10, F_14 in h(4, 1)": [
+   8,
+   6
+  ],
+  "F_-2, F_22 in h(20, 1)": [
+   4,
+   1
+  ],
+  "every multiplicity has its line (members' multiplicities = the polynomial's lines by multiplicity)": {
+   "r=4 n=0": true,
+   "r=4 n=1": true,
+   "r=12 n=1": true,
+   "r=20 n=1": true
+  }
+ },
+ "H3": {
+  "r=4 n=0": {
+   "2": {
+    "non-null-led": false,
+    "as predicted": true
+   },
+   "the non-null-led members": [],
+   "as predicted (set)": true
+  },
+  "r=4 n=1": {
+   "-10": {
+    "non-null-led": true,
+    "as predicted": true
+   },
+   "2": {
+    "non-null-led": false,
+    "as predicted": true
+   },
+   "14": {
+    "non-null-led": false,
+    "as predicted": true
+   },
+   "26": {
+    "non-null-led": false,
+    "as predicted": true
+   },
+   "the non-null-led members": [
+    -10
+   ],
+   "as predicted (set)": true
+  },
+  "r=12 n=1": {
+   "-6": {
+    "non-null-led": true,
+    "as predicted": true
+   },
+   "6": {
+    "non-null-led": false,
+    "as predicted": true
+   },
+   "18": {
+    "non-null-led": false,
+    "as predicted": true
+   },
+   "the non-null-led members": [
+    -6
+   ],
+   "as predicted (set)": true
+  },
+  "r=20 n=1": {
+   "-2": {
+    "non-null-led": true,
+    "as predicted": true
+   },
+   "10": {
+    "non-null-led": false,
+    "as predicted": true
+   },
+   "22": {
+    "non-null-led": false,
+    "as predicted": true
+   },
+   "the non-null-led members": [
+    -2
+   ],
+   "as predicted (set)": true
+  }
+ },
+ "H4": {
+  "B1740's F_-2 is the member a = -2 of h(20, 1) with eps = +1": true,
+  "W127's index I(cond, r, n) at each space": {
+   "r=4 n=0": {
+    "0": -1.0,
+    "V2": 0.0,
+    "V4": -1.0,
+    "L6": 0.0
+   },
+   "r=4 n=1": {
+    "0": -4.0,
+    "V2": -1.0,
+    "V4": -0.0,
+    "L6": 3.0
+   },
+   "r=12 n=1": {
+    "0": -3.0,
+    "V2": -1.0,
+    "V4": 1.0,
+    "L6": 3.0
+   },
+   "r=20 n=1": {
+    "0": -3.0,
+    "V2": -2.0,
+    "V4": 1.0,
+    "L6": 2.0
+   }
+  }
+ },
+ "per space": {
+  "r=4 n=0": {
+   "scan (a: eps, in h)": {
+    "-22": {
+     "eps": -1,
+     "in h": false
+    },
+    "-10": {
+     "eps": 1,
+     "in h": false
+    },
+    "2": {
+     "eps": -1,
+     "in h": true
+    },
+    "14": {
+     "eps": 1,
+     "in h": false
+    },
+    "26": {
+     "eps": -1,
+     "in h": false
+    },
+    "38": {
+     "eps": 1,
+     "in h": false
+    }
+   },
+   "members": {
+    "2": {
+     "eps": -1,
+     "coords": [
+      "1/13311666640442621952"
+     ],
+     "agrees to x^60": true,
+     "t F_a with 2^(a+2) t^3 = 1 solves the system": true,
+     "multiplicity (form 1, form 2)": [
+      [
+       1
+      ],
+      [
+       1
+      ]
+     ],
+     "the form's cube on the line (form 1)": "1/1397827299840330205183117098292618187508810639860211646464",
+     "leading behaviour": {
+      "valuations of the theta parts (th2^a, th4^a, th3^a)": [
+       2,
+       0,
+       0
+      ],
+      "valuations of g's components": [
+       1,
+       -1,
+       -1
+      ],
+      "least valuation": -1,
+      "leading part": [
+       "0",
+       "-1",
+       "I"
+      ],
+      "its square": "0",
+      "proportional to e_1 (non-null)": false,
+      "proportional to (0, eps, i) (null)": true
+     }
+    }
+   },
+   "the characteristic polynomial (form 1, form 2): degree, distinct values, lines by multiplicity": [
+    [
+     3,
+     3,
+     {
+      "1": 1
+     }
+    ],
+    [
+     3,
+     3,
+     {
+      "1": 1
+     }
+    ]
+   ],
+   "number of lines": 1,
+   "members on distinct lines": true,
+   "R1 the opposite sign -eps lies in h (read-out, not in the rule)": {
+    "-22": false,
+    "-10": false,
+    "2": false,
+    "14": false,
+    "26": false,
+    "38": false
+   },
+   "H4 W127's index I(cond, r, n)": {
+    "0": -1.0,
+    "V2": 0.0,
+    "V4": -1.0,
+    "L6": 0.0
+   }
+  },
+  "r=4 n=1": {
+   "scan (a: eps, in h)": {
+    "-22": {
+     "eps": -1,
+     "in h": false
+    },
+    "-10": {
+     "eps": 1,
+     "in h": true
+    },
+    "2": {
+     "eps": -1,
+     "in h": true
+    },
+    "14": {
+     "eps": 1,
+     "in h": true
+    },
+    "26": {
+     "eps": -1,
+     "in h": true
+    },
+    "38": {
+     "eps": 1,
+     "in h": false
+    }
+   },
+   "members": {
+    "-10": {
+     "eps": 1,
+     "coords": [
+      "17/283982221662775934976",
+      "-11/851946664988327804928",
+      "-1/11832592569282330624",
+      "1/1972098761547055104"
+     ],
+     "agrees to x^60": true,
+     "t F_a with 2^(a+2) t^3 = 1 solves the system": true,
+     "multiplicity (form 1, form 2)": [
+      [
+       8
+      ],
+      [
+       8
+      ]
+     ],
+     "the form's cube on the line (form 1)": "22882115719/2415445574124090594556426345849644228015224785678445725089792",
+     "leading behaviour": {
+      "valuations of the theta parts (th2^a, th4^a, th3^a)": [
+       -10,
+       0,
+       0
+      ],
+      "valuations of g's components": [
+       -7,
+       3,
+       3
+      ],
+      "least valuation": -7,
+      "leading part": [
+       "1/1024",
+       "0",
+       "0"
+      ],
+      "its square": "1/1048576",
+      "proportional to e_1 (non-null)": true,
+      "proportional to (0, eps, i) (null)": false
+     }
+    },
+    "2": {
+     "eps": -1,
+     "coords": [
+      "-1/2218611106740436992",
+      "1/13311666640442621952",
+      "0",
+      "0"
+     ],
+     "agrees to x^60": true,
+     "t F_a with 2^(a+2) t^3 = 1 solves the system": true,
+     "multiplicity (form 1, form 2)": [
+      [
+       12
+      ],
+      [
+       12
+      ]
+     ],
+     "the form's cube on the line (form 1)": "-125/589708392120139305311627525842198297855279488691026788352",
+     "leading behaviour": {
+      "valuations of the theta parts (th2^a, th4^a, th3^a)": [
+       2,
+       0,
+       0
+      ],
+      "valuations of g's components": [
+       1,
+       -1,
+       -1
+      ],
+      "least valuation": -1,
+      "leading part": [
+       "0",
+       "-1",
+       "I"
+      ],
+      "its square": "0",
+      "proportional to e_1 (non-null)": false,
+      "proportional to (0, eps, i) (null)": true
+     }
+    },
+    "14": {
+     "eps": 1,
+     "coords": [
+      "1/92442129447518208",
+      "-1/415989582513831936",
+      "1/46221064723759104",
+      "1/3851755393646592"
+     ],
+     "agrees to x^60": true,
+     "t F_a with 2^(a+2) t^3 = 1 solves the system": true,
+     "multiplicity (form 1, form 2)": [
+      [
+       6
+      ],
+      [
+       6
+      ]
+     ],
+     "the form's cube on the line (form 1)": "4354703137/37741337095688915539944161653900691062737887276225714454528",
+     "leading behaviour": {
+      "valuations of the theta parts (th2^a, th4^a, th3^a)": [
+       14,
+       0,
+       0
+      ],
+      "valuations of g's components": [
+       9,
+       -5,
+       -5
+      ],
+      "least valuation": -5,
+      "leading part": [
+       "0",
+       "1",
+       "I"
+      ],
+      "its square": "0",
+      "proportional to e_1 (non-null)": false,
+      "proportional to (0, eps, i) (null)": true
+     }
+    },
+    "26": {
+     "eps": -1,
+     "coords": [
+      "1/2166612408926208",
+      "-5/51998697814228992",
+      "1/1444408272617472",
+      "7/481469424205824"
+     ],
+     "agrees to x^60": true,
+     "t F_a with 2^(a+2) t^3 = 1 solves the system": true,
+     "multiplicity (form 1, form 2)": [
+      [
+       1
+      ],
+      [
+       1
+      ]
+     ],
+     "the form's cube on the line (form 1)": "21415471433/4717667136961114442493020206737586382842235909528214306816",
+     "leading behaviour": {
+      "valuations of the theta parts (th2^a, th4^a, th3^a)": [
+       26,
+       0,
+       0
+      ],
+      "valuations of g's components": [
+       17,
+       -9,
+       -9
+      ],
+      "least valuation": -9,
+      "leading part": [
+       "0",
+       "-1",
+       "I"
+      ],
+      "its square": "0",
+      "proportional to e_1 (non-null)": false,
+      "proportional to (0, eps, i) (null)": true
+     }
+    }
+   },
+   "the characteristic polynomial (form 1, form 2): degree, distinct values, lines by multiplicity": [
+    [
+     81,
+     12,
+     {
+      "1": 1,
+      "6": 1,
+      "8": 1,
+      "12": 1
+     }
+    ],
+    [
+     81,
+     12,
+     {
+      "1": 1,
+      "6": 1,
+      "8": 1,
+      "12": 1
+     }
+    ]
+   ],
+   "number of lines": 4,
+   "members on distinct lines": true,
+   "R1 the opposite sign -eps lies in h (read-out, not in the rule)": {
+    "-22": false,
+    "-10": false,
+    "2": false,
+    "14": false,
+    "26": false,
+    "38": false
+   },
+   "H4 W127's index I(cond, r, n)": {
+    "0": -4.0,
+    "V2": -1.0,
+    "V4": -0.0,
+    "L6": 3.0
+   }
+  },
+  "r=12 n=1": {
+   "scan (a: eps, in h)": {
+    "-30": {
+     "eps": -1,
+     "in h": false
+    },
+    "-18": {
+     "eps": 1,
+     "in h": false
+    },
+    "-6": {
+     "eps": -1,
+     "in h": true
+    },
+    "6": {
+     "eps": 1,
+     "in h": true
+    },
+    "18": {
+     "eps": -1,
+     "in h": true
+    },
+    "30": {
+     "eps": 1,
+     "in h": false
+    },
+    "42": {
+     "eps": -1,
+     "in h": false
+    }
+   },
+   "members": {
+    "-6": {
+     "eps": -1,
+     "coords": [
+      "5/17748888853923495936",
+      "1/739537035580145664",
+      "-1/123256172596690944"
+     ],
+     "agrees to x^60": true,
+     "t F_a with 2^(a+2) t^3 = 1 solves the system": true,
+     "multiplicity (form 1, form 2)": [
+      [
+       4
+      ],
+      [
+       4
+      ]
+     ],
+     "the form's cube on the line (form 1)": "-15813251/12942845368891946344288121280487205439896394813520478208",
+     "leading behaviour": {
+      "valuations of the theta parts (th2^a, th4^a, th3^a)": [
+       -6,
+       0,
+       0
+      ],
+      "valuations of g's components": [
+       -7,
+       -1,
+       -1
+      ],
+      "least valuation": -7,
+      "leading part": [
+       "-1/64",
+       "0",
+       "0"
+      ],
+      "its square": "1/4096",
+      "proportional to e_1 (non-null)": true,
+      "proportional to (0, eps, i) (null)": false
+     }
+    },
+    "6": {
+     "eps": 1,
+     "coords": [
+      "-1/277326388342554624",
+      "1/46221064723759104",
+      "1/3851755393646592"
+     ],
+     "agrees to x^60": true,
+     "t F_a with 2^(a+2) t^3 = 1 solves the system": true,
+     "multiplicity (form 1, form 2)": [
+      [
+       4
+      ],
+      [
+       4
+      ]
+     ],
+     "the form's cube on the line (form 1)": "1520875/202231958888936661629501895007612584998381168961257472",
+     "leading behaviour": {
+      "valuations of the theta parts (th2^a, th4^a, th3^a)": [
+       6,
+       0,
+       0
+      ],
+      "valuations of g's components": [
+       1,
+       -5,
+       -5
+      ],
+      "least valuation": -5,
+      "leading part": [
+       "0",
+       "1",
+       "I"
+      ],
+      "its square": "0",
+      "proportional to e_1 (non-null)": false,
+      "proportional to (0, eps, i) (null)": true
+     }
+    },
+    "18": {
+     "eps": -1,
+     "coords": [
+      "-1/17332899271409664",
+      "1/2888816545234944",
+      "5/481469424205824"
+     ],
+     "agrees to x^60": true,
+     "t F_a with 2^(a+2) t^3 = 1 solves the system": true,
+     "multiplicity (form 1, form 2)": [
+      [
+       1
+      ],
+      [
+       1
+      ]
+     ],
+     "the form's cube on the line (form 1)": "25672375/202231958888936661629501895007612584998381168961257472",
+     "leading behaviour": {
+      "valuations of the theta parts (th2^a, th4^a, th3^a)": [
+       18,
+       0,
+       0
+      ],
+      "valuations of g's components": [
+       9,
+       -9,
+       -9
+      ],
+      "least valuation": -9,
+      "leading part": [
+       "0",
+       "-1",
+       "I"
+      ],
+      "its square": "0",
+      "proportional to e_1 (non-null)": false,
+      "proportional to (0, eps, i) (null)": true
+     }
+    }
+   },
+   "the characteristic polynomial (form 1, form 2): degree, distinct values, lines by multiplicity": [
+    [
+     27,
+     9,
+     {
+      "1": 1,
+      "4": 2
+     }
+    ],
+    [
+     27,
+     9,
+     {
+      "1": 1,
+      "4": 2
+     }
+    ]
+   ],
+   "number of lines": 3,
+   "members on distinct lines": true,
+   "R1 the opposite sign -eps lies in h (read-out, not in the rule)": {
+    "-30": false,
+    "-18": false,
+    "-6": false,
+    "6": false,
+    "18": false,
+    "30": false,
+    "42": false
+   },
+   "H4 W127's index I(cond, r, n)": {
+    "0": -3.0,
+    "V2": -1.0,
+    "V4": 1.0,
+    "L6": 3.0
+   }
+  },
+  "r=20 n=1": {
+   "scan (a: eps, in h)": {
+    "-26": {
+     "eps": 1,
+     "in h": false
+    },
+    "-14": {
+     "eps": -1,
+     "in h": false
+    },
+    "-2": {
+     "eps": 1,
+     "in h": true
+    },
+    "10": {
+     "eps": -1,
+     "in h": true
+    },
+    "22": {
+     "eps": 1,
+     "in h": true
+    },
+    "34": {
+     "eps": -1,
+     "in h": false
+    }
+   },
+   "members": {
+    "-2": {
+     "eps": 1,
+     "coords": [
+      "-1/123256172596690944",
+      "-5/2567836929097728",
+      "1/2567836929097728"
+     ],
+     "agrees to x^60": true,
+     "t F_a with 2^(a+2) t^3 = 1 solves the system": true,
+     "multiplicity (form 1, form 2)": [
+      [
+       4
+      ],
+      [
+       4
+      ]
+     ],
+     "the form's cube on the line (form 1)": "13651919/69352523624463875730281856998495399519335105953792",
+     "leading behaviour": {
+      "valuations of the theta parts (th2^a, th4^a, th3^a)": [
+       -2,
+       0,
+       0
+      ],
+      "valuations of g's components": [
+       -7,
+       -5,
+       -5
+      ],
+      "least valuation": -7,
+      "leading part": [
+       "1/4",
+       "0",
+       "0"
+      ],
+      "its square": "1/16",
+      "proportional to e_1 (non-null)": true,
+      "proportional to (0, eps, i) (null)": false
+     }
+    },
+    "10": {
+     "eps": -1,
+     "coords": [
+      "0",
+      "-5/160489808068608",
+      "1/160489808068608"
+     ],
+     "agrees to x^60": true,
+     "t F_a with 2^(a+2) t^3 = 1 solves the system": true,
+     "multiplicity (form 1, form 2)": [
+      [
+       4
+      ],
+      [
+       4
+      ]
+     ],
+     "the form's cube on the line (form 1)": "125/627102535666810218915309036806418181417598976",
+     "leading behaviour": {
+      "valuations of the theta parts (th2^a, th4^a, th3^a)": [
+       10,
+       0,
+       0
+      ],
+      "valuations of g's components": [
+       1,
+       -9,
+       -9
+      ],
+      "least valuation": -9,
+      "leading part": [
+       "0",
+       "-1",
+       "I"
+      ],
+      "its square": "0",
+      "proportional to e_1 (non-null)": false,
+      "proportional to (0, eps, i) (null)": true
+     }
+    },
+    "22": {
+     "eps": 1,
+     "coords": [
+      "-1/240734712102912",
+      "-23/10030613004288",
+      "11/20061226008576"
+     ],
+     "agrees to x^60": true,
+     "t F_a with 2^(a+2) t^3 = 1 solves the system": true,
+     "multiplicity (form 1, form 2)": [
+      [
+       1
+      ],
+      [
+       1
+      ]
+     ],
+     "the form's cube on the line (form 1)": "202262003/8669065453057984466285232124811924939916888244224",
+     "leading behaviour": {
+      "valuations of the theta parts (th2^a, th4^a, th3^a)": [
+       22,
+       0,
+       0
+      ],
+      "valuations of g's components": [
+       9,
+       -13,
+       -13
+      ],
+      "least valuation": -13,
+      "leading part": [
+       "0",
+       "1",
+       "I"
+      ],
+      "its square": "0",
+      "proportional to e_1 (non-null)": false,
+      "proportional to (0, eps, i) (null)": true
+     }
+    }
+   },
+   "the characteristic polynomial (form 1, form 2): degree, distinct values, lines by multiplicity": [
+    [
+     27,
+     9,
+     {
+      "1": 1,
+      "4": 2
+     }
+    ],
+    [
+     27,
+     9,
+     {
+      "1": 1,
+      "4": 2
+     }
+    ]
+   ],
+   "number of lines": 3,
+   "members on distinct lines": true,
+   "R1 the opposite sign -eps lies in h (read-out, not in the rule)": {
+    "-26": false,
+    "-14": false,
+    "-2": false,
+    "10": false,
+    "22": false,
+    "34": false
+   },
+   "H4 W127's index I(cond, r, n)": {
+    "0": -3.0,
+    "V2": -2.0,
+    "V4": 1.0,
+    "L6": 2.0
+   }
+  }
+ },
+ "seconds": 15.5
+}
