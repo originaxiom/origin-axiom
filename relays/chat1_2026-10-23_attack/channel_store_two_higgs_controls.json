@@ -1,0 +1,9 @@
+{
+ "C1 max relative |closed - coupling|": 2.829935367869396e-16,
+ "C1 holds": true,
+ "C2 max |delta log10 ratio|, max |delta ln |V||": [
+  1.1805305177858827e-07,
+  4.814856263031499e-08
+ ],
+ "C2 holds": true
+}
