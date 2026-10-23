@@ -1,0 +1,24 @@
+1. dR    read S : d = e exactly on 16 of 266 lines (rows 2028 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. dR    read St: d = e exactly on 16 of 266 lines (rows 2030 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_-10 read S : d = e exactly on 15 of 266 lines (rows 5221 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_-10 read St: d = e exactly on 15 of 266 lines (rows 5259 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_2   read S : d = e exactly on 1 of 266 lines (rows 269 of 32984); alpha = 2/5 lines exact: none
+1. F_2   read St: d = e exactly on 1 of 266 lines (rows 271 of 32984); alpha = 2/5 lines exact: none
+1. F_14  read S : d = e exactly on 16 of 266 lines (rows 3456 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_14  read St: d = e exactly on 16 of 266 lines (rows 3517 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_26  read S : d = e exactly on 16 of 266 lines (rows 4046 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_26  read St: d = e exactly on 16 of 266 lines (rows 4006 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_-6  read S : d = e exactly on 15 of 266 lines (rows 2478 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_-6  read St: d = e exactly on 16 of 266 lines (rows 2494 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_6   read S : d = e exactly on 16 of 266 lines (rows 2144 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_6   read St: d = e exactly on 15 of 266 lines (rows 2100 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_18  read S : d = e exactly on 16 of 266 lines (rows 3792 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_18  read St: d = e exactly on 16 of 266 lines (rows 3739 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_-2  read S : d = e exactly on 16 of 266 lines (rows 2057 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_-2  read St: d = e exactly on 15 of 266 lines (rows 2042 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_10  read S : d = e exactly on 16 of 266 lines (rows 3025 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_10  read St: d = e exactly on 16 of 266 lines (rows 2904 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_22  read S : d = e exactly on 16 of 266 lines (rows 3906 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+1. F_22  read St: d = e exactly on 16 of 266 lines (rows 3944 of 32984); alpha = 2/5 lines exact: (2/5, 0), (2/5, 1/5), (2/5, 2/5), (2/5, 3/5), (2/5, 4/5)
+2. F_2: smallest m1/m3 over every sector, reading and row 1.00e-300; per-row smallest, median 1.40e-17
+2. dR: smallest m1/m3 over every sector, reading and row 1.00e-300; per-row smallest, median 5.91e-05

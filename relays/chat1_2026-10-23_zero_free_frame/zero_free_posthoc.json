@@ -1,0 +1,284 @@
+{
+ "exact d = e": {
+  "dR S": {
+   "lines exact at every point": 16,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 2028,
+   "rows": 32984
+  },
+  "dR St": {
+   "lines exact at every point": 16,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 2030,
+   "rows": 32984
+  },
+  "F_-10 S": {
+   "lines exact at every point": 15,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 5221,
+   "rows": 32984
+  },
+  "F_-10 St": {
+   "lines exact at every point": 15,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 5259,
+   "rows": 32984
+  },
+  "F_2 S": {
+   "lines exact at every point": 1,
+   "alpha = 2/5 lines exact": [],
+   "rows exact": 269,
+   "rows": 32984
+  },
+  "F_2 St": {
+   "lines exact at every point": 1,
+   "alpha = 2/5 lines exact": [],
+   "rows exact": 271,
+   "rows": 32984
+  },
+  "F_14 S": {
+   "lines exact at every point": 16,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 3456,
+   "rows": 32984
+  },
+  "F_14 St": {
+   "lines exact at every point": 16,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 3517,
+   "rows": 32984
+  },
+  "F_26 S": {
+   "lines exact at every point": 16,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 4046,
+   "rows": 32984
+  },
+  "F_26 St": {
+   "lines exact at every point": 16,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 4006,
+   "rows": 32984
+  },
+  "F_-6 S": {
+   "lines exact at every point": 15,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 2478,
+   "rows": 32984
+  },
+  "F_-6 St": {
+   "lines exact at every point": 16,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 2494,
+   "rows": 32984
+  },
+  "F_6 S": {
+   "lines exact at every point": 16,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 2144,
+   "rows": 32984
+  },
+  "F_6 St": {
+   "lines exact at every point": 15,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 2100,
+   "rows": 32984
+  },
+  "F_18 S": {
+   "lines exact at every point": 16,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 3792,
+   "rows": 32984
+  },
+  "F_18 St": {
+   "lines exact at every point": 16,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 3739,
+   "rows": 32984
+  },
+  "F_-2 S": {
+   "lines exact at every point": 16,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 2057,
+   "rows": 32984
+  },
+  "F_-2 St": {
+   "lines exact at every point": 15,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 2042,
+   "rows": 32984
+  },
+  "F_10 S": {
+   "lines exact at every point": 16,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 3025,
+   "rows": 32984
+  },
+  "F_10 St": {
+   "lines exact at every point": 16,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 2904,
+   "rows": 32984
+  },
+  "F_22 S": {
+   "lines exact at every point": 16,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 3906,
+   "rows": 32984
+  },
+  "F_22 St": {
+   "lines exact at every point": 16,
+   "alpha = 2/5 lines exact": [
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "rows exact": 3944,
+   "rows": 32984
+  }
+ },
+ "max |ln D|": {
+  "dR S": 37.58193891443897,
+  "dR St": 38.57243271325939,
+  "F_-10 S": 653.4228121734534,
+  "F_-10 St": 688.8908127093068,
+  "F_2 S": 688.9884446132312,
+  "F_2 St": 688.9337710675001,
+  "F_14 S": 687.2352375225944,
+  "F_14 St": 37.15354213946944,
+  "F_26 S": 689.8460426233694,
+  "F_26 St": 37.88887132613145,
+  "F_-6 S": 39.51324458424088,
+  "F_-6 St": 653.1198811329292,
+  "F_6 S": 37.488145703745545,
+  "F_6 St": 37.22722816839718,
+  "F_18 S": 38.24994473954972,
+  "F_18 St": 38.051901330599975,
+  "F_-2 S": 688.7476249270044,
+  "F_-2 St": 689.0844509300962,
+  "F_10 S": 37.88073518188184,
+  "F_10 St": 38.226996179382496,
+  "F_22 S": 38.62817930719764,
+  "F_22 St": 687.7515279390344
+ },
+ "smallest m1/m3, F_2": 1e-300,
+ "median of the smallest m1/m3 per row, F_2": 1.40041708507135e-17,
+ "smallest m1/m3, dR": 1e-300,
+ "median of the smallest m1/m3 per row, dR": 5.912309026889051e-05
+}
