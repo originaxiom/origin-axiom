@@ -11855,5 +11855,27 @@
    "reach": "class"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1729",
+  "claim_killed": "That the leptons' coarser line on lines whose order 3 divides (the lepton charges are 3 x (-1, 2), so the leptons see order N/3 while the quarks see N) supplies the Georgi-Jarlskog factor between the leptons and the down quarks in B1656's frame.",
+  "kill_form": "Data-free census (B1729), criteria written before the read: on every line of order 5, 10 and 13-30 at two tau of B1726's band (7 344 points), the frame's own R2 = (m2/m3)_e/(m2/m3)_d moves by only +0.15 in median log on 3 | N lines (not systematically; 1.10 needed) and R1 not at all, while at every order the ratios spread over 2-4 units of log.",
+  "hatch": "a second Higgs direction carrying the -3 from one twisted zero-free space (W133's lines, B1730; the web seat's census, row 1317), the condensate Higgs (W70), or a derived reading rule (P-295)",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-23), for tests/test_b833_negative_routing.py",
+  "note": "The lepton sector at w is the (-1, 2) sector at 3w exactly (the Z3 of the Z6 centre acts trivially on leptons); what decides the lepton-to-down ratios is the particular line, not whether 3 divides its order.",
+  "faces_consulted": [
+   "B1703",
+   "B1726",
+   "B1728"
+  ],
+  "fact_computed": "the frame's lepton-to-down ratios on 7 344 points of lines of order 5, 10, 13-30 (frame_r2r1.py)",
+  "scope": {
+   "frame": "B1656's four-channel coupling at B1667's canonical end, DR, one covariant reading for down and leptons",
+   "hypotheses": "two tau (0.55 + 3.05i, 0.35 + 2.75i); orders to 30",
+   "object": "the lepton-to-down ratios R2 and R1",
+   "reach": "class"
+  },
+  "weave_or_thread": "weave"
  }
 ]

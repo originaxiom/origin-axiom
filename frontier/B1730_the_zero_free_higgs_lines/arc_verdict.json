@@ -1,0 +1,29 @@
+{
+ "id": "B1730",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1700",
+  "B1691",
+  "B1634",
+  "B1697"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W133",
+  "sm:W64"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "weight-3/2 sections of rho_R (x) chi_eta^r (the Higgs's representation, B1634, B1700) with n units at the cusp; PF1-W read on the Higgs (N(F) = F_i F_j F_k zero-free)",
+  "object": "the zero-free Higgs lines and the spaces h(r, n)",
+  "reach": "class",
+  "hypotheses": "r in {0, 4, 12, 20}, n in {0, 1, 2} computed exactly; the uniqueness proved for every r and n"
+ },
+ "claim_one_line": "THE ZERO-FREE HIGGS LINES (P-300's W133 part and the web seat's extension, verified on main with main's own code; no data): rho_R re-derived from R matches W64 to 1e-29, and the product of the non-zero entries of rho(T), rho(S) is chi_eta^21 exactly, so N(F) of a weight-3/2 section of rho (x) chi_eta^r carries chi_eta^(21+3r) and is zero-free only if r = 4 mod 8 -- no untwisted Higgs (DR, B1700's unit space) is zero-free at any end data; the family F_a = eta^(3-a)(eps th2^a, eps th4^a, i th3^a), a = 2 mod 4, eps = i^((a+2)/2), carries rho (x) chi_eta^(2a) (a = -30 ... 50, to 2e-29) and N(F_a) = i 2^a eta^9 exactly; exact linear algebra gives dim h(r, n) = 0, 3, 6 (r = 0), 1, 4, 7 (r = 4), 0, 3, 6 (r = 12 and 20) for n = 0, 1, 2, and in every twisted space the members meeting its bounds lie in it exactly, are independent and number its dimension, so the zero-free lines are a basis (at one unit: -10, 2, 14, 26; -6, 6, 18; -2, 10, 22; h(4, 0) is 2 eta^4 R); proved: every zero-free weight-3/2 Higgs is c F_a (F_i is a zero-free form on Gamma_0(2), hence an eta-quotient by X_0(2)'s genus 0, and T^2 forces a in 2 + 4Z), so no combination of two members is zero-free. Under PF1-W on the Higgs the direction is discrete, labelled by a. 0 of 19.",
+ "weave_or_thread": "weave (a property of the Higgs's representation at every tau)"
+}

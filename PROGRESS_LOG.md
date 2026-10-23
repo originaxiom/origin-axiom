@@ -17776,3 +17776,9 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **The seats.** Rows 1314–1317; P-302, P-303 new; P-294, P-295, P-300 updated.
 - **Landing suite.** full suite 7 596 passed, 2 failed, 68 skipped (24:43, -n 8) on 4f9a1c3de; both failures are B805's attachment locks (P-239). Every collected test ran (7 651 collected, plus 15 modules that skip at import); S191's 7 608 included 27 items collected only from that day's working tree.
 - **The register commit (same day).** P-305 registered and answered in the audit room: the leptons see a coarser line where 3 divides the order, but the frame's own lepton-to-down ratios show no Georgi–Jarlskog shift there (data-free, 7 344 points); to land as an arc. FLOOR 305.
+
+## 2026-10-23 — S193 THE ZERO-FREE HIGGS LINES (B1730) AND THE COARSER LINE (B1729)
+
+- **B1730 (PROVED; P-300's W133 part).** Under PF1-W on the Higgs every zero-free weight-3/2 Higgs is a theta power F_a, a ≡ 2 mod 4; no untwisted Higgs qualifies; the zero-free lines are a basis of every twisted space h(r, n). Verified with main's own code; uniqueness proved through Γ₀(2).
+- **B1729 (NEGATIVE; P-305 DONE).** The leptons' coarser line on 3 ∣ N lines gives no Georgi–Jarlskog shift in the frame's own ratios.
+- **Landing suite.** full suite 7 604 passed, 2 failed, 68 skipped (25:06, -n 8) on 417e48d7b; both failures are B805's attachment locks (P-239).

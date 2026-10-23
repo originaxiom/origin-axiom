@@ -1,0 +1,21 @@
+7344 points
+5     96 median logR2 -0.000 logR1 -0.000
+10     288 median logR2 -0.001 logR1 0.027
+13     672 median logR2 0.036 logR1 -0.114
+14     576 median logR2 0.048 logR1 -0.330
+15 3|N 768 median logR2 0.040 logR1 -0.159
+16     768 median logR2 -0.222 logR1 0.339
+17     1152 median logR2 -0.007 logR1 -0.217
+18 3|N 864 median logR2 0.341 logR1 0.263
+19     1440 median logR2 0.177 logR1 -0.184
+20     1152 median logR2 -0.058 logR1 0.003
+21 3|N 1536 median logR2 0.155 logR1 -0.234
+22     1440 median logR2 -0.075 logR1 -0.116
+23     2112 median logR2 0.201 logR1 -0.047
+24 3|N 1536 median logR2 0.406 logR1 -0.254
+25     2400 median logR2 0.018 logR1 -0.083
+26     2016 median logR2 0.004 logR1 0.090
+27 3|N 2592 median logR2 -0.017 logR1 -0.158
+28     2304 median logR2 0.031 logR1 -0.046
+29     3360 median logR2 0.143 logR1 -0.278
+30 3|N 2304 median logR2 0.120 logR1 -0.069

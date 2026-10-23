@@ -1,0 +1,104 @@
+# B1730 — THE ZERO-FREE HIGGS LINES (P-300, its W133 part; the web seat's extension): VERIFIED ON MAIN — UNDER PF1-W READ ON THE HIGGS, A WEIGHT-3/2 HIGGS OF ρ_T ⊗ χ_η^r IS ZERO-FREE ONLY IF r ≡ 4 MOD 8, AND THEN IT IS A MULTIPLE OF ONE THETA POWER F_a = η^{3−a}(εθ₂^a, εθ₄^a, iθ₃^a), a ≡ 2 MOD 4; IN EVERY TWISTED SPACE THE ZERO-FREE LINES ARE A BASIS
+
+**Verdict: PROVED** (computed exactly where stated, numerically to 10⁻²⁸ where stated, and the uniqueness proved).
+cc (main), 2026-10-23. No data; no physical quantity. **0 of 19.**
+
+## 0. Seen first
+
+`VERDICT topic-sweep /zero-free|PF1-W|theta power|theta-power|eta.quotient|Gamma_0\(2\)|Γ₀\(2\)|h\(r, ?n\)|W133/ (full text): 6 of 1500 arcs on main match (NEGATIVE 3, PROVED 3)`.
+Bearing on it: B1700 (the unit's untwisted weight-3/2 space, dimension 3, with ∂R in it), B1697 (the Higgs without end
+data), B1691 (the free basis R, ∂R, ∂²R; the Wronskian = const·η⁹), B1634 (ρ_T = χ_η²¹ ⊗ ρ_θ²). None verifies W133.
+The claims verified here are the SM seat's W133 (its third pass, exact over ℚ; HARVEST_LEDGER row 1313) and the web seat's
+check of it, which extends it (row 1316, `CHAT1_TO_SM_AND_CC_2026-10-23_W133_CHECKED.md`). This arc uses none of either
+seat's code. **Literature:** vector-valued modular forms as a free module (Marks and Mason); the η-quotients of Γ₀(2)
+and X₀(2)'s Hauptmodul (η(τ)/η(2τ))²⁴; standard.
+
+## 1. The setting
+
+R = (−θ₂², −θ₄², iθ₃²)/(θ₂θ₃θ₄) (weight −½; B1645, B1691), with multiplier ρ = ρ_R: ρ(T) = e^{iπ/4}L⁻¹,
+ρ(S) = e^{iπ/4}P (W64; L the quarter-turn about e_i, P the i–j swap). Its eigenlines under T are P = a_i,
+M = v₊ = a_j + i a_k and N = a_j − i a_k, with exponents ⅛, ⅞, ⅜ mod 1. A Higgs is a weight-3/2 section F of
+ρ ⊗ χ_η^r; **h(r, n)** is the space of those whose line exponents are at least the least positive exponent of each
+line's class minus n (n units at the cusp; B1700's unit is n = 1, r = 0). PF1-W (the web seat's reading of GENESIS
+PF1) on the Higgs asks that N(F) = F_iF_jF_k have no zero on the upper half plane.
+
+## 2. What was computed (`verification/the_zero_free_lines.py`)
+
+- **A, the multiplier and the obstruction.**
+  - ρ_R re-derived from R itself (theta functions summed in τ, 30 digits): W64's matrices to 3.6 × 10⁻³⁰ (T) and
+    9.2 × 10⁻³⁰ (S).
+  - Exactly (sympy): the product of the non-zero entries of ρ(T) is e^{7iπ/4} = χ_η(T)²¹ and of ρ(S) e^{3iπ/4} = χ_η(S)²¹.
+  - So for a section F of ρ ⊗ χ_η^r, N(F) has weight 9/2 and character χ_η^{21+3r}. If N has no zero and poles only
+    at the cusp, N/η⁹ is zero-free of weight 0 with character χ_η^{12+3r}; a power of it is then a polynomial in j
+    with no root, so it is constant and its character trivial: **24 ∣ 12 + 3r, i.e. r ∈ {4, 12, 20} mod 24.**
+  - **No untwisted Higgs (r = 0) is zero-free, at any end data**; ∂R, B1700's unit space and every combination are
+    excluded.
+- **B, the family.** F_a = η^{3−a}(εθ₂^a, εθ₄^a, iθ₃^a), a ≡ 2 mod 4, ε = i^{(a+2)/2} (−1 for a ≡ 2 mod 8, W133's family;
+  +1 for a ≡ 6 mod 8, the web seat's addition).
+  - Its multiplier is ρ ⊗ χ_η^r with r ≡ 2a mod 24, under T and S at three random τ, for every a from −30 to 50:
+    worst relative deviation 7.7 × 10⁻³⁰ (T) and 2.3 × 10⁻²⁹ (S).
+  - N(F_a) = i·2^a·η⁹ (5.2 × 10⁻²⁹). Exactly: θ₂θ₃θ₄ = 2η³ and ε² = 1, so N(F_a) = iε²2^aη⁹. So every F_a is zero-free.
+- **C, the spaces, exactly.** F = η^r G, with G a weight-(3/2 − r/2) section of ρ, so G = A R + B ∂R + C ∂²R with A, B, C
+  level-one weakly holomorphic (the basis is free because the Wronskian is const·η⁹, B1691). With A, B, C in
+  Δ^{−M}M_{w+12M} at M = 4 and 6, and G's line bounds derived from F's, exact linear algebra in x = q^{1/8}:
+
+  | r | n = 0 | n = 1 | n = 2 | zero-free members at n = 1 (a; ε) |
+  |---|---|---|---|---|
+  | 0 | 0 | 3 (B1700) | 6 | none |
+  | 4 | 1 (a = 2) | 4 | 7 | −10 (+), 2 (−), 14 (+), 26 (−) |
+  | 12 | 0 | 3 | 6 | −6 (−), 6 (+), 18 (−) |
+  | 20 | 0 | 3 | 6 | −2 (+), 10 (−), 22 (+) |
+
+  - The same dimensions at M = 4 and M = 6 (no truncation); h(0, 1) = 3 reproduces B1700.
+  - In every twisted space the members of the family that meet its line bounds lie in it exactly (rank test on the
+    exact coefficients), have distinct leading orders, and **number exactly its dimension: they are a basis.** At
+    n = 2 the members are 7, 6 and 6 (a from −22 to 50).
+  - h(4, 0) is the line of F₂ = 2η⁴R: the coupling triplet's own direction.
+  - Of the eleven one-unit lines, six have ε = −1 (W133's six) and five ε = +1 (the five W133 found but did not name).
+
+## 3. Uniqueness: every zero-free Higgs is a theta power (proved)
+
+**Claim.** Let F be a weight-3/2 section of ρ ⊗ χ_η^r, holomorphic on the upper half plane and meromorphic at the
+cusp, with N(F) zero-free. Then F = c·F_a for one a ≡ 2 mod 4 (and r ≡ 2a mod 24).
+
+1. N(F) ≠ 0 has no zero, and each component is holomorphic, so no component vanishes anywhere or identically.
+2. ρ is monomial. Γ(2) (generated by −1, T² and ST²S⁻¹) acts diagonally: ρ(T²) = i·diag(1, −1, −1) and its S-conjugate.
+   So SL(2, ℤ) permutes the three components through SL(2, ℤ)/Γ(2) ≅ S₃, and T fixes the i component; its
+   stabiliser is ⟨Γ(2), T⟩ = Γ₀(2) (index 3). So F_i is a weight-3/2 form on Γ₀(2) whose multiplier differs from η³'s
+   by a character of finite order (the entries of ρ ⊗ χ_η^r are 24th roots of unity times the weight's branch).
+3. F_i is meromorphic at both cusps of Γ₀(2): at ∞ by hypothesis; at 0 because F_i(−1/τ) ∝ τ^{3/2}F_j(τ).
+4. h = F_i/η³ is zero-free on the upper half plane with a finite character, so h^K is a Γ₀(2)-invariant function whose
+   divisor lies on the two cusps. X₀(2) has genus 0 and t = (η(τ)/η(2τ))²⁴ has divisor (0) − (∞) (up to orientation),
+   so h^K = c·t^e and h = c′·t^{e/K} on the simply connected half plane: **F_i = c′·η(τ)^x η(2τ)^y with x + y = 3**
+   (x, y rational so far).
+5. θ₂ = 2η(2τ)²/η(τ) gives F_i = c″·η^{3−a}θ₂^a with a = y/2, a holomorphic branch because θ₂ has no zero.
+6. S gives F_j = c″·η^{3−a}θ₄^a and T then F_k ∝ η^{3−a}θ₃^a (θ₃, θ₄ zero-free).
+7. Under T², F_i gains e^{iπ(3−a)/6}·e^{iπa/2} and F_j gains e^{iπ(3−a)/6}. Their ratio must be ρ(T²)_ii/ρ(T²)_jj
+   = i/(−i) = −1, so e^{iπa/2} = −1: **a ∈ 2 + 4ℤ, an integer.** T fixes the relative constant of F_k (ε) and
+   r ≡ 2a mod 24; S makes F_j's constant F_i's. So F = c·F_a. ∎
+
+**Corollaries.**
+- **No combination of two or more distinct members is zero-free.** It would be a multiple of one member, and distinct
+  members are independent.
+- End data only bound a to a window, a ≡ r/2 mod 12. The window holds exactly the members of §2's table, equal to
+  dim h(r, n) at n = 0, 1, 2.
+
+## 4. What it means (labelled readings)
+
+- **Under PF1-W read on the Higgs, the Higgs direction is discrete.** It is one of the F_a, labelled by an integer
+  a ≡ 2 mod 4, with its twist fixed by a and its range bounded by the end data. No continuous choice of direction remains,
+  and no untwisted Higgs (∂R, B1691–B1726's Higgs) survives. The scalar η^{3−a} drops out of every ratio; the direction
+  at τ is (εθ₂^a, εθ₄^a, iθ₃^a).
+- **This bears on H-cov (P-115).** "Which direction" becomes "which a" under PF1-W. Whether PF1-W is to be read on each
+  Higgs field or on each sector's determinant is the owner's question (P-303); on a parity-diagonal coupling the two
+  agree.
+- **For the factor (P-294).** A route-(b) pair of Higgs directions on these lines cannot be zero-free as a combination;
+  each field would have to be a single member. The web seat's census of these lines in main's frame (row 1317) tests
+  them as Higgs directions; it is not a consequence of PF1-W, since B1656's four-channel frame lies outside PF1-W as
+  written (its zeros sit in the Wilson-line variable).
+- **What remains of P-300:** W131 and W132 (the forced field's silence toward the chiral three; the unit's phase).
+
+## Files
+
+- `verification/the_zero_free_lines.py` → `the_zero_free_lines.json`, `the_zero_free_lines_run.txt`.
+- The lock: `tests/test_b1730_the_zero_free_higgs_lines.py`.

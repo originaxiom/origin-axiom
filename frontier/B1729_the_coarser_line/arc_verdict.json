@@ -1,0 +1,26 @@
+{
+ "id": "B1729",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1728",
+  "B1726",
+  "B1703",
+  "B1656"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling at B1667's canonical end (both horocycles), the end-data Higgs DR, down quarks and leptons in one covariant reading",
+  "object": "the frame's own lepton-to-down ratios R2 and R1 on every line of order 5, 10 and 13-30",
+  "reach": "class",
+  "hypotheses": "two tau of B1726's band (0.55 + 3.05i, 0.35 + 2.75i); no data"
+ },
+ "claim_one_line": "THE COARSER LINE (P-305, for P-294; data-free, criteria written before the read): the lepton charges are 3 x (-1, 2), so the lepton sector at w is the (-1, 2) sector at 3w and on a line of order N with 3 | N the leptons see order N/3 while the quarks see N (the Z3 of the Z6 centre acts trivially on leptons); but on every line of order 5, 10 and 13-30 at two tau of B1726's band (7 344 points, none masked; order 5 gives R2 = R1 = 1 to 8.6e-11) the frame's own R2 = (m2/m3)_e/(m2/m3)_d moves by only +0.15 in median log on 3 | N lines (not systematically; Georgi-Jarlskog needs 1.10) and R1 not at all, while at every order the ratios spread over 2-4 units of log. The coarser line does not supply the factor. 0 of 19.",
+ "weave_or_thread": "weave (a census over lines)"
+}

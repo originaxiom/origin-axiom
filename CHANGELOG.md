@@ -1,5 +1,12 @@
 # Changelog
 
+## S193 THE ZERO-FREE HIGGS LINES (B1730, PROVED; P-300's W133 part) AND THE COARSER LINE (B1729, NEGATIVE; P-305) (2026-10-23)
+
+- **B1730 (PROVED).** The SM seat's W133 and the web seat's extension verified on main with main's own code. The character identity (exact) makes a zero-free weight-3/2 Higgs need r ≡ 4 mod 8, so no untwisted Higgs, ∂R included, is zero-free at any end data; every zero-free Higgs is c·F_a, F_a = η^{3−a}(εθ₂^a, εθ₄^a, iθ₃^a), a ≡ 2 mod 4 (proved: F_i is a zero-free form on Γ₀(2), hence an η-quotient; T² forces a ∈ 2 + 4ℤ); dim h(r, n) exactly (1, 4, 7 at r = 4; 0, 3, 6 at r = 12, 20; 0, 3, 6 untwisted), the zero-free lines a basis of every twisted space. Under PF1-W on the Higgs the Higgs direction is discrete. P-300's W131 and W132 remain.
+- **B1729 (NEGATIVE).** The leptons see a line of a third the order where 3 divides it (their charges are 3 × (−1, 2)), but the frame's own lepton-to-down ratios show no Georgi–Jarlskog shift there (data-free, 7 344 points, criteria written first). Routed into B738's kill graph. P-305 DONE.
+- **Landing suite.** full suite 7 604 passed, 2 failed, 68 skipped (25:06, -n 8) on 417e48d7b; both failures are B805's attachment locks (P-239).
+- 0 of 19.
+
 ## S192, the register commit: the coarser-line question raised and answered in the audit room (P-305) (2026-10-23)
 
 - **P-305.** The lepton charges are 3 × (−1, 2), so on a line whose order 3 divides the leptons see a line of order N/3 while the quarks see N (the ℤ₃ of the ℤ₆ centre is trivial on leptons). Could that supply the Georgi–Jarlskog factor (P-294)? A data-free census of the frame's own lepton-to-down ratios on every line of order 5, 10 and 13–30 (7 344 points; criteria written before the output was read) says no: on 3 ∣ N lines the median log R2 moves by about +0.15 (not systematically; 1.10 would be needed) and log R1 not at all, while at every order the frame's own ratios spread over 2–4 units of log. To land as a short arc with the next landing.

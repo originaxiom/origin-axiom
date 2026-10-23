@@ -13472,6 +13472,19 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1729": {
+   "slug": "the coarser line",
+   "motifs": [
+    "figure_eight"
+   ],
+   "refs": [
+    "S192"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B172": {
    "slug": "combination gap resolution",
    "motifs": [
@@ -13497,6 +13510,18 @@
    "obstacle_conf": 5,
    "status": "dormant",
    "domain": "arithmetic"
+  },
+  "B1730": {
+   "slug": "the zero free higgs lines",
+   "motifs": [
+    "coupling",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "physics"
   },
   "B173": {
    "slug": "gaplabel rank reduction",

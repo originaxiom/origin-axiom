@@ -1,0 +1,30 @@
+{
+ "A": {
+  "rho_T_from_R_vs_W64": 3.6159140171569174e-30,
+  "rho_S_from_R_vs_W64": 9.209127541933675e-30,
+  "monomial_product_T_is_chi_eta^21": true,
+  "monomial_product_S_is_chi_eta^21": true,
+  "r_mod_24_with_trivial_character_of_N_over_eta9": [
+   4,
+   12,
+   20
+  ]
+ },
+ "B_worst": {
+  "T": 7.721008915212522e-30,
+  "S": 2.3307265183567054e-29,
+  "norm": 5.230784451923118e-29
+ }
+}
+h(0,0) bounds [1, 7, 3] dim 0 0 members [] in span True formula 0
+h(0,1) bounds [-7, -1, -5] dim 3 3 members [] in span True formula 3
+h(0,2) bounds [-15, -9, -13] dim 6 6 members [] in span True formula 6
+h(4,0) bounds [1, -1, 3] dim 1 1 members [2] in span True formula 1
+h(4,1) bounds [-7, -9, -5] dim 4 4 members [-10, 2, 14, 26] in span True formula 4
+h(4,2) bounds [-15, -17, -13] dim 7 7 members [-22, -10, 2, 14, 26, 38, 50] in span True formula 7
+h(12,0) bounds [1, -1, 3] dim 0 0 members [] in span True formula 0
+h(12,1) bounds [-7, -9, -5] dim 3 3 members [-6, 6, 18] in span True formula 3
+h(12,2) bounds [-15, -17, -13] dim 6 6 members [-18, -6, 6, 18, 30, 42] in span True formula 6
+h(20,0) bounds [1, -1, -5] dim 0 0 members [] in span True formula 0
+h(20,1) bounds [-7, -9, -13] dim 3 3 members [-2, 10, 22] in span True formula 3
+h(20,2) bounds [-15, -17, -21] dim 6 6 members [-14, -2, 10, 22, 34, 46] in span True formula 6

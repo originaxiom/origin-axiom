@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1457** |
-| words of findings prose | **1,167,744** |
-| test lock files referenced | **872** |
-| arcs carrying an authored verdict | **1457** (100.0 %) |
-| recorded closures | **835** (668 classified, 167 routed-only) |
+| research arcs with findings | **1459** |
+| words of findings prose | **1,169,939** |
+| test lock files referenced | **874** |
+| arcs carrying an authored verdict | **1459** (100.0 %) |
+| recorded closures | **836** (669 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 994 |
-| NEGATIVE | 359 |
+| PROVED | 995 |
+| NEGATIVE | 360 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 105 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 106 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1728`** (1166 words, 1 locks)  
-THE LINE'S ORDER AS A QUOTIENT OF HYPERCHARGE (P-296; B1703's coincidence law derived; no data): in B1656's frame a field of charge q on the line w = alpha tau + b has the twist (q alpha, 2 q b), and three identities hold -- a charge shift by the line's order N multiplies a sector's bilinear, residues, weights, M and Y by one phase (thc(a + k, b + 2m) = e^{4 pi i m a} thc(a, b); 1.1e-14), the left-right swap transposes them (bil(y, x) = bil(x, y)^T, M(y, x) = M(x, y)^T, and Y(y, x) = Y(x, y)^T because eps S is symmetric for every S in span(i, j, k); to 1e-15, the control S = 1 breaks it), and negating both twists leaves them unchanged (bil(-x, -y; u) = -bil(x, y; -u), the torus's involution; 1.3e-15) -- so two sectors have the same singular values whenever their charges 6Y agree mod N up to swap and sign: d = e if N | 4 or 5 (Y_e = Y_d^T at 5, minimal SU(5)), u = d if N | 6, u = e if N | 2 or 7, which is B1703's computed law, now derived in the 'if' direction (59 of 59 unmasked pairs on two lines of each order 1-12 agree); the converse stays B1703's census. P-296 had restated the law from B1723's rows without B1703 and without u = e; corrected. 0 of 19.  
-`B1728_the_lines_order_as_a_quotient_of_hypercharge/FINDINGS.md`
+**PROVED — `B1730`** (1496 words, 1 locks)  
+THE ZERO-FREE HIGGS LINES (P-300's W133 part and the web seat's extension, verified on main with main's own code; no data): rho_R re-derived from R matches W64 to 1e-29, and the product of the non-zero entries of rho(T), rho(S) is chi_eta^21 exactly, so N(F) of a weight-3/2 section of rho (x) chi_eta^r carries chi_eta^(21+3r) and is zero-free only if r = 4 mod 8 -- no untwisted Higgs (DR, B1700's unit space) is zero-free at any end data; the family F_a = eta^(3-a)(eps th2^a, eps th4^a, i th3^a), a = 2 mod 4, eps = i^((a+2)/2), carries rho (x) chi_eta^(2a) (a = -30 ... 50, to 2e-29) and N(F_a) = i 2^a eta^9 exactly; exact linear algebra gives dim h(r, n) = 0, 3, 6 (r = 0), 1, 4, 7 (r = 4), 0, 3, 6 (r = 12 and 20) for n = 0, 1, 2, and in every twisted space the members meeting its bounds lie in it exactly, are independent and number its dimension, so the zero-free lines are a basis (at one unit: -10, 2, 14, 26; -6, 6, 18; -2, 10, 22; h(4, 0) is 2 eta^4 R); proved: every zero-free weight-3/2 Higgs is c F_a (F_i is a zero-free form on Gamma_0(2), hence an eta-quotient by X_0(2)'s genus 0, and T^2 forces a in 2 + 4Z), so no combination of two members is zero-free. Under PF1-W on the Higgs the direction is discrete, labelled by a. 0 of 19.  
+`B1730_the_zero_free_higgs_lines/FINDINGS.md`
 
-**NEGATIVE — `B1723`** (1084 words, 1 locks)  
-THE GOLDEN VALLEY (the completion map's C3, L254, P-069; sealed 23f8a7621, sha256 3850a2f9; NEGATIVE as sealed -- the six-ratio cells fail, the mixing comes within a factor 1.51 near i but generically, the control holds; outputs committed unread at 8951e7afc): with tau anywhere on the valley of the weave's modular-invariant F = sum_p |theta_p/eta|^4 at its golden value 8 (the discriminant-5 locus; in the fundamental domain the two arcs from i to +-1/2 + (sqrt5/2) i) and any line of order 2-12, the best row puts the six ratios only within a factor 147 (26.6% of random hierarchies as good; chi2 3891) -- every ratio too large, the median first-to-third ratio 10^-1.1 against the data's 10^-3 to 10^-5: the valley sits too low (Im tau <= 1.118) for the frame's hierarchy, which needs Im tau near 3 -- so no functional whose valley is the golden locus produces the six ratios in this frame, and C3 is closed in it; the mixing's best (1.51 at tau = -0.018 + 1.009i) is matched by 30% of random mixings. After the read (labelled): the Georgi-Jarlskog lepton factor 3 does not rescue it (138). 0 of 19.  
-`B1723_the_golden_valley/FINDINGS.md`
+**NEGATIVE — `B1729`** (699 words, 1 locks)  
+THE COARSER LINE (P-305, for P-294; data-free, criteria written before the read): the lepton charges are 3 x (-1, 2), so the lepton sector at w is the (-1, 2) sector at 3w and on a line of order N with 3 | N the leptons see order N/3 while the quarks see N (the Z3 of the Z6 centre acts trivially on leptons); but on every line of order 5, 10 and 13-30 at two tau of B1726's band (7 344 points, none masked; order 5 gives R2 = R1 = 1 to 8.6e-11) the frame's own R2 = (m2/m3)_e/(m2/m3)_d moves by only +0.15 in median log on 3 | N lines (not systematically; Georgi-Jarlskog needs 1.10) and R1 not at all, while at every order the ratios spread over 2-4 units of log. The coarser line does not supply the factor. 0 of 19.  
+`B1729_the_coarser_line/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  
