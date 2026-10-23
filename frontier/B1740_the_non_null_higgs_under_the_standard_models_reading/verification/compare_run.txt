@@ -1,0 +1,30 @@
+R1_six_within_2_seat False
+R2_six_specific_seat False
+R3_six_specific_cov False
+R4_six_specific_free False
+R5_nine_specific_seat False
+R6_J_within_3_at_best_nine_seat False
+R7_D_within_3_sigma_at_best_six_seat False
+V1_median_Vud_above_0.9_under_the_SM_reading True
+P1_chi2_six_below_16.75_seat False
+P2_chi2_six_specific_seat False
+P3_chi2_nine_below_21.67_seat False
+P4_chi2_nine_below_21.67_SM_reading False
+C1_control True
+C2_control_chi2_reproduces_B1735 True
+mean random as good nine|cov   0.4095
+mean random as good nine|free  0.5522
+mean random as good nine|seat  0.4085
+mean random as good six|cov    0.4017
+mean random as good six|free   0.5518
+mean random as good six|seat   0.4056
+chi2 six|seat   min 3688.48, random as low 0.2754 (worst seed 0.2860)
+chi2 six|cov    min 3685.54, random as low 0.2912 (worst seed 0.3045)
+chi2 six|free   min 3310.47, random as low 0.4969 (worst seed 0.5090)
+chi2 nine|seat  min 4181.48, random as low 0.2299 (worst seed 0.2375)
+chi2 nine|sm    min 4315.88, random as low 0.2119 (worst seed 0.2215)
+|V_ud| up S / down S    median 0.996, above 0.9 0.783
+|V_ud| up S / down St   median 0.996, above 0.9 0.782
+|V_ud| up St / down S   median 0.996, above 0.9 0.784
+|V_ud| up St / down St  median 0.996, above 0.9 0.787
+best six (seat): 131.726 at {'line': 37, 'Re_tau': 0.55, 'Im_tau': 2.25, 'horocycle': 'L_2', 'readings': ['St', 'S', 'S'], 'lepton_factor': 1.0, 'D': 0.267194503391318}
