@@ -1,0 +1,641 @@
+{
+ "K1 the six's precision bar by direction and reading": {
+  "zero-free census": {
+   "dR, S in every sector": {
+    "min chi2_six": 125.584150160896,
+    "at": "(2/9, 5/9) at 0.4 + 3.6i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 10.634339970035356
+   },
+   "dR, S~ in every sector": {
+    "min chi2_six": 40.529288250617235,
+    "at": "(2/5, 1/10) at 0.4 + 2.7i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.44274095560756
+   },
+   "dR, split (up S~)": {
+    "min chi2_six": 11.093995911800484,
+    "at": "(2/5, 1/10) at 0.4 + 3.1i, L_max",
+    "rows below 16.75": 3,
+    "|V_cb| over measured there": 23.83411486354594
+   },
+   "dR, flipped (up S)": {
+    "min chi2_six": 27.604404107262962,
+    "at": "(0, 3/10) at 0.1 + 2.7i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.85222851987835
+   },
+   "F_-10, S in every sector": {
+    "min chi2_six": 3482.9794268839964,
+    "at": "(1/11, 1/11) at 0.1 + 1.0i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 2.4673384027620155
+   },
+   "F_-10, S~ in every sector": {
+    "min chi2_six": 3048.1071869661573,
+    "at": "(1/11, 10/11) at 0.1 + 1.0i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 2.005964895198712
+   },
+   "F_-10, split (up S~)": {
+    "min chi2_six": 4293.456107873687,
+    "at": "(1/11, 1/11) at 0.1 + 1.0i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 22.430367769591985
+   },
+   "F_-10, flipped (up S)": {
+    "min chi2_six": 3834.873698013762,
+    "at": "(1/11, 10/11) at 0.1 + 1.0i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.15071334173142
+   },
+   "F_2, S in every sector": {
+    "min chi2_six": 153780.47501181357,
+    "at": "(4/9, 1/9) at 0.4 + 3.4i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.08638187202716488
+   },
+   "F_2, S~ in every sector": {
+    "min chi2_six": 153622.60998179176,
+    "at": "(0, 1/9) at 0.4 + 3.3i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.9734666243484082
+   },
+   "F_2, split (up S~)": {
+    "min chi2_six": 155304.04029913532,
+    "at": "(5/11, 4/11) at 0.1 + 3.5i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.88988788293761
+   },
+   "F_2, flipped (up S)": {
+    "min chi2_six": 154281.44968323602,
+    "at": "(4/11, 2/11) at 0.4 + 3.3i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.21167826633290363
+   },
+   "F_14, S in every sector": {
+    "min chi2_six": 33.17165016017704,
+    "at": "(2/5, 4/5) at 0.4 + 2.6i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.6149987619572383
+   },
+   "F_14, S~ in every sector": {
+    "min chi2_six": 111.61096558885242,
+    "at": "(1/4, 3/8) at 0.4 + 3.3i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.0015864234982971685
+   },
+   "F_14, split (up S~)": {
+    "min chi2_six": 51.50335727435883,
+    "at": "(0, 3/10) at 0.1 + 2.7i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.850606954357083
+   },
+   "F_14, flipped (up S)": {
+    "min chi2_six": 6.701697819152977,
+    "at": "(2/5, 1/10) at 0.1 + 3.0i, L_max",
+    "rows below 16.75": 3,
+    "|V_cb| over measured there": 23.849481263002254
+   },
+   "F_26, S in every sector": {
+    "min chi2_six": 94.57344925853445,
+    "at": "(2/9, 2/9) at 0.4 + 3.7i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 10.573539100079739
+   },
+   "F_26, S~ in every sector": {
+    "min chi2_six": 40.56215773663583,
+    "at": "(2/5, 3/10) at 0.4 + 2.7i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.5310794510910906
+   },
+   "F_26, split (up S~)": {
+    "min chi2_six": 6.917407405727787,
+    "at": "(2/5, 7/10) at 0.1 + 3.2i, L_max",
+    "rows below 16.75": 10,
+    "|V_cb| over measured there": 23.800450992333445
+   },
+   "F_26, flipped (up S)": {
+    "min chi2_six": 12.022959091541896,
+    "at": "(0, 3/10) at 0.1 + 2.8i, L_2",
+    "rows below 16.75": 2,
+    "|V_cb| over measured there": 23.859921694086864
+   },
+   "F_-6, S in every sector": {
+    "min chi2_six": 4335.345158871231,
+    "at": "(1/2, 1/3) at 0.4 + 3.7i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 8.141887157086002e-16
+   },
+   "F_-6, S~ in every sector": {
+    "min chi2_six": 4120.134992421469,
+    "at": "(1/11, 10/11) at 0.1 + 1.0i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 4.696180924199684
+   },
+   "F_-6, split (up S~)": {
+    "min chi2_six": 4335.345221435927,
+    "at": "(1/2, 1/3) at 0.4 + 3.7i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.00011586212379448887
+   },
+   "F_-6, flipped (up S)": {
+    "min chi2_six": 4335.345095602306,
+    "at": "(1/2, 1/3) at 0.4 + 3.7i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.00011586212379448887
+   },
+   "F_6, S in every sector": {
+    "min chi2_six": 38.35640035125331,
+    "at": "(2/5, 4/5) at 0.4 + 2.4i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.788888063779608
+   },
+   "F_6, S~ in every sector": {
+    "min chi2_six": 59.1036868549669,
+    "at": "(1/4, 3/8) at 0.1 + 3.1i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.006635619770266166
+   },
+   "F_6, split (up S~)": {
+    "min chi2_six": 185.56112526830123,
+    "at": "(0, 3/10) at 0.1 + 2.5i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.832638640452767
+   },
+   "F_6, flipped (up S)": {
+    "min chi2_six": 13.375873267615777,
+    "at": "(2/5, 1/10) at 0.1 + 2.8i, L_max",
+    "rows below 16.75": 1,
+    "|V_cb| over measured there": 23.813654354477567
+   },
+   "F_18, S in every sector": {
+    "min chi2_six": 117.21938785743768,
+    "at": "(2/9, 2/9) at 0.4 + 3.6i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 10.677158989291883
+   },
+   "F_18, S~ in every sector": {
+    "min chi2_six": 34.29617871293161,
+    "at": "(2/5, 3/10) at 0.4 + 2.6i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.6019912825769539
+   },
+   "F_18, split (up S~)": {
+    "min chi2_six": 10.373817663043923,
+    "at": "(2/5, 3/5) at 0.4 + 3.1i, L_max",
+    "rows below 16.75": 5,
+    "|V_cb| over measured there": 23.861645854263255
+   },
+   "F_18, flipped (up S)": {
+    "min chi2_six": 26.857799687208548,
+    "at": "(0, 3/10) at 0.1 + 2.7i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.84941714134281
+   },
+   "F_-2, S in every sector": {
+    "min chi2_six": 2616.664966215525,
+    "at": "(3/7, 3/7) at 0.4 + 1.0i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.25932845186879405
+   },
+   "F_-2, S~ in every sector": {
+    "min chi2_six": 2108.5066753772107,
+    "at": "(0, 1/6) at 0.4 + 1.0i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 6.6197754813057286e-15
+   },
+   "F_-2, split (up S~)": {
+    "min chi2_six": 3279.658530235026,
+    "at": "(3/11, 3/11) at 0.4 + 1.0i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 22.677201960265226
+   },
+   "F_-2, flipped (up S)": {
+    "min chi2_six": 2726.800685217392,
+    "at": "(1/3, 5/6) at 0.4 + 1.0i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 22.504275819202547
+   },
+   "F_10, S in every sector": {
+    "min chi2_six": 80.07921120312932,
+    "at": "(1/4, 7/8) at 0.4 + 3.2i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.002189956963836645
+   },
+   "F_10, S~ in every sector": {
+    "min chi2_six": 23.361243058361907,
+    "at": "(2/5, 3/10) at 0.4 + 2.5i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.6930368698415591
+   },
+   "F_10, split (up S~)": {
+    "min chi2_six": 7.86178448745776,
+    "at": "(2/5, 3/5) at 0.1 + 2.9i, L_max",
+    "rows below 16.75": 2,
+    "|V_cb| over measured there": 23.787562538783522
+   },
+   "F_10, flipped (up S)": {
+    "min chi2_six": 89.43260358621134,
+    "at": "(0, 3/10) at 0.1 + 2.6i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.842419330907898
+   },
+   "F_22, S in every sector": {
+    "min chi2_six": 35.080574896080186,
+    "at": "(2/5, 4/5) at 0.4 + 2.7i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.5399978388133815
+   },
+   "F_22, S~ in every sector": {
+    "min chi2_six": 112.92297863815942,
+    "at": "(2/9, 2/9) at 0.4 + 3.7i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 10.573461441625511
+   },
+   "F_22, split (up S~)": {
+    "min chi2_six": 22.924223548254563,
+    "at": "(0, 3/10) at 0.1 + 2.8i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.859830498837866
+   },
+   "F_22, flipped (up S)": {
+    "min chi2_six": 3.8109466865826076,
+    "at": "(2/5, 7/10) at 0.1 + 3.1i, L_max",
+    "rows below 16.75": 4,
+    "|V_cb| over measured there": 23.78781047586673
+   },
+   "_lowest min chi2_six over the aligned readings (S or S~ in every sector), all directions": 23.361243058361907
+  },
+  "ZERO_FREE_HOLOMORPHIC": {
+   "F_6, S in every sector": {
+    "min chi2_six": 36.5460619325619,
+    "at": "(2/5, 4/5) at 0.45 + 2.35i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.8317992579215969
+   },
+   "F_6, S~ in every sector": {
+    "min chi2_six": 55.1543523480323,
+    "at": "(1/4, 1/8) at 0.9 + 3.05i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.008179796098177292
+   },
+   "F_6, split (up S~)": {
+    "min chi2_six": 194.22519078915323,
+    "at": "(0, 3/10) at 0.9 + 2.45i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.821300506135824
+   },
+   "F_6, flipped (up S)": {
+    "min chi2_six": 12.011836114411919,
+    "at": "(2/5, 1/10) at 0.15 + 2.75i, L_max",
+    "rows below 16.75": 2,
+    "|V_cb| over measured there": 23.805643421823316
+   },
+   "F_-2, S in every sector": {
+    "min chi2_six": 4324.216346637461,
+    "at": "(1/2, 1/3) at 0.3 + 2.85i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 1.8022077266235193e-15
+   },
+   "F_-2, S~ in every sector": {
+    "min chi2_six": 4324.1189903891445,
+    "at": "(1/2, 1/6) at 0.6 + 2.85i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 8.10197603858963e-16
+   },
+   "F_-2, split (up S~)": {
+    "min chi2_six": 4327.90032441601,
+    "at": "(1/2, 1/3) at 0.6 + 2.85i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 3.049648566135459
+   },
+   "F_-2, flipped (up S)": {
+    "min chi2_six": 4318.356081541108,
+    "at": "(1/2, 1/3) at 0.3 + 2.85i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 3.0485503046016156
+   },
+   "F_22, S in every sector": {
+    "min chi2_six": 37.10832683313195,
+    "at": "(2/5, 4/5) at 0.45 + 2.65i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.5648492566284712
+   },
+   "F_22, S~ in every sector": {
+    "min chi2_six": 150.7734911754069,
+    "at": "(2/9, 1/9) at 0.75 + 3.45i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 4.02188111571299
+   },
+   "F_22, split (up S~)": {
+    "min chi2_six": 14.942354571881525,
+    "at": "(0, 3/10) at 0.9 + 2.75i, L_2",
+    "rows below 16.75": 2,
+    "|V_cb| over measured there": 23.852821288996847
+   },
+   "F_22, flipped (up S)": {
+    "min chi2_six": 6.121391798264051,
+    "at": "(2/5, 9/10) at 0.9 + 3.15i, L_max",
+    "rows below 16.75": 19,
+    "|V_cb| over measured there": 23.802558457540773
+   },
+   "dR, S in every sector": {
+    "min chi2_six": 139.38653116283217,
+    "at": "(1/4, 3/8) at 0.45 + 3.35i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.003206277090923412
+   },
+   "dR, S~ in every sector": {
+    "min chi2_six": 22.35975645275295,
+    "at": "(2/5, 1/2) at 0.45 + 2.65i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.4926376256707923
+   },
+   "dR, split (up S~)": {
+    "min chi2_six": 3.815433142626087,
+    "at": "(2/5, 1/10) at 0.3 + 3.05i, L_max",
+    "rows below 16.75": 7,
+    "|V_cb| over measured there": 23.855163866955497
+   },
+   "dR, flipped (up S)": {
+    "min chi2_six": 31.739255242349493,
+    "at": "(0, 3/10) at 0.9 + 2.65i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.844566694036672
+   },
+   "_lowest min chi2_six over the aligned readings (S or S~ in every sector), all directions": 22.35975645275295
+  },
+  "TICK_LINE_HIGGS": {
+   "F_6, S in every sector": {
+    "min chi2_six": 39.067410763907674,
+    "at": "(2/5, 4/5) at 0.475 + 2.425i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.7719406201284866
+   },
+   "F_6, S~ in every sector": {
+    "min chi2_six": 549.5249552973243,
+    "at": "(1/5, 3/5) at 0.975 + 3.125i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 5.963132651035165
+   },
+   "F_6, split (up S~)": {
+    "min chi2_six": 1124.9797169955636,
+    "at": "(1/5, 3/5) at 0.975 + 2.525i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 16.493541385578595
+   },
+   "F_6, flipped (up S)": {
+    "min chi2_six": 17.943840834847357,
+    "at": "(2/5, 1/5) at 0.975 + 2.725i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.69266533264554
+   },
+   "F_-2, S in every sector": {
+    "min chi2_six": 4963.126138257638,
+    "at": "(2/5, 1/5) at 0.825 + 3.425i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 16.040821095958385
+   },
+   "F_-2, S~ in every sector": {
+    "min chi2_six": 5090.958513603303,
+    "at": "(2/5, 1/5) at 0.975 + 3.425i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 15.655216234824092
+   },
+   "F_-2, split (up S~)": {
+    "min chi2_six": 5096.050177369187,
+    "at": "(2/5, 1/5) at 0.925 + 3.425i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 15.178394750804387
+   },
+   "F_-2, flipped (up S)": {
+    "min chi2_six": 4963.910210022076,
+    "at": "(2/5, 1/5) at 0.875 + 3.425i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 16.96159815121404
+   },
+   "F_22, S in every sector": {
+    "min chi2_six": 40.331316359525246,
+    "at": "(2/5, 4/5) at 0.425 + 2.725i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.528320215932781
+   },
+   "F_22, S~ in every sector": {
+    "min chi2_six": 480.6816471622731,
+    "at": "(1/5, 3/5) at 0.975 + 3.425i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 5.599872763294255
+   },
+   "F_22, split (up S~)": {
+    "min chi2_six": 1065.972570956873,
+    "at": "(1/5, 3/5) at 0.975 + 2.825i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 17.319803114801456
+   },
+   "F_22, flipped (up S)": {
+    "min chi2_six": 9.938712667642061,
+    "at": "(2/5, 4/5) at 0.275 + 3.125i, L_max",
+    "rows below 16.75": 16,
+    "|V_cb| over measured there": 23.86477499124453
+   },
+   "dR, S in every sector": {
+    "min chi2_six": 487.0173370126874,
+    "at": "(1/5, 3/5) at 0.975 + 3.425i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 5.6132841646001586
+   },
+   "dR, S~ in every sector": {
+    "min chi2_six": 125.75705281318326,
+    "at": "(2/5, 1/5) at 0.975 + 2.725i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.2583395088585318
+   },
+   "dR, split (up S~)": {
+    "min chi2_six": 21.046345981816888,
+    "at": "(2/5, 1/5) at 0.025 + 3.025i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.744045305901842
+   },
+   "dR, flipped (up S)": {
+    "min chi2_six": 960.5745032853887,
+    "at": "(1/5, 3/5) at 0.975 + 2.925i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 16.977543070531194
+   },
+   "_lowest min chi2_six over the aligned readings (S or S~ in every sector), all directions": 39.067410763907674
+  },
+  "RIGID_TAU family A": {
+   "F_6, S in every sector": {
+    "min chi2_six": 78.58892949783066,
+    "at": "LLLLRRLRR #79 line 29 (2/5, 3/10) at 3.0000 + 2.3717i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.7928770544025677
+   },
+   "F_6, S~ in every sector": {
+    "min chi2_six": 138.24937817473395,
+    "at": "LLLLLRLLR #70 line 11 (1/4, 5/8) at 3.5000 + 3.2404i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.001460542299985322
+   },
+   "F_6, split (up S~)": {
+    "min chi2_six": 231.86599925675807,
+    "at": "LLLLLRR #22 line 0 (0, 1/2) at 3.5000 + 2.9580i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.643177660805975
+   },
+   "F_6, flipped (up S)": {
+    "min chi2_six": 51.17567482676823,
+    "at": "LLLLLRRRR #73 line 16 (2/5, 3/5) at 3.5000 + 2.7386i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.854724989819694
+   },
+   "F_-2, S in every sector": {
+    "min chi2_six": 4348.074041638258,
+    "at": "LLLLLLRLR #68 line 20 (1/2, 1/3) at 4.0000 + 3.6515i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 2.252843543054885e-15
+   },
+   "F_-2, S~ in every sector": {
+    "min chi2_six": 3897.784249894891,
+    "at": "LLRR #4 line 0 (0, 1/2) at 2.0000 + 1.4142i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 4.349763758166503e-15
+   },
+   "F_-2, split (up S~)": {
+    "min chi2_six": 4349.867018282653,
+    "at": "LLLLLLRLR #68 line 20 (1/2, 1/3) at 4.0000 + 3.6515i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.8719039717103602
+   },
+   "F_-2, flipped (up S)": {
+    "min chi2_six": 4346.225531137722,
+    "at": "LLLLLLRLR #68 line 20 (1/2, 1/3) at 4.0000 + 3.6515i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.8719039717103602
+   },
+   "F_22, S in every sector": {
+    "min chi2_six": 48.882656173504564,
+    "at": "LLLLLRRRR #73 line 16 (2/5, 3/5) at 3.5000 + 2.7386i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.5223584601162669
+   },
+   "F_22, S~ in every sector": {
+    "min chi2_six": 201.57293469835872,
+    "at": "LLLLLRLLR #70 line 11 (1/4, 5/8) at 3.5000 + 3.2404i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.0013768865294178294
+   },
+   "F_22, split (up S~)": {
+    "min chi2_six": 31.271249725250005,
+    "at": "LLLLRLLLR #74 line 0 (0, 1/5) at 3.0000 + 2.7928i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.82921596876378
+   },
+   "F_22, flipped (up S)": {
+    "min chi2_six": 71.98207730782082,
+    "at": "LLLLLRLRR #71 line 22 (11/28, 2/7) at 3.6000 + 2.9933i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.811622410335808
+   },
+   "dR, S in every sector": {
+    "min chi2_six": 156.0655210237985,
+    "at": "LLLLLRLLR #70 line 10 (1/4, 1/8) at 3.5000 + 3.2404i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.0037484672587358636
+   },
+   "dR, S~ in every sector": {
+    "min chi2_six": 111.25069415167721,
+    "at": "LLLLRLRLR #76 line 30 (2/5, 1/20) at 3.0000 + 2.6220i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 0.3028746953484776
+   },
+   "dR, split (up S~)": {
+    "min chi2_six": 42.31064363319423,
+    "at": "LLLLLRR #22 line 8 (2/5, 3/5) at 3.5000 + 2.9580i, L_max",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.87274175120005
+   },
+   "dR, flipped (up S)": {
+    "min chi2_six": 158.89047062327316,
+    "at": "LLLLRLLLR #74 line 1 (0, 2/5) at 3.0000 + 2.7928i, L_2",
+    "rows below 16.75": 0,
+    "|V_cb| over measured there": 23.90434232990394
+   },
+   "_lowest min chi2_six over the aligned readings (S or S~ in every sector), all directions": 48.882656173504564
+  }
+ },
+ "K2 J at the CP-self-conjugate apex configurations": {
+  "self-conjugate points": 843,
+  "F_6, up S, down S: max |J|": 1.672799919416601e-12,
+  "F_6, up S, down St: max |J|": 1.2639207735976044e-10,
+  "F_6, up St, down S: max |J|": 2.090179418434701e-11,
+  "F_6, up St, down St: max |J|": 3.5097267973849267e-12,
+  "F_-2, up S, down S: max |J|": 1.5466730543881035e-12,
+  "F_-2, up S, down St: max |J|": 1.3150661115624018e-12,
+  "F_-2, up St, down S: max |J|": 1.2622027988767881e-12,
+  "F_-2, up St, down St: max |J|": 3.7157932980536046e-12,
+  "F_22, up S, down S: max |J|": 1.2417137630615915e-12,
+  "F_22, up S, down St: max |J|": 2.358491457687961e-10,
+  "F_22, up St, down S: max |J|": 6.515957912123227e-11,
+  "F_22, up St, down St: max |J|": 4.243494444722273e-12,
+  "dR, up S, down S: max |J|": 8.196958736772508e-12,
+  "dR, up S, down St: max |J|": 7.475205870965951e-11,
+  "dR, up St, down S: max |J|": 3.517346483516981e-11,
+  "dR, up St, down St: max |J|": 2.2040592007749327e-12
+ },
+ "K3 the CP control": {
+  "zero-free census: menu, S": {
+   "rows with |J| within a factor 3": 11341,
+   "best nine among them": 4.482276570762514,
+   "best nine overall": 2.297364827979467,
+   "random subsets of that size: median best nine": 2.623996188863308,
+   "random subsets: 95th percentile": 3.204300537518423
+  },
+  "zero-free census: DR, S~": {
+   "rows with |J| within a factor 3": 3943,
+   "best nine among them": 5.192051482928911,
+   "best nine overall": 2.086876717066842,
+   "random subsets of that size: median best nine": 2.6595303071979224,
+   "random subsets: 95th percentile": 3.6566918605852394
+  },
+  "ZERO_FREE_HOLOMORPHIC: menu, S": {
+   "rows with |J| within a factor 3": 20913,
+   "best nine among them": 5.090568266561433,
+   "best nine overall": 2.19208425362929,
+   "random subsets of that size: median best nine": 2.3483085853049905,
+   "random subsets: 95th percentile": 2.625738087520282
+  },
+  "ZERO_FREE_HOLOMORPHIC: DR, S~": {
+   "rows with |J| within a factor 3": 7916,
+   "best nine among them": 4.512300301055333,
+   "best nine overall": 1.8990849890762926,
+   "random subsets of that size: median best nine": 2.215545651535316,
+   "random subsets: 95th percentile": 2.7506811711543415
+  }
+ },
+ "K4 the six's chi-square calibration (ZERO_FREE_HOLOMORPHIC's grid)": {
+  "DR split (up S~)": {
+   "rows": 47880,
+   "observed min chi2_six": 3.815433142626087,
+   "share of random six-target sets as good, seeds 1720-1724": [
+    0.0,
+    0.0,
+    0.00025,
+    0.00025,
+    0.00025
+   ]
+  },
+  "menu flipped (up S)": {
+   "rows": 143640,
+   "observed min chi2_six": 6.121391798264051,
+   "share of random six-target sets as good, seeds 1720-1724": [
+    0.00075,
+    0.00075,
+    0.00025,
+    0.00025,
+    0.00025
+   ]
+  }
+ }
+}
