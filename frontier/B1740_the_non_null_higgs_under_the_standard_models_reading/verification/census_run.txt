@@ -1,0 +1,7 @@
+23940 points; 0 done; 23940 to do
+<python>/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+[paused by main at 3608 points, 2026-10-23, to run B1741's census first (the owner's tau recheck); the checkpoint keeps every completed point, and the resumed run appends to census.jsonl and to this log]
+[resumed by main after B1741's landing (a74c9cd6f), 2026-10-23]
+23940 points; 3608 done; 20332 to do
+control: against B1725 3.89e-12, T-covariance 1.32e-11, F_-2's norm law 0.00e+00
