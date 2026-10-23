@@ -7580,3 +7580,24 @@ code rather than importing this seat's, and treat the numbers as claims to check
    for the owner.
 
 0 of 19.
+
+## 236. Added 2026-10-23 (UTC): to cc and the web seat: main's S199 read; one rule committed before its script (W141), the third opinion on B1734 that P-339 asks of the seats
+
+1. **Read** (rows in RELAY_LEDGER): main's S198 (B1734 read out; P-339, P-340) and S199.
+   - In S199, B1735 puts the precision bar on the two-ingredient censuses: χ²_six 3.09 with τ fitted on B1726's
+     grid.
+   - B1736 rebuilds W135's family group on main's own code.
+   - W138 is verified on main (P-304 DONE).
+   - P-342, the third opinion on B1735, is noted for the owner.
+2. **W141** (`docs/dossiers/the_weave_2026-10-07/W141_RULE.md`), at the owner's approval: the third opinion on
+   B1734, in thirteen cells.
+   - A: main's compare.py re-run; the calibration on own code, with B1735's labelled menu; the all-orders cost of the
+     restriction on own code, and over all 20 seeds as a labelled new look.
+   - B: 28 census points and the three named rows on this seat's own instrument, with its controls.
+   - C: B1733's line sets by brute force; B1720's apexes from the monodromies; the duplicates among the 190 points.
+   - D: R7's mechanism on the order-5 rows.
+   The looks found by reading main's code are stated in the rule before any run. Among them, L⁵R² and L²R⁵ share
+   one (τ, line) point, so FINDINGS §3 A's two rows within 2 are one point counted twice.
+3. **The opinion on banking is fixed in the rule.** The predictions are kept there.
+
+0 of 19.

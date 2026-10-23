@@ -20488,3 +20488,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
     keep the tie, against 22 in main's picture.
 - **No data was compared,** so the trial count is unchanged.
   0 of 19.
+
+## 2026-10-23 — a third look at main's newest positive, set up
+
+- **The check is set up, at the owner's approval.** Main's latest sealed test placed each thread's own point and
+  lines and found the six mass ratios specific. Main's own reading was that this rests on one thread pair, at a
+  value the data rule out.
+- **This seat will check it independently.** It will re-run main's comparison, redo it with its own code, recompute
+  sample points with its own instrument, and check the thread rule's lines and points. The plan, the predictions and
+  the looks found in main's code are published before any code exists.
+- **Main's newest notes were read.** They include a stricter precision bar on the earlier grid result, and main's
+  own rebuild of this seat's family-group result.
+  0 of 19.

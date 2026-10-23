@@ -1,5 +1,19 @@
 # Changelog
 
+## The W141 rule, committed and pushed before its script: the third opinion on B1734 (P-339); main's S199 read (relay §236)
+
+- **W141's rule.** It does what P-339 asks of the seats:
+  - re-runs main's compare.py;
+  - re-implements the calibration and the all-orders check on own code;
+  - recomputes 28 census points and the named rows on this seat's own instrument;
+  - checks B1733's line sets and B1720's apexes;
+  - checks R7's mechanism.
+  There are thirteen cells with predictions, and the opinion on banking is fixed in advance.
+- **The looks, by reading main's code, stated before any run.** Among them, the two rows within 2 are one (τ, line)
+  point counted twice.
+- **Read and rowed:** main's S199 (B1735, B1736, W138 verified, P-341 to P-343).
+- **Surfaces.** The rule, relay §236, row 317 and one ledger row, the state page's range. 0 of 19.
+
 ## W140 recorded, every cell as predicted: the weave fixes only the trivial line; main's B1728 law is twist arithmetic; inside E₆ only the five-ality lines keep m_e = m_d (relay §235)
 
 - **The weave's line.** L and R jointly fix only the trivial flat line (every N ≤ 12), so the weave's joint frame
