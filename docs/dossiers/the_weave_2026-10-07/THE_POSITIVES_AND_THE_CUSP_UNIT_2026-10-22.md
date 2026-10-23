@@ -91,6 +91,9 @@ Each takes every thread the principle allows under one rule, and its claim is ab
     the six within 1.55 and the nine within 2.04 on the tick's lines, 0.15% and 0.11% of random as good). Its
     own limit: the hypothesis and menu were fixed after a census whose rows already met the bars. Its
     RIGID_TAU_HOLOMORPHIC and main's B1734 are running; no expectation is stated for either.
+    *(2026-10-23, later: main read B1734 out as PROVED as sealed for its question. The six within 1.614 on one thread
+    pair's order-5 line, 0.16% of random as good, but there D = 9 exactly, excluded at 14σ, and the nine fail. Main
+    grades it a READING; the seats' third opinion is P-339.)*
 - **The magnitudes side is a clean negative.** The forced menu fits the hierarchy no better than chance (p = 0.139,
   W112).
 
