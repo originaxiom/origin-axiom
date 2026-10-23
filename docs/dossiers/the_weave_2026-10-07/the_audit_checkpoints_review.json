@@ -1,0 +1,477 @@
+{
+ "arc": "W144",
+ "rule": "W144_RULE.md",
+ "cells": {
+  "A1": true,
+  "A2": false,
+  "A3": true,
+  "A4": false,
+  "B1": true,
+  "B2": true,
+  "C1": false,
+  "C2": false,
+  "D1": true,
+  "E1": true,
+  "E2": true
+ },
+ "A1": {
+  "max off the curve": "5.33e-50",
+  "max relation residual": "2.53e-50",
+  "max F-law residual": "2.28e-50"
+ },
+ "A2": {
+  "max off the curve": "1.41",
+  "max relation residual": "5.76e-50",
+  "(SL)^3 / S^2 on w: distance from +1 and from -1": {
+   "both reversed": [
+    "3.23e-51",
+    "2.0"
+   ],
+   "L reversed": [
+    "2.0",
+    "3.23e-51"
+   ],
+   "S reversed": [
+    "2.0",
+    "3.23e-51"
+   ]
+  }
+ },
+ "A3": {
+  "words": {
+   "L L^-1 = id and R R^-1 = id": true,
+   "Delta(a) = a b^-1 a^-1, Delta(b) = a": true,
+   "Delta^4 = I_c, c = a b^-1 a^-1 b": true,
+   "R L^-1 R = Delta^-1": true,
+   "S(a) = b, S(b) = b^-1 a^-1 b": true,
+   "(SL)^3 = S^2 in Aut(F2)": true,
+   "I_c != I_c^-1": true
+  },
+  "lifts": {
+   "g_L intertwines L": "0.0",
+   "g_R intertwines R": "0.0",
+   "g_Delta intertwines Delta": "0.0",
+   "g_s intertwines S": "0.0"
+  },
+  "lift identities": {
+   "g_Delta - (i + j)/sqrt2": "0.0",
+   "g_s - g_Delta^-1 (r l^-1 r = Delta^-1 in E)": "2.67e-51",
+   "rho(c) + 1": "0.0",
+   "g_Delta^4 - 1 (so (Delta, g_Delta)^4 = (I_c, +1) = eps J_c)": "5.35e-51",
+   "g_s^4 - 1 (so s^4 = (I_c^-1, +1) = eps J_c^-1)": "5.35e-51",
+   "eps J_c^-1 g-part = (-1) rho(c)^-1, minus 1": "0.0"
+  },
+  "s^4 automorphism is I_c^-1, not I_c": true
+ },
+ "A4": {
+  "max conjugation residual (5)": "1.84e-50",
+  "D_c = C residual": "7.42e-51",
+  "max F-law residual": "1.13",
+  "k^2 = j mu residuals (l, s, s^4)": "2.46e-50",
+  "k_{s^4}": "(-1.0 - 3.04983e-51j)",
+  "k_{J_c}": "(1.0 - 3.93717e-52j)",
+  "k_eps": "(-1.0 - 2.65611e-51j)",
+  "relation word (sl)^3 s^-2: g-part sign, and k g = 1": {
+   "g-part": [
+    "1.0",
+    "1.0",
+    "1.0",
+    "1.0"
+   ],
+   "k g = 1": true
+  }
+ },
+ "B1": {
+  "per tau": [
+   {
+    "tau": "(0.13 + 1.07j)",
+    "parity residual": "3.49e-105",
+    "O(z^2) ratios between z = 1e-3 and 1e-4": [
+     "1.0",
+     "1.0"
+    ],
+    "|b|": "0.649787"
+   },
+   {
+    "tau": "(-0.31 + 0.84j)",
+    "parity residual": "0.0",
+    "O(z^2) ratios between z = 1e-3 and 1e-4": [
+     "1.0",
+     "1.0"
+    ],
+    "|b|": "0.62553"
+   },
+   {
+    "tau": "(0.42 + 1.31j)",
+    "parity residual": "6.98e-105",
+    "O(z^2) ratios between z = 1e-3 and 1e-4": [
+     "1.0",
+     "1.0"
+    ],
+    "|b|": "0.6882"
+   },
+   {
+    "tau": "(0.05 + 0.62j)",
+    "parity residual": "5.62e-104",
+    "O(z^2) ratios between z = 1e-3 and 1e-4": [
+     "1.0",
+     "1.0"
+    ],
+    "|b|": "0.673418"
+   }
+  ]
+ },
+ "B2": {
+  "checks": {
+   "rank delta = 3": true,
+   "delta U = 0": true,
+   "U perp = C3 x span(eps^T conj b) (Hermitian orthogonal, dim 3)": true
+  },
+  "kernel table (positive, adjoint)": {
+   "0": [
+    0,
+    3
+   ],
+   "C6": [
+    3,
+    0
+   ],
+   "U": [
+    3,
+    3
+   ],
+   "U perp": [
+    0,
+    0
+   ]
+  },
+  "Green control rows (d, r, dim(U perp cap Lambda perp), = 3 - r, generic r = min(d, 3))": [
+   [
+    "0",
+    "0",
+    "3",
+    "True",
+    "True"
+   ],
+   [
+    "0",
+    "0",
+    "3",
+    "True",
+    "True"
+   ],
+   [
+    "0",
+    "0",
+    "3",
+    "True",
+    "True"
+   ],
+   [
+    "1",
+    "1",
+    "2",
+    "True",
+    "True"
+   ],
+   [
+    "1",
+    "1",
+    "2",
+    "True",
+    "True"
+   ],
+   [
+    "1",
+    "1",
+    "2",
+    "True",
+    "True"
+   ],
+   [
+    "2",
+    "2",
+    "1",
+    "True",
+    "True"
+   ],
+   [
+    "2",
+    "2",
+    "1",
+    "True",
+    "True"
+   ],
+   [
+    "2",
+    "2",
+    "1",
+    "True",
+    "True"
+   ],
+   [
+    "3",
+    "3",
+    "0",
+    "True",
+    "True"
+   ],
+   [
+    "3",
+    "3",
+    "0",
+    "True",
+    "True"
+   ],
+   [
+    "3",
+    "3",
+    "0",
+    "True",
+    "True"
+   ],
+   [
+    "4",
+    "3",
+    "0",
+    "True",
+    "True"
+   ],
+   [
+    "4",
+    "3",
+    "0",
+    "True",
+    "True"
+   ],
+   [
+    "4",
+    "3",
+    "0",
+    "True",
+    "True"
+   ],
+   [
+    "5",
+    "3",
+    "0",
+    "True",
+    "True"
+   ],
+   [
+    "5",
+    "3",
+    "0",
+    "True",
+    "True"
+   ],
+   [
+    "5",
+    "3",
+    "0",
+    "True",
+    "True"
+   ],
+   [
+    "6",
+    "3",
+    "0",
+    "True",
+    "True"
+   ],
+   [
+    "6",
+    "3",
+    "0",
+    "True",
+    "True"
+   ],
+   [
+    "6",
+    "3",
+    "0",
+    "True",
+    "True"
+   ],
+   [
+    "U",
+    "0",
+    "3",
+    "True",
+    "None"
+   ],
+   [
+    "U perp",
+    "3",
+    "0",
+    "True",
+    "None"
+   ],
+   [
+    "C6",
+    "3",
+    "0",
+    "True",
+    "None"
+   ]
+  ]
+ },
+ "C1": {
+  "d transport residual": "1.41",
+  "n transport residual": "1.41",
+  "least |r_s - k_s| off the zero lift": "0.554388",
+  "r_{s^4} + 1, r_{J_c} + 1, r_s(P_s y) r_s(y) + i: max": "4.95e-50"
+ },
+ "C2": {
+  "(9) residuals, max": "1.41",
+  "Green form (11) residual, max": "5.52",
+  "eps and J_c": {
+   "eps: A + I3, C + I3, M + I6": [
+    "0.0",
+    "0.0",
+    "0.0"
+   ],
+   "J_c: A - I3, C - I3, M - I6": [
+    "0.0",
+    "0.0",
+    "0.0"
+   ],
+   "J_c without r: the square's relative residual (2 means a sign)": "2.0"
+  },
+  "spin maps at eps": {
+   "A_spin at eps": "0.0",
+   "M_spin at eps": "0.0",
+   "C_spin at eps": "0.0"
+  }
+ },
+ "D1": {
+  "ranks": [
+   {
+    "d": 0,
+    "projectively regular": true,
+    "degree -tr R": -3.0,
+    "holonomy -I6": true
+   },
+   {
+    "d": 1,
+    "projectively regular": false,
+    "degree -tr R": -2.0,
+    "holonomy -I6": true
+   },
+   {
+    "d": 2,
+    "projectively regular": false,
+    "degree -tr R": -1.0,
+    "holonomy -I6": true
+   },
+   {
+    "d": 3,
+    "projectively regular": false,
+    "degree -tr R": 0.0,
+    "holonomy -I6": true
+   },
+   {
+    "d": 4,
+    "projectively regular": false,
+    "degree -tr R": 1.0,
+    "holonomy -I6": true
+   },
+   {
+    "d": 5,
+    "projectively regular": false,
+    "degree -tr R": 2.0,
+    "holonomy -I6": true
+   },
+   {
+    "d": 6,
+    "projectively regular": true,
+    "degree -tr R": 3.0,
+    "holonomy -I6": true
+   }
+  ],
+  "scalar residue 1/2 - q gives degree -3 + 6q": true,
+  "the two extremes differ by a scalar residue": true,
+  "commutant of I3 x rho": 9
+ },
+ "E1": {
+  "highest root = sum of marks x simple roots": true,
+  "A5 + A2 + A1 from the extended diagram": true,
+  "kernel (p, q, r) in Z6 x Z3 x Z2": [
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    2,
+    1
+   ],
+   [
+    2,
+    1,
+    0
+   ],
+   [
+    3,
+    0,
+    1
+   ],
+   [
+    4,
+    2,
+    0
+   ],
+   [
+    5,
+    1,
+    1
+   ]
+  ],
+  "generators of orders (6, 3, 2)": [
+   [
+    1,
+    2,
+    1
+   ],
+   [
+    5,
+    1,
+    1
+   ]
+  ],
+  "(-I6, I3, -I2) = (3, 0, 1) in K": true,
+  "(-I6, I3, I2) = (3, 0, 0) in K": false,
+  "roots on which (3, 0, 0) is -1": 112,
+  "(3, 0, 1) trivial on every root": true,
+  "classes by (6-ality, 3-ality, 2-ality), with the Cartan in the trivial one": [
+   36,
+   36,
+   40,
+   45,
+   45,
+   46
+  ]
+ },
+ "E2": {
+  "commutator and squares are (-I6, I3, -I2)": true,
+  "in K (from E1)": true,
+  "rho tensor rho": {
+   "commute": true,
+   "square to 1": true,
+   "traces (X, Y, XY)": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "X + 2Y eigenvalues (four characters, once each)": [
+    -3,
+    -1,
+    1,
+    3
+   ]
+  },
+  "commutant of {i, j} in M2": 1
+ },
+ "seconds": 1.4
+}

@@ -1,0 +1,20 @@
+{
+ "cells": {
+  "A1": true,
+  "A2": false,
+  "A3": true,
+  "A4": false,
+  "B1": true,
+  "B2": true,
+  "C1": false,
+  "C2": false,
+  "D1": true,
+  "E1": true,
+  "E2": true
+ },
+ "seconds": 1.4
+}
+
+real	0m2.254s
+user	0m2.833s
+sys	0m0.112s
