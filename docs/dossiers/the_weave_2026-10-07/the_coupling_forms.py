@@ -291,7 +291,7 @@ def ring_ranks():
                     a2[e2] += 1
                 if e3 < L:
                     a3[e3] += 1
-                    a4[e3] += (-1) ** (m + n)
+                    a4[e3] += 1 if (m + n) % 2 == 0 else -1
 
         def mult(u, v):
             o = [0] * L

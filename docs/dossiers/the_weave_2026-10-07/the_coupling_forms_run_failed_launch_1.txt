@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "docs/dossiers/the_weave_2026-10-07/the_coupling_forms.py", line 587, in <module>
+    main()
+  File "docs/dossiers/the_weave_2026-10-07/the_coupling_forms.py", line 572, in main
+    l0, ok0, (OS, OT, G, pairs) = L0()
+                                  ^^^^
+  File "docs/dossiers/the_weave_2026-10-07/the_coupling_forms.py", line 269, in L0
+    ranks = ring_ranks()
+            ^^^^^^^^^^^^
+  File "docs/dossiers/the_weave_2026-10-07/the_coupling_forms.py", line 315, in ring_ranks
+    out[w] = int(flint.fmpz_mat(rows).rank())
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "flint/types/fmpz_mat.pyx", line 128, in flint.types.fmpz_mat.fmpz_mat.__init__
+  File "flint/types/fmpz.pyx", line 107, in flint.types.fmpz.fmpz.__init__
+TypeError: cannot create fmpz from type <class 'float'>
+
+real	0m1.144s
+user	0m1.259s
+sys	0m0.119s
+exit=1
