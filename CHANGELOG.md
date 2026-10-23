@@ -1,5 +1,12 @@
 # Changelog
 
+## The W143 rule, committed and pushed before its script: P-345's first question on W133 (relay §240)
+
+- **W143's rule.** Which zero-free Higgs lines GENESIS PF1-W admits that are led at the cusp by the non-null eigenline,
+  as P-345 (a) asks. Both sign families are computed on own code in W133's four spaces, and W133's open multiplicities
+  are closed. Four cells. No data.
+- **Surfaces.** The rule, relay §240, row 317, the state page's range. 0 of 19.
+
 ## W142 recorded: the third opinion on B1735 (P-342) and the owner's audit — no error in main's code or arithmetic; 3.09 and 0.03% stand; A1 failed as worded, an environment difference; a value-level READING with τ fitted (relay §239)
 
 - **Reproduced.**

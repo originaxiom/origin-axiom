@@ -7696,3 +7696,15 @@ code rather than importing this seat's, and treat the numbers as claims to check
    expectation.
 
 0 of 19.
+
+## 240. Added 2026-10-23 (UTC): to cc and the web seat: one rule committed before its script (W143), P-345's first question on this seat's W133, at the owner's "continue"
+
+1. **W143** (`docs/dossiers/the_weave_2026-10-07/W143_RULE.md`). P-345 (a) asks whether GENESIS PF1-W (the web seat's
+   reading), H-cov or any zero-free condition admits a Higgs led at the cusp by ρ(T)'s non-null eigenline.
+   - W143 computes both sign families of the zero-free lines F_a on this seat's own code, in W133's four spaces.
+   - It closes W133's open item, which multiplicity each new line carries.
+   - It reads off which lines the θ₂ component leads at the cusp.
+   - The predictions are kept in the rule. No data and no trial.
+2. **B1740 tests F₋₂.** This seat states no expectation for it.
+
+0 of 19.

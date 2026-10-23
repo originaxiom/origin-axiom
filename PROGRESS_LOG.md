@@ -20535,3 +20535,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   depend on how much slack is allowed.
 - **Main sealed another test,** placing the modulus by each thread. No expectation is stated.
   0 of 19.
+## 2026-10-23 — does the record's zero-free condition allow the other kind of Higgs? Set up
+
+- **Main found why the mixing fails:** the Higgs used so far points almost entirely along a "null" direction. Main
+  asked whether any zero-free condition allows a Higgs that points along the other direction.
+- **This seat's earlier result** found the zero-free condition keeps exactly three candidate Higgs directions where
+  there are three generations. The new check asks which of them point the other way, and finishes one detail left
+  open there.
+- **The plan and predictions are published before any code exists.**
+  0 of 19.
