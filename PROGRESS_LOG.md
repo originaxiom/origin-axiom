@@ -17845,3 +17845,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - **B1743 (post hoc; NEGATIVE for its question).** The one-Higgs optimum reproduced on main (17.257) and stated: nearly null, the invariant ∣h·h∣/∣h∣² nearly constant at 0.015–0.019, the e₁ admixture 0.2–0.33. No pencil of two record forms goes below χ²_nine 41.9. R5 verified. P-356 DONE; P-357 (what fixes the invariant). FLOOR 357.
 - **Landing suite.** full suite 7 689 passed, 2 failed, 68 skipped (27:11, -n 8) on 3a3c3b1a6: the two failures are B805's attachment locks (P-239, standing); THE_SPINE.md regenerated after the commit and amended in before the suite.
+
+## 2026-10-23 — S204 THE NINE'S TARGET, TRACKED (P-357)
+
+- Post hoc (labelled; audit room): the target's invariant 0.017–0.020 on every good row of a dense τ grid; its e₁ admixture a fixed multiple of θ₂/θ₃ to 4% (a description, still four reals); an exactly null Higgs gives the first generation and V_us zero, so the off-cone invariant carries them; the record's forms at τ/2 or 2τ reach 964.7 at best. P-357 annotated.
+- **Landing suite.** full suite 7 689 passed, 2 failed, 68 skipped (24:22, -n 8) on fcf9affe0: the two failures are B805's attachment locks (P-239, standing).

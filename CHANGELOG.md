@@ -1,5 +1,12 @@
 # Changelog
 
+## S204 THE NINE'S TARGET, TRACKED (P-357 note; post hoc, labelled) (2026-10-23)
+
+- **The target tracked on a dense τ grid** (the line (2/5, 3/5) and its mirror, L₂; post hoc, audit room): χ²_nine down to 16.74; on the good rows the invariant ∣h·h∣/∣h∣² stays 0.017–0.020, and the e₁ admixture tracks a fixed multiple of θ₂(τ)/θ₃(τ) (0.585·e^{0.99i}, spread 3.9% and 0.07 rad) with a drift in Im τ no holomorphic quotient has — a description, not a reduction (still four reals). The constant's nearness to e^{iπ/3}/√3 is not counted.
+- **An exactly null Higgs on that law gives m_u = m_d = m_e = 0 and V_us = V_ub = 0** (det Y ≡ 0, B1731): the target's off-cone invariant carries the whole first generation and the Cabibbo angle. P-357 now reads: what fixes a Higgs's departure from the null cone at about 0.018, where every form on record departs by an amount falling like e^{−π Im τ}.
+- **The record's forms at a rescaled modulus** (τ/2, 2τ; 44 items) reach χ²_nine 964.7 at best — not the Higgs.
+- 0 of 19.
+
 ## S203 THE NINE'S TARGET AND THE PRINCIPLED PENCILS (B1743, post hoc; NEGATIVE for its question; P-356 DONE, P-357) (2026-10-23)
 
 - **B1743 (post hoc exploration, labelled).** The web seat's one-Higgs optimum (one free direction read S in every sector, c = 3) reproduced on main exactly (χ²_nine 17.257, 18.279, 20.846, 21.518 on L₂; 26.92 on L_max) and stated in full: **the nine's target is a nearly null Higgs whose invariant ∣h·h∣/∣h∣² is nearly constant, 0.015–0.019, on every good row and both horocycles, with an e₁ admixture ∣δ∣ 0.2–0.33** (four free reals against seven independent numbers there: a target, not evidence). Every form on record has the invariant falling exponentially in Im τ (B1739). **No pencil of two record forms with one complex number free** (∂R ∣ R, which holds the weight pencil; ∂R ∣ ∂²R; the shared-multiplier pairs F₂₂ ∣ F₋₂, F₆ ∣ F₋₆, F₁₄ ∣ F₋₁₀; each also conjugated) **goes below χ²_nine 41.9** on B1742's 1 280 points (the bar 21.67). With the web seat's RECORD PAIRS (96.3) and WEIGHT PENCIL (53.0), no Higgs built from the record's forms reaches the nine on this grid. The web seat's R5 verified on main: in the idealised up channel m₁ = 0, m₂m₃ = ∣a₃∣²∣h·h∣, m₂/m₃ ≥ ∣h·h∣/4.
