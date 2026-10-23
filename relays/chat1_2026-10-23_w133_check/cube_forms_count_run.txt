@@ -1,0 +1,27 @@
+group: {"rho'(T)": 'Matrix([[1, 0, 0], [0, 0, 1], [0, -1, 0]])', "rho'(S)": 'Matrix([[0, -1, 0], [-1, 0, 0], [0, 0, -1]])', 'real': True, 'det': ['1', '1'], 'order of the image': 24, 'sign character = chi_eta^12 on T and S': ['-1', '-1']}
+weight w: dim M_w(rho'), dim M_w(rho' (x) sgn), dim M_w(1')   [rho' at two pole truncations M]
+w =  0: rho' 0 (0); rho' x sgn 0 (0); 1' 0
+w =  1: rho' 0 (0); rho' x sgn 0 (0); 1' 0
+w =  2: rho' 1 (1); rho' x sgn 0 (0); 1' 0
+w =  3: rho' 0 (0); rho' x sgn 0 (0); 1' 0
+w =  4: rho' 1 (1); rho' x sgn 1 (1); 1' 0
+w =  5: rho' 0 (0); rho' x sgn 0 (0); 1' 0
+w =  6: rho' 2 (2); rho' x sgn 1 (1); 1' 1
+w =  7: rho' 0 (0); rho' x sgn 0 (0); 1' 0
+w =  8: rho' 2 (2); rho' x sgn 2 (2); 1' 0
+w =  9: rho' 0 (0); rho' x sgn 0 (0); 1' 0
+w = 10: rho' 3 (3); rho' x sgn 2 (2); 1' 1
+w = 11: rho' 0 (0); rho' x sgn 0 (0); 1' 0
+w = 12: rho' 3 (3); rho' x sgn 3 (3); 1' 1
+w = 13: rho' 0 (0); rho' x sgn 0 (0); 1' 0
+w = 14: rho' 4 (4); rho' x sgn 3 (3); 1' 1
+w = 15: rho' 0 (0); rho' x sgn 0 (0); 1' 0
+w = 16: rho' 4 (4); rho' x sgn 4 (4); 1' 1
+w = 17: rho' 0 (0); rho' x sgn 0 (0); 1' 0
+w = 18: rho' 5 (5); rho' x sgn 4 (4); 1' 2
+w = 19: rho' 0 (0); rho' x sgn 0 (0); 1' 0
+w = 20: rho' 5 (5); rho' x sgn 5 (5); 1' 1
+w = 21: rho' 0 (0); rho' x sgn 0 (0); 1' 0
+w = 22: rho' 6 (6); rho' x sgn 5 (5); 1' 2
+w = 23: rho' 0 (0); rho' x sgn 0 (0); 1' 0
+w = 24: rho' 6 (6); rho' x sgn 6 (6); 1' 2
