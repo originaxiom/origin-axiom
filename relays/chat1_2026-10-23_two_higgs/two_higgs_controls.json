@@ -1,0 +1,14 @@
+{
+ "C1 point": [
+  "(2/5, 0)",
+  0.0625,
+  2.0
+ ],
+ "C1 max |delta ln| (ratios, |V|)": [
+  0.0,
+  0.0
+ ],
+ "C1 holds": true,
+ "C2 max |delta ln| against TC.ratios_at": 2.5091040356528222e-14,
+ "C2 holds": true
+}
