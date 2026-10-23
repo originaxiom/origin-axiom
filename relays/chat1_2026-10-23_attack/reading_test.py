@@ -188,14 +188,19 @@ def scan_row(job):
             "h": [[float(q.real), float(q.imag)] for q in h]}
 
 
-def scan(nw):
+def scan(nw, resume=False):
     tasks = json.loads((HERE / "reading_test_store_index.json").read_text())["tasks"]
     jobs = [(p, hr) for p in range(len(tasks)) for hr in range(2)]
     from multiprocessing import Pool
     t0 = time.time(); rows = []
     part = HERE / "chunks_reading_test" / "rows_partial.json"
+    if resume and part.exists():                         # added after launch: continue an interrupted scan
+        rows = json.loads(part.read_text())["rows"]
+        assert [(r["p"], cs.HORS.index(r["hor"])) for r in rows] == jobs[:len(rows)]
+        print(f"resuming after {len(rows)} rows", flush=True)
+    todo = jobs[len(rows):]
     with Pool(nw, initializer=_init) as P:
-        for i, r in enumerate(P.imap(scan_row, jobs, chunksize=4)):
+        for i, r in enumerate(P.imap(scan_row, todo, chunksize=4), start=len(rows)):
             rows.append(r)
             if (i + 1) % 400 == 0:
                 part.write_text(json.dumps({"tasks": tasks, "rows": rows}) + "\n")
@@ -321,6 +326,6 @@ if __name__ == "__main__":
     elif "--c2" in sys.argv:
         c2()
     elif "--scan" in sys.argv:
-        scan(nw)
+        scan(nw, resume="--resume" in sys.argv)
     elif "--cells" in sys.argv:
         cells()
