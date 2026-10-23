@@ -1,0 +1,340 @@
+{
+ "arc": "W139",
+ "rule": "W139_RULE.md",
+ "status": "one run",
+ "E0": {
+  "kappa": 1,
+  "points": 1500,
+  "seed": 139,
+  "unknowns": 729,
+  "rank mod p": 651,
+  "nullity mod p": 78,
+  "reconstruction failures": 0,
+  "largest denominator": 1,
+  "basis satisfies the 1 500 rows exactly": true,
+  "basis independent": true,
+  "basis satisfies grad N . A X = 0 as a polynomial identity": true,
+  "rank over Q (exact)": 651,
+  "dimension of the symmetry algebra (exact)": 78,
+  "monomial table against det and trace (worst |difference|)": 0,
+  "seconds": 1.4
+ },
+ "E1": {
+  "multiset (colour, Q, Y), colour triplets once": [
+   [
+    "1",
+    "-1",
+    "-1/2",
+    2
+   ],
+   [
+    "1",
+    "0",
+    "-1/2",
+    2
+   ],
+   [
+    "1",
+    "0",
+    "0",
+    2
+   ],
+   [
+    "1",
+    "0",
+    "1/2",
+    1
+   ],
+   [
+    "1",
+    "1",
+    "1",
+    1
+   ],
+   [
+    "1",
+    "1",
+    "1/2",
+    1
+   ],
+   [
+    "3",
+    "-1/3",
+    "-1/3",
+    1
+   ],
+   [
+    "3",
+    "-1/3",
+    "1/6",
+    1
+   ],
+   [
+    "3",
+    "2/3",
+    "1/6",
+    1
+   ],
+   [
+    "3b",
+    "-2/3",
+    "-2/3",
+    1
+   ],
+   [
+    "3b",
+    "1/3",
+    "1/3",
+    2
+   ]
+  ],
+  "equals 16 + 10 + 1": true,
+  "components counted": 15,
+  "neutral colourless components (alpha, alpha'), 1-indexed": [
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    3,
+    3
+   ]
+  ],
+  "equal to the five listed": true,
+  "checks (not cells)": {
+   "T3 preserves N": true,
+   "Y preserves N": true,
+   "SU(2)_L raising preserves N (50 points)": true
+  }
+ },
+ "E2": {
+  "points": 10,
+  "seed": 1392,
+  "digits": 40,
+  "max relative difference of the six singular values, per point": [
+   1.4117311669038162e-40,
+   4.648104595412858e-41,
+   2.256408820364542e-40,
+   1.1744168496919063e-40,
+   1.2012783153163544e-40,
+   4.644025952937675e-40,
+   5.614329398035859e-41,
+   1.1229983193966356e-40,
+   1.2891726680203086e-40,
+   1.433683026384887e-40
+  ],
+  "worst": 4.644025952937675e-40,
+  "singular values at the first point (quarks)": [
+   "0.760121011049",
+   "2.9535682779",
+   "5.35113255314",
+   "6.6557071307",
+   "9.10723639425",
+   "11.1153346215"
+  ],
+  "singular values at the first point (leptons)": [
+   "0.760121011049",
+   "2.9535682779",
+   "5.35113255314",
+   "6.6557071307",
+   "9.10723639425",
+   "11.1153346215"
+  ]
+ },
+ "E4": {
+  "kappa": 2,
+  "per point": [
+   {
+    "leptons: max |sigma(2)/sigma(1) - 2|": 0.0,
+    "quarks: max relative change": 0.0,
+    "by-hand form at kappa = 2": 0.0
+   },
+   {
+    "leptons: max |sigma(2)/sigma(1) - 2|": 0.0,
+    "quarks: max relative change": 0.0,
+    "by-hand form at kappa = 2": 0.0
+   },
+   {
+    "leptons: max |sigma(2)/sigma(1) - 2|": 0.0,
+    "quarks: max relative change": 0.0,
+    "by-hand form at kappa = 2": 0.0
+   },
+   {
+    "leptons: max |sigma(2)/sigma(1) - 2|": 0.0,
+    "quarks: max relative change": 0.0,
+    "by-hand form at kappa = 2": 0.0
+   },
+   {
+    "leptons: max |sigma(2)/sigma(1) - 2|": 0.0,
+    "quarks: max relative change": 0.0,
+    "by-hand form at kappa = 2": 0.0
+   },
+   {
+    "leptons: max |sigma(2)/sigma(1) - 2|": 0.0,
+    "quarks: max relative change": 0.0,
+    "by-hand form at kappa = 2": 0.0
+   },
+   {
+    "leptons: max |sigma(2)/sigma(1) - 2|": 0.0,
+    "quarks: max relative change": 0.0,
+    "by-hand form at kappa = 2": 0.0
+   },
+   {
+    "leptons: max |sigma(2)/sigma(1) - 2|": 0.0,
+    "quarks: max relative change": 0.0,
+    "by-hand form at kappa = 2": 0.0
+   },
+   {
+    "leptons: max |sigma(2)/sigma(1) - 2|": 0.0,
+    "quarks: max relative change": 0.0,
+    "by-hand form at kappa = 2": 0.0
+   },
+   {
+    "leptons: max |sigma(2)/sigma(1) - 2|": 0.0,
+    "quarks: max relative change": 0.0,
+    "by-hand form at kappa = 2": 0.0
+   }
+  ],
+  "symmetry algebra at kappa = 2": {
+   "kappa": 2,
+   "points": 1500,
+   "seed": 139,
+   "unknowns": 729,
+   "rank mod p": 705,
+   "nullity mod p": 24,
+   "reconstruction failures": 0,
+   "largest denominator": 1,
+   "basis satisfies the 1 500 rows exactly": true,
+   "basis independent": true,
+   "basis satisfies grad N . A X = 0 as a polynomial identity": true,
+   "rank over Q (exact)": 705,
+   "dimension of the symmetry algebra (exact)": 24
+  }
+ },
+ "E3": {
+  "points": 5,
+  "seed": 1393,
+  "singlets over doublets": 10000,
+  "rows": [
+   {
+    "light quarks": [
+     "1.376672564",
+     "2.594487781",
+     "5.158127016"
+    ],
+    "light leptons": [
+     "1.376672564",
+     "2.594487781",
+     "5.158127016"
+    ],
+    "max relative difference (light three)": 5.151882557575416e-37,
+    "|ln D|": 5.245413951804063e-37,
+    "lightest heavy / heaviest light": 5861.320286211428
+   },
+   {
+    "light quarks": [
+     "4.137651726",
+     "4.868394699",
+     "8.443858238"
+    ],
+    "light leptons": [
+     "4.137651726",
+     "4.868394699",
+     "8.443858238"
+    ],
+    "max relative difference (light three)": 1.3283753761131468e-37,
+    "|ln D|": 1.191106385169146e-37,
+    "lightest heavy / heaviest light": 4198.38732973772
+   },
+   {
+    "light quarks": [
+     "2.501756613",
+     "3.297436729",
+     "4.708337455"
+    ],
+    "light leptons": [
+     "2.501756613",
+     "3.297436729",
+     "4.708337455"
+    ],
+    "max relative difference (light three)": 9.884167691740316e-38,
+    "|ln D|": 1.9710193362908864e-37,
+    "lightest heavy / heaviest light": 7109.45009878757
+   },
+   {
+    "light quarks": [
+     "1.187806728",
+     "3.746896024",
+     "7.061688054"
+    ],
+    "light leptons": [
+     "1.187806728",
+     "3.746896024",
+     "7.061688054"
+    ],
+    "max relative difference (light three)": 1.7660502543089877e-37,
+    "|ln D|": 1.7956135386291232e-37,
+    "lightest heavy / heaviest light": 6914.351301117071
+   },
+   {
+    "light quarks": [
+     "0.3532918072",
+     "1.560871475",
+     "6.076382077"
+    ],
+    "light leptons": [
+     "0.3532918072",
+     "1.560871475",
+     "6.076382077"
+    ],
+    "max relative difference (light three)": 9.128411569891951e-38,
+    "|ln D|": 7.442119019903213e-38,
+    "lightest heavy / heaviest light": 2462.97740929986
+   }
+  ]
+ },
+ "E5 (read-out)": {
+  "by-hand form M_l = -(1 (x) J^T) M_q^T (1 (x) J), relative residual at the E2 points": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "E0's dimension": 78,
+  "E4's dimension": 24
+ },
+ "cells": {
+  "E0": true,
+  "E1": true,
+  "E2": true,
+  "E3": true,
+  "E4": true
+ },
+ "every cell holds": true,
+ "errors": {},
+ "environment": {
+  "python": "3.11.15",
+  "python-flint": "0.9.0",
+  "mpmath": "1.3.0",
+  "sympy": "1.14.0"
+ },
+ "seconds": 3.1
+}
