@@ -7743,6 +7743,9 @@ and labelled). An exact deliverable for chat1, with no data. 0 of 19.
   before any execution: the relation word's order, and k_ε taken without k_{J_c} from the maps.
 - Its output (73401186e) was committed unread, then read once.
 - The post hoc script (b1bf2256f) was committed before its run; its output (9916f74b2) was committed unread.
+- **A format rerun, disclosed (W40's precedent).** The first JSON wrote B2's Green-control rows as strings, against
+  CONVENTIONS §7. One formatting line was fixed and the script rerun once. Every value and cell is identical to the
+  first run's after the strings are normalised, checked by machine; only the timing differs.
 
 **The result as run (COMPUTED; seven cells held, four failed).**
 - **A1, the root cover.** C, A, B, K₁ and K₂ preserve w² = θ₁ (to 5 × 10⁻⁵⁰). C² = 1, AB = CBA, A² = CK₁ and
