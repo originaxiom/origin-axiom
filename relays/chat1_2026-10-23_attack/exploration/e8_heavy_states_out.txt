@@ -1,0 +1,24 @@
+{
+ "hier": {
+  "rows": 689,
+  "median over rows of the median |l3_u.l3_u|": 0.1814609814953111,
+  "... |l3_d.l3_d|": 0.5307758924527511,
+  "... |V_tb|": 0.25893597364853377,
+  "largest |V_tb| over rows": 0.599134932912545,
+  "rows whose median |l3_u.l3_u| < 0.1, and |l3_d.l3_d| < 0.1": [
+   206,
+   0
+  ]
+ },
+ "hier & Vud>0.9": {
+  "rows": 249,
+  "median over rows of the median |l3_u.l3_u|": 0.017550461108167114,
+  "... |l3_d.l3_d|": 0.9280636289738017,
+  "... |V_tb|": 0.1054009438221977,
+  "largest |V_tb| over rows": 0.35207864045572435,
+  "rows whose median |l3_u.l3_u| < 0.1, and |l3_d.l3_d| < 0.1": [
+   174,
+   35
+  ]
+ }
+}
