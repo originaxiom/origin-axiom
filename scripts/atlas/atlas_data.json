@@ -13523,6 +13523,19 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1731": {
+   "slug": "the higgs whose invariant has no zero",
+   "motifs": [
+    "coupling",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B173": {
    "slug": "gaplabel rank reduction",
    "motifs": [

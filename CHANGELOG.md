@@ -1,5 +1,12 @@
 # Changelog
 
+## S194 THE HIGGS WHOSE INVARIANT HAS NO ZERO (B1731, PROVED; P-306, P-303) (2026-10-23)
+
+- **B1731 (PROVED).** Among the zero-free Higgs lines F_a (B1730) exactly one has a zero-free quadratic invariant det S = a·a, the Higgs's factor of det Y = 4 det S det M tr(εSMᵀ) in B1656's frame (B1659). det S(F_a) = η^{6−2a}θ₃^{2a}p_n(λ), p_n = λⁿ + (1 − λ)ⁿ − 1, and λ covers ℂ ∖ {0, 1}, so det S is zero-free iff p_n has no root off {0, 1}: F₂ = 2η⁴R is null (Jacobi), F₆ = η⁻³(θ₂⁶, θ₄⁶, iθ₃⁶) has det S = −48η⁶, every other member has zeros. So the least-datum Higgs F₂ makes det Y ≡ 0 (the first generation massless in every sector), and PF1-W read on the field and on the determinant together select F₆, at one unit with SL(2, ℤ)'s sign character as twist (a necessary condition; the owner's call, P-303).
+- **P-306 DONE** (B1731); **P-307** registered: the sealed test of the two ingredients with F₆ in place of ∂R, next. P-303 updated. FLOOR 307.
+- **Landing suite.** full suite 7 608 passed, 2 failed, 68 skipped (24:30, -n 8) on 1a593782c; both failures are B805's attachment locks (P-239).
+- 0 of 19.
+
 ## S193 THE ZERO-FREE HIGGS LINES (B1730, PROVED; P-300's W133 part) AND THE COARSER LINE (B1729, NEGATIVE; P-305) (2026-10-23)
 
 - **B1730 (PROVED).** The SM seat's W133 and the web seat's extension verified on main with main's own code. The character identity (exact) makes a zero-free weight-3/2 Higgs need r ≡ 4 mod 8, so no untwisted Higgs, ∂R included, is zero-free at any end data; every zero-free Higgs is c·F_a, F_a = η^{3−a}(εθ₂^a, εθ₄^a, iθ₃^a), a ≡ 2 mod 4 (proved: F_i is a zero-free form on Γ₀(2), hence an η-quotient; T² forces a ∈ 2 + 4ℤ); dim h(r, n) exactly (1, 4, 7 at r = 4; 0, 3, 6 at r = 12, 20; 0, 3, 6 untwisted), the zero-free lines a basis of every twisted space. Under PF1-W on the Higgs the Higgs direction is discrete. P-300's W131 and W132 remain.

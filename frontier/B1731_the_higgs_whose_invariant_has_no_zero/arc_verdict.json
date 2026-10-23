@@ -1,0 +1,26 @@
+{
+ "id": "B1731",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1730",
+  "B1659",
+  "B1691",
+  "B1716"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the zero-free weight-3/2 Higgs lines F_a (B1730) and their quadratic invariant det S = a.a, the Higgs's factor of det Y in B1656's four-channel frame (B1659)",
+  "object": "which F_a have a zero-free invariant",
+  "reach": "class",
+  "hypotheses": "proved for every a = 2 mod 4; checked exactly for odd n = a/2 in [-15, 15] and numerically at three tau"
+ },
+ "claim_one_line": "THE HIGGS WHOSE INVARIANT HAS NO ZERO (P-306, P-303; no data): for the zero-free Higgs lines F_a = eta^(3-a)(eps th2^a, eps th4^a, i th3^a), a = 2 mod 4 (B1730), the quadratic invariant det S = a.a, which is the Higgs's factor of B1659's det Y(S, M) = 4 det S det M tr(eps S M^T) in B1656's frame, equals eta^(6-2a) th3^(2a) p_n(lambda) with p_n = lambda^n + (1 - lambda)^n - 1, n = a/2, lambda = th2^4/th3^4; since lambda maps the upper half plane onto C minus {0, 1}, it is zero-free iff p_n has no root off {0, 1}: p_1 = 0 (F_2 = 2 eta^4 R is null, Jacobi), p_3 = 3 lambda(lambda - 1) (det S(F_6) = -48 eta^6, zero-free), and every other n has roots off {0, 1} (degree counts; checked exactly for |n| <= 15, and at tau = e^{i pi/3} for n = +-1 mod 6). So exactly one zero-free Higgs, F_6 = eta^-3(th2^6, th4^6, i th3^6) at one unit with the sign character as twist, has a zero-free invariant; the least-datum Higgs F_2 makes det Y identically zero in B1656's frame (the first generation massless in 48 of 48 seeded sectors), while F_6 keeps it massive except on B1716's order-4 and order-12 lines. Read both ways, PF1-W fixes the Higgs (a necessary condition; the owner's call, P-303). 0 of 19.",
+ "weave_or_thread": "weave (a property of the Higgs's representation at every tau)"
+}

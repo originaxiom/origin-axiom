@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1459** |
-| words of findings prose | **1,169,939** |
-| test lock files referenced | **874** |
-| arcs carrying an authored verdict | **1459** (100.0 %) |
+| research arcs with findings | **1460** |
+| words of findings prose | **1,170,917** |
+| test lock files referenced | **875** |
+| arcs carrying an authored verdict | **1460** (100.0 %) |
 | recorded closures | **836** (669 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 995 |
+| PROVED | 996 |
 | NEGATIVE | 360 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1730`** (1496 words, 1 locks)  
-THE ZERO-FREE HIGGS LINES (P-300's W133 part and the web seat's extension, verified on main with main's own code; no data): rho_R re-derived from R matches W64 to 1e-29, and the product of the non-zero entries of rho(T), rho(S) is chi_eta^21 exactly, so N(F) of a weight-3/2 section of rho (x) chi_eta^r carries chi_eta^(21+3r) and is zero-free only if r = 4 mod 8 -- no untwisted Higgs (DR, B1700's unit space) is zero-free at any end data; the family F_a = eta^(3-a)(eps th2^a, eps th4^a, i th3^a), a = 2 mod 4, eps = i^((a+2)/2), carries rho (x) chi_eta^(2a) (a = -30 ... 50, to 2e-29) and N(F_a) = i 2^a eta^9 exactly; exact linear algebra gives dim h(r, n) = 0, 3, 6 (r = 0), 1, 4, 7 (r = 4), 0, 3, 6 (r = 12 and 20) for n = 0, 1, 2, and in every twisted space the members meeting its bounds lie in it exactly, are independent and number its dimension, so the zero-free lines are a basis (at one unit: -10, 2, 14, 26; -6, 6, 18; -2, 10, 22; h(4, 0) is 2 eta^4 R); proved: every zero-free weight-3/2 Higgs is c F_a (F_i is a zero-free form on Gamma_0(2), hence an eta-quotient by X_0(2)'s genus 0, and T^2 forces a in 2 + 4Z), so no combination of two members is zero-free. Under PF1-W on the Higgs the direction is discrete, labelled by a. 0 of 19.  
-`B1730_the_zero_free_higgs_lines/FINDINGS.md`
+**PROVED — `B1731`** (978 words, 1 locks)  
+THE HIGGS WHOSE INVARIANT HAS NO ZERO (P-306, P-303; no data): for the zero-free Higgs lines F_a = eta^(3-a)(eps th2^a, eps th4^a, i th3^a), a = 2 mod 4 (B1730), the quadratic invariant det S = a.a, which is the Higgs's factor of B1659's det Y(S, M) = 4 det S det M tr(eps S M^T) in B1656's frame, equals eta^(6-2a) th3^(2a) p_n(lambda) with p_n = lambda^n + (1 - lambda)^n - 1, n = a/2, lambda = th2^4/th3^4; since lambda maps the upper half plane onto C minus {0, 1}, it is zero-free iff p_n has no root off {0, 1}: p_1 = 0 (F_2 = 2 eta^4 R is null, Jacobi), p_3 = 3 lambda(lambda - 1) (det S(F_6) = -48 eta^6, zero-free), and every other n has roots off {0, 1} (degree counts; checked exactly for |n| <= 15, and at tau = e^{i pi/3} for n = +-1 mod 6). So exactly one zero-free Higgs, F_6 = eta^-3(th2^6, th4^6, i th3^6) at one unit with the sign character as twist, has a zero-free invariant; the least-datum Higgs F_2 makes det Y identically zero in B1656's frame (the first generation massless in 48 of 48 seeded sectors), while F_6 keeps it massive except on B1716's order-4 and order-12 lines. Read both ways, PF1-W fixes the Higgs (a necessary condition; the owner's call, P-303). 0 of 19.  
+`B1731_the_higgs_whose_invariant_has_no_zero/FINDINGS.md`
 
 **NEGATIVE — `B1729`** (699 words, 1 locks)  
 THE COARSER LINE (P-305, for P-294; data-free, criteria written before the read): the lepton charges are 3 x (-1, 2), so the lepton sector at w is the (-1, 2) sector at 3w and on a line of order N with 3 | N the leptons see order N/3 while the quarks see N (the Z3 of the Z6 centre acts trivially on leptons); but on every line of order 5, 10 and 13-30 at two tau of B1726's band (7 344 points, none masked; order 5 gives R2 = R1 = 1 to 8.6e-11) the frame's own R2 = (m2/m3)_e/(m2/m3)_d moves by only +0.15 in median log on 3 | N lines (not systematically; Georgi-Jarlskog needs 1.10) and R1 not at all, while at every order the ratios spread over 2-4 units of log. The coarser line does not supply the factor. 0 of 19.  

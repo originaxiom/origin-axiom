@@ -17782,3 +17782,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **B1730 (PROVED; P-300's W133 part).** Under PF1-W on the Higgs every zero-free weight-3/2 Higgs is a theta power F_a, a ≡ 2 mod 4; no untwisted Higgs qualifies; the zero-free lines are a basis of every twisted space h(r, n). Verified with main's own code; uniqueness proved through Γ₀(2).
 - **B1729 (NEGATIVE; P-305 DONE).** The leptons' coarser line on 3 ∣ N lines gives no Georgi–Jarlskog shift in the frame's own ratios.
 - **Landing suite.** full suite 7 604 passed, 2 failed, 68 skipped (25:06, -n 8) on 417e48d7b; both failures are B805's attachment locks (P-239).
+
+## 2026-10-23 — S194 THE HIGGS WHOSE INVARIANT HAS NO ZERO (B1731)
+
+- **B1731 (PROVED).** Of the zero-free Higgs lines only F₆ = η⁻³(θ₂⁶, θ₄⁶, iθ₃⁶) has a zero-free invariant (det S = −48η⁶); the least-datum Higgs 2η⁴R is null and makes det Y ≡ 0 in B1656's frame. PF1-W in both readings selects F₆ (necessary condition). P-306 DONE; P-307 (the sealed test with F₆) next.
+- **Landing suite.** full suite 7 608 passed, 2 failed, 68 skipped (24:30, -n 8) on 1a593782c; both failures are B805's attachment locks (P-239).
