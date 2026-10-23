@@ -1,0 +1,18 @@
+1 of 160 rows, 16 s
+11 of 160 rows, 100 s
+21 of 160 rows, 196 s
+31 of 160 rows, 310 s
+41 of 160 rows, 405 s
+51 of 160 rows, 503 s
+61 of 160 rows, 608 s
+71 of 160 rows, 708 s
+81 of 160 rows, 809 s
+91 of 160 rows, 911 s
+101 of 160 rows, 997 s
+111 of 160 rows, 1110 s
+121 of 160 rows, 1216 s
+131 of 160 rows, 1327 s
+141 of 160 rows, 1436 s
+151 of 160 rows, 1539 s
+written
+exit 0
