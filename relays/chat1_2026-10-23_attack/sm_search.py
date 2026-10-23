@@ -82,8 +82,10 @@ def refine(Uh, x0, T, SIG):
         return None
 
 
-def search(Uh, extra, T, SIG, H=None):
-    """Returns (the grid's minimum chi2, (the refined minimum chi2, its 6-vector x))."""
+def search(Uh, extra, T, SIG, H=None, n_extra=None):
+    """Returns (the grid's minimum chi2, (the refined minimum chi2, its 6-vector x)).  n_extra (added after
+    search_check.py's run): if given, only the n_extra best of the extra starts (each as stored and conjugated, ranked by
+    chi2 at the start) are refined; None refines all of them, as in search_check.py."""
     H = HS if H is None else H
     chis = np.empty(len(H))
     for a in range(0, len(H), 28200):
@@ -94,7 +96,11 @@ def search(Uh, extra, T, SIG, H=None):
             keep.append(int(idx))
         if len(keep) == 8:
             break
-    starts = [H[j] for j in keep] + [q for q in extra] + [np.conj(q) for q in extra]
+    ex = [q for q in extra] + [np.conj(q) for q in extra]
+    if n_extra is not None and len(ex) > n_extra:
+        ce = nine_batch(Uh, np.array(ex), T, SIG)[1]
+        ex = [ex[i] for i in np.argsort(ce)[:n_extra]]
+    starts = [H[j] for j in keep] + ex
     best = (float(chis[order[0]]), np.concatenate([H[order[0]].real, H[order[0]].imag]))
     for h in starts:
         o = refine(Uh, np.concatenate([h.real, h.imag]), T, SIG)
