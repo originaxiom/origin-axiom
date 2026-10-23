@@ -1,0 +1,15 @@
+R1_six_within_2_seat True
+R2_six_specific_seat True
+R3_six_specific_cov True
+R4_six_specific_free True
+R5_nine_specific_seat False
+R6_J_within_3_at_best_nine_seat False
+R7_D_within_3_sigma_at_best_six_seat False
+C1_control True
+mean random as good nine|cov   0.0043
+mean random as good nine|free  0.0952
+mean random as good nine|seat  0.0648
+mean random as good six|cov    0.0053
+mean random as good six|free   0.0069
+mean random as good six|seat   0.0016
+best six (seat): 1.614 at {'thread': 'LLLLLRR', 'line': '2/5,3/5', 'order': 5, 'horocycle': 'L_max', 'readings': ['St', 'S', 'S'], 'lepton_factor': 3.0, 'D': 9.00000000000023}
