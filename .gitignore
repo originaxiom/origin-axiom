@@ -114,6 +114,9 @@ data-*-batch-*/
 !frontier/B1725_the_two_ingredients_on_main/received/two_ingredients_census.jsonl
 # B1732's sealed census (the same reason): its sealed compare.py reads it by name
 !frontier/B1732_the_two_ingredients_with_the_fixed_higgs/verification/census.jsonl
+# B1740's and B1741's sealed censuses (the same reason): their sealed compare.py reads them by name
+!frontier/B1740_the_non_null_higgs_under_the_standard_models_reading/verification/census.jsonl
+!frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/census.jsonl
 chronicle_raw*
 
 

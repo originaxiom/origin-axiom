@@ -1,0 +1,2 @@
+19950 points; 0 done; 19950 to do
+control: {'against_B1726_row': 0.0, 'T_covariance_at_an_apex': 3.2534730470564877e-10}
