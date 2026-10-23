@@ -17775,3 +17775,4 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **Review 68.** 35 merges; L228 resolved, P-301; E91; R68-1–R68-8; views refreshed.
 - **The seats.** Rows 1314–1317; P-302, P-303 new; P-294, P-295, P-300 updated.
 - **Landing suite.** full suite 7 596 passed, 2 failed, 68 skipped (24:43, -n 8) on 4f9a1c3de; both failures are B805's attachment locks (P-239). Every collected test ran (7 651 collected, plus 15 modules that skip at import); S191's 7 608 included 27 items collected only from that day's working tree.
+- **The register commit (same day).** P-305 registered and answered in the audit room: the leptons see a coarser line where 3 divides the order, but the frame's own lepton-to-down ratios show no Georgi–Jarlskog shift there (data-free, 7 344 points); to land as an arc. FLOOR 305.

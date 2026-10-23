@@ -1,5 +1,11 @@
 # Changelog
 
+## S192, the register commit: the coarser-line question raised and answered in the audit room (P-305) (2026-10-23)
+
+- **P-305.** The lepton charges are 3 × (−1, 2), so on a line whose order 3 divides the leptons see a line of order N/3 while the quarks see N (the ℤ₃ of the ℤ₆ centre is trivial on leptons). Could that supply the Georgi–Jarlskog factor (P-294)? A data-free census of the frame's own lepton-to-down ratios on every line of order 5, 10 and 13–30 (7 344 points; criteria written before the output was read) says no: on 3 ∣ N lines the median log R2 moves by about +0.15 (not systematically; 1.10 would be needed) and log R1 not at all, while at every order the frame's own ratios spread over 2–4 units of log. To land as a short arc with the next landing.
+- The seats unchanged since S192's pins (f22cad1b, cb33cc47). FLOOR 305.
+- 0 of 19.
+
 ## S192 THE TWO INGREDIENTS, REPLICATED (B1726, PROVED as sealed; P-293), THE FLAVOUR-BLIND BOUND (B1727, PROVED; P-299), THE LINE'S ORDER AS A QUOTIENT OF HYPERCHARGE (B1728, PROVED; P-296), AND REVIEW 68 (2026-10-23)
 
 - **B1726 (sealed 8024632e1; outputs f1b7eb522, committed unread, read once).** Main's replication of the two-ingredient result on 23 940 points nobody had computed, the menus fixed in advance, the covariant readings only, 20 seeds: R1–R5 hold. The six charged-fermion ratios come within 1.20 (0.55 + 3.05i, the order-10 line (2/5, 1/2), up S̃ and the rest S, c = 3) and are specific under the seat's menu (0.12% of random hierarchies as good), under every covariant reading assignment (0.41%) and, at the bar, with the factor free (0.92%); the nine with the CKM moduli are specific under the seat's menu (0.58%), not under the covariant one (1.66%). R6 and R7 fail as expected (∣J∣ 7.8 times too small; D 11.01, 3.9σ). After the read (labelled): a band over every Re τ at Im τ 2.55–3.25, only on lines of order 5 and 10 (SU(5)'s five-ality, B1728); on order-5 lines D = 9 exactly; without the factor 2.28 and 24%; after Bonferroni over its four specificity looks only the six under the seat's menu pass THE_BAR's gate (0.0048). A READING with two hand-put ingredients; the factor (P-294) and the reading (P-295) first; the seats' third opinion asked (P-304). `census.jsonl` tracked through a one-file `.gitignore` exception.
