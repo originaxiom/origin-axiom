@@ -1,0 +1,157 @@
+{
+ "Q1 D over every row, c = 3": {
+  "F_6 | F_6": {
+   "max |ln D - ln 9|": 0.0705586324327574,
+   "D range": [
+    8.386857899434077,
+    9.476618095081006
+   ]
+  },
+  "F_6 | F_-2": {
+   "max |ln D - ln 9|": 0.2128516389019699,
+   "D range": [
+    7.274484405386947,
+    10.741559130816716
+   ]
+  },
+  "F_6 | F_22": {
+   "max |ln D - ln 9|": 5.489790662061012e-07,
+   "D range": [
+    8.999995059189763,
+    9.000004940812953
+   ]
+  },
+  "F_-2 | F_6": {
+   "max |ln D - ln 9|": 0.0705586324327574,
+   "D range": [
+    8.386857899434077,
+    9.476618095081006
+   ]
+  },
+  "F_-2 | F_-2": {
+   "max |ln D - ln 9|": 0.2128516389019699,
+   "D range": [
+    7.274484405386947,
+    10.741559130816716
+   ]
+  },
+  "F_-2 | F_22": {
+   "max |ln D - ln 9|": 5.489790662061012e-07,
+   "D range": [
+    8.999995059189763,
+    9.000004940812953
+   ]
+  },
+  "F_22 | F_6": {
+   "max |ln D - ln 9|": 0.0705586324327574,
+   "D range": [
+    8.386857899434077,
+    9.476618095081006
+   ]
+  },
+  "F_22 | F_-2": {
+   "max |ln D - ln 9|": 0.2128516389019699,
+   "D range": [
+    7.274484405386947,
+    10.741559130816716
+   ]
+  },
+  "F_22 | F_22": {
+   "max |ln D - ln 9|": 5.489790662061012e-07,
+   "D range": [
+    8.999995059189763,
+    9.000004940812953
+   ]
+  }
+ },
+ "Q2 random six-target sets with leptons within w of 3x and x/3 their down ratios": {
+  "w": 1.0985198890573848,
+  "share within w (both)": 0.0004875,
+  "share within w^2 (both)": 0.00245,
+  "of": 80000,
+  "the data": {
+   "m_mu/m_tau over 3 m_s/m_b": 1.0480389205515876,
+   "m_e/m_tau over m_d/(3 m_b)": 0.8914582209885161
+  }
+ },
+ "Q3 the four quark ratios alone (off-diagonal rows)": {
+  "best worst factor over the four quark ratios": 1.097387090287842,
+  "share of random four-target sets fitted as well": 0.0015,
+  "of": 80000,
+  "chi2 at the data's errors": {
+   "observed minimum": 1.2708558091485183,
+   "share of random four-target sets as good (seeds 1720-1724)": 0.00035,
+   "of": 20000
+  },
+  "chi2 with the 10% allowance": {
+   "observed minimum": 0.5239491822903488,
+   "share of random four-target sets as good (seeds 1720-1724)": 0.00065,
+   "of": 20000
+  }
+ },
+ "Q4 pulls at the best six-row (measurement errors, no allowance)": {
+  "order": [
+   "m_c/m_t",
+   "m_u/m_t",
+   "m_s/m_b",
+   "m_d/m_b",
+   "m_mu/m_tau",
+   "m_e/m_tau"
+  ],
+  "pulls": [
+   0.36,
+   -0.55,
+   -0.19,
+   -0.9,
+   -229.87,
+   53.5
+  ],
+  "relative errors": [
+   0.02778,
+   0.17079,
+   0.0872,
+   0.07175,
+   0.00028,
+   0.00095
+  ],
+  "chi2 of the four quark ratios": 1.2708558091485183
+ },
+ "Q6 random six-target sets fitted within 1.466 (the diagonal pairs' best six)": {
+  "off-diagonal rows": 0.0015625,
+  "diagonal rows": 0.0013875
+ },
+ "Q6 largest |J| over the off-diagonal rows below the six's bar": 1.2285189541216823e-06,
+ "Q5 the directions at the best six-row": {
+  "row": {
+   "pair": "F_6 | F_22",
+   "tau": [
+    0.5625,
+    2.6
+   ],
+   "line": "(2/5, 1/10)",
+   "hor": "L_2"
+  },
+  "|<v_u|v_d>|": 0.9999588138267905,
+  "|v_u - v0| (phase-aligned)": 0.0034093866323861386,
+  "|v_d - v0| (phase-aligned)": 0.012475833832116688,
+  "ratio |v_d - v0| / |v_u - v0|": 3.6592604997061264,
+  "cosine between the departures": 0.997979524895961,
+  "|V| (rows u, c, t; columns d, s, b)": [
+   [
+    0.9991,
+    0.0421,
+    0.0015
+   ],
+   [
+    0.0421,
+    0.9988,
+    0.0232
+   ],
+   [
+    0.0011,
+    0.0232,
+    0.9997
+   ]
+  ]
+ }
+}
