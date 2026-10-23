@@ -1,0 +1,26 @@
+{
+ "C1 max |delta ln| against TC.ratios_at": 2.5091040356528222e-14,
+ "C2 point": "LR #0 line 0 (1/5, 1/5)",
+ "C2 max |delta ln| under T (ratios, |V| above 1e-12), F_6": [
+  8.980800335779346e-08,
+  1.3579129431527742e-07
+ ],
+ "C2 entries kept (ratios, |V|)": [
+  24,
+  24
+ ],
+ "C3 class, line": [
+  "LLLLLRLRR",
+  71,
+  22,
+  "(11/28, 2/7)",
+  [
+   3.6,
+   2.9933259094191533
+  ]
+ ],
+ "C3 max |delta ln| against B1720's stored six": 1.964650664378607e-12,
+ "C1 holds": true,
+ "C2 holds": false,
+ "C3 holds": true
+}
