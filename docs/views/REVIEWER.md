@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1468** |
-| words of findings prose | **1,179,706** |
-| test lock files referenced | **883** |
-| arcs carrying an authored verdict | **1468** (100.0 %) |
+| research arcs with findings | **1469** |
+| words of findings prose | **1,181,242** |
+| test lock files referenced | **884** |
+| arcs carrying an authored verdict | **1469** (100.0 %) |
 | recorded closures | **837** (670 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1003 |
+| PROVED | 1004 |
 | NEGATIVE | 361 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1739`** (1111 words, 1 locks)  
-THE HIGGS IS NEARLY NULL (P-344; PROVED, no new data contact): R is exactly null (Jacobi) and the censuses' Higgs has h.h = eta^6/4 exactly, so its reality r = |h.h|/|h|^2 falls like e^(-pi Im tau) (0.0058 at Im tau 3); rho(T)'s (j, k) eigenlines (0, 1, +-i) are null and the sections on record are led by them at the cusp (F_6 too: F_6.F_6 = -48 eta^6, reality 0.0019 at 3). With u = 0 the left null vector of u1 [h]_x is conj(h) exactly; with the channel triplet on, each sector's lightest state overlaps conj(h) under S and h under S~ (median 0.999). So under the Standard Model's reading (S~ up, S down) the lightest up and down states are nearly orthogonal: on B1726's census the median |V_ud| is 0.28 (0.105 at Im tau 3-3.5) against 0.995 for equal readings, and per tau it follows r^0.52 (log-correlation 0.996). The hierarchy (Im tau about 3) and an unmixed light generation (|V_ud| 0.974) exclude each other with this Higgs under that reading; a Higgs led by the non-null eigenline e_i, or another reading rule, would be needed. 0 of 19.  
-`B1739_the_higgs_is_nearly_null/FINDINGS.md`
+**PROVED — `B1741`** (1305 words, 1 locks)  
+TAU FROM THE THREAD RULE, THE LINE FREE (P-347; sealed acd2fec77, sha256 7a8eeb8a; PROVED as sealed for its question -- P1, P2, R1-R3 hold, P2c, R4-R7, P3, P4 fail, C1, C2 hold; outputs committed unread at 3da06f258 and 624f93419): with tau at a thread's apex (no continuous number fitted) and the line chosen from 266 (priced by the calibration), the six charged-fermion ratios are reached at value level: chi2_six 14.93 below 16.75, with 0.60% of random hierarchies reaching as low over the same 39 900 rows (seat's menu; 2.26% covariant, 3.58% factor free); coarse 1.289, 0.22%. The best row: the apex 3.4 + 2.993i of L^5R^2LR and L^2R^5LR on the line (2/5, 9/10) -- B1735's line (2/5, 1/10) in the census frame -- L_max, up S~ with down and leptons S, c = 3; every ratio 12-29% high; D 11.05 (4.3 sigma); the CKM fails (|V_ud| 0.12, B1739). After the read (labelled): under THE_BAR's Bonferroni over the arc's looks the value-level specificity is 1.2-3.6%, not PASSED; the line is not one of the thread's own (A^2 fixes it only vacuously: A^2 = -I mod 10 fixes every order-5 and order-10 line). A READING with the two ingredients by hand; the seats' third opinion owed (P-348). 0 of 19.  
+`B1741_tau_from_the_thread_rule_the_line_free/FINDINGS.md`
 
 **NEGATIVE — `B1732`** (981 words, 1 locks)  
 THE TWO INGREDIENTS WITH THE HIGGS PF1-W FIXES (P-307; sealed 65e6abfce, sha256 edfa5675; NEGATIVE as sealed for its question -- R1 holds, R2-R5 fail, R6 holds at a non-specific row, R7 fails, C1 holds; outputs committed unread at 5f5db8108): with F_6, the one zero-free Higgs whose invariant has no zero (B1731), in place of DR on B1726's 23 940 points, the six charged-fermion ratios still come within 1.62 (1.30 under the covariant menu) but not specifically: 7.1% of random hierarchies fit as well under the seat's menu (B1726 with DR: 0.12%), 2.1% under the covariant menu (0.41%), 17.6% with the factor free (0.92%), every seed above 1%; the nine 35.8% (0.58%); |J| within a factor 3 at the best nine-row, which post hoc happens on 18% of all rows; D 9.00. F_6's good rows lie on order-8 lines. So in B1656's frame the two-ingredient specificity is DR's, and PF1-W read on both the Higgs and the determinant is incompatible with it; DR passes the determinant reading's Higgs factor (DR.DR = eta^6/4) and fails only the field reading (P-303). 0 of 19.  

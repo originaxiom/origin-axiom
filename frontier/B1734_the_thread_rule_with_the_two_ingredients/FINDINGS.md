@@ -66,6 +66,13 @@ No continuous number is scanned: τ and the line come from the thread.
   where the values are (P-343).
 - **W138's widest menu** (every covariant reading, the factor free) on this census: 2.22%, so the six are not specific under it.
 
+## Dated note (2026-10-23, S201; W141, the SM seat's third opinion, row 1335)
+
+- **The 190 points are 116 distinct (τ, line) points:** 74 are shared by a thread and its mirror (L⁵R² and L²R⁵ among them),
+  recounted on main from census.json. A duplicated row changes no minimum and no calibrated fraction, so every cell
+  stands; "190 points" overstated the census's breadth. W141 reproduces B1734 in full and, with every order counted,
+  puts the seat's six at 1.15% (main's post hoc 1.13%). P-339 DONE.
+
 ## Seen first
 
 From the preregistration: `VERDICT topic-sweep /thread rule|thread.s own (point|lines)|threads? with (the )?ingredients|own order-5|apex.*ingredient/ (full text): 2 of 1505 arcs on main match (NEGATIVE 1, PROVED 1)`;

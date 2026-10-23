@@ -107,3 +107,13 @@ row exactly (largest ∣Δ log∣ 0.0):
 - `verification/calib_chi2.py` → `calib_chi2.json`, `calib_chi2_run.txt` (part B).
 - `verification/control.py` → `control.json`, `control_run.txt` (part C).
 - The lock: `tests/test_b1735_the_precision_bar_on_the_two_ingredient_censuses.py`.
+
+## Dated note (2026-10-23, S201; W142, the SM seat's third opinion with the owner's audit, row 1341)
+
+- **The result stands:** no error in the code or the arithmetic; χ²_six 3.09 and 0.03% reproduced on two codes, the row on
+  the seat's own instrument to 10⁻¹⁰. **Sensitivity (the seat's, labelled):** without the lepton factor χ² 105; at a 5%
+  allowance in place of 10%, 5.71 — still below the bar. P-342 DONE.
+- **Two wording slips corrected:** §4 "failed by a factor 5 or more" reads "by a factor 4.7 or more" (79/16.75); and "a grid
+  of step 0.15 × 0.1" reads "a grid with Re τ in {0.05, 0.2, 0.35, 0.55, 0.7, 0.85} (steps 0.15–0.2) and Im τ in steps of
+  0.1". Also noted: 16.75 is slightly stricter than the 99% point for six degrees of freedom (16.81), and B1735, a post
+  hoc arc, pins nothing.

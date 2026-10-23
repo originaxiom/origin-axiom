@@ -43,6 +43,9 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 
 # The saturated discrete menu -- B733 (bounded, depth-independent) + B766 (rank-saturated at 3).
 BITS = [("c", "conjugation"), ("theta", "reversal"), ("gamma5", "the golden branch")]
+# B842's eleven faces of the object (the panel's vocabulary; `none` is its decline, not a face)
+FACES = ("being", "hearing", "mtc-overlay", "sln-tower", "congruence-tower", "meeting", "children", "coupled-double",
+         "emittance-eigenvalues", "emittance-lengths", "infinite-hecke")
 
 
 
@@ -103,9 +106,16 @@ def build():
     # --- arc -> face, from the kill graph ---------------------------------------------------
     kg = json.load(open(os.path.join(fdir, "B738_pathfinder_compiler", "kill_graph.json"),
                        encoding="utf-8"))
+    # Only B842's eleven faces are faces (P-239, 2026-10-23): from B1084 on, routers used faces_consulted for the
+    # evidence consulted (prose strings, arc ids, seat arcs, other anatomies' labels); read as faces, a string gave one
+    # "face" per character and 58 arcs were attached through such keys alone. They are not read as faces here; the
+    # rows keep their text, and tests/test_kill_graph_face_vocabulary.py keeps new rows on the vocabulary.
     for r in kg:
-        for f in r["faces_consulted"]:
-            if f != "none":
+        fc = r["faces_consulted"]
+        if not isinstance(fc, list):
+            continue
+        for f in fc:
+            if f in FACES:
                 G["faces"][f].add(r["id"])
 
     # --- facet -> arc, from the K-layer -----------------------------------------------------

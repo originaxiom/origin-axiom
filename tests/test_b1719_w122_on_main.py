@@ -13,9 +13,18 @@ def test_stored():
     assert "R1 0.942707363 ['b+-LR'] ['m003(-3,1)'] -> True" in (A / "reproduce" / "the_closed_universes_run.txt").read_text(encoding="utf-8")
 
 
+UNDECIDED = "The SnapPea kernel was not able to determine if the manifolds are isometric"
+
+
 def test_live():
+    """P-346 (2026-10-23): SnapPy's is_isometric_to can raise when its kernel cannot decide (it did once under S200's suite
+    load). That is not a verdict, so the check is re-run, at most three times in all, only on that message; any other
+    failure, or a decided mismatch, fails at once."""
     pytest.importorskip("snappy")
-    r = subprocess.run([sys.executable, "-B", str(A / "main_check.py"), "--check"], capture_output=True, text=True, cwd=str(A), timeout=900)
-    assert r.returncode == 0, r.stderr[-400:]
+    for attempt in range(1, 4):
+        r = subprocess.run([sys.executable, "-B", str(A / "main_check.py"), "--check"], capture_output=True, text=True, cwd=str(A), timeout=900)
+        if r.returncode == 0 or UNDECIDED not in r.stderr:
+            break
+    assert r.returncode == 0, "attempt %d: %s" % (attempt, r.stderr[-400:])
     out = json.loads(r.stdout[r.stdout.index("{"):])
     assert out["b+-LR"]["least_four"][0]["is"] == "Weeks" and out["b++LR"]["least_four"][0]["is"] == "Meyerhoff"

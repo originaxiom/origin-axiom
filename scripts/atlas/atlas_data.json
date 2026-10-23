@@ -13577,7 +13577,9 @@
    "motifs": [
     "amphichiral_cp"
    ],
-   "refs": [],
+   "refs": [
+    "S201"
+   ],
    "obstacle": "measure",
    "obstacle_conf": 3,
    "status": "banked",
@@ -13589,7 +13591,8 @@
    "refs": [
     "B1",
     "B3",
-    "H3"
+    "H3",
+    "S201"
    ],
    "obstacle": "measure",
    "obstacle_conf": 3,
@@ -13689,6 +13692,20 @@
    "obstacle_conf": 20,
    "status": "banked",
    "domain": "physics"
+  },
+  "B1741": {
+   "slug": "tau from the thread rule the line free",
+   "motifs": [],
+   "refs": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "dynamics"
   },
   "B174": {
    "slug": "gluing map landscape",

@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1468 of 1468 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1469 of 1469 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1003)
+## PROVED (1004)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1015,6 +1015,7 @@
 | `B1737` | THE SLOPE IS A ZETA VALUE (P-311; PROVED as a verified identity, no data): the slope law's s(chi) equals the chi-twisted Shintani zeta value at s = 0 of Z^2 modulo the monodromy, sum over the half-open fundamental parallelogram of chi(p)/(1 - chi(w))^2 (per generator), less (1/2) #(-I): to 2.5e-13 on all 601 characters at 16 levels against B1438's exact slopes; independent of the choice of w (3.3e-13); the trivial character's Shintani zeta(0) is -Psi/12 with Rademacher's Psi on all 16 levels. So the slope, Rademacher's Phi and Meyer's zeta(0) are one Eisenstein cocycle (Sczech's) at the torsion point and at 0; B1623's 'related, not the same' corrected by a dated note. The follow-on (channel norms as Kronecker-limit logs of the same L-function, a candidate line rule) registered. 0 of 19. |  | 1 |
 | `B1738` | W139 ON MAIN (P-338; PROVED, no data): under E6's cubic N = det Q + det L + det Q^c - tr(Q L Q^c) (invariant under SU(3)^3 to 8e-16), with three families, a symmetric coupling and any vevs in the five neutral leptonic components, the extended down-type (d, D) and charged-lepton (e, E) mass matrices have the same singular values to 6e-16; doubling det L splits them (the control). So D = 1 for every 27 vev: the lepton factor 3 that B1726's ingredients put in by hand cannot come from the 27s' cubic; P-338 answered no; P-294 sharpens to a source outside the 27s. 0 of 19. |  | 1 |
 | `B1739` | THE HIGGS IS NEARLY NULL (P-344; PROVED, no new data contact): R is exactly null (Jacobi) and the censuses' Higgs has h.h = eta^6/4 exactly, so its reality r = |h.h|/|h|^2 falls like e^(-pi Im tau) (0.0058 at Im tau 3); rho(T)'s (j, k) eigenlines (0, 1, +-i) are null and the sections on record are led by them at the cusp (F_6 too: F_6.F_6 = -48 eta^6, reality 0.0019 at 3). With u = 0 the left null vector of u1 [h]_x is conj(h) exactly; with the channel triplet on, each sector's lightest state overlaps conj(h) under S and h under S~ (median 0.999). So under the Standard Model's reading (S~ up, S down) the lightest up and down states are nearly orthogonal: on B1726's census the median |V_ud| is 0.28 (0.105 at Im tau 3-3.5) against 0.995 for equal readings, and per tau it follows r^0.52 (log-correlation 0.996). The hierarchy (Im tau about 3) and an unmixed light generation (|V_ud| 0.974) exclude each other with this Higgs under that reading; a Higgs led by the non-null eigenline e_i, or another reading rule, would be needed. 0 of 19. |  | 1 |
+| `B1741` | TAU FROM THE THREAD RULE, THE LINE FREE (P-347; sealed acd2fec77, sha256 7a8eeb8a; PROVED as sealed for its question -- P1, P2, R1-R3 hold, P2c, R4-R7, P3, P4 fail, C1, C2 hold; outputs committed unread at 3da06f258 and 624f93419): with tau at a thread's apex (no continuous number fitted) and the line chosen from 266 (priced by the calibration), the six charged-fermion ratios are reached at value level: chi2_six 14.93 below 16.75, with 0.60% of random hierarchies reaching as low over the same 39 900 rows (seat's menu; 2.26% covariant, 3.58% factor free); coarse 1.289, 0.22%. The best row: the apex 3.4 + 2.993i of L^5R^2LR and L^2R^5LR on the line (2/5, 9/10) -- B1735's line (2/5, 1/10) in the census frame -- L_max, up S~ with down and leptons S, c = 3; every ratio 12-29% high; D 11.05 (4.3 sigma); the CKM fails (|V_ud| 0.12, B1739). After the read (labelled): under THE_BAR's Bonferroni over the arc's looks the value-level specificity is 1.2-3.6%, not PASSED; the line is not one of the thread's own (A^2 fixes it only vacuously: A^2 = -I mod 10 fixes every order-5 and order-10 line). A READING with the two ingredients by hand; the seats' third opinion owed (P-348). 0 of 19. |  | 1 |
 
 ## NEGATIVE (361)
 

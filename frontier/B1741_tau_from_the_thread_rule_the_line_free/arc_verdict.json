@@ -1,0 +1,30 @@
+{
+ "id": "B1741",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1720",
+  "B1726",
+  "B1734",
+  "B1735",
+  "B1733",
+  "B1724",
+  "B1739",
+  "B1695"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling at B1667's canonical end (both horocycles), DR, the covariant readings, the lepton factor and B1726's menus; tau at a thread's apex (B1720, Im tau = Lagrange/2), every one of the 266 lines",
+  "object": "the six charged-fermion mass ratios at M_Z (and the CKM moduli), at pattern and at value level (chi-square with B1637's 10% allowance)",
+  "reach": "class",
+  "hypotheses": "B1720's 121 classes (75 distinct apex points) x 266 lines; B1695's and B1713's priors; seeds 1741-1760, 4000 targets each; the 1% bar and P-341's precision bars"
+ },
+ "claim_one_line": "TAU FROM THE THREAD RULE, THE LINE FREE (P-347; sealed acd2fec77, sha256 7a8eeb8a; PROVED as sealed for its question -- P1, P2, R1-R3 hold, P2c, R4-R7, P3, P4 fail, C1, C2 hold; outputs committed unread at 3da06f258 and 624f93419): with tau at a thread's apex (no continuous number fitted) and the line chosen from 266 (priced by the calibration), the six charged-fermion ratios are reached at value level: chi2_six 14.93 below 16.75, with 0.60% of random hierarchies reaching as low over the same 39 900 rows (seat's menu; 2.26% covariant, 3.58% factor free); coarse 1.289, 0.22%. The best row: the apex 3.4 + 2.993i of L^5R^2LR and L^2R^5LR on the line (2/5, 9/10) -- B1735's line (2/5, 1/10) in the census frame -- L_max, up S~ with down and leptons S, c = 3; every ratio 12-29% high; D 11.05 (4.3 sigma); the CKM fails (|V_ud| 0.12, B1739). After the read (labelled): under THE_BAR's Bonferroni over the arc's looks the value-level specificity is 1.2-3.6%, not PASSED; the line is not one of the thread's own (A^2 fixes it only vacuously: A^2 = -I mod 10 fixes every order-5 and order-10 line). A READING with the two ingredients by hand; the seats' third opinion owed (P-348). 0 of 19.",
+ "weave_or_thread": "thread (each thread's own point), over every line"
+}
