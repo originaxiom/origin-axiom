@@ -1,0 +1,5 @@
+written
+
+real	5m11.148s
+user	8m50.861s
+sys	0m51.160s
