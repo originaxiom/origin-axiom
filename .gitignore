@@ -109,6 +109,8 @@ data-*-batch-*/
 # B1726's sealed census (23 940 rows, written once by its sealed census.py): the sealed compare.py reads it by
 # name, so a fresh clone can re-derive the verdict only if it is tracked (the B1424 reason)
 !frontier/B1726_the_two_ingredients_replicated/verification/census.jsonl
+# B1732's sealed census (the same reason): its sealed compare.py reads it by name
+!frontier/B1732_the_two_ingredients_with_the_fixed_higgs/verification/census.jsonl
 chronicle_raw*
 
 

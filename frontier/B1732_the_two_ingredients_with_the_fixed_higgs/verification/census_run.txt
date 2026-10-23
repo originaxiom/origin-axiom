@@ -1,0 +1,2 @@
+23940 points; 0 done; 23940 to do
+control: against B1725 3.89e-12, T-covariance 8.76e-12, F6's invariant 7.08e-39

@@ -1,0 +1,15 @@
+R1_six_within_2_seat True
+R2_six_specific_seat False
+R3_six_specific_cov False
+R4_six_specific_free False
+R5_nine_specific_seat False
+R6_J_within_3_at_best_nine_seat True
+R7_D_within_3_sigma_at_best_six_seat False
+C1_control True
+mean random as good nine|cov   0.0521
+mean random as good nine|free  0.4612
+mean random as good nine|seat  0.3578
+mean random as good six|cov    0.0208
+mean random as good six|free   0.1760
+mean random as good six|seat   0.0706
+best six (seat): 1.622 at {'line': 73, 'Re_tau': 0.55, 'Im_tau': 3.05, 'horocycle': 'L_max', 'readings': ['St', 'St', 'St'], 'lepton_factor': 3.0, 'D': 8.999787507270021}
