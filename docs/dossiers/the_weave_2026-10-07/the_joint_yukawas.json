@@ -1,0 +1,422 @@
+{
+ "arc": "W137",
+ "rule": "W137_RULE.md",
+ "status": "one run",
+ "Y0": {
+  "checks": {
+   "the full symmetrisation of det(psi_a, psi_b, psi_c) is 0": true
+  }
+ },
+ "Y1": {
+  "checks": {
+   "rho'_k(-I) = 1 for k = 5, 13, 21, so k_Phi is even": true,
+   "the closed forms equal W136's table, w <= 24": true,
+   "h = 0: the least positive weight is 6 (k_Phi = 2) with C = 6; k_Phi = 0 gives none": true,
+   "h = 1: every weight is odd and carries no coupling": true,
+   "k_Phi = (3 + m)/2 is an even integer at every admissible (r, m)": true,
+   "least data: m = 1 gives w = 6 with C = 6, m = -3 gives none": true,
+   "three-generation data: m = -23, -19 none (five data); m = 17 w = 30, C = 26; m = 21 w = 36, C = 30": true
+  },
+  "global supersymmetry (h = 0): k_Phi -> (w, C)": {
+   "-12": {
+    "w": -36,
+    "C": 0
+   },
+   "-10": {
+    "w": -30,
+    "C": 0
+   },
+   "-8": {
+    "w": -24,
+    "C": 0
+   },
+   "-6": {
+    "w": -18,
+    "C": 0
+   },
+   "-4": {
+    "w": -12,
+    "C": 0
+   },
+   "-2": {
+    "w": -6,
+    "C": 0
+   },
+   "0": {
+    "w": 0,
+    "C": 0
+   },
+   "2": {
+    "w": 6,
+    "C": 6
+   },
+   "4": {
+    "w": 12,
+    "C": 10
+   },
+   "6": {
+    "w": 18,
+    "C": 16
+   },
+   "8": {
+    "w": 24,
+    "C": 20
+   },
+   "10": {
+    "w": 30,
+    "C": 26
+   },
+   "12": {
+    "w": 36,
+    "C": 30
+   },
+   "14": {
+    "w": 42,
+    "C": 36
+   }
+  },
+  "supergravity, one modulus (h = 1): k_Phi -> (w, C)": {
+   "-12": {
+    "w": -37,
+    "C": 0
+   },
+   "-10": {
+    "w": -31,
+    "C": 0
+   },
+   "-8": {
+    "w": -25,
+    "C": 0
+   },
+   "-6": {
+    "w": -19,
+    "C": 0
+   },
+   "-4": {
+    "w": -13,
+    "C": 0
+   },
+   "-2": {
+    "w": -7,
+    "C": 0
+   },
+   "0": {
+    "w": -1,
+    "C": 0
+   },
+   "2": {
+    "w": 5,
+    "C": 0
+   },
+   "4": {
+    "w": 11,
+    "C": 0
+   },
+   "6": {
+    "w": 17,
+    "C": 0
+   },
+   "8": {
+    "w": 23,
+    "C": 0
+   },
+   "10": {
+    "w": 29,
+    "C": 0
+   },
+   "12": {
+    "w": 35,
+    "C": 0
+   },
+   "14": {
+    "w": 41,
+    "C": 0
+   }
+  },
+  "the 27s' weight at W134's least data": {
+   "m = 1 (r = 4 mod 8)": {
+    "k_Phi": 2,
+    "w": 6,
+    "C": 6
+   },
+   "m = -3 (r = 0 mod 8)": {
+    "k_Phi": 0,
+    "w": 0,
+    "C": 0
+   }
+  },
+  "the 27s' weight at W134's twelve data": {
+   "(0, 21, 0)": {
+    "k_Phi": 12,
+    "w": 36,
+    "C": 30
+   },
+   "(0, 21, L6)": {
+    "k_Phi": 12,
+    "w": 36,
+    "C": 30
+   },
+   "(4, -23, L6)": {
+    "k_Phi": -10,
+    "w": -30,
+    "C": 0
+   },
+   "(4, 17, 0)": {
+    "k_Phi": 10,
+    "w": 30,
+    "C": 26
+   },
+   "(8, -19, 0)": {
+    "k_Phi": -8,
+    "w": -24,
+    "C": 0
+   },
+   "(8, 21, 0)": {
+    "k_Phi": 12,
+    "w": 36,
+    "C": 30
+   },
+   "(8, 21, L6)": {
+    "k_Phi": 12,
+    "w": 36,
+    "C": 30
+   },
+   "(12, -23, 0)": {
+    "k_Phi": -10,
+    "w": -30,
+    "C": 0
+   },
+   "(12, -23, L6)": {
+    "k_Phi": -10,
+    "w": -30,
+    "C": 0
+   },
+   "(12, 17, 0)": {
+    "k_Phi": 10,
+    "w": 30,
+    "C": 26
+   },
+   "(16, 21, L6)": {
+    "k_Phi": 12,
+    "w": 36,
+    "C": 30
+   },
+   "(20, -23, L6)": {
+    "k_Phi": -10,
+    "w": -30,
+    "C": 0
+   }
+  }
+ },
+ "Y2": {
+  "checks": {
+   "lambda(h) is symmetric, so M_e = M_d^T = M_d, to 1e-40": true,
+   "D = 1 at every point, to 1e-12": true
+  },
+  "worst asymmetry": 0.0,
+  "worst |D - 1|": 0.0,
+  "P-094's D": [
+   10.58,
+   0.11
+  ],
+  "the distance of D = 1 from P-094's D, in sigma": 87.0909090909091
+ },
+ "Y3": {
+  "checks": {
+   "dim M_2(Sym^3 rho') = C(2)": true,
+   "w = 2: the CP-fixed forms span the space": true,
+   "dim M_6(Sym^3 rho') = C(6)": true,
+   "w = 6: the CP-fixed forms span the space": true,
+   "each basis form transforms by Sym^3 rho' under S and T, to 1e-40": true,
+   "v(-conj tau) = X conj v(tau), to 1e-40": true
+  },
+  "worst deviations": {
+   "w = 2: the law under S and T": 4.724562449961148e-61,
+   "w = 6: the law under S and T": 3.6117723533902857e-60,
+   "v(-conj tau) = X conj v(tau)": 0.0
+  },
+  "dimensions": {
+   "2": 2,
+   "6": 6
+  },
+  "terms per CP-fixed basis form": {
+   "2": [
+    3,
+    6
+   ],
+   "6": [
+    2,
+    8,
+    10,
+    10,
+    5,
+    10
+   ]
+  }
+ },
+ "Y4": {
+  "checks": {
+   "on tau = iy: J = 0 and theta-bar in {0, pi}, to 1e-30": true,
+   "off the line: J != 0 and theta-bar not in {0, pi}, above 1e-6": true
+  },
+  "on the CP line": {
+   "0.9": {
+    "J": 0.0,
+    "theta-bar from {0, pi}": 0.0
+   },
+   "1.3": {
+    "J": 0.0,
+    "theta-bar from {0, pi}": 0.0
+   },
+   "2.1": {
+    "J": 0.0,
+    "theta-bar from {0, pi}": 0.0
+   }
+  },
+  "off it": {
+   "(0.075187 + 1.392464j)": {
+    "J": 0.001032630895102963,
+    "theta-bar from {0, pi}": 0.43493229807045397
+   },
+   "(0.249855 + 1.021601j)": {
+    "J": 0.00019330350364490253,
+    "theta-bar from {0, pi}": 1.538496450519596
+   },
+   "(0.28026 + 1.155705j)": {
+    "J": 0.00014795063345051957,
+    "theta-bar from {0, pi}": 0.35197093957827025
+   },
+   "(0.22623 + 1.315521j)": {
+    "J": 0.0026437195166224537,
+    "theta-bar from {0, pi}": 0.6621240839190354
+   },
+   "(0.135006 + 1.297214j)": {
+    "J": 0.001725688679003321,
+    "theta-bar from {0, pi}": 0.3332275431672102
+   }
+  }
+ },
+ "Y5": {
+  "checks": {
+   "the ranks are 10, 10, 9 and 10 at every point": true
+  },
+  "w = 6, CP": {
+   "parameters": 14,
+   "ranks": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "predicted": 10,
+   "singular values at the first point": [
+    3.1800263371903243,
+    0.8052576412194846,
+    0.3857265768219559,
+    0.2692155476704321,
+    0.1267509013647683,
+    0.03536604957278076,
+    0.014918815290435952,
+    0.013491791123438332,
+    0.0030750839519589255,
+    0.0001370451791175583,
+    2.514913904984249e-38
+   ]
+  },
+  "w = 6, no CP": {
+   "parameters": 26,
+   "ranks": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "predicted": 10,
+   "singular values at the first point": [
+    3.190963011491367,
+    0.7740293265595204,
+    0.43654709336560454,
+    0.14198275768528185,
+    0.07767196748841945,
+    0.040395710853736784,
+    0.013231817087623178,
+    0.006628646894675086,
+    0.004012524831320765,
+    0.0011508372471579192,
+    3.3454022314407533e-38
+   ]
+  },
+  "w = 2, CP": {
+   "parameters": 10,
+   "ranks": [
+    9,
+    9,
+    9,
+    9,
+    9
+   ],
+   "predicted": 9,
+   "singular values at the first point": [
+    2.7675699445971613,
+    1.6323828736379111,
+    0.7948394259031837,
+    0.16582111708101385,
+    0.1214851220628716,
+    0.04283885586529846,
+    0.004652578354481313,
+    0.0009750562358334001,
+    1.0075587717315542e-05,
+    9.3300952895317e-39
+   ]
+  },
+  "w = 2, no CP": {
+   "parameters": 18,
+   "ranks": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "predicted": 10,
+   "singular values at the first point": [
+    3.022561103914212,
+    1.2116744877069205,
+    0.48109475274482977,
+    0.35563404015356326,
+    0.14220133872413868,
+    0.12104929016151102,
+    0.05043694870205185,
+    0.022589399650989217,
+    0.010191597841336433,
+    0.0030643905511354265,
+    1.152748815108954e-37
+   ]
+  }
+ },
+ "Y6 (read-out)": {
+  "the weight reading I allows, least": "w = 6 (k_Phi = 2, global supersymmetry), C(6) = 6 complex constants",
+  "parameters against the ten quark observables": {
+   "w = 6, CP": 14,
+   "w = 6, no CP": 26,
+   "w = 2, CP": 10,
+   "w = 2, no CP": 18
+  },
+  "the three lepton masses": "tied to the down masses by M_e = M_d (Y2)",
+  "what the thirteen would need (a READING in the record, not here)": [
+   "a principle fixing the constants and the vev directions",
+   "a Clebsch beyond 16.16.10 that breaks M_e = M_d"
+  ]
+ },
+ "cells": {
+  "Y0": true,
+  "Y1": true,
+  "Y2": true,
+  "Y3": true,
+  "Y4": true,
+  "Y5": true
+ },
+ "every cell holds": true
+}

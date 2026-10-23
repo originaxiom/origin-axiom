@@ -1,0 +1,13 @@
+{
+ "Y0": true,
+ "Y1": true,
+ "Y2": true,
+ "Y3": true,
+ "Y4": true,
+ "Y5": true
+}
+every cell holds: True
+
+real	0m17.969s
+user	0m17.977s
+sys	0m0.064s
