@@ -1,0 +1,34 @@
+{
+ "id": "B1736",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1275",
+  "B1656",
+  "B1724",
+  "B1727",
+  "B1716",
+  "B1659",
+  "B1730",
+  "B1723",
+  "B1691"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W135",
+  "sm:W134"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling (B1723's b1656_funcs), the Higgs a pure quaternion triplet (B1691's components), B1724's T and S laws; E8 from the icosians",
+  "object": "the family group of the joint frame (E8 > E6 x SU(3), Gamma' = rho (x) chi_eta^k) and the coupling's representation content",
+  "reach": "class",
+  "hypotheses": "exact over Q(sqrt5) for E8 and 2I; Gamma' from main's rho (B1730); the coupling's closed form on 50 random complex inputs; the channel weights at three points and lines, all three sectors"
+ },
+ "claim_one_line": "THE FAMILY GROUP IS THE FRAME'S OWN (P-302; PROVED, no data): E8 rebuilt from 2I on main (240 roots, Cartan matrix of E8, 20 order-3 elements in one class, 10 frames of A2 + E6 + 6 x 27 permuted transitively), W135's K0 holds; the object's g = -R L^-1 mod 5 maps to an order-3 icosian whose left multiplication permutes the six 27-classes of its frame in two 3-cycles, the same permutation as B1275's A2 rotation (B1275's open step closes, canonically: every order-3 element does); W135's Gamma' with main's rho has orders 72, 72, 24 (k = 21 the cube's rotations), no Sym^3 invariant, one Lambda^3 invariant, Sym^3 rho' = 1' + 2 rho' + rho' sgn. B1656's coupling is Y = u h^T + h u^T - (u.h) 1 + u1 [h]_x + h0 (u1 1 + [u]_x) exactly; its channel 1 is E8's eps and its channels i, j, k are a triplet; under T and S the channel weights (u1, u) transform as 1 + rho', u by the same cube rotation as the Higgs, so Y(g tau) = scalar R Y(tau) R^T (B1724's covariance from structure). The joint frame forbids no channel; the hierarchy is the relative geometry of the Higgs triplet and each sector's channel triplet. 0 of 19.",
+ "weave_or_thread": "weave (the frame's coupling at every point and line)"
+}

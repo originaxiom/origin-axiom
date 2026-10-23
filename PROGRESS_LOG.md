@@ -17810,3 +17810,13 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - **B1734 (sealed; PROVED as sealed for its question; P-312 DONE).** With τ and the line from the thread, the six are specific (0.16% seat); after the read the result is carried by one thread pair (L⁵R² and its mirror) on an order-5 line with D = 9 (excluded), and at the bar once every line order is counted (1.13%). P-339, P-340.
 - **Landing suite.** full suite 7 629 passed, 2 failed, 68 skipped (24:48, -n 8) on 33f38081f; both failures are B805's attachment locks (P-239).
+
+## 2026-10-23 — S199 THE PRECISION BAR (B1735) AND THE SEATS HARVESTED
+
+- **B1735 (post hoc; PROVED as computed).** On B1726's grid, with τ fitted, the frame with the two ingredients reaches the values of the six: χ²_six 3.09 at (2/5, 1/10), τ = 0.35 + 3.05i, 0.03% of random hierarchies as low — the first row on main below the precision bar. The nine fail (χ² 109); the thread rule does not reach it (42). A value-level reading; P-342, P-343.
+- **W138 verified on main; P-304 DONE.** The web seat's PRECISION_BAR adopted (P-341). Rows 1329–1332. FLOOR 343.
+- **Landing suite.** full suite 7 636 passed, 2 failed, 68 skipped (26:01, -n 8) on 9e45050d1; both failures are B805's attachment locks (P-239).
+
+## 2026-10-23 — S199 (continued) THE FAMILY GROUP IS THE FRAME'S OWN (B1736)
+
+- **B1736 (PROVED; P-302 DONE).** W135's family group rebuilt on main; the object's order-3 element is the family rotation on its frame (canonically: every order-3 element of 2I is); B1656's coupling is Y = u hᵀ + h uᵀ − (u·h)1 + u₁[h]_× + h₀(u₁1 + [u]_×), with the Higgs and each sector's channel triplet carrying the same cube rotations under T and S: the joint frame forbids no channel. Lands with S199's suite.

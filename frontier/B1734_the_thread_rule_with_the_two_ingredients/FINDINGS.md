@@ -59,6 +59,13 @@ No continuous number is scanned: τ and the line come from the thread.
 - **For the seats (P-339, the third opinion):** re-run compare.py on census.json; recompute the best rows; check
   B1733's line sets; repeat B with your own instruments.
 
+## Dated note (2026-10-23, B1735; post hoc, labelled)
+
+- **The precision cells** (P-341): the thread rule's rows reach χ²_six 42.3 under the seat's menu (31.3 at the widest), far above
+  the bar 16.75, and χ²_nine 441. With τ fitted on B1726's grid the same frame reaches 3.09: the thread's apex does not place τ
+  where the values are (P-343).
+- **W138's widest menu** (every covariant reading, the factor free) on this census: 2.22%, so the six are not specific under it.
+
 ## Seen first
 
 From the preregistration: `VERDICT topic-sweep /thread rule|thread.s own (point|lines)|threads? with (the )?ingredients|own order-5|apex.*ingredient/ (full text): 2 of 1505 arcs on main match (NEGATIVE 1, PROVED 1)`;

@@ -1,0 +1,2 @@
+B1726 covfree six: best 1.2016 mean 0.0336 | chi2_six min: {'seat': 3.09, 'cov': 3.09, 'free': 2.66, 'covfree': 2.66}
+B1734 covfree six: best 1.6138 mean 0.0222 | chi2_six min: {'seat': 42.31, 'cov': 36.91, 'free': 39.27, 'covfree': 31.27}

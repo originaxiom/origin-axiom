@@ -1,0 +1,30 @@
+{
+ "id": "B1735",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1726",
+  "B1734",
+  "B1720",
+  "B1695",
+  "B1698",
+  "B1637"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W138"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling at B1667's canonical end (both horocycles), DR, the covariant readings, the lepton factor and the reading from B1726's menus, on B1726's committed grid census (tau scanned) and B1734's committed thread census",
+  "object": "the six charged-fermion mass ratios at M_Z and the CKM moduli, at value level (chi-square with B1637's 10% allowance)",
+  "reach": "class",
+  "hypotheses": "the committed censuses of B1726 (23 940 points) and B1734 (190 points); B1720 compare.py's chi-square definition; B1695's priors; each arc's own 20 seeds, 4000 targets each; post hoc, labelled"
+ },
+ "claim_one_line": "THE PRECISION BAR ON THE TWO-INGREDIENT CENSUSES (post hoc, labelled; PROVED as computed): the web seat's PRECISION_BAR (chi2_six < 16.75, chi2_nine < 21.67 at B1720's definition) applied to B1726 and B1734. On B1726's grid, with tau fitted, the seat's menu reaches chi2_six = 3.09 (the order-10 line (2/5, 1/10), tau = 0.35 + 3.05i, L_max, up S~, c = 3; every pull within 1.32 sigma; D 10.76) and 0.03% of random hierarchies reach as low over the same rows and menu (0.96% under every covariant reading with the factor free) -- the first row on main below the bar (every earlier chi-square cell 79 or more); the nine fail (chi2_nine 109; the CKM 4-24 times too large). The thread rule (B1734) does not reach the bar (chi2_six 31-42). W138's labelled menu reproduced on main (3.365%; P-304 DONE). A value-level READING with tau fitted and both ingredients by hand; the seats' third opinion owed (P-342); what places tau there is P-343. 0 of 19.",
+ "weave_or_thread": "weave (a census of points of the frame), post hoc"
+}

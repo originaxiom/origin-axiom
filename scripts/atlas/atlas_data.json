@@ -13582,6 +13582,40 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1735": {
+   "slug": "the precision bar on the two ingredient censuses",
+   "motifs": [],
+   "refs": [
+    "B1",
+    "B3",
+    "H3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1736": {
+   "slug": "the family group is the frames own",
+   "motifs": [
+    "closing",
+    "coupling",
+    "eisenstein",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "K0",
+    "K2",
+    "K3",
+    "K4",
+    "L237"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "dormant",
+   "domain": "arithmetic"
+  },
   "B173": {
    "slug": "gaplabel rank reduction",
    "motifs": [

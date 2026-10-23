@@ -115,3 +115,12 @@ and Saad (P-094's double ratio); out-of-sample replication with the selection co
 - `verification/compare.py` → `comparison.json`, `compare_run.txt`.
 - `verification/posthoc.py` (labelled, after the read) → `posthoc.json`, `posthoc_run.txt`.
 - The lock: `tests/test_b1726_the_two_ingredients_replicated.py`.
+
+## Dated note (2026-10-23, B1735; post hoc, labelled)
+
+- **The precision cells this arc did not carry** (the web seat's PRECISION_BAR, adopted by main as P-341): on this census the seat's
+  menu reaches χ²_six = 3.09 at the order-10 line (2/5, 1/10), τ = 0.35 + 3.05i, L_max, up S̃, c = 3 — not the coarse-best row —
+  and 0.03% of random hierarchies reach as low over the same rows (0.96% under every covariant reading with the factor free).
+  The nine fail (χ²_nine 109). The first row on main below the bar; post hoc, τ fitted; the third opinion is P-342.
+- **W138's labelled A3** (every covariant reading, the factor free) reproduced on main's own code: 3.365% for the six (W138: 3.37%),
+  so under that menu the coarse specificity does not survive. P-304 DONE.

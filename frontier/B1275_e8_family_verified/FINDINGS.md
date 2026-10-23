@@ -72,3 +72,11 @@ is that same ω, three generations become object-supplied.**
 - **Feeds on:** the SM-derivation seat's B1269 (harvested), B1273 (the harvest register), B1264 (L3/L4),
   B302/B305/B323, B582.
 - **Registers:** no status change. **Isolates** the object-specific step as the live question.
+
+## Dated note (2026-10-23, B1736)
+
+- **The open step, closed canonically.** On main, E₈ rebuilt from 2I's icosians: the object's own g = −RL⁻¹ (through
+  SL(2, 5) ≅ 2I) is an order-3 icosian whose left multiplication preserves its frame and permutes the six 27-classes in
+  two 3-cycles — the same permutation as this arc's A₂ rotation s_a s_b (it differs from s_a s_b by a map that keeps every
+  class). Every order-3 element of 2I does the same (one conjugacy class, 10 conjugate frames), so the object picks which
+  frame, not whether the family rotation exists.
