@@ -194,7 +194,7 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
    day, both NEGATIVE as sealed) are the seventeenth and eighteenth. B1720 and B1722 (main, the same day, both NEGATIVE as
    sealed) are the nineteenth and twentieth. B1723 (main, the same day, NEGATIVE as sealed) is the twenty-first.
    B1726 (main, 2026-10-23, PROVED as sealed) is the twenty-second, and the first that held as sealed. B1732 (main,
-   sealed the same day, not yet run) is the twenty-third; this seat states no expectation for it:
+   the same day, NEGATIVE as sealed) is the twenty-third:
 
    | test | seat | what was tried | outcome |
    | --- | --- | --- | --- |
@@ -220,6 +220,7 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
 | B1722 | main | the record's two measures over threads (uniform word; action weight at c = 6) on B1720's census | 25.4% and 21.0% of random as good |
 | B1723 | main | the golden valley (B1636's F at 8, the discriminant-5 locus), 49 points × 265 lines, both horocycles, three up readings | best factor 147; 26.6% of random as good; χ² 3891 |
 | B1726 | main | the web seat's two hand-put ingredients (the lepton factor 3 and a reading rule) on 23 940 fresh points, B1713's 266 lines, the covariant readings, menus fixed in advance, 20 seeds | HELD as sealed: the six ratios within 1.20; 0.12% of random as good under the seat's menu, 0.41% under every covariant reading, 0.92% with the factor free; the nine 0.58% (seat's menu), 1.66% (covariant); \|J\| 7.8 times too small; P-094's D at 3.9σ |
+| B1732 | main | B1726's design with the Higgs F₆ (the one zero-free Higgs whose invariant has no zero) in place of DR | the six within 1.62, but 7.06% of random as good under the seat's menu (DR: 0.12%); the nine 35.8%; D 9.00; the specificity is DR's |
 
    - No unfitted prediction was confirmed. Every pass was either fitted or matched as often by random targets.
      *(2026-10-23: until B1726. Its six ratios are the best row of a grid, but random targets match them only

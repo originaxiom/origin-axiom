@@ -82,8 +82,8 @@ Each takes every thread the principle allows under one rule, and its claim is ab
     hand before the seal (the lepton factor 3 and a reading rule), the six charged-fermion ratios come within 1.20
     on 23 940 fresh points, and only 0.12% of random hierarchies do as well. Its |J| and its double ratio miss.
     It tests the two ingredients, not forced structure; main asks the seats for a third opinion (P-304).
-  - The twenty-third, main's B1732 (sealed 2026-10-23, the same design with the Higgs F₆), is not yet run. This
-    seat states no expectation for it.
+  - The twenty-third, main's B1732 (2026-10-23, the same design with the Higgs F₆), failed as sealed: the six within
+    1.62, but 7.06% of random hierarchies as good. The specificity was DR's.
 - **The magnitudes side is a clean negative.** The forced menu fits the hierarchy no better than chance (p = 0.139,
   W112).
 

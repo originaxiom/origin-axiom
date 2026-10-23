@@ -20407,3 +20407,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What is still open:** which weight the coupling has, the value of τ, and a handful of constants. Those decide the
   masses.
   0 of 19.
+
+## 2026-10-23 — the next step set up: can the combined frame predict the flavour numbers?
+
+- **The owner approved the next step:** build the mass matrices of the combined frame, count its free numbers, and
+  compute the strong-CP angle θ̄. The plan and its predictions are published before any code exists.
+- **Main's newest sealed test failed.** Putting the one Higgs direction the zero-free principle fixes in place of the
+  earlier one lost the fit's specificity, so the earlier positive belonged to that earlier direction.
+- **The web seat's count of the coupling forms agrees with this seat's** at every weight.
+  0 of 19.
+

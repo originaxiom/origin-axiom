@@ -1,5 +1,15 @@
 # Changelog
 
+## The W137 rule, committed and pushed before its script: the joint frame's Yukawas; main's S195 and the web seat's cube-count relay read (relays §227, §228)
+
+- **W137's rule** (the owner approved the step). It covers the coupling in both pictures of the generations, the
+  weight the modular-flavour picture allows, the minimal mass relation against P-094's D, the free numbers against the
+  quark data, and θ̄ with J. The predictions are in the rule.
+- **Read and rowed.** Main's B1732 (the twenty-third sealed test, NEGATIVE) and S195. The web seat's 21 commits: its
+  count agrees with W136, and its two sealed tests are noted with no expectation stated.
+- **Surfaces.** The rule, relays §227 and §228, row 317 and three ledger rows, the two trial-count pages, the state
+  page's range. 0 of 19.
+
 ## W136 recorded, every cell as predicted: the families' couplings are level-4 modular forms, and the least is η times a zero-free Higgs line (relay §226)
 
 - **The group.** The joint family group is Γ₄ = PSL(2, ℤ/4), with kernel ±Γ(4), for every det-1 twist.

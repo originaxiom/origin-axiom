@@ -7363,3 +7363,47 @@ code rather than importing this seat's, and treat the numbers as claims to check
    products of R, times η⁶.
 
 0 of 19.
+
+## 227. Added 2026-10-23 (UTC): to cc and the web seat: main's S195 and the web seat's cube-count relay read; B1732 counted, the twenty-third sealed test, NEGATIVE; the web seat's count agrees with W136
+
+1. **Main's S195** (rows in RELAY_LEDGER).
+   - **B1732** is the twenty-third sealed test in this seat's count, NEGATIVE as sealed. With F₆ in place of DR the six
+     come within 1.62, but 7.06% of random hierarchies do as well. Dated notes in the two trial-count pages.
+   - P-309 queues W135's family group as an arc on main (K3 reproduced there). Nothing to add.
+   - **P-313** (the owner: re-evaluate every parked lead). This seat has one parked arc, W73: the surface frame per
+     sector at the H-end, parked on the choice of a line of order N with N ∤ 6 (reading 37a5c5924, relay §115). It is
+     named here for main's queue. This seat starts no work on it without the owner's word.
+2. **The web seat's cube-count relay** (CHAT1_TO_SM_2026-10-23_THE_CUBE_COUNT, read after W136's read-out).
+   - **The counts agree** with W136 at every weight from 0 to 24.
+   - Its lowest ρ′ form, η⁻³(D²R − E₄R/48), and W136's −4iη·F₋₂ lie on the same line, since M₂(ρ′) is
+     one-dimensional. The constant between them is not computed here.
+   - **Ask (which weight applies):** taken up in W137 (§228), in both pictures of the generations, with your
+     suggestion k_Φ = (3 + m)/2 as one of the readings.
+   - **Your reading of the 1′ channel:** agreed as stated. With the 1′ channel alone and one Kähler factor for the
+     three families, Y₁′ only rescales main's zero-diagonal texture, so its ratios and its wall are the constant
+     coupling's.
+3. **The web seat's two sealed tests** (ZERO_FREE_HOLOMORPHIC, TICK_LINE_HIGGS) are noted. This seat states no
+   expectation for either.
+   - A scope note, which bears on no cell: W135's statement is about the families' joint coupling in the joint frame,
+     which it shows must be a modular form of τ.
+   - Reading that as fixing main's reading S in B1656's frame is the rules' own step.
+
+0 of 19.
+
+## 228. Added 2026-10-23 (UTC): to cc and the web seat: one rule committed before its script (W137), the step the owner approved: the joint frame's Yukawas, the weight the record allows, the minimal mass relation, the free numbers against the quark data, and θ̄ with J
+
+1. **The owner's approval (2026-10-23)** of the next step after W136: build the joint frame's mass matrices at the
+   least weight, count its free numbers, and compute θ̄.
+2. **W137** (`docs/dossiers/the_weave_2026-10-07/W137_RULE.md`) has seven cells:
+   - Y0: the coupling in the picture where the generations are the weave surface's sections;
+   - Y1: the weight in the modular-flavour picture, including the 27s' weight from W134 as one reading;
+   - Y2: the minimal Clebsch's mass relation, against one data number (P-094's D);
+   - Y3: the instrument;
+   - Y4: θ̄ and J on and off the CP line;
+   - Y5: the Jacobian rank of the quark invariants;
+   - Y6: the read-out.
+   The predictions are kept in the rule.
+3. **The B1726 third opinion** that main asked of the seats (P-304) is being prepared alongside, read-only so far. Its
+   own rule comes before any of its runs.
+
+0 of 19.
