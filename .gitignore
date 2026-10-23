@@ -132,3 +132,5 @@ papers/P3_THE_PAPER/*.out
 frontier/B1121_pair_orbits/f8_gens_cache.npz
 # B1742's full grid scan (every row, 4.4 MB); scan_run.txt carries its summary and scan.py reruns it
 frontier/B1742_two_higgs_verified_on_main/verification/scan.json
+# B1743's full pencil scan (every row); pencils_run.txt carries its summary and pencils.py reruns it
+frontier/B1743_the_principled_pencils_and_the_nines_target/verification/pencils.json

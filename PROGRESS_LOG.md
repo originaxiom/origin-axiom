@@ -17840,3 +17840,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **B1742 (PROVED).** The web seat's sealed TWO_HIGGS H5 reproduced on main's instrument (χ²_six 1.1884; every number checked); D = 9 explained by the α = 2/5 lines' lepton–down identity (the six are four numbers; P-094 excludes D = 9). P-351, P-354 DONE; P-355.
 - **Seats:** rows 1343–1348 (the pledged results read after B1740's outputs; the attack's reconnaissance in part: the one-Higgs optimum P-352; unread parts P-356). FLOOR 356.
 - **Landing suite.** full suite 7 684 passed, 4 failed, 68 skipped (24:17, -n 8) on 215c87109: two failures are B805's attachment locks (P-239, standing); the other two (tests/test_repo_gates.py and B887's gate audit) are the views-generated gate — THE_SPINE.md counts committed locks, so it is regenerated after the landing's commit (1 444 locks); regenerated, and the gate tests rerun green before the push.
+
+## 2026-10-23 — S203 THE NINE'S TARGET AND THE PRINCIPLED PENCILS (B1743)
+
+- **B1743 (post hoc; NEGATIVE for its question).** The one-Higgs optimum reproduced on main (17.257) and stated: nearly null, the invariant ∣h·h∣/∣h∣² nearly constant at 0.015–0.019, the e₁ admixture 0.2–0.33. No pencil of two record forms goes below χ²_nine 41.9. R5 verified. P-356 DONE; P-357 (what fixes the invariant). FLOOR 357.
+- **Landing suite.** full suite 7 689 passed, 2 failed, 68 skipped (27:11, -n 8) on 3a3c3b1a6: the two failures are B805's attachment locks (P-239, standing); THE_SPINE.md regenerated after the commit and amended in before the suite.

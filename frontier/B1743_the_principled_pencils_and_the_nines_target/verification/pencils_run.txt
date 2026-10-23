@@ -1,0 +1,26 @@
+points 0
+points 80
+points 160
+points 240
+points 320
+points 400
+points 480
+points 560
+points 640
+points 720
+points 800
+points 880
+points 960
+points 1040
+points 1120
+points 1200
+DR|R         min chi2_nine   949.74 at line 8, 0.5625 + 3.00i, L_2, lambda [1.5835717019196514, -1.386193113281592]; rows below 21.67: 0
+DR|R~        min chi2_nine    43.24 at line 3, 0.6875 + 3.30i, L_max, lambda [0.9672060360268148, 0.3831745014091694]; rows below 21.67: 0
+DR|D2R       min chi2_nine   920.16 at line 8, 0.4375 + 3.00i, L_2, lambda [1.3358572496461523, 0.032161609296872104]; rows below 21.67: 0
+DR|D2R~      min chi2_nine    50.33 at line 5, 0.4375 + 3.30i, L_max, lambda [0.7153396472079843, 0.08836321848948749]; rows below 21.67: 0
+F22|Fm2      min chi2_nine    43.08 at line 3, 0.4375 + 3.30i, L_max, lambda [-0.04383529951720996, 0.11870963914123883]; rows below 21.67: 0
+F22|Fm2~     min chi2_nine   917.32 at line 0, 0.8125 + 2.00i, L_2, lambda [-0.3416474458183092, -0.21557762673051886]; rows below 21.67: 0
+F6|Fm6       min chi2_nine    41.90 at line 3, 0.3125 + 3.30i, L_max, lambda [0.10793469371248465, -0.06284238993473061]; rows below 21.67: 0
+F6|Fm6~      min chi2_nine   956.78 at line 8, 0.4375 + 3.00i, L_2, lambda [0.06106434273269071, 0.027990528578285195]; rows below 21.67: 0
+F14|Fm10     min chi2_nine    42.13 at line 3, 0.3125 + 3.30i, L_max, lambda [-0.1146855512737491, -0.051072635895843835]; rows below 21.67: 0
+F14|Fm10~    min chi2_nine   968.04 at line 6, 0.1875 + 2.60i, L_2, lambda [0.02888689861211732, 0.13517290895756143]; rows below 21.67: 0

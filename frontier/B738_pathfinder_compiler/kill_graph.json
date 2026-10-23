@@ -11923,5 +11923,29 @@
    "reach": "class"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1743",
+  "claim_killed": "That a pencil of two record Higgs forms (DR|R, DR|D2R, F22|F-2, F6|F-6, F14|F-10, one complex number free, each also conjugated), read the same way in every sector, reaches the nine's bar on the alpha = 2/5 lines.",
+  "kill_form": "Post hoc exploration (B1743, labelled): on B1742's 1 280 points, both horocycles, no pencil row has chi2_nine below 21.67; the best is 41.9 (F6|F-6 at (2/5, 3/10), Im tau 3.3, L_max), against the free direction's 17.3.",
+  "hatch": "a principle fixing the Higgs's invariant |h.h|/|h|^2 near 0.017 and its e1 admixture near 0.3 (the target, B1743 section 1); a Higgs from outside the record's forms; lines off the alpha = 2/5 family",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-23), for tests/test_b833_negative_routing.py",
+  "note": "Post hoc, not sealed. With the web seat's RECORD PAIRS (best 96.3) and WEIGHT PENCIL (best 53.0), no Higgs built from the record's forms reaches the nine on this grid.",
+  "faces_consulted": [],
+  "evidence_consulted": [
+   "B1742",
+   "B1740",
+   "B1736",
+   "B1739"
+  ],
+  "fact_computed": "10 pencils x 1 280 points x 2 horocycles, lambda fitted by least squares from 13 starts; the free optimum at 10 rows on main's instrument",
+  "scope": {
+   "frame": "B1656's coupling at B1667's end, one Higgs for every sector, c = 3",
+   "hypotheses": "B1742's grid; post hoc",
+   "object": "the nine at M_Z (B1720's chi2)",
+   "reach": "class"
+  },
+  "weave_or_thread": "weave"
  }
 ]

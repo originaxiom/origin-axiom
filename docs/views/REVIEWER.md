@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1471** |
-| words of findings prose | **1,183,341** |
-| test lock files referenced | **886** |
-| arcs carrying an authored verdict | **1471** (100.0 %) |
-| recorded closures | **838** (671 classified, 167 routed-only) |
+| research arcs with findings | **1472** |
+| words of findings prose | **1,184,580** |
+| test lock files referenced | **887** |
+| arcs carrying an authored verdict | **1472** (100.0 %) |
+| recorded closures | **839** (672 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 1005 |
-| NEGATIVE | 362 |
+| NEGATIVE | 363 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 108 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 109 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 TWO_HIGGS VERIFIED ON MAIN (P-351): the web seat's sealed H5 reproduces on main's own B1740 instrument (unmodified, a per-sector Higgs added outside it; control against B1740's stored row 0.0): with H_u = F_6 and H_d = F_22, both read S, c = 3, at 0.5625 + 2.6i on (2/5, 1/10), L_2, the six over measured 1.0099, 0.9103, 0.9831, 0.9377, 0.9381, 1.0519, chi2_six 1.1884 (the seat's 1.19); the full grid's minima 1.1884 (six) and 154.14 (nine), the same 14 rows below 16.75; the mixing aligned but small (|V_us|, |V_cb|, |V_ub| 0.187, 0.554, 0.392 of measured); D = 9. The mechanism of D = 9: on (2/5, k/10) the lepton twists are the down twists swapped up to half-periods, so the lepton spectrum equals the down spectrum (k even: every Higgs; k odd: a Higgs with no QI component, F_22's being about 1e-13), and with c = 3 the lepton ratios are Georgi-Jarlskog's by construction of the line family: the six are four numbers, and P-094 excludes D = 9 at 14 sigma. Main's instruments are immune to the jtheta nome-root caution (W144). A READING: the pair chosen by the data, c = 3 by hand, tau fitted, the nine fail. 0 of 19.  
 `B1742_two_higgs_verified_on_main/FINDINGS.md`
 
-**NEGATIVE — `B1740`** (950 words, 1 locks)  
-THE NON-NULL HIGGS UNDER THE STANDARD MODEL'S READING (P-345; sealed bf0a9a330, sha256 89563b5d; NEGATIVE as sealed for its question -- V1 holds, R1-R7 and P1-P4 fail, C1, C2 hold; outputs committed unread at 6cecc78bb and 5b978daaf): with F_-2 in place of DR on B1726's 23 940 points the light generation is aligned (median |V_ud| 0.996 under the Standard Model's reading, and under every reading pair, since F_-2 is nearly real at the band) but the hierarchy is gone: the best six is off by a factor 131.7 (m_c/m_t and m_u/m_t about 130 times measured, m_s/m_b 25), chi2_six 3 688, the coarse specificity 40.6% (random), the nine 40.9%. The dichotomy is sealed: no zero-free Higgs on record carries both the hierarchy and the alignment under the Standard Model's reading (the null ones misalign, B1739; the non-null ones lose the hierarchy, here). After the read (labelled): two nearly null directions read S in every sector (TWO_HIGGS, verified on main in B1742) give the hierarchy and alignment with the mixing too small; the sibling F_-6 is foreknown (the a < 0 members are almost identical at the band). 0 of 19.  
-`B1740_the_non_null_higgs_under_the_standard_models_reading/FINDINGS.md`
+**NEGATIVE — `B1743`** (1239 words, 1 locks)  
+THE NINE'S TARGET AND THE PRINCIPLED PENCILS (P-352; POST HOC exploration, labelled; NEGATIVE for its question): the web seat's one-Higgs optimum (one free direction read S in every sector, c = 3) reproduces on main exactly (chi2_nine 17.257, 18.279, 20.846, 21.518 on L_2, 26.92 on L_max) at a nearly null direction with a nearly constant invariant |h.h|/|h|^2 = 0.015-0.019 and an e1 admixture |delta| 0.2-0.33 (four free reals against seven independent numbers there: a target, not evidence); no pencil of two record forms with one complex number free (DR|R, which holds the weight pencil, DR|D2R, and the shared-multiplier pairs F22|F-2, F6|F-6, F14|F-10, each also conjugated) goes below chi2_nine 41.9 anywhere on the grid (the bar 21.67). The web seat's R5 verified: in the idealised up channel m1 = 0, m2 m3 = |a3|^2 |h.h| to 1e-15, m2/m3 >= |h.h|/4. A principle fixing |h.h| and the e1 admixture is the open route. 0 of 19.  
+`B1743_the_principled_pencils_and_the_nines_target/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

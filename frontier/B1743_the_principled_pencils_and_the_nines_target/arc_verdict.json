@@ -1,0 +1,31 @@
+{
+ "id": "B1743",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1742",
+  "B1740",
+  "B1736",
+  "B1739",
+  "B1730",
+  "B1691",
+  "B1728"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W143"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling at B1667's canonical end (both horocycles) on B1740's instrument via B1742's per-sector wrapper; one Higgs direction for every sector, read S (or S~ for the conjugate pencils), c = 3",
+  "object": "the nine (six charged-fermion ratios and three CKM moduli) at M_Z with B1720's chi2 (sigma^2 = rel^2 + 0.10^2): the free-direction optimum (the nine's target) and five pencils of record forms (DR|R, DR|D2R, F22|F-2, F6|F-6, F14|F-10), each with one complex number free",
+  "reach": "class",
+  "hypotheses": "B1742's grid (the ten (2/5, k/10) lines, Re tau 0.0625-0.9375, Im tau 2.0-3.5); post hoc, nothing sealed, no specificity claimed"
+ },
+ "claim_one_line": "THE NINE'S TARGET AND THE PRINCIPLED PENCILS (P-352; POST HOC exploration, labelled; NEGATIVE for its question): the web seat's one-Higgs optimum (one free direction read S in every sector, c = 3) reproduces on main exactly (chi2_nine 17.257, 18.279, 20.846, 21.518 on L_2, 26.92 on L_max) at a nearly null direction with a nearly constant invariant |h.h|/|h|^2 = 0.015-0.019 and an e1 admixture |delta| 0.2-0.33 (four free reals against seven independent numbers there: a target, not evidence); no pencil of two record forms with one complex number free (DR|R, which holds the weight pencil, DR|D2R, and the shared-multiplier pairs F22|F-2, F6|F-6, F14|F-10, each also conjugated) goes below chi2_nine 41.9 anywhere on the grid (the bar 21.67). The web seat's R5 verified: in the idealised up channel m1 = 0, m2 m3 = |a3|^2 |h.h| to 1e-15, m2/m3 >= |h.h|/4. A principle fixing |h.h| and the e1 admixture is the open route. 0 of 19.",
+ "weave_or_thread": "weave (a census over lines and tau)"
+}

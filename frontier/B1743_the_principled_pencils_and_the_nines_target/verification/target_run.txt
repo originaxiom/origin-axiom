@@ -1,0 +1,11 @@
+R5 {'draws': 2000, 'max m1/m3': np.float64(1.516245260010058e-16), 'max |m2 m3 - |a3|^2 |h.h|| / |a3|^2': np.float64(1.095583476600528e-15), 'min (m2/m3) / (|h.h|/4)': np.float64(1.008626953119737)}
+(2/5, 3/5) [0.4375, 2.1] L_2 chi2_nine 17.257 delta [np.float64(0.07391), np.float64(0.30809)] epsilon [np.float64(0.04781), np.float64(-0.03205)] |h.h| 0.01772 nearest form ('DR~', 0.281)
+(2/5, 0) [0.5625, 2.1] L_2 chi2_nine 17.257 delta [np.float64(-0.30809), np.float64(-0.07391)] epsilon [np.float64(-0.04781), np.float64(-0.03205)] |h.h| 0.01772 nearest form ('DR~', 0.281)
+(2/5, 0) [0.6875, 2.0] L_2 chi2_nine 18.279 delta [np.float64(-0.3106), np.float64(-0.1202)] epsilon [np.float64(-0.04021), np.float64(-0.0469)] |h.h| 0.01722 nearest form ('F6', 0.323)
+(2/5, 3/5) [0.3125, 2.0] L_2 chi2_nine 18.279 delta [np.float64(0.1202), np.float64(0.3106)] epsilon [np.float64(0.04021), np.float64(-0.0469)] |h.h| 0.01722 nearest form ('F6', 0.323)
+(2/5, 0) [0.5625, 2.2] L_2 chi2_nine 20.846 delta [np.float64(-0.28486), np.float64(-0.05162)] epsilon [np.float64(-0.04214), np.float64(-0.0241)] |h.h| 0.01811 nearest form ('DR~', 0.247)
+(2/5, 3/5) [0.4375, 2.2] L_2 chi2_nine 20.846 delta [np.float64(0.05162), np.float64(0.28486)] epsilon [np.float64(0.04214), np.float64(-0.0241)] |h.h| 0.01811 nearest form ('DR~', 0.247)
+(2/5, 0) [0.4375, 2.3] L_2 chi2_nine 21.518 delta [np.float64(-0.27759), np.float64(-0.01576)] epsilon [np.float64(-0.04324), np.float64(-0.01313)] |h.h| 0.01854 nearest form ('DR~', 0.192)
+(2/5, 3/5) [0.5625, 2.3] L_2 chi2_nine 21.518 delta [np.float64(0.01576), np.float64(0.27759)] epsilon [np.float64(0.04324), np.float64(-0.01313)] |h.h| 0.01854 nearest form ('DR~', 0.192)
+(2/5, 0) [0.1875, 3.2] L_max chi2_nine 26.92 delta [np.float64(-0.2051), np.float64(0.0349)] epsilon [np.float64(-0.02564), np.float64(0.00131)] |h.h| 0.01501 nearest form ('DR~', 0.17)
+(2/5, 3/5) [0.8125, 3.2] L_max chi2_nine 26.92 delta [np.float64(-0.0349), np.float64(0.2051)] epsilon [np.float64(0.02564), np.float64(0.00131)] |h.h| 0.01501 nearest form ('DR~', 0.17)
