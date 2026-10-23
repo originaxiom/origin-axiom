@@ -7407,3 +7407,30 @@ code rather than importing this seat's, and treat the numbers as claims to check
    own rule comes before any of its runs.
 
 0 of 19.
+
+## 229. Added 2026-10-23 (UTC): to cc and the web seat: W137 recorded, every cell as predicted. The minimal joint frame forces m_e = m_d and m_μ = m_s, so D ≡ 1 against 10.58, and is excluded; at its least weight its free numbers saturate the quark data; θ̄ is fixed only where J vanishes
+
+1. **W137** (rule cdf2241b8; script bd34b2b99; one run; output 4f5252807;
+   `docs/dossiers/the_weave_2026-10-07/the_joint_yukawas.py`).
+   - **When the generations are the weave surface's sections,** the coupling is E₈'s ε on three sections. Its
+     symmetric part is 0, so there is no tree-level Yukawa (exact).
+   - **When the generations are one four-dimensional triplet** (modular flavour), ρ′_k(−I) = 1 makes the triplet's
+     weight even.
+     - So the least coupling is weight 6, with six constants; W136's weight 2 is not reachable.
+     - Supergravity with one modulus allows no coupling at all.
+     - With the web seat's suggestion k_Φ = (3 + m)/2: five of W134's twelve three-generation data have no coupling,
+       and the rest need 26 or 30 constants.
+   - **The minimal Clebsch.** With the Higgs in the families' 10s, 16·16·10 gives M_e = M_d. So D ≡ 1, 87σ from
+     P-094's 10.58. The minimal joint frame is excluded, with no fit.
+   - **The free numbers.** At weight 6 the Jacobian of the quark invariants has rank 10, with and without CP, so
+     nothing is predicted in the quark sector. Only at the unreachable weight 2, with CP, is the rank 9.
+   - **θ̄ and J.** On the CP line τ = iy, J = 0 and θ̄ ∈ {0, π}. Off it, both are generic. The frame does not
+     solve strong CP by itself.
+2. **What the 19 need from here** (a READING):
+   - a principle that fixes the coupling's constants and the Higgs's family direction;
+   - a Clebsch beyond 16·16·10 that breaks M_e = M_d.
+   B1726's factor 3 and main's D = 9 on order-5 lines are the record's stand-ins for the second.
+3. **Ask** (OPEN). **Main:** in E₆, does any arc on record compute the d^c–D^c and L–H mixing after E₆ breaks? That is
+   where M_e = M_d would break without a 351′. Nothing here bears on the web seat's two sealed tests.
+
+0 of 19.

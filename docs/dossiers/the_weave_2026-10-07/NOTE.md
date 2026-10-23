@@ -7726,6 +7726,79 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W137. The joint frame's Yukawas (the step the owner approved after W136): in the picture where the generations are the weave surface's sections there is no tree-level coupling; in the modular-flavour picture the least weight is 6, not 2, with six constants, and supergravity with one modulus allows none. The minimal Clebsch forces M_e = M_d, so D ≡ 1 against P-094's 10.58: the minimal joint frame is excluded. At weight 6 its free numbers saturate the ten quark observables (Jacobian rank 10). θ̄ ∈ {0, π} only on the CP line, where J = 0 too. Every cell as predicted (`the_joint_yukawas.py`; `W137_RULE.md`)
+
+**Why.**
+- W136 counted the coupling forms. The owner approved the next step (2026-10-23): build the frame's mass matrices at
+  the least weight, count its free numbers exactly, and compute θ̄. Together these decide whether the joint frame can
+  predict the thirteen flavour numbers.
+- Two things the record had not fixed had to be stated first: which picture of the generations the coupling belongs
+  to, and which weight it carries. The web seat's count relay suggested the 27s' weight (3 + m)/2.
+
+**The order.**
+- The rule (`W137_RULE.md`, cdf2241b8) was committed and pushed before the script existed.
+- The script (bd34b2b99) was committed before its one run, which took 18 s. Before that commit it was only parsed;
+  three slips found on reading it were fixed (a case test, two matrix iterations).
+- Its output (4f5252807) was committed unread, then read once.
+
+**The result (COMPUTED, exact or at 60 digits; every cell as predicted).**
+- **Y0, reading II.** The full symmetrisation of det(ψ_a, ψ_b, ψ_c) is 0, symbolically. Identical 27s see only the
+  symmetric part, so when the generations are the surface's sections the tree-level superpotential among them
+  vanishes, as W134 and W135 said.
+- **Y1, the weight in reading I.**
+  - ρ′_k(−I) = 1 for k = 5, 13 and 21, so the triplet's weight k_Φ is even.
+  - With global supersymmetry (h = 0) the coupling's weight is 3k_Φ ∈ 6ℤ. The least is 6, with C(6) = 6 constants;
+    k_Φ = 0 gives none. **W136's weight 2 is not reachable.**
+  - With supergravity and one modulus (h = 1) every weight is odd: **no coupling at all**.
+  - W136's closed forms reproduce its table to weight 24.
+  - **With the 27s' weight k_Φ = (3 + m)/2:** k_Φ is even at every admissible datum.
+    - At W134's least data, m = 1 gives weight 6 with six constants, and m = −3 gives none.
+    - At the twelve three-generation data, m = −23 and −19 (five data) give a negative weight and no coupling.
+      m = 17 gives weight 30 with 26 constants, and m = 21 gives weight 36 with 30.
+- **Y2, the minimal relation.**
+  - With the Higgs in the families' 10s and SO(10)'s 16·16·10, λ(h) is symmetric, so M_e = M_dᵀ = M_d.
+  - Hence m_e = m_d, m_μ = m_s and m_τ = m_b at the matching scale, and D ≡ 1 at every τ, weight, constant and vev.
+    P-094's D is 10.58 ± 0.11, 87σ away. **The minimal joint frame is excluded, with no fit.**
+  - The numerical check (asymmetry 0, |D − 1| = 0 at five random points) holds by construction, since the code stores
+    λ as a symmetric tensor. The content is the Clebsch argument, not the check.
+- **Y3, the instrument.**
+  - Exact projection of the degree-w polynomials in v through the 48-element image gives dim M₂(Sym³ρ′) = 2 and
+    dim M₆(Sym³ρ′) = 6, W136's C(2) and C(6). Every basis form obeys its law under S and T to 4 × 10⁻⁶⁰.
+  - v(−τ̄) = X·conj v(τ) with X = diag(1, 1, −1). The CP-fixed forms span each space.
+- **Y4, θ̄ and J** (real constants on the CP-fixed basis at weight 6, CP-invariant vevs).
+  - On τ = iy (y = 0.9, 1.3, 2.1): J = 0 and θ̄ ∈ {0, π} exactly.
+  - At five random τ off the line: J from 1.5 × 10⁻⁴ to 2.6 × 10⁻³, and θ̄ from 0.33 to 1.54 away from {0, π}.
+- **Y5, the free numbers** (the Jacobian of the quark invariants: the traces of H_u, H_d and their products, and
+  det[H_u, H_d]).
+
+  | case | real parameters | rank at five random points | gap |
+  | --- | --- | --- | --- |
+  | w = 6, CP | 14 | 10, 10, 10, 10, 10 | 1.4 × 10⁻⁴ to 2.5 × 10⁻³⁸ |
+  | w = 6, no CP | 26 | 10, 10, 10, 10, 10 | 1.2 × 10⁻³ to 3.4 × 10⁻³⁸ |
+  | w = 2, CP | 10 | 9, 9, 9, 9, 9 | 1.0 × 10⁻⁵ to 9.3 × 10⁻³⁹ |
+  | w = 2, no CP | 18 | 10, 10, 10, 10, 10 | 3.1 × 10⁻³ to 1.2 × 10⁻³⁷ |
+
+**What it shows (the rule's fixed meaning, its first branch).**
+1. **The joint frame's only rigid predictions are the minimal GUT relations, and they fail.** m_e = m_d and
+   m_μ = m_s, so D = 1 against 10.58.
+2. **Everything else is fitted.** At the least weight reading I allows (6), six constants, τ and the two vev
+   directions saturate the ten quark observables: the minimal frame predicts nothing in the quark sector.
+   - Only at the unreachable weight 2, with CP, would one quark relation follow (rank 9).
+   - Supergravity with one modulus allows no coupling at all.
+3. **θ̄ moves with τ.** It is fixed only on the CP line, where J vanishes too, so the frame does not solve strong CP
+   by itself.
+4. **So the joint frame, as the record now has it, needs two things it does not have:**
+   - a principle that fixes the constants and the vev directions (PF1-W, the web seat's reading of GENESIS PF1, on
+     the couplings or on the Higgs; the owner's P-303);
+   - a Clebsch beyond 16·16·10 that breaks M_e = M_d (E₆'s d^c–D^c and L–H mixing after E₆ breaks, or a 351′).
+     B1726's factor 3 and main's D = 9 on order-5 lines are the record's stand-ins for it.
+
+**Weave or thread.** WEAVE-type: the joint frame (E₆ from the moves, the families' Γ₄), every det-1 twist and
+admissible datum, and claims about every coupling, constant and vev at once.
+
+**Status.** COMPUTED. One run. Every cell as predicted. One data number (P-094's D) against a parameter-free
+relation, counted as the twenty-fourth test in this seat's trial count. 0 of 19.
+
 ## W136. The coupling forms (the owner's request, relay §223's next count): the joint family group is Γ₄ = PSL(2, ℤ/4), the finite modular group of level 4, so the families' couplings are level-4 modular forms. The least coupling is weight 2 in ρ′, with two channels, and it is η times the zero-free Higgs line F₋₂; ρ′ ⊗ sgn starts at weight 4 with η⁹R, and 1′ at weight 6 with η¹², absent at weight 8. At weight w the joint frame allows C(w) = 2, 3, 6, 6, 9, 10 independent couplings (w = 2, …, 12). Every cell as predicted; the web seat's blind count agrees at every weight to 24 (`the_coupling_forms.py`; `W136_RULE.md`)
 
 **Why.**
@@ -11630,6 +11703,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W137 | COMPUTED (the rule first; one run; every cell as predicted); WEAVE-type | the joint frame's Yukawas: no tree-level coupling when the generations are the surface's sections; in the modular-flavour picture the triplet's weight is even, so the least coupling is weight 6 with six constants (W136's weight 2 unreachable) and supergravity with one modulus allows none; with the 27s' weight, five of W134's twelve three-generation data have no coupling and the rest need 26 or 30 constants. The minimal Clebsch forces M_e = M_d, so D ≡ 1 against P-094's 10.58 (excluded, no fit); at weight 6 the Jacobian of the quark invariants has rank 10, so nothing is predicted in the quark sector; θ̄ ∈ {0, π} only on the CP line, where J = 0. 0 of 19 |
 | W136 | COMPUTED, exact (the rule first; one run after a failed launch, disclosed; every cell as predicted; the web seat's blind count agrees, read post hoc); WEAVE-type | the coupling forms: the joint family group is Γ₄ = PSL(2, ℤ/4), kernel ±Γ(4), so the families' couplings are level-4 modular forms. dim M_w(σ) for every irrep and even w ≤ 24 by three routes; generating weights 1: {0}, 1′: {6}, 2: {2, 4}, ρ′: {2, 4, 6}, ρ′ ⊗ sgn: {4, 6, 8}. The least forms: Y₂ = −4iηF₋₂ (ρ′, weight 2, two channels), Y₄ = 8iη⁹R (ρ′ ⊗ sgn, weight 4), Y₆ = −16η¹² (1′, weight 6; none at 8). C(w) = 2, 3, 6, 6, 9, 10 independent couplings at w = 2 … 12; the weight, τ and the constants are not fixed. 0 of 19 |
 | W135 | COMPUTED, exact (the rule first; one run; every cell as predicted); WEAVE-type | the joint computation, every piece at once on the weave's surface: E₈ and E₆ × SU(3) from the moves (B1270's icosians, Gram det 1), the 10 frames of 2I's order-3 subgroups conjugate under the moves, so the frame is the same for every thread; one founding ratio g = −RL⁻¹ cycles the family 3's weights and the parities (ρ(g) a signed 3-cycle), with exactly 3 identifications, so B1030's trit is their ℤ/3; the full 27's moves anomaly 18(3 + r + m), 81(3 + r + m) vanishes iff m ≡ 5 − r mod 8, E₈'s determinant condition (W132 = W134); the joint family group is the cube's rotations (order 24), with Sym³ρ′ = 1′ ⊕ 2ρ′ ⊕ ρ′ ⊗ sgn and no invariant, so no constant Yukawa: every family mass is a modular form Y(τ) in one of three irreps, the record's modular-flavour frames (main's zero-diagonal texture and Y(a), by hand). 0 of 19 |
 | W134 | COMPUTED, exact (the rule first; one run; E2 and E3 as predicted; E0 and E1 failed as run on one instrument check each, resolved post hoc); WEAVE-type | the bridge: the weave's triplet ρ in the family slot of E₈ ⊃ E₆ × SU(3) on the weave's surface: det(ρ ⊗ ε_r) = χ_η^{9+3r} is never trivial, and the det-1 twists allow only even weights, so no flat SU(3) family carries the matter at the forced weight 3/2; a dressing η^m (m twenty-fourths of the cusp unit) makes it SU(3) iff m ≡ 5 − r mod 8, so E₈ excludes both the empty end and the whole unit (GENESIS FK10's); at the least datum (m = 1 or −3) at most one chiral 27, for \|m\| ≤ 16 at most two, and three at exactly twelve data, the least at 17/24 of a unit (ε₄ or ε₁₂, condition 0); the tree-level Yukawa vanishes on the surface; the question moves from "is the unit forced?" to "what fixes m?". 0 of 19 |

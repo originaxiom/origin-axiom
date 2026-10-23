@@ -20417,3 +20417,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The web seat's count of the coupling forms agrees with this seat's** at every weight.
   0 of 19.
 
+## 2026-10-23 — the combined frame, checked against the flavour numbers
+
+- **In its simplest form the combined frame makes a firm prediction, and it is wrong.** It forces the electron, muon
+  and tau masses to equal the down, strange and bottom masses at the unification scale. A well-measured ratio of
+  ratios that should then be 1 is about 10.6.
+- **Everything else in it is adjustable.** At the lowest coupling weight it allows, its free numbers are enough to
+  fit all ten quark numbers without predicting any of them.
+- **The strong-CP angle** is fixed only where the quark mixing's CP violation also vanishes.
+- **So it needs two new ingredients:** a principle that fixes its free numbers, and a structure that tells the
+  leptons apart from the down quarks.
+  0 of 19.
+

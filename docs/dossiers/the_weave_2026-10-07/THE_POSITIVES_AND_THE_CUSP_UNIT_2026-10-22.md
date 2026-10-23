@@ -84,6 +84,8 @@ Each takes every thread the principle allows under one rule, and its claim is ab
     It tests the two ingredients, not forced structure; main asks the seats for a third opinion (P-304).
   - The twenty-third, main's B1732 (2026-10-23, the same design with the Higgs F₆), failed as sealed: the six within
     1.62, but 7.06% of random hierarchies as good. The specificity was DR's.
+  - The twenty-fourth, this seat's W137, is parameter-free: the minimal joint frame forces m_e = m_d and m_μ = m_s,
+    so D ≡ 1 against 10.58. It is excluded.
 - **The magnitudes side is a clean negative.** The forced menu fits the hierarchy no better than chance (p = 0.139,
   W112).
 

@@ -4168,3 +4168,30 @@ def test_w136_the_coupling_forms():
     c = W.route_c(G, 10)
     assert c[10]["rho'"] == 3 and c[8]["1'"] == 0
     assert c[10]["1'"] + 2 * c[10]["rho'"] + c[10]["rho' (x) sgn"] == 9
+
+
+def test_w137_the_joint_yukawas():
+    """W137, the joint frame's Yukawas: every cell as recorded; in process, the weight arithmetic (even k_Phi; the least
+    coupling at weight 6 with six constants; none in supergravity with one modulus; 26 and 30 constants at weights 30
+    and 36) and the symmetrised determinant's vanishing"""
+    import contextlib
+    import importlib.util
+    import io
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_joint_yukawas.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"Y0": True, "Y1": True, "Y2": True, "Y3": True, "Y4": True, "Y5": True}
+    assert {k: v["ranks"] for k, v in d["Y5"].items() if k != "checks"} == {
+        "w = 6, CP": [10] * 5, "w = 6, no CP": [10] * 5, "w = 2, CP": [9] * 5, "w = 2, no CP": [10] * 5}
+    assert d["Y3"]["dimensions"] == {"2": 2, "6": 6}
+    sys.path.insert(0, str(here))
+    spec = importlib.util.spec_from_file_location("w137_lock", here / "the_joint_yukawas.py")
+    W = importlib.util.module_from_spec(spec)
+    with contextlib.redirect_stdout(io.StringIO()):
+        spec.loader.exec_module(W)
+    assert [W.C(w) for w in (0, 2, 4, 6, 8, 10, 12)] == [0, 2, 3, 6, 6, 9, 10]
+    assert (W.C(30), W.C(36)) == (26, 30)
+    assert all(W.C(3 * k - 1) == 0 for k in range(-12, 15, 2))
+    y0, ok0 = W.Y0()
+    assert ok0
+

@@ -1,5 +1,17 @@
 # Changelog
 
+## W137 recorded, every cell as predicted: the minimal joint frame is excluded (D ≡ 1 against 10.58), its free numbers saturate the quark data at its least weight, and θ̄ is fixed only where J vanishes (relay §229)
+
+- **The two pictures.** With the generations as the surface's sections there is no tree-level coupling. With one
+  four-dimensional triplet the least coupling weight is 6, not 2, with six constants. Supergravity with one modulus
+  allows none.
+- **The minimal Clebsch** forces M_e = M_d, so D ≡ 1, 87σ from P-094: excluded, with no fit. It is the
+  twenty-fourth test in the count.
+- **The free numbers.** At weight 6 the quark Jacobian has rank 10, with and without CP. θ̄ ∈ {0, π} only on the CP
+  line, where J = 0.
+- **Surfaces.** NOTE (section and row), the lock test, relay §229, row 317, the state page, the two trial-count
+  pages. 0 of 19.
+
 ## The W137 rule, committed and pushed before its script: the joint frame's Yukawas; main's S195 and the web seat's cube-count relay read (relays §227, §228)
 
 - **W137's rule** (the owner approved the step). It covers the coupling in both pictures of the generations, the
