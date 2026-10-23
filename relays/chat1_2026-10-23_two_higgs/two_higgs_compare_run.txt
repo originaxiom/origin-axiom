@@ -1,0 +1,30 @@
+H1 best off-diagonal six < best diagonal six: True
+H2 best off-diagonal nine < best diagonal nine: False
+H3 six specific on the off-diagonal rows (<= 1%): True
+H4 nine specific on the off-diagonal rows (<= 1%): True
+H5 some off-diagonal row with chi2_six below 16.75: True
+H6 some off-diagonal row with chi2_nine below 21.67: False
+H7 at the off-diagonal best six-row the nine is within 2.5: False
+H8 |J| within a factor 3 of 3.08e-5 at the off-diagonal best nine-row: False
+C1 holds: True
+C2 holds: True
+best pairs: off-diagonal six 1.099, nine 2.320; diagonal six 1.466, nine 2.010
+off-diagonal: six 1.099 at {'model': 'F_6 | F_22', 'tau': [0.5625, 2.6], 'line': '(2/5, 1/10)', 'hor': 'L_2'} (nine there 5.350; D 9.000); alignment {'up heaviest': {'QJ': 0.4975, 'QI': 0.0049, 'QK': 0.4975}, 'down heaviest': {'QJ': 0.4991, 'QI': 0.0023, 'QK': 0.4987}, 'same block above 1/2': False}
+off-diagonal: nine 2.320 at {'model': 'F_6 | F_22', 'tau': [0.0625, 2.7], 'line': '(2/5, 7/10)', 'hor': 'L_2'} (J -9.88e-07); alignment {'up heaviest': {'QJ': 0.498, 'QI': 0.004, 'QK': 0.498}, 'down heaviest': {'QJ': 0.499, 'QI': 0.0019, 'QK': 0.499}, 'same block above 1/2': False}
+off-diagonal: random as good six 0.0000 (0.0000-0.0000), nine 0.0057 (0.0032-0.0080)
+off-diagonal: min chi2_six 1.2 at {'model': 'F_6 | F_22', 'tau': [0.5625, 2.6], 'line': '(2/5, 1/10)', 'hor': 'L_2'}; min chi2_nine 154.1 at {'model': 'F_6 | F_22', 'tau': [0.0625, 2.6], 'line': '(2/5, 7/10)', 'hor': 'L_2'}
+off-diagonal model over measured at the best six-row: [1.01, 0.91, 0.983, 0.938, 0.938, 1.052, 0.187, 0.554, 0.392]
+off-diagonal model over measured at the best nine-row: [0.511, 2.32, 0.796, 0.635, 0.759, 0.712, 0.491, 0.486, 0.456]
+controls: C1 [0.0, 0.0]; C2 2.51e-14
+read-out diagonal rows: six 1.466, nine 2.010; random as good 0.0014, 0.0013; min chi2_six 33.8
+read-out reference: DR split (up S~): six 1.203 at {'model': 'dR split (up S~)', 'tau': [0.3125, 3.0], 'line': '(2/5, 1/10)', 'hor': 'L_max'}; nine 23.505; min chi2_six 6.1; random as good 0.0000, 0.1618
+read-out reference: DR S~ in every sector: six 1.522 at {'model': 'dR S~ in every sector', 'tau': [0.5625, 2.7], 'line': '(2/5, 1/10)', 'hor': 'L_2'}; nine 1.938; min chi2_six 32.9; random as good 0.0028, 0.0011
+read-out pair F_6 | F_6: six 1.466, nine 2.229, min chi2_six 35.1, nine at its best six-row 2.491
+read-out pair F_6 | F_-2: six 24.975, nine 24.975, min chi2_six 2259.4, nine at its best six-row 24.975
+read-out pair F_6 | F_22: six 1.099, nine 2.320, min chi2_six 1.2, nine at its best six-row 5.350
+read-out pair F_-2 | F_6: six 166.735, nine 166.735, min chi2_six 2608.2, nine at its best six-row 166.735
+read-out pair F_-2 | F_-2: six 166.735, nine 166.735, min chi2_six 4908.3, nine at its best six-row 166.735
+read-out pair F_-2 | F_22: six 166.735, nine 166.735, min chi2_six 2666.6, nine at its best six-row 166.735
+read-out pair F_22 | F_6: six 3.072, nine 3.072, min chi2_six 224.4, nine at its best six-row 3.072
+read-out pair F_22 | F_-2: six 26.019, nine 26.019, min chi2_six 2131.2, nine at its best six-row 26.019
+read-out pair F_22 | F_22: six 1.571, nine 2.010, min chi2_six 33.8, nine at its best six-row 2.803

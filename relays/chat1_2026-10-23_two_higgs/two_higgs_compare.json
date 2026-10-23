@@ -1,0 +1,1337 @@
+{
+ "cells": {
+  "H1 best off-diagonal six < best diagonal six": true,
+  "H2 best off-diagonal nine < best diagonal nine": false,
+  "H3 six specific on the off-diagonal rows (<= 1%)": true,
+  "H4 nine specific on the off-diagonal rows (<= 1%)": true,
+  "H5 some off-diagonal row with chi2_six below 16.75": true,
+  "H6 some off-diagonal row with chi2_nine below 21.67": false,
+  "H7 at the off-diagonal best six-row the nine is within 2.5": false,
+  "H8 |J| within a factor 3 of 3.08e-5 at the off-diagonal best nine-row": false,
+  "C1 holds": true,
+  "C2 holds": true
+ },
+ "the best pairs (six, nine)": {
+  "off-diagonal": [
+   1.0985198890573848,
+   2.3203049816727654
+  ],
+  "diagonal": [
+   1.4658539508461745,
+   2.0100292021615966
+  ]
+ },
+ "off-diagonal rows": {
+  "rows": 15360,
+  "six": 1.0985198890573848,
+  "six at": {
+   "model": "F_6 | F_22",
+   "tau": [
+    0.5625,
+    2.6
+   ],
+   "line": "(2/5, 1/10)",
+   "hor": "L_2"
+  },
+  "nine at the best six-row": 5.349718226570129,
+  "D at the best six-row": 9.000000000000002,
+  "J at the best six-row": -1.0847177236428251e-06,
+  "six: model over measured": [
+   1.01,
+   0.91,
+   0.983,
+   0.938,
+   0.938,
+   1.052,
+   0.187,
+   0.554,
+   0.392
+  ],
+  "alignment at the best six-row": {
+   "up heaviest": {
+    "QJ": 0.4975,
+    "QI": 0.0049,
+    "QK": 0.4975
+   },
+   "down heaviest": {
+    "QJ": 0.4991,
+    "QI": 0.0023,
+    "QK": 0.4987
+   },
+   "same block above 1/2": false
+  },
+  "nine": 2.3203049816727654,
+  "nine at": {
+   "model": "F_6 | F_22",
+   "tau": [
+    0.0625,
+    2.7
+   ],
+   "line": "(2/5, 7/10)",
+   "hor": "L_2"
+  },
+  "J at the best nine-row": -9.880894822344999e-07,
+  "nine: model over measured": [
+   0.511,
+   2.32,
+   0.796,
+   0.635,
+   0.759,
+   0.712,
+   0.491,
+   0.486,
+   0.456
+  ],
+  "alignment at the best nine-row": {
+   "up heaviest": {
+    "QJ": 0.498,
+    "QI": 0.004,
+    "QK": 0.498
+   },
+   "down heaviest": {
+    "QJ": 0.499,
+    "QI": 0.0019,
+    "QK": 0.499
+   },
+   "same block above 1/2": false
+  },
+  "min chi2_six": 1.188375385172433,
+  "min chi2_six at": {
+   "model": "F_6 | F_22",
+   "tau": [
+    0.5625,
+    2.6
+   ],
+   "line": "(2/5, 1/10)",
+   "hor": "L_2"
+  },
+  "min chi2_nine": 154.13643698867313,
+  "min chi2_nine at": {
+   "model": "F_6 | F_22",
+   "tau": [
+    0.0625,
+    2.6
+   ],
+   "line": "(2/5, 7/10)",
+   "hor": "L_2"
+  }
+ },
+ "off-diagonal rows: random as good (20 seeds)": {
+  "six": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "nine": [
+   0.00575,
+   0.00325,
+   0.0055,
+   0.005,
+   0.006,
+   0.0055,
+   0.0055,
+   0.005,
+   0.007,
+   0.00425,
+   0.0045,
+   0.00525,
+   0.007,
+   0.00525,
+   0.00775,
+   0.00475,
+   0.006,
+   0.00475,
+   0.008,
+   0.00775
+  ],
+  "six mean": 0.0,
+  "nine mean": 0.005687500000000001
+ },
+ "diagonal rows": {
+  "rows": 7680,
+  "six": 1.4658539508461745,
+  "six at": {
+   "model": "F_6 | F_6",
+   "tau": [
+    0.4375,
+    2.4
+   ],
+   "line": "(2/5, 4/5)",
+   "hor": "L_2"
+  },
+  "nine at the best six-row": 2.4906154290516387,
+  "D at the best six-row": 8.999999999999996,
+  "J at the best six-row": 2.0152381807747588e-07,
+  "six: model over measured": [
+   1.466,
+   1.274,
+   1.191,
+   0.683,
+   1.137,
+   0.767,
+   0.402,
+   0.791,
+   0.897
+  ],
+  "alignment at the best six-row": {
+   "up heaviest": {
+    "QJ": 0.4965,
+    "QI": 0.007,
+    "QK": 0.4965
+   },
+   "down heaviest": {
+    "QJ": 0.4988,
+    "QI": 0.0025,
+    "QK": 0.4987
+   },
+   "same block above 1/2": false
+  },
+  "nine": 2.0100292021615966,
+  "nine at": {
+   "model": "F_22 | F_22",
+   "tau": [
+    0.8125,
+    2.7
+   ],
+   "line": "(2/5, 1/5)",
+   "hor": "L_max"
+  },
+  "J at the best nine-row": 2.463280225128983e-06,
+  "nine: model over measured": [
+   1.852,
+   1.742,
+   1.002,
+   0.568,
+   0.956,
+   0.637,
+   0.498,
+   0.945,
+   1.204
+  ],
+  "alignment at the best nine-row": {
+   "up heaviest": {
+    "QJ": 0.4966,
+    "QI": 0.0069,
+    "QK": 0.4965
+   },
+   "down heaviest": {
+    "QJ": 0.4989,
+    "QI": 0.0019,
+    "QK": 0.4992
+   },
+   "same block above 1/2": false
+  },
+  "min chi2_six": 33.809366033852065,
+  "min chi2_six at": {
+   "model": "F_22 | F_22",
+   "tau": [
+    0.4375,
+    2.7
+   ],
+   "line": "(2/5, 4/5)",
+   "hor": "L_2"
+  },
+  "min chi2_nine": 124.70433571430378,
+  "min chi2_nine at": {
+   "model": "F_6 | F_6",
+   "tau": [
+    0.4375,
+    2.4
+   ],
+   "line": "(2/5, 4/5)",
+   "hor": "L_2"
+  }
+ },
+ "controls": {
+  "C1 point": [
+   "(2/5, 0)",
+   0.0625,
+   2.0
+  ],
+  "C1 max |delta ln| (ratios, |V|)": [
+   0.0,
+   0.0
+  ],
+  "C1 holds": true,
+  "C2 max |delta ln| against TC.ratios_at": 2.5091040356528222e-14,
+  "C2 holds": true
+ },
+ "read-outs": {
+  "per pair": {
+   "F_6 | F_6": {
+    "rows": 2560,
+    "six": 1.4658539508461745,
+    "six at": {
+     "model": "F_6 | F_6",
+     "tau": [
+      0.4375,
+      2.4
+     ],
+     "line": "(2/5, 4/5)",
+     "hor": "L_2"
+    },
+    "nine at the best six-row": 2.4906154290516387,
+    "D at the best six-row": 8.999999999999996,
+    "J at the best six-row": 2.0152381807747588e-07,
+    "six: model over measured": [
+     1.466,
+     1.274,
+     1.191,
+     0.683,
+     1.137,
+     0.767,
+     0.402,
+     0.791,
+     0.897
+    ],
+    "alignment at the best six-row": {
+     "up heaviest": {
+      "QJ": 0.4965,
+      "QI": 0.007,
+      "QK": 0.4965
+     },
+     "down heaviest": {
+      "QJ": 0.4988,
+      "QI": 0.0025,
+      "QK": 0.4987
+     },
+     "same block above 1/2": false
+    },
+    "nine": 2.2285822112591607,
+    "nine at": {
+     "model": "F_6 | F_6",
+     "tau": [
+      0.3125,
+      2.5
+     ],
+     "line": "(2/5, 1/10)",
+     "hor": "L_2"
+    },
+    "J at the best nine-row": -4.215147555441945e-07,
+    "nine: model over measured": [
+     0.866,
+     2.027,
+     0.783,
+     0.476,
+     0.747,
+     0.531,
+     0.449,
+     0.479,
+     0.634
+    ],
+    "alignment at the best nine-row": {
+     "up heaviest": {
+      "QJ": 0.497,
+      "QI": 0.0059,
+      "QK": 0.497
+     },
+     "down heaviest": {
+      "QJ": 0.4984,
+      "QI": 0.0034,
+      "QK": 0.4982
+     },
+     "same block above 1/2": false
+    },
+    "min chi2_six": 35.06429488222934,
+    "min chi2_six at": {
+     "model": "F_6 | F_6",
+     "tau": [
+      0.4375,
+      2.4
+     ],
+     "line": "(2/5, 4/5)",
+     "hor": "L_2"
+    },
+    "min chi2_nine": 124.70433571430378,
+    "min chi2_nine at": {
+     "model": "F_6 | F_6",
+     "tau": [
+      0.4375,
+      2.4
+     ],
+     "line": "(2/5, 4/5)",
+     "hor": "L_2"
+    }
+   },
+   "F_6 | F_-2": {
+    "rows": 2560,
+    "six": 24.97512094745226,
+    "six at": {
+     "model": "F_6 | F_-2",
+     "tau": [
+      0.1875,
+      2.1
+     ],
+     "line": "(2/5, 1/5)",
+     "hor": "L_2"
+    },
+    "nine at the best six-row": 24.97512094745226,
+    "D at the best six-row": 9.000000000000004,
+    "J at the best six-row": 9.246296394849196e-05,
+    "six: model over measured": [
+     4.538,
+     24.334,
+     24.975,
+     19.242,
+     23.83,
+     21.585,
+     0.227,
+     6.971,
+     5.134
+    ],
+    "alignment at the best six-row": {
+     "up heaviest": {
+      "QJ": 0.4939,
+      "QI": 0.0117,
+      "QK": 0.4945
+     },
+     "down heaviest": {
+      "QJ": 0.4617,
+      "QI": 0.075,
+      "QK": 0.4633
+     },
+     "same block above 1/2": false
+    },
+    "nine": 24.97512094745226,
+    "nine at": {
+     "model": "F_6 | F_-2",
+     "tau": [
+      0.1875,
+      2.1
+     ],
+     "line": "(2/5, 1/5)",
+     "hor": "L_2"
+    },
+    "J at the best nine-row": 9.246296394849196e-05,
+    "nine: model over measured": [
+     4.538,
+     24.334,
+     24.975,
+     19.242,
+     23.83,
+     21.585,
+     0.227,
+     6.971,
+     5.134
+    ],
+    "alignment at the best nine-row": {
+     "up heaviest": {
+      "QJ": 0.4939,
+      "QI": 0.0117,
+      "QK": 0.4945
+     },
+     "down heaviest": {
+      "QJ": 0.4617,
+      "QI": 0.075,
+      "QK": 0.4633
+     },
+     "same block above 1/2": false
+    },
+    "min chi2_six": 2259.3672132772926,
+    "min chi2_six at": {
+     "model": "F_6 | F_-2",
+     "tau": [
+      0.6875,
+      3.0
+     ],
+     "line": "(2/5, 7/10)",
+     "hor": "L_2"
+    },
+    "min chi2_nine": 2679.5940224461992,
+    "min chi2_nine at": {
+     "model": "F_6 | F_-2",
+     "tau": [
+      0.6875,
+      3.1
+     ],
+     "line": "(2/5, 7/10)",
+     "hor": "L_2"
+    }
+   },
+   "F_6 | F_22": {
+    "rows": 2560,
+    "six": 1.0985198890573848,
+    "six at": {
+     "model": "F_6 | F_22",
+     "tau": [
+      0.5625,
+      2.6
+     ],
+     "line": "(2/5, 1/10)",
+     "hor": "L_2"
+    },
+    "nine at the best six-row": 5.349718226570129,
+    "D at the best six-row": 9.000000000000002,
+    "J at the best six-row": -1.0847177236428251e-06,
+    "six: model over measured": [
+     1.01,
+     0.91,
+     0.983,
+     0.938,
+     0.938,
+     1.052,
+     0.187,
+     0.554,
+     0.392
+    ],
+    "alignment at the best six-row": {
+     "up heaviest": {
+      "QJ": 0.4975,
+      "QI": 0.0049,
+      "QK": 0.4975
+     },
+     "down heaviest": {
+      "QJ": 0.4991,
+      "QI": 0.0023,
+      "QK": 0.4987
+     },
+     "same block above 1/2": false
+    },
+    "nine": 2.3203049816727654,
+    "nine at": {
+     "model": "F_6 | F_22",
+     "tau": [
+      0.0625,
+      2.7
+     ],
+     "line": "(2/5, 7/10)",
+     "hor": "L_2"
+    },
+    "J at the best nine-row": -9.880894822344999e-07,
+    "nine: model over measured": [
+     0.511,
+     2.32,
+     0.796,
+     0.635,
+     0.759,
+     0.712,
+     0.491,
+     0.486,
+     0.456
+    ],
+    "alignment at the best nine-row": {
+     "up heaviest": {
+      "QJ": 0.498,
+      "QI": 0.004,
+      "QK": 0.498
+     },
+     "down heaviest": {
+      "QJ": 0.499,
+      "QI": 0.0019,
+      "QK": 0.499
+     },
+     "same block above 1/2": false
+    },
+    "min chi2_six": 1.188375385172433,
+    "min chi2_six at": {
+     "model": "F_6 | F_22",
+     "tau": [
+      0.5625,
+      2.6
+     ],
+     "line": "(2/5, 1/10)",
+     "hor": "L_2"
+    },
+    "min chi2_nine": 154.13643698867313,
+    "min chi2_nine at": {
+     "model": "F_6 | F_22",
+     "tau": [
+      0.0625,
+      2.6
+     ],
+     "line": "(2/5, 7/10)",
+     "hor": "L_2"
+    }
+   },
+   "F_-2 | F_6": {
+    "rows": 2560,
+    "six": 166.7348784494702,
+    "six at": {
+     "model": "F_-2 | F_6",
+     "tau": [
+      0.9375,
+      2.0
+     ],
+     "line": "(2/5, 1/10)",
+     "hor": "L_max"
+    },
+    "nine at the best six-row": 166.7348784494702,
+    "D at the best six-row": 8.386857899434078,
+    "J at the best six-row": -4.5337260416999925e-06,
+    "six: model over measured": [
+     166.735,
+     113.467,
+     3.974,
+     2.294,
+     3.778,
+     2.751,
+     1.038,
+     16.907,
+     10.735
+    ],
+    "alignment at the best six-row": {
+     "up heaviest": {
+      "QJ": 0.4028,
+      "QI": 0.4801,
+      "QK": 0.1171
+     },
+     "down heaviest": {
+      "QJ": 0.5009,
+      "QI": 0.0006,
+      "QK": 0.4985
+     },
+     "same block above 1/2": false
+    },
+    "nine": 166.7348784494702,
+    "nine at": {
+     "model": "F_-2 | F_6",
+     "tau": [
+      0.9375,
+      2.0
+     ],
+     "line": "(2/5, 1/10)",
+     "hor": "L_max"
+    },
+    "J at the best nine-row": -4.5337260416999925e-06,
+    "nine: model over measured": [
+     166.735,
+     113.467,
+     3.974,
+     2.294,
+     3.778,
+     2.751,
+     1.038,
+     16.907,
+     10.735
+    ],
+    "alignment at the best nine-row": {
+     "up heaviest": {
+      "QJ": 0.4028,
+      "QI": 0.4801,
+      "QK": 0.1171
+     },
+     "down heaviest": {
+      "QJ": 0.5009,
+      "QI": 0.0006,
+      "QK": 0.4985
+     },
+     "same block above 1/2": false
+    },
+    "min chi2_six": 2608.174191857857,
+    "min chi2_six at": {
+     "model": "F_-2 | F_6",
+     "tau": [
+      0.4375,
+      2.2
+     ],
+     "line": "(2/5, 7/10)",
+     "hor": "L_2"
+    },
+    "min chi2_nine": 3365.639712021947,
+    "min chi2_nine at": {
+     "model": "F_-2 | F_6",
+     "tau": [
+      0.0625,
+      2.2
+     ],
+     "line": "(2/5, 1/10)",
+     "hor": "L_2"
+    }
+   },
+   "F_-2 | F_-2": {
+    "rows": 2560,
+    "six": 166.7348784494702,
+    "six at": {
+     "model": "F_-2 | F_-2",
+     "tau": [
+      0.9375,
+      2.0
+     ],
+     "line": "(2/5, 1/10)",
+     "hor": "L_max"
+    },
+    "nine at the best six-row": 166.7348784494702,
+    "D at the best six-row": 7.978851868086819,
+    "J at the best six-row": -5.1788578275591135e-05,
+    "six: model over measured": [
+     166.735,
+     113.467,
+     31.061,
+     83.546,
+     23.897,
+     85.236,
+     0.84,
+     15.111,
+     19.429
+    ],
+    "alignment at the best six-row": {
+     "up heaviest": {
+      "QJ": 0.4028,
+      "QI": 0.4801,
+      "QK": 0.1171
+     },
+     "down heaviest": {
+      "QJ": 0.4869,
+      "QI": 0.0159,
+      "QK": 0.4972
+     },
+     "same block above 1/2": false
+    },
+    "nine": 166.7348784494702,
+    "nine at": {
+     "model": "F_-2 | F_-2",
+     "tau": [
+      0.9375,
+      2.0
+     ],
+     "line": "(2/5, 1/10)",
+     "hor": "L_max"
+    },
+    "J at the best nine-row": -5.1788578275591135e-05,
+    "nine: model over measured": [
+     166.735,
+     113.467,
+     31.061,
+     83.546,
+     23.897,
+     85.236,
+     0.84,
+     15.111,
+     19.429
+    ],
+    "alignment at the best nine-row": {
+     "up heaviest": {
+      "QJ": 0.4028,
+      "QI": 0.4801,
+      "QK": 0.1171
+     },
+     "down heaviest": {
+      "QJ": 0.4869,
+      "QI": 0.0159,
+      "QK": 0.4972
+     },
+     "same block above 1/2": false
+    },
+    "min chi2_six": 4908.346384118612,
+    "min chi2_six at": {
+     "model": "F_-2 | F_-2",
+     "tau": [
+      0.8125,
+      3.5
+     ],
+     "line": "(2/5, 1/5)",
+     "hor": "L_2"
+    },
+    "min chi2_nine": 6291.567017780482,
+    "min chi2_nine at": {
+     "model": "F_-2 | F_-2",
+     "tau": [
+      0.5625,
+      2.0
+     ],
+     "line": "(2/5, 7/10)",
+     "hor": "L_2"
+    }
+   },
+   "F_-2 | F_22": {
+    "rows": 2560,
+    "six": 166.7348784494702,
+    "six at": {
+     "model": "F_-2 | F_22",
+     "tau": [
+      0.9375,
+      2.0
+     ],
+     "line": "(2/5, 1/10)",
+     "hor": "L_max"
+    },
+    "nine at the best six-row": 166.7348784494702,
+    "D at the best six-row": 9.000000000000004,
+    "J at the best six-row": 8.150622306857258e-05,
+    "six: model over measured": [
+     166.735,
+     113.467,
+     5.283,
+     4.825,
+     5.04,
+     5.413,
+     0.769,
+     17.114,
+     9.11
+    ],
+    "alignment at the best six-row": {
+     "up heaviest": {
+      "QJ": 0.4028,
+      "QI": 0.4801,
+      "QK": 0.1171
+     },
+     "down heaviest": {
+      "QJ": 0.504,
+      "QI": 0.0001,
+      "QK": 0.4959
+     },
+     "same block above 1/2": false
+    },
+    "nine": 166.7348784494702,
+    "nine at": {
+     "model": "F_-2 | F_22",
+     "tau": [
+      0.9375,
+      2.0
+     ],
+     "line": "(2/5, 1/10)",
+     "hor": "L_max"
+    },
+    "J at the best nine-row": 8.150622306857258e-05,
+    "nine: model over measured": [
+     166.735,
+     113.467,
+     5.283,
+     4.825,
+     5.04,
+     5.413,
+     0.769,
+     17.114,
+     9.11
+    ],
+    "alignment at the best nine-row": {
+     "up heaviest": {
+      "QJ": 0.4028,
+      "QI": 0.4801,
+      "QK": 0.1171
+     },
+     "down heaviest": {
+      "QJ": 0.504,
+      "QI": 0.0001,
+      "QK": 0.4959
+     },
+     "same block above 1/2": false
+    },
+    "min chi2_six": 2666.5670315900898,
+    "min chi2_six at": {
+     "model": "F_-2 | F_22",
+     "tau": [
+      0.5625,
+      2.4
+     ],
+     "line": "(2/5, 7/10)",
+     "hor": "L_2"
+    },
+    "min chi2_nine": 3499.973939548552,
+    "min chi2_nine at": {
+     "model": "F_-2 | F_22",
+     "tau": [
+      0.0625,
+      2.6
+     ],
+     "line": "(2/5, 1/10)",
+     "hor": "L_max"
+    }
+   },
+   "F_22 | F_6": {
+    "rows": 2560,
+    "six": 3.0724498710939514,
+    "six at": {
+     "model": "F_22 | F_6",
+     "tau": [
+      0.4375,
+      2.6
+     ],
+     "line": "(2/5, 1/10)",
+     "hor": "L_2"
+    },
+    "nine at the best six-row": 3.0724498710939514,
+    "D at the best six-row": 9.01768322115427,
+    "J at the best six-row": -1.3151662869859138e-07,
+    "six: model over measured": [
+     1.934,
+     2.93,
+     0.743,
+     0.325,
+     0.709,
+     0.364,
+     0.516,
+     0.489,
+     0.702
+    ],
+    "alignment at the best six-row": {
+     "up heaviest": {
+      "QJ": 0.4976,
+      "QI": 0.0049,
+      "QK": 0.4975
+     },
+     "down heaviest": {
+      "QJ": 0.4988,
+      "QI": 0.0026,
+      "QK": 0.4986
+     },
+     "same block above 1/2": false
+    },
+    "nine": 3.0724498710939514,
+    "nine at": {
+     "model": "F_22 | F_6",
+     "tau": [
+      0.4375,
+      2.6
+     ],
+     "line": "(2/5, 1/10)",
+     "hor": "L_2"
+    },
+    "J at the best nine-row": -1.3151662869859138e-07,
+    "nine: model over measured": [
+     1.934,
+     2.93,
+     0.743,
+     0.325,
+     0.709,
+     0.364,
+     0.516,
+     0.489,
+     0.702
+    ],
+    "alignment at the best nine-row": {
+     "up heaviest": {
+      "QJ": 0.4976,
+      "QI": 0.0049,
+      "QK": 0.4975
+     },
+     "down heaviest": {
+      "QJ": 0.4988,
+      "QI": 0.0026,
+      "QK": 0.4986
+     },
+     "same block above 1/2": false
+    },
+    "min chi2_six": 224.40455468407418,
+    "min chi2_six at": {
+     "model": "F_22 | F_6",
+     "tau": [
+      0.4375,
+      2.5
+     ],
+     "line": "(2/5, 4/5)",
+     "hor": "L_2"
+    },
+    "min chi2_nine": 276.9542376207806,
+    "min chi2_nine at": {
+     "model": "F_22 | F_6",
+     "tau": [
+      0.4375,
+      2.5
+     ],
+     "line": "(2/5, 4/5)",
+     "hor": "L_2"
+    }
+   },
+   "F_22 | F_-2": {
+    "rows": 2560,
+    "six": 26.01942048672828,
+    "six at": {
+     "model": "F_22 | F_-2",
+     "tau": [
+      0.4375,
+      3.2
+     ],
+     "line": "(2/5, 3/10)",
+     "hor": "L_max"
+    },
+    "nine at the best six-row": 26.01942048672828,
+    "D at the best six-row": 9.145264808108829,
+    "J at the best six-row": 8.518733920936938e-06,
+    "six: model over measured": [
+     0.23,
+     2.231,
+     26.019,
+     22.518,
+     25.723,
+     25.756,
+     0.645,
+     2.509,
+     4.721
+    ],
+    "alignment at the best six-row": {
+     "up heaviest": {
+      "QJ": 0.4986,
+      "QI": 0.0028,
+      "QK": 0.4986
+     },
+     "down heaviest": {
+      "QJ": 0.4877,
+      "QI": 0.0252,
+      "QK": 0.4871
+     },
+     "same block above 1/2": false
+    },
+    "nine": 26.01942048672828,
+    "nine at": {
+     "model": "F_22 | F_-2",
+     "tau": [
+      0.4375,
+      3.2
+     ],
+     "line": "(2/5, 3/10)",
+     "hor": "L_max"
+    },
+    "J at the best nine-row": 8.518733920936938e-06,
+    "nine: model over measured": [
+     0.23,
+     2.231,
+     26.019,
+     22.518,
+     25.723,
+     25.756,
+     0.645,
+     2.509,
+     4.721
+    ],
+    "alignment at the best nine-row": {
+     "up heaviest": {
+      "QJ": 0.4986,
+      "QI": 0.0028,
+      "QK": 0.4986
+     },
+     "down heaviest": {
+      "QJ": 0.4877,
+      "QI": 0.0252,
+      "QK": 0.4871
+     },
+     "same block above 1/2": false
+    },
+    "min chi2_six": 2131.249196453731,
+    "min chi2_six at": {
+     "model": "F_22 | F_-2",
+     "tau": [
+      0.6875,
+      3.2
+     ],
+     "line": "(2/5, 7/10)",
+     "hor": "L_2"
+    },
+    "min chi2_nine": 2609.9467473693135,
+    "min chi2_nine at": {
+     "model": "F_22 | F_-2",
+     "tau": [
+      0.5625,
+      3.2
+     ],
+     "line": "(2/5, 7/10)",
+     "hor": "L_2"
+    }
+   },
+   "F_22 | F_22": {
+    "rows": 2560,
+    "six": 1.570829536139458,
+    "six at": {
+     "model": "F_22 | F_22",
+     "tau": [
+      0.4375,
+      2.7
+     ],
+     "line": "(2/5, 4/5)",
+     "hor": "L_2"
+    },
+    "nine at the best six-row": 2.802808957092713,
+    "D at the best six-row": 9.000000000000005,
+    "J at the best six-row": 1.195389387476098e-07,
+    "six: model over measured": [
+     1.571,
+     0.946,
+     0.955,
+     0.703,
+     0.911,
+     0.789,
+     0.357,
+     0.54,
+     0.628
+    ],
+    "alignment at the best six-row": {
+     "up heaviest": {
+      "QJ": 0.498,
+      "QI": 0.004,
+      "QK": 0.498
+     },
+     "down heaviest": {
+      "QJ": 0.4992,
+      "QI": 0.0016,
+      "QK": 0.4992
+     },
+     "same block above 1/2": false
+    },
+    "nine": 2.0100292021615966,
+    "nine at": {
+     "model": "F_22 | F_22",
+     "tau": [
+      0.8125,
+      2.7
+     ],
+     "line": "(2/5, 1/5)",
+     "hor": "L_max"
+    },
+    "J at the best nine-row": 2.463280225128983e-06,
+    "nine: model over measured": [
+     1.852,
+     1.742,
+     1.002,
+     0.568,
+     0.956,
+     0.637,
+     0.498,
+     0.945,
+     1.204
+    ],
+    "alignment at the best nine-row": {
+     "up heaviest": {
+      "QJ": 0.4966,
+      "QI": 0.0069,
+      "QK": 0.4965
+     },
+     "down heaviest": {
+      "QJ": 0.4989,
+      "QI": 0.0019,
+      "QK": 0.4992
+     },
+     "same block above 1/2": false
+    },
+    "min chi2_six": 33.809366033852065,
+    "min chi2_six at": {
+     "model": "F_22 | F_22",
+     "tau": [
+      0.4375,
+      2.7
+     ],
+     "line": "(2/5, 4/5)",
+     "hor": "L_2"
+    },
+    "min chi2_nine": 136.95965866622865,
+    "min chi2_nine at": {
+     "model": "F_22 | F_22",
+     "tau": [
+      0.8125,
+      2.7
+     ],
+     "line": "(2/5, 1/5)",
+     "hor": "L_max"
+    }
+   }
+  },
+  "diagonal rows: random as good (20 seeds)": {
+   "six mean": 0.0013875,
+   "nine mean": 0.0013375000000000001
+  },
+  "reference: DR split (up S~)": {
+   "rows": 2560,
+   "six": 1.2030026992343452,
+   "six at": {
+    "model": "dR split (up S~)",
+    "tau": [
+     0.3125,
+     3.0
+    ],
+    "line": "(2/5, 1/10)",
+    "hor": "L_max"
+   },
+   "nine at the best six-row": 23.84682235152363,
+   "D at the best six-row": 10.78867142530961,
+   "J at the best six-row": 0.00022148012067191303,
+   "six: model over measured": [
+    1.129,
+    0.895,
+    1.129,
+    1.203,
+    1.065,
+    1.112,
+    4.405,
+    23.847,
+    8.798
+   ],
+   "alignment at the best six-row": {
+    "up heaviest": {
+     "QJ": 0.4946,
+     "QI": 0.005,
+     "QK": 0.5004
+    },
+    "down heaviest": {
+     "QJ": 0.0054,
+     "QI": 0.9945,
+     "QK": 0.0002
+    },
+    "same block above 1/2": false
+   },
+   "nine": 23.504798844930466,
+   "nine at": {
+    "model": "dR split (up S~)",
+    "tau": [
+     0.4375,
+     2.0
+    ],
+    "line": "(2/5, 1/10)",
+    "hor": "L_2"
+   },
+   "J at the best nine-row": 0.0006542837945744395,
+   "nine: model over measured": [
+    9.987,
+    16.911,
+    3.988,
+    22.861,
+    3.577,
+    13.218,
+    1.535,
+    23.505,
+    17.996
+   ],
+   "alignment at the best nine-row": {
+    "up heaviest": {
+     "QJ": 0.4604,
+     "QI": 0.0245,
+     "QK": 0.5152
+    },
+    "down heaviest": {
+     "QJ": 0.0863,
+     "QI": 0.9101,
+     "QK": 0.0037
+    },
+    "same block above 1/2": false
+   },
+   "min chi2_six": 6.1479245154418,
+   "min chi2_six at": {
+    "model": "dR split (up S~)",
+    "tau": [
+     0.1875,
+     3.0
+    ],
+    "line": "(2/5, 1/10)",
+    "hor": "L_max"
+   },
+   "min chi2_nine": 1197.610937993016,
+   "min chi2_nine at": {
+    "model": "dR split (up S~)",
+    "tau": [
+     0.1875,
+     3.0
+    ],
+    "line": "(2/5, 1/10)",
+    "hor": "L_max"
+   },
+   "random as good, mean (six, nine)": [
+    3.7500000000000003e-05,
+    0.16178750000000003
+   ]
+  },
+  "reference: DR S~ in every sector": {
+   "rows": 2560,
+   "six": 1.522258511358011,
+   "six at": {
+    "model": "dR S~ in every sector",
+    "tau": [
+     0.5625,
+     2.7
+    ],
+    "line": "(2/5, 1/10)",
+    "hor": "L_2"
+   },
+   "nine at the best six-row": 2.111389636494749,
+   "D at the best six-row": 13.89838332053243,
+   "J at the best six-row": -1.6283944432871067e-06,
+   "six: model over measured": [
+    1.232,
+    1.079,
+    0.783,
+    0.879,
+    0.769,
+    0.657,
+    0.538,
+    0.474,
+    0.787
+   ],
+   "alignment at the best six-row": {
+    "up heaviest": {
+     "QJ": 0.4933,
+     "QI": 0.0034,
+     "QK": 0.5033
+    },
+    "down heaviest": {
+     "QJ": 0.4954,
+     "QI": 0.0023,
+     "QK": 0.5023
+    },
+    "same block above 1/2": true
+   },
+   "nine": 1.9380385312810218,
+   "nine at": {
+    "model": "dR S~ in every sector",
+    "tau": [
+     0.5625,
+     2.6
+    ],
+    "line": "(2/5, 1/10)",
+    "hor": "L_2"
+   },
+   "J at the best nine-row": -3.08836479234742e-06,
+   "nine: model over measured": [
+    1.627,
+    1.592,
+    0.918,
+    1.266,
+    0.903,
+    0.953,
+    0.584,
+    0.516,
+    1.003
+   ],
+   "alignment at the best nine-row": {
+    "up heaviest": {
+     "QJ": 0.4915,
+     "QI": 0.0042,
+     "QK": 0.5043
+    },
+    "down heaviest": {
+     "QJ": 0.4941,
+     "QI": 0.003,
+     "QK": 0.5029
+    },
+    "same block above 1/2": true
+   },
+   "min chi2_six": 32.88478495347197,
+   "min chi2_six at": {
+    "model": "dR S~ in every sector",
+    "tau": [
+     0.5625,
+     2.6
+    ],
+    "line": "(2/5, 1/10)",
+    "hor": "L_2"
+   },
+   "min chi2_nine": 104.01119694710971,
+   "min chi2_nine at": {
+    "model": "dR S~ in every sector",
+    "tau": [
+     0.5625,
+     2.6
+    ],
+    "line": "(2/5, 1/10)",
+    "hor": "L_2"
+   },
+   "random as good, mean (six, nine)": [
+    0.0028,
+    0.0011250000000000003
+   ]
+  }
+ }
+}
