@@ -1,0 +1,5 @@
+C2 written
+
+real	2m15.144s
+user	3m39.032s
+sys	0m3.592s
