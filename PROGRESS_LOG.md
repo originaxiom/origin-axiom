@@ -17856,3 +17856,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **B1744 (NEGATIVE for its question).** P-324 DONE: the Higgs at its own hypercharge twist is even, so H_u = H_d and the reading is not forced; on the α = 2/5 lines its twist is the down quarks'; as a Higgs it fails the nine (≥ 493). The four-dimensional determinant det Y = (h₀² + h·h)(w² + u·u)(h₀w + u·h) verified. The web seat's THE_NEXT_ATTACK answered (rows 1350–1351; P-358). FLOOR 358.
 - Aged relays and leads escalated by name to the decadal review (P-359); the stale-arc ratchet lowered to 77. FLOOR 359.
 - **Landing suite.** full suite 7 692 passed, 3 failed, 68 skipped (22:36, -n 8) on 045f3b113: two failures are B805's attachment locks (P-239, standing); the third, B1306's slice-D lock, found the web seat's THE_NEXT_ATTACK relay without a relay-ledger row and harvest rows 1329–1351 (main's, S200–S205) written in five columns, which the harvest checker skips (it reads eight) — the relay row added and the 23 rows rewritten in the ledger's eight columns (text only, after the suite); B1306's lock, the gates and the affected tests rerun green before the push.
+
+## 2026-10-24 — S206 THE FRAME LOCKS ON MAIN (B1745)
+
+- **B1745 (PROVED).** The web seat's seven frame locks verified on main (K1, K3, K4, K7 here). P-358 DONE. The web seat's sealed READING TEST rowed (P-360). FLOOR 360.
+- **Landing suite.** full suite 7 697 passed, 2 failed, 68 skipped (24:03, -n 8) on a6d3491a3: the two failures are B805's attachment locks (P-239, standing).

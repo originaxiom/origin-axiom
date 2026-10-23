@@ -13767,6 +13767,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1745": {
+   "slug": "the frame locks on main",
+   "motifs": [
+    "coupling",
+    "kappa",
+    "z3_generation"
+   ],
+   "refs": [
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "K5",
+    "K6",
+    "K7"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B174": {
    "slug": "gluing map landscape",
    "motifs": [

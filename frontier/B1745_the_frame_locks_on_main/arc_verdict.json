@@ -1,0 +1,28 @@
+{
+ "id": "B1745",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1736",
+  "B1742",
+  "B1743",
+  "B1744",
+  "B1691",
+  "B1740"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's coupling in B1736's closed form Y = u h^T + h u^T - (u.h) 1 + w [h]_x (h0 = 0), in rho(T)'s eigenframe f1 = n-bar, f2 = e1, f3 = n; main's channels on B1742's grid",
+  "object": "the web seat's THE_NEXT_ATTACK frame locks K1-K7: the canonical matrix, the determinant, |V_cb| = |kappa_u - kappa_d| under the null Higgs, the up channel's exact zeros on the alpha = 2/5 lines, the idealised up channel, the leptons as the down quarks, the cusp coefficients",
+  "reach": "class",
+  "hypotheses": "data-free; 192 rows of B1742's grid for K3, 90 points for K4"
+ },
+ "claim_one_line": "THE WEB SEAT'S FRAME LOCKS, ON MAIN (P-358; PROVED): all seven of THE_NEXT_ATTACK's locks hold on main's own code. K1, the canonical matrix F^dagger Y F in rho(T)'s eigenframe, exact (sympy); K3, |V_cb| = |kappa_u - kappa_d| under the null Higgs, median relative error 0.44%, largest 1.6% over 192 rows (w = +u1 in coupling()'s own order; the other sign errs by 71x, the control); K4, the up channel's u1 = 0 on order-5 and a2 = 0 on order-10 lines exactly; K7, the cusp coefficients of R (2 sqrt2, 4) and DR (4 sqrt2, 20); K2, K5, K6 in B1744, B1743, B1742. Read with it, the seat's data-free pre-scan: under the Standard Model's reading no Higgs direction gives the coarse pattern on any of 1 064 rows. 0 of 19.",
+ "weave_or_thread": "weave (a census over lines and tau)"
+}

@@ -1,0 +1,5 @@
+K1 {"F^dagger Y F - seat's matrix (simplified, max entry)": 'Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])'}
+K4 {'order 5 max |u1|/|u|': 0.0, 'order 10 max |a2|/|u|': 0.0, 'order 5 min |a2|/|u|': np.float64(0.06608416409680033), 'order 10 min |u1|/|u|': np.float64(0.06622893707991649)}
+K7 {'R at 0.3 + 3.5i': [np.float64(2.8284271252381417), np.float64(4.000000001391147)], 'R at 0.3 + 4.0i': [np.float64(2.8284271247674493), np.float64(4.00000000005629)], 'DR at 0.3 + 3.5i': [np.float64(5.6568542032488764), np.float64(19.999999873377316)], 'DR at 0.3 + 4.0i': [np.float64(5.656854247494016), np.float64(19.99999999451581)]}
+K3 w = -1 u1: |V_cb| vs |kappa_u - kappa_d| median 71.4332, max 323.6298 over 192 rows
+K3 w = +1 u1: |V_cb| vs |kappa_u - kappa_d| median 0.0044, max 0.0162 over 192 rows

@@ -1,5 +1,12 @@
 # Changelog
 
+## S206 THE WEB SEAT'S FRAME LOCKS, ON MAIN (B1745, PROVED; P-358 DONE); THE READING TEST SEALED BY THE WEB SEAT (P-360) (2026-10-24)
+
+- **B1745 (PROVED).** All seven of THE_NEXT_ATTACK's frame locks hold on main's own code: K1 the canonical matrix in ρ(T)'s eigenframe (exact, sympy); K3 ∣V_cb∣ = ∣κ_u − κ_d∣ under the null Higgs (median 0.44%, largest 1.6% over 192 rows; the opposite sign of w errs by 71×, the control — in coupling()'s own index order w = +u₁); K4 the up channel's exact zeros (u₁ on order-5 lines, a₂ on order-10); K7 the cusp coefficients of R and ∂R; K2, K5, K6 in B1744, B1743, B1742. Read with it (the seat's): under the Standard Model's reading no Higgs direction gives even the coarse pattern on any of 1 064 rows over all 266 lines; where the light generation aligns, ∣V_tb∣ is about 0.1.
+- **The web seat sealed THE READING TEST** (d58a4dbdb) and is running it: is there a row on which some Higgs direction lets the Standard Model's one-Higgs reading carry the nine below the bar? Main harvests it when it lands (P-360).
+- Rows 1352–1353 (eight cells); pin chat1 c2067c1b. FLOOR 360.
+- 0 of 19.
+
 ## S205 THE HIGGS'S OWN TWIST (B1744; P-324 DONE): EVEN, SO H_u = H_d AND THE READING IS NOT FORCED; THE FOUR-DIMENSIONAL DETERMINANT; THE WEB SEAT'S THE_NEXT_ATTACK ANSWERED (2026-10-24)
 
 - **B1744 (NEGATIVE for its question; the data-free parts PROVED).** Main's P-324, which the web seat's THE_NEXT_ATTACK step 3 (a) waited on. The record has no twisted Higgs section (B1692); the frame's own construction — the residue quaternion of B1656's pairing at the Higgs's twist ±3w — is even in the twist (to 3.6 × 10⁻¹⁵), so the up sector's Higgs and the down quarks' and leptons' coincide and the reading is not forced; on the α = 2/5 lines its twist is the down quarks' 2w. Its triplet is the theta-square triplet at the twist; the quaternion is null (B1658, W91), so its invariant is ∣R₁∣²/∣R∣², 0.064–0.15 at the band, with an e₁ admixture 0.27–0.42 (the nine's target's size, its invariant 4–9 times too large). As a Higgs (post hoc): χ²_nine 493 at best; with the scalar channel kept det Y ≡ 0.

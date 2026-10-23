@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1473** |
-| words of findings prose | **1,185,749** |
-| test lock files referenced | **888** |
-| arcs carrying an authored verdict | **1473** (100.0 %) |
+| research arcs with findings | **1474** |
+| words of findings prose | **1,186,554** |
+| test lock files referenced | **889** |
+| arcs carrying an authored verdict | **1474** (100.0 %) |
 | recorded closures | **840** (673 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1005 |
+| PROVED | 1006 |
 | NEGATIVE | 364 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1742`** (1149 words, 1 locks)  
-TWO_HIGGS VERIFIED ON MAIN (P-351): the web seat's sealed H5 reproduces on main's own B1740 instrument (unmodified, a per-sector Higgs added outside it; control against B1740's stored row 0.0): with H_u = F_6 and H_d = F_22, both read S, c = 3, at 0.5625 + 2.6i on (2/5, 1/10), L_2, the six over measured 1.0099, 0.9103, 0.9831, 0.9377, 0.9381, 1.0519, chi2_six 1.1884 (the seat's 1.19); the full grid's minima 1.1884 (six) and 154.14 (nine), the same 14 rows below 16.75; the mixing aligned but small (|V_us|, |V_cb|, |V_ub| 0.187, 0.554, 0.392 of measured); D = 9. The mechanism of D = 9: on (2/5, k/10) the lepton twists are the down twists swapped up to half-periods, so the lepton spectrum equals the down spectrum (k even: every Higgs; k odd: a Higgs with no QI component, F_22's being about 1e-13), and with c = 3 the lepton ratios are Georgi-Jarlskog's by construction of the line family: the six are four numbers, and P-094 excludes D = 9 at 14 sigma. Main's instruments are immune to the jtheta nome-root caution (W144). A READING: the pair chosen by the data, c = 3 by hand, tau fitted, the nine fail. 0 of 19.  
-`B1742_two_higgs_verified_on_main/FINDINGS.md`
+**PROVED — `B1745`** (805 words, 1 locks)  
+THE WEB SEAT'S FRAME LOCKS, ON MAIN (P-358; PROVED): all seven of THE_NEXT_ATTACK's locks hold on main's own code. K1, the canonical matrix F^dagger Y F in rho(T)'s eigenframe, exact (sympy); K3, |V_cb| = |kappa_u - kappa_d| under the null Higgs, median relative error 0.44%, largest 1.6% over 192 rows (w = +u1 in coupling()'s own order; the other sign errs by 71x, the control); K4, the up channel's u1 = 0 on order-5 and a2 = 0 on order-10 lines exactly; K7, the cusp coefficients of R (2 sqrt2, 4) and DR (4 sqrt2, 20); K2, K5, K6 in B1744, B1743, B1742. Read with it, the seat's data-free pre-scan: under the Standard Model's reading no Higgs direction gives the coarse pattern on any of 1 064 rows. 0 of 19.  
+`B1745_the_frame_locks_on_main/FINDINGS.md`
 
 **NEGATIVE — `B1744`** (1169 words, 1 locks)  
 THE HIGGS'S OWN TWIST (P-324; NEGATIVE for its question, the data-free parts PROVED): in B1656's frame the residue quaternion at the Higgs's hypercharge twist is even, T0(3w) = T0(-3w) to 3.6e-15, so the up sector's Higgs and the down quarks' and leptons' coincide (H_u = H_d) and the reading (h or its conjugate) is not forced; on the alpha = 2/5 lines the Higgs's twist is the down quarks' 2w (the same direction to 3e-16). Its triplet is the theta-square triplet at the twist; the quaternion is null (R1^2 + R.R = 0), so the triplet's invariant is |R1|^2/|R|^2, 0.064-0.15 at the band (the nine's target about 0.017), with an e1 admixture 0.27-0.42 (the target's size). As a Higgs (post hoc, B1742's grid, six variants): chi2_nine 493 at best with the triplet; with the scalar channel kept the Higgs is null in four dimensions and det Y = 0. Verified symbolically on main's closed form: det Y = (h0^2 + h.h)(w^2 + u.u)(h0 w + u.h) (the web seat's (h.h)(u.h)(u.u + w^2) at h0 = 0) and Y h = Y^T h = (h.h) u. 0 of 19.  
