@@ -106,6 +106,9 @@ data-*-batch-*/
 # the PSLQ grids B1137's aggregate lock re-derives from (a negation must follow the
 # rule it undoes, so this one lives here rather than with the other artifact rules)
 !frontier/B1137_regulator_probe/results/*.jsonl
+# B1726's sealed census (23 940 rows, written once by its sealed census.py): the sealed compare.py reads it by
+# name, so a fresh clone can re-derive the verdict only if it is tracked (the B1424 reason)
+!frontier/B1726_the_two_ingredients_replicated/verification/census.jsonl
 chronicle_raw*
 
 
