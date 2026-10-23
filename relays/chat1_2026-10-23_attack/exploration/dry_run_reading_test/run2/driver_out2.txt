@@ -1,0 +1,24 @@
+C0 written
+c0 1.8983592987060547
+rows written (171 s)
+scan 170.80787873268127
+C2 written
+c2 124.0157458782196
+cells written
+{
+ "C0a Y h = Y^T h = (h.h) u, symbolically": true,
+ "C0b Lemma A': largest relative error of |S|_F^2 = 2|u|^2 + 2|<u,h>|^2 - |u.h|^2 (20 000 draws)": 1.2366376557769936e-15,
+ "C0b Lemma A': largest |u| / m3 (must not exceed sqrt 3)": 1.2274656609388013,
+ "C0c largest |delta ln| between sm_search.nine_batch and inverse_higgs.nine (1 000 directions, 10 rows)": 9.627854069549358e-13,
+ "C0 holds": true
+}
+{'rows': 40, "degenerate rows (a sector's weights vanish)": [], 'rows with a non-finite minimum': [], 'S1 no row below 21.67': True, "S1' no row below 100": True, 'lowest chi2_nine': 1033.1858740037023, 'quantiles 1%, 5%, 50%': [1037.6982298853811, 1045.1454501073629, 1212.8116900128819], 'rows below 21.67, 100, 500': [0, 0, 0], 'every row below 100': [], 'rows where the refinement lowered the grid minimum': 40, 'S4 every optimum in a failure branch (|V_ud| < 0.5 or |V_cb| > 0.5)': True, 'S4 rows outside both branches': 0, 'S5 every optimum excluded by Lemma A or Lemma B': True, 'S5 rows: by A only, by B only, by both, by neither': [0, 18, 22, 0], "rows whose optimum's CKM share alone is above 21.67": 40, 'random directions excluded by A, by B, by either: medians over rows': [0.00025, 0.790125, 0.790125], 'random directions excluded by either: smallest fraction over rows': 0.77925, 'lowest chi2_nine among random directions neither bound excludes, over all rows': 1826.7357622809022, 'lowest chi2_nine by order': {'N=5': 1033.1858740037023, 'N=10': 1045.1659465714315}, 'C3 mirror pairs agreeing within 1%': [40, 40], 'C3 pairs below 100 that disagree': 0, 'C3 holds': False}
+Traceback (most recent call last):
+  File "<scratch>/driver.py", line 25, in <module>
+    print(json.load(open(HERE / "reading_test_c2.json"))["C2 recovered (chi2 <= 0.1 against the planted targets)"])
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'C2 recovered (chi2 <= 0.1 against the planted targets)'
+
+real	5m6.374s
+user	9m5.993s
+sys	0m8.217s

@@ -1,0 +1,7 @@
+{
+ "C0a Y h = Y^T h = (h.h) u, symbolically": true,
+ "C0b Lemma A': largest relative error of |S|_F^2 = 2|u|^2 + 2|<u,h>|^2 - |u.h|^2 (20 000 draws)": 1.2366376557769936e-15,
+ "C0b Lemma A': largest |u| / m3 (must not exceed sqrt 3)": 1.2274656609388013,
+ "C0c largest |delta ln| between sm_search.nine_batch and inverse_higgs.nine (1 000 directions, 10 rows)": 9.627854069549358e-13,
+ "C0 holds": true
+}

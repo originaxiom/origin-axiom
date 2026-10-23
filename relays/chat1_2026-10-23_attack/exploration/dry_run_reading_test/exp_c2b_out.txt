@@ -1,0 +1,25 @@
+n  0 conic |hh| 1.5e-01 planted chi2  11.59 grid   23.08 found   7.113 ok
+n  1 conic |hh| 2.1e-03 planted chi2  12.33 grid    9.95 found   7.930 ok
+n  2 conic |hh| 3.6e-03 planted chi2   9.26 grid    8.80 found   7.680 ok
+n  3 conic |hh| 2.9e-03 planted chi2  15.00 grid   10.68 found  10.037 ok
+n  4 conic |hh| 1.5e-02 planted chi2  11.62 grid   10.49 found   7.664 ok
+n  5 conic |hh| 1.4e-01 planted chi2   8.08 grid   10.37 found   1.744 ok
+n  6 conic |hh| 1.5e-01 planted chi2   3.12 grid    7.50 found   1.561 ok
+n  7 conic |hh| 2.0e-03 planted chi2   7.41 grid    6.18 found   2.325 ok
+n  8 conic |hh| 2.0e-03 planted chi2  13.59 grid   12.32 found  10.392 ok
+n  9 conic |hh| 5.7e-04 planted chi2   5.08 grid    4.72 found   1.969 ok
+n 10 conic |hh| 6.8e-04 planted chi2   7.30 grid    4.12 found   3.112 ok
+n 11 conic |hh| 3.6e-03 planted chi2   7.38 grid    6.44 found   5.655 ok
+n 12 unif  |hh| 9.4e-01 planted chi2   6.96 grid    6.82 found   3.673 ok
+n 13 unif  |hh| 2.4e-01 planted chi2   8.68 grid   12.88 found   6.024 ok
+n 14 unif  |hh| 8.6e-01 planted chi2   6.25 grid    4.54 found   3.674 ok
+n 15 unif  |hh| 8.0e-01 planted chi2  12.96 grid   13.25 found   9.748 ok
+n 16 unif  |hh| 9.2e-01 planted chi2   6.91 grid    9.26 found   4.847 ok
+n 17 unif  |hh| 7.8e-01 planted chi2  11.78 grid    9.74 found   3.333 ok
+n 18 unif  |hh| 5.4e-01 planted chi2  10.10 grid    5.62 found   5.178 ok
+n 19 unif  |hh| 3.6e-01 planted chi2   6.26 grid    8.55 found   4.339 ok
+n 20 unif  |hh| 7.1e-01 planted chi2  20.88 grid   14.03 found  12.729 ok
+n 21 unif  |hh| 6.1e-01 planted chi2   3.26 grid    5.94 found   1.853 ok
+n 22 unif  |hh| 8.5e-01 planted chi2  16.94 grid   14.99 found  10.418 ok
+n 23 unif  |hh| 9.7e-01 planted chi2   5.32 grid   10.41 found   2.368 ok
+ok 24 of 24; 2.2470995088418326 s per row

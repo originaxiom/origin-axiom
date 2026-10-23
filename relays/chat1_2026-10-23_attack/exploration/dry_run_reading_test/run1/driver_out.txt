@@ -1,0 +1,18 @@
+C0 written
+c0 0.4162905216217041
+rows written (424 s)
+scan 423.5513505935669
+C2 written
+c2 99.51920413970947
+cells written
+{
+ "C0a Y h = Y^T h = (h.h) u, symbolically": true,
+ "C0b largest |delta ln| between sm_search.nine_batch and inverse_higgs.nine (1 000 directions, 10 rows)": 9.627854069549358e-13,
+ "C0 holds": true
+}
+{'rows': 40, 'S1 no row below 21.67': True, "S1' no row below 100": True, 'lowest chi2_nine': 1033.1858740033224, 'quantiles 1%, 5%, 50%': [1037.698203850212, 1045.1446738294273, 1212.8116900128819], 'rows below 21.67, 100, 500': [0, 0, 0], 'rows where the refinement lowered the grid minimum': 40, 'S4 every optimum in a failure branch (|V_ud| < 0.5 or |V_cb| > 0.5)': True, 'S4 rows outside both branches': 0, 'S5 every optimum excluded by Lemma A (|V_ud| bound < 0.9335) or Lemma B (|V_tb| bound < 0.99772)': True, 'S5 rows: by A only, by B only, by both, by neither': [0, 18, 22, 0], "rows whose optimum's CKM share alone is above 21.67": 40, 'lowest chi2_nine by order': {'N=5': 1033.1858740033224, 'N=10': 1045.1651329502495}, 'C3 mirror pairs agreeing within 1%': [40, 40], 'C3 pairs below 100 that disagree': 0, 'C3 holds': True}
+22
+
+real	8m52.888s
+user	13m0.831s
+sys	0m7.801s
