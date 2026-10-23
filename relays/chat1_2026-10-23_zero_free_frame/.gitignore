@@ -1,2 +1,4 @@
 # the scan's resumable chunks; the combined zero_free_census.npz is committed instead
 chunks/
+# the sealed test's resumable chunks; the combined zero_free_holomorphic.npz is committed instead
+chunks_holo/
