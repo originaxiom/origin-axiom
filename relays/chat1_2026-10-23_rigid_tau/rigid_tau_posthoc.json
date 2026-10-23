@@ -1,0 +1,462 @@
+{
+ "R1 the best rows moved": {
+  "best six-row": {
+   "as stored": "LLLLLRRRR #73 line 16 (2/5, 3/5)",
+   "tau as stored": [
+    3.5,
+    2.73861278752583
+   ],
+   "direction": "F_22",
+   "horocycle": "L_2",
+   "moved by": 3,
+   "moved tau": [
+    0.5,
+    2.73861278752583
+   ],
+   "moved line": "(2/5, 4/5)",
+   "moved line is the tick's": true,
+   "six": 1.6350207242060395,
+   "nine": 2.833400412628646,
+   "J": 1.9787282570923534e-16,
+   "chi2_nine": 225.34668071151913
+  },
+  "best nine-row": {
+   "as stored": "LLLLRLRLR #76 line 33 (2/5, 4/5)",
+   "tau as stored": [
+    3.0,
+    2.6220221204253793
+   ],
+   "direction": "F_22",
+   "horocycle": "L_max",
+   "moved by": 3,
+   "moved tau": [
+    0.0,
+    2.6220221204253793
+   ],
+   "moved line": "(2/5, 0)",
+   "moved line is the tick's": false,
+   "six": 2.1724340380361347,
+   "nine": 2.25609200352769,
+   "J": -3.015437292225309e-19,
+   "chi2_nine": 261.54326592615314
+  }
+ },
+ "R2 DR, c = 3, family A": {
+  "split (up S~, down and leptons S)": {
+   "rows": 6498,
+   "six": 1.6137987527745545,
+   "nine": 22.20856809969471,
+   "six as good, mean of 20 seeds": 0.0024000000000000007,
+   "seed 1720": 0.0025,
+   "range": [
+    0.00125,
+    0.0035
+   ],
+   "nine as good, mean of 20 seeds": 0.32647499999999996,
+   "seed 1720 (nine)": 0.32575,
+   "range (nine)": [
+    0.31525,
+    0.3335
+   ],
+   "standard error of the mean (six, nine)": [
+    0.00014095538674570608,
+    0.0010313985140268747
+   ]
+  },
+  "up S or S~ pooled (down and leptons S)": {
+   "rows": 12996,
+   "six": 1.6137987527745545,
+   "nine": 4.709173298116453,
+   "six as good, mean of 20 seeds": 0.0045625000000000015,
+   "seed 1720": 0.0045,
+   "range": [
+    0.003,
+    0.00675
+   ],
+   "nine as good, mean of 20 seeds": 0.08865,
+   "seed 1720 (nine)": 0.09225,
+   "range (nine)": [
+    0.0795,
+    0.094
+   ],
+   "standard error of the mean (six, nine)": [
+    0.00025253647469748123,
+    0.0009186302732587077
+   ]
+  },
+  "S in every sector": {
+   "rows": 6498,
+   "six": 2.145686338318299,
+   "nine": 4.709173298116453,
+   "six as good, mean of 20 seeds": 0.03280000000000001,
+   "seed 1720": 0.03525,
+   "range": [
+    0.027,
+    0.03725
+   ],
+   "nine as good, mean of 20 seeds": 0.0886125,
+   "seed 1720 (nine)": 0.09225,
+   "range (nine)": [
+    0.0795,
+    0.09375
+   ],
+   "standard error of the mean (six, nine)": [
+    0.0005774262313331278,
+    0.000918643701333656
+   ]
+  },
+  "S~ in every sector (THREADS_WITH_INGREDIENTS's model)": {
+   "rows": 6498,
+   "six": 3.2157160751087925,
+   "nine": 3.5108357091978113,
+   "six as good, mean of 20 seeds": 0.25644999999999996,
+   "seed 1720": 0.266,
+   "range": [
+    0.24275,
+    0.266
+   ],
+   "nine as good, mean of 20 seeds": 0.047400000000000005,
+   "seed 1720 (nine)": 0.051,
+   "range (nine)": [
+    0.042,
+    0.05475
+   ],
+   "standard error of the mean (six, nine)": [
+    0.0015105549694696561,
+    0.0007697829495862352
+   ]
+  }
+ },
+ "R3 the menu's specificity": {
+  "sealed (menu, S, c = 3), recomputed": {
+   "rows": 19494,
+   "six": 1.6350207242060395,
+   "nine": 2.25609200352769,
+   "six as good, mean of 20 seeds": 0.006937500000000001,
+   "seed 1720": 0.00825,
+   "range": [
+    0.004,
+    0.00925
+   ],
+   "nine as good, mean of 20 seeds": 0.003875000000000001,
+   "seed 1720 (nine)": 0.00325,
+   "range (nine)": [
+    0.00175,
+    0.0055
+   ],
+   "standard error of the mean (six, nine)": [
+    0.0003125,
+    0.00021726469425201381
+   ]
+  },
+  "menu, S, c = 1": {
+   "rows": 19494,
+   "six": 2.2199893106799915,
+   "nine": 2.80236266066015,
+   "six as good, mean of 20 seeds": 0.08887500000000001,
+   "seed 1720": 0.08775,
+   "range": [
+    0.07975,
+    0.10125
+   ],
+   "nine as good, mean of 20 seeds": 0.026350000000000002,
+   "seed 1720 (nine)": 0.0295,
+   "range (nine)": [
+    0.02225,
+    0.0295
+   ],
+   "standard error of the mean (six, nine)": [
+    0.0011718322360618368,
+    0.0005260953485723606
+   ]
+  },
+  "menu, S and S~ rows, c = 3": {
+   "rows": 38988,
+   "six": 1.6350207242060395,
+   "nine": 2.25609200352769,
+   "six as good, mean of 20 seeds": 0.011850000000000001,
+   "seed 1720": 0.01375,
+   "range": [
+    0.00825,
+    0.01525
+   ],
+   "nine as good, mean of 20 seeds": 0.005800000000000001,
+   "seed 1720 (nine)": 0.00425,
+   "range (nine)": [
+    0.004,
+    0.008
+   ],
+   "standard error of the mean (six, nine)": [
+    0.0004220096032830981,
+    0.0002687691241665663
+   ]
+  },
+  "menu and DR (split) rows, c = 3": {
+   "rows": 25992,
+   "six": 1.6137987527745545,
+   "nine": 2.25609200352769,
+   "six as good, mean of 20 seeds": 0.008187500000000002,
+   "seed 1720": 0.009,
+   "range": [
+    0.00575,
+    0.01075
+   ],
+   "nine as good, mean of 20 seeds": 0.003875000000000001,
+   "seed 1720 (nine)": 0.00325,
+   "range (nine)": [
+    0.00175,
+    0.0055
+   ],
+   "standard error of the mean (six, nine)": [
+    0.00029960225826567913,
+    0.00021726469425201381
+   ]
+  },
+  "F_22 alone, S, c = 3": {
+   "rows": 6498,
+   "six": 1.6350207242060395,
+   "nine": 2.25609200352769,
+   "six as good, mean of 20 seeds": 0.0032875,
+   "seed 1720": 0.00275,
+   "range": [
+    0.001,
+    0.005
+   ],
+   "nine as good, mean of 20 seeds": 0.0019125000000000004,
+   "seed 1720 (nine)": 0.001,
+   "range (nine)": [
+    0.00075,
+    0.003
+   ],
+   "standard error of the mean (six, nine)": [
+    0.0002296128033749081,
+    0.00014653340736393256
+   ]
+  }
+ },
+ "R4 CP": {
+  "self-conjugate family-A points": 843,
+  "of": 3249,
+  "max |J| there (menu, S, c = 3)": 1.672799919416601e-12,
+  "best six-row and best nine-row self-conjugate": [
+   true,
+   true
+  ],
+  "menu rows with nine <= 5": 83,
+  "max |J| among them": 1.4374084003065946e-06,
+  "median |J| over the other points (F_22, S, c = 3)": 0.00022808374342275783
+ },
+ "R5 both bars": {
+  "rows with six <= 2.0": 2,
+  "rows with nine <= 2.5": 4,
+  "rows with both": 0,
+  "six at the best nine-row": 2.1724340380361347,
+  "nine at the best six-row": 2.833400412628646,
+  "which rows have six <= 2.0": [
+   "LLLLLRRRR #73 line 16 (2/5, 3/5) F_22 L_2",
+   "LLLLRRRRR #81 line 16 (2/5, 3/5) F_22 L_2"
+  ],
+  "which rows have nine <= 2.5": [
+   "LLLRLLR #25 line 12 (2/5, 0) F_6 L_2",
+   "LRRLRRR #37 line 12 (2/5, 0) F_6 L_2",
+   "LLLLRLRLR #76 line 33 (2/5, 4/5) F_22 L_max",
+   "LRLRLRRRR #115 line 33 (2/5, 4/5) F_22 L_max"
+  ],
+  "chi2_nine at the best nine-row": 261.54326592615314,
+  "min chi2_nine": 145.6967081119467
+ },
+ "R6 TICK_LINE_HIGGS's grid points beside the moved best six-row (F_22, S, c = 3)": [
+  {
+   "tau": [
+    0.475,
+    2.725
+   ],
+   "hor": "L_max",
+   "six": 2.30721774274714
+  },
+  {
+   "tau": [
+    0.475,
+    2.725
+   ],
+   "hor": "L_2",
+   "six": 1.5563971467001325
+  },
+  {
+   "tau": [
+    0.525,
+    2.725
+   ],
+   "hor": "L_max",
+   "six": 2.30721774274714
+  },
+  {
+   "tau": [
+    0.525,
+    2.725
+   ],
+   "hor": "L_2",
+   "six": 1.5563971467001325
+  }
+ ],
+ "R7 off the symmetric points": {
+  "best nine-row": {
+   "moved configuration": [
+    0.0,
+    2.6220221204253793,
+    "(2/5, 0)",
+    "F_22",
+    "L_max"
+   ],
+   "scan": [
+    {
+     "Re tau": 0.0,
+     "six": 2.1724341050232336,
+     "nine": 2.2560919928970073,
+     "J": 1.1333890368366226e-21,
+     "model over measured": [
+      2.161,
+      1.779,
+      2.172,
+      0.85,
+      2.073,
+      0.954,
+      0.575,
+      1.495,
+      2.256
+     ]
+    },
+    {
+     "Re tau": 0.01,
+     "six": 2.266745507314535,
+     "nine": 2.266745507314535,
+     "J": 5.066182356076408e-08,
+     "model over measured": [
+      2.161,
+      2.267,
+      2.172,
+      0.85,
+      2.073,
+      0.954,
+      0.575,
+      1.495,
+      2.256
+     ]
+    },
+    {
+     "Re tau": 0.02,
+     "six": 3.322140888359019,
+     "nine": 3.322140888359019,
+     "J": 1.0115836129720779e-07,
+     "model over measured": [
+      2.162,
+      3.322,
+      2.172,
+      0.85,
+      2.072,
+      0.954,
+      0.575,
+      1.494,
+      2.254
+     ]
+    },
+    {
+     "Re tau": 0.05,
+     "six": 7.177630529598772,
+     "nine": 7.177630529598772,
+     "J": 2.5004322036174386e-07,
+     "model over measured": [
+      2.168,
+      7.178,
+      2.169,
+      0.851,
+      2.07,
+      0.954,
+      0.573,
+      1.493,
+      2.242
+     ]
+    }
+   ]
+  },
+  "best six-row": {
+   "moved configuration": [
+    0.5,
+    2.73861278752583,
+    "(2/5, 4/5)",
+    "F_22",
+    "L_2"
+   ],
+   "scan": [
+    {
+     "Re tau": 0.5,
+     "six": 1.6350206978808548,
+     "nine": 2.8334005302676823,
+     "J": 1.1434944787933055e-20,
+     "model over measured": [
+      1.392,
+      0.624,
+      0.901,
+      0.612,
+      0.86,
+      0.686,
+      0.353,
+      0.522,
+      0.584
+     ]
+    },
+    {
+     "Re tau": 0.51,
+     "six": 1.63499837859233,
+     "nine": 2.834187802391037,
+     "J": -1.574532662397212e-08,
+     "model over measured": [
+      1.393,
+      0.626,
+      0.901,
+      0.612,
+      0.86,
+      0.686,
+      0.353,
+      0.522,
+      0.584
+     ]
+    },
+    {
+     "Re tau": 0.52,
+     "six": 1.6349314791633172,
+     "nine": 2.8365477622056776,
+     "J": -3.1415945396670354e-08,
+     "model over measured": [
+      1.393,
+      0.633,
+      0.901,
+      0.612,
+      0.86,
+      0.686,
+      0.353,
+      0.522,
+      0.583
+     ]
+    },
+    {
+     "Re tau": 0.55,
+     "six": 1.6344656419193981,
+     "nine": 2.8529901379391864,
+     "J": -7.725052491522246e-08,
+     "model over measured": [
+      1.4,
+      0.681,
+      0.899,
+      0.612,
+      0.858,
+      0.686,
+      0.351,
+      0.522,
+      0.58
+     ]
+    }
+   ]
+  }
+ }
+}
