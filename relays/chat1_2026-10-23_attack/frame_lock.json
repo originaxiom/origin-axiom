@@ -1,0 +1,72 @@
+{
+ "K1 canonical matrix (symbolic)": {
+  "holds": true,
+  "detail": "F^dagger Y F - M simplifies to zero"
+ },
+ "K2 det Y = (h.h)(u.h)(u.u + w^2) (symbolic)": {
+  "holds": true,
+  "detail": "difference expands to zero"
+ },
+ "K5 idealised up channel lemma": {
+  "holds": true,
+  "detail": {
+   "symbolic frame matrix and h.h = 2 c1 c3 + c2^2": true,
+   "max |m2 m3 - |a3|^2 |h.h|| / |a3|^2": 1.2015411462136085e-15,
+   "min (m2/m3) / (|h.h|/4)": 1.0069263067890342,
+   "max 1 - |<n-bar, light left state>|": 6.661338147750939e-16
+  }
+ },
+ "K3 |V_cb| = |kappa_u - kappa_d| under n (2 560 stored rows)": {
+  "holds": true,
+  "detail": {
+   "median relative error": 0.003540672154067515,
+   "largest": 0.018136633293954405
+  }
+ },
+ "K4 the stored up channel: w = 0 on order 5, a2 = 0 on order 10, triplet nearly n": {
+  "holds": true,
+  "detail": {
+   "max |w|/|u| on order-5 lines": 0.0,
+   "max |a2|/|u| on order-10 lines": 0.0,
+   "max |u.u|/|u|^2": 0.17526816612273077
+  }
+ },
+ "K6 leptons as the down quarks (w -> -w on order 5, u_i -> -u_i on order 10)": {
+  "holds": true,
+  "detail": {
+   "max relative deviation of the channel weights": 3.6967905349849286e-15,
+   "max ||c| - 1|": 3.9968028886505635e-15,
+   "max relative difference of singular-value ratios": 1.3774315021919392e-11
+  }
+ },
+ "K7 cusp coefficients of R = F_2, DR, F_6": {
+  "holds": true,
+  "detail": {
+   "F_2 at 0.3 + 3.5i": {
+    "delta/r^(1/2)": 2.8284271252381425,
+    "eps/r": 4.000000001390148
+   },
+   "F_2 at 0.3 + 4.0i": {
+    "delta/r^(1/2)": 2.828427124767449,
+    "eps/r": 4.000000000066399
+   },
+   "dR at 0.3 + 3.5i": {
+    "delta/r^(1/2)": 5.656854203248876,
+    "eps/r": 19.999999873378137
+   },
+   "dR at 0.3 + 4.0i": {
+    "delta/r^(1/2)": 5.656854247494017,
+    "eps/r": 19.999999994530928
+   },
+   "F_6 at 0.3 + 3.5i": {
+    "delta/r^(1/2)": 0.000759185211596224,
+    "eps/r": 12.000000048700734
+   },
+   "F_6 at 0.3 + 4.0i": {
+    "delta/r^(1/2)": 0.0001578190994492726,
+    "eps/r": 12.000000002116806
+   }
+  }
+ },
+ "failed": []
+}

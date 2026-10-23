@@ -1,0 +1,6 @@
+all locks hold
+
+real	0m13.331s
+user	0m12.296s
+sys	0m0.070s
+exit 0
