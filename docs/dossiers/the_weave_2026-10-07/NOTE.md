@@ -7726,6 +7726,79 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W139. The E₆ breaking arc (main's P-338, at the owner's agreement): no vev of the families' 27s splits the charged leptons from the down quarks. Under E₆'s cubic the extended lepton matrix is the extended down-quark matrix transposed and rotated, M_l = −(1 ⊗ Jᵀ)M_qᵀ(1 ⊗ J), for every symmetric coupling and every vev that keeps colour and charge, E₆ → SO(10) → SU(5) included. So D ≡ 1 everywhere inside the 27s, and the relation is E₆'s normalisation: at det L's coefficient 2 the leptons double and the symmetry drops from 78 to 24. Every cell as predicted (`the_e6_breaking.py`; `W139_RULE.md`)
+
+**Why.**
+- W137 found that the minimal joint frame forces M_e = M_d, so D ≡ 1 against P-094's 10.58. Its open question was
+  whether E₆'s own breaking can split the two: after E₆ breaks, d^c mixes with the 27's exotic D^c, and L with the
+  Higgs-like doublets.
+- Main's sweep queued exactly this (P-338). The owner agreed (2026-10-23) that it comes first: it either rescues or
+  retires the joint frame's lepton sector.
+
+**The order.**
+- The rule (`W139_RULE.md`, 488495863) was committed and pushed before the script existed.
+- The script (4116b434f) was committed before its one run. A pre-run review, disclosed in that commit, wrote out a
+  permutation sign, read mpmath's singular values by index and restructured one line. The flint and mpmath calls were
+  checked on a 2 × 2 toy matrix unrelated to the arc.
+- Its output (0b9b31bd5) was committed unread, then read once. The run took 3.6 s.
+
+**The result (COMPUTED; every cell as predicted).**
+- **E0, the instrument.** The 1 500 × 729 system ∇N(X)·AX = 0 has rank 651 over ℚ, exactly:
+  - rank 651 modulo 2⁶¹ − 1;
+  - the 78 vectors of the reduced-row-echelon nullspace are integer vectors (largest denominator 1);
+  - they satisfy the 1 500 rows exactly, are independent, and satisfy ∇N·AX = 0 as a polynomial identity.
+  So the symmetry algebra of N = det Q + det L + det Q^c − tr(Q L Q^c) has dimension exactly 78: N is E₆'s cubic.
+  The monomial table agrees with det and trace exactly.
+- **E1, the embedding.** The fifteen entries (colour triplets once) carry exactly 16 ⊕ 10 ⊕ 1's (colour, Q, Y). The
+  neutral colourless components are the five listed. As checks, not cells: T₃, Y and SU(2)_L's raising operator
+  preserve N.
+- **E2, the theorem.** At ten random points (complex symmetric λ, fifteen complex vevs), the six singular values of
+  the extended charge −1/3 quark matrix and of the extended charged-lepton matrix agree to 4.6 × 10⁻⁴⁰ relative. That
+  is the working precision of 40 digits.
+- **E3, the light states.** With the singlets 10⁴ times the doublets, the three light masses of each kind lie
+  2 500 to 7 100 times below the heavy ones. At five points they agree to 5 × 10⁻³⁷, with |ln D| ≤ 5.2 × 10⁻³⁷. So
+  m_e = m_d, m_μ = m_s and m_τ = m_b.
+- **E4, the control.** With det L's coefficient 2, every lepton singular value is exactly twice the old one and the
+  quarks' do not move. The symmetry algebra then has dimension exactly 24 (rank 705): SU(3)³ alone.
+- **E5, the read-out.** The by-hand form M_l = −κ(1 ⊗ Jᵀ)M_qᵀ(1 ⊗ J), with J = ((0, 1), (−1, 0)), holds with residual
+  0 at every point, at κ = 1 and κ = 2. Family by family, the lepton block is the adjugate of the quark block's
+  matrix of vevs.
+
+**What it shows (the rule's fixed meaning).**
+1. **No vev of the families' 27s breaks m_e = m_d.** This holds:
+   - for S (E₆ → SO(10)) and ν^c (SO(10) → SU(5));
+   - for the mixing of d^c with D^c and of L with h_d, and for the doublets' vevs;
+   - in any direction for each family, and for any symmetric λ.
+   Under SU(5) × SU(2), with the SU(2) rotating d^c into D^c, the 27 is (10, 1) ⊕ (5̄, 2) ⊕ (5, 1) ⊕ (1, 2). Every
+   vev that keeps colour and charge is an SU(5) singlet or the neutral part of a doublet, so SU(5)'s relation survives.
+   That reading was made by hand, and the computation agrees with it.
+2. **The equality is exact and algebraic.** The lepton matrix is the quark matrix transposed and rotated. So the light
+   masses' D is 1 identically, and the left-handed lepton mixing equals the right-handed down-quark mixing (SU(5)'s
+   relation). W137's exclusion extends from the minimal Higgs to every vev of the 27s: D ≡ 1 against P-094's
+   10.58 ± 0.11.
+3. **The relation is E₆'s normalisation.** Changing det L's coefficient doubles the leptons, but then the cubic is no
+   longer E₆'s (24, not 78). Inside E₆ the relation cannot be tuned.
+4. **So the joint frame's lepton sector cannot be rescued inside the 27s.** It needs a source that breaks SU(5)'s
+   relation. By hand, from the literature, the known sources are:
+   - a 351′ Higgs, whose SO(10) 126 carries the Georgi–Jarlskog 45 and its −3;
+   - a 351, through its 120;
+   - the adjoint 78's vev in higher operators;
+   - a hypercharge flux or flat hypercharge line.
+5. **Main's frame already has the last (READING).** It has B1656's flat lines, read through hypercharge in B1728.
+   - On order-5 lines SU(5)'s five-ality is kept and D_frame = 1 exactly (B1726, W138's C1).
+   - The best six-row sits on an order-10 line, where D_frame = 1.22.
+   - Read together with this arc, only a flat hypercharge line that breaks SU(5)'s relation can split leptons from
+     down quarks. The joint frame and main's frame then need the same ingredient, flat U(1) lines inside E₆, which
+     W134 left out.
+
+**Weave or thread.** WEAVE-type, as W137, and conditional on W135's frame (E₆ from the moves). It covers all three
+families, every symmetric λ and every vev of the 27s that keeps colour and charge, and its claims are about all of them
+at once.
+
+**Status.** COMPUTED: exact in E0, E1 and E4, and to the working precision in E2 and E3. One run. Every cell as
+predicted. It is not a new test against data: it extends W137's exclusion, and the trial count stays at twenty-five.
+0 of 19.
+
 ## W138. The third opinion on main's B1726 (main's P-304, at the owner's approval): B1726 reproduces in full. Main's compare.py re-runs to the bit, a second calibration gives the same 120 fractions, and 38 census points and both best rows reproduce on this seat's own instrument to 10⁻¹⁰. R7's mechanism holds: D = 9 exactly on order-5 lines. But with every covariant reading and the factor free, the menu main did not compute, the six are not specific (3.4%, every seed above 1%). Every cell as predicted; B1726 is a replicated two-ingredient READING, bankable as that and no more (`the_third_opinion_b1726.py`; `W138_RULE.md`)
 
 **Why.**
@@ -11765,6 +11838,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W139 | COMPUTED (the rule first; one run; every cell as predicted); WEAVE-type | the E₆ breaking arc (P-338): N = det Q + det L + det Q^c − tr(Q L Q^c) has a symmetry algebra of dimension exactly 78 (E₆; 24 at det L's coefficient 2); the 27 carries 16 ⊕ 10 ⊕ 1 with five neutral directions. For every symmetric λ and every colour- and charge-keeping vev of the three 27s, M_l = −(1 ⊗ Jᵀ)M_qᵀ(1 ⊗ J), so the six singular values agree (to 10⁻⁴⁰) and D ≡ 1 at hierarchical vevs too. No vev of the 27s splits leptons from down quarks; the joint frame needs an SU(5)-breaking source (351′, 351, the 78, or a flat hypercharge line). 0 of 19 |
 | W138 | COMPUTED (the rule first, after a read-only preparation that drafted the script, disclosed; one run; every cell as predicted); a check of main's census of one frame | the third opinion on main's B1726 (P-304): compare.py re-runs to the bit; a second calibration gives the same 120 fractions; 38 census points and both best rows reproduce on this seat's own instrument to 10⁻¹⁰; R7's mechanism holds (D = 9 exactly on order-5 lines); with every covariant reading and the factor free the six are not specific (3.4%). B1726 is a replicated two-ingredient READING, bankable as that and no more. 0 of 19 |
 | W137 | COMPUTED (the rule first; one run; every cell as predicted); WEAVE-type | the joint frame's Yukawas: no tree-level coupling when the generations are the surface's sections; in the modular-flavour picture the triplet's weight is even, so the least coupling is weight 6 with six constants (W136's weight 2 unreachable) and supergravity with one modulus allows none; with the 27s' weight, five of W134's twelve three-generation data have no coupling and the rest need 26 or 30 constants. The minimal Clebsch forces M_e = M_d, so D ≡ 1 against P-094's 10.58 (excluded, no fit); at weight 6 the Jacobian of the quark invariants has rank 10, so nothing is predicted in the quark sector; θ̄ ∈ {0, π} only on the CP line, where J = 0. 0 of 19 |
 | W136 | COMPUTED, exact (the rule first; one run after a failed launch, disclosed; every cell as predicted; the web seat's blind count agrees, read post hoc); WEAVE-type | the coupling forms: the joint family group is Γ₄ = PSL(2, ℤ/4), kernel ±Γ(4), so the families' couplings are level-4 modular forms. dim M_w(σ) for every irrep and even w ≤ 24 by three routes; generating weights 1: {0}, 1′: {6}, 2: {2, 4}, ρ′: {2, 4, 6}, ρ′ ⊗ sgn: {4, 6, 8}. The least forms: Y₂ = −4iηF₋₂ (ρ′, weight 2, two channels), Y₄ = 8iη⁹R (ρ′ ⊗ sgn, weight 4), Y₆ = −16η¹² (1′, weight 6; none at 8). C(w) = 2, 3, 6, 6, 9, 10 independent couplings at w = 2 … 12; the weight, τ and the constants are not fixed. 0 of 19 |

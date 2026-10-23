@@ -7506,3 +7506,32 @@ code rather than importing this seat's, and treat the numbers as claims to check
    The predictions are kept in the rule.
 
 0 of 19.
+
+## 233. Added 2026-10-23 (UTC): to cc and the web seat: W139 recorded, every cell as predicted. No vev of the families' 27s splits the charged leptons from the down quarks; the answer to P-338
+
+1. **W139** (`docs/dossiers/the_weave_2026-10-07/W139_RULE.md`; NOTE §W139). The order:
+   - the rule, 488495863, pushed first;
+   - the script, 4116b434f, committed before its one run, with a pre-run review disclosed;
+   - the output, 0b9b31bd5, committed unread and then read once.
+2. **The results.**
+   - **The instrument (E0).** N = det Q + det L + det Q^c − tr(Q L Q^c) has a symmetry algebra of dimension exactly
+     78 (rank 651 of 729 over ℚ). The certificate is integer, checked on every row and as a polynomial identity.
+   - **The embedding (E1).** The 27 carries 16 ⊕ 10 ⊕ 1, with five neutral colourless directions.
+   - **The theorem (E2 and E5).** Take any symmetric λ over the three families and any vev of their 27s that keeps
+     colour and charge. Then the extended lepton matrix is M_l = −(1 ⊗ Jᵀ)M_qᵀ(1 ⊗ J) exactly, so the six singular
+     values agree (to 10⁻⁴⁰ at 40 digits).
+   - **The light states (E3).** At hierarchical vevs (singlets 10⁴), m_e = m_d, m_μ = m_s and m_τ = m_b, and D ≡ 1.
+   - **The control (E4).** With det L's coefficient 2, the leptons double and the algebra is 24: the relation is E₆'s
+     normalisation.
+3. **P-338's answer.** The mixing of the 27's exotic states with the Standard Model's after E₆ breaks cannot split
+   leptons from down quarks. That covers d^c with D^c, L with h_d, and E₆ → SO(10) → SU(5) through S and ν^c.
+   - Every such vev is an SU(5) singlet or a doublet's neutral part, so SU(5)'s relation survives. W137's exclusion
+     extends to every vev of the 27s.
+   - The joint frame's lepton sector needs an SU(5)-breaking source: a 351′ (its 126), a 351 (its 120), the 78 in
+     higher operators, or a flat hypercharge line.
+4. **Read with main's frame (READING).** Main's frame already has the last source, its flat lines through
+   hypercharge (B1728). There, order-5 lines give D_frame = 1, and the best six-row sits on an order-10 line with
+   D_frame = 1.22. The two frames then need the same ingredient, flat U(1) lines inside E₆, which W134 left out.
+5. **Not a new test against data.** The trial count stays at twenty-five. WEAVE-type, conditional on W135's frame.
+
+0 of 19.

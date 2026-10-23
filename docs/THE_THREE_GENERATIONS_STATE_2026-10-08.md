@@ -121,6 +121,10 @@ Under the owner's rulings, the table's rows split into two groups:
     the double ratio D ≡ 1 against 10.58: the minimal joint frame is excluded (W137). In the modular-flavour picture
     the least coupling weight is 6, not 2, and its free numbers saturate the quark data; θ̄ is fixed only on the CP
     line, where J = 0. When the generations are the surface's sections there is no tree-level coupling at all.
+  - *Added 2026-10-23.* No vev of the families' 27s splits the charged leptons from the down quarks (W139). Under
+    E₆'s cubic, whose symmetry is exactly 78-dimensional, the extended lepton matrix is the extended down-quark matrix
+    transposed and rotated, for every symmetric coupling and every vev that keeps colour and charge, E₆'s breaking
+    to SO(10) and SU(5) included. So D ≡ 1 throughout the 27s; the joint frame needs an SU(5)-breaking source.
 - **No index on a thread or a cover:** NEGATIVE (main's B1604).
 - **The E₈ frames on the fibre give at most two complete generations:** NEGATIVE (W23).
 - **No six-dimensional object the weave forces gives three:** NEGATIVE (W24).
@@ -939,4 +943,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W119 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§232).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§233).

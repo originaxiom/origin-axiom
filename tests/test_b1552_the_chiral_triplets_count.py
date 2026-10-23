@@ -4221,3 +4221,33 @@ def test_w138_the_third_opinion_b1726():
     assert len(lines) == 266
     assert lines[151] == (Fraction(2, 5), Fraction(1, 2)) and lines[149] == (Fraction(2, 5), Fraction(1, 10))
 
+
+def test_w139_the_e6_breaking():
+    """W139, the E6 breaking arc: every cell as recorded; in process, E6's cubic has a 78-dimensional symmetry algebra
+    modulo p at fresh points, and the lepton matrix is the down-quark matrix transposed and rotated at a fresh point"""
+    import contextlib
+    import importlib.util
+    import io
+    import random
+    import flint
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_e6_breaking.json").read_text(encoding="utf-8"))
+    assert all(d["cells"].values()) and len(d["cells"]) == 5
+    assert d["E0"]["dimension of the symmetry algebra (exact)"] == 78
+    assert d["E4"]["symmetry algebra at kappa = 2"]["dimension of the symmetry algebra (exact)"] == 24
+    assert d["E1"]["equals 16 + 10 + 1"] and d["E2"]["worst"] < 1e-30
+    spec = importlib.util.spec_from_file_location("w139_lock", here / "the_e6_breaking.py")
+    W = importlib.util.module_from_spec(spec)
+    with contextlib.redirect_stdout(io.StringIO()):
+        spec.loader.exec_module(W)
+    mons = W.monomials(1)
+    rng = random.Random(7)
+    rows = []
+    for _ in range(800):
+        X = [rng.randint(-3, 3) for _ in range(27)]
+        g = W.grad(mons, X)
+        rows += [g[p] * X[q] % W.P for p in range(27) for q in range(27)]
+    assert 729 - flint.nmod_mat(800, 729, rows, W.P).rank() == 78
+    lam, vevs = W.random_point(random.Random(8))
+    Mq, Ml = W.mass_matrices(1, lam, vevs)
+    assert W.byhand_residual(Mq, Ml, 1) < 1e-30

@@ -20458,3 +20458,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   has run and is not yet read out.
   0 of 19.
 
+## 2026-10-23 — the larger symmetry's breaking cannot tell leptons from down quarks
+
+- **The check ran once, and every prediction held.** When the larger symmetry (E₆) breaks, its extra particles mix
+  with the ordinary ones. Whatever direction the breaking takes inside the three families' own fields, the electron
+  and the down quark come out with the same mass, and so do the muon and strange quark and the tau and bottom quark.
+- **Why.** In this symmetry the lepton mass table is the down-quark table turned over, exactly. Changing one number
+  in the symmetry's defining formula would break the equality, but then it is no longer this symmetry.
+- **So the combined picture's leptons need something outside the families' fields** to break the tie. Main's own
+  picture already has one candidate kind: special flat lines that act through hypercharge.
+  0 of 19.

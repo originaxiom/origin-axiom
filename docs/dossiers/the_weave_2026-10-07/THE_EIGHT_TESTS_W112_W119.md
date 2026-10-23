@@ -233,6 +233,8 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
      *(2026-10-23, later: this seat's third opinion, W138, reproduces B1726 in full, but with every covariant
      reading and the factor free 3.4% of random hierarchies match the six. It is a replicated two-ingredient
      READING.)*
+     *(2026-10-23, later still: W139 extends W137's exclusion to every vev of the families' 27s. It is not a new
+     test against data, so the count is unchanged.)*
    - A future single pass must be read against this count, and against the earlier data comparisons. Those are not
      yet counted here: W53, W54, W57, W66, W69, W88, W90 and W94 on this seat, and main's own. OPEN.
 

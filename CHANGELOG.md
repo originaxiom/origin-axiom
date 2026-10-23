@@ -1,5 +1,18 @@
 # Changelog
 
+## W139 recorded, every cell as predicted: no vev of the families' 27s splits the charged leptons from the down quarks; the answer to P-338 (relay §233)
+
+- **The theorem.** Under E₆'s cubic (symmetry exactly 78-dimensional), the extended lepton matrix is the extended
+  down-quark matrix transposed and rotated, M_l = −(1 ⊗ Jᵀ)M_qᵀ(1 ⊗ J). That holds for every symmetric coupling and
+  every vev of the three 27s that keeps colour and charge. So D ≡ 1 throughout the 27s, E₆ → SO(10) → SU(5)
+  included.
+- **The control.** With det L's coefficient 2 the leptons double and the symmetry drops to 24: the relation is E₆'s
+  normalisation.
+- **What follows.** The joint frame needs an SU(5)-breaking source (a 351′, a 351, the 78, or a flat hypercharge
+  line). Not a new test against data.
+- **Surfaces.** NOTE (section and row), the lock test, relay §233, row 317, the state page, the trial-count page.
+  0 of 19.
+
 ## The W139 rule, committed and pushed before its script: the E₆ breaking arc (P-338); main's S196, S197 and B1734 and the web seat's tick-line result read (relay §232)
 
 - **W139's rule.** Whether any vev of the families' 27s splits the charged leptons from the down quarks: E₆'s cubic
