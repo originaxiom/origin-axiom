@@ -1,5 +1,20 @@
 # Changelog
 
+## W144 recorded: the audit lane's five checkpoints hold on own code, no error by the lane; four cells failed as run through this seat's instrument and hold post hoc (relay §243)
+
+- **Confirmed on own code:**
+  - the joint root action and its cocycle, with k_ε = −1;
+  - the corrected s⁴ = εJ_c⁻¹;
+  - the connecting map and its kernel table (Λ = U gives (3, 3));
+  - the transported principal parts with their root factors and Green form;
+  - projective regularity at exactly d = 0 or 6;
+  - the E₈ central kernel ℤ₆, in which (−I₆, I₃, I₂) is nontrivial.
+- **Failed as run: A2, A4, C1 and C2.** mpmath's jtheta takes the principal nome root, which is wrong off
+  −1 < Re τ ≤ 1, against this seat's CONVENTIONS §4. Diagnosed post hoc (the ratio is exactly i^{−k}); with the
+  series all eleven hold.
+- **Surfaces.** NOTE §W144, the script and its post hoc with JSON and run logs, the lock test, relay §243, row 317,
+  the state page's range. Not a trial. 0 of 19.
+
 ## The W144 rule, committed and pushed before its script: the audit lane's five checkpoints reviewed on own code (relay §242)
 
 - **W144's rule.** A non-authoring proof review of the five checkpoints the audit lane's relay at 17cdad33a names:

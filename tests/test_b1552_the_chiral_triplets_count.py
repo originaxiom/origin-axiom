@@ -4370,3 +4370,41 @@ def test_w143_the_zero_free_higgs_signs():
     assert W.PH.coords(forms, W.lines(-2, 20, -1)) is None
     lead = W.leading(-2, 20, 1)
     assert lead["proportional to e_1 (non-null)"] and lead["its square"] == "1/16"
+
+
+def test_w144_the_audit_checkpoints_review():
+    """W144, the audit lane's five checkpoints reviewed on own code: the cells as recorded (A2, A4, C1 and C2 failed as
+    run through mpmath's principal nome root; all eleven hold post hoc with the series); in process, the branch ratio
+    -i at Re tau = 1.13, the corrected based relation s^4 = I_c^-1, and the E8 central kernel Z6"""
+    import contextlib
+    import importlib.util
+    import io
+    import sys
+    import mpmath
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_audit_checkpoints_review.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"A1": True, "A2": False, "A3": True, "A4": False, "B1": True, "B2": True, "C1": False,
+                          "C2": False, "D1": True, "E1": True, "E2": True}
+    ph = json.loads((here / "the_audit_checkpoints_review_posthoc.json").read_text(encoding="utf-8"))
+    assert ph["P1 holds"] and len(ph["P2 cells with the explicit series"]) == 11
+    assert all(ph["P2 cells with the explicit series"].values())
+    assert d["B2"]["kernel table (positive, adjoint)"] == {"0": [0, 3], "C6": [3, 0], "U": [3, 3], "U perp": [0, 0]}
+    assert d["E1"]["roots on which (3, 0, 0) is -1"] == 112
+    dps = mpmath.mp.dps
+    try:
+        sys.path.insert(0, str(here))
+        spec = importlib.util.spec_from_file_location("w144_lock", here / "the_audit_checkpoints_review_posthoc.py")
+        P = importlib.util.module_from_spec(spec)
+        with contextlib.redirect_stdout(io.StringIO()):
+            spec.loader.exec_module(P)
+        W = P.W
+        tau, z = mpmath.mpc("1.13", "1.07"), mpmath.mpc("0.217", "0.093")
+        assert abs(P.predicted_ratio(tau) + 1j) < 1e-40
+        assert abs(W.th(1, z, tau) / P.th_x(1, z, tau) - P.predicted_ratio(tau)) < 1e-40
+        S = W.ocomp(W.RA, W.ocomp(W.LAi, W.RA))
+        c = (1, -2, -1, 2)
+        assert W.opow(S, 4) == W.inner(W.winv(c)) and W.opow(S, 4) != W.inner(c)
+        e1, ok1, _, ok2 = W.E1E2()
+        assert ok1 and ok2 and len(e1["kernel (p, q, r) in Z6 x Z3 x Z2"]) == 6
+    finally:
+        mpmath.mp.dps = dps

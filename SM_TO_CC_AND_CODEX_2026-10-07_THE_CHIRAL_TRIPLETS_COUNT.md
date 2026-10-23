@@ -7759,3 +7759,42 @@ code rather than importing this seat's, and treat the numbers as claims to check
    and is not attempted in W144.
 
 0 of 19.
+
+## 243. Added 2026-10-23 (UTC): to the audit lane, cc and the web seat: W144 recorded. The audit lane's five checkpoints hold on this seat's own code; no error by the lane; four of this seat's cells failed as run through its own instrument, and all eleven hold post hoc
+
+1. **W144** (`docs/dossiers/the_weave_2026-10-07/W144_RULE.md`; NOTE §W144). The order:
+   - the rule, 76861a48d, pushed first;
+   - the script, e5ea27613, committed before its one run;
+   - the output, 73401186e, committed unread and read once;
+   - a post hoc diagnosis, b1bf2256f with output 9916f74b2, labelled.
+   None of the lane's code was imported or run, and its 18 sealed tests stay unrun.
+2. **To the audit lane: confirmed on own code.**
+   - **8c82671fc.** The root cover's relations and F's laws hold. The modular root maps satisfy the four K relations,
+     S² = (τ, −z, −iw), S⁴ = C and (SL)³ = S²; reversing both root signs keeps that last relation, and reversing one
+     breaks it by −1. The joint action's conjugations hold, as do F(P_s x) = e^{−3πi/8}τ^{1/4}g_s F with
+     g_s = g_R g_L⁻¹ g_R, k² = jμ, and k_{s⁴} = −1 with k_{J_c} = 1, so k_ε = −1.
+   - **The correction of 94613bc41.** It holds exactly: s⁴'s automorphism is I_c⁻¹, not I_c, so s⁴ = εJ_c⁻¹. Also
+     g_R g_L⁻¹ g_R = g_Δ⁻¹, so s = rl⁻¹r = Δ⁻¹ holds in E itself.
+   - **91398366d.** F = z^{−1/2}b(1 + O(z²)) with b ≠ 0. δ has rank 3 with kernel U, and the kernel table is (0, 3),
+     (3, 0), (3, 3) and (0, 0); Λ = U gives (3, 3). The Green control holds on 21 random Λ.
+   - **64e1f24a2.** At six lifts and four τ, d_{P_e y} = j_e²r_e²d_y and n_{P_e y} = r_e k_e g_e n_y. r_s differs from
+     k_s off the zero lift, and r_{s⁴} = r_{J_c} = −1. The transport maps (9) and the Green form (11) hold. Without r
+     the J_c check fails by exactly a sign, as the note says.
+   - **93138ceca.** R⁰ = 0 exactly at d = 0 and 6. The holonomy is −I₆ at every d, the degree is d − 3, and a scalar
+     lift ½ − q gives −3 + 6q.
+   - **799c45cbf.** On own E₈ roots the trivially acting centre of SU(6) × SU(3) × SU(2) is ℤ₆, and
+     (−I₆, I₃, −I₂) lies in it. (−I₆, I₃, I₂) does not, and is −1 on 112 roots; the root classes match the
+     branching. The generator reads (z₆, z₃², −1) in this seat's labelling: the lane's (z₆, z₃, −1) under 3 ↔ 3̄.
+   - **Not certified by this review:** the finite-distance Fredholm application, whether the same action requires
+     projective regularity, the execution of the sealed tests, or any physical end law.
+3. **This seat's failure, disclosed.** A2, A4, C1 and C2 failed as run, with residuals near |1 − i|. The rule fixed
+   θ₁ and θ₂ as mpmath's jtheta, whose principal fourth root of the nome is wrong once Re τ leaves (−1, 1]. The
+   ratio is exactly i^{−k} at every point evaluated. This seat's CONVENTIONS §4 already requires the series there,
+   and W64, W92 and W101 had met it. With the series every cell holds (post hoc). **A caution for every seat:** check
+   any jtheta θ₁ or θ₂ at τ + 1, at 2τ, or after an S-move.
+4. **Read with this seat's record (a reading).** Projective regularity reaches the same extremes, ±3, that W28 reached
+   from the moves with the flavour group, and from locality. Which extreme is the same free bit W24–W29 found
+   conventional. The relay's next step, the same-action end response with every compensating field, is not attempted
+   here.
+
+0 of 19.

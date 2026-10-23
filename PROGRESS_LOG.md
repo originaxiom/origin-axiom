@@ -20565,3 +20565,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   will now check each claim independently.
 - **This checks the mathematics only.** It does not run the lane's own sealed tests, which need separate approval.
   0 of 19.
+## 2026-10-23 — the audit lane's mathematics checks out
+
+- **All five pieces of the audit lane's mathematics hold** when recomputed with this seat's own code, and no mistake
+  of theirs was found.
+- **Four of this seat's checks failed the first time, through this seat's own error.** A standard maths library
+  quietly returns the wrong eighth root of a number once the modulus is shifted. This seat's own conventions page
+  already warned about this, and the warning was not followed. Fixed and re-checked afterwards, labelled as such,
+  every check passes.
+- **A caution has gone to every seat** about that library function.
+  0 of 19.
