@@ -1,0 +1,514 @@
+{
+ "grid": "two_higgs",
+ "rows": 2560,
+ "lowest min chi2_nine": 1027.661,
+ "quantiles of min chi2_nine (0, 1, 5, 50%)": [
+  1027.661,
+  1042.97253,
+  1098.5951,
+  1248.6574999999998
+ ],
+ "rows below 21.67, 100, 500": [
+  0,
+  0,
+  0
+ ],
+ "the 15 lowest rows": [
+  {
+   "point": [
+    7,
+    0.6875,
+    3.5
+   ],
+   "line": "(2/5, 7/10)",
+   "hor": "L_2",
+   "min chi2_nine": 1027.661,
+   "chi2_six there": 54.788,
+   "model/data": [
+    1.5547,
+    0.9604,
+    0.7064,
+    1.3453,
+    0.6584,
+    1.2911,
+    0.9089,
+    23.8724,
+    1.0112
+   ],
+   "min chi2_six": 50.385,
+   "h": {
+    "|e1|, |h0|, |conj h0|": [
+     0.16408,
+     0.00612,
+     0.98643
+    ],
+    "leading null": "conj h0",
+    "delta = e1 / leading": 0.16633,
+    "epsilon = other null / leading": 0.0062
+   }
+  },
+  {
+   "point": [
+    9,
+    0.3125,
+    3.5
+   ],
+   "line": "(2/5, 9/10)",
+   "hor": "L_2",
+   "min chi2_nine": 1027.661,
+   "chi2_six there": 54.788,
+   "model/data": [
+    1.5547,
+    0.9604,
+    0.7064,
+    1.3453,
+    0.6584,
+    1.2911,
+    0.9089,
+    23.8724,
+    1.0112
+   ],
+   "min chi2_six": 50.385,
+   "h": {
+    "|e1|, |h0|, |conj h0|": [
+     0.16408,
+     0.00612,
+     0.98643
+    ],
+    "leading null": "conj h0",
+    "delta = e1 / leading": 0.16633,
+    "epsilon = other null / leading": 0.0062
+   }
+  },
+  {
+   "point": [
+    2,
+    0.8125,
+    3.5
+   ],
+   "line": "(2/5, 1/5)",
+   "hor": "L_2",
+   "min chi2_nine": 1030.975,
+   "chi2_six there": 59.966,
+   "model/data": [
+    1.7974,
+    1.1867,
+    0.6848,
+    0.9869,
+    0.6534,
+    1.1071,
+    0.9728,
+    23.8287,
+    1.0339
+   ],
+   "min chi2_six": 43.039,
+   "h": {
+    "|e1|, |h0|, |conj h0|": [
+     0.11038,
+     0.01136,
+     0.99382
+    ],
+    "leading null": "conj h0",
+    "delta = e1 / leading": 0.11106,
+    "epsilon = other null / leading": 0.01143
+   }
+  },
+  {
+   "point": [
+    4,
+    0.1875,
+    3.5
+   ],
+   "line": "(2/5, 2/5)",
+   "hor": "L_2",
+   "min chi2_nine": 1030.975,
+   "chi2_six there": 59.966,
+   "model/data": [
+    1.7974,
+    1.1867,
+    0.6848,
+    0.9869,
+    0.6534,
+    1.1071,
+    0.9728,
+    23.8287,
+    1.0339
+   ],
+   "min chi2_six": 43.039,
+   "h": {
+    "|e1|, |h0|, |conj h0|": [
+     0.11038,
+     0.01136,
+     0.99382
+    ],
+    "leading null": "conj h0",
+    "delta = e1 / leading": 0.11106,
+    "epsilon = other null / leading": 0.01143
+   }
+  },
+  {
+   "point": [
+    2,
+    0.6875,
+    3.5
+   ],
+   "line": "(2/5, 1/5)",
+   "hor": "L_2",
+   "min chi2_nine": 1031.447,
+   "chi2_six there": 59.987,
+   "model/data": [
+    1.7928,
+    1.2081,
+    0.6844,
+    0.9903,
+    0.653,
+    1.1108,
+    0.9553,
+    23.8413,
+    1.0333
+   ],
+   "min chi2_six": 42.966,
+   "h": {
+    "|e1|, |h0|, |conj h0|": [
+     0.10035,
+     0.0114,
+     0.99489
+    ],
+    "leading null": "conj h0",
+    "delta = e1 / leading": 0.10086,
+    "epsilon = other null / leading": 0.01145
+   }
+  },
+  {
+   "point": [
+    4,
+    0.3125,
+    3.5
+   ],
+   "line": "(2/5, 2/5)",
+   "hor": "L_2",
+   "min chi2_nine": 1031.447,
+   "chi2_six there": 59.987,
+   "model/data": [
+    1.7927,
+    1.2081,
+    0.6844,
+    0.9903,
+    0.653,
+    1.1108,
+    0.9553,
+    23.8413,
+    1.0333
+   ],
+   "min chi2_six": 42.966,
+   "h": {
+    "|e1|, |h0|, |conj h0|": [
+     0.10035,
+     0.0114,
+     0.99489
+    ],
+    "leading null": "conj h0",
+    "delta = e1 / leading": 0.10086,
+    "epsilon = other null / leading": 0.01145
+   }
+  },
+  {
+   "point": [
+    7,
+    0.5625,
+    3.5
+   ],
+   "line": "(2/5, 7/10)",
+   "hor": "L_2",
+   "min chi2_nine": 1031.658,
+   "chi2_six there": 59.371,
+   "model/data": [
+    1.5622,
+    0.9382,
+    0.7238,
+    1.4755,
+    0.6718,
+    1.3509,
+    0.9587,
+    23.8774,
+    1.0183
+   ],
+   "min chi2_six": 55.771,
+   "h": {
+    "|e1|, |h0|, |conj h0|": [
+     0.15597,
+     0.00493,
+     0.98775
+    ],
+    "leading null": "conj h0",
+    "delta = e1 / leading": 0.15791,
+    "epsilon = other null / leading": 0.00499
+   }
+  },
+  {
+   "point": [
+    9,
+    0.4375,
+    3.5
+   ],
+   "line": "(2/5, 9/10)",
+   "hor": "L_2",
+   "min chi2_nine": 1031.658,
+   "chi2_six there": 59.371,
+   "model/data": [
+    1.5622,
+    0.9382,
+    0.7238,
+    1.4755,
+    0.6718,
+    1.3509,
+    0.9587,
+    23.8774,
+    1.0183
+   ],
+   "min chi2_six": 55.771,
+   "h": {
+    "|e1|, |h0|, |conj h0|": [
+     0.15597,
+     0.00493,
+     0.98775
+    ],
+    "leading null": "conj h0",
+    "delta = e1 / leading": 0.15791,
+    "epsilon = other null / leading": 0.00499
+   }
+  },
+  {
+   "point": [
+    7,
+    0.8125,
+    3.5
+   ],
+   "line": "(2/5, 7/10)",
+   "hor": "L_2",
+   "min chi2_nine": 1031.852,
+   "chi2_six there": 59.685,
+   "model/data": [
+    1.5932,
+    0.955,
+    0.7049,
+    1.4151,
+    0.6546,
+    1.2938,
+    0.923,
+    23.8558,
+    1.0069
+   ],
+   "min chi2_six": 52.635,
+   "h": {
+    "|e1|, |h0|, |conj h0|": [
+     0.18481,
+     0.00759,
+     0.98274
+    ],
+    "leading null": "conj h0",
+    "delta = e1 / leading": 0.18806,
+    "epsilon = other null / leading": 0.00772
+   }
+  },
+  {
+   "point": [
+    9,
+    0.1875,
+    3.5
+   ],
+   "line": "(2/5, 9/10)",
+   "hor": "L_2",
+   "min chi2_nine": 1031.852,
+   "chi2_six there": 59.685,
+   "model/data": [
+    1.5932,
+    0.955,
+    0.7049,
+    1.4151,
+    0.6546,
+    1.2938,
+    0.923,
+    23.8558,
+    1.0069
+   ],
+   "min chi2_six": 52.635,
+   "h": {
+    "|e1|, |h0|, |conj h0|": [
+     0.18481,
+     0.00759,
+     0.98274
+    ],
+    "leading null": "conj h0",
+    "delta = e1 / leading": 0.18806,
+    "epsilon = other null / leading": 0.00772
+   }
+  },
+  {
+   "point": [
+    2,
+    0.5625,
+    3.5
+   ],
+   "line": "(2/5, 1/5)",
+   "hor": "L_2",
+   "min chi2_nine": 1033.03,
+   "chi2_six there": 61.493,
+   "model/data": [
+    1.7976,
+    1.4072,
+    0.6962,
+    1.0379,
+    0.6643,
+    1.1643,
+    1.0174,
+    23.8473,
+    1.0473
+   ],
+   "min chi2_six": 41.023,
+   "h": {
+    "|e1|, |h0|, |conj h0|": [
+     0.10224,
+     0.01236,
+     0.99468
+    ],
+    "leading null": "conj h0",
+    "delta = e1 / leading": 0.10278,
+    "epsilon = other null / leading": 0.01242
+   }
+  },
+  {
+   "point": [
+    4,
+    0.4375,
+    3.5
+   ],
+   "line": "(2/5, 2/5)",
+   "hor": "L_2",
+   "min chi2_nine": 1033.03,
+   "chi2_six there": 61.493,
+   "model/data": [
+    1.7976,
+    1.4072,
+    0.6962,
+    1.0379,
+    0.6643,
+    1.1643,
+    1.0174,
+    23.8473,
+    1.0473
+   ],
+   "min chi2_six": 41.023,
+   "h": {
+    "|e1|, |h0|, |conj h0|": [
+     0.10223,
+     0.01236,
+     0.99468
+    ],
+    "leading null": "conj h0",
+    "delta = e1 / leading": 0.10278,
+    "epsilon = other null / leading": 0.01242
+   }
+  },
+  {
+   "point": [
+    2,
+    0.9375,
+    3.5
+   ],
+   "line": "(2/5, 1/5)",
+   "hor": "L_2",
+   "min chi2_nine": 1033.186,
+   "chi2_six there": 62.148,
+   "model/data": [
+    1.7997,
+    1.3632,
+    0.6851,
+    1.0054,
+    0.6537,
+    1.1278,
+    1.0775,
+    23.7978,
+    1.0713
+   ],
+   "min chi2_six": 45.886,
+   "h": {
+    "|e1|, |h0|, |conj h0|": [
+     0.1391,
+     0.01261,
+     0.9902
+    ],
+    "leading null": "conj h0",
+    "delta = e1 / leading": 0.14047,
+    "epsilon = other null / leading": 0.01273
+   }
+  },
+  {
+   "point": [
+    4,
+    0.0625,
+    3.5
+   ],
+   "line": "(2/5, 2/5)",
+   "hor": "L_2",
+   "min chi2_nine": 1033.186,
+   "chi2_six there": 62.148,
+   "model/data": [
+    1.7997,
+    1.3633,
+    0.6851,
+    1.0053,
+    0.6537,
+    1.1277,
+    1.0775,
+    23.7978,
+    1.0713
+   ],
+   "min chi2_six": 45.886,
+   "h": {
+    "|e1|, |h0|, |conj h0|": [
+     0.1391,
+     0.01261,
+     0.9902
+    ],
+    "leading null": "conj h0",
+    "delta = e1 / leading": 0.14047,
+    "epsilon = other null / leading": 0.01273
+   }
+  },
+  {
+   "point": [
+    7,
+    0.6875,
+    3.4
+   ],
+   "line": "(2/5, 7/10)",
+   "hor": "L_2",
+   "min chi2_nine": 1038.075,
+   "chi2_six there": 66.244,
+   "model/data": [
+    1.5855,
+    0.9496,
+    0.7332,
+    1.7692,
+    0.6646,
+    1.1821,
+    0.9653,
+    23.8621,
+    1.0155
+   ],
+   "min chi2_six": 62.199,
+   "h": {
+    "|e1|, |h0|, |conj h0|": [
+     0.17119,
+     0.00347,
+     0.98523
+    ],
+    "leading null": "conj h0",
+    "delta = e1 / leading": 0.17376,
+    "epsilon = other null / leading": 0.00352
+   }
+  }
+ ],
+ "lowest min chi2_six": 0.097
+}
