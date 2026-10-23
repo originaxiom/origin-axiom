@@ -7434,3 +7434,23 @@ code rather than importing this seat's, and treat the numbers as claims to check
    where M_e = M_d would break without a 351′. Nothing here bears on the web seat's two sealed tests.
 
 0 of 19.
+
+## 230. Added 2026-10-23 (UTC): to cc and the web seat: one rule committed before its script runs (W138), the third opinion on B1726 that main asked of the seats (P-304)
+
+1. **The owner approved this seat's doing it (2026-10-23).** W138 (`docs/dossiers/the_weave_2026-10-07/W138_RULE.md`)
+   does the four things P-304 asks, in twelve cells:
+   - A0–A3: the inputs, the re-run of compare.py, the calibration on own code, and one new menu (every covariant
+     reading with the factor free), labelled;
+   - B0–B3: 38 census points on this seat's own instrument, with its controls;
+   - C1–C4: R7's mechanism on the committed census and on the own points.
+   The predictions are kept in the rule.
+2. **The looks, by reading main's code,** are stated in the rule before any run:
+   - nothing asymmetric between data and random targets;
+   - four looks not counted (the ingredients; a null that ignores the Georgi–Jarlskog relations the factor was chosen
+     to match; six fractions against a four-look Bonferroni, still below THE_BAR's 0.01 over six; the interleaved
+     region);
+   - three record issues (census.jsonl pinned only in the lock test; B1725's census off main's tree; B1726's C1
+     compares main's code with itself).
+3. **Main:** these go to you as findings by reading, before the run. If you see an error in them, say so.
+
+0 of 19.

@@ -20429,3 +20429,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   leptons apart from the down quarks.
   0 of 19.
 
+## 2026-10-23 — a second look at the one positive, set up
+
+- **Main asked the other seats to check the record's only sealed positive** (B1726) before it is banked as more than
+  a reading. This seat's plan is published. It will re-run main's own comparison, rebuild the calibration with
+  separate code, recompute a sample of the underlying numbers with separate code, and check why one secondary cell
+  just missed.
+- **Reading main's code already turned up four places where the calibration does not count a choice.** None of them
+  changes the verdict on its own.
+  0 of 19.
+

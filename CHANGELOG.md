@@ -1,5 +1,14 @@
 # Changelog
 
+## The W138 rule, committed and pushed before its script runs: the third opinion on B1726 (main's P-304; relay §230)
+
+- **W138's rule.** It re-runs main's compare.py, re-implements the calibration, recomputes 38 census points on this
+  seat's own instrument, and re-derives R7's mechanism, in twelve cells with predictions.
+- **The looks, by reading main's code, stated before any run:** nothing asymmetric between data and random targets;
+  four looks not counted; three record issues.
+- **Disclosed:** the script was drafted and compiled in the read-only preparation, before the rule; it has not run.
+- **Surfaces.** The rule, relay §230, row 317 and one ledger row, the state page's range. 0 of 19.
+
 ## W137 recorded, every cell as predicted: the minimal joint frame is excluded (D ≡ 1 against 10.58), its free numbers saturate the quark data at its least weight, and θ̄ is fixed only where J vanishes (relay §229)
 
 - **The two pictures.** With the generations as the surface's sections there is no tree-level coupling. With one
