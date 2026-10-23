@@ -7726,6 +7726,71 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W143. P-345's first question on this seat's W133 (main's P-345 (a)): GENESIS PF1-W, the web seat's reading read on the families' joint coupling, admits exactly one Higgs line led at the cusp by the non-null eigenline in each three-generation twisted space, F₋₆ in h(12, 1) and F₋₂ in h(20, 1). Both sign families are computed on own code. In each of W133's four spaces the theta powers F_a with their forced sign are exactly the zero-free lines, the other sign never is, and every multiplicity W133 left open has its line. Every cell as predicted (`the_zero_free_higgs_signs.py`; `W143_RULE.md`)
+
+**Why.**
+- Main's B1739 found the censuses' Higgs nearly null. P-345 (a) asks for a Higgs led at the cusp by ρ(T)'s non-null
+  eigenline e₁ = (1, 0, 0), and whether GENESIS PF1-W (the web seat's reading) admits one.
+- W133 computed one sign family of zero-free lines on this seat's code. The other sign was found by the web seat and
+  proved complete by main (B1730), but was not computed here, and W133 left open which line carries which
+  multiplicity (relay §224).
+- The owner said "continue" to this as the next step.
+
+**The order.**
+- The rule (`W143_RULE.md`, 6d0c61b02) was committed and pushed before the script existed; the pre-push suite passed
+  (332 tests).
+- The script (3ae47ac3b) was committed before its one run (16 s). It reuses W133's committed post hoc code and adds
+  no new instrument.
+- Its output (6da8e5006) was committed unread, then read once.
+
+**The result (COMPUTED; every cell as predicted).**
+- **C0, the instrument and the record.** At ε = −1 the lines equal W133's theta_power_lines over the series' exact
+  range at every a scanned (13 values over the four spaces). The ε = −1 members and their multiplicities equal W133's
+  committed post hoc record.
+- **H1, membership, both signs, exact.** F_a = η^{3−a}(εθ₂^a, εθ₄^a, iθ₃^a), a ≡ 2 (mod 4), ε = i^{(a+2)/2}, scanned
+  over −30 ≤ a ≤ 42 at r ≡ 2a (mod 24):
+  - h(4, 0): F₂ (ε = −1), multiplicity 1. One line.
+  - h(4, 1): F₋₁₀ (ε = +1) 8, F₂ (−1) 12, F₁₄ (+1) 6, F₂₆ (−1) 1. Four lines (81 solutions, 12 distinct values).
+  - h(12, 1): F₋₆ (ε = −1) 4, F₆ (+1) 4, F₁₈ (−1) 1. Three lines (27 solutions, 9 distinct values).
+  - h(20, 1): F₋₂ (ε = +1) 4, F₁₀ (−1) 4, F₂₂ (+1) 1. Three lines.
+  - Each member's cube-root multiple tF_a, 2^{a+2}t³ = 1, solves W133's system exactly (normal forms on its Gröbner
+    basis), and its coordinates reproduce it to x⁶⁰. The members lie on distinct lines, and their number equals the
+    number of lines on both linear forms. So in these four spaces the theta powers are every zero-free line, as B1730
+    proved in general.
+- **H2, W133's open multiplicities.** F₆ carries 4 in h(12, 1). F₋₁₀ carries 8 and F₁₄ carries 6 in h(4, 1). F₋₂
+  carries 4 and F₂₂ is simple in h(20, 1). Every multiplicity of each characteristic polynomial has exactly one line.
+- **H3, the leading behaviour, exact.** Every member's theta parts start at x^a, x⁰ and x⁰. For a < 0 the θ₂
+  component leads alone: F₋₁₀ at (1/1024, 0, 0), F₋₆ at (−1/64, 0, 0), F₋₂ at (1/4, 0, 0), each with nonzero square.
+  For a > 0 the lead is (0, ε, i), whose square is 0. So the non-null-led lines are F₋₁₀, F₋₆ and F₋₂, exactly one in
+  each three-generation space, and none in h(4, 0).
+- **H4, read-outs.** B1740's F₋₂ = η⁵(θ₂⁻², θ₄⁻², iθ₃⁻²) is the member a = −2, ε = +1 of h(20, 1), with multiplicity
+  4. W127's index at (0, V2, V4, L6) is (−3, −1, 1, 3) in h(12, 1), (−3, −2, 1, 2) in h(20, 1), (−4, −1, 0, 3) in
+  h(4, 1) and (−1, 0, −1, 0) in h(4, 0).
+- **R1, a read-out added with the script (not in the rule; no prediction).** The opposite sign −ε lies in no space at
+  any a scanned. The sign ε = i^{(a+2)/2} is fixed by membership, not chosen.
+
+**Read after the run (labelled; no new computation).**
+- In each space with n = 1 the least a is the non-null-led line and the largest a the simple line (F₂₆, F₁₈, F₂₂).
+- The web seat's TWO_HIGGS pair, sealed on its branch today (H_u = F₆, H_d = F₂₂), is one line from each
+  three-generation space, and both are null-led. So the pair that reached the six's precision bar there is not the
+  one P-345 (a) asks for. No expectation is stated for B1740.
+
+**What it shows (the rule's fixed meaning: H1, H2 and H3 hold).**
+1. **P-345 (a)'s first question is answered yes, on this seat's own code.** GENESIS PF1-W, read on the families' joint
+   coupling, admits exactly one Higgs line led by the non-null eigenline in each three-generation twisted space: F₋₆
+   (r = 12) and F₋₂ (r = 20).
+   - B1740 tests F₋₂. It is sealed by main and running, and no expectation is stated here.
+   - F₋₆ is the other GENESIS PF1-W candidate, and nothing on record tests it. A sibling test is proposed to main.
+   - GENESIS PF1-W does not choose between the two twists or among the three lines of a space, as W133 found. "Led
+     by the non-null eigenline" is P-345's added condition, not PF1-W's.
+2. **W133's open item is closed.** Every multiplicity has its line, and the dated correction in W133's section now
+   points here.
+
+**Weave or thread.** WEAVE-type, as W133: the weave's own surface, every allowed twist, end data n ∈ {0, 1}, the
+moves' joint representation, and claims about every zero-free section at once.
+
+**Status.** COMPUTED. One run. Every cell as predicted. No data, so not a trial. 0 of 19.
+
 ## W142. The third opinion on main's B1735 (main's P-342), and an audit of its scripts and arithmetic (the owner's request): B1735's χ² calibration reproduces exactly on main's code and on a second code written differently. Its definitions are right, the row reproduces on this seat's own instrument to 10⁻¹⁰, and every statement in FINDINGS holds apart from two wording slips, so main made no error in code or arithmetic. One cell failed as worded: main's control.py, re-run here, reproduces control.json to 2.7 × 10⁻¹¹, not 10⁻¹², an environment difference diagnosed post hoc. The match needs the lepton factor (without it χ² is 105) and survives a 5% allowance (5.71). A value-level READING with τ fitted (`the_third_opinion_b1735.py`; `W142_RULE.md`)
 
 **Why.**
@@ -8482,6 +8547,8 @@ both resolved post hoc and labelled. A stray re-execution of W133's script is di
     (relay CHAT1_TO_SM_AND_CC_2026-10-23_W133_CHECKED on its branch), and main proved that every zero-free
     weight-3/2 Higgs is a multiple of one F_a, a ≡ 2 (mod 4) (B1730). Which new line carries which of the unassigned
     multiplicities is not checked. Relay §224.)*
+  - *(2026-10-23, W143: checked on this seat's code. F₋₁₀ carries 8 and F₁₄ carries 6 in h(4, 1), F₆ carries 4 in
+    h(12, 1), and F₋₂ carries 4 and F₂₂ is simple in h(20, 1). Relay §241.)*
 - **W127's index at n = 1:** r = 12 gives (−3, −1, 1, 3) at (0, V2, V4, L6), three at 0 and at L6; r = 20 gives
   (−3, −2, 1, 2), three at 0.
 
@@ -12073,6 +12140,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W143 | COMPUTED (the rule first; one run; every cell as predicted); WEAVE-type, as W133 | P-345 (a) on W133: both sign families of zero-free theta-power lines F_a = η^{3−a}(εθ₂^a, εθ₄^a, iθ₃^a), ε = i^{(a+2)/2}, on this seat's code. In each of W133's four spaces they are exactly the zero-free lines (1, 4, 3, 3), and the other sign never is. W133's open multiplicities closed: F₋₁₀ 8, F₁₄ 6, F₆ 4, F₋₂ 4, F₂₂ 1. The lines led at the cusp by the non-null eigenline are exactly F₋₁₀, F₋₆ and F₋₂, so GENESIS PF1-W admits exactly one in each three-generation space: F₋₆ (r = 12) and F₋₂ (r = 20, B1740's). F₋₆ is untested; a sibling test is proposed to main. No data, so not a trial. 0 of 19 |
 | W142 | COMPUTED (the rule first, after a read-only audit of main's code; one run; every cell as predicted except A1, failed as worded, diagnosed post hoc as an environment difference) | the third opinion on main's B1735 (P-342) and an audit of its scripts and arithmetic: calib_chi2.py's per-seed fractions reproduced exactly on main's code and on a second code (direct sums); σ and the χ² definition as main says; the row on this seat's own instrument to 10⁻¹⁰; FINDINGS right apart from two wording slips. No error in main's code or arithmetic. control.py re-run here reproduces control.json to 2.7 × 10⁻¹¹, not 10⁻¹². The match needs the lepton factor (c = 1 gives χ² 105) and survives a 5% allowance (5.71). A value-level READING with τ fitted, bankable as that and no more. 0 of 19 |
 | W141 | COMPUTED (the rule first, after a read-only preparation, disclosed; one run; every cell as predicted); a check of main's census of one frame | the third opinion on main's B1734 (P-339): compare.py re-runs to the bit; a second calibration gives the same 120 fractions and B1735's labelled ones; the all-orders cost reproduces exactly, and over 20 seeds the seat's six are at 1.15% (16 of 20 seeds above 1%); 28 census points and the three named rows reproduce on this seat's own instrument to 10⁻⁹; B1733's line sets, the Smith rule and B1720's apexes hold exactly; D = 9 on every order-5 row; the 190 points are 116 distinct, 74 shared by mirror threads. B1734 is a replicated READING carried by one point whose D = 9 the data exclude, bankable as that and no more. 0 of 19 |
 | W140 | COMPUTED (the rule first; one run; every cell as predicted); C1 WEAVE, C2–C4 a census of thread objects | the hypercharge line inside E₆: the moves jointly fix only the trivial line (every N ≤ 12; orbits = exact orders), so the weave's joint frame keeps D ≡ 1 and any split is a thread's line; B1713's 266 lines are the threads' (each fixed by LᴺRᴺ). A generic twist-dependent coupling reproduces main's B1728 law exactly (d = e at N ∈ {1, 2, 4, 5}, u = d at {1, 2, 3, 6}, u = e at {1, 2, 7}, the 7 from the sign); in E₆'s extended matrices d = e only at N ∈ {1, 5}: the 27's exotics undo the order-2 and order-4 coincidences, so 13 of 266 lines keep the tie against 22 in main's frame. No data. 0 of 19 |

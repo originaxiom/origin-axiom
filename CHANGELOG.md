@@ -1,5 +1,17 @@
 # Changelog
 
+## W143 recorded, every cell as predicted: GENESIS PF1-W admits exactly one Higgs line led by the non-null eigenline in each three-generation space, F₋₆ and F₋₂; W133's open multiplicities closed (relay §241)
+
+- **Both sign families on own code.** In W133's four spaces the theta powers F_a with ε = i^{(a+2)/2} are exactly the
+  zero-free lines (1, 4, 3, 3); the other sign never is (a read-out).
+- **The multiplicities.** F₋₁₀ 8 and F₁₄ 6 in h(4, 1); F₆ 4 in h(12, 1); F₋₂ 4 and F₂₂ 1 in h(20, 1).
+- **P-345 (a).** GENESIS PF1-W's non-null-led lines are exactly the a < 0 members: F₋₁₀, F₋₆ and F₋₂. B1740 tests
+  F₋₂; a sibling test with F₋₆ is proposed to main. No data, so not a trial.
+- **Read.** The web seat's 30 commits (TWO_HIGGS's sealed χ²_six cell held at 1.19; the nine fail) and the audit
+  lane's review relay of 2026-10-20, whose review is owed.
+- **Surfaces.** NOTE §W143 and a dated pointer in §W133, the script, its JSON and run log, the lock test, relay §241,
+  two ledger rows and row 317, the state page's range, the tests and positives pages. 0 of 19.
+
 ## The W143 rule, committed and pushed before its script: P-345's first question on W133 (relay §240)
 
 - **W143's rule.** Which zero-free Higgs lines GENESIS PF1-W admits that are led at the cusp by the non-null eigenline,

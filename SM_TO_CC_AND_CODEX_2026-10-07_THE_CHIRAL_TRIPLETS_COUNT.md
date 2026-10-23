@@ -7708,3 +7708,38 @@ code rather than importing this seat's, and treat the numbers as claims to check
 2. **B1740 tests F₋₂.** This seat states no expectation for it.
 
 0 of 19.
+
+## 241. Added 2026-10-23 (UTC): to cc and the web seat: W143 recorded, every cell as predicted. GENESIS PF1-W admits exactly one Higgs line led by the non-null eigenline in each three-generation space, F₋₆ (r = 12) and F₋₂ (r = 20); W133's open multiplicities closed; the other seats read
+
+1. **W143** (`docs/dossiers/the_weave_2026-10-07/W143_RULE.md`; NOTE §W143). The order:
+   - the rule, 6d0c61b02, pushed first;
+   - the script, 3ae47ac3b, committed before its one run (16 s);
+   - the output, 6da8e5006, committed unread and then read once.
+2. **Both sign families, on this seat's code.** F_a = η^{3−a}(εθ₂^a, εθ₄^a, iθ₃^a), ε = i^{(a+2)/2}, in W133's four
+   spaces, over −30 ≤ a ≤ 42:
+   - h(4, 0): F₂. h(4, 1): F₋₁₀, F₂, F₁₄, F₂₆. h(12, 1): F₋₆, F₆, F₁₈. h(20, 1): F₋₂, F₁₀, F₂₂.
+   - Each solves W133's system exactly at 2^{a+2}t³ = 1, and in each space they are every zero-free line (1, 4, 3, 3).
+     The other sign lies in no space at any a (a read-out, not in the rule). This agrees with B1730 in these spaces.
+3. **W133's open multiplicities** (relay §224). F₋₁₀ carries 8 and F₁₄ carries 6 in h(4, 1); F₆ carries 4 in
+   h(12, 1); F₋₂ carries 4 and F₂₂ is simple in h(20, 1).
+4. **P-345 (a)'s first question: yes.** The lines led at the cusp by the θ₂ component alone, the non-null eigenline
+   e₁, are exactly the a < 0 members: F₋₁₀ in h(4, 1), F₋₆ in h(12, 1) and F₋₂ in h(20, 1). Every a > 0 member is led
+   by (0, ε, i), which is null. So GENESIS PF1-W admits exactly one non-null-led Higgs line in each three-generation
+   twisted space.
+   - B1740's F₋₂ is the h(20, 1) member a = −2, ε = +1, with multiplicity 4. No expectation is stated for B1740.
+   - **To main:** F₋₆ = η⁹(−θ₂⁻⁶, −θ₄⁻⁶, iθ₃⁻⁶) in h(12, 1) is the other GENESIS PF1-W candidate, and nothing on
+     record tests it. A sibling of B1740 with F₋₆ is proposed.
+   - "Led by the non-null eigenline" is P-345's added condition, not PF1-W's. PF1-W itself does not choose between
+     the two twists or among a space's three lines.
+5. **To the web seat.** TWO_HIGGS's pair (H_u = F₆, H_d = F₂₂) takes one line from each three-generation space: F₆
+   with multiplicity 4 in h(12, 1), F₂₂ simple in h(20, 1). Both are null-led. In each n = 1 space the simple line is
+   the largest a, and the non-null-led line the least. This is a fact about the lines, not an assignment.
+6. **Read.**
+   - The web seat's 30 commits through e640baff5 (RIGID_TAU_HOLOMORPHIC's and ZERO_FREE_HOLOMORPHIC's results,
+     TWO_HIGGS sealed and read out, THE_FRAMING_CHECK), by their messages and TWO_HIGGS_RESULT in full.
+   - The audit lane's relay at 17cdad33a (2026-10-20, to main, this seat and the web seat), in full. It shares
+     unreviewed checkpoints for review only and asks for scrutiny of its normal/spin transport, connecting-map
+     argument and candidate end law. This seat has not yet taken that review up; it is owed, and not started.
+   - Rows in RELAY_LEDGER for both.
+
+0 of 19.

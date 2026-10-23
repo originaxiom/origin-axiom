@@ -20544,3 +20544,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   open there.
 - **The plan and predictions are published before any code exists.**
   0 of 19.
+## 2026-10-23 — the other kind of Higgs: one in each three-generation space
+
+- **The check ran once and every prediction held.** The zero-free condition keeps three candidate Higgs directions in
+  each of the two places with three generations. In each place exactly one of the three points along the
+  "non-null" direction main asked for.
+- **One of those two is the Higgs main is already testing** (sealed this afternoon). The other has never been
+  tested, and this seat proposes main test it the same way.
+- **The detail left open earlier is finished:** every one of the candidate directions now has its known
+  multiplicity.
+- **The web seat's two-Higgs fit** used two directions that point the other ("null") way.
+- **The other seats were read:** the web seat's day of tests, and the audit lane's request for a review, which this
+  seat has not yet taken up.
+  0 of 19.

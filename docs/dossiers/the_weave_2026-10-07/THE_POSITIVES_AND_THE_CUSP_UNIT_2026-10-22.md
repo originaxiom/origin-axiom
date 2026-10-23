@@ -101,6 +101,11 @@ Each takes every thread the principle allows under one rule, and its claim is ab
     0.03% of random hierarchies as good, the first value-level contact on record. This seat's third opinion, W142,
     reproduces it and finds no error in main's code. Without the lepton factor the same rows reach only χ² 105. A
     value-level READING with τ fitted and both ingredients by hand.)*
+    *(Later still, in the web seat's own record: RIGID_TAU_HOLOMORPHIC met the coarse cells at two different apexes,
+    with no row meeting both and the values failing (χ² 49 and 146). TWO_HIGGS, with H_u = F₆ and H_d = F₂₂ chosen by
+    the data out of six pairs, held the first sealed χ²_six cell on record (1.19), with τ fitted and c = 3 by hand.
+    The nine fail (154): the mixing is too small and D = 9. This seat's W143: both lines of that pair are null-led;
+    the lines led by the non-null eigenline are F₋₆ and F₋₂.)*
 - **The magnitudes side is a clean negative.** The forced menu fits the hierarchy no better than chance (p = 0.139,
   W112).
 

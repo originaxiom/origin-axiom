@@ -4337,3 +4337,36 @@ def test_w142_the_third_opinion_b1735():
     assert d["C1"]["slip_1_grid_step_not_all_0.15"] and d["C1"]["slip_2_factor_below_5"]
     assert abs(sum(x * x for x in d["B"]["row"]["pulls"]) - 3.0945633) < 1e-6
     assert 16.75 < chi2.ppf(0.99, 6) < 16.82 and abs(chi2.ppf(0.99, 9) - 21.67) < 1e-2
+
+
+def test_w143_the_zero_free_higgs_signs():
+    """W143, P-345 on W133: every cell as recorded (both signs: the members of each space, W133's open multiplicities,
+    exactly one non-null-led line in each three-generation space); in process, B1740's F_-2 lies in h(20, 1), the other
+    sign does not, and its leading part at the cusp is e_1 with square 1/16"""
+    import contextlib
+    import importlib.util
+    import io
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_zero_free_higgs_signs.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"H1": True, "H2": True, "H3": True, "H4": "read-out"}
+    assert all(v for c in d["C0 the instrument and the record"].values() for v in c.values() if isinstance(v, bool))
+    assert {k: v["members"] for k, v in d["H1"].items()} == {
+        "r=4 n=0": [2], "r=4 n=1": [-10, 2, 14, 26], "r=12 n=1": [-6, 6, 18], "r=20 n=1": [-2, 10, 22]}
+    assert d["H2"]["F_6 in h(12, 1)"] == 4
+    assert d["H2"]["F_-10, F_14 in h(4, 1)"] == [8, 6] and d["H2"]["F_-2, F_22 in h(20, 1)"] == [4, 1]
+    assert [d["H3"][k]["the non-null-led members"] for k in ("r=4 n=0", "r=4 n=1", "r=12 n=1", "r=20 n=1")] == [
+        [], [-10], [-6], [-2]]
+    assert not any(v for o in d["per space"].values()
+                   for v in o["R1 the opposite sign -eps lies in h (read-out, not in the rule)"].values())
+    sys.path.insert(0, str(here))
+    spec = importlib.util.spec_from_file_location("w143_lock", here / "the_zero_free_higgs_signs.py")
+    W = importlib.util.module_from_spec(spec)
+    with contextlib.redirect_stdout(io.StringIO()):
+        spec.loader.exec_module(W)
+    forms = W.W133.basis(20, 1)
+    assert W.eps_of(-2) == 1 and W.eps_of(-6) == -1
+    assert W.PH.coords(forms, W.lines(-2, 20, 1)) is not None
+    assert W.PH.coords(forms, W.lines(-2, 20, -1)) is None
+    lead = W.leading(-2, 20, 1)
+    assert lead["proportional to e_1 (non-null)"] and lead["its square"] == "1/16"

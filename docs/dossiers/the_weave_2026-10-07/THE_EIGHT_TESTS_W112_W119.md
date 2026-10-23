@@ -244,6 +244,9 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
      *(Later the same day: main sealed B1741, τ from the thread rule with the line free, the twenty-seventh here; no
      expectation. This seat's third opinion on B1735, W142, finds its χ² of 3.09 reproduced and no error in main's
      code; the match needs the lepton factor. A value-level READING with τ fitted, post hoc.)*
+     *(Later still: W143 finds GENESIS PF1-W's Higgs lines led by the non-null eigenline on this seat's code,
+     F₋₆ and F₋₂, one in each three-generation space. It is not a test against data, so the count is
+     unchanged.)*
    - A future single pass must be read against this count, and against the earlier data comparisons. Those are not
      yet counted here: W53, W54, W57, W66, W69, W88, W90 and W94 on this seat, and main's own. OPEN.
 
