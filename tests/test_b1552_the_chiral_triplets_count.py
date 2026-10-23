@@ -4138,3 +4138,33 @@ def test_w135_the_joint_computation():
     assert ok3 and k3["per k"]["21"]["order"] == 24
     rS, rT = W.W134.rho_exact()
     assert sp.simplify(rS ** 2 * rT * rS * rT * rS.inv()) == sp.Matrix([[0, 0, -1], [1, 0, 0], [0, 1, 0]])
+
+
+def test_w136_the_coupling_forms():
+    """W136, the coupling forms: every cell as recorded; in process, the joint family group is the cube's 24 rotations,
+    and the harmonic route gives dim M_10(rho') = 3, dim M_8(1') = 0 and C(10) = 9"""
+    import contextlib
+    import importlib.util
+    import io
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_coupling_forms.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"L0": True, "L1": True, "L2": True, "L3": True}
+    tab = d["L1"]["the table, even w to 24 (route a)"]
+    assert [tab[str(w)]["rho'"] for w in range(0, 13, 2)] == [0, 1, 1, 2, 2, 3, 3]
+    assert [tab[str(w)]["1'"] for w in range(0, 13, 2)] == [0, 0, 0, 1, 0, 1, 1]
+    assert d["L1"]["the generating weights found"] == {
+        "1": [0], "1'": [6], "2": [2, 4], "rho'": [2, 4, 6], "rho' (x) sgn": [4, 6, 8]}
+    assert d["L4 (read-out)"]["the least weight carrying a form"] == {
+        "1": 0, "1'": 6, "2": 2, "rho'": 2, "rho' (x) sgn": 4}
+    sys.path.insert(0, str(here))
+    spec = importlib.util.spec_from_file_location("w136_lock", here / "the_coupling_forms.py")
+    W = importlib.util.module_from_spec(spec)
+    with contextlib.redirect_stdout(io.StringIO()):
+        spec.loader.exec_module(W)
+    S, T = W.twisted(21)
+    G = W.closure([W.to_gauss(S), W.to_gauss(T)], W.mul, W.eye(3))
+    assert len(G) == 24
+    c = W.route_c(G, 10)
+    assert c[10]["rho'"] == 3 and c[8]["1'"] == 0
+    assert c[10]["1'"] + 2 * c[10]["rho'"] + c[10]["rho' (x) sgn"] == 9

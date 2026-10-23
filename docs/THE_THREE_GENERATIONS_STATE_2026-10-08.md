@@ -113,6 +113,10 @@ Under the owner's rulings, the table's rows split into two groups:
     moves, the same for every thread. One founding ratio cycles the family 3 and the parities, so B1030's trit is
     their identification's ℤ/3. E₈'s determinant condition is the moves' anomaly of the full 27. The joint family group
     has no cubic invariant, so every family mass must be a modular form of τ. GENESIS FK10 and FK11 stay open.
+  - *Added 2026-10-23.* Those forms are level-4 modular forms: the joint family group is Γ₄ = PSL(2, ℤ/4) (W136).
+    The least coupling is weight 2 in ρ′, with two channels, and equals η times the zero-free Higgs line F₋₂.
+    ρ′ ⊗ sgn starts at weight 4 and 1′ at weight 6. Weight w allows C(w) = 2, 3, 6, 6, 9, 10 independent
+    couplings (w = 2 to 12). The weight, τ and the constants are not fixed. The web seat's blind count agrees.
 - **No index on a thread or a cover:** NEGATIVE (main's B1604).
 - **The E₈ frames on the fibre give at most two complete generations:** NEGATIVE (W23).
 - **No six-dimensional object the weave forces gives three:** NEGATIVE (W24).
@@ -931,4 +935,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W119 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§225).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§226).

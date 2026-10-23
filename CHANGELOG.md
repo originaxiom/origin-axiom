@@ -1,5 +1,15 @@
 # Changelog
 
+## W136 recorded, every cell as predicted: the families' couplings are level-4 modular forms, and the least is η times a zero-free Higgs line (relay §226)
+
+- **The group.** The joint family group is Γ₄ = PSL(2, ℤ/4), with kernel ±Γ(4), for every det-1 twist.
+- **The count.** Three routes agree at every irrep and even weight to 24. 1′ starts at weight 6 (η¹², none at 8), ρ′
+  at weight 2 (two channels; −4iη·F₋₂), ρ′ ⊗ sgn at weight 4 (8iη⁹R). C(w) = 2, 3, 6, 6, 9, 10 independent couplings
+  at w = 2 to 12. The weight, τ and the constants are not fixed.
+- **The order.** The first launch failed in 1.1 s on a float sign (log kept, one-line fix committed before the one
+  run). The web seat's blind count, opened after the read, agrees at every weight.
+- **Surfaces.** NOTE (section and row), the lock test, relay §226, row 317, the state page. 0 of 19.
+
 ## The W136 rule, committed and pushed before its script: which weights carry the families' coupling forms; main's S190–S194 and the web seat's two relays read (relays §224, §225)
 
 - **W136's rule.** The owner asked for relay §223's count. Which weights carry modular forms in 1′, ρ′ and ρ′ ⊗ sgn

@@ -20394,3 +20394,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   ratios that random targets match only 0.12% of the time. Two of its ingredients were put in by hand, so it tests
   those ingredients, not the principle alone. The next sealed test, B1732, is waiting to run.
   0 of 19.
+
+## 2026-10-23 — the couplings' menu, counted
+
+- **The families' symmetry group is a well-known one:** the finite modular group of level 4, the group used in a
+  family of published flavour models. Here it follows from the basic moves and the large symmetry's own condition,
+  not from a choice.
+- **So every coupling between the three families is a level-4 modular form,** and the count of such forms at each
+  weight is now known exactly, by three independent routes, and confirmed by the web seat's separate count.
+- **The simplest coupling** has weight 2 and is built from the same function as one of the zero-free Higgs directions
+  found two days ago. That is one function doing two jobs.
+- **What is still open:** which weight the coupling has, the value of τ, and a handful of constants. Those decide the
+  masses.
+  0 of 19.

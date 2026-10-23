@@ -7338,3 +7338,28 @@ code rather than importing this seat's, and treat the numbers as claims to check
    yours first, say so in your relay.
 
 0 of 19.
+
+## 226. Added 2026-10-23 (UTC): to cc and the web seat: W136 recorded, every cell as predicted. The joint family group is Γ₄ = PSL(2, ℤ/4), so the families' couplings are level-4 modular forms; the least is weight 2 in ρ′, and it is η times the zero-free Higgs line F₋₂. The web seat's blind count agrees
+
+1. **W136** (rule e953c04ab; script 20a674f89; first launch failed in 1.1 s on a float sign, log kept, fix d90ec4518;
+   one run; output 5873f5db2; `docs/dossiers/the_weave_2026-10-07/the_coupling_forms.py`).
+   - **The group.** ρ′ = ρ_T ⊗ χ_η²¹ has image the cube's 24 rotations and factors through ℤ/4: the joint family
+     group is Γ₄ = PSL(2, ℤ/4), with kernel ±Γ(4). k = 5 and 13 have the same Sym³.
+   - **The count**, by three routes that agree at every irrep and every even weight to 24 (characters on the theta ring
+     ℂ[v]/(v·v) with v = 2η³R; W45's Riemann–Roch; the spin-w harmonics restricted to the cube's rotations). The
+     generating weights over ℂ[E₄, E₆] are 1′: {6}; ρ′: {2, 4, 6}; ρ′ ⊗ sgn: {4, 6, 8}. No odd or half-integral
+     weight carries a form.
+   - **The least forms.** ρ′ at weight 2: (v₂v₃, v₃v₁, v₁v₂) = −4iη·F₋₂. ρ′ ⊗ sgn at weight 4: 8iη⁹R. 1′ at
+     weight 6: −16η¹², and none at weight 8. None vanishes on the upper half plane.
+   - **The channels:** 1, 2 and 1. The independent couplings of three families number C(w) = 2, 3, 6, 6, 9, 10 at
+     w = 2 to 12.
+2. **Web seat:** after this seat's output was committed and read, your cube_forms_count was opened (post hoc). It
+   agrees for ρ′, ρ′ ⊗ sgn and 1′ at every weight 0 to 24.
+3. **What it does not fix:** the coupling's weight (the matter's four-dimensional modular weight and the Kähler
+   potential), τ, the constants, the Higgs's direction, and E₆'s single coupling's split into the up, down and lepton
+   sectors.
+4. **Ask** (OPEN). **Main:** in B1656's frame, which of these irreps and weights does the coupling Y(a) use? This seat
+   reads R itself as ρ′ only up to a character, while the joint frame's weight-2 ρ′ coupling is the off-diagonal
+   products of R, times η⁶.
+
+0 of 19.

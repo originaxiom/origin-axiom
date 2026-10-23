@@ -7726,6 +7726,94 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W136. The coupling forms (the owner's request, relay §223's next count): the joint family group is Γ₄ = PSL(2, ℤ/4), the finite modular group of level 4, so the families' couplings are level-4 modular forms. The least coupling is weight 2 in ρ′, with two channels, and it is η times the zero-free Higgs line F₋₂; ρ′ ⊗ sgn starts at weight 4 with η⁹R, and 1′ at weight 6 with η¹², absent at weight 8. At weight w the joint frame allows C(w) = 2, 3, 6, 6, 9, 10 independent couplings (w = 2, …, 12). Every cell as predicted; the web seat's blind count agrees at every weight to 24 (`the_coupling_forms.py`; `W136_RULE.md`)
+
+**Why.**
+- W135 found that the joint family group allows no τ-independent cubic coupling. So every family mass must come from
+  a vector-valued modular form Y(τ) in an irrep of Sym³ρ′ = 1′ ⊕ 2ρ′ ⊕ ρ′ ⊗ sgn.
+- Relay §223 named the next count: which weights carry forms in those irreps. The owner asked this seat to make it
+  (2026-10-23).
+
+**The order.**
+- The rule (`W136_RULE.md`, e953c04ab) was committed and pushed before the script existed.
+- The script (20a674f89) was committed before its first launch. Before that commit it was only compiled.
+- **The first launch failed** after 1.1 s, in L0's ring ranks, before any output was written. Nothing was printed but
+  the traceback, which is kept (`the_coupling_forms_run_failed_launch_1.txt`). θ₄²'s sign (−1)^{m+n} is a Python
+  float when m + n < 0, and flint's integer matrix refuses floats.
+- The one-line fix (d90ec4518) was committed before the second launch, the one run (2.8 s). Its output (5873f5db2) was
+  committed unread, then read once.
+- The web seat's same count (its cube_forms_count, committed before this rule) was opened only after that read.
+
+**The result (COMPUTED, exact; every cell as predicted).**
+- **L0, the instrument.**
+  - ρ′ = ρ_T ⊗ χ_η²¹ gives ρ′(S) = −P and ρ′(T) = L⁻¹ exactly. Its image is all 24 signed permutation matrices of
+    determinant 1, the cube's rotations, with ρ′(−I) = 1 and ρ′(T)⁴ = 1.
+  - ⟨s, t | s², (st)³, t⁴⟩ has order 24, and the pairs (γ mod 4, ρ′(γ)) number 48 = \|SL(2, ℤ/4)\|. So ρ′
+    factors through ℤ/4 and **the joint family group is Γ₄ = PSL(2, ℤ/4)**, with kernel ±Γ(4).
+  - v = 2η³R = (−θ₂², −θ₄², iθ₃²) transforms by ρ_T ⊗ χ_η³ (a scalar times ρ′) under S and T, to 5 × 10⁻⁶¹ at five
+    random τ. v·v = 0 (Jacobi) and θ₂θ₃θ₄ = 2η³, to 4 × 10⁻⁶¹.
+  - The monomials of degree w in v span exactly 2w + 1 q-series for every w ≤ 12 (exact rank).
+- **L1, the count** (three routes, which agree at every σ and every even w ≤ 24):
+  (a) characters on ℂ[v]_w/(v·v) over the 48 elements;
+  (b) W45's Riemann–Roch formula;
+  (c) the spin-w harmonics restricted to the cube's rotations, twisted by sgn^{w/2}.
+
+  | w | 1 | 1′ | 2 | ρ′ | ρ′ ⊗ sgn | 2w + 1 | C(w) |
+  | --- | --- | --- | --- | --- | --- | --- | --- |
+  | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
+  | 2 | 0 | 0 | 1 | 1 | 0 | 5 | 2 |
+  | 4 | 1 | 0 | 1 | 1 | 1 | 9 | 3 |
+  | 6 | 1 | 1 | 1 | 2 | 1 | 13 | 6 |
+  | 8 | 1 | 0 | 2 | 2 | 2 | 17 | 6 |
+  | 10 | 1 | 1 | 2 | 3 | 2 | 21 | 9 |
+  | 12 | 2 | 1 | 2 | 3 | 3 | 25 | 10 |
+  | 24 | 3 | 2 | 4 | 6 | 6 | 49 | 20 |
+
+  - Each M(σ) is free over ℂ[E₄, E₆] with generating weights 1: {0}; 1′: {6}; 2: {2, 4}; ρ′: {2, 4, 6};
+    ρ′ ⊗ sgn: {4, 6, 8}. Each sum is 12 Σλ over σ(T)'s exponents (0; 1/2; 0, 1/2; 0, 1/4, 3/4; 1/4, 1/2, 3/4).
+  - No odd or half-integral weight carries a form for any σ.
+- **L2, the least forms** (laws under S and T, and identities, to 1.5 × 10⁻⁶⁰ at five random τ).
+  - ρ′ at weight 2: Y₂ = (v₂v₃, v₃v₁, v₁v₂) = −4iη·F₋₂.
+  - ρ′ ⊗ sgn at weight 4: Y₄ = v₁v₂v₃·v = 8iη⁹R = 4iη⁵·F₂.
+  - 1′ at weight 6: Y₆ = (v₁v₂v₃)² = −16η¹².
+  - Each spans its space. Each component is a product of powers of η and the thetas, so none vanishes on the upper
+    half plane.
+- **L3, the channels.**
+  - The invariant cubics linear in a Y of type σ have dimensions 0, 1, 0, 2, 1 for 1, 1′, 2, ρ′, ρ′ ⊗ sgn.
+  - A basis: 1′: Y·Φ₁Φ₂Φ₃; ρ′: (Y·Φ)(Φ·Φ) and Σ Y_aΦ_a³; ρ′ ⊗ sgn: Σ Y_aΦ_a(Φ_{a+1}² − Φ_{a+2}²).
+  - Sym³ρ′_k = Sym³ρ′₂₁ exactly for k = 5 and 13, so the count holds for every det-1 twist.
+  - C(w) continues 12, 13, 16, 16, 19, 20 at w = 14, …, 24.
+- **L4, the read-out.** For a Higgs direction h in family space, the weight-2 coupling gives the mass matrix
+  M(h) = g₁[(Y₂·h)𝟙 + Y₂hᵀ + hY₂ᵀ] + 3g₂ diag(Y₂,ₐhₐ), recorded as found.
+
+**After the read (POST HOC, labelled).**
+- **The web seat's count agrees.** Its cube_forms_count (scripts 4542987c2 and bf1bb8713 on its branch, built on its
+  W133 check's weakly holomorphic basis) gives the same dimensions for ρ′, ρ′ ⊗ sgn and 1′ at every weight 0 to 24, and
+  zero at every odd weight. Two independent constructions, blind to each other on this side.
+
+**What it shows (the rule's fixed meaning, its first branch).**
+1. **The joint frame's couplings are level-4 modular forms.**
+   - W58 found that the record's triplet untwists to Γ₄ for two characters. Here every det-1 twist that E₈'s family slot
+     requires (W134, W135) couples through Γ₄: k = 21 is Γ₄ itself, and k = 5 and 13 have the same Sym³.
+   - So the group of the modular-S₄ flavour models is reached from the moves and E₈'s condition, with no character
+     chosen.
+2. **The least coupling is weight 2, in ρ′, with two channels, and it is η times the zero-free Higgs line F₋₂.**
+   The families' least coupling and a zero-free Higgs are one function.
+3. **The 1′ channel** (main's zero-diagonal texture) starts at weight 6 with η¹². It is absent at weight 8 and present
+   at every even weight from 10. **The ρ′ ⊗ sgn channel** starts at weight 4 with η⁹R.
+4. **Nothing here fixes the weight.** Each choice leaves C(w) complex constants, plus τ and the Higgs's direction. At
+   the least weight that is two constants, one ratio after normalisation. The weight waits on the matter's
+   four-dimensional modular weight and the Kähler potential.
+
+**What stays open.** The weight; τ; the constants; the Higgs's direction (W133, B1730, B1731; the owner's P-303); the
+breaking of E₆'s single coupling into the up, down and lepton sectors.
+
+**Weave or thread.** WEAVE-type: the moves' joint representation, every irrep of the joint family group, every even
+weight to 24, all three det-1 twists, and claims about every coupling at once.
+
+**Status.** COMPUTED, exact. One run after a failed launch, disclosed. Every cell as predicted. The web seat's count,
+read post hoc, agrees. No data, so not a trial. 0 of 19.
+
 ## W135. The joint computation (the owner's point that the record's pieces were never computed together): every piece imposed at once on the weave's surface. The skeleton is one frame: E₈ and E₆ × SU(3) come from the moves, unique up to the moves; one founding ratio cycles both threes, so B1030's trit is the ℤ/3 of their identification; E₈'s determinant condition is the moves' anomaly of the full 27. The flesh is forbidden at the constant level: the joint family group, the cube's rotations, has no cubic invariant, so every family mass must be a modular form of τ in one of three irreps (`the_joint_computation.py`; `W135_RULE.md`)
 
 **Why.**
@@ -11542,6 +11630,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W136 | COMPUTED, exact (the rule first; one run after a failed launch, disclosed; every cell as predicted; the web seat's blind count agrees, read post hoc); WEAVE-type | the coupling forms: the joint family group is Γ₄ = PSL(2, ℤ/4), kernel ±Γ(4), so the families' couplings are level-4 modular forms. dim M_w(σ) for every irrep and even w ≤ 24 by three routes; generating weights 1: {0}, 1′: {6}, 2: {2, 4}, ρ′: {2, 4, 6}, ρ′ ⊗ sgn: {4, 6, 8}. The least forms: Y₂ = −4iηF₋₂ (ρ′, weight 2, two channels), Y₄ = 8iη⁹R (ρ′ ⊗ sgn, weight 4), Y₆ = −16η¹² (1′, weight 6; none at 8). C(w) = 2, 3, 6, 6, 9, 10 independent couplings at w = 2 … 12; the weight, τ and the constants are not fixed. 0 of 19 |
 | W135 | COMPUTED, exact (the rule first; one run; every cell as predicted); WEAVE-type | the joint computation, every piece at once on the weave's surface: E₈ and E₆ × SU(3) from the moves (B1270's icosians, Gram det 1), the 10 frames of 2I's order-3 subgroups conjugate under the moves, so the frame is the same for every thread; one founding ratio g = −RL⁻¹ cycles the family 3's weights and the parities (ρ(g) a signed 3-cycle), with exactly 3 identifications, so B1030's trit is their ℤ/3; the full 27's moves anomaly 18(3 + r + m), 81(3 + r + m) vanishes iff m ≡ 5 − r mod 8, E₈'s determinant condition (W132 = W134); the joint family group is the cube's rotations (order 24), with Sym³ρ′ = 1′ ⊕ 2ρ′ ⊕ ρ′ ⊗ sgn and no invariant, so no constant Yukawa: every family mass is a modular form Y(τ) in one of three irreps, the record's modular-flavour frames (main's zero-diagonal texture and Y(a), by hand). 0 of 19 |
 | W134 | COMPUTED, exact (the rule first; one run; E2 and E3 as predicted; E0 and E1 failed as run on one instrument check each, resolved post hoc); WEAVE-type | the bridge: the weave's triplet ρ in the family slot of E₈ ⊃ E₆ × SU(3) on the weave's surface: det(ρ ⊗ ε_r) = χ_η^{9+3r} is never trivial, and the det-1 twists allow only even weights, so no flat SU(3) family carries the matter at the forced weight 3/2; a dressing η^m (m twenty-fourths of the cusp unit) makes it SU(3) iff m ≡ 5 − r mod 8, so E₈ excludes both the empty end and the whole unit (GENESIS FK10's); at the least datum (m = 1 or −3) at most one chiral 27, for \|m\| ≤ 16 at most two, and three at exactly twelve data, the least at 17/24 of a unit (ε₄ or ε₁₂, condition 0); the tree-level Yukawa vanishes on the surface; the question moves from "is the unit forced?" to "what fixes m?". 0 of 19 |
 | W133 | COMPUTED, exact (the rule first; one run after a failed launch, disclosed; P0 and P1 as predicted; P2 FAILED as predicted; three post-hoc passes, labelled); WEAVE-type | the web seat's PF1-W, its reading of GENESIS PF1, on the families' joint coupling N(F) = F_iF_jF_k: N carries χ_η^{21+3r}, so no untwisted Higgs is admissible at any end datum, the record's three-generation Higgs (W123, B1700, main's C8) among them; but the twisted spaces with one unit are not emptied (predicted: only η⁴R): the cubic system N′(g) = η^{9−3r} is zero-dimensional, square by modularity, with 3^{dim} solutions with multiplicity, which are exactly dim h lines (1, 4, 3, 3 in h(4, 0), h(4, 1), h(12, 1), h(20, 1); exact, post hoc); the explicit sections η^{3−a}(−θ₂^a, −θ₄^a, iθ₃^a), a ≡ 2 mod 8, give 6 of the 11 lines; in h(12, 1) and h(20, 1) the count is three; so PF1-W forces a twisted Higgs and cuts each space to finitely many lines, 3 in each three-generation space, but selects no single one. 0 of 19 |
