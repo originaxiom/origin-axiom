@@ -87,6 +87,10 @@ Each takes every thread the principle allows under one rule, and its claim is ab
     1.62, but 7.06% of random hierarchies as good. The specificity was DR's.
   - The twenty-fourth, this seat's W137, is parameter-free: the minimal joint frame forces m_e = m_d and m_μ = m_s,
     so D ≡ 1 against 10.58. It is excluded.
+  - The web seat's sealed tests are numbered in its own record. Its TICK_LINE_HIGGS held as sealed (2026-10-23:
+    the six within 1.55 and the nine within 2.04 on the tick's lines, 0.15% and 0.11% of random as good). Its
+    own limit: the hypothesis and menu were fixed after a census whose rows already met the bars. Its
+    RIGID_TAU_HOLOMORPHIC and main's B1734 are running; no expectation is stated for either.
 - **The magnitudes side is a clean negative.** The forced menu fits the hierarchy no better than chance (p = 0.139,
   W112).
 

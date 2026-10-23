@@ -20449,3 +20449,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **This seat's opinion:** bank it as a replicated finding with two hand-put ingredients, and no more.
   0 of 19.
 
+## 2026-10-23 — can the larger symmetry's breaking tell leptons from down quarks? Set up
+
+- **The next check is set up:** when the larger symmetry breaks, the extra particles it carries mix with the ordinary
+  ones. Can that mixing make the electron differ from the down quark? The plan and its predictions are published
+  before any code exists.
+- **The web seat's sealed test on the tick's lines held,** with a limit it states itself. Main's newest sealed test
+  has run and is not yet read out.
+  0 of 19.
+

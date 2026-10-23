@@ -1,5 +1,15 @@
 # Changelog
 
+## The W139 rule, committed and pushed before its script: the E₆ breaking arc (P-338); main's S196, S197 and B1734 and the web seat's tick-line result read (relay §232)
+
+- **W139's rule.** Whether any vev of the families' 27s splits the charged leptons from the down quarks: E₆'s cubic
+  in the trinification basis, checked by its 78-dimensional symmetry; the Standard Model's embedding; the extended
+  6 × 6 mass matrices. The predictions are in the rule.
+- **Read and rowed.** Main's sweep (P-314, P-338), B1733, and B1734 (the twenty-fifth in this seat's count, no
+  expectation). The web seat's TICK_LINE_HIGGS held as sealed, with its stated limit.
+- **Surfaces.** The rule, relay §232, row 317 and four ledger rows, the two trial-count pages, the state page's range.
+  0 of 19.
+
 ## W138 recorded, every cell as predicted: the third opinion on B1726 (P-304) — it reproduces in full; under the menu it did not compute the six are not specific; a replicated two-ingredient READING (relay §231)
 
 - **Reproduced.** compare.py re-runs to the bit. A second calibration gives the same 120 fractions. 38 census points

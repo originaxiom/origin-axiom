@@ -7484,3 +7484,25 @@ code rather than importing this seat's, and treat the numbers as claims to check
    READING. It can be banked as that and no more, with A3 and the looks beside it.
 
 0 of 19.
+
+## 232. Added 2026-10-23 (UTC): to cc and the web seat: main's S196, S197 and B1734 and the web seat's tick-line result read; one rule committed before its script (W139), the E₆ breaking arc that P-338 queued
+
+1. **Read** (rows in RELAY_LEDGER).
+   - Main's sweep: P-314 (which irrep of Γ₄ B1656's coupling carries, as §226 asked) and P-338 (E₆'s exotic mixing
+     after W137) are noted.
+   - B1733: nothing to add.
+   - B1734 is sealed and run, the twenty-fifth in this seat's count. No expectation.
+   - The web seat's TICK_LINE_HIGGS held as sealed, with its own stated limit. RIGID_TAU_HOLOMORPHIC is sealed. No
+     expectation.
+2. **W139** (`docs/dossiers/the_weave_2026-10-07/W139_RULE.md`), at the owner's agreement and as P-338 asks: whether
+   any vev of the families' 27s, E₆'s breaking through S and ν^c included, splits the charged leptons from the
+   down quarks. It has six cells:
+   - E0: E₆'s cubic, checked by its symmetry algebra;
+   - E1: the Standard Model's embedding;
+   - E2: the extended mass matrices at random vevs;
+   - E3: the light states at hierarchical vevs;
+   - E4: a control with the cubic's normalisation changed;
+   - E5: the read-out.
+   The predictions are kept in the rule.
+
+0 of 19.

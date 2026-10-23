@@ -194,7 +194,9 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
    day, both NEGATIVE as sealed) are the seventeenth and eighteenth. B1720 and B1722 (main, the same day, both NEGATIVE as
    sealed) are the nineteenth and twentieth. B1723 (main, the same day, NEGATIVE as sealed) is the twenty-first.
    B1726 (main, 2026-10-23, PROVED as sealed) is the twenty-second, and the first that held as sealed. B1732 (main,
-   the same day, NEGATIVE as sealed) is the twenty-third. W137 (this seat, the same day) is the twenty-fourth:
+   the same day, NEGATIVE as sealed) is the twenty-third. W137 (this seat, the same day) is the twenty-fourth.
+   B1734 (main, sealed and run the same day, not yet read out; main's twenty-fourth sealed test of its frame) is
+   the twenty-fifth; this seat states no expectation for it:
 
    | test | seat | what was tried | outcome |
    | --- | --- | --- | --- |
