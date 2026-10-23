@@ -1,0 +1,2260 @@
+{
+ "6Y mod 4": {
+  "Q": 1,
+  "u": 0,
+  "d": 2,
+  "L": 1,
+  "e": 2,
+  "nu": 0
+ },
+ "6Y mod 5": {
+  "Q": 1,
+  "u": 1,
+  "d": 2,
+  "L": 2,
+  "e": 1,
+  "nu": 0
+ },
+ "orders dividing 4 or 5": [
+  "(0, 0)",
+  "(0, 1/2)",
+  "(0, 1/4)",
+  "(0, 1/5)",
+  "(0, 2/5)",
+  "(1/2, 0)",
+  "(1/2, 1/2)",
+  "(1/2, 1/4)",
+  "(1/4, 0)",
+  "(1/4, 1/2)",
+  "(1/4, 1/4)",
+  "(1/4, 3/4)",
+  "(1/5, 0)",
+  "(1/5, 1/5)",
+  "(1/5, 2/5)",
+  "(1/5, 3/5)",
+  "(1/5, 4/5)",
+  "(2/5, 0)",
+  "(2/5, 1/5)",
+  "(2/5, 2/5)",
+  "(2/5, 3/5)",
+  "(2/5, 4/5)"
+ ],
+ "by direction and reading": {
+  "dR S": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/2)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 16,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.67805004119873,
+      -14.773283004760742
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.7076997756958,
+      -14.809236526489258
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.272786140441895,
+      -13.271649360656738
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.66065502166748,
+      -13.667928695678711
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.457385063171387,
+      -13.455744743347168
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.27303695678711,
+      -13.255186080932617
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 2.0003094991636057,
+    "(2/5, 3/10)": 2.830525325574021,
+    "(2/5, 1/2)": 3.177550947980218,
+    "(2/5, 7/10)": 1.1028841214245624,
+    "(2/5, 9/10)": 0.4900998603977069
+   }
+  },
+  "dR St": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/2)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 16,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.76716136932373,
+      -13.767155647277832
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.965718269348145,
+      -15.080059051513672
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.637957572937012,
+      -13.63574504852295
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.932141304016113,
+      -13.937201499938965
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.575963020324707,
+      -13.56299114227295
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.415128707885742,
+      -13.39675521850586
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 1.042929911745128,
+    "(2/5, 3/10)": 1.9867966882514891,
+    "(2/5, 1/2)": 2.541505551830364,
+    "(2/5, 7/10)": 1.168987548557317,
+    "(2/5, 9/10)": 2.2098010430689308
+   }
+  },
+  "F_-10 S": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 15,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/2)",
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": false,
+     "largest log10 m1/m3 (down, lepton)": [
+      -0.9588775634765625,
+      -0.9588775634765625
+     ]
+    },
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.457895278930664,
+      -14.451529502868652
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.059988975524902,
+      -13.938931465148926
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.510351181030273,
+      -13.509934425354004
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.482714653015137,
+      -13.49091911315918
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.269275665283203,
+      -13.266902923583984
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.454517364501953,
+      -13.471745491027832
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 0.7441777684946982,
+    "(2/5, 3/10)": 0.38713152826081754,
+    "(2/5, 1/2)": 0.46818924808858475,
+    "(2/5, 7/10)": 4.238171092530004,
+    "(2/5, 9/10)": 0.2509653683479806
+   }
+  },
+  "F_-10 St": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 15,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/2)",
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": false,
+     "largest log10 m1/m3 (down, lepton)": [
+      -1.2335952520370483,
+      -1.2335952520370483
+     ]
+    },
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.472183227539062,
+      -14.472116470336914
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.062373161315918,
+      -13.939271926879883
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.489530563354492,
+      -13.48936653137207
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.506804466247559,
+      -13.515925407409668
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.33310604095459,
+      -13.319726943969727
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.434195518493652,
+      -13.41536808013916
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 0.8848909847675405,
+    "(2/5, 3/10)": 2.7148227377743654,
+    "(2/5, 1/2)": 1.2964848143480536,
+    "(2/5, 7/10)": 0.3254039103306269,
+    "(2/5, 9/10)": 0.3897821364368697
+   }
+  },
+  "F_2 S": {
+   "exact lines": [
+    "(0, 0)"
+   ],
+   "count": 1,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/2)",
+    "(0, 1/4)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.659605979919434,
+      -15.659616470336914
+     ]
+    },
+    "(0, 1/4)": {
+     "R2 exact": false,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.711823463439941,
+      -15.711875915527344
+     ]
+    },
+    "(0, 1/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.634647369384766,
+      -15.675331115722656
+     ]
+    },
+    "(0, 2/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.729254722595215,
+      -15.649392127990723
+     ]
+    },
+    "(1/2, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.574023246765137,
+      -15.574023246765137
+     ]
+    },
+    "(1/2, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.516813278198242,
+      -15.598457336425781
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": false,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.586974143981934,
+      -15.621087074279785
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": false,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.856145858764648,
+      -15.85917854309082
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": false,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.838284492492676,
+      -15.842205047607422
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": false,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.847624778747559,
+      -15.823596954345703
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": false,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.847079277038574,
+      -15.851106643676758
+     ]
+    },
+    "(1/5, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.772007942199707,
+      -15.670738220214844
+     ]
+    },
+    "(1/5, 1/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.772347450256348,
+      -15.526530265808105
+     ]
+    },
+    "(1/5, 2/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.757637023925781,
+      -15.686918258666992
+     ]
+    },
+    "(1/5, 3/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.70821762084961,
+      -15.694833755493164
+     ]
+    },
+    "(1/5, 4/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.767699241638184,
+      -15.618531227111816
+     ]
+    },
+    "(2/5, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.611320495605469,
+      -15.936619758605957
+     ]
+    },
+    "(2/5, 1/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.553304672241211,
+      -15.904158592224121
+     ]
+    },
+    "(2/5, 2/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.610709190368652,
+      -16.01241111755371
+     ]
+    },
+    "(2/5, 3/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.596437454223633,
+      -16.049625396728516
+     ]
+    },
+    "(2/5, 4/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.581522941589355,
+      -15.94375228881836
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 6.6332734316230235,
+    "(2/5, 3/10)": 4.134347073584972,
+    "(2/5, 1/2)": 5.250679809682104,
+    "(2/5, 7/10)": 6.001510518234491,
+    "(2/5, 9/10)": 4.004702922222551
+   }
+  },
+  "F_2 St": {
+   "exact lines": [
+    "(0, 0)"
+   ],
+   "count": 1,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/2)",
+    "(0, 1/4)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.617060661315918,
+      -15.623414039611816
+     ]
+    },
+    "(0, 1/4)": {
+     "R2 exact": false,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.605778694152832,
+      -15.58863353729248
+     ]
+    },
+    "(0, 1/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.604063987731934,
+      -15.608452796936035
+     ]
+    },
+    "(0, 2/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.614409446716309,
+      -15.617218017578125
+     ]
+    },
+    "(1/2, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -16.012920379638672,
+      -16.012920379638672
+     ]
+    },
+    "(1/2, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.948270797729492,
+      -16.006389617919922
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": false,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.980924606323242,
+      -15.951178550720215
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": false,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.567294120788574,
+      -15.567289352416992
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": false,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.695062637329102,
+      -15.702895164489746
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": false,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.841133117675781,
+      -15.743075370788574
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": false,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.79150390625,
+      -15.715325355529785
+     ]
+    },
+    "(1/5, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.656411170959473,
+      -15.657028198242188
+     ]
+    },
+    "(1/5, 1/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.691723823547363,
+      -15.815524101257324
+     ]
+    },
+    "(1/5, 2/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.74578857421875,
+      -15.784534454345703
+     ]
+    },
+    "(1/5, 3/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.695430755615234,
+      -15.732155799865723
+     ]
+    },
+    "(1/5, 4/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.731545448303223,
+      -15.754055976867676
+     ]
+    },
+    "(2/5, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -16.015321731567383,
+      -15.616286277770996
+     ]
+    },
+    "(2/5, 1/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -16.044456481933594,
+      -15.69715690612793
+     ]
+    },
+    "(2/5, 2/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.891716957092285,
+      -15.548452377319336
+     ]
+    },
+    "(2/5, 3/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.970184326171875,
+      -15.582736015319824
+     ]
+    },
+    "(2/5, 4/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -16.010644912719727,
+      -15.592883110046387
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 653.2311219963024,
+    "(2/5, 3/10)": 4.604267664403371,
+    "(2/5, 1/2)": 4.768568589721177,
+    "(2/5, 7/10)": 2.636924872828871,
+    "(2/5, 9/10)": 4.2161644431955
+   }
+  },
+  "F_14 S": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/2)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 16,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.767464637756348,
+      -13.767537117004395
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.947340965270996,
+      -14.524541854858398
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.617928504943848,
+      -13.61540699005127
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.609017372131348,
+      -13.557845115661621
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.47456169128418,
+      -13.471613883972168
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.310701370239258,
+      -13.293071746826172
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 0.14838279693862388,
+    "(2/5, 3/10)": 0.3636264234097105,
+    "(2/5, 1/2)": 0.7560608664266183,
+    "(2/5, 7/10)": 0.37316556944080065,
+    "(2/5, 9/10)": 0.08073883161272782
+   }
+  },
+  "F_14 St": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/2)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 16,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.783665657043457,
+      -14.919875144958496
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.492403030395508,
+      -14.58133602142334
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.332143783569336,
+      -13.331298828125
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.355873107910156,
+      -13.363749504089355
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.352230072021484,
+      -13.353850364685059
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.335229873657227,
+      -13.330657005310059
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 0.2844615319351792,
+    "(2/5, 3/10)": 0.5952993807041237,
+    "(2/5, 1/2)": 1.3420944755189896,
+    "(2/5, 7/10)": 0.29411443672212934,
+    "(2/5, 9/10)": 0.24710041847764425
+   }
+  },
+  "F_26 S": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/2)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 16,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.45993423461914,
+      -14.638193130493164
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.494543075561523,
+      -14.613690376281738
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.421754837036133,
+      -13.420236587524414
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.377931594848633,
+      -13.386213302612305
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.353696823120117,
+      -13.353078842163086
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.36861515045166,
+      -13.366044044494629
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 0.01938760745475399,
+    "(2/5, 3/10)": 0.09617591708521209,
+    "(2/5, 1/2)": 0.34609424510931225,
+    "(2/5, 7/10)": 0.10357186599771837,
+    "(2/5, 9/10)": 0.03779195909087378
+   }
+  },
+  "F_26 St": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/2)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 16,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.76762580871582,
+      -13.767731666564941
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.837610244750977,
+      -14.406449317932129
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.521722793579102,
+      -13.51950740814209
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.519603729248047,
+      -13.51763916015625
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.29043960571289,
+      -13.287320137023926
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.29442310333252,
+      -13.277097702026367
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 0.025190419117344987,
+    "(2/5, 3/10)": 0.09069393221998785,
+    "(2/5, 1/2)": 0.20402374671784157,
+    "(2/5, 7/10)": 0.09429446289200254,
+    "(2/5, 9/10)": 0.017930754258005985
+   }
+  },
+  "F_-6 S": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 15,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/2)",
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": false,
+     "largest log10 m1/m3 (down, lepton)": [
+      -1.237341046333313,
+      -1.237341046333313
+     ]
+    },
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.482878684997559,
+      -14.473785400390625
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.058791160583496,
+      -13.936296463012695
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.497679710388184,
+      -13.495904922485352
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.529797554016113,
+      -13.537774085998535
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.515340805053711,
+      -13.513567924499512
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.230949401855469,
+      -13.214191436767578
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 0.89065258868898,
+    "(2/5, 3/10)": 2.2535917307266216,
+    "(2/5, 1/2)": 1.3854411077345627,
+    "(2/5, 7/10)": 2.1348923691385258,
+    "(2/5, 9/10)": 0.6985285808310007
+   }
+  },
+  "F_-6 St": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/2)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 16,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.411563873291016,
+      -14.409141540527344
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.053631782531738,
+      -13.940390586853027
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.495872497558594,
+      -13.495474815368652
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.484095573425293,
+      -13.491909980773926
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.353342056274414,
+      -13.35061264038086
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.537296295166016,
+      -13.531599044799805
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 0.5372499225170179,
+    "(2/5, 3/10)": 2.2352945329419724,
+    "(2/5, 1/2)": 1.3062818261398634,
+    "(2/5, 7/10)": 1.1538897664588939,
+    "(2/5, 9/10)": 0.661041682544938
+   }
+  },
+  "F_6 S": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/2)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 16,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.76805591583252,
+      -13.768199920654297
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.609655380249023,
+      -15.154799461364746
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.732967376708984,
+      -13.754371643066406
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.31392765045166,
+      -14.268697738647461
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.165202140808105,
+      -14.155777931213379
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.570155143737793,
+      -13.55205249786377
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 1.1009510288879447,
+    "(2/5, 3/10)": 1.8173587256335433,
+    "(2/5, 1/2)": 1.386351658138126,
+    "(2/5, 7/10)": 1.4929560501859664,
+    "(2/5, 9/10)": 0.3155284631547434
+   }
+  },
+  "F_6 St": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/2)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 15,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/4)",
+    "(0, 1/5)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.043837547302246,
+      -15.152017593383789
+     ]
+    },
+    "(0, 1/5)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": false,
+     "largest log10 m1/m3 (down, lepton)": [
+      -0.8528698086738586,
+      -0.8528698086738586
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.50335693359375,
+      -14.49040412902832
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.330875396728516,
+      -13.329815864562988
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.353979110717773,
+      -13.362475395202637
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.351195335388184,
+      -13.351499557495117
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.207154273986816,
+      -13.189688682556152
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 1.2198924902442048,
+    "(2/5, 3/10)": 0.9190422862477845,
+    "(2/5, 1/2)": 1.2359326978432184,
+    "(2/5, 7/10)": 0.916404716324553,
+    "(2/5, 9/10)": 0.49049364994408173
+   }
+  },
+  "F_18 S": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/2)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 16,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.638526916503906,
+      -14.821514129638672
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.513832092285156,
+      -14.61808967590332
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.368182182312012,
+      -13.366127967834473
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.336568832397461,
+      -13.344871520996094
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.33936595916748,
+      -13.33775520324707
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.3602876663208,
+      -13.35771369934082
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 0.2754304831853902,
+    "(2/5, 3/10)": 0.22977573710864804,
+    "(2/5, 1/2)": 0.5785238156460261,
+    "(2/5, 7/10)": 0.7816413351704501,
+    "(2/5, 9/10)": 0.0687132393019548
+   }
+  },
+  "F_18 St": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/2)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 16,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.7677001953125,
+      -13.767778396606445
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.868168830871582,
+      -14.440523147583008
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.57879638671875,
+      -13.578301429748535
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.516819953918457,
+      -13.514384269714355
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.281977653503418,
+      -13.279781341552734
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.338180541992188,
+      -13.320855140686035
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 0.20629315755484834,
+    "(2/5, 3/10)": 0.0321064573924769,
+    "(2/5, 1/2)": 0.17284038046946995,
+    "(2/5, 7/10)": 0.2739520139379132,
+    "(2/5, 9/10)": 0.1794920681686635
+   }
+  },
+  "F_-2 S": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/2)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 16,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.402838706970215,
+      -15.400644302368164
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.059113502502441,
+      -13.943059921264648
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.624749183654785,
+      -13.624506950378418
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.733616828918457,
+      -13.73984146118164
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.673003196716309,
+      -13.670649528503418
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.65446662902832,
+      -13.650917053222656
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 1.1336944735530932,
+    "(2/5, 3/10)": 0.9588899317629815,
+    "(2/5, 1/2)": 1.5026826554125448,
+    "(2/5, 7/10)": 1.6644740601742951,
+    "(2/5, 9/10)": 0.9874349217751183
+   }
+  },
+  "F_-2 St": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 15,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/2)",
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": false,
+     "largest log10 m1/m3 (down, lepton)": [
+      -1.7347068786621094,
+      -1.7347068786621094
+     ]
+    },
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.489312171936035,
+      -14.500251770019531
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.056816101074219,
+      -13.937285423278809
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.763245582580566,
+      -13.763554573059082
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.255941390991211,
+      -13.263982772827148
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.135066986083984,
+      -13.132269859313965
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.419722557067871,
+      -13.437840461730957
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 1.6075151489020607,
+    "(2/5, 3/10)": 2.316795004386575,
+    "(2/5, 1/2)": 2.6335199674159537,
+    "(2/5, 7/10)": 1.1348385459269124,
+    "(2/5, 9/10)": 0.5044220723204518
+   }
+  },
+  "F_10 S": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/2)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 16,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.928719520568848,
+      -15.099602699279785
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.507697105407715,
+      -14.545882225036621
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.3433198928833,
+      -13.342724800109863
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.33618450164795,
+      -13.343765258789062
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.323786735534668,
+      -13.320995330810547
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.355751037597656,
+      -13.353936195373535
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 0.2690524443950677,
+    "(2/5, 3/10)": 0.4226351882036904,
+    "(2/5, 1/2)": 0.8959156166847965,
+    "(2/5, 7/10)": 1.8419496939218636,
+    "(2/5, 9/10)": 1.0319527322059008
+   }
+  },
+  "F_10 St": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/2)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 16,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.767829895019531,
+      -13.767919540405273
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -15.092862129211426,
+      -14.661206245422363
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.878217697143555,
+      -13.90201473236084
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.623808860778809,
+      -13.571562767028809
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.374250411987305,
+      -13.372881889343262
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.777966499328613,
+      -13.758262634277344
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 0.45013246882370983,
+    "(2/5, 3/10)": 0.564377688758743,
+    "(2/5, 1/2)": 1.7163416366536455,
+    "(2/5, 7/10)": 1.863148211759829,
+    "(2/5, 9/10)": 0.3096863651777323
+   }
+  },
+  "F_22 S": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/2)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 16,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.767716407775879,
+      -13.767770767211914
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.830913543701172,
+      -14.419212341308594
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.50627613067627,
+      -13.502952575683594
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.537064552307129,
+      -13.53471851348877
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.308277130126953,
+      -13.30525016784668
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.284452438354492,
+      -13.266763687133789
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 0.12030039041208673,
+    "(2/5, 3/10)": 0.05743919933271662,
+    "(2/5, 1/2)": 0.0911257557222882,
+    "(2/5, 7/10)": 0.22243787704357684,
+    "(2/5, 9/10)": 0.11430855839478815
+   }
+  },
+  "F_22 St": {
+   "exact lines": [
+    "(0, 0)",
+    "(0, 1/2)",
+    "(0, 1/5)",
+    "(0, 2/5)",
+    "(1/2, 0)",
+    "(1/2, 1/2)",
+    "(1/5, 0)",
+    "(1/5, 1/5)",
+    "(1/5, 2/5)",
+    "(1/5, 3/5)",
+    "(1/5, 4/5)",
+    "(2/5, 0)",
+    "(2/5, 1/5)",
+    "(2/5, 2/5)",
+    "(2/5, 3/5)",
+    "(2/5, 4/5)"
+   ],
+   "count": 16,
+   "equal to the order-4-or-5 list": false,
+   "exact but order not dividing 4 or 5": [],
+   "order 4 or 5 but not exact": [
+    "(0, 1/4)",
+    "(1/2, 1/4)",
+    "(1/4, 0)",
+    "(1/4, 1/2)",
+    "(1/4, 1/4)",
+    "(1/4, 3/4)"
+   ],
+   "those, read: R2 exact and a massless first generation in both sectors": {
+    "(0, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.54007339477539,
+      -14.726543426513672
+     ]
+    },
+    "(1/2, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -14.505678176879883,
+      -14.59104061126709
+     ]
+    },
+    "(1/4, 0)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.352149963378906,
+      -13.352178573608398
+     ]
+    },
+    "(1/4, 1/2)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.382908821105957,
+      -13.390667915344238
+     ]
+    },
+    "(1/4, 1/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.359184265136719,
+      -13.359760284423828
+     ]
+    },
+    "(1/4, 3/4)": {
+     "R2 exact": true,
+     "both m1/m3 below 1e-12 everywhere": true,
+     "largest log10 m1/m3 (down, lepton)": [
+      -13.350658416748047,
+      -13.347742080688477
+     ]
+    }
+   },
+   "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": {
+    "(2/5, 1/10)": 0.15344410943882855,
+    "(2/5, 3/10)": 0.12993744342850233,
+    "(2/5, 1/2)": 0.5217765358037857,
+    "(2/5, 7/10)": 0.8498379165487914,
+    "(2/5, 9/10)": 0.05121473743614457
+   }
+  }
+ }
+}
