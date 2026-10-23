@@ -1,0 +1,253 @@
+line label example (0, 0)
+{
+ "E1 V_cb spread (max/min over the 8 null-led directions), Im tau 1.0-2.0: median, 90th pct": [
+  5.6433237759528545,
+  24.635226597129687
+ ],
+ "E1 V_cb spread (max/min over the 8 null-led directions), Im tau 2.0-2.5: median, 90th pct": [
+  1.7166957228813897,
+  17.59204461100515
+ ],
+ "E1 V_cb spread (max/min over the 8 null-led directions), Im tau 2.5-3.0: median, 90th pct": [
+  1.1929698788580196,
+  27.658813299628267
+ ],
+ "E1 V_cb spread (max/min over the 8 null-led directions), Im tau 3.0-3.5: median, 90th pct": [
+  1.0650378109743266,
+  39.301768785218734
+ ],
+ "E1 V_cb spread (max/min over the 8 null-led directions), Im tau 3.5-4.01: median, 90th pct": [
+  1.0201392364540014,
+  58.54664141348932
+ ],
+ "E2 points x hors with channel V_cb within 25% of the data": 1864,
+ "E2 of": 32984,
+ "E3 best aligned pairs by chi2_six": [
+  {
+   "up": "F_6",
+   "down": "F_22",
+   "value": 2.65,
+   "point": [
+    151,
+    0.4,
+    2.6
+   ],
+   "line": "(2/5, 1/2)",
+   "hor": "L_2",
+   "Vcb channel": 0.0234,
+   "chi2_six there": 2.65
+  },
+  {
+   "up": "F_10",
+   "down": "F_22",
+   "value": 4.96,
+   "point": [
+    150,
+    0.4,
+    2.6
+   ],
+   "line": "(2/5, 3/10)",
+   "hor": "L_2",
+   "Vcb channel": 0.0271,
+   "chi2_six there": 4.96
+  },
+  {
+   "up": "F_6",
+   "down": "F_18",
+   "value": 5.07,
+   "point": [
+    25,
+    0.4,
+    2.6
+   ],
+   "line": "(2/5, 4/5)",
+   "hor": "L_2",
+   "Vcb channel": 0.0274,
+   "chi2_six there": 5.07
+  },
+  {
+   "up": "F_10",
+   "down": "F_18",
+   "value": 6.02,
+   "point": [
+    150,
+    0.4,
+    2.6
+   ],
+   "line": "(2/5, 3/10)",
+   "hor": "L_2",
+   "Vcb channel": 0.0271,
+   "chi2_six there": 6.02
+  },
+  {
+   "up": "F_6",
+   "down": "F_14",
+   "value": 6.13,
+   "point": [
+    25,
+    0.4,
+    2.5
+   ],
+   "line": "(2/5, 4/5)",
+   "hor": "L_2",
+   "Vcb channel": 0.0306,
+   "chi2_six there": 6.13
+  },
+  {
+   "up": "F_6",
+   "down": "F_26",
+   "value": 7.29,
+   "point": [
+    25,
+    0.4,
+    2.6
+   ],
+   "line": "(2/5, 4/5)",
+   "hor": "L_2",
+   "Vcb channel": 0.0274,
+   "chi2_six there": 7.29
+  },
+  {
+   "up": "F_10",
+   "down": "F_26",
+   "value": 7.4,
+   "point": [
+    24,
+    0.4,
+    2.6
+   ],
+   "line": "(2/5, 3/5)",
+   "hor": "L_2",
+   "Vcb channel": 0.0206,
+   "chi2_six there": 7.4
+  },
+  {
+   "up": "F_6",
+   "down": "dR",
+   "value": 9.07,
+   "point": [
+    151,
+    0.4,
+    2.6
+   ],
+   "line": "(2/5, 1/2)",
+   "hor": "L_2",
+   "Vcb channel": 0.0234,
+   "chi2_six there": 9.07
+  }
+ ],
+ "E3 best aligned pairs by chi2_six + Vcb": [
+  {
+   "up": "F_6",
+   "down": "F_14",
+   "value": 15.57,
+   "point": [
+    25,
+    0.4,
+    2.5
+   ],
+   "line": "(2/5, 4/5)",
+   "hor": "L_2",
+   "Vcb channel": 0.0306,
+   "chi2_six there": 6.13
+  },
+  {
+   "up": "F_6",
+   "down": "F_10",
+   "value": 19.33,
+   "point": [
+    25,
+    0.4,
+    2.5
+   ],
+   "line": "(2/5, 4/5)",
+   "hor": "L_2",
+   "Vcb channel": 0.0306,
+   "chi2_six there": 9.89
+  },
+  {
+   "up": "F_6",
+   "down": "F_22",
+   "value": 22.26,
+   "point": [
+    25,
+    0.4,
+    2.6
+   ],
+   "line": "(2/5, 4/5)",
+   "hor": "L_2",
+   "Vcb channel": 0.0274,
+   "chi2_six there": 5.04
+  },
+  {
+   "up": "F_6",
+   "down": "F_18",
+   "value": 22.29,
+   "point": [
+    25,
+    0.4,
+    2.6
+   ],
+   "line": "(2/5, 4/5)",
+   "hor": "L_2",
+   "Vcb channel": 0.0274,
+   "chi2_six there": 5.07
+  },
+  {
+   "up": "F_10",
+   "down": "F_22",
+   "value": 23.3,
+   "point": [
+    150,
+    0.4,
+    2.6
+   ],
+   "line": "(2/5, 3/10)",
+   "hor": "L_2",
+   "Vcb channel": 0.0271,
+   "chi2_six there": 4.96
+  },
+  {
+   "up": "F_10",
+   "down": "F_18",
+   "value": 24.36,
+   "point": [
+    150,
+    0.4,
+    2.6
+   ],
+   "line": "(2/5, 3/10)",
+   "hor": "L_2",
+   "Vcb channel": 0.0271,
+   "chi2_six there": 6.02
+  },
+  {
+   "up": "F_6",
+   "down": "F_26",
+   "value": 24.51,
+   "point": [
+    25,
+    0.4,
+    2.6
+   ],
+   "line": "(2/5, 4/5)",
+   "hor": "L_2",
+   "Vcb channel": 0.0274,
+   "chi2_six there": 7.29
+  },
+  {
+   "up": "F_10",
+   "down": "F_14",
+   "value": 25.87,
+   "point": [
+    150,
+    0.4,
+    2.5
+   ],
+   "line": "(2/5, 3/10)",
+   "hor": "L_2",
+   "Vcb channel": 0.0301,
+   "chi2_six there": 15.37
+  }
+ ]
+}

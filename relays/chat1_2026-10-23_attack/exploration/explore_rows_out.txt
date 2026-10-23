@@ -1,0 +1,51 @@
+=== TWO_HIGGS best six: tau 0.5625+2.6i, line (0.4, 0.1), L_2
+ up: closed-form check 1.9e-16 (factor 1.000-0.000j);  m2/m3 3.721e-03, m1/m3 6.655e-06
+   h: e1:0.000 h0:1.000 h0b:0.003  h.h 6.81e-03 | u: e1:0.000 h0:1.000 h0b:0.006 |u| 4.774e+00 |w| 6.755e-01 |u.h|/|u| 2.827e-03 |u.u|/|u|^2 1.244e-02
+   left light : e1:0.064 h0:0.005 h0b:0.998   right light : e1:0.064 h0:0.998 h0b:0.005
+   left middle: e1:0.995 h0:0.070 h0b:0.065   right middle: e1:0.995 h0:0.064 h0b:0.070
+   left heavy : e1:0.070 h0:0.998 h0b:0.000   right heavy : e1:0.070 h0:0.000 h0b:0.998
+ down: closed-form check 1.9e-16 (factor 1.000-0.000j);  m2/m3 1.841e-02, m1/m3 8.819e-04
+   h: e1:0.000 h0:1.000 h0b:0.012  h.h 2.49e-02 | u: e1:0.874 h0:0.477 h0b:0.094 |u| 2.709e+00 |w| 2.400e+00 |u.h|/|u| 9.180e-02 |u.u|/|u|^2 8.387e-01
+   left light : e1:0.043 h0:0.002 h0b:0.999   right light : e1:0.284 h0:0.802 h0b:0.525
+   left middle: e1:0.998 h0:0.048 h0b:0.043   right middle: e1:0.382 h0:0.597 h0b:0.706
+   left heavy : e1:0.048 h0:0.999 h0b:0.000   right heavy : e1:0.879 h0:0.001 h0b:0.476
+ lep: closed-form check 7.4e-17 (factor 1.000-0.000j);  m2/m3 1.841e-02, m1/m3 8.819e-04
+   h: e1:0.000 h0:1.000 h0b:0.012  h.h 2.49e-02 | u: e1:0.874 h0:0.477 h0b:0.094 |u| 2.709e+00 |w| 2.400e+00 |u.h|/|u| 9.180e-02 |u.u|/|u|^2 8.387e-01
+   left light : e1:0.284 h0:0.525 h0b:0.802   right light : e1:0.043 h0:0.999 h0b:0.002
+   left middle: e1:0.382 h0:0.706 h0b:0.597   right middle: e1:0.998 h0:0.043 h0b:0.048
+   left heavy : e1:0.879 h0:0.476 h0b:0.001   right heavy : e1:0.048 h0:0.000 h0b:0.999
+ |V| = [[0.9991, 0.0421, 0.0015], [0.0421, 0.9988, 0.0232], [0.0011, 0.0232, 0.9997]]
+=== B1735 row (dR split): tau 0.35+3.05i, line (0.4, 0.1), L_max
+ up: closed-form check 6.8e-17 (factor 1.000-0.000j);  m2/m3 3.939e-03, m1/m3 5.633e-06
+   h: e1:0.047 h0:0.999 h0b:0.001  h.h 4.95e-03 | u: e1:0.000 h0:1.000 h0b:0.004 |u| 3.250e+00 |w| 3.875e-01 |u.h|/|u| 3.246e-03 |u.u|/|u|^2 7.430e-03
+   left light : e1:0.060 h0:0.002 h0b:0.998   right light : e1:0.037 h0:0.999 h0b:0.002
+   left middle: e1:0.996 h0:0.065 h0b:0.060   right middle: e1:0.997 h0:0.037 h0b:0.062
+   left heavy : e1:0.065 h0:0.998 h0b:0.003   right heavy : e1:0.062 h0:0.003 h0b:0.998
+ down: closed-form check 8.0e-17 (factor 1.000+0.000j);  m2/m3 2.046e-02, m1/m3 9.524e-04
+   h: e1:0.047 h0:0.001 h0b:0.999  h.h 4.95e-03 | u: e1:0.942 h0:0.333 h0b:0.049 |u| 2.104e+00 |w| 1.932e+00 |u.h|/|u| 3.651e-01 |u.u|/|u|^2 9.077e-01
+   left light : e1:0.044 h0:0.992 h0b:0.117   right light : e1:0.043 h0:0.001 h0b:0.999
+   left middle: e1:0.054 h0:0.116 h0b:0.992   right middle: e1:0.986 h0:0.161 h0b:0.042
+   left heavy : e1:0.998 h0:0.047 h0b:0.051   right heavy : e1:0.161 h0:0.987 h0b:0.008
+ lep: closed-form check 3.6e-16 (factor 1.000+0.000j);  m2/m3 2.023e-02, m1/m3 7.874e-04
+   h: e1:0.047 h0:0.001 h0b:0.999  h.h 4.95e-03 | u: e1:0.942 h0:0.333 h0b:0.049 |u| 2.104e+00 |w| 1.932e+00 |u.h|/|u| 3.038e-01 |u.u|/|u|^2 9.077e-01
+   left light : e1:0.050 h0:0.999 h0b:0.001   right light : e1:0.050 h0:0.120 h0b:0.992
+   left middle: e1:0.980 h0:0.049 h0b:0.193   right middle: e1:0.048 h0:0.991 h0b:0.121
+   left heavy : e1:0.193 h0:0.008 h0b:0.981   right heavy : e1:0.998 h0:0.052 h0b:0.046
+ |V| = [[0.114, 0.9927, 0.0396], [0.0594, 0.0429, 0.9973], [0.9917, 0.1128, 0.0616]]
+=== P-344 nine-best (dR S~ all): tau 0.35+2.65i, line (0.4, 0.5), L_2
+ up: closed-form check 2.0e-16 (factor 1.000+0.000j);  m2/m3 4.570e-03, m1/m3 2.004e-05
+   h: e1:0.088 h0:0.996 h0b:0.005  h.h 1.73e-02 | u: e1:0.000 h0:1.000 h0b:0.005 |u| 4.929e+00 |w| 6.655e-01 |u.h|/|u| 3.909e-03 |u.u|/|u|^2 9.800e-03
+   left light : e1:0.176 h0:0.007 h0b:0.984   right light : e1:0.084 h0:0.996 h0b:0.007
+   left middle: e1:0.983 h0:0.052 h0b:0.176   right middle: e1:0.991 h0:0.084 h0b:0.100
+   left heavy : e1:0.052 h0:0.999 h0b:0.006   right heavy : e1:0.100 h0:0.006 h0b:0.995
+ down: closed-form check 3.8e-16 (factor 1.000+0.000j);  m2/m3 1.634e-02, m1/m3 1.066e-03
+   h: e1:0.088 h0:0.996 h0b:0.005  h.h 1.73e-02 | u: e1:0.877 h0:0.471 h0b:0.090 |u| 2.761e+00 |w| 2.456e+00 |u.h|/|u| 1.512e-01 |u.u|/|u|^2 8.457e-01
+   left light : e1:0.052 h0:0.002 h0b:0.999   right light : e1:0.284 h0:0.871 h0b:0.401
+   left middle: e1:0.998 h0:0.042 h0b:0.052   right middle: e1:0.372 h0:0.485 h0b:0.791
+   left heavy : e1:0.042 h0:0.999 h0b:0.004   right heavy : e1:0.884 h0:0.076 h0b:0.462
+ lep: closed-form check 1.4e-16 (factor 1.000+0.000j);  m2/m3 1.688e-02, m1/m3 5.480e-04
+   h: e1:0.088 h0:0.996 h0b:0.005  h.h 1.73e-02 | u: e1:0.877 h0:0.471 h0b:0.090 |u| 2.761e+00 |w| 2.456e+00 |u.h|/|u| 7.321e-02 |u.u|/|u|^2 8.457e-01
+   left light : e1:0.147 h0:0.415 h0b:0.898   right light : e1:0.083 h0:0.997 h0b:0.003
+   left middle: e1:0.459 h0:0.775 h0b:0.434   right middle: e1:0.993 h0:0.083 h0b:0.079
+   left heavy : e1:0.876 h0:0.476 h0b:0.078   right heavy : e1:0.079 h0:0.004 h0b:0.997
+ |V| = [[0.9867, 0.1625, 0.0041], [0.1625, 0.9865, 0.0212], [0.0011, 0.0215, 0.9998]]

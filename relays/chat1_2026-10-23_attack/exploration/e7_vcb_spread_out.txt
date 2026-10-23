@@ -1,0 +1,5 @@
+Im tau 2.0-2.5: hierarchical rows    557 of 5320; V_cb max/min over 8 null-led Higgs: median 1.705, 90% 5.962, 99% 12.920
+Im tau 2.5-3.0: hierarchical rows   2383 of 5320; V_cb max/min over 8 null-led Higgs: median 1.180, 90% 3.338, 99% 10.508
+Im tau 3.0-3.5: hierarchical rows   2756 of 5320; V_cb max/min over 8 null-led Higgs: median 1.041, 90% 1.605, 99% 3.876
+Im tau 3.5-4.01: hierarchical rows   3387 of 6384; V_cb max/min over 8 null-led Higgs: median 1.009, 90% 1.156, 99% 2.344
+zero-free a >= 6 only, Im tau >= 2.5: median 1.0225, 90% 1.6709

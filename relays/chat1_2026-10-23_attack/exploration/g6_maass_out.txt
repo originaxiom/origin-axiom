@@ -1,0 +1,20 @@
+tau (0.3+2.2j): DR = a qR' + b E2 R with a = 1.000000+0.000000j, b = 0.041667-0.000000j (1/24 = 0.041667), residual 1.6e-11
+tau (0.1+1.2j): DR = a qR' + b E2 R with a = 1.000000+0.000000j, b = 0.041667+0.000000j (1/24 = 0.041667), residual 1.7e-11
+Im tau 2.3: |R.DR| / (|R||DR|) = 5.1e-18
+   DR (lambda 0)        lambda +0.0000: delta 0.1526 (  5.66 r^1/2), eps 0.01455 ( 20.00 r), lead conj h0, |h.h|/|h|^2 0.0512, delta^2/2eps 0.80
+   Maass, weight -1/2   lambda -0.0244: delta 0.1008 (  3.74 r^1/2), eps 0.01060 ( 14.57 r), lead conj h0, |h.h|/|h|^2 0.0310, delta^2/2eps 0.48
+   lambda = -0.02       lambda -0.0200: delta 0.1083 (  4.01 r^1/2), eps 0.01117 ( 15.35 r), lead conj h0, |h.h|/|h|^2 0.0337, delta^2/2eps 0.52
+   lambda = -0.035      lambda -0.0350: delta 0.0849 (  3.15 r^1/2), eps 0.00939 ( 12.90 r), lead conj h0, |h.h|/|h|^2 0.0258, delta^2/2eps 0.38
+   lambda = +0.02       lambda +0.0200: delta 0.2249 (  8.34 r^1/2), eps 0.02007 ( 27.58 r), lead conj h0, |h.h|/|h|^2 0.0863, delta^2/2eps 1.26
+Im tau 2.6: |R.DR| / (|R||DR|) = 8.9e-17
+   DR (lambda 0)        lambda +0.0000: delta 0.0953 (  5.66 r^1/2), eps 0.00567 ( 20.00 r), lead conj h0, |h.h|/|h|^2 0.0202, delta^2/2eps 0.80
+   Maass, weight -1/2   lambda -0.0264: delta 0.0609 (  3.62 r^1/2), eps 0.00404 ( 14.23 r), lead conj h0, |h.h|/|h|^2 0.0117, delta^2/2eps 0.46
+   lambda = -0.02       lambda -0.0200: delta 0.0676 (  4.01 r^1/2), eps 0.00435 ( 15.35 r), lead conj h0, |h.h|/|h|^2 0.0132, delta^2/2eps 0.52
+   lambda = -0.035      lambda -0.0350: delta 0.0530 (  3.15 r^1/2), eps 0.00366 ( 12.90 r), lead conj h0, |h.h|/|h|^2 0.0101, delta^2/2eps 0.38
+   lambda = +0.02       lambda +0.0200: delta 0.1404 (  8.34 r^1/2), eps 0.00782 ( 27.58 r), lead conj h0, |h.h|/|h|^2 0.0347, delta^2/2eps 1.26
+Im tau 3.0: |R.DR| / (|R||DR|) = 7.2e-18
+   DR (lambda 0)        lambda +0.0000: delta 0.0508 (  5.66 r^1/2), eps 0.00161 ( 20.00 r), lead conj h0, |h.h|/|h|^2 0.0058, delta^2/2eps 0.80
+   Maass, weight -1/2   lambda -0.0284: delta 0.0314 (  3.50 r^1/2), eps 0.00112 ( 13.90 r), lead conj h0, |h.h|/|h|^2 0.0032, delta^2/2eps 0.44
+   lambda = -0.02       lambda -0.0200: delta 0.0361 (  4.01 r^1/2), eps 0.00124 ( 15.35 r), lead conj h0, |h.h|/|h|^2 0.0038, delta^2/2eps 0.52
+   lambda = -0.035      lambda -0.0350: delta 0.0283 (  3.15 r^1/2), eps 0.00104 ( 12.90 r), lead conj h0, |h.h|/|h|^2 0.0029, delta^2/2eps 0.38
+   lambda = +0.02       lambda +0.0200: delta 0.0749 (  8.34 r^1/2), eps 0.00223 ( 27.58 r), lead conj h0, |h.h|/|h|^2 0.0100, delta^2/2eps 1.26

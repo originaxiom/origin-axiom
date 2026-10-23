@@ -1,0 +1,9 @@
+f3 x f1 = [0.+0.j 0.-1.j 0.+0.j]  f3 x f2 = [0.+0.j 0.+0.j 0.+1.j]  f2 x f1 = [0.+1.j 0.+0.j 0.+0.j]
+det law: 2.4953374087513155e-13
+det law: 3.352637469660149e-13
+det law: 4.8895043415765746e-14
+det law: 4.784749108731749e-13
+det law: 8.890761805399987e-13
+departure scale 1e-04-1e-03, |Delta| > 0.3: median rel. error beta 2.75e-04, gamma 1.72e-03  (n = 990)
+departure scale 1e-03-3e-03, |Delta| > 0.3: median rel. error beta 1.46e-03, gamma 8.72e-03  (n = 461)
+departure scale 3e-03-1e-02, |Delta| > 0.3: median rel. error beta 4.56e-03, gamma 2.83e-02  (n = 537)

@@ -1,0 +1,1 @@
+max |F^dag Y F - the canonical matrix| over 200 draws: 3.972054645195637e-15

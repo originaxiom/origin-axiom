@@ -19,3 +19,7 @@ already compared with data (the zero-free census, TWO_HIGGS's grid, and the rows
 | `e5_dr_pairs.py` | post hoc | the same with DR in one or both sectors |
 | `e6_bands.py` | post hoc | the stored diagonal aligned rows' best nine by Im τ band |
 | `e7_vcb_spread.py` | data-free | V_cb's spread on hierarchical rows by Im τ band |
+| `g4_departures.py` | data-free | the record forms' departures from their leading null line, in units of r^½ and r |
+| `g5_vcb_formula.py` | data-free | V_cb under the null Higgs against \|κ_u − κ_d\| at eight points |
+| `g6_maass.py` | data-free | DR = qR′ + E₂R/24 (fit); R·DR = 0; the pencil DR + λR's departures |
+| `g7_canonical.py` | data-free | the canonical matrix of §1.1 against F†YF on 200 random draws |
