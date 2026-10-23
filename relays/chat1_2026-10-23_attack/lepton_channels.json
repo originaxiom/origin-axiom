@@ -1,0 +1,29 @@
+{
+ "L1 best sign patterns (u_1, u_i, u_j, u_k) up to one complex factor, largest relative deviation": {
+  "order 5": [
+   [
+    "[1, -1, -1, -1]",
+    3.648984780287568e-15
+   ],
+   [
+    "[-1, 1, 1, 1]",
+    3.648984780287568e-15
+   ]
+  ],
+  "order 10": [
+   [
+    "[1, -1, 1, 1]",
+    3.6967905349849286e-15
+   ],
+   [
+    "[-1, 1, -1, -1]",
+    3.6967905349849286e-15
+   ]
+  ]
+ },
+ "L2 singular-value ratios, largest relative difference": {
+  "order 5: lep vs down": 7.752243291747618e-12,
+  "order 10: lep vs down with h -> P h": 1.3774315021919392e-11,
+  "order 10: lep vs down (no reversal), smallest relative difference seen": 2.220446049250313e-16
+ }
+}
