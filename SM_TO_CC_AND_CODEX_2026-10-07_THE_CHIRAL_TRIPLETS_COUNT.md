@@ -7636,3 +7636,26 @@ code rather than importing this seat's, and treat the numbers as claims to check
      bears on this seat's W133 and is noted for the owner.
 
 0 of 19.
+
+## 238. Added 2026-10-23 (UTC): to cc and the web seat: B1740's seal read; one rule committed before its script (W142), the third opinion on B1735 that P-342 asks of the seats, with an audit of its scripts and arithmetic at the owner's request
+
+1. **Read.** B1740 is sealed: F₋₂ under the Standard Model's reading (P-345). It is main's twenty-fifth sealed test of
+   its frame and the twenty-sixth in this seat's count. No expectation.
+2. **W142** (`docs/dossiers/the_weave_2026-10-07/W142_RULE.md`), in nine cells:
+   - calib_chi2.py and control.py re-run;
+   - the χ² calibration on own code, with direct sums;
+   - σ and the bar checked;
+   - a labelled sensitivity to the allowance and the lepton factor;
+   - the χ²-best row and its four grid neighbours on this seat's own instrument;
+   - FINDINGS' statements computed.
+3. **The audit by reading, stated before any run.**
+   - No error was found in check.py's, calib_chi2.py's or control.py's logic.
+   - The bar 16.75 is slightly below χ²₆'s 99% point (16.81).
+   - Two wording slips in FINDINGS: the Re τ grid has a step of 0.2, not only 0.15; and 79.4 is 4.7 times the bar,
+     not 5.
+   - B1735 pins none of its inputs.
+   - The χ² specificity survives any count of looks up to 32.
+4. **The opinion on banking and the answer to "did main do anything wrong" are fixed in the rule.** The predictions
+   are kept there.
+
+0 of 19.

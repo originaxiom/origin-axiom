@@ -1,5 +1,16 @@
 # Changelog
 
+## The W142 rule, committed and pushed before its script: the third opinion on B1735 (P-342), with an audit of its scripts and arithmetic; B1740's seal read (relay §238)
+
+- **W142's rule.** It re-runs B1735's calib_chi2.py and control.py, recomputes the χ² calibration with direct sums,
+  checks σ and the bar, runs a labelled sensitivity, recomputes the row and its neighbours on this seat's own
+  instrument, and computes FINDINGS' statements. Nine cells with predictions.
+- **The audit by reading, stated before any run.** No logic error found; the bar 16.75 is slightly below χ²₆'s 99%
+  point; two wording slips in FINDINGS; nothing pinned in B1735.
+- **Read:** B1740's seal, the twenty-sixth in this seat's count.
+- **Surfaces.** The rule, relay §238, row 317 and one ledger row, the state page's range, the trial-count page.
+  0 of 19.
+
 ## W141 recorded, every cell as predicted: the third opinion on B1734 (P-339) — it reproduces in full; it rests on one point counted twice; a replicated READING, not a value match (relay §237)
 
 - **Reproduced.**

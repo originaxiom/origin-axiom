@@ -20512,3 +20512,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - When every kind of line is allowed, the match is no longer clearly better than chance.
 - **The verdict:** a replicated reading, not a value match.
   0 of 19.
+
+## 2026-10-23 — main's closest fit so far, checked, and main's own work audited
+
+- **The check is set up, at the owner's request.** Main found the first row that reaches the six mass ratios within
+  their errors, with the modulus fitted. This seat will check it independently and audit main's scripts and
+  arithmetic.
+- **Read before writing the plan.** Main's three scripts showed no logic errors. Two small wording slips were found,
+  and a threshold slightly stricter than stated. The plan and its predictions are published before any code exists.
+- **Main sealed a new test** using a different Higgs. No expectation is stated.
+  0 of 19.
