@@ -1,5 +1,15 @@
 # Changelog
 
+## W138 recorded, every cell as predicted: the third opinion on B1726 (P-304) — it reproduces in full; under the menu it did not compute the six are not specific; a replicated two-ingredient READING (relay §231)
+
+- **Reproduced.** compare.py re-runs to the bit. A second calibration gives the same 120 fractions. 38 census points
+  and both best rows reproduce on this seat's own instrument to 10⁻¹⁰.
+- **R7's mechanism holds:** D = 9 exactly on all order-5 rows.
+- **The new look, labelled:** with every covariant reading and the factor free, 3.4% of random hierarchies match the
+  six.
+- **Surfaces.** NOTE (section and row), the lock test, relay §231, row 317, the state page's range, the two
+  trial-count pages. 0 of 19.
+
 ## The W138 rule, committed and pushed before its script runs: the third opinion on B1726 (main's P-304; relay §230)
 
 - **W138's rule.** It re-runs main's compare.py, re-implements the calibration, recomputes 38 census points on this

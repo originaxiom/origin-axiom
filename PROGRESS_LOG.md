@@ -20439,3 +20439,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   changes the verdict on its own.
   0 of 19.
 
+## 2026-10-23 — the one positive, checked
+
+- **Main's positive result reproduces exactly.** Its own comparison ran again to the last digit, separate code
+  rebuilt the calibration exactly, and separate code recomputed a sample of the underlying numbers to ten decimal
+  places.
+- **One check it had not made changes the picture.** If both hand-put choices are left free together, random targets
+  do as well 3.4% of the time, above the 1% bar. So the result depends on one of those two choices being right.
+- **This seat's opinion:** bank it as a replicated finding with two hand-put ingredients, and no more.
+  0 of 19.
+

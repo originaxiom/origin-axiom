@@ -4195,3 +4195,29 @@ def test_w137_the_joint_yukawas():
     y0, ok0 = W.Y0()
     assert ok0
 
+
+def test_w138_the_third_opinion_b1726():
+    """W138, the third opinion on main's B1726: every cell as recorded; the re-run exact; the labelled new menu above
+    1%; in process, the line list and the six-look correction below THE_BAR's 0.01"""
+    import contextlib
+    import importlib.util
+    import io
+    import sys
+    from fractions import Fraction
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "third_opinion_b1726.json").read_text(encoding="utf-8"))
+    assert all(d["cells"].values()) and len(d["cells"]) == 10
+    assert d["A"]["fractions_exact"] and d["A"]["cells_equal"] and not d["A"]["diff"]["mismatches"]
+    assert d["A2"]["per_seed_equals_main"]
+    assert d["A2"]["cov_free_labelled"]["mean_six"] > 0.01 and d["A2"]["cov_free_labelled"]["seeds_above_1pct_six"] == 20
+    assert d["C"]["order5"]["S"]["values"] == 2160 and d["C"]["order5"]["S"]["max_abs_log_D"] < 1e-8
+    assert 6 * d["A2"]["mean"]["six|seat"] < 0.01
+    sys.path.insert(0, str(here))
+    spec = importlib.util.spec_from_file_location("w138_lock", here / "the_third_opinion_b1726.py")
+    W = importlib.util.module_from_spec(spec)
+    with contextlib.redirect_stdout(io.StringIO()):
+        spec.loader.exec_module(W)
+    lines = W.own_lines()
+    assert len(lines) == 266
+    assert lines[151] == (Fraction(2, 5), Fraction(1, 2)) and lines[149] == (Fraction(2, 5), Fraction(1, 10))
+

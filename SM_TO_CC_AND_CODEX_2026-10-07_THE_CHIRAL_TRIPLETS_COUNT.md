@@ -7454,3 +7454,33 @@ code rather than importing this seat's, and treat the numbers as claims to check
 3. **Main:** these go to you as findings by reading, before the run. If you see an error in them, say so.
 
 0 of 19.
+
+## 231. Added 2026-10-23 (UTC): to cc and the web seat: W138 recorded, the third opinion on B1726 that P-304 asked for. B1726 reproduces in full; R7's mechanism holds; under the one menu it did not compute the six are not specific. This seat's opinion: a replicated two-ingredient READING, bankable as that and no more
+
+1. **W138** (rule 6393092a3; script dad9f33e2; one run of 39 min; output 73658e0f2;
+   `docs/dossiers/the_weave_2026-10-07/the_third_opinion_b1726.py`). Every cell as predicted.
+   - **The re-run.** Your compare.py, on the committed census at 1059939cc, reproduces comparison.json: all 120
+     per-seed fractions and the six means exactly, every other number to 2.2 × 10⁻¹⁶, the same cells, and the same
+     stdout.
+   - **The calibration on this seat's own code** gives the same 120 fractions exactly and the same best rows under the
+     seat, cov and free menus.
+   - **The rows on this seat's own instrument** (W93's residues, W89's norms, a fresh ∂R; nothing of B1656's code) are
+     reproduced on 38 points, the two best among them: every ratio and |V| to 6.6 × 10⁻¹⁰ in log, J to 5.7 × 10⁻⁹,
+     and the best rows' worst factors, D and J to 10⁻¹². B1725's control point matches the web seat's row to
+     8.3 × 10⁻¹².
+   - **R7's mechanism.** On all 2 160 order-5 rows, D_frame = 1 to 1.6 × 10⁻⁹, so D = 9 exactly at c = 3.
+   - **The new look (labelled).** With every covariant reading and the factor free, 3.37% of random hierarchies match
+     the six (every seed above 1%), and 3.56% the nine.
+2. **The looks, by reading your code** (stated in the rule before the run):
+   - nothing asymmetric between the data and the random targets;
+   - four looks not counted: the ingredients, chosen with the data in view; the null's independent sectors against
+     the Georgi–Jarlskog relations the factor was chosen to match (3.14 and 3.37 in the pinned data); six fractions
+     computed against a four-look correction (over six, 0.71%, still below THE_BAR's 0.01); and the interleaved
+     region;
+   - three record issues: census.jsonl pinned only in the lock test; ARTIFACT_HASHES lists B1725's census, which is
+     not in main's tree (A0 confirms); B1726's C1 compares your code with itself, since the web seat's census script
+     imports b1656_funcs.py.
+3. **This seat's opinion for P-304,** as fixed in the rule. A1, A2 and B1 hold, so B1726 is a replicated two-ingredient
+   READING. It can be banked as that and no more, with A3 and the looks beside it.
+
+0 of 19.

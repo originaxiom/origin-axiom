@@ -7726,6 +7726,68 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W138. The third opinion on main's B1726 (main's P-304, at the owner's approval): B1726 reproduces in full. Main's compare.py re-runs to the bit, a second calibration gives the same 120 fractions, and 38 census points and both best rows reproduce on this seat's own instrument to 10⁻¹⁰. R7's mechanism holds: D = 9 exactly on order-5 lines. But with every covariant reading and the factor free, the menu main did not compute, the six are not specific (3.4%, every seed above 1%). Every cell as predicted; B1726 is a replicated two-ingredient READING, bankable as that and no more (`the_third_opinion_b1726.py`; `W138_RULE.md`)
+
+**Why.**
+- B1726 is the record's only sealed test that held. The owner's rule of 2026-08-21 requires a third opinion before a
+  positive value match is banked as more than a reading, and main's P-304 asked the seats for it.
+- The owner approved this seat's doing it (2026-10-23).
+
+**The order.**
+- A read-only preparation in this seat's session read main's B1726 files and drafted and compiled the script. Three
+  data looks are disclosed in the rule.
+- The rule (`W138_RULE.md`, 6393092a3) was committed and pushed before the script ran. It states the looks found by
+  reading main's code.
+- The script (dad9f33e2) was committed with only its header changed, before its one run (39 min, four workers).
+- Its output (73658e0f2) was committed unread, then read once.
+
+**The result (COMPUTED; every cell as predicted).**
+- **A0, the inputs.** Every pinned file matches. The census holds 23 940 unique points with no NaN or infinity.
+  ARTIFACT_HASHES.txt lists B1725's census, which is not in main's tree.
+- **A1, the re-run.** Main's compare.py, run on the committed census in a temporary tree, exits 0. Its output
+  reproduces comparison.json: all 120 per-seed fractions and the six means exactly, 226 of 232 numbers identical and
+  the rest within 2.2 × 10⁻¹⁶, the same cells, and stdout identical to compare_run.txt.
+- **A2, the calibration on own code.** The same 120 fractions exactly, and the same best rows (row, readings, factor,
+  D) under the seat, cov and free menus.
+- **A3, the new look (labelled).** Every covariant reading with the factor free gives a mean fraction of 3.37% for the
+  six (all 20 seeds above 1%) and 3.56% for the nine. Its best six is the same row with c = 2.74, worst factor 1.2016.
+  The script did not form A3's boolean, so it is read from the mean against the rule's 1%.
+- **B0, the own instrument's controls.** W93's residues × κ equal the circle residues of main's bilinear to
+  2.1 × 10⁻³¹. The joint law J1 holds on every coupling to 2.6 × 10⁻¹⁷‖Y‖³.
+- **B1, the 38 points.** Every stored ratio and |V| is reproduced to 6.6 × 10⁻¹⁰ in log, and J to 5.7 × 10⁻⁹
+  relative, with no mismatch in which values vanish.
+- **B2, the best rows.** Worst factor 1.2016458 with D = 11.0079 and J = −4.2210 × 10⁻⁴ for the best six. Worst factor
+  1.8990851 with D = 13.290 and J = −3.9677 × 10⁻⁶ for the best nine. Each agrees with main to 10⁻¹².
+- **B3 (read-out).** B1725's control point, on this seat's instrument, matches the web seat's stored row to
+  8.3 × 10⁻¹².
+- **C1 and C2, R7's mechanism.** On all 2 160 order-5 rows, |ln D_frame| ≤ 1.6 × 10⁻⁹ in S and 1.9 × 10⁻¹¹ in S̃, and to
+  10⁻¹² on the own instrument's order-5 points. So D = 9 exactly at c = 3.
+- **C3 (labelled).** Orders 1, 2 and 4 give the same on their 720 unmasked rows, to 1.1 × 10⁻⁹.
+- **C4 (read-out).** On order-10 rows D_frame spreads from 0.003 to 1 500, with median 1.0. The best six-row's is
+  1.223.
+
+**What it shows (the rule's fixed meaning).**
+1. **B1726 is computed correctly and reproduces.** Main's comparison and calibration are reproduced by its own code
+   and by a second code. The census rows are reproduced by a second instrument, which shares only B1667's column of
+   L with main.
+2. **R7's near miss is structural.** On order-5 lines down and leptons coincide, so D = c²; with the factor 3 that is
+   9, 14σ from P-094's 10.58. R7 can hold only on lines where D_frame ≠ 1.
+3. **Under the most permissive menu the specificity does not survive.** With every covariant reading and the factor
+   free, 3.4% of random hierarchies do as well. So the claim rests on the reading rule or on the factor's value.
+   Under the menus main fixed in advance it stands: 0.12%, and over all six of compare.py's looks the corrected
+   value, 0.71%, is still below THE_BAR's 0.01.
+4. **The looks found by reading the code** stand as stated in the rule: nothing asymmetric between data and random
+   targets; the ingredients chosen with the data in view; a null that ignores the Georgi–Jarlskog relations the
+   factor was chosen to match; six fractions against a four-look correction; and the interleaved region.
+5. **This seat's opinion, as fixed in the rule:** A1, A2 and B1 hold, so B1726 is a replicated two-ingredient READING.
+   It can be banked as that and no more, with A3 and the looks beside it.
+
+**Weave or thread.** Neither: a check of main's census of one frame (B1656's coupling on the shared fibre). The census
+takes every flat line of order ≤ 12 with none hand-picked.
+
+**Status.** COMPUTED. One run. Every cell as predicted. A verification for main, not a new test against data;
+A3 is a new calibration of the same data. 0 of 19.
+
 ## W137. The joint frame's Yukawas (the step the owner approved after W136): in the picture where the generations are the weave surface's sections there is no tree-level coupling; in the modular-flavour picture the least weight is 6, not 2, with six constants, and supergravity with one modulus allows none. The minimal Clebsch forces M_e = M_d, so D ≡ 1 against P-094's 10.58: the minimal joint frame is excluded. At weight 6 its free numbers saturate the ten quark observables (Jacobian rank 10). θ̄ ∈ {0, π} only on the CP line, where J = 0 too. Every cell as predicted (`the_joint_yukawas.py`; `W137_RULE.md`)
 
 **Why.**
@@ -11703,6 +11765,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W138 | COMPUTED (the rule first, after a read-only preparation that drafted the script, disclosed; one run; every cell as predicted); a check of main's census of one frame | the third opinion on main's B1726 (P-304): compare.py re-runs to the bit; a second calibration gives the same 120 fractions; 38 census points and both best rows reproduce on this seat's own instrument to 10⁻¹⁰; R7's mechanism holds (D = 9 exactly on order-5 lines); with every covariant reading and the factor free the six are not specific (3.4%). B1726 is a replicated two-ingredient READING, bankable as that and no more. 0 of 19 |
 | W137 | COMPUTED (the rule first; one run; every cell as predicted); WEAVE-type | the joint frame's Yukawas: no tree-level coupling when the generations are the surface's sections; in the modular-flavour picture the triplet's weight is even, so the least coupling is weight 6 with six constants (W136's weight 2 unreachable) and supergravity with one modulus allows none; with the 27s' weight, five of W134's twelve three-generation data have no coupling and the rest need 26 or 30 constants. The minimal Clebsch forces M_e = M_d, so D ≡ 1 against P-094's 10.58 (excluded, no fit); at weight 6 the Jacobian of the quark invariants has rank 10, so nothing is predicted in the quark sector; θ̄ ∈ {0, π} only on the CP line, where J = 0. 0 of 19 |
 | W136 | COMPUTED, exact (the rule first; one run after a failed launch, disclosed; every cell as predicted; the web seat's blind count agrees, read post hoc); WEAVE-type | the coupling forms: the joint family group is Γ₄ = PSL(2, ℤ/4), kernel ±Γ(4), so the families' couplings are level-4 modular forms. dim M_w(σ) for every irrep and even w ≤ 24 by three routes; generating weights 1: {0}, 1′: {6}, 2: {2, 4}, ρ′: {2, 4, 6}, ρ′ ⊗ sgn: {4, 6, 8}. The least forms: Y₂ = −4iηF₋₂ (ρ′, weight 2, two channels), Y₄ = 8iη⁹R (ρ′ ⊗ sgn, weight 4), Y₆ = −16η¹² (1′, weight 6; none at 8). C(w) = 2, 3, 6, 6, 9, 10 independent couplings at w = 2 … 12; the weight, τ and the constants are not fixed. 0 of 19 |
 | W135 | COMPUTED, exact (the rule first; one run; every cell as predicted); WEAVE-type | the joint computation, every piece at once on the weave's surface: E₈ and E₆ × SU(3) from the moves (B1270's icosians, Gram det 1), the 10 frames of 2I's order-3 subgroups conjugate under the moves, so the frame is the same for every thread; one founding ratio g = −RL⁻¹ cycles the family 3's weights and the parities (ρ(g) a signed 3-cycle), with exactly 3 identifications, so B1030's trit is their ℤ/3; the full 27's moves anomaly 18(3 + r + m), 81(3 + r + m) vanishes iff m ≡ 5 − r mod 8, E₈'s determinant condition (W132 = W134); the joint family group is the cube's rotations (order 24), with Sym³ρ′ = 1′ ⊕ 2ρ′ ⊕ ρ′ ⊗ sgn and no invariant, so no constant Yukawa: every family mass is a modular form Y(τ) in one of three irreps, the record's modular-flavour frames (main's zero-diagonal texture and Y(a), by hand). 0 of 19 |

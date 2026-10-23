@@ -81,7 +81,8 @@ Each takes every thread the principle allows under one rule, and its claim is ab
   - The twenty-second, main's B1726 (2026-10-23), is the first that held as sealed. With two ingredients put in by
     hand before the seal (the lepton factor 3 and a reading rule), the six charged-fermion ratios come within 1.20
     on 23 940 fresh points, and only 0.12% of random hierarchies do as well. Its |J| and its double ratio miss.
-    It tests the two ingredients, not forced structure; main asks the seats for a third opinion (P-304).
+    It tests the two ingredients, not forced structure. This seat's third opinion (W138) reproduces it in full;
+    with every covariant reading and the factor free, 3.4% of random hierarchies do as well.
   - The twenty-third, main's B1732 (2026-10-23, the same design with the Higgs F₆), failed as sealed: the six within
     1.62, but 7.06% of random hierarchies as good. The specificity was DR's.
   - The twenty-fourth, this seat's W137, is parameter-free: the minimal joint frame forces m_e = m_d and m_μ = m_s,
