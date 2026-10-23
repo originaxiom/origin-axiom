@@ -1,0 +1,20 @@
+{
+ "P1 holds": true,
+ "P2 cells": {
+  "A1": true,
+  "A2": true,
+  "A3": true,
+  "A4": true,
+  "B1": true,
+  "B2": true,
+  "C1": true,
+  "C2": true,
+  "D1": true,
+  "E1": true,
+  "E2": true
+ }
+}
+
+real	0m2.713s
+user	0m3.642s
+sys	0m0.096s

@@ -1,0 +1,91 @@
+{
+ "arc": "W144",
+ "status": "POST HOC, after the read-out",
+ "P1 the diagnosis": {
+  "theta calls in A2, A4, C1 and C2": 486,
+  "distinct (n, tau)": 36,
+  "of them theta_1 or theta_2 with Re tau outside (-1, 1]": 7,
+  "max |jtheta / series - i^(-k)| over theta_1 and theta_2": "2.79e-51",
+  "max |jtheta / series - 1| over theta_3 and theta_4": "4.01e-51"
+ },
+ "P1 holds": true,
+ "P2 cells with the explicit series": {
+  "A1": true,
+  "A2": true,
+  "A3": true,
+  "A4": true,
+  "B1": true,
+  "B2": true,
+  "C1": true,
+  "C2": true,
+  "D1": true,
+  "E1": true,
+  "E2": true
+ },
+ "P2 the failed cells' read-outs": {
+  "A2": {
+   "max off the curve": "7.48e-51",
+   "max relation residual": "5.76e-50",
+   "(SL)^3 / S^2 on w: distance from +1 and from -1": {
+    "both reversed": [
+     "3.23e-51",
+     "2.0"
+    ],
+    "L reversed": [
+     "2.0",
+     "3.23e-51"
+    ],
+    "S reversed": [
+     "2.0",
+     "3.23e-51"
+    ]
+   }
+  },
+  "A4": {
+   "max conjugation residual (5)": "1.88e-50",
+   "D_c = C residual": "7.42e-51",
+   "max F-law residual": "5.54e-51",
+   "k^2 = j mu residuals (l, s, s^4)": "2.17e-50",
+   "k_{s^4}": "(-1.0 - 2.13973e-51j)",
+   "k_{J_c}": "(1.0 - 1.96859e-52j)",
+   "k_eps": "(-1.0 - 1.94287e-51j)",
+   "relation word (sl)^3 s^-2: g-part sign, and k g = 1": {
+    "g-part": [
+     "1.0",
+     "1.0",
+     "1.0",
+     "1.0"
+    ],
+    "k g = 1": true
+   }
+  },
+  "C1": {
+   "d transport residual": "6.71e-42",
+   "n transport residual": "1.84e-50",
+   "least |r_s - k_s| off the zero lift": "0.554388",
+   "r_{s^4} + 1, r_{J_c} + 1, r_s(P_s y) r_s(y) + i: max": "4.95e-50"
+  },
+  "C2": {
+   "(9) residuals, max": "7.67e-47",
+   "Green form (11) residual, max": "3.0e-49",
+   "eps and J_c": {
+    "eps: A + I3, C + I3, M + I6": [
+     "0.0",
+     "0.0",
+     "0.0"
+    ],
+    "J_c: A - I3, C - I3, M - I6": [
+     "0.0",
+     "0.0",
+     "0.0"
+    ],
+    "J_c without r: the square's relative residual (2 means a sign)": "2.0"
+   },
+   "spin maps at eps": {
+    "A_spin at eps": "0.0",
+    "M_spin at eps": "0.0",
+    "C_spin at eps": "0.0"
+   }
+  }
+ }
+}
