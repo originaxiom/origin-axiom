@@ -1,0 +1,235 @@
+{
+ "P1 and P3: the menu, S, c = 3, all lines": {
+  "rows": 143640,
+  "six": 1.668481844830356,
+  "six at": "F_6 at 0.45 + 2.35i on (2/5, 4/5), L_2",
+  "nine": 2.19208425362929,
+  "nine at": "F_6 at 0.45 + 2.25i on (2/5, 4/5), L_2",
+  "J at the best nine-row": 4.234640869071882e-07,
+  "chi2_six at the best six-row": 36.5460619325619,
+  "chi2_nine at the best nine-row": 154.55148366851847,
+  "min chi2_six": 36.5460619325619,
+  "min chi2_six at": "F_6 at 0.45 + 2.35i on (2/5, 4/5), L_2",
+  "min chi2_nine": 112.66453109312094,
+  "min chi2_nine at": "F_6 at 0.45 + 2.35i on (2/5, 4/5), L_2",
+  "model over measured at the min chi2_nine row": [
+   1.668,
+   1.332,
+   1.273,
+   0.825,
+   1.215,
+   0.926,
+   0.426,
+   0.832,
+   1.018
+  ],
+  "rows with nine <= 2.5": 13,
+  "max |J| among them (2.5)": 2.7689045509760035e-06,
+  "its row (2.5)": "F_6 at 0.45 + 2.25i on (2/5, 1/2), L_2",
+  "its nine (2.5)": 2.2813792899775795,
+  "rows among them with |J| within a factor 3 of 3.08e-5 (2.5)": 0,
+  "rows with nine <= 3.0": 66,
+  "max |J| among them (3.0)": 6.459712494688574e-06,
+  "its row (3.0)": "F_22 at 0.9 + 2.55i on (2/5, 9/10), L_max",
+  "its nine (3.0)": 2.7123323803710533,
+  "rows among them with |J| within a factor 3 of 3.08e-5 (3.0)": 0,
+  "median |J| over all rows": 3.8717209918104345e-06,
+  "random as good, mean of 20 seeds (six, nine)": [
+   0.03380000000000001,
+   0.010475000000000002
+  ],
+  "range (six)": [
+   0.02925,
+   0.03775
+  ],
+  "range (nine)": [
+   0.00775,
+   0.013
+  ]
+ },
+ "P1 and P3: the reference DR, S~, c = 3, all lines": {
+  "rows": 47880,
+  "six": 1.4343032467499721,
+  "six at": "dR at 0.45 + 2.65i on (2/5, 1/2), L_2",
+  "nine": 1.8990849890762926,
+  "nine at": "dR at 0.45 + 2.55i on (2/5, 1/2), L_2",
+  "J at the best nine-row": 3.967711563745979e-06,
+  "chi2_six at the best six-row": 22.35975645275295,
+  "chi2_nine at the best nine-row": 125.8995866066166,
+  "min chi2_six": 22.35975645275295,
+  "min chi2_six at": "dR at 0.45 + 2.65i on (2/5, 1/2), L_2",
+  "min chi2_nine": 100.74050578479223,
+  "min chi2_nine at": "dR at 0.6 + 2.65i on (2/5, 1/10), L_2",
+  "model over measured at the min chi2_nine row": [
+   1.347,
+   1.838,
+   0.858,
+   1.092,
+   0.844,
+   0.734,
+   0.623,
+   0.5,
+   0.973
+  ],
+  "rows with nine <= 2.5": 9,
+  "max |J| among them (2.5)": 3.967711563745979e-06,
+  "its row (2.5)": "dR at 0.45 + 2.55i on (2/5, 1/2), L_2",
+  "its nine (2.5)": 1.8990849890762926,
+  "rows among them with |J| within a factor 3 of 3.08e-5 (2.5)": 0,
+  "rows with nine <= 3.0": 23,
+  "max |J| among them (3.0)": 7.046533028187696e-06,
+  "its row (3.0)": "dR at 0.45 + 2.45i on (2/5, 1/2), L_2",
+  "its nine (3.0)": 2.690666766857197,
+  "rows among them with |J| within a factor 3 of 3.08e-5 (3.0)": 0,
+  "median |J| over all rows": 1.872710981842829e-06,
+  "random as good, mean of 20 seeds (six, nine)": [
+   0.0077750000000000015,
+   0.0028500000000000005
+  ],
+  "range (six)": [
+   0.005,
+   0.01075
+  ],
+  "range (nine)": [
+   0.0015,
+   0.005
+  ]
+ },
+ "P2: the menu, S, c = 3, the tick's lines": {
+  "rows": 2160,
+  "six": 1.668481844830356,
+  "six at": "F_6 at 0.45 + 2.35i on (2/5, 4/5), L_2",
+  "nine": 2.19208425362929,
+  "nine at": "F_6 at 0.45 + 2.25i on (2/5, 4/5), L_2",
+  "J at the best nine-row": 4.234640869071882e-07,
+  "chi2_six at the best six-row": 36.5460619325619,
+  "chi2_nine at the best nine-row": 154.55148366851847,
+  "min chi2_six": 36.5460619325619,
+  "min chi2_six at": "F_6 at 0.45 + 2.35i on (2/5, 4/5), L_2",
+  "min chi2_nine": 112.66453109312094,
+  "min chi2_nine at": "F_6 at 0.45 + 2.35i on (2/5, 4/5), L_2",
+  "model over measured at the min chi2_nine row": [
+   1.668,
+   1.332,
+   1.273,
+   0.825,
+   1.215,
+   0.926,
+   0.426,
+   0.832,
+   1.018
+  ],
+  "rows with nine <= 2.5": 4,
+  "max |J| among them (2.5)": 7.891483164712554e-07,
+  "its row (2.5)": "F_6 at 0.6 + 2.25i on (2/5, 4/5), L_2",
+  "its nine (2.5)": 2.246082079256255,
+  "rows among them with |J| within a factor 3 of 3.08e-5 (2.5)": 0,
+  "rows with nine <= 3.0": 21,
+  "max |J| among them (3.0)": 1.5035751630421146e-06,
+  "its row (3.0)": "F_22 at 0.75 + 2.75i on (2/5, 1/5), L_max",
+  "its nine (3.0)": 2.7242665948565876,
+  "rows among them with |J| within a factor 3 of 3.08e-5 (3.0)": 0,
+  "median |J| over all rows": 8.993868505058344e-06,
+  "random as good, mean of 20 seeds (six, nine)": [
+   0.0027500000000000003,
+   0.00135
+  ],
+  "range (six)": [
+   0.0015,
+   0.00425
+  ],
+  "range (nine)": [
+   0.00025,
+   0.002
+  ]
+ },
+ "P2: the reference DR, S~, c = 3, the tick's lines": {
+  "rows": 720,
+  "six": 2.6584477663579458,
+  "six at": "dR at 0.75 + 2.95i on (2/5, 1/5), L_max",
+  "nine": 3.1757172025168754,
+  "nine at": "dR at 0.3 + 2.95i on (2/5, 1/5), L_2",
+  "J at the best nine-row": 3.7792295870531234e-07,
+  "chi2_six at the best six-row": 234.24895564469654,
+  "chi2_nine at the best nine-row": 595.7432703202243,
+  "min chi2_six": 147.87861200055102,
+  "min chi2_six at": "dR at 0.9 + 2.85i on (2/5, 1/5), L_max",
+  "min chi2_nine": 248.81537800272437,
+  "min chi2_nine at": "dR at 0.9 + 2.65i on (2/5, 4/5), L_2",
+  "model over measured at the min chi2_nine row": [
+   0.792,
+   12.542,
+   0.9,
+   0.629,
+   0.859,
+   0.706,
+   0.659,
+   0.556,
+   1.074
+  ],
+  "rows with nine <= 2.5": 0,
+  "rows with nine <= 3.0": 0,
+  "median |J| over all rows": 2.7667470021697227e-06,
+  "random as good, mean of 20 seeds (six, nine)": [
+   0.030000000000000006,
+   0.015125
+  ],
+  "range (six)": [
+   0.02575,
+   0.035
+  ],
+  "range (nine)": [
+   0.01175,
+   0.01875
+  ]
+ },
+ "P2: F_6 alone, S, c = 3, all lines": {
+  "rows": 47880,
+  "six": 1.668481844830356,
+  "six at": "F_6 at 0.45 + 2.35i on (2/5, 4/5), L_2",
+  "nine": 2.19208425362929,
+  "nine at": "F_6 at 0.45 + 2.25i on (2/5, 4/5), L_2",
+  "J at the best nine-row": 4.234640869071882e-07,
+  "chi2_six at the best six-row": 36.5460619325619,
+  "chi2_nine at the best nine-row": 154.55148366851847,
+  "min chi2_six": 36.5460619325619,
+  "min chi2_six at": "F_6 at 0.45 + 2.35i on (2/5, 4/5), L_2",
+  "min chi2_nine": 112.66453109312094,
+  "min chi2_nine at": "F_6 at 0.45 + 2.35i on (2/5, 4/5), L_2",
+  "model over measured at the min chi2_nine row": [
+   1.668,
+   1.332,
+   1.273,
+   0.825,
+   1.215,
+   0.926,
+   0.426,
+   0.832,
+   1.018
+  ],
+  "rows with nine <= 2.5": 11,
+  "max |J| among them (2.5)": 2.7689045509760035e-06,
+  "its row (2.5)": "F_6 at 0.45 + 2.25i on (2/5, 1/2), L_2",
+  "its nine (2.5)": 2.2813792899775795,
+  "rows among them with |J| within a factor 3 of 3.08e-5 (2.5)": 0,
+  "rows with nine <= 3.0": 34,
+  "max |J| among them (3.0)": 5.248824436421273e-06,
+  "its row (3.0)": "F_6 at 0.45 + 2.15i on (2/5, 1/2), L_2",
+  "its nine (3.0)": 2.877616979722687,
+  "rows among them with |J| within a factor 3 of 3.08e-5 (3.0)": 0,
+  "median |J| over all rows": 1.7408859775969177e-07,
+  "random as good, mean of 20 seeds (six, nine)": [
+   0.024550000000000006,
+   0.007275000000000001
+  ],
+  "range (six)": [
+   0.02075,
+   0.027
+  ],
+  "range (nine)": [
+   0.00475,
+   0.01125
+  ]
+ },
+ "P2: points on the tick's lines": 360
+}
