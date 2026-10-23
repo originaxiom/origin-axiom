@@ -1,0 +1,17 @@
+{
+ "A0_hashes": true,
+ "A0_census_finite": true,
+ "A1_rerun": true,
+ "A2_own_calibration": true,
+ "B0_own_controls": true,
+ "B1_rows": true,
+ "B2_best_rows": true,
+ "C2_dframe_own": true,
+ "C1_dframe_census": true,
+ "C3_orders_1_2_4_labelled": true
+}
+
+real	39m40.423s
+user	128m25.679s
+sys	2m6.917s
+exit=0
