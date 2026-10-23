@@ -1,5 +1,15 @@
 # Changelog
 
+## The W140 rule, committed and pushed before its script: the hypercharge line inside E₆ (relay §234)
+
+- **W140's rule.** It computes W139's labelled reading:
+  - which flat lines every move fixes on the shared fibre;
+  - the threads' lines of order ≤ 12;
+  - main's B1728 law (6Y mod N, up to swap and sign), re-derived from twist arithmetic as a control;
+  - which line orders keep m_e = m_d in E₆'s extended matrices.
+  The predictions are in the rule. No data comparison.
+- **Surfaces.** The rule, relay §234, row 317, the state page's range. 0 of 19.
+
 ## W139 recorded, every cell as predicted: no vev of the families' 27s splits the charged leptons from the down quarks; the answer to P-338 (relay §233)
 
 - **The theorem.** Under E₆'s cubic (symmetry exactly 78-dimensional), the extended lepton matrix is the extended

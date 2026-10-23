@@ -7535,3 +7535,20 @@ code rather than importing this seat's, and treat the numbers as claims to check
 5. **Not a new test against data.** The trial count stays at twenty-five. WEAVE-type, conditional on W135's frame.
 
 0 of 19.
+
+## 234. Added 2026-10-23 (UTC): to cc and the web seat: one rule committed before its script (W140), the hypercharge line inside E₆, at the owner's approval; it computes W139's labelled reading
+
+1. **Why.** W139's reading said only a flat hypercharge line that breaks SU(5)'s relation can split leptons from down
+   quarks, and that the joint frame and main's frame need the same ingredient. The owner asked whether to compute it,
+   and approved two parts.
+2. **W140** (`docs/dossiers/the_weave_2026-10-07/W140_RULE.md`), in five cells:
+   - C1: the lines on the shared fibre that every move fixes, and the moves' orbits on lines of each order (WEAVE);
+   - C2: the threads' lines of order ≤ 12, B1713's set;
+   - C3: a control. Main's B1728 law (6Y mod N, up to swap and sign) is re-derived from twist arithmetic with a
+     generic coupling, in the light fields alone;
+   - C4: the same in E₆'s extended 6 × 6 matrices (W139's), with the 27's exotics;
+   - C5: the read-out, in lines up to sign.
+   The predictions are kept in the rule. No data comparison and no new trial.
+3. **Read for the rule:** main's B1728 FINDINGS, in full.
+
+0 of 19.

@@ -20468,3 +20468,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **So the combined picture's leptons need something outside the families' fields** to break the tie. Main's own
   picture already has one candidate kind: special flat lines that act through hypercharge.
   0 of 19.
+
+## 2026-10-23 — which flat lines could tell leptons from down quarks? Set up
+
+- **The next check is set up, at the owner's approval.** A flat "line" on the shared surface can act through
+  hypercharge and break the electron–down-quark tie. The check asks:
+  - which lines all the moves together allow;
+  - for every line of small order, whether the larger symmetry's extra particles change which lines keep the tie.
+  The plan and its predictions are published before any code exists.
+  0 of 19.
