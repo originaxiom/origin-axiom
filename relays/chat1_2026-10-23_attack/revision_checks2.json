@@ -1,0 +1,191 @@
+{
+ "S1 max/min over the eight null-led forms: median, 90th percentile": {
+  "2.0-2.5": {
+   "down m2/m3": [
+    1.926,
+    3.816
+   ],
+   "V_cb": [
+    1.339,
+    2.485
+   ]
+  },
+  "2.5-3.0": {
+   "down m2/m3": [
+    1.17,
+    1.643
+   ],
+   "V_cb": [
+    1.094,
+    1.318
+   ]
+  },
+  "3.0-3.5": {
+   "down m2/m3": [
+    1.029,
+    1.109
+   ],
+   "V_cb": [
+    1.022,
+    1.083
+   ]
+  }
+ },
+ "S2 median relative error of |beta_u - beta_d| as |V_us|": {
+  "F_14 | F_22, 2.0-2.5": {
+   "SVD beta": 0.0163,
+   "first-order beta": 1.9008
+  },
+  "F_14 | F_22, 2.5-3.0": {
+   "SVD beta": 0.0018,
+   "first-order beta": 0.5056
+  },
+  "F_14 | F_22, 3.0-3.5": {
+   "SVD beta": 0.0005,
+   "first-order beta": 0.2042
+  },
+  "F_6 | F_22, 2.0-2.5": {
+   "SVD beta": 0.0092,
+   "first-order beta": 0.6688
+  },
+  "F_6 | F_22, 2.5-3.0": {
+   "SVD beta": 0.0015,
+   "first-order beta": 0.3314
+  },
+  "F_6 | F_22, 3.0-3.5": {
+   "SVD beta": 0.0006,
+   "first-order beta": 0.1513
+  },
+  "F_6 | F_6, 2.0-2.5": {
+   "SVD beta": 0.0038,
+   "first-order beta": 0.3778
+  },
+  "F_6 | F_6, 2.5-3.0": {
+   "SVD beta": 0.0014,
+   "first-order beta": 0.1746
+  },
+  "F_6 | F_6, 3.0-3.5": {
+   "SVD beta": 0.0006,
+   "first-order beta": 0.0842
+  },
+  "F_6 | dR, 2.0-2.5": {
+   "SVD beta": 0.0157,
+   "first-order beta": 0.645
+  },
+  "F_6 | dR, 2.5-3.0": {
+   "SVD beta": 0.0034,
+   "first-order beta": 0.1897
+  },
+  "F_6 | dR, 3.0-3.5": {
+   "SVD beta": 0.0008,
+   "first-order beta": 0.0449
+  },
+  "dR | dR, 2.0-2.5": {
+   "SVD beta": 0.0229,
+   "first-order beta": 1.0744
+  },
+  "dR | dR, 2.5-3.0": {
+   "SVD beta": 0.0052,
+   "first-order beta": 0.4997
+  },
+  "dR | dR, 3.0-3.5": {
+   "SVD beta": 0.0009,
+   "first-order beta": 0.4163
+  }
+ },
+ "S3 sqrt(m_d/m_s), |V_us|, relative difference, relative uncertainty of sqrt(m_d/m_s)": [
+  0.2241109850817481,
+  0.22501,
+  0.003995444283595817,
+  0.0560895231022126
+ ],
+ "S4 A2 optima: median |delta_d|^2/(2|eps_d|)": {
+  "all 160": 0.966,
+  "below 21.67": 0.983,
+  "L_max": 0.945,
+  "L_2": 1.004
+ },
+ "S4 A2 optima: V_cb over the null Higgs's at the same row, median and range": {
+  "L_max": [
+   1.136,
+   0.92,
+   1.374
+  ],
+  "L_2": [
+   1.242,
+   0.99,
+   2.675
+  ]
+ },
+ "S5 the Standard Model's reading with the record's forms: medians": {
+  "n-bar-led, 2.0-2.5": {
+   "up m2/m3": 0.0175,
+   "|V_ud|": 0.511,
+   "|V_cb|": 0.9869
+  },
+  "n-bar-led, 2.5-3.0": {
+   "up m2/m3": 0.0053,
+   "|V_ud|": 0.2118,
+   "|V_cb|": 0.9943
+  },
+  "n-bar-led, 3.0-3.5": {
+   "up m2/m3": 0.0016,
+   "|V_ud|": 0.0754,
+   "|V_cb|": 0.9978
+  },
+  "n-led, 2.0-2.5": {
+   "up m2/m3": 0.0641,
+   "|V_ud|": 0.3334,
+   "|V_cb|": 0.3543
+  },
+  "n-led, 2.5-3.0": {
+   "up m2/m3": 0.0193,
+   "|V_ud|": 0.0077,
+   "|V_cb|": 0.0131
+  },
+  "n-led, 3.0-3.5": {
+   "up m2/m3": 0.0059,
+   "|V_ud|": 0.001,
+   "|V_cb|": 0.0028
+  }
+ },
+ "S5 random nearly null directions: drawn, with an up hierarchy, of those |V_ud| > 0.9, of those |V_cb| < 0.2": {
+  "n-led": [
+   102400,
+   0,
+   0,
+   0
+  ],
+  "n-bar-led": [
+   102400,
+   9154,
+   1430,
+   0
+  ]
+ },
+ "S6 (m2/m3) / (|h.h|/4) for the stored up channels, random unit h: minimum, 1st, 10th, 50th percentile": {
+  "2.0-2.5": [
+   0.48,
+   1.051,
+   1.319,
+   2.061
+  ],
+  "2.5-3.0": [
+   0.69,
+   1.066,
+   1.302,
+   2.047
+  ],
+  "3.0-3.5": [
+   0.891,
+   1.076,
+   1.294,
+   2.06
+  ]
+ },
+ "S7 order-10 lines, DR both orientations: median relative error of m_d/m_e against |u_d.h|/|u_d.Ph|": {
+  "2.0-2.5": 0.0404,
+  "2.5-3.0": 0.0119,
+  "3.0-3.5": 0.0013
+ }
+}
