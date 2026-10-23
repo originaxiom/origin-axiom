@@ -21,7 +21,7 @@ for f in \
   ../../B1158_cloud_wave2_harvest/ADDENDUM_fence_note_R016.md ; do
   [ -f "$f" ] && echo "  OK $f" || { echo "  MISSING $f"; exit 1; }
 done
-grep -q "CLOSED (MOOD) 2026-08-27" ../../../docs/OPEN_LEADS.md && echo "  OK L171 closed (MOOD)"
-grep -q "PRECISION COLUMN RE-POSED" ../../../docs/OPEN_LEADS.md && echo "  OK L173 re-posed"
-grep -q "## L186" ../../../docs/OPEN_LEADS.md && echo "  OK L186 registered"
+grep -q "CLOSED (MOOD) 2026-08-27" ../../../docs/OPEN_LEADS.md && echo "  OK L171 closed (MOOD)" || { echo "  MISSING L171 closed (MOOD)"; exit 1; }
+grep -q "PRECISION COLUMN RE-POSED" ../../../docs/OPEN_LEADS.md && echo "  OK L173 re-posed" || { echo "  MISSING L173 re-posed"; exit 1; }
+grep -q "## L186" ../../../docs/OPEN_LEADS.md && echo "  OK L186 registered" || { echo "  MISSING L186 registered"; exit 1; }
 echo "REPRODUCES"

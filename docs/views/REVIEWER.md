@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1461** |
-| words of findings prose | **1,171,974** |
+| words of findings prose | **1,172,084** |
 | test lock files referenced | **876** |
 | arcs carrying an authored verdict | **1461** (100.0 %) |
 | recorded closures | **837** (670 classified, 167 routed-only) |
@@ -69,7 +69,7 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE HIGGS WHOSE INVARIANT HAS NO ZERO (P-306, P-303; no data): for the zero-free Higgs lines F_a = eta^(3-a)(eps th2^a, eps th4^a, i th3^a), a = 2 mod 4 (B1730), the quadratic invariant det S = a.a, which is the Higgs's factor of B1659's det Y(S, M) = 4 det S det M tr(eps S M^T) in B1656's frame, equals eta^(6-2a) th3^(2a) p_n(lambda) with p_n = lambda^n + (1 - lambda)^n - 1, n = a/2, lambda = th2^4/th3^4; since lambda maps the upper half plane onto C minus {0, 1}, it is zero-free iff p_n has no root off {0, 1}: p_1 = 0 (F_2 = 2 eta^4 R is null, Jacobi), p_3 = 3 lambda(lambda - 1) (det S(F_6) = -48 eta^6, zero-free), and every other n has roots off {0, 1} (degree counts; checked exactly for |n| <= 15, and at tau = e^{i pi/3} for n = +-1 mod 6). So exactly one zero-free Higgs, F_6 = eta^-3(th2^6, th4^6, i th3^6) at one unit with the sign character as twist, has a zero-free invariant; the least-datum Higgs F_2 makes det Y identically zero in B1656's frame (the first generation massless in 48 of 48 seeded sectors), while F_6 keeps it massive except on B1716's order-4 and order-12 lines. Read both ways, PF1-W fixes the Higgs (a necessary condition; the owner's call, P-303). 0 of 19.  
 `B1731_the_higgs_whose_invariant_has_no_zero/FINDINGS.md`
 
-**NEGATIVE — `B1732`** (871 words, 1 locks)  
+**NEGATIVE — `B1732`** (981 words, 1 locks)  
 THE TWO INGREDIENTS WITH THE HIGGS PF1-W FIXES (P-307; sealed 65e6abfce, sha256 edfa5675; NEGATIVE as sealed for its question -- R1 holds, R2-R5 fail, R6 holds at a non-specific row, R7 fails, C1 holds; outputs committed unread at 5f5db8108): with F_6, the one zero-free Higgs whose invariant has no zero (B1731), in place of DR on B1726's 23 940 points, the six charged-fermion ratios still come within 1.62 (1.30 under the covariant menu) but not specifically: 7.1% of random hierarchies fit as well under the seat's menu (B1726 with DR: 0.12%), 2.1% under the covariant menu (0.41%), 17.6% with the factor free (0.92%), every seed above 1%; the nine 35.8% (0.58%); |J| within a factor 3 at the best nine-row, which post hoc happens on 18% of all rows; D 9.00. F_6's good rows lie on order-8 lines. So in B1656's frame the two-ingredient specificity is DR's, and PF1-W read on both the Higgs and the determinant is incompatible with it; DR passes the determinant reading's Higgs factor (DR.DR = eta^6/4) and fails only the field reading (P-303). 0 of 19.  
 `B1732_the_two_ingredients_with_the_fixed_higgs/FINDINGS.md`
 

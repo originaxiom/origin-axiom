@@ -46,6 +46,11 @@ IN_PLACE = {
     "B1171_seam_harvest": "reproduce.sh",
     "B1172_lose_nothing_register": "reproduce.sh",
     "B1173_digest_partial_close": "reproduce.sh",
+    # added 2026-10-23 (the R68 sweep, P-313): these four text-pin runners were executed by no test
+    "B1176_record_surface_wave": "reproduce.sh",
+    "B1177_instrument_bundle": "reproduce.sh",
+    "B1178_l184_lazyfy": "reproduce.sh",
+    "B1179_outreach_and_papers": "reproduce.sh",
 }
 # the five outside-bench harvests: (runner, fastest certificate for the default lane)
 HEAVY = {
@@ -137,9 +142,36 @@ def test_heavy_runner_full_live(arc, tmp_path):
 def test_belt_census_is_complete():
     """every string-lock arc is in exactly one of the three run sets or is the documented record-only arc"""
     belt = set(FAST) | set(IN_PLACE) | set(HEAVY)
-    assert len(belt) == 26
+    assert len(belt) == 30     # 26 until 2026-10-23, when B1176-B1179 (run by no test) joined IN_PLACE (P-317 (a))
     assert not (set(FAST) & set(IN_PLACE)) and not (set(FAST) & set(HEAVY)) and not (set(IN_PLACE) & set(HEAVY))
     for arc in belt:
         assert (FRONTIER / arc / "verification").is_dir(), arc
     rec = (FRONTIER / "B1175_charter_close_harvest" / "verification" / "reproduce.sh").read_text(encoding="utf-8")
     assert "RE-RUNS NOTHING" in rec and "RECORD" in rec     # the one excluded arc says so itself
+
+
+# --- 2026-10-23 (the R68 sweep, P-313): soft pins. A text-pin line `grep -q X && echo "  OK ..."` prints nothing when
+# X is absent, and a runner that then prints REPRODUCES unconditionally passes with rc 0: B1172's MC1 pin failed
+# silently from Review 66 on (a live false pass). Every pin must exit non-zero when it fails.
+SOFT_PIN = re.compile(r'&& echo "  OK [^"]*"\s*$')
+
+
+def test_no_runner_has_a_soft_pin():
+    soft = []
+    for f in sorted(FRONTIER.glob("*/verification/*.sh")) + sorted(FRONTIER.glob("*/*.sh")):
+        for i, line in enumerate(f.read_text(errors="replace").splitlines(), 1):
+            if SOFT_PIN.search(line) and "||" not in line:
+                soft.append(f"{f.relative_to(ROOT)}:{i}")
+    assert soft == [], soft
+
+
+def test_a_hard_pin_fails_when_its_text_is_absent(tmp_path):
+    (tmp_path / "doc.md").write_text("present\n")
+    runner = tmp_path / "r.sh"
+    runner.write_text('#!/usr/bin/env bash\nset -euo pipefail\ncd "$(dirname "$0")"\n'
+                      'grep -q "present" doc.md && echo "  OK present" || { echo "  MISSING present"; exit 1; }\n'
+                      'grep -q "absent" doc.md && echo "  OK absent" || { echo "  MISSING absent"; exit 1; }\n'
+                      'echo "REPRODUCES"\n')
+    res = subprocess.run(["bash", str(runner)], capture_output=True, text=True)
+    assert res.returncode == 1 and "MISSING absent" in res.stdout and "REPRODUCES" not in res.stdout
+

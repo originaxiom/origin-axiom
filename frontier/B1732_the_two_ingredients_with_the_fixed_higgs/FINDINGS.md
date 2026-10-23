@@ -73,3 +73,12 @@ bearing on it are B1726, B1730, B1731, B1724, B1700, B1727, B1695 and B1713. **L
 - `verification/compare.py` → `comparison.json`, `compare_run.txt`.
 - `verification/posthoc.py` (labelled, after the read) → `posthoc.json`, `posthoc_run.txt`.
 - The lock: `tests/test_b1732_the_two_ingredients_with_the_fixed_higgs.py`.
+
+## Addendum 2026-10-23 (the parked-items sweep; P-316): the all-S reading was in the covariant menu
+
+The web seat's zero-free exploration finds F₆ fits best with S for every sector (the holomorphic reading), which
+B1726's seat menu never uses for the up quarks. B1732's covariant menu contains that reading among its eight
+assignments, and it did not make F₆ specific: the covariant six 2.08%, the nine 5.21%, and the best covariant nine is
+(S, S, S) at 2.19. So "incompatible" holds for B1726's three menus, the holomorphic reading included. The web seat's
+two sealed tests on other points and menus (ZERO_FREE_HOLOMORPHIC, TICK_LINE_HIGGS) are separate, and P-303's
+recommendation waits on them (P-316).

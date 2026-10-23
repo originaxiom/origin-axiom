@@ -17794,3 +17794,9 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **R68-8 done.** The pre-push gates run on each pushed commit in a clean worktree.
 - **P-309–P-313.** The owner's ruling: every lead re-evaluated, none retired; the first six done (readers' queue), the rest next.
 - **Landing suite.** full suite 7 615 passed, 2 failed, 68 skipped (30:13, -n 8) on 95e86501d; both failures are B805's attachment locks (P-239).
+
+## 2026-10-23 — S196 THE PARKED-ITEMS SWEEP, PHASE 1, AND THE BELT'S SOFT PINS REPAIRED
+
+- **Phase 1 complete:** 83 leads, 93 OPEN arcs and LEAD_REGISTER's 18 rows re-evaluated against today's frame by read-only readers; P-314–P-337 rowed. Top findings: P-312's Smith lemma and the line bit as the orientation (verified on main); four checks that could not fail (one a live false pass, repaired here); B997's golden uniqueness fails at m = 4; possible P9 errata; new probes on the goal's path.
+- **The belt repaired:** hard pins, B1172's MC1 pin, B1176–B1179 under test, a soft-pin ratchet.
+- **Landing suite.** full suite 7 620 passed, 3 failed, 68 skipped (23:18, -n 8) on d52cf2a75: B805's two attachment locks (P-239), and test_belt_census_is_complete, the belt's count lock (26), which this landing's four added runners raised to 30 — updated with a dated comment, the file re-run green (33 passed, 5 skipped).
