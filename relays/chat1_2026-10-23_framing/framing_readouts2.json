@@ -1,0 +1,449 @@
+{
+ "G1 DR split, c = 3, rows below the six's bar (ZERO_FREE_HOLOMORPHIC's grid)": [
+  {
+   "tau": [
+    0.3,
+    3.05
+   ],
+   "line": "(2/5, 1/10)",
+   "hor": "L_max",
+   "chi2_six": 3.815433142626087,
+   "split: model over measured (six, then |V_us|, |V_cb|, |V_ub|)": [
+    0.988,
+    0.696,
+    1.049,
+    1.007,
+    0.989,
+    0.945,
+    4.411,
+    23.855,
+    7.66
+   ],
+   "split: |V|": [
+    0.9925,
+    0.9979,
+    0.0286
+   ],
+   "split: J": 0.00015270127914845943,
+   "S~ in every sector: model over measured": [
+    0.988,
+    0.696,
+    0.951,
+    0.152,
+    0.923,
+    0.216,
+    0.172,
+    0.83,
+    0.381
+   ],
+   "S~ in every sector: chi2_six": 473.51982710799706,
+   "S in every sector: model over measured": [
+    2.55,
+    666.901,
+    1.049,
+    1.007,
+    0.989,
+    0.945,
+    0.575,
+    1.577,
+    0.081
+   ],
+   "S in every sector: chi2_six": 1161.3510835737266
+  },
+  {
+   "tau": [
+    0.6,
+    3.05
+   ],
+   "line": "(2/5, 1/2)",
+   "hor": "L_max",
+   "chi2_six": 4.060713263813057,
+   "split: model over measured (six, then |V_us|, |V_cb|, |V_ub|)": [
+    1.14,
+    0.861,
+    1.135,
+    1.018,
+    1.071,
+    0.933,
+    4.412,
+    23.827,
+    13.438
+   ],
+   "split: |V|": [
+    0.9927,
+    0.9967,
+    0.0501
+   ],
+   "split: J": -0.00033892266219481826,
+   "S~ in every sector: model over measured": [
+    1.14,
+    0.861,
+    1.029,
+    0.174,
+    1.001,
+    0.192,
+    0.164,
+    0.868,
+    0.378
+   ],
+   "S~ in every sector: chi2_six": 475.90318369523936,
+   "S in every sector: model over measured": [
+    3.357,
+    666.964,
+    1.135,
+    1.018,
+    1.071,
+    0.933,
+    0.514,
+    1.596,
+    0.06
+   ],
+   "S in every sector: chi2_six": 1217.5844507749753
+  },
+  {
+   "tau": [
+    0.45,
+    3.05
+   ],
+   "line": "(2/5, 1/10)",
+   "hor": "L_max",
+   "chi2_six": 6.314127626969037,
+   "split: model over measured (six, then |V_us|, |V_cb|, |V_ub|)": [
+    1.202,
+    0.96,
+    1.175,
+    1.023,
+    1.108,
+    0.927,
+    4.411,
+    23.809,
+    16.167
+   ],
+   "split: |V|": [
+    0.9926,
+    0.9959,
+    0.0603
+   ],
+   "split: J": 0.00042210117680951953,
+   "S~ in every sector: model over measured": [
+    1.202,
+    0.96,
+    1.065,
+    0.184,
+    1.037,
+    0.179,
+    0.163,
+    0.887,
+    0.381
+   ],
+   "S~ in every sector: chi2_six": 488.17313174655055,
+   "S in every sector: model over measured": [
+    3.795,
+    666.994,
+    1.175,
+    1.023,
+    1.108,
+    0.927,
+    0.492,
+    1.604,
+    0.065
+   ],
+   "S in every sector: chi2_six": 1247.8682996339276
+  },
+  {
+   "tau": [
+    0.75,
+    3.05
+   ],
+   "line": "(2/5, 1/2)",
+   "hor": "L_max",
+   "chi2_six": 6.335684461392584,
+   "split: model over measured (six, then |V_us|, |V_cb|, |V_ub|)": [
+    0.9,
+    0.65,
+    1.002,
+    1.001,
+    0.946,
+    0.952,
+    4.409,
+    23.865,
+    4.561
+   ],
+   "split: |V|": [
+    0.992,
+    0.9983,
+    0.017
+   ],
+   "split: J": -6.412136281142011e-05,
+   "S~ in every sector: model over measured": [
+    0.9,
+    0.65,
+    0.91,
+    0.14,
+    0.881,
+    0.227,
+    0.18,
+    0.81,
+    0.389
+   ],
+   "S~ in every sector: chi2_six": 483.8691102806001,
+   "S in every sector: model over measured": [
+    2.248,
+    666.865,
+    1.002,
+    1.001,
+    0.946,
+    0.952,
+    0.615,
+    1.566,
+    0.127
+   ],
+   "S in every sector: chi2_six": 1140.9829259923004
+  },
+  {
+   "tau": [
+    0.45,
+    3.05
+   ],
+   "line": "(2/5, 1/2)",
+   "hor": "L_max",
+   "chi2_six": 12.921448490673471,
+   "split: model over measured (six, then |V_us|, |V_cb|, |V_ub|)": [
+    1.292,
+    1.169,
+    1.247,
+    1.032,
+    1.175,
+    0.917,
+    4.408,
+    23.768,
+    21.387
+   ],
+   "split: |V|": [
+    0.9919,
+    0.9942,
+    0.0798
+   ],
+   "split: J": -0.000538835593033582,
+   "S~ in every sector: model over measured": [
+    1.292,
+    1.169,
+    1.13,
+    0.202,
+    1.101,
+    0.151,
+    0.164,
+    0.922,
+    0.394
+   ],
+   "S~ in every sector: chi2_six": 535.1306165265306,
+   "S in every sector: model over measured": [
+    4.65,
+    667.05,
+    1.247,
+    1.032,
+    1.175,
+    0.917,
+    0.458,
+    1.618,
+    0.073
+   ],
+   "S in every sector: chi2_six": 1305.0488542156754
+  },
+  {
+   "tau": [
+    0.15,
+    3.05
+   ],
+   "line": "(2/5, 1/10)",
+   "hor": "L_max",
+   "chi2_six": 16.216734868707984,
+   "split: model over measured (six, then |V_us|, |V_cb|, |V_ub|)": [
+    0.716,
+    0.719,
+    0.908,
+    0.987,
+    0.857,
+    0.965,
+    4.401,
+    23.875,
+    3.223
+   ],
+   "split: |V|": [
+    0.9903,
+    0.9987,
+    0.012
+   ],
+   "split: J": -6.914413097547367e-05,
+   "S~ in every sector: model over measured": [
+    0.716,
+    0.719,
+    0.825,
+    0.114,
+    0.796,
+    0.245,
+    0.204,
+    0.773,
+    0.419
+   ],
+   "S~ in every sector: chi2_six": 529.4073960063439,
+   "S in every sector: model over measured": [
+    2.074,
+    666.81,
+    0.908,
+    0.987,
+    0.857,
+    0.965,
+    0.685,
+    1.544,
+    0.214
+   ],
+   "S in every sector: chi2_six": 1131.9088461861775
+  },
+  {
+   "tau": [
+    0.6,
+    3.05
+   ],
+   "line": "(2/5, 1/10)",
+   "hor": "L_max",
+   "chi2_six": 16.56957709547891,
+   "split: model over measured (six, then |V_us|, |V_cb|, |V_ub|)": [
+    1.323,
+    1.274,
+    1.278,
+    1.035,
+    1.205,
+    0.913,
+    4.406,
+    23.746,
+    23.867
+   ],
+   "split: |V|": [
+    0.9914,
+    0.9933,
+    0.0891
+   ],
+   "split: J": 0.0005643206532113254,
+   "S~ in every sector: model over measured": [
+    1.323,
+    1.274,
+    1.158,
+    0.21,
+    1.129,
+    0.136,
+    0.166,
+    0.938,
+    0.403
+   ],
+   "S~ in every sector: chi2_six": 571.2865535358471,
+   "S in every sector: model over measured": [
+    5.044,
+    667.077,
+    1.278,
+    1.035,
+    1.205,
+    0.913,
+    0.445,
+    1.623,
+    0.076
+   ],
+   "S in every sector: chi2_six": 1330.4849779754313
+  }
+ ],
+ "G2 the left vectors at the best G1 row": {
+  "point": [
+   0.3,
+   3.05
+  ],
+  "line": "(2/5, 1/10)",
+  "hor": "L_max",
+  "Higgs components (abs)": [
+   0.0469,
+   0.7069,
+   0.7058
+  ],
+  "Higgs components (deg)": [
+   -166.5,
+   -13.4,
+   -103.6
+  ],
+  "|v.v| / |v|^2": 0.004954801752738681,
+  "up read S: m2/m3, m1/m3": [
+   0.009396915970524056,
+   0.004875120753384057
+  ],
+  "up read S: heaviest left vector on ['QJ', 'QI', 'QK']": [
+   0.0129,
+   0.984,
+   0.003
+  ],
+  "up read S: middle left vector on ['QJ', 'QI', 'QK']": [
+   0.4803,
+   0.0137,
+   0.506
+  ],
+  "up read S: lightest left vector on ['QJ', 'QI', 'QK']": [
+   0.5068,
+   0.0023,
+   0.491
+  ],
+  "up read S~: m2/m3, m1/m3": [
+   0.0036408720032867336,
+   5.090062957146029e-06
+  ],
+  "up read S~: heaviest left vector on ['QJ', 'QI', 'QK']": [
+   0.4951,
+   0.0046,
+   0.5002
+  ],
+  "up read S~: middle left vector on ['QJ', 'QI', 'QK']": [
+   0.0065,
+   0.9921,
+   0.0014
+  ],
+  "up read S~: lightest left vector on ['QJ', 'QI', 'QK']": [
+   0.4984,
+   0.0032,
+   0.4984
+  ],
+  "down read S: m2/m3, m1/m3": [
+   0.0196336447350798,
+   0.0009469721123962023
+  ],
+  "down read S: heaviest left vector on ['QJ', 'QI', 'QK']": [
+   0.0047,
+   0.9951,
+   0.0002
+  ],
+  "down read S: middle left vector on ['QJ', 'QI', 'QK']": [
+   0.6065,
+   0.0031,
+   0.3904
+  ],
+  "down read S: lightest left vector on ['QJ', 'QI', 'QK']": [
+   0.3887,
+   0.0018,
+   0.6094
+  ],
+  "down read S~: m2/m3, m1/m3": [
+   0.01781580723399902,
+   0.0001426648440114862
+  ],
+  "down read S~: heaviest left vector on ['QJ', 'QI', 'QK']": [
+   0.4979,
+   0.0018,
+   0.5003
+  ],
+  "down read S~: middle left vector on ['QJ', 'QI', 'QK']": [
+   0.0038,
+   0.9961,
+   0.0001
+  ],
+  "down read S~: lightest left vector on ['QJ', 'QI', 'QK']": [
+   0.4983,
+   0.0021,
+   0.4996
+  ]
+ }
+}
