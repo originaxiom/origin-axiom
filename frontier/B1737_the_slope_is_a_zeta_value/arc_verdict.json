@@ -1,0 +1,24 @@
+{
+ "id": "B1737",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1438",
+  "B1623"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the slope law (B1438) on levels of signed word states; Shintani's cone zeta of Z^2 modulo the monodromy",
+  "object": "the slope s(chi) of a torsion character and the trivial character's zeta(0)",
+  "reach": "class",
+  "hypotheses": "601 non-trivial monodromy-fixed characters at 16 levels (+LR 2-5, +LLR 3, +LLLR 3, +LLRLR 2, -LR 1-4, -LLRLR 1, -LLLRLR 1, -LLR 2-3, -LLRR 1); the general proof sketched, not written"
+ },
+ "claim_one_line": "THE SLOPE IS A ZETA VALUE (P-311; PROVED as a verified identity, no data): the slope law's s(chi) equals the chi-twisted Shintani zeta value at s = 0 of Z^2 modulo the monodromy, sum over the half-open fundamental parallelogram of chi(p)/(1 - chi(w))^2 (per generator), less (1/2) #(-I): to 2.5e-13 on all 601 characters at 16 levels against B1438's exact slopes; independent of the choice of w (3.3e-13); the trivial character's Shintani zeta(0) is -Psi/12 with Rademacher's Psi on all 16 levels. So the slope, Rademacher's Phi and Meyer's zeta(0) are one Eisenstein cocycle (Sczech's) at the torsion point and at 0; B1623's 'related, not the same' corrected by a dated note. The follow-on (channel norms as Kronecker-limit logs of the same L-function, a candidate line rule) registered. 0 of 19.",
+ "weave_or_thread": "thread (each level's monodromy), over a census of levels"
+}

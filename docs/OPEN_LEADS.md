@@ -3108,6 +3108,8 @@ character. Open, in the order they would be worked:
 
 **ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: (a) and (f) closed the same day (Theorem E; B1440); not run: (b) whether s is the Sczech–Eisenstein cocycle and its transform a partial zeta value (a bounded check on the root's tower), (c) the groupoid cocycle, (d) the Dehn-filling reading of a rational slope, (e) E₆'s Clebsch–Gordan constants. Owner: cc.
 
+**Dated note (2026-10-23, S200; the parked-items sweep, P-311):** (b) is answered on main by **B1737**: the slope is the χ-twisted Shintani zeta value at s = 0 of ℤ² modulo the monodromy (Sczech's Eisenstein cocycle), less ½·#(−I), on all 601 characters at 16 levels (2.5 × 10⁻¹³ against the exact slopes); the trivial character gives −Ψ/12 (Rademacher). B1623 corrected. The follow-on — the channel norms as Kronecker-limit logs of the same L-function, a candidate line rule — is in B1737 §4.
+
 ## L234 — THREE IN ONE BACKGROUND: the several-cusped search (registered 2026-10-01, B1441)
 
 B1440 bounds the count of one rank-two background by one on a one-cusped bundle; B1441 found it reach **two** on
@@ -3219,6 +3221,8 @@ six roots of u⁶ − 8u⁴ + 12u³ + 4. Open, in the order approved by the owne
 - **(f) The three sector classes not in ℚ(√5, √−3)** at the complete cusp: their field.
 
 **ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: (a) answered on this level (B1447 and its addendum), (d) evaluated and not read (B1447 §7), (e) run on sixteen levels (B1451); not run: (b) which group makes two members' Higgs directions non-commuting roots, (c) the 624 couplings with η = ℓ^±1, the rest of (e) (five-fold covers, the recurring 16, the torsions' fields). Owner: cc.
+
+**Dated note (2026-10-23, S199; the parked-items sweep, P-302):** (b) is answered on main by **B1736**: W135's family group rebuilt with main's own code (E₈ from 2I; the object's g = −RL⁻¹ permutes its frame's six 27-classes as the A₂ rotation does; Γ′ the cube's rotations, no Sym³ invariant, one Λ³), and B1656's coupling is Y = u hᵀ + h uᵀ − (u·h)1 + u₁[h]_× + h₀(u₁1 + [u]_×), its channel 1 E₈'s ε and its channels a triplet carrying the Higgs's own cube rotations. B1739 then reads the mixing through it: the Higgs is nearly null at hierarchy τ, so the Standard Model's reading misaligns the light generation.
 
 ## L238 — B675'S CERTIFICATION DOES NOT RUN ON THIS BENCH (registered 2026-10-02, B1452)
 

@@ -1,0 +1,14 @@
+{
+ "N_invariance_rel": 8.440541376403879e-16,
+ "neutral_leptonic_components": 5,
+ "down_type_pairs": [
+  2,
+  2
+ ],
+ "lepton_pairs": [
+  2,
+  2
+ ],
+ "max_rel_singular_value_difference_E6": 6.066184681624365e-16,
+ "control_detL_doubled_max_rel_difference": 1.000000000000002
+}

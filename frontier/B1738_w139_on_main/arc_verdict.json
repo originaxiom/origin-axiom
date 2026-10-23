@@ -1,0 +1,28 @@
+{
+ "id": "B1738",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B884",
+  "B1726",
+  "B1729",
+  "B1735"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W139"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "E6's cubic in trinification form on three families' 27s with a symmetric coupling",
+  "object": "the extended down-quark and charged-lepton mass matrices under any colour- and charge-keeping vev of the 27s",
+  "reach": "class",
+  "hypotheses": "eight random complex symmetric couplings and neutral vevs; main's own code from the invariance and Q_em = T3 + T8/sqrt3"
+ },
+ "claim_one_line": "W139 ON MAIN (P-338; PROVED, no data): under E6's cubic N = det Q + det L + det Q^c - tr(Q L Q^c) (invariant under SU(3)^3 to 8e-16), with three families, a symmetric coupling and any vevs in the five neutral leptonic components, the extended down-type (d, D) and charged-lepton (e, E) mass matrices have the same singular values to 6e-16; doubling det L splits them (the control). So D = 1 for every 27 vev: the lepton factor 3 that B1726's ingredients put in by hand cannot come from the 27s' cubic; P-338 answered no; P-294 sharpens to a source outside the 27s. 0 of 19.",
+ "weave_or_thread": "weave (the joint frame's gauge structure)"
+}

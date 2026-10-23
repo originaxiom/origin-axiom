@@ -59,3 +59,10 @@ Main's reproduction by re-run (all 380 of sm:B1541's readings identical, row 894
 
 This page; the registry's lit-status column for the four theorems (`docs/THEOREM_REGISTRY.md`); harvest row 897's status.
 Lock: `verification/test_b1623_the_owed_literature_checks.py`.
+
+## Dated note (2026-10-23, B1737)
+
+- **T-SLOPE-LAW: "related, not the same" corrected.** On main's exact slopes, s(χ) is the χ-twisted Shintani zeta value at
+  s = 0 of ℤ² modulo the monodromy, less ½·#(−I) (601 characters at 16 levels, to 2.5 × 10⁻¹³), and the trivial character
+  gives −Ψ/12 with Rademacher's Ψ. So the slope is the χ-twisted member of the Dedekind–Rademacher–Meyer family
+  (Sczech's Eisenstein cocycle at the torsion point), not a different object. The general proof is sketched in B1737 §3.

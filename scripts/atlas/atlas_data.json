@@ -11299,6 +11299,7 @@
     "action",
     "trace_map",
     "dickson_tower",
+    "eisenstein",
     "z3_generation",
     "torsion",
     "lorentzian"
@@ -13614,6 +13615,50 @@
    "obstacle": "particle_dict",
    "obstacle_conf": 7,
    "status": "dormant",
+   "domain": "arithmetic"
+  },
+  "B1737": {
+   "slug": "the slope is a zeta value",
+   "motifs": [
+    "action",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L233"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
+   "status": "dormant",
+   "domain": "arithmetic"
+  },
+  "B1738": {
+   "slug": "w139 on main",
+   "motifs": [
+    "coupling",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B884"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1739": {
+   "slug": "the higgs is nearly null",
+   "motifs": [
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 10,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B173": {
