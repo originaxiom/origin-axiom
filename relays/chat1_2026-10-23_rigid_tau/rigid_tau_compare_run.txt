@@ -1,0 +1,31 @@
+A1 six within 2.0: True
+A2 six specific (mean over 20 seeds <= 1%): True
+A3 nine within 2.5: True
+A4 nine specific (<= 1%): True
+A5 min chi2_six below 16.75: False
+A6 min chi2_nine below 21.67: False
+A7 S beats S~ on both the six and the nine: True
+A8 |J| within a factor 3 of 3.08e-5 at the best nine-row: False
+A9 D within 3 sigma of P-094 at the best six-row: False
+B1 tau = 2 sqrt3 i: six within 2.0: False
+B2 tau = 1/2 + sqrt3 i: six within 2.0: False
+C1 holds: True
+C2 holds: False
+C3 holds: True
+A: six 1.635 at {'direction': 'F_22', 'point': 'LLLLLRRRR #73 line 16 (2/5, 3/5)', 'tau': [3.5, 2.73861278752583], 'hor': 'L_2'} (nine there 2.833; D 9.000)
+A: nine 2.256 at {'direction': 'F_22', 'point': 'LLLLRLRLR #76 line 33 (2/5, 4/5)', 'tau': [3.0, 2.6220221204253793], 'hor': 'L_max'} (J -3.02e-19)
+A: random as good six 0.0069 (0.0040-0.0092), nine 0.0039 (0.0018-0.0055)
+A: min chi2_six 48.9 at {'direction': 'F_22', 'point': 'LLLLLRRRR #73 line 16 (2/5, 3/5)', 'tau': [3.5, 2.73861278752583], 'hor': 'L_2'}; min chi2_nine 145.7 at {'direction': 'F_6', 'point': 'LLLLRLRR #43 line 18 (9/23, 2/23)', 'tau': [3.1, 2.4919871588754225], 'hor': 'L_2'}
+A with S~: six 2.120, nine 4.159
+B 2 sqrt3 i: six 26.623 at {'direction': 'F_22', 'point': '2 sqrt3 i on (2/5, 4/5)', 'tau': [0.0, 3.4641016151377544], 'hor': 'L_2'}; nine 26.623; min chi2_six 2034.2
+B 1/2 + sqrt3 i: six 42.957 at {'direction': 'F_6', 'point': '1/2 + sqrt3 i on (2/5, 4/5)', 'tau': [0.5, 1.7320508075688772], 'hor': 'L_2'}; nine 42.957; min chi2_six 1504.5
+model over measured at A's best six-row: [1.392, 0.624, 0.901, 0.612, 0.86, 0.686, 0.353, 0.522, 0.584]
+model over measured at A's best nine-row: [2.161, 1.779, 2.172, 0.85, 2.073, 0.954, 0.575, 1.495, 2.256]
+controls: C1 2.51e-14; C2 [8.980800335779346e-08, 1.3579129431527742e-07]; C3 1.96e-12
+read-out F_6: six 2.259 at {'direction': 'F_6', 'point': 'LLLRLLR #25 line 12 (2/5, 0)', 'tau': [2.5, 2.23606797749979], 'hor': 'L_2'}; nine 2.259 at {'direction': 'F_6', 'point': 'LLLRLLR #25 line 12 (2/5, 0)', 'tau': [2.5, 2.23606797749979], 'hor': 'L_2'}
+read-out F_-2: six 134.212 at {'direction': 'F_-2', 'point': 'LLLLRLR #23 line 14 (1/2, 1/3)', 'tau': [3.0, 2.6457513110645907], 'hor': 'L_2'}; nine 135.481 at {'direction': 'F_-2', 'point': 'LLLLLLRRR #69 line 3 (3/22, 21/22)', 'tau': [4.0, 3.3166247903554], 'hor': 'L_2'}
+read-out F_22: six 1.635 at {'direction': 'F_22', 'point': 'LLLLLRRRR #73 line 16 (2/5, 3/5)', 'tau': [3.5, 2.73861278752583], 'hor': 'L_2'}; nine 2.256 at {'direction': 'F_22', 'point': 'LLLLRLRLR #76 line 33 (2/5, 4/5)', 'tau': [3.0, 2.6220221204253793], 'hor': 'L_max'}
+read-out family A, menu, S, c = 1: six 2.220 at {'direction': 'F_22', 'point': 'LLLLLRRRR #73 line 16 (2/5, 3/5)', 'tau': [3.5, 2.73861278752583], 'hor': 'L_max'}; nine 2.802; min chi2_six 145.6
+read-out family A, DR, up S~, down and leptons S, c = 3 (B1720's best reading): six 1.614 at {'direction': 'dR', 'point': 'LLLLLRR #22 line 8 (2/5, 3/5)', 'tau': [3.5, 2.9580398915498076], 'hor': 'L_max'}; nine 22.209; min chi2_six 42.3
+read-out family A, DR, S, c = 3: six 2.146 at {'direction': 'dR', 'point': 'LLLLLRLLR #70 line 10 (1/4, 1/8)', 'tau': [3.5, 3.24037034920393], 'hor': 'L_max'}; nine 4.709; min chi2_six 156.1
+read-out family A, DR, S~, c = 3 (the sealed census's model): six 3.216 at {'direction': 'dR', 'point': 'LLLLRLLLR #74 line 22 (11/26, 3/13)', 'tau': [3.0, 2.792848008753788], 'hor': 'L_max'}; nine 3.511; min chi2_six 111.3

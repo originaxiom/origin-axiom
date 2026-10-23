@@ -1,0 +1,842 @@
+{
+ "cells": {
+  "A1 six within 2.0": true,
+  "A2 six specific (mean over 20 seeds <= 1%)": true,
+  "A3 nine within 2.5": true,
+  "A4 nine specific (<= 1%)": true,
+  "A5 min chi2_six below 16.75": false,
+  "A6 min chi2_nine below 21.67": false,
+  "A7 S beats S~ on both the six and the nine": true,
+  "A8 |J| within a factor 3 of 3.08e-5 at the best nine-row": false,
+  "A9 D within 3 sigma of P-094 at the best six-row": false,
+  "B1 tau = 2 sqrt3 i: six within 2.0": false,
+  "B2 tau = 1/2 + sqrt3 i: six within 2.0": false,
+  "C1 holds": true,
+  "C2 holds": false,
+  "C3 holds": true
+ },
+ "family A, menu, S, c = 3": {
+  "six": 1.6350207242060395,
+  "six at": {
+   "direction": "F_22",
+   "point": "LLLLLRRRR #73 line 16 (2/5, 3/5)",
+   "tau": [
+    3.5,
+    2.73861278752583
+   ],
+   "hor": "L_2"
+  },
+  "nine at the best six-row": 2.833400412628646,
+  "D at the best six-row": 9.000000000000005,
+  "six: model over measured": [
+   1.392,
+   0.624,
+   0.901,
+   0.612,
+   0.86,
+   0.686,
+   0.353,
+   0.522,
+   0.584
+  ],
+  "nine": 2.25609200352769,
+  "nine at": {
+   "direction": "F_22",
+   "point": "LLLLRLRLR #76 line 33 (2/5, 4/5)",
+   "tau": [
+    3.0,
+    2.6220221204253793
+   ],
+   "hor": "L_max"
+  },
+  "J at the best nine-row": -3.015437292225309e-19,
+  "nine: model over measured": [
+   2.161,
+   1.779,
+   2.172,
+   0.85,
+   2.073,
+   0.954,
+   0.575,
+   1.495,
+   2.256
+  ],
+  "min chi2_six": 48.882656173504564,
+  "min chi2_six at": {
+   "direction": "F_22",
+   "point": "LLLLLRRRR #73 line 16 (2/5, 3/5)",
+   "tau": [
+    3.5,
+    2.73861278752583
+   ],
+   "hor": "L_2"
+  },
+  "min chi2_nine": 145.6967081119467,
+  "min chi2_nine at": {
+   "direction": "F_6",
+   "point": "LLLLRLRR #43 line 18 (9/23, 2/23)",
+   "tau": [
+    3.1,
+    2.4919871588754225
+   ],
+   "hor": "L_2"
+  },
+  "rows": 19494
+ },
+ "family A: random as good (20 seeds)": {
+  "six": [
+   0.00825,
+   0.00725,
+   0.005,
+   0.00775,
+   0.00675,
+   0.00725,
+   0.0075,
+   0.00725,
+   0.00675,
+   0.0085,
+   0.0075,
+   0.0065,
+   0.007,
+   0.00525,
+   0.007,
+   0.00575,
+   0.00925,
+   0.005,
+   0.004,
+   0.00925
+  ],
+  "nine": [
+   0.00325,
+   0.00175,
+   0.0045,
+   0.00375,
+   0.0045,
+   0.0035,
+   0.0045,
+   0.00475,
+   0.00225,
+   0.00275,
+   0.00375,
+   0.004,
+   0.00375,
+   0.0035,
+   0.00525,
+   0.00375,
+   0.0055,
+   0.00325,
+   0.00525,
+   0.004
+  ],
+  "six mean": 0.006937500000000001,
+  "nine mean": 0.003875000000000001
+ },
+ "family A, menu, S~, c = 3 (A7)": {
+  "six": 2.1198531095365096,
+  "six at": {
+   "direction": "F_6",
+   "point": "LLLLLRLLR #70 line 11 (1/4, 5/8)",
+   "tau": [
+    3.5,
+    3.24037034920393
+   ],
+   "hor": "L_max"
+  },
+  "nine at the best six-row": 684.6771914856897,
+  "D at the best six-row": 8.999916006594828,
+  "six: model over measured": [
+   1.217,
+   0.622,
+   0.494,
+   0.558,
+   0.472,
+   0.626,
+   0.269,
+   0.001,
+   0.003
+  ],
+  "nine": 4.158632795846477,
+  "nine at": {
+   "direction": "F_6",
+   "point": "LLLLRLLLR #74 line 12 (3/13, 4/13)",
+   "tau": [
+    3.0,
+    2.792848008753788
+   ],
+   "hor": "L_2"
+  },
+  "J at the best nine-row": -3.2526065174565133e-18,
+  "nine: model over measured": [
+   1.703,
+   2.669,
+   0.327,
+   1.964,
+   1.522,
+   4.04,
+   0.847,
+   3.17,
+   4.159
+  ],
+  "min chi2_six": 138.24937817473395,
+  "min chi2_six at": {
+   "direction": "F_6",
+   "point": "LLLLLRLLR #70 line 11 (1/4, 5/8)",
+   "tau": [
+    3.5,
+    3.24037034920393
+   ],
+   "hor": "L_max"
+  },
+  "min chi2_nine": 588.1685708249506,
+  "min chi2_nine at": {
+   "direction": "F_6",
+   "point": "LLLLLRRR #41 line 8 (5/19, 11/19)",
+   "tau": [
+    3.5,
+    2.8136571693556887
+   ],
+   "hor": "L_2"
+  },
+  "rows": 19494
+ },
+ "family B, 2 sqrt3 i": {
+  "six": 26.62328307102174,
+  "six at": {
+   "direction": "F_22",
+   "point": "2 sqrt3 i on (2/5, 4/5)",
+   "tau": [
+    0.0,
+    3.4641016151377544
+   ],
+   "hor": "L_2"
+  },
+  "nine at the best six-row": 26.62328307102174,
+  "D at the best six-row": 8.999999999999996,
+  "six: model over measured": [
+   0.289,
+   0.071,
+   0.285,
+   0.038,
+   0.272,
+   0.042,
+   0.105,
+   0.228,
+   0.061
+  ],
+  "nine": 26.62328307102174,
+  "nine at": {
+   "direction": "F_22",
+   "point": "2 sqrt3 i on (2/5, 4/5)",
+   "tau": [
+    0.0,
+    3.4641016151377544
+   ],
+   "hor": "L_2"
+  },
+  "J at the best nine-row": 1.2518989178644802e-09,
+  "nine: model over measured": [
+   0.289,
+   0.071,
+   0.285,
+   0.038,
+   0.272,
+   0.042,
+   0.105,
+   0.228,
+   0.061
+  ],
+  "min chi2_six": 2034.2193028394286,
+  "min chi2_six at": {
+   "direction": "F_22",
+   "point": "2 sqrt3 i on (2/5, 4/5)",
+   "tau": [
+    0.0,
+    3.4641016151377544
+   ],
+   "hor": "L_max"
+  },
+  "min chi2_nine": 3538.798057558932,
+  "min chi2_nine at": {
+   "direction": "F_22",
+   "point": "2 sqrt3 i on (2/5, 4/5)",
+   "tau": [
+    0.0,
+    3.4641016151377544
+   ],
+   "hor": "L_max"
+  },
+  "rows": 48
+ },
+ "family B, 1/2 + sqrt3 i": {
+  "six": 42.95714991288986,
+  "six at": {
+   "direction": "F_6",
+   "point": "1/2 + sqrt3 i on (2/5, 4/5)",
+   "tau": [
+    0.5,
+    1.7320508075688772
+   ],
+   "hor": "L_2"
+  },
+  "nine at the best six-row": 42.95714991288986,
+  "D at the best six-row": 9.000000000000004,
+  "six: model over measured": [
+   9.484,
+   42.957,
+   3.535,
+   6.794,
+   3.373,
+   7.621,
+   0.588,
+   1.367,
+   3.771
+  ],
+  "nine": 42.95714991288986,
+  "nine at": {
+   "direction": "F_6",
+   "point": "1/2 + sqrt3 i on (2/5, 4/5)",
+   "tau": [
+    0.5,
+    1.7320508075688772
+   ],
+   "hor": "L_2"
+  },
+  "J at the best nine-row": 3.3203691532368573e-19,
+  "nine: model over measured": [
+   9.484,
+   42.957,
+   3.535,
+   6.794,
+   3.373,
+   7.621,
+   0.588,
+   1.367,
+   3.771
+  ],
+  "min chi2_six": 1504.4944694291553,
+  "min chi2_six at": {
+   "direction": "F_6",
+   "point": "1/2 + sqrt3 i on (2/5, 1/5)",
+   "tau": [
+    0.5,
+    1.7320508075688772
+   ],
+   "hor": "L_2"
+  },
+  "min chi2_nine": 1584.1219346160165,
+  "min chi2_nine at": {
+   "direction": "F_6",
+   "point": "1/2 + sqrt3 i on (2/5, 1/5)",
+   "tau": [
+    0.5,
+    1.7320508075688772
+   ],
+   "hor": "L_2"
+  },
+  "rows": 48
+ },
+ "controls": {
+  "C1 max |delta ln| against TC.ratios_at": 2.5091040356528222e-14,
+  "C2 point": "LR #0 line 0 (1/5, 1/5)",
+  "C2 max |delta ln| under T (ratios, |V| above 1e-12), F_6": [
+   8.980800335779346e-08,
+   1.3579129431527742e-07
+  ],
+  "C2 entries kept (ratios, |V|)": [
+   24,
+   24
+  ],
+  "C3 class, line": [
+   "LLLLLRLRR",
+   71,
+   22,
+   "(11/28, 2/7)",
+   [
+    3.6,
+    2.9933259094191533
+   ]
+  ],
+  "C3 max |delta ln| against B1720's stored six": 1.964650664378607e-12,
+  "C1 holds": true,
+  "C2 holds": false,
+  "C3 holds": true
+ },
+ "read-outs": {
+  "family A, F_6, S, c = 3": {
+   "six": 2.258517179665784,
+   "six at": {
+    "direction": "F_6",
+    "point": "LLLRLLR #25 line 12 (2/5, 0)",
+    "tau": [
+     2.5,
+     2.23606797749979
+    ],
+    "hor": "L_2"
+   },
+   "nine at the best six-row": 2.258517179665784,
+   "D at the best six-row": 9.000000000000002,
+   "six: model over measured": [
+    2.259,
+    1.099,
+    1.49,
+    1.26,
+    1.422,
+    1.413,
+    0.479,
+    0.93,
+    1.345
+   ],
+   "nine": 2.258517179665784,
+   "nine at": {
+    "direction": "F_6",
+    "point": "LLLRLLR #25 line 12 (2/5, 0)",
+    "tau": [
+     2.5,
+     2.23606797749979
+    ],
+    "hor": "L_2"
+   },
+   "J at the best nine-row": 1.5034834813763831e-18,
+   "nine: model over measured": [
+    2.259,
+    1.099,
+    1.49,
+    1.26,
+    1.422,
+    1.413,
+    0.479,
+    0.93,
+    1.345
+   ],
+   "min chi2_six": 78.58892949783066,
+   "min chi2_six at": {
+    "direction": "F_6",
+    "point": "LLLLRRLRR #79 line 29 (2/5, 3/10)",
+    "tau": [
+     3.0,
+     2.3717082451262845
+    ],
+    "hor": "L_2"
+   },
+   "min chi2_nine": 145.6967081119467,
+   "min chi2_nine at": {
+    "direction": "F_6",
+    "point": "LLLLRLRR #43 line 18 (9/23, 2/23)",
+    "tau": [
+     3.1,
+     2.4919871588754225
+    ],
+    "hor": "L_2"
+   },
+   "rows": 6498
+  },
+  "family A, F_-2, S, c = 3": {
+   "six": 134.21157689239112,
+   "six at": {
+    "direction": "F_-2",
+    "point": "LLLLRLR #23 line 14 (1/2, 1/3)",
+    "tau": [
+     3.0,
+     2.6457513110645907
+    ],
+    "hor": "L_2"
+   },
+   "nine at the best six-row": 3549800258733469.5,
+   "D at the best six-row": 3.3538769806495345,
+   "six: model over measured": [
+    134.212,
+    83.233,
+    26.411,
+    0.647,
+    25.438,
+    1.966,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "nine": 135.48055907366688,
+   "nine at": {
+    "direction": "F_-2",
+    "point": "LLLLLLRRR #69 line 3 (3/22, 21/22)",
+    "tau": [
+     4.0,
+     3.3166247903554
+    ],
+    "hor": "L_2"
+   },
+   "J at the best nine-row": 1.3010426069826053e-17,
+   "nine: model over measured": [
+    135.481,
+    60.369,
+    34.149,
+    16.104,
+    27.37,
+    5.811,
+    0.63,
+    11.589,
+    22.519
+   ],
+   "min chi2_six": 4348.074041638258,
+   "min chi2_six at": {
+    "direction": "F_-2",
+    "point": "LLLLLLRLR #68 line 20 (1/2, 1/3)",
+    "tau": [
+     4.0,
+     3.651483716701107
+    ],
+    "hor": "L_max"
+   },
+   "min chi2_nine": 4844.063354093766,
+   "min chi2_nine at": {
+    "direction": "F_-2",
+    "point": "LLLLRLRLR #76 line 40 (1/2, 3/8)",
+    "tau": [
+     3.0,
+     2.6220221204253793
+    ],
+    "hor": "L_2"
+   },
+   "rows": 6498
+  },
+  "family A, F_22, S, c = 3": {
+   "six": 1.6350207242060395,
+   "six at": {
+    "direction": "F_22",
+    "point": "LLLLLRRRR #73 line 16 (2/5, 3/5)",
+    "tau": [
+     3.5,
+     2.73861278752583
+    ],
+    "hor": "L_2"
+   },
+   "nine at the best six-row": 2.833400412628646,
+   "D at the best six-row": 9.000000000000005,
+   "six: model over measured": [
+    1.392,
+    0.624,
+    0.901,
+    0.612,
+    0.86,
+    0.686,
+    0.353,
+    0.522,
+    0.584
+   ],
+   "nine": 2.25609200352769,
+   "nine at": {
+    "direction": "F_22",
+    "point": "LLLLRLRLR #76 line 33 (2/5, 4/5)",
+    "tau": [
+     3.0,
+     2.6220221204253793
+    ],
+    "hor": "L_max"
+   },
+   "J at the best nine-row": -3.015437292225309e-19,
+   "nine: model over measured": [
+    2.161,
+    1.779,
+    2.172,
+    0.85,
+    2.073,
+    0.954,
+    0.575,
+    1.495,
+    2.256
+   ],
+   "min chi2_six": 48.882656173504564,
+   "min chi2_six at": {
+    "direction": "F_22",
+    "point": "LLLLLRRRR #73 line 16 (2/5, 3/5)",
+    "tau": [
+     3.5,
+     2.73861278752583
+    ],
+    "hor": "L_2"
+   },
+   "min chi2_nine": 156.90454790383876,
+   "min chi2_nine at": {
+    "direction": "F_22",
+    "point": "LLLLLRRRR #73 line 14 (2/5, 1/10)",
+    "tau": [
+     3.5,
+     2.73861278752583
+    ],
+    "hor": "L_2"
+   },
+   "rows": 6498
+  },
+  "family A, menu, S, c = 1": {
+   "six": 2.2199893106799915,
+   "six at": {
+    "direction": "F_22",
+    "point": "LLLLLRRRR #73 line 16 (2/5, 3/5)",
+    "tau": [
+     3.5,
+     2.73861278752583
+    ],
+    "hor": "L_max"
+   },
+   "nine at the best six-row": 2.80236266066015,
+   "D at the best six-row": 1.0,
+   "six: model over measured": [
+    2.22,
+    1.502,
+    1.984,
+    0.553,
+    0.631,
+    1.86,
+    0.357,
+    1.444,
+    1.281
+   ],
+   "nine": 2.80236266066015,
+   "nine at": {
+    "direction": "F_22",
+    "point": "LLLLLRRRR #73 line 16 (2/5, 3/5)",
+    "tau": [
+     3.5,
+     2.73861278752583
+    ],
+    "hor": "L_max"
+   },
+   "J at the best nine-row": -1.9168355596364817e-16,
+   "nine: model over measured": [
+    2.22,
+    1.502,
+    1.984,
+    0.553,
+    0.631,
+    1.86,
+    0.357,
+    1.444,
+    1.281
+   ],
+   "min chi2_six": 145.6001400961414,
+   "min chi2_six at": {
+    "direction": "F_22",
+    "point": "LLLLLRRR #41 line 11 (2/5, 4/15)",
+    "tau": [
+     3.5,
+     2.8136571693556887
+    ],
+    "hor": "L_max"
+   },
+   "min chi2_nine": 276.53337921705315,
+   "min chi2_nine at": {
+    "direction": "F_22",
+    "point": "LLLLLRRR #41 line 11 (2/5, 4/15)",
+    "tau": [
+     3.5,
+     2.8136571693556887
+    ],
+    "hor": "L_max"
+   },
+   "rows": 19494
+  },
+  "family A, DR, up S~, down and leptons S, c = 3 (B1720's best reading)": {
+   "six": 1.6137987527745545,
+   "six at": {
+    "direction": "dR",
+    "point": "LLLLLRR #22 line 8 (2/5, 3/5)",
+    "tau": [
+     3.5,
+     2.9580398915498076
+    ],
+    "hor": "L_max"
+   },
+   "nine at the best six-row": 23.87274175120005,
+   "D at the best six-row": 9.000000000000002,
+   "six: model over measured": [
+    1.171,
+    1.528,
+    1.614,
+    1.073,
+    1.54,
+    1.203,
+    4.416,
+    23.873,
+    9.268
+   ],
+   "nine": 22.20856809969471,
+   "nine at": {
+    "direction": "dR",
+    "point": "LLLLLRLRR #71 line 20 (5/14, 5/7)",
+    "tau": [
+     3.6,
+     2.9933259094191533
+    ],
+    "hor": "L_max"
+   },
+   "J at the best nine-row": 4.8408732254756615e-05,
+   "nine: model over measured": [
+    7.811,
+    10.276,
+    7.895,
+    1.683,
+    1.432,
+    0.068,
+    4.443,
+    22.209,
+    4.921
+   ],
+   "min chi2_six": 42.31064363319423,
+   "min chi2_six at": {
+    "direction": "dR",
+    "point": "LLLLLRR #22 line 8 (2/5, 3/5)",
+    "tau": [
+     3.5,
+     2.9580398915498076
+    ],
+    "hor": "L_max"
+   },
+   "min chi2_nine": 1467.1284472785358,
+   "min chi2_nine at": {
+    "direction": "dR",
+    "point": "LLLLLRRR #41 line 11 (2/5, 4/15)",
+    "tau": [
+     3.5,
+     2.8136571693556887
+    ],
+    "hor": "L_2"
+   },
+   "rows": 6498
+  },
+  "family A, DR, S, c = 3": {
+   "six": 2.145686338318299,
+   "six at": {
+    "direction": "dR",
+    "point": "LLLLLRLLR #70 line 10 (1/4, 1/8)",
+    "tau": [
+     3.5,
+     3.24037034920393
+    ],
+    "hor": "L_max"
+   },
+   "nine at the best six-row": 266.7757061688304,
+   "D at the best six-row": 9.323327001955148,
+   "six: model over measured": [
+    1.414,
+    1.608,
+    0.504,
+    1.721,
+    0.466,
+    1.805,
+    0.621,
+    0.004,
+    0.014
+   ],
+   "nine": 4.709173298116453,
+   "nine at": {
+    "direction": "dR",
+    "point": "LLLLLLRRR #69 line 8 (5/22, 13/22)",
+    "tau": [
+     4.0,
+     3.3166247903554
+    ],
+    "hor": "L_2"
+   },
+   "J at the best nine-row": 8.673617379884035e-19,
+   "nine: model over measured": [
+    1.193,
+    2.312,
+    0.212,
+    1.019,
+    1.063,
+    2.439,
+    0.594,
+    3.484,
+    3.079
+   ],
+   "min chi2_six": 156.0655210237985,
+   "min chi2_six at": {
+    "direction": "dR",
+    "point": "LLLLLRLLR #70 line 10 (1/4, 1/8)",
+    "tau": [
+     3.5,
+     3.24037034920393
+    ],
+    "hor": "L_max"
+   },
+   "min chi2_nine": 534.1380309374437,
+   "min chi2_nine at": {
+    "direction": "dR",
+    "point": "LLLLLLRRR #69 line 8 (5/22, 13/22)",
+    "tau": [
+     4.0,
+     3.3166247903554
+    ],
+    "hor": "L_2"
+   },
+   "rows": 6498
+  },
+  "family A, DR, S~, c = 3 (the sealed census's model)": {
+   "six": 3.2157160751087925,
+   "six at": {
+    "direction": "dR",
+    "point": "LLLLRLLLR #74 line 22 (11/26, 3/13)",
+    "tau": [
+     3.0,
+     2.792848008753788
+    ],
+    "hor": "L_max"
+   },
+   "nine at the best six-row": 20.81224773422501,
+   "D at the best six-row": 8.888566357693595,
+   "six: model over measured": [
+    3.004,
+    0.818,
+    1.173,
+    0.777,
+    0.395,
+    0.311,
+    0.167,
+    0.18,
+    0.048
+   ],
+   "nine": 3.5108357091978113,
+   "nine at": {
+    "direction": "dR",
+    "point": "LLLLLRLRR #71 line 22 (11/28, 2/7)",
+    "tau": [
+     3.6,
+     2.9933259094191533
+    ],
+    "hor": "L_2"
+   },
+   "J at the best nine-row": 9.186556582108096e-08,
+   "nine: model over measured": [
+    0.532,
+    0.593,
+    0.679,
+    0.285,
+    0.827,
+    0.337,
+    0.467,
+    0.667,
+    0.805
+   ],
+   "min chi2_six": 111.25069415167721,
+   "min chi2_six at": {
+    "direction": "dR",
+    "point": "LLLLRLRLR #76 line 30 (2/5, 1/20)",
+    "tau": [
+     3.0,
+     2.6220221204253793
+    ],
+    "hor": "L_2"
+   },
+   "min chi2_nine": 262.6199490098291,
+   "min chi2_nine at": {
+    "direction": "dR",
+    "point": "LLLLRLRLR #76 line 30 (2/5, 1/20)",
+    "tau": [
+     3.0,
+     2.6220221204253793
+    ],
+    "hor": "L_max"
+   },
+   "rows": 6498
+  }
+ }
+}
