@@ -1,0 +1,355 @@
+{
+ "arc": "W136",
+ "rule": "W136_RULE.md",
+ "status": "one run",
+ "L0": {
+  "checks": {
+   "rho'(S) = -P, rho'(T) = L^-1 (exact)": true,
+   "the image has 24 elements": true,
+   "every element is a signed permutation of determinant 1, and all 24 such occur (the cube's rotations)": true,
+   "rho'(S)^2 = 1, so rho'(-I) = 1": true,
+   "rho'(T)^4 = 1": true,
+   "(rho'(S) rho'(T))^3 = 1": true,
+   "<s, t | s^2, (st)^3, t^4> has order 24": true,
+   "|SL(2, Z/4)| = 48": true,
+   "the pairs (gamma mod 4, rho'(gamma)) number 48 and project onto SL(2, Z/4): rho' factors through Z/4": true,
+   "so the kernel is +-Gamma(4) and the group is PSL(2, Z/4) (index 24 = |image|)": true,
+   "v's multiplier is rho' times a scalar on S and T": true,
+   "the image of SL(2, Z) on (v, rho') has 48 elements": true,
+   "v transforms by rho_T (x) chi_eta^3 under S and T, to 1e-40": true,
+   "v.v = 0 and theta_2 theta_3 theta_4 = 2 eta^3, to 1e-40": true,
+   "the degree-w monomials in v span 2w + 1 q-series, w <= 12 (exact rank)": true
+  },
+  "worst numerical deviations": {
+   "S": 4.686337415648189e-61,
+   "T": 2.800196607931463e-61,
+   "Jacobi": 4.1756281506566886e-61,
+   "t2 t3 t4 = 2 eta^3": 3.451470035388876e-61
+  },
+  "ranks by degree": {
+   "0": 1,
+   "1": 3,
+   "2": 5,
+   "3": 7,
+   "4": 9,
+   "5": 11,
+   "6": 13,
+   "7": 15,
+   "8": 17,
+   "9": 19,
+   "10": 21,
+   "11": 23,
+   "12": 25
+  },
+  "the scalar of v's multiplier over rho' on (S, T)": [
+   "(-0+1j)",
+   "1j"
+  ],
+  "the order of <s, t | s^2, (st)^3, t^4>": 24
+ },
+ "L1": {
+  "checks": {
+   "(a) = (c) at every even w <= 24": true,
+   "(a) = (b) at every even w from 2 to 24": true,
+   "dim M_0(sigma) = [sigma = 1] in (a) and (c)": true,
+   "(a) gives no form at odd w for any sigma": true,
+   "W45's central character allows exactly the even integral weights (w in 1/2 .. 24)": true,
+   "sum over sigma of dim sigma x dim M_w(sigma) = 2w + 1 (w >= 1)": true,
+   "the predicted table holds to w = 12": true,
+   "the numerators of the Hilbert series are the predicted generating weights, to w = 24": true,
+   "each sum of generating weights equals 12 sum(lambda)": true
+  },
+  "the table, even w to 24 (route a)": {
+   "0": {
+    "1": 1,
+    "1'": 0,
+    "2": 0,
+    "rho'": 0,
+    "rho' (x) sgn": 0
+   },
+   "2": {
+    "1": 0,
+    "1'": 0,
+    "2": 1,
+    "rho'": 1,
+    "rho' (x) sgn": 0
+   },
+   "4": {
+    "1": 1,
+    "1'": 0,
+    "2": 1,
+    "rho'": 1,
+    "rho' (x) sgn": 1
+   },
+   "6": {
+    "1": 1,
+    "1'": 1,
+    "2": 1,
+    "rho'": 2,
+    "rho' (x) sgn": 1
+   },
+   "8": {
+    "1": 1,
+    "1'": 0,
+    "2": 2,
+    "rho'": 2,
+    "rho' (x) sgn": 2
+   },
+   "10": {
+    "1": 1,
+    "1'": 1,
+    "2": 2,
+    "rho'": 3,
+    "rho' (x) sgn": 2
+   },
+   "12": {
+    "1": 2,
+    "1'": 1,
+    "2": 2,
+    "rho'": 3,
+    "rho' (x) sgn": 3
+   },
+   "14": {
+    "1": 1,
+    "1'": 1,
+    "2": 3,
+    "rho'": 4,
+    "rho' (x) sgn": 3
+   },
+   "16": {
+    "1": 2,
+    "1'": 1,
+    "2": 3,
+    "rho'": 4,
+    "rho' (x) sgn": 4
+   },
+   "18": {
+    "1": 2,
+    "1'": 2,
+    "2": 3,
+    "rho'": 5,
+    "rho' (x) sgn": 4
+   },
+   "20": {
+    "1": 2,
+    "1'": 1,
+    "2": 4,
+    "rho'": 5,
+    "rho' (x) sgn": 5
+   },
+   "22": {
+    "1": 2,
+    "1'": 2,
+    "2": 4,
+    "rho'": 6,
+    "rho' (x) sgn": 5
+   },
+   "24": {
+    "1": 3,
+    "1'": 2,
+    "2": 4,
+    "rho'": 6,
+    "rho' (x) sgn": 6
+   }
+  },
+  "route (b) disagreements": {
+   "2": [],
+   "4": [],
+   "6": [],
+   "8": [],
+   "10": [],
+   "12": [],
+   "14": [],
+   "16": [],
+   "18": [],
+   "20": [],
+   "22": [],
+   "24": []
+  },
+  "route (c) disagreements": {
+   "0": [],
+   "2": [],
+   "4": [],
+   "6": [],
+   "8": [],
+   "10": [],
+   "12": [],
+   "14": [],
+   "16": [],
+   "18": [],
+   "20": [],
+   "22": [],
+   "24": []
+  },
+  "the generating weights found": {
+   "1": [
+    0
+   ],
+   "1'": [
+    6
+   ],
+   "2": [
+    2,
+    4
+   ],
+   "rho'": [
+    2,
+    4,
+    6
+   ],
+   "rho' (x) sgn": [
+    4,
+    6,
+    8
+   ]
+  },
+  "the exponents lambda of sigma(T)": {
+   "1": [
+    "0"
+   ],
+   "1'": [
+    "1/2"
+   ],
+   "2": [
+    "1/2",
+    "0"
+   ],
+   "rho'": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "rho' (x) sgn": [
+    "1/4",
+    "3/4",
+    "1/2"
+   ]
+  },
+  "the central-character exceptions": []
+ },
+ "L2": {
+  "checks": {
+   "each least form transforms by its irrep under S and T, to 1e-30": true,
+   "the identities with eta, R and F_a hold, to 1e-30": true
+  },
+  "worst law deviations": {
+   "Y2 (rho', weight 2)": {
+    "S": 3.64233189676538e-61,
+    "T": 3.580406949670118e-61
+   },
+   "Y4 (rho' (x) sgn, weight 4)": {
+    "S": 7.378623164089134e-61,
+    "T": 9.35053714254475e-61
+   },
+   "Y6 (1', weight 6)": {
+    "S": 7.544603299543629e-61,
+    "T": 1.5012265346892018e-60
+   }
+  },
+  "worst identity deviations": {
+   "Y2 = -4i eta F_-2": 6.28999996868478e-61,
+   "Y4 = 8i eta^9 R": 7.619755528701805e-61,
+   "Y4 = 4i eta^5 F_2": 7.109637121104124e-61,
+   "Y6 = -16 eta^12": 1.3647719548606054e-60,
+   "N(F_-2) = i 2^-2 eta^9": 6.751075697771452e-61,
+   "N(F_2) = i 2^2 eta^9": 6.751075697771452e-61
+  },
+  "why none vanishes on the upper half plane": "eta and theta_2, theta_3, theta_4 have no zero on the upper half plane (their product formulas), and each component of Y2, Y4, Y6 is a product of their powers"
+ },
+ "L3": {
+  "checks": {
+   "the invariant cubics have dimensions 0, 1, 0, 2, 1": true,
+   "the named basis is invariant": true,
+   "the two rho' channels are independent": true,
+   "Sym^3 rho'_k = Sym^3 rho'_21 for k = 5 and 13 (the scalars cube to 1)": true,
+   "C(w) = 0, 2, 3, 6, 6, 9, 10 at w = 0 .. 12": true
+  },
+  "dimensions of the invariant cubics": {
+   "1": 0,
+   "1'": 1,
+   "2": 0,
+   "rho'": 2,
+   "rho' (x) sgn": 1
+  },
+  "the named basis": {
+   "1': Y Phi_1 Phi_2 Phi_3": true,
+   "rho': (Y.Phi)(Phi.Phi)": true,
+   "rho': sum Y_a Phi_a^3": true,
+   "rho' (x) sgn: sum Y_a Phi_a (Phi_{a+1}^2 - Phi_{a+2}^2)": true
+  },
+  "C(w), even w to 24": {
+   "0": 0,
+   "2": 2,
+   "4": 3,
+   "6": 6,
+   "8": 6,
+   "10": 9,
+   "12": 10,
+   "14": 12,
+   "16": 13,
+   "18": 16,
+   "20": 16,
+   "22": 19,
+   "24": 20
+  }
+ },
+ "L4 (read-out)": {
+  "the least weight carrying a form": {
+   "1": 0,
+   "1'": 6,
+   "2": 2,
+   "rho'": 2,
+   "rho' (x) sgn": 4
+  },
+  "the even weights carrying none (to 24)": {
+   "1": [
+    2
+   ],
+   "1'": [
+    0,
+    2,
+    4,
+    8
+   ],
+   "2": [
+    0
+   ],
+   "rho'": [
+    0
+   ],
+   "rho' (x) sgn": [
+    0,
+    2
+   ]
+  },
+  "C(w), the independent couplings of three families at weight w": {
+   "0": 0,
+   "2": 2,
+   "4": 3,
+   "6": 6,
+   "8": 6,
+   "10": 9,
+   "12": 10,
+   "14": 12,
+   "16": 13,
+   "18": 16,
+   "20": 16,
+   "22": 19,
+   "24": 20
+  },
+  "the least couplings": {
+   "weight 2, rho' (two channels)": "Y2 = (v2 v3, v3 v1, v1 v2) = -4i eta F_-2",
+   "weight 4, rho' (x) sgn": "Y4 = v1 v2 v3 v = 8i eta^9 R = 4i eta^5 F_2",
+   "weight 6, 1'": "Y6 = (v1 v2 v3)^2 = -16 eta^12"
+  },
+  "the weight-2 coupling's mass matrix for a Higgs direction h": "Matrix([[3*Y0*h0*(g1 + g2) + Y1*g1*h1 + Y2*g1*h2, Y0*g1*h1 + Y1*g1*h0, Y0*g1*h2 + Y2*g1*h0], [Y0*g1*h1 + Y1*g1*h0, Y0*g1*h0 + 3*Y1*h1*(g1 + g2) + Y2*g1*h2, Y1*g1*h2 + Y2*g1*h1], [Y0*g1*h2 + Y2*g1*h0, Y1*g1*h2 + Y2*g1*h1, Y0*g1*h0 + Y1*g1*h1 + 3*Y2*h2*(g1 + g2)]])",
+  "it equals g1[(Y.h)1 + Y h^T + h Y^T] + 3 g2 diag(Y_a h_a)": true
+ },
+ "cells": {
+  "L0": true,
+  "L1": true,
+  "L2": true,
+  "L3": true
+ },
+ "every cell holds": true
+}
