@@ -17766,3 +17766,12 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **B1725 (PROVED; P-293).** The web seat's census reproduced on main (48 points, 36 keys, 6.9 × 10⁻¹⁰). With the choice counted, the six are specific under the seat's reading rules (0.29%) and with the factor free (0.58%), at the bar under every covariant reading (0.97%); the nine are not. S190's "0.50% with all readings" corrected (it used S*). Next: B1726, main's sealed replication.
 - **Landing suite.** full suite 7 608 passed, 2 failed, 68 skipped (1:28:02, -n 8). Both failures are B805's attachment locks (P-239).
 - **The register commit (same day).** The seats' new work rowed (1310–1313); P-299 (the flavour-blind bound m₂/m₃ ≥ 1/3, proved on main by Weyl's inequalities, sharp) and P-300 (verify W131–W133; W133 keeps exactly dim h zero-free twisted Higgs lines, 3 where the count is three) registered; P-294, P-295, P-298 updated.
+
+## 2026-10-23 — S192 THE TWO INGREDIENTS, REPLICATED (B1726), B1727, B1728 AND REVIEW 68
+
+- **B1726 (PROVED as sealed; P-293 DONE).** Sealed at 8024632e1; outputs at f1b7eb522. On 23 940 fresh points the six within 1.20, specific under the seat's menu (0.12%), every covariant reading assignment (0.41%) and with the factor free (0.92%, at the bar); the nine specific under the seat's menu (0.58%), not the covariant one (1.66%); J and D miss. The good rows lie only on order-5 and order-10 lines. A READING; P-294 and P-295 first; P-304 the seats' third opinion.
+- **B1727 (PROVED; P-299).** The flavour-blind bound m₂/m₃ ≥ 1/3, sharp.
+- **B1728 (PROVED; P-296).** B1703's coincidence law derived in the "if" direction.
+- **Review 68.** 35 merges; L228 resolved, P-301; E91; R68-1–R68-8; views refreshed.
+- **The seats.** Rows 1314–1317; P-302, P-303 new; P-294, P-295, P-300 updated.
+- **Landing suite.** full suite 7 596 passed, 2 failed, 68 skipped (24:43, -n 8) on 4f9a1c3de; both failures are B805's attachment locks (P-239). Every collected test ran (7 651 collected, plus 15 modules that skip at import); S191's 7 608 included 27 items collected only from that day's working tree.

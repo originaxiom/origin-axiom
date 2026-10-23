@@ -61,3 +61,7 @@ printed digits, since only the third generation's coupling drives the running.)
 >   16.75. Recomputed with targets run up to 10¹⁶ GeV, B1712's minimum χ² is 99.2 and B1713-A's 161.2.
 > - **Scope.** The CKM moduli ∣V_cb∣ and ∣V_ub∣ also run, by about 12% to 10¹⁶ GeV. They are not covered here, and no
 >   verdict turns on it.
+
+> *Dated note 2026-10-23 (Review 68's premise audit).* "Every sealed cell compares within-sector ratios" held for the tests
+> it audited (B1693–B1713). B1725's lepton factor stays within a sector, but B1726's cell R7 compares P-094's double ratio
+> (m_μm_d)/(m_s m_e), which mixes sectors and is not covered here; P-094 states it is scale-independent at one loop.

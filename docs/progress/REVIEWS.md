@@ -6943,7 +6943,7 @@ explanation). No number in a claim line disagrees with its output.
 
 ### Action items (Review 67)
 - [x] R67-1: the review tools' mirror list — the LaCie backup in place of Codeberg (R66-1), so a seal's "on every remote" reads the mirror the owner chose (owner: cc; a separate arc) — **done 2026-10-22 (S181): B1709**
-- [ ] R67-2: the verifications by consequence, P-229's list in order (owner: cc; carried from R66-6) — P-229 itself DONE 2026-10-21 (B1689, B1690); its remainder is P-238
+- [>] R67-2: the verifications by consequence, P-229's list in order (owner: cc; carried from R66-6) — P-229 itself DONE 2026-10-21 (B1689, B1690); its remainder is P-238 — **carried to R68-5 (Review 68), due at Review 69**
 - [x] R67-3: GENESIS v1.52 through adoption/amend.py after this review's full suite — P-237's items and FK10's sentence (B1700) (owner: cc; P-237) — **done 2026-10-22 (S178): B1706**
 - [x] R67-4: ledger currency (P-230) and the declined relays' asks (P-231) (owner: cc; carried from R66-7) — **found done 2026-10-21 (P-230, P-231 DONE in the register), ticked 2026-10-22**
 - [x] R67-5: the web seat's lepton test — read its null when finished; verify any candidate on main before banking (owner: cc) — **done 2026-10-22 (S180): the null p_global = 0.125, no candidate (harvest row 1296)**
@@ -6952,3 +6952,179 @@ explanation). No number in a claim line disagrees with its output.
 - [x] R67-7: filed at this review: R66-2 and R66-3 declined with reasons; R66-4 resolved (B1705); the premise-audit notes on B1692 and B1703; P-253; eight terms in TERMINOLOGY
 
 **anchor-commit: `b8df0d1ae`**
+
+# Review 68 (2026-10-23) — the two ingredients, and the readings that carry them
+
+35 merges since Review 67 (`b8df0d1ae..f1b7eb522`, all on the first-parent line) and 24 arcs with a verdict
+(B1705–B1728, three of them landing with this review), written at the head. The review was due at thirty-three (the
+block is at forty).
+
+**What the window did:**
+- **The completion map** (B1721, with GENESIS v1.54's corrections) named what stands between the frame and the data,
+  and its first three items were sealed and failed:
+  - C1, the thread fixes the point (B1720): the frame's closest approach, all six ratios within 1.80 with no continuous
+    number free, but not specific;
+  - C2, which thread (B1722): the record's own measures over threads fit no better than random hierarchies;
+  - C3, the golden valley (B1723): the discriminant-5 locus sits too low for the frame's hierarchy (best 147).
+- **The line census completed and the mixing sealed** (B1711, B1712, B1713, all NEGATIVE as sealed): no line of order
+  ≤ 12 gives the masses specifically; the frame's first CKM within 14%, but generic.
+- **The frame's structure derived:**
+  - B1716 (the exact zeros: det M = ¼ Σ c_s R_s², B1701's 0 : 1 : 1 as a signed cross product, and the order-4 law that
+    predicted B1713's massless lines before they were read);
+  - B1724 (the readings' covariance: S and S̃ are SL(2, ℤ)-covariant, S* only under Γ⁰(2), index 3);
+  - B1727 (with a flavour-blind Higgs every sector has m₂/m₃ ≥ 1/3, sharp, by Weyl's inequalities; the web seat's relay
+    gives a second proof by another route).
+  - B1728 (B1703's coincidence law derived: a charge shift by the line's order is a phase, the swap a transpose, the sign
+    the torus's involution).
+- **The two ingredients.** The web seat's sealed census (the Georgi–Jarlskog factor 3 on the leptons and one reading
+  rule) was verified on main (B1725): the six ratios are specific under the seat's menu (0.29% of random hierarchies as
+  good) and with the factor free (0.58%), at the bar under every covariant reading assignment (0.97%); the nine are not.
+  **Main's sealed replication on 23 940 fresh points (B1726, PROVED as sealed for its question): the six within 1.20,
+  specific under the seat's menu (0.12%), under every covariant reading assignment (0.41%) and, at the bar, with the
+  factor free (0.92%); the nine specific under the seat's menu (0.58%), not under the covariant one (1.66%); J and
+  P-094's D miss, as expected.** The good rows lie only on order-5 and order-10 lines (B1728's five-ality). A READING;
+  the factor and the reading rule are now first (P-294, P-295); the seats' third opinion is asked (P-304).
+- **A premise audit of the sealed mass tests** (B1718): the within-sector ratios run by at most 12% in log to 10¹⁶ GeV.
+- **Foundations and the seats' work verified on main:** W111 (B1707), W120 and W121 (B1708), W121's index law (B1710),
+  the rule's lifts (B1714), no relational record on the private modules (B1717), W122's closed universes (B1719);
+  GENESIS v1.52, v1.53 and v1.54 (B1706, B1715, B1721); B186 re-graded (B1705); the review tools' mirror (B1709).
+- **Corrections, targeted:** the math referee's audit (S188; RETRACTIONS row 44: B1716's converse scoped, B1718's
+  coverage scale, B1716's clipping condition); the mixing bests on record, which were S* rows (B1724; dated addenda in
+  B1712, B1713, B1720, B1723); S190's "0.50% with all readings", which used S* (S191).
+- 0 of 19.
+
+**fresh-clone: PASS @ f1b7eb522 (gates all PASS; belt ok)** · **sample seed: b8df0d1ae**; read in full: B1707, B1714, B1716, B1718, B1724 ·
+**gate controls: 45 registered** failing-path tests; unregistered: none · **full suite: 7 596 passed, 2 failed, 68 skipped (24:43, -n 8) on 4f9a1c3de; both failures are B805's attachment locks (P-239). Every collected test ran (7 651 collected, plus 15 modules that skip at import); S191's 7 608 included 27 items collected only from that day's working tree**
+
+## 1. The loop
+
+- **R67-1, R67-3 to R67-8: done** in Review 67's block (B1709, B1706, P-230/P-231, the lepton null, B1707, B1428's lock).
+- **R67-2 (the verifications by consequence): carried a second time** (from R66-6; due at Review 69 by the carry-age
+  rule). P-229 itself is done (B1689, B1690); its remainder is P-238 (QUEUED, Q8): the SM seat's cube count and cut
+  test, the cones and the apex rule, arc 1515's indices, the mirror on M₇–M₁₂, the covers' censuses, R40 and F01,
+  Lemmas R and T, W64's K5, W81's placement. Not reached in this window, which went to the completion map.
+
+## 1b. The lead-debt escalations
+
+At midnight on 2026-10-23 ten leads registered on 2026-10-01 (L228–L237) passed 21 days together, and the lead-debt
+ratchet failed the push of S191's register commit (53 stale against a baseline of 43). None had been discharged. Each
+was escalated by name in OPEN_LEADS (what closed, what is owed, its owner) to this review. Adjudicated here:
+- **L228 (C25's quantifier): resolved, CLOSED.** B892's theorem is about the wall point y* of the second charge (the
+  perfect-square gate; λ₊(y*) = 0 by construction), and P3's text defines a measurement as passing to the centraliser at
+  a wall. So the landing algebra (dimension 14) holds on the walls, and a generic point of the torus has 12 (B1433; the
+  outside audit's two hyperplanes). C25 and the law map's row carry a dated quantifier note. The remainder is B893's
+  "det₁₄ > 0 at all three roots" (the wall complex at every Galois branch). Its signs were taken at 30 digits from exact
+  rational coefficients (values near 10⁹), but the script reads the polynomial from a session-scratchpad pickle and does
+  not run from a clean checkout (E80-shaped). Regenerating it from the repository's exact tower and certifying the signs
+  is P-301.
+- **L230 (c), (d), (f), L231 and L232: carried, with owners and this review's items** (R68-4). They are bounded: a group
+  count, two archive readings, a list of rows to pay, and five document reads still declared in `doc_currency.py`.
+- **L229, L233, L234, L235, L236, L237: carried by name.** They are research questions of the slope frame of 2026-10-01
+  (the own-level law, the arithmetic of s, several cusps, the Higgs values on the periodic curves, the branches). The mass
+  work moved to the weave and B1656's frame after 2026-10-07, and none of these is on the completion map. Whether to
+  retire them as questions of the slope frame, or keep them, is a priority call, put to the owner (R68-3); none is closed
+  here.
+
+## 2. The branch inventory and the lanes
+
+- **Branches.** 12 unmerged leaves, all registered. On one remote only: `B1668_the_price_of_the_nineteen`,
+  `fork-2026-09-20`, `kind-hypatia-uk0vv9`, `landing`, `outside-bench`, `paper-review-verification-kaz3f5`,
+  `physical-bridge-2026-09-05`, and others the tool lists (the mirror holds main only).
+- **Every live lane is read to its head** (harvest-debt --strict: NEW unrowed 0, backlog 0, stale 0, relays without a
+  row 0, after this review's RELAY_LEDGER rows for the web seat's Higgs-arc relay and its W133 check). The SM seat is at
+  `f22cad1b` (W134, W135; row 1314) and the web seat at `cb33cc47` (route (b), the W133 check, the zero-free census's
+  scripts; rows 1315–1317), both read at this landing. The audit lane, its fork and the referee lanes are at their pins.
+- **The harvest-debt tool still reads Codeberg as a seat mirror** (lag 514, 343 and 49 commits on three lanes). Codeberg
+  is disabled (R66-1); the review tools were corrected (B1709) and this tool was not (R68-2).
+- **The owner protected main** on 2026-10-22: a ruleset blocks deletion and non-fast-forward updates of the default
+  branch. Normal pushes pass (S191 was the first).
+
+## 3. The declared modulus
+
+- **Read in full:** the five seeded arcs, against their claim lines and stored outputs, with their locks run. B1724 is
+  main's arc of this session, read here as a reviewer reads it.
+- **Read in full by main at banking:** every arc of the window. The six sealed arcs were read once, after their outputs
+  were committed unread.
+- **Certified mechanically:** the gates and the reproduction belt in a fresh clone; every seal's hashes and order; the
+  full suite on the head.
+- **Not certified:**
+  - the seats' results registered and not verified on main: W131–W133 (P-300; checked by the web seat, which extends
+    W133), W134–W135 (P-302), the B − L line exploration and route (b) (P-294; exploratory negatives), W130 (P-298;
+    checked by the web seat, not yet by main);
+  - B1726's positive by a second instrument (P-304: the seats' third opinion, asked in its FINDINGS §4);
+  - the readings in B1725's FINDINGS marked as readings.
+
+## 4. The sample, and the premise audit on it
+
+| arc | finding | kind | done |
+|---|---|---|---|
+| B1716 | "at generic τ no other line-sector of order 1–12 vanishes" rests on two τ off the CP lines and B1713's census grid; on Re τ = 0 a second family exists (RETRACTIONS row 44, P-292) | scope | the claim line already scoped; no further note |
+| B1718 | "every sealed cell compares within-sector ratios" was true when written (B1693–B1713). B1725's lepton factor stays within a sector, but B1726's R7 uses P-094's cross-sector double ratio (m_μm_d)/(m_s m_e), which B1718 does not cover; P-094 states it is scale-independent at one loop | scope (later arcs) | dated note |
+| B1724 | the covariance under S is tested numerically (1.5 × 10⁻⁹ for S, 4 × 10⁻¹⁰ for S̃, with the end passed as L + log∣τ∣), not derived in closed form as ρ(T) is; "the mechanism exact" in the claim line is T's action | reading marked | dated note |
+| B1707, B1714 | every "only", "every" and "exactly" is carried by the proof or the exact computation; B1707's numerical search is labelled evidence | none | — |
+
+**The premise audit on the sample.** Every "every", "only", "all", "cannot", "exactly", "never" and "no" in the five
+claim lines was read against its premises and outputs. None over-reaches beyond what its arc states. Two need a dated
+note for what came after them (B1718) or for what was computed rather than derived (B1724). No number in a claim line
+disagrees with its output.
+
+## 5. Protocol integrity
+
+- **Seven seals in the window** (B1711, B1712, B1713, B1720, B1722, B1723, B1726). Every one was sealed before its
+  results, its hashes unchanged, its outputs committed unread and then read once. B1726 is the first whose specificity
+  cells held.
+  - The review tools report B1726 as "2/8 hashes, missing": its ARTIFACT_HASHES also pins the six files the instruments
+    read in place, by paths relative to the repository's root, and the tool resolves every path against the arc's
+    directory. All six match from the root (`shasum -c`). The tool should resolve root-relative paths (R68-1).
+- **The window's main errors, and who found them:**
+  - **A covariance control that covered one reading** (a new class, E91). B1720's and B1723's control C1 tested the T-
+    and S-covariance of the reading S. The mixing bests on record (B1712, B1713, B1720, B1723) used S*, which is not
+    covariant (B1724: exactly Γ⁰(2)-covariant). No sealed verdict turned on it; the quoted mixing numbers belonged to
+    one sheet. Main found it while reading the web seat's census (P-297), and S190's "0.50% with all readings" was its
+    consequence (corrected in S191). From B1726 on, a sealed control tests every reading the instrument uses.
+  - **B1724's group named too early.** The first draft called S*'s covariance group Γ(2) or the theta group from the
+    elements that passed. Testing TS and R before landing gave Γ⁰(2), index 3.
+  - **A test point outside the frame's domain.** B1724's ST²S check from a high τ reached Im τ ≈ 0.09, where every
+    reading fails numerically; moderate base points were used, disclosed.
+  - **The math referee's audit** (S188; RETRACTIONS row 44) found three scope errors in main's B1716 and B1718: the
+    converse of the zero law checked off the CP lines only; the running's coverage scale read off a five-point grid
+    (10⁸ GeV; bisection gives 5.4 × 10¹⁰); the det law's unclipped-channel condition.
+  - **A law registered as new that the record held** (E54-shaped). S190's P-296 restated, as read off B1723's stored
+    rows, the coincidence law B1703 had computed (with the swap and the negation) and the law map already read as SU(5)'s
+    five-ality, and it omitted u = e at N ∣ 2 or 7. The row deferred its topic sweep to banking; the sweep, run before
+    B1728 derived the law, caught it. P-296 and the completion map carry dated corrections.
+  - **B1726's disclosed run size** ("about two hours on 8 workers") was an estimate from the previous census; the run
+    took 3 h 14 min on a machine shared with the owner's video work (workers at the lowest priority from the first
+    hour). Disclosed in its FINDINGS.
+  - **B1726's compare.py first launch did not start:** the shell's change of directory did not hold in the background
+    shell, so python3 could not open the script (exit 2; nothing computed or read). Relaunched unchanged with absolute
+    paths; disclosed in the outputs commit.
+  - **The pre-push gates read the working tree, not the pushed commit.** Pushing B1726's outputs commit (a clean commit)
+    failed atlas-fresh, views-generated and point-debt because the landing's uncommitted arcs and register rows sat in
+    the tree. The commit was gated and pushed from a clean worktree at its own head, where every gate passed. A gate
+    that reads the tree can block a correct push or pass a wrong one (R68-8).
+- **The lead-debt ratchet** fired on a calendar edge, not on a commit (§1b). It worked as designed: a deferral aged and
+  was written down.
+
+## 6. Advancement, errors, provenance
+
+- **Advancement:** LAW_MAP +14 rows, THEOREM_REGISTRY +1. Nothing moved down a class; the mixing rows were qualified
+  (one sheet's numbers), not demoted.
+- **Errors:** one new class, E91, the ONE-BRANCH CONTROL. Instances: the referee's three scope errors (E82-shaped: a
+  check read beyond its grid), B1724's early group name and its out-of-domain test point (caught before landing), and
+  P-296's restated law (E54).
+- **Provenance:** 5 541 added lines scanned to the anchor, 0 hits (the landing's own lines by the pre-push gate); no vendor or model name in a tracked file.
+- **Vocabulary:** four terms added to TERMINOLOGY ("Added at Review 68"): the completion map; the readings S, S̃ and
+  S*; the two ingredients and the lepton factor; the menu (a calibration counted over the choices).
+
+### Action items (Review 68)
+- [ ] R68-1: the review tools resolve repository-relative paths in a seal's ARTIFACT_HASHES (the dependencies section), with a failing-path test (owner: cc; a separate arc)
+- [ ] R68-2: harvest_debt.py stops reading Codeberg as a seat mirror (disabled since R66-1), as B1709 did for the review tools (owner: cc)
+- [ ] R68-3: L229 and L233–L237, the slope frame's research leads: keep or retire (owner: the owner; cc to state each lead's cost)
+- [ ] R68-4: L230 (c), (d), (f); L231's rows; L232's five reads (owner: cc; due at Review 70)
+- [ ] R68-5: P-238, the verifications by consequence (owner: cc; carried from R67-2, R66-6; due at Review 69)
+- [ ] R68-6: verify W131–W133 (P-300), W134–W135 (P-302) and W130 (P-298) on main; P-301 (B893's exactness); harvest the seats' third opinion on B1726 (P-304) (owner: cc)
+- [ ] R68-8: the pre-push hook runs the gates on the commit being pushed (a clean worktree at that commit), not on the working tree, with a failing-path test (owner: cc)
+- [x] R68-7: filed at this review: L228 resolved (C25's quantifier, dated notes on C25 and the law map's row; P-301); dated notes on B1718 and B1724; E91; four terms in TERMINOLOGY; the RELAY_LEDGER rows for the web seat's Higgs-arc relay and its W133 check
+
+**anchor-commit: `f1b7eb522`**

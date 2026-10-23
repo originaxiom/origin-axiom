@@ -1,0 +1,45 @@
+{
+ "A": {
+  "thc_shift_identity_max_rel": 1.0748268898024247e-14,
+  "charge_shift_by_N_ratio_dlog_max": 1.5187850976873295e-13,
+  "Y_global_phase_residual_max": 1.404219601418345e-14
+ },
+ "B": {
+  "bil_T": 3.3306690738754696e-16,
+  "M_T": 4.3773458149580613e-16,
+  "Y_T_S": 6.527308126207589e-16,
+  "Y_T_St": 9.134378144967392e-16,
+  "control_S_eq_1": 2.0,
+  "bil_neg": 4.869818370658875e-15,
+  "M_neg": 1.3448041436250246e-15,
+  "Y_neg_S": 1.2409395105686024e-15,
+  "Y_neg_St": 1.3269877493427121e-15
+ },
+ "C": {
+  "unmasked_pairs": 59,
+  "agree_with_law": 59
+ }
+}
+1 ['0', '0'] {'up=down': '=', 'down=lep': '=', 'up=lep': '='} law: {'up=down': True, 'down=lep': True, 'up=lep': True} zeros: []
+2 ['1/2', '0'] {'up=down': '=', 'down=lep': '=', 'up=lep': '='} law: {'up=down': True, 'down=lep': True, 'up=lep': True} zeros: []
+2 ['0', '1/2'] {'up=down': '=', 'down=lep': '=', 'up=lep': '='} law: {'up=down': True, 'down=lep': True, 'up=lep': True} zeros: []
+3 ['1/3', '0'] {'up=down': '=', 'down=lep': '3.1e+00', 'up=lep': '3.1e+00'} law: {'up=down': True} zeros: []
+3 ['0', '1/3'] {'up=down': '=', 'down=lep': '2.2e+00', 'up=lep': '2.2e+00'} law: {'up=down': True} zeros: []
+4 ['1/4', '0'] {'up=down': '1.7e-02', 'down=lep': '=', 'up=lep': '1.7e-02'} law: {'down=lep': True} zeros: ['up', 'down', 'lep']
+4 ['0', '1/4'] {'up=down': '3.2e-01', 'down=lep': '=', 'up=lep': '3.2e-01'} law: {'down=lep': True} zeros: ['up', 'down', 'lep']
+5 ['1/5', '0'] {'up=down': '5.1e-01', 'down=lep': '=', 'up=lep': '5.1e-01'} law: {'down=lep': True} zeros: []
+5 ['0', '1/5'] {'up=down': '2.5e+00', 'down=lep': '=', 'up=lep': '2.5e+00'} law: {'down=lep': True} zeros: []
+6 ['1/6', '0'] {'up=down': '=', 'down=lep': '2.1e+00', 'up=lep': '2.1e+00'} law: {'up=down': True} zeros: []
+6 ['0', '1/6'] {'up=down': '=', 'down=lep': '1.1e+00', 'up=lep': '1.1e+00'} law: {'up=down': True} zeros: []
+7 ['1/7', '0'] {'up=down': '8.7e-01', 'down=lep': '8.7e-01', 'up=lep': '='} law: {'up=lep': True} zeros: []
+7 ['0', '1/7'] {'up=down': '3.4e+00', 'down=lep': '3.4e+00', 'up=lep': '='} law: {'up=lep': True} zeros: []
+8 ['1/8', '0'] {'up=down': '1.1e+00', 'down=lep': '2.0e-01', 'up=lep': '1.1e+00'} law: {} zeros: []
+8 ['0', '1/8'] {'up=down': '1.4e+00', 'down=lep': '1.6e+00', 'up=lep': '6.6e-01'} law: {} zeros: []
+9 ['1/9', '0'] {'up=down': '4.0e-01', 'down=lep': '8.3e-02', 'up=lep': '3.2e-01'} law: {} zeros: []
+9 ['0', '1/9'] {'up=down': '8.6e-01', 'down=lep': '1.5e+00', 'up=lep': '7.4e-01'} law: {} zeros: []
+10 ['1/10', '0'] {'up=down': '3.0e-01', 'down=lep': '1.0e-01', 'up=lep': '3.3e-01'} law: {} zeros: []
+10 ['0', '1/10'] {'up=down': '6.7e-01', 'down=lep': '1.6e+00', 'up=lep': '9.6e-01'} law: {} zeros: []
+11 ['1/11', '0'] {'up=down': '5.6e-01', 'down=lep': '4.0e-01', 'up=lep': '9.5e-01'} law: {} zeros: []
+11 ['0', '1/11'] {'up=down': '5.4e-01', 'down=lep': '2.2e+00', 'up=lep': '1.7e+00'} law: {} zeros: []
+12 ['1/12', '0'] {'up=down': '7.2e-01', 'down=lep': '8.0e-02', 'up=lep': '2.0e-01'} law: {} zeros: ['lep']
+12 ['0', '1/12'] {'up=down': '4.8e-01', 'down=lep': '3.5e-01', 'up=lep': '2.2e-01'} law: {} zeros: ['lep']

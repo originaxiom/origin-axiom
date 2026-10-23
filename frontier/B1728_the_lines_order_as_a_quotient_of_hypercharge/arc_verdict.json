@@ -1,0 +1,27 @@
+{
+ "id": "B1728",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1703",
+  "B1656",
+  "B1723",
+  "B1698",
+  "B1716"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling (the functions B1723 sealed), flat hypercharge lines w = alpha tau + b of exact order N, the readings S and S~",
+  "object": "the coincidences of the charged sectors' singular values on a line of order N (B1703's law)",
+  "reach": "class",
+  "hypotheses": "the 'if' direction proved from the definitions (three identities); the converse is B1703's census and a re-check on two lines of each order 1-12 at one tau"
+ },
+ "claim_one_line": "THE LINE'S ORDER AS A QUOTIENT OF HYPERCHARGE (P-296; B1703's coincidence law derived; no data): in B1656's frame a field of charge q on the line w = alpha tau + b has the twist (q alpha, 2 q b), and three identities hold -- a charge shift by the line's order N multiplies a sector's bilinear, residues, weights, M and Y by one phase (thc(a + k, b + 2m) = e^{4 pi i m a} thc(a, b); 1.1e-14), the left-right swap transposes them (bil(y, x) = bil(x, y)^T, M(y, x) = M(x, y)^T, and Y(y, x) = Y(x, y)^T because eps S is symmetric for every S in span(i, j, k); to 1e-15, the control S = 1 breaks it), and negating both twists leaves them unchanged (bil(-x, -y; u) = -bil(x, y; -u), the torus's involution; 1.3e-15) -- so two sectors have the same singular values whenever their charges 6Y agree mod N up to swap and sign: d = e if N | 4 or 5 (Y_e = Y_d^T at 5, minimal SU(5)), u = d if N | 6, u = e if N | 2 or 7, which is B1703's computed law, now derived in the 'if' direction (59 of 59 unmasked pairs on two lines of each order 1-12 agree); the converse stays B1703's census. P-296 had restated the law from B1723's rows without B1703 and without u = e; corrected. 0 of 19.",
+ "weave_or_thread": "weave (a property of the frame on every flat line)"
+}

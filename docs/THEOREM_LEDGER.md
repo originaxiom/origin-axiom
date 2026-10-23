@@ -276,6 +276,11 @@ the cyclic law (P69). — B877. Lock: `tests/test_b877_fmt_review.py`.
 charges lands on su(3)⊕su(2)⊕u(1)³ EXACTLY, skipping SU(5); the wall complex in the split
 frame, at all three roots. — B892, B893. Locks: `tests/test_b892_smt.py`,
 `tests/test_b893_omega.py`.
+**QUANTIFIER (dated 2026-10-23, Review 68; L228).** The landing is at the wall point y* of the second
+charge (B892: the perfect-square gate, λ₊(y*) = 0 by construction), and a measurement passes to the
+centraliser at a wall: dim z(x₁, y*) = 14 on the walls, while a generic point of the charge torus has a
+joint centraliser of dimension 12 (B1433). Whether B893's "det₁₄ > 0 at all three roots" holds exactly,
+not only in floating point, is P-301.
 **SCOPE (B950, carried here 2026-09-03 by B1243 — the citation gate's first catch).** That
 algebra is **14-dimensional**; the Standard Model's is **12**. It is the A₂+A₁ Levi — a
 **centralizer**, not the SM gauge algebra — and B892's own banner says the phrase "take E₆ to

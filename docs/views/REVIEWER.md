@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1454** |
-| words of findings prose | **1,164,049** |
-| test lock files referenced | **869** |
-| arcs carrying an authored verdict | **1454** (100.0 %) |
+| research arcs with findings | **1457** |
+| words of findings prose | **1,167,744** |
+| test lock files referenced | **872** |
+| arcs carrying an authored verdict | **1457** (100.0 %) |
 | recorded closures | **835** (668 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 991 |
+| PROVED | 994 |
 | NEGATIVE | 359 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1725`** (1221 words, 1 locks)  
-THE TWO INGREDIENTS ON MAIN (P-293; a verification arc of the web seat's sealed census on main's frame, relays/chat1_2026-10-22_selection_map, census d79e7f864): 48 random points of the census recomputed with main's frame functions in this arc's own loop agree on all 36 keys (every sector in every reading, both horocycles, every CKM reading pair) to 6.9e-10 in log and J to 4.4e-15; the seat's sealed numbers reproduce exactly (the six within 1.513, 0.725% of random hierarchies as good; the nine within 2.087, 0.475%). With the choice of ingredients counted, every random target getting the same menu: the six are specific under the seat's own four configurations (data 1.270, 0.29% over seeds 100-119, 20 of 20 below 1%) and with the lepton factor free (1.204, 0.58%, 20 of 20), but sit at the bar when every covariant reading assignment is allowed (1.270, 0.97%, 14 of 20); the menu with the non-covariant S* (0.50%) is set aside because its best row uses S* (B1724); the nine are not specific beyond the seat's menu (0.98%, then 1.95% and 3.0%). So the six's specificity depends on the reading rule, which must be derived (P-295); the lepton factor is the frame's mass bottleneck (without it 2.34, 14%); J and P-094's D still miss. A structure with two hand-put ingredients, not a derivation. 0 of 19.  
-`B1725_the_two_ingredients_on_main/FINDINGS.md`
+**PROVED — `B1728`** (1166 words, 1 locks)  
+THE LINE'S ORDER AS A QUOTIENT OF HYPERCHARGE (P-296; B1703's coincidence law derived; no data): in B1656's frame a field of charge q on the line w = alpha tau + b has the twist (q alpha, 2 q b), and three identities hold -- a charge shift by the line's order N multiplies a sector's bilinear, residues, weights, M and Y by one phase (thc(a + k, b + 2m) = e^{4 pi i m a} thc(a, b); 1.1e-14), the left-right swap transposes them (bil(y, x) = bil(x, y)^T, M(y, x) = M(x, y)^T, and Y(y, x) = Y(x, y)^T because eps S is symmetric for every S in span(i, j, k); to 1e-15, the control S = 1 breaks it), and negating both twists leaves them unchanged (bil(-x, -y; u) = -bil(x, y; -u), the torus's involution; 1.3e-15) -- so two sectors have the same singular values whenever their charges 6Y agree mod N up to swap and sign: d = e if N | 4 or 5 (Y_e = Y_d^T at 5, minimal SU(5)), u = d if N | 6, u = e if N | 2 or 7, which is B1703's computed law, now derived in the 'if' direction (59 of 59 unmasked pairs on two lines of each order 1-12 agree); the converse stays B1703's census. P-296 had restated the law from B1723's rows without B1703 and without u = e; corrected. 0 of 19.  
+`B1728_the_lines_order_as_a_quotient_of_hypercharge/FINDINGS.md`
 
 **NEGATIVE — `B1723`** (1084 words, 1 locks)  
 THE GOLDEN VALLEY (the completion map's C3, L254, P-069; sealed 23f8a7621, sha256 3850a2f9; NEGATIVE as sealed -- the six-ratio cells fail, the mixing comes within a factor 1.51 near i but generically, the control holds; outputs committed unread at 8951e7afc): with tau anywhere on the valley of the weave's modular-invariant F = sum_p |theta_p/eta|^4 at its golden value 8 (the discriminant-5 locus; in the fundamental domain the two arcs from i to +-1/2 + (sqrt5/2) i) and any line of order 2-12, the best row puts the six ratios only within a factor 147 (26.6% of random hierarchies as good; chi2 3891) -- every ratio too large, the median first-to-third ratio 10^-1.1 against the data's 10^-3 to 10^-5: the valley sits too low (Im tau <= 1.118) for the frame's hierarchy, which needs Im tau near 3 -- so no functional whose valley is the golden locus produces the six ratios in this frame, and C3 is closed in it; the mixing's best (1.51 at tau = -0.018 + 1.009i) is matched by 30% of random mixings. After the read (labelled): the Georgi-Jarlskog lepton factor 3 does not rescue it (138). 0 of 19.  

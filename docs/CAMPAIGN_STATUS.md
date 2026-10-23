@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-10-23, S192: the two ingredients, replicated (B1726, sealed, PROVED as sealed). On 23 940 points nobody had computed, with the menus fixed in advance, the six charged-fermion ratios come within 1.20 and are specific under every menu (0.12% under the seat's, 0.41% with every covariant reading, 0.92% with the factor free); the nine with the CKM moduli are specific under the seat's menu (0.58%) but not the covariant one; J and P-094's D miss. The good rows lie only on order-5 and order-10 lines, where the frame sees SU(5)'s five-ality (B1728). A READING with two hand-put ingredients: the factor 3 (P-294) and the reading rule (P-295) are now first; the seats' third opinion is asked (P-304). With it: B1727 (a flavour-blind Higgs gives m₂/m₃ ≥ 1/3), B1728 (B1703's law derived) and Review 68. 0 of 19.)**
+
 **LATEST (2026-10-22, S191: the readings' covariance (B1724) and the two ingredients on main (B1725). Of the frame's three Higgs readings, S and S̃ are SL(2, ℤ)-covariant and S* only under Γ⁰(2); no sealed verdict turns on it, but the quoted mixing bests were S* rows. The web seat's two-ingredient census is reproduced on main; with the choice of ingredients counted, the six charged-fermion ratios are specific under the seat's reading rules (0.29%) and with the lepton factor free (0.58%), and at the bar under every covariant reading (0.97%): the result depends on the reading rule, which must be derived. Next: main's sealed replication (B1726). 0 of 19.)**
 
 **LATEST (2026-10-22, S190: the golden valley (B1723, sealed, NEGATIVE). The valley of the weave's modular-invariant F at its golden value 8 sits too low for the frame's hierarchy: the best fit is 147. The web seat's two ingredients (the Georgi–Jarlskog factor 3 on the leptons; one Higgs reading for every sector), recalibrated on main with the choice counted, give the six charged-fermion ratios specifically (0.29–0.58% of random hierarchies as good, every seed and menu) but not the mixing with them. The line's order acts as a quotient of hypercharge: order 5 imposes minimal SU(5)'s Y_e = Y_dᵀ, which the factor 3 corrects. Next: verify and replicate under main's seal (P-293), then C5. 0 of 19.)**
@@ -3326,6 +3328,28 @@ v1.28 — the flavour three (alike, chiral under the weave's own group, one per 
 selection (B1606); and the principle's own tick a → ab, b → a carries one hand and erases the other while every move does
 the reverse, so neither hand is derived on the weave (B1607, GENESIS v1.29). **Derived parameters: 0 of 19.** Next: the
 even subweave, where both hands are global choices (B1609); the review's items R61-1 to R61-5.
+
+## ⟳ VIEW REFRESH — 2026-10-23 (Review 68)
+
+Touched at the Review 68 anchor (`f1b7eb522`). **The window (B1705–B1728; 35 merges) sealed the completion map's first
+items, derived the frame's structure, and replicated the two-ingredient result.**
+- **The completion map** (B1721) named what stands between the frame and the data. Its first three items were sealed
+  and failed: the thread's own point (B1720, the closest approach, not specific), the record's measures over threads
+  (B1722), the golden valley (B1723, too low).
+- **The two ingredients:** with the Georgi–Jarlskog factor 3 on the leptons and a reading rule, the web seat's census was
+  verified on main (B1725) and **replicated sealed on 23 940 fresh points (B1726): the six charged-fermion ratios within
+  1.20, specific under every menu (0.12%, 0.41% with every covariant reading, 0.92% with the factor free); the nine with
+  the CKM moduli specific under the seat's menu (0.58%), not the covariant one; J and P-094's D miss.** The good rows lie
+  only on order-5 and order-10 lines. A READING: the factor (P-294) and the reading (P-295) are put in by hand and are
+  now first. The seats' third opinion is owed (P-304).
+- **The frame's structure derived:** the exact zeros (B1716); the readings' covariance (B1724: S and S̃ covariant, S*
+  only under Γ⁰(2)); a flavour-blind Higgs cannot give a hierarchy, m₂/m₃ ≥ 1/3 (B1727); B1703's coincidence law derived,
+  the line's order as a quotient of hypercharge (B1728).
+- **The seats' work:** W111, W120–W122 verified on main (B1707, B1708, B1710, B1719); W130–W135, the web seat's route (b)
+  and W133 check harvested (P-298, P-300, P-302, P-303).
+- **Review 68:** L228 resolved (C25's quantifier; B893's exactness is P-301); E91, the one-branch control; ten aged leads
+  escalated, six put to the owner (R68-3).
+- **0 of 19.**
 
 ## ⟳ VIEW REFRESH — 2026-10-22 (Review 67)
 

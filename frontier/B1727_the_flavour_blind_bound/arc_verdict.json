@@ -1,0 +1,26 @@
+{
+ "id": "B1727",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1656",
+  "B1723",
+  "B1642",
+  "B1716"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling (the functions B1723 sealed) with a flavour-blind Higgs S = 1",
+  "object": "the singular values of Y = c 1 + [a]_x, the coupling in every sector for every line, tau, end and channel weighting",
+  "reach": "class",
+  "hypotheses": "none beyond the frame: c in C and a in C^3 arbitrary; the premise computed on 20 random weightings, the bound proved"
+ },
+ "claim_one_line": "THE FLAVOUR-BLIND BOUND (P-299; proved, no data): with a flavour-blind Higgs S = 1, B1656's coupling is linear in the four channel weights and gives in every sector Y = c 1 + [a]_x (the channel 1 gives the identity, i, j, k the three elementary antisymmetric matrices; to 2.5e-16), whatever the line, tau and end; and for every c in C and a in C^3 the singular values satisfy sigma_1 <= 3 sigma_2, so m2/m3 >= 1/3, sharp (equality at c = 1, a = 2i e_1, singular values 3, 1, 1) -- by Weyl's inequalities, since M + M^T = 2c 1 gives |c| <= sigma_2 and the antisymmetric part has sigma_1 = sigma_2; the minimum by 400 starts 0.333333333333, every step on 200 000 random draws without violation. The data (m_c/m_t ~ 0.0037, m_s/m_b ~ 0.02, m_mu/m_tau ~ 0.06) lie far below, so in this frame the charged-fermion hierarchy needs a flavoured Higgs. 0 of 19.",
+ "weave_or_thread": "weave (a property of the frame's coupling at every tau and line)"
+}

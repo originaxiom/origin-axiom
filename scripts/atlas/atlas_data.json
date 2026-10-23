@@ -13434,6 +13434,44 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1726": {
+   "slug": "the two ingredients replicated",
+   "motifs": [
+    "figure_eight",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1727": {
+   "slug": "the flavour blind bound",
+   "motifs": [
+    "coupling"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "physics"
+  },
+  "B1728": {
+   "slug": "the lines order as a quotient of hypercharge",
+   "motifs": [
+    "choice",
+    "coupling",
+    "z3_generation"
+   ],
+   "refs": [
+    "S190"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B172": {
    "slug": "combination gap resolution",
    "motifs": [

@@ -101,3 +101,7 @@ original only up to a character when the representation is real up to a phase.
 - `verification/covariance.py` → `covariance.json`, `covariance_run.txt` (§§1–2).
 - `verification/consequences.py` → `consequences.json`, `consequences_run.txt` (§3).
 - The lock: `tests/test_b1724_the_readings_covariance.py`.
+
+> *Dated note 2026-10-23 (Review 68's premise audit).* "The mechanism exact" is T's action, ρ(T) = e^{iπ/4}(1 ⊕ R₋₉₀°).
+> The covariance under S is tested numerically (1.5 × 10⁻⁹ for S, 4 × 10⁻¹⁰ for S̃, with the end passed as L + log∣τ∣) and
+> not derived in closed form; SL(2, ℤ)-covariance follows from T and S as generators, the latter numerically.

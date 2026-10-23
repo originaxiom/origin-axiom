@@ -928,3 +928,18 @@ theorem ledger and conditional claims in `CLAIMS.md`. Write "UNIQUENESS A6", "P0
     - the audit lane's E₈ embedding used by the SM seat's W70 gives k_Y = 14/3 and sin²θ_W = 3/17, which SM running
       never reaches above M_Z.
   - "3/8" and "3/17" are two embeddings' values, neither derived.
+
+## Added at Review 68 (2026-10-23) — the terms minted in the B1705–B1726 window
+
+- **the completion map** (B1721, `docs/THE_COMPLETION_MAP.md`): the list of what stands between B1656's frame and the
+  data, item by item (C1 the thread fixes the point, C2 which thread, C3 the golden valley, …; I0–I3 the law
+  ingredients), each settled by a sealed test or a derivation. An item is closed by its arc, not by a reading.
+- **the readings S, S̃, S*** (B1660, B1724): the three ways the frame reads the Higgs's flavour section S = a_i·i + a_j·j +
+  a_k·k into a sector. S̃ = εS*εᵀ conjugates the components; S* also flips the i and k components. S and S̃ are
+  SL(2, ℤ)-covariant; S* only under Γ⁰(2) (index 3), so a sealed test reads S and S̃ only.
+- **the two ingredients; the lepton factor** (the web seat's sealed census, B1725): a structure put in by hand on top of the
+  frame — the Georgi–Jarlskog factor c = 3 on the leptons (m_μ/m_τ × c, m_e/m_τ ÷ c) and one reading rule per sector.
+  Neither is derived (P-294, P-295).
+- **the menu** (B1725, B1726): the set of ingredient choices a calibration counts. A target is "as good" when its own best
+  over the same rows and the same menu is at most the data's, so a larger menu raises the bar for specificity.
+

@@ -1,0 +1,28 @@
+{
+ "id": "B1726",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1725",
+  "B1724",
+  "B1713",
+  "B1695",
+  "B1667",
+  "B1656"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling at B1667's canonical end (both horocycles), the end-data Higgs DR, the covariant readings S and S~ (B1724), with two ingredients put in by hand: the lepton factor c (m_mu/m_tau x c, m_e/m_tau / c) and the reading assignment, from menus fixed before the run",
+  "object": "the six charged-fermion mass ratios at M_Z (Huang-Zhou 2021) and the CKM moduli, on B1713's 266 lines of order 1-12 at Re tau in {0.05, 0.2, 0.35, 0.55, 0.7, 0.85} and Im tau 2.05-3.45 (23 940 points nobody had computed)",
+  "reach": "class",
+  "hypotheses": "B1695's random-hierarchy prior and B1713's random-mixing prior; three menus (seat, cov, free); seeds 1726-1745, 4000 targets each; the 1% bar"
+ },
+ "claim_one_line": "THE TWO INGREDIENTS, REPLICATED (P-293; sealed 8024632e1, sha256 f7f1c28c; PROVED as sealed for its question -- R1-R5 hold, R6 and R7 fail as expected, the control C1 holds; outputs committed unread at f1b7eb522): on 23 940 points nobody had computed, with the menus fixed in advance and the covariant readings only, the six charged-fermion ratios come within 1.202 (tau = 0.55 + 3.05i, the order-10 line (2/5, 1/2), L_max, up S~ with down and leptons S, c = 3) and are specific under the seat's menu (0.12% of random hierarchies as good, every seed below 0.3%), under every covariant reading assignment (0.41%) and, at the bar, with c free (0.92%, 5 of 20 seeds above 1%); the nine (with |V_us|, |V_cb|, |V_ub|) are specific under the seat's menu (0.58%, best 1.90 at 0.55 + 2.55i on (2/5, 1/10), S~ throughout) but not under the covariant menu (1.66%); |J| at the best nine-row is 7.8 times too small and P-094's double ratio at the best six-row is 11.01 (3.9 sigma). After the read (labelled): the good rows form a band over every Re tau at Im tau 2.55-3.25, only on lines of order 5 and 10, where the frame sees SU(5)'s five-ality (B1728) and the factor 3 breaks Y_e = Y_d^T as Georgi-Jarlskog's 45 does; on order-5 lines D = 9 exactly; without the factor the six are not specific (2.28, 24%); after Bonferroni over the four specificity looks only the six under the seat's menu pass THE_BAR's gate (0.0048). Graded a READING (two hand-put ingredients, the reading rule P-295 and the factor P-294 to derive); a third opinion from the seats is asked. 0 of 19.",
+ "weave_or_thread": "weave (a census over lines and tau)"
+}

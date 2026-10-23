@@ -41,10 +41,10 @@ derived or the contact stays a fit.
 
 | # | the calculation | what the record supplies | status |
 |---|---|---|---|
-| **I0** | Verify and recalibrate the web seat's result; then main's sealed replication on rows nobody has computed, the menu of ingredients counted, the covariant readings only, J and P-094's D as cells | the web seat's sealed census (`relays/chat1_2026-10-22_selection_map/`) | **B1725: reproduced exactly. With the choice counted, the six are specific with the seat's two reading rules (0.29%) and with the lepton factor free (0.58%), but sit at the bar when every covariant reading assignment is allowed (0.97%, 14 of 20 seeds); the nine are not.** So the reading rule (I2) is part of the evidence. Replication (B1726) next. P-293 |
+| **I0** | Verify and recalibrate the web seat's result; then main's sealed replication on rows nobody has computed, the menu of ingredients counted, the covariant readings only, J and P-094's D as cells | the web seat's sealed census (`relays/chat1_2026-10-22_selection_map/`) | **B1725: reproduced exactly. With the choice counted, the six are specific with the seat's two reading rules (0.29%) and with the lepton factor free (0.58%), but sit at the bar when every covariant reading assignment is allowed (0.97%, 14 of 20 seeds); the nine are not.** So the reading rule (I2) is part of the evidence. **B1726 (sealed, PROVED as sealed): replicated on 23 940 fresh points — the six within 1.20, specific under the seat's menu (0.12%), under every covariant reading assignment (0.41%) and, at the bar, with the factor free (0.92%); the nine specific under the seat's menu (0.58%), not under the covariant one (1.66%); J and D miss.** The good rows lie only on order-5 and order-10 lines (B1728). I0 DONE; I1 (P-294) and I2 (P-295) are now first. P-293 |
 | I1 | The lepton factor 3: a coupling that separates L from d^c in the middle generation. Anomaly cancellation gives Y(L)/Y(Q) = −3 = −N_c, so a term linear in the doublet's hypercharge gives the factor; P-094's D = 10.58 needs about 3.25 | the web seat's §6a; the SM seat's P-084 (a 351′ component); B1340 (M_d = M_eᵀ is SU(5)'s 5̄) | QUEUED. P-294 |
 | I2 | The reading: which object enters each sector. B1724: S and S̃ are covariant, S* only under Γ⁰(2), so the choice is between S and S̃ per sector | B1660, B1724; the SM seat's W129 (two objects, one word) | QUEUED. P-295 |
-| I3 | The line's order as a quotient of hypercharge: N ∣ 5 gives Y_e = Y_dᵀ (SU(5)), N ∣ 4 gives Y_e = Y_d, N ∣ 6 gives Y_u = Y_d | B1723's stored rows (each to 10⁻¹³); the web seat's mod_n_check | QUEUED (the proof). P-296 |
+| I3 | The line's order as a quotient of hypercharge: N ∣ 5 gives Y_e = Y_dᵀ (SU(5)), N ∣ 4 gives Y_e = Y_d, N ∣ 6 gives Y_u = Y_d, N ∣ 2 or 7 gives u = e | B1703's census (the law, computed); B1723's stored rows; the web seat's mod_n_check | **DONE (B1728):** derived in the "if" direction (a charge shift by N is a phase, the swap a transpose, the sign the torus's involution); the converse stays B1703's census. P-296 (corrected 2026-10-23: the law is B1703's) |
 
 ## Gap 3 — the tagged inputs
 
@@ -61,9 +61,10 @@ derived or the contact stays a fit.
    C2: B1722, NEGATIVE; the record's measures favour short threads. C4 reduces to C2 (the walk's limit is the uniform measure).
    C3: B1723, NEGATIVE; the golden valley sits too low (best 147). The readings' covariance: B1724 (S, S̃ covariant; S*
    only under Γ⁰(2); no verdict turns on it). I0: B1725, the web seat's two-ingredient result verified and recalibrated
-   (the six specific under the seat's reading rules, at the bar under every covariant reading).
-   Next: B1726 (main's sealed replication), then I1 (P-294), I2 (P-295) and I3 (P-296), then C5 (near ω) with the
-   covariant readings only.
+   (the six specific under the seat's reading rules, at the bar under every covariant reading). B1726, main's sealed
+   replication on fresh rows: the six specific under every covariant menu (0.41%), the nine under the seat's (0.58%).
+   I3: B1728 (B1703's law derived). Next: I1 (P-294, the factor) and I2 (P-295, the reading), first; then C5 (near ω)
+   with the covariant readings only.
 2. C8: verify W123 on main, then the GENESIS sentence.
 3. C2, on C1's result.
 4. C10: the index on the Milne cone, the read-out's missing physical spacetime.

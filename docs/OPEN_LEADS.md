@@ -2981,7 +2981,7 @@ the seat-retirement rule gets its missing clause: *retiring a seat must not sile
 **Related:** the same sweep found 77 `REGISTERED-EARLIER` rows — seat claims main cites without having computed — and one
 relay with no ledger row at all. Those are ledger hygiene, not gate blindness, and are not part of this lead.
 
-## L228 — WHAT DOES C25's "SECOND MEASUREMENT" QUANTIFY OVER? (registered 2026-10-01, B1433)
+## L228 — CLOSED at Review 68 — WHAT DOES C25's "SECOND MEASUREMENT" QUANTIFY OVER? (registered 2026-10-01, B1433)
 
 C25 and the law map say a second measurement of the object's own charges lands on su(3) ⊕ su(2) ⊕ u(1)³, dimension 14.
 B1433 computed every joint centraliser of the four charges x₈, x₁₄, x₁₆, x₂₂: dimension 30 for {x₈}, {x₁₆}, {x₈, x₁₆}
@@ -2992,6 +2992,8 @@ The same audit withdrew the "reality ladder" (14, 20, 26 attained at no real poi
 carries it, so B893's exactness is part of this lead.
 
 **ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: not run since 2026-10-01: B1433 found no joint centraliser of dimension 14 among the four charges' subsets (30 or 12). Owed: read B892/B893 for the element the theorem is about and lock the quantifier in C25 and the law map; the paper is frozen at draft 9, so if its text states the generic quantifier, an erratum (errata only). Owner: cc.
+
+**CLOSED at Review 68 (2026-10-23).** B892's theorem is about the wall point y* of the second charge, and P3 defines a measurement as passing to the centraliser at a wall: 14 on the walls, 12 at a generic point of the torus (B1433). C25 and the law map's row carry a dated quantifier note; P3's sentence already carries it. The remainder, B893's exactness, is P-301.
 
 ## L229 — THE ARCHITECTURE CENSUS'S RESIDUE (registered 2026-10-01, B1434)
 
@@ -3887,6 +3889,28 @@ v1.28 — the flavour three (alike, chiral under the weave's own group, one per 
 selection (B1606); and the principle's own tick a → ab, b → a carries one hand and erases the other while every move does
 the reverse, so neither hand is derived on the weave (B1607, GENESIS v1.29). **Derived parameters: 0 of 19.** Next: the
 even subweave, where both hands are global choices (B1609); the review's items R61-1 to R61-5.
+
+## ⟳ VIEW REFRESH — 2026-10-23 (Review 68)
+
+Touched at the Review 68 anchor (`f1b7eb522`). **The window (B1705–B1728; 35 merges) sealed the completion map's first
+items, derived the frame's structure, and replicated the two-ingredient result.**
+- **The completion map** (B1721) named what stands between the frame and the data. Its first three items were sealed
+  and failed: the thread's own point (B1720, the closest approach, not specific), the record's measures over threads
+  (B1722), the golden valley (B1723, too low).
+- **The two ingredients:** with the Georgi–Jarlskog factor 3 on the leptons and a reading rule, the web seat's census was
+  verified on main (B1725) and **replicated sealed on 23 940 fresh points (B1726): the six charged-fermion ratios within
+  1.20, specific under every menu (0.12%, 0.41% with every covariant reading, 0.92% with the factor free); the nine with
+  the CKM moduli specific under the seat's menu (0.58%), not the covariant one; J and P-094's D miss.** The good rows lie
+  only on order-5 and order-10 lines. A READING: the factor (P-294) and the reading (P-295) are put in by hand and are
+  now first. The seats' third opinion is owed (P-304).
+- **The frame's structure derived:** the exact zeros (B1716); the readings' covariance (B1724: S and S̃ covariant, S*
+  only under Γ⁰(2)); a flavour-blind Higgs cannot give a hierarchy, m₂/m₃ ≥ 1/3 (B1727); B1703's coincidence law derived,
+  the line's order as a quotient of hypercharge (B1728).
+- **The seats' work:** W111, W120–W122 verified on main (B1707, B1708, B1710, B1719); W130–W135, the web seat's route (b)
+  and W133 check harvested (P-298, P-300, P-302, P-303).
+- **Review 68:** L228 resolved (C25's quantifier; B893's exactness is P-301); E91, the one-branch control; ten aged leads
+  escalated, six put to the owner (R68-3).
+- **0 of 19.**
 
 ## ⟳ VIEW REFRESH — 2026-10-22 (Review 67)
 
