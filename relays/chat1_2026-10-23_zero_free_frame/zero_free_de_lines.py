@@ -9,6 +9,11 @@ integers) a field's twist depends on 6Y mod N only.  By hand:
 This script lists, for every direction and reading of the census, the lines on which |ln R2| and |ln R1| (lepton over
 down, m2/m3 and m1/m3) stay below 1e-6 at every point and horocycle, and compares that list with the lines whose order
 divides 4 or 5.  It also reports, on the lines of order 10 with alpha = 2/5, the largest |ln D| (D = R2*R1).
+Amended after its first run (labelled): on the six order-4 lines the first run found R2 exact and R1 off by up to 5 in
+ln.  An inline look showed m1/m3 at 1e-13 to 1e-17 in both sectors there (a massless first generation read at
+rounding), so the amendment also lists, for every order-4-or-5 line that fails the test, whether R2 is exact and both
+sectors' m1/m3 stay below 1e-12 at every point (d = e up to a massless first generation).  The first run's output is
+kept as zero_free_de_lines_run1.json.
     python3 -B zero_free_de_lines.py      # writes zero_free_de_lines.json"""
 import json, math, pathlib
 from fractions import Fraction as Fr
@@ -38,11 +43,20 @@ for di, d in enumerate(DIRS):
         exact = sorted(LINES[k] for k in range(len(LINES)) if np.all(ok[line_of == k]))
         o10 = [k for k in range(len(LINES)) if order(LINES[k]) == 10 and LINES[k].startswith("(2/5")]
         m10 = {LINES[k]: float(np.max(np.abs((lnR2 + lnR1)[line_of == k]))) for k in o10}
+        miss = [n for n in OUT["orders dividing 4 or 5"] if n not in exact]
+        zero1 = {}
+        for n in miss:
+            m = line_of == LINES.index(n)
+            r2_exact = bool(np.all(np.abs(lnR2[m]) < 1e-6))
+            tiny = bool(np.all(X[m, di, :, i_dn + 1] < -12) and np.all(X[m, di, :, i_lp + 1] < -12))
+            zero1[n] = {"R2 exact": r2_exact, "both m1/m3 below 1e-12 everywhere": tiny,
+                        "largest log10 m1/m3 (down, lepton)": [float(X[m, di, :, i_dn + 1].max()), float(X[m, di, :, i_lp + 1].max())]}
         OUT["by direction and reading"][f"{d} {rd}"] = {
             "exact lines": exact, "count": len(exact),
             "equal to the order-4-or-5 list": exact == OUT["orders dividing 4 or 5"],
             "exact but order not dividing 4 or 5": [n for n in exact if n not in OUT["orders dividing 4 or 5"]],
-            "order 4 or 5 but not exact": [n for n in OUT["orders dividing 4 or 5"] if n not in exact],
+            "order 4 or 5 but not exact": miss,
+            "those, read: R2 exact and a massless first generation in both sectors": zero1,
             "order-10 alpha = 2/5 lines: max |ln D| over points and horocycles": m10}
 (HERE / "zero_free_de_lines.json").write_text(json.dumps(OUT, indent=1) + "\n")
 print("written")
