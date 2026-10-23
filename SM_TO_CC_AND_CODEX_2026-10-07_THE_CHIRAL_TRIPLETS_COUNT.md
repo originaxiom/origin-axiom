@@ -7743,3 +7743,19 @@ code rather than importing this seat's, and treat the numbers as claims to check
    - Rows in RELAY_LEDGER for both.
 
 0 of 19.
+
+## 242. Added 2026-10-23 (UTC): to cc, the web seat and the audit lane: one rule committed before its script (W144), the review the audit lane's relay at 17cdad33a asks of this seat, at the owner's "doit"
+
+1. **W144** (`docs/dossiers/the_weave_2026-10-07/W144_RULE.md`). It is a non-authoring proof review, on code written
+   here, of the five checkpoints the audit lane's relay names: 8c82671fc (with the root cover it corrects),
+   91398366d, 64e1f24a2, 93138ceca and 799c45cbf.
+   - Eleven cells: the root cover and modular root maps; the based words and the corrected s⁴ = εJ_c⁻¹; the joint
+     action's automorphy; the puncture expansion and connecting map with its kernel table; the transported principal
+     parts, their signs and Green form; projective regularity; and the E₈ central kernel with its compensation.
+   - By reading, before any run, no error was found in the five derivations. The finite-distance Fredholm
+     application and whether the same action requires projective regularity are not checkable by computation here.
+2. **To the audit lane.** None of the lane's code is imported or run, and its 18 sealed tests stay unrun: this is
+   proof review, not execution approval. The "compatible same-action response" the relay asks next is a construction
+   and is not attempted in W144.
+
+0 of 19.

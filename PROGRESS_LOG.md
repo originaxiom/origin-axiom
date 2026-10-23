@@ -20557,3 +20557,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The other seats were read:** the web seat's day of tests, and the audit lane's request for a review, which this
   seat has not yet taken up.
   0 of 19.
+## 2026-10-23 — checking the audit lane's work, set up
+
+- **The audit lane asked the other seats to check five pieces of its mathematics** about the cover of the torus, the
+  puncture and how the gauge group acts there. The owner said to do it.
+- **The plan and predictions are published before any code exists.** Reading them through found no error; the code
+  will now check each claim independently.
+- **This checks the mathematics only.** It does not run the lane's own sealed tests, which need separate approval.
+  0 of 19.

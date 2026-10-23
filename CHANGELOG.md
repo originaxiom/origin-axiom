@@ -1,5 +1,12 @@
 # Changelog
 
+## The W144 rule, committed and pushed before its script: the audit lane's five checkpoints reviewed on own code (relay §242)
+
+- **W144's rule.** A non-authoring proof review of the five checkpoints the audit lane's relay at 17cdad33a names:
+  the joint theta-root action, the puncture connecting map, the transported principal parts, projective regularity
+  and the full-gauge E₈ kernel. Eleven cells. No error found by reading. None of the lane's code is run.
+- **Surfaces.** The rule, relay §242, row 317, the state page's range. 0 of 19.
+
 ## W143 recorded, every cell as predicted: GENESIS PF1-W admits exactly one Higgs line led by the non-null eigenline in each three-generation space, F₋₆ and F₋₂; W133's open multiplicities closed (relay §241)
 
 - **Both sign families on own code.** In W133's four spaces the theta powers F_a with ε = i^{(a+2)/2} are exactly the
