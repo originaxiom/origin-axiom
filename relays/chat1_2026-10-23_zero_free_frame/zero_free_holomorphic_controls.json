@@ -1,0 +1,9 @@
+{
+ "C1 max |delta ln| against TC.ratios_at": 2.5091040356528222e-14,
+ "C2 max |delta ln| under T (ratios, |V|), F_6 at the first grid point": [
+  3.353974478157649e-13,
+  1.885471499715653
+ ],
+ "C1 holds": true,
+ "C2 holds": false
+}
