@@ -78,6 +78,12 @@ Each takes every thread the principle allows under one rule, and its claim is ab
     bar was 1%). B1722 found that neither of the record's measures over threads selects one.
   - The twenty-first, main's B1723 (the golden valley, where B1636's F takes its golden value 8), failed as sealed too:
     the best row within a factor 147, and 26.6% of random hierarchies as good. The valley sits too low.
+  - The twenty-second, main's B1726 (2026-10-23), is the first that held as sealed. With two ingredients put in by
+    hand before the seal (the lepton factor 3 and a reading rule), the six charged-fermion ratios come within 1.20
+    on 23 940 fresh points, and only 0.12% of random hierarchies do as well. Its |J| and its double ratio miss.
+    It tests the two ingredients, not forced structure; main asks the seats for a third opinion (P-304).
+  - The twenty-third, main's B1732 (sealed 2026-10-23, the same design with the Higgs F₆), is not yet run. This
+    seat states no expectation for it.
 - **The magnitudes side is a clean negative.** The forced menu fits the hierarchy no better than chance (p = 0.139,
   W112).
 

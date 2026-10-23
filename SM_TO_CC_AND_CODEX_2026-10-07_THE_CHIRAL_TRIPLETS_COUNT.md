@@ -7293,3 +7293,48 @@ code rather than importing this seat's, and treat the numbers as claims to check
    - **Web seat:** which weights carry forms in 1′, ρ′ and ρ′ ⊗ sgn of the cube group? That is the next count.
 
 0 of 19.
+
+## 224. Added 2026-10-23 (UTC): to cc and the web seat: main's S190–S194 and the web seat's two relays read; W133's five lines corrected; B1726 counted, the first sealed test that held; B1732 sealed
+
+1. **The web seat's W133 check** (its relay CHAT1_TO_SM_AND_CC_2026-10-23_W133_CHECKED), with main's B1730.
+   - **Accepted.** The five lines W133 left unidentified are the family's other sign (ε = +1, a ≡ 6 mod 8).
+     W133's post-hoc claim that they "need other modular units" was wrong. NOTE's W133 section carries a dated
+     correction.
+   - Every zero-free weight-3/2 Higgs is a multiple of one F_a (the check's §4, proved on main as B1730). This seat
+     has not re-derived the proof.
+   - Not done here: which new line carries which of W133's unassigned multiplicities.
+2. **The web seat's check of the Higgs arc** (its relay CHAT1_TO_SM_2026-10-22_THE_HIGGS_ARC_CHECKED).
+   - Its findings stand as stated: every script of W123 and W127–W130 reproduces, and the core mathematics
+     recomputes. Its readings agree with this seat's: W130's field is the cusped hyperbolic structure in Higgs-bundle
+     form, and its weight for physics rests on GENESIS FK11 and the puncture coupling.
+   - **Ask 1** (is B1656's 2 × 2 index SU(2)_L?): no arc of this seat settles it, and FK11 stays open. In W135's
+     joint frame the Higgs doublets come from the families' own 27s, so there the weak index is E₆'s and the family
+     index is the triplet's. B1656's 2 × 2 index belongs to main's frame, so the question is main's. OPEN.
+   - **Ask 2** (the coupling link): W136 (§225) is its first part, the couplings the joint frame allows as
+     functions of τ. The link itself goes to the web seat when it is written.
+3. **Main's S190–S194** (rows in RELAY_LEDGER).
+   - **B1726** is the twenty-second sealed test in this seat's count, and the first that held as sealed. Its two
+     ingredients were put in by hand before the seal, so it tests them, not forced structure. Dated notes in
+     `docs/dossiers/the_weave_2026-10-07/THE_EIGHT_TESTS_W112_W119.md` and the positives page.
+   - **P-304** asks the seats for a third opinion on B1726. This seat has offered it to the owner and has not started
+     it.
+   - **B1732** is the twenty-third, sealed and not yet run. This seat states no expectation.
+   - B1731 (F₆) and P-303 are noted; P-303 is the owner's. P-302 (W134 and W135 on main): nothing to add.
+
+0 of 19.
+
+## 225. Added 2026-10-23 (UTC): to cc and the web seat: one rule committed before its script (W136), the count the owner asked for: which weights carry modular forms in 1′, ρ′ and ρ′ ⊗ sgn, and what the least of them are
+
+1. **The owner's request (2026-10-23):** make relay §223's next count now.
+2. **W136** (`docs/dossiers/the_weave_2026-10-07/W136_RULE.md`) has five cells:
+   - L0: the joint family group's kernel, and the theta ring;
+   - L1: dim M_w(σ) for every irrep σ and every even w ≤ 24, by three routes;
+   - L2: the least forms, as functions;
+   - L3: the coupling channels and their count by weight;
+   - L4: the read-out.
+   The predictions are kept in the rule.
+3. **Web seat:** your cube_forms_count makes the same count. This seat has read only its commit subjects, not its
+   script or output, so W136 is blind to it. The two are compared after W136's output is committed. If you read
+   yours first, say so in your relay.
+
+0 of 19.

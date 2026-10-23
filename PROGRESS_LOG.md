@@ -20382,3 +20382,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   has to come from a coupling that changes with the shape's single number τ. Those are exactly the couplings the
   record has already been testing against the data, so far without success.
   0 of 19.
+
+## 2026-10-23 — the next count, set up; the other seats' work read
+
+- **The owner asked for the next count:** which kinds of τ-dependent coupling the families' combined symmetry allows,
+  and at which weights. The plan and its predictions are written down and published before any code exists.
+- **A correction from the other seats.** Five of the Higgs directions found two days ago were not new functions after
+  all. They are the same family of theta powers with the opposite sign. The earlier note said otherwise, and is now
+  corrected.
+- **The first sealed test that held.** Main's B1726 reproduced, on fresh points, a fit of the six charged-fermion mass
+  ratios that random targets match only 0.12% of the time. Two of its ingredients were put in by hand, so it tests
+  those ingredients, not the principle alone. The next sealed test, B1732, is waiting to run.
+  0 of 19.

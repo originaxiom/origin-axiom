@@ -1,5 +1,18 @@
 # Changelog
 
+## The W136 rule, committed and pushed before its script: which weights carry the families' coupling forms; main's S190–S194 and the web seat's two relays read (relays §224, §225)
+
+- **W136's rule.** The owner asked for relay §223's count. Which weights carry modular forms in 1′, ρ′ and ρ′ ⊗ sgn
+  of the joint family group, by three routes, and what the least of them are. The predictions are in the rule. It is
+  blind to the web seat's same count, whose script and output this seat has not opened.
+- **Read and rowed.** Main's ten commits (B1724–B1732) and the web seat's 48 (its checks of W123, W127–W130 and W133).
+  - W133's post-hoc claim that five zero-free lines need other modular units was wrong: they are the family's other
+    sign (the web seat's check; main's B1730). NOTE carries a dated correction.
+  - B1726 is the twenty-second sealed test in this seat's count, and the first that held as sealed, with two
+    ingredients put in by hand. B1732 is the twenty-third, sealed; no expectation is stated.
+- **Surfaces.** The rule, relays §224 and §225, row 317 and eleven new ledger rows, NOTE (W133's note), the two
+  trial-count pages, the state page's range. 0 of 19.
+
 ## W135 recorded, every cell as predicted: the record's pieces computed together give one frame, and every family mass must be a modular form of τ (relay §223)
 
 - **The skeleton.** E₈ and E₆ × SU(3) come from the moves, unique up to them. One founding ratio cycles both threes,

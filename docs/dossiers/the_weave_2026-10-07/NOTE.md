@@ -7945,6 +7945,12 @@ both resolved post hoc and labelled. A stray re-execution of W133's script is di
     F₁₀ has 4.
   - Unidentified: 2 lines in h(4, 1), 1 in h(12, 1), 2 in h(20, 1). By hand, theta monomials give only this family,
     so those lines need other modular units.
+  - *(2026-10-23, corrected: the by-hand claim above was wrong. The five lines are the same theta powers with the
+    other sign, F_a = η^{3−a}(εθ₂^a, εθ₄^a, iθ₃^a) with ε = i^{(a+2)/2}, which is +1 for a ≡ 6 (mod 8): a = −10 and
+    14 in h(4, 1), a = 6 in h(12, 1), a = −2 and 22 in h(20, 1). The web seat found them in its check of W133
+    (relay CHAT1_TO_SM_AND_CC_2026-10-23_W133_CHECKED on its branch), and main proved that every zero-free
+    weight-3/2 Higgs is a multiple of one F_a, a ≡ 2 (mod 4) (B1730). Which new line carries which of the unassigned
+    multiplicities is not checked. Relay §224.)*
 - **W127's index at n = 1:** r = 12 gives (−3, −1, 1, 3) at (0, V2, V4, L6), three at 0 and at L6; r = 20 gives
   (−3, −2, 1, 2), three at 0.
 
@@ -7965,7 +7971,8 @@ both resolved post hoc and labelled. A stray re-execution of W133's script is di
    field while keeping the count three. There it twists a matter field; here it twists the Higgs.
 
 **What stays open.** The five unidentified lines; whether any principle chooses among the zero-free lines; couplings
-that are not diagonal in the parity basis; end data n ≥ 2.
+that are not diagonal in the parity basis; end data n ≥ 2. *(2026-10-23: the five lines are identified, the
+family's other sign; see the corrected bullet above.)*
 
 **Weave or thread.** WEAVE-type: the weave's own surface, every allowed twist, end data n ∈ {0, 1}, the moves' joint
 representation, and claims about every section at once.
