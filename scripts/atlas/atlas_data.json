@@ -13551,6 +13551,26 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1733": {
+   "slug": "the threads own lines",
+   "motifs": [
+    "coupling",
+    "trace_map",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B44",
+    "L219",
+    "L253"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B173": {
    "slug": "gaplabel rank reduction",
    "motifs": [

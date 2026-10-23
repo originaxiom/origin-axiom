@@ -1,0 +1,26 @@
+{
+ "id": "B1733",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1720",
+  "B1724",
+  "B1728",
+  "B1698"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "threads (positive words A in L, R) acting on flat lines (a, b) in (Q/Z)^2 by the frame's covariance (a, b) -> (a, b) gamma^-1; B1656's frame for the ratios",
+  "object": "the lines a thread fixes up to sign, the order-5 pair, and the bit between its members",
+  "reach": "class",
+  "hypotheses": "classes to length 10 and N <= 30 for the brute force; B1720's 121 classes for the symmetries; no data"
+ },
+ "claim_one_line": "THE THREAD'S OWN LINES (P-312, P-336; no data): a thread A fixes a flat line of exact order N up to sign iff N divides the larger Smith invariant of A - I or A + I (coker(A -+ I) = Z/d1 + Z/d2; 0 mismatches in 6 989 brute-force checks over 241 classes and N <= 30); the trace rule N | t -+ 2 is its squarefree case (153 failures, all at non-squarefree N), exact on orders 5 and 10; when the 5-torsion is cyclic the fixed order-5 lines are exactly +-v, +-2v (99/99), and multiplication by 2 commutes with A, so no thread-built rule chooses (the deck involution of X_1(5) -> X_0(5)); the mapping torus's orientation-reversing symmetries (e det g = -1) swap v <-> 2v (28/28) and preserving ones fix the pair (188/188); the frame is mirror-covariant (1e-11), so a reversing symmetry relates (P, v) to (gP, 2v) -- glides (g^2 = A on the tick) have no fixed point, half-turns fix a point Q that reduces to tau = i, where v and 2v agree to 4e-14 -- while at B1720's apexes they differ by 4.7-8.7 in log. So the bit is real wherever the frame has a hierarchy: a thread fixes tau and its line up to one bit, which a sealed test must declare or count. 0 of 19.",
+ "weave_or_thread": "weave (a property of every thread and line)"
+}

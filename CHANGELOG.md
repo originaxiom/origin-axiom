@@ -1,5 +1,11 @@
 # Changelog
 
+## S197 THE THREAD'S OWN LINES (B1733, PROVED; P-312's rule, P-336) (2026-10-23)
+
+- **B1733 (PROVED; data-free), phase 2's first arc.** A thread fixes a flat line of exact order N up to sign iff N divides the larger Smith invariant of A ∓ I (0 mismatches in 6 989 checks); the trace rule is its squarefree case (exact on orders 5 and 10). At order 5 the fixed lines are one pair {v, 2v} (99/99). The mapping torus's orientation-reversing symmetries swap the pair (28/28), preserving ones fix it (188/188); the frame is mirror-covariant (1e-11). But the bit is real: glides have no fixed point, and only a half-turn's fixed point (τ = i, where the hierarchy degenerates) identifies v with 2v (4e-14); at B1720's apexes they differ by 4.7–8.7 in log. This corrects S196's "collapse toward which thread": a thread fixes τ and its line up to one real bit, which P-312's sealed test must declare or count (next).
+- **Landing suite.** full suite 7 625 passed, 2 failed, 68 skipped (22:54, -n 8) on 1f45c3cca; both failures are B805's attachment locks (P-239).
+- 0 of 19.
+
 ## S196 THE PARKED-ITEMS SWEEP, PHASE 1 (P-309, P-313; the owner: "lets re-evaluate and do them all, before we do anything else"), AND THE BELT'S SOFT PINS REPAIRED (2026-10-23)
 
 - **Phase 1, the re-evaluation, complete.** Forty-two read-only readers (plus two for the seats) re-evaluated every open lead (83), every OPEN-verdict arc (93), LEAD_REGISTER's 18 ranked rows and the seats' new work against today's frame. Each item was restated, checked against later arcs by reading, and given a verdict (probe now, probe later, answered, merge, retire by the math). No lead was retired for age; the owner's elected leads (L161, L174, L177, L241, L244) stay open. The merged queue and reports are in the audit room; every new point is rowed (P-314–P-338, FLOOR 338).

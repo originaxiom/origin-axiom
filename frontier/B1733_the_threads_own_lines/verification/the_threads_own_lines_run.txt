@@ -1,0 +1,62 @@
+{
+ "A_B": {
+  "classes": 241,
+  "checks": 6989,
+  "smith_mismatches": 0,
+  "trace_mismatches": 153,
+  "trace_mismatches_at_squarefree_N": 0,
+  "trace_failure_examples": [
+   [
+    "LLLLLLLLRR",
+    18,
+    16
+   ],
+   [
+    "LLLLLLLLRR",
+    18,
+    20
+   ],
+   [
+    "LLLLLLLRLR",
+    25,
+    27
+   ],
+   [
+    "LLLLLLRLLR",
+    30,
+    16
+   ]
+  ],
+  "order5_cyclic_classes": 99,
+  "of_which_exactly_v_and_2v": 99
+ },
+ "C": {
+  "e*det=-1": {
+   "swap": 28
+  },
+  "e*det=+1": {
+   "fix": 188
+  }
+ },
+ "D": {
+  "mirror_worst": 1.0479728196399152e-11,
+  "unchanged_line_at_mirror_tau": [
+   0.8014700953214187,
+   1.5211599869965557,
+   7.146505609514686e-13,
+   6.371392078124416,
+   1.2429452987595127,
+   1.2176724675451127
+  ]
+ }
+}
+{'word': 'LR', 'apex_v_vs_2v': 4.685923098499925, 'half_turn': [-2, 1, -5, 2], 'Q': [0.4, 0.2], 'Q_reduced': [0.0, 1.0], 'Q_v_vs_2v': 4.2854608750531964e-14}
+{'word': 'LLLRR', 'apex_v_vs_2v': 5.3336711131926835}
+{'word': 'LLRRR', 'apex_v_vs_2v': 5.3336711131926835}
+{'word': 'LLLLLR', 'apex_v_vs_2v': 8.651581105720998}
+{'word': 'LLLRLR', 'apex_v_vs_2v': 7.053462250180349}
+{'word': 'LRLRRR', 'apex_v_vs_2v': 7.053462250180349}
+{'word': 'LRRRRR', 'apex_v_vs_2v': 8.651581105684825}
+{'word': 'LLLLLLR', 'apex_v_vs_2v': 8.523228476727393}
+{'word': 'LLLLLRR', 'apex_v_vs_2v': 7.428153949683499}
+{'word': 'LLLRLLR', 'apex_v_vs_2v': 8.365220242690391}

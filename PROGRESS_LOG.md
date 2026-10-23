@@ -17800,3 +17800,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - **Phase 1 complete:** 83 leads, 93 OPEN arcs and LEAD_REGISTER's 18 rows re-evaluated against today's frame by read-only readers; P-314–P-337 rowed. Top findings: P-312's Smith lemma and the line bit as the orientation (verified on main); four checks that could not fail (one a live false pass, repaired here); B997's golden uniqueness fails at m = 4; possible P9 errata; new probes on the goal's path.
 - **The belt repaired:** hard pins, B1172's MC1 pin, B1176–B1179 under test, a soft-pin ratchet.
 - **Landing suite.** full suite 7 620 passed, 3 failed, 68 skipped (23:18, -n 8) on d52cf2a75: B805's two attachment locks (P-239), and test_belt_census_is_complete, the belt's count lock (26), which this landing's four added runners raised to 30 — updated with a dated comment, the file re-run green (33 passed, 5 skipped).
+
+## 2026-10-23 — S197 THE THREAD'S OWN LINES (B1733)
+
+- **B1733 (PROVED).** The Smith rule for the lines a thread fixes; the order-5 pair; the bit between v and 2v is tied to the 3-manifold's orientation yet real (identified only at τ = i). P-336 DONE; P-312's sealed test next.
+- **Landing suite.** full suite 7 625 passed, 2 failed, 68 skipped (22:54, -n 8) on 1f45c3cca; both failures are B805's attachment locks (P-239).
