@@ -20477,3 +20477,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - for every line of small order, whether the larger symmetry's extra particles change which lines keep the tie.
   The plan and its predictions are published before any code exists.
   0 of 19.
+
+## 2026-10-23 — only a chosen line could tell leptons from down quarks, and fewer lines keep them tied than main found
+
+- **The check ran once, and every prediction held.**
+  - All the moves together allow only the trivial flat line. So at the level of the whole weave, the electron and
+    the down quark stay tied. Breaking the tie needs a line that one thread picks.
+  - Main's rule for which lines keep the tie turns out to be pure arithmetic of the particles' hypercharges.
+  - Inside the larger symmetry, its extra particles break two of main's coincidences. Only 13 of the 266 small lines
+    keep the tie, against 22 in main's picture.
+- **No data was compared,** so the trial count is unchanged.
+  0 of 19.

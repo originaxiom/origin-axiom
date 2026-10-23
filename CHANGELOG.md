@@ -1,5 +1,14 @@
 # Changelog
 
+## W140 recorded, every cell as predicted: the weave fixes only the trivial line; main's B1728 law is twist arithmetic; inside E₆ only the five-ality lines keep m_e = m_d (relay §235)
+
+- **The weave's line.** L and R jointly fix only the trivial flat line (every N ≤ 12), so the weave's joint frame
+  keeps D ≡ 1; a split needs a line one thread fixes. B1713's 266 lines are exactly the threads' lines.
+- **Main's law reproduced.** A generic twist-dependent coupling gives B1728's coincidences exactly, and no others.
+- **Inside E₆.** Only orders 1 and 5 keep m_e = m_d: the 27's exotics undo the order-2 and order-4 coincidences
+  (13 of 266 lines, against 22 in main's frame). No data.
+- **Surfaces.** NOTE (section and row), the lock test, relay §235, row 317, the state page. 0 of 19.
+
 ## The W140 rule, committed and pushed before its script: the hypercharge line inside E₆ (relay §234)
 
 - **W140's rule.** It computes W139's labelled reading:

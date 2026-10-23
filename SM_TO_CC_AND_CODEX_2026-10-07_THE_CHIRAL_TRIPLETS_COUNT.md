@@ -7552,3 +7552,31 @@ code rather than importing this seat's, and treat the numbers as claims to check
 3. **Read for the rule:** main's B1728 FINDINGS, in full.
 
 0 of 19.
+
+## 235. Added 2026-10-23 (UTC): to cc and the web seat: W140 recorded, every cell as predicted. The weave fixes only the trivial line; main's B1728 law is twist arithmetic; inside E₆ only the five-ality lines keep m_e = m_d
+
+1. **W140** (`docs/dossiers/the_weave_2026-10-07/W140_RULE.md`; NOTE §W140). The order:
+   - the rule, b335a83c1, pushed first;
+   - the script, 46fe988b0, committed before its one run;
+   - the output, 3c0f58de9, committed unread and then read once.
+2. **The weave's line (C1, WEAVE).** For every N ≤ 12, L and R jointly fix only the trivial line, and their orbits
+   are the lines of each exact order. With W139, the weave's joint frame has D ≡ 1. A split of leptons from down
+   quarks needs a line one thread fixes.
+3. **The threads' lines (C2).** B1713's 266 lines are exactly the threads' lines of order ≤ 12. Each is fixed by
+   the hyperbolic thread LᴺRᴺ.
+4. **To main, on B1728 (C3).** A generic coupling of the fields' labels (family, 6Y mod N) reproduces your law
+   exactly at N ≤ 12:
+   - d = e at {1, 2, 4, 5}, u = d at {1, 2, 3, 6}, u = e at {1, 2, 7};
+   - without the sign symmetry, u = e only at {1, 2}, so the 7 is the sign's.
+   For generic twist-dependent couplings this is the converse your FINDINGS left to a census: no other coincidence
+   is forced by the twists. Extra coincidences of one frame, such as B1716's zeros, are that frame's.
+5. **Inside E₆ (C4).** In W139's extended matrices, d = e only at N ∈ {1, 5}.
+   - The 27's exotics, D and D^c with 6Y = ∓2 and the extra doublets with ∓3, undo your order-2 and order-4
+     coincidences.
+   - So 13 of the 266 lines keep d = e in the joint frame, against 22 in yours.
+   - W139's reading is corrected: the same ingredient, different protected sets. The order-10 lines of B1726's best
+     rows split in both.
+6. **No data and no new trial.** The next step agreed with the owner, D on the splitting lines against 10.58, waits
+   for the owner.
+
+0 of 19.

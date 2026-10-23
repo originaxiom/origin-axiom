@@ -4251,3 +4251,37 @@ def test_w139_the_e6_breaking():
     lam, vevs = W.random_point(random.Random(8))
     Mq, Ml = W.mass_matrices(1, lam, vevs)
     assert W.byhand_residual(Mq, Ml, 1) < 1e-30
+
+
+def test_w140_the_hypercharge_line():
+    """W140, the hypercharge line inside E6: every cell as recorded; in process, the moves fix only the trivial line,
+    B1713's 266 lines, and one draw of the generic coupling keeps d = e at order 5 and splits it at order 4 in E6's
+    extended matrices"""
+    import contextlib
+    import importlib.util
+    import io
+    import random
+    import mpmath
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_hypercharge_line.json").read_text(encoding="utf-8"))
+    assert all(d["cells"].values()) and len(d["cells"]) == 4
+    assert d["C3"]["with the sign symmetry"]["coinciding orders"]["d=e"] == [1, 2, 4, 5]
+    assert d["C4"]["with the sign symmetry"]["coinciding orders"] == [1, 5]
+    r5 = d["C5 (read-out)"]
+    assert r5["keep d = e in main's frame (C3, with the sign symmetry)"] == 22
+    assert r5["keep d = e in the joint frame (C4, with the sign symmetry)"] == 13
+    dps = mpmath.mp.dps
+    try:
+        spec = importlib.util.spec_from_file_location("w140_lock", here / "the_hypercharge_line.py")
+        W = importlib.util.module_from_spec(spec)
+        with contextlib.redirect_stdout(io.StringIO()):
+            spec.loader.exec_module(W)
+        assert W.C1()[1] and len(W.lines_up_to_sign()) == 266
+        q6 = W.q6_of_components()
+        rng = random.Random(5)
+        for N, same in ((5, True), (4, False)):
+            Mq, Ml = W.extended(W.Coupling(N, rng, True), W.random_vevs(rng, 10**4), q6)
+            gap = float(W.maxlog(W.svals(Mq)[:3], W.svals(Ml)[:3]))
+            assert gap < 1e-20 if same else gap > 1e-6
+    finally:
+        mpmath.mp.dps = dps

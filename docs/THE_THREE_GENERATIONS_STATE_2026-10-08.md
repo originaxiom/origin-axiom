@@ -125,6 +125,10 @@ Under the owner's rulings, the table's rows split into two groups:
     E₆'s cubic, whose symmetry is exactly 78-dimensional, the extended lepton matrix is the extended down-quark matrix
     transposed and rotated, for every symmetric coupling and every vev that keeps colour and charge, E₆'s breaking
     to SO(10) and SU(5) included. So D ≡ 1 throughout the 27s; the joint frame needs an SU(5)-breaking source.
+  - *Added 2026-10-23.* The moves jointly fix only the trivial flat line, so at the weave level the joint frame keeps
+    D ≡ 1; a split needs a line one thread fixes (W140). Inside E₆ only the five-ality lines keep m_e = m_d (13 of the
+    266 lines of order ≤ 12, against 22 in main's frame): the 27's exotics undo main's order-2 and order-4
+    coincidences. Main's B1728 law is reproduced by twist arithmetic with a generic coupling.
 - **No index on a thread or a cover:** NEGATIVE (main's B1604).
 - **The E₈ frames on the fibre give at most two complete generations:** NEGATIVE (W23).
 - **No six-dimensional object the weave forces gives three:** NEGATIVE (W24).
@@ -943,4 +947,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W119 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§234).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§235).

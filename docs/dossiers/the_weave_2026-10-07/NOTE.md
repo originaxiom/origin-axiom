@@ -7726,6 +7726,66 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W140. The hypercharge line inside E₆ (the owner's approval; W139's labelled reading computed): the moves jointly fix only the trivial line, so the weave's joint frame keeps m_e = m_d, and any split is a line one thread chooses. Twist arithmetic with a generic coupling reproduces main's B1728 law exactly. But inside E₆'s extended matrices only the five-ality lines (order 1 or 5) keep the tie: the 27's exotics undo main's order-2 and order-4 coincidences, so 13 of the 266 lines keep d = e in the joint frame against 22 in main's. Every cell as predicted (`the_hypercharge_line.py`; `W140_RULE.md`)
+
+**Why.**
+- W139's reading (labelled) said only a flat hypercharge line that breaks SU(5)'s relation can split leptons from
+  down quarks, and that the joint frame and main's frame need the same ingredient. That mixes a weave question with
+  a thread one.
+- The owner asked whether to compute it, and approved two parts (2026-10-23): the weave's line, and a census of
+  every line of order ≤ 12 in E₆'s hypercharge direction.
+
+**The order.**
+- The rule (`W140_RULE.md`, b335a83c1) was committed and pushed before the script existed. It was written after
+  reading main's B1728 FINDINGS in full, disclosed there.
+- The script (46fe988b0) was committed before its one run. It reuses W139's committed instrument.
+- Its output (3c0f58de9) was committed unread, then read once. The run took 7 s.
+
+**The result (COMPUTED; every cell as predicted).**
+- **C1, the weave's line.** For every N ≤ 12 the only point of (ℤ/N)² fixed by both L and R is 0, with or without
+  −I. The orbits of ⟨L, R⟩ are exactly the sets of points of each exact order, one per divisor of N.
+- **C2, the threads' lines.** The lines of order ≤ 12 up to sign number 266: 1, 3, 4, 6, 12, 12, 24, 24, 36, 36, 60
+  and 48 of orders 1 to 12. Each line of order N is fixed by the hyperbolic thread LᴺRᴺ, whose trace is N² + 2.
+- **C3, the control.** In the light-fields model, each Yukawa entry is a generic coupling F of its three fields'
+  labels (family, 6Y mod N). Over five random draws per order:
+  - with the sign symmetry, d = e exactly at N ∈ {1, 2, 4, 5}, u = d at {1, 2, 3, 6} and u = e at {1, 2, 7}. That
+    is main's law;
+  - without it, the same except u = e only at {1, 2}, so the order-7 coincidence is the sign's;
+  - coinciding pairs agree to 2 × 10⁻³⁰ or exactly, and every other pair is apart by 0.07 to 2.7 in |ln|.
+- **C4, the joint frame.** W139's extended 6 × 6 matrices with each entry weighted by F. In both variants, the three
+  light down and lepton masses at hierarchical vevs agree only at N ∈ {1, 5}, to 1.2 × 10⁻²⁶. At every other order they
+  split, with median |ln D| from 0.12 to 1.2; at N = 2 and 4, 0.34 and 0.62 (with the sign symmetry).
+- **C5, the read-out.**
+  - Of the 266 lines, 22 keep d = e in main's frame and 13 in the joint frame.
+  - At non-hierarchical vevs the six extended singular values coincide exactly at N ∈ {1, 5} too.
+
+**What it shows (the rule's fixed meaning).**
+1. **At the weave level the line is trivial.** The moves jointly fix only the trivial line. So with W139, the weave's
+   joint frame has D ≡ 1, and any split of leptons from down quarks needs a line fixed by one thread: a thread
+   choice, not forced by the principle. The moves act transitively on the lines of each order, so the weave sees a
+   line's order, never the line.
+2. **B1713's census set is exactly the threads' lines** of order ≤ 12.
+3. **Main's law is twist arithmetic.** A generic twist-dependent coupling reproduces it exactly.
+   - That adds the "only if" direction for generic couplings at N ≤ 12, which B1728 left to a census: no other
+     coincidence is forced.
+   - A particular frame can still have extra coincidences of its own, such as B1716's exact zeros.
+4. **Inside E₆ the protected set shrinks to the five-ality lines.**
+   - Only N ∣ 5, SU(5)'s centre, keeps m_e = m_d.
+   - Main's order-4 coincidence (Q ≡ L and d^c ≡ e^c, the Pati–Salam pairing) and its order-2 one do not survive
+     the 27's exotics. D and D^c carry 6Y = ∓2, against ∓3 for the extra doublets, so the heavy states pair
+     differently in the two sectors and the light combinations differ.
+   - W139's reading is corrected. The ingredient is the same, a flat hypercharge line, but the protected sets
+     differ: 13 against 22 of the 266 lines.
+5. **The order-10 lines that hold B1726's best rows split d from e in both frames.**
+
+**Weave or thread.** C1 is WEAVE: every move at once, on the shared fibre. C2 to C4 are a census of thread objects:
+every line of order ≤ 12 under B1713's rule, with none hand-picked, and claims about all of them at once. The
+quantity on each line is that line's.
+
+**Status.** COMPUTED: exact in C1 and C2, and to 30 digits with generic couplings in C3 and C4 (five random draws
+per order and variant). "Split" means a generic twist-dependent coupling splits them. One run. Every cell as
+predicted. No data, and no new trial. 0 of 19.
+
 ## W139. The E₆ breaking arc (main's P-338, at the owner's agreement): no vev of the families' 27s splits the charged leptons from the down quarks. Under E₆'s cubic the extended lepton matrix is the extended down-quark matrix transposed and rotated, M_l = −(1 ⊗ Jᵀ)M_qᵀ(1 ⊗ J), for every symmetric coupling and every vev that keeps colour and charge, E₆ → SO(10) → SU(5) included. So D ≡ 1 everywhere inside the 27s, and the relation is E₆'s normalisation: at det L's coefficient 2 the leptons double and the symmetry drops from 78 to 24. Every cell as predicted (`the_e6_breaking.py`; `W139_RULE.md`)
 
 **Why.**
@@ -11838,6 +11898,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W140 | COMPUTED (the rule first; one run; every cell as predicted); C1 WEAVE, C2–C4 a census of thread objects | the hypercharge line inside E₆: the moves jointly fix only the trivial line (every N ≤ 12; orbits = exact orders), so the weave's joint frame keeps D ≡ 1 and any split is a thread's line; B1713's 266 lines are the threads' (each fixed by LᴺRᴺ). A generic twist-dependent coupling reproduces main's B1728 law exactly (d = e at N ∈ {1, 2, 4, 5}, u = d at {1, 2, 3, 6}, u = e at {1, 2, 7}, the 7 from the sign); in E₆'s extended matrices d = e only at N ∈ {1, 5}: the 27's exotics undo the order-2 and order-4 coincidences, so 13 of 266 lines keep the tie against 22 in main's frame. No data. 0 of 19 |
 | W139 | COMPUTED (the rule first; one run; every cell as predicted); WEAVE-type | the E₆ breaking arc (P-338): N = det Q + det L + det Q^c − tr(Q L Q^c) has a symmetry algebra of dimension exactly 78 (E₆; 24 at det L's coefficient 2); the 27 carries 16 ⊕ 10 ⊕ 1 with five neutral directions. For every symmetric λ and every colour- and charge-keeping vev of the three 27s, M_l = −(1 ⊗ Jᵀ)M_qᵀ(1 ⊗ J), so the six singular values agree (to 10⁻⁴⁰) and D ≡ 1 at hierarchical vevs too. No vev of the 27s splits leptons from down quarks; the joint frame needs an SU(5)-breaking source (351′, 351, the 78, or a flat hypercharge line). 0 of 19 |
 | W138 | COMPUTED (the rule first, after a read-only preparation that drafted the script, disclosed; one run; every cell as predicted); a check of main's census of one frame | the third opinion on main's B1726 (P-304): compare.py re-runs to the bit; a second calibration gives the same 120 fractions; 38 census points and both best rows reproduce on this seat's own instrument to 10⁻¹⁰; R7's mechanism holds (D = 9 exactly on order-5 lines); with every covariant reading and the factor free the six are not specific (3.4%). B1726 is a replicated two-ingredient READING, bankable as that and no more. 0 of 19 |
 | W137 | COMPUTED (the rule first; one run; every cell as predicted); WEAVE-type | the joint frame's Yukawas: no tree-level coupling when the generations are the surface's sections; in the modular-flavour picture the triplet's weight is even, so the least coupling is weight 6 with six constants (W136's weight 2 unreachable) and supergravity with one modulus allows none; with the 27s' weight, five of W134's twelve three-generation data have no coupling and the rest need 26 or 30 constants. The minimal Clebsch forces M_e = M_d, so D ≡ 1 against P-094's 10.58 (excluded, no fit); at weight 6 the Jacobian of the quark invariants has rank 10, so nothing is predicted in the quark sector; θ̄ ∈ {0, π} only on the CP line, where J = 0. 0 of 19 |
