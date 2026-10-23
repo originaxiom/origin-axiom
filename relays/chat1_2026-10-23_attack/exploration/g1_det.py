@@ -7,7 +7,7 @@ def cross(v):
 Y = U * H.T + H * U.T - (U.dot(H)) * sp.eye(3) + w * cross(H)
 d = sp.factor(sp.expand(Y.det()))
 print("det Y =", d)
-cand = -(H.dot(H)) * (U.dot(H)) * (U.dot(U) + w**2)
-print("det Y - (-(h.h)(u.h)(u.u + w^2)) =", sp.simplify(sp.expand(Y.det() - cand)))
+cand = (H.dot(H)) * (U.dot(H)) * (U.dot(U) + w**2)        # corrected 2026-10-23 after the referee: the sign is +
+print("det Y - (h.h)(u.h)(u.u + w^2) =", sp.simplify(sp.expand(Y.det() - cand)))
 # the 2x2 minors' sum (sum of principal 2x2 minors = e2 of eigenvalues) and trace, for the record
 print("trace Y =", sp.factor(Y.trace()))

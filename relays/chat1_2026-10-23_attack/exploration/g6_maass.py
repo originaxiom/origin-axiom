@@ -1,5 +1,5 @@
 """Data-free: main's DR = q R' + E2 R / 24 (the Serre derivative in weight -1/2, checked by a least-squares fit of DR on
-q R' and E2 R at three tau); the family h(lambda) = DR + lambda R (R null, R.DR = 0, so h.h = DR.DR for every lambda)
+q R' and E2 R at two tau; docstring corrected 2026-10-23: it first said three); the family h(lambda) = DR + lambda R (R null, R.DR = 0, so h.h = DR.DR for every lambda)
 and its departures from the leading null eigenline; the Maass-Shimura derivative of R in main's weight -1/2,
 q R' + R/(8 pi y) = DR - (E2*/24) R (E2* = E2 - 3/(pi y)), as one member."""
 import contextlib, importlib.util, io, sys, math, pathlib
