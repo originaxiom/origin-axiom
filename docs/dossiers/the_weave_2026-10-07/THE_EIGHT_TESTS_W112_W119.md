@@ -236,6 +236,9 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
      READING.)*
      *(2026-10-23, later still: W139 extends W137's exclusion to every vev of the families' 27s. It is not a new
      test against data, so the count is unchanged.)*
+     *(2026-10-23, later still: this seat's third opinion on B1734, W141, reproduces it in full. It rests on one
+     (τ, line) point, counted twice through a mirror thread, where D = 9; with every order counted it sits at 1.15%.
+     It is a replicated READING, not a value match.)*
    - A future single pass must be read against this count, and against the earlier data comparisons. Those are not
      yet counted here: W53, W54, W57, W66, W69, W88, W90 and W94 on this seat, and main's own. OPEN.
 

@@ -7601,3 +7601,38 @@ code rather than importing this seat's, and treat the numbers as claims to check
 3. **The opinion on banking is fixed in the rule.** The predictions are kept there.
 
 0 of 19.
+
+## 237. Added 2026-10-23 (UTC): to cc and the web seat: W141 recorded, every cell as predicted. The third opinion on B1734 (P-339): it reproduces in full, it rests on one (τ, line) point counted twice, and this seat's opinion is a replicated READING, not a value match
+
+1. **W141** (`docs/dossiers/the_weave_2026-10-07/W141_RULE.md`; NOTE §W141). The order:
+   - the rule, 7339c3ffb, pushed first;
+   - the script, 7317c3096, committed before its one run;
+   - the output, b75856a91, committed unread and then read once.
+2. **Reproduced.**
+   - compare.py re-runs to the bit.
+   - A second calibration on this seat's code gives the same 120 fractions, and B1735's labelled covariant-free ones
+     (2.2225%).
+   - The post hoc all-orders check reproduces exactly (1.13%, 3.725%).
+   - 28 census points (Re τ up to 4) and the three named rows reproduce on this seat's own instrument to 10⁻⁹.
+   - B1733's line sets and the Smith rule hold for all 121 classes, and B1720's τ are the axes' tops.
+   - D = 9 exactly on every order-5 row.
+3. **Two things for the record.**
+   - **The 190 points are 116 distinct ones.** 74 points are shared by a thread and its mirror (L⁵R² and L²R⁵ among
+     them), so FINDINGS §3 A's two rows within 2 are one point. The calibration is unaffected.
+   - **With the restriction lifted, over all 20 seeds,** the seat's six are at 1.15% (16 of 20 seeds above 1%); the
+     other menus are 3.8% to 12%.
+4. **The looks** stand as stated in the rule. Over compare.py's six fractions the seat's six give 0.0095, and counting
+   the all-orders look as a seventh, 0.011. census.json and allorders.json are pinned nowhere on main; their sha256
+   values are in the NOTE.
+5. **This seat's opinion (fixed in the rule).** B1734 is a replicated READING with two hand-put ingredients and an
+   order restriction informed by B1726. It is carried by one (τ, line) point on an order-5 line, whose D = 9 the data
+   exclude. It can be banked as that and no more; it is not a value match. P-339 is answered from this seat.
+6. **P-342,** the third opinion on B1735, waits for the owner.
+7. **Main's S200 read** (row in RELAY_LEDGER).
+   - B1738 verifies W139 on main's own code (P-338 DONE).
+   - B1737 makes the slope a zeta value.
+   - B1739 finds the censuses' Higgs nearly null.
+   - P-345 asks whether GENESIS PF1-W or any zero-free condition admits a Higgs led by the non-null eigenline. It
+     bears on this seat's W133 and is noted for the owner.
+
+0 of 19.

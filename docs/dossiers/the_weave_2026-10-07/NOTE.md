@@ -7726,6 +7726,97 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W141. The third opinion on main's B1734 (main's P-339, at the owner's approval): B1734 reproduces in full. Main's compare.py re-runs to the bit, a second calibration gives the same 120 fractions and B1735's labelled ones, the all-orders cost of the restriction reproduces exactly, and 28 census points and the three named rows reproduce on this seat's own instrument to 10⁻⁹. B1733's line sets and B1720's apexes are right, and D = 9 exactly on every order-5 row. But the 190 points are only 116 distinct ones: 74 mirror pairs stand at the same τ and line. With the order restriction lifted, the seat's menu sits at 1.15% (16 of 20 seeds above 1%). Every cell as predicted; B1734 is a replicated READING carried by one point on an order-5 line whose D = 9 the data exclude (`the_third_opinion_b1734.py`; `W141_RULE.md`)
+
+**Why.**
+- B1734 held as sealed for its question, the first sealed specific contact in which a rule, not a grid, places τ and
+  the line. The owner's rule of 2026-08-21 requires a third opinion before a positive value match is banked as more
+  than a reading, and main's P-339 asked the seats for it.
+- The owner approved this seat's doing it (2026-10-23).
+
+**The order.**
+- A read-only preparation read main's B1734, B1733 and B1735 files; the looks it saw in the data are disclosed in the
+  rule.
+- The rule (`W141_RULE.md`, 7339c3ffb) was committed and pushed before the script existed. It states the looks found
+  by reading main's code.
+- The script (7317c3096) was committed before its one run (2 min 23 s, four workers). It imports W138's committed
+  instrument and calibration and nothing of main's code.
+- Its output (b75856a91) was committed unread, then read once.
+
+**The result (COMPUTED; every cell as predicted).**
+- **A0, the inputs.** Every file in B1734's ARTIFACT_HASHES matches. census.json holds 190 unique points with no NaN
+  or infinity. Its sha256 (b29ac3e3…) and allorders.json's (0840d356…) are recorded here, since nothing on main pins
+  them.
+- **A1, the re-run.** Main's compare.py, run on the committed census.json in a temporary tree, exits 0 in 15 s. It
+  reproduces comparison.json: the 120 per-seed fractions and six means exactly, 220 of 221 numbers identical and the
+  last within 1.3 × 10⁻¹⁶, the same cells, and stdout identical to compare_run.txt.
+- **A2, the calibration on own code.**
+  - The same 120 fractions exactly, and the same best rows (row, readings, factor, D) under the seat, cov and free
+    menus.
+  - Under every covariant reading with the factor free, the 20 per-seed fractions equal B1735's check.json exactly
+    (mean 2.2225%).
+  - Not predicted (read-out): the nine under that menu, 0.98%.
+- **A3, the restriction's cost on own code.** From allorders.json (3 249 points, 6 498 rows): best six 1.6138 under
+  the seat and cov menus, and the per-seed fractions for seeds 1734–1738 equal posthoc.json's exactly (seat mean
+  1.13%, cov 3.725%).
+- **A4, the new look (labelled).** The same census over all 20 seeds:
+  - the seat's menu 1.1525%, with 16 of 20 seeds above 1%;
+  - cov 3.83%, free 4.06%;
+  - every covariant reading with the factor free 12.3%, whose best six (1.6052) sits on another row.
+- **B0, the own instrument's controls.** At the three named points W93's residues × κ equal the circle residues of
+  main's bilinear to 2.8 × 10⁻³¹. The joint law J1 holds on every coupling to 5.5 × 10⁻¹⁷‖Y‖³.
+- **B1, the 28 points** (16 order-5, 12 order-10, Re τ up to 4.0). Every stored ratio is reproduced to 2.8 × 10⁻¹⁰ in
+  log, every |V| to 3.5 × 10⁻⁹, and J to 9.0 × 10⁻⁹ relative, with no mismatch in which values vanish. The slanted
+  cells cost nothing.
+- **B2, the named rows from the own values.**
+  - The best six: 1.6137985537 (1.1 × 10⁻¹⁰ relative) with D = 9.0000000000005.
+  - The best nine under the seat's menu: 4.5804010107 (6.8 × 10⁻¹¹), with J zero to rounding on both instruments
+    (10⁻¹⁸ and 10⁻¹⁵).
+  - The best nine under the covariant menu: 2.5349068375 (4.2 × 10⁻¹² against main's stored value).
+- **C1, the thread rule's lines.**
+  - For all 121 classes, the stored lines are exactly the nontrivial lines the monodromy fixes up to sign under
+    B1733's row action. The column convention matches only 1 class.
+  - The Smith rule has no mismatch for N ≤ 30.
+  - 49 classes give 190 points, 98 of order 5 and 92 of order 10. Every order-5 pair is complete, and the selection
+    is exactly census.json's.
+- **C2, the points.** Every stored τ is the top of its monodromy's axis, to 4.4 × 10⁻¹⁶.
+- **C3, the duplicates (read-out).** The 190 points are 116 distinct (τ, line) points. 74 of them are each shared by a
+  thread and its mirror (L⁵R² and L²R⁵, L³R² and L²R³, …), and 42 stand alone.
+- **D1, R7's mechanism.** On all 196 order-5 values (none masked), |ln D_frame| ≤ 4.1 × 10⁻¹¹ in both readings, so
+  D = 9 exactly at c = 3.
+- **D2 (read-out).** On the order-10 rows D_frame runs from 0.0014 to 1 553 (median 0.97) in S, and from 0.00064 to
+  726 (median 2.36) in S̃.
+
+**What it shows (the rule's fixed meaning).**
+1. **B1734 is computed correctly and reproduces.**
+   - Main's comparison and calibration are reproduced by its own code and by a second code.
+   - Its post hoc cost of the restriction is reproduced.
+   - The census rows are reproduced by a second instrument, which shares with main only B1667's column and B1720's τ
+     and lines. C1 and C2 confirm the latter.
+2. **The thread rule's selection is what main says.** B1733's Smith rule and its line sets hold exactly, and the
+   apexes are the axes' tops. The record's convention is the row action, as B1733 states.
+3. **R7's failure is structural.** On order-5 lines down and leptons coincide, so the best six-row's D is
+   Georgi–Jarlskog's 9, which P-094's 10.58 excludes.
+4. **The breadth is smaller than the row count.**
+   - 74 of the 116 distinct points are counted twice, once per mirror thread. That is consistent with the frame's
+     mirror covariance (B1733 §3).
+   - So FINDINGS §3 A's "2 of the 380 rows within 2" is one point. The calibration is unaffected, since a duplicated
+     row changes no best.
+5. **The specificity depends on the order restriction.** Over all 20 seeds with every order counted, the seat's six
+   are at 1.15%, over THE_BAR's 1%, as main found on five seeds; the other menus are 3.8% to 12%. Under the sealed
+   restriction, the six fractions corrected over compare.py's six looks give 0.0095, just under the bar. Counting
+   the all-orders look as a seventh, 0.011, over it.
+6. **This seat's opinion, as fixed in the rule:** A1, A2, B1 and C1 hold, so B1734 is a replicated READING. It has two
+   hand-put ingredients and an order restriction informed by B1726, and it is carried by one (τ, line) point on an
+   order-5 line, whose D = 9 the data exclude. It can be banked as that and no more, with the looks beside it. It is
+   not a value match.
+
+**Weave or thread.** Neither: a check of main's census of one frame (B1656's coupling on the shared fibre) at the
+threads' own points. The census takes every B1720 class with order-5 or order-10 lines, with none hand-picked.
+
+**Status.** COMPUTED. One run. Every cell as predicted. A verification for main, not a new test against data; A4 is a
+new calibration of the same data. 0 of 19.
+
 ## W140. The hypercharge line inside E₆ (the owner's approval; W139's labelled reading computed): the moves jointly fix only the trivial line, so the weave's joint frame keeps m_e = m_d, and any split is a line one thread chooses. Twist arithmetic with a generic coupling reproduces main's B1728 law exactly. But inside E₆'s extended matrices only the five-ality lines (order 1 or 5) keep the tie: the 27's exotics undo main's order-2 and order-4 coincidences, so 13 of the 266 lines keep d = e in the joint frame against 22 in main's. Every cell as predicted (`the_hypercharge_line.py`; `W140_RULE.md`)
 
 **Why.**
@@ -11898,6 +11989,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W141 | COMPUTED (the rule first, after a read-only preparation, disclosed; one run; every cell as predicted); a check of main's census of one frame | the third opinion on main's B1734 (P-339): compare.py re-runs to the bit; a second calibration gives the same 120 fractions and B1735's labelled ones; the all-orders cost reproduces exactly, and over 20 seeds the seat's six are at 1.15% (16 of 20 seeds above 1%); 28 census points and the three named rows reproduce on this seat's own instrument to 10⁻⁹; B1733's line sets, the Smith rule and B1720's apexes hold exactly; D = 9 on every order-5 row; the 190 points are 116 distinct, 74 shared by mirror threads. B1734 is a replicated READING carried by one point whose D = 9 the data exclude, bankable as that and no more. 0 of 19 |
 | W140 | COMPUTED (the rule first; one run; every cell as predicted); C1 WEAVE, C2–C4 a census of thread objects | the hypercharge line inside E₆: the moves jointly fix only the trivial line (every N ≤ 12; orbits = exact orders), so the weave's joint frame keeps D ≡ 1 and any split is a thread's line; B1713's 266 lines are the threads' (each fixed by LᴺRᴺ). A generic twist-dependent coupling reproduces main's B1728 law exactly (d = e at N ∈ {1, 2, 4, 5}, u = d at {1, 2, 3, 6}, u = e at {1, 2, 7}, the 7 from the sign); in E₆'s extended matrices d = e only at N ∈ {1, 5}: the 27's exotics undo the order-2 and order-4 coincidences, so 13 of 266 lines keep the tie against 22 in main's frame. No data. 0 of 19 |
 | W139 | COMPUTED (the rule first; one run; every cell as predicted); WEAVE-type | the E₆ breaking arc (P-338): N = det Q + det L + det Q^c − tr(Q L Q^c) has a symmetry algebra of dimension exactly 78 (E₆; 24 at det L's coefficient 2); the 27 carries 16 ⊕ 10 ⊕ 1 with five neutral directions. For every symmetric λ and every colour- and charge-keeping vev of the three 27s, M_l = −(1 ⊗ Jᵀ)M_qᵀ(1 ⊗ J), so the six singular values agree (to 10⁻⁴⁰) and D ≡ 1 at hierarchical vevs too. No vev of the 27s splits leptons from down quarks; the joint frame needs an SU(5)-breaking source (351′, 351, the 78, or a flat hypercharge line). 0 of 19 |
 | W138 | COMPUTED (the rule first, after a read-only preparation that drafted the script, disclosed; one run; every cell as predicted); a check of main's census of one frame | the third opinion on main's B1726 (P-304): compare.py re-runs to the bit; a second calibration gives the same 120 fractions; 38 census points and both best rows reproduce on this seat's own instrument to 10⁻¹⁰; R7's mechanism holds (D = 9 exactly on order-5 lines); with every covariant reading and the factor free the six are not specific (3.4%). B1726 is a replicated two-ingredient READING, bankable as that and no more. 0 of 19 |

@@ -94,6 +94,9 @@ Each takes every thread the principle allows under one rule, and its claim is ab
     *(2026-10-23, later: main read B1734 out as PROVED as sealed for its question. The six within 1.614 on one thread
     pair's order-5 line, 0.16% of random as good, but there D = 9 exactly, excluded at 14σ, and the nine fail. Main
     grades it a READING; the seats' third opinion is P-339.)*
+    *(Later the same day: this seat's third opinion, W141, reproduces B1734 in full. The 190 points are 116
+    distinct ones, and the best six rests on one point, shared by L⁵R² and its mirror. With every order counted the
+    seat's six are at 1.15%. A replicated READING, not a value match.)*
 - **The magnitudes side is a clean negative.** The forced menu fits the hierarchy no better than chance (p = 0.139,
   W112).
 

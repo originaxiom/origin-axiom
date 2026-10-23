@@ -20500,3 +20500,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Main's newest notes were read.** They include a stricter precision bar on the earlier grid result, and main's
   own rebuild of this seat's family-group result.
   0 of 19.
+
+## 2026-10-23 — main's newest positive checked: it is computed right, and it rests on one point
+
+- **The check ran once, and every prediction held.** Main's comparison re-runs exactly. This seat's own code gives
+  the same numbers, and its own instrument recomputes the sample points to nine decimal places. The thread rule's
+  lines and points are exactly as main says.
+- **Two things for the record.**
+  - Many of the 190 test points are the same point counted twice, once for a thread and once for its mirror image.
+    The best fit sits on one such point, at a value the data rule out.
+  - When every kind of line is allowed, the match is no longer clearly better than chance.
+- **The verdict:** a replicated reading, not a value match.
+  0 of 19.

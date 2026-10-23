@@ -4285,3 +4285,37 @@ def test_w140_the_hypercharge_line():
             assert gap < 1e-20 if same else gap > 1e-6
     finally:
         mpmath.mp.dps = dps
+
+
+def test_w141_the_third_opinion_b1734():
+    """W141, the third opinion on main's B1734: every cell as recorded; the opinion; in process, the brute-force fixed
+    lines, the Smith invariant and the apex on the thread LR"""
+    import contextlib
+    import importlib.util
+    import io
+    import math
+    import sys
+    from fractions import Fraction
+    import mpmath
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "third_opinion_b1734.json").read_text(encoding="utf-8"))
+    assert all(d["cells"].values()) and len(d["cells"]) == 11
+    assert d["opinion"]["replicated READING, bankable as that and no more"]
+    assert d["A2"]["per_seed_equals_main"] and d["A2"]["cov_free_per_seed_equals_B1735"]
+    assert d["A34"]["A4_labelled"]["seat"]["mean_20_seeds"] > 0.01
+    assert d["C"]["C3_distinct_points"] == 116 and d["C"]["selected_points"] == 190
+    dps = mpmath.mp.dps
+    try:
+        sys.path.insert(0, str(here))
+        spec = importlib.util.spec_from_file_location("w141_lock", here / "the_third_opinion_b1734.py")
+        W = importlib.util.module_from_spec(spec)
+        with contextlib.redirect_stdout(io.StringIO()):
+            spec.loader.exec_module(W)
+        lr = (3, -1, 1, 0)                                   # B1720's matrix for LR
+        assert W.fixed_lines(lr)[0] == {(Fraction(1, 5), Fraction(1, 5)), (Fraction(2, 5), Fraction(2, 5))}
+        assert W.smith_d2(lr, 1) == 1 and W.smith_d2(lr, -1) == 5
+        a, b, c, dd = lr
+        assert abs((a - dd) / (2 * c) - 1.5) < 1e-15
+        assert abs(math.sqrt((a + dd) ** 2 - 4) / (2 * abs(c)) - 5 ** 0.5 / 2) < 1e-15
+    finally:
+        mpmath.mp.dps = dps

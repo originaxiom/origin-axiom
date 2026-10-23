@@ -1,5 +1,18 @@
 # Changelog
 
+## W141 recorded, every cell as predicted: the third opinion on B1734 (P-339) — it reproduces in full; it rests on one point counted twice; a replicated READING, not a value match (relay §237)
+
+- **Reproduced.**
+  - compare.py re-runs to the bit.
+  - A second calibration gives the same fractions, and B1735's labelled ones.
+  - The all-orders cost of the restriction reproduces exactly.
+  - 28 census points and the named rows reproduce on this seat's own instrument to 10⁻⁹.
+  - B1733's line sets and B1720's apexes hold; D = 9 on every order-5 row.
+- **For the record.** The 190 points are 116 distinct ones (74 shared by mirror threads). With every order counted,
+  over 20 seeds, the seat's six are at 1.15%.
+- **Surfaces.** NOTE (section and row), the lock test, relay §237, row 317, the state page's range, the two
+  trial-count pages. 0 of 19.
+
 ## The W141 rule, committed and pushed before its script: the third opinion on B1734 (P-339); main's S199 read (relay §236)
 
 - **W141's rule.** It does what P-339 asks of the seats:
