@@ -1,0 +1,105 @@
+{
+ "(a) DR, main's split reading, c = 3, tick grid": {
+  "six": 1.451893381556054,
+  "six at": {
+   "direction": "dR",
+   "tau": [
+    0.325,
+    3.025
+   ],
+   "line": "(2/5, 4/5)",
+   "hor": "L_max"
+  },
+  "nine": 23.561164633440626,
+  "nine at": {
+   "direction": "dR",
+   "tau": [
+    0.875,
+    2.525
+   ],
+   "line": "(2/5, 1/5)",
+   "hor": "L_max"
+  },
+  "rows": 4800,
+  "random as good, mean of seeds 1720-1739 (six, nine)": [
+   0.00025,
+   0.1286875
+  ],
+  "range (six)": [
+   0.0,
+   0.00075
+  ],
+  "range (nine)": [
+   0.1155,
+   0.137
+  ]
+ },
+ "(b) the census's rows on the four tick lines, menu, S, c = 3": {
+  "six": 1.5000079243120912,
+  "six at": {
+   "direction": "F_6",
+   "tau": [
+    0.4,
+    2.4
+   ],
+   "line": "(2/5, 4/5)",
+   "hor": "L_2"
+  },
+  "nine": 2.297364827979467,
+  "nine at": {
+   "direction": "F_6",
+   "tau": [
+    0.4,
+    2.3
+   ],
+   "line": "(2/5, 4/5)",
+   "hor": "L_2"
+  },
+  "rows": 1488,
+  "random as good, mean of seeds 1720-1739 (six, nine)": [
+   0.0005500000000000001,
+   0.0010375000000000002
+  ]
+ },
+ "(c1) sign pairs: largest difference over all fields (log10 ratios, |V|, J)": 3.469446951953614e-18,
+ "(c2) S1 lines, Re tau -> 1 - Re tau: largest difference (all but J), largest |J + J'|": [
+  0.0,
+  3.469446951953614e-18
+ ],
+ "(c3) S2's (2/5, 1/5) at tau against S1's (2/5, 4/5) at tau + 1: largest difference in log10 ratios (float32 side)": 2.3436321061609533e-07,
+ "(d) the menu, S, c = 1, tick grid": {
+  "six": 2.30721774274714,
+  "six at": {
+   "direction": "F_22",
+   "tau": [
+    0.475,
+    2.725
+   ],
+   "line": "(2/5, 4/5)",
+   "hor": "L_max"
+  },
+  "nine": 2.7162547175936176,
+  "nine at": {
+   "direction": "F_6",
+   "tau": [
+    0.475,
+    2.425
+   ],
+   "line": "(2/5, 4/5)",
+   "hor": "L_2"
+  },
+  "rows": 14400,
+  "random as good, mean of seeds 1720-1739 (six, nine)": [
+   0.026725,
+   0.010400000000000001
+  ],
+  "range (six)": [
+   0.02325,
+   0.03175
+  ],
+  "range (nine)": [
+   0.008,
+   0.01525
+  ]
+ }
+}
