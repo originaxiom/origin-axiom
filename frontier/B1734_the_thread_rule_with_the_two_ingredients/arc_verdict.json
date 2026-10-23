@@ -1,0 +1,27 @@
+{
+ "id": "B1734",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1733",
+  "B1726",
+  "B1720",
+  "B1728",
+  "B1695"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling at B1667's canonical end (both horocycles), DR, the covariant readings, the lepton factor and the reading from B1726's menus; tau and the line from the thread (its apex; its own lines of order 5 and 10 by B1733's Smith rule, both members of every order-5 pair)",
+  "object": "the six charged-fermion mass ratios at M_Z and the CKM moduli",
+  "reach": "class",
+  "hypotheses": "B1720's 121 thread classes (49 with order-5/10 lines; 190 points); B1695's and B1713's priors; seeds 1734-1753, 4000 targets each; the 1% bar"
+ },
+ "claim_one_line": "THE THREAD RULE WITH THE TWO INGREDIENTS (P-312; sealed afc60475c, sha256 fc095718; PROVED as sealed for its question -- R1-R4 hold, R5-R7 fail, C1 holds; outputs committed unread at d9f1b02dc): with tau and the line taken from the thread itself (its apex and its own order-5 and order-10 lines by B1733's Smith rule, both members of every order-5 pair counted; 49 threads, 380 rows, no continuous number scanned) and the two ingredients, the six charged-fermion ratios come within 1.614 (L^5 R^2 on its order-5 line (2/5, 3/5), up S~ with down and leptons S, c = 3) and are specific: 0.16% of random hierarchies as good under the seat's menu, 0.53% covariant, 0.69% factor free, every seed at or below 1%; the nine are not (6.5%), J vanishes at the best nine-row, and the best six-row's D is exactly 9 (an order-5 line), excluded by P-094 at 14 sigma. After the read (labelled): only L^5 R^2 and its mirror L^2 R^5 come within 2; the best on order-10 lines is 3.76; with every order of the threads' own lines counted (6 498 rows) the same row is at the bar under the seat's menu (1.13%) and not specific under the covariant one (3.7%); after Bonferroni over the four looks only the seat's six pass (0.0064). A READING carried by one thread pair on an excluded-D line; the seats' third opinion owed (P-339). 0 of 19.",
+ "weave_or_thread": "thread (each thread's own point and lines), over a census of threads"
+}

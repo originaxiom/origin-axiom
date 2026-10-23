@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1462** |
-| words of findings prose | **1,172,986** |
-| test lock files referenced | **877** |
-| arcs carrying an authored verdict | **1462** (100.0 %) |
+| research arcs with findings | **1463** |
+| words of findings prose | **1,174,022** |
+| test lock files referenced | **878** |
+| arcs carrying an authored verdict | **1463** (100.0 %) |
 | recorded closures | **837** (670 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 997 |
+| PROVED | 998 |
 | NEGATIVE | 361 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1733`** (902 words, 1 locks)  
-THE THREAD'S OWN LINES (P-312, P-336; no data): a thread A fixes a flat line of exact order N up to sign iff N divides the larger Smith invariant of A - I or A + I (coker(A -+ I) = Z/d1 + Z/d2; 0 mismatches in 6 989 brute-force checks over 241 classes and N <= 30); the trace rule N | t -+ 2 is its squarefree case (153 failures, all at non-squarefree N), exact on orders 5 and 10; when the 5-torsion is cyclic the fixed order-5 lines are exactly +-v, +-2v (99/99), and multiplication by 2 commutes with A, so no thread-built rule chooses (the deck involution of X_1(5) -> X_0(5)); the mapping torus's orientation-reversing symmetries (e det g = -1) swap v <-> 2v (28/28) and preserving ones fix the pair (188/188); the frame is mirror-covariant (1e-11), so a reversing symmetry relates (P, v) to (gP, 2v) -- glides (g^2 = A on the tick) have no fixed point, half-turns fix a point Q that reduces to tau = i, where v and 2v agree to 4e-14 -- while at B1720's apexes they differ by 4.7-8.7 in log. So the bit is real wherever the frame has a hierarchy: a thread fixes tau and its line up to one bit, which a sealed test must declare or count. 0 of 19.  
-`B1733_the_threads_own_lines/FINDINGS.md`
+**PROVED — `B1734`** (1036 words, 1 locks)  
+THE THREAD RULE WITH THE TWO INGREDIENTS (P-312; sealed afc60475c, sha256 fc095718; PROVED as sealed for its question -- R1-R4 hold, R5-R7 fail, C1 holds; outputs committed unread at d9f1b02dc): with tau and the line taken from the thread itself (its apex and its own order-5 and order-10 lines by B1733's Smith rule, both members of every order-5 pair counted; 49 threads, 380 rows, no continuous number scanned) and the two ingredients, the six charged-fermion ratios come within 1.614 (L^5 R^2 on its order-5 line (2/5, 3/5), up S~ with down and leptons S, c = 3) and are specific: 0.16% of random hierarchies as good under the seat's menu, 0.53% covariant, 0.69% factor free, every seed at or below 1%; the nine are not (6.5%), J vanishes at the best nine-row, and the best six-row's D is exactly 9 (an order-5 line), excluded by P-094 at 14 sigma. After the read (labelled): only L^5 R^2 and its mirror L^2 R^5 come within 2; the best on order-10 lines is 3.76; with every order of the threads' own lines counted (6 498 rows) the same row is at the bar under the seat's menu (1.13%) and not specific under the covariant one (3.7%); after Bonferroni over the four looks only the seat's six pass (0.0064). A READING carried by one thread pair on an excluded-D line; the seats' third opinion owed (P-339). 0 of 19.  
+`B1734_the_thread_rule_with_the_two_ingredients/FINDINGS.md`
 
 **NEGATIVE — `B1732`** (981 words, 1 locks)  
 THE TWO INGREDIENTS WITH THE HIGGS PF1-W FIXES (P-307; sealed 65e6abfce, sha256 edfa5675; NEGATIVE as sealed for its question -- R1 holds, R2-R5 fail, R6 holds at a non-specific row, R7 fails, C1 holds; outputs committed unread at 5f5db8108): with F_6, the one zero-free Higgs whose invariant has no zero (B1731), in place of DR on B1726's 23 940 points, the six charged-fermion ratios still come within 1.62 (1.30 under the covariant menu) but not specifically: 7.1% of random hierarchies fit as well under the seat's menu (B1726 with DR: 0.12%), 2.1% under the covariant menu (0.41%), 17.6% with the factor free (0.92%), every seed above 1%; the nine 35.8% (0.58%); |J| within a factor 3 at the best nine-row, which post hoc happens on 18% of all rows; D 9.00. F_6's good rows lie on order-8 lines. So in B1656's frame the two-ingredient specificity is DR's, and PF1-W read on both the Higgs and the determinant is incompatible with it; DR passes the determinant reading's Higgs factor (DR.DR = eta^6/4) and fails only the field reading (P-303). 0 of 19.  

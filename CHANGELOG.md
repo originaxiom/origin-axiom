@@ -1,5 +1,11 @@
 # Changelog
 
+## S198 THE THREAD RULE WITH THE TWO INGREDIENTS (B1734, sealed; PROVED as sealed for its question; P-312 DONE) (2026-10-23)
+
+- **B1734 (sealed afc60475c; outputs d9f1b02dc, committed unread, read once).** τ and the line taken from the thread itself (its apex; its own order-5 and order-10 lines by B1733, both members of every pair counted; 49 threads, 380 rows; no continuous number scanned), with the two ingredients and B1726's menus: R1–R4 hold — the six within 1.614 and specific (0.16% seat, 0.53% covariant, 0.69% factor free, every seed ≤ 1%) — R5–R7 fail (the nine 6.5%; J vanishes at the best nine-row; the best six-row's D = 9 exactly, excluded by P-094 at 14σ), C1 holds. **After the read (labelled):** only L⁵R² and its mirror L²R⁵ come within 2 (both on order-5 lines); the best on order-10 lines is 3.76; with every order of the threads' own lines counted (6 498 rows) the same row is at the bar under the seat's menu (1.13%) and not specific under the covariant one (3.7%), so the restriction to orders 5 and 10, informed by B1726, carries the covariant cell; after Bonferroni only the seat's six pass (0.0064). A READING carried by one thread pair on an excluded-D line. P-339 (the seats' third opinion), P-340 (the D tension). FLOOR 340.
+- **Landing suite.** full suite 7 629 passed, 2 failed, 68 skipped (24:48, -n 8) on 33f38081f; both failures are B805's attachment locks (P-239).
+- 0 of 19.
+
 ## S197 THE THREAD'S OWN LINES (B1733, PROVED; P-312's rule, P-336) (2026-10-23)
 
 - **B1733 (PROVED; data-free), phase 2's first arc.** A thread fixes a flat line of exact order N up to sign iff N divides the larger Smith invariant of A ∓ I (0 mismatches in 6 989 checks); the trace rule is its squarefree case (exact on orders 5 and 10). At order 5 the fixed lines are one pair {v, 2v} (99/99). The mapping torus's orientation-reversing symmetries swap the pair (28/28), preserving ones fix it (188/188); the frame is mirror-covariant (1e-11). But the bit is real: glides have no fixed point, and only a half-turn's fixed point (τ = i, where the hierarchy degenerates) identifies v with 2v (4e-14); at B1720's apexes they differ by 4.7–8.7 in log. This corrects S196's "collapse toward which thread": a thread fixes τ and its line up to one real bit, which P-312's sealed test must declare or count (next).

@@ -17805,3 +17805,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - **B1733 (PROVED).** The Smith rule for the lines a thread fixes; the order-5 pair; the bit between v and 2v is tied to the 3-manifold's orientation yet real (identified only at τ = i). P-336 DONE; P-312's sealed test next.
 - **Landing suite.** full suite 7 625 passed, 2 failed, 68 skipped (22:54, -n 8) on 1f45c3cca; both failures are B805's attachment locks (P-239).
+
+## 2026-10-23 — S198 THE THREAD RULE WITH THE TWO INGREDIENTS (B1734)
+
+- **B1734 (sealed; PROVED as sealed for its question; P-312 DONE).** With τ and the line from the thread, the six are specific (0.16% seat); after the read the result is carried by one thread pair (L⁵R² and its mirror) on an order-5 line with D = 9 (excluded), and at the bar once every line order is counted (1.13%). P-339, P-340.
+- **Landing suite.** full suite 7 629 passed, 2 failed, 68 skipped (24:48, -n 8) on 33f38081f; both failures are B805's attachment locks (P-239).

@@ -13571,6 +13571,17 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1734": {
+   "slug": "the thread rule with the two ingredients",
+   "motifs": [
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B173": {
    "slug": "gaplabel rank reduction",
    "motifs": [
