@@ -63,8 +63,11 @@ derived or the contact stays a fit.
    only under Γ⁰(2); no verdict turns on it). I0: B1725, the web seat's two-ingredient result verified and recalibrated
    (the six specific under the seat's reading rules, at the bar under every covariant reading). B1726, main's sealed
    replication on fresh rows: the six specific under every covariant menu (0.41%), the nine under the seat's (0.58%).
-   I3: B1728 (B1703's law derived). Next: I1 (P-294, the factor) and I2 (P-295, the reading), first; then C5 (near ω)
-   with the covariant readings only.
+   I3: B1728 (B1703's law derived). The Higgs (H-cov): under PF1-W every zero-free Higgs is a theta power (B1730) and
+   only F₆ has a zero-free invariant (B1731), but F₆ does not carry the two-ingredient specificity (B1732, sealed
+   NEGATIVE): the fit is ∂R's, which the determinant reading of PF1-W keeps (P-303, P-308). Next: I1 (P-294, the
+   factor) and I2 (P-295, the reading), first; the re-evaluated leads' probes (P-309, P-311, P-312, P-313); then C5
+   (near ω) with the covariant readings only.
 2. C8: verify W123 on main, then the GENESIS sentence.
 3. C2, on C1's result.
 4. C10: the index on the Milne cone, the read-out's missing physical spacetime.

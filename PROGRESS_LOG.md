@@ -17787,3 +17787,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - **B1731 (PROVED).** Of the zero-free Higgs lines only F₆ = η⁻³(θ₂⁶, θ₄⁶, iθ₃⁶) has a zero-free invariant (det S = −48η⁶); the least-datum Higgs 2η⁴R is null and makes det Y ≡ 0 in B1656's frame. PF1-W in both readings selects F₆ (necessary condition). P-306 DONE; P-307 (the sealed test with F₆) next.
 - **Landing suite.** full suite 7 608 passed, 2 failed, 68 skipped (24:30, -n 8) on 1a593782c; both failures are B805's attachment locks (P-239).
+
+## 2026-10-23 — S195 B1732 (NEGATIVE AS SEALED), R68-8, AND THE PARKED LEADS RE-EVALUATED
+
+- **B1732 (NEGATIVE as sealed; P-307 DONE).** With F₆ (both readings of PF1-W) in place of ∂R the six fit (1.62) but not specifically (7.1% against ∂R's 0.12%); the specificity is ∂R's. P-308: ∂R·∂R = η⁶/4, so the determinant reading alone keeps ∂R (main's recommendation on P-303).
+- **R68-8 done.** The pre-push gates run on each pushed commit in a clean worktree.
+- **P-309–P-313.** The owner's ruling: every lead re-evaluated, none retired; the first six done (readers' queue), the rest next.
+- **Landing suite.** full suite 7 615 passed, 2 failed, 68 skipped (30:13, -n 8) on 95e86501d; both failures are B805's attachment locks (P-239).

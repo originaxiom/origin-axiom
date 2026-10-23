@@ -292,11 +292,15 @@ tracked):
 ```sh
 cat > .git/hooks/pre-push <<'HOOK'
 #!/bin/sh
-echo "[pre-push] running governance gates..."
-python3 "$(git rev-parse --show-toplevel)/scripts/gates/gates.py"
+echo "[pre-push] running governance gates on the pushed commit(s)..."
+python3 "$(git rev-parse --show-toplevel)/scripts/gates/prepush.py"
 HOOK
 chmod +x .git/hooks/pre-push
 ```
+
+The hook passes git's pre-push input to `scripts/gates/prepush.py`, which gates each pushed commit in a clean detached
+worktree at that commit, so uncommitted work in the tree can neither block nor pass a push (R68-8, Review 68;
+`tests/test_prepush_clean_tree.py`).
 
 The hook blocks a push while any gate fails and prints the decadal-review counter on every
 push. The counter (`python3 scripts/gates/gates.py review-due`) reads the LAST

@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1460** |
-| words of findings prose | **1,170,917** |
-| test lock files referenced | **875** |
-| arcs carrying an authored verdict | **1460** (100.0 %) |
-| recorded closures | **836** (669 classified, 167 routed-only) |
+| research arcs with findings | **1461** |
+| words of findings prose | **1,171,974** |
+| test lock files referenced | **876** |
+| arcs carrying an authored verdict | **1461** (100.0 %) |
+| recorded closures | **837** (670 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 996 |
-| NEGATIVE | 360 |
+| NEGATIVE | 361 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 106 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 107 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1731`** (978 words, 1 locks)  
+**PROVED — `B1731`** (1164 words, 1 locks)  
 THE HIGGS WHOSE INVARIANT HAS NO ZERO (P-306, P-303; no data): for the zero-free Higgs lines F_a = eta^(3-a)(eps th2^a, eps th4^a, i th3^a), a = 2 mod 4 (B1730), the quadratic invariant det S = a.a, which is the Higgs's factor of B1659's det Y(S, M) = 4 det S det M tr(eps S M^T) in B1656's frame, equals eta^(6-2a) th3^(2a) p_n(lambda) with p_n = lambda^n + (1 - lambda)^n - 1, n = a/2, lambda = th2^4/th3^4; since lambda maps the upper half plane onto C minus {0, 1}, it is zero-free iff p_n has no root off {0, 1}: p_1 = 0 (F_2 = 2 eta^4 R is null, Jacobi), p_3 = 3 lambda(lambda - 1) (det S(F_6) = -48 eta^6, zero-free), and every other n has roots off {0, 1} (degree counts; checked exactly for |n| <= 15, and at tau = e^{i pi/3} for n = +-1 mod 6). So exactly one zero-free Higgs, F_6 = eta^-3(th2^6, th4^6, i th3^6) at one unit with the sign character as twist, has a zero-free invariant; the least-datum Higgs F_2 makes det Y identically zero in B1656's frame (the first generation massless in 48 of 48 seeded sectors), while F_6 keeps it massive except on B1716's order-4 and order-12 lines. Read both ways, PF1-W fixes the Higgs (a necessary condition; the owner's call, P-303). 0 of 19.  
 `B1731_the_higgs_whose_invariant_has_no_zero/FINDINGS.md`
 
-**NEGATIVE — `B1729`** (699 words, 1 locks)  
-THE COARSER LINE (P-305, for P-294; data-free, criteria written before the read): the lepton charges are 3 x (-1, 2), so the lepton sector at w is the (-1, 2) sector at 3w and on a line of order N with 3 | N the leptons see order N/3 while the quarks see N (the Z3 of the Z6 centre acts trivially on leptons); but on every line of order 5, 10 and 13-30 at two tau of B1726's band (7 344 points, none masked; order 5 gives R2 = R1 = 1 to 8.6e-11) the frame's own R2 = (m2/m3)_e/(m2/m3)_d moves by only +0.15 in median log on 3 | N lines (not systematically; Georgi-Jarlskog needs 1.10) and R1 not at all, while at every order the ratios spread over 2-4 units of log. The coarser line does not supply the factor. 0 of 19.  
-`B1729_the_coarser_line/FINDINGS.md`
+**NEGATIVE — `B1732`** (871 words, 1 locks)  
+THE TWO INGREDIENTS WITH THE HIGGS PF1-W FIXES (P-307; sealed 65e6abfce, sha256 edfa5675; NEGATIVE as sealed for its question -- R1 holds, R2-R5 fail, R6 holds at a non-specific row, R7 fails, C1 holds; outputs committed unread at 5f5db8108): with F_6, the one zero-free Higgs whose invariant has no zero (B1731), in place of DR on B1726's 23 940 points, the six charged-fermion ratios still come within 1.62 (1.30 under the covariant menu) but not specifically: 7.1% of random hierarchies fit as well under the seat's menu (B1726 with DR: 0.12%), 2.1% under the covariant menu (0.41%), 17.6% with the factor free (0.92%), every seed above 1%; the nine 35.8% (0.58%); |J| within a factor 3 at the best nine-row, which post hoc happens on 18% of all rows; D 9.00. F_6's good rows lie on order-8 lines. So in B1656's frame the two-ingredient specificity is DR's, and PF1-W read on both the Higgs and the determinant is incompatible with it; DR passes the determinant reading's Higgs factor (DR.DR = eta^6/4) and fails only the field reading (P-303). 0 of 19.  
+`B1732_the_two_ingredients_with_the_fixed_higgs/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

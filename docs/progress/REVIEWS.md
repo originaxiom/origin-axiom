@@ -7120,11 +7120,11 @@ disagrees with its output.
 ### Action items (Review 68)
 - [ ] R68-1: the review tools resolve repository-relative paths in a seal's ARTIFACT_HASHES (the dependencies section), with a failing-path test (owner: cc; a separate arc)
 - [ ] R68-2: harvest_debt.py stops reading Codeberg as a seat mirror (disabled since R66-1), as B1709 did for the review tools (owner: cc)
-- [ ] R68-3: L229 and L233–L237, the slope frame's research leads: keep or retire (owner: the owner; cc to state each lead's cost)
+- [x] R68-3: L229 and L233–L237, the slope frame's research leads: keep or retire (owner: the owner; cc to state each lead's cost) — **resolved 2026-10-23 by the owner: keep all six and re-evaluate each in the light of the progress (P-309); the readers' verdicts and the probe queue in audit/drafts/leads_reeval/; the same for every parked lead (P-313)**
 - [ ] R68-4: L230 (c), (d), (f); L231's rows; L232's five reads (owner: cc; due at Review 70)
 - [ ] R68-5: P-238, the verifications by consequence (owner: cc; carried from R67-2, R66-6; due at Review 69)
 - [ ] R68-6: verify W131–W133 (P-300), W134–W135 (P-302) and W130 (P-298) on main; P-301 (B893's exactness); harvest the seats' third opinion on B1726 (P-304) (owner: cc)
-- [ ] R68-8: the pre-push hook runs the gates on the commit being pushed (a clean worktree at that commit), not on the working tree, with a failing-path test (owner: cc)
+- [x] R68-8: the pre-push hook runs the gates on the commit being pushed (a clean worktree at that commit), not on the working tree, with a failing-path test (owner: cc) — **done 2026-10-23: `scripts/gates/prepush.py` gates each pushed commit in a detached worktree at that commit; the local hook calls it and REPRODUCIBILITY.md documents it; `tests/test_prepush_clean_tree.py` (a failing gate fails the push; the worktree sits at the pushed commit, unmodified, and is removed; deletions skipped)**
 - [x] R68-7: filed at this review: L228 resolved (C25's quantifier, dated notes on C25 and the law map's row; P-301); dated notes on B1718 and B1724; E91; four terms in TERMINOLOGY; the RELAY_LEDGER rows for the web seat's Higgs-arc relay and its W133 check
 
 **anchor-commit: `f1b7eb522`**

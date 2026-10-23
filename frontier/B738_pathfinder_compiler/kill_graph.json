@@ -11877,5 +11877,27 @@
    "reach": "class"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1732",
+  "claim_killed": "That the Higgs fixed by PF1-W read on both the field and the determinant (F_6 = eta^-3 (th2^6, th4^6, i th3^6), B1731) carries the two-ingredient specificity of the six charged-fermion ratios in B1656's frame.",
+  "kill_form": "Sealed (B1732; 65e6abfce): on B1726's 23 940 points with F_6 in place of DR, the six fit within 1.62 but 7.1% of random hierarchies fit as well under the seat's menu (DR: 0.12%), 2.1% under the covariant menu (DR: 0.41%), every seed above 1%; the nine 35.8%.",
+  "hatch": "PF1-W read on the determinant alone, which keeps DR (DR.DR = eta^6/4, P-308); another zero-free Higgs with more end data; a derived reading rule or lepton factor that changes which Higgs the fit needs",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-23), for tests/test_b833_negative_routing.py",
+  "note": "R6 (|J| within a factor 3) held at a non-specific row; post hoc it holds on 18% of all rows. F_6's good rows lie on order-8 lines, DR's on order 5 and 10.",
+  "faces_consulted": [
+   "B1726",
+   "B1730",
+   "B1731"
+  ],
+  "fact_computed": "47 880 rows with the F_6 Higgs and their calibration against 4000 random hierarchies and mixings over 20 seeds, by the sealed instruments (5f5db8108)",
+  "scope": {
+   "frame": "B1656's four-channel coupling at B1667's canonical end, the Higgs F_6",
+   "hypotheses": "B1726's grid and menus",
+   "object": "the six charged-fermion ratios and the CKM moduli",
+   "reach": "class"
+  },
+  "weave_or_thread": "weave"
  }
 ]

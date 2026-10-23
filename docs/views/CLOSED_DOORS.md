@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**836 recorded closures — of which 669 are CLASSIFIED by mechanism and
+**837 recorded closures — of which 670 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -119,6 +119,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed (B1722; a9a5d46f9): the measure-weighted mean log-misfit of a thread drawn from each measure is matched by 25.4% (uniform) and 21.0% (action) of random hierarchies; both measures concentrate on short threads whose apexes sit too low; the best class L^5RLR^2 carries 0.27% and 0.65% of them.` | 1 |  |
 | `Sealed (B1723; 23f8a7621): over 49 points of the valley (the arcs from i to +-1/2 + (sqrt5/2) i) and 265 lines of order 2-12, the best row puts the six ratios only within a factor 147 (26.6% of random hierarchies as good; chi2 3891); every ratio too large, the median first-to-third ratio 10^-1.1 against 10^-3 to 10^-5: the valley (Im tau <= 1.118) sits too low for the frame's hierarchy.` | 1 |  |
 | `Data-free census (B1729), criteria written before the read: on every line of order 5, 10 and 13-30 at two tau of B1726's band (7 344 points), the frame's own R2 = (m2/m3)_e/(m2/m3)_d moves by only +0.15 in median log on 3 | N lines (not systematically; 1.10 needed) and R1 not at all, while at every order the ratios spread over 2-4 units of log.` | 1 |  |
+| `Sealed (B1732; 65e6abfce): on B1726's 23 940 points with F_6 in place of DR, the six fit within 1.62 but 7.1% of random hierarchies fit as well under the seat's menu (DR: 0.12%), 2.1% under the covariant menu (DR: 0.41%), every seed above 1%; the nine 35.8%.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

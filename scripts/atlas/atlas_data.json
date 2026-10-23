@@ -13532,9 +13532,24 @@
    ],
    "refs": [],
    "obstacle": "particle_dict",
-   "obstacle_conf": 6,
+   "obstacle_conf": 7,
    "status": "banked",
    "domain": "physics"
+  },
+  "B1732": {
+   "slug": "the two ingredients with the fixed higgs",
+   "motifs": [
+    "figure_eight"
+   ],
+   "refs": [
+    "L229",
+    "L233",
+    "L237"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
   },
   "B173": {
    "slug": "gaplabel rank reduction",

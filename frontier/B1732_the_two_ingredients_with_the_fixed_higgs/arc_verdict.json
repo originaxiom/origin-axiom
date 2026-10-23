@@ -1,0 +1,27 @@
+{
+ "id": "B1732",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1726",
+  "B1731",
+  "B1730",
+  "B1724",
+  "B1695"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling at B1667's canonical end (both horocycles), the Higgs direction F_6 = eta^-3 (th2^6, th4^6, i th3^6) (B1731) in place of DR, the covariant readings, the lepton factor and the reading from B1726's menus",
+  "object": "the six charged-fermion mass ratios at M_Z and the CKM moduli, on B1726's 23 940 points",
+  "reach": "class",
+  "hypotheses": "B1695's and B1713's priors; menus seat, cov and free; seeds 1732-1751, 4000 targets each; the 1% bar"
+ },
+ "claim_one_line": "THE TWO INGREDIENTS WITH THE HIGGS PF1-W FIXES (P-307; sealed 65e6abfce, sha256 edfa5675; NEGATIVE as sealed for its question -- R1 holds, R2-R5 fail, R6 holds at a non-specific row, R7 fails, C1 holds; outputs committed unread at 5f5db8108): with F_6, the one zero-free Higgs whose invariant has no zero (B1731), in place of DR on B1726's 23 940 points, the six charged-fermion ratios still come within 1.62 (1.30 under the covariant menu) but not specifically: 7.1% of random hierarchies fit as well under the seat's menu (B1726 with DR: 0.12%), 2.1% under the covariant menu (0.41%), 17.6% with the factor free (0.92%), every seed above 1%; the nine 35.8% (0.58%); |J| within a factor 3 at the best nine-row, which post hoc happens on 18% of all rows; D 9.00. F_6's good rows lie on order-8 lines. So in B1656's frame the two-ingredient specificity is DR's, and PF1-W read on both the Higgs and the determinant is incompatible with it; DR passes the determinant reading's Higgs factor (DR.DR = eta^6/4) and fails only the field reading (P-303). 0 of 19.",
+ "weave_or_thread": "weave (a census over lines and tau)"
+}

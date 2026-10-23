@@ -78,3 +78,18 @@ the Higgs's.
 
 - `verification/the_invariant.py` → `the_invariant.json`, `the_invariant_run.txt`.
 - The lock: `tests/test_b1731_the_higgs_whose_invariant_has_no_zero.py`.
+
+## Addendum 2026-10-23 (P-308, B1732): ∂R's invariant, and the four cases
+
+- **∂R·∂R = η⁶/4 exactly.** Computed as an exact q-series to x¹⁵⁰ with B1691's module; B1691 had recorded the order x²
+  and the leading coefficient ¼. So ∂R's quadratic invariant, its factor of det Y in B1656's frame, has no zero. ∂R and
+  F₆ (−48η⁶) both have invariant a multiple of η⁶.
+- **The four cases**, against the two readings of PF1-W (P-303):
+  - ∂R passes the determinant reading's Higgs factor and fails the field reading (B1730).
+  - F₂ = 2η⁴R fails the determinant reading (its invariant is null) and passes the field reading.
+  - F₆ passes both.
+  - Every other F_a fails the determinant reading and passes the field reading.
+- **B1732 (sealed) tested F₆ in the two-ingredient frame.** The six still fit (1.62) but not specifically (7.1% of
+  random hierarchies as good, against ∂R's 0.12%). So the reading that keeps the frame's one specific contact with the
+  masses is the determinant reading alone, which keeps ∂R. §4's "read both ways" stands as mathematics; as a selection
+  for this frame it fails B1732's test.
