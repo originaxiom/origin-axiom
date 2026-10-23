@@ -1,0 +1,35 @@
+{
+ "id": "B1744",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1656",
+  "B1736",
+  "B1728",
+  "B1658",
+  "B1692",
+  "B1701",
+  "B1645",
+  "B1731",
+  "B1743",
+  "B1742"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W63",
+  "sm:W91"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's point coupling with B1736's closed form; the Higgs taken as the frame's residue quaternion at its own hypercharge twist z = +-3w (6Y_H = 3), T0(z) = residues(twist_of(z), (0, 0), tau), its triplet with the scalar channel dropped or kept",
+  "object": "whether the Higgs's own twist forces the reading (S or S~ per sector) or separates the up sector's Higgs from the down quarks' and leptons'; its direction at the band; as a Higgs, the nine on B1742's grid (post hoc); the web seat's determinant and Lemma A (symbolic)",
+  "reach": "class",
+  "hypotheses": "the point coupling (no twisted Higgs section is on record, B1692); the triplet, not its Serre derivative; B1742's grid for the data look"
+ },
+ "claim_one_line": "THE HIGGS'S OWN TWIST (P-324; NEGATIVE for its question, the data-free parts PROVED): in B1656's frame the residue quaternion at the Higgs's hypercharge twist is even, T0(3w) = T0(-3w) to 3.6e-15, so the up sector's Higgs and the down quarks' and leptons' coincide (H_u = H_d) and the reading (h or its conjugate) is not forced; on the alpha = 2/5 lines the Higgs's twist is the down quarks' 2w (the same direction to 3e-16). Its triplet is the theta-square triplet at the twist; the quaternion is null (R1^2 + R.R = 0), so the triplet's invariant is |R1|^2/|R|^2, 0.064-0.15 at the band (the nine's target about 0.017), with an e1 admixture 0.27-0.42 (the target's size). As a Higgs (post hoc, B1742's grid, six variants): chi2_nine 493 at best with the triplet; with the scalar channel kept the Higgs is null in four dimensions and det Y = 0. Verified symbolically on main's closed form: det Y = (h0^2 + h.h)(w^2 + u.u)(h0 w + u.h) (the web seat's (h.h)(u.h)(u.u + w^2) at h0 = 0) and Y h = Y^T h = (h.h) u. 0 of 19.",
+ "weave_or_thread": "weave (a census over lines and tau)"
+}

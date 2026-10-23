@@ -3226,6 +3226,8 @@ six roots of u⁶ − 8u⁴ + 12u³ + 4. Open, in the order approved by the owne
 
 ## L238 — B675'S CERTIFICATION DOES NOT RUN ON THIS BENCH (registered 2026-10-02, B1452)
 
+**ESCALATED(2026-10-24: the bench repair (find the step needing the ordering, or pin python-flint) in the decadal review's intake, P-359).**
+
 `frontier/B675_hcusp_sweep/bronze_certification.py` stops with `TypeError: nmods cannot be ordered` inside the
 polynomial library's factor sort, on every hash seed, with python-flint 0.9.0. It printed its quartic and octic
 checks before stopping. The arc's banked receipt is from an earlier environment. Not a hash-order effect (B1452
@@ -3233,6 +3235,8 @@ settled its two order-sensitive sites by reading: both build a mapping). **Owed:
 ordering, make the script run on the current libraries or pin the versions it needs, and re-run the certification.
 
 ## L239 — THE SM SEAT'S "FOR MAIN" ITEMS NOT YET SETTLED ON MAIN (registered 2026-10-02, B1453)
+
+**ESCALATED(2026-10-24: items (a)–(g) in the decadal review's intake, P-359, with the Foundation Lock's stages).**
 
 The harvest of the SM seat's 47 arcs (B1453) applied three of its "for main" items (the Sol verdict, B1418's two
 rows, B1186's family-is-not-the-class note) and found one already applied (B1427's scope, Addendum 1). These remain;
@@ -3265,6 +3269,8 @@ puncture as CONDITIONAL, and a sweep of main's verdict lines found no arc derivi
 
 ## L240 — THE FOUNDATION LOCK'S REMAINDER (registered 2026-10-02, B1454)
 
+**ESCALATED(2026-10-24: the remainder (a), (c)–(i) in the decadal review's intake, P-359).**
+
 GENESIS v1.1 is on main, verified and gated. What the lock still owes (`docs/THE_FOUNDATION_LOCK_PLAN.md`):
 
 - **(a) The scope tags of the arcs before B1454**, the NEGATIVE ones first (about 400; 168 of them in B1–B500, already
@@ -3285,6 +3291,8 @@ GENESIS v1.1 is on main, verified and gated. What the lock still owes (`docs/THE
 - **(i) FK1**, the principle's single wording, awaits the owner.
 
 ## L241 — THE MEASURER QUESTION (registered 2026-10-02, B1455; standing, at the owner's word)
+
+**ESCALATED(2026-10-24: standing at the owner's word and never closed by a negative; reported at every landing touching selection, handedness, orientation, marking or the observer rows; its item (b), the Higgs's own twist, answered by B1744 (P-324 DONE)).**
 
 The owner, 2026-10-02: the existence the programme derives is self-aware and makes choices; the derivation keeps
 dropping the measurer that tracks the rule a → ab, b → a through everything that emerges; are the choices binary, are
@@ -3359,6 +3367,8 @@ acting nature among them) as sources of *questions*, each turned into a computat
 
 ## L242 — DO THE THREE LINES ACCOUNT FOR THE ZEROS ALREADY ON THE RECORD (registered 2026-10-02, B1455)
 
+**ESCALATED(2026-10-24: (a)–(c) in the decadal review's intake, P-359).**
+
 B1455's criterion: a module with V* ≅ σ*V for a symmetry σ of the manifold has class index zero. **Owed:** (a) B1451's
 188 doubly parabolic points and B1447's sixteen non-self-dual modules of index zero — is each fixed by some Θ_σ? If
 so the vanishing statement of R58-6 is proved on those populations rather than observed; if some are not, they are
@@ -3402,6 +3412,8 @@ hypotheses. (d) The handoff's "12 up to Aut" for m202.
   branch without computing c.
 
 ## L243 — FROM THE SEATS, NOT YET CHECKED ON MAIN (registered 2026-10-02, B1456, B1457)
+
+**ESCALATED(2026-10-24: its open items in the decadal review's intake, P-359).**
 
 - **(a) The audit lane's two corrections of main's early arcs** (its act-and-register audit): B37's "never reads" rests
   on a detector of a symbol's presence, which an inserted factor r − I at r = I flips with the dynamics unchanged;

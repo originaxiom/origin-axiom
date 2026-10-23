@@ -1,0 +1,10 @@
+points 0
+points 320
+points 640
+points 960
+R1 x +0, read S : min chi2_nine   1653.81 at line 5, 0.8125 + 3.50i, L_2; min chi2_six  1211.36; nine < 21.67: 0, six < 16.75: 0
+R1 x +0, read St: min chi2_nine    492.88 at line 5, 0.4375 + 3.50i, L_max; min chi2_six   163.94; nine < 21.67: 0, six < 16.75: 0
+R1 x +1, read S : min chi2_nine 349400.69 at line 1, 0.4375 + 2.80i, L_2; min chi2_six 163426.75; nine < 21.67: 0, six < 16.75: 0
+R1 x +1, read St: min chi2_nine 324413.00 at line 1, 0.0625 + 3.30i, L_2; min chi2_six 157163.76; nine < 21.67: 0, six < 16.75: 0
+R1 x -1, read S : min chi2_nine 322313.74 at line 4, 0.1875 + 3.20i, L_2; min chi2_six 155903.87; nine < 21.67: 0, six < 16.75: 0
+R1 x -1, read St: min chi2_nine 313570.50 at line 3, 0.5625 + 3.50i, L_2; min chi2_six 157526.93; nine < 21.67: 0, six < 16.75: 0

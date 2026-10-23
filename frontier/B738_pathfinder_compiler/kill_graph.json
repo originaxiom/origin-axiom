@@ -11947,5 +11947,30 @@
    "reach": "class"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1744",
+  "claim_killed": "That giving the Higgs its own hypercharge twist on the line (L241 (b), P-324) forces the reading (h or its conjugate per sector) or separates the up sector's Higgs from the down quarks' and leptons' in B1656's point coupling.",
+  "kill_form": "Data-free (B1744): the frame's residue quaternion at the Higgs's twist is even, T0(3w) = T0(-3w) to 3.6e-15, so H_u = H_d and no conjugation arises; on the alpha = 2/5 lines the Higgs's twist is the down quarks' 2w. As a Higgs (post hoc): chi2_nine 493 at best.",
+  "hatch": "a frame with a genuinely twisted Higgs section (a triple overlap of three twisted sections, magnetised-torus style, not on record); the Serre derivative of the twisted triplet (its weight at non-zero twist is not on record)",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-24), for tests/test_b833_negative_routing.py",
+  "note": "Answers the web seat's THE_NEXT_ATTACK step 3 (a). The twisted triplet's e1 admixture is the nine's target's size (0.27-0.42), its invariant 4-9 times too large.",
+  "faces_consulted": [],
+  "evidence_consulted": [
+   "B1728",
+   "B1658",
+   "B1692",
+   "B1736",
+   "B1743"
+  ],
+  "fact_computed": "the evenness and the alpha = 2/5 reduction on the residues; the triplet's direction at the band; six Higgs variants on B1742's 1 280 points; the four-dimensional determinant (sympy)",
+  "scope": {
+   "frame": "B1656's point coupling, the Higgs as the residue quaternion at its twist",
+   "hypotheses": "no twisted Higgs section on record (B1692)",
+   "object": "the reading and the Higgs pair; the nine (post hoc)",
+   "reach": "class"
+  },
+  "weave_or_thread": "weave"
  }
 ]

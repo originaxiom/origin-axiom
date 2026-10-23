@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**839 recorded closures — of which 672 are CLASSIFIED by mechanism and
+**840 recorded closures — of which 673 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -122,6 +122,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed (B1732; 65e6abfce): on B1726's 23 940 points with F_6 in place of DR, the six fit within 1.62 but 7.1% of random hierarchies fit as well under the seat's menu (DR: 0.12%), 2.1% under the covariant menu (DR: 0.41%), every seed above 1%; the nine 35.8%.` | 1 |  |
 | `Sealed (B1740; bf0a9a330): on B1726's 23 940 points with F_-2 in place of DR, the light generation is aligned (median |V_ud| 0.996) but the best six is off by 131.7 (m_c/m_t about 130 times measured), chi2_six 3 688, 40.6% of random hierarchies as good.` | 1 |  |
 | `Post hoc exploration (B1743, labelled): on B1742's 1 280 points, both horocycles, no pencil row has chi2_nine below 21.67; the best is 41.9 (F6|F-6 at (2/5, 3/10), Im tau 3.3, L_max), against the free direction's 17.3.` | 1 |  |
+| `Data-free (B1744): the frame's residue quaternion at the Higgs's twist is even, T0(3w) = T0(-3w) to 3.6e-15, so H_u = H_d and no conjugation arises; on the alpha = 2/5 lines the Higgs's twist is the down quarks' 2w. As a Higgs (post hoc): chi2_nine 493 at best.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

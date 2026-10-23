@@ -17850,3 +17850,9 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - Post hoc (labelled; audit room): the target's invariant 0.017–0.020 on every good row of a dense τ grid; its e₁ admixture a fixed multiple of θ₂/θ₃ to 4% (a description, still four reals); an exactly null Higgs gives the first generation and V_us zero, so the off-cone invariant carries them; the record's forms at τ/2 or 2τ reach 964.7 at best. P-357 annotated.
 - **Landing suite.** full suite 7 689 passed, 2 failed, 68 skipped (24:22, -n 8) on fcf9affe0: the two failures are B805's attachment locks (P-239, standing).
+
+## 2026-10-24 — S205 THE HIGGS'S OWN TWIST (B1744)
+
+- **B1744 (NEGATIVE for its question).** P-324 DONE: the Higgs at its own hypercharge twist is even, so H_u = H_d and the reading is not forced; on the α = 2/5 lines its twist is the down quarks'; as a Higgs it fails the nine (≥ 493). The four-dimensional determinant det Y = (h₀² + h·h)(w² + u·u)(h₀w + u·h) verified. The web seat's THE_NEXT_ATTACK answered (rows 1350–1351; P-358). FLOOR 358.
+- Aged relays and leads escalated by name to the decadal review (P-359); the stale-arc ratchet lowered to 77. FLOOR 359.
+- **Landing suite.** full suite 7 692 passed, 3 failed, 68 skipped (22:36, -n 8) on 045f3b113: two failures are B805's attachment locks (P-239, standing); the third, B1306's slice-D lock, found the web seat's THE_NEXT_ATTACK relay without a relay-ledger row and harvest rows 1329–1351 (main's, S200–S205) written in five columns, which the harvest checker skips (it reads eight) — the relay row added and the 23 rows rewritten in the ledger's eight columns (text only, after the suite); B1306's lock, the gates and the affected tests rerun green before the push.

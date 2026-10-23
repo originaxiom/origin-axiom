@@ -695,3 +695,30 @@ this ledger's flavour, generation and strong-angle rows. 0 of 19 throughout.*
 **What this does not supply.** Any of the nineteen parameters. The frame fixes structure (the coincidence laws, the
 protection rule, the cusp exponents); the magnitudes wait on τ and the line, which nothing on record selects in a way
 that fits.
+
+## Currency note — 2026-10-24, through B1744 (the two ingredients, the precision bar, the Higgs's three regimes, the nine's target)
+
+- **The six charged-fermion ratios reach value level, as READINGS with two ingredients by hand** (the lepton factor
+  c = 3 and the reading rule).
+  - Replicated specifically on fresh points (B1726).
+  - Below the precision bar with τ fitted: χ²_six 3.09 (B1735).
+  - With τ at a thread's apex and no continuous number fitted: 14.93, 0.60% of random hierarchies as low (B1741). Not
+    PASSED under THE_BAR's look correction (1.2–3.6%); a referee put the true p at 1–7%.
+- **On the α = 2/5 lines the leptons are the down quarks** (B1742): with c = 3, Georgi–Jarlskog's relations hold by
+  construction, D = 9 (P-094 excludes it at 14σ), and the six are four numbers.
+- **The Higgs's three regimes.**
+  - Nearly null with the conjugate in one sector: hierarchy, misaligned light states (B1739).
+  - Non-null: aligned, no hierarchy (B1740, sealed NEGATIVE).
+  - Two nearly null directions read the same way: hierarchy, aligned, mixing too small (the web seat's TWO_HIGGS,
+    verified on main, B1742).
+- **The nine's target** (B1743, post hoc). One Higgs read the same way in every sector reaches χ²_nine 17.3. It needs a
+  nearly null Higgs whose invariant ∣h·h∣/∣h∣² is fixed near 0.017 (every form on record has it falling like
+  e^{−π Im τ}) with an e₁ admixture near 0.3.
+  - No pencil of record forms goes below 41.9.
+  - The Higgs's own hypercharge twist does not separate the sectors or force the reading (B1744).
+  - det Y = (h₀² + h·h)(w² + u·u)(h₀w + u·h): the invariant sets the first generation's size.
+- **τ.** The "which thread" wall (P-350): the apex heights fill the data's window as threads lengthen, so a selection
+  principle is needed, not a wider scan.
+
+**What this does not supply.** Any of the nineteen. The masses' pattern and values are reached with τ, the line, the
+reading and c chosen; the mixing needs a Higgs ingredient the record does not have (P-357).

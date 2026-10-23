@@ -13752,6 +13752,21 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1744": {
+   "slug": "the higgs own twist",
+   "motifs": [
+    "choice",
+    "coupling",
+    "z3_generation"
+   ],
+   "refs": [
+    "L241"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B174": {
    "slug": "gluing map landscape",
    "motifs": [
