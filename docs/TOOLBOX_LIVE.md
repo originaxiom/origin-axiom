@@ -222,3 +222,22 @@ values on a planted pair before it is sealed (E82, B1610's spectrum {1, ω, ω²
   lifting the composite automorphism (P-207).
 - A ledger row's table cell must not contain an ASCII pipe, escaped or not: the parsers split on every `|`.
 
+## The value frame's instruments (2026-10-21 to 2026-10-23, B1720–B1742)
+
+- **The frame's census** (B1656's four-channel coupling at B1667's canonical end, a Higgs direction, the readings S and
+  S̃, both horocycles, every line of B1713) — `frontier/B1726_the_two_ingredients_replicated/verification/census.py`
+  (sealed); with the Higgs swapped and a norm-law control, `frontier/B1740_the_non_null_higgs_under_the_standard_models_reading/verification/census.py`
+  (sealed; its `compute(..., which=)`).
+- **The calibration and the precision cells** (random hierarchies and mixings; χ² with σ² = rel² + 0.10²) —
+  `frontier/B1720_the_thread_fixes_the_point/verification/compare.py`, and B1735's `calib_chi2.py`.
+- **The coupling's closed form** Y = u hᵀ + h uᵀ − (u·h)1 + u₁[h]_× + h₀(u₁1 + [u]_×) —
+  `frontier/B1736_the_family_group_is_the_frames_own/verification/the_family_group.py`.
+- **A Higgs per sector** (H_u for the up quarks, H_d for the down quarks and leptons, each read S or S̃) on B1740's
+  instrument, unmodified — `compute2` in `frontier/B1742_two_higgs_verified_on_main/verification/repro.py`.
+
+**Two traps of the window.**
+- mpmath's `jtheta` takes the principal root of the nome, wrong off −1 < Re τ ≤ 1 (the SM seat's W144): build θ₁ and θ₂
+  from an explicit q^{1/4} = e^{iπτ/4} or sum them directly, as `b1656_funcs.th_mp` and B1740's census do (P-354).
+- On the lines (2/5, k/10) the lepton spectrum is the down spectrum (k even: for any Higgs; k odd: for a Higgs with no QI
+  component), so with c = 3 a fit there is Georgi–Jarlskog's by construction and D = 9: count the six as four numbers
+  (B1742, P-355).

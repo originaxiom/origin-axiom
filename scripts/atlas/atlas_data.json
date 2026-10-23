@@ -13693,6 +13693,23 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1740": {
+   "slug": "the non null higgs under the standard models reading",
+   "motifs": [
+    "z3_generation"
+   ],
+   "refs": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "V1"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 11,
+   "status": "open",
+   "domain": "arithmetic"
+  },
   "B1741": {
    "slug": "tau from the thread rule the line free",
    "motifs": [],
@@ -13706,6 +13723,19 @@
    "obstacle_conf": 4,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B1742": {
+   "slug": "two higgs verified on main",
+   "motifs": [
+    "coupling"
+   ],
+   "refs": [
+    "H5"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "physics"
   },
   "B174": {
    "slug": "gluing map landscape",

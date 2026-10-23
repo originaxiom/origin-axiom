@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1469** |
-| words of findings prose | **1,181,242** |
-| test lock files referenced | **884** |
-| arcs carrying an authored verdict | **1469** (100.0 %) |
-| recorded closures | **837** (670 classified, 167 routed-only) |
+| research arcs with findings | **1471** |
+| words of findings prose | **1,183,341** |
+| test lock files referenced | **886** |
+| arcs carrying an authored verdict | **1471** (100.0 %) |
+| recorded closures | **838** (671 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1004 |
-| NEGATIVE | 361 |
+| PROVED | 1005 |
+| NEGATIVE | 362 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 107 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 108 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1741`** (1305 words, 1 locks)  
-TAU FROM THE THREAD RULE, THE LINE FREE (P-347; sealed acd2fec77, sha256 7a8eeb8a; PROVED as sealed for its question -- P1, P2, R1-R3 hold, P2c, R4-R7, P3, P4 fail, C1, C2 hold; outputs committed unread at 3da06f258 and 624f93419): with tau at a thread's apex (no continuous number fitted) and the line chosen from 266 (priced by the calibration), the six charged-fermion ratios are reached at value level: chi2_six 14.93 below 16.75, with 0.60% of random hierarchies reaching as low over the same 39 900 rows (seat's menu; 2.26% covariant, 3.58% factor free); coarse 1.289, 0.22%. The best row: the apex 3.4 + 2.993i of L^5R^2LR and L^2R^5LR on the line (2/5, 9/10) -- B1735's line (2/5, 1/10) in the census frame -- L_max, up S~ with down and leptons S, c = 3; every ratio 12-29% high; D 11.05 (4.3 sigma); the CKM fails (|V_ud| 0.12, B1739). After the read (labelled): under THE_BAR's Bonferroni over the arc's looks the value-level specificity is 1.2-3.6%, not PASSED; the line is not one of the thread's own (A^2 fixes it only vacuously: A^2 = -I mod 10 fixes every order-5 and order-10 line). A READING with the two ingredients by hand; the seats' third opinion owed (P-348). 0 of 19.  
-`B1741_tau_from_the_thread_rule_the_line_free/FINDINGS.md`
+**PROVED — `B1742`** (1149 words, 1 locks)  
+TWO_HIGGS VERIFIED ON MAIN (P-351): the web seat's sealed H5 reproduces on main's own B1740 instrument (unmodified, a per-sector Higgs added outside it; control against B1740's stored row 0.0): with H_u = F_6 and H_d = F_22, both read S, c = 3, at 0.5625 + 2.6i on (2/5, 1/10), L_2, the six over measured 1.0099, 0.9103, 0.9831, 0.9377, 0.9381, 1.0519, chi2_six 1.1884 (the seat's 1.19); the full grid's minima 1.1884 (six) and 154.14 (nine), the same 14 rows below 16.75; the mixing aligned but small (|V_us|, |V_cb|, |V_ub| 0.187, 0.554, 0.392 of measured); D = 9. The mechanism of D = 9: on (2/5, k/10) the lepton twists are the down twists swapped up to half-periods, so the lepton spectrum equals the down spectrum (k even: every Higgs; k odd: a Higgs with no QI component, F_22's being about 1e-13), and with c = 3 the lepton ratios are Georgi-Jarlskog's by construction of the line family: the six are four numbers, and P-094 excludes D = 9 at 14 sigma. Main's instruments are immune to the jtheta nome-root caution (W144). A READING: the pair chosen by the data, c = 3 by hand, tau fitted, the nine fail. 0 of 19.  
+`B1742_two_higgs_verified_on_main/FINDINGS.md`
 
-**NEGATIVE — `B1732`** (981 words, 1 locks)  
-THE TWO INGREDIENTS WITH THE HIGGS PF1-W FIXES (P-307; sealed 65e6abfce, sha256 edfa5675; NEGATIVE as sealed for its question -- R1 holds, R2-R5 fail, R6 holds at a non-specific row, R7 fails, C1 holds; outputs committed unread at 5f5db8108): with F_6, the one zero-free Higgs whose invariant has no zero (B1731), in place of DR on B1726's 23 940 points, the six charged-fermion ratios still come within 1.62 (1.30 under the covariant menu) but not specifically: 7.1% of random hierarchies fit as well under the seat's menu (B1726 with DR: 0.12%), 2.1% under the covariant menu (0.41%), 17.6% with the factor free (0.92%), every seed above 1%; the nine 35.8% (0.58%); |J| within a factor 3 at the best nine-row, which post hoc happens on 18% of all rows; D 9.00. F_6's good rows lie on order-8 lines. So in B1656's frame the two-ingredient specificity is DR's, and PF1-W read on both the Higgs and the determinant is incompatible with it; DR passes the determinant reading's Higgs factor (DR.DR = eta^6/4) and fails only the field reading (P-303). 0 of 19.  
-`B1732_the_two_ingredients_with_the_fixed_higgs/FINDINGS.md`
+**NEGATIVE — `B1740`** (950 words, 1 locks)  
+THE NON-NULL HIGGS UNDER THE STANDARD MODEL'S READING (P-345; sealed bf0a9a330, sha256 89563b5d; NEGATIVE as sealed for its question -- V1 holds, R1-R7 and P1-P4 fail, C1, C2 hold; outputs committed unread at 6cecc78bb and 5b978daaf): with F_-2 in place of DR on B1726's 23 940 points the light generation is aligned (median |V_ud| 0.996 under the Standard Model's reading, and under every reading pair, since F_-2 is nearly real at the band) but the hierarchy is gone: the best six is off by a factor 131.7 (m_c/m_t and m_u/m_t about 130 times measured, m_s/m_b 25), chi2_six 3 688, the coarse specificity 40.6% (random), the nine 40.9%. The dichotomy is sealed: no zero-free Higgs on record carries both the hierarchy and the alignment under the Standard Model's reading (the null ones misalign, B1739; the non-null ones lose the hierarchy, here). After the read (labelled): two nearly null directions read S in every sector (TWO_HIGGS, verified on main in B1742) give the hierarchy and alignment with the mixing too small; the sibling F_-6 is foreknown (the a < 0 members are almost identical at the band). 0 of 19.  
+`B1740_the_non_null_higgs_under_the_standard_models_reading/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

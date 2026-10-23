@@ -1,0 +1,31 @@
+{
+ "id": "B1742",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1740",
+  "B1730",
+  "B1736",
+  "B1739",
+  "B1720",
+  "B1735"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W144",
+  "sm:W143"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling at B1667's canonical end (both horocycles) on B1740's sealed instrument, with a per-sector Higgs: H_u = F_a for the up quarks, H_d = F_b for the down quarks and leptons, F_a = (eps th2^a, eps th4^a, i th3^a) (B1730), all read S, the lepton factor c = 3",
+  "object": "the web seat's sealed TWO_HIGGS (1 280 points of the ten alpha = 2/5 lines, the six off-diagonal pairs from {F_6, F_-2, F_22}): its six charged-fermion ratios, CKM moduli, J and D; and the lepton-down identity of the alpha = 2/5 lines",
+  "reach": "class",
+  "hypotheses": "the seat's grid; B1720's chi2 (sigma^2 = rel^2 + 0.10^2) and pinned data; P-094's D"
+ },
+ "claim_one_line": "TWO_HIGGS VERIFIED ON MAIN (P-351): the web seat's sealed H5 reproduces on main's own B1740 instrument (unmodified, a per-sector Higgs added outside it; control against B1740's stored row 0.0): with H_u = F_6 and H_d = F_22, both read S, c = 3, at 0.5625 + 2.6i on (2/5, 1/10), L_2, the six over measured 1.0099, 0.9103, 0.9831, 0.9377, 0.9381, 1.0519, chi2_six 1.1884 (the seat's 1.19); the full grid's minima 1.1884 (six) and 154.14 (nine), the same 14 rows below 16.75; the mixing aligned but small (|V_us|, |V_cb|, |V_ub| 0.187, 0.554, 0.392 of measured); D = 9. The mechanism of D = 9: on (2/5, k/10) the lepton twists are the down twists swapped up to half-periods, so the lepton spectrum equals the down spectrum (k even: every Higgs; k odd: a Higgs with no QI component, F_22's being about 1e-13), and with c = 3 the lepton ratios are Georgi-Jarlskog's by construction of the line family: the six are four numbers, and P-094 excludes D = 9 at 14 sigma. Main's instruments are immune to the jtheta nome-root caution (W144). A READING: the pair chosen by the data, c = 3 by hand, tau fitted, the nine fail. 0 of 19.",
+ "weave_or_thread": "weave (a census over lines and tau)"
+}

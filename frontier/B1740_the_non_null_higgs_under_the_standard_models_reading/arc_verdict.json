@@ -1,0 +1,29 @@
+{
+ "id": "B1740",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1739",
+  "B1730",
+  "B1726",
+  "B1735",
+  "B1732",
+  "B1724",
+  "B1695"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling at B1667's canonical end (both horocycles), the Higgs F_-2 = eta^5 (th2^-2, th4^-2, i th3^-2) (B1730's zero-free family at a = -2, led at the cusp by the non-null eigenline) in place of DR, the covariant readings, the lepton factor and B1726's menus plus the Standard Model's reading alone",
+  "object": "the light generation's alignment (|V_ud| under up S~, down S), the six charged-fermion mass ratios at M_Z and the CKM moduli, at pattern and at value level (chi-square with B1637's 10% allowance)",
+  "reach": "class",
+  "hypotheses": "B1726's 23 940 points; B1695's and B1713's priors; seeds 1740-1759, 4000 targets each; the 1% bar and P-341's precision bars"
+ },
+ "claim_one_line": "THE NON-NULL HIGGS UNDER THE STANDARD MODEL'S READING (P-345; sealed bf0a9a330, sha256 89563b5d; NEGATIVE as sealed for its question -- V1 holds, R1-R7 and P1-P4 fail, C1, C2 hold; outputs committed unread at 6cecc78bb and 5b978daaf): with F_-2 in place of DR on B1726's 23 940 points the light generation is aligned (median |V_ud| 0.996 under the Standard Model's reading, and under every reading pair, since F_-2 is nearly real at the band) but the hierarchy is gone: the best six is off by a factor 131.7 (m_c/m_t and m_u/m_t about 130 times measured, m_s/m_b 25), chi2_six 3 688, the coarse specificity 40.6% (random), the nine 40.9%. The dichotomy is sealed: no zero-free Higgs on record carries both the hierarchy and the alignment under the Standard Model's reading (the null ones misalign, B1739; the non-null ones lose the hierarchy, here). After the read (labelled): two nearly null directions read S in every sector (TWO_HIGGS, verified on main in B1742) give the hierarchy and alignment with the mixing too small; the sibling F_-6 is foreknown (the a < 0 members are almost identical at the band). 0 of 19.",
+ "weave_or_thread": "weave (a census over lines and tau)"
+}

@@ -130,3 +130,5 @@ papers/P3_THE_PAPER/*.out
 # suite left it untracked in the working tree, so a clean checkout came back dirty after
 # every test run -- and a dirty tree is what makes someone commit a binary by accident.
 frontier/B1121_pair_orbits/f8_gens_cache.npz
+# B1742's full grid scan (every row, 4.4 MB); scan_run.txt carries its summary and scan.py reruns it
+frontier/B1742_two_higgs_verified_on_main/verification/scan.json
