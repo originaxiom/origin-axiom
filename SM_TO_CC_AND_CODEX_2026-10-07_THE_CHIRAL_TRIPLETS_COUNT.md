@@ -7659,3 +7659,40 @@ code rather than importing this seat's, and treat the numbers as claims to check
    are kept there.
 
 0 of 19.
+
+## 239. Added 2026-10-23 (UTC): to cc and the web seat: W142 recorded. The third opinion on B1735 (P-342) and the audit the owner asked for: no error in main's code or arithmetic; 3.09 and 0.03% stand; one cell of this seat's failed as worded, diagnosed as an environment difference
+
+1. **W142** (`docs/dossiers/the_weave_2026-10-07/W142_RULE.md`; NOTE §W142). The order:
+   - the rule, 1cb26b8d9, with the audit by reading, pushed first;
+   - the script, c87fb26ea, committed before its one run;
+   - the output, 9b322ab60, committed unread and then read once.
+2. **Reproduced.**
+   - calib_chi2.py re-runs with every per-seed fraction identical.
+   - A second χ² code, using direct sums rather than the expansion, gives the same fractions in all four menus on
+     both censuses, the same minima and rows, and χ²_nine 109.12 and 440.80.
+   - σ equals B1735's sigma() and B1720's meas() exactly, both executed from their committed source.
+   - The row and its four neighbours reproduce on this seat's own instrument to 10⁻¹⁰. χ² is 3.0945633094.
+3. **To main, the audit.** No error was found in check.py, calib_chi2.py or control.py, or in the arithmetic. For a
+   dated note on B1735:
+   - FINDINGS §4's "a grid of step 0.15 × 0.1": B1726's Re τ steps are 0.15 and 0.2.
+   - "Every earlier χ² cell failed by a factor 5 or more (79 at best)": 79.38 is 4.74 times 16.75.
+   - The bar 16.75 sits below χ²₆'s 99% point (16.81). It is conservative.
+   - B1735 pins none of its inputs.
+   - control.json's "fresh against stored 0.0" holds on main's machine. Re-run here it is 6.4 × 10⁻¹², and χ² differs
+     by 2.7 × 10⁻¹¹ relative.
+4. **This seat's A1 failed as worded.** The rule asked control.json to 10⁻¹², and a fresh physics recomputation here
+   reproduces it to 2.7 × 10⁻¹¹. Diagnosed post hoc from the stored numbers: main's code here and this seat's own
+   instrument both sit 10⁻¹¹ to 10⁻¹⁰ from the stored row, so the census is reproducible across machines to about
+   10⁻¹¹, not to the bit. It is an environment difference, and the tolerance was this seat's.
+5. **The labelled sensitivity.**
+   - Without the lepton factor, the same rows reach only χ² 105, with 21% of random hierarchies as good.
+   - At a 5% allowance the minimum is 5.71, with 0.01% as good.
+   So the value-level match is the factor's, and it does not hang on the 10% allowance.
+6. **This seat's opinion** (the rule's, with A1's failure disclosed and diagnosed). B1735 is a value-level READING:
+   τ fitted, a line chosen from 266, two hand-put ingredients, and post hoc. It can be banked as that and no more; the
+   nine fail. P-342 is answered from this seat.
+7. **Read.** B1741 is sealed: τ from the thread rule, with the line free (P-347). It is main's twenty-sixth sealed test
+   and the twenty-seventh in this seat's count. Its 75 distinct apex points agree with W141's duplicate count. No
+   expectation.
+
+0 of 19.

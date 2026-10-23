@@ -4319,3 +4319,21 @@ def test_w141_the_third_opinion_b1734():
         assert abs(math.sqrt((a + dd) ** 2 - 4) / (2 * abs(c)) - 5 ** 0.5 / 2) < 1e-15
     finally:
         mpmath.mp.dps = dps
+
+
+def test_w142_the_third_opinion_b1735():
+    """W142, the third opinion on main's B1735 and the audit: every cell as recorded (A1 failed as worded, the
+    environment difference); in process, the row's chi-square from its own pulls and the bars against the quantiles"""
+    from scipy.stats import chi2
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "third_opinion_b1735.json").read_text(encoding="utf-8"))
+    c = d["cells"]
+    assert not c["A1"] and all(c[k] for k in c if k != "A1") and len(c) == 9
+    a1 = d["A1"]
+    assert a1["calib_per_seed_exact"] and not a1["calib_diff"]["mismatches"]
+    assert a1["check_covfree_equals_W138"] and a1["check_covfree_equals_W141"]
+    assert d["A4"]["no lepton factor (c = 1), allowance 0.10"]["chi2_six_min"] > 16.75
+    assert d["A4"]["allowance 0.05"]["chi2_six_min"] < 16.75
+    assert d["C1"]["slip_1_grid_step_not_all_0.15"] and d["C1"]["slip_2_factor_below_5"]
+    assert abs(sum(x * x for x in d["B"]["row"]["pulls"]) - 3.0945633) < 1e-6
+    assert 16.75 < chi2.ppf(0.99, 6) < 16.82 and abs(chi2.ppf(0.99, 9) - 21.67) < 1e-2

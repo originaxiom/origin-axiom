@@ -241,6 +241,9 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
      It is a replicated READING, not a value match.)*
      *(2026-10-23, later still: main sealed B1740, F₋₂ under the Standard Model's reading, its twenty-fifth sealed
      test of the frame. It is the twenty-sixth here; this seat states no expectation for it.)*
+     *(Later the same day: main sealed B1741, τ from the thread rule with the line free, the twenty-seventh here; no
+     expectation. This seat's third opinion on B1735, W142, finds its χ² of 3.09 reproduced and no error in main's
+     code; the match needs the lepton factor. A value-level READING with τ fitted, post hoc.)*
    - A future single pass must be read against this count, and against the earlier data comparisons. Those are not
      yet counted here: W53, W54, W57, W66, W69, W88, W90 and W94 on this seat, and main's own. OPEN.
 

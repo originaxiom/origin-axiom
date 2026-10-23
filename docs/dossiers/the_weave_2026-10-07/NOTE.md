@@ -7726,6 +7726,90 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W142. The third opinion on main's B1735 (main's P-342), and an audit of its scripts and arithmetic (the owner's request): B1735's χ² calibration reproduces exactly on main's code and on a second code written differently. Its definitions are right, the row reproduces on this seat's own instrument to 10⁻¹⁰, and every statement in FINDINGS holds apart from two wording slips, so main made no error in code or arithmetic. One cell failed as worded: main's control.py, re-run here, reproduces control.json to 2.7 × 10⁻¹¹, not 10⁻¹², an environment difference diagnosed post hoc. The match needs the lepton factor (without it χ² is 105) and survives a 5% allowance (5.71). A value-level READING with τ fitted (`the_third_opinion_b1735.py`; `W142_RULE.md`)
+
+**Why.**
+- B1735 found the first row on main below the precision bar: χ²_six = 3.09 with τ fitted on B1726's grid, and 0.03%
+  of random hierarchies as good. The owner's rule of 2026-08-21 requires a third opinion before a positive value
+  match is banked as more than a reading, and main's P-342 asked the seats for it.
+- The owner asked for it and added: "see if main did anything wrong, check integrity of script and math".
+
+**The order.**
+- A read-only preparation read B1735's three scripts line by line, with B1720's χ² code and the web seat's bar. The
+  audit by reading was written into the rule before any run.
+- The rule (`W142_RULE.md`, 1cb26b8d9) was committed and pushed before the script existed.
+- The script (c87fb26ea) was committed before its one run (38 min, four workers). It imports W138's and W141's
+  instruments and nothing of main's code.
+- Its output (9b322ab60) was committed unread, then read once.
+
+**The result (COMPUTED; every cell as predicted except A1, which failed as worded).**
+- **A0, the inputs.** Both censuses match their recorded sha256 values, and the three data files their pins.
+- **A1, the re-run: FAILED as worded.**
+  - calib_chi2.py, re-run in a temporary tree, reproduces calib_chi2.json. Every per-seed fraction is identical,
+    189 of 192 numbers are identical and the rest within 2.0 × 10⁻¹³, with no mismatch.
+  - check.json's covariant-free per-seed fractions equal W138's and W141's exactly.
+  - But control.py, re-run here, recomputes the row through B1726's compute() 6.4 × 10⁻¹² in log away from the stored
+    row; main's own run recorded 0.0. Its χ² is 3.0945633097007 against the committed 3.0945633097838, a relative
+    difference of 2.7 × 10⁻¹¹, above the rule's 10⁻¹².
+- **A2, the χ² calibration on own code.**
+  - Direct sums of squared differences, not main's expansion, over four menus, both censuses and each arc's 20
+    seeds.
+  - Every per-seed fraction equals calib_chi2.json's exactly. The minima agree to 1.6 × 10⁻¹³ at the same rows.
+  - χ²_nine (seat) is 109.124355 and 440.797 at main's rows, identical.
+- **A3, the definitions.** σ from the pinned files equals B1735's sigma() and B1720's meas() exactly; both were
+  executed from their own committed source. σ = 0.1038, 0.1979, 0.1327, 0.1231, 0.1000 and 0.1000. The bar 16.75 is
+  below χ²₆'s 99% point (16.81), so it is slightly strict; 21.67 equals χ²₉'s (21.666).
+- **A4, sensitivity (labelled; B1726, the seat's menu, five seeds).**
+  - Allowance 0.05: minimum 5.71, still below the bar, with 0.01% of random hierarchies as good.
+  - Allowance 0.20: minimum 1.38, 0.10%.
+  - Without the lepton factor (c = 1): minimum **105.2**, 21.3%.
+- **B0, the own instrument's controls.** At the row, residues match the re-implemented bilinear to 1.2 × 10⁻³¹, and
+  J1 holds to 8.6 × 10⁻¹⁹.
+- **B1, the five points** (the row and its four grid neighbours). Every stored ratio is reproduced to 6.7 × 10⁻¹¹ in
+  log, every |V| to 6.6 × 10⁻¹², and J to 1.6 × 10⁻¹¹, with no zero mismatch.
+- **B2, the row from the own values.** χ²_six = 3.0945633094 (1.4 × 10⁻¹⁰ from control.json), every pull to
+  1.7 × 10⁻¹⁰, D = 10.7646984336, the CKM over data 4.41174, 23.8421 and 10.6112, and J = 2.46797 × 10⁻⁴. The last
+  three each agree to 5 × 10⁻¹³.
+- **C1, FINDINGS' statements computed.**
+  - The two slips hold as read. B1726's Re τ steps are 0.15 and 0.2, not 0.15 alone. B1720's best χ², 79.38, is
+    4.74 times the bar, not "5 or more".
+  - Everything else holds: the largest pull is 1.317, D lies 1.68σ from P-094, J is 8.01 times PDG's, §2's eight
+    rows match as printed, and χ²_nine is 109 and 441.
+
+**The diagnosis of A1 (post hoc, labelled; from the stored numbers, no new computation).**
+- control.py recomputes physics through mpmath and numpy, while calib_chi2.py only reads the stored census. On main's
+  machine the recomputation matched the stored row bit for bit. Here, main's code and this seat's own instrument both
+  sit 10⁻¹¹ to 10⁻¹⁰ from it.
+- So the stored census values are reproducible across machines to about 10⁻¹¹, not to the bit. That is the
+  environment difference the rule's "A1 fails, A2 holds" clause names. It is not an error by main.
+- The rule's 10⁻¹² was too tight for a fresh physics recomputation. That choice was this seat's, made before the run.
+
+**What it shows (the rule's fixed meaning, with A1's failure).**
+1. **Did main do anything wrong? No error in code or arithmetic.**
+   - The χ² calibration is reproduced exactly by main's code and by a second code written differently.
+   - σ and the χ² definition are what main says.
+   - The row is reproduced on a second instrument.
+   - What the audit found:
+     - two wording slips in FINDINGS (the grid step; the factor 4.7, not 5), which change no number;
+     - a bar slightly stricter than its stated 99% (16.75 against 16.81), conservative;
+     - nothing pinned in B1735 itself;
+     - control.json's "fresh against stored 0.0" holds on main's machine and is 6.4 × 10⁻¹² elsewhere.
+   - A dated note on B1735 is proposed to main for the two slips.
+2. **3.09 and 0.03% stand.** On B1726's grid, with τ fitted, the frame with both ingredients reaches the six at value
+   level.
+3. **The value-level match is the lepton factor's.** Without it the same rows reach only χ² 105, with 21% of random
+   hierarchies as good. It does not hang on the 10% allowance: at 5% the minimum is 5.71 and only 0.01% do as well.
+4. **This seat's opinion.** The rule's precondition, A1, A2 and B1 holding, failed as worded through A1. The failure
+   is diagnosed as an environment difference, and A2 and B1 hold. With that disclosed, the opinion fixed in the rule
+   stands: B1735 is a value-level READING, with τ fitted (two continuous numbers on a grid), a line chosen from 266,
+   two hand-put ingredients, and post hoc. It can be banked as that and no more. It is not a derivation, and the nine
+   fail at value level (χ² 109).
+
+**Weave or thread.** Neither: a check and an audit of main's census of one frame, with τ on B1726's grid.
+
+**Status.** COMPUTED. One run. Every cell as predicted except A1, which failed as worded through a tolerance this
+seat set too tight; the cause is diagnosed post hoc. A verification for main, not a new test against data. 0 of 19.
+
 ## W141. The third opinion on main's B1734 (main's P-339, at the owner's approval): B1734 reproduces in full. Main's compare.py re-runs to the bit, a second calibration gives the same 120 fractions and B1735's labelled ones, the all-orders cost of the restriction reproduces exactly, and 28 census points and the three named rows reproduce on this seat's own instrument to 10⁻⁹. B1733's line sets and B1720's apexes are right, and D = 9 exactly on every order-5 row. But the 190 points are only 116 distinct ones: 74 mirror pairs stand at the same τ and line. With the order restriction lifted, the seat's menu sits at 1.15% (16 of 20 seeds above 1%). Every cell as predicted; B1734 is a replicated READING carried by one point on an order-5 line whose D = 9 the data exclude (`the_third_opinion_b1734.py`; `W141_RULE.md`)
 
 **Why.**
@@ -11989,6 +12073,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W142 | COMPUTED (the rule first, after a read-only audit of main's code; one run; every cell as predicted except A1, failed as worded, diagnosed post hoc as an environment difference) | the third opinion on main's B1735 (P-342) and an audit of its scripts and arithmetic: calib_chi2.py's per-seed fractions reproduced exactly on main's code and on a second code (direct sums); σ and the χ² definition as main says; the row on this seat's own instrument to 10⁻¹⁰; FINDINGS right apart from two wording slips. No error in main's code or arithmetic. control.py re-run here reproduces control.json to 2.7 × 10⁻¹¹, not 10⁻¹². The match needs the lepton factor (c = 1 gives χ² 105) and survives a 5% allowance (5.71). A value-level READING with τ fitted, bankable as that and no more. 0 of 19 |
 | W141 | COMPUTED (the rule first, after a read-only preparation, disclosed; one run; every cell as predicted); a check of main's census of one frame | the third opinion on main's B1734 (P-339): compare.py re-runs to the bit; a second calibration gives the same 120 fractions and B1735's labelled ones; the all-orders cost reproduces exactly, and over 20 seeds the seat's six are at 1.15% (16 of 20 seeds above 1%); 28 census points and the three named rows reproduce on this seat's own instrument to 10⁻⁹; B1733's line sets, the Smith rule and B1720's apexes hold exactly; D = 9 on every order-5 row; the 190 points are 116 distinct, 74 shared by mirror threads. B1734 is a replicated READING carried by one point whose D = 9 the data exclude, bankable as that and no more. 0 of 19 |
 | W140 | COMPUTED (the rule first; one run; every cell as predicted); C1 WEAVE, C2–C4 a census of thread objects | the hypercharge line inside E₆: the moves jointly fix only the trivial line (every N ≤ 12; orbits = exact orders), so the weave's joint frame keeps D ≡ 1 and any split is a thread's line; B1713's 266 lines are the threads' (each fixed by LᴺRᴺ). A generic twist-dependent coupling reproduces main's B1728 law exactly (d = e at N ∈ {1, 2, 4, 5}, u = d at {1, 2, 3, 6}, u = e at {1, 2, 7}, the 7 from the sign); in E₆'s extended matrices d = e only at N ∈ {1, 5}: the 27's exotics undo the order-2 and order-4 coincidences, so 13 of 266 lines keep the tie against 22 in main's frame. No data. 0 of 19 |
 | W139 | COMPUTED (the rule first; one run; every cell as predicted); WEAVE-type | the E₆ breaking arc (P-338): N = det Q + det L + det Q^c − tr(Q L Q^c) has a symmetry algebra of dimension exactly 78 (E₆; 24 at det L's coefficient 2); the 27 carries 16 ⊕ 10 ⊕ 1 with five neutral directions. For every symmetric λ and every colour- and charge-keeping vev of the three 27s, M_l = −(1 ⊗ Jᵀ)M_qᵀ(1 ⊗ J), so the six singular values agree (to 10⁻⁴⁰) and D ≡ 1 at hierarchical vevs too. No vev of the 27s splits leptons from down quarks; the joint frame needs an SU(5)-breaking source (351′, 351, the 78, or a flat hypercharge line). 0 of 19 |

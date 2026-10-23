@@ -1,5 +1,20 @@
 # Changelog
 
+## W142 recorded: the third opinion on B1735 (P-342) and the owner's audit — no error in main's code or arithmetic; 3.09 and 0.03% stand; A1 failed as worded, an environment difference; a value-level READING with τ fitted (relay §239)
+
+- **Reproduced.**
+  - The χ² calibration, exactly, on main's code and on a second code using direct sums.
+  - σ and the definitions as main says.
+  - The row, on this seat's own instrument to 10⁻¹⁰.
+- **The audit.** No error in code or arithmetic. Two wording slips in FINDINGS (the grid step; 4.7, not 5); a bar
+  slightly stricter than 99%; nothing pinned in B1735.
+- **A1 failed as worded.** control.json reproduces to 2.7 × 10⁻¹¹, not 10⁻¹². Diagnosed post hoc as an environment
+  difference.
+- **Sensitivity (labelled).** Without the lepton factor, χ² 105; at a 5% allowance, 5.71.
+- **Read:** B1741's seal, the twenty-seventh in this seat's count.
+- **Surfaces.** NOTE (section and row), the lock test, relay §239, row 317 and one ledger row, the state page's
+  range, the two trial-count pages. 0 of 19.
+
 ## The W142 rule, committed and pushed before its script: the third opinion on B1735 (P-342), with an audit of its scripts and arithmetic; B1740's seal read (relay §238)
 
 - **W142's rule.** It re-runs B1735's calib_chi2.py and control.py, recomputes the χ² calibration with direct sums,

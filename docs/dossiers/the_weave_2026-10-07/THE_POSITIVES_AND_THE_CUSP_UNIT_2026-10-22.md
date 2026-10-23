@@ -97,6 +97,10 @@ Each takes every thread the principle allows under one rule, and its claim is ab
     *(Later the same day: this seat's third opinion, W141, reproduces B1734 in full. The 190 points are 116
     distinct ones, and the best six rests on one point, shared by L⁵R² and its mirror. With every order counted the
     seat's six are at 1.15%. A replicated READING, not a value match.)*
+    *(Later still: main's B1735 put the precision bar on B1726's census. With τ fitted, the six reach χ² 3.09 and
+    0.03% of random hierarchies as good, the first value-level contact on record. This seat's third opinion, W142,
+    reproduces it and finds no error in main's code. Without the lepton factor the same rows reach only χ² 105. A
+    value-level READING with τ fitted and both ingredients by hand.)*
 - **The magnitudes side is a clean negative.** The forced menu fits the hierarchy no better than chance (p = 0.139,
   W112).
 

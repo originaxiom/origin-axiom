@@ -20522,3 +20522,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   and a threshold slightly stricter than stated. The plan and its predictions are published before any code exists.
 - **Main sealed a new test** using a different Higgs. No expectation is stated.
   0 of 19.
+## 2026-10-23 — main's closest fit checked, and main's work audited: no errors found
+
+- **The check ran once.** Main's statistics reproduce exactly, both with main's own code and with this seat's
+  differently written code. The best point recomputes on this seat's own instrument to ten decimal places.
+- **Main made no mistakes in code or arithmetic.** There are two small wording slips in its write-up, and its
+  threshold is slightly stricter than it says, which is the safe direction.
+- **One of this seat's own predictions failed as worded.** Re-running one of main's scripts here gives numbers that
+  match to 11 decimal places, not 12. Different machines round very slightly differently, and the tolerance asked
+  for was too tight.
+- **The close fit depends entirely on the hand-put lepton factor.** Without it the fit is far off. It does not
+  depend on how much slack is allowed.
+- **Main sealed another test,** placing the modulus by each thread. No expectation is stated.
+  0 of 19.
