@@ -7726,6 +7726,34 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## Reading: the six's lines and the level-5 rung (P-373's lead, raised by main at P-375; 2026-10-24; READING with a lock, post hoc)
+
+**A READING: nothing new is computed beyond counting, and it adds no claim.** Main's question: are the order-5 and
+order-10 lines that the six prefer exactly the lines the level-5 structure singles out?
+- **The weave sees a line's order, never the line** (W140, C1). The moves act on (ℤ/N)² transitively on the points
+  of each exact order, so no single line is singled out by the principle. Choosing one is a thread's choice.
+- **The moves act on the lines of order N through SL(2, ℤ/N).** By the Chinese remainder theorem it is the product of
+  the SL(2, ℤ/p^k) over the prime powers dividing N. Its composition factors are PSL(2, p) for the primes p ≥ 5
+  dividing N, and solvable groups otherwise. A₅ ≅ PSL(2, 𝔽₅) is among them exactly when 5 divides N, and then
+  reduction mod 5 maps SL(2, ℤ/N) onto SL(2, 𝔽₅) = 2I, the level-5 rung's group (W153; McKay E₈).
+- **Among the 266 lines of order ≤ 12, the ones with 5 | N are the 12 of order 5 and the 36 of order 10** (W140, C2).
+  These are exactly the lines on which the record found the six specifically: main's P-362 (A), on B1726's census;
+  B1749's 12 rows, all on (2/5, 1/10) and (2/5, 1/2), of order 10; W88 refuted the orders dividing 4 or 6.
+- **So the answer is yes, in the only sense the weave allows.** The six's lines are exactly those on which the moves
+  act through the level-5 rung. No line among them is singled out, and the observation was made after the data were
+  seen. Under the ladder's rule (R1) every rung is taken at once. So restricting to the lines with 5 | N is a thread's
+  choice and counts as one, unless a dynamics selects it.
+- **What would make it more than a reading: a sealed test with a prediction that can fail.** If the six's specificity
+  belongs to the level-5 rung, it should appear on lines of order 15 and 20 (96 and 144 lines up to sign; J₂(N)/2), and
+  not on lines of order 13 or 14 (84 and 72). Orders 7, 8, 9, 11 and 12 are already in the census without a specific
+  six, which is consistent. Proposed to main: a census of the order-13, 14, 15 and 20 lines at B1749's fresh apexes
+  with B1741's unchanged instrument, sealed first, with the decisive cell "specific (≤ 1%) on 5 | N and not on 13, 14".
+- **The pre-mortem.** On order-5 lines D = 9 exactly (W138's R7), the six are four numbers there, and the order-10
+  lines carry the specific rows. The mechanism may live in order 10's factor 2 as much as in its 5. A specific six at
+  order 14 would say so.
+
+0 of 19.
+
 ## W155. The census over contents, Stage B (the owner's "lets do themall"): the Higgs direction cannot hold τ where Stage A does not. At the forced line no copy of the Higgs has a zero mode; masses never change a cusp's leading term, so every content that runs still runs; masses that treat the parities alike only move Stage A's curve, and heavy ones send every band content to ω; a condensate selects the copy that becomes massless at the cusp, holds neither Im τ nor Re τ, and moves the band's price by at most 5%. Every cell as predicted (`the_higgs_direction_census.py`; `W155_RULE.md`)
 
 **Why.** W154 left one question for the ledger's option 1: can the Higgs direction break Stage A's one-curve structure,
@@ -13114,6 +13142,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| Lines | READING with a lock (post hoc; counting only) | the six's lines and the level-5 rung (P-373's lead): the weave sees a line's order, never the line (W140); SL(2, ℤ/N) maps onto SL(2, 𝔽₅) = 2I exactly when 5 | N, so the six's lines of order 5 and 10 (48 of 266) are exactly those on which the moves act through the level-5 rung; no line is singled out, and choosing them is a thread's choice under R1; a sealed test proposed to main: specific on the order-15 and 20 lines (96, 144), not on 13 or 14 (84, 72). 0 of 19 |
 | W155 | COMPUTED (the rule first; one run; every cell as predicted); H0 to H3 weave-type | the census over contents, Stage B, the Higgs direction: at the forced line no copy has a zero mode (q_{(0,½)} = 1/(4y) lightest on the domain); masses never change a cusp's leading term (the approach to κ_c matches −(μ²/4)Σcos/m⁴ / y to 0.4% at y = 400), so every record content and E₈'s 248 still run; S₃-invariant masses move the curve (y* 2.34 → 2.10 at μ = 1, t = 3.5) and at μ = 3 send every band content to ω; a condensate selects (0, ½), an orbit of three, depends on Im τ only, moves y* up by at most 0.09 and the band's t-window to [3.045, 4.555] at the largest tried, holding neither Im τ nor Re τ; option 1 closed at one loop. 0 of 19 |
 | W154 | COMPUTED (the rule first; one run after a failed launch, disclosed; every cell as predicted); C0 to C3 weave-type | the census over contents, Stage A: at the forced line every S₃-invariant content has V = −(A E₃ + B E₂), so at one loop it runs to the cusp, sits at ω or i, or holds τ on the axis at y*(t) ≈ 7t/π², t = B/|A|; ω gives way at t_c = 2.148; the band needs net ρ_Q bosons outweighing the rest 42 to 48 times in a 13% window; every record content and E₈'s 248 run to the cusp; B1704 reproduced. 0 of 19 |
 | W153 | COMPUTED (the rule first; one run; every cell as predicted); L1 to L4 weave-type | the ladder: the moves' quotient by T^N finite exactly for N = 2 to 5 (6, 12, 24, 60); McKay gives D₅, E₆, E₇, E₈; det = 6 − N, so the ladder ends at N = 5 from the moves' own orders 2 and 3, and E₈ is its only unimodular rung; in the icosian E₈, E₇ unique, E₆ unique up to the moves, D₅ in six orbits; the record's forced structures at the primes 2 and 3 only; R1 and R2 force E₈, R3 gives E₇; the owner rules [ruled 2026-10-24 (B1751): R1 with main's two clauses, the prime 5 adopted, not derived; the web seat's ladder/container split put to the owner]. 0 of 19 |

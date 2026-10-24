@@ -4862,3 +4862,18 @@ def test_w155_the_higgs_direction_census():
             s = sum(math.cos(2 * math.pi * (m * a + n * b)) for a, b in par)
             assert abs(s - (3 if m % 2 == 0 and n % 2 == 0 else -1)) < 1e-12
     assert "## W155. The census over contents, Stage B" in (here / "NOTE.md").read_text(encoding="utf-8")
+
+
+def test_the_six_lines_and_the_level5_rung_reading():
+    """the reading on P-373's lead: the lines of order N up to sign (12, 36 at N = 5, 10; 84, 72, 96, 144 at
+    N = 13, 14, 15, 20), and the orders <= 12 divisible by 5 carrying 48 of the 266 lines"""
+    from math import gcd
+
+    def lines(n):
+        return len({min((a, b), ((-a) % n, (-b) % n)) for a in range(n) for b in range(n) if gcd(gcd(a, b), n) == 1})
+    assert [lines(n) for n in (5, 10, 13, 14, 15, 20)] == [12, 36, 84, 72, 96, 144]
+    per = [1, 3, 4, 6, 12, 12, 24, 24, 36, 36, 60, 48]
+    assert [lines(n) if n > 1 else 1 for n in range(1, 13)] == per and sum(per) == 266
+    assert sum(per[n - 1] for n in range(1, 13) if n % 5 == 0) == 48
+    note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
+    assert "## Reading: the six's lines and the level-5 rung" in note

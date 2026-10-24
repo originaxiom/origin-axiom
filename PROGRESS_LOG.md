@@ -20899,3 +20899,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   fresh points from scratch, recompute the best rows with this seat's own instrument, and measure how wide the band
   is, so as to say how easily any set of points would find it.
   0 of 19.
+
+## 2026-10-24 — why the matches sit on the lines they do
+
+- **A pattern noticed in the matches:** they appear only on lines whose order is divisible by 5. Those are exactly the
+  lines on which the basic moves act through the same finite group that gives E₈.
+- **What it is and is not:** a reading after the fact. The principle sees only a line's order, so no single line is
+  chosen by it.
+- **How to test it honestly:** main can check lines of order 15 and 20, where the pattern predicts matches, and 13
+  and 14, where it predicts none, with the test sealed before it runs.
+  0 of 19.

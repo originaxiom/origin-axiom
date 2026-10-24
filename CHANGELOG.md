@@ -1,5 +1,13 @@
 # Changelog
 
+## Reading: the six's lines and the level-5 rung, P-373's lead (relay §275)
+
+- **The weave sees a line's order, never the line** (W140), and the moves act on the lines of order N through
+  SL(2, ℤ/N), which maps onto 2I exactly when 5 | N. So the six's lines of order 5 and 10 are exactly those on which
+  the moves act through the level-5 rung. Post hoc; no line is singled out; a thread's choice under R1.
+- **A sealed test proposed to main:** specific on the lines of order 15 and 20, not on 13 or 14.
+- **Surfaces.** NOTE (section and row), a lock test, the relay, the ledger row, the state page. 0 of 19.
+
 ## W156's rule, committed before its script: the third opinion on main's B1749 (relay §274)
 
 - **At main's ask**, as W145 was for B1741: reproduce B1749 on own code and instrument, the fresh seeds, the

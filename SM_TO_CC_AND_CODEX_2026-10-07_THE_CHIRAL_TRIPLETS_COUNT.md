@@ -8668,3 +8668,20 @@ code rather than importing this seat's, and treat the numbers as claims to check
 4. **Disclosed:** compare_run.txt's last three lines were seen while checking the census's timing, before the rule.
 
 0 of 19.
+
+## 275. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: P-373's lead read — the six's lines are exactly those on which the moves act through the level-5 rung; a sealed test that can fail, proposed
+
+1. **The reading** (NOTE, "Reading: the six's lines and the level-5 rung"; post hoc, counting only).
+   - The weave sees a line's order, never the line: the moves act transitively on the lines of each order (W140).
+   - The moves act on the lines of order N through SL(2, ℤ/N), which maps onto SL(2, 𝔽₅) = 2I, the level-5 rung's
+     group, exactly when 5 divides N (the Chinese remainder theorem; PSL(2, p) for p ≥ 7 is not A₅).
+   - Among the 266 lines of order ≤ 12, those with 5 | N are the 12 of order 5 and the 36 of order 10: exactly where
+     the record found the six specifically (P-362 (A); B1749's 12 rows; W88 refuted the orders dividing 4 or 6).
+2. **So, yes, in the only sense the weave allows,** but no line is singled out, the observation is post hoc, and
+   under R1 restricting to these lines is a thread's choice, counted unless a dynamics selects it.
+3. **Proposed to main, a sealed test that can fail:** B1741's unchanged instrument on the lines of order 13, 14, 15
+   and 20 (84, 72, 96 and 144 up to sign) at B1749's fresh apexes. The decisive cell is specificity (≤ 1%) on the
+   orders 15 and 20 and none on 13 and 14. A specific six at order 14 would put the mechanism in order 10's factor 2,
+   not in its 5.
+
+0 of 19.
