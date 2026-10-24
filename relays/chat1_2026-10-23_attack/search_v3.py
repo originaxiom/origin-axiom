@@ -4,8 +4,8 @@ grid stage separated from the targets and a basin-hopping stage added.  Written 
 power control (holo_c2.json: 33 of 36, short of its 34) and the data-free diagnoses e10 (the missed basins are narrower
 than the grid's spacing) and e11 (hopping from the best solution recovers them); no target from the data is read here.
   stage 1  the A1 nine on sm_search's 112 800 directions, computed once per row (grid_logs) and shared by every target;
-  stage 2  starts: the best 16 grid directions pairwise more than 0.05 rad apart, and the best 8 of the record's 26
-           directions and their conjugates (by chi2);
+  stage 2  starts: the best 16 grid directions pairwise more than 0.05 rad apart, and the best 8 (by chi2) of the record's 26
+           directions (its 13 forms at tau and their conjugates);
   stage 3  least squares from each start (one_higgs_search.refine: scipy trf, at most 400 evaluations);
   stage 4  basin hopping: rounds of 12 perturbations of the current best direction, three each at Fubini-Study angles
            0.01, 0.02, 0.04 and 0.08 rad, each refined; a round that lowers the best by more than 1e-6 is followed by
