@@ -3384,6 +3384,22 @@ readings, mapped the Higgs's three regimes, and stated exactly what the quark mi
 - **Open:** P-357 (what fixes the invariant); the web seat's sealed READING TEST (P-360); Review 69's items R69-1–R69-7.
   **0 of 19.**
 
+## ⟳ VIEW REFRESH — 2026-10-24 (Review 70)
+
+Touched at the Review 70 anchor (`34a7a7da4`). **The window (B1746–B1754; 23 commits) read the six on one strip twice,
+counted every seat's looks together, and re-typed the observer.**
+- **The six at fresh apexes, sealed twice** (B1749, all lines, 0.02%; B1753, the lines of order divisible by 5, 0.009%):
+  PROVED as sealed, READINGS (c = 3 and the reading rule by hand), ungraded. Both sit on one strip, Im τ 2.96–3.11, of the
+  order-10 lines (2/5, 1/10) and (2/5, 1/2); B1753's rule is mostly a pick. The look ledger's first full count: B1753 m = 39
+  passes Bonferroni, B1749 does not; a null in which random targets choose their class is owed. The SM seat's third
+  opinion reproduces B1749 in full (W156).
+- **The heavy four** from a null Higgs: reachable, not specific (B1748). **The nine:** the Standard Model's one-Higgs reading
+  excluded (B1747); Γ₄'s forms do not reach the target (B1746).
+- **The foundations:** the observer re-typed (B1750, v1.55); the looks counted jointly and the ladder's rule (B1751, v1.56;
+  B1752, v1.57); the merged ladder wording and the WEAVE qualifier at the owner's ruling (B1754, v1.58).
+- **Next:** B1755, the SM seat's test of the level-5 rung (the lines of order 13, 14, 15, 20; P-387); grading JUNO's second
+  release (P10's TM1 at 2.29σ; P10′'s TM2 at 5.83σ, beyond its kill line; P-388); P-301 (C25's exactness). **0 of 19.**
+
 ## ⟳ VIEW REFRESH — 2026-10-23 (Review 68)
 
 Touched at the Review 68 anchor (`f1b7eb522`). **The window (B1705–B1728; 35 merges) sealed the completion map's first

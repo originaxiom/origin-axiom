@@ -7368,4 +7368,6 @@ sealing; disclosed, and the control is now a rule for any restriction test.
 - [ ] R70-10: P-388 — grade JUNO's second release against P10 and P10′ in an arc (P10′'s falsifier fires at 5.83σ) (owner: cc)
 - [ ] R70-11: P-389 — the web seat's step-back proposal, put to the owner with main's opinion (owner: the owner)
 - [ ] R70-12: B1755 — the SM seat's test of the level-5 rung (P-387): seal, census, comparison (owner: cc)
+
+**anchor-commit: `34a7a7da4`**
 - [x] R70-9: filed at this review: the seen-first gate's placeholder check (B1743, B1746 corrected; E82); the look ledger's first full count (corrected by the web seat's row check before the push); the audit lane harvested (rows 1393–1395); P-385 adopted (B1754, GENESIS v1.58); P-238 closed by consequence; L230 closed; three glosses

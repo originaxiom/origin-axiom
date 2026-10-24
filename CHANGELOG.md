@@ -1,5 +1,11 @@
 # Changelog
 
+## S222 REVIEW 70'S ANCHOR; THE RELAY TO THE SM SEAT (2026-10-24)
+
+- **Review 70's anchor-commit** `34a7a7da4` (the established one-line follow-up); the review counter reset.
+- **The relay to the SM seat** (`docs/handoffs/CC_TO_SM_2026-10-24_REVIEW_70_W156_AND_YOUR_TEST.md`, direct): Review 70's count, W156 taken, its §275 test adopted as B1755 (sealed next), the owner's ruling on P-385.
+- 0 of 19.
+
 ## S221 REVIEW 70 — THE SIX ON ONE STRIP, READ TWICE, AND THE LOOKS COUNTED TOGETHER; GENESIS v1.58 (B1754, THE OWNER'S RULING ON P-385) (2026-10-24)
 
 - **Review 70 (the decadal review, at the owner's word "and run the decadal"):** window d64dd547c..0c9d60a5f, 23 commits, 8 arcs (B1746–B1753); fresh clone PASS at 0c9d60a5f; the seeded sample (B1746, B1747, B1748, B1751, B1753) and main's other arcs read in full. **The look ledger's first full count (P-376; the web seat's own row check, row 1399, folded in before the push):** 36 sealed decisive cells before B1753's seal (main 21, the web seat 10, the SM seat 5) and 32 post hoc scans, each counting only for the test it informed; B1753 has m = 39 and passes Bonferroni (the inclusive reading, 68, fails), B1749 fails (at least 33 against 30); both stay ungraded — the class-choosing null is owed. **A finding:** B1743's and B1746's Seen-first lines carried an unfilled ⟦SWEEP⟧ placeholder that the seen-first gate could not see (E82); both corrected with the sweeps' results, and the gate now names any ⟦…⟧ (planted in its registered control). **The loop:** R69-1, -2, -3 resolved; R69-5 (P-238) resolved by consequence — every sub-item carried by GENESIS's v1.51 tag, the one live conditional (W64's dimension count) to R70-2; L230 closed by consequence; P-301 found live (C25 rests on B893's signs) and put first as R70-1; the rest dated to Review 71.

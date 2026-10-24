@@ -17936,3 +17936,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - Review 70 at the owner's word: the look ledger counted in full (36 sealed cells before B1753's seal; B1753 m = 39 passes Bonferroni, B1749 fails; both ungraded, the class-choosing null owed); the seen-first gate's blind spot for an unfilled sweep found and closed (B1743, B1746 corrected); P-238 closed by consequence; P-301 found live and put first. B1754: the merged ladder wording and the WEAVE qualifier, at the owner's acceptance. The audit lane harvested (P-386). 0 of 19.
 - **Landing suite.** full suite 7 738 passed, 2 failed, 68 skipped (27:39, -n 8) on 2a69ae2e8: the two failures are B805's attachment locks (P-239, standing). After the suite and before the push: the web seat's own row check corrected the look ledger's first count to the ledger's definition; the seats' late results harvested (rows 1396–1401); P-386–P-389; the affected tests rerun green.
+
+## 2026-10-24 — S222 REVIEW 70'S ANCHOR; THE RELAY TO THE SM SEAT
+
+- Review 70's anchor-commit 34a7a7da4; the relay to the SM seat (Review 70, W156, B1755, P-385). 0 of 19.
