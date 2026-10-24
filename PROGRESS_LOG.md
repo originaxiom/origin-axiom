@@ -17891,3 +17891,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - P-357 step 1 (post hoc): H_d = ∂R̄ fixed, H_u free — the bar reached on two rows (20.26); H_u must be nearly null to about 10⁻³; the record's pencils as H_u do not reach it (34.2, 82.5). The seat's reading-test relay rowed (1355); Lemmas A′, B checked on main. P-361 (the owner agreed to the seat's holomorphic reading test). FLOOR 361.
 - **Landing suite.** full suite 7 709 passed, 2 failed, 68 skipped (27:04, -n 8) on ea421dc72: the two failures are B805's attachment locks (P-239, standing).
+
+## 2026-10-24 — S213 THE FORM ROUTE EXHAUSTED ON MAIN (P-357)
+
+- Post hoc: H_d = ∂R̄ with H_u in Γ₄'s weight-8 and weight-10 spaces: 46.2, 46.3, 53.2, none at the bar; from weight 12 the forms span every direction (generators R, ∂R and one octic), so the family group alone cannot fix H_u. P-357 annotated.
+- **Landing suite.** full suite 7 709 passed, 2 failed, 68 skipped (24:40, -n 8) on 56548d331: the two failures are B805's attachment locks (P-239, standing).
