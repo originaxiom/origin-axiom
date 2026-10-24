@@ -7726,6 +7726,68 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W149. The cone and the defect (the breaking chain's first computation, at the owner's "lets address all these"): M's isotropic conic under O has exactly 26 special lines, X(4)'s special points; R's line map is X(4)'s equivariant map with local degree 1 at the cusp; every single holomorphic section of ρ ⊗ χ has its position along the cone fall at least as fast as e^{−π Im τ/2} or grow as fast, while the nine's target falls at 0.63 per unit Im τ; the quartic census gives the literature's four rigid classes. Every cell as predicted (`the_cone_and_the_defect.py`; `W149_RULE.md`)
+
+**Why.**
+- The breaking chain (`THE_BREAKING_CHAIN_2026-10-24.md`, section 6a) read B1743's target as a point of M's isotropic
+  cone moved along it by δ and off it by a small constant defect. It named this arc's content.
+- The rule (`W149_RULE.md`, 56a2d7d04) was committed and pushed before the script (02661af19). The output was
+  committed unread (03c9eb3d6). Before the commit, the script's helpers `num`, `yA_of` and `chart` were run in scratch
+  on hand-made vectors only. Disclosed: two slips were fixed then, a string conversion and the set-aside distance,
+  which the rule states as Euclidean.
+
+**The result (COMPUTED; one run; C1–C4 as predicted).**
+- **C1, the special lines (exact).** ⟨ρ(S), ρ(T)⟩ has order 48 linearly and 24 projectively, and preserves h·h.
+  - Its non-identity elements have 46 isotropic eigenlines, which are 26 distinct lines: 6 with stabilizer ℤ₄,
+    8 with ℤ₃ and 12 with ℤ₂. h₀ is a ℤ₄-line.
+  - On 2 000 random points of the conic the least |g h ∧ h| over g ≠ 1 is 0.014.
+- **C2, R's line map (30 digits).**
+  - R·R/|R|² ≤ 5 × 10⁻³¹ at 20 random τ. The T- and S-laws hold projectively to 6 × 10⁻³¹.
+  - [R(i)] has stabilizer order 2 and [R(ω)] order 3. [R(iy)] approaches one ℤ₄-line, conj h₀, monotonically:
+    0.12, 5.3 × 10⁻³, 2.3 × 10⁻⁴, 9.9 × 10⁻⁶ and 4.3 × 10⁻⁷ at y = 2, 4, 6, 8, 10.
+  - |s_R|/|q₄| is 2.8284074 at y = 2 and 2.82842709 at y = 3 (2√2 = 2.82842712).
+  - R's far-null part over its leading one equals |s_R|²/2 to 10⁻²⁸, since R is exactly null. Its e^{πy} multiple
+    is 3.9999442 and 3.9999999 at y = 2 and 3.
+- **C3, the quarter-turn bound.**
+  - ρ(T) in the line coordinates is diag(e^{2πi(1, 3, 7)/8}) (sympy). e₁'s exponent minus the null lines' is 1/4 or
+    3/4 mod 1.
+  - On R, F₂, ∂R and F₆, …, F₂₆ the slopes of ln|δ| over y = 4, …, 8 are −π/2 − kπ to 3 × 10⁻⁹, with
+    k = 0, 0, 0, 1, …, 6.
+  - The leading null line alternates between h₀ and conj h₀ with a. |δ_∂R|/|δ_R| = 2.0000000023 at y = 4 and 2 to 12
+    digits beyond.
+- **C4, the quartic census.**
+  - Of 400 draws, 8 lay within 10⁻³ of a tie and were set aside. The other 392 split 68 (6-orbit), 107 (8-orbit),
+    116 ((1, 0, 0)) and 101 ((1, 1, 1)), all within 6 × 10⁻¹³ of their vertex.
+  - None was unclassified, and each was the vertex minimizing λy + cA.
+- **Read-outs (against a fitted target; no test and no trial).**
+  - Main's target.json is sha-checked. On all ten rows the target leads with h₀, and ε + δ²/2 reproduces the recorded
+    I to five digits.
+  - On the eight L₂ rows the slope of ln|δ| against Im τ is −0.63, against the bound's −π/2 = −1.57.
+  - The 26 lines' (y, A): y = 0 on all, with A = ½, ⅓ and ⅜ on the 6-, 8- and 12-orbit lines (W64's values).
+
+**What it shows (a READING).**
+- **The record's special lines are X(4)'s special points.** M's isotropic cone, with O acting, is the octahedral
+  sphere. R's line map sends i, ω and the cusp to the ℤ₂-, ℤ₃- and ℤ₄-lines, and the cusp to conj h₀, the vertex
+  opposite the target's.
+- **A dichotomy for the position along the cone, as W146's is for the defect.** Every single holomorphic section of
+  ρ ⊗ χ, at any weight or character, is either null-led, with |δ| ≤ C e^{−π Im τ/2}, or e₁-led and growing. The
+  quarter-turn sets the rate, so no weight, character or level-4 form changes it. The target's δ falls at 0.63 per
+  unit Im τ, well inside the gap. So the target lies outside every single holomorphic section in both of its
+  coordinates.
+- **What could still reach it** is not one holomorphic section of ρ ⊗ χ. It is a non-holomorphic section, a sum of
+  sections with different multipliers, a field's vev, or a representation in which T is not O's quarter-turn.
+  - By hand, not computed: W146's harmonic F̄ + κF holds I, but its δ comes from the e₁ parts of F and F̄. Those fall
+    as e^{−π Im τ/2}, so it misses the δ half.
+- **The quartic cannot move the alignment.** In the record's frame one triplet with the phase symmetry has its
+  minimum at exactly one of four rigid classes (the literature's, here in the record's basis). h₀'s class is chosen
+  when c < 0 and λ > −c/2.
+- **So the fork (the breaking chain, section 5) narrows.** Neither a single form nor a single triplet's quartic gives
+  the target. What is left needs at least two objects, or one non-holomorphic one: two doublets (S212's route), a form
+  and a potential together, or a sum with different multipliers.
+
+**Status.** COMPUTED (the rule first; one run; every cell as predicted). WEAVE-type for C1, C3 and C4. C2 is about R,
+an object of the joint frame. 0 of 19.
+
 ## Reading: the breaking chain (READING; the owner's "nothing is for granted", 2026-10-24; `THE_BREAKING_CHAIN_2026-10-24.md`)
 
 Nothing here is computed beyond one scratch check, locked in the test. The page holds the whole reading, with a source
@@ -12588,6 +12650,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W149 | COMPUTED (the rule first; one run; every cell as predicted); WEAVE-type for C1, C3, C4 | the cone and the defect: 26 special lines of M's isotropic conic under O (6 ℤ₄, 8 ℤ₃, 12 ℤ₂), X(4)'s special points; R's line map X(4)'s equivariant map, local degree 1, tending to conj h₀; ρ(T) = diag(e^{2πi(1,3,7)/8}) in line coordinates, so every single holomorphic section of ρ ⊗ χ has |δ| ≤ C e^{−π Im τ/2} or grows (slopes −π/2 − kπ to 3 × 10⁻⁹ on the record's forms); the nine's target falls at 0.63 (read-out); the quartic census: four rigid classes, 392 of 392 |
 | Reading: the breaking chain | READING (no arc; by hand, one scratch check locked in the test; the owner's question) | every computed dynamics lands on a symmetric point (Michel's theorem on M's sphere; the stabilizers at i and ω); four objects named Higgs, the fits about h; the fork H-cov or a field's vev (P-132); M's isotropic conic is X(4) under O, R exactly isotropic with local degree 1 at the cusp; B1743's target is the cone's point s = δ off by ε + δ²/2, its on-cone part following τ at half R's exponent and its defect constant; the literature checked at the source (S4's four rigid minima, (0, 1, i) among them; no CP from one triplet; a one-loop holder of Im τ from T-charged masses); a draft of the rule's spontaneous-breaking sentence for the owner, not applied; W149–W151 proposed |
 | W147 | COMPUTED, exact (the rule first; one run; every cell as predicted); WEAVE-type, with a census of thread lines | what assigns the Higgs pair: of the ten pairs of GENESIS PF1-W's four Higgs spaces, only both doublets in h(12, 1) meet a common three-generation condition (0 and L6) and allow a pair term (holomorphic and Hermitian). TWO_HIGGS's {12, 20} shares condition 0 but allows none. No admissible pair closes W132's SU(2) remainder (sums 0, 8, 16, never 12). The weave cannot order the pair; 246 of the 266 thread lines can (the 20 of orders 1, 2, 3, 6 cannot). Not a trial. 0 of 19 |
 | W148 | COMPUTED (the rule first; one run; every cell as predicted except E6, failed as worded through an over-claim in this seat's own wrong-sign control, flagged before the run); a review of another seat's algebra | the audit lane's two P-210 notes on own code, none of its code run (it has none): the Green form's null planes are unitary graphs; the Q8 commutant is M₃ ⊗ I₂ (dimension 9) in two bases; the grading cuts the U(3) family to even ranks, index −3, −1, +1, +3; the Cayley chart, the projector path and the planes (8) as stated; Y_ab = −2δ_ab; the constant-tail operator, its L² plane, Weyl's bound, the threshold s² and the far-tail sequence as stated. No error by the lane. Not a trial. 0 of 19 |

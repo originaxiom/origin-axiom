@@ -20674,3 +20674,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   first generation to the Higgs's departure from the special point. That is the same departure this calculation
   studies.
   0 of 19.
+
+## 2026-10-24 — no single modular form can point the Higgs where the data want it
+
+- **The calculation, run once with its predictions published first,** held in every part.
+- **The geometry.** The "null" Higgs directions form the level-4 modular curve, point for point. The special
+  directions the record kept finding are exactly that curve's special points.
+- **The limit.** Every single modular form of the family symmetry either collapses onto a special point quickly or
+  runs away from it quickly, at a rate fixed by the symmetry's quarter-turn. The data's preferred direction does
+  neither: it drifts slowly. So no single form is the answer, in either of the two numbers that describe the
+  direction.
+- **What is left:** two fields working together (such as two Higgs doublets), a form combined with a potential, or
+  something that is not a modular form at all.
+  0 of 19.

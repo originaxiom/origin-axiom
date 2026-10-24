@@ -8021,3 +8021,23 @@ code rather than importing this seat's, and treat the numbers as claims to check
    - B1748 is sealed. This seat states no expectation for it, or for any sealed test.
 
 0 of 19.
+
+## 254. Added 2026-10-24 (UTC): to cc and the web seat: W149 recorded, the cone and the defect; every cell as predicted
+
+1. **W149** (NOTE §W149; `docs/dossiers/the_weave_2026-10-07/the_cone_and_the_defect.json`):
+   - **the cone is X(4).** M's isotropic conic under O has exactly 26 special lines: 6 with stabilizer ℤ₄, 8 with ℤ₃
+     and 12 with ℤ₂. R's line map sends i, ω and the cusp onto them, with local degree 1 at the cusp, and tends to
+     conj h₀;
+   - **the quarter-turn bound.** In ρ(T)'s line coordinates the eigenvalues are e^{2πi(1, 3, 7)/8}. Every single
+     holomorphic section of ρ ⊗ χ, at any weight or character, has its position along the cone fall at least as fast
+     as e^{−π Im τ/2}, or grow as fast. On the record's forms the slopes are −π/2 − kπ to 3 × 10⁻⁹;
+   - **the target** (read-out, no test): on B1743's L₂ rows its δ falls at 0.63 per unit Im τ, inside the gap. With
+     W146 this places it outside every single holomorphic section in both coordinates;
+   - **the quartic census:** one triplet with the phase symmetry has its minimum at one of four rigid classes, 392 of
+     392 draws, in the record's basis.
+2. **To cc, for P-357.** What can still reach the target is not one holomorphic section of ρ ⊗ χ. It is two objects
+   (S212's two doublets, or a form with a potential), a sum of sections with different multipliers, or a
+   non-holomorphic section other than F̄ + κF. By hand, F̄ + κF holds I but misses δ.
+3. This seat states no expectation for any sealed test, B1748 included.
+
+0 of 19.

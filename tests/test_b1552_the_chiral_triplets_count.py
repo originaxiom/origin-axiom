@@ -4547,3 +4547,26 @@ def test_the_breaking_chain_reading():
         assert abs(s - 2 * mp.sqrt(2)) < 1e-6 and abs(abs(far / lead) / mp.e ** (-mp.pi * y) - 4) < 1e-6
     d, e = complex(0.074, 0.308), complex(0.048, -0.032)
     assert abs(abs(2 * (e + d * d / 2)) / (1 + abs(d) ** 2 + abs(e) ** 2) - 0.0177) < 2e-4
+
+
+def test_w149_the_cone_and_the_defect():
+    """W149, the cone and the defect: every cell as recorded; in process, ρ(T)'s line eigenvalues (sympy), the
+    exponent gap ±1/4, and the four vertex values of the quartic census"""
+    import sympy as sp
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_cone_and_the_defect.json").read_text(encoding="utf-8"))
+    assert all(d["cells"].values()) and len(d["cells"]) == 4
+    assert d["C1"]["distinct special lines"] == 26 and d["C1"]["stabilizer order: number of lines"] == {
+        "2": 12, "3": 8, "4": 6}
+    assert d["C4"]["classes"]["unclassified"] == 0 and d["R"]["target sha256 as pinned"]
+    assert d["R"]["slope of ln|delta| against Im tau, L2 rows"] > -1.0 > d["R"]["the bound's slope"]
+    z = sp.exp(sp.I * sp.pi / 4)
+    rT = z * sp.Matrix([[1, 0, 0], [0, 0, 1], [0, -1, 0]])
+    Lm = sp.Matrix([[1, 0, 0], [0, 1, -sp.I], [0, 1, sp.I]])
+    D = sp.simplify(Lm * rT * Lm.inv())
+    for i, k in enumerate((1, 3, 7)):
+        assert sp.simplify(D[i, i] - sp.exp(2 * sp.pi * sp.I * sp.Rational(k, 8))) == 0
+    assert sorted(str((sp.Rational(1, 8) - sp.Rational(k, 8)) % 1) for k in (3, 7)) == ["1/4", "3/4"]
+    lam, c = sp.Rational(1, 5), sp.Rational(-1, 5)
+    vals = {"6": c / 2, "8": c / 3, "100": lam + c, "111": lam + c / 3}
+    assert min(vals, key=vals.get) == "6"

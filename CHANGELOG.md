@@ -1,5 +1,16 @@
 # Changelog
 
+## W149 recorded: the cone and the defect, every cell as predicted (relay §254)
+
+- **The cone is X(4).** M's isotropic conic under O has 26 special lines: 6 with ℤ₄, 8 with ℤ₃, 12 with ℤ₂. R's
+  line map carries i, ω and the cusp onto them, with local degree 1, and tends to conj h₀.
+- **The quarter-turn bound.** ρ(T)'s line eigenvalues are e^{2πi(1, 3, 7)/8}. So every single holomorphic section of
+  ρ ⊗ χ has its position along the cone fall at least as fast as e^{−π Im τ/2}, or grow. On the record's forms the
+  slopes are −π/2 − kπ to 3 × 10⁻⁹. The target falls at 0.63 (read-out), outside every such section.
+- **The quartic census:** four rigid classes, 392 of 392 draws classified.
+- **Surfaces.** NOTE (section and row), the lock test, relay §254, row 317, the state page, the breaking chain's
+  section 11. 0 of 19.
+
 ## W149's rule, committed before its script: the cone and the defect, data-free (relay §253); main's S215 and B1748 read
 
 - **Four cells:**

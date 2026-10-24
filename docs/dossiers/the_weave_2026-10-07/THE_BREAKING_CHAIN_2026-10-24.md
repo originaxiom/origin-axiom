@@ -359,6 +359,10 @@ text, and corrected one (9a).
    - It builds on B1646, B1655, W64 and the literature's classification (section 9c) instead of starting over.
    - Section 9c already answers its first question for one triplet and a quartic: the minimum is rigid. So W149's
      content is what a second field, an O-breaking term or a sextic does to it.
+   - **Done, 2026-10-24 (W149, every cell as predicted).** The cone is X(4) under O, with 26 special lines. Every single
+     holomorphic section of ρ ⊗ χ has its position along the cone fall at least as fast as e^{−π Im τ/2}, or grow. The
+     target's δ falls at 0.63 per unit Im τ (read-out), so section 6a's question 1 is answered: no such section has
+     the target's on-cone behaviour. The quartic census confirms the four rigid classes in the record's basis.
 2. **W150, the frame's heavy states as τ's holder, data-free.** Do the 27's exotics have masses that are T-charged
    Γ₄ forms? If they do, compute their one-loop potential in Im τ (Higaki, Kawamura and Kobayashi's mechanism,
    section 9a) and where it holds τ. This is the one route the literature offers to a finite Im τ set by integers.
