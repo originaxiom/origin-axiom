@@ -1,0 +1,15 @@
+Fourth software-fixture attempt; unchanged sources at 412c8578d.
+Existing research CPython 3.12.1, -B; exit 0. No science imports.
+This separately checks the strengthened six cases under the intended runtime.
+
+test_changed_source_refuses_before_sentinel_import (__main__.WrapperEngineeringChecks.test_changed_source_refuses_before_sentinel_import) ... ok
+test_exact_fixture_source_binds_once_and_only_to_its_packet (__main__.WrapperEngineeringChecks.test_exact_fixture_source_binds_once_and_only_to_its_packet) ... ok
+test_exception_is_not_converted_to_success (__main__.WrapperEngineeringChecks.test_exception_is_not_converted_to_success) ... ok
+test_missing_source_refuses_before_delegation (__main__.WrapperEngineeringChecks.test_missing_source_refuses_before_delegation) ... ok
+test_nonzero_return_is_not_converted_to_success (__main__.WrapperEngineeringChecks.test_nonzero_return_is_not_converted_to_success) ... ok
+test_static_population_matches_unimported_science_and_rejects_added_id (__main__.WrapperEngineeringChecks.test_static_population_matches_unimported_science_and_rejects_added_id) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.108s
+
+OK

@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "status": "runtime_metadata_only_not_admission",
+  "python": "3.12.1",
+  "implementation": "CPython",
+  "packages": {
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "reference_platform": "macOS-15.1-x86_64-i386-64bit",
+  "required_environment": {
+    "PYTHONHASHSEED": "0",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "SYMPY_GROUND_TYPES": "python"
+  },
+  "external_tools": [
+    "git"
+  ],
+  "observed_without_science_import": "2026-10-24",
+  "scope": "Metadata observation only; mathematical modules not imported; no reproducible-build or execution certificate"
+}

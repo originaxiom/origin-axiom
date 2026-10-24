@@ -694,3 +694,22 @@ explicitly retains the missing runtime/gate/engineering closure,
 prospective specification, gated runner, independent review and main
 acceptance. This is reviewable implementation progress, not a completed
 execution packet or a new physical result. Earlier seals are unchanged.
+
+## P210 wrapper software verification
+
+October 24. A separately sealed engineering design preceded a new
+hash-pinned wrapper around the unchanged strict-admission/custody runner.
+Six synthetic stdlib fixtures exercise binding, static test population,
+changed/missing infrastructure rejection and failure propagation. The
+first run failed on lexical versus resolved macOS temporary paths; it
+was preserved before correction. A later review strengthened the
+exactly-once assertion with explicit counters, preserving the earlier
+pass. The strengthened six cases pass both on default CPython 3.9.6
+and on the existing research CPython 3.12.1.
+
+The default interpreter lacks SymPy metadata; the existing research
+runtime has SymPy 1.14.0/mpmath 1.3.0. This discrepancy is recorded,
+not silently fixed by installation or relaxed requirements. Only metadata
+was inspected. These software outcomes do not execute the ten science
+checks, prove the global gate, complete the prospective source inventory,
+or supply independent/main acceptance. P-210 remains open.
