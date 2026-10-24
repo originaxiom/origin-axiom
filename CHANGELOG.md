@@ -1,5 +1,16 @@
 # Changelog
 
+## W156 recorded: the third opinion on main's B1749 — reproduced in full; agrees with main's scope (relay §276)
+
+- **Reproduced:** main's re-run (every cell identical), the calibration on own code for 20 fresh seeds (exact), the
+  125 apexes rebuilt and fresh against every shorter word, the best rows on own instrument, the strip's 12 rows.
+- **The strip's width on own instrument:** Re τ mod 1 about 0.2–0.8, Im τ 2.98–3.12; a random 125-point set reaches
+  it with probability 0.9966, so the thread rule is not tested.
+- **Failed as worded, diagnosed:** A1 (2.3 × 10⁻¹² in two minima), B2 (the rule's D taken from the wrong row, post
+  hoc), C2 (three residues of five covered, not four).
+- **Surfaces.** NOTE (section and row), a lock test, the post hoc check, the relay, the ledger row, the state page.
+  0 of 19.
+
 ## Reading: the six's lines and the level-5 rung, P-373's lead (relay §275)
 
 - **The weave sees a line's order, never the line** (W140), and the moves act on the lines of order N through

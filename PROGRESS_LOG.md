@@ -20909,3 +20909,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **How to test it honestly:** main can check lines of order 15 and 20, where the pattern predicts matches, and 13
   and 14, where it predicts none, with the test sealed before it runs.
   0 of 19.
+
+## 2026-10-24 — main's newest match, checked independently
+
+- **It holds up:** main's own scoring reruns identically, this seat's own code gets the same numbers, and the fresh
+  points really are fresh.
+- **What it means, now measured:** the matches sit on one narrow band of the shape, and almost any handful of points
+  in the right height range would find it. So the result says where the frame works well, not that the threads pick
+  that place.
+- **Three of the checks missed their exact wording** (a tolerance at the twelfth digit, a number this seat attached to
+  the wrong row, and a band a little narrower than guessed). Each is explained and none changes the conclusion.
+  0 of 19.

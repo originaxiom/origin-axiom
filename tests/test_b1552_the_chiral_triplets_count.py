@@ -4877,3 +4877,30 @@ def test_the_six_lines_and_the_level5_rung_reading():
     assert sum(per[n - 1] for n in range(1, 13) if n % 5 == 0) == 48
     note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
     assert "## Reading: the six's lines and the level-5 rung" in note
+
+
+def test_w156_the_third_opinion_b1749():
+    """W156: nine cells as predicted, A1, B2 and C2 failed as worded and diagnosed; in process, the necklace count of
+    length 12 (335) and the hit probability of a random 125-point set at the measured p"""
+    from itertools import product
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "third_opinion_b1749.json").read_text(encoding="utf-8"))
+    c = d["cells"]
+    assert [k for k, v in c.items() if not v] == ["A1", "B2", "C2"]
+    a1 = d["A1"]
+    assert a1["compare"]["returncode"] == 0 and a1["cells identical"] and a1["per-seed fractions exact"]
+    assert 1e-12 < a1["diff"]["max_rel"] < 1e-11
+    assert d["A2"]["per_seed_equal_main"] and abs(d["A2"]["mean"]["seat"] - 0.0002) < 1e-12
+    assert d["A3f"]["overlaps"] == [] and d["A3f"]["mirror pairs"] == 51 and d["A3f"]["independent (pairs + singles)"] == 74
+    assert d["C1"]["rows below 16.75"] == 12
+    assert d["C2"]["residues covered (of 5)"] == 3 and abs(d["C2"]["1 - (1 - p)^125"] - (1 - (1 - d["C2"]["p"]) ** 125)) < 1e-12
+    assert abs(d["B"]["row"]["D"] - 10.7098) < 1e-3 and abs(d["B"]["mirror image against the best row"]["J_rel"] - 2) < 1e-8
+    neck = set()
+    for t in product("LR", repeat=12):
+        w = "".join(t)
+        if "L" in w and "R" in w and not any(w == w[:k] * (12 // k) for k in (1, 2, 3, 4, 6)):
+            neck.add(min(w[i:] + w[:i] for i in range(12)))
+    assert len(neck) == 335
+    run = (here / "the_w156_d_check_run.txt").read_text(encoding="utf-8")
+    assert "0.605263158 3.0259 D 10.941" in run and "0.333333333 3.0551 D 10.71" in run
+    assert "## W156. The third opinion on main's B1749" in (here / "NOTE.md").read_text(encoding="utf-8")

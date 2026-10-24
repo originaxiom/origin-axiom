@@ -7726,6 +7726,75 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W156. The third opinion on main's B1749, the six at fresh apexes (main's ask; the owner's "lets do themall"): B1749 reproduces in full. Its calibration reproduces exactly on own code, its 125 apexes are rebuilt and fresh, its best rows reproduce on own instrument, and its strip is 12 rows that a random 125-point set reaches 99.7% of the time. Three cells failed as worded and are diagnosed: A1 by 2.3 × 10⁻¹² in two minima, B2 by a D this seat's rule assigned to the wrong row, C2 by the strip covering three residues of five, not four. This seat agrees with main's scope (`the_third_opinion_b1749.py`; `W156_RULE.md`)
+
+**Why.** Main asked for a third opinion as for W145: reproduce on own code and instrument, two seeds independently,
+the freshness, and an opinion on the scope (its handoff of 2026-10-24, §1). THE_BAR's grade waits for it.
+
+**The order.**
+- The rule (`W156_RULE.md`, 25ad32067) was committed and pushed before the script existed. One cell, C2, was
+  reworded before that commit after a hand estimate, as the rule discloses.
+- The script (78d8bb159) was committed before its one run (88 minutes on 4 workers). It loads W145's script unchanged
+  and re-points it. Before the commit it was checked only for syntax and names. While writing it, one census row's
+  first 600 bytes were printed to see its keys, showing a few of that row's values.
+- The output (c8a1259cd) was committed unread, then read once. One post hoc check followed, labelled below.
+
+**The result (COMPUTED; one run; nine cells as predicted, three failed as worded and diagnosed).**
+- **A0, the inputs.** The pins match, the census has 33 250 distinct points, and every file ARTIFACT_HASHES pins
+  matches.
+- **A1, the re-run: failed as worded.** Main's compare.py, run in a temporary tree at f3038f81b, exits 0. Every cell
+  is identical and every per-seed fraction exact. Of 472 numbers 430 are bit-identical, and the rest differ by at most
+  2.3 × 10⁻¹² relative (the free menu's minimum, 3.184916016380 against 3.184916016373), against the rule's 10⁻¹².
+  Diagnosed as last-digit differences of the environment, as in W142's A1: every graded quantity is identical.
+- **A2, the calibration on own code.** Every per-seed fraction equals main's exactly, for 20 seeds and three menus.
+  The minima agree to 8 × 10⁻¹³. The seat's menu: 0.020% on average, 0.075% at the worst seed; covariant 0.081%; factor
+  free 0.235%. Seed 1769 gives 1 of 4 000 and seed 1788 0 of 4 000, as main's referee found. χ²_nine is 191.841 (seat)
+  and 1 278.854 (the Standard Model's reading), to 3 × 10⁻¹⁴. The minimum, 3.573709, is tied to 10⁻¹¹ between the
+  mirror pair (2/5, 1/10) at Re τ 1/3 and (2/5, 1/2) at 2/3.
+- **A3, the apexes on own code.** The own apex rule gives B1720's 121 stored class points (heights to 4 × 10⁻¹⁶),
+  agrees with the run-length Lagrange value over 2 to 9 × 10⁻¹⁶, finds 335 necklaces of length 12 with 238 in the
+  window, and gives the census's 125 points for exactly its 238 listed words.
+- **A3f, the freshness.** None of the 125 lies within 10⁻⁶ of a top point of any of the 410 primitive words of length
+  2 to 11, under translation and the mirror. They are 51 mirror pairs and 23 singles, 74 independent, as main's
+  referee counted.
+- **A4, the lines.** The 266 lines are W140's, in the census at every apex.
+- **B0, the own instrument at the best row.** Residues to 1.4 × 10⁻³¹ and W96's joint law to 5 × 10⁻¹⁹. B1724's
+  T-law image keeps J (3 × 10⁻¹²), and the mirror image flips it exactly (relative difference 2), with every ratio and
+  ∣V∣ equal to 2 × 10⁻¹¹ in log.
+- **B1.** The named rows and the top five reproduce to 5 × 10⁻¹¹ in log, and J to 6 × 10⁻¹².
+- **B2, the best row from own values: failed as worded.** χ²_six 3.5737087 and the pulls agree with the stored row's to
+  10⁻¹⁰, and D = 10.7098 agrees with the stored row's to 6 × 10⁻¹⁴. But the rule wrote "D = 10.94", taking FINDINGS'
+  D to belong to the χ²-best row. Post hoc (`the_w156_d_check.py`, output `the_w156_d_check_run.txt`): D = 10.941 is
+  the row best by the largest factor, 0.6053 + 3.0259i (χ² 5.92), which B1741's code calls "best_six". The fault is
+  this seat's rule, not main's FINDINGS. At the χ²-best row D is 10.71, 1.2σ from the data's 10.58.
+- **C1, the strip in the census.** Exactly 12 rows lie below 16.75, all on (2/5, 1/10) and (2/5, 1/2), all on L_max,
+  all with (S̃, S, S) and c = 3, at heights 2.9605 to 3.1187.
+- **C2, the strip's width on own instrument: failed as worded on one clause.** Along (2/5, 1/10), the points below
+  the bar form one interval in Im τ at each Re τ where any exist, 2.98 to 3.12. They exist at Re τ 0.3, 0.5, 1.5 and
+  1.7, all in [0, 2]. That covers three residues of the five, 0.3, 0.5 and 0.7, where the rule asked for four: the
+  strip spans Re τ mod 1 from about 0.2 to 0.8, as the census's 12 rows do. The decisive part holds: p = 0.044 and
+  1 − (1 − p)¹²⁵ = 0.9966, main's referee's 99.7%. No point on L₂ is below the bar.
+- **D1, the sensitivity, against main's referee.** Allowance 0.05: minimum 5.086, fraction 0.009%. Uniform σ 0.10:
+  7.72, 0.060%. The lepton factor over {1, …, 5}: 0.059%. c = 1 alone: 125.84, with 27.7% of random hierarchies as
+  low.
+
+**This seat's opinion** (fixed in the rule; its precondition failed as worded in A1 and C2, both diagnosed, and with
+that disclosed the opinion stands).
+- **B1749 reproduces in full,** on main's code and on this seat's, and its points are fresh.
+- **This seat agrees with main's scope.** B1741's six-ratio specificity replicates on fresh points (p ≈ 2 × 10⁻⁴) as a
+  property of B1656's frame on its Im τ ≈ 3.0 strip of the order-10 lines (2/5, b), with c = 3 and the reading rule,
+  both by hand. A random 125-point set reaches the strip 99.7% of the time, so the thread rule is not tested.
+- **The strip fixes no CP sign.** Its mirror pair is tied to 10⁻¹¹ with opposite J.
+- **It rests on c = 3** (c = 1 alone: 125.8) and fails the nine (191.8). It is a value-level READING of a region of τ,
+  bankable as that and no more. What fixes Im τ ≈ 3.03 is P-373's open question. The reading on the lines (next below)
+  adds that the strip's lines are those on which the moves act through the level-5 rung.
+
+**Weave or thread.** A check of main's census over the apexes of every primitive word of length 12; the positive sits
+on one strip of the frame: a thread-and-frame result. A verification for main, not a new look.
+
+**Status.** COMPUTED. One run. Nine cells as predicted; A1, B2 and C2 failed as worded and are diagnosed, B2's post
+hoc. 0 of 19.
+
 ## Reading: the six's lines and the level-5 rung (P-373's lead, raised by main at P-375; 2026-10-24; READING with a lock, post hoc)
 
 **A READING: nothing new is computed beyond counting, and it adds no claim.** Main's question: are the order-5 and
@@ -13142,6 +13211,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W156 | COMPUTED (the rule first; one run; nine cells as predicted; A1, B2 and C2 failed as worded, diagnosed); a thread-and-frame result | the third opinion on main's B1749: compare.py re-runs with every cell identical (two minima differ by 2.3 × 10⁻¹²); the calibration reproduces exactly on own code (seat 0.020%, worst seed 0.075%; 1769 and 1788 at 1 and 0 of 4 000); the 125 apexes rebuilt on own code and fresh (none a top point of the 410 shorter words; 51 mirror pairs, 74 independent); the best rows reproduce to 5 × 10⁻¹¹, the T-law keeps J and the mirror flips it; the strip is 12 rows, Im τ 2.96–3.12 over Re τ mod 1 ≈ 0.2–0.8 on two mirror order-10 lines, reached by a random 125-point set with probability 0.9966; B2's D 10.94 belongs to the best-by-factor row, the rule's slip; this seat agrees with main's scope. 0 of 19 |
 | Lines | READING with a lock (post hoc; counting only) | the six's lines and the level-5 rung (P-373's lead): the weave sees a line's order, never the line (W140); SL(2, ℤ/N) maps onto SL(2, 𝔽₅) = 2I exactly when 5 | N, so the six's lines of order 5 and 10 (48 of 266) are exactly those on which the moves act through the level-5 rung; no line is singled out, and choosing them is a thread's choice under R1; a sealed test proposed to main: specific on the order-15 and 20 lines (96, 144), not on 13 or 14 (84, 72). 0 of 19 |
 | W155 | COMPUTED (the rule first; one run; every cell as predicted); H0 to H3 weave-type | the census over contents, Stage B, the Higgs direction: at the forced line no copy has a zero mode (q_{(0,½)} = 1/(4y) lightest on the domain); masses never change a cusp's leading term (the approach to κ_c matches −(μ²/4)Σcos/m⁴ / y to 0.4% at y = 400), so every record content and E₈'s 248 still run; S₃-invariant masses move the curve (y* 2.34 → 2.10 at μ = 1, t = 3.5) and at μ = 3 send every band content to ω; a condensate selects (0, ½), an orbit of three, depends on Im τ only, moves y* up by at most 0.09 and the band's t-window to [3.045, 4.555] at the largest tried, holding neither Im τ nor Re τ; option 1 closed at one loop. 0 of 19 |
 | W154 | COMPUTED (the rule first; one run after a failed launch, disclosed; every cell as predicted); C0 to C3 weave-type | the census over contents, Stage A: at the forced line every S₃-invariant content has V = −(A E₃ + B E₂), so at one loop it runs to the cusp, sits at ω or i, or holds τ on the axis at y*(t) ≈ 7t/π², t = B/|A|; ω gives way at t_c = 2.148; the band needs net ρ_Q bosons outweighing the rest 42 to 48 times in a 13% window; every record content and E₈'s 248 run to the cusp; B1704 reproduced. 0 of 19 |

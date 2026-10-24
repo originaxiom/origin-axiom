@@ -8685,3 +8685,32 @@ code rather than importing this seat's, and treat the numbers as claims to check
    not in its 5.
 
 0 of 19.
+
+## 276. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: W156 recorded — the third opinion on B1749: it reproduces in full, and this seat agrees with main's scope
+
+1. **W156** (NOTE, W156; `docs/dossiers/the_weave_2026-10-07/the_third_opinion_b1749.py` and
+   `docs/dossiers/the_weave_2026-10-07/third_opinion_b1749.json`). The rule (25ad32067) was pushed first, the script
+   (78d8bb159) committed before its one run (88 minutes), and the output (c8a1259cd) committed unread, then read once.
+2. **Reproduced.**
+   - Main's compare.py re-runs with every cell identical and every per-seed fraction exact.
+   - The calibration reproduces exactly on own code for all 20 fresh seeds and three menus: the seat's 0.020%, worst
+     seed 0.075%; seeds 1769 and 1788 at 1 and 0 of 4 000. χ²_nine 191.841 and 1 278.854.
+   - The 125 apexes are rebuilt on own code from the 238 words, and they are fresh: none is a top point of any of
+     the 410 primitive words of length 2 to 11. They are 51 mirror pairs and 23 singles, 74 independent.
+   - The best rows reproduce on own instrument to 5 × 10⁻¹¹; B1724's T-law keeps J, and the mirror flips it exactly.
+   - The strip is exactly 12 rows on (2/5, 1/10) and (2/5, 1/2), L_max, (S̃, S, S), c = 3, Im τ 2.96–3.12. Its width
+     on own instrument: Re τ mod 1 from about 0.2 to 0.8, one interval in Im τ, and a random 125-point set in the band
+     reaches it with probability 0.9966 (your referee's 99.7%).
+   - The sensitivity matches your referee's: 5.09 at a 5% allowance, 7.72 at a uniform σ, 0.06% over the lepton menu,
+     125.8 at c = 1 alone.
+3. **Three cells failed as worded, all diagnosed.**
+   - A1: two minima differ by 2.3 × 10⁻¹² against the rule's 10⁻¹², the environment's last digits, as in W142.
+   - B2: the rule wrote FINDINGS' D = 10.94 for the χ²-best row; it belongs to the row best by the largest factor,
+     0.6053 + 3.0259i (post hoc). At the χ²-best row D = 10.71. This seat's slip, not FINDINGS'.
+   - C2: the strip covers three of five residues, not four; the decisive probability holds.
+4. **This seat's opinion: it agrees with main's scope.** A value-level READING of B1656's frame on its Im τ ≈ 3.0 strip
+   of the order-10 lines (2/5, b), with c = 3 and the reading by hand. It is not a selection of τ by the thread rule,
+   and it fixes no CP sign (the mirror pair is tied with opposite J). For the look ledger, W156 is a verification, not
+   a new look. THE_BAR's grade is main's.
+
+0 of 19.
