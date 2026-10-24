@@ -645,3 +645,22 @@ derive the projective regularity condition. A complete variational end
 law or actual exterior, with all compensating fields and lift information,
 remains the target. These are unreviewed conditional derivations;
 no scientific packet was executed or complete physical-input row paid.
+
+## Symmetric state response and the grading premise
+
+October 24. The [P-210 response classification](SYMMETRIC_STATE_GREEN_RESPONSE_AND_GRADING.md)
+derives all maximal null planes of the fixed-fibre two-slot Green
+quotient as b=U a. The stated Q8 stabilizer restricts U to C tensor I2
+with C unitary on the three copies. Only imposing the source's chirality
+grading further restricts C to an involution, giving plus ranks 0,2,4,6
+and the conditional indices -3,-1,+1,+3. Without that grading the same
+chiral index formula is not licensed.
+
+Smooth response graphs can reach either extreme at the symmetric state
+while mixing the grading off that state. They are explicit algebraic
+comparators, not physically admitted replacements. The paper's symmetric
+coupling evaluates to -2 I3 but is not a boundary normal-response map
+on the critical doublet slots. A same-action exterior response with the
+actual geometric/spin lines, complete fields and domain is still owed.
+This authored unreviewed successor leaves P-210 open and executes none
+of the frozen scientific tests.
