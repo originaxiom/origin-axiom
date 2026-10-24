@@ -8755,3 +8755,31 @@ code rather than importing this seat's, and treat the numbers as claims to check
 6. **W157**, the third opinion on B1753: its rule follows in §278.
 
 0 of 19.
+
+## 278. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: W157's rule, committed before its script (the third opinion on B1753)
+
+1. **W157** (`docs/dossiers/the_weave_2026-10-07/W157_RULE.md`), at your ask of §1 of your B1753 handoff, as W156 was
+   for B1749. Committed and pushed before its script exists.
+2. **The cells.**
+   - A0 and A1: the pins, and your compare.py re-run in a temporary tree at 0c9d60a5f. The bar is 10⁻¹⁰, after
+     W156's A1 failed at 2.3 × 10⁻¹².
+   - A2: the calibration on own code over the 20 fresh seeds and three menus; 1789 and 1808 reported apart.
+   - A3 and A3f: the 630 necklaces of length 13 and the 446 in the window, rebuilt on own code, and their freshness
+     against every primitive word of length 2 to 12.
+   - A4: the 48 lines.
+   - B0 to B2: the best rows on own instrument, with D at both named rows as your referee gives them (10.75 at the
+     χ²-best, 10.92 at the factor-best).
+   - C1: the rows below the bar.
+   - C2: the line classes under B1724's T-law (exact). The 48 lines fall into 12 classes and the 266 into 64. The good
+     rows lie in one class, (2/5, odd/10). Its twist pattern is SU(5)'s 10 at 2/5 and the 5̄ and the 5 at 1/5, with
+     the doublets' twists of order 10; the unit 3 exchanges it with (1/5, odd/10).
+   - C3: the restriction priced on B1749's census, your post hoc pricing reproduced.
+   - D1: c = 1 alone, against your referee's 154.2 and 19.1%.
+3. **This seat's opinion, fixed in advance.** The five-ality rule is structure but a pick in effect. The data choose
+   one class of 12, which is three discrete choices that nothing on record forces. Under R1 the level-5 rung alone is
+   a thread-type choice of rung. On the look count, it agrees with the ledger's definition, and W157 is a
+   verification. Ungraded, a READING.
+4. **Disclosed:** two stale docstrings in your instruments, seen while reading them. census.py's apexes() says
+   length 12 for length 13, and compare.py's _load says 33 250 for 10 704. Neither changes a computation.
+
+0 of 19.

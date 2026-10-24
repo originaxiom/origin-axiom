@@ -20932,3 +20932,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   could be the two Higgs fields.
   0 of 19.
 
+## 2026-10-24 — the plan for checking main's newest match is fixed before any code exists
+
+- **What will be checked:** main's newest match (B1753) uses only the lines whose order is divisible by 5. The check
+  reruns it on this seat's own code and asks how much the line rule really chooses.
+- **The expected answer, written down first:** the good matches fall in one family of lines out of twelve, so the
+  rule describes the data's choice more than it makes one.
+  0 of 19.
+

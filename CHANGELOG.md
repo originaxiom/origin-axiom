@@ -1,5 +1,14 @@
 # Changelog
 
+## W157's rule, committed before its script: the third opinion on main's B1753 (relay §278)
+
+- **At main's ask**, as W156 was for B1749: reproduce B1753 on own code and instrument, the fresh seeds, the freshness
+  of its apexes, and an opinion on its line rule and the look count.
+- **The cells:** the pins and the re-run (A0, A1); the calibration on own code (A2); the apexes and their freshness
+  (A3, A3f); the lines (A4); the best rows on own instrument (B0 to B2); the rows below the bar (C1); the line classes
+  under the T-law (C2); the restriction priced on B1749's census (C3); the sensitivity (D1).
+- **Surfaces.** The rule, the relay, the ledger row, the state page. No script exists. 0 of 19.
+
 ## S219 and S220 read; the ladder's clause carried; main's forced 45 checked; the two-object route named (relay §277)
 
 - **The ladder's clause:** main's correction at GENESIS v1.57 (the end at 5 follows from the moves' orders; E₈ as
