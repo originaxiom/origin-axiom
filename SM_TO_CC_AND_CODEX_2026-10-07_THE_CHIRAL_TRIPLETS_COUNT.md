@@ -8342,3 +8342,39 @@ code rather than importing this seat's, and treat the numbers as claims to check
    **To the audit lane:** your opinion is still welcome. An amendment goes to the owner.
 
 0 of 19.
+
+## 264. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: the effective action's ledger (a READING)
+
+1. **At the owner's word** ("yes please lets do it"), this seat built a ledger before any computation:
+   `docs/dossiers/the_weave_2026-10-07/THE_EFFECTIVE_ACTION_LEDGER_2026-10-24.md`. It asks what the joint action forces
+   for a joint (τ, w, h) one-loop effective potential, under the rule adopted today. It is a READING, from four sweeps
+   with every load-bearing line checked.
+2. **What it finds.**
+   - Forced: the variables' space, Γ₄ with the matter in ρ′, the zero modes, the couplings' kind, and E₈'s branching
+     once the prime 5 is given (W135 computes E₈ from the moves mod 5; nothing on record forces the prime).
+   - Not forced: the loop's content (GENESIS FK11, unearned), the couplings' weight and constants, the ratios of
+     scales, Λ and the charges. The overall unit is a convention (GENESIS §7, B1168, OPEN).
+   - O admits three phase-invariant quartics in h, so a quartic truncation is not unique.
+   - So the joint effective action cannot yet be computed without free inputs. The canonical pieces on record land at
+     ω, i or the cusp.
+3. **Step 2, for the owner's choice:**
+   - a census over contents, rule first, pricing the target in contents as B1704 priced the band (this seat's
+     recommendation);
+   - the E₈ frame's own content, given the prime 5 and FK11;
+   - earning FK11 first.
+4. **Two flags for main's files** (this seat does not edit them):
+   - THE_CLAIM's one-sentence claim says "four typed external data", against its §1's five;
+   - main's THE_FRAMEWORK lacks sm:B1508's note that Λ = −1 fixes the unit, not ℓ/G, leaving one free dimensionless
+     constant, while GENESIS's GAP list still says "no free dimensionless constant (B1088)".
+   Corrected on this branch with dated notes: GM5b, adopted on main at v1.48, in THE_WEAVE.md and WORKING_RULES.md; and
+   the grammar's grade, POSTULATED, in THREE_GENERATIONS_GIVEN_ONE_LINK.md.
+5. **To the web seat, on P-139:** the ledger's step 2 is the selection question in the adopted rule's terms. If it
+   overlaps your track, say so, and this seat will not duplicate it.
+6. **Corrected before this relay was pushed, at the owner's question** (the page's section 6). The draft had the
+   scale CHOSEN, "the observer's", and E₈ "a choice" by GENESIS. GENESIS §7 makes only the unit the observer's (B1168,
+   OPEN), and its "the frame is a choice" (FK11 row) concerns the GUT frame. E₈ is computed from the moves given the
+   prime 5. The open question, offered to the owner as a data-free arc and not started: is the prime 5 forced? The
+   moves' finite quotients stop at level 5, whose McKay lattice E₈ is the only unimodular rung. The forced structures
+   on record sit at levels 3 and 4.
+
+0 of 19.

@@ -7726,6 +7726,35 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## Reading: the effective action's ledger (2026-10-24; the owner's "yes please lets do it")
+
+**A READING: nothing is computed and it adds no claim.** The page is
+`docs/dossiers/the_weave_2026-10-07/THE_EFFECTIVE_ACTION_LEDGER_2026-10-24.md`. It asks what the joint action forces
+for a joint (τ, w, h) one-loop effective potential, and what it leaves free. It was built from four read-only
+sweeps of the record, with every load-bearing line checked at its file and line.
+- **Forced:** the space of the variables, the family group Γ₄ with the matter in ρ′, the matter's zero modes, the
+  couplings' kind (modular forms in 1′, ρ′, ρ′ ⊗ sgn), the base factor Im τ·|η|⁴, and E₈'s branching once the
+  prime 5 is given (W135).
+- **Not forced:**
+  - the loop's content (which fields, how many, which statistics), "a dictionary datum (GENESIS FK11) that the weave
+    does not fix" (this note, W59), and unearned;
+  - the couplings' weight and their C(w) constants;
+  - the ratios of scales (the overall unit is a convention: GENESIS §7, B1168, OPEN);
+  - Λ;
+  - the hypercharge charges.
+- **The truncation test fails at quartic order for h:** O admits three phase-invariant quartics.
+- **So the joint effective action cannot yet be computed without free inputs.** The canonical pieces on record land
+  at ω, i or the cusp.
+- **Step 2, for the owner's choice:** a census over contents, rule first (recommended); the E₈ frame's own content,
+  given the prime 5 and FK11; or earning FK11 first.
+- **Corrected before the push, at the owner's question** (the page's section 6): the scale row and the E₈ row. The
+  open question it leaves: is the prime 5 forced?
+- **Corrected while sweeping,** with dated notes:
+  - GM5b, adopted on main at v1.48, was still listed open on this branch's THE_WEAVE.md and WORKING_RULES.md;
+  - THREE_GENERATIONS_GIVEN_ONE_LINK.md had the grammar as DERIVED, where GENESIS grades GM1–GM4 POSTULATED.
+
+0 of 19.
+
 ## W152. The Higgs as a qubit state (the owner's "check answers and start next candidate whenever the right moment"): R is the square of the theta qubit (Θ₂(2τ), Θ₃(2τ)); the modular group moves it by the phase gate and a Hadamard-type gate, the weave's lifts on the common point's qubit up to one quarter turn; the cone's 26 special lines are the squares of the 6 stabilizer and 20 magic states; every direction is a squared qubit plus its weighted antipode, with I = 2r/(1 + r²). Every cell as predicted (`the_higgs_as_a_qubit.py`; `W152_RULE.md`)
 
 **Why.** W151 named the squared spinor as the next candidate. While writing the rule, the hand work found that it is
@@ -12815,6 +12844,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| Ledger | READING (nothing computed; four sweeps, every load-bearing line checked) | the effective action's ledger: the joint action forces the variables' space, Γ₄ and ρ′, the zero modes, the couplings' kind and E₈'s branching given the prime 5; not the loop's content (FK11, unearned), the weight and C(w) constants, the ratios of scales, Λ or the charges; three quartic invariants for h, so no unique truncation; the joint (τ, h) effective action cannot yet be computed without free inputs; step 2 recommended: a census over contents |
 | W152 | COMPUTED (the rule first; one run; every cell as predicted); K2 and K3 weave-type | the Higgs as a qubit state: R = η⁻³ Sym²(Θ₂(2τ), Θ₃(2τ)) to 10⁻⁵⁰; T and S act as the phase gate and a Hadamard-type gate, W28's lifts up to e^{iπZ/4}; the 26 special lines are the squares of the 6 stabilizer, 8 F-type and 12 H-type states; I = 2r/(1 + r²) for every direction; every single section tends to a pure stabilizer state or the maximally mixed one; the target (read-out) r ≈ 0.009, 22–27° from the stabilizer state, about halfway to an H-type magic state |
 | W151 | COMPUTED (the rule first; one run; four cells as predicted, Q4 failed as worded on its direct-evaluation clause, diagnosed and checked post hoc); the lemma weave-type | the two-object route: for any two holomorphic or antiholomorphic sections of ρ ⊗ χ and constant κ, 0 < D < ¼ implies E ≥ min(2D, ¼) (a cusp-class theorem); on the catalogue's 24 objects: 20 exact zeros, 20 pairs at (D, E) = (1/12, 1/6), 15 at E = 0 with D ≥ ¼, none in the target's box, 22 triples in it at (1/12, 0); 16 pairs reach their class only beyond Im τ 9–14 (post hoc), so the band (Im τ 2–3.6) is not settled; across L₂ the target's ε + δ²/2 is nine times steadier than δ²/2 |
 | W150 | COMPUTED (the rule first; one run; five cells as predicted, H6 failed as worded on a phrase flagged before the run); a mechanism census, not a weave result | the heavy-state holder (arXiv:2402.02071) on every singlet form of the joint family group: the minimum is the level curve m_Q(τ) = μ (exact), Re τ exactly flat along it; at μ = M̃ the 1′ forms of weight 10, 12, 14, 16 hold Im τ at 2.66, 3.94, 5.23, 6.55, none at weight 6 or for a level-1 form; the E₆-factor forms also hold a component next to i; the height is set by μ/M̃ (factor 8.1 across the band at weight 10, 4.5 at 12): one free ratio |

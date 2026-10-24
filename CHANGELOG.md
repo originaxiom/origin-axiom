@@ -1,5 +1,21 @@
 # Changelog
 
+## The effective action's ledger (a READING; relay §264)
+
+- **At the owner's word, before any computation:** what the joint action forces for a joint (τ, w, h) one-loop
+  effective potential, and what it leaves free. Built from four sweeps, with every load-bearing line checked.
+- **Forced:** the space and the representations. **Not forced:** the loop's content (GENESIS FK11), the constants,
+  the ratios of scales. So the joint effective action cannot yet be computed without free inputs. A census over
+  contents is recommended.
+- **Corrected before the push, at the owner's question:** the scale row (the unit is a convention, GENESIS §7's
+  "the observer's", B1168 OPEN; the ratios are free) and the E₈ row (computed from the moves given the prime 5, W135;
+  the prime is the condition, and GENESIS's "the frame is a choice" concerns the GUT frame). The page's section 6 sets
+  out the open question: is the prime 5 forced?
+- **Corrected on this branch, with dated notes:** GM5b's status (adopted on main at v1.48) and the grammar's grade
+  (POSTULATED).
+- **Surfaces.** The page, NOTE (reading and row), the breaking chain (section 11), a lock test, the relay, the ledger
+  row, the state page. 0 of 19.
+
 ## THE WEAVE rule: "Spontaneous breaking is not a hand-pick" adopted by the owner (relay §263)
 
 - **The owner's ruling:** "i adopt it as per you recomendation, if you included the inishgts from two other seats".

@@ -20782,3 +20782,18 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - Nothing on record meets it yet. That makes the next real task precise: compute the system's own quantity, then
   minimize it.
   0 of 19.
+
+## 2026-10-24 — what would it take to compute the system's own energy function?
+
+- **Before computing it,** a ledger of what the system itself fixes and what it leaves open.
+- **The answer:** the system fixes the stage, meaning which quantities exist and how they transform. It does not fix
+  the cast: which particles run in the quantum loops, how many there are, and of which kind. That list is the record's
+  long-open "dictionary". The couplings' constants and the overall scale are open too.
+- **So the energy function cannot yet be computed without choices.** The honest next step is to ask, for every
+  allowed cast, where the lowest state would land, and what cast the data would need.
+  0 of 19.
+- **Two rows corrected before the push, at the owner's question.** The overall unit is a convention, like choosing
+  metres, and no theory derives it. The ratios between scales are real free numbers. The large symmetry group E₈ is
+  not simply chosen: the record builds it from the system's own moves, once the prime 5 is given. Whether the prime 5
+  is itself forced is the open question.
+  0 of 19.

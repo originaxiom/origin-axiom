@@ -121,7 +121,8 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   - Which moves are in the weave:
     - the swap (GENESIS GM5c), which doubles the triplet's group;
     - the sign, which is GENESIS GM5b on this branch and on main a move of its own that positivity excludes. It changes
-      nothing on the triplet but adds the − threads.
+      nothing on the triplet but adds the − threads. *(Dated 2026-10-24: main's GENESIS has ADOPTED GM5b at v1.48, by
+      the owner's ruling of 2026-10-16; this branch's older copy still lists it open. GM5c stays OPEN.)*
 - **The laws valid across the threads:** `docs/THE_WEAVES_LAWS.md`.
 - **The synthesis against the physics:** `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 

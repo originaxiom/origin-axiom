@@ -572,7 +572,7 @@ in `docs/THE_WEAVE.md`.
 - That amendment's demonstrated physical map is not needed for a weave result. A weave result is defined on the fibre every
   thread shares, so it needs no transport from one thread to another.
 - GENESIS IS CANONICAL holds unchanged. The question of which moves the weave contains is asked of main as GENESIS's open
-  GM5b and GM5c.
+  GM5b and GM5c. *(Dated 2026-10-24: main's GENESIS has since ADOPTED GM5b at v1.48; GM5c stays OPEN.)*
 - Every other standing rule applies unchanged.
 
 **First application, the same day.** `docs/dossiers/the_weave_2026-10-07/` (W1–W4) states, on all threads at once:

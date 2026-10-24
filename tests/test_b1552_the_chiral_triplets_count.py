@@ -4667,3 +4667,65 @@ def test_w152_the_higgs_as_a_qubit():
     sv = np.linalg.svd(S, compute_uv=False)
     r = sv[1] / sv[0]
     assert abs(abs(h @ h) / np.vdot(h, h).real - 2 * r / (1 + r * r)) < 1e-12
+
+
+def test_the_effective_action_ledger():
+    """The effective action's ledger (a READING): the page is labelled and pointed to; in process, O admits exactly
+    three phase-invariant quartics in h (the commutant of Sym^2 of the 24 rotations), and the joint determinant
+    |theta2 theta3 theta4|^2 / |eta|^6 is the constant 4"""
+    import itertools
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    page = (here / "THE_EFFECTIVE_ACTION_LEDGER_2026-10-24.md").read_text(encoding="utf-8")
+    assert "**A READING: nothing here is computed, and it adds no claim.**" in page
+    assert page.rstrip().endswith("0 of 19.")
+    assert "a dictionary datum (GENESIS FK11) that the weave does not fix" in page
+    assert "## Reading: the effective action's ledger" in (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## 6. Corrected before this page was pushed" in page and "(B1168, OPEN)" in page
+    assert "COMPUTED from the moves given the prime 5" in page and "CHOSEN: \"the observer's\"" not in page
+    # section 6's ladder: PSL(2, Z/N) has order 6, 12, 24, 60 at N = 2..5, and T(2, 3, N) has Cartan determinant 6 - N
+    for N, order in ((2, 6), (3, 12), (4, 24), (5, 60)):
+        els = {min(m, tuple(-x % N for x in m)) for m in itertools.product(range(N), repeat=4)
+               if (m[0] * m[3] - m[1] * m[2]) % N == 1}
+        assert len(els) == order
+    for N in range(2, 8):
+        n = N + 3
+        C = 2 * np.eye(n)
+        for i, j in [(0, 1), (0, 2), (2, 3), (0, 4)] + [(k, k + 1) for k in range(4, n - 1)]:
+            C[i, j] = C[j, i] = -1
+        assert round(np.linalg.det(C)) == 6 - N
+    rots = []
+    for perm in itertools.permutations(range(3)):
+        for signs in itertools.product((1, -1), repeat=3):
+            g = np.zeros((3, 3))
+            for i, j in enumerate(perm):
+                g[i, j] = signs[i]
+            if round(np.linalg.det(g)) == 1:
+                rots.append(g)
+    assert len(rots) == 24
+    pairs = [(i, j) for i in range(3) for j in range(i, 3)]
+
+    def sym2(g):
+        A = np.zeros((6, 6))
+        for c, (i, j) in enumerate(pairs):
+            E = np.zeros((3, 3))
+            E[i, j] = E[j, i] = 1
+            F = g @ E @ g.T
+            A[:, c] = [F[k, l] if k == l else F[k, l] for k, l in pairs]
+        return A
+    reps = [sym2(g) for g in rots]
+    P = np.zeros((36, 36))
+    for c in range(36):
+        X = np.zeros(36)
+        X[c] = 1
+        X = X.reshape(6, 6)
+        P[:, c] = (sum(A @ X @ np.linalg.inv(A) for A in reps) / 24).ravel()
+    assert np.linalg.matrix_rank(P, tol=1e-9) == 3
+    t = 0.3 + 1.1j
+    q = lambda x: np.exp(1j * np.pi * t * x)
+    t2 = sum(q((n + 0.5) ** 2) for n in range(-30, 31))
+    t3 = sum(q(n * n) for n in range(-30, 31))
+    t4 = sum((-1) ** n * q(n * n) for n in range(-30, 31))
+    qq = np.exp(2j * np.pi * t)
+    eta = np.exp(2j * np.pi * t / 24) * np.prod([1 - qq ** n for n in range(1, 200)])
+    assert abs(abs(t2 * t3 * t4) ** 2 / abs(eta) ** 6 - 4) < 1e-10

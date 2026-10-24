@@ -35,7 +35,7 @@ alone. The link is named below, and W25 and W26 show why the weave cannot supply
 
 | step | what | status | where |
 |---|---|---|---|
-| 1 | the principle gives the grammar: two records, the moves L and R | as GENESIS grades it (PF1–PF3 POSTULATED; the grammar DERIVED from them) | GENESIS §1–§2 |
+| 1 | the principle gives the grammar: two records, the moves L and R | as GENESIS grades it (PF1–PF3 POSTULATED; the grammar GM1–GM4 POSTULATED too: corrected 2026-10-24 against main's GENESIS v1.54, which this row had as DERIVED) | GENESIS §1–§2 |
 | 2 | **three**: the three non-zero parities of the records, the only three the moves leave undistinguished | PROVED | W1 |
 | 3 | **alike**: whatever one parity carries, all three carry | PROVED | Theorem G (W6) |
 | 4 | the common point ρ_Q (a ↦ i, b ↦ j), the one point every move fixes with the puncture parabolic; the bundle 𝕎 = ⊕_p χ_p ⊗ ρ_Q ≅ ρ_Q ⊗ ℂ³ | PROVED | W2; W24 D1 |

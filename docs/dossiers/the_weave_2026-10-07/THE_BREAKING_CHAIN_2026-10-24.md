@@ -391,6 +391,10 @@ text, and corrected one (9a).
 4. **W106, the democratic dynamics.** Proposed in the ladder reading and never started.
 5. **P-327,** B1704's potential on the fits' lines: main's queue (Q3), offered.
 6. **The joint (τ, h) potential,** after W149 and W150.
+   - **Its ledger, 2026-10-24** (`THE_EFFECTIVE_ACTION_LEDGER_2026-10-24.md`, a READING). The joint action forces the
+     space and the representations, not the loop's content (GENESIS FK11), the constants or the ratios of scales. So
+     the potential cannot yet be computed without free inputs. A census over contents is recommended as the next
+     step.
 
 **The assignment, stated.** The owner assigned the selection principle (P-139) to the web seat on 2026-10-14. This
 seat's W149 is at the owner's word of 2026-10-24, and it is relayed to the web seat so that neither duplicates the
