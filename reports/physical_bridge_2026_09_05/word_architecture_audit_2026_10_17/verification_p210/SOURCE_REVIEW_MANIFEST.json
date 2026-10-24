@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "kind": "author_source_review_inventory_NOT_execution_admission",
+  "design_commit": "03eba26c3",
+  "status": "UNRUN_NOT_IMPORTED_NOT_COLLECTED",
+  "expected_methods": [
+    "SymmetricResponseChecks.test_actual_symmetric_coupling_keeps_transpose_and_wrong_input",
+    "SymmetricResponseChecks.test_full_q8_commutant_and_nonscalar_family_freedom",
+    "SymmetricResponseChecks.test_four_cayley_planes_and_nonnull_wrong_graph",
+    "SymmetricResponseChecks.test_all_eight_graded_family_involutions_and_conditional_indices",
+    "SymmetricResponseChecks.test_null_graph_does_not_automatically_preserve_gamma",
+    "SymmetricResponseChecks.test_48_state_covariances_and_frozen_state_rejection",
+    "SymmetricResponseChecks.test_18_projector_paths_keep_opposite_limits_and_endpoint",
+    "SymmetricResponseChecks.test_tail_clifford_green_grading_and_wrong_commuting_symbol",
+    "SymmetricResponseChecks.test_both_decaying_slots_scalar_controls_and_zero_threshold",
+    "SymmetricResponseChecks.test_actual_cusp_conjugation_and_retained_bump_normalization"
+  ],
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/DESIGN.md",
+      "sha256": "6cbfcf7a2885ec49b80d9fc45f273ecaeb4fa45ba43c1778490a3c2f58839374"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/checks.py",
+      "sha256": "70d441f672228f6bbf9bb22e869a3575e6082d3002c7be044ad1c15c642b5a58"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SYMMETRIC_STATE_GREEN_RESPONSE_AND_GRADING.md",
+      "sha256": "1ec843f5fd186ea94528ce6d12de0a7989daefca1eff7e6f91c70b611ff8affe"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/P210_EXTERIOR_GAP_AND_THRESHOLD_DUTY.md",
+      "sha256": "b8ed860c60d320ff85d1e312a4f80242835f033334b043ab1be3e2afd75a10f3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COVARIANT_END_DOMAIN_SCOPE.md",
+      "sha256": "2c397e8d061b36d8818b35e4dd156de27b6b33adcf317f982a5ab4734ef895d5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_COUPLING_TRANSPORT.md",
+      "sha256": "54c7c58701d656ae09351de21e9de0cc8db9dd90f03e4a73102dde1a5c8112f5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_PRINCIPAL_PARTS_AND_GREEN_TRANSPORT.md",
+      "sha256": "577b00a1c6b8ff40a23d0b7f469790117740c713e058b6ddbd7610940c1571a7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXTERIOR_RESPONSE_AND_JOINING.md",
+      "sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/PROOF.md",
+      "sha256": "0102fc971479acc9d57a05c6234dcbf4ada7007269d96bc4931719bebabf929f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/probe.py",
+      "sha256": "3474603ed114ef24c26909abeacc97f1fafddc179705e83536acca8cfc8c1a6f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/PROOF.md",
+      "sha256": "21739f08bbe2ed0b95fe4232b48cb2bba484a57779e9021cad06f8f62f8fc4bf"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/PROOF.md",
+      "sha256": "3ac161b2e4418b8826de0926ef853262d2f98ef57a1743a663d0b488f7d153c0"
+    }
+  ],
+  "unresolved": [
+    "independent substantive proof and code review",
+    "source-complete prospective specification and environment",
+    "gated entrypoint and its own engineering controls",
+    "main acceptance of exact nonauthoring execution review",
+    "strict prospective admission and clean execution custody",
+    "global PDE and physical-parent identifications"
+  ]
+}

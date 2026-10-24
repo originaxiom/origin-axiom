@@ -682,3 +682,15 @@ next same-action duty: compute the actual asymptotic operator, gap,
 threshold channels, remote norm/state and grading before eliminating
 the exterior. This authored unreviewed argument leaves P-210 open;
 no scientific run or physical-input payment is claimed.
+
+## P210 verification design and unrun source implementation
+
+October 24. The [P-210 verification design](verification_p210/DESIGN.md)
+was sealed and committed at 03eba26c3 before implementing ten proposed
+exact controls. Static syntax and method-population inspection only
+was performed; no scientific module was imported, collected or run.
+The source-review manifest pins fourteen files. Its status document
+explicitly retains the missing runtime/gate/engineering closure,
+prospective specification, gated runner, independent review and main
+acceptance. This is reviewable implementation progress, not a completed
+execution packet or a new physical result. Earlier seals are unchanged.
