@@ -1,5 +1,13 @@
 # Changelog
 
+## S207 REVIEW 69 — THE HIGGS'S THREE REGIMES, AND THE TARGET THE MIXING SETS (R68-1, R68-2 resolved; P-359 DONE) (2026-10-24)
+
+- **Review 69** (docs/progress/REVIEWS.md; window `f1b7eb522..108bf2792`, 26 merges, 20 arcs): the mechanical half from `review_tools.py` with a fresh clone (gates all PASS, the belt ok); the seeded sample (B1728, B1734, B1739, B1741, B1743) and main's B1740, B1742, B1744, B1745 read in full.
+- **R68-1 resolved:** the review tools resolve an ARTIFACT_HASHES path relative to the arc and then to the repository (`resolve_hashed`, failing-path test) — run before the fix, the draft showed all four of the window's seals "missing" their dependencies; after it, every hash verifies. **R68-2 resolved:** harvest_debt.py lists no Codeberg mirror (`disabled_remotes_named`, planted test).
+- **A finding:** B1742 §3 re-derived B1728's law (the order-5 lepton–down identity) as new — an E54 instance, the same law as the previous one; dated corrections on B1742, P-355 and the law map's row. Error ledger: E54, E28 (the five-cell harvest rows) and E2 (B1741's A² rule) instances.
+- **Carried:** R69-4 (L230–L232), R69-5 (P-238, overdue), R69-6 (W130–W132, P-301), R69-7 (the aged relays and leads); new: R69-1 (THE READING TEST, P-357), R69-2 (glosses), R69-3 (run_suite.sh and the 8-core rule).
+- 0 of 19.
+
 ## S206 THE WEB SEAT'S FRAME LOCKS, ON MAIN (B1745, PROVED; P-358 DONE); THE READING TEST SEALED BY THE WEB SEAT (P-360) (2026-10-24)
 
 - **B1745 (PROVED).** All seven of THE_NEXT_ATTACK's frame locks hold on main's own code: K1 the canonical matrix in ρ(T)'s eigenframe (exact, sympy); K3 ∣V_cb∣ = ∣κ_u − κ_d∣ under the null Higgs (median 0.44%, largest 1.6% over 192 rows; the opposite sign of w errs by 71×, the control — in coupling()'s own index order w = +u₁); K4 the up channel's exact zeros (u₁ on order-5 lines, a₂ on order-10); K7 the cusp coefficients of R and ∂R; K2, K5, K6 in B1744, B1743, B1742. Read with it (the seat's): under the Standard Model's reading no Higgs direction gives even the coarse pattern on any of 1 064 rows over all 266 lines; where the light generation aligns, ∣V_tb∣ is about 0.1.

@@ -144,3 +144,21 @@ def test_on_mirror_reads_a_pushed_but_unfetched_mirror(tmp_path):
     first = run("git", "rev-parse", "HEAD~1", cwd=work).stdout.strip(); head = run("git", "rev-parse", "HEAD", cwd=work).stdout.strip()
     assert rt.on_mirror(first, "m", root=work)
     assert not rt.on_mirror(head, "m", root=work)                  # not pushed yet: reported absent
+
+
+def test_r68_1_repository_relative_dependencies_resolve(tmp_path):
+    """R68-1 (2026-10-24): a seal's ARTIFACT_HASHES pins its instruments relative to the arc and its dependencies relative to
+    the repository; both must resolve, and a missing path must stay missing (it is a defect, not silently skipped)."""
+    arc = tmp_path / "frontier" / "B9999_planted"; (arc / "verification").mkdir(parents=True)
+    (arc / "verification" / "inst.py").write_text("x = 1\n")
+    dep = tmp_path / "frontier" / "B9998_dep" / "verification"; dep.mkdir(parents=True); (dep / "lib.py").write_text("y = 2\n")
+    rel_arc = "frontier/B9999_planted"
+    assert rt.resolve_hashed(tmp_path, rel_arc, "verification/inst.py") is not None
+    assert rt.resolve_hashed(tmp_path, rel_arc, "frontier/B9998_dep/verification/lib.py") is not None
+    assert rt.resolve_hashed(tmp_path, rel_arc, "frontier/B9998_dep/verification/missing.py") is None
+    good = hashlib.sha256(b"y = 2\n").hexdigest()
+    read = lambda rel: (lambda f: f.read_bytes() if f else None)(rt.resolve_hashed(tmp_path, rel_arc, rel))
+    c = rt.seal_check("%s  frontier/B9998_dep/verification/lib.py\n" % good, read, "a", "b", lambda a, b: True, True)
+    assert c["ok"] == 1 and not c["defects"]
+    bad = rt.seal_check("%s  frontier/B9998_dep/verification/lib.py\n" % ("0" * 64), read, "a", "b", lambda a, b: True, True)
+    assert any("changed" in d for d in bad["defects"])

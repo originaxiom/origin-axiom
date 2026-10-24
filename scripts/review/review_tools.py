@@ -75,6 +75,14 @@ def on_mirror(commit, remote, root=None):
     return False
 
 
+def resolve_hashed(root, arc, rel):
+    """R68-1 (2026-10-24): a path in an arc's ARTIFACT_HASHES is relative to the arc (its instruments) or, failing that, to
+    the repository (the dependencies a seal pins in place, e.g. frontier/B1723_.../b1656_funcs.py); None when neither exists."""
+    root = pathlib.Path(root)
+    for f in ((root / arc / rel), (root / rel)):
+        if f.resolve().exists(): return f.resolve()
+    return None
+
 def seal_check(hash_text, read_file, seal_commit, verdict_commit, is_ancestor, remotes_have, disclosure_text="", sealed_copy=None):
     """one arc: hashes against the files as they are now; the seal strictly before the verdict; the seal on every remote.
     R61-4: a file changed after the seal is DISCLOSED when the arc's own pages (`disclosure_text`: FINDINGS and addenda) name
@@ -276,7 +284,7 @@ def gather(anchor):
         sc = git("log", "--diff-filter=A", "--format=%h", "--", p).split()[-1]
         vc = (git("log", "--diff-filter=A", "--format=%h", "--", str(arc / "arc_verdict.json")).split() or [None])[-1]
         anc = lambda a, b: subprocess.run(["git", "merge-base", "--is-ancestor", a, b], cwd=ROOT).returncode == 0
-        rd = lambda rel, arc=arc: ((ROOT / arc / rel).resolve().read_bytes() if (ROOT / arc / rel).resolve().exists() else None)
+        rd = lambda rel, arc=arc: (lambda f: f.read_bytes() if f is not None else None)(resolve_hashed(ROOT, arc, rel))
         pages = "".join(f.read_text(errors="replace") for f in sorted((ROOT / arc).glob("*.md")) if f.name != "PREREGISTRATION.md")
         kept = lambda rel, arc=arc: any("sealed_run" in q.name for q in (ROOT / arc).rglob("*sealed_run*"))   # the arc keeps its sealed run (R61-4's wording); the sealed instrument is in git at the seal
         c = seal_check((ROOT / p).read_text(), rd, sc, vc, anc, all(on_mirror(sc, r) for r in remotes), pages, kept)

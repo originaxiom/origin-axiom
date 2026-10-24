@@ -19,7 +19,8 @@ local remote-tracking refs (fetching first with --fetch) and reports, per seat:
     BACKLOG   ids in the seat's OWN index with no ledger row            (1a rule 3, one side)
     STALE     ledger rows whose ids resolve to no index entry           (1a rule 3, other side)
     RELAYS    seat-branch relay files with no RELAY_LEDGER row
-    MIRROR    origin vs codeberg heads, when the branch lives on both
+    MIRROR    the canonical remote vs a second remote, when a seat lists one (none since R68-2: Codeberg is disabled,
+              R66-1, and the owner's mirror `backup` holds main only)
 
 An unrowed NEW item older than STALE_DAYS fails (exit 2) -- the relay-debt ageing applied to the
 branch itself. --strict (used by `gates.py review-due`) fails on ANY debt: a review opens with
@@ -57,39 +58,47 @@ AUDIT_DIR = "reports/physical_bridge_2026_09_05"
 FC_DIR = "reports/fresh_physics_seat_2026-09-01"
 AUDIT_COMPANION = re.compile(r"_(DESIGN|PRIOR|CONTROL[A-Z_]*|REPAIR[A-Z_]*|DERIVATIVE|CHECKS|GATES|FAILURE|PARTIAL_CHECKS|PARTIAL_GATES)$")
 
+DISABLED_REMOTES = ("codeberg",)            # R68-2 (2026-10-24): disabled since R66-1, as B1709 did for the review tools
+
+
+def disabled_remotes_named(seats, disabled=DISABLED_REMOTES):
+    """the keys of the seats whose remotes name a disabled remote (R68-2's check; selftested on planted input)."""
+    return sorted(s["key"] for s in seats if any(r in disabled for r in s.get("remotes", ())))
+
+
 # ---- the seats: branch, remotes, how the ledger names them, how their index and item ids are read ----
 SEATS = [
     dict(key="sm", label="SM-derivation seat", branch="standard-model-derivation-0qt6ao",
-         remotes=("origin", "codeberg"), cell=("sm-derivation", "sm seat", "sm-seat")),
+         remotes=("origin",), cell=("sm-derivation", "sm seat", "sm-seat")),
     # RETIRED 2026-10-04 at the owner's word (S57): tagged retired/fc-physics-seat@659487bbd and deleted on both remotes;
     # R01-R72 harvested (R72 rows 1-3 VERIFIED). Kept as a comment so the key's history can be followed.
     # dict(key="fc", label="physics seat (fc)", branch="physics-seat-evaluation-8dkbrl", ...),
     dict(key="codex", label="codex seat", branch="seat-r001",
-         remotes=("origin", "codeberg"), cell=("codex",), retired="archive/codex-seat-r001@f7a49536"),
+         remotes=("origin",), cell=("codex",), retired="archive/codex-seat-r001@f7a49536"),
     dict(key="cc3", label="cc3 (paper seat)", branch="structure-genesis-first",
-         remotes=("origin", "codeberg"), cell=("cc3",), cell_not=("braver",), retired="archive/cc3-paper-lane@a31456d2"),
+         remotes=("origin",), cell=("cc3",), cell_not=("braver",), retired="archive/cc3-paper-lane@a31456d2"),
     dict(key="hostile", label="hostile-review seat", branch="paper-hostile-review-alero0",
          remotes=("golden_gate",), cell=("hostile",)),
     dict(key="cloud", label="cloud seat", branch="outside-bench",
-         remotes=("origin", "codeberg"), cell=("cloud",)),
+         remotes=("origin",), cell=("cloud",)),
     dict(key="braver", label="cc3 (braver-questions branch)", branch="b775-braver-questions",
-         remotes=("origin", "codeberg"), cell=("braver",), retired="archive/braver-questions@53da05f6"),
+         remotes=("origin",), cell=("braver",), retired="archive/braver-questions@53da05f6"),
     dict(key="qor5up", label="consolidation seat (qor5up)", branch="new-session-qor5up",
-         remotes=("origin", "codeberg"), cell=("qor5up", "consolidation"), retired="archive/qor5up@3851df2a"),
+         remotes=("origin",), cell=("qor5up", "consolidation"), retired="archive/qor5up@3851df2a"),
     dict(key="audit", label="audit seat", branch="physical-bridge-2026-09-05",
-         remotes=("origin", "codeberg"), cell=("audit seat", "audit:")),
+         remotes=("origin",), cell=("audit seat", "audit:")),
     # ADDED 2026-09-18 (B1425). This lane carried 60 commits and 24 xB-numbered arcs, with sealed
     # preregistrations pushed before their verification directories existed, and it was in NO seat list,
     # NO harvest pin and NO gate -- so nothing in this repository was watching it at all. Every other
     # entry above was watched and merely unread; this one was invisible. Pinned at its merge base so the
     # whole lane reads as debt until a harvest arc reads it.
     dict(key="sep16", label="sep16 seat (xB arcs)", branch="sep16-branch",
-         remotes=("origin", "codeberg"), cell=("sep16", "xB")),
+         remotes=("origin",), cell=("sep16", "xB")),
     # ADDED 2026-09-18 (B1426). The referee lane: it carries the outside review reports the paper is being
     # revised against, and it was watched by nothing. A review seat is still a seat -- its reports are items
     # main must read, and three of them arrived before anyone noticed the branch was unregistered.
     dict(key="review", label="paper-review seat", branch="paper-review-verification-kaz3f5",
-         remotes=("origin", "codeberg"), cell=("review seat", "referee")),
+         remotes=("origin",), cell=("review seat", "referee")),
     # ADDED 2026-10-02 (B1456). Two child lanes of the SM seat, opened that day and found by the lane survey's
     # live test, not by anyone remembering them. Each is the SM seat's tree plus a few commits of its own: the
     # seal-gate fix (applied on main in its own form) and a re-audit of which arcs declare a law (lead L243 (f),
@@ -104,7 +113,7 @@ SEATS = [
     # it forked from the physical-bridge lane on 2026-09-20, never pushed); pushed to both remotes at the owner's word.
     # Items = its report directories under reports/ other than the physical-bridge lane's.
     dict(key="auditfork", label="audit seat, fork lane", branch="fork-2026-09-20",
-         remotes=("origin", "codeberg"), cell=("audit-fork", "fork lane")),
+         remotes=("origin",), cell=("audit-fork", "fork lane")),
     # ADDED 2026-10-06 (B1478): the web seat (chat1) has its own branch from this date, at the owner's word, so that its
     # relays are committed on the sender's branch at send time. Items = its relay files relays/CHAT1_TO_CC_*.md.
     dict(key="chat1", label="web seat (chat1)", branch="web-seat",   # the ref is <remote>/chat1/web-seat; branches resolve by last segment

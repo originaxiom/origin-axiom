@@ -50,6 +50,12 @@ Re τ or Im τ gives χ²_six 1.04–3.43 (the seat's ±0.05: 1.04–10.3).
   14σ. The six are four independent quark ratios fitted with τ and discrete choices — as the seat's own Q1–Q4 say. The
   web seat's lepton_channels (row 1346) found the same identity independently. P-355.
 
+> *Corrected 2026-10-24 (Review 69, an E54 instance). The order-5 case above (k even: the lepton spectrum is the down
+> spectrum for every Higgs) is not new: it is B1728's law at N = 5 (d = e, with Y_e = Y_dᵀ; derived) and B1698's
+> observation, and §3 re-derived it without citing them. What §3 adds is the order-10 case (k odd), where the identity
+> holds only for a Higgs with no QI component, departing linearly in that component — beyond B1728's Higgs-independent
+> law (the web seat's lepton_channels has it as observed, not derived).*
+
 ## 4. The jtheta caution (W144, P-354)
 
 The SM seat's W144 found that mpmath's jtheta takes the principal nome root, wrong off −1 < Re τ ≤ 1. Main's

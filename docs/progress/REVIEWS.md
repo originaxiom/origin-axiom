@@ -7118,13 +7118,119 @@ disagrees with its output.
   S*; the two ingredients and the lepton factor; the menu (a calibration counted over the choices).
 
 ### Action items (Review 68)
-- [ ] R68-1: the review tools resolve repository-relative paths in a seal's ARTIFACT_HASHES (the dependencies section), with a failing-path test (owner: cc; a separate arc)
-- [ ] R68-2: harvest_debt.py stops reading Codeberg as a seat mirror (disabled since R66-1), as B1709 did for the review tools (owner: cc)
+- [x] R68-1: the review tools resolve repository-relative paths in a seal's ARTIFACT_HASHES (the dependencies section), with a failing-path test (owner: cc; a separate arc) — **resolved 2026-10-24 at Review 69:** `resolve_hashed` in the review tools (arc-relative, then repository-relative), with a failing-path test; the window's four seals now verify in full
+- [x] R68-2: harvest_debt.py stops reading Codeberg as a seat mirror (disabled since R66-1), as B1709 did for the review tools (owner: cc) — **resolved 2026-10-24 at Review 69:** no seat lists Codeberg; `disabled_remotes_named` with a planted test
 - [x] R68-3: L229 and L233–L237, the slope frame's research leads: keep or retire (owner: the owner; cc to state each lead's cost) — **resolved 2026-10-23 by the owner: keep all six and re-evaluate each in the light of the progress (P-309); the readers' verdicts and the probe queue in audit/drafts/leads_reeval/; the same for every parked lead (P-313)**
-- [ ] R68-4: L230 (c), (d), (f); L231's rows; L232's five reads (owner: cc; due at Review 70)
-- [ ] R68-5: P-238, the verifications by consequence (owner: cc; carried from R67-2, R66-6; due at Review 69)
-- [ ] R68-6: verify W131–W133 (P-300), W134–W135 (P-302) and W130 (P-298) on main; P-301 (B893's exactness); harvest the seats' third opinion on B1726 (P-304) (owner: cc)
+- [>] R68-4: L230 (c), (d), (f); L231's rows; L232's five reads (owner: cc; due at Review 70) — carried as R69-4
+- [>] R68-5: P-238, the verifications by consequence (owner: cc; carried from R67-2, R66-6; due at Review 69) — carried as R69-5 (overdue)
+- [>] R68-6: verify W131–W133 (P-300), W134–W135 (P-302) and W130 (P-298) on main; P-301 (B893's exactness); harvest the seats' third opinion on B1726 (P-304) (owner: cc) — partly resolved (W133 in B1730; P-302 and P-304 DONE); the rest carried as R69-6
 - [x] R68-8: the pre-push hook runs the gates on the commit being pushed (a clean worktree at that commit), not on the working tree, with a failing-path test (owner: cc) — **done 2026-10-23: `scripts/gates/prepush.py` gates each pushed commit in a detached worktree at that commit; the local hook calls it and REPRODUCIBILITY.md documents it; `tests/test_prepush_clean_tree.py` (a failing gate fails the push; the worktree sits at the pushed commit, unmodified, and is removed; deletions skipped)**
 - [x] R68-7: filed at this review: L228 resolved (C25's quantifier, dated notes on C25 and the law map's row; P-301); dated notes on B1718 and B1724; E91; four terms in TERMINOLOGY; the RELAY_LEDGER rows for the web seat's Higgs-arc relay and its W133 check
 
 **anchor-commit: `f1b7eb522`**
+
+# Review 69 (2026-10-24) — the Higgs's three regimes, and the target the mixing sets
+
+26 merges since Review 68 (`f1b7eb522..108bf2792`, all on the first-parent line) and 20 arcs with a verdict
+(B1726–B1745), written at the head. The review was due at twenty (the counter stood at twenty-five).
+
+**What the window did:**
+- **The six reached at value level, as readings with two ingredients by hand** (the lepton factor c = 3 and the reading
+  rule): replicated specifically on fresh points (B1726); below the precision bar with τ fitted (B1735); with τ at a
+  thread's apex and no continuous number fitted, χ²_six 14.93 (B1741, sealed; not PASSED under THE_BAR, the referee's
+  true p 1–7%). τ meets the "which thread" wall (P-350).
+- **The Higgs, in three regimes:** nearly null with the conjugate in one sector — hierarchy, misaligned light states
+  (B1739); non-null — aligned, no hierarchy (B1740, sealed NEGATIVE); two nearly null directions read the same way —
+  hierarchy, aligned, mixing too small (the web seat's sealed TWO_HIGGS, verified on main, B1742).
+- **The nine's target** (B1743, post hoc): one Higgs read the same way in every sector reaches χ²_nine 17.3 at a nearly
+  null direction with a fixed invariant ∣h·h∣/∣h∣² ≈ 0.017 and an e₁ admixture ≈ 0.3; no pencil of record forms, no
+  rescaled form and not the Higgs's own twist (B1744) reaches it. det Y = (h₀² + h·h)(w² + u·u)(h₀w + u·h): the
+  invariant sets the first generation (P-357).
+- **The frame's structure, on two codes:** B1736 (the closed form; the family group is the frame's own), B1745 (the web
+  seat's seven frame locks verified on main), B1728 (the line's order as a quotient of hypercharge).
+- **Still 0 of 19.**
+
+## 1. The loop (Review 68's block)
+
+- **R68-1 RESOLVED (this review):** `scripts/review/review_tools.py` resolves an ARTIFACT_HASHES path relative to the arc
+  and, failing that, to the repository (`resolve_hashed`), with a failing-path test (`tests/test_review_tools.py`,
+  planted arc and dependency, a wrong hash caught). It was a real reporting bug: run before the fix, this review's
+  mechanical draft showed all four of the window's seals "missing" their dependencies; after it, 9/9, 11/11, 10/10 and
+  11/11 hashes verify.
+- **R68-2 RESOLVED (this review):** `scripts/checks/harvest_debt.py` no longer lists Codeberg as a seat mirror (ten seat
+  entries), with `disabled_remotes_named` and a planted test (`tests/test_harvest_debt_gate.py`).
+- **R68-4 CARRIED** (L230 (c), (d), (f); L231's rows; L232's reads; due at Review 70) → R69-4.
+- **R68-5 CARRIED, OVERDUE** (P-238, the verifications by consequence; due at this review, not done) → R69-5, escalated
+  by name to the next landing that has no sealed test in flight.
+- **R68-6 PARTLY RESOLVED:** W133 verified (B1730); W134–W135 (P-302 DONE, B1736); the third opinion on B1726 (P-304
+  DONE, the SM seat's W138). Still owed: W131, W132 (P-300), W130 (P-298), P-301 (B893's exactness) → R69-6.
+
+## 1b. The aged debts
+
+At the date's turn nine relays (the codex lane's 2026-10-02 packets, two of main's, one held correction) and leads
+L238–L240, L242, L243 passed 21 days; S205 escalated each by name to this review (P-359), and L241, standing at the
+owner's word, was marked so. This review takes them as R69-7: each is read and closed or given a dated next action at
+the next review; none is closed here unread.
+
+## 2. The branch inventory and the lanes
+
+Twelve unmerged leaves, all registered (B763's registry or the harvest ledger's pins); the seat branches live on
+`origin` only, as since R66-1 (the owner's mirror `backup` holds main). The web seat (+354, tip 2026-10-24) and the SM
+seat (+988, tip 2026-10-23) are live and harvested to their pins (`c2067c1b`, `efee1835`); the web seat's sealed
+THE READING TEST is running (P-360). Harvest debt: 0 new unrowed, 0 backlog, 0 stale rows, 0 relays without a row.
+
+## 3. The declared modulus
+
+**fresh-clone: PASS @ 108bf2792 (gates all PASS; belt ok)** · **sample seed: f1b7eb522**; read in full: B1728, B1734, B1739, B1741, B1743 ·
+**gate controls: 45 registered** failing-path tests; unregistered: none · **full suite: 7 697 passed, 2 failed, 68 skipped (24:03, -n 8) on 108bf2792; both failures are B805's attachment locks (P-239).**
+
+- **Read in full:** the seeded sample (seed = the anchor): B1728, B1734, B1739, B1741, B1743; and main's own arcs of the
+  window's last night, B1740, B1742, B1744, B1745.
+- **Skimmed against their verdicts:** the other eleven arcs.
+- **Re-run:** the full suite at every landing of the window (last: 7 697 passed, 2 failed — B805's attachment locks,
+  P-239 — 68 skipped); the fresh clone at `108bf2792` (gates all PASS, the reproduction belt ok).
+- **Not certified:** the seats' results beyond what main re-ran (each named in its harvest row); THE READING TEST
+  (in flight).
+
+## 4. The sample, read
+
+- **B1728:** sound; its law (d = e iff N ∣ 4 or 5, Y_e = Y_dᵀ on order-5 lines) is used later in the window — and was
+  re-derived without citation (below).
+- **B1734:** sound and correctly graded (a reading carried by one thread pair on an order-5 line, D = 9 excluded).
+- **B1739, B1741, B1743:** sound as corrected before their pushes (B1741's vacuous A² reading and its seeds' wording;
+  B1743's R5 reading softened).
+- **A finding on the window's last arcs:** B1742 §3 presented the order-5 case of the lepton–down identity (on
+  (2/5, k/10), k even, the lepton spectrum is the down spectrum for every Higgs) as main's new mechanism; it is B1728's
+  law at N = 5 (and B1698's observation). What B1742 adds is the order-10 case: there the identity holds only for a
+  Higgs with no QI component, beyond B1728's Higgs-independent law. Dated corrections on B1742 and P-355; an E54
+  instance (the sweep searched "lepton.down identity|D = 9" where the record says "d = e" and "Y_e = Y_dᵀ").
+
+## 5. Protocol integrity
+
+Four seals in the window (B1732, B1734, B1740, B1741): every hash verifies and each seal precedes its results. B1740's
+census was paused for B1741 and resumed from its checkpoint (disclosed in both arcs); its run log's one runtime line
+carried a local path and was redacted in the outputs' commit before any push (disclosed in that commit's message).
+Post hoc work is labelled throughout (B1743, B1744 §3).
+
+## 6. Advancement, errors, provenance
+
+- **Advancement:** LAW_MAP +21 rows, THEOREM_REGISTRY +0. Nothing moved to DERIVED; no row's status exceeds its evidence
+  after B1742's correction.
+- **Errors:** E91 (the one-branch control) was new at Review 68; this window adds instances of E54 (B1742, above), E28
+  (S200–S205's harvest rows 1329–1351 written in five cells, which `harvest_debt.py` skips — invisible to the gate until
+  B1306's slice-D lock found an unrowed relay; all 23 rewritten in eight cells) and E2 (B1741's A² line rule, vacuous on
+  its class). Two breaches of the 8-core rule, both caught by main the same night: one shell-backgrounded launch, and
+  `scripts/run_suite.sh --changed` falling back to the full suite at its default `-n 12` (R69-3).
+- **Provenance:** 2 927 added lines scanned, 0 hits.
+- **Unglossed vocabulary:** "third opinion", "zero-free Higgs", "nearly null", "the Standard Model's reading",
+  "χ²_six / χ²_nine", "best nine-row" — R69-2.
+
+### Action items (Review 69)
+- [ ] R69-1: harvest and verify the web seat's THE READING TEST when it lands (P-360), and P-357 (what fixes the Higgs's invariant at about 0.018) (owner: cc)
+- [ ] R69-2: gloss in TERMINOLOGY.md the window's unglossed terms (third opinion, zero-free Higgs, nearly null, the Standard Model's reading, χ²_six and χ²_nine, the nine's target) (owner: cc)
+- [ ] R69-3: `scripts/run_suite.sh`'s parallel default (-n 12) and `--changed`'s full-suite fallback respect the 8-core rule, with a test (owner: cc)
+- [>] R69-4: L230 (c), (d), (f); L231's rows; L232's five reads (carried from R68-4; owner: cc; due at Review 70)
+- [>] R69-5: P-238, the verifications by consequence (carried from R68-5, itself carried from R67-2 and R66-6; overdue; owner: cc)
+- [>] R69-6: verify W131, W132 (P-300), W130 (P-298) on main; P-301 (B893's exactness) (carried from R68-6; owner: cc)
+- [ ] R69-7: the aged relays and leads escalated to this review (P-359): each read and closed, or given a dated next action (owner: cc)
+- [x] R69-8: filed at this review: R68-1 and R68-2 fixed with failing-path tests; B1742's and P-355's dated corrections; the E54, E28 and E2 instances

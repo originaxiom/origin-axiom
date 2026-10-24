@@ -95,3 +95,11 @@ def test_a_retired_seat_needs_its_tag(monkeypatch):
     monkeypatch.setattr(m, "SEATS", fake)
     rep = m.run(strict=True)
     assert any("codex: retired, but its tag archive/no-such-tag@00000000 is missing" in x for x in rep["integrity"])
+
+
+def test_r68_2_no_seat_reads_a_disabled_remote():
+    """R68-2 (2026-10-24): Codeberg is disabled (R66-1); no seat may list it as a mirror, and the check catches a planted one."""
+    spec = importlib.util.spec_from_file_location("hd_r682", str(Path(__file__).resolve().parents[1] / "scripts" / "checks" / "harvest_debt.py"))
+    m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+    assert m.disabled_remotes_named(m.SEATS) == []
+    assert m.disabled_remotes_named([{"key": "planted", "remotes": ("origin", "codeberg")}, {"key": "ok", "remotes": ("origin",)}]) == ["planted"]

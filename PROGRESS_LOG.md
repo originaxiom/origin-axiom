@@ -17861,3 +17861,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - **B1745 (PROVED).** The web seat's seven frame locks verified on main (K1, K3, K4, K7 here). P-358 DONE. The web seat's sealed READING TEST rowed (P-360). FLOOR 360.
 - **Landing suite.** full suite 7 697 passed, 2 failed, 68 skipped (24:03, -n 8) on a6d3491a3: the two failures are B805's attachment locks (P-239, standing).
+
+## 2026-10-24 — S207 REVIEW 69
+
+- **Review 69** written (the window f1b7eb522..108bf2792; the fresh clone passes). R68-1 and R68-2 fixed with failing-path tests; B1742's re-derivation of B1728's law corrected (E54); E28 and E2 instances filed. P-359 DONE. Its action items R69-1 to R69-8.
+- **Landing suite.** full suite 7 699 passed, 2 failed, 68 skipped (24:13, -n 8) on a26b8898e: the two failures are B805's attachment locks (P-239, standing).
