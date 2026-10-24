@@ -1,5 +1,12 @@
 # Changelog
 
+## S208 REVIEW 69'S ANCHOR AND TWO OF ITS ITEMS (R69-2, R69-3) (2026-10-24)
+
+- **Review 69's anchor-commit** `d64dd547c` (the established one-line follow-up); the review counter reset.
+- **R69-3:** `scripts/run_suite.sh`'s parallel default is `-n 8` (the owner's 8-core rule), which `--changed`'s fallback inherits; a lock with a planted default (`tests/test_suite_runner_cores.py`).
+- **R69-2:** six glosses in TERMINOLOGY.md — third opinion, zero-free Higgs, nearly null (Higgs), the Standard Model's reading, χ²_six and χ²_nine, the nine's target.
+- 0 of 19.
+
 ## S207 REVIEW 69 — THE HIGGS'S THREE REGIMES, AND THE TARGET THE MIXING SETS (R68-1, R68-2 resolved; P-359 DONE) (2026-10-24)
 
 - **Review 69** (docs/progress/REVIEWS.md; window `f1b7eb522..108bf2792`, 26 merges, 20 arcs): the mechanical half from `review_tools.py` with a fresh clone (gates all PASS, the belt ok); the seeded sample (B1728, B1734, B1739, B1741, B1743) and main's B1740, B1742, B1744, B1745 read in full.

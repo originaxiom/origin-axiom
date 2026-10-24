@@ -17,7 +17,7 @@
 set -u
 cd "$(dirname "$0")/.."
 if [ "${1:-}" = "--changed" ]; then shift; exec python3 scripts/affected_tests.py --run "$@"; fi
-MODE="-n 12"; MARK=()
+MODE="-n 8"; MARK=()      # R69-3 (2026-10-24): at most 8 of 16 cores (the owner's rule); --changed falls back to this
 while :; do
   case "${1:-}" in
     --serial) MODE=""; shift;;

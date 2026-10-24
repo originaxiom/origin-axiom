@@ -17866,3 +17866,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - **Review 69** written (the window f1b7eb522..108bf2792; the fresh clone passes). R68-1 and R68-2 fixed with failing-path tests; B1742's re-derivation of B1728's law corrected (E54); E28 and E2 instances filed. P-359 DONE. Its action items R69-1 to R69-8.
 - **Landing suite.** full suite 7 699 passed, 2 failed, 68 skipped (24:13, -n 8) on a26b8898e: the two failures are B805's attachment locks (P-239, standing).
+
+## 2026-10-24 — S208 REVIEW 69'S ANCHOR; R69-2, R69-3
+
+- Review 69's anchor-commit d64dd547c; run_suite.sh's default -n 8 with a lock (R69-3); six glosses (R69-2).
+- **Landing suite.** full suite 7 702 passed, 2 failed, 68 skipped (22:52) via scripts/run_suite.sh at its new default -n 8 on 5630368e2's tree: the two failures are B805's attachment locks (P-239, standing).

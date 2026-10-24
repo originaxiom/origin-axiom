@@ -7234,3 +7234,5 @@ Post hoc work is labelled throughout (B1743, B1744 §3).
 - [>] R69-6: verify W131, W132 (P-300), W130 (P-298) on main; P-301 (B893's exactness) (carried from R68-6; owner: cc)
 - [ ] R69-7: the aged relays and leads escalated to this review (P-359): each read and closed, or given a dated next action (owner: cc)
 - [x] R69-8: filed at this review: R68-1 and R68-2 fixed with failing-path tests; B1742's and P-355's dated corrections; the E54, E28 and E2 instances
+
+**anchor-commit: `d64dd547c`**

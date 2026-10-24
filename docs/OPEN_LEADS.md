@@ -3906,6 +3906,23 @@ selection (B1606); and the principle's own tick a → ab, b → a carries one ha
 the reverse, so neither hand is derived on the weave (B1607, GENESIS v1.29). **Derived parameters: 0 of 19.** Next: the
 even subweave, where both hands are global choices (B1609); the review's items R61-1 to R61-5.
 
+## ⟳ VIEW REFRESH — 2026-10-24 (Review 69)
+
+Touched at the Review 69 anchor (`d64dd547c`). **The window (B1726–B1745; 26 merges) reached the six at value level as
+readings, mapped the Higgs's three regimes, and stated exactly what the quark mixing needs.**
+- **The six at value level, as readings** (the lepton factor 3 and the reading rule by hand): replicated (B1726), below
+  the precision bar with τ fitted (B1735), and with τ at a thread's apex and no continuous number fitted (B1741, sealed;
+  not PASSED under THE_BAR). τ meets the "which thread" wall (P-350). On the α = 2/5 lines the leptons are the down
+  quarks (B1728's law; B1742), so the six are four numbers there and D = 9, which P-094 excludes.
+- **The Higgs's three regimes:** nearly null with the conjugate in one sector — hierarchy, misaligned (B1739); non-null —
+  aligned, no hierarchy (B1740, sealed NEGATIVE); two nearly null directions read the same way — hierarchy, aligned,
+  mixing too small (the web seat's TWO_HIGGS, verified on main, B1742).
+- **The nine's target** (B1743): a nearly null Higgs with its invariant fixed near 0.017 and an e₁ admixture near 0.3;
+  no form on record, no pencil of two, not the Higgs's own twist (B1744) reaches it. det Y = (h₀² + h·h)(w² + u·u)(h₀w + u·h):
+  the invariant sets the first generation (P-357). The frame's mixing structure stands on two codes (B1745).
+- **Open:** P-357 (what fixes the invariant); the web seat's sealed READING TEST (P-360); Review 69's items R69-1–R69-7.
+  **0 of 19.**
+
 ## ⟳ VIEW REFRESH — 2026-10-23 (Review 68)
 
 Touched at the Review 68 anchor (`f1b7eb522`). **The window (B1705–B1728; 35 merges) sealed the completion map's first

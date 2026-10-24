@@ -754,6 +754,12 @@ new file. (E23 territory — the class where a convention flips silently between
 | **scope tag** | frame, object, reach (single, class, general), hypotheses — in every verdict file and kill-graph entry from B1454 |
 | **thread** | one object the principle allows (m000, m003, m004, +LLLR …): one closed path of the moves through the shared fibre, the two records; "the object" is one thread, m004 (THE WEAVE, 2026-10-07) |
 | **the weave** | the joint action of every allowed move on the two records and everything it forces; a weave result takes all threads under a stated rule, is defined by the joint action and claims about all at once; every arc from B1491 carries `weave_or_thread` in its verdict file (`docs/THE_WEAVE.md`; B1600) |
+| **third opinion** | the rule that a positive value match is banked as more than a reading only after a second seat (or main, for a seat's result) re-runs it on its own code; e.g. B1742 for the web seat's TWO_HIGGS |
+| **zero-free Higgs** | a weight-3/2 Higgs direction whose invariant has no zero on the upper half-plane; under PF1-W read on the Higgs every such direction is a theta power F_a = η^{3−a}(εθ₂^a, εθ₄^a, iθ₃^a), a ≡ 2 mod 4 (B1730) |
+| **nearly null (Higgs)** | a Higgs direction h whose invariant h·h (the complex bilinear form) is small against ∣h∣²; ∂R, F₆, F₂₂ are nearly null at the band (B1739), the a < 0 zero-free forms are not (B1740); the up hierarchy's floor in the idealised channel is ∣h·h∣/4 (B1743) |
+| **the Standard Model's reading** | in B1656's frame, the up sector sees the conjugate reading S̃ (the conjugate Higgs) and the down quarks and leptons see S (the Higgs), as the Standard Model's H̃ and H; with a nearly null Higgs it misaligns the light states (B1739) |
+| **χ²_six, χ²_nine (the precision cells)** | χ² of the six charged-fermion ratios (and with the three CKM moduli, the nine) at M_Z with σ² = (the data's relative error)² + 0.10² (B1720's compare.py, P-341); the bars 16.75 and 21.67 |
+| **the nine's target** | the Higgs direction one free Higgs read S in every sector needs to reach the nine (B1743, post hoc): nearly null with ∣h·h∣/∣h∣² ≈ 0.017 and an e₁ admixture ≈ 0.3; no form on record reaches it (P-357) |
 
 **The letters that collide, never to be used bare.** "A5" is the torsion-free closure in the uniqueness theorem and
 the geometric carrier in P019. "A6" is minimality in the uniqueness theorem and orientability in P019 — B1234's "the
