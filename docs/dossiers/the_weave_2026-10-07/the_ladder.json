@@ -1,0 +1,391 @@
+{
+ "L1": {
+  "checks": {
+   "|Delta(2, 3, N)| = 6, 12, 24, 60 for N = 2..5": true,
+   "equal to |PSL(2, Z/N)| and the polyhedral rotation groups": true,
+   "N = 6: the affine representation satisfies the relations exactly": true,
+   "N = 6: S U S U^-1 is a nonzero translation (infinite order)": true,
+   "N = 7: the SL(2, R) representation satisfies the relations to 1e-40": true,
+   "N = 7: an element with |tr| > 2 (infinite order)": true
+  },
+  "orders": {
+   "2": 6,
+   "3": 12,
+   "4": 24,
+   "5": 60
+  },
+  "|PSL(2, Z/N)|": {
+   "2": 6,
+   "3": 12,
+   "4": 24,
+   "5": 60,
+   "6": 72,
+   "7": 168
+  },
+  "N = 6 translation": "-3 + sqrt(3)*I",
+  "N = 7 relation residual": "1.3758e-60",
+  "N = 7 word with |tr| > 2": [
+   "ABAb",
+   "2.2469796037174670611"
+  ]
+ },
+ "L2": {
+  "rows": {
+   "2": {
+    "checks": {
+     "order": true,
+     "a has order 4, b order 6, ab order 2N": true,
+     "both orthogonality relations to 1e-9": true,
+     "dimensions are positive integers": true,
+     "McKay matrix integral, symmetric, loop-free": true,
+     "McKay graph isomorphic to the affine T(2, 3, N)": true,
+     "the trivial representation is a leaf": true,
+     "removing it leaves T(2, 3, N)": true,
+     "dimensions are the affine null vector, sum d^2 = |G|": true,
+     "SL(2, Z/N) has the binary group's element-order counts exactly when N = 3, 5": true
+    },
+    "classes": 6,
+    "dimensions": [
+     1,
+     1,
+     1,
+     1,
+     2,
+     2
+    ],
+    "eigenvalue gap": 0.16387049935693732,
+    "orthogonality residuals": [
+     5.417888360170771e-14,
+     2.5313084961453594e-14
+    ],
+    "McKay degrees": [
+     1,
+     1,
+     1,
+     1,
+     3,
+     3
+    ],
+    "SL(2, Z/N) order counts": {
+     "1": 1,
+     "2": 3,
+     "3": 2
+    },
+    "binary group order counts": {
+     "1": 1,
+     "2": 1,
+     "3": 2,
+     "4": 6,
+     "6": 2
+    },
+    "rung": "D5"
+   },
+   "3": {
+    "checks": {
+     "order": true,
+     "a has order 4, b order 6, ab order 2N": true,
+     "both orthogonality relations to 1e-9": true,
+     "dimensions are positive integers": true,
+     "McKay matrix integral, symmetric, loop-free": true,
+     "McKay graph isomorphic to the affine T(2, 3, N)": true,
+     "the trivial representation is a leaf": true,
+     "removing it leaves T(2, 3, N)": true,
+     "dimensions are the affine null vector, sum d^2 = |G|": true,
+     "SL(2, Z/N) has the binary group's element-order counts exactly when N = 3, 5": true
+    },
+    "classes": 7,
+    "dimensions": [
+     1,
+     1,
+     1,
+     2,
+     2,
+     2,
+     3
+    ],
+    "eigenvalue gap": 0.36821416027862863,
+    "orthogonality residuals": [
+     6.256489636711618e-14,
+     2.1316282072803006e-14
+    ],
+    "McKay degrees": [
+     1,
+     1,
+     1,
+     2,
+     2,
+     2,
+     3
+    ],
+    "SL(2, Z/N) order counts": {
+     "1": 1,
+     "2": 1,
+     "3": 8,
+     "4": 6,
+     "6": 8
+    },
+    "binary group order counts": {
+     "1": 1,
+     "2": 1,
+     "3": 8,
+     "4": 6,
+     "6": 8
+    },
+    "rung": "E6"
+   },
+   "4": {
+    "checks": {
+     "order": true,
+     "a has order 4, b order 6, ab order 2N": true,
+     "both orthogonality relations to 1e-9": true,
+     "dimensions are positive integers": true,
+     "McKay matrix integral, symmetric, loop-free": true,
+     "McKay graph isomorphic to the affine T(2, 3, N)": true,
+     "the trivial representation is a leaf": true,
+     "removing it leaves T(2, 3, N)": true,
+     "dimensions are the affine null vector, sum d^2 = |G|": true,
+     "SL(2, Z/N) has the binary group's element-order counts exactly when N = 3, 5": true
+    },
+    "classes": 8,
+    "dimensions": [
+     1,
+     1,
+     2,
+     2,
+     2,
+     3,
+     3,
+     4
+    ],
+    "eigenvalue gap": 0.5332526576365533,
+    "orthogonality residuals": [
+     5.728750807065809e-14,
+     2.1316282072803006e-14
+    ],
+    "McKay degrees": [
+     1,
+     1,
+     1,
+     2,
+     2,
+     2,
+     2,
+     3
+    ],
+    "SL(2, Z/N) order counts": {
+     "1": 1,
+     "2": 7,
+     "3": 8,
+     "4": 24,
+     "6": 8
+    },
+    "binary group order counts": {
+     "1": 1,
+     "2": 1,
+     "3": 8,
+     "4": 18,
+     "6": 8,
+     "8": 12
+    },
+    "rung": "E7"
+   },
+   "5": {
+    "checks": {
+     "order": true,
+     "a has order 4, b order 6, ab order 2N": true,
+     "both orthogonality relations to 1e-9": true,
+     "dimensions are positive integers": true,
+     "McKay matrix integral, symmetric, loop-free": true,
+     "McKay graph isomorphic to the affine T(2, 3, N)": true,
+     "the trivial representation is a leaf": true,
+     "removing it leaves T(2, 3, N)": true,
+     "dimensions are the affine null vector, sum d^2 = |G|": true,
+     "SL(2, Z/N) has the binary group's element-order counts exactly when N = 3, 5": true
+    },
+    "classes": 9,
+    "dimensions": [
+     1,
+     2,
+     2,
+     3,
+     3,
+     4,
+     4,
+     5,
+     6
+    ],
+    "eigenvalue gap": 0.2964869286322229,
+    "orthogonality residuals": [
+     2.4879183296927475e-13,
+     8.792966355031239e-14
+    ],
+    "McKay degrees": [
+     1,
+     1,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3
+    ],
+    "SL(2, Z/N) order counts": {
+     "1": 1,
+     "2": 1,
+     "3": 20,
+     "4": 30,
+     "5": 24,
+     "6": 20,
+     "10": 24
+    },
+    "binary group order counts": {
+     "1": 1,
+     "2": 1,
+     "3": 20,
+     "4": 30,
+     "5": 24,
+     "6": 20,
+     "10": 24
+    },
+    "rung": "E8"
+   }
+  }
+ },
+ "L3": {
+  "checks": {
+   "det C(T(2, 3, N)) = 6 - N for N = 2..8": true,
+   "6N(1/2 + 1/3 + 1/N - 1) = 6 - N identically": true,
+   "finite exactly for N < 6 = 2*3": true,
+   "the last finite rung N = 5 is the only unimodular one": true,
+   "S has order 4 and ST order 6 in SL(2, Z)": true,
+   "SL(2, Z)'s abelianization is Z/12": true
+  },
+  "determinants": {
+   "2": 4,
+   "3": 3,
+   "4": 2,
+   "5": 1,
+   "6": 0,
+   "7": -1,
+   "8": -2
+  },
+  "finite N": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "abelianization invariants": [
+   1,
+   12
+  ]
+ },
+ "L4": {
+  "checks": {
+   "126 roots orthogonal to 1, rank 7, Gram determinant 2 (E7)": true,
+   "conjugation by every unit icosian fixes the E7 set": true,
+   "it contains each of W135's 10 E6 frames": true,
+   "each of the 162 roots cuts exactly 40 frame roots (D5)": true,
+   "27 distinct D5 sets in one E6 frame": true,
+   "each D5 set has rank 5 and Gram determinant 4": true,
+   "the frame's stabilizer acts as a group of order 6": true,
+   "the stabilizer permutes the 27 D5 sets": true,
+   "the 27 D5 sets are not one orbit": true
+  },
+  "E7 roots": 126,
+  "E7 rank and determinant": [
+   7,
+   "2"
+  ],
+  "D5 cut sizes": {
+   "40": 162
+  },
+  "D5 sets": 27,
+  "D5 rank and determinant": [
+   [
+    "5",
+    "4"
+   ]
+  ],
+  "stabilizer units": 12,
+  "stabilizer permutations": 6,
+  "D5 orbit sizes": [
+   3,
+   3,
+   3,
+   6,
+   6,
+   6
+  ]
+ },
+ "L5": {
+  "checks": {
+   "rho'(T) has order 4": true,
+   "g_T has projective order 4": true,
+   "W28's lift has order 8 and projective order 4": true,
+   "chi_eta(T) has order 24": true,
+   "B1601: odd trace over one prime of norm 3, even trace over 2": true,
+   "every prime is 2 or 3; 5 occurs nowhere": true
+  },
+  "orders": {
+   "rho'(T), twist 21 (W136)": 4,
+   "the theta qubit's g_T, projective (W152)": 4,
+   "W28's lift e^{i pi Z/4}": 8,
+   "W28's lift, projective": 4,
+   "chi_eta(T)": 24
+  },
+  "common point primes": {
+   "odd trace": [
+    3
+   ],
+   "even trace": [
+    2
+   ]
+  },
+  "primes": [
+   2,
+   3
+  ],
+  "ladder levels in use": [
+   2,
+   3,
+   4
+  ]
+ },
+ "R": {
+  "R1, every finite rung at once": {
+   "rungs": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "top": "E8"
+  },
+  "R2, invariance under every move": {
+   "unimodular rungs": [
+    5
+   ],
+   "top": "E8",
+   "needs": "a lattice partition function in the joint action"
+  },
+  "R3, only the levels the forced structures use": {
+   "rungs": [
+    2,
+    3,
+    4
+   ],
+   "top": "E7"
+  },
+  "under every rule": "the step from the algebra to the loop's fields stays GENESIS FK11's"
+ },
+ "cells holding": {
+  "L1": true,
+  "L2": true,
+  "L3": true,
+  "L4": true,
+  "L5": true
+ },
+ "verdict": "every cell as predicted"
+}

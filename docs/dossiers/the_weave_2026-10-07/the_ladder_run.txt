@@ -1,0 +1,78 @@
+L1 holds
+    ok   |Delta(2, 3, N)| = 6, 12, 24, 60 for N = 2..5
+    ok   equal to |PSL(2, Z/N)| and the polyhedral rotation groups
+    ok   N = 6: the affine representation satisfies the relations exactly
+    ok   N = 6: S U S U^-1 is a nonzero translation (infinite order)
+    ok   N = 7: the SL(2, R) representation satisfies the relations to 1e-40
+    ok   N = 7: an element with |tr| > 2 (infinite order)
+L2 holds
+    ok   N = 2: order
+    ok   N = 2: a has order 4, b order 6, ab order 2N
+    ok   N = 2: both orthogonality relations to 1e-9
+    ok   N = 2: dimensions are positive integers
+    ok   N = 2: McKay matrix integral, symmetric, loop-free
+    ok   N = 2: McKay graph isomorphic to the affine T(2, 3, N)
+    ok   N = 2: the trivial representation is a leaf
+    ok   N = 2: removing it leaves T(2, 3, N)
+    ok   N = 2: dimensions are the affine null vector, sum d^2 = |G|
+    ok   N = 2: SL(2, Z/N) has the binary group's element-order counts exactly when N = 3, 5
+    ok   N = 3: order
+    ok   N = 3: a has order 4, b order 6, ab order 2N
+    ok   N = 3: both orthogonality relations to 1e-9
+    ok   N = 3: dimensions are positive integers
+    ok   N = 3: McKay matrix integral, symmetric, loop-free
+    ok   N = 3: McKay graph isomorphic to the affine T(2, 3, N)
+    ok   N = 3: the trivial representation is a leaf
+    ok   N = 3: removing it leaves T(2, 3, N)
+    ok   N = 3: dimensions are the affine null vector, sum d^2 = |G|
+    ok   N = 3: SL(2, Z/N) has the binary group's element-order counts exactly when N = 3, 5
+    ok   N = 4: order
+    ok   N = 4: a has order 4, b order 6, ab order 2N
+    ok   N = 4: both orthogonality relations to 1e-9
+    ok   N = 4: dimensions are positive integers
+    ok   N = 4: McKay matrix integral, symmetric, loop-free
+    ok   N = 4: McKay graph isomorphic to the affine T(2, 3, N)
+    ok   N = 4: the trivial representation is a leaf
+    ok   N = 4: removing it leaves T(2, 3, N)
+    ok   N = 4: dimensions are the affine null vector, sum d^2 = |G|
+    ok   N = 4: SL(2, Z/N) has the binary group's element-order counts exactly when N = 3, 5
+    ok   N = 5: order
+    ok   N = 5: a has order 4, b order 6, ab order 2N
+    ok   N = 5: both orthogonality relations to 1e-9
+    ok   N = 5: dimensions are positive integers
+    ok   N = 5: McKay matrix integral, symmetric, loop-free
+    ok   N = 5: McKay graph isomorphic to the affine T(2, 3, N)
+    ok   N = 5: the trivial representation is a leaf
+    ok   N = 5: removing it leaves T(2, 3, N)
+    ok   N = 5: dimensions are the affine null vector, sum d^2 = |G|
+    ok   N = 5: SL(2, Z/N) has the binary group's element-order counts exactly when N = 3, 5
+L3 holds
+    ok   det C(T(2, 3, N)) = 6 - N for N = 2..8
+    ok   6N(1/2 + 1/3 + 1/N - 1) = 6 - N identically
+    ok   finite exactly for N < 6 = 2*3
+    ok   the last finite rung N = 5 is the only unimodular one
+    ok   S has order 4 and ST order 6 in SL(2, Z)
+    ok   SL(2, Z)'s abelianization is Z/12
+L4 holds
+    ok   126 roots orthogonal to 1, rank 7, Gram determinant 2 (E7)
+    ok   conjugation by every unit icosian fixes the E7 set
+    ok   it contains each of W135's 10 E6 frames
+    ok   each of the 162 roots cuts exactly 40 frame roots (D5)
+    ok   27 distinct D5 sets in one E6 frame
+    ok   each D5 set has rank 5 and Gram determinant 4
+    ok   the frame's stabilizer acts as a group of order 6
+    ok   the stabilizer permutes the 27 D5 sets
+    ok   the 27 D5 sets are not one orbit
+L5 holds
+    ok   rho'(T) has order 4
+    ok   g_T has projective order 4
+    ok   W28's lift has order 8 and projective order 4
+    ok   chi_eta(T) has order 24
+    ok   B1601: odd trace over one prime of norm 3, even trace over 2
+    ok   every prime is 2 or 3; 5 occurs nowhere
+R: {"R1, every finite rung at once": {"rungs": [2, 3, 4, 5], "top": "E8"}, "R2, invariance under every move": {"unimodular rungs": [5], "top": "E8", "needs": "a lattice partition function in the joint action"}, "R3, only the levels the forced structures use": {"rungs": [2, 3, 4], "top": "E7"}, "under every rule": "the step from the algebra to the loop's fields stays GENESIS FK11's"}
+verdict: every cell as predicted
+
+real	0m24.804s
+user	0m25.194s
+sys	0m0.200s
