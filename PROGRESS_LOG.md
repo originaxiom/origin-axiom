@@ -17901,3 +17901,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - A parameter-free rule (the Higgs extremising ∥Y∥²) fails: best 99.4; invariant 2.5–3.5 times the target's, e₁ about 0 on these lines. P-357 annotated.
 - **Landing suite.** full suite 7 709 passed, 2 failed, 68 skipped (24:27, -n 8) on 8821874a3: the two failures are B805's attachment locks (P-239, standing). (A first launch on a commit whose P-357 note held ASCII pipes was stopped; the note fixed and the commit amended before this run.)
+
+## 2026-10-24 — S215 THE SYNTHESIS (P-362)
+
+- The owner's pause: four calculations (the six's lines; the geometry-only 2-3 sector; the cusp-unit hierarchy; the free count) and a corrected synthesis with ranked angles. FLOOR 362.
+- **Landing suite.** full suite 7 707 passed, 4 failed, 68 skipped (25:20, -n 8) on e4aece920: two failures are B805's attachment locks (P-239, standing); the other two (the gate locks) were the working tree's, not the commit's — B1748's preregistration, written for its seal, sat untracked in the tree and moved the corpus head (PRACTICES.md's lag 41 against 40) and the seal ledger's scan; PRACTICES.md was then given the window's practices (a genuine currency entry) and the gates rerun green on the amended commit.

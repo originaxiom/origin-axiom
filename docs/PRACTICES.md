@@ -1192,3 +1192,19 @@ Three practices came out of the field stage's last window. Each answers a slip t
 6. **A lock never writes into the repository root.** B1428's lock ran a driver that writes to its working directory
    with the root as that directory (Review 67's R67-8); a lock that runs a script runs it in a temporary directory. MANUAL.
 
+
+## The window's practices, B1740–B1747: a ledger row's shape, a runner's cores, a gate before a commit, a paused census — MANUAL (adopted 2026-10-24, S215)
+
+1. **A ledger row is written in its table's full column count.** Main wrote harvest rows 1329–1351 in five cells; the
+   harvest checker reads eight and skipped them silently for two days (an E28 instance found by B1306's lock at S205). A row
+   is checked for its cell count before a landing; a parser that drops a row it cannot read says how many it dropped. MANUAL.
+2. **A seat's relay that main has harvested past has a relay-ledger row, not only a harvest row** (the same lock, S205). MANUAL.
+3. **The suite runner respects the owner's eight-core rule by default** (R69-3: `scripts/run_suite.sh` is `-n 8`, which
+   `--changed`'s fallback inherits; a lock with a planted default). A post-suite rerun takes an explicit file list. GATED by
+   `tests/test_suite_runner_cores.py`.
+4. **The gates run before the commit, and a failing gate stops it.** At S214 a commit was chained after the gates without
+   stopping on a failure (an ASCII pipe in a register note split the row); the suite was stopped and the commit amended. MANUAL.
+5. **A paused sealed census is disclosed in both arcs and its outputs are scanned for local paths before the push** (B1740:
+   the run log's one runtime line carried an install path, redacted before any push and disclosed). MANUAL.
+6. **A mechanism claimed as new is swept in the record's own vocabulary for the object** (B1742's re-derivation of B1728's
+   law, an E54 instance at Review 69): the sweep includes the equalities the mechanism states. MANUAL.

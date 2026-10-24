@@ -1,5 +1,10 @@
 # Changelog
 
+## S215 THE SYNTHESIS, WITH ITS CALCULATIONS (P-362) (2026-10-24)
+
+- **At the owner's word ("stop and take a breath … what did we learn, what could we be getting wrong, what angle are we missing"), four labelled calculations and a corrected synthesis** (audit/verify_synthesis/): (A) the six fit only on order-5 and order-10 lines; on order-10 lines the leptons are independent (D 7.1–11.6 at the good rows, ≈ 11.0 at the best) — the earlier "the six are four" holds only on order-5 lines; (B) with the Higgs exactly null the geometry alone gives V_cb, m_s/m_b and m_μ/m_τ at the data's values at the same points (Im τ 2.6–2.7, L_max) — a consistency, not evidence, but the split is clean: the 2-3 sector is the geometry's, the first generation, the Cabibbo angle, V_ub and a factor 3 in m_c/m_t are the Higgs's; (C) the data's hierarchy in the cusp's unit, and V_us = √(m_d/m_s) not enforced by the frame; (D) about three fewer free numbers than the Standard Model for these nine, not zero. The lepton factor's failure is a 12% first-generation effect (b = 0.297 against Georgi–Jarlskog's 1/3; a = 3.14 fits). Ranked angles: a horocycle rule; the split as the sealed test's design; the first-generation Clebsch with the Higgs; the modular-S₄ literature; an extremum principle. FLOOR 362.
+- 0 of 19.
+
 ## S214 A PARAMETER-FREE HIGGS RULE TRIED: THE YUKAWA ENERGY'S EXTREMUM (P-357 step 3a, post hoc; NEGATIVE) (2026-10-24)
 
 - **The Higgs direction extremising the frame's own Yukawa energy ∥Y∥²** (Y is linear in h, so the extrema are the eigenvectors of a Gram form: no constant enters; one Higgs, or one per sector) does not reach the nine: best χ²_nine 99.4 on B1742's grid, its e₁ admixture about 0 on these lines, and at the nine's target rows its invariant 0.037–0.060 against the target's 0.015–0.019. Its invariant is nearly constant in τ, as the target's is (unlike every holomorphic form) — noted, not counted. P-357 annotated.
