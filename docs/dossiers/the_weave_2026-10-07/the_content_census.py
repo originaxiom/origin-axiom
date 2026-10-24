@@ -48,8 +48,8 @@ K31 = 31 / 1024
 PAR = [(0.5, 0.0), (0.0, 0.5), (0.5, 0.5)]
 OMEGA = complex(-0.5, math.sqrt(3) / 2)
 Z6, Z4 = math.pi ** 6 / 945, math.pi ** 4 / 90
-C3 = float(2 * math.sqrt(math.pi) * mgamma(2.5) * mzeta(5) / mgamma(3))
-C2 = float(2 * math.sqrt(math.pi) * mgamma(1.5) * mzeta(3) / mgamma(2))
+CC3 = float(2 * math.sqrt(math.pi) * mgamma(2.5) * mzeta(5) / mgamma(3))     # the y^(1-s) coefficients of E3, E2
+CC2 = float(2 * math.sqrt(math.pi) * mgamma(1.5) * mzeta(3) / mgamma(2))
 
 
 # ------------------------------------------------------------------ the basis, vectorized
@@ -94,7 +94,7 @@ def E2(x, y):
 
 
 def t_formula(y):
-    return (6 * Z6 * y ** 2 - 2 * C3 / y ** 3) / (4 * Z4 * y - C2 / y ** 2)
+    return (6 * Z6 * y ** 2 - 2 * CC3 / y ** 3) / (4 * Z4 * y - CC2 / y ** 2)
 
 
 def y_formula(t):

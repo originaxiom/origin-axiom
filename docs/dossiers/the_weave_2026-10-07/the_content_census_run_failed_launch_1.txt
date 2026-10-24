@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "docs/dossiers/the_weave_2026-10-07/the_content_census.py", line 358, in <module>
+    main()
+  File "docs/dossiers/the_weave_2026-10-07/the_content_census.py", line 338, in main
+    out[name], ok[name] = f()
+                          ^^^
+  File "docs/dossiers/the_weave_2026-10-07/the_content_census.py", line 208, in C1
+    row["formula"] = y_formula(float(t))
+                     ^^^^^^^^^^^^^^^^^^^
+  File "docs/dossiers/the_weave_2026-10-07/the_content_census.py", line 104, in y_formula
+    lo, hi = (mid, hi) if t_formula(mid) < t else (lo, mid)
+                          ^^^^^^^^^^^^^^
+  File "docs/dossiers/the_weave_2026-10-07/the_content_census.py", line 97, in t_formula
+    return (6 * Z6 * y ** 2 - 2 * C3 / y ** 3) / (4 * Z4 * y - C2 / y ** 2)
+                              ~~^~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'function'
+
+real	0m2.439s
+user	0m2.707s
+sys	0m0.297s
