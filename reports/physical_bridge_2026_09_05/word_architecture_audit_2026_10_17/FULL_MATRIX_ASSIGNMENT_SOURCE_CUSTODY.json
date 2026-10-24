@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "status": "author_analytical_source_custody_not_execution_or_review_approval",
+  "starting_commit": "ab5a5c1f6293524e2704a10bbd44a4778e0eed78",
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/PROOF.md",
+      "sha256": "9c496728d230798a4db14841f91fe2ef272720be69950292164b4c697414bbd5",
+      "reading_scope": "complete proof body"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/PROOF.md",
+      "sha256": "3ac161b2e4418b8826de0926ef853262d2f98ef57a1743a663d0b488f7d153c0",
+      "reading_scope": "complete proof body"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/reference.py",
+      "sha256": "c040a98306c91fa56fdee74c7ca2503e19858b0feb1e3b7e8fe1f976a64e1098",
+      "reading_scope": "complete source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/probe.py",
+      "sha256": "d10f262c70c4dee8c3e29e075a7f386f405c59a0065f6e474e13fbbd0b449847",
+      "reading_scope": "character/projection/module definitions, not full run body"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md",
+      "sha256": "cedd75ade10476f0cf20ff783edd3a4e81caa5196b3b702ede66a066669b360d",
+      "reading_scope": "complete proof body"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/probe.py",
+      "sha256": "7d472cdaa421a9e582138691f60e049b65e4bda6b8f162f09c850b90a0eee57a",
+      "reading_scope": "coefficient, root/branching and trace functions plus run-body checks through records"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/PROOF.md",
+      "sha256": "24cab7e65ddbb8b37c5c8dddb5cde0171e588e7918eb619f54ee8bd53c0332e0",
+      "reading_scope": "complete proof body"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SYMMETRIC_STATE_REALIZATION_AND_MATTER_TRACE.md",
+      "sha256": "97c7dd23a46ff519e614bb762b023b057bb5eb8ef5962e517f9791777ea3048b",
+      "reading_scope": "complete prior note; scalar and centre sections revisited"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_MATRIX_ASSIGNMENT_AND_CENTRAL_QUOTIENT.md",
+      "sha256": "517a06d8b043ee28d754359ec1c0dda2bb80c678a8dde12c908568fde65115dd",
+      "reading_scope": "new authored conditional derivation"
+    }
+  ],
+  "limits": [
+    "No new science execution or mathematical imports.",
+    "This is not source-complete execution review.",
+    "Prior doublet/companion decomposition explicitly reused, not rediscovered.",
+    "No foundational-input payment or physical Higgs claim.",
+    "Publication remains pending approval-service availability."
+  ]
+}
