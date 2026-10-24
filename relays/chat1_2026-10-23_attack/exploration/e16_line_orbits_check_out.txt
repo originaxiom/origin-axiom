@@ -1,0 +1,5 @@
+L1 266 lines; index 88: (0, 4/9), N=9; index 97: (1/9, 8/9), N=9; index 149: (2/5, 1/10), N=10; index 150: (2/5, 3/10), N=10; index 153: (2/5, 9/10), N=10
+L1 lines of order 5: 12; of order 10: 36
+L2 SL(2, Z/5): order 120; classes of exact order 5 up to sign 12; orbit of (0, 1): 12
+L2 SL(2, Z/10): order 720; classes of exact order 10 up to sign 36; orbit of (0, 1): 36
+L3 T-orbits of the alpha = 2/5 lines under b -> b + 3 alpha: [['0', '1/5', '2/5', '3/5', '4/5'], ['1/10', '3/10', '1/2', '7/10', '9/10']]
