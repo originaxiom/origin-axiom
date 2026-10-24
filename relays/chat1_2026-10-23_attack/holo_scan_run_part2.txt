@@ -1,0 +1,6 @@
+row chunk 8/28 (1422 s)
+row chunk 9/28 (2865 s)
+row chunk 10/28 (3860 s)
+row chunk 11/28 (4797 s)
+row chunk 12/28 (5734 s)
+row chunk 13/28 (6782 s)
