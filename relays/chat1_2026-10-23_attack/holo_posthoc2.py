@@ -8,7 +8,11 @@ On the rows holo_posthoc.py uses (chi2_nine below 100, or the 100 lowest), for t
   (b) the e1 admixture mu = a / (sqrt2 x the larger of b, c) against theta2(tau)/theta3(tau) and against
       Theta2(2 tau)/Theta3(2 tau) (R's own law, R_IS_THE_S4PRIME_TRIPLET.md): the ratio's modulus and phase - median,
       spread (median absolute deviation of ln|ratio| and of the phase) over all rows and per line with three rows or more;
-  (c) the same two numbers for R itself at the rows' tau (a reference: its ratio to Theta2(2 tau)/Theta3(2 tau) is 1).
+  (c) the same two numbers for R itself at the rows' tau (a reference: its ratio to Theta2(2 tau)/Theta3(2 tau) is 1);
+  (d) (added before the rows existed, with B-2's covariance question) on every mirror pair (the rows at Re tau 0.725 and
+      their partners at 0.275 under R4), the Fubini-Study distance between one row's fitted h and P conj(h') of its
+      partner's, P = [[-1, 0, 0], [0, 0, 1], [0, 1, 0]]: whether the fitted direction itself transforms as R4 says when
+      the two minima agree within 1%.
     python3 -B holo_posthoc2.py      # writes holo_posthoc2.json"""
 import json, math, pathlib
 import numpy as np
@@ -71,5 +75,27 @@ out = {"rows used": len(good),
            (float(np.median([spread(v)["MAD of ln|ratio|"] for v in byline.values() if len(v) >= 3]))
             if any(len(v) >= 3 for v in byline.values()) else None)}
 out["(c) R's own mu against (Theta2/Theta3)(2 tau) at the rows' tau (should be 1 up to sign)"] = "see R_IS_THE_S4PRIME_TRIPLET.md (exact)"
+from fractions import Fraction as Fr
+lines = [(Fr(a), Fr(b)) for _t, a, b in json.loads((HERE / "holo_store_index.json").read_text())["lines"]]
+idx = {(t[0], round(t[1], 6), round(t[2], 6)): i for i, t in enumerate(tasks)}
+rmap = {(r["p"], r["hor"]): r for r in rows if not r.get("degenerate") and np.isfinite(r.get("chi2_nine", np.nan))}
+P = np.array([[-1, 0, 0], [0, 0, 1], [0, 1, 0]], dtype=complex)
+cov_agree, cov_other = [], []
+for r in rows:
+    if r.get("degenerate") or tasks[r["p"]][1] != RE_MIRROR:
+        continue
+    k, re_t, im_t = tasks[r["p"]]; a, b = lines[k]
+    km = next(i for i, l in enumerate(lines) if l[0] == a and l[1] == (Fr(3, 5) - b) % 1)
+    q = idx.get((km, round(1 - re_t, 6), round(im_t, 6)))
+    if q is None or (q, r["hor"]) not in rmap:
+        continue
+    rq = rmap[(q, r["hor"])]
+    h = np.array([complex(x, y) for x, y in r["h"]]); hq = np.array([complex(x, y) for x, y in rq["h"]])
+    v = P @ np.conj(hq)
+    dist = math.acos(min(1.0, abs(np.vdot(h / np.linalg.norm(h), v / np.linalg.norm(v)))))
+    (cov_agree if abs(r["chi2_nine"] - rq["chi2_nine"]) <= 0.01 * min(r["chi2_nine"], rq["chi2_nine"]) else cov_other).append(dist)
+out["(d) mirror pairs: FS distance between h and P conj(h') — pairs whose minima agree within 1%: count, median, largest; other pairs: count, median"] = [
+    len(cov_agree), (float(np.median(cov_agree)) if cov_agree else None), (float(max(cov_agree)) if cov_agree else None),
+    len(cov_other), (float(np.median(cov_other)) if cov_other else None)]
 (HERE / "holo_posthoc2.json").write_text(json.dumps(out, indent=1) + "\n")
 print("written")
