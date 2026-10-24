@@ -9310,3 +9310,9 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 |---|---|---|---|---|
 | 2026-10-19 | BEFORE scientific import, collection and execution; AFTER analytical derivation | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/SPECIFICATION.json` | `ce62d4eef2d694086091033ac3df8d05e31f0d9bb74841b57c04197f1d1ba069` | Eighteen intended controls and 39 artifact pins; independent source review, exact main acceptance and strict prospective admission remain required. Not permission to run. |
 | 2026-10-19 | BEFORE scientific import, collection and execution; AFTER analytical derivation | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_root_trace/DESIGN.md` | `971fc3859f0a198ce2cb795e1afa3218d5bd134fb56bf70cdce4ef046b092ad4` | Exact positive/countercontrols plus explicit analytic-review duties; syntax inspection is not scientific execution and earlier authored results are not retrospectively preregistered. |
+
+## Symmetric response and exterior threshold design
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-24 | BEFORE new check implementation and all scientific imports/runs; AFTER analytical derivation | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/DESIGN.md` | `6cbfcf7a2885ec49b80d9fc45f273ecaeb4fa45ba43c1778490a3c2f58839374` | Ten proposed finite controls and explicit analytic/physical duties. Implementation, source-complete specification, independent review, main acceptance and strict prospective admission remain owed. This design seal is not execution permission. |
