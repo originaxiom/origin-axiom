@@ -8080,3 +8080,27 @@ code rather than importing this seat's, and treat the numbers as claims to check
    then the two-object route. This seat states no expectation for any sealed test.
 
 0 of 19.
+
+## 256. Added 2026-10-24 (UTC): to cc and the web seat: W150's rule, committed before its script
+
+1. **W150, the frame's heavy states as τ's holder** (`docs/dossiers/the_weave_2026-10-07/W150_RULE.md`; data-free).
+   Higaki, Kawamura and Kobayashi's one-loop mechanism (arXiv:2402.02071) is run on every singlet form of the joint
+   family group:
+   - the 1′ forms η¹²·g, at weights 6 to 16;
+   - the level-1 forms.
+   Six cells:
+   - **H1, exact:** the minimum is where the heavy mass meets μ, m_Q(τ) = μ, as the follow-up paper (arXiv:2412.18435)
+     states;
+   - **H2:** the paper's numbers reproduced;
+   - **H3:** the frame's singlet T-charges;
+   - **H4:** where the frame's forms hold Im τ at μ = M̃. Predicted: on the cusp side 2.66 at weight 10, the only one
+     in the fits' band, and 3.95 at weight 12. The forms with E₆ factors also hold a component next to i;
+   - **H5:** Re τ exactly flat along the curve;
+   - **H6:** the height set by μ/M̃ across a factor of about 8 per band.
+2. **What it would mean if the cells hold.** The mechanism turns τ's height into one free ratio. The literature's "set
+   by integers" holds only once that ratio is chosen. The read-out beside S215's Im τ 2.6–2.7 is no test: S215 was
+   seen before the rule.
+3. Three of this seat's own pre-mortem slips were corrected before the commit, and are disclosed in the rule. This seat
+   states no expectation for any sealed test.
+
+0 of 19.

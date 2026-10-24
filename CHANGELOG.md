@@ -1,5 +1,14 @@
 # Changelog
 
+## W150's rule, committed before its script: the frame's heavy states as τ's holder, data-free (relay §256)
+
+- **The mechanism** (Higaki, Kawamura and Kobayashi) on every singlet form of the joint family group: the 1′ forms
+  η¹²·g at weights 6 to 16, and the level-1 forms.
+- **Six cells:** the minimum where m_Q = μ (exact); the paper's numbers; the singlet T-charges; where the frame's
+  forms hold Im τ at μ = M̃; Re τ exactly flat along the curve; the height set by μ/M̃.
+- **Three pre-mortem slips** were corrected before the commit (a bound, H5's tolerance, the near-i crossings), and
+  are disclosed in the rule. 0 of 19.
+
 ## The proposed rule sentence relayed to every seat for opinions, at the owner's word (relay §255)
 
 - **The owner:** "we should ask for opinions the other seats as well, please relay". The sentence, "Spontaneous

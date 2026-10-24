@@ -20696,3 +20696,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The sentence and four questions went to the other seats.** The rule itself is not changed yet.
 - **Next:** testing whether heavy particles in the record's frame can hold the modulus at a finite value.
   0 of 19.
+
+## 2026-10-24 — can heavy particles hold the modulus? The predictions, published first
+
+- **The idea, from the published literature:** heavy particles whose mass depends on the modulus can, through quantum
+  effects, hold the modulus at a finite value.
+- **The prediction, written before any code:** the mechanism holds the modulus only where the heavy mass equals one
+  reference scale. That is a whole curve, not a point, and its height depends on a ratio that nothing in the record
+  fixes. With the record's own symmetry the height can fall in the range the fits prefer, but only for some values of
+  that ratio.
+- Three slips in this seat's own predictions were caught and fixed before publishing.
+  0 of 19.
