@@ -33,8 +33,11 @@ def fixture(directory, mode="return 0"):
     old.mkdir()
     sentinel = ('from pathlib import Path\nimport json\n'
                 'ROOT = Path(__file__).resolve().parents[4]\n'
-                '(ROOT / "imported").write_text("synthetic infrastructure only")\n'
+                'marker = ROOT / "imported"\n'
+                'marker.write_text((marker.read_text() if marker.exists() else "") + "synthetic infrastructure only\\n")\n'
                 'def main():\n'
+                '    counter = ROOT / "calls"\n'
+                '    counter.write_text(str((int(counter.read_text()) if counter.exists() else 0) + 1))\n'
                 '    (ROOT / "binding.json").write_text(json.dumps({\n'
                 '        "here": str(HERE), "entry": ENTRY, "expected": list(EXPECTED)}))\n'
                 '    ' + mode + '\n')
@@ -62,7 +65,8 @@ class WrapperEngineeringChecks(unittest.TestCase):
             self.assertEqual(record["entry"], entry.relative_to(root).as_posix())
             self.assertEqual(record["expected"], list(literal_expected(SOURCE)))
             self.assertEqual(len(record["expected"]), 10)
-            self.assertEqual((root / "imported").read_text(), "synthetic infrastructure only")
+            self.assertEqual((root / "imported").read_text(), "synthetic infrastructure only\n")
+            self.assertEqual((root / "calls").read_text(), "1")
 
     def test_changed_source_refuses_before_sentinel_import(self):
         with tempfile.TemporaryDirectory(prefix="p210-engineering-") as directory:
