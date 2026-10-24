@@ -1,5 +1,14 @@
 # Changelog
 
+## W147 recorded: what assigns the Higgs pair is not the weave (relay §251)
+
+- **The census.** Of the ten pairs of GENESIS PF1-W's four Higgs spaces, only both doublets in h(12, 1) meet a common
+  three-generation condition and allow a pair term (holomorphic and Hermitian).
+- **TWO_HIGGS's pair** (h(12, 1), h(20, 1)) shares condition 0, but no pair term links its doublets.
+- **No admissible pair closes W132's SU(2) remainder:** the sums are 0, 8 or 16 mod 24, never 12.
+- **The weave cannot order the pair.** 246 of the 266 thread lines can (6Y = ±3 differ when N ∤ 6).
+- **Surfaces.** NOTE (section and row), the lock test, relay §251, row 317, the state page's range. 0 of 19.
+
 ## W148 recorded: the audit lane's two P-210 notes hold on own code, no error by the lane; one of this seat's controls over-claimed, flagged before the run (relay §250). And W147's rule, committed and pushed before its script (relay §249)
 
 - **The first note:**

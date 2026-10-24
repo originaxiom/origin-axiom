@@ -4501,3 +4501,21 @@ def test_w148_the_p210_review():
     C = (qj, qi, qi @ qj)
     Y = np.array([[np.sum((C[a].T @ eps @ C[b]) * np.linalg.inv(eps)) for b in range(3)] for a in range(3)])
     assert np.allclose(Y, -2 * np.eye(3))
+
+
+def test_w147_the_higgs_pair():
+    """W147, what assigns the Higgs pair: every cell as recorded; in process, the census from W127's committed index
+    and the mod-8 argument against W132's closure"""
+    import itertools
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_higgs_pair.json").read_text(encoding="utf-8"))
+    assert all(d["cells"].values()) and len(d["cells"]) == 4
+    assert d["P1"]["(a) and (b)"] == ["{12, 12}"] and not d["P1"]["TWO_HIGGS {12, 20}"]["(b) r + r' = 0 mod 24"]
+    idx = json.loads((here / "the_field_at_the_end.json").read_text(encoding="utf-8"))["the index I(cond, r, n)"]
+    spaces = [(4, 0), (4, 1), (12, 1), (20, 1)]
+    three = {s: {c for c in ("0", "V2", "V4", "L6") if abs(idx[c][str(s[0])][str(s[1])]) == 3} for s in spaces}
+    ab = [(A, B) for A, B in itertools.combinations_with_replacement(spaces, 2)
+          if three[A] & three[B] and (A[0] + B[0]) % 24 == 0]
+    assert ab == [((12, 1), (12, 1))]
+    assert all((A[0] + B[0]) % 24 != 12 for A, B in itertools.combinations_with_replacement(spaces, 2))
+    assert d["P3"]["lines that tell H_u from H_d"] == 246 and d["P3"]["orders that do not"] == [1, 2, 3, 6]

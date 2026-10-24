@@ -7726,6 +7726,58 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W147. What assigns the Higgs pair (the owner's "lets go for all systematically"): not the weave. Of the ten pairs of the four Higgs spaces GENESIS PF1-W admits, only both doublets in h(12, 1) meet a common three-generation condition and allow a pair term T and S permit, holomorphic or Hermitian. No admissible pair closes W132's SU(2) remainder, since every admissible twist is 4 mod 8. The weave cannot order the pair, while 246 of the 266 thread lines can. The web seat's TWO_HIGGS pair, h(12, 1) with h(20, 1), shares condition 0 but allows no pair term. Every cell as predicted (`the_higgs_pair.py`; `W147_RULE.md`)
+
+**Why.**
+- W143 found one e₁-led Higgs line in each three-generation space (F₋₆ in h(12, 1), F₋₂ in h(20, 1)). TWO_HIGGS took
+  H_u = F₆ and H_d = F₂₂ from the two spaces, a choice made by the data. W146 and the reading test leave two
+  independent doublets as the natural reading. Nothing on record said which space each takes, or whether the weave can
+  tell them apart.
+
+**The order.**
+- The rule (`W147_RULE.md`, 05dc90045) was committed and pushed before the script existed.
+- The script (5bcf91612) was committed before its one run (0.6 s). It reads W127's and W143's committed records and
+  imports W132's G5 and W140's C1 and lines unchanged.
+- Its output (83dd36ab8) was committed unread, then read once.
+
+**The result (COMPUTED, exact; every cell as predicted).**
+- **P0, the inputs.** W133's condition admits exactly r ∈ {4, 12, 20}. The nonzero spaces at n ∈ {0, 1} are h(4, 0),
+  h(4, 1), h(12, 1) and h(20, 1), of dimensions 1, 4, 3 and 3. Their indices at (0, V2, V4, L6) are (−1, 0, −1, 0),
+  (−4, −1, 0, 3), (−3, −1, 1, 3) and (−3, −2, 1, 2).
+- **P1, the census of the ten pairs.**
+  - **(a)** A common three-generation condition holds for {12, 12} (at 0 and L6), {20, 20} and {12, 20} (at 0), and
+    {4₁, 4₁} and {4₁, 12} (at L6).
+  - **(b)** A holomorphic pair term holds for {12, 12}, {4₀, 20} and {4₁, 20}.
+  - **(c)** A Hermitian mixing holds for the five same-twist pairs.
+  - **(a) with (b), and (a) with (b) and (c), hold for {12, 12} alone.** TWO_HIGGS's {12, 20} meets (a) at
+    condition 0, and neither (b) nor (c).
+- **P2, W132's closure.** W132's G5, recomputed, admits m_u + m_d = 12 on its two assignments with s_Q = s_L and
+  nothing on the other two. Every admissible twist is 4 mod 8, so the pair sums are 0, 8 and 16 mod 24, never 12. No
+  admissible pair closes the remainder.
+- **P3, the order.** Each condition is symmetric under the exchange. W140's C1 holds again: the moves fix only the
+  trivial line, at every N ≤ 12. Of the 266 lines (1, 3, 4, 6, 12, 12, 24, 24, 36, 36, 60 and 48 of orders 1 to 12),
+  the labels 6Y = +3 and −3 differ on 246. They coincide on the 20 of orders 1, 2, 3 and 6.
+- **P4, read-outs.**
+  - h(12, 1) carries F₋₆ (e₁-led, multiplicity 4), F₆ (4) and F₁₈ (1).
+  - The conjugate twist −r takes 4 ↔ 20 and 12 ↔ 12. So (b) reads "H_u in the twist of H_d's conjugate", the
+    one-doublet reading's twist rule.
+
+**What it shows (the rule's fixed meaning).**
+1. **What assigns the Higgs pair is not the weave.** At most it selects the space, both doublets in h(12, 1), and
+   only if a pair term is required. That condition is not decided here. The order, and the line within the space, stay
+   choices.
+2. **TWO_HIGGS's pair has no pair term T and S allow.** Its doublets share a three-generation condition, but no
+   holomorphic or Hermitian term links them.
+3. **Under GENESIS PF1-W the Higgs pair is never W132's absorber.** If the moves are gauged, their SU(2) remainder goes
+   to τ's counterterm or to the sign twist ε₁₂ on Q or on L (W132).
+4. **Telling H_u from H_d is a thread's choice,** as the lepton–down split is (W140). A line of order N ∤ 6 does it.
+
+**Weave or thread.** WEAVE-type for P0–P2 and P3's first half: every admissible space and pair, the moves' joint
+action, and claims about all pairs at once. P3's line count is a census of thread objects, every line with none
+hand-picked.
+
+**Status.** COMPUTED, exact. One run. Every cell as predicted. No data, so not a trial. 0 of 19.
+
 ## W148. The audit lane's two P-210 notes (82c772eb5 and 3ee8f33d0), reviewed on own code at the owner's "lets go for all systematically": their algebra holds. At the symmetric state the Q8-invariant maximal null planes are a U(3) family, the grading cuts them to the even ranks with index in {−3, −1, +1, +3}, and the contraction is −2δ_ab. A uniformly gapped Q8 tail gives even plus rank, and the threshold control and the far-tail sequence are as stated. One cell failed as worded: this seat's own wrong-sign control, which the rule over-claimed and the script's docstring flagged before the run. No error by the lane (`the_p210_review.py`; `W148_RULE.md`)
 
 **Why.**
@@ -12494,6 +12546,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W147 | COMPUTED, exact (the rule first; one run; every cell as predicted); WEAVE-type, with a census of thread lines | what assigns the Higgs pair: of the ten pairs of GENESIS PF1-W's four Higgs spaces, only both doublets in h(12, 1) meet a common three-generation condition (0 and L6) and allow a pair term (holomorphic and Hermitian). TWO_HIGGS's {12, 20} shares condition 0 but allows none. No admissible pair closes W132's SU(2) remainder (sums 0, 8, 16, never 12). The weave cannot order the pair; 246 of the 266 thread lines can (the 20 of orders 1, 2, 3, 6 cannot). Not a trial. 0 of 19 |
 | W148 | COMPUTED (the rule first; one run; every cell as predicted except E6, failed as worded through an over-claim in this seat's own wrong-sign control, flagged before the run); a review of another seat's algebra | the audit lane's two P-210 notes on own code, none of its code run (it has none): the Green form's null planes are unitary graphs; the Q8 commutant is M₃ ⊗ I₂ (dimension 9) in two bases; the grading cuts the U(3) family to even ranks, index −3, −1, +1, +3; the Cayley chart, the projector path and the planes (8) as stated; Y_ab = −2δ_ab; the constant-tail operator, its L² plane, Weyl's bound, the threshold s² and the far-tail sequence as stated. No error by the lane. Not a trial. 0 of 19 |
 | W146 | COMPUTED (the rule first, corrected twice before its push; one run; every cell as predicted except L1, recorded as failed through a condition the script added beyond the rule, diagnosed post hoc as 30-digit roundoff); WEAVE-type | P-357 data-free: every holomorphic or antiholomorphic Higgs in ρ ⊗ χ, at any weight, character or level, is exactly null (R, F₂), tends to I = 1 (e₁-led), or falls like C e^{−π Im τ} (C = 72 for ∂R, 4a for F_a, checked to 10⁻⁷). The target's I rises (+0.24) across its band instead. The weight pencil leaves h·h fixed, and I is scale-free. The harmonic F̄ + κF (F = η⁻³R) has I = 2∣κ∣/(1 + ∣κ∣²) at every τ, since F·F = 0. The web seat's Lemmas A, A′, B hold; the maximised ‖u‖/m₃ is √2. E₆ gives no one-doublet way out (a reading). Not a trial. 0 of 19 |
 | W145 | COMPUTED (the rule first; one run; every cell as predicted except A2, failed as worded and diagnosed post hoc as a tie between mirror points); a thread result | the third opinion on main's B1741 (P-348): compare.py re-runs to 4.9 × 10⁻¹³; a second calibration gives the same 60 per-seed fractions and minima to 3.4 × 10⁻¹³; the 121 class words give exactly the 75 apexes; the six best rows reproduce on the own instrument to 2.4 × 10⁻⁹. The minimum sits at line 150, Re τ 3.6, tied to 2 × 10⁻¹¹ with FINDINGS' line 153 at 3.4. B1724's law flips J. The match needs the 10% allowance (43.2 at 5%) and with c over {1, …, 5} is not specific (1.21%). A value-level READING, bankable as that and no more. 0 of 19 |

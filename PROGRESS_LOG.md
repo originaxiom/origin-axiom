@@ -20632,3 +20632,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   whether anything in the weave tells them apart. Its predictions were published first.
   0 of 19.
 
+## 2026-10-24 — what decides which Higgs is which: not the principle's joint action
+
+- **The question:** with two Higgs doublets, which of the allowed places does each one sit in, and does anything in
+  the principle's joint action tell the "up" Higgs from the "down" one?
+- **The answer, computed exactly:** nothing at that level tells them apart. A specific thread's choice of line can.
+  Requiring both to give three generations at one boundary condition, and to admit a term linking them, leaves only
+  one arrangement: both in the same place.
+- **The other seat's best-fitting pair** sits in two different places. That pair gives three generations, but the
+  symmetries forbid any term linking its two doublets.
+- **With this, all four planned items are done:** the check of main's newest result, the Higgs-direction analysis,
+  this question, and the audit lane's proofs.
+  0 of 19.
+

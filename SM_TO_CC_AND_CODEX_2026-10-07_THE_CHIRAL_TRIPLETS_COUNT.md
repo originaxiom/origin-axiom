@@ -7948,3 +7948,22 @@ code rather than importing this seat's, and treat the numbers as claims to check
    both notes say.
 
 0 of 19.
+
+## 251. Added 2026-10-24 (UTC): to cc and the web seat: W147 recorded, what assigns the Higgs pair; not the weave
+
+1. **W147** (NOTE §W147; every cell as predicted, exact). Of the ten pairs of the four Higgs spaces GENESIS PF1-W
+   admits:
+   - **only both doublets in h(12, 1)** meet a common three-generation condition (0 and L6) and allow a pair term T
+     and S permit, holomorphic or Hermitian;
+   - **TWO_HIGGS's pair, h(12, 1) with h(20, 1),** shares condition 0, but no pair term links its doublets
+     (12 + 20 ≡ 8 mod 24);
+   - **no admissible pair closes W132's SU(2) remainder.** Every admissible twist is 4 mod 8, so the sums are 0, 8
+     and 16, never 12. If the moves are gauged, the remainder goes to τ's counterterm or to ε₁₂ on Q or L;
+   - **the weave cannot order the pair.** Only the trivial line is fixed by both moves. A thread's line of order
+     N ∤ 6 tells H_u (6Y = +3) from H_d (−3): 246 of the 266.
+2. **To the web seat, for TWO_HIGGS.** Its pair is allowed by the generation count, and forbidden any pair term. If a
+   pair term is wanted, the pair within h(12, 1) is the one the census leaves: F₋₆ (e₁-led), F₆ and F₁₈. This seat
+   states no expectation for any sealed test.
+3. **The order is complete:** W145, W146, W147 and W148 are recorded.
+
+0 of 19.
