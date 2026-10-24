@@ -1,0 +1,19 @@
+{
+ "A0": true,
+ "A1": false,
+ "A2": true,
+ "A3": true,
+ "A3f": true,
+ "A4": true,
+ "B0": true,
+ "B1": true,
+ "B2": false,
+ "C1": true,
+ "C2": false,
+ "D1": true
+}
+every predicted cell holds: False
+
+real	87m48.381s
+user	260m26.801s
+sys	52m32.980s

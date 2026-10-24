@@ -1,0 +1,994 @@
+{
+ "arc": "W156",
+ "rule": "W156_RULE.md",
+ "status": "one run",
+ "rev": "f3038f81b53e69b11d4c1f429d53b657ae837f65",
+ "python": "3.11.15",
+ "numpy": "2.4.6",
+ "mpmath": "1.3.0",
+ "machine": "x86_64",
+ "workers": 4,
+ "A0": {
+  "frontier/B1749_the_six_at_fresh_apexes/verification/census.jsonl": true,
+  "frontier/B1749_the_six_at_fresh_apexes/verification/comparison.json": true,
+  "frontier/B1749_the_six_at_fresh_apexes/verification/control.json": true,
+  "census rows": 33250,
+  "census distinct (line, Re, Im)": 33250,
+  "ARTIFACT_HASHES": {
+   "frontier/B1749_the_six_at_fresh_apexes/verification/census.py": true,
+   "frontier/B1749_the_six_at_fresh_apexes/verification/compare.py": true,
+   "frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/compare.py": true,
+   "frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/census.jsonl": true,
+   "frontier/B1726_the_two_ingredients_replicated/verification/census.py": true,
+   "frontier/B1723_the_golden_valley/verification/b1656_funcs.py": true,
+   "frontier/B1691_the_exponents_at_the_two_fixed_points/verification/the_exponents.py": true,
+   "frontier/B1691_the_exponents_at_the_two_fixed_points/verification/qseries.py": true,
+   "frontier/B1667_the_canonical_cusp/verification/the_canonical_cusp.json": true,
+   "frontier/B1720_the_thread_fixes_the_point/verification/thread_geometry.py": true,
+   "frontier/B1726_the_two_ingredients_replicated/verification/census.jsonl": true,
+   "frontier/B1637_fits_on_the_ruled_branch/received/HZ2021_running_masses_MZ.json": true,
+   "frontier/B1612_the_mixing_patterns_the_weave_fixes/verification/data.json": true
+  }
+ },
+ "part_seconds": {
+  "A0": 2.4,
+  "A1": 2204.9,
+  "A2": 1188.2,
+  "D1": 978.3,
+  "A3": 2.1,
+  "A3f": 0.0,
+  "A4": 1.9,
+  "C1": 4.6,
+  "B": 7.1,
+  "C2": 876.4
+ },
+ "A1": {
+  "compare": {
+   "returncode": 0,
+   "seconds": 2204.3,
+   "stderr_tail": ""
+  },
+  "diff": {
+   "numbers": 472,
+   "exact": 430,
+   "max_rel": 2.284505329736442e-12,
+   "mismatches": [
+    [
+     "/chi2/six|free/min",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1769/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1770/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1771/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1772/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1773/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1774/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1775/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1776/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1777/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1778/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1779/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1780/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1781/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1782/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1783/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1784/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1785/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1786/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1787/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ],
+    [
+     "/chi2_per_seed/1788/six|free[0]",
+     3.184916016380157,
+     3.184916016372881
+    ]
+   ]
+  },
+  "cells identical": true,
+  "per-seed fractions exact": true
+ },
+ "A2": {
+  "mins": {
+   "seat": {
+    "chi2_six_min": 3.5737086623917165,
+    "row": [
+     "151",
+     "0.666666667",
+     "3.055050463303893",
+     "L_max"
+    ],
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "k": 1.0986122886681098
+   },
+   "cov": {
+    "chi2_six_min": 3.5737086623917165,
+    "row": [
+     "151",
+     "0.666666667",
+     "3.055050463303893",
+     "L_max"
+    ],
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "k": 1.0986122886681098
+   },
+   "free": {
+    "chi2_six_min": 3.184916016377499,
+    "row": [
+     "151",
+     "0.666666667",
+     "3.055050463303893",
+     "L_max"
+    ],
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "k": "free"
+   }
+  },
+  "per_seed": {
+   "1769": {
+    "seat": 0.00025,
+    "cov": 0.00125,
+    "free": 0.00275
+   },
+   "1770": {
+    "seat": 0.00025,
+    "cov": 0.00125,
+    "free": 0.002
+   },
+   "1771": {
+    "seat": 0.0,
+    "cov": 0.00075,
+    "free": 0.00225
+   },
+   "1772": {
+    "seat": 0.0,
+    "cov": 0.00075,
+    "free": 0.0015
+   },
+   "1773": {
+    "seat": 0.0005,
+    "cov": 0.00175,
+    "free": 0.00175
+   },
+   "1774": {
+    "seat": 0.0,
+    "cov": 0.0,
+    "free": 0.002
+   },
+   "1775": {
+    "seat": 0.0005,
+    "cov": 0.00125,
+    "free": 0.003
+   },
+   "1776": {
+    "seat": 0.0,
+    "cov": 0.0005,
+    "free": 0.00275
+   },
+   "1777": {
+    "seat": 0.00025,
+    "cov": 0.0005,
+    "free": 0.0025
+   },
+   "1778": {
+    "seat": 0.00025,
+    "cov": 0.00125,
+    "free": 0.002
+   },
+   "1779": {
+    "seat": 0.00075,
+    "cov": 0.00125,
+    "free": 0.0035
+   },
+   "1780": {
+    "seat": 0.00025,
+    "cov": 0.0005,
+    "free": 0.002
+   },
+   "1781": {
+    "seat": 0.0005,
+    "cov": 0.001,
+    "free": 0.0045
+   },
+   "1782": {
+    "seat": 0.0,
+    "cov": 0.001,
+    "free": 0.0025
+   },
+   "1783": {
+    "seat": 0.0,
+    "cov": 0.001,
+    "free": 0.00125
+   },
+   "1784": {
+    "seat": 0.00025,
+    "cov": 0.0005,
+    "free": 0.0025
+   },
+   "1785": {
+    "seat": 0.0,
+    "cov": 0.00075,
+    "free": 0.00225
+   },
+   "1786": {
+    "seat": 0.0,
+    "cov": 0.00025,
+    "free": 0.002
+   },
+   "1787": {
+    "seat": 0.00025,
+    "cov": 0.0005,
+    "free": 0.00175
+   },
+   "1788": {
+    "seat": 0.0,
+    "cov": 0.00025,
+    "free": 0.00225
+   }
+  },
+  "per_seed_equal_main": true,
+  "min_rel_vs_main": {
+   "seat": 1.25259769560852e-13,
+   "cov": 1.25259769560852e-13,
+   "free": 8.345193114302127e-13
+  },
+  "mean": {
+   "seat": 0.0002,
+   "cov": 0.0008125000000000001,
+   "free": 0.00235
+  },
+  "worst_seed": {
+   "seat": 0.00075,
+   "cov": 0.00175,
+   "free": 0.0045
+  },
+  "chi2_nine": {
+   "seat": {
+    "chi2_nine_min": 191.841257842325,
+    "row": [
+     "150",
+     "0.804347826",
+     "2.586591132398079",
+     "L_2"
+    ],
+    "main": 191.84125784233038,
+    "rel_vs_main": 2.8000770755794504e-14
+   },
+   "sm": {
+    "chi2_nine_min": 1278.8541780272449,
+    "row": [
+     "21",
+     "0.0",
+     "3.162277660168379",
+     "L_max"
+    ],
+    "main": 1278.8541780272462,
+    "rel_vs_main": 1.0667690469322037e-15
+   }
+  },
+  "top five points (seat)": [
+   {
+    "line": 151,
+    "Re_tau": 0.666666667,
+    "Im_tau": 3.055050463303893,
+    "chi2_six": 3.5737086623917165
+   },
+   {
+    "line": 149,
+    "Re_tau": 0.333333333,
+    "Im_tau": 3.055050463303893,
+    "chi2_six": 3.573708662435389
+   },
+   {
+    "line": 149,
+    "Re_tau": 0.269230769,
+    "Im_tau": 3.037487672558812,
+    "chi2_six": 3.6205109757107876
+   },
+   {
+    "line": 151,
+    "Re_tau": 0.730769231,
+    "Im_tau": 3.037487672558812,
+    "chi2_six": 3.620510976302178
+   },
+   {
+    "line": 151,
+    "Re_tau": 0.605263158,
+    "Im_tau": 3.0258580889584423,
+    "chi2_six": 5.924986427666575
+   }
+  ],
+  "seeds 1769 and 1788 (main's referee recomputed these)": {
+   "1769": {
+    "seat": 0.00025,
+    "cov": 0.00125,
+    "free": 0.00275
+   },
+   "1788": {
+    "seat": 0.0,
+    "cov": 0.00025,
+    "free": 0.00225
+   }
+  }
+ },
+ "D1": {
+  "allowance 0.05": {
+   "chi2_six_min": 5.086308461417706,
+   "fraction_mean": 8.75e-05,
+   "fraction_max": 0.00025,
+   "per_seed": [
+    0.00025,
+    0.0,
+    0.0,
+    0.0,
+    0.00025,
+    0.0,
+    0.00025,
+    0.0,
+    0.00025,
+    0.00025,
+    0.00025,
+    0.00025,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton factor over {1, ..., 5}": {
+   "chi2_six_min": 3.5737086623917165,
+   "fraction_mean": 0.0005875,
+   "fraction_max": 0.00125,
+   "per_seed": [
+    0.0005,
+    0.00075,
+    0.00025,
+    0.00075,
+    0.0005,
+    0.0005,
+    0.00125,
+    0.00025,
+    0.00075,
+    0.00025,
+    0.00125,
+    0.0005,
+    0.001,
+    0.00075,
+    0.00025,
+    0.00075,
+    0.0005,
+    0.0,
+    0.0005,
+    0.0005
+   ]
+  },
+  "uniform sigma 0.10": {
+   "chi2_six_min": 7.720292176024712,
+   "fraction_mean": 0.0006000000000000001,
+   "fraction_max": 0.00125,
+   "per_seed": [
+    0.00025,
+    0.0005,
+    0.0005,
+    0.001,
+    0.0005,
+    0.00075,
+    0.00075,
+    0.00075,
+    0.00075,
+    0.00075,
+    0.00125,
+    0.001,
+    0.00075,
+    0.00075,
+    0.0005,
+    0.0005,
+    0.00025,
+    0.0,
+    0.00025,
+    0.00025
+   ]
+  },
+  "c = 1 alone": {
+   "chi2_six_min": 125.83508000171297,
+   "fraction_mean": 0.2766875,
+   "fraction_max": 0.286,
+   "per_seed": [
+    0.2785,
+    0.27725,
+    0.282,
+    0.265,
+    0.26525,
+    0.27425,
+    0.286,
+    0.27725,
+    0.26975,
+    0.279,
+    0.27475,
+    0.282,
+    0.27325,
+    0.27825,
+    0.274,
+    0.28575,
+    0.26575,
+    0.279,
+    0.286,
+    0.28075
+   ]
+  }
+ },
+ "A3": {
+  "(i) B1720 classes": {
+   "classes": 121,
+   "failing": [],
+   "worst |height - stored|": 4.440892098500626e-16
+  },
+  "(ii)": {
+   "necklaces of length 12": 335,
+   "in the window": 238,
+   "worst |height - Lagrange/2|": 8.881784197001252e-16
+  },
+  "(iii)": {
+   "distinct census points": 125,
+   "word-point failures": [],
+   "listed words": 238,
+   "listed words equal the own window words": true
+  }
+ },
+ "A3f": {
+  "older primitive words (lengths 2-11)": 410,
+  "older top points in the window": 273,
+  "overlaps": [],
+  "points whose mirror is another point": 102,
+  "mirror pairs": 51,
+  "independent (pairs + singles)": 74
+ },
+ "A4": {
+  "W140 lines": 266,
+  "main lines()": 266,
+  "equal as sets": true,
+  "W138's own_lines equal main's list in order": true,
+  "every apex has lines 0-265": true,
+  "apexes": 125
+ },
+ "C1": {
+  "rows below 16.75": 12,
+  "rows": [
+   {
+    "chi2_six": 3.5737086623917165,
+    "line": [
+     "2/5",
+     "1/2"
+    ],
+    "Re_tau": 0.666666667,
+    "Im_tau": 3.055050463303893,
+    "horocycle": "L_max",
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "c": 3
+   },
+   {
+    "chi2_six": 3.573708662435389,
+    "line": [
+     "2/5",
+     "1/10"
+    ],
+    "Re_tau": 0.333333333,
+    "Im_tau": 3.055050463303893,
+    "horocycle": "L_max",
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "c": 3
+   },
+   {
+    "chi2_six": 3.6205109757107876,
+    "line": [
+     "2/5",
+     "1/10"
+    ],
+    "Re_tau": 0.269230769,
+    "Im_tau": 3.037487672558812,
+    "horocycle": "L_max",
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "c": 3
+   },
+   {
+    "chi2_six": 3.620510976302178,
+    "line": [
+     "2/5",
+     "1/2"
+    ],
+    "Re_tau": 0.730769231,
+    "Im_tau": 3.037487672558812,
+    "horocycle": "L_max",
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "c": 3
+   },
+   {
+    "chi2_six": 5.924986427666575,
+    "line": [
+     "2/5",
+     "1/2"
+    ],
+    "Re_tau": 0.605263158,
+    "Im_tau": 3.0258580889584423,
+    "horocycle": "L_max",
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "c": 3
+   },
+   {
+    "chi2_six": 5.924986427682372,
+    "line": [
+     "2/5",
+     "1/10"
+    ],
+    "Re_tau": 0.394736842,
+    "Im_tau": 3.0258580889584423,
+    "horocycle": "L_max",
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "c": 3
+   },
+   {
+    "chi2_six": 8.41898417502224,
+    "line": [
+     "2/5",
+     "1/2"
+    ],
+    "Re_tau": 0.5,
+    "Im_tau": 3.0618621784789726,
+    "horocycle": "L_max",
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "c": 3
+   },
+   {
+    "chi2_six": 8.418984175029195,
+    "line": [
+     "2/5",
+     "1/10"
+    ],
+    "Re_tau": 0.5,
+    "Im_tau": 3.0618621784789726,
+    "horocycle": "L_max",
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "c": 3
+   },
+   {
+    "chi2_six": 15.732058153837682,
+    "line": [
+     "2/5",
+     "1/2"
+    ],
+    "Re_tau": 0.5,
+    "Im_tau": 3.118684093682859,
+    "horocycle": "L_max",
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "c": 3
+   },
+   {
+    "chi2_six": 15.732058154176348,
+    "line": [
+     "2/5",
+     "1/10"
+    ],
+    "Re_tau": 0.5,
+    "Im_tau": 3.118684093682859,
+    "horocycle": "L_max",
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "c": 3
+   },
+   {
+    "chi2_six": 15.846555360845919,
+    "line": [
+     "2/5",
+     "1/10"
+    ],
+    "Re_tau": 0.269230769,
+    "Im_tau": 2.960539291988587,
+    "horocycle": "L_max",
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "c": 3
+   },
+   {
+    "chi2_six": 15.846555360872157,
+    "line": [
+     "2/5",
+     "1/2"
+    ],
+    "Re_tau": 0.730769231,
+    "Im_tau": 2.960539291988587,
+    "horocycle": "L_max",
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "c": 3
+   }
+  ],
+  "lines": [
+   [
+    "2/5",
+    "1/10"
+   ],
+   [
+    "2/5",
+    "1/2"
+   ]
+  ],
+  "horocycles": [
+   "L_max"
+  ],
+  "configurations": [
+   [
+    [
+     "St",
+     "S",
+     "S"
+    ],
+    3
+   ]
+  ],
+  "heights": [
+   2.960539291988587,
+   3.118684093682859
+  ]
+ },
+ "B": {
+  "named rows": {
+   "best six-row": [
+    149,
+    0.333333333,
+    3.055050463303893
+   ],
+   "its mirror": [
+    151,
+    0.666666667,
+    3.055050463303893
+   ],
+   "best by the largest factor": [
+    151,
+    0.605263158,
+    3.0258580889584423
+   ]
+  },
+  "points": [
+   {
+    "line": 149,
+    "tau": [
+     0.333333333,
+     3.055050463303893
+    ],
+    "deviation": {
+     "up": 2.4032331680534765e-11,
+     "down": 5.996314556002268e-13,
+     "lep": 1.315947351089064e-12,
+     "ckm": 9.384715227160853e-13,
+     "J_rel": 4.608368033554791e-12,
+     "zero_pattern_mismatches": 0
+    }
+   },
+   {
+    "line": 151,
+    "tau": [
+     0.666666667,
+     3.055050463303893
+    ],
+    "deviation": {
+     "up": 1.2227552303936868e-11,
+     "down": 3.738120923913601e-13,
+     "lep": 7.400746682148555e-13,
+     "ckm": 1.427080675852158e-12,
+     "J_rel": 3.876666331130006e-12,
+     "zero_pattern_mismatches": 0
+    }
+   },
+   {
+    "line": 151,
+    "tau": [
+     0.605263158,
+     3.0258580889584423
+    ],
+    "deviation": {
+     "up": 4.959721522491448e-11,
+     "down": 2.1338486533293232e-13,
+     "lep": 6.183942247164034e-13,
+     "ckm": 7.575051697020312e-13,
+     "J_rel": 4.006105175524988e-12,
+     "zero_pattern_mismatches": 0
+    }
+   },
+   {
+    "line": 149,
+    "tau": [
+     0.269230769,
+     3.037487672558812
+    ],
+    "deviation": {
+     "up": 2.1330937016500554e-11,
+     "down": 1.861844012296561e-13,
+     "lep": 4.1167069753109276e-13,
+     "ckm": 5.148104165188176e-13,
+     "J_rel": 5.574070307597202e-12,
+     "zero_pattern_mismatches": 0
+    }
+   },
+   {
+    "line": 151,
+    "tau": [
+     0.730769231,
+     3.037487672558812
+    ],
+    "deviation": {
+     "up": 3.984634844221285e-11,
+     "down": 2.393640841091551e-13,
+     "lep": 2.5912605394747796e-13,
+     "ckm": 1.8582912986158604e-12,
+     "J_rel": 4.723822293835194e-12,
+     "zero_pattern_mismatches": 0
+    }
+   }
+  ],
+  "worst": {
+   "up": 4.959721522491448e-11,
+   "down": 5.996314556002268e-13,
+   "lep": 1.315947351089064e-12,
+   "ckm": 1.8582912986158604e-12,
+   "J_rel": 5.574070307597202e-12,
+   "zero_pattern_mismatches": 0
+  },
+  "joint_law_max": 4.706609175800599e-19,
+  "residue_control_rel": 1.4337597783829877e-31,
+  "T-law image against the best row": {
+   "up": 1.569788743450815e-11,
+   "down": 5.155875726357898e-13,
+   "lep": 3.297362383136171e-13,
+   "ckm": 6.46815934146407e-13,
+   "J_rel": 2.9706888131925382e-12,
+   "zero_pattern_mismatches": 0
+  },
+  "mirror image against the best row": {
+   "up": 1.4318102259483298e-11,
+   "down": 8.326672684689021e-14,
+   "lep": 2.622346784164276e-13,
+   "ckm": 3.2029934260440896e-13,
+   "J_rel": 2.0000000000008176,
+   "zero_pattern_mismatches": 0
+  },
+  "row": {
+   "chi2": 3.573708662062841,
+   "chi2 from the stored row": 3.5737086624354006,
+   "pulls": [
+    0.2978546636711627,
+    -1.6133617968118756,
+    0.5201817129840992,
+    -0.057303696828825156,
+    0.109717694428437,
+    -0.7721037969833603
+   ],
+   "D": 10.709775843733196,
+   "D stored": 10.709775843732578,
+   "checks": {
+    "chi2_rel": 1.0425017705993474e-10,
+    "pulls_abs": 1.1853029668884574e-10,
+    "D_rel": 5.772036587236745e-14
+   }
+  }
+ },
+ "C2": {
+  "Im tau below the bar per Re tau (L_max)": {
+   "0.1": [],
+   "0.3": [
+    2.98,
+    3.0,
+    3.02,
+    3.04,
+    3.06,
+    3.08
+   ],
+   "0.5": [
+    3.02,
+    3.04,
+    3.06,
+    3.08,
+    3.1,
+    3.12
+   ],
+   "0.7": [],
+   "0.9": [],
+   "1.1": [],
+   "1.3": [],
+   "1.5": [
+    3.02,
+    3.04,
+    3.06,
+    3.08,
+    3.1,
+    3.12
+   ],
+   "1.7": [
+    2.98,
+    3.0,
+    3.02,
+    3.04,
+    3.06,
+    3.08
+   ],
+   "1.9": [],
+   "2.1": [],
+   "2.3": [],
+   "2.5": [],
+   "2.7": [],
+   "2.9": [],
+   "3.1": [],
+   "3.3": [],
+   "3.5": [],
+   "3.7": [],
+   "3.9": [],
+   "4.1": [],
+   "4.3": [],
+   "4.5": [],
+   "4.7": [],
+   "4.9": []
+  },
+  "one interval at each Re tau": true,
+  "inside [2.80, 3.30]": 1.0,
+  "every such Re tau in [0, 2]": true,
+  "residues covered (of 5)": 3,
+  "p": 0.04444444444444444,
+  "1 - (1 - p)^125": 0.9965959751211748,
+  "read-out: L_2 points below the bar": 0,
+  "points": 2025
+ },
+ "cells": {
+  "A0": true,
+  "A1": false,
+  "A2": true,
+  "A3": true,
+  "A3f": true,
+  "A4": true,
+  "B0": true,
+  "B1": true,
+  "B2": false,
+  "C1": true,
+  "C2": false,
+  "D1": true
+ },
+ "every predicted cell holds": false,
+ "opinion": {
+  "agrees with main's scope (a property of the frame's strip, not a selection of tau)": false
+ },
+ "seconds": 5266.9
+}
