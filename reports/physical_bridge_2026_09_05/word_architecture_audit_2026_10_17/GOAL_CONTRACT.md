@@ -713,3 +713,25 @@ not silently fixed by installation or relaxed requirements. Only metadata
 was inspected. These software outcomes do not execute the ten science
 checks, prove the global gate, complete the prospective source inventory,
 or supply independent/main acceptance. P-210 remains open.
+
+## Recovery of an actual graded-cusp response
+
+October 24. The [actual-response successor](ACTUAL_GRADED_CUSP_RESPONSE_AND_STATE_SCOPE.md)
+recovers the existing graded-condensate and parallel SM-gauge phases,
+rather than extrapolate the one-root end's gapless result. Their
+already-derived mass block B=E(partial_t+K) gives a constant unitary
+transport to the full two-slot tail operator. On that specified cusp,
+the L2 condition selects both positive/negative decaying slots; no
+extra arbitrary K is needed. The spectral-parameter response is also
+given explicitly, with its nonorthogonal idempotent and threshold
+qualification retained.
+
+This is authored unreviewed algebra, not a fresh numerical reproduction
+of those older backgrounds, an admitted scientific pass, or a new SM
+claim. The older charged pairing/index results keep their actual scope.
+There is no exhibited identification between these physical mass-map
+slots and the paper's raw Q8 coefficient module; the latter's stabilizer
+restriction cannot simply be transferred. Parent, metric, spin line,
+condensate selection and that physical dictionary remain priced duties.
+The frozen P210 execution package is unchanged; no physical-input row
+is paid and the full physical mission remains active.
