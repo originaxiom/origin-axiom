@@ -3224,7 +3224,9 @@ six roots of u⁶ − 8u⁴ + 12u³ + 4. Open, in the order approved by the owne
 
 **Dated note (2026-10-23, S199; the parked-items sweep, P-302):** (b) is answered on main by **B1736**: W135's family group rebuilt with main's own code (E₈ from 2I; the object's g = −RL⁻¹ permutes its frame's six 27-classes as the A₂ rotation does; Γ′ the cube's rotations, no Sym³ invariant, one Λ³), and B1656's coupling is Y = u hᵀ + h uᵀ − (u·h)1 + u₁[h]_× + h₀(u₁1 + [u]_×), its channel 1 E₈'s ε and its channels a triplet carrying the Higgs's own cube rotations. B1739 then reads the mixing through it: the Higgs is nearly null at hierarchy τ, so the Standard Model's reading misaligns the light generation.
 
-## L238 — B675'S CERTIFICATION DOES NOT RUN ON THIS BENCH (registered 2026-10-02, B1452)
+## L238 — B675'S CERTIFICATION DOES NOT RUN ON THIS BENCH (registered 2026-10-02, B1452) — **CLOSED 2026-10-24 (Review 69, R69-7: the run recipe; B675's addendum)**
+
+**PAID 2026-10-24 (Review 69, R69-7):** the cause is sympy's factor sort meeting python-flint 0.9.0's unorderable `nmod`; under `SYMPY_GROUND_TYPES=python` the certification runs (68 s) and matches the banked receipt line for line, timings aside. The script is unchanged; the recipe is recorded in `frontier/B675_hcusp_sweep/ADDENDUM_2026-10-24_L238.md`.
 
 **ESCALATED(2026-10-24: the bench repair (find the step needing the ordering, or pin python-flint) in the decadal review's intake, P-359).**
 

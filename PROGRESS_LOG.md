@@ -17871,3 +17871,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - Review 69's anchor-commit d64dd547c; run_suite.sh's default -n 8 with a lock (R69-3); six glosses (R69-2).
 - **Landing suite.** full suite 7 702 passed, 2 failed, 68 skipped (22:52) via scripts/run_suite.sh at its new default -n 8 on 5630368e2's tree: the two failures are B805's attachment locks (P-239, standing).
+
+## 2026-10-24 — S209 R69-7, FIRST PART
+
+- L238 CLOSED (B675 runs under SYMPY_GROUND_TYPES=python; output matches its receipt); three aged relays closed with evidence. The reading test still running.
+- **Landing suite.** full suite 7 701 passed, 3 failed, 68 skipped (22:46, -n 8) on 4b7c02e88: two failures are B805's attachment locks (P-239, standing); the third, B1626's relay-closure lock, froze its 40 closed and 25 open rows exactly, and this landing closed two of the 25 with evidence — the lock now counts Review 69's closures with its later ones, as it already did Review 66's declines (text and the lock only, after the suite); the relay tests and the gates rerun green before the push.

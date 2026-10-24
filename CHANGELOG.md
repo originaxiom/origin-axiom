@@ -1,5 +1,13 @@
 # Changelog
 
+## S209 REVIEW 69'S R69-7, FIRST PART: LEAD L238 PAID; THREE AGED RELAYS CLOSED (2026-10-24)
+
+- **L238 CLOSED:** B675's certification runs on the current bench under `SYMPY_GROUND_TYPES=python` — the crash was sympy's factor sort meeting python-flint 0.9.0's unorderable `nmod`, not the mathematics — and its output matches the banked receipt line for line (68 s); the script unchanged, the recipe in B675's addendum of 2026-10-24.
+- **Three relays closed with evidence:** the audit lane's ACT_REGISTER (its two corrections paid by B1463), and main's FOUR_OF_YOUR_RECORDS and THE_RELEASED_PACKET (delivered on 2026-10-02, receipt acknowledged). The rest of R69-7 stays open with its named next actions (R57/R58 and the lane's harvest; R79; the boundary table; R77's join; the owner-held CC_TO_SM relay).
+- The web seat's sealed READING TEST is still running (its scan resumed from a 3 600-row checkpoint).
+- **Landing suite.** full suite 7 701 passed, 3 failed, 68 skipped (22:46, -n 8) on 4b7c02e88: two failures are B805's attachment locks (P-239, standing); the third, B1626's relay-closure lock, froze its 40 closed and 25 open rows exactly, and this landing closed two of the 25 with evidence — the lock now counts Review 69's closures with its later ones, as it already did Review 66's declines (text and the lock only, after the suite); the relay tests and the gates rerun green before the push.
+- 0 of 19.
+
 ## S208 REVIEW 69'S ANCHOR AND TWO OF ITS ITEMS (R69-2, R69-3) (2026-10-24)
 
 - **Review 69's anchor-commit** `d64dd547c` (the established one-line follow-up); the review counter reset.
