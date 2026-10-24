@@ -949,3 +949,34 @@ theorem ledger and conditional claims in `CLAIMS.md`. Write "UNIQUENESS A6", "P0
 - **the menu** (B1725, B1726): the set of ingredient choices a calibration counts. A target is "as good" when its own best
   over the same rows and the same menu is at most the data's, so a larger menu raises the bar for specificity.
 
+## Classical names — the referee lane's concordance (adopted 2026-10-24, the owner's ruling on P-195)
+
+The referee lane's report 02 ("the ladder", 2026-10-17, `reports/referee_lane_2026-10-17/02_the_ladder.md` on its branch,
+commit 11460fe5b) set the record's names beside the classical ones. "Verified" there means checked by computation in the
+referee's session; the rest are classical and cited. Use the classical name beside the record's; it ends rediscoveries.
+
+| The record's name | The classical name | Where it lives | Status |
+| --- | --- | --- | --- |
+| non-cancellation, κ ≠ 2 | the Fricke–Vogt invariant κ = tr[a,b]; κ = −2 is the parabolic commutator, the puncture | rung A | classical (Fricke, Goldman); I-20 earned |
+| the weave | the modular group on the upper half-plane; the ruled weave ⟨L,R⟩ is the braid group B₃, Mp₂(ℤ)'s cover | A | classical |
+| threads | closed geodesics of the modular surface = modular knots (Series 1985, Ghys 2006) | F | classical |
+| the arena | SL(2,ℝ)/SL(2,ℤ) = the trefoil complement (Quillen, in Milnor's K-theory book) | F | classical |
+| the seed LR, the root | the Cohn matrix of the golden ratio; the monodromy of the figure-eight; the first Markov number | E | classical |
+| the common point and its surface x²+y²+z² = xyz | the Fricke surface at κ = −2 = Markov's surface x²+y²+z² = 3xyz after dividing by 3; (0,0,0) is the quaternion representation; the weave's generator pairs (LR, RL⁻¹), (LR, RL), (LR, LRRL), (LRRL, LRLRRL) have trace triples (3,3,3), (3,3,6), (3,6,15), (6,15,87) = 3 × the Markov triples (1,1,1), (1,1,2), (1,2,5), (2,5,29) | E | verified |
+| the three parities, the clock | SL(2,𝔽₂) ≅ S₃ permuting the three even spin structures / theta characteristics | C | classical |
+| the triplet T and its multiplier | the Γ(4) weight-1 triplet (θ₂², θ₃², θ₄²) twisted by χ_η²¹; and (θ₃², θ₂², θ₄²) = (p² + q², 2pq, p² − q²) for the weight-½ doublet (p, q) = (θ₃(2τ), θ₂(2τ)) — the flux-2 zero-mode doublet of a magnetized torus: T is the symmetric square of two generations, not three elementary ones | C | verified (the representation reconstructed from the formula; the Sym² identity is classical) |
+| the hand | the choice of sheet of the orientation double cover (m004 over m000); ρ against ρ̄ | B/C | classical |
+| 2T at the common point | SL(2,𝔽₃); McKay graph = affine E₆ (the whole E₆ era is this rung's McKay shadow, I-1 earned) | D | classical |
+| the tick σ² = LR; the rule a → ab, b → a | the Fibonacci substitution; the golden matrix LP of determinant −1, (LP)² = LR; the Gieseking manifold m000 | E | classical |
+| the isotropic triplet ρ·ρ = 0, the structural zero | Jacobi's θ₃⁴ = θ₂⁴ + θ₄⁴ | C | verified |
+| Prop. 13, Σρ_r²℘(z_r) = 0 | the three half-period values of ℘ for the Legendre form; a two-line identity | C | verified, with proof |
+| the defect D | (2/π)(θ₂²θ₄²/θ₃⁶)·L′(λ) on the imaginary axis, L the Rogers dilogarithm, λ the Γ(2) Hauptmodul; D(ω) = 0 because λ(ω) = e^{iπ/3} is the figure-eight's tetrahedral shape; D is not a Maass form | C/E | verified |
+| the period phase i^{#L−#R} | #L − #R = Ψ(γ), the Rademacher function (checked on nine words); e^{iπΨ/2} is the multiplier of η⁶; Ψ = the linking number with the trefoil (Ghys) = the η-invariant / signature defect of the thread's torus bundle (Atiyah 1987) | B | verified + classical |
+| the constant mode 0.31500491 | the identity term of the Selberg trace formula; Duke's equidistribution of closed geodesics | F | verified to eight digits |
+| the escape rate 0.396 | the top Lyapunov exponent of the Bernoulli product of L and R; the p = 0 end law is Minkowski's ?(x) | A | verified |
+| the weight-1 Yukawa (unique) | the Zee texture: zero-diagonal Majorana matrix, bimaximal mixing, inverted ordering; (φ⁻², φ⁻¹, 1) at τ = i | C/E | verified |
+| the Higgs S ∈ M₂(ℂ) with S̃ = ϵS̄ϵᵀ; V = 1 ⊕ U(2) | the bidoublet of left–right symmetric models and its conjugate; the one-bidoublet degeneracy | identification | classical (physics) |
+| the down–lepton miss, 3.14 | the Georgi–Jarlskog colour Clebsch 3 (a Higgs with a colour-charged component) | identification | classical (physics) |
+| the metallic family L^mR^m, L^mP | period-one continued fractions [m; m, m, …], discriminants m² + 4 | E | classical |
+| the E₆ 27 and trinification ℤ/3 | McKay + the stabiliser of ω | D | classical |
+| the golden quasicrystal (B517), the Fibonacci anyon (Jones era) | ℤ[φ] in its icosahedral and TQFT dresses: the same rung-E unit | E | classical |

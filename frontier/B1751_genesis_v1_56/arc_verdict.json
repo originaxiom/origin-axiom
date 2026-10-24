@@ -1,0 +1,26 @@
+{
+ "id": "B1751",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1750",
+  "B1458"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W153"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the foundation document",
+  "object": "GENESIS v1.55 -> v1.56; docs/LOOK_LEDGER.md opened; the ladder's rule in docs/THE_WEAVE.md; the glossary in TERMINOLOGY",
+  "reach": "general",
+  "hypotheses": "the owner's rulings of 2026-10-24 (evening)"
+ },
+ "claim_one_line": "GENESIS v1.56 at the owner's rulings of 2026-10-24: FK9's looks counted jointly across seats (the look ledger, P-367; docs/LOOK_LEDGER.md opened with main's 20 looks, the web seat's 7 and the SM seat's); the ladder's rule R1 recorded at F-MC with its two clauses (the prime 5 adopted by the rule, not derived; the rule fixes the algebra, not its embedding or fields; sm:W153) (P-375); the Higgs fork ruled 'both lines kept separate'; the referee lane's concordance adopted into TERMINOLOGY (P-195); the paper frozen, the reader's PDF unsent and GM5c open confirmed. No status cell changes. 0 of 19.",
+ "weave_or_thread": "weave (the foundation's rules)"
+}

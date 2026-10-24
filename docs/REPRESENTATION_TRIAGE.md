@@ -138,3 +138,5 @@ arcs, 12 cited on no synthesis surface, **0 untriaged**. The window B1626–B169
 the field stage and the foundations quest are on `docs/THE_WEAVE.md`, CAMPAIGN_STATUS and GENESIS v1.37–v1.51, and
 S158's five (B1686 W60 and W62 on main, B1687 the Clifford group, B1688 Ising × Fibonacci, B1689 and B1690 P-229's
 verifications) are on CAMPAIGN_STATUS. The 13 PENDING rows above are unchanged.
+
+**Currency read 2026-10-24 (S218; the window B1691–B1751).** The representation sweep reports 0 untriaged substantial arcs at B1751. The window's arcs are on synthesis surfaces: the frame's value tests and their verifications (B1712–B1749: the line census, the two ingredients, the thread rule, the Higgs regimes, the reading test, the heavy generations, the six at fresh apexes) on CAMPAIGN_STATUS and `docs/LOOK_LEDGER.md`; the foundations (B1706, B1715, B1721, B1750, B1751: GENESIS v1.52–v1.56) on GENESIS's log; the weave's facts and rules on `docs/THE_WEAVE.md`. The 13 PENDING rows above are unchanged.

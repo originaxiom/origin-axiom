@@ -17916,3 +17916,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - **B1749.** P2 holds (0.02%) on 125 fresh apexes; the referee narrows it to the frame's Im τ ≈ 3.0 strip (P-350, not cited at the seal — disclosed); the third opinion asked. **B1750.** The observer re-typed at the owner's ruling with the SM seat's reading folded in; the mirror maps J to −J (checked on main). THE WEAVE's breaking rule carried onto main. Harvest rows 1371–1382; P-369–P-375; FLOOR 375.
 - **Landing suite.** full suite 7 722 passed, 2 failed, 68 skipped (24:42, -n 8) on 7bc90db1e: the two failures are B805's attachment locks (P-239, standing). With the suite's two measurement refreshes (B1464's seal census, B1426's lane survey).
+
+## 2026-10-24 — S218 THE OWNER'S RULINGS (GENESIS v1.56, B1751); THE MIXING AT THE STRIP (P-377)
+
+- The ladder's rule R1 adopted with its clauses; the Higgs fork both lines; the joint look ledger adopted (docs/LOOK_LEDGER.md); the glossary into TERMINOLOGY. Step 2 (post hoc): at the six's strip only two free doublets reach the nine; every structured candidate fails. Harvest 1383–1384; the SM relay; P-376, P-377; FLOOR 377.
+- **Landing suite.** full suite 7 726 passed, 2 failed, 68 skipped (28:56, -n 8) on 56a763e0e: the two failures are B805's attachment locks (P-239, standing). With the suite's lane-survey refresh.

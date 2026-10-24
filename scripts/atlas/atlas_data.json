@@ -13921,6 +13921,18 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1751": {
+   "slug": "genesis v1 56",
+   "motifs": [],
+   "refs": [
+    "L1",
+    "L2"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B175": {
    "slug": "collective spectrum predictivity",
    "motifs": [
