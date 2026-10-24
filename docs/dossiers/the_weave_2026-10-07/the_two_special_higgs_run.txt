@@ -1,0 +1,5 @@
+{
+ "K0": true,
+ "K1": false,
+ "K2": false
+}

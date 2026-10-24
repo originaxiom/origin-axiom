@@ -1,0 +1,789 @@
+{
+ "arc": "W158",
+ "rule": "W158_RULE.md",
+ "status": "one run",
+ "rev": "0c9d60a5fb960809bf21e7360be8102cf95df5ed",
+ "python": "3.11.15",
+ "numpy": "2.4.6",
+ "machine": "x86_64",
+ "pins": {
+  "frontier/B1749_the_six_at_fresh_apexes/verification/census.jsonl": true,
+  "frontier/B1753_the_six_on_the_five_ality_lines/verification/census.jsonl": true
+ },
+ "K0 (i)": {
+  "by kind": {
+   "stabilizer": 6,
+   "F": 8,
+   "H": 12
+  },
+  "max |h.h|": 1.6653345369377348e-16,
+  "least projective distance between two": 0.4184316465917346
+ },
+ "rows": 38,
+ "K0 (ii) basis against direct, max relative": 3.012041516188942e-16,
+ "K0 (iii) the record's DR against the census": {
+  "up": 3.820477267806616e-11,
+  "down": 1.026956297778797e-12,
+  "lep": 1.4610535004077733e-12,
+  "ckm": 4.5727865938156395e-12,
+  "J_rel": 1.346690212138826e-11,
+  "zero_pattern_mismatches": 0
+ },
+ "K0 (iv) dictionary basis, max projective distance": 3.053043383695624e-16,
+ "menu points": 102752,
+ "K1": {
+  "chi2_nine_min": 154377.02875741455,
+  "below 21.67": false,
+  "best": {
+   "row": [
+    "B1753",
+    149,
+    0.516129032,
+    3.096606178237868
+   ],
+   "H_u": [
+    "stabilizer",
+    [
+     "0",
+     "0",
+     "-1"
+    ]
+   ],
+   "H_d": [
+    "H",
+    [
+     "0",
+     "-sqrt(2)/2",
+     "sqrt(2)/2"
+    ]
+   ],
+   "readings": [
+    "St",
+    "S",
+    "S"
+   ],
+   "c": 1,
+   "chi2_six part": 153791.1448657898,
+   "CKM part": 585.8838916247478,
+   "J": -0.0010784276132678355,
+   "model over measured (nine)": [
+    1.0266708370339668,
+    6.399582270848385e-12,
+    0.8941222439814698,
+    1.427165925387281e-13,
+    0.3686012261499459,
+    6.232571152138155e-13,
+    2.314915004104094,
+    7.582772509858502,
+    3.0744671773495824
+   ]
+  }
+ },
+ "R": {
+  "{stabilizer, H-type} pairs, either order: chi2_nine min": 154377.02875741455,
+  "one Higgs on a special line (H_u = H_d): chi2_nine min": 157299.222033375,
+  "the record's DR at the rows": [
+   {
+    "row": [
+     "B1749",
+     149,
+     0.269230769,
+     2.960539291988587
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 3.0965448005432843
+   },
+   {
+    "row": [
+     "B1749",
+     149,
+     0.269230769,
+     3.037487672558812
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.7442379697607304
+   },
+   {
+    "row": [
+     "B1749",
+     149,
+     0.333333333,
+     3.055050463303893
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.6696108826948133
+   },
+   {
+    "row": [
+     "B1749",
+     149,
+     0.394736842,
+     3.0258580889584423
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.794795636544387
+   },
+   {
+    "row": [
+     "B1749",
+     149,
+     0.5,
+     3.0618621784789726
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.641215062408563
+   },
+   {
+    "row": [
+     "B1749",
+     149,
+     0.5,
+     3.118684093682859
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.4158025266069156
+   },
+   {
+    "row": [
+     "B1749",
+     151,
+     0.5,
+     3.0618621784789726
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.641215062408563
+   },
+   {
+    "row": [
+     "B1749",
+     151,
+     0.5,
+     3.118684093682859
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.4158025266069156
+   },
+   {
+    "row": [
+     "B1749",
+     151,
+     0.605263158,
+     3.0258580889584423
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.794795636544387
+   },
+   {
+    "row": [
+     "B1749",
+     151,
+     0.666666667,
+     3.055050463303893
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.6696108826946765
+   },
+   {
+    "row": [
+     "B1749",
+     151,
+     0.730769231,
+     2.960539291988587
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 3.0965448005432843
+   },
+   {
+    "row": [
+     "B1749",
+     151,
+     0.730769231,
+     3.037487672558812
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.7442379697609964
+   },
+   {
+    "row": [
+     "B1753",
+     149,
+     0.235294118,
+     2.9994232432898738
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.9132075681623504
+   },
+   {
+    "row": [
+     "B1753",
+     149,
+     0.25,
+     3.0618621784789726
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.641216156793876
+   },
+   {
+    "row": [
+     "B1753",
+     149,
+     0.28,
+     2.999733321480428
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.9117894931528165
+   },
+   {
+    "row": [
+     "B1753",
+     149,
+     0.304347826,
+     3.0866503216171908
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.5404068251576017
+   },
+   {
+    "row": [
+     "B1753",
+     149,
+     0.333333333,
+     3.0368111930480994
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.7471532192051114
+   },
+   {
+    "row": [
+     "B1753",
+     149,
+     0.346153846,
+     3.076682682916935
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.580472775355148
+   },
+   {
+    "row": [
+     "B1753",
+     149,
+     0.382352941,
+     2.9998558212182274
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.9112286724293224
+   },
+   {
+    "row": [
+     "B1753",
+     149,
+     0.4,
+     3.0397368307141326
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.7345649784219312
+   },
+   {
+    "row": [
+     "B1753",
+     149,
+     0.413793103,
+     2.999801816680213
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.911475256159993
+   },
+   {
+    "row": [
+     "B1753",
+     149,
+     0.483870968,
+     3.096606178237868
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.501007786638473
+   },
+   {
+    "row": [
+     "B1753",
+     149,
+     0.5,
+     3.0495901363953815
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.6925921757812863
+   },
+   {
+    "row": [
+     "B1753",
+     149,
+     0.516129032,
+     3.096606178237868
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.501007786638473
+   },
+   {
+    "row": [
+     "B1753",
+     149,
+     0.653846154,
+     3.076682682916935
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.5804727753550067
+   },
+   {
+    "row": [
+     "B1753",
+     151,
+     0.346153846,
+     3.076682682916935
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.580472775355148
+   },
+   {
+    "row": [
+     "B1753",
+     151,
+     0.483870968,
+     3.096606178237868
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.501007786638473
+   },
+   {
+    "row": [
+     "B1753",
+     151,
+     0.5,
+     3.0495901363953815
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.6925921757812863
+   },
+   {
+    "row": [
+     "B1753",
+     151,
+     0.516129032,
+     3.096606178237868
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.501007786638473
+   },
+   {
+    "row": [
+     "B1753",
+     151,
+     0.586206897,
+     2.999801816680213
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.911475256159993
+   },
+   {
+    "row": [
+     "B1753",
+     151,
+     0.6,
+     3.039736830714133
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.7345649784219312
+   },
+   {
+    "row": [
+     "B1753",
+     151,
+     0.617647059,
+     2.9998558212182274
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.9112286724293224
+   },
+   {
+    "row": [
+     "B1753",
+     151,
+     0.653846154,
+     3.076682682916935
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.5804727753550067
+   },
+   {
+    "row": [
+     "B1753",
+     151,
+     0.666666667,
+     3.0368111930480994
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.7471532192051114
+   },
+   {
+    "row": [
+     "B1753",
+     151,
+     0.695652174,
+     3.0866503216171908
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.540406825157458
+   },
+   {
+    "row": [
+     "B1753",
+     151,
+     0.72,
+     2.999733321480428
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.9117894931528165
+   },
+   {
+    "row": [
+     "B1753",
+     151,
+     0.75,
+     3.0618621784789726
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.6412161567936
+   },
+   {
+    "row": [
+     "B1753",
+     151,
+     0.764705882,
+     2.9994232432898738
+    ],
+    "nearest special line": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "Fubini-Study angle, degrees": 2.9132075681623504
+   }
+  ]
+ },
+ "K2": {
+  "null (a), the data's six with random mixings: fraction_mean": 0.21683750000000002,
+  "null (b), random nines: fraction_mean": 0.822425,
+  "per seed (a)": [
+   0.2135,
+   0.21275,
+   0.2135,
+   0.21625,
+   0.22725,
+   0.213,
+   0.21875,
+   0.21375,
+   0.21825,
+   0.2135,
+   0.21025,
+   0.217,
+   0.21475,
+   0.223,
+   0.2255,
+   0.2195,
+   0.21125,
+   0.21275,
+   0.22475,
+   0.2175
+  ],
+  "per seed (b)": [
+   0.83,
+   0.82675,
+   0.82525,
+   0.81175,
+   0.82525,
+   0.82275,
+   0.82275,
+   0.813,
+   0.81775,
+   0.8245,
+   0.823,
+   0.828,
+   0.82075,
+   0.8305,
+   0.8245,
+   0.822,
+   0.824,
+   0.82025,
+   0.80925,
+   0.8265
+  ]
+ },
+ "cells": {
+  "K0": true,
+  "K1": false,
+  "K2": false
+ },
+ "K2 decisive (K1 holds)": false,
+ "seconds": 39.2
+}
