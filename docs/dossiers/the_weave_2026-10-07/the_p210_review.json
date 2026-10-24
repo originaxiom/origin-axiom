@@ -1,0 +1,161 @@
+{
+ "arc": "W148",
+ "rule": "W148_RULE.md",
+ "status": "one run",
+ "python": "3.11.15",
+ "numpy": "2.4.6",
+ "sympy": "1.14.0",
+ "mpmath": "1.3.0",
+ "G1": {
+  "G = a^dag a' - b^dag b' (sympy)": true,
+  "max |G on the plane|": 1.7180770223505196e-15,
+  "graphs: projection to a of rank 6": true,
+  "(P; Q): P invertible, complement dimension 6": true,
+  "max |(QP^-1)^dag (QP^-1) - I|": 1.3033395406333605e-14,
+  "max |P_complement - P_plane|": 1.458858895446979e-14
+ },
+ "G2": {
+  "W144 (i = diag(i, -i), j = [[0, 1], [-1, 0]], k = ij)": {
+   "commutant dimension": 9,
+   "rank with M3 x I2": 9
+  },
+  "-i sigma (i = -i sx, j = -i sy, k = -i sz)": {
+   "commutant dimension": 9,
+   "rank with M3 x I2": 9
+  },
+  "max commutator of C x I2 with the generators": 0.0
+ },
+ "G3": {
+  "Gamma exchanges a and b": true,
+  "least |P_Gamma L - P_L| over 200 non-involutions": 0.4292906998105996,
+  "max |P_Gamma L - P_L| over Hermitian involutions": 1.0035665570178698e-15,
+  "plus-trace dimension by r": {
+   "0": [
+    0
+   ],
+   "1": [
+    2
+   ],
+   "2": [
+    4
+   ],
+   "3": [
+    6
+   ]
+  },
+  "indices 2r - 3": [
+   -3,
+   -1,
+   1,
+   3
+  ]
+ },
+ "G4": {
+  "max |G on v = iHu|": 0.0,
+  "max |U^dag U - I|": 1.3609327534878967e-15,
+  "max |P_graph(U) - P_plane|": 1.3644965637595813e-15,
+  "A x I2 commutes with both generators (max commutator)": 0.0,
+  "h = 0 gives v = 0": true,
+  "U = -I is u = 0, and det(U + I) = 0 there": true
+ },
+ "G5": {
+  "H2(S_t) = t n.sigma (sympy, through S S^dag = I + t n.sigma)": true,
+  "max |H2(S_t) - t n.sigma| (numerics)": 1.4576490059831153e-15,
+  "max of |P+ P-| and ||P+ - P-| - 1|": 2.220446049250313e-16,
+  "planes (8) within 1e-5 of v = 0, u = 0 at t = 1e-6": true,
+  "max covariance defect (S -> gS, S -> gSg^dag)": 1.8280782722286526e-15,
+  "least |U^2 - I| at t = 0.3, eta = 1": 1.100917431192658
+ },
+ "G6": {
+  "W144": {
+   "C^T eps = -eps C": true,
+   "(eps^-1)^T = eps": true,
+   "Y = tr(C_a C_b) = -2 delta": true
+  },
+  "-i sigma": {
+   "C^T eps = -eps C": true,
+   "(eps^-1)^T = eps": true,
+   "Y = tr(C_a C_b) = -2 delta": true
+  }
+ },
+ "E1": {
+  "block form (sympy, d_t -> p)": true,
+  "max |D_K - block|": 0.0,
+  "max |Gamma D + D Gamma|": 0.0,
+  "max relative boundary-identity defect": 5.330862822129629e-15
+ },
+ "E2": {
+  "max relative |(d_t + K) u|, |(-d_t + K) v| (expm, 30 digits)": 1.6805866137471667e-19,
+  "decay exactly on E+ (u) and E- (v)": true,
+  "L_ext six-dimensional": true,
+  "max |G on L_ext|": 1.0531891310372943e-15,
+  "L_ext Gamma-invariant": true
+ },
+ "E3": {
+  "positive rank of A x I2 even (200)": true,
+  "max (Weyl defect - |K' - K|) (2 000)": -1.9780616744364568,
+  "positive count constant on 200 gapped paths": true
+ },
+ "E4": {
+  "max |K(S_s) - s I3 x n.sigma|": 1.4456471715862991e-15,
+  "positive space rank 3, the projector's range; s^2; 1/s": true
+ },
+ "E5": {
+  "rows": {
+   "1": {
+    "|f_L|^2": "1.0",
+    "|D0 f_L|^2": "22.5747164838",
+    "L^-2 int |chi'|^2": "22.5747164838"
+   },
+   "10": {
+    "|f_L|^2": "1.0",
+    "|D0 f_L|^2": "0.225747164838",
+    "L^-2 int |chi'|^2": "0.225747164838"
+   },
+   "100": {
+    "|f_L|^2": "1.0",
+    "|D0 f_L|^2": "0.00225747164838",
+    "L^-2 int |chi'|^2": "0.00225747164838"
+   }
+  },
+  "max deviation": "1.71e-31"
+ },
+ "E6": {
+  "m > 0: v = 0, plus rank 6, index +3; m < 0: u = 0, rank 0, index -3": true,
+  "wrong sign: least |G' on G1's graphs|": 1.516744126573721,
+  "wrong sign: largest |G' on E2's L_ext|": 1.1573106683615514e-15,
+  "reversed decay: E- (+) E+, six-dimensional and null": true,
+  "MINUS slot omitted: E+ (+) 0 below 6 on every K drawn": true,
+  "the rule's wrong-sign control as worded (G1's and E2's planes not null)": false
+ },
+ "cells": {
+  "G1": true,
+  "G2": true,
+  "G3": true,
+  "G4": true,
+  "G5": true,
+  "G6": true,
+  "E1": true,
+  "E2": true,
+  "E3": true,
+  "E4": true,
+  "E5": true,
+  "E6": false
+ },
+ "every predicted cell holds": false,
+ "part_seconds": {
+  "G1": 0.1,
+  "G2": 0.2,
+  "G3": 0.1,
+  "G4": 0.0,
+  "G5": 0.1,
+  "G6": 0.0,
+  "E1": 0.3,
+  "E2": 41.6,
+  "E3": 0.5,
+  "E4": 0.0,
+  "E5": 0.2,
+  "E6": 0.0
+ },
+ "seconds": 43.2
+}

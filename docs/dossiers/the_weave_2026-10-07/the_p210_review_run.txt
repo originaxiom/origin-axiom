@@ -1,0 +1,23 @@
+docs/dossiers/the_weave_2026-10-07/the_p210_review.py:366: RuntimeWarning: overflow encountered in exp
+  uk = np.exp(-far * w[k]) * np.linalg.norm(V[:, k])
+docs/dossiers/the_weave_2026-10-07/the_p210_review.py:367: RuntimeWarning: overflow encountered in exp
+  vk = np.exp(far * w[k]) * np.linalg.norm(V[:, k])
+{
+ "G1": true,
+ "G2": true,
+ "G3": true,
+ "G4": true,
+ "G5": true,
+ "G6": true,
+ "E1": true,
+ "E2": true,
+ "E3": true,
+ "E4": true,
+ "E5": true,
+ "E6": false
+}
+every predicted cell holds: False
+
+real	0m43.826s
+user	0m43.412s
+sys	0m0.058s
