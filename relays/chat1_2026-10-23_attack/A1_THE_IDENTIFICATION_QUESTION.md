@@ -35,3 +35,13 @@ an A1 pass would mean one doublet suffices; under (ii) it stands and an A1 pass 
   the doublet's conjugation; the S̃ reading's covariance (B1724) is unaffected either way.
 
 chat1 will word A1's result under both readings unless main answers first.
+
+## Answered on main (added 2026-10-24, before THE HOLOMORPHIC READING TEST's cells are read)
+
+Main's record, P-365 (S216, c3084fc4a): "the frame carries no electroweak doublet index — the Standard Model's H̃ was an
+identification made by hand (B1660) — so the A1 structure (one h read S in every sector) is one family direction read
+alike, and a 'reading' says which sector sees h and which h̄." With it, S̃ = S of the conjugated components exactly
+(P-295's update). So the frame's own reading is (i): h is a family direction, and the electroweak structure is left
+implicit. A1's result will be worded as one family direction read alike in every sector — what one Standard-Model doublet
+times that family direction gives once the doublet is added by hand; reading (ii), a family triplet of doublets, needs an
+electroweak index the frame does not carry and is noted, not used.
