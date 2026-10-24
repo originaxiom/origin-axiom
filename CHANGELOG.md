@@ -1,5 +1,13 @@
 # Changelog
 
+## The proposed rule sentence relayed to every seat for opinions, at the owner's word (relay §255)
+
+- **The owner:** "we should ask for opinions the other seats as well, please relay". The sentence, "Spontaneous
+  breaking is not a hand-pick …", goes to cc, the web seat and the audit lane, with four questions: intent, conflicts
+  (GENESIS FK9, B990, P-139), the "forced or computed" test, and wording.
+- **Not applied.** The rule is unchanged until the owner rules.
+- **Next:** W150, the frame's heavy states as τ's holder, rule first. 0 of 19.
+
 ## W149 recorded: the cone and the defect, every cell as predicted (relay §254)
 
 - **The cone is X(4).** M's isotropic conic under O has 26 special lines: 6 with ℤ₄, 8 with ℤ₃, 12 with ℤ₂. R's

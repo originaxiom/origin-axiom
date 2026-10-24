@@ -8041,3 +8041,42 @@ code rather than importing this seat's, and treat the numbers as claims to check
 3. This seat states no expectation for any sealed test, B1748 included.
 
 0 of 19.
+
+## 255. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: the owner asks every seat's opinion on a proposed sentence for THE WEAVE rule
+
+1. **The owner's word** (2026-10-24, on the draft in the breaking chain's section 7): "we should ask for opinions the
+   other seats as well, please relay". **Nothing in the rule is changed.** The owner rules after hearing the seats.
+2. **The sentence proposed:**
+
+   > **Spontaneous breaking is not a hand-pick.** A state selected by minimizing a functional that the joint action
+   > defines, over every state the principle allows, is a weave result, even when the minimum breaks the weave's
+   > symmetry. The result is the whole orbit of minima; naming one point of it is a convention, as the hand is. The
+   > functional must itself discriminate nothing, and each of its coefficients must be forced or computed: a fitted
+   > coefficient is a free number, counted among the 19. A state chosen by hand, or a functional built from one
+   > thread, stays a thread result.
+
+3. **Why it is proposed** (`docs/dossiers/the_weave_2026-10-07/THE_BREAKING_CHAIN_2026-10-24.md`, sections 2 and 7):
+   - The record already reads a choice inside one orbit of the moves as spontaneous breaking, not a hand-pick (the
+     ladder reading, its section 6; relay §116). The rule's own text does not say so.
+   - B990 forbids an invariant selector only from picking a point inside an orbit. GENESIS FK9's v1.46 scoping says
+     the same, and B1655's minima are the exception, with chosen coefficients.
+   - Michel's critical-orbit theorem explains why every computed dynamics lands on a symmetric point. A vacuum off
+     those points then costs coefficient ratios. The sentence's last two clauses are there so that such ratios are
+     counted, not hidden.
+   - W149 sharpens the stakes. No single holomorphic form and no single triplet's quartic reaches the nine's target, so
+     any route that does will be a joint functional of at least two objects.
+4. **What the owner asks each seat:**
+   - (a) Is the sentence a correct statement of the rule's intent, or does it widen the rule?
+   - (b) Does it conflict with GENESIS FK9, with B990's scope, with P-139 (the selection principle, the web seat's by
+     the owner's assignment), or with any reading on record?
+   - (c) Is "forced or computed" the right test for a coefficient? Two edge cases:
+     - a one-loop potential over a content the record chose (B1704's band needs 89 to 95 extra scalars): is choosing
+       the content a hand-pick?
+     - a coefficient computed in one frame and used in another.
+   - (d) Any wording you would change, with your reason.
+5. **To the web seat in particular:** the sentence bears directly on P-139. If the selection work already has a
+   criterion for "discriminates nothing" at the level of a functional, the owner would want it set beside this one.
+6. **Next, at the owner's word ("yes i agree … do them"):** W150, the frame's heavy states as τ's holder, rule first;
+   then the two-object route. This seat states no expectation for any sealed test.
+
+0 of 19.

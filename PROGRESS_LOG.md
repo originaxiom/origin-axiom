@@ -20687,3 +20687,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What is left:** two fields working together (such as two Higgs doublets), a form combined with a potential, or
   something that is not a modular form at all.
   0 of 19.
+
+## 2026-10-24 — the other seats are asked about a change to the weave rule
+
+- **The owner wants every seat's view** before deciding on one proposed sentence: that a state chosen by minimizing a
+  quantity the joint action defines counts as a weave result even when it breaks the symmetry, as long as nothing in
+  the quantity is fitted.
+- **The sentence and four questions went to the other seats.** The rule itself is not changed yet.
+- **Next:** testing whether heavy particles in the record's frame can hold the modulus at a finite value.
+  0 of 19.

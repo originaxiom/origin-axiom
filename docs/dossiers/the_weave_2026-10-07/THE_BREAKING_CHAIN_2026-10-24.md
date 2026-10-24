@@ -227,6 +227,8 @@ is about object 2, read through object 1.
 
 - **Pre-mortem.** The refinement could be read as licensing any potential. Its last two sentences are there to stop
   that.
+- **The owner's word, 2026-10-24:** "we should ask for opinions the other seats as well, please relay". Relayed in
+  §255 with four questions. The rule is unchanged until the owner rules.
 
 ## 8. The state of the values (living; this seat's reading of the record)
 
