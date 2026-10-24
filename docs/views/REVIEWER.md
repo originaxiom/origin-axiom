@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1474** |
-| words of findings prose | **1,186,652** |
-| test lock files referenced | **889** |
-| arcs carrying an authored verdict | **1474** (100.0 %) |
-| recorded closures | **840** (673 classified, 167 routed-only) |
+| research arcs with findings | **1475** |
+| words of findings prose | **1,187,569** |
+| test lock files referenced | **890** |
+| arcs carrying an authored verdict | **1475** (100.0 %) |
+| recorded closures | **841** (674 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 1006 |
-| NEGATIVE | 364 |
+| NEGATIVE | 365 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 110 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 111 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE WEB SEAT'S FRAME LOCKS, ON MAIN (P-358; PROVED): all seven of THE_NEXT_ATTACK's locks hold on main's own code. K1, the canonical matrix F^dagger Y F in rho(T)'s eigenframe, exact (sympy); K3, |V_cb| = |kappa_u - kappa_d| under the null Higgs, median relative error 0.44%, largest 1.6% over 192 rows (w = +u1 in coupling()'s own order; the other sign errs by 71x, the control); K4, the up channel's u1 = 0 on order-5 and a2 = 0 on order-10 lines exactly; K7, the cusp coefficients of R (2 sqrt2, 4) and DR (4 sqrt2, 20); K2, K5, K6 in B1744, B1743, B1742. Read with it, the seat's data-free pre-scan: under the Standard Model's reading no Higgs direction gives the coarse pattern on any of 1 064 rows. 0 of 19.  
 `B1745_the_frame_locks_on_main/FINDINGS.md`
 
-**NEGATIVE — `B1744`** (1169 words, 1 locks)  
-THE HIGGS'S OWN TWIST (P-324; NEGATIVE for its question, the data-free parts PROVED): in B1656's frame the residue quaternion at the Higgs's hypercharge twist is even, T0(3w) = T0(-3w) to 3.6e-15, so the up sector's Higgs and the down quarks' and leptons' coincide (H_u = H_d) and the reading (h or its conjugate) is not forced; on the alpha = 2/5 lines the Higgs's twist is the down quarks' 2w (the same direction to 3e-16). Its triplet is the theta-square triplet at the twist; the quaternion is null (R1^2 + R.R = 0), so the triplet's invariant is |R1|^2/|R|^2, 0.064-0.15 at the band (the nine's target about 0.017), with an e1 admixture 0.27-0.42 (the target's size). As a Higgs (post hoc, B1742's grid, six variants): chi2_nine 493 at best with the triplet; with the scalar channel kept the Higgs is null in four dimensions and det Y = 0. Verified symbolically on main's closed form: det Y = (h0^2 + h.h)(w^2 + u.u)(h0 w + u.h) (the web seat's (h.h)(u.h)(u.u + w^2) at h0 = 0) and Y h = Y^T h = (h.h) u. 0 of 19.  
-`B1744_the_higgs_own_twist/FINDINGS.md`
+**NEGATIVE — `B1746`** (917 words, 1 locks)  
+THE CUBE GROUP'S FORMS AS THE HIGGS (P-357; the web seat's step 3 (c); NEGATIVE for its question, the identities PROVED): the frame's family group Gamma_4's forms in rho' and rho' x sgn up to weight 8 match W136's counts on the null cone (1, 1, 2, 2 and 0, 1, 1, 2); every rho' generator is led by e1 (Y2 = -4i eta F_-2: invariant 0.96 at the band), so far from null; the rho' x sgn forms are led by a null line: weight 4 is R and weight 6 is DR's direction exactly (2e-16 at four tau) -- the record's census Higgs is the family group's own weight-6 form; the weight-6 rho' space is span{F_6, F_-6}. As Higgs pencils (post hoc, B1742's grid, one complex number fitted) none of the three two-dimensional spaces reaches the nine: 41.9 (rho' weight 6, B1743's F6|F-6 exactly), 42.7 (rho' weight 8), 47.5 (rho' x sgn weight 8), against the bar 21.67. With B1743 and B1744, nothing the frame's symmetry and the record's forms supply up to weight 8 gives the nine's target. 0 of 19.  
+`B1746_the_cube_groups_forms_as_the_higgs/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

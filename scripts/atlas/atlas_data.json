@@ -13788,6 +13788,19 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1746": {
+   "slug": "the cube groups forms as the higgs",
+   "motifs": [
+    "figure_eight",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B174": {
    "slug": "gluing map landscape",
    "motifs": [

@@ -17876,3 +17876,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - L238 CLOSED (B675 runs under SYMPY_GROUND_TYPES=python; output matches its receipt); three aged relays closed with evidence. The reading test still running.
 - **Landing suite.** full suite 7 701 passed, 3 failed, 68 skipped (22:46, -n 8) on 4b7c02e88: two failures are B805's attachment locks (P-239, standing); the third, B1626's relay-closure lock, froze its 40 closed and 25 open rows exactly, and this landing closed two of the 25 with evidence — the lock now counts Review 69's closures with its later ones, as it already did Review 66's declines (text and the lock only, after the suite); the relay tests and the gates rerun green before the push.
+
+## 2026-10-24 — S210 THE CUBE GROUP'S FORMS (B1746)
+
+- **B1746 (NEGATIVE for its question; identities PROVED).** Γ₄'s forms up to weight 8: ∂R is the family group's weight-6 twisted form (exact); the weight-6 untwisted space is span{F₆, F₋₆}; no pencil reaches the nine (≥ 41.9). The web seat's step 3 (c) answered.
+- **Landing suite.** full suite 7 706 passed, 2 failed, 68 skipped (22:39, -n 8) on b0994a173: the two failures are B805's attachment locks (P-239, standing).

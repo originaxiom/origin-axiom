@@ -1,0 +1,10 @@
+points 0
+points 320
+points 640
+points 960
+rho' w6        read S : min chi2_nine    41.90 at line 3, 0.3125 + 3.30i, L_max; rows below 21.67: 0
+rho' w6        read S~: min chi2_nine   956.78 at line 8, 0.4375 + 3.00i, L_2; rows below 21.67: 0
+rho' w8        read S : min chi2_nine    42.72 at line 3, 0.6875 + 3.30i, L_max; rows below 21.67: 0
+rho' w8        read S~: min chi2_nine   959.45 at line 8, 0.4375 + 3.00i, L_2; rows below 21.67: 0
+rho' x sgn w8  read S : min chi2_nine   881.15 at line 0, 0.8125 + 2.00i, L_2; rows below 21.67: 0
+rho' x sgn w8  read S~: min chi2_nine    47.46 at line 3, 0.4375 + 3.30i, L_max; rows below 21.67: 0

@@ -1,5 +1,10 @@
 # Changelog
 
+## S210 THE CUBE GROUP'S FORMS AS THE HIGGS (B1746; NEGATIVE for its question, the identities PROVED; the web seat's step 3 (c)) (2026-10-24)
+
+- **B1746.** The frame's family group Γ₄'s own forms up to weight 8, counted on the null cone (W136's table reproduced): the ρ′ generators are e₁-led, far from null; the ρ′ ⊗ sgn forms are null-led — weight 4 is R and **weight 6 is ∂R's direction exactly (2 × 10⁻¹⁶ at four τ): the record's census Higgs is the family group's own weight-6 form**; the weight-6 ρ′ space is span{F₆, F₋₆}. As Higgs pencils (post hoc, B1742's grid): 41.9, 42.7, 47.5 — none reaches the nine. Every two-form pencil on record now bottoms out at (2/5, 3/10), Im τ 3.3, L_max, about 42. P-357 annotated; kill-graph row.
+- 0 of 19.
+
 ## S209 REVIEW 69'S R69-7, FIRST PART: LEAD L238 PAID; THREE AGED RELAYS CLOSED (2026-10-24)
 
 - **L238 CLOSED:** B675's certification runs on the current bench under `SYMPY_GROUND_TYPES=python` — the crash was sympy's factor sort meeting python-flint 0.9.0's unorderable `nmod`, not the mathematics — and its output matches the banked receipt line for line (68 s); the script unchanged, the recipe in B675's addendum of 2026-10-24.

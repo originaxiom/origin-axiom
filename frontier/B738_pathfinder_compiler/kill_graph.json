@@ -11972,5 +11972,29 @@
    "reach": "class"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1746",
+  "claim_killed": "That a form of the frame's family group Gamma_4 up to weight 8, or a pencil of two with one complex number free, read the same way in every sector, reaches the nine's target on the alpha = 2/5 lines.",
+  "kill_form": "Post hoc (B1746): the rho' generators are e1-led (far from null); the rho' x sgn forms give R and DR (exactly); the three two-dimensional spaces as pencils on B1742's grid reach chi2_nine 41.9, 42.7 and 47.5 at best, none below 21.67.",
+  "hatch": "forms of higher weight; a principle fixing the Higgs's invariant near 0.017 (P-357); the web seat's sealed reading test (P-360)",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-24), for tests/test_b833_negative_routing.py",
+  "note": "Answers the web seat's step 3 (c). The record's census Higgs DR is the family group's weight-6 twisted form; the weight-6 untwisted space is span{F_6, F_-6}.",
+  "faces_consulted": [],
+  "evidence_consulted": [
+   "B1736",
+   "B1743",
+   "B1744",
+   "B1740"
+  ],
+  "fact_computed": "the equivariant forms up to weight 8 in both types, counted on the null cone; three pencils on B1742's 1 280 points",
+  "scope": {
+   "frame": "Gamma_4's forms as Higgs directions in B1656's coupling",
+   "hypotheses": "weights up to 8; post hoc",
+   "object": "the nine (B1720's chi2)",
+   "reach": "class"
+  },
+  "weave_or_thread": "weave"
  }
 ]

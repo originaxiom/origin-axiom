@@ -1,0 +1,32 @@
+{
+ "id": "B1746",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1736",
+  "B1730",
+  "B1691",
+  "B1740",
+  "B1743",
+  "B1744",
+  "B1742"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W136",
+  "sm:W143"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the frame's family group Gamma_4 = PSL(2, Z/4) acting by rho' (the cube's rotations; W136, B1736); its forms as polynomials in v = (-th2^2, -th4^2, i th3^2) up to weight 8, in rho' and rho' x sgn; as Higgs directions in B1656's coupling, one Higgs for every sector, read S or S~, c = 3",
+  "object": "the forms' directions at the band against the nine's target (B1743), identities with the record's Higgs forms, and the nine (post hoc) for each two-dimensional space as a pencil",
+  "reach": "class",
+  "hypotheses": "weights up to 8; B1742's grid for the data look; post hoc"
+ },
+ "claim_one_line": "THE CUBE GROUP'S FORMS AS THE HIGGS (P-357; the web seat's step 3 (c); NEGATIVE for its question, the identities PROVED): the frame's family group Gamma_4's forms in rho' and rho' x sgn up to weight 8 match W136's counts on the null cone (1, 1, 2, 2 and 0, 1, 1, 2); every rho' generator is led by e1 (Y2 = -4i eta F_-2: invariant 0.96 at the band), so far from null; the rho' x sgn forms are led by a null line: weight 4 is R and weight 6 is DR's direction exactly (2e-16 at four tau) -- the record's census Higgs is the family group's own weight-6 form; the weight-6 rho' space is span{F_6, F_-6}. As Higgs pencils (post hoc, B1742's grid, one complex number fitted) none of the three two-dimensional spaces reaches the nine: 41.9 (rho' weight 6, B1743's F6|F-6 exactly), 42.7 (rho' weight 8), 47.5 (rho' x sgn weight 8), against the bar 21.67. With B1743 and B1744, nothing the frame's symmetry and the record's forms supply up to weight 8 gives the nine's target. 0 of 19.",
+ "weave_or_thread": "weave (a census over lines and tau)"
+}
