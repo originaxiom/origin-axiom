@@ -1,5 +1,27 @@
 # Changelog
 
+## W145 recorded: the third opinion on B1741 (P-348) — it reproduces in full; A2 failed as worded, a tie between reflected points; a value-level READING (relay §246). And W146's rule, committed and pushed before its script (relay §245)
+
+- **Reproduced.**
+  - compare.py, to 4.9 × 10⁻¹³.
+  - The χ² calibration, on a second code: all 60 per-seed fractions exactly, and the minima to 3.4 × 10⁻¹³.
+  - The 75 apexes from the 121 class words, and the 266 lines.
+  - The six best rows, on this seat's own instrument to 2.4 × 10⁻⁹.
+- **A2 failed as worded.** The minimum is at line 150, Re τ 3.6, tied to 2 × 10⁻¹¹ with FINDINGS' line 153 at 3.4.
+  Main's own code puts it there too. No number of main's is wrong.
+- **Read-outs.** B1724's law maps J to −J. Lepton ratios equal down ratios at every apex on 14 lines.
+- **Sensitivity (labelled).** 43.2 at allowance 0.05; 1.21% with the lepton factor over {1, …, 5}; 19.61 with
+  uniform σ.
+- **W146's rule.** P-357 data-free first:
+  - a dichotomy at the cusp for every holomorphic or antiholomorphic Higgs in ρ ⊗ χ, with the hand constants;
+  - the target's slope;
+  - a harmonic Higgs F̄ + κF that holds the invariant;
+  - the web seat's Lemmas A, A′ and B on own code;
+  - its E₆ question answered as a reading.
+  It was corrected twice before its first push, disclosed.
+- **Surfaces.** NOTE (section and row), the lock test, relays §245 and §246, row 317, the state page's range, the two
+  trial-count pages. 0 of 19.
+
 ## The W145 rule, committed and pushed before its script: the third opinion on B1741 (P-348; relay §244)
 
 - **W145's rule.** It re-runs B1741's comparison and its χ² calibration on own code, and rebuilds the 75 apex

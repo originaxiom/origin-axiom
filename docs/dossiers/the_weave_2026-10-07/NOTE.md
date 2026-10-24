@@ -7726,6 +7726,100 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W145. The third opinion on main's B1741 (main's P-348, at the owner's "start it"): B1741 reproduces in full. Main's compare.py re-runs to 4.9 × 10⁻¹³, a second calibration gives the same 60 per-seed fractions, the 121 class words give exactly the 75 apex points, and the six best rows reproduce on this seat's own instrument to 2.4 × 10⁻⁹. One cell failed as worded: A2 put the χ² minimum at FINDINGS' row, but main's code and this seat's both put it at its reflection, line 150 at Re τ 3.6, tied with line 153 at 3.4 to 2 × 10⁻¹¹. The match needs the 10% allowance (43.2 at 5%), and with the lepton factor over {1, …, 5} it is not specific (1.21%). A value-level READING, bankable as that and no more (`the_third_opinion_b1741.py`; `W145_RULE.md`)
+
+**Why.**
+- B1741 put τ at each of the 75 apex points of B1720's thread classes, with no continuous number fitted, and the line
+  free over all 266. The six reached χ²_six 14.93, below 16.75, with 0.60% of random hierarchies as good.
+- The owner's rule of 2026-08-21 asks for a third opinion before a positive value match is banked as more than a
+  reading. Main's P-348 asked the seats for it, and the owner said "start it" (2026-10-24).
+
+**The order.**
+- The rule (`W145_RULE.md`, 01cc7fa79) was committed and pushed before the script existed. It fixed the look count
+  and this seat's opinion in advance.
+- The script (64b9d0068) was committed before its one run (42 min, four workers). It imports W138's, W141's, W142's
+  and W140's instruments, and runs main's compare.py only in a temporary tree.
+- Its output (4b7217f45) was committed unread, then read once.
+
+**The result (COMPUTED; every cell as predicted except A2, which failed as worded).**
+- **A0, the inputs.** census.jsonl and comparison.json match their pins; census.jsonl has 19 950 distinct
+  (line, Re τ, Im τ); all eleven files ARTIFACT_HASHES pins match.
+- **A1, the re-run.** compare.py, run once in a temporary tree at a60430b46, exits 0 after 21 min and reproduces
+  comparison.json. Every cell and per-seed fraction is identical; 386 of 470 numbers are identical and the rest
+  within 4.9 × 10⁻¹³.
+- **A2, the χ² calibration on own code: FAILED as worded.**
+  - Direct sums over the seat, covariant and free menus, seeds 1741–1760, own draws. Every one of the 60 per-seed
+    fractions equals comparison.json's exactly. The means are 0.60%, 2.26% and 3.58%, the worst seeds 0.83%, 2.68%
+    and 4.18%.
+  - The minima agree with comparison.json's to 2.6 × 10⁻¹³ (seat and covariant, 14.932376235) and 3.4 × 10⁻¹³ (free,
+    14.906445086). χ²_nine is 203.924 (seat) and 1 409.908 (the Standard Model's reading), to 1.6 × 10⁻¹⁴ and
+    3.1 × 10⁻¹⁵.
+  - The rule also asked for the minimum at FINDINGS' row, line 153 = (2/5, 9/10) at 3.4 + 2.993i. The own minimum is
+    line 150 = (2/5, 3/10) at 3.6 + 2.993i, the same horocycle (L_max), readings (S̃, S, S) and c = 3. Line 153 at
+    3.4 is second, higher by 2.9 × 10⁻¹⁰, a relative 1.9 × 10⁻¹¹.
+- **A3, the apex points.** All 121 stored class words give their stored τ, with no translate needed. They give
+  exactly 75 distinct points, census.jsonl's 75.
+- **A4, the lines.** W140's 266 lines equal B1726's lines() as a set, W138's list equals main's in order, and every
+  apex carries lines 0–265.
+- **B0, the own instrument's controls.**
+  - Residues match the bilinear to 1.9 × 10⁻³¹, and W96's J1 holds to 1.5 × 10⁻¹⁸.
+  - B1724's law holds for the six: the census frame and the apex agree to 4.5 × 10⁻¹¹ in log. A read-out the rule
+    did not test: J changes sign between them (relative difference exactly 2).
+- **B1, the six rows.** The top five and the best nine-row reproduce on the own instrument: the logs of the ratios
+  to 1.0 × 10⁻⁹, ∣V∣ to 1.2 × 10⁻⁹, J to 2.4 × 10⁻⁹ relative, and no zero mismatch.
+- **B2, the best six-row from own values.** χ²_six = 14.9323762, every pull equal to main's row's to 1.3 × 10⁻⁹
+  (2.44, 0.55, 1.49, 1.78, 1.39, 1.16), and D = 11.0469165.
+- **C1, the line.** Line 153 is (2/5, 9/10) and maps by b → b + 3α to (2/5, 1/10), B1726's line 149 (B1735's). It is
+  not fixed by A of L⁵R²LR or of L²R⁵LR. Both have trace 30 and A² ≡ −I mod 10, and A² fixes all 12 lines of order 5
+  and all 36 of order 10.
+- **C2, the lepton–down relation.** At the best row the lepton ratios differ from the down ratios by up to 0.218 in
+  log, and D/9 = 1.227. The six are six numbers, not a Georgi–Jarlskog copy.
+  - A read-out: lepton ratios equal down ratios at every horocycle and reading on 1 221 of the 19 950 points.
+  - On 14 lines this holds at every one of the 75 apexes: (0, 0), the three of order 2, and ten of the twelve of
+    order 5 (all but (0, 1/5) and (0, 2/5)). It holds at some apex on 17.
+- **D1, sensitivity (labelled; the seat's menu, seeds 1741–1760).**
+  - At allowance 0.05 the minimum rises to 43.24 (by hand about 43), with 0.95% of random hierarchies as good.
+  - With the lepton factor over {1, …, 5} the minimum stays 14.93, but the fraction rises to 1.21% (17 of 20 seeds
+    above 1%, the worst 1.58%).
+  - With a uniform σ of 0.10 the minimum is 19.61, above the bar, with 0.45%.
+
+**The diagnosis of A2 (post hoc, labelled; from the committed outputs and main's comparison.json).**
+- comparison.json's χ²_six minimum is 14.932376235043. It equals the own value at line 150 and Re τ 3.6 to
+  2.6 × 10⁻¹³, and lies 1.9 × 10⁻¹¹ from the value at line 153 and 3.4. So main's own code also puts the minimum at
+  line 150, 3.6.
+- FINDINGS and comparison.json's best_six name line 153 at 3.4, ranked by the largest factor, which the two points
+  share to 10⁻¹⁰.
+- The two points stand symmetrically about Re τ = 3.5, and at Re τ 3.5 itself the same two lines tie again
+  (27.822185067 and 27.822185068). Their χ² agree to 2 × 10⁻¹¹, so which one is the minimum is rounding.
+- The failure is this seat's wording, which took FINDINGS' row for the minimum's. No number of main's is wrong. A
+  dated note on FINDINGS naming the pair is proposed to main.
+
+**What it shows (the rule's fixed meaning, with A2's failure).**
+1. **14.93 and 0.60% stand.** Main's code, re-run here, and a second code reproduce B1741's minimum and calibration,
+   and a second instrument its best rows.
+2. **τ is placed by the thread rule as stated, and the line is one of the 266.** The line is B1735's own fitted line,
+   carried to the apex, and the thread supplies no rule for it.
+3. **The six are six numbers here,** not P-355's four-number lines in disguise.
+4. **The match needs the 10% allowance,** where B1735's survived 5%. With the integer lepton factor over a menu of
+   five, the six are no longer specific at 1%.
+5. **This seat's opinion.** The rule's precondition, A1, A2 and B1 holding, failed as worded through A2's row
+   condition. The failure is diagnosed as a tie between mirror points, and every number holds. With that disclosed,
+   the opinion fixed in the rule stands. B1741 is a value-level READING: the first sealed six at the precision bar
+   with no continuous number fitted. But:
+   - τ is placed by a rule at a post-selected point, on B1735's fitted line chosen from 266;
+   - both ingredients are by hand;
+   - the match needs the 10% allowance;
+   - the nine fail, with ∣V_ud∣ 0.12.
+   It can be banked as that and no more. It is not a derivation.
+6. **The look count, as the rule fixed it:** 6 looks inside B1741 make 3.6%, and 18 with the apex rule's three tests
+   make 10.8%. With the lepton-factor menu each look is 1.21%.
+
+**Weave or thread.** A check of main's census over every thread class's apex. The positive sits at one thread pair's
+point: a thread result.
+
+**Status.** COMPUTED. One run. Every cell as predicted except A2, failed as worded through a row condition this seat
+set; diagnosed post hoc as a tie. A verification for main, not a new test against data. 0 of 19.
+
 ## W144. The audit lane's five unreviewed checkpoints (its relay at 17cdad33a), reviewed on own code at the owner's "doit": their load-bearing mathematics holds. As run, seven of eleven cells held and four failed (A2, A4, C1, C2), through this seat's own instrument. The rule fixed θ₁ and θ₂ as mpmath's jtheta, whose principal fourth root of the nome is wrong once Re τ leaves (−1, 1], against CONVENTIONS §4. Diagnosed post hoc, with the ratio exactly i^{−k}: with explicit theta series every cell holds (`the_audit_checkpoints_review.py`; `…_posthoc.py`; `W144_RULE.md`)
 
 **Why.**
@@ -12239,6 +12333,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W145 | COMPUTED (the rule first; one run; every cell as predicted except A2, failed as worded and diagnosed post hoc as a tie between mirror points); a thread result | the third opinion on main's B1741 (P-348): compare.py re-runs to 4.9 × 10⁻¹³; a second calibration gives the same 60 per-seed fractions and minima to 3.4 × 10⁻¹³; the 121 class words give exactly the 75 apexes; the six best rows reproduce on the own instrument to 2.4 × 10⁻⁹. The minimum sits at line 150, Re τ 3.6, tied to 2 × 10⁻¹¹ with FINDINGS' line 153 at 3.4. B1724's law flips J. The match needs the 10% allowance (43.2 at 5%) and with c over {1, …, 5} is not specific (1.21%). A value-level READING, bankable as that and no more. 0 of 19 |
 | W144 | COMPUTED (the rule first; one run; seven of eleven cells held, four failed through this seat's instrument; all eleven hold post hoc) | the audit lane's five checkpoints (relay 17cdad33a) reviewed on own code, none of its code run: the joint root action and the corrected s⁴ = εJ_c⁻¹; the puncture expansion and connecting map with its kernel table (Λ = U gives (3, 3)); the transported principal parts, their root factors and Green form; projective regularity at exactly d = 0 or 6; the E₈ central kernel ℤ₆ with (−I₆, I₃, I₂) nontrivial. No error by the lane. The four failures were mpmath's principal nome root off −1 < Re τ ≤ 1, against CONVENTIONS §4 (the ratio exactly i^{−k}). Not a trial. 0 of 19 |
 | W143 | COMPUTED (the rule first; one run; every cell as predicted); WEAVE-type, as W133 | P-345 (a) on W133: both sign families of zero-free theta-power lines F_a = η^{3−a}(εθ₂^a, εθ₄^a, iθ₃^a), ε = i^{(a+2)/2}, on this seat's code. In each of W133's four spaces they are exactly the zero-free lines (1, 4, 3, 3), and the other sign never is. W133's open multiplicities closed: F₋₁₀ 8, F₁₄ 6, F₆ 4, F₋₂ 4, F₂₂ 1. The lines led at the cusp by the non-null eigenline are exactly F₋₁₀, F₋₆ and F₋₂, so GENESIS PF1-W admits exactly one in each three-generation space: F₋₆ (r = 12) and F₋₂ (r = 20, B1740's). F₋₆ is untested; a sibling test is proposed to main. No data, so not a trial. 0 of 19 |
 | W142 | COMPUTED (the rule first, after a read-only audit of main's code; one run; every cell as predicted except A1, failed as worded, diagnosed post hoc as an environment difference) | the third opinion on main's B1735 (P-342) and an audit of its scripts and arithmetic: calib_chi2.py's per-seed fractions reproduced exactly on main's code and on a second code (direct sums); σ and the χ² definition as main says; the row on this seat's own instrument to 10⁻¹⁰; FINDINGS right apart from two wording slips. No error in main's code or arithmetic. control.py re-run here reproduces control.json to 2.7 × 10⁻¹¹, not 10⁻¹². The match needs the lepton factor (c = 1 gives χ² 105) and survives a 5% allowance (5.71). A value-level READING with τ fitted, bankable as that and no more. 0 of 19 |

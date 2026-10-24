@@ -106,6 +106,10 @@ Each takes every thread the principle allows under one rule, and its claim is ab
     the data out of six pairs, held the first sealed χ²_six cell on record (1.19), with τ fitted and c = 3 by hand.
     The nine fail (154): the mixing is too small and D = 9. This seat's W143: both lines of that pair are null-led;
     the lines led by the non-null eigenline are F₋₆ and F₋₂.)*
+    *(2026-10-24: main's B1741 placed τ by the thread rule, with no continuous number fitted, and reached χ²_six
+    14.93 with 0.60% as good. This seat's third opinion, W145, reproduces it in full. The minimum is a tie between
+    two points symmetric about Re τ = 3.5. It needs the 10% allowance (43.2 at 5%), and with the lepton factor over
+    {1, …, 5} it is at 1.21%. A value-level READING, bankable as that and no more.)*
 - **The magnitudes side is a clean negative.** The forced menu fits the hierarchy no better than chance (p = 0.139,
   W112).
 

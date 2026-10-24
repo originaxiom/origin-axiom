@@ -4408,3 +4408,36 @@ def test_w144_the_audit_checkpoints_review():
         assert ok1 and ok2 and len(e1["kernel (p, q, r) in Z6 x Z3 x Z2"]) == 6
     finally:
         mpmath.mp.dps = dps
+
+
+def test_w145_the_third_opinion_b1741():
+    """W145, the third opinion on main's B1741: the cells as recorded (A2 failed as worded, the minimum at the
+    reflected point tied to 2e-11); in process, the row's chi-square from its pulls, the tie, the line map b -> b + 3a
+    and the two class words' traces and squares mod 10"""
+    from fractions import Fraction as Fr
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "third_opinion_b1741.json").read_text(encoding="utf-8"))
+    c = d["cells"]
+    assert not c["A2"] and all(c[k] for k in c if k != "A2") and len(c) == 11
+    assert d["A1"]["cells identical"] and d["A1"]["per-seed fractions exact"] and not d["A1"]["diff"]["mismatches"]
+    a2 = d["A2"]
+    assert a2["per_seed_equal_main"] and max(a2["min_rel_vs_main"].values()) < 1e-12
+    assert not a2["seat minimum at FINDINGS' row"]
+    top = a2["top five points (seat)"]
+    assert {top[0]["line"], top[1]["line"]} == {150, 153} and top[0]["Im_tau"] == top[1]["Im_tau"]
+    assert abs(top[0]["Re_tau"] + top[1]["Re_tau"] - 7.0) < 1e-12
+    assert abs(top[0]["chi2_six"] - top[1]["chi2_six"]) / top[0]["chi2_six"] < 1e-10
+    assert abs(sum(x * x for x in d["B"]["row"]["pulls"]) - 14.9323762) < 1e-6
+    assert abs(d["C2"]["D"] / 9 - 1.2274) < 1e-4
+    assert d["A3"]["distinct apex points"] == 75 and d["A4"]["main lines()"] == 266
+    s = d["D1"]
+    assert s["allowance 0.05"]["chi2_six_min"] > 16.75 and s["lepton factor over {1, ..., 5}"]["fraction_mean"] > 0.01
+    assert abs(s["uniform sigma 0.10"]["chi2_six_min"] - 19.61) < 0.01
+    assert (Fr(9, 10) + 3 * Fr(2, 5)) % 1 == Fr(1, 10)
+    L, R = np.array([[1, 0], [1, 1]]), np.array([[1, 1], [0, 1]])
+    for word in ("LLLLLRRLR", "LLRRRRRLR"):
+        A = np.eye(2, dtype=int)
+        for ch in word:
+            A = A @ (L if ch == "L" else R)
+        assert np.trace(A) == 30 and ((A @ A) % 10 == 9 * np.eye(2, dtype=int)).all()

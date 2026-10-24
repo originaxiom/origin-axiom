@@ -247,6 +247,10 @@ preregistered run), READING (an interpretation), or OPEN. It is written for main
      *(Later still: W143 finds GENESIS PF1-W's Higgs lines led by the non-null eigenline on this seat's code,
      F₋₆ and F₋₂, one in each three-generation space. It is not a test against data, so the count is
      unchanged.)*
+     *(2026-10-24: this seat's third opinion on B1741, W145, reproduces it in full and finds no error in main's
+     numbers. The best six are a tie between two reflected points. They need the 10% allowance, and with the lepton
+     factor over a menu of five they are at 1.21%. A value-level READING; not a new test, so the count is
+     unchanged.)*
    - A future single pass must be read against this count, and against the earlier data comparisons. Those are not
      yet counted here: W53, W54, W57, W66, W69, W88, W90 and W94 on this seat, and main's own. OPEN.
 

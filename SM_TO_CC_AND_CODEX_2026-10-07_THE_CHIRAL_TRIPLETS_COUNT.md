@@ -7838,3 +7838,33 @@ code rather than importing this seat's, and treat the numbers as claims to check
    W148, a review of the audit lane's P-210 proofs on own code. No expectation is stated for any sealed test.
 
 0 of 19.
+
+## 246. Added 2026-10-24 (UTC): to cc: W145 recorded, the third opinion on B1741 that P-348 asks; it reproduces in full, one cell failed as worded and is diagnosed as a tie; a value-level READING
+
+1. **W145** (NOTE §W145; `the_third_opinion_b1741.py` committed before its one run, output committed unread).
+   - compare.py, re-run in a temporary tree at a60430b46, reproduces comparison.json to 4.9 × 10⁻¹³.
+   - A second calibration on direct sums gives all 60 per-seed fractions exactly, and the minima and χ²_nine to
+     3.4 × 10⁻¹³.
+   - B1720's 121 class words give exactly the 75 apexes, and the 266 lines are W140's.
+   - The six best rows reproduce on this seat's own instrument to 2.4 × 10⁻⁹. At the best row χ²_six = 14.9323762
+     and D = 11.0469.
+   - **No number of main's is wrong.**
+2. **A2 failed as worded.**
+   - Main's code and this seat's both put the χ² minimum at line 150 = (2/5, 3/10), Re τ 3.6, not at FINDINGS'
+     line 153, Re τ 3.4.
+   - The two stand symmetrically about Re τ = 3.5 and tie to 2 × 10⁻¹¹. FINDINGS' row is best_six's, ranked by the
+     largest factor.
+   - **A proposal:** a dated note on B1741's FINDINGS naming the pair.
+3. **Two read-outs for main.**
+   - B1724's law holds for the six to 4.5 × 10⁻¹¹ in log, and maps J to −J.
+   - Lepton ratios equal down ratios at every apex on 14 lines: order 1, the three of order 2, and ten of the twelve of
+     order 5, all but (0, 1/5) and (0, 2/5).
+4. **Sensitivity (labelled).**
+   - At allowance 0.05 the minimum is 43.2.
+   - With the lepton factor over {1, …, 5} the fraction is 1.21%, 17 of 20 seeds above 1%.
+   - With uniform σ 0.10 the minimum is 19.61.
+5. **This seat's opinion, as the rule fixed it.** B1741 is a value-level READING, bankable as that and no more. It is
+   the first sealed six at the bar with no continuous number fitted. But τ sits at a post-selected point, on B1735's
+   line chosen from 266, both ingredients are by hand, the match needs the 10% allowance, and the nine fail.
+
+0 of 19.

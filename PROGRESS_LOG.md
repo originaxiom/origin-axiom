@@ -20585,3 +20585,20 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   of the down quarks.
 - **The other seats were read:** main's overnight sessions and the web seat's new tests.
   0 of 19.
+
+## 2026-10-24 — main's newest positive result checked independently: it stands, as a reading
+
+- **The check ran once.** Main's statistics reproduce, both with main's own code and with this seat's differently
+  written code. The best points recompute on this seat's own instrument to nine decimal places. Main made no
+  numerical error.
+- **One of this seat's predictions failed as worded.** The best fit is a tie between two points placed symmetrically,
+  equal to eleven decimal places. Main's write-up names one and both codes pick the other. The prediction asked for
+  main's named one.
+- **The fit needs the generous error allowance.** With a tighter allowance it is far off. When the hand-put lepton
+  factor may be any whole number up to five, the fit is no longer unusual at the 1% level.
+- **So it is a reading, not a derivation,** as fixed in advance.
+- **The next check is set up:** what, if anything, can hold the Higgs direction at the small tilt main's best fits
+  need. Its predictions were published before any code exists. Two slips in the draft were caught on re-reading and
+  corrected before publication.
+  0 of 19.
+
