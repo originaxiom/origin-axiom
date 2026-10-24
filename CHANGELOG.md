@@ -1,5 +1,14 @@
 # Changelog
 
+## The opinions on the WEAVE sentence collected, the seats' new commits rowed (relay §260)
+
+- **Received:** main's opinion and the web seat's, both asking for "the" functional the joint action defines, fixed
+  before computing, with its coefficients forced or computed in the same frame. The audit lane has not answered.
+- **This seat's own opinion** adds one point from W150: a flat direction of minima is not an orbit, and naming a point
+  of it is a free number. A merged wording is offered for the owner's ruling; the rule's text is unchanged.
+- **Rowed:** main @ 3bf82d0ca → 37cb8d080, the web seat @ 521262a4d → 93ce50081, the audit lane @ 3ee8f33d0 → dff9478a9.
+  The web seat's identification question is answered from the E₆ side. W152, the squared qubit, is announced. 0 of 19.
+
 ## W151 recorded: the two-object route; four cells as predicted, Q4 failed as worded on its direct evaluation (relay §259)
 
 - **The pair lemma holds on all 276 pairs**, and the census is as predicted: 20 exact zeros, no pair in the target's

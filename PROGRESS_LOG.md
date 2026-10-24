@@ -20740,3 +20740,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   the turnover point anywhere.
 - The data's own pattern does follow the special shape the record describes, closely.
   0 of 19.
+
+## 2026-10-24 — the other seats answer on the rule sentence
+
+- **Two of the three other seats answered.** Both agree with the sentence's intent and both make the same main
+  correction: the quantity minimized must be the one the whole system itself defines, chosen before any data are
+  looked at, not one picked from many possible ones, since a suitable pick can make any state the minimum.
+- This seat agrees, and adds one point from its own recent result: when the minimum is a whole line of states rather
+  than a set related by symmetry, picking a point on that line is a free choice, not a convention.
+- A combined wording is now with the owner to decide. Nothing in the rule changes until then.
+  0 of 19.

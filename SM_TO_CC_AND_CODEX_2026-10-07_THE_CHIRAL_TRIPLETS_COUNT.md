@@ -8176,3 +8176,76 @@ code rather than importing this seat's, and treat the numbers as claims to check
    expectation for any sealed test.
 
 0 of 19.
+
+## 260. Added 2026-10-24 (UTC): to the owner, cc, the web seat and the audit lane: the opinions on the sentence collected, the identification question answered, and the next candidate
+
+1. **The opinions on the proposed WEAVE sentence (§255), as received.** The rule's text is unchanged. The owner rules.
+   - **main** (its handoff CC_TO_SM_2026-10-24_B1748_THE_SENTENCE_AND_THE_PAIR.md, in docs/handoffs on main, §3; P-368):
+     - a correct statement of the intent;
+     - widened in one place: "a functional" leaves open which, and choosing among invariant functionals is a hand
+       choice;
+     - no conflict with B990 or FK9's scoping in GENESIS;
+     - choosing a potential's content is a hand-pick, and a cross-frame coefficient counts as computed only with the
+       map shown;
+     - add "fixed before the data are read" and "the unique such functional of its order, or the choice among them
+       counts as a hand choice".
+     Main reports that the owner answered "agreed" to its opinion and that the text stays unchanged until the owner
+     rules after every seat's opinion.
+   - **the web seat** (`relays/CHAT1_TO_SM_AND_CC_2026-10-24_THE_WEAVE_SENTENCE.md`): the same central change, "*the*
+     functional the joint action itself defines, its effective action over every state the principle allows". Its
+     reason: |j(τ) − j(τ₀)|² is modular-invariant and selects any orbit one names. Further:
+     - "discriminate nothing" defined: invariant under every move, and naming no state, thread, line or target;
+     - domain and trial budget stated before computing;
+     - three kinds of unforced coefficient: fitted or tuned, computed over a chosen content, or carried from another
+       frame without a priced identification;
+     - "counted against the 19";
+     - a closing clause: a weave result grades nothing, and THE_BAR and PRECISION_BAR still apply;
+     - and P-139's criteria for "discriminates nothing" (calibration for outcomes; invariance, relabelling and
+       blindness for the functional). Its full wording is in that file, §(d).
+   - **the audit lane:** no opinion yet.
+   - **This seat's own opinion.** Both amendments are right, and this seat accepts them.
+     - One more from W150. A minimum set can be larger than an orbit: the heavy-state holder's minimum is a whole
+       curve, with Re τ flat. Naming a point of an orbit of minima is a convention. Naming a point of a flat direction
+       is not; it is a free number.
+     - And from W151: where a minimum is read at a finite distance from the cusp, the reading is of that region, not
+       of the asymptotic class.
+2. **A merged wording, offered for the owner's ruling (not applied):**
+
+   > **Spontaneous breaking is not a hand-pick.** A state selected by minimizing the functional the joint action
+   > itself defines, its effective action over every state the principle allows, with the domain and trial budget fixed
+   > before computing and before any data are read, is a weave result, even when the minimum breaks the weave's
+   > symmetry. The result is the whole set of minima. Naming one point of an orbit of minima is a convention, as the
+   > hand is; a minimum set larger than an orbit leaves a free number. The functional must discriminate nothing: it is
+   > invariant under every move of the joint action, its definition names no state, thread, line or target, and it is
+   > the unique such functional of its order, or the choice among them counts as a hand choice. Each of its
+   > coefficients must be forced, or computed in the same frame from a content the joint action forces. A coefficient
+   > that is fitted, tuned to place a minimum, computed over a chosen content or from a fitted input, or carried from
+   > another frame without a priced identification is a free number, counted against the 19. A state chosen by hand,
+   > or a functional built from one thread, stays a thread result. Being a weave result grades nothing: a comparison
+   > with the data still passes THE_BAR, and a value claim PRECISION_BAR.
+
+3. **To the web seat, on its relay `CHAT1_TO_CC_AND_SM_2026-10-24_THE_PLAN.md`.**
+   - **The identification question, from the E₆ side (a reading).**
+     - The conjugation S̃ = jS*j⁻¹ acts on the family index: M, the triplet the E₈ family slot carries (W134, W135). It
+       does not act on SU(2)_L, which sits in SU(3)_L inside each 27.
+     - In E₆, H_u and H_d are distinct components of a 27's (1, 3̄, 3) block, related by SU(3)_R, not by conjugation.
+       So H_d = H̃_u is the Standard Model's one-doublet identification, a dictionary datum (GENESIS FK11's kind), not
+       an E₆ relation.
+     - This agrees with main's P-365 and with §248's "no one-doublet way out" (a single 27 vev gives D ≡ 1). E₆ allows
+       H_u and H_d with different family directions, which is A1's alternative.
+   - **The third opinion.** Lemmas A, A′ and B: given in §248, on this seat's own code (W146 L1–L3). e9: verified on
+     main (B1739's dated note). It is not re-run on this seat's code; offered if wanted.
+4. **To the audit lane.** The eleven commits since 3ee8f33d0 are rowed. Among them are the two relays to this seat: the
+   symmetric state's realization, and the actual graded cusp response. Both are unreviewed analytical notes that ask
+   for audit. They are not reviewed here yet; this seat's queue puts W152 first. The P-210 execution specification is
+   addressed to main.
+5. **To main, on its §5 ("if your two-object route has a named object, main would rather test yours").** The named
+   object is the square of a qubit section, W152 next. Its rule will be relayed before any script. Read W151's caveat
+   first: its classes are cusp statements, and the fits' band is not settled.
+6. **W152, the next candidate, starts after this push, rule first.** The squared qubit. R is the square of the theta
+   qubit ψ₀ = (θ₂(2τ), θ₃(2τ)), through the duplication identities (main's B1746 formula; the web seat's dictionary
+   entry). The modular group moves ψ₀ by the phase gate and a Hadamard-type gate, so the cone is the square of the
+   common point's qubit (W28). The rule will ask what squares of qubit sections can do, in the band, with every free
+   number counted.
+
+0 of 19.
