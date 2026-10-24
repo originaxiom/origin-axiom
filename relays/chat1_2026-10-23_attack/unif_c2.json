@@ -1,0 +1,2628 @@
+{
+ "C2G": {
+  "rows": [
+   {
+    "p": 1099,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.005917709140154451,
+    "planted direction's chi2 (noisy targets)": 5.0148130422718955,
+    "found (noisy)": 1.7520210655262267,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     1.752759129815414,
+     true
+    ],
+    "found (noiseless)": 7.14468765990805e-24,
+    "stage A (noiseless), stage B ran": [
+     2.114876559512159e-23,
+     true
+    ]
+   },
+   {
+    "p": 410,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.00040710966043728115,
+    "planted direction's chi2 (noisy targets)": 11.61206290884356,
+    "found (noisy)": 8.174465159386891,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     8.193018122555316,
+     true
+    ],
+    "found (noiseless)": 6.073244491527249e-21,
+    "stage A (noiseless), stage B ran": [
+     1.3911241493768306e-20,
+     true
+    ]
+   },
+   {
+    "p": 1055,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.028945305289062546,
+    "planted direction's chi2 (noisy targets)": 11.582594873448214,
+    "found (noisy)": 7.261298730005144,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     7.261298730099476,
+     true
+    ],
+    "found (noiseless)": 4.3519763585483716e-26,
+    "stage A (noiseless), stage B ran": [
+     1.2917628576993331e-24,
+     true
+    ]
+   },
+   {
+    "p": 1351,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.005814796617355473,
+    "planted direction's chi2 (noisy targets)": 7.944176745678649,
+    "found (noisy)": 6.283555247570444,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     6.283555247570444,
+     true
+    ],
+    "found (noiseless)": 5.249707928587603e-25,
+    "stage A (noiseless), stage B ran": [
+     5.249707928587603e-25,
+     true
+    ]
+   },
+   {
+    "p": 1795,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.00023112858902934078,
+    "planted direction's chi2 (noisy targets)": 9.91270670317675,
+    "found (noisy)": 8.1133308331273,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     8.1133308331273,
+     true
+    ],
+    "found (noiseless)": 1.072514957850961e-20,
+    "stage A (noiseless), stage B ran": [
+     5.272827028073812e-18,
+     true
+    ]
+   },
+   {
+    "p": 264,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0011163323236425093,
+    "planted direction's chi2 (noisy targets)": 7.9857414821996775,
+    "found (noisy)": 70.84138389090619,
+    "met": false,
+    "stage A (noisy), stage B ran": [
+     70.84138389090619,
+     true
+    ],
+    "found (noiseless)": 61.2698420744497,
+    "stage A (noiseless), stage B ran": [
+     61.2698420744497,
+     true
+    ]
+   },
+   {
+    "p": 1453,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.08283799396279086,
+    "planted direction's chi2 (noisy targets)": 8.930120717336713,
+    "found (noisy)": 4.243437206872956,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.243437206872975,
+     true
+    ],
+    "found (noiseless)": 1.9460039028363775e-26,
+    "stage A (noiseless), stage B ran": [
+     2.4217136670424014e-26,
+     true
+    ]
+   },
+   {
+    "p": 1400,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.047614081381518326,
+    "planted direction's chi2 (noisy targets)": 14.54463304668255,
+    "found (noisy)": 6.706928314688618,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     6.706928314689074,
+     true
+    ],
+    "found (noiseless)": 5.23543251718035e-26,
+    "stage A (noiseless), stage B ran": [
+     5.23543251718035e-26,
+     true
+    ]
+   },
+   {
+    "p": 912,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0014351429215299766,
+    "planted direction's chi2 (noisy targets)": 12.826656085810567,
+    "found (noisy)": 9.949696552153522,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     9.951174109239906,
+     true
+    ],
+    "found (noiseless)": 4.6726087118697055e-24,
+    "stage A (noiseless), stage B ran": [
+     1.456006262137108e-23,
+     true
+    ]
+   },
+   {
+    "p": 1723,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.032121289328794544,
+    "planted direction's chi2 (noisy targets)": 5.069207998766674,
+    "found (noisy)": 4.10671614723337,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.1067161472339135,
+     true
+    ],
+    "found (noiseless)": 1.8381035951468918e-24,
+    "stage A (noiseless), stage B ran": [
+     1.8381035951468918e-24,
+     true
+    ]
+   },
+   {
+    "p": 45,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.00046963157426401403,
+    "planted direction's chi2 (noisy targets)": 8.48999399930169,
+    "found (noisy)": 21.855008307805335,
+    "met": false,
+    "stage A (noisy), stage B ran": [
+     21.855008307805335,
+     true
+    ],
+    "found (noiseless)": 6.74445624820358,
+    "stage A (noiseless), stage B ran": [
+     6.74445624820358,
+     true
+    ]
+   },
+   {
+    "p": 282,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0035537633886445342,
+    "planted direction's chi2 (noisy targets)": 13.373887692318563,
+    "found (noisy)": 25.2664449356784,
+    "met": false,
+    "stage A (noisy), stage B ran": [
+     25.2664449356784,
+     true
+    ],
+    "found (noiseless)": 13.383697032391712,
+    "stage A (noiseless), stage B ran": [
+     13.383697032391712,
+     true
+    ]
+   },
+   {
+    "p": 68,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.00874791877478106,
+    "planted direction's chi2 (noisy targets)": 15.802426703740476,
+    "found (noisy)": 20.770532973412234,
+    "met": false,
+    "stage A (noisy), stage B ran": [
+     21.63012599654375,
+     true
+    ],
+    "found (noiseless)": 12.693183420959187,
+    "stage A (noiseless), stage B ran": [
+     12.693183420959187,
+     true
+    ]
+   },
+   {
+    "p": 605,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0007306793808783538,
+    "planted direction's chi2 (noisy targets)": 6.139429737290239,
+    "found (noisy)": 4.031532020281515,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.031532020281515,
+     true
+    ],
+    "found (noiseless)": 1.4719973788316776e-22,
+    "stage A (noiseless), stage B ran": [
+     1.4719973788316776e-22,
+     true
+    ]
+   },
+   {
+    "p": 713,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.16707089961471067,
+    "planted direction's chi2 (noisy targets)": 6.779902152199652,
+    "found (noisy)": 5.289680373130147,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     5.28968037313108,
+     true
+    ],
+    "found (noiseless)": 1.1173773958288515e-24,
+    "stage A (noiseless), stage B ran": [
+     2.0694269170467184e-23,
+     true
+    ]
+   },
+   {
+    "p": 35,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.09838357210587605,
+    "planted direction's chi2 (noisy targets)": 7.763849012951585,
+    "found (noisy)": 4.9701272243739005,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     6.736307073656592,
+     true
+    ],
+    "found (noiseless)": 0.16688419199147092,
+    "stage A (noiseless), stage B ran": [
+     1.3052823167724297,
+     true
+    ]
+   },
+   {
+    "p": 1801,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0052682224115959304,
+    "planted direction's chi2 (noisy targets)": 5.76246270519329,
+    "found (noisy)": 3.7470879249260762,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.747087927085653,
+     true
+    ],
+    "found (noiseless)": 3.559990088815226e-25,
+    "stage A (noiseless), stage B ran": [
+     1.762661954722878e-24,
+     true
+    ]
+   },
+   {
+    "p": 848,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.15467303105989794,
+    "planted direction's chi2 (noisy targets)": 8.223433682288654,
+    "found (noisy)": 3.339704271184902,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.33970427119037,
+     true
+    ],
+    "found (noiseless)": 1.1126280253204663e-24,
+    "stage A (noiseless), stage B ran": [
+     2.45146340051466e-23,
+     true
+    ]
+   },
+   {
+    "p": 2169,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.13405918145356369,
+    "planted direction's chi2 (noisy targets)": 11.88756054594859,
+    "found (noisy)": 1.8738175524585232,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     1.87381755245887,
+     true
+    ],
+    "found (noiseless)": 6.062361069160575e-25,
+    "stage A (noiseless), stage B ran": [
+     6.062361069160575e-25,
+     true
+    ]
+   },
+   {
+    "p": 1842,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.10245874155639129,
+    "planted direction's chi2 (noisy targets)": 9.056225447455766,
+    "found (noisy)": 5.890186981936764,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     5.890186981937024,
+     true
+    ],
+    "found (noiseless)": 1.8051955760308302e-26,
+    "stage A (noiseless), stage B ran": [
+     2.8098397805213484e-25,
+     true
+    ]
+   },
+   {
+    "p": 1902,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.009625865979698993,
+    "planted direction's chi2 (noisy targets)": 4.0968988619218525,
+    "found (noisy)": 1.1753852568987981,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     1.1753852646622387,
+     true
+    ],
+    "found (noiseless)": 5.245051169239047e-25,
+    "stage A (noiseless), stage B ran": [
+     9.004851797913773e-24,
+     true
+    ]
+   },
+   {
+    "p": 1878,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.005871580961560925,
+    "planted direction's chi2 (noisy targets)": 12.779326799170784,
+    "found (noisy)": 8.984805992336975,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     8.984805992606862,
+     true
+    ],
+    "found (noiseless)": 4.941740167760901e-25,
+    "stage A (noiseless), stage B ran": [
+     1.9633485805738043e-24,
+     true
+    ]
+   },
+   {
+    "p": 41,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.014415365676260566,
+    "planted direction's chi2 (noisy targets)": 6.918140677008098,
+    "found (noisy)": 18.475653687311464,
+    "met": false,
+    "stage A (noisy), stage B ran": [
+     29.4078436637209,
+     true
+    ],
+    "found (noiseless)": 9.936485957994535,
+    "stage A (noiseless), stage B ran": [
+     16.0838814136752,
+     true
+    ]
+   },
+   {
+    "p": 2389,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.027706577123116537,
+    "planted direction's chi2 (noisy targets)": 11.871912051731352,
+    "found (noisy)": 0.9092497242843419,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     1.6854279505626457,
+     true
+    ],
+    "found (noiseless)": 0.000171663848824109,
+    "stage A (noiseless), stage B ran": [
+     0.000171663848824109,
+     true
+    ]
+   },
+   {
+    "p": 539,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.06432135435338247,
+    "planted direction's chi2 (noisy targets)": 9.725354727269448,
+    "found (noisy)": 6.289068532285625,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     6.289068532303444,
+     true
+    ],
+    "found (noiseless)": 3.7929213719603995e-25,
+    "stage A (noiseless), stage B ran": [
+     2.7410000762073823e-24,
+     true
+    ]
+   },
+   {
+    "p": 1856,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.03687652565335446,
+    "planted direction's chi2 (noisy targets)": 18.308487646377863,
+    "found (noisy)": 1.9517733198521119,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     1.9517733198521119,
+     true
+    ],
+    "found (noiseless)": 2.4397931142435813e-26,
+    "stage A (noiseless), stage B ran": [
+     2.4397931142435813e-26,
+     true
+    ]
+   },
+   {
+    "p": 1355,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.03036121653578608,
+    "planted direction's chi2 (noisy targets)": 10.019047957808633,
+    "found (noisy)": 3.477554563334236,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.477554563337793,
+     true
+    ],
+    "found (noiseless)": 1.5446851322644203e-25,
+    "stage A (noiseless), stage B ran": [
+     1.5446851322644203e-25,
+     true
+    ]
+   },
+   {
+    "p": 778,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.03635689685586416,
+    "planted direction's chi2 (noisy targets)": 11.773417113732854,
+    "found (noisy)": 5.5943453088207065,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     5.594345308821205,
+     true
+    ],
+    "found (noiseless)": 6.635111387697207e-26,
+    "stage A (noiseless), stage B ran": [
+     4.214256637133789e-25,
+     true
+    ]
+   },
+   {
+    "p": 1913,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.04087562137750921,
+    "planted direction's chi2 (noisy targets)": 6.692703825905987,
+    "found (noisy)": 3.8329711663904096,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.832971166396865,
+     true
+    ],
+    "found (noiseless)": 1.290774722406776e-26,
+    "stage A (noiseless), stage B ran": [
+     1.7868775608421536e-24,
+     true
+    ]
+   },
+   {
+    "p": 379,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.06460723298567182,
+    "planted direction's chi2 (noisy targets)": 14.083019036454184,
+    "found (noisy)": 30.892523781183105,
+    "met": false,
+    "stage A (noisy), stage B ran": [
+     33.24222887369894,
+     true
+    ],
+    "found (noiseless)": 14.834222732912018,
+    "stage A (noiseless), stage B ran": [
+     14.834222732912018,
+     true
+    ]
+   },
+   {
+    "p": 1939,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.08234010725963677,
+    "planted direction's chi2 (noisy targets)": 2.5642180749655665,
+    "found (noisy)": 0.7980755982382176,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     0.7980755982383018,
+     true
+    ],
+    "found (noiseless)": 1.2612400036568667e-24,
+    "stage A (noiseless), stage B ran": [
+     1.9497886624599554e-24,
+     true
+    ]
+   },
+   {
+    "p": 49,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.08058813539445188,
+    "planted direction's chi2 (noisy targets)": 10.177257017418684,
+    "found (noisy)": 21.378332327516965,
+    "met": false,
+    "stage A (noisy), stage B ran": [
+     46.76533857072016,
+     true
+    ],
+    "found (noiseless)": 10.93359062345423,
+    "stage A (noiseless), stage B ran": [
+     10.93359062345423,
+     true
+    ]
+   },
+   {
+    "p": 388,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.03147178053841397,
+    "planted direction's chi2 (noisy targets)": 10.021085304628158,
+    "found (noisy)": 4.693858831623482,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.696104224244496,
+     true
+    ],
+    "found (noiseless)": 5.69541465454535e-23,
+    "stage A (noiseless), stage B ran": [
+     5.796904771570154e-23,
+     true
+    ]
+   },
+   {
+    "p": 1579,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.018474913697695074,
+    "planted direction's chi2 (noisy targets)": 5.176465032903215,
+    "found (noisy)": 3.184328221293087,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.184328221296954,
+     true
+    ],
+    "found (noiseless)": 1.6683494162703776e-24,
+    "stage A (noiseless), stage B ran": [
+     1.5723982250297275e-23,
+     true
+    ]
+   },
+   {
+    "p": 2058,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.0198301747172776,
+    "planted direction's chi2 (noisy targets)": 5.973812124638885,
+    "found (noisy)": 3.5437618717457,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.5998028646196008,
+     true
+    ],
+    "found (noiseless)": 3.1239834149104775e-25,
+    "stage A (noiseless), stage B ran": [
+     0.008329937848184926,
+     true
+    ]
+   },
+   {
+    "p": 1028,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.02702727310152559,
+    "planted direction's chi2 (noisy targets)": 18.894287229785874,
+    "found (noisy)": 14.586614862847004,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     14.588973313024947,
+     true
+    ],
+    "found (noiseless)": 1.852713532500139e-25,
+    "stage A (noiseless), stage B ran": [
+     1.9422170805100265e-25,
+     true
+    ]
+   },
+   {
+    "p": 796,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.05714420586875141,
+    "planted direction's chi2 (noisy targets)": 5.123975017984166,
+    "found (noisy)": 3.3471564823063655,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.347156482306989,
+     true
+    ],
+    "found (noiseless)": 6.760612383401185e-25,
+    "stage A (noiseless), stage B ran": [
+     3.075270428755729e-23,
+     true
+    ]
+   },
+   {
+    "p": 2482,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.056876613096592185,
+    "planted direction's chi2 (noisy targets)": 11.896018468201284,
+    "found (noisy)": 3.274453271523672,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.274453271523672,
+     true
+    ],
+    "found (noiseless)": 0.0012039975176676718,
+    "stage A (noiseless), stage B ran": [
+     2.4819653904061116,
+     true
+    ]
+   },
+   {
+    "p": 325,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.056751583857273524,
+    "planted direction's chi2 (noisy targets)": 5.2643188094447995,
+    "found (noisy)": 4.076051226130317,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     5.257120593272379,
+     true
+    ],
+    "found (noiseless)": 1.2569394982669724,
+    "stage A (noiseless), stage B ran": [
+     1.2569394982669724,
+     true
+    ]
+   },
+   {
+    "p": 2658,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.0566912189601618,
+    "planted direction's chi2 (noisy targets)": 6.695783081443936,
+    "found (noisy)": 1.2834769636574532,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     1.2860526322283266,
+     true
+    ],
+    "found (noiseless)": 0.021753053865290736,
+    "stage A (noiseless), stage B ran": [
+     0.05230620203939618,
+     true
+    ]
+   },
+   {
+    "p": 609,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.05022269644973364,
+    "planted direction's chi2 (noisy targets)": 5.899872307153583,
+    "found (noisy)": 1.3524467880528095,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     1.3524467880528095,
+     true
+    ],
+    "found (noiseless)": 1.0197773484238304e-23,
+    "stage A (noiseless), stage B ran": [
+     3.4714597215938014e-23,
+     true
+    ]
+   },
+   {
+    "p": 954,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.052490583396275735,
+    "planted direction's chi2 (noisy targets)": 16.331285577513697,
+    "found (noisy)": 9.002786284185762,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     9.002786284190726,
+     true
+    ],
+    "found (noiseless)": 1.545533827866367e-24,
+    "stage A (noiseless), stage B ran": [
+     5.3536947516416e-24,
+     true
+    ]
+   },
+   {
+    "p": 944,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.05946143302740468,
+    "planted direction's chi2 (noisy targets)": 3.3525292190233436,
+    "found (noisy)": 0.9353046864609308,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     0.9353046864609308,
+     true
+    ],
+    "found (noiseless)": 9.528801840082223e-26,
+    "stage A (noiseless), stage B ran": [
+     2.887202997222944e-24,
+     true
+    ]
+   },
+   {
+    "p": 1106,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.010964544203479934,
+    "planted direction's chi2 (noisy targets)": 13.323014316384446,
+    "found (noisy)": 7.845716223967912,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     7.8457162241190685,
+     true
+    ],
+    "found (noiseless)": 2.148999813121862e-22,
+    "stage A (noiseless), stage B ran": [
+     3.3413853989583427e-22,
+     true
+    ]
+   },
+   {
+    "p": 527,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.03241275963273041,
+    "planted direction's chi2 (noisy targets)": 3.0632547502566254,
+    "found (noisy)": 2.6462318233256497,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     2.6462318233256497,
+     true
+    ],
+    "found (noiseless)": 4.848049526275809e-26,
+    "stage A (noiseless), stage B ran": [
+     8.086439825188362e-25,
+     true
+    ]
+   },
+   {
+    "p": 684,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.02055392595994664,
+    "planted direction's chi2 (noisy targets)": 4.847713016173823,
+    "found (noisy)": 1.602064492308479,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     1.6020644923135803,
+     true
+    ],
+    "found (noiseless)": 2.179931526659454e-24,
+    "stage A (noiseless), stage B ran": [
+     5.8793677473161535e-24,
+     true
+    ]
+   },
+   {
+    "p": 2220,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.05057093816263746,
+    "planted direction's chi2 (noisy targets)": 7.294254131501876,
+    "found (noisy)": 0.9188250461783729,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.0181918464039215,
+     true
+    ],
+    "found (noiseless)": 0.0010834696617178625,
+    "stage A (noiseless), stage B ran": [
+     1.7211877490399115,
+     true
+    ]
+   },
+   {
+    "p": 532,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.07719776841240275,
+    "planted direction's chi2 (noisy targets)": 13.484848634996807,
+    "found (noisy)": 6.7609462984130015,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     6.760946298413232,
+     true
+    ],
+    "found (noiseless)": 1.5929779498802918e-27,
+    "stage A (noiseless), stage B ran": [
+     1.5929779498802918e-27,
+     true
+    ]
+   },
+   {
+    "p": 1318,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.4546746220318196,
+    "planted direction's chi2 (noisy targets)": 4.833761537683615,
+    "found (noisy)": 4.0744801780690665,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.07448017827342,
+     true
+    ],
+    "found (noiseless)": 3.4491540828452366e-25,
+    "stage A (noiseless), stage B ran": [
+     1.4402051367308737e-24,
+     true
+    ]
+   },
+   {
+    "p": 2006,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.6053410000870539,
+    "planted direction's chi2 (noisy targets)": 8.341200561804563,
+    "found (noisy)": 4.964859610719799,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.964859610719885,
+     true
+    ],
+    "found (noiseless)": 2.4443410757965836e-27,
+    "stage A (noiseless), stage B ran": [
+     3.3544990938082596e-27,
+     true
+    ]
+   },
+   {
+    "p": 2566,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.4141235168293527,
+    "planted direction's chi2 (noisy targets)": 6.605498176497991,
+    "found (noisy)": 2.774744986618244,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     2.7747453034740808,
+     true
+    ],
+    "found (noiseless)": 4.3480762103517306e-07,
+    "stage A (noiseless), stage B ran": [
+     4.3480762103517306e-07,
+     true
+    ]
+   },
+   {
+    "p": 1376,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.8937381161248944,
+    "planted direction's chi2 (noisy targets)": 4.954659792519515,
+    "found (noisy)": 2.0020713532732977,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     2.0020713532733003,
+     true
+    ],
+    "found (noiseless)": 1.2991736309467334e-26,
+    "stage A (noiseless), stage B ran": [
+     2.182278217504458e-26,
+     true
+    ]
+   },
+   {
+    "p": 417,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.5944991924717267,
+    "planted direction's chi2 (noisy targets)": 13.994988640253213,
+    "found (noisy)": 8.84353213864368,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     8.843532138644234,
+     true
+    ],
+    "found (noiseless)": 4.0146853190020174e-25,
+    "stage A (noiseless), stage B ran": [
+     4.0146853190020174e-25,
+     true
+    ]
+   },
+   {
+    "p": 2335,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.8536439208914657,
+    "planted direction's chi2 (noisy targets)": 6.786767516811075,
+    "found (noisy)": 4.604003469903297,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.604053364897888,
+     true
+    ],
+    "found (noiseless)": 1.3162465074039898e-08,
+    "stage A (noiseless), stage B ran": [
+     4.676360345514239e-05,
+     true
+    ]
+   },
+   {
+    "p": 2436,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.9570799129502542,
+    "planted direction's chi2 (noisy targets)": 15.33548365297261,
+    "found (noisy)": 8.693276112179506,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     8.789049696221403,
+     true
+    ],
+    "found (noiseless)": 3.429859494699548e-10,
+    "stage A (noiseless), stage B ran": [
+     1.3356017795686825e-05,
+     true
+    ]
+   },
+   {
+    "p": 2476,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.9299163428789137,
+    "planted direction's chi2 (noisy targets)": 8.010160189970124,
+    "found (noisy)": 2.5815794388563824,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     2.588335737502533,
+     true
+    ],
+    "found (noiseless)": 0.0009983314486823741,
+    "stage A (noiseless), stage B ran": [
+     0.0009983314486823741,
+     true
+    ]
+   },
+   {
+    "p": 724,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.5382589747285416,
+    "planted direction's chi2 (noisy targets)": 8.253981904147203,
+    "found (noisy)": 2.8059452112753984,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     2.8059452112758114,
+     true
+    ],
+    "found (noiseless)": 7.319875662321205e-25,
+    "stage A (noiseless), stage B ran": [
+     1.1557338853083253e-24,
+     true
+    ]
+   },
+   {
+    "p": 616,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.8487129303103138,
+    "planted direction's chi2 (noisy targets)": 7.799543887739478,
+    "found (noisy)": 3.5703422771759583,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.570342277175979,
+     true
+    ],
+    "found (noiseless)": 3.872238184828255e-27,
+    "stage A (noiseless), stage B ran": [
+     3.872238184828255e-27,
+     true
+    ]
+   },
+   {
+    "p": 2083,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.8374241474084348,
+    "planted direction's chi2 (noisy targets)": 5.257119614622428,
+    "found (noisy)": 4.2246994504308715,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.22469945043103,
+     true
+    ],
+    "found (noiseless)": 5.926487561372384e-25,
+    "stage A (noiseless), stage B ran": [
+     2.1491135182888465e-24,
+     true
+    ]
+   },
+   {
+    "p": 488,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.9554608616359063,
+    "planted direction's chi2 (noisy targets)": 9.386355825797732,
+    "found (noisy)": 8.307795439835457,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     8.307795439835592,
+     true
+    ],
+    "found (noiseless)": 4.972603526011513e-28,
+    "stage A (noiseless), stage B ran": [
+     1.2851900087146322e-22,
+     true
+    ]
+   },
+   {
+    "p": 886,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.49540018961149235,
+    "planted direction's chi2 (noisy targets)": 7.997477789095894,
+    "found (noisy)": 5.7639286828003025,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     5.763928682801428,
+     true
+    ],
+    "found (noiseless)": 3.493347079182858e-25,
+    "stage A (noiseless), stage B ran": [
+     6.181560504078175e-25,
+     true
+    ]
+   },
+   {
+    "p": 125,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.4050221831759547,
+    "planted direction's chi2 (noisy targets)": 3.976032447229248,
+    "found (noisy)": 2.1759351182599804,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.495645831005523,
+     true
+    ],
+    "found (noiseless)": 0.1763741782964477,
+    "stage A (noiseless), stage B ran": [
+     1.0659536629934054,
+     true
+    ]
+   },
+   {
+    "p": 2143,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.7030537095278095,
+    "planted direction's chi2 (noisy targets)": 10.13604602985561,
+    "found (noisy)": 5.155492537356596,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     5.155492537356884,
+     true
+    ],
+    "found (noiseless)": 4.7370054559911725e-26,
+    "stage A (noiseless), stage B ran": [
+     2.4997966340519126e-25,
+     true
+    ]
+   },
+   {
+    "p": 21,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.22873971089527756,
+    "planted direction's chi2 (noisy targets)": 7.903231949978226,
+    "found (noisy)": 6.125077505718198,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     6.125077505718198,
+     true
+    ],
+    "found (noiseless)": 4.467731650167123,
+    "stage A (noiseless), stage B ran": [
+     4.467731650167123,
+     true
+    ]
+   },
+   {
+    "p": 497,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.5542654779085298,
+    "planted direction's chi2 (noisy targets)": 6.595428484717377,
+    "found (noisy)": 2.5488185248132798,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     2.5488185248132798,
+     true
+    ],
+    "found (noiseless)": 7.839918034256341e-27,
+    "stage A (noiseless), stage B ran": [
+     1.3883112674848398e-26,
+     true
+    ]
+   },
+   {
+    "p": 244,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.9541114271833654,
+    "planted direction's chi2 (noisy targets)": 8.535536033445721,
+    "found (noisy)": 3.907338938503105,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.907338938503105,
+     true
+    ],
+    "found (noiseless)": 9.108583110768155e-25,
+    "stage A (noiseless), stage B ran": [
+     1.2553128755851439e-24,
+     true
+    ]
+   },
+   {
+    "p": 1771,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.9543157047363419,
+    "planted direction's chi2 (noisy targets)": 13.67226023803586,
+    "found (noisy)": 4.2237009154363205,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.2237009154436755,
+     true
+    ],
+    "found (noiseless)": 1.026523802563001e-27,
+    "stage A (noiseless), stage B ran": [
+     1.026523802563001e-27,
+     true
+    ]
+   },
+   {
+    "p": 1070,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.873576540456198,
+    "planted direction's chi2 (noisy targets)": 7.589320976250659,
+    "found (noisy)": 3.41766378516202,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.417663785162036,
+     true
+    ],
+    "found (noiseless)": 5.093945050027205e-28,
+    "stage A (noiseless), stage B ran": [
+     1.3830523615044615e-27,
+     true
+    ]
+   },
+   {
+    "p": 769,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.5219030549099636,
+    "planted direction's chi2 (noisy targets)": 9.408141076130565,
+    "found (noisy)": 3.8641126741230396,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.864112674123715,
+     true
+    ],
+    "found (noiseless)": 5.753410732797872e-26,
+    "stage A (noiseless), stage B ran": [
+     2.389980536783033e-25,
+     true
+    ]
+   },
+   {
+    "p": 316,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.5925377655109642,
+    "planted direction's chi2 (noisy targets)": 7.27313025442423,
+    "found (noisy)": 1.6133049902711616,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.4862400221646888,
+     true
+    ],
+    "found (noiseless)": 0.21489052749369042,
+    "stage A (noiseless), stage B ran": [
+     1.1646466220200689,
+     true
+    ]
+   },
+   {
+    "p": 2037,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.8567488196549886,
+    "planted direction's chi2 (noisy targets)": 4.27418341355811,
+    "found (noisy)": 3.462894363973942,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.462894363979438,
+     true
+    ],
+    "found (noiseless)": 1.9530720002709817e-27,
+    "stage A (noiseless), stage B ran": [
+     8.415277170495099e-27,
+     true
+    ]
+   },
+   {
+    "p": 1191,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.9597134654476726,
+    "planted direction's chi2 (noisy targets)": 10.199573257205138,
+    "found (noisy)": 4.605815529505855,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.605815529505897,
+     true
+    ],
+    "found (noiseless)": 4.717460636453896e-27,
+    "stage A (noiseless), stage B ran": [
+     4.717460636453896e-27,
+     true
+    ]
+   }
+  ],
+  "met (the search's minimum at or below the planted direction's chi2)": 65,
+  "holds": false,
+  "the per-row miss rate on planted rows: exact two-sided 95% upper end": 0.19011034044555922,
+  "read-out: noiseless recovered to chi2 <= 0.1, <= 2.167": [
+   60,
+   64
+  ],
+  "read-out: the largest stage-A minimum on a planted row (noisy, noiseless); rows where stage B did not run": [
+   70.84138389090619,
+   61.2698420744497,
+   0
+  ],
+  "seconds": 324.16971468925476
+ },
+ "C2Z": {
+  "rows": [
+   {
+    "p": 47,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.02689601461563697,
+    "planted direction's chi2 (noisy targets)": 8.205378223167925,
+    "found (noisy)": 18.89102526824043,
+    "met": false,
+    "stage A (noisy), stage B ran": [
+     18.89102526824043,
+     true
+    ],
+    "found (noiseless)": 17.203965989858986,
+    "stage A (noiseless), stage B ran": [
+     17.203965989858986,
+     true
+    ]
+   },
+   {
+    "p": 1905,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0005193007853878707,
+    "planted direction's chi2 (noisy targets)": 2.3028339063531913,
+    "found (noisy)": 0.5588380568465482,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     0.5588380568539598,
+     true
+    ],
+    "found (noiseless)": 3.9124501864001834e-22,
+    "stage A (noiseless), stage B ran": [
+     3.9124501864001834e-22,
+     true
+    ]
+   },
+   {
+    "p": 2042,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0019617948944747076,
+    "planted direction's chi2 (noisy targets)": 2.8922618831512716,
+    "found (noisy)": 2.5871103948781906,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     2.587298709400351,
+     true
+    ],
+    "found (noiseless)": 2.690761075454853e-23,
+    "stage A (noiseless), stage B ran": [
+     2.690761075454853e-23,
+     true
+    ]
+   },
+   {
+    "p": 1723,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.005905834441181128,
+    "planted direction's chi2 (noisy targets)": 9.547768396469243,
+    "found (noisy)": 5.093553395170361,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     5.093553395248123,
+     true
+    ],
+    "found (noiseless)": 7.252897610372011e-25,
+    "stage A (noiseless), stage B ran": [
+     7.252897610372011e-25,
+     true
+    ]
+   },
+   {
+    "p": 1292,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0028833368164514913,
+    "planted direction's chi2 (noisy targets)": 13.700439284361288,
+    "found (noisy)": 12.450786156807423,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     12.45078718803464,
+     true
+    ],
+    "found (noiseless)": 2.843793176339165e-25,
+    "stage A (noiseless), stage B ran": [
+     2.4815221895594533e-24,
+     true
+    ]
+   },
+   {
+    "p": 2508,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.006535955853786908,
+    "planted direction's chi2 (noisy targets)": 4.357063616357507,
+    "found (noisy)": 1.7803841703342564,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     2.350602736777959,
+     true
+    ],
+    "found (noiseless)": 8.532451531424716e-05,
+    "stage A (noiseless), stage B ran": [
+     1.0252948110185431,
+     true
+    ]
+   },
+   {
+    "p": 2153,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.04478106945991959,
+    "planted direction's chi2 (noisy targets)": 4.385006013900618,
+    "found (noisy)": 1.1421836383475479,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     1.142183638354113,
+     true
+    ],
+    "found (noiseless)": 1.8407758111874364e-24,
+    "stage A (noiseless), stage B ran": [
+     1.8407758111874364e-24,
+     true
+    ]
+   },
+   {
+    "p": 1071,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.000230324067060736,
+    "planted direction's chi2 (noisy targets)": 4.703556957258922,
+    "found (noisy)": 2.2240597056208626,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     2.272532012993085,
+     true
+    ],
+    "found (noiseless)": 2.53694040483977e-19,
+    "stage A (noiseless), stage B ran": [
+     0.042827940523880295,
+     true
+    ]
+   },
+   {
+    "p": 2021,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0005647601921222218,
+    "planted direction's chi2 (noisy targets)": 4.281768371415106,
+    "found (noisy)": 3.3519759951617005,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.499347320682955,
+     true
+    ],
+    "found (noiseless)": 6.249497251266e-21,
+    "stage A (noiseless), stage B ran": [
+     8.255669126505055e-21,
+     true
+    ]
+   },
+   {
+    "p": 696,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0177441591448173,
+    "planted direction's chi2 (noisy targets)": 6.9288745635456666,
+    "found (noisy)": 1.4008446362436646,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     1.4008446365267975,
+     true
+    ],
+    "found (noiseless)": 1.5672838278593323e-25,
+    "stage A (noiseless), stage B ran": [
+     5.280545950416196e-25,
+     true
+    ]
+   },
+   {
+    "p": 1759,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0006366712972847245,
+    "planted direction's chi2 (noisy targets)": 8.87424524611486,
+    "found (noisy)": 3.044551632458794,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.0793066384484025,
+     true
+    ],
+    "found (noiseless)": 9.301096211915443e-22,
+    "stage A (noiseless), stage B ran": [
+     9.301096211915443e-22,
+     true
+    ]
+   },
+   {
+    "p": 1670,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0029334359374285877,
+    "planted direction's chi2 (noisy targets)": 4.736893136551865,
+    "found (noisy)": 3.0152166010944588,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.015216601538693,
+     true
+    ],
+    "found (noiseless)": 1.6116128346300999e-24,
+    "stage A (noiseless), stage B ran": [
+     1.6116128346300999e-24,
+     true
+    ]
+   },
+   {
+    "p": 1806,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.04001389156096733,
+    "planted direction's chi2 (noisy targets)": 17.095947681961444,
+    "found (noisy)": 13.562049036308231,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     13.56204903634623,
+     true
+    ],
+    "found (noiseless)": 1.42871574757758e-25,
+    "stage A (noiseless), stage B ran": [
+     4.0282002667413833e-25,
+     true
+    ]
+   },
+   {
+    "p": 1903,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.002372247116849476,
+    "planted direction's chi2 (noisy targets)": 18.82678871910452,
+    "found (noisy)": 8.759053540562416,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     8.759053540562416,
+     true
+    ],
+    "found (noiseless)": 7.615265162067652e-25,
+    "stage A (noiseless), stage B ran": [
+     4.72851005721617e-24,
+     true
+    ]
+   },
+   {
+    "p": 1080,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.013613752410713078,
+    "planted direction's chi2 (noisy targets)": 8.116630228034145,
+    "found (noisy)": 7.2678679687179715,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     7.2678679692848185,
+     true
+    ],
+    "found (noiseless)": 2.888164729789321e-25,
+    "stage A (noiseless), stage B ran": [
+     1.2006301626081e-24,
+     true
+    ]
+   },
+   {
+    "p": 2394,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0002416335345532784,
+    "planted direction's chi2 (noisy targets)": 13.345846631818134,
+    "found (noisy)": 3.8837384178265673,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.034500707329155,
+     true
+    ],
+    "found (noiseless)": 0.000458957930403904,
+    "stage A (noiseless), stage B ran": [
+     0.15283693546391441,
+     true
+    ]
+   },
+   {
+    "p": 448,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.00042176246206006486,
+    "planted direction's chi2 (noisy targets)": 13.135037274845939,
+    "found (noisy)": 4.816571786924034,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     5.769650519675786,
+     true
+    ],
+    "found (noiseless)": 1.0085039479075937e-20,
+    "stage A (noiseless), stage B ran": [
+     0.39932592261726074,
+     true
+    ]
+   },
+   {
+    "p": 1500,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.001182391069604483,
+    "planted direction's chi2 (noisy targets)": 8.741504213070783,
+    "found (noisy)": 6.3065547827216895,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     6.3065547827881066,
+     true
+    ],
+    "found (noiseless)": 6.979472284806142e-22,
+    "stage A (noiseless), stage B ran": [
+     4.401991241408518e-21,
+     true
+    ]
+   },
+   {
+    "p": 538,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0008453284260390134,
+    "planted direction's chi2 (noisy targets)": 3.8462128013449677,
+    "found (noisy)": 1.6058482296384178,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     2.7152106613273506,
+     true
+    ],
+    "found (noiseless)": 1.6136531988926682e-23,
+    "stage A (noiseless), stage B ran": [
+     2.516720522972299e-21,
+     true
+    ]
+   },
+   {
+    "p": 1054,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0002476971354620524,
+    "planted direction's chi2 (noisy targets)": 10.266559427767897,
+    "found (noisy)": 8.932125578018134,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     11.232921395481139,
+     true
+    ],
+    "found (noiseless)": 9.057661643601256e-20,
+    "stage A (noiseless), stage B ran": [
+     2.084117033922301,
+     true
+    ]
+   },
+   {
+    "p": 2251,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0038098759763000147,
+    "planted direction's chi2 (noisy targets)": 7.88581466023327,
+    "found (noisy)": 3.651556497678618,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.882791066640125,
+     true
+    ],
+    "found (noiseless)": 3.568995842786564e-05,
+    "stage A (noiseless), stage B ran": [
+     3.568995842786564e-05,
+     true
+    ]
+   },
+   {
+    "p": 1732,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.12366839749557049,
+    "planted direction's chi2 (noisy targets)": 8.87255861577577,
+    "found (noisy)": 3.4722019142014826,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.4722019142020817,
+     true
+    ],
+    "found (noiseless)": 7.295134569240988e-26,
+    "stage A (noiseless), stage B ran": [
+     7.295134569240988e-26,
+     true
+    ]
+   },
+   {
+    "p": 52,
+    "hor": "L_max",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0008579091511715473,
+    "planted direction's chi2 (noisy targets)": 15.337054976403582,
+    "found (noisy)": 7.870656364606742,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     8.539109239298725,
+     true
+    ],
+    "found (noiseless)": 1.7559007146610592,
+    "stage A (noiseless), stage B ran": [
+     1.7559007146610592,
+     true
+    ]
+   },
+   {
+    "p": 1367,
+    "hor": "L_2",
+    "kind": "near the conic",
+    "|h.h| planted": 0.0009723039352705991,
+    "planted direction's chi2 (noisy targets)": 5.376860966167811,
+    "found (noisy)": 2.4830985656284454,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     2.510131295860897,
+     true
+    ],
+    "found (noiseless)": 2.1921188411335783e-22,
+    "stage A (noiseless), stage B ran": [
+     1.5748031783063029e-21,
+     true
+    ]
+   },
+   {
+    "p": 726,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.07311692470873142,
+    "planted direction's chi2 (noisy targets)": 11.668116225245146,
+    "found (noisy)": 2.2245773618995774,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     2.2245773619001716,
+     true
+    ],
+    "found (noiseless)": 3.496509737755261e-24,
+    "stage A (noiseless), stage B ran": [
+     6.204387716587659e-23,
+     true
+    ]
+   },
+   {
+    "p": 2576,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.025487271522418368,
+    "planted direction's chi2 (noisy targets)": 16.14105742089946,
+    "found (noisy)": 9.795564373875605,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     9.795564373875605,
+     true
+    ],
+    "found (noiseless)": 3.577158157969572e-08,
+    "stage A (noiseless), stage B ran": [
+     0.00010988237301307652,
+     true
+    ]
+   },
+   {
+    "p": 1540,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.029464381997661597,
+    "planted direction's chi2 (noisy targets)": 6.210882748844968,
+    "found (noisy)": 0.601542800763797,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     0.6015428007652813,
+     true
+    ],
+    "found (noiseless)": 7.157522663433634e-25,
+    "stage A (noiseless), stage B ran": [
+     1.5021233810238886e-23,
+     true
+    ]
+   },
+   {
+    "p": 893,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.036294916731624334,
+    "planted direction's chi2 (noisy targets)": 3.195923228628083,
+    "found (noisy)": 1.7057367716270024,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     1.7057367716337544,
+     true
+    ],
+    "found (noiseless)": 1.7543043617893067e-24,
+    "stage A (noiseless), stage B ran": [
+     1.7543043617893067e-24,
+     true
+    ]
+   },
+   {
+    "p": 646,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.024130042347727428,
+    "planted direction's chi2 (noisy targets)": 6.46910965831808,
+    "found (noisy)": 5.849460184408478,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     5.849460184693584,
+     true
+    ],
+    "found (noiseless)": 2.0504340103249173e-25,
+    "stage A (noiseless), stage B ran": [
+     1.8334303486667165e-24,
+     true
+    ]
+   },
+   {
+    "p": 885,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.0681348732327436,
+    "planted direction's chi2 (noisy targets)": 3.484671633314771,
+    "found (noisy)": 1.3053480158626034,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     1.3053480158642914,
+     true
+    ],
+    "found (noiseless)": 4.458060822408278e-23,
+    "stage A (noiseless), stage B ran": [
+     1.2053111107444356e-22,
+     true
+    ]
+   },
+   {
+    "p": 252,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.02456021198635838,
+    "planted direction's chi2 (noisy targets)": 13.684718692633231,
+    "found (noisy)": 4.077743149361439,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.0777431493621314,
+     true
+    ],
+    "found (noiseless)": 1.5837673106247793e-25,
+    "stage A (noiseless), stage B ran": [
+     3.6170472900789447e-23,
+     true
+    ]
+   },
+   {
+    "p": 1751,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.03795273894931005,
+    "planted direction's chi2 (noisy targets)": 9.81971379916606,
+    "found (noisy)": 5.272688197705347,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     5.272688197705347,
+     true
+    ],
+    "found (noiseless)": 1.0775792975866004e-25,
+    "stage A (noiseless), stage B ran": [
+     1.7664817961797531e-25,
+     true
+    ]
+   },
+   {
+    "p": 1453,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.026243818078835735,
+    "planted direction's chi2 (noisy targets)": 5.1595423902279975,
+    "found (noisy)": 3.2878155322179117,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.2878155322181226,
+     true
+    ],
+    "found (noiseless)": 2.1751814218966977e-26,
+    "stage A (noiseless), stage B ran": [
+     1.5664772184238506e-24,
+     true
+    ]
+   },
+   {
+    "p": 575,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.03603171568589622,
+    "planted direction's chi2 (noisy targets)": 2.472921766726009,
+    "found (noisy)": 1.581044357849879,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     1.5810443578501598,
+     true
+    ],
+    "found (noiseless)": 1.7470742878838387e-27,
+    "stage A (noiseless), stage B ran": [
+     8.730049413956456e-27,
+     true
+    ]
+   },
+   {
+    "p": 1222,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.04385278915441408,
+    "planted direction's chi2 (noisy targets)": 4.854978463611955,
+    "found (noisy)": 0.49599434696793143,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     0.49599434696793143,
+     true
+    ],
+    "found (noiseless)": 1.0388926787570837e-23,
+    "stage A (noiseless), stage B ran": [
+     4.157019377352134e-23,
+     true
+    ]
+   },
+   {
+    "p": 1393,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.06983423642055805,
+    "planted direction's chi2 (noisy targets)": 7.009476857321392,
+    "found (noisy)": 4.064890524976058,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.064890524976119,
+     true
+    ],
+    "found (noiseless)": 3.662413235079908e-26,
+    "stage A (noiseless), stage B ran": [
+     3.662413235079908e-26,
+     true
+    ]
+   },
+   {
+    "p": 2638,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.04993587416651258,
+    "planted direction's chi2 (noisy targets)": 11.147016942199134,
+    "found (noisy)": 5.502301843501112,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     5.573701731338084,
+     true
+    ],
+    "found (noiseless)": 1.2729697605544918e-07,
+    "stage A (noiseless), stage B ran": [
+     0.0020554397632322335,
+     true
+    ]
+   },
+   {
+    "p": 2353,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.02181248586850625,
+    "planted direction's chi2 (noisy targets)": 7.937765897211648,
+    "found (noisy)": 5.508459118312216,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     6.670621518735216,
+     true
+    ],
+    "found (noiseless)": 7.844209575852535e-06,
+    "stage A (noiseless), stage B ran": [
+     0.3980973119837219,
+     true
+    ]
+   },
+   {
+    "p": 1072,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.06714655779422556,
+    "planted direction's chi2 (noisy targets)": 4.3054997513921895,
+    "found (noisy)": 3.418552002442505,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.418552002442505,
+     true
+    ],
+    "found (noiseless)": 1.8903620221779883e-26,
+    "stage A (noiseless), stage B ran": [
+     4.5130170281037427e-26,
+     true
+    ]
+   },
+   {
+    "p": 477,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.034302704029130174,
+    "planted direction's chi2 (noisy targets)": 12.309724544108267,
+    "found (noisy)": 5.554616013638382,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     5.554616013638382,
+     true
+    ],
+    "found (noiseless)": 3.605107516027797e-26,
+    "stage A (noiseless), stage B ran": [
+     2.0138783454062216e-25,
+     true
+    ]
+   },
+   {
+    "p": 916,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.06283546640379303,
+    "planted direction's chi2 (noisy targets)": 12.868913127661223,
+    "found (noisy)": 8.96850276674125,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     8.968502766741896,
+     true
+    ],
+    "found (noiseless)": 3.0764545810265994e-25,
+    "stage A (noiseless), stage B ran": [
+     1.3341707677139312e-23,
+     true
+    ]
+   },
+   {
+    "p": 805,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.009614023426598069,
+    "planted direction's chi2 (noisy targets)": 9.748970385850559,
+    "found (noisy)": 7.428716312510191,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     7.428716312533404,
+     true
+    ],
+    "found (noiseless)": 1.2688876781369526e-24,
+    "stage A (noiseless), stage B ran": [
+     2.778142718685822e-24,
+     true
+    ]
+   },
+   {
+    "p": 412,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.013496167628359588,
+    "planted direction's chi2 (noisy targets)": 11.668122410556306,
+    "found (noisy)": 6.517062059681192,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     6.517062227598221,
+     true
+    ],
+    "found (noiseless)": 8.626201762128465e-25,
+    "stage A (noiseless), stage B ran": [
+     8.626201762128465e-25,
+     true
+    ]
+   },
+   {
+    "p": 296,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.05239286545811932,
+    "planted direction's chi2 (noisy targets)": 9.54592516416637,
+    "found (noisy)": 6.627099679208778,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     25.45011419871294,
+     true
+    ],
+    "found (noiseless)": 2.7033442687823994,
+    "stage A (noiseless), stage B ran": [
+     9.369225486481056,
+     true
+    ]
+   },
+   {
+    "p": 2010,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.08818215092978202,
+    "planted direction's chi2 (noisy targets)": 17.649527493404285,
+    "found (noisy)": 4.48282257203985,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.48282257203985,
+     true
+    ],
+    "found (noiseless)": 6.301889951902169e-27,
+    "stage A (noiseless), stage B ran": [
+     5.287405789349547e-25,
+     true
+    ]
+   },
+   {
+    "p": 686,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.047184705611803046,
+    "planted direction's chi2 (noisy targets)": 5.935118355505518,
+    "found (noisy)": 2.851930225977235,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     2.851930225977308,
+     true
+    ],
+    "found (noiseless)": 5.50054877716031e-28,
+    "stage A (noiseless), stage B ran": [
+     6.903439009060579e-25,
+     true
+    ]
+   },
+   {
+    "p": 2151,
+    "hor": "L_max",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.0586283487911345,
+    "planted direction's chi2 (noisy targets)": 7.164801636285404,
+    "found (noisy)": 2.9265055722957065,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     2.9265055722957065,
+     true
+    ],
+    "found (noiseless)": 4.9077193624063615e-26,
+    "stage A (noiseless), stage B ran": [
+     6.595507246675074e-26,
+     true
+    ]
+   },
+   {
+    "p": 793,
+    "hor": "L_2",
+    "kind": "near n or n-bar",
+    "|h.h| planted": 0.052201035030560165,
+    "planted direction's chi2 (noisy targets)": 6.135658496695258,
+    "found (noisy)": 3.411739215740982,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.411739215740982,
+     true
+    ],
+    "found (noiseless)": 9.637767915467726e-27,
+    "stage A (noiseless), stage B ran": [
+     9.637767915467726e-27,
+     true
+    ]
+   },
+   {
+    "p": 137,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.2363975166685201,
+    "planted direction's chi2 (noisy targets)": 6.0609042174635,
+    "found (noisy)": 3.7272359813162312,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.741893291965875,
+     true
+    ],
+    "found (noiseless)": 0.8316074920994944,
+    "stage A (noiseless), stage B ran": [
+     2.5586720498745867,
+     true
+    ]
+   },
+   {
+    "p": 1687,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.5173622098027891,
+    "planted direction's chi2 (noisy targets)": 10.691480463665672,
+    "found (noisy)": 3.31010874868009,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.310108748684769,
+     true
+    ],
+    "found (noiseless)": 2.3152941411234154e-26,
+    "stage A (noiseless), stage B ran": [
+     6.08647262761327e-26,
+     true
+    ]
+   },
+   {
+    "p": 2266,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.7058341152854347,
+    "planted direction's chi2 (noisy targets)": 12.616621017511951,
+    "found (noisy)": 3.83711431954464,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.97889044138251,
+     true
+    ],
+    "found (noiseless)": 1.1862211937853752e-06,
+    "stage A (noiseless), stage B ran": [
+     2.9584783341934684e-06,
+     true
+    ]
+   },
+   {
+    "p": 1736,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.725513573813224,
+    "planted direction's chi2 (noisy targets)": 11.544273567620426,
+    "found (noisy)": 5.506705082991882,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     5.506705082995654,
+     true
+    ],
+    "found (noiseless)": 8.03632187387461e-26,
+    "stage A (noiseless), stage B ran": [
+     8.03632187387461e-26,
+     true
+    ]
+   },
+   {
+    "p": 2228,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.32725632054569764,
+    "planted direction's chi2 (noisy targets)": 12.701247248330024,
+    "found (noisy)": 3.9031565450431343,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.115429066744971,
+     true
+    ],
+    "found (noiseless)": 3.904172452979963e-07,
+    "stage A (noiseless), stage B ran": [
+     0.0001836821884619061,
+     true
+    ]
+   },
+   {
+    "p": 1198,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.9707106293150723,
+    "planted direction's chi2 (noisy targets)": 10.220469153551932,
+    "found (noisy)": 4.826310259394752,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.826310259396968,
+     true
+    ],
+    "found (noiseless)": 3.8852377014784865e-27,
+    "stage A (noiseless), stage B ran": [
+     3.8852377014784865e-27,
+     true
+    ]
+   },
+   {
+    "p": 686,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.6087562012747757,
+    "planted direction's chi2 (noisy targets)": 4.923102770994955,
+    "found (noisy)": 2.179944447882467,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     2.179944447882467,
+     true
+    ],
+    "found (noiseless)": 1.304322464614943e-26,
+    "stage A (noiseless), stage B ran": [
+     2.5135425136415904e-26,
+     true
+    ]
+   },
+   {
+    "p": 2467,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.14837673193095724,
+    "planted direction's chi2 (noisy targets)": 9.1149295382058,
+    "found (noisy)": 4.51361072651219,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     8.910172700536389,
+     true
+    ],
+    "found (noiseless)": 0.0046880181590881745,
+    "stage A (noiseless), stage B ran": [
+     0.20174363180251445,
+     true
+    ]
+   },
+   {
+    "p": 269,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.945824474338306,
+    "planted direction's chi2 (noisy targets)": 9.786492881399951,
+    "found (noisy)": 8.97880022462357,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     8.97880022462357,
+     true
+    ],
+    "found (noiseless)": 11.127426349195327,
+    "stage A (noiseless), stage B ran": [
+     11.127426349195327,
+     true
+    ]
+   },
+   {
+    "p": 2068,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.8722192521651704,
+    "planted direction's chi2 (noisy targets)": 5.196153404461154,
+    "found (noisy)": 1.5869359976151787,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     1.586935997615224,
+     true
+    ],
+    "found (noiseless)": 1.035188852553356e-26,
+    "stage A (noiseless), stage B ran": [
+     1.4334513583377546e-26,
+     true
+    ]
+   },
+   {
+    "p": 1991,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.9053517177179671,
+    "planted direction's chi2 (noisy targets)": 8.625619517868738,
+    "found (noisy)": 4.519055661973227,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.519055661973287,
+     true
+    ],
+    "found (noiseless)": 3.7206945368372283e-28,
+    "stage A (noiseless), stage B ran": [
+     2.8754531444913575e-27,
+     true
+    ]
+   },
+   {
+    "p": 662,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.5791069452846167,
+    "planted direction's chi2 (noisy targets)": 13.388568174482387,
+    "found (noisy)": 4.319681888824023,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.319681888824023,
+     true
+    ],
+    "found (noiseless)": 1.8371853339761572e-26,
+    "stage A (noiseless), stage B ran": [
+     1.8371853339761572e-26,
+     true
+    ]
+   },
+   {
+    "p": 1124,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.3658453574928166,
+    "planted direction's chi2 (noisy targets)": 9.103124355345836,
+    "found (noisy)": 7.085322873245379,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     7.085322873245379,
+     true
+    ],
+    "found (noiseless)": 1.5570438865239418e-26,
+    "stage A (noiseless), stage B ran": [
+     1.5570438865239418e-26,
+     true
+    ]
+   },
+   {
+    "p": 1484,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.6383735009010516,
+    "planted direction's chi2 (noisy targets)": 14.692568886287933,
+    "found (noisy)": 5.806937633285624,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     5.806937633288174,
+     true
+    ],
+    "found (noiseless)": 1.1246220616883515e-27,
+    "stage A (noiseless), stage B ran": [
+     2.7536211910982338e-27,
+     true
+    ]
+   },
+   {
+    "p": 1621,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.45531365145612496,
+    "planted direction's chi2 (noisy targets)": 15.240206742359275,
+    "found (noisy)": 14.554857375725316,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     14.554857376087721,
+     true
+    ],
+    "found (noiseless)": 8.997335143228757e-23,
+    "stage A (noiseless), stage B ran": [
+     6.200689384860274e-22,
+     true
+    ]
+   },
+   {
+    "p": 909,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.4658657779189662,
+    "planted direction's chi2 (noisy targets)": 10.69566078241208,
+    "found (noisy)": 1.7124349761375957,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     1.7124349761379796,
+     true
+    ],
+    "found (noiseless)": 1.73584550779674e-25,
+    "stage A (noiseless), stage B ran": [
+     3.843466822151849e-24,
+     true
+    ]
+   },
+   {
+    "p": 807,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.6120791441221468,
+    "planted direction's chi2 (noisy targets)": 10.245686293956073,
+    "found (noisy)": 7.717117463293548,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     7.717117463293611,
+     true
+    ],
+    "found (noiseless)": 9.708905225928578e-28,
+    "stage A (noiseless), stage B ran": [
+     9.708905225928578e-28,
+     true
+    ]
+   },
+   {
+    "p": 1309,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.8166227613801063,
+    "planted direction's chi2 (noisy targets)": 12.007722017475807,
+    "found (noisy)": 9.034818617336663,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     9.034818617337173,
+     true
+    ],
+    "found (noiseless)": 7.524048694520945e-25,
+    "stage A (noiseless), stage B ran": [
+     1.8482149046363897e-24,
+     true
+    ]
+   },
+   {
+    "p": 191,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.9272094990012578,
+    "planted direction's chi2 (noisy targets)": 6.329855207598906,
+    "found (noisy)": 4.694545942915346,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     4.694545942915498,
+     true
+    ],
+    "found (noiseless)": 1.724343946783092e-27,
+    "stage A (noiseless), stage B ran": [
+     2.7697858765007187e-27,
+     true
+    ]
+   },
+   {
+    "p": 500,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.6178784507284587,
+    "planted direction's chi2 (noisy targets)": 5.62493905245497,
+    "found (noisy)": 1.7981493485798459,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     1.7981493485798743,
+     true
+    ],
+    "found (noiseless)": 1.63208442400012e-26,
+    "stage A (noiseless), stage B ran": [
+     3.8932702661847506e-25,
+     true
+    ]
+   },
+   {
+    "p": 2255,
+    "hor": "L_max",
+    "kind": "uniform",
+    "|h.h| planted": 0.7670339461600576,
+    "planted direction's chi2 (noisy targets)": 8.292601489493695,
+    "found (noisy)": 2.427662761319505,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     2.430478575253861,
+     true
+    ],
+    "found (noiseless)": 1.301051606078132e-06,
+    "stage A (noiseless), stage B ran": [
+     1.3144670079713966e-06,
+     true
+    ]
+   },
+   {
+    "p": 2356,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.8783730992767395,
+    "planted direction's chi2 (noisy targets)": 6.788890659394972,
+    "found (noisy)": 3.5654797179763045,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     3.680370548258116,
+     true
+    ],
+    "found (noiseless)": 3.494972885580248e-17,
+    "stage A (noiseless), stage B ran": [
+     0.571148340889274,
+     true
+    ]
+   },
+   {
+    "p": 2360,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.4658943205499692,
+    "planted direction's chi2 (noisy targets)": 7.546086775081129,
+    "found (noisy)": 5.187737630887371,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     5.857988475094817,
+     true
+    ],
+    "found (noiseless)": 0.01076236154084422,
+    "stage A (noiseless), stage B ran": [
+     0.1522170847523821,
+     true
+    ]
+   },
+   {
+    "p": 2126,
+    "hor": "L_2",
+    "kind": "uniform",
+    "|h.h| planted": 0.8852829079587784,
+    "planted direction's chi2 (noisy targets)": 22.083883446766045,
+    "found (noisy)": 16.679396410414732,
+    "met": true,
+    "stage A (noisy), stage B ran": [
+     16.679396411637928,
+     true
+    ],
+    "found (noiseless)": 1.1259124790740026e-25,
+    "stage A (noiseless), stage B ran": [
+     1.133266960241111e-25,
+     true
+    ]
+   }
+  ],
+  "met (the search's minimum at or below the planted direction's chi2)": 71,
+  "holds": true,
+  "the per-row miss rate on planted rows: exact two-sided 95% upper end": 0.07497131085391912,
+  "read-out: noiseless recovered to chi2 <= 0.1, <= 2.167": [
+   67,
+   69
+  ],
+  "read-out: the largest stage-A minimum on a planted row (noisy, noiseless); rows where stage B did not run": [
+   25.45011419871294,
+   17.203965989858986,
+   0
+  ],
+  "seconds": 447.3486981391907
+ }
+}
