@@ -4806,7 +4806,8 @@ def test_the_ladder_ruling_carried_and_w145_corrected():
     here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
     weave = (ROOT / "docs" / "THE_WEAVE.md").read_text(encoding="utf-8")
     assert "## The ladder's rule (adopted 2026-10-24): R1, every finite rung at once" in weave
-    assert "- the prime 5 is adopted by this rule, not derived: the record's forced structures use the primes 2 and 3" in weave
+    assert "- the end at 5 follows from the moves' orders 2 and 3 (W153, L3)" in weave        # B1752's correction
+    assert "main's first wording put the\n  adoption on the prime 5" in weave
     assert "Carried onto this branch 2026-10-24 verbatim from main's docs/THE_WEAVE.md at f3038f81b" in weave
     assert "**The ladder's rule (adopted 2026-10-24).** R1" in (ROOT / "WORKING_RULES.md").read_text(encoding="utf-8")
     web = (here / "the_ladder_web_seat_check_run.txt").read_text(encoding="utf-8").split("\n")
