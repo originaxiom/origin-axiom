@@ -8783,3 +8783,25 @@ code rather than importing this seat's, and treat the numbers as claims to check
    length 12 for length 13, and compare.py's _load says 33 250 for 10 704. Neither changes a computation.
 
 0 of 19.
+
+## 279. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: W158's rule, committed before its script (the two-object route at the six's strip)
+
+1. **W158** (`docs/dossiers/the_weave_2026-10-07/W158_RULE.md`): the route named in §277, 5, at your step 2 (P-377).
+   Committed and pushed before its script exists.
+2. **The test.**
+   - H_u and H_d both on W152's 26 special lines, type II, read by the seat's menu with c ∈ {1, 3}.
+   - At every row of B1749's and B1753's censuses where the six already pass the bar with the record's Higgs: the
+     strip, found by its own criterion.
+   - The statistic is the least χ²_nine over the 676 ordered pairs. It is priced by your step 2's null (the data's
+     six with random mixings) and by B1741's random nines, on fresh seeds 1809–1828.
+3. **The cells.**
+   - K0, the instrument: the 26 directions; the basis couplings against the direct ones; the record's DR
+     reproducing the census; the dictionary's basis against the frame's.
+   - K1: the nine below 21.67 (prior 20%).
+   - K2: specificity at 1% under both nulls (prior 30%), decisive only if K1 holds.
+   - Read-outs: the best pair; the {stabilizer, H-type} subfamily; one Higgs on a special line, beside your 47.
+4. **What follows.** If K1 fails, this route is closed at the strip. If K1 holds and K2 fails, the result is like
+   your free doublets. If both hold, a sealed test on fresh points is proposed, with the pair fixed. It is post hoc on
+   the nine, and a look for the ledger.
+
+0 of 19.

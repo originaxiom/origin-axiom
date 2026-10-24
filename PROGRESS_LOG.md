@@ -20940,3 +20940,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   rule describes the data's choice more than it makes one.
   0 of 19.
 
+## 2026-10-24 — a test of two special Higgs directions, planned before any code
+
+- **The idea:** the theory's Higgs direction has a natural dictionary in terms of a quantum bit. That dictionary
+  singles out 26 special directions. Perhaps the two Higgs fields the data seem to need sit on two of them.
+- **The plan, fixed before any computation:** try every pair of the 26 where the theory already matches the six mass
+  ratios, and check whether any pair also gets the quark mixing right. Then check whether random fake data would do
+  as well.
+  0 of 19.
+

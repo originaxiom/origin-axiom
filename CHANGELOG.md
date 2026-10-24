@@ -1,5 +1,13 @@
 # Changelog
 
+## W158's rule, committed before its script: the two-object route at the six's strip (relay §279)
+
+- **The route named in §277:** H_u and H_d both on W152's 26 special lines (the squares of the stabilizer and magic
+  states), with no continuous number, at main's step 2 (P-377).
+- **The cells:** the instrument (K0); the nine below the bar (K1); specificity against main's step-2 null and against
+  random nines (K2); read-outs of the best pair and of one Higgs on a special line.
+- **Surfaces.** The rule, the relay, the ledger row, the state page. No script exists. 0 of 19.
+
 ## W157's rule, committed before its script: the third opinion on main's B1753 (relay §278)
 
 - **At main's ask**, as W156 was for B1749: reproduce B1753 on own code and instrument, the fresh seeds, the freshness
