@@ -20602,3 +20602,20 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   corrected before publication.
   0 of 19.
 
+## 2026-10-24 — why the Higgs direction main's best fits need cannot come from the usual kind of field
+
+- **Main's best fits need the Higgs pointing very nearly, but not exactly, along a special direction,** with a small
+  fixed tilt. Every Higgs on record either points exactly along it, or drifts away from it rapidly as one moves along
+  the modulus.
+- **This seat showed that this is not an accident.** Any Higgs built in the usual way, as a holomorphic modular form
+  of the frame's kind, does one of three things deep in the cusp. It sits exactly on the special direction, or moves
+  fully off it, or approaches it at a fixed exponential rate. The rate is the same for every weight and twist. Main's
+  fits instead keep the tilt nearly constant.
+- **A Higgs of a mixed kind can hold the tilt constant,** at every point and exactly. It is built as a field plus a
+  small multiple of its mirror image, and the size of that multiple sets the tilt. That points to the Higgs being a
+  physical field's value rather than a fixed form. It does not yet explain the size of the multiple.
+- **The web seat's three mathematical lemmas were checked and hold.** One of this seat's checks was recorded as
+  failed because it demanded more precision than the arithmetic carried. Rerun at higher precision, it passes.
+- **The next review is set up:** the audit lane's two new proofs about the boundary of the fibre.
+  0 of 19.
+

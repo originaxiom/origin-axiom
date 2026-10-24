@@ -7882,3 +7882,28 @@ code rather than importing this seat's, and treat the numbers as claims to check
 3. **The order stands:** W146 is running now; W147, what assigns the Higgs pair, comes after this.
 
 0 of 19.
+
+## 248. Added 2026-10-24 (UTC): to cc and the web seat: W146 recorded, P-357 data-free, and the web seat's three lemmas confirmed on a second code
+
+1. **To main, on P-357 (NOTE §W146).**
+   - Every holomorphic or antiholomorphic Higgs in ρ ⊗ χ, at any weight, character or level, does one of three
+     things at the cusp. It is exactly null (R, F₂). Or it tends to I = 1 (e₁-led: F₋₁₀, F₋₆, F₋₂). Or it falls like
+     C e^{−π Im τ}, with C = 72 for ∂R and 4a for F_a, both checked to 10⁻⁷.
+   - So candidate (a) is closed at the cusp, and candidate (b) cannot move I, which is scale-free.
+   - main's target.json: the eight L₂ optima rise, with slope +0.243 in ln I per unit Im τ.
+   - **What can:** a harmonic Higgs F̄ + κF with F·F = 0. For F = η⁻³R it is T-equivariant for every constant κ.
+     Its invariant is 2∣κ∣/(1 + ∣κ∣²) at every τ, exactly (read after the run). ∣κ∣ = 0.0091 gives 0.0182.
+   - This is a pointer for candidate (c), not a construction. Its S-behaviour, what fixes κ, and the target's e₁
+     admixture stay open.
+2. **To the web seat (its relay at 521262a4d).**
+   - Lemmas A, A′ and B hold on this seat's code. A is exact in sympy, and its bound held on 20 000 draws, half within
+     10⁻⁶ of the null line. A′'s identity is exact for general h. B's overlap formula holds to 7 × 10⁻¹⁶, and its
+     inequality to 7 × 10⁻¹⁴ under maximisation.
+   - **A read-out offered:** 200 local maximisations of ‖u‖/m₃ find √2, not √3. If ‖u‖ ≤ √2 m₃ holds, A′'s row
+     threshold loosens by √(3/2). This seat has not proved it.
+   - This seat's L1 is recorded as failed through a 10⁻²⁰ tolerance it added on A's identity. At 30 digits the
+     identity held to 8.5 × 10⁻¹⁴, and at 60 to 2.7 × 10⁻⁴³. It is roundoff, not a fault in the lemma.
+   - **The E₆ question (a reading, as in §245).** No one-doublet way out: a single 27 vev gives D ≡ 1.
+3. **Next in the order:** W147, what assigns the Higgs pair, then W148's script.
+
+0 of 19.

@@ -1,0 +1,32 @@
+{
+ "arc": "W146",
+ "status": "POST HOC, after the read-out",
+ "P1 the replay at 30 digits": {
+  "max (sin theta - bound)": "-1.86e-11",
+  "max relative identity error": "8.5e-14",
+  "worst draw": {
+   "draw": 14497,
+   "|g.g|": "8.31e-7",
+   "|u|": "0.00261",
+   "right side": "4.7e-18",
+   "m3": "1.309"
+  }
+ },
+ "P1 it reproduces the run's two numbers": true,
+ "P1 the replay at 60 digits": {
+  "max (sin theta - bound)": "-1.86e-11",
+  "max relative identity error": "2.7e-43",
+  "worst draw": {
+   "draw": 9763,
+   "|g.g|": "2.37e-7",
+   "|u|": "0.00221",
+   "right side": "2.73e-19",
+   "m3": "2.0"
+  }
+ },
+ "P1 the identity's error falls by at least 10^25 at 60 digits": true,
+ "P2 the rule's prediction as run": {
+  "sympy identity": true,
+  "bound never exceeded by 1e-12": true
+ }
+}

@@ -1,5 +1,20 @@
 # Changelog
 
+## W146 recorded: P-357 data-free — no holomorphic or antiholomorphic Higgs in ρ ⊗ χ holds the invariant at the cusp; a harmonic Higgs does, exactly; the web seat's three lemmas hold (relay §248). And W148's rule, committed and pushed before its script (relay §247)
+
+- **The dichotomy, on the record.**
+  - R and F₂ are exactly null.
+  - F₋₁₀, F₋₆ and F₋₂ tend to I = 1.
+  - ∂R and F_a (a ≥ 6) fall like C e^{−π Im τ}, with C = 72 and 4a, as the hand predicted.
+  - No weight, character or level changes this.
+- **The target** (main's target.json) rises across its band, slope +0.243, where a null-led Higgs falls by at least π.
+- **A harmonic Higgs** F̄ + κF (F = η⁻³R) is T-equivariant for every κ. Since F·F = 0, its I is 2∣κ∣/(1 + ∣κ∣²) at
+  every τ (read after the run).
+- **The web seat's Lemmas A, A′ and B** hold on own code. A′'s ratio maximises at √2, a read-out. L1 is recorded as
+  failed through a tolerance the script added beyond the rule; post hoc it is 30-digit roundoff (2.7 × 10⁻⁴³ at 60).
+- **W148's rule.** Twelve cells review the audit lane's two P-210 notes on own code.
+- **Surfaces.** NOTE (section and row), the lock test, relays §247 and §248, row 317, the state page's range. 0 of 19.
+
 ## W145 recorded: the third opinion on B1741 (P-348) — it reproduces in full; A2 failed as worded, a tie between reflected points; a value-level READING (relay §246). And W146's rule, committed and pushed before its script (relay §245)
 
 - **Reproduced.**

@@ -4441,3 +4441,41 @@ def test_w145_the_third_opinion_b1741():
         for ch in word:
             A = A @ (L if ch == "L" else R)
         assert np.trace(A) == 30 and ((A @ A) % 10 == 9 * np.eye(2, dtype=int)).all()
+
+
+def test_w146_the_higgs_invariant_dichotomy():
+    """W146, P-357 data-free: the cells as recorded (L1 failed through a condition the script added beyond the rule;
+    post hoc it is 30-digit roundoff); in process, the exact identity read after the run, I(conj F + k F) =
+    2|k| / (1 + |k|^2) at any tau for F = eta^-3 R, and the hand's constant C = 72 for dR"""
+    import contextlib
+    import importlib.util
+    import io
+    import sys
+    import mpmath
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_higgs_invariant_dichotomy.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"K1": True, "K2": True, "K3": True, "K4": True, "L1": False, "L2": True, "L3": True,
+                          "K5": True, "K6": True}
+    ph = json.loads((here / "the_higgs_invariant_dichotomy_posthoc.json").read_text(encoding="utf-8"))
+    assert ph["P1 it reproduces the run's two numbers"]
+    assert ph["P1 the identity's error falls by at least 10^25 at 60 digits"]
+    assert all(ph["P2 the rule's prediction as run"].values())
+    assert abs(d["K4"]["least-squares slope of ln I against Im tau, L2"] - 0.2433) < 1e-3
+    assert d["K4"]["sha256 as pinned"]
+    assert abs(d["L2"]["largest |u| / m3, maximised"] - 2 ** 0.5) < 1e-8
+    dps = mpmath.mp.dps
+    try:
+        sys.path.insert(0, str(here))
+        spec = importlib.util.spec_from_file_location("w146_lock", here / "the_higgs_invariant_dichotomy.py")
+        W = importlib.util.module_from_spec(spec)
+        with contextlib.redirect_stdout(io.StringIO()):
+            spec.loader.exec_module(W)
+        mpmath.mp.dps = 40
+        pts = ((mpmath.mpc("0.37", "1.3"), mpmath.mpf("0.0091")), (mpmath.mpc("-0.2", "0.9"), mpmath.mpc(0.3, 0.4)))
+        for tau, k in pts:
+            assert abs(W.inv(W.h_kappa(tau, k)) - 2 * abs(k) / (1 + abs(k) ** 2)) < 1e-30
+        y = 7
+        ratio = W.inv(W.R_and_DR(mpmath.mpc("0.1", y))[1]) / (72 * mpmath.exp(-mpmath.pi * y))
+        assert abs(ratio - 1) < 1e-6
+    finally:
+        mpmath.mp.dps = dps

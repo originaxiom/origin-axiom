@@ -7726,6 +7726,106 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W146. P-357 data-free first (main's P-357 and the web seat's relay at 521262a4d, at the owner's "lets go for all systematically"): no holomorphic or antiholomorphic Higgs in the frame's representation holds the invariant I = ∣h·h∣/∣h∣² strictly between 0 and 1 at the cusp, at any weight, character or level. Every one is exactly null, tends to 1, or falls like C e^{−π Im τ}: C = 72 for main's ∂R and 4a for F_a. The nine's target rises slightly across its band (+0.24) instead. A harmonic Higgs F̄ + κF holds it, and since F·F = 0 its I is 2∣κ∣/(1 + ∣κ∣²) at every τ (read after the run). The web seat's Lemmas A, A′ and B hold on own code. L1 is recorded as failed through a condition the script added beyond the rule, diagnosed post hoc as 30-digit roundoff (`the_higgs_invariant_dichotomy.py`; `…_posthoc.py`; `W146_RULE.md`)
+
+**Why.**
+- Main's P-357. The nine's target (B1743) is a nearly null Higgs whose invariant I stays about 0.017–0.019 on every
+  good row. Every form on record that is not exactly null falls like e^{−π Im τ} instead (B1739). P-357 names three
+  candidates: (a) a weight or multiplier that leaves the null line at order one; (b) a normalisation; (c) a field's
+  vev.
+- The web seat (521262a4d) asked this seat for a third opinion on its Lemmas A, A′ and B, and whether this seat's E₆
+  language offers one doublet a way to carry the nine.
+
+**The order.**
+- The rule (`W146_RULE.md`) was drafted, then corrected twice before its first push, with no computation run. R and
+  F₂ are exactly null; K4's claim holds only where the leading term governs; antiholomorphic Higgses and cell K6 were
+  added. All of it is disclosed in the rule. It was pushed at fffdb4a47.
+- The script (c14519771) was committed before its one run (2 min 45 s). Before that commit it was only compiled; two
+  slips found by reading were fixed.
+- Its output (12f4862fe) was committed unread, then read once. The post hoc script (labelled) was committed before
+  its one run.
+
+**The result (COMPUTED; every cell as predicted except L1, recorded as failed through a condition beyond the rule).**
+- **K1, the classes, exact.**
+  - x² + y² + z² = l₁² + l₃l₇ and the norm identity (sympy). The dual basis puts h₀/√2 on l₃ and h̄₀/√2 on l₇. The
+    class arithmetic holds: 2·(1/8) ≡ 3/8 + 7/8 ≡ 1/4.
+  - On all twelve record forms the leading exponents of l₁, l₃ and l₇ lie in 1/8, 3/8 and 7/8 up to one common shift,
+    to 6.9 × 10⁻¹⁵. R's are (1/8, 3/8, −1/8). The non-null line e₁ leads exactly for F₋₁₀, F₋₆ and F₋₂.
+- **K2, the dichotomy on the record** (Re τ 0.25 and 0.4, Im τ 3–6).
+  - R and F₂ are exactly null: I ≤ 3.3 × 10⁻⁶¹ at 60 digits.
+  - The null-led forms' local slopes tend to 1: on the last interval 0.9999985 for ∂R and 1.0000000 for every F_a,
+    a ≥ 6.
+  - The hand's constants hold: I/(C e^{−π Im τ}) at Im τ 6 is 0.9999998 for ∂R with C = 72, and 1 to 10⁻¹⁰ for F_a
+    with C = 4a (24 to 104).
+  - The e₁-led forms' 1 − I falls monotonically, to 2.5 × 10⁻³⁵ (F₋₁₀), 2.3 × 10⁻²¹ (F₋₆) and 2.1 × 10⁻⁷ (F₋₂) at
+    Im τ 6.
+  - I(h̄) = I(h) exactly.
+- **K3, normalisation and the weight pencil.** R·∂R vanishes to 3.4 × 10⁻⁶¹ relative. For h_w = ∂R + (w/12)E₂*R,
+  h_w·h_w = ∂R·∂R to 1.3 × 10⁻⁵⁸ at 12 points and five w. I(fh) = I(h) to 3.4 × 10⁻⁶⁰ for four scalars f.
+- **K4, the target** (main's target.json at 2bd171386, sha256 as pinned). Eight of its ten optima lie on L₂: four
+  points, each listed twice, at Im τ 2.0–2.3 with I from 0.01722 to 0.01854. The least-squares slope of ln I against
+  Im τ is **+0.243** (by hand +0.25), against at most −π for a null-led Higgs. The largest I there is 0.0185. A
+  read-out: over all ten, with L_max's 0.01501 at Im τ 3.2, the slope is −0.145.
+- **K5, the read-out.** Every record direction and its conjugate is exactly null, tends to 0, or tends to 1. None is
+  of the harmonic kind.
+- **K6, a harmonic Higgs.** With F = η⁻³R, h_κ = F̄ + κF satisfies h_κ(τ + 1) = e^{−iπ/4}ρ(T)h_κ(τ) to
+  4.2 × 10⁻⁶¹, for κ ∈ {0.009, 0.1, 0.5i}. ρ(T) is diagonal on the lines with the classes' phases. At Im τ 6,
+  I(h_κ) = 2∣κ∣/(1 + ∣κ∣²) to 2 × 10⁻⁶⁰: 0.0179985, 0.198020 and 0.8.
+  - A read-out added with the script: at κ = 0.0091, I = 0.0181985 at Im τ 2.0, 2.1, 2.2 and 2.3.
+- **L1, Lemma A: recorded as failed as computed; the rule's prediction holds as run.**
+  - Y h = Yᵀh = (h·h)u, exactly (sympy).
+  - On 20 000 draws, half of them within 10⁻⁶ to 1 of the null line, the light left state's sin θ to ḡ never exceeds
+    ∣g·g∣‖u‖/m₂. The largest excess is −1.9 × 10⁻¹¹.
+  - The script also required Lemma A's identity Σ m_k²∣⟨ḡ, ℓ_k⟩∣² = ∣g·g∣²‖u‖² to 10⁻²⁰ relative. The rule did not
+    state it, and it held only to 8.5 × 10⁻¹⁴ at 30 digits.
+- **L2, Lemma A′.** The Frobenius identity holds exactly for general h (sympy). ‖u‖/m₃ ≤ √3 holds: the largest ratio
+  is 1.145 on 20 000 draws and **1.41421356237** in 200 local maximisations.
+- **L3, Lemma B.** The largest real overlap equals (1 + ∣x·x∣)/2 to 6.7 × 10⁻¹⁶ on 2 000 optimisations, so α(x) is
+  the distance to the real directions (to 1.4 × 10⁻¹⁴). ∣⟨x, y⟩∣ ≤ cos(α(x) − α(y)) on 20 000 pairs (largest
+  −1.6 × 10⁻⁴), and to 6.7 × 10⁻¹⁴ in 200 maximisations, where equality is approached.
+
+**The diagnosis of L1 (post hoc, labelled; `the_higgs_invariant_dichotomy_posthoc.py`, one run).**
+- The same 20 000 draws, replayed with the run's seed, reproduce the run's two numbers at 30 digits.
+- At 60 digits the identity's error falls to 2.7 × 10⁻⁴³. The worst draw had ∣g·g∣ = 8.3 × 10⁻⁷ and ‖u‖ = 0.0026,
+  so the right side was 4.7 × 10⁻¹⁸ against m₃ ≈ 1.3. That is 30-digit roundoff.
+- The bound and the sympy identity, the rule's own prediction, held as run. The added tolerance was this seat's,
+  chosen too tight.
+
+**Read after the run (labelled; by hand, no new computation).**
+- **K6's invariant is exact at every τ, not only at the cusp.** For any F with F·F = 0, h = F̄ + κF has
+  h·h = 2κ‖F‖², since conj(F·F) and κ²F·F vanish. Also ‖h‖² = (1 + ∣κ∣²)‖F‖², since the cross term
+  is κF·F = 0. So I(h) = 2∣κ∣/(1 + ∣κ∣²) identically. That is why the band read-out is flat to every digit printed.
+- **The constant 72 of ∂R equals F₁₈'s 4 · 18.** Their I agree at Im τ 6 (4.6889 × 10⁻⁷) but not at Im τ 3
+  (0.0057954 and 0.0058103). A coincidence of leading constants, not a proportionality.
+- **The maximisations' √2** suggests the sharper bound ‖u‖ ≤ √2 m₃. It is not proved here. It is offered to the web
+  seat, whose row threshold would loosen by √(3/2) if it holds.
+
+**What it shows (the rule's fixed meaning, with L1's failure).**
+1. **P-357's candidate (a) is closed at the cusp inside the frame's representation.** No weight, multiplier
+   character, twist or level gives a holomorphic or antiholomorphic Higgs whose invariant tends to a value strictly
+   between 0 and 1. Each is exactly null, tends to 1, or falls at least like e^{−π Im τ} once its leading term
+   governs.
+2. **Candidate (b) cannot move I,** which is scale-free. The weight pencil leaves h·h untouched.
+3. **The target does not behave as any such Higgs does once its leading term governs.** Its I rises slightly
+   (+0.24 per unit Im τ) where a null-led Higgs falls by at least π. A holomorphic Higgs can meet it across the band
+   only through a tuned coefficient ratio of order e^{π Im τ}.
+4. **What can is a Higgs that is neither holomorphic nor antiholomorphic.** One harmonic sum, F̄ + κF with F exactly
+   null, holds I at 2∣κ∣/(1 + ∣κ∣²) at every τ. ∣κ∣ = 0.0091 gives the target's 0.018. This is a pointer for
+   candidate (c), not a construction of the field. Its S-behaviour, what fixes κ, and the target's e₁ admixture
+   (about 0.3, against this sum's e^{−π Im τ/2} scale) stay open.
+5. **The web seat's Lemmas A, A′ and B are confirmed on a second code.** L1's recorded failure is this seat's added
+   tolerance, not the lemma.
+6. **The E₆ question (a READING, from this seat's record, no new cell).** E₆'s cubic has no conjugate doublet. A single
+   27 vev forces M_l = −(1⊗Jᵀ)M_qᵀ(1⊗J), so D ≡ 1 (W139, W137), which the data exclude. E₆ gives no one-doublet way
+   out. Its natural reading is two independent doublets, with the lepton–down split from beyond the 27.
+
+**Weave or thread.** WEAVE-type: the quantity is the moves' joint representation ρ on the Higgs, and the claims are
+about every holomorphic and antiholomorphic Higgs section at once. L1–L3 check another seat's lemmas, and K4 reads
+main's committed optima.
+
+**Status.** COMPUTED, data-free except K4's read-out. One run. Every cell as predicted except L1, recorded as failed
+through a condition this seat added beyond the rule; diagnosed post hoc as 30-digit roundoff. Not a trial. 0 of 19.
+
 ## W145. The third opinion on main's B1741 (main's P-348, at the owner's "start it"): B1741 reproduces in full. Main's compare.py re-runs to 4.9 × 10⁻¹³, a second calibration gives the same 60 per-seed fractions, the 121 class words give exactly the 75 apex points, and the six best rows reproduce on this seat's own instrument to 2.4 × 10⁻⁹. One cell failed as worded: A2 put the χ² minimum at FINDINGS' row, but main's code and this seat's both put it at its reflection, line 150 at Re τ 3.6, tied with line 153 at 3.4 to 2 × 10⁻¹¹. The match needs the 10% allowance (43.2 at 5%), and with the lepton factor over {1, …, 5} it is not specific (1.21%). A value-level READING, bankable as that and no more (`the_third_opinion_b1741.py`; `W145_RULE.md`)
 
 **Why.**
@@ -12333,6 +12433,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W146 | COMPUTED (the rule first, corrected twice before its push; one run; every cell as predicted except L1, recorded as failed through a condition the script added beyond the rule, diagnosed post hoc as 30-digit roundoff); WEAVE-type | P-357 data-free: every holomorphic or antiholomorphic Higgs in ρ ⊗ χ, at any weight, character or level, is exactly null (R, F₂), tends to I = 1 (e₁-led), or falls like C e^{−π Im τ} (C = 72 for ∂R, 4a for F_a, checked to 10⁻⁷). The target's I rises (+0.24) across its band instead. The weight pencil leaves h·h fixed, and I is scale-free. The harmonic F̄ + κF (F = η⁻³R) has I = 2∣κ∣/(1 + ∣κ∣²) at every τ, since F·F = 0. The web seat's Lemmas A, A′, B hold; the maximised ‖u‖/m₃ is √2. E₆ gives no one-doublet way out (a reading). Not a trial. 0 of 19 |
 | W145 | COMPUTED (the rule first; one run; every cell as predicted except A2, failed as worded and diagnosed post hoc as a tie between mirror points); a thread result | the third opinion on main's B1741 (P-348): compare.py re-runs to 4.9 × 10⁻¹³; a second calibration gives the same 60 per-seed fractions and minima to 3.4 × 10⁻¹³; the 121 class words give exactly the 75 apexes; the six best rows reproduce on the own instrument to 2.4 × 10⁻⁹. The minimum sits at line 150, Re τ 3.6, tied to 2 × 10⁻¹¹ with FINDINGS' line 153 at 3.4. B1724's law flips J. The match needs the 10% allowance (43.2 at 5%) and with c over {1, …, 5} is not specific (1.21%). A value-level READING, bankable as that and no more. 0 of 19 |
 | W144 | COMPUTED (the rule first; one run; seven of eleven cells held, four failed through this seat's instrument; all eleven hold post hoc) | the audit lane's five checkpoints (relay 17cdad33a) reviewed on own code, none of its code run: the joint root action and the corrected s⁴ = εJ_c⁻¹; the puncture expansion and connecting map with its kernel table (Λ = U gives (3, 3)); the transported principal parts, their root factors and Green form; projective regularity at exactly d = 0 or 6; the E₈ central kernel ℤ₆ with (−I₆, I₃, I₂) nontrivial. No error by the lane. The four failures were mpmath's principal nome root off −1 < Re τ ≤ 1, against CONVENTIONS §4 (the ratio exactly i^{−k}). Not a trial. 0 of 19 |
 | W143 | COMPUTED (the rule first; one run; every cell as predicted); WEAVE-type, as W133 | P-345 (a) on W133: both sign families of zero-free theta-power lines F_a = η^{3−a}(εθ₂^a, εθ₄^a, iθ₃^a), ε = i^{(a+2)/2}, on this seat's code. In each of W133's four spaces they are exactly the zero-free lines (1, 4, 3, 3), and the other sign never is. W133's open multiplicities closed: F₋₁₀ 8, F₁₄ 6, F₆ 4, F₋₂ 4, F₂₂ 1. The lines led at the cusp by the non-null eigenline are exactly F₋₁₀, F₋₆ and F₋₂, so GENESIS PF1-W admits exactly one in each three-generation space: F₋₆ (r = 12) and F₋₂ (r = 20, B1740's). F₋₆ is untested; a sibling test is proposed to main. No data, so not a trial. 0 of 19 |
