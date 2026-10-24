@@ -13722,10 +13722,11 @@
     "P2",
     "P3",
     "P4",
-    "S216"
+    "S216",
+    "S217"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 4,
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "topology"
   },
@@ -13841,6 +13842,21 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1749": {
+   "slug": "the six at fresh apexes",
+   "motifs": [
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "P1",
+    "P2"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B174": {
    "slug": "gluing map landscape",
    "motifs": [
@@ -13880,6 +13896,29 @@
    "obstacle": "units_scale",
    "obstacle_conf": 7,
    "status": "open",
+   "domain": "topology"
+  },
+  "B1750": {
+   "slug": "the observer retyped",
+   "motifs": [
+    "arrow",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B716",
+    "B717",
+    "B723",
+    "B758",
+    "B759",
+    "B762",
+    "B926"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 8,
+   "status": "banked",
    "domain": "topology"
   },
   "B175": {

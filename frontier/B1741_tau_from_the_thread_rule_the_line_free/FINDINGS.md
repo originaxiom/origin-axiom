@@ -76,6 +76,14 @@ and the frame's period 1 in b (1.4 × 10⁻¹¹) before the comparison ran.
   preregistration carries the same slip.
 - **The referee's verdict:** the sealed result stands as stated; "not PASSED under THE_BAR" is right.
 
+## Dated note (2026-10-24, S217; B1749, the replication on fresh apexes)
+
+- **Replicated in a narrower sense.** B1749 ran this arc's instrument and measure unchanged on 125 fresh apexes (words of
+  length 12) with fresh seeds: the six's specificity holds again (0.02% of random hierarchies as good; χ²_six 3.57). Main's
+  hostile referee showed the specific rows form one strip, Im τ 2.96–3.11, on the order-10 lines (2/5, b), which any ~100
+  points in the band find (P-350). So the specificity is the frame's, with c = 3 and the seat's reading; that the thread
+  rule *places* τ is not shown, and this FINDINGS' phrase "with τ placed by a rule" should be read so.
+
 ## Dated note (2026-10-24, S216; W145, the SM seat's third opinion, row 1356)
 
 - **The best six-row is a mirror pair.** The χ²_six minimum is a tie: line 150 = (2/5, 3/10) at Re τ 3.6 and line 153 =

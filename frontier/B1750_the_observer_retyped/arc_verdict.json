@@ -1,0 +1,36 @@
+{
+ "id": "B1750",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B717",
+  "B1183",
+  "B1184",
+  "B1168",
+  "B1225",
+  "B1327",
+  "B1656",
+  "B1667",
+  "B1724",
+  "B1736",
+  "B1741",
+  "B1744"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W145"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the foundation document and B1656's frame (the weave's four-channel coupling at B1667's canonical end)",
+  "object": "the record's observer line re-typed (the closer, the signer, the identifier); every frame ingredient typed; GENESIS v1.54 -> v1.55; WORKING_RULES' header annotated",
+  "reach": "general",
+  "hypotheses": "the record as of S217; the owner's ruling of 2026-10-24 (P-372)"
+ },
+ "claim_one_line": "THE OBSERVER, RE-TYPED (P-372; the owner's ruling 'yes pls'), AND GENESIS v1.55: the record's three senses of 'observer' separated -- the closer (B717: every closing) retired as an explanatory move, since each closing has a name in B1656's frame (the end L, tau and the line, the readings, the Higgs's direction; the arrow absent) and is a dynamical selection, a relation (B1327) or a counted free number; the signer kept (B1183, B1184; B1168) -- the observer supplies one unit and one orientation, conventions, and the frame inherits both: checked on main, the mirror tau -> -conj(tau), b -> -b maps every mass ratio and CKM modulus to itself (1.3e-12, 7.0e-12) and J to -J in all eight reading pairs at B1741's tie pair, while B1724's T-law keeps J; the identifier made the identification ledger (FK11). A table types every frame ingredient (forced 3; free continuous tau and the Higgs's direction; free discrete the end, the line, c, h0; identifications 4; conventions 3). W145's attribution of the J flip to B1724's law corrected: it is the mirror. 0 of 19.",
+ "weave_or_thread": "weave (the frame's ingredients)"
+}

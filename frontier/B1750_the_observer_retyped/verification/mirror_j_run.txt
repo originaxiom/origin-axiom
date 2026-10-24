@@ -1,0 +1,18 @@
+mirror pair (line 153 at 3.4, line 150 at 3.6): masses equal to 1.3e-12, CKM moduli to 7.0e-12
+   ckm|L_max|S|S      J -2.0407e-06  vs  +2.0407e-06   (sum 3.3e-16)
+   ckm|L_max|S|St     J -3.3068e-06  vs  +3.3068e-06   (sum -9.0e-18)
+   ckm|L_max|St|S     J +4.2617e-04  vs  -4.2617e-04   (sum -3.8e-14)
+   ckm|L_max|St|St    J -1.1033e-07  vs  +1.1033e-07   (sum 1.4e-17)
+   ckm|L_2|S|S        J +6.1801e-06  vs  -6.1801e-06   (sum -5.1e-16)
+   ckm|L_2|S|St       J -8.6615e-06  vs  +8.6615e-06   (sum 1.5e-15)
+   ckm|L_2|St|S       J +4.8095e-04  vs  -4.8095e-04   (sum -5.5e-14)
+   ckm|L_2|St|St      J -1.0300e-07  vs  +1.0300e-07   (sum 5.9e-18)
+T-law (0.4 vs 1.4, b -> b - alpha): masses equal to 2.5e-14, CKM moduli to 1.1e-13
+   ckm|L_max|S|S      J -2.0407e-06  vs  -2.0407e-06   (difference -1.2e-18)
+   ckm|L_max|S|St     J -3.3068e-06  vs  -3.3068e-06   (difference 3.0e-17)
+   ckm|L_max|St|S     J +4.2617e-04  vs  +4.2617e-04   (difference 3.8e-16)
+   ckm|L_max|St|St    J -1.1033e-07  vs  -1.1033e-07   (difference -6.0e-19)
+   ckm|L_2|S|S        J +6.1801e-06  vs  +6.1801e-06   (difference 6.8e-18)
+   ckm|L_2|S|St       J -8.6615e-06  vs  -8.6615e-06   (difference 2.1e-18)
+   ckm|L_2|St|S       J +4.8095e-04  vs  +4.8095e-04   (difference 1.3e-16)
+   ckm|L_2|St|St      J -1.0300e-07  vs  -1.0300e-07   (difference -5.3e-21)

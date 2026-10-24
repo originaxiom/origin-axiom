@@ -1,0 +1,11 @@
+rows (row x horocycle) below 16.75 under the seat's menu: 12 of 66500
+by order: [(10, 12)]
+by line: [(('2/5', '1/10'), 6), (('2/5', '1/2'), 6)]
+by horocycle: {'L_max': 12}
+by configuration ((up, down, lepton) readings, c): {((1, 0, 0), 3): 12}
+apex heights: 6 distinct, 2.961-3.119; the five lowest chi2:
+   chi2 3.57  line 151 ('2/5', '1/2')  tau 0.6667 + 3.0551i  L_max  ((1, 0, 0), 3)
+   chi2 3.57  line 149 ('2/5', '1/10')  tau 0.3333 + 3.0551i  L_max  ((1, 0, 0), 3)
+   chi2 3.62  line 149 ('2/5', '1/10')  tau 0.2692 + 3.0375i  L_max  ((1, 0, 0), 3)
+   chi2 3.62  line 151 ('2/5', '1/2')  tau 0.7308 + 3.0375i  L_max  ((1, 0, 0), 3)
+   chi2 5.92  line 151 ('2/5', '1/2')  tau 0.6053 + 3.0259i  L_max  ((1, 0, 0), 3)

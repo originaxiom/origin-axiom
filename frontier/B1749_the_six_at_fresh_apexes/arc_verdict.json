@@ -1,0 +1,30 @@
+{
+ "id": "B1749",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1741",
+  "B1726",
+  "B1720",
+  "B1735",
+  "B1724",
+  "B1748",
+  "B1656",
+  "B1667"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling at B1667's canonical end (both horocycles), the Higgs DR, the covariant readings, the lepton factor and B1726's menus -- B1741's instrument unchanged",
+  "object": "the six charged-fermion mass ratios at M_Z (and the CKM moduli), at value level (chi-square with B1637's 10% allowance) and their specificity against random hierarchies",
+  "reach": "class",
+  "hypotheses": "125 fresh apex points (thread words of length 12, apex height in [2.0, 3.6]) x 266 lines; B1741's generators; seeds 1769-1788, 4000 targets each; one decisive cell (P2) named in advance"
+ },
+ "claim_one_line": "THE SIX AT FRESH APEXES (B1741 replicated; sealed 32f29ad98, sha256 d95fc8a6; PROVED as sealed for its question -- P2, the one decisive cell, holds; P1, C1, C2 hold; outputs committed unread at 53ab50676 and 537662002): on 125 thread apexes nobody had computed, B1741's unchanged instrument reaches the six charged-fermion ratios at value level (chi2_six 3.57 < 16.75; best 0.3333 + 3.0551i on (2/5, 1/10), L_max, (S~, S, S), c = 3) and specifically (0.02% of random hierarchies as low; worst seed 0.08%); covariant 0.08%, factor free 0.24%; the nine fail (191.8); D 10.94 (3.3 sigma). Main's hostile referee: seal, instrument, freshness and calibration hold, robust to sigma, allowance, scale and window -- but the test does not test the thread rule: the specific rows form one strip Im tau 2.96-3.11 on the order-10 lines (2/5, b), which random 125-point sets find 99.7% of the time (P-350, not cited by the preregistration -- main's error, disclosed). The scope banked: B1741's six-ratio specificity replicates on fresh points (p ~ 2e-4) as a property of the frame's strip with c = 3 and the seat's reading, not as evidence that the thread rule selects tau; c = 3 essential (c = 1: 125.8); at the best six-row |V_ud| 0.115. A READING; the third opinion owed (the SM seat). 0 of 19.",
+ "weave_or_thread": "weave (a census over thread apexes and lines)"
+}

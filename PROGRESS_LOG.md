@@ -17911,3 +17911,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - **B1748.** With the Higgs exactly null at 98 fresh apexes × 266 lines, the heavy four reached on L_max (χ²_heavy 1.16) but not specifically (1.54% against the 1% bar). The seats harvested (rows 1356–1370: W145 closes P-348; W146 and W149 sharpen P-357 as P-366; the web seat's e9 verified on main; its asks answered, P-365; §255 and the owner's word, P-368); the literature verified (P-363); the split's second step pre-informed (P-364). FLOOR 368.
 - **Landing suite.** full suite 7 713 passed, 2 failed, 68 skipped (29:21, -n 8) on 37ae82b9e: the two failures are B805's attachment locks (P-239, standing).
+
+## 2026-10-24 — S217 THE SIX REPLICATED ON FRESH POINTS (B1749); THE OBSERVER RE-TYPED (B1750, GENESIS v1.55)
+
+- **B1749.** P2 holds (0.02%) on 125 fresh apexes; the referee narrows it to the frame's Im τ ≈ 3.0 strip (P-350, not cited at the seal — disclosed); the third opinion asked. **B1750.** The observer re-typed at the owner's ruling with the SM seat's reading folded in; the mirror maps J to −J (checked on main). THE WEAVE's breaking rule carried onto main. Harvest rows 1371–1382; P-369–P-375; FLOOR 375.
+- **Landing suite.** full suite 7 722 passed, 2 failed, 68 skipped (24:42, -n 8) on 7bc90db1e: the two failures are B805's attachment locks (P-239, standing). With the suite's two measurement refreshes (B1464's seal census, B1426's lane survey).

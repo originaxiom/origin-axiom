@@ -9,7 +9,9 @@
 > THE SPIN PAYMENT, hostile-verified two-bench). The **fork** (B1138) splits the observer's closing
 > into two mutually-exclusive real branches — E₆(−14) the charges, E₆(−26) the geometry + a graviton
 > slot (B1140 THE 64 ORGANIZED). Lane C (B1142) placed the object's cusp spectrum (ζ_K = ζ·L(χ₋₃),
-> GUE-generic). Structure is the object's, values the observer's; SP-2 (the fermion-capability of the
+> GUE-generic). Structure is the object's, values the observer's [superseded 2026-10-24, P-372, B1750: every
+> dimensionless value is the interaction's to produce; the observer supplies a unit and an orientation; every
+> identification is a counted input]; SP-2 (the fermion-capability of the
 > beat-selected spin structure) is the live frontier cell.
 
 
@@ -396,3 +398,8 @@ hand-picked, is defined by the joint action, and claims about all threads at onc
 covers is a thread result, labelled so in its verdict file (`weave_or_thread`), and never presented as the answer to a
 weave question. "The object" (m004), "the family" (a list) and "the root" (SE1/SE2's pick) are thread words.
 `docs/THE_WEAVE.md` holds the definition and the weave's facts so far (W1–W4, verified on main).
+
+**Spontaneous breaking (adopted 2026-10-24).** The owner: "i adopt it as per you recomendation, if you included the
+inishgts from two other seats". A state selected by minimizing the joint action's own effective action is a weave
+result even when it breaks the symmetry. The full text, with its conditions on the functional and its coefficients, is
+in `docs/THE_WEAVE.md`.

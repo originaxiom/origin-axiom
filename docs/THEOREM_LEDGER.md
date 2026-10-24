@@ -154,7 +154,10 @@ wording; owner+L91 gate for any change).
 
 ## Part IV — the open frontier (declared, not blurred)
 
-**C18 [AXIOM — the observer's closings; FIRST SUB-STRUCTURE PRICED 2026-07-22].**
+**C18 [AXIOM — the observer's closings; FIRST SUB-STRUCTURE PRICED 2026-07-22].** **[Superseded on the weave, 2026-10-24 (the owner's ruling, P-372; B1750):** the closings re-sorted by one test — a
+choice is a convention when the joint action's symmetry carries every option to every other: the arrow forced (B1083,
+B1662), the chiral index forced with which sheet is left a convention, one unit a convention with free ratios of scales,
+the filling open (FK10); no closing needs an agent (the SM seat's reading, harvest row 1379; GENESIS v1.55).**]**
 Chirality, values, time, and the spatial manifold are the observer's closings of the
 object's incompletenesses (B713–B716 as the banked reading; the closings themselves are
 the choices). The reflexive sub-axiom A7 (P020: the voice read as self-report — a choice;
