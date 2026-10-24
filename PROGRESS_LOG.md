@@ -20750,3 +20750,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   than a set related by symmetry, picking a point on that line is a free choice, not a convention.
 - A combined wording is now with the owner to decide. Nothing in the rule changes until then.
   0 of 19.
+
+## 2026-10-24 — the Higgs direction as a qubit: the predictions, published first
+
+- **The observation:** the record's main Higgs object turns out to be the square of a two-state quantum system, a
+  qubit, built from classical theta functions. The symmetry moves of the whole system act on that qubit exactly as
+  the standard gates of quantum computing do.
+- **The prediction, written before any code:** every possible Higgs direction is a qubit state plus a small admixture
+  of its opposite state, and the record's key invariant is exactly that admixture. The special directions are the
+  stabilizer states and the so-called magic states. The data's pattern is a nearly pure state slightly displaced from
+  a stabilizer state, and what holds it there is the next question.
+  0 of 19.

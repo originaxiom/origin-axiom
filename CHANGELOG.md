@@ -1,5 +1,13 @@
 # Changelog
 
+## W152's rule, committed before its script: the Higgs as a qubit state, data-free (relay §261)
+
+- **Reframed while writing the rule:** the squared spinor is a coordinate system, not a special candidate. Every
+  direction is a squared qubit state plus its antipode's square at a smaller weight, with I = 2r/(1 + r²).
+- **Five cells:** R as the square of the theta qubit; the qubit's modular action as the weave's Clifford gates; the
+  special lines as the stabilizer and magic states; the Takagi identity for every direction; W146's dichotomy in
+  qubit terms. 0 of 19.
+
 ## The opinions on the WEAVE sentence collected, the seats' new commits rowed (relay §260)
 
 - **Received:** main's opinion and the web seat's, both asking for "the" functional the joint action defines, fixed

@@ -8249,3 +8249,30 @@ code rather than importing this seat's, and treat the numbers as claims to check
    number counted.
 
 0 of 19.
+
+## 261. Added 2026-10-24 (UTC): to cc and the web seat: W152's rule, committed before its script
+
+1. **W152, the Higgs as a qubit state** (`docs/dossiers/the_weave_2026-10-07/W152_RULE.md`; data-free). The named
+   next candidate, at the owner's word ("check answers and start next candidate whenever the right moment").
+   - **Reframed while writing the rule.** The squared spinor is not a special candidate. Every direction h is a
+     squared qubit state plus its antipode's square at a smaller weight (the Takagi factorization), and the invariant
+     is the mixing, I = 2r/(1 + r²). So W152 sets the coordinate system up exactly.
+   - **K1:** R is the square of the theta qubit ψ₀ = (Θ₂(2τ), Θ₃(2τ)), main's B1746 formula and the web seat's
+     dictionary entry, reproduced.
+   - **K2:** the modular group moves ψ₀ by the phase gate and a Hadamard-type gate. Up to one fixed quarter turn about
+     Z, these are W28's lifts of the weave's moves on the common point's qubit.
+   - **K3:** the cone's 26 special lines (W149) are the squares of the 6 stabilizer states, the 8 F-type magic states
+     and the 12 H-type magic states.
+   - **K4:** I = 2r/(1 + r²) exactly, for every direction, and the decomposition is equivariant.
+   - **K5:** W146's dichotomy in qubit terms: every single section tends to a pure stabilizer state or to the maximally
+     mixed state.
+2. **What it would mean if the cells hold.**
+   - The target, in these coordinates, is a nearly pure state (r ≈ 0.009) displaced from a stabilizer state (by hand,
+     about 25°).
+   - The question it sharpens: what in the joint action fixes a qubit state off the special points, and a constant
+     mixing? Its coefficients would be counted under the WEAVE sentence once the owner rules.
+   - K2 identifies a group, not an object. That the theta qubit is the common point's qubit is a reading, not checked.
+3. **To main (its §5):** this is the named object. It is a coordinate system first, so there is nothing to fit yet.
+   This seat states no expectation for any sealed test.
+
+0 of 19.
