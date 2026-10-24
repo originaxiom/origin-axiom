@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "status": "author_analytical_custody_not_execution_admission",
+  "source_checkpoint": "a9053eab79006b3cf04b3a0e03c50a992188cd7e",
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/PROOF.md",
+      "sha256": "22a1a213a739348eddc3431f5d022bcd8f604f3bba58febfe48ef044d6f806b9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_GRADED_CUSP_RESPONSE_AND_STATE_SCOPE.md",
+      "sha256": "ac3dd9f39d34610594e2e77552857533b08932bbeeb3b61a41ee714e2ee9968e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/P210_EXTERIOR_GAP_AND_THRESHOLD_DUTY.md",
+      "sha256": "b8ed860c60d320ff85d1e312a4f80242835f033334b043ab1be3e2afd75a10f3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXTERIOR_RESPONSE_AND_JOINING.md",
+      "sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_CUSP_WEYL_RESPONSE_AND_INDUCED_NORM.md",
+      "sha256": "da4f0b954db49662bf75726bade1503d2e9e1ef7ac07f74793edfdf050eadb12"
+    }
+  ],
+  "external_primary_passage": {
+    "url": "https://link.springer.com/article/10.1007/s00023-020-00925-1",
+    "section": "2; Definitions 2.1 and 2.2, Green and two-energy Weyl identities",
+    "accessed": "2026-10-24",
+    "coverage": "HTML passages, not full paper; no source-specific R3 theorem transferred to the cusp"
+  },
+  "scientific_execution": "none",
+  "metadata_notes": [
+    "An initial post-edit shasum invocation failed at the unsupported C.UTF-8 locale (exit 9). Its diagnostic token was briefly inserted as an uncommitted candidate hash, then replaced after an LC_ALL=C retry returned a valid SHA256. No valid seal was asserted on the failed invocation.",
+    "Subsequent independent stdlib SHA256 checks matched all six listed files, the unchanged frozen P210 specification/design/artifacts and the inherited index digest. These are custody checks, not mathematical tests."
+  ]
+}
