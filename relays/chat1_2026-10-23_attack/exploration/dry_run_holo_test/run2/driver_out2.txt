@@ -1,0 +1,15 @@
+C0 written
+c0 3.3 s
+row chunk 1/1 (171 s)
+rows written (171 s)
+scan 170.8 s
+calibration written
+calib 67.8 s
+cells written
+cells 0.0 s
+{'rows': 40, 'degenerate rows': [], 'H1 some test row below 21.67': False, "H1' the same on the 264 lines other than (2/5, 0) and (2/5, 3/5)": False, "H2 some test row's optimum below both bars": False, "H2' the same on the 264 lines": False, "H3 main's generator: fewer than 1% at or below the data's statistic (at most 2 of 300)": True, "H3' lepton-tied: fewer than 1% (at most 9 of 1 000)": True, "H3'_BAR 3 x the lepton-tied exact 95% upper bound below 1%": False, 'H4 some row below both bars with D within 10.58 +- 0.33': False, "the calibration (hits, fraction, bound): main's generator, lepton-tied": [[0, 0.0, 0.2588655508930522], [0, 0.0, 0.13910834066826516]], "the data's calibration statistic and its row's chi2_six; below both bars?": [41.23830401373125, 0.8408226981759118, False], "H1's row: its rank by grid minimum among the test rows": 2, 'lowest chi2_nine; on the 264 lines': [24.87246198280696, 46.30748499094669], 'quantiles 1%, 5%, 50%': [30.045488126691748, 41.08322039217027, 263.6813040170606], 'rows below 21.67, 50, 100': [0, 5, 10], 'D at the rows below both bars': [], 'rows with chi2_nine above 1e7 (outputs identically zero on their line)': 0, 'lowest chi2_nine by order': {'N=5': 24.87246198280696, 'N=10': 178.17622451175794}, 'C3 mirror pairs agreeing within 1%': [40, 40], 'C3 pairs below 21.67 that disagree': 0, 'C3 holds': False}
+{"the data's statistic (its best test row by calibration-grid minimum, refined)": 41.23830401373125, "the data's row": {'p': 12, 'hor': 'L_2'}, "main's generator (300): hits at or below the data's, fraction, exact 95% upper bound": [0, 0.0, 0.2588655508930522], "lepton-tied (1 000): hits at or below the data's, fraction, exact 95% upper bound": [0, 0.0, 0.13910834066826516], 'THE_BAR: 3 x the lepton-tied upper bound': 0.4173250220047955, "grid level: the data's best calibration-grid minimum": 120.75711822509766, "grid level: fraction of main's generator, of lepton-tied at or below it": [0.0, 0.0], 'seconds': 67.7947850227356}
+
+real	4m11.859s
+user	7m55.053s
+sys	0m4.976s

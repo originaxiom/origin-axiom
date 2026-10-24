@@ -1,0 +1,58 @@
+{
+ "the data's statistic (its best test row by calibration-grid minimum, refined)": 41.23830401373125,
+ "the data's row": {
+  "p": 12,
+  "hor": "L_2"
+ },
+ "main's generator (300): hits at or below the data's, fraction, exact 95% upper bound": [
+  0,
+  0.0,
+  0.2588655508930522
+ ],
+ "lepton-tied (1 000): hits at or below the data's, fraction, exact 95% upper bound": [
+  0,
+  0.0,
+  0.13910834066826516
+ ],
+ "THE_BAR: 3 x the lepton-tied upper bound": 0.4173250220047955,
+ "statistics, main's generator": [
+  974.7540010611791,
+  833.4189889760698,
+  1481.880692561707,
+  1949.115281947985,
+  3150.0424082956556,
+  706.64900050298,
+  346.3259976574722,
+  1242.591587304154,
+  369.13836717851314,
+  946.8039912003246
+ ],
+ "statistics, lepton-tied": [
+  1144.8475030240104,
+  627.3156943893908,
+  544.4912300813709,
+  919.9563157878196,
+  401.2140692206246,
+  544.1268419263118,
+  367.69912733313527,
+  299.52484845559377,
+  286.52874291998154,
+  123.61293124537613,
+  582.4825318064765,
+  283.35989014991816,
+  266.6251765002038,
+  281.88749615694485,
+  1366.1214251027995,
+  164.49391274810307,
+  611.9221288020433,
+  555.876463745239,
+  2538.019011446703,
+  307.42037779137684
+ ],
+ "grid level: the data's best calibration-grid minimum": 120.75711822509766,
+ "grid level: fraction of main's generator, of lepton-tied at or below it": [
+  0.0,
+  0.0
+ ],
+ "seconds": 67.7947850227356
+}
