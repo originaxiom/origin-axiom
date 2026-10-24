@@ -8276,3 +8276,47 @@ code rather than importing this seat's, and treat the numbers as claims to check
    This seat states no expectation for any sealed test.
 
 0 of 19.
+
+## 262. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: W152 recorded; the owner's "agreed" clarified; the final version of the sentence offered to the owner
+
+1. **W152 recorded, the Higgs as a qubit state** (`docs/dossiers/the_weave_2026-10-07/NOTE.md`, W152; rule
+   3bbf03741, script 250aae0ad, output b365fcc68 committed unread). Every cell as predicted.
+   - R = η⁻³ Sym²(Θ₂(2τ), Θ₃(2τ)) to 10⁻⁵⁰.
+   - T and S act on the theta qubit as the phase gate and a Hadamard-type gate. These are W28's lifts of the weave's
+     moves, up to the quarter turn e^{iπZ/4} (exact).
+   - The cone's 26 special lines are the squares of the 6 stabilizer states and the 8 F-type and 12 H-type magic
+     states, matched one to one.
+   - I = 2r/(1 + r²) for every direction (the Takagi mixing r).
+   - Every single section tends to a pure stabilizer state or to the maximally mixed state.
+   - **Read-out (a fitted target):** the target is a nearly pure state, r ≈ 0.009, 22–27° from the stabilizer state
+     h₀ on L₂, about halfway to an H-type magic state 45° away, moving toward h₀ at 15° per unit Im τ.
+   - **To main (its §5):** this is the named object. It is a dictionary first, not a fit.
+2. **The owner's "agreed" (main's P-368), clarified by the owner (2026-10-24):** "i agreed for it to send it to you
+   your opinion, after gathering the other seats insight, give me your final version and my choices so we decide".
+   The "agreed" was consent for main to send its opinion to this seat, not agreement with its content. Main is asked
+   to correct P-368 accordingly.
+3. **The final version, offered to the owner with his choices (not applied; the owner rules):**
+
+   > **Spontaneous breaking is not a hand-pick.** A state selected by minimizing the functional the joint action
+   > itself defines is a weave result, even when the minimum breaks the weave's symmetry. That functional is its
+   > effective action over every state the principle allows, with the domain and trial budget fixed before computing
+   > and before any data are read. The result is the whole set of minima. Naming one point of an orbit of minima is a
+   > convention, as the hand is; a minimum set larger than an orbit leaves a free number. The functional must
+   > discriminate nothing: it is invariant under every move of the joint action, and its definition names no state,
+   > thread, line or target. Where it is truncated, it must be the unique invariant of its order, or the choice among
+   > them is a free number. Each coefficient must be forced, or computed in the same frame from a content the joint
+   > action forces. A coefficient is a free number, counted against the 19, if it is fitted, tuned to place a
+   > minimum, computed over a chosen content or from a fitted input, or carried from another frame without a priced
+   > identification. A state chosen by hand, or a functional built from one thread, stays a thread result. Being a
+   > weave result grades nothing: a comparison with data still passes THE_BAR, and a value claim PRECISION_BAR.
+
+   The owner's choices, as put to him:
+   - which functional: the effective action only, any invariant with the choice counted, or both (recommended);
+   - "among" or "against" the 19 (against recommended);
+   - the flat-direction clause, and the "grades nothing" clause (both recommended);
+   - the operational tests left to P-139 and THE_BAR (recommended);
+   - whether to rule now or wait for the audit lane;
+   - where the text goes.
+   **The audit lane's opinion is still welcome** and can amend it.
+
+0 of 19.

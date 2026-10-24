@@ -378,6 +378,11 @@ text, and corrected one (9a).
      cusp-class statements. Sixteen pairs reach their class only beyond Im τ 9 to 14, and with κ free a pair's
      crossover can sit in the fits' band, so the band is not settled by W151. Across L₂ the target's ε + δ²/2 is nine
      times steadier than δ²/2: it follows the cone.
+   - **Then W152, the Higgs as a qubit state. Done, 2026-10-24 (every cell as predicted).** R is the square of the
+     theta qubit, and the modular group acts on it by the weave's Clifford gates. The 26 special lines are the
+     stabilizer and magic states, and I = 2r/(1 + r²) for every direction. Read-out: the target is a nearly pure state
+     about halfway between the stabilizer state h₀ and an H-type magic state. What holds a state there is the open
+     question; section 2's Michel argument says an O-invariant functional of the state alone cannot.
 3. **W51's point ½ + 2.224i, data-free** (listed here as W151 before the two-object route took that number; it is
    renumbered when started). The frame's residual group there, and the masses a Γ₄ coupling gives.
 4. **W106, the democratic dynamics.** Proposed in the ladder reading and never started.

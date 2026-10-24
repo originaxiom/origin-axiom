@@ -7726,6 +7726,61 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W152. The Higgs as a qubit state (the owner's "check answers and start next candidate whenever the right moment"): R is the square of the theta qubit (Θ₂(2τ), Θ₃(2τ)); the modular group moves it by the phase gate and a Hadamard-type gate, the weave's lifts on the common point's qubit up to one quarter turn; the cone's 26 special lines are the squares of the 6 stabilizer and 20 magic states; every direction is a squared qubit plus its weighted antipode, with I = 2r/(1 + r²). Every cell as predicted (`the_higgs_as_a_qubit.py`; `W152_RULE.md`)
+
+**Why.** W151 named the squared spinor as the next candidate. While writing the rule, the hand work found that it is
+a coordinate system rather than a special candidate: the Takagi factorization makes every direction a squared qubit
+plus its antipode's square. The rule (`W152_RULE.md`, 3bbf03741) was committed and pushed before the script
+(250aae0ad). Three slips from this seat's own pre-run review were fixed before the script's commit. The output was
+committed unread (b365fcc68).
+
+**The result (COMPUTED; one run; every cell as predicted).**
+- **K1.** (l1, l3, l7)(R) = η⁻³(−εθ, ε², −θ²) with ε = Θ₂(2τ), θ = Θ₃(2τ), to 1.2 × 10⁻⁵⁰ at 20 random τ. This is
+  main's B1746 formula and the web seat's dictionary entry, reproduced.
+- **K2.**
+  - ψ₀(τ + 1) = diag(i, 1)ψ₀(τ) and ψ₀(−1/τ) = √(−iτ) g_S ψ₀(τ), with g_S = [[−1, 1], [1, 1]]/√2, to 5 × 10⁻⁵¹.
+  - The projective group of the two gates has 24 elements. Sym² of them equals ρ(T) and ρ(S) projectively, to
+    1.9 × 10⁻⁵¹.
+  - U = e^{iπZ/4} carries (g_T, g_S g_T⁻¹ g_S⁻¹) exactly to W28's (e^{iπZ/4}, e^{−iπY/4}), and
+    g_S g_T⁻¹ g_S⁻¹ ∝ e^{iπX/4} (sympy).
+- **K3.** The squares of the 6 stabilizer states, the 8 F-type and the 12 H-type magic states match W149's 26 lines one
+  to one, to 8 × 10⁻⁵², with stabilizer orders 4, 3 and 2 on both sides. (1, 0) goes to h₀.
+- **K4.** det S_h = −h·h and ‖S_h‖² = 2|h|² (sympy). On 2 000 random directions, I = 2r/(1 + r²) to 4 × 10⁻⁵¹. Under
+  all 24 elements r is unchanged and u₁ moves with the element, to 5 × 10⁻⁵¹, with none set aside.
+- **K5.** R, F₂ and their conjugates are pure (r below 2 × 10⁻⁵¹). The 14 other null-led objects have ln r falling at
+  −π, within 2.8 × 10⁻⁵ (∂R) and 3 × 10⁻⁹ (the F_a), and sit at their lead line's stabilizer state to 10⁻¹⁰ at
+  Im τ 8. The six e₁-led objects tend to the maximally mixed state, 1 − r between 2.8 × 10⁻⁵ (F₋₂) and 10⁻²⁴ at
+  Im τ 8.
+- **Read-outs (a fitted target; no test).**
+  - On B1743's L₂ rows the target's mixing is r = 0.0086 to 0.0093, with I from r matching the recorded I. Its
+    qubit state is 22.4° to 26.6° from the stabilizer state (1, 0), the h₀ direction, moving at −15° per unit Im τ.
+    On L_max (Im τ 3.2) it is r = 0.0075 at 16.8°.
+  - The nearest special state is an H-type magic state, at 21.0° to 22.5°, on the rows at Im τ 2.0 to 2.2. At 2.3
+    and 3.2 it is the stabilizer state.
+  - R at the same τ is 6° to 10° from its own stabilizer state (0, 1), and 1.5° at Im τ 3.2.
+
+**What it shows (a READING).**
+- **The record's Higgs direction has an exact qubit dictionary.**
+  - The cone is the set of pure states, and the invariant I is the mixing, I = 2r/(1 + r²).
+  - The modular group acts on the qubit by the Clifford gates. These are the weave's moves on the common point's
+    qubit, up to one fixed quarter turn.
+  - The cusp, i and ω are the stabilizer, H-type and F-type magic states: the special lines W149 found are the
+    special states quantum information singles out.
+  - "The squared spinor" is a coordinate system, not a candidate.
+- **W146's dichotomy, in qubit terms:** every single section tends to a pure stabilizer state or to the maximally
+  mixed state. None stays partly mixed off the special points.
+- **The target is a nearly pure state** (r ≈ 0.009) about halfway between the stabilizer state |0⟩ and an H-type
+  magic state, which lie 45° apart. As Im τ grows it moves toward |0⟩. This is a description of fitted values; the
+  midpoint is not claimed.
+- **The question it sharpens:** what in the joint action holds a qubit state off the special points, with a constant
+  mixing? An O-invariant functional of the state alone is extremal at the special orbits (Michel; the breaking chain,
+  section 2). So the displacement needs the τ-dependence or a second structure. Its coefficients count under the
+  WEAVE sentence once the owner rules.
+- **K2 identifies a group, not an object.** That the theta qubit is the common point's qubit is a reading, not checked.
+
+**Status.** COMPUTED (the rule first; one run; every cell as predicted). K2 and K3 are weave-type; K4 is exact for
+every direction; K5 is a census over the record's forms. A dictionary, not a derivation. 0 of 19.
+
 ## W151. The two-object route (the breaking chain's third computation; the owner's "yes i agree thank you, do them"): a constant-ratio pair of sections, h = A + κB. The pair lemma holds for every pair of holomorphic or antiholomorphic sections of ρ ⊗ χ, and on the catalogue no pair reaches the nine's target's class while 22 triples do. These are statements about the cusp classes. The direct evaluation at Im τ 6–8 failed on 16 pairs that reach their class only deeper (post hoc), so W151 does not settle the fits' band. Four cells as predicted; Q4 failed as worded (`the_two_object_route.py`; `W151_RULE.md`)
 
 **Why.** W149 closed single sections. The breaking chain's fork (section 5) left two objects open, and main's B1747
@@ -12760,6 +12815,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W152 | COMPUTED (the rule first; one run; every cell as predicted); K2 and K3 weave-type | the Higgs as a qubit state: R = η⁻³ Sym²(Θ₂(2τ), Θ₃(2τ)) to 10⁻⁵⁰; T and S act as the phase gate and a Hadamard-type gate, W28's lifts up to e^{iπZ/4}; the 26 special lines are the squares of the 6 stabilizer, 8 F-type and 12 H-type states; I = 2r/(1 + r²) for every direction; every single section tends to a pure stabilizer state or the maximally mixed one; the target (read-out) r ≈ 0.009, 22–27° from the stabilizer state, about halfway to an H-type magic state |
 | W151 | COMPUTED (the rule first; one run; four cells as predicted, Q4 failed as worded on its direct-evaluation clause, diagnosed and checked post hoc); the lemma weave-type | the two-object route: for any two holomorphic or antiholomorphic sections of ρ ⊗ χ and constant κ, 0 < D < ¼ implies E ≥ min(2D, ¼) (a cusp-class theorem); on the catalogue's 24 objects: 20 exact zeros, 20 pairs at (D, E) = (1/12, 1/6), 15 at E = 0 with D ≥ ¼, none in the target's box, 22 triples in it at (1/12, 0); 16 pairs reach their class only beyond Im τ 9–14 (post hoc), so the band (Im τ 2–3.6) is not settled; across L₂ the target's ε + δ²/2 is nine times steadier than δ²/2 |
 | W150 | COMPUTED (the rule first; one run; five cells as predicted, H6 failed as worded on a phrase flagged before the run); a mechanism census, not a weave result | the heavy-state holder (arXiv:2402.02071) on every singlet form of the joint family group: the minimum is the level curve m_Q(τ) = μ (exact), Re τ exactly flat along it; at μ = M̃ the 1′ forms of weight 10, 12, 14, 16 hold Im τ at 2.66, 3.94, 5.23, 6.55, none at weight 6 or for a level-1 form; the E₆-factor forms also hold a component next to i; the height is set by μ/M̃ (factor 8.1 across the band at weight 10, 4.5 at 12): one free ratio |
 | W149 | COMPUTED (the rule first; one run; every cell as predicted); WEAVE-type for C1, C3, C4 | the cone and the defect: 26 special lines of M's isotropic conic under O (6 ℤ₄, 8 ℤ₃, 12 ℤ₂), X(4)'s special points; R's line map X(4)'s equivariant map, local degree 1, tending to conj h₀; ρ(T) = diag(e^{2πi(1,3,7)/8}) in line coordinates, so every single holomorphic section of ρ ⊗ χ has |δ| ≤ C e^{−π Im τ/2} or grows (slopes −π/2 − kπ to 3 × 10⁻⁹ on the record's forms); the nine's target falls at 0.63 (read-out); the quartic census: four rigid classes, 392 of 392 |

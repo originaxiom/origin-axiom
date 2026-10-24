@@ -1,5 +1,18 @@
 # Changelog
 
+## W152 recorded: the Higgs as a qubit state; every cell as predicted (relay §262)
+
+- **The dictionary, exact:**
+  - R is the square of the theta qubit, and the modular group acts on it by the weave's Clifford gates;
+  - the 26 special lines are the stabilizer and magic states;
+  - I = 2r/(1 + r²) for every direction;
+  - every single section tends to a pure stabilizer state or the maximally mixed one.
+- **Read-out:** the target is a nearly pure state about halfway between a stabilizer state and an H-type magic state.
+- **The owner's "agreed" clarified** (main's P-368), and the final version of the sentence offered to the owner with
+  his choices, not applied.
+- **Surfaces.** NOTE (section and row), the breaking chain (section 11, dated), the test, the relay, the ledger row,
+  the state page. 0 of 19.
+
 ## W152's rule, committed before its script: the Higgs as a qubit state, data-free (relay §261)
 
 - **Reframed while writing the rule:** the squared spinor is a coordinate system, not a special candidate. Every

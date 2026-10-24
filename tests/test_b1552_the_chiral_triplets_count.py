@@ -4639,3 +4639,29 @@ def test_w151_the_two_object_route():
         F = [eta5 / t2 ** 2, eta5 / t4 ** 2, 1j * eta5 / t3 ** 2]
         dot = abs(sum(F[k] * dR[k] for k in range(3)))
         assert dot / mp.sqrt(sum(abs(x) ** 2 for x in F) * sum(abs(x) ** 2 for x in dR)) < mp.mpf(10) ** -30
+
+
+def test_w152_the_higgs_as_a_qubit():
+    """W152, the Higgs as a qubit state: every cell as recorded; in process, g_S g_T^-1 g_S^-1 proportional to
+    e^{i pi X/4}, Sym^2 (1, 0) on the h0 line, and I = 2r/(1 + r^2) for one direction"""
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_higgs_as_a_qubit.json").read_text(encoding="utf-8"))
+    assert all(d["cells"].values()) and d["K2"]["projective group order"] == 24
+    assert d["K3"]["W149's distinct lines"] == 26 and d["K3"]["states matched one to one"]
+    gT = np.diag([1j, 1])
+    gS = np.array([[-1, 1], [1, 1]]) / np.sqrt(2)
+    m = gS @ np.linalg.inv(gT) @ gS
+    eX = (np.eye(2) + 1j * np.array([[0, 1], [1, 0]])) / np.sqrt(2)
+    c = m[0, 0] / eX[0, 0]
+    assert np.allclose(m, c * eX)
+    a, b = 1, 0
+    l1, l3, l7 = -a * b, a * a, -b * b
+    xyz = np.array([l1, (l3 + l7) / 2, (l7 - l3) / 2j])
+    assert np.linalg.norm(np.cross(xyz, np.array([0, 1, 1j]))) < 1e-14
+    h = np.array([0.3 + 0.1j, -0.7 + 0.2j, 0.4 - 0.5j])
+    L = [h[0], h[1] - 1j * h[2], h[1] + 1j * h[2]]
+    S = np.array([[L[1], -L[0]], [-L[0], -L[2]]])
+    sv = np.linalg.svd(S, compute_uv=False)
+    r = sv[1] / sv[0]
+    assert abs(abs(h @ h) / np.vdot(h, h).real - 2 * r / (1 + r * r)) < 1e-12
