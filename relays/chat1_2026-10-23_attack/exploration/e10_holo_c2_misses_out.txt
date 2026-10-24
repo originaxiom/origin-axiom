@@ -1,0 +1,47 @@
+[
+ {
+  "C2 index": 4,
+  "kind": "near the conic",
+  "|h.h| planted": 0.0004757831380422094,
+  "FS distance to the nearest grid direction (rad)": 0.04638861259961339,
+  "exact targets: grid chi2 at that direction": 7897.551536291639,
+  "exact targets: grid minimum": 77.45542102375097,
+  "exact targets: refined from the planted direction": 0.0,
+  "exact targets: refined from its nearest grid direction": 1364.802240797722,
+  "exact targets: rank of the nearest grid direction among the grid": 44757,
+  "C2's found (noisy, exact)": [
+   58.55900692128237,
+   66.64358915632218
+  ]
+ },
+ {
+  "C2 index": 8,
+  "kind": "near the conic",
+  "|h.h| planted": 0.00025295201953877243,
+  "FS distance to the nearest grid direction (rad)": 0.023175664896764422,
+  "exact targets: grid chi2 at that direction": 8735.902599829797,
+  "exact targets: grid minimum": 7.727746291181367,
+  "exact targets: refined from the planted direction": 4.1698237948380895e-21,
+  "exact targets: refined from its nearest grid direction": 1.1617863777500309e-18,
+  "exact targets: rank of the nearest grid direction among the grid": 51161,
+  "C2's found (noisy, exact)": [
+   15.461252236365855,
+   0.4876132074283068
+  ]
+ },
+ {
+  "C2 index": 20,
+  "kind": "near n-bar",
+  "|h.h| planted": 0.062370348603788574,
+  "FS distance to the nearest grid direction (rad)": 0.08365007443077727,
+  "exact targets: grid chi2 at that direction": 436.75407888976093,
+  "exact targets: grid minimum": 24.78143691815245,
+  "exact targets: refined from the planted direction": 0.0,
+  "exact targets: refined from its nearest grid direction": 107.72790181589687,
+  "exact targets: rank of the nearest grid direction among the grid": 2806,
+  "C2's found (noisy, exact)": [
+   16.87068551514032,
+   22.042101522044593
+  ]
+ }
+]
