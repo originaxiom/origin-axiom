@@ -6,8 +6,9 @@ result.
 ## Why
 
 - **Main's P-357.** The nine's target (B1743, S204) is a nearly null Higgs whose invariant I = ∣h·h∣/∣h∣² stays about
-  0.017–0.020 on every good row, with an e₁ admixture about 0.3. Every form on record falls like e^{−π Im τ} instead
-  (B1739). An exactly null Higgs zeroes the first generation and V_us, so the invariant carries them.
+  0.017–0.020 on every good row, with an e₁ admixture about 0.3. Every form on record that is not exactly null falls
+  like e^{−π Im τ} instead (B1739). An exactly null Higgs zeroes the first generation and V_us, so the invariant
+  carries them.
 - **P-357's candidates, to examine data-free first:**
   - (a) a Higgs whose weight or multiplier leaves the cusp's null line at order one;
   - (b) a normalisation that fixes h·h;
@@ -29,8 +30,12 @@ result.
 - **A holomorphic Higgs in ρ ⊗ χ** is a vector-valued function with h(τ + 1) = λρ(T)h(τ) for a unimodular constant λ
   and holomorphic q-expansions. λ covers any weight's multiplier, any character χ (the twists ε_r, sgn, Γ₄'s ρ′ and
   ρ′ ⊗ sgn) and any level.
-- **The record's Higgs directions:** R; ∂R (main's census Higgs, from direct theta sums as W138's); and every member
-  F_a of W143's four spaces, a ∈ {−10, −6, −2, 2, 6, 10, 14, 18, 22, 26}.
+- **The record's Higgs directions:**
+  - R = (−θ₂², −θ₄², iθ₃²)/(θ₂θ₃θ₄), exactly null (R·R = 0 by Jacobi's θ₃⁴ = θ₂⁴ + θ₄⁴);
+  - ∂R = q dR/dq + E₂R/24, main's census Higgs, from direct theta sums as W138's;
+  - every member F_a of W143's four spaces, a ∈ {−10, −6, −2, 2, 6, 10, 14, 18, 22, 26}. F₂ = 2η⁴R is exactly null
+    too.
+- **Antiholomorphic Higgses** h̄, for h in ρ ⊗ χ, such as B1743's conjugated pencils. I(h̄) = I(h).
 - **The weight pencil** h_w = ∂R + (w/12)E₂*R, with E₂* = E₂ − 3/(π Im τ).
 - **The nine's target:** main's committed `target.json` (B1743, the ten optima with τ and I), read once by the
   script.
@@ -53,27 +58,33 @@ Higgs section at once, at every weight, character and twist.
 | cell | prediction | prior |
 | --- | --- | --- |
 | K1 | **The classes, exact (sympy).** x² + y² + z² = l₁² + l₃l₇ and ∣x∣² + ∣y∣² + ∣z∣² = ∣l₁∣² + (∣l₃∣² + ∣l₇∣²)/2. h₀ lies on l₃ and h̄₀ on l₇. The two terms of h·h share one class, since 2·(1/8) ≡ 3/8 + 7/8 ≡ 1/4 (mod 1), while 2·(3/8) ≡ 2·(7/8) ≡ 3/4. On the record's forms the leading exponents of l₁, l₃ and l₇ lie in these classes up to one common shift | 99% |
-| K2 | **The dichotomy, by hand and checked on the record.** For every holomorphic h in ρ ⊗ χ, either l₁ leads and I → 1, or a null line leads and I = C∣q∣^{1/2+n}(1 + o(1)) with n ≥ 0 an integer. So I ≤ C′e^{−π Im τ}, and no weight, character or level moves the rate. On every record direction, the local slope −d ln I/(π d Im τ) at Im τ 3–6 (Re τ 0.25 and 0.4) tends to an odd integer for the null-led (1 for R, ∂R and F_a with a > 0), and 1 − I → 0 for the e₁-led (F_a with a < 0) | 95% |
+| K2 | **The dichotomy, by hand and checked on the record.** For every holomorphic h in ρ ⊗ χ, exactly one of three holds at the cusp: h·h ≡ 0 and I ≡ 0; or l₁ leads and I → 1; or a null line leads and I = C∣q∣^{1/2+n}(1 + o(1)) with C > 0 and n ≥ 0 an integer. So in the third case I ≤ C′e^{−π Im τ} once the leading term governs, and no weight, character or level moves the rate. The same holds for every antiholomorphic h̄, since I(h̄) = I(h). On the record: R and F₂ are exactly null (I below 10⁻⁴⁰ at 60 digits, Im τ 3–6). At Re τ 0.25 and 0.4 and Im τ 3, 4, 5 and 6, the local slope −(ln I(y + 1) − ln I(y))/π tends to an odd integer for the null-led: 1, to 10⁻³ on the last interval, for ∂R and for F_a with a ≥ 6. By hand, C = 72 for ∂R and C = 4a for F_a, and I/(C∣q∣^{1/2}) lies within 10⁻³ of 1 at Im τ 6. For the e₁-led (F_a with a < 0), 1 − I decreases and lies below 10⁻³ at Im τ 6 | 90% |
 | K3 | **Normalisation and the weight pencil, exact.** I(fh) = I(h) for every nonzero scalar f (Petersson factors, powers of Im τ or ∣η∣). R·∂R = ½∂(R·R) = 0, so h_w·h_w = ∂R·∂R for every w. Checked at 12 points and w ∈ {−4, 0, 2, 4, 12} to 10⁻²⁰ relative | 99% |
-| K4 | **The target against the dichotomy** (a read-out of main's committed target.json). The log-slope of I across the L₂ optima, Im τ 2.0–2.3, lies between −1 and +1, against at most −π for any null-led holomorphic Higgs; by hand from B1743's table it is about +0.25. The value, about 0.018, is far below the e₁-led forms' I ≈ 1. So no holomorphic Higgs in ρ ⊗ χ follows the target across its band | 90% |
+| K4 | **The target against the dichotomy** (a read-out of main's committed target.json). The least-squares slope of ln I against Im τ across all of its L₂ optima (by B1743's table, Im τ 2.0–2.3) lies between −1 and +1; by hand from that table it is about +0.25. A null-led Higgs, holomorphic or antiholomorphic, tends to −π(1 + 2n) ≤ −π once its leading term governs. Every L₂ optimum's I lies below 0.1, far from the e₁-led forms' I → 1 | 90% |
 | L1 | **Lemma A on own code.** Y h = Yᵀh = (h·h)u exactly (sympy, generic symbols). On 20 000 random (w, u, h), the light left state's sin θ to ḡ never exceeds ∣g·g∣‖u‖/m₂ (by more than 10⁻¹²) | 99% |
 | L2 | **Lemma A′ on own code.** The Frobenius identity holds exactly (sympy, h of unit norm), and ‖u‖/m₃ ≤ √3 on 20 000 random draws and on 200 local maximisations from random starts. A read-out: the largest ratio found | 97% |
 | L3 | **Lemma B on own code.** On 2 000 random unit x, the maximal real overlap found by optimisation equals (1 + ∣x·x∣)/2 to 10⁻⁹, so α is the distance to the real directions. ∣⟨x, y⟩∣ ≤ cos(α(x) − α(y)) holds on 20 000 random pairs and 200 local maximisations, to 10⁻¹² | 97% |
-| K5 | **What can (exact condition, by hand).** A T-equivariant real-analytic h = Σ c q^m q̄^n has I → c ∈ (0, 1) at the cusp only if its least ∣q∣-order part has a null component and a second component of another class, with m − n carrying the class. That needs a factor q̄^n with n ≠ 0, so the Higgs is not holomorphic. A read-out, no prediction: none of the record's directions is of that kind | 95% |
+| K5 | **What can (exact condition, by hand).** A T-equivariant real-analytic h = Σ c q^m q̄^n has I → c ∈ (0, 1) at the cusp only if its least ∣q∣-order part has two components of different classes, at least one of them null, with m − n carrying the class. Two terms of equal m + n and different m − n cannot both be holomorphic (n = 0) or both antiholomorphic (m = 0). So the Higgs is neither: for example a sum f + ḡ of a holomorphic and an antiholomorphic form, which T allows because the complex conjugate of the matrix ρ(T) is ρ(T) times a phase (its eigenlines are e₁, h₀ and h̄₀, and conjugation swaps the last two with their eigenvalues shifted alike). A read-out, no prediction: none of the record's directions, nor their conjugates, is of that kind | 95% |
 
 ## What the outcomes mean (fixed now)
 
-- **K1 and K2 hold.** P-357's candidate (a) is closed inside the frame's representation. No weight, multiplier
-  character, twist or level gives a holomorphic Higgs whose invariant leaves the null cone at order one without going
-  all the way to I ≈ 1. Every null-led one falls at least like e^{−π Im τ}.
+- **K1 and K2 hold.** P-357's candidate (a) is closed at the cusp inside the frame's representation. No weight,
+  multiplier character, twist or level gives a holomorphic or antiholomorphic Higgs whose invariant tends to a value
+  strictly between 0 and 1. Every null-led one falls at least like e^{−π Im τ} once its leading term governs.
 - **K3 holds.** Candidate (b) as a normalisation cannot move I, which is scale-free. As a condition h·h = c(h, h̄) on
   the direction it is the same question as (a), and K2 closes it for holomorphic h. The weight pencil leaves h·h
   untouched.
-- **K4 holds.** The nine's target is incompatible with every holomorphic Higgs in ρ ⊗ χ across its band.
-- **K5 holds.** What remains is a Higgs that is not holomorphic in τ, or a representation other than the frame's.
-  Candidate (c), a field's vev, is one such. This is a pointer, not a construction.
-- **K2 fails** (a record direction with a non-odd limiting slope, or an e₁-led one with I not tending to 1): the
-  dichotomy's proof or the class bookkeeping is wrong. That is the finding, diagnosed first.
+- **K4 holds.** The nine's target does not behave as any holomorphic or antiholomorphic Higgs in ρ ⊗ χ does once its
+  leading term governs. Such a Higgs can meet the target across the band only if its leading and next terms are
+  comparable there: a coefficient ratio of order e^{π Im τ}, about 535 at Im τ 2. Candidate (a) is closed for every
+  Higgs whose leading term governs the band, and reduced, for the rest, to that tuning. The dichotomy is asymptotic and
+  does not by itself exclude a tuned combination at finite Im τ.
+- **K5 holds.** What remains is a Higgs that is neither holomorphic nor antiholomorphic in τ, such as a harmonic sum
+  f + ḡ, or a representation other than the frame's. Candidate (c), a field's vev, is one such. This is a pointer,
+  not a construction.
+- **K2 fails** (a record direction with a non-odd limiting slope, an e₁-led one with I not tending to 1, or a
+  constant C other than the hand's): the dichotomy's proof, the class bookkeeping or the hand's expansion is wrong.
+  That is the finding, diagnosed first.
 - **L1–L3 hold.** The web seat's three lemmas are confirmed on a second code. A failure is reported to it as found.
 - **The E₆ question (a READING, from this seat's record, no new cell).** In E₆ the up quarks couple through one
   doublet component of the 27 and the down quarks and leptons through another, in the holomorphic cubic (W139), which
@@ -99,9 +110,17 @@ Higgs section at once, at every weight, character and twist.
 - **By hand:**
   - the class arithmetic and the dichotomy's proof sketch;
   - F₆'s rate from B1739's printed values (0.045 at Im τ 2.0 and 0.0093 at 2.5, a ratio of 0.207 against e^{−π/2} =
-    0.208);
+    0.208), and 4a∣q∣^{1/2} = 0.0448 and 0.0093 there;
+  - ∂R's leading terms, l₁ ≈ −q^{1/8}/3, l₃ ≈ 5q^{3/8}/3 and l₇ ≈ q^{−1/8}/12, so C = 72;
   - the target's slope, about +0.25, from B1743's table;
   - h_w·h_w = ∂R·∂R.
+- **Corrected before the first push.** The draft commit decce7004 was never pushed. On reading it again, before any
+  script or computation:
+  - K2 had predicted slope 1 for R and F₂, which are exactly null;
+  - K4's conclusion had read the asymptotic dichotomy as holding across the band;
+  - the antiholomorphic case was missing, though B1743's nearest forms are conjugated;
+  - K5 now names the harmonic sum.
+  K2's constants C were added then, by hand, and its prior lowered to 90%.
 - **Not run:** no script exists.
 
 ## Discipline

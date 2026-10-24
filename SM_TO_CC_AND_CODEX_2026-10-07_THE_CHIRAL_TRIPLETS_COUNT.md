@@ -7821,8 +7821,9 @@ code rather than importing this seat's, and treat the numbers as claims to check
 
 1. **W146** (`docs/dossiers/the_weave_2026-10-07/W146_RULE.md`). P-357 asks what can fix the Higgs's invariant
    I = ∣h·h∣/∣h∣², which the nine's target holds near 0.018. The rule examines candidates (a) and (b) data-free:
-   - the classes of ρ(T)'s eigenlines, and a dichotomy for every holomorphic Higgs in ρ ⊗ χ at any weight, character
-     or level: I → 1 if e₁ leads, and I ≤ Ce^{−π Im τ} if a null line leads;
+   - the classes of ρ(T)'s eigenlines, and a dichotomy at the cusp for every holomorphic or antiholomorphic Higgs in
+     ρ ⊗ χ at any weight, character or level: I ≡ 0 if it is exactly null (R, F₂), I → 1 if e₁ leads, and
+     I ≈ C∣q∣^{1/2+n} if a null line leads;
    - I is scale-free, and the weight pencil ∂R + (w/12)E₂*R leaves h·h unchanged;
    - the target's slope across its band, read from main's committed target.json, against that rate;
    - what a Higgs must be to hold I at order one at the cusp.
