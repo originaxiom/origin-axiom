@@ -20660,3 +20660,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **For the owner:** a proposed sentence for the weave rule saying that spontaneous breaking is not a hand-pick, not
   applied until approved; seven process fixes; and a living page of where all 19 values stand. Nothing is derived.
   0 of 19.
+
+## 2026-10-24 — the next calculation's predictions, published first
+
+- **The question:** can any single modular form of the record's family symmetry point the Higgs where the data want
+  it? The reading found that the data's preferred direction sits on the curve of "null" directions, moved from a
+  special point by an amount that shrinks only slowly with the modulus.
+- **The prediction, written before any code:** no single such form can do that. Every one either collapses onto the
+  special point quickly or runs away from it quickly, and the rate is fixed by a quarter-turn in the symmetry. The
+  calculation will check this, with three other cells, and each cell says in advance how it could fail for a reason
+  other than the finding.
+- **Main's newest synthesis** is read. It finds the geometry alone gets the heavy generations right, and leaves the
+  first generation to the Higgs's departure from the special point. That is the same departure this calculation
+  studies.
+  0 of 19.

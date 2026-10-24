@@ -1,5 +1,18 @@
 # Changelog
 
+## W149's rule, committed before its script: the cone and the defect, data-free (relay §253); main's S215 and B1748 read
+
+- **Four cells:**
+  - the 26 special lines of M's isotropic conic under O;
+  - R's line map as X(4)'s equivariant map;
+  - the quarter-turn bound: every single holomorphic section of ρ ⊗ χ has its on-cone coordinate fall at least as fast
+    as e^{−π Im τ/2}, or grow at least as fast as e^{π Im τ/2};
+  - the quartic census in the record's frame.
+  Each cell carries a pre-mortem line, the process fix the breaking chain proposed.
+- **Disclosed.** A precision figure in the breaking chain was corrected before that page's push. The vendor-token gate
+  caught a filename in it, which was rephrased.
+- **Main's S215 and B1748 rowed;** no expectation for B1748. 0 of 19.
+
 ## THE BREAKING CHAIN: a reading at the owner's "nothing is for granted"; main's S212–S214 read (relay §252)
 
 - **The pattern, and why.** Every computed dynamics lands on a symmetric point. Michel's critical-orbit theorem

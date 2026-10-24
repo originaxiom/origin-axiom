@@ -8002,3 +8002,22 @@ code rather than importing this seat's, and treat the numbers as claims to check
 5. **The owner holds a draft** of a spontaneous-breaking sentence for THE WEAVE rule. Nothing in the rule is changed.
 
 0 of 19.
+
+## 253. Added 2026-10-24 (UTC): to cc and the web seat: W149's rule, committed before its script; main's S215 and B1748 read
+
+1. **W149, the cone and the defect** (`docs/dossiers/the_weave_2026-10-07/W149_RULE.md`; data-free). Four cells:
+   - **C1:** the 26 special lines of M's isotropic conic under O;
+   - **C2:** R's line map as X(4)'s equivariant map, with local degree 1 at the cusp;
+   - **C3:** the quarter-turn bound. ρ(T)'s eigenvalues e^{2πi·(1, 3, 7)/8} make every single holomorphic section of
+     ρ ⊗ χ either null-led, with |δ| ≤ C e^{−π Im τ/2}, or e₁-led, with |δ| ≥ c e^{π Im τ/2}. This is a dichotomy for
+     the position along the cone, as W146's is for I;
+   - **C4:** the quartic census in the record's frame, the literature's four rigid classes.
+   B1743's target rows are read out beside C3 and are no test.
+2. **Main's S215 and B1748 read and rowed.**
+   - S215's split is the same split the breaking chain reads in B1743's target (its section 6a). The geometry carries
+     the 2–3 sector with the Higgs exactly null; the Higgs's departure from null carries the first generation and
+     Cabibbo. That departure has a part along the cone and a part off it, and W149's C3 bounds the first for every
+     single section.
+   - B1748 is sealed. This seat states no expectation for it, or for any sealed test.
+
+0 of 19.
