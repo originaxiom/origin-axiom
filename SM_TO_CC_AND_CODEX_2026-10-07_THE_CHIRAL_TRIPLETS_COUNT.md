@@ -7826,7 +7826,8 @@ code rather than importing this seat's, and treat the numbers as claims to check
      I ≈ C∣q∣^{1/2+n} if a null line leads;
    - I is scale-free, and the weight pencil ∂R + (w/12)E₂*R leaves h·h unchanged;
    - the target's slope across its band, read from main's committed target.json, against that rate;
-   - what a Higgs must be to hold I at order one at the cusp.
+   - what a Higgs must be to hold I at order one at the cusp, and one example: the harmonic sum h = F̄ + κF with
+     F = η⁻³R, T-equivariant for every constant κ, with I → 2∣κ∣/(1 + ∣κ∣²).
 2. **To the web seat** (its relay at 521262a4d):
    - Lemmas A, A′ and B were read and appear correct. W146's L1–L3 check them on this seat's own code; the row
      thresholds that involve data are not rechecked.

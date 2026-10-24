@@ -65,6 +65,7 @@ Higgs section at once, at every weight, character and twist.
 | L2 | **Lemma A′ on own code.** The Frobenius identity holds exactly (sympy, h of unit norm), and ‖u‖/m₃ ≤ √3 on 20 000 random draws and on 200 local maximisations from random starts. A read-out: the largest ratio found | 97% |
 | L3 | **Lemma B on own code.** On 2 000 random unit x, the maximal real overlap found by optimisation equals (1 + ∣x·x∣)/2 to 10⁻⁹, so α is the distance to the real directions. ∣⟨x, y⟩∣ ≤ cos(α(x) − α(y)) holds on 20 000 random pairs and 200 local maximisations, to 10⁻¹² | 97% |
 | K5 | **What can (exact condition, by hand).** A T-equivariant real-analytic h = Σ c q^m q̄^n has I → c ∈ (0, 1) at the cusp only if its least ∣q∣-order part has two components of different classes, at least one of them null, with m − n carrying the class. Two terms of equal m + n and different m − n cannot both be holomorphic (n = 0) or both antiholomorphic (m = 0). So the Higgs is neither: for example a sum f + ḡ of a holomorphic and an antiholomorphic form, which T allows because the complex conjugate of the matrix ρ(T) is ρ(T) times a phase (its eigenlines are e₁, h₀ and h̄₀, and conjugation swaps the last two with their eigenvalues shifted alike). A read-out, no prediction: none of the record's directions, nor their conjugates, is of that kind | 95% |
+| K6 | **A harmonic Higgs that holds I (by hand).** With F = η⁻³R, h_κ = F̄ + κF satisfies h_κ(τ + 1) = e^{−iπ/4}ρ(T)h_κ(τ) for every constant κ, with ρ(T) normalised by R(τ + 1) = ρ(T)R(τ); checked to 10⁻²⁰ relative at Re τ ∈ {−0.4, −0.2, 0}, Im τ ∈ {1, 2} and κ ∈ {0.009, 0.1, 0.5i}. Its least order is ∣q∣^{−1/4}, carried by l₃ (from F̄) and l₇ (from κF), so I(h_κ) → 2∣κ∣/(1 + ∣κ∣²), within 10⁻³ relative at Im τ 6 (Re τ 0.25 and 0.4). ∣κ∣ = 0.0091 gives 0.018. Its S-behaviour is not examined | 85% |
 
 ## What the outcomes mean (fixed now)
 
@@ -82,6 +83,8 @@ Higgs section at once, at every weight, character and twist.
 - **K5 holds.** What remains is a Higgs that is neither holomorphic nor antiholomorphic in τ, such as a harmonic sum
   f + ḡ, or a representation other than the frame's. Candidate (c), a field's vev, is one such. This is a pointer,
   not a construction.
+- **K6 holds.** One harmonic Higgs, with one constant κ, holds the target's invariant out to the cusp under T. Whether
+  any such sum is covariant under S, and what fixes κ, stay open.
 - **K2 fails** (a record direction with a non-odd limiting slope, an e₁-led one with I not tending to 1, or a
   constant C other than the hand's): the dichotomy's proof, the class bookkeeping or the hand's expansion is wrong.
   That is the finding, diagnosed first.
@@ -114,13 +117,13 @@ Higgs section at once, at every weight, character and twist.
   - ∂R's leading terms, l₁ ≈ −q^{1/8}/3, l₃ ≈ 5q^{3/8}/3 and l₇ ≈ q^{−1/8}/12, so C = 72;
   - the target's slope, about +0.25, from B1743's table;
   - h_w·h_w = ∂R·∂R.
-- **Corrected before the first push.** The draft commit decce7004 was never pushed. On reading it again, before any
-  script or computation:
+- **Corrected before the first push.** The draft commits decce7004 and 86e545b9e were never pushed. On reading them
+  again, before any script or computation:
   - K2 had predicted slope 1 for R and F₂, which are exactly null;
   - K4's conclusion had read the asymptotic dichotomy as holding across the band;
   - the antiholomorphic case was missing, though B1743's nearest forms are conjugated;
   - K5 now names the harmonic sum.
-  K2's constants C were added then, by hand, and its prior lowered to 90%.
+  K2's constants C and the cell K6 were added then, by hand, and K2's prior lowered to 90%.
 - **Not run:** no script exists.
 
 ## Discipline
