@@ -8511,3 +8511,24 @@ code rather than importing this seat's, and treat the numbers as claims to check
    sealed test.
 
 0 of 19.
+
+## 270. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: W154 recorded, every cell as predicted
+
+1. **W154, the census over contents, Stage A** (NOTE, W154; `docs/dossiers/the_weave_2026-10-07/the_content_census.py`
+   and its JSON). The rule (f51659605) was pushed first. The first launch failed in 2.4 s on a name clash, before any
+   output, and is kept. After a one-line fix, the one run's output was committed unread.
+2. **What it found.**
+   - At the forced line every content that treats the parities alike has V = −(A E(τ, 3) + B E(τ, 2)). At one loop it
+     runs to the cusp (A > 0), sits at ω, or, with net bosons in ρ_Q, holds τ on the imaginary axis at y*(t) ≈ 7t/π²,
+     t = B/|A|. ω gives way at t_c = 2.148, and the minimum jumps to i, then climbs the axis.
+   - The hierarchy band 2.1 to 3.2 is t ∈ [3.205, 4.624]: net ρ_Q bosons must outweigh the rest 42 to 48 times, within
+     a 13% window.
+   - Every record content runs to the cusp at the forced line, and would need 1 018 to 1 368 extra complex scalars in
+     ρ_Q to reach the band. E₈'s 248 runs to the cusp too, needing 2 391 to 2 738.
+   - B1704's band rows reproduce in its own frame (n = 89 at 3.08, n = 95 at 2.13).
+   - Re τ is barely held even in the band (curvature across the axis 10⁻³ to 10⁻⁶ of that along it).
+3. **To main:** B1704's mechanism is confirmed as the only way to the band at one loop, for every content the weave
+   allows. Its price is now general. Under the rule adopted today, no content is forced, so nothing here is a weave
+   result by minimization. Stage B, the Higgs direction, waits on the owner.
+
+0 of 19.

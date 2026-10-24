@@ -132,6 +132,12 @@ dictionary datum, a reading or a hand choice), **FREE** (a free number), **OPEN*
 **This seat's recommendation: 1.** It is the only one that needs no new input, it answers "what would the target cost",
 and its negative, if it comes, is clean.
 
+**Option 1, Stage A, done, 2026-10-24 (dated note; NOTE, W154).** At the owner's "GO!!!". At the forced line every
+content that treats the parities alike has V = −(A E(τ, 3) + B E(τ, 2)). So at one loop it runs to the cusp, sits at ω
+or i, or holds τ on the imaginary axis at y*(t) ≈ 7t/π², with t = B/|A|. The band needs net bosons in ρ_Q outweighing
+the rest 42 to 48 times, within a 13% window. Every content on record, and E₈'s 248 (option 2), runs to the cusp.
+Stage B, the Higgs direction, waits on the owner.
+
 ## 5. Discrepancies found while sweeping
 
 Corrected on this branch, with dated notes, in the commit that carries this page:

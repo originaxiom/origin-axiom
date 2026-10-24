@@ -7726,6 +7726,85 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W154. The census over contents, Stage A (the owner's "GO!!!" on the effective action's ledger's step 2): at the forced line every content that treats the three parities alike has V = −(A E(τ, 3) + B E(τ, 2)), so at one loop every such content runs to the cusp, sits at ω or i, or holds τ on the imaginary axis at y*(t) ≈ 7t/π², t = B/|A|. The hierarchy band needs net bosons in the matter's representation outweighing the rest 42 to 48 times, within a 13% window. Every content on record, and E₈'s 248, runs to the cusp. Every cell as predicted (`the_content_census.py`; `W154_RULE.md`)
+
+**Why.** The ledger found the loop's content (GENESIS FK11) to be the one unearned item between the record and a weave
+result by minimization, and recommended a census over contents. Main's B1704 had searched one-parameter families on
+two lines. Writing the rule found that the census can be complete: the weave distinguishes no parity and forces the
+trivial line (W140), where the Higgs's copies sit on the parity characteristics, so W59's identity reduces every
+admissible content to two functions.
+
+**The order.**
+- The rule (`W154_RULE.md`, f51659605) was committed and pushed before the script existed. The rows' A and B and the
+  asymptotic t(y) were worked by hand before it, as it discloses.
+- The script (72844e358) was committed before its first launch. Before that commit it was only compiled. Reading it
+  over found that Re τ is not numerically resolvable above Im τ of about 4, where V's dependence on it is exponentially
+  small. So the planned refinement in Re τ was replaced by the grid's height against the axis minimum, plus V(x) − V(0)
+  computed from the Fourier parts alone.
+- **The first launch failed** after 2.4 s in C1, before anything was printed or written. The cell functions C2() and
+  C3() shadowed the module constants C2 and C3 of the asymptotic formula. The traceback is kept
+  (`the_content_census_run_failed_launch_1.txt`, its paths made repo-relative for the path gate).
+- The fix renamed the constants and was committed (66a59ab66) before the second launch, the one run (8.5 s). Its
+  output (d373ebb4f) was committed unread, then read once.
+
+**The result (COMPUTED; one run; every cell as predicted).**
+- **C0, the reduction.**
+  - The parity sum equals −(15/16) E(τ, 3) to 6.6 × 10⁻¹⁰ with main's lattice cut M = 60. That is above the rule's
+    10⁻¹⁰, so the run took the rerun the rule's pre-mortem names, M = 120: 2.1 × 10⁻¹¹. The cell passed on the rerun.
+  - Contents sector by sector equal A E₃ + B E₂ to 1.4 × 10⁻¹¹ of their gross size. The cusp coefficient 2A of the
+    matter alone is 5.449, B1686's value. The vectorized E matches main's E_cs to 2.1 × 10⁻¹⁶.
+- **C1, the regimes on the whole fundamental domain.**
+  - A > 0 runs to the cusp for every B tried (B/A from −5 to 5).
+  - A = 0 runs for B > 0, and sits at ω for B < 0. A < 0 with B ≤ 0 sits at ω.
+  - A < 0 with B > 0: for every t from 3.2 to 16 the global minimum is on the imaginary axis, below V(i) and V(ω), and
+    y*(t) increases. The asymptotic t(y) holds to 7 × 10⁻⁵ in y at t = 3.2 and better above. y*π²/(7t) is 0.9953,
+    0.9986 and 0.9994 at t = 8, 12 and 16.
+- **C2, the band's price.** The band 2.1 ≤ y* ≤ 3.2 is t ∈ [3.2048, 4.6242]. So a content holds τ in the band exactly
+  when w_ρ > 0 and (w₀ − (15/16) w_p)/((31/1024) w_ρ) ∈ [0.6880, 0.7837]. The ρ_Q bosons outweigh the rest 42.1 to
+  48.0 times, and the window's relative width is 13.0%. The integer content (22, 0, 1000) has t = 3.659 and holds τ at
+  y* = 2.466.
+- **C3, the rows** (A, then the extra complex scalars in ρ_Q that would reach the band):
+  - the matter alone, 2.725, none; with the Higgs's copies, 0.850, none (w₀ − (15/16) w_p < 0);
+  - with the gauge fields, 48.85, 1 018 to 1 152; with the graviton, 57.85, 1 207 to 1 368;
+  - E₈'s 248 as six-dimensional vectors, 111.97, 2 391 to 2 738; with the alternative ρ_Q unit, 105.19, 2 279 to
+    2 626.
+  - Every row runs to the cusp.
+- **C4, the control.** B1704's content (a) at the line (½, ½) plus n complex scalars in ρ_Q has its axis minimum at
+  y = 3.08 for n = 89 and 2.13 for n = 95, as B1704 found.
+- **R, read-outs.**
+  - ω's Hessian is isotropic (16.565 for E₃, 7.711 for E₂), so ω stops being a minimum at t_c = 2.148.
+  - The global minimum sits at ω up to t = 2.1, is at i by t = 2.2, and then climbs the imaginary axis: y = 1.13 at
+    t = 2.3, 1.44 at 2.5, 1.93 at 3.0, 2.10 at 3.2. So it jumps from ω to i between t = 2.1 and 2.2.
+  - **A slip in the read-out:** R's "path" stored (y, V) instead of (x, y). The positions above are read from C1's
+    grid entries, which carry x.
+  - Re τ is barely held in the band. Across the axis d²V/dx² is 4.3 × 10⁻³ at y = 2.1 and 8.8 × 10⁻⁶ at y = 3.2 (in
+    units of |A|), against 9.9 and 18.1 along it, as B1704 found.
+  - PH2's 1%: at t = 3.7, y* = 2.498, moving to 2.469 and 2.527 when B changes by −1% and +1%.
+  - A content in which every boson has a fermion partner in its sector has A = B = 0, and V vanishes identically.
+
+**What it shows (a READING on the computed facts).**
+- **At one loop the whole content question is one curve.** Every content the weave allows, at the forced line, runs
+  to the cusp, sits at ω or i, or holds τ on the imaginary axis at y*(t) ≈ 7t/π². No other τ is possible in this frame,
+  and that holds for every admissible content at once.
+- **The band has a price, and it is steep.** It needs a content dominated 42 to 48 times over by net bosons in the
+  matter's representation, with the rest tuned to a 13% window. The record's own contents would need 1 000 to 1 400
+  extra such scalars.
+- **E₈'s own content holds nothing at one loop.** It runs to the cusp, so the ledger's option 2 gives no holding
+  whichever way the owner rules on the ladder.
+- **Even a band content leaves Re τ almost free.** Its curvature across the axis is 10⁻³ to 10⁻⁶ of its curvature
+  along it.
+- **Under the rule adopted today nothing here is a weave result by minimization.** No content is forced, and any
+  content chosen for the band makes its weights free numbers, counted against the 19. The census is the price list.
+- **What Stage B must beat.** A Higgs direction h that enters the masses can only matter if it breaks this one-curve
+  structure. Otherwise the band stays a tuned, boson-dominated content.
+
+**Weave or thread.** C0 to C3 are WEAVE-type: every S₃-invariant content at the forced line, the whole domain, and a
+claim about all contents at once. C4 is an instrument control on B1704's frame.
+
+**Status.** COMPUTED (the rule first; one run, after a failed launch disclosed; every cell as predicted, C0's parity
+identity meeting 10⁻¹⁰ at the rerun the rule named, M = 120, not at M = 60). Data-free; the band is a stated window,
+so this is not a trial. 0 of 19.
+
 ## W153. The ladder (the owner's question on E₈, "can we derive it and make it unconditional", and ruling "I accept your recommendations that you just laid out."): the moves' quotient by T^N is finite exactly for N = 2 to 5, their McKay algebras are D₅, E₆, E₇ and E₈, and det = 6 − N ends the ladder at N = 5, with E₈ its only unimodular rung. The bound comes from the moves' own orders 2 and 3. Inside the icosian E₈, E₇ is unique, E₆ unique up to the moves and D₅ in six orbits. The record's forced structures use only the primes 2 and 3. So E₈ is forced under the rules R1 and R2, and E₇ under R3. Every cell as predicted (`the_ladder.py`; `W153_RULE.md`)
 
 **Why.** W135 computes E₈ from the moves once the prime 5 is given, and B1270 took the 5 from the golden face, one
@@ -12932,6 +13011,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W154 | COMPUTED (the rule first; one run after a failed launch, disclosed; every cell as predicted); C0 to C3 weave-type | the census over contents, Stage A: at the forced line every S₃-invariant content has V = −(A E₃ + B E₂), so at one loop it runs to the cusp, sits at ω or i, or holds τ on the axis at y*(t) ≈ 7t/π², t = B/|A|; ω gives way at t_c = 2.148; the band needs net ρ_Q bosons outweighing the rest 42 to 48 times in a 13% window; every record content and E₈'s 248 run to the cusp; B1704 reproduced. 0 of 19 |
 | W153 | COMPUTED (the rule first; one run; every cell as predicted); L1 to L4 weave-type | the ladder: the moves' quotient by T^N finite exactly for N = 2 to 5 (6, 12, 24, 60); McKay gives D₅, E₆, E₇, E₈; det = 6 − N, so the ladder ends at N = 5 from the moves' own orders 2 and 3, and E₈ is its only unimodular rung; in the icosian E₈, E₇ unique, E₆ unique up to the moves, D₅ in six orbits; the record's forced structures at the primes 2 and 3 only; R1 and R2 force E₈, R3 gives E₇; the owner rules. 0 of 19 |
 | Observer | READING (nothing computed; every row sourced) | the observer's closings under the weave: the arrow forced; the index chiral (odd, never 0), its sheet a convention; one unit a convention, the ratios of scales free; the McKay naming and a point in an orbit conventions; the filling (the end condition, FK10) open and not forced; the trit open until its orbit is checked; no closing needs an agent; GENESIS §7, FK12, C18 and THE_CLAIM's count proposed to main for re-typing (relay §265) |
 | Ledger | READING (nothing computed; four sweeps, every load-bearing line checked) | the effective action's ledger: the joint action forces the variables' space, Γ₄ and ρ′, the zero modes, the couplings' kind and E₈'s branching given the prime 5; not the loop's content (FK11, unearned), the weight and C(w) constants, the ratios of scales, Λ or the charges; three quartic invariants for h, so no unique truncation; the joint (τ, h) effective action cannot yet be computed without free inputs; step 2 recommended: a census over contents |

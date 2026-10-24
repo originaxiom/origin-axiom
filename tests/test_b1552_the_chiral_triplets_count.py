@@ -4771,3 +4771,29 @@ def test_w153_the_ladder():
             C[i, j] = C[j, i] = -1
         assert round(np.linalg.det(C)) == 6 - N
     assert "## W153. The ladder" in (here / "NOTE.md").read_text(encoding="utf-8")
+
+
+def test_w154_the_content_census():
+    """W154: every cell as predicted; in process, the parity characters sum to -1 off the even lattice and to 3 on it
+    (so the parity sum is E/16 - E), the rows' A and B, and the asymptotic t(2.1) and t(3.2)"""
+    import math
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_content_census.json").read_text(encoding="utf-8"))
+    assert d["verdict"] == "every cell as predicted" and all(d["cells holding"].values())
+    assert abs(d["C2"]["t1"] - 3.2048) < 1e-3 and abs(d["C2"]["t2"] - 4.6242) < 1e-3
+    assert d["C3"]["rows"]["+ the Higgs's three copies"]["extra complex scalars in rho_Q for the band"] == "none"
+    assert d["C3"]["rows"]["E8's 248 as 6d vectors"]["extra complex scalars in rho_Q for the band"] == [2391, 2738]
+    par = [(0.5, 0.0), (0.0, 0.5), (0.5, 0.5)]
+    for m in range(-4, 5):
+        for n in range(-4, 5):
+            s = sum(math.cos(2 * math.pi * (m * p + n * q)) for p, q in par)
+            assert abs(s - (3 if m % 2 == 0 and n % 2 == 0 else -1)) < 1e-12
+    k = 31 / 1024
+    for (w0, wp, wr), a in (((0, 0, -90), 2.724609375), ((220, 108, 224), 111.96875)):
+        assert abs(w0 - 15 / 16 * wp - k * wr - a) < 1e-12
+    z6, z4 = math.pi ** 6 / 945, math.pi ** 4 / 90
+    c3 = 2 * math.sqrt(math.pi) * (3 * math.sqrt(math.pi) / 4) * 1.0369277551433699 / 2
+    c2 = 2 * math.sqrt(math.pi) * (math.sqrt(math.pi) / 2) * 1.2020569031595942
+    t = lambda y: (6 * z6 * y ** 2 - 2 * c3 / y ** 3) / (4 * z4 * y - c2 / y ** 2)
+    assert abs(t(2.1) - 3.2047) < 1e-3 and abs(t(3.2) - 4.6242) < 1e-3
+    assert "## W154. The census over contents, Stage A" in (here / "NOTE.md").read_text(encoding="utf-8")

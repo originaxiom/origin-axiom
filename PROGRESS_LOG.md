@@ -20845,3 +20845,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   shape to an edge or to a symmetric point, and the band the fits need is reachable only by a content heavily
   dominated, about 45 to 1, by one kind of boson. The contents on record, and E₈'s own, do not hold the shape at all.
   0 of 19.
+
+## 2026-10-24 — what holds the shape of the fibre: every allowed content, computed
+
+- **What came out, every prediction as stated.** For every allowed choice of particles in the quantum loop, the shape
+  either runs off to an edge, sits at one of two symmetric points, or settles on a single line at a height set by one
+  ratio of the content. Nothing else is possible at this order.
+- **The price of the band the fits need:** a content dominated about 45 to 1 by bosons of one kind, with the rest
+  tuned to within about 13%. None of the contents on record comes close, and neither does E₈'s own.
+- **So the choice of content cannot be avoided by this route.** The next stage, adding the Higgs's direction, can only
+  help if it changes this picture.
+  0 of 19.

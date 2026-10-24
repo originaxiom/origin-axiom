@@ -1,5 +1,16 @@
 # Changelog
 
+## W154 recorded: the census over contents, Stage A, every cell as predicted (relay §270)
+
+- **One curve.** At the forced line every admissible content runs to the cusp, sits at ω or i, or holds τ on the
+  imaginary axis at y*(t) ≈ 7t/π², t = B/|A|. ω gives way at t_c = 2.148.
+- **The band's price:** net bosons in ρ_Q outweighing the rest 42 to 48 times, within a 13% window. Every record
+  content and E₈'s 248 run to the cusp. B1704 reproduced in its frame.
+- **Disclosed:** a failed first launch (a name clash, no output), kept; C0's parity identity met 10⁻¹⁰ at the rerun the
+  rule named (M = 120); a read-out slip in R's path labels.
+- **Surfaces.** NOTE (section and row), the ledger's dated note, a lock test, the relay, the ledger row, the state page.
+  0 of 19.
+
 ## W154's rule, committed before its script: the census over contents, Stage A (relay §269)
 
 - **At the owner's "GO!!!"** on the ledger's step 2. The weave distinguishes no parity and forces the trivial line, so
