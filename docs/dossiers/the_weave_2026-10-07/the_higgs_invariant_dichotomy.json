@@ -1,0 +1,742 @@
+{
+ "arc": "W146",
+ "rule": "W146_RULE.md",
+ "status": "one run",
+ "dps": 60,
+ "python": "3.11.15",
+ "mpmath": "1.3.0",
+ "numpy": "2.4.6",
+ "sympy": "1.14.0",
+ "K1": {
+  "x^2 + y^2 + z^2 = l1^2 + l3 l7": true,
+  "norm identity": true,
+  "dual basis: h0/sqrt2 on l3, conj h0/sqrt2 on l7": true,
+  "class arithmetic": true,
+  "record forms": {
+   "R": {
+    "leading exponents (l1, l3, l7)": [
+     "0.125",
+     "0.375",
+     "-0.125"
+    ],
+    "leading line": "l7",
+    "spread of the shifts mod 1": "2.18e-17"
+   },
+   "dR": {
+    "leading exponents (l1, l3, l7)": [
+     "0.125",
+     "0.375",
+     "-0.125"
+    ],
+    "leading line": "l7",
+    "spread of the shifts mod 1": "5.12e-16"
+   },
+   "F-10": {
+    "leading exponents (l1, l3, l7)": [
+     "-0.708333333333",
+     "0.541666666667",
+     "1.04166666667"
+    ],
+    "leading line": "l1",
+    "spread of the shifts mod 1": "1.25e-15"
+   },
+   "F-6": {
+    "leading exponents (l1, l3, l7)": [
+     "-0.375",
+     "0.875",
+     "0.375"
+    ],
+    "leading line": "l1",
+    "spread of the shifts mod 1": "4.91e-16"
+   },
+   "F-2": {
+    "leading exponents (l1, l3, l7)": [
+     "-0.0416666666667",
+     "0.208333333333",
+     "0.708333333333"
+    ],
+    "leading line": "l1",
+    "spread of the shifts mod 1": "7.63e-17"
+   },
+   "F2": {
+    "leading exponents (l1, l3, l7)": [
+     "0.291666666667",
+     "0.541666666667",
+     "0.0416666666667"
+    ],
+    "leading line": "l7",
+    "spread of the shifts mod 1": "2.18e-17"
+   },
+   "F6": {
+    "leading exponents (l1, l3, l7)": [
+     "0.625",
+     "-0.125",
+     "0.375"
+    ],
+    "leading line": "l3",
+    "spread of the shifts mod 1": "2.94e-16"
+   },
+   "F10": {
+    "leading exponents (l1, l3, l7)": [
+     "0.958333333333",
+     "0.208333333333",
+     "-0.291666666667"
+    ],
+    "leading line": "l7",
+    "spread of the shifts mod 1": "9.27e-16"
+   },
+   "F14": {
+    "leading exponents (l1, l3, l7)": [
+     "1.29166666667",
+     "-0.458333333333",
+     "0.0416666666667"
+    ],
+    "leading line": "l3",
+    "spread of the shifts mod 1": "1.91e-15"
+   },
+   "F18": {
+    "leading exponents (l1, l3, l7)": [
+     "1.625",
+     "-0.125",
+     "-0.625"
+    ],
+    "leading line": "l7",
+    "spread of the shifts mod 1": "3.24e-15"
+   },
+   "F22": {
+    "leading exponents (l1, l3, l7)": [
+     "1.95833333333",
+     "-0.791666666667",
+     "-0.291666666667"
+    ],
+    "leading line": "l3",
+    "spread of the shifts mod 1": "4.92e-15"
+   },
+   "F26": {
+    "leading exponents (l1, l3, l7)": [
+     "2.29166666667",
+     "-0.458333333333",
+     "-0.958333333333"
+    ],
+    "leading line": "l7",
+    "spread of the shifts mod 1": "6.94e-15"
+   }
+  },
+  "largest spread of the shifts": "6.94e-15",
+  "R's exponents are (1/8, 3/8, -1/8)": true
+ },
+ "K2": {
+  "forms": {
+   "R": {
+    "Re tau 0.25": {
+     "I": [
+      "2.905088361e-61",
+      "3.326067167e-61",
+      "2.549904322e-61",
+      "5.749455887e-62"
+     ],
+     "max I": "3.33e-61",
+     "category at the cusp": "exactly null"
+    },
+    "Re tau 0.4": {
+     "I": [
+      "9.993808517e-62",
+      "2.904363293e-61",
+      "3.092213192e-62",
+      "0.0"
+     ],
+     "max I": "2.9e-61",
+     "category at the cusp": "exactly null"
+    }
+   },
+   "dR": {
+    "Re tau 0.25": {
+     "I": [
+      "0.005795384257",
+      "0.0002510606313",
+      "1.085047206e-5",
+      "4.688935761e-7"
+     ],
+     "local slopes": [
+      "0.9992137553",
+      "0.9999660137",
+      "0.9999985313"
+     ],
+     "nearest odd integer": 1,
+     "I / (C exp(-pi Im tau)) at Im tau 6": "0.9999997916",
+     "C": 72,
+     "category at the cusp": "null-led, I -> 0"
+    },
+    "Re tau 0.4": {
+     "I": [
+      "0.005795380486",
+      "0.000251060631",
+      "1.085047206e-5",
+      "4.688935761e-7"
+     ],
+     "local slopes": [
+      "0.9992135485",
+      "0.9999660133",
+      "0.9999985313"
+     ],
+     "nearest odd integer": 1,
+     "I / (C exp(-pi Im tau)) at Im tau 6": "0.9999997916",
+     "C": 72,
+     "category at the cusp": "null-led, I -> 0"
+    }
+   },
+   "F-10": {
+    "Re tau 0.25": {
+     "I": [
+      "1.0",
+      "1.0",
+      "1.0",
+      "1.0"
+     ],
+     "1 - I": [
+      "7.17771e-15",
+      "1.08169e-21",
+      "1.63013e-28",
+      "2.45663e-35"
+     ],
+     "category at the cusp": "e1-led, I -> 1"
+    },
+    "Re tau 0.4": {
+     "I": [
+      "1.0",
+      "1.0",
+      "1.0",
+      "1.0"
+     ],
+     "1 - I": [
+      "7.17053e-15",
+      "1.08164e-21",
+      "1.63012e-28",
+      "2.45663e-35"
+     ],
+     "category at the cusp": "e1-led, I -> 1"
+    }
+   },
+   "F-6": {
+    "Re tau 0.25": {
+     "I": [
+      "0.9999999957",
+      "1.0",
+      "1.0",
+      "1.0"
+     ],
+     "1 - I": [
+      "4.31364e-9",
+      "3.47464e-13",
+      "2.80379e-17",
+      "2.26264e-21"
+     ],
+     "category at the cusp": "e1-led, I -> 1"
+    },
+    "Re tau 0.4": {
+     "I": [
+      "0.9999999957",
+      "1.0",
+      "1.0",
+      "1.0"
+     ],
+     "1 - I": [
+      "4.30272e-9",
+      "3.47426e-13",
+      "2.80378e-17",
+      "2.26264e-21"
+     ],
+     "category at the cusp": "e1-led, I -> 1"
+    }
+   },
+   "F-2": {
+    "Re tau 0.25": {
+     "I": [
+      "0.9974242667",
+      "0.9998884175",
+      "0.9999951776",
+      "0.9999997916"
+     ],
+     "1 - I": [
+      "0.00257573",
+      "0.000111583",
+      "4.82243e-6",
+      "2.08397e-7"
+     ],
+     "category at the cusp": "e1-led, I -> 1"
+    },
+    "Re tau 0.4": {
+     "I": [
+      "0.9974229218",
+      "0.999888415",
+      "0.9999951776",
+      "0.9999997916"
+     ],
+     "1 - I": [
+      "0.00257708",
+      "0.000111585",
+      "4.82244e-6",
+      "2.08397e-7"
+     ],
+     "category at the cusp": "e1-led, I -> 1"
+    }
+   },
+   "F2": {
+    "Re tau 0.25": {
+     "I": [
+      "2.826484956e-61",
+      "3.182875825e-61",
+      "2.677508404e-61",
+      "5.62519048e-62"
+     ],
+     "max I": "3.18e-61",
+     "category at the cusp": "exactly null"
+    },
+    "Re tau 0.4": {
+     "I": [
+      "4.674430965e-62",
+      "3.196618217e-61",
+      "6.664547518e-62",
+      "1.40629762e-62"
+     ],
+     "max I": "3.2e-61",
+     "category at the cusp": "exactly null"
+    }
+   },
+   "F6": {
+    "Re tau 0.25": {
+     "I": [
+      "0.001936786603",
+      "8.36962164e-5",
+      "3.616841461e-6",
+      "1.562978913e-7"
+     ],
+     "local slopes": [
+      "0.9999997017",
+      "0.9999999994",
+      "1.0"
+     ],
+     "nearest odd integer": 1,
+     "I / (C exp(-pi Im tau)) at Im tau 6": "1.0",
+     "C": 24,
+     "category at the cusp": "null-led, I -> 0"
+    },
+    "Re tau 0.4": {
+     "I": [
+      "0.00193678795",
+      "8.369621651e-5",
+      "3.616841461e-6",
+      "1.562978913e-7"
+     ],
+     "local slopes": [
+      "0.9999999227",
+      "0.9999999999",
+      "1.0"
+     ],
+     "nearest odd integer": 1,
+     "I / (C exp(-pi Im tau)) at Im tau 6": "1.0",
+     "C": 24,
+     "category at the cusp": "null-led, I -> 0"
+    }
+   },
+   "F10": {
+    "Re tau 0.25": {
+     "I": [
+      "0.003227972294",
+      "0.0001394936936",
+      "6.028069102e-6",
+      "2.604964854e-7"
+     ],
+     "local slopes": [
+      "0.9999991724",
+      "0.9999999985",
+      "1.0"
+     ],
+     "nearest odd integer": 1,
+     "I / (C exp(-pi Im tau)) at Im tau 6": "1.0",
+     "C": 40,
+     "category at the cusp": "null-led, I -> 0"
+    },
+    "Re tau 0.4": {
+     "I": [
+      "0.003227974539",
+      "0.0001394936938",
+      "6.028069102e-6",
+      "2.604964854e-7"
+     ],
+     "local slopes": [
+      "0.9999993933",
+      "0.9999999989",
+      "1.0"
+     ],
+     "nearest odd integer": 1,
+     "I / (C exp(-pi Im tau)) at Im tau 6": "1.0",
+     "C": 40,
+     "category at the cusp": "null-led, I -> 0"
+    }
+   },
+   "F14": {
+    "Re tau 0.25": {
+     "I": [
+      "0.00451914991",
+      "0.0001952911701",
+      "8.439296742e-6",
+      "3.646950796e-7"
+     ],
+     "local slopes": [
+      "0.9999983778",
+      "0.999999997",
+      "1.0"
+     ],
+     "nearest odd integer": 1,
+     "I / (C exp(-pi Im tau)) at Im tau 6": "1.0",
+     "C": 56,
+     "category at the cusp": "null-led, I -> 0"
+    },
+    "Re tau 0.4": {
+     "I": [
+      "0.004519156101",
+      "0.0001952911706",
+      "8.439296742e-6",
+      "3.646950796e-7"
+     ],
+     "local slopes": [
+      "0.9999988131",
+      "0.9999999978",
+      "1.0"
+     ],
+     "nearest odd integer": 1,
+     "I / (C exp(-pi Im tau)) at Im tau 6": "1.0",
+     "C": 56,
+     "category at the cusp": "null-led, I -> 0"
+    }
+   },
+   "F18": {
+    "Re tau 0.25": {
+     "I": [
+      "0.005810316225",
+      "0.0002510886457",
+      "1.085052438e-5",
+      "4.688936738e-7"
+     ],
+     "local slopes": [
+      "0.9999973185",
+      "0.999999995",
+      "1.0"
+     ],
+     "nearest odd integer": 1,
+     "I / (C exp(-pi Im tau)) at Im tau 6": "1.0",
+     "C": 72,
+     "category at the cusp": "null-led, I -> 0"
+    },
+    "Re tau 0.4": {
+     "I": [
+      "0.005810329409",
+      "0.0002510886468",
+      "1.085052438e-5",
+      "4.688936738e-7"
+     ],
+     "local slopes": [
+      "0.9999980394",
+      "0.9999999963",
+      "1.0"
+     ],
+     "nearest odd integer": 1,
+     "I / (C exp(-pi Im tau)) at Im tau 6": "1.0",
+     "C": 72,
+     "category at the cusp": "null-led, I -> 0"
+    }
+   },
+   "F22": {
+    "Re tau 0.25": {
+     "I": [
+      "0.007101468011",
+      "0.0003068861201",
+      "1.326175202e-5",
+      "5.73092268e-7"
+     ],
+     "local slopes": [
+      "0.9999959943",
+      "0.9999999925",
+      "1.0"
+     ],
+     "nearest odd integer": 1,
+     "I / (C exp(-pi Im tau)) at Im tau 6": "1.0",
+     "C": 88,
+     "category at the cusp": "null-led, I -> 0"
+    },
+    "Re tau 0.4": {
+     "I": [
+      "0.007101492105",
+      "0.0003068861221",
+      "1.326175202e-5",
+      "5.73092268e-7"
+     ],
+     "local slopes": [
+      "0.9999970722",
+      "0.9999999945",
+      "1.0"
+     ],
+     "nearest odd integer": 1,
+     "I / (C exp(-pi Im tau)) at Im tau 6": "1.0",
+     "C": 88,
+     "category at the cusp": "null-led, I -> 0"
+    }
+   },
+   "F26": {
+    "Re tau 0.25": {
+     "I": [
+      "0.008392602037",
+      "0.0003626835931",
+      "1.567297966e-5",
+      "6.772908622e-7"
+     ],
+     "local slopes": [
+      "0.9999944052",
+      "0.9999999896",
+      "1.0"
+     ],
+     "nearest odd integer": 1,
+     "I / (C exp(-pi Im tau)) at Im tau 6": "1.0",
+     "C": 104,
+     "category at the cusp": "null-led, I -> 0"
+    },
+    "Re tau 0.4": {
+     "I": [
+      "0.008392641832",
+      "0.0003626835963",
+      "1.567297966e-5",
+      "6.772908622e-7"
+     ],
+     "local slopes": [
+      "0.9999959117",
+      "0.9999999924",
+      "1.0"
+     ],
+     "nearest odd integer": 1,
+     "I / (C exp(-pi Im tau)) at Im tau 6": "1.0",
+     "C": 104,
+     "category at the cusp": "null-led, I -> 0"
+    }
+   }
+  },
+  "max relative |I(conj h) - I(h)|": "0.0"
+ },
+ "K5": {
+  "every record direction and its conjugate at Im tau 6 has I < 1e-3 or I > 1 - 1e-3": true,
+  "categories": {
+   "R": "exactly null",
+   "dR": "null-led, I -> 0",
+   "F-10": "e1-led, I -> 1",
+   "F-6": "e1-led, I -> 1",
+   "F-2": "e1-led, I -> 1",
+   "F2": "exactly null",
+   "F6": "null-led, I -> 0",
+   "F10": "null-led, I -> 0",
+   "F14": "null-led, I -> 0",
+   "F18": "null-led, I -> 0",
+   "F22": "null-led, I -> 0",
+   "F26": "null-led, I -> 0"
+  },
+  "note": "conjugates share I with their forms (K2's check); none is of K5's harmonic kind"
+ },
+ "K3": {
+  "points": 12,
+  "w": [
+   -4,
+   0,
+   2,
+   4,
+   12
+  ],
+  "max |R.dR| / (|R| |dR|)": "3.37e-61",
+  "max |h_w.h_w - dR.dR| / |dR.dR|": "1.31e-58",
+  "max relative |I(f h) - I(h)|": "3.36e-60"
+ },
+ "K4": {
+  "rev": "2bd171386e5097b28afc44c4fcdfbdabdd5e4e39",
+  "sha256": "c1e56539a0e52de3bfc2070398bcac4132dc5f1af9cfb72b085f90b63ffbae26",
+  "sha256 as pinned": true,
+  "optima": 10,
+  "horocycle labels": [
+   "L_2",
+   "L_max"
+  ],
+  "L2 optima": 8,
+  "L2 (Im tau, I)": [
+   [
+    2.1,
+    0.01772
+   ],
+   [
+    2.1,
+    0.01772
+   ],
+   [
+    2.0,
+    0.01722
+   ],
+   [
+    2.0,
+    0.01722
+   ],
+   [
+    2.2,
+    0.01811
+   ],
+   [
+    2.2,
+    0.01811
+   ],
+   [
+    2.3,
+    0.01854
+   ],
+   [
+    2.3,
+    0.01854
+   ]
+  ],
+  "least-squares slope of ln I against Im tau, L2": 0.24334751013276226,
+  "largest I, L2": 0.01854,
+  "read-out: the slope over all ten optima": -0.1451870173339666,
+  "read-out: every optimum (hor, Im tau, I)": [
+   [
+    "L_2",
+    2.1,
+    0.01772
+   ],
+   [
+    "L_2",
+    2.1,
+    0.01772
+   ],
+   [
+    "L_2",
+    2.0,
+    0.01722
+   ],
+   [
+    "L_2",
+    2.0,
+    0.01722
+   ],
+   [
+    "L_2",
+    2.2,
+    0.01811
+   ],
+   [
+    "L_2",
+    2.2,
+    0.01811
+   ],
+   [
+    "L_2",
+    2.3,
+    0.01854
+   ],
+   [
+    "L_2",
+    2.3,
+    0.01854
+   ],
+   [
+    "L_max",
+    3.2,
+    0.01501
+   ],
+   [
+    "L_max",
+    3.2,
+    0.01501
+   ]
+  ],
+  "null-led rate, -pi(1 + 2n), n >= 0": "at most -3.141593"
+ },
+ "K6": {
+  "max relative |v(tau + 1) - rho(T) v(tau)|, v = R, dR": "4.96e-61",
+  "max relative |h(tau + 1) - e^{-i pi/4} rho(T) h(tau)|": "4.16e-61",
+  "rho(T) diagonal on the lines with the classes, max deviation": "2.8e-61",
+  "limits": {
+   "0.009": {
+    "2|k|/(1 + |k|^2)": "0.01799854212",
+    "I at Im tau 6": {
+     "0.25": "0.01799854212",
+     "0.4": "0.01799854212"
+    },
+    "relative deviation": "2.02e-60"
+   },
+   "0.1": {
+    "2|k|/(1 + |k|^2)": "0.198019802",
+    "I at Im tau 6": {
+     "0.25": "0.198019802",
+     "0.4": "0.198019802"
+    },
+    "relative deviation": "6.22e-61"
+   },
+   "(0.0 + 0.5j)": {
+    "2|k|/(1 + |k|^2)": "0.8",
+    "I at Im tau 6": {
+     "0.25": "0.8",
+     "0.4": "0.8"
+    },
+    "relative deviation": "1.56e-61"
+   }
+  },
+  "read-out (not in the rule): I(h) at kappa 0.0091, Re tau 0.4375, Im tau 2.0-2.3": {
+   "2.0": "0.0181985",
+   "2.1": "0.0181985",
+   "2.2": "0.0181985",
+   "2.3": "0.0181985"
+  }
+ },
+ "L1": {
+  "draws": 20000,
+  "skipped (m2 below 1e-25)": 0,
+  "max (sin theta - |g.g| |u| / m2)": "-1.86e-11",
+  "max relative |sum m_k^2 |<conj g, l_k>|^2 - |g.g|^2 |u|^2|": "8.5e-14",
+  "Y h = Y^T h = (h.h) u (sympy)": true
+ },
+ "L2": {
+  "Frobenius identity (sympy, general h; unit h is the lemma)": true,
+  "draws": 20000,
+  "largest |u| / m3, random": 1.1451551973258352,
+  "local maximisations": 200,
+  "largest |u| / m3, maximised": 1.4142135623671424,
+  "sqrt 3": 1.7320508075688772
+ },
+ "L3": {
+  "overlap optimisations": 2000,
+  "max |largest real overlap^2 - (1 + |x.x|)/2|": 6.661338147750939e-16,
+  "read-out: max |arccos(sqrt overlap^2) - alpha(x)|": 1.383788916786699e-14,
+  "pairs": 20000,
+  "max (|<x, y>| - cos(alpha(x) - alpha(y))), pairs": -0.00016453369577873467,
+  "local maximisations": 200,
+  "max (|<x, y>| - cos(alpha(x) - alpha(y))), maximised": 6.650235917504688e-14
+ },
+ "cells": {
+  "K1": true,
+  "K2": true,
+  "K3": true,
+  "K4": true,
+  "L1": false,
+  "L2": true,
+  "L3": true,
+  "K5": true,
+  "K6": true
+ },
+ "every predicted cell holds": false,
+ "part_seconds": {
+  "K1": 0.0,
+  "K2": 0.1,
+  "K3": 0.2,
+  "K4": 0.0,
+  "K6": 0.3,
+  "L_sympy": 0.1,
+  "L1": 43.0,
+  "L2": 73.5,
+  "L3": 47.3
+ },
+ "seconds": 164.5
+}
