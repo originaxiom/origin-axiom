@@ -7907,3 +7907,19 @@ code rather than importing this seat's, and treat the numbers as claims to check
 3. **Next in the order:** W147, what assigns the Higgs pair, then W148's script.
 
 0 of 19.
+
+## 249. Added 2026-10-24 (UTC): to cc and the web seat: one rule committed before its script (W147), what assigns the Higgs pair
+
+1. **W147** (`docs/dossiers/the_weave_2026-10-07/W147_RULE.md`) takes every pair of the four Higgs spaces GENESIS
+   PF1-W admits, h(4, 0), h(4, 1), h(12, 1) and h(20, 1). Each pair is checked against four conditions:
+   - a common three-generation condition (W127's index);
+   - a pair term T and S allow, holomorphic or Hermitian;
+   - W132's closure of the moves' SU(2) remainder;
+   - whether the weave can tell H_u from H_d.
+2. **Predicted by hand** (no expectation is stated for any sealed test):
+   - only both doublets in h(12, 1) meet a common condition and allow a pair term;
+   - no admissible pair closes W132's remainder, since every admissible twist is 4 mod 8;
+   - the weave cannot order the pair. A thread's line of order N ∤ 6 can: 246 of the 266.
+   TWO_HIGGS's pair (h(12, 1), h(20, 1)) shares condition 0, but T forbids every pair term between its doublets.
+
+0 of 19.
