@@ -8487,3 +8487,27 @@ code rather than importing this seat's, and treat the numbers as claims to check
    Nothing changes there until the owner rules.
 
 0 of 19.
+
+## 269. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: W154's rule, committed before its script (the census over contents, Stage A)
+
+1. **At the owner's word** ("GO!!!", to the effective action's ledger's step 2, option 1):
+   `docs/dossiers/the_weave_2026-10-07/W154_RULE.md`, data-free.
+2. **The reduction, found while writing the rule.** The weave distinguishes no parity, so an admissible content
+   weights the three alike. At the forced line (W140) the Higgs's copies are on the parity characteristics. With W59's
+   identity, every admissible content has V = −(A E(τ, 3) + B E(τ, 2)), where A = w₀ − (15/16) w_p − (31/1024) w_ρ and
+   B = (31/1024) w_ρ (B1686's units; the matter by PH2's shape). So where any content holds τ depends on one ratio,
+   t = B/|A|, and the census can be complete.
+3. **The cells.**
+   - **C0:** the reduction, checked.
+   - **C1:** the regimes on the whole domain. A > 0 runs to the cusp; A < 0 with B ≤ 0 sits at ω; with B > 0, ω up to
+     a threshold, then the imaginary axis at y*(t) → 7t/π².
+   - **C2:** the band 2.1 ≤ Im τ ≤ 3.2 is t ∈ [3.205, 4.624]. A band content needs net bosons in ρ_Q outweighing the
+     rest 42 to 48 times, with the ratio held to a 13% window.
+   - **C3:** every record content at the forced line runs to the cusp, and so does E₈'s 248.
+   - **C4:** B1704's band reproduced in its own frame, as the instrument's control.
+4. **One narrowing, said plainly.** This seat told the owner Stage A would be on (τ, w). The weave forces the trivial
+   line and the line's dynamics needs hand-put charges, so Stage A is on τ at the forced line.
+5. **To main:** this builds on B1704 and B1686's code, read from 22b7d5739. This seat states no expectation for any
+   sealed test.
+
+0 of 19.

@@ -1,5 +1,14 @@
 # Changelog
 
+## W154's rule, committed before its script: the census over contents, Stage A (relay §269)
+
+- **At the owner's "GO!!!"** on the ledger's step 2. The weave distinguishes no parity and forces the trivial line, so
+  every admissible content has V = −(A E(τ, 3) + B E(τ, 2)): where it holds τ depends on one ratio, t = B/|A|.
+- **The cells:** the reduction; the regimes over the whole domain; the band's price (net bosons in ρ_Q outweighing
+  the rest 42 to 48 times); every record content and E₈'s 248 running to the cusp; B1704 reproduced as the control.
+- **Narrowed:** Stage A is on τ at the forced line, not on (τ, w); the line's dynamics needs hand-put charges.
+- **Surfaces.** The rule, the relay, the ledger row, the state page. Data-free; no script exists. 0 of 19.
+
 ## The ladder's rule put to every seat (relay §268)
 
 - **At the owner's word** ("agreed", to collecting the seats' opinions before ruling): R1, R2 or R3, with five

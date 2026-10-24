@@ -20835,3 +20835,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The question put to every seat:** should the principle take every finite way of making the moves finite (which
   gives E₈), or only the ways the record already uses (which gives E₇)? Nothing is decided until the owner rules.
   0 of 19.
+
+## 2026-10-24 — what holds the shape of the fibre? Every allowed content at once (the rule, before computing)
+
+- **The simplification found while planning.** The principle treats the three "parities" alike and fixes the
+  simplest line, so every allowed choice of particles in the quantum loop gives an energy built from just two standard
+  functions. Where the shape settles then depends on a single ratio of the content.
+- **So all allowed contents can be surveyed at once.** The prediction, fixed before computing: most contents send the
+  shape to an edge or to a symmetric point, and the band the fits need is reachable only by a content heavily
+  dominated, about 45 to 1, by one kind of boson. The contents on record, and E₈'s own, do not hold the shape at all.
+  0 of 19.
