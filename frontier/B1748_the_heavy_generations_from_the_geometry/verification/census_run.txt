@@ -1,0 +1,9 @@
+98 apex points x 266 lines = 26068 points; 0 done; 26068 to do
+row 0
+row 5000
+row 10000
+row 15000
+row 20000
+row 25000
+control: {'C1_B1741_apex_reproduced_rel': 0.0008305478391186227, 'C1_values': [0.0035029069174369156, 0.020583207266888438, 0.020583207266888674, 0.03838425338996517], 'C2_T_covariance': 8.923972671933027e-13, 'apex_points': 98}
+census exit 0
