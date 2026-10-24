@@ -20645,3 +20645,18 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   this question, and the audit lane's proofs.
   0 of 19.
 
+
+## 2026-10-24 — stepping back: where symmetry breaks, and what the record has not tried
+
+- **The owner asked to question everything:** the framing, spontaneous symmetry breaking, whether all the Higgs work
+  is being used, and what else is going wrong. This seat swept its own record, main's, the Higgs work across seats,
+  and the published literature, and checked every claim it used at the source.
+- **The main finding:** every dynamics computed so far settles on a maximally symmetric point, and a known theorem
+  (Michel's) says why. A non-symmetric vacuum always costs adjustable numbers unless something fixes them.
+- **A new structural observation:** the space of "null" Higgs directions is the same curve as the level-4 modular
+  curve, point for point. The data's preferred direction sits on that curve near one of its special points, moved by
+  an amount that follows the modulus, plus a small constant offset. Neither of the two pictures on record explains
+  both parts.
+- **For the owner:** a proposed sentence for the weave rule saying that spontaneous breaking is not a hand-pick, not
+  applied until approved; seven process fixes; and a living page of where all 19 values stand. Nothing is derived.
+  0 of 19.

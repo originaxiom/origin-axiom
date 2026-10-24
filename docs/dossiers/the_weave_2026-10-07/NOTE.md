@@ -7726,6 +7726,48 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## Reading: the breaking chain (READING; the owner's "nothing is for granted", 2026-10-24; `THE_BREAKING_CHAIN_2026-10-24.md`)
+
+Nothing here is computed beyond one scratch check, locked in the test. The page holds the whole reading, with a source
+and a pre-mortem for each claim. Its main points:
+- **Every dynamics on record lands on a symmetric point** (W51, W59, W60, W62, W64, W67; B1646, B1686). Michel's
+  critical-orbit theorem says why for O on M's sphere, and the stabilizers at i and ω say why in τ. A vacuum off those
+  points costs coefficient ratios unless they are forced.
+- **The Higgs record has four objects under one name:**
+  - the doublet;
+  - the family direction h in M;
+  - the fibre's Φ (W130);
+  - the twisted sections.
+  The fits are about h. The record computed h's alignment (W64 K7) and its potentials (B1646, B1655), then set the
+  vacuum question aside when main took h as ∂R (H-cov, P-132). S212 realises W82's two-doublet hook.
+- **A fork for the owner:**
+  - (A) keep H-cov, against W146, S213 and S214;
+  - (B) h is a field's vev, which reopens P-132.
+- **M's isotropic conic, with O acting, is the level-4 curve X(4):** 6 cusps over the 6-orbit lines, 8 ω-points over
+  the 8-orbit, 12 i-points over the 12-orbit.
+  - R is exactly isotropic, with local degree 1 at the cusp.
+  - B1743's best row is the cone's point s = δ, moved off it by ε + δ²/2 (by hand), which reproduces I = 0.0177.
+  - The target's position on the cone follows τ like a form, at half R's exponent (|δ|² ≈ 0.97 |s_R|, by eye). Its
+    defect off the cone stays constant like a potential's ratio.
+  - Neither branch of the fork describes both halves.
+- **The literature (thread-type input, checked at the source):**
+  - for one S4 triplet the minima are exactly (1, 0, 0), (1, 1, 1), (±1, ω, ω²) and (0, 1, i), so W64 K7 is a known
+    result and the minimum at h₀ is rigid;
+  - one triplet allows no CP violation;
+  - Higaki, Kawamura and Kobayashi hold Im τ at a finite value with a one-loop potential from T-charged heavy masses;
+  - the power-counting rule of Novichkov, Penedo and Petcov needs a reducible side, which the record's alike three
+    lack.
+- **For the owner:** a draft of THE WEAVE rule's spontaneous-breaking sentence, not applied. Also seven process fixes
+  and the living state of the values (0 of 19).
+- **Proposed, rule first:**
+  - W149, the cone and the defect;
+  - W150, the frame's heavy states as τ's holder;
+  - W151, W51's point;
+  - W106;
+  - P-327, offered to main.
+
+**Status.** READING (no arc; by hand, with one scratch check locked in the test). 0 of 19.
+
 ## W147. What assigns the Higgs pair (the owner's "lets go for all systematically"): not the weave. Of the ten pairs of the four Higgs spaces GENESIS PF1-W admits, only both doublets in h(12, 1) meet a common three-generation condition and allow a pair term T and S permit, holomorphic or Hermitian. No admissible pair closes W132's SU(2) remainder, since every admissible twist is 4 mod 8. The weave cannot order the pair, while 246 of the 266 thread lines can. The web seat's TWO_HIGGS pair, h(12, 1) with h(20, 1), shares condition 0 but allows no pair term. Every cell as predicted (`the_higgs_pair.py`; `W147_RULE.md`)
 
 **Why.**
@@ -12546,6 +12588,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| Reading: the breaking chain | READING (no arc; by hand, one scratch check locked in the test; the owner's question) | every computed dynamics lands on a symmetric point (Michel's theorem on M's sphere; the stabilizers at i and ω); four objects named Higgs, the fits about h; the fork H-cov or a field's vev (P-132); M's isotropic conic is X(4) under O, R exactly isotropic with local degree 1 at the cusp; B1743's target is the cone's point s = δ off by ε + δ²/2, its on-cone part following τ at half R's exponent and its defect constant; the literature checked at the source (S4's four rigid minima, (0, 1, i) among them; no CP from one triplet; a one-loop holder of Im τ from T-charged masses); a draft of the rule's spontaneous-breaking sentence for the owner, not applied; W149–W151 proposed |
 | W147 | COMPUTED, exact (the rule first; one run; every cell as predicted); WEAVE-type, with a census of thread lines | what assigns the Higgs pair: of the ten pairs of GENESIS PF1-W's four Higgs spaces, only both doublets in h(12, 1) meet a common three-generation condition (0 and L6) and allow a pair term (holomorphic and Hermitian). TWO_HIGGS's {12, 20} shares condition 0 but allows none. No admissible pair closes W132's SU(2) remainder (sums 0, 8, 16, never 12). The weave cannot order the pair; 246 of the 266 thread lines can (the 20 of orders 1, 2, 3, 6 cannot). Not a trial. 0 of 19 |
 | W148 | COMPUTED (the rule first; one run; every cell as predicted except E6, failed as worded through an over-claim in this seat's own wrong-sign control, flagged before the run); a review of another seat's algebra | the audit lane's two P-210 notes on own code, none of its code run (it has none): the Green form's null planes are unitary graphs; the Q8 commutant is M₃ ⊗ I₂ (dimension 9) in two bases; the grading cuts the U(3) family to even ranks, index −3, −1, +1, +3; the Cayley chart, the projector path and the planes (8) as stated; Y_ab = −2δ_ab; the constant-tail operator, its L² plane, Weyl's bound, the threshold s² and the far-tail sequence as stated. No error by the lane. Not a trial. 0 of 19 |
 | W146 | COMPUTED (the rule first, corrected twice before its push; one run; every cell as predicted except L1, recorded as failed through a condition the script added beyond the rule, diagnosed post hoc as 30-digit roundoff); WEAVE-type | P-357 data-free: every holomorphic or antiholomorphic Higgs in ρ ⊗ χ, at any weight, character or level, is exactly null (R, F₂), tends to I = 1 (e₁-led), or falls like C e^{−π Im τ} (C = 72 for ∂R, 4a for F_a, checked to 10⁻⁷). The target's I rises (+0.24) across its band instead. The weight pencil leaves h·h fixed, and I is scale-free. The harmonic F̄ + κF (F = η⁻³R) has I = 2∣κ∣/(1 + ∣κ∣²) at every τ, since F·F = 0. The web seat's Lemmas A, A′, B hold; the maximised ‖u‖/m₃ is √2. E₆ gives no one-doublet way out (a reading). Not a trial. 0 of 19 |

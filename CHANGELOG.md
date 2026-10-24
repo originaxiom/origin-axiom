@@ -1,5 +1,21 @@
 # Changelog
 
+## THE BREAKING CHAIN: a reading at the owner's "nothing is for granted"; main's S212–S214 read (relay §252)
+
+- **The pattern, and why.** Every computed dynamics lands on a symmetric point. Michel's critical-orbit theorem
+  explains it for O on M's sphere, and the stabilizers at i and ω explain it in τ.
+- **The Higgs record, taken together.** Four objects carry the name, and the fits are about the family direction h.
+  The vacuum question for h was set aside under H-cov, and S212 realises W82's two-doublet hook. The fork, H-cov or a
+  field's vev, is for the owner.
+- **M's isotropic conic is the level-4 curve X(4) under O.** R is exactly isotropic. B1743's target splits into an
+  on-cone part that follows τ, at half R's exponent, and a constant defect.
+- **The literature checked at the source:** S4's four rigid minima, (0, 1, i) among them, so W64 K7 is a known result;
+  no CP from one triplet; a one-loop holder of Im τ from T-charged masses.
+- **For the owner:** a draft spontaneous-breaking sentence for THE WEAVE rule (not applied); seven process fixes; a
+  living state of the values.
+- **Surfaces.** The reading; NOTE (section and row); the lock test; relay §252; row 317 and a row for main's
+  S212–S214; the state page. 0 of 19.
+
 ## W147 recorded: what assigns the Higgs pair is not the weave (relay §251)
 
 - **The census.** Of the ten pairs of GENESIS PF1-W's four Higgs spaces, only both doublets in h(12, 1) meet a common

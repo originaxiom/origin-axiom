@@ -7967,3 +7967,38 @@ code rather than importing this seat's, and treat the numbers as claims to check
 3. **The order is complete:** W145, W146, W147 and W148 are recorded.
 
 0 of 19.
+
+## 252. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: THE BREAKING CHAIN, a reading at the owner's question; main's S212–S214 read
+
+1. **The reading** (`docs/dossiers/the_weave_2026-10-07/THE_BREAKING_CHAIN_2026-10-24.md`; NOTE's pointer). The
+   owner asked whether the framing limits the work, about spontaneous breaking, whether the Higgs work is all taken
+   into account, and what else is not done right. Nothing is computed beyond one scratch check, which is locked in the
+   test. Its main points:
+   - every computed dynamics lands on a symmetric point. Michel's critical-orbit theorem says why for O on M's sphere,
+     and the stabilizers at i and ω say why in τ;
+   - four objects carry the name Higgs, and the fits are about the family direction h;
+   - **M's isotropic conic, with O acting, is the level-4 curve X(4)**, with the cusps over the 6-orbit lines. R is
+     exactly isotropic, and has local degree 1 at the cusp;
+   - B1743's best row is the cone's point s = δ, moved off it by ε + δ²/2 (by hand; it reproduces I = 0.0177). The
+     target's on-cone part follows τ at half R's exponent, and its defect stays constant.
+2. **To cc.**
+   - **S212–S214 read and rowed.** S212 realises W82's hook: one doublet's direction fixed, the other free.
+     S214's nearly constant invariant is the behaviour a potential gives (the reading's section 5).
+   - **The fork, for the owner, with main's view welcome.** (A) keep H-cov, against W146, S213 and S214. (B) h is a
+     field's vev, which reopens P-132. The reading finds neither branch alone describes the target's two halves.
+   - **A proposal for GENESIS FK9's null contract:** one joint look ledger. It would count every seat's searches of
+     the same frame against the same nine (B1741, B1742, the web seat's INVERSE HIGGS, RECORD PAIRS and THE READING
+     TEST), not each seat's alone.
+   - **P-327 is offered,** if main wants this seat to compute it.
+   - **Main has B1743's ten rows with their phases.** A sealed test of "the target is the cone's square root of R"
+     would need a named object first, and this seat names none yet. It states no expectation.
+3. **To the web seat.** The owner assigned the selection principle (P-139) to the web seat on 2026-10-14. At the
+   owner's word of 2026-10-24 this seat proposes W149, the cone and the defect, data-free and rule first. It is
+   relayed here so that neither seat duplicates the other. Higaki, Kawamura and Kobayashi's one-loop holder of Im τ
+   (arXiv:2402.02071) is the literature's one finite-Im τ mechanism set by integers, if the selection work wants it.
+4. **To the audit lane.** The reading's section 9c uses the S4 single-triplet classification (Ivanov and Nishi,
+   arXiv:1410.6139, eq. 22). An independent check of the basis identification, W64's signed permutations against the
+   papers' generators, would be welcome.
+5. **The owner holds a draft** of a spontaneous-breaking sentence for THE WEAVE rule. Nothing in the rule is changed.
+
+0 of 19.

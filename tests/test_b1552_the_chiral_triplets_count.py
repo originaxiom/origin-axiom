@@ -4519,3 +4519,31 @@ def test_w147_the_higgs_pair():
     assert ab == [((12, 1), (12, 1))]
     assert all((A[0] + B[0]) % 24 != 12 for A, B in itertools.combinations_with_replacement(spaces, 2))
     assert d["P3"]["lines that tell H_u from H_d"] == 246 and d["P3"]["orders that do not"] == [1, 2, 3, 6]
+
+
+def test_the_breaking_chain_reading():
+    """The breaking chain (a READING): the page is labelled and pointed to; in process, the one scratch check it rests
+    on (R exactly isotropic; on the cone's chart through its vertex, |s_R| = 2√2|q₄| with the far vertex's part
+    |s_R|²/2) and the by-hand arithmetic on B1743's best row (I from δ and ε)"""
+    import mpmath as mp
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    page = (here / "THE_BREAKING_CHAIN_2026-10-24.md").read_text(encoding="utf-8")
+    assert "**A READING: nothing here is computed, and it adds no claim.**" in page and page.rstrip().endswith("0 of 19.")
+    assert "## Reading: the breaking chain" in (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "Spontaneous breaking is not a hand-pick." not in (ROOT / "docs" / "THE_WEAVE.md").read_text(encoding="utf-8")
+    with mp.workdps(30):
+        def R(t):
+            q = lambda x: mp.e ** (1j * mp.pi * t * x)
+            t2 = sum(q((n + mp.mpf(1) / 2) ** 2) for n in range(-30, 31))
+            t3 = sum(q(n * n) for n in range(-30, 31))
+            t4 = sum((-1) ** n * q(n * n) for n in range(-30, 31))
+            return [-t2 ** 2, -t4 ** 2, 1j * t3 ** 2]
+        r = R(mp.mpc(0.3, 1.1))
+        assert abs(sum(x * x for x in r)) / sum(abs(x) ** 2 for x in r) < mp.mpf(10) ** -25
+        y = 3
+        r = R(mp.mpc(0, y))
+        lead, far = (r[1] + 1j * r[2]) / mp.sqrt(2), (r[1] - 1j * r[2]) / mp.sqrt(2)
+        s = abs(r[0] / lead) / mp.e ** (-mp.pi * y / 2)
+        assert abs(s - 2 * mp.sqrt(2)) < 1e-6 and abs(abs(far / lead) / mp.e ** (-mp.pi * y) - 4) < 1e-6
+    d, e = complex(0.074, 0.308), complex(0.048, -0.032)
+    assert abs(abs(2 * (e + d * d / 2)) / (1 + abs(d) ** 2 + abs(e) ** 2) - 0.0177) < 2e-4
