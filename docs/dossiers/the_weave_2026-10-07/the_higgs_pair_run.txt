@@ -1,0 +1,11 @@
+{
+ "P0 (the inputs)": true,
+ "P1": true,
+ "P2": true,
+ "P3": true
+}
+every predicted cell holds: True
+
+real	0m0.567s
+user	0m0.823s
+sys	0m0.086s

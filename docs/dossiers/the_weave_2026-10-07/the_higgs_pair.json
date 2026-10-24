@@ -1,0 +1,279 @@
+{
+ "arc": "W147",
+ "rule": "W147_RULE.md",
+ "status": "one run",
+ "python": "3.11.15",
+ "P0": {
+  "admissible twists": [
+   4,
+   12,
+   20
+  ],
+  "spaces (r, n) with h > 0": [
+   [
+    4,
+    0
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    12,
+    1
+   ],
+   [
+    20,
+    1
+   ]
+  ],
+  "dimensions": {
+   "4,0": 1,
+   "4,1": 4,
+   "12,1": 3,
+   "20,1": 3
+  },
+  "index at (0, V2, V4, L6)": {
+   "4,0": [
+    -1,
+    0,
+    -1,
+    0
+   ],
+   "4,1": [
+    -4,
+    -1,
+    0,
+    3
+   ],
+   "12,1": [
+    -3,
+    -1,
+    1,
+    3
+   ],
+   "20,1": [
+    -3,
+    -2,
+    1,
+    2
+   ]
+  }
+ },
+ "P1": {
+  "pairs": {
+   "{4_0, 4_0}": {
+    "(a) common three-generation conditions": [],
+    "(b) r + r' = 0 mod 24": false,
+    "(c) r = r'": true
+   },
+   "{4_0, 4_1}": {
+    "(a) common three-generation conditions": [],
+    "(b) r + r' = 0 mod 24": false,
+    "(c) r = r'": true
+   },
+   "{4_0, 12}": {
+    "(a) common three-generation conditions": [],
+    "(b) r + r' = 0 mod 24": false,
+    "(c) r = r'": false
+   },
+   "{4_0, 20}": {
+    "(a) common three-generation conditions": [],
+    "(b) r + r' = 0 mod 24": true,
+    "(c) r = r'": false
+   },
+   "{4_1, 4_1}": {
+    "(a) common three-generation conditions": [
+     "L6"
+    ],
+    "(b) r + r' = 0 mod 24": false,
+    "(c) r = r'": true
+   },
+   "{4_1, 12}": {
+    "(a) common three-generation conditions": [
+     "L6"
+    ],
+    "(b) r + r' = 0 mod 24": false,
+    "(c) r = r'": false
+   },
+   "{4_1, 20}": {
+    "(a) common three-generation conditions": [],
+    "(b) r + r' = 0 mod 24": true,
+    "(c) r = r'": false
+   },
+   "{12, 12}": {
+    "(a) common three-generation conditions": [
+     "0",
+     "L6"
+    ],
+    "(b) r + r' = 0 mod 24": true,
+    "(c) r = r'": true
+   },
+   "{12, 20}": {
+    "(a) common three-generation conditions": [
+     "0"
+    ],
+    "(b) r + r' = 0 mod 24": false,
+    "(c) r = r'": false
+   },
+   "{20, 20}": {
+    "(a) common three-generation conditions": [
+     "0"
+    ],
+    "(b) r + r' = 0 mod 24": false,
+    "(c) r = r'": true
+   }
+  },
+  "(a)": [
+   "{12, 12}",
+   "{12, 20}",
+   "{20, 20}",
+   "{4_1, 12}",
+   "{4_1, 4_1}"
+  ],
+  "(b)": [
+   "{12, 12}",
+   "{4_0, 20}",
+   "{4_1, 20}"
+  ],
+  "(c)": [
+   "{12, 12}",
+   "{20, 20}",
+   "{4_0, 4_0}",
+   "{4_0, 4_1}",
+   "{4_1, 4_1}"
+  ],
+  "(a) and (b)": [
+   "{12, 12}"
+  ],
+  "(a), (b) and (c)": [
+   "{12, 12}"
+  ],
+  "TWO_HIGGS {12, 20}": {
+   "(a) common three-generation conditions": [
+    "0"
+   ],
+   "(b) r + r' = 0 mod 24": false,
+   "(c) r = r'": false
+  }
+ },
+ "P2": {
+  "W132's G5 checks hold": true,
+  "allowed m_u + m_d, per B1674 assignment": {
+   "Q+ u- d- L+ e- nu-": [
+    12
+   ],
+   "Q+ u- d- L- e+ nu+": [],
+   "Q- u+ d+ L+ e- nu-": [],
+   "Q- u+ d+ L- e+ nu+": [
+    12
+   ]
+  },
+  "admissible pair sums r + r' mod 24": [
+   0,
+   8,
+   16
+  ],
+  "every admissible twist is 4 mod 8": true,
+  "assignments an admissible pair closes": []
+ },
+ "P3": {
+  "each condition symmetric under the exchange": true,
+  "W140's C1 (only the trivial line fixed)": true,
+  "lines": 266,
+  "lines by order": {
+   "1": 1,
+   "2": 3,
+   "3": 4,
+   "4": 6,
+   "5": 12,
+   "6": 12,
+   "7": 24,
+   "8": 24,
+   "9": 36,
+   "10": 36,
+   "11": 60,
+   "12": 48
+  },
+  "6Y labels (H_u, H_d)": [
+   3,
+   -3
+  ],
+  "lines that tell H_u from H_d": 246,
+  "lines that do not": 20,
+  "orders that do not": [
+   1,
+   2,
+   3,
+   6
+  ]
+ },
+ "P4": {
+  "lines in each space (W143)": {
+   "r=4 n=0": [
+    2
+   ],
+   "r=4 n=1": [
+    -10,
+    2,
+    14,
+    26
+   ],
+   "r=12 n=1": [
+    -6,
+    6,
+    18
+   ],
+   "r=20 n=1": [
+    -2,
+    10,
+    22
+   ]
+  },
+  "multiplicities (W143's H2)": {
+   "F_6 in h(12, 1)": 4,
+   "F_-10, F_14 in h(4, 1)": [
+    8,
+    6
+   ],
+   "F_-2, F_22 in h(20, 1)": [
+    4,
+    1
+   ],
+   "every multiplicity has its line (members' multiplicities = the polynomial's lines by multiplicity)": {
+    "r=4 n=0": true,
+    "r=4 n=1": true,
+    "r=12 n=1": true,
+    "r=20 n=1": true
+   }
+  },
+  "e1-led lines (W143's H3)": {
+   "r=4 n=0": [],
+   "r=4 n=1": [
+    -10
+   ],
+   "r=12 n=1": [
+    -6
+   ],
+   "r=20 n=1": [
+    -2
+   ]
+  },
+  "the conjugate twist -r mod 24": {
+   "4": 20,
+   "12": 12,
+   "20": 4
+  },
+  "(b) read as: H_u in the twist of H_d's conjugate": {
+   "{12, 12}": true,
+   "{4, 20}": true
+  }
+ },
+ "cells": {
+  "P0 (the inputs)": true,
+  "P1": true,
+  "P2": true,
+  "P3": true
+ },
+ "every predicted cell holds": true
+}
