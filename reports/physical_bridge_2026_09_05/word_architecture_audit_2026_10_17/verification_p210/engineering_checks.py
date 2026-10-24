@@ -23,7 +23,9 @@ def literal_expected(source):
 
 
 def fixture(directory, mode="return 0"):
-    root = Path(directory)
+    # Match the production wrapper's resolved-path convention, including
+    # macOS /var -> /private/var aliases; do not weaken its binding check.
+    root = Path(directory).resolve()
     parent = root / "reports" / "physical" / "word"
     current = parent / "verification_p210"
     old = parent / "verification_v3"
