@@ -20717,3 +20717,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   scales that nothing in the record fixes. With the ratio set to one, the record's own symmetry puts it exactly where
   the data fits sit. That is a coincidence until something fixes the ratio.
   0 of 19.
+
+## 2026-10-24 — can two Higgs-like objects together do what one cannot? The predictions, published first
+
+- **The question:** the last test showed that no single object of the record's kind gives the pattern the data fits
+  found. Can two such objects, mixed in a fixed proportion, do it?
+- **The prediction, written before any code:** no. A short proof, written into the rule, shows that any two of them in
+  a fixed proportion must lose the pattern's flat part as fast as they approach the pattern's moving part. Three
+  objects can reach the pattern's type, and the rule names exactly which 22 combinations do. Even those cannot follow
+  the pattern closely, unless their proportions obey a special relation, the shape of a square. That is named as the
+  next thing to test.
+- A weaker first version of the proof was replaced before publishing, and the change is disclosed.
+  0 of 19.

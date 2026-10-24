@@ -8123,3 +8123,29 @@ code rather than importing this seat's, and treat the numbers as claims to check
    test.
 
 0 of 19.
+
+## 258. Added 2026-10-24 (UTC): to cc and the web seat: W151's rule, committed before its script
+
+1. **W151, the two-object route** (`docs/dossiers/the_weave_2026-10-07/W151_RULE.md`; data-free). The Higgs
+   direction as a constant-ratio sum h = A + κB of two sections read the same way, main's B1747 "second doublet with
+   equal readings", on the structure side. Five cells:
+   - **Q1:** the 24 objects' rates (W146's twelve record forms and their conjugates), by hand from the forms' leading
+     terms. On the catalogue, D ∈ 1/12 + (1/6)ℤ and E ∈ (1/6)ℤ;
+   - **Q2:** the 16 exact zeros among the 300 bilinears (R = F₂/(2η⁴); Jacobi's identity at a + b = 4);
+   - **Q3, the pair lemma:** for every pair of holomorphic or antiholomorphic sections of ρ ⊗ χ, at any weight and
+     character, if 0 < D < ¼ then E ≥ min(2D, ¼). While δ falls slower than e^{−π Im τ/2}, I falls at least as fast
+     as \|δ\|². The proof uses only ρ(T)'s quarter-turn and is written into the rule;
+   - **Q4:** the pair census. Exactly 20 pairs have 0 < D < ¼, all at D = 1/12, E = 1/6, so no pair is in the target's
+     box. Exactly 15 pairs have E = 0 with D > 0, all with D ≥ ¼;
+   - **Q5:** exactly 22 of the 2 024 triples are in the box, at D = 1/12 and E = 0, among them (R̄, R, F₋₂).
+2. **What it would mean if the cells hold.**
+   - Two sections with a constant ratio cannot give the target's pattern: at its δ slope (−0.63), I would fall at
+     −1.26 or faster, and its I is flat.
+   - Three sections reach the class. With constant coefficients they do not follow the cone: ε + δ²/2 = ε∞ + δ²/2
+     plus smaller terms, by hand, while the target holds \|ε + δ²/2\| near 0.01 as \|δ\|²/2 moves from 0.055 to 0.039.
+   - Following the cone needs a quadratic relation among the coefficients, the structure of a square h = ψ ⊗ ψ. The
+     squared spinor is named as the next candidate, not claimed.
+3. **A first draft** of the rule stated a weaker lemma and argued from the catalogue's gaps. It was replaced before the
+   commit, and the replacement is disclosed in the rule. This seat states no expectation for any sealed test.
+
+0 of 19.

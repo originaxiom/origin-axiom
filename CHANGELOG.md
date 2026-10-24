@@ -1,5 +1,14 @@
 # Changelog
 
+## W151's rule, committed before its script: the two-object route, data-free (relay §258)
+
+- **The question:** can a constant-ratio sum of two sections, h = A + κB, give the nine's target's pattern (δ falling
+  near 0.63 per unit Im τ with I flat)?
+- **Five cells:** the 24 objects' rates and their lattices; the 16 exact zeros among the bilinears; the pair lemma
+  (if 0 < D < ¼ then E ≥ min(2D, ¼), for every pair of holomorphic or antiholomorphic sections); the pair census (no
+  pair in the target's box); the triple census (22 triples in it, at D = 1/12, E = 0).
+- **A weaker first draft** of the lemma was replaced before the commit, and is disclosed in the rule. 0 of 19.
+
 ## W150 recorded: the heavy-state holder; five cells as predicted, H6 failed as worded on a flagged phrase (relay §257)
 
 - **It holds a curve, not a point:** the minimum is the level set m_Q(τ) = μ, and Re τ is exactly flat along it.
