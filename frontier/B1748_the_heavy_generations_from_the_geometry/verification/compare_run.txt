@@ -1,0 +1,11 @@
+R1_heavy_within_1.25_Lmax True
+R2_coarse_specific_Lmax False
+P1_chi2_heavy_below_bar_Lmax True
+P2_precision_specific_Lmax False
+L1_L2_misses_the_bar False
+L2_Lmax_more_specific_than_L2 True
+C1_control True
+L_max best worst factor 1.100; min chi2_heavy 1.16 (bar 13.28), rows below the bar 82; random as good: factor 0.0207 (worst seed 0.0230), chi2 0.0154 (worst seed 0.0182)
+      best by chi2: {'line': 88, 'Re_tau': 0.045454545, 'Im_tau': 2.3163986011347104, 'horocycle': 'L_max', 'null line': 'nbar', 'lepton_factor': 3.0, 'model/data (c/t, s/b, mu/tau, V_cb)': [1.0995, 0.9439, 1.0215, 1.0314], 'chi2_heavy': 1.163632782045721}
+L_2   best worst factor 1.222; min chi2_heavy 3.13 (bar 13.28), rows below the bar 141; random as good: factor 0.1725 (worst seed 0.1830), chi2 0.0739 (worst seed 0.0803)
+      best by chi2: {'line': 97, 'Re_tau': 0.166666667, 'Im_tau': 2.386303510546059, 'horocycle': 'L_2', 'null line': 'nbar', 'lepton_factor': 1.0, 'model/data (c/t, s/b, mu/tau, V_cb)': [1.0696, 0.8179, 0.9539, 0.9568], 'chi2_heavy': 3.126103686784803}
