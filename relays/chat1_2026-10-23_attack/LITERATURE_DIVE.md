@@ -1,10 +1,10 @@
 # LITERATURE DIVE (A-3): the frame against magnetized tori and modular flavour symmetry
 
 chat1 side task (track A-3 of THE_PLAN_AFTER_THE_READING_TEST), 2026-10-24. Literature only: no computation was run for
-this note. **Added after it was written:** its import 1 was checked data-free the same day (`exploration/e13_r_vs_s4prime.py`,
-`e13b_r_scalar_factor.py`, each committed before its run): **R = η⁻³ · (−εθ, ε²/√2, −θ²/√2) on (e₁, n, n̄) exactly** —
-η⁻³/√2 times the S₄′ weight-1 triplet (√2εθ, ε², −θ²) with the sign of e₁ flipped (θ = Θ₃(2τ), ε = Θ₂(2τ); twelve τ
-from 0.9i to 0.325 + 3.4i, agreement 10⁻¹³ or better). See `R_IS_THE_S4PRIME_TRIPLET.md`. 0 of 19.
+this note. **Added after it was written:** its import 1 holds — R = η⁻³ · (−εθ, ε²/√2, −θ²/√2) on (e₁, n, n̄), η⁻³/√2 times the S₄′
+weight-1 triplet (√2εθ, ε², −θ²) with e₁'s sign flipped (checked data-free at twelve τ, `exploration/e13*`). It is main's
+B1746 formula v = (−θ₂², −θ₄², iθ₃²) = 2η³R rewritten with the duplication identities, which chat1 read after the check;
+see `R_IS_THE_S4PRIME_TRIPLET.md`. 0 of 19.
 
 ## How this was read, and how far to trust it
 
@@ -267,7 +267,7 @@ an elementary factor. In magnetized language this is a Wilson line with componen
 - **Magnetized Higgs and CKM details:** the Higgs content and CKM numbers of 1211.4317; the CKM content of 1605.00140; the U(1) direction of Buchmüller–Schweizer's Wilson lines (not named in the text I received).
 - **Hypercharge-direction twists:** whether any magnetized model uses a hypercharge-direction Wilson line or flux that shifts characteristics in proportion to Y_i, as the frame's twists do. **[NOT FOUND]**
 - **The level of theta constants:** that theta constants with characteristics in (1/N)ℤ are weight-½ forms on a principal congruence subgroup of level dividing 2N². This is from memory and was not checked.
-- **Import 1:** not computed for this note; checked afterwards (e13, e13b): it holds exactly, with the scalar factor η⁻³/√2.
+- **Import 1:** not computed for this note; checked afterwards (e13, e13b): it holds exactly, with the scalar factor η⁻³/√2 — B1746's formula in NPP's basis.
 - **Journal references:** several were not confirmed; arXiv numbers are given throughout. Barger 2026 (2609.09262) and Wang–Zhang 2026 (2601.09542) are recent preprints of unknown review status.
 - **Blocked fetches:**
   - arxiv.org/abs/1204.5327, 1605.00140 and 1701.06935 (direct; later reached through search results);
