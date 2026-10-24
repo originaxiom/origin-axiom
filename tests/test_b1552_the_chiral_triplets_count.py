@@ -4479,3 +4479,25 @@ def test_w146_the_higgs_invariant_dichotomy():
         assert abs(ratio - 1) < 1e-6
     finally:
         mpmath.mp.dps = dps
+
+
+def test_w148_the_p210_review():
+    """W148, the audit lane's two P-210 notes on own code: the cells as recorded (E6 failed as worded, the wrong-sign
+    control over-claimed, flagged before the run); in process, the Q8 commutant's dimension and the contraction"""
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_p210_review.json").read_text(encoding="utf-8"))
+    c = d["cells"]
+    assert not c["E6"] and all(c[k] for k in c if k != "E6") and len(c) == 12
+    e6 = d["E6"]
+    assert e6["wrong sign: least |G' on G1's graphs|"] > 1 and e6["wrong sign: largest |G' on E2's L_ext|"] < 1e-12
+    assert d["G3"]["indices 2r - 3"] == [-3, -1, 1, 3]
+    qi, qj = np.array([[1j, 0], [0, -1j]]), np.array([[0, 1], [-1, 0]], dtype=complex)
+    rows = []
+    for A in (np.kron(np.eye(3), qi), np.kron(np.eye(3), qj)):
+        rows.append(np.kron(np.eye(6), A.T) - np.kron(A, np.eye(6)))       # vec(XA - AX), row-major vec
+    assert 36 - np.linalg.matrix_rank(np.vstack(rows)) == 9
+    eps = np.array([[0, 1], [-1, 0]])
+    C = (qj, qi, qi @ qj)
+    Y = np.array([[np.sum((C[a].T @ eps @ C[b]) * np.linalg.inv(eps)) for b in range(3)] for a in range(3)])
+    assert np.allclose(Y, -2 * np.eye(3))

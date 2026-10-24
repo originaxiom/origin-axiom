@@ -1,5 +1,20 @@
 # Changelog
 
+## W148 recorded: the audit lane's two P-210 notes hold on own code, no error by the lane; one of this seat's controls over-claimed, flagged before the run (relay §250). And W147's rule, committed and pushed before its script (relay §249)
+
+- **The first note:**
+  - the null planes are the unitary graphs, and the Q8 commutant is M₃ ⊗ I₂ (dimension 9);
+  - the grading cuts the U(3) family to even ranks, index −3, −1, +1, +3;
+  - the Cayley chart, the projector path and the planes (8) behave as stated;
+  - Y_ab = −2δ_ab.
+- **The second note:** the constant-tail operator, its L² plane, Weyl's bound, the threshold comparator and the
+  far-tail sequence hold as stated.
+- **E6 failed as worded.** Under the wrong Green sign E₊ ⊕ E₋ stays null, since its slots are orthogonal. Flagged in
+  the script's docstring before the run.
+- **W147's rule.** Every pair of GENESIS PF1-W's four Higgs spaces is checked against a common three-generation
+  condition, a pair term, W132's closure and the weave's order.
+- **Surfaces.** NOTE (section and row), the lock test, relays §249 and §250, row 317, the state page's range. 0 of 19.
+
 ## W146 recorded: P-357 data-free — no holomorphic or antiholomorphic Higgs in ρ ⊗ χ holds the invariant at the cusp; a harmonic Higgs does, exactly; the web seat's three lemmas hold (relay §248). And W148's rule, committed and pushed before its script (relay §247)
 
 - **The dichotomy, on the record.**

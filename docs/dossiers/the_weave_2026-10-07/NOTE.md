@@ -7726,6 +7726,67 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W148. The audit lane's two P-210 notes (82c772eb5 and 3ee8f33d0), reviewed on own code at the owner's "lets go for all systematically": their algebra holds. At the symmetric state the Q8-invariant maximal null planes are a U(3) family, the grading cuts them to the even ranks with index in {−3, −1, +1, +3}, and the contraction is −2δ_ab. A uniformly gapped Q8 tail gives even plus rank, and the threshold control and the far-tail sequence are as stated. One cell failed as worded: this seat's own wrong-sign control, which the rule over-claimed and the script's docstring flagged before the run. No error by the lane (`the_p210_review.py`; `W148_RULE.md`)
+
+**Why.**
+- The audit lane's two relays of 2026-10-24 ask for independent review of two P-210 notes. Neither note ran code, and
+  each names its own verification duties.
+- This seat reviewed the lane's earlier checkpoints in W144. The owner approved this in order.
+
+**The order.**
+- The rule (`W148_RULE.md`, 36e391790) was committed and pushed before the script existed.
+- The script (1e2e99b2a) was committed before its one run (44 s). Its docstring disclosed, before the run, that E6's
+  wrong-sign control as worded was expected to fail. Two slips found by reading were fixed before the commit.
+- Its output (82ea171e8) was committed unread, then read once. The run log's two lines with the checkout's absolute
+  prefix had the prefix removed mechanically for the path gate, as W133's failed-launch log did.
+
+**The result (COMPUTED; every cell as predicted except E6, failed as worded).**
+- **G1, the Green form.** G = a†a′ − b†b′ (sympy). On 200 unitary graphs G vanishes to 1.7 × 10⁻¹⁵, and the
+  projection to a has rank 6. On 200 null planes given by a non-orthonormal basis (P; Q), QP⁻¹ is unitary to
+  1.3 × 10⁻¹⁴, and each plane is its own G-orthogonal complement, of dimension 6.
+- **G2, the Q8 commutant.** In both quaternion bases the commutant of I₃ ⊗ i and I₃ ⊗ j is exactly M₃(ℂ) ⊗ I₂, of
+  dimension 9 (exact ranks).
+- **G3, the grading.** Γ exchanges a and b. On 200 non-involutions C the graph of C ⊗ I₂ moves under Γ by at least
+  0.43. On Hermitian involutions of rank r = 0, 1, 2 and 3 it is invariant (to 10⁻¹⁵), its plus trace has dimension
+  0, 2, 4 and 6, and the indices 2r − 3 are −3, −1, +1 and +3.
+- **G4, the Cayley chart.** v = iHu is null exactly, U = (I − iH)(I + iH)⁻¹ is unitary with the same graph (to
+  1.4 × 10⁻¹⁵), and A ⊗ I₂ commutes with both generators. h = 0 gives v = 0, and U = −I is u = 0, outside the chart.
+- **G5, the projector path.** H₂(S_t) = t n·σ (sympy, and numerically to 1.5 × 10⁻¹⁵). The projectors for n and −n
+  are orthogonal at distance 1 for every t. The planes (8) are within 10⁻⁵ of v = 0 and u = 0 at t = 10⁻⁶, covariant
+  under S ↦ gS and S ↦ gSg† to 1.8 × 10⁻¹⁵, and not Γ-invariant off S = I₂ (∣U² − I∣ ≥ 1.10 at t = 0.3).
+- **G6, the contraction.** C_aᵀε = −εC_a, (ε⁻¹)ᵀ = ε, and Y_ab = tr(C_aC_b) = −2δ_ab, exactly in both bases.
+- **E1, the constant-tail operator.** D_K equals the block form (1) exactly. Γ anticommutes with it. The boundary
+  identity holds to 5.3 × 10⁻¹⁵ relative on polynomial spinors.
+- **E2, the zero modes.** mpmath's expm, differentiated numerically at 30 digits, solves D_Kψ = 0 to 1.7 × 10⁻¹⁹.
+  Decay holds exactly on E₊ (u) and E₋ (v). L_ext is six-dimensional, G-null to 1.1 × 10⁻¹⁵ and Γ-invariant.
+- **E3, the stabilizer and the gap.** A ⊗ I₂ has even positive rank on 200 draws. Weyl's bound holds on 2 000 pairs.
+  The positive count is constant on 200 gapped paths.
+- **E4, the threshold comparator.** K(S_s) = s I₃ ⊗ n·σ to 1.4 × 10⁻¹⁵. Its positive space is the rank-3
+  projector's range, its threshold is s² and its decay lengths are 1/s.
+- **E5, the far-tail sequence.** ‖f_L‖² = 1 and ‖D₀f_L‖² = L⁻²∫∣χ′∣² (22.575, 0.22575 and 0.0022575) to
+  1.7 × 10⁻³¹, at L = 1, 10 and 100.
+- **E6, the extremes and the controls: FAILED as worded.**
+  - K = ±mI₆ gives v = 0 (index +3) and u = 0 (index −3).
+  - The reversed decay selects E₋ ⊕ E₊, six-dimensional and null. With the MINUS slot omitted, E₊ ⊕ 0 is below six.
+  - Under the wrong Green sign, G1's graphs stop being null (by at least 1.52). But E2's L_ext stays null (to
+    1.2 × 10⁻¹⁵). The rule had said both would stop.
+
+**The diagnosis of E6 (made before the run, and disclosed in the script's docstring).** L_ext = E₊ ⊕ E₋ has its
+u-part orthogonal to its v-part. Both terms of u†v′ ± v†u′ then vanish, whichever the sign. So the wrong-sign
+control separates only planes whose two slots overlap, as G1's graphs do. The over-claim was this seat's rule. The
+lane's note lists the wrong sign as a control without saying which planes it removes.
+
+**Read with the record (a reading).**
+- The lane's classification, its even-rank grading result and its constant-tail control are confirmed as algebra.
+- **Three needs a threshold, a changed stabilizer, a changed grading, or another tail.** This matches W28 and W144:
+  the ±3 extremes come from the moves and from locality.
+- Nothing here closes P-210 or derives a physical end.
+
+**Weave or thread.** Neither: a review of another seat's algebra at one fixed state.
+
+**Status.** COMPUTED. One run. Every cell as predicted except E6, failed as worded through an over-claim in this
+seat's own control, flagged before the run. No error by the lane. Not a trial. 0 of 19.
+
 ## W146. P-357 data-free first (main's P-357 and the web seat's relay at 521262a4d, at the owner's "lets go for all systematically"): no holomorphic or antiholomorphic Higgs in the frame's representation holds the invariant I = ∣h·h∣/∣h∣² strictly between 0 and 1 at the cusp, at any weight, character or level. Every one is exactly null, tends to 1, or falls like C e^{−π Im τ}: C = 72 for main's ∂R and 4a for F_a. The nine's target rises slightly across its band (+0.24) instead. A harmonic Higgs F̄ + κF holds it, and since F·F = 0 its I is 2∣κ∣/(1 + ∣κ∣²) at every τ (read after the run). The web seat's Lemmas A, A′ and B hold on own code. L1 is recorded as failed through a condition the script added beyond the rule, diagnosed post hoc as 30-digit roundoff (`the_higgs_invariant_dichotomy.py`; `…_posthoc.py`; `W146_RULE.md`)
 
 **Why.**
@@ -12433,6 +12494,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W148 | COMPUTED (the rule first; one run; every cell as predicted except E6, failed as worded through an over-claim in this seat's own wrong-sign control, flagged before the run); a review of another seat's algebra | the audit lane's two P-210 notes on own code, none of its code run (it has none): the Green form's null planes are unitary graphs; the Q8 commutant is M₃ ⊗ I₂ (dimension 9) in two bases; the grading cuts the U(3) family to even ranks, index −3, −1, +1, +3; the Cayley chart, the projector path and the planes (8) as stated; Y_ab = −2δ_ab; the constant-tail operator, its L² plane, Weyl's bound, the threshold s² and the far-tail sequence as stated. No error by the lane. Not a trial. 0 of 19 |
 | W146 | COMPUTED (the rule first, corrected twice before its push; one run; every cell as predicted except L1, recorded as failed through a condition the script added beyond the rule, diagnosed post hoc as 30-digit roundoff); WEAVE-type | P-357 data-free: every holomorphic or antiholomorphic Higgs in ρ ⊗ χ, at any weight, character or level, is exactly null (R, F₂), tends to I = 1 (e₁-led), or falls like C e^{−π Im τ} (C = 72 for ∂R, 4a for F_a, checked to 10⁻⁷). The target's I rises (+0.24) across its band instead. The weight pencil leaves h·h fixed, and I is scale-free. The harmonic F̄ + κF (F = η⁻³R) has I = 2∣κ∣/(1 + ∣κ∣²) at every τ, since F·F = 0. The web seat's Lemmas A, A′, B hold; the maximised ‖u‖/m₃ is √2. E₆ gives no one-doublet way out (a reading). Not a trial. 0 of 19 |
 | W145 | COMPUTED (the rule first; one run; every cell as predicted except A2, failed as worded and diagnosed post hoc as a tie between mirror points); a thread result | the third opinion on main's B1741 (P-348): compare.py re-runs to 4.9 × 10⁻¹³; a second calibration gives the same 60 per-seed fractions and minima to 3.4 × 10⁻¹³; the 121 class words give exactly the 75 apexes; the six best rows reproduce on the own instrument to 2.4 × 10⁻⁹. The minimum sits at line 150, Re τ 3.6, tied to 2 × 10⁻¹¹ with FINDINGS' line 153 at 3.4. B1724's law flips J. The match needs the 10% allowance (43.2 at 5%) and with c over {1, …, 5} is not specific (1.21%). A value-level READING, bankable as that and no more. 0 of 19 |
 | W144 | COMPUTED (the rule first; one run; seven of eleven cells held, four failed through this seat's instrument; all eleven hold post hoc) | the audit lane's five checkpoints (relay 17cdad33a) reviewed on own code, none of its code run: the joint root action and the corrected s⁴ = εJ_c⁻¹; the puncture expansion and connecting map with its kernel table (Λ = U gives (3, 3)); the transported principal parts, their root factors and Green form; projective regularity at exactly d = 0 or 6; the E₈ central kernel ℤ₆ with (−I₆, I₃, I₂) nontrivial. No error by the lane. The four failures were mpmath's principal nome root off −1 < Re τ ≤ 1, against CONVENTIONS §4 (the ratio exactly i^{−k}). Not a trial. 0 of 19 |

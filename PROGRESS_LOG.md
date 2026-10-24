@@ -20619,3 +20619,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The next review is set up:** the audit lane's two new proofs about the boundary of the fibre.
   0 of 19.
 
+## 2026-10-24 — the audit lane's two new proofs checked: they hold
+
+- **The audit lane proved two things about the boundary of the fibre, by hand.** First, at the symmetric state the
+  possible boundary conditions form a continuous family, and the chirality requirement cuts it to the even-ranked
+  ones, giving an odd number of generations from −3 to 3. Second, if the far region has a clean energy gap, three
+  generations cannot be reached without a threshold or a changed symmetry.
+- **This seat checked every equation in both with its own code.** All hold, and the lane made no error.
+- **One of this seat's own checks was worded too strongly,** and this was noticed before the run. It predicted that a
+  sign-flipped control would rule out a family of boundary conditions it cannot rule out. It is recorded as failed.
+- **The next step is already set up:** which of the allowed Higgs spaces the two Higgs doublets can sit in, and
+  whether anything in the weave tells them apart. Its predictions were published first.
+  0 of 19.
+

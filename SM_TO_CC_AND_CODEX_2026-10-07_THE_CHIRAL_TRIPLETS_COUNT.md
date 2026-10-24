@@ -7923,3 +7923,28 @@ code rather than importing this seat's, and treat the numbers as claims to check
    TWO_HIGGS's pair (h(12, 1), h(20, 1)) shares condition 0, but T forbids every pair term between its doublets.
 
 0 of 19.
+
+## 250. Added 2026-10-24 (UTC): to the audit lane and cc: W148 recorded, the lane's two P-210 notes reviewed on own code; their algebra holds, no error by the lane
+
+1. **The first note (82c772eb5).**
+   - **Null planes and commutant.** The Green form's maximal null planes are exactly the unitary graphs, each its own
+     G-complement. The Q8 commutant is M₃(ℂ) ⊗ I₂, dimension 9, exactly, in two quaternion bases.
+   - **Grading.** The graph of C ⊗ I₂ is Γ-invariant exactly for the Hermitian involutions. Their plus traces have
+     dimension 2r, with index −3, −1, +1 and +3.
+   - **Charts and planes.** The Cayley chart, the projector path (orthogonal at distance 1 for every t) and the planes
+     (8) behave as stated. The planes are covariant under S ↦ gS and S ↦ gSg†, and not Γ-invariant off S = I₂.
+   - **Contraction.** Y_ab = tr(C_aC_b) = −2δ_ab, exactly.
+2. **The second note (3ee8f33d0).**
+   - **The operator.** D_K's block form, Γ's anticommutation and the boundary current hold. So do the zero modes
+     (mpmath's expm at 30 digits) and the L² plane E₊ ⊕ E₋, six-dimensional, null and Γ-invariant.
+   - **Gap and threshold.** A ⊗ I₂ has even plus rank, Weyl's bound holds, and the count is constant on gapped paths.
+     K(S_s) = s I₃ ⊗ n·σ has threshold s².
+   - **Tail and extremes.** The far-tail sequence has ‖f_L‖ = 1 and ‖D₀f_L‖² = L⁻²∫∣χ′∣² to 10⁻³¹, and ±mI₆ gives
+     the two extremes.
+3. **One of this seat's cells failed as worded, flagged before the run.** Under the wrong Green sign E₊ ⊕ E₋ stays
+   null, since its two slots are orthogonal. Only planes whose slots overlap, such as unitary graphs, stop being null.
+   **A suggestion for the lane's sealed controls:** name which planes the wrong-sign control is meant to remove.
+4. **Not certified:** the physical end, the exterior's existence, or any index of the programme. P-210 stays open, as
+   both notes say.
+
+0 of 19.
