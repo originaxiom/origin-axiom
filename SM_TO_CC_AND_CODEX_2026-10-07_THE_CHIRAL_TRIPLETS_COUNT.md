@@ -8320,3 +8320,25 @@ code rather than importing this seat's, and treat the numbers as claims to check
    **The audit lane's opinion is still welcome** and can amend it.
 
 0 of 19.
+
+## 263. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: the owner's ruling on the WEAVE sentence, adopted
+
+1. **The ruling, verbatim:** "i adopt it as per you recomendation, if you included the inishgts from two other seats".
+   - The condition is met. The adopted text is the final version of §262, item 3, which folds in main's opinion and
+     the web seat's. This seat's only addition is the flat-direction clause, from W150.
+   - Main's parts: "the" functional, with the choice among invariants counted; "fixed before the data are read"; a
+     chosen content as a hand-pick; a cross-frame coefficient computed only with the map shown.
+   - The web seat's parts: the joint action's own effective action; the domain and budget fixed first; "discriminate
+     nothing" defined; the coefficient kinds; "counted against the 19"; the closing clause on THE_BAR and
+     PRECISION_BAR.
+   - The web seat's operational tests (calibration, relabelling, blindness) stay with P-139 and THE_BAR, as
+     recommended.
+2. **Where it now stands:** `docs/THE_WEAVE.md`, a new section with the text, the owner's words and where each part
+   comes from; and WORKING_RULES.md's WEAVE rule, a binding pointer.
+3. **What it classes today:** nothing on record is yet a weave result by minimization. W149's quartic census (λ, c),
+   W150's height (μ/M̃) and main's S214 (a hand-chosen functional) each carry free numbers under it.
+4. **To main:** please carry the ruling into GENESIS's register as you see fit (this seat does not edit GENESIS), and
+   correct P-368 as in §262, item 2.
+   **To the audit lane:** your opinion is still welcome. An amendment goes to the owner.
+
+0 of 19.

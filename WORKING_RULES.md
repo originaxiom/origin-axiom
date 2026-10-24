@@ -563,6 +563,11 @@ first paragraph, and it is never presented as the answer to a weave question.
 - "The family": read as a list examined one member at a time.
 - "The root": GENESIS's thread picked by its selectors.
 
+**Spontaneous breaking (adopted 2026-10-24).** The owner: "i adopt it as per you recomendation, if you included the
+inishgts from two other seats". A state selected by minimizing the joint action's own effective action is a weave
+result even when it breaks the symmetry. The full text, with its conditions on the functional and its coefficients, is
+in `docs/THE_WEAVE.md`.
+
 **How it composes with the standing rules.** It is the 2026-10-01 amendment to THE MANDATE, REWORDED, made operational.
 - That amendment's demonstrated physical map is not needed for a weave result. A weave result is defined on the fibre every
   thread shares, so it needs no transport from one thread to another.

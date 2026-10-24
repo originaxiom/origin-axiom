@@ -1,5 +1,13 @@
 # Changelog
 
+## THE WEAVE rule: "Spontaneous breaking is not a hand-pick" adopted by the owner (relay §263)
+
+- **The owner's ruling:** "i adopt it as per you recomendation, if you included the inishgts from two other seats".
+  The adopted text folds in main's and the web seat's opinions; the audit lane had not answered.
+- **Where:** `docs/THE_WEAVE.md` (the text, the ruling, and where each part comes from) and WORKING_RULES.md's WEAVE
+  rule (a binding pointer). The breaking chain's section 7 is marked adopted, and its lock test now requires the text.
+- **What it classes today:** nothing on record is yet a weave result by minimization. 0 of 19.
+
 ## W152 recorded: the Higgs as a qubit state; every cell as predicted (relay §262)
 
 - **The dictionary, exact:**

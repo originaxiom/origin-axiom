@@ -4530,7 +4530,9 @@ def test_the_breaking_chain_reading():
     page = (here / "THE_BREAKING_CHAIN_2026-10-24.md").read_text(encoding="utf-8")
     assert "**A READING: nothing here is computed, and it adds no claim.**" in page and page.rstrip().endswith("0 of 19.")
     assert "## Reading: the breaking chain" in (here / "NOTE.md").read_text(encoding="utf-8")
-    assert "Spontaneous breaking is not a hand-pick." not in (ROOT / "docs" / "THE_WEAVE.md").read_text(encoding="utf-8")
+    weave = (ROOT / "docs" / "THE_WEAVE.md").read_text(encoding="utf-8")
+    assert "Spontaneous breaking is not a hand-pick." in weave and "counted against the 19" in weave
+    assert "i adopt it as per you recomendation" in weave and "(adopted 2026-10-24)" in weave
     with mp.workdps(30):
         def R(t):
             q = lambda x: mp.e ** (1j * mp.pi * t * x)

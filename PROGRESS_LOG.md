@@ -20772,3 +20772,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What would explain it** is the next question. A symmetric rule acting on the state alone would land on a special
   point, so something more is needed.
   0 of 19.
+
+## 2026-10-24 — the owner adopts the rule on symmetry breaking
+
+- **The owner adopted the combined wording.** It folds in two of the other seats' opinions, and says when a state
+  chosen by minimizing something counts as the system's own result rather than a hand-pick. The quantity minimized must
+  be the system's own, fixed before computing and before any data. Every number in it must be forced or computed, and
+  any fitted number is a cost against the count of free numbers.
+- Nothing on record meets it yet. That makes the next real task precise: compute the system's own quantity, then
+  minimize it.
+  0 of 19.

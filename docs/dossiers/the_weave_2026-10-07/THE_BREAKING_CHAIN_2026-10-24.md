@@ -209,7 +209,7 @@ is about object 2, read through object 1.
   6. "|δ|² ≈ 0.97 |s_R|" is an observation by eye, of exactly the kind the stopping rule warns about. It is evidence of
      nothing until a named object predicts it, phases included, before the comparison.
 
-## 7. Spontaneous breaking and THE WEAVE rule (a draft for the owner; not applied)
+## 7. Spontaneous breaking and THE WEAVE rule (a draft for the owner; adopted 2026-10-24 in a revised form)
 
 - **The rule today** (the repository's standing instructions; `docs/THE_WEAVE.md`). A weave result takes every thread
   the principle allows under a stated rule, defines its quantity by the joint action, and claims something about all
@@ -229,6 +229,9 @@ is about object 2, read through object 1.
   that.
 - **The owner's word, 2026-10-24:** "we should ask for opinions the other seats as well, please relay". Relayed in
   §255 with four questions. The rule is unchanged until the owner rules.
+- **Adopted, 2026-10-24.** The owner: "i adopt it as per you recomendation, if you included the inishgts from two
+  other seats". The adopted text is the final version of relay §262, item 3. It folds in main's and the web seat's
+  opinions and replaces the draft above. It is in `docs/THE_WEAVE.md`.
 
 ## 8. The state of the values (living; this seat's reading of the record)
 

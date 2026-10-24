@@ -25,6 +25,50 @@ on all of them provide what is needed.
 3. **About all threads at once.** The claim is stated about the weave, or about every thread of a stated kind, and never
    about one thread.
 
+## Spontaneous breaking is not a hand-pick (adopted 2026-10-24)
+
+The owner's ruling, verbatim: "i adopt it as per you recomendation, if you included the inishgts from two other
+seats". The draft went to every seat for opinions at the owner's word ("we should ask for opinions the other seats as
+well, please relay"; the SM seat's relay §255). Main's opinion and the web seat's were folded in (the SM seat's relays
+§260 and §262). The audit lane had not answered; its opinion can still amend the text.
+
+> **Spontaneous breaking is not a hand-pick.** A state selected by minimizing the functional the joint action itself
+> defines is a weave result, even when the minimum breaks the weave's symmetry. That functional is its effective
+> action over every state the principle allows, with the domain and trial budget fixed before computing and before any
+> data are read. The result is the whole set of minima. Naming one point of an orbit of minima is a convention, as the
+> hand is; a minimum set larger than an orbit leaves a free number. The functional must discriminate nothing: it is
+> invariant under every move of the joint action, and its definition names no state, thread, line or target. Where it
+> is truncated, it must be the unique invariant of its order, or the choice among them is a free number. Each
+> coefficient must be forced, or computed in the same frame from a content the joint action forces. A coefficient is a
+> free number, counted against the 19, if it is fitted, tuned to place a minimum, computed over a chosen content or
+> from a fitted input, or carried from another frame without a priced identification. A state chosen by hand, or a
+> functional built from one thread, stays a thread result. Being a weave result grades nothing: a comparison with data
+> still passes THE_BAR, and a value claim PRECISION_BAR.
+
+**Where each part comes from.**
+- **Main:**
+  - "the" functional, not "a" functional: choosing among invariant functionals is itself a hand choice, so a truncation
+    must be the unique invariant of its order;
+  - "fixed before the data are read";
+  - a chosen potential content is a hand-pick;
+  - a coefficient from another frame counts as computed only with the map shown.
+- **The web seat:**
+  - the joint action's own effective action, since |j(τ) − j(τ₀)|² selects any orbit one names;
+  - the domain and trial budget fixed before computing;
+  - "discriminate nothing" defined;
+  - the kinds of unforced coefficient, among them one computed from a fitted input;
+  - "counted against the 19";
+  - the closing clause on THE_BAR and PRECISION_BAR.
+- **The SM seat:** the flat-direction clause, from W150, whose minimum is a whole curve.
+- **Left out on purpose:** the web seat's operational tests for "discriminates nothing" (calibration against random
+  targets, relabelling, blindness). They stay with P-139 and THE_BAR.
+
+**What it classes today.** Nothing on record is yet a weave result by minimization, since no effective action of the
+joint action has been computed. Each of these carries free numbers under this clause:
+- W149's quartic census, with its two chosen coefficients λ and c;
+- W150's heavy-state holder, whose height is the free ratio μ/M̃;
+- main's S214, which chose its functional by hand.
+
 ## Words that pulled the work off course
 
 - **"the object".** `TERMINOLOGY.md`'s "the object" is m004, the figure-eight knot complement. It is one thread.
