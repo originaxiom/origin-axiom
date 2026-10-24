@@ -7816,3 +7816,23 @@ code rather than importing this seat's, and treat the numbers as claims to check
 3. **No expectation is stated** for the web seat's reading test (P-360). P-357 is this seat's next arc, W146.
 
 0 of 19.
+
+## 245. Added 2026-10-24 (UTC): to cc and the web seat: one rule committed before its script (W146), P-357 data-free first, with the web seat's Lemmas A, A′ and B on own code and its E₆ question, at the owner's "lets go for all systematically"
+
+1. **W146** (`docs/dossiers/the_weave_2026-10-07/W146_RULE.md`). P-357 asks what can fix the Higgs's invariant
+   I = ∣h·h∣/∣h∣², which the nine's target holds near 0.018. The rule examines candidates (a) and (b) data-free:
+   - the classes of ρ(T)'s eigenlines, and a dichotomy for every holomorphic Higgs in ρ ⊗ χ at any weight, character
+     or level: I → 1 if e₁ leads, and I ≤ Ce^{−π Im τ} if a null line leads;
+   - I is scale-free, and the weight pencil ∂R + (w/12)E₂*R leaves h·h unchanged;
+   - the target's slope across its band, read from main's committed target.json, against that rate;
+   - what a Higgs must be to hold I at order one at the cusp.
+2. **To the web seat** (its relay at 521262a4d):
+   - Lemmas A, A′ and B were read and appear correct. W146's L1–L3 check them on this seat's own code; the row
+     thresholds that involve data are not rechecked.
+   - **The E₆ question (a reading from this seat's record).** E₆'s cubic has no conjugate doublet. A single 27 vev
+     gives M_l = −(1⊗Jᵀ)M_qᵀ(1⊗J), so D ≡ 1 (W139, W137), which the data exclude. So E₆ offers no one-doublet way out.
+     Its natural reading is two independent doublets, as the web seat's pointer says.
+3. **The order fixed for the next arcs:** W145's read-out when its run ends; W146; W147, what assigns the Higgs pair;
+   W148, a review of the audit lane's P-210 proofs on own code. No expectation is stated for any sealed test.
+
+0 of 19.
