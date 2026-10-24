@@ -1,0 +1,492 @@
+{
+ "arc": "W149",
+ "rule": "W149_RULE.md",
+ "status": "one run",
+ "python": "3.11.15",
+ "C1": {
+  "the generated group (linear), order": 48,
+  "projective elements det(g) g": 24,
+  "every element preserves h.h": true,
+  "candidate isotropic eigenlines": 46,
+  "distinct special lines": 26,
+  "stabilizer order: number of lines": {
+   "2": 12,
+   "3": 8,
+   "4": 6
+  },
+  "h0's stabilizer": [
+   4
+  ],
+  "random conic points: max |h.h|": "3.83e-16",
+  "random conic points: least |g h ^ h| over g != 1": "1.388e-02"
+ },
+ "C2": {
+  "max R.R / |R|^2 (20 tau)": "5.04e-31",
+  "T-law, max projective distance": "2.6e-31",
+  "S-law, max projective distance": "5.69e-31",
+  "stabilizer of [R(i)]": 2,
+  "stabilizer of [R(omega)]": 3,
+  "[R(iy)] against the nearest Z4-line (y, line index, distance)": [
+   [
+    2,
+    4,
+    "0.1215"
+   ],
+   [
+    4,
+    4,
+    "0.005282"
+   ],
+   [
+    6,
+    4,
+    "0.0002283"
+   ],
+   [
+    8,
+    4,
+    "9.864e-6"
+   ],
+   [
+    10,
+    4,
+    "4.262e-7"
+   ]
+  ],
+  "chart constants along tau = iy": [
+   {
+    "y": 2,
+    "lead": "conj h0",
+    "|s_R|/|q4|": "2.8284074",
+    "|far/lead| / (|s_R|^2/2) - 1": "1.75521551e-29",
+    "|far/lead| e^{pi y}": "3.9999442"
+   },
+   {
+    "y": 3,
+    "lead": "conj h0",
+    "|s_R|/|q4|": "2.82842709",
+    "|far/lead| / (|s_R|^2/2) - 1": "1.28189897e-28",
+    "|far/lead| e^{pi y}": "3.9999999"
+   },
+   {
+    "y": 4,
+    "lead": "conj h0",
+    "|s_R|/|q4|": "2.82842712",
+    "|far/lead| / (|s_R|^2/2) - 1": "6.0604239e-28",
+    "|far/lead| e^{pi y}": "4.0"
+   },
+   {
+    "y": 5,
+    "lead": "conj h0",
+    "|s_R|/|q4|": "2.82842712",
+    "|far/lead| / (|s_R|^2/2) - 1": "2.46799276e-25",
+    "|far/lead| e^{pi y}": "4.0"
+   },
+   {
+    "y": 6,
+    "lead": "conj h0",
+    "|s_R|/|q4|": "2.82842712",
+    "|far/lead| / (|s_R|^2/2) - 1": "7.61753672e-25",
+    "|far/lead| e^{pi y}": "4.0"
+   }
+  ]
+ },
+ "C3": {
+  "rho(T) in line coordinates is diag(e^{2 pi i (1, 3, 7)/8})": true,
+  "e1's exponent minus each null line's, mod 1": [
+   "1/4",
+   "3/4"
+  ],
+  "slopes of ln|delta| over y = 4..8": {
+   "R": {
+    "k": 0,
+    "slope": -1.5707963,
+    "predicted": -1.5707963,
+    "lead at y = 8": "conj h0"
+   },
+   "F2": {
+    "k": 0,
+    "slope": -1.5707963,
+    "predicted": -1.5707963,
+    "lead at y = 8": "conj h0"
+   },
+   "dR": {
+    "k": 0,
+    "slope": -1.5707963,
+    "predicted": -1.5707963,
+    "lead at y = 8": "conj h0"
+   },
+   "F6": {
+    "k": 1,
+    "slope": -4.712389,
+    "predicted": -4.712389,
+    "lead at y = 8": "h0"
+   },
+   "F10": {
+    "k": 2,
+    "slope": -7.8539816,
+    "predicted": -7.8539816,
+    "lead at y = 8": "conj h0"
+   },
+   "F14": {
+    "k": 3,
+    "slope": -10.9955743,
+    "predicted": -10.9955743,
+    "lead at y = 8": "h0"
+   },
+   "F18": {
+    "k": 4,
+    "slope": -14.1371669,
+    "predicted": -14.1371669,
+    "lead at y = 8": "conj h0"
+   },
+   "F22": {
+    "k": 5,
+    "slope": -17.2787596,
+    "predicted": -17.2787596,
+    "lead at y = 8": "h0"
+   },
+   "F26": {
+    "k": 6,
+    "slope": -20.4203522,
+    "predicted": -20.4203522,
+    "lead at y = 8": "conj h0"
+   }
+  },
+  "max |slope - predicted|": "3.10e-09",
+  "|delta_dR| / |delta_R| (y = 4, 6, 8)": [
+   [
+    4,
+    "2.00000000234"
+   ],
+   [
+    6,
+    "2.0"
+   ],
+   [
+    8,
+    "2.0"
+   ]
+  ]
+ },
+ "C4": {
+  "draws": 400,
+  "set aside (within 1e-3 of a tie)": 8,
+  "classes": {
+   "6-orbit (0, 1, i)": 68,
+   "8-orbit (1, w, w^2)": 107,
+   "(1, 0, 0)": 116,
+   "(1, 1, 1)": 101,
+   "unclassified": 0
+  },
+  "classified but not the vertex minimizing lam y + c A": 0,
+  "largest distance to the class's vertex": "5.87e-13"
+ },
+ "R": {
+  "target sha256 as pinned": true,
+  "rows": [
+   {
+    "line": "(2/5, 3/5)",
+    "tau": [
+     0.4375,
+     2.1
+    ],
+    "hor": "L_2",
+    "leading": "h0",
+    "|delta|": 0.31683,
+    "epsilon + delta^2/2": [
+     0.00308,
+     -0.00928
+    ],
+    "I from delta and epsilon": 0.01772,
+    "I recorded": 0.01772
+   },
+   {
+    "line": "(2/5, 0)",
+    "tau": [
+     0.5625,
+     2.1
+    ],
+    "hor": "L_2",
+    "leading": "h0",
+    "|delta|": 0.31683,
+    "epsilon + delta^2/2": [
+     -0.00308,
+     -0.00928
+    ],
+    "I from delta and epsilon": 0.01772,
+    "I recorded": 0.01772
+   },
+   {
+    "line": "(2/5, 0)",
+    "tau": [
+     0.6875,
+     2.0
+    ],
+    "hor": "L_2",
+    "leading": "h0",
+    "|delta|": 0.33305,
+    "epsilon + delta^2/2": [
+     0.0008,
+     -0.00957
+    ],
+    "I from delta and epsilon": 0.01722,
+    "I recorded": 0.01722
+   },
+   {
+    "line": "(2/5, 3/5)",
+    "tau": [
+     0.3125,
+     2.0
+    ],
+    "hor": "L_2",
+    "leading": "h0",
+    "|delta|": 0.33305,
+    "epsilon + delta^2/2": [
+     -0.0008,
+     -0.00957
+    ],
+    "I from delta and epsilon": 0.01722,
+    "I recorded": 0.01722
+   },
+   {
+    "line": "(2/5, 0)",
+    "tau": [
+     0.5625,
+     2.2
+    ],
+    "hor": "L_2",
+    "leading": "h0",
+    "|delta|": 0.2895,
+    "epsilon + delta^2/2": [
+     -0.0029,
+     -0.0094
+    ],
+    "I from delta and epsilon": 0.01811,
+    "I recorded": 0.01811
+   },
+   {
+    "line": "(2/5, 3/5)",
+    "tau": [
+     0.4375,
+     2.2
+    ],
+    "hor": "L_2",
+    "leading": "h0",
+    "|delta|": 0.2895,
+    "epsilon + delta^2/2": [
+     0.0029,
+     -0.0094
+    ],
+    "I from delta and epsilon": 0.01811,
+    "I recorded": 0.01811
+   },
+   {
+    "line": "(2/5, 0)",
+    "tau": [
+     0.4375,
+     2.3
+    ],
+    "hor": "L_2",
+    "leading": "h0",
+    "|delta|": 0.27804,
+    "epsilon + delta^2/2": [
+     -0.00484,
+     -0.00876
+    ],
+    "I from delta and epsilon": 0.01853,
+    "I recorded": 0.01854
+   },
+   {
+    "line": "(2/5, 3/5)",
+    "tau": [
+     0.5625,
+     2.3
+    ],
+    "hor": "L_2",
+    "leading": "h0",
+    "|delta|": 0.27804,
+    "epsilon + delta^2/2": [
+     0.00484,
+     -0.00876
+    ],
+    "I from delta and epsilon": 0.01853,
+    "I recorded": 0.01854
+   },
+   {
+    "line": "(2/5, 0)",
+    "tau": [
+     0.1875,
+     3.2
+    ],
+    "hor": "L_max",
+    "leading": "h0",
+    "|delta|": 0.20805,
+    "epsilon + delta^2/2": [
+     -0.00522,
+     -0.00585
+    ],
+    "I from delta and epsilon": 0.01501,
+    "I recorded": 0.01501
+   },
+   {
+    "line": "(2/5, 3/5)",
+    "tau": [
+     0.8125,
+     3.2
+    ],
+    "hor": "L_max",
+    "leading": "h0",
+    "|delta|": 0.20805,
+    "epsilon + delta^2/2": [
+     0.00522,
+     -0.00585
+    ],
+    "I from delta and epsilon": 0.01501,
+    "I recorded": 0.01501
+   }
+  ],
+  "slope of ln|delta| against Im tau, L2 rows": -0.6318062217300123,
+  "the bound's slope": -1.5707963267948966,
+  "the 26 lines' (stabilizer, y, A)": [
+   {
+    "stabilizer": 4,
+    "y": "0.0",
+    "A": "0.5"
+   },
+   {
+    "stabilizer": 4,
+    "y": "0.0",
+    "A": "0.5"
+   },
+   {
+    "stabilizer": 2,
+    "y": "9.7234614e-63",
+    "A": "0.375"
+   },
+   {
+    "stabilizer": 2,
+    "y": "9.7234614e-63",
+    "A": "0.375"
+   },
+   {
+    "stabilizer": 2,
+    "y": "9.7234614e-63",
+    "A": "0.375"
+   },
+   {
+    "stabilizer": 2,
+    "y": "9.7234614e-63",
+    "A": "0.375"
+   },
+   {
+    "stabilizer": 4,
+    "y": "0.0",
+    "A": "0.5"
+   },
+   {
+    "stabilizer": 4,
+    "y": "0.0",
+    "A": "0.5"
+   },
+   {
+    "stabilizer": 2,
+    "y": "9.7234614e-63",
+    "A": "0.375"
+   },
+   {
+    "stabilizer": 2,
+    "y": "9.7234614e-63",
+    "A": "0.375"
+   },
+   {
+    "stabilizer": 3,
+    "y": "1.0803846e-63",
+    "A": "0.33333333"
+   },
+   {
+    "stabilizer": 3,
+    "y": "1.0803846e-63",
+    "A": "0.33333333"
+   },
+   {
+    "stabilizer": 3,
+    "y": "1.0803846e-63",
+    "A": "0.33333333"
+   },
+   {
+    "stabilizer": 3,
+    "y": "1.0803846e-63",
+    "A": "0.33333333"
+   },
+   {
+    "stabilizer": 2,
+    "y": "9.7234614e-63",
+    "A": "0.375"
+   },
+   {
+    "stabilizer": 2,
+    "y": "9.7234614e-63",
+    "A": "0.375"
+   },
+   {
+    "stabilizer": 3,
+    "y": "1.0803846e-63",
+    "A": "0.33333333"
+   },
+   {
+    "stabilizer": 3,
+    "y": "1.0803846e-63",
+    "A": "0.33333333"
+   },
+   {
+    "stabilizer": 2,
+    "y": "9.7234614e-63",
+    "A": "0.375"
+   },
+   {
+    "stabilizer": 2,
+    "y": "9.7234614e-63",
+    "A": "0.375"
+   },
+   {
+    "stabilizer": 3,
+    "y": "1.0803846e-63",
+    "A": "0.33333333"
+   },
+   {
+    "stabilizer": 3,
+    "y": "1.0803846e-63",
+    "A": "0.33333333"
+   },
+   {
+    "stabilizer": 2,
+    "y": "9.7234614e-63",
+    "A": "0.375"
+   },
+   {
+    "stabilizer": 2,
+    "y": "9.7234614e-63",
+    "A": "0.375"
+   },
+   {
+    "stabilizer": 4,
+    "y": "0.0",
+    "A": "0.5"
+   },
+   {
+    "stabilizer": 4,
+    "y": "0.0",
+    "A": "0.5"
+   }
+  ],
+  "R's Z4-line at the cusp, in W146's naming": "conj h0"
+ },
+ "cells": {
+  "C1": true,
+  "C2": true,
+  "C3": true,
+  "C4": true
+ },
+ "every predicted cell holds": true
+}
