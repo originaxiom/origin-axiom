@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1476** |
-| words of findings prose | **1,188,291** |
-| test lock files referenced | **891** |
-| arcs carrying an authored verdict | **1476** (100.0 %) |
-| recorded closures | **841** (674 classified, 167 routed-only) |
+| research arcs with findings | **1477** |
+| words of findings prose | **1,189,522** |
+| test lock files referenced | **892** |
+| arcs carrying an authored verdict | **1477** (100.0 %) |
+| recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 1007 |
-| NEGATIVE | 365 |
+| NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 111 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 112 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE READING TEST, VERIFIED ON MAIN (P-360; PROVED as a verification on a sample): the web seat's sealed result -- under the Standard Model's one-Higgs reading no Higgs direction carries the nine on any line of order <= 12 (S1 holds: none of 4 256 rows below 21.67, none below 100, the lowest 1 045.4 with |V_cb| 23.9 times measured; S4 and S5, the partial proof, fail) -- reproduced on main's own instrument from main's own starts on forty rows (the seat's twenty lowest and twenty seeded): main's lowest 1 045.41 (the seat's to 1e-6), median ratio 1.000, none below 100; on four hopeless rows main went lower (still >= 1 896). The Standard Model's one-Higgs reading is excluded for the nine in this frame at the test's points. 0 of 19.  
 `B1747_the_reading_test_verified_on_main/FINDINGS.md`
 
-**NEGATIVE — `B1746`** (917 words, 1 locks)  
-THE CUBE GROUP'S FORMS AS THE HIGGS (P-357; the web seat's step 3 (c); NEGATIVE for its question, the identities PROVED): the frame's family group Gamma_4's forms in rho' and rho' x sgn up to weight 8 match W136's counts on the null cone (1, 1, 2, 2 and 0, 1, 1, 2); every rho' generator is led by e1 (Y2 = -4i eta F_-2: invariant 0.96 at the band), so far from null; the rho' x sgn forms are led by a null line: weight 4 is R and weight 6 is DR's direction exactly (2e-16 at four tau) -- the record's census Higgs is the family group's own weight-6 form; the weight-6 rho' space is span{F_6, F_-6}. As Higgs pencils (post hoc, B1742's grid, one complex number fitted) none of the three two-dimensional spaces reaches the nine: 41.9 (rho' weight 6, B1743's F6|F-6 exactly), 42.7 (rho' weight 8), 47.5 (rho' x sgn weight 8), against the bar 21.67. With B1743 and B1744, nothing the frame's symmetry and the record's forms supply up to weight 8 gives the nine's target. 0 of 19.  
-`B1746_the_cube_groups_forms_as_the_higgs/FINDINGS.md`
+**NEGATIVE — `B1748`** (966 words, 1 locks)  
+THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  
+`B1748_the_heavy_generations_from_the_geometry/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

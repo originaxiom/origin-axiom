@@ -13658,9 +13658,11 @@
    "motifs": [
     "z3_generation"
    ],
-   "refs": [],
+   "refs": [
+    "S216"
+   ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 10,
+   "obstacle_conf": 11,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -13712,17 +13714,20 @@
   },
   "B1741": {
    "slug": "tau from the thread rule the line free",
-   "motifs": [],
+   "motifs": [
+    "amphichiral_cp"
+   ],
    "refs": [
     "P1",
     "P2",
     "P3",
-    "P4"
+    "P4",
+    "S216"
    ],
    "obstacle": "measure",
    "obstacle_conf": 4,
    "status": "banked",
-   "domain": "dynamics"
+   "domain": "topology"
   },
   "B1742": {
    "slug": "two higgs verified on main",
@@ -13816,6 +13821,25 @@
    "obstacle_conf": 3,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1748": {
+   "slug": "the heavy generations from the geometry",
+   "motifs": [
+    "measurement",
+    "kappa",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L1",
+    "L2",
+    "P1",
+    "P2"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "dynamics"
   },
   "B174": {
    "slug": "gluing map landscape",

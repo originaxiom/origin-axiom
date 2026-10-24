@@ -17906,3 +17906,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The owner's pause: four calculations (the six's lines; the geometry-only 2-3 sector; the cusp-unit hierarchy; the free count) and a corrected synthesis with ranked angles. FLOOR 362.
 - **Landing suite.** full suite 7 707 passed, 4 failed, 68 skipped (25:20, -n 8) on e4aece920: two failures are B805's attachment locks (P-239, standing); the other two (the gate locks) were the working tree's, not the commit's — B1748's preregistration, written for its seal, sat untracked in the tree and moved the corpus head (PRACTICES.md's lag 41 against 40) and the seal ledger's scan; PRACTICES.md was then given the window's practices (a genuine currency entry) and the gates rerun green on the amended commit.
+
+## 2026-10-24 — S216 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (B1748, NEGATIVE as sealed)
+
+- **B1748.** With the Higgs exactly null at 98 fresh apexes × 266 lines, the heavy four reached on L_max (χ²_heavy 1.16) but not specifically (1.54% against the 1% bar). The seats harvested (rows 1356–1370: W145 closes P-348; W146 and W149 sharpen P-357 as P-366; the web seat's e9 verified on main; its asks answered, P-365; §255 and the owner's word, P-368); the literature verified (P-363); the split's second step pre-informed (P-364). FLOOR 368.
+- **Landing suite.** full suite 7 713 passed, 2 failed, 68 skipped (29:21, -n 8) on 37ae82b9e: the two failures are B805's attachment locks (P-239, standing).

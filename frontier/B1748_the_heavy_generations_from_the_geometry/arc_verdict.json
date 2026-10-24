@@ -1,0 +1,31 @@
+{
+ "id": "B1748",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1720",
+  "B1741",
+  "B1656",
+  "B1667",
+  "B1742",
+  "B1744",
+  "B1745",
+  "B1724",
+  "B1728"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling at B1667's canonical end (L_max the stated rule, L_2 in comparison), the Higgs exactly null (n or n-bar, rho(T)'s null eigenlines) read S in every sector, the lepton factor c = 1 or 3",
+  "object": "the heavy observables m_c/m_t, m_s/m_b, m_mu/m_tau and |V_cb| at M_Z, at value level (chi-square with B1720's 10% allowance) and their specificity against random targets",
+  "reach": "class",
+  "hypotheses": "98 fresh apex points (thread words of length 10 and 11, apex height in [2.0, 3.6]) x 266 lines; B1741's random generators; seeds 1748-1767, 4000 targets each; the 1% bar and the chi-square (4 dof) 99th percentile 13.28"
+ },
+ "claim_one_line": "THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.",
+ "weave_or_thread": "weave (a census over thread apexes and lines)"
+}

@@ -11996,5 +11996,30 @@
    "reach": "class"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1748",
+  "claim_killed": "That the heavy generations (m_c/m_t, m_s/m_b, m_mu/m_tau, |V_cb|) come out of B1656's geometry alone -- the Higgs exactly null, tau at a thread's apex, the maximal horocycle -- specifically, i.e. as a prediction rather than a generic reach.",
+  "kill_form": "Sealed (B1748; 3bf82d0ca): on 26 068 fresh points the four are reached (chi2_heavy 1.16 < 13.28) but 1.54% of random targets from B1741's generators reach as low (bar 1%); coarse 2.07%.",
+  "hatch": "the light generation (B1741's six were specific at 0.60% with DR and the light ratios read); a principled second Higgs object or non-holomorphic section for the first generation (P-366); a comparison at the unification scale (P-363); fewer lines or menu entries by a principle",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-24), for tests/test_b833_negative_routing.py",
+  "note": "P1 was close to foreknown (P-350: the apex heights fill the band); the specificity cells were the test. The horocycle rule sharpens the reach (L_2 7.39%) without creating it.",
+  "faces_consulted": [],
+  "evidence_consulted": [
+   "B1741",
+   "B1744",
+   "B1745",
+   "B1720",
+   "B1728"
+  ],
+  "fact_computed": "26 068 rows with the null Higgs on both horocycles and their calibration against 4000 random targets over 20 seeds, by the sealed instruments (52668590e, 56611ce77)",
+  "scope": {
+   "frame": "B1656's four-channel coupling at B1667's canonical end, the Higgs exactly null",
+   "hypotheses": "98 fresh apex points x 266 lines; the menu (n, n-bar) x (c = 1, 3)",
+   "object": "the four heavy observables at M_Z",
+   "reach": "class"
+  },
+  "weave_or_thread": "weave"
  }
 ]

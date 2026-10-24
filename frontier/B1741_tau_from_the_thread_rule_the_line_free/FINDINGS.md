@@ -76,6 +76,15 @@ and the frame's period 1 in b (1.4 × 10⁻¹¹) before the comparison ran.
   preregistration carries the same slip.
 - **The referee's verdict:** the sealed result stands as stated; "not PASSED under THE_BAR" is right.
 
+## Dated note (2026-10-24, S216; W145, the SM seat's third opinion, row 1356)
+
+- **The best six-row is a mirror pair.** The χ²_six minimum is a tie: line 150 = (2/5, 3/10) at Re τ 3.6 and line 153 =
+  (2/5, 9/10) at Re τ 3.4, at the same apex height, symmetric about Re τ = 3.5 — χ²_six 14.93237624 at both, line 150
+  lower by 2.9 × 10⁻¹⁰ (recomputed on main from census.jsonl). § 1 names line 153 because `best_six` ranks by the largest
+  factor; by χ² alone the minimum sits on line 150, which is why W145's A2 "failed as worded". No cell changes. W145
+  reproduces B1741 in full on main's code, a second code and the seat's own instrument (no number of main's wrong);
+  P-348 DONE.
+
 ## Seen first
 
 From the preregistration: `VERDICT topic-sweep /apex rule|thread.s apex|line free|every line at (the|each) apex|Lagrange/2|tau from the thread|τ from the thread|thread fixes the point/ (full text): 4 of 1512 arcs on main match`;

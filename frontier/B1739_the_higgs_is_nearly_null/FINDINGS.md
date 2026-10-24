@@ -80,6 +80,15 @@ Per τ, the median ∣V_ud∣ under the mixed readings follows r(τ): **log-corr
 - **The count:** this is a structural constraint inside the frame, not a value; it removes the mass-fitting reading as
   a route to the nine with this Higgs. 0 of 19.
 
+## Dated note (2026-10-24, S216; the web seat's e9, row 1364)
+
+- **The obstruction holds for every scalar part.** With the Higgs quaternion's scalar part h₀ restored (S = h₀ + h·Q;
+  zero in every census since B1700), det Y = N(S) N(M) ⟨S, M⟩ (B1744's formula), and at a null quaternion
+  (h₀² + h·h = 0) every sector's light left state is the conjugate of the null eigenvector of [h]_× with eigenvalue h₀.
+  Under the Standard Model's reading the up and down light states are then orthogonal: ∣V_ud∣ = 0. Verified on main
+  (`audit/verify_split/e9_check.py`): 40 random null quaternions with h₀ ≠ 0 at B1741's apex and 40 at B1735's point give
+  ∣V_ud∣ ≤ 1.8 × 10⁻¹⁴ and a light down mass zero to 1.6 × 10⁻¹⁶. § 2's law is the h₀ = 0 case.
+
 ## Files
 
 - `verification/the_higgs_is_nearly_null.py` → `the_higgs_is_nearly_null.json`, `the_higgs_is_nearly_null_run.txt`.
