@@ -1,0 +1,31 @@
+{
+ "C1 largest relative |closed - coupling| at five points of the grid (F_6 and dR, every sector and horocycle)": 4.68697019627866e-16,
+ "C1 points": [
+  [
+   0,
+   0.225,
+   2.275
+  ],
+  [
+   40,
+   0.225,
+   2.275
+  ],
+  [
+   100,
+   0.225,
+   2.275
+  ],
+  [
+   180,
+   0.225,
+   2.275
+  ],
+  [
+   260,
+   0.225,
+   2.275
+  ]
+ ],
+ "C1 holds": true
+}
