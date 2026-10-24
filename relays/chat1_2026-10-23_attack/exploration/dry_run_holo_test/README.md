@@ -14,3 +14,7 @@ holomorphic test's grid was computed. They ran in a scratch folder holding links
 - **Run 2** (`run2/`): the revised script after the referee (`holo_test_draft_v2.py`, which is the script committed after
   the rule): the same stand-in, 10 targets of main's generator and 20 lepton-tied; modes C0, scan, calibration (one best
   row per target) and cells. C3 reads False there only because the stand-in has 40 mirror pairs, not the rule's 100.
+- **Run 3** (`run3/`): after the referee's re-check, the calibration and the cells re-run with the final script
+  (`holo_test_draft_v3.py`, the script committed after the rule: calibration rows on the 264 lines away from (2/5, 0) and
+  (2/5, 3/5), set 2 of 1 200 targets in the real run, the two-sided interval) on run 2's scan outputs.
+  `holo_test_draft_v2.py` is the script run 2 ran.
