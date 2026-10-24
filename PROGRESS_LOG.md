@@ -17896,3 +17896,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - Post hoc: H_d = ∂R̄ with H_u in Γ₄'s weight-8 and weight-10 spaces: 46.2, 46.3, 53.2, none at the bar; from weight 12 the forms span every direction (generators R, ∂R and one octic), so the family group alone cannot fix H_u. P-357 annotated.
 - **Landing suite.** full suite 7 709 passed, 2 failed, 68 skipped (24:40, -n 8) on 56548d331: the two failures are B805's attachment locks (P-239, standing).
+
+## 2026-10-24 — S214 THE YUKAWA ENERGY'S EXTREMUM AS THE HIGGS (P-357, post hoc)
+
+- A parameter-free rule (the Higgs extremising ∥Y∥²) fails: best 99.4; invariant 2.5–3.5 times the target's, e₁ about 0 on these lines. P-357 annotated.
+- **Landing suite.** full suite 7 709 passed, 2 failed, 68 skipped (24:27, -n 8) on 8821874a3: the two failures are B805's attachment locks (P-239, standing). (A first launch on a commit whose P-357 note held ASCII pipes was stopped; the note fixed and the commit amended before this run.)
