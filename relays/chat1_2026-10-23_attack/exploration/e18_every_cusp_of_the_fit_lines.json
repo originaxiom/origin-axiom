@@ -1,0 +1,431 @@
+{
+ "(2/5, 0)": {
+  "line": [
+   "2/5",
+   "0"
+  ],
+  "at infinity": {
+   "(d) matter alone": -0.31717125000018553,
+   "(a) matter + Higgs": -1.6761952500001882,
+   "(b) + gauge": 46.32380474999981,
+   "(c) + graviton": 55.32380474999981
+  },
+  "(d) matter alone": {
+   "max": 5.4492187500000195,
+   "max at p/r": "40/39",
+   "min": -2.4065662499997775,
+   "min at p/r": "-37/1",
+   "cusps positive": 343
+  },
+  "(a) matter + Higgs": {
+   "max": 1.6992187500000195,
+   "max at p/r": "40/39",
+   "min": -1.6761952500001882,
+   "min at p/r": "-36/1",
+   "cusps positive": 1157
+  },
+  "(b) + gauge": {
+   "max": 49.69921875000002,
+   "max at p/r": "40/39",
+   "min": 46.32380474999981,
+   "min at p/r": "-36/1",
+   "cusps positive": 1960
+  }
+ },
+ "(2/5, 1/10)": {
+  "line": [
+   "2/5",
+   "1/10"
+  ],
+  "at infinity": {
+   "(d) matter alone": -0.31717125000018553,
+   "(a) matter + Higgs": -1.6761952500001882,
+   "(b) + gauge": 46.32380474999981,
+   "(c) + graviton": 55.32380474999981
+  },
+  "(d) matter alone": {
+   "max": 5.4492187500000195,
+   "max at p/r": "39/31",
+   "min": -2.4065662499997775,
+   "min at p/r": "-40/3",
+   "cusps positive": 319
+  },
+  "(a) matter + Higgs": {
+   "max": 9.57421875000002,
+   "max at p/r": "39/31",
+   "min": -5.531102249999833,
+   "min at p/r": "-40/3",
+   "cusps positive": 1139
+  },
+  "(b) + gauge": {
+   "max": 57.57421875000002,
+   "max at p/r": "39/31",
+   "min": 42.46889775000017,
+   "min at p/r": "-40/3",
+   "cusps positive": 1960
+  }
+ },
+ "(2/5, 1/5)": {
+  "line": [
+   "2/5",
+   "1/5"
+  ],
+  "at infinity": {
+   "(d) matter alone": -0.31717125000018553,
+   "(a) matter + Higgs": -1.6761952500001882,
+   "(b) + gauge": 46.32380474999981,
+   "(c) + graviton": 55.32380474999981
+  },
+  "(d) matter alone": {
+   "max": 5.4492187500000195,
+   "max at p/r": "39/38",
+   "min": -2.4065662499997775,
+   "min at p/r": "-40/9",
+   "cusps positive": 318
+  },
+  "(a) matter + Higgs": {
+   "max": 1.6992187500000195,
+   "max at p/r": "39/38",
+   "min": -1.6761952500001882,
+   "min at p/r": "-40/7",
+   "cusps positive": 1139
+  },
+  "(b) + gauge": {
+   "max": 49.69921875000002,
+   "max at p/r": "39/38",
+   "min": 46.32380474999981,
+   "min at p/r": "-40/7",
+   "cusps positive": 1960
+  }
+ },
+ "(2/5, 3/10)": {
+  "line": [
+   "2/5",
+   "3/10"
+  ],
+  "at infinity": {
+   "(d) matter alone": -0.31717125000018553,
+   "(a) matter + Higgs": -1.6761952500001882,
+   "(b) + gauge": 46.32380474999981,
+   "(c) + graviton": 55.32380474999981
+  },
+  "(d) matter alone": {
+   "max": 5.4492187500000195,
+   "max at p/r": "39/37",
+   "min": -2.4065662499997775,
+   "min at p/r": "-40/1",
+   "cusps positive": 318
+  },
+  "(a) matter + Higgs": {
+   "max": 9.57421875000002,
+   "max at p/r": "39/37",
+   "min": -5.531102249999833,
+   "min at p/r": "-40/1",
+   "cusps positive": 1139
+  },
+  "(b) + gauge": {
+   "max": 57.57421875000002,
+   "max at p/r": "39/37",
+   "min": 42.46889775000017,
+   "min at p/r": "-40/1",
+   "cusps positive": 1960
+  }
+ },
+ "(2/5, 2/5)": {
+  "line": [
+   "2/5",
+   "2/5"
+  ],
+  "at infinity": {
+   "(d) matter alone": -0.31717125000018553,
+   "(a) matter + Higgs": -1.6761952500001882,
+   "(b) + gauge": 46.32380474999981,
+   "(c) + graviton": 55.32380474999981
+  },
+  "(d) matter alone": {
+   "max": 5.4492187500000195,
+   "max at p/r": "39/34",
+   "min": -2.4065662499997775,
+   "min at p/r": "-40/7",
+   "cusps positive": 319
+  },
+  "(a) matter + Higgs": {
+   "max": 1.6992187500000195,
+   "max at p/r": "39/34",
+   "min": -1.6761952500001882,
+   "min at p/r": "-40/1",
+   "cusps positive": 1138
+  },
+  "(b) + gauge": {
+   "max": 49.69921875000002,
+   "max at p/r": "39/34",
+   "min": 46.32380474999981,
+   "min at p/r": "-40/1",
+   "cusps positive": 1960
+  }
+ },
+ "(2/5, 1/2)": {
+  "line": [
+   "2/5",
+   "1/2"
+  ],
+  "at infinity": {
+   "(d) matter alone": -0.31717125000018553,
+   "(a) matter + Higgs": -1.6761952500001882,
+   "(b) + gauge": 46.32380474999981,
+   "(c) + graviton": 55.32380474999981
+  },
+  "(d) matter alone": {
+   "max": 5.4492187500000195,
+   "max at p/r": "40/39",
+   "min": -2.4065662499997775,
+   "min at p/r": "-37/1",
+   "cusps positive": 343
+  },
+  "(a) matter + Higgs": {
+   "max": 9.57421875000002,
+   "max at p/r": "40/39",
+   "min": -5.531102249999833,
+   "min at p/r": "-37/1",
+   "cusps positive": 1145
+  },
+  "(b) + gauge": {
+   "max": 57.57421875000002,
+   "max at p/r": "40/39",
+   "min": 42.46889775000017,
+   "min at p/r": "-37/1",
+   "cusps positive": 1960
+  }
+ },
+ "(2/5, 3/5)": {
+  "line": [
+   "2/5",
+   "3/5"
+  ],
+  "at infinity": {
+   "(d) matter alone": -0.31717125000018553,
+   "(a) matter + Higgs": -1.6761952500001882,
+   "(b) + gauge": 46.32380474999981,
+   "(c) + graviton": 55.32380474999981
+  },
+  "(d) matter alone": {
+   "max": 5.4492187500000195,
+   "max at p/r": "39/31",
+   "min": -2.4065662499997775,
+   "min at p/r": "-40/3",
+   "cusps positive": 319
+  },
+  "(a) matter + Higgs": {
+   "max": 1.6992187500000195,
+   "max at p/r": "39/31",
+   "min": -1.6761952500001882,
+   "min at p/r": "-40/9",
+   "cusps positive": 1138
+  },
+  "(b) + gauge": {
+   "max": 49.69921875000002,
+   "max at p/r": "39/31",
+   "min": 46.32380474999981,
+   "min at p/r": "-40/9",
+   "cusps positive": 1960
+  }
+ },
+ "(2/5, 7/10)": {
+  "line": [
+   "2/5",
+   "7/10"
+  ],
+  "at infinity": {
+   "(d) matter alone": -0.31717125000018553,
+   "(a) matter + Higgs": -1.6761952500001882,
+   "(b) + gauge": 46.32380474999981,
+   "(c) + graviton": 55.32380474999981
+  },
+  "(d) matter alone": {
+   "max": 5.4492187500000195,
+   "max at p/r": "39/38",
+   "min": -2.4065662499997775,
+   "min at p/r": "-40/9",
+   "cusps positive": 318
+  },
+  "(a) matter + Higgs": {
+   "max": 9.57421875000002,
+   "max at p/r": "39/23",
+   "min": -5.531102249999833,
+   "min at p/r": "-40/9",
+   "cusps positive": 1139
+  },
+  "(b) + gauge": {
+   "max": 57.57421875000002,
+   "max at p/r": "39/23",
+   "min": 42.46889775000017,
+   "min at p/r": "-40/9",
+   "cusps positive": 1960
+  }
+ },
+ "(2/5, 4/5)": {
+  "line": [
+   "2/5",
+   "4/5"
+  ],
+  "at infinity": {
+   "(d) matter alone": -0.31717125000018553,
+   "(a) matter + Higgs": -1.6761952500001882,
+   "(b) + gauge": 46.32380474999981,
+   "(c) + graviton": 55.32380474999981
+  },
+  "(d) matter alone": {
+   "max": 5.4492187500000195,
+   "max at p/r": "39/37",
+   "min": -2.4065662499997775,
+   "min at p/r": "-40/1",
+   "cusps positive": 318
+  },
+  "(a) matter + Higgs": {
+   "max": 1.6992187500000195,
+   "max at p/r": "39/37",
+   "min": -1.6761952500001882,
+   "min at p/r": "-40/3",
+   "cusps positive": 1139
+  },
+  "(b) + gauge": {
+   "max": 49.69921875000002,
+   "max at p/r": "39/37",
+   "min": 46.32380474999981,
+   "min at p/r": "-40/3",
+   "cusps positive": 1960
+  }
+ },
+ "(2/5, 9/10)": {
+  "line": [
+   "2/5",
+   "9/10"
+  ],
+  "at infinity": {
+   "(d) matter alone": -0.31717125000018553,
+   "(a) matter + Higgs": -1.6761952500001882,
+   "(b) + gauge": 46.32380474999981,
+   "(c) + graviton": 55.32380474999981
+  },
+  "(d) matter alone": {
+   "max": 5.4492187500000195,
+   "max at p/r": "39/34",
+   "min": -2.4065662499997775,
+   "min at p/r": "-40/7",
+   "cusps positive": 319
+  },
+  "(a) matter + Higgs": {
+   "max": 9.57421875000002,
+   "max at p/r": "39/29",
+   "min": -5.531102249999833,
+   "min at p/r": "-40/7",
+   "cusps positive": 1139
+  },
+  "(b) + gauge": {
+   "max": 57.57421875000002,
+   "max at p/r": "39/29",
+   "min": 42.46889775000017,
+   "min at p/r": "-40/7",
+   "cusps positive": 1960
+  }
+ },
+ "(1/2, 1/2)": {
+  "line": [
+   "1/2",
+   "1/2"
+  ],
+  "at infinity": {
+   "(d) matter alone": 5.4492187500000195,
+   "(a) matter + Higgs": 9.57421875000002,
+   "(b) + gauge": 57.57421875000002,
+   "(c) + graviton": 66.57421875000003
+  },
+  "(d) matter alone": {
+   "max": 5.4492187500000195,
+   "max at p/r": "40/39",
+   "min": 5.4492187500000195,
+   "min at p/r": "-40/1",
+   "cusps positive": 1960
+  },
+  "(a) matter + Higgs": {
+   "max": 9.57421875000002,
+   "max at p/r": "40/39",
+   "min": 1.6992187500000195,
+   "min at p/r": "-39/1",
+   "cusps positive": 1960
+  },
+  "(b) + gauge": {
+   "max": 57.57421875000002,
+   "max at p/r": "40/39",
+   "min": 49.69921875000002,
+   "min at p/r": "-39/1",
+   "cusps positive": 1960
+  }
+ },
+ "(0, 1/2)": {
+  "line": [
+   "0",
+   "1/2"
+  ],
+  "at infinity": {
+   "(d) matter alone": 5.4492187500000195,
+   "(a) matter + Higgs": 1.6992187500000195,
+   "(b) + gauge": 49.69921875000002,
+   "(c) + graviton": 58.69921875000002
+  },
+  "(d) matter alone": {
+   "max": 5.4492187500000195,
+   "max at p/r": "40/39",
+   "min": 5.4492187500000195,
+   "min at p/r": "-40/1",
+   "cusps positive": 1960
+  },
+  "(a) matter + Higgs": {
+   "max": 9.57421875000002,
+   "max at p/r": "40/39",
+   "min": 1.6992187500000195,
+   "min at p/r": "-39/2",
+   "cusps positive": 1960
+  },
+  "(b) + gauge": {
+   "max": 57.57421875000002,
+   "max at p/r": "40/39",
+   "min": 49.69921875000002,
+   "min at p/r": "-39/2",
+   "cusps positive": 1960
+  }
+ },
+ "(3/10, 1/10)": {
+  "line": [
+   "3/10",
+   "1/10"
+  ],
+  "at infinity": {
+   "(d) matter alone": -2.4065662499997775,
+   "(a) matter + Higgs": -5.531102249999833,
+   "(b) + gauge": 42.46889775000017,
+   "(c) + graviton": 51.46889775000017
+  },
+  "(d) matter alone": {
+   "max": 5.4492187500000195,
+   "max at p/r": "39/37",
+   "min": -2.4065662499997775,
+   "min at p/r": "-40/3",
+   "cusps positive": 318
+  },
+  "(a) matter + Higgs": {
+   "max": 9.57421875000002,
+   "max at p/r": "39/32",
+   "min": -5.531102249999833,
+   "min at p/r": "-40/3",
+   "cusps positive": 1139
+  },
+  "(b) + gauge": {
+   "max": 57.57421875000002,
+   "max at p/r": "39/32",
+   "min": 42.46889775000017,
+   "min at p/r": "-40/3",
+   "cusps positive": 1960
+  }
+ }
+}

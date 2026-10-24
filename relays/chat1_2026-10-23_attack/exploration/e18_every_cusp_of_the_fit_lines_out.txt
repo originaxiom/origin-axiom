@@ -1,0 +1,14 @@
+C2 the comb without a line, over 1960 cusps: distinct values [-0.060546875] (-31/512 = -0.060546875000)
+line (2/5, 0): at infinity (a) -1.6762, (d) -0.3172; (a) over all cusps: max 1.6992 at 40/39, min -1.6762 at -36/1, positive at 1157 of 1960; (d): max 5.4492 at 40/39, positive at 343; (b) positive at 1960
+line (2/5, 1/10): at infinity (a) -1.6762, (d) -0.3172; (a) over all cusps: max 9.5742 at 39/31, min -5.5311 at -40/3, positive at 1139 of 1960; (d): max 5.4492 at 39/31, positive at 319; (b) positive at 1960
+line (2/5, 1/5): at infinity (a) -1.6762, (d) -0.3172; (a) over all cusps: max 1.6992 at 39/38, min -1.6762 at -40/7, positive at 1139 of 1960; (d): max 5.4492 at 39/38, positive at 318; (b) positive at 1960
+line (2/5, 3/10): at infinity (a) -1.6762, (d) -0.3172; (a) over all cusps: max 9.5742 at 39/37, min -5.5311 at -40/1, positive at 1139 of 1960; (d): max 5.4492 at 39/37, positive at 318; (b) positive at 1960
+line (2/5, 2/5): at infinity (a) -1.6762, (d) -0.3172; (a) over all cusps: max 1.6992 at 39/34, min -1.6762 at -40/1, positive at 1138 of 1960; (d): max 5.4492 at 39/34, positive at 319; (b) positive at 1960
+line (2/5, 1/2): at infinity (a) -1.6762, (d) -0.3172; (a) over all cusps: max 9.5742 at 40/39, min -5.5311 at -37/1, positive at 1145 of 1960; (d): max 5.4492 at 40/39, positive at 343; (b) positive at 1960
+line (2/5, 3/5): at infinity (a) -1.6762, (d) -0.3172; (a) over all cusps: max 1.6992 at 39/31, min -1.6762 at -40/9, positive at 1138 of 1960; (d): max 5.4492 at 39/31, positive at 319; (b) positive at 1960
+line (2/5, 7/10): at infinity (a) -1.6762, (d) -0.3172; (a) over all cusps: max 9.5742 at 39/23, min -5.5311 at -40/9, positive at 1139 of 1960; (d): max 5.4492 at 39/38, positive at 318; (b) positive at 1960
+line (2/5, 4/5): at infinity (a) -1.6762, (d) -0.3172; (a) over all cusps: max 1.6992 at 39/37, min -1.6762 at -40/3, positive at 1139 of 1960; (d): max 5.4492 at 39/37, positive at 318; (b) positive at 1960
+line (2/5, 9/10): at infinity (a) -1.6762, (d) -0.3172; (a) over all cusps: max 9.5742 at 39/29, min -5.5311 at -40/7, positive at 1139 of 1960; (d): max 5.4492 at 39/34, positive at 319; (b) positive at 1960
+line (1/2, 1/2): at infinity (a) 9.5742, (d) 5.4492; (a) over all cusps: max 9.5742 at 40/39, min 1.6992 at -39/1, positive at 1960 of 1960; (d): max 5.4492 at 40/39, positive at 1960; (b) positive at 1960
+line (0, 1/2): at infinity (a) 1.6992, (d) 5.4492; (a) over all cusps: max 9.5742 at 40/39, min 1.6992 at -39/2, positive at 1960 of 1960; (d): max 5.4492 at 40/39, positive at 1960; (b) positive at 1960
+line (3/10, 1/10): at infinity (a) -5.5311, (d) -2.4066; (a) over all cusps: max 9.5742 at 39/32, min -5.5311 at -40/3, positive at 1139 of 1960; (d): max 5.4492 at 39/37, positive at 318; (b) positive at 1960
