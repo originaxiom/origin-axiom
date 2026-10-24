@@ -4832,3 +4832,33 @@ def test_the_ladder_ruling_carried_and_w145_corrected():
     assert "*Dated note, 2026-10-24: the owner ruled, in main's session (B1751, GENESIS v1.56).*" in note
     relay = (ROOT / "SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md").read_text(encoding="utf-8")
     assert "## 271. Added 2026-10-24 (UTC)" in relay
+
+
+def test_w155_the_higgs_direction_census():
+    """W155: every cell as predicted; in process, the copies' twisted masses at omega and i, the lightest copy at
+    1/(4y) on the domain, the small-mass coefficient x^3 K_3(x)/8 = 1 - x^2/8, and the parity sum at s = 2 term by term"""
+    import math
+    from scipy.special import kv
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_higgs_direction_census.json").read_text(encoding="utf-8"))
+    assert d["verdict"] == "every cell as predicted" and all(d["cells holding"].values())
+    assert d["R"]["the band's t-window (B = 1, the axis and omega)"]["Stage A (no condensate)"]["t-window"] == [3.205, 4.625]
+    assert all(c["minimum"]["where"] in ("omega", "i", "axis") for c in d["H2d"][0]["cases"])
+    assert all(c["minimum"]["where"] == "omega" for c in d["H2d"][0]["cases"] if c["mu"] == 3.0)
+
+    def q(tau, c):
+        return min(abs((a + c[0]) * tau - (b + c[1])) ** 2 for a in range(-6, 7) for b in range(-6, 7)) / tau.imag
+    par = [(0.5, 0.0), (0.0, 0.5), (0.5, 0.5)]
+    w = complex(-0.5, math.sqrt(3) / 2)
+    assert all(abs(q(w, c) - 1 / (2 * math.sqrt(3))) < 1e-12 for c in par)
+    assert [round(q(1j, c), 12) for c in par] == [0.25, 0.25, 0.5]
+    for tau in (complex(0.3, 1.7), complex(-0.45, 2.9), complex(0.1, 6.0)):
+        qs = [q(tau, c) for c in par]
+        assert abs(min(qs) - 1 / (4 * tau.imag)) < 1e-14 and qs.index(min(qs)) == 1
+    for x in (1e-3, 1e-2):
+        assert abs((x ** 3 * kv(3, x) / 8 - 1) / (-(x ** 2) / 8) - 1) < 1e-2
+    for m in range(-4, 5):
+        for n in range(-4, 5):
+            s = sum(math.cos(2 * math.pi * (m * a + n * b)) for a, b in par)
+            assert abs(s - (3 if m % 2 == 0 and n % 2 == 0 else -1)) < 1e-12
+    assert "## W155. The census over contents, Stage B" in (here / "NOTE.md").read_text(encoding="utf-8")

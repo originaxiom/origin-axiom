@@ -1,5 +1,15 @@
 # Changelog
 
+## W155 recorded: the census over contents, Stage B, every cell as predicted (relay §273)
+
+- **No rescue.** At the forced line no copy of the Higgs has a zero mode, and masses never change a cusp's leading
+  term, so every content that runs still runs, the record's and E₈'s 248 among them.
+- **Masses that treat the parities alike** only move Stage A's curve; heavy ones send the band's contents to ω.
+- **A condensate** selects the copy (0, ½), massless at the approached cusp, and holds neither Im τ nor Re τ; it moves
+  the band's t-window by at most 5% and adds two free ratios. Option 1 of the ledger is closed at one loop.
+- **Surfaces.** NOTE (section and row), the ledger's dated note, a lock test, the relay, the ledger row, the state page.
+  0 of 19.
+
 ## W155's rule, committed before its script: the census over contents, Stage B, the Higgs direction (relay §272)
 
 - **At the owner's "lets do themall".** Fork (B) of the ledger's Higgs row, a vev minimized with τ, in Stage A's frame.

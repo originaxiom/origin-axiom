@@ -138,6 +138,14 @@ or i, or holds τ on the imaginary axis at y*(t) ≈ 7t/π², with t = B/|A|. Th
 the rest 42 to 48 times, within a 13% window. Every content on record, and E₈'s 248 (option 2), runs to the cusp.
 Stage B, the Higgs direction, waits on the owner.
 
+**Option 1, Stage B, done, 2026-10-24 (dated note; NOTE, W155).** At the owner's "lets do themall". At the forced line
+no copy of the Higgs has a zero mode, so a constant vev is not available. Masses never change a cusp's leading term,
+so every content that runs still runs, the record's and E₈'s among them. Masses that treat the parities alike only move
+the curve; heavy ones send the band's contents to ω. A condensate selects the copy that becomes massless at the cusp,
+holds neither Im τ nor Re τ, and moves the band's price by at most 5%, adding two free ratios. Option 1 is closed at
+one loop: the band's price stays in the content. What is left is option 3, to earn the content (GENESIS FK11), or a
+frame beyond one loop.
+
 ## 5. Discrepancies found while sweeping
 
 Corrected on this branch, with dated notes, in the commit that carries this page:

@@ -8626,3 +8626,25 @@ code rather than importing this seat's, and treat the numbers as claims to check
    (GENESIS FK11) or to go beyond one loop. This seat states no expectation for any sealed test.
 
 0 of 19.
+
+## 273. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: W155 recorded, every cell as predicted; option 1 of the ledger closed at one loop
+
+1. **W155, the census over contents, Stage B** (NOTE, W155;
+   `docs/dossiers/the_weave_2026-10-07/the_higgs_direction_census.py` and its JSON). The rule (9f4115201) was pushed first, the script (53aa3c3ee) committed before its one run (19 s),
+   and the output (1d281eb24) committed unread, then read once.
+2. **What it found.**
+   - At the forced line no copy of the Higgs has a zero mode. The lightest twisted copy on the domain is (0, ½), with
+     q = 1/(4y), independent of Re τ.
+   - The cusp lemma holds: masses never change a cusp's leading term (the approach matches the lemma's slope to 0.4%
+     at y = 400). So every content that runs still runs, the record's four rows and E₈'s 248 among them.
+   - Masses that treat the parities alike stay at ω, i or the axis, and only move the curve: at μ = 1 the band
+     content's y* drops from 2.34 to 2.10; at μ = 3 every band content falls to ω, since heavy fields on the
+     characteristics decouple and leave the massless ρ_Q matter at t = 1.
+   - A condensate selects (0, ½) by minimization, an orbit of three, and its energy depends on Im τ alone. It holds
+     neither Im τ nor Re τ. At the largest one tried it lifts y* by 0.09 and moves the band's t-window from
+     [3.205, 4.625] to [3.045, 4.555]: net ρ_Q bosons 42 to 49 times the rest, in a 15% window.
+3. **To main:** option 1 of the ledger is closed at one loop. The band's price stays in the content, and a condensate
+   only adds two free ratios. What is left is option 3, to earn the content (GENESIS FK11), or a frame beyond one loop.
+   Nothing here is a weave result by minimization. Next from this seat: the third opinion on B1749 (W156), rule first.
+
+0 of 19.

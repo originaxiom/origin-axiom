@@ -7726,6 +7726,68 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W155. The census over contents, Stage B (the owner's "lets do themall"): the Higgs direction cannot hold τ where Stage A does not. At the forced line no copy of the Higgs has a zero mode; masses never change a cusp's leading term, so every content that runs still runs; masses that treat the parities alike only move Stage A's curve, and heavy ones send every band content to ω; a condensate selects the copy that becomes massless at the cusp, holds neither Im τ nor Re τ, and moves the band's price by at most 5%. Every cell as predicted (`the_higgs_direction_census.py`; `W155_RULE.md`)
+
+**Why.** W154 left one question for the ledger's option 1: can the Higgs direction break Stage A's one-curve structure,
+hold τ for a content that runs, or lower the band's price? This is the ledger's fork (B), a vev minimized with τ, in
+Stage A's frame. Writing the rule found that at the forced line the Higgs's three copies sit on the parity
+characteristics, so none has a zero mode and a constant vev h ∈ ℂ³ is not available.
+
+**The order.**
+- The rule (`W155_RULE.md`, 9f4115201) was committed and pushed before the script existed. The hand work before it is
+  disclosed there, with a wrong first coefficient (−x²/4 for −x²/8) found and fixed before the commit.
+- The script (53aa3c3ee) was committed before its one run. Before that commit it was checked only for syntax and for
+  the names it reads from W154's module. The run took 19 s. Its output (1d281eb24) was committed unread, then read once.
+
+**The result (COMPUTED; one run; every cell as predicted).**
+- **H0, the copies' twisted masses.** On the domain no copy has a zero mode (the least q on the grid is 1/56, at
+  Im τ = 14). The closed forms hold to 3 × 10⁻¹⁶ at ten domain points. At ω all three are 1/(2√3); at i they are
+  (¼, ¼, ½). S and T permute the three to 3 × 10⁻¹⁶.
+- **H1, the cusp lemma.** For every characteristic and μ = 0.5, 1, 3, |S_c^{(μ)}(iy)/y³ − κ_c| decreases over
+  y = 20 to 400, and at y = 400 it matches the lemma's slope ℓ_c(μ)/y = −(μ²/4) Σ cos(2πm p₁)/m⁴ / y to 0.4% or better.
+  Every record content and E₈'s 248 (both units) still run to the cusp with masses 1 and 3 on every field on a
+  characteristic.
+- **H2, masses that treat the parities alike.**
+  - (a) The small-mass expansion S_c^{(μ)} = S_c(τ, 3) − (μ²/8) S_c(τ, 2) holds to 6.7 × 10⁻⁵ at μ = 0.01.
+  - (b) Σ_c S_c(τ, 2) = ¼ E^{(M/2)} − E^{(M)} on the cut to 3.7 × 10⁻¹⁶, and −(3/4) E(τ, 2) in the limit to
+    7.3 × 10⁻⁸.
+  - (d) In all twelve cases the global minimum is at ω or on the imaginary axis. At μ = 1 the axis minimum moves
+    down: from 2.34 to 2.10 and 2.15 at t = 3.5 (bosons on the trivial characteristic; fermions on the parities), from
+    4.21 to 3.75 and 3.85 at t = 6. At μ = 3 every case, the band's t = 3.5 among them, falls to ω. Heavy fields on
+    the characteristics decouple, and what is left is the massless ρ_Q matter, with t = 1.
+- **H3, the condensate.**
+  - (a) On 33 297 domain points q_min = q_{(0,½)} = 1/(4y) exactly, (0, ½) strictly lightest off the arc and ω; on
+    the arc it ties with (½, 0) to 2 × 10⁻¹⁶, with (½, ½) heavier except at ω, where all three tie.
+  - (b) E_cond is non-increasing in Im τ for every (ν, ε).
+  - (c) Every content that runs still runs for every (ν, ε). At t = 3.5 and 4 the content is still held, on the axis,
+    at Im τ at least Stage A's: from 2.34 to at most 2.43, and from 2.73 to at most 2.80 (ν = 0.5, ε = 10). The
+    condensate cancels from every difference across the axis, so Re τ is held exactly as in Stage A.
+- **R, read-outs.**
+  - The band's t-window: Stage A's [3.205, 4.625] is reproduced on the read-out's grid. The largest condensate
+    tried (ν = 0.5, ε = 10) moves it to [3.045, 4.555]. The ρ_Q bosons must then outweigh the rest 42.3 to 49.2 times
+    (Stage A 42.1 to 48.0), within a window of relative width about 15% (Stage A 13%).
+  - The small-mass shift B → B − (μ²/8)(w₀ − (3/4) w_p) holds to 7 × 10⁻⁵ at μ = 0.01 for three contents.
+
+**What it shows (a READING on the computed facts).**
+- **At the forced line the Higgs direction cannot hold τ where the content does not.** No mass and no Higgs direction
+  rescues a content that runs: the cusp's leading term is the massless one. So every record content and E₈'s 248
+  still run.
+- **Masses that treat the parities alike are part of the content.** They move Stage A's ratio t and so the height, and
+  heavy ones take a band content to ω. They add free numbers and do not lower the price.
+- **A condensate selects its own direction, and that selection is allowed.** The copy that becomes massless at the
+  approached cusp, (0, ½) up to the orbit, is chosen by minimization, an orbit of three under the moves. But its energy
+  depends on Im τ alone and falls toward the cusp. It pushes τ up a little and holds nothing, Re τ least of all.
+- **So option 1 of the ledger is closed at one loop.** The band's price stays in the content, 42 to 49 times net
+  bosons in ρ_Q, tuned to 13 to 15%. A condensate adds two free ratios (ν, ε). What is left is to earn the content
+  (option 3, GENESIS FK11), or a frame beyond one loop.
+
+**Weave or thread.** H0 to H3 are WEAVE-type: every admissible content and every mass pattern or condensate in the
+stated class, the whole domain, claims about all of them at once. The direction is selected by minimization, not by
+hand; its free numbers are named and counted.
+
+**Status.** COMPUTED (the rule first; one run; every cell as predicted). Data-free; the band is W154's stated window,
+so this is not a trial. 0 of 19.
+
 ## W154. The census over contents, Stage A (the owner's "GO!!!" on the effective action's ledger's step 2): at the forced line every content that treats the three parities alike has V = −(A E(τ, 3) + B E(τ, 2)), so at one loop every such content runs to the cusp, sits at ω or i, or holds τ on the imaginary axis at y*(t) ≈ 7t/π², t = B/|A|. The hierarchy band needs net bosons in the matter's representation outweighing the rest 42 to 48 times, within a 13% window. Every content on record, and E₈'s 248, runs to the cusp. Every cell as predicted (`the_content_census.py`; `W154_RULE.md`)
 
 **Why.** The ledger found the loop's content (GENESIS FK11) to be the one unearned item between the record and a weave
@@ -13052,6 +13114,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W155 | COMPUTED (the rule first; one run; every cell as predicted); H0 to H3 weave-type | the census over contents, Stage B, the Higgs direction: at the forced line no copy has a zero mode (q_{(0,½)} = 1/(4y) lightest on the domain); masses never change a cusp's leading term (the approach to κ_c matches −(μ²/4)Σcos/m⁴ / y to 0.4% at y = 400), so every record content and E₈'s 248 still run; S₃-invariant masses move the curve (y* 2.34 → 2.10 at μ = 1, t = 3.5) and at μ = 3 send every band content to ω; a condensate selects (0, ½), an orbit of three, depends on Im τ only, moves y* up by at most 0.09 and the band's t-window to [3.045, 4.555] at the largest tried, holding neither Im τ nor Re τ; option 1 closed at one loop. 0 of 19 |
 | W154 | COMPUTED (the rule first; one run after a failed launch, disclosed; every cell as predicted); C0 to C3 weave-type | the census over contents, Stage A: at the forced line every S₃-invariant content has V = −(A E₃ + B E₂), so at one loop it runs to the cusp, sits at ω or i, or holds τ on the axis at y*(t) ≈ 7t/π², t = B/|A|; ω gives way at t_c = 2.148; the band needs net ρ_Q bosons outweighing the rest 42 to 48 times in a 13% window; every record content and E₈'s 248 run to the cusp; B1704 reproduced. 0 of 19 |
 | W153 | COMPUTED (the rule first; one run; every cell as predicted); L1 to L4 weave-type | the ladder: the moves' quotient by T^N finite exactly for N = 2 to 5 (6, 12, 24, 60); McKay gives D₅, E₆, E₇, E₈; det = 6 − N, so the ladder ends at N = 5 from the moves' own orders 2 and 3, and E₈ is its only unimodular rung; in the icosian E₈, E₇ unique, E₆ unique up to the moves, D₅ in six orbits; the record's forced structures at the primes 2 and 3 only; R1 and R2 force E₈, R3 gives E₇; the owner rules [ruled 2026-10-24 (B1751): R1 with main's two clauses, the prime 5 adopted, not derived; the web seat's ladder/container split put to the owner]. 0 of 19 |
 | Observer | READING (nothing computed; every row sourced) | the observer's closings under the weave: the arrow forced; the index chiral (odd, never 0), its sheet a convention; one unit a convention, the ratios of scales free; the McKay naming and a point in an orbit conventions; the filling (the end condition, FK10) open and not forced; the trit open until its orbit is checked; no closing needs an agent; GENESIS §7, FK12, C18 and THE_CLAIM's count proposed to main for re-typing (relay §265) |

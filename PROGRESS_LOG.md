@@ -20879,3 +20879,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   a way that pushes the shape toward an edge, not into the band.
 - **The computation checks each of these** before any conclusion is drawn.
   0 of 19.
+
+## 2026-10-24 — the Higgs's direction adds no hold: the second stage, computed
+
+- **What came out, every prediction as stated.** Giving the fields masses never changes how the potential behaves
+  far out at the edges, so every particle content that ran off to an edge still does.
+- **Masses shared alike by the three parities** only slide the old curve; large ones send the shape back to its
+  symmetric point.
+- **The Higgs copy that settles first** is chosen by the minimum itself, but its energy pushes the shape toward an
+  edge and holds nothing. The price of the band hardly moves.
+- **So this route is finished at this order:** the particle content has to be earned, not chosen.
+  0 of 19.
