@@ -1,0 +1,8 @@
+C1 g^T EPS = EPS g^-1 and N' = b g N g^-1: largest deviation 1.88e-15
+C2 joint commutant of QI and QJ: dimension 1; its element normalised: [[(1+0j), 0j], [0j, (1+0j)]]
+C3 sum ell_s^2 = 4 det M: largest relative deviation 1.00e-15; rank-one |sum R_s^2|/sum|R_s|^2: largest 2.94e-16
+C4 ell_s(n EPS^-1)/n = [(-2+0j), 0j, 0j, 0j]
+C5 ell(weighted_M(u)) = u: 4.44e-16; EDUAL's Hermitian Gram: [[(0.5+0j), 0j, 0j, 0j], [0j, (0.5+0j), 0j, 0j], [0j, 0j, (0.5+0j), 0j], [0j, 0j, 0j, (0.5+0j)]]; ||M||^2 = |u|^2/2: 5.33e-15; dist^2 = (|u_i|^2 + |u_j|^2 + |u_k|^2)/2: 3.55e-15
+C6 (5a) on 20 000 random rank-one residues and weights: smallest margin 9.331e-06 (ratio, eta there: 1.0000, 228.1428); sharp case (delta, ratio, delta/sqrt(1+delta^2)): [[0.1, 0.099503719021, 0.099503719021], [0.5, 0.4472135955, 0.4472135955], [2.0, 0.894427191, 0.894427191]]
+C7 P_(b g M g^T) = g P_M g^dag (unitary g): largest deviation 5.59e-16
+C8 conjugation by -I fixes End(C^2): largest deviation 0.00e+00
