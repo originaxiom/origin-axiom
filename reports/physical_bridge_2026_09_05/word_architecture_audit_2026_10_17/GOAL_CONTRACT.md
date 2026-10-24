@@ -664,3 +664,21 @@ on the critical doublet slots. A same-action exterior response with the
 actual geometric/spin lines, complete fields and domain is still owed.
 This authored unreviewed successor leaves P-210 open and executes none
 of the frozen scientific tests.
+
+## Exterior gap and threshold duty at the symmetric state
+
+October 24. The [exterior gap analysis](P210_EXTERIOR_GAP_AND_THRESHOLD_DUTY.md)
+uses a declared Hermitian constant-tail Dirac control with the same
+two-slot Green form. Its L2 condition uniquely supplies the positive/
+negative spectral response when its mass matrix is invertible. With
+the stated Q8 stabilizer at the symmetric state, a gapped matrix has
+even positive rank; a continuous rank-three response therefore cannot
+reach it while retaining a uniform gap and the same hypotheses.
+
+The explicit H2(S) comparator reaches the symmetric point by closing
+that gap, with escaping approximate zero modes retained. This is not
+a derived physical exterior or a new OA mode count. It identifies the
+next same-action duty: compute the actual asymptotic operator, gap,
+threshold channels, remote norm/state and grading before eliminating
+the exterior. This authored unreviewed argument leaves P-210 open;
+no scientific run or physical-input payment is claimed.
