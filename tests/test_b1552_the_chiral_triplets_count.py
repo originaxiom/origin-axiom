@@ -4745,3 +4745,29 @@ def test_the_observers_closings_reading():
     assert "## Reading: the observer's closings under the weave" in (here / "NOTE.md").read_text(encoding="utf-8")
     relay = (ROOT / "SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md").read_text(encoding="utf-8")
     assert "## 265. Added 2026-10-24 (UTC)" in relay
+
+
+def test_w153_the_ladder():
+    """W153: every cell as predicted; in process, |PSL(2, Z/N)| = 6, 12, 24, 60 for N = 2..5 and the T(2, 3, N) Cartan
+    determinants are 6 - N; the map of rules reads E8, E8, E7"""
+    import itertools
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_ladder.json").read_text(encoding="utf-8"))
+    assert d["verdict"] == "every cell as predicted" and all(d["cells holding"].values())
+    assert d["L2"]["rows"]["5"]["dimensions"] == [1, 2, 2, 3, 3, 4, 4, 5, 6]
+    assert d["L4"]["D5 orbit sizes"] == [3, 3, 3, 6, 6, 6] and d["L5"]["primes"] == [2, 3]
+    tops = [d["R"][k]["top"] for k in ("R1, every finite rung at once", "R2, invariance under every move",
+                                       "R3, only the levels the forced structures use")]
+    assert tops == ["E8", "E8", "E7"]
+    for N, order in ((2, 6), (3, 12), (4, 24), (5, 60)):
+        els = {min(m, tuple(-x % N for x in m)) for m in itertools.product(range(N), repeat=4)
+               if (m[0] * m[3] - m[1] * m[2]) % N == 1}
+        assert len(els) == order
+    for N in range(2, 9):
+        n = N + 3
+        C = 2 * np.eye(n)
+        for i, j in [(0, 1), (0, 2), (2, 3), (0, 4)] + [(k, k + 1) for k in range(4, n - 1)]:
+            C[i, j] = C[j, i] = -1
+        assert round(np.linalg.det(C)) == 6 - N
+    assert "## W153. The ladder" in (here / "NOTE.md").read_text(encoding="utf-8")

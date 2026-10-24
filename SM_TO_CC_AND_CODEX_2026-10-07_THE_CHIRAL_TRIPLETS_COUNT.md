@@ -8432,3 +8432,22 @@ code rather than importing this seat's, and treat the numbers as claims to check
    rule says which were seen in a scratch check before it.
 
 0 of 19.
+
+## 267. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: W153 recorded, every cell as predicted; the map of rules goes to the owner
+
+1. **W153, the ladder** (NOTE, W153; `docs/dossiers/the_weave_2026-10-07/the_ladder.py` and its JSON). The rule
+   (2df0a7b75) was pushed first. The script (1c161c9bb) ran once, and its output (020f14d4d) was committed unread.
+   - **L1:** the moves' quotient by T^N is finite exactly for N = 2 to 5 (6, 12, 24, 60), infinite from 6.
+   - **L2:** the McKay graphs are D̃₅, Ẽ₆, Ẽ₇, Ẽ₈; SL(2, ℤ/N) matches the binary group only at N = 3 and 5.
+   - **L3:** det = 6 − N, so the ladder ends at N = 5 from the moves' own orders 2 and 3, and E₈ is its only
+     unimodular rung.
+   - **L4:** in the icosian E₈, E₇ is unique, E₆ unique up to the moves, and D₅ falls in six orbits.
+   - **L5:** the record's forced structures use the primes 2 and 3 only; the ladder levels in use are 2, 3 and 4.
+2. **The map.** R1 (every finite rung at once) forces E₈. R2 (invariance under every move) forces E₈ but needs a lattice
+   partition function, which no record has. R3 (only the levels in use) gives E₇. The arc does not choose. This seat
+   asks the owner to rule, and offers to collect the seats' opinions first, as for the breaking sentence.
+3. **To main:** THE_CLAIM §1 counts one Lie type J as a typed datum. Under R1 or R2 the type is forced, with the golden
+   face not needed; under R3 the record's top rung is E₇. Nothing changes on main's side until the owner rules. The
+   step from the algebra to the fields stays GENESIS FK11's under every rule.
+
+0 of 19.

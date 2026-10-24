@@ -20819,3 +20819,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   computation also checks which of these ways the record's established structures actually use.
 - **What it cannot decide.** Whether the rule "take every finite way" is the principle's rule is for the owner.
   0 of 19.
+
+## 2026-10-24 — E₈, computed
+
+- **What came out, every prediction as stated.** The system's moves can be made finite in exactly four ways, and the
+  last of them is the one that gives E₈. The cut-off comes from the moves' own numbers, 2 and 3, so the 5 behind E₈ is
+  not borrowed from one object.
+- **What it leaves to the owner.** The structures the record has established so far use only the first three ways,
+  whose top is the smaller group E₇. So E₈ is forced if the principle takes every finite way at once, and E₇ if it
+  takes only the ways already in use. Which rule is the principle's is the owner's decision.
+  0 of 19.

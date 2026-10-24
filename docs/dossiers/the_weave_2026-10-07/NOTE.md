@@ -7726,6 +7726,72 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W153. The ladder (the owner's question on E₈, "can we derive it and make it unconditional", and ruling "I accept your recommendations that you just laid out."): the moves' quotient by T^N is finite exactly for N = 2 to 5, their McKay algebras are D₅, E₆, E₇ and E₈, and det = 6 − N ends the ladder at N = 5, with E₈ its only unimodular rung. The bound comes from the moves' own orders 2 and 3. Inside the icosian E₈, E₇ is unique, E₆ unique up to the moves and D₅ in six orbits. The record's forced structures use only the primes 2 and 3. So E₈ is forced under the rules R1 and R2, and E₇ under R3. Every cell as predicted (`the_ladder.py`; `W153_RULE.md`)
+
+**Why.** W135 computes E₈ from the moves once the prime 5 is given, and B1270 took the 5 from the golden face, one
+thread (the effective action's ledger, section 6). The owner asked whether E₈ can be made unconditional.
+
+**The order.**
+- The rule (`W153_RULE.md`, 2df0a7b75) was committed and pushed before the script existed. L1's finite orders and L3's
+  determinants had been seen in a scratch check before the rule, as it discloses.
+- The script (1c161c9bb) was committed before its one run, which took 25 s. Before that commit it was only compiled.
+  Reading it over found three faults, fixed before the commit: a leftover placeholder line in L4, an orbit lookup that
+  would have raised instead of reporting, and the key rounding set to the rule's 10⁻⁹. One instrument check was added
+  to L4: the stabilizer permutes the 27 D₅ sets.
+- The output (020f14d4d) was committed unread, then read once.
+
+**The result (COMPUTED; one run; every cell as predicted).**
+- **L1, Klein's ladder.** Coset enumeration gives |Δ(2, 3, N)| = 6, 12, 24, 60 for N = 2 to 5, equal to |PSL(2, ℤ/N)|
+  and to the rotation groups of the dihedron, tetrahedron, octahedron and icosahedron.
+  - N = 6: an affine representation satisfies the relations exactly, and S·(USU⁻¹) is the translation by −3 + √3 i.
+  - N = 7: a representation in SL(2, ℝ) satisfies the relations to 1.4 × 10⁻⁶⁰, and ABAB⁻¹ has trace 2.2470, so it
+    has infinite order.
+- **L2, McKay.** The binary groups have orders 12, 24, 48 and 120, with 6, 7, 8 and 9 classes. Both orthogonality
+  relations of Burnside's character tables hold to 2.5 × 10⁻¹³.
+  - The McKay graphs are D̃₅, Ẽ₆, Ẽ₇ and Ẽ₈. The trivial representation is a leaf, and removing it leaves D₅, E₆, E₇
+    and E₈.
+  - The dimensions are the affine null vectors: (1, 1, 1, 1, 2, 2), (1, 1, 1, 2, 2, 2, 3), (1, 1, 2, 2, 2, 3, 3, 4) and
+    (1, 2, 2, 3, 3, 4, 4, 5, 6), with Σd² = |G|.
+  - SL(2, ℤ/N) has the binary group's element-order counts at N = 3 and 5 only. At N = 2 the orders are 6 and 12; at
+    N = 4, SL(2, ℤ/4) has seven involutions and no element of order 8.
+- **L3.** det C(T(2, 3, N)) = 4, 3, 2, 1, 0, −1, −2 for N = 2 to 8, and 6N(1/2 + 1/3 + 1/N − 1) = 6 − N identically.
+  The ladder is finite exactly for N < 6 = 2·3, and N = 5 is its only unimodular rung. S has order 4 and ST order 6 in
+  SL(2, ℤ), whose abelianization is ℤ/12.
+- **L4, the chain in the icosian E₈.**
+  - The 126 roots orthogonal to 1 span a lattice of rank 7 and Gram determinant 2 (E₇). Conjugation by every unit
+    icosian fixes the set, and it contains each of W135's 10 E₆ frames.
+  - In one E₆ frame each of the 162 other roots cuts exactly 40 frame roots, giving 27 distinct D₅ sets, each of rank 5
+    and Gram determinant 4.
+  - The frame's stabilizer is 12 units acting as a group of order 6. It permutes the 27 sets in six orbits, of sizes
+    3, 3, 3, 6, 6 and 6.
+- **L5, the levels in use.** ρ′(T) has order 4 (W136's level 4), the theta qubit's g_T projective order 4 (W152),
+  W28's lift order 8 and projective order 4, and χ_η(T) order 24. B1601's common point (W16's JSON) lies over one prime
+  of norm 3 on odd trace and over 2 on even trace. Every prime is 2 or 3. The ladder levels in use are 2, 3 and 4.
+
+**What it shows (a READING of the computed facts).**
+- **The prime 5 is not an outside input in the ladder.** It is the last N at which the moves' quotient by a power of
+  the parabolic is finite, and the bound 1/2 + 1/3 + 1/N > 1 is fixed by the moves' own orders 2 and 3. So E₈ needs no
+  golden thread: the golden face is one road to the level-5 quotient, not the reason for it.
+- **E₈ is the top rung and the only unimodular one.** The lattice W135 built from the moves carries E₇ ⊃ E₆ ⊃ D₅. E₇
+  is unique, E₆ unique up to the moves, and D₅ is not: six orbits.
+- **The record's forced structures stop at level 4.** They use the primes 2 and 3, never 5.
+- **The map, rule by rule:**
+  - R1, every finite rung at once: E₈;
+  - R2, invariance under every move: E₈, but it needs a lattice partition function that no record has;
+  - R3, only the levels the forced structures use: E₇, the level-4 rung of the family group Γ₄ and of the qubit's
+    Clifford group.
+- **So E₈ is unconditional exactly when the principle takes the whole ladder (R1)** or asks invariance under every move
+  (R2). The arc does not choose. The choice is the owner's, with the seats consulted.
+- **Read, not selected.** E₇'s smallest representation, the 56, is pseudo-real, so E₇ alone gives no complex matter.
+  That is a fact about E₇, and preferring a chiral answer would be a hand-pick, so it decides nothing here.
+- **Under every rule** the step from the algebra to the loop's fields stays GENESIS FK11's.
+
+**Weave or thread.** L1 to L4 are WEAVE-type: the moves' group, every finite quotient at once, and the lattice built
+from the moves, with no thread. L5 is a census over the stated list of the record's forced structures.
+
+**Status.** COMPUTED (the rule first; one run; every cell as predicted). Data-free, so not a trial. The rule among R1,
+R2 and R3 is open, for the owner. 0 of 19.
+
 ## Reading: the observer's closings under the weave (2026-10-24; the owner's "I accept your recommendations that you just laid out.")
 
 **A READING: nothing is computed and it adds no claim.** The page is
@@ -12866,6 +12932,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W153 | COMPUTED (the rule first; one run; every cell as predicted); L1 to L4 weave-type | the ladder: the moves' quotient by T^N finite exactly for N = 2 to 5 (6, 12, 24, 60); McKay gives D₅, E₆, E₇, E₈; det = 6 − N, so the ladder ends at N = 5 from the moves' own orders 2 and 3, and E₈ is its only unimodular rung; in the icosian E₈, E₇ unique, E₆ unique up to the moves, D₅ in six orbits; the record's forced structures at the primes 2 and 3 only; R1 and R2 force E₈, R3 gives E₇; the owner rules. 0 of 19 |
 | Observer | READING (nothing computed; every row sourced) | the observer's closings under the weave: the arrow forced; the index chiral (odd, never 0), its sheet a convention; one unit a convention, the ratios of scales free; the McKay naming and a point in an orbit conventions; the filling (the end condition, FK10) open and not forced; the trit open until its orbit is checked; no closing needs an agent; GENESIS §7, FK12, C18 and THE_CLAIM's count proposed to main for re-typing (relay §265) |
 | Ledger | READING (nothing computed; four sweeps, every load-bearing line checked) | the effective action's ledger: the joint action forces the variables' space, Γ₄ and ρ′, the zero modes, the couplings' kind and E₈'s branching given the prime 5; not the loop's content (FK11, unearned), the weight and C(w) constants, the ratios of scales, Λ or the charges; three quartic invariants for h, so no unique truncation; the joint (τ, h) effective action cannot yet be computed without free inputs; step 2 recommended: a census over contents |
 | W152 | COMPUTED (the rule first; one run; every cell as predicted); K2 and K3 weave-type | the Higgs as a qubit state: R = η⁻³ Sym²(Θ₂(2τ), Θ₃(2τ)) to 10⁻⁵⁰; T and S act as the phase gate and a Hadamard-type gate, W28's lifts up to e^{iπZ/4}; the 26 special lines are the squares of the 6 stabilizer, 8 F-type and 12 H-type states; I = 2r/(1 + r²) for every direction; every single section tends to a pure stabilizer state or the maximally mixed one; the target (read-out) r ≈ 0.009, 22–27° from the stabilizer state, about halfway to an H-type magic state |

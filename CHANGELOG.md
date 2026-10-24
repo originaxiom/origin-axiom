@@ -1,5 +1,15 @@
 # Changelog
 
+## W153 recorded: the ladder, every cell as predicted (relay §267)
+
+- **The prime 5 is the ladder's last finite rung,** fixed by the moves' own orders 2 and 3 (1/2 + 1/3 + 1/N > 1 only
+  for N < 6), and E₈ is its only unimodular rung (det = 6 − N). The McKay graphs are D̃₅, Ẽ₆, Ẽ₇, Ẽ₈.
+- **Inside the icosian E₈:** E₇ unique, E₆ unique up to the moves, D₅ in six orbits.
+- **The record's forced structures use the primes 2 and 3 only** (levels 2, 3, 4).
+- **The map:** R1 and R2 force E₈, R3 gives E₇. The owner rules; the step to the fields stays GENESIS FK11's.
+- **Surfaces.** NOTE (section and row), the ledger's dated note, a lock test, the relay, the ledger row, the state page.
+  0 of 19.
+
 ## W153's rule, committed before its script: the ladder (relay §266)
 
 - **At the owner's question on E₈** ("can we derive it and make it unconditional") and ruling: is the prime 5 that

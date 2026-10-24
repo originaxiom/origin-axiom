@@ -165,4 +165,10 @@ rung and its only unimodular one. The record's forced structures sit at level 3 
 (Γ₄, W136; the qubit's Clifford group, W152). None sits at level 5. Whether a rule of the joint action takes the whole
 ladder is the owner's question. A data-free arc could set it out, rule first; it is offered, not started.
 
+**W153, 2026-10-24 (dated note).** The arc was run at the owner's ruling, every cell as predicted (NOTE, W153). The
+prime 5 is the ladder's last finite rung, fixed by the moves' own orders 2 and 3, and E₈ its only unimodular rung. The
+record's forced structures use only the primes 2 and 3. So E₈ is forced if the principle takes the whole ladder (R1)
+or asks invariance under every move (R2); under R3, the levels in use, the top rung is E₇. The rule is the owner's.
+The E₈ row above stands until the owner rules.
+
 0 of 19.
