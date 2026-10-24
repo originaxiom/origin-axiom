@@ -1,0 +1,25 @@
+{
+ "id": "B1754",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1752"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W153"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the foundation document",
+  "object": "GENESIS v1.57 -> v1.58: the ladder's rule in the three seats' merged wording; THE WEAVE's breaking rule qualified",
+  "reach": "general",
+  "hypotheses": "the owner's ruling of 2026-10-24 on P-385; the SM seat's relay §271 (harvest row 1389); the audit lane's reply (row 1395)"
+ },
+ "claim_one_line": "GENESIS v1.58 at the owner's ruling on P-385: the ladder's rule in the three seats' merged wording -- the rungs are the moves' quotients by T^N, Delta(2, 3, N), finite exactly for N = 2-5 with the end forced by the moves' orders (not every finite quotient: PSL(2, F7) is a quotient of the infinite Delta(2, 3, 7)); the container E8 a composition requirement adopted by ruling; R2 recorded with its hypothesis (one scalar holomorphic theta series; for any even lattice (Im tau)^(r/2) sum |Theta_mu|^2 is invariant). THE WEAVE's breaking rule gains the audit lane's qualifier: choosing a representative is a convention only when the declared equivalence preserves the full relational observables, including the reference/measuring sector. No status cell changes; no computation changes. 0 of 19.",
+ "weave_or_thread": "weave (the foundation's rules)"
+}

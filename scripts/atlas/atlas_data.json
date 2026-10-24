@@ -13960,6 +13960,23 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1754": {
+   "slug": "genesis v1 58",
+   "motifs": [
+    "measurement",
+    "coupling",
+    "eisenstein",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L4"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B175": {
    "slug": "collective spectrum predictivity",
    "motifs": [

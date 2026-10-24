@@ -760,6 +760,9 @@ new file. (E23 territory — the class where a convention flips silently between
 | **the Standard Model's reading** | in B1656's frame, the up sector sees the conjugate reading S̃ (the conjugate Higgs) and the down quarks and leptons see S (the Higgs), as the Standard Model's H̃ and H; with a nearly null Higgs it misaligns the light states (B1739) |
 | **χ²_six, χ²_nine (the precision cells)** | χ² of the six charged-fermion ratios (and with the three CKM moduli, the nine) at M_Z with σ² = (the data's relative error)² + 0.10² (B1720's compare.py, P-341); the bars 16.75 and 21.67 |
 | **the nine's target** | the Higgs direction one free Higgs read S in every sector needs to reach the nine (B1743, post hoc): nearly null with ∣h·h∣/∣h∣² ≈ 0.017 and an e₁ admixture ≈ 0.3; no form on record reaches it (P-357) |
+| **the look ledger** | the joint count of every seat's searches of B1656's frame against the six or the nine (docs/LOOK_LEDGER.md; GENESIS v1.56 FK9): a sealed decisive cell, or a post hoc scan that informed a later test, is one look; THE_BAR's Bonferroni factor counts the looks before a result's seal across all seats; first full count at Review 70 |
+| **five-ality** | a field's charge under SU(5)'s centre ℤ₅, read here as 6Y mod 5 (1 on the 10, 2 on the 5̄, 3 on the 5; B1728's law, P-296); on an order-5 line the frame's twist is a function of five-ality, so Y_e = Y_dᵀ there |
+| **the strip** | where the six charged-fermion ratios are reached specifically in B1656's frame: Im τ 2.96–3.11 with Re τ loose, on the T-orbit of the order-10 lines (2/5, 1/10) and (2/5, 1/2) (B1749, B1753; P-373); Im τ there is a free number of the frame |
 
 **The letters that collide, never to be used bare.** "A5" is the torsion-free closure in the uniqueness theorem and
 the geometric carrier in P019. "A6" is minimality in the uniqueness theorem and orientability in P019 — B1234's "the

@@ -401,8 +401,10 @@ weave question. "The object" (m004), "the family" (a list) and "the root" (SE1/S
 
 **Spontaneous breaking (adopted 2026-10-24).** The owner: "i adopt it as per you recomendation, if you included the
 inishgts from two other seats". A state selected by minimizing the joint action's own effective action is a weave
-result even when it breaks the symmetry. The full text, with its conditions on the functional and its coefficients, is
-in `docs/THE_WEAVE.md`.
+result even when it breaks the symmetry. Choosing a representative is a convention only when the declared equivalence
+preserves the full relational observables, including the reference/measuring sector (the audit lane's qualifier,
+adopted 2026-10-24, P-385). The full text, with its conditions on the functional and its coefficients, is in
+`docs/THE_WEAVE.md`.
 
 **The ladder's rule (adopted 2026-10-24).** R1: every finite rung of the moves' ladder at once (the end at 5 follows from the
-moves' orders; E₈ as the container adopted by the ruling, not derived; B1752); the rule fixes the algebra, not its embedding or its fields. Text and clauses in `docs/THE_WEAVE.md` (B1751).
+moves' orders; E₈ as the container adopted by the ruling, not derived; B1752); the rule fixes the algebra, not its embedding or its fields. Text and clauses in `docs/THE_WEAVE.md` (B1751). The rungs are the quotients by T^N, Δ(2, 3, N), not every finite quotient of the moves; R2 needs one scalar holomorphic theta series (the merged wording, P-385; GENESIS v1.58, B1754).

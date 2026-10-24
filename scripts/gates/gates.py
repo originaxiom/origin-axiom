@@ -1180,7 +1180,8 @@ def seen_first_missing(root=None, start=SEEN_FIRST_FROM):
         sec = re.search(r"(?ms)^##[^\n]*Seen first[^\n]*\n(.*?)(?=^## |\Z)", text)
         if not sec: bad.append(os.path.basename(d) + " (no 'Seen first' section)"); continue
         body = sec.group(1).lower()
-        if "topic-sweep" not in body and "absence-sweep" not in body and "sweep" not in body: bad.append(os.path.basename(d) + " (no repo sweep cited)")
+        if "⟦" in body: bad.append(os.path.basename(d) + " (an unfilled placeholder: the sweep's result was never entered)")    # R70 (B1743, B1746)
+        elif "topic-sweep" not in body and "absence-sweep" not in body and "sweep" not in body: bad.append(os.path.basename(d) + " (no repo sweep cited)")
         elif "literature" not in body: bad.append(os.path.basename(d) + " (the literature is not addressed)")
     return bad
 

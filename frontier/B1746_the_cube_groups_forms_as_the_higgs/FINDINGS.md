@@ -56,7 +56,7 @@ The best rows sit where B1743's pencils did ((2/5, 3/10), Im τ 3.3, L_max, abou
 
 ## Seen first
 
-`VERDICT topic-sweep /cube (group|forms|rotations)|Gamma_?4|Γ₄|PSL\(2, ?ℤ/4\)|level.4 forms|rho' ?x ?sgn|ρ′ ⊗ sgn/ (full text)`: ⟦SWEEP⟧.
+`VERDICT topic-sweep /cube (group|forms|rotations)|Gamma_?4|Γ₄|PSL\(2, ?ℤ/4\)|level.4 forms|rho' ?x ?sgn|ρ′ ⊗ sgn/ (full text)`: 16 of 1526 arcs on main match (NEGATIVE 2, OPEN 1, PROVED 13) [corrected 2026-10-24 at Review 70: the arc landed with the placeholder unfilled, which the seen-first gate did not catch (it now does); the sweep run at the review, its count including later arcs].
 Bearing on it: B1736, B1730, B1691, B1740, B1743, B1744; the SM seat's W136 and W143; the web seat's cube_forms_count.
 **Literature:** modular-S₄ (Γ₄) flavour models' forms (standard).
 

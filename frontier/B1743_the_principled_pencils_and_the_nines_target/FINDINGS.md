@@ -73,7 +73,7 @@ symmetric weight a₂ about 0.2 of ∣u∣ at the band), so this is a reading, n
 
 ## Seen first
 
-`VERDICT topic-sweep /pencil|one free (Higgs )?direction|inverse.higgs|the nine'?s target|h\.h|null cone/ (full text)`: ⟦SWEEP⟧.
+`VERDICT topic-sweep /pencil|one free (Higgs )?direction|inverse.higgs|the nine'?s target|h\.h|null cone/ (full text)`: 35 of 1526 arcs on main match (NEGATIVE 7, OPEN 2, PROVED 26) [corrected 2026-10-24 at Review 70: the arc landed with the placeholder unfilled, which the seen-first gate did not catch (it now does); the sweep run at the review, its count including later arcs].
 Bearing on it: B1736, B1739, B1740, B1742, B1730, B1691. **Literature:** standard (modular forms, the Serre derivative).
 
 ## Disclosed

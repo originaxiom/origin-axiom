@@ -132,6 +132,8 @@ def test_seen_first_fails_on_an_arc_without_the_section(tmp_path):
     bad = gates.seen_first_missing(root=str(tmp_path)); assert bad and "B99993" in bad[0]
     (a / "FINDINGS.md").write_text("# B99993\n\n## 0. Seen first\n\n- topic-sweep run; literature: none needed.\n")
     assert gates.seen_first_missing(root=str(tmp_path)) == []
+    (a / "FINDINGS.md").write_text("# B99993\n\n## 0. Seen first\n\n`VERDICT topic-sweep /x/`: ⟦SWEEP⟧. Literature: none.\n")   # R70
+    bad = gates.seen_first_missing(root=str(tmp_path)); assert bad and "unfilled placeholder" in bad[0]
 
 
 def test_genesis_cited_fails_on_a_page_that_lost_its_pointer(tmp_path):

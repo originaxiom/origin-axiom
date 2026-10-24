@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1482 of 1482 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1483 of 1483 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1012)
+## PROVED (1013)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1024,6 +1024,7 @@
 | `B1751` | GENESIS v1.56 at the owner's rulings of 2026-10-24: FK9's looks counted jointly across seats (the look ledger, P-367; docs/LOOK_LEDGER.md opened with main's 20 looks, the web seat's 7 and the SM seat's); the ladder's rule R1 recorded at F-MC with its two clauses (the prime 5 adopted by the rule, not derived; the rule fixes the algebra, not its embedding or fields; sm:W153) (P-375); the Higgs fork ruled 'both lines kept separate'; the referee lane's concordance adopted into TERMINOLOGY (P-195); the paper frozen, the reader's PDF unsent and GM5c open confirmed. No status cell changes. 0 of 19. |  | 1 |
 | `B1752` | GENESIS v1.57: the ladder's rule's first clause corrected at the web seat's opinion (P-379), under the owner's ruling that the seats still to answer could amend it -- the end at 5 follows from the moves' orders 2 and 3 (sm:W153), and what the ruling adopts is E8 as the single container of the rungs (the rungs' groups form no chain); main's first clause had put the adoption on the prime 5. No status cell changes. 0 of 19. |  | 1 |
 | `B1753` | THE SIX ON THE FIVE-ALITY LINES (P-340; sealed 33b197340, sha256 4737fdca; PROVED as sealed for its question -- P2, the decisive cell at 0.1%, holds; P1, C1, C2 hold; outputs committed unread at 26c714d8a and e5a942a98): with the lines fixed in advance to orders divisible by 5 (where the hypercharge twist carries SU(5)'s centre, 6Y mod 5 the SU(5) label) on 223 fresh apexes, B1741's unchanged instrument reaches the six charged-fermion ratios (chi2_six 2.74 at 0.3333 + 3.0368i on (2/5, 1/10)) with 7 of 80 000 random hierarchies as good (0.009%; r = 1.8e-4). Main's hostile referee: seal, instrument, freshness and calibration hold, but the line rule is mostly a pick -- every simple order rule or random 48-line subset containing the order-10 lines (2/5, 1/10), (2/5, 1/2) passes, none without them; the outcome was foreknown (the same restriction on B1726's grid: 0.005%); the look count is fragile (51-52, 68 inclusive) and a fair null lets random targets choose their class. A READING (c = 3 and the reading rule by hand; tau sampled; the nine fail), ungraded. The open question: what selects the line class (2/5, odd/10). 0 of 19. |  | 1 |
+| `B1754` | GENESIS v1.58 at the owner's ruling on P-385: the ladder's rule in the three seats' merged wording -- the rungs are the moves' quotients by T^N, Delta(2, 3, N), finite exactly for N = 2-5 with the end forced by the moves' orders (not every finite quotient: PSL(2, F7) is a quotient of the infinite Delta(2, 3, 7)); the container E8 a composition requirement adopted by ruling; R2 recorded with its hypothesis (one scalar holomorphic theta series; for any even lattice (Im tau)^(r/2) sum |Theta_mu|^2 is invariant). THE WEAVE's breaking rule gains the audit lane's qualifier: choosing a representative is a convention only when the declared equivalence preserves the full relational observables, including the reference/measuring sector. No status cell changes; no computation changes. 0 of 19. |  | 1 |
 
 ## NEGATIVE (366)
 

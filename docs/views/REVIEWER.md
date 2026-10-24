@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1482** |
-| words of findings prose | **1,194,570** |
-| test lock files referenced | **897** |
-| arcs carrying an authored verdict | **1482** (100.0 %) |
+| research arcs with findings | **1483** |
+| words of findings prose | **1,195,199** |
+| test lock files referenced | **898** |
+| arcs carrying an authored verdict | **1483** (100.0 %) |
 | recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1012 |
+| PROVED | 1013 |
 | NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1753`** (1189 words, 1 locks)  
-THE SIX ON THE FIVE-ALITY LINES (P-340; sealed 33b197340, sha256 4737fdca; PROVED as sealed for its question -- P2, the decisive cell at 0.1%, holds; P1, C1, C2 hold; outputs committed unread at 26c714d8a and e5a942a98): with the lines fixed in advance to orders divisible by 5 (where the hypercharge twist carries SU(5)'s centre, 6Y mod 5 the SU(5) label) on 223 fresh apexes, B1741's unchanged instrument reaches the six charged-fermion ratios (chi2_six 2.74 at 0.3333 + 3.0368i on (2/5, 1/10)) with 7 of 80 000 random hierarchies as good (0.009%; r = 1.8e-4). Main's hostile referee: seal, instrument, freshness and calibration hold, but the line rule is mostly a pick -- every simple order rule or random 48-line subset containing the order-10 lines (2/5, 1/10), (2/5, 1/2) passes, none without them; the outcome was foreknown (the same restriction on B1726's grid: 0.005%); the look count is fragile (51-52, 68 inclusive) and a fair null lets random targets choose their class. A READING (c = 3 and the reading rule by hand; tau sampled; the nine fail), ungraded. The open question: what selects the line class (2/5, odd/10). 0 of 19.  
-`B1753_the_six_on_the_five_ality_lines/FINDINGS.md`
+**PROVED — `B1754`** (539 words, 1 locks)  
+GENESIS v1.58 at the owner's ruling on P-385: the ladder's rule in the three seats' merged wording -- the rungs are the moves' quotients by T^N, Delta(2, 3, N), finite exactly for N = 2-5 with the end forced by the moves' orders (not every finite quotient: PSL(2, F7) is a quotient of the infinite Delta(2, 3, 7)); the container E8 a composition requirement adopted by ruling; R2 recorded with its hypothesis (one scalar holomorphic theta series; for any even lattice (Im tau)^(r/2) sum |Theta_mu|^2 is invariant). THE WEAVE's breaking rule gains the audit lane's qualifier: choosing a representative is a convention only when the declared equivalence preserves the full relational observables, including the reference/measuring sector. No status cell changes; no computation changes. 0 of 19.  
+`B1754_genesis_v1_58/FINDINGS.md`
 
 **NEGATIVE — `B1748`** (966 words, 1 locks)  
 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  

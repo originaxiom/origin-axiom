@@ -7226,13 +7226,146 @@ Post hoc work is labelled throughout (B1743, B1744 §3).
   "χ²_six / χ²_nine", "best nine-row" — R69-2.
 
 ### Action items (Review 69)
-- [ ] R69-1: harvest and verify the web seat's THE READING TEST when it lands (P-360), and P-357 (what fixes the Higgs's invariant at about 0.018) (owner: cc)
-- [ ] R69-2: gloss in TERMINOLOGY.md the window's unglossed terms (third opinion, zero-free Higgs, nearly null, the Standard Model's reading, χ²_six and χ²_nine, the nine's target) (owner: cc)
-- [ ] R69-3: `scripts/run_suite.sh`'s parallel default (-n 12) and `--changed`'s full-suite fallback respect the 8-core rule, with a test (owner: cc)
-- [>] R69-4: L230 (c), (d), (f); L231's rows; L232's five reads (carried from R68-4; owner: cc; due at Review 70)
-- [>] R69-5: P-238, the verifications by consequence (carried from R68-5, itself carried from R67-2 and R66-6; overdue; owner: cc)
-- [>] R69-6: verify W131, W132 (P-300), W130 (P-298) on main; P-301 (B893's exactness) (carried from R68-6; owner: cc)
-- [ ] R69-7: the aged relays and leads escalated to this review (P-359): each read and closed, or given a dated next action (owner: cc)
+- [x] R69-1: harvest and verify the web seat's THE READING TEST when it lands (P-360), and P-357 (what fixes the Higgs's invariant at about 0.018) (owner: cc) — **resolved at Review 70:** THE READING TEST harvested and verified on main (B1747; P-360 DONE); P-357 sharpened (P-366; B1746, NEGATIVE) and stays a physics row in the register (Q1), not a review item
+- [x] R69-2: gloss in TERMINOLOGY.md the window's unglossed terms (third opinion, zero-free Higgs, nearly null, the Standard Model's reading, χ²_six and χ²_nine, the nine's target) (owner: cc) — **resolved 2026-10-24 (S208):** six glosses
+- [x] R69-3: `scripts/run_suite.sh`'s parallel default (-n 12) and `--changed`'s full-suite fallback respect the 8-core rule, with a test (owner: cc) — **resolved 2026-10-24 (S208):** the default is -n 8, which the fallback inherits; `tests/test_suite_runner_cores.py` with a planted default
+- [>] R69-4: L230 (c), (d), (f); L231's rows; L232's five reads (carried from R68-4; owner: cc; due at Review 70) — L230 closed by consequence at Review 70; L231 narrowed and L232 dated, carried as R70-4
+- [x] R69-5: P-238, the verifications by consequence (carried from R68-5, itself carried from R67-2 and R66-6; overdue; owner: cc) — **resolved at Review 70, by consequence** (P-238 DONE; its one live residue is R70-2)
+- [>] R69-6: verify W131, W132 (P-300), W130 (P-298) on main; P-301 (B893's exactness) (carried from R68-6; owner: cc) — W133 closed by consequence (B1730), W131 and W132 retired by consequence; P-301 carried as R70-1, P-298 as R70-3
+- [>] R69-7: the aged relays and leads escalated to this review (P-359): each read and closed, or given a dated next action (owner: cc) — L238 and three relays closed at S209; the rest given dated next actions at Review 70, carried as R70-5
 - [x] R69-8: filed at this review: R68-1 and R68-2 fixed with failing-path tests; B1742's and P-355's dated corrections; the E54, E28 and E2 instances
 
 **anchor-commit: `d64dd547c`**
+
+# Review 70 (2026-10-24) — the six on one strip, read twice, and the looks counted together
+
+23 commits since Review 69 (`d64dd547c..0c9d60a5f`, all on the first-parent line) and 8 arcs with a verdict
+(B1746–B1753), with this landing's B1754 (the owner's ruling on P-385). The owner asked for the review ("and run the
+decadal").
+
+**What the window did:**
+- **The six charged-fermion ratios at fresh apexes, sealed twice:** B1749 (all 266 lines, 16 of 80 000 random
+  hierarchies as low, 0.02%) and B1753 (the lines whose order is divisible by 5, 7 of 80 000, 0.009%). Both PROVED as
+  sealed for their questions, both READINGS (c = 3 and the reading rule by hand), both ungraded. Their referees narrowed
+  them to one strip (Im τ 2.96–3.11, Re τ loose) on the order-10 class (2/5, odd/10); B1753's line rule is mostly a pick
+  (every rule or random subset containing those lines passes).
+- **The heavy four from a null Higgs:** reachable, not specific (B1748, sealed NEGATIVE, 1.54%).
+- **The nine:** the Standard Model's one-Higgs reading is excluded on every line of order ≤ 12 (the web seat's sealed
+  THE READING TEST, verified on main, B1747); the frame's family group Γ₄ gives the record's nearly null Higgs as its own
+  forms but no form or pencil reaches the nine's target (B1746). At the strip the mixing needs two nearly null doublets,
+  and free doublets are not specific (post hoc, P-377); two lines instead of two doublets fail (P-383).
+- **The foundations:** the observer re-typed — the closer retired, the identification ledger in its place (B1750, GENESIS
+  v1.55); the looks counted jointly across seats and the ladder's rule R1 (B1751, v1.56); the ladder's clause corrected
+  (B1752, v1.57); the merged ladder wording and the WEAVE qualifier (B1754, v1.58). No status cell changed.
+- **The literature check (P-382):** the Im τ ≈ 3 region is prior art with 18–20 fitted coefficients; no mechanism fixes
+  Im τ without a chosen ratio; the quantized order-5/10 shift with the five-ality law and the random-target calibration
+  are possibly new on the record.
+- **Still 0 of 19.**
+
+## 1. The loop (Review 69's block)
+
+- **R69-1 RESOLVED:** THE READING TEST harvested and verified (B1747). P-357 stays a physics row (sharpened as P-366).
+- **R69-2, R69-3 RESOLVED at S208** (six glosses; the suite runner's -n 8 default with a planted lock).
+- **R69-5 RESOLVED BY CONSEQUENCE (P-238 DONE).** P-238 asked for the verifications GENESIS §5's cells had not reached,
+  ordered by consequence. Every sub-item is carried by GENESIS's v1.51 tag ("the seat's, unverified on main, except where a
+  cell says otherwise"), which is the disclosure, and no live cell rests on one unconditionally: the cones and the SM seat's arc 1515 were
+  dispositioned (rows 676, 690), the mirror verified on M₁–M₆ (B1462), Lemmas R and T read with their consequence verified
+  (B1465), W81's branching verified. The one live conditional, THE WEAVE's "W74's CP-invariance holds given W64's dimension
+  count", is already stated as a condition; its premise goes to R70-2.
+- **R69-4:** L230 CLOSED by consequence ((c), (d), (f) are archive readings no live page cites); L231 narrowed (the windows
+  were harvested since; its stale sentences sit in L232's documents; six named items remain) and L232 dated — R70-4.
+- **R69-6:** W133 closed by consequence (its content is main's B1730); W131, W132 retired by consequence; **P-301 is live**
+  (THEOREM_LEDGER C25 [THEOREM] rests on B893's det₁₄ > 0 at three roots) — first, as R70-1; P-298's main check — R70-3.
+- **R69-7:** L238 and three relays were closed at S209. This review gave each remaining item a dated next action (by
+  Review 71): L239 (a), (c); L240 (c), (f); L242's two open counts; L243 (c), (d) with R77's join — R70-5. The owner-held
+  CC_TO_SM relays are the owner's, not main's debt.
+
+## 1b. The look ledger's first full count (P-376; the owner's ruling of 2026-10-24)
+
+Every arc from B1656 to B1753 read against its verdict; every seat's rows checked against its record — the SM seat's
+(row 1389) and the web seat's, by the seat itself (row 1399, arriving during the review) (`docs/LOOK_LEDGER.md`). Missing
+were main's seven earlier sealed searches (B1660, B1693–B1696, B1698, B1699) and the web seat's GJ_WALL and
+RIGID_TAU_HOLOMORPHIC's second family; the web seat's zero-free layer run reads no data and is not a look. **36 sealed
+decisive cells before B1753's seal (main 21, the web seat 10, the SM seat 5); 32 post hoc scans on record, each counting,
+by the ledger's definition, only for the test it informed.**
+- **B1753:** 36 + the three post hoc scans that informed it = **m = 39, which passes Bonferroni (m ≤ 55)**; the inclusive
+  reading (every post hoc scan counted for every later test, 68) fails. THE_BAR's PASSED also needs a null in which each
+  random target chooses its line class, since the class was chosen on the same data.
+- **B1749:** at least 33 sealed cells precede its seal (m ≤ 30): Bonferroni fails.
+- **Both stay ungraded.** The route to a grade is the exact joint law with a class-choosing null (R70-7). The SM seat's
+  third opinion on B1749 (W156) arrived during the review: it reproduces in full and agrees with main's scope.
+- This section's first draft lumped every post hoc scan into every grade (53, B1753 passing by two or three looks); the
+  web seat's row check showed the definition's narrower reading, corrected before the review was pushed.
+
+## 2. The branch inventory and the lanes
+
+Twelve unmerged leaves, all registered; the seat branches live on `origin` only (since R66-1). Harvested to their heads:
+the web seat (`cf454ef2`; THE UNIFICATION-SCALE TEST scanning, its grading under the ledger declared before any cell; e16–e19;
+three relays during the review — its ledger rows and JUNO's second release, THE STEP BACK, P-327's cusps; rows 1398–1401),
+the SM seat (`02c35e10`; W156, the third opinion on B1749, reproduced in full; §275's proposed test of the level-5 rung,
+adopted as B1755; rows 1396–1397), and the audit lane (`f96c008c`, rows 1393–1395: 16 commits and 12 relays — the P210
+execution package sealed for review with all ten science checks unrun, six unreviewed analytical successors, and its
+reply on the ladder and the WEAVE sentence, adopted in part at P-385). Harvest debt: 0 new unrowed, 0 backlog, 0 stale
+rows, 0 relays without a row. The audit lane asks main for a non-authoring review of its sealed P210 sources and a
+structured acceptance before any execution — P-386, R70-6.
+
+## 3. The declared modulus
+
+**fresh-clone: PASS @ 0c9d60a5f (gates all PASS; belt ok)** · **sample seed: d64dd547c**; read in full: B1746, B1747, B1748, B1751, B1753 ·
+**gate controls: 45 registered** failing-path tests; unregistered: none · **full suite: 7 738 passed, 2 failed, 68 skipped (27:39, -n 8) on 2a69ae2e8; both failures are B805's attachment locks (P-239).**
+
+- **Read in full:** the seeded sample (seed = the anchor): B1746, B1747, B1748, B1751, B1753; and main's other arcs of the
+  window, B1749, B1750, B1752, with this landing's B1754.
+- **Re-run:** the full suite at every landing of the window; the fresh clone at `0c9d60a5f` (gates all PASS, the
+  reproduction belt ok); the two missing topic sweeps (§4).
+- **Not certified:** the seats' results beyond what main re-ran (each named in its harvest row); W156 and THE
+  UNIFICATION-SCALE TEST (in flight); the audit lane's P210 package (unreviewed, P-386).
+
+## 4. The sample, read
+
+- **B1746:** sound in its mathematics (Γ₄'s forms solved and counted; ∂R its weight-6 twisted form to 2 × 10⁻¹⁶; no pencil
+  below the bar, post hoc, labelled). **A finding:** its Seen-first line, and B1743's, carried the placeholder ⟦SWEEP⟧
+  where the sweep's result belongs. The seen-first gate asked only for the words "sweep" and "literature", so it passed
+  both (E82: a detector that could not fire). Both sweeps run and entered as dated corrections; the gate now names any
+  ⟦…⟧ in the section, with the case planted in its registered control.
+- **B1747:** sound (a verification on a sample of forty; main's lowest row reproduces the seat's to 10⁻⁶; four hopeless
+  rows where main went lower, reported).
+- **B1748:** sound and correctly graded (P1 holds, P2 fails at 1.54%; L₂'s best uses c = 1).
+- **B1751:** sound; the look ledger it opened listed 28 looks — completed here (§1b).
+- **B1753:** sound as corrected before its push (the referee's line-rule finding taken; P-362 (A), omitted at the seal,
+  named in its FINDINGS).
+- **Main's other arcs:** B1749's preregistration swept the arcs only and missed P-350, disclosed in its FINDINGS (E54;
+  the sweep now covers the register and OPEN_LEADS). B1750, B1752 and B1754 are amendment arcs whose adoption scripts'
+  `--check` hold.
+
+## 5. Protocol integrity
+
+Three seals in the window (B1748, B1749, B1753): every hash verifies and each seal precedes its results; outputs were
+committed unread, then read once. The review tool reports "seal not on every remote" for each: the owner's mirror
+(`backup`, the LaCie drive) has been unreachable since 2026-10-24, and the owner will reconnect it and say when. The
+seals are on `origin`. Post hoc work is labelled (B1746 §2, B1748 §3, B1749's read, the audit-room scans S217–S220 in the
+register). B1753's restriction was chosen after the data's good rows were seen and lacked a random-subset control before
+sealing; disclosed, and the control is now a rule for any restriction test.
+
+## 6. Advancement, errors, provenance
+
+- **Advancement:** LAW_MAP +2 rows, THEOREM_REGISTRY +0. Nothing moved to DERIVED; GENESIS v1.55–v1.58 changed no status
+  cell.
+- **Errors:** no new class. Instances: E82 (the seen-first gate, §4) and E54 (B1749's sweep blind to the register), both
+  in the error ledger.
+- **Provenance:** 0 hits in the window's added lines.
+- **Vocabulary:** "the look ledger", "five-ality" and "the strip" glossed in TERMINOLOGY.md at this review.
+
+### Action items (Review 70)
+- [ ] R70-1: P-301 — regenerate B893's det₁₄ from the repository's exact tower and certify its sign at the three roots exactly; confirm THEOREM_LEDGER C25 or correct it with a dated note (carried from R69-6, itself from R68-6; owner: cc; first after this landing)
+- [ ] R70-2: W64's dimension count on main — the premise of THE WEAVE's "W74's CP-invariance holds given W64's dimension count" (P-238's one live residue; owner: cc)
+- [ ] R70-3: P-298 — main's own check of W130 (the non-abelian Hodge criterion and the (3, 3, 3) non-unitarity) (carried from R69-6, itself from R68-6; owner: cc)
+- [ ] R70-4: L232's five reads (THE_FRAMEWORK and THE_SM_VERDICT first, carrying L231's stale sentences) and L231's six remaining items, each read and corrected or declined (carried from R69-4, itself from R68-4; owner: cc; due at Review 71)
+- [ ] R70-5: L239 (a), (c); L240 (c), (f); L242's two open counts; L243 (c) R79 and (d) the boundary table, with R77's join (carried from R69-7; owner: cc; due at Review 71)
+- [ ] R70-6: P-386 — review the audit lane's sealed P210 sources in its order, then accept with the structured records or refuse with a dated note (owner: cc)
+- [ ] R70-7: the joint-law grade of B1749 and B1753 with a class-choosing null (P-381, P-384), after B1753's third opinion; harvest THE UNIFICATION-SCALE TEST when it lands (W156 harvested at this review) (owner: cc)
+- [x] R70-8: push the owner's mirror when the owner reconnects the drive (owner: the owner, then cc) — the owner reconnected it during the review; pushed with this landing
+- [ ] R70-10: P-388 — grade JUNO's second release against P10 and P10′ in an arc (P10′'s falsifier fires at 5.83σ) (owner: cc)
+- [ ] R70-11: P-389 — the web seat's step-back proposal, put to the owner with main's opinion (owner: the owner)
+- [ ] R70-12: B1755 — the SM seat's test of the level-5 rung (P-387): seal, census, comparison (owner: cc)
+- [x] R70-9: filed at this review: the seen-first gate's placeholder check (B1743, B1746 corrected; E82); the look ledger's first full count (corrected by the web seat's row check before the push); the audit lane harvested (rows 1393–1395); P-385 adopted (B1754, GENESIS v1.58); P-238 closed by consequence; L230 closed; three glosses

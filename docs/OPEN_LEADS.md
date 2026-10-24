@@ -3014,7 +3014,7 @@ no three sector characters share a slope while their quotients do not — and no
 
 **ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: (i) has its data (B1439: 95 of 758 states carry a generation at their own level) and no law; (ii)–(v) not run. These are questions of the slope frame (B1438); the work moved to the weave and B1656's frame after 2026-10-07. Owed: Review 68 reads each item and either carries it with an arc or retires it as a question of the slope frame, by name; none is closed here without that read. Owner: cc.
 
-## L230 — THE WEB SEAT'S CHECKPOINTS: what main carries forward (registered 2026-10-01, B1432; registration over preservation)
+## L230 — THE WEB SEAT'S CHECKPOINTS: what main carries forward (registered 2026-10-01, B1432; registration over preservation) — **CLOSED 2026-10-24 (Review 70, R69-4: by consequence)**
 
 Five checkpoint archives from a web research seat were read in full on 2026-09-30 and 2026-10-01 (825 distinct files;
 digests in the gitignored audit room). The SM lane had adopted the corrective one (sm:B1379, sm:B1384). Carried forward:
@@ -3042,6 +3042,8 @@ digests in the gitignored audit room). The SM lane had adopted the corrective on
 
 **ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: (a) and (b) closed (B1436; B1435, B1438); not run: (c) the three index-12 carriers in SL(2, O/4) (a GAP count, unverified), (d) the July closure formula and 1/96's non-invariance (an archive reading), (f) the Y₄ filling-screen locus (no script shipped). Owed: (c) is a bounded group-theory check; (d) and (f) are reads of the gitignored digests. Owner: cc.
 
+**REVIEW 70 (2026-10-24), R69-4: CLOSED by consequence.** (a) and (b) were closed (B1436; B1435, B1438). (c) the three index-12 carriers, (d) the July closure formula and its 1/96, and (f) the Y₄ screen's locus are archive readings no live cell, register row or document cites; they stay the archives', unverified on main (B448 stands).
+
 ## L231 — WHAT THE SWEEP OF 2026-10-01 FOUND BURIED OR STALE (registered 2026-10-01, B1434)
 
 A seven-part read of main and every lane against four absence statements (the statements were wrong or too strong in
@@ -3060,6 +3062,8 @@ power at measured precision. Each is a row to pay, not a finding to file.
 
 **ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: the list was registered as rows to pay and has not been paid as a whole since 2026-10-01 (some windows were harvested later). Owed: Review 68 reads each item against HARVEST_LEDGER, RETRACTIONS and the surfaces named, and pays, closes or re-registers it as a point row. Owner: cc.
 
+**REVIEW 70 (2026-10-24), R69-4: narrowed, dated.** The unharvested windows were harvested since (B1453, B1457, B1690; harvest rows 711–712). The stale surfaces that remain sit in L232's declared-debt documents (the withdrawn "16σ" in THE_FRAMEWORK and THE_SM_VERDICT; THE_FRAMEWORK's "no canonical arrow"; THE_LADDER's is gone) and are paid with their reads. The rest — B940 against B1141 and B1145, B1182 on B1083's corrected identification, B723's verdict, CLAIMS C-cal against B653, B1137's "last door", `paths/PATHS.md` — is read and corrected or declined by Review 71 (R70-4).
+
 ## L232 — FIVE LIVING DOCUMENTS OWED A READ (registered 2026-10-01, B1437)
 
 Unmasked when the doc-currency gate stopped counting another seat's arc numbers as citations. Lags on the day:
@@ -3072,6 +3076,8 @@ L231 names; THE_SM_VERDICT predates B1427, B1432, B1434 and B1435. The reads wai
 strategy only where the document states strategy; the factual rows do not wait.
 
 **ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: the five documents are still declared debts in `scripts/checks/doc_currency.py` (COMPUTE_THE_PROGRAM, THE_FRAMEWORK, THE_LADDER, THE_SM_VERDICT, WORKING_RULES). Owed: one read per document, the two carrying "no canonical arrow" first (L231); each paid read removes its declared entry in the same commit. Owner: cc.
+
+**REVIEW 70 (2026-10-24), R69-4: dated.** All five are still declared debts in `scripts/checks/doc_currency.py`. Order: THE_FRAMEWORK and THE_SM_VERDICT first (they carry L231's stale sentences), then THE_LADDER and WORKING_RULES; COMPUTE_THE_PROGRAM may instead be declared frozen, as R56 did for the TOOLBOX. Due by Review 71 (R70-4).
 
 ## L233 — THE SLOPE: what it is, and what it does not yet say (registered 2026-10-01, B1438)
 
@@ -3269,6 +3275,8 @@ each is a statement of the seat's that main has **not verified**, and each belon
 definition; the seat's two theorems of sm:B1384 are still unverified here. (a) stays as it was: GENESIS carries the
 puncture as CONDITIONAL, and a sweep of main's verdict lines found no arc deriving the carrier's premises. The rest stand.
 
+**REVIEW 70 (2026-10-24), R69-7:** (a) and (c) ride with the foundation lock's live stages (P-321 records GM4 derived; GENESIS §3's convention) — a dated next action by Review 71 (R70-5); (b) and (d)–(g) stay the seat's, unverified on main, with no live dependent ((d) is paper wording, and the paper is frozen: errata only).
+
 ## L240 — THE FOUNDATION LOCK'S REMAINDER (registered 2026-10-02, B1454)
 
 **ESCALATED(2026-10-24: the remainder (a), (c)–(i) in the decadal review's intake, P-359).**
@@ -3291,6 +3299,8 @@ GENESIS v1.1 is on main, verified and gated. What the lock still owes (`docs/THE
   the physical vacuum. **(h) The test of the whole:** a fresh reader with only GENESIS and the README, against sealed
   questions. Not run.
 - **(i) FK1**, the principle's single wording, awaits the owner.
+
+**REVIEW 70 (2026-10-24), R69-7:** (c) THE_CLAIM's restatement and (f) R58, which GENESIS cites and main has not read, are dated next actions by Review 71 (R70-5); (a) the scope tags stay a standing campaign; (g) and (h) are carried as one item with them.
 
 ## L241 — THE MEASURER QUESTION (registered 2026-10-02, B1455; standing, at the owner's word)
 
@@ -3413,6 +3423,8 @@ hypotheses. (d) The handoff's "12 up to Aut" for m202.
   curves). The sign lives in ρ(c) at the point. Formula open; it would say which complete points sit on the twisted
   branch without computing c.
 
+**REVIEW 70 (2026-10-24), R69-7:** (a), (b), (c) and (e) paid (B1459, B1462, B1465). Open, dated by Review 71 (R70-5): B1447's sixteen non-self-dual zeros, and (d) the count for m202 up to automorphisms.
+
 ## L243 — FROM THE SEATS, NOT YET CHECKED ON MAIN (registered 2026-10-02, B1456, B1457)
 
 **ESCALATED(2026-10-24: its open items in the decadal review's intake, P-359).**
@@ -3454,6 +3466,8 @@ a third route and the mirror breaks exactly on the single-sheet twists (B1462); 
 re-derived (B1463); the review loop was made able to fail itself (B1461) and the first thing it failed was its own seal gate
 (B1464: 41 of 46 seals without the provenance markers, frozen). **Derived parameters: 0 of 19.** The next computation, by
 the owner's word: a sourced non-split configuration at a non-complete point, graded against the bar.
+
+**REVIEW 70 (2026-10-24), R69-7:** (a), (b) and (g) paid (B1463, B1458). Dated by Review 71 (R70-5): (c) R79 and (d) the boundary table — the one place the record states a net three on a two-ended object, so the live one; (e) R69's −3 on levels 3 and 6 and (f) the child lane's audit ride with them. R77's requested join is read and answered or declined in the same pass; the owner-held CC_TO_SM relays are the owner's, not main's debt.
 
 ## L244 — THE SYMMETRIC-PHASE READING (registered 2026-10-03, the owner: "mark this, i'd like to treat it seriously")
 

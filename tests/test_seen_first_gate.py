@@ -36,8 +36,10 @@ def test_the_gate_fails_and_passes(tmp_path):
     _arc(tmp_path, "B1455_no_sweep", "# B1455\n## Seen first\nthe literature was read.\n## 1\n")
     _arc(tmp_path, "B1456_no_literature", "# B1456\n## 0. Seen first\nVERDICT topic-sweep /x/: 3 of 1300 arcs.\n## 1\n")
     _arc(tmp_path, "B1457_complete", "# B1457\n## 0. Seen first\n- Repo: VERDICT topic-sweep /x/: 3 of 1300 arcs; read B1, B2.\n- Literature: searched for X; read Y's Theorem 2 with its hypotheses.\n## 1\n")
+    _arc(tmp_path, "B1458_placeholder", "# B1458\n## 0. Seen first\n`VERDICT topic-sweep /x/`: \u27e6SWEEP\u27e7. Literature: none.\n## 1\n")   # R70
     bad = g.seen_first_missing(root=tmp_path)
-    assert len(bad) == 3 and not any("B1453" in b or "B1457" in b for b in bad)
+    assert len(bad) == 4 and not any("B1453" in b or "B1457" in b for b in bad)
+    assert any("B1458" in b and "unfilled placeholder" in b for b in bad)
     assert any("B1454" in b and "no 'Seen first'" in b for b in bad)
     assert any("B1455" in b and "no repo sweep" in b for b in bad)
     assert any("B1456" in b and "literature" in b for b in bad)

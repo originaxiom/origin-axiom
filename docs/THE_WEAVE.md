@@ -869,7 +869,9 @@ found with B1635's sealed instrument.
 The owner's ruling, verbatim: "i adopt it as per you recomendation, if you included the inishgts from two other
 seats". The draft went to every seat for opinions at the owner's word ("we should ask for opinions the other seats as
 well, please relay"; the SM seat's relay §255). Main's opinion and the web seat's were folded in (the SM seat's relays
-§260 and §262). The audit lane had not answered; its opinion can still amend the text.
+§260 and §262). The audit lane had not answered; its opinion can still amend the text. [2026-10-24: it answered (its
+relay `PHYSICAL_TO_SM_MAIN_CHAT1_2026-10-24_THE_WEAVE_AND_THE_LADDER.md`, a9053eab7); its qualifier, below, adopted at the
+owner's ruling on P-385.]
 
 > **Spontaneous breaking is not a hand-pick.** A state selected by minimizing the functional the joint action itself
 > defines is a weave result, even when the minimum breaks the weave's symmetry. That functional is its effective
@@ -883,6 +885,18 @@ well, please relay"; the SM seat's relay §255). Main's opinion and the web seat
 > from a fitted input, or carried from another frame without a priced identification. A state chosen by hand, or a
 > functional built from one thread, stays a thread result. Being a weave result grades nothing: a comparison with data
 > still passes THE_BAR, and a value claim PRECISION_BAR.
+>
+> **[Added 2026-10-24, the owner's ruling on P-385: the audit lane's qualifier.]** Choosing a representative is a
+> convention only when the declared equivalence preserves the full relational observables, including the
+> reference/measuring sector.
+
+**The qualifier, read.** An active symmetry can relate physically distinct broken states; being related by a symmetry
+does not by itself make the choice among them a convention. Under the qualifier the observer re-typing's sort stands
+(B1750): each convention named there (the mirror of the whole weave, the unit) acts on the whole relational description,
+measuring sector included. A relative sign, J against another CP-odd quantity, stays physical. The audit lane's proposal
+carried a second sentence, not put to the owner and not adopted text, recorded here as its gloss: "Symmetry-related
+physical vacua remain allowed distinct states; the theory must specify their dynamics or statistical treatment where
+predictions depend on that distinction."
 
 **Where each part comes from.**
 - **Main:**
@@ -928,3 +942,18 @@ every finite rung at once, so the algebra is E₈ — the last rung and the only
 
 Rejected: R2 (invariance under every move) needs a lattice partition function the joint action does not contain — it is the
 test R1 must pass if one is ever built; R3 (only the levels in use) moves with what the record has computed.
+
+**The merged wording (adopted 2026-10-24 at the owner's ruling on P-385; GENESIS v1.58, B1754).** The web seat's and the
+audit lane's opinions came after the ruling; the SM seat checked their facts on its own code and merged the three seats'
+wording (its relay §271). It changes no computation:
+- *the ladder:* the moves' quotients by T^N, Γ/⟨⟨T^N⟩⟩ = Δ(2, 3, N), are finite exactly for N = 2, 3, 4, 5; the end at 5
+  is forced by the moves' orders 2 and 3. "Every finite rung" means these quotients, not every finite quotient of the
+  moves: PSL(2, 𝔽₇), order 168 with T of order 7, is a quotient of the infinite Δ(2, 3, 7) and is not a rung;
+- *the container:* the least single simple algebra holding every rung's finite diagram, E₈, is a composition requirement
+  adopted by ruling, not derived, and the prime 5 enters with it (the finite diagrams nest, D₅ in E₆ twice and the others
+  once; the affine McKay graphs do not);
+- main's second clause kept: the rule fixes the algebra, not its embedding or its fields;
+- *R2 recorded with its hypothesis:* invariance under every move selects a unimodular lattice only for one scalar
+  holomorphic theta series. For any even lattice of rank r, (Im τ)^{r/2} Σ∣Θ_μ∣² is invariant under every move. The joint
+  action would have to earn a chiral lattice before R2 could pay for an input; even then unimodularity picks E₈ only
+  within this ladder or with a further rank or minimality condition.
