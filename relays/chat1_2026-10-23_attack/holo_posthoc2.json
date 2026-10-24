@@ -1,0 +1,36 @@
+{
+ "rows used": 100,
+ "(a) |h.h| quantiles 10/50/90%": [
+  0.015348029240277151,
+  0.017924716953660966,
+  0.030387465557590677
+ ],
+ "(a) |h.h| median per Im tau": {
+  "2.075": 0.018806333964005478,
+  "2.375": 0.019380157896298985,
+  "2.675": 0.02012295109132231,
+  "2.975": 0.016637204300434198,
+  "3.275": 0.017183080825121922
+ },
+ "(b) mu / (theta2/theta3)(tau)": {
+  "median |ratio|": 0.45280728060671704,
+  "MAD of ln|ratio|": 0.32679518061400736,
+  "median phase": 0.8930035524120286,
+  "MAD of phase": 1.4919499728797723
+ },
+ "(b) mu / (Theta2/Theta3)(2 tau)": {
+  "median |ratio|": 3.9855532153278093,
+  "MAD of ln|ratio|": 0.5262175903753761,
+  "median phase": 0.7129496372931401,
+  "MAD of phase": 1.3740700475590206
+ },
+ "(b) per (line, horocycle) with three rows or more: MAD of ln|mu / (theta2/theta3)|, median over such lines": 0.19235529116300995,
+ "(c) R's own mu against (Theta2/Theta3)(2 tau) at the rows' tau (should be 1 up to sign)": "see R_IS_THE_S4PRIME_TRIPLET.md (exact)",
+ "(d) mirror pairs: FS distance between h and P conj(h') \u2014 pairs whose minima agree within 1%: count, median, largest; other pairs: count, median": [
+  100,
+  1.6563850062873944e-06,
+  0.020510369967659273,
+  0,
+  null
+ ]
+}
