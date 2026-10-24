@@ -93,3 +93,20 @@ is 39 and was reviewed as such. No old evidence was rewritten.
 
 This completes the independent-review step, not P210 execution,
 foundational input payment or the physical SM/gravity mission.
+
+## Publication interruption (same day; preserved after the attempt)
+
+The preceding analytical successor f96c008c4 was successfully pushed.
+The push containing review commit 523821858 and this request's initial
+commit a6b7c9a6a was NOT executed: the approval-review service returned
+a usage-limit error before process launch. It explicitly identified
+this as an approval-review failure, not a safety determination. No
+alternative transport or permission-bypass retry was attempted.
+
+These review/request commits are locally committed but not yet shared
+on origin at this recorded point. Main has therefore not been notified
+through the repository by this request yet. Publish this existing branch
+when the approval service is available, then confirm remote ancestry
+before describing the review as delivered. Nothing about that service
+failure changes the independent mathematical verdict, admits scientific
+execution or constitutes a failure of the ten unrun tests.
