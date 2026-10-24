@@ -1,0 +1,6 @@
+{
+ "C0a A1 model against inverse_higgs.nine(h, h): largest |delta ln| (1 000 directions, 10 rows)": 5.861977570020827e-13,
+ "C0b the Standard-Model path against sm_search: largest |delta ln|": 0.0,
+ "C0c chi2_many against a direct computation: largest relative difference (40 targets, 2 rows)": 7.39407523841385e-15,
+ "C0 holds": true
+}
