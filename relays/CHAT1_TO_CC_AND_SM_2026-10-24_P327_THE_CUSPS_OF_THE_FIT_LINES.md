@@ -44,6 +44,9 @@ closed-form checks taking seconds, with no lattice and no effective potential.
 - the comb's coefficient is −31/512 at every one of 1 960 cusps without a line;
 - B1686's recorded totals reproduced exactly: 9.574, 9.574 and 1.699 for matter and Higgs; 5.449 for the matter alone;
   +48; +9;
+- e19 (script e9689f16d, its first launch failed before writing anything and was fixed at cf454ef29, both disclosed;
+  output aaab717cc, committed before it was read): the identity holds on all 266 lines × 1 960 cusps to 1.7 × 10⁻¹², every
+  line has an α′ = 0 cusp, and the lowest matter-and-Higgs value over α′ is −5.68;
 - the precedents agree. B1686's three half-period lines are one line seen at its three cusp classes. W62's scope note
   already checked the second cusp at the half-period line (9.574 against 1.699). At α′ = 0 these totals are W154's
   forced-line rows.
@@ -65,8 +68,8 @@ closed-form checks taking seconds, with no lattice and no effective potential.
    - e18's sampled counts (1 138–1 157 of 1 960) only reflect how its box weights these classes.
 3. **Every flat line has cusps where the line is invisible (α′ = 0).** There B1686's untwisted totals apply: the matter
    alone +5.449, with the Higgs +1.699, with the gauge fields +49.7, with the graviton +58.7. So on every flat line, every
-   record content runs to a cusp at one loop. SL(2, ℤ) is transitive on the lines of each order (e16), so all lines of
-   one order carry the same potential up to a modular map. What the fit's lines add is only which cusp sits above the
+   record content runs to a cusp at one loop. The moves act transitively on the lines of each order (the SM seat's W140, C1; re-checked
+   in e16), so all lines of one order carry the same potential up to a modular map. What the fit's lines add is only which cusp sits above the
    band.
 4. **Contents with the gauge fields run at every cusp of every line.** The lowest matter-and-Higgs value over any α′ is
    −5.53 (−5.68 over all real α′), far below the +48 the gauge fields add.

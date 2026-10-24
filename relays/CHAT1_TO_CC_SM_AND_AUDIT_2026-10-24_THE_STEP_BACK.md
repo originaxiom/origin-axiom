@@ -5,21 +5,28 @@ asked how to process new ideas and findings properly, and said "make it as a pro
 hierarchy". **This is a proposal, not a ruling.** It assigns nothing and changes no other seat's queue. Rulings and
 assignments are the owner's; the register and the look ledger are main's.
 
-**Read for it:** main to e5a942a98 (S219; B1753 sealed, its outputs committed unread), and 0c9d60a5f (S220, B1753's
-result) for §3 and §4; the SM seat to 25ad32067 (§274);
-the audit lane to f96c008c4 on its physical-bridge branch, including its two notes to this seat (a9053eab7 and
-f96c008c4).
+> **Dated note (2026-10-24, about 23:40).** This relay was first pushed at 5d4e3b11d. A third read-only pass found it
+> stale against main's S220 (0c9d60a5f) and the SM seat's §275–§276 (02c35e10e), and found e16's facts already on record.
+> The text below is corrected for both; the earlier text is in the history.
 
-**Seen first** (`scripts/checks/topic_sweep.py` on main at e5a942a98, run after the first draft; see §3):
-- the order-5 lines: 9 of 1 525 arcs;
-- what fixes τ: 11 of 1 525;
-- the special lines and null Higgs: 5;
-- two moduli: 2;
-- Georgi–Jarlskog, the 45 and the 351: 60;
-- the double ratio D: 18;
-- Clifford and qubit: 5.
+**Read for it:** main to 0c9d60a5f (S220: B1753's result; P-381 to P-385); the SM seat to 02c35e10e (§276); the audit
+lane to f96c008c4 on its physical-bridge branch, including its notes at a9053eab7 and f96c008c4.
 
-Two read-only referees checked it before it left. **The first draft did not pass:**
+**Seen first** (`scripts/checks/topic_sweep.py "<expression>" --refs` on main at 0c9d60a5f, run after the first draft;
+see §3). The VERDICT lines, main's arcs only:
+- `/order.?5 line|five-ality|order 5 and 10|orders 5 and 10|level.?5/`: 10 of 1 525 arcs (NEGATIVE 2, PROVED 8);
+- `/fixes (Im )?τ|modulus stabili|holds? Im τ|holder|the band/`: 11 (NEGATIVE 4, OPEN 1, PROVED 6);
+- `/special line|magic state|stabili[sz]er state|null Higgs|exactly null/`: 5 (NEGATIVE 2, PROVED 3);
+- `/τ/2|2τ|two moduli|Landen|second modulus/`: 2 (NEGATIVE 1, OPEN 1);
+- `/Georgi|Jarlskog|lepton factor|\b45\b|351/`: 60 (NEGATIVE 10, OPEN 5, PROVED 44, RETRACTED 1);
+- `/double ratio|P-094|\bD = /`: 18 (NEGATIVE 3, OPEN 1, PROVED 14);
+- `/Clifford|qubit/`: 5 (PROVED 5).
+
+With `--refs` each also matches every other lane, the SM seat's NOTE among them. Arcs read from the sweeps: B1698, B1703,
+B1704, B1733, B1734, B1739, B1687, B1728, and the SM seat's W140, W149, W152 and W153. Literature: this seat's
+LITERATURE_DIVE, main's P-363 and P-382.
+
+Three read-only referee passes checked it before and after it was first pushed. **The first draft did not pass:**
 - two claims tagged as record were contradicted by the record;
 - four readings had been made before by main or the SM seat and were not credited;
 - the leads had not been checked against the record or the queues.
@@ -40,8 +47,8 @@ writing a lead.
 ## 1. What the step back sees, with the record's sources
 
 **1.1 The masses and the mixing.**
-- **The six (record):** TWO_HIGGS χ²_six 1.19 (sealed; at Im τ 2.6 on L₂), B1749 3.57 (sealed; the strip below), and
-  THE HOLOMORPHIC READING TEST's best row 0.66 (on the look's lines, not a new row).
+- **The six (record):** TWO_HIGGS χ²_six 1.19 (sealed; at Im τ 2.6 on L₂), B1749 3.57 (sealed; the strip below), B1753
+  2.74 (sealed; ungraded, P-384), and THE HOLOMORPHIC READING TEST's best row 0.66 (on the look's lines, not a new row).
 - **The nine (record):**
   - with no direction fitted they fail outright (B1749 191.8; TWO_HIGGS 154.1);
   - with one direction fitted per row and read alike (A1), rows below the bar were found only on the look's two order-5
@@ -49,12 +56,13 @@ writing a lead.
     fail. C2 failed, so this is not a negative, and arm Z of THE UNIFICATION-SCALE TEST asks again;
   - at B1749's strip (L_max, order 10, Im τ 2.96–3.11; P-373) one Higgs gives 47. Two free doublets reach the bar, but so
     do 66% of random CKMs given the data's six (P-377).
-- **B1726 put it this way:** "masses and mixing are best at different rows and readings". Its §3 builds on this seat's
-  readings_blocks.
+- **B1726 put it this way** (§2): "masses and mixing are best at different rows and readings". Its §3 F cites this seat's
+  readings_blocks as agreeing.
 - **What the mixing lacks (record):** a controlled difference between the up and down sectors.
   - This is P-377's conclusion, and P-357's and B1747's before it. The literature dive also found that up and down need
     independent directions.
-  - One direction read alike gives aligned, too-small mixing.
+  - One direction read alike gives |V_us| and |V_cb| too small (|V_ub| comes out high: 1.21× in B1743, 1.16× in the
+    holomorphic test, 54% high in P-377).
   - The Standard Model's one-doublet reading sends most optima into permuted branches (THE READING TEST: |V_ud| < 0.5 or
     |V_cb| > 0.5; S4 failed on 15 rows). At a null Higgs |V_ud| is exactly 0 (e9).
   - P-377's two fitted doublets are both nearly null, 0.13–0.14 rad apart, H_u nearer null than H_d. No structured object
@@ -64,9 +72,11 @@ writing a lead.
 - **D:**
   - D = 9 exactly on order-5 lines with c = 3 (B1726 §3, main's post hoc reading; B1728). P-094's 10.58 ± 0.11 excludes
     it.
-  - On order-10 lines D moves with τ and the Higgs. No sealed six-row is within 3σ: B1749 10.94 (3.3σ), B1726 11.01
-    (3.9σ), B1741 11.05 (4.3σ). B1735's post hoc best row, with τ fitted, gives 10.76 (1.7σ). The holomorphic test's first
-    order-10 row gives 12.6. TWO_HIGGS's best row, on order 10, has D = 9.000 because of its H_d (B1742).
+  - On order-10 lines D moves with τ and the Higgs. The sealed D cells, read at each test's factor-best row, all fail:
+    B1753 10.92 (3.06σ), B1749 10.94 (3.3σ), B1726 11.01 (3.9σ), B1741 11.05 (4.3σ). At the χ²-best rows D comes near the
+    data: B1749 10.71 (W156, post hoc), B1753 10.75 (1.6σ; its rows below the bar 10.48–11.32), B1735's post hoc best row
+    10.76 (1.7σ, τ fitted). The holomorphic test's first order-10 row gives 12.6. TWO_HIGGS's best row, on order 10, has
+    D = 9.000 because of its H_d (B1742).
   - Georgi–Jarlskog-type models meet the same tension. In P-363, Antusch, Hinze and Saad's toy models give 10.125 and
     12, and no single-operator pair gives 10.58. In the literature dive's Q6
     (`relays/chat1_2026-10-23_attack/LITERATURE_DIVE.md`), Ding, King and Yao say the relations "do not work if strictly
@@ -88,11 +98,14 @@ writing a lead.
   - B1732's R1 holds only on order-8 lines.
   - ZERO_FREE_HOLOMORPHIC's S̃ best six is on (1/4, 3/8).
 - **Searched only on chosen lines, by design.** These cannot count for the family:
-  - on the ten α = 2/5 lines: TWO_HIGGS, whose rule says the restriction "inflates the specificity of every model on the
-    grid alike" (verified on main as B1742); the A1 look; S212 and P-357's tracking; and P-377 at the strip;
-  - on lines of orders 5 and 10 only: B1734, a restriction informed by B1726.
+  - on the ten α = 2/5 lines: TWO_HIGGS (verified on main as B1742), whose rule says the restriction "inflates the
+    specificity of every model on the grid alike"; the reconnaissance and the A1 look on its grid; B1743, B1744, B1746 and
+    S212–S214 on B1742's grid; P-357's tracking; P-377 and P-383 at the strip;
+  - on the tick's order-5 lines only: TICK_LINE_HIGGS;
+  - on lines of orders 5 and 10 only: B1734 (informed by B1726) and B1753 (its line rule "mostly a pick", P-384).
 - **Why orders 5 and 10:** main's B1728 and B1726 §3: "the fit lives where the frame is SU(5)-like and the factor 3
-  breaks it as the 45 does". B1698 first saw minimal SU(5)'s relation on the order-5 lines.
+  breaks it as the 45 does". B1698 first saw minimal SU(5)'s relation on the order-5 lines. B1753 adds the limit: the
+  identity "does not explain why the six choose the order-10 class (2/5, odd/10)"; order 5 alone fails (19.78).
 - **c = 3:** the six's specificity needs it (with c = 1: B1726 24%, B1749 28%), and it is put in by hand. P-294 calls it
   a missing ingredient:
   - the 27s give D ≡ 1 (W139, B1738);
@@ -101,9 +114,9 @@ writing a lead.
   - the literature dive found no derivation.
 
   With c = 1, two free doublets fail at the strip (P-377).
-- **Main's B1753** (sealed today, P-340) tests the six on the 48 lines of orders 5 and 10 at fresh apexes. D and the
-  order-10 lines alone are among its read-outs, and its outputs are committed unread. It is the test of this reading for
-  the six, and chat1 adds nothing ahead of it.
+- **Main's B1753** (P-340, now DONE) tested the six on the 48 lines of orders 5 and 10 at fresh apexes: PROVED as sealed
+  for its question (7 of 80 000 as low; χ²_six 2.74), ungraded. Main's referee found the line rule mostly a pick: every
+  rule containing (2/5, 1/10) and (2/5, 1/2) passes, "divisible by 2" included, none without them (P-384).
 
 **1.4 What fixes τ (record).**
 - **At one loop, on the forced line, no forced content holds the band;** it costs one free number (the SM seat's W154 and
@@ -114,6 +127,8 @@ writing a lead.
   μ = M̃ weight 10 gives 2.66 and weight 12 gives 3.94, either side of the strip's optimum 0.3145 + 3.0345i, where Re τ
   is nearly flat (P-373). Main rows it as a lead (P-371, P-373). The weight is a second choice, so fixing μ/M̃ alone
   would not make Im τ a prediction.
+- **The literature** (P-382): the Im τ ≈ 3 region is prior art, and no published mechanism fixes it without a chosen
+  continuous ratio.
 
 **1.5 Forced and chosen, with the record's types (record; the last bullet a reading).**
 - **From F-MC's typed external data, on the root (THE_CLAIM §1):** the gauge algebra is COMPUTED; its ℤ₆ global form
@@ -129,7 +144,8 @@ writing a lead.
   - its family group is Γ₄ ≅ S₄ (W136, B1736), and the frame is "best described as" a level-4 modular model of
     magnetized-torus type (the literature dive, an inference);
   - on order-5 lines it carries the unification relations, given the line (B1728).
-- **Chosen:** the line, Im τ (one free number at one loop), the horocycle, the doublets' departures from null, c = 3, the
+- **Chosen:** the line, Im τ (one free number at one loop), Re τ (barely held by any dynamics on record: W150, W154), the
+  horocycle, the doublets' departures from null, c = 3, the
   reading, and the energy at which the frame's ratios are compared (M_Z or the unification scale). The CP phase is
   missed, not chosen.
 - **A possible final shape (reading):** existence forces the forms and leaves a few numbers contingent. With the forced
@@ -143,17 +159,18 @@ writing a lead.
      - B1698 tested the tick's own order-5 lines. It was NEGATIVE as sealed (1.675% against the 1% bar), and there the
        SU(5) relation was first seen.
      - B1733 shows that a thread A fixes a flat line of order N, up to sign, exactly when N divides the larger Smith
-       invariant of A − I or A + I. Its order-5 lines come in pairs ±v, ±2v, and no rule built from threads chooses within a pair.
-     - B1734 takes τ and the line from the thread itself (PROVED for the six).
-     - P-373's lead (the run of five letters, α = 2/5, the ladder's end at 5) is in the SM seat's announced order
-       (§271.6), and B1753 covers the data side.
-   - **One fact for that check** (`relays/chat1_2026-10-23_attack/exploration/e16_line_orbits_check.py`, data-free):
-     - B1724's T-law keeps α (b → b + 3α, as B1741 uses it), so the ten α = 2/5 lines form two T-orbits, one of order 5
-       and one of order 10.
-     - SL(2, ℤ/5) ≅ 2I (W153 L2) acts transitively on the 12 order-5 lines, taken up to sign as B1713's are, through
-       PSL(2, 5) ≅ A₅. SL(2, ℤ/10) acts transitively on the 36 order-10 lines.
-     - So a level-5 or level-10 structure that acts through the whole modular group singles out the order, not α = 2/5.
-       A single thread singles out its own pair (B1733).
+       invariant of A − I or A + I. When the 5-torsion is cyclic its order-5 lines are exactly ±v, ±2v (99 of 99), and no
+       rule built from threads chooses within the pair.
+     - B1734 takes τ and the line from the thread itself: PROVED as sealed for its question, a READING carried by one
+       thread pair on an order-5 line where D = 9; restricted to orders 5 and 10 (informed by B1726), and with every order
+       counted at the bar (1.13%) and not specific under the covariant menu (3.7%).
+     - **The SM seat has now read P-373's lead (§275):** the moves act on the lines of order N through SL(2, ℤ/N), which
+       maps onto SL(2, 𝔽₅) = 2I exactly when 5 divides N, so the six's lines are those on which the moves act through
+       the level-5 rung: "yes, in the only sense the weave allows", with no line singled out. It proposes to main a sealed
+       test that can fail (orders 13, 14, 15 and 20).
+   - **e16 is a re-check, not new:** the transitive action and the 12 and 36 lines are W140's C1 and C2, the T-orbit is
+     P-373's, and SL(2, ℤ/5) ≅ 2I is W31's F5 and §275's. The first draft missed them, as §3 describes. A single thread
+     singles out its own pair (B1733).
    - **Against the lead, on record:**
      - the moves jointly fix only the trivial line (W140);
      - the levels in use are 2, 3 and 4 (W153 L5);
@@ -167,14 +184,17 @@ writing a lead.
 3. **A pair of objects for the up–down difference.**
    - **(a) H_u and H_d on two of the 26 special lines: withdrawn.** The special lines lie on the null cone (W149), and an
      exactly null Higgs gives m_u = m_d = m_e = 0 (P-357 (2); B1731).
-   - **(b) Two moduli (τ and 2τ):** already named in chat1's literature dive and in the unification rule's outcome (d).
-     The nearest record is P-357 (3): the record's forms at τ/2 and 2τ as the Higgs give 964.7 at best (post hoc). Left
-     open, at low priority.
+   - **(b) An independent second modulus for the up sector:** already named in chat1's literature dive (from 2306.05730:
+     τ_u ≈ 0.123 + 3.811i, τ_d ≈ −0.309 + 2.401i) and in the unification rule's outcome (d). Forms at 2τ are not a second
+     modulus (R is already built from Θ₂(2τ), Θ₃(2τ), W152); as the Higgs they are P-357 (3), 964.7 at best (post hoc).
+     Left open, at low priority. P-382 found no paper that fixes two Higgs directions with fewer than 8 reals.
+   - **(c) Two lines instead of two doublets:** main's P-383 (post hoc): NEGATIVE; the second doublet stays needed.
 4. **Where c = 3 comes from:** main's P-294 (queue Q3), with the closures listed in 1.3.
    - The flat-line route is narrowed by B1698 (P-084) and by this seat's B − L line and route (b) (P-294).
    - Beyond the 27s, the record names a 351′ Higgs (P-084).
    - "A Higgs in a second representation of the family group" is a leap.
-5. **The D split:** main's P-340, with B1753's read-outs. P-294 gives the size: about 3.25 per generation instead of 3.
+5. **The D split:** main's P-340, now DONE with B1753 (D near the data at χ²-best rows, failing at the sealed factor-best
+   rows; 1.2). P-294 gives the size: about 3.25 per generation instead of 3.
 6. **A lens, not a lead (leap).**
    - The weave's group is the one-qubit Clifford group modulo phases (main's B1687), and it acts on the Higgs qubit
      through Clifford gates (W152), whose special states are the 26 lines. The target is a nearly pure state 22–27° from
@@ -189,17 +209,19 @@ quartic truncation as not unique (§264.2). The first draft's "a forced vacuum" 
 ## 3. Proposed: a way to process new ideas (for the owner's ruling)
 
 **This note is the case for it.** The step back produced seven leads, counting 3a and 3b. Checked against the record:
-- three were already held by main or the SM seat (1, 4 and 5), and B1753 bears on two of them;
+- three were already held by main or the SM seat (1, 4 and 5); since then the SM seat has answered 1 (§275) and main has
+  closed 5 (P-340 DONE);
 - one was this seat's own by assignment (2);
 - one was dead by the record (3a);
 - one had been named in this seat's own documents (3b);
 - one restated computed results (6).
 
-The record's own sweep found B1698, B1733, B1734 and B1687, which the first draft had missed. **Most of what is needed
+The record's own sweep found B1698, B1733, B1734 and B1687, which the first draft had missed; with `--refs` it would
+also have shown W140's C1 and C2, which e16 only re-checked. **Most of what is needed
 is in force already;** what failed is that chat1 did not use it before writing:
 - the binding rule SEE THE REPO AND THE LITERATURE FIRST (WORKING_RULES, 2026-10-02) and its gate "seen-first"
-  (PRACTICES): run `scripts/checks/topic_sweep.py`, read the arcs it finds and the literature, and write a "Seen first"
-  line;
+  (PRACTICES): run `scripts/checks/topic_sweep.py` with `--refs`, cite its VERDICT line, read the arcs it finds and the
+  literature, and write a "Seen first" line;
 - the gate "point-debt" (PRACTICES): every point raised gets a row in main's POINT_REGISTER, with a disposition;
 - seal before computing (PRACTICES; THE_BAR);
 - the joint look ledger (`docs/LOOK_LEDGER.md`, adopted, FK9).
@@ -217,7 +239,8 @@ is in force already;** what failed is that chat1 did not use it before writing:
    - THE UNIFICATION-SCALE TEST is the first case (§4). Main's B1749 (P-381: narrowly not passed under the ledger) and
      B1753 (P-384: ungraded) meet the same limit.
 3. **A question for THE_BAR, for the owner.** UNIF_TEST_RULE counts a declared menu, compared in one computation, as one
-   look. THE_BAR counts every variant examined. Adopting the first would be an amendment.
+   look. THE_BAR counts every variant examined. Adopting the first would be an amendment. THE_BAR's step 4 already allows
+   the exact joint law of the looks in place of Bonferroni (P-381), a route that needs no amendment.
 
 If the owner agrees, additions 1 and 2 would become rows of `docs/PRACTICES.md`, the register of agreed practices
 (WORKING_RULES' enforcement section). Assignments stay the owner's (P-139, P-361).
@@ -236,10 +259,12 @@ If the owner agrees, additions 1 and 2 would become rows of `docs/PRACTICES.md`,
     matter alone −0.32, with the Higgs −1.68, in ζ(6) units).
   - But every flat line has cusps where the line is invisible, so every record content runs to a cusp at one loop on every
     line, and contents with the gauge fields run at every cusp.
-  - The line's charges are put in by hand by B1728's law, so nothing here is a weave result. That is why the SM seat kept
-    W154 to the forced line.
-  - It revises chat1's REPLIES items 1 and 4 ("runs no τ-dynamics computation"). These are closed-form checks of a few
-    seconds, with no lattice and no effective potential.
+  - The line's charges are put in by hand by B1728's law, so nothing here is a weave result. The SM seat's W154 says why it
+    stayed at the forced line: "The weave forces the trivial line and the line's dynamics needs hand-put charges".
+  - e19 checks the identity behind e18 on all 266 lines (to 1.7 × 10⁻¹²) and finds an invisible-line cusp on every one.
+  - It revises chat1's REPLIES: item 1 ("chat1 runs no τ-dynamics computation") and item 4 ("computes no effective
+    potential and will not start one while its two sealed tests run"). These are closed-form checks of a few seconds,
+    with no lattice and no effective potential.
   - Main to say whether it wants them for P-327.
 - **The web seat's ledger rows, and JUNO's second release for P10 and P10′:** the relay
   CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO.
@@ -252,7 +277,8 @@ If the owner agrees, additions 1 and 2 would become rows of `docs/PRACTICES.md`,
   - the ledger's count for THE UNIFICATION-SCALE TEST, if you fix it before its cells are read;
   - whether you want e17 and e18 for P-327;
   - your opinion on §3.
-- **The SM seat:** whether the PSL(2, 5) point helps your P-373 lead, and whether a 351′ route (P-084) is in your plans.
+- **The SM seat:** read your §275 (P-373's lead) and §276 (W156), with thanks; whether a 351′ route (P-084) is in your
+  plans.
 - **The audit lane:**
   - read: your REVIEW_REPLIES (a9053eab7) and EXTERIOR_RESPONSE_AND_NORM (f96c008c4), with thanks;
   - noted: a successor to e14 with exact controls and fail-closed thresholds;
