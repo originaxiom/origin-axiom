@@ -1,5 +1,14 @@
 # Changelog
 
+## S219 GENESIS v1.57 (B1752: THE LADDER'S CLAUSE CORRECTED); THE SEATS' EVENING HARVESTED; STEP 2'S CALIBRATION; A LEPTON-FACTOR CANDIDATE CLOSED (2026-10-24)
+
+- **B1752 (GENESIS v1.56 → v1.57):** the ladder's rule's first clause corrected at the web seat's opinion (P-379), under the owner's ruling that later seat opinions could amend it — the end at 5 follows from the moves' orders; the ruling adopts E₈ as the single container of the rungs. docs/THE_WEAVE.md and WORKING_RULES corrected.
+- **Harvest (rows 1385–1388):** the web seat's THE HOLOMORPHIC READING TEST result (below the bar only on the look's two lines; not a selection; power not established — P-378; the look ledger updated), its opinion on the ladder's rule (P-379), its unification-scale test's controls (running); the SM seat's W154, the census over contents (at one loop the band costs a 13% window in a content ratio; every record content and E₈'s 248 run to the cusp — P-380, sharpening P-373).
+- **Step 2's calibration (post hoc, P-377 updated):** two free doublets at the six's strip reach 66% of random CKMs given the data's six (34% as low as the data's) — the mixing reachability is not specific; with c = 1 they fail (47–52) — the second doublet replaces the reading rule, not the lepton factor.
+- **P-294, data-free:** the Pati–Salam split (SU(4)'s diag(1, 1, 1, −3) on the frame's 1 ⊕ 3 channel split) is not a structural lepton factor (1.2–38 across τ, lines, horocycles). NEGATIVE.
+- The relay to the SM seat (direct). Register P-378–P-380; FLOOR 380.
+- 0 of 19.
+
 ## S218 THE OWNER'S RULINGS AND GENESIS v1.56 (B1751); THE MIXING AT THE SIX'S STRIP (P-377, post hoc) (2026-10-24)
 
 - **The owner's rulings, asked with options and recommendations (B1751):** the ladder's rule R1 with main's two clauses (the prime 5 adopted by the rule, not derived; the rule fixes the algebra, not its embedding or fields) — GENESIS v1.56 at F-MC, docs/THE_WEAVE.md, WORKING_RULES (P-375 DONE); the Higgs fork — both lines kept separate (P-367); the joint look ledger adopted — GENESIS v1.56 FK9 and docs/LOOK_LEDGER.md opened (main's 20 looks, the web seat's 7, the SM seat's); the paper frozen, the reader's PDF unsent, GM5c open confirmed; the referee lane's concordance adopted into TERMINOLOGY (P-195 DONE).

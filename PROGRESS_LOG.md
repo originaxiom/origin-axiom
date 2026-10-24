@@ -17921,3 +17921,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The ladder's rule R1 adopted with its clauses; the Higgs fork both lines; the joint look ledger adopted (docs/LOOK_LEDGER.md); the glossary into TERMINOLOGY. Step 2 (post hoc): at the six's strip only two free doublets reach the nine; every structured candidate fails. Harvest 1383–1384; the SM relay; P-376, P-377; FLOOR 377.
 - **Landing suite.** full suite 7 726 passed, 2 failed, 68 skipped (28:56, -n 8) on 56a763e0e: the two failures are B805's attachment locks (P-239, standing). With the suite's lane-survey refresh.
+
+## 2026-10-24 — S219 GENESIS v1.57 (B1752); THE SEATS' EVENING; STEP 2'S CALIBRATION
+
+- The ladder's clause corrected (the container is the adoption). The holomorphic test: the look reproduced, not a selection (P-378). W154: τ's band costs one free number at one loop (P-380). The mixing reachability at the strip not specific (P-377). The Pati–Salam lepton factor NEGATIVE (P-294). Harvest 1385–1388; FLOOR 380.
+- **Landing suite.** full suite 7 729 passed, 3 failed, 68 skipped (40:12, -n 8) on fa8cc30e7: two failures are B805's attachment locks (P-239, standing); the third, test_repo_gates' seal gate, was the working tree's, not the commit's — B1753's preregistration, written but not yet sealed, sat untracked in the tree (the pre-push hook gates the commit in a clean worktree). With the suite's lane-survey refresh.

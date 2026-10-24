@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1480** |
-| words of findings prose | **1,193,095** |
-| test lock files referenced | **895** |
-| arcs carrying an authored verdict | **1480** (100.0 %) |
+| research arcs with findings | **1481** |
+| words of findings prose | **1,193,381** |
+| test lock files referenced | **896** |
+| arcs carrying an authored verdict | **1481** (100.0 %) |
 | recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1010 |
+| PROVED | 1011 |
 | NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1751`** (437 words, 1 locks)  
-GENESIS v1.56 at the owner's rulings of 2026-10-24: FK9's looks counted jointly across seats (the look ledger, P-367; docs/LOOK_LEDGER.md opened with main's 20 looks, the web seat's 7 and the SM seat's); the ladder's rule R1 recorded at F-MC with its two clauses (the prime 5 adopted by the rule, not derived; the rule fixes the algebra, not its embedding or fields; sm:W153) (P-375); the Higgs fork ruled 'both lines kept separate'; the referee lane's concordance adopted into TERMINOLOGY (P-195); the paper frozen, the reader's PDF unsent and GM5c open confirmed. No status cell changes. 0 of 19.  
-`B1751_genesis_v1_56/FINDINGS.md`
+**PROVED — `B1752`** (286 words, 1 locks)  
+GENESIS v1.57: the ladder's rule's first clause corrected at the web seat's opinion (P-379), under the owner's ruling that the seats still to answer could amend it -- the end at 5 follows from the moves' orders 2 and 3 (sm:W153), and what the ruling adopts is E8 as the single container of the rungs (the rungs' groups form no chain); main's first clause had put the adoption on the prime 5. No status cell changes. 0 of 19.  
+`B1752_genesis_v1_57/FINDINGS.md`
 
 **NEGATIVE — `B1748`** (966 words, 1 locks)  
 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  

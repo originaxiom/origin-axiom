@@ -13933,6 +13933,19 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1752": {
+   "slug": "genesis v1 57",
+   "motifs": [
+    "golden"
+   ],
+   "refs": [
+    "L3"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B175": {
    "slug": "collective spectrum predictivity",
    "motifs": [

@@ -44,7 +44,7 @@ sector is listed with its target.
 | TWO_HIGGS (rows 1339, 1342) | sealed | the six with two Higgs directions | verified on main (B1742) |
 | the attack's reconnaissance (row 1346) | post hoc | the nine (INVERSE HIGGS, RECORD PAIRS) | labelled by the seat |
 | THE READING TEST (rows 1353–1354) | sealed | the nine, the Standard Model's reading | NEGATIVE (verified, B1747) |
-| THE HOLOMORPHIC READING TEST (rows 1362, 1374, 1382) | sealed | the nine, one direction read alike | running |
+| THE HOLOMORPHIC READING TEST (rows 1362, 1374, 1382, 1385) | sealed | the nine, one direction read alike | below the bar only on the look's two lines; not a selection (H3 fails); power not established |
 | THE UNIFICATION-SCALE TEST (row 1381) | sealed | the nine at M_GUT and M_Z | running |
 
 ## The SM seat

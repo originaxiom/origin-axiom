@@ -256,3 +256,9 @@ withdraw no result; B1687 corrects a register point's expectation, not a banked 
   rewritten.
 - No row added.
 
+**Currency read 2026-10-24 (S219; the window B1722–B1752).** Four scoped corrections, each carried by a dated note in its own arc rather than a corpus-wide ban:
+- "with τ placed by the thread rule" (B1741's reading) — withdrawn after B1749's referee: the six's specificity is the frame's strip, which any scattered points find (P-350); dated notes on B1741 and in B1749.
+- "the observer supplies every closing" (GENESIS v1.2) and "values the observer's" (WORKING_RULES' header) — superseded by B1750 (GENESIS v1.55): annotated in place, not rewritten.
+- "B1724's law maps J to −J" (the SM seat's W145) — corrected on main: the T-law keeps J; the mirror flips it (B1750 §3).
+- "the prime 5 adopted by the rule" (main's first ladder clause, GENESIS v1.56) — corrected by v1.57 (B1752): the end at 5 follows from the moves' orders; the container E₈ is the adoption.
+- No row added: each phrase remains legitimately quoted in its own history.

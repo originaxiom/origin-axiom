@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1480 of 1480 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1481 of 1481 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1010)
+## PROVED (1011)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1022,6 +1022,7 @@
 | `B1749` | THE SIX AT FRESH APEXES (B1741 replicated; sealed 32f29ad98, sha256 d95fc8a6; PROVED as sealed for its question -- P2, the one decisive cell, holds; P1, C1, C2 hold; outputs committed unread at 53ab50676 and 537662002): on 125 thread apexes nobody had computed, B1741's unchanged instrument reaches the six charged-fermion ratios at value level (chi2_six 3.57 < 16.75; best 0.3333 + 3.0551i on (2/5, 1/10), L_max, (S~, S, S), c = 3) and specifically (0.02% of random hierarchies as low; worst seed 0.08%); covariant 0.08%, factor free 0.24%; the nine fail (191.8); D 10.94 (3.3 sigma). Main's hostile referee: seal, instrument, freshness and calibration hold, robust to sigma, allowance, scale and window -- but the test does not test the thread rule: the specific rows form one strip Im tau 2.96-3.11 on the order-10 lines (2/5, b), which random 125-point sets find 99.7% of the time (P-350, not cited by the preregistration -- main's error, disclosed). The scope banked: B1741's six-ratio specificity replicates on fresh points (p ~ 2e-4) as a property of the frame's strip with c = 3 and the seat's reading, not as evidence that the thread rule selects tau; c = 3 essential (c = 1: 125.8); at the best six-row |V_ud| 0.115. A READING; the third opinion owed (the SM seat). 0 of 19. |  | 1 |
 | `B1750` | THE OBSERVER, RE-TYPED (P-372; the owner's ruling 'yes pls'), AND GENESIS v1.55: the record's three senses of 'observer' separated -- the closer (B717: every closing) retired as an explanatory move, since each closing has a name in B1656's frame (the end L, tau and the line, the readings, the Higgs's direction; the arrow absent) and is a dynamical selection, a relation (B1327) or a counted free number; the signer kept (B1183, B1184; B1168) -- the observer supplies one unit and one orientation, conventions, and the frame inherits both: checked on main, the mirror tau -> -conj(tau), b -> -b maps every mass ratio and CKM modulus to itself (1.3e-12, 7.0e-12) and J to -J in all eight reading pairs at B1741's tie pair, while B1724's T-law keeps J; the identifier made the identification ledger (FK11). A table types every frame ingredient (forced 3; free continuous tau and the Higgs's direction; free discrete the end, the line, c, h0; identifications 4; conventions 3). W145's attribution of the J flip to B1724's law corrected: it is the mirror. 0 of 19. |  | 1 |
 | `B1751` | GENESIS v1.56 at the owner's rulings of 2026-10-24: FK9's looks counted jointly across seats (the look ledger, P-367; docs/LOOK_LEDGER.md opened with main's 20 looks, the web seat's 7 and the SM seat's); the ladder's rule R1 recorded at F-MC with its two clauses (the prime 5 adopted by the rule, not derived; the rule fixes the algebra, not its embedding or fields; sm:W153) (P-375); the Higgs fork ruled 'both lines kept separate'; the referee lane's concordance adopted into TERMINOLOGY (P-195); the paper frozen, the reader's PDF unsent and GM5c open confirmed. No status cell changes. 0 of 19. |  | 1 |
+| `B1752` | GENESIS v1.57: the ladder's rule's first clause corrected at the web seat's opinion (P-379), under the owner's ruling that the seats still to answer could amend it -- the end at 5 follows from the moves' orders 2 and 3 (sm:W153), and what the ruling adopts is E8 as the single container of the rungs (the rungs' groups form no chain); main's first clause had put the adoption on the prime 5. No status cell changes. 0 of 19. |  | 1 |
 
 ## NEGATIVE (366)
 

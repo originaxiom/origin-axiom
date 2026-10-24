@@ -404,5 +404,5 @@ inishgts from two other seats". A state selected by minimizing the joint action'
 result even when it breaks the symmetry. The full text, with its conditions on the functional and its coefficients, is
 in `docs/THE_WEAVE.md`.
 
-**The ladder's rule (adopted 2026-10-24).** R1: every finite rung of the moves' ladder at once (E₈, the prime 5 adopted by
-the rule, not derived); the rule fixes the algebra, not its embedding or its fields. Text and clauses in `docs/THE_WEAVE.md` (B1751).
+**The ladder's rule (adopted 2026-10-24).** R1: every finite rung of the moves' ladder at once (the end at 5 follows from the
+moves' orders; E₈ as the container adopted by the ruling, not derived; B1752); the rule fixes the algebra, not its embedding or its fields. Text and clauses in `docs/THE_WEAVE.md` (B1751).
