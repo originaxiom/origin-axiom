@@ -1,0 +1,32 @@
+C0 holds
+    ok   the parity sum is -(15/16) E(tau, 3) to 1e-10 relative
+    ok   contents sector by sector equal A E3 + B E2 to 1e-10 relative
+    ok   the cusp coefficient 2A reproduces B1686's matter alone, 5.449
+    ok   instrument: the vectorized E matches main's E_cs to 1e-12
+C1 holds
+    ok   (i) A > 0 runs to the cusp for every B tried
+    ok   (ii) A = 0: B > 0 runs, B < 0 at omega
+    ok   (iii) A < 0, B <= 0: the global minimum at omega
+    ok   (iv) t from 3.2 to 16: the global minimum on the imaginary axis
+    ok   (iv) V(y*) below V(i) and V(omega)
+    ok   (iv) y*(t) increasing
+    ok   (iv) the asymptotic t(y) to 1e-3 in y for y >= 2
+C2 holds
+    ok   t1 = 3.205 and t2 = 4.624 to 0.01
+    ok   the ratio window is [0.688, 0.784] to 0.003
+    ok   rho_Q bosons outweigh the rest 42 to 48 times
+    ok   the window's relative width is about 13%
+    ok   an integer content in the window (22, 0, 1000) holds tau in the band
+C3 holds
+    ok   every row has A > 0 and runs to the cusp, with A as predicted
+C4 holds
+    ok   n = 89: an axis minimum at y = 3.08 +- 0.03
+    ok   n = 95: an axis minimum at y = 2.13 +- 0.03
+C2: {'t1': 3.204775187652558, 't2': 4.624150138607789, 'ratio window': [0.6879656320815182, 0.7837440459273076], 'dominance': [42.14674195761594, 48.014401481907285], 'width': 0.1301593857497417}
+C3: {'the matter (45 Weyl in rho_Q)': (2.724609375, 'none'), "+ the Higgs's three copies": (0.849609375, 'none'), '+ the 12 gauge fields': (48.849609375, [1018, 1152]), '+ the graviton': (57.849609375, [1207, 1368]), "E8's 248 as 6d vectors": (111.96875, [2391, 2738]), "E8's 248, the alternative rho_Q unit": (105.1875, [2279, 2626])}
+R: t_c 2.1481926584011153 ; PH2 1%: [2.497906944986092, 2.4689359712525785, 2.526785330717209]
+verdict: every cell as predicted
+
+real	0m8.497s
+user	0m8.626s
+sys	0m0.474s
