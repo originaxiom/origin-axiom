@@ -1,0 +1,19 @@
+C0 written
+c0 3.5 s
+row chunk 1/1 (180 s)
+rows written (180 s)
+scan 179.6 s
+C2 written
+c2 131.1 s
+calibration written
+calib 190.4 s
+cells written
+cells 0.0 s
+{'rows': 40, 'degenerate rows': [], 'H1 some row below 21.67': False, 'H2 some row below both bars at its optimum (chi2_nine < 21.67 and chi2_six < 16.75)': False, 'H3 random as good <= 1% (refined statistic)': True, 'random as good (refined), (grid level)': [0.0, 0.0], 'lowest chi2_nine': 24.87246198280696, 'quantiles 1%, 5%, 50%': [30.045488126691748, 41.08322039217027, 263.6813040170606], 'rows below 21.67, 50, 100': [0, 5, 10], 'lowest chi2_nine by order': {'N=5': 24.87246198280696, 'N=10': 178.17622451175794}, 'C3 mirror pairs agreeing within 1%': [40, 40], 'C3 pairs below 21.67 that disagree': 0, 'C3 holds': False}
+{'C0a A1 model against inverse_higgs.nine(h, h): largest |delta ln| (1 000 directions, 10 rows)': 5.861977570020827e-13, 'C0b the Standard-Model path against sm_search: largest |delta ln|': 0.0, 'C0c chi2_many against a direct computation: largest relative difference (40 targets, 2 rows)': 7.39407523841385e-15, 'C0 holds': True}
+C2 36 [36, 36] 3.6403825746642218
+{'random targets': 30, 'seed': 1743, "the data's statistic (its three best test rows by grid minimum, refined)": 24.87246198280696, "random as good (refined statistic <= the data's)": 0.0, "grid level: the data's best grid minimum": 87.92057283464574, 'grid level: random as good': 0.0, 'seconds': 190.4233434200287}
+
+real	8m35.720s
+user	15m15.869s
+sys	0m9.737s
