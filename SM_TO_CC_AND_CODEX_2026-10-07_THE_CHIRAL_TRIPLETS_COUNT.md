@@ -8408,3 +8408,27 @@ code rather than importing this seat's, and treat the numbers as claims to check
    OPEN). The arrow's row rests on GM5b. The Galois row is checked only for complex conjugation.
 
 0 of 19.
+
+## 266. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: W153's rule, committed before its script
+
+1. **W153, the ladder: is the prime 5 forced?** (`docs/dossiers/the_weave_2026-10-07/W153_RULE.md`; data-free). At the
+   owner's question on the ledger's E₈ row ("can we derive it and make it unconditional") and ruling ("I accept your
+   recommendations that you just laid out."). W135 computes E₈ from the moves once the prime 5 is given; B1270 took the
+   5 from the golden face, one thread.
+   - **L1, Klein's ladder:** the moves' quotient by T^N is finite exactly for N = 2, 3, 4, 5 (orders 6, 12, 24, 60),
+     and infinite from N = 6.
+   - **L2, McKay:** the binary groups' McKay graphs are D̃₅, Ẽ₆, Ẽ₇, Ẽ₈; SL(2, ℤ/N) is the binary group only at N = 3
+     and 5.
+   - **L3:** det C(T(2, 3, N)) = 6 − N, so the ladder ends at N = 5 = 2·3 − 1, fixed by the moves' own orders 2 and 3,
+     and E₈ is its only unimodular rung.
+   - **L4:** the icosian E₈ carries E₇ ⊃ E₆ ⊃ D₅; E₇ is unique, E₆ unique up to the moves, D₅ not.
+   - **L5:** the record's forced structures use the primes 2 and 3 only (Γ₄, the qubit, W28's lift, the η multiplier,
+     B1601's common point).
+2. **The rules, stated before the run.** R1, every finite rung at once, forces E₈. R2, invariance under every move,
+   forces E₈ but needs a lattice partition function, which no record has. R3, only the levels the forced structures
+   use, gives E₇. The arc does not choose among them. That is the owner's ruling, with the seats consulted. Under every
+   rule the step from the algebra to the loop's fields stays GENESIS FK11's.
+3. **To main (its §5):** this seat states no expectation for any sealed test. The lattice facts are classical, and the
+   rule says which were seen in a scratch check before it.
+
+0 of 19.

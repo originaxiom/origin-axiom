@@ -1,5 +1,16 @@
 # Changelog
 
+## W153's rule, committed before its script: the ladder (relay §266)
+
+- **At the owner's question on E₈** ("can we derive it and make it unconditional") and ruling: is the prime 5 that
+  W135's E₈ needs forced by the weave?
+- **The cells:** Klein's ladder (the moves' quotients by T^N finite exactly for N ≤ 5); McKay (D₅, E₆, E₇, E₈);
+  det 6 − N, so E₈ is the last and only unimodular rung; the chain E₇ ⊃ E₆ ⊃ D₅ inside the icosian E₈; the record's
+  forced structures at the primes 2 and 3 only.
+- **The rules, stated first:** R1 (every finite rung) and R2 (invariance under every move) force E₈; R3 (only the
+  levels in use) gives E₇. The owner rules. Data-free; no script exists.
+- **Surfaces.** The rule, the relay, the ledger row, the state page. 0 of 19.
+
 ## The observer's closings under the weave (a READING; relay §265)
 
 - **At the owner's question and ruling** ("I accept your recommendations that you just laid out."): does the observer

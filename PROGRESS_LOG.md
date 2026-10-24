@@ -20809,3 +20809,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **So nothing is left for an observer to supply.** The word stays only for the philosophical question of experience,
   outside the mathematics. A proposal to retire it from the main record went to the main seat.
   0 of 19.
+
+## 2026-10-24 — is the large symmetry E₈ forced, or chosen? (the rule, before any computation)
+
+- **The question.** The record builds the symmetry group E₈ from the system's own moves, but only after reducing them
+  modulo the number 5, and that 5 was taken from one particular object.
+- **The plan, fixed before computing.** The moves can be made finite in only four ways, and the fourth and last is
+  exactly the one that gives E₈. If that holds, the 5 comes from the moves themselves, not from one object. The
+  computation also checks which of these ways the record's established structures actually use.
+- **What it cannot decide.** Whether the rule "take every finite way" is the principle's rule is for the owner.
+  0 of 19.
