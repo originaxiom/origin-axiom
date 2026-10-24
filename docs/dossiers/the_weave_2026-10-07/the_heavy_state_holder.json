@@ -1,0 +1,342 @@
+{
+ "arc": "W150",
+ "rule": "W150_RULE.md",
+ "status": "one run",
+ "python": "3.11.15",
+ "H1": {
+  "dV = log(u/mu^2) du (both directions)": true,
+  "g(1) = g'(1) = 0, g'' = 1/t": true,
+  "f(mu^2) = -mu^2": true
+ },
+ "H2": {
+  "6": {
+   "root": "3.89589",
+   "two figures": 3.9,
+   "paper": 3.9,
+   "|root - Lambert|": "6.19e-26"
+  },
+  "8": {
+   "root": "7.8899923",
+   "two figures": 7.9,
+   "paper": 7.9,
+   "|root - Lambert|": "9.1e-26"
+  },
+  "10": {
+   "root": "11.773622",
+   "two figures": 12.0,
+   "paper": 12.0,
+   "|root - Lambert|": "2.83e-25"
+  },
+  "12": {
+   "root": "15.821474",
+   "two figures": 16.0,
+   "paper": 16.0,
+   "|root - Lambert|": "2.82e-25"
+  }
+ },
+ "H3": {
+  "eta^12": {
+   "slope": "-3.1415926",
+   "predicted": "-3.1415927"
+  },
+  "eta^12 E4": {
+   "slope": "-3.141593",
+   "predicted": "-3.1415927"
+  },
+  "eta^12 E6": {
+   "slope": "-3.1415919",
+   "predicted": "-3.1415927"
+  },
+  "eta^12 E4^2": {
+   "slope": "-3.1415933",
+   "predicted": "-3.1415927"
+  },
+  "eta^12 E4 E6": {
+   "slope": "-3.1415923",
+   "predicted": "-3.1415927"
+  },
+  "E4": {
+   "slope": "-3.4478079e-7",
+   "predicted": "0"
+  },
+  "E6": {
+   "slope": "7.2404147e-7",
+   "predicted": "0"
+  },
+  "E4^2": {
+   "slope": "-6.8956158e-7",
+   "predicted": "0"
+  },
+  "E4 E6": {
+   "slope": "3.7926068e-7",
+   "predicted": "0"
+  },
+  "E4^3": {
+   "slope": "-1.0343424e-6",
+   "predicted": "0"
+  },
+  "E6^2": {
+   "slope": "1.4480829e-6",
+   "predicted": "0"
+  },
+  "Delta": {
+   "slope": "-6.2831853",
+   "predicted": "-6.2831853"
+  }
+ },
+ "H4": {
+  "eta^12": {
+   "weight": 6,
+   "class": "1'",
+   "crossings (Im tau, cusp side, local minimum of V)": []
+  },
+  "eta^12 E4": {
+   "weight": 10,
+   "class": "1'",
+   "crossings (Im tau, cusp side, local minimum of V)": [
+    [
+     "2.6605884",
+     true,
+     true
+    ]
+   ]
+  },
+  "eta^12 E6": {
+   "weight": 12,
+   "class": "1'",
+   "crossings (Im tau, cusp side, local minimum of V)": [
+    [
+     "1.0572813",
+     false,
+     true
+    ],
+    [
+     "3.9449962",
+     true,
+     true
+    ]
+   ]
+  },
+  "eta^12 E4^2": {
+   "weight": 14,
+   "class": "1'",
+   "crossings (Im tau, cusp side, local minimum of V)": [
+    [
+     "5.2313196",
+     true,
+     true
+    ]
+   ]
+  },
+  "eta^12 E4 E6": {
+   "weight": 16,
+   "class": "1'",
+   "crossings (Im tau, cusp side, local minimum of V)": [
+    [
+     "1.0095818",
+     false,
+     true
+    ],
+    [
+     "6.5518048",
+     true,
+     true
+    ]
+   ]
+  },
+  "E4": {
+   "weight": 4,
+   "class": "1",
+   "crossings (Im tau, cusp side, local minimum of V)": []
+  },
+  "E6": {
+   "weight": 6,
+   "class": "1",
+   "crossings (Im tau, cusp side, local minimum of V)": [
+    [
+     "1.0189454",
+     false,
+     true
+    ]
+   ]
+  },
+  "E4^2": {
+   "weight": 8,
+   "class": "1",
+   "crossings (Im tau, cusp side, local minimum of V)": []
+  },
+  "E4 E6": {
+   "weight": 10,
+   "class": "1",
+   "crossings (Im tau, cusp side, local minimum of V)": [
+    [
+     "1.0032293",
+     false,
+     true
+    ]
+   ]
+  },
+  "E4^3": {
+   "weight": 12,
+   "class": "1",
+   "crossings (Im tau, cusp side, local minimum of V)": []
+  },
+  "E6^2": {
+   "weight": 12,
+   "class": "1",
+   "crossings (Im tau, cusp side, local minimum of V)": [
+    [
+     "1.0189454",
+     false,
+     true
+    ]
+   ]
+  },
+  "Delta": {
+   "weight": 12,
+   "class": "1",
+   "crossings (Im tau, cusp side, local minimum of V)": []
+  }
+ },
+ "H5": {
+  "Im tau0 on Re tau = 0": "2.66058837208",
+  "the curve (Re tau, Im tau)": [
+   [
+    "-0.5",
+    "2.660568523"
+   ],
+   [
+    "-0.45",
+    "2.660569009"
+   ],
+   [
+    "-0.4",
+    "2.660570419"
+   ],
+   [
+    "-0.35",
+    "2.660572615"
+   ],
+   [
+    "-0.3",
+    "2.660575381"
+   ],
+   [
+    "-0.25",
+    "2.660578448"
+   ],
+   [
+    "-0.2",
+    "2.660581515"
+   ],
+   [
+    "-0.15",
+    "2.660584282"
+   ],
+   [
+    "-0.1",
+    "2.660586477"
+   ],
+   [
+    "-0.05",
+    "2.660587886"
+   ],
+   [
+    "0.0",
+    "2.660588372"
+   ],
+   [
+    "0.05",
+    "2.660587886"
+   ],
+   [
+    "0.1",
+    "2.660586477"
+   ],
+   [
+    "0.15",
+    "2.660584282"
+   ],
+   [
+    "0.2",
+    "2.660581515"
+   ],
+   [
+    "0.25",
+    "2.660578448"
+   ],
+   [
+    "0.3",
+    "2.660575381"
+   ],
+   [
+    "0.35",
+    "2.660572615"
+   ],
+   [
+    "0.4",
+    "2.660570419"
+   ],
+   [
+    "0.45",
+    "2.660569009"
+   ],
+   [
+    "0.5",
+    "2.660568523"
+   ]
+  ],
+  "max |Im tau(x) - Im tau0|": "1.98e-5",
+  "max |V / V_min - 1|": "0.0"
+ },
+ "H6": {
+  "existence bounds (k/(pi e))^{k/2}": {
+   "10": "2.2018",
+   "12": "7.6988"
+  },
+  "window ends, leading term (Im tau 3.6, 2.0)": {
+   "10": [
+    "0.23709",
+    "1.9123"
+   ],
+   "12": [
+    "1.707",
+    "7.649"
+   ]
+  },
+  "window ends, exact forms (Im tau 3.6, 2.0)": {
+   "10": [
+    "0.23709",
+    "1.9138"
+   ],
+   "12": [
+    "1.707",
+    "7.6353"
+   ]
+  },
+  "factor across the band": {
+   "10": "8.066",
+   "12": "4.481"
+  },
+  "parts": {
+   "bounds within 1%": true,
+   "windows within 1%": true,
+   "exact within 1% of leading": true,
+   "factor in [6, 10] at each weight": false
+  }
+ },
+ "R": {
+  "weight-10 Im tau0": "2.6605884",
+  "S215's band (seen before the rule; no test)": "2.6-2.7",
+  "d^2V/dy^2 at tau0 in units of m0^2 M^2/16 pi^2 = (d ln u/dy)^2": "6.3744918"
+ },
+ "cells": {
+  "H1": true,
+  "H2": true,
+  "H3": true,
+  "H4": true,
+  "H5": true,
+  "H6": false
+ },
+ "every predicted cell holds": false
+}

@@ -1,0 +1,9 @@
+{
+ "H1": true,
+ "H2": true,
+ "H3": true,
+ "H4": true,
+ "H5": true,
+ "H6": false
+}
+every predicted cell holds: False
