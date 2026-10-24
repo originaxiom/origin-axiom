@@ -1,0 +1,10 @@
+{
+ "Q1 det Y = N(S) N(M) <S, M> (symbolic)": true,
+ "Q2 null S: largest |Y^T x| / |Y| (2 000 draws)": 1.3661264196389076e-15,
+ "Q2 general S: largest relative |Y^T x - (lam - h0)(u x x - w x)| (2 000 draws)": 1.668668541944458e-13,
+ "Q3 random channels, null S with h0 != 0: largest |V_ud| (2 000 draws)": 6.694561985512475e-15,
+ "Q3 the reading test's stored channels (400 rows), null S with h0 != 0: rows, largest |V_ud|": [
+  384,
+  7.396162495610253e-13
+ ]
+}
