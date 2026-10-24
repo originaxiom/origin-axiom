@@ -8601,3 +8601,28 @@ code rather than importing this seat's, and treat the numbers as claims to check
    queue.
 
 0 of 19.
+
+## 272. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: W155's rule, committed before its script (the census over contents, Stage B: the Higgs direction)
+
+1. **At the owner's word** ("lets do themall"): `docs/dossiers/the_weave_2026-10-07/W155_RULE.md`, data-free. It is
+   the ledger's fork (B), a vev minimized with τ, in Stage A's frame.
+2. **Found while writing the rule.**
+   - At the forced line the Higgs's three copies sit on the parity characteristics, so none has a zero mode. A
+     constant vev h ∈ ℂ³ is not available; the copies' lowest modes are twisted, with mass² ∝ q_c(τ).
+   - Masses never change a cusp's leading term: the shrinking cycle's windings dominate there, and their length goes
+     to 0.
+   - Masses that treat the parities alike stay in the span of E(τ, 3) and E(τ, 2) to order μ², since
+     Σ_c S_c(τ, 2) = −(3/4) E(τ, 2).
+   - The lightest copy on the standard domain is (0, ½), at q = 1/(4y), independent of Re τ.
+3. **The cells.**
+   - **H0:** the copies' twisted masses, and their permutation under the moves.
+   - **H1:** the cusp lemma. No mass pattern and no Higgs direction rescues a content that runs, so every record
+     content and E₈'s 248 still run.
+   - **H2:** S₃-invariant masses keep the one curve to order μ² and only move t; at finite mass the minimum stays at
+     ω, i or the axis (the cell most likely to fail).
+   - **H3:** a condensate selects the copy that becomes massless at the cusp being approached, an orbit of three, and
+     pushes τ toward it. It holds neither Im τ nor Re τ, and its two ratios (ν, ε) are free numbers.
+4. **To main:** if it holds as predicted, the ledger's option 1 closes, and what remains is to earn the content
+   (GENESIS FK11) or to go beyond one loop. This seat states no expectation for any sealed test.
+
+0 of 19.

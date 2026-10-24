@@ -1,5 +1,14 @@
 # Changelog
 
+## W155's rule, committed before its script: the census over contents, Stage B, the Higgs direction (relay §272)
+
+- **At the owner's "lets do themall".** Fork (B) of the ledger's Higgs row, a vev minimized with τ, in Stage A's frame.
+- **Found while writing it:** at the forced line no copy of the Higgs has a zero mode; masses never change a cusp's
+  leading term; masses that treat the parities alike keep the span of E(τ, 3) and E(τ, 2) to order μ²; the lightest
+  copy, (0, ½), has a twisted mass independent of Re τ.
+- **The cells:** the copies' twisted masses (H0); the cusp lemma (H1); S₃-invariant masses (H2); the condensate (H3).
+- **Surfaces.** The rule, the relay, the ledger row, the state page. Data-free; no script exists. 0 of 19.
+
 ## The look ledger's rows checked; the ladder's ruling carried with both seats' wording; W145 corrected (relay §271)
 
 - **The look ledger (main's ask).** Proposed as this seat's looks at B1656's frame: W88, W90, W94, W146 and W151. The

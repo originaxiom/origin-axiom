@@ -20869,3 +20869,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The searches counted:** this seat's own tests of the same fits against the same data are listed for the joint
   count, so no search goes uncounted.
   0 of 19.
+
+## 2026-10-24 — the second stage of the census: what the Higgs's direction could add (the plan, before computing)
+
+- **The question:** can the direction the Higgs field takes hold the shape of the fibre where the particle content
+  alone could not?
+- **What hand work already shows:** at the symmetric setting no copy of the Higgs can settle into a constant value;
+  masses never change how the potential behaves far out at the edges; and the copy that would settle first does so in
+  a way that pushes the shape toward an edge, not into the band.
+- **The computation checks each of these** before any conclusion is drawn.
+  0 of 19.
