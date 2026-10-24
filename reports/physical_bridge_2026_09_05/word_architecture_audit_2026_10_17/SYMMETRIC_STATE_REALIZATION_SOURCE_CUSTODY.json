@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "status": "author_analytical_source_custody_not_execution_admission",
+  "source_commit_before_note": "65dd3c112ed802fc590e10714af5c0e1d593c9f8",
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SYMMETRIC_STATE_REALIZATION_AND_MATTER_TRACE.md",
+      "sha256": "97c7dd23a46ff519e614bb762b023b057bb5eb8ef5962e517f9791777ea3048b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COVARIANT_END_DOMAIN_SCOPE.md",
+      "sha256": "2c397e8d061b36d8818b35e4dd156de27b6b33adcf317f982a5ab4734ef895d5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_COUPLING_TRANSPORT.md",
+      "sha256": "54c7c58701d656ae09351de21e9de0cc8db9dd90f03e4a73102dde1a5c8112f5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_PRINCIPAL_PARTS_AND_GREEN_TRANSPORT.md",
+      "sha256": "577b00a1c6b8ff40a23d0b7f469790117740c713e058b6ddbd7610940c1571a7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_PUNCTURE_CONNECTING_MAP_AND_TRACE.md",
+      "sha256": "531821069962385beeb04f6b6c6c99a1c9f712e36bd36eb0eaf26b62c2daef35"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md",
+      "sha256": "cedd75ade10476f0cf20ff783edd3a4e81caa5196b3b702ede66a066669b360d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/PROOF.md",
+      "sha256": "299e95d002398359ee3a3c8a1421f7acf256618284c0ad1e4b8a70dee3072b55"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/PROOF.md",
+      "sha256": "9d11b84270e5fccb949915fcb761c075038cda51b2e1230f1c7188daf9f76050"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/PROOF.md",
+      "sha256": "24cab7e65ddbb8b37c5c8dddb5cde0171e588e7918eb619f54ee8bd53c0332e0"
+    }
+  ],
+  "git_sources": [
+    {
+      "commit": "3bf82d0ca08284a631016b217e0b9297a756f8ff",
+      "path": "papers/P9_what_a_grammar_fixes/tex/sections/s05_couplings.tex",
+      "sha256": "51c28227048e4038fa32dbed7d2aea415b6d329b4b52b988082b0069c1b72047",
+      "reading_scope": "relevant fibre, point-rank, norm and joint-law sections"
+    },
+    {
+      "commit": "3bf82d0ca08284a631016b217e0b9297a756f8ff",
+      "path": "frontier/B1659_the_joint_law/verification/the_joint_law.py",
+      "sha256": "84756480041eed2b5b37aee72400060b04cd74646e3892c2066ef56e1646b786",
+      "reading_scope": "full producer read, not executed"
+    },
+    {
+      "commit": "3bf82d0ca08284a631016b217e0b9297a756f8ff",
+      "path": "frontier/B1656_the_electrons_zero/verification/the_electrons_zero.py",
+      "sha256": "8abe8b53f2012abda10aeca93b2f9c2808cbf46ee4368f8e0b1272ccffa10b2e",
+      "reading_scope": "source head through weighted_M and coupling, not full run body"
+    }
+  ]
+}

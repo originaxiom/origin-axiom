@@ -735,3 +735,23 @@ restriction cannot simply be transferred. Parent, metric, spin line,
 condensate selection and that physical dictionary remain priced duties.
 The frozen P210 execution package is unchanged; no physical-input row
 is paid and the full physical mission remains active.
+
+## Realization of the formal symmetric matrix state
+
+October 24. The [matter-state scope audit](SYMMETRIC_STATE_REALIZATION_AND_MATTER_TRACE.md)
+uses the paper's actual congruence law and channel reconstruction.
+In the declared chart, full Q8 invariance requires S=sI and
+M=n epsilon^-1. Nonzero point residues cannot realize the latter.
+Finite nonzero diagonal weighting of the null-quaternion residues
+cannot realize it either. A Hilbert-Schmidt distance estimate separates
+that direction from the canonical fixed-fibre large-cutoff family.
+These are authored unreviewed derivations, not executed controls.
+
+The positive counterpart retains the matter variable: on raw rank-one
+data, its image gives a covariant rank-three plane even at S=I,
+recovering the old solution-trace plane and its zero-index scope.
+S=I alone must not be called a full physical symmetric state.
+The formal full-matrix classification remains valid. Weighted/profile/
+geometric alternatives keep their actual hypotheses, and the operator,
+field and physical-vacuum dictionary is not thereby discharged.
+The frozen verification sources are unchanged and no input is marked paid.
