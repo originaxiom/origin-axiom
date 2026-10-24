@@ -1,0 +1,29 @@
+{
+ "id": "B1753",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1749",
+  "B1741",
+  "B1726",
+  "B1728",
+  "B1720",
+  "B1724",
+  "B1735"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling at B1667's canonical end (both horocycles), the Higgs DR, the covariant readings, the lepton factor and B1726's menus -- B1741's instrument unchanged",
+  "object": "the six charged-fermion mass ratios at M_Z (and the CKM moduli), at value level and their specificity against random hierarchies, on the lines whose order is divisible by 5",
+  "reach": "class",
+  "hypotheses": "223 fresh apex points (thread words of length 13, apex height in [2.0, 3.6]) x the 48 lines of order 5 and 10; B1741's generators; seeds 1789-1808; one decisive cell (P2 at 0.1%) named in advance"
+ },
+ "claim_one_line": "THE SIX ON THE FIVE-ALITY LINES (P-340; sealed 33b197340, sha256 4737fdca; PROVED as sealed for its question -- P2, the decisive cell at 0.1%, holds; P1, C1, C2 hold; outputs committed unread at 26c714d8a and e5a942a98): with the lines fixed in advance to orders divisible by 5 (where the hypercharge twist carries SU(5)'s centre, 6Y mod 5 the SU(5) label) on 223 fresh apexes, B1741's unchanged instrument reaches the six charged-fermion ratios (chi2_six 2.74 at 0.3333 + 3.0368i on (2/5, 1/10)) with 7 of 80 000 random hierarchies as good (0.009%; r = 1.8e-4). Main's hostile referee: seal, instrument, freshness and calibration hold, but the line rule is mostly a pick -- every simple order rule or random 48-line subset containing the order-10 lines (2/5, 1/10), (2/5, 1/2) passes, none without them; the outcome was foreknown (the same restriction on B1726's grid: 0.005%); the look count is fragile (51-52, 68 inclusive) and a fair null lets random targets choose their class. A READING (c = 3 and the reading rule by hand; tau sampled; the nine fail), ungraded. The open question: what selects the line class (2/5, odd/10). 0 of 19.",
+ "weave_or_thread": "weave (a census over thread apexes and a stated line class)"
+}

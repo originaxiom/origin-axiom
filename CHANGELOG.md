@@ -1,5 +1,13 @@
 # Changelog
 
+## S220 B1753 THE SIX ON THE FIVE-ALITY LINES (P-340; PROVED as sealed, ungraded); THE LITERATURE CHECK (P-382); TWO ANGLES CLOSED; THE SEATS HARVESTED (2026-10-24)
+
+- **B1753 (sealed 33b197340; outputs committed unread at 26c714d8a and e5a942a98):** the lines fixed in advance to orders divisible by 5 (6Y mod 5 the SU(5) label), 223 fresh apexes; the decisive cell at 0.1% holds — 7 of 80 000 random hierarchies as low, χ²_six 2.74. **Main's hostile referee:** seal, instrument, freshness, calibration hold; the line rule mostly a pick (every rule or random 48-line subset containing the order-10 lines (2/5, 1/10), (2/5, 1/2) passes, none without; "divisible by 2" as well as "by 5"); the outcome foreknown; the look count fragile (51–52; 68 inclusive); a fair null lets random targets choose their class. PROVED as sealed, a READING, ungraded (P-384). Memory: restriction tests need the random-subset control.
+- **The literature check (P-382; the deep-research workflow on novelty and four verification agents, quotes spot-checked):** the Im τ ≈ 3 region is prior art (arXiv:2302.11183, 2307.01419; 18–20 coefficients); no mechanism fixes Im τ ≈ 3 without a chosen ratio; no fixed two-Higgs pair; no geometric factor 3; no order-5 Wilson-line lepton = down mechanism; no random-target specificity tests — possibly novel on the record: the quantized order-5/10 shift with B1728's law, the calibration, the economy.
+- **Angles closed:** two lines instead of two doublets (P-383: 588–736 at best; the up quark 18–20× too heavy); the Pati–Salam split (S219).
+- **Harvest (rows 1389–1392):** the SM seat's look-ledger rows (W88, W90, W94, W146, W151 entered), the merged ladder wording and the audit lane's WEAVE qualifier for the owner (P-385), W155 (the minimized-vev route closed at one loop), W156's rule (the third opinion on B1749); the web seat's holomorphic relay and unification scan. The relay to the SM seat (direct). Register P-381–P-385; P-340 DONE; FLOOR 385.
+- 0 of 19.
+
 ## S219 GENESIS v1.57 (B1752: THE LADDER'S CLAUSE CORRECTED); THE SEATS' EVENING HARVESTED; STEP 2'S CALIBRATION; A LEPTON-FACTOR CANDIDATE CLOSED (2026-10-24)
 
 - **B1752 (GENESIS v1.56 → v1.57):** the ladder's rule's first clause corrected at the web seat's opinion (P-379), under the owner's ruling that later seat opinions could amend it — the end at 5 follows from the moves' orders; the ruling adopts E₈ as the single container of the rungs. docs/THE_WEAVE.md and WORKING_RULES corrected.

@@ -13946,6 +13946,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1753": {
+   "slug": "the six on the five ality lines",
+   "motifs": [
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "P1",
+    "P2"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B175": {
    "slug": "collective spectrum predictivity",
    "motifs": [

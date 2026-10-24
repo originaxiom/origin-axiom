@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1481 of 1481 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1482 of 1482 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1011)
+## PROVED (1012)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1023,6 +1023,7 @@
 | `B1750` | THE OBSERVER, RE-TYPED (P-372; the owner's ruling 'yes pls'), AND GENESIS v1.55: the record's three senses of 'observer' separated -- the closer (B717: every closing) retired as an explanatory move, since each closing has a name in B1656's frame (the end L, tau and the line, the readings, the Higgs's direction; the arrow absent) and is a dynamical selection, a relation (B1327) or a counted free number; the signer kept (B1183, B1184; B1168) -- the observer supplies one unit and one orientation, conventions, and the frame inherits both: checked on main, the mirror tau -> -conj(tau), b -> -b maps every mass ratio and CKM modulus to itself (1.3e-12, 7.0e-12) and J to -J in all eight reading pairs at B1741's tie pair, while B1724's T-law keeps J; the identifier made the identification ledger (FK11). A table types every frame ingredient (forced 3; free continuous tau and the Higgs's direction; free discrete the end, the line, c, h0; identifications 4; conventions 3). W145's attribution of the J flip to B1724's law corrected: it is the mirror. 0 of 19. |  | 1 |
 | `B1751` | GENESIS v1.56 at the owner's rulings of 2026-10-24: FK9's looks counted jointly across seats (the look ledger, P-367; docs/LOOK_LEDGER.md opened with main's 20 looks, the web seat's 7 and the SM seat's); the ladder's rule R1 recorded at F-MC with its two clauses (the prime 5 adopted by the rule, not derived; the rule fixes the algebra, not its embedding or fields; sm:W153) (P-375); the Higgs fork ruled 'both lines kept separate'; the referee lane's concordance adopted into TERMINOLOGY (P-195); the paper frozen, the reader's PDF unsent and GM5c open confirmed. No status cell changes. 0 of 19. |  | 1 |
 | `B1752` | GENESIS v1.57: the ladder's rule's first clause corrected at the web seat's opinion (P-379), under the owner's ruling that the seats still to answer could amend it -- the end at 5 follows from the moves' orders 2 and 3 (sm:W153), and what the ruling adopts is E8 as the single container of the rungs (the rungs' groups form no chain); main's first clause had put the adoption on the prime 5. No status cell changes. 0 of 19. |  | 1 |
+| `B1753` | THE SIX ON THE FIVE-ALITY LINES (P-340; sealed 33b197340, sha256 4737fdca; PROVED as sealed for its question -- P2, the decisive cell at 0.1%, holds; P1, C1, C2 hold; outputs committed unread at 26c714d8a and e5a942a98): with the lines fixed in advance to orders divisible by 5 (where the hypercharge twist carries SU(5)'s centre, 6Y mod 5 the SU(5) label) on 223 fresh apexes, B1741's unchanged instrument reaches the six charged-fermion ratios (chi2_six 2.74 at 0.3333 + 3.0368i on (2/5, 1/10)) with 7 of 80 000 random hierarchies as good (0.009%; r = 1.8e-4). Main's hostile referee: seal, instrument, freshness and calibration hold, but the line rule is mostly a pick -- every simple order rule or random 48-line subset containing the order-10 lines (2/5, 1/10), (2/5, 1/2) passes, none without them; the outcome was foreknown (the same restriction on B1726's grid: 0.005%); the look count is fragile (51-52, 68 inclusive) and a fair null lets random targets choose their class. A READING (c = 3 and the reading rule by hand; tau sampled; the nine fail), ungraded. The open question: what selects the line class (2/5, odd/10). 0 of 19. |  | 1 |
 
 ## NEGATIVE (366)
 

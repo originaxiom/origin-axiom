@@ -17926,3 +17926,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The ladder's clause corrected (the container is the adoption). The holomorphic test: the look reproduced, not a selection (P-378). W154: τ's band costs one free number at one loop (P-380). The mixing reachability at the strip not specific (P-377). The Pati–Salam lepton factor NEGATIVE (P-294). Harvest 1385–1388; FLOOR 380.
 - **Landing suite.** full suite 7 729 passed, 3 failed, 68 skipped (40:12, -n 8) on fa8cc30e7: two failures are B805's attachment locks (P-239, standing); the third, test_repo_gates' seal gate, was the working tree's, not the commit's — B1753's preregistration, written but not yet sealed, sat untracked in the tree (the pre-push hook gates the commit in a clean worktree). With the suite's lane-survey refresh.
+
+## 2026-10-24 — S220 B1753 (the five-ality lines; ungraded); THE LITERATURE CHECK; TWO ANGLES CLOSED
+
+- B1753: the decisive cell holds (7/80 000) but the line rule is mostly a pick (the referee). The literature: the Im τ ≈ 3 region prior art; the order-5 mechanism, the calibration and the economy possibly novel. Two lines and the Pati–Salam split closed. W155: the minimized vev closed at one loop. Harvest 1389–1392; P-381–P-385; FLOOR 385.
+- **Landing suite.** full suite 7 734 passed, 2 failed, 68 skipped (23:54, -n 8) on 4b8df3f30: the two failures are B805's attachment locks (P-239, standing). With the suite's two measurement refreshes.

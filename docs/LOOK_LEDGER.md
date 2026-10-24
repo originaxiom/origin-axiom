@@ -33,7 +33,10 @@ sector is listed with its target.
 | S212–S214 | post hoc | the nine: two doublets, the form route, the energy extremum | P-357 (audit room) |
 | B1748 | sealed | the heavy four, null Higgs | NEGATIVE (1.54%) |
 | B1749 | sealed | the six at fresh apexes | PROVED (0.02%; the frame's strip) |
-| S217 step 2 | post hoc | the nine at the six's strip: one Higgs, record pairs, harmonic pairs, two free doublets | audit/verify_sweet/ (P-377) |
+| S217 step 2 | post hoc | the nine at the six's strip: one Higgs, record pairs, harmonic pairs, two free doublets (several scans) | audit/verify_sweet/ (P-377) |
+| S219 angle 2 | post hoc | the nine at the strip with two lines | NEGATIVE (P-383) |
+| order5_restriction | post hoc | the six on B1749's rows under line-order rules | priced before B1753 (its Disclosed) |
+| B1753 | sealed | the six on the five-ality lines, fresh apexes | PROVED as sealed (0.009%); the rule mostly a pick; ungraded |
 
 ## The web seat (chat1)
 
@@ -51,8 +54,14 @@ sector is listed with its target.
 
 | test | kind | target | outcome |
 |---|---|---|---|
-| W137 (row 1325) | sealed | the joint frame's Yukawas | read on main (row 1325) |
-| W145 (row 1356) | verification | B1741 reproduced | not a new look |
+| W88 (row 1389) | sealed scoreboard | the six and ∣V_us∣ under breaking-free relations, lines by order | orders dividing 4 or 6 refuted |
+| W90 (row 1389) | sealed | the six's m₂/m₃, one Higgs under B1657's laws | NEGATIVE |
+| W94 (row 1389) | sealed | (m_μ/m_τ)/(m_s/m_b), the null Higgs at ω on W59's lines | failed as worded |
+| W146 (row 1357) | sealed, a class test | the nine's target, its invariant across the band | NEGATIVE for every single section |
+| W151 (row 1372) | sealed, a class test | the nine's target, its (D, E) box | no pair in the box |
+| W145, W89, W93, W96, W138, W141, W142 | verification | earlier arcs reproduced | not new looks |
+
+**Other frames (not counted here; listed for a review that pools frames):** the SM seat's W137 (the joint E₆ × SU(3) frame), W53, W54, W56, W57, W78, W80, W66, W69, W72, W73, W112–W119, W58 (its row 1389).
 
 ## How THE_BAR uses it
 
