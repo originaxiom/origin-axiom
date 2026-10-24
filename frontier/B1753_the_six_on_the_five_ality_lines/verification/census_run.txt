@@ -1,0 +1,6 @@
+223 apex points x 48 lines = 10704 points; 0 done; 10704 to do
+row 0
+row 5000
+row 10000
+control written
+census exit 0

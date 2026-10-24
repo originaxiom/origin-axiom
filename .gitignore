@@ -121,6 +121,8 @@ data-*-batch-*/
 !frontier/B1748_the_heavy_generations_from_the_geometry/verification/census.jsonl
 # B1749's sealed census (the same reason): its sealed compare.py reads it by name
 !frontier/B1749_the_six_at_fresh_apexes/verification/census.jsonl
+# B1753's sealed census (the same reason): its sealed compare.py reads it by name
+!frontier/B1753_the_six_on_the_five_ality_lines/verification/census.jsonl
 chronicle_raw*
 
 
