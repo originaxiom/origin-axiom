@@ -1,0 +1,651 @@
+{
+ "arc": "W145",
+ "rule": "W145_RULE.md",
+ "status": "one run",
+ "rev": "a60430b4682fe53d77d332d7749aa976fc0bf489",
+ "python": "3.11.15",
+ "numpy": "2.4.6",
+ "mpmath": "1.3.0",
+ "machine": "x86_64",
+ "workers": 4,
+ "A0": {
+  "frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/census.jsonl": true,
+  "frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/comparison.json": true,
+  "census rows": 19950,
+  "census distinct (line, Re, Im)": 19950,
+  "ARTIFACT_HASHES": {
+   "frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/census.py": true,
+   "frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/compare.py": true,
+   "frontier/B1726_the_two_ingredients_replicated/verification/census.py": true,
+   "frontier/B1723_the_golden_valley/verification/b1656_funcs.py": true,
+   "frontier/B1691_the_exponents_at_the_two_fixed_points/verification/the_exponents.py": true,
+   "frontier/B1691_the_exponents_at_the_two_fixed_points/verification/qseries.py": true,
+   "frontier/B1667_the_canonical_cusp/verification/the_canonical_cusp.json": true,
+   "frontier/B1720_the_thread_fixes_the_point/verification/the_thread_census.json": true,
+   "frontier/B1726_the_two_ingredients_replicated/verification/census.jsonl": true,
+   "frontier/B1637_fits_on_the_ruled_branch/received/HZ2021_running_masses_MZ.json": true,
+   "frontier/B1612_the_mixing_patterns_the_weave_fixes/verification/data.json": true
+  }
+ },
+ "part_seconds": {
+  "A0": 1.2,
+  "A1": 1260.8,
+  "A2": 642.2,
+  "D1": 535.8,
+  "A3": 1.2,
+  "A4": 1.0,
+  "C1": 46.7,
+  "C2": 2.1,
+  "B": 7.0
+ },
+ "A1": {
+  "compare": {
+   "returncode": 0,
+   "seconds": 1260.5,
+   "stderr_tail": ""
+  },
+  "diff": {
+   "numbers": 470,
+   "exact": 386,
+   "max_rel": 4.872605337323818e-13,
+   "mismatches": []
+  },
+  "cells identical": true,
+  "per-seed fractions exact": true
+ },
+ "A2": {
+  "mins": {
+   "seat": {
+    "chi2_six_min": 14.932376235047009,
+    "row": [
+     "150",
+     "3.6",
+     "2.993325909",
+     "L_max"
+    ],
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "k": 1.0986122886681098
+   },
+   "cov": {
+    "chi2_six_min": 14.932376235047009,
+    "row": [
+     "150",
+     "3.6",
+     "2.993325909",
+     "L_max"
+    ],
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "k": 1.0986122886681098
+   },
+   "free": {
+    "chi2_six_min": 14.906445086040193,
+    "row": [
+     "150",
+     "3.6",
+     "2.993325909",
+     "L_max"
+    ],
+    "readings": [
+     "St",
+     "S",
+     "S"
+    ],
+    "k": "free"
+   }
+  },
+  "per_seed": {
+   "1741": {
+    "seat": 0.00525,
+    "cov": 0.0205,
+    "free": 0.034
+   },
+   "1742": {
+    "seat": 0.0035,
+    "cov": 0.01825,
+    "free": 0.03325
+   },
+   "1743": {
+    "seat": 0.00825,
+    "cov": 0.02425,
+    "free": 0.04175
+   },
+   "1744": {
+    "seat": 0.00475,
+    "cov": 0.0215,
+    "free": 0.03075
+   },
+   "1745": {
+    "seat": 0.006,
+    "cov": 0.02225,
+    "free": 0.036
+   },
+   "1746": {
+    "seat": 0.00825,
+    "cov": 0.02525,
+    "free": 0.03625
+   },
+   "1747": {
+    "seat": 0.00575,
+    "cov": 0.02175,
+    "free": 0.03275
+   },
+   "1748": {
+    "seat": 0.0065,
+    "cov": 0.021,
+    "free": 0.03875
+   },
+   "1749": {
+    "seat": 0.0045,
+    "cov": 0.0235,
+    "free": 0.0325
+   },
+   "1750": {
+    "seat": 0.0075,
+    "cov": 0.02675,
+    "free": 0.0395
+   },
+   "1751": {
+    "seat": 0.00625,
+    "cov": 0.023,
+    "free": 0.0345
+   },
+   "1752": {
+    "seat": 0.00525,
+    "cov": 0.02375,
+    "free": 0.0335
+   },
+   "1753": {
+    "seat": 0.0055,
+    "cov": 0.02425,
+    "free": 0.03875
+   },
+   "1754": {
+    "seat": 0.00675,
+    "cov": 0.021,
+    "free": 0.036
+   },
+   "1755": {
+    "seat": 0.00525,
+    "cov": 0.0225,
+    "free": 0.036
+   },
+   "1756": {
+    "seat": 0.00475,
+    "cov": 0.02,
+    "free": 0.03325
+   },
+   "1757": {
+    "seat": 0.0075,
+    "cov": 0.026,
+    "free": 0.03925
+   },
+   "1758": {
+    "seat": 0.00775,
+    "cov": 0.0255,
+    "free": 0.03525
+   },
+   "1759": {
+    "seat": 0.00425,
+    "cov": 0.01975,
+    "free": 0.03625
+   },
+   "1760": {
+    "seat": 0.007,
+    "cov": 0.02075,
+    "free": 0.03725
+   }
+  },
+  "per_seed_equal_main": true,
+  "min_rel_vs_main": {
+   "seat": 2.5552627599064117e-13,
+   "cov": 2.5552627599064117e-13,
+   "free": 3.422477199166002e-13
+  },
+  "mean": {
+   "seat": 0.006025000000000001,
+   "cov": 0.022575,
+   "free": 0.03577500000000001
+  },
+  "worst_seed": {
+   "seat": 0.00825,
+   "cov": 0.02675,
+   "free": 0.04175
+  },
+  "seat minimum at FINDINGS' row": false,
+  "chi2_nine": {
+   "seat": {
+    "chi2_nine_min": 203.92407162318304,
+    "row": [
+     "150",
+     "3.5",
+     "2.738612788",
+     "L_2"
+    ],
+    "main": 203.92407162317977,
+    "rel_vs_main": 1.602800767207188e-14
+   },
+   "sm": {
+    "chi2_nine_min": 1409.9080192988542,
+    "row": [
+     "23",
+     "4.0",
+     "3.31662479",
+     "L_max"
+    ],
+    "main": 1409.9080192988586,
+    "rel_vs_main": 3.0641004762635344e-15
+   }
+  },
+  "top five points (seat)": [
+   {
+    "line": 150,
+    "Re_tau": 3.6,
+    "Im_tau": 2.993325909,
+    "chi2_six": 14.932376235047009
+   },
+   {
+    "line": 153,
+    "Re_tau": 3.4,
+    "Im_tau": 2.993325909,
+    "chi2_six": 14.932376235335873
+   },
+   {
+    "line": 150,
+    "Re_tau": 3.5,
+    "Im_tau": 3.149073938,
+    "chi2_six": 27.82218506732579
+   },
+   {
+    "line": 153,
+    "Re_tau": 3.5,
+    "Im_tau": 3.149073938,
+    "chi2_six": 27.822185068039445
+   },
+   {
+    "line": 24,
+    "Re_tau": 3.6,
+    "Im_tau": 2.993325909,
+    "chi2_six": 28.776429899956465
+   }
+  ]
+ },
+ "D1": {
+  "allowance 0.05": {
+   "chi2_six_min": 43.23802333620182,
+   "fraction_mean": 0.009487500000000003,
+   "fraction_max": 0.01325,
+   "per_seed": [
+    0.00975,
+    0.0075,
+    0.01125,
+    0.00925,
+    0.00925,
+    0.0105,
+    0.009,
+    0.0085,
+    0.00775,
+    0.01125,
+    0.01,
+    0.00875,
+    0.0085,
+    0.01325,
+    0.0085,
+    0.00725,
+    0.01075,
+    0.01,
+    0.00775,
+    0.011
+   ]
+  },
+  "lepton factor over {1, ..., 5}": {
+   "chi2_six_min": 14.932376235047009,
+   "fraction_mean": 0.012075000000000002,
+   "fraction_max": 0.01575,
+   "per_seed": [
+    0.011,
+    0.0095,
+    0.01575,
+    0.011,
+    0.01125,
+    0.01425,
+    0.01325,
+    0.01125,
+    0.01125,
+    0.01525,
+    0.01175,
+    0.01075,
+    0.01175,
+    0.01175,
+    0.013,
+    0.00975,
+    0.01425,
+    0.0125,
+    0.01,
+    0.01225
+   ]
+  },
+  "uniform sigma 0.10": {
+   "chi2_six_min": 19.613248654125485,
+   "fraction_mean": 0.004487500000000001,
+   "fraction_max": 0.00675,
+   "per_seed": [
+    0.004,
+    0.0025,
+    0.00625,
+    0.00325,
+    0.00425,
+    0.0065,
+    0.004,
+    0.00525,
+    0.00425,
+    0.0055,
+    0.00475,
+    0.00425,
+    0.00375,
+    0.00475,
+    0.004,
+    0.00275,
+    0.006,
+    0.00675,
+    0.0035,
+    0.0035
+   ]
+  }
+ },
+ "A3": {
+  "classes": 121,
+  "classes failing": [],
+  "integer translates in Re tau": {
+   "0": 121
+  },
+  "distinct apex points": 75,
+  "equal census.jsonl's points": true,
+  "census points": 75
+ },
+ "A4": {
+  "W140 lines": 266,
+  "main lines()": 266,
+  "equal as sets": true,
+  "W138's own_lines equal main's list in order": true,
+  "every apex has lines 0-265": true,
+  "apexes": 75
+ },
+ "C1": {
+  "line 153": [
+   "2/5",
+   "9/10"
+  ],
+  "line 149": [
+   "2/5",
+   "1/10"
+  ],
+  "b + 3 alpha = line 149's b": true,
+  "classes at the apex": [
+   "LLLLLRRLR",
+   "LLRRRRRLR"
+  ],
+  "per class": {
+   "LLLLLRRLR": {
+    "trace": 30,
+    "line fixed by A up to sign": false,
+    "A^2 = -I mod 10": true,
+    "A^2 fixes order-5 lines": 12,
+    "A^2 fixes order-10 lines": 36
+   },
+   "LLRRRRRLR": {
+    "trace": 30,
+    "line fixed by A up to sign": false,
+    "A^2 = -I mod 10": true,
+    "A^2 fixes order-5 lines": 12,
+    "A^2 fixes order-10 lines": 36
+   }
+  }
+ },
+ "C2": {
+  "best row: max |log lep - log down| (reading S, L_max)": 0.21763512869884316,
+  "D": 11.04691654378706,
+  "D/9": 1.2274351715318954,
+  "read-out: points (of 19 950)": {
+   "same reading, every horocycle and reading": 1221,
+   "same reading, some horocycle and reading": 1228,
+   "swapped reading (lep S vs down St and back), every horocycle": 462
+  },
+  "read-out: lines with the identity at every one of the 75 apexes": [
+   [
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "1/2"
+   ],
+   [
+    "1/2",
+    "0"
+   ],
+   [
+    "1/2",
+    "1/2"
+   ],
+   [
+    "1/5",
+    "0"
+   ],
+   [
+    "1/5",
+    "1/5"
+   ],
+   [
+    "1/5",
+    "2/5"
+   ],
+   [
+    "1/5",
+    "3/5"
+   ],
+   [
+    "1/5",
+    "4/5"
+   ],
+   [
+    "2/5",
+    "0"
+   ],
+   [
+    "2/5",
+    "1/5"
+   ],
+   [
+    "2/5",
+    "2/5"
+   ],
+   [
+    "2/5",
+    "3/5"
+   ],
+   [
+    "2/5",
+    "4/5"
+   ]
+  ],
+  "read-out: lines with the identity at some apex": 17
+ },
+ "B": {
+  "points": [
+   {
+    "line": 150,
+    "tau": [
+     3.6,
+     2.993325909
+    ],
+    "deviation": {
+     "up": 1.697137985557133e-10,
+     "down": 1.333100296729799e-10,
+     "lep": 1.3293588451373102e-10,
+     "ckm": 1.4945400471637674e-10,
+     "J_rel": 4.1710506483549886e-10,
+     "zero_pattern_mismatches": 0
+    }
+   },
+   {
+    "line": 153,
+    "tau": [
+     3.4,
+     2.993325909
+    ],
+    "deviation": {
+     "up": 3.096607414452447e-10,
+     "down": 7.455280836842976e-11,
+     "lep": 7.435851933913482e-11,
+     "ckm": 2.5585444870581536e-10,
+     "J_rel": 5.404480805007565e-10,
+     "zero_pattern_mismatches": 0
+    }
+   },
+   {
+    "line": 150,
+    "tau": [
+     3.5,
+     3.149073938
+    ],
+    "deviation": {
+     "up": 1.3805157016590567e-10,
+     "down": 5.087441578991922e-11,
+     "lep": 5.077738229757191e-11,
+     "ckm": 1.1572542917247086e-09,
+     "J_rel": 1.6801499043296406e-09,
+     "zero_pattern_mismatches": 0
+    }
+   },
+   {
+    "line": 153,
+    "tau": [
+     3.5,
+     3.149073938
+    ],
+    "deviation": {
+     "up": 1.5734769042025072e-10,
+     "down": 2.6638691252501197e-11,
+     "lep": 2.6563862220643452e-11,
+     "ckm": 1.156498673935023e-09,
+     "J_rel": 1.5968383667179093e-09,
+     "zero_pattern_mismatches": 0
+    }
+   },
+   {
+    "line": 24,
+    "tau": [
+     3.6,
+     2.993325909
+    ],
+    "deviation": {
+     "up": 7.735612150539534e-11,
+     "down": 1.4217538256799554e-10,
+     "lep": 1.4220624676807575e-10,
+     "ckm": 1.433458907232388e-10,
+     "J_rel": 2.04643254858814e-09,
+     "zero_pattern_mismatches": 0
+    }
+   },
+   {
+    "line": 150,
+    "tau": [
+     3.5,
+     2.738612788
+    ],
+    "deviation": {
+     "up": 1.0335722283384493e-09,
+     "down": 3.418132443813858e-11,
+     "lep": 3.379219126799423e-11,
+     "ckm": 9.27957044969182e-10,
+     "J_rel": 2.4309904182082266e-09,
+     "zero_pattern_mismatches": 0
+    }
+   }
+  ],
+  "worst": {
+   "up": 1.0335722283384493e-09,
+   "down": 1.4217538256799554e-10,
+   "lep": 1.4220624676807575e-10,
+   "ckm": 1.1572542917247086e-09,
+   "J_rel": 2.4309904182082266e-09,
+   "zero_pattern_mismatches": 0
+  },
+  "joint_law_max": 1.4558473810666475e-18,
+  "residue_control_rel": 1.900717018320961e-31,
+  "B1724 law on own code (census frame against the apex)": {
+   "up": 4.549882692931585e-11,
+   "down": 9.259260025373376e-14,
+   "lep": 9.250378241172525e-13,
+   "ckm": 8.669731599301606e-13,
+   "J_rel": 2.000000000002904,
+   "zero_pattern_mismatches": 0
+  },
+  "row": {
+   "chi2": 14.932376244511106,
+   "pulls": [
+    2.4426590707464615,
+    0.5543365727223912,
+    1.4947527651876824,
+    1.7767067703536057,
+    1.386949236125018,
+    1.159268265894137
+   ],
+   "pulls_main_row": [
+    2.4426590705335536,
+    0.5543365718648733,
+    1.4947527641829361,
+    1.7767067702392099,
+    1.3869492347956687,
+    1.1592682657321227
+   ],
+   "D": 11.046916543780888,
+   "model_over_measured": [
+    1.2885475380143108,
+    1.1159542784736245,
+    1.2193580671039792,
+    1.2444210860540945,
+    1.1487741988008815,
+    1.1229195205077864
+   ],
+   "checks": {
+    "chi2_rel_vs_14.932": 2.5197194689642303e-05,
+    "pulls_abs_vs_main_row": 1.3293492973076582e-09,
+    "D_rel_vs_11.047": 7.5546500509026116e-06
+   }
+  },
+  "best point": [
+   150,
+   "2/5",
+   "3/10",
+   3.6,
+   2.993325909
+  ]
+ },
+ "cells": {
+  "A0": true,
+  "A1": true,
+  "A2": false,
+  "A3": true,
+  "A4": true,
+  "B0": true,
+  "B1": true,
+  "B2": true,
+  "C1": true,
+  "C2": true,
+  "D1": true
+ },
+ "every predicted cell holds": false,
+ "opinion": {
+  "replicated value-level READING, bankable as that and no more": false
+ },
+ "seconds": 2498.6
+}
