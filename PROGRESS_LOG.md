@@ -20575,3 +20575,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   every check passes.
 - **A caution has gone to every seat** about that library function.
   0 of 19.
+## 2026-10-24 — main's newest positive result, to be checked independently
+
+- **Main found the six mass ratios at the precision bar with no number fitted.** The modulus was placed where a
+  thread's geometry puts it, the best of 266 lines was taken, and both hand-put ingredients were kept. Main calls it a
+  reading, and its own referee warns that the point tested was close to one already known to fit.
+- **This seat's independent check is set up** with its predictions published before any code exists. Among them:
+  whether the match survives a tighter error allowance, and whether at that point the leptons are really independent
+  of the down quarks.
+- **The other seats were read:** main's overnight sessions and the web seat's new tests.
+  0 of 19.

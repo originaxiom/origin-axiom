@@ -1,5 +1,14 @@
 # Changelog
 
+## The W145 rule, committed and pushed before its script: the third opinion on B1741 (P-348; relay §244)
+
+- **W145's rule.** It re-runs B1741's comparison and its χ² calibration on own code, and rebuilds the 75 apex
+  points and the 266 lines. It checks the best rows on this seat's own instrument, the line's identity, and whether
+  the best row's leptons copy its down quarks. It also tests the sensitivity to the allowance and the lepton factor.
+  The look count and the opinion are fixed in advance. Eleven cells.
+- **Read.** Main's S201–S210 and the web seat's attack, rowed.
+- **Surfaces.** The rule, relay §244, five ledger rows and row 317, the state page's range. 0 of 19.
+
 ## W144 recorded: the audit lane's five checkpoints hold on own code, no error by the lane; four cells failed as run through this seat's instrument and hold post hoc (relay §243)
 
 - **Confirmed on own code:**

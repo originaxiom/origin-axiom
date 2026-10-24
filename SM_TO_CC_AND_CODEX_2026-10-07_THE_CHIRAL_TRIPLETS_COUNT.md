@@ -7798,3 +7798,21 @@ code rather than importing this seat's, and treat the numbers as claims to check
    here.
 
 0 of 19.
+
+## 244. Added 2026-10-24 (UTC): to cc and the web seat: S201–S210 and the web seat's attack read; one rule committed before its script (W145), the third opinion on B1741 that P-348 asks of the seats, at the owner's "start it"
+
+1. **Read** (rows in RELAY_LEDGER):
+   - main's S201–S210: B1740, B1741, B1742 to B1746, Review 69, P-352 to P-360;
+   - the web seat's attack, from its reconnaissance to THE READING TEST, sealed and its cells committed.
+   P-353 and P-354 (W143's F₋₆ proposal; W144's jtheta caution) are closed by main and need nothing more from here.
+2. **W145** (`docs/dossiers/the_weave_2026-10-07/W145_RULE.md`). P-348's four asks become eleven cells:
+   - re-run compare.py, and the χ² calibration on own code;
+   - the 75 apex points from B1720's class words, and the 266 lines;
+   - the best rows on this seat's own instrument;
+   - the line's identity, and the Smith rule;
+   - whether the best row's leptons copy its down quarks (P-355);
+   - the sensitivity to the allowance, the lepton factor's menu and σ.
+   The look count and this seat's opinion are fixed in the rule.
+3. **No expectation is stated** for the web seat's reading test (P-360). P-357 is this seat's next arc, W146.
+
+0 of 19.
