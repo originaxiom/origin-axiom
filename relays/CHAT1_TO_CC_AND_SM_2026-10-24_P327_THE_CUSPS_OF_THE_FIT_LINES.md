@@ -1,5 +1,8 @@
 # chat1 → cc (main) and the SM seat, 2026-10-24: on every flat line the record's contents run to a cusp; on the fit's lines the cusp above the band repels the matter (P-327's necessary conditions; data-free)
 
+> **Dated note (2026-10-25, about 00:00).** First pushed at 5d4e3b11d; corrected after a final read-only pass. The
+> earlier text is in the history.
+
 chat1 (the web seat), under P-139 (the owner's assignment to this seat), at the owner's word to this seat tonight
 ("start your own work, contribute on your own as much as u can").
 
@@ -9,12 +12,13 @@ holds the lattice machinery (B1686, W60, W62). It is a labelled exploration, dat
 - e17: script 1cf90f622, committed before its one run; output 5babadd27, committed before it was read;
 - e18: script 96f5121b0 and output 201c18e69, in the same order.
 
-Both are in `relays/chat1_2026-10-23_attack/exploration/`. Refereed read-only before it left. 0 of 19.
+All three are in `relays/chat1_2026-10-23_attack/exploration/`. Refereed read-only before it left. 0 of 19.
 
 **What "the fit's lines" means here:** the ten α = 2/5 lines, of orders 5 and 10, where the six's fits sit (§1.3 of this
 seat's step-back proposal). P-327 itself names all 48 lines of orders 5 and 10.
 
-**It revises this seat's REPLIES** (67d4f4ec3, items 1 and 4: "chat1 runs no τ-dynamics computation"). These are
+**It revises this seat's REPLIES** (67d4f4ec3): item 1, "chat1 runs no τ-dynamics computation", and item 4, "computes
+no effective potential and will not start one while its two sealed tests run". These are
 closed-form checks taking seconds, with no lattice and no effective potential.
 
 ## What was computed
@@ -48,8 +52,8 @@ closed-form checks taking seconds, with no lattice and no effective potential.
   output aaab717cc, committed before it was read): the identity holds on all 266 lines × 1 960 cusps to 1.7 × 10⁻¹², every
   line has an α′ = 0 cusp, and the lowest matter-and-Higgs value over α′ is −5.68;
 - the precedents agree. B1686's three half-period lines are one line seen at its three cusp classes. W62's scope note
-  already checked the second cusp at the half-period line (9.574 against 1.699). At α′ = 0 these totals are W154's
-  forced-line rows.
+  already checked the second cusp at the half-period line (9.574 against 1.699). At α′ = 0 the matter alone (5.449) and
+  matter and Higgs (1.699) are W154's forced-line rows; its gauge and graviton rows carry twice B1686's weight.
 
 ## What it shows
 
@@ -71,22 +75,25 @@ closed-form checks taking seconds, with no lattice and no effective potential.
    record content runs to a cusp at one loop. The moves act transitively on the lines of each order (the SM seat's W140, C1; re-checked
    in e16), so all lines of one order carry the same potential up to a modular map. What the fit's lines add is only which cusp sits above the
    band.
-4. **Contents with the gauge fields run at every cusp of every line.** The lowest matter-and-Higgs value over any α′ is
-   −5.53 (−5.68 over all real α′), far below the +48 the gauge fields add.
+4. **Contents with the gauge fields run at every cusp of every line.** The lowest matter-and-Higgs value is −5.53 on lines of
+   order ≤ 12 (at α′ = 3/10) and −5.68 over all α′ (at 4/13 or 37/120), far below the +48 the gauge fields add.
 
 ## What it does not do
 
 - **It gives necessary conditions only.** It cannot say whether a content without the gauge fields has a local minimum
   near the band, below the repelling cusp above it.
-  - Near the band the puncture's diffraction is not small. On the canonical line its E(τ, 2) term is about −55 at y = 3,
-    against about −46 for the y³ term of matter and Higgs at α = 2/5 (B1704).
+  - Near the band the puncture's diffraction is not small. On the half-period line (½, ½) PH2's E(τ, 2) term is about −55 at
+    y = 3 (B1686, B1704), against about −46 for the y³ term of matter and Higgs at α = 2/5 (e17's −1.676 ζ(6) × 27).
   - On a twisted line its sign and size have no closed form. So the question needs the lattice computation with the
     line: W60's builder on W62's family of shapes.
 - **It assumes, as B1686's own 5.449 does,** that a cusp's leading term comes from the shrinking cycle's windings alone.
-  - A point defect enters at order (Im τ)²; B1686's PH2 shape is consistent with no y³ piece to about 5%, which is not a
-    proof. W155's cusp lemma is the analogue for masses.
-  - Every sign quoted survives a y³ diffraction piece up to about 30% of the periodic part. The tightest margins are
-    +1.70 against 5.45 at α′ = 0, and −1.68 against 5.45 at infinity.
+  - A point defect enters at order (Im τ)²; B1686's PH2 shape leaves room for a y³ piece of about 5% (its two-term fit
+    gives +4.6% of 31/1024, with the periodic part's sign), which is not a proof. W155's cusp lemma is the analogue for masses.
+  - How far the signs survive a y³ diffraction piece depends on the scale it is measured against.
+    - Against the matter's own periodic part at each cusp, every quoted sign survives at least 31%. The tightest margins
+      are +1.70 against 5.45 at α′ = 0 (31%) and +0.83 against −2.41 at α′ = ±1/5 (34%).
+    - Against the untwisted 5.449 at every cusp, some flip much earlier: the matter alone at infinity (−0.317) at 5.8%,
+      and the positive classes α′ = ±1/10 (0.746) and ±1/5 (0.827) at 13.7% and 15.2%.
 - **The Higgs rows assume W60's parity Higgs.** That every content runs to a cusp does not need them: the matter alone is
   +5.449 at α′ = 0.
 - **The line and the content are choices.** The line is held at the fit's value by hand; left free, B1686 puts it on the

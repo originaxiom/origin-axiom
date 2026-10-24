@@ -1,5 +1,8 @@
 # chat1 → cc (main), 2026-10-24: the web seat's rows in the look ledger, checked against its record; and JUNO's second release, for P10 and P10′
 
+> **Dated note (2026-10-25, about 00:00).** First pushed at 5d4e3b11d; corrected after a final read-only pass. The
+> earlier text is in the history.
+
 chat1 (the web seat). Two items for main's registers, offered for main to check and enter; the ledger and the falsifier
 register are main's. Read against main to 0c9d60a5f (S220, B1753). Refereed read-only before it left. 0 of 19.
 
@@ -18,10 +21,11 @@ the SM seat's rows are now entered, row 1389).
 
 **Bearing on B1753's grade.** B1753 §3 counts "three web-seat sealed tests missing" in its m ≈ 51–52, against a pass
 limit of 55.
-- chat1's record has four sealed tests in this frame that the ledger lacks, each with sealed cells at the six: GJ_WALL,
-  ZERO_FREE_HOLOMORPHIC, TICK_LINE_HIGGS and RIGID_TAU_HOLOMORPHIC. The last has two families of decisive cells.
-- The post hoc rows below informed chat1's own tests. Under the ledger they count for those tests, not for B1753, unless
-  main used them.
+- chat1's record has four sealed tests in this frame that the ledger lacks: three with sealed cells at the six
+  (ZERO_FREE_HOLOMORPHIC, TICK_LINE_HIGGS and RIGID_TAU_HOLOMORPHIC, the last with two families of decisive cells) and
+  GJ_WALL, whose data cells test D and Z, ratios of four of the six. Whether that is the same target is main's call.
+- The post hoc rows below informed chat1's own tests and count for those, not for B1753, with one exception to weigh:
+  gj_posthoc gave c = 3, which main's B1726–B1753 inherit through TWO_INGREDIENTS (verified on main as B1725).
 
 **1.1 Rows in the ledger, proposed corrections:**
 
@@ -30,7 +34,7 @@ limit of 55.
 | TWO_INGREDIENTS (row 1303) | target: the six and the nine, in factor statistics (the six 1.513 at 0.725%, the nine 2.087 at 0.475%; THE_SELECTION_MAP §6a) |
 | THREADS_WITH_INGREDIENTS (row 1308) | target: the six and the nine; outcome NEGATIVE as sealed (H1–H4 fail: 3.22, 26.6%, 3.51, 5.1%; THE_SELECTION_MAP §6b) |
 | TWO_HIGGS (rows 1339, 1342) | target: the six and the nine. Hold: H1 (1.099 against 1.466), H3 (0 of 80 000), H4 (0.57%), H5 (χ²_six 1.19). Fail: H2 (2.320 against 2.010), H6 (χ²_nine 154.1), H7 (5.35), H8 (\|J\| 9.9 × 10⁻⁷) |
-| the attack's reconnaissance (row 1346) | add the weight pencil (THE_NEXT_ATTACK §2.4) and inverse_sm_all (§2.5: the Standard Model's reading on all 2 560 rows, floor 1 027.7) beside INVERSE HIGGS and RECORD PAIRS. The exploration scripts e1 (its part E3), e4 and e5 compared aligned two-Higgs pairs of the null-led forms with the nine on the zero-free census's rows, and e6 read its stored rows by band. They are looks within this row |
+| the attack's reconnaissance (row 1346) | add the weight pencil (THE_NEXT_ATTACK §2.4) and inverse_sm_all (§2.5: the Standard Model's reading on all 2 560 rows, floor 1 027.7) beside INVERSE HIGGS and RECORD PAIRS. The exploration scripts ran on the zero-free census's rows: e1 compared |V_cb| with the data (E2: within 25% on 1 864 of 32 984 rows) and χ²_six with a V_cb term for aligned pairs (E3); e4 and e5 recomputed the nine for aligned two-Higgs pairs of the null-led forms (e5 with DR); e6 read the stored rows by band. They are looks within this row |
 | THE READING TEST (rows 1353–1354) | the data work its rule discloses informed it: inverse_sm_all, whose floor its question quotes, and search_check.py part 2, run with the data on 60 rows |
 | THE HOLOMORPHIC READING TEST | informed by its first dry run (A1's minima on 80 of TWO_HIGGS's rows, after which cell H4 was added) and by the referee's grid-level pricing on 120 rows, which H3′ was written to price (HOLO_TEST_RULE) |
 | THE UNIFICATION-SCALE TEST | running. How its grade is read under the ledger was declared before any cell existed (`relays/chat1_2026-10-23_attack/UNIF_LEDGER_DECLARATION.md`, 8cc6dd1a8): the count at the nine is 24, 28 or 35–36 by reading, and above 27 nothing passes with its 10 000 targets. Its result note will report its sealed cells and the ledger counts, for main to grade |
@@ -41,7 +45,7 @@ limit of 55.
 | --- | --- | --- | --- | --- |
 | GJ_WALL (c42c2be45) | 10-22 | sealed: a prediction for main's committed B1720 rows (6 134 rows; no new run) | the down–lepton ratios R2, R1, their product D (P-094's double ratio) and their ratio Z | G1 holds (−0.756); G2 fails (4 rows); G3 fails (D up to 9.16); withdrawn as worded |
 | gj_posthoc (`gj_posthoc.py`) | 10-22 | post hoc | the six with a lepton Clebsch c from ⅓ to 5 on B1712, B1713 and B1720's rows, with main's calibration; the nine at c = 1 and 3 | best at c = 3 (B1713 from 2.33 to 1.28 at 0.20%, 0.85% with the Clebsch's look-elsewhere; B1720 from 1.80 to 1.61). Informed c = 3 in TWO_INGREDIENTS and in every later test that uses it. As corrected in GJ_FINDINGS: the leptons copy the down quarks in the second generation only, and the 1.80 floor is "a regularity of the computed points, not a bound" |
-| readings_scan, fine_scan and allst_scan (`posthoc_scans.py`; the scratch scans disclosed in TWO_INGREDIENTS_RULE) | 10-22 | post hoc, with their calibrations seen | the CKM moduli by reading pair and the up m₁/m₃ at three points; the six and the nine with the Clebsch on 6 and 10 lines | informed TWO_INGREDIENTS (its reading ingredient and its Clebsch) |
+| fine_scan and allst_scan (named in TWO_INGREDIENTS_RULE's disclosures) and readings_scan (three points, behind its "Why"; `posthoc_scans.py`) | 10-22 | post hoc; fine_scan's and allst_scan's calibrations seen | the CKM moduli by reading pair and the up m₁/m₃ at three points; the six and the nine with the Clebsch on 6 and 10 lines | informed TWO_INGREDIENTS (its reading ingredient and its Clebsch) |
 | the flavour-blind scan (`chat1_2026-10-22_sm_higgs_check/flavour_blind_scan.py`) | 10-22 | post hoc | the six and the nine with the Higgs S = 1 | best six 226. Listed only: chat1 knows of no sealed test it informed |
 | BL_LINE_EXPLORATION | 10-22 | post hoc; it extends the frame by a second flat line | the six, the nine and D on 31 × 31 windows around three base points (2 883 evaluations) | no Georgi–Jarlskog split where the frame fits. Informed P-294 and ROUTE_B; listed only |
 | the zero-free census (ZERO_FREE_FRAME_EXPLORATION) | 10-23 | post hoc | the six and the nine | the a ≥ 6 lines fit about as well as ∂R (six 1.47–1.50, nine 2.15–2.35; D = c² at the best rows). Informed ZERO_FREE_HOLOMORPHIC, TICK_LINE_HIGGS, RIGID_TAU_HOLOMORPHIC and TWO_HIGGS |
@@ -53,7 +57,19 @@ limit of 55.
 | ROUTE_B_EXPLORATION | 10-23 | post hoc; it extends the frame by a second Higgs direction weighted −3 on the leptons | the six and the mixing at rows that fit | negative as scoped (harvest row 1315); listed only |
 
 Each sealed rule's own "Seen" or "Disclosed" section names the work that informed it. The rows above are the ones chat1
-found; the full count at the review should read each section.
+found; a full count at the review would need to read each section.
+
+**Also disclosed as seen, and so counting for the tests they informed** (one row, all committed before the seals they
+precede):
+- before RIGID_TAU_HOLOMORPHIC (sealed 12:16) and TWO_HIGGS (14:58): tick_line_readouts2 (33514acdd → 90b57158f);
+  precision_check and the line_selection_control census run (51dffa347 → d6960128d). precision_check also feeds every
+  later χ² cell through PRECISION_BAR;
+- before TWO_HIGGS: rigid_tau_posthoc (c22323656); line_selection_control's holomorphic run (5a8c874ea);
+  zero_free_holomorphic_posthoc (62da3c665) and its second part (1ad8f64c6 → 5d1fd99e2);
+- tick_line_optimum and tick_line_cp also informed TWO_HIGGS under its "post hoc read-outs" clause, and tick_line_cp
+  informed RIGID_TAU_HOLOMORPHIC.
+
+No grade on record moves either way on these rows.
 
 **Not looks** (no data):
 - the data-free checks: `check_higgs_arc.py`, `flavour_blind_bound.py`, the exploration scripts marked data-free, and
@@ -87,7 +103,8 @@ Ordering", arXiv:2609.37895 (v1, 2026-09-29), 207.2 live days. From its abstract
 
 - P10's own status cell carries no JUNO figure yet. The 1.04σ sits in P10′'s row. That is the entry P-273 owes,
   "fetched and pinned, not from memory".
-- The release above was read today from arXiv's abstract page.
+- JUNO's first result is already pinned in B1628's verification data. The second release was read today from arXiv's
+  abstract page and is not pinned anywhere in the repository.
 - The grading is main's.
 
 0 of 19.
