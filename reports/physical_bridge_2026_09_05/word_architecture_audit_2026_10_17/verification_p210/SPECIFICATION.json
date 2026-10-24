@@ -1,0 +1,232 @@
+{
+  "schema": 1,
+  "experiment_id": "p210-symmetric-response-and-exterior-threshold-v1",
+  "authors": [
+    "physical-bridge-seat"
+  ],
+  "design": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/DESIGN.md",
+    "sha256": "6cbfcf7a2885ec49b80d9fc45f273ecaeb4fa45ba43c1778490a3c2f58839374"
+  },
+  "artifacts": [
+    {
+      "path": "scripts/gates/prospective.py",
+      "sha256": "f1f446846d07cbdb649eb04cc0971ad6f5fc1bc89a85493203b3f2ede0c52065",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/gates.py",
+      "sha256": "3d4e6ab844a462cdb9ab10d79d4cabefa77154969cc33d4c143ca4b9367f9176",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/provenance_policy.py",
+      "sha256": "19b0fa2382a31fb6a0d943f6df11b0b7dc482494a90e94013c2e2947a65f53c2",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/check_path_references.py",
+      "sha256": "4c04dda43e898e0f58ff46aa711de5035f7bc394583989f1ac71ffd027665b01",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/check_test_vacuity.py",
+      "sha256": "cacea50360bcf3a17bb65a6af85e24cba9e62ac7cd82bfdf6b72675c35dda867",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/retraction_sweep.py",
+      "sha256": "4d1ecc5e57a0ed56c428b2b5f4b8e107755ce3a511f2924dae26b73840ee37f4",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/relay_debt.py",
+      "sha256": "620b4ce71ff2c9227f1d8eafd5cf63e41bd4d30edaba8c4840ee432fedafe2ab",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/doc_currency.py",
+      "sha256": "89c0d8d5e401b622cffc5a8a85dcb082c59e89bef4bdfacb1529c025ac6dfed4",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/representation_sweep.py",
+      "sha256": "0c9b5daadbac3a3f6e7edb9b8cf55bb47d65cc9baa2153c84293bb091e3d4e37",
+      "role": "source"
+    },
+    {
+      "path": "scripts/views/generate.py",
+      "sha256": "e8f5594c877ff3df10c27b5637a931904bed85fec21b62300b11b2d2f4dcf0af",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/tracked_state.py",
+      "sha256": "22ac6ab65ed48fa5e1aeb92f74a9c7215ae4bf61825749a1ce66ce81854cc7f1",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/prospective_strict.py",
+      "sha256": "82985893d0db217514f7acfa5e676089e14eed30c6d98b0e6f22770fc4533f26",
+      "role": "source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py",
+      "sha256": "1cc1c9e299be3f85df41d066b2673c2c62b33e83ad978603f769cf04fd8adbf0",
+      "role": "source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/run_checks.py",
+      "sha256": "04682dc98cb80d9c123a942e0ace77105b281daa436c0e2b3ca9a713c0f484e9",
+      "role": "source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/checks.py",
+      "sha256": "70d441f672228f6bbf9bb22e869a3575e6082d3002c7be044ad1c15c642b5a58",
+      "role": "test"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SYMMETRIC_STATE_GREEN_RESPONSE_AND_GRADING.md",
+      "sha256": "1ec843f5fd186ea94528ce6d12de0a7989daefca1eff7e6f91c70b611ff8affe",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/P210_EXTERIOR_GAP_AND_THRESHOLD_DUTY.md",
+      "sha256": "b8ed860c60d320ff85d1e312a4f80242835f033334b043ab1be3e2afd75a10f3",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COVARIANT_END_DOMAIN_SCOPE.md",
+      "sha256": "2c397e8d061b36d8818b35e4dd156de27b6b33adcf317f982a5ab4734ef895d5",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_COUPLING_TRANSPORT.md",
+      "sha256": "54c7c58701d656ae09351de21e9de0cc8db9dd90f03e4a73102dde1a5c8112f5",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_PRINCIPAL_PARTS_AND_GREEN_TRANSPORT.md",
+      "sha256": "577b00a1c6b8ff40a23d0b7f469790117740c713e058b6ddbd7610940c1571a7",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXTERIOR_RESPONSE_AND_JOINING.md",
+      "sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/PROOF.md",
+      "sha256": "0102fc971479acc9d57a05c6234dcbf4ada7007269d96bc4931719bebabf929f",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/probe.py",
+      "sha256": "3474603ed114ef24c26909abeacc97f1fafddc179705e83536acca8cfc8c1a6f",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/PROOF.md",
+      "sha256": "21739f08bbe2ed0b95fe4232b48cb2bba484a57779e9021cad06f8f62f8fc4bf",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/PROOF.md",
+      "sha256": "3ac161b2e4418b8826de0926ef853262d2f98ef57a1743a663d0b488f7d153c0",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/ENVIRONMENT.json",
+      "sha256": "1c538e3327da56d8fc6db00a25f79e9cabbbf3b1dee23b63e65d5d7e51b91dfb",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/ENGINEERING_DESIGN.md",
+      "sha256": "e68c69ea535b374dbb04b731d3b0fbcb60a5771e8db15dd0b8e503776482f377",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/SOURCE_REVIEW_MANIFEST.json",
+      "sha256": "6527684c1999398e25e98f59584f03f7e417ad0a4a7f728f8941b8f3052dbf4d",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering_checks.py",
+      "sha256": "4002fc024eabcd762ba7144e82299a1dd44aaa7ebe7f88b239a0abd646af13e6",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/DELEGATION_COUNTER_STRENGTHENING.md",
+      "sha256": "74566ae1c0b55148d703937f8668d772a8d9d04c6cf0d1c5ad23a55c5ae8ac38",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/ENVIRONMENT_DISCOVERY.md",
+      "sha256": "0147ad4f908b7a6cb595cc486fa6a8a4767037f96401cf00595c279c110c0be0",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/FIRST_FAILURE_NORMALIZED.txt",
+      "sha256": "6752cecb08547f7d8e4b387aefbe45bbfc01720e5c033bef58afd469fb4a1825",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/FOURTH_RUN_RESEARCH_RUNTIME.txt",
+      "sha256": "fea8942885171159bc911d9cac3518a42a7315e9d414d35d04bd3a413085063b",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/PATH_EXPECTATION_REPAIR.md",
+      "sha256": "49d9add6dc17bc65cb095a211972a6903d3dcfba03b4240a569e0720b985b9c4",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/SECOND_RUN.txt",
+      "sha256": "20602201900cdd099fa70231feccf9bb0647ffe889709b08b3daa9dfa32754f3",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/THIRD_RUN.txt",
+      "sha256": "17d175b5d96fedb168b819e05e0f3dc7920600b02f8d7c626ddc84b24ed501be",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/EXECUTION_REVIEW_DUTIES.md",
+      "sha256": "d4d7737b0ba5cd8613d1485d4211f871d7e8c67d20a10329301389755e2ee3e7",
+      "role": "input"
+    }
+  ],
+  "commands": [
+    {
+      "entrypoint": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/run_checks.py",
+      "argv": [
+        "python3",
+        "-B",
+        "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/run_checks.py",
+        "--admission",
+        "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/ADMISSION.json",
+        "--output",
+        "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/results/attempt_01.jsonl",
+        "--log",
+        "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/results/attempt_01.log"
+      ]
+    }
+  ],
+  "outputs": [
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/results/attempt_01.jsonl",
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/results/attempt_01.log"
+  ],
+  "environment": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/ENVIRONMENT.json",
+    "sha256": "1c538e3327da56d8fc6db00a25f79e9cabbbf3b1dee23b63e65d5d7e51b91dfb"
+  }
+}

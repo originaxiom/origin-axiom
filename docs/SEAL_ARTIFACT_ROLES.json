@@ -128,6 +128,17 @@
         "sha256": "06b829f6d0ed02f0d81186e48111c18ddf983914ae97aea2974ddca26deda000",
         "collection": "frozen_paths"
       }
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/SPECIFICATION.json",
+      "sha256": "f33348144c91711b0bcc3a05cf62974aac28a468eb57181f1ea6dfc93077f948",
+      "role": "data",
+      "reason": "Personally inspected exact source, command, output and runtime metadata for the P210 verification proposal. The actual narrative design remains separately sealed; this author classification grants no independent review or execution permission.",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/SEAL_ROLE_EVIDENCE.json",
+        "sha256": "0015c1d7ffcd100c490943f05f45eb15079bed29b6031996ba4a4667cd60cc53",
+        "collection": "frozen_paths"
+      }
     }
   ]
 }

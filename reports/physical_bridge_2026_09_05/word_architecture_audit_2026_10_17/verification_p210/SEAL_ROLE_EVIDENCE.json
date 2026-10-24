@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "status": "Author classification record, not independent review or execution admission",
+  "classification": "SPECIFICATION.json binds source/command/runtime metadata. The narrative DESIGN.md remains separately sealed; analytical derivation precedes verification, and no retrospective discovery preregistration or approval is asserted.",
+  "frozen_paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/SPECIFICATION.json",
+      "sha256": "f33348144c91711b0bcc3a05cf62974aac28a468eb57181f1ea6dfc93077f948"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/DESIGN.md",
+      "sha256": "6cbfcf7a2885ec49b80d9fc45f273ecaeb4fa45ba43c1778490a3c2f58839374"
+    }
+  ]
+}

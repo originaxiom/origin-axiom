@@ -2,7 +2,7 @@
 
 October 24, 2026. UNRUN. The design was sealed and committed at
 `03eba26c3` before the new checks.py implementation. This is an
-author's review package, not a source-complete executable admission.
+author's review package, not an executable admission.
 
 Static Python syntax inspection found ten test methods without importing
 SymPy, importing checks.py, collecting tests or evaluating scientific
@@ -63,3 +63,18 @@ science review boundary, not a false complete runtime inventory. Add
 the wrapper, engineering sources, environment and frozen gate closure
 to an independently reviewed prospective specification before use.
 Hash presence or a synthetic pass does not supply that substantive review.
+
+## Proposed execution specification sealed for review
+
+The October 24 successor SPECIFICATION.json now binds 39 artifacts,
+the separately sealed narrative design, exact command, runtime and
+fresh attempt_01 output paths. EXECUTION_REVIEW_DUTIES.md distinguishes
+the pinned executable dependency closure from the gate's live repository
+policy context. The original fourteen-file inventory is preserved.
+This is the author's completeness proposal, not an independent verdict.
+SEAL_ROLE_EVIDENCE.json records only the metadata role; it grants no
+review approval and does not reclassify the narrative design as data.
+
+There is no ADMISSION.json or science output in this package. Review,
+main acceptance, clean execution checkout and strict gate passage remain
+required. All ten mathematical methods remain unrun and unimported.
