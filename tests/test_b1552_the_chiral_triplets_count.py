@@ -4729,3 +4729,19 @@ def test_the_effective_action_ledger():
     qq = np.exp(2j * np.pi * t)
     eta = np.exp(2j * np.pi * t / 24) * np.prod([1 - qq ** n for n in range(1, 200)])
     assert abs(abs(t2 * t3 * t4) ** 2 / abs(eta) ** 6 - 4) < 1e-10
+
+
+def test_the_observers_closings_reading():
+    """The observer's closings under the weave (a READING): the page is labelled, carries the owner's ruling, sorts
+    every closing GENESIS gives the observer, and is pointed to from NOTE and the relay"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    page = (here / "THE_OBSERVERS_CLOSINGS_UNDER_THE_WEAVE_2026-10-24.md").read_text(encoding="utf-8")
+    assert "**A READING: nothing here is computed, and it adds no claim.**" in page
+    assert "I accept your recommendations that you just laid out." in page and page.rstrip().endswith("0 of 19.")
+    for closing in ("| the arrow | time |", "| the chirality, \"a Galois sheet\" | charge |",
+                    "| the basepoint and the scale | value |", "| the filling slope | space |"):
+        assert closing in page
+    assert "**So, as a source of anything in the derivation, the observer has no role left.**" in page
+    assert "## Reading: the observer's closings under the weave" in (here / "NOTE.md").read_text(encoding="utf-8")
+    relay = (ROOT / "SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md").read_text(encoding="utf-8")
+    assert "## 265. Added 2026-10-24 (UTC)" in relay

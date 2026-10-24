@@ -7726,6 +7726,28 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## Reading: the observer's closings under the weave (2026-10-24; the owner's "I accept your recommendations that you just laid out.")
+
+**A READING: nothing is computed and it adds no claim.** The page is
+`docs/dossiers/the_weave_2026-10-07/THE_OBSERVERS_CLOSINGS_UNDER_THE_WEAVE_2026-10-24.md`. The owner asked whether the
+observer's role still holds now that the frame is the weave, not m004. GENESIS §7 gives the observer every closing of
+the object's four incompletenesses: a filling slope, an arrow, a chirality and a basepoint (B717). The page re-sorts
+each closing under the weave, by one test: a choice is a convention when the joint action's symmetry carries every
+option to every other.
+- **Forced:** the arrow (B1083, re-homed by B1662); that the index on 𝕎 is chiral, odd and never 0 (W22, W24, W28).
+  Reading the index as gauge chirality is GENESIS FK11's step.
+- **Conventions:** which sheet is left (the weave is closed under the mirror, W26; the self-sign is the hand, W34); one
+  unit; the McKay naming (B1610); a point in an orbit of minima (the rule adopted today).
+- **Open information:** the ratios of scales; the filling, which is the end condition (GENESIS FK10; not forced, W47);
+  the trit, until its three options are checked to be one orbit.
+- **So no closing needs an agent, and the observer has no role left as a source in the derivation.** The word keeps
+  FK12's question of experience, apart from the mathematics, and W57's labelled observer-selection control.
+- **Proposed to main (relay §265; the owner rules):** re-type GENESIS §7's sentence and its "The gaps and the observer",
+  drop "the observer's closings" from FK12 as a category, mark THEOREM_LEDGER C18 superseded on the weave, and recount
+  THE_CLAIM's typed data.
+
+0 of 19.
+
 ## Reading: the effective action's ledger (2026-10-24; the owner's "yes please lets do it")
 
 **A READING: nothing is computed and it adds no claim.** The page is
@@ -12844,6 +12866,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| Observer | READING (nothing computed; every row sourced) | the observer's closings under the weave: the arrow forced; the index chiral (odd, never 0), its sheet a convention; one unit a convention, the ratios of scales free; the McKay naming and a point in an orbit conventions; the filling (the end condition, FK10) open and not forced; the trit open until its orbit is checked; no closing needs an agent; GENESIS §7, FK12, C18 and THE_CLAIM's count proposed to main for re-typing (relay §265) |
 | Ledger | READING (nothing computed; four sweeps, every load-bearing line checked) | the effective action's ledger: the joint action forces the variables' space, Γ₄ and ρ′, the zero modes, the couplings' kind and E₈'s branching given the prime 5; not the loop's content (FK11, unearned), the weight and C(w) constants, the ratios of scales, Λ or the charges; three quartic invariants for h, so no unique truncation; the joint (τ, h) effective action cannot yet be computed without free inputs; step 2 recommended: a census over contents |
 | W152 | COMPUTED (the rule first; one run; every cell as predicted); K2 and K3 weave-type | the Higgs as a qubit state: R = η⁻³ Sym²(Θ₂(2τ), Θ₃(2τ)) to 10⁻⁵⁰; T and S act as the phase gate and a Hadamard-type gate, W28's lifts up to e^{iπZ/4}; the 26 special lines are the squares of the 6 stabilizer, 8 F-type and 12 H-type states; I = 2r/(1 + r²) for every direction; every single section tends to a pure stabilizer state or the maximally mixed one; the target (read-out) r ≈ 0.009, 22–27° from the stabilizer state, about halfway to an H-type magic state |
 | W151 | COMPUTED (the rule first; one run; four cells as predicted, Q4 failed as worded on its direct-evaluation clause, diagnosed and checked post hoc); the lemma weave-type | the two-object route: for any two holomorphic or antiholomorphic sections of ρ ⊗ χ and constant κ, 0 < D < ¼ implies E ≥ min(2D, ¼) (a cusp-class theorem); on the catalogue's 24 objects: 20 exact zeros, 20 pairs at (D, E) = (1/12, 1/6), 15 at E = 0 with D ≥ ¼, none in the target's box, 22 triples in it at (1/12, 0); 16 pairs reach their class only beyond Im τ 9–14 (post hoc), so the band (Im τ 2–3.6) is not settled; across L₂ the target's ε + δ²/2 is nine times steadier than δ²/2 |

@@ -1,5 +1,16 @@
 # Changelog
 
+## The observer's closings under the weave (a READING; relay §265)
+
+- **At the owner's question and ruling** ("I accept your recommendations that you just laid out."): does the observer
+  still have a role, now that the frame is the weave and not m004?
+- **The closings GENESIS §7 gives the observer, re-sorted** by one test, a convention being a choice the joint action's
+  symmetry carries to every alternative. The arrow is forced; the index is chiral (odd, never 0) and its sheet a
+  convention; one unit is a convention and the ratios of scales are free; the filling, the end condition, is open
+  (GENESIS FK10) and not forced. No closing needs an agent.
+- **Proposed to main:** re-type GENESIS §7 and FK12, mark THEOREM_LEDGER C18 superseded, recount THE_CLAIM's data.
+- **Surfaces.** The page, NOTE (reading and row), a lock test, the relay, the ledger row, the state page. 0 of 19.
+
 ## The effective action's ledger (a READING; relay §264)
 
 - **At the owner's word, before any computation:** what the joint action forces for a joint (τ, w, h) one-loop

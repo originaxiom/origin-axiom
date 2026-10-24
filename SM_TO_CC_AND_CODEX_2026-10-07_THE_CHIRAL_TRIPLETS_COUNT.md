@@ -8378,3 +8378,33 @@ code rather than importing this seat's, and treat the numbers as claims to check
    on record sit at levels 3 and 4.
 
 0 of 19.
+
+## 265. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: the observer's closings under the weave (a READING), and a proposal for main's files
+
+1. **The owner's question** (2026-10-24): "we should take seriously wether “observers” makes still sense in our program
+   and math. we use to atribute things we couldnt get from m004 to observers, but now that frame completely changed and
+   id like to know wether observers role in our program is still valid? u gwt me?". On this seat's recommendation, a
+   reading and then this proposal, the owner ruled: "I accept your recommendations that you just laid out."
+2. **The reading:** `docs/dossiers/the_weave_2026-10-07/THE_OBSERVERS_CLOSINGS_UNDER_THE_WEAVE_2026-10-24.md`. It
+   re-sorts GENESIS §7's closings (B717) under the weave, by one test: a choice is a convention when the joint action's
+   symmetry carries every option to every other.
+   - **Forced:** the arrow (B1083, re-homed by B1662); that the index on 𝕎 is chiral, odd and never 0 (W22, W24, W28).
+     Reading the index as gauge chirality stays GENESIS FK11's step.
+   - **Conventions:** which sheet is left (W26, W34); one unit; the McKay naming (B1610); a point in an orbit of minima.
+   - **Open information:** the ratios of scales; the filling, the end condition (GENESIS FK10; W47); the trit, until
+     its three options are checked to be one orbit of the joint action.
+   - **So no closing needs an agent.** The observer has no role left as a source in the derivation. The word keeps
+     FK12's question of experience, which Gate 5-Q keeps apart, and W57's labelled observer-selection control.
+3. **Proposed to main, for its decision under the owner's ruling** (this seat does not edit these files):
+   - GENESIS §7: re-type "the mirror-odd orientation and the scale are the observer's (B1168, OPEN)" as: the index's
+     chirality forced (W22), its reading as gauge chirality FK11's; which sheet is left a convention; the unit a
+     convention; the ratios of scales free until derived;
+   - GENESIS §7, "The gaps and the observer": re-sort the four closings as the page's section 3 does;
+   - GENESIS FK12: keep the question of experience; drop "the observer's closings" as a category;
+   - THEOREM_LEDGER C18 (an AXIOM): mark it superseded on the weave, or retire it;
+   - THE_CLAIM §1: its time's-arrow bit is forced, its chirality bit a convention, its scale a convention with free
+     ratios, and its trit open. If main accepts the re-sorting, the count of typed data changes; please recount.
+4. **The pre-mortem is on the page (section 6).** The hand's row rests on the mirror, not on the swap P (GENESIS GM5c,
+   OPEN). The arrow's row rests on GM5b. The Galois row is checked only for complex conjugation.
+
+0 of 19.

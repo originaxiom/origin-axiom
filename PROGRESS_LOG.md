@@ -20797,3 +20797,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   not simply chosen: the record builds it from the system's own moves, once the prime 5 is given. Whether the prime 5
   is itself forced is the open question.
   0 of 19.
+
+## 2026-10-24 — is there still a role for "the observer"?
+
+- **The question.** The record used to hand to "the observer" whatever the single object could not supply: the
+  direction of time, left against right, the unit of size, and how space closes up.
+- **The answer, now that the whole weave is the frame.** Each of these is now one of three things. It is fixed by the
+  system (the direction of time, and that the world is chiral at all). Or it is a pure naming that carries no
+  information (which hand is called left, which unit is used). Or it is a real open number, still to be derived (the
+  ratios between scales, and how space closes up).
+- **So nothing is left for an observer to supply.** The word stays only for the philosophical question of experience,
+  outside the mathematics. A proposal to retire it from the main record went to the main seat.
+  0 of 19.
