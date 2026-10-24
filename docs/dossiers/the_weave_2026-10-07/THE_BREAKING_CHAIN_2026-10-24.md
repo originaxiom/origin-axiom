@@ -368,6 +368,9 @@ text, and corrected one (9a).
 2. **W150, the frame's heavy states as τ's holder, data-free.** Do the 27's exotics have masses that are T-charged
    Γ₄ forms? If they do, compute their one-loop potential in Im τ (Higaki, Kawamura and Kobayashi's mechanism,
    section 9a) and where it holds τ. This is the one route the literature offers to a finite Im τ set by integers.
+   - **Done, 2026-10-24 (W150; five cells as predicted, one failed as worded).** The mechanism holds the curve
+     m_Q(τ) = μ, with Re τ exactly flat along it. Its height is set by the free ratio μ/M̃, not by integers alone. At
+     μ = M̃ the frame's 1′ form of weight 10 puts it at Im τ 2.66, inside the fits' band.
 3. **W151, W51's point ½ + 2.224i, data-free.** The frame's residual group there, and the masses a Γ₄ coupling gives.
 4. **W106, the democratic dynamics.** Proposed in the ladder reading and never started.
 5. **P-327,** B1704's potential on the fits' lines: main's queue (Q3), offered.

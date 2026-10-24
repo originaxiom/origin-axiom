@@ -4570,3 +4570,20 @@ def test_w149_the_cone_and_the_defect():
     lam, c = sp.Rational(1, 5), sp.Rational(-1, 5)
     vals = {"6": c / 2, "8": c / 3, "100": lam + c, "111": lam + c / 3}
     assert min(vals, key=vals.get) == "6"
+
+
+def test_w150_the_heavy_state_holder():
+    """W150, the heavy-state holder: five cells as recorded and H6 failed as worded on its flagged phrase; in process,
+    the weight-10 cusp-side root of the leading term x^10 e^{-pi x} = 1 and the weight-12 factor across the band"""
+    import mpmath as mp
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_heavy_state_holder.json").read_text(encoding="utf-8"))
+    assert [k for k, v in d["cells"].items() if not v] == ["H6"]
+    assert d["H6"]["parts"] == {"bounds within 1%": True, "windows within 1%": True,
+                                "exact within 1% of leading": True, "factor in [6, 10] at each weight": False}
+    assert abs(float(d["R"]["weight-10 Im tau0"]) - 2.6606) < 1e-3
+    with mp.workdps(30):
+        x0 = mp.findroot(lambda x: 10 * mp.log(x) - mp.pi * x, 5.3)
+        assert abs(x0 / 2 - mp.mpf("2.6606")) < 1e-3
+        f12 = mp.sqrt(4 ** 12 * mp.e ** (-4 * mp.pi)) / mp.sqrt(mp.mpf("7.2") ** 12 * mp.e ** (-mp.mpf("7.2") * mp.pi))
+        assert 4.4 < f12 < 4.6

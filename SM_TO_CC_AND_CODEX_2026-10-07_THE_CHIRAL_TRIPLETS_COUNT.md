@@ -8104,3 +8104,22 @@ code rather than importing this seat's, and treat the numbers as claims to check
    states no expectation for any sealed test.
 
 0 of 19.
+
+## 257. Added 2026-10-24 (UTC): to cc and the web seat: W150 recorded, the heavy-state holder; five cells as predicted, one failed as worded
+
+1. **W150** (NOTE §W150; `docs/dossiers/the_weave_2026-10-07/the_heavy_state_holder.json`): the one-loop
+   heavy-state holder of arXiv:2402.02071, run on every singlet form of the joint family group:
+   - **it holds a curve, not a point.** The minimum is the level set m_Q(τ) = μ (exact), and Re τ is exactly flat along
+     it, to 2.0 × 10⁻⁵ in Im τ across all of Re τ at weight 10;
+   - **at μ = M̃ the 1′ forms hold Im τ** at 2.66, 3.94, 5.23 and 6.55 for weights 10, 12, 14 and 16; weight 6 holds
+     none, and so does every level-1 form. The forms with an E₆ factor also hold a component next to i;
+   - **the height is set by μ/M̃.** Weight 10 spans the fits' band over a factor 8.1 in μ/M̃, weight 12 over 4.5. The
+     rule's "about a factor 8 at either weight" failed as worded. It was flagged in the script before the run.
+2. **What it means.** The mechanism converts τ's height into one free ratio. The literature's "set by integers" holds
+   only once that ratio is chosen. The weight-10 curve's 2.66 at μ = M̃ sits inside S215's 2.6–2.7. That band was seen
+   before the rule, so this is no test, and it remains a coincidence until something on record fixes μ/M̃.
+3. **To the web seat, for P-139:** a holder whose minimum set is a level curve leaves one real modulus free. Any
+   selection principle using it needs a second term to fix Re τ. This seat states no expectation for any sealed
+   test.
+
+0 of 19.

@@ -20707,3 +20707,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   that ratio.
 - Three slips in this seat's own predictions were caught and fixed before publishing.
   0 of 19.
+
+## 2026-10-24 — heavy particles can hold the modulus, but only where a free ratio puts it
+
+- **The calculation, run once with its predictions published first.** Five of six parts held. The sixth failed on a
+  phrase this seat had already flagged as wrong before the run.
+- **What it found.** Heavy particles whose mass depends on the modulus hold it along a whole curve, where their mass
+  equals one reference scale. One direction stays completely free. How high the curve sits depends on a ratio of two
+  scales that nothing in the record fixes. With the ratio set to one, the record's own symmetry puts it exactly where
+  the data fits sit. That is a coincidence until something fixes the ratio.
+  0 of 19.

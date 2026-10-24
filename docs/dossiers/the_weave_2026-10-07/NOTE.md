@@ -7726,6 +7726,56 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W150. The frame's heavy states as τ's holder (the breaking chain's second computation; the owner's "yes i agree thank you, do them"): Higaki, Kawamura and Kobayashi's one-loop mechanism, run on every singlet form of the joint family group, holds τ only on the curve where the heavy mass meets the renormalization scale. Re τ stays exactly flat along it, and its height is set by the free ratio μ/M̃. At μ = M̃ the 1′ form of weight 10 puts it at Im τ 2.66, inside the fits' band. Five cells as predicted; H6 failed as worded on a phrase flagged before the run (`the_heavy_state_holder.py`; `W150_RULE.md`)
+
+**Why.** The breaking chain (sections 9a and 11) named this mechanism (arXiv:2402.02071) as the one finite-Im τ
+holder in the literature that the record never tried. The rule (`W150_RULE.md`, 8b034dc09) was committed and pushed before the
+script (baeea668b). The output was committed unread (d60bf5359).
+- **Before the commit:** the script's E₄, E₆ and η were checked in scratch against E₄(i) = 3Γ(¼)⁸/(2π)⁶,
+  E₆(i) = 0 and η(i)²⁴. A stop condition in the Eisenstein sums was fixed then.
+- **H6's phrase** "about a factor 8 in μ/M̃ at either weight" was flagged in the script's docstring before the run.
+  It does not follow from the rule's own weight-12 window.
+
+**The result (COMPUTED; one run; H1–H5 as predicted, H6 failed as worded).**
+- **H1 (exact, sympy).** dV = log(m_Q²/μ²) dm_Q², and f(u) = u(log(u/μ²) − 1) ≥ −μ², with equality exactly at
+  u = μ². So the minimum set is the level set {m_Q(τ) = μ}.
+- **H2.** The paper's roots are 3.896, 7.890, 11.77 and 15.82, which round to its printed 3.9, 7.9, 12 and 16. They
+  agree with Lambert's W₋₁ to 3 × 10⁻²⁵.
+- **H3.** The slope of ln|Y(iy)| over y = 3 to 6 is −π for every 1′ form to 10⁻⁶, below 2 × 10⁻⁶ for the level-1
+  forms, and −2π for Δ.
+- **H4 (μ = M̃, the exact forms along τ = iy).** Every crossing of m_Q = μ is a local minimum of V.
+  - **On the cusp side:** Im τ₀ = 2.6606, 3.9450, 5.2313 and 6.5518 for the 1′ forms of weights 10, 12, 14 and 16.
+    There is none at weight 6 (η¹²), and none for any level-1 form.
+  - **Next to i:** η¹²E₆ at 1.0573, η¹²E₄E₆ at 1.0096, E₆ and E₆² both at 1.0189, and E₄E₆ at 1.0032. These are
+    exactly the forms with a factor E₆. No other form crosses in [1, 1.3].
+- **H5.** Along the weight-10 curve at 21 values of Re τ from −½ to ½, Im τ varies by at most 2.0 × 10⁻⁵
+  (2.66057 to 2.66059). V is exactly its minimum there.
+- **H6 (failed as worded).**
+  - What held: the existence bounds 2.2018 and 7.6988; the band's windows in μ/M̃, [0.2371, 1.912] at weight 10 and
+    [1.707, 7.649] at weight 12, with the exact forms within 1% of the leading term.
+  - What failed: the factor across the band is 8.07 at weight 10 but 4.48 at weight 12, so "about a factor 8 at
+    either weight" fails. A by-hand slip in the rule, flagged before the run.
+- **Read-outs (no test).** The weight-10 curve's Im τ₀ = 2.6606 sits in main's S215 band, 2.6 to 2.7, which was seen
+  before the rule. The curvature across the curve is (d ln u/dy)² = 6.37 in units of m₀²M̃²/16π².
+
+**What it shows (a READING).**
+- **The mechanism holds a curve, not a point.** With one heavy pair V depends on τ only through the heavy mass, so its
+  minimum is the whole curve m_Q(τ) = μ. Re τ is exactly flat along it, at every order, not only at leading order.
+  That flat direction is the axion the paper wants. For the record it is a modulus that stays free.
+- **Its height is a free ratio, not an integer.** The frame's T-charged singlets (the 1′ forms, weights 10 and up)
+  can put the curve in the fits' band, but where it falls is set by log(μ/M̃). Weight 10 spans the band over a factor
+  of 8 in μ/M̃, weight 12 over 4.5. The literature's "set by integers" holds only once μ/M̃ is chosen: the paper sets
+  μ = M̃, and its figure sets M_Q = 10⁴ μ.
+- **The symmetric point appears again.** The forms that vanish at i hold a second component of the curve next to i,
+  as the breaking chain's section 2 expects.
+- **2.66 at μ = M̃ is a coincidence until something fixes μ/M̃.** Nothing on record does. It would take a principle
+  relating the heavy state's scale to the renormalization point, for instance the forced scale of W119.
+- **So the heavy-state holder converts τ's height into one free number.** Forced to choose, not forced which, now
+  with a dynamical reason.
+
+**Status.** COMPUTED (the rule first; one run; five cells as predicted, H6 failed as worded on a flagged phrase). A
+census of one chosen mechanism over every singlet form of the frame: not a weave result. 0 of 19.
+
 ## W149. The cone and the defect (the breaking chain's first computation, at the owner's "lets address all these"): M's isotropic conic under O has exactly 26 special lines, X(4)'s special points; R's line map is X(4)'s equivariant map with local degree 1 at the cusp; every single holomorphic section of ρ ⊗ χ has its position along the cone fall at least as fast as e^{−π Im τ/2} or grow as fast, while the nine's target falls at 0.63 per unit Im τ; the quartic census gives the literature's four rigid classes. Every cell as predicted (`the_cone_and_the_defect.py`; `W149_RULE.md`)
 
 **Why.**
@@ -12650,6 +12700,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W150 | COMPUTED (the rule first; one run; five cells as predicted, H6 failed as worded on a phrase flagged before the run); a mechanism census, not a weave result | the heavy-state holder (arXiv:2402.02071) on every singlet form of the joint family group: the minimum is the level curve m_Q(τ) = μ (exact), Re τ exactly flat along it; at μ = M̃ the 1′ forms of weight 10, 12, 14, 16 hold Im τ at 2.66, 3.94, 5.23, 6.55, none at weight 6 or for a level-1 form; the E₆-factor forms also hold a component next to i; the height is set by μ/M̃ (factor 8.1 across the band at weight 10, 4.5 at 12): one free ratio |
 | W149 | COMPUTED (the rule first; one run; every cell as predicted); WEAVE-type for C1, C3, C4 | the cone and the defect: 26 special lines of M's isotropic conic under O (6 ℤ₄, 8 ℤ₃, 12 ℤ₂), X(4)'s special points; R's line map X(4)'s equivariant map, local degree 1, tending to conj h₀; ρ(T) = diag(e^{2πi(1,3,7)/8}) in line coordinates, so every single holomorphic section of ρ ⊗ χ has |δ| ≤ C e^{−π Im τ/2} or grows (slopes −π/2 − kπ to 3 × 10⁻⁹ on the record's forms); the nine's target falls at 0.63 (read-out); the quartic census: four rigid classes, 392 of 392 |
 | Reading: the breaking chain | READING (no arc; by hand, one scratch check locked in the test; the owner's question) | every computed dynamics lands on a symmetric point (Michel's theorem on M's sphere; the stabilizers at i and ω); four objects named Higgs, the fits about h; the fork H-cov or a field's vev (P-132); M's isotropic conic is X(4) under O, R exactly isotropic with local degree 1 at the cusp; B1743's target is the cone's point s = δ off by ε + δ²/2, its on-cone part following τ at half R's exponent and its defect constant; the literature checked at the source (S4's four rigid minima, (0, 1, i) among them; no CP from one triplet; a one-loop holder of Im τ from T-charged masses); a draft of the rule's spontaneous-breaking sentence for the owner, not applied; W149–W151 proposed |
 | W147 | COMPUTED, exact (the rule first; one run; every cell as predicted); WEAVE-type, with a census of thread lines | what assigns the Higgs pair: of the ten pairs of GENESIS PF1-W's four Higgs spaces, only both doublets in h(12, 1) meet a common three-generation condition (0 and L6) and allow a pair term (holomorphic and Hermitian). TWO_HIGGS's {12, 20} shares condition 0 but allows none. No admissible pair closes W132's SU(2) remainder (sums 0, 8, 16, never 12). The weave cannot order the pair; 246 of the 266 thread lines can (the 20 of orders 1, 2, 3, 6 cannot). Not a trial. 0 of 19 |

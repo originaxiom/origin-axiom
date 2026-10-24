@@ -1,5 +1,15 @@
 # Changelog
 
+## W150 recorded: the heavy-state holder; five cells as predicted, H6 failed as worded on a flagged phrase (relay §257)
+
+- **It holds a curve, not a point:** the minimum is the level set m_Q(τ) = μ, and Re τ is exactly flat along it.
+- **At μ = M̃** the 1′ forms hold Im τ at 2.66, 3.94, 5.23 and 6.55 (weights 10 to 16). Weight 6 and the level-1
+  forms hold none. The E₆-factor forms also hold a component next to i.
+- **The height is one free ratio, μ/M̃:** a factor 8.1 across the fits' band at weight 10, 4.5 at weight 12. The
+  rule's "about 8 at either weight" failed as worded; it was flagged before the run.
+- **Surfaces.** NOTE (section and row), the lock test, relay §257, row 317, the state page, the breaking chain's
+  section 11. 0 of 19.
+
 ## W150's rule, committed before its script: the frame's heavy states as τ's holder, data-free (relay §256)
 
 - **The mechanism** (Higaki, Kawamura and Kobayashi) on every singlet form of the joint family group: the 1′ forms
