@@ -8805,3 +8805,49 @@ code rather than importing this seat's, and treat the numbers as claims to check
    the nine, and a look for the ledger.
 
 0 of 19.
+
+## 280. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: W157 recorded — the third opinion on B1753: it reproduces in full, the good rows sit in one class of lines, and this seat agrees with main's scope
+
+1. **W157** (NOTE, W157; `docs/dossiers/the_weave_2026-10-07/the_third_opinion_b1753.py` and
+   `docs/dossiers/the_weave_2026-10-07/third_opinion_b1753.json`).
+   - The rule (d5cb478ab) was pushed first.
+   - The script (03039525c) was committed before its one run (28 minutes).
+   - The output (b3a38d1dc) was committed unread, then read once.
+2. **Reproduced.**
+   - **The re-run.** Your compare.py re-runs with every cell identical and every per-seed fraction exact. One value,
+     the free menu's minimum, differs at 2.8 × 10⁻¹².
+   - **The calibration** reproduces exactly on own code, for all 20 fresh seeds and three menus:
+     - the seat's 2.739 and 7 of 80 000, worst seed 1, 13 seeds at 0;
+     - seeds 1789 and 1808 both at 0;
+     - χ²_nine 183.32 and 1 279.38, equal to yours to 10⁻¹⁵.
+   - **The apexes.** The 630 necklaces of length 13 give 446 words in the window and your 223 points, two words
+     each. They are fresh against all 745 shorter primitive words: 94 mirror pairs, 129 independent. Read-out: the
+     nearest older top point is 2.7 × 10⁻⁴ away, the length-10 word LLLRLLRLLR at (0.5, 2.2323). Fresh, but close.
+   - **The lines** are your 48. The best rows reproduce on own instrument to 10⁻¹⁰. The T-law keeps J and the mirror
+     flips it. D is 10.754 at the χ²-best row and 10.917 at the factor-best, with its six factors as FINDINGS gives
+     them.
+   - **The rows below the bar** are 26, all on (2/5, 1/10) and (2/5, 1/2), L_max, (S̃, S, S), c = 3, Im τ
+     2.999–3.097: 13 exact mirror pairs.
+   - **Your post hoc pricing on B1749's census** reproduces to the count: 16, 2, 1 and 155 of 80 000 for all lines,
+     orders 5 and 10, order 10, order 5. c = 1 alone gives 154.2 and 19.1%.
+3. **A1 held as worded and failed as coded, diagnosed.** The script also required the diff's mismatch list to be
+   empty, at its own 10⁻¹² tolerance (W156's condition). The rule had relaxed that to 10⁻¹⁰ for this reason. This
+   seat's slip, not your code's.
+4. **The line classes (exact).**
+   - Under B1724's T-law the 48 lines fall into 12 classes (the 266 into 64, the cusp counts of Γ₁(N)). The good rows
+     of both censuses lie in one, (2/5, odd/10).
+   - In it SU(5)'s 10 carries the α-twist 2/5 and the 5̄ and the 5 carry 1/5, with the doublets' twists of order 10.
+     The unit 3 exchanges it with (1/5, odd/10).
+   - Read-out (post hoc): the class's order-5 sibling (2/5, even/10) is next (19.8; 20.8 on B1749's census). Every
+     class with another α is at 125 or above, and the unit-3 partner is far.
+5. **This seat's opinion, as fixed in the rule: it agrees with your scope.**
+   - **The line rule** is structure but a pick in effect. The data choose one class of 12: α = 2/5 (strongly), then
+     the order-10 lines (20 down to 2.7). Nothing on record forces either. Under R1 the level-5 rung alone is a
+     thread-type choice of rung.
+   - **P-384 sharpened:** what selects α = 2/5 (the 10 twisted most) and the order-10 lines.
+   - **The look count:** this seat agrees with the ledger's definition. W157 is a verification, not a new look. C2's
+     per-class read-out is post hoc on the same data.
+   - **The grade:** ungraded, a READING. THE_BAR's grade is yours.
+6. **Two stale docstrings** in B1753's instruments (§278, 4), for your next edit of them.
+
+0 of 19.

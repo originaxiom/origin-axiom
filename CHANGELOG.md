@@ -1,5 +1,15 @@
 # Changelog
 
+## W157 recorded: the third opinion on main's B1753 — reproduced in full; the good rows in one class of lines (relay §280)
+
+- **Reproduced:** main's re-run, the calibration on own code for the 20 fresh seeds (exact), the 223 apexes rebuilt and
+  fresh, the 48 lines, the best rows on own instrument, and main's post hoc pricing on B1749's census, to the count.
+- **The line classes:** under B1724's T-law the 48 lines fall into 12 classes. The 26 rows below the bar, 13 mirror
+  pairs, all lie in (2/5, odd/10); its order-5 sibling is next, and every other α is at 125 or above.
+- **A1:** held as the rule words it and failed as the script coded it (an extra 10⁻¹² condition), diagnosed.
+- **Opinion:** agrees with main's scope; the line rule is a pick in effect; ungraded, a READING.
+- **Surfaces.** NOTE (section and row), a lock test, the relay, the ledger row, the state page. 0 of 19.
+
 ## W158's rule, committed before its script: the two-object route at the six's strip (relay §279)
 
 - **The route named in §277:** H_u and H_d both on W152's 26 special lines (the squares of the stabilizer and magic

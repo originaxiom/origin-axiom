@@ -20949,3 +20949,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   as well.
   0 of 19.
 
+## 2026-10-24 — main's newest match checked independently
+
+- **It holds up:** main's scoring reruns identically, this seat's own code gets the same numbers, and the fresh points
+  are fresh.
+- **What the line rule really does:** every good match lies in one family of lines out of twelve. The rule ("lines
+  whose order is divisible by 5") describes the data's choice; it does not make it. The same family comes first
+  whether all lines or only these are searched.
+- **One check missed its wording** because of a slip in this seat's script, not in main's code: the script asked for
+  more digits than the rule did. The rule's own condition holds.
+  0 of 19.
+

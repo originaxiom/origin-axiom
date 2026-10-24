@@ -7726,6 +7726,119 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W157. The third opinion on main's B1753, the six on the five-ality lines (main's ask; the owner's "lets do themall"): B1753 reproduces in full. Its calibration reproduces exactly on own code, its 223 apexes are rebuilt and fresh, its 48 lines are the stated ones, and its best rows reproduce on own instrument. The 26 rows below the bar are 13 mirror pairs in one class of lines under B1724's T-law, (2/5, odd/10), of 12 among the five-ality lines and 64 among all. The restriction's price on B1749's census is main's, to the count. A1 held as the rule words it and failed as the script coded it, diagnosed. This seat agrees with main's scope: the line rule is structure but a pick in effect (`the_third_opinion_b1753.py`; `W157_RULE.md`)
+
+**Why.** Main asked for a third opinion on B1753, as for B1741 (W145) and B1749 (W156): reproduce it on this seat's
+code and instrument, two seeds independently, the freshness, and an opinion of the line rule and of the look count
+(its handoff CC_TO_SM_2026-10-24_B1753_AND_THE_LITERATURE.md, §1). THE_BAR's grade waits for it.
+
+**The order.**
+- The rule (`W157_RULE.md`, d5cb478ab) was committed and pushed before the script existed. The opinion was fixed in
+  it in advance.
+- The script (03039525c) was committed before its one run. Before that commit it was checked only for syntax and for
+  the names it reads from W156's, W145's, W138's, W142's and W140's modules.
+- The run took 27.7 minutes. Its output (b3a38d1dc) was committed unread, after a check of the exit, tracebacks,
+  failed parts and paths only, then read once.
+
+**The result (COMPUTED; one run; twelve cells as predicted, A1 failed as coded and holds as worded).**
+- **A0.** census.jsonl, comparison.json and control.json match the pins, with 10 704 distinct (line, Re τ, Im τ).
+  All 13 files ARTIFACT_HASHES pins match, and so does B1749's census for C3.
+- **A1, the re-run.** Main's compare.py, run in a temporary tree at 0c9d60a5f, exits 0 (724 s). Every cell is
+  identical and every per-seed fraction exact. Of 473 numbers, 449 are bit-identical. The other 24 are one value,
+  the free menu's minimum, written once and in each seed's row: 2.6089312637632 against 2.6089312637705, 2.8 × 10⁻¹²
+  relative. That meets the rule's 10⁻¹⁰.
+  - **Diagnosed:** the script's cell function also required the diff's mismatch list to be empty. That is W156's
+    condition, at the diff's own 10⁻¹² tolerance, and this rule had relaxed it to 10⁻¹⁰ for exactly this reason (W156's
+    A1). So the cell printed false.
+  - The rule's words hold: this is the script's slip, not main's code's. The digits are the environment's, as in
+    W142 and W156.
+- **A2, the calibration on own code.** Every per-seed fraction of the 20 fresh seeds equals comparison.json's exactly
+  for the seat, covariant and free menus. The minima agree to 9 × 10⁻¹³ relative.
+  - The seat's minimum is 2.739, at 0.3333 + 3.0368i on (2/5, 1/10), L_max, (S̃, S, S), c = 3. 7 of 80 000 random
+    hierarchies are as low (0.009%): worst seed 1 of 4 000, 13 seeds at 0. Seeds 1789 and 1808 both give 0.
+  - Covariant 0.019%; free 0.065% at 2.609.
+  - χ²_nine is 183.32 (seat) and 1 279.38 (the Standard Model's reading), each equal to main's to 10⁻¹⁵.
+- **A3, the apexes on own code.**
+  - B1720's 121 stored classes are reproduced: own height to 4 × 10⁻¹⁶, and each stored Re τ is a top point.
+  - There are 630 primitive necklaces of length 13 and 446 in the window. The census's 223 points carry exactly two
+    words each, every word at its own height and top point, and the 446 listed words are exactly the window's.
+- **A3f, the freshness.**
+  - No point lies within 10⁻⁶ of a top point of any of the 745 primitive words of length 2 to 12.
+  - 94 mirror pairs, 129 independent (main's referee: 129).
+  - Read-out: the nearest older top point is 2.7 × 10⁻⁴ away. It is (0.5, 2.23232) of the length-10 word LLLRLLRLLR,
+    against the point (0.5, 2.23207). It is fresh, but close. (Main's referee measured 0.0148 to B1749's points, a
+    narrower set.)
+- **A4, the lines.** At every apex the census's lines are exactly the 48 of B1713's order whose order is divisible by
+  5: 12 of order 5 and 36 of order 10, W140's lines up to sign. Main's lines() equals this seat's list in order.
+- **B, the own instrument.**
+  - B0: residues to 1.5 × 10⁻³¹ and W96's J1 to 5 × 10⁻¹⁹. The T-law image keeps every ratio, ∣V∣ and J to
+    5 × 10⁻¹¹. The mirror image keeps the ratios and ∣V∣ and flips J (relative difference 2.0000000000025).
+  - B1: the three named rows (the best, 0.3333 + 3.0368i on line 149; its mirror, 0.6667 + 3.0368i on line 151; the
+    best by the largest factor, 0.6 + 3.0397i on line 151) and the next two by χ²_six reproduce. The worst deviations
+    are 1.0 × 10⁻¹⁰ in log and 8.6 × 10⁻¹² in J, with no zero-pattern mismatch.
+  - B2: at the χ²-best row, χ²_six 2.739 (6 × 10⁻¹¹ relative to the stored row's), the pulls to 6 × 10⁻¹¹, and
+    D = 10.754. At the factor-best row (L_max, (S̃, S, S), c = 3), model over measured is 1.166, 0.902, 1.150, 1.056,
+    1.085, 0.965, and D = 10.917, as FINDINGS and its referee state them.
+- **C1, the rows below the bar** (own direct sums, the seat's menu). 26 rows, all on (2/5, 1/10) and (2/5, 1/2), all
+  on L_max with (S̃, S, S) and c = 3, at Im τ 2.999–3.097. They are 13 mirror pairs, each pair equal in χ²_six to
+  2 × 10⁻¹⁰ relative: Re τ ↦ 1 − Re τ across the two lines.
+- **C2, the line classes (exact).**
+  - (i) Under B1724's T-law with lines up to sign, the 48 lines fall into 12 classes: of order 5, sizes 1, 1, 5, 5;
+    of order 10, sizes 1, 1, 2, 2, 5, 5, 10, 10. The 266 fall into 64, the cusp counts of Γ₁(N) for N ≤ 12.
+  - (ii) In both censuses every row below the bar lies in one class, {(2/5, b) : b odd tenths}: 26 rows in B1753's,
+    12 in B1749's.
+  - (iii) In that class the α-twist ∣6Yα∣ is 2/5 on Q, u and e (SU(5)'s 10) and 1/5 on d, L and H (the 5̄ and the
+    5). The twist has order 10 on the doublets and 5 on the singlets, on every line. The unit 3 maps the class onto
+    (1/5, odd/10), where the α-twists are exchanged.
+  - Read-out (post hoc): the least χ²_six per class. In both censuses the class is first (2.74; 3.57) and its
+    order-5 sibling (2/5, even/10) second (19.78; 20.78). Every class with another α is at 125 or above: in B1753's,
+    the two (1/2, ·) classes at 612 and 747, then the rest above 900, the unit-3 partner (1/5, odd/10) not among the
+    six nearest; in B1749's, (3/8, ·) at 125.8 and (3/7, ·) at 285.
+- **C3, the restriction priced on B1749's census** (own code, B1749's seeds, data and random targets restricted
+  alike). Main's post hoc pricing is reproduced to the count:
+  - all 266 lines: 3.574 and 16 of 80 000;
+  - the 48 lines of orders 5 and 10: 3.574 and 2;
+  - order 10 alone: 3.574 and 1;
+  - order 5 alone: 20.778 and 155 of 80 000 (0.194%).
+
+  Read-out: orders divisible by 2, 3.574 and 4.
+- **D1, the sensitivity** (labelled). c = 1 alone: 154.22 and 19.06% of random targets as low (main's referee: 154.2,
+  19.1%). Read-outs: allowance 0.05, 5.16 and 0.004%; uniform σ 0.10, 6.45 and 0.024%; the lepton factor over
+  {1, …, 5}, 2.74 and 0.015%.
+
+**What it shows (a READING on the computed facts; the opinion fixed in the rule, applied).**
+- **B1753 reproduces in full** on main's code and on a second code and instrument. 2.74 and 0.009% stand as computed,
+  on fresh apexes and the stated lines.
+- **The line rule's content is one class of lines.**
+  - The good rows sit in one T-law class of the 12 five-ality classes, (2/5, odd/10), as on B1749's census among all
+    64.
+  - Restricting to the 48 lines cuts random hits from 16 to 2 on B1749's points. A null that lets each random target
+    choose its order rule returns to the all-lines rarity, since the rules' union is every line.
+  - "Divisible by 5" does not select; the class does.
+- **This seat's opinion: it agrees with main's scope.** By the rule's words, A1, A2, B1, C1, C2 and C3 hold.
+  - **The line rule** is structure but a pick in effect.
+    - 6Y mod 5 is SU(5)'s label. A rule by order is the most the weave could ever supply, since the weave sees a
+      line's order, never the line (W140; the lines reading).
+    - The data choose one class of 12, which is three discrete choices that nothing on record forces:
+      - that the α-direction carries SU(5)'s centre alone, with α of order 5;
+      - which power of it: the 10 at 2/5, against the unit-3 partner with the 5̄ and the 5 at 2/5;
+      - that the line has order 10, so the doublets' twists are of order 10.
+    - The read-out ranks them: α = 2/5 is the strong one (every other α is at 125 or above), and order 10 against
+      order 5 takes 20 to 2.7.
+    - Under R1 the level-5 rung alone is a thread-type choice of rung.
+  - **P-384 sharpened:** what selects (2/5, odd/10) is what selects α = 2/5 (the 10 twisted most) and the order-10
+    lines.
+  - **The look count.** This seat agrees with the ledger's definition. W145, W156 and W157 are verifications, not
+    new looks. C3 reproduces main's order5_restriction row, already in the ledger. C2's per-class read-out is a post
+    hoc view of the same data, counted for any later test it informs.
+  - **The grade:** ungraded, a READING, with the nine failing (183) and c = 3 and the reading rule by hand.
+
+**Weave or thread.** A check of main's census over the apexes of every primitive thread word of length 13 on the
+lines of orders 5 and 10. The positive sits on one class of lines and a strip of τ: **a thread-and-frame result**, not a
+weave result. C2's classes are exact arithmetic.
+
+0 of 19.
+
 ## Reading: main's forced 45 in W154's window (main's ask of 2026-10-24, §4; READING with a lock, post hoc, data-free arithmetic)
 
 **A READING: data-free arithmetic on W154's closed form, post hoc, and not a test** (`the_w154_45_check.py`, run once;
@@ -13248,6 +13361,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W157 | COMPUTED (the rule first; one run; twelve cells as predicted; A1 failed as coded, holds as worded, diagnosed); a thread-and-frame result | the third opinion on main's B1753: compare.py re-runs with every cell identical (one value at 2.8 × 10⁻¹²); the calibration reproduces exactly on own code (seat 2.739, 7 of 80 000; 1789 and 1808 at 0; χ²_nine 183.32); the 630 necklaces of length 13 give the 446 words and 223 points, fresh against 745 shorter words (94 mirror pairs, 129 independent; nearest older top point 2.7 × 10⁻⁴); the 48 lines; the best rows to 10⁻¹⁰, D 10.754 and 10.917; 26 rows below the bar, 13 mirror pairs, all in the T-law class (2/5, odd/10) of 12 (64 among 266); main's pricing on B1749's census to the count (16, 2, 1, 155); c = 1 alone 154.2 and 19.1%. Agrees with main's scope: the line rule a pick in effect (α = 2/5, then order 10); ungraded, a READING. 0 of 19 |
 | 45 | READING with a lock (post hoc; data-free arithmetic) | main's forced 45 in W154's window: the 45 is the ratio r = w_ρ/(w₀ − (15/16) w_p) (r = 45 at t = 3.760, y* = 2.545), not a dimension; none of the record's four rows plus one 45 in any of the frame's five places lands (scalars in ρ_Q cancel the matter, on the parities send τ to ω, trivial pieces and fermions run); the full row needs 1 285 ρ_Q scalars; of 249 312 sub-multisets of E₈'s fibre decomposition 398 land (0.16%), none of dimension 45, the smallest of dimension 10. No forced 45 exists (FK11, GENESIS). 0 of 19 |
 | W156 | COMPUTED (the rule first; one run; nine cells as predicted; A1, B2 and C2 failed as worded, diagnosed); a thread-and-frame result | the third opinion on main's B1749: compare.py re-runs with every cell identical (two minima differ by 2.3 × 10⁻¹²); the calibration reproduces exactly on own code (seat 0.020%, worst seed 0.075%; 1769 and 1788 at 1 and 0 of 4 000); the 125 apexes rebuilt on own code and fresh (none a top point of the 410 shorter words; 51 mirror pairs, 74 independent); the best rows reproduce to 5 × 10⁻¹¹, the T-law keeps J and the mirror flips it; the strip is 12 rows, Im τ 2.96–3.12 over Re τ mod 1 ≈ 0.2–0.8 on two mirror order-10 lines, reached by a random 125-point set with probability 0.9966; B2's D 10.94 belongs to the best-by-factor row, the rule's slip; this seat agrees with main's scope. 0 of 19 |
 | Lines | READING with a lock (post hoc; counting only) | the six's lines and the level-5 rung (P-373's lead): the weave sees a line's order, never the line (W140); SL(2, ℤ/N) maps onto SL(2, 𝔽₅) = 2I exactly when 5 | N, so the six's lines of order 5 and 10 (48 of 266) are exactly those on which the moves act through the level-5 rung; no line is singled out, and choosing them is a thread's choice under R1; a sealed test proposed to main: specific on the order-15 and 20 lines (96, 144), not on 13 or 14 (84, 72). 0 of 19 |

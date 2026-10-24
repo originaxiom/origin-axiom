@@ -4929,3 +4929,47 @@ def test_the_forced_45_reading_and_the_ladder_clause_carried():
     weave = (ROOT / "docs" / "THE_WEAVE.md").read_text(encoding="utf-8")
     assert "the end at 5 follows from the moves' orders 2 and 3 (W153, L3)" in weave
     assert "the prime 5 is adopted by this rule, not derived" not in weave
+
+
+def test_w157_the_third_opinion_b1753():
+    """W157: twelve cells as predicted, A1 failed as coded and holds as worded; in process, the necklace count of
+    length 13 (630), the T-law classes of the 48 five-ality lines (12, sizes 1 1 5 5 and 1 1 2 2 5 5 10 10) and the
+    class's twist pattern"""
+    from fractions import Fraction as Fr
+    from math import gcd, lcm
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "third_opinion_b1753.json").read_text(encoding="utf-8"))
+    c = d["cells"]
+    assert [k for k, v in c.items() if not v] == ["A1"]
+    a1 = d["A1"]
+    assert a1["compare"]["returncode"] == 0 and a1["cells identical"] and a1["per-seed fractions exact"]
+    assert 1e-12 < a1["diff"]["max_rel"] < 1e-10                     # the rule's bar met; the coded extra condition not
+    assert d["A2"]["seat counts"] == {"total": 7, "worst seed": 1, "seeds at 0": 13}
+    assert d["A3f"]["overlaps"] == [] and d["A3f"]["mirror pairs"] == 94 and d["A3f"]["independent (pairs + singles)"] == 129
+    assert d["C1"]["rows below 16.75"] == 26 and d["C3"]["orders 5 and 10"]["count"] == 2
+    assert abs(d["B"]["row"]["D"] - 10.754) < 1e-3 and abs(d["B"]["factor-best row"]["D"] - 10.917) < 1e-3
+    neck = set()
+    for i in range(1, 2 ** 13 - 1):
+        w = format(i, "013b")
+        neck.add(min(w[k:] + w[:k] for k in range(13)))
+    assert len(neck) == 630
+
+    def key(a, b):
+        return min((a % 1, b % 1), ((-a) % 1, (-b) % 1))
+    lines = {key(Fr(j, n), Fr(k, n)) for n in (5, 10) for j in range(n) for k in range(n) if gcd(gcd(j, k), n) == 1}
+    assert len(lines) == 48
+    sizes, left = {5: [], 10: []}, set(lines)
+    while left:
+        start = min(left)
+        orb, cur = {start}, key(start[0], start[1] - start[0])
+        while cur != start:
+            orb.add(cur)
+            cur = key(cur[0], cur[1] - cur[0])
+        n = lcm(start[0].denominator, start[1].denominator)
+        sizes[n].append(len(orb))
+        left -= orb
+    assert sorted(sizes[5]) == [1, 1, 5, 5] and sorted(sizes[10]) == [1, 1, 2, 2, 5, 5, 10, 10]
+    alpha = Fr(2, 5)
+    tw = {f: min((q * alpha) % 1, 1 - (q * alpha) % 1) for f, q in {"Q": 1, "u": -4, "e": 6, "d": 2, "L": -3, "H": 3}.items()}
+    assert tw == {"Q": Fr(2, 5), "u": Fr(2, 5), "e": Fr(2, 5), "d": Fr(1, 5), "L": Fr(1, 5), "H": Fr(1, 5)}
+    assert "## W157. The third opinion on main's B1753" in (here / "NOTE.md").read_text(encoding="utf-8")
