@@ -1,0 +1,10 @@
+row chunk 14/28 (927 s)
+row chunk 15/28 (2609 s)
+row chunk 16/28 (3642 s)
+row chunk 17/28 (4451 s)
+row chunk 18/28 (5276 s)
+Terminated
+
+real	88m12.518s
+user	0m15.072s
+sys	0m0.390s
