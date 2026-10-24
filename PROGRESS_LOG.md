@@ -17886,3 +17886,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - **B1747 (PROVED).** The web seat's sealed reading test — no Higgs direction lets the Standard Model's one-Higgs reading carry the nine on any of 4 256 rows over all 266 lines — verified on main on forty rows. P-360 DONE.
 - **Landing suite.** full suite 7 709 passed, 2 failed, 68 skipped (23:22, -n 8) on 20bb8a645: the two failures are B805's attachment locks (P-239, standing).
+
+## 2026-10-24 — S212 THE TWO-DOUBLET TARGET (P-357); THE OWNER'S WORD (P-361)
+
+- P-357 step 1 (post hoc): H_d = ∂R̄ fixed, H_u free — the bar reached on two rows (20.26); H_u must be nearly null to about 10⁻³; the record's pencils as H_u do not reach it (34.2, 82.5). The seat's reading-test relay rowed (1355); Lemmas A′, B checked on main. P-361 (the owner agreed to the seat's holomorphic reading test). FLOOR 361.
+- **Landing suite.** full suite 7 709 passed, 2 failed, 68 skipped (27:04, -n 8) on ea421dc72: the two failures are B805's attachment locks (P-239, standing).

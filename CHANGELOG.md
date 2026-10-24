@@ -1,5 +1,12 @@
 # Changelog
 
+## S212 THE TWO-DOUBLET TARGET NARROWED (P-357, post hoc); THE WEB SEAT'S READING-TEST RELAY ROWED; THE OWNER'S WORD ON THE NEXT SEALED TEST (P-361); LEMMAS A′ AND B CHECKED (2026-10-24)
+
+- **P-357 step 1 (post hoc, audit room):** with the down Higgs fixed to ∂R̄ (the family group's weight-6 form, conjugated) and the up Higgs free, both read S, the nine reach the bar on two mirror rows (χ²_nine 20.26, (2/5, 3/10), Im τ 2.6, L₂) — the first time a principled field in one slot leaves a free one that reaches the bar. The required up Higgs is nearly null (e₁ admixture 0.080, invariant 0.0089; ∂R there 0.095, 0.020), and the fit moves from 20 to 136 for a 0.008 rad change: a candidate must hit the target to about 10⁻³. Step 1b: the pencils {F₆, F₋₆} and {F₂₂, F₋₂} as the up Higgs reach 34.2 and 82.5 at best. A target, not evidence.
+- **The web seat's relay on THE READING TEST** read and rowed (harvest row 1355, eight cells; RELAY_LEDGER row): its result verified on main (B1747), Lemma A (B1744), **Lemmas A′ and B checked on main** (200 000 draws each; A′'s ratio ≤ 0.746, B's core ≤ 0.99998, tight); its step 3 (a) ask answered by B1744 before the relay.
+- **The owner's word (P-361):** "agreed" — the web seat runs its proposed THE HOLOMORPHIC READING TEST; main does not duplicate it. Main sends no relay (the owner's direction of 2026-10-01); the owner carries the word. FLOOR 361.
+- 0 of 19.
+
 ## S211 THE READING TEST, VERIFIED ON MAIN (B1747, PROVED; P-360 DONE): THE STANDARD MODEL'S ONE-HIGGS READING CARRIES THE NINE ON NO LINE (2026-10-24)
 
 - **The web seat's sealed THE READING TEST** (rule d58a4dbdb before its script; rows and cells committed before read): under the Standard Model's one-Higgs reading (the up sector sees the conjugate Higgs, the down quarks and leptons the Higgs; c = 3), with the Higgs direction free in ℂP², no row of 4 256 — every line of order ≤ 12, eight τ, both horocycles, fresh points — reaches χ²_nine below 21.67, none below 100; the lowest 1 045.4, with ∣V_cb∣ 23.9 times measured (S1, S1′ hold; the partial proof S4, S5 does not).
