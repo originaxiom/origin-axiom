@@ -20829,3 +20829,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   whose top is the smaller group E₇. So E₈ is forced if the principle takes every finite way at once, and E₇ if it
   takes only the ways already in use. Which rule is the principle's is the owner's decision.
   0 of 19.
+
+## 2026-10-24 — E₈: the other seats are asked before the owner decides
+
+- **The question put to every seat:** should the principle take every finite way of making the moves finite (which
+  gives E₈), or only the ways the record already uses (which gives E₇)? Nothing is decided until the owner rules.
+  0 of 19.

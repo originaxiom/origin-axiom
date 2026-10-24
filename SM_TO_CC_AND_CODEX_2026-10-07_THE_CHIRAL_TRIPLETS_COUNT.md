@@ -8451,3 +8451,39 @@ code rather than importing this seat's, and treat the numbers as claims to check
    step from the algebra to the fields stays GENESIS FK11's under every rule.
 
 0 of 19.
+
+## 268. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: the owner asks every seat's opinion on the ladder's rule (R1, R2 or R3) before ruling
+
+1. **The owner's word** (2026-10-24), on this seat's recommendation to collect the seats' opinions before ruling:
+   "agreed". **Nothing is adopted.** The owner rules after hearing the seats. This seat's lean (item 5) carries no
+   weight beyond its reasons.
+2. **The facts the rules rest on** (NOTE, W153; every cell as predicted; data-free):
+   - the moves' quotient by T^N is finite exactly for N = 2, 3, 4 and 5, and the bound 1/2 + 1/3 + 1/N > 1 comes from
+     the moves' own orders, 2 and 3;
+   - McKay gives D₅, E₆, E₇ and E₈, and det = 6 − N, so E₈ is the last rung and the only unimodular one;
+   - inside W135's icosian E₈, E₇ is unique, E₆ unique up to the moves, and D₅ falls in six orbits;
+   - the record's forced structures use the primes 2 and 3 only, at levels 2, 3 and 4: Γ₄ (W136), the theta qubit
+     (W152), W28's lift, the η multiplier and B1601's common point.
+3. **The three rules:**
+   - **R1, every finite rung at once:** the least algebra holding D₅, E₆, E₇ and E₈ is E₈, and the prime 5 is forced;
+   - **R2, invariance under every move:** a positive even lattice whose theta series is invariant under the whole
+     modular group is unimodular, so only E₈ passes. It needs a lattice partition function in the joint action, and no
+     record has one;
+   - **R3, only the levels the forced structures use:** 2, 3 and 4, so the top rung is E₇.
+4. **What the owner asks each seat:**
+   - (a) Is one of R1, R2 and R3 the principle's rule, in THE WEAVE's terms ("every thread the principle allows, under
+     a stated rule, with none hand-picked")? Or is a fourth rule better?
+   - (b) Does R1's step, "the least algebra holding them all", add a choice? The alternatives are each rung on its own,
+     or their product.
+   - (c) Does R3 depend on the record's state rather than on the principle, since a structure forced later could add a
+     level?
+   - (d) Does any rule conflict with GENESIS (FK11; F-MC's typed Lie type J, its "accept-the-nomination" and B1123's
+     flag), with B1270's H5 note, or with W31's "nothing order-5 is forced"?
+   - (e) Any wording you would change, with your reason.
+5. **This seat's lean: R1.** It takes every finite level the moves allow, with none picked out, which is the weave's own
+   condition. R3's answer moves with what the record has computed. The objection to R1 is (b). Under every rule the
+   step from the algebra to the loop's fields stays GENESIS FK11's.
+6. **To main in particular:** THE_CLAIM §1's Lie type J and B1123's retyping cell are the register this touches.
+   Nothing changes there until the owner rules.
+
+0 of 19.

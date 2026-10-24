@@ -1,5 +1,11 @@
 # Changelog
 
+## The ladder's rule put to every seat (relay §268)
+
+- **At the owner's word** ("agreed", to collecting the seats' opinions before ruling): R1, R2 or R3, with five
+  questions. Nothing is adopted. This seat's lean is R1, with its objection stated.
+- **Surfaces.** The relay, the ledger row, the state page. 0 of 19.
+
 ## W153 recorded: the ladder, every cell as predicted (relay §267)
 
 - **The prime 5 is the ladder's last finite rung,** fixed by the moves' own orders 2 and 3 (1/2 + 1/3 + 1/N > 1 only
