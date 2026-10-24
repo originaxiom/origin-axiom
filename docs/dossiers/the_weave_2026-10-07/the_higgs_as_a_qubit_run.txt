@@ -1,0 +1,13 @@
+{
+ "K1": true,
+ "K2": true,
+ "K3": true,
+ "K4": true,
+ "K5": true
+}
+every predicted cell holds: True
+
+real	0m23.073s
+user	0m23.487s
+sys	0m0.161s
+exit 0

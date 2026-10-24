@@ -1,0 +1,877 @@
+{
+ "arc": "W152",
+ "rule": "W152_RULE.md",
+ "status": "one run",
+ "python": "3.11.15",
+ "dps": 50,
+ "K1": {
+  "worst |lines(R) - eta^-3 Sym^2 psi0| / |R|": "1.19e-50"
+ },
+ "K2": {
+  "T-law worst": "3.19e-52",
+  "S-law worst": "5.04e-51",
+  "projective group order": 24,
+  "Sym^2 g_T vs rho(T), projective": "1.89e-51",
+  "Sym^2 g_S vs rho(S), projective": "1.89e-51",
+  "U = e^{i pi Z/4} carries (g_T, g_S g_T^-1 g_S^-1) to (e^{i pi Z/4}, e^{-i pi Y/4})": true,
+  "g_S g_T^-1 g_S^-1 proportional to e^{i pi X/4}": true
+ },
+ "K3": {
+  "W149's distinct lines": 26,
+  "states matched one to one": true,
+  "largest projective distance": "8.07e-52",
+  "(1, 0) goes to h0": true,
+  "matches": [
+   {
+    "kind": "stabilizer",
+    "Bloch": [
+     "1",
+     "0",
+     "0"
+    ],
+    "W149 line": 6,
+    "projective distance": "0.0",
+    "W149 stabilizer": 4,
+    "qubit stabilizer": 4
+   },
+   {
+    "kind": "stabilizer",
+    "Bloch": [
+     "-1",
+     "0",
+     "0"
+    ],
+    "W149 line": 7,
+    "projective distance": "0.0",
+    "W149 stabilizer": 4,
+    "qubit stabilizer": 4
+   },
+   {
+    "kind": "stabilizer",
+    "Bloch": [
+     "0",
+     "1",
+     "0"
+    ],
+    "W149 line": 1,
+    "projective distance": "0.0",
+    "W149 stabilizer": 4,
+    "qubit stabilizer": 4
+   },
+   {
+    "kind": "stabilizer",
+    "Bloch": [
+     "0",
+     "-1",
+     "0"
+    ],
+    "W149 line": 0,
+    "projective distance": "0.0",
+    "W149 stabilizer": 4,
+    "qubit stabilizer": 4
+   },
+   {
+    "kind": "stabilizer",
+    "Bloch": [
+     "0",
+     "0",
+     "1"
+    ],
+    "W149 line": 25,
+    "projective distance": "0.0",
+    "W149 stabilizer": 4,
+    "qubit stabilizer": 4
+   },
+   {
+    "kind": "stabilizer",
+    "Bloch": [
+     "0",
+     "0",
+     "-1"
+    ],
+    "W149 line": 24,
+    "projective distance": "0.0",
+    "W149 stabilizer": 4,
+    "qubit stabilizer": 4
+   },
+   {
+    "kind": "F",
+    "Bloch": [
+     "sqrt(3)/3",
+     "sqrt(3)/3",
+     "sqrt(3)/3"
+    ],
+    "W149 line": 20,
+    "projective distance": "1.73e-52",
+    "W149 stabilizer": 3,
+    "qubit stabilizer": 3
+   },
+   {
+    "kind": "F",
+    "Bloch": [
+     "sqrt(3)/3",
+     "sqrt(3)/3",
+     "-sqrt(3)/3"
+    ],
+    "W149 line": 12,
+    "projective distance": "2.28e-52",
+    "W149 stabilizer": 3,
+    "qubit stabilizer": 3
+   },
+   {
+    "kind": "F",
+    "Bloch": [
+     "sqrt(3)/3",
+     "-sqrt(3)/3",
+     "sqrt(3)/3"
+    ],
+    "W149 line": 17,
+    "projective distance": "1.73e-52",
+    "W149 stabilizer": 3,
+    "qubit stabilizer": 3
+   },
+   {
+    "kind": "F",
+    "Bloch": [
+     "sqrt(3)/3",
+     "-sqrt(3)/3",
+     "-sqrt(3)/3"
+    ],
+    "W149 line": 11,
+    "projective distance": "2.28e-52",
+    "W149 stabilizer": 3,
+    "qubit stabilizer": 3
+   },
+   {
+    "kind": "F",
+    "Bloch": [
+     "-sqrt(3)/3",
+     "sqrt(3)/3",
+     "sqrt(3)/3"
+    ],
+    "W149 line": 10,
+    "projective distance": "1.73e-52",
+    "W149 stabilizer": 3,
+    "qubit stabilizer": 3
+   },
+   {
+    "kind": "F",
+    "Bloch": [
+     "-sqrt(3)/3",
+     "sqrt(3)/3",
+     "-sqrt(3)/3"
+    ],
+    "W149 line": 16,
+    "projective distance": "2.28e-52",
+    "W149 stabilizer": 3,
+    "qubit stabilizer": 3
+   },
+   {
+    "kind": "F",
+    "Bloch": [
+     "-sqrt(3)/3",
+     "-sqrt(3)/3",
+     "sqrt(3)/3"
+    ],
+    "W149 line": 13,
+    "projective distance": "1.73e-52",
+    "W149 stabilizer": 3,
+    "qubit stabilizer": 3
+   },
+   {
+    "kind": "F",
+    "Bloch": [
+     "-sqrt(3)/3",
+     "-sqrt(3)/3",
+     "-sqrt(3)/3"
+    ],
+    "W149 line": 21,
+    "projective distance": "2.28e-52",
+    "W149 stabilizer": 3,
+    "qubit stabilizer": 3
+   },
+   {
+    "kind": "H",
+    "Bloch": [
+     "sqrt(2)/2",
+     "sqrt(2)/2",
+     "0"
+    ],
+    "W149 line": 4,
+    "projective distance": "6.68e-52",
+    "W149 stabilizer": 2,
+    "qubit stabilizer": 2
+   },
+   {
+    "kind": "H",
+    "Bloch": [
+     "sqrt(2)/2",
+     "-sqrt(2)/2",
+     "0"
+    ],
+    "W149 line": 2,
+    "projective distance": "6.68e-52",
+    "W149 stabilizer": 2,
+    "qubit stabilizer": 2
+   },
+   {
+    "kind": "H",
+    "Bloch": [
+     "-sqrt(2)/2",
+     "sqrt(2)/2",
+     "0"
+    ],
+    "W149 line": 3,
+    "projective distance": "6.68e-52",
+    "W149 stabilizer": 2,
+    "qubit stabilizer": 2
+   },
+   {
+    "kind": "H",
+    "Bloch": [
+     "-sqrt(2)/2",
+     "-sqrt(2)/2",
+     "0"
+    ],
+    "W149 line": 5,
+    "projective distance": "6.68e-52",
+    "W149 stabilizer": 2,
+    "qubit stabilizer": 2
+   },
+   {
+    "kind": "H",
+    "Bloch": [
+     "sqrt(2)/2",
+     "0",
+     "sqrt(2)/2"
+    ],
+    "W149 line": 23,
+    "projective distance": "7.83e-52",
+    "W149 stabilizer": 2,
+    "qubit stabilizer": 2
+   },
+   {
+    "kind": "H",
+    "Bloch": [
+     "sqrt(2)/2",
+     "0",
+     "-sqrt(2)/2"
+    ],
+    "W149 line": 8,
+    "projective distance": "0.0",
+    "W149 stabilizer": 2,
+    "qubit stabilizer": 2
+   },
+   {
+    "kind": "H",
+    "Bloch": [
+     "-sqrt(2)/2",
+     "0",
+     "sqrt(2)/2"
+    ],
+    "W149 line": 9,
+    "projective distance": "7.83e-52",
+    "W149 stabilizer": 2,
+    "qubit stabilizer": 2
+   },
+   {
+    "kind": "H",
+    "Bloch": [
+     "-sqrt(2)/2",
+     "0",
+     "-sqrt(2)/2"
+    ],
+    "W149 line": 22,
+    "projective distance": "0.0",
+    "W149 stabilizer": 2,
+    "qubit stabilizer": 2
+   },
+   {
+    "kind": "H",
+    "Bloch": [
+     "0",
+     "sqrt(2)/2",
+     "sqrt(2)/2"
+    ],
+    "W149 line": 19,
+    "projective distance": "0.0",
+    "W149 stabilizer": 2,
+    "qubit stabilizer": 2
+   },
+   {
+    "kind": "H",
+    "Bloch": [
+     "0",
+     "sqrt(2)/2",
+     "-sqrt(2)/2"
+    ],
+    "W149 line": 14,
+    "projective distance": "8.07e-52",
+    "W149 stabilizer": 2,
+    "qubit stabilizer": 2
+   },
+   {
+    "kind": "H",
+    "Bloch": [
+     "0",
+     "-sqrt(2)/2",
+     "sqrt(2)/2"
+    ],
+    "W149 line": 15,
+    "projective distance": "0.0",
+    "W149 stabilizer": 2,
+    "qubit stabilizer": 2
+   },
+   {
+    "kind": "H",
+    "Bloch": [
+     "0",
+     "-sqrt(2)/2",
+     "-sqrt(2)/2"
+    ],
+    "W149 line": 18,
+    "projective distance": "8.07e-52",
+    "W149 stabilizer": 2,
+    "qubit stabilizer": 2
+   }
+  ]
+ },
+ "K4": {
+  "det S_h = -h.h (sympy)": true,
+  "||S_h||^2 = 2|h|^2 (sympy)": true,
+  "draws": 2000,
+  "worst |I - 2r/(1 + r^2)|": "4.01e-51",
+  "worst |r(g S g^T) - r(S)|": "5.35e-51",
+  "worst 1 - |<u1(g S g^T), g u1(S)>|": "2.67e-51",
+  "(draw, element) pairs set aside, r > 0.999": 0
+ },
+ "K5": {
+  "objects": {
+   "R": {
+    "lead (hand)": "l7",
+    "r at y = 4, 6, 8": [
+     "3.41e-52",
+     "1.075e-51",
+     "9.475e-52"
+    ],
+    "holds": true
+   },
+   "dR": {
+    "lead (hand)": "l7",
+    "r at y = 4, 6, 8": [
+     "0.0001255",
+     "2.344e-7",
+     "4.378e-10"
+    ],
+    "(ln r(8) - ln r(4))/4 + pi": "2.79e-5",
+    "1 - |<u1, s>| at y = 8": "9.73e-11",
+    "holds": true
+   },
+   "F-10": {
+    "lead (hand)": "e1",
+    "r at y = 4, 6, 8": [
+     "1.0",
+     "1.0",
+     "1.0"
+    ],
+    "1 - r at y = 8": "1.06e-24",
+    "holds": true
+   },
+   "F-6": {
+    "lead (hand)": "e1",
+    "r at y = 4, 6, 8": [
+     "1.0",
+     "1.0",
+     "1.0"
+    ],
+    "1 - r at y = 8": "5.43e-15",
+    "holds": true
+   },
+   "F-2": {
+    "lead (hand)": "e1",
+    "r at y = 4, 6, 8": [
+     "0.9852",
+     "0.9994",
+     "1.0"
+    ],
+    "1 - r at y = 8": "2.79e-5",
+    "holds": true
+   },
+   "F2": {
+    "lead (hand)": "l7",
+    "r at y = 4, 6, 8": [
+     "3.326e-53",
+     "1.956e-51",
+     "9.549e-52"
+    ],
+    "holds": true
+   },
+   "F6": {
+    "lead (hand)": "l3",
+    "r at y = 4, 6, 8": [
+     "4.185e-5",
+     "7.815e-8",
+     "1.459e-10"
+    ],
+    "(ln r(8) - ln r(4))/4 + pi": "4.01e-10",
+    "1 - |<u1, s>| at y = 8": "9.21e-31",
+    "holds": true
+   },
+   "F10": {
+    "lead (hand)": "l7",
+    "r at y = 4, 6, 8": [
+     "6.975e-5",
+     "1.302e-7",
+     "2.432e-10"
+    ],
+    "(ln r(8) - ln r(4))/4 + pi": "4.01e-10",
+    "1 - |<u1, s>| at y = 8": "3.47e-50",
+    "holds": true
+   },
+   "F14": {
+    "lead (hand)": "l3",
+    "r at y = 4, 6, 8": [
+     "9.765e-5",
+     "1.823e-7",
+     "3.405e-10"
+    ],
+    "(ln r(8) - ln r(4))/4 + pi": "7.91e-10",
+    "1 - |<u1, s>| at y = 8": "0.0",
+    "holds": true
+   },
+   "F18": {
+    "lead (hand)": "l7",
+    "r at y = 4, 6, 8": [
+     "0.0001255",
+     "2.344e-7",
+     "4.378e-10"
+    ],
+    "(ln r(8) - ln r(4))/4 + pi": "1.31e-9",
+    "1 - |<u1, s>| at y = 8": "0.0",
+    "holds": true
+   },
+   "F22": {
+    "lead (hand)": "l3",
+    "r at y = 4, 6, 8": [
+     "0.0001534",
+     "2.865e-7",
+     "5.351e-10"
+    ],
+    "(ln r(8) - ln r(4))/4 + pi": "1.96e-9",
+    "1 - |<u1, s>| at y = 8": "0.0",
+    "holds": true
+   },
+   "F26": {
+    "lead (hand)": "l7",
+    "r at y = 4, 6, 8": [
+     "0.0001813",
+     "3.386e-7",
+     "6.324e-10"
+    ],
+    "(ln r(8) - ln r(4))/4 + pi": "2.74e-9",
+    "1 - |<u1, s>| at y = 8": "0.0",
+    "holds": true
+   },
+   "conj R": {
+    "lead (hand)": "l3",
+    "r at y = 4, 6, 8": [
+     "3.41e-52",
+     "1.075e-51",
+     "9.475e-52"
+    ],
+    "holds": true
+   },
+   "conj dR": {
+    "lead (hand)": "l3",
+    "r at y = 4, 6, 8": [
+     "0.0001255",
+     "2.344e-7",
+     "4.378e-10"
+    ],
+    "(ln r(8) - ln r(4))/4 + pi": "2.79e-5",
+    "1 - |<u1, s>| at y = 8": "9.73e-11",
+    "holds": true
+   },
+   "conj F-10": {
+    "lead (hand)": "e1",
+    "r at y = 4, 6, 8": [
+     "1.0",
+     "1.0",
+     "1.0"
+    ],
+    "1 - r at y = 8": "1.06e-24",
+    "holds": true
+   },
+   "conj F-6": {
+    "lead (hand)": "e1",
+    "r at y = 4, 6, 8": [
+     "1.0",
+     "1.0",
+     "1.0"
+    ],
+    "1 - r at y = 8": "5.43e-15",
+    "holds": true
+   },
+   "conj F-2": {
+    "lead (hand)": "e1",
+    "r at y = 4, 6, 8": [
+     "0.9852",
+     "0.9994",
+     "1.0"
+    ],
+    "1 - r at y = 8": "2.79e-5",
+    "holds": true
+   },
+   "conj F2": {
+    "lead (hand)": "l3",
+    "r at y = 4, 6, 8": [
+     "3.326e-53",
+     "1.956e-51",
+     "9.549e-52"
+    ],
+    "holds": true
+   },
+   "conj F6": {
+    "lead (hand)": "l7",
+    "r at y = 4, 6, 8": [
+     "4.185e-5",
+     "7.815e-8",
+     "1.459e-10"
+    ],
+    "(ln r(8) - ln r(4))/4 + pi": "4.01e-10",
+    "1 - |<u1, s>| at y = 8": "9.21e-31",
+    "holds": true
+   },
+   "conj F10": {
+    "lead (hand)": "l3",
+    "r at y = 4, 6, 8": [
+     "6.975e-5",
+     "1.302e-7",
+     "2.432e-10"
+    ],
+    "(ln r(8) - ln r(4))/4 + pi": "4.01e-10",
+    "1 - |<u1, s>| at y = 8": "3.47e-50",
+    "holds": true
+   },
+   "conj F14": {
+    "lead (hand)": "l7",
+    "r at y = 4, 6, 8": [
+     "9.765e-5",
+     "1.823e-7",
+     "3.405e-10"
+    ],
+    "(ln r(8) - ln r(4))/4 + pi": "7.91e-10",
+    "1 - |<u1, s>| at y = 8": "0.0",
+    "holds": true
+   },
+   "conj F18": {
+    "lead (hand)": "l3",
+    "r at y = 4, 6, 8": [
+     "0.0001255",
+     "2.344e-7",
+     "4.378e-10"
+    ],
+    "(ln r(8) - ln r(4))/4 + pi": "1.31e-9",
+    "1 - |<u1, s>| at y = 8": "0.0",
+    "holds": true
+   },
+   "conj F22": {
+    "lead (hand)": "l7",
+    "r at y = 4, 6, 8": [
+     "0.0001534",
+     "2.865e-7",
+     "5.351e-10"
+    ],
+    "(ln r(8) - ln r(4))/4 + pi": "1.96e-9",
+    "1 - |<u1, s>| at y = 8": "0.0",
+    "holds": true
+   },
+   "conj F26": {
+    "lead (hand)": "l3",
+    "r at y = 4, 6, 8": [
+     "0.0001813",
+     "3.386e-7",
+     "6.324e-10"
+    ],
+    "(ln r(8) - ln r(4))/4 + pi": "2.74e-9",
+    "1 - |<u1, s>| at y = 8": "0.0",
+    "holds": true
+   }
+  }
+ },
+ "R": {
+  "target sha256 as pinned": true,
+  "rows": [
+   {
+    "hor": "L_2",
+    "tau": [
+     0.4375,
+     2.1
+    ],
+    "r": "0.0088595",
+    "I from r": "0.017718",
+    "I recorded": 0.01772,
+    "Bloch angle from (1, 0), degrees": "25.42",
+    "nearest special state": [
+     "H",
+     [
+      "0",
+      "-sqrt(2)/2",
+      "sqrt(2)/2"
+     ]
+    ],
+    "its angle, degrees": "21.04",
+    "R's angle from its nearest stabilizer state, degrees": "8.4489",
+    "R's nearest stabilizer state": [
+     "0",
+     "0",
+     "-1"
+    ]
+   },
+   {
+    "hor": "L_2",
+    "tau": [
+     0.5625,
+     2.1
+    ],
+    "r": "0.0088595",
+    "I from r": "0.017718",
+    "I recorded": 0.01772,
+    "Bloch angle from (1, 0), degrees": "25.42",
+    "nearest special state": [
+     "H",
+     [
+      "sqrt(2)/2",
+      "0",
+      "sqrt(2)/2"
+     ]
+    ],
+    "its angle, degrees": "21.04",
+    "R's angle from its nearest stabilizer state, degrees": "8.4489",
+    "R's nearest stabilizer state": [
+     "0",
+     "0",
+     "-1"
+    ]
+   },
+   {
+    "hor": "L_2",
+    "tau": [
+     0.6875,
+     2.0
+    ],
+    "r": "0.008612",
+    "I from r": "0.017223",
+    "I recorded": 0.01722,
+    "Bloch angle from (1, 0), degrees": "26.648",
+    "nearest special state": [
+     "H",
+     [
+      "sqrt(2)/2",
+      "0",
+      "sqrt(2)/2"
+     ]
+    ],
+    "its angle, degrees": "22.038",
+    "R's angle from its nearest stabilizer state, degrees": "9.8794",
+    "R's nearest stabilizer state": [
+     "0",
+     "0",
+     "-1"
+    ]
+   },
+   {
+    "hor": "L_2",
+    "tau": [
+     0.3125,
+     2.0
+    ],
+    "r": "0.008612",
+    "I from r": "0.017223",
+    "I recorded": 0.01722,
+    "Bloch angle from (1, 0), degrees": "26.648",
+    "nearest special state": [
+     "H",
+     [
+      "0",
+      "-sqrt(2)/2",
+      "sqrt(2)/2"
+     ]
+    ],
+    "its angle, degrees": "22.038",
+    "R's angle from its nearest stabilizer state, degrees": "9.8794",
+    "R's nearest stabilizer state": [
+     "0",
+     "0",
+     "-1"
+    ]
+   },
+   {
+    "hor": "L_2",
+    "tau": [
+     0.5625,
+     2.2
+    ],
+    "r": "0.0090535",
+    "I from r": "0.018106",
+    "I recorded": 0.01811,
+    "Bloch angle from (1, 0), degrees": "23.27",
+    "nearest special state": [
+     "H",
+     [
+      "sqrt(2)/2",
+      "0",
+      "sqrt(2)/2"
+     ]
+    ],
+    "its angle, degrees": "22.469",
+    "R's angle from its nearest stabilizer state, degrees": "7.2243",
+    "R's nearest stabilizer state": [
+     "0",
+     "0",
+     "-1"
+    ]
+   },
+   {
+    "hor": "L_2",
+    "tau": [
+     0.4375,
+     2.2
+    ],
+    "r": "0.0090535",
+    "I from r": "0.018106",
+    "I recorded": 0.01811,
+    "Bloch angle from (1, 0), degrees": "23.27",
+    "nearest special state": [
+     "H",
+     [
+      "0",
+      "-sqrt(2)/2",
+      "sqrt(2)/2"
+     ]
+    ],
+    "its angle, degrees": "22.469",
+    "R's angle from its nearest stabilizer state, degrees": "7.2243",
+    "R's nearest stabilizer state": [
+     "0",
+     "0",
+     "-1"
+    ]
+   },
+   {
+    "hor": "L_2",
+    "tau": [
+     0.4375,
+     2.3
+    ],
+    "r": "0.0092676",
+    "I from r": "0.018534",
+    "I recorded": 0.01854,
+    "Bloch angle from (1, 0), degrees": "22.369",
+    "nearest special state": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "1"
+     ]
+    ],
+    "its angle, degrees": "22.369",
+    "R's angle from its nearest stabilizer state, degrees": "6.1763",
+    "R's nearest stabilizer state": [
+     "0",
+     "0",
+     "-1"
+    ]
+   },
+   {
+    "hor": "L_2",
+    "tau": [
+     0.5625,
+     2.3
+    ],
+    "r": "0.0092676",
+    "I from r": "0.018534",
+    "I recorded": 0.01854,
+    "Bloch angle from (1, 0), degrees": "22.369",
+    "nearest special state": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "1"
+     ]
+    ],
+    "its angle, degrees": "22.369",
+    "R's angle from its nearest stabilizer state, degrees": "6.1763",
+    "R's nearest stabilizer state": [
+     "0",
+     "0",
+     "-1"
+    ]
+   },
+   {
+    "hor": "L_max",
+    "tau": [
+     0.1875,
+     3.2
+    ],
+    "r": "0.0075067",
+    "I from r": "0.015013",
+    "I recorded": 0.01501,
+    "Bloch angle from (1, 0), degrees": "16.787",
+    "nearest special state": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "1"
+     ]
+    ],
+    "its angle, degrees": "16.787",
+    "R's angle from its nearest stabilizer state, degrees": "1.5037",
+    "R's nearest stabilizer state": [
+     "0",
+     "0",
+     "-1"
+    ]
+   },
+   {
+    "hor": "L_max",
+    "tau": [
+     0.8125,
+     3.2
+    ],
+    "r": "0.0075067",
+    "I from r": "0.015013",
+    "I recorded": 0.01501,
+    "Bloch angle from (1, 0), degrees": "16.787",
+    "nearest special state": [
+     "stabilizer",
+     [
+      "0",
+      "0",
+      "1"
+     ]
+    ],
+    "its angle, degrees": "16.787",
+    "R's angle from its nearest stabilizer state, degrees": "1.5037",
+    "R's nearest stabilizer state": [
+     "0",
+     "0",
+     "-1"
+    ]
+   }
+  ],
+  "L2 slope of ln r": 0.2417,
+  "L2 slope of the angle, degrees per unit Im tau": -14.9857
+ },
+ "cells": {
+  "K1": true,
+  "K2": true,
+  "K3": true,
+  "K4": true,
+  "K5": true
+ },
+ "every predicted cell holds": true
+}
