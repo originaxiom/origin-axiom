@@ -1,0 +1,1407 @@
+{
+  "schema": 1,
+  "kind": "read_only_literal_source_inventory",
+  "source_commit": "df9845e14e7a47e8af6e261b9cef45016ca36120",
+  "pathspecs": [
+    "GENESIS.md",
+    "docs",
+    "frontier",
+    "papers",
+    "paper",
+    "*.tex"
+  ],
+  "git_grep_extended_pattern": "principle.{0,85}(tick|clock|own data|golden|Fibonacci|Sturmian)|(tick|clock|golden slope|golden rule).{0,85}principle",
+  "matching_files": 92,
+  "matching_lines": 186,
+  "scope": "Complete literal matches for this pattern and pathspec at this commit; NOT an exhaustive semantic audit. Historical copies and generated views are included, not graded as current claims.",
+  "candidates": [
+    {
+      "path": "GENESIS.md",
+      "sha256": "667cb61663d9f962e4f5ff3922679e1f0f5d13de22cb5aaca18af9ab7d2406cd",
+      "git_blob": "940286ee1924f6d53aefa15d524bcd1c14b09092",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "e8e621adbf0137c2cc9186860f669b3223dadab29f8428d3c4224b415307a22a"
+        },
+        {
+          "line": 421,
+          "sha256": "407d9ec4e034f64dc9d6c88d62620038c4697ee1809f60429be9d24502a312c2"
+        },
+        {
+          "line": 722,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "docs/CAMPAIGN_STATUS.md",
+      "sha256": "988d1fe8c4ccb492374d815dfb5c3a513dbb467a2afbe25b53012cb507de1d56",
+      "git_blob": "49e93a1dcf7d8f637658fa4b4a3b4679ec9a3385",
+      "matching_lines": [
+        {
+          "line": 81,
+          "sha256": "f5a2460156980fd2e0a8b448a92b6914f9083c989abaeb64fb1fd85f1cd7907e"
+        },
+        {
+          "line": 87,
+          "sha256": "c5b214e251c7650d91ba9b9e41f6f617b9861b6b2394d4370108544cf44ed990"
+        },
+        {
+          "line": 105,
+          "sha256": "deeba161926ed68059c15ca3548884390b6ed1c5b3f690d996b9a803e794db23"
+        },
+        {
+          "line": 111,
+          "sha256": "71ec71eff59cd4587d5ec6e520e390156d1181879490c67cbee86095e470166b"
+        },
+        {
+          "line": 133,
+          "sha256": "a066daed25b39a818d2cd61b00e66d0412d85e749b3e21bd9fc362d720cffc9f"
+        },
+        {
+          "line": 3230,
+          "sha256": "c8e8bbe60fa0b49310e8a67d7a2c83e9a70e7dc77067d7e1dc50b6ff926db0b2"
+        }
+      ]
+    },
+    {
+      "path": "docs/HARVEST_LEDGER.md",
+      "sha256": "21d09478db9a9c2810bba732efb2733e0cc1c1e1192893edba0d077b192e4912",
+      "git_blob": "371dd3dbaaf0a87bf8bea239b0782ce862b53ce0",
+      "matching_lines": [
+        {
+          "line": 960,
+          "sha256": "230eac9897e8171ca54bb2a66b0d061169b7c8f4af17fc2a91a900575d9d5f26"
+        }
+      ]
+    },
+    {
+      "path": "docs/LAW_MAP.md",
+      "sha256": "d7b11df5cabec272c81ecff1822a3f1fce265da0cdbfbd867cbfc4d03afa0ca7",
+      "git_blob": "0f926abf263cba1ca6eb483ec8a03146b46ec471",
+      "matching_lines": [
+        {
+          "line": 64,
+          "sha256": "b637f2479caea722779fc3401314562c28281e653c4755d2aae2637927d87173"
+        },
+        {
+          "line": 65,
+          "sha256": "98832e3469be1315dc3faa1badac6439181c9da4235fbf07bb40eb9af595703f"
+        }
+      ]
+    },
+    {
+      "path": "docs/LEAD_REGISTER.md",
+      "sha256": "3da2a824def3c7febaf9bff1d84e0a11b1a463d8efac0b530704b43745ff6ef2",
+      "git_blob": "1ff5fa0de713a0dc3370ca2f094ccfc9718f6a8b",
+      "matching_lines": [
+        {
+          "line": 283,
+          "sha256": "c8e8bbe60fa0b49310e8a67d7a2c83e9a70e7dc77067d7e1dc50b6ff926db0b2"
+        },
+        {
+          "line": 302,
+          "sha256": "a291611fb18f65f0a3774686a5189289a7047175ddfeac02e8d8b6306e1a3d59"
+        }
+      ]
+    },
+    {
+      "path": "docs/MASTERPLAN.md",
+      "sha256": "646b170e91c63006252d1998afc6aca21ce83f9349269a00c2ab5f4831a93af8",
+      "git_blob": "1d0642f45269d7175693e7f6d56f52845e6fcd9b",
+      "matching_lines": [
+        {
+          "line": 354,
+          "sha256": "c8e8bbe60fa0b49310e8a67d7a2c83e9a70e7dc77067d7e1dc50b6ff926db0b2"
+        },
+        {
+          "line": 373,
+          "sha256": "a291611fb18f65f0a3774686a5189289a7047175ddfeac02e8d8b6306e1a3d59"
+        }
+      ]
+    },
+    {
+      "path": "docs/OPEN_LEADS.md",
+      "sha256": "8a5c791791850a3389ee53f29263f5821becc82ef25e2e1daa2b892ad1cdf4b1",
+      "git_blob": "d93e4ae4b3d1b8ab427d8a7b9a1cc121fe2410d1",
+      "matching_lines": [
+        {
+          "line": 1302,
+          "sha256": "20f5d5b350f59f3351836437145895bb02679f8451c41e5043091d71a9496cab"
+        },
+        {
+          "line": 3640,
+          "sha256": "f717f215e656151955065b7dd8424acfe8770a77117a95d6dc67bf91f99ddea0"
+        },
+        {
+          "line": 3664,
+          "sha256": "816b5713ca65ec2ed671f7fb267812231f3e7d3696c792fe948290494a09823c"
+        },
+        {
+          "line": 3690,
+          "sha256": "a62d65da0291ac8b854a6a27937b526f4975e3735d155161fce4e8f2349203e6"
+        },
+        {
+          "line": 3861,
+          "sha256": "c8e8bbe60fa0b49310e8a67d7a2c83e9a70e7dc77067d7e1dc50b6ff926db0b2"
+        }
+      ]
+    },
+    {
+      "path": "docs/OPEN_PROBLEMS.md",
+      "sha256": "90e8f4b3b73c6b3c0c52bd4eaeb07cd9dc70fc7f6286bb0127522fac5e000054",
+      "git_blob": "9caddb75a3c5687425a25c0a1cd2460d8652c4a0",
+      "matching_lines": [
+        {
+          "line": 642,
+          "sha256": "c8e8bbe60fa0b49310e8a67d7a2c83e9a70e7dc77067d7e1dc50b6ff926db0b2"
+        },
+        {
+          "line": 661,
+          "sha256": "a291611fb18f65f0a3774686a5189289a7047175ddfeac02e8d8b6306e1a3d59"
+        }
+      ]
+    },
+    {
+      "path": "docs/PRICED_DOORS.md",
+      "sha256": "b3649b7f249aed11ed64c66e770fda34cf31b0247f4540966e7a4e58532c709e",
+      "git_blob": "30295f004cc072016c2282a33e16f3995d5b1d74",
+      "matching_lines": [
+        {
+          "line": 366,
+          "sha256": "c8e8bbe60fa0b49310e8a67d7a2c83e9a70e7dc77067d7e1dc50b6ff926db0b2"
+        },
+        {
+          "line": 385,
+          "sha256": "a291611fb18f65f0a3774686a5189289a7047175ddfeac02e8d8b6306e1a3d59"
+        }
+      ]
+    },
+    {
+      "path": "docs/RELAY_LEDGER.md",
+      "sha256": "6caa687fe5e42227112f5ab4c9b5fb578f0b85cf6ef2b0002a4470fe03291f7b",
+      "git_blob": "c4d999b49dc0dbf20a44a4c238dc1486d6bffd6a",
+      "matching_lines": [
+        {
+          "line": 625,
+          "sha256": "8c836284dfa1377b59cff7afff310a161b435adf08d90e5d6cc2a02f60112bba"
+        },
+        {
+          "line": 686,
+          "sha256": "101c13f85d8b9ba2b0ed1b5a35b1ed9e09bec8d810d712ef6721006a12ab999a"
+        }
+      ]
+    },
+    {
+      "path": "docs/REPRESENTATION_TRIAGE.md",
+      "sha256": "f48f8be63b8ae3f92cf187fc72a925304e5d711c35e66fc988c5c140b1f0a1fc",
+      "git_blob": "a819f7bbb1ebe11a3c4b6eff2f88b5f46d911df7",
+      "matching_lines": [
+        {
+          "line": 114,
+          "sha256": "94617b77420e4b13c75c8696e58f20c51b155116237c1608e34b6f480d33fa0c"
+        }
+      ]
+    },
+    {
+      "path": "docs/SEAL_LEDGER.md",
+      "sha256": "eb105c597af87e8601d7f36267608c4b26fcf0f0db3d8e26372c799fe33d1918",
+      "git_blob": "41a74d065ca9844412f10255badc0f25e264c594",
+      "matching_lines": [
+        {
+          "line": 109,
+          "sha256": "38005c393586a858bdb0e8b187a1661a8167918a218f8deb80dd6e5cd0ca6032"
+        },
+        {
+          "line": 121,
+          "sha256": "5691dab3126db3d3fb7c0cfad1b27a9b54650712993039c9daab587a6ef2df36"
+        }
+      ]
+    },
+    {
+      "path": "docs/THEOREM_REGISTRY.md",
+      "sha256": "1492368b7db696ec72afba66bfd1d80f45471fb4dc0891f258bf4c3595e5c8cd",
+      "git_blob": "51f91c01c6f84b7672725de582ab80aa343b762a",
+      "matching_lines": [
+        {
+          "line": 342,
+          "sha256": "42ed726eecc18eff019f6bcb25d9974a8649c347243b6b8921931219d2db89ef"
+        }
+      ]
+    },
+    {
+      "path": "docs/THE_CHAIN_STATUS.md",
+      "sha256": "208dfc787dd84d6a3ca1241a714e0726bb877829329c4143c4a3c110e9424fab",
+      "git_blob": "2b363407037bb85685ed101c06adad752b7236d0",
+      "matching_lines": [
+        {
+          "line": 92,
+          "sha256": "6a17ec9c898c00ab68026fb7076dda45a827f970c59f792d69fcb6db7b191bd8"
+        }
+      ]
+    },
+    {
+      "path": "docs/THE_DERIVED_STRUCTURE_FOR_REVIEW.md",
+      "sha256": "bbd6c9261bd8e582b299a6fbe5235da64e584f3627d00259b789193966a18348",
+      "git_blob": "a99475717f180d12394ebfb2aa5bf7b31faf4ecf",
+      "matching_lines": [
+        {
+          "line": 99,
+          "sha256": "b990ed9ba6c1d5fd1bccec8b332b4f6709469762b83f0a401f52bb29eb74b654"
+        }
+      ]
+    },
+    {
+      "path": "docs/THE_WEAVE.md",
+      "sha256": "a72de517f2d45d776edfc505ca6df2f1f0c998bd02a977ad334d9b8ff8dcb7cb",
+      "git_blob": "8382bf96eec8502edbcecc0bb2bc142a6f15a94d",
+      "matching_lines": [
+        {
+          "line": 115,
+          "sha256": "f19b9306acb4e88b17e0911199ef0371bc06b075cc6a7b44f884d4b4281804b1"
+        },
+        {
+          "line": 119,
+          "sha256": "a18732e65d1397272730d7aa05d00dffe4bd38a7dfc5e2ea377af23465098a4e"
+        },
+        {
+          "line": 245,
+          "sha256": "cd933413d27830a7fbd2872f8171c17caaaa9b4ad48ddfac64c2a9b85b7110c3"
+        },
+        {
+          "line": 255,
+          "sha256": "009602799d753b775923369f60d7f7103da8b116369a3e1eb37efabaafe7e2ac"
+        },
+        {
+          "line": 342,
+          "sha256": "6a5a9610c09eb0cdad03c358cac372b7aa6a95b679aac8ab9f02c842fdcfa916"
+        }
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-15_THE_PAPER_CONSULTATION.md",
+      "sha256": "194295214a4e15ae75ea54bd532f27d68f5b1c44c43e146d0dc117c20105ac49",
+      "git_blob": "8369d87f7c5fbc79485bb21d794b8de34110cd7e",
+      "matching_lines": [
+        {
+          "line": 210,
+          "sha256": "865ebc57c86108dbdfa16950020a75c15dba3df83d472098012df6eba476419b"
+        }
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-20_FOUNDATIONS_AND_THE_SEPARATE_WORK.md",
+      "sha256": "c06a60f9e2f43c3f553bb8eb1d1ff14f278929bd51288ca30ad90fc86fbc856d",
+      "git_blob": "e17b767781e262e37f2cbb7fc3b9e34755c72834",
+      "matching_lines": [
+        {
+          "line": 82,
+          "sha256": "61c7114b2179932f4e14cc6703f2e0fa71cad2ad791e1d5c697be127ad3ef015"
+        },
+        {
+          "line": 83,
+          "sha256": "89482ad95c81c5a8e65d51271fc4a5585ddc278e3627a7613286d3c20e187bd8"
+        },
+        {
+          "line": 84,
+          "sha256": "f7b0fbfe7d34ef0363c12ce881081d5909a33d5bd543bcd5e74c0e6209df517a"
+        }
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THE_PRINCIPLES_TICK_AND_THE_TWO_HANDS.md",
+      "sha256": "90e8a2eda33327eba6ac9e23503dd0fe3c4dbe72fca045aaf191b7b8abf58470",
+      "git_blob": "bddb5670b80c08495e5333514ef09745aa4aec36",
+      "matching_lines": [
+        {
+          "line": 1,
+          "sha256": "bf2cb86d2f33d9938f4d067408bd607379d2ef6f7c3b2096640c76480a8d4678"
+        }
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-09_THE_RULED_BRANCH_AND_THE_THETA_LIFTS.md",
+      "sha256": "fec7dd5edac4b6111addaaa135c6892a5e7d4c0533734ce6baa19664e1b6d75e",
+      "git_blob": "294a1c1694a55c4fe2a355765b98f9ffd2824dfa",
+      "matching_lines": [
+        {
+          "line": 72,
+          "sha256": "c2a561515bf0d2b6de4d9905155bbfc493672d83801a93cdf50c2ff59c592da9"
+        }
+      ]
+    },
+    {
+      "path": "docs/progress/REVIEWS.md",
+      "sha256": "d62ea6ce1942bdb5e696c3a5d1b9e64274c8a7a44689ea6ba5b0dc2ece42ec7b",
+      "git_blob": "2bb703e5c17f95514259aed90990f533a76ced0d",
+      "matching_lines": [
+        {
+          "line": 1376,
+          "sha256": "842dbcfb970f785c45fab5c45d97d74c11cbfc84c980159461d2a0b2beca31a5"
+        },
+        {
+          "line": 5946,
+          "sha256": "ef7f51fe7385e0437bba42c1fa772d4fc0b1de6bb13229096764b5c1e85c07ab"
+        },
+        {
+          "line": 6082,
+          "sha256": "9358fd7561f913f466aaef78b38a28f6f4739ad1ecb2125c2fee0173e91cf403"
+        }
+      ]
+    },
+    {
+      "path": "docs/views/THE_SPINE.md",
+      "sha256": "7e4e6de0b3748e078311a51e403007dc31f468379610e99394d8f79dd6c223b6",
+      "git_blob": "6c992b6d9e5b16c125ca2b9b036be2b13b7bf1eb",
+      "matching_lines": [
+        {
+          "line": 1638,
+          "sha256": "e6d0d5657956a0db59dbda999e19975cf50df7afebe6ed0c452091fed384407b"
+        },
+        {
+          "line": 1654,
+          "sha256": "52eb4bf5217bdaad38822f927040bc9b7736eee1a583eeba687ba5cc9c6f8744"
+        },
+        {
+          "line": 1657,
+          "sha256": "fabf456e1e60dc5eb3f50834f9f1adb926667c30835935de35c7e248b28005a7"
+        }
+      ]
+    },
+    {
+      "path": "docs/views/VERDICT_LEDGER.md",
+      "sha256": "b429ee58e8febe1421dede962e45bd88b6529acb09fbaddf30cefc64a499cfff",
+      "git_blob": "488fe535472115ebeee5f270f208bd8a9d8ee4a5",
+      "matching_lines": [
+        {
+          "line": 914,
+          "sha256": "80a89b29dd354e3643d5fe9dc09e1d842ad84106ed4ee681b290b32fe875cb05"
+        },
+        {
+          "line": 924,
+          "sha256": "70457d7bdc9d9485900ebb048bde59964a987127e51699f6eeb2700277012ced"
+        },
+        {
+          "line": 931,
+          "sha256": "2203a63309636711dfe86cfda9c5b000abee400e88b68a2395386e27b2fe79c6"
+        },
+        {
+          "line": 935,
+          "sha256": "87b9540c402d1743df757a5bcd0669a748c72fd13c982e3a3a5a1bc2e4956059"
+        },
+        {
+          "line": 1306,
+          "sha256": "1b6cbf6f09d5fd46fb6a937b5391fa6f680d71bad46042b698ae007c42a1ac28"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1126_identification/b1126_NOTES.md",
+      "sha256": "cf369e72b8eee16b71de554c75d6e3c5425f44ca0a30c0c577f14d6101641b1b",
+      "git_blob": "396f604c50e69f0634050d2cda561c0384396802",
+      "matching_lines": [
+        {
+          "line": 219,
+          "sha256": "e4589fc749db8b3fef6e12681962a74b00c6eda5f78affbdea6b2b19b0c67a52"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1341_the_action_of_the_object/FINDINGS.md",
+      "sha256": "e58162d1735db6a29933297ca0f1f8f2cac6856555b8776ab789751878ef3c0e",
+      "git_blob": "1878cf0d88677ba82530c12506e25825e5804f68",
+      "matching_lines": [
+        {
+          "line": 1,
+          "sha256": "de777a4780c6077bff59e76f887a0ecac6a407b15be19cf2793a425bf1cedb24"
+        },
+        {
+          "line": 47,
+          "sha256": "21b6a36a47b5dd50a60ef751853d3d3317dc67cb81284e3334f166f3b255b9ea"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1341_the_action_of_the_object/verification/b1341_least_action.py",
+      "sha256": "b8225227a6d31b6f2a3397eb96a766618142540b3df542f5990eb711e74831be",
+      "git_blob": "57ce50b2ef52af33cbaa0cb54625b0c6730e3c1a",
+      "matching_lines": [
+        {
+          "line": 19,
+          "sha256": "0cd08f17067b71e74b999704b21556926070dd134a9ebbe4d2c4cefd132bf814"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1457_the_audit_lanes_source_records_harvested/verification/readers/batch_4.md",
+      "sha256": "65b39e6c078bbac764a10cc725d74b39e63096a48a001e7f94d0c15296849a66",
+      "git_blob": "9b7a180359f7a7b7784d56ba0989f63fba537325",
+      "matching_lines": [
+        {
+          "line": 15,
+          "sha256": "b71b8be07003147334acec26e377c04d7d0579b44f9df0b48e0f4898c186e425"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1607_the_principles_tick_at_the_common_point/ARTIFACT_HASHES.txt",
+      "sha256": "7074888490c2de3f625b84376b1f3e0c8decdb5bf6f78f3ff3d5dabaaa247bb6",
+      "git_blob": "635143f2b27a59a17267fa754f2f31b9f96af473",
+      "matching_lines": [
+        {
+          "line": 1,
+          "sha256": "7d167b8b351ca57eced5b85cf595438dd63df15c01a0f5f11ea0b067344787b1"
+        },
+        {
+          "line": 2,
+          "sha256": "de4efa88d0a9eb725c9945068624e086f773c9d8fe6664352d0691ba3c607335"
+        },
+        {
+          "line": 3,
+          "sha256": "db61a0e64487c928f79ec57544df8e0572d6ad3b28e7ec382cb9708203e50a7b"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1607_the_principles_tick_at_the_common_point/FINDINGS.md",
+      "sha256": "accbaec414c209cc8756bf428f0aac765a488b6f0c072f40881e4f532f80b4e8",
+      "git_blob": "dca32fd13ec78cb9544d54a238b21b1cc1faae01",
+      "matching_lines": [
+        {
+          "line": 1,
+          "sha256": "a1e0a1096bf44339f2bb878bc0cb67899e6c43e0b67ffcf49121202b8a57a1c1"
+        },
+        {
+          "line": 4,
+          "sha256": "7101129ed34c389c75684f639fb3370793ee8c8ce9295b2f9671d4cd765eab6a"
+        },
+        {
+          "line": 23,
+          "sha256": "3b29ac8838b960ef4d4deceba2990d60db3e4cfcde2dd7a3b04f82b72dab4853"
+        },
+        {
+          "line": 38,
+          "sha256": "840af71275dc6c0801688992866524dd26ea604132f833928927999e6812e792"
+        },
+        {
+          "line": 42,
+          "sha256": "0d85585f53595f451b7cc8293632339908687e42836fa380362be00d4915bc27"
+        },
+        {
+          "line": 88,
+          "sha256": "cbbcb00c4755932b3dc39f44fcf0ad75a2b2bb7d6cfcbde97fe26c5c2c46de7c"
+        },
+        {
+          "line": 90,
+          "sha256": "36bf78aacad29d3c5b8548e369a844fb2d2a1b3bdd0ec1e13cb58100a932df69"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1607_the_principles_tick_at_the_common_point/PREREGISTRATION.md",
+      "sha256": "671d6328b960d94e781baede556ea797c21864782be3ba074bff0d8454ceb0b7",
+      "git_blob": "ec19c145597c9c493607c72a1db5b162e96ad103",
+      "matching_lines": [
+        {
+          "line": 1,
+          "sha256": "98ea5b970cfeb43cdeb78a256bd8966fc4901df49256914a3c0fcc3b7b49af6f"
+        },
+        {
+          "line": 4,
+          "sha256": "d1acc3e1764c40bbba9280897e5ad0cf2d41cb574de1eea3bd6e7e7a6d187f24"
+        },
+        {
+          "line": 54,
+          "sha256": "2a0db5dd3ed008764a39547f326005939db874abc309e81d0a123223a3f64633"
+        },
+        {
+          "line": 68,
+          "sha256": "98d265a9caef47f31f01969035b8ba2c3473fc91a12cd2b67383c7c4deca28c5"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1607_the_principles_tick_at_the_common_point/adoption/amend.py",
+      "sha256": "18a92a0890964a76e8f64c9ddf1bfa473c4b0354e9ec1d1b1cd0afae1bf2ae6b",
+      "git_blob": "d91a9bebc588e944cfbff4aac1f1f1bf5417fd3e",
+      "matching_lines": [
+        {
+          "line": 2,
+          "sha256": "1d5f6ef2fc1f8048ddfa74ff1fd6ab43d46b4c6a8b197e478b5ae56801ba8bb2"
+        },
+        {
+          "line": 15,
+          "sha256": "1c310c0c92e1d44d167c20ac42d0c170619a26dd76e6a7a8803e28a9e5fc0960"
+        },
+        {
+          "line": 18,
+          "sha256": "6b1c4a58149d23824706c29f5100a1b5312be7c32c1e4d05e65b1453419c28f6"
+        },
+        {
+          "line": 37,
+          "sha256": "94cdca5cd13fd4e117798b9f567c4663f92bbf7e11d18b67fc2a0f9d93319c0d"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1607_the_principles_tick_at_the_common_point/arc_verdict.json",
+      "sha256": "039f052be7ab44ef58dc81983dd93db4f6057559c2714b210adbc2a113521862",
+      "git_blob": "9cc6139de3b0edbe59a6093535e00d737db8541f",
+      "matching_lines": [
+        {
+          "line": 28,
+          "sha256": "48e17d54de213de4f7d28936765405e0804251b9af8875d1e7d324123f994264"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1607_the_principles_tick_at_the_common_point/verification/principle_tick.py",
+      "sha256": "322a645152652fc2e40c6684941faa6971ffba56817b81c7a3e5e4c388a4c1ba",
+      "git_blob": "8a9e85b683754d5e16ad38c58fe8383ef46749e7",
+      "matching_lines": [
+        {
+          "line": 2,
+          "sha256": "19d4822d9fbc48b20bc034ec5ef36507f2c7469fcc558a4700e8fc8c89d9622c"
+        },
+        {
+          "line": 21,
+          "sha256": "345a51a04f258a386589d4dccfd9af1a02bc766fee98b2e162c16c6fce8bb269"
+        },
+        {
+          "line": 224,
+          "sha256": "3decdd921c1d7da83ac9c63a364cff66176df433b240b44c75b45675c7483a9a"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1607_the_principles_tick_at_the_common_point/verification/principle_tick_run.txt",
+      "sha256": "7df1abb01882553e13c128bbaed8e6101ae0def6ca1e94e76571124c99313c1e",
+      "git_blob": "e961294b58610b4c91f90227b10654f2a710774f",
+      "matching_lines": [
+        {
+          "line": 525,
+          "sha256": "a35ccd81d08518df00219a6e15465dcb1588a2869d8a61989c2d0a0d86ceddd1"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1608_review_61_the_weaves_window/verification/review_tools_output.txt",
+      "sha256": "cce35a3f9e45689a49d226d1dab4ff8f373162d8c18b75c99e83d8f74c240ad2",
+      "git_blob": "351e5e1f301d02301b88cb177f8af7b5ec2fcf3a",
+      "matching_lines": [
+        {
+          "line": 29,
+          "sha256": "0aa2b4bd9f6bb80be77e88ca19e68a5cb4f722d4db7ba6e7c51f888dc3611054"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1608_review_61_the_weaves_window/verification/review_tools_output_fresh_clone.txt",
+      "sha256": "385cf7b0d4f6f042b3409ea118a3cfe28f94a3b3f72a876d23ca951806025a08",
+      "git_blob": "b9c4cc08f9453195fdd4a5fd3ec9cc6bf8a34823",
+      "matching_lines": [
+        {
+          "line": 29,
+          "sha256": "0aa2b4bd9f6bb80be77e88ca19e68a5cb4f722d4db7ba6e7c51f888dc3611054"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1609_the_even_subweave/adoption/amend.py",
+      "sha256": "842a9ab8253029cc745448fc08e5f575eed74af43418e80e1d40f50f5ce529f2",
+      "git_blob": "6b1f51027f6e1afae8b324f0bed56bb0b186a9a1",
+      "matching_lines": [
+        {
+          "line": 31,
+          "sha256": "d1b3159dc9ae5a739d009327215b5f54987c0d18ceaebae124f58caf9a3adca8"
+        },
+        {
+          "line": 34,
+          "sha256": "cddd1b29e5d8ec892ec9a3aeea727882a4143637929f4e31515481ff295927f3"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1609_the_even_subweave/received/GENESIS_v1_29_main.md",
+      "sha256": "f0e88ea19cacc41268236e0fe65a133655c96eed6ad8382c6dcafc79521fd858",
+      "git_blob": "9228a7d6db3f2a9b3053911cc3139c24c3a66e86",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "2e32a75febd1f909a4584447f47b8fd973f209078f19b0deab3f9c75767ff769"
+        },
+        {
+          "line": 684,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1610_the_hands_on_the_founding_torsor/FINDINGS.md",
+      "sha256": "a73703c3ccee13645161b0bd8247ad9e829fa0e3661810958c156c0325b4985d",
+      "git_blob": "db5dfd53294154da63e4e0bf5e6bc86a18f306bb",
+      "matching_lines": [
+        {
+          "line": 25,
+          "sha256": "f2a5fd9f14916099ebb8ca1a340ceb7807f3482979f429e00e082e5cb813dd68"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1610_the_hands_on_the_founding_torsor/received/GENESIS_v1_30_main.md",
+      "sha256": "ee3496e3f8d4d98a075c9ed49bbd6edfa28809729a5620b090534f9e169675f8",
+      "git_blob": "ba40f7fdbe805e7ffe990e894a304b35607ff008",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "d7b4bd7d69fd8972adf9a0e197fbbc65f6d1d9b1e2fec9b1536c4185ee0801d7"
+        },
+        {
+          "line": 686,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1611_is_cp_violation_forced_on_the_weave/received/GENESIS_v1_31_main.md",
+      "sha256": "45875b5bbde3e70ddca6211caa141d8a647846d75380821a87081ec55ea8eab8",
+      "git_blob": "54d187fd80e7438e5a0feaf497ede82daf9028ba",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "ee5c17aa46fe7111ea54e7277a194033299b7c20926d142e278e2a4df4b83d04"
+        },
+        {
+          "line": 688,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1616_the_neutrino_masses_on_the_weave/received/GENESIS_v1_32_main.md",
+      "sha256": "997a6e044bfcac56bbe908d8061921e443c1a6a977fba49bc499ea338c4840fe",
+      "git_blob": "62fe57a46dc8c897c445e25d5c5751836364db65",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "80b22bcbd05e79d03a6833106fe5005d4aec34c8803d017885d81f5d8b956cf6"
+        },
+        {
+          "line": 690,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1617_the_weave_at_tau_omega/received/GENESIS_v1_33_main.md",
+      "sha256": "c47ffdffde19b9c6e1ab8e2155fdd5d2b6cac195900339b5c614c9e9ed404dce",
+      "git_blob": "c9ed4e3ab4fa5ca675393fd3cc1bc951bda3ba29",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "97c3e1738108302747276dafdad5e33f59a3389a7d91b221d3f6580e3b854531"
+        },
+        {
+          "line": 692,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1620_the_breaking_the_weave_allows/FINDINGS.md",
+      "sha256": "352ff1f44c2d99c9e8bb30ce35ebaa039fd9ef93ecc7958678b8e1340c5f81ac",
+      "git_blob": "d4652e26a384f99b38b42d8f38366d49bf89b807",
+      "matching_lines": [
+        {
+          "line": 1,
+          "sha256": "14e52ad5b1d06dbb9f9966eb923ae6b89640784587eab3f6b25b8222672b47ce"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1620_the_breaking_the_weave_allows/received/GENESIS_v1_34_main.md",
+      "sha256": "71be2dfe0e55c2b8acf6ef452840eeb03120b70ec6b3097c64d1dd03129f1d57",
+      "git_blob": "dd04dd66c9f9efc74e84ff74c06ee0c72f65874a",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "0f0809f967cd517adc26dd8d8b1e74232cc8e8c9bd04169172e2817eac55872a"
+        },
+        {
+          "line": 694,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1621_the_principles_clock_and_tick_on_the_matter/FINDINGS.md",
+      "sha256": "13be3e8e3a6e9a1291fda0f8d2473cbbb321bc8954e23e89effc0497fce38774",
+      "git_blob": "8e8d9d46c592372457db3f9f6e52fdc5ebaeaab9",
+      "matching_lines": [
+        {
+          "line": 1,
+          "sha256": "b761a13568ca8353ec6afa481f2e58ce4cd58828bfe7dc6593f5db34542a107c"
+        },
+        {
+          "line": 5,
+          "sha256": "533e6bdabdfce032924683f6a50fd13dc6e78091cfb8c61e8efa5e4e45178bf3"
+        },
+        {
+          "line": 43,
+          "sha256": "e52ec88bb40895f72ab22e6072cf2e6961b078e5169d19a745427c39c2a091af"
+        },
+        {
+          "line": 58,
+          "sha256": "0732d247629ebfe92f09c1bdb28d6fb0ae976c3e062140f4e215adfa9ff2c337"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1621_the_principles_clock_and_tick_on_the_matter/PREREGISTRATION.md",
+      "sha256": "28a51488ecbd61da4d38e53ddd727977885bbc72d8f76b919da239fcf381ca38",
+      "git_blob": "6b9fd17c2aa7ee843fa5d310966fe8202544be4d",
+      "matching_lines": [
+        {
+          "line": 1,
+          "sha256": "43e2394ac4dc4c9d3a97a361d46ccfbeb310abc44f381cde212902a7fd7bbca0"
+        },
+        {
+          "line": 5,
+          "sha256": "ae7e1fb979898b470234a54c91cea9c4bab44d3f8a2b02be7c4451431eb8ccde"
+        },
+        {
+          "line": 57,
+          "sha256": "ce0b08b2fd512f83e4e5cac3227068ed838ea59ce16533ec63484dc55c1dfa67"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1621_the_principles_clock_and_tick_on_the_matter/arc_verdict.json",
+      "sha256": "86f8188510818560cf0c4f8971abc772da8352011317b3ed98568ff29914b7d6",
+      "git_blob": "b6cbff07a299e69c6b4a940ff296e38468f651d2",
+      "matching_lines": [
+        {
+          "line": 20,
+          "sha256": "77f41d8d9b60ec1db87d1a5a31835b6483cb98b4aead2bae35e1b84eb349d53e"
+        },
+        {
+          "line": 25,
+          "sha256": "7e58819951b9695b2bfee8fbe0c04308270d25a4fa20ad6e2c46298b56ad1970"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1621_the_principles_clock_and_tick_on_the_matter/verification/clock_and_tick.py",
+      "sha256": "425eb45b28b5d37c0795c521fad7acecd9b3ab691a37d1cd198f6cdb916ee262",
+      "git_blob": "0586eaff9c53a4c6005e8fb167be11568dfce5d3",
+      "matching_lines": [
+        {
+          "line": 2,
+          "sha256": "2c6120caa2c3d76a2f685546e52b97bdee3297151fc00863a18ccb5267ae389c"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1622_review_62_the_flavour_window/verification/review_tools_output_fresh_clone.txt",
+      "sha256": "a9eaa69a83e138a45ac06c903887337fec8a2e69d2d453a8671e5eecdeeeaace",
+      "git_blob": "fb3d7727ea386ebc666da80218f54730bdeeccd6",
+      "matching_lines": [
+        {
+          "line": 26,
+          "sha256": "dd2c6a5273d93d636f5fd69b910a30ac37c7932445a54de34c37301f453d326a"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1625_the_seats_corrections_to_b1620_taken/received/GENESIS_v1_35_main.md",
+      "sha256": "6b2112ffa8fcbdb0316e5a0d10f18ad90e298772e2a6a6bc57c8286b4d730072",
+      "git_blob": "e267365c2b86541312c6a9cef0b76b9f5097c696",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "2afdda20974458cb91a39f659c23bc3dfb33383bf7e44858b929a1dcdb05921b"
+        },
+        {
+          "line": 696,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1626_the_relay_closure_pass/verification/r62_5_apply.py",
+      "sha256": "b61d3eacf5a3af1893141a988c13924bd60cd1f3a2324b938e93e5b0fc08961c",
+      "git_blob": "78016f5651e71d3a93987f2bf4a05fd63ae6f364",
+      "matching_lines": [
+        {
+          "line": 67,
+          "sha256": "a18bbfc0b83aca92dfabf1a2132a2d924b2f2e429b7d20facdee0d82e577bd6f"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1627_the_cusp_unit_kept_open/received/GENESIS_v1_36_main.md",
+      "sha256": "b175ee644f31f25942f81eb9e479f312dec20c4f1c528d82a2d47ccfeb10e73c",
+      "git_blob": "32f2bbf334c1fcdf8c2e6613b0f399005f8ca458",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "d3424572b451cc03653050e8cd6e10ab26450f1145e385c156b4d6e7f5ec372e"
+        },
+        {
+          "line": 698,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1629_does_the_principle_reach_the_weaves_cusp/ADDENDUM_2026-10-09_the_audit_lanes_questions.md",
+      "sha256": "b1f9f56d54cba2e7ce6d6f982fcad4c9df9b22cf93ac76270d0022c3eaf6599a",
+      "git_blob": "e974f11019be39952ffabc74af48e206843749b8",
+      "matching_lines": [
+        {
+          "line": 22,
+          "sha256": "bba37bb363826fd4a1b0ce57a75c9247cac11191371c1f47b9cf7a4e452961cf"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1629_does_the_principle_reach_the_weaves_cusp/FINDINGS.md",
+      "sha256": "ddc0d6fd9cae6337c82d5e5ba251a302eed693aad5a01241831dbb81b9c77863",
+      "git_blob": "44c025418f2b0cdad95e0cac696f9d6a60a90967",
+      "matching_lines": [
+        {
+          "line": 1,
+          "sha256": "a165ff453c84ed248bd52c28f214117405d8ac7bbbcba280851780c9e9bd592d"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1629_does_the_principle_reach_the_weaves_cusp/adoption/amend.py",
+      "sha256": "ec000201dd75b67a99a905a54f5adac61a1639c2bf70c35666959df852104add",
+      "git_blob": "bd313a3570d77afbf64d305f081cbc559ffa4e44",
+      "matching_lines": [
+        {
+          "line": 13,
+          "sha256": "0f4fe2d66554c31f1acf4d09e0cb1c4ca35569faa80856d2d095482570e2b2a3"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1629_does_the_principle_reach_the_weaves_cusp/arc_verdict.json",
+      "sha256": "c4bb09d2902e2af01197878f0a774e3bb96f826a68022e4e413cfa3e28409f8f",
+      "git_blob": "268cfec268cf2fa9804bd530dade5875c03d1f46",
+      "matching_lines": [
+        {
+          "line": 19,
+          "sha256": "359cb4edd02c8f023d811621af0e6f49a4cf46498f348f918cb1229bbb94b0fc"
+        },
+        {
+          "line": 24,
+          "sha256": "cd3eba5d9d0c48d7ed29809428dcf033bb1bcb7e58dc5002f3f6f22319118ed6"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1629_does_the_principle_reach_the_weaves_cusp/received/GENESIS_v1_37_main.md",
+      "sha256": "5f58fda05ede5cc987d1e0553b65b748a67707164445590252ce14e266349cca",
+      "git_blob": "5c914388474c72e99f6c5db3edb42673ec934bee",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "d3424572b451cc03653050e8cd6e10ab26450f1145e385c156b4d6e7f5ec372e"
+        },
+        {
+          "line": 700,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1630_the_ticks_point/FINDINGS.md",
+      "sha256": "c4b6ba94416175a0262e19973d83357f1d82883839efe1be4c8e5f90cc1ebc1a",
+      "git_blob": "10e8af738c6bb036d898330a45eeeec6d3bc6c40",
+      "matching_lines": [
+        {
+          "line": 1,
+          "sha256": "f1bbf78dfce53c8daaad4f3452848f59b22dbf211a726b96a177395b0b1d65b5"
+        },
+        {
+          "line": 38,
+          "sha256": "3a6fb262194f31508414ef7a0c7a7c366b09829f00098108592cf139fba688cc"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1630_the_ticks_point/PREREGISTRATION.md",
+      "sha256": "06be2ab5550a14db0d89884dd73b07a2dc4fbaad97b502ad49547ca1ef584be9",
+      "git_blob": "91c71da282cdd462bcc4ab8702812b400772e58d",
+      "matching_lines": [
+        {
+          "line": 1,
+          "sha256": "5c71f63c4a6e674041bc923e51356be8aeafe35aa8c697365498675ae5284e36"
+        },
+        {
+          "line": 40,
+          "sha256": "05b2e881275d83d3057e94e6ba89a8abe8b04c9039e77dfb1a7830918080c7bd"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1630_the_ticks_point/arc_verdict.json",
+      "sha256": "7ba19520df42fefd9eb16c1e1d858f9eaed7953accad10af7674d4b74ef1003d",
+      "git_blob": "6b6499b295e4d061d09cee39bf6e1bff85f4ea1f",
+      "matching_lines": [
+        {
+          "line": 24,
+          "sha256": "edde7f29bf251bd6090683e977c8899ad2e577e2f85ee664ae68c8e8c507a9cd"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1630_the_ticks_point/verification/weave_at_i.py",
+      "sha256": "d427fc4aca3e021c6427b412b869fc137f17f6925bab019414a5b7a3467babee",
+      "git_blob": "45288ea2dcbefff738ca5218522533bcbf6ef40b",
+      "matching_lines": [
+        {
+          "line": 2,
+          "sha256": "4ec2295e5d93b899dc888f7b1eac61f2dbecb0291e84bb630fb523efa23f9c4e"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1631_the_cusp_unit_tagged_and_the_negatives_audited/received/GENESIS_v1_38_main.md",
+      "sha256": "961a80617efb6dff81b2174f382c41495c8acbb91574f10e9258f6fcc0f6bfe7",
+      "git_blob": "b96d0ac524e2eb076abd0bd543c3f60bf81d6532",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "d3424572b451cc03653050e8cd6e10ab26450f1145e385c156b4d6e7f5ec372e"
+        },
+        {
+          "line": 420,
+          "sha256": "90052a0866f5f9ec65a3c7992094adff496cc01885ac01a5e7a37e1167d13d0a"
+        },
+        {
+          "line": 702,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1631_the_cusp_unit_tagged_and_the_negatives_audited/verification/audit_sweep.json",
+      "sha256": "dc49dba013894e3068577dcc041331a48459facca4a9f1763c93dd942bb63fde",
+      "git_blob": "a934efbc2a0e9423559fed041e7718fd1e37ec01",
+      "matching_lines": [
+        {
+          "line": 243,
+          "sha256": "fadd021f8913b7f28ef55fdcf467160a356167e744832747b8c7b0372efda9c9"
+        },
+        {
+          "line": 249,
+          "sha256": "e1452b5a6e5ec96b50e3b7ff5e0a45487716e68755e81c407bfdf621bccb7a1a"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1632_w45_verified_on_main/received/GENESIS_v1_39_main.md",
+      "sha256": "5658f35e058bc746549a07a3904177c3391bee90fbdf9d65dc21448042cfd772",
+      "git_blob": "b247ae464747e3d93ce9523fa8ac82bc2d275cf7",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "d3424572b451cc03653050e8cd6e10ab26450f1145e385c156b4d6e7f5ec372e"
+        },
+        {
+          "line": 420,
+          "sha256": "65fd781daa79a7e21f6d5524ff98d9d507bbf23dc2bb8026f02887b44a5b1afb"
+        },
+        {
+          "line": 704,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1633_the_weaves_word_coupling/FINDINGS.md",
+      "sha256": "8e290f9fe74c751697015470c0ff9cc28b2d1d7332757c96ed512e476bf1e1b8",
+      "git_blob": "0cc60779a626acdd74adaeaa6679d68d333c520f",
+      "matching_lines": [
+        {
+          "line": 31,
+          "sha256": "fdb644e642b9ca07c9f4d51c68b435db2baa2b7ace88090f7e5cfd51019a5285"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1634_w50_on_main/received/GENESIS_v1_40_main.md",
+      "sha256": "0b723329ff6386fef1d9d4be8a27c40d49227fa9d8fcad95febe2158bdd7923c",
+      "git_blob": "e011df306155b231d192cd48687348e9ba1be51b",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "d3424572b451cc03653050e8cd6e10ab26450f1145e385c156b4d6e7f5ec372e"
+        },
+        {
+          "line": 420,
+          "sha256": "3de107fa84c6de43f0e26b493e1b6adfc8b18958663b130c21ded0163c1a56d1"
+        },
+        {
+          "line": 706,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1636_the_golden_spectrum_on_the_ticks_geodesic/FINDINGS.md",
+      "sha256": "8e05105f961938f9b6c09406a3c58aae46ac5c754f515f8145d260637b113708",
+      "git_blob": "2788c388f4e66991b7878617fb62e4cf76914ea5",
+      "matching_lines": [
+        {
+          "line": 1,
+          "sha256": "5a073c2453fb775d169dd4dc8a287fc791bd5bdd29342ce22c480de55f65e923"
+        },
+        {
+          "line": 50,
+          "sha256": "6022f64eec0a91a7ffd904206c39ca2664e6f17b7b51dbb8f626b49850cd22f6"
+        },
+        {
+          "line": 59,
+          "sha256": "44a1e2fd58e27c02404c4398f19df537d06e6bb1eb00197f2d9ee3a33d49076c"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1636_the_golden_spectrum_on_the_ticks_geodesic/PREREGISTRATION.md",
+      "sha256": "19aaa9facde081787d5395388a50a7811b21e0cb7304404ec54397d7c36fc19e",
+      "git_blob": "3dcea303bf79a1bd64e1422a75976307afc77495",
+      "matching_lines": [
+        {
+          "line": 9,
+          "sha256": "acd1e222207e7ed9bb1ec050580c362378a4081424ee6c72bd7ace214411f9ce"
+        },
+        {
+          "line": 44,
+          "sha256": "e4b3491002006b0dab8bfa27e7a9b375ad82bf37e6147a8561cb58166ad51207"
+        },
+        {
+          "line": 49,
+          "sha256": "741ec58b74f2b371875cc3de6a4e115a9be95055ce62b47b8499828f7424006a"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1636_the_golden_spectrum_on_the_ticks_geodesic/arc_verdict.json",
+      "sha256": "d74d9f103308217370b7e8543eae8768833b566d6bd09671568c696cb3be5674",
+      "git_blob": "b840afaad889d99c72fdff44172213f1c7b950b0",
+      "matching_lines": [
+        {
+          "line": 22,
+          "sha256": "3f0b387cb24039c764f615e65636500c44ad66d6ad8102a658dc2bac9fde52c1"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1638_the_golden_identity/FINDINGS.md",
+      "sha256": "dbcf31272176d125c878e324ddb48c0591db135d854e8257eb556d13e06c46ca",
+      "git_blob": "4d92fca39458c30d5bace766d3f0d46e482f9e8f",
+      "matching_lines": [
+        {
+          "line": 35,
+          "sha256": "a82314c43b12e3532f1a7b704e5820e97127a10b27cd05474f76eeec9822fd96"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1638_the_golden_identity/PREREGISTRATION.md",
+      "sha256": "34afaf1d63624ab1f45c1764cfa96d529c2172dc87529f68cb98318fddd3fb2b",
+      "git_blob": "ab69876d7ccfa611a5aa5735d2c4a92cafaf43ff",
+      "matching_lines": [
+        {
+          "line": 6,
+          "sha256": "d10a477796fd984cb1063f3269f596cd2c3956ab3cf6a4758f6ba8d63bb4dbc0"
+        },
+        {
+          "line": 48,
+          "sha256": "5c91063ebac14be77c839942641a011353220b9da8942fa43058ed842af40d1f"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1639_the_golden_identity_from_ramanujans_quintic/FINDINGS.md",
+      "sha256": "184e1e0197e4375e956360fe4ec0395403a6b6974c94118dee961956a00cdfc6",
+      "git_blob": "fdd25d0676ed9d26bada21593b272e7ab3eea5c3",
+      "matching_lines": [
+        {
+          "line": 47,
+          "sha256": "9eb0590e850f4a29e1030eadc32c672c5ed84818c548d50395e19e1783d0cac6"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1640_the_frame_audit/received/GENESIS_v1_41_main.md",
+      "sha256": "6ce527af24f06be696b804cf3d9ded81c1993121d77defad0ce45a6467414125",
+      "git_blob": "a9d43f359e040aac33b152c74b28d171f086ab61",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "bab8c028640d502c0e3c6c40f5ca5806a531aa95b3bd18b00e738f666ed6ebd9"
+        },
+        {
+          "line": 420,
+          "sha256": "3d572b92fbf484005202a7ff0b6e64390009fe4122998820cd7ca7dd8ae2c546"
+        },
+        {
+          "line": 709,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1641_w46_on_main_and_the_two_objects/received/GENESIS_v1_42_main.md",
+      "sha256": "6991b5f7334d4c51e7269df9cc50b747e6669f12b5b23afc1d8ab8ca3297b00f",
+      "git_blob": "428ffa97e1749ffbb457f4838812a388c9960ea3",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "bcd651eac444aeee6b420e0f00d6f55a26ebd42756755da0cd6104ae5f250828"
+        },
+        {
+          "line": 420,
+          "sha256": "6d8be8a468b3ed6542704a863a36815f85027bdbae5a500a0e943c962293adc6"
+        },
+        {
+          "line": 713,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1648_the_scope_repairs/adoption/amend.py",
+      "sha256": "fe340f71348f90945fbc2215926b9fb8e9f0cb6d31f4ec761de4b1280cc57cb1",
+      "git_blob": "f983cb4270137650bbb8b01287c49dcb28661210",
+      "matching_lines": [
+        {
+          "line": 18,
+          "sha256": "0893773f7e6c6174935e0c927af06cc55fe5c82fccb5caf196ded2b454b42901"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1648_the_scope_repairs/received/GENESIS_v1_43_main.md",
+      "sha256": "a69bccaca5647e452853749e481f57951dfb9f5e8f0322d941667ecb5ca5f28f",
+      "git_blob": "87cd42a460b80580435bdae80aabca4e38dec9ef",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "bcd651eac444aeee6b420e0f00d6f55a26ebd42756755da0cd6104ae5f250828"
+        },
+        {
+          "line": 420,
+          "sha256": "f79a9f9b22c4588362478612b9778518a62f67c373059c3f04ce85ba32458c99"
+        },
+        {
+          "line": 715,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1651_where_a_higgs_can_couple/received/GENESIS_v1_44_main.md",
+      "sha256": "4bcf30ab43200e4a59e4278bf3d822c24f7c09dd73ff0cdb921ab2fa006d7b9d",
+      "git_blob": "06afd20df7a24a9058c5e7b78bb9acea53e5eba5",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "bcd651eac444aeee6b420e0f00d6f55a26ebd42756755da0cd6104ae5f250828"
+        },
+        {
+          "line": 420,
+          "sha256": "407d9ec4e034f64dc9d6c88d62620038c4697ee1809f60429be9d24502a312c2"
+        },
+        {
+          "line": 716,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1655_main_audits_its_negatives/received/GENESIS_v1_45_main.md",
+      "sha256": "8aa87afff1a3a0cc5e32725048042c69006f70ccc7425339a6fa1b0604a7b56f",
+      "git_blob": "c08c762f68fb455aa18874d994b2348ded7910c2",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "bcd651eac444aeee6b420e0f00d6f55a26ebd42756755da0cd6104ae5f250828"
+        },
+        {
+          "line": 420,
+          "sha256": "407d9ec4e034f64dc9d6c88d62620038c4697ee1809f60429be9d24502a312c2"
+        },
+        {
+          "line": 718,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1658_the_twisted_half_bound/received/GENESIS_v1_46_main.md",
+      "sha256": "67c11212e51410257c9226a8c264ecf0adf0977ca9b37a7fb542750d884e5148",
+      "git_blob": "2aff7b60c5bb7ca741f0e5c3a0efd9fd76cb6200",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "e8e621adbf0137c2cc9186860f669b3223dadab29f8428d3c4224b415307a22a"
+        },
+        {
+          "line": 420,
+          "sha256": "407d9ec4e034f64dc9d6c88d62620038c4697ee1809f60429be9d24502a312c2"
+        },
+        {
+          "line": 719,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B1662_the_pull_back_acts_on_the_records/received/GENESIS_v1_47_main.md",
+      "sha256": "a4e48c3d19e3628f3cadaff7d98065ffd5ff23c6379087dbe21b7aa9a48f4127",
+      "git_blob": "d3775bc03e0ebdf77079eb4944d7083553343a59",
+      "matching_lines": [
+        {
+          "line": 117,
+          "sha256": "e8e621adbf0137c2cc9186860f669b3223dadab29f8428d3c4224b415307a22a"
+        },
+        {
+          "line": 421,
+          "sha256": "407d9ec4e034f64dc9d6c88d62620038c4697ee1809f60429be9d24502a312c2"
+        },
+        {
+          "line": 721,
+          "sha256": "b63cd8195d15cda9eeb0c77631cb36e42d53593a3696e23105232e0b1d730c73"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B286_the_seam/verdict.py",
+      "sha256": "ebff0f9c87da71686beca11f7ec97725dc8d9be825f7fa0f5041b55b444a417d",
+      "git_blob": "1835b6e405ed9c69190f3acb2e1f133e34b0c960",
+      "matching_lines": [
+        {
+          "line": 6,
+          "sha256": "ef504daeed8ee172c8ade7afc51943b053dfbe63e943fd00dedcf832841e13d9"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B659_novelty_dossier/DOSSIER.md",
+      "sha256": "76801ebdac3d7ef2822ba33910e55c05b4b2d8e4903e1668034247b7ca742df3",
+      "git_blob": "8c5c63302abf80523b8c1c6f00197e444cce11ef",
+      "matching_lines": [
+        {
+          "line": 191,
+          "sha256": "b084dec32c21bbe5f86522456c2c3c74f9571ae6cd84c29fe7794e73657e4237"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B659_novelty_dossier/SWEEP_RESULTS.md",
+      "sha256": "da44e58b4905d4a01ddfbff7a025c06948ce911b8bdcd8e08b72410f6c790e63",
+      "git_blob": "b994bd3fcd253958fae06ac56e979f190ac7686b",
+      "matching_lines": [
+        {
+          "line": 16,
+          "sha256": "686d3104df292abaee78713bd10e6b895c5d45906a52673d504b39502b452b4e"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B677_morning_packet/anatomy/loop5/e2_silversplit/e2_silversplit.py",
+      "sha256": "80028ce6d9d0260f89d0b4fc020d3ae4fe22635ab057a14e6b3c3f75d62e5125",
+      "git_blob": "6deb3e5b7b6d9d8be2a57fa43587a248cd13c551",
+      "matching_lines": [
+        {
+          "line": 41,
+          "sha256": "4b9217a937518eed300ea3d95297ed46d5ad6928906278f8b88d7497e386310f"
+        }
+      ]
+    },
+    {
+      "path": "frontier/B738_pathfinder_compiler/kill_graph.json",
+      "sha256": "c54f40794a69a4dedc429fd1bae0e253b763018a4800cf5c8e11eca3bc51e699",
+      "git_blob": "f16c3a559e510b841ce60125b63eb9172324e9c4",
+      "matching_lines": [
+        {
+          "line": 11409,
+          "sha256": "0656e08d2ab3144d9142f0edcc2b30205a516c9495246a4f3a73445831797f5e"
+        }
+      ]
+    },
+    {
+      "path": "papers/P2_trinity/PAPER.md",
+      "sha256": "da587f9bca447d1ac956a4de8097d785951d8e7f3c618b0eed63d6dac99048e8",
+      "git_blob": "489921bf47ea0198ea5bfa59216c0af966323e7c",
+      "matching_lines": [
+        {
+          "line": 176,
+          "sha256": "e581c1738c4176fe8d8d314d8cc99e5ea5f4d9ee572e7341af6dd699748baea2"
+        }
+      ]
+    },
+    {
+      "path": "papers/P9_what_a_grammar_fixes/tex/sections/a2_verification.tex",
+      "sha256": "4385c76df749281a4638745d96f2f92bf1ea74c781c48412c035b4ddc31603a3",
+      "git_blob": "18bf648a3a4bc840593e6f426d07343d69b2b756",
+      "matching_lines": [
+        {
+          "line": 22,
+          "sha256": "7a9c02d3fc4103b55e79e2e75a9bc0225cb87a28ea328cce41f4aaa1639905ab"
+        }
+      ]
+    },
+    {
+      "path": "papers/P9_what_a_grammar_fixes/tex/sections/s02_grammar_seed.tex",
+      "sha256": "666b97a20f42ce0c0762166c8d379aedc5aff233f87c033360fded98e7ca1e28",
+      "git_blob": "65397f10ab555f19c55a1e82326aeee113dc1fc4",
+      "matching_lines": [
+        {
+          "line": 118,
+          "sha256": "cea79d5f410440f1649a781f476bac6385b159beceae099d07cf5a2bd36f1df0"
+        }
+      ]
+    },
+    {
+      "path": "papers/P9_what_a_grammar_fixes/tex/sections/s07_boundary.tex",
+      "sha256": "3244eccbbf15c649f838a2a2bdc3fa129ef4a6a2a22be5b5c4d1f59695280f70",
+      "git_blob": "38bb4b8581b4c57d67ff8cf02c5a6a95a0d723e1",
+      "matching_lines": [
+        {
+          "line": 93,
+          "sha256": "8e0baa4a0b20fe78ba7a7d121817b742b5faf2c9850b13aea6e2a75d1beb77e6"
+        }
+      ]
+    },
+    {
+      "path": "papers/P9_what_a_grammar_fixes/tex/sections/s10_essay.tex",
+      "sha256": "3c50ac82c711012b415630eade87927244f02a32a5e716835ac839ddde3f7bcf",
+      "git_blob": "fd9617b626e7466203e8734841cd454d5cbce908",
+      "matching_lines": [
+        {
+          "line": 22,
+          "sha256": "0bfc913e0406d43acc07ddfc726d64c5e603362689e45de5854f9b8fbe60fca0"
+        }
+      ]
+    },
+    {
+      "path": "papers/P9_what_a_grammar_fixes/verify.sh",
+      "sha256": "fc9e90a5ba879fe6bc4e50c836b607762d174d00fdfb0a39a9ade53365f53a00",
+      "git_blob": "c2bcf393730c7e95d4860d291e555b3aa21e469f",
+      "matching_lines": [
+        {
+          "line": 15,
+          "sha256": "7c921c9a0add685e9cc852ee0abde20bdf390be3268f4b19a537ef755b22cccb"
+        }
+      ]
+    }
+  ]
+}

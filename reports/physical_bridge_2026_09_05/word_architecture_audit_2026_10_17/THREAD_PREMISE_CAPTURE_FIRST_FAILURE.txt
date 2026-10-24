@@ -1,0 +1,8 @@
+Read-only candidate inventory, October 20, 2026.
+First invocation exited 1 before producing its JSON inventory.
+Runtime error: invalid byte sequence in US-ASCII (ArgumentError)
+Location: capture_thread_premise_candidates.rb, original line 21, String#match.
+Cause: the launch locale interpreted UTF-8 Git text as US-ASCII.
+The subsequent repair explicitly interprets Git output as UTF-8 and
+fails rather than replacing invalid bytes. No scientific code ran;
+the failure is not a negative or an empty candidate inventory.
