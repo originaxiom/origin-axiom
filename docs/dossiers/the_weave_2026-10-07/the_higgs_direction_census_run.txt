@@ -1,0 +1,7 @@
+W155 written: the_higgs_direction_census.json seconds 18.9
+verdict: every cell as predicted
+cells: {'H0': True, 'H1': True, 'H3': True, 'H2': True, 'H2 (a)': True, 'H2 (b)': True, 'H2 (d)': True}
+
+real	0m20.731s
+user	0m21.969s
+sys	0m1.259s
