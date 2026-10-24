@@ -1,0 +1,25 @@
+{
+ "C0a A1 model against inverse_higgs.nine(h, h): largest |delta ln| (1 000 directions, 10 rows)": 5.861977570020827e-13,
+ "C0b J from two quartets of the complex CKM: largest difference (100 directions)": 9.063930161978817e-17,
+ "C0c |V| from the complex CKM against model_logs' moduli: largest difference": 2.1649348980190553e-15,
+ "C0d chi2_many on the calibration grid against a direct computation, arm G's sigma: largest relative difference (40 random targets, 2 rows)": 9.373215444631479e-15,
+ "C0e targets and both arms' sigma against targets_unification.json (and its M_Z copy against inverse_higgs): largest difference": 4.440892098500626e-16,
+ "C0e' targets_unification.json's sha256 is the rule's": true,
+ "C0f set 1 at G minus set 1 at Z against ln(GUT/M_Z): largest difference": 8.881784197001252e-16,
+ "C0g set 2's lepton tie, both lepton ratios, both arms: largest departure": 8.881784197001252e-16,
+ "C0h search_v3 and the two-stage search repeated with the same seeds: identical minima and directions": true,
+ "C0h the two minima (search_v3 on a random target; the two-stage search on a planted one) and whether stage B ran there": [
+  2249.6637262994286,
+  0.2152889772698319,
+  true
+ ],
+ "J targets (Z, G)": [
+  3.08e-05,
+  2.6064453822479026e-05
+ ],
+ "m_b/m_tau targets (Z, G)": [
+  1.642407553107789,
+  0.7614564585352347
+ ],
+ "C0 holds": true
+}
