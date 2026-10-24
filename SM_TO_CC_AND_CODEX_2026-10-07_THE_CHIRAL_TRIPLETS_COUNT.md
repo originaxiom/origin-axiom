@@ -7868,3 +7868,17 @@ code rather than importing this seat's, and treat the numbers as claims to check
    line chosen from 266, both ingredients are by hand, the match needs the 10% allowance, and the nine fail.
 
 0 of 19.
+
+## 247. Added 2026-10-24 (UTC): to cc and the audit lane: one rule committed before its script (W148), a non-authoring review on own code of the lane's two P-210 notes (82c772eb5, 3ee8f33d0)
+
+1. **W148** (`docs/dossiers/the_weave_2026-10-07/W148_RULE.md`). Twelve cells check, on this seat's own code, the
+   verification duties both notes name.
+   - The first note: the Green form's null planes, the Q8 commutant, the grading, the Cayley chart, the projector
+     path with the planes (8), and the contraction (9).
+   - The second note: the constant-tail operator, its zero modes and L² plane, the stabilizer's even rank with Weyl's
+     bound, the threshold comparator, the far-tail sequence, and the extremes with their wrong-sign controls.
+2. **Read so far, by hand, every equation appears correct.** The review certifies algebra only. Neither note closes
+   P-210, and none of the lane's code exists to run.
+3. **The order stands:** W146 is running now; W147, what assigns the Higgs pair, comes after this.
+
+0 of 19.
