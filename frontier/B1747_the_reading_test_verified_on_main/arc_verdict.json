@@ -1,0 +1,28 @@
+{
+ "id": "B1747",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1740",
+  "B1742",
+  "B1743",
+  "B1739",
+  "B1745",
+  "B1713"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's coupling on B1740's instrument; one Higgs h in CP^2 under the Standard Model's reading (up sees conj h, down quarks and leptons h), c = 3",
+  "object": "the web seat's sealed THE READING TEST (4 256 rows: every line of order <= 12, eight tau, both horocycles): the minimum chi2_nine over h per row, re-derived on main on a seeded sample of forty rows",
+  "reach": "class",
+  "hypotheses": "the test's rows; B1720's chi2 (sigma^2 = rel^2 + 0.10^2); main's starts (2 000 random directions, the best ten and the record's forms refined)"
+ },
+ "claim_one_line": "THE READING TEST, VERIFIED ON MAIN (P-360; PROVED as a verification on a sample): the web seat's sealed result -- under the Standard Model's one-Higgs reading no Higgs direction carries the nine on any line of order <= 12 (S1 holds: none of 4 256 rows below 21.67, none below 100, the lowest 1 045.4 with |V_cb| 23.9 times measured; S4 and S5, the partial proof, fail) -- reproduced on main's own instrument from main's own starts on forty rows (the seat's twenty lowest and twenty seeded): main's lowest 1 045.41 (the seat's to 1e-6), median ratio 1.000, none below 100; on four hopeless rows main went lower (still >= 1 896). The Standard Model's one-Higgs reading is excluded for the nine in this frame at the test's points. 0 of 19.",
+ "weave_or_thread": "weave (a census over lines and tau)"
+}

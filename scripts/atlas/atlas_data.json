@@ -13801,6 +13801,22 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1747": {
+   "slug": "the reading test verified on main",
+   "motifs": [
+    "figure_eight",
+    "kappa"
+   ],
+   "refs": [
+    "S1",
+    "S4",
+    "S5"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B174": {
    "slug": "gluing map landscape",
    "motifs": [

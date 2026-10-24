@@ -1,5 +1,12 @@
 # Changelog
 
+## S211 THE READING TEST, VERIFIED ON MAIN (B1747, PROVED; P-360 DONE): THE STANDARD MODEL'S ONE-HIGGS READING CARRIES THE NINE ON NO LINE (2026-10-24)
+
+- **The web seat's sealed THE READING TEST** (rule d58a4dbdb before its script; rows and cells committed before read): under the Standard Model's one-Higgs reading (the up sector sees the conjugate Higgs, the down quarks and leptons the Higgs; c = 3), with the Higgs direction free in ℂP², no row of 4 256 — every line of order ≤ 12, eight τ, both horocycles, fresh points — reaches χ²_nine below 21.67, none below 100; the lowest 1 045.4, with ∣V_cb∣ 23.9 times measured (S1, S1′ hold; the partial proof S4, S5 does not).
+- **B1747 (PROVED, a verification on a sample):** main's own search (its own starts, its own instrument) on forty rows reproduces it — the lowest to 10⁻⁶, median ratio 1.000, none below 100; on four hopeless rows main went lower (still ≥ 1 896).
+- **So the Standard Model's one-Higgs reading is excluded for the nine in this frame** at the test's points. What remains is a second doublet with equal readings or one Higgs read the same way everywhere — the structures for which no principled Higgs is on record (B1742–B1746; P-357). Harvest row 1354; pin chat1 a8da38e4.
+- 0 of 19.
+
 ## S210 THE CUBE GROUP'S FORMS AS THE HIGGS (B1746; NEGATIVE for its question, the identities PROVED; the web seat's step 3 (c)) (2026-10-24)
 
 - **B1746.** The frame's family group Γ₄'s own forms up to weight 8, counted on the null cone (W136's table reproduced): the ρ′ generators are e₁-led, far from null; the ρ′ ⊗ sgn forms are null-led — weight 4 is R and **weight 6 is ∂R's direction exactly (2 × 10⁻¹⁶ at four τ): the record's census Higgs is the family group's own weight-6 form**; the weight-6 ρ′ space is span{F₆, F₋₆}. As Higgs pencils (post hoc, B1742's grid): 41.9, 42.7, 47.5 — none reaches the nine. Every two-form pencil on record now bottoms out at (2/5, 3/10), Im τ 3.3, L_max, about 42. P-357 annotated; kill-graph row.

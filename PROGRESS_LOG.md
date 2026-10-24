@@ -17881,3 +17881,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - **B1746 (NEGATIVE for its question; identities PROVED).** Γ₄'s forms up to weight 8: ∂R is the family group's weight-6 twisted form (exact); the weight-6 untwisted space is span{F₆, F₋₆}; no pencil reaches the nine (≥ 41.9). The web seat's step 3 (c) answered.
 - **Landing suite.** full suite 7 706 passed, 2 failed, 68 skipped (22:39, -n 8) on b0994a173: the two failures are B805's attachment locks (P-239, standing).
+
+## 2026-10-24 — S211 THE READING TEST ON MAIN (B1747)
+
+- **B1747 (PROVED).** The web seat's sealed reading test — no Higgs direction lets the Standard Model's one-Higgs reading carry the nine on any of 4 256 rows over all 266 lines — verified on main on forty rows. P-360 DONE.
+- **Landing suite.** full suite 7 709 passed, 2 failed, 68 skipped (23:22, -n 8) on 20bb8a645: the two failures are B805's attachment locks (P-239, standing).

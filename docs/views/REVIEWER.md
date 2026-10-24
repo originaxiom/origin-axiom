@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1475** |
-| words of findings prose | **1,187,569** |
-| test lock files referenced | **890** |
-| arcs carrying an authored verdict | **1475** (100.0 %) |
+| research arcs with findings | **1476** |
+| words of findings prose | **1,188,291** |
+| test lock files referenced | **891** |
+| arcs carrying an authored verdict | **1476** (100.0 %) |
 | recorded closures | **841** (674 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1006 |
+| PROVED | 1007 |
 | NEGATIVE | 365 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1745`** (805 words, 1 locks)  
-THE WEB SEAT'S FRAME LOCKS, ON MAIN (P-358; PROVED): all seven of THE_NEXT_ATTACK's locks hold on main's own code. K1, the canonical matrix F^dagger Y F in rho(T)'s eigenframe, exact (sympy); K3, |V_cb| = |kappa_u - kappa_d| under the null Higgs, median relative error 0.44%, largest 1.6% over 192 rows (w = +u1 in coupling()'s own order; the other sign errs by 71x, the control); K4, the up channel's u1 = 0 on order-5 and a2 = 0 on order-10 lines exactly; K7, the cusp coefficients of R (2 sqrt2, 4) and DR (4 sqrt2, 20); K2, K5, K6 in B1744, B1743, B1742. Read with it, the seat's data-free pre-scan: under the Standard Model's reading no Higgs direction gives the coarse pattern on any of 1 064 rows. 0 of 19.  
-`B1745_the_frame_locks_on_main/FINDINGS.md`
+**PROVED — `B1747`** (722 words, 1 locks)  
+THE READING TEST, VERIFIED ON MAIN (P-360; PROVED as a verification on a sample): the web seat's sealed result -- under the Standard Model's one-Higgs reading no Higgs direction carries the nine on any line of order <= 12 (S1 holds: none of 4 256 rows below 21.67, none below 100, the lowest 1 045.4 with |V_cb| 23.9 times measured; S4 and S5, the partial proof, fail) -- reproduced on main's own instrument from main's own starts on forty rows (the seat's twenty lowest and twenty seeded): main's lowest 1 045.41 (the seat's to 1e-6), median ratio 1.000, none below 100; on four hopeless rows main went lower (still >= 1 896). The Standard Model's one-Higgs reading is excluded for the nine in this frame at the test's points. 0 of 19.  
+`B1747_the_reading_test_verified_on_main/FINDINGS.md`
 
 **NEGATIVE — `B1746`** (917 words, 1 locks)  
 THE CUBE GROUP'S FORMS AS THE HIGGS (P-357; the web seat's step 3 (c); NEGATIVE for its question, the identities PROVED): the frame's family group Gamma_4's forms in rho' and rho' x sgn up to weight 8 match W136's counts on the null cone (1, 1, 2, 2 and 0, 1, 1, 2); every rho' generator is led by e1 (Y2 = -4i eta F_-2: invariant 0.96 at the band), so far from null; the rho' x sgn forms are led by a null line: weight 4 is R and weight 6 is DR's direction exactly (2e-16 at four tau) -- the record's census Higgs is the family group's own weight-6 form; the weight-6 rho' space is span{F_6, F_-6}. As Higgs pencils (post hoc, B1742's grid, one complex number fitted) none of the three two-dimensional spaces reaches the nine: 41.9 (rho' weight 6, B1743's F6|F-6 exactly), 42.7 (rho' weight 8), 47.5 (rho' x sgn weight 8), against the bar 21.67. With B1743 and B1744, nothing the frame's symmetry and the record's forms supply up to weight 8 gives the nine's target. 0 of 19.  
