@@ -1,0 +1,15 @@
+row chunk 19/28 (854 s)
+row chunk 20/28 (1754 s)
+row chunk 21/28 (2662 s)
+row chunk 22/28 (3461 s)
+row chunk 23/28 (3871 s)
+row chunk 24/28 (4286 s)
+row chunk 25/28 (4691 s)
+row chunk 26/28 (5096 s)
+row chunk 27/28 (5640 s)
+row chunk 28/28 (5727 s)
+rows written (5729 s)
+
+real	95m43.650s
+user	165m30.694s
+sys	18m28.313s
