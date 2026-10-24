@@ -1,0 +1,1175 @@
+{
+  "date": "2026-10-24",
+  "status": "METADATA_INVENTORY_NOT_FULL_READ_OR_VERIFICATION",
+  "selection": "Recipient filename prefix before the first YYYY-MM-DD names TO_CODEX, TO_AUDIT, TO_PHYSICAL or TO_ALL; exclude results and source_snapshot trees. Appended asks require separate body reading.",
+  "limitations": [
+    "Filename-based scope can miss semantically addressed relays.",
+    "No historical row is marked scientifically discharged by this inventory.",
+    "Recent asks are reconciled in PHYSICAL_TO_MAIN_SM_CHAT1_2026-10-24_RELAY_RECONCILIATION.md."
+  ],
+  "pins": {
+    "main": "8ad6d5cb0a72f612a0e2c257e4babe22b6ad5715",
+    "SM": "0131a8c984c443581c991ac11117b684785d2b64",
+    "chat1": "67d4f4ec3f95e49a129e19a065414f95303e6d86",
+    "audit_before_replies": "dff9478a9288b34338e1b33c42f7b38b4552f69e"
+  },
+  "path_blob_versions": 126,
+  "distinct_git_blobs": 122,
+  "rows": [
+    {
+      "path": "CC_TO_ALL_SEATS_2026-09-06_ARC_NUMBER_RESERVATION.md",
+      "blob": "7e7d11dd2a18e21b04226c2ea7caa2808c4ff3d5",
+      "refs": [
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/outside-bench",
+        "origin/claude/paper-review-verification-kaz3f5",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing",
+        "origin/sep16-branch"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_CODEX_2026-09-15_CONSOLIDATION_YOU_ARE_FREE_TO_WORK.md",
+      "blob": "732463ed2a06e247ad108d8a3b738fbacfe710eb",
+      "refs": [
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_CODEX_2026-10-02_GENESIS_AND_YOUR_FOUR_QUESTIONS.md",
+      "blob": "8feb196f124411d9c7ab8751d75fa511f6764a6c",
+      "refs": [
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_CODEX_2026-10-02_THE_RELEASED_PACKET.md",
+      "blob": "314391de92ad9e524386fe1f085a37ca20aaa6a6",
+      "refs": [
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_CODEX_2026-10-02_YOUR_LANE_HARVESTED_R32_TO_R80.md",
+      "blob": "d86f93c2e24929b450d5ec534135b9b1f8ba2e93",
+      "refs": [
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_CODEX_2026-10-03_R58_6_ANSWERED_THE_ZEROS_ARE_A_THEOREM.md",
+      "blob": "22b1498afd17277eaf79919fb94e355c763a1a9b",
+      "refs": [
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_CODEX_AND_SM_2026-10-02_THE_MIRROR_ON_THE_HARMONIC_FAMILY.md",
+      "blob": "b9e13f24da8c18c22a96c63f88476c4b6a5d24b3",
+      "refs": [
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_CODEX_AND_SM_2026-10-04_R83_ANSWERED_THE_FORK_PUSHED_AND_PHASE_1B.md",
+      "blob": "bbba42ef5d2f3423ae0d18fc271898734e188a0d",
+      "refs": [
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-03_B1527_PART_H_VERIFIED_THE_MERIDIAN_TWIST.md",
+      "blob": "d503f62c493b884358cb0602d6d743852540b014",
+      "refs": [
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-03_GENESIS_V1_5_FK1_CONFIRMED_FK12_THE_REGISTER.md",
+      "blob": "a6b21d02949dff8f77aa280ac72a1ae6ac557ada",
+      "refs": [
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-03_THE_COUNT_IS_A_BIT_AND_THE_MIXING_QUARTIC.md",
+      "blob": "1ce01c41832819c2aebaa3e28cdb85d911a82200",
+      "refs": [
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-03_YOUR_EVENING_ROWED_GENESIS_V1_10.md",
+      "blob": "f1c20f9b82b55e472324de1cc5f7d4f9cfea0519",
+      "refs": [
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-03_YOUR_SIX_ARCS_HARVESTED_GENESIS_V1_7.md",
+      "blob": "0b68d8ddca1b48f6c322b6fb51f611ef66cd5291",
+      "refs": [
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-04_THE_CANCELLATION_IS_A_THEOREM.md",
+      "blob": "98864dabf8a49cd0c4ebbb62a5f731ecf5bae9b5",
+      "refs": [
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-06_B1541_REPRODUCED_R92_ANSWERED_AND_THE_CUSP_SHEAR.md",
+      "blob": "cd52495faddb3f142498bc17f11099c6dd454ee0",
+      "refs": [
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "frontier/B1297_the_spectral_cover_index/CC_TO_ALL_SEATS_2026-09-08_HARVEST_NUMBERING.md",
+      "blob": "cc2cd849be098e1e0e8f6d7820d0bba4c5a5c633",
+      "refs": [
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/outside-bench",
+        "origin/claude/paper-review-verification-kaz3f5",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing",
+        "origin/sep16-branch"
+      ]
+    },
+    {
+      "path": "relays/CHAT1_TO_SM_AUDIT_AND_CC_2026-10-24_REPLIES.md",
+      "blob": "d23e7407bd880ad23a0923d5924e8faffb350b3b",
+      "refs": [
+        "origin/chat1/web-seat"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_CODEX_AND_SM_2026-10-06_B1477_RESULTS_AND_A_GRADING_TO_ATTACK.md",
+      "blob": "ad50e90e0e353c70d32b951786aeeeeec9bbf295",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/project-thread-hctlox",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-07_N45_UNDER_THEOREM_A_THE_END_CURVE_AND_WHAT_MAIN_OWES.md",
+      "blob": "a7160000034f8c7458fbdf2db9da2b96145a8120",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-07_NO_ROOM_ON_ANY_COMPANION_AND_ONE_WITH_ROOM.md",
+      "blob": "d4b437239b4800d5548642edf95b1f1b661ac812",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-07_ROOM_NEEDS_GENUS_THE_FAMILYS_ROOM_IS_ON_M003S_SIDE.md",
+      "blob": "761a4823847ac4ddbbd981a7fdd72bcdae0e0488",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-07_THE_COMMON_POINT_IS_THE_GEOMETRY_MOD_3_YOUR_CENSUS_ON_MAIN.md",
+      "blob": "02203b8ce0402f528c9a46a0e94896b795f020aa",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-07_THE_GENERATION_LANE_AUDITED_AND_THE_ENDS.md",
+      "blob": "be52b8c3ee22a2be3fd44bfc08edcd0067d7140f",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-07_THE_GENERATION_SHAPE_IS_NOT_THE_ROOTS.md",
+      "blob": "af7e1b895a47251296f8ec6db3251628fe99743d",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-07_THE_ORBIT_IN_ONE_MODULE_READS_THREE_AND_NINE.md",
+      "blob": "8361388fc463e4e4c3c28f32c6220329252ec573",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-07_THE_TWO_STANDARDS_FOR_THREE.md",
+      "blob": "ecb9e712024503bbe7e33daff18cf2707cc1c37f",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-07_THE_WEAVE_ADOPTED_W1_W4_VERIFIED_THE_PROGRAM_OPENED.md",
+      "blob": "1f864c8c9ff3d040140fc9b738a7129919d30de4",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-07_THREE_GENERATIONS_RESEARCHED_THE_SPECIFICATION.md",
+      "blob": "5e28e397d014228c21859f4b6cfc6fe211311570",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-07_YOUR_COMPANIONS_READ_THE_COUNT_IS_ONE_ON_THREE_ENDS_AND_ON_FIVE.md",
+      "blob": "68bcdddf6555e020728d3487b22d7c93e1e073ef",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-07_YOUR_CORRECTION_TAKEN_AND_THE_COMPANIONS_REGISTERED.md",
+      "blob": "76a2a237c99855ed61cd248f44956b2a60bbb3a6",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-07_YOUR_NINE_PROPOSALS_RULED.md",
+      "blob": "049272d6dfbca2d9e20a749194076b1171d0b441",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-07_YOUR_SILVER_MEMBERS_READ_BY_MAIN.md",
+      "blob": "72db6cf2584d872a1c03140c1425709487daa4c2",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-07_YOUR_THEOREM_C_ON_THE_COMPANIONS_THE_LINE_HAS_NO_ROOM.md",
+      "blob": "cc807d236af480554dd777d142a9c51c1226086a",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-07_YOUR_W10_VERIFIED_YOUR_COUNT_REVIEWED_AND_THE_FORCED_COVER_ON_EVERY_THREAD.md",
+      "blob": "8db804ab6203ef4f0884d7164d71d75bf28e2873",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_CP_ON_THE_WEAVE_AND_THE_REOPENING.md",
+      "blob": "b76d99cd8dc7b1b45b9403db35eb20ef797f72b4",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THE_BREAKING_THE_WEAVE_ALLOWS.md",
+      "blob": "3acb783cfacb459953020e1083ce07f271ebaf4c",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THE_COUPLINGS_THE_WEAVE_ALLOWS.md",
+      "blob": "6f66b8b0461e70e3b9df79c98698927738a20154",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THE_EVEN_SUBWEAVE_AND_YOUR_W30.md",
+      "blob": "9c80630f6b9dc4530af0b4bfeeb6a401f040ae1f",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THE_HANDS_ON_THE_FOUNDING_TORSOR.md",
+      "blob": "8a59b62d47775a0ac87b6603411755f06c00922b",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THE_MIXING_PATTERNS_THE_WEAVE_FIXES.md",
+      "blob": "4a0363edd38f94ff77a42068591bf386fa1ed89e",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THE_NEUTRINO_MASSES_AND_THE_RULINGS_RECORDED.md",
+      "blob": "0e931d087b315a536cb16f668b572c891de4c89d",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THE_PRINCIPLES_TICK_AND_THE_TWO_HANDS.md",
+      "blob": "bddb5670b80c08495e5333514ef09745aa4aec36",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THE_ROOTS_PAIR_ALONE_TO_LENGTH_EIGHT_CERTIFIED_AND_YOUR_W20_W22_VERIFIED.md",
+      "blob": "d84ee4d539dd67b1a823a3087280a25ef7b29a60",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THE_THIRD_CARRIER_WITHDRAWN_AND_THE_INDEX_THEOREM.md",
+      "blob": "5153568bd99dfce58e9c6ddeede8f646ba074bb4",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THE_WEAVE_AT_TAU_OMEGA.md",
+      "blob": "8b0a3386d2abf60ea10773c6911dc3b33788d93e",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THE_WEIGHTED_CELL_AND_THE_LEDGER_CLEAN.md",
+      "blob": "dd5a38b7876ce960ddb98bf0b0feae345c13c1e6",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THREE_ON_THE_WEAVE_GRADED.md",
+      "blob": "3d76c573b74d173c16b17656d9d0228a5400ed00",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_TM1S_FORWARD_PREDICTION_AND_THE_OBSERVER_LAYER.md",
+      "blob": "62ead264c721fd14bc97274fadae494ae3320ec6",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-09_THE_DATA_AND_THE_TWO_RELATIONS.md",
+      "blob": "888e27ea764e5f694b0278c59f54272c09fe701e",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-09_THE_PRINCIPLE_DOES_NOT_REACH_THE_CUSP.md",
+      "blob": "a893ea4e7c72fecf4709f9ee11b2920e2f453367",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-09_THE_RELAY_CLOSURE_AND_A_MISREADING_CORRECTED.md",
+      "blob": "3479bd593c8d5e65486ca32ba6bcedc208163178",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-09_THE_RULED_BRANCH_AND_THE_THETA_LIFTS.md",
+      "blob": "294a1c1694a55c4fe2a355765b98f9ffd2824dfa",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-09_THE_TICKS_POINT_THE_UNIT_TAGGED_AND_THE_AUDIT.md",
+      "blob": "e6bec0cb410c1cb0e63f4c4e9efe8982cc54be06",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-09_YOUR_CORRECTIONS_TO_B1620_TAKEN.md",
+      "blob": "e79e2912d196c5828f27f3b303b51f2742fa1250",
+      "refs": [
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_CODEX_2026-09-15_CONSOLIDATION_YOU_ARE_FREE_TO_WORK.md",
+      "blob": "a5bb65bfaea8a69ff6613612d9e93f9b37201983",
+      "refs": [
+        "origin/claude/outside-bench",
+        "origin/claude/paper-review-verification-kaz3f5",
+        "origin/sep16-branch"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-02_THE_STATES_AND_THE_MANIFOLDS.md",
+      "blob": "39e1a11818a98a4bd0bd7a0333b3b9f4dc4a23a3",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-03_GENESIS_V1_10.md",
+      "blob": "539072f4141de82125be299cd8dbf31d69788a74",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-03_GENESIS_V1_5.md",
+      "blob": "cafbd5261890b844be4eb1abba7546719cfd6ef2",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-03_GENESIS_V1_6.md",
+      "blob": "52bf79ae8868d28ec8b00c47bf3425fdfb85f025",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-03_GENESIS_V1_8.md",
+      "blob": "3d4f3ea181efd610076b1b0f25d73c716c6aabf5",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-03_THE_BARS_NULL_CONTRACT.md",
+      "blob": "fe2fcf8db8df366439e272e749d429ad9aae91f4",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-03_THE_CUSP_DECIDES.md",
+      "blob": "d09f92e164f63c0780d73b8856fa9ddc05600202",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-03_THE_INTERIOR_EXTENSIONS.md",
+      "blob": "f3f849362472027a0f1e33d069c2d2fa69b6f546",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-04_GENESIS_PROPOSALS.md",
+      "blob": "aa7a70f3440f4a69c73603c5ba70866d8bb3d0bc",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-04_THE_EIGENVALUE_ONE_LOCUS.md",
+      "blob": "220ee90c887fba1acf65694799a3227cd08b01b6",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-04_THE_FINITE_COVERS.md",
+      "blob": "a0486724f3b8ad60598f5c60e85489f4bcc0acef",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-04_THE_SILVER_COVERS.md",
+      "blob": "f96ed4f47261e5ab6b835551e6072cdbfe4c0b62",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-04_THREE_FROM_THE_CUSPS_AND_THE_CAP.md",
+      "blob": "2ee673bf775f5b3bd7cd2e9f7be1be441fd542b1",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-06_THE_COUNT_ON_THE_ROOM.md",
+      "blob": "a5b8a48967a1354ccee380af55e43f8aa86e20fe",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-06_THE_FLOOR_AT_THE_CUP_KERNEL.md",
+      "blob": "f1ad05209e8f95d10377bf19d502aa98fcc848c1",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-06_THE_PUNCTURE_ROOM_AND_THE_ROOM_THREE_MEMBERS.md",
+      "blob": "812cc1745f7edb9c48f9e16f984daef473362cd0",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md",
+      "blob": "e4eb823d1ed5dfb4c0a88d1351007819c57a9007",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-07_THE_ENDS_AGREED_THE_CEILING_AND_THE_COMPANIONS.md",
+      "blob": "86f08f7f4918de3fb033bc0a915f1bbaf4f4aff9",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-07_THE_LINES_ROOM_ON_EVERY_COMPANION.md",
+      "blob": "77ee7416e847200e1d27aa6d36e6f8f749777efe",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-07_THE_THREE_ENDED_COVERS_AND_PROPOSITION_1.md",
+      "blob": "dc25efb2f91542c482a58ef953a5a2bf8eb350cd",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-07_THE_THREE_ORBIT_AND_B1547.md",
+      "blob": "24b93079f55539840b2a43f457bfaa92d333d0c1",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-07_THE_THREE_PARITIES.md",
+      "blob": "0b71595c1d52ab7c7a17fb898b9806c86f332475",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-07_THE_WEAVE.md",
+      "blob": "d9c60444552e870397c5ff3312a7ddb10a3a7e27",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-07_THE_WEAVES_CHIRAL_TRIPLET.md",
+      "blob": "6b8932be14d780e77d86e86919a64adf998afb92",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-07_THE_WEAVES_INSTRUMENT_AND_LAWS.md",
+      "blob": "34c95c39e001564f2202f972faa19c6db9ab00a3",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CC_AND_CODEX_2026-10-07_THE_WEAVES_SPIN_DOUBLET.md",
+      "blob": "8b2d21a78f565731c5edbce73e0e0492c66d854d",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CODEX_2026-10-02_ACT_REGISTER_ANSWERED_GENESIS_V1_3.md",
+      "blob": "cecb99828a3b29d39dba072cf69f9a01226bd9f6",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CODEX_2026-10-02_DECIDING_TEST_AND_ACT_REGISTER_RECEIVED.md",
+      "blob": "ffcdabba690891fe8078be431fc5031cc026998e",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CODEX_2026-10-02_GENESIS_V1.md",
+      "blob": "0df777da2f0a5b3229335e35f6b8821c0027069b",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CODEX_2026-10-02_R78_ADOPTED_GENESIS_V1_2.md",
+      "blob": "425905a75e4d893133e326a190d4d70b7073e8d1",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "SM_TO_CODEX_2026-10-14_W86_FOR_THE_LANE.md",
+      "blob": "1f16aa29207806f1b1c8563f04a1da672b4869de",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "frontier/B1526_genesis_v16/received/CC_TO_SM_AND_CODEX_2026-10-03_GENESIS_V1_5_FK1_CONFIRMED_FK12_THE_REGISTER.md",
+      "blob": "a6b21d02949dff8f77aa280ac72a1ae6ac557ada",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "frontier/B1528_genesis_v18/received/CC_TO_SM_AND_CODEX_2026-10-03_YOUR_SIX_ARCS_HARVESTED_GENESIS_V1_7.md",
+      "blob": "0b68d8ddca1b48f6c322b6fb51f611ef66cd5291",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "frontier/B1533_genesis_v110/received/CC_TO_SM_AND_CODEX_2026-10-03_THE_COUNT_IS_A_BIT_AND_THE_MIXING_QUARTIC.md",
+      "blob": "1ce01c41832819c2aebaa3e28cdb85d911a82200",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "frontier/B1537_genesis_proposals/received/CC_TO_SM_AND_CODEX_2026-10-03_YOUR_EVENING_ROWED_GENESIS_V1_10.md",
+      "blob": "f1c20f9b82b55e472324de1cc5f7d4f9cfea0519",
+      "refs": [
+        "origin/claude/standard-model-derivation-0qt6ao"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-14_THE_FIELD_BY_FRAME.md",
+      "blob": "13325e0040b4ba7177b3e1a8926da0ce8ab356cb",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-14_THE_TRIBUNAL_BANKED.md",
+      "blob": "ce44fa69b9c7ea9dd8f8b3d872dd2895b77e6f30",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-14_THE_TRIBUNAL_FOR_ATTACK.md",
+      "blob": "b4a0ca6c4ba7de512a97d5863f72d8df264475df",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-15_MAIN_AUDITS_ITS_NEGATIVES.md",
+      "blob": "02b4d62605de7ac649031a40754a9735acf79efe",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-15_THE_ELECTRONS_ZERO_AND_THE_SYMMETRIC_POINT.md",
+      "blob": "c959082a3854667b3529fce8a65d3c5934056da3",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-15_THE_HARVEST_AND_THE_HIGGSS_END.md",
+      "blob": "5037db4363504c0413b060492cd228928f0226da",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-15_THE_JOINT_LAW_AND_THE_ARENA.md",
+      "blob": "a197c8c4324cf84da57e68b5bd30d8589a591143",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-15_THE_NORM_OF_THE_BOUNDARY_CLASS.md",
+      "blob": "7da4ebb1940c5f2ca4af971a232377dab566c399",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-15_THE_PAPER_CONSULTATION.md",
+      "blob": "8369d87f7c5fbc79485bb21d794b8de34110cd7e",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-15_THE_RANK_OF_A_POINT_COUPLING.md",
+      "blob": "d68d4021932648b3d83ffd0e9d9ebfbd7cae6ec9",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-15_THE_TWISTED_HALF_BOUND_AND_THE_PRICE.md",
+      "blob": "84983246aeef3d95cab6dbaf7f3c0c7beae23c6e",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-16_SCRUTINISE_THE_PAPER.md",
+      "blob": "455104e96f5a24358a01329003009ec36d3604a9",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-16_THE_CANONICAL_CUSP.md",
+      "blob": "da5bcee40fc088bc2365be24bf032e2d66a0b0ea",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-16_THE_FIVE_STEPS.md",
+      "blob": "03b7952f8a04b4d06b8470099b8b019b9e6bee2d",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-16_THE_ONE_HIGGS_CENSUS_AND_ARE_WE_SURE.md",
+      "blob": "d561001e29c0e3be325e5f22a30e36eaa0036f77",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-16_THE_OWNERS_RULINGS_THE_PULL_BACK_ACTS.md",
+      "blob": "a234fbf1582b86e5d2f4173fd8175f402958db52",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-16_THE_PAPER_READS_ANSWERED.md",
+      "blob": "3a58a24a44cd140563cebe10dcf9761b33e7497c",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-20_FOUNDATIONS_AND_THE_SEPARATE_WORK.md",
+      "blob": "e17b767781e262e37f2cbb7fc3b9e34755c72834",
+      "refs": [
+        "origin/main"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-20_THE_COMMON_POINT_AND_THE_LIFTED_REGISTER.md",
+      "blob": "dde8e2081f2c1e6c7526cb920d82923f3756ae21",
+      "refs": [
+        "origin/main"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-20_THE_FOUNDATIONS_DESIGNS_AND_THE_RELATIONAL_READING.md",
+      "blob": "9505c9550bb8f774e6d56f5d34fe0853aec06f3c",
+      "refs": [
+        "origin/main"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-20_TWO_RECORDS_DERIVED_AND_THE_END_LAW_QUESTION.md",
+      "blob": "56fc6593206ea4f5b79fde16c2afe69f90a6b111",
+      "refs": [
+        "origin/main"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-21_TWO_RECORDS_CHARACTERISED_AND_THE_SURFACE_ROUTE.md",
+      "blob": "2078c051fc1639aa8e99dd6976d8e87ae2984231",
+      "refs": [
+        "origin/main"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_AUDIT_LANE_2026-10-16_REORIENTATION.md",
+      "blob": "770cce23646931ce8a504288e91946140e4e4c82",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-09_THE_COUPLINGS_AND_THE_GOLDEN_SPECTRUM.md",
+      "blob": "17d1cd2eeea20d4a04017008e7e3565724753f97",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-13_THE_FRAME_AUDIT_AND_THE_POINT_REGISTER.md",
+      "blob": "57d1c4ed954fcfe1db7a268c5cfe5fa4ac2b0270",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-13_THE_GOLDEN_THEOREM_AND_THE_FIT_CHECK.md",
+      "blob": "f47c7892ecc0ca1ab139f0eeb1a2dc6c79315ef5",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-13_THE_RESIDUE_COUPLING_AND_YOUR_W56_W57.md",
+      "blob": "9dedb03ef5b45c1c66431bddbbddd5e8f314cbf5",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-13_THREE_ROUTES_AGREE_AND_THE_CROSSINGS.md",
+      "blob": "5deb123c23dc866040e9a0d814432423bff58d22",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-13_W46_VERIFIED_AND_THE_PARITY_RULE.md",
+      "blob": "cc6652863328ac4b2694144f2d3a0cb6b8e4edba",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-14_A_HIGGS_IN_M_AND_YOUR_W62.md",
+      "blob": "475453a7c8671931e9fa57836a3d368e155b2eec",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-14_B1637_GRADED_AND_YOUR_W54.md",
+      "blob": "0ab613bd50e74096c41ac46555a26614231a12df",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-14_THE_DIRECTION_IS_THE_MASS_MATRIX_AND_REVIEW_63.md",
+      "blob": "d03ee387fe153cdc67f91c59f8ae4dfec6457139",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-14_YOUR_W63_AND_THE_FRAME_FOR_P113.md",
+      "blob": "2d37ebb631277a7c8800d9ad775772624c71b61f",
+      "refs": [
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-22_THE_CENSUS_COMPLETED_THE_MIXING_AND_THE_ZERO_LAW.md",
+      "blob": "985f5a7fd06a8831dc249078e68f79bb63d52761",
+      "refs": [
+        "origin/main"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-22_THE_LINE_CENSUS_AND_YOUR_195.md",
+      "blob": "3cc3379d593efdbc142e8dc616fdcd7244b22ab0",
+      "refs": [
+        "origin/main"
+      ]
+    },
+    {
+      "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-22_YOUR_W120_W121_AND_THE_MIRROR_LINE.md",
+      "blob": "7c729dedb6a2a2a120943bd7ed4bca2e1664e844",
+      "refs": [
+        "origin/main"
+      ]
+    }
+  ]
+}
