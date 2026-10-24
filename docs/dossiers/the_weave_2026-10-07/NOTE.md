@@ -7726,6 +7726,36 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## Reading: main's forced 45 in W154's window (main's ask of 2026-10-24, §4; READING with a lock, post hoc, data-free arithmetic)
+
+**A READING: data-free arithmetic on W154's closed form, post hoc, and not a test** (`the_w154_45_check.py`, run once;
+its output `the_w154_45_check_run.txt`). Main's question: W154's band needs net ρ_Q bosons outweighing the rest 42 to
+48 times. 45 is SU(5)'s Georgi–Jarlskog Higgs and SO(10)'s adjoint. Does any forced 45, or an E-series branching piece,
+land t = B/|A| in [3.205, 4.624]? Main stated no expectation.
+- **The 45 in the window is a ratio, not a dimension.** The band holds τ exactly when w_ρ > 0 and
+  r = w_ρ/(w₀ − (15/16) w_p) lies in [42.15, 48.01] (W154, C2). r = 45 is inside it, at t = 3.760 and y* = 2.545.
+  A multiplet of dimension 45 enters W154's weights as a count in one sector: ±90 for 45 complex scalars or Weyl
+  fermions, 180 for 45 real six-dimensional vectors. It sets r only together with everything else in the content.
+- **No row of the record plus one 45 lands.** Take each of W154's four rows (the matter, the Higgs's copies, the gauge
+  fields, the graviton) and add one 45 in each place the frame has for it. That gives 20 contents:
+  - 45 complex scalars in ρ_Q cancel the matter's 45 Weyl fermions exactly (w_ρ = 0, so B = 0). V vanishes for the
+    matter alone; τ sits at ω with the copies; the rows with the gauge fields run to the cusp;
+  - 45 on each parity characteristic, where a Georgi–Jarlskog 45 would sit beside the Higgs's copies, sends every
+    row to ω (A < 0, B < 0);
+  - 45 on the trivial characteristic, as scalars or as SO(10)'s adjoint commuting with the fibre, runs to the cusp;
+  - a second 45 of Weyl fermions in ρ_Q runs to the cusp.
+- **To land, the full row needs 1 285 complex scalars in ρ_Q**, which is r = 45 with w₀ − (15/16) w_p = 55.125. That
+  is W154's C3 price again, not a 45.
+- **E₈'s pieces under the fibre.** The 248 itself (55·1 + 52·2 + 27·3 + 2·4 under the fibre's SU(2), W81) runs to the
+  cusp: r = 1.9. Of its 249 312 sub-multisets (k₀, k₁, k_½, k_{3/2}), 398 land (0.16%). None of the 486 of dimension
+  45 lands. The smallest that lands has dimension 10: one each of 1, 3, 2 and 4, at r = 48.
+- **So, no.** No forced 45 exists on record: the content is GENESIS FK11's dictionary data (W154). No 45 placed where
+  the frame puts fields lands, and a landing content needs a tuned ratio rather than a dimension. These are sub-
+  multisets of one decomposition, not branching rules, so the 0.16% is only a rough base rate. It says landing is
+  cheap among arbitrary pieces and selective of none.
+
+0 of 19.
+
 ## W156. The third opinion on main's B1749, the six at fresh apexes (main's ask; the owner's "lets do themall"): B1749 reproduces in full. Its calibration reproduces exactly on own code, its 125 apexes are rebuilt and fresh, its best rows reproduce on own instrument, and its strip is 12 rows that a random 125-point set reaches 99.7% of the time. Three cells failed as worded and are diagnosed: A1 by 2.3 × 10⁻¹² in two minima, B2 by a D this seat's rule assigned to the wrong row, C2 by the strip covering three residues of five, not four. This seat agrees with main's scope (`the_third_opinion_b1749.py`; `W156_RULE.md`)
 
 **Why.** Main asked for a third opinion as for W145: reproduce on own code and instrument, two seeds independently,
@@ -7820,6 +7850,13 @@ order-10 lines that the six prefer exactly the lines the level-5 structure singl
 - **The pre-mortem.** On order-5 lines D = 9 exactly (W138's R7), the six are four numbers there, and the order-10
   lines carry the specific rows. The mechanism may live in order 10's factor 2 as much as in its 5. A specific six at
   order 14 would say so.
+
+*Dated note, 2026-10-24 (later).* Main's B1753 (S220) sealed and ran the restriction to 5 | N inside the 266 (the 48
+lines of orders 5 and 10) on 223 fresh apexes. P2 held (7 of 80 000), and main's referee found the rule mostly a
+pick: only (2/5, 1/10) and (2/5, 1/2) carry the rows, and every order rule containing them passes. That tests the
+restriction within orders ≤ 12. The test proposed above, on the orders 13, 14, 15 and 20, is a distinct extension
+and stays proposed. The web seat's e16 (fc31be45e) confirms the counts 12 and 36 and the transitivity of SL(2, ℤ/5)
+and SL(2, ℤ/10) on them up to sign. This seat's third opinion on B1753 is W157.
 
 0 of 19.
 
@@ -13211,6 +13248,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| 45 | READING with a lock (post hoc; data-free arithmetic) | main's forced 45 in W154's window: the 45 is the ratio r = w_ρ/(w₀ − (15/16) w_p) (r = 45 at t = 3.760, y* = 2.545), not a dimension; none of the record's four rows plus one 45 in any of the frame's five places lands (scalars in ρ_Q cancel the matter, on the parities send τ to ω, trivial pieces and fermions run); the full row needs 1 285 ρ_Q scalars; of 249 312 sub-multisets of E₈'s fibre decomposition 398 land (0.16%), none of dimension 45, the smallest of dimension 10. No forced 45 exists (FK11, GENESIS). 0 of 19 |
 | W156 | COMPUTED (the rule first; one run; nine cells as predicted; A1, B2 and C2 failed as worded, diagnosed); a thread-and-frame result | the third opinion on main's B1749: compare.py re-runs with every cell identical (two minima differ by 2.3 × 10⁻¹²); the calibration reproduces exactly on own code (seat 0.020%, worst seed 0.075%; 1769 and 1788 at 1 and 0 of 4 000); the 125 apexes rebuilt on own code and fresh (none a top point of the 410 shorter words; 51 mirror pairs, 74 independent); the best rows reproduce to 5 × 10⁻¹¹, the T-law keeps J and the mirror flips it; the strip is 12 rows, Im τ 2.96–3.12 over Re τ mod 1 ≈ 0.2–0.8 on two mirror order-10 lines, reached by a random 125-point set with probability 0.9966; B2's D 10.94 belongs to the best-by-factor row, the rule's slip; this seat agrees with main's scope. 0 of 19 |
 | Lines | READING with a lock (post hoc; counting only) | the six's lines and the level-5 rung (P-373's lead): the weave sees a line's order, never the line (W140); SL(2, ℤ/N) maps onto SL(2, 𝔽₅) = 2I exactly when 5 | N, so the six's lines of order 5 and 10 (48 of 266) are exactly those on which the moves act through the level-5 rung; no line is singled out, and choosing them is a thread's choice under R1; a sealed test proposed to main: specific on the order-15 and 20 lines (96, 144), not on 13 or 14 (84, 72). 0 of 19 |
 | W155 | COMPUTED (the rule first; one run; every cell as predicted); H0 to H3 weave-type | the census over contents, Stage B, the Higgs direction: at the forced line no copy has a zero mode (q_{(0,½)} = 1/(4y) lightest on the domain); masses never change a cusp's leading term (the approach to κ_c matches −(μ²/4)Σcos/m⁴ / y to 0.4% at y = 400), so every record content and E₈'s 248 still run; S₃-invariant masses move the curve (y* 2.34 → 2.10 at μ = 1, t = 3.5) and at μ = 3 send every band content to ω; a condensate selects (0, ½), an orbit of three, depends on Im τ only, moves y* up by at most 0.09 and the band's t-window to [3.045, 4.555] at the largest tried, holding neither Im τ nor Re τ; option 1 closed at one loop. 0 of 19 |

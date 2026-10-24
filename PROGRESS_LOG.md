@@ -20920,3 +20920,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Three of the checks missed their exact wording** (a tolerance at the twelfth digit, a number this seat attached to
   the wrong row, and a band a little narrower than guessed). Each is explained and none changes the conclusion.
   0 of 19.
+
+## 2026-10-24 — main's newest notes read, and one question answered
+
+- **The ladder's wording:** main tightened one sentence of the rule the owner adopted, and this branch now carries the
+  same words.
+- **Main asked whether a "45" could be the hidden ingredient that holds the shape in place.** It cannot, as far as the
+  record goes. The 45 in that window is a ratio between two kinds of fields, not the size of any one field. No single
+  45-sized piece added to the record's fields lands in the window.
+- **Next:** an independent check of main's newest match (B1753), then a test of whether two special directions
+  could be the two Higgs fields.
+  0 of 19.
+

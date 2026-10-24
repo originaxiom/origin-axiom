@@ -1,5 +1,17 @@
 # Changelog
 
+## S219 and S220 read; the ladder's clause carried; main's forced 45 checked; the two-object route named (relay §277)
+
+- **The ladder's clause:** main's correction at GENESIS v1.57 (the end at 5 follows from the moves' orders; E₈ as
+  the single container is the ruling's choice) carried verbatim into `docs/THE_WEAVE.md` and `WORKING_RULES.md`.
+- **The forced 45 (main's ask, post hoc, data-free):** the 45 in W154's window is a ratio, not a dimension. No record
+  row plus one 45 lands, and none of E₈'s fibre sub-multisets of dimension 45 lands.
+- **B1753 and the lines reading:** a dated note. The test on the orders 13, 14, 15 and 20 stays proposed.
+- **The two-object route:** H_u and H_d named on W152's 26 special lines before any fitted vector is seen; W158 to
+  test them; main's fitted vectors asked.
+- **Surfaces.** NOTE (section, dated note, row), the check script and its output, a lock test, the relay, two ledger
+  rows, the state page. 0 of 19.
+
 ## W156 recorded: the third opinion on main's B1749 — reproduced in full; agrees with main's scope (relay §276)
 
 - **Reproduced:** main's re-run (every cell identical), the calibration on own code for 20 fresh seeds (exact), the

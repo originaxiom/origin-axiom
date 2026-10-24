@@ -1,0 +1,198 @@
+{
+ "window t": [
+  3.204775187652558,
+  4.624150138607789
+ ],
+ "window r = wrho / (w0 - 15/16 wp)": [
+  42.14674195761594,
+  48.014401481907285
+ ],
+ "r = 45": {
+  "u": 0.7340501792114695,
+  "t": 3.7601078167115904,
+  "y*": 2.5447804013025213,
+  "in the window": true
+ },
+ "rows plus one 45": {
+  "the matter": {
+   "row alone": {
+    "A": 2.724609375,
+    "B": -2.724609375,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   },
+   "45 complex scalars in rho_Q (the matter's representation)": {
+    "A": 0.0,
+    "B": 0.0,
+    "regime": "V = 0",
+    "lands in the band": false
+   },
+   "45 complex scalars on each parity characteristic (where the Higgs's copies sit; a Georgi-Jarlskog 45 there)": {
+    "A": -81.650390625,
+    "B": -2.724609375,
+    "regime": "omega",
+    "lands in the band": false
+   },
+   "45 complex scalars on the trivial characteristic": {
+    "A": 92.724609375,
+    "B": -2.724609375,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   },
+   "45 real vectors on the trivial characteristic (SO(10)'s adjoint commuting with the fibre)": {
+    "A": 182.724609375,
+    "B": -2.724609375,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   },
+   "45 Weyl fermions in rho_Q (a second copy of the matter's count)": {
+    "A": 5.44921875,
+    "B": -5.44921875,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   }
+  },
+  "+ the Higgs's copies": {
+   "row alone": {
+    "A": 0.849609375,
+    "B": -2.724609375,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   },
+   "45 complex scalars in rho_Q (the matter's representation)": {
+    "A": -1.875,
+    "B": 0.0,
+    "regime": "omega",
+    "lands in the band": false
+   },
+   "45 complex scalars on each parity characteristic (where the Higgs's copies sit; a Georgi-Jarlskog 45 there)": {
+    "A": -83.525390625,
+    "B": -2.724609375,
+    "regime": "omega",
+    "lands in the band": false
+   },
+   "45 complex scalars on the trivial characteristic": {
+    "A": 90.849609375,
+    "B": -2.724609375,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   },
+   "45 real vectors on the trivial characteristic (SO(10)'s adjoint commuting with the fibre)": {
+    "A": 180.849609375,
+    "B": -2.724609375,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   },
+   "45 Weyl fermions in rho_Q (a second copy of the matter's count)": {
+    "A": 3.57421875,
+    "B": -5.44921875,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   }
+  },
+  "+ the gauge fields": {
+   "row alone": {
+    "A": 48.849609375,
+    "B": -2.724609375,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   },
+   "45 complex scalars in rho_Q (the matter's representation)": {
+    "A": 46.125,
+    "B": 0.0,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   },
+   "45 complex scalars on each parity characteristic (where the Higgs's copies sit; a Georgi-Jarlskog 45 there)": {
+    "A": -35.525390625,
+    "B": -2.724609375,
+    "regime": "omega",
+    "lands in the band": false
+   },
+   "45 complex scalars on the trivial characteristic": {
+    "A": 138.849609375,
+    "B": -2.724609375,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   },
+   "45 real vectors on the trivial characteristic (SO(10)'s adjoint commuting with the fibre)": {
+    "A": 228.849609375,
+    "B": -2.724609375,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   },
+   "45 Weyl fermions in rho_Q (a second copy of the matter's count)": {
+    "A": 51.57421875,
+    "B": -5.44921875,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   }
+  },
+  "+ the graviton": {
+   "row alone": {
+    "A": 57.849609375,
+    "B": -2.724609375,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   },
+   "45 complex scalars in rho_Q (the matter's representation)": {
+    "A": 55.125,
+    "B": 0.0,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   },
+   "45 complex scalars on each parity characteristic (where the Higgs's copies sit; a Georgi-Jarlskog 45 there)": {
+    "A": -26.525390625,
+    "B": -2.724609375,
+    "regime": "omega",
+    "lands in the band": false
+   },
+   "45 complex scalars on the trivial characteristic": {
+    "A": 147.849609375,
+    "B": -2.724609375,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   },
+   "45 real vectors on the trivial characteristic (SO(10)'s adjoint commuting with the fibre)": {
+    "A": 237.849609375,
+    "B": -2.724609375,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   },
+   "45 Weyl fermions in rho_Q (a second copy of the matter's count)": {
+    "A": 60.57421875,
+    "B": -5.44921875,
+    "regime": "runs to the cusp",
+    "lands in the band": false
+   }
+  }
+ },
+ "any row plus one 45 lands": false,
+ "the full row at r = 45": {
+  "w0 - 15/16 wp": 55.125,
+  "net wrho needed": 2480.625,
+  "complex scalars in rho_Q to add": 1285.3125
+ },
+ "E8's 248 under the fibre": {
+  "A": 111.96875,
+  "B": 6.78125,
+  "regime": "runs to the cusp",
+  "lands in the band": false
+ },
+ "sub-multisets of the fibre's decomposition": {
+  "total": 249312,
+  "landing": 398,
+  "fraction landing": 0.0015963932742908485,
+  "of dimension 45": 486,
+  "of dimension 45 landing": 0,
+  "smallest landing dimension and (k0, k1, k_half, k_three_halves)": [
+   10,
+   [
+    1,
+    1,
+    1,
+    1
+   ]
+  ]
+ }
+}

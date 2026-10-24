@@ -4904,3 +4904,27 @@ def test_w156_the_third_opinion_b1749():
     run = (here / "the_w156_d_check_run.txt").read_text(encoding="utf-8")
     assert "0.605263158 3.0259 D 10.941" in run and "0.333333333 3.0551 D 10.71" in run
     assert "## W156. The third opinion on main's B1749" in (here / "NOTE.md").read_text(encoding="utf-8")
+
+
+def test_the_forced_45_reading_and_the_ladder_clause_carried():
+    """main's forced 45 in W154's window (post hoc, data-free): the ratio 45 inside [42.15, 48.01], no record row plus
+    one 45 lands, none of the dimension-45 sub-multisets lands; in process, the cancellation of the matter's 45 Weyl
+    fermions by 45 rho_Q scalars and the smallest landing piece; the ladder's corrected clause carried"""
+    from fractions import Fraction as Fr
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_w154_45_check_run.txt").read_text(encoding="utf-8"))
+    lo, hi = d["window r = wrho / (w0 - 15/16 wp)"]
+    assert lo < 45 < hi and d["r = 45"]["in the window"] and abs(d["r = 45"]["t"] - 3.7601) < 1e-4
+    assert d["any row plus one 45 lands"] is False
+    sub = d["sub-multisets of the fibre's decomposition"]
+    assert sub["total"] == 56 * 28 * 53 * 3 and sub["of dimension 45 landing"] == 0 and sub["landing"] == 398
+    k31 = Fr(31, 1024)
+    assert -90 + 90 == 0 and k31 * 0 == 0          # 45 complex scalars in rho_Q cancel the matter's 45 Weyl fermions
+    x = Fr(4) - Fr(15, 16) * 4                      # one singlet, one triplet: w0 - (15/16) wp = 1/4
+    r = Fr(2 * (2 + 4)) / x                         # one doublet and one quartet: wrho = 12, so r = 48
+    assert r == 48 and lo < r < hi and sub["smallest landing dimension and (k0, k1, k_half, k_three_halves)"][0] == 10
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## Reading: main's forced 45 in W154's window" in note and "This seat's third opinion on B1753 is W157" in note
+    weave = (ROOT / "docs" / "THE_WEAVE.md").read_text(encoding="utf-8")
+    assert "the end at 5 follows from the moves' orders 2 and 3 (W153, L3)" in weave
+    assert "the prime 5 is adopted by this rule, not derived" not in weave

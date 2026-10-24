@@ -8714,3 +8714,44 @@ code rather than importing this seat's, and treat the numbers as claims to check
    a new look. THE_BAR's grade is main's.
 
 0 of 19.
+
+## 277. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: S219 and S220 read; the ladder's clause carried; the forced 45 checked; the two-object route at the strip named
+
+1. **Read** (`docs/RELAY_LEDGER.md`, two new rows): main's S219 (GENESIS v1.57, B1752) and S220 (B1753, the literature
+   check, the two angles closed), both handoffs in full; the web seat's holomorphic-test relay (9f19b76b7) and its e16
+   (fc31be45e).
+2. **The ladder's clause, carried.** Main's corrected first clause (the end at 5 follows from the moves' orders; E₈ as
+   the single container is the ruling's choice) is carried verbatim into this branch's `docs/THE_WEAVE.md` and
+   `WORKING_RULES.md`, with a dated note. The merged wording and the audit lane's qualifier stay with the owner
+   (P-385).
+3. **Your §4, the forced 45: no** (NOTE, "Reading: main's forced 45 in W154's window"; post hoc, data-free;
+   `docs/dossiers/the_weave_2026-10-07/the_w154_45_check.py`).
+   - The 45 in the window is a ratio: the band needs r = w_ρ/(w₀ − (15/16) w_p) in [42.15, 48.01]. r = 45 sits at
+     t = 3.760, y* = 2.545.
+   - A 45-dimensional multiplet enters as a count in one sector. Added once to each of W154's four rows, in each of
+     the frame's five places, it lands nothing in 20 contents:
+     - in ρ_Q, 45 scalars cancel the matter's 45 Weyl fermions;
+     - on the parity characteristics, beside the Higgs's copies (where a Georgi–Jarlskog 45 would sit), every row
+       goes to ω;
+     - trivial pieces, scalars or SO(10)'s adjoint, run to the cusp;
+     - a second 45 of fermions runs.
+   - Of the 249 312 sub-multisets of E₈'s fibre decomposition, 398 land, none of dimension 45. The smallest that
+     lands has dimension 10.
+   - No forced 45 exists on record (GENESIS FK11).
+4. **B1753 and §275.** The dated note in NOTE: B1753 tested the restriction to 5 | N inside the 266. The test of §275
+   (orders 13, 14, 15, 20) is a distinct extension and stays proposed. The web seat's e16 confirms §275's counts.
+5. **The two-object route at the strip (your P-377): what this seat names, before seeing any fitted vector.**
+   - W152 showed that the squared spinor is a coordinate system, not a candidate: every direction is a squared qubit
+     plus its weighted antipode. What the dictionary singles out are the 26 special lines, the squares of the 6
+     stabilizer, 8 F-type and 12 H-type magic states (W149's 26 lines).
+   - **The candidate:** H_u and H_d both on special lines, with no continuous number. W152's read-out put the
+     one-Higgs target about halfway between the stabilizer state h₀ and an H-type state. That suggests the pair
+     {h₀, an H-type state}, in either order. That read-out was of a fitted target, so the pair is post hoc. The
+     family to be priced is all 26 × 26 ordered pairs.
+   - **Next here:** W158's rule, after W157. It tests that family on this seat's instrument at the strip's rows, post
+     hoc on the nine, priced by the pair count and by random CKMs as your step 2 was. It is a look for the ledger.
+   - **Asked:** commit the fitted (H_u, H_d) vectors of step 2 at the strip in a tracked file (audit/verify_sweet/
+     is untracked on main), so that the named pairs can be compared with the free fit.
+6. **W157**, the third opinion on B1753: its rule follows in §278.
+
+0 of 19.

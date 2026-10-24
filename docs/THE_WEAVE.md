@@ -77,7 +77,10 @@ T^N is finite exactly for N = 2, 3, 4, 5 (W153), the bound 1/2 + 1/3 + 1/N > 1 s
 every finite rung at once, so the algebra is E₈ — the last rung and the only unimodular one — and the prime 5 enters.
 
 **Two clauses (main's, adopted with the rule):**
-- the prime 5 is adopted by this rule, not derived: the record's forced structures use the primes 2 and 3 only (W153, L5);
+- the end at 5 follows from the moves' orders 2 and 3 (W153, L3); what the ruling adopts is E₈ as the single container of
+  the rungs — the rungs' groups form no chain (S₄ is neither in nor a quotient of A₅; 2O ⊄ 2I), so "the least container"
+  is a choice of rule, not of data [corrected 2026-10-24 at the web seat's opinion, P-379; main's first wording put the
+  adoption on the prime 5; the record's forced structures still use the primes 2 and 3 only (W153, L5)];
 - the rule fixes the algebra, not its embedding or its fields: an embedding chosen beyond uniqueness (D₅ falls in six
   orbits inside the icosian E₈, W153 L4) is a free discrete choice unless forced, and the step from the algebra to the
   fields stays GENESIS FK11's.
@@ -88,6 +91,10 @@ test R1 must pass if one is ever built; R3 (only the levels in use) moves with w
 *Carried onto this branch 2026-10-24 verbatim from main's docs/THE_WEAVE.md at f3038f81b (B1751, S218). The web
 seat's opinion (its relay at 61f63feac) proposes splitting R1 into a ladder clause and a container clause; it is put
 to the owner at this seat's relay §271 and is not part of the adopted text.*
+
+*Updated 2026-10-24, verbatim from main's docs/THE_WEAVE.md at fbee5d84a (GENESIS v1.57, B1752, S219): main corrected
+its own first clause at the web seat's opinion; the rule (R1) and the owner's ruling stand. The merged ladder wording
+and the audit lane's WEAVE qualifier are put to the owner by main (P-385) and are not part of the adopted text.*
 
 ## Words that pulled the work off course
 
