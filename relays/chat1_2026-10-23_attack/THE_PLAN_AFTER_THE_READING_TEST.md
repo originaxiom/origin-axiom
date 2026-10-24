@@ -23,7 +23,8 @@ computed results; everything else is a proposal. 0 of 19.
 ## 1. Seven places we may be wrong
 
 1. **Family SU(2) or electroweak SU(2)?** Main identifies the frame's conjugation S̃ = εS̄εᵀ with H̃ = iσ₂H*. In B1736 the
-   quaternion units of S carry the family group (the Higgs transforms as ρ′, the cube's rotations, inside 2I), so εS̄εᵀ is a
+   quaternion units of S carry the family group (the Higgs transforms as ρ′, the cube's rotations, ≅ S₄ at level 4; corrected 2026-10-24 from "inside 2I", see
+   `LITERATURE_DIVE.md`), so εS̄εᵀ is a
    conjugation in the family SU(2). If the electroweak doublet index is not what S̃ acts on, "the up quarks see h̄" is not
    what one Higgs doublet does: one doublet with one family direction gives the same h in every sector — A1. Then the
    reading test's two-doublet pointer is wrong, and an A1 pass would mean the Standard Model's single doublet works. A

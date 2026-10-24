@@ -8,7 +8,9 @@ main's own definitions; it decides nothing by itself. 0 of 19.
 - B1724 §1 (main's words): "S = a_i·i + a_j·j + a_k·k in B1644's quaternion units, the a's being B1691's triplet at τ"; and
   "S̃ conjugates the components: with ε = j, εXεᵀ = jXj⁻¹ flips i and k, so εS*εᵀ = a_i*·i + a_j*·j + a_k*·k". B1660
   introduced S̃ as "the Standard Model's H̃".
-- B1736: the triplet (a_i, a_j, a_k) transforms under ρ′, the cube's rotations inside 2I — **the family group**. The units
+- B1736: the triplet (a_i, a_j, a_k) transforms under ρ′, whose image at k = 21 is the cube's rotation group (order 24, ≅ S₄,
+  level 4) — **the family group**. (Corrected 2026-10-24: an earlier wording put it "inside 2I"; S₄ is not a subgroup of 2I,
+  which enters B1736 separately, through E₈'s icosians; `LITERATURE_DIVE.md`.) The units
   i, j, k label family directions; ε = j is a unit of that same algebra.
 - So S̃ is the complex conjugate of the family triplet, rotated by the family quaternion j. Its resemblance to
   H̃ = iσ₂H* is that j and iσ₂ are the same matrix in the 2 × 2 representation of the quaternions. Whether the frame's
