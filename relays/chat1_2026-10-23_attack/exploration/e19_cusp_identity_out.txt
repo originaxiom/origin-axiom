@@ -1,0 +1,5 @@
+I1 largest |contents at p/r - totals(alpha')| over 266 lines x 1960 cusps: 1.705e-12 (at ('0', '1/9', -39, 4))
+I2 lines with a cusp where alpha' = 0: 266 of 266; there matter alone 5.449, matter + Higgs 1.699, + gauge 49.699, + graviton 58.699
+I3 order-5 lines meet alpha' classes ['0', '1/5', '2/5', '3/5', '4/5']; matter + Higgs positive at ['0', '1/5', '4/5'], negative at ['2/5', '3/5']
+I3 order-10 lines meet alpha' classes ['0', '1/10', '1/5', '3/10', '2/5', '1/2', '3/5', '7/10', '4/5', '9/10']; matter + Higgs positive at ['0', '1/10', '1/5', '1/2', '4/5', '9/10'], negative at ['3/10', '2/5', '3/5', '7/10']
+I4 lowest matter + Higgs over alpha' in (1/840)Z: -5.6814 at 37/120; over a 1/20000 grid: -5.6814; the gauge fields add +48
