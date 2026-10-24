@@ -1,0 +1,7 @@
+resuming after 3600 rows
+4000/4336 rows (458 s)
+rows written (911 s)
+
+real	15m20.639s
+user	29m31.659s
+sys	0m34.853s
