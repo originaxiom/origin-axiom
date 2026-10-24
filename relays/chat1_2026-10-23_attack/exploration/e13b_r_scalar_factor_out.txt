@@ -1,0 +1,134 @@
+[
+ {
+  "tau": [
+   0.0,
+   0.9
+  ],
+  "spread of the three ratios / their mean": 1.5324483920848578e-16,
+  "common factor times eta^3": [
+   0.7071067811865475,
+   0.0
+  ]
+ },
+ {
+  "tau": [
+   0.1,
+   1.2
+  ],
+  "spread of the three ratios / their mean": 5.077770602152975e-16,
+  "common factor times eta^3": [
+   0.707106781186547,
+   4.163336342344337e-17
+  ]
+ },
+ {
+  "tau": [
+   0.25,
+   1.5
+  ],
+  "spread of the three ratios / their mean": 6.283873880037374e-16,
+  "common factor times eta^3": [
+   0.7071067811865476,
+   -8.326672684688674e-17
+  ]
+ },
+ {
+  "tau": [
+   0.3,
+   1.8
+  ],
+  "spread of the three ratios / their mean": 1.3769953638541882e-15,
+  "common factor times eta^3": [
+   0.7071067811865472,
+   3.0531133177191805e-16
+  ]
+ },
+ {
+  "tau": [
+   0.4,
+   2.0
+  ],
+  "spread of the three ratios / their mean": 4.11669334858792e-15,
+  "common factor times eta^3": [
+   0.7071067811865475,
+   1.5265566588595902e-15
+  ]
+ },
+ {
+  "tau": [
+   0.5,
+   2.2
+  ],
+  "spread of the three ratios / their mean": 1.0047619213073244e-14,
+  "common factor times eta^3": [
+   0.7071067811865502,
+   -2.1094237467877974e-15
+  ]
+ },
+ {
+  "tau": [
+   0.6,
+   2.4
+  ],
+  "spread of the three ratios / their mean": 1.603754160179159e-14,
+  "common factor times eta^3": [
+   0.7071067811865472,
+   5.717648576819556e-15
+  ]
+ },
+ {
+  "tau": [
+   0.7,
+   2.6
+  ],
+  "spread of the three ratios / their mean": 3.002502276624099e-14,
+  "common factor times eta^3": [
+   0.7071067811865412,
+   -8.604228440844963e-15
+  ]
+ },
+ {
+  "tau": [
+   0.8,
+   2.8
+  ],
+  "spread of the three ratios / their mean": 2.016066712805997e-14,
+  "common factor times eta^3": [
+   0.7071067811865546,
+   -1.3877787807814457e-15
+  ]
+ },
+ {
+  "tau": [
+   0.9,
+   3.0
+  ],
+  "spread of the three ratios / their mean": 6.303015348972918e-14,
+  "common factor times eta^3": [
+   0.7071067811865295,
+   -1.304512053934559e-14
+  ]
+ },
+ {
+  "tau": [
+   0.175,
+   3.2
+  ],
+  "spread of the three ratios / their mean": 4.3757599388879044e-13,
+  "common factor times eta^3": [
+   0.7071067811864091,
+   6.922240558537851e-14
+  ]
+ },
+ {
+  "tau": [
+   0.325,
+   3.4
+  ],
+  "spread of the three ratios / their mean": 5.087946742294562e-13,
+  "common factor times eta^3": [
+   0.7071067811866681,
+   -1.3336554083309693e-13
+  ]
+ }
+]
