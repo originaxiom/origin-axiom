@@ -1,0 +1,16 @@
+G1 Delta(2,3,2): order 6, ord(SU) = 2
+G1 Delta(2,3,3): order 12, ord(SU) = 3
+G1 Delta(2,3,4): order 24, ord(SU) = 4
+G1 Delta(2,3,5): order 60, ord(SU) = 5
+G1 Delta(2,3,N) onto Delta(2,3,M) as quotients of PSL(2,Z), N != M: [(4, 2)]
+G2 S3: order 6; subgroup orders [1, 2, 3, 6]
+G2 A4: order 12; subgroup orders [1, 2, 3, 4, 12]
+G2 S4: order 24; subgroup orders [1, 2, 3, 4, 6, 8, 12, 24]
+G2 A5: order 60; subgroup orders [1, 2, 3, 4, 5, 6, 10, 12, 60]
+G2 S3 inside A4: False; A4 inside S4: True; S4 inside A5: False; S3 inside S4: True; A4 inside A5: True
+G3 2T: 24 elements, products matched to within 0.0e+00; subgroup orders [1, 2, 3, 4, 6, 8, 24]; subgroups of order 12: 0, binary dihedral among them: 0
+G3 2O: 48 elements, products matched to within 2.2e-16; subgroup orders [1, 2, 3, 4, 6, 8, 12, 16, 24, 48]; subgroups of order 12: 4, binary dihedral among them: 4
+G3 2I: 120 elements, products matched to within 5.6e-17; subgroup orders [1, 2, 3, 4, 5, 6, 8, 10, 12, 20, 24, 120]; subgroups of order 12: 10, binary dihedral among them: 10
+G3 2T's 24 quaternions inside 2O: True; inside 2I: True; Lagrange: 120 % 48 = 24
+G4 finite diagrams, induced copies of each in the next: D5 in E6: 2, E6 in E7: 1, E7 in E8: 1
+G4 affine McKay graphs, induced copies of each in the next: D5~ in E6~: 0, E6~ in E7~: 0, E7~ in E8~: 0
