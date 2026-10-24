@@ -371,7 +371,15 @@ text, and corrected one (9a).
    - **Done, 2026-10-24 (W150; five cells as predicted, one failed as worded).** The mechanism holds the curve
      m_Q(τ) = μ, with Re τ exactly flat along it. Its height is set by the free ratio μ/M̃, not by integers alone. At
      μ = M̃ the frame's 1′ form of weight 10 puts it at Im τ 2.66, inside the fits' band.
-3. **W151, W51's point ½ + 2.224i, data-free.** The frame's residual group there, and the masses a Γ₄ coupling gives.
+   - **Next, at the owner's order (relay §255, item 6): the two-object route, which took the number W151.**
+     **Done, 2026-10-24 (W151; four cells as predicted, Q4 failed as worded).** For any two holomorphic or
+     antiholomorphic sections and a constant ratio, while δ falls slower than e^{−π Im τ/2}, I falls at least as fast
+     as \|δ\|² or e^{−π Im τ/2}. On the catalogue no pair reaches the target's class and 22 triples do. These are
+     cusp-class statements. Sixteen pairs reach their class only beyond Im τ 9 to 14, and with κ free a pair's
+     crossover can sit in the fits' band, so the band is not settled by W151. Across L₂ the target's ε + δ²/2 is nine
+     times steadier than δ²/2: it follows the cone.
+3. **W51's point ½ + 2.224i, data-free** (listed here as W151 before the two-object route took that number; it is
+   renumbered when started). The frame's residual group there, and the masses a Γ₄ coupling gives.
 4. **W106, the democratic dynamics.** Proposed in the ladder reading and never started.
 5. **P-327,** B1704's potential on the fits' lines: main's queue (Q3), offered.
 6. **The joint (τ, h) potential,** after W149 and W150.

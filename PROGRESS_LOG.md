@@ -20729,3 +20729,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   next thing to test.
 - A weaker first version of the proof was replaced before publishing, and the change is disclosed.
   0 of 19.
+
+## 2026-10-24 — two Higgs-like objects mixed in a fixed proportion: the result
+
+- **What held:** the short proof was confirmed on every pair the record has. Deep in the limit the formulas describe,
+  no pair reaches the pattern's type, and exactly the 22 predicted three-object combinations do.
+- **What failed, and what it teaches:** one check evaluated the pairs at a finite depth, and 16 of them did not yet
+  behave as the limit says. Followed further, all 16 did. So the result is a statement about that limit. It does not
+  settle what a pair can do in the range where the data fits sit, because the mixing proportion is free and can move
+  the turnover point anywhere.
+- The data's own pattern does follow the special shape the record describes, closely.
+  0 of 19.

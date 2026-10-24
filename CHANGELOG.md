@@ -1,5 +1,15 @@
 # Changelog
 
+## W151 recorded: the two-object route; four cells as predicted, Q4 failed as worded on its direct evaluation (relay §259)
+
+- **The pair lemma holds on all 276 pairs**, and the census is as predicted: 20 exact zeros, no pair in the target's
+  box, 22 triples in it.
+- **Q4's direct evaluation at Im τ 6–8** disagreed on 16 pairs that reach their class only deeper in the cusp
+  (checked post hoc, `the_two_object_route_posthoc.py`). So the result is about the cusp classes, and the fits' band is
+  not settled.
+- **Surfaces.** NOTE (section and row), the breaking chain (section 11, dated), the test, the relay, the ledger row,
+  the state page. 0 of 19.
+
 ## W151's rule, committed before its script: the two-object route, data-free (relay §258)
 
 - **The question:** can a constant-ratio sum of two sections, h = A + κB, give the nine's target's pattern (δ falling

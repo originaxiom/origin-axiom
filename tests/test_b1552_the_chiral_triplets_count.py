@@ -4587,3 +4587,55 @@ def test_w150_the_heavy_state_holder():
         assert abs(x0 / 2 - mp.mpf("2.6606")) < 1e-3
         f12 = mp.sqrt(4 ** 12 * mp.e ** (-4 * mp.pi)) / mp.sqrt(mp.mpf("7.2") ** 12 * mp.e ** (-mp.mpf("7.2") * mp.pi))
         assert 4.4 < f12 < 4.6
+
+
+def test_w151_the_two_object_route():
+    """W151, the two-object route: four cells as recorded and Q4 failed as worded on its direct-evaluation clause only,
+    the 16 pairs converging post hoc; in process, the hand rate table's 20 pairs with 0 < D < 1/4 (integer arithmetic)
+    and the exact zero F-2 . dR off the axis"""
+    import mpmath as mp
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_two_object_route.json").read_text(encoding="utf-8"))
+    assert [k for k, v in d["cells"].items() if not v] == ["Q4"]
+    q4 = d["Q4"]
+    assert q4["equal the hand list of 20, each D = 2, E = 4"] and q4["equal the hand list of 15, each D >= 6"]
+    assert q4["pairs in the target's box"] == []
+    mism = q4["direct E at kappa = 0.37 + 0.81i: mismatches"]
+    assert len(mism) == 16 and all("F-6" in m[0] or "F-10" in m[0] for m in mism)
+    post = json.loads((here / "the_two_object_route_posthoc.json").read_text(encoding="utf-8"))
+    assert post["status"].startswith("POST HOC") and post["every pair's rounded E on [28, 32] equals the census's"]
+    assert len(d["Q5"]["triples in the target's box"]) == 22 and d["Q2"]["identically zero"] == 20
+
+    def rates(a, conj):
+        if a is None:
+            r = (3, 9, -3)
+        else:
+            k = (a + 2) // 2
+            r = (3 + 2 * a, 3 - a, 15 - a) if k % 4 == 0 else (3 + 2 * a, 15 - a, 3 - a)
+        return (r[0], r[2], r[1]) if conj else r
+    objs = [rates(a, c) for c in (False, True) for a in (None, None, -10, -6, -2, 2, 6, 10, 14, 18, 22, 26)]
+    small = 0
+    for i in range(24):
+        for j in range(i + 1, 24):
+            r = [min(objs[i][k], objs[j][k]) for k in range(3)]
+            small += 0 < r[0] - min(r[1], r[2]) < 6
+    assert small == 20
+    with mp.workdps(40):
+        t = mp.mpc("0.3", "1.1")
+        q = lambda x: mp.e ** (1j * mp.pi * t * x)
+        th = [sum(q((n + mp.mpf(1) / 2) ** 2) for n in range(-30, 31)), sum(q(n * n) for n in range(-30, 31)),
+              sum((-1) ** n * q(n * n) for n in range(-30, 31))]
+        dq = [sum(((n + mp.mpf(1) / 2) ** 2 / 2) * q((n + mp.mpf(1) / 2) ** 2) for n in range(-30, 31)),
+              sum((n * n / mp.mpf(2)) * q(n * n) for n in range(-30, 31)),
+              sum((-1) ** n * (n * n / mp.mpf(2)) * q(n * n) for n in range(-30, 31))]
+        t2, t3, t4 = th
+        l2, l3, l4 = (dq[k] / th[k] for k in range(3))
+        qq = mp.e ** (2j * mp.pi * t)
+        e2 = 1 - 24 * sum(n * qq ** n / (1 - qq ** n) for n in range(1, 80))
+        R = [-t2 / (t3 * t4), -t4 / (t2 * t3), 1j * t3 / (t2 * t4)]
+        dl = [l2 - l3 - l4, l4 - l2 - l3, l3 - l2 - l4]
+        dR = [R[k] * dl[k] + e2 * R[k] / 24 for k in range(3)]
+        eta5 = (t2 * t3 * t4 / 2) ** (mp.mpf(5) / 3)
+        F = [eta5 / t2 ** 2, eta5 / t4 ** 2, 1j * eta5 / t3 ** 2]
+        dot = abs(sum(F[k] * dR[k] for k in range(3)))
+        assert dot / mp.sqrt(sum(abs(x) ** 2 for x in F) * sum(abs(x) ** 2 for x in dR)) < mp.mpf(10) ** -30

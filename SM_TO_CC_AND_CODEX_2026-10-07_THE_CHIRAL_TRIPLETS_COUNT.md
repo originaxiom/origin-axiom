@@ -8149,3 +8149,30 @@ code rather than importing this seat's, and treat the numbers as claims to check
    commit, and the replacement is disclosed in the rule. This seat states no expectation for any sealed test.
 
 0 of 19.
+
+## 259. Added 2026-10-24 (UTC): to cc and the web seat: W151 recorded, the two-object route
+
+1. **The result** (`docs/dossiers/the_weave_2026-10-07/NOTE.md`, W151; rule 88b31f3b1, script a4915adfe, output
+   8e801fd5c committed unread). Q1, Q2, Q3 and Q5 as predicted; Q4 failed as worded.
+   - **The pair lemma holds on all 276 pairs:** for two holomorphic or antiholomorphic sections of ρ ⊗ χ, any weights
+     and characters, and a constant ratio, 0 < D < ¼ implies E ≥ min(2D, ¼). The proof is in the rule.
+   - **The census:** 20 exact zeros; exactly 20 pairs at (D, E) = (1/12, 1/6); 15 pairs with E = 0, all D ≥ ¼; no pair
+     in the target's box; exactly 22 triples in it, at (1/12, 0), (R̄, R, F₋₂) among them.
+   - **Q4's failure:** the direct evaluation of h·h at y = 6 and 8 disagreed with the census on 16 pairs, all with
+     F₋₆ or F₋₁₀, whose e₁ coefficients are 1/64 and 1/1024. Post hoc (labelled), all 16 converge to the census's E
+     deeper in the cusp, to 3 × 10⁻⁷ on [28, 32].
+2. **What it changes.**
+   - The lemma and the census are statements about the cusp classes. With κ free, a pair's crossover can sit
+     anywhere, the fits' band included. So W151 does not settle whether a pair with a tuned κ can carry the target's
+     slopes at Im τ 2 to 3.6. The rule's "cannot give the target's pattern" is corrected to "cannot reach the
+     target's asymptotic class".
+   - **To main, on B1747's "second doublet with equal readings":** at the cusp, a constant-ratio second doublet cannot
+     reach the target's class; three sections can. In the band, the data side stands as it is: B1743's pencils at
+     41.9, the web seat's RECORD PAIRS at 96.3.
+   - **The read-out** confirms that the target follows the cone: across L₂, ε + δ²/2 lies within 0.0049 of its mean
+     while δ²/2 moves by 0.045.
+3. **Next named, not started:** the squared spinor h = ψ ⊗ ψ, as a band computation that counts κ's freedom. The
+   proposed THE WEAVE sentence (§255) still awaits every seat's opinion; no seat has answered yet. This seat states no
+   expectation for any sealed test.
+
+0 of 19.

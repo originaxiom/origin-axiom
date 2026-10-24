@@ -7726,6 +7726,66 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W151. The two-object route (the breaking chain's third computation; the owner's "yes i agree thank you, do them"): a constant-ratio pair of sections, h = A + κB. The pair lemma holds for every pair of holomorphic or antiholomorphic sections of ρ ⊗ χ, and on the catalogue no pair reaches the nine's target's class while 22 triples do. These are statements about the cusp classes. The direct evaluation at Im τ 6–8 failed on 16 pairs that reach their class only deeper (post hoc), so W151 does not settle the fits' band. Four cells as predicted; Q4 failed as worded (`the_two_object_route.py`; `W151_RULE.md`)
+
+**Why.** W149 closed single sections. The breaking chain's fork (section 5) left two objects open, and main's B1747
+leaves "a second doublet with equal readings". The rule (`W151_RULE.md`, 88b31f3b1) was committed and pushed before
+the script (a4915adfe). The output was committed unread (8e801fd5c).
+- **Before the rule's commit:** a weaker first lemma was replaced, and two exact zeros the first list missed
+  (F₋₂·∂R and F₁₀·∂R) were added by hand. Both are disclosed in the rule.
+- **Before the script's commit:** two slips from this seat's own pre-run review were fixed, a sort that compared
+  "inf" with an integer and a pass condition stricter than the rule's Q2.
+
+**The result (COMPUTED; one run; Q1, Q2, Q3 and Q5 as predicted, Q4 failed as worded).**
+- **Q1.** The 24 objects' rates equal the hand table, within 4.5 × 10⁻¹⁵ of the lattice. Every ρ₁ is 3 mod 4 and every
+  null rate 1 mod 4 (in 24ths), so on the catalogue D ∈ 1/12 + (1/6)ℤ and E ∈ (1/6)ℤ.
+- **Q2.** Exactly the 20 predicted bilinears vanish, the largest at 7 × 10⁻⁶¹ of \|X\|\|Y\|. The least nonzero one is
+  5.2 × 10⁻²⁵ (F₋₁₀·F̄₁₈ at y = 6), so the rule's estimate "near 10⁻²⁹" was conservative.
+- **Q3.** All 276 pairs obey the lemma; 20 have 0 < D < ¼.
+- **Q4 (failed as worded).**
+  - What held, the census: exactly the 20 predicted pairs have 0 < D < ¼, each at D = 1/12 and E = 1/6. Exactly the
+    15 predicted pairs have E = 0 with D > 0, at D from ¼ to 78/24. No pair is in the target's box.
+  - What failed, the direct evaluation of h·h at κ = 0.37 + 0.81i over y ∈ [6, 8]: on 16 pairs the rounded E was
+    −4, −3, 5, 6 or 12, against the census's 0 or 4, up to 0.42 (in 24ths) off the lattice.
+  - **The diagnosis (by hand, before any further run).** All 16 pairs contain F₋₆ or F₋₁₀, whose e₁ coefficient is
+    2^a: 1/64 and 1/1024. Their leading term therefore overtakes the competing one only beyond y of about 9 to 14.
+    For (F₋₁₀, F₁₈), \|l1\|/\|l7\| ≈ 5 × 10⁻⁴ e^{πy/6}, which crosses 1 near y = 14.
+  - **Post hoc (labelled; `the_two_object_route_posthoc.py`, 100 digits).** The same evaluation over [10, 12],
+    [14, 16], [20, 24] and [28, 32]: every one of the 16 converges to the census's E, to 3 × 10⁻⁷ (in 24ths) on
+    [28, 32].
+- **Q5.** Exactly the 22 predicted triples are in the target's box, each at D = 1/12 and E = 0, (R̄, R, F₋₂) among
+  them.
+- **Read-outs (no test).**
+  - Of the pairs, 82 have E = 0: 67 e₁-led (I → 1) and the 15 above. Of the triples, 22 are in the class (1/12, 0)
+    and 166 at (1/12, 1/6).
+  - The target (B1743's rows, sha as pinned): \|ε + δ²/2\| / (\|δ\|²/2) is 0.17 to 0.26 on L₂ and 0.36 on L_max.
+    Across the eight L₂ rows, δ²/2 lies up to 0.045 from its mean but ε + δ²/2 only up to 0.0049, nine times
+    steadier.
+  - At the target's D (0.1006), the lemma's bound on the ln I slope is −1.26.
+
+**What it shows (a READING).**
+- **The pair lemma is a theorem about the cusp classes,** for any two holomorphic or antiholomorphic sections at any
+  weight and character. In the classes, a constant-ratio pair cannot hold I while δ falls slower than
+  e^{−π Im τ/2}. Three members can, and the catalogue has exactly 22 such triples.
+- **The classes are not the band.** A pair shows its class only past its crossovers, and the direct-evaluation
+  failure shows how far out they can sit: at Im τ 6 to 8 sixteen pairs still show local E from −4 to 12. With κ a
+  free constant, a crossover can be placed anywhere, the fits' band included. So W151 answers the two-object question
+  at the cusp, not at Im τ 2 to 3.6. Whether a pair with a tuned κ can carry the target's local slopes in the band
+  is open here. On the data side B1743's pencils (κ fitted, best 41.9) and the web seat's RECORD PAIRS (96.3) did not
+  reach the nine.
+- **The rule's meaning is corrected accordingly.** Its "two directions … cannot give the target's pattern" holds for
+  the target's asymptotic class, not for its slopes in the band. W149's single-section bound has no free coefficient,
+  and its slopes were read from Im τ 4. The caveat is about sums with a free ratio.
+- **The target follows the cone.** Across L₂, ε + δ²/2 is nine times steadier than δ²/2. A constant-coefficient triple
+  in the class has ε + δ²/2 = ε∞ + δ²/2 + O(q^{1/3}) at the cusp. In the band that too is a cusp statement, and its
+  corrections are not small there.
+- **The squared spinor h = ψ ⊗ ψ stays the named next candidate.** Any test of it, or of pairs in the band, must be a
+  band computation that counts κ's freedom.
+
+**Status.** COMPUTED (the rule first; one run; four cells as predicted, Q4 failed as worded on its direct-evaluation
+clause, diagnosed and checked post hoc). The lemma (Q3) is weave-type; the census is over the record's forms. A
+statement about the cusp classes, not the band. 0 of 19.
+
 ## W150. The frame's heavy states as τ's holder (the breaking chain's second computation; the owner's "yes i agree thank you, do them"): Higaki, Kawamura and Kobayashi's one-loop mechanism, run on every singlet form of the joint family group, holds τ only on the curve where the heavy mass meets the renormalization scale. Re τ stays exactly flat along it, and its height is set by the free ratio μ/M̃. At μ = M̃ the 1′ form of weight 10 puts it at Im τ 2.66, inside the fits' band. Five cells as predicted; H6 failed as worded on a phrase flagged before the run (`the_heavy_state_holder.py`; `W150_RULE.md`)
 
 **Why.** The breaking chain (sections 9a and 11) named this mechanism (arXiv:2402.02071) as the one finite-Im τ
@@ -12700,6 +12760,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W151 | COMPUTED (the rule first; one run; four cells as predicted, Q4 failed as worded on its direct-evaluation clause, diagnosed and checked post hoc); the lemma weave-type | the two-object route: for any two holomorphic or antiholomorphic sections of ρ ⊗ χ and constant κ, 0 < D < ¼ implies E ≥ min(2D, ¼) (a cusp-class theorem); on the catalogue's 24 objects: 20 exact zeros, 20 pairs at (D, E) = (1/12, 1/6), 15 at E = 0 with D ≥ ¼, none in the target's box, 22 triples in it at (1/12, 0); 16 pairs reach their class only beyond Im τ 9–14 (post hoc), so the band (Im τ 2–3.6) is not settled; across L₂ the target's ε + δ²/2 is nine times steadier than δ²/2 |
 | W150 | COMPUTED (the rule first; one run; five cells as predicted, H6 failed as worded on a phrase flagged before the run); a mechanism census, not a weave result | the heavy-state holder (arXiv:2402.02071) on every singlet form of the joint family group: the minimum is the level curve m_Q(τ) = μ (exact), Re τ exactly flat along it; at μ = M̃ the 1′ forms of weight 10, 12, 14, 16 hold Im τ at 2.66, 3.94, 5.23, 6.55, none at weight 6 or for a level-1 form; the E₆-factor forms also hold a component next to i; the height is set by μ/M̃ (factor 8.1 across the band at weight 10, 4.5 at 12): one free ratio |
 | W149 | COMPUTED (the rule first; one run; every cell as predicted); WEAVE-type for C1, C3, C4 | the cone and the defect: 26 special lines of M's isotropic conic under O (6 ℤ₄, 8 ℤ₃, 12 ℤ₂), X(4)'s special points; R's line map X(4)'s equivariant map, local degree 1, tending to conj h₀; ρ(T) = diag(e^{2πi(1,3,7)/8}) in line coordinates, so every single holomorphic section of ρ ⊗ χ has |δ| ≤ C e^{−π Im τ/2} or grows (slopes −π/2 − kπ to 3 × 10⁻⁹ on the record's forms); the nine's target falls at 0.63 (read-out); the quartic census: four rigid classes, 392 of 392 |
 | Reading: the breaking chain | READING (no arc; by hand, one scratch check locked in the test; the owner's question) | every computed dynamics lands on a symmetric point (Michel's theorem on M's sphere; the stabilizers at i and ω); four objects named Higgs, the fits about h; the fork H-cov or a field's vev (P-132); M's isotropic conic is X(4) under O, R exactly isotropic with local degree 1 at the cusp; B1743's target is the cone's point s = δ off by ε + δ²/2, its on-cone part following τ at half R's exponent and its defect constant; the literature checked at the source (S4's four rigid minima, (0, 1, i) among them; no CP from one triplet; a one-loop holder of Im τ from T-charged masses); a draft of the rule's spontaneous-breaking sentence for the owner, not applied; W149–W151 proposed |
