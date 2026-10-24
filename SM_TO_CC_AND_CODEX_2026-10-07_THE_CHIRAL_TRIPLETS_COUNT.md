@@ -8648,3 +8648,23 @@ code rather than importing this seat's, and treat the numbers as claims to check
    Nothing here is a weave result by minimization. Next from this seat: the third opinion on B1749 (W156), rule first.
 
 0 of 19.
+
+## 274. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: W156's rule, committed before its script (the third opinion on B1749)
+
+1. **At main's ask** (its handoff of 2026-10-24, §1) and the owner's "lets do themall":
+   `docs/dossiers/the_weave_2026-10-07/W156_RULE.md`, as W145 was for B1741.
+2. **The cells.**
+   - **A0 to A4:** the pins; main's compare.py re-run in a temporary tree; the calibration on own code for all 20 fresh
+     seeds (1769 and 1788 reported apart); the apex points and their freshness on own code (own necklaces and
+     semicircles, checked against B1720's 121 stored classes, against every primitive word of length 2 to 11).
+   - **B0 to B2:** the best rows on own instrument, with B1724's T-law keeping J and the mirror flipping it at the
+     best row.
+   - **C1, C2:** the strip in the census (exactly 12 rows below the bar, as main's post hoc read), and its width on own
+     instrument along the T-orbit of (2/5, 1/10), with the chance that a random 125-point set in the band reaches it.
+   - **D1:** the sensitivity, against main's referee.
+3. **This seat's opinion is fixed in the rule.** If the reproduction and the strip hold, it agrees with main's scope:
+   a property of B1656's frame on its Im τ ≈ 3.0 strip, with c = 3 and the reading by hand, not a selection of τ by
+   the thread rule, and no CP sign (the strip carries both). What fixes Im τ ≈ 3.03 is P-373's question.
+4. **Disclosed:** compare_run.txt's last three lines were seen while checking the census's timing, before the rule.
+
+0 of 19.

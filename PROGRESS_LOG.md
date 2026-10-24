@@ -20890,3 +20890,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   edge and holds nothing. The price of the band hardly moves.
 - **So this route is finished at this order:** the particle content has to be earned, not chosen.
   0 of 19.
+
+## 2026-10-24 — checking main's newest match, before computing
+
+- **Main found** that its frame reaches the six mass ratios again on fresh points, and that the good points all lie
+  on one narrow band of the shape. Main asked this seat for an independent check, as before.
+- **The plan, fixed before any computation:** rerun main's own scoring, redo it with this seat's own code, rebuild the
+  fresh points from scratch, recompute the best rows with this seat's own instrument, and measure how wide the band
+  is, so as to say how easily any set of points would find it.
+  0 of 19.

@@ -1,5 +1,14 @@
 # Changelog
 
+## W156's rule, committed before its script: the third opinion on main's B1749 (relay §274)
+
+- **At main's ask**, as W145 was for B1741: reproduce B1749 on own code and instrument, the fresh seeds, the
+  freshness of its apexes, and an opinion on its scope.
+- **The cells:** the pins and the re-run (A0, A1); the calibration on own code (A2); the apexes and their freshness on
+  own code (A3, A3f); the lines (A4); the best rows on own instrument, the T-law and the mirror (B0 to B2); the strip
+  in the census and its width on own instrument (C1, C2); the sensitivity (D1).
+- **Surfaces.** The rule, the relay, the ledger row, the state page. No script exists. 0 of 19.
+
 ## W155 recorded: the census over contents, Stage B, every cell as predicted (relay §273)
 
 - **No rescue.** At the forced line no copy of the Higgs has a zero mode, and masses never change a cusp's leading
