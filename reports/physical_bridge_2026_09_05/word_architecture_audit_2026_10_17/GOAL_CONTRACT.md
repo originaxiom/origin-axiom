@@ -4,6 +4,53 @@ October 18, 2026. Owner-approved research goal and execution contract.
 This is a planning and source-audit record, not a scientific preregistration,
 experiment-admission manifest, new numbered arc or completed result.
 
+## Resume routing — October 24 source recovery and review status
+
+This is a mutable planning/front-door section, not a change to any sealed
+design or canonical GENESIS. Read these existing sources BEFORE proposing
+the corresponding calculation again:
+
+| Proposed calculation | Existing source to reuse | Do not infer |
+|---|---|---|
+| Odd E8 sectors, the exterior-cube quartet, or the two family-singlet doublets | [Form-parent roster](../weave_form_parent_2026_10_08/PROOF.md), [complete companion roster](../weave_companion_roster_2026_10_08/PROOF.md), its character producer, integer reference and live tests | A new discovery of these sectors, or physical generations from their dimensions |
+| Nilpotent theta/ordinary-Higgs identification with the nonflat spin condensate | [October 14 typed joint](../spinor_uniformization_joint_2026_10_14/PROOF.md), its findings/producer/reference, and [the existing logarithmically dressed end](../weave_cusp_condensate_2026_10_08/PROOF.md) | Equal orthonormal size or the name Hitchin makes field degree, connection, action and domain equal |
+| Finite-distance solution traces and a selected domain | [Actual puncture connecting map](ACTUAL_PUNCTURE_CONNECTING_MAP_AND_TRACE.md), [registered normal transport](REGISTERED_PRINCIPAL_PARTS_AND_GREEN_TRANSPORT.md) | The rank-three solution image is an extreme chiral boundary condition |
+| A gapped actual cusp response or its boundary norm | [Existing graded-cusp transport](ACTUAL_GRADED_CUSP_RESPONSE_AND_STATE_SCOPE.md), [Weyl response/norm](ACTUAL_CUSP_WEYL_RESPONSE_AND_INDUCED_NORM.md) | An arbitrary extra mass/metric is needed, or this tail already supplies the full physical parent map |
+| Keeping the scalar part of the full matrix S | [Full-matrix assignment audit](FULL_MATRIX_ASSIGNMENT_AND_CENTRAL_QUOTIENT.md) | A Lie-algebra assignment, compact group extension, old weak neutrality and kinetic metric are one automatic requirement |
+
+The first two rows were recovered again after the owner's explicit
+warning against duplicate work. They are reused results, not new
+calculations. The later analytical notes retain their stated review
+and physical-scope limits.
+
+P210's separate non-authoring review is now complete at commit
+523821858da7b3098834aeabafb350e142e9a3d2. It approves only execution
+of the ten frozen controls, and separately finds no blocking algebraic
+error in the graded-cusp and symmetric-state successors. The newer
+Weyl/norm and full-matrix notes were NOT reviewed by it. Earlier
+pending-review descriptions below are preserved history, not current
+claims that no verdict exists.
+
+Main's P-386 at fetched 34a7a7da4 still records the earlier interrupted
+review; the completed review and exact acceptance request are pushed
+on this branch. Main's structured acceptance remains required and is
+not supplied by that queue entry. The ten mathematical checks remain
+UNRUN, NOT IMPORTED and NOT COLLECTED.
+
+A clean detached checkout and the declared 3.12.1 runtime have been
+prepared using metadata only; the dated preparation record gives its
+snapshot and limits. No admission, aggregate gate or science run has
+occurred. Revalidate cleanliness, pins, runtime, outputs and actual
+main acceptance immediately before execution; a preparation receipt
+is not perpetual custody.
+
+GENESIS v1.58/B1754 adopts the ladder/container scope and the qualifier
+that a convention must preserve full relational observables including
+the reference/measuring sector. The longer explanation of distinct
+symmetry-related vacua is recorded as this lane's gloss, not additional
+adopted canonical wording. None of these updates completes the physical
+field/action/domain identification or pays a new physical input.
+
 ## Core mission adopted October 19
 
 The owner's active session goal now reads:

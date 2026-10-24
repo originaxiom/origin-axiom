@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "status": "metadata_preparation_only_not_admission",
+  "date": "2026-10-24",
+  "head": "60d329b5a3874f717ea65b5ccde48e92fc143b37",
+  "worktree_label": "oa-p210-execution.8Cd5SL",
+  "creation": "Managed-worktree entry point returned Not a git repository for the task context. A separate fresh temporary detached Git worktree was then created from the explicitly pinned audit checkpoint; existing worktrees were not reset or reused.",
+  "runtime": "3.12.1",
+  "packages": {
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "required_environment": {
+    "PYTHONHASHSEED": "0",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "SYMPY_GROUND_TYPES": "python"
+  },
+  "artifact_pins_checked": 39,
+  "narrative_design_pin_checked": true,
+  "specification_sha256": "f33348144c91711b0bcc3a05cf62974aac28a468eb57181f1ea6dfc93077f948",
+  "clean_before_and_after": true,
+  "reserved_outputs_absent": true,
+  "admission_absent": true,
+  "mathematical_packages_imported": false,
+  "science_modules_imported_or_collected": false,
+  "mathematical_tests_run": 0,
+  "main_acceptance": "Not established; still required. P-386 at fetched main 34a7a7da4 remains queued.",
+  "aggregate_gate_run": false,
+  "limits": [
+    "Historical dirty checkout and its staged work were preserved.",
+    "This temporary checkout is prepared, not scientifically admitted or globally compliant.",
+    "Revalidate current pins, review and main acceptance, runtime, clean quiescent custody and fresh outputs immediately before execution.",
+    "No process is running in this checkout on the basis of this receipt."
+  ]
+}
