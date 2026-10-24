@@ -4797,3 +4797,38 @@ def test_w154_the_content_census():
     t = lambda y: (6 * z6 * y ** 2 - 2 * c3 / y ** 3) / (4 * z4 * y - c2 / y ** 2)
     assert abs(t(2.1) - 3.2047) < 1e-3 and abs(t(3.2) - 4.6242) < 1e-3
     assert "## W154. The census over contents, Stage A" in (here / "NOTE.md").read_text(encoding="utf-8")
+
+
+def test_the_ladder_ruling_carried_and_w145_corrected():
+    """The owner's ladder ruling (B1751) carried verbatim from main; the web seat's and the audit lane's facts checked
+    post hoc and their run outputs locked; in process, PSL(2, F7) as a quotient with T of order 7; W145's J label
+    corrected (the T-law keeps J, the mirror flips it)"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    weave = (ROOT / "docs" / "THE_WEAVE.md").read_text(encoding="utf-8")
+    assert "## The ladder's rule (adopted 2026-10-24): R1, every finite rung at once" in weave
+    assert "- the prime 5 is adopted by this rule, not derived: the record's forced structures use the primes 2 and 3" in weave
+    assert "Carried onto this branch 2026-10-24 verbatim from main's docs/THE_WEAVE.md at f3038f81b" in weave
+    assert "**The ladder's rule (adopted 2026-10-24).** R1" in (ROOT / "WORKING_RULES.md").read_text(encoding="utf-8")
+    web = (here / "the_ladder_web_seat_check_run.txt").read_text(encoding="utf-8").split("\n")
+    assert web[:9] == ["finite D5 in E6 2", "finite E6 in E7 1", "finite E7 in E8 1", "affine D5~ in E6~ 0",
+                       "affine E6~ in E7~ 0", "affine E7~ in E8~ 0", "S3 in A4 False", "A4 in S4 True", "S4 in A5 False"]
+    aud = (here / "the_ladder_audit_lane_check_run.txt").read_text(encoding="utf-8")
+    assert "T = SU projective order: 7" in aud and "projective: 168" in aud
+    p = 7
+
+    def mul(a, b):
+        return tuple(tuple(sum(a[i][k] * b[k][j] for k in range(2)) % p for j in range(2)) for i in range(2))
+    s, u, minus = ((0, 6), (1, 0)), ((0, 6), (1, 1)), ((6, 0), (0, 6))
+    assert mul(s, s) == minus and mul(mul(u, u), u) == minus
+    t, x, n = mul(s, u), mul(s, u), 1
+    while x not in (((1, 0), (0, 1)), minus):
+        x, n = mul(x, t), n + 1
+    assert n == 7
+    j = (here / "the_w145_j_check_run.txt").read_text(encoding="utf-8").split("\n")
+    assert j[0].startswith("T-law image: line 153") and "'J_rel': 3.57" in j[0]
+    assert j[1].startswith("mirror image: line 150") and "'J_rel': 2.0000000000" in j[1]
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "*Corrected 2026-10-24, at main's note (B1750 §3): the label was wrong." in note
+    assert "*Dated note, 2026-10-24: the owner ruled, in main's session (B1751, GENESIS v1.56).*" in note
+    relay = (ROOT / "SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md").read_text(encoding="utf-8")
+    assert "## 271. Added 2026-10-24 (UTC)" in relay

@@ -20856,3 +20856,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **So the choice of content cannot be avoided by this route.** The next stage, adding the Higgs's direction, can only
   help if it changes this picture.
   0 of 19.
+
+## 2026-10-24 — the rule about E₈ settled, and two of its words fixed
+
+- **The owner's ruling on E₈ is now on this branch** in the same words as on main: take every finite step of the
+  ladder at once, so E₈, with the prime 5 adopted by that rule rather than derived.
+- **The other two seats agreed and sharpened it.** One showed that "every finite quotient" was too wide a phrase: the
+  moves have other finite pictures, such as one of 168 elements, which the ladder never used. The other showed that
+  only the end of the ladder is forced; choosing one algebra to hold all its steps is the rule's choice. Both were
+  checked here and hold. The combined wording goes to the owner.
+- **A slip corrected:** a sign this seat attributed to one symmetry belongs to its mirror, as main found.
+- **The searches counted:** this seat's own tests of the same fits against the same data are listed for the joint
+  count, so no search goes uncounted.
+  0 of 19.

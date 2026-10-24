@@ -8532,3 +8532,72 @@ code rather than importing this seat's, and treat the numbers as claims to check
    result by minimization. Stage B, the Higgs direction, waits on the owner.
 
 0 of 19.
+
+## 271. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: the look ledger's rows checked; the ladder's ruling carried, with both seats' wording; W145 corrected; what comes next
+
+1. **Read.** Main to f3038f81b (S217, S218: B1749, B1750, B1751; both handoffs of 2026-10-24); the web seat to
+   2af7f4986 (its ladder opinion at 61f63feac, THE HOLOMORPHIC READING TEST's result at 8324781c2, the unification-scale
+   test's stores); the audit lane to f96c008c4 (its replies at a9053eab7, among them THE_WEAVE_AND_THE_LADDER).
+2. **The look ledger, this seat's rows** (main's ask; the ledger's own rule: a sealed decisive cell, or a post hoc scan
+   that informed a later test; a verification is not a new look; B1656's frame; the six and the nine). Proposed rows:
+
+| test | kind | target | outcome |
+|---|---|---|---|
+| W88 | sealed scoreboard | the six and ∣V_us∣ under the record's breaking-free relations, B1656's lines by order among them | line orders dividing 4 or 6 refuted (172, 676) |
+| W90 | sealed | the six's m₂/m₃ by sector, one Higgs shared by every sector under B1657's two vacuum laws | NEGATIVE |
+| W94 | sealed | one ratio of the six, (m_μ/m_τ)/(m_s/m_b), the symmetric null Higgs at ω on W59's lines | L3 failed as worded (2.58, 2.42, 1.70 against 3.14 ± 0.27) |
+| W146 | sealed, a class test | the nine's fitted Higgs (B1743's target), its I across the band | NEGATIVE for every single holomorphic or antiholomorphic section |
+| W151 | sealed, a class test | the nine's fitted Higgs, its (D, E) box | no pair in the box; 22 triples in it; the band not settled |
+
+   - **Not new looks:** W89, W93, W96, W138, W141, W142 and W145, verifications of B1656, B1658, B1659, B1726, B1734,
+     B1735 and B1741 on own code. W138, W141, W142 and W145 also carry recalibration cells (a wider reading menu, the
+     factor free, a smaller allowance, the lepton factor over a menu). These can only lower the verified result's
+     significance, so this seat agrees with main's call on W145 and asks the same for the other three. W93's two-Higgs
+     read-out is post hoc; count it with B1658 if it informed main's later two-Higgs arcs. W88 counts for any later
+     test whose lines it informed; this seat's record cannot say which did.
+   - **Read-outs, not tests:** W149 and W152 locate the target (0.63; r ≈ 0.009). W150, W153 and W154 are data-free;
+     W154 uses the band's place, which came from the looks, but tests no data.
+   - **W137 is a look in another frame:** the joint frame (E₆ × SU(3), modular flavour), where D ≡ 1 against 10.58
+     excludes that frame. This seat proposes moving it to an other-frames list, with these, so a decadal review can
+     count them if THE_BAR ever pools frames: W53, W54, W56, W57, W78, W80 (weight models, the 13 flavour numbers); W66,
+     W69, W72, W73 (B1644's parameter-free sections); W112 to W119 (W69's menu and W101's frame); W58 (an outside
+     preprint's 2/ε against the double ratio).
+   - **The web seat's row** "THE HOLOMORPHIC READING TEST: running" now has a result (8324781c2). Main to update it.
+3. **The ladder's rule.** Main's text is carried verbatim onto this branch's `docs/THE_WEAVE.md` and `WORKING_RULES.md`
+   (from f3038f81b). Both outstanding opinions arrived after the ruling, so either may amend it. This seat checked their
+   facts post hoc on its own code (NOTE, W153's dated note), and all hold.
+   - **The web seat (61f63feac):** split R1 into a ladder clause (N = 2 to 5, the end forced by the moves' orders 2 and
+     3) and a container clause (E₈ as the least algebra holding every rung's finite diagram, a stated choice of rule).
+     The rungs' groups form no chain; the finite diagrams nest (D₅ in E₆ twice, the others once), and the affine
+     McKay graphs do not (0 each).
+   - **The audit lane (a9053eab7):** keep the whole generated diagram first; asking for one simple envelope adds a
+     composition requirement. Two wording faults, both real:
+     - W153's title and this seat's NOTE said "every finite quotient". Γ has others: PSL(2, 𝔽₇), order 168, with T of
+       order 7, is a quotient of the infinite Δ(2, 3, 7). L1's claim is about the quotients by T^N, and W153's NOTE now
+       says so, dated.
+     - R2 selects a unimodular lattice only for a single holomorphic theta series. For any even lattice,
+       (Im τ)^{r/2} Σ|Θ_μ|² is invariant under every move (A₁: S to 2 × 10⁻³¹).
+   - **Merged wording, for the owner** (this seat recommends it; it changes no computation):
+     - *the ladder:* the moves' quotients by T^N, Γ/⟨⟨T^N⟩⟩ = Δ(2, 3, N), are finite exactly for N = 2, 3, 4, 5;
+       the end at 5 is forced by the moves' orders 2 and 3;
+     - *the container:* the least single simple algebra holding every rung's finite diagram, E₈, is a composition
+       requirement adopted by ruling, not derived; the prime 5 enters with it;
+     - main's clause kept: the rule fixes the algebra, not its embedding or its fields (D₅ in six orbits; the step to
+       fields stays GENESIS FK11's);
+     - R2 recorded with its hypothesis: the joint action would have to earn a chiral lattice, one scalar theta series.
+4. **The audit lane's qualifier to the WEAVE rule, for the owner.** It proposes: "Choosing a representative is a
+   convention only when the declared equivalence preserves the full relational observables, including the
+   reference/measuring sector." This seat recommends adopting it as a clarification. Under it, the observer reading's
+   sort stands: each convention named there (the mirror of the whole weave, the unit) acts on the whole relational
+   description. A relative sign, J against another CP-odd quantity, stays physical, as the qualifier requires.
+5. **W145 corrected** (main's B1750 §3, with thanks). The census frame was compared with the own minimum, which is the
+   frame's mirror image (τ ↦ −τ̄, b ↦ −b, then four T-shifts), not its T-law image. Post hoc on own code
+   (`docs/dossiers/the_weave_2026-10-07/the_w145_j_check.py`): against the T-law image, line 153, J agrees to
+   3.6 × 10⁻¹²; against line 150, J is exactly opposite. B1724's T-law keeps J; the mirror flips it.
+6. **What comes next, in order:** W155, Stage B of the census (the Higgs direction), rule first, and only if it can
+   break Stage A's one-curve structure; then the third opinion on B1749 (reproduce, two seeds, the freshness, the
+   scope); then the P-373 lead (are the six's order-5 and order-10 lines exactly those the level-5 structure singles
+   out?); then the two-object route at the six's strip. The audit lane's actual-cusp note stays in this seat's review
+   queue.
+
+0 of 19.

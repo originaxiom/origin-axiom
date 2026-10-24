@@ -69,6 +69,26 @@ joint action has been computed. Each of these carries free numbers under this cl
 - W150's heavy-state holder, whose height is the free ratio μ/M̃;
 - main's S214, which chose its functional by hand.
 
+## The ladder's rule (adopted 2026-10-24): R1, every finite rung at once
+
+The owner's ruling (2026-10-24), on the opinions collected at the SM seat's relay §268 (the SM seat's lean R1; main's
+opinion P-375; the web seat's and the audit lane's not yet in — either can still amend the text): the moves' quotient by
+T^N is finite exactly for N = 2, 3, 4, 5 (W153), the bound 1/2 + 1/3 + 1/N > 1 set by the moves' own orders; the rule takes
+every finite rung at once, so the algebra is E₈ — the last rung and the only unimodular one — and the prime 5 enters.
+
+**Two clauses (main's, adopted with the rule):**
+- the prime 5 is adopted by this rule, not derived: the record's forced structures use the primes 2 and 3 only (W153, L5);
+- the rule fixes the algebra, not its embedding or its fields: an embedding chosen beyond uniqueness (D₅ falls in six
+  orbits inside the icosian E₈, W153 L4) is a free discrete choice unless forced, and the step from the algebra to the
+  fields stays GENESIS FK11's.
+
+Rejected: R2 (invariance under every move) needs a lattice partition function the joint action does not contain — it is the
+test R1 must pass if one is ever built; R3 (only the levels in use) moves with what the record has computed.
+
+*Carried onto this branch 2026-10-24 verbatim from main's docs/THE_WEAVE.md at f3038f81b (B1751, S218). The web
+seat's opinion (its relay at 61f63feac) proposes splitting R1 into a ladder clause and a container clause; it is put
+to the owner at this seat's relay §271 and is not part of the adopted text.*
+
 ## Words that pulled the work off course
 
 - **"the object".** `TERMINOLOGY.md`'s "the object" is m004, the figure-eight knot complement. It is one thread.

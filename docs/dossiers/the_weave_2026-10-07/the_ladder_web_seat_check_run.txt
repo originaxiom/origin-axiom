@@ -1,0 +1,11 @@
+finite D5 in E6 2
+finite E6 in E7 1
+finite E7 in E8 1
+affine D5~ in E6~ 0
+affine E6~ in E7~ 0
+affine E7~ in E8~ 0
+S3 in A4 False
+A4 in S4 True
+S4 in A5 False
+A5 simple True
+2O in 2I by order False

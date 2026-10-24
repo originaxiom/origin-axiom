@@ -568,6 +568,9 @@ inishgts from two other seats". A state selected by minimizing the joint action'
 result even when it breaks the symmetry. The full text, with its conditions on the functional and its coefficients, is
 in `docs/THE_WEAVE.md`.
 
+**The ladder's rule (adopted 2026-10-24).** R1: every finite rung of the moves' ladder at once (E₈, the prime 5 adopted by
+the rule, not derived); the rule fixes the algebra, not its embedding or its fields. Text and clauses in `docs/THE_WEAVE.md` (B1751).
+
 **How it composes with the standing rules.** It is the 2026-10-01 amendment to THE MANDATE, REWORDED, made operational.
 - That amendment's demonstrated physical map is not needed for a weave result. A weave result is defined on the fibre every
   thread shares, so it needs no transport from one thread to another.

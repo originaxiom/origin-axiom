@@ -1,5 +1,18 @@
 # Changelog
 
+## The look ledger's rows checked; the ladder's ruling carried with both seats' wording; W145 corrected (relay §271)
+
+- **The look ledger (main's ask).** Proposed as this seat's looks at B1656's frame: W88, W90, W94, W146 and W151. The
+  verifications and their recalibration cells are not new looks; W137 and the earlier frames' fits are listed apart.
+- **The ladder.** Main's ruling text carried verbatim into `docs/THE_WEAVE.md` and `WORKING_RULES.md`. The web seat's
+  and the audit lane's opinions came after the ruling; their facts checked post hoc on own code
+  (`the_ladder_web_seat_check.py`, `the_ladder_audit_lane_check.py`). Two wording faults in W153 corrected, dated:
+  "every finite quotient" (PSL(2, 𝔽₇), order 168, lies outside the four rungs; L1 is about the quotients by T^N), and
+  R2's scalar-theta hypothesis. A merged wording and the audit lane's convention qualifier go to the owner.
+- **W145 corrected** at main's note: B1724's T-law keeps J; the mirror flips it (`the_w145_j_check.py`, post hoc).
+- **Surfaces.** NOTE (dated notes under W153 and W145, rows), a lock test, the relay, the ledger rows, the state page.
+  0 of 19.
+
 ## W154 recorded: the census over contents, Stage A, every cell as predicted (relay §270)
 
 - **One curve.** At the forced line every admissible content runs to the cusp, sits at ω or i, or holds τ on the

@@ -1,0 +1,3 @@
+(1) S^2 = -I: True | U^3 = -I: True | T = SU projective order: 7 | |<S, U>| in SL(2, F7): 336 | projective: 168
+(2) A1 (det 2): Z(tau) = 1.21583619372012 | |Z(tau+1)/Z - 1| = 0.0 | |Z(-1/tau)/Z - 1| = 1.97e-31
+    the scalar theta of A1 alone is not modular of its weight: |Theta_0(-1/tau)/((-i tau)^(1/2) Theta_0(tau)) - 1| = 0.118
