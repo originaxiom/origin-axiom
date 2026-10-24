@@ -28,6 +28,9 @@ def _load(name):
 e17 = _load("e17_cusp_coefficients_on_lines")
 e18 = _load("e18_every_cusp_of_the_fit_lines")
 src17 = (HERE / "e17_cusp_coefficients_on_lines.py").read_text()
+# e17's contents (FIELDS ... totals) lie after its K1/K2 checks, and its line list after K3: load both segments too
+# (the first launch cut them off and failed at I1 with an AttributeError before writing anything; disclosed)
+exec(compile("FIELDS = [" + src17.split("FIELDS = [")[1].split("# K3")[0], "e17-contents", "exec"), e17.__dict__)
 exec(compile(src17.split("rows = []")[0].split("# the 266 lines")[1], "e17-lines", "exec"), e17.__dict__)   # _lines, LINES
 
 CUSPS = []
