@@ -20960,3 +20960,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   more digits than the rule did. The rule's own condition holds.
   0 of 19.
 
+## 2026-10-24 — two special Higgs directions cannot work, and the reason is exact
+
+- **The result:** none of the 676 pairs of special directions comes close. Each of them leaves the lightest particle
+  of every family with exactly zero mass.
+- **Why:** the special directions are "pure" in the quantum-bit dictionary, and a pure direction always produces one
+  massless family. That follows from two facts already on record, so this seat should have seen it before running
+  the test.
+- **What it teaches:** the lightest family's masses come from how far the Higgs direction is from being pure. Any
+  future pair of Higgs fields has to be slightly mixed, and something would have to fix how much.
+  0 of 19.
+

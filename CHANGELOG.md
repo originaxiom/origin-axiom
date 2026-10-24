@@ -1,5 +1,15 @@
 # Changelog
 
+## W158 recorded: the two-object route at the strip — special lines are null, so the first generation is massless (relay §281)
+
+- **The test:** H_u and H_d on W152's 26 special lines, at the 38 rows where the six pass. The least χ²_nine over the
+  676 pairs is 154 377, against the bar of 21.67.
+- **Why, exactly:** every special line is a pure state's square, so det S_h = 0, and by W96's joint law det Y = 0 in
+  every sector. Foreseeable from the record; the rule's 20% prior missed it, disclosed.
+- **What follows:** the first generation lives in the Higgs direction's departure from the cone, so a principled pair
+  must be mixed, and its mixing is a number unless something fixes it.
+- **Surfaces.** NOTE (section and row), a lock test, the relay, the ledger row, the state page. 0 of 19.
+
 ## W157 recorded: the third opinion on main's B1753 — reproduced in full; the good rows in one class of lines (relay §280)
 
 - **Reproduced:** main's re-run, the calibration on own code for the 20 fresh seeds (exact), the 223 apexes rebuilt and

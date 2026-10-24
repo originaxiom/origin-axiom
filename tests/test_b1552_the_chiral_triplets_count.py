@@ -4973,3 +4973,22 @@ def test_w157_the_third_opinion_b1753():
     tw = {f: min((q * alpha) % 1, 1 - (q * alpha) % 1) for f, q in {"Q": 1, "u": -4, "e": 6, "d": 2, "L": -3, "H": 3}.items()}
     assert tw == {"Q": Fr(2, 5), "u": Fr(2, 5), "e": Fr(2, 5), "d": Fr(1, 5), "L": Fr(1, 5), "H": Fr(1, 5)}
     assert "## W157. The third opinion on main's B1753" in (here / "NOTE.md").read_text(encoding="utf-8")
+
+
+def test_w158_the_two_special_higgs():
+    """W158: K0 as predicted, K1 failed (chi2_nine 154 377), K2 moot; in process, the reason: a special line is a pure
+    state's square, so det S_h = -h.h = 0 for every one of the 26, and W96's joint law then makes det Y vanish"""
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_two_special_higgs.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"K0": True, "K1": False, "K2": False} and d["rows"] == 38 and d["menu points"] == 102752
+    assert 1.5e5 < d["K1"]["chi2_nine_min"] < 1.6e5
+    mm = d["K1"]["best"]["model over measured (nine)"]
+    assert max(mm[1], mm[3], mm[5]) < 1e-10                        # the lightest ratio of every sector is zero
+    states = [(1, 0), (0, 1), (1, 1), (1, -1), (1, 1j), (1, -1j)]   # the six stabilizer states
+    for a, b in states:
+        l1, l3, l7 = -a * b, a * a, -b * b
+        h = np.array([l1, (l3 + l7) / 2, (l7 - l3) / 2j])
+        S = np.array([[l3, -l1], [-l1, -l7]])
+        assert abs(np.sum(h * h)) < 1e-15 and abs(np.linalg.det(S)) < 1e-15
+    assert "## W158. The two-object route at the six's strip" in (here / "NOTE.md").read_text(encoding="utf-8")

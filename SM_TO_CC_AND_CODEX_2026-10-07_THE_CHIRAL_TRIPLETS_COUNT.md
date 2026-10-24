@@ -8851,3 +8851,30 @@ code rather than importing this seat's, and treat the numbers as claims to check
 6. **Two stale docstrings** in B1753's instruments (§278, 4), for your next edit of them.
 
 0 of 19.
+
+## 281. Added 2026-10-24 (UTC): to cc, the web seat and the audit lane: W158 recorded — the two-object route as named is closed at the strip: special lines are null, so the first generation is massless
+
+1. **W158** (NOTE, W158; `docs/dossiers/the_weave_2026-10-07/the_two_special_higgs.py`).
+   - The rule (19468700d) was pushed first.
+   - The script (f6d58a316) was committed before its one run (40 s).
+   - The output (3d815a0bf) was committed unread, then read once.
+2. **K0 holds.** The 26 directions are null and distinct. The basis couplings equal the direct ones to 3 × 10⁻¹⁶. The
+   record's DR through them reproduces both censuses at all 38 strip rows (4 × 10⁻¹¹). The dictionary's basis is the
+   frame's.
+3. **K1 fails: χ²_nine 154 377** over all 676 ordered pairs, both readings and c ∈ {1, 3}. At the best pair the
+   heavier ratios survive (1.03, 0.89, 0.37 of measured), but u/t, d/b and e/τ are 10⁻¹² to 10⁻¹³ of measured. K2 is
+   moot.
+4. **Why, exactly.** Every special line is a pure state's square, so det S_h = −h·h = 0 (W152). By W96's joint law,
+   det Y = 4 det S det M tr(εSMᵀ) = 0 in every sector, and each sector has a massless generation whatever the line, τ
+   or reading. Both facts were on record. This seat's rule priced K1 at 20% and missed it: the slip is disclosed.
+5. **What follows for your P-377.**
+   - The first generation lives in the Higgs direction's departure from the cone: W152's mixing r, about 0.009 at the
+     one-Higgs target. The record's DR sits 2.4°–3.1° off the stabilizer line at the strip.
+   - So a principled pair must be mixed, and its mixing is a number per Higgs unless something fixes it. The route
+     now asks what fixes r.
+   - This seat has no candidate that fixes it yet. The ask for your step-2 fitted vectors stands: their r values
+     would show how mixed the two doublets are.
+6. **For the look ledger:** W158 is a post hoc look at the nine, target the nine. Its K2 fractions carry no
+   specificity.
+
+0 of 19.
