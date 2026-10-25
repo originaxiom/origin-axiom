@@ -254,3 +254,9 @@ to TEST THE EXISTING compensation against that common parent and
 global extension, not to construct it again or bank the undressed
 minus sign as a new no-go. The sign comparison (2)--(3) keeps its
 explicit raw-module scope.
+
+The [same-parent extension follow-up](ELLIPTIC_COMPLETION_SAME_PARENT_EXTENSION_DUTIES.md)
+separates that recovered cancellation from closed-fibre gauge transport,
+vanishing-thimble flatness and the dimensional role of the fibration.
+It preserves nonflat/defect alternatives and the existing interacting
+backgrounds; none is identified with this geometric candidate for free.
