@@ -20,6 +20,14 @@ the corresponding calculation again:
 | A global elliptic completion despite the local Kodaira exclusion | [Scoped factorisation and register price](GLOBAL_ELLIPTIC_FACTORISATION_AND_REGISTER_PRICE.md), B1343's producer, B1634 and the existing common-register proof | A product is one local degeneration, or equality of homology/local action permits forgetting the boundary/matter lift |
 | Nonparallel radial profiles and their actual end operator | [Same-action radial flow](SAME_ACTION_RADIAL_VACUUM_FLOW_AND_RESPONSE.md), the old graded blocks and neutral-stability proof | A constant threshold can be used with varying coefficients without its derivative term, or a bounded zero-residual ansatz covers every stationary end |
 
+The October 25 radial successor now has a
+[separately committed verification design](verification_radial_flow/DESIGN.md)
+and ten implemented controls. Only AST/syntax/population and source-hash
+metadata were inspected. These controls are UNRUN, NOT IMPORTED and
+NOT COLLECTED; the source inventory is not a complete execution seal.
+Its own source closure and review/admission remain owed. It does not
+change P210's frozen package or expand the completed P210 review.
+
 The first two rows were recovered again after the owner's explicit
 warning against duplicate work. They are reused results, not new
 calculations. The later analytical notes retain their stated review
