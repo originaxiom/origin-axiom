@@ -19,6 +19,7 @@ the corresponding calculation again:
 | Keeping the scalar part of the full matrix S | [Full-matrix assignment audit](FULL_MATRIX_ASSIGNMENT_AND_CENTRAL_QUOTIENT.md) | A Lie-algebra assignment, compact group extension, old weak neutrality and kinetic metric are one automatic requirement |
 | A global elliptic completion despite the local Kodaira exclusion | [Scoped factorisation and register price](GLOBAL_ELLIPTIC_FACTORISATION_AND_REGISTER_PRICE.md), B1343's producer, B1634 and the existing common-register proof | A product is one local degeneration, or equality of homology/local action permits forgetting the boundary/matter lift |
 | Nonparallel radial profiles and their actual end operator | [Same-action radial flow](SAME_ACTION_RADIAL_VACUUM_FLOW_AND_RESPONSE.md), the old graded blocks and neutral-stability proof | A constant threshold can be used with varying coefficients without its derivative term, or a bounded zero-residual ansatz covers every stationary end |
+| Does the local stable tail amplitude remain a global free parameter? | [Global real-Cartan matching](GLOBAL_CARTAN_AMPLITUDE_MATCHING.md) and the source's old global triple backgrounds | The scalar maximum principle selects every Higgs orbit, removes the old neutral modulus, or applies to defects/other end classes |
 
 The October 25 radial successor now has a
 [separately committed verification design](verification_radial_flow/DESIGN.md)
