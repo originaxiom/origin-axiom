@@ -41,3 +41,20 @@ P210 remains separate. Its completed nonauthoring source review is
 already pushed at 523821858da7b3098834aeabafb350e142e9a3d2; main's exact
 structured acceptance and genuine prospective admission remain owed.
 No P210 mathematical checks or new scientific modules ran here.
+
+## October 25: existing vertical-spin cancellation recovered
+
+Follow-up to the first checkpoint 267420db7: a raw matter sign is
+NOT a new physical obstruction. I reread JOINT_ROOT_ACTION_AND_AUTOMORPHY
+and REGISTERED_PRINCIPAL_PARTS_AND_GREEN_TRANSPORT in full. They already
+give B's root sheet flip, k_B=r_B=j_B=-1, with g_B=1. Substitution in
+their actual vertical ordinary-spin maps gives A^spin=M^spin=C^spin=+I
+at B. Their normal-frame Green pairing was already transported too.
+No need to invent this compensation or rerun those calculations.
+
+The note now records this explicitly. It preserves the raw-module
+minus sign and the full based/root difference, but keeps this existing
+conditional positive: the vertical spin sequence cancels the sign.
+What remains is its SAME-parent physical identification and extension
+through the proposed singular fibres, not an assumed unavoidable sign
+obstruction. No new computation, physical selection or input payment.

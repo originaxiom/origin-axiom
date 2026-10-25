@@ -203,3 +203,54 @@ factor or the coefficient system retain those costs; they are not
 borrowed as a solution. Until such a map is built, this is a scoped
 geometric opening with a derived register constraint, not physical
 chirality, an accepted theorem arc or a completed input reduction.
+
+## October 25 reuse check: a conditional compensation already exists
+
+The preceding last paragraph must NOT be read as saying that no
+geometric spin compensation has been constructed. Before proposing
+one, I reread the existing
+[joint root action](JOINT_ROOT_ACTION_AND_AUTOMORPHY.md) and
+[principal-parts/Green transport](REGISTERED_PRINCIPAL_PARTS_AND_GREEN_TRANSPORT.md)
+in full. They already supply one for a DECLARED vertical ordinary-spin
+family, without adding a new arbitrary sign. This is recovered prior
+work; the substitution below is not a new physical mechanism.
+
+For the same lifted B=epsilon J_c, those sources give
+
+    P_B=C (the root sheet flip),    g_B=1,    mu(B)=-1,
+    k_B=-1,                        r_B=-1.
+
+Here F(P_e x)=k_e g_e F(x), r_e is the actual derivative of the root
+normal frame, and k_e^2=j_e mu(e). Consequently j_B=-1. The value
+of j is the previously DECLARED metaplectic/vertical spin lift, not
+a new derivation of the higher-dimensional physical spin structure.
+
+The old actual scalar-section sequence has transport
+
+    A_e=k_e^-1 O_e,   M_e=r_e(O_e tensor g_e),
+    C_e=k_e j_e^-2 O_e.
+
+At B these are (-I3,-I6,-I3). In the declared vertical spin sequence,
+the SAME sources instead give
+
+    A_e^spin=(j_e/k_e)O_e,
+    M_e^spin=j_e r_e(O_e tensor g_e),
+    C_e^spin=(k_e/j_e)O_e.
+
+All three are +I at B. The previous proof also retains the normal
+derivative in the actual Green pairing; it is not only cancellation
+of labels. Thus a raw matter sign cannot establish an obstruction
+for this dressed vertical spin sequence. It is precisely the field
+type and its transported lines that decide which action is relevant.
+
+The root sheet action and full based word still differ. Identity on
+these spin sequence maps is not identity on the entire relational
+architecture. Moreover these conditional maps do not yet identify
+the spin sequence with all fields of the E8 parent, or prove that it
+extends through the twelve vanishing cycles of the proposed fibration.
+No stationary completion, full spectrum, anomaly cancellation or
+physical end selection follows. The revised next duty is therefore
+to TEST THE EXISTING compensation against that common parent and
+global extension, not to construct it again or bank the undressed
+minus sign as a new no-go. The sign comparison (2)--(3) keeps its
+explicit raw-module scope.
