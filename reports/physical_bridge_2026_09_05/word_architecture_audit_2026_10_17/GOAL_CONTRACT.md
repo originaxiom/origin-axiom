@@ -18,6 +18,7 @@ the corresponding calculation again:
 | A gapped actual cusp response or its boundary norm | [Existing graded-cusp transport](ACTUAL_GRADED_CUSP_RESPONSE_AND_STATE_SCOPE.md), [Weyl response/norm](ACTUAL_CUSP_WEYL_RESPONSE_AND_INDUCED_NORM.md) | An arbitrary extra mass/metric is needed, or this tail already supplies the full physical parent map |
 | Keeping the scalar part of the full matrix S | [Full-matrix assignment audit](FULL_MATRIX_ASSIGNMENT_AND_CENTRAL_QUOTIENT.md) | A Lie-algebra assignment, compact group extension, old weak neutrality and kinetic metric are one automatic requirement |
 | A global elliptic completion despite the local Kodaira exclusion | [Scoped factorisation and register price](GLOBAL_ELLIPTIC_FACTORISATION_AND_REGISTER_PRICE.md), B1343's producer, B1634 and the existing common-register proof | A product is one local degeneration, or equality of homology/local action permits forgetting the boundary/matter lift |
+| Nonparallel radial profiles and their actual end operator | [Same-action radial flow](SAME_ACTION_RADIAL_VACUUM_FLOW_AND_RESPONSE.md), the old graded blocks and neutral-stability proof | A constant threshold can be used with varying coefficients without its derivative term, or a bounded zero-residual ansatz covers every stationary end |
 
 The first two rows were recovered again after the owner's explicit
 warning against duplicate work. They are reused results, not new
