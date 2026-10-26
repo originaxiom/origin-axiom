@@ -166,6 +166,18 @@ is author source/algebra/integral scrutiny, not a rerun or independent
 global-domain/PDE certification. The new note is unreviewed and outside
 the pending review-extension request; no foundational input is paid.
 
+FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md reuses the old
+Schur/joining and surface-projection proofs. Given the ACTUAL admitted
+total complement inverse R=(C-lambda)^-1, reconstruction gives
+N=I+B^dagger R^2 B=-F'(lambda), not an independent flavour Gram.
+It retains complement kernels/continua, the original grading and
+transported domains; it does not substitute a vertical inverse.
+Under the old ODD compact-resolvent hypotheses, N-I is compact and
+its localized tail norm tends to zero. That conclusion is not copied
+to the whole regular even complement. This is new UNREVIEWED author
+analysis, outside frozen controls and all completed/pending review
+scopes; no execution or foundational-input payment is claimed.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
