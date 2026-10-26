@@ -304,6 +304,25 @@ A=conjugate(Sigma_down), B K=v_DR. The old local core and R10 response
 are leads with different scopes, not interchangeable physical models.
 The new analysis is UNREVIEWED and no scientific execution is claimed.
 
+## October 27: conditional compact continuation, not a selected physical vacuum
+
+[Compact uniformizing continuation](COMPACT_UNIFORMIZING_CORE_AND_GLOBAL_INPUTS.md)
+reuses the actual genus-three quaternion cover and the already named
+ordinary-Higgs stability route. The local smooth core maps exactly to
+ordinary curve Hitchin equations. In the fixed split nilpotent ansatz,
+compact flux requires negative root-line degree; genus three admits
+degrees -1 or -2, and only the additional zero-free branch gives
+L^2=K^(-1). The classical stable-pair theorem supplies a compact
+nonzero solution and its harmonic metric up to gauge once that orbit
+is fixed. This is conditional input dependence, not genesis selection.
+The local stabilizer also shows why adjoint descent is insufficient:
+a canonical-compatible square-root lift has square -I on the root
+doublet. The full combined spin/R/gauge action remains to be supplied
+by the actual parent and checked globally. No old flat spectrum is
+transferred, no scientific experiment was run and the new proof is
+UNREVIEWED, outside all earlier completed reviews. Existing spin-valued
+solutions and the degree-minus-one branch remain separate positives.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
