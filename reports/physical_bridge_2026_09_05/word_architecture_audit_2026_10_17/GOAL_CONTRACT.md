@@ -112,6 +112,16 @@ derived profile/response duties from the supplied parent and residual
 normalization. Its new scale-discriminator argument is author source
 analysis outside that review. It does not pay a foundational input.
 
+The analytical successor TWO_SPIN_FIELD_MOMENT_ORBIT_UNIQUENESS.md
+derives a positive integrated moment identity for a bounded Hermitian
+path, retaining both spin fields and explicitly estimating the cutoff
+error. Under its finite-norm and endpoint hypotheses, the path is
+constant. This extends the proposed conditional representative
+constraint beyond the real-Cartan ansatz; it neither selects an orbit
+nor proves existence or a physical identification. It is UNREVIEWED,
+outside all frozen controls and outside the radial review verdict.
+No science was imported, collected or run.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
