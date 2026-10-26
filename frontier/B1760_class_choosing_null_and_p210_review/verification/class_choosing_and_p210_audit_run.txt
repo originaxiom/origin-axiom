@@ -1,0 +1,20 @@
+=== 1. B1749 (N <= 12) CLASS-CHOOSING NULLS (80,000 TARGETS, SEEDS 1820..1839) ===
+  prime_divisibility   (K= 5): named=p=5 (size  48), single_p=0.000050 (  4/80000) -> class_choosing_min_p=0.000212 ( 17/80000, LEF=4.25x)
+  exact_order          (K=11): named=N=10 (size  36), single_p=0.000037 (  3/80000) -> class_choosing_min_p=0.000412 ( 33/80000, LEF=11.00x)
+  slope_alpha          (K=24): named=2/5 (size  10), single_p=0.000025 (  2/80000) -> class_choosing_min_p=0.000600 ( 48/80000, LEF=24.00x)
+
+=== 2. B1755 (N in {13,14,15,20}) CLASS-CHOOSING NULLS (80,000 TARGETS, SEEDS 1820..1839) ===
+  prime_divisibility   (K= 5): named=p=5 (size 240), single_p=0.001012 ( 81/80000) -> class_choosing_min_p=0.003575 (286/80000, LEF=3.53x) | at_best(p=3)=0.001325
+  exact_order          (K= 4): named=N=15 (size  96), single_p=0.000362 ( 29/80000) -> class_choosing_min_p=0.001412 (113/80000, LEF=3.90x) | at_best(N=15)=0.001412
+  slope_alpha          (K=28): named=2/5 (size  20), single_p=0.000162 ( 13/80000) -> class_choosing_min_p=0.004488 (359/80000, LEF=27.62x) | at_best(2/5)=0.004488
+
+=== 3. CROSS-CENSUS CORRELATION & TWO-STAGE TRAIN->TEST NULL ===
+  Corr(B1749 5|N, B1755 15+20) = 0.7021 | Corr(B1749 alpha=2/5, B1755 alpha=2/5) = 0.8953
+  P(B1755 15+20 <= 16.75) = 0.0125 -> Conditional on B1749(5|N)<=16.75: 0.3975 (31.7x)
+  Two-stage train(B1749)->test(B1755) p-value = 0.001563 (125/80000, inflation=1.54x)
+
+=== 4. P-386 INDEPENDENT AUDIT OF P210 & OCT 24-26 REDUCTIONS ===
+  P210 sealed commit 39ce620a82: 39 artifacts & 14 source-closure entries verified; 10 AST test methods inspected (no scientific execution).
+  Oct 24-26 reductions: Weyl norm derivative, unitary slot grading transport, and Schur induced kinetic metric certified via SymPy across 8 notes.
+
+Wrote verification/class_choosing_and_p210_audit.json successfully.
