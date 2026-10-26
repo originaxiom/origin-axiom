@@ -122,6 +122,17 @@ nor proves existence or a physical identification. It is UNREVIEWED,
 outside all frozen controls and outside the radial review verdict.
 No science was imported, collected or run.
 
+The next source-based reduction card,
+REDUCTION_CARD_02_COVARIANT_VERTEX_AND_PARENT_PRICE.md, classifies the
+constant bilinear one-Dbar spin functional: its symmetric coefficient
+is an explicit boundary primitive, while its antisymmetric bulk part
+has one coefficient. Gauge covariance ties that derivative coefficient
+to the connection cubic. The old full flat Yang--Mills identity fixes
+its magnitude relative to the specified kinetic sector; covariance
+and the zero-residual equations alone do not. This makes the stronger
+parent earning duty explicit. It reuses old trace/roster results and
+is UNREVIEWED author analysis, not a new fundamental-input payment.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
