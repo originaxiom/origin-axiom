@@ -1,0 +1,13 @@
+=== 1. SECTOR-UNIVERSAL PUNCTURE NORM THEOREM (THEOREM 1) ===
+  tau=0.3145+3.0345i: c_j=-0.3195, c_k=-0.3572, c_i=+4.9223 | max|dc_j|=2.84e-13, max|dc_k|=7.11e-14, |dc_i(d,l)|=1.42e-14, |R_u,i|=1.24e-16
+  tau=0.333333+3.05505i: c_j=-0.3179, c_k=-0.3587, c_i=+4.9237 | max|dc_j|=4.26e-13, max|dc_k|=3.98e-13, |dc_i(d,l)|=0.00e+00, |R_u,i|=1.51e-16
+  tau=0.3145+3.1i: c_j=-0.3216, c_k=-0.3550, c_i=+4.8870 | max|dc_j|=3.84e-13, max|dc_k|=2.84e-13, |dc_i(d,l)|=1.42e-14, |R_u,i|=5.31e-16
+  tau=0.3145+2.95i: c_j=-0.3163, c_k=-0.3606, c_i=+4.9723 | max|dc_j|=9.95e-14, max|dc_k|=7.11e-14, |dc_i(d,l)|=5.68e-14, |R_u,i|=1.35e-16
+
+=== 2. STRIP PROBE: BOUNDARY-DRESSED DR & MATTER VECTORS VS B1757 ===
+  tau=0.3145+3.0345i: I(DR+0.5)=0.0120, I(DR+1.0)=0.0232, I(u_up)=0.0074 vs B1757 (I_u=0.0108, I_d=0.0299, |hu_1|=0.122, |hd_1|=0.056)
+  tau=0.333333+3.05505i: I(DR+0.5)=0.0116, I(DR+1.0)=0.0226, I(u_up)=0.0072 vs B1757 (I_u=0.0137, I_d=0.0260, |hu_1|=0.100, |hd_1|=0.062)
+  tau=0.3145+3.1i: I(DR+0.5)=0.0100, I(DR+1.0)=0.0194, I(u_up)=0.0065 vs B1757 (I_u=0.0140, I_d=0.0206, |hu_1|=0.112, |hd_1|=0.098)
+  tau=0.3145+2.95i: I(DR+0.5)=0.0151, I(DR+1.0)=0.0292, I(u_up)=0.0087 vs B1757 (I_u=0.0096, I_d=0.0179, |hu_1|=0.084, |hd_1|=0.092)
+
+Wrote verification/sector_universal_puncture_norm.json successfully.

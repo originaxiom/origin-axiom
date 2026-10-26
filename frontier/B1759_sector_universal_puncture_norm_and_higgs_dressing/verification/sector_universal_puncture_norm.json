@@ -1,0 +1,412 @@
+{
+  "arc": "B1759",
+  "points": [
+    "P-357",
+    "P-366",
+    "P-377"
+  ],
+  "theorem1_sector_universal_puncture_norm": [
+    {
+      "tau": [
+        0.3145,
+        3.0345
+      ],
+      "c_down": {
+        "1": 4.019419587211385,
+        "i": 4.922323161037645,
+        "j": -0.31946347352326115,
+        "k": -0.35722652013394
+      },
+      "c_j_minus_c_k": 0.03776304661067886,
+      "max_abs_diff_c_j_across_sectors": 2.8421709430404007e-13,
+      "max_abs_diff_c_k_across_sectors": 7.105427357601002e-14,
+      "max_abs_diff_c_1_across_sectors": 2.842170943040401e-14,
+      "abs_diff_c_i_down_lep": 1.4210854715202004e-14,
+      "max_abs_diff_K_down_lep": 1.6758116906701664e-14,
+      "max_abs_diff_mod_K_up_vs_down_neg": 5.861977570020827e-14,
+      "abs_R_up_i_two_torsion": 1.2411484902077599e-16
+    },
+    {
+      "tau": [
+        0.333333,
+        3.05505
+      ],
+      "c_down": {
+        "1": 4.019689646880203,
+        "i": 4.923652598346899,
+        "j": -0.31791386897350904,
+        "k": -0.35873107386115155
+      },
+      "c_j_minus_c_k": 0.04081720488764251,
+      "max_abs_diff_c_j_across_sectors": 4.263256414560601e-13,
+      "max_abs_diff_c_k_across_sectors": 3.979039320256561e-13,
+      "max_abs_diff_c_1_across_sectors": 1.4210854715202004e-14,
+      "abs_diff_c_i_down_lep": 0.0,
+      "max_abs_diff_K_down_lep": 2.12096188367986e-14,
+      "max_abs_diff_mod_K_up_vs_down_neg": 2.3092638912203256e-14,
+      "abs_R_up_i_two_torsion": 1.5117956802755776e-16
+    },
+    {
+      "tau": [
+        0.3145,
+        3.1
+      ],
+      "c_down": {
+        "1": 4.0554038172707685,
+        "i": 4.887046911676153,
+        "j": -0.32161264958089053,
+        "k": -0.35499366025686635
+      },
+      "c_j_minus_c_k": 0.03338101067597582,
+      "max_abs_diff_c_j_across_sectors": 3.836930773104541e-13,
+      "max_abs_diff_c_k_across_sectors": 2.8421709430404007e-13,
+      "max_abs_diff_c_1_across_sectors": 1.4210854715202004e-14,
+      "abs_diff_c_i_down_lep": 1.4210854715202004e-14,
+      "max_abs_diff_K_down_lep": 1.4238583238573986e-14,
+      "max_abs_diff_mod_K_up_vs_down_neg": 2.3092638912203256e-14,
+      "abs_R_up_i_two_torsion": 5.305510820080162e-16
+    },
+    {
+      "tau": [
+        0.3145,
+        2.95
+      ],
+      "c_down": {
+        "1": 3.9683679009035435,
+        "i": 4.972269906058136,
+        "j": -0.3162792282305039,
+        "k": -0.3605542420804777
+      },
+      "c_j_minus_c_k": 0.04427501384997379,
+      "max_abs_diff_c_j_across_sectors": 9.947598300641403e-14,
+      "max_abs_diff_c_k_across_sectors": 7.105427357601002e-14,
+      "max_abs_diff_c_1_across_sectors": 0.0,
+      "abs_diff_c_i_down_lep": 5.684341886080802e-14,
+      "max_abs_diff_K_down_lep": 2.0715702557244597e-14,
+      "max_abs_diff_mod_K_up_vs_down_neg": 7.283063041541027e-14,
+      "abs_R_up_i_two_torsion": 1.3462237207140967e-16
+    }
+  ],
+  "strip_comparisons": [
+    {
+      "tau": [
+        0.3145,
+        3.0345
+      ],
+      "L_max": 0.6469625223436702,
+      "baseline_DR": {
+        "I_off_cone": 0.005201472172901348,
+        "chi2_six_split": 2.657716011694231,
+        "chi2_nine_split": 1633.8291328732155,
+        "chi2_six_same": 1189.6903149305583,
+        "chi2_nine_same": 1859.6478995040725
+      },
+      "matter_vectors": {
+        "up": {
+          "abs_u_i": 0.0,
+          "I_off_cone": 0.0073905925091469525,
+          "ratio_u1_over_norm3": 0.12102617360785027
+        },
+        "down": {
+          "abs_u_i": 0.9409415095223531,
+          "I_off_cone": 0.9059256458757325,
+          "ratio_u1_over_norm3": 0.918304441341729
+        },
+        "lep": {
+          "abs_u_i": 0.9409415095223533,
+          "I_off_cone": 0.9059256458757327,
+          "ratio_u1_over_norm3": 0.9183044413417268
+        }
+      },
+      "boundary_dressed_DR": {
+        "alpha_+0.5": {
+          "alpha": 0.5,
+          "I_off_cone": 0.011973423491478348,
+          "abs_e2_minus_abs_e3": 0.004696657088439471,
+          "chi2_six_split": 140.25904582290303,
+          "chi2_nine_split": 1720.5243256988326,
+          "chi2_six_same": 1567.7684725119004,
+          "chi2_nine_same": 2987.084232556639
+        },
+        "alpha_+1.0": {
+          "alpha": 1.0,
+          "I_off_cone": 0.023209963722105757,
+          "abs_e2_minus_abs_e3": 0.00823693522995228,
+          "chi2_six_split": 423.43983927350666,
+          "chi2_nine_split": 2132.0058202668642,
+          "chi2_six_same": 1949.197468221259,
+          "chi2_nine_same": 3376.4852290913072
+        },
+        "alpha_-0.5": {
+          "alpha": -0.5,
+          "I_off_cone": 0.004359124650174087,
+          "abs_e2_minus_abs_e3": -0.0024543741423882492,
+          "chi2_six_split": 18.731662608876285,
+          "chi2_nine_split": 1959.637035950456,
+          "chi2_six_same": 1135.308772467196,
+          "chi2_nine_same": 2140.4405569245996
+        },
+        "alpha_-1.0": {
+          "alpha": -1.0,
+          "I_off_cone": 0.0087594059706775,
+          "abs_e2_minus_abs_e3": -0.0060369469533496645,
+          "chi2_six_split": 70.4511682241977,
+          "chi2_nine_split": 2253.413304304099,
+          "chi2_six_same": 1420.3666925955222,
+          "chi2_nine_same": 1482.134945153074
+        }
+      },
+      "b1757_fitted_L_max": {
+        "chi2_nine": 19.078815914564256,
+        "I_u": 0.010820981474658143,
+        "I_d": 0.029884198759890887,
+        "abs_hu_e1": 0.12188243191410353,
+        "abs_hd_e1": 0.055574023783267444,
+        "hu_abs_e2_minus_abs_e3": 0.0006505745836912213,
+        "hd_abs_e2_minus_abs_e3": 0.022057196518673106,
+        "overlap_hu_with_null_same": 0.9925412650431259,
+        "overlap_hd_with_null_same": 0.9983319935490691
+      }
+    },
+    {
+      "tau": [
+        0.333333,
+        3.05505
+      ],
+      "L_max": 0.6468547845663833,
+      "baseline_DR": {
+        "I_off_cone": 0.004876982715387623,
+        "chi2_six_split": 3.5736659855230526,
+        "chi2_nine_split": 1678.3825735837372,
+        "chi2_six_same": 1171.8988442958096,
+        "chi2_nine_same": 1939.4160047290939
+      },
+      "matter_vectors": {
+        "up": {
+          "abs_u_i": 0.0,
+          "I_off_cone": 0.007235113201421222,
+          "ratio_u1_over_norm3": 0.118712687564225
+        },
+        "down": {
+          "abs_u_i": 0.9416743522303198,
+          "I_off_cone": 0.9074071183830624,
+          "ratio_u1_over_norm3": 0.9190415985647645
+        },
+        "lep": {
+          "abs_u_i": 0.9416743522303195,
+          "I_off_cone": 0.9074071183830608,
+          "ratio_u1_over_norm3": 0.9190415985647642
+        }
+      },
+      "boundary_dressed_DR": {
+        "alpha_+0.5": {
+          "alpha": 0.5,
+          "I_off_cone": 0.011637765958369945,
+          "abs_e2_minus_abs_e3": 0.004820476533967333,
+          "chi2_six_split": 131.39687474742848,
+          "chi2_nine_split": 1722.1276393739963,
+          "chi2_six_same": 1559.043758875149,
+          "chi2_nine_same": 2905.1445487174033
+        },
+        "alpha_+1.0": {
+          "alpha": 1.0,
+          "I_off_cone": 0.022604596571796427,
+          "abs_e2_minus_abs_e3": 0.008651481861728594,
+          "chi2_six_split": 410.5891941118011,
+          "chi2_nine_split": 2118.3538152073606,
+          "chi2_six_same": 1932.9123929870582,
+          "chi2_nine_same": 3373.091996837591
+        },
+        "alpha_-0.5": {
+          "alpha": -0.5,
+          "I_off_cone": 0.004819630110409361,
+          "abs_e2_minus_abs_e3": -0.0029117901764952325,
+          "chi2_six_split": 14.637939623168531,
+          "chi2_nine_split": 2022.749016316116,
+          "chi2_six_same": 1168.4938422679124,
+          "chi2_nine_same": 2178.6832665138377
+        },
+        "alpha_-1.0": {
+          "alpha": -1.0,
+          "I_off_cone": 0.009779340764484935,
+          "abs_e2_minus_abs_e3": -0.006784838690510608,
+          "chi2_six_split": 100.81035275218102,
+          "chi2_nine_split": 2350.0083833013186,
+          "chi2_six_same": 1482.9087470175969,
+          "chi2_nine_same": 1527.897019794421
+        }
+      },
+      "b1757_fitted_L_max": {
+        "chi2_nine": 4.046263181982773,
+        "I_u": 0.013685077923002527,
+        "I_d": 0.02598663675681245,
+        "abs_hu_e1": 0.10048124648566534,
+        "abs_hd_e1": 0.06165378735799207,
+        "hu_abs_e2_minus_abs_e3": -0.002650195088871099,
+        "hd_abs_e2_minus_abs_e3": 0.007218125700531375,
+        "overlap_hu_with_null_same": 0.9949270704853646,
+        "overlap_hd_with_null_same": 0.9979901897510163
+      }
+    },
+    {
+      "tau": [
+        0.3145,
+        3.1
+      ],
+      "L_max": 0.6466191245620501,
+      "baseline_DR": {
+        "I_off_cone": 0.004235910128424604,
+        "chi2_six_split": 16.186441504828572,
+        "chi2_nine_split": 1625.1988920660615,
+        "chi2_six_same": 1109.189922923365,
+        "chi2_nine_same": 1911.9373601497905
+      },
+      "matter_vectors": {
+        "up": {
+          "abs_u_i": 0.0,
+          "I_off_cone": 0.006513270487468333,
+          "ratio_u1_over_norm3": 0.11392102281641736
+        },
+        "down": {
+          "abs_u_i": 0.9431342522220221,
+          "I_off_cone": 0.9086371933101659,
+          "ratio_u1_over_norm3": 0.9222228019613665
+        },
+        "lep": {
+          "abs_u_i": 0.9431342522220215,
+          "I_off_cone": 0.9086371933101649,
+          "ratio_u1_over_norm3": 0.9222228019613651
+        }
+      },
+      "boundary_dressed_DR": {
+        "alpha_+0.5": {
+          "alpha": 0.5,
+          "I_off_cone": 0.010031180308109159,
+          "abs_e2_minus_abs_e3": 0.004076979869177544,
+          "chi2_six_split": 76.99949959498068,
+          "chi2_nine_split": 1612.227450691638,
+          "chi2_six_same": 1445.688839627556,
+          "chi2_nine_same": 2781.455850403139
+        },
+        "alpha_+1.0": {
+          "alpha": 1.0,
+          "I_off_cone": 0.019448637800177037,
+          "abs_e2_minus_abs_e3": 0.007215631799504574,
+          "chi2_six_split": 308.2844973864052,
+          "chi2_nine_split": 1974.8105546239817,
+          "chi2_six_same": 1775.8443451192554,
+          "chi2_nine_same": 3275.709592110345
+        },
+        "alpha_-0.5": {
+          "alpha": -0.5,
+          "I_off_cone": 0.0037992772558019705,
+          "abs_e2_minus_abs_e3": -0.0022503542830599743,
+          "chi2_six_split": 45.62079209950474,
+          "chi2_nine_split": 1971.8386406898394,
+          "chi2_six_same": 1083.0573982851552,
+          "chi2_nine_same": 2166.2038601603886
+        },
+        "alpha_-1.0": {
+          "alpha": -1.0,
+          "I_off_cone": 0.007810892643815381,
+          "abs_e2_minus_abs_e3": -0.005419030298158711,
+          "chi2_six_split": 54.320711078557096,
+          "chi2_nine_split": 2217.638328103003,
+          "chi2_six_same": 1338.4560853327687,
+          "chi2_nine_same": 1420.4672325020445
+        }
+      },
+      "b1757_fitted_L_max": {
+        "chi2_nine": 29.167677349281597,
+        "I_u": 0.014015719429114188,
+        "I_d": 0.02060153795477952,
+        "abs_hu_e1": 0.11156340214558887,
+        "abs_hd_e1": 0.09832781049062654,
+        "hu_abs_e2_minus_abs_e3": -0.0006534512368875367,
+        "hd_abs_e2_minus_abs_e3": 0.015941931652594388,
+        "overlap_hu_with_null_same": 0.9937569853789079,
+        "overlap_hd_with_null_same": 0.9950521811972538
+      }
+    },
+    {
+      "tau": [
+        0.3145,
+        2.95
+      ],
+      "L_max": 0.6474628493853957,
+      "baseline_DR": {
+        "I_off_cone": 0.006778135180312518,
+        "chi2_six_split": 25.076253318115352,
+        "chi2_nine_split": 1687.8994360481988,
+        "chi2_six_same": 1326.9533637354857,
+        "chi2_nine_same": 1808.1938520970136
+      },
+      "matter_vectors": {
+        "up": {
+          "abs_u_i": 0.0,
+          "I_off_cone": 0.008702231818273329,
+          "ratio_u1_over_norm3": 0.1308275906680129
+        },
+        "down": {
+          "abs_u_i": 0.9379970427833088,
+          "I_off_cone": 0.9023566638542633,
+          "ratio_u1_over_norm3": 0.9129266410914333
+        },
+        "lep": {
+          "abs_u_i": 0.9379970427833083,
+          "I_off_cone": 0.9023566638542622,
+          "ratio_u1_over_norm3": 0.9129266410914356
+        }
+      },
+      "boundary_dressed_DR": {
+        "alpha_+0.5": {
+          "alpha": 0.5,
+          "I_off_cone": 0.015087499087522615,
+          "abs_e2_minus_abs_e3": 0.0056461370181376536,
+          "chi2_six_split": 254.97763408233732,
+          "chi2_nine_split": 1895.1653089300853,
+          "chi2_six_same": 1755.489302898072,
+          "chi2_nine_same": 3204.7874034805195
+        },
+        "alpha_+1.0": {
+          "alpha": 1.0,
+          "I_off_cone": 0.02924075437425603,
+          "abs_e2_minus_abs_e3": 0.009777097200982965,
+          "chi2_six_split": 602.8067780045881,
+          "chi2_nine_split": 2364.761147300709,
+          "chi2_six_same": 2199.8587161411806,
+          "chi2_nine_same": 3544.8458795779593
+        },
+        "alpha_-0.5": {
+          "alpha": -0.5,
+          "I_off_cone": 0.005251523514260684,
+          "abs_e2_minus_abs_e3": -0.00272552930546488,
+          "chi2_six_split": 7.644215034654222,
+          "chi2_nine_split": 1966.405043120406,
+          "chi2_six_same": 1225.4184383854292,
+          "chi2_nine_same": 2118.7424364213825
+        },
+        "alpha_-1.0": {
+          "alpha": -1.0,
+          "I_off_cone": 0.010156445749141185,
+          "abs_e2_minus_abs_e3": -0.00692236153889958,
+          "chi2_six_split": 110.34687718798403,
+          "chi2_nine_split": 2316.854389972643,
+          "chi2_six_same": 1541.9640858845337,
+          "chi2_nine_same": 1587.2910260517035
+        }
+      },
+      "b1757_fitted_L_max": {
+        "chi2_nine": 2.7496538162425983,
+        "I_u": 0.00955856652664684,
+        "I_d": 0.017908752160272833,
+        "abs_hu_e1": 0.08379112952901151,
+        "abs_hd_e1": 0.09214519456785719,
+        "hu_abs_e2_minus_abs_e3": -0.0036669603779893034,
+        "hd_abs_e2_minus_abs_e3": 0.006740010666391849,
+        "overlap_hu_with_null_same": 0.9964645017521294,
+        "overlap_hd_with_null_same": 0.9956719262161874
+      }
+    }
+  ]
+}

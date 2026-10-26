@@ -1,0 +1,6 @@
+{
+  "arc": "B1759",
+  "verdict": "PROVED",
+  "summary": "Proves Theorem 1 (Sector-Universal Puncture Norm Theorem, P-357 Step 2): for every SM sector (q_L, q_R), the normalized elliptic channel kernel K_s(u; x, y) = P_s(u; x, y)/R_s(x, y) depends only on x + y = +/- 3w, so c_s^(up)(tau, w) = c_s^(down)(tau, w) = c_s^(lep)(tau, w) identically across M_{1,2} (certified to <= 4.3e-13 on the strip). Establishes Theorem 2 (off-cone scale vs. sector splitting against B1757): boundary-norm dressing (2*pi*L + c_s)^alpha lifts v_DR off the null cone at the B1757 scale O(10^-2) (I(+1/2) in [0.010, 0.015], I(+1) in [0.019, 0.029]), while exact 2-torsion of 5w forces R_i^(up) = 0 identically on order-10 lines.",
+  "points": ["P-357", "P-366", "P-377"]
+}
