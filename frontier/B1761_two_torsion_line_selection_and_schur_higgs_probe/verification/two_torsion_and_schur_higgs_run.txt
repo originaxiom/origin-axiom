@@ -1,0 +1,25 @@
+=== B1761: DATA-FREE 2-TORSION LINE SELECTION & YUKAWA-GRAM HIGGS PROBE ===
+Attack 2: tested 662 lines (266 at N<=12, 396 at N in {13,14,15,20})
+  Condition C1 survivors (asymmetric 2-torsion e1-kernel): 10 lines
+  Condition C1+C2 survivors (I(u_up) < 0.05): 5 lines (single T-orbit a=2/5, 10b odd)
+    [N<=12] line 134: (1/5, 1/10) N=10 | ||R_(j,k)^(up)||/|R_1^(up)| = 1.85500 | I(u_up) = 0.290611
+    [N<=12] line 135: (1/5, 3/10) N=10 | ||R_(j,k)^(up)||/|R_1^(up)| = 1.85470 | I(u_up) = 0.290705
+    [N<=12] line 136: (1/5, 1/2) N=10 | ||R_(j,k)^(up)||/|R_1^(up)| = 1.85398 | I(u_up) = 0.290930
+    [N<=12] line 137: (1/5, 7/10) N=10 | ||R_(j,k)^(up)||/|R_1^(up)| = 1.85544 | I(u_up) = 0.290472
+    [N<=12] line 138: (1/5, 9/10) N=10 | ||R_(j,k)^(up)||/|R_1^(up)| = 1.85380 | I(u_up) = 0.290988
+    [N<=12] line 149: (2/5, 1/10) N=10 | ||R_(j,k)^(up)||/|R_1^(up)| = 12.16992 | I(u_up) = 0.006752
+    [N<=12] line 150: (2/5, 3/10) N=10 | ||R_(j,k)^(up)||/|R_1^(up)| = 12.61744 | I(u_up) = 0.006281
+    [N<=12] line 151: (2/5, 1/2) N=10 | ||R_(j,k)^(up)||/|R_1^(up)| = 12.09966 | I(u_up) = 0.006831
+    [N<=12] line 152: (2/5, 7/10) N=10 | ||R_(j,k)^(up)||/|R_1^(up)| = 12.48780 | I(u_up) = 0.006413
+    [N<=12] line 153: (2/5, 9/10) N=10 | ||R_(j,k)^(up)||/|R_1^(up)| = 12.36571 | I(u_up) = 0.006540
+
+Attack 1: Yukawa Gram matrices Sigma^(s) and zero-parameter down-Higgs dressing on (2/5, 1/10):
+  tau = 0.314500 + 3.034500i | ||Sigma^(up)_(0,12)|| = 0.00e+00 | ||Sigma^(lep) - P_e1 Sigma^(down) P_e1|| = 1.50e-16
+    |<H_d_opt | H_d_inv_gram>| = 0.999967 (0.463 deg) | chi2(2-DOF) = 33.49 | chi2(3-DOF) = 25.07 | chi2(B1757 8-DOF) = 19.08
+  tau = 0.333333 + 3.055050i | ||Sigma^(up)_(0,12)|| = 0.00e+00 | ||Sigma^(lep) - P_e1 Sigma^(down) P_e1|| = 6.18e-16
+    |<H_d_opt | H_d_inv_gram>| = 0.992869 (6.847 deg) | chi2(2-DOF) = 37.35 | chi2(3-DOF) = 25.35 | chi2(B1757 8-DOF) = 4.05
+  tau = 0.314500 + 3.100000i | ||Sigma^(up)_(0,12)|| = 0.00e+00 | ||Sigma^(lep) - P_e1 Sigma^(down) P_e1|| = 5.54e-16
+    |<H_d_opt | H_d_inv_gram>| = 0.998698 (2.924 deg) | chi2(2-DOF) = 41.76 | chi2(3-DOF) = 23.82 | chi2(B1757 8-DOF) = 29.17
+  tau = 0.314500 + 2.950000i | ||Sigma^(up)_(0,12)|| = 0.00e+00 | ||Sigma^(lep) - P_e1 Sigma^(down) P_e1|| = 3.71e-16
+    |<H_d_opt | H_d_inv_gram>| = 0.988554 (8.677 deg) | chi2(2-DOF) = 29.38 | chi2(3-DOF) = 27.88 | chi2(B1757 8-DOF) = 2.75
+two_torsion_and_schur_higgs exit 0

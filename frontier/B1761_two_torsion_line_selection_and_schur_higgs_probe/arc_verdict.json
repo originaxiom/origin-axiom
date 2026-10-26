@@ -1,0 +1,19 @@
+{
+  "arc": "B1761",
+  "title": "Data-Free 2-Torsion Line-Selection Theorem and Yukawa-Gram Higgs Dressing Probe",
+  "status": "VERIFIED",
+  "points": ["P-349", "P-357", "P-366", "P-373", "P-377", "P-384"],
+  "summary": {
+    "total_lines_tested": 662,
+    "c1_survivors_order_10": 10,
+    "c1_c2_survivors_single_t_orbit": 5,
+    "selected_orbit": "a = 2/5, b in {1/10, 3/10, 1/2, 7/10, 9/10}",
+    "up_gram_off_block_norm_max": 0.0,
+    "down_lep_gram_parity_diff_max": 6.18e-16,
+    "primary_strip_point_hd_overlap": 0.999967,
+    "primary_strip_point_hd_angle_deg": 0.463,
+    "primary_strip_point_schur0_chi2": 19.59,
+    "strip_2dof_chi2_range": [29.38, 41.76],
+    "strip_3dof_chi2_range": [23.82, 27.88]
+  }
+}
