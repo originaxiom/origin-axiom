@@ -323,6 +323,18 @@ transferred, no scientific experiment was run and the new proof is
 UNREVIEWED, outside all earlier completed reviews. Existing spin-valued
 solutions and the degree-minus-one branch remain separate positives.
 
+The October 27 successor
+[combined spin/gauge descent](COMBINED_SPIN_GAUGE_DESCENT_AND_RETAINED_SECTORS.md)
+constructs the honest deck bundle S tensor (S^(-1) plus S)=O plus K,
+including its induced connection and ordinary nilpotent map. This
+preserves a charged-doublet positive despite the standalone square-root
+obstruction. It is conditional on the correlated gauge/spin assignment;
+integer-isospin sectors and the actual physical Spin-c/R factors cannot
+be dropped. The source already has a different explicit spin/R sign
+cancellation: the same compensating sign cannot be spent twice. No
+physical operator or complete E8 lift is identified by this new,
+UNREVIEWED argument. The next duty is the actual total-field map.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

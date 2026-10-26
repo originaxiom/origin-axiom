@@ -1,0 +1,37 @@
+{
+  "kind": "AUTHOR_SOURCE_CUSTODY_NOT_EXECUTION_SPECIFICATION",
+  "date": "2026-10-27",
+  "source_checkpoint": "1cae2aa8c8d848929430928d60622d0eae43ffee",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COMPACT_UNIFORMIZING_CORE_AND_GLOBAL_INPUTS.md",
+      "sha256": "045d654809629e028ec975b2e9ee6a742d732bb2d05d8223e3cff20252f58d42"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/PROOF.md",
+      "sha256": "9c496728d230798a4db14841f91fe2ef272720be69950292164b4c697414bbd5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_real_boundary_2026_10_15/PROOF.md",
+      "sha256": "039229d521e880b9c8d1954a39b711dd0749fd8368d8fe95f99ccf79ce197831"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/PROOF.md",
+      "sha256": "c823f2ae951fe3fdedfdcd1b66938c64897d4b9d46dc29417ae36e12705c1306"
+    }
+  ],
+  "new_note": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COMBINED_SPIN_GAUGE_DESCENT_AND_RETAINED_SECTORS.md",
+    "sha256": "b5db69555bed0bfd457d733f79b6509dcc1c3088cd6792734ffc46a7901cfc2f"
+  },
+  "review_status": "UNREVIEWED; outside all prior completed reviews",
+  "scientific_execution": "NONE",
+  "conditional_reduction": "Spin-root dependence cancels in S tensor (S^-1 plus S), including induced connection and ordinary nilpotent map, with the correlated gauge branch fixed",
+  "not_discharged": [
+    "Correlation selected from foundations",
+    "Actual physical Spin-c/R/gauge total lift",
+    "Other E8 coefficient sectors and physical MW operator",
+    "Whole-surface background and chirality/generations",
+    "Any new physical measured parameter"
+  ]
+}
