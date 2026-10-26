@@ -70,7 +70,22 @@ symmetry-related vacua is recorded as this lane's gloss, not additional
 adopted canonical wording. None of these updates completes the physical
 field/action/domain identification or pays a new physical input.
 
-## Core mission adopted October 19
+## Owner reorientation October 26: reductions first
+
+The owner asked to reframe the goal towards reductions. The working
+priority and reduction-card test are now recorded in
+[Reductions first](../REDUCTION_FIRST_MISSION_2026_10_26.md). Deriving
+the genuinely independent inputs is the primary objective; additional
+structures, scans and fits serve named reduction duties rather than
+define progress by themselves. The full SM3/gravity destination and
+all verification/admission rules remain unchanged.
+
+The saved session objective was inspected and remains active with
+the October 19 text below. This repository update does not claim that
+the saved session-goal text was edited, or that any scientific input
+has been paid merely by reframing the objective.
+
+## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
 
