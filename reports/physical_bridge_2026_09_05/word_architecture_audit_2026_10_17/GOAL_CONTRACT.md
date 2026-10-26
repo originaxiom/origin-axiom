@@ -85,6 +85,18 @@ the October 19 text below. This repository update does not claim that
 the saved session-goal text was edited, or that any scientific input
 has been paid merely by reframing the objective.
 
+Subsequently on October 26 the owner DID edit the saved session
+objective to the reductions-first wording. A fresh goal-state read
+confirmed it active. That supersedes the earlier status above; the
+October 19 wording remains below as history, not the current priority.
+
+The separately sealed radial R1/R2 repair design at 90989a0df now
+has implementation in verification_radial_flow_v2. Its eight inherited
+methods and two strengthened overrides intend ten checks; only AST/
+hash metadata were inspected. It remains unreviewed, unrun and not
+admitted. Preserving this verification duty supports the reduction
+mission; writing checks is not itself a paid physical input.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

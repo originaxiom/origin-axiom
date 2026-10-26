@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "kind": "author_source_review_inventory_only",
+  "date": "2026-10-26",
+  "design_committed_before_implementation": "90989a0df",
+  "predecessor_review_decision": "CHANGES_REQUIRED_PRESERVED",
+  "scientific_execution": "UNRUN_NOT_IMPORTED_NOT_COLLECTED",
+  "source_complete_execution_specification": false,
+  "independent_successor_review": false,
+  "main_acceptance": false,
+  "admission": false,
+  "static_intended_population": {
+    "class": "RadialFlowV2Checks",
+    "inherited_methods": 8,
+    "overridden_methods": 2,
+    "expected_tests": [
+      "RadialFlowV2Checks.test_both_scalar_extremes_and_constant_recovery",
+      "RadialFlowV2Checks.test_coordinate_residuals_and_opposite_orientation_control",
+      "RadialFlowV2Checks.test_flow_preserves_commuting_constraint_reality_and_parities",
+      "RadialFlowV2Checks.test_kinetic_rescalings_and_nonconstant_complex_identity",
+      "RadialFlowV2Checks.test_old_triples_and_two_field_fixed_points",
+      "RadialFlowV2Checks.test_operator_square_keeps_derivative_and_trace",
+      "RadialFlowV2Checks.test_rotating_tail_both_slots_green_and_integrated_norm",
+      "RadialFlowV2Checks.test_rotating_tail_transported_projector_not_instantaneous_sign",
+      "RadialFlowV2Checks.test_scalar_reduction_and_linearized_stable_unstable_directions",
+      "RadialFlowV2Checks.test_trace_monotone_by_directional_differentiation_and_wrong_weight"
+    ],
+    "runtime_discovery": "NOT_RUN"
+  },
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_radial_flow_v2/DESIGN.md",
+      "sha256": "1b5b2fcbbea3cf90a0e09fe1ea3605b10a170524680b73bebefc57897a061ec6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_radial_flow_v2/checks.py",
+      "sha256": "0da1da5d73f777ae65a130db68a89eaf40973b4a2b562ac2f21569eb7243c988"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_radial_flow/DESIGN.md",
+      "sha256": "a91af2e81589fa6d1537524a0452b3bb9bdc18faa1c8383e3071680b58286497"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_radial_flow/checks.py",
+      "sha256": "ad60f47e14c9671277e8888202451a2db7b414b58d48ed347cf735b2eff9d7d5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_radial_flow/SOURCE_REVIEW_INVENTORY.json",
+      "sha256": "e338291fb845b312a8b8fff3c08bee9e4bb35f8da46cf4a90f76b07ecffa64d7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_radial_flow/review/INDEPENDENT_REVIEW_2026-10-25.md",
+      "sha256": "12587b873591b8e44831e320fab0eef579c90c959c0a7fb741d226d68892cdbb"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_radial_flow/REVIEW_REPLY_2026-10-26.md",
+      "sha256": "4aea62c433fe3b4b273d9e0a5480e347b0fe5d5c80b8fe6bbb4d9ad9980796c2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_RADIAL_VACUUM_FLOW_AND_RESPONSE.md",
+      "sha256": "5f6a7b9eb397028741fbbf2c9ab195f5479e544dcfb796df011b037890e4489d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GLOBAL_CARTAN_AMPLITUDE_MATCHING.md",
+      "sha256": "58d6162fa55638ffa4eddab2b0ed6b2e9081074950922b0af396cdb1996dcb45"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/PROOF.md",
+      "sha256": "22a1a213a739348eddc3431f5d022bcd8f604f3bba58febfe48ef044d6f806b9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/probe.py",
+      "sha256": "6e7254ff85f2465d077bd90b1f4182e6eb916fc43e244c5b6554fdc9fe136d80"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/reference.py",
+      "sha256": "cda1b1e3211c3d01b06e92258f43d285933000194efc1628c2272ac7fd00257f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/PROOF.md",
+      "sha256": "fbb0f0d51fcf915a1b3b5203d03a8d1f6df7011b5d8f00aa4be3223a14440977"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_GRADED_CUSP_RESPONSE_AND_STATE_SCOPE.md",
+      "sha256": "ac3dd9f39d34610594e2e77552857533b08932bbeeb3b61a41ee714e2ee9968e"
+    }
+  ],
+  "unclosed_duties": [
+    "Separate nonauthoring review of R1/R2 repair and inherited scientific closure",
+    "Complete environment/runtime/gate specification and fresh output paths",
+    "Own engineering design and controls for any new admission-wrapper binding",
+    "Main acceptance of that exact review and strict prospective admission before science imports"
+  ]
+}
