@@ -97,6 +97,21 @@ hash metadata were inspected. It remains unreviewed, unrun and not
 admitted. Preserving this verification duty supports the reduction
 mission; writing checks is not itself a paid physical input.
 
+Subsequent October 26 update: the independent v2 source review at
+verification_radial_flow_v2/review/INDEPENDENT_REVIEW_2026-10-26.md
+returns NO_BLOCKING_SOURCE_ERROR_FOUND_WITHIN_REVIEWED_SCOPE for
+candidate 72a0b9a24. R1/R2 coverage is repaired; the original adverse
+review remains intact. This is not execution approval. The checks are
+still unrun/unimported/uncollected, with main acceptance and complete
+admission closure outstanding. The preceding pending-review paragraph
+is retained as implementation history.
+
+The first reductions-first accounting card,
+REDUCTION_CARD_01_PARENT_PROFILE_RESPONSE_AND_SCALE.md, separates the
+derived profile/response duties from the supplied parent and residual
+normalization. Its new scale-discriminator argument is author source
+analysis outside that review. It does not pay a foundational input.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
