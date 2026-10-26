@@ -1,0 +1,39 @@
+{
+  "kind": "author_review_scope_binding_only",
+  "date": "2026-10-26",
+  "candidate_commit": "c4d4ec8b58821f9382d28c678ba408318bca2bf0",
+  "owner_authorization": "Yes—review all four new arguments",
+  "scientific_execution_authorized": false,
+  "source_complete_execution_specification": false,
+  "independent_verdict": "PENDING_AT_RECORD_CREATION",
+  "path_base": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17",
+  "reviewed_argument_candidates": [
+    {
+      "path": "REDUCTION_CARD_01_PARENT_PROFILE_RESPONSE_AND_SCALE.md",
+      "sha256": "c3eb303f09f8e693535cb4a867df66b4cf6babf6b506a5eece52f3b11dbce836"
+    },
+    {
+      "path": "TWO_SPIN_FIELD_MOMENT_ORBIT_UNIQUENESS.md",
+      "sha256": "b206f2803136110fe17afa24b32ac40bfc9cb0e54c5e10de8f5536b25815ebf6"
+    },
+    {
+      "path": "REDUCTION_CARD_02_COVARIANT_VERTEX_AND_PARENT_PRICE.md",
+      "sha256": "5b4307219ec24610ab9f65c2d1dd9a681ed4567522d1b3b02e9ee87444db40be"
+    },
+    {
+      "path": "COMMON_CLIFFORD_SYMBOL_AND_RELATIVE_VERTEX.md",
+      "sha256": "ff32e832e7ea6bf2cdd7e85cace7469cb8afa2d04596796e815a1aae9e04e478"
+    }
+  ],
+  "not_reviewed_under_this_authorization": [
+    "HODGE_GEOMETRY_REDUCTION_AND_FIBRE_MAP.md",
+    "FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md",
+    "INTERACTING_DRESSED_DOMAIN_DEPENDENCE.md"
+  ],
+  "limits": [
+    "The independent reviewer must inspect the actual dependencies and state personal reading coverage; these four pins do not replace dependency review.",
+    "Matching hashes establish bytes, not mathematical truth, source completeness, execution approval or physical input payment.",
+    "A future verdict applies to its actual named source scope, not later successor notes.",
+    "This is a historical author binding, not an attestation signed on behalf of the independent reviewer."
+  ]
+}
