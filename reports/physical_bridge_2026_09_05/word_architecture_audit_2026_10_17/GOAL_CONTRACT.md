@@ -147,6 +147,25 @@ history. Its sealed specification and all 39 artifacts are unchanged.
 Fetched main at 2d6681208 still queues P-386 without accepting that
 later exact review. No scientific execution is authorized by this edit.
 
+HODGE_GEOMETRY_REDUCTION_AND_FIBRE_MAP.md recovers the existing
+universal-family geometry using personally read Hain 5.4--5.5, Voight
+2.4 and BHV 3.2. It separates the modular base from its punctured
+elliptic fibre: the Hodge metric on the first is not a derived physical
+metric or spin choice on the second. Given the stated Hodge/marking/
+translation prescription, the old semi-flat metric shapes and Chern
+connection are dependent family data; the scales and physical use
+remain priced. A trivial-fibre coefficient control yields asymmetric
+lines L^-1,L^3 but is NOT copied onto the punctured quaternion system.
+The actual old mode/connection map must be reused there.
+
+The same note directly rechecks the old ordinary n=0 EVEN witness:
+its high-frequency escaping profiles invalidate a uniform gap despite
+nonzero fixed-mode thresholds. That scoped negative survives; the
+canonical connection's existing positive bound also survives. This
+is author source/algebra/integral scrutiny, not a rerun or independent
+global-domain/PDE certification. The new note is unreviewed and outside
+the pending review-extension request; no foundational input is paid.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
