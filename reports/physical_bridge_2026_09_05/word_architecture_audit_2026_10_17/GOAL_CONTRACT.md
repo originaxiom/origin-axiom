@@ -29,6 +29,14 @@ NOT COLLECTED; the source inventory is not a complete execution seal.
 Its own source closure and review/admission remain owed. It does not
 change P210's frozen package or expand the completed P210 review.
 
+October 26: the separately authorized radial source review is now
+complete in verification_radial_flow/review. Its verdict is
+CHANGES_REQUIRED for two coverage weaknesses (physical Yukawa/dual-R
+normalization and scalar first-order orientations), with no blocking
+algebra error found in the reviewed proofs. It is NOT execution
+approval. The original ten unrun controls remain unchanged; the
+dated author response commits to a separately sealed successor.
+
 The first two rows were recovered again after the owner's explicit
 warning against duplicate work. They are reused results, not new
 calculations. The later analytical notes retain their stated review
