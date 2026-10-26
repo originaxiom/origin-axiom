@@ -289,6 +289,21 @@ metric, Hessian, seed and physical amplitude duties remain. This hand
 derivation is UNREVIEWED, outside frozen execution packages; no
 foundational input or three-generation physical claim is marked paid.
 
+GAUGE_COVARIANT_RELATIONAL_GRAM_SOURCE.md separates a physical weak
+doublet from a neutral flavour coefficient before assigning a source.
+It recovers the existing Gaussian, full boundary currents and actual
+R10 induced-triplet source rather than asserting no source exists.
+A fixed numerical charged tadpole is incompatible with the retained
+gauge symmetry; an admitted charged partner/state can provide it.
+The source-free coupled quadratic law derives H=A^-1 B K together
+with the retained equation (C-B^dagger A^-1 B)K=0. Fixing K by hand
+would relocate the original input. Positive, kernel and unstable
+nonlinear branches remain distinct. This is a constructive conditional
+route to endogenous alignment, not a new admitted action or proof of
+A=conjugate(Sigma_down), B K=v_DR. The old local core and R10 response
+are leads with different scopes, not interchangeable physical models.
+The new analysis is UNREVIEWED and no scientific execution is claimed.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
