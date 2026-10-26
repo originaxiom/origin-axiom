@@ -193,6 +193,17 @@ undressed domain, fixed zero kernel, whole-surface edge theorem or
 selection of that leading boundary plane. This new analysis remains
 unreviewed, outside the four-argument review and all frozen checks.
 
+The four-argument independent review has now completed at candidate
+c4d4ec8b5, with NO_BLOCKING_SOURCE_ERROR_FOUND_WITHIN_REVIEWED_SCOPE.
+Its final reasoning, exact hashes and author intake are preserved in
+reduction_four_review/. The author read the whole final review and
+checked all 25 candidate bindings. This upgrades those four arguments
+from author-only to independently source-reviewed within their stated
+conditions; it is not a foundational-input payment, scientific pass,
+execution approval, main acceptance or physical SM3/gravity result.
+The later Hodge, full-mode elimination and dressed-domain notes remain
+outside that review. Earlier pending descriptions above are history.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
