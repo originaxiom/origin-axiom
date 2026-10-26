@@ -204,6 +204,18 @@ execution approval, main acceptance or physical SM3/gravity result.
 The later Hodge, full-mode elimination and dressed-domain notes remain
 outside that review. Earlier pending descriptions above are history.
 
+BOUNDARY_REWRITE_VERSUS_FINITE_END_DYNAMICS.md distinguishes the
+coefficients fixed by an exact full-action rewrite from a genuinely
+added finite end interaction. Direct expansion of the old root-family
+current retains both ends; subtracting the leading divergence alone
+is not the full residual-square action. A finite compact-gauge-invariant
+amplitude term is a discriminator for the weaker finiteness/covariance
+criteria, not an admitted SUSY boundary theory or a free parameter of
+the already specified action. The intended reduction is reuse of
+dependent primitive coefficients while isolating the actual exterior/
+finite-functional earning duty. New comparisons are UNREVIEWED and
+outside the four-proof review; no scientific execution or input payment.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
