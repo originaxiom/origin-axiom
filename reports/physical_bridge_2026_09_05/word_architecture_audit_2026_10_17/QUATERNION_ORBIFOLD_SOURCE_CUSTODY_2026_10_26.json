@@ -1,0 +1,57 @@
+{
+  "kind": "AUTHOR_SOURCE_CUSTODY_NOT_EXECUTION_SPECIFICATION",
+  "date": "2026-10-26",
+  "source_checkpoint": "b43a81f2fe35577e9000eaa37bb2522ace1da8b0",
+  "review_status": "UNREVIEWED",
+  "scientific_execution": "NONE; not authorized by this record",
+  "scope": "Compact quaternion orbifold form-domain argument; local canonical normal core; metric and spin/R lift explicitly priced",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/PROOF.md",
+      "sha256": "9c496728d230798a4db14841f91fe2ef272720be69950292164b4c697414bbd5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/THETA_ROOT_COVER_AND_GLOBAL_SCOPE.md",
+      "sha256": "759ad3f7b92e616e0f47c29d313a197877485ea1e41f84705a32d02b23d5ca98"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_real_boundary_2026_10_15/PROOF.md",
+      "sha256": "039229d521e880b9c8d1954a39b711dd0749fd8368d8fe95f99ccf79ce197831"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/PROOF.md",
+      "sha256": "c5a06952e068ce4cb233b9ba6136f2dfb8c21a2bc14fdea58864a69ee48fa77c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/PROOF.md",
+      "sha256": "c823f2ae951fe3fdedfdcd1b66938c64897d4b9d46dc29417ae36e12705c1306"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/PROOF.md",
+      "sha256": "f41b1a1f2309f2ef8bf1f0d9977ecd1e07c91204ec9bd9e1d7e95179980dd904"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/PROOF.md",
+      "sha256": "a4d5dd39babdd00ce6121804e1070350e133bd35ff0c2d97bd9d946fa87106c5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/BOUNDARY_REWRITE_VERSUS_FINITE_END_DYNAMICS.md",
+      "sha256": "10e69c399e028002eea4b43c52c46b9d35d103510ac7bbd3a28a54612bf630ad"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/END_AMPLITUDE_SELECTION_AND_SEWING.md",
+      "sha256": "9aac9e807c8a9a8a79c15f7e17f2510304c780832bd4962de5181a7fef6e4aa8"
+    }
+  ],
+  "author_note": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUATERNION_ORBIFOLD_DOMAIN_AND_METRIC_PRICE.md",
+    "sha256": "d91a77e62683dbf45b01f2061fcaa29e9f2fe316cb109dcc4a4ae4d40bd1d7ea"
+  },
+  "exclusions": [
+    "No whole-surface stationary solution",
+    "No transfer of old charged kernels or physical generations",
+    "No foundational input paid",
+    "No scientific import, test collection or run",
+    "Outside the completed four-argument review"
+  ]
+}

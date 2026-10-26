@@ -232,6 +232,23 @@ under allowed outer variations. The actual exterior/end state must
 still earn any physical selection. This new hand analysis is UNREVIEWED,
 outside the four-proof review and all frozen execution packages.
 
+QUATERNION_ORBIFOLD_DOMAIN_AND_METRIC_PRICE.md tests a constructive
+alternative using the already built genus-three Q8 cover. A specified
+smooth invariant cover metric descends to angle pi, not the old smooth
+angle-2pi or complete cusp metric. Its completed form Dirac domain is
+the equivariant H1 closure, with no extra puncture projector. A local
+canonical normal core is given explicitly, with smooth noncommuting
+fields, finite inner energy and vanishing inner flux. Its normal
+BPS equations and fixed-point spin/R/gauge action are checked by hand:
+the lift preserving the old parent parameters gives the matrix
+(I+u R GammaV)/2 on smooth fibre values, u the gauge parity. This is
+not bounded point evaluation on H1, an old-domain identification or
+a generation count. The completion, metric, parent and lift remain
+priced; changing theories is not declared a net reduction. Outer/global
+stationarity and the full physical map remain duties. The new analysis
+and nine-source custody record are UNREVIEWED, outside the four-proof
+review, without scientific execution or foundational input payment.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
