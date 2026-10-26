@@ -216,6 +216,22 @@ dependent primitive coefficients while isolating the actual exterior/
 finite-functional earning duty. New comparisons are UNREVIEWED and
 outside the four-proof review; no scientific execution or input payment.
 
+END_AMPLITUDE_SELECTION_AND_SEWING.md carries the comparison further:
+finite endpoint representative changes cancel on every artificial seam
+when the complete action is transported. They are bookkeeping, not
+new physical inputs. At a genuine end an uncompensated finite addition
+changes the restricted amplitude equation. On the existing root family,
+the leading-divergence-only prescription would select
+4 lambda^2 R=(sqrt(7)-2)/3, but the displayed finite coefficient can
+move that restricted minimum to any value in (0,1), or remove it.
+This is an explicit anti-fitting discriminator, NOT a physical vacuum,
+full stability result, admitted SUSY counterterm family or derivation
+of an arbitrary boundary parameter for the already fixed action.
+The exact residual-square action retains its BPS amplitude family
+under allowed outer variations. The actual exterior/end state must
+still earn any physical selection. This new hand analysis is UNREVIEWED,
+outside the four-proof review and all frozen execution packages.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
