@@ -1,0 +1,36 @@
+D_DECISIVE_specific_on_15_and_20_at_0.1pc_and_not_on_13_nor_14_at_1pc True
+P1_chi2_six_below_16.75_on_15_and_20 True
+readout_15_and_20_specific_at_1pc True
+readout_15_alone_at_0.1pc True
+readout_20_alone_at_0.1pc False
+readout_13_specific_at_1pc False
+readout_14_specific_at_1pc False
+readout_nine_below_21.67_on_15_and_20 False
+C1_control True
+C2_control_chi2_reproduces_B1735 True
+13     chi2 six|seat   min 49.83, random as low 0.04935 (worst seed 0.05550, hits 3948)
+13     chi2 six|cov    min 14.52, random as low 0.01439 (worst seed 0.01850, hits 1151)
+13     chi2 six|free   min 30.78, random as low 0.06499 (worst seed 0.07075, hits 5199)
+13     chi2 nine|seat  min 127.81, random as low 0.00356 (worst seed 0.00525, hits 285)
+13     chi2 nine|sm    min 1275.30, random as low 0.07691 (worst seed 0.08350, hits 6153)
+14     chi2 six|seat   min 188.35, random as low 0.42308 (worst seed 0.43450, hits 33846)
+14     chi2 six|cov    min 97.79, random as low 0.38951 (worst seed 0.41275, hits 31161)
+14     chi2 six|free   min 94.76, random as low 0.34219 (worst seed 0.35900, hits 27375)
+14     chi2 nine|seat  min 545.56, random as low 0.29712 (worst seed 0.30500, hits 23770)
+14     chi2 nine|sm    min 1517.45, random as low 0.19427 (worst seed 0.20650, hits 15542)
+15     chi2 six|seat   min 5.33, random as low 0.00038 (worst seed 0.00125, hits 30)
+15     chi2 six|cov    min 5.33, random as low 0.00114 (worst seed 0.00200, hits 91)
+15     chi2 six|free   min 5.27, random as low 0.00323 (worst seed 0.00500, hits 258)
+15     chi2 nine|seat  min 176.05, random as low 0.01406 (worst seed 0.01700, hits 1125)
+15     chi2 nine|sm    min 1250.06, random as low 0.07415 (worst seed 0.08000, hits 5932)
+20     chi2 six|seat   min 10.89, random as low 0.00304 (worst seed 0.00450, hits 243)
+20     chi2 six|cov    min 10.89, random as low 0.00993 (worst seed 0.01300, hits 794)
+20     chi2 six|free   min 5.10, random as low 0.00436 (worst seed 0.00650, hits 349)
+20     chi2 nine|seat  min 148.89, random as low 0.01025 (worst seed 0.01325, hits 820)
+20     chi2 nine|sm    min 1229.60, random as low 0.12813 (worst seed 0.13625, hits 10250)
+15+20  chi2 six|seat   min 5.33, random as low 0.00097 (worst seed 0.00225, hits 78)
+15+20  chi2 six|cov    min 5.33, random as low 0.00300 (worst seed 0.00425, hits 240)
+15+20  chi2 six|free   min 5.10, random as low 0.00709 (worst seed 0.00900, hits 567)
+15+20  chi2 nine|seat  min 148.89, random as low 0.01490 (worst seed 0.01925, hits 1192)
+15+20  chi2 nine|sm    min 1229.60, random as low 0.14042 (worst seed 0.14825, hits 11234)
+compare exit 0
