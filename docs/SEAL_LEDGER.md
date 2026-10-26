@@ -9324,3 +9324,9 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 | date | stage | source | sha256 | scope |
 |---|---|---|---|---|
 | 2026-10-25 | BEFORE new check implementation and all scientific imports/runs; AFTER authored analytical derivation | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_radial_flow/DESIGN.md` | `a91af2e81589fa6d1537524a0452b3bb9bdc18faa1c8383e3071680b58286497` | Ten intended finite controls with opposite controls and separate all-E8/analytic/physical review duties. No implementation, complete execution seal, independent review, main acceptance or admission is supplied by this design. |
+
+## Radial source-review coverage successor
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-26 | BEFORE successor implementation/import/collection/run; AFTER source review R1/R2 | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_radial_flow_v2/DESIGN.md` | `1b5b2fcbbea3cf90a0e09fe1ea3605b10a170524680b73bebefc57897a061ec6` | Preserve original ten unrun controls and add physical normalization/trace-dual R and scalar first-order orientation discrimination in a separately reviewed successor. No runtime-complete specification, review acceptance, admission or science pass. |
