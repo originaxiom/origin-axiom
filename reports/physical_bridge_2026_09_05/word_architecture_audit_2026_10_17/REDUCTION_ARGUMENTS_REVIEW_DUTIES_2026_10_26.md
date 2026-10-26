@@ -72,3 +72,12 @@ and future execution admission remain separate requirements.
 An independent source review may find no blocking error, require changes
 or be incomplete; its verdict must not be inferred from author checks,
 matching hashes, these duties or a positive earlier radial review.
+
+## Subsequent owner authorization
+
+The owner subsequently answered: "Yes—review all four new arguments".
+A separate non-authoring source review was dispatched against candidate
+c4d4ec8b58821f9382d28c678ba408318bca2bf0. Its scope remains exactly the
+four named arguments and their dependencies. The later Hodge, full-mode
+elimination and interacting-domain notes are outside this authorization.
+This addition records dispatch, not a returned verdict or execution approval.

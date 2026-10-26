@@ -178,6 +178,21 @@ to the whole regular even complement. This is new UNREVIEWED author
 analysis, outside frozen controls and all completed/pending review
 scopes; no execution or foundational-input payment is claimed.
 
+The owner approved independent review of the four new reduction
+arguments; a non-authoring proof/code source review is dispatched at
+candidate c4d4ec8b5. No science execution or added successor scope was
+authorized by that answer. The later geometry/elimination notes remain
+separate unreviewed work.
+
+INTERACTING_DRESSED_DOMAIN_DEPENDENCE.md reuses the fixed-fibre
+interacting trace/exhaustion proof and its actual cancellation formulas.
+It proposes a common ABSTRACT graph chart and local norm-resolvent
+dependence on the leading Higgs coefficient for a FIXED admitted
+leading plane. It does not claim a bounded trace on L2, unchanged
+undressed domain, fixed zero kernel, whole-surface edge theorem or
+selection of that leading boundary plane. This new analysis remains
+unreviewed, outside the four-argument review and all frozen checks.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
