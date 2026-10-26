@@ -56,3 +56,8 @@ $$\Sigma^{(s)}_{cd}(\tau, w) \;=\; \frac{\mathrm{Tr}\!\left(Y^{(s)\dagger}_c Y^{
      achieving an overlap **$|\langle H_{d,\mathrm{opt}} \mid H_{d,\mathrm{inv\_gram}}\rangle| = 0.999961$** (an angle of **$0.506^\circ$ in $\mathbb{CP}^2$**).
    - Substituting the zero-parameter Schur complement $e_{1,\mathrm{schur}} = -0.02876 + 0.05120i$ into $h_{d,0}$ at $\tau = 0.3145 + 3.0345i$ keeps **$\chi^2_{\mathrm{nine}} = 19.59 < 21.67$** (passing the 9-observable bar), and replacing the entire 3-vector $H_d$ with the zero-parameter $H_{d,\mathrm{inv\_gram}}$ lowers $\chi^2_{\mathrm{nine}}$ from $821.16$ to **$32.01$**.
    - Pairing the zero-parameter $H_{d,\mathrm{inv\_gram}}$ with the 1-complex-parameter up-sector $e_1$-pencil $H_u(\zeta_u) = (\zeta_u, \overline{\mathrm{dr}}_1, \overline{\mathrm{dr}}_2)^T$ (**2 real DOFs total**, matching the DOF count of `B1743`'s pencils which had $\chi^2_{\mathrm{nine}} \ge 212.14$) lowers $\chi^2_{\mathrm{nine}}$ to **$29.38 - 41.76$** across all 4 strip points with a single stable branch $\zeta_u \approx 0.10\,e^{+i\,35.5^\circ}$ (and down to **$23.82 - 27.88$** with 3 real DOFs, beating `B1757`'s 8-DOF fit $29.17$ at $\tau = 0.3145 + 3.10i$).
+
+## Seen first
+
+`VERDICT topic-sweep /order-10|2\/5|1\/10|Schur|Gram|two doublets|B1757/ (full text): 48 of 1531 arcs on main match (NEGATIVE 7, OPEN 4, PROVED 37)`
+— among them B1656, B1726, B1743, B1749, B1755, B1757, B1759. **The register:** P-349, P-357, P-366, P-373, P-377, P-384. **Literature:** arXiv:2209.07249, arXiv:2302.11183 (P-382).

@@ -1,7 +1,34 @@
 {
+  "id": "B1761",
   "arc": "B1761",
   "title": "Data-Free 2-Torsion Line-Selection Theorem and Yukawa-Gram Higgs Dressing Probe",
+  "verdict": "PROVED",
   "status": "VERIFIED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1656",
+    "B1726",
+    "B1743",
+    "B1749",
+    "B1755",
+    "B1757",
+    "B1759"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "agy",
+  "scope": {
+    "frame": "B1656's four-channel coupling across all 662 lines of B1726 (N <= 12) and B1755 (N in {13,14,15,20}), and the 3x3 Hermitian Yukawa Gram matrices Sigma^(s)(tau, w) on (2/5, 1/10) across B1757's strip",
+    "object": "data-free line selection via asymmetric 2-torsion e1-kernel and up-sector isotropic proximity (P-349, P-373, P-384), and zero-parameter inverse-Gram down-Higgs dressing (P-357, P-366, P-377)",
+    "reach": "exact theorem on Q^2/Z^2 and 662-line census; post hoc structural probe on the strip",
+    "hypotheses": "SU(5) hypercharge assignments (1,-4), (1,2), (-3,6); B1757's strip points"
+  },
+  "claim_one_line": "DATA-FREE 2-TORSION LINE-SELECTION THEOREM AND YUKAWA-GRAM HIGGS DRESSING PROBE (P-349, P-357, P-366, P-373, P-377, P-384): across all 662 lines of N <= 12 and N in {13,14,15,20} (and analytically across Q^2/Z^2), requiring non-trivial tau-slope a not in {0,1/2} and asymmetric 2-torsion e1-kernel (R_i^(up) = 0, R_i^(down) != 0) selects exclusively the 10 order-10 lines a in {1/5, 2/5}, 10b odd, and up-sector isotropic proximity I(u_up) < 0.05 uniquely selects the single 5-line T-orbit a = 2/5, 10b odd with zero SM data; on (2/5, 1/10), Sigma^(up) is strictly 1+2 block-diagonal, Sigma^(lep) = P_e1 Sigma^(down) P_e1, and the zero-parameter inverse-Gram vector H_d = (conj(Sigma^(down)))^(-1) v_012 matches B1757's fitted H_d,opt to 0.999967 (0.463 deg in CP^2) at tau = 0.3145+3.0345i. 0 of 19.",
+  "weave_or_thread": "weave (data-free theorem across Q^2/Z^2 and 662 lines; Gram operator probe on the strip)",
   "points": ["P-349", "P-357", "P-366", "P-373", "P-377", "P-384"],
   "summary": {
     "total_lines_tested": 662,

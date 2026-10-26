@@ -1,6 +1,29 @@
 {
+  "id": "B1759",
   "arc": "B1759",
   "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1656",
+    "B1667",
+    "B1743",
+    "B1757"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "agy",
+  "scope": {
+    "frame": "B1656's four-channel coupling on the punctured torus E_tau at B1667's canonical end",
+    "object": "the regularized channel norms c_s^(sec)(tau, w) across sectors and the boundary-norm dressing (2*pi*L + c_s)^alpha of v_DR against B1757's free-doublet vectors on the strip",
+    "reach": "exact theorem on M_{1,2} plus numerical verification on the strip",
+    "hypotheses": "SU(5) hypercharge assignments (1,-4), (1,2), (-3,6) with x_s + y_s = +/- 3w"
+  },
+  "claim_one_line": "SECTOR-UNIVERSAL PUNCTURE NORM THEOREM AND BOUNDARY-DRESSED HIGGS PROBE (P-357, P-366, P-377): for every SM sector (q_L, q_R), the normalized elliptic channel kernel K_s(u; x, y) = P_s(u; x, y)/R_s(x, y) depends only on x + y = +/- 3w, so c_s^(up)(tau, w) = c_s^(down)(tau, w) = c_s^(lep)(tau, w) identically across M_{1,2} (certified to <= 4.3e-13 on the strip). Boundary-norm dressing (2*pi*L + c_s)^alpha lifts v_DR off the null cone at the B1757 scale O(10^-2) (I(+1/2) in [0.010, 0.015], I(+1) in [0.019, 0.029]), while exact 2-torsion of 5w forces R_i^(up) = 0 identically on order-10 lines. 0 of 19.",
+  "weave_or_thread": "weave (exact identity on M_{1,2} and strip probe)",
   "summary": "Proves Theorem 1 (Sector-Universal Puncture Norm Theorem, P-357 Step 2): for every SM sector (q_L, q_R), the normalized elliptic channel kernel K_s(u; x, y) = P_s(u; x, y)/R_s(x, y) depends only on x + y = +/- 3w, so c_s^(up)(tau, w) = c_s^(down)(tau, w) = c_s^(lep)(tau, w) identically across M_{1,2} (certified to <= 4.3e-13 on the strip). Establishes Theorem 2 (off-cone scale vs. sector splitting against B1757): boundary-norm dressing (2*pi*L + c_s)^alpha lifts v_DR off the null cone at the B1757 scale O(10^-2) (I(+1/2) in [0.010, 0.015], I(+1) in [0.019, 0.029]), while exact 2-torsion of 5w forces R_i^(up) = 0 identically on order-10 lines.",
   "points": ["P-357", "P-366", "P-377"]
 }

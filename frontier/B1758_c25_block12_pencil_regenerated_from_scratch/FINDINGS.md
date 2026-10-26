@@ -82,3 +82,8 @@ checkout without `b12_tower.pkl`. P-301 is **DONE**.
 
 - `verification/regenerate_b12_tower.py` → `b12_tower_regenerated.json`, `regenerate_b12_tower_run.txt`.
 - The lock: `tests/test_b1758_c25_block12_pencil_regenerated.py`.
+
+## Seen first
+
+`VERDICT topic-sweep /b12_tower|det_14|det14|B893|B892|C25|block-12/ (full text): 18 of 1528 arcs on main match (NEGATIVE 2, OPEN 1, PROVED 15)`
+— among them B854, B877, B892, B893, B906. **The register:** P-301, R70-1 (Review 70). **Literature:** none beyond the record's exact Lie-algebraic centraliser pencil over $\mathbb{Q}[\rho]/\mu(\rho)$.

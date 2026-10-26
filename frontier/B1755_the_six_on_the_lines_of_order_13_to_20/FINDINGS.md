@@ -70,7 +70,8 @@ The preregistration stated two competing predictions for which lines of order 15
 
 ## Seen first
 
-As in `PREREGISTRATION.md` (52 arcs matched the sweep; B1698, B1703, B1711, B1712, B1713, B1728, B1729, B1733, B1734, B1749, B1753; register rows P-384, P-373, P-340, P-362, P-312, P-350, P-375/P-379/P-385, P-381, P-376, P-382).
+`VERDICT topic-sweep /order 13|order 14|order 15|order 20|five-ality|2I/ (full text): 52 of 1528 arcs on main match (NEGATIVE 9, OPEN 4, PROVED 38, no verdict file 1)`
+— among them B1698, B1703, B1711, B1712, B1713, B1728, B1729, B1733, B1734, B1749, B1753; register rows P-384, P-373, P-340, P-362, P-312, P-350, P-375/P-379/P-385, P-381, P-376, P-382. **Literature:** arXiv:2209.07249, arXiv:2302.11183 (P-382).
 
 ## Disclosed
 

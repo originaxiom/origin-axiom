@@ -44,3 +44,8 @@ Comparing the data-free boundary-norm and sector-twist constructions against the
 
 - `verification/sector_universal_puncture_norm.py` → `verification/sector_universal_puncture_norm.json`, `verification/sector_universal_puncture_norm_run.txt`
 - `tests/test_b1759_sector_universal_puncture_norm_and_higgs_dressing.py`
+
+## Seen first
+
+`VERDICT topic-sweep /puncture norm|c_s|L_max|two doublets|H_u|H_d|B1757/ (full text): 44 of 1529 arcs on main match (NEGATIVE 6, OPEN 4, PROVED 33, no verdict file 1)`
+— among them B1654, B1656, B1667, B1743, B1757. **The register:** P-357, P-366, P-377. **Literature:** arXiv:2209.07249, arXiv:2302.11183 (P-382).

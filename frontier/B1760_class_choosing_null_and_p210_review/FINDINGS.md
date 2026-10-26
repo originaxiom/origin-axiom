@@ -84,3 +84,8 @@ We inspected and symbolically verified the core derivations of all eight analyti
 
 - `verification/class_choosing_and_p210_audit.py` → `verification/class_choosing_and_p210_audit.json`, `verification/class_choosing_and_p210_audit_run.txt`
 - `tests/test_b1760_class_choosing_null_and_p210_review.py`
+
+## Seen first
+
+`VERDICT topic-sweep /class-choosing|look ledger|THE_BAR|P-210|P210|B1749|B1753|B1755/ (full text): 31 of 1530 arcs on main match (NEGATIVE 5, OPEN 3, PROVED 23)`
+— among them B1678, B1741, B1749, B1753, B1755. **The register:** P-210, P-381, P-384, P-386. **Literature:** Clopper–Pearson exact binomial confidence bounds; P-382.
