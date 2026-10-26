@@ -277,13 +277,14 @@ the cyclic law (P69). — B877. Lock: `tests/test_b877_fmt_review.py`.
 
 **C25 [THEOREM — the Second Measurement].** A second measurement of the object's own
 charges lands on su(3)⊕su(2)⊕u(1)³ EXACTLY, skipping SU(5); the wall complex in the split
-frame, at all three roots. — B892, B893. Locks: `tests/test_b892_smt.py`,
-`tests/test_b893_omega.py`.
-**QUANTIFIER (dated 2026-10-23, Review 68; L228).** The landing is at the wall point y* of the second
+frame, at all three roots. — B892, B893, B1758. Locks: `tests/test_b892_smt.py`,
+`tests/test_b893_omega.py`, `tests/test_b1758_c25_block12_pencil_regenerated.py`.
+**QUANTIFIER (dated 2026-10-23, Review 68; L228; P-301 confirmed 2026-10-26 by B1758).** The landing is at the wall point y* of the second
 charge (B892: the perfect-square gate, λ₊(y*) = 0 by construction), and a measurement passes to the
 centraliser at a wall: dim z(x₁, y*) = 14 on the walls, while a generic point of the charge torus has a
-joint centraliser of dimension 12 (B1433). Whether B893's "det₁₄ > 0 at all three roots" holds exactly,
-not only in floating point, is P-301.
+joint centraliser of dimension 12 (B1433). B1758 regenerates the exact rational polynomials e(ρ) and det₁₄(ρ) in
+ℚ[ρ]/μ(ρ) from B854 in 1.5 s without `b12_tower.pkl` and proves det₁₄(ρ) = (9084997258444800000/13⁴)(ρ + 13/235200)² + 2727198720 ≥ 2 727 198 720 > 0
+for all real ρ (and e(ρ) > 0 at all three roots by resultant and rational interval arithmetic), confirming "det₁₄ > 0 at all three roots" in exact arithmetic (P-301 DONE).
 **SCOPE (B950, carried here 2026-09-03 by B1243 — the citation gate's first catch).** That
 algebra is **14-dimensional**; the Standard Model's is **12**. It is the A₂+A₁ Levi — a
 **centralizer**, not the SM gauge algebra — and B892's own banner says the phrase "take E₆ to

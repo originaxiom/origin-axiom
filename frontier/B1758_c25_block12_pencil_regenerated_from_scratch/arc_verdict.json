@@ -1,0 +1,27 @@
+{
+ "id": "B1758",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B854",
+  "B877",
+  "B892",
+  "B893",
+  "B906"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "agy",
+ "scope": {
+  "frame": "Exact rational E6 centraliser tower (B854) restricted to the 12-dimensional isotypic block N_12 = ker f_6(ad(x_14)) and the 4-dimensional F-kernel W_4(rho) = ker(R_8 + rho R_16) over F = Q[rho]/mu(rho)",
+  "object": "Exact rational polynomials C_2(rho), C_0(rho), e(rho) = gamma^2 and det_14(rho) in F = Q[rho]/mu(rho), and their signs at the three real roots of mu(rho) (P-301 / R70-1 for C25)",
+  "reach": "exact",
+  "hypotheses": "Clean-checkout rational arithmetic from B854/e6_centralizer.py without b12_tower.pkl"
+ },
+ "claim_one_line": "THE BLOCK-12 PENCIL REGENERATED FROM SCRATCH AND C25'S WALL SIGN CERTIFIED IN EXACT RATIONAL ARITHMETIC (P-301 / R70-1): without the missing session pickle b12_tower.pkl, the 12x12 block-12 operators R_8, R_14, R_16 and the exact polynomials e(rho) = (-752150557025548369920000*rho^2 + 2078647372732170240000*rho + 13861799233061580800)/13^6 and det_14(rho) = (9084997258444800000*rho^2 + 1004293914624000*rho + 77919277363200)/13^4 in F = Q[rho]/mu(rho) are rebuilt from B854 in 1.5 s; completing the square proves det_14(rho) = (9084997258444800000/13^4)*(rho + 13/235200)^2 + 2727198720 >= 2 727 198 720 > 0 for ALL real rho; exact resultant minpoly(det_14) = -f_6(sqrt(-u)) and rational root-isolation intervals certify det_14(rho_i) > 0 and e(rho_i) > 0 at all three roots, matching B893 to every stored digit and B892 mod 40123 ((rq, gamma_q, a_q) = (27063, 13410, 2675)); THEOREM_LEDGER C25 confirmed. 0 of 19.",
+ "weave_or_thread": "structure (exact Lie-algebraic centraliser pencil over Q[rho]/mu(rho))"
+}
