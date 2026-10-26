@@ -275,6 +275,20 @@ audit and correction relay preserve the positive leads and all original
 scientific files while requiring a same-action Hessian/source derivation
 before calling inverse-Gram dressing a physical input reduction.
 
+GRAM_RESPONSE_FROM_SAME_ACTION_DERIVATION.md executes the next
+action-level reduction test. It derives the sourced Schur response
+and separates vertex Gram, physical kinetic metric and full Hessian.
+The conditional cubic has no Higgs source/quadratic term at empty
+matter origin; isotropic matter covariance can produce a Gram term
+but not the required linear source. Existing full-parent Grassmann
+currents/backreaction are recovered and preserved; their degree-two
+response does not generate a new ordinary Higgs body. The needed
+same-action source/state/end map is now explicit, not presumed absent.
+The projective trace-normalization scalar cancels, while the state,
+metric, Hessian, seed and physical amplitude duties remain. This hand
+derivation is UNREVIEWED, outside frozen execution packages; no
+foundational input or three-generation physical claim is marked paid.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
