@@ -262,6 +262,19 @@ from an earned physical matter map and modular cusp unit. The report
 directs our next effort to the same-parent global field/end derivation,
 not another fitted scan, and leaves all execution packages unchanged.
 
+The agy branch appeared after that sweep and was fetched at 3e519e627.
+AGY_FIRST_SOURCE_AUDIT_2026_10_26.md records its conditional order-ten
+theta zero, sector-normalization and inverse-Gram leads, together with
+specific report/source discrepancies and unearned physical selection.
+Its fixed doublet construction does not pass the nine-value bar; the
+19.59 hybrid retains fitted components. B1760's hashes and local algebra
+are useful independent checks but are not a complete review of our
+global Hodge/domain/removability arguments; those review scopes remain
+unpaid. No P210 execution is authorized by its concurrence. The source
+audit and correction relay preserve the positive leads and all original
+scientific files while requiring a same-action Hessian/source derivation
+before calling inverse-Gram dressing a physical input reduction.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

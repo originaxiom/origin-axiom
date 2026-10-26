@@ -1,0 +1,91 @@
+{
+  "kind": "SOURCE_AUDIT_NOT_SCIENTIFIC_EXECUTION_OR_ACCEPTANCE",
+  "date": "2026-10-26",
+  "branch": "origin/agy/frontier-2026-10-26",
+  "commit": "3e519e627cb19d093ce4c1e9e2b17f6d5027e3a0",
+  "sources": [
+    {
+      "path": "frontier/B1755_the_six_on_the_lines_of_order_13_to_20/FINDINGS.md",
+      "sha256": "e1d76a9b6374a8fec9874280a466c87c430c20f4a1565597832c2f1809165236"
+    },
+    {
+      "path": "frontier/B1755_the_six_on_the_lines_of_order_13_to_20/arc_verdict.json",
+      "sha256": "0c21c8712306feead43f82d19d10fbe219390dccbf8a43d5566dbc0ca9a637a1"
+    },
+    {
+      "path": "frontier/B1757_step_twos_free_doublets_at_the_strip/verification/free_doublets.py",
+      "sha256": "ca85e2d2d6c06184bf9b0bbe79f51ee7c0e4cf42b1c42160edff79b775678849"
+    },
+    {
+      "path": "frontier/B1759_sector_universal_puncture_norm_and_higgs_dressing/FINDINGS.md",
+      "sha256": "5bb5393a6c2f9523276f88bfea9ebece05dc6dea6b1507a2bbcb7c4d0b75f4d3"
+    },
+    {
+      "path": "frontier/B1759_sector_universal_puncture_norm_and_higgs_dressing/verification/sector_universal_puncture_norm.py",
+      "sha256": "7dd86a72a2e9f533d6f55159bd42cc40f8be66340f319965a82fe68562d21a10"
+    },
+    {
+      "path": "frontier/B1760_class_choosing_null_and_p210_review/FINDINGS.md",
+      "sha256": "ba27cd5acf2d1e10aba7730e6209f0cd2d0f295dd8d260ec04a0dc947e9f1c45"
+    },
+    {
+      "path": "frontier/B1760_class_choosing_null_and_p210_review/verification/class_choosing_and_p210_audit.py",
+      "sha256": "ea51f667e82047937f31861068a44c8bb6fb67d9c92544233a66489058a3d46c"
+    },
+    {
+      "path": "frontier/B1760_class_choosing_null_and_p210_review/verification/class_choosing_and_p210_audit.json",
+      "sha256": "e3da01788d0167754ad89dec6f73206f1a11c06ba789506a025d8a4938529891"
+    },
+    {
+      "path": "frontier/B1761_two_torsion_line_selection_and_schur_higgs_probe/FINDINGS.md",
+      "sha256": "ca99f6f25d5a4d74dbda2a5c4c737baf9f264fe8e3813a29cde0aa7412deb06f"
+    },
+    {
+      "path": "frontier/B1761_two_torsion_line_selection_and_schur_higgs_probe/arc_verdict.json",
+      "sha256": "6c0a78fa086abf7e8d1c21490dd37300fd4d9937cb155e4518bf8b56cd21625c"
+    },
+    {
+      "path": "frontier/B1761_two_torsion_line_selection_and_schur_higgs_probe/verification/two_torsion_and_schur_higgs.py",
+      "sha256": "c1f62a867144afdf63ce1e2e979d510526fbd681b7187b6921f9a9cf2ac114a6"
+    },
+    {
+      "path": "frontier/B1761_two_torsion_line_selection_and_schur_higgs_probe/verification/two_torsion_and_schur_higgs.json",
+      "sha256": "196a59fb689e105091d4c5fc53d6ba565bef4bbd8014820a64affd49cb47e149"
+    },
+    {
+      "path": "tests/test_b1761_two_torsion_line_selection_and_schur_higgs_probe.py",
+      "sha256": "cdc45d1738ef1bcbaec8f9f6945d65d398605dafc8176507bfa5a9498cd7e3aa"
+    },
+    {
+      "path": "frontier/B1723_the_golden_valley/verification/b1656_funcs.py",
+      "sha256": "31f09c433c14312d9cee8cfa29a632a72ce13fc46ae838757bf9b22958f22528"
+    },
+    {
+      "path": "frontier/B1716_the_zeros_derived/FINDINGS.md",
+      "sha256": "0037810eabcdf9cc8826fa4efcd28aec6884eb78443d5927a55c8cfe895f73f4"
+    }
+  ],
+  "report": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/AGY_FIRST_SOURCE_AUDIT_2026_10_26.md",
+    "sha256": "21acce24b76ddcd5a3890a9a7418f91b83c131c64b4e5125b7066527aec0fad5"
+  },
+  "metadata_check": {
+    "frozen_p210_commit": "39ce620a82e5373d5f07eee91a6a7cbfd4cdd4f7",
+    "actual_test_names": [
+      "test_18_projector_paths_keep_opposite_limits_and_endpoint",
+      "test_48_state_covariances_and_frozen_state_rejection",
+      "test_actual_cusp_conjugation_and_retained_bump_normalization",
+      "test_actual_symmetric_coupling_keeps_transpose_and_wrong_input",
+      "test_all_eight_graded_family_involutions_and_conditional_indices",
+      "test_both_decaying_slots_scalar_controls_and_zero_threshold",
+      "test_four_cayley_planes_and_nonnull_wrong_graph",
+      "test_full_q8_commutant_and_nonscalar_family_freedom",
+      "test_null_graph_does_not_automatically_preserve_gamma",
+      "test_tail_clifford_green_grading_and_wrong_commuting_symbol"
+    ],
+    "names_match_B1760_saved_JSON": true
+  },
+  "scientific_execution": "NONE; no module imported or test collected",
+  "review_scope": "B1759-B1761 sources, selected B1755/B1757 context; no independent B1756/B1758 audit",
+  "independent_science_status": "Author hand analysis only; not full numerical reproduction"
+}
