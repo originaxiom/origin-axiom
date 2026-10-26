@@ -249,6 +249,19 @@ stationarity and the full physical map remain duties. The new analysis
 and nine-source custody record are UNREVIEWED, outside the four-proof
 review, without scientific execution or foundational input payment.
 
+CROSS_SEAT_INTERPRETATION_2026_10_26.md records the owner's requested
+fresh all-branch fetch and source audit. The other primary heads are
+unchanged. Main's six-ratio positive is retained with its ungraded
+selection/calibration scope; W158's rank failure is independently
+derived by hand from the actual two-by-two coupling factorization;
+chat1's rational invisible-cusp claim is checked with a primitive cycle
+and exact untwisted coefficients. No numerical pipeline was rerun.
+B1755 and the partially published unification scan receive no result
+status from this audit. The programme's flavour three remains distinct
+from an earned physical matter map and modular cusp unit. The report
+directs our next effort to the same-parent global field/end derivation,
+not another fitted scan, and leaves all execution packages unchanged.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

@@ -1,0 +1,245 @@
+{
+  "kind": "FETCHED_SOURCE_AUDIT_NOT_EXECUTION_OR_BANKING",
+  "date": "2026-10-26",
+  "fetch": "git fetch --all --prune; completed successfully",
+  "remote": "origin",
+  "branches": [
+    {
+      "ref": "origin/audit/fork-2026-09-20",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "committer_date": "2026-10-13T13:17:07+02:00"
+    },
+    {
+      "ref": "origin/audit/physical-bridge-2026-09-05",
+      "commit": "926a26f59cf1427f9a1474adc4e938f0d8571eb1",
+      "committer_date": "2026-10-26T21:10:03+01:00"
+    },
+    {
+      "ref": "origin/chat1/web-seat",
+      "commit": "67c1f9c03c1b45173708b515fcf2a4b812868a8d",
+      "committer_date": "2026-10-25T00:34:05+02:00"
+    },
+    {
+      "ref": "origin/chatgpt/weave-physics-archive-2026-10-11",
+      "commit": "efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+      "committer_date": "2026-10-13T17:14:45+02:00"
+    },
+    {
+      "ref": "origin/claude/kind-hypatia-uk0vv9",
+      "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+      "committer_date": "2026-10-06T15:53:09+00:00"
+    },
+    {
+      "ref": "origin/claude/outside-bench",
+      "commit": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+      "committer_date": "2026-09-18T10:39:23+00:00"
+    },
+    {
+      "ref": "origin/claude/paper-review-verification-kaz3f5",
+      "commit": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+      "committer_date": "2026-10-01T08:43:53+00:00"
+    },
+    {
+      "ref": "origin/claude/project-thread-hctlox",
+      "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+      "committer_date": "2026-10-06T23:11:36+00:00"
+    },
+    {
+      "ref": "origin/claude/standard-model-derivation-0qt6ao",
+      "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+      "committer_date": "2026-10-24T22:18:39+00:00"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "2d6681208fa2e4c7249b37a8811e0a09a3092a5b",
+      "committer_date": "2026-10-24T23:38:39+02:00"
+    },
+    {
+      "ref": "origin/referee/B1668_the_price_of_the_nineteen",
+      "commit": "0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+      "committer_date": "2026-10-17T09:54:33+02:00"
+    },
+    {
+      "ref": "origin/referee/landing",
+      "commit": "806dfd6002773bf1d1eba273f432fb626f27b302",
+      "committer_date": "2026-10-17T14:21:19+02:00"
+    },
+    {
+      "ref": "origin/sep16-branch",
+      "commit": "3205984b48d1b98a80042cdc70916878973980f5",
+      "committer_date": "2026-09-29T13:49:14+00:00"
+    }
+  ],
+  "branch_count_without_HEAD_alias": 13,
+  "primary_other_seats_changed_since_previous_sweep": false,
+  "sources": [
+    {
+      "ref": "origin/main",
+      "commit": "2d6681208fa2e4c7249b37a8811e0a09a3092a5b",
+      "path": "frontier/B1753_the_six_on_the_five_ality_lines/FINDINGS.md",
+      "sha256": "5a89413054998c15e008069db6fb5041083c463af3b5ac87bc014f66ad1e5924",
+      "reading_scope": "full"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "2d6681208fa2e4c7249b37a8811e0a09a3092a5b",
+      "path": "frontier/B1753_the_six_on_the_five_ality_lines/verification/compare.py",
+      "sha256": "4ebaccfa1397b5d8bfc1f50c1f0e1abf7d3fd105ec3d9e68281b171c7e85038e",
+      "reading_scope": "full"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "2d6681208fa2e4c7249b37a8811e0a09a3092a5b",
+      "path": "frontier/B1754_genesis_v1_58/FINDINGS.md",
+      "sha256": "a1cb2e8873efc9ba6b43c710b0296104b2fc1b1e34f8907d63a015f3e6ec7677",
+      "reading_scope": "full"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "2d6681208fa2e4c7249b37a8811e0a09a3092a5b",
+      "path": "frontier/B1755_the_six_on_the_lines_of_order_13_to_20/PREREGISTRATION.md",
+      "sha256": "139ce35a665189427978227c14fd11d7192761a9a655d4d87a7f4e8da082dcf3",
+      "reading_scope": "full"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "2d6681208fa2e4c7249b37a8811e0a09a3092a5b",
+      "path": "frontier/B1686_w60_w62_on_main/FINDINGS.md",
+      "sha256": "1f3d41b5a64408bd97cde51d8d2f6dbb0112af00084ffce459aaff5c3be50ecf",
+      "reading_scope": "source/sign and scope passages"
+    },
+    {
+      "ref": "origin/claude/standard-model-derivation-0qt6ao",
+      "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+      "path": "docs/dossiers/the_weave_2026-10-07/NOTE.md",
+      "sha256": "c83bd686836ccaaba02d6af246aba4ff1c6a556daac9576103b393edaf424579",
+      "reading_scope": "W158 and W157 substantive result sections; W25 full F1-F5 argument"
+    },
+    {
+      "ref": "origin/claude/standard-model-derivation-0qt6ao",
+      "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+      "path": "docs/dossiers/the_weave_2026-10-07/the_two_special_higgs.py",
+      "sha256": "31c8e54ed23df85cc4840f4baeffb63d0ec6394078ae9f84a86ef038e3bd4b1a",
+      "reading_scope": "full"
+    },
+    {
+      "ref": "origin/claude/standard-model-derivation-0qt6ao",
+      "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+      "path": "docs/dossiers/the_weave_2026-10-07/the_twisted_half_bound_checked.py",
+      "sha256": "1662b539f21933a9dc7a1569480d012f46e5825dbde5ab38b3861bfe1da357ab",
+      "reading_scope": "full units and coupling definitions; selected controls"
+    },
+    {
+      "ref": "origin/claude/standard-model-derivation-0qt6ao",
+      "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+      "path": "docs/dossiers/the_weave_2026-10-07/the_joint_law_checked.py",
+      "sha256": "e40c29dbe63ecd5b4525bb6c92fdc928c51003830d5426d3e9247ca42de03b14",
+      "reading_scope": "symbolic definitions and selected controls"
+    },
+    {
+      "ref": "origin/claude/standard-model-derivation-0qt6ao",
+      "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+      "path": "docs/dossiers/the_weave_2026-10-07/the_higgs_as_a_qubit.py",
+      "sha256": "62ba69885be232ac32b5b6e384993e14e9eb1d3f83cdf173b6033ba9363484fc",
+      "reading_scope": "special_states and to_xyz"
+    },
+    {
+      "ref": "origin/claude/standard-model-derivation-0qt6ao",
+      "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+      "path": "docs/dossiers/the_weave_2026-10-07/the_third_opinion_b1753.py",
+      "sha256": "02c4f507d6ad8dc212dcf54f73d3b97f08f6b321814248709b31c60d1c5fc98b",
+      "reading_scope": "A1/cells tolerance logic"
+    },
+    {
+      "ref": "origin/claude/standard-model-derivation-0qt6ao",
+      "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+      "path": "docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md",
+      "sha256": "e965bc6e6d3bdf2c03480156491efeaf658323f137131da45fc10daf6484d27f",
+      "reading_scope": "current grade, rulings, cusp-unit qualification and physical scope"
+    },
+    {
+      "ref": "origin/claude/standard-model-derivation-0qt6ao",
+      "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+      "path": "docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md",
+      "sha256": "32e7059cb930e1d89235b7d3a38b9b0b23a648620d906db48f745048a55f2fbd",
+      "reading_scope": "statement, dictionary, premises and qualifications"
+    },
+    {
+      "ref": "origin/chat1/web-seat",
+      "commit": "67c1f9c03c1b45173708b515fcf2a4b812868a8d",
+      "path": "relays/CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK.md",
+      "sha256": "024d53b5ba6510531f31dffb5f9495aaf03abbe025ef8bfa067b51e698ee7186",
+      "reading_scope": "substantive body and scope clauses"
+    },
+    {
+      "ref": "origin/chat1/web-seat",
+      "commit": "67c1f9c03c1b45173708b515fcf2a4b812868a8d",
+      "path": "relays/CHAT1_TO_SM_AUDIT_AND_CC_2026-10-24_REPLIES.md",
+      "sha256": "fc8e22fa5caea63934e0599c6535fd4e38c3c4fefbcf9d95ee76683563b03bba",
+      "reading_scope": "full"
+    },
+    {
+      "ref": "origin/chat1/web-seat",
+      "commit": "67c1f9c03c1b45173708b515fcf2a4b812868a8d",
+      "path": "relays/CHAT1_TO_CC_AND_SM_2026-10-24_P327_THE_CUSPS_OF_THE_FIT_LINES.md",
+      "sha256": "aec95e60f3b160c25505e8ddcb0acc58dcba79556eaeab45fc14859b65d55419",
+      "reading_scope": "full"
+    },
+    {
+      "ref": "origin/chat1/web-seat",
+      "commit": "67c1f9c03c1b45173708b515fcf2a4b812868a8d",
+      "path": "relays/chat1_2026-10-23_attack/exploration/e17_cusp_coefficients_on_lines.py",
+      "sha256": "efd4a535303887bc59584b614cce24ca04fb2f284181d4f271dbcac8ea34b9ef",
+      "reading_scope": "formula, field content and controls as text"
+    },
+    {
+      "ref": "origin/chat1/web-seat",
+      "commit": "67c1f9c03c1b45173708b515fcf2a4b812868a8d",
+      "path": "relays/chat1_2026-10-23_attack/exploration/e18_every_cusp_of_the_fit_lines.py",
+      "sha256": "02bc4f373bd31d366942c5da764347aebeea440bdc67c4c01c3c800f9e78a7f9",
+      "reading_scope": "formula, primitive-cycle reduction and scope as text"
+    },
+    {
+      "ref": "origin/chat1/web-seat",
+      "commit": "67c1f9c03c1b45173708b515fcf2a4b812868a8d",
+      "path": "relays/chat1_2026-10-23_attack/exploration/e19_cusp_identity.py",
+      "sha256": "49b75fe33e9f63eb96e7ca65c68d1f81fbee6f7f7e9336187668363c00649d6d",
+      "reading_scope": "full as text"
+    },
+    {
+      "ref": "origin/chat1/web-seat",
+      "commit": "67c1f9c03c1b45173708b515fcf2a4b812868a8d",
+      "path": "relays/chat1_2026-10-23_attack/UNIF_TEST_RULE.md",
+      "sha256": "8b41eae31e3503e457d74a94fb29b51c999e2d9ebd4fd6da9c42beb0419f8b68",
+      "reading_scope": "outcomes, controls and qualification clauses"
+    },
+    {
+      "ref": "origin/chat1/web-seat",
+      "commit": "67c1f9c03c1b45173708b515fcf2a4b812868a8d",
+      "path": "relays/chat1_2026-10-23_attack/unif_scan_run_part3.txt",
+      "sha256": "6a5a410beb1449d433c1e4b33372596ffeb18303a1465b1ae651fa23990e68dd",
+      "reading_scope": "full published log"
+    },
+    {
+      "ref": "origin/claude/standard-model-derivation-0qt6ao",
+      "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+      "path": "docs/dossiers/the_weave_2026-10-07/the_self_conjugate_weave.py",
+      "sha256": "bfe146958ea006e7baa9d7b92f11db6eb7b07e186d1ecdbf23dee9230e5c3608",
+      "reading_scope": "full as text"
+    },
+    {
+      "ref": "origin/claude/standard-model-derivation-0qt6ao",
+      "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+      "path": "docs/dossiers/the_weave_2026-10-07/W158_RULE.md",
+      "sha256": "48892d740c7470a7e4a622501889431283bbde75e7386f5bdedad869a2de25a8",
+      "reading_scope": "full"
+    }
+  ],
+  "report": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_INTERPRETATION_2026_10_26.md",
+    "sha256": "81707be2fc5999d54fab7c9350aa8f4eee0b9c22b73331f5aae9bb6bcaa47b9b"
+  },
+  "scientific_execution": "NONE",
+  "verification_scope": "Source/record audit; hand rank and rational-cusp checks; no numerical reproduction",
+  "review_scope": "Not an extension of the completed four-argument review"
+}
