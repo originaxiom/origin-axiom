@@ -133,6 +133,20 @@ and the zero-residual equations alone do not. This makes the stronger
 parent earning duty explicit. It reuses old trace/roster results and
 is UNREVIEWED author analysis, not a new fundamental-input payment.
 
+COMMON_CLIFFORD_SYMBOL_AND_RELATIVE_VERTEX.md reuses the actual old
+mass/kinetic map and computes its full principal squared eigenvalues:
+|xi|_g^2 times (1,1,eta^2,eta^2). Conditional on one common internal
+Clifford symbol, the positive relative vertex coefficient eta is forced
+to 1. That common-symbol/physical-map requirement remains unearned
+from genesis; positivity and ellipticity alone do not force it. This
+is a new UNREVIEWED dependency argument, not a frozen-test result.
+
+P210's mutable REVIEW_STATUS.md now also records the completed review
+at 523821858, preserving the older pending/interrupted descriptions as
+history. Its sealed specification and all 39 artifacts are unchanged.
+Fetched main at 2d6681208 still queues P-386 without accepting that
+later exact review. No scientific execution is authorized by this edit.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

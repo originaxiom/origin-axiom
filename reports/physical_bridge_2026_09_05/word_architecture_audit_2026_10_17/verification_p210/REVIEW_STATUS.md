@@ -78,3 +78,25 @@ review approval and does not reclassify the narrative design as data.
 There is no ADMISSION.json or science output in this package. Review,
 main acceptance, clean execution checkout and strict gate passage remain
 required. All ten mathematical methods remain unrun and unimported.
+
+## Subsequent completed review, preserved as a separate event
+
+October 26 status reconciliation: the non-authoring review completed
+and was committed at 523821858da7b3098834aeabafb350e142e9a3d2.
+Its REVIEW.json SHA256 is
+5a9e0ea86e83d515568ac9be54df415b5338db80533cf23d69dc9fc67da333a1;
+its substantive INDEPENDENT_REVIEW_2026-10-24.md SHA256 is
+c31372816040db8fdbc52b242d4621a8cdef74232c597f9fba6449d70b88757a.
+Both are in review/. The decision approves EXECUTION of the exact ten
+frozen methods, not their truth or a wider scientific population. It
+also separately scopes its analytical successor readings. The original
+interrupted attempt and the earlier pending-review text above remain
+history; they are not the present review verdict.
+
+The latest fetched main at 2d6681208 still has P-386 queued and describes
+the interrupted attempt, not this later completed review. That queue
+entry is not structured acceptance. No acceptance is supplied here:
+main's exact acceptance, strict prospective admission and clean quiescent
+custody remain necessary before any science import/collection/run.
+This mutable status page is outside the sealed 39-artifact inventory;
+the specification, reviewed sources and review attestations are unchanged.
