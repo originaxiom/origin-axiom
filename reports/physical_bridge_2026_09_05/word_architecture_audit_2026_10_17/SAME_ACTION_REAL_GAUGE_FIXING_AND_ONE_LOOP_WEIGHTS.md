@@ -295,6 +295,23 @@ the physical light multiplet's running.
 * The earlier cochain 1:2:1 trace cancellation is not (14). Its valid
   algebra is preserved; it does not include the external spin weights.
 
+There is also a direct hand normalization control with no FI shift.
+Take a finite flat U1 model with canonical fields phi_+,phi_- of charges
++1,-1, W=0, and background phi_+=phi_-=v real. Its moment is
+mu=g(|phi_+|^2-|phi_-|^2)=0 and k=(igv,-igv), so P_v=4g^2v^2.
+For the Goldstone combination x_-=(delta phi_+-delta phi_-)/sqrt(2)
+=(h+i pi)/sqrt(2), direct differentiation gives
+
+  delta mu=2gv h, g(x)=2gv pi.
+
+Their half-squares give (1/2)(4g^2v^2)(h^2+pi^2), the vector mass
+term is (1/2)(4g^2v^2)v_mu v_mu, and the gaugino/Goldstone Weyl
+mass has magnitude 2gv. The orthogonal chiral combination stays
+massless; it is not deleted to make this control pass. This checks
+the real/complex factors in (1), (5), (8)-(12) and the massive -2
+spin-weight control. It is a hand algebra check, not a scientific
+run or a replacement for the actual curved-domain argument.
+
 The bosonic/ghost quadratic operators and relative one-loop weights
 are now derived at author-proof level from this SAME action and graph
 law. Brignole hep-th/0001121, (17)-(20), was also personally checked
