@@ -1,0 +1,186 @@
+F1 largest shift of theta_Y / pi under h -> e^(i phi) h (3 phases, 6 points, both horocycles): 5.20e-11
+F2 tau 0.55 + 3.05i, line (2/5, 1/2), L_max, dR: theta_Y / pi = +0.1774 (up -0.6738, down +0.8512); J -4.221e-04
+F2 tau 0.35 + 3.05i, line (2/5, 1/2), L_max, dR: theta_Y / pi = +0.4068 (up -0.5033, down +0.9101); J -5.650e-04
+F2 tau 0.85 + 3.05i, line (2/5, 1/2), L_max, dR: theta_Y / pi = -0.0366 (up -0.7695, down +0.7328); J +6.914e-05
+F2 tau 0.3145 + 3.0345i, line (2/5, 1/10), L_max, dR: theta_Y / pi = -0.0666 (up +0.0379, down -0.1044); J +1.931e-04
+F3 line (2/5, 0): T-step shift / pi: up -0.070000 (spread 1.5e+00, ~-7/100), down +0.450000 (spread 1.4e+00, ~9/20), theta_Y +0.380000 (spread 1.2e+00, ~19/50); largest |delta J| 1.0e-14, largest |delta log10 ratio| 1.8e+00
+F3 line (2/5, 1/10): T-step shift / pi: up -0.070000 (spread 1.7e+00, ~-7/100), down +0.450000 (spread 1.3e+00, ~9/20), theta_Y +0.380000 (spread 1.5e+00, ~19/50); largest |delta J| 7.4e-15, largest |delta log10 ratio| 8.8e-01
+F3 line (2/5, 1/5): T-step shift / pi: up -0.070000 (spread 1.8e+00, ~-7/100), down +0.450000 (spread 1.6e+00, ~9/20), theta_Y +0.380000 (spread 1.4e+00, ~19/50); largest |delta J| 1.6e-14, largest |delta log10 ratio| 1.2e+00
+F3 line (2/5, 3/10): T-step shift / pi: up -0.070000 (spread 1.2e+00, ~-7/100), down +0.450000 (spread 1.5e+00, ~9/20), theta_Y +0.380000 (spread 9.9e-01, ~19/50); largest |delta J| 2.4e-14, largest |delta log10 ratio| 9.4e-01
+F3 line (2/5, 2/5): T-step shift / pi: up -0.070000 (spread 1.7e+00, ~-7/100), down +0.450000 (spread 1.3e+00, ~9/20), theta_Y +0.380000 (spread 1.5e+00, ~19/50); largest |delta J| 1.1e-14, largest |delta log10 ratio| 8.2e-01
+F3 line (2/5, 1/2): T-step shift / pi: up -0.070000 (spread 1.0e+00, ~-7/100), down +0.450000 (spread 1.4e+00, ~9/20), theta_Y +0.380000 (spread 1.6e+00, ~19/50); largest |delta J| 5.7e-15, largest |delta log10 ratio| 6.8e-01
+F3 line (2/5, 3/5): T-step shift / pi: up -0.070000 (spread 1.6e+00, ~-7/100), down +0.450000 (spread 1.4e+00, ~9/20), theta_Y +0.380000 (spread 1.7e+00, ~19/50); largest |delta J| 4.3e-15, largest |delta log10 ratio| 8.8e-01
+F3 line (2/5, 7/10): T-step shift / pi: up -0.070000 (spread 1.6e+00, ~-7/100), down +0.450000 (spread 1.6e+00, ~9/20), theta_Y +0.380000 (spread 1.2e+00, ~19/50); largest |delta J| 1.7e-15, largest |delta log10 ratio| 1.6e+00
+F3 line (2/5, 4/5): T-step shift / pi: up -0.070000 (spread 2.0e+00, ~-7/100), down +0.450000 (spread 1.6e+00, ~9/20), theta_Y +0.380000 (spread 7.8e-01, ~19/50); largest |delta J| 2.6e-16, largest |delta log10 ratio| 7.1e-01
+F3 line (2/5, 9/10): T-step shift / pi: up -0.070000 (spread 1.0e+00, ~-7/100), down +0.450000 (spread 1.5e+00, ~9/20), theta_Y +0.380000 (spread 1.6e+00, ~19/50); largest |delta J| 7.1e-16, largest |delta log10 ratio| 6.0e-01
+F3 line (1/3, 1/5): T-step shift / pi: up +0.791667 (spread 1.9e+00, ~19/24), down -0.083333 (spread 1.9e+00, ~-1/12), theta_Y +0.833333 (spread 1.6e+00, ~5/6); largest |delta J| 6.7e-16, largest |delta log10 ratio| 9.0e-01
+F4 line (2/5, 0):
+    k alpha = -2b Re tau -2.5, Im 2.2: J +6.5e-15, theta_Y/pi -0.5500
+    k alpha = -2b Re tau -2.5, Im 2.6: J -1.8e-15, theta_Y/pi -0.5500
+    k alpha = -2b Re tau -2.5, Im 3.03: J -6.3e-17, theta_Y/pi -0.5500
+    k alpha = -2b Re tau -2.5, Im 3.4: J -1.4e-17, theta_Y/pi -0.5500
+    k alpha = -2b Re tau +0.0, Im 2.2: J -3.0e-19, theta_Y/pi +1.0000
+    k alpha = -2b Re tau +0.0, Im 2.6: J -1.8e-19, theta_Y/pi +1.0000
+    k alpha = -2b Re tau +0.0, Im 3.03: J +2.0e-21, theta_Y/pi +1.0000
+    k alpha = -2b Re tau +0.0, Im 3.4: J -2.0e-22, theta_Y/pi +1.0000
+    k alpha = +2b Re tau -2.5, Im 2.2: J +6.5e-15, theta_Y/pi -0.5500
+    k alpha = +2b Re tau -2.5, Im 2.6: J -1.8e-15, theta_Y/pi -0.5500
+    k alpha = +2b Re tau -2.5, Im 3.03: J -6.3e-17, theta_Y/pi -0.5500
+    k alpha = +2b Re tau -2.5, Im 3.4: J -1.4e-17, theta_Y/pi -0.5500
+    k alpha = +2b Re tau +0.0, Im 2.2: J -3.0e-19, theta_Y/pi +1.0000
+    k alpha = +2b Re tau +0.0, Im 2.6: J -1.8e-19, theta_Y/pi +1.0000
+    k alpha = +2b Re tau +0.0, Im 3.03: J +2.0e-21, theta_Y/pi +1.0000
+    k alpha = +2b Re tau +0.0, Im 3.4: J -2.0e-22, theta_Y/pi +1.0000
+F4 line (2/5, 1/10):
+    k alpha = -2b Re tau -1.5, Im 2.2: J -2.8e-14, theta_Y/pi +0.6300
+    k alpha = -2b Re tau -1.5, Im 2.6: J -3.0e-14, theta_Y/pi +0.6300
+    k alpha = -2b Re tau -1.5, Im 3.03: J -5.6e-17, theta_Y/pi +0.6300
+    k alpha = -2b Re tau -1.5, Im 3.4: J -3.6e-16, theta_Y/pi +0.6300
+    k alpha = -2b Re tau +1.0, Im 2.2: J +9.7e-17, theta_Y/pi -0.8200
+    k alpha = -2b Re tau +1.0, Im 2.6: J +2.8e-17, theta_Y/pi -0.8200
+    k alpha = -2b Re tau +1.0, Im 3.03: J +1.0e-17, theta_Y/pi -0.8200
+    k alpha = -2b Re tau +1.0, Im 3.4: J +1.3e-18, theta_Y/pi -0.8200
+    k alpha = +2b Re tau -1.0, Im 2.2: J +5.7e-03, theta_Y/pi -0.0575
+    k alpha = +2b Re tau -1.0, Im 2.6: J +2.0e-03, theta_Y/pi +0.0005
+    k alpha = +2b Re tau -1.0, Im 3.03: J +4.3e-04, theta_Y/pi +0.0365
+    k alpha = +2b Re tau -1.0, Im 3.4: J +1.0e-04, theta_Y/pi +0.0556
+    k alpha = +2b Re tau +1.5, Im 2.2: J -5.7e-03, theta_Y/pi +0.8351
+    k alpha = +2b Re tau +1.5, Im 2.6: J -2.4e-03, theta_Y/pi +0.7012
+    k alpha = +2b Re tau +1.5, Im 3.03: J -5.3e-04, theta_Y/pi +0.6166
+    k alpha = +2b Re tau +1.5, Im 3.4: J -1.2e-04, theta_Y/pi +0.5767
+F4 line (2/5, 1/5):
+    k alpha = -2b Re tau -0.5, Im 2.2: J +2.5e-16, theta_Y/pi -0.1900
+    k alpha = -2b Re tau -0.5, Im 2.6: J +2.1e-16, theta_Y/pi -0.1900
+    k alpha = -2b Re tau -0.5, Im 3.03: J -3.0e-17, theta_Y/pi -0.1900
+    k alpha = -2b Re tau -0.5, Im 3.4: J -2.1e-17, theta_Y/pi -0.1900
+    k alpha = -2b Re tau +2.0, Im 2.2: J +1.1e-17, theta_Y/pi -0.6400
+    k alpha = -2b Re tau +2.0, Im 2.6: J -3.7e-18, theta_Y/pi -0.6400
+    k alpha = -2b Re tau +2.0, Im 3.03: J -2.9e-18, theta_Y/pi -0.6400
+    k alpha = -2b Re tau +2.0, Im 3.4: J +4.6e-19, theta_Y/pi -0.6400
+    k alpha = +2b Re tau -2.0, Im 2.2: J -2.1e-03, theta_Y/pi -0.5079
+    k alpha = +2b Re tau -2.0, Im 2.6: J -7.3e-04, theta_Y/pi -0.5707
+    k alpha = +2b Re tau -2.0, Im 3.03: J -1.4e-04, theta_Y/pi -0.6245
+    k alpha = +2b Re tau -2.0, Im 3.4: J -3.2e-05, theta_Y/pi -0.6644
+    k alpha = +2b Re tau +0.5, Im 2.2: J +1.0e-02, theta_Y/pi +0.8622
+    k alpha = +2b Re tau +0.5, Im 2.6: J +2.3e-03, theta_Y/pi -0.9623
+    k alpha = +2b Re tau +0.5, Im 3.03: J +2.6e-04, theta_Y/pi -0.8372
+    k alpha = +2b Re tau +0.5, Im 3.4: J +4.0e-05, theta_Y/pi -0.7594
+F4 line (2/5, 3/10):
+    k alpha = -2b Re tau -2.0, Im 2.2: J -5.6e-17, theta_Y/pi +0.4400
+    k alpha = -2b Re tau -2.0, Im 2.6: J -3.5e-17, theta_Y/pi +0.4400
+    k alpha = -2b Re tau -2.0, Im 3.03: J -3.6e-17, theta_Y/pi +0.4400
+    k alpha = -2b Re tau -2.0, Im 3.4: J -1.5e-18, theta_Y/pi +0.4400
+    k alpha = -2b Re tau +0.5, Im 2.2: J -2.4e-15, theta_Y/pi +0.9900
+    k alpha = -2b Re tau +0.5, Im 2.6: J +2.1e-14, theta_Y/pi +0.9900
+    k alpha = -2b Re tau +0.5, Im 3.03: J -6.4e-16, theta_Y/pi +0.9900
+    k alpha = -2b Re tau +0.5, Im 3.4: J -8.3e-17, theta_Y/pi +0.9900
+    k alpha = +2b Re tau -0.5, Im 2.2: J +1.1e-03, theta_Y/pi +0.5926
+    k alpha = +2b Re tau -0.5, Im 2.6: J +5.7e-04, theta_Y/pi +0.4850
+    k alpha = +2b Re tau -0.5, Im 3.03: J +1.7e-04, theta_Y/pi +0.4072
+    k alpha = +2b Re tau -0.5, Im 3.4: J +4.8e-05, theta_Y/pi +0.3648
+    k alpha = +2b Re tau +2.0, Im 2.2: J +2.8e-03, theta_Y/pi +0.1813
+    k alpha = +2b Re tau +2.0, Im 2.6: J +3.2e-04, theta_Y/pi +0.3750
+    k alpha = +2b Re tau +2.0, Im 3.03: J -1.2e-04, theta_Y/pi +0.5295
+    k alpha = +2b Re tau +2.0, Im 3.4: J -4.6e-05, theta_Y/pi +0.6102
+F4 line (2/5, 2/5):
+    k alpha = -2b Re tau -1.0, Im 2.2: J -2.3e-17, theta_Y/pi +0.6200
+    k alpha = -2b Re tau -1.0, Im 2.6: J +2.1e-18, theta_Y/pi +0.6200
+    k alpha = -2b Re tau -1.0, Im 3.03: J +3.0e-18, theta_Y/pi +0.6200
+    k alpha = -2b Re tau -1.0, Im 3.4: J +1.4e-19, theta_Y/pi +0.6200
+    k alpha = -2b Re tau +1.5, Im 2.2: J -1.4e-15, theta_Y/pi +0.1700
+    k alpha = -2b Re tau +1.5, Im 2.6: J -3.1e-16, theta_Y/pi +0.1700
+    k alpha = -2b Re tau +1.5, Im 3.03: J +5.9e-17, theta_Y/pi +0.1700
+    k alpha = -2b Re tau +1.5, Im 3.4: J -1.2e-17, theta_Y/pi +0.1700
+    k alpha = +2b Re tau -1.5, Im 2.2: J +5.5e-03, theta_Y/pi -0.7297
+    k alpha = +2b Re tau -1.5, Im 2.6: J +3.1e-03, theta_Y/pi -0.7424
+    k alpha = +2b Re tau -1.5, Im 3.03: J +5.6e-04, theta_Y/pi -0.7478
+    k alpha = +2b Re tau -1.5, Im 3.4: J +1.0e-04, theta_Y/pi -0.7493
+    k alpha = +2b Re tau +1.0, Im 2.2: J -2.1e-02, theta_Y/pi +0.5260
+    k alpha = +2b Re tau +1.0, Im 2.6: J -4.0e-03, theta_Y/pi +0.3853
+    k alpha = +2b Re tau +1.0, Im 3.03: J -4.9e-04, theta_Y/pi +0.2310
+    k alpha = +2b Re tau +1.0, Im 3.4: J -7.9e-05, theta_Y/pi +0.1001
+F4 line (2/5, 1/2):
+    k alpha = -2b Re tau -2.5, Im 2.2: J +5.9e-13, theta_Y/pi +0.2500
+    k alpha = -2b Re tau -2.5, Im 2.6: J -3.5e-13, theta_Y/pi +0.2500
+    k alpha = -2b Re tau -2.5, Im 3.03: J +6.0e-15, theta_Y/pi +0.2500
+    k alpha = -2b Re tau -2.5, Im 3.4: J -1.1e-16, theta_Y/pi +0.2500
+    k alpha = -2b Re tau +0.0, Im 2.2: J -1.4e-17, theta_Y/pi +0.8000
+    k alpha = -2b Re tau +0.0, Im 2.6: J -3.5e-17, theta_Y/pi +0.8000
+    k alpha = -2b Re tau +0.0, Im 3.03: J +1.2e-17, theta_Y/pi +0.8000
+    k alpha = -2b Re tau +0.0, Im 3.4: J +8.9e-18, theta_Y/pi +0.8000
+    k alpha = +2b Re tau -2.5, Im 2.2: J +5.9e-13, theta_Y/pi +0.2500
+    k alpha = +2b Re tau -2.5, Im 2.6: J -3.5e-13, theta_Y/pi +0.2500
+    k alpha = +2b Re tau -2.5, Im 3.03: J +6.0e-15, theta_Y/pi +0.2500
+    k alpha = +2b Re tau -2.5, Im 3.4: J -1.1e-16, theta_Y/pi +0.2500
+    k alpha = +2b Re tau +0.0, Im 2.2: J -1.4e-17, theta_Y/pi +0.8000
+    k alpha = +2b Re tau +0.0, Im 2.6: J -3.5e-17, theta_Y/pi +0.8000
+    k alpha = +2b Re tau +0.0, Im 3.03: J +1.2e-17, theta_Y/pi +0.8000
+    k alpha = +2b Re tau +0.0, Im 3.4: J +8.9e-18, theta_Y/pi +0.8000
+F4 line (2/5, 3/5):
+    k alpha = -2b Re tau -1.5, Im 2.2: J +1.4e-15, theta_Y/pi -0.5700
+    k alpha = -2b Re tau -1.5, Im 2.6: J +3.4e-16, theta_Y/pi -0.5700
+    k alpha = -2b Re tau -1.5, Im 3.03: J -7.5e-17, theta_Y/pi -0.5700
+    k alpha = -2b Re tau -1.5, Im 3.4: J +3.5e-18, theta_Y/pi -0.5700
+    k alpha = -2b Re tau +1.0, Im 2.2: J +2.7e-17, theta_Y/pi +0.9800
+    k alpha = -2b Re tau +1.0, Im 2.6: J -1.4e-17, theta_Y/pi +0.9800
+    k alpha = -2b Re tau +1.0, Im 3.03: J -4.5e-18, theta_Y/pi +0.9800
+    k alpha = -2b Re tau +1.0, Im 3.4: J -1.7e-19, theta_Y/pi +0.9800
+    k alpha = +2b Re tau -1.0, Im 2.2: J +2.1e-02, theta_Y/pi -0.9260
+    k alpha = +2b Re tau -1.0, Im 2.6: J +4.0e-03, theta_Y/pi -0.7853
+    k alpha = +2b Re tau -1.0, Im 3.03: J +4.9e-04, theta_Y/pi -0.6310
+    k alpha = +2b Re tau -1.0, Im 3.4: J +7.9e-05, theta_Y/pi -0.5001
+    k alpha = +2b Re tau +1.5, Im 2.2: J -5.5e-03, theta_Y/pi +0.3297
+    k alpha = +2b Re tau +1.5, Im 2.6: J -3.1e-03, theta_Y/pi +0.3424
+    k alpha = +2b Re tau +1.5, Im 3.03: J -5.6e-04, theta_Y/pi +0.3478
+    k alpha = +2b Re tau +1.5, Im 3.4: J -1.0e-04, theta_Y/pi +0.3493
+F4 line (2/5, 7/10):
+    k alpha = -2b Re tau -0.5, Im 2.2: J +5.2e-15, theta_Y/pi +0.6100
+    k alpha = -2b Re tau -0.5, Im 2.6: J -2.1e-14, theta_Y/pi +0.6100
+    k alpha = -2b Re tau -0.5, Im 3.03: J +1.3e-15, theta_Y/pi +0.6100
+    k alpha = -2b Re tau -0.5, Im 3.4: J +8.7e-18, theta_Y/pi +0.6100
+    k alpha = -2b Re tau +2.0, Im 2.2: J -1.4e-16, theta_Y/pi -0.8400
+    k alpha = -2b Re tau +2.0, Im 2.6: J +1.4e-17, theta_Y/pi -0.8400
+    k alpha = -2b Re tau +2.0, Im 3.03: J +2.9e-17, theta_Y/pi -0.8400
+    k alpha = -2b Re tau +2.0, Im 3.4: J +5.2e-18, theta_Y/pi -0.8400
+    k alpha = +2b Re tau -2.0, Im 2.2: J -2.8e-03, theta_Y/pi -0.5813
+    k alpha = +2b Re tau -2.0, Im 2.6: J -3.2e-04, theta_Y/pi -0.7750
+    k alpha = +2b Re tau -2.0, Im 3.03: J +1.2e-04, theta_Y/pi -0.9295
+    k alpha = +2b Re tau -2.0, Im 3.4: J +4.6e-05, theta_Y/pi +0.9898
+    k alpha = +2b Re tau +0.5, Im 2.2: J -1.1e-03, theta_Y/pi -0.9926
+    k alpha = +2b Re tau +0.5, Im 2.6: J -5.7e-04, theta_Y/pi -0.8850
+    k alpha = +2b Re tau +0.5, Im 3.03: J -1.7e-04, theta_Y/pi -0.8072
+    k alpha = +2b Re tau +0.5, Im 3.4: J -4.8e-05, theta_Y/pi -0.7648
+F4 line (2/5, 4/5):
+    k alpha = -2b Re tau -2.0, Im 2.2: J -1.0e-17, theta_Y/pi +0.2400
+    k alpha = -2b Re tau -2.0, Im 2.6: J +4.8e-18, theta_Y/pi +0.2400
+    k alpha = -2b Re tau -2.0, Im 3.03: J -1.4e-18, theta_Y/pi +0.2400
+    k alpha = -2b Re tau -2.0, Im 3.4: J -1.1e-18, theta_Y/pi +0.2400
+    k alpha = -2b Re tau +0.5, Im 2.2: J -3.4e-16, theta_Y/pi -0.2100
+    k alpha = -2b Re tau +0.5, Im 2.6: J -2.3e-16, theta_Y/pi -0.2100
+    k alpha = -2b Re tau +0.5, Im 3.03: J +8.4e-17, theta_Y/pi -0.2100
+    k alpha = -2b Re tau +0.5, Im 3.4: J -5.4e-18, theta_Y/pi -0.2100
+    k alpha = +2b Re tau -0.5, Im 2.2: J -1.0e-02, theta_Y/pi +0.7378
+    k alpha = +2b Re tau -0.5, Im 2.6: J -2.3e-03, theta_Y/pi +0.5623
+    k alpha = +2b Re tau -0.5, Im 3.03: J -2.6e-04, theta_Y/pi +0.4372
+    k alpha = +2b Re tau -0.5, Im 3.4: J -4.0e-05, theta_Y/pi +0.3594
+    k alpha = +2b Re tau +2.0, Im 2.2: J +2.1e-03, theta_Y/pi +0.1079
+    k alpha = +2b Re tau +2.0, Im 2.6: J +7.3e-04, theta_Y/pi +0.1707
+    k alpha = +2b Re tau +2.0, Im 3.03: J +1.4e-04, theta_Y/pi +0.2245
+    k alpha = +2b Re tau +2.0, Im 3.4: J +3.2e-05, theta_Y/pi +0.2644
+F4 line (2/5, 9/10):
+    k alpha = -2b Re tau -1.0, Im 2.2: J -4.2e-17, theta_Y/pi +0.4200
+    k alpha = -2b Re tau -1.0, Im 2.6: J +2.4e-17, theta_Y/pi +0.4200
+    k alpha = -2b Re tau -1.0, Im 3.03: J +6.9e-18, theta_Y/pi +0.4200
+    k alpha = -2b Re tau -1.0, Im 3.4: J +5.9e-18, theta_Y/pi +0.4200
+    k alpha = -2b Re tau +1.5, Im 2.2: J +3.4e-14, theta_Y/pi +0.9700
+    k alpha = -2b Re tau +1.5, Im 2.6: J +3.7e-14, theta_Y/pi +0.9700
+    k alpha = -2b Re tau +1.5, Im 3.03: J +4.2e-17, theta_Y/pi +0.9700
+    k alpha = -2b Re tau +1.5, Im 3.4: J +1.9e-17, theta_Y/pi +0.9700
+    k alpha = +2b Re tau -1.5, Im 2.2: J +5.7e-03, theta_Y/pi +0.7649
+    k alpha = +2b Re tau -1.5, Im 2.6: J +2.4e-03, theta_Y/pi +0.8988
+    k alpha = +2b Re tau -1.5, Im 3.03: J +5.3e-04, theta_Y/pi +0.9834
+    k alpha = +2b Re tau -1.5, Im 3.4: J +1.2e-04, theta_Y/pi -0.9767
+    k alpha = +2b Re tau +1.0, Im 2.2: J -5.7e-03, theta_Y/pi -0.3425
+    k alpha = +2b Re tau +1.0, Im 2.6: J -2.0e-03, theta_Y/pi -0.4005
+    k alpha = +2b Re tau +1.0, Im 3.03: J -4.3e-04, theta_Y/pi -0.4365
+    k alpha = +2b Re tau +1.0, Im 3.4: J -1.0e-04, theta_Y/pi -0.4556
