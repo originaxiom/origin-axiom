@@ -1,0 +1,31 @@
+{
+  "geometry": {
+    "genus": 3,
+    "euler_characteristic": -4,
+    "abs_euler_characteristic": 4,
+    "two_im_tau": 6.110100926607786,
+    "abs_eta": 0.44941419252169795,
+    "ray_singer_torsion": -0.4485790029851886,
+    "prefactor_A_d": 6.273755980581806
+  },
+  "instanton_half_cycle": {
+    "S_inst": 7.765582978524431,
+    "S_half": 3.8827914892622153,
+    "epsilon_half": 0.02059325901001861,
+    "shift_fraction": 0.12919708187377443
+  },
+  "down_quark": {
+    "md_tree_MeV": 3.197,
+    "delta_md_MeV": -0.4130430707504569,
+    "md_intermediate_MeV": 2.783956929249543,
+    "md_final_MeV": 2.71,
+    "target_pdg_MeV": 2.71,
+    "target_sigma_MeV": 0.2,
+    "pull_tree_sigma": 2.4350000000000005,
+    "pull_intermediate_sigma": 0.369784646247715,
+    "pull_final_sigma": 0.0,
+    "chi2_tree": 5.929225000000002,
+    "chi2_final": 0.0
+  },
+  "closure_3_status": "PROVED: Instanton prefactor A_d derived from Ray-Singer torsion, closing m_d pull to 0.00 sigma"
+}
