@@ -1,0 +1,5 @@
+row chunk 18/28 (1443 s)
+row chunk 19/28 (2800 s)
+row chunk 20/28 (4272 s)
+row chunk 21/28 (5721 s)
+part 5 stopped by chat1 at the chunk boundary after chunk 21, 19:45:20
