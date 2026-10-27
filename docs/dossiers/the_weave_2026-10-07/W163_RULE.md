@@ -3,6 +3,16 @@
 The SM-derivation seat, 2026-10-27. Committed and pushed before the script that reads it exists. Nothing here is a
 result.
 
+> **Dated note (2026-10-27, before the script exists).** Two precisions, fixed after writing the script against
+> main's files and before any run:
+> - B1755's comparison.json stores, per class and menu, the mean fraction, the worst seed and the hit total, not each
+>   seed's fraction (its compare.py, main()). So A1's "every per-seed fraction exact" and A2's "every per-seed fraction
+>   equals comparison.json's exactly" are checked as those three numbers, exactly, per class. A2 also reports each
+>   seed's own fraction.
+> - FINDINGS prints order 14's fraction as 42.3%, to 0.1 points, so A2 checks it to 0.05 points, not 0.01.
+>
+> Nothing else changes.
+
 ## Why
 
 - **Main's B1755** (sealed 2d6681208; census committed unread at aeaf72716, comparison at 3b9dda20d; read at S223)
