@@ -1,0 +1,31 @@
+{
+  "status": "Unreviewed author nonlinear compact proof; no execution, banking or independent certification",
+  "base_commit": "bbe3f4661484faed2c88797c11fb4033b015588d",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/NONLINEAR_NILPOTENT_METRIC_RESPONSE_AND_FLUX_BALANCE.md",
+      "sha256": "558c9e756bfc172a0743f73269bf32b7400726f2dc4083d5aff29c35fd851c6a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/DERIVED_EXTENSION_TANGENT_NORM_AND_GAUGE_RESPONSE.md",
+      "sha256": "0bc17e86e83bfaee16286c1dde2af5d7584b49de5f9a3fb310d92fe6e4705ff2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_COMPACT_HIGGS_COMPLEX_AND_EQUIVARIANT_EXTENSIONS.md",
+      "sha256": "fba1da53b3fd3fef32bea7227a2471aea916a5831c6706307f3d580b3973fa4e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COMPACT_UNIFORMIZING_CORE_AND_GLOBAL_INPUTS.md",
+      "sha256": "045d654809629e028ec975b2e9ee6a742d732bb2d05d8223e3cff20252f58d42"
+    }
+  ],
+  "hand_checks": [
+    "full 2x2 Chern curvature and Higgs commutator",
+    "off-diagonal harmonic/Serre normalization",
+    "compact integrated degree balance",
+    "maximum-principle sign",
+    "second-order resolvent and integrated recovery",
+    "gauge-projection inequality direction"
+  ],
+  "scientific_execution": "none"
+}

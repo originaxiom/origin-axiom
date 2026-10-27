@@ -549,6 +549,30 @@ completeness theorem. This is unreviewed author algebra, not a new
 scientific execution or an extension of earlier review/admission seals.
 The full foundational physical mission remains active and unfinished.
 
+## October 27: derive nonlinear fibre metric response and retain the end inequality direction
+
+The [nonlinear compact proof](NONLINEAR_NILPOTENT_METRIC_RESPONSE_AND_FLUX_BALANCE.md)
+uses the orthogonal splitting along the actual nilpotent kernel. Its
+second fundamental form changes the old split flux balance to
+integral(n)+|e|^2/N_n=2pi in the fixed curvature-minus-four genus-three
+model. The Higgs norm decreases along the nonsplit family; keeping the
+split integrated norm fixed would omit a curvature term.
+
+The scalar metric correction satisfies an explicit nonlocal equation,
+with n<h for nonzero extension. Its first nonlinear response is fixed
+by (-Delta_h+8)^-1, not a chosen profile. The projected tangent metric
+has an upper bound C_A/N_n; it is NOT a coercive end bound. A positive
+added Higgs-norm potential would destabilize, not minimize at, the
+split point along this family. That is a scoped rejecting control,
+not a claim that the actual physical action supplies such a term.
+
+These are unreviewed hand derivations in the compact ordinary model.
+No scientific producer/test was run or newly admitted. The physical
+surface horizontal response, full nonlinear family kinetic metric and
+end law remain the next duties; no SM parameter or foundational row is
+marked paid. Earlier reviews/seals and the full physical objective
+remain unchanged.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
