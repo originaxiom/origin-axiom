@@ -48,6 +48,7 @@ sector is listed with its target.
 | B1753 | sealed | the six on the five-ality lines, fresh apexes | PROVED as sealed (0.009%); the rule mostly a pick; ungraded |
 | B1755 | sealed | the six on the lines of order 13, 14, 15, 20 at B1749's apexes | PROVED as sealed at the edge (15+20: 0.0975%; 13, 14 not specific); every good line α = 2/5; not PASSED (r = 1.22 × 10⁻³, m = 40) |
 | B1757 | verification | step 2's free doublets rerun with their vectors | an exact reproduction, not a new look |
+| B1785 § 3 | post hoc | two of the six (ln m_c/m_t, ln m_s/m_b) against the slope's exponents | the pair (3/10, 1/5) at Im τ 3.03; informs main's step 1 |
 
 ## The web seat (chat1)
 

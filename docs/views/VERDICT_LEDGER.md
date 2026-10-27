@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1488 of 1488 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1489 of 1489 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1018)
+## PROVED (1019)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1030,6 +1030,7 @@
 | `B1757` | POST HOC data, at the SM seat's ask (its relay section 277): S217's step-2 fit of two free Higgs doublets at the six's strip rerun with the same starts and seeds -- all eight chi2_nine values reproduce exactly (best 2.75 and 4.05) -- and the fitted vectors committed: both doublets lie within about 0.1 of one null line (0, 1, i)/sqrt2, each with its own small e1 admixture (|h.h|/|h|^2 0.010-0.030). Not evidence (two free doublets reach 66% of random CKMs given the six, P-377); the reference for the seat's named-pair test W158. 0 of 19. |  | 1 |
 | `B1758` | RE-BANKED FROM THE AGY LANE AFTER MAIN'S AUDIT (P-301 / R70-1, P-390): THE BLOCK-12 PENCIL REGENERATED FROM SCRATCH AND C25'S WALL SIGN CERTIFIED IN EXACT RATIONAL ARITHMETIC (P-301 / R70-1): without the missing session pickle b12_tower.pkl, the 12x12 block-12 operators R_8, R_14, R_16 and the exact polynomials e(rho) = (-752150557025548369920000*rho^2 + 2078647372732170240000*rho + 13861799233061580800)/13^6 and det_14(rho) = (9084997258444800000*rho^2 + 1004293914624000*rho + 77919277363200)/13^4 in F = Q[rho]/mu(rho) are rebuilt from B854 in about 2 s; completing the square proves det_14(rho) = (9084997258444800000/13^4)*(rho + 13/235200)^2 + 2727198720 >= 2 727 198 720 > 0 for ALL real rho; exact resultant minpoly(det_14) = -f_6(sqrt(-u)) and rational root-isolation intervals certify det_14(rho_i) > 0 and e(rho_i) > 0 at all three roots, matching B893 to every stored digit and B892 mod 40123 ((rq, gamma_q, a_q) = (27063, 13410, 2675)); THEOREM_LEDGER C25 confirmed. 0 of 19. Main's audit: the construction is B892's; two independent checks (60-digit eigen route; dim z = 14 at B892's wall over GF(40123) and GF(40693)); the lane's defects corrected (the vertex -13/235200; the mu^4 check run; the modular checks asserted; a rebuilding lock). |  | 1 |
 | `B1784` | THE AGY LANE AUDITED (P-390): of its twenty-five arcs one is sound and re-banked (C25's exact certification, B1758); agy:B1759's residue law and agy:B1761's 5w = 1/2 residue fact are genuine; agy:B1760's class-choosing null is faithful but on the wrong menus (B1749 fails a fair null); agy:B1762-B1764 are post hoc fits presented as selections (tau* is B1749's best data row); the 19 of 19 of agy:B1777 and agy:B1781 is literal tables -- 4 inputs returned, 11 set to their targets, 3 frame ratios times input scales, theta-bar not computed. 0 of 19 stands; anti-fabrication gates proposed (P-391). |  | 1 |
+| `B1785` | THE SLOPE SETS THE EXPONENTS (main's plan, step 1, groundwork; data-free census of 662 lines): the leading exponents of every sector's mass ratios depend on the line's slope alone (the offset moves only prefactors); on alpha = 2/5 and 1/10 the second-generation pair is (up, down) = (3/10, 1/5), leptons = down on 2/5; on many slopes the pair is {x, 1/2 - x} with x the Higgs's twist ||3 alpha|| (observed, not proven); post hoc, the measured second-generation ratios give (0.296, 0.208) at Im tau 3.03 -- the slope carries the 3:2 ratio, Im tau the scale. Not a reduction yet. 0 of 19. |  | 1 |
 
 ## NEGATIVE (366)
 

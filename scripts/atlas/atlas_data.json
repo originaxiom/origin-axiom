@@ -14151,6 +14151,19 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1785": {
+   "slug": "the slope sets the exponents",
+   "motifs": [
+    "coupling",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B178": {
    "slug": "perturbative mechanism",
    "motifs": [

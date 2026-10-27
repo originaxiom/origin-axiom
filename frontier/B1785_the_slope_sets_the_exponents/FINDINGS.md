@@ -1,0 +1,54 @@
+# B1785 — THE SLOPE SETS THE EXPONENTS (MAIN'S PLAN, STEP 1, GROUNDWORK): IN B1656'S FRAME THE LEADING EXPONENTS OF EVERY SECTOR'S MASS RATIOS DEPEND ON THE LINE'S SLOPE ALONE — THE OFFSET MOVES ONLY PREFACTORS; ON α = 2/5 AND α = 1/10 THE SECOND-GENERATION EXPONENTS ARE (UP, DOWN) = (3/10, 1/5); ON MANY SLOPES THE PAIR IS {x, ½ − x} WITH x THE HIGGS'S TWIST ‖3α‖
+
+**Verdict: PROVED (a census, computed; data-free; one comparison with data, post hoc, labelled in § 3).** cc (main),
+2026-10-27, step 1 of main's plan (the reductions; docs/MAINS_PLAN.md; P-393). **0 of 19.**
+
+## 1. The census (`verification/exponents.py` → `exponents.json`)
+
+Every flat line on record — B1713's 266 of order ≤ 12 and B1755's 396 of order 13, 14, 15, 20, 662 in all — at Re τ = 1/3
+and Im τ = 4, 5, 6 with B1726's sealed `compute()` (B1656's frame at B1667's end, the Higgs DR, both readings, both
+horocycles). For each sector, reading, horocycle and ratio (m₂/m₃, m₁/m₃), the exponent e = −d ln(ratio)/d(2π Im τ) from
+a least-squares line through the three heights; the residual of that line is ≤ 0.07 everywhere (the leading power has set
+in up to sub-leading terms). No measured value is read.
+
+## 2. What it shows (the seat's reading: up S̃, down S, leptons S; L_max)
+
+- **The exponents depend on the slope alone.** Over the offsets b of one slope the up sector's m₂/m₃ exponent varies by
+  at most 0.042 (0.25 only at α = ¼, a tie); the offset moves the O(1) prefactors — which is why the offset is selective at
+  each order (B1755) while the exponents are not.
+- **On α = 2/5 and on α = 1/10 the second-generation pair is (up, down) = (3/10, 1/5)** (medians 0.301, 0.199 and 0.300,
+  0.199), and the leptons equal the down quarks on α = 2/5 at the exponent level (B1728's identity). The first generation
+  separates them: (up, down, leptons) m₁/m₃ exponents 0.806, 0.550, 0.549 on 2/5 against 0.652, 0.700, 0.498 on 1/10.
+- **A regularity, observed, not proven:** on many slopes the second-generation pair is {x, ½ − x} with x = ‖3α‖, the
+  distance of the Higgs's twist 3α (6Y_H = 3) from an integer — on α = 2/5, 3α = 6/5 and x = 1/5; which sector takes x
+  depends on the slope's range (on α = 1/15 the same x = 1/5 goes the other way: up 0.197, down 0.301). It fails on some
+  slopes (4/15, 2/11, 4/9); a closed form from the theta characteristics is the next sub-step.
+- **Contrast:** in B1653's point-coupling frame the exponent stayed ½ in every sector on every line (B1692); in B1656's
+  four-channel frame the slope sets it.
+
+## 3. Against the data (POST HOC, labelled — one look, at two numbers)
+
+HZ2021's ln(m_c/m_t) = −5.63 and ln(m_s/m_b) = −3.96 divided by 2π × 3.03 give 0.296 and 0.208 — the pair (3/10, 1/5).
+Read the other way: the slope 2/5 (or 1/10) carries the measured ratio of the second-generation exponents, 3 : 2, and Im τ
+is the scale at which they are met (2.99 from the up quarks, 3.15 from the down quarks; the strip's 3.03 between). The first
+generation needs large prefactors (about e^3.5) at both slopes — the offset's job.
+
+## 4. What it means for the plan (P-384, P-393)
+
+- **What a principle for the slope must do:** give the Higgs's twist ‖3α‖ = 1/5 with the up quarks on the ½ − x branch —
+  i.e. the measured 3 : 2 between the up and down second-generation exponents; that ratio is the slope's whole content at
+  leading order. A principle that gives α = 1/10 instead would need the first generation to choose between them.
+- **Not a reduction yet:** the census explains what the slope does; it does not force it.
+- **Next:** the closed form of the exponents from the theta characteristics (which branch each sector takes), then the
+  candidate principle stated before its check, then the sealed prediction at untested orders (25, 30).
+
+## Seen first
+
+`VERDICT topic-sweep /exponent|hierarchy exponent|q-exponent|leading power|Froggatt|slope/ (full text): 320 of 1532 arcs on main match (NEGATIVE 80, OPEN 10, PROVED 227, RETRACTED 2, no verdict file 1)`
+— bearing on it: B1691 (exponents at the two fixed points), B1692 (the line keeps the exponent ½ in B1653's frame), B1693
+(sealed against data), B1728, B1755. **The register:** P-169, P-227, P-240, P-384, P-392. **Literature:** Froggatt–Nielsen
+hierarchies from charges (1979); modular-flavour hierarchies near the cusp (the check of 2026-10-24, P-382).
+
+## Files
+
+`verification/exponents.py` → `exponents.json`, `exponents_run.txt`. The lock: `tests/test_b1785_the_slope_sets_the_exponents.py`.

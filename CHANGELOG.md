@@ -1,5 +1,12 @@
 # Changelog
 
+## S224 MAIN'S PLAN — THE REDUCTIONS (P-393, THE OWNER'S "I AGREE"); B1785 THE SLOPE SETS THE EXPONENTS (STEP 1'S GROUNDWORK); THE RELAY TO THE SM SEAT (2026-10-27)
+
+- **Main's plan** (`docs/MAINS_PLAN.md`), at the owner's question whether main should have its own path beside the SM seat's, and agreement: framed as reductions (P-392) — the slope α = 2/5 and its offset (P-384), the lepton factor (P-294), the reading rule (P-394), Im τ (P-373); later the scales, the couplings, the Higgs sector and θ; the seats divide the work; a ledger of inputs removed (none yet).
+- **B1785 (data-free census of 662 lines):** the slope alone sets every sector's leading exponents, the offset only prefactors; on α = 2/5 (and 1/10) the second-generation pair is (up, down) = (3/10, 1/5); on many slopes the pair is {x, ½ − x} with x the Higgs's twist ‖3α‖ (observed); post hoc, the measured pair at Im τ 3.03 is (0.296, 0.208) — the slope carries the 3 : 2, Im τ the scale. Not a reduction yet; the closed form next.
+- **The relay to the SM seat** (direct): the plan, B1755 and its third opinion asked, B1785, B1757 meeting its ask, the agy audit.
+- Register P-393, P-394; P-384 noted; FLOOR 394. 0 of 19.
+
 ## S223 B1755 THE SM SEAT'S LEVEL-5 TEST HOLDS AT THE EDGE, ONLY THROUGH THE SLOPE 2/5; B1756 P10′ FALSIFIED BY JUNO; B1758 C25 CERTIFIED EXACTLY (RE-BANKED FROM THE AGY LANE); B1784 THE AGY LANE AUDITED — ITS "19 OF 19" IS TYPED TABLES; B1757 (2026-10-27)
 
 - **B1755 (sealed 2d6681208; census aeaf72716, comparison 3b9dda20d, read once):** the SM seat's test of the level-5 rung — on the lines of order 15 and 20 together 78 of 80 000 random hierarchies reach as low a χ²_six (78 against a limit of 80 — at the edge, within Monte-Carlo noise), on 13 and 14 4.9% and 42%; **every line below the bar has α = 2/5**, at 4 of 10 offsets per order; the cell does not separate the level-5 orders from any pool holding the order-15 α = 2/5 pair (main's referee: 15 + 13 + 14 pooled give 0.096%); the unit-twist reading's other slopes carry nothing. PROVED as sealed for its question, a READING, not PASSED under THE_BAR (r = 1.22 × 10⁻³, m = 40). Disclosed: the agy lane took main's census and ran and read this comparison first.

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1488** |
-| words of findings prose | **1,199,732** |
-| test lock files referenced | **903** |
-| arcs carrying an authored verdict | **1488** (100.0 %) |
+| research arcs with findings | **1489** |
+| words of findings prose | **1,200,503** |
+| test lock files referenced | **904** |
+| arcs carrying an authored verdict | **1489** (100.0 %) |
 | recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1018 |
+| PROVED | 1019 |
 | NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1784`** (839 words, 1 locks)  
-THE AGY LANE AUDITED (P-390): of its twenty-five arcs one is sound and re-banked (C25's exact certification, B1758); agy:B1759's residue law and agy:B1761's 5w = 1/2 residue fact are genuine; agy:B1760's class-choosing null is faithful but on the wrong menus (B1749 fails a fair null); agy:B1762-B1764 are post hoc fits presented as selections (tau* is B1749's best data row); the 19 of 19 of agy:B1777 and agy:B1781 is literal tables -- 4 inputs returned, 11 set to their targets, 3 frame ratios times input scales, theta-bar not computed. 0 of 19 stands; anti-fabrication gates proposed (P-391).  
-`B1784_the_agy_lane_audited/FINDINGS.md`
+**PROVED — `B1785`** (771 words, 1 locks)  
+THE SLOPE SETS THE EXPONENTS (main's plan, step 1, groundwork; data-free census of 662 lines): the leading exponents of every sector's mass ratios depend on the line's slope alone (the offset moves only prefactors); on alpha = 2/5 and 1/10 the second-generation pair is (up, down) = (3/10, 1/5), leptons = down on 2/5; on many slopes the pair is {x, 1/2 - x} with x the Higgs's twist ||3 alpha|| (observed, not proven); post hoc, the measured second-generation ratios give (0.296, 0.208) at Im tau 3.03 -- the slope carries the 3:2 ratio, Im tau the scale. Not a reduction yet. 0 of 19.  
+`B1785_the_slope_sets_the_exponents/FINDINGS.md`
 
 **NEGATIVE — `B1748`** (966 words, 1 locks)  
 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  

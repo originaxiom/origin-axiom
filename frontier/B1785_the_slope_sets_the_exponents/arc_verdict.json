@@ -1,0 +1,25 @@
+{
+ "id": "B1785",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1726",
+  "B1755",
+  "B1728"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's frame at B1667's end; the Higgs DR; Im tau 4-6",
+  "object": "the leading exponents of every sector's mass ratios on all 662 flat lines of order <= 20 on record",
+  "reach": "class",
+  "hypotheses": "the leading power read from three heights (residual <= 0.07)"
+ },
+ "claim_one_line": "THE SLOPE SETS THE EXPONENTS (main's plan, step 1, groundwork; data-free census of 662 lines): the leading exponents of every sector's mass ratios depend on the line's slope alone (the offset moves only prefactors); on alpha = 2/5 and 1/10 the second-generation pair is (up, down) = (3/10, 1/5), leptons = down on 2/5; on many slopes the pair is {x, 1/2 - x} with x the Higgs's twist ||3 alpha|| (observed, not proven); post hoc, the measured second-generation ratios give (0.296, 0.208) at Im tau 3.03 -- the slope carries the 3:2 ratio, Im tau the scale. Not a reduction yet. 0 of 19.",
+ "weave_or_thread": "thread (lines by enumeration)"
+}
