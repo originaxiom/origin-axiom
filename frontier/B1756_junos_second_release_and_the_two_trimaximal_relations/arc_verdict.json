@@ -1,25 +1,25 @@
 {
- "id": "B1756",
- "verdict": "PROVED",
- "instrument": false,
- "creates_law": false,
- "identifications": [],
- "depends_on": [
-  "B1628",
-  "B1612",
-  "B1625"
- ],
- "rests_on_seat": [],
- "cites_seat": [],
- "supersedes": null,
- "superseded_by": null,
- "authored_by": "cc",
- "scope": {
-  "frame": "the falsifier register's P10 (a) and P10' (TM1 under T-bar x T; TM2 under T x T where all of G is flavour)",
-  "object": "JUNO's second release (arXiv:2609.37895) against the register's fixed wording, with B1628's sealed instrument",
-  "reach": "the two trimaximal readings in their frames; not the weave",
-  "hypotheses": "theta13 from NuFIT 6.0 (normal ordering); one-dimensional pulls; the register's wordings of 2026-10-08 and 2026-10-09"
- },
- "claim_one_line": "JUNO's second release (sin^2 theta12 = 0.3036 +/- 0.0064, arXiv:2609.37895) graded by the falsifier register's fixed wording with B1628's sealed instrument: P10' (TM2, 1/(3 cos^2 theta13) = 0.3409, the weave's lepton reduction under T x T where all of G is flavour) is FALSIFIED at 5.82 sigma -- that reading is dead, the weave is not; P10 (a) (TM1, 0.3182) stands at 2.28 sigma, below its 3 sigma line. By the register's wording P10' had already met its criterion on JUNO's first result (3.64 sigma), which B1628's seal reported without grading. 0 of 19.",
- "weave_or_thread": "weave (a reading of the weave's group in a frame, against data)"
+  "id": "B1756",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1628",
+    "B1612",
+    "B1625"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the falsifier register's P10 (a) and P10' (TM1 under T-bar x T; TM2 under T x T where all of G is flavour)",
+    "object": "JUNO's second release (arXiv:2609.37895) against the register's fixed wording, with B1628's sealed instrument",
+    "reach": "class",
+    "hypotheses": "theta13 from NuFIT 6.0 (normal ordering); one-dimensional pulls; the register's wordings of 2026-10-08 and 2026-10-09"
+  },
+  "claim_one_line": "JUNO's second release (sin^2 theta12 = 0.3036 +/- 0.0064, arXiv:2609.37895) graded by the falsifier register's fixed wording with B1628's sealed instrument: P10' (TM2, 1/(3 cos^2 theta13) = 0.3409, the weave's lepton reduction under T x T where all of G is flavour) is FALSIFIED at 5.82 sigma -- that reading is dead, the weave is not; P10 (a) (TM1, 0.3182) stands at 2.28 sigma, below its 3 sigma line. By the register's wording P10' had already met its criterion on JUNO's first result (3.64 sigma), which B1628's seal reported without grading. 0 of 19.",
+  "weave_or_thread": "weave (a reading of the weave's group in a frame, against data)"
 }

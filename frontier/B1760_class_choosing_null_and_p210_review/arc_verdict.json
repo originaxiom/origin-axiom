@@ -22,11 +22,15 @@
   "scope": {
     "frame": "THE_BAR class-choosing and joint-law null calibration across B1749 (N <= 12) and B1755 (N in {13,14,15,20}), plus non-authoring cryptographic, AST, and symbolic SymPy review of P210 (39ce620a8) and the Oct 24-26 reduction notes",
     "object": "80 000 random hierarchies across 266 lines of B1749 and 396 lines of B1755 (P-381, P-384), and the 39 sealed artifacts and 8 reduction notes of the audit lane (P-386)",
-    "reach": "exact calibration on committed censuses and static/symbolic audit",
+    "reach": "class",
     "hypotheses": "committed censuses of B1749 and B1755; sealed commit 39ce620a8 on origin/audit/physical-bridge-2026-09-05"
   },
   "claim_one_line": "CLASS-CHOOSING AND JOINT-LAW NULL CALIBRATION (P-381, P-384) AND P210 / OCT 26 REDUCTIONS AUDIT (P-386): across 80 000 random hierarchies, all four class-choosing nulls on B1755 (prime divisibility 0.3575% at p=5 / 0.1325% at p=3, exact order 0.1413%, slope alpha 0.4488%, and two-stage B1749->B1755 prime selection 0.1563%) exceed 0.1%, and min chi2_six along alpha=2/5 has Pearson correlation r = 0.8953 between B1749 and B1755; independent cryptographic, AST, and symbolic SymPy audit verifies all 39 artifacts of 39ce620a8 and all 8 Oct 24-26 reduction notes (65dd3c112..926a26f59). 0 of 19.",
   "weave_or_thread": "weave (null calibration across thread apexes and line classes; static/symbolic audit)",
   "summary": "Calibrates the in-sample and two-stage class-choosing nulls across B1749 (N <= 12) and B1755 (N in {13,14,15,20}) for P-381 and P-384, showing that on B1755 all four class-choosing nulls (in-sample prime divisibility 0.3575% at p=5 / 0.1325% at p=3, exact order 0.1413%, slope alpha 0.4488%, and two-stage B1749->B1755 prime selection 0.1563%) exceed 0.1%, and that min chi2_six along alpha=2/5 has Pearson correlation r = 0.8953 between B1749 and B1755. Completes the P-386 non-authoring cryptographic, AST, and symbolic SymPy audit of the sealed P210 package (39ce620a8) and the six October 24-26 analytical reduction notes (65dd3c112..a506b1b15) on origin/audit/physical-bridge-2026-09-05.",
-  "points": ["P-381", "P-384", "P-386"]
+  "points": [
+    "P-381",
+    "P-384",
+    "P-386"
+  ]
 }

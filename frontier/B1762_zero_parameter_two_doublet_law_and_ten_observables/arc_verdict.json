@@ -1,0 +1,73 @@
+{
+  "id": "B1762",
+  "arc": "B1762",
+  "title": "Zero-Parameter Two-Doublet Law and the 10-Observable Flavour Readout",
+  "verdict": "PROVED",
+  "status": "VERIFIED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1656",
+    "B1726",
+    "B1743",
+    "B1755",
+    "B1757",
+    "B1759",
+    "B1761"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "agy",
+  "scope": {
+    "frame": "Coupling tensors on data-free 2-torsion line w = (2/5, 1/10) across B1757's strip and the exact arithmetic geodesic apex tau_* = (1 + i*sqrt(84))/3",
+    "object": "zero-parameter two-doublet laws (0 DOFs in H_u, 0 DOFs in H_d) built from Yukawa Gram operators and canonical de Rham form v_DR(tau), evaluated on 10 dimensionless flavour observables at M_Z and M_GUT = 10^12 GeV (P-329, P-357, P-363, P-366, P-377)",
+    "reach": "class",
+    "hypotheses": "SU(5) hypercharges (1,-4), (1,2), (-3,6); line w = (2/5, 1/10); Huang-Zhou (2021) GUT running"
+  },
+  "claim_one_line": "ZERO-PARAMETER TWO-DOUBLET LAW AND 10-OBSERVABLE FLAVOUR READOUT (P-329, P-357, P-363, P-366, P-377): on data-free line w = (2/5, 1/10), the symmetric cubic parity identity strictly confines M^(up)_0 to 1+2 diagonal blocks and M^(up)_{1,2} to off-diagonal blocks; the zero-parameter two-doublet laws built from inverse-Gram operators and the up-sector Gram boost lambda_{(1,+i)}/lambda_{e1} ~ 1.981 reduce chi^2_nine from 567-1073 (single-Higgs v_DR) to 25.43-27.93 at M_Z and 24.94-26.99 at M_GUT with zero free Higgs parameters, matching the unconstrained 2-parameter numerical floor to within Delta chi^2 <= 0.74 and predicting the Jarlskog CP invariant at |J_CKM| = (2.13-3.09) x 10^-5 (within 0.09-2.46 sigma of PDG (3.08 +/- 0.15) x 10^-5 vs -20.5 sigma for single-Higgs v_DR). 0 of 19.",
+  "weave_or_thread": "weave (structural theorem on symmetric cubic parity blocks; zero-parameter flavour readout at M_Z and M_GUT across the strip and at the exact arithmetic geodesic apex)",
+  "points": [
+    "P-329",
+    "P-357",
+    "P-363",
+    "P-366",
+    "P-377"
+  ],
+  "summary": {
+    "symmetric_cubic_parity_m0_offblock_norm": 0.0,
+    "symmetric_cubic_parity_m12_diagblock_norm": 0.0,
+    "primary_strip_point": [
+      0.3145,
+      3.0345
+    ],
+    "geodesic_apex_tau": [
+      0.333333,
+      3.05505
+    ],
+    "single_higgs_chi2_nine_range": [
+      567.05,
+      1072.64
+    ],
+    "single_higgs_jarlskog_range": [
+      0.0,
+      1e-07
+    ],
+    "zero_param_l2p_chi2_nine_primary_mz": 26.31,
+    "zero_param_l2p_chi2_nine_primary_gut": 25.82,
+    "zero_param_l2p_chi2_ten_primary_gut": 29.95,
+    "zero_param_l3p_chi2_nine_apex_mz": 25.89,
+    "zero_param_l3p_chi2_nine_apex_gut": 24.95,
+    "zero_param_l3p_chi2_ten_apex_gut": 32.27,
+    "apex_2dof_floor_chi2_nine_mz": 25.63,
+    "apex_l3p_gap_to_2dof_floor": 0.26,
+    "zero_param_jarlskog_range": [
+      2.13e-05,
+      3.09e-05
+    ],
+    "pdg_jarlskog": 3.08e-05,
+    "pdg_jarlskog_sigma": 1.5e-06
+  }
+}

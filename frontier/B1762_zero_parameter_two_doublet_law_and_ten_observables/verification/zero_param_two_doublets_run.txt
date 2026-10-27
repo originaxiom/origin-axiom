@@ -1,0 +1,59 @@
+=== B1762: Zero-Parameter Two-Doublet Law and 10-Observable Readout ===
+
+--- Strip point tau = 0.3145 + 3.0345i (boost_u = 1.98095, p_nat = 1.14315) ---
+  2-DOF floor (p=1)    : chi2_9(MZ)=33.49, chi2_9(GUT)=31.95, |J|=2.51e-5
+  2-DOF floor (p=p_nat): chi2_9(MZ)=25.07, chi2_9(GUT)=24.58, |J|=2.65e-5
+  B0_single_higgs_vdr     : 9(MZ)=821.16 (6=434.69, ckm=386.47) | 9(GUT)=818.68 | |J|=0.01e-5 (-20.49s) | 10(GUT)=1238.55
+  B1_unboosted_hu_hd_p1   : 9(MZ)=325.27 (6= 19.13, ckm=306.15) | 9(GUT)=323.73 | |J|=0.01e-5 (-20.48s) | 10(GUT)=743.30
+  L1_decoupled_block_hd   : 9(MZ)=291.58 (6=249.73, ckm= 41.85) | 9(GUT)=287.10 | |J|=1.15e-5 (-12.87s) | 10(GUT)=452.83
+  L1_boost_p1             : 9(MZ)= 43.91 (6= 20.10, ckm= 23.81) | 9(GUT)= 42.37 | |J|=2.17e-5 (-6.07s) | 10(GUT)= 79.26
+  L1p_boost_pnat          : 9(MZ)= 31.89 (6=  7.45, ckm= 24.44) | 9(GUT)= 31.40 | |J|=2.38e-5 (-4.69s) | 10(GUT)= 53.38
+  L2_anomalous_up_p1      : 9(MZ)= 34.42 (6= 27.65, ckm=  6.77) | 9(GUT)= 32.88 | |J|=2.53e-5 (-3.64s) | 10(GUT)= 46.12
+  L2p_anomalous_up_pnat   : 9(MZ)= 26.31 (6= 15.00, ckm= 11.31) | 9(GUT)= 25.82 | |J|=2.78e-5 (-2.03s) | 10(GUT)= 29.95
+  L3_schur_im_p1          : 9(MZ)= 33.54 (6= 27.21, ckm=  6.32) | 9(GUT)= 31.99 | |J|=2.53e-5 (-3.70s) | 10(GUT)= 45.68
+  L3p_schur_im_pnat       : 9(MZ)= 25.81 (6= 14.56, ckm= 11.25) | 9(GUT)= 25.32 | |J|=2.70e-5 (-2.54s) | 10(GUT)= 31.75
+  L4p_schur_rot_pnat      : 9(MZ)= 25.43 (6= 12.86, ckm= 12.57) | 9(GUT)= 24.94 | |J|=2.69e-5 (-2.61s) | 10(GUT)= 31.74
+
+--- Strip point tau = 0.333333 + 3.05505i (boost_u = 1.98177, p_nat = 1.14314) ---
+  2-DOF floor (p=1)    : chi2_9(MZ)=37.35, chi2_9(GUT)=35.35, |J|=2.50e-5
+  2-DOF floor (p=p_nat): chi2_9(MZ)=25.63, chi2_9(GUT)=24.69, |J|=2.62e-5
+  B0_single_higgs_vdr     : 9(MZ)=898.21 (6=483.42, ckm=414.79) | 9(GUT)=895.00 | |J|=0.01e-5 (-20.49s) | 10(GUT)=1315.04
+  B1_unboosted_hu_hd_p1   : 9(MZ)=353.27 (6= 24.63, ckm=328.64) | 9(GUT)=351.26 | |J|=0.02e-5 (-20.38s) | 10(GUT)=766.56
+  L1_decoupled_block_hd   : 9(MZ)=321.34 (6=275.28, ckm= 46.07) | 9(GUT)=316.43 | |J|=1.11e-5 (-13.14s) | 10(GUT)=489.09
+  L1_boost_p1             : 9(MZ)= 48.76 (6= 24.17, ckm= 24.59) | 9(GUT)= 46.75 | |J|=2.13e-5 (-6.33s) | 10(GUT)= 86.85
+  L1p_boost_pnat          : 9(MZ)= 33.64 (6=  8.53, ckm= 25.11) | 9(GUT)= 32.70 | |J|=2.35e-5 (-4.89s) | 10(GUT)= 56.62
+  L2_anomalous_up_p1      : 9(MZ)= 39.87 (6= 32.11, ckm=  7.76) | 9(GUT)= 37.86 | |J|=2.46e-5 (-4.14s) | 10(GUT)= 54.99
+  L2p_anomalous_up_pnat   : 9(MZ)= 27.93 (6= 16.47, ckm= 11.46) | 9(GUT)= 26.99 | |J|=2.71e-5 (-2.46s) | 10(GUT)= 33.03
+  L3_schur_im_p1          : 9(MZ)= 37.70 (6= 30.42, ckm=  7.28) | 9(GUT)= 35.69 | |J|=2.48e-5 (-4.02s) | 10(GUT)= 51.87
+  L3p_schur_im_pnat       : 9(MZ)= 25.89 (6= 14.78, ckm= 11.11) | 9(GUT)= 24.95 | |J|=2.67e-5 (-2.71s) | 10(GUT)= 32.27
+  L4p_schur_rot_pnat      : 9(MZ)= 27.19 (6= 14.19, ckm= 13.00) | 9(GUT)= 26.25 | |J|=2.63e-5 (-3.00s) | 10(GUT)= 35.28
+
+--- Strip point tau = 0.3145 + 3.1i (boost_u = 1.98343, p_nat = 1.14312) ---
+  2-DOF floor (p=1)    : chi2_9(MZ)=41.76, chi2_9(GUT)=39.49, |J|=1.71e-5
+  2-DOF floor (p=p_nat): chi2_9(MZ)=25.41, chi2_9(GUT)=24.22, |J|=1.77e-5
+  B0_single_higgs_vdr     : 9(MZ)=1072.64 (6=606.23, ckm=466.41) | 9(GUT)=1068.82 | |J|=0.00e-5 (-20.51s) | 10(GUT)=1489.39
+  B1_unboosted_hu_hd_p1   : 9(MZ)=409.83 (6= 36.28, ckm=373.55) | 9(GUT)=407.56 | |J|=0.03e-5 (-20.32s) | 10(GUT)=820.48
+  L1_decoupled_block_hd   : 9(MZ)=387.64 (6=321.74, ckm= 65.90) | 9(GUT)=382.12 | |J|=0.83e-5 (-14.98s) | 10(GUT)=606.46
+  L1_boost_p1             : 9(MZ)= 62.36 (6= 31.63, ckm= 30.73) | 9(GUT)= 60.09 | |J|=1.75e-5 (-8.86s) | 10(GUT)=138.67
+  L1p_boost_pnat          : 9(MZ)= 40.87 (6= 12.09, ckm= 28.78) | 9(GUT)= 39.69 | |J|=1.94e-5 (-7.59s) | 10(GUT)= 97.31
+  L2_anomalous_up_p1      : 9(MZ)= 52.74 (6= 42.64, ckm= 10.10) | 9(GUT)= 50.47 | |J|=2.02e-5 (-7.04s) | 10(GUT)=100.00
+  L2p_anomalous_up_pnat   : 9(MZ)= 35.02 (6= 23.11, ckm= 11.91) | 9(GUT)= 33.83 | |J|=2.25e-5 (-5.54s) | 10(GUT)= 64.56
+  L3_schur_im_p1          : 9(MZ)= 47.75 (6= 44.20, ckm=  3.55) | 9(GUT)= 45.48 | |J|=2.15e-5 (-6.22s) | 10(GUT)= 84.17
+  L3p_schur_im_pnat       : 9(MZ)= 32.46 (6= 24.67, ckm=  7.80) | 9(GUT)= 31.28 | |J|=2.31e-5 (-5.14s) | 10(GUT)= 57.75
+  L4p_schur_rot_pnat      : 9(MZ)= 34.39 (6= 20.20, ckm= 14.19) | 9(GUT)= 33.21 | |J|=2.18e-5 (-6.01s) | 10(GUT)= 69.35
+
+--- Strip point tau = 0.3145 + 2.95i (boost_u = 1.97716, p_nat = 1.14320) ---
+  2-DOF floor (p=1)    : chi2_9(MZ)=29.38, chi2_9(GUT)=28.82, |J|=3.01e-5
+  2-DOF floor (p=p_nat): chi2_9(MZ)=30.47, chi2_9(GUT)=30.91, |J|=3.23e-5
+  B0_single_higgs_vdr     : 9(MZ)=567.05 (6=267.63, ckm=299.41) | 9(GUT)=566.31 | |J|=0.01e-5 (-20.45s) | 10(GUT)=984.55
+  B1_unboosted_hu_hd_p1   : 9(MZ)=250.01 (6= 15.78, ckm=234.23) | 9(GUT)=249.45 | |J|=0.10e-5 (-19.85s) | 10(GUT)=643.62
+  L1_decoupled_block_hd   : 9(MZ)=205.54 (6=183.96, ckm= 21.58) | 9(GUT)=202.40 | |J|=1.73e-5 (-9.01s) | 10(GUT)=283.65
+  L1_boost_p1             : 9(MZ)= 43.74 (6= 23.98, ckm= 19.77) | 9(GUT)= 43.18 | |J|=2.87e-5 (-1.40s) | 10(GUT)= 45.13
+  L1p_boost_pnat          : 9(MZ)= 43.44 (6= 20.01, ckm= 23.43) | 9(GUT)= 43.88 | |J|=3.09e-5 (+0.09s) | 10(GUT)= 43.88
+  L2_anomalous_up_p1      : 9(MZ)= 34.55 (6= 26.47, ckm=  8.08) | 9(GUT)= 33.98 | |J|=3.39e-5 (+2.09s) | 10(GUT)= 38.35
+  L2p_anomalous_up_pnat   : 9(MZ)= 38.19 (6= 22.50, ckm= 15.69) | 9(GUT)= 38.63 | |J|=3.64e-5 (+3.75s) | 10(GUT)= 52.71
+  L3_schur_im_p1          : 9(MZ)= 38.31 (6= 26.51, ckm= 11.80) | 9(GUT)= 37.75 | |J|=3.13e-5 (+0.37s) | 10(GUT)= 37.88
+  L3p_schur_im_pnat       : 9(MZ)= 40.21 (6= 22.55, ckm= 17.67) | 9(GUT)= 40.65 | |J|=3.33e-5 (+1.65s) | 10(GUT)= 43.37
+  L4p_schur_rot_pnat      : 9(MZ)= 37.05 (6= 21.36, ckm= 15.68) | 9(GUT)= 37.48 | |J|=3.53e-5 (+3.03s) | 10(GUT)= 46.63
+
+Wrote /Users/dri/oa-audit-seat/agy-seat/frontier/B1762_zero_parameter_two_doublet_law_and_ten_observables/verification/zero_param_two_doublets.json
