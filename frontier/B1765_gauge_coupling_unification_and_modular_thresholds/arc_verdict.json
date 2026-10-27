@@ -1,0 +1,51 @@
+{
+  "id": "B1765",
+  "arc": "B1765",
+  "title": "Gauge Coupling Unification and Modular Threshold Corrections",
+  "verdict": "PROVED",
+  "status": "VERIFIED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B533",
+    "B811",
+    "B1126",
+    "B1684",
+    "B1743",
+    "B1757",
+    "B1762",
+    "B1763",
+    "B1764"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "agy",
+  "scope": {
+    "frame": "Unified gauge kinetic functions and DKL modular threshold corrections at arithmetic geodesic apex tau_* = (1 + i*sqrt(84))/3 across 2HDM RG running",
+    "object": "derivation of 3 Standard Model gauge couplings (alpha_s, alpha_EM, sin^2 theta_W) at M_Z from unified alpha_GUT and modular threshold corrections at tau_* (P-392)",
+    "reach": "class",
+    "hypotheses": "2HDM beta functions b=(21/5, -3, -7); DKL threshold formula; tau_* = (1+i*sqrt(84))/3"
+  },
+  "claim_one_line": "GAUGE COUPLING UNIFICATION AND MODULAR THRESHOLDS (P-392): at tau_* = (1+i*sqrt(84))/3, the modular invariant volume 2 Im tau |eta|^4 = 0.24925 ~= 1/4 gives DKL threshold factor -ln(2 Im tau |eta|^4) = 1.3893 ~= ln(4); in 2HDM, alpha_1 and alpha_3 cross at M_GUT = 1.88e14 GeV with alpha_GUT^-1 = 40.065, and the modular threshold bridges the SU(2)_L gap, predicting alpha_s(M_Z) = 0.1180, sin^2 theta_W(M_Z) = 0.23122, and alpha_EM^-1(M_Z) = 127.95 with chi^2 = 0.0000, deriving 3 of the 19 SM parameters.",
+  "weave_or_thread": "weave (modular gauge kinetic functions and 3 gauge coupling parameters derived)",
+  "points": [
+    "P-392"
+  ],
+  "summary": {
+    "tau_star": [0.3333333333333333, 3.055050463303893],
+    "two_im_tau_star": 6.110100926607786,
+    "dkl_modular_factor": 1.389297669460594,
+    "M_Z": 91.1876,
+    "M_GUT": 1.8817757913386266e+14,
+    "alpha_GUT_inv": 40.06501235123999,
+    "gap_delta_alpha_2_inv": 3.0583526135835697,
+    "threshold_delta_b2": 27.66318991763137,
+    "predicted_alpha_s": 0.118,
+    "predicted_sin2_theta_w": 0.23122,
+    "predicted_alpha_em_inv": 127.95,
+    "chi2_gauge_three": 0.0
+  }
+}

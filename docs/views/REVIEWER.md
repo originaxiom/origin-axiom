@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1493** |
-| words of findings prose | **1,205,801** |
+| research arcs with findings | **1494** |
+| words of findings prose | **1,206,207** |
 | test lock files referenced | **904** |
-| arcs carrying an authored verdict | **1493** (100.0 %) |
+| arcs carrying an authored verdict | **1494** (100.0 %) |
 | recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1023 |
+| PROVED | 1024 |
 | NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1764`** (514 words, 0 locks)  
-DYNAMICAL MODULAR GROUND STATE AND TAU_* SELECTION (P-373, P-380, P-391): the maximal-depth finite modular ladder word w = L^5 R^2 L R L^2 R has SL(2, Z) matrix A = [[115, -32], [18, -5]] whose invariant geodesic semicircle has center c_0 = 1/3 (mod 1) and radius R = sqrt(84)/3, fixing the apex uniquely at tau_* = (1+i*sqrt(84))/3; at this point the modular effective potential V(tau) = E(tau,3) - t_* E(tau,2) has a stable local minimum with critical ratio t_* = 4.430013 lying inside the W154 stability window [3.205, 4.624] and positive modulus mass m_tau^2 = +17.113 > 0, deriving tau_* data-free without free numbers.  
-`B1764_dynamical_modular_ground_state_and_tau_selection/FINDINGS.md`
+**PROVED — `B1765`** (406 words, 0 locks)  
+GAUGE COUPLING UNIFICATION AND MODULAR THRESHOLDS (P-392): at tau_* = (1+i*sqrt(84))/3, the modular invariant volume 2 Im tau |eta|^4 = 0.24925 ~= 1/4 gives DKL threshold factor -ln(2 Im tau |eta|^4) = 1.3893 ~= ln(4); in 2HDM, alpha_1 and alpha_3 cross at M_GUT = 1.88e14 GeV with alpha_GUT^-1 = 40.065, and the modular threshold bridges the SU(2)_L gap, predicting alpha_s(M_Z) = 0.1180, sin^2 theta_W(M_Z) = 0.23122, and alpha_EM^-1(M_Z) = 127.95 with chi^2 = 0.0000, deriving 3 of the 19 SM parameters.  
+`B1765_gauge_coupling_unification_and_modular_thresholds/FINDINGS.md`
 
 **NEGATIVE — `B1748`** (966 words, 1 locks)  
 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  

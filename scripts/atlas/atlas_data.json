@@ -14164,6 +14164,24 @@
    "status": "open",
    "domain": "dynamics"
   },
+  "B1765": {
+   "slug": "gauge coupling unification and modular thresholds",
+   "motifs": [
+    "measurement",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B533",
+    "B811"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 9,
+   "status": "open",
+   "domain": "topology"
+  },
   "B176": {
    "slug": "golden privilege",
    "motifs": [

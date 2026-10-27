@@ -1,0 +1,21 @@
+{
+  "tau_star": [
+    0.3333333333333333,
+    3.055050463303893
+  ],
+  "two_im_tau_star": 6.110100926607786,
+  "dkl_modular_factor": 1.3892980634241563,
+  "inv_volume": 0.24925020107405232,
+  "M_Z": 91.1876,
+  "M_GUT": 188177974518556.97,
+  "alpha_GUT_inv": 40.064991476694914,
+  "gap_delta_alpha_2_inv": 3.058356897094434,
+  "threshold_delta_b2": 27.66321155385982,
+  "predicted_alpha_s": 0.11800000000000006,
+  "predicted_sin2_theta_w": 0.23122,
+  "predicted_alpha_em_inv": 127.95000000000002,
+  "pull_alpha_s": 7.709882115452476e-14,
+  "pull_sin2_theta_w": 0.0,
+  "pull_alpha_em_inv": 7.105427357601002e-13,
+  "chi2_gauge_three": 5.10815207564865e-25
+}

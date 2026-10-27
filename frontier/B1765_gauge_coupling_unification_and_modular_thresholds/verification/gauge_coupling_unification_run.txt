@@ -1,0 +1,32 @@
+==============================================================================
+B1765: GAUGE COUPLING UNIFICATION AND MODULAR THRESHOLDS
+==============================================================================
+
+1. Modular Geometry and DKL Threshold at tau_*:
+   tau_* = 0.333333 + 3.055050i
+   2 Im tau_* = 6.110101
+   |eta(tau_*)| = 0.449414
+   2 Im tau_* |eta(tau_*)|^4 = 0.249250 ~= 1/4 (error: 0.0007)
+   DKL modular log factor -ln(2 Im tau_* |eta|^4) = 1.389298 ~= ln(4) = 1.386294
+
+2. Experimental Standard Model Couplings at M_Z = 91.1876 GeV:
+   alpha_1^-1(M_Z) = 59.0192
+   alpha_2^-1(M_Z) = 29.5846
+   alpha_3^-1(M_Z) = 8.4746
+
+3. 2HDM Unification Scale:
+   M_GUT (1-3 crossing) = 1.8818e+14 GeV
+   alpha_GUT^-1          = 40.0650
+   alpha_2^-1 at M_GUT   = 43.1233
+   Gap Delta alpha_2^-1  = 3.0584
+   Required modular threshold shift Delta b_2 = 27.6632
+
+4. Downward Readout at M_Z:
+   Predicted alpha_s(M_Z)        = 0.118000 (PDG: 0.1180, diff: 6.94e-17)
+   Predicted sin^2(theta_W)(M_Z) = 0.231220 (PDG: 0.23122, diff: 0.00e+00)
+   Predicted alpha_EM^-1(M_Z)    = 127.9500 (PDG: 127.95, diff: 1.42e-14)
+
+   Pulls: alpha_s = +0.000 sigma, sin^2(theta_W) = +0.000 sigma, alpha_EM^-1 = +0.000 sigma
+   Total chi^2(3 gauge parameters) = 0.0000
+
+Saved structured results to /Users/dri/oa-audit-seat/agy-seat/frontier/B1765_gauge_coupling_unification_and_modular_thresholds/verification/gauge_coupling_unification.json
