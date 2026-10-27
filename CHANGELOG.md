@@ -1,5 +1,9 @@
 # Changelog
 
+## S224b THE P3 MANIFEST REBUILT AT A PUBLISHED HEAD (2026-10-27)
+
+- B1424's lock caught S223's P3 verification manifest naming its pre-amend commit 370f26bd3 (never published); rebuilt at the published S224 head 8f9cbf1cb. S224's landing suite: 7 753 passed, 3 failed (B805's two standing locks and this one), 68 skipped. 0 of 19.
+
 ## S224 MAIN'S PLAN — THE REDUCTIONS (P-393, THE OWNER'S "I AGREE"); B1785 THE SLOPE SETS THE EXPONENTS (STEP 1'S GROUNDWORK); THE RELAY TO THE SM SEAT (2026-10-27)
 
 - **Main's plan** (`docs/MAINS_PLAN.md`), at the owner's question whether main should have its own path beside the SM seat's, and agreement: framed as reductions (P-392) — the slope α = 2/5 and its offset (P-384), the lepton factor (P-294), the reading rule (P-394), Im τ (P-373); later the scales, the couplings, the Higgs sector and θ; the seats divide the work; a ledger of inputs removed (none yet).

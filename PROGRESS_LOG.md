@@ -17949,3 +17949,4 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 ## 2026-10-27 — S224 MAIN'S PLAN (THE REDUCTIONS); B1785 THE SLOPE SETS THE EXPONENTS
 
 - Main's plan adopted at the owner's "i agree" (P-393). B1785: the slope alone sets the leading exponents; on α = 2/5 the second-generation pair is (3/10, 1/5), the measured 3 : 2. 0 of 19.
+- **Landing suite (S224).** full suite 7 753 passed, 3 failed, 68 skipped (22:35, -n 8) on 8f9cbf1cb: two failures are B805's attachment locks (P-239, standing); the third, B1424's manifest lock, caught that S223's rebuilt P3 manifest named its pre-amend commit (370f26bd3, never published) — rebuilt at the published S224 head in a follow-up (S224b), the lock rerun green.
