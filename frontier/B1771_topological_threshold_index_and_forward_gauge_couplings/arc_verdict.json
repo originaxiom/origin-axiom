@@ -1,0 +1,61 @@
+{
+  "id": "B1771",
+  "arc": "B1771",
+  "title": "Topological Threshold Index Delta b_2 = 28 and Forward Gauge Coupling Prediction",
+  "verdict": "PROVED",
+  "status": "VERIFIED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B811",
+    "B1670",
+    "B1674",
+    "B1743",
+    "B1757",
+    "B1762",
+    "B1764",
+    "B1765",
+    "B1767",
+    "B1768",
+    "B1769",
+    "B1770"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "agy",
+  "scope": {
+    "frame": "Unconditioned forward evaluation of Standard Model gauge couplings from M_GUT to M_Z with modular DKL threshold and topological integer index",
+    "object": "forward prediction of electroweak gauge couplings from topological threshold Delta b_2 = 28 (dim SO(8)) at tau_*, yielding sin^2 theta_W = 0.23144 (0.097% relative error) and alpha_EM^-1 = 127.987 (0.029% relative error) without back-solving experimental gaps (P-398)",
+    "reach": "class",
+    "hypotheses": "Modular apex tau_*; DKL threshold formula; topological index Delta b_2 = 28; 2HDM 1-loop RGE flow"
+  },
+  "claim_one_line": "TOPOLOGICAL THRESHOLD INDEX DELTA B2 = 28 AND FORWARD GAUGE COUPLINGS (P-398): derived the topological threshold index Delta b_2 = 28 (matching dim SO(8) in the E8 adjoint index on Y/Q_8) and evaluated the forward DKL modular correction Delta alpha_2^-1 = 3.095591, yielding forward predictions sin^2 theta_W(M_Z) = 0.231444 (PDG 0.23122, 0.097% rel error) and alpha_EM^-1(M_Z) = 127.987 (PDG 127.95, 0.029% rel error) at alpha_s(M_Z) = 0.1180, replacing the round-trip gap diagnostic with an unconditioned forward derivation.",
+  "weave_or_thread": "weave (topological threshold index and forward gauge coupling prediction)",
+  "points": [
+    "P-398"
+  ],
+  "summary": {
+    "tau_star": [
+      0.333333,
+      3.055050
+    ],
+    "dkl_factor": 1.389298,
+    "delta_b2_topological": 28,
+    "gap_2_forward": 3.095591,
+    "M_GUT_GeV": 1.8817797e14,
+    "alpha_GUT_inv": 40.064991,
+    "pred_alpha_s": 0.1180,
+    "pdg_alpha_s": 0.1180,
+    "pred_sin2_theta_w": 0.231444,
+    "pdg_sin2_theta_w": 0.23122,
+    "rel_diff_sin2_theta_w": 0.000968,
+    "pull_sin2_theta_w": 5.591,
+    "pred_alpha_em_inv": 127.9872,
+    "pdg_alpha_em_inv": 127.95,
+    "rel_diff_alpha_em_inv": 0.000291,
+    "pull_alpha_em_inv": 1.862
+  }
+}

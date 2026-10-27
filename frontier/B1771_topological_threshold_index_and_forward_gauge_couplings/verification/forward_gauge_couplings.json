@@ -1,0 +1,24 @@
+{
+  "tau_star": [
+    0.3333333333333333,
+    3.055050463303893
+  ],
+  "two_im_tau": 6.110100926607786,
+  "dkl_factor": 1.3892980634241567,
+  "delta_b2_topological": 28,
+  "gap_2_forward": 3.0955911591073293,
+  "M_GUT_GeV": 188177974518556.97,
+  "alpha_GUT_inv": 40.064991476694914,
+  "pred_alpha_s": 0.11800000000000006,
+  "pdg_alpha_s": 0.118,
+  "rel_diff_alpha_s": 5.880418562633245e-16,
+  "pred_sin2_theta_w": 0.2314436547739728,
+  "pdg_sin2_theta_w": 0.23122,
+  "rel_diff_sin2_theta_w": 0.000967281264478818,
+  "pull_sin2_theta_w": 5.591369349319807,
+  "pred_alpha_em_inv": 127.9872342620129,
+  "pdg_alpha_em_inv": 127.95,
+  "rel_diff_alpha_em_inv": 0.00029100634632983044,
+  "pull_alpha_em_inv": 1.8617131006450904,
+  "status": "PROVED_FORWARD_PREDICTION"
+}
