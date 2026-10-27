@@ -1,0 +1,47 @@
+{
+  "id": "B1774",
+  "arc": "B1774",
+  "title": "Exact Analytic Chowla-Selberg Derivation of Modulus Potential Ratio t_*",
+  "verdict": "PROVED",
+  "status": "VERIFIED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B811",
+    "B1670",
+    "B1743",
+    "B1757",
+    "B1762",
+    "B1764",
+    "B1767",
+    "B1768",
+    "B1772",
+    "B1773"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "agy",
+  "scope": {
+    "frame": "Analytic evaluation of the non-holomorphic Eisenstein series zero-mode derivatives via the Chowla-Selberg formula at y_* = sqrt(84)/3",
+    "object": "closed-form analytic derivation of the potential ratio t_* = 4.43001302 from leading-order 2 pi^2 / sqrt(21) and sub-leading zeta(3), zeta(5) reflection terms, eliminating t_* as a numerical fit (P-401)",
+    "reach": "class",
+    "hypotheses": "Modular apex y_* = sqrt(84)/3; Chowla-Selberg Fourier expansion of E(tau, 3) and E(tau, 2)"
+  },
+  "claim_one_line": "ANALYTIC CHOWLA-SELBERG DERIVATION OF T_* (P-401): derived the closed-form analytic formula for the modulus potential ratio t_* = [(2 pi^6/315) y_*^2 - (3 pi/2) zeta(5) y_*^-3] / [(2 pi^4/45) y_* - pi zeta(3) y_*^-2] = 4.43001302 at y_* = sqrt(84)/3, proving that leading order is exactly 2 pi^2 / sqrt(21) = 4.307448 with +2.77% shift from zeta(3) and zeta(5), eliminating t_* as an empirical parameter.",
+  "weave_or_thread": "weave (exact analytic Chowla-Selberg derivation of modulus potential ratio)",
+  "points": [
+    "P-401"
+  ],
+  "summary": {
+    "y_star": 3.055050463304,
+    "t_leading": 4.307448499739,
+    "t_analytic": 4.430013023724,
+    "t_full_numerical": 4.430012978120,
+    "diff_analytic": 4.5604e-08,
+    "rel_correction_percent": 2.7667,
+    "in_w154_window": true
+  }
+}

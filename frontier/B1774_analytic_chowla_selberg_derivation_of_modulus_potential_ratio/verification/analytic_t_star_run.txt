@@ -1,0 +1,26 @@
+==============================================================================
+B1774: EXACT ANALYTIC CHOWLA-SELBERG DERIVATION OF POTENTIAL RATIO t_*
+==============================================================================
+1. Apex Geometric Input:
+   y_* = sqrt(84) / 3 = 2*sqrt(21)/3 = 3.055050463304
+
+2. Leading-Order Analytic Formula (Large-y Zero Mode):
+   t_leading = (1/7) * pi^2 * y_* = 2 * pi^2 / sqrt(21)
+   t_leading = 4.307448499739
+
+3. Full Analytic Chowla-Selberg Zero-Mode Formula:
+   Numerator   = (2 pi^6 / 315) y_*^2 - (3 pi / 2) zeta(5) y_*^-3 = 56.799841601601
+   Denominator = (2 pi^4 / 45) y_* - pi zeta(3) y_*^-2            = 12.821596978929
+   t_analytic  = Numerator / Denominator                         = 4.430013023724
+   Sub-leading zeta(3), zeta(5) shift: +2.7667%
+
+4. Precision Check Against Full Eisenstein Derivatives:
+   dE_3/dy (full)     = 56.799841630095
+   dE_2/dy (full)     = 12.821597117352
+   t_* (full numerical) = 4.430012978120
+   Absolute Difference = 4.5604e-08 (bessel tail suppressed by e^(-2 pi y) ~ 4.6e-9)
+
+5. Stability Window Check (W154: [3.205, 4.624]):
+   Inside window: True
+
+Results successfully written to /Users/dri/oa-audit-seat/agy-seat/frontier/B1774_analytic_chowla_selberg_derivation_of_modulus_potential_ratio/verification/analytic_t_star.json

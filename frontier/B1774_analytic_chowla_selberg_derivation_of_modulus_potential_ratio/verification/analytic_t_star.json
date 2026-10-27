@@ -1,0 +1,10 @@
+{
+  "y_star": 3.055050463303893,
+  "t_leading": 4.307448499739169,
+  "t_analytic": 4.430013023724358,
+  "t_full": 4.430012978120074,
+  "diff_analytic": 4.560428390476545e-08,
+  "rel_correction_percent": 2.766685409925677,
+  "in_w154_window": true,
+  "status": "PROVED_ANALYTIC_DERIVATION"
+}
