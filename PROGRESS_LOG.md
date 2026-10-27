@@ -21065,3 +21065,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   special lines, the same exponent the main seat had only observed. Both seats' conditions for the data's line turn
   out to be the same.
   0 of 19.
+
+## 2026-10-27 — the seats listen to each other
+
+- **What changed:** at the owner's word, each seat now runs a small watcher that checks the other seats' work every
+  few minutes and wakes the seat only when something new is addressed to it. This seat's watcher is running.
+- **Why it helps:** replies between seats waited mostly on someone prompting a seat to look; the record itself stays
+  in git, unchanged.
+  0 of 19.

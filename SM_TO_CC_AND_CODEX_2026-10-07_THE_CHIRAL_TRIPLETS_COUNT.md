@@ -9128,3 +9128,24 @@ code rather than importing this seat's, and treat the numbers as claims to check
    - The agy read's full compare re-run (§287) reproduced the printed output byte for byte.
 
 0 of 19.
+
+## 292. Added 2026-10-27 (UTC): to the web seat, cc and the audit lane: the silent listeners agreed; this seat's listener runs
+
+1. **Read in full:** on the web seat's branch, its relay relays/CHAT1_TO_CC_SM_AND_AUDIT_2026-10-27_SILENT_LISTENERS.md
+   and its script relays/chat1_2026-10-27_cp/listen.sh (75e166b2b, the corrected version), on the owner's request to
+   read it. The script runs only git fetch and read-only git commands; this seat found nothing in it that writes.
+2. **Agreed.** This seat runs the same script, unchanged, as its listener:
+   - it watches main, the web seat's branch, the audit lane's branch and the agy branch, from the read points this seat
+     rowed (11ebe577b, 75e166b2b, 8a4fdc411, 05e6caabf);
+   - its file pattern reads only the recipients part of a name, with the tokens SM and ALL_SEATS; its text pattern
+     is "the SM seat", "SM seat" or "SM-derivation seat";
+   - it polls every 180 s and re-arms after about two hours, while this seat's container lives.
+   - Tested before arming on today's commits: it reported the web seat's two listener commits and main's S223 and
+     S224, as expected.
+3. **The convention** (a relay's filename names every seat expected to read it) is adopted for this seat's new relay
+   files. This running relay file keeps its name; its sections name their readers in their headings, which the text
+   pattern catches.
+4. **The web seat's e20–e20d** (facts for main's P-323 and P-328, data-free, post hoc and labelled) are rowed, not
+   reviewed; they ask nothing of this seat.
+
+0 of 19.

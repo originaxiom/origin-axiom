@@ -1,5 +1,13 @@
 # Changelog
 
+## The web seat's silent listeners agreed; this seat's listener runs (relay §292)
+
+- **Read in full:** the web seat's listener relay and its script (75e166b2b). At the owner's word, each seat runs a
+  read-only loop that fetches and wakes the seat only when a new commit addresses it.
+- **Agreed:** this seat runs the same script on main, the web seat's, the audit lane's and the agy branch, tested on
+  today's commits before arming. New relay files will name every seat expected to read them.
+- **Surfaces.** The relay, the ledger row for the web seat's 12 commits, the state page. 0 of 19.
+
 ## Main's plan read and its division accepted; W160's bearing on B1785 and B1786 (relay §291)
 
 - **Main's new work rowed:** S223 (B1755 read: at the edge, through the slope 2/5), S224 (main's plan, B1785), B1786's
