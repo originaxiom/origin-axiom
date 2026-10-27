@@ -5125,3 +5125,37 @@ def test_w162_the_census_window():
     assert not np.isfinite(old) and m.isfinite(abs(new)) and abs(new - ref) / abs(ref) < 1e-12
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W162. The census window" in note and "Dated note (2026-10-27, after W162)" in note
+
+
+def test_w163_the_third_opinion_b1755():
+    """W163: eleven cells as predicted, C2 (ii) and C2r failed; in process, C2 (i)'s exact arithmetic: at orders 15 and
+    20 the ten slope-2/5 lines form two T-law classes of five, FINDINGS' four passing lines are two per class, and the
+    mirror b -> -b exchanges the classes"""
+    from fractions import Fraction as Fq
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "third_opinion_b1755.json").read_text(encoding="utf-8"))
+    want = {k: True for k in ("A0", "A1", "A2", "A2f", "A3", "A4", "B0", "B1", "C1", "C2 (i)", "C3")}
+    want.update({"C2 (ii) order 20": False, "C2 (ii) order 15": False, "C2r": False})
+    assert d["cells"] == want and not [k for k in d if k.endswith("_failed")]
+    a2 = d["A2"]["classes"]
+    assert a2["15+20"]["hits"] == 78 and 5.33 < a2["15+20"]["chi2_six_min"] < 5.34 and a2["15"]["hits"] == 30
+    assert a2["13"]["hits"] == 3948 and a2["14"]["hits"] == 33846
+    assert all(v["equal main (mean, worst seed, hits)"] for v in a2.values())
+    assert d["A2f"]["15+20"]["hits"] == 69 and d["A2f"]["D on the fresh seeds"]
+    assert d["C3"]["13+14+15 pooled"]["hits"] == 77 and d["C1"]["points below 16.75"] == 20
+    assert d["A1"]["diff"]["mismatch count"] == 0 and d["A1"]["diff"]["max_rel"] < 1e-12
+    passing = {15: {Fq(2, 3), Fq(14, 15), Fq(1, 3), Fq(4, 15)}, 20: {Fq(7, 20), Fq(1, 4), Fq(9, 20), Fq(3, 20)}}
+    for n, keep in ((15, lambda k: k % 3 != 0), (20, lambda k: k % 2 == 1)):
+        lines = {Fq(k, n) for k in range(n) if keep(k)}
+        assert len(lines) == 10
+        classes, left = [], set(lines)
+        while left:
+            b0 = min(left)
+            orbit = {(b0 - j * Fq(2, 5)) % 1 for j in range(5)}
+            classes.append(orbit)
+            left -= orbit
+        assert sorted(len(c) for c in classes) == [5, 5]
+        assert sorted(len(c & passing[n]) for c in classes) == [2, 2]
+        assert all(((-b) % 1 in classes[1]) == (b in classes[0]) for b in lines)
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W163. The third opinion on main's B1755" in note

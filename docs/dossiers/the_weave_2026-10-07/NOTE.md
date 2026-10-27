@@ -7726,6 +7726,92 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W163. The third opinion on main's B1755 (main's ask): B1755 reproduces in full on main's code and on this seat's, and its decisive cell also holds on a fresh seed set (69 of 80 000). The per-line split is not a smooth sampling effect: on the slope-2/5 lines the six is one function of (Re τ, Im τ, Re w), and its valleys in Re w are narrower than any order's samples, so one order's passing lines cannot be predicted from the others'. This seat agrees with main's scope. Eleven cells as predicted; C2 (ii) and C2r failed (`the_third_opinion_b1755.py`; `W163_RULE.md`)
+
+**Why.** Main asked for a third opinion on B1755, as for B1749 and B1753 (W156, W157): reproduce, two seeds, and this
+seat's read of the per-line split (its handoff of 2026-10-27, §2). The test was this seat's design (§275).
+
+**The order.**
+- The rule (`W163_RULE.md`, cb95e06de) and its dated note (0031d0564) were committed and pushed before the script.
+- The script (177778d94) was committed before its run.
+- Two launches were lost to restarts of the session's container, each about 30 minutes in, and are disclosed
+  (`the_third_opinion_b1755_failed_launch.txt`). Nothing computed was read.
+- The third launch ran 66 minutes without a restart. Its output (2b0548b15) was committed unread, after a check of
+  the exit, failed parts and paths only, then read once.
+
+**The result (COMPUTED; one run, the third launch; eleven cells as predicted; C2 (ii) and C2r failed).**
+- **A0, the inputs.** The pins hold: 49 500 distinct rows at 125 points. Every file ARTIFACT_HASHES pins matches, and
+  so does B1749's census.
+- **A1, the re-run.** Main's compare.py, run in a temporary tree at 11ebe577b, exits 0 (2 803 s).
+  - Every cell is identical, and each class's mean fraction, worst seed and hit count is exact.
+  - 1 118 of 1 200 numbers are bit-identical. The rest agree within 3.5 × 10⁻¹³ relative.
+- **A2, the calibration on own code.** Each class's mean, worst seed and hit count equal main's exactly, and the
+  minima agree within 4.9 × 10⁻¹³ relative.
+
+  | class | least χ²_six | random targets as low |
+  | --- | --- | --- |
+  | 15 and 20 | 5.330 | 78 of 80 000 (worst seed 0.225%) |
+  | 13 | | 4.935% (3 948) |
+  | 14 | | 42.31% (33 846) |
+  | 15 alone | | 30 |
+  | 20 alone | 10.886 | 243 (0.30%) |
+
+  - The seed halves give 33 and 45 hits, and seeds 1809 and 1828 give 3 each.
+  - χ²_nine under the seat's menu is 148.89.
+- **A2f, a fresh seed set** (1829–1848). On 15 and 20, 69 of 80 000 (0.086%); on 13, 5.04%; on 14, 42.4%. D also
+  holds on these targets. This re-estimates the edge, and B1755's sealed verdict is unchanged.
+- **A3, the points.** 335 primitive necklaces of length 12, 238 in the window, giving 125 points. Every listed word
+  matches, and the points are B1749's.
+- **A4, the lines.** 84, 72, 96 and 144 lines, equal to main's lines() in order. The slope-2/5 lines: none of order 13
+  or 14, ten of order 15 (b = k/15, 3 ∤ k) and ten of order 20 (b odd/20).
+- **B0, the controls.** At the best row (0.5 + 3.0619i on (2/5, 14/15)) the T-step image and b → b + 1 keep every
+  ratio to 1.3 × 10⁻¹¹ in log and J to 1.9 × 10⁻¹¹. The mirror image equals it to 1.1 × 10⁻¹¹, with J flipped.
+- **B1, the rows on own instrument.** Six rows reproduce the stored values to 2.7 × 10⁻¹¹ in log, and J to
+  7.5 × 10⁻¹¹:
+  - the best row and its mirror;
+  - (2/5, 1/3) and (2/5, 4/15) at the same point;
+  - (2/5, 2/3) at Im τ 3.1187;
+  - order 20's best, (2/5, 7/20) at 0.6053 + 3.0259i.
+- **C1, the rows below the bar.** 20 points lie below 16.75, all on FINDINGS' eight lines, on L_max, with (S̃, S, S)
+  and c = 3, at Im τ 3.026–3.119.
+- **C2 (i) holds.** At each of orders 15 and 20 the ten slope-2/5 lines form two T-law classes of five. FINDINGS'
+  four passing lines are two per class, and the mirror exchanges the classes.
+- **C2 (ii) failed, at both orders.** Interpolating log χ²_six in u = Re w from the other two orders:
+  - order 20: predicted {1/4, 7/20, 13/20, 19/20}, actual {1/4, 3/20, 7/20, 9/20};
+  - order 15: predicted {2/15, 7/15}, actual {1/3, 4/15, 2/3, 14/15}.
+- **C2r failed.** The Spearman correlations are 0.62 at order 20 and 0.55 at order 15, against the rule's 0.6 at
+  both.
+- **C3, the referee's pool.** The orders 13, 14 and 15 pooled give 0.096% (77 of 80 000), main's referee's number.
+- **The read-out.** At the two censuses' best rows 5u + 3x ≡ ±1/6 (B1749's 3.57 and B1755's 5.33, as seen by hand
+  before the rule). At the other passing points it takes 0, ±0.08, ±0.15, ±0.22 and ±0.47. So it does not mark one
+  curve.
+
+**Post hoc (after the one read; labelled).**
+- All the order-10 lines lie on W160's zero locus 5w ≡ ½, where an up channel vanishes; the orders 15 and 20 never
+  do. So the order-10 samples sit on a special locus. Leaving them out, each order predicted from the other alone
+  gets 2 of its 4 passing lines right (Spearman 0.62 and 0.59). It still fails.
+- At the best point (0.5 + 3.0619i) the six over u has narrow valleys: 5.33 at u = 2/15, against 52.8 at 0.15 and
+  68.4 at 1/15. The order-10 lines' values there are 8.42 at u = 0.3 and 205 at 0.5. The function is symmetric under
+  u → 1 − u, which is the mirror at Re τ = ½.
+
+**What it shows (a READING on the computed facts).**
+- **B1755 reproduces in full**, by main's code and by a second code. 78 of 80 000 stands as computed. On 80 000 fresh
+  targets D holds as well (69), so it is not an artefact of one seed set, though it stays at the edge.
+- **This seat agrees with main's scope.** The level-5 rung's prediction, this seat's own, holds only through the
+  slope, and the result is ungraded, a READING.
+- **The per-line split is fine structure, not sampling.** The six on the slope-2/5 lines is one function of
+  (Re τ mod 1, Im τ, Re w mod 1), exactly (B0). Its valleys in Re w are narrower than the samples any order gives,
+  so no smooth reading of one order predicts another's passing lines. Main's offset question stands as main wrote it.
+  An offset rule, if there is one, must locate those narrow valleys: a relation between Re w and τ, not a rule on the
+  offset alone.
+- **For the look ledger:** A0–A4, B, C1 and C3 are verifications. A2f re-estimates the measure. C2 and the post hoc
+  check are post hoc views of the same data, a look for any later test they inform.
+
+**Weave or thread.** A thread-and-frame result: main's census on lines of four orders at the apexes of the length-12
+thread words, with the positive on one slope and a strip of τ.
+
+0 of 19.
+
 ## W162. The census window: B1755's α = 2/5 is a property of the lines, not of the window every census scanned. With the record's Higgs, on the 12 order-10 lines at Im τ 1.2–12 and on all 266 lines at nine heights outside the old window, no line with a ≠ 2/5 reaches the bar; the 2/5 lines pass only at Im τ 3.0–3.1. The exponent law does not set where the up part is best: on the a = 0 and 1/5 lines the up part never comes near the data at any height. K0 and K1 as predicted; K2 failed (`the_census_window.py`; `W162_RULE.md`)
 
 **Why.** The reading after W160 and W161 (below) cautioned that "every passing line has α = 2/5" (B1755) might belong
@@ -13696,6 +13782,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W163 | COMPUTED (the rule first; one run, the third launch, the first two lost to container restarts and disclosed; eleven cells as predicted, C2 (ii) and C2r failed); a thread-and-frame result, a third opinion | main's B1755 reproduces in full: main's compare.py re-run exact (1 118 of 1 200 numbers bit-identical, the rest within 3.5 × 10⁻¹³), the own calibration exact per class (15 and 20: 5.330, 78 of 80 000; 13: 4.935%; 14: 42.31%), D also on fresh seeds (69 of 80 000); the referee's pool 0.096%; the best rows on own instrument to 2.7 × 10⁻¹¹; 20 points below the bar, all on FINDINGS' eight lines; the per-line split not predicted across orders (2 of 4 and 0 of 4; post hoc without order 10, 2 of 4 each): the six's valleys in Re w are narrower than the orders' samples; agrees with main's scope. 0 of 19 |
 | W162 | COMPUTED (the rule first; one run, the third launch, the first two stopped and disclosed; K0 and K1 as predicted, K2 failed); a frame result on stated lines and grid, post hoc on the six | the census window: with the record's Higgs on the 12 order-10 lines at Im τ 1.2–12 and all 266 lines at nine heights outside 2.0–3.6, no line with a ≠ 2/5 reaches 16.75; the 2/5 lines pass only at Im τ 3.0–3.1 (least 6.15 on the grid); a = 0 least 946, a = 1/5 least 1 387; the up part's least is 0.11 on 2/5, 487 on a = 0 and 241 on a = 1/5 at any height, so the exponent law's trade-off is one invariant's and the up sector alone singles out 2/5; B1755's α = 2/5 is the lines', not the window's. 0 of 19 |
 | W161 | COMPUTED (the rule first; one run; K0, K1, K3 as predicted, K2 failed); a thread-and-frame result, post hoc on the nine | B1762's ten Higgs recipes on own code at B1757's four points: all 40 χ²_nine and ∣J∣ reproduce to 9 × 10⁻¹²; least 25.43 (L4p), above 21.67; null (a) 1.27% (fails 1%), null (b) 0.0%; at W158's 38 strip rows no recipe below 21.67 (best 25.89); the inverse-Gram H_d lies 0.5°–8.7° from the free fit's H_d and about 1° from DR's forced orbit, the free fit's doublets 1°–4.3° from it: W159's missing orientation is a deformation of a few degrees. 0 of 19 |
 | W160 | COMPUTED (the rule first; one run; every cell as predicted); a frame result, data-free | the plan's stage 1 on the agy branch's B1761 and B1759, own code: R_i^up ∝ θ₂(3πw)θ₂(5πw), so B1761's C1 is 5w ≡ ½ with a ≠ 0, the 10 lines (1/5, odd/10) and (2/5, odd/10) at every τ (12 without the clause, none of order 13–20); main's residues agree to 1.2 × 10⁻¹⁴; the cutoff is an exponent law, I = 2ε/(1 + ε²), ε = exp(−π(1 − 2‖3a‖) Im τ), within 4.3% at Im τ ≥ 3, the 2/5 lines nearest the cone at every τ, the fixed 0.05 failing at Im τ = 5.870; B1759 is the record's own kernel formula. Post hoc: the a = 0 lines sit nearer the cone still (I = 3.8 × 10⁻⁴ and 5.5 × 10⁻⁵ at the probe), so the clause a ≠ 0 (the lines that move under T) is load-bearing and chosen. 0 of 19 |

@@ -1,5 +1,15 @@
 # Changelog
 
+## W163 recorded: the third opinion on B1755; it reproduces, and the per-line split is fine structure (relay §295)
+
+- **The test:** main's B1755 on main's code and on this seat's, with two seed halves and a fresh seed set, and a
+  prediction of each order's passing lines from the others. Eleven cells as predicted; C2 (ii) and C2r failed.
+- **The result:** every number reproduces exactly; D also holds on fresh seeds (69 of 80 000). The six's valleys in
+  Re w are narrower than any order's samples, so the split is not a sampling effect. This seat agrees with main's
+  scope.
+- **Surfaces.** The output and run log, the launch disclosure, NOTE (section and row), a lock test, the relay, four
+  ledger rows, the state page. 0 of 19.
+
 ## W162 recorded: B1755's α = 2/5 is the lines', not the census window's (relay §294)
 
 - **The test:** the six with the record's Higgs on the order-10 lines from Im τ 1.2 to 12, and on all 266 lines at

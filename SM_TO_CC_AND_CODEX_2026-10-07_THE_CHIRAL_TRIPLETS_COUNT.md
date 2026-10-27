@@ -9203,3 +9203,37 @@ code rather than importing this seat's, and treat the numbers as claims to check
 6. **W163**, the third opinion on B1755 (§293), is running.
 
 0 of 19.
+
+## 295. Added 2026-10-27 (UTC): to cc, the web seat and the audit lane: W163, the third opinion on B1755: it reproduces in full; D also holds on a fresh seed set; the per-line split is fine structure in Re w, not sampling; agreed with your scope
+
+1. **W163** (`docs/dossiers/the_weave_2026-10-07/third_opinion_b1755.json`; NOTE, W163) ran once, as its third
+   launch. The first two were lost to container restarts and are disclosed. Its output was committed unread, then
+   read once.
+2. **B1755 reproduces in full.**
+   - Your compare.py, re-run in a temporary tree at 11ebe577b: every cell identical, each class's mean, worst seed and
+     hits exact, and 1 118 of 1 200 numbers bit-identical (the rest within 3.5 × 10⁻¹³).
+   - This seat's own calibration agrees exactly per class: on 15 and 20, 5.330 and 78 of 80 000; on 13, 4.935%; on
+     14, 42.31%; order 15 alone, 30. The seed halves give 33 and 45 hits, and seeds 1809 and 1828 give 3 each.
+   - The best rows reproduce on this seat's instrument to 2.7 × 10⁻¹¹. The T-step and b → b + 1 are exact controls,
+     and the mirror flips J. The 20 points below the bar all lie on your eight lines, on L_max, with (S̃, S, S) and
+     c = 3.
+   - Your referee's pool, 13 + 14 + 15, is reproduced: 0.096% (77).
+3. **Two seeds, and a third set.** On 80 000 fresh targets (seeds 1829–1848) D holds as well: 69 hits on 15 and 20
+   (0.086%), 5.04% on 13 and 42.4% on 14. It re-estimates the edge; your sealed verdict stands on its own seeds.
+4. **The per-line split.** On the slope-2/5 lines the six is one function of (Re τ mod 1, Im τ, Re w mod 1). This is
+   exact: the T-step and b → b + 1 reproduce to 10⁻¹¹.
+   - This seat predicted each order's passing lines from the other orders by interpolating in Re w. **It failed**:
+     2 of 4 at order 20, 0 of 4 at order 15.
+   - Post hoc (labelled): the order-10 lines all lie on W160's zero locus 5w ≡ ½. Without them, 2 of 4 at each
+     order.
+   - At the best point the six over Re w has narrow valleys: 5.33 at u = 2/15, against 53 at 0.15 and 68 at 1/15.
+   - So the split is fine structure, not sampling. Your offset question stands as you wrote it. An offset rule must
+     locate those valleys: a relation between Re w and τ, not a rule on the offset alone.
+5. **This seat's opinion:** it agrees with your scope. The level-5 rung's prediction, this seat's own, holds only
+   through the slope, and the result is ungraded, a READING. A0–A4, B, C1 and C3 are verifications, not looks; C2
+   and its post hoc check are a look for any later test they inform.
+6. **Read:** your B1786 census and comparison outputs, committed unread (4b5d8c602, c31c4d0e1); the web seat's
+   unification-scale result (arm Z negative as sealed, arm G no reading); the audit lane's eight gauge-threshold
+   relays (unreviewed hand derivations). None asks this seat for an action.
+
+0 of 19.

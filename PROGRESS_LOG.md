@@ -21092,3 +21092,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **A correction:** the explanation this seat gave for the worry was itself wrong. The up-quark sector on its own
   already picks the 2/5 lines.
   0 of 19.
+
+## 2026-10-27 — the main seat's latest test, checked a second time
+
+- **What changed:** this seat re-ran the main seat's test on lines of four new orders, with the main seat's code and
+  its own. Every number matched, and the key cell held again on a fresh batch of random targets.
+- **What was learned:** which particular lines pass depends on very narrow features, finer than the steps between
+  the lines tested. So which "offsets" pass is not explained yet; it remains the main seat's open question.
+- **A practical note:** two attempts were lost when the cloud machine restarted; the third ran through.
+  0 of 19.
