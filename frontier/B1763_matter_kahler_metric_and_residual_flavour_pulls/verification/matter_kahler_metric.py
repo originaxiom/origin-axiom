@@ -32,12 +32,12 @@ import pencils as P
 import free_doublets as FD
 
 OBSERVABLE_NAMES = [
-    "log(m_e/m_mu)",
-    "log(m_mu/m_tau)",
-    "log(m_d/m_s)",
-    "log(m_s/m_b)",
-    "log(m_u/m_c)",
     "log(m_c/m_t)",
+    "log(m_u/m_t)",
+    "log(m_s/m_b)",
+    "log(m_d/m_b)",
+    "log(m_mu/m_tau)",
+    "log(m_e/m_tau)",
     "log|V_us|",
     "log|V_cb|",
     "log|V_ub|",
@@ -187,7 +187,7 @@ def main() -> None:
             print(f"  {name:25s} | chi2_10(GUT) = {res['chi2_10_gut']:5.2f} (9={res['chi2_9_gut']:5.2f}, J={res['pull_J']:+.2f}s) | chi2_10(MZ) = {res['chi2_10_mz']:5.2f}")
             if name == "step_minus_one_sixth":
                 pg = res["pulls_gut_9"]
-                print(f"    GUT pulls: me/mmu={pg[0]:+.2f}, mmu/mtau={pg[1]:+.2f}, md/ms={pg[2]:+.2f}, ms/mb={pg[3]:+.2f}, mu/mc={pg[4]:+.2f}, mc/mt={pg[5]:+.2f}")
+                print(f"    GUT pulls: mc/mt={pg[0]:+.2f}, mu/mt={pg[1]:+.2f}, ms/mb={pg[2]:+.2f}, md/mb={pg[3]:+.2f}, mmu/mtau={pg[4]:+.2f}, me/mtau={pg[5]:+.2f}")
                 print(f"               Vus={pg[6]:+.2f}, Vcb={pg[7]:+.2f}, Vub={pg[8]:+.2f}, J={res['pull_J']:+.2f}")
 
     # Save results

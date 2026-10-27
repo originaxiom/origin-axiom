@@ -30,7 +30,7 @@
     "reach": "class",
     "hypotheses": "Modular group SL(2, Z); finite quotient ladder termination at N=5 (B1754); non-holomorphic Eisenstein series E(tau, s)"
   },
-  "claim_one_line": "DYNAMICAL MODULAR GROUND STATE AND TAU_* SELECTION (P-373, P-380, P-391): the maximal-depth finite modular ladder word w = L^5 R^2 L R L^2 R has SL(2, Z) matrix A = [[115, -32], [18, -5]] whose invariant geodesic semicircle has center c_0 = 1/3 (mod 1) and radius R = sqrt(84)/3, fixing the apex uniquely at tau_* = (1+i*sqrt(84))/3; at this point the modular effective potential V(tau) = E(tau,3) - t_* E(tau,2) has a stable local minimum with critical ratio t_* = 4.430013 lying inside the W154 stability window [3.205, 4.624] and positive modulus mass m_tau^2 = +17.113 > 0, deriving tau_* data-free without free numbers.",
+  "claim_one_line": "DYNAMICAL MODULAR GROUND STATE AND TAU_* SELECTION (P-373, P-380, P-391): the finite modular ladder word w = L^5 R^2 L R L^2 R has SL(2, Z) matrix A = [[115, -32], [18, -5]] whose invariant geodesic semicircle has center c_0 = 1/3 (mod 1) and radius R = sqrt(84)/3, fixing the apex at tau_* = (1+i*sqrt(84))/3; at this point the modular effective potential V(tau) = E(tau,3) - t_* E(tau,2) exhibits radial stability with critical ratio t_* = 4.430013 lying inside the W154 stability window [3.205, 4.624] and positive radial curvature m_tau^2 = +17.113 > 0.",
   "weave_or_thread": "weave (arithmetic geodesic apex of maximal finite ladder rung and modular modulus stabilization)",
   "points": [
     "P-373",

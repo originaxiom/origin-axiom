@@ -36,6 +36,6 @@ block against 19 % of the rest, so the title heuristic *anti*-correlates with di
 
 | stratum | meaning | count | share |
 |---|---|---|---|
-| **A** | explicit `## Verdict` block — directly extractable | 221 | 14.8 % |
-| **B** | no block, but the title carries the verdict | 1252 | 83.7 % |
+| **A** | explicit `## Verdict` block — directly extractable | 222 | 14.8 % |
+| **B** | no block, but the title carries the verdict | 1251 | 83.7 % |
 | **C** | neither — genuinely hard, needs a full read | 22 | 1.5 % |

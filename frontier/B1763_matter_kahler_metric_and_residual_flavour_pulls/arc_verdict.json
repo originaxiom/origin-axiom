@@ -26,9 +26,9 @@
     "frame": "Level N=6 modular symmetry chiral matter Kähler metric on data-free 2-torsion line w = (2/5, 1/10) at arithmetic geodesic apex tau_* = (1 + i*sqrt(84))/3 and strip apexes",
     "object": "modular weight kinetic normalization K_i = (2 Im tau)^{-k_i} |Phi_i|^2, fractional weights k in 1/6 Z, and pull collapse across 10 flavour observables (P-390)",
     "reach": "class",
-    "hypotheses": "Level N=6 modular symmetry; 10-plet weight k_10 = (0,0,0); 5bar progression Delta k_5bar = -1/6*(2,1,0); SU(5) hypercharges"
+    "hypotheses": "Level N=6 modular symmetry; 10-plet weight k_10 = (0,0,0); candidate 5bar progression Delta k_5bar = -1/6*(2,1,0); SU(5) hypercharges; sensitivity scan over prescribed metric schemes"
   },
-  "claim_one_line": "MATTER KÄHLER METRIC AND RESIDUAL FLAVOUR PULLS (P-390): under level N=6 modular symmetry, chiral matter modular weights are quantized in 1/6 Z; universal k_10 = (0,0,0) is uniquely selected and an exact generation progression Delta k_5bar = (-1/3, -1/6, 0) reduces chi^2_ten(M_GUT) at tau_* from 32.27 to 23.42 and chi^2_nine(M_GUT) from 24.95 to 19.34 with max pull <= 2.19 sigma across all 10 observables, pulling |J_CP| to within 2.02 sigma and V_ub to within 0.93 sigma without continuous parameters.",
+  "claim_one_line": "MATTER KÄHLER METRIC AND RESIDUAL FLAVOUR PULLS (P-390): under level N=6 modular symmetry, chiral matter modular weights are quantized in 1/6 Z; among tested discrete schemes with k_10 = (0,0,0), generation progression Delta k_5bar = (-1/3, -1/6, 0) reduces chi^2_ten(M_GUT) at tau_* from 32.27 to 23.42 and chi^2_nine(M_GUT) from 24.95 to 19.34 with max pull <= 2.19 sigma across all 10 observables, pulling |J_CP| to within 2.02 sigma and V_ub to within 0.93 sigma.",
   "weave_or_thread": "weave (modular weight Kähler metric normalization and residual flavour pull elimination)",
   "points": [
     "P-390"

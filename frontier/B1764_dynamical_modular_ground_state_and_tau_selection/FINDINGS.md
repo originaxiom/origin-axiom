@@ -15,22 +15,23 @@ A persistent open problem across the program (debts `P-373` and `P-380`) has bee
 Here we solve this selection debt completely and data-free by establishing the arithmetic and dynamical derivation of $\tau_* = \frac{1 + i\sqrt{84}}{3}$:
 
 1. **Finite Ladder Saturation:** Under the moves' quotient ladder $\Gamma / \langle\langle T^N \rangle\rangle = \Delta(2, 3, N)$ (finite if and only if $N \le 5$, established in W153 and adopted in `B1754`), the maximal depth rung corresponds to $N=5$, fixing the maximal letter run to $L^5$.
-2. **Unique Primitive Hyperbolic Word:** The unique primitive word of length 12 saturating this bound is:
+2. **Hyperbolic Word Axis:** The word:
    $$w = L^5 R^2 L R L^2 R = \text{LLLLLRRLRLLR},$$
-   whose associated $SL(2, \mathbb{Z})$ matrix is:
+   has length 12 and maximal cyclic run 5. Its associated $SL(2, \mathbb{Z})$ matrix is:
    $$A = \begin{pmatrix} 115 & -32 \\ 18 & -5 \end{pmatrix}, \quad \det(A) = 1, \quad \mathrm{Tr}(A) = 110.$$
+   *(Audit Note 2026-10-27: The physical seat observed that other length-12 primitive Lyndon words with cyclic run 5 exist, e.g., $U = L^5 R L^4 R^2$ with trace 69. Word $w$ is the trace-110 representative whose invariant geodesic yields the arithmetic apex $\tau_*$; the unique dynamical selector among such words remains an open debt under THE_BAR.)*
 3. **Exact Arithmetic Geodesic Apex:** The invariant hyperbolic geodesic axis in $\mathbb{H}$ connecting the fixed points of $A$ is a semicircle with:
    - Center: $c_0 = \frac{a - d}{2c} = \frac{120}{36} = \frac{10}{3} \equiv \frac{1}{3} \pmod 1$,
    - Radius: $R = \frac{\sqrt{\mathrm{Tr}^2 - 4}}{2|c|} = \frac{\sqrt{110^2 - 4}}{36} = \frac{\sqrt{12096}}{36} = \frac{\sqrt{84}}{3}$.
    The highest point (the apex) of this invariant geodesic is identically:
    $$\tau_* = c_0 + i R = \frac{1 + i\sqrt{84}}{3} \approx 0.333333333 + 3.055050463i.$$
-4. **Dynamical Modulus Stabilization:** On the modular curve, the effective non-holomorphic potential
+4. **Dynamical Modulus Stabilization Diagnostic:** On the modular curve, the effective non-holomorphic potential
    $$V(\tau) = E(\tau, 3) - t_* E(\tau, 2)$$
-   has an exact critical point ($\partial_\tau V = 0$) at $\tau_*$ when
+   has a radial critical point ($\partial_y V = 0$) at $\tau_*$ when
    $$t_* = \left.\frac{\partial_y E(\tau, 3)}{\partial_y E(\tau, 2)}\right|_{\tau_*} = 4.430013.$$
    This critical ratio lies strictly inside the SM seat's W154 stability window $[3.205, 4.624]$.
-5. **Positive Modulus Mass:** The radial curvature (the physical mass squared of the modular dilaton/radion) is strictly positive:
-   $$m_\tau^2 = \left.\frac{\partial^2 V}{\partial y^2}\right|_{\tau_*} = +17.1130 > 0,$$
-   confirming that $\tau_*$ is a stable dynamical local minimum.
+5. **Positive Radial Curvature:** The radial second derivative is strictly positive:
+   $$m_\tau^2 = \left.\frac{\partial^2 V}{\partial y^2}\right|_{\tau_*} = +17.1130 > 0.$$
+   *(Audit Note 2026-10-27: Enforcing radial stationarity defines $t_*$ at $\tau_*$ rather than deriving $t_*$ from an underlying action. Full 2D stationarity, the complete Hessian, kinetic metric normalization, and global comparison remain open requirements.)*
 
-This removes the thread-selection debt (`P-373`) and content debt (`P-380`): $\tau_*$ is uniquely and data-free determined by the arithmetic apex of the maximal-rung modular ladder.
+This establishes the arithmetic geodesic geometry of $\tau_*$ and demonstrates radial stability within the W154 window, providing an explicit geometric benchmark while preserving the open requirements under THE_BAR.

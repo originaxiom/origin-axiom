@@ -32,18 +32,21 @@ We prove:
 
 | Observable | Target ($M_{\mathrm{GUT}}$) | Flat Metric Pull ($k=0$) | Kähler Normalized Pull ($\Delta k_{\mathbf{\bar{5}}} = -\frac{1}{6}(2, 1, 0)$) |
 | :--- | :--- | :--- | :--- |
-| $\log(m_e/m_\mu)$ | $-5.334$ | $-2.47\sigma$ | **$-1.95\sigma$** |
-| $\log(m_\mu/m_\tau)$ | $-2.822$ | $+1.77\sigma$ | **$+2.16\sigma$** |
-| $\log(m_d/m_s)$ | $-2.981$ | $-0.62\sigma$ | **$-0.63\sigma$** |
-| $\log(m_s/m_b)$ | $-3.743$ | $+0.46\sigma$ | **$+0.43\sigma$** |
-| $\log(m_u/m_c)$ | $-6.289$ | $+0.35\sigma$ | **$+0.07\sigma$** |
-| $\log(m_c/m_t)$ | $-4.137$ | $-0.83\sigma$ | **$-0.73\sigma$** |
-| $\log|V_{us}|$ | $-1.492$ | $-2.02\sigma$ | **$-2.02\sigma$** |
-| $\log|V_{cb}|$ | $-3.181$ | $+2.73\sigma$ | **$+2.19\sigma$** |
-| $\log|V_{ub}|$ | $-5.599$ | $+1.54\sigma$ | **$+0.93\sigma$** |
+| $\log(m_c/m_t)$ | $-5.604$ | $-1.95\sigma$ | **$-1.95\sigma$** |
+| $\log(m_u/m_t)$ | $-11.826$ | $+2.16\sigma$ | **$+2.16\sigma$** |
+| $\log(m_s/m_b)$ | $-3.928$ | $+0.21\sigma$ | **$-0.63\sigma$** |
+| $\log(m_d/m_b)$ | $-6.920$ | $-0.54\sigma$ | **$+0.43\sigma$** |
+| $\log(m_\mu/m_\tau)$ | $-2.883$ | $+1.36\sigma$ | **$+0.07\sigma$** |
+| $\log(m_e/m_\tau)$ | $-8.232$ | $-1.78\sigma$ | **$-0.73\sigma$** |
+| $\log|V_{us}|$ | $-1.492$ | $-2.07\sigma$ | **$-2.02\sigma$** |
+| $\log|V_{cb}|$ | $-3.174$ | $+2.36\sigma$ | **$+2.19\sigma$** |
+| $\log|V_{ub}|$ | $-5.591$ | $+1.11\sigma$ | **$+0.93\sigma$** |
 | $|J_{\mathrm{CP}}|$ | $3.08 \times 10^{-5}$ | $-2.71\sigma$ | **$-2.02\sigma$** |
 | **Total $\chi^2_{\mathrm{ten}}(M_{\mathrm{GUT}})$** | — | **$32.27$** | **$23.42$** |
 | **Total $\chi^2_{\mathrm{nine}}(M_{\mathrm{GUT}})$** | — | **$24.95$** | **$19.34$** |
 
+> [!NOTE]
+> **Audit Note (2026-10-27):** Observables in this table are ratios to the third generation ($\log(m_i/m_3)$) matching the vector definition `T9` inherited from B1742/B1743. Because $D_{\mathbf{10}} = I$, the up-sector Yukawa matrix $Y_u$ is unshifted across schemes, so the up-quark pulls are identical between flat and normalized metrics. The substantial pull collapse ($\chi^2_{\mathrm{ten}}: 32.27 \to 23.42$) originates in the down-quark, charged-lepton, and CKM sectors via the $\mathbf{\bar{5}}$ Kähler normalization $\Delta k_{\mathbf{\bar{5}}}$.
+
 ## Significance
-This demonstrates that the residual flavour pulls observed in [B1762](file:///Users/dri/oa-audit-seat/agy-seat/frontier/B1762_zero_parameter_two_doublet_law_and_ten_observables/FINDINGS.md) are not fundamental flaws in the modular geometry, but rather the expected physical effect of non-trivial modular weights in the chiral matter Kähler metric. Because the weights are quantized in units of $1/N = 1/6$ dictated by the modular level $N=6$, no continuous parameters or arbitrary fine-tuning are introduced.
+This demonstrates a genuine sensitivity lead: the residual flavour pulls observed in [B1762](file:///Users/dri/oa-audit-seat/agy-seat/frontier/B1762_zero_parameter_two_doublet_law_and_ten_observables/FINDINGS.md) are dramatically reduced by non-trivial modular weights in the chiral matter Kähler metric. However, because these weights are evaluated over discrete ansatzes rather than computed from the zero-mode wavefunctions on the compact manifold, this remains a phenomenological sensitivity lead rather than an unconditional derivation from the action under THE_BAR.

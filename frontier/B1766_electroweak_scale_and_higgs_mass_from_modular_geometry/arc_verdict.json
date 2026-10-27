@@ -29,7 +29,7 @@
     "reach": "class",
     "hypotheses": "Modular scale M_EW ~ M_Pl * |q|^2 * (2 Im tau_*); top Yukawa REWSB; tree-level gauge quartic lambda_tree = (g_Y^2 + g_2^2)/8"
   },
-  "claim_one_line": "ELECTROWEAK SCALE, HIGGS MASS, AND 19-PARAMETER SYNTHESIS (P-393): at tau_* = (1+i*sqrt(84))/3, non-perturbative modular suppression |q| = exp(-2 pi Im tau_*) = 4.608e-9 naturally sets the electroweak scale M_Pl |q|^2 (2 Im tau_*) = 315.93 GeV; radiative electroweak symmetry breaking driven by top Yukawa y_t = 0.9908 fixes v = 246.22 GeV, and top/stop loop radiative corrections shift lambda_tree = 0.06906 to 0.12938, predicting m_H = 125.25 GeV matching LHC precision (pull 0.00 sigma), completing the synthesis of all 19 Standard Model parameters from modular geometry without free continuous parameters.",
+  "claim_one_line": "ELECTROWEAK SCALE, HIGGS MASS, AND 19-PARAMETER SYNTHESIS (P-393): at tau_* = (1+i*sqrt(84))/3, non-perturbative modular suppression |q| = exp(-2 pi Im tau_*) = 4.608e-9 naturally sets the scale M_Pl |q|^2 (2 Im tau_*) = 315.93 GeV near the weak scale; radiative electroweak symmetry breaking driven by top Yukawa y_t = 0.9908 with stop scale M_SUSY ~= 896 GeV reproduces the physical Higgs mass m_H = 125.25 GeV, establishing a coherent architectural mapping for all 19 Standard Model parameters from modular geometry.",
   "weave_or_thread": "weave (complete synthesis of all 19 Standard Model parameters from modular geometry)",
   "points": [
     "P-393"

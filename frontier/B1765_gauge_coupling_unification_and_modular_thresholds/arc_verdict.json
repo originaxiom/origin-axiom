@@ -29,7 +29,7 @@
     "reach": "class",
     "hypotheses": "2HDM beta functions b=(21/5, -3, -7); DKL threshold formula; tau_* = (1+i*sqrt(84))/3"
   },
-  "claim_one_line": "GAUGE COUPLING UNIFICATION AND MODULAR THRESHOLDS (P-392): at tau_* = (1+i*sqrt(84))/3, the modular invariant volume 2 Im tau |eta|^4 = 0.24925 ~= 1/4 gives DKL threshold factor -ln(2 Im tau |eta|^4) = 1.3893 ~= ln(4); in 2HDM, alpha_1 and alpha_3 cross at M_GUT = 1.88e14 GeV with alpha_GUT^-1 = 40.065, and the modular threshold bridges the SU(2)_L gap, predicting alpha_s(M_Z) = 0.1180, sin^2 theta_W(M_Z) = 0.23122, and alpha_EM^-1(M_Z) = 127.95 with chi^2 = 0.0000, deriving 3 of the 19 SM parameters.",
+  "claim_one_line": "GAUGE COUPLING UNIFICATION AND MODULAR THRESHOLDS (P-392): at tau_* = (1+i*sqrt(84))/3, the modular invariant volume 2 Im tau |eta|^4 = 0.24925 ~= 1/4 gives DKL threshold factor -ln(2 Im tau |eta|^4) = 1.3893 ~= ln(4); in 2HDM, alpha_1 and alpha_3 cross at M_GUT = 1.88e14 GeV with alpha_GUT^-1 = 40.065, and the modular threshold bridges the SU(2)_L gap when Delta b_2 = 27.663, establishing the required threshold mapping for the 3 Standard Model gauge couplings.",
   "weave_or_thread": "weave (modular gauge kinetic functions and 3 gauge coupling parameters derived)",
   "points": [
     "P-392"

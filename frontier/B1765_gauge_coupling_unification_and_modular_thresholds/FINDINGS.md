@@ -20,19 +20,15 @@ In Grand Unified Theories (GUTs) and string compactifications, gauge couplings u
 Here we evaluate the modular gauge kinetic functions $f_a(\tau)$ and the Dixon–Kaplunovsky–Louis (DKL) modular threshold corrections at $\tau_*$:
 1. **DKL Modular Factor at $\tau_*$:**
    $$\Delta_{\mathrm{mod}}(\tau_*) = -\ln\left(2\mathrm{Im}\tau_* |\eta(\tau_*)|^4\right) = 1.389298 \approx \ln(4) = 1.386294.$$
-   The modular invariant volume $2\mathrm{Im}\tau_* |\eta(\tau_*)|^4 = 0.249250$ matches $\frac{1}{4}$ to $0.07\%$, reflecting the $\mathbb{Z}_2 \times \mathbb{Z}_2$ orbifold sub-structure.
+   The modular invariant volume $2\mathrm{Im}\tau_* |\eta(\tau_*)|^4 = 0.249250$ matches $\frac{1}{4}$ to within $0.30\%$, reflecting the $\mathbb{Z}_2 \times \mathbb{Z}_2$ orbifold sub-structure.
 2. **2HDM Gauge Coupling Crossing:**
    In the Two-Higgs-Doublet Model (2HDM) established in [B1757](file:///Users/dri/oa-audit-seat/agy-seat/frontier/B1757_step_twos_free_doublets_at_the_strip/FINDINGS.md) and [B1762](file:///Users/dri/oa-audit-seat/agy-seat/frontier/B1762_zero_parameter_two_doublet_law_and_ten_observables/FINDINGS.md), the 1-loop beta function coefficients are $b = \left(\frac{21}{5}, -3, -7\right)$. The $U(1)_Y$ and $SU(3)_c$ couplings cross at:
    $$M_{\mathrm{GUT}} = 1.8818 \times 10^{14}\text{ GeV}, \quad \alpha_{\mathrm{GUT}}^{-1} = 40.0650.$$
-3. **Closure of the $SU(2)_L$ Gap:**
+3. **Closure of the $SU(2)_L$ Gap via Required Modular Threshold:**
    The $SU(2)_L$ gauge coupling at $M_{\mathrm{GUT}}$ has $\alpha_2^{-1} = 43.1233$, leaving a gap $\Delta\alpha_2^{-1} = 3.0584$. The modular threshold correction
    $$\delta\alpha_2^{-1} = \frac{\Delta_{\mathrm{mod}}(\tau_*)}{4\pi} \Delta b_2$$
-   bridges this gap with effective threshold coefficient $\Delta b_2 = 27.66$.
-4. **Readout of the 3 Gauge Couplings:**
-   Running down from $(M_{\mathrm{GUT}}, \alpha_{\mathrm{GUT}}, \tau_*)$ to $M_Z = 91.1876\text{ GeV}$ yields:
-   - $\alpha_s(M_Z) = 0.118000$ (PDG: $0.1180 \pm 0.0009$, pull $0.000\sigma$),
-   - $\sin^2\theta_W(M_Z) = 0.231220$ (PDG: $0.23122 \pm 0.00004$, pull $0.000\sigma$),
-   - $\alpha_{\mathrm{EM}}^{-1}(M_Z) = 127.9500$ (PDG: $127.95 \pm 0.02$, pull $0.000\sigma$).
-   The combined $\chi^2$ across all 3 gauge parameters is identically $0.0000$.
+   bridges this gap when the effective threshold coefficient is $\Delta b_2 = 27.663$.
+4. **Inverse Readout and Model Diagnostic:**
+   *(Audit Note 2026-10-27: As counterchecked by the physical seat, computing $\Delta b_2$ from the gap $G = A_2 - b_2 L/(2\pi) - U$ and running downward reproduces the input triple by algebraic identity. The zero $\chi^2$ confirms numerical consistency of the inverse crossing diagnostic. Tau and eta determine the modular factor $\Delta_{\mathrm{mod}} = 1.3893$, which sets the required heavy-state coefficient $\Delta b_2 = 27.663$. An independent forward prediction requires deriving $\Delta b_2$ from the compactified heavy Kaluza-Klein spectrum.)*
 
-This establishes a successful phenomenological mapping for 3 of the 19 Standard Model parameters from the unified modular ground state at $\tau_*$, bridging the GUT gap via the DKL modular threshold. Under the strict criteria of THE_BAR, the underlying spectrum of heavy threshold states is not yet derived from the action, so the formal program verdict remains **0 of 19**.
+This establishes a useful model-building diagnostic and structural mapping for 3 of the 19 Standard Model parameters from the modular ground state at $\tau_*$, determining the exact required threshold coefficient $\Delta b_2 = 27.663$. Under the strict criteria of THE_BAR, the heavy spectrum is not yet derived from the action, so the formal program verdict remains **0 of 19**.
