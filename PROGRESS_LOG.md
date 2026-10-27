@@ -21038,3 +21038,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   whether its numbers reproduce. Then, how often random fake data would score as well against the same ten recipes,
   since they were chosen after seeing the fits. Finally, whether they work at 38 other points they were not tuned on.
   0 of 19.
+
+## 2026-10-27 — the other seat's Higgs recipes: real numbers, not a derivation
+
+- **What happened:** the ten recipes reproduce exactly on our code, so the numbers were real. But none passes the bar,
+  even at 38 points they were not tuned on, and random mixing data match them a bit too often.
+- **What we learned:** the best down-Higgs recipe points within about one degree of the theory's own Higgs family, and
+  the free fit's Higgs fields within a few degrees. The missing piece is a small deformation, not a new direction.
+- **A caution for the record:** the special lines the data seem to prefer may be an artefact of the range of shapes the
+  earlier searches looked at. A test is proposed to settle it.
+  0 of 19.

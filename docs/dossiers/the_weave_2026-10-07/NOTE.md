@@ -7726,6 +7726,92 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## Reading: the data's lines in the record's own terms, and the census window (READING, by hand, after W160 and W161; 2026-10-27)
+
+**A READING: nothing new is computed, and it adds no claim.** It rests on W160's exact zero law and exponent law. It
+is put to the owner as the reason for the next test.
+- **The lines, decomposed (exact).** 5w ≡ ½ if and only if w − ½ is a point of order 5. So B1761's C1 lines are
+  w = ½ + p, with p a point of order 5 and a ≠ 0.
+  - The up sector's i-channel zero is then a consequence: its charge difference 5 kills p and leaves the half-period
+    ½, where θ₂ vanishes.
+  - Of the three half-periods, ½ is the one T (τ → τ + 1, the cusp's own stabilizer) fixes; T swaps the other two.
+    The clause a ≠ 0 says the order-5 part is one T moves.
+  - So the data's lines read as "the half-period fixed at the cusp, plus a point of order 5 that the cusp's T moves".
+    The prime 5 is the ladder's last rung (W153), and both parts are stated in the frame's own terms.
+- **The line and the height trade off.** By W160's exponent law the up residue's nearness to the cone goes as
+  exp(−π(1 − 2‖3a‖) Im τ), for a = 0 as for the others (W160's post hoc check). The strip's 2/5 lines at Im τ ≈ 3.03
+  give the exponent 0.6 × 3.03 ≈ 1.82. The same nearness comes on the a = 0 lines at Im τ ≈ 1.82, and on the 1/5 lines
+  at Im τ ≈ 9.1.
+- **What follows for the census results (a caution, not a claim).** Every census on record that found the strip
+  scanned Im τ between about 2.0 and 3.6:
+  - B1726's grid, 2.05–3.45;
+  - B1749's and B1753's apexes, 2.0–3.6;
+  - B1755, on B1749's apexes.
+
+  Within that window only the 2/5 lines can reach the up hierarchy the data need. So "every passing line has
+  α = 2/5" may belong to the window, not to the lines. The down and lepton sectors carry their own exponents, and may
+  still single out 2/5; only a computation can say.
+- **The test this asks for (proposed, not run).** The six with the record's Higgs on the order-10 lines, on a τ grid
+  reaching from Im τ ≈ 1.2 to 12, each line class read at its own best height. Rule first, as always.
+
+0 of 19.
+
+## W161. The plan's stage 1, second part: the agy branch's ten Higgs recipes (B1762) reproduce exactly on this seat's own code, but they do not pass the bar anywhere on the strip, and their mixing side is not specific at 1%. The inverse-Gram down Higgs lies within about 1° of the forced orbit of the record's DR, and the free fit's doublets within 1°–4.3°: W159's missing orientation is a deformation of a few degrees. K0, K1 and K3 as predicted; K2 failed, null (a) at 1.27% (`the_recipes_priced.py`; `W161_RULE.md`)
+
+**Why.** The plan's stage 1 asks for B1762's recipes on own code with the whole menu priced (charter iv). B1762's
+inverse-Gram down Higgs is a direction fixed by the frame, not by the moves, so it bears on W159's gap.
+
+**The order.**
+- The rule (`W161_RULE.md`, 83a6ad65e) was committed and pushed before the script existed. B1762's stored values and
+  B1761's reported angles were seen before it and disclosed.
+- The script (a8c00b70a) was committed before its one run. Before that commit it was checked only for syntax, for the
+  names it reads and for the two agy blobs' existence.
+- The run took 32 s. Its output (6b1af47d3) was committed unread, after a check of the exit, tracebacks and paths
+  only, then read once.
+
+**The result (COMPUTED; one run; K0, K1 and K3 as predicted; K2 failed).**
+- **K0, the instrument.** The pins hold and W158's 38 rows are rebuilt. At B1757's four points the up Gram is 1 ⊕ 2
+  (off-block 5.5 × 10⁻¹⁸ of its norm), and Σ_lep = P Σ_down P to 3.4 × 10⁻¹⁶.
+- **K1, B1762 reproduced.** All 40 (recipe, point) values of χ²_nine and ∣J∣ agree with B1762's stored ones, to
+  9.1 × 10⁻¹² and 8.1 × 10⁻¹² relative. Its numbers are real computations.
+- **The data's least over the 40:** 25.43 (L4p at 0.3145 + 3.0345i), above the bar of 21.67.
+- **K2 failed.**
+  - Null (a), the data's six with random mixings, reaches 25.43 or less in 1.27% of targets, against the rule's
+    1%.
+  - Null (b), random nines, never does (0.0%).
+  - So the menu's six side is specific and its mixing side is not, at 1%.
+- **K3, held out.** At W158's 38 strip rows no recipe reaches below 21.67.
+  - The least per recipe: L3p 25.89, L4p 26.28, L2p 27.12, L2 29.26, L1p 29.71, L3 31.58, L1 32.29. B0, B1 and L1's
+    decoupled version reach no lower than 214.
+  - The medians are 128–161.
+  - J's pull ranges from about −20 to +4.8 across the rows.
+- **The recipe numbers** are nearly constant over the four points: the boost 1.977–1.983, δ = 0.1431–0.1432, p =
+  1.1431–1.1432, and ∣e₁∣ = 0.058–0.060.
+- **The read-outs** (Fubini–Study angles, degrees, at the four points):
+  - hd₁ to B1757's fitted H_d: 0.46, 6.85, 2.92 and 8.68 (B1761's three reproduced);
+  - hd_p to the same: 0.79, 7.27, 2.68 and 9.11;
+  - hd₁ to the nearest of DR's 24 images: 1.01, 1.03, 1.14 and 0.88;
+  - B1757's H_d to the nearest image: 1.03, 1.64, 3.65 and 2.80;
+  - B1757's H_u to the nearest image: 4.28, 4.21, 3.96 and 2.64.
+
+**What it shows (a READING on the computed facts).**
+- **B1762 is honest arithmetic and a thread result.** Its recipes reproduce exactly. But the best is 25.4, none
+  passes the bar on the 38 held-out rows, and the menu's mixing side is reached by random mixings 1.3% of the time.
+- **The inverse Gram is the part to keep.** The down Higgs (Σ̄_down)⁻¹v comes within 0.5°–8.7° of the free fit's,
+  and within about 1° of DR's forced orbit.
+- **W159's gap, measured.** Both of the free fit's doublets lie within 1°–4.3° of DR's forced orbit. W159 found that
+  the orbit's exact pairs reach no lower than 315. So the nine are sensitive at the level of a few degrees, and the
+  missing piece is a small deformation of the orbit: a mixing about three times DR's (W159's λ read-out) and a few
+  degrees of orientation. It is not a new direction.
+- **For the plan's stage 3:** the target is a principle that gives (Σ̄_down)⁻¹v for H_d and a boosted DR for H_u (the
+  boost near 2, the same at every point) from the frame's own action.
+- **For the look ledger:** a post hoc look at the nine, target the nine.
+
+**Weave or thread.** A thread-and-frame result: one line class, four points and ten recipes chosen by their author
+after fits; the held-out rows were found with the data's six.
+
+0 of 19.
+
 ## W160. The plan's stage 1, first part (the owner adopted the plan: "i agree with you proposed plan"): the agy branch's line selection B1761 is exact arithmetic at every τ, and its cutoff is an exponent law. On this seat's own residues R_i^up ∝ θ₂(3πw)θ₂(5πw), so B1761's C1 is 5w ≡ ½ with a ≠ 0: the 10 lines (1/5, odd/10) and (2/5, odd/10) at every point. On them the up residue's invariant is 2ε/(1 + ε²), ε = exp(−π(1 − 2‖3a‖) Im τ), so the 2/5 lines are nearest the null cone at every τ. B1759's identity is the record's own kernel formula. Every cell as predicted (`the_line_condition_checked.py`; `W160_RULE.md`)
 
 **Why.** The plan for the 19 (`THE_NINETEEN_PLAN_2026-10-27.md`), adopted by the owner, asks for third opinions on the
@@ -13542,6 +13628,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W161 | COMPUTED (the rule first; one run; K0, K1, K3 as predicted, K2 failed); a thread-and-frame result, post hoc on the nine | B1762's ten Higgs recipes on own code at B1757's four points: all 40 χ²_nine and ∣J∣ reproduce to 9 × 10⁻¹²; least 25.43 (L4p), above 21.67; null (a) 1.27% (fails 1%), null (b) 0.0%; at W158's 38 strip rows no recipe below 21.67 (best 25.89); the inverse-Gram H_d lies 0.5°–8.7° from the free fit's H_d and about 1° from DR's forced orbit, the free fit's doublets 1°–4.3° from it: W159's missing orientation is a deformation of a few degrees. 0 of 19 |
 | W160 | COMPUTED (the rule first; one run; every cell as predicted); a frame result, data-free | the plan's stage 1 on the agy branch's B1761 and B1759, own code: R_i^up ∝ θ₂(3πw)θ₂(5πw), so B1761's C1 is 5w ≡ ½ with a ≠ 0, the 10 lines (1/5, odd/10) and (2/5, odd/10) at every τ (12 without the clause, none of order 13–20); main's residues agree to 1.2 × 10⁻¹⁴; the cutoff is an exponent law, I = 2ε/(1 + ε²), ε = exp(−π(1 − 2‖3a‖) Im τ), within 4.3% at Im τ ≥ 3, the 2/5 lines nearest the cone at every τ, the fixed 0.05 failing at Im τ = 5.870; B1759 is the record's own kernel formula. Post hoc: the a = 0 lines sit nearer the cone still (I = 3.8 × 10⁻⁴ and 5.5 × 10⁻⁵ at the probe), so the clause a ≠ 0 (the lines that move under T) is load-bearing and chosen. 0 of 19 |
 | W159 | COMPUTED (the rule first; one run; K0 as predicted, K1 failed, K2 moot); a frame result at the six's strip, post hoc on the nine | the two-object route tried again: H_u, H_d as two of the 24 images of the record's DR under the forced group on the qubit (each DR at a modular image of τ, with DR's mixing), type II, the seat's menu, at the 38 strip rows: least χ²_nine 315 over the 576 ordered pairs (one Higgs 455; the record's pair 581). Scaling DR's mixing by λ helps only to 189, near λ = 3. The forced moves offer relative orientations of 4°–6° or 55° and more; the missing piece is the second Higgs's direction, not only its mixing. 0 of 19 |
 | W158 | COMPUTED (the rule first; one run; K0 as predicted, K1 failed, K2 moot); a frame result at the six's strip, post hoc on the nine | the two-object route as named: H_u, H_d on W152's 26 special lines, type II, the seat's menu, at the 38 strip rows of B1749 and B1753: least χ²_nine 154 377 over the 676 ordered pairs (u/t, d/b, e/τ at 10⁻¹² to 10⁻¹³ of measured). Every special line is null, so by W96's joint law det Y = 0 in every sector: the first generation is massless, exactly, foreseeable and missed by the rule's 20%. The light generation lives in the departure from the cone (W152's r); a principled pair must be mixed, its mixing a number unless fixed. 0 of 19 |

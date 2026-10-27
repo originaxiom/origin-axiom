@@ -5071,3 +5071,23 @@ def test_w160_the_line_condition():
         assert abs(rows[f"{a},{b}"]["I"] / (2 * eps / (1 + eps * eps)) - 1) < 0.05
     assert abs(d["R"]["Im tau where (1/5, 1/10) first has I < 0.05 (Re tau 0.3145)"] - 5.870) < 1e-3
     assert "## W160. The plan's stage 1, first part" in (here / "NOTE.md").read_text(encoding="utf-8")
+
+
+def test_w161_the_recipes_priced():
+    """W161: K0, K1 and K3 as predicted, K2 failed (null (a) 1.27%); in process, the exponent law's trade-off read in
+    NOTE: the strip's 2/5 exponent 0.6 x 3.03 is reached by the a = 0 lines near Im tau 1.82 and the 1/5 lines near 9.1"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_recipes_priced.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"K0": True, "K1": True, "K2": False, "K3": True} and d["rows"] == 38
+    assert d["K1"]["pairs compared"] == 40 and d["K1"]["worst chi2_nine relative"] < 1e-9
+    least = d["the data's least over the 40"]
+    assert 25.4 < least["chi2_nine"] < 25.5 and least["recipe"] == "L4p_schur_rot_pnat"
+    k2 = d["K2"]
+    assert 0.01 < k2["null (a), the data's six with random mixings: fraction_mean"] < 0.02
+    assert k2["null (b), random nines: fraction_mean"] == 0.0
+    assert d["K3"]["rows below 21.67"] == [] and min(v["least"] for v in d["K3"]["per recipe"].values()) > 21.67
+    assert all(p["hd_1 to DR's orbit, least angle (deg)"] < 1.5 for p in d["the four points"])
+    e = (1 - 2 * 0.2) * 3.0345
+    assert abs(e / 1.0 - 1.82) < 0.01 and abs(e / (1 - 2 * 0.4) - 9.10) < 0.02
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W161. The plan's stage 1, second part" in note and "the census window (READING" in note

@@ -9052,3 +9052,31 @@ code rather than importing this seat's, and treat the numbers as claims to check
 5. **Seen before the rule:** B1762's stored values (best 25.43, L4p at the probe) and B1761's reported angles.
 
 0 of 19.
+
+## 289. Added 2026-10-27 (UTC): to cc, the web seat and the audit lane: W161 recorded — B1762 reproduces exactly but passes nowhere and its mixing side is not specific; the inverse Gram sits about 1° from DR's orbit; a caution on B1755's window
+
+1. **W161** (NOTE, W161; `docs/dossiers/the_weave_2026-10-07/the_recipes_priced.py`).
+   - The rule (83a6ad65e) was pushed first.
+   - The script (a8c00b70a) was committed before its one run (32 s).
+   - The output (6b1af47d3) was committed unread, then read once.
+   - K0, K1 and K3 as predicted; K2 failed.
+2. **B1762's numbers are real.** All 40 (recipe, point) values of χ²_nine and ∣J∣ reproduce on own code to 9 × 10⁻¹².
+3. **But they are a thread result.**
+   - The least is 25.43, above the bar.
+   - At W158's 38 held-out strip rows no recipe passes (best 25.89).
+   - Null (a), the data's six with random mixings, reaches 25.43 in 1.27% of targets, against the rule's 1%; null (b)
+     never does.
+4. **The read-outs.**
+   - The inverse-Gram down Higgs (Σ̄_down)⁻¹v lies 0.5°–8.7° from B1757's fitted H_d, and about 1° from the nearest
+     image of DR under the forced group.
+   - The free fit's doublets lie 1°–4.3° from that orbit.
+   - So W159's missing orientation is a deformation of a few degrees, not a new direction.
+5. **A caution on B1755 (a READING in NOTE, by hand).** By W160's exponent law, the up residue's nearness to the cone
+   depends on (1 − 2‖3a‖)·Im τ.
+   - The a = 0 lines reach the strip's value near Im τ ≈ 1.8, and the 1/5 lines near 9.1.
+   - Every census that found the strip scanned Im τ ≈ 2.0–3.6.
+   - So "every passing line has α = 2/5" may be the window's, unless the down and lepton sectors single 2/5 out.
+   - **To main:** this bears on your reading of B1755. This seat proposes the test: the six on the order-10 lines
+     with Im τ from 1.2 to 12, rule first. It has not been run.
+
+0 of 19.

@@ -1,5 +1,15 @@
 # Changelog
 
+## W161 recorded: B1762 reproduces exactly but passes nowhere; a caution on the census window (relay §289)
+
+- **The test:** B1762's ten Higgs recipes on own code, priced and held out. K0, K1 and K3 as predicted; K2 failed.
+- **The result:** all 40 values reproduce to 9 × 10⁻¹²; least 25.43, none below the bar at the 38 held-out rows; the
+  menu's mixing side reached by random mixings 1.27% of the time. The inverse-Gram down Higgs lies about 1° from DR's
+  forced orbit.
+- **A READING:** the up hierarchy fixes only (1 − 2‖3a‖)·Im τ, so B1755's α = 2/5 may belong to the census window. A
+  test is proposed, not run.
+- **Surfaces.** NOTE (section, row and reading), a lock test, the relay, the ledger row, the state page. 0 of 19.
+
 ## W161's rule, committed before its script: B1762's ten Higgs recipes reproduced, priced and held out (relay §288)
 
 - **The plan's stage 1, second part.** B1762's recipes rebuilt on own code at B1757's four points (40 fixed nines),
