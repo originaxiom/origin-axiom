@@ -16,41 +16,43 @@
 In `B1757`, an unconstrained 4-parameter continuous optimization of the two Higgs doublet directions $(H_u, H_d) \in \mathbb{CP}^2 \times \mathbb{CP}^2$ (4 real DOFs: 2 in $\zeta_u \in \mathbb{C}$ and 2 in the $(e_2, e_3)$ ellipticity of $H_d$) reduced $\chi^2_{\mathrm{nine}}$ from $567 - 1073$ (single-Higgs de Rham direction $\overline{v_{\mathrm{DR}}}$) down to $2.75 - 29.17$ across the strip. In `B1761`, the Data-Free 2-Torsion Line-Selection Theorem uniquely isolated the 5-line $T$-orbit $a = 2/5, 10b\text{ odd}$, and proved that the normalized down-Higgs vector $H_d = (\overline{\Sigma^{(\mathrm{down})}})^{-1} v_{012}$ matches `B1757`'s fitted $H_{d,\mathrm{opt}}$ to $0.999967$ ($0.463^\circ$ in $\mathbb{CP}^2$), closing both DOFs in $H_d$ data-free.
 
 Here in `B1762`, we achieve the following breakthroughs:
-1. **The Symmetric-Cubic Parity Block Identity:**
-   On the data-free line $w = (2/5, 1/10)$, $\mathbb{Z}_2$ parity strictly confines the up-sector Yukawa slice $M^{(\mathrm{up})}_0$ to the $1 \oplus 2$ diagonal blocks ($(0,0)$ and $(1,2)\times(1,2)$, with off-block Frobenius norm identically $0.0$), while confining $M^{(\mathrm{up})}_1, M^{(\mathrm{up})}_2$ to the off-diagonal blocks connecting generation $0$ with $\{1, 2\}$ (diagonal-block Frobenius norm identically $0.0$).
+1. **The Up-Sector Yukawa Gram 1+2 Block Diagonality & Parity Reflection:**
+   On the data-free line $w = (2/5, 1/10)$, the up-sector Yukawa Gram operator in Higgs-direction space,
+   $$\Sigma^{(\mathrm{up})}_{c,d} = \frac{1}{\mathrm{Tr}(S)} \mathrm{Tr}\left( (bY_c^{(\mathrm{up})})^\dagger bY_d^{(\mathrm{up})} \right),$$
+   strictly confines to $1 \oplus 2$ diagonal blocks ($\Sigma^{(\mathrm{up})}_{0,1} = 0, \Sigma^{(\mathrm{up})}_{0,2} = 0$, with off-block Frobenius norm identically $0.0$). The singlet Higgs channel $e_0$ is exactly Frobenius-orthogonal to the doublet channels $\{e_1, e_2\}$. Concurrently, the lepton-sector Gram matrix satisfies the exact reflection parity $\Sigma^{(\mathrm{lep})} = P_{e_1} \Sigma^{(\mathrm{down})} P_{e_1}$ with $P_{e_1} = \mathrm{diag}(-1, 1, 1)$ (norm difference $< 10^{-15}$).
+   *(Clarification per physical seat countercheck [PHYSICAL_TO_AGY_2026-10-27_B1762_EXACT_COUNTERCHECK_AND_REPAIRS.md](file:///Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_2026-10-27_B1762_EXACT_COUNTERCHECK_AND_REPAIRS.md): this block-diagonality is a property of the Yukawa Gram matrix in the 3-dimensional Higgs channel space, not the individual fermion-generation slices $Y(e_0)_{ab}$, which carry non-zero off-block entries $(Y(e_0))_{0,1} = u_j$.)*
 2. **Closing the Last 2 DOFs in $H_u$ with Zero Free Parameters:**
    The up-sector Yukawa Gram matrix $\Sigma^{(\mathrm{up})}$ has two non-degenerate eigenvalues on $(2/5, 1/10)$:
    $$\lambda_{e_1}(\Sigma^{(\mathrm{up})}) = \Sigma^{(\mathrm{up})}_{0,0} \approx 0.2863, \qquad \lambda_{(1,+i)}(\Sigma^{(\mathrm{up})}) \approx 0.5686.$$
    Their ratio is the up-sector Gram boost:
    $$\mathrm{boost}_u \equiv \frac{\lambda_{(1,+i)}(\Sigma^{(\mathrm{up})})}{\lambda_{e_1}(\Sigma^{(\mathrm{up})})} \approx 1.981 \approx 2.$$
-   Acting on $-v_{\mathrm{DR},0}(\tau)$, this boosts its amplitude to $+0.0839$, exactly matching the real part of `B1757`'s unconstrained fit ($+0.0836$).
-   Combined with the up-singlet anomalous weight $\delta_u \equiv \frac{1}{2}\Sigma^{(\mathrm{up})}_{0,0} \approx 0.14315\text{ rad} = 8.20^\circ$, or the down-sector Schur complement $e_{1,\mathrm{schur}}^{(\mathrm{down})} = -(\Sigma^{(\mathrm{down})}_{1,2})^{-1} \Sigma^{(\mathrm{down})}_{(1,2),0} \cdot v_{\mathrm{DR},(1,2)}$, this completely determines $\zeta_u \in \mathbb{C}$ with **zero free parameters**.
+   Acting on $-v_{\mathrm{DR},0}(\tau)$, this boosts its amplitude to $+0.0839$, closely matching the real part of `B1757`'s unconstrained fit ($+0.0836$).
+   Combined with the up-singlet anomalous weight $\delta_u \equiv \frac{1}{2}\Sigma^{(\mathrm{up})}_{0,0} \approx 0.14315\text{ rad} = 8.20^\circ$, or the down-sector Schur complement $e_{1,\mathrm{schur}}^{(\mathrm{down})} = -(\Sigma^{(\mathrm{down})}_{1,2})^{-1} \Sigma^{(\mathrm{down})}_{(1,2),0} \cdot v_{\mathrm{DR},(1,2)}$, this completely determines $\zeta_u \in \mathbb{C}$ as a zero-continuous-parameter ansatz.
 3. **The 10-Observable Flavour Readout:**
    Evaluating all **10 dimensionless flavour observables** (6 mass ratios + 3 CKM mixing angles $|V_{us}|, |V_{cb}|, |V_{ub}|$ + the Jarlskog CP invariant $J_{\mathrm{CKM}}$) with **zero free Higgs parameters** (`0` DOFs in $H_u$, `0` DOFs in $H_d$):
    - At the strip center $\tau = 0.3145 + 3.0345i$:
-     $\chi^2_{\mathrm{nine}}(M_Z) = \mathbf{26.31}$, $\chi^2_{\mathrm{nine}}(M_{\mathrm{GUT}}) = \mathbf{25.82}$, and $|J_{\mathrm{CKM}}| = \mathbf{2.78 \times 10^{-5}}$ (within $2.0\sigma$ of PDG $(3.08 \pm 0.15) \times 10^{-5}$, whereas single-Higgs $\overline{v_{\mathrm{DR}}}$ yielded $0.01 \times 10^{-5}$, $-20.5\sigma$ away).
+     $\chi^2_{\mathrm{nine}}(M_Z) = \mathbf{26.31}$, $\chi^2_{\mathrm{nine}}(M_{\mathrm{GUT}}) = \mathbf{25.82}$ (under Huang-Zhou $10^{12}\text{ GeV}$ benchmark running), and $|J_{\mathrm{CKM}}| = \mathbf{2.78 \times 10^{-5}}$ (within $2.0\sigma$ of PDG $(3.08 \pm 0.15) \times 10^{-5}$, whereas single-Higgs $\overline{v_{\mathrm{DR}}}$ yielded $0.01 \times 10^{-5}$, $-20.5\sigma$ away).
      The total 10-observable $\chi^2_{\mathrm{ten}}(M_{\mathrm{GUT}}) = \mathbf{29.95}$ (averaging **$2.995$ per observable**).
-   - At the **exact arithmetic geodesic apex** $\tau_* = \frac{1 + i\sqrt{84}}{3} \approx 0.333333 + 3.055050i$ (where **zero continuous parameters** exist anywhere in $\tau, w, H_u, H_d$):
-     $\chi^2_{\mathrm{nine}}(M_Z) = \mathbf{25.89}$, $\chi^2_{\mathrm{nine}}(M_{\mathrm{GUT}}) = \mathbf{24.95}$, and $|J_{\mathrm{CKM}}| = \mathbf{2.67 \times 10^{-5}}$ (pull $-2.71\sigma$), achieving **$\chi^2_{\mathrm{ten}}(M_{\mathrm{GUT}}) = \mathbf{32.27}$** (averaging **$3.227$ per observable**).
-   - The zero-parameter law matches the unconstrained 2-parameter numerical floor $\chi^2_{\mathrm{nine},\min} = 25.63$ at $\tau_*$ to within **$\Delta\chi^2 = 0.26$**, proving that the theoretical floor of the two-doublet pencil is saturated by the Gram-eigenvalue boost and anomalous dressing without any fine-tuning.
+   - At the **exact arithmetic geodesic apex** $\tau_* = \frac{1 + i\sqrt{84}}{3} \approx 0.333333 + 3.055050i$:
+     $\chi^2_{\mathrm{nine}}(M_Z) = \mathbf{25.89}$, $\chi^2_{\mathrm{nine}}(M_{\mathrm{GUT}}) = \mathbf{24.95}$, and $|J_{\mathrm{CKM}}| = \mathbf{2.67 \times 10^{-5}}$ (pull $-2.71\sigma$), achieving **$\chi^2_{\mathrm{ten}}(M_{\mathrm{GUT}}) = \mathbf{32.27}$**. (With the modular Kähler metric in B1763, this further drops to $\chi^2_{\mathrm{ten}} = 23.42$ with $|J|$ pull $-2.02\sigma$).
+   - Across the strip boundaries ($2.95i$ and $3.10i$), $J$ pulls degrade to $3.7\sigma - 7.6\sigma$, precisely delineating why the central apex $\tau_*$ is dynamically selected (derived in B1764).
+   - The zero-parameter law captures $99.0\%$ of the optimal performance achievable by the numerical Nelder-Mead baseline ($\chi^2_{\mathrm{nine}} = 25.63$, $\Delta\chi^2 = 0.26$).
 
 ---
 
 ## 2. Mathematical Structure of the Zero-Parameter Laws
 
-### 2.1 The Symmetric-Cubic Parity Block Identity
+### 2.1 Up-Sector Gram Block Diagonality & Lepton-Down Reflection
 On the line $w = (2/5, 1/10)$, the generator of $\mathbb{Z}_2$ parity in the modular forms basis is $\mathcal{P} = \mathrm{diag}(-1, +1, +1)$.
-For the totally symmetric rank-3 tensor $T_{ijk}^{(s)}$ representing the cubic coupling $Y_s(H) = \sum_{a=0}^2 H_a M_a^{(s)}$:
-- $M_0^{(s)} = T_{\cdot, \cdot, 0}^{(s)}$ is formed by contracting with the $\mathbb{Z}_2$-odd index $0$. By $\mathbb{Z}_2$ selection rules:
-  - $T_{0,j,k} \ne 0 \iff \mathcal{P}(0)\mathcal{P}(j)\mathcal{P}(k) = +1 \iff \mathcal{P}(j)\mathcal{P}(k) = -1$.
-  - In the $(1,2,3)$ generation basis where generation 0 is even and $\{1,2\}$ are odd, $M_0^{(s)}$ has non-zero entries ONLY at $(0,0)$ and $\{1,2\} \times \{1,2\}$!
-  - Hence $M_0^{(s)}$ is **strictly $1 \oplus 2$ block-diagonal**, with off-block Frobenius norm $\|M_{0, \text{off}}^{(s)}\|_F \equiv 0.000000$.
-- Conversely, $M_{1,2}^{(s)} = T_{\cdot, \cdot, 1 \text{ or } 2}^{(s)}$ has non-zero entries ONLY at $(0, j)$ and $(j, 0)$ for $j \in \{1,2\}$.
-  - Hence $M_{1,2}^{(s)}$ is **strictly off-diagonal**, with diagonal-block Frobenius norm $\|M_{1,2, \text{diag}}^{(s)}\|_F \equiv 0.000000$.
+For the Yukawa couplings $Y_s(H) = \sum_{a=0}^2 H_a bY_a^{(s)}$ in the 3-dimensional Higgs channel basis $\{e_0, e_1, e_2\}$:
+1. In the up sector, the Gram operator $\Sigma^{(\mathrm{up})}_{c,d} \propto \mathrm{Tr}\left( (bY_c^{(\mathrm{up})})^\dagger bY_d^{(\mathrm{up})} \right)$ is strictly block diagonal:
+   $$\Sigma^{(\mathrm{up})} = \begin{pmatrix} \Sigma_{00}^{(\mathrm{up})} & 0 & 0 \\ 0 & \Sigma_{11}^{(\mathrm{up})} & \Sigma_{12}^{(\mathrm{up})} \\ 0 & \Sigma_{21}^{(\mathrm{up})} & \Sigma_{22}^{(\mathrm{up})} \end{pmatrix}.$$
+   The off-block Frobenius norm vanishes identically: $\|\Sigma_{0, \{1,2\}}^{(\mathrm{up})}\|_F \equiv 0.000000$.
+2. In the down and lepton sectors, the Gram operators satisfy the exact reflection identity:
+   $$\Sigma^{(\mathrm{lep})} = P_{e_1} \Sigma^{(\mathrm{down})} P_{e_1}, \qquad P_{e_1} = \begin{pmatrix} -1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix},$$
+   with $\|\Sigma^{(\mathrm{lep})} - P_{e_1} \Sigma^{(\mathrm{down})} P_{e_1}\|_F < 10^{-15}$.
 
-This proves that:
-1. Doublet components $(H_{u,1}, H_{u,2}) = (\overline{v_{\mathrm{DR},1}}, \overline{v_{\mathrm{DR},2}})$ control ONLY the generation $0 \leftrightarrow \{1,2\}$ mixing in $Y_{\mathrm{up}}$.
-2. Singlet component $H_{u,0} = \zeta_u$ controls ONLY the diagonal $1 \oplus 2$ eigenvalues.
+*(Note on Generation Coordinates: As demonstrated by exact algebraic countercheck in [PHYSICAL_TO_AGY_2026-10-27_B1762_EXACT_COUNTERCHECK_AND_REPAIRS.md](file:///Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_2026-10-27_B1762_EXACT_COUNTERCHECK_AND_REPAIRS.md), this block-diagonality is an operator-level property in the 3D Higgs channel space, not a statement of individual fermion-generation matrix entries $(Y(e_0))_{ab}$, which carry non-zero off-diagonal terms $(Y(e_0))_{0,1} = u_j \ne 0$.)*
 
 ### 2.2 Why Full $3 \times 3$ Inverse Beats Decoupled $2 \times 2$ Block
 In $H_d = (\overline{\Sigma^{(\mathrm{down})}})^{-p} v_{012}$, the matrix $\Sigma^{(\mathrm{down})}$ has off-diagonal entries $\Sigma_{0,1}, \Sigma_{0,2} \sim 0.03 - 0.05$.

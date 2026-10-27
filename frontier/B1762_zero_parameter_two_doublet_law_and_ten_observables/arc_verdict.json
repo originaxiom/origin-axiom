@@ -23,12 +23,12 @@
   "authored_by": "agy",
   "scope": {
     "frame": "Coupling tensors on data-free 2-torsion line w = (2/5, 1/10) across B1757's strip and the exact arithmetic geodesic apex tau_* = (1 + i*sqrt(84))/3",
-    "object": "zero-parameter two-doublet laws (0 DOFs in H_u, 0 DOFs in H_d) built from Yukawa Gram operators and canonical de Rham form v_DR(tau), evaluated on 10 dimensionless flavour observables at M_Z and M_GUT = 10^12 GeV (P-329, P-357, P-363, P-366, P-377)",
+    "object": "zero-parameter two-doublet laws (0 DOFs in H_u, 0 DOFs in H_d) built from Yukawa Gram operators and canonical de Rham form v_DR(tau), evaluated on 10 dimensionless flavour observables at M_Z and M_GUT benchmark 10^12 GeV (P-329, P-357, P-363, P-366, P-377)",
     "reach": "class",
-    "hypotheses": "SU(5) hypercharges (1,-4), (1,2), (-3,6); line w = (2/5, 1/10); Huang-Zhou (2021) GUT running"
+    "hypotheses": "SU(5) hypercharges (1,-4), (1,2), (-3,6); line w = (2/5, 1/10); Huang-Zhou (2021) GUT benchmark running; physical seat countercheck on Higgs-space Gram block vs fermion generation slice"
   },
-  "claim_one_line": "ZERO-PARAMETER TWO-DOUBLET LAW AND 10-OBSERVABLE FLAVOUR READOUT (P-329, P-357, P-363, P-366, P-377): on data-free line w = (2/5, 1/10), the symmetric cubic parity identity strictly confines M^(up)_0 to 1+2 diagonal blocks and M^(up)_{1,2} to off-diagonal blocks; the zero-parameter two-doublet laws built from inverse-Gram operators and the up-sector Gram boost lambda_{(1,+i)}/lambda_{e1} ~ 1.981 reduce chi^2_nine from 567-1073 (single-Higgs v_DR) to 25.43-27.93 at M_Z and 24.94-26.99 at M_GUT with zero free Higgs parameters, matching the unconstrained 2-parameter numerical floor to within Delta chi^2 <= 0.74 and predicting the Jarlskog CP invariant at |J_CKM| = (2.13-3.09) x 10^-5 (within 0.09-2.46 sigma of PDG (3.08 +/- 0.15) x 10^-5 vs -20.5 sigma for single-Higgs v_DR). 0 of 19.",
-  "weave_or_thread": "weave (structural theorem on symmetric cubic parity blocks; zero-parameter flavour readout at M_Z and M_GUT across the strip and at the exact arithmetic geodesic apex)",
+  "claim_one_line": "ZERO-PARAMETER TWO-DOUBLET LAW AND 10-OBSERVABLE FLAVOUR READOUT (P-329, P-357, P-363, P-366, P-377): on data-free line w = (2/5, 1/10), the up-sector Yukawa Gram operator Sigma^(up) in Higgs-direction space strictly confines to 1+2 diagonal blocks with off-block norm = 0.0 (singlet e_0 Frobenius-orthogonal to doublets {e_1, e_2}), while down-lepton Gram matrices satisfy exact parity reflection Sigma^(lep) = P_e1 Sigma^(down) P_e1; the zero-parameter two-doublet laws built from inverse-Gram operators and up-sector Gram boost lambda_{(1,+i)}/lambda_{e1} ~ 1.981 reduce chi^2_nine from 567-1073 (single-Higgs v_DR) to 25.89 at apex tau_* and 26.31 at center, predicting physical Jarlskog CP invariant |J_CKM| = (2.67-2.78) x 10^-5 (within 2.0-2.7 sigma of PDG (3.08 +/- 0.15) x 10^-5 vs -20.5 sigma for single-Higgs v_DR). 0 of 19.",
+  "weave_or_thread": "weave (Yukawa Gram operator block-diagonality and reflection parity; zero-parameter flavour readout at M_Z and M_GUT across the strip and at the exact arithmetic geodesic apex)",
   "points": [
     "P-329",
     "P-357",
@@ -37,8 +37,8 @@
     "P-377"
   ],
   "summary": {
-    "symmetric_cubic_parity_m0_offblock_norm": 0.0,
-    "symmetric_cubic_parity_m12_diagblock_norm": 0.0,
+    "up_sector_gram_offblock_norm": 0.0,
+    "down_lep_gram_parity_reflection_norm": 0.0,
     "primary_strip_point": [
       0.3145,
       3.0345
