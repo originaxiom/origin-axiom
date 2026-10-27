@@ -8,7 +8,7 @@
 # into the repository; it only fetches. The state (the last commit seen per branch) lives in STATE_DIR. With no news
 # it exits after MAX_SECONDS with one line, so the seat knows to re-arm.
 #   listen.sh REPO STATE_DIR INTERVAL_SECONDS MAX_SECONDS FILE_PATTERN TEXT_PATTERN BRANCH...
-#   e.g. listen.sh . ~/.listen 180 7000 'CHAT1|ALL_SEATS' 'web seat|chat1' main claude/standard-model-derivation-0qt6ao
+#   e.g. listen.sh . ~/.listen 180 7000 'CHAT1|ALL_SEATS' 'web seat|chat1' main <another seat's branch>
 # Seed STATE_DIR/<branch with / as _> with the last commit already read, or the first poll takes the current head.
 REPO=$1; STATE=$2; INT=$3; MAX=$4; FPAT=$5; TPAT=$6; shift 6
 mkdir -p "$STATE"
