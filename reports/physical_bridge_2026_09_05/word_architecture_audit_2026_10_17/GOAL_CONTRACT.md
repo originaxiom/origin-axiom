@@ -496,6 +496,33 @@ horizontal/end dynamics and full charged field/action map in the SAME
 physical parent. No foundational row or measured parameter is marked
 paid, and earlier execution/review seals remain unchanged.
 
+## October 27: derive the surface extension line and preserve the end duty
+
+The [relative extension proof](RELATIVE_EXTENSION_WEIGHT_AND_END_SELECTION.md)
+carries K_X rather than silently replacing it by K_rel. Under the stated
+stable nonzero nilpotent rank stratum and canonical lift, relative Serre
+duality puts the invariant extension in K_B^-1 tensor lambda^-2, with
+coefficient of modular weight -4. Its holomorphy follows for an actual
+holomorphic surface bundle, not from isolated fibre choices. The same
+extension construction gives conditional surface F-flat data; no full
+D-flat surface solution is claimed.
+
+A bounded holomorphic cusp extension forces this coefficient to vanish
+by the negative-weight maximum principle. This would remove the split
+choice IF the physical end law earns that regularity. E4^2/Delta is the
+exact weakly holomorphic pole control, so covariance alone does not do
+it. The older whole-Phi norm estimate for Q2 does not decide this
+nilpotent extension variable. Derive its metric-dependent kinetic/end
+law rather than add a scalar norm by hand. No foundational input is paid.
+
+Fetched agy 6beb2abfc and [audited B1768](AGY_B1768_PERIOD_AND_PHYSICAL_METRIC_SCOPE_AUDIT.md).
+Its degree-two singlet area norm and parity zeros survive geometrically.
+Its open segments, finite endpoint, precision-context bug and missing
+positive doublet Gram block do not compute the claimed full physical
+metric/hierarchy. No numerical integration was rerun. The source custody
+and correction relay are preserved. The full physical goal, remaining
+charged field/action map and earlier execution/review seals are unchanged.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

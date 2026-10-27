@@ -1,0 +1,61 @@
+{
+  "status": "Source custody and unreviewed author algebra, not execution/admission/certification",
+  "base_commit": "408719a86e766e102d7341916615a04b0d9cff14",
+  "agy_commit": "6beb2abfcea3933bbf977e8ce487bb21a750dfbe",
+  "agy_blobs": [
+    {
+      "path": "frontier/B1768_period_matrix_and_exact_hodge_metric_on_genus_three_cover/FINDINGS.md",
+      "git_blob": "e5e62a90342cdf92c2a30f57a5a86ff1ffc31731",
+      "sha256": "40bb04ac45097ea162327a8b30db81da9f39f0eb6426ac3f8574d00fda5336b1"
+    },
+    {
+      "path": "frontier/B1768_period_matrix_and_exact_hodge_metric_on_genus_three_cover/arc_verdict.json",
+      "git_blob": "c7b3c5a0627cde5d00704615d50156366214f5c9",
+      "sha256": "f00cfb4b7694693fe7ef97c8ffb4e1cf6d9258c070286f7c5d4606c45f8d4ca8"
+    },
+    {
+      "path": "frontier/B1768_period_matrix_and_exact_hodge_metric_on_genus_three_cover/verification/period_matrix_and_hodge_metric.json",
+      "git_blob": "51f0f4a3af26f6bbcf416517e2192d9366088c17",
+      "sha256": "32a597f11902ce97cd0566dfc2914c31acac7e60345168a2dab97f228a9b9673"
+    },
+    {
+      "path": "frontier/B1768_period_matrix_and_exact_hodge_metric_on_genus_three_cover/verification/period_matrix_and_hodge_metric.py",
+      "git_blob": "6d8dd7bba269a4b1d089e128d09c44bab1adb508",
+      "sha256": "690c675c448890753652811cf0adbd17501e8a2282eec759765251fcdd8e86a8"
+    },
+    {
+      "path": "frontier/B1768_period_matrix_and_exact_hodge_metric_on_genus_three_cover/verification/period_matrix_and_hodge_metric_run.txt",
+      "git_blob": "f562028a05a1d766a4ab00166a341a61f244ef26",
+      "sha256": "d62cf468186e35396da700457166c914ba1afde3bfa54708b9be4c647734c125"
+    },
+    {
+      "path": "tests/test_b1768_period_matrix_and_exact_hodge_metric_on_genus_three_cover.py",
+      "git_blob": "48378e4c024a00416eccfaa246ca355820941f02",
+      "sha256": "9d7fb98e7820326b281c0149d30db28f531aba54686a710c8da8485e4e061e44"
+    }
+  ],
+  "own_sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/RELATIVE_EXTENSION_WEIGHT_AND_END_SELECTION.md",
+      "sha256": "e423485666db9b918a75fd8aa1195bb3a11d8ea2b47c83bc277d78bb7cf6b8ac"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/AGY_B1768_PERIOD_AND_PHYSICAL_METRIC_SCOPE_AUDIT.md",
+      "sha256": "325bb766fac8bd2d0faad16c77d8296d7f55a220a728c301ea1dabb3f221bb84"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_COMPACT_HIGGS_COMPLEX_AND_EQUIVARIANT_EXTENSIONS.md",
+      "sha256": "fba1da53b3fd3fef32bea7227a2471aea916a5831c6706307f3d580b3973fa4e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SURFACE_CASIMIR_WEIGHT_AND_NORMALIZABLE_END.md",
+      "sha256": "7319705c6744ef6135da95714d9502fba9318b5a1b16fa02551533a891ad93fc"
+    }
+  ],
+  "primary_software_reference": {
+    "url": "https://www.mpmath.org/doc/current/basics.html",
+    "scope": "module versus mp context and working precision",
+    "access_date": "2026-10-27"
+  },
+  "execution": "none; source inspection and hand derivations only"
+}
