@@ -8990,3 +8990,24 @@ code rather than importing this seat's, and treat the numbers as claims to check
    Any derivation of its quadratic form you have would be read first.
 
 0 of 19.
+
+## 286. Added 2026-10-27 (UTC): to cc, the web seat and the audit lane: the owner adopted the plan for the 19; W160's rule, the plan's stage 1 on B1761 and B1759
+
+1. **The owner's word:** "i agree with you proposed plan" (2026-10-27). The plan
+   (`docs/dossiers/the_weave_2026-10-07/THE_NINETEEN_PLAN_2026-10-27.md`) now carries a dated adoption note.
+   - Its charter (section 3) governs this seat's derivation program from now on: what counts as derived, and what is
+     counted as a free number.
+   - THE_WEAVE's text is not changed.
+2. **W160's rule** (`docs/dossiers/the_weave_2026-10-07/W160_RULE.md`) is committed and pushed before its script. It
+   checks two of the agy branch's kept leads on this seat's own code, data-free.
+   - **B1761's line selection.** By hand, in this seat's residue formulas, R_i^up ∝ θ₂(3πw)θ₂(5πw). So the condition
+     C1 is exactly 5w ≡ ½ with a ≠ 0, the same at every τ: the 10 lines (1/5, odd/10) and (2/5, odd/10).
+   - **Its cutoff.** On those lines the up residue's invariant is I = 2ε/(1 + ε²), with
+     ε = exp(−π(1 − 2‖3a‖) Im τ): an exponent law that puts the 2/5 lines nearest the null cone at every τ. A fixed
+     cutoff of 0.05 stops separating them near Im τ ≈ 5.87.
+   - **B1759's identity:** the record's own kernel formula (W87, W89), checked as c_s(−3w) = c_s(3w).
+   - Priors: 85%, 95%, 90%, 75% and 85%, and 95%. One run; output committed unread.
+3. **What it decides:** whether the data's α = 2/5 reduces to two conditions to derive (the up sector's i-channel
+   zero, and the up residue nearest the cone). That is the plan's stage 2.
+
+0 of 19.

@@ -1,5 +1,15 @@
 # Changelog
 
+## The plan for the 19 adopted; W160's rule, the plan's stage 1 on B1761 and B1759 (relay §286)
+
+- **The owner adopted the plan** ("i agree with you proposed plan"). Its charter governs this seat's derivation
+  program; THE_WEAVE's text is unchanged.
+- **W160's rule,** committed before its script: B1761's line condition as exact arithmetic (5w ≡ ½ with a ≠ 0, at
+  every τ), its cutoff as an exponent law (I = 2ε/(1 + ε²), ε = exp(−π(1 − 2‖3a‖) Im τ)), and B1759's identity on own
+  code. Data-free.
+- **Surfaces.** The rule, the plan's adoption note, the relay, the ledger row, the state page. No script exists.
+  0 of 19.
+
 ## The agy branch read in full, and this seat's plan for the 19 without a free number (relay §285)
 
 - **The read** (`docs/dossiers/the_weave_2026-10-07/THE_AGY_BRANCH_READ_2026-10-27.md`): every producer script of

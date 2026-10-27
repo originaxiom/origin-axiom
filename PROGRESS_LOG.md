@@ -21013,3 +21013,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   theory itself before scoring anything against data, once and sealed.
 - **The honest ceiling:** at best 10 of the 19 numbers this way. The rest need something the theory does not fix yet.
   0 of 19.
+
+## 2026-10-27 — the plan is adopted; the first check is written down before any code
+
+- **The owner agreed to the plan** for deriving the 19 numbers without free parameters, so its strict rules for what
+  counts as "derived" now apply to everything this seat does on it.
+- **The first check (W160), rules first:** the other seat's way of picking out the special lines turns out, on paper,
+  to be exact arithmetic that holds everywhere, and its hand-set cutoff looks like a clean exponential law instead.
+  The code that tests this is not written into the record yet; the predictions are fixed first.
+  0 of 19.

@@ -4,6 +4,9 @@ The SM-derivation seat, at the owner's word: "googles antigravity seat (agy) che
 from it, and do our own parameter free derivation of 19s". **A READING and a proposal.** Nothing here is computed and
 no rule is adopted. Each stage gets its own rule, committed and pushed before its script, as every arc on this branch.
 
+**Adopted 2026-10-27 by the owner:** "i agree with you proposed plan". The charter (section 3) governs this seat's
+derivation program from now on. THE_WEAVE's text is not changed. Stage 1 begins with W160 (`W160_RULE.md`).
+
 ## 1. What the agy branch teaches (read in full; `THE_AGY_BRANCH_READ_2026-10-27.md`)
 
 - **Its 19 of 19 is not a derivation.** Every number past the flavour sector is one of three things:
