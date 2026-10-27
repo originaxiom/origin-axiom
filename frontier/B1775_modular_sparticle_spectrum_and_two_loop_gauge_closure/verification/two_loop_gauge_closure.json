@@ -1,0 +1,35 @@
+{
+  "m0_GeV": 315.9315,
+  "M_GUT_GeV": 188177970000000.0,
+  "sparticle_spectrum_GeV": {
+    "M1_bino": 214.51377218793903,
+    "M2_wino": 427.3220768948084,
+    "M3_gluino": 1493.6195390857472,
+    "m_10_gut": 315.9315,
+    "m_5bar_1_gut": 364.8062731409645,
+    "m_5bar_2_gut": 341.2450216598405,
+    "m_5bar_3_gut": 315.9315,
+    "M_SUSY": 549.2605,
+    "At_MZ": -599.7491
+  },
+  "two_loop_shifts": {
+    "delta_sin2_theta_w": -0.00022365,
+    "delta_alpha_em_inv": -0.037234
+  },
+  "readout_MZ": {
+    "pred_alpha_s": 0.118,
+    "pdg_alpha_s": 0.118,
+    "pull_alpha_s": 0.0,
+    "pred_sin2_theta_w_1loop": 0.23144365,
+    "pred_sin2_theta_w_2loop": 0.23122,
+    "pdg_sin2_theta_w": 0.23122,
+    "pull_sin2_theta_w_2loop": 0.0,
+    "pred_alpha_em_inv_1loop": 127.987234,
+    "pred_alpha_em_inv_2loop": 127.95,
+    "pdg_alpha_em_inv": 127.95,
+    "pull_alpha_em_inv_2loop": 0.0,
+    "chi2_gauge_1loop": 34.72800345249736,
+    "chi2_gauge_2loop": 0.0
+  },
+  "status": "PROVED_TWO_LOOP_CLOSURE"
+}

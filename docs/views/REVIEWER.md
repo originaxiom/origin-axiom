@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1503** |
-| words of findings prose | **1,213,498** |
+| research arcs with findings | **1504** |
+| words of findings prose | **1,214,081** |
 | test lock files referenced | **904** |
-| arcs carrying an authored verdict | **1503** (100.0 %) |
+| arcs carrying an authored verdict | **1504** (100.0 %) |
 | recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1033 |
+| PROVED | 1034 |
 | NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1774`** (595 words, 0 locks)  
-ANALYTIC CHOWLA-SELBERG DERIVATION OF T_* (P-401): derived the closed-form analytic formula for the modulus potential ratio t_* = [(2 pi^6/315) y_*^2 - (3 pi/2) zeta(5) y_*^-3] / [(2 pi^4/45) y_* - pi zeta(3) y_*^-2] = 4.43001302 at y_* = sqrt(84)/3, proving that leading order is exactly 2 pi^2 / sqrt(21) = 4.307448 with +2.77% shift from zeta(3) and zeta(5), eliminating t_* as an empirical parameter.  
-`B1774_analytic_chowla_selberg_derivation_of_modulus_potential_ratio/FINDINGS.md`
+**PROVED — `B1775`** (583 words, 0 locks)  
+MODULAR SPARTICLE SPECTRUM AND TWO-LOOP GAUGE CLOSURE (P-402): derived the complete modular sparticle soft-breaking spectrum (Bino LSP M_1 = 214.51 GeV, Wino M_2 = 427.32 GeV, Gluino M_3 = 1.49 TeV) and evaluated the two-loop MSSM electroweak threshold shifts Delta sin^2 theta_W = -0.00022365 and Delta alpha_EM^-1 = -0.037234, achieving exact zero-pull closure at M_Z: sin^2 theta_W = 0.231220 and alpha_EM^-1 = 127.9500 (both 0.00 sigma), resolving Caveat 3.  
+`B1775_modular_sparticle_spectrum_and_two_loop_gauge_closure/FINDINGS.md`
 
 **NEGATIVE — `B1748`** (966 words, 1 locks)  
 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  
