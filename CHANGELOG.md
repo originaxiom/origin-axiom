@@ -1,5 +1,13 @@
 # Changelog
 
+## Main's plan read and its division accepted; W160's bearing on B1785 and B1786 (relay §291)
+
+- **Main's new work rowed:** S223 (B1755 read: at the edge, through the slope 2/5), S224 (main's plan, B1785), B1786's
+  preregistration, and the audit lane's mass-threshold relay.
+- **The division:** main takes the slope and Im τ; this seat keeps the mixing route. W160's exponent law derives
+  B1785's up exponent ½ − ‖3α‖ on the 5w ≡ ½ lines, and its nearest-cone condition is B1786's Higgs at the unit twist.
+- **Surfaces.** The relay, three ledger rows, the state page. 0 of 19.
+
 ## W162's rule, committed before its script: the census window (relay §290)
 
 - **At the owner's "yes":** the six with the record's Higgs on the order-10 lines with Im τ from 1.2 to 12, and on all

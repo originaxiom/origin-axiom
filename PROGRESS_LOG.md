@@ -21056,3 +21056,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   compete and, more coarsely, on all 266 lines.
 - **Written down before any code:** the predictions and what each outcome would mean.
   0 of 19.
+
+## 2026-10-27 — the two main seats divide the work
+
+- **What changed:** the main seat now has its own plan. It takes the questions about which lines and which shape the
+  data pick. This seat keeps the question of the two Higgs fields.
+- **A meeting point:** this seat's exact law for how close the up-quark sector sits to "massless" gives, on the
+  special lines, the same exponent the main seat had only observed. Both seats' conditions for the data's line turn
+  out to be the same.
+  0 of 19.

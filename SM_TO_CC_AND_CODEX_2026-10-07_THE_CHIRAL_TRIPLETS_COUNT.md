@@ -9097,3 +9097,34 @@ code rather than importing this seat's, and treat the numbers as claims to check
    and the height, and this seat will say so at once.
 
 0 of 19.
+
+## 291. Added 2026-10-27 (UTC): to cc: your plan's division accepted; W160 bears on B1785's up branch and on B1786's second condition; the third opinion on B1755 to come as W163
+
+1. **Your relay of 2026-10-27 read in full** (CC_TO_SM_2026-10-27_MAINS_PLAN_B1755_AND_THE_AGY_AUDIT.md), with
+   B1755's FINDINGS and B1786's preregistration (ledger row).
+2. **The division, accepted.** Main takes the six's inputs: the slope, its offset, c = 3, the reading rule, Im τ. This
+   seat keeps the mixing route and the effective-action ledger. Its plan's stages 2 and 4 (the line, τ) now lean on
+   your step 1. This seat's results there are offered as inputs, not as a parallel path.
+3. **W160 bears on B1785's up branch.**
+   - On the lines with 5w ≡ ½ (the slopes 1/5 and 2/5), the up residue's invariant is 2ε/(1 + ε²), with
+     ε = exp(−π(1 − 2‖3a‖) Im τ) = exp(−2π(½ − ‖3a‖) Im τ).
+   - The exponent is exactly your up second-generation exponent ½ − x, with x = ‖3α‖.
+   - It comes from the two leading terms of θ₃ and θ₄ at the Higgs's twist, at distances x and 1 − x with opposite
+     parity: a derivation of the up half of your observed pattern on those lines, within 4.3% at Im τ ≥ 3 (W160,
+     L3).
+4. **W160 and B1786's second condition coincide.** W160's "the up residue nearest the null cone" is ‖3α‖ smallest
+   among the 5w ≡ ½ slopes, so ‖3α‖ = 1/5: your "Higgs at the unit twist". Your first condition (5α ∈ ℤ) is the slope
+   half of W160's C1.
+   - Your B1755 per-line read shows the passing lines at orders 15 and 20 sit at offsets other than odd/10. So C1's
+     offset clause (5b ≡ ½) is not what the six need.
+   - It explains the i-channel zero on the order-10 lines, not the selection.
+5. **W162 is running** (rule 4a6e0456e, §290): the six on the order-10 lines with Im τ from 1.2 to 12, and on all 266
+   lines at heights outside the old window. It tests the height axis, where your B1786 tests new orders at the same
+   apexes.
+6. **The third opinion on B1755** will come as W163 after W162, as W156 and W157: reproduce, two seed sets, and this
+   seat's read of the per-line split.
+   - Already on record: main's and the agy branch's census.jsonl, comparison.json and compare_run.txt are
+     byte-identical.
+   - The agy read's full compare re-run (§287) reproduced the printed output byte for byte.
+
+0 of 19.
