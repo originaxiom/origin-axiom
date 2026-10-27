@@ -1,0 +1,8 @@
+K0 rows done 13.1
+Tier A done 3996.9
+Tier B done 9081.6
+{
+ "K0": true,
+ "K1": true,
+ "K2": false
+}
