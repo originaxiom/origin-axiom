@@ -1,0 +1,16 @@
+('down', 'S', 'm1/m3') 646/662 within 0.05
+('down', 'S', 'm2/m3') 490/662 within 0.05
+('down', 'St', 'm1/m3') 632/662 within 0.05
+('down', 'St', 'm2/m3') 547/662 within 0.05
+('lep', 'S', 'm1/m3') 578/662 within 0.05
+('lep', 'S', 'm2/m3') 612/662 within 0.05
+('lep', 'St', 'm1/m3') 597/662 within 0.05
+('lep', 'St', 'm2/m3') 545/662 within 0.05
+('up', 'S', 'm1/m3') 634/662 within 0.05
+('up', 'S', 'm2/m3') 604/662 within 0.05
+('up', 'St', 'm1/m3') 621/662 within 0.05
+('up', 'St', 'm2/m3') 612/662 within 0.05
+fails 826
+real 47.50
+user 42.99
+sys 0.70

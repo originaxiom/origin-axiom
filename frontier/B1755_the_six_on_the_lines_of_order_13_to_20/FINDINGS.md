@@ -80,3 +80,11 @@ mechanism selects a Wilson-line slope 2/5 or an SU(5)-centre line class; SL(2, �
 - `verification/census.py` → `census.jsonl`, `control.json`, `census_run.txt`.
 - `verification/compare.py` → `comparison.json`, `compare_run.txt`.
 - The lock: `tests/test_b1755_the_six_on_the_lines_of_order_13_to_20.py`.
+
+## Dated note (2026-10-27, S225): the third opinion
+
+The SM seat's W163 (relay §295, HARVEST_LEDGER row 1426) reproduces this arc in full, on main's compare.py and on the seat's own
+calibration. D also holds on fresh seeds 1829–1848 (69 hits). The seat agrees with the scope: a READING, ungraded. Its per-line
+read: on the slope-2/5 lines the six is one function of (Re τ mod 1, Im τ, Re w mod 1), with narrow valleys in Re w. An offset
+rule must locate those valleys (P-384).
+

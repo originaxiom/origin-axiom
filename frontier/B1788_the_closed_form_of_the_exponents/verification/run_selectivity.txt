@@ -1,0 +1,11 @@
+gap < 0.01: agreeing 785/7074 near-tie (11%); disagreeing 63/606 (10%)
+gap < 0.02: agreeing 1326/7074 near-tie (19%); disagreeing 74/606 (12%)
+gap < 0.03: agreeing 1727/7074 near-tie (24%); disagreeing 81/606 (13%)
+gap < 0.04: agreeing 2459/7074 near-tie (35%); disagreeing 118/606 (19%)
+gap < 0.06: agreeing 4317/7074 near-tie (61%); disagreeing 382/606 (63%)
+disagreeing: sign of (obs - closed): 540 below, 66 above
+2/5 seat reading: [('down', 'S', 'm1/m3', 0.05, True), ('down', 'S', 'm2/m3', 0.05, True), ('lep', 'S', 'm1/m3', 0.05, True), ('lep', 'S', 'm2/m3', 0.05, True), ('up', 'St', 'm1/m3', 0.1, False), ('up', 'St', 'm1/m3', 0.1, True), ('up', 'St', 'm2/m3', 0.15, True)]
+1/10 seat reading: [('down', 'S', 'm1/m3', 0.05, True), ('down', 'S', 'm2/m3', 0.05, True), ('lep', 'S', 'm1/m3', 0.05, True), ('lep', 'S', 'm2/m3', 0.05, True), ('up', 'St', 'm1/m3', 0.1, True), ('up', 'St', 'm2/m3', 0.15, True)]
+real 49.81
+user 46.80
+sys 0.74

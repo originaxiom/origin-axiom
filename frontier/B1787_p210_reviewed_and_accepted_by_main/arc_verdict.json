@@ -1,0 +1,24 @@
+{
+ "id": "B1787",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1678",
+  "B1659"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the audit lane's sealed P210 execution package (39ce620a8), reviewed statically by main",
+  "object": "the package's ten checks, its 39 pinned artifacts, its wrapper and the mathematics they rest on",
+  "reach": "single",
+  "hypotheses": "two read-only reviewers of main's; nothing in the package imported or executed"
+ },
+ "claim_one_line": "P210 REVIEWED AND ACCEPTED BY MAIN (P-386), at the owner's ruling that the lane's own review was not independent and main verifies finally: custody holds (all 39 pins unchanged since the seal), the mathematics holds for its bounded claims (every load-bearing identity re-derived in main's reviewers' own code), the wrapper is fail-closed; accepted for execution with named caveats -- a pass confirms the lane's arithmetic, P-210 is sharpened not answered, several checks pass by construction, the orientation and dagger controls are missing, the Q8 stabiliser is full only at generic tau. 0 of 19.",
+ "weave_or_thread": "audit"
+}

@@ -17950,3 +17950,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - Main's plan adopted at the owner's "i agree" (P-393). B1785: the slope alone sets the leading exponents; on α = 2/5 the second-generation pair is (3/10, 1/5), the measured 3 : 2. 0 of 19.
 - **Landing suite (S224).** full suite 7 753 passed, 3 failed, 68 skipped (22:35, -n 8) on 8f9cbf1cb: two failures are B805's attachment locks (P-239, standing); the third, B1424's manifest lock, caught that S223's rebuilt P3 manifest named its pre-amend commit (370f26bd3, never published) — rebuilt at the published S224 head in a follow-up (S224b), the lock rerun green.
+
+## 2026-10-27 — S225 B1786 (THE SLOPE OUT OF SAMPLE); B1788 (THE CLOSED FORM); B1787 (P210 REVIEWED BY MAIN); THE SEATS
+
+- B1786: the six live on the slope-2/5 lines at orders 25 and 30 and on no other slope (8 of 160 000; the slope 1/10 at 919); the decisive cell holds; not PASSED under the class-choosing null (m·r 0.0099–0.0112 at m = 41, on the gate). B1788: the closed form of the exponents; the principle's second condition is the measured 3 : 2 restated — a selection by the data, not a derivation; no input removed. B1787: P210 accepted by main for execution, with caveats. The web seat's UNIFICATION-SCALE negative verified on main. 0 of 19.
+- **Landing suite (S225).** full suite 7 774 passed, 2 failed, 68 skipped (23:31, -n 8) on ce29b0c41: the two failures are B805's attachment locks (P-239, standing). After the suite and before the push: the SM seat's W163 (B1755's third opinion: reproduces in full, a READING) harvested (row 1426), with a dated note on B1755, a note on P-384 and a line in the relay; the affected checks rerun green.

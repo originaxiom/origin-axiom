@@ -1,0 +1,18 @@
+CF near-tie                382
+CF ok                      7074
+CF other                   224
+DEG m1=0 (not compared)    132
+DEG ok                     132
+
+('down', 'S', 'm1/m3') agree 646/656 (98.5%) {'CF ok': 646, 'DEG m1=0 (not compared)': 6, 'CF near-tie': 9, 'CF other': 1}
+('down', 'S', 'm2/m3') agree 494/662 (74.6%) {'CF ok': 488, 'CF near-tie': 126, 'CF other': 42, 'DEG ok': 6}
+('down', 'St', 'm1/m3') agree 632/656 (96.3%) {'CF ok': 632, 'DEG m1=0 (not compared)': 6, 'CF near-tie': 20, 'CF other': 4}
+('down', 'St', 'm2/m3') agree 551/662 (83.2%) {'CF ok': 545, 'CF other': 53, 'DEG ok': 6, 'CF near-tie': 58}
+('lep', 'S', 'm1/m3') agree 578/608 (95.1%) {'CF ok': 578, 'DEG m1=0 (not compared)': 54, 'CF near-tie': 15, 'CF other': 15}
+('lep', 'S', 'm2/m3') agree 648/662 (97.9%) {'CF ok': 594, 'CF near-tie': 14, 'DEG ok': 54}
+('lep', 'St', 'm1/m3') agree 597/608 (98.2%) {'CF ok': 597, 'DEG m1=0 (not compared)': 54, 'CF near-tie': 10, 'CF other': 1}
+('lep', 'St', 'm2/m3') agree 581/662 (87.8%) {'CF ok': 527, 'DEG ok': 54, 'CF near-tie': 81}
+('up', 'S', 'm1/m3') agree 634/656 (96.6%) {'CF ok': 634, 'DEG m1=0 (not compared)': 6, 'CF near-tie': 22}
+('up', 'S', 'm2/m3') agree 608/662 (91.8%) {'CF ok': 602, 'CF near-tie': 12, 'CF other': 42, 'DEG ok': 6}
+('up', 'St', 'm1/m3') agree 621/656 (94.7%) {'CF ok': 621, 'DEG m1=0 (not compared)': 6, 'CF other': 20, 'CF near-tie': 15}
+('up', 'St', 'm2/m3') agree 616/662 (93.1%) {'CF ok': 610, 'CF other': 46, 'DEG ok': 6}

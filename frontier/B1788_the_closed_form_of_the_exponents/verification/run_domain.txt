@@ -1,0 +1,7 @@
+tropical_vs_closed_mismatches 0
+tropical_vs_closed_cases 3972
+excluded_outside_degeneracy 16
+tally {'m2/m3 agree': 3334, 'm1/m3 agree': 3676, 'm2/m3 differ': 474, 'degenerate (B1716)': 264, 'm1/m3 differ': 132, 'excluded (a theta constant zero)': 64}
+failing_m2m3_classes 32
+failing_m2m3_cases 474
+pair_3_10_1_5_alphas ['1/10', '2/5']

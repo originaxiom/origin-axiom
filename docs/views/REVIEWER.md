@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1489** |
-| words of findings prose | **1,200,503** |
-| test lock files referenced | **904** |
-| arcs carrying an authored verdict | **1489** (100.0 %) |
+| research arcs with findings | **1492** |
+| words of findings prose | **1,205,173** |
+| test lock files referenced | **907** |
+| arcs carrying an authored verdict | **1492** (100.0 %) |
 | recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1019 |
+| PROVED | 1022 |
 | NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1785`** (771 words, 1 locks)  
-THE SLOPE SETS THE EXPONENTS (main's plan, step 1, groundwork; data-free census of 662 lines): the leading exponents of every sector's mass ratios depend on the line's slope alone (the offset moves only prefactors); on alpha = 2/5 and 1/10 the second-generation pair is (up, down) = (3/10, 1/5), leptons = down on 2/5; on many slopes the pair is {x, 1/2 - x} with x the Higgs's twist ||3 alpha|| (observed, not proven); post hoc, the measured second-generation ratios give (0.296, 0.208) at Im tau 3.03 -- the slope carries the 3:2 ratio, Im tau the scale. Not a reduction yet. 0 of 19.  
-`B1785_the_slope_sets_the_exponents/FINDINGS.md`
+**PROVED — `B1788`** (2028 words, 1 locks)  
+THE CLOSED FORM OF THE EXPONENTS (main's plan, step 1; data-free; PROVED at leading order, conditional): in B1656's frame the four pole blocks have exponents ||a_x + i/2||^2 + ||a_y + j/2||^2 - 1/8 (the full channel map, r11 included, to 1.3e-10 over 360 line-sectors) and, with B1716's rank-one residue matrix and B1659's det Y = 4 det M det S P, every sector's second-generation exponent is e(m2/m3) = 1/2 - (||2 q_L alpha|| + ||2 q_R alpha||)/2 in both readings, the tropical minimum equal to it in all 3 972 cases; on the domain B1785's window fits agree on 87.6% (m2/m3) and 96.5% (m1/m3), and independent 40-digit runs on seven lines (failing window classes among them) converge to the closed form for m2/m3 and m1/m3 (within 0.02 at Im tau 14-16, (2/11, 1/11) within 0.001 at 28-32); 8 of the 32 failing window classes untested at height; the SM seat's W160 verified on main and generalised; given five-ality alignment, the slope principle's 'Higgs at the unit twist' is the measured 3 : 2 of the up and down second-generation exponents restated, not a derivation; (3/10, 1/5) occurs only at alpha = 2/5 and 1/10. No input removed. 0 of 19.  
+`B1788_the_closed_form_of_the_exponents/FINDINGS.md`
 
 **NEGATIVE — `B1748`** (966 words, 1 locks)  
 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  

@@ -1,0 +1,32 @@
+{
+ "id": "B1788",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1656",
+  "B1659",
+  "B1667",
+  "B1691",
+  "B1692",
+  "B1716",
+  "B1726",
+  "B1785"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W160"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's frame at B1667's end (B1726's compute), both readings, the record's lines; asymptotic in Im tau",
+  "object": "the leading exponents of every sector's mass ratios as functions of the line's slope",
+  "reach": "class",
+  "hypotheses": "leading order in Im tau, conditional on (a) the channel-norm differences c_j - c_k and c_1 - c_i decaying at least at rate |E00 - E11| (a bound from K_j - K_k = 2 eps (K00 - K11)/(1 - eps^2)), (b) c_j + c_k - c_1 - c_i != 0, (c) no cancellation among tied tropical terms; the domain excludes the line-sectors where a theta constant vanishes exactly (q alpha in {0, 1/2}, 2 q b = 1/2 mod 1; 16 of B1785's outside the torsion degeneracy); the channel norms c_s computed, not derived; L clamped at Im tau = 4 as in B1785"
+ },
+ "claim_one_line": "THE CLOSED FORM OF THE EXPONENTS (main's plan, step 1; data-free; PROVED at leading order, conditional): in B1656's frame the four pole blocks have exponents ||a_x + i/2||^2 + ||a_y + j/2||^2 - 1/8 (the full channel map, r11 included, to 1.3e-10 over 360 line-sectors) and, with B1716's rank-one residue matrix and B1659's det Y = 4 det M det S P, every sector's second-generation exponent is e(m2/m3) = 1/2 - (||2 q_L alpha|| + ||2 q_R alpha||)/2 in both readings, the tropical minimum equal to it in all 3 972 cases; on the domain B1785's window fits agree on 87.6% (m2/m3) and 96.5% (m1/m3), and independent 40-digit runs on seven lines (failing window classes among them) converge to the closed form for m2/m3 and m1/m3 (within 0.02 at Im tau 14-16, (2/11, 1/11) within 0.001 at 28-32); 8 of the 32 failing window classes untested at height; the SM seat's W160 verified on main and generalised; given five-ality alignment, the slope principle's 'Higgs at the unit twist' is the measured 3 : 2 of the up and down second-generation exponents restated, not a derivation; (3/10, 1/5) occurs only at alpha = 2/5 and 1/10. No input removed. 0 of 19.",
+ "weave_or_thread": "weave (the line's twists act through the field's channel norms)"
+}

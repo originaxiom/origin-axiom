@@ -1,0 +1,6 @@
+channel map, worst error relative to the largest residue, over 360 line-sectors: {'1': 1.29e-10, 'i': 1.29e-10, 'j': 1.3e-10, 'k': 1.3e-10, 'rank_one': 5.45e-11}
+th1'(0), line-free: fit 0.125 closed 0.125
+blocks fitted: 5724 | flagged (theta constant exactly zero, not fitted): 36
+max |fit - closed| per block: {'X0': 0.0097, 'X1': 0.0047, 'Y0': 0.0089, 'Y1': 0.0023, 'r00': 0.0097, 'r01': 0.0096, 'r10': 0.0089, 'r11': 0.0047}
+blocks off by > 0.02: 0 of 5724
+[]

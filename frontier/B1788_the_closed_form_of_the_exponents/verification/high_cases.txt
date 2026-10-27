@@ -1,0 +1,1 @@
+0:0:up:S,0:0:down:S,0:0:lep:S,1/3:0:up:S,1/3:0:down:S,1/5:0:down:St,1/5:0:lep:St,1/6:0:up:S,1/6:0:down:S,1/3:0:lep:S,1/7:0:down:S,3/10:0:down:S,3/10:0:lep:St,2/11:0:down:St,1/13:0:lep:S,2/13:0:down:S,2/13:0:up:St,4/13:0:down:S,5/14:0:down:S,2/15:0:lep:St,4/15:0:down:S,7/15:0:lep:St,3/20:0:down:S,7/20:0:down:S

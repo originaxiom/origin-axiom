@@ -15,7 +15,7 @@ against it.
 
 | the SM's free parameters | what the frame does |
 |---|---|
-| six charged-fermion mass ratios | reached on one strip (B1741, B1749, B1753, B1755) with about five inputs set by hand: the lepton factor c = 3, the reading rule, the slope α = 2/5, the offset b, Im τ — a READING, ungraded |
+| six charged-fermion mass ratios | reached on one strip (B1741, B1749, B1753, B1755) with inputs set by hand: the lepton factor c = 3, the reading rule, the slope α = 2/5, the offset b, Im τ — and two that do fitting work without a plan holding them (the web seat's relay of 2026-10-27, P-328, P-365): the horocycle (L_max or L₂; the six's best rows are on L_max, the nine's one-Higgs optimum on L₂) and the comparison scale (M_Z, a choice; P-363) — a READING, ungraded |
 | three mass scales (y_t, y_b, y_τ) | not touched |
 | four CKM numbers | not reached: one Higgs fails (B1747), the free two-doublet fit is not specific (P-377), the named pairs fail (W158) |
 | three gauge couplings | not in the frame; the one-loop threshold needed at the two-Higgs crossing is 27.66, no integer (B1784) |
@@ -27,23 +27,31 @@ against it.
    order tested (10, 15, 20), at selected offsets (the odd tenths at 10; four of ten at 15 and at 20). First, data-free:
    what the slope does to each sector's hierarchy — **done, B1785:** the slope alone sets the leading exponents, the offset
    only prefactors; on α = 2/5 the second-generation pair is (up, down) = (3/10, 1/5), the measured 3 : 2, and on many slopes
-   the pair is {x, ½ − x} with x the Higgs's twist ‖3α‖. Next: the closed form from the theta characteristics; then a
-   principle that forces α = 2/5 and the offsets, stated before its check; then a sealed prediction at orders no record has
-   computed (25, 30). Inputs it would remove: the slope and the offset (two).
+   the pair is {x, ½ − x} with x the Higgs's twist ‖3α‖. **The closed form — done, B1788:** e(m₂/m₃) =
+   ½ − (‖2q_Lα‖ + ‖2q_Rα‖)/2 in every sector and both readings (the slope acts through the channel norms; W160 verified
+   and generalised); given five-ality alignment (5α ∈ ℤ), "the Higgs at the unit twist" is the measured up exponent 3/10
+   restated. **The principle out of sample — B1786 (sealed):** on the lines of order 25 and 30 the slope 2/5 carries the
+   six specifically (8 of 160 000) and no other slope carries them at all, the slope 1/10 included — not PASSED under the class-choosing null (on THE_BAR's gate); with W162 (orders ≤ 12,
+   Im τ 1.2–12) the six select 2/5 uniquely at every order tested. **Status: the slope is selected by the data, stably
+   out of sample, with one number's worth of input (e_up) — not removed.** Still open in step 1: a data-free reason for
+   ‖3α‖ = 1/5 (the Higgs at the generator of SU(5)'s centre), and the offset rule (12 of 30 lines at orders 25 and 30, in
+   equal-valued pairs; 4 of 10 at 15 and 20). Inputs it would remove: the slope and the offset (two).
 2. **The lepton factor c = 3** (P-294). The hypercharge-flux design study: can a quantised flux in B1656's frame give the
    factor 3 without a free level per field? Input it would remove: c.
-3. **The reading rule** (which sector reads S, which S̃; P-394). Derive it from the conjugation structure of the frame's sectors
-   (the up sector's conjugate Higgs) rather than choose it. Input it would remove: the reading.
+3. **The reading rule** (which sector reads S, which S̃; P-394, with P-295 and P-365). Derive it from the conjugation structure of the frame's sectors
+   (the up sector's conjugate Higgs) rather than choose it. Input it would remove: the reading. Seen first: the reading (S̃, S, S)
+   is the Standard Model's only if S's 2 × 2 index is SU(2)_L; P-365 found the frame carries no electroweak doublet index, so
+   hypercharge conservation does not yet force it — the open question is P-295's: which object enters each sector.
 4. **Im τ** (P-373). The one-loop potential holds every height at its own content ratio (B1784's negative), so either a
    forced content fixes the ratio or Im τ is a genuine free number of the frame; main asks which, data-free.
-5. **Later:** the three mass scales, the gauge couplings, the Higgs sector and θ.
+5. **Named, not yet planned:** the horocycle and the comparison scale (no reduction may keep them hidden; the web seat may propose the horocycle as its own reduction). **Later:** the three mass scales, the gauge couplings, the Higgs sector and θ (θ̄ in the mass frame, P-323, handed to the web seat at its offer).
 
 ## How the seats divide the work
 
 - **Main:** the steps above — the inputs of the six's sector.
 - **The SM seat:** its own path — the mixing through a second Higgs object (W155–W159) and its effective-action ledger.
 - **The audit lane:** field, action and domain reductions (its REDUCTION_FIRST_MISSION).
-- **The web seat:** its sealed tests (THE UNIFICATION-SCALE TEST).
+- **The web seat:** its sealed tests (THE UNIFICATION-SCALE TEST); θ̄ in the mass frame (P-323); a checking pass on each of main's reductions, B1786 first, on main's word after main's outputs are committed.
 - **Cross-checks:** every positive gets a third opinion from another seat before any grade; no seat banks another's
   result unverified (integrate, don't merge); the agy lane's lesson (B1784) — a number is a result only when the script
   computes it.

@@ -14164,6 +14164,48 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1786": {
+   "slug": "the slope principle out of sample",
+   "motifs": [
+    "figure_eight",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "P1"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1787": {
+   "slug": "p210 reviewed and accepted by main",
+   "motifs": [
+    "golden"
+   ],
+   "refs": [
+    "P210"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1788": {
+   "slug": "the closed form of the exponents",
+   "motifs": [
+    "choice",
+    "coupling",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B178": {
    "slug": "perturbative mechanism",
    "motifs": [

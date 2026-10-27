@@ -49,6 +49,9 @@ sector is listed with its target.
 | B1755 | sealed | the six on the lines of order 13, 14, 15, 20 at B1749's apexes | PROVED as sealed at the edge (15+20: 0.0975%; 13, 14 not specific); every good line α = 2/5; not PASSED (r = 1.22 × 10⁻³, m = 40) |
 | B1757 | verification | step 2's free doublets rerun with their vectors | an exact reproduction, not a new look |
 | B1785 § 3 | post hoc | two of the six (ln m_c/m_t, ln m_s/m_b) against the slope's exponents | the pair (3/10, 1/5) at Im τ 3.03; informs main's step 1 |
+| B1786 | sealed | the six on every line of order 25 and 30 at B1749's apexes, the slope 2/5 named in advance (main's step 1) | PROVED as sealed (8 of 160 000; no other slope below 16.75); not PASSED under the class-choosing null (m·r 0.0099–0.0112 at m = 41, 0.018–0.020 at 73); a READING |
+| B1786's referee null | verification of B1786 (its class-choosing null; 10⁷ fresh targets) | the same data | not a new look |
+| B1788 § 4 | post hoc (closed form, no fit) | the pair (3/10, 1/5) from B1785 § 3 over every slope | only α = 2/5 and 1/10; informs P-384 |
 
 ## The web seat (chat1)
 
@@ -66,7 +69,7 @@ row 1399) and entered at Review 70.
 | TWO_HIGGS (rows 1339, 1342) | sealed | the six and the nine with two Higgs directions | H1, H3, H4, H5 hold; H2, H6, H7, H8 fail; verified on main (B1742) |
 | THE READING TEST (rows 1353–1354) | sealed | the nine, the Standard Model's reading | NEGATIVE (verified, B1747) |
 | THE HOLOMORPHIC READING TEST (rows 1362, 1374, 1382, 1385) | sealed | the nine, one direction read alike | below the bar only on the look's two lines; not a selection (H3 fails); power not established |
-| THE UNIFICATION-SCALE TEST (row 1381) | sealed | the nine at M_GUT and M_Z | running; its grading under this ledger declared before any cell (8cc6dd1a8) |
+| THE UNIFICATION-SCALE TEST (rows 1381, 1424; two looks, one per arm) | sealed | the nine at M_GUT (arm G) and M_Z (arm Z) | **NEGATIVE as sealed at arm Z** (one holomorphic direction read S: nothing below 21.67 on the 5 280 rows away from the look's two lines; least 29.15; C2Z 71 of 72); **no reading at arm G** (C2G failed, 65 of 72); verified on main (custody, the reported rows recomputed to 1e-11, an independent search on the ten lowest rows and ten past the stage-B gate; two defects named, neither changing the negative) |
 | gj_posthoc (2026-10-22) | post hoc | the six with a lepton Clebsch from 1/3 to 5 | informed the seat's later tests |
 | readings_scan, fine_scan, allst_scan (2026-10-22; three) | post hoc | the CKM by reading pair; the six | informed TWO_INGREDIENTS |
 | the flavour-blind scan (2026-10-22) | post hoc | the six and the nine with S = 1 | listed; informed no sealed test |
@@ -90,6 +93,7 @@ verifications of W133.
 | W94 (row 1389) | sealed | (m_μ/m_τ)/(m_s/m_b), the null Higgs at ω on W59's lines | failed as worded |
 | W146 (row 1357) | sealed, a class test | the nine's target, its invariant across the band | NEGATIVE for every single section |
 | W151 (row 1372) | sealed, a class test | the nine's target, its (D, E) box | no pair in the box |
+| W162 (row 1419) | post hoc (counted as a look by the seat) | the six on the order-10 lines over Im τ 1.2–12 and on the 266 lines at nine heights outside the old window | only α = 2/5 below 16.75, only at Im τ 3.0–3.1 |
 | W145, W89, W93, W96, W138, W141, W142 | verification | earlier arcs reproduced | not new looks |
 
 **The agy lane (another session's branch, 2026-10-26/27; P-390, audited in B1784):** its arcs compare the frame with the six

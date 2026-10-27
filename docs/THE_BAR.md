@@ -53,6 +53,16 @@ A **positive** reads: frame F, on state s (at level k, with end condition e), sh
    - Then Bonferroni over every look the claim's arc made, min(1, m p): every frame, level, end condition and variant examined
      (INPUT_COMPLETENESS row 7; CROSSING_REQUIREMENTS R7). Šidák is allowed only with a stated dependence theorem. The exact joint
      law of the looks under the census's own law is also allowed. (B1518 used Šidák; B1524, C5.)
+   - **[2026-10-27, the owner's ruling on P-389: "Adopt main's version".] A declared menu is one look only when its
+     calibration repeats it.** A menu fixed before the run counts as one look only when its calibration takes the same
+     menu's minimum for every random target, as B1741's measure does — then the menu is priced inside r; every variant
+     examined outside that calibration counts. This clarifies the rule above without widening it. With the audit lane's
+     guards: a declared joint calibration must let each null target repeat the same search and selection opportunities as
+     the data — every free direction, reading, line class, extremum and tie rule; where a justified complete joint law is
+     used, do not multiply a second time for internal variants already covered by it, but uncovered pipeline versions and
+     earlier adaptive decisions stay in the ledger; identical re-verification is not a new look, while an enlarged menu or
+     a changed target statistic chosen after seeing results may be; a finite Monte Carlo is an estimate and keeps its
+     stated uncertainty.
 5. **The gate.** The positive counts only if p < 0.01: B614's G3, the record's standing threshold, not a prior (PRACTICES).
 
 **The grades** (WHAT_WOULD_COUNT §3's REPRODUCED and FITTED, PASSED as the screen for its DERIVED, and UNJUDGED):
