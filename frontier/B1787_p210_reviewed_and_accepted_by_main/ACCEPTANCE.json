@@ -1,0 +1,18 @@
+{
+ "schema": 1,
+ "experiment_id": "p210-symmetric-response-and-exterior-threshold-v1",
+ "sealed_commit": "39ce620a82e5373d5f07eee91a6a7cbfd4cdd4f7",
+ "specification": {
+  "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/SPECIFICATION.json",
+  "sha256": "f33348144c91711b0bcc3a05cf62974aac28a468eb57181f1ea6dfc93077f948"
+ },
+ "review": {
+  "commit": "54cfec661b80293985b3b48f5b4d3b0c0f7e2653",
+  "path": "frontier/B1787_p210_reviewed_and_accepted_by_main/MAIN_REVIEW.json",
+  "sha256": "392e593cd9fb98de45ac92f81be7c3881c7edeb4c6449ba170a90a425933406c"
+ },
+ "receiver": "main",
+ "decision": "ACCEPT_INDEPENDENT_REVIEW",
+ "verified_independence": true,
+ "verified_source_completeness": true
+}

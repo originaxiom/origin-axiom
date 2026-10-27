@@ -1,5 +1,9 @@
 # Changelog
 
+## S225b B1787'S ACCEPTANCE — MAIN ACCEPTS P210 FOR EXECUTION (2026-10-27)
+
+- `frontier/B1787_p210_reviewed_and_accepted_by_main/ACCEPTANCE.json`, in the audit lane's prospective.py schema: receiver main, ACCEPT_INDEPENDENT_REVIEW, binding main's review MAIN_REVIEW.json at the pushed S225 commit 54cfec661 (sha256 392e593c…), the specification f3334814… and the seal 39ce620a8; a separate commit, reachable from origin/main. The audit lane may now run P210 from a fresh clone under B1787's named caveats; a pass confirms the lane's arithmetic, not P-210. 0 of 19.
+
 ## S225 B1786 THE SLOPE 2/5 CARRIES THE SIX OUT OF SAMPLE — A SELECTION BY THE DATA, NOT A DERIVATION; B1788 THE CLOSED FORM OF THE EXPONENTS; B1787 P210 REVIEWED BY MAIN; THE SEATS (2026-10-27)
 
 - **B1786** (sealed 11ebe577b; census 4b5d8c602, comparison c31c4d0e1, each committed unread, then read once): on the lines of order 25 and 30, never compared with the six before, the 30 slope-2/5 lines carry the six specifically (χ²_six 3.005; 8 of 160 000 random hierarchies as low) and no line of any other slope comes below 16.75 — the slope 1/10, with the same leading second-generation exponents, bottoms out at 919; the decisive cell holds as sealed; Bonferroni passes at m = 41 and 73; not PASSED — under the class-choosing null (random hierarchies may choose their own slope class; main's hostile referee, 10 million fresh targets) m·r is 0.0099–0.0112 at m = 41, on the gate, and 0.018–0.020 at m = 73; a READING; the offset pairs are the mirror b ↔ 3/5 − b. The census (126 MB) is committed gzipped with its sha256; a first comparison run killed by a machine reboot is kept unread.
