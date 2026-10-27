@@ -1,0 +1,24 @@
+tau 0.3 + 3.03i dR    L_max: up -0.320000, down +0.700000, theta_Y +0.380000; |dJ| 5.5e-17; max |dlog10 ratio| 9.7e-12
+tau 0.3 + 3.03i dR    L_2  : up -0.320000, down +0.700000, theta_Y +0.380000; |dJ| 3.1e-16; max |dlog10 ratio| 2.2e-11
+tau 0.3 + 3.03i F_2   L_max: up -0.919432, down -0.299949, theta_Y +0.780618; |dJ| 6.1e-18; max |dlog10 ratio| 8.8e-01
+tau 0.3 + 3.03i F_2   L_2  : up +0.767735, down -0.533027, theta_Y +0.234708; |dJ| 5.6e-18; max |dlog10 ratio| 5.5e-01
+tau 0.3 + 3.03i F_6   L_max: up -0.070000, down +0.450000, theta_Y +0.380000; |dJ| 8.6e-18; max |dlog10 ratio| 6.8e-13
+tau 0.3 + 3.03i F_6   L_2  : up -0.070000, down +0.450000, theta_Y +0.380000; |dJ| 6.7e-18; max |dlog10 ratio| 4.2e-13
+tau 0.3 + 3.03i F_22  L_max: up -0.070000, down +0.450000, theta_Y +0.380000; |dJ| 6.9e-17; max |dlog10 ratio| 6.8e-13
+tau 0.3 + 3.03i F_22  L_2  : up -0.070000, down +0.450000, theta_Y +0.380000; |dJ| 1.0e-17; max |dlog10 ratio| 2.5e-13
+tau 0.55 + 2.6i dR    L_max: up -0.320000, down +0.700000, theta_Y +0.380000; |dJ| 7.4e-15; max |dlog10 ratio| 1.4e-12
+tau 0.55 + 2.6i dR    L_2  : up -0.320000, down +0.700000, theta_Y +0.380000; |dJ| 4.7e-15; max |dlog10 ratio| 1.1e-12
+tau 0.55 + 2.6i F_2   L_max: up -0.479216, down -0.275330, theta_Y -0.754546; |dJ| 7.6e-18; max |dlog10 ratio| 7.0e-01
+tau 0.55 + 2.6i F_2   L_2  : up -0.879287, down -0.602811, theta_Y +0.517902; |dJ| 3.5e-18; max |dlog10 ratio| 1.5e-01
+tau 0.55 + 2.6i F_6   L_max: up -0.070000, down +0.450000, theta_Y +0.380000; |dJ| 1.8e-17; max |dlog10 ratio| 1.1e-12
+tau 0.55 + 2.6i F_6   L_2  : up -0.070000, down +0.450000, theta_Y +0.380000; |dJ| 9.1e-17; max |dlog10 ratio| 3.9e-13
+tau 0.55 + 2.6i F_22  L_max: up -0.070000, down +0.450000, theta_Y +0.380000; |dJ| 3.0e-16; max |dlog10 ratio| 1.1e-12
+tau 0.55 + 2.6i F_22  L_2  : up -0.070000, down +0.450000, theta_Y +0.380000; |dJ| 9.1e-18; max |dlog10 ratio| 3.9e-13
+tau 1.2 + 3.4i dR    L_max: up -0.320000, down +0.700000, theta_Y +0.380000; |dJ| 1.6e-16; max |dlog10 ratio| 2.7e-12
+tau 1.2 + 3.4i dR    L_2  : up -0.320000, down +0.700000, theta_Y +0.380000; |dJ| 6.8e-17; max |dlog10 ratio| 9.4e-11
+tau 1.2 + 3.4i F_2   L_max: up +0.619966, down -0.473215, theta_Y +0.146750; |dJ| 6.9e-18; max |dlog10 ratio| 5.1e-01
+tau 1.2 + 3.4i F_2   L_2  : up -0.880034, down -0.598009, theta_Y +0.521957; |dJ| 8.1e-18; max |dlog10 ratio| 4.8e-01
+tau 1.2 + 3.4i F_6   L_max: up -0.070000, down +0.450000, theta_Y +0.380000; |dJ| 7.8e-19; max |dlog10 ratio| 6.8e-13
+tau 1.2 + 3.4i F_6   L_2  : up -0.070000, down +0.450000, theta_Y +0.380000; |dJ| 1.4e-18; max |dlog10 ratio| 5.1e-13
+tau 1.2 + 3.4i F_22  L_max: up -0.070000, down +0.450000, theta_Y +0.380000; |dJ| 4.9e-19; max |dlog10 ratio| 6.8e-13
+tau 1.2 + 3.4i F_22  L_2  : up -0.070000, down +0.450000, theta_Y +0.380000; |dJ| 6.3e-18; max |dlog10 ratio| 2.2e-13
