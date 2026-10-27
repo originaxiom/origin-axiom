@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1501 of 1501 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1502 of 1502 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1031)
+## PROVED (1032)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1043,6 +1043,7 @@
 | `B1770` | THE STRONG CP INVARIANT AND DYNAMICAL AXION RELAXATION (P-397): evaluated tree-level arg det(Yu Yd) = -1.856651 rad from modular Hitchin zero-modes, refuting any naive tree-level vanishing of theta_bar; derived the dynamical Peccei-Quinn relaxation via the 10D Ramond-Ramond 4-form axion with decay constant f_a = 1.2116e13 GeV (invisible axion window) and mass m_a = 0.4808 ueV, driving theta_bar_eff to 0 at the QCD instanton minimum and satisfying the neutron EDM bound |d_n| < 1.8e-26 e*cm dynamically. |  | 0 |
 | `B1771` | TOPOLOGICAL THRESHOLD INDEX DELTA B2 = 28 AND FORWARD GAUGE COUPLINGS (P-398): derived the topological threshold index Delta b_2 = 28 (matching dim SO(8) in the E8 adjoint index on Y/Q_8) and evaluated the forward DKL modular correction Delta alpha_2^-1 = 3.095591, yielding forward predictions sin^2 theta_W(M_Z) = 0.231444 (PDG 0.23122, 0.097% rel error) and alpha_EM^-1(M_Z) = 127.987 (PDG 127.95, 0.029% rel error) at alpha_s(M_Z) = 0.1180, replacing the round-trip gap diagnostic with an unconditioned forward derivation. |  | 0 |
 | `B1772` | THE NINETEEN PARAMETERS SYNTHESIS (P-399): synthesized the complete forward derivation chain mapping all 19 Standard Model free parameters to geometric and dynamical moduli structures without continuous parameter tuning; certified that campaign status strictly remains 0 of 19 unconditionally derived under THE_BAR firewall pending the fundamental 10D action and non-perturbative path integral proof. |  | 0 |
+| `B1773` | TWO-DIMENSIONAL HESSIAN AND GVW FLUX STABILIZATION (P-400): computed the full 2D Hessian of the modular potential at tau_* = (1+i*sqrt(84))/3; identified that the pure Eisenstein potential has tachyonic axion curvature d^2V/dx^2 = -7.11e-5; showed that the Gukov-Vafa-Witten flux superpotential W_flux = N_F - tau N_H with coprime flux quanta (N_F, N_H) = (1, 3) provides axion curvature +2.9458, yielding a strictly positive-definite 2D Hessian (det nabla^2 V_tot = +50.412 > 0) and certifying tau_* as a fully stable local vacuum in H. |  | 0 |
 
 ## NEGATIVE (366)
 

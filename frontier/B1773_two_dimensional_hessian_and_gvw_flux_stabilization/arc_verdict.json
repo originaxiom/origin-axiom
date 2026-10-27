@@ -1,0 +1,53 @@
+{
+  "id": "B1773",
+  "arc": "B1773",
+  "title": "Two-Dimensional Hessian Evaluation and Gukov-Vafa-Witten Flux Stabilization of Re(tau)",
+  "verdict": "PROVED",
+  "status": "VERIFIED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B811",
+    "B1670",
+    "B1743",
+    "B1757",
+    "B1762",
+    "B1764",
+    "B1767",
+    "B1768",
+    "B1772"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "agy",
+  "scope": {
+    "frame": "Evaluation of the full 2D gradient and Hessian of the modular effective potential on the upper half-plane H at the modular apex tau_*",
+    "object": "demonstration of full 2D Hessian positive-definiteness (det nabla^2 V_tot = +50.412 > 0) via Gukov-Vafa-Witten flux superpotential W_flux = N_F - tau N_H with coprime flux quanta (N_F, N_H) = (1, 3) stabilizing the axion Re(tau) = 1/3, resolving Caveat 1 (P-400)",
+    "reach": "class",
+    "hypotheses": "Modular apex tau_*; non-holomorphic Eisenstein potential; GVW flux superpotential W = N_F - tau N_H"
+  },
+  "claim_one_line": "TWO-DIMENSIONAL HESSIAN AND GVW FLUX STABILIZATION (P-400): computed the full 2D Hessian of the modular potential at tau_* = (1+i*sqrt(84))/3; identified that the pure Eisenstein potential has tachyonic axion curvature d^2V/dx^2 = -7.11e-5; showed that the Gukov-Vafa-Witten flux superpotential W_flux = N_F - tau N_H with coprime flux quanta (N_F, N_H) = (1, 3) provides axion curvature +2.9458, yielding a strictly positive-definite 2D Hessian (det nabla^2 V_tot = +50.412 > 0) and certifying tau_* as a fully stable local vacuum in H.",
+  "weave_or_thread": "weave (2D Hessian and GVW flux stabilization of the complex modulus)",
+  "points": [
+    "P-400"
+  ],
+  "summary": {
+    "tau_star": [
+      0.333333,
+      3.055050
+    ],
+    "t_star": 4.430013,
+    "flux_quanta": [
+      1,
+      3
+    ],
+    "axion_curvature_d2V_dx2": 2.945839,
+    "dilaton_curvature_d2V_dy2": 17.112924,
+    "det_Hessian_2d": 50.411922,
+    "trace_Hessian_2d": 20.058764,
+    "is_stable_2d": true
+  }
+}
