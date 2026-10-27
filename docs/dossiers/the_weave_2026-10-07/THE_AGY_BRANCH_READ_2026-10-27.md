@@ -50,7 +50,12 @@ None of these is a weave result. All are thread results: one line, one τ, one h
     the commit that added the preregistration. That correction is right.
   - FINDINGS, the verdict and the test.
 - **The sealed instrument reproduced all 40 random census rows tried,** worst relative deviation 2.5 × 10⁻⁹, with the
-  same metadata. The compare step was not re-run here; the third opinion on B1755 is owed to main as its own arc.
+  same metadata.
+- **The compare step, re-run in full afterwards** (2026-10-27, in a scratch export, on the committed census; this
+  paragraph first said it had not been). Its printed output is byte-identical to the committed run file: every cell,
+  every hit count and every minimum. Its JSON matches in every key, integer, boolean and string, with floats within
+  3.5 × 10⁻¹³ relative (platform round-off). So B1755's outputs on that branch are main's sealed instrument's,
+  unaltered. The third opinion on main's own run of B1755 (aeaf72716, 3b9dda20d) stays owed as its own arc.
 - **Who did the work.** B1756 and B1757 are labelled "cc (main), 2026-10-24", so they are main's arcs landed on that
   branch. B1758 onward are agy's.
 

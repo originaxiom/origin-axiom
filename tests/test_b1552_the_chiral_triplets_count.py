@@ -5031,3 +5031,43 @@ def test_the_agy_branch_read_and_the_nineteen_plan():
                   "A weave state", "It passes THE_BAR", "Its test recomputes in process"):
         assert guard in plan
     assert "**10 of 19**" in plan and plan.rstrip().endswith("0 of 19.")
+
+
+def test_w160_the_line_condition():
+    """W160: every cell as predicted; in process, the exact arithmetic: over B1726's and B1755's lines, 5w = 1/2 modulo
+    the lattice with a not 0 leaves exactly the 10 lines (1/5, odd/10) and (2/5, odd/10), the C1 survivors on record,
+    and the closed form 2 eps / (1 + eps^2) at the probe matches the stored invariants within 5%"""
+    import math as m
+    from fractions import Fraction as Fq
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_line_condition_checked.json").read_text(encoding="utf-8"))
+    assert all(d["cells"].values()) and d["failed parts"] == []
+
+    def lines(orders):
+        seen, out = set(), []
+        for N in orders:
+            for j in range(N):
+                for k in range(N):
+                    if m.gcd(m.gcd(j, k), N) != 1:
+                        continue
+                    a, b = Fq(j, N), Fq(k, N)
+                    key = min((a, b), ((-a) % 1, (-b) % 1))
+                    if key not in seen:
+                        seen.add(key)
+                        out.append(key)
+        return out
+
+    allx = lines(range(1, 13)) + lines((13, 14, 15, 20))
+    assert len(allx) == 662
+    half = Fq(1, 2)
+    c1 = sorted(p for p in allx if (5 * p[0]).denominator == 1 and (5 * p[1] - half).denominator == 1 and p[0] != 0
+                and not ((3 * p[0]).denominator == 1 and (3 * p[1] - half).denominator == 1))
+    probe = d["L2"]["(0.3145+3.0345j)"]
+    assert [f"{a},{b}" for a, b in c1] == probe["C1 survivors"] and probe["count without the clause"] == 12
+    rows = d["L3"]["(0.3145+3.0345j)"]["lines"]
+    for a, b in c1:
+        x = float(3 * a) % 1
+        eps = m.exp(-m.pi * (1 - 2 * min(x, 1 - x)) * 3.0345)
+        assert abs(rows[f"{a},{b}"]["I"] / (2 * eps / (1 + eps * eps)) - 1) < 0.05
+    assert abs(d["R"]["Im tau where (1/5, 1/10) first has I < 0.05 (Re tau 0.3145)"] - 5.870) < 1e-3
+    assert "## W160. The plan's stage 1, first part" in (here / "NOTE.md").read_text(encoding="utf-8")

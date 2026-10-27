@@ -1,5 +1,15 @@
 # Changelog
 
+## W160 recorded: B1761's line selection is exact arithmetic, its cutoff an exponent law (relay §287)
+
+- **The test (data-free, own code):** B1761's condition over all 662 lines at four points, its cutoff at five, and
+  B1759's identity. Every cell as predicted.
+- **The result:** C1 is 5w ≡ ½ with a ≠ 0, the 10 lines (1/5, odd/10) and (2/5, odd/10) at every τ. The up residue's
+  invariant is 2ε/(1 + ε²), ε = exp(−π(1 − 2‖3a‖) Im τ), so the 2/5 lines are nearest the null cone at every τ.
+- **Post hoc (labelled):** the a = 0 lines sit nearer still, so the clause a ≠ 0 is load-bearing and chosen.
+- **Also:** the agy read's B1755 paragraph corrected (the compare step re-run, byte-identical).
+- **Surfaces.** NOTE (section and row), a lock test, the relay, the ledger row, the state page. 0 of 19.
+
 ## The plan for the 19 adopted; W160's rule, the plan's stage 1 on B1761 and B1759 (relay §286)
 
 - **The owner adopted the plan** ("i agree with you proposed plan"). Its charter governs this seat's derivation

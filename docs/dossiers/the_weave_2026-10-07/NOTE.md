@@ -7726,6 +7726,74 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W160. The plan's stage 1, first part (the owner adopted the plan: "i agree with you proposed plan"): the agy branch's line selection B1761 is exact arithmetic at every τ, and its cutoff is an exponent law. On this seat's own residues R_i^up ∝ θ₂(3πw)θ₂(5πw), so B1761's C1 is 5w ≡ ½ with a ≠ 0: the 10 lines (1/5, odd/10) and (2/5, odd/10) at every point. On them the up residue's invariant is 2ε/(1 + ε²), ε = exp(−π(1 − 2‖3a‖) Im τ), so the 2/5 lines are nearest the null cone at every τ. B1759's identity is the record's own kernel formula. Every cell as predicted (`the_line_condition_checked.py`; `W160_RULE.md`)
+
+**Why.** The plan for the 19 (`THE_NINETEEN_PLAN_2026-10-27.md`), adopted by the owner, asks for third opinions on the
+agy branch's kept leads, on own code, before anything is built on them. B1761 claims a data-free selection of the
+data's lines; B1759 claims sector-blind puncture norms.
+
+**The order.**
+- The rule (`W160_RULE.md`, d377e1ac7) was committed and pushed before the script existed. Its hand work (the zero
+  law, the survivors and the closed form) was done before the rule and disclosed, with B1761's run file.
+- The script (9529166cd) was committed before its one run. Before that commit it was checked only for syntax and for
+  the names it reads.
+- The run took 63 s. Its output (3b5168982) was committed unread, after a check of the exit, tracebacks, failed parts
+  and paths only, then read once.
+
+**The result (COMPUTED; one run; every cell as predicted). No data are read.**
+- **L0, the instrument.**
+  - The own enumeration reproduces B1726's 266 lines and B1755's 396 exactly, in order.
+  - At the probe, on 31 lines and all three sectors, main's residues (B1656's functions at 3b9dda20d) and this seat's
+    60-digit ones agree up to one factor per line and sector, to 1.2 × 10⁻¹⁴. Where own is zero, main's is below
+    1.5 × 10⁻¹⁵ of ∣R∣.
+- **L1, the zero law, exact.** At four points (Im τ from 1.07 to 3.45), over all 662 lines:
+  - R_i^up = 0 exactly on the 17 lines with 5w ≡ ½ or 3w ≡ ½: one of order 2, four of order 6 and twelve of order
+    10.
+  - R_i^down = 0 exactly on the five with 3w ≡ ½ or w ≡ ½.
+  - Every other value lies above 10⁻²⁵, every zero below 10⁻⁴⁰: no mismatch, nothing in between.
+- **L2, C1's survivors.** At each of the four points, B1761's C1 leaves exactly the 10 lines (1/5, odd/10) and
+  (2/5, odd/10). Without its clause a ∉ {0, ½} it leaves 12, adding (0, 1/10) and (0, 3/10). None is of order 13–20.
+- **L3, the cutoff as an exponent law.**
+  - **(i)** On the 10 lines, I = 2ε/(1 + ε²) holds within 4.3% at the probe, 2.6% at 0.85 + 3.45i and 0.11% at
+    0.5 + 6i. At the probe the 2/5 lines read 0.0063–0.0068 against the closed form's 0.0066, and the 1/5 lines
+    0.2905–0.2910 against 0.2907.
+  - **(ii)** At all five points every 2/5 line is nearer the null cone than every 1/5 line. That includes Im τ = 1.07,
+    where the closed form itself is off by up to 53% (I 0.16–0.40 against 0.75–0.85).
+- **L4, B1759.** c_s(−3w) = c_s(3w) on the 10 lines at the probe, to 3.7 × 10⁻¹⁵.
+- **The read-outs.**
+  - B1761's C1 + C2 leaves the five 2/5 lines at Im τ 2.05, 3.03 and 3.45, none at 1.07, and all ten at 6.
+  - The 1/5 lines first pass C2's I < 0.05 at Im τ = 5.87004 (bisection), against the hand value 5.87002.
+  - R_i^lep is nonzero on the C1 lines (0.645–0.673 of ∣R∣). Its values pair the 1/5 and 2/5 lines.
+
+**What it shows (a READING on the computed facts).**
+- **B1761's selection is exact and τ-free.** "C1" is 5w ≡ ½ with a ≠ 0: the up sector's i-channel zero, made by the
+  up quarks' charge difference q_Q − q_u = 5 (in sixths) carrying the line to the half-period ½.
+- **Its cutoff is not a free number.** Among the 10 lines the 2/5 ones are nearest the null cone at every τ, by an
+  exponent gap of (3/5 − 1/5)π Im τ. An argmin replaces the cutoff; the fixed 0.05 holds only below Im τ ≈ 5.87.
+- **B1759 adds nothing new.** Its identity is W87's and W89's kernel formula. Its consequence stands: the sectors
+  split only through dl (5w, −w and −9w for up, down and leptons).
+- **Post hoc (labelled; by hand, then checked once on W160's own functions after the read-out):**
+  - The a = 0 lines (0, 1/10) and (0, 3/10), which C1 removes by its clause, sit nearer the cone still. There
+    ‖3a‖ = 0, and to first order I ≈ 4e^{−π Im τ}(1 − cos 6πb).
+  - At the probe I = 3.8 × 10⁻⁴ and 5.5 × 10⁻⁵ (the estimate agrees to 10⁻⁸ relative), against 0.0063–0.0068 on the
+    2/5 lines.
+  - So "the up residue nearest the cone" selects the data's lines only together with a ≠ 0. That clause carries
+    information, and it is still a choice.
+  - Under T (τ → τ + 1), a line (a, b) goes to (a, b − a). The five (2/5, odd/10) form one T-orbit and the five
+    (1/5, odd/10) another, while the a = 0 lines are fixed. The clause a ≠ 0 therefore keeps the two orbits that
+    move under T.
+- **What the plan's stage 2 now asks, in three parts:**
+  - why the up sector's i-channel vanishes (5w ≡ ½);
+  - why the line moves under T (a ≠ 0);
+  - why the up residue sits nearest the cone.
+
+  All three are now exact statements, not cutoffs.
+
+**Weave or thread.** A frame result, data-free. Every line of both lists is taken, and the claims are about all lines
+at once. C1 is still a chosen condition: W160 does not make it forced.
+
+0 of 19.
+
 ## W159. The two-object route, tried again (the owner's "Try again"): the record's own Higgs DR carried by the forced group on the qubit, each image DR read at a modular image of τ with DR's own mixing, cannot reach the nine at the strip. The least χ²_nine over the 576 pairs is 315, and scaling the mixing helps only to 189 near λ = 3, the mixing the free fit has, so the missing piece is the two Higgs fields' relative orientation, not only their mixing. K0 holds to 3 × 10⁻¹⁶, K1 fails, K2 moot: a post hoc NEGATIVE for its question (`the_higgs_orbit_pair.py`; `W159_RULE.md`)
 
 **Why.** W158 showed that pure directions kill a generation, so a principled Higgs pair must be mixed, with its
@@ -13474,6 +13542,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W160 | COMPUTED (the rule first; one run; every cell as predicted); a frame result, data-free | the plan's stage 1 on the agy branch's B1761 and B1759, own code: R_i^up ∝ θ₂(3πw)θ₂(5πw), so B1761's C1 is 5w ≡ ½ with a ≠ 0, the 10 lines (1/5, odd/10) and (2/5, odd/10) at every τ (12 without the clause, none of order 13–20); main's residues agree to 1.2 × 10⁻¹⁴; the cutoff is an exponent law, I = 2ε/(1 + ε²), ε = exp(−π(1 − 2‖3a‖) Im τ), within 4.3% at Im τ ≥ 3, the 2/5 lines nearest the cone at every τ, the fixed 0.05 failing at Im τ = 5.870; B1759 is the record's own kernel formula. Post hoc: the a = 0 lines sit nearer the cone still (I = 3.8 × 10⁻⁴ and 5.5 × 10⁻⁵ at the probe), so the clause a ≠ 0 (the lines that move under T) is load-bearing and chosen. 0 of 19 |
 | W159 | COMPUTED (the rule first; one run; K0 as predicted, K1 failed, K2 moot); a frame result at the six's strip, post hoc on the nine | the two-object route tried again: H_u, H_d as two of the 24 images of the record's DR under the forced group on the qubit (each DR at a modular image of τ, with DR's mixing), type II, the seat's menu, at the 38 strip rows: least χ²_nine 315 over the 576 ordered pairs (one Higgs 455; the record's pair 581). Scaling DR's mixing by λ helps only to 189, near λ = 3. The forced moves offer relative orientations of 4°–6° or 55° and more; the missing piece is the second Higgs's direction, not only its mixing. 0 of 19 |
 | W158 | COMPUTED (the rule first; one run; K0 as predicted, K1 failed, K2 moot); a frame result at the six's strip, post hoc on the nine | the two-object route as named: H_u, H_d on W152's 26 special lines, type II, the seat's menu, at the 38 strip rows of B1749 and B1753: least χ²_nine 154 377 over the 676 ordered pairs (u/t, d/b, e/τ at 10⁻¹² to 10⁻¹³ of measured). Every special line is null, so by W96's joint law det Y = 0 in every sector: the first generation is massless, exactly, foreseeable and missed by the rule's 20%. The light generation lives in the departure from the cone (W152's r); a principled pair must be mixed, its mixing a number unless fixed. 0 of 19 |
 | W157 | COMPUTED (the rule first; one run; twelve cells as predicted; A1 failed as coded, holds as worded, diagnosed); a thread-and-frame result | the third opinion on main's B1753: compare.py re-runs with every cell identical (one value at 2.8 × 10⁻¹²); the calibration reproduces exactly on own code (seat 2.739, 7 of 80 000; 1789 and 1808 at 0; χ²_nine 183.32); the 630 necklaces of length 13 give the 446 words and 223 points, fresh against 745 shorter words (94 mirror pairs, 129 independent; nearest older top point 2.7 × 10⁻⁴); the 48 lines; the best rows to 10⁻¹⁰, D 10.754 and 10.917; 26 rows below the bar, 13 mirror pairs, all in the T-law class (2/5, odd/10) of 12 (64 among 266); main's pricing on B1749's census to the count (16, 2, 1, 155); c = 1 alone 154.2 and 19.1%. Agrees with main's scope: the line rule a pick in effect (α = 2/5, then order 10); ungraded, a READING. 0 of 19 |

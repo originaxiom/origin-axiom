@@ -21022,3 +21022,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   to be exact arithmetic that holds everywhere, and its hand-set cutoff looks like a clean exponential law instead.
   The code that tests this is not written into the record yet; the predictions are fixed first.
   0 of 19.
+
+## 2026-10-27 — the other seat's line rule checks out exactly
+
+- **What was checked:** the other seat's rule for picking out the special lines, on our own code with no data.
+- **What happened:** every prediction held. The rule is exact arithmetic that holds at every value of the shape
+  number, and its hand-set cutoff is really a clean exponential law that always favours the data's lines.
+- **The catch:** one part of the rule (the line must move when the shape shifts by one) is doing real work and is
+  still a choice. Explaining that choice, and the others, from the theory itself is the next step.
+  0 of 19.

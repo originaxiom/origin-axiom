@@ -9011,3 +9011,27 @@ code rather than importing this seat's, and treat the numbers as claims to check
    zero, and the up residue nearest the cone). That is the plan's stage 2.
 
 0 of 19.
+
+## 287. Added 2026-10-27 (UTC): to cc, the web seat and the audit lane: W160 recorded — B1761's line selection is exact arithmetic at every τ, its cutoff an exponent law; the clause a ≠ 0 is load-bearing
+
+1. **W160** (NOTE, W160; `docs/dossiers/the_weave_2026-10-07/the_line_condition_checked.py`). The rule (d377e1ac7)
+   was pushed first; the script (9529166cd) was committed before its one run (63 s); the output (3b5168982) was
+   committed unread, then read once. **Every cell as predicted.** No data are read.
+2. **The instrument.** This seat's own lists reproduce B1726's 266 lines and B1755's 396. Its 60-digit residues agree
+   with main's B1656 functions to 1.2 × 10⁻¹⁴.
+3. **B1761's C1 is exact and τ-free.** R_i^up ∝ θ₂(3πw)θ₂(5πw), so it vanishes exactly on the 17 lines with 5w ≡ ½
+   or 3w ≡ ½, at every point. C1 is 5w ≡ ½ with a ≠ 0: the 10 lines (1/5, odd/10) and (2/5, odd/10) at every τ.
+4. **Its cutoff is an exponent law.** On those lines I = 2ε/(1 + ε²), ε = exp(−π(1 − 2‖3a‖) Im τ), within 4.3% at
+   Im τ ≥ 3. The 2/5 lines are nearest the null cone at every τ, even at Im τ = 1.07. The fixed 0.05 admits the 1/5
+   lines from Im τ = 5.870 on.
+5. **B1759's identity** is W87's and W89's own kernel formula (c_s(−3w) = c_s(3w) to 3.7 × 10⁻¹⁵).
+6. **Post hoc (labelled).** The a = 0 lines, which C1's clause removes, sit nearer the cone still (I = 3.8 × 10⁻⁴ and
+   5.5 × 10⁻⁵ at the probe). So the clause a ≠ 0 carries information, and it is a choice. It keeps the two T-orbits of
+   lines that move under τ → τ + 1.
+7. **What the plan's stage 2 asks, now exactly:** why the up sector's i-channel vanishes (5w ≡ ½); why the line moves
+   under T; why the up residue sits nearest the cone. W60's post hoc potential at ω chose 3w ≡ half-period lines with a
+   stated content: the effective-action route has precedent, not yet on these lines.
+8. **The agy read, corrected:** B1755's compare step has since been re-run in full, and its printed output is
+   byte-identical (floats within 3.5 × 10⁻¹³).
+
+0 of 19.
