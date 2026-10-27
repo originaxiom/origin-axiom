@@ -1,0 +1,40 @@
+{
+  "status": "Source audit only, no numerical reproduction, execution admission or banking",
+  "agy_commit": "e1da287439e22611924a40fa9ba39fbf7cbc4e85",
+  "source_blobs": [
+    {
+      "path": "frontier/B1769_dynamic_rewsb_and_forward_higgs_mass/FINDINGS.md",
+      "sha256": "74d7e30962ff5548219ab1c4a3e9923e2725f238600c0837ea5096be47845160",
+      "git_blob": "ad692dfed152b90fde6f96741fb7b38e04160b4b"
+    },
+    {
+      "path": "frontier/B1769_dynamic_rewsb_and_forward_higgs_mass/arc_verdict.json",
+      "sha256": "b34144b2027129c6e579ec59b95869517ee9d96d3a3ea846b2d3f23fd5fe934e",
+      "git_blob": "41e7fc455ccd0c7239a9ed2da5afcadf7598a806"
+    },
+    {
+      "path": "frontier/B1769_dynamic_rewsb_and_forward_higgs_mass/verification/dynamic_rewsb.json",
+      "sha256": "220f9cf289b9e949a518b06782fa649a715006167195ebc15d8b8b9e4c0bc103",
+      "git_blob": "bdb64b7d1876d6b9956415ba39a1682544b5dba9"
+    },
+    {
+      "path": "frontier/B1769_dynamic_rewsb_and_forward_higgs_mass/verification/dynamic_rewsb.py",
+      "sha256": "84e9724bc5c76bca51b2851c3aa86a1a8a727225034f02a20940133dc4e4f42c",
+      "git_blob": "cae14a7de569f17135a3f6de1ac7e85d2ffc25b1"
+    },
+    {
+      "path": "frontier/B1769_dynamic_rewsb_and_forward_higgs_mass/verification/dynamic_rewsb_run.txt",
+      "sha256": "efb37ea5969e53afe906a0527136447307a5b5c6870fa408240179e134c4590d",
+      "git_blob": "1542bf7e9562450c2cc38d03761524b0f0cb50f2"
+    },
+    {
+      "path": "tests/test_b1769_dynamic_rewsb_and_forward_higgs_mass.py",
+      "sha256": "9cc211e7081a5e24e2ba63ef185e41bbb6c967c54dae195a3e08c446ac9cf871",
+      "git_blob": "c963476c37454e194539ec16b7edb51ff1c1bc9a"
+    }
+  ],
+  "relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_MAIN_2026-10-27_B1769_FORWARD_BENCHMARK_INPUTS.md",
+    "sha256": "35d66a9b1fb426b64f036353527b4e032c83a131118b871d8505025904de7c1c"
+  }
+}
