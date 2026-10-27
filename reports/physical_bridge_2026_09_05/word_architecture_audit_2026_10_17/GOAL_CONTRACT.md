@@ -719,6 +719,34 @@ and execution scopes are unchanged. Next: establish the actual source
 relative heat estimates and physical insertion/matching weights before
 any evaluation. The full input-reduction mission remains active.
 
+## October 27: actual fermion relative heat estimates derived
+
+The [actual-operator proof](ACTUAL_FERMION_RELATIVE_HEAT_EXISTENCE.md)
+proves the preceding lemma's heat hypotheses for each fixed compact-core
+flat Wilson background in the specified parallel phase, conditional on
+its recovered complete fermion construction. Compactly localized elliptic
+smoothing plus a split Duhamel integral gives an OPERATOR trace-class
+result. Local flat gauge conjugacy and compact-to-tail integrated L2
+bounds cancel all small-time trace coefficients. A trace-norm semigroup
+telescoping argument yields exponential large-time decay after the
+actual kernel projections. Every angular channel remains included.
+
+Different compact representatives of the same character give the same
+relative determinant. A compact scalar-potential control retains a
+nonzero short-time coefficient, exposing the mistake of deducing flat
+UV behavior from compact support alone. These are authored, unreviewed
+analytic proofs with no new scientific executable, test or import run.
+Their source hashes and primary-reading scope are recorded separately.
+They discharge this analytic task at author-proof level for the fermion
+sector, not the full physical F^2 determinant. Independent review remains
+required; earlier seals and review scopes are unchanged.
+
+Next: the compatible real background-field Hessian, gauge/ghost measure
+and gauge insertion weights, plus the actual light kernels and global
+spectral values. No selected Wilson character, measured value, chiral
+three-generation spectrum or gravity has been supplied by this proof.
+The full input-reduction goal remains active.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
