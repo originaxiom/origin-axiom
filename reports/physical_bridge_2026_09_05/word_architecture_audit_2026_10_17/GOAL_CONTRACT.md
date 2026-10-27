@@ -654,6 +654,31 @@ controls, not a new scientific run/admission or measured coupling result.
 The next packet needs the full real background-field Hessian and its
 physical measure/end normalization; the full SM/gravity goal is intact.
 
+## October 27: common SU5 end and relative normalization reduction
+
+The [universal-end proof](UNIVERSAL_SU5_END_AND_RELATIVE_GAUGE_THRESHOLD.md)
+checks all three gauge traces on5,10,24 with the source's normalized
+hypercharge. The six derived end thresholds therefore have identical
+coefficients for gauge1,2,3. Universal tail contributions cancel in
+the two relative gauge observables, rather than providing a weak-only
+shift. With a local source-covariant regulator and smooth domain,
+flat Wilson data also leave local counterterms universal. Common local
+normalization cancels conditionally in differences; the absolute
+coupling and Wilson/global spectral dependence remain priced.
+
+This is not a proof of global relative trace-class convergence or a
+physical loop coefficient: the actual field/ghost/spin insertion,
+light modes, compact core and end law retain their duties. The next
+calculation should use differences before arbitrary absolute finite
+subtraction. No scientific import/run, observed coupling credit or
+extension of earlier review/execution seals. The proof awaits review.
+
+Fetch also recovered main4b5d8c602, SM177778d94 and chat1 3a4ef5c67.
+Read main's adopted MAINS_PLAN: our field/action/domain reduction lane
+is explicitly retained. Its unread census and chat1 unread readouts
+were NOT inspected. Their programmes are not taken as accepted physics
+or rerun here. Full input-reduction SM/three/gravity mission continues.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

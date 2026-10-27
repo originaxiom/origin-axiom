@@ -1,0 +1,25 @@
+{
+  "status": "Unreviewed hand relative-threshold/control proof, no scientific execution or certified coupling",
+  "base_commit": "9185cb1690c3fcbf91a190e47b9da982e27fc589",
+  "main_commit": "4b5d8c60244947ea42a546c8a6538164c609653f",
+  "main_plan_sha256": "05de169d228f7caadf44bc3987dd258883c72d0d2f36590bb8e8d5d8fcd645d7",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/UNIVERSAL_SU5_END_AND_RELATIVE_GAUGE_THRESHOLD.md",
+      "sha256": "7b04982a308a257db1e65846cff5aa84cbb5d6d64737e2cdd6475049853c9def"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SM_PARALLEL_WEAK_WEIGHTED_MASS_THRESHOLDS.md",
+      "sha256": "0a3df3cc6437db563e4e6741816ae6413171097a41839b5d13ec426b931efbc4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_GAUGE_COMPLEX_AND_THRESHOLD_CANCELLATION_CONTROLS.md",
+      "sha256": "24704c2b63c8887be04adc454ec537d6048a7ca22006b3cf26b719f50530a2c3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    }
+  ],
+  "scientific_execution": "none; no other seats sealed unread data inspected"
+}
