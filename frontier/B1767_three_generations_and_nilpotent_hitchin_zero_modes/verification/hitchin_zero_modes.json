@@ -1,0 +1,43 @@
+{
+  "genus": 3,
+  "chiral_generations": 3,
+  "differentials": [
+    {
+      "name": "omega_1",
+      "a": 0,
+      "b": 2,
+      "form": "dx / w^2",
+      "rep": "1 (singlet)",
+      "z_parity": 1
+    },
+    {
+      "name": "omega_2",
+      "a": 0,
+      "b": 3,
+      "form": "dx / w^3",
+      "rep": "2 (doublet_0)",
+      "z_parity": -1
+    },
+    {
+      "name": "omega_3",
+      "a": 1,
+      "b": 3,
+      "form": "x dx / w^3",
+      "rep": "2 (doublet_1)",
+      "z_parity": -1
+    }
+  ],
+  "gram_is_1_plus_2_block_diagonal": true,
+  "gram_zero_entries": [
+    "G_12",
+    "G_13",
+    "G_21",
+    "G_31"
+  ],
+  "hitchin_selection": {
+    "dim_S6": 0,
+    "casimir_Q2": 0.0,
+    "is_strictly_nilpotent": true
+  },
+  "certified": true
+}

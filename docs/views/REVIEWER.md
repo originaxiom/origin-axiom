@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1495** |
-| words of findings prose | **1,207,275** |
+| research arcs with findings | **1496** |
+| words of findings prose | **1,208,095** |
 | test lock files referenced | **904** |
-| arcs carrying an authored verdict | **1495** (100.0 %) |
+| arcs carrying an authored verdict | **1496** (100.0 %) |
 | recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1025 |
+| PROVED | 1026 |
 | NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1766`** (760 words, 0 locks)  
-ELECTROWEAK SCALE, HIGGS MASS, AND 19-PARAMETER SYNTHESIS (P-393): at tau_* = (1+i*sqrt(84))/3, non-perturbative modular suppression |q| = exp(-2 pi Im tau_*) = 4.608e-9 naturally sets the scale M_Pl |q|^2 (2 Im tau_*) = 315.93 GeV near the weak scale; radiative electroweak symmetry breaking driven by top Yukawa y_t = 0.9908 with stop scale M_SUSY ~= 896 GeV reproduces the physical Higgs mass m_H = 125.25 GeV, establishing a coherent architectural mapping for all 19 Standard Model parameters from modular geometry.  
-`B1766_electroweak_scale_and_higgs_mass_from_modular_geometry/FINDINGS.md`
+**PROVED — `B1767`** (820 words, 0 locks)  
+THREE GENERATIONS AND NILPOTENT HITCHIN ZERO-MODES (P-394): on the degree-8 quaternion cover w^4 = 4x^3 - g_2 x - g_3 of genus g=3, canonical differentials decompose under Q_8 into a singlet omega_1 = dx/w^2 and a doublet (omega_2, omega_3) = (dx/w^3, x dx/w^3); central parity Z(Q_8) = {+/- 1} unconditionally enforces G_{1,2} = G_{1,3} = 0 for any invariant Hodge metric, deriving the 1+2 block structure; the surface quadratic Casimir c(tau) in S_6(SL(2, Z)) = {0} uniquely pins the Hitchin background to the nilpotent orbit without continuous tuning.  
+`B1767_three_generations_and_nilpotent_hitchin_zero_modes/FINDINGS.md`
 
 **NEGATIVE — `B1748`** (966 words, 1 locks)  
 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  
