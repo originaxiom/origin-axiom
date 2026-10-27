@@ -308,8 +308,8 @@ Their half-squares give (1/2)(4g^2v^2)(h^2+pi^2), the vector mass
 term is (1/2)(4g^2v^2)v_mu v_mu, and the gaugino/Goldstone Weyl
 mass has magnitude 2gv. The orthogonal chiral combination stays
 massless; it is not deleted to make this control pass. This checks
-the real/complex factors in (1), (5), (8)-(12) and the massive -2
-spin-weight control. It is a hand algebra check, not a scientific
+the real/complex factors in (1), (5), (8)-(12) and the common massive
+vector-multiplet mass. It is a hand algebra check, not a scientific
 run or a replacement for the actual curved-domain argument.
 
 The bosonic/ghost quadratic operators and relative one-loop weights
