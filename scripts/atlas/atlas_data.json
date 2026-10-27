@@ -14182,6 +14182,22 @@
    "status": "open",
    "domain": "topology"
   },
+  "B1766": {
+   "slug": "electroweak scale and higgs mass from modular geometry",
+   "motifs": [
+    "measurement",
+    "coupling",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B811"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 14,
+   "status": "open",
+   "domain": "dynamics"
+  },
   "B176": {
    "slug": "golden privilege",
    "motifs": [

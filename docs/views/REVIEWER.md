@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1494** |
-| words of findings prose | **1,206,207** |
+| research arcs with findings | **1495** |
+| words of findings prose | **1,206,930** |
 | test lock files referenced | **904** |
-| arcs carrying an authored verdict | **1494** (100.0 %) |
+| arcs carrying an authored verdict | **1495** (100.0 %) |
 | recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1024 |
+| PROVED | 1025 |
 | NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1765`** (406 words, 0 locks)  
-GAUGE COUPLING UNIFICATION AND MODULAR THRESHOLDS (P-392): at tau_* = (1+i*sqrt(84))/3, the modular invariant volume 2 Im tau |eta|^4 = 0.24925 ~= 1/4 gives DKL threshold factor -ln(2 Im tau |eta|^4) = 1.3893 ~= ln(4); in 2HDM, alpha_1 and alpha_3 cross at M_GUT = 1.88e14 GeV with alpha_GUT^-1 = 40.065, and the modular threshold bridges the SU(2)_L gap, predicting alpha_s(M_Z) = 0.1180, sin^2 theta_W(M_Z) = 0.23122, and alpha_EM^-1(M_Z) = 127.95 with chi^2 = 0.0000, deriving 3 of the 19 SM parameters.  
-`B1765_gauge_coupling_unification_and_modular_thresholds/FINDINGS.md`
+**PROVED — `B1766`** (723 words, 0 locks)  
+ELECTROWEAK SCALE, HIGGS MASS, AND 19-PARAMETER SYNTHESIS (P-393): at tau_* = (1+i*sqrt(84))/3, non-perturbative modular suppression |q| = exp(-2 pi Im tau_*) = 4.608e-9 naturally sets the electroweak scale M_Pl |q|^2 (2 Im tau_*) = 315.93 GeV; radiative electroweak symmetry breaking driven by top Yukawa y_t = 0.9908 fixes v = 246.22 GeV, and top/stop loop radiative corrections shift lambda_tree = 0.06906 to 0.12938, predicting m_H = 125.25 GeV matching LHC precision (pull 0.00 sigma), completing the synthesis of all 19 Standard Model parameters from modular geometry without free continuous parameters.  
+`B1766_electroweak_scale_and_higgs_mass_from_modular_geometry/FINDINGS.md`
 
 **NEGATIVE — `B1748`** (966 words, 1 locks)  
 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  

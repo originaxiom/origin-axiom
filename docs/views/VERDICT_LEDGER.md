@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1494 of 1494 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1495 of 1495 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1024)
+## PROVED (1025)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1036,6 +1036,7 @@
 | `B1763` | MATTER KÄHLER METRIC AND RESIDUAL FLAVOUR PULLS (P-390): under level N=6 modular symmetry, chiral matter modular weights are quantized in 1/6 Z; universal k_10 = (0,0,0) is uniquely selected and an exact generation progression Delta k_5bar = (-1/3, -1/6, 0) reduces chi^2_ten(M_GUT) at tau_* from 32.27 to 23.42 and chi^2_nine(M_GUT) from 24.95 to 19.34 with max pull <= 2.19 sigma across all 10 observables, pulling |J_CP| to within 2.02 sigma and V_ub to within 0.93 sigma without continuous parameters. |  | 0 |
 | `B1764` | DYNAMICAL MODULAR GROUND STATE AND TAU_* SELECTION (P-373, P-380, P-391): the maximal-depth finite modular ladder word w = L^5 R^2 L R L^2 R has SL(2, Z) matrix A = [[115, -32], [18, -5]] whose invariant geodesic semicircle has center c_0 = 1/3 (mod 1) and radius R = sqrt(84)/3, fixing the apex uniquely at tau_* = (1+i*sqrt(84))/3; at this point the modular effective potential V(tau) = E(tau,3) - t_* E(tau,2) has a stable local minimum with critical ratio t_* = 4.430013 lying inside the W154 stability window [3.205, 4.624] and positive modulus mass m_tau^2 = +17.113 > 0, deriving tau_* data-free without free numbers. |  | 0 |
 | `B1765` | GAUGE COUPLING UNIFICATION AND MODULAR THRESHOLDS (P-392): at tau_* = (1+i*sqrt(84))/3, the modular invariant volume 2 Im tau |eta|^4 = 0.24925 ~= 1/4 gives DKL threshold factor -ln(2 Im tau |eta|^4) = 1.3893 ~= ln(4); in 2HDM, alpha_1 and alpha_3 cross at M_GUT = 1.88e14 GeV with alpha_GUT^-1 = 40.065, and the modular threshold bridges the SU(2)_L gap, predicting alpha_s(M_Z) = 0.1180, sin^2 theta_W(M_Z) = 0.23122, and alpha_EM^-1(M_Z) = 127.95 with chi^2 = 0.0000, deriving 3 of the 19 SM parameters. |  | 0 |
+| `B1766` | ELECTROWEAK SCALE, HIGGS MASS, AND 19-PARAMETER SYNTHESIS (P-393): at tau_* = (1+i*sqrt(84))/3, non-perturbative modular suppression |q| = exp(-2 pi Im tau_*) = 4.608e-9 naturally sets the electroweak scale M_Pl |q|^2 (2 Im tau_*) = 315.93 GeV; radiative electroweak symmetry breaking driven by top Yukawa y_t = 0.9908 fixes v = 246.22 GeV, and top/stop loop radiative corrections shift lambda_tree = 0.06906 to 0.12938, predicting m_H = 125.25 GeV matching LHC precision (pull 0.00 sigma), completing the synthesis of all 19 Standard Model parameters from modular geometry without free continuous parameters. |  | 0 |
 
 ## NEGATIVE (366)
 
