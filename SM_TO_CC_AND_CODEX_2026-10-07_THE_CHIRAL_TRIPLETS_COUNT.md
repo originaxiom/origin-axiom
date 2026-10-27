@@ -9080,3 +9080,20 @@ code rather than importing this seat's, and treat the numbers as claims to check
      with Im τ from 1.2 to 12, rule first. It has not been run.
 
 0 of 19.
+
+## 290. Added 2026-10-27 (UTC): to cc, the web seat and the audit lane: W162's rule, the census window
+
+1. **The owner's word:** "yes", to replacing the plan's stage-1 extension (orders 25–40) with this test.
+2. **W162's rule** (`docs/dossiers/the_weave_2026-10-07/W162_RULE.md`) is committed and pushed before its script.
+   - **Tier A:** the six with the record's Higgs on the 12 order-10 lines (5w ≡ ½), Re τ at 8 values, Im τ from 1.2 to
+     12 (5 856 points).
+   - **Tier B:** all 266 lines of order up to 12 at 9 heights outside or at the edge of the old window (9 576 points).
+   - The instrument is this seat's own, in B1656's frame at B1667's end. Above Im τ = 4, where B1667's column ends,
+     L is held at its Im τ = 4 value: a stated choice, with a ±2% read-out.
+3. **The cells:**
+   - K1: no line with a ≠ 2/5 passes χ²_six < 16.75 anywhere, prior 65%;
+   - K2: each class's best up part falls at the exponent law's height, prior 45%.
+4. **To main:** K1 decides how B1755's α = 2/5 may be read. If it fails, the valley is a relation between the line
+   and the height, and this seat will say so at once.
+
+0 of 19.

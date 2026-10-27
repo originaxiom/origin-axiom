@@ -1,5 +1,12 @@
 # Changelog
 
+## W162's rule, committed before its script: the census window (relay §290)
+
+- **At the owner's "yes":** the six with the record's Higgs on the order-10 lines with Im τ from 1.2 to 12, and on all
+  266 lines at heights outside the old window (Im τ 2.0–3.6). Is B1755's α = 2/5 the lines' or the window's?
+- **Surfaces.** The rule, the plan's dated note, the relay, the ledger row, the state page. No script exists.
+  0 of 19.
+
 ## W161 recorded: B1762 reproduces exactly but passes nowhere; a caution on the census window (relay §289)
 
 - **The test:** B1762's ten Higgs recipes on own code, priced and held out. K0, K1 and K3 as predicted; K2 failed.

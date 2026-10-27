@@ -21048,3 +21048,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **A caution for the record:** the special lines the data seem to prefer may be an artefact of the range of shapes the
   earlier searches looked at. A test is proposed to settle it.
   0 of 19.
+
+## 2026-10-27 — testing whether the "special lines" are real or an artefact of where we looked
+
+- **The question:** earlier searches only looked at one range of the shape number, and in that range only one family
+  of lines could ever have worked. Now the same scoring is run over a range ten times wider, on the lines that could
+  compete and, more coarsely, on all 266 lines.
+- **Written down before any code:** the predictions and what each outcome would mean.
+  0 of 19.

@@ -76,6 +76,9 @@ Anything else is a free number, counted against the 19.
    - prediction: only α = 2/5 lines pass, and their least χ²_six rises with their distance from odd/10.
 
    This tests whether the valley is a law or a window, and is still a thread result.
+   *Replaced 2026-10-27 at the owner's "yes": by W162 (`W162_RULE.md`), the six on the order-10 lines and on every
+   line of order up to 12 with Im τ from 1.2 to 12, after W160's exponent law showed the line and the height trade
+   off.*
 2. **The line (P-384).** Is B1761's condition forced?
    - The candidate question: does the joint action make the up sector's i-channel vanish? For example, through the up
      sector's symmetric coupling against the down sector's mixed one (W61).
