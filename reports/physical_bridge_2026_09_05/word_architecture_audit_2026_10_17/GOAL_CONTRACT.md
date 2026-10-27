@@ -595,6 +595,23 @@ reduction duty; it does not replace it with fitting or narrower goals.
 Earlier unreviewed compact-family/norm proofs and execution seals retain
 their stated scopes. The full physical mission remains unfinished.
 
+## October 27: recover the positive weak trace without promoting it to a threshold
+
+The [existing-parent weak trace recovery](RECOVERED_E8_WEAK_TRACE_AND_THRESHOLD_SCOPE.md)
+finds Todd=28 directly from the odd112 weak-doublet roster, not from the
+dimension of SO8. Its full-adjoint control gives30, and either extreme
+odd fibre half gives14. These hand traces recover a genuine algebraic
+origin for the number while preserving the actual different fields and
+projections. The commuting cusp completions break weak SU2; R93's separate
+SM gauge phase is retained without splicing its spectrum into this parent.
+
+This removes a supplied-number label only for the stated raw trace.
+It does not derive heavy multiplets, masses, determinant factorization,
+unbroken physical gauge field or measured coupling. The actual same-
+parent threshold remains the next duty. Source recovery and all new
+traces are unreviewed; no scientific producer/import/test was executed.
+Earlier audits/seals remain intact and the full physical mission active.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
