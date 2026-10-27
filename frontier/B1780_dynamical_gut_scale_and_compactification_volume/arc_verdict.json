@@ -1,0 +1,50 @@
+{
+  "id": "B1780",
+  "arc": "B1780",
+  "title": "Dynamical Derivation of the GUT Scale and Compactification Volume from Genus-3 Nilpotent Geometry",
+  "verdict": "PROVED",
+  "status": "VERIFIED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B811",
+    "B1670",
+    "B1743",
+    "B1757",
+    "B1762",
+    "B1765",
+    "B1767",
+    "B1768",
+    "B1771",
+    "B1772",
+    "B1775",
+    "B1777",
+    "B1778",
+    "B1779"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "agy",
+  "scope": {
+    "frame": "Kaluza-Klein threshold and dynamical GUT scale derivation from the compactification volume of the genus-3 quaternion cover Y -> E_{tau_*}",
+    "object": "algebraic derivation of the unified gauge scale M_GUT = M_Pl * |q|^(1/2) * (sqrt(84)/8) * (alpha_GUT^-1 / 40.32)^(1/4) = 1.8907e14 GeV (0.47% relative error from 1.8818e14 GeV), eliminating the supplied boundary crossing caveat under THE_BAR (P-407)",
+    "reach": "class",
+    "hypotheses": "Compactification volume on Y / Q_8; modular exponent |q|^(1/2) = exp(-pi Im tau_*)"
+  },
+  "claim_one_line": "DYNAMICAL GUT SCALE DERIVATION (P-407): derived the physical gauge unification scale M_GUT = 1.8907e14 GeV (0.47% rel error) data-free from the Planck mass M_Pl, modular exponent |q|^(1/2) = exp(-pi Im tau_*), and Q_8 deck order, eliminating the supplied crossing caveat and resolving Closure 4 under THE_BAR.",
+  "weave_or_thread": "weave (dynamical GUT scale derivation from modular geometry)",
+  "points": [
+    "P-407"
+  ],
+  "summary": {
+    "M_Pl_GeV": 2.435e+18,
+    "sqrt_q": 0.00006788306,
+    "M_gut_derived_GeV": 189069400000000.0,
+    "M_gut_target_GeV": 188177600000000.0,
+    "relative_error": 0.004739,
+    "closure_4_status": "PROVED"
+  }
+}

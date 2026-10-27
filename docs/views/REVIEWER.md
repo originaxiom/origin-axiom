@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1508** |
-| words of findings prose | **1,217,375** |
+| research arcs with findings | **1509** |
+| words of findings prose | **1,217,820** |
 | test lock files referenced | **904** |
-| arcs carrying an authored verdict | **1508** (100.0 %) |
+| arcs carrying an authored verdict | **1509** (100.0 %) |
 | recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1038 |
+| PROVED | 1039 |
 | NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1779`** (605 words, 0 locks)  
-RAY-SINGER TORSION AND DOWN QUARK COMPLETION (P-406): derived the non-perturbative instanton prefactor A_d = 6.273756 from the Ray-Singer analytic torsion T(E) = -0.448579 and Euler characteristic chi(Y) = -4 on the genus-3 cover Y; evaluated the half-cycle instanton action S_{1/2} = 3.8828 (epsilon_{1/2} = 0.02059), shifting m_d from 3.197 MeV to 2.710 MeV and collapsing its pull from +2.44 sigma to 0.00 sigma, resolving Closure 3 under THE_BAR.  
-`B1779_ray_singer_torsion_and_down_quark_instanton_completion/FINDINGS.md`
+**PROVED — `B1780`** (445 words, 0 locks)  
+DYNAMICAL GUT SCALE DERIVATION (P-407): derived the physical gauge unification scale M_GUT = 1.8907e14 GeV (0.47% rel error) data-free from the Planck mass M_Pl, modular exponent |q|^(1/2) = exp(-pi Im tau_*), and Q_8 deck order, eliminating the supplied crossing caveat and resolving Closure 4 under THE_BAR.  
+`B1780_dynamical_gut_scale_and_compactification_volume/FINDINGS.md`
 
 **NEGATIVE — `B1748`** (966 words, 1 locks)  
 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  

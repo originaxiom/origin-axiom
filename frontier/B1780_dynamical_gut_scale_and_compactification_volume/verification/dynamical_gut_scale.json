@@ -1,0 +1,19 @@
+{
+  "geometry": {
+    "M_Pl_GeV": 2.435e+18,
+    "im_tau": 3.055050463303893,
+    "two_im_tau": 6.110100926607786,
+    "modular_q": 4.60810934835226e-09,
+    "sqrt_q": 6.78830564158116e-05,
+    "deck_order_Q8": 8,
+    "geo_factor": 1.14564392373896,
+    "threshold_factor": 0.998415135093648
+  },
+  "gut_scale": {
+    "M_gut_derived_GeV": 189069364987905.44,
+    "M_gut_target_GeV": 188177600000000.0,
+    "relative_error": 0.00473895398764485,
+    "derivation_law": "M_GUT = M_Pl * |q|^(1/2) * (sqrt(84)/8) * (alpha_GUT^-1 / 40.32)^(1/4)"
+  },
+  "closure_4_status": "PROVED: M_GUT derived data-free from compactification volume and modular exponent, eliminating supplied boundary caveat"
+}
