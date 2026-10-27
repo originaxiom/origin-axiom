@@ -1,0 +1,123 @@
+{
+  "kind": "CROSS_SEAT_SOURCE_AUDIT_NOT_SCIENTIFIC_EXECUTION",
+  "date": "2026-10-27",
+  "audited_branch": "agy/frontier-2026-10-26",
+  "audited_commit": "046acf2d4dfa095d7f9c2102a2e62894596c94b1",
+  "previous_audited_commit": "3e519e627cb19d093ce4c1e9e2b17f6d5027e3a0",
+  "new_commits": 1,
+  "scope": "Personally read new findings, complete producer and tests; follow imported basis/coupling, targeting, error and channel code; read committed JSON/log; exact hand matrix counterexample. No independent numerical reproduction.",
+  "sources": [
+    {
+      "path": "frontier/B1762_zero_parameter_two_doublet_law_and_ten_observables/FINDINGS.md",
+      "git_blob": "1926722d92708d5ffdcb2cfa5094529d42dbdf79",
+      "sha256": "9120e99e838c544e8fae9b67b1fb20e41f3f7ab70a6067d8b3e6f09e63ecfbd8"
+    },
+    {
+      "path": "frontier/B1762_zero_parameter_two_doublet_law_and_ten_observables/arc_verdict.json",
+      "git_blob": "18381795459d2f214c2d6150ae3bbe48cbce1573",
+      "sha256": "027832dec12be782c54efd7119ffb75605835849c46cf71e57da58d335d55125"
+    },
+    {
+      "path": "frontier/B1762_zero_parameter_two_doublet_law_and_ten_observables/verification/zero_param_two_doublets.py",
+      "git_blob": "edf09d44a2aa3e8e44079e3848270bfb6e3898c6",
+      "sha256": "c0d2f1d5a633bd64fe22d98fa274b4a372aa7ef99fe0b254004ed13ba66710a9"
+    },
+    {
+      "path": "frontier/B1762_zero_parameter_two_doublet_law_and_ten_observables/verification/zero_param_two_doublets.json",
+      "git_blob": "6c412d2ee5c4454f34368cb9d910746d4b9f8fae",
+      "sha256": "4111fcf8a325def2c17cb924e3f3a197bc2d66af5deae27a6431e77b4aa17e7f"
+    },
+    {
+      "path": "frontier/B1762_zero_parameter_two_doublet_law_and_ten_observables/verification/zero_param_two_doublets_run.txt",
+      "git_blob": "d653eb007f435fd9612b35f000b892af3540c58d",
+      "sha256": "f55e887bffe213c3a7744d0643f68116214a66886505fb588119158784c1826d"
+    },
+    {
+      "path": "tests/test_b1762_zero_parameter_two_doublet_law_and_ten_observables.py",
+      "git_blob": "68f38bcef37e96f69d1f036b8eac36520f87e80a",
+      "sha256": "a0bc61a3249a2f47d06a77aa4d36809951a5f553212bc0723d8485144eb1d483"
+    },
+    {
+      "path": "frontier/B1757_step_twos_free_doublets_at_the_strip/verification/free_doublets.py",
+      "git_blob": "4d47dd1b5489fccf2e9724c0a92e1d91b7249518",
+      "sha256": "ca85e2d2d6c06184bf9b0bbe79f51ee7c0e4cf42b1c42160edff79b775678849"
+    },
+    {
+      "path": "frontier/B1761_two_torsion_line_selection_and_schur_higgs_probe/verification/two_torsion_and_schur_higgs.py",
+      "git_blob": "7f4528f28f660d13292d7702eeea2a1ce629f2c7",
+      "sha256": "c1f62a867144afdf63ce1e2e979d510526fbd681b7187b6921f9a9cf2ac114a6"
+    },
+    {
+      "path": "frontier/B1743_the_principled_pencils_and_the_nines_target/verification/pencils.py",
+      "git_blob": "7b4da91bbb73d2d8e2e904230ba6380972c7245c",
+      "sha256": "e23ebabda82dcd9fd5004b490d6bc05f8f03765066619d66cd18c9f6f117bee9"
+    },
+    {
+      "path": "frontier/B1742_two_higgs_verified_on_main/verification/repro.py",
+      "git_blob": "1dfb7d210aadd1741e6276edb839e88652262063",
+      "sha256": "b2baac532466982a6b9b4a654f149273693538656f9b5a9bcf9557e7b0d375f3"
+    },
+    {
+      "path": "frontier/B1742_two_higgs_verified_on_main/verification/scan.py",
+      "git_blob": "93fd64841f99f0f0d4a5e3cf132fe42672fce7d8",
+      "sha256": "48d8f9ce4f4b6792709a20f107e97b641e027ecea190f98825c56f4621869962"
+    },
+    {
+      "path": "frontier/B1740_the_non_null_higgs_under_the_standard_models_reading/verification/compare.py",
+      "git_blob": "8eb49d3ee757600aa1e3b1e50fb9874a64477205",
+      "sha256": "337dd36e9f8164f182080a156318112a8b8efd5a3e0830dabfcfd7611ec5341c"
+    },
+    {
+      "path": "frontier/B1740_the_non_null_higgs_under_the_standard_models_reading/verification/census.py",
+      "git_blob": "6320fe23fd80f71a08d67aebff2048a90bf330ec",
+      "sha256": "f5c874f7149752e33f5579d65a36a1213e1eaed5771f91c8d5bee34fcb40f5f1"
+    },
+    {
+      "path": "frontier/B1723_the_golden_valley/verification/b1656_funcs.py",
+      "git_blob": "34366e8f1d725ebecbbcc2e128f55b5f29780db1",
+      "sha256": "31f09c433c14312d9cee8cfa29a632a72ce13fc46ae838757bf9b22958f22528"
+    },
+    {
+      "path": "frontier/B1637_fits_on_the_ruled_branch/received/HZ2021_running_masses_MZ.json",
+      "git_blob": "dee98c9c9835b04cadeb3af9305c4dbed2890ec5",
+      "sha256": "63450365401c149c726e928f842bc7810086ad4d897a62f51217e3c12189880f"
+    }
+  ],
+  "primary_checks": [
+    {
+      "url": "https://arxiv.org/html/2009.04851v2",
+      "scope": "Numerical section, tables 2-3 and scale/covariance discussion",
+      "access_date": "2026-10-27"
+    },
+    {
+      "url": "https://journals.aps.org/prd/abstract/10.1103/fdcc-ycph",
+      "scope": "Abstract and framework/scale discussion; not whole paper",
+      "access_date": "2026-10-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.04529",
+      "scope": "Citation identity and abstract only"
+    },
+    {
+      "url": "https://arxiv.org/abs/2301.07439",
+      "scope": "Citation identity and abstract only"
+    },
+    {
+      "url": "https://arxiv.org/abs/2205.01120",
+      "scope": "Citation identity and abstract only"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/AGY_B1762_SOURCE_AND_CLAIM_AUDIT_2026_10_27.md",
+      "sha256": "e96a0023af55aa31f2d91792f90260cd4670d71895751f59bed459f2c08ad275"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_2026-10-27_B1762_EXACT_COUNTERCHECK_AND_REPAIRS.md",
+      "sha256": "3d421e981191d643224de0cc37ccf76d719c91486ee7d3d57ce0b3ea886dde18"
+    }
+  ],
+  "verdict": "Numerical lead retained as reported; slice-block theorem contradicted in declared basis; physical zero-input, full-running, entire-strip and global-floor claims not certified",
+  "authored_countercheck_review": "Open to independent checking; explicit multiplication supplied",
+  "science_execution": "NONE; only Git/source/JSON/hash metadata accessed"
+}

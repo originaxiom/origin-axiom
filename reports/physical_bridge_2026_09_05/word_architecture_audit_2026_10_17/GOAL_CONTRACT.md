@@ -335,6 +335,20 @@ cancellation: the same compensating sign cannot be spent twice. No
 physical operator or complete E8 lift is identified by this new,
 UNREVIEWED argument. The next duty is the actual total-field map.
 
+## October 27: agy B1762 refresh and exact claim audit
+
+[Source audit](AGY_B1762_SOURCE_AND_CLAIM_AUDIT_2026_10_27.md) pins
+agy's new 046acf2d4 commit. Its saved flavour improvement is retained,
+without independent numerical reproduction. The actual coupling map
+gives Y(e0)[0,1]=u_j; the advertised slice supports would together
+force all four channel coordinates to zero. The code instead checks
+Gram identities, and its locks only read saved output. The partial
+target deformation is not full GUT running; the entire-strip J range,
+optimizer-floor and physical parameter-removal headlines exceed the
+source. The owner-requested relay supplies the exact algebra and
+constructive repair order on this branch. No incoming result is edited,
+no full-program exclusion is made and no science experiment is run.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
