@@ -1,0 +1,67 @@
+{
+  "kind": "AUTHOR_ANALYTICAL_CUSTODY_NOT_EXECUTION_SPECIFICATION",
+  "date": "2026-10-27",
+  "source_checkpoint": "bce62e28858cac052304e99c6391b177b0285268",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXPLICIT_MATTER_PROFILE_NORM_AND_END_SCOPE.md",
+      "sha256": "0a0fba944ef54b00e1a658f839a1ea93ba6fa7db5b4a3113e9e9cc6dcbe28443"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_COUPLING_TRANSPORT.md",
+      "sha256": "54c7c58701d656ae09351de21e9de0cc8db9dd90f03e4a73102dde1a5c8112f5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/MATTER_COUPLING_REVIEW_INTAKE.md",
+      "sha256": "11c0aaf4d7a2ee0e8a70b7d0ff5b4f9b7aec8f77f4eb088ae10e8addac94cc00"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md",
+      "sha256": "2ba7f4810d821c7aa95fc458ea5219187037381a4bc34830067f36e7f2119678"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_PARENT_VERTEX_GRAM_AND_ONE_LOOP_ROLE.md",
+      "sha256": "2ee2c2bc1c978c7f44a226dd7d6e2aba3d6a6ea6f69792c854881e2ba44b918e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_mode_transport_2026_10_15/PROOF.md",
+      "sha256": "d8e1c1c80d8a8dbed06ef8db190df727d68386614f9cb326f1aad443a7ed21ca"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/upstream_horizontal_projection_PROOF.md",
+      "sha256": "6f5d690c998c25535c950618615fb97831029e62e77c7780138ad85e7c51bff1"
+    }
+  ],
+  "remote_sources": [
+    {
+      "path": "frontier/B1642_the_golden_coupling_as_the_zero_modes_residue/FINDINGS.md",
+      "commit": "2d6681208fa2e4c7249b37a8811e0a09a3092a5b",
+      "sha256": "63c5c5c2c5213ba04b884b8cd3ee2c8c22a3b128f1aeda5f0d81f1bb0b56a0c2"
+    },
+    {
+      "path": "frontier/B1642_the_golden_coupling_as_the_zero_modes_residue/verification/residue_coupling.py",
+      "commit": "2d6681208fa2e4c7249b37a8811e0a09a3092a5b",
+      "sha256": "97705d5793af2a278506685ddb6e9f78f2aceb12cfe619e2afc3b7e900051763"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/VERTICAL_PROFILE_WEDGE_AND_RECONSTRUCTED_CUBIC.md",
+      "sha256": "ba4238c2a8a3bc8b2ecab8db1368fec8da3ea3a4237d08d6f42c9ef12e6ced6f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_MAIN_SM_CHAT1_2026-10-27_ACTUAL_OVERLAP_AND_COMPLEMENT.md",
+      "sha256": "339b4e4ce6b8d29377ff9d4f7f78a7050372dbd779b89aaf7ed11dd3b9678a6e"
+    }
+  ],
+  "review_status": "UNREVIEWED; outside earlier review scopes",
+  "scientific_execution": "NONE",
+  "scope": "Exact surface form-degree control and finite admitted chiral-complement cubic identity; actual physical overlap remains uncomputed",
+  "positive_preserved": "B1642 repaired residue, registered tensor transport and actual nonzero horizontal kinetic mixing",
+  "not_earned": [
+    "Boson/fermion profile dictionary",
+    "Actual residue-to-bulk/defect localization",
+    "Global admitted stationary background, complement inverse and full physical spectrum",
+    "Physical input reduction or SM3/gravity completion"
+  ]
+}

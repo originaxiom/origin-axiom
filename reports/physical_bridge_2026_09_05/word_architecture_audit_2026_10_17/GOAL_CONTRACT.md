@@ -429,6 +429,20 @@ state/end law derives that measure and exponent. The actual profile/
 metric-to-finite-pencil map is the next named calculation. Proof
 UNREVIEWED, no new science run or foundational input payment.
 
+## October 27: actual overlap before a finite-pencil identification
+
+[Vertical wedge and reconstructed cubic](VERTICAL_PROFILE_WEDGE_AND_RECONSTRUCTED_CUBIC.md)
+recovers B1642's already corrected residue with its localized-interaction
+hypothesis. In the actual surface bulk cubic, two connection modes in
+one vertical form line wedge to zero. This scopes the required faithful
+map: retain horizontal/companion response or derive an admitted boundary/
+defect coupling. Existing nonzero total-operator mixing is preserved,
+not automatically read as bosonic connection mixing. Conditional chiral
+complement elimination fixes T(Jx,Jx,Jx) and the metric J^dagger G J;
+nonlinear response cannot create a cubic when linear mixing is absent.
+The actual mode overlap is the next named calculation, not a new fit.
+Proof UNREVIEWED; no scientific execution or physical input payment.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
