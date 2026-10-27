@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1491** |
-| words of findings prose | **1,204,697** |
+| research arcs with findings | **1492** |
+| words of findings prose | **1,205,245** |
 | test lock files referenced | **904** |
-| arcs carrying an authored verdict | **1491** (100.0 %) |
+| arcs carrying an authored verdict | **1492** (100.0 %) |
 | recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1021 |
+| PROVED | 1022 |
 | NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1762`** (1669 words, 0 locks)  
-ZERO-PARAMETER TWO-DOUBLET LAW AND 10-OBSERVABLE FLAVOUR READOUT (P-329, P-357, P-363, P-366, P-377): on data-free line w = (2/5, 1/10), the symmetric cubic parity identity strictly confines M^(up)_0 to 1+2 diagonal blocks and M^(up)_{1,2} to off-diagonal blocks; the zero-parameter two-doublet laws built from inverse-Gram operators and the up-sector Gram boost lambda_{(1,+i)}/lambda_{e1} ~ 1.981 reduce chi^2_nine from 567-1073 (single-Higgs v_DR) to 25.43-27.93 at M_Z and 24.94-26.99 at M_GUT with zero free Higgs parameters, matching the unconstrained 2-parameter numerical floor to within Delta chi^2 <= 0.74 and predicting the Jarlskog CP invariant at |J_CKM| = (2.13-3.09) x 10^-5 (within 0.09-2.46 sigma of PDG (3.08 +/- 0.15) x 10^-5 vs -20.5 sigma for single-Higgs v_DR). 0 of 19.  
-`B1762_zero_parameter_two_doublet_law_and_ten_observables/FINDINGS.md`
+**PROVED — `B1763`** (548 words, 0 locks)  
+MATTER KÄHLER METRIC AND RESIDUAL FLAVOUR PULLS (P-390): under level N=6 modular symmetry, chiral matter modular weights are quantized in 1/6 Z; universal k_10 = (0,0,0) is uniquely selected and an exact generation progression Delta k_5bar = (-1/3, -1/6, 0) reduces chi^2_ten(M_GUT) at tau_* from 32.27 to 23.42 and chi^2_nine(M_GUT) from 24.95 to 19.34 with max pull <= 2.19 sigma across all 10 observables, pulling |J_CP| to within 2.02 sigma and V_ub to within 0.93 sigma without continuous parameters.  
+`B1763_matter_kahler_metric_and_residual_flavour_pulls/FINDINGS.md`
 
 **NEGATIVE — `B1748`** (966 words, 1 locks)  
 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  

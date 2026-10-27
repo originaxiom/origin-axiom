@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1491 of 1491 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1492 of 1492 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1021)
+## PROVED (1022)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1033,6 +1033,7 @@
 | `B1760` | CLASS-CHOOSING AND JOINT-LAW NULL CALIBRATION (P-381, P-384) AND P210 / OCT 26 REDUCTIONS AUDIT (P-386): across 80 000 random hierarchies, all four class-choosing nulls on B1755 (prime divisibility 0.3575% at p=5 / 0.1325% at p=3, exact order 0.1413%, slope alpha 0.4488%, and two-stage B1749->B1755 prime selection 0.1563%) exceed 0.1%, and min chi2_six along alpha=2/5 has Pearson correlation r = 0.8953 between B1749 and B1755; independent cryptographic, AST, and symbolic SymPy audit verifies all 39 artifacts of 39ce620a8 and all 8 Oct 24-26 reduction notes (65dd3c112..926a26f59). 0 of 19. |  | 1 |
 | `B1761` | DATA-FREE 2-TORSION LINE-SELECTION THEOREM AND YUKAWA-GRAM HIGGS DRESSING PROBE (P-349, P-357, P-366, P-373, P-377, P-384): across all 662 lines of N <= 12 and N in {13,14,15,20} (and analytically across Q^2/Z^2), requiring non-trivial tau-slope a not in {0,1/2} and asymmetric 2-torsion e1-kernel (R_i^(up) = 0, R_i^(down) != 0) selects exclusively the 10 order-10 lines a in {1/5, 2/5}, 10b odd, and up-sector isotropic proximity I(u_up) < 0.05 uniquely selects the single 5-line T-orbit a = 2/5, 10b odd with zero SM data; on (2/5, 1/10), Sigma^(up) is strictly 1+2 block-diagonal, Sigma^(lep) = P_e1 Sigma^(down) P_e1, and the zero-parameter inverse-Gram vector H_d = (conj(Sigma^(down)))^(-1) v_012 matches B1757's fitted H_d,opt to 0.999967 (0.463 deg in CP^2) at tau = 0.3145+3.0345i. 0 of 19. |  | 0 |
 | `B1762` | ZERO-PARAMETER TWO-DOUBLET LAW AND 10-OBSERVABLE FLAVOUR READOUT (P-329, P-357, P-363, P-366, P-377): on data-free line w = (2/5, 1/10), the symmetric cubic parity identity strictly confines M^(up)_0 to 1+2 diagonal blocks and M^(up)_{1,2} to off-diagonal blocks; the zero-parameter two-doublet laws built from inverse-Gram operators and the up-sector Gram boost lambda_{(1,+i)}/lambda_{e1} ~ 1.981 reduce chi^2_nine from 567-1073 (single-Higgs v_DR) to 25.43-27.93 at M_Z and 24.94-26.99 at M_GUT with zero free Higgs parameters, matching the unconstrained 2-parameter numerical floor to within Delta chi^2 <= 0.74 and predicting the Jarlskog CP invariant at |J_CKM| = (2.13-3.09) x 10^-5 (within 0.09-2.46 sigma of PDG (3.08 +/- 0.15) x 10^-5 vs -20.5 sigma for single-Higgs v_DR). 0 of 19. |  | 0 |
+| `B1763` | MATTER KÄHLER METRIC AND RESIDUAL FLAVOUR PULLS (P-390): under level N=6 modular symmetry, chiral matter modular weights are quantized in 1/6 Z; universal k_10 = (0,0,0) is uniquely selected and an exact generation progression Delta k_5bar = (-1/3, -1/6, 0) reduces chi^2_ten(M_GUT) at tau_* from 32.27 to 23.42 and chi^2_nine(M_GUT) from 24.95 to 19.34 with max pull <= 2.19 sigma across all 10 observables, pulling |J_CP| to within 2.02 sigma and V_ub to within 0.93 sigma without continuous parameters. |  | 0 |
 
 ## NEGATIVE (366)
 

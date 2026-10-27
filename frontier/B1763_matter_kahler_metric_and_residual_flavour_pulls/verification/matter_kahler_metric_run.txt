@@ -1,0 +1,33 @@
+==============================================================================
+B1763: MATTER KÄHLER METRIC AND RESIDUAL FLAVOUR PULLS
+==============================================================================
+
+--- Strip Apex: tau = 0.3145 + 3.0345i (2 Im tau = 6.0690) ---
+  flat                      | chi2_10(GUT) = 31.75 (9=25.32, J=-2.54s) | chi2_10(MZ) = 32.24
+  step_minus_one_sixth      | chi2_10(GUT) = 23.13 (9=20.45, J=-1.64s) | chi2_10(MZ) = 24.01
+    GUT pulls: me/mmu=-1.79, mmu/mtau=+2.62, md/ms=-0.55, ms/mb=+0.57, mu/mc=+0.18, mc/mt=-0.22
+               Vus=-1.49, Vcb=+2.45, Vub=+1.21, J=-1.64
+  step_minus_one_fourth     | chi2_10(GUT) = 22.24 (9=21.26, J=-0.99s) | chi2_10(MZ) = 23.33
+
+--- Strip Apex: tau = 0.3333 + 3.0551i (2 Im tau = 6.1101) ---
+  flat                      | chi2_10(GUT) = 32.27 (9=24.95, J=-2.71s) | chi2_10(MZ) = 33.21
+  step_minus_one_sixth      | chi2_10(GUT) = 23.42 (9=19.34, J=-2.02s) | chi2_10(MZ) = 24.74
+    GUT pulls: me/mmu=-1.95, mmu/mtau=+2.16, md/ms=-0.63, ms/mb=+0.43, mu/mc=+0.07, mc/mt=-0.73
+               Vus=-2.02, Vcb=+2.19, Vub=+0.93, J=-2.02
+  step_minus_one_fourth     | chi2_10(GUT) = 22.07 (9=19.83, J=-1.50s) | chi2_10(MZ) = 23.61
+
+--- Strip Apex: tau = 0.3145 + 3.1000i (2 Im tau = 6.2000) ---
+  flat                      | chi2_10(GUT) = 57.75 (9=31.28, J=-5.14s) | chi2_10(MZ) = 58.93
+  step_minus_one_sixth      | chi2_10(GUT) = 45.32 (9=26.02, J=-4.39s) | chi2_10(MZ) = 46.89
+    GUT pulls: me/mmu=-3.76, mmu/mtau=+1.66, md/ms=-1.09, ms/mb=-0.04, mu/mc=-0.55, mc/mt=-1.10
+               Vus=-1.43, Vcb=+1.64, Vub=+1.29, J=-4.39
+  step_minus_one_fourth     | chi2_10(GUT) = 41.74 (9=27.09, J=-3.83s) | chi2_10(MZ) = 43.53
+
+--- Strip Apex: tau = 0.3145 + 2.9500i (2 Im tau = 5.9000) ---
+  flat                      | chi2_10(GUT) = 43.37 (9=40.65, J=+1.65s) | chi2_10(MZ) = 42.93
+  step_minus_one_sixth      | chi2_10(GUT) = 44.00 (9=36.26, J=+2.78s) | chi2_10(MZ) = 43.94
+    GUT pulls: me/mmu=+0.70, mmu/mtau=+3.98, md/ms=+0.16, ms/mb=+1.36, mu/mc=+1.13, mc/mt=+0.95
+               Vus=-1.46, Vcb=+3.50, Vub=+1.22, J=+2.78
+  step_minus_one_fourth     | chi2_10(GUT) = 49.37 (9=36.74, J=+3.55s) | chi2_10(MZ) = 49.53
+
+Saved structured results to /Users/dri/oa-audit-seat/agy-seat/frontier/B1763_matter_kahler_metric_and_residual_flavour_pulls/verification/matter_kahler_metric.json

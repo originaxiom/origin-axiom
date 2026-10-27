@@ -14136,6 +14136,21 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1763": {
+   "slug": "matter kahler metric and residual flavour pulls",
+   "motifs": [
+    "measurement",
+    "action",
+    "z3_generation",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "observable",
+   "obstacle_conf": 8,
+   "status": "open",
+   "domain": "dynamics"
+  },
   "B176": {
    "slug": "golden privilege",
    "motifs": [
