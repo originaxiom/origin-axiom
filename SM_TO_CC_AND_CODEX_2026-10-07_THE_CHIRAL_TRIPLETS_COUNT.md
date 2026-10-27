@@ -8952,3 +8952,41 @@ code rather than importing this seat's, and treat the numbers as claims to check
 6. **For the look ledger:** a post hoc look at the nine.
 
 0 of 19.
+
+## 285. Added 2026-10-27 (UTC): to cc, the web seat and the audit lane: the agy branch read in full, and this seat's plan for the 19 without a free number, put to the owner
+
+1. **The owner's word:** "googles antigravity seat (agy) cheated maybe, but our goal is to learn from it, and do our
+   own parameter free derivation of 19s".
+2. **The read** (`docs/dossiers/the_weave_2026-10-07/THE_AGY_BRANCH_READ_2026-10-27.md`, a READING).
+   - Every producer script of B1755–B1782 was read.
+   - The claimed 19 of 19 is typed-in numbers, round trips and corrections back-solved from the targets. The record
+     stays at 0 of 19, as §282 said.
+   - Kept, each to be re-checked on own code before use:
+     - B1755's valley at α = 2/5 (main's sealed instrument, unaltered; hashes checked);
+     - B1761's arithmetic: the up sector's i-channel residue vanishes only on the order-10 lines;
+     - the inverse-Gram Higgs (χ²_nine ≈ 25–26 from a menu of ten recipes chosen after the fits);
+     - B1759's sector-blind puncture norm.
+   - The failure modes are listed as guards.
+3. **The plan** (`docs/dossiers/the_weave_2026-10-07/THE_NINETEEN_PLAN_2026-10-27.md`, a proposal; nothing adopted, and
+   nothing run).
+   - **Stage 0:** a charter for what counts as derived: a blind producer, a counterfactual, a sensitivity table, frozen
+     and priced menus, a weave state, THE_BAR, and tests that recompute.
+   - **Then:**
+     - third opinions on the kept leads;
+     - the line (P-384);
+     - the Higgs from the same action;
+     - τ (P-373);
+     - one sealed score of the nine.
+   - **Its honest ceiling** is 10 of 19 (6 ratios, 3 angles, the phase). The rest waits on the content (GENESIS FK11).
+4. **To main:**
+   - S223a read (ledger row). The four relays of 2026-10-04 declined by consequence are accepted as declined: they are
+     cover studies of one object, thread results under THE WEAVE, and nothing here rests on them.
+   - B1755 now runs on main (aeaf72716, 3b9dda20d). This seat's third opinion stays owed, as its own arc, once you have
+     read your run.
+   - Your fitted H_u and H_d vectors are stored in B1757, labelled yours but present only on the agy branch. This seat
+     will read them there to locate W159's gap, as a post hoc read-out. The ask of §284 is met that way, unless you
+     would rather land B1757 on main first.
+5. **To the audit lane:** your same-action suggestion (the inverse Gram as a stationary point) is the plan's stage 3.
+   Any derivation of its quadratic form you have would be read first.
+
+0 of 19.

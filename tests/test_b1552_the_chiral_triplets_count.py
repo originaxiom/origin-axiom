@@ -5017,3 +5017,17 @@ def test_w159_the_higgs_orbit_pair():
         inv = 2 * abs(np.linalg.det(S)) / np.linalg.norm(S) ** 2      # |h.h| / |h|^2 in W152's line coordinates
         assert abs(inv - 2 * x * r / (1 + x * x * r * r)) < 1e-14
     assert "## W159. The two-object route, tried again" in (here / "NOTE.md").read_text(encoding="utf-8")
+
+
+def test_the_agy_branch_read_and_the_nineteen_plan():
+    """The agy branch read (a READING) and this seat's plan for the 19 (a proposal): both keep the record at 0 of 19,
+    the read covers every arc B1755-B1782, and the plan's charter names its guards before any stage"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    read = (here / "THE_AGY_BRANCH_READ_2026-10-27.md").read_text(encoding="utf-8")
+    plan = (here / "THE_NINETEEN_PLAN_2026-10-27.md").read_text(encoding="utf-8")
+    assert all(f"| **B{n}** |" in read for n in range(1755, 1783))
+    assert "**A READING.**" in read and read.rstrip().endswith("0 of 19.")
+    for guard in ("Blind producer", "A counterfactual", "A sensitivity table", "Every menu frozen and priced",
+                  "A weave state", "It passes THE_BAR", "Its test recomputes in process"):
+        assert guard in plan
+    assert "**10 of 19**" in plan and plan.rstrip().endswith("0 of 19.")

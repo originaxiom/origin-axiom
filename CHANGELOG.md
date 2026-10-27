@@ -1,5 +1,16 @@
 # Changelog
 
+## The agy branch read in full, and this seat's plan for the 19 without a free number (relay §285)
+
+- **The read** (`docs/dossiers/the_weave_2026-10-07/THE_AGY_BRANCH_READ_2026-10-27.md`): every producer script of
+  B1755–B1782. The claimed 19 of 19 is typed-in numbers, round trips and corrections back-solved from targets. Four
+  leads are kept, each to be re-checked on own code, and nine failure modes are listed as guards.
+- **The plan** (`docs/dossiers/the_weave_2026-10-07/THE_NINETEEN_PLAN_2026-10-27.md`), a proposal put to the owner:
+  a charter for what counts as derived, then the line, the Higgs, τ and one sealed score. Its ceiling is 10 of 19.
+  Nothing is adopted or run.
+- **Main's S223a and B1755 run** rowed; the four declined relays of 2026-10-04 accepted as declined.
+- **Surfaces.** The two pages, a lock test, the relay, two ledger rows, the state page. 0 of 19.
+
 ## W159 recorded: the DR orbit cannot carry the nine; the missing piece is the second Higgs's orientation (relay §284)
 
 - **The test:** H_u and H_d as two of the 24 images of the record's Higgs DR under the forced group on the qubit, at

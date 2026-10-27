@@ -21002,3 +21002,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What it means:** the two Higgs fields would need to point in directions the forced symmetries don't produce.
   Nothing in the theory yet says which direction.
   0 of 19.
+
+## 2026-10-27 — what the other seat's "19 of 19" really was, and our own plan
+
+- **What we found:** the other seat's full set of 19 numbers was mostly the measured values typed back in, or
+  corrections chosen to land exactly on them. A few real computations are worth keeping: the mass ratios prefer one
+  family of lines, a clean rule singles out those lines, and a recipe for the two Higgs fields comes close.
+- **Our plan:** first write down strict rules for what counts as "derived", so the same tricks cannot creep in. Then
+  check the good leads with our own code, and derive the line, the Higgs fields and the shape number τ from the
+  theory itself before scoring anything against data, once and sealed.
+- **The honest ceiling:** at best 10 of the 19 numbers this way. The rest need something the theory does not fix yet.
+  0 of 19.
