@@ -633,6 +633,27 @@ hand algebra, unreviewed; no science producer/test was executed.
 The next duty is the SAME-action full background-field quadratic
 operator, with existing execution/review seals unchanged.
 
+## October 27: recover the gauge complex before assigning physical loop weights
+
+The [same-action gauge-complex proof](SAME_ACTION_GAUGE_COMPLEX_AND_THRESHOLD_CANCELLATION_CONTROLS.md)
+derives the paired tail Laplacians(L,diag(L,L),L), exact full-line
+gauge/residual projectors and1:2:1 cochain heat controls from the source's
+normalized d0,d1 maps. The weak-weighted singular trace separates into
+paired weight20 and unpaired extreme weight10. No physical gaugino is
+removed as a ghost and no cochain cancellation is called a zero beta
+function. Actual external-field spin insertions and gauge-fixing weights
+still require the real source action.
+
+The scalar relative determinant control gives mu-nu PER UNIT radial
+length; differing tails still yield an extensive divergence. A correct
+gap is not a subtraction law. Matched-tail Wilson relative quantities
+remain a constructive route, with zero crossings and trace conditions
+retained. Half-line/core domains cannot be chosen independently in each
+degree merely to keep the algebraic complex. These are unreviewed hand
+controls, not a new scientific run/admission or measured coupling result.
+The next packet needs the full real background-field Hessian and its
+physical measure/end normalization; the full SM/gravity goal is intact.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

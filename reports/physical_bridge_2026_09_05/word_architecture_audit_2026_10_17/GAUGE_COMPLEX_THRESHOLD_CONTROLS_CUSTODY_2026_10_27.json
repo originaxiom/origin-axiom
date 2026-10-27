@@ -1,0 +1,34 @@
+{
+  "status": "Unreviewed hand cochain and determinant controls; no physical loop or execution certificate",
+  "base_commit": "8a4fdc411b9ae2c38685375c169600dc8cf95038",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_GAUGE_COMPLEX_AND_THRESHOLD_CANCELLATION_CONTROLS.md",
+      "sha256": "24704c2b63c8887be04adc454ec537d6048a7ca22006b3cf26b719f50530a2c3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SM_PARALLEL_WEAK_WEIGHTED_MASS_THRESHOLDS.md",
+      "sha256": "0a3df3cc6437db563e4e6741816ae6413171097a41839b5d13ec426b931efbc4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/PROOF.md",
+      "sha256": "22a1a213a739348eddc3431f5d022bcd8f604f3bba58febfe48ef044d6f806b9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    }
+  ],
+  "scientific_execution": "none",
+  "hand_checks": [
+    "ordered d1d0=0 and Laplacian off-diagonal cancellation",
+    "complementary full-line gauge/residual projectors",
+    "paired1:2:1 heat density",
+    "weak-weighted paired/extreme split20+10=30",
+    "per-length relative scalar determinant mu-minus-nu"
+  ]
+}
