@@ -1,0 +1,29 @@
+D_DECISIVE_slope_two_fifths_specific_at_0.1pc_and_no_other_slope_below_16.75 True
+P1_chi2_six_below_16.75_on_slope_two_fifths True
+readout_slope_two_fifths_specific_at_1pc True
+readout_slope_one_tenth_below_16.75 False
+readout_rest_specific_at_1pc False
+readout_nine_below_21.67_on_slope_two_fifths False
+C1_control True
+C2_control_chi2_reproduces_B1735 True
+a2/5   chi2 six|seat   min 3.00, random as low 0.00005 (worst seed 0.00025, hits 8)
+a2/5   chi2 six|cov    min 3.00, random as low 0.00014 (worst seed 0.00075, hits 23)
+a2/5   chi2 six|free   min 3.00, random as low 0.00064 (worst seed 0.00150, hits 103)
+a2/5   chi2 nine|seat  min 146.08, random as low 0.00621 (worst seed 0.00950, hits 994)
+a2/5   chi2 nine|sm    min 1228.97, random as low 0.02503 (worst seed 0.02875, hits 4005)
+a1/10  chi2 six|seat   min 919.27, random as low 0.57849 (worst seed 0.59100, hits 92558)
+a1/10  chi2 six|cov    min 41.42, random as low 0.01868 (worst seed 0.02300, hits 2989)
+a1/10  chi2 six|free   min 740.41, random as low 0.52933 (worst seed 0.55250, hits 84692)
+a1/10  chi2 nine|seat  min 1289.60, random as low 0.23988 (worst seed 0.25800, hits 38381)
+a1/10  chi2 nine|sm    min 3940.03, random as low 0.15913 (worst seed 0.16975, hits 25460)
+rest   chi2 six|seat   min 103.10, random as low 0.34251 (worst seed 0.36400, hits 54801)
+rest   chi2 six|cov    min 40.85, random as low 0.27049 (worst seed 0.28925, hits 43279)
+rest   chi2 six|free   min 47.64, random as low 0.27303 (worst seed 0.29200, hits 43685)
+rest   chi2 nine|seat  min 405.27, random as low 0.19556 (worst seed 0.21375, hits 31289)
+rest   chi2 nine|sm    min 1285.83, random as low 0.18828 (worst seed 0.19700, hits 30125)
+all    chi2 six|seat   min 3.00, random as low 0.00042 (worst seed 0.00100, hits 67)
+all    chi2 six|cov    min 3.00, random as low 0.00182 (worst seed 0.00300, hits 291)
+all    chi2 six|free   min 3.00, random as low 0.00522 (worst seed 0.00825, hits 835)
+all    chi2 nine|seat  min 146.08, random as low 0.02074 (worst seed 0.02550, hits 3318)
+all    chi2 nine|sm    min 1228.97, random as low 0.16850 (worst seed 0.17950, hits 26960)
+compare exit 0
