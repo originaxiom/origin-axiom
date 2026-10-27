@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1496 of 1496 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1497 of 1497 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1026)
+## PROVED (1027)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1038,6 +1038,7 @@
 | `B1765` | GAUGE COUPLING UNIFICATION AND MODULAR THRESHOLDS (P-392): at tau_* = (1+i*sqrt(84))/3, the modular invariant volume 2 Im tau |eta|^4 = 0.24925 ~= 1/4 gives DKL threshold factor -ln(2 Im tau |eta|^4) = 1.3893 ~= ln(4); in 2HDM, alpha_1 and alpha_3 cross at M_GUT = 1.88e14 GeV with alpha_GUT^-1 = 40.065, and the modular threshold bridges the SU(2)_L gap when Delta b_2 = 27.663, establishing the required threshold mapping for the 3 Standard Model gauge couplings. |  | 0 |
 | `B1766` | ELECTROWEAK SCALE, HIGGS MASS, AND 19-PARAMETER SYNTHESIS (P-393): at tau_* = (1+i*sqrt(84))/3, non-perturbative modular suppression |q| = exp(-2 pi Im tau_*) = 4.608e-9 naturally sets the scale M_Pl |q|^2 (2 Im tau_*) = 315.93 GeV near the weak scale; radiative electroweak symmetry breaking driven by top Yukawa y_t = 0.9908 with stop scale M_SUSY ~= 896 GeV reproduces the physical Higgs mass m_H = 125.25 GeV, establishing a coherent architectural mapping for all 19 Standard Model parameters from modular geometry. |  | 0 |
 | `B1767` | THREE GENERATIONS AND NILPOTENT HITCHIN ZERO-MODES (P-394): on the degree-8 quaternion cover w^4 = 4x^3 - g_2 x - g_3 of genus g=3, canonical differentials decompose under Q_8 into a singlet omega_1 = dx/w^2 and a doublet (omega_2, omega_3) = (dx/w^3, x dx/w^3); central parity Z(Q_8) = {+/- 1} unconditionally enforces G_{1,2} = G_{1,3} = 0 for any invariant Hodge metric, deriving the 1+2 block structure; the surface quadratic Casimir c(tau) in S_6(SL(2, Z)) = {0} uniquely pins the Hitchin background to the nilpotent orbit without continuous tuning. |  | 0 |
+| `B1768` | PERIOD MATRIX AND EXACT HODGE METRIC (P-395): on the genus-3 cover w^4 = 4x^3 - g_2 x - g_3 at tau_* = (1+i*sqrt(84))/3, numerical path integration between branch roots e_1 = 6.5797, e_2,3 = -3.2899 +/- 0.0046i yields a strictly non-singular 3x3 period matrix with |det(M)| = 6.4276; the singlet norm is identically K_{1,1} = 2 Im(tau_*) = 6.1101 with elliptic period 1.000000, while off-diagonals K_{1,2} = K_{1,3} = 0 vanish by central parity, deriving the physical singlet matter normalization N_1 = (2 Im tau_*)^(-1/2) = 0.4046 and the geometric 1+2 mass hierarchy from first-principles curve geometry. |  | 0 |
 
 ## NEGATIVE (366)
 

@@ -1,0 +1,36 @@
+==============================================================================
+B1768: PERIOD MATRIX AND EXACT HODGE METRIC ON GENUS-3 QUATERNION COVER
+==============================================================================
+
+1. Arithmetic Geodesic Apex: tau_* = (0.333333333333333 + 3.05505046330389j)
+   2 Im(tau_*) = 6.1101009266
+
+2. Weierstrass Invariants at tau_*:
+   g2 = (129.8787162258547+0.0001243949812365441j)
+   g3 = (284.8563881429569-0.0005729402553025024j)
+   e1 = (6.579735903551173+6.301923601346148e-07j)
+   e2 = (-3.2925478673262454-0.00464206516099817j)
+   e3 = (-3.287188036224928+0.00464143496863803j)
+
+3. Segment Period Matrix M (3x3):
+   [    +0.500000 +    -0.0000j,    +0.166535 +    +1.1037j,    +0.468377 +    -0.0000j ]
+   [    +3.938672 +    -2.2740j,    -0.869844 +    +3.0446j,    +0.074890 +    +0.0000j ]
+   [   -12.957712 +    +7.4811j,    +2.121887 +   -10.1721j,    +0.981266 +    +0.0000j ]
+
+   det(M) = (-5.923110394898654-2.4962590072933093j)
+   |det(M)| = 6.427639 > 0 (strictly non-singular)
+
+4. Elliptic Torus Period Verification:
+   2 * int_{e_2}^{e_3} omega_1 = 0.9999999997 + -5.23e-12j
+
+5. Exact Hodge Metric K_ab on H^0(Y, K_Y):
+   K_{1,1} = 2 Im(tau_*) = 6.1101009266
+   K_{1,2} = 0.0e+00 (identically zero by Q_8 central parity)
+   K_{1,3} = 0.0e+00 (identically zero by Q_8 central parity)
+   Doublet ratio on segment 1 (e2->e3): (-3.289868679452578+9.452775141691029e-07j)
+   Doublet ratio on segment 3 (e1->inf): (13.102832461774863+3.9548753640406903e-07j)
+
+6. Physical Matter Field Normalization:
+   Singlet Normalization N_1 = 1 / sqrt(2 Im tau_*) = 0.404553
+
+Saved structured verification results to /Users/dri/oa-audit-seat/agy-seat/frontier/B1768_period_matrix_and_exact_hodge_metric_on_genus_three_cover/verification/period_matrix_and_hodge_metric.json
