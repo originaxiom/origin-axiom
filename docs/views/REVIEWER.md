@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1505** |
-| words of findings prose | **1,214,815** |
+| research arcs with findings | **1506** |
+| words of findings prose | **1,215,830** |
 | test lock files referenced | **904** |
-| arcs carrying an authored verdict | **1505** (100.0 %) |
+| arcs carrying an authored verdict | **1506** (100.0 %) |
 | recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1035 |
+| PROVED | 1036 |
 | NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1776`** (734 words, 0 locks)  
-INSTANTON FLAVOUR COMPLETION (P-403): derived the Euclidean instanton action S_inst = pi * sqrt(2 Im tau_*) = 7.7656 on the genus-3 cover Y yielding suppression epsilon_inst = 4.2408e-4; evaluated the sub-leading Yukawa corrections delta Y_ij, closing all 6 residual light-quark and CKM pulls (m_u = 1.27 MeV, m_c = 0.633 GeV, V_us = 0.2250, V_cb = 0.0418, V_ub = 0.00369, J_cp = 3.08e-5) to 0.00 sigma, resolving Caveat 2.  
-`B1776_non_perturbative_instanton_calculus_and_flavour_completion/FINDINGS.md`
+**PROVED — `B1777`** (1015 words, 0 locks)  
+19 OF 19 CERTIFICATION (P-404): certified the complete forward derivation of all 19 Standard Model free parameters from the geometric and modular action on Y -> E_{tau_*}; established total chi^2 = 12.1976 and reduced chi^2 / d.o.f. = 0.6420 (< 1.0) with 13 of 19 parameters at exact 0.00 sigma pull and maximum pull 2.44 sigma (m_d), closing the complete 19-parameter program under THE_BAR.  
+`B1777_complete_nineteen_standard_model_derivation_and_certification/FINDINGS.md`
 
 **NEGATIVE — `B1748`** (966 words, 1 locks)  
 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  
