@@ -144,3 +144,5 @@ frontier/B1743_the_principled_pencils_and_the_nines_target/verification/pencils.
 frontier/B1744_the_higgs_own_twist/verification/twisted_higgs.json
 # B1746's pencil scan (every row); cube_pencils_run.txt carries its summary
 frontier/B1746_the_cube_groups_forms_as_the_higgs/verification/cube_pencils.json
+# B1755's sealed census (the same reason): its sealed compare.py reads it by name
+!frontier/B1755_the_six_on_the_lines_of_order_13_to_20/verification/census.jsonl

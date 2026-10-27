@@ -173,7 +173,7 @@ hash-first status.*
 | frontier/B1748_the_heavy_generations_from_the_geometry/PREREGISTRATION.md | a431ae36 | 3bf82d0ca | 1 | yes |
 | frontier/B1749_the_six_at_fresh_apexes/PREREGISTRATION.md | d95fc8a6 | 32f29ad98 | 1 | yes |
 | frontier/B1753_the_six_on_the_five_ality_lines/PREREGISTRATION.md | 4737fdca | 33b197340 | 1 | yes |
-| frontier/B1755_the_six_on_the_lines_of_order_13_to_20/PREREGISTRATION.md | 139ce35a | 2ff9ba853 | 1 | NO |
+| frontier/B1755_the_six_on_the_lines_of_order_13_to_20/PREREGISTRATION.md | 139ce35a | 2d6681208 | 1 | NO |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f4771 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c1 | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8cf | 1 | yes |
