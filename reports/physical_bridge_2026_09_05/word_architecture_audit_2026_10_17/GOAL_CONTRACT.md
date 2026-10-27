@@ -413,6 +413,22 @@ science run or programme-wide negative; nineteen-parameter completion
 is not supported by these producers. The actual action/source/state
 and physical normalization remain the high-value reduction duties.
 
+## October 27: derive the physical vertex Gram before using its power
+
+[Same-parent Gram and running](SAME_PARENT_VERTEX_GRAM_AND_ONE_LOOP_ROLE.md)
+recovers the actual surface overlap and derives its metric-weighted
+contraction. The invariant operator is G_H^(-1)C, not raw C under
+arbitrary unnormalized coordinates. Standard one-loop N=1 equations
+give this normalized vertex Gram a kinetic-renormalization role, with
+actual coupling scale, spectator factors and matching retained. That
+is a constructive possible origin of some matter-metric corrections;
+it is not a Higgs Hessian, seed or vacuum selection. Frozen Hermitian
+running and inverse powers have a precise spectral discriminator; a
+Laplace-response measure could realize an inverse power only if the
+state/end law derives that measure and exponent. The actual profile/
+metric-to-finite-pencil map is the next named calculation. Proof
+UNREVIEWED, no new science run or foundational input payment.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
