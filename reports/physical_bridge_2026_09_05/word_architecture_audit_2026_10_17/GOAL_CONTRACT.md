@@ -443,6 +443,33 @@ nonlinear response cannot create a cubic when linear mixing is absent.
 The actual mode overlap is the next named calculation, not a new fit.
 Proof UNREVIEWED; no scientific execution or physical input payment.
 
+## October 27: coupled-mode audit and a conditional divisor reduction
+
+Fetched agy dd1009f76. The B1763 labels and the inverse-diagnostic
+qualifications in B1764–B1766 are real repairs; campaign/register causal
+claims remain incompletely corrected. The [B1767 source audit](AGY_B1767_COUPLED_MODE_AND_REPAIR_SCOPE_AUDIT.md)
+retains genus three and parity orthogonality but shows that its producer
+assigns chiral_generations=g without a coupled physical kernel. It also
+corrects branch values versus upstairs ramification points, including
+ambiguous wording in our own older domain note.
+
+The [equivariant divisor argument](EQUIVARIANT_NILPOTENT_DIVISOR_AND_LOCALIZED_MODE_DUTY.md)
+removes the two-zero kernel branch within the stable nonzero compact
+rank-two nilpotent model WHEN full Q8 symmetry is retained: a degree-two
+effective divisor cannot be a union of Q8 orbits of length four/eight.
+The zero-free degree is then forced. Splitting the bundle is NOT forced;
+extension/lift, physical parent and norm/character assumptions remain.
+This is a conditional hand reduction, unreviewed and not banked.
+
+Personally read the coupled fluctuation equations and complete section 4
+of T-Branes and Monodromy, 1010.5780v1. The local constant-root cokernel
+is free; an actual vanishing coefficient yields explicit torsion. These
+are scoped controls for deriving a localization map, not a global
+chirality exclusion or an admitted experiment. No science was run.
+The next duty remains the SAME-parent charged bulk/localized complex,
+its full modes, normalization and cubic. Earlier execution/review seals
+are unchanged. The full physical goal remains unfinished and active.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

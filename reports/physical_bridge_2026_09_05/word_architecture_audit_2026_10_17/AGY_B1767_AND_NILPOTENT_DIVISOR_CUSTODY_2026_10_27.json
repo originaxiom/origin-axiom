@@ -1,0 +1,102 @@
+{
+  "scope": "Source custody only; not a prospective execution seal or scientific certification",
+  "agy_commit": "dd1009f766ddc63d3390259315378aa3c76a6269",
+  "main_commit": "2d6681208fa2e4c7249b37a8811e0a09a3092a5b",
+  "source_blobs": [
+    {
+      "path": "frontier/B1767_three_generations_and_nilpotent_hitchin_zero_modes/FINDINGS.md",
+      "sha256": "da65ee2a5f7d38b6d89e6724cd4a825e2920c1604de3ac95c9cd77fb744d2f23",
+      "git_blob": "6334be34d3cfcc849c8b882c59b9794273b57e1e"
+    },
+    {
+      "path": "frontier/B1767_three_generations_and_nilpotent_hitchin_zero_modes/arc_verdict.json",
+      "sha256": "5b39b67114e6f4617300acc59b4993313b251007a4158bac0d86edba337f2411",
+      "git_blob": "29250816de55645b6d8b2c34beb4b64feb18f30c"
+    },
+    {
+      "path": "frontier/B1767_three_generations_and_nilpotent_hitchin_zero_modes/verification/hitchin_zero_modes.json",
+      "sha256": "7468ed57eedc91baefe0dc6cdd5508c0492e55d90b651c9fab1e70ee4095107b",
+      "git_blob": "b56ca8037e092492b69303b0ebc89c9c437f35a0"
+    },
+    {
+      "path": "frontier/B1767_three_generations_and_nilpotent_hitchin_zero_modes/verification/hitchin_zero_modes.py",
+      "sha256": "ab09cad7d1566e4abcb238a1986f969ea41cc0d230ea075daba73034b904cd72",
+      "git_blob": "77470f93149dc085ae51d04dbbf53a5ddeee44d5"
+    },
+    {
+      "path": "frontier/B1767_three_generations_and_nilpotent_hitchin_zero_modes/verification/hitchin_zero_modes_run.txt",
+      "sha256": "634419318f6e6663a5d3fe8f9390604b2a98f272ad6b84957c14fc7e98090413",
+      "git_blob": "4a8d5b2ac2976633b492de6217e08ff771952880"
+    },
+    {
+      "path": "tests/test_b1767_three_generations_and_nilpotent_hitchin_zero_modes.py",
+      "sha256": "d2181a9dcdf7b2ff50b1be60a30769fc2f562034b0767cb10305af117f70f9b7",
+      "git_blob": "3edb302f074894a11c09a68e9e565726484ce2b7"
+    },
+    {
+      "path": "docs/CAMPAIGN_STATUS.md",
+      "sha256": "b4f8026668f9018e198d59b993e729f36779c8617623f7b269b562e17842e268",
+      "git_blob": "febeab998fa037904cc9e11176445dcefa45b8e0"
+    },
+    {
+      "path": "docs/POINT_REGISTER.md",
+      "sha256": "8e17acb3430e2ca8cd7ff1cbfd40b200bb1baafea212b1d99e614772d2b301e4",
+      "git_blob": "0a7e9596816b772088c1d14470d25c81a3116e4b"
+    },
+    {
+      "path": "frontier/B1763_matter_kahler_metric_and_residual_flavour_pulls/FINDINGS.md",
+      "sha256": "4b58e61710199f7e2a2016e1b7c6149abb51974a01caf216d18cb0d554b73e30",
+      "git_blob": "25d7b28eb523735fddf69cd01779e9dd593f5b1f"
+    },
+    {
+      "path": "frontier/B1763_matter_kahler_metric_and_residual_flavour_pulls/arc_verdict.json",
+      "sha256": "fdf60dc32c970c6bc43ee93883a41034e3e625143f22030cb7e8653de278041d",
+      "git_blob": "44dfe95f8f8baae840a51b861f3be90d3a0fab71"
+    },
+    {
+      "path": "frontier/B1764_dynamical_modular_ground_state_and_tau_selection/FINDINGS.md",
+      "sha256": "86edb482d9c630eb7eb3e3a6ad4bd64abda774f86babd2e21a1b515544bb9c2d",
+      "git_blob": "e06f616b8dc1b8879eb44c642119ac2b98f44cf5"
+    },
+    {
+      "path": "frontier/B1764_dynamical_modular_ground_state_and_tau_selection/arc_verdict.json",
+      "sha256": "513259938cb9d82677866aa12680f661cf42aa0b66acb6bba0750a6908953c69",
+      "git_blob": "dc4c7772564b2836032d237ec2785e4accfc2486"
+    },
+    {
+      "path": "frontier/B1765_gauge_coupling_unification_and_modular_thresholds/FINDINGS.md",
+      "sha256": "fea359081cdd466bec1f6a52ad1a95ea6787b4bc0ae7b1493f3a13ef5009203e",
+      "git_blob": "bf776f9b0d9413fe2dfe865fc96d4bb662f7ba7a"
+    },
+    {
+      "path": "frontier/B1765_gauge_coupling_unification_and_modular_thresholds/arc_verdict.json",
+      "sha256": "501963d66fd55589182667af85ddd726acce98cbda609b32624ccc3f6282ee8e",
+      "git_blob": "b36d75c4ab52414498213204486d025df8f77ef7"
+    },
+    {
+      "path": "frontier/B1766_electroweak_scale_and_higgs_mass_from_modular_geometry/FINDINGS.md",
+      "sha256": "2ad1383fe0055da6de7e0fadb2b39b120984c98959b9dad40ba677f54221d52b",
+      "git_blob": "10b2fa4b282c69f74a341bf7b05e053066ff7aad"
+    },
+    {
+      "path": "frontier/B1766_electroweak_scale_and_higgs_mass_from_modular_geometry/arc_verdict.json",
+      "sha256": "1df055468288ac5e53e6c45bd63bb9cdd884c0e3413d9c1ea52a2deceae1b4e8",
+      "git_blob": "50975eef36da069ae67391f593633cc38c570883"
+    },
+    {
+      "path": "frontier/B1763_matter_kahler_metric_and_residual_flavour_pulls/verification/matter_kahler_metric.py",
+      "sha256": "f30b07b19a4f0908ad4b05d7aa605e36d1df5d1a0cd0a1290f5f12e396022ccc",
+      "git_blob": "d81dff5adaa6b1a5171a1d97f6bbd014076e501c"
+    }
+  ],
+  "own_notes": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/AGY_B1767_COUPLED_MODE_AND_REPAIR_SCOPE_AUDIT.md",
+      "sha256": "401dc7bf99ad966df47aa41623ce6e36795cce51f4a6bd05c44f9c01bed1fdcd"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EQUIVARIANT_NILPOTENT_DIVISOR_AND_LOCALIZED_MODE_DUTY.md",
+      "sha256": "07f8432fae6d7ddde6a210cf55511738ffe963ac36ff609e319e58347d5bc001"
+    }
+  ]
+}
