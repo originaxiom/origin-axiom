@@ -1,0 +1,32 @@
+==============================================================================
+B1770: STRONG CP INVARIANT, TREE-LEVEL PHASE, AND DYNAMICAL AXION RELAXATION
+==============================================================================
+1. Apex Geometry:
+   tau_* = 0.333333 + 3.055050i
+   2 Im(tau_*) = 6.110101
+
+2. Tree-Level Quark Mass Determinants and Phases:
+   det(Y_u)      = +1.853872e-06 + +9.211047e-06i
+   arg det(Y_u)  = +1.372184 rad (+78.62 deg)
+   det(Y_d)      = -8.851626e-04 + +7.741988e-05i
+   arg det(Y_d)  = +3.054351 rad (+175.00 deg)
+   det(Y_u Y_d)  = -2.354096e-09 + -8.009748e-09i
+   arg det(Y_u Y_d) = -1.856651 rad (-106.38 deg)
+
+3. Strong CP Status without Axion:
+   Unrelaxed theta_bar_tree = 1.856651 rad
+   Implied tree-level d_n   = 6.68e-16 e*cm (Bound: < 1.80e-26 e*cm)
+   Discrepancy with EDM     = 3.71e+10x (ruled out by 10 orders of magnitude)
+
+4. Dynamical Peccei-Quinn Axion Relaxation:
+   M_GUT scale               = 1.8818e+14 GeV
+   Axion decay constant f_a  = 1.2116e+13 GeV (lands in classic invisible axion window)
+   Topological susceptibility chi_top^(1/4) = 76.33 MeV
+   Predicted axion mass m_a  = 0.4808 micro-eV (4.8082e-16 GeV)
+
+5. Relaxed Strong CP Parameter:
+   theta_bar_eff             = 0.0e+00 (identically zero at V(a) minimum)
+   Predicted neutron EDM d_n = 0.0e+00 e*cm (experiment: < 1.80e-26 e*cm)
+   Strong CP problem resolved dynamically without parameter tuning.
+
+Results successfully written to /Users/dri/oa-audit-seat/agy-seat/frontier/B1770_strong_cp_invariant_and_axion_parity/verification/strong_cp_parity.json

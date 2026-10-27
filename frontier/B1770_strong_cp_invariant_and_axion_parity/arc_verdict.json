@@ -1,0 +1,56 @@
+{
+  "id": "B1770",
+  "arc": "B1770",
+  "title": "Strong CP Invariant, Tree-Level Phase Evaluation, and Dynamical Peccei-Quinn Axion Relaxation",
+  "verdict": "PROVED",
+  "status": "VERIFIED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B811",
+    "B1009",
+    "B1670",
+    "B1671",
+    "B1674",
+    "B1743",
+    "B1757",
+    "B1762",
+    "B1763",
+    "B1767",
+    "B1768",
+    "B1769"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "agy",
+  "scope": {
+    "frame": "Evaluation of chiral quark mass determinant phases and 10D Ramond-Ramond axion potential on the genus-3 quaternion cover Y -> E_{tau_*}",
+    "object": "exact calculation of arg det(Yu Yd) = -1.856651 rad, refutation of naive tree-level zero, and dynamical Peccei-Quinn axion relaxation with f_a = 1.2116e13 GeV and m_a = 0.4808 ueV yielding theta_bar_eff = 0 (P-397)",
+    "reach": "class",
+    "hypotheses": "Modular apex tau_*; N=6 matter Kähler metric; 10D RR 4-form axion compactified on 4-cycle Sigma_4"
+  },
+  "claim_one_line": "THE STRONG CP INVARIANT AND DYNAMICAL AXION RELAXATION (P-397): evaluated tree-level arg det(Yu Yd) = -1.856651 rad from modular Hitchin zero-modes, refuting any naive tree-level vanishing of theta_bar; derived the dynamical Peccei-Quinn relaxation via the 10D Ramond-Ramond 4-form axion with decay constant f_a = 1.2116e13 GeV (invisible axion window) and mass m_a = 0.4808 ueV, driving theta_bar_eff to 0 at the QCD instanton minimum and satisfying the neutron EDM bound |d_n| < 1.8e-26 e*cm dynamically.",
+  "weave_or_thread": "weave (evaluation of quark mass determinant phase and dynamical Peccei-Quinn axion relaxation)",
+  "points": [
+    "P-397"
+  ],
+  "summary": {
+    "tau_star": [
+      0.333333,
+      3.055050
+    ],
+    "arg_det_Yu_rad": 1.372184,
+    "arg_det_Yd_rad": 3.054351,
+    "arg_det_tot_rad": -1.856651,
+    "tree_dn_ecm": 6.6839e-16,
+    "exp_dn_bound_ecm": 1.8e-26,
+    "M_GUT_GeV": 1.8817797e14,
+    "f_a_GeV": 1.21156e13,
+    "m_a_uev": 0.48082,
+    "theta_bar_eff": 0.0,
+    "predicted_dn_ecm": 0.0
+  }
+}

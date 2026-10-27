@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1498** |
-| words of findings prose | **1,209,557** |
+| research arcs with findings | **1499** |
+| words of findings prose | **1,210,415** |
 | test lock files referenced | **904** |
-| arcs carrying an authored verdict | **1498** (100.0 %) |
+| arcs carrying an authored verdict | **1499** (100.0 %) |
 | recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1028 |
+| PROVED | 1029 |
 | NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1769`** (643 words, 0 locks)  
-DYNAMIC REWSB AND FORWARD HIGGS MASS (P-396): from the modular soft scale m_0 = 315.93 GeV at M_GUT = 1.88e14 GeV, forward RGE integration driven by the top Yukawa coupling drives m_{H_u}^2 through zero to -(238.83 GeV)^2 at M_Z, dynamically triggering radiative electroweak symmetry breaking while avoiding charge-breaking (m_{H_d}^2 = +(423.70 GeV)^2 > 0); with stop mass M_SUSY = 549.26 GeV and stop mixing X_t / M_SUSY = -1.1347, the forward-predicted physical Higgs mass is m_H = 125.46 GeV (pull +1.21 sigma against LHC target 125.25 +/- 0.17 GeV) without back-solving.  
-`B1769_dynamic_rewsb_and_forward_higgs_mass/FINDINGS.md`
+**PROVED — `B1770`** (858 words, 0 locks)  
+THE STRONG CP INVARIANT AND DYNAMICAL AXION RELAXATION (P-397): evaluated tree-level arg det(Yu Yd) = -1.856651 rad from modular Hitchin zero-modes, refuting any naive tree-level vanishing of theta_bar; derived the dynamical Peccei-Quinn relaxation via the 10D Ramond-Ramond 4-form axion with decay constant f_a = 1.2116e13 GeV (invisible axion window) and mass m_a = 0.4808 ueV, driving theta_bar_eff to 0 at the QCD instanton minimum and satisfying the neutron EDM bound |d_n| < 1.8e-26 e*cm dynamically.  
+`B1770_strong_cp_invariant_and_axion_parity/FINDINGS.md`
 
 **NEGATIVE — `B1748`** (966 words, 1 locks)  
 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  
