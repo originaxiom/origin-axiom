@@ -679,6 +679,25 @@ is explicitly retained. Its unread census and chat1 unread readouts
 were NOT inspected. Their programmes are not taken as accepted physics
 or rerun here. Full input-reduction SM/three/gravity mission continues.
 
+## October 27: charge-resolve the same-Wilson relative threshold map
+
+The [Wilson coefficient proof](WILSON_CHARGE_RESOLVED_RELATIVE_THRESHOLD_MAP.md)
+derives the complete5/10/24 SM charge/index table and its two relative
+insertion coefficients. All sectors see one flat Wilson character with
+charges fixed by Q=6Y. The resulting Laurent polynomials cancel at zero
+winding and at central holonomy, while each representation's unknown
+geometric spectral function remains explicit. This replaces unrelated
+sector corrections with a common-source map; it does not evaluate the
+physical determinant, choose a Wilson angle or predict measured values.
+
+The actual structure/spin/ghost weights, light modes, core/cusp domains
+and relative trace convergence are still required. No scalar torus eta
+kernel is substituted for the graded operator. All new results are
+unreviewed hand derivations; no science executable/import/test was run
+and earlier review/admission scopes stay unchanged. Next remains the
+full real background-field/relative spectral packet. The original full
+SM/three/gravity goal is active, not completed by these coefficients.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

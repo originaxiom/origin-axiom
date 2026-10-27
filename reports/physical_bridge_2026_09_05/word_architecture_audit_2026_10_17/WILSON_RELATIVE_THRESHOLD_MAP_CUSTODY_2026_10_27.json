@@ -1,0 +1,26 @@
+{
+  "status": "Unreviewed hand charge/index and Wilson-polynomial derivation; not executed or certified physical threshold",
+  "base_commit": "0a808228357f51fbb8b72938f62d2ce5cf187d4e",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/WILSON_CHARGE_RESOLVED_RELATIVE_THRESHOLD_MAP.md",
+      "sha256": "72cc494c6960f7b40fb23435e10cec4f6edff63d663f176f982e0b844bd79c24"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/UNIVERSAL_SU5_END_AND_RELATIVE_GAUGE_THRESHOLD.md",
+      "sha256": "7b04982a308a257db1e65846cff5aa84cbb5d6d64737e2cdd6475049853c9def"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    }
+  ],
+  "hand_controls": [
+    "complete5/10/24 index sums",
+    "central-holonomy equality within each representation",
+    "end charge degeneracy",
+    "zero-winding polynomial cancellation",
+    "opposite +/-3/2 proportionalities for5 and24"
+  ],
+  "scientific_execution": "none"
+}
