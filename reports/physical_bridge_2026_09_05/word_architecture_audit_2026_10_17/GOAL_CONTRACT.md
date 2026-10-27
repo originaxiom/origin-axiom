@@ -612,6 +612,27 @@ parent threshold remains the next duty. Source recovery and all new
 traces are unreviewed; no scientific producer/import/test was executed.
 Earlier audits/seals remain intact and the full physical mission active.
 
+## October 27: recover actual masses in a stationary SM gauge phase
+
+The [same-action weak threshold note](SM_PARALLEL_WEAK_WEIGHTED_MASS_THRESHOLDS.md)
+recovers the existing principal-spin-two stationary SM gauge phase,
+retaining its paired charged-index result and supplied physical parent.
+Its full mass blocks determine six zero-angular squared thresholds
+1/4,5/4,9/4,13/4,21/4,25/4 with weak trace weights6,2,10,6,4,2.
+Their sum30 matches the full E8 charge trace. This is not the other
+parent's odd112 or a finite 4D heavy-particle census.
+
+The explicit weak heat coefficient is a sum of six exponentials; its
+strict log-convexity rejects a single-mass replacement. Its continuous
+radial tail needs a defined relative determinant/counterterm treatment;
+a gap alone does not make its full heat trace finite. Bosons, ghosts,
+nonzero angular modes, compact core, physical source normalization and
+matching remain required before a gauge threshold claim. No coupling,
+foundational input or chiral family count is certified. This is author
+hand algebra, unreviewed; no science producer/test was executed.
+The next duty is the SAME-action full background-field quadratic
+operator, with existing execution/review seals unchanged.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
