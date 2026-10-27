@@ -381,6 +381,21 @@ exclusions. The next named duty is the actual global background/end
 admissibility; no spin-parent norm law is borrowed. Proof UNREVIEWED,
 no science code run, no foundational input or full physical goal paid.
 
+## October 27: reference-sector price of the finite-norm selector
+
+[Finite kinetic preparation](FINITE_KINETIC_PREPARATION_AND_BACKGROUND_REFERENCE.md)
+derives the covariant finite-time displacement bound from the parent's
+positive scalar kinetic term. It would supply whole-field L2 from an
+L2 reference and uniform finite preparation cost. The nonzero weight-six
+E_6 option has at least quadratic cusp-cutoff norm cost. The actual
+zero-residual boundary momentum does not choose that reference sector.
+A local nonnormalizable-reference matrix has finite relative variations
+with changing Casimir, so the bound is not a universal conservation law.
+The act/register-to-physical-history map and reference/end selection
+remain explicit inputs. Proof UNREVIEWED; no scientific code run.
+A late fetch sees agy B1763-B1766 through f6f4629ab; their newly claimed
+modulus/coupling/SM synthesis is queued for direct source audit.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
