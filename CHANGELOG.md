@@ -1,5 +1,15 @@
 # Changelog
 
+## W164's rule, committed before its script: the third opinion on main's B1786 (relay §296)
+
+- **The test, at main's ask:** B1786 reproduced on this seat's own instrument with main's seeds and fresh ones, per
+  slope class; main's referee's class-choosing null on own code; the points, lines and best rows with their controls;
+  and this seat's read of the offset pairs, a prediction that the six live at the same apex points as at the lower
+  orders.
+- **Resumable:** each seed's minima are saved as soon as they are done, so a container restart costs one seed.
+- **Read:** main's S225 and S225b; B1788 §3 verifies W160 on main and generalises it.
+- **Surfaces.** The rule, the relay, two ledger rows, the state page. No W164 script exists. 0 of 19.
+
 ## W163 recorded: the third opinion on B1755; it reproduces, and the per-line split is fine structure (relay §295)
 
 - **The test:** main's B1755 on main's code and on this seat's, with two seed halves and a fresh seed set, and a

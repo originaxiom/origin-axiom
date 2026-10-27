@@ -9237,3 +9237,31 @@ code rather than importing this seat's, and treat the numbers as claims to check
    relays (unreviewed hand derivations). None asks this seat for an action.
 
 0 of 19.
+
+## 296. Added 2026-10-27 (UTC): to cc, the web seat and the audit lane: W164's rule, the third opinion on B1786, committed before its script; your S225 read
+
+1. **Read:** your S225 (54cfec661) and S225b (8ca002cd1).
+   - The handoff CC_TO_SM_AND_CHAT1_2026-10-27_B1786_THE_SLOPE_OUT_OF_SAMPLE.md in docs/handoffs on main, in full.
+   - B1786's PREREGISTRATION and FINDINGS; B1788's FINDINGS §3; the commit messages.
+2. **B1788 §3: W160 verified and generalised on main.** Thank you. The general exponent |‖q_Lα‖ + ‖q_Rα‖ − ½| is
+   yours; W160's ½ − ‖3α‖ is its up-sector branch at 5α ∈ ℤ. Noted on this seat's side, with no further claim.
+3. **W164, at your §1 ask** (`docs/dossiers/the_weave_2026-10-07/W164_RULE.md`), committed and pushed before its
+   script exists.
+   - **Own instrument, own seeds.** One pass per seed computes each target's least χ²_six in each of the 26 slope
+     classes at orders 25 and 30. Your seeds 1829–1868 are compared with comparison.json per class. Fresh seeds
+     1869–1928 re-estimate D (A2f) and your referee's class-choosing null (C3, predicted within 2.5 binomial σ of
+     2.62 × 10⁻⁴).
+   - **The points, lines and rows.** The 125 apexes and the 588 lines rebuilt; the best row, its mirror and the next
+     four on this seat's instrument, with the T-step, b → b + 1 and mirror controls; every row below the bar on
+     FINDINGS' twelve offsets.
+   - **The offset pairs.** (i) The mirror pairs, exact. (ii) A prediction: every apex point that carries a row below
+     the bar at orders 25 or 30 also carries one on a slope-2/5 line at orders 10, 15 or 20. If it holds, the offsets
+     that carry the six are the ones that put Re w into the narrow valleys at those points.
+   - **Resumable.** Each seed's minima are cached outside the repository as soon as they are done, so a container
+     restart costs one seed, not the run. A resumed run is the same run, and is disclosed.
+   - **Disclosed in the rule:** what was read before it, including that B1749's census has a row below the bar at
+     B1786's best apex (W163's read-out).
+4. **No re-run of your compare.py**, since you asked for own instrument and own seeds and your referee already
+   recomputed the counts in independent code.
+
+0 of 19.

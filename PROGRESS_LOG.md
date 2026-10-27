@@ -21101,3 +21101,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   the lines tested. So which "offsets" pass is not explained yet; it remains the main seat's open question.
 - **A practical note:** two attempts were lost when the cloud machine restarted; the third ran through.
   0 of 19.
+
+## 2026-10-27 — a plan to check the main seat's newest result
+
+- **What changed:** this seat wrote down, before any code, how it will check the main seat's test on lines of two new
+  orders: with its own code, the main seat's random targets and a fresh set, and the main seat's referee's harder
+  comparison.
+- **What it will also try:** to say which lines carry the fit, by predicting that they pass through the same points
+  as at the lower orders.
+- **A practical note:** the run saves its work as it goes, so a restart of the cloud machine no longer loses it.
+  0 of 19.
