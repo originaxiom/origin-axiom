@@ -1,0 +1,27 @@
+built in 3.6s; N12 dim 12
+[f] root 0: rho = -0.0019380502097204333; dim W4 = 4 (sv gap: smallest nonnull/s0 = 4.03e-9, largest null/s0 = 3.09e-65); +gamma dim 2
+      gamma^2 direct = 1451926255963.83347;  e(rho) poly = 1451926255963.8334700
+      det(R14|V+) direct = 3854784701.3353987691 (Im 0.0; |tr| 1.7e-54; invariance resid 1.3e-52)
+      det14 poly (B1758) = 3854784701.3353987691;  B893 float = 3854784701.3353987
+[f] root 1: rho = 0.00039822150125035272; dim W4 = 4 (sv gap: smallest nonnull/s0 = 4.03e-8, largest null/s0 = 1.35e-65); +gamma dim 2
+      gamma^2 direct = 3018616647404.420703;  e(rho) poly = 3018616647404.4207030
+      det(R14|V+) direct = 2792616188.7290024995 (Im 0.0; |tr| 1.3e-53; invariance resid 3.3e-55)
+      det14 poly (B1758) = 2792616188.7290024995;  B893 float = 2792616188.7290025
+[f] root 2: rho = 0.0056852368717353867; dim W4 = 4 (sv gap: smallest nonnull/s0 = 2.86e-9, largest null/s0 = 1.16e-64); +gamma dim 2
+      gamma^2 direct = 283511130354.82275003;  e(rho) poly = 283511130354.82275003
+      det(R14|V+) direct = 13209392709.935598731 (Im 0.0; |tr| 3.3e-53; invariance resid 1.2e-52)
+      det14 poly (B1758) = 13209392709.935598731;  B893 float = 13209392709.935598
+[w] root 0 a = i*sqrt(det14) [B892]    : nullity 30  (sigma_k/s0 around the cut: 8.6e-10 | 3.8e-09)
+[w] root 0 control a = +sqrt(det14)    : nullity 26  (sigma_k/s0 around the cut: 4.6e-10 | 1.9e-09)
+[w] root 0 control generic y           : nullity 18  (sigma_k/s0 around the cut: 7.5e-10 | 1.9e-09)
+[w] root 0 dim ker ad(x1) alone = 46
+[w] root 1 a = i*sqrt(det14) [B892]    : nullity 28  (sigma_k/s0 around the cut: 1.0e-09 | 1.7e-09)
+[w] root 1 control a = +sqrt(det14)    : nullity 26  (sigma_k/s0 around the cut: 5.2e-10 | 4.7e-09)
+[w] root 1 control generic y           : nullity 20  (sigma_k/s0 around the cut: 9.9e-10 | 1.8e-09)
+[w] root 1 dim ker ad(x1) alone = 46
+[w] root 2 a = i*sqrt(det14) [B892]    : nullity 30  (sigma_k/s0 around the cut: 3.4e-10 | 2.4e-09)
+[w] root 2 control a = +sqrt(det14)    : nullity 30  (sigma_k/s0 around the cut: 3.6e-10 | 2.4e-09)
+[w] root 2 control generic y           : nullity 17  (sigma_k/s0 around the cut: 6.9e-10 | 1.1e-09)
+[w] root 2 dim ker ad(x1) alone = 46
+done in 4.0s
+eigen exit 0

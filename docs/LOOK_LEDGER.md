@@ -46,6 +46,8 @@ sector is listed with its target.
 | S219 angle 2 | post hoc | the nine at the strip with two lines | NEGATIVE (P-383) |
 | order5_restriction | post hoc | the six on B1749's rows under line-order rules | priced before B1753 (its Disclosed) |
 | B1753 | sealed | the six on the five-ality lines, fresh apexes | PROVED as sealed (0.009%); the rule mostly a pick; ungraded |
+| B1755 | sealed | the six on the lines of order 13, 14, 15, 20 at B1749's apexes | PROVED as sealed at the edge (15+20: 0.0975%; 13, 14 not specific); every good line α = 2/5; not PASSED (r = 1.22 × 10⁻³, m = 40) |
+| B1757 | verification | step 2's free doublets rerun with their vectors | an exact reproduction, not a new look |
 
 ## The web seat (chat1)
 
@@ -88,6 +90,10 @@ verifications of W133.
 | W146 (row 1357) | sealed, a class test | the nine's target, its invariant across the band | NEGATIVE for every single section |
 | W151 (row 1372) | sealed, a class test | the nine's target, its (D, E) box | no pair in the box |
 | W145, W89, W93, W96, W138, W141, W142 | verification | earlier arcs reproduced | not new looks |
+
+**The agy lane (another session's branch, 2026-10-26/27; P-390, audited in B1784):** its arcs compare the frame with the six
+and the nine post hoc and unsealed (agy:B1760's null, agy:B1762's laws, agy:B1763's weights, agy:B1764's τ*, agy:B1765–B1782's
+nineteen); none informed a main test, so none counts for a main grade; listed here so a later count sees them.
 
 **Another target in the frame (listed, not counted at the six):** the web seat's lepton test under PF1-W (row 1292; the lepton and neutrino sector).
 

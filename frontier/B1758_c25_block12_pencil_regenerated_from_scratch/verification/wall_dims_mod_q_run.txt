@@ -1,0 +1,13 @@
+q=40123 rho_q=13418: dim z(x1)=46; gamma^2=e: [13632]; a^2=-det14: [16308, 23815] | z(x1,y*)=14  z(x1, g x14 + a x16)=14  ctrl wrong-a=12  ctrl generic=12
+q=40123 rho_q=23094: dim z(x1)=46; gamma^2=e: [222]; a^2=-det14: [18983, 21140] | z(x1,y*)=14  z(x1, g x14 + a x16)=14  ctrl wrong-a=12  ctrl generic=12
+q=40123 rho_q=27063: dim z(x1)=46; gamma^2=e: [13410]; a^2=-det14: [2675, 37448] | z(x1,y*)=14  z(x1, g x14 + a x16)=14  ctrl wrong-a=12  ctrl generic=12
+q=40493 rho_q=22747: dim z(x1)=46; gamma^2=e: [3105]; a^2=-det14: []
+q=40493 rho_q=28398: dim z(x1)=46; gamma^2=e: [4179]; a^2=-det14: []
+q=40493 rho_q=36026: dim z(x1)=46; gamma^2=e: [1074]; a^2=-det14: []
+q=40583 rho_q=5357: dim z(x1)=46; gamma^2=e: [2387]; a^2=-det14: []
+q=40583 rho_q=8058: dim z(x1)=46; gamma^2=e: [4639]; a^2=-det14: []
+q=40583 rho_q=31995: dim z(x1)=46; gamma^2=e: [7026]; a^2=-det14: []
+q=40693 rho_q=6954: dim z(x1)=46; gamma^2=e: [18999]; a^2=-det14: [1479, 39214] | z(x1,y*)=14  z(x1, g x14 + a x16)=14  ctrl wrong-a=12  ctrl generic=12
+q=40693 rho_q=16726: dim z(x1)=46; gamma^2=e: [18573]; a^2=-det14: [3510, 37183] | z(x1,y*)=14  z(x1, g x14 + a x16)=14  ctrl wrong-a=12  ctrl generic=12
+q=40693 rho_q=26239: dim z(x1)=46; gamma^2=e: [426]; a^2=-det14: [4989, 35704] | z(x1,y*)=14  z(x1, g x14 + a x16)=14  ctrl wrong-a=12  ctrl generic=12
+wall exit 0

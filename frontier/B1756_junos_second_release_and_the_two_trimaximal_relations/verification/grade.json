@@ -1,0 +1,14 @@
+{
+ "JUNO_2026_second_release": {
+  "TM1_pull_sigma": 2.282,
+  "TM2_pull_sigma": 5.823,
+  "P10a_falsified": false,
+  "P10prime_falsified": true
+ },
+ "JUNO_2025_first_result": {
+  "TM1_pull_sigma": 1.037,
+  "TM2_pull_sigma": 3.641,
+  "P10a_falsified": false,
+  "P10prime_falsified": true
+ }
+}

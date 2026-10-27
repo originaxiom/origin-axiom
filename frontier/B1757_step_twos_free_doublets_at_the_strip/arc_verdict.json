@@ -1,0 +1,26 @@
+{
+ "id": "B1757",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1743",
+  "B1749"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W158"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's frame at B1667's end; two free doublets read S, c = 3",
+  "object": "step 2's free two-doublet fits at the six's strip on (2/5, 1/10), rerun with their vectors written",
+  "reach": "single",
+  "hypotheses": "the six's strip and line chosen after the data (P-377)"
+ },
+ "claim_one_line": "POST HOC data, at the SM seat's ask (its relay section 277): S217's step-2 fit of two free Higgs doublets at the six's strip rerun with the same starts and seeds -- all eight chi2_nine values reproduce exactly (best 2.75 and 4.05) -- and the fitted vectors committed: both doublets lie within about 0.1 of one null line (0, 1, i)/sqrt2, each with its own small e1 admixture (|h.h|/|h|^2 0.010-0.030). Not evidence (two free doublets reach 66% of random CKMs given the six, P-377); the reference for the seat's named-pair test W158. 0 of 19.",
+ "weave_or_thread": "thread (one line, post hoc)"
+}

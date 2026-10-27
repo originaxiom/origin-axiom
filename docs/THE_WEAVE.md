@@ -274,6 +274,9 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
   and the sealed 3σ bar is not met.
 - JUNO's first result (reported, not graded) puts TM2 at **3.64σ**. The data prefer TM1, and the open tensor-and-frame
   choice (FK11, given Λ) is close to a data constraint. P10′ (TM2) is in the falsifier register.
+- **[2026-10-24, B1756] P10′ is falsified:** JUNO's second release (sin²θ₁₂ = 0.3036 ± 0.0064) puts TM2 at **5.82σ**, beyond
+  the register's 3σ wording. The reading "T ⊗ T, all of G flavour" keeps no lepton relation; the weave is not refuted. TM1
+  (P10 (a)) stands at **2.28σ**, under pressure.
 
 ## Main's addition: does the principle reach the weave's cusp? (B1629, NEGATIVE as sealed; GENESIS v1.38)
 

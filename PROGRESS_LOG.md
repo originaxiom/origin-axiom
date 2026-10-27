@@ -17940,3 +17940,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 ## 2026-10-24 — S222 REVIEW 70'S ANCHOR; THE RELAY TO THE SM SEAT
 
 - Review 70's anchor-commit 34a7a7da4; the relay to the SM seat (Review 70, W156, B1755, P-385). 0 of 19.
+
+## 2026-10-27 — S223 B1755 (THE SLOPE 2/5); B1756 (P10′ FALSIFIED); B1758 (C25 EXACT); B1784 (THE AGY LANE AUDITED); B1757
+
+- B1755: the level-5 test holds at the edge (78 against a limit of 80); the per-line read-out puts every good line on the slope α = 2/5, at 4 of 10 offsets per order; the cell cannot tell the level-5 rung from the slope; not PASSED. B1756: JUNO kills TM2 (5.82σ), TM1 at 2.28σ. B1758: C25 certified in exact arithmetic (re-banked from the agy lane). B1784: the agy lane's 19 of 19 is typed tables; what is real kept. 0 of 19.
+- **Landing suite.** full suite 7 747 passed, 7 failed, 68 skipped (32:54, -n 8) on 370f26bd3: two failures are B805's attachment locks (P-239, standing); four were the new verdict files' scope field (a free-text reach; corrected to the schema's class/single) and one the P3 verification package's manifest made stale by the new B1758 lock (rebuilt); the affected files rerun green (1 496 passed) before the push.

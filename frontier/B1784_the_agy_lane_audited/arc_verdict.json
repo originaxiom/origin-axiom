@@ -1,0 +1,24 @@
+{
+ "id": "B1784",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1755",
+  "B1758"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "an audit of another session's lane (agy/frontier-2026-10-26) from its scripts",
+  "object": "the lane's arcs numbered B1758-B1782 on its branch",
+  "reach": "class",
+  "hypotheses": "four read-only auditors; main's own reruns where named"
+ },
+ "claim_one_line": "THE AGY LANE AUDITED (P-390): of its twenty-five arcs one is sound and re-banked (C25's exact certification, B1758); agy:B1759's residue law and agy:B1761's 5w = 1/2 residue fact are genuine; agy:B1760's class-choosing null is faithful but on the wrong menus (B1749 fails a fair null); agy:B1762-B1764 are post hoc fits presented as selections (tau* is B1749's best data row); the 19 of 19 of agy:B1777 and agy:B1781 is literal tables -- 4 inputs returned, 11 set to their targets, 3 frame ratios times input scales, theta-bar not computed. 0 of 19 stands; anti-fabrication gates proposed (P-391).",
+ "weave_or_thread": "audit"
+}

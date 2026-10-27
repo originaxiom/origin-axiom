@@ -7357,7 +7357,7 @@ sealing; disclosed, and the control is now a rule for any restriction test.
 - **Vocabulary:** "the look ledger", "five-ality" and "the strip" glossed in TERMINOLOGY.md at this review.
 
 ### Action items (Review 70)
-- [ ] R70-1: P-301 — regenerate B893's det₁₄ from the repository's exact tower and certify its sign at the three roots exactly; confirm THEOREM_LEDGER C25 or correct it with a dated note (carried from R69-6, itself from R68-6; owner: cc; first after this landing)
+- [x] R70-1: P-301 — regenerate B893's det₁₄ from the repository's exact tower and certify its sign at the three roots exactly; confirm THEOREM_LEDGER C25 or correct it with a dated note (carried from R69-6, itself from R68-6; owner: cc; first after this landing) — **resolved 2026-10-27 (S223, B1758):** C25 certified exactly (re-banked from the agy lane after main's audit)
 - [ ] R70-2: W64's dimension count on main — the premise of THE WEAVE's "W74's CP-invariance holds given W64's dimension count" (P-238's one live residue; owner: cc)
 - [ ] R70-3: P-298 — main's own check of W130 (the non-abelian Hodge criterion and the (3, 3, 3) non-unitarity) (carried from R69-6, itself from R68-6; owner: cc)
 - [ ] R70-4: L232's five reads (THE_FRAMEWORK and THE_SM_VERDICT first, carrying L231's stale sentences) and L231's six remaining items, each read and corrected or declined (carried from R69-4, itself from R68-4; owner: cc; due at Review 71)
@@ -7365,9 +7365,9 @@ sealing; disclosed, and the control is now a rule for any restriction test.
 - [ ] R70-6: P-386 — review the audit lane's sealed P210 sources in its order, then accept with the structured records or refuse with a dated note (owner: cc)
 - [ ] R70-7: the joint-law grade of B1749 and B1753 with a class-choosing null (P-381, P-384), after B1753's third opinion; harvest THE UNIFICATION-SCALE TEST when it lands (W156 harvested at this review) (owner: cc)
 - [x] R70-8: push the owner's mirror when the owner reconnects the drive (owner: the owner, then cc) — the owner reconnected it during the review; pushed with this landing
-- [ ] R70-10: P-388 — grade JUNO's second release against P10 and P10′ in an arc (P10′'s falsifier fires at 5.83σ) (owner: cc)
+- [x] R70-10: P-388 — grade JUNO's second release against P10 and P10′ in an arc (P10′'s falsifier fires at 5.83σ) (owner: cc) — **resolved 2026-10-27 (S223, B1756):** P10′ falsified at 5.82σ; P10 at 2.28σ
 - [ ] R70-11: P-389 — the web seat's step-back proposal, put to the owner with main's opinion (owner: the owner)
-- [ ] R70-12: B1755 — the SM seat's test of the level-5 rung (P-387): seal, census, comparison (owner: cc)
+- [x] R70-12: B1755 — the SM seat's test of the level-5 rung (P-387): seal, census, comparison (owner: cc) — **resolved 2026-10-27 (S223):** PROVED as sealed at the edge (78 of a limit of 80); every good line has slope 2/5, at selected offsets
 
 **anchor-commit: `34a7a7da4`**
 - [x] R70-9: filed at this review: the seen-first gate's placeholder check (B1743, B1746 corrected; E82); the look ledger's first full count (corrected by the web seat's row check before the push); the audit lane harvested (rows 1393–1395); P-385 adopted (B1754, GENESIS v1.58); P-238 closed by consequence; L230 closed; three glosses

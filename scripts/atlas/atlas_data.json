@@ -13977,6 +13977,69 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1755": {
+   "slug": "the six on the lines of order 13 to 20",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "P1"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1756": {
+   "slug": "junos second release and the two trimaximal relations",
+   "motifs": [
+    "measurement"
+   ],
+   "refs": [
+    "P10"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1757": {
+   "slug": "step twos free doublets at the strip",
+   "motifs": [],
+   "refs": [
+    "S217"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1758": {
+   "slug": "c25 block12 pencil regenerated from scratch",
+   "motifs": [
+    "measurement",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "B854",
+    "B877",
+    "B892",
+    "B893",
+    "B906",
+    "L228"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B175": {
    "slug": "collective spectrum predictivity",
    "motifs": [
@@ -14072,6 +14135,20 @@
    "obstacle": "units_scale",
    "obstacle_conf": 5,
    "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1784": {
+   "slug": "the agy lane audited",
+   "motifs": [
+    "choice",
+    "coupling"
+   ],
+   "refs": [
+    "B854"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 4,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B178": {

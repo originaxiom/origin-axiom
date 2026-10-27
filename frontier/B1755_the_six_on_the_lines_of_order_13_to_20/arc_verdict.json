@@ -1,0 +1,28 @@
+{
+ "id": "B1755",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1741",
+  "B1749",
+  "B1753",
+  "B1726"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W153"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's frame at B1667's end; c = 3 and the reading rule by hand",
+  "object": "the six at B1749's 125 apexes on every line of order 13, 14, 15, 20",
+  "reach": "class",
+  "hypotheses": "B1741's measure; the seat's menu; 80 000 random hierarchies per class"
+ },
+ "claim_one_line": "THE SIX ON THE LINES OF ORDER 13, 14, 15 AND 20 (the SM seat's test of the level-5 rung; sealed 2d6681208): the decisive composite cell holds as sealed at the edge -- on the orders 15 and 20 together 78 of 80 000 random hierarchies reach as low a chi2_six (the limit 80; within Monte-Carlo noise), on 13 and 14 4.9% and 42%; P1 5.33. Every line below the bar has alpha = 2/5, at 4 of 10 offsets per order (order 15: b 2/3, 14/15, 1/3, 4/15; order 20: 7/20, 1/4, 9/20, 3/20); the cell does not separate the level-5 orders from any pool holding the order-15 alpha = 2/5 pair (orders 15+13+14 give 0.096%); the unit-twist reading's other slopes carry nothing. Not PASSED under THE_BAR (r = 1.22e-3, m = 40). A READING. 0 of 19.",
+ "weave_or_thread": "thread (lines chosen by a rule stated before the run)"
+}

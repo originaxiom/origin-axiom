@@ -81,3 +81,9 @@ The census ran about 32 minutes; nothing was read before the commits.
 - `verification/census.py` → `census.jsonl`, `control.json`, `census_run.txt`.
 - `verification/compare.py` → `comparison.json`, `compare_run.txt`.
 - The lock: `tests/test_b1753_the_six_on_the_five_ality_lines.py`.
+
+## Dated note (2026-10-24, the SM seat's §278)
+
+Two stale docstrings in the sealed instruments, found by the SM seat while reading them for W157: census.py's apexes() says
+"words of length 12" where the code takes length 13, and compare.py's _load says 33 250 rows where it asserts 10 704. The
+code is what ran; neither slip changes a computation. The sealed files are not edited.

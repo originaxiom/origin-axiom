@@ -1,0 +1,23 @@
+{
+ "note": "Transcribed 2026-10-24 from arXiv's abstract page, read by main the same day (P-388; the web seat's relay of 2026-10-24, harvest row 1399, named it first). The falsifier register's wording for P10 (a) and P10' was fixed before this release (2026-10-08 and 2026-10-09); this arc applies it.",
+ "sets": {
+  "JUNO_2026_second_release": {
+   "source": "JUNO Collaboration, 'Measurement of Neutrino Oscillation Parameters at JUNO and Indication of the Neutrino Mass Ordering', arXiv:2609.37895 v1 (2026-09-29), abstract: sin^2 theta12 = 0.3036 +/- 0.0064, Delta m^2_21 = (7.388 +/- 0.078) x 10^-5 eV^2, normal ordering favoured (one-sided at least 2.1 sigma, Bayes factor 10.18). Its 3-sigma range derived as best +/- 3 sigma (Gaussian); theta13 from NuFIT 6.0 (normal ordering), as B1628.",
+   "orderings": {
+    "NO": {
+     "sin2_theta12": {"best": 0.3036, "plus": 0.0064, "minus": 0.0064, "lo3": 0.2844, "hi3": 0.3228},
+     "sin2_theta13": {"best": 0.02215, "plus": 0.00056, "minus": 0.00058}
+    }
+   }
+  },
+  "JUNO_2025_first_result": {
+   "source": "JUNO Collaboration, arXiv:2511.14593 (2025-11-18), as transcribed in B1628's data.json (reported there, not graded): sin^2 theta12 = 0.3092 +/- 0.0087; theta13 from NuFIT 6.0 (normal ordering).",
+   "orderings": {
+    "NO": {
+     "sin2_theta12": {"best": 0.3092, "plus": 0.0087, "minus": 0.0087, "lo3": 0.2831, "hi3": 0.3353},
+     "sin2_theta13": {"best": 0.02215, "plus": 0.00056, "minus": 0.00058}
+    }
+   }
+  }
+ }
+}

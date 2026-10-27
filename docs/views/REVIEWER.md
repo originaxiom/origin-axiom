@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1483** |
-| words of findings prose | **1,195,199** |
-| test lock files referenced | **898** |
-| arcs carrying an authored verdict | **1483** (100.0 %) |
+| research arcs with findings | **1488** |
+| words of findings prose | **1,199,732** |
+| test lock files referenced | **903** |
+| arcs carrying an authored verdict | **1488** (100.0 %) |
 | recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1013 |
+| PROVED | 1018 |
 | NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1754`** (539 words, 1 locks)  
-GENESIS v1.58 at the owner's ruling on P-385: the ladder's rule in the three seats' merged wording -- the rungs are the moves' quotients by T^N, Delta(2, 3, N), finite exactly for N = 2-5 with the end forced by the moves' orders (not every finite quotient: PSL(2, F7) is a quotient of the infinite Delta(2, 3, 7)); the container E8 a composition requirement adopted by ruling; R2 recorded with its hypothesis (one scalar holomorphic theta series; for any even lattice (Im tau)^(r/2) sum |Theta_mu|^2 is invariant). THE WEAVE's breaking rule gains the audit lane's qualifier: choosing a representative is a convention only when the declared equivalence preserves the full relational observables, including the reference/measuring sector. No status cell changes; no computation changes. 0 of 19.  
-`B1754_genesis_v1_58/FINDINGS.md`
+**PROVED — `B1784`** (839 words, 1 locks)  
+THE AGY LANE AUDITED (P-390): of its twenty-five arcs one is sound and re-banked (C25's exact certification, B1758); agy:B1759's residue law and agy:B1761's 5w = 1/2 residue fact are genuine; agy:B1760's class-choosing null is faithful but on the wrong menus (B1749 fails a fair null); agy:B1762-B1764 are post hoc fits presented as selections (tau* is B1749's best data row); the 19 of 19 of agy:B1777 and agy:B1781 is literal tables -- 4 inputs returned, 11 set to their targets, 3 frame ratios times input scales, theta-bar not computed. 0 of 19 stands; anti-fabrication gates proposed (P-391).  
+`B1784_the_agy_lane_audited/FINDINGS.md`
 
 **NEGATIVE — `B1748`** (966 words, 1 locks)  
 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  

@@ -1,0 +1,9 @@
+tau 0.3145+3.0345i L_max chi2_nine    19.08
+tau 0.3145+3.0345i L_2   chi2_nine    45.85
+tau 0.3333+3.0551i L_max chi2_nine     4.05
+tau 0.3333+3.0551i L_2   chi2_nine    37.97
+tau 0.3145+3.1000i L_max chi2_nine    29.17
+tau 0.3145+3.1000i L_2   chi2_nine    45.47
+tau 0.3145+2.9500i L_max chi2_nine     2.75
+tau 0.3145+2.9500i L_2   chi2_nine    29.37
+free_doublets exit 0

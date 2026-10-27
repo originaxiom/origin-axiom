@@ -284,6 +284,11 @@ charge (B892: the perfect-square gate, λ₊(y*) = 0 by construction), and a mea
 centraliser at a wall: dim z(x₁, y*) = 14 on the walls, while a generic point of the charge torus has a
 joint centraliser of dimension 12 (B1433). Whether B893's "det₁₄ > 0 at all three roots" holds exactly,
 not only in floating point, is P-301.
+**CERTIFIED EXACTLY (dated 2026-10-27, B1758; P-301 DONE).** The block-12 pencil regenerated from B854 without the lost
+pickle (computed by the agy lane, audited and re-run by main): det₁₄(ρ) = (9084997258444800000/13⁴)(ρ + 13/235200)² + 2727198720,
+so det₁₄ > 0 for every real ρ, its γ-part exactly 0, and e = γ² > 0 at the three roots; B893's floats reproduced to every
+stored digit; over GF(40123) and GF(40693) dim z(x₁, y*) = 14 at all six roots. The clause "the wall complex in the split
+frame, at all three roots" stands exactly.
 **SCOPE (B950, carried here 2026-09-03 by B1243 — the citation gate's first catch).** That
 algebra is **14-dimensional**; the Standard Model's is **12**. It is the A₂+A₁ Levi — a
 **centralizer**, not the SM gauge algebra — and B892's own banner says the phrase "take E₆ to

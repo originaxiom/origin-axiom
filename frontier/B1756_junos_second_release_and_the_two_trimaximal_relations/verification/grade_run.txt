@@ -1,0 +1,46 @@
+{
+ "sources": {
+  "JUNO_2026_second_release": "JUNO Collaboration, 'Measurement of Neutrino Oscillation Parameters at JUNO and Indication of the Neutrino Mass Ordering', arXiv:2609.37895 v1 (2026-09-29), abstract: sin^2 theta12 = 0.3036 +/- 0.0064, Delta m^2_21 = (7.388 +/- 0.078) x 10^-5 eV^2, normal ordering favoured (one-sided at least 2.1 sigma, Bayes factor 10.18). Its 3-sigma range derived as best +/- 3 sigma (Gaussian); theta13 from NuFIT 6.0 (normal ordering), as B1628.",
+  "JUNO_2025_first_result": "JUNO Collaboration, arXiv:2511.14593 (2025-11-18), as transcribed in B1628's data.json (reported there, not graded): sin^2 theta12 = 0.3092 +/- 0.0087; theta13 from NuFIT 6.0 (normal ordering)."
+ },
+ "sets": {
+  "JUNO_2026_second_release": {
+   "NO": {
+    "TM1": {
+     "sin2_theta12_predicted": 0.31823,
+     "theta13_spread": 0.000404,
+     "pull_sigma": 2.282,
+     "inside_3sigma_range": true
+    },
+    "TM2": {
+     "sin2_theta12_predicted": 0.34088,
+     "theta13_spread": 0.000202,
+     "pull_sigma": 5.823,
+     "inside_3sigma_range": false
+    },
+    "TM1_within_2sigma": false,
+    "TM2_beyond_3sigma": true
+   }
+  },
+  "JUNO_2025_first_result": {
+   "NO": {
+    "TM1": {
+     "sin2_theta12_predicted": 0.31823,
+     "theta13_spread": 0.000404,
+     "pull_sigma": 1.037,
+     "inside_3sigma_range": true
+    },
+    "TM2": {
+     "sin2_theta12_predicted": 0.34088,
+     "theta13_spread": 0.000202,
+     "pull_sigma": 3.641,
+     "inside_3sigma_range": false
+    },
+    "TM1_within_2sigma": true,
+    "TM2_beyond_3sigma": true
+   }
+  }
+ }
+}
+JUNO_2026_second_release {'TM1_pull_sigma': 2.282, 'TM2_pull_sigma': 5.823, 'P10a_falsified': False, 'P10prime_falsified': True}
+JUNO_2025_first_result {'TM1_pull_sigma': 1.037, 'TM2_pull_sigma': 3.641, 'P10a_falsified': False, 'P10prime_falsified': True}
