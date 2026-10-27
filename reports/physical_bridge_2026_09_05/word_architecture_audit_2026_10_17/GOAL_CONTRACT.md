@@ -470,6 +470,32 @@ The next duty remains the SAME-parent charged bulk/localized complex,
 its full modes, normalization and cubic. Earlier execution/review seals
 are unchanged. The full physical goal remains unfinished and active.
 
+## October 27: compute the coupled compact complex without selecting a split bundle
+
+The [coupled compact proof](COUPLED_COMPACT_HIGGS_COMPLEX_AND_EQUIVARIANT_EXTENSIONS.md)
+now constructs the ordinary Dolbeault/Higgs total differential, its
+compact elliptic realization and its sheaf kernel/cokernel. In the
+specified zero-free nonzero branch its cohomology dimensions are
+(1,9,0) in the combined fundamental complex and (0,12,0) in the adjoint
+deformation complex, independent of whether the bundle splits. These
+are internal curve counts, NOT physical chiral generation counts.
+The full Q8 representations and invariant subspaces are given explicitly.
+
+An invariant Dolbeault cocycle constructs a genuine one-complex-parameter
+family of nonsplit nilpotent pairs. All are stable after untwisting by
+the correlated spin root, so the compact Hitchin equations do not select
+one extension. Mode counts are independent of this choice, while actual
+profiles and metrics may depend on it. This retains a derived family
+rather than supplying beta=0. The proof is unreviewed author algebra;
+no scientific producer/test was executed or newly admitted.
+
+Personally read complete Appendix D of 1010.5780v1: the surface mapping
+cone retains the cohomology terms that a local quotient can omit. It is
+not the curve complex by identification. Next duty: derive this family's
+horizontal/end dynamics and full charged field/action map in the SAME
+physical parent. No foundational row or measured parameter is marked
+paid, and earlier execution/review seals remain unchanged.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

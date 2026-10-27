@@ -1,0 +1,33 @@
+{
+  "status": "Source/author-proof custody only; no science execution, independent review or admission",
+  "base_commit": "45a23b33e69d862023e7ad7f84ec557a087d09af",
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_COMPACT_HIGGS_COMPLEX_AND_EQUIVARIANT_EXTENSIONS.md",
+      "sha256": "fba1da53b3fd3fef32bea7227a2471aea916a5831c6706307f3d580b3973fa4e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EQUIVARIANT_NILPOTENT_DIVISOR_AND_LOCALIZED_MODE_DUTY.md",
+      "sha256": "07f8432fae6d7ddde6a210cf55511738ffe963ac36ff609e319e58347d5bc001"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COMPACT_UNIFORMIZING_CORE_AND_GLOBAL_INPUTS.md",
+      "sha256": "045d654809629e028ec975b2e9ee6a742d732bb2d05d8223e3cff20252f58d42"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COMPACT_HIGGS_ORBIT_AND_MODULAR_SELECTION.md",
+      "sha256": "89dfa0dbdac7f1482b3cd8726873d2a3e22dac2b2aa1e4d5e62b8912a60c5afd"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COMBINED_SPIN_GAUGE_DESCENT_AND_RETAINED_SECTORS.md",
+      "sha256": "b5db69555bed0bfd457d733f79b6509dcc1c3088cd6792734ffc46a7901cfc2f"
+    }
+  ],
+  "primary_reading": {
+    "url": "https://arxiv.org/html/1010.5780",
+    "version": "v1 as displayed",
+    "scope_this_checkpoint": "Appendix D complete, equations D.1-D.24",
+    "access_date": "2026-10-27"
+  },
+  "checks": "Author hand algebra: sheaf kernel/cokernel, Euler characteristics, product-basis independence, finite-group representations, explicit extension construction. No executed scientific checks."
+}
