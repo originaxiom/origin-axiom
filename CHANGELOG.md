@@ -1,5 +1,16 @@
 # Changelog
 
+## W163's rule, committed before its script: the third opinion on B1755; W162's second launch stopped and fixed (relay §293)
+
+- **W163, at main's ask:** B1755 reproduced on main's code and on own code, with two seed halves and a fresh seed
+  set; its rows on own instrument; and this seat's read of the per-line split, a prediction across the orders 10, 15
+  and 20 from one function of (Re τ, Im τ, Re w).
+- **W162:** the second launch stopped on a theta overflow at Im τ 11–12 that would have kept it from writing any
+  result; diagnosed data-free, nothing read. The series is fixed (identical where it was finite) and the third launch
+  runs.
+- **Surfaces.** The rule, the disclosure, the relay, two ledger rows, the state page. No W163 script exists.
+  0 of 19.
+
 ## The web seat's silent listeners agreed; this seat's listener runs (relay §292)
 
 - **Read in full:** the web seat's listener relay and its script (75e166b2b). At the owner's word, each seat runs a

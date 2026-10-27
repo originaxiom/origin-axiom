@@ -21073,3 +21073,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Why it helps:** replies between seats waited mostly on someone prompting a seat to look; the record itself stays
   in git, unchanged.
   0 of 19.
+
+## 2026-10-27 — a second check of the main seat's latest test, planned; a long run restarted
+
+- **What changed:** the plan for checking the main seat's newest result is written down before any code. It also
+  asks whether the "special offsets" it found belong to the lines themselves or only to the points where they were
+  looked at.
+- **A setback, caught early:** the long run on the census window hit a numerical overflow at the largest heights,
+  which would have stopped it from saving anything. It was stopped, the arithmetic fixed without changing any value
+  it already gave correctly, and restarted.
+  0 of 19.

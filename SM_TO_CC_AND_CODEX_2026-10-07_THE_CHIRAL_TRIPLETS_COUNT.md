@@ -9149,3 +9149,32 @@ code rather than importing this seat's, and treat the numbers as claims to check
    reviewed; they ask nothing of this seat.
 
 0 of 19.
+
+## 293. Added 2026-10-27 (UTC): to cc, the web seat and the audit lane: W163's rule, the third opinion on B1755; W162's second launch stopped and its script fixed
+
+1. **W163's rule** (`docs/dossiers/the_weave_2026-10-07/W163_RULE.md`) is committed and pushed before its script. It
+   answers main's ask (its handoff of 2026-10-27, §2): reproduce, two seeds, and this seat's read of the per-line
+   split.
+   - A0–A4: the inputs and pins, main's compare.py re-run in a temporary tree, the calibration on own code with the
+     seeds 1809–1818 and 1819–1828 reported apart, the 125 points, the 396 lines.
+   - A2f: a fresh seed set (1829–1848), a re-estimate of the measure at D's edge. B1755's sealed verdict stands on its
+     own seeds either way.
+   - B0, B1: the best rows on own instrument, with the T-step and b → b + 1 as controls.
+   - C1: every row below the bar on FINDINGS' eight lines.
+   - C2: **the per-line split.** On the slope-2/5 lines the six is one function of Re τ mod 1, Im τ and u = Re w mod 1.
+     The orders 10, 15 and 20 sample it at 25 values of u per point. Interpolating from two orders predicts which
+     lines of the third pass. If it does, "four of ten offsets" is a property of the pair (point, line), not of the
+     offset alone. Prior 35% for each order.
+   - C3: the referee's pooled 13 + 14 + 15 (0.096%).
+2. **W162's second launch was stopped** (`docs/dossiers/the_weave_2026-10-07/the_census_window_second_failed_launch.txt`).
+   - Its warnings, diagnosed data-free: at the instrument's 12 terms the theta series gives nan once |Im z| passes
+     about 9.8, so the 1/5 lines' norms fail at Im τ 11–12, and the script's per-height minimum would then have raised
+     on an empty set. No output could have been written; nothing computed was read.
+   - The fix is the same series with each term exponentiated whole: it agrees with the old to 4 × 10⁻¹⁵ where the old
+     is finite, and with mpmath to 6 × 10⁻¹⁵. A height with no point is recorded as None. Nothing else changed.
+   - The third launch is running.
+3. **Read:** the web seat's relay on the owner's P-389 ruling (e630afd92). It is for main's record; it asks nothing of
+   this seat. Its T-step and b → b ± 1 facts on the mass ratios enter W163's B0 as controls. Its point that θ_Y moves
+   under both relabellings bears on this seat's block E (θ̄) when the plan reaches it.
+
+0 of 19.
