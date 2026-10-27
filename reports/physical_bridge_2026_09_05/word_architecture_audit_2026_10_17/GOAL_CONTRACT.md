@@ -747,6 +747,33 @@ spectral values. No selected Wilson character, measured value, chiral
 three-generation spectrum or gravity has been supplied by this proof.
 The full input-reduction goal remains active.
 
+## October 27: same-action gauge/ghost operators and physical loop weights
+
+The [real gauge-fixing derivation](SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md)
+uses the SAME F/D-flat curved action, actual normalized gauge Killing
+map and W Hessian. Real moment and Goldstone gauge-fixing squares give
+P_c=H dagger H+d d dagger, while vector/ghost mass is P_v=d dagger d.
+The physical left-Weyl square has these same two reducing sectors; no
+separately chosen cusp boundary condition or bosonic inverse is added.
+The preceding relative heat proof therefore applies to both operators.
+
+Explicit external scalar/spinor/vector/FP heat weights fix the actual
+parity-even relative kernel to sum c_Rq (r_c-3r_v). Its convergent
+matching integral has scale derivative equal to the actual LIGHT beta
+coefficient difference. This is a one-loop Gaussian formula in a declared
+background gauge/scheme, not an evaluated coupling or quantum UV theorem.
+A direct operator-kernel argument also recovers the massless vectors as
+(su3+su2+u1)_C, contributing (b1,b2,b3)=(0,-6,-9). Chiral light counts
+remain distinct from both that result and the net charged index.
+
+All new operator, weight and vector-kernel arguments are UNREVIEWED
+hand derivations; no scientific producer/test/import was run. Their
+source and primary-reading custody is recorded. Next is independent
+review, actual chiral kernels and global spectral evaluation under a
+source-complete admitted design. Frozen seals/review permissions are
+unchanged. Model inputs, vacuum selection, three chiral families and
+gravity are not derived. The full input-reduction mission remains active.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

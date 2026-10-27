@@ -1,0 +1,70 @@
+{
+  "status": "UNREVIEWED same-action Gaussian gauge/ghost and physical parity-even one-loop derivation; no scientific execution or independent certification",
+  "base_commit": "01e322345d3bd2b0e125af64c1ca48207dd1117d",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "sha256": "d7fbea3107bb3fbe85c3c27d0e9820e87efecae64748578d246cfa3567f2b7dc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_FERMION_RELATIVE_HEAT_EXISTENCE.md",
+      "sha256": "81ff70cb5b04867cb972cb0af518ab4d7b56b1d838ac61cab9a5dc433e35a623"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/RELATIVE_HEAT_ADMISSION_AND_SCALE_DEPENDENCE.md",
+      "sha256": "c296b3b85b85d0e97de0d7d523ee32f6050b26cbea5d5be0926adb8c75a59498"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/WILSON_CHARGE_RESOLVED_RELATIVE_THRESHOLD_MAP.md",
+      "sha256": "72cc494c6960f7b40fb23435e10cec4f6edff63d663f176f982e0b844bd79c24"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/PROOF.md",
+      "sha256": "0666cc040c486f69d7b8cda4e581d7da31a265d2dd9a7cc4d18ae5beb30837d8"
+    }
+  ],
+  "primary_reading": [
+    {
+      "url": "https://arxiv.org/pdf/hep-th/0306138",
+      "scope": "(3.26)-(3.28), (3.42)-(3.53), (4.25)-(4.34); surrounding displayed discussion; not the full paper",
+      "access_date": "2026-10-27"
+    },
+    {
+      "url": "https://arxiv.org/pdf/hep-ph/9311340",
+      "scope": "(2.1)-(2.3) and index definitions; not the full paper",
+      "access_date": "2026-10-27"
+    },
+    {
+      "url": "https://arxiv.org/pdf/hep-th/0001121",
+      "scope": "(17)-(20), associated quadratic vector/mixed terms and metric/mass definitions; not its full paper or a transfer of the Landau-gauge Kahler formula",
+      "access_date": "2026-10-27"
+    }
+  ],
+  "quantifier": "Fixed supplied F/D-flat parallel SM gauge phase, complete graph law and background Feynman gauge; leading parity-even external F^2 coefficient in a declared matching prescription",
+  "scientific_execution": "none",
+  "independent_review": "new proof not yet independently reviewed",
+  "still_priced": [
+    "action and physical identification",
+    "metric and spin",
+    "background and Wilson character",
+    "absolute scale and coupling",
+    "chiral kernel multiplicities",
+    "global spectral evaluation",
+    "phase/anomaly and UV completion",
+    "vacuum/state selection",
+    "supersymmetry breaking",
+    "three chiral generations and gravity"
+  ]
+}
