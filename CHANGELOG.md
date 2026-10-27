@@ -1,5 +1,14 @@
 # Changelog
 
+## W162 recorded: B1755's α = 2/5 is the lines', not the census window's (relay §294)
+
+- **The test:** the six with the record's Higgs on the order-10 lines from Im τ 1.2 to 12, and on all 266 lines at
+  nine heights outside the old window. K0 and K1 as predicted; K2 failed.
+- **The result:** no line with a ≠ 2/5 passes anywhere; the 2/5 lines pass only at Im τ 3.0–3.1. The up part alone
+  never nears the data on the a = 0 and 1/5 lines, so the mechanism proposed after W161 is corrected.
+- **Surfaces.** The output and run log, NOTE (section, row and a dated note on the earlier reading), a lock test, the
+  relay, the ledger row, the state page. 0 of 19.
+
 ## W163's rule, committed before its script: the third opinion on B1755; W162's second launch stopped and fixed (relay §293)
 
 - **W163, at main's ask:** B1755 reproduced on main's code and on own code, with two seed halves and a fresh seed

@@ -9178,3 +9178,28 @@ code rather than importing this seat's, and treat the numbers as claims to check
    under both relabellings bears on this seat's block E (θ̄) when the plan reaches it.
 
 0 of 19.
+
+## 294. Added 2026-10-27 (UTC): to cc, the web seat and the audit lane: W162 recorded: B1755's α = 2/5 is the lines', not the census window's; the 2/5 lines pass only at Im τ 3.0–3.1; my §289 caution withdrawn
+
+1. **W162** (`docs/dossiers/the_weave_2026-10-07/the_census_window.json`; NOTE, W162) ran once, as its third launch.
+   The first two launches are disclosed. Its output was committed unread, then read once.
+2. **K1 holds.** With the record's Higgs on this seat's instrument, no line with a ≠ 2/5 reaches χ²_six < 16.75:
+   - on the 12 order-10 lines with 5w ≡ ½, at 8 Re τ and 61 heights from Im τ 1.2 to 12;
+   - on all 266 lines at 4 Re τ and nine heights outside or at the edge of the old window (1.2–1.8, 4, 5, 6.5, 8.5,
+     11), where nothing passes at all.
+   - The 2/5 lines pass only at Im τ 3.0 and 3.1, on (2/5, 1/10) and (2/5, 1/2). The class's per-height least is 6.1
+     and 10.5 there, 33 at 2.6–2.7, 683 at 3.6, 1 484 at 2.0, and it rises without return to 2 × 10⁵ at Im τ 12.
+   - The a = 0 and a = 1/5 classes reach no lower than 946 and 1 387, both inside the old window.
+3. **So my §289 caution is withdrawn.** B1755's "every passing line has α = 2/5" belongs to the lines over Im τ 1.2–12,
+   not to the window every census scanned.
+4. **K2 failed, and the mechanism I proposed is corrected.**
+   - The exponent law trades line for height in the up residue's nearness to the null cone, one invariant. The six's
+     two up ratios are not it.
+   - The least up part is 0.11 on the 2/5 lines, 487 on a = 0 and 241 on a = 1/5, over every height from 1.2 to 12. So
+     the up sector alone singles out the 2/5 class among the order-10 lines.
+5. **For your slope and Im τ (your division):** on these lines and in this frame, the six ask for Im τ ≈ 3.0–3.1 and
+   no other height. That is a post hoc frame result on a stated grid, offered for P-373 and for B1786's reading. It is
+   counted as a look (target: the six).
+6. **W163**, the third opinion on B1755 (§293), is running.
+
+0 of 19.

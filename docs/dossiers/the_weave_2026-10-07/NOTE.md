@@ -7726,6 +7726,68 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W162. The census window: B1755's α = 2/5 is a property of the lines, not of the window every census scanned. With the record's Higgs, on the 12 order-10 lines at Im τ 1.2–12 and on all 266 lines at nine heights outside the old window, no line with a ≠ 2/5 reaches the bar; the 2/5 lines pass only at Im τ 3.0–3.1. The exponent law does not set where the up part is best: on the a = 0 and 1/5 lines the up part never comes near the data at any height. K0 and K1 as predicted; K2 failed (`the_census_window.py`; `W162_RULE.md`)
+
+**Why.** The reading after W160 and W161 (below) cautioned that "every passing line has α = 2/5" (B1755) might belong
+to the window Im τ ≈ 2.0–3.6 that every census scanned. The owner said "yes" to testing it in place of the plan's
+stage-1 extension.
+
+**The order.**
+- The rule (`W162_RULE.md`, 4a6e0456e) was committed and pushed before the script existed.
+- The script (c836c50a6) was committed before its run. Two launches failed and are disclosed:
+  - the first was stopped at 40 minutes, under a time limit below its run time
+    (`the_census_window_failed_launch.txt`);
+  - the second was stopped at 1 h 12 min (`the_census_window_second_failed_launch.txt`). Its warnings, diagnosed
+    data-free, showed that W89's theta series at 12 terms gives nan once |Im z| passes about 9.8. So the 1/5 lines'
+    norms failed at Im τ 11–12, and an empty per-height minimum would have kept the run from writing any result.
+- The fix (79af2e882) is the same series with each term exponentiated whole, plus a guard for an empty height. It was
+  checked data-free before the commit (4 × 10⁻¹⁵ against the old series where finite; 6 × 10⁻¹⁵ against mpmath).
+- The third launch ran 2 h 31 min. Its output (e058a91f4) was committed unread, after a check of the exit, the failed
+  tasks, non-finite values and paths only, then read once.
+
+**The result (COMPUTED; one run, the third launch; K0 and K1 as predicted; K2 failed).**
+- **K0, the instrument.** The pins hold. Ten of W158's strip rows reproduce the stored census to 8.2 × 10⁻¹¹ in log.
+  All 15 442 tasks computed, none failed, and no point dropped a genuine channel under main's 10⁻¹² rule. The fixed
+  series matches mpmath's jtheta to 5.6 × 10⁻¹⁵ at Im τ 11–12.
+- **K1, the main question: holds.** No line with a ≠ 2/5 reaches χ²_six < 16.75 at any point of either tier.
+  - Tier A (the 12 order-10 lines, 8 Re τ, 61 heights from 1.2 to 12): the points below the bar are 12, all on
+    (2/5, 1/10) and (2/5, 1/2), at Im τ 3.0 and 3.1 only.
+  - Tier B (all 266 lines, 4 Re τ, heights 1.2, 1.4, 1.6, 1.8, 4, 5, 6.5, 8.5 and 11): no point below the bar.
+- **Each class's least χ²_six** (Tier A, the seat's menu, both horocycles):
+  - a = 2/5: 6.15 at 0.1875 + 3.0i on (2/5, 1/10), L_max, (S̃, S, S), c = 3; its six parts 1.56, 0.92, 0.00, 1.85,
+    0.27, 1.55;
+  - a = 0: 946 at Im τ 3.0;
+  - a = 1/5: 1 387 at Im τ 3.9.
+
+  Per height, the 2/5 class's least is 6.1 at 3.0 and 10.5 at 3.1. Next come 33 at 2.6 and 2.7, 43 at 2.9 and 50 at
+  3.2. It is 683 at 3.6 and 1 484 at 2.0, and it rises without a return to 2 × 10⁵ at Im τ 12. The other two classes
+  have their least inside the old window too, and rise above Im τ 4 to 1.6 × 10⁵ and 3 × 10⁵.
+- **K2, the mechanism: failed.** Each class's least up part (its two up terms at the menu's up reading):
+  - a = 2/5: 0.11 at Im τ 2.9, inside the predicted 2.5–3.6;
+  - a = 0: 487 at Im τ 3.4, outside 1.4–2.3;
+  - a = 1/5: 241 at Im τ 5.5, outside 7–12.
+- **The L read-out above Im τ 4.** Moving L by ±2% moves each class's best point above 4 by 1–3%. Each stays above
+  1 600, so holding L at its Im τ = 4 value decides nothing there.
+
+**What it shows (a READING on the computed facts).**
+- **The caution is lifted.** Within the record's frame and Higgs, α = 2/5 is a property of the lines over Im τ 1.2–12,
+  not of the census window. B1755's reading stands over that range. On these lines the six's valley sits at Im τ
+  3.0–3.1 and nowhere else.
+- **The reading's mechanism is corrected.** The exponent law trades line for height in one invariant, the up
+  residue's nearness to the null cone. The six's two up ratios are not that invariant. On the a = 0 and 1/5 lines the
+  up part never comes within 240 of the data at any height. So the up sector alone already singles out the 2/5 class
+  among the order-10 lines. The down and lepton sectors are not needed to explain it, as the reading had supposed they
+  might be.
+- **For main's division.** The slope is main's (B1785, B1786). This result gives main's slope reduction a range in
+  height: no height from 1.2 to 12 lets another order-10 class pass. Im τ ≈ 3.0–3.1 on the 2/5 lines is what the six
+  ask for in this frame (P-373, main's).
+- **For the look ledger:** a post hoc look at the six (target: the six), on stated lines and a stated grid.
+
+**Weave or thread.** A frame result on stated lines and a stated grid, post hoc on the six. It decides how the
+record's census results may be read, and it derives nothing.
+
+0 of 19.
+
 ## Reading: the data's lines in the record's own terms, and the census window (READING, by hand, after W160 and W161; 2026-10-27)
 
 **A READING: nothing new is computed, and it adds no claim.** It rests on W160's exact zero law and exponent law. It
@@ -7753,6 +7815,12 @@ is put to the owner as the reason for the next test.
   still single out 2/5; only a computation can say.
 - **The test this asks for (proposed, not run).** The six with the record's Higgs on the order-10 lines, on a τ grid
   reaching from Im τ ≈ 1.2 to 12, each line class read at its own best height. Rule first, as always.
+
+> **Dated note (2026-10-27, after W162).** The test was run as W162. Its K1 held: no line with a ≠ 2/5 passes
+> anywhere from Im τ 1.2 to 12, so the caution above is lifted. Its K2 failed: on the a = 0 and 1/5 lines the up part
+> never comes within 240 of the data at any height. The trade-off of line for height holds for the up residue's
+> nearness to the cone, one invariant, and not for the six's two up ratios. The second and third bullets above are
+> corrected accordingly; the first stands.
 
 0 of 19.
 
@@ -13628,6 +13696,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W162 | COMPUTED (the rule first; one run, the third launch, the first two stopped and disclosed; K0 and K1 as predicted, K2 failed); a frame result on stated lines and grid, post hoc on the six | the census window: with the record's Higgs on the 12 order-10 lines at Im τ 1.2–12 and all 266 lines at nine heights outside 2.0–3.6, no line with a ≠ 2/5 reaches 16.75; the 2/5 lines pass only at Im τ 3.0–3.1 (least 6.15 on the grid); a = 0 least 946, a = 1/5 least 1 387; the up part's least is 0.11 on 2/5, 487 on a = 0 and 241 on a = 1/5 at any height, so the exponent law's trade-off is one invariant's and the up sector alone singles out 2/5; B1755's α = 2/5 is the lines', not the window's. 0 of 19 |
 | W161 | COMPUTED (the rule first; one run; K0, K1, K3 as predicted, K2 failed); a thread-and-frame result, post hoc on the nine | B1762's ten Higgs recipes on own code at B1757's four points: all 40 χ²_nine and ∣J∣ reproduce to 9 × 10⁻¹²; least 25.43 (L4p), above 21.67; null (a) 1.27% (fails 1%), null (b) 0.0%; at W158's 38 strip rows no recipe below 21.67 (best 25.89); the inverse-Gram H_d lies 0.5°–8.7° from the free fit's H_d and about 1° from DR's forced orbit, the free fit's doublets 1°–4.3° from it: W159's missing orientation is a deformation of a few degrees. 0 of 19 |
 | W160 | COMPUTED (the rule first; one run; every cell as predicted); a frame result, data-free | the plan's stage 1 on the agy branch's B1761 and B1759, own code: R_i^up ∝ θ₂(3πw)θ₂(5πw), so B1761's C1 is 5w ≡ ½ with a ≠ 0, the 10 lines (1/5, odd/10) and (2/5, odd/10) at every τ (12 without the clause, none of order 13–20); main's residues agree to 1.2 × 10⁻¹⁴; the cutoff is an exponent law, I = 2ε/(1 + ε²), ε = exp(−π(1 − 2‖3a‖) Im τ), within 4.3% at Im τ ≥ 3, the 2/5 lines nearest the cone at every τ, the fixed 0.05 failing at Im τ = 5.870; B1759 is the record's own kernel formula. Post hoc: the a = 0 lines sit nearer the cone still (I = 3.8 × 10⁻⁴ and 5.5 × 10⁻⁵ at the probe), so the clause a ≠ 0 (the lines that move under T) is load-bearing and chosen. 0 of 19 |
 | W159 | COMPUTED (the rule first; one run; K0 as predicted, K1 failed, K2 moot); a frame result at the six's strip, post hoc on the nine | the two-object route tried again: H_u, H_d as two of the 24 images of the record's DR under the forced group on the qubit (each DR at a modular image of τ, with DR's mixing), type II, the seat's menu, at the 38 strip rows: least χ²_nine 315 over the 576 ordered pairs (one Higgs 455; the record's pair 581). Scaling DR's mixing by λ helps only to 189, near λ = 3. The forced moves offer relative orientations of 4°–6° or 55° and more; the missing piece is the second Higgs's direction, not only its mixing. 0 of 19 |

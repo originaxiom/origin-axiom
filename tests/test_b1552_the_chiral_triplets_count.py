@@ -5091,3 +5091,37 @@ def test_w161_the_recipes_priced():
     assert abs(e / 1.0 - 1.82) < 0.01 and abs(e / (1 - 2 * 0.4) - 9.10) < 0.02
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W161. The plan's stage 1, second part" in note and "the census window (READING" in note
+
+
+def test_w162_the_census_window():
+    """W162: K0 and K1 as predicted, K2 failed; in process, the third launch's fix: at Im tau 12 the old 12-term theta
+    series (nome power times sine) is not finite where the per-term exponential form is, and the latter matches mpmath"""
+    import math as m
+
+    import mpmath as mpm
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_census_window.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"K0": True, "K1": True, "K2": False} and "run_failed" not in d
+    assert d["K0"]["tasks"] == 15442 and d["K0"]["failed tasks"] == 0
+    assert d["K0"]["ten strip rows, worst |log own - log stored|"] < 1e-6
+    assert d["lines with a != 2/5 below 16.75"] == [] and d["Tier B points below 16.75"] == []
+    assert d["2/5 passes: heights"] == [3.0, 3.1] and d["2/5 passes outside 2.0-3.6"] == []
+    assert all(p[0] in ("2/5,1/10", "2/5,1/2") for p in d["Tier A points below 16.75"])
+    ta = d["Tier A"]
+    assert 6.1 < ta["2/5"]["least chi2_six"] < 6.2 and ta["0"]["least chi2_six"] > 900
+    assert ta["1/5"]["least chi2_six"] > 1300
+    assert ta["2/5"]["least up part"] < 0.2 and ta["0"]["least up part"] > 400 and ta["1/5"]["least up part"] > 200
+    assert d["K2 by class"] == {"0": False, "1/5": False, "2/5": True}
+    t, z = complex(1 / 16, 12.0), complex(0.3, 10.8)
+    q = np.exp(1j * np.pi * t)
+    n = np.arange(12)
+    with np.errstate(all="ignore"):
+        old = 2 * np.sum((-1.0) ** n * q ** ((n + 0.5) ** 2) * np.sin((2 * n + 1) * np.pi * z))
+    e = 1j * np.pi * t * (n + 0.5) ** 2
+    k = 1j * (2 * n + 1) * np.pi * z
+    new = -1j * np.sum((-1.0) ** n * (np.exp(e + k) - np.exp(e - k)))
+    ref = complex(mpm.jtheta(1, mpm.pi * mpm.mpc(z.real, z.imag), mpm.exp(1j * mpm.pi * mpm.mpc(t.real, t.imag))))
+    assert not np.isfinite(old) and m.isfinite(abs(new)) and abs(new - ref) / abs(ref) < 1e-12
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W162. The census window" in note and "Dated note (2026-10-27, after W162)" in note

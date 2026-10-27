@@ -21083,3 +21083,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   which would have stopped it from saving anything. It was stopped, the arithmetic fixed without changing any value
   it already gave correctly, and restarted.
   0 of 19.
+
+## 2026-10-27 — the special lines are special at every height
+
+- **What changed:** the long run finished. Only the lines with slope 2/5 come close to the measured mass ratios, at
+  any height of the shape parameter from 1.2 to 12. The earlier worry, that this was an accident of where every
+  previous search had looked, is withdrawn.
+- **A correction:** the explanation this seat gave for the worry was itself wrong. The up-quark sector on its own
+  already picks the 2/5 lines.
+  0 of 19.
