@@ -1,5 +1,13 @@
 # Changelog
 
+## W159's rule, committed before its script: the two-object route tried again (relay §283)
+
+- **At the owner's "Try again":** H_u and H_d as the record's own Higgs DR carried by the forced group on the qubit
+  (24 elements), each image DR read at a modular image of τ with DR's own mixing; 576 pairs at the 38 strip rows,
+  against the nine.
+- **A read-out:** how much more mixing the nine would need (λ ∈ {1.5, 2, 3, 4, 6}).
+- **Surfaces.** The rule, the relay, the ledger row, the state page. No script exists. 0 of 19.
+
 ## The owner's ruling on P-385 carried; the agy branch's 19 of 19 checked; B1755 seen (relay §282)
 
 - **P-385:** the merged ladder wording and the audit lane's qualifier, adopted by the owner (GENESIS v1.58), carried

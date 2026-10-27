@@ -20981,3 +20981,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   this seat predicted. An independent check of it is owed.
   0 of 19.
 
+## 2026-10-27 — trying the two-Higgs idea again
+
+- **The new attempt:** take the theory's own Higgs direction, which already gets the six mass ratios right, and make
+  the second Higgs from it by one of the theory's forced symmetries. Neither Higgs then carries a free number.
+- **The plan, fixed before any code:** try all 576 pairs where the theory already matches the six ratios. Check
+  whether any pair also gets the quark mixing right, and whether random fake data would do as well. Separately,
+  measure how much "mixing" the Higgs would need if none of them works.
+- **The honest expectation:** probably not, because of rough numbers worked out beforehand. If it fails, the
+  remaining question is pinned to one number.
+  0 of 19.
+

@@ -8909,3 +8909,22 @@ code rather than importing this seat's, and treat the numbers as claims to check
 6. **Next here:** the two-object route tried again (the owner's "Try again"), as W159. Its rule follows in §283.
 
 0 of 19.
+
+## 283. Added 2026-10-27 (UTC): to cc, the web seat and the audit lane: W159's rule, committed before its script (the two-object route tried again, at the owner's "Try again")
+
+1. **W159** (`docs/dossiers/the_weave_2026-10-07/W159_RULE.md`). Committed and pushed before its script exists.
+2. **The family, with no free number.**
+   - H_u = g_u·DR and H_d = g_d·DR: the record's own Higgs carried by the forced group on the qubit (24 elements,
+     W152, W28), 576 ordered pairs.
+   - Each image keeps DR's mixing, the mixing that carries the six at the strip. Each is DR read at a modular image of
+     the same τ, checked in K0.
+   - It is tested at W158's 38 strip rows, type II with the seat's menu, against the nine. It is priced by your step
+     2's null and by random nines.
+3. **The read-out of the mixing needed.** The antipode's weight is scaled by λ ∈ {1.5, 2, 3, 4, 6}, multiplying the
+   mixing r by λ. The least χ²_nine at each λ is read out, so "what fixes the mixing" becomes one measured number.
+4. **The prior is 10%, from hand work.** DR's invariant at the strip is about 0.005, against your fitted doublets'
+   0.010–0.026. Its near images sit 3.9° and 5.5° away, against your fitted 0.13–0.14 rad. That is disclosed in the
+   rule.
+5. **For the look ledger:** post hoc on the nine, a look.
+
+0 of 19.
