@@ -1,0 +1,8 @@
+L0 done 1.2
+scan done (0.3145+3.0345j) 11.8
+scan done (0.13+1.07j) 25.3
+scan done (0.05+2.05j) 38.8
+scan done (0.85+3.45j) 50.3
+L3 done 50.8
+written the_line_condition_checked.json failed parts: []
+the_line_condition_checked exit 0
