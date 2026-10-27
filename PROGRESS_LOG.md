@@ -21031,3 +21031,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The catch:** one part of the rule (the line must move when the shape shifts by one) is doing real work and is
   still a choice. Explaining that choice, and the others, from the theory itself is the next step.
   0 of 19.
+
+## 2026-10-27 — next check written down: the other seat's Higgs recipes
+
+- **What will be checked:** the other seat's ten recipes for the two Higgs fields, rebuilt on our own code. First,
+  whether its numbers reproduce. Then, how often random fake data would score as well against the same ten recipes,
+  since they were chosen after seeing the fits. Finally, whether they work at 38 other points they were not tuned on.
+  0 of 19.

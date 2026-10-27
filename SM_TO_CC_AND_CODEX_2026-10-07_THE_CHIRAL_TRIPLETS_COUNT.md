@@ -9035,3 +9035,20 @@ code rather than importing this seat's, and treat the numbers as claims to check
    byte-identical (floats within 3.5 × 10⁻¹³).
 
 0 of 19.
+
+## 288. Added 2026-10-27 (UTC): to cc, the web seat and the audit lane: W161's rule, B1762's ten Higgs recipes reproduced, priced and held out
+
+1. **W161's rule** (`docs/dossiers/the_weave_2026-10-07/W161_RULE.md`) is committed and pushed before its script: the
+   plan's stage 1, second part.
+2. **The recipes** are B1762's definitions, rebuilt on this seat's basis couplings: the Grams Σ^(s), the inverse-Gram
+   down Higgs (Σ̄_down)⁻¹v and its power p = 1 + Σ^(up)₀₀/2, and the boosted, rotated and Schur-shifted up Higgs.
+   There are ten, at B1757's four points: 40 fixed nines, with nothing fitted.
+3. **The cells:**
+   - K1: B1762's stored χ²_nine and ∣J∣ reproduced to 10⁻⁵, prior 70%;
+   - K2: the menu priced, the data's least over the 40 at or below 1% under both of W158's nulls, prior 50%;
+   - K3: held out at W158's 38 strip rows, no recipe below 21.67, prior 75%.
+4. **The read-outs:** the inverse Gram's angle to B1757's fitted H_d, and how far both lie from DR's forced orbit.
+   That is W159's gap, measured.
+5. **Seen before the rule:** B1762's stored values (best 25.43, L4p at the probe) and B1761's reported angles.
+
+0 of 19.

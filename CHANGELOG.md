@@ -1,5 +1,12 @@
 # Changelog
 
+## W161's rule, committed before its script: B1762's ten Higgs recipes reproduced, priced and held out (relay §288)
+
+- **The plan's stage 1, second part.** B1762's recipes rebuilt on own code at B1757's four points (40 fixed nines),
+  reproduced against B1762's stored values, the whole menu priced under W158's two nulls, and held out at W158's 38
+  strip rows.
+- **Surfaces.** The rule, the relay, the ledger row, the state page. No script exists. 0 of 19.
+
 ## W160 recorded: B1761's line selection is exact arithmetic, its cutoff an exponent law (relay §287)
 
 - **The test (data-free, own code):** B1761's condition over all 662 lines at four points, its cutoff at five, and
