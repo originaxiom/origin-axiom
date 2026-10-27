@@ -1,0 +1,57 @@
+{
+  "id": "B1772",
+  "arc": "B1772",
+  "title": "Master Synthesis of All 19 Standard Model Free Parameters under THE_BAR",
+  "verdict": "PROVED",
+  "status": "VERIFIED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B811",
+    "B950",
+    "B952",
+    "B1009",
+    "B1670",
+    "B1671",
+    "B1674",
+    "B1743",
+    "B1757",
+    "B1762",
+    "B1763",
+    "B1764",
+    "B1765",
+    "B1766",
+    "B1767",
+    "B1768",
+    "B1769",
+    "B1770",
+    "B1771"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "agy",
+  "scope": {
+    "frame": "Master synthesis and comparative evaluation of all 19 Standard Model free parameters under THE_BAR on seat branch agy/frontier-2026-10-26",
+    "object": "complete mapping and forward evaluation of all 19 free parameters across gauge, electroweak/Higgs, fermion mass, CKM, and strong CP sectors; maintenance of 0 of 19 unconditional certification status under THE_BAR firewall pending 10D supergravity action proof (P-399)",
+    "reach": "class",
+    "hypotheses": "Full synthesis of arcs B1763-B1771 under THE_BAR discipline"
+  },
+  "claim_one_line": "THE NINETEEN PARAMETERS SYNTHESIS (P-399): synthesized the complete forward derivation chain mapping all 19 Standard Model free parameters to geometric and dynamical moduli structures without continuous parameter tuning; certified that campaign status strictly remains 0 of 19 unconditionally derived under THE_BAR firewall pending the fundamental 10D action and non-perturbative path integral proof.",
+  "weave_or_thread": "weave (master synthesis of all 19 Standard Model parameters)",
+  "points": [
+    "P-399"
+  ],
+  "summary": {
+    "total_sm_parameters_mapped": 19,
+    "the_bar_unconditional_count": 0,
+    "gauge_couplings_count": 3,
+    "higgs_parameters_count": 2,
+    "fermion_masses_count": 9,
+    "ckm_parameters_count": 4,
+    "strong_cp_count": 1,
+    "unconditional_status": "0 of 19 (firewall strictly maintained pending 10D action proof)"
+  }
+}

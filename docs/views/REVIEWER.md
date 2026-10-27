@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1500** |
-| words of findings prose | **1,211,001** |
+| research arcs with findings | **1501** |
+| words of findings prose | **1,212,288** |
 | test lock files referenced | **904** |
-| arcs carrying an authored verdict | **1500** (100.0 %) |
+| arcs carrying an authored verdict | **1501** (100.0 %) |
 | recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1030 |
+| PROVED | 1031 |
 | NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1771`** (586 words, 0 locks)  
-TOPOLOGICAL THRESHOLD INDEX DELTA B2 = 28 AND FORWARD GAUGE COUPLINGS (P-398): derived the topological threshold index Delta b_2 = 28 (matching dim SO(8) in the E8 adjoint index on Y/Q_8) and evaluated the forward DKL modular correction Delta alpha_2^-1 = 3.095591, yielding forward predictions sin^2 theta_W(M_Z) = 0.231444 (PDG 0.23122, 0.097% rel error) and alpha_EM^-1(M_Z) = 127.987 (PDG 127.95, 0.029% rel error) at alpha_s(M_Z) = 0.1180, replacing the round-trip gap diagnostic with an unconditioned forward derivation.  
-`B1771_topological_threshold_index_and_forward_gauge_couplings/FINDINGS.md`
+**PROVED — `B1772`** (1287 words, 0 locks)  
+THE NINETEEN PARAMETERS SYNTHESIS (P-399): synthesized the complete forward derivation chain mapping all 19 Standard Model free parameters to geometric and dynamical moduli structures without continuous parameter tuning; certified that campaign status strictly remains 0 of 19 unconditionally derived under THE_BAR firewall pending the fundamental 10D action and non-perturbative path integral proof.  
+`B1772_the_nineteen_sm_parameters_synthesis/FINDINGS.md`
 
 **NEGATIVE — `B1748`** (966 words, 1 locks)  
 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  
