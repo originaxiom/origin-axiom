@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1492 of 1492 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1493 of 1493 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1022)
+## PROVED (1023)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1034,6 +1034,7 @@
 | `B1761` | DATA-FREE 2-TORSION LINE-SELECTION THEOREM AND YUKAWA-GRAM HIGGS DRESSING PROBE (P-349, P-357, P-366, P-373, P-377, P-384): across all 662 lines of N <= 12 and N in {13,14,15,20} (and analytically across Q^2/Z^2), requiring non-trivial tau-slope a not in {0,1/2} and asymmetric 2-torsion e1-kernel (R_i^(up) = 0, R_i^(down) != 0) selects exclusively the 10 order-10 lines a in {1/5, 2/5}, 10b odd, and up-sector isotropic proximity I(u_up) < 0.05 uniquely selects the single 5-line T-orbit a = 2/5, 10b odd with zero SM data; on (2/5, 1/10), Sigma^(up) is strictly 1+2 block-diagonal, Sigma^(lep) = P_e1 Sigma^(down) P_e1, and the zero-parameter inverse-Gram vector H_d = (conj(Sigma^(down)))^(-1) v_012 matches B1757's fitted H_d,opt to 0.999967 (0.463 deg in CP^2) at tau = 0.3145+3.0345i. 0 of 19. |  | 0 |
 | `B1762` | ZERO-PARAMETER TWO-DOUBLET LAW AND 10-OBSERVABLE FLAVOUR READOUT (P-329, P-357, P-363, P-366, P-377): on data-free line w = (2/5, 1/10), the symmetric cubic parity identity strictly confines M^(up)_0 to 1+2 diagonal blocks and M^(up)_{1,2} to off-diagonal blocks; the zero-parameter two-doublet laws built from inverse-Gram operators and the up-sector Gram boost lambda_{(1,+i)}/lambda_{e1} ~ 1.981 reduce chi^2_nine from 567-1073 (single-Higgs v_DR) to 25.43-27.93 at M_Z and 24.94-26.99 at M_GUT with zero free Higgs parameters, matching the unconstrained 2-parameter numerical floor to within Delta chi^2 <= 0.74 and predicting the Jarlskog CP invariant at |J_CKM| = (2.13-3.09) x 10^-5 (within 0.09-2.46 sigma of PDG (3.08 +/- 0.15) x 10^-5 vs -20.5 sigma for single-Higgs v_DR). 0 of 19. |  | 0 |
 | `B1763` | MATTER KÄHLER METRIC AND RESIDUAL FLAVOUR PULLS (P-390): under level N=6 modular symmetry, chiral matter modular weights are quantized in 1/6 Z; universal k_10 = (0,0,0) is uniquely selected and an exact generation progression Delta k_5bar = (-1/3, -1/6, 0) reduces chi^2_ten(M_GUT) at tau_* from 32.27 to 23.42 and chi^2_nine(M_GUT) from 24.95 to 19.34 with max pull <= 2.19 sigma across all 10 observables, pulling |J_CP| to within 2.02 sigma and V_ub to within 0.93 sigma without continuous parameters. |  | 0 |
+| `B1764` | DYNAMICAL MODULAR GROUND STATE AND TAU_* SELECTION (P-373, P-380, P-391): the maximal-depth finite modular ladder word w = L^5 R^2 L R L^2 R has SL(2, Z) matrix A = [[115, -32], [18, -5]] whose invariant geodesic semicircle has center c_0 = 1/3 (mod 1) and radius R = sqrt(84)/3, fixing the apex uniquely at tau_* = (1+i*sqrt(84))/3; at this point the modular effective potential V(tau) = E(tau,3) - t_* E(tau,2) has a stable local minimum with critical ratio t_* = 4.430013 lying inside the W154 stability window [3.205, 4.624] and positive modulus mass m_tau^2 = +17.113 > 0, deriving tau_* data-free without free numbers. |  | 0 |
 
 ## NEGATIVE (366)
 

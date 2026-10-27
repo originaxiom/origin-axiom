@@ -1,0 +1,30 @@
+==============================================================================
+B1764: DYNAMICAL MODULAR GROUND STATE AND TAU_* SELECTION
+==============================================================================
+
+1. Word and Matrix Properties:
+   Word: LLLLLRRLRLLR (length 12, max L-run: 5)
+   SL(2, Z) Matrix A: [[115, -32], [18, -5]]
+   det(A) = 1
+   Tr(A)  = 110
+
+2. Invariant Geodesic Geometry:
+   Center c_0        = 3.333333 = 120/36 = 10/3 -> 0.333333 (mod 1)
+   Tr^2 - 4          = 12096 = 12096
+   4 c^2             = 1296 = 1296
+   R^2               = 12096 / 1296 = 28/3 = 84/9 = 9.333333
+   Radius R          = 3.055050463304
+   Exact sqrt(84)/3  = 3.055050463304
+   Diff R - R_exact  = 4.44e-16
+
+3. Modulus Potential and Stabilization at tau_*:
+   E3(tau_*) = 58.278414
+   E2(tau_*) = 21.439475
+   dE3/dy |_{tau_*} = 56.799842
+   dE2/dy |_{tau_*} = 12.821597
+   Critical ratio t_* = dE3/dE2 = 4.430013
+   W154 Window: [3.205, 4.624]
+   Inside W154 Window: True
+   Radial curvature (modulus mass squared) d^2V/dy^2 = 17.113001
+
+Saved structured results to /Users/dri/oa-audit-seat/agy-seat/frontier/B1764_dynamical_modular_ground_state_and_tau_selection/verification/tau_ground_state.json

@@ -14151,6 +14151,19 @@
    "status": "open",
    "domain": "dynamics"
   },
+  "B1764": {
+   "slug": "dynamical modular ground state and tau selection",
+   "motifs": [
+    "measurement",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "open",
+   "domain": "dynamics"
+  },
   "B176": {
    "slug": "golden privilege",
    "motifs": [

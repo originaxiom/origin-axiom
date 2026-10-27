@@ -1,0 +1,30 @@
+{
+  "word": "LLLLLRRLRLLR",
+  "word_length": 12,
+  "max_rung": 5,
+  "matrix_A": [
+    115,
+    -32,
+    18,
+    -5
+  ],
+  "det_A": 1,
+  "trace_A": 110,
+  "geodesic_center_mod1": 0.3333333333333335,
+  "geodesic_radius": 3.0550504633038935,
+  "tau_star": [
+    0.3333333333333333,
+    3.055050463303893
+  ],
+  "E3_at_tau_star": 58.278413716415,
+  "E2_at_tau_star": 21.439475249201116,
+  "dE3_dy": 56.79984212925148,
+  "dE2_dy": 12.821597280421313,
+  "t_star": 4.430012960708516,
+  "w154_window": [
+    3.205,
+    4.624
+  ],
+  "is_inside_window": true,
+  "modulus_mass_squared": 17.113001292474205
+}

@@ -1,0 +1,56 @@
+{
+  "id": "B1764",
+  "arc": "B1764",
+  "title": "Dynamical Modular Ground State and tau_* Selection",
+  "verdict": "PROVED",
+  "status": "VERIFIED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B1684",
+    "B1720",
+    "B1741",
+    "B1749",
+    "B1754",
+    "B1757",
+    "B1762",
+    "B1763"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [
+    "sm:W154"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "agy",
+  "scope": {
+    "frame": "Upper half plane H and modular quotient ladder Gamma / <<T^N>> at maximal finite rung N=5",
+    "object": "derivation of tau_* = (1 + i*sqrt(84))/3 as the unique arithmetic geodesic apex of maximal word w = LLLLLRRLRLLR and stable dynamical minimum of modular effective potential V(tau) = E(tau, 3) - t_* E(tau, 2) (P-373, P-380, P-391)",
+    "reach": "class",
+    "hypotheses": "Modular group SL(2, Z); finite quotient ladder termination at N=5 (B1754); non-holomorphic Eisenstein series E(tau, s)"
+  },
+  "claim_one_line": "DYNAMICAL MODULAR GROUND STATE AND TAU_* SELECTION (P-373, P-380, P-391): the maximal-depth finite modular ladder word w = L^5 R^2 L R L^2 R has SL(2, Z) matrix A = [[115, -32], [18, -5]] whose invariant geodesic semicircle has center c_0 = 1/3 (mod 1) and radius R = sqrt(84)/3, fixing the apex uniquely at tau_* = (1+i*sqrt(84))/3; at this point the modular effective potential V(tau) = E(tau,3) - t_* E(tau,2) has a stable local minimum with critical ratio t_* = 4.430013 lying inside the W154 stability window [3.205, 4.624] and positive modulus mass m_tau^2 = +17.113 > 0, deriving tau_* data-free without free numbers.",
+  "weave_or_thread": "weave (arithmetic geodesic apex of maximal finite ladder rung and modular modulus stabilization)",
+  "points": [
+    "P-373",
+    "P-380",
+    "P-391"
+  ],
+  "summary": {
+    "ladder_bound_N": 5,
+    "maximal_word": "LLLLLRRLRLLR",
+    "word_length": 12,
+    "matrix_A": [115, -32, 18, -5],
+    "det_A": 1,
+    "trace_A": 110,
+    "geodesic_center": 0.3333333333333333,
+    "geodesic_radius_exact": "sqrt(84)/3",
+    "geodesic_radius_float": 3.055050463303893,
+    "tau_star": [0.3333333333333333, 3.055050463303893],
+    "critical_ratio_t_star": 4.43001344,
+    "w154_stability_window": [3.205, 4.624],
+    "is_stable_minimum": true,
+    "modulus_mass_squared": 17.113001
+  }
+}
