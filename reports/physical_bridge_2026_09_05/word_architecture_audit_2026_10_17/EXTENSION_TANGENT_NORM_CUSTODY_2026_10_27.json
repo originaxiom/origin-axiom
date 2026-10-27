@@ -1,0 +1,36 @@
+{
+  "status": "Unreviewed author analytical checkpoint, not execution or independent certification",
+  "base_commit": "52f0762fefff35e9403e54a6a6fb0e4b9277e66e",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/DERIVED_EXTENSION_TANGENT_NORM_AND_GAUGE_RESPONSE.md",
+      "sha256": "0bc17e86e83bfaee16286c1dde2af5d7584b49de5f9a3fb310d92fe6e4705ff2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_COMPACT_HIGGS_COMPLEX_AND_EQUIVARIANT_EXTENSIONS.md",
+      "sha256": "fba1da53b3fd3fef32bea7227a2471aea916a5831c6706307f3d580b3973fa4e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/RELATIVE_EXTENSION_WEIGHT_AND_END_SELECTION.md",
+      "sha256": "e423485666db9b918a75fd8aa1195bb3a11d8ea2b47c83bc277d78bb7cf6b8ac"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COMPACT_UNIFORMIZING_CORE_AND_GLOBAL_INPUTS.md",
+      "sha256": "045d654809629e028ec975b2e9ee6a742d732bb2d05d8223e3cff20252f58d42"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/PROOF.md",
+      "sha256": "c823f2ae951fe3fdedfdcd1b66938c64897d4b9d46dc29417ae36e12705c1306"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/PROOF.md",
+      "sha256": "f41b1a1f2309f2ef8bf1f0d9977ecd1e07c91204ec9bd9e1d7e95179980dd904"
+    }
+  ],
+  "primary_reading": {
+    "url": "https://pagine.dm.unipi.it/~a019210/Hitchin_Self-duality%20Equation%20on%20a%20Riemann%20surface.pdf",
+    "scope": "Section 5 linearized/gauge complex and local slice; section 6 local quotient metric equations 6.1-6.2 and discussion; not applying odd-degree global completeness to degree-zero bundle",
+    "access_date": "2026-10-27"
+  },
+  "execution": "none; harmonic, Serre-pairing, gauge-projection and covariance hand derivations only"
+}

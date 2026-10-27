@@ -523,6 +523,32 @@ metric/hierarchy. No numerical integration was rerun. The source custody
 and correction relay are preserved. The full physical goal, remaining
 charged field/action map and earlier execution/review seals are unchanged.
 
+## October 27: derive an extension tangent norm instead of assigning a scalar weight
+
+The [extension tangent proof](DERIVED_EXTENSION_TANGENT_NORM_AND_GAUGE_RESPONSE.md)
+constructs beta_q=conjugate(q)/h in the specified compact uniformizing
+root metric, checks its harmonic and linearized coupled equations, and
+normalizes it by the Serre pairing. The invariant extension direction
+at the split recovery point has coefficient C_A/N(q0), with N the
+explicit positive quadratic-differential integral and C_A the retained
+source coefficient. Its gauge-response subtraction vanishes there;
+the general quotient projection and its compact inverse hypotheses
+are stated. No guessed generation weights or path ratios are inserted.
+
+The surface base-canonical factor is retained in the corresponding
+conditional line-metric expression; its modular covariance matches the
+previous weight -4 extension law. Neither that covariance nor the
+linear tangent calculation excludes a large nonlinear cusp excursion.
+Full surface metric/horizontal response, nonlinear family dynamics and
+end admission remain duties. No physical charged matter identification
+or parameter is inferred from the compact moduli metric.
+
+Personally read Hitchin's linearized/local-slice and quotient-metric
+sections, explicitly retaining the odd-degree restriction on its global
+completeness theorem. This is unreviewed author algebra, not a new
+scientific execution or an extension of earlier review/admission seals.
+The full foundational physical mission remains active and unfinished.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
