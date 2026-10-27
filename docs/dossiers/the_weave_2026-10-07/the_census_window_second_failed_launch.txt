@@ -1,0 +1,30 @@
+W162: the second launch of the_census_window.py (script c836c50a6), stopped by the operator; a failed launch, disclosed.
+
+Launched 2026-10-27 at about 16:20 UTC, detached, with no time limit, on four worker processes, after the first
+launch's stop (the_census_window_failed_launch.txt).
+Its output before the stop: "K0 rows done 11.3" and "Tier A done 3104.6", and RuntimeWarnings from W89's theta series
+(the_electrons_zero_checked.py, line 74, "overflow encountered in sin", during Tier A; line 76, "overflow encountered in
+cos", during Tier B; each with "invalid value encountered in multiply"; four of each kind, one per worker).
+
+The operator diagnosed the warnings data-free, reading no output of the run:
+- The instrument calls W89's theta series at 12 terms. A term's nome power exp(i pi tau (n + 1/2)^2) underflows to 0
+  while its sine or cosine of (2n + 1) pi z overflows to inf once |Im z| passes about 9.83 (theta 1, 2) or 10.28
+  (theta 3, 4); the product is nan.
+- The kernel norm integrates over the period parallelogram, where |Im(z + ub)| reaches about 0.9 Im tau on the 1/5
+  lines' up and down sectors. A data-free check of the norms at Re tau 1/16 found them non-finite on (1/5, 1/10) at
+  Im tau 11 (up and down, theta 1 and 2) and 12 (all four), and finite on (0, 1/10) and (2/5, 1/10) at every height
+  checked (9.75 to 12).
+- The instrument raises on a non-finite norm (a failed task). So every Tier A task on the 1/5 lines at Im tau 11-12
+  fails, and the script's per-height minimum for that class then has no point and raises: the run would have ended
+  with "run_failed" and written none of the tiers' results.
+
+The operator stopped it at about 17:32 UTC, after 1 h 12 min, inside Tier B. No JSON was written, and nothing computed
+was read.
+
+The fix, in the script, committed before the third launch:
+- the same 12-term series with each term exponentiated whole, so nothing overflows. Checked data-free before the
+  commit: it agrees with the old series to 4e-15 relative wherever the old is finite, and with mpmath's jtheta to
+  6e-15 at Im tau 11-12 (the run repeats this check as a read-out);
+- a height with no computed point is recorded as None instead of raising.
+Nothing else changed: the rule, the grid, the lines, the menu and the cells.
+The third launch runs the fixed script once, detached, with no time limit.

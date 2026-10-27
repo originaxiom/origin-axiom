@@ -15,6 +15,16 @@ Above Im tau 4, where B1667's column ends, L is held at its Im tau = 4 value (th
   R   read-outs
 
     python3 -B docs/dossiers/the_weave_2026-10-07/the_census_window.py
+
+Fixed for the third launch (2026-10-27; the_census_window_second_failed_launch.txt).  The second launch was stopped: at
+Im tau >= 11 the 1/5 lines' up and down norms were not finite, because W89's theta series (at the 12 terms the
+instrument uses) multiplies a nome power that underflows to 0 by a sine or cosine that overflows to inf, giving nan.
+Every Tier A task on those lines at those heights then failed, and the per-height minimum below raised on an empty set,
+so the run could not have written its tiers.  Two changes, nothing else:
+  (1) theta_series: the same 12-term series with each term exponentiated whole, so nothing overflows.  Where the old
+      series is finite the two agree to 4e-15 relative (checked data-free before this commit); the K0 rows are its
+      check against the stored census, and a read-out compares it with mpmath's jtheta at Im tau 12.
+  (2) a height with no computed point records None instead of raising.
 """
 import contextlib
 import io
@@ -65,10 +75,42 @@ def L_of(col, y, hor):
 
 
 # ============================================================================================ one point, in a worker
+def theta_series(s, z, t, nt=12):
+    """W89's np_theta series at the instrument's 12 terms, each term exponentiated whole (no inf x 0 at large Im z)"""
+    lq = 1j * np.pi * t
+    zz = np.pi * np.asarray(z)[..., None]
+    n = np.arange(nt)
+    m = np.arange(1, nt)
+    if s == 1:
+        e = lq * (n + 0.5) ** 2
+        return -1j * np.sum((-1.0) ** n * (np.exp(e + 1j * (2 * n + 1) * zz) - np.exp(e - 1j * (2 * n + 1) * zz)), -1)
+    if s == 2:
+        e = lq * (n + 0.5) ** 2
+        return np.sum(np.exp(e + 1j * (2 * n + 1) * zz) + np.exp(e - 1j * (2 * n + 1) * zz), -1)
+    e = lq * m ** 2
+    sg = 1.0 if s == 3 else (-1.0) ** m
+    return 1 + np.sum(sg * (np.exp(e + 2j * m * zz) + np.exp(e - 2j * m * zz)), -1)
+
+
+def theta_check():
+    """read-out: theta_series against mpmath's jtheta (nome e^{i pi tau}) at Im tau 12, |Im z| up to 11"""
+    import mpmath as mpm
+    worst = 0.0
+    for t in (complex(1 / 16, 12.0), complex(7 / 16, 11.0)):
+        q = mpm.exp(1j * mpm.pi * mpm.mpc(t.real, t.imag))
+        for z in (complex(0.3, 10.8), complex(-0.2, -9.9), complex(0.45, 6.0), complex(0.1, 0.4)):
+            for s in (1, 2, 3, 4):
+                ref = complex(mpm.jtheta(s, mpm.pi * mpm.mpc(z.real, z.imag), q))
+                got = complex(theta_series(s, np.array([z]), t)[0])
+                worst = max(worst, abs(got - ref) / abs(ref))
+    return worst
+
+
 def _init(root_str, col):
     root = Path(root_str)
     with contextlib.redirect_stdout(io.StringIO()):
         W93, W89 = T8.own_modules(root)
+    W89.np_theta = theta_series          # the third launch's fix (1)
     _G.update(W93=W93, W89=W89, col=col, L=T8.own_lines())
 
 
@@ -126,8 +168,9 @@ def main():
     _ROOT["<repo>"] = str(root)
     _ROOT["<home>"] = str(Path.home())
     t0 = time.time()
-    out = {"arc": "W162", "rule": "W162_RULE.md", "status": "one run", "rev": REV, "python": sys.version.split()[0],
-           "numpy": np.__version__, "machine": platform.machine()}
+    out = {"arc": "W162", "rule": "W162_RULE.md",
+           "status": "one run (the third launch; the first two stopped, disclosed)", "rev": REV,
+           "python": sys.version.split()[0], "numpy": np.__version__, "machine": platform.machine()}
     try:
         run(root, out, t0)
     except Exception:  # noqa: BLE001  (a failed run is a failed launch, disclosed as such)
@@ -150,6 +193,7 @@ def run(root, out, t0):
     lines_a = [k for k, p in enumerate(L) if T8.order(p) == 10 and (5 * p[0]).denominator == 1
                and (5 * p[1] - Fr(1, 2)).denominator == 1]
     out["Tier A lines"] = [f"{L[k][0]},{L[k][1]}" for k in lines_a]
+    out["theta check: theta_series against mpmath jtheta at Im tau 11-12, worst relative"] = theta_check()
     # K0 (i): ten of W158's strip rows against the stored census
     rows_k0, stored = [], {}
     for name, path in (("B1749", V49), ("B1753", V53)):
@@ -212,8 +256,9 @@ def run(root, out, t0):
                           "its six parts": parts,
                           "least up part": float(upart[iu]), "up part at": [f"{L[lab[iu][0]][0]},{L[lab[iu][0]][1]}",
                                                                             lab[iu][1], lab[iu][2], lab[iu][3]],
-                          "least chi2_six per height": {str(h): float(min(best[i] for i in idx if lab[i][2] == h))
-                                                        for h in IM_A}}
+                          "least chi2_six per height": {
+                              str(h): (float(min(v)) if (v := [best[i] for i in idx if lab[i][2] == h]) else None)
+                              for h in IM_A}}
         out["Tier A"] = classes
         pass_a = sorted({(f"{L[k][0]},{L[k][1]}", x, y) for (k, x, y), v in per_point.items() if v[0] < BAR6},
                         key=lambda t: (t[0], t[2], t[1]))
