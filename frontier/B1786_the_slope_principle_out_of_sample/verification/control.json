@@ -1,0 +1,12 @@
+{
+ "against_B1741_best_row": 0.0,
+ "against_B1749_best_row": 0.0,
+ "T_covariance_order_25": 4.886535620573225e-12,
+ "line_counts": {
+  "25": 300,
+  "30": 288
+ },
+ "every_order_exact": true,
+ "apex_points": 125,
+ "lines": 588
+}
