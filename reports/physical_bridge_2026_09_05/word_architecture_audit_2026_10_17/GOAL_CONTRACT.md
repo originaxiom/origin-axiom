@@ -349,6 +349,22 @@ source. The owner-requested relay supplies the exact algebra and
 constructive repair order on this branch. No incoming result is edited,
 no full-program exclusion is made and no science experiment is run.
 
+## October 27: classify the compact orbit before calling it selected
+
+[Orbit and modular-selection analysis](COMPACT_HIGGS_ORBIT_AND_MODULAR_SELECTION.md)
+recovers the classical stable section on fixed S^(-1) plus S and proves
+the actual quaternion-invariant quadratic-differential family is one
+complex coefficient c. The nilpotent orbit is a member, not a choice
+made by finite deck symmetry alone. A full untwisted holomorphic,
+cusp-regular modular section would force c=0 by the existing scalar
+weight-two vanishing; j-prime is the explicit pole-allowing rejecting
+control. The actual parent's base holomorphy, R/modular character and
+end law must establish those hypotheses. This is a conditional route
+to removing an orbit choice, with no foundational input marked paid.
+The hand proof is UNREVIEWED, no science code was run and no old
+spectrum is transferred. This strengthens the next same-parent duty
+rather than fitting another Higgs vector or excluding the full programme.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

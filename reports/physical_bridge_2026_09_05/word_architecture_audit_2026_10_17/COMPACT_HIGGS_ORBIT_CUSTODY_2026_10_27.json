@@ -1,0 +1,84 @@
+{
+  "kind": "AUTHOR_ANALYTICAL_CUSTODY_NOT_EXECUTION_SPECIFICATION",
+  "date": "2026-10-27",
+  "source_checkpoint": "c969a22062a11c48cea542ff1af4196416285c52",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/PROOF.md",
+      "sha256": "9c496728d230798a4db14841f91fe2ef272720be69950292164b4c697414bbd5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/THETA_ROOT_COVER_AND_GLOBAL_SCOPE.md",
+      "sha256": "759ad3f7b92e616e0f47c29d313a197877485ea1e41f84705a32d02b23d5ca98"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COMPACT_UNIFORMIZING_CORE_AND_GLOBAL_INPUTS.md",
+      "sha256": "045d654809629e028ec975b2e9ee6a742d732bb2d05d8223e3cff20252f58d42"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COMBINED_SPIN_GAUGE_DESCENT_AND_RETAINED_SECTORS.md",
+      "sha256": "b5db69555bed0bfd457d733f79b6509dcc1c3088cd6792734ffc46a7901cfc2f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/PROOF.md",
+      "sha256": "a56dcbb3d4571f466f0a179de0ce843179f90045465a43ba8cea44ec7adab057"
+    },
+    {
+      "path": "frontier/B101_hitchin_reframing/FINDINGS.md",
+      "sha256": "a5c1f44915936aae5b1d988df0fca176dd22fd4e85a44fdb6bd2bdefb064468c"
+    },
+    {
+      "path": "frontier/B1233_zai_audit/FINDINGS.md",
+      "sha256": "a5a3f9fdff98ff20c944a82a9c20214b491d7e5d3e94fadbbdf3df85a7c6d5c7"
+    }
+  ],
+  "remote_sources": [
+    {
+      "path": "frontier/B1691_the_exponents_at_the_two_fixed_points/FINDINGS.md",
+      "commit": "2d6681208fa2e4c7249b37a8811e0a09a3092a5b",
+      "sha256": "c259f556f8d27d9273e96644ea9052e3b43fe138591303d9dd19b230066c0502",
+      "reading_scope": "Section/module hypothesis and scalar Mbasis generator; no rerun"
+    },
+    {
+      "path": "frontier/B1691_the_exponents_at_the_two_fixed_points/verification/the_exponents.py",
+      "commit": "2d6681208fa2e4c7249b37a8811e0a09a3092a5b",
+      "sha256": "a8d4ea9bae79dde894b192b7c3645685c1c97890665c96123be20ea6e9073aac",
+      "reading_scope": "Section/module hypothesis and scalar Mbasis generator; no rerun"
+    }
+  ],
+  "primary_reading": [
+    {
+      "url": "https://pagine.dm.unipi.it/~a019210/Hitchin_Self-duality%20Equation%20on%20a%20Riemann%20surface.pdf",
+      "scope": "Section 11 introduction and complete Theorem 11.2 proof through printed page121; earlier compact existence proof already read",
+      "access_date": "2026-10-27"
+    },
+    {
+      "url": "https://www.math.columbia.edu/~avizeff/Fermat/modular-forms-III.pdf",
+      "scope": "Section2 Proposition2.1 and Corollary2.1.1 with valence/genus-zero discussion; not whole notes",
+      "access_date": "2026-10-27"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COMPACT_HIGGS_ORBIT_AND_MODULAR_SELECTION.md",
+      "sha256": "89dfa0dbdac7f1482b3cd8726873d2a3e22dac2b2aa1e4d5e62b8912a60c5afd"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_AGY_SM_CHAT1_2026-10-27_HIGGS_ORBIT_AND_END_DUTY.md",
+      "sha256": "eb0af47f6d9c9406bd4567615bc3eec0c3eb3575521d3e3046fa8bccd9b0cb83"
+    }
+  ],
+  "review_status": "UNREVIEWED; outside earlier reviewed packages",
+  "scientific_execution": "NONE",
+  "conditional_reductions": [
+    "Fixed-bundle stable holomorphic orbit is q in H0(K_Y^2)",
+    "Q8-invariant family leaves one complex c",
+    "Full untwisted holomorphic cusp-regular modular family forces c=0"
+  ],
+  "not_earned": [
+    "Physical ordinary-Higgs field/action map",
+    "Base holomorphy, modular/R character and actual cusp domain",
+    "Global E8 lift, physical three chiral families or gravity",
+    "No foundational choice declared removed"
+  ]
+}
