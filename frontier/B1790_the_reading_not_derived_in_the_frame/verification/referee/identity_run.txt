@@ -1,0 +1,10 @@
+DR_I: 30 coefficients; all real True; all imaginary False; integer keys True
+DR_J: 61 coefficients; all real True; all imaginary False; integer keys True
+DR_K: 61 coefficients; all real False; all imaginary True; integer keys True
+tau (0.3 + 3.0j) | identity rel dev (I, J, K-negated): ['0.0', '0.0', '0.0'] | K without negation: 2.0 | te.ev vs independent jtheta DR: 5.72e-31 | identity on independent DR: 0.0
+tau (0.27 + 3.04j) | identity rel dev (I, J, K-negated): ['0.0', '0.0', '0.0'] | K without negation: 2.0 | te.ev vs independent jtheta DR: 8.81e-31 | identity on independent DR: 0.0
+tau (-0.41 + 1.7j) | identity rel dev (I, J, K-negated): ['0.0', '0.0', '0.0'] | K without negation: 2.0 | te.ev vs independent jtheta DR: 4.84e-31 | identity on independent DR: 0.0
+eps QI* eps^T - QI: 0.0e+00
+eps QJ* eps^T - QJ: 0.0e+00
+eps QK* eps^T - QK: 0.0e+00
+S with K negated == -(QK S QK^-1): 0.0

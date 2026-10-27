@@ -12021,5 +12021,61 @@
    "reach": "class"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1789",
+  "claim_killed": "That the lepton factor c = 3 (Georgi-Jarlskog's lepton/down factor, set by hand in the seat's menu) is forced by B1656's frame as built.",
+  "kill_form": "Data-free (B1789): on the slope-2/5 family the frame's second-generation lepton/down ratio R2 -> 1 at leading order (0.81-1.16 at the band, 1.0000 at Im tau 8); a net hypercharge flux on the fibre is excluded (one zero mode per field forces n = 0); the frame's hypercharge enters only through periodic twists.",
+  "hatch": "an insertion that sees the integer hypercharge on ONE leg (P-397: every sector's pair has total charge +-3, so effects linear in it cannot separate leptons from down; the individual charges give 3^k); local zero-net curvature acting per leg on the channel norms, or a 24-type vev",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-28), for tests/test_b833_negative_routing.py",
+  "note": "Exact c = 3 is not excluded at the band: the frame's first-generation R1 spans 0.36-2.95 there, so 9 D_frame spans about 6.7-13.2 (the first draft's D = 9 claim withdrawn at its referee).",
+  "evidence_consulted": [
+   "B1653",
+   "B1716",
+   "B1726",
+   "B1728",
+   "B1738",
+   "B1742",
+   "B1786",
+   "B1788"
+  ],
+  "faces_consulted": [],
+  "fact_computed": "the frame's own R2, R1, D on B1786's and B1755's slope-2/5 rows (12 500); R2 and R1 on six slope-2/5 lines at Im tau 3-8; the slope 1/10's R2 at height; the referee's independent recompute (frame_ratios.py, r_twofifths.py, r2_tenth.py, d_frame_band.py)",
+  "scope": {
+   "frame": "B1656's frame at B1667's end as built (the record's Higgs DR)",
+   "hypotheses": "one zero mode per field (B1653); net fluxes compatible with the charges; zero-net curvature and 24-type insertions not examined",
+   "object": "the lepton factor c = 3",
+   "reach": "class"
+  },
+  "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1790",
+  "claim_killed": "That the reading (which sectors read S~ = eps S* eps^T) is forced by B1656's point coupling, or that its global flip is a convention.",
+  "kill_form": "Data-free (B1790): the coupling is complex-bilinear in holomorphic Higgs and matter, so no map of (tau, w) conjugates one relative to the other; seven maps preserve both readings to 7e-12, no line is a flip partner (best 1.52 in ln), no slope reproduces the flipped exponents.",
+  "hatch": "an antiholomorphic or Hermitian Higgs slot (W59's Hermitian pairing, P-097; asked of the SM seat); a non-point coupling; an effective-action selection; the hypercharge sign rule would leave one bit but is UNEARNED (I-35)",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-28), for tests/test_b833_negative_routing.py",
+  "note": "On 2/5 the reading moves only the first-generation exponent (up 1/2 vs 4/5); the draft's evidence was replaced at its referee by the structural argument.",
+  "evidence_consulted": [
+   "B1691",
+   "B1724",
+   "B1726",
+   "B1739",
+   "B1742",
+   "B1744",
+   "B1786",
+   "B1788"
+  ],
+  "faces_consulted": [],
+  "fact_computed": "seven maps of (tau, w) and three half-periods at six points; a flip-partner search over 266 lines at two tau; flipped exponents over slopes of denominator <= 60; the conjugation identity against an independent jtheta to 1e-30 (maps.py, flip_search.py, exponents.py, identity.py)",
+  "scope": {
+   "frame": "B1656's point coupling with the record's Higgs DR (holomorphic, real-structured)",
+   "hypotheses": "complex-coefficient or twisted Higgs sections beyond B1744's, non-point couplings and effective-action selection not examined",
+   "object": "the reading (which sectors read S~)",
+   "reach": "class"
+  },
+  "weave_or_thread": "weave"
  }
 ]

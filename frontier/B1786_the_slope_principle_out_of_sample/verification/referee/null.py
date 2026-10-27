@@ -10,7 +10,7 @@ _G = {}
 
 def _init():
     if "X" in _G: return
-    d = np.load(ROOT / "audit/referee_b1786/features.npz")
+    d = np.load(pathlib.Path(__file__).resolve().parent / "features.npz")
     order = np.argsort(d["cid"], kind="stable"); cid = d["cid"][order]
     X = d["X"][:, order, :].copy()
     starts = np.r_[0, np.flatnonzero(np.diff(cid)) + 1]

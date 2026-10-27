@@ -1,0 +1,35 @@
+{
+ "id": "B1790",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1691",
+  "B1724",
+  "B1726",
+  "B1739",
+  "B1742",
+  "B1744",
+  "B1786",
+  "B1788"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W59",
+  "sm:W129",
+  "sm:W131",
+  "sm:W133"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's point coupling at B1667's end with the record's Higgs DR (holomorphic, real-structured)",
+  "object": "whether the reading (which sectors read S~ = eps S* eps^T) is forced",
+  "reach": "class",
+  "hypotheses": "complex-coefficient or twisted Higgs sections beyond B1744's, non-point couplings and effective-action selection not examined"
+ },
+ "claim_one_line": "THE READING IS NOT DERIVED IN B1656'S FRAME (main's plan, step 3; data-free; NEGATIVE, frame-scoped): the coupling is complex-bilinear in the Higgs components and the matter weights, both holomorphic in tau up to real norms, so no moduli map conjugates one relative to the other -- seven maps of (tau, w) on record preserve both readings to 7e-12 (half-periods are not symmetries), a search over all 266 lines finds no flip partner (best 1.52 in ln), and no slope (denominator <= 60) reproduces the flipped exponents; so the eight reading assignments are physically distinct and the global flip is not a convention; S~ is the Higgs at -conj(tau) with K negated (exact, a rotation, not an orientation reversal); on 2/5 the reading moves only the first-generation exponent (up 1/2 vs 4/5); an imported hypercharge sign rule would reduce the reading to one genuine bit but is an UNEARNED identification (I-35), not adopted; a derivation needs an antiholomorphic or Hermitian Higgs slot. No input removed. 0 of 19.",
+ "weave_or_thread": "weave (the field's Higgs against the threads' twisted matter)"
+}

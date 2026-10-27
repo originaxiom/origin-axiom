@@ -3803,6 +3803,9 @@ field or a unit (the seat's correction of its own "B1166 verified a dilaton"): i
 is bounded by equivalence-principle and solar-system tests; to be read from the gravity charter before anything is
 tested. Each cell sealed first. ★★
 
+ESCALATED(2026-10-28: aged past 21 days with none of (a)–(f) computed; named for Review 71's intake, where each cell is
+either queued in the point register by name or closed as superseded by the weave's frame, with the reason written.)
+
 ## L250 — THE FRAME OF THE RIGHT PARITY: ONE MISSING OBJECT GATES BOTH NEAREST APPROACHES (registered 2026-10-07, after B1482; source: main's reading of sm:B1300 against GAP6, with the web seat's A1)
 
 **The observation.** Two of the record's closest approaches to physics are blocked by the same thing. (i) *The chirality

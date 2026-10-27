@@ -45,3 +45,11 @@ def test_the_class_choosing_null_decides_the_grade():
     assert "hits  2618" in line and "m*r(41) 0.0112" in line and "m*r(73) 0.0199" in line
     pc = (V / "referee" / "prior_conditional.txt").read_text(encoding="utf-8")
     assert "m*r(41) 0.0099  m*r(73) 0.0177" in pc
+
+
+def test_the_grade_setting_readouts_have_a_committed_producer():
+    """the web seat's checking pass: analyse_kd.py (committed) reproduces the class-choosing and prior-chosen rows exactly"""
+    run = (V / "referee" / "analyse_kd_run.txt").read_text(encoding="utf-8").split("== fresh10M")[1]
+    assert "hits  2618" in run and "m*r(41) 0.0112" in run
+    assert "PRIOR-CHOSEN, unconditional" in run and "hits  1127" in run and "m*r(41) 0.0099" in run
+    assert "targets      827  25/30 event follows   107" in run

@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1492** |
-| words of findings prose | **1,205,173** |
-| test lock files referenced | **907** |
-| arcs carrying an authored verdict | **1492** (100.0 %) |
-| recorded closures | **842** (675 classified, 167 routed-only) |
+| research arcs with findings | **1494** |
+| words of findings prose | **1,208,497** |
+| test lock files referenced | **909** |
+| arcs carrying an authored verdict | **1494** (100.0 %) |
+| recorded closures | **844** (677 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 1022 |
-| NEGATIVE | 366 |
+| NEGATIVE | 368 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 112 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 114 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE CLOSED FORM OF THE EXPONENTS (main's plan, step 1; data-free; PROVED at leading order, conditional): in B1656's frame the four pole blocks have exponents ||a_x + i/2||^2 + ||a_y + j/2||^2 - 1/8 (the full channel map, r11 included, to 1.3e-10 over 360 line-sectors) and, with B1716's rank-one residue matrix and B1659's det Y = 4 det M det S P, every sector's second-generation exponent is e(m2/m3) = 1/2 - (||2 q_L alpha|| + ||2 q_R alpha||)/2 in both readings, the tropical minimum equal to it in all 3 972 cases; on the domain B1785's window fits agree on 87.6% (m2/m3) and 96.5% (m1/m3), and independent 40-digit runs on seven lines (failing window classes among them) converge to the closed form for m2/m3 and m1/m3 (within 0.02 at Im tau 14-16, (2/11, 1/11) within 0.001 at 28-32); 8 of the 32 failing window classes untested at height; the SM seat's W160 verified on main and generalised; given five-ality alignment, the slope principle's 'Higgs at the unit twist' is the measured 3 : 2 of the up and down second-generation exponents restated, not a derivation; (3/10, 1/5) occurs only at alpha = 2/5 and 1/10. No input removed. 0 of 19.  
 `B1788_the_closed_form_of_the_exponents/FINDINGS.md`
 
-**NEGATIVE — `B1748`** (966 words, 1 locks)  
-THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  
-`B1748_the_heavy_generations_from_the_geometry/FINDINGS.md`
+**NEGATIVE — `B1790`** (1391 words, 1 locks)  
+THE READING IS NOT DERIVED IN B1656'S FRAME (main's plan, step 3; data-free; NEGATIVE, frame-scoped): the coupling is complex-bilinear in the Higgs components and the matter weights, both holomorphic in tau up to real norms, so no moduli map conjugates one relative to the other -- seven maps of (tau, w) on record preserve both readings to 7e-12 (half-periods are not symmetries), a search over all 266 lines finds no flip partner (best 1.52 in ln), and no slope (denominator <= 60) reproduces the flipped exponents; so the eight reading assignments are physically distinct and the global flip is not a convention; S~ is the Higgs at -conj(tau) with K negated (exact, a rotation, not an orientation reversal); on 2/5 the reading moves only the first-generation exponent (up 1/2 vs 4/5); an imported hypercharge sign rule would reduce the reading to one genuine bit but is an UNEARNED identification (I-35), not adopted; a derivation needs an antiholomorphic or Hermitian Higgs slot. No input removed. 0 of 19.  
+`B1790_the_reading_not_derived_in_the_frame/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

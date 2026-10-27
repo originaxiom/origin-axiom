@@ -36,12 +36,16 @@ against it.
    out of sample, with one number's worth of input (e_up) — not removed.** Still open in step 1: a data-free reason for
    ‖3α‖ = 1/5 (the Higgs at the generator of SU(5)'s centre), and the offset rule (12 of 30 lines at orders 25 and 30, in
    equal-valued pairs; 4 of 10 at 15 and 20). Inputs it would remove: the slope and the offset (two).
-2. **The lepton factor c = 3** (P-294). The hypercharge-flux design study: can a quantised flux in B1656's frame give the
-   factor 3 without a free level per field? Input it would remove: c.
-3. **The reading rule** (which sector reads S, which S̃; P-394, with P-295 and P-365). Derive it from the conjugation structure of the frame's sectors
-   (the up sector's conjugate Higgs) rather than choose it. Input it would remove: the reading. Seen first: the reading (S̃, S, S)
-   is the Standard Model's only if S's 2 × 2 index is SU(2)_L; P-365 found the frame carries no electroweak doublet index, so
-   hypercharge conservation does not yet force it — the open question is P-295's: which object enters each sector.
+2. **The lepton factor c = 3** (P-294). **Done, B1789 (NEGATIVE):** not derived in the frame as built. On the slope-2/5
+   family the frame's second-generation lepton/down ratio is 1 at leading order, and a net fibre flux is excluded. The
+   band's first-generation spread means exact c = 3 does not force D = 9. The route left is an insertion that sees the
+   integer hypercharge (zero-net-degree curvature on the channel norms, or a 24-type vev): main's design task, P-397.
+   Input it would remove: c.
+3. **The reading rule** (P-394, with P-295 and P-365). **Done, B1790 (NEGATIVE, frame-scoped):** not derived. The coupling
+   is complex-bilinear in holomorphic Higgs and matter, so no map of (τ, w) conjugates one relative to the other. The eight
+   reading assignments are physically distinct. The hypercharge sign rule would cut the reading to one genuine bit, but
+   it is an unearned identification (I-35). A derivation needs an antiholomorphic or Hermitian Higgs slot; that question
+   is asked of the SM seat. Input it would remove: the reading.
 4. **Im τ** (P-373). The one-loop potential holds every height at its own content ratio (B1784's negative), so either a
    forced content fixes the ratio or Im τ is a genuine free number of the frame; main asks which, data-free.
 5. **Named, not yet planned:** the horocycle and the comparison scale (no reduction may keep them hidden; the web seat may propose the horocycle as its own reduction). **Later:** the three mass scales, the gauge couplings, the Higgs sector and θ (θ̄ in the mass frame, P-323, handed to the web seat at its offer).
@@ -59,6 +63,18 @@ against it.
 ## The ledger of inputs
 
 Each step that removes an input adds a row to this page's ledger, with its arc and its seal. Today: none removed.
+
+**The six's inputs as they stand (2026-10-28, after steps 1–3):** the frame reaches the six with about three
+continuous inputs and four discrete ones. That is a compression of six numbers, not a derivation.
+
+| input | kind | status |
+|---|---|---|
+| Im τ | continuous | the hierarchy's scale; one ratio fixes it (B1788); the six ask 3.0–3.1 (W162); no potential fixes it (B1784) |
+| Re τ, and the line's position u = Re w mod 1 | continuous (two) | narrow valleys in u (W163); B1786's mirror pairs; no rule (P-384) |
+| the slope α = 2/5 | discrete | selected by the data, stable out of sample (B1786, W162); its principle is the measured 3 : 2 restated (B1788) |
+| the lepton factor c = 3 | discrete | not derived in the frame (B1789); route left P-397 |
+| the reading (S̃, S, S) | discrete (3 bits) | not derived (B1790); one bit with the unearned sign rule (I-35) |
+| the horocycle (L_max) | discrete | named, not studied (step 5) |
 
 | input | removed by | sealed | status |
 |---|---|---|---|

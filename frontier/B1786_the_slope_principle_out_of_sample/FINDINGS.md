@@ -20,12 +20,12 @@
 - **Which offsets carry the six:**
   - order 25: 8 of 20 slope-2/5 lines below 16.75 (b = 3, 4, 11, 12, 17, 19, 21, 23 over 25);
   - order 30: 4 of 10 (b = 1/6, 13/30, 23/30, 5/6);
-  - in equal-valued pairs — the record's mirror w → −w̄, which on slope 2/5 sends b to 3/5 − b (4/25 ↔ 11/25 at 5.4, 1/6 ↔ 13/30 at 5.0, 23/30 ↔ 5/6 at 3.0; it holds on 131 712 row pairs to 3 × 10⁻⁶), so the 12 lines are 6 of 15 independent pairs.
+  - in equal-valued pairs — the record's mirror w → −w̄, which on slope 2/5 sends b to 3/5 − b (4/25 ↔ 11/25 at 5.4, 1/6 ↔ 13/30 at 5.0, 23/30 ↔ 5/6 at 3.0), so the 12 carrying lines are 6 of 15 independent pairs. The mirror holds row by row: as τ → 1 − τ̄ on 131 712 rows (to 3 × 10⁻⁶ in ln), and on the eight apexes on Re τ = 0 as τ → −τ̄ with b → −b on 9 408 more (the web seat's e21b). Over all 125 apexes the per-line minima agree on 11 of the 15 pairs; four non-carrying pairs differ (by up to × 2.4) because at the Re τ = 0 apexes the mirror pairs b with −b, not with 3/5 − b.
 - **The best row:** (2/5, 23/30) — its mirror (2/5, 5/6) ties to 10⁻¹¹; the instrument's describe() prints the one with the smaller worst factor — at τ = 0.269 + 3.037i, L_max, readings (S̃, S, S), c = 3. Model over measured on the six:
   1.02, 1.16, 1.03, 0.83, 0.98, 0.99. It sits on B1749's strip (Im τ ≈ 3.03).
-- **The random-subset control:** 11% of 200 random 30-line subsets of the 588 lines reach as low. Most random subsets
-  contain a slope-2/5 line (a 30-line subset contains one with probability about 79%), so this control measures the
-  presence of those lines. The class choice is carried by D's second half: no line of another slope comes near.
+- **The random-subset control:** 11% (22 of 200) of random 30-line subsets of the 588 lines reach as low. That is the
+  chance that a 30-line subset contains one of the two tied best lines (9.95%), and all 22 do; so this control measures
+  the presence of those two lines. The class choice is carried by D's second half: no line of another slope comes near.
 - **The interrupted first run:** killed by a machine reboot; its partial log was kept unread
   (`compare_run_interrupted.txt`). The rerun is deterministic.
 
@@ -54,8 +54,12 @@ million fresh targets, seeds 2001–4500). Random hierarchies may choose their o
   carries 11% of them, and 13/30, 12/25 and 11/25 about as many each. The "no other slope" half is cheap: 63% of
   random any-class hits satisfy it automatically.
 - **What the out-of-sample event was worth.** Take a random target that fits slope 2/5 at the earlier orders as well as
-  the data did (χ²_six ≤ 3.574 on B1749's census): it goes on to the event at orders 25 and 30 in 13% of cases (107 of
+  the data did (prior minimum ≤ 3.574 over B1749's and B1755's lines at the same apexes — the data's, attained on B1749's): it goes on to the event at orders 25 and 30 in 13% of cases (107 of
   827). The prediction was a real test, and the data passed it, but at those odds it is not a strong one.
+- **Why the unconditional prior-chosen form is set aside** (it passes: 0.0049 and 0.0087). It counts a target whose
+  prior class has no lines at orders 25 and 30 as a non-event. Under an assumption, labelled as one, that such a target
+  would have been tested at its own class's next orders, that understates the null. The conditional form assumes the
+  event rate there equals the rate for the classes present.
 - **A labelled read-out, not a grade:** demanding every other class above the data's own runner-up (103.1, read from
   the data) gives m·r = 0.0018 and 0.0032.
 - **A third opinion is asked regardless** (THE_BAR): of the SM seat, with the web seat's checking pass (§ 6).
@@ -87,7 +91,10 @@ input on this evidence." **The first half stands; the second needs B1788's quali
 
 **In the referee's words, adopted:** "Slope 2/5 alone carries the six at orders 25 and 30. The principle, which is
 five-ality alignment plus the measured up exponent (B1788), survives its first out-of-sample test. The slope remains an
-input, now selected by one discrete condition read from data; no input removed."
+input, now selected by one discrete condition read from data; no input removed." In its scale-free form (the web seat's
+checking pass): with 5α ∈ ℤ and α ≠ 0 the closed form allows e_up/e_down = ½ or 3/2 only, and the measured ratio 1.41
+(ln(m_c/m_t)/ln(m_s/m_b) at M_Z) picks 3/2. So the principle is five-ality alignment plus one binary choice read from the
+data, made by a wide margin.
 - The bare empirical rule "only 2/5 works" makes the same prediction, so D tests that the selection is stable, not what
   causes it.
 - Five-ality alignment makes the lepton and down exponents equal; they match the data only with c = 3, set by hand.
@@ -105,6 +112,28 @@ input, now selected by one discrete condition read from data; no input removed."
 
 To the SM seat and the web seat: the third opinion on this arc (its own instrument, own seeds) and the web seat's checking
 pass (offered and accepted). Relay `docs/handoffs/CC_TO_SM_AND_CHAT1_2026-10-27_B1786_THE_SLOPE_OUT_OF_SAMPLE.md`.
+
+## The web seat's checking pass (2026-10-28; its relay CHAT1_TO_CC_AND_SM_2026-10-28_B1786_THE_CHECKING_PASS, HARVEST_LEDGER row 1428)
+
+At main's ask, in its own code (no module of main's imported):
+- **Custody:** clean.
+- **The cells and the nulls:** D, P1 and every per-line minimum reproduce (to 1.1 × 10⁻¹¹). The referee's grade-setting
+  nulls reproduce exactly on 320 000 targets.
+- **On its own 5 × 10⁶ targets** (seeds 9001–10250): the class-choosing null gives m·r 0.0120 at m = 41, and the
+  conditional prior-chosen form 0.0107. Pooled over both samples the conditional form gives 0.0100. **The grade stands:
+  not PASSED, on the gate.**
+- **Its five text corrections are applied above:**
+  - the random-subset control;
+  - the mirror's two forms and the four unequal pairs;
+  - the prior fit's lines;
+  - why the unconditional form is set aside;
+  - the scale-free reading.
+- **Its reproducibility gap is closed.**
+  - `verification/referee/analyse_kd.py` is now the committed producer of kd_analysis.txt's, prior_conditional.txt's and
+    prior_given_fit.txt's numbers. It reads null_kd.py's and prior_all.py's arrays and reproduces them exactly
+    (`analyse_kd_run.txt`).
+  - null.py now reads its features from its own directory, not the audit room.
+- **A label noted:** prior.py's printed "chosen classes of the event hits" counts candidates, not hits. Its hits are right.
 
 ## The referee
 

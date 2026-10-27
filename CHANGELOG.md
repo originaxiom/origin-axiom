@@ -1,5 +1,11 @@
 # Changelog
 
+## S226 MAIN'S STEPS 2 AND 3 — B1789 THE LEPTON FACTOR AND B1790 THE READING ARE NOT DERIVED IN B1656'S FRAME; THE SIX'S INPUTS COUNTED (2026-10-28)
+
+- **B1789** (NEGATIVE; data-free): c = 3 is not derived in the frame as built — on the slope-2/5 family the frame's second-generation lepton/down ratio is 1 at leading order, and a net fibre flux is excluded; the band's first-generation spread means exact c = 3 does not force D = 9 (the first draft's error, caught by its referee); the route left is an insertion that sees the integer hypercharge (P-397, main's design task).
+- **B1790** (NEGATIVE, frame-scoped; data-free): the reading is not derived — the coupling is complex-bilinear in holomorphic Higgs and matter, so no map of (τ, w) conjugates one relative to the other (seven maps preserve both readings; no line is a flip partner); the eight assignments are physically distinct; the hypercharge sign rule would leave one genuine bit but is an unearned identification (I-35); its referee replaced the draft's evidence with the structural argument.
+- **Main's plan**: the six's inputs tabulated — about three continuous (Im τ, Re τ, u) and four discrete (the slope, c, the reading, the horocycle): a compression, not a derivation. The relay to the SM seat (one question: an antiholomorphic or Hermitian Higgs slot). Register P-397; FLOOR 397; I-35. 0 of 19.
+
 ## S225b B1787'S ACCEPTANCE — MAIN ACCEPTS P210 FOR EXECUTION (2026-10-27)
 
 - `frontier/B1787_p210_reviewed_and_accepted_by_main/ACCEPTANCE.json`, in the audit lane's prospective.py schema: receiver main, ACCEPT_INDEPENDENT_REVIEW, binding main's review MAIN_REVIEW.json at the pushed S225 commit 54cfec661 (sha256 392e593c…), the specification f3334814… and the seal 39ce620a8; a separate commit, reachable from origin/main. The audit lane may now run P210 from a fresh clone under B1787's named caveats; a pass confirms the lane's arithmetic, not P-210. 0 of 19.

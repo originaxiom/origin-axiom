@@ -17959,3 +17959,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 ## 2026-10-27 — S225b B1787'S ACCEPTANCE
 
 - Main's acceptance of P210 (ACCEPTANCE.json, binding the review at the pushed S225 commit 54cfec661) in its own commit, as the audit lane's prospective.py requires. The audit lane may run P210 under B1787's caveats. 0 of 19.
+
+## 2026-10-28 — S226 B1789 (THE LEPTON FACTOR) AND B1790 (THE READING): NOT DERIVED IN THE FRAME
+
+- Main's steps 2 and 3, data-free, each refereed before landing: c = 3 and the reading are inputs of B1656's frame as built; the routes left are an integer-hypercharge insertion (P-397) and an antiholomorphic or Hermitian Higgs slot (asked of the SM seat). The six's inputs counted in main's plan: about three continuous and four discrete. 0 of 19.
+- **Landing suite (S226).** full suite 7 777 passed, 6 failed, 68 skipped (23:08, -n 8) on c42c6d9a9: two are B805's attachment locks (P-239, standing); four were consequences of this landing caught by their locks -- B1266's and B1421's source counts (I-35 was first registered as its own source; it is an instance of I-32, now joined to it, with B1266's dated counts updated) and B833's routing (B1789 and B1790 routed into the kill graph) -- fixed, and the affected files rerun green. After the suite and before the push: the web seat's checking pass on B1786 harvested (row 1428), every correction applied to B1786 and its reproducibility gap closed (analyse_kd.py, the committed producer of the grade-setting read-outs; null.py reading its own directory); P-397's charge-arithmetic note.

@@ -1,0 +1,6 @@
+c = 1.0, point (0.3+3j): mirror with the same Higgs 6.4e-11; mirror with c -> conj c 6.4e-11
+c = 1.0, point (0.6+2.5j): mirror with the same Higgs 2.6e-12; mirror with c -> conj c 2.6e-12
+c = 1j, point (0.3+3j): mirror with the same Higgs 1.9e-02; mirror with c -> conj c 1.4e-10
+c = 1j, point (0.6+2.5j): mirror with the same Higgs 5.9e-03; mirror with c -> conj c 1.4e-12
+c = (0.6+0.8j), point (0.3+3j): mirror with the same Higgs 1.5e-02; mirror with c -> conj c 7.5e-10
+c = (0.6+0.8j), point (0.6+2.5j): mirror with the same Higgs 4.6e-03; mirror with c -> conj c 2.8e-12

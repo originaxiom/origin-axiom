@@ -52,6 +52,7 @@ sector is listed with its target.
 | B1786 | sealed | the six on every line of order 25 and 30 at B1749's apexes, the slope 2/5 named in advance (main's step 1) | PROVED as sealed (8 of 160 000; no other slope below 16.75); not PASSED under the class-choosing null (m·r 0.0099–0.0112 at m = 41, 0.018–0.020 at 73); a READING |
 | B1786's referee null | verification of B1786 (its class-choosing null; 10⁷ fresh targets) | the same data | not a new look |
 | B1788 § 4 | post hoc (closed form, no fit) | the pair (3/10, 1/5) from B1785 § 3 over every slope | only α = 2/5 and 1/10; informs P-384 |
+| B1789's referee | post hoc | D (P-094, 10.58 ± 0.11) against 9·D_frame on the slope-2/5 rows | 2.4% of the rows inside the window; informs P-397 |
 
 ## The web seat (chat1)
 

@@ -1,0 +1,30 @@
+{
+ "id": "B1789",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1653",
+  "B1716",
+  "B1726",
+  "B1728",
+  "B1738",
+  "B1742",
+  "B1786",
+  "B1788"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's frame at B1667's end as built (B1726's compute; the record's Higgs DR)",
+  "object": "whether the lepton factor c = 3 is forced: the frame's own lepton/down double ratios on the slope-2/5 family",
+  "reach": "class",
+  "hypotheses": "one zero mode per field (B1653); the flux argument for net fluxes compatible with the charges; local zero-net-degree hypercharge curvature and 24-type insertions not examined"
+ },
+ "claim_one_line": "THE LEPTON FACTOR c = 3 IS NOT DERIVED IN B1656'S FRAME (main's plan, step 2; data-free): on the six's slope family the frame's second-generation lepton/down ratio R2 -> 1 at leading order (0.81-1.16 at the band, 1.0000 at Im tau 8), so the second-generation 3 is an input; a net hypercharge flux on the fibre is excluded (one zero mode per field forces n = 0); the first-generation R1 at the band spans 0.36-2.95 (the record's Higgs breaks B1742's odd-k identity), so 9 D_frame spans about 6.7-13.2 and exact c = 3 does not imply D = 9 there (the first draft's error, caught by its referee); the route left is an insertion that sees the integer hypercharge -- local curvature of zero net degree acting on the channel norms, or a 24-type vev (P-397, main's design task). No input removed. 0 of 19.",
+ "weave_or_thread": "weave (the field's twists through the frame's channel norms)"
+}

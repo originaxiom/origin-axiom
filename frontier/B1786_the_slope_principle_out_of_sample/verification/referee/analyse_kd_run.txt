@@ -1,0 +1,47 @@
+
+== valid: 160000 targets
+2/5 class <= obs (sealed conjunct 1)                       hits     8  frac 5.000e-05  r97.5 9.852e-05  m*r(41) 0.0040  m*r(73) 0.0072
+ANY class <= obs (class-choosing, specificity only)        hits    67  frac 4.188e-04  r97.5 5.318e-04  m*r(41) 0.0218  m*r(73) 0.0388
+CLASS-CHOOSING: some class <= obs AND all others >= 16.75  hits    41  frac 2.563e-04  r97.5 3.476e-04  m*r(41) 0.0143  m*r(73) 0.0254
+  stricter: ... AND all others >= runner-up 103.1          hits     6  frac 3.750e-05  r97.5 8.162e-05  m*r(41) 0.0033  m*r(73) 0.0060
+  2/5 <= obs AND all others >= 16.75                       hits     8  frac 5.000e-05  r97.5 9.852e-05  m*r(41) 0.0040  m*r(73) 0.0072
+  a class OTHER than 2/5 <= obs AND all others >= 16.75    hits    33  frac 2.062e-04  r97.5 2.896e-04  m*r(41) 0.0119  m*r(73) 0.0211
+PRIOR-CHOSEN, unconditional                                hits    18  frac 1.125e-04  r97.5 1.778e-04  m*r(41) 0.0073  m*r(73) 0.0130
+PRIOR-CHOSEN, conditional on the prior class present at 25/30 (n = 78985) hits    18  frac 2.279e-04  r97.5 3.601e-04  m*r(41) 0.0148  m*r(73) 0.0263
+prior min <= 3.574  any prior class                targets      110  25/30 event follows     6  (0.055)
+prior min <= 3.574  prior class 2/5                targets        9  25/30 event follows     0  (0.000)
+prior min <= 3.574  prior class present at 25/30   targets       45  25/30 event follows     6  (0.133)
+prior min <= 5.330  any prior class                targets      313  25/30 event follows     9  (0.029)
+prior min <= 5.330  prior class 2/5                targets       29  25/30 event follows     2  (0.069)
+prior min <= 5.330  prior class present at 25/30   targets      150  25/30 event follows     9  (0.060)
+prior min <= 16.750  any prior class                targets     4663  25/30 event follows    15  (0.003)
+prior min <= 16.750  prior class 2/5                targets      471  25/30 event follows     6  (0.013)
+prior min <= 16.750  prior class present at 25/30   targets     2102  25/30 event follows    15  (0.007)
+
+== fresh160k: 160000 targets
+2/5 class <= obs (sealed conjunct 1)                       hits     5  frac 3.125e-05  r97.5 7.293e-05  m*r(41) 0.0030  m*r(73) 0.0053
+ANY class <= obs (class-choosing, specificity only)        hits    64  frac 4.000e-04  r97.5 5.108e-04  m*r(41) 0.0209  m*r(73) 0.0373
+CLASS-CHOOSING: some class <= obs AND all others >= 16.75  hits    38  frac 2.375e-04  r97.5 3.260e-04  m*r(41) 0.0134  m*r(73) 0.0238
+  stricter: ... AND all others >= runner-up 103.1          hits     7  frac 4.375e-05  r97.5 9.014e-05  m*r(41) 0.0037  m*r(73) 0.0066
+  2/5 <= obs AND all others >= 16.75                       hits     5  frac 3.125e-05  r97.5 7.293e-05  m*r(41) 0.0030  m*r(73) 0.0053
+  a class OTHER than 2/5 <= obs AND all others >= 16.75    hits    33  frac 2.062e-04  r97.5 2.896e-04  m*r(41) 0.0119  m*r(73) 0.0211
+
+== fresh10M: 10000000 targets
+2/5 class <= obs (sealed conjunct 1)                       hits   479  frac 4.790e-05  r97.5 5.239e-05  m*r(41) 0.0021  m*r(73) 0.0038
+ANY class <= obs (class-choosing, specificity only)        hits  4179  frac 4.179e-04  r97.5 4.308e-04  m*r(41) 0.0177  m*r(73) 0.0314
+CLASS-CHOOSING: some class <= obs AND all others >= 16.75  hits  2618  frac 2.618e-04  r97.5 2.720e-04  m*r(41) 0.0112  m*r(73) 0.0199
+  stricter: ... AND all others >= runner-up 103.1          hits   397  frac 3.970e-05  r97.5 4.380e-05  m*r(41) 0.0018  m*r(73) 0.0032
+  2/5 <= obs AND all others >= 16.75                       hits   456  frac 4.560e-05  r97.5 4.998e-05  m*r(41) 0.0020  m*r(73) 0.0036
+  a class OTHER than 2/5 <= obs AND all others >= 16.75    hits  2162  frac 2.162e-04  r97.5 2.255e-04  m*r(41) 0.0092  m*r(73) 0.0165
+PRIOR-CHOSEN, unconditional                                hits  1127  frac 1.127e-04  r97.5 1.195e-04  m*r(41) 0.0049  m*r(73) 0.0087
+PRIOR-CHOSEN, conditional on the prior class present at 25/30 (n = 4927622) hits  1127  frac 2.287e-04  r97.5 2.425e-04  m*r(41) 0.0099  m*r(73) 0.0177
+prior min <= 3.574  any prior class                targets     7470  25/30 event follows   351  (0.047)
+prior min <= 3.574  prior class 2/5                targets      827  25/30 event follows   107  (0.129)
+prior min <= 3.574  prior class present at 25/30   targets     3339  25/30 event follows   351  (0.105)
+prior min <= 5.330  any prior class                targets    21313  25/30 event follows   551  (0.026)
+prior min <= 5.330  prior class 2/5                targets     2402  25/30 event follows   193  (0.080)
+prior min <= 5.330  prior class present at 25/30   targets     9580  25/30 event follows   551  (0.058)
+prior min <= 16.750  any prior class                targets   296112  25/30 event follows  1017  (0.003)
+prior min <= 16.750  prior class 2/5                targets    33281  25/30 event follows   398  (0.012)
+prior min <= 16.750  prior class present at 25/30   targets   134963  25/30 event follows  1017  (0.008)
+analyse_kd exit 0

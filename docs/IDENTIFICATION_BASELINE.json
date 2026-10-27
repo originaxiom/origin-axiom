@@ -1,6 +1,6 @@
 {
  "_note": "B1231 ratchet. The UNEARNED count may not INCREASE. A hard block on UNEARNED would make the fastest path to green MARKING THINGS EARNED -- pressuring the very judgment the gate protects (the B1222 shape, aimed at ourselves). UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red nothing. New unearned identifications red the suite at CREATION, which is when 2026-08-31's two would have been caught.",
- "unearned": 18,
+ "unearned": 19,
  "rows": [
   "I-6",
   "I-7",
@@ -19,9 +19,10 @@
   "I-31",
   "I-32",
   "I-33",
-  "I-34"
+  "I-34",
+  "I-35"
  ],
- "total_rows": 34,
+ "total_rows": 35,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -138,6 +139,14 @@
    "row": "I-34",
    "arc": "S133",
    "reason": "the index on M₁,₂ given the cusp's unit read as the generation count (FK10, FK11); an instance of I-26"
+  },
+  {
+   "date": "2026-10-28",
+   "from": 18,
+   "to": 19,
+   "row": "I-35",
+   "arc": "B1790",
+   "reason": "the hypercharge sign rule (a sector's reading S or S~ is the sign of the Higgs charge it pairs with) registered UNEARNED at creation and NOT adopted: B1790 shows the reading is not derived in B1656's frame and that the sign rule would reduce it from 3 bits to 1 only by identifying the reading with a charge sign the frame does not act on (B1744). Registered so that a later adoption is visible and priced; raised by hand, nothing absorbed."
   }
  ],
  "_earned_additions": [
