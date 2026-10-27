@@ -7726,6 +7726,59 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W159. The two-object route, tried again (the owner's "Try again"): the record's own Higgs DR carried by the forced group on the qubit, each image DR read at a modular image of τ with DR's own mixing, cannot reach the nine at the strip. The least χ²_nine over the 576 pairs is 315, and scaling the mixing helps only to 189 near λ = 3, the mixing the free fit has, so the missing piece is the two Higgs fields' relative orientation, not only their mixing. K0 holds to 3 × 10⁻¹⁶, K1 fails, K2 moot: a post hoc NEGATIVE for its question (`the_higgs_orbit_pair.py`; `W159_RULE.md`)
+
+**Why.** W158 showed that pure directions kill a generation, so a principled Higgs pair must be mixed, with its
+mixing fixed by something. The record's own Higgs DR is mixed, and at the strip its mixing carries the six (χ²_six
+2.74). The forced group on the common point's qubit moves DR without changing its mixing. Each image is DR read at a
+modular image of τ, so the family has no free number.
+
+**The order.**
+- The rule (`W159_RULE.md`, d4a48084e) was committed and pushed before the script existed. Its prior of 10% came from
+  disclosed hand work and from main's step-2 numbers.
+- The script (9d4c1dea6) was committed before its one run. Before that commit it was checked only for syntax and for
+  the names it reads.
+- The run took 89 s. Its output (ba0a84407) was committed unread, after a check of the exit, tracebacks, failed parts
+  and paths only, then read once.
+
+**The result (COMPUTED; one run; K0 as predicted, K1 failed (its prior 10%), K2 moot).**
+- **K0, the instrument** (all at the 38 strip rows).
+  - The group has 24 elements, one of them the identity. Every image keeps DR's invariant (to 2.4 × 10⁻¹⁶).
+  - The identity pair reproduces the census (4 × 10⁻¹¹ in log).
+  - The images are DR at modular images: Sym²(g_T)·DR(τ) against DR(τ + 1), and Sym²(g_S)·DR(τ) against DR(−1/τ),
+    each to 3 × 10⁻¹⁶.
+  - The Takagi split rebuilds S_h to 1.2 × 10⁻¹⁵, and I(λ) follows 2λr/(1 + λ²r²) to 10⁻¹⁶.
+  - The pins hold. The menu has 87 552 points.
+- **DR at the rows:** invariant 0.0040–0.0066 (mixing r = 0.0020–0.0033). Its images sit 0°, 4.4° and 6.2°, then 55°
+  and more, from it (the first row).
+- **K1 fails.** The least χ²_nine is 314.8. The best pair is two images 90° apart, (S̃, S, S), c = 1, at
+  0.5862 + 2.9998i on line 151. Its six part is 298 and its CKM part 16.7.
+  - Model over measured in the nine's order: 0.74, 2.81, 1.11, 0.24, 0.36, 0.60, 0.68, 0.93, 0.88.
+  - The mixing can be met only by breaking the six.
+  - One Higgs (g_u = g_d) gives 455; the record's own pair (DR, DR) gives 581 at these rows.
+- **K2 is moot.** At 315, 16.4% of random mixings with the data's six and 2.5% of random nines are as low.
+- **The read-out of the mixing needed.** The least χ²_nine at λ = 1, 1.5, 2, 3, 4, 6 is 315, 262, 215, 189, 196, 221.
+  It is least near λ = 3, a mixing about three times DR's (invariant about 0.015, inside main's fitted 0.010–0.026),
+  and stays far above the bar.
+
+**What it shows (a READING on the computed facts).**
+- **The DR orbit, the last zero-number family on record, is closed at the strip:** a post hoc NEGATIVE for its
+  question.
+- **The mixing is not the only missing number.** Even at the mixing the free fit has, the orbit's pairs fail: the
+  forced group offers relative orientations of 4°–6° or 55° and more, and nothing the nine want. A principled pair
+  must supply both a mixing (about three times DR's, by this read-out) and a relative orientation that the forced
+  moves do not.
+  - So the two Higgs fields of main's free fit are not one Higgs seen through the weave's moves.
+- **What the route now asks:** an object outside the qubit's forced orbit that fixes the second Higgs's direction.
+  Nothing on record names one. The ask for main's fitted vectors stands; their angle to the orbit's nearest image
+  would locate the gap.
+- **For the look ledger:** a post hoc look at the nine, target the nine. Its K2 fractions carry no specificity.
+
+**Weave or thread.** A frame result at the six's strip. The family is the forced group's orbit, every element taken.
+The rows are the strip's, and the nine are the data.
+
+0 of 19.
+
 ## W158. The two-object route at the six's strip (main's P-377; the owner's "lets do themall"): H_u and H_d on W152's 26 special lines cannot reach the nine. Every special line is null, so by W96's joint law det Y = 0 in every sector and the lightest generation is massless; the least χ²_nine over all 676 ordered pairs at the 38 strip rows is 154 377. K0 holds, K1 fails, K2 moot. A post hoc NEGATIVE for its question, foreseeable from the record and missed by this seat's rule (`the_two_special_higgs.py`; `W158_RULE.md`)
 
 **Why.** Main's step 2 (S217, P-377) found that two free Higgs doublets reach the nine at the six's strip, but with no
@@ -13421,6 +13474,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W159 | COMPUTED (the rule first; one run; K0 as predicted, K1 failed, K2 moot); a frame result at the six's strip, post hoc on the nine | the two-object route tried again: H_u, H_d as two of the 24 images of the record's DR under the forced group on the qubit (each DR at a modular image of τ, with DR's mixing), type II, the seat's menu, at the 38 strip rows: least χ²_nine 315 over the 576 ordered pairs (one Higgs 455; the record's pair 581). Scaling DR's mixing by λ helps only to 189, near λ = 3. The forced moves offer relative orientations of 4°–6° or 55° and more; the missing piece is the second Higgs's direction, not only its mixing. 0 of 19 |
 | W158 | COMPUTED (the rule first; one run; K0 as predicted, K1 failed, K2 moot); a frame result at the six's strip, post hoc on the nine | the two-object route as named: H_u, H_d on W152's 26 special lines, type II, the seat's menu, at the 38 strip rows of B1749 and B1753: least χ²_nine 154 377 over the 676 ordered pairs (u/t, d/b, e/τ at 10⁻¹² to 10⁻¹³ of measured). Every special line is null, so by W96's joint law det Y = 0 in every sector: the first generation is massless, exactly, foreseeable and missed by the rule's 20%. The light generation lives in the departure from the cone (W152's r); a principled pair must be mixed, its mixing a number unless fixed. 0 of 19 |
 | W157 | COMPUTED (the rule first; one run; twelve cells as predicted; A1 failed as coded, holds as worded, diagnosed); a thread-and-frame result | the third opinion on main's B1753: compare.py re-runs with every cell identical (one value at 2.8 × 10⁻¹²); the calibration reproduces exactly on own code (seat 2.739, 7 of 80 000; 1789 and 1808 at 0; χ²_nine 183.32); the 630 necklaces of length 13 give the 446 words and 223 points, fresh against 745 shorter words (94 mirror pairs, 129 independent; nearest older top point 2.7 × 10⁻⁴); the 48 lines; the best rows to 10⁻¹⁰, D 10.754 and 10.917; 26 rows below the bar, 13 mirror pairs, all in the T-law class (2/5, odd/10) of 12 (64 among 266); main's pricing on B1749's census to the count (16, 2, 1, 155); c = 1 alone 154.2 and 19.1%. Agrees with main's scope: the line rule a pick in effect (α = 2/5, then order 10); ungraded, a READING. 0 of 19 |
 | 45 | READING with a lock (post hoc; data-free arithmetic) | main's forced 45 in W154's window: the 45 is the ratio r = w_ρ/(w₀ − (15/16) w_p) (r = 45 at t = 3.760, y* = 2.545), not a dimension; none of the record's four rows plus one 45 in any of the frame's five places lands (scalars in ρ_Q cancel the matter, on the parities send τ to ω, trivial pieces and fermions run); the full row needs 1 285 ρ_Q scalars; of 249 312 sub-multisets of E₈'s fibre decomposition 398 land (0.16%), none of dimension 45, the smallest of dimension 10. No forced 45 exists (FK11, GENESIS). 0 of 19 |

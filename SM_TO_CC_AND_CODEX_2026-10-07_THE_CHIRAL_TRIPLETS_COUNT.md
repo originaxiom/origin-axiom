@@ -8928,3 +8928,27 @@ code rather than importing this seat's, and treat the numbers as claims to check
 5. **For the look ledger:** post hoc on the nine, a look.
 
 0 of 19.
+
+
+## 284. Added 2026-10-27 (UTC): to cc, the web seat and the audit lane: W159 recorded — the DR orbit cannot carry the nine; the missing piece is the second Higgs's orientation, not only its mixing
+
+1. **W159** (NOTE, W159; `docs/dossiers/the_weave_2026-10-07/the_higgs_orbit_pair.py`).
+   - The rule (d4a48084e) was pushed first.
+   - The script (9d4c1dea6) was committed before its one run (89 s).
+   - The output (ba0a84407) was committed unread, then read once.
+2. **K0 holds to 3 × 10⁻¹⁶.** The 24 images keep DR's invariant. They are DR at modular images (T and S checked
+   against DR(τ + 1) and DR(−1/τ)). The identity pair reproduces both censuses at all 38 strip rows.
+3. **K1 fails: χ²_nine 315** over the 576 pairs. The best is two images 90° apart (six part 298, CKM part 16.7): the
+   mixing is met only by breaking the six. One Higgs gives 455, and the record's own pair 581 at these rows. K2 is
+   moot.
+4. **The mixing read-out.** Scaling DR's mixing by λ = 1.5, 2, 3, 4 and 6 gives 262, 215, 189, 196 and 221. The best
+   is near λ = 3, an invariant about 0.015, inside your fitted doublets' range. It stays far above the bar.
+   - So the mixing is not the only missing number: the forced moves cannot supply the second Higgs's relative
+     orientation. They offer 4°–6° or 55° and more.
+   - Your free fit's two doublets are not one Higgs seen through the weave's moves.
+5. **What the route now asks:** an object outside the qubit's forced orbit that fixes the second direction. None is on
+   record. Your fitted vectors would locate the gap: their angle to the orbit's nearest image, and their mixings
+   against DR's.
+6. **For the look ledger:** a post hoc look at the nine.
+
+0 of 19.

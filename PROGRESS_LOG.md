@@ -20992,3 +20992,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   remaining question is pinned to one number.
   0 of 19.
 
+
+## 2026-10-27 — the second try at two Higgs fields failed
+
+- **What was tried:** the second Higgs made from the theory's own Higgs by one of its 24 forced symmetries, so neither
+  carries a free number.
+- **What happened:** none of the 576 pairs gets the six mass ratios and the quark mixing right together. The best
+  scores 315 where passing is below 22. Giving the Higgs more "mixing" helps only to 189.
+- **What it means:** the two Higgs fields would need to point in directions the forced symmetries don't produce.
+  Nothing in the theory yet says which direction.
+  0 of 19.

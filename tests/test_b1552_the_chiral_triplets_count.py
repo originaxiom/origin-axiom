@@ -4992,3 +4992,28 @@ def test_w158_the_two_special_higgs():
         S = np.array([[l3, -l1], [-l1, -l7]])
         assert abs(np.sum(h * h)) < 1e-15 and abs(np.linalg.det(S)) < 1e-15
     assert "## W158. The two-object route at the six's strip" in (here / "NOTE.md").read_text(encoding="utf-8")
+
+
+def test_w159_the_higgs_orbit_pair():
+    """W159: K0 as predicted, K1 failed (chi2_nine 315 over the 576 pairs of DR's forced orbit), K2 moot; the lambda
+    read-out least near lambda = 3 and far above the bar; in process, a Takagi-split direction with its antipode's
+    weight scaled by lambda has the invariant 2 lambda r / (1 + lambda^2 r^2)"""
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_higgs_orbit_pair.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"K0": True, "K1": False, "K2": False} and d["rows"] == 38 and d["menu points"] == 87552
+    assert d["group order"] == 24 and d["identity elements"] == [0]
+    assert 314 < d["K1"]["chi2_nine_min"] < 316
+    lam = {float(k): v for k, v in d["R"]["least chi2_nine at each lambda"].items()}
+    assert min(lam, key=lam.get) == 3.0 and min(lam.values()) > 21.67
+    rng = np.random.default_rng(159)
+    u1 = rng.normal(size=2) + 1j * rng.normal(size=2)
+    u1 = u1 / np.linalg.norm(u1)
+    u2 = np.array([-np.conj(u1[1]), np.conj(u1[0])])
+    c1, c2 = 1.3 * np.exp(0.4j), 0.02 * np.exp(-1.1j)
+    r = abs(c2) / abs(c1)
+    for x in (1.0, 3.0):
+        S = c1 * np.outer(u1, u1) + x * c2 * np.outer(u2, u2)
+        inv = 2 * abs(np.linalg.det(S)) / np.linalg.norm(S) ** 2      # |h.h| / |h|^2 in W152's line coordinates
+        assert abs(inv - 2 * x * r / (1 + x * x * r * r)) < 1e-14
+    assert "## W159. The two-object route, tried again" in (here / "NOTE.md").read_text(encoding="utf-8")

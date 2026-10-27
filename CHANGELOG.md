@@ -1,5 +1,14 @@
 # Changelog
 
+## W159 recorded: the DR orbit cannot carry the nine; the missing piece is the second Higgs's orientation (relay §284)
+
+- **The test:** H_u and H_d as two of the 24 images of the record's Higgs DR under the forced group on the qubit, at
+  the 38 strip rows. The least χ²_nine over the 576 pairs is 315, against the bar of 21.67. K0 holds to 3 × 10⁻¹⁶.
+- **The read-out:** scaling DR's mixing helps only to 189, near λ = 3. The forced moves offer relative orientations of
+  4°–6° or 55° and more, and the nine want neither.
+- **What follows:** the second Higgs's direction needs an object outside the qubit's forced orbit. None is on record.
+- **Surfaces.** NOTE (section and row), a lock test, the relay, the ledger row, the state page. 0 of 19.
+
 ## W159's rule, committed before its script: the two-object route tried again (relay §283)
 
 - **At the owner's "Try again":** H_u and H_d as the record's own Higgs DR carried by the forced group on the qubit
