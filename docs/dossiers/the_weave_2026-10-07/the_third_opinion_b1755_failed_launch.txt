@@ -5,3 +5,9 @@ The session's container was restarted at about 20:44 UTC, about 30 minutes in. T
 run among them. The script prints nothing until its end, so its log is empty. No JSON was written, and nothing
 computed was read.
 The same committed script, unchanged, is relaunched once.
+
+The second launch, the same script unchanged, started at 20:47:05 UTC, was ended the same way: the container restarted
+at about 21:17 UTC, about 30 minutes in. Its log is empty, no JSON was written, and nothing computed was read.
+Both restarts came about 30 minutes into a launch, while the run was likely still in A1 (main's compare.py, which
+needs about 90 minutes on four workers by W157's timing). Whether the run itself triggers them is not known. The third
+launch is the same script unchanged, with a memory and uptime log kept outside the repository to find out.
