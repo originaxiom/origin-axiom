@@ -1,0 +1,28 @@
+{
+  "status": "Unreviewed conditional relative-zeta proof; actual physical heat admission not established",
+  "base_commit": "7dfe63e26b22be16a2a9941819f1ca4bc6f07025",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/RELATIVE_HEAT_ADMISSION_AND_SCALE_DEPENDENCE.md",
+      "sha256": "c296b3b85b85d0e97de0d7d523ee32f6050b26cbea5d5be0926adb8c75a59498"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/WILSON_CHARGE_RESOLVED_RELATIVE_THRESHOLD_MAP.md",
+      "sha256": "72cc494c6960f7b40fb23435e10cec4f6edff63d663f176f982e0b844bd79c24"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/PROOF.md",
+      "sha256": "f9a638cf8224f877ff41225f3bc356c7da6246500bedcbd8d46ca1f207522c9e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/PROOF.md",
+      "sha256": "4177cf899a621b324a658602e4638f6e3e5217b80f91dff349ec415ccc9c599d"
+    }
+  ],
+  "primary_reading": {
+    "url": "https://www.numdam.org/item/JEDP_1996____A13_0.pdf",
+    "scope": "Definitions2.1,2.2,2.4; proposition2.3, positive-gap remark and basic properties2.5",
+    "access_date": "2026-10-27"
+  },
+  "scientific_execution": "none"
+}

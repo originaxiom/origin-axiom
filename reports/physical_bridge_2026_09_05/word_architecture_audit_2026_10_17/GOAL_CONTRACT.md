@@ -698,6 +698,27 @@ and earlier review/admission scopes stay unchanged. Next remains the
 full real background-field/relative spectral packet. The original full
 SM/three/gravity goal is active, not completed by these coefficients.
 
+## October 27: reference cancellation and the light-mode scale law
+
+The [relative heat lemma](RELATIVE_HEAT_ADMISSION_AND_SCALE_DEPENDENCE.md)
+recovers the older continuum and paired-phase results at their actual
+scope. Under explicitly stated trace-class, small-time and gap estimates,
+the Wilson coefficients remove a common reference, and the relative zeta
+value at zero is minus the charge-weighted light kernel h. Consequently
+one common internal scale cancels if h=0; otherwise its logarithm has
+coefficient h. An absolutely convergent matching integral makes this
+visible without taking any individual divergent heat trace. Its switch
+convention changes a finite term proportional to h, not a freely
+adjustable charge-dependent correction.
+
+This is an unreviewed analytic derivation with hypotheses, not proof of
+those hypotheses for every actual physical field/ghost operator. No
+scientific producer, new test or import was run. No measured coupling,
+foundational input payment or completed SM claim. Earlier frozen review
+and execution scopes are unchanged. Next: establish the actual source
+relative heat estimates and physical insertion/matching weights before
+any evaluation. The full input-reduction mission remains active.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
