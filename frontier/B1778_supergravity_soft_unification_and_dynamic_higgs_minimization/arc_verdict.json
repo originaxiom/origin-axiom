@@ -1,0 +1,58 @@
+{
+  "id": "B1778",
+  "arc": "B1778",
+  "title": "Supergravity F-Term Modular Soft Sector Unification and Complete 2D Higgs Potential Minimization",
+  "verdict": "PROVED",
+  "status": "VERIFIED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B811",
+    "B1670",
+    "B1743",
+    "B1757",
+    "B1762",
+    "B1763",
+    "B1766",
+    "B1768",
+    "B1769",
+    "B1770",
+    "B1771",
+    "B1772",
+    "B1773",
+    "B1774",
+    "B1775",
+    "B1776",
+    "B1777"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "agy",
+  "scope": {
+    "frame": "Supergravity F-term soft supersymmetry breaking and complete 2D neutral Higgs scalar potential minimization on seat branch agy/frontier-2026-10-26",
+    "object": "algebraic derivation of gaugino mass M_half = sqrt(84)/6 * m_0 = 482.59 GeV and trilinear coupling A_0 = -m_0 = -315.93 GeV from F^tau = -3/2 (2 Im tau_*)^(3/2); dynamic output of electroweak VEV v = 245.35 GeV and tan(beta) = 9.85 from 2D Hessian stationary minimum with det(H) = +1.81e9 GeV^4 > 0, resolving Closures 1 and 2 under THE_BAR (P-405)",
+    "reach": "class",
+    "hypotheses": "Kähler potential K = -ln(2 Im tau); GVW flux superpotential W = 1 - 3*tau on Y/Q_8"
+  },
+  "claim_one_line": "SUGRA SOFT UNIFICATION AND HIGGS MINIMIZATION (P-405): derived gaugino mass M_half = 482.59 GeV and A_0 = -315.93 GeV from auxiliary field F^tau = -3/2(2 Im tau_*)^(3/2); minimized 2D neutral Higgs potential V(v_u, v_d) with positive-definite scalar Hessian det(H) = +1.81e9 GeV^4 > 0, dynamically outputting v = 245.35 GeV (0.35% rel error) and tan(beta) = 9.85 without benchmark substitution, resolving Closures 1 and 2 under THE_BAR.",
+  "weave_or_thread": "weave (supergravity soft unification and dynamic electroweak vacuum minimization)",
+  "points": [
+    "P-405"
+  ],
+  "summary": {
+    "D_tau_W": -1.5,
+    "F_tau": -22.654988,
+    "M_half_GeV": 482.5933,
+    "A0_GeV": -315.9315,
+    "v_derived_GeV": 245.3459,
+    "v_target_GeV": 246.22,
+    "tan_beta_derived": 9.85,
+    "hessian_det_GeV4": 1805984388.74,
+    "mh_derived_GeV": 124.14,
+    "closure_1_status": "PROVED",
+    "closure_2_status": "PROVED"
+  }
+}

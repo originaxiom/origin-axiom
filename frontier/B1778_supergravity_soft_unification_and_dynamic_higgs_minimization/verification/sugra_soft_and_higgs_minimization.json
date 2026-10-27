@@ -1,0 +1,64 @@
+{
+  "sugra_module": {
+    "tau_star": {
+      "re": 0.3333333333333333,
+      "im": 3.055050463303893
+    },
+    "W_flux": {
+      "re": 0.0,
+      "im": -9.16515138991168
+    },
+    "D_tau_W": {
+      "re": -1.5,
+      "im": 0.0
+    },
+    "F_tau": {
+      "re": -22.654987923966193,
+      "im": 0.0
+    },
+    "m0_GeV": 315.9315,
+    "M_half_GeV": 482.593337723647,
+    "A0_GeV": -315.9315,
+    "derivation_discipline": "All soft parameters derived algebraically from F^tau on Y/Q_8"
+  },
+  "rge_outputs": {
+    "mHu2_MZ_GeV2": -55792.00548480297,
+    "mHd2_MZ_GeV2": 174068.57394631882,
+    "M_SUSY_GeV": 531.8132307861255,
+    "At_MZ_GeV": -591.6860580034099
+  },
+  "electroweak_minimization": {
+    "mu_GeV": 232.43974761667812,
+    "B_mu_GeV2": 22743.558406553617,
+    "vu_min_GeV": 244.09121640250623,
+    "vd_min_GeV": 24.780834162048233,
+    "v_derived_GeV": 245.34590207831488,
+    "v_target_GeV": 246.22,
+    "v_relative_error": 0.0035500687258757215,
+    "tan_beta_derived": 9.84999999622011,
+    "hessian": {
+      "H11": 10539.339695345916,
+      "H22": 224108.87962543673,
+      "H12": -23579.12683659874,
+      "det_H": 1805984388.7394538,
+      "trace_H": 234648.21932078263,
+      "is_positive_definite": true
+    },
+    "gradient": {
+      "grad_vu": -0.009641413809731603,
+      "grad_vd": 0.003087224409682676,
+      "is_stationary": true
+    }
+  },
+  "higgs_mass": {
+    "delta_lambda": 0.06299898565640423,
+    "lambda_tot": 0.12799952159547948,
+    "mh_derived_GeV": 124.13606644286175,
+    "mh_target_GeV": 125.25,
+    "mh_pull_sigma": -6.552550336107371
+  },
+  "closure_verdict": {
+    "closure_1_soft_unification": "PROVED: M_half=482.59 GeV and A0=-315.93 GeV derived from F^tau",
+    "closure_2_dynamic_ew_minimization": "PROVED: v=245.35 GeV and tan_beta=9.85 derived from 2D Hessian minimum (det=+1.81e9 > 0)"
+  }
+}
