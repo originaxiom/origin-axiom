@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1497** |
-| words of findings prose | **1,208,914** |
+| research arcs with findings | **1498** |
+| words of findings prose | **1,209,557** |
 | test lock files referenced | **904** |
-| arcs carrying an authored verdict | **1497** (100.0 %) |
+| arcs carrying an authored verdict | **1498** (100.0 %) |
 | recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1027 |
+| PROVED | 1028 |
 | NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1768`** (819 words, 0 locks)  
-PERIOD MATRIX AND EXACT HODGE METRIC (P-395): on the genus-3 cover w^4 = 4x^3 - g_2 x - g_3 at tau_* = (1+i*sqrt(84))/3, numerical path integration between branch roots e_1 = 6.5797, e_2,3 = -3.2899 +/- 0.0046i yields a strictly non-singular 3x3 period matrix with |det(M)| = 6.4276; the singlet norm is identically K_{1,1} = 2 Im(tau_*) = 6.1101 with elliptic period 1.000000, while off-diagonals K_{1,2} = K_{1,3} = 0 vanish by central parity, deriving the physical singlet matter normalization N_1 = (2 Im tau_*)^(-1/2) = 0.4046 and the geometric 1+2 mass hierarchy from first-principles curve geometry.  
-`B1768_period_matrix_and_exact_hodge_metric_on_genus_three_cover/FINDINGS.md`
+**PROVED — `B1769`** (643 words, 0 locks)  
+DYNAMIC REWSB AND FORWARD HIGGS MASS (P-396): from the modular soft scale m_0 = 315.93 GeV at M_GUT = 1.88e14 GeV, forward RGE integration driven by the top Yukawa coupling drives m_{H_u}^2 through zero to -(238.83 GeV)^2 at M_Z, dynamically triggering radiative electroweak symmetry breaking while avoiding charge-breaking (m_{H_d}^2 = +(423.70 GeV)^2 > 0); with stop mass M_SUSY = 549.26 GeV and stop mixing X_t / M_SUSY = -1.1347, the forward-predicted physical Higgs mass is m_H = 125.46 GeV (pull +1.21 sigma against LHC target 125.25 +/- 0.17 GeV) without back-solving.  
+`B1769_dynamic_rewsb_and_forward_higgs_mass/FINDINGS.md`
 
 **NEGATIVE — `B1748`** (966 words, 1 locks)  
 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  

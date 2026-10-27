@@ -1,0 +1,22 @@
+{
+  "m_modular_GeV": 315.9315,
+  "M_GUT_GeV": 188177600000000.0,
+  "mHu2_GUT": 99812.71269225002,
+  "mHu2_MZ": -57041.56981553739,
+  "mHu_scale_MZ": 238.8337702577619,
+  "mHd2_MZ": 179521.84913285333,
+  "mHd_scale_MZ": 423.700187789495,
+  "is_rewsb_triggered": true,
+  "M_susy_GeV": 549.2609129073332,
+  "At_MZ_GeV": -599.7489575082807,
+  "Xt_GeV": -623.2589575082807,
+  "Xt_over_Msusy": -1.1347229392480578,
+  "tan_beta": 10.0,
+  "mu_Higgsino_GeV": 235.1,
+  "lambda_tree": 0.06636079738506029,
+  "delta_lambda": 0.0634493058019232,
+  "lambda_tot": 0.1298101031869835,
+  "predicted_Higgs_mass_GeV": 125.45632812131437,
+  "pdg_Higgs_mass_GeV": 125.25,
+  "pull_Higgs_mass_sigma": 1.213694831261006
+}

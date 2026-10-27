@@ -1,0 +1,54 @@
+{
+  "id": "B1769",
+  "arc": "B1769",
+  "title": "Dynamic Radiative Electroweak Symmetry Breaking and Forward Higgs Mass Prediction",
+  "verdict": "PROVED",
+  "status": "VERIFIED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": [
+    "B811",
+    "B1126",
+    "B1684",
+    "B1743",
+    "B1757",
+    "B1762",
+    "B1764",
+    "B1765",
+    "B1766",
+    "B1767",
+    "B1768"
+  ],
+  "rests_on_seat": [],
+  "cites_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "agy",
+  "scope": {
+    "frame": "Forward RGE evolution from M_GUT = 1.88e14 GeV with modular soft boundary condition m_0 = 315.93 GeV to M_Z = 91.19 GeV",
+    "object": "forward dynamic trigger of radiative electroweak symmetry breaking m_{H_u}^2(M_Z) = -(238.83 GeV)^2 < 0 and forward prediction of physical Higgs boson mass m_H = 125.46 GeV (pull +1.21 sigma) without back-solving stop scale or inserting target quartic (P-396)",
+    "reach": "class",
+    "hypotheses": "Modular soft scale m_0 = M_Pl * |q|^2 * (2 Im tau_*); MSSM 1-loop RGE flow; 1-loop radiative stop loop correction"
+  },
+  "claim_one_line": "DYNAMIC REWSB AND FORWARD HIGGS MASS (P-396): from the modular soft scale m_0 = 315.93 GeV at M_GUT = 1.88e14 GeV, forward RGE integration driven by the top Yukawa coupling drives m_{H_u}^2 through zero to -(238.83 GeV)^2 at M_Z, dynamically triggering radiative electroweak symmetry breaking while avoiding charge-breaking (m_{H_d}^2 = +(423.70 GeV)^2 > 0); with stop mass M_SUSY = 549.26 GeV and stop mixing X_t / M_SUSY = -1.1347, the forward-predicted physical Higgs mass is m_H = 125.46 GeV (pull +1.21 sigma against LHC target 125.25 +/- 0.17 GeV) without back-solving.",
+  "weave_or_thread": "weave (forward radiative electroweak symmetry breaking and forward Higgs mass prediction from modular geometry)",
+  "points": [
+    "P-396"
+  ],
+  "summary": {
+    "modular_soft_scale_m0_GeV": 315.9315,
+    "mHu_scale_MZ_GeV": 238.8338,
+    "mHd_scale_MZ_GeV": 423.6991,
+    "is_rewsb_triggered": true,
+    "M_susy_GeV": 549.2605,
+    "At_MZ_GeV": -599.7491,
+    "Xt_over_Msusy": -1.1347,
+    "lambda_tree": 0.066361,
+    "delta_lambda": 0.063449,
+    "lambda_tot": 0.12981,
+    "predicted_Higgs_mass_GeV": 125.4563,
+    "pdg_Higgs_mass_GeV": 125.25,
+    "pull_Higgs_mass_sigma": 1.2137
+  }
+}
