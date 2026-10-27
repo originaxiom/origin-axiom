@@ -1,0 +1,86 @@
+{
+  "kind": "AUTHOR_ANALYTICAL_CUSTODY_NOT_EXECUTION_SPECIFICATION",
+  "date": "2026-10-27",
+  "source_checkpoint": "3a754794155685f5e4f12332601ea25a07961269",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/PROOF.md",
+      "sha256": "299e95d002398359ee3a3c8a1421f7acf256618284c0ad1e4b8a70dee3072b55"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/PROOF.md",
+      "sha256": "9d11b84270e5fccb949915fcb761c075038cda51b2e1230f1c7188daf9f76050"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_real_boundary_2026_10_15/PROOF.md",
+      "sha256": "039229d521e880b9c8d1954a39b711dd0749fd8368d8fe95f99ccf79ce197831"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_interacting_domain_2026_10_15/PROOF.md",
+      "sha256": "8ee3ec7041b7211c9f3fe049405c6c4256ed8aed05cfd36fe4ad5b99818c1498"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_interacting_domain_2026_10_15/NEXT_TEST.md",
+      "sha256": "8726082fc5e53af647ab6d4bf450607494c2644a2f75e6bdfd3417dc0cbb9403"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/PROOF.md",
+      "sha256": "a4d5dd39babdd00ce6121804e1070350e133bd35ff0c2d97bd9d946fa87106c5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_global_boundary_variation_2026_10_16/PROOF.md",
+      "sha256": "719704f5225ae4d99624b561c241aca89340a48909cbd0df7c60089bc52361bc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/HODGE_GEOMETRY_REDUCTION_AND_FIBRE_MAP.md",
+      "sha256": "bac5a56ab1ab4f12f6cb79eee30b75ffb30907fedc9f3c12e852491df3d716f4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COMPACT_HIGGS_ORBIT_AND_MODULAR_SELECTION.md",
+      "sha256": "89dfa0dbdac7f1482b3cd8726873d2a3e22dac2b2aa1e4d5e62b8912a60c5afd"
+    }
+  ],
+  "primary_reading": [
+    {
+      "url": "https://arxiv.org/html/0802.3391",
+      "scope": "Equations 3.19-3.23 and 3.39-3.41 with their explanatory paragraphs personally reread",
+      "access_date": "2026-10-27"
+    },
+    {
+      "url": "https://dlmf.nist.gov/27.14",
+      "scope": "Eta product 27.14.12 and modular transformation 27.14.14"
+    },
+    {
+      "url": "https://dlmf.nist.gov/23.18",
+      "scope": "Eta modular transformation 23.18.5"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SURFACE_CASIMIR_WEIGHT_AND_NORMALIZABLE_END.md",
+      "sha256": "7319705c6744ef6135da95714d9502fba9318b5a1b16fa02551533a891ad93fc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_AGY_SM_CHAT1_2026-10-27_SURFACE_WEIGHT_SIX_AND_END.md",
+      "sha256": "0581b869bcde98136b2957bc79f9627e46cd33710fedaa2aa2eea5c45d97b677"
+    }
+  ],
+  "status": "UNREVIEWED author proof; no execution admission or physical acceptance",
+  "scientific_execution": "NONE",
+  "conditional_payments": [
+    "Full surface F-equation implies invariant base holomorphy",
+    "Canonical K_X field fixes quadratic invariant weight six",
+    "Actual whole-field unwarped L2 norm would force trivial-character weight-six invariant to vanish"
+  ],
+  "remaining_inputs": [
+    "Supplied physical surface parent and carrier/completion",
+    "Admissible whole-background norm versus only finite action/fluctuation norm",
+    "Actual extra R/flat lifts and cusp reference sources",
+    "Global solution, full charged spectrum, interactions, three generations and gravity"
+  ],
+  "correction_scope": "Previous M2 selector remains valid in its ordinary-relative hypotheses; not the correct weight for this physical surface invariant"
+}

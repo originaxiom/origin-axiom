@@ -365,6 +365,22 @@ The hand proof is UNREVIEWED, no science code was run and no old
 spectrum is transferred. This strengthens the next same-parent duty
 rather than fitting another Higgs vector or excluding the full programme.
 
+## October 27: apply the selector to the actual surface field
+
+[Surface Casimir and normalizable end](SURFACE_CASIMIR_WEIGHT_AND_NORMALIZABLE_END.md)
+recovers the parent's canonical weight three. Its quadratic Higgs
+invariant has weight SIX, so the previous ordinary-relative M2=0
+condition cannot be transplanted. Full Dbar_A Phi=0 does derive base
+holomorphy for the invariant. Bounded untwisted weight six leaves
+C0 E_6. A genuine whole-field unwarped L2 condition instead implies
+integral y abs(c) dxdy finite, forces a cusp form and hence c=0 in
+that scalar full-modular sector. This is a conditional rank-two orbit
+selector, not full E8 nilpotence or Phi=0. The eta^12 character control
+and finite-action-versus-background-norm distinction prevent false
+exclusions. The next named duty is the actual global background/end
+admissibility; no spin-parent norm law is borrowed. Proof UNREVIEWED,
+no science code run, no foundational input or full physical goal paid.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
