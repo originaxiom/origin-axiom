@@ -1,0 +1,8 @@
+W162, the first launch of the_census_window.py (script c836c50a6), stopped by the operator - a failed launch, disclosed.
+
+Launched 2026-10-27 at about 15:38 UTC under an operator time limit of 7000 s, on four worker processes.
+Its only output line before the stop: "K0 rows done 12.3".
+After 40 minutes Tier A was still running. The tasks proved to take about 3 s each, so the run's ~15 400 points needed
+about 3 hours, past the limit, which would have killed the run inside Tier B.
+The operator stopped it at about 16:18 UTC. No JSON was written, and nothing computed was read.
+The same committed script, unchanged, was relaunched detached with no time limit.
