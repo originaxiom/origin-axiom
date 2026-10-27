@@ -573,6 +573,28 @@ end law remain the next duties; no SM parameter or foundational row is
 marked paid. Earlier reviews/seals and the full physical objective
 remain unchanged.
 
+## October 27: B1770–B1782 certification audit, preserve the derivation mission
+
+Fetched agy 05e6caabf and personally read all thirteen new producers.
+The [source audit](AGY_B1770_B1782_SOURCE_AUDIT_2026_10_27.md) finds direct
+assigned gauge shifts (B1775), target-minus-tree flavour corrections
+unused by the instanton suppression (B1776), literal final down mass
+(B1779), and electroweak inverse minimization from supplied MZ/tan-beta
+(B1778). The purported caveat-free B1781 scorecard hard-codes the
+predictions, uncertainties, pulls and certification count. These do not
+establish nineteen parameter derivations. Conditional RGE, determinant,
+Hessian, special-function and prescribed-scale positives are retained.
+
+The B1782 trace-free vacuum cancellation is correct tensor algebra;
+it does not fix the remaining gravitational integration constant or
+derive the supplied exponent/cutoff/prefactor dark-energy formula.
+No full scientific rerun, independent certification, programme-wide
+negative or physical parameter credit is claimed. Source custody and
+a repair relay are preserved. This strengthens the same-action input
+reduction duty; it does not replace it with fitting or narrower goals.
+Earlier unreviewed compact-family/norm proofs and execution seals retain
+their stated scopes. The full physical mission remains unfinished.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

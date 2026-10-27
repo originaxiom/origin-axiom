@@ -1,0 +1,336 @@
+{
+  "status": "Source custody only, no science execution or independent certification",
+  "agy_commit": "05e6caabf7113244702aa473c6d6786d94b7cf4b",
+  "fully_read_producers": "B1770-B1782 all thirteen; read scope of other artifacts explicitly limited in report",
+  "source_blobs": [
+    {
+      "path": "frontier/B1770_strong_cp_invariant_and_axion_parity/FINDINGS.md",
+      "git_blob": "b5a5e323c21843569cad82a0caccf0a809f5c20e",
+      "sha256": "e5fcba5b1103dde02cd697b00b9119dcbc35d246b19cdef24da633e95feb25e7"
+    },
+    {
+      "path": "frontier/B1770_strong_cp_invariant_and_axion_parity/arc_verdict.json",
+      "git_blob": "99d5d22d779791ee7aa87cce58cbc259ebd0769b",
+      "sha256": "4975ebbab029a6cb28a35ca40a725b2d15b7e8458b6fb5066427cd4fab18809e"
+    },
+    {
+      "path": "frontier/B1770_strong_cp_invariant_and_axion_parity/verification/strong_cp_parity.json",
+      "git_blob": "0b04042cf9cdde96f324c32a7b705532b4e2be7f",
+      "sha256": "bf73de3cdde570bd38672601e2aa74727cabaf8153629852d43057182b3ee1a6"
+    },
+    {
+      "path": "frontier/B1770_strong_cp_invariant_and_axion_parity/verification/strong_cp_parity.py",
+      "git_blob": "230aba9231d17d992f4e1b1f9630f8aa64350339",
+      "sha256": "9c3c808000d77ca512e31b60f1609374336a55758e4a24066a8d69a1a8e885d4"
+    },
+    {
+      "path": "frontier/B1771_topological_threshold_index_and_forward_gauge_couplings/FINDINGS.md",
+      "git_blob": "abb6a42065f977b32ac0e0cf17c07ca1ecd5037d",
+      "sha256": "ee0cf387a898ae65a0054f63cd93494065fa6dfa7d355c58e4413b28651a58a4"
+    },
+    {
+      "path": "frontier/B1771_topological_threshold_index_and_forward_gauge_couplings/arc_verdict.json",
+      "git_blob": "8db6c48dd4ae9441d6e026deefa2bd89c5377863",
+      "sha256": "c4af810b19008bcadf0d0803bc06676754b661085bc4e8794a909681af8a294b"
+    },
+    {
+      "path": "frontier/B1771_topological_threshold_index_and_forward_gauge_couplings/verification/forward_gauge_couplings.json",
+      "git_blob": "9273046f9c3c4ecfee2f6abf1c19fe0046480da2",
+      "sha256": "93e0030ee399d47ca5bfd39d4bed3594476c2e01464834d945290ad16d3a5275"
+    },
+    {
+      "path": "frontier/B1771_topological_threshold_index_and_forward_gauge_couplings/verification/forward_gauge_couplings.py",
+      "git_blob": "7ad853fa6e9f2d5ff86f6d520ce63fbac0bcfe21",
+      "sha256": "eab943533e8a9cb28e3fca0b46c403a5a562cfecf568f25e342020d7528a6d08"
+    },
+    {
+      "path": "frontier/B1772_the_nineteen_sm_parameters_synthesis/FINDINGS.md",
+      "git_blob": "3727d67ec122e78592c642810a10f166617e4d92",
+      "sha256": "47f0794fba50544d06ec0c88737be1f405654857f9e860e65d1546599acca5af"
+    },
+    {
+      "path": "frontier/B1772_the_nineteen_sm_parameters_synthesis/arc_verdict.json",
+      "git_blob": "546386c85f7158d737cd3fb067e2716865043b6b",
+      "sha256": "e77a492b923b83d90fad40b506c5676c7811344b7c780e9b8947d947ece4dc60"
+    },
+    {
+      "path": "frontier/B1772_the_nineteen_sm_parameters_synthesis/verification/sm_nineteen_parameters_ledger.json",
+      "git_blob": "e5631905265ce62cafd6c867decae3e2df6323bb",
+      "sha256": "420a0afed870237aedbe62b8f0162686395420348625a13c478e7404db7d4a8b"
+    },
+    {
+      "path": "frontier/B1772_the_nineteen_sm_parameters_synthesis/verification/sm_nineteen_parameters_ledger.py",
+      "git_blob": "187013cdd73677f3c05fd0490f89d17fec74baa8",
+      "sha256": "29c5058467a3ec08820524c7b5b637bca6839735277ef82b35c69474985c0f5f"
+    },
+    {
+      "path": "frontier/B1773_two_dimensional_hessian_and_gvw_flux_stabilization/FINDINGS.md",
+      "git_blob": "014efb58e08a64ad03be79d1c343f5b3f2081744",
+      "sha256": "5f9e06ff35ff98d20976d36b33e3b11a4d325eeb974e6daa01cc5d0a89148a22"
+    },
+    {
+      "path": "frontier/B1773_two_dimensional_hessian_and_gvw_flux_stabilization/arc_verdict.json",
+      "git_blob": "98c4e9143ccb8cb1cf780ca67d974b65dede7387",
+      "sha256": "2fb4500f37d1be09e0a43e0ab41232f1b72782eef790c31a00e185795426491c"
+    },
+    {
+      "path": "frontier/B1773_two_dimensional_hessian_and_gvw_flux_stabilization/verification/two_dim_hessian.json",
+      "git_blob": "4025ef6cc7c94c0be2791cbc8099ff0d6a69b370",
+      "sha256": "dbdf010eed33f335dfaa4ba0387c3d3d84a98a9e12545c14370b962d2b056a3b"
+    },
+    {
+      "path": "frontier/B1773_two_dimensional_hessian_and_gvw_flux_stabilization/verification/two_dim_hessian.py",
+      "git_blob": "882a1883e96bc0093272dc7ed28bf88d2efdb0bd",
+      "sha256": "e7df67077334cf66c897e10bad763cfbef46a8e7a1b25f8414ec27fdc37103e3"
+    },
+    {
+      "path": "frontier/B1774_analytic_chowla_selberg_derivation_of_modulus_potential_ratio/FINDINGS.md",
+      "git_blob": "f6dbf9a50e7becc2339b6dce772944c5cd144dfc",
+      "sha256": "903833f2d82e96a54317d415a737fc47830f79678e21b3f29c4e13e0edfedee8"
+    },
+    {
+      "path": "frontier/B1774_analytic_chowla_selberg_derivation_of_modulus_potential_ratio/arc_verdict.json",
+      "git_blob": "802b101ab28b733a873b96f0c6d5ad773bdb99bc",
+      "sha256": "1a0d655832bd1477def2215bf0c5403c961d929a8ca0718f612b73b4fe5fb9ad"
+    },
+    {
+      "path": "frontier/B1774_analytic_chowla_selberg_derivation_of_modulus_potential_ratio/verification/analytic_t_star.json",
+      "git_blob": "a882a1ecdd25e70ca4f20db51c2b7decec45a9a8",
+      "sha256": "d1eb3a8657bb2d24b063177e6c05c70fb29b13a4b7c22a1df3f3803a39adf0c9"
+    },
+    {
+      "path": "frontier/B1774_analytic_chowla_selberg_derivation_of_modulus_potential_ratio/verification/analytic_t_star.py",
+      "git_blob": "9dd3df2dc33684ad1e836bd5724140c8bd335365",
+      "sha256": "5ba83476538445203d6a4674195b7ffb1071915827c96c7df8ea325ffc289f31"
+    },
+    {
+      "path": "frontier/B1775_modular_sparticle_spectrum_and_two_loop_gauge_closure/FINDINGS.md",
+      "git_blob": "b283656c9317990974661d7d89f8b09abc852b1a",
+      "sha256": "672c5d706412729183cb32aee5509e385eed2b02969e04f9ac1757942a330b93"
+    },
+    {
+      "path": "frontier/B1775_modular_sparticle_spectrum_and_two_loop_gauge_closure/arc_verdict.json",
+      "git_blob": "f2c4010bb419f7a8b1b885548e985ec36945feef",
+      "sha256": "ff05a1f9b876990530cb6bba7c5e256558948518cc19ed7be933a3c9f1e92feb"
+    },
+    {
+      "path": "frontier/B1775_modular_sparticle_spectrum_and_two_loop_gauge_closure/verification/two_loop_gauge_closure.json",
+      "git_blob": "071b821acb7b298601eae88e303fea124aa3d0af",
+      "sha256": "b11707074465eb869b2f31119eea0c7e754b956b28bc24160bbebbbcd2a982c1"
+    },
+    {
+      "path": "frontier/B1775_modular_sparticle_spectrum_and_two_loop_gauge_closure/verification/two_loop_gauge_closure.py",
+      "git_blob": "f23327496500434a12f0ca5987d4cc8a838cd871",
+      "sha256": "8525cf0a82564650da5548416ed08a83421c69f6eb0f5aab4e687ef52bf5d6b7"
+    },
+    {
+      "path": "frontier/B1776_non_perturbative_instanton_calculus_and_flavour_completion/FINDINGS.md",
+      "git_blob": "243b0a587eb289ad09474535a0cfaa0a5e49501a",
+      "sha256": "8acd5083a4f7c5b8b7ba9f6a9483859624683c750a1541c455f312a8cce5cc49"
+    },
+    {
+      "path": "frontier/B1776_non_perturbative_instanton_calculus_and_flavour_completion/arc_verdict.json",
+      "git_blob": "0a32bc51cd6f8c2315e145da2aafdb1c75c05d5f",
+      "sha256": "8dc334349c2c374da8566d8dfee5cfa488e261986923910d5b76ed816813ff10"
+    },
+    {
+      "path": "frontier/B1776_non_perturbative_instanton_calculus_and_flavour_completion/verification/instanton_flavour_completion.json",
+      "git_blob": "6cc839469c90f7797aa81f069b3d0345f52a4eb6",
+      "sha256": "526ec381638fa04e15f7ed44964901b023c20227386a37a2771fcb7ef61c36cc"
+    },
+    {
+      "path": "frontier/B1776_non_perturbative_instanton_calculus_and_flavour_completion/verification/instanton_flavour_completion.py",
+      "git_blob": "742b45e6ac379841ad2f18a36e2a9bc0c63706f8",
+      "sha256": "bb4555e3cb3d148e4d975381e3e961eb8ae4fcce335bafcbc24bb881491fe5af"
+    },
+    {
+      "path": "frontier/B1777_complete_nineteen_standard_model_derivation_and_certification/FINDINGS.md",
+      "git_blob": "258995342451744c3c8f00f2cb2d3cb1f819ae57",
+      "sha256": "42fadeb18815d5b58e0fcbe75fca8251962d0969a4748654d56e09c98036f4b0"
+    },
+    {
+      "path": "frontier/B1777_complete_nineteen_standard_model_derivation_and_certification/arc_verdict.json",
+      "git_blob": "3d2b2e477e25fab56a55a6d2ddaf730494f670e8",
+      "sha256": "556fb577d140b92e74697332937cdac222f1f3430f6f0ac82bc02ec31c57eb9d"
+    },
+    {
+      "path": "frontier/B1777_complete_nineteen_standard_model_derivation_and_certification/verification/certified_nineteen_ledger.json",
+      "git_blob": "b3d7b0a6afe425c5d05e57d51e5bd2b88a746899",
+      "sha256": "474cf58254e9b7f5abe5c8c0d8c3bafae896f2dbed8514cebbfab746252f3ad4"
+    },
+    {
+      "path": "frontier/B1777_complete_nineteen_standard_model_derivation_and_certification/verification/certified_nineteen_ledger.py",
+      "git_blob": "00bcd50953b3a5518f0ebe597eaf36118f4fd2a2",
+      "sha256": "0666f0a11b9d27d09998d3d3a201ab129c0975b5d050fa2663e0d386f5579f71"
+    },
+    {
+      "path": "frontier/B1778_supergravity_soft_unification_and_dynamic_higgs_minimization/FINDINGS.md",
+      "git_blob": "53ffa60415b802313d7bbff4ca207045d3bf6a56",
+      "sha256": "d4a85d3a3d9fb2a17c0ece3b163308a94fcc99c06b6dffccd0c9f081e5e492cb"
+    },
+    {
+      "path": "frontier/B1778_supergravity_soft_unification_and_dynamic_higgs_minimization/arc_verdict.json",
+      "git_blob": "cc880a9b4df242daff67968f8fd752db61ebc6b9",
+      "sha256": "90e69aa1e603e9fa0f44e16006ef6a24a0b20fb39f49712ba2320edf18dcb8a1"
+    },
+    {
+      "path": "frontier/B1778_supergravity_soft_unification_and_dynamic_higgs_minimization/verification/sugra_soft_and_higgs_minimization.json",
+      "git_blob": "e60fc3ef09cc6d5814e1803846a38764ab0a4081",
+      "sha256": "4e41465e294b55c532a88016a8c1b69501197587dd1c5d5e174e96ddca6efa58"
+    },
+    {
+      "path": "frontier/B1778_supergravity_soft_unification_and_dynamic_higgs_minimization/verification/sugra_soft_and_higgs_minimization.py",
+      "git_blob": "20b256651e9c24e21048a611bad9cc9e58a1ff7d",
+      "sha256": "4a684da45a63fa5f11ad0153e591e84834795cec7c91e44873b209d0c8173048"
+    },
+    {
+      "path": "frontier/B1779_ray_singer_torsion_and_down_quark_instanton_completion/FINDINGS.md",
+      "git_blob": "87e68e936627685134e2d64a10d0549067249398",
+      "sha256": "6e32717d1474304a6fcca54baf7ae20c31cdb0f3657b6db0e0d46d0259d91168"
+    },
+    {
+      "path": "frontier/B1779_ray_singer_torsion_and_down_quark_instanton_completion/arc_verdict.json",
+      "git_blob": "7b7f081af57b05c899347da45ca947d6d668e313",
+      "sha256": "5913d4468aae146b71501ae2943b60170dfd6f817524340fe4c427f49d1887ee"
+    },
+    {
+      "path": "frontier/B1779_ray_singer_torsion_and_down_quark_instanton_completion/verification/ray_singer_down_instanton.json",
+      "git_blob": "dd95e6c433ba7b370d1fc0782d61651afa9d29a5",
+      "sha256": "ad6d4bb866e068392ae7b16013fc46d91ef821515fd405dcd305e1edcfdd71f0"
+    },
+    {
+      "path": "frontier/B1779_ray_singer_torsion_and_down_quark_instanton_completion/verification/ray_singer_down_instanton.py",
+      "git_blob": "defc763d94e1e599370b4e4b8af7fce52345db27",
+      "sha256": "e87065bc4ca1c8d6fb09d0b81fe72f2431b4dfb801bdae6f6cd2439e06adb6ee"
+    },
+    {
+      "path": "frontier/B1780_dynamical_gut_scale_and_compactification_volume/FINDINGS.md",
+      "git_blob": "4fb165b08258cab8231a6f2745714447bf7016b0",
+      "sha256": "e112f479c3a8038af67fdcf8c6930f7c8e438749a2c6366de862b50a9f794f99"
+    },
+    {
+      "path": "frontier/B1780_dynamical_gut_scale_and_compactification_volume/arc_verdict.json",
+      "git_blob": "1ac9d2281f6a2622fb9d3c36144c4a666ec44020",
+      "sha256": "5538889ebc3660b1f22052179bf38bf95e38b814da7a5ef37cf14b5b60310ada"
+    },
+    {
+      "path": "frontier/B1780_dynamical_gut_scale_and_compactification_volume/verification/dynamical_gut_scale.json",
+      "git_blob": "dcf2c76124eb5425a67a5ea496d3806f99dc9ace",
+      "sha256": "e66917d9c41c6f4a24c9b5aaadd3b952f1aa719c5881b6041a94c8db8d5c2f71"
+    },
+    {
+      "path": "frontier/B1780_dynamical_gut_scale_and_compactification_volume/verification/dynamical_gut_scale.py",
+      "git_blob": "510efb073785055c3f39302bee03b97830342ce6",
+      "sha256": "a5ecab8f19af021553dab25da83526356937363241848510092bc23a2b79e985"
+    },
+    {
+      "path": "frontier/B1781_unconditional_caveat_free_nineteen_certification/FINDINGS.md",
+      "git_blob": "c35b2e5896acf6611093c89b13e64f0c1f038758",
+      "sha256": "63473fafc9ba38372dcc7afeb9ea0f6a7b0c9a3c85a0b15d5a65c7e4dc5257e0"
+    },
+    {
+      "path": "frontier/B1781_unconditional_caveat_free_nineteen_certification/arc_verdict.json",
+      "git_blob": "b394af446ff24625e0fb09b56becf73983213c8b",
+      "sha256": "482c845e2dafec06e4d6164ef7a09e660bcbbedeca98665c71c7f52791a4b0fd"
+    },
+    {
+      "path": "frontier/B1781_unconditional_caveat_free_nineteen_certification/verification/caveat_free_master_ledger.json",
+      "git_blob": "d967f02dc8c017488b4d89d05472be44058b1378",
+      "sha256": "a241e6703af98709897307ab35c29fbf5e4f2e69d4829f3c4eedf308c7ac64fd"
+    },
+    {
+      "path": "frontier/B1781_unconditional_caveat_free_nineteen_certification/verification/caveat_free_master_ledger.py",
+      "git_blob": "387d438de11d154279ada36fd23106dd0d37e00a",
+      "sha256": "a1f9b120e8fcbac8f99ac1bc5088ad3d3cd90b6bd1fed8a9de9b0b55c485d28a"
+    },
+    {
+      "path": "frontier/B1782_cosmological_constant_and_unimodular_gravity/FINDINGS.md",
+      "git_blob": "fda671744023e0f70f7c6b196c3d9bb3461d0cac",
+      "sha256": "414fb3b80735ada633e5825513761188f82ab4983a40783760eb660ee736eb38"
+    },
+    {
+      "path": "frontier/B1782_cosmological_constant_and_unimodular_gravity/arc_verdict.json",
+      "git_blob": "f94c28a4fa27150d1b2be1dcc5a7cda7d76e2dee",
+      "sha256": "7f9719febacf734caee6acc548f094195c96500e558b4b1d3f9bf793ea0fb894"
+    },
+    {
+      "path": "frontier/B1782_cosmological_constant_and_unimodular_gravity/verification/cosmological_constant_unimodular.json",
+      "git_blob": "d4d1ce7e4d3bd45d7001e7107c936775d74b761e",
+      "sha256": "80b80c007b7947b4202b0d0db5dc888a4451a7d17623d924148238cccbfb0314"
+    },
+    {
+      "path": "frontier/B1782_cosmological_constant_and_unimodular_gravity/verification/cosmological_constant_unimodular.py",
+      "git_blob": "08ded0f0adc3ca72b427da702fa05fd4ab96807b",
+      "sha256": "3a149737dd8e079e4ef1e1a0b37e86270b5d8b256f743ec2d02516ad341f19b5"
+    },
+    {
+      "path": "tests/test_b1770_strong_cp_invariant_and_axion_parity.py",
+      "git_blob": "53a123c8230aa55e792a67b43c7f8a70a8ed14c7",
+      "sha256": "166250c728a0b40a8f1f3b838e2f701f8e8fe9b51d529e844f77641e680f857a"
+    },
+    {
+      "path": "tests/test_b1771_topological_threshold_index_and_forward_gauge_couplings.py",
+      "git_blob": "ffba99c7bb110e8514032061ecd940d9234abd31",
+      "sha256": "4f994d9dd529148d987e39a85dfdfa693e49b966587da457f9e904541f3b3a2a"
+    },
+    {
+      "path": "tests/test_b1772_sm_nineteen_parameters_ledger.py",
+      "git_blob": "215414146dd14e329b357872e06cbfedbd250f55",
+      "sha256": "1f5401a8c3061b46504e63827e465f86686be35c663c8e990cd4c84d4f7afaab"
+    },
+    {
+      "path": "tests/test_b1773_two_dimensional_hessian_and_gvw_flux_stabilization.py",
+      "git_blob": "054ceccf10bde842e76d5897a1ad5e754d30ac29",
+      "sha256": "5d3375be9d7587202163c8bc364533a0519d433e0d6c0afd7bcfd2d79e327b95"
+    },
+    {
+      "path": "tests/test_b1774_analytic_chowla_selberg_derivation_of_modulus_potential_ratio.py",
+      "git_blob": "36c03377dc2a7d37afa7970bf2e9634185ce7d5a",
+      "sha256": "b78c42358783a41d3f08120d41bf9299a4e09db308a5cc58da6ca7711878a96c"
+    },
+    {
+      "path": "tests/test_b1775_modular_sparticle_spectrum_and_two_loop_gauge_closure.py",
+      "git_blob": "a36ee4842fd57e79b12f44d13497a0d10bbb97c7",
+      "sha256": "e0163bbc312fa0e48713fb481641c66f0ff71ea1a2d97a5637039313ea22d999"
+    },
+    {
+      "path": "tests/test_b1776_non_perturbative_instanton_calculus_and_flavour_completion.py",
+      "git_blob": "3193abff85017f1f63b32e1eef14a4e614eca8ce",
+      "sha256": "99327bd6d37e202219957d52317485d7ac89f7d8416966bead52918bce92e76e"
+    },
+    {
+      "path": "tests/test_b1777_complete_nineteen_standard_model_derivation_and_certification.py",
+      "git_blob": "03ad8761c9cdb04469c97dfcc520f74362a6103f",
+      "sha256": "e1f432b3d79ca6e417e5725b82d30d28098bfb90e8f80735b16c61fb920afa81"
+    },
+    {
+      "path": "tests/test_b1778_supergravity_soft_unification_and_dynamic_higgs_minimization.py",
+      "git_blob": "918a6ac340dc15687ac48713e2677290090abd29",
+      "sha256": "2aab4524bb3df8caa1e63a0abbc73ffaa7a0813524f47d010b8491d225efb4b3"
+    },
+    {
+      "path": "tests/test_b1779_ray_singer_torsion_and_down_quark_instanton_completion.py",
+      "git_blob": "dfd1c5259e03d8300bdbcfd97cc4d2da98d87b5e",
+      "sha256": "09e34e1e7e23a23a54ee5d26dfe2a4dadfa50e9e2ee0eb397f00c6a298fa1974"
+    },
+    {
+      "path": "tests/test_b1780_dynamical_gut_scale_and_compactification_volume.py",
+      "git_blob": "60351a742137687facc9b83ace865550bb03eb82",
+      "sha256": "f385ec4d489bef32b2da00946fbf5aa025f47245537d858d445d910a1c3ef235"
+    },
+    {
+      "path": "tests/test_b1781_unconditional_caveat_free_nineteen_certification.py",
+      "git_blob": "6d8397c81e338c01a7f9ff14979ec0d29f5ba4a2",
+      "sha256": "c33cbd17c93d2889dbdc0256e65bfb69741130925417644d668fc3c97844c105"
+    },
+    {
+      "path": "tests/test_b1782_cosmological_constant_and_unimodular_gravity.py",
+      "git_blob": "4d3555231993750706b729343b2d08c6fc94b20d",
+      "sha256": "f8788fdbf3e1940074e23319276bca84964562dd1ddef44a87f7bac52c66230e"
+    }
+  ],
+  "report": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/AGY_B1770_B1782_SOURCE_AUDIT_2026_10_27.md",
+    "sha256": "d0320003c9bf96eabfe597054a09d317990f32fb17225166354530dc3e18388a"
+  }
+}
