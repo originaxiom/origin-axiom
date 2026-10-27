@@ -1,5 +1,15 @@
 # Changelog
 
+## The owner's ruling on P-385 carried; the agy branch's 19 of 19 checked; B1755 seen (relay §282)
+
+- **P-385:** the merged ladder wording and the audit lane's qualifier, adopted by the owner (GENESIS v1.58), carried
+  verbatim into `docs/THE_WEAVE.md` and `WORKING_RULES.md`.
+- **The agy branch's 19 of 19 is not supported:** B1776's shifts are target minus tree, and B1781's predictions are the
+  targets written as literals (two of the audit lane's items, checked on own read). The record stands at 0 of 19.
+- **B1755** (main's seal of this seat's §275 test) has run on the agy branch with the predicted outcome; the third
+  opinion is owed.
+- **Surfaces.** The two rule files, the relay, four ledger rows, the state page. 0 of 19.
+
 ## W158 recorded: the two-object route at the strip — special lines are null, so the first generation is massless (relay §281)
 
 - **The test:** H_u and H_d on W152's 26 special lines, at the 38 rows where the six pass. The least χ²_nine over the

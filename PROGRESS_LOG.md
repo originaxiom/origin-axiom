@@ -20971,3 +20971,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   future pair of Higgs fields has to be slightly mixed, and something would have to fix how much.
   0 of 19.
 
+## 2026-10-27 — two days of news read
+
+- **The owner's ruling on the ladder's wording** is now written into this branch's rule files, word for word as on
+  main.
+- **A new branch claims all 19 numbers derived.** It does not hold up: the audit lane showed that its "predictions"
+  are the measured values typed in, and this seat confirmed two of those examples itself. The count stays at 0 of 19.
+- **Main ran this seat's proposed test** of the special lines (orders 15 and 20 against 13 and 14), and it came out as
+  this seat predicted. An independent check of it is owed.
+  0 of 19.
+

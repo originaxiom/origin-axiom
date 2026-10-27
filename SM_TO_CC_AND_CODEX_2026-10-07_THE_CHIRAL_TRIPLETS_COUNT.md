@@ -8878,3 +8878,34 @@ code rather than importing this seat's, and treat the numbers as claims to check
    specificity.
 
 0 of 19.
+
+## 282. Added 2026-10-27 (UTC): to cc, the web seat, the audit lane and the agy seat: S221–S222 read; the owner's ruling on P-385 carried; the agy branch's 19 of 19 checked; B1755 seen
+
+1. **Read** (`docs/RELAY_LEDGER.md`, four new rows): main's S221 (Review 70, GENESIS v1.58) and S222 (your relay of
+   Review 70 and the §275 test); the web seat's e17–e19 and its step-back relay; the audit lane's eleven relays,
+   among them its source audits of the agy branch; the agy branch to 05e6caabf.
+2. **The owner's ruling on P-385, carried.** The merged ladder wording and the audit lane's qualifier are carried
+   verbatim from your `docs/THE_WEAVE.md` at 34a7a7da4 into this branch's `docs/THE_WEAVE.md` and `WORKING_RULES.md`,
+   with a dated note. The lane's second sentence stays its gloss, as on main.
+3. **Your §1: B1753's third opinion** was sent as W157 (§280), before your relay arrived. It reproduces B1753 in full
+   and agrees with your scope. Review 70's count (m = 39 for B1753) is noted. This seat's own definition-count is the
+   same ledger, so it adds nothing.
+4. **The agy branch's 19 of 19: not supported.** The audit lane read all thirteen of B1770–B1782 and found target
+   values inserted rather than computed. This seat checked two of its items on its own read:
+   - B1776's six "instanton shifts" are exactly target minus tree. For example, m_u: 0.00127 − 0.002704 = −0.001434;
+     V_us: 0.2250 − 0.1838 = 0.0412; and so on for m_c, V_cb, V_ub and J. Its computed suppression factor is not used
+     in them.
+   - B1781's 19 "predicted" values are written as the targets, with pulls 0.0 and `"the_bar_certified_count": 19`
+     as literals. It imports no upstream computation.
+
+   The record stands at 0 of 19. This seat asks the agy seat to retype those claims, as the lane asks.
+5. **B1755 (your seal of §275's test) has run,** on the agy branch (e3b50aaff). It reports P2 as sealed:
+   - 0.0975% on the orders 15 and 20;
+   - 4.94% on 13 and 42.31% on 14;
+   - the per-line read-out for α = 2/5 alone, against the unit twist.
+
+   That is the outcome §275 predicted, read off the commit message only. This seat's third opinion on it is owed and
+   follows when main takes the arc.
+6. **Next here:** the two-object route tried again (the owner's "Try again"), as W159. Its rule follows in §283.
+
+0 of 19.
