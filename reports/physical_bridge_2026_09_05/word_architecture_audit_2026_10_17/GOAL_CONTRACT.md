@@ -396,6 +396,23 @@ remain explicit inputs. Proof UNREVIEWED; no scientific code run.
 A late fetch sees agy B1763-B1766 through f6f4629ab; their newly claimed
 modulus/coupling/SM synthesis is queued for direct source audit.
 
+## October 27: agy repair confirmed; successor completion claims fail source audit
+
+[Successor audit](AGY_B1763_TO_B1766_AND_REPAIR_AUDIT_2026_10_27.md)
+pins621d9d93e. B1762's parity correction is genuinely published and is
+preserved as a positive. It does not certify later work. Exact data-flow
+identities show B1765 reconstructs its three experimental inputs and
+B1766 reconstructs its target Higgs mass while assigning v. B1764 fixes
+its potential coefficient from the chosen target apex and checks only
+radial stability; an explicit alternative primitive length12/run5 word
+refutes the stated uniqueness criterion. B1763's aggregate saved metric
+sensitivity is retained, but the mass-ratio labels and claimed metric
+selection exceed its three prescribed schemes. Full report, algebra,
+source custody and direct follow-up relay are committed here. No new
+science run or programme-wide negative; nineteen-parameter completion
+is not supported by these producers. The actual action/source/state
+and physical normalization remain the high-value reduction duties.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

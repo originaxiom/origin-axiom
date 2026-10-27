@@ -1,0 +1,162 @@
+{
+  "kind": "CROSS_SEAT_SOURCE_AUDIT_NOT_SCIENTIFIC_EXECUTION",
+  "date": "2026-10-27",
+  "audited_commit": "621d9d93e30a01be99af1fa81044623a9939a039",
+  "audited_branch": "agy/frontier-2026-10-26",
+  "new_science_commits": [
+    "b01951cb6",
+    "b34272121",
+    "cf89971fb",
+    "f6f4629ab"
+  ],
+  "repair_commit": "621d9d93e",
+  "received_owner_relay_sha256": "7290e7a535660ef458744bfc48ad9bf03584f85c1d205f33f81ff72412c20ecd",
+  "reading_scope": "Complete B1763-B1766 producers, findings and four tests; selected saved JSON including apex rows and final results; B1762 repair diff; B1754 foundation wording. Arc verdicts hashed for custody, not treated as proof. No science rerun.",
+  "sources": [
+    {
+      "path": "frontier/B1763_matter_kahler_metric_and_residual_flavour_pulls/FINDINGS.md",
+      "git_blob": "d503810807113a1358f2be3e71eb2feaf5d9d98b",
+      "sha256": "f7eb2d779949f8b0c636561b4c88a775a87849fa29beee726a1502f3ff379378"
+    },
+    {
+      "path": "frontier/B1763_matter_kahler_metric_and_residual_flavour_pulls/arc_verdict.json",
+      "git_blob": "321cee03c469af690cc0f257ca9057196211bf1a",
+      "sha256": "314f7903ee1cf5c66f339a7778acb6f1cf7686f22da3631a29bf72e61f49fff4"
+    },
+    {
+      "path": "frontier/B1763_matter_kahler_metric_and_residual_flavour_pulls/verification/matter_kahler_metric.py",
+      "git_blob": "db719da89369a3f474c7b5b8ad24d682b8e7a918",
+      "sha256": "8fff7a524b81d6c343c88dd0f21535084eea72762e76c099063f4df153ae83af"
+    },
+    {
+      "path": "frontier/B1763_matter_kahler_metric_and_residual_flavour_pulls/verification/matter_kahler_metric.json",
+      "git_blob": "f9954e61e799887e05dd7db5a8d764eaa1bb491a",
+      "sha256": "9df6ef358bf7d559a77bc8e7595f561ab6ff448f39befce89d9d58adf883f329"
+    },
+    {
+      "path": "frontier/B1764_dynamical_modular_ground_state_and_tau_selection/FINDINGS.md",
+      "git_blob": "a87fd50196ed1de41007a2182e9bc278e226a377",
+      "sha256": "b2e722474499c431b104897018001b3300aaafd9189ef7322bc6a7710edcb8e8"
+    },
+    {
+      "path": "frontier/B1764_dynamical_modular_ground_state_and_tau_selection/arc_verdict.json",
+      "git_blob": "414ead85b02c0e0d9070b116d922035bf0ae3c65",
+      "sha256": "c6851daabba6a0b56e3f3d39a28ec7e663dc410e53f452f35ea4d6b8a9f48e0d"
+    },
+    {
+      "path": "frontier/B1764_dynamical_modular_ground_state_and_tau_selection/verification/tau_ground_state.py",
+      "git_blob": "3a73ed5f94fc55b0416f745558bd76886d1c95b9",
+      "sha256": "5733bd02ea5245ba116d1006863a8346127434bdbd01c6a38a6aed747ec80c60"
+    },
+    {
+      "path": "frontier/B1764_dynamical_modular_ground_state_and_tau_selection/verification/tau_ground_state.json",
+      "git_blob": "87924981339dbeece9c22ec8d1764b27976dd372",
+      "sha256": "2b2b33e0cf1a58dc7fe6ed90e6d7daee1223a47d9094871bc5a8249761222918"
+    },
+    {
+      "path": "frontier/B1765_gauge_coupling_unification_and_modular_thresholds/FINDINGS.md",
+      "git_blob": "6e6ec0c680ea5d4ea5855dc5d584b8e232c983b4",
+      "sha256": "7f0477ad6636890d6f9c0fae0e5f3898036d42bf5f05f2c2d4b9d3592d940c7a"
+    },
+    {
+      "path": "frontier/B1765_gauge_coupling_unification_and_modular_thresholds/arc_verdict.json",
+      "git_blob": "f1c55db0a7449e8f39a9beaf37e9236367b9271d",
+      "sha256": "8ec632d0f9a1f40b35320f190520cf72b2fc8ec0e17e1bf8d249c47421138fc2"
+    },
+    {
+      "path": "frontier/B1765_gauge_coupling_unification_and_modular_thresholds/verification/gauge_coupling_unification.py",
+      "git_blob": "c2a45b1fcb37a9adeb01e5493ada1bb9bcb64895",
+      "sha256": "faa859d65d6db72706d642157d0ad37cfa52fa1721435f8617989d8d6264cb48"
+    },
+    {
+      "path": "frontier/B1765_gauge_coupling_unification_and_modular_thresholds/verification/gauge_coupling_unification.json",
+      "git_blob": "f1eedce4b41be2cf5c5e1b8fceff98d14416fd97",
+      "sha256": "dfad6ac842fafa421869bc41dca3608348dca6e9ee2f378c1c2e05dac0f4cfe0"
+    },
+    {
+      "path": "frontier/B1766_electroweak_scale_and_higgs_mass_from_modular_geometry/FINDINGS.md",
+      "git_blob": "0018ed7f495df390e3b15330f2a55a583cfb09fa",
+      "sha256": "ab96405126aef4267fd827138390b9d739223da53a206a3ec24024e684303f25"
+    },
+    {
+      "path": "frontier/B1766_electroweak_scale_and_higgs_mass_from_modular_geometry/arc_verdict.json",
+      "git_blob": "8359262926f0c7b4fb2866564304fbe6c9670bd8",
+      "sha256": "b0e44cb475e592092b93bdad13db0b105a32ad9d8f57a673f0a33bd82f9204da"
+    },
+    {
+      "path": "frontier/B1766_electroweak_scale_and_higgs_mass_from_modular_geometry/verification/electroweak_scale_and_higgs.py",
+      "git_blob": "87dc4d2c4fa7d8c1348b9bda4c4d1edd0b8540e2",
+      "sha256": "a87fed2f110eaf8092880b09ae5c8f4c9f89671596c5298bce6b63d15e772819"
+    },
+    {
+      "path": "frontier/B1766_electroweak_scale_and_higgs_mass_from_modular_geometry/verification/electroweak_scale_and_higgs.json",
+      "git_blob": "580a6f547471429a16d168ea745c4393f3a5e464",
+      "sha256": "8d245977542fbbe515437b1ee0aeed5cce624ce6e2b985e10f6d26d14f89fd8d"
+    },
+    {
+      "path": "tests/test_b1763_matter_kahler_metric_and_residual_flavour_pulls.py",
+      "git_blob": "a97c445aeb6ec26002dddb91288f9c785a378632",
+      "sha256": "f0697d6d77eb9a4071a64f29ea52fd84bfdf4e1cc193221404667268a900dd26"
+    },
+    {
+      "path": "tests/test_b1764_dynamical_modular_ground_state_and_tau_selection.py",
+      "git_blob": "51e0b5157e0de7137bab3040af29efe0cabd38cf",
+      "sha256": "701f86a33e4665c0d8b8266aa512c5722eecd70aa0735f978b4c18d9b1048db6"
+    },
+    {
+      "path": "tests/test_b1765_gauge_coupling_unification_and_modular_thresholds.py",
+      "git_blob": "f8a4dd4a1d5d218409dc6dcf1eed6cf8e5c9189f",
+      "sha256": "a7307cc202939e4e13b93304143cdcefc7ca148823b2be189185159793dd21a4"
+    },
+    {
+      "path": "tests/test_b1766_electroweak_scale_and_higgs_mass_from_modular_geometry.py",
+      "git_blob": "2ea40a4f7cf8945e07d8595ed6cd6fb48490cd13",
+      "sha256": "f1e8c99553ff67692c3b95523ba7c4eeefb2e0a5582b5c3466145120aac24a07"
+    },
+    {
+      "path": "frontier/B1762_zero_parameter_two_doublet_law_and_ten_observables/FINDINGS.md",
+      "git_blob": "74a2c5c86f4608fee7015d954dd39846746ddf1a",
+      "sha256": "5315a3a3c5dd2e391bcc57d344ac40dc1cd611781ddbebc248fcd2f01ca477de"
+    },
+    {
+      "path": "frontier/B1762_zero_parameter_two_doublet_law_and_ten_observables/arc_verdict.json",
+      "git_blob": "962a5302b56646aa6adde34240354296f0c4841c",
+      "sha256": "97c2d3fedd7a52bb5065b33ec5f28fbb2c6960b919ada9d04b85fafe7dec11a5"
+    },
+    {
+      "path": "frontier/B1754_genesis_v1_58/FINDINGS.md",
+      "git_blob": "20fc8ff435caa8ff3463f88c837b33cba3297a87",
+      "sha256": "a1cb2e8873efc9ba6b43c710b0296104b2fc1b1e34f8907d63a015f3e6ec7677"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/AGY_B1763_TO_B1766_AND_REPAIR_AUDIT_2026_10_27.md",
+      "sha256": "bac317db2bc6ed72869e0beb42b9458b59241dce09cf8986f98b0a6f1b296230"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_2026-10-27_B1763_B1766_AND_REPAIR_RESPONSE.md",
+      "sha256": "254bede97ff1adef730805f0d9c8b00474da903a783054bdcfbe08329c033d62"
+    }
+  ],
+  "scientific_execution": "NONE",
+  "verified_source_counterchecks": [
+    "Gauge inverse/forward roundtrip equals inputs identically",
+    "Higgs target-quartic reconstruction equals input Higgs mass identically",
+    "Alternative primitive length12 maxrun5 hyperbolic word with trace69",
+    "B1763 actual six-vector labels contradict reported labels; unchanged Yu with D10=I"
+  ],
+  "positives_retained": [
+    "Confirmed B1762 parity repair",
+    "Saved flavour/Kahler sensitivity improvement, not independently reproduced",
+    "Exact given-word arithmetic apex",
+    "Conditional inverse estimates of required thresholds/stop scale"
+  ],
+  "not_certified": [
+    "All19 SM parameters",
+    "Physically derived input reduction in B1763-B1766",
+    "Global modulus minimum or unique selected word",
+    "Reported1508test pass",
+    "Any complete physical action/spectrum/gravity model"
+  ]
+}
