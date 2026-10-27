@@ -1,0 +1,27 @@
+census: 147000 rows of (point, horocycle); 588 lines; apexes 125
+K1 per-line minima vs comparison.json: max |difference| 1.13e-11 over 588 lines
+K2 class minima: 2/5 3.0048102; 1/10 919.27; least other class 12/25 at 103.10; then 7/15 188.0, 2/15 227.5, 11/30 245.2, 13/30 266.6
+   other-slope lines below 16.75: 0; classes present: 26; lines per class: {'0': 14, '1/30': 30, '1/25': 25, '1/15': 15, '2/25': 25, '1/10': 20, '3/25': 25, '2/15': 15, '4/25': 25, '1/6': 24, '1/5': 30, '7/30': 30, '6/25': 25, '4/15': 15, '7/25': 25, '3/10': 20, '8/25': 25, '1/3': 12, '9/25': 25, '11/30': 30, '2/5': 30, '13/30': 30, '11/25': 25, '7/15': 15, '12/25': 25, '1/2': 8}
+   the 20 slope-1/10 lines' minima: 919.3 to 1105.6
+K3 slope-2/5 lines below 16.75: 12 of 30
+   order 25: 3/25 (14.58), 4/25 (5.38), 11/25 (5.38), 12/25 (14.58), 17/25 (9.20), 19/25 (8.30), 21/25 (8.30), 23/25 (9.20)
+   order 30: 1/6 (4.98), 13/30 (4.98), 23/30 (3.00), 5/6 (3.00)
+   mirror pairs b <-> 3/5 - b: 15 independent pairs, 6 carry the six; max relative difference within a pair 1.4e+00
+K4 chi2-best slope-2/5 row: line (2/5, 5/6) at 0.7308 + 3.0375i, L_max, readings (St, S, S), c = 3, chi2 3.004810
+   model over measured: 1.017, 1.164, 1.027, 0.830, 0.978, 0.989
+   rows within 1e-6 of it: [('2/5', '23/30', 0.2692, 3.0375, 'L_max', 3.004810248889026), ('2/5', '5/6', 0.7308, 3.0375, 'L_max', 3.004810248879566)]
+   the smallest worst factor on slope 2/5: 1.2046 at (2/5, 23/30) 0.2692 + 3.0375i L_max (chi2 there 3.0048)
+K5 random 30-line subsets as low: 22 of 200 (0.110); each contains one of the 2 tied best lines: 22 of 22
+   chance a random 30-line subset contains one of those lines 0.0995; contains any slope-2/5 line 0.8006
+K9 rows with a mirror partner (alpha, -alpha - b) at 1 - conj(tau): 131712 of 147000; max |delta ln| over the 12 ratios: readings kept 3.2e-07, readings swapped 1.2e+01
+K10 given 5 alpha in Z: alpha, ||3 alpha||, (e_up, e_down, e_lep), e_up/e_down
+   1/5: 2/5, (1/10, 1/5, 1/5), 1/2
+   2/5: 1/5, (3/10, 1/5, 1/5), 3/2
+   3/5: 1/5, (3/10, 1/5, 1/5), 3/2
+   4/5: 2/5, (1/10, 1/5, 1/5), 1/2
+   alpha in [0, 1) with denominator <= 120 giving (e_up, e_down) = (3/10, 1/5): ['1/10', '2/5', '3/5', '9/10']
+   measured ln(m_c/m_t) / ln(m_s/m_b) at M_Z (HZ2021): 1.4087; the two values five-ality allows: 1/2 and 3/2
+
+null set-up: data's class minima recomputed through the null's path: 2/5 3.0048102489 (direct 3.0048102489)
+prior lines (B1749 orders 1-12, B1755 orders 13, 14, 15, 20): 165500 rows, 41 classes, 12 of them present at 25/30
+   data: B1749's minimum 3.5737, B1755's 5.3303; prior argmin class 2/5 at 3.5737, runner-up 5/13 at 49.83

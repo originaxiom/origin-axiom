@@ -1,0 +1,5 @@
+    return (item for chunk in result for item in chunk)
+                              ^^^^^^
+  File "/usr/lib/python3.13/multiprocessing/pool.py", line 873, in next
+    raise value
+ValueError: cannot reshape array of size 0 into shape (0,newaxis)

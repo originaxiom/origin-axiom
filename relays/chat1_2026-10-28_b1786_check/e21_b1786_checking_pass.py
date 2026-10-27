@@ -126,7 +126,7 @@ def work(seed):
     T = draws(seed) / _G["s6"]
     dist, _ = _G["tree25"].query(T, k=1, distance_upper_bound=math.sqrt(_G["obs"] + 0.5))
     cand = np.flatnonzero(np.isfinite(dist))
-    cm = np.array([classmin_exact(T[j]) for j in cand]).reshape(len(cand), -1)
+    cm = np.array([classmin_exact(T[j]) for j in cand]) if len(cand) else np.zeros((0, len(_G["starts"])))
     pd, pi = _G["treeP"].query(T, k=1)
     pcls = _G["pcid"][pi % _G["nP"]]
     return seed, len(T), cand, cm, pd ** 2, pcls
