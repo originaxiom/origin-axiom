@@ -1,0 +1,22 @@
+M1 apexes on Re tau = 0: 8 (Im tau 2.291, 2.366, 2.550, 2.633, 2.708, 3.162, 3.416, 3.582)
+   form 1 - conj(tau), b -> -alpha - b     rows with a partner 131712; max |delta ln| over the 12 ratios 3.2e-07
+   form -conj(tau), b -> -b (Re tau = 0)   rows with a partner   9408; max |delta ln| over the 12 ratios 1.1e-08
+   rows with a partner under either form: 141120 of 147000
+M2 apexes closed under tau -> 1 - conj(tau): 112; on Re tau = 0: 8; with no partner under either form: 5 (0.0882 + 2.7347i, 0.2500 + 2.5617i, 0.5811 + 2.2025i, 0.6471 + 2.0880i, 0.7000 + 2.0712i)
+M3 the 15 pairs (2/5, b) <-> (2/5, 3/5 - b): minima over all apexes | over the closed apexes; where the lower sits
+     1/30  17/30  all:    32.037    55.838   closed:    55.838    55.838  lower at 0.0000 + 3.1623i
+     1/25  14/25  all:    26.867    64.284   closed:    64.284    64.284  lower at 0.0000 + 3.1623i
+     2/25  13/25  all:    27.837    27.837   closed:    27.837    27.837
+     3/25  12/25  all:    14.583    14.583   closed:    14.583    14.583
+     4/25  11/25  all:     5.382     5.382   closed:     5.382     5.382
+      1/6  13/30  all:     4.979     4.979   closed:     4.979     4.979
+     7/30  11/30  all:    48.690    40.552   closed:    48.690    48.690  lower at 0.0000 + 3.1623i
+     6/25   9/25  all:    31.119    31.119   closed:    31.119    31.119
+     7/25   8/25  all:    27.321    27.321   closed:    27.321    27.321
+    19/30  29/30  all:    25.997    25.997   closed:    25.997    25.997
+    16/25  24/25  all:    21.382    21.382   closed:    21.382    21.382
+    17/25  23/25  all:     9.200     9.200   closed:     9.200     9.200
+    18/25  22/25  all:    39.929    43.418   closed:    50.919    50.919  lower at 0.0000 + 3.1623i
+    19/25  21/25  all:     8.305     8.305   closed:     8.305     8.305
+    23/30    5/6  all:     3.005     3.005   closed:     3.005     3.005
+e21b exit 0
