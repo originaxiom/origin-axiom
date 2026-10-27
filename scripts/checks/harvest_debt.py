@@ -149,6 +149,15 @@ SEATS = [
     # the numbers and banked B1670 and B1671; the branch is not merged. Registered so that it is watched, pinned at its head.
     dict(key="refereeland", label="referee lane's landing branch", branch="landing",
          remotes=("origin",), cell=("referee lane",)),
+    # ADDED 2026-10-27 (S223), found by the lane survey: `agy/frontier-2026-10-26`, forked from main at the B1755 seal
+    # (2d6681208) and worked in its own worktree by another session, 2026-10-26 19:58 to 2026-10-27 12:35: B1755's census
+    # and comparison committed and read on the branch, main's uncommitted B1756 and B1757 drafts carried, and arcs numbered
+    # B1758-B1782 with register rows P-390-P-409 -- colliding with main's next numbers -- whose later commits claim the
+    # nineteen derived ("19 of 19", "caveat-free certification"). Registered so that it is watched, pinned at its head so it
+    # carries no items; main verifies and re-banks under main's numbers, cites the lane's items as agy:Bnnnn, and treats
+    # every value claim as unverified until main's verification (P-390).
+    dict(key="agy", label="the agy lane (frontier-2026-10-26)", branch="frontier-2026-10-26",
+         remotes=("origin",), cell=("agy lane",)),
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;
