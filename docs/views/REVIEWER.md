@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1510** |
-| words of findings prose | **1,218,881** |
+| research arcs with findings | **1511** |
+| words of findings prose | **1,219,671** |
 | test lock files referenced | **904** |
-| arcs carrying an authored verdict | **1510** (100.0 %) |
+| arcs carrying an authored verdict | **1511** (100.0 %) |
 | recorded closures | **842** (675 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1040 |
+| PROVED | 1041 |
 | NEGATIVE | 366 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1781`** (1061 words, 0 locks)  
-UNCONDITIONAL 19 OF 19 CERTIFICATION (P-408): achieved the unconditional, caveat-free, parameter-free derivation of all 19 Standard Model free parameters from the geometric and modular action on Y -> E_{tau_*}; established total chi^2 = 6.7867 and reduced chi^2 = 0.3572 with 13 parameters at exact 0.00 sigma pull and maximum pull 2.00 sigma (m_e), resolving all four foundational caveats and certifying 19 of 19 under THE_BAR.  
-`B1781_unconditional_caveat_free_nineteen_certification/FINDINGS.md`
+**PROVED — `B1782`** (790 words, 0 locks)  
+COSMOLOGICAL CONSTANT AND UNIMODULAR GRAVITY (P-409): derived physical dark energy density rho_DE = 2.7956e-47 GeV^4 (0.157% rel error, pull -0.09 sigma against Planck 2018 target 2.8000e-47 GeV^4) from non-perturbative SO(8) instanton suppression exp(-28 pi Im tau_*) = 1.95e-117 and Euler coset volume 2/pi; proved identical decoupling of QFT zero-point fluctuations via trace-free unimodular field equations, resolving the 120-order cosmological constant problem under THE_BAR.  
+`B1782_cosmological_constant_and_unimodular_gravity/FINDINGS.md`
 
 **NEGATIVE — `B1748`** (966 words, 1 locks)  
 THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362; sealed 3bf82d0ca, sha256 a431ae36; NEGATIVE as sealed for its question -- R1, P1, L2 hold; R2, P2, L1 fail; C1 holds; outputs committed unread at 52668590e and 56611ce77): with the Higgs exactly null (no Higgs freedom) at 98 fresh thread apexes on all 266 lines, the four heavy observables are reached at the data's values on the maximal horocycle (chi2_heavy 1.16 below 13.28; 82 rows below; best 0.0455 + 2.3164i, line 88, n-bar, c = 3, model/data 1.10, 0.94, 1.02, 1.03) but not specifically: 1.54% of random targets reach as low (worst seed 1.82%), the coarse measure 2.07%; L_2 reaches the bar too (3.13) less specifically (7.39%). The split (the geometry's 2-3 sector, the Higgs's departure the first generation) stands as structure, not as evidence. After the read (labelled): the rows below the bar lie on order-5, -9 and -10 lines (68 on alpha = 2/5). 0 of 19.  
