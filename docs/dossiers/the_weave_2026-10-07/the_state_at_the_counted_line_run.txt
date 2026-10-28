@@ -1,0 +1,23 @@
+height 1/17 at 6 s
+height 2/17 at 12 s
+height 3/17 at 17 s
+height 4/17 at 23 s
+height 5/17 at 29 s
+height 6/17 at 35 s
+height 7/17 at 41 s
+height 8/17 at 46 s
+height 9/17 at 52 s
+height 10/17 at 58 s
+height 11/17 at 63 s
+height 12/17 at 69 s
+height 13/17 at 74 s
+height 14/17 at 80 s
+height 15/17 at 86 s
+height 16/17 at 91 s
+height 17/17 at 97 s
+{
+ "S0": true,
+ "S1": false,
+ "S2": false,
+ "S3": true
+}
