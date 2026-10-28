@@ -1249,6 +1249,18 @@ def gate_doc_currency():
     return True, "ok"
 
 
+def gate_doc_facts():
+    """P-417 (the owner's question of 2026-10-28) -- a front page must not state a current fact its source contradicts;
+    doc-currency measures recency and cannot see a stale banner beside a fresh citation."""
+    import subprocess
+    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "doc_facts.py")],
+                       capture_output=True, text=True)
+    out = (r.stdout + r.stderr).strip()
+    if r.returncode != 0:
+        return False, out.replace("\n", " | ")[:400]
+    return True, "ok"
+
+
 def gate_representation_sweep():
     """Every SUBSTANTIAL banked arc cited on no synthesis surface must carry a disposition
     in docs/REPRESENTATION_TRIAGE.md (PENDING / PROCESS / SURFACE)."""
@@ -1708,6 +1720,7 @@ GATES = {
     "retraction-sweep": gate_retraction_sweep,
     "representation-sweep": gate_representation_sweep,
     "doc-currency": gate_doc_currency,
+    "doc-facts": gate_doc_facts,
     "relay-debt": gate_relay_debt,
     "retraction-debt": gate_retraction_debt,
     "harvest-debt": gate_harvest_debt,

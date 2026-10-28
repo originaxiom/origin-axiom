@@ -18040,3 +18040,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - Spin(10)'s centre is matter parity and survives every flat breaking, but in Witten's G₂ frame it dies at the U(1)_X breaking and Witten's doublet–triplet mechanism fails with real Higgs 10's; the first towers test fails in this frame. Refereed hostile; the draft's "trade" withdrawn. 0 of 19.
 - The 21-day ratchets: eight relays of 2026-10-07 and lead L250 escalated by name (Review 72's intake).
 - **Landing suite (S240).** 7 839 passed, 68 skipped, 2 failed in 33:55 — B805's two standing attachment locks (P-239).
+
+## 2026-10-29 — S241 THE FIRST DOCUMENT GATE (doc-facts; P-417)
+
+- A front page may not state a current fact its source contradicts; first fact the GENESIS version; the README's banner fixed (a current banner on top, the narrative owed to the next review). 0 of 19.
+- **Landing suite (S241).** 7 842 passed, 68 skipped, 2 failed in 26:59 — B805's two standing attachment locks (P-239).

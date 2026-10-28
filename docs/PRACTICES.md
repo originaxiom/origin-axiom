@@ -586,6 +586,20 @@ the board), `CLAIMS.md` (129), `docs/THEOREM_LEDGER.md` (63), `docs/GUT_REQUIREM
 **Where the rest of the obligation lives:** `docs/BANKING_PROTOCOL.md` — the full banking checklist,
 the independent-verification requirement, and the decadal review's room-by-room currency reading.
 
+## A front page states no current fact its source contradicts — GATED (`doc-facts`)
+
+**The rule.** A present-tense statement of a fact on a front page must match the fact's source. The front pages are
+README, ROADMAP, MAIN_GOAL, INDEX, CAMPAIGN_STATUS and MASTERPLAN. The first fact checked is the GENESIS version: "`GENESIS.md` is at
+vX.Y" against GENESIS's own header. Past-tense and dated mentions are history and are not checked. Facts are added to the
+checker; its patterns are never weakened.
+
+**Why it exists.** `doc-currency` measures recency and cannot see a stale statement next to a fresh citation. The README
+cited B1792 while its opening banner said "`GENESIS.md` is at v1.14", three weeks after v1.59. The owner asked on
+2026-10-28 how every document is kept current (P-417). The split adopted the same day: facts are fixed at each landing,
+by script and a one-line edit, and prose at each decadal review.
+
+**The failing path:** `tests/test_doc_facts.py` (registered in `tests/GATE_CONTROLS.json`).
+
 ## Never mutate the tree while the suite is running — MANUAL (a discipline, not a gate)
 
 **The rule.** Once a full `pytest` run starts, the working tree is **frozen** until it returns. No

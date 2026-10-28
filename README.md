@@ -1,6 +1,11 @@
 # Origin Axiom
 
-> **State — 2026-10-07 (B1484).** `GENESIS.md` is at v1.14. On the family the principle generates, a seat for a fermion's hand is
+> **State — 2026-10-29 (B1805).** `GENESIS.md` is at v1.59. **Derived Standard-Model parameters: 0 of 19.** The current
+> state is kept in `docs/CAMPAIGN_STATUS.md` (its LATEST entries) and the open questions in `docs/POINT_REGISTER.md`; the
+> narrative below is owed a rewrite at the next decadal review (P-417, the owner's split: facts fixed at each landing,
+> prose at the reviews). The banners that follow are kept as written.
+
+> **State — 2026-10-07 (B1484).** `GENESIS.md` was then at v1.14. On the family the principle generates, a seat for a fermion's hand is
 > located — the **−** word states, where no spin structure survives a mirror — and those states are exactly what one
 > rule the genesis marks as *chosen* (positivity) removes. The two nearest approaches to physics, the chirality count and
 > the weak mixing angle, wait on one missing object: a frame in which matter is counted by an index. **Derived
