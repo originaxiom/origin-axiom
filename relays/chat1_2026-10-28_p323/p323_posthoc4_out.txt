@@ -1,0 +1,59 @@
+S1 C0(f) recomputed: 360 checks, 0 failing, worst deviation 2.55e-12, worst deviation/tolerance 0.0045 (the cells: 360, 0, 2.6e-12, 0.0045)
+   sigma / deviation: minimum 22.2, median 1493 (2 checks with deviation exactly 0); checks where 1e-12 > 10 sigma: 0
+S2 C0(e), frozen (S, S), the noise estimate divided by k:
+   k = 1     HARMONIC 189 of 5603 with a reading (3.4%)
+   k = 20    HARMONIC 697 of 5800 with a reading (12.0%)
+   k = 100   HARMONIC 1985 of 5800 with a reading (34.2%)
+   k = 1000  HARMONIC 4529 of 5800 with a reading (78.1%)
+S3 frozen (S, S), valid centres by |D(r2)| / sigma_D: count; D(r1)/D(r2) at the 10th, 50th, 90th percentiles; classes
+   [0, 0.001):   1822; 47.36 63.92 71.62; {'U': 125, 'H': 35, 'Un': 1662}
+   [0.001, 0.01):   2424; 63.43 64.01 64.55; {'U': 599, 'H': 119, 'Un': 1706}
+   [0.01, 0.1):   5543; 63.94 64.00 64.05; {'U': 1807, 'H': 523, 'Un': 3213}
+   [0.1, 1):   9675; 63.99 64.00 64.01; {'U': 4069, 'H': 762, 'Un': 4844}
+   [1, 10):   9033; 64.00 64.00 64.00; {'U': 6180, 'H': 693, 'Un': 2160}
+   [10, 100):   3864; 64.00 64.00 64.00; {'U': 2808, 'Un': 1056}
+   [100, inf):   2467; 63.91 64.00 64.05; {'U': 2, "H'": 1842, 'Un': 623}
+S4 the twelve lines where theta_M is HARMONIC, over all 6 x 13 stencil points and both sectors:
+   (1/6, 1/12): c_1 - c_j from -59.28 to -36.80; max |c_1 - c_i| 5.7e-14, max |c_j - c_k| 1.1e-11
+   (1/6, 1/4): c_1 - c_j from -59.28 to -36.80; max |c_1 - c_i| 4.3e-14, max |c_j - c_k| 1.1e-11
+   (1/6, 5/12): c_1 - c_j from -59.28 to -36.80; max |c_1 - c_i| 5.7e-14, max |c_j - c_k| 1.1e-11
+   (1/6, 7/12): c_1 - c_j from -59.28 to -36.80; max |c_1 - c_i| 7.1e-14, max |c_j - c_k| 1.1e-11
+   (1/6, 3/4): c_1 - c_j from -59.28 to -36.80; max |c_1 - c_i| 5.7e-14, max |c_j - c_k| 1.1e-11
+   (1/6, 11/12): c_1 - c_j from -59.28 to -36.80; max |c_1 - c_i| 5.7e-14, max |c_j - c_k| 1.1e-11
+   (1/3, 1/12): c_1 - c_j from +36.80 to +59.28; max |c_1 - c_i| 2.4e-13, max |c_j - c_k| 1.2e-12
+   (1/3, 1/4): c_1 - c_j from +36.80 to +59.28; max |c_1 - c_i| 2.0e-13, max |c_j - c_k| 1.4e-12
+   (1/3, 5/12): c_1 - c_j from +36.80 to +59.28; max |c_1 - c_i| 3.8e-13, max |c_j - c_k| 1.2e-12
+   (1/3, 7/12): c_1 - c_j from +36.80 to +59.28; max |c_1 - c_i| 5.3e-13, max |c_j - c_k| 1.2e-12
+   (1/3, 3/4): c_1 - c_j from +36.80 to +59.28; max |c_1 - c_i| 2.6e-13, max |c_j - c_k| 1.4e-12
+   (1/3, 11/12): c_1 - c_j from +36.80 to +59.28; max |c_1 - c_i| 8.5e-13, max |c_j - c_k| 1.1e-12
+   family slope 1/6: c_1 - c_j from -59.28 to -36.80 (sign fixed: True); pairing precision at most 1.1e-11
+   family slope 1/3: c_1 - c_j from +36.80 to +59.28 (sign fixed: True); pairing precision at most 1.4e-12
+S5 the D-wrap, per quantity: valid centres; those with a point whose per-factor sum exceeds pi; the largest |sum|; class changes; verdict changes
+   ('Y', 'St,S', 0)           valid  16998; past pi     0 (0.0%); largest 1.74 rad; class changes   0; verdict changes 0
+   ('Y', 'St,S', 1)           valid  16684; past pi     0 (0.0%); largest 1.76 rad; class changes   0; verdict changes 0
+   ('Y', 'S,St', 0)           valid  16993; past pi     0 (0.0%); largest 1.77 rad; class changes   0; verdict changes 0
+   ('Y', 'S,St', 1)           valid  16704; past pi     0 (0.0%); largest 1.64 rad; class changes   0; verdict changes 0
+   ('Y', 'S,S', 0)            valid  14612; past pi  1569 (10.7%); largest 4.62 rad; class changes   1; verdict changes 0
+   ('Y', 'S,S', 1)            valid  14285; past pi  1543 (10.8%); largest 4.62 rad; class changes   2; verdict changes 0
+   ('Y', 'St,St', 0)          valid  14633; past pi  1508 (10.3%); largest 4.29 rad; class changes   8; verdict changes 0
+   ('Y', 'St,St', 1)          valid  14337; past pi  1502 (10.5%); largest 4.29 rad; class changes   6; verdict changes 0
+   ('Yf', 'St,S', 0)          valid  16987; past pi     0 (0.0%); largest 1.62 rad; class changes   0; verdict changes 0
+   ('Yf', 'St,S', 1)          valid  16680; past pi     0 (0.0%); largest 1.75 rad; class changes   0; verdict changes 0
+   ('Yf', 'S,S', 0)           valid  17445; past pi  1701 (9.8%); largest 4.26 rad; class changes   0; verdict changes 0; N with per-factor sums (C0(d)): 0
+   ('Yf', 'S,S', 1)           valid  17383; past pi  1684 (9.7%); largest 4.26 rad; class changes   2; verdict changes 0; N with per-factor sums (C0(d)): 0
+   ('H', 0)                   valid  16998; past pi     0 (0.0%); largest 1.61 rad; class changes   0; verdict changes 0
+   ('H', 1)                   valid  16684; past pi     0 (0.0%); largest 1.58 rad; class changes   0; verdict changes 0
+   ('M',)                     valid   1740; past pi     0 (0.0%); largest 0.79 rad; class changes   0; verdict changes 0
+S6 H2's 136 exceptions by slope, then Higgs (pairs passing 2697 of 2833; 95% needs 2692):
+   0: {'F_14': 2, 'F_22': 2}
+   1/12: {'F_-10': 6}
+   1/6: {'F_14': 12, 'F_18': 12, 'F_22': 12, 'F_26': 12}
+   2/9: {'F_-10': 1}
+   1/4: {'F_-10': 9}
+   3/11: {'F_-10': 11}
+   2/7: {'F_-10': 4}
+   1/3: {'F_14': 6, 'F_18': 6, 'F_22': 6, 'F_26': 6}
+   5/12: {'F_-10': 5}
+   1/2: {'F_14': 6, 'F_18': 6, 'F_22': 6, 'F_26': 6}
+S7 H1's 219 UNDETERMINED by (norms equal in pairs on the line, theta_M's verdict on the line): {'no pairs / NOT HARMONIC': 5, 'pairs / HARMONIC': 49, 'pairs / UNDETERMINED': 165}; lines with pairs: 54
+p323 posthoc4 exit 0
