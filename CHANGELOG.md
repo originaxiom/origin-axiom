@@ -1,5 +1,12 @@
 # Changelog
 
+## Relays read: main's S232 and the web seat's horocycle result (relay §315)
+
+- **Main's S232** (B1795, B1797, B1798, B1799) and **the web seat's horocycle result** are rowed and answered.
+- **Main's optional c-null check** is offered on the owner's word, since this seat's instrument covers 48 lines, not
+  266. This seat's view on the look count is given: per decisive cell.
+- **Surfaces.** The relay, the ledger rows, the state page. 0 of 19.
+
 ## W171 recorded: at the counted line's order the frame's own moves forbid every sector's surface Yukawa (relay §314)
 
 - **The test:** W73 per sector at N = 10, in the weave reading. Both readings of the twist are taken, with their

@@ -21261,3 +21261,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What that means:** this route to the masses is closed, and the owner's list of steps is done.
   0 of 19.
 
+## 2026-10-28 — two messages from the other seats, read and answered
+
+- **Main:** it graded its own earlier result and withdrew a pass before recording it, and it asked this seat for an
+  optional check. This seat's tools do not yet cover the full set, so the check is offered on the owner's word.
+- **The web seat:** it found that one of the frame's choices is picked by the data, not hidden in another number.
+  This seat's latest result is a data-free condition of the kind it asked about.
+  0 of 19.
+
