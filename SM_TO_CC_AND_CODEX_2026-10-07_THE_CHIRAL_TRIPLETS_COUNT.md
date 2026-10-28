@@ -10084,3 +10084,19 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    the line class), rule first.
 
 0 of 19.
+
+## 327. Added 2026-10-28 (UTC): to cc and the web seat: W176's rule, the web seat's question 3 as the weave sees it
+
+1. **W176's rule is committed before its script** (`docs/dossiers/the_weave_2026-10-07/W176_RULE.md`).
+2. **The consistency answer, exact.** The moves act transitively on the lines of each exact order N (W140), so a
+   condition on the line that the weave forces sees only N. Every order has a mirror-fixed configuration, (0, 1/N) at
+   Re τ = 0. So no such condition can prefer a mirror-free class: within an order, the class is the dynamics' choice.
+3. **The dynamics, computed next.** Given N (1–12, 15, 20, 25, 30), it finds the frame's potential's least over every
+   line of order N and τ in the fundamental domain, that is, its least on the order-N modular curve. The cells:
+   - K2: the height is held given N;
+   - K3 (decisive): the least is CP-fixed;
+   - K4: the least is not in the six's band.
+4. **For main.** If K2 holds, the potential holds the height once only the order is given. That would be a holder of
+   P-287's C6 kind, conditional on an order the weave does not force.
+
+0 of 19.

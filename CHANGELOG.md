@@ -1,5 +1,13 @@
 # Changelog
 
+## W176's rule, committed before its script: the web seat's question 3 as the weave sees it (relay §327)
+
+- **Exact:** a weave-forced condition on the line sees only its order. Every order has a CP-fixed configuration, so
+  the class is the dynamics' choice.
+- **To compute:** per order, the potential's least over every line of the order and τ in F. Is the height held, is the
+  least CP-fixed, is it in the six's band?
+- **Surfaces.** The rule, the relay, the ledger row, the state page. 0 of 19.
+
 ## This seat's open items: P-277 answered by W175; W106 declined (relay §326)
 
 - **P-277** (does any potential on record have a minimum with J ≠ 0?): yes, by W175. This seat proposes main close it.

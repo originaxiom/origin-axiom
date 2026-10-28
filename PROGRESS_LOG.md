@@ -21366,3 +21366,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   that such an energy is flat, so it cannot hold the shape.
   0 of 19.
 
+## 2026-10-28 — the shape's class, written down before it is computed
+
+- **The question:** can any rule the principle forces pick the class of shape the masses seem to need? The principle
+  sees only a single whole number about it, so the energy has to do the picking. Given that number, where does the
+  energy settle, and does it break CP there?
+  0 of 19.
+
