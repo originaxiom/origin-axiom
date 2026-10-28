@@ -87,3 +87,7 @@ The census ran about 32 minutes; nothing was read before the commits.
 Two stale docstrings in the sealed instruments, found by the SM seat while reading them for W157: census.py's apexes() says
 "words of length 12" where the code takes length 13, and compare.py's _load says 33 250 rows where it asserts 10 704. The
 code is what ran; neither slip changes a computation. The sealed files are not edited.
+
+## Dated note (2026-10-28, S238; the web seat's THE EXACT END, reproduced on main)
+
+This arc's L_max is the small-cut norm 2πL + c_s evaluated at L = L_max(Im τ) (B1726's compute()), not the maximal horoball's exact norm. At L_max the exact twisted norms lie 35–38% below it, and with them the six fail near the four families' rows (RETRACTIONS; P-421). Nothing else in this arc changes.

@@ -124,3 +124,15 @@ question?"
 - It is not one of the 19, so the count stays 0 of 19. It is one more discrete input the object does not yet supply.
 
 **0 of 19.**
+
+## Dated note (2026-10-28, S238; the web seat's THE TWO W's, harvest row 1464)
+
+- **W sits in two places on the record, and they do not meet on the object.**
+  - B1802's order-2 W runs along the base and leaves the frame's fibre line trivial.
+  - No flat SU(5) bundle on the figure-eight complement gives the frame's SU(5)-breaking fibre line.
+- **What this withdraws.** Main had noted (in conversation) that the counted class's b-holonomy contains diag(1, 1, 1, −1, −1),
+  B1802's W. That is the same parity in form, but on a different cycle: a coincidence of form, not a link.
+- **The ways out** are the seat's (a)–(d); (d) is a non-flat connection whose curvature nothing yet fixes (P-424).
+- **The bearing on § 5's reading.** The towers' meeting places offered by B1803 live along the base of the G₂ frame,
+  not in the fibre frame where the six were fitted.
+

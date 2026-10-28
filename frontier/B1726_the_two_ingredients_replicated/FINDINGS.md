@@ -124,3 +124,7 @@ and Saad (P-094's double ratio); out-of-sample replication with the selection co
   The nine fail (χ²_nine 109). The first row on main below the bar; post hoc, τ fitted; the third opinion is P-342.
 - **W138's labelled A3** (every covariant reading, the factor free) reproduced on main's own code: 3.365% for the six (W138: 3.37%),
   so under that menu the coarse specificity does not survive. P-304 DONE.
+
+## Dated note (2026-10-28, S238; the web seat's THE EXACT END, reproduced on main)
+
+This arc's L_max is the small-cut norm 2πL + c_s evaluated at L = L_max(Im τ) (B1726's compute()), not the maximal horoball's exact norm. At L_max the exact twisted norms lie 35–38% below it, and with them the six fail near the four families' rows (RETRACTIONS; P-421). Nothing else in this arc changes.

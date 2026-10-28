@@ -18024,3 +18024,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - B1803: four F′-fixed points with characters by p mod 4; the first model needs coincident multiplets (4 or 7 at one point); refereed hostile, the draft's NEGATIVE overturned. docs/THE_TOWERS.md written at the owner's ask. P-416–P-420 registered from the owner's questions. 0 of 19.
 - **Landing suite (S237).** 7 833 passed, 68 skipped, 2 failed in 37:04 — B805's two standing attachment locks (P-239).
+
+## 2026-10-28 — S238 THE SEATS HARVESTED (rows 1457–1466); THE EXACT END REPRODUCED ON MAIN
+
+- The six's L_max rows are fits of the small-cut formula at L_max's height; the exact norms there are 35–38% lower and the six fail near the families' rows (RETRACTIONS; P-421). The counted class characterised, not derived (P-422); THE TWO W's (P-424); the web seat's audit (P-423); P-419's first computation (a curve, never a point). 0 of 19.
+- **Landing suite (S238).** 7 833 passed, 68 skipped, 2 failed in 41:47 — B805's two standing attachment locks (P-239).

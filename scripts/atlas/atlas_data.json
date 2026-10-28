@@ -13441,7 +13441,9 @@
     "figure_eight",
     "amphichiral_cp"
    ],
-   "refs": [],
+   "refs": [
+    "S238"
+   ],
    "obstacle": "particle_dict",
    "obstacle_conf": 8,
    "status": "banked",
@@ -13723,7 +13725,8 @@
     "P3",
     "P4",
     "S216",
-    "S217"
+    "S217",
+    "S238"
    ],
    "obstacle": "measure",
    "obstacle_conf": 5,
@@ -13850,7 +13853,8 @@
    ],
    "refs": [
     "P1",
-    "P2"
+    "P2",
+    "S238"
    ],
    "obstacle": "measure",
    "obstacle_conf": 4,
@@ -13953,7 +13957,8 @@
    ],
    "refs": [
     "P1",
-    "P2"
+    "P2",
+    "S238"
    ],
    "obstacle": "measure",
    "obstacle_conf": 3,
@@ -14174,7 +14179,8 @@
    ],
    "refs": [
     "P1",
-    "S227"
+    "S227",
+    "S238"
    ],
    "obstacle": "measure",
    "obstacle_conf": 19,

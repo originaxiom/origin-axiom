@@ -186,3 +186,6 @@ the web seat's checking pass, the SM seat): **not PASSED, on the gate, a READING
 Its read of the offsets (post hoc, labelled): at the strip points the six is nearly a function of 3 Re w, and the carriers
 recur under b → b + 1/3 across orders. That is registered as P-399, a sealable prediction for order 60.
 
+## Dated note (2026-10-28, S238; the web seat's THE EXACT END, reproduced on main)
+
+This arc's L_max is the small-cut norm 2πL + c_s evaluated at L = L_max(Im τ) (B1726's compute()), not the maximal horoball's exact norm. At L_max the exact twisted norms lie 35–38% below it, and with them the six fail near the four families' rows (RETRACTIONS; P-421). Nothing else in this arc changes.

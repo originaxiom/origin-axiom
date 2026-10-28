@@ -113,3 +113,7 @@ bearing on it B1720, B1722, B1733, B1734, B1735 and P-347. **Literature:** as th
 - Post hoc (labelled): `verification/c1_diagnosis.py` → `c1_diagnosis.json`, `c1_diagnosis_run.txt`; `verification/posthoc_read.py`
   → `posthoc_read_run.txt`.
 - The lock: `tests/test_b1741_tau_from_the_thread_rule_the_line_free.py`.
+
+## Dated note (2026-10-28, S238; the web seat's THE EXACT END, reproduced on main)
+
+This arc's L_max is the small-cut norm 2πL + c_s evaluated at L = L_max(Im τ) (B1726's compute()), not the maximal horoball's exact norm. At L_max the exact twisted norms lie 35–38% below it, and with them the six fail near the four families' rows (RETRACTIONS; P-421). Nothing else in this arc changes.
