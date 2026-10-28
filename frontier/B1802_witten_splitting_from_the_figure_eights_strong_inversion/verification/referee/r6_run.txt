@@ -1,0 +1,6 @@
+Q = m004(8,1): ('Z/8', 1.583166661, None, [0.278891, 0.920914, 1.298217, 1.394455, 1.471495])
+  P-quotient L6a2[(2,0),(8,2)]   Sigma_2: ('Z/8', 1.583166661, None, [0.278891, 0.920914, 1.298217, 1.394455, 1.471495]) | isometric trials [True, True, True, True, True, True]
+  P-quotient L6a2[(2,0),(8,2)]   Sigma_2: ('Z/40', 1.583166661, None, [0.278891, 0.735747, 0.893181, 0.920914, 1.298217]) | isometric trials [False, False, False, False, False, False]
+  L10n55                         Sigma_2: ('Z/40', 1.583166661, None, [0.278891, 0.735747, 0.893181, 0.920914, 1.298217]) | isometric trials [False, False, False, False, False, False]
+  K9n7                           Sigma_2: ('Z/3 + Z/9', 1.583166661, None, [0.777494, 0.920914, 1.115564]) | isometric trials [False, False, False, False, False, False]
+  K11n118                        Sigma_2: ('Z/21', 1.583166661, None, [0.557782, 0.777494, 0.920914, 1.115564, 1.146735, 1.298217]) | isometric trials [False, False, False, False, False, False]

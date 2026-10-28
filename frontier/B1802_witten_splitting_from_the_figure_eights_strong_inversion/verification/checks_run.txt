@@ -1,0 +1,17 @@
+Delta(-1) = -5.0 | W = diag(1,1,1,-1,-1): det 1
+  m004( 6, 1): vol 1.284485 H1 Z/6    | order-2 |tau| 1.2500 | 2-fold cover |H1| [15] (5p/2 = 15) | H1(Q;Z/2) rank 1 -> sum dim H_*(Q;Z/2) = 4 | Sym Z/2 + Z/2
+  m004( 8, 1): vol 1.583167 H1 Z/8    | order-2 |tau| 1.2500 | 2-fold cover |H1| [20] (5p/2 = 20) | H1(Q;Z/2) rank 1 -> sum dim H_*(Q;Z/2) = 4 | Sym Z/2 + Z/2
+  m004(10, 1): vol 1.730338 H1 Z/10   | order-2 |tau| 1.2500 | 2-fold cover |H1| [25] (5p/2 = 25) | H1(Q;Z/2) rank 1 -> sum dim H_*(Q;Z/2) = 4 | Sym Z/2 + Z/2
+  m004( 2, 3): vol 1.737124 H1 Z/2    | order-2 |tau| 1.2500 | 2-fold cover |H1| [5] (5p/2 = 5) | H1(Q;Z/2) rank 1 -> sum dim H_*(Q;Z/2) = 4 | Sym Z/2 + Z/2
+  m004( 4, 3): vol 1.757126 H1 Z/4    | order-2 |tau| 1.2500 | 2-fold cover |H1| [10] (5p/2 = 10) | H1(Q;Z/2) rank 1 -> sum dim H_*(Q;Z/2) = 4 | Sym Z/2 + Z/2
+  m004(12, 1): vol 1.815119 H1 Z/12   | order-2 |tau| 1.2500 | 2-fold cover |H1| [30] (5p/2 = 30) | H1(Q;Z/2) rank 1 -> sum dim H_*(Q;Z/2) = 4 | Sym Z/2 + Z/2
+  m004( 8, 3): vol 1.824344 H1 Z/8    | order-2 |tau| 1.2500 | 2-fold cover |H1| [20] (5p/2 = 20) | H1(Q;Z/2) rank 1 -> sum dim H_*(Q;Z/2) = 4 | Sym Z/2 + Z/2
+  m004(10, 3): vol 1.859989 H1 Z/10   | order-2 |tau| 1.2500 | 2-fold cover |H1| [25] (5p/2 = 25) | H1(Q;Z/2) rank 1 -> sum dim H_*(Q;Z/2) = 4 | Sym Z/2 + Z/2
+  m004(14, 1): vol 1.868557 H1 Z/14   | order-2 |tau| 1.2500 | 2-fold cover |H1| [35] (5p/2 = 35) | H1(Q;Z/2) rank 1 -> sum dim H_*(Q;Z/2) = 4 | Sym Z/2 + Z/2
+  m004(16, 1): vol 1.904396 H1 Z/16   | order-2 |tau| 1.2500 | 2-fold cover |H1| [40] (5p/2 = 40) | H1(Q;Z/2) rank 1 -> sum dim H_*(Q;Z/2) = 4 | Sym Z/2 + Z/2
+  m004(14, 3): vol 1.915331 H1 Z/14   | order-2 |tau| 1.2500 | 2-fold cover |H1| [35] (5p/2 = 35) | H1(Q;Z/2) rank 1 -> sum dim H_*(Q;Z/2) = 4 | Sym Z/2 + Z/2
+  m004( 2, 5): vol 1.919520 H1 Z/2    | order-2 |tau| 1.2500 | 2-fold cover |H1| [5] (5p/2 = 5) | H1(Q;Z/2) rank 1 -> sum dim H_*(Q;Z/2) = 4 | Sym Z/2 + Z/2
+order-2 torsion 5/4 and the cover orders 5p/2 on all 59 listed fillings: True
+  control p odd m004(3,2): H1 Z/3, Z/2 rank 0 -> sum dim H_*(Q;Z/2) = 2 (at most one fixed circle)
+  control p odd m004(5,1): H1 Z/5, Z/2 rank 0 -> sum dim H_*(Q;Z/2) = 2 (at most one fixed circle)
+checks exit 0

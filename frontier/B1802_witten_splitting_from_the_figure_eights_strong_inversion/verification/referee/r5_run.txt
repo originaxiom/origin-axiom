@@ -1,0 +1,20 @@
+(a) P's quotient
+  m004(6,1): L6a2[(2,0),(6,2)] vol 0.642243 = vol(Q)/2 0.642243; cover isometric to Q: True (all-(1,0) covers: [True]); gcd(p,2q) = 2 -> fixed circles of P: 2
+  m004(8,1): L6a2[(2,0),(8,2)] vol 0.791583 = vol(Q)/2 0.791583; cover isometric to Q: True (all-(1,0) covers: [True, False]); gcd(p,2q) = 2 -> fixed circles of P: 2
+  m004(2,3): L6a2[(2,0),(2,6)] vol 0.868562 = vol(Q)/2 0.868562; cover isometric to Q: True (all-(1,0) covers: [True]); gcd(p,2q) = 2 -> fixed circles of P: 2
+  m004(4,3): L6a2[(2,0),(4,6)] vol 0.878563 = vol(Q)/2 0.878563; cover isometric to Q: True (all-(1,0) covers: [False, True]); gcd(p,2q) = 2 -> fixed circles of P: 2
+  m004(10,3): L6a2[(2,0),(10,6)] vol 0.929994 = vol(Q)/2 0.929994; cover isometric to Q: True (all-(1,0) covers: [True]); gcd(p,2q) = 2 -> fixed circles of P: 2
+  m004(6,5): L6a2[(2,0),(6,10)] vol 0.964334 = vol(Q)/2 0.964334; cover isometric to Q: True (all-(1,0) covers: [True]); gcd(p,2q) = 2 -> fixed circles of P: 2
+  m004(5,1): L6a2[(2,0),(5,2)] vol 0.490684 = vol(Q)/2 0.490684; cover isometric to Q: True (all-(1,0) covers: [True]); gcd(p,2q) = 1 -> fixed circles of P: 1
+  m004(3,2): L6a2[(2,0),(3,4)] vol 0.720350 = vol(Q)/2 0.720350; cover isometric to Q: True (all-(1,0) covers: [True]); gcd(p,2q) = 1 -> fixed circles of P: 1
+  m004(7,1): L6a2[(2,0),(7,2)] vol 0.731888 = vol(Q)/2 0.731888; cover isometric to Q: True (all-(1,0) covers: [True]); gcd(p,2q) = 1 -> fixed circles of P: 1
+(b) P-equivariant Z/2 bundles: local actions (rho(m_A), rho(m_C)) of every rho restricting to chi on pi1(Q)
+  m004(6,1): |Hom(H1^orb, Z/2)| = 4; rho nontrivial on pi1(Q): local actions [(0, 1), (1, 0)]
+  m004(8,1): |Hom(H1^orb, Z/2)| = 4; rho nontrivial on pi1(Q): local actions [(0, 0), (1, 1)]
+  m004(2,3): |Hom(H1^orb, Z/2)| = 4; rho nontrivial on pi1(Q): local actions [(0, 1), (1, 0)]
+  m004(4,3): |Hom(H1^orb, Z/2)| = 4; rho nontrivial on pi1(Q): local actions [(0, 0), (1, 1)]
+  m004(10,3): |Hom(H1^orb, Z/2)| = 4; rho nontrivial on pi1(Q): local actions [(0, 1), (1, 0)]
+  m004(12,1): |Hom(H1^orb, Z/2)| = 4; rho nontrivial on pi1(Q): local actions [(0, 0), (1, 1)]
+(c) control: the strong inversion's quotient for m004(6,1), L11n132 with both components (2,0)
+  |Hom(H1^orb, Z/2)| = 4; rho nontrivial on pi1(Q): local actions [(0, 1), (1, 0)]
+r5 exit 0

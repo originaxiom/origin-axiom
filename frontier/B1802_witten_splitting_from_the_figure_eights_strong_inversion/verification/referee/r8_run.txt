@@ -1,0 +1,7 @@
+F' = Z/2: solutions {'full': 0, 'no (2.8)': 1, 'split only': 8}
+F' = Z/3: solutions {'full': 0, 'no (2.8)': 0, 'split only': 54}
+F' = Z/4: solutions {'full': 2, 'no (2.8)': 3, 'split only': 192}
+F' = Z/5: solutions {'full': 0, 'no (2.8)': 0, 'split only': 500}
+F' = Z/6: solutions {'full': 4, 'no (2.8)': 5, 'split only': 1080}
+F' = Z/2 x Z/2: solutions {'full': 6, 'no (2.8)': 9, 'split only': 192}
+r8 exit 0

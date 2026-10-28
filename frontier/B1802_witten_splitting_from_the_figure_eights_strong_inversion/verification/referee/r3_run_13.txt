@@ -1,0 +1,17 @@
+targets (vol/2): {(6, 1): 0.642243, (8, 1): 0.791583, (2, 3): 0.868562, (4, 3): 0.878563, (10, 1): 0.865169, (5, 1): 0.490684, (3, 2): 0.72035, (7, 1): 0.731888, (6, 5): 0.964334, (2, 5): 0.95976, (8, 3): 0.912172}
+scanned 35833 links up to 13 crossings in 42s
+  m004(8, 1): L = K9n7       components 1  orbifold vol 0.791583330  Sigma_2(L) isometric to Q: False
+  m004(5, 1): L = K10n31     components 1  orbifold vol 0.490684414  Sigma_2(L) isometric to Q: True
+  m004(8, 1): L = K11n118    components 1  orbifold vol 0.791583330  Sigma_2(L) isometric to Q: False
+  m004(8, 3): L = K12n403    components 1  orbifold vol 0.912172161  Sigma_2(L) isometric to Q: False
+  m004(4, 3): L = K12n591    components 1  orbifold vol 0.878563015  Sigma_2(L) isometric to Q: False
+  m004(7, 1): L = K12n749    components 1  orbifold vol 0.731888322  Sigma_2(L) isometric to Q: True
+  m004(3, 2): L = K13n2180   components 1  orbifold vol 0.720349503  Sigma_2(L) isometric to Q: True
+  m004(8, 1): L = L10n55     components 2  orbifold vol 0.791583330  Sigma_2(L) isometric to Q: False
+  m004(6, 1): L = L11n132    components 2  orbifold vol 0.642242650  Sigma_2(L) isometric to Q: True
+  m004(8, 1): L = L13n4507   components 2  orbifold vol 0.791583330  Sigma_2(L) isometric to Q: True
+  m004(8, 3): L = L13n4599   components 2  orbifold vol 0.912172161  Sigma_2(L) isometric to Q: False
+  m004(8, 3): L = L13n4800   components 2  orbifold vol 0.912172161  Sigma_2(L) isometric to Q: True
+  m004(4, 3): L = L13n6567   components 2  orbifold vol 0.878563015  Sigma_2(L) isometric to Q: False
+  m004(4, 3): L = L13n6569   components 2  orbifold vol 0.878563015  Sigma_2(L) isometric to Q: False
+r3 exit 0

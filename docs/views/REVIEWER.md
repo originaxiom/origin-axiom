@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1505** |
-| words of findings prose | **1,224,289** |
-| test lock files referenced | **920** |
-| arcs carrying an authored verdict | **1505** (100.0 %) |
+| research arcs with findings | **1506** |
+| words of findings prose | **1,225,952** |
+| test lock files referenced | **921** |
+| arcs carrying an authored verdict | **1506** (100.0 %) |
 | recorded closures | **850** (683 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1027 |
+| PROVED | 1028 |
 | NEGATIVE | 374 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1801`** (1519 words, 1 locks)  
-m004'S FILLINGS AS THE 3-CYCLE Q OF A G2 COMPACTIFICATION (data-free; PROVED for the torsion, NEGATIVE for a coupling): the order-3 Reidemeister torsion of every hyperbolic filling m004(p/q) with 3 | p is 4/3 (|Delta_41(omega)| = 4; Turaev, Fox calculus on SnapPy's presentation, and 3-fold cyclic covers with |H1| = 16p/3), so Friedmann-Witten's L(Q) = 3|H1|/4; the Z/3 line diag(w,w,w,1,1) breaks SU(5) to S(U(3)xU(2)) as every such line does; Friedmann-Witten's thresholds are x k_a + y b_a (their 3.21, computed), so the one-loop sin^2 theta_W is unchanged for any Q -- the torsion relates moduli to M_GUT and fixes none of the 19; the draft's doublet-triplet split withdrawn (in this frame the Higgs are complete multiplets at points; Witten's mechanism needs an involution with fixed circles, P-408). 0 of 19.  
-`B1801_m004s_fillings_as_the_three_cycle_of_a_g2_compactification/FINDINGS.md`
+**PROVED — `B1802`** (1663 words, 1 locks)  
+WITTEN'S DOUBLET-TRIPLET TOPOLOGY ON THE FIGURE-EIGHT'S EVEN FILLINGS (P-408; data-free; PROVED for the topology): each of m004(p/q)'s three involutions (two strong inversions, one period) has exactly two fixed circles when p is even (explicit branch links L11n132, L13n4507, L13n4800, L14n24777; odd p gives knots); either strong inversion preserves the unique order-2 line W = diag(1,1,1,-1,-1) (SU(5) -> SM) and necessarily lifts trivially on one circle and by W on the other; the period preserves the Z/6 line and splits by W^3 when 6 | p and p = 2 mod 4 -- Witten's topological structure at n = 2, where his first model fails with Z/2 alone (his own caveat); the full Sym(Q) = Z/2 x Z/2 admits 6 enumerated solutions (realisation open, P-409). Structural; none of the 19.  
+`B1802_witten_splitting_from_the_figure_eights_strong_inversion/FINDINGS.md`
 
 **NEGATIVE — `B1798`** (1635 words, 1 locks)  
 THE SIX GRADED UNDER THE CLASS-CHOOSING NULL (R71-1; NEGATIVE for PASSED): with B1753's census completed to all 266 lines (48 614 points, verified) and 10^7 fresh targets, the class-choosing null gives B1753 m*r 0.0084-0.0088 at m = 39-41 and B1749 0.0094-0.00999 at m = 33-35; but the lepton factor c = 3 was chosen on the same six numbers (the web seat's GJ_FINDINGS) and that null holds it fixed -- a null letting each target choose c as the data did gives m*r 0.035-0.079 (B1753) and 0.034-0.082 (B1749); counted per decisive cell (m ~ 51) B1753 fails too; neither is PASSED; the six's specificity rests on c read from the data. No input removed. 0 of 19.  

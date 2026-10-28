@@ -14517,6 +14517,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1802": {
+   "slug": "witten splitting from the figure eights strong inversion",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B180": {
    "slug": "two faces dictionary",
    "motifs": [

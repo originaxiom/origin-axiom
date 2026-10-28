@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1505 of 1505 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1506 of 1506 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1027)
+## PROVED (1028)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1039,6 +1039,7 @@
 | `B1799` | THE NEUTRINO'S SELF-PAIRING AT THE CANONICAL END (P-283; data-free): R1 = 0 identically for equal twists (the residue is v_x v_y^T / theta1'(0)), so with a traceless partner the coupling is exactly symmetric; on the 286 census lines at three points neither Majorana pairing's det M vanishes (m1 != 0, protection lifted), but the Weinberg pair's det M vanishes on CP lines (8 order-8 lines at Re tau = 0, 18 at Re tau = 1/2) and at isolated points; the Dirac L nu^c agrees with B1716's law on all 858 rows (zeros on the 54 lines where -3w has order 4, the electron's zero lines), so a pure type-I seesaw's lightest neutrino is massless on the census exactly where the electron is, and on no slope-2/5 line (the law's condition never fires there). No input removed. 0 of 19. |  | 1 |
 | `B1800` | THE COUPLINGS AS BULK OVERLAPS OF FLUX ZERO MODES (L251 as stated; data-free): every allowed overlap is (Im tau)^(-1/4) theta[(a_p - a_q + m)/2, b_p - b_q](0, 2tau) up to a fixed phase (CIM's closed form, re-derived and checked on main); Wilson-line conservation gives B1636's parity pattern, but Y_pq^2 = (Im tau)^(-1/2) kappa_pq theta_p theta_q, i.e. Y_pq ~ eta^(3/2) theta_r^(-1/2), not B1636's theta_r^2 for any fixed Higgs and any matter Wilson lines (a q-expansion proof); B1642's residue coupling has theta_r^2 but is antisymmetric; the overlap depends on the legs' Wilson-line difference (q_L - q_R)w, at level 2, and is not B1656's flat-frame coupling. No input removed. 0 of 19. |  | 1 |
 | `B1801` | m004'S FILLINGS AS THE 3-CYCLE Q OF A G2 COMPACTIFICATION (data-free; PROVED for the torsion, NEGATIVE for a coupling): the order-3 Reidemeister torsion of every hyperbolic filling m004(p/q) with 3 | p is 4/3 (|Delta_41(omega)| = 4; Turaev, Fox calculus on SnapPy's presentation, and 3-fold cyclic covers with |H1| = 16p/3), so Friedmann-Witten's L(Q) = 3|H1|/4; the Z/3 line diag(w,w,w,1,1) breaks SU(5) to S(U(3)xU(2)) as every such line does; Friedmann-Witten's thresholds are x k_a + y b_a (their 3.21, computed), so the one-loop sin^2 theta_W is unchanged for any Q -- the torsion relates moduli to M_GUT and fixes none of the 19; the draft's doublet-triplet split withdrawn (in this frame the Higgs are complete multiplets at points; Witten's mechanism needs an involution with fixed circles, P-408). 0 of 19. |  | 1 |
+| `B1802` | WITTEN'S DOUBLET-TRIPLET TOPOLOGY ON THE FIGURE-EIGHT'S EVEN FILLINGS (P-408; data-free; PROVED for the topology): each of m004(p/q)'s three involutions (two strong inversions, one period) has exactly two fixed circles when p is even (explicit branch links L11n132, L13n4507, L13n4800, L14n24777; odd p gives knots); either strong inversion preserves the unique order-2 line W = diag(1,1,1,-1,-1) (SU(5) -> SM) and necessarily lifts trivially on one circle and by W on the other; the period preserves the Z/6 line and splits by W^3 when 6 | p and p = 2 mod 4 -- Witten's topological structure at n = 2, where his first model fails with Z/2 alone (his own caveat); the full Sym(Q) = Z/2 x Z/2 admits 6 enumerated solutions (realisation open, P-409). Structural; none of the 19. |  | 1 |
 
 ## NEGATIVE (374)
 

@@ -1,0 +1,8 @@
+m004(6, 1): H1 Z/6, vol/2 0.642242650; L11n132    components 2, orbifold vol 0.642242650; double branched cover isometric to Q: [True]
+m004(8, 1): H1 Z/8, vol/2 0.791583330; L13n4507   components 2, orbifold vol 0.791583330; double branched cover isometric to Q: [True]
+m004(8, 3): H1 Z/8, vol/2 0.912172161; L13n4800   components 2, orbifold vol 0.912172161; double branched cover isometric to Q: [True]
+m004(4, 3): H1 Z/4, vol/2 0.878563015; L14n24777  components 2, orbifold vol 0.878563015; double branched cover isometric to Q: [True]
+m004(5, 1): H1 Z/5, vol/2 0.490684414; K10n31     components 1, orbifold vol 0.490684414; double branched cover isometric to Q: [True]
+m004(7, 1): H1 Z/7, vol/2 0.731888322; K12n749    components 1, orbifold vol 0.731888322; double branched cover isometric to Q: [True]
+m004(3, 2): H1 Z/3, vol/2 0.720349503; K13n2180   components 1, orbifold vol 0.720349503; double branched cover isometric to Q: [True]
+branch_links exit 0

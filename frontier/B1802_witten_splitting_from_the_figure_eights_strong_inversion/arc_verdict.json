@@ -1,0 +1,33 @@
+{
+ "id": "B1802",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-36",
+   "status": "UNEARNED",
+   "note": "Q = m004(p/q) as the G2 frame's GUT 3-cycle, as in B1801; here the topological prerequisite of Witten's splitting only"
+  }
+ ],
+ "depends_on": [
+  "B1297",
+  "B1462",
+  "B1794",
+  "B1795",
+  "B1801"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "Witten's discrete doublet-triplet splitting (hep-ph/0201018) on a 3-manifold Q carrying SU(5) with a flat Wilson line",
+  "object": "hyperbolic Dehn fillings m004(p/q) with p even, and the figure-eight's strong inversion",
+  "reach": "class",
+  "hypotheses": "the topological prerequisite only; the G2 manifold, F's extension to it, and the Higgs at conical points on the fixed circles are not supplied"
+ },
+ "claim_one_line": "WITTEN'S DOUBLET-TRIPLET TOPOLOGY ON THE FIGURE-EIGHT'S EVEN FILLINGS (P-408; data-free; PROVED for the topology): each of m004(p/q)'s three involutions (two strong inversions, one period) has exactly two fixed circles when p is even (explicit branch links L11n132, L13n4507, L13n4800, L14n24777; odd p gives knots); either strong inversion preserves the unique order-2 line W = diag(1,1,1,-1,-1) (SU(5) -> SM) and necessarily lifts trivially on one circle and by W on the other; the period preserves the Z/6 line and splits by W^3 when 6 | p and p = 2 mod 4 -- Witten's topological structure at n = 2, where his first model fails with Z/2 alone (his own caveat); the full Sym(Q) = Z/2 x Z/2 admits 6 enumerated solutions (realisation open, P-409). Structural; none of the 19.",
+ "weave_or_thread": "thread (one filling at a time)"
+}

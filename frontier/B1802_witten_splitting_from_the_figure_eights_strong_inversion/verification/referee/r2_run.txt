@@ -1,0 +1,22 @@
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+exterior torsion (SnapPy words): -(t**2 - 3*t + 1)/(t*(t - 1))
+filling     |tau(chi_2)| own   2-fold cover |H1|: own RS   SnapPy   5p/2   | sum dim H_*(Q;Z/2)
+m004(  6,  1)  1.250000000000        free 0 order   15   ['Z/15']     15   | 4  ok
+m004(  8,  1)  1.250000000000        free 0 order   20   ['Z/20']     20   | 4  ok
+m004(  2,  3)  1.250000000000        free 0 order    5   ['Z/5']      5   | 4  ok
+m004(  4,  3)  1.250000000000        free 0 order   10   ['Z/10']     10   | 4  ok
+m004( 10,  3)  1.250000000000        free 0 order   25   ['Z/5 + Z/5']     25   | 4  ok
+m004(  2,  5)  1.250000000000        free 0 order    5   ['Z/5']      5   | 4  ok
+m004( 12,  5)  1.250000000000        free 0 order   30   ['Z/30']     30   | 4  ok
+m004( 14,  3)  1.250000000000        free 0 order   35   ['Z/35']     35   | 4  ok
+m004( 16,  7)  1.250000000000        free 0 order   40   ['Z/40']     40   | 4  ok
+m004( 20,  9)  1.250000000000        free 0 order   50   ['Z/5 + Z/10']     50   | 4  ok
+m004(  4,  7)  1.250000000000        free 0 order   10   ['Z/10']     10   | 4  ok
+m004(  6, -1)  1.250000000000        free 0 order   15   ['Z/15']     15   | 4  ok
+m004(  8, -3)  1.250000000000        free 0 order   20   ['Z/20']     20   | 4  ok
+mismatches: 0
+control m004(5,1): H1 Z/5, sum dim H_*(Q;Z/2) = 2
+control m004(3,2): H1 Z/3, sum dim H_*(Q;Z/2) = 2
+control m004(7,2): H1 Z/7, sum dim H_*(Q;Z/2) = 2
+control m004(9,4): H1 Z/9, sum dim H_*(Q;Z/2) = 2
+r2 exit 0

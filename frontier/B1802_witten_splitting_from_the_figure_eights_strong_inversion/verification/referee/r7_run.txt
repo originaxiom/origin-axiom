@@ -1,0 +1,13 @@
+m004(6,1), P, Z/2 lines (restriction of order 2): (rho(m_A), rho(m_C), relative rho(m_A^-1 m_C)) = [(0, 1, 1), (1, 0, 1)]
+m004(6,1), P, Z/3 lines (restriction of order 3): (rho(m_A), rho(m_C), relative rho(m_A^-1 m_C)) = [(0, 0, 0)]
+m004(6,1), P, Z/6 lines (restriction of order 6): (rho(m_A), rho(m_C), relative rho(m_A^-1 m_C)) = [(0, 3, 3), (3, 0, 3)]
+m004(6,5), P, Z/2 lines (restriction of order 2): (rho(m_A), rho(m_C), relative rho(m_A^-1 m_C)) = [(0, 1, 1), (1, 0, 1)]
+m004(6,5), P, Z/3 lines (restriction of order 3): (rho(m_A), rho(m_C), relative rho(m_A^-1 m_C)) = [(0, 0, 0)]
+m004(6,5), P, Z/6 lines (restriction of order 6): (rho(m_A), rho(m_C), relative rho(m_A^-1 m_C)) = [(0, 3, 3), (3, 0, 3)]
+m004(12,1), P, Z/2 lines (restriction of order 2): (rho(m_A), rho(m_C), relative rho(m_A^-1 m_C)) = [(0, 0, 0), (1, 1, 0)]
+m004(12,1), P, Z/3 lines (restriction of order 3): (rho(m_A), rho(m_C), relative rho(m_A^-1 m_C)) = [(0, 0, 0)]
+m004(12,1), P, Z/6 lines (restriction of order 6): (rho(m_A), rho(m_C), relative rho(m_A^-1 m_C)) = [(0, 0, 0), (3, 3, 0)]
+m004(18,1), P, Z/2 lines (restriction of order 2): (rho(m_A), rho(m_C), relative rho(m_A^-1 m_C)) = [(0, 1, 1), (1, 0, 1)]
+m004(18,1), P, Z/3 lines (restriction of order 3): (rho(m_A), rho(m_C), relative rho(m_A^-1 m_C)) = [(0, 0, 0)]
+m004(18,1), P, Z/6 lines (restriction of order 6): (rho(m_A), rho(m_C), relative rho(m_A^-1 m_C)) = [(0, 3, 3), (3, 0, 3)]
+r7 exit 0

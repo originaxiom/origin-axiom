@@ -1,0 +1,25 @@
+<site-packages>/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+m004 symmetry group: D4 | order 8 | amphicheiral True | invertible True | full True
+  iso 0: cusp map [[1, 0], [0, 1]] | det 1
+  iso 1: cusp map [[-1, 0], [0, 1]] | det -1
+  iso 2: cusp map [[1, 0], [0, 1]] | det 1
+  iso 3: cusp map [[-1, 0], [0, 1]] | det -1
+  iso 4: cusp map [[1, 0], [0, -1]] | det -1
+  iso 5: cusp map [[-1, 0], [0, -1]] | det 1
+  iso 6: cusp map [[1, 0], [0, -1]] | det -1
+  iso 7: cusp map [[-1, 0], [0, -1]] | det 1
+
+m004(6,1): sol all tetrahed vol 1.284485 H1 Z/6 | Sym Z/2 + Z/2 full True amph False
+m004(8,1): sol all tetrahed vol 1.583167 H1 Z/8 | Sym Z/2 + Z/2 full True amph False
+m004(2,3): sol all tetrahed vol 1.737124 H1 Z/2 | Sym Z/2 + Z/2 full True amph False
+m004(4,3): sol all tetrahed vol 1.757126 H1 Z/4 | Sym Z/2 + Z/2 full True amph False
+m004(10,1): sol all tetrahed vol 1.730338 H1 Z/10 | Sym Z/2 + Z/2 full True amph False
+m004(2,5): sol all tetrahed vol 1.919520 H1 Z/2 | Sym Z/2 + Z/2 full True amph False
+m004(8,3): sol all tetrahed vol 1.824344 H1 Z/8 | Sym Z/2 + Z/2 full True amph False
+m004(5,1): sol all tetrahed vol 0.981369 H1 Z/5 | Sym Z/2 + Z/2 full True amph False
+m004(3,2): sol all tetrahed vol 1.440699 H1 Z/3 | Sym Z/2 + Z/2 full True amph False
+m004(7,1): sol all tetrahed vol 1.463777 H1 Z/7 | Sym Z/2 + Z/2 full True amph False
+m004(6,5): sol all tetrahed vol 1.928668 H1 Z/6 | Sym Z/2 + Z/2 full True amph False
+m004(2,7): sol all tetrahed vol 1.972725 H1 Z/2 | Sym Z/2 + Z/2 full True amph False
+m004(4,5): sol all tetrahed vol 1.923087 H1 Z/4 | Sym Z/2 + Z/2 full True amph False
