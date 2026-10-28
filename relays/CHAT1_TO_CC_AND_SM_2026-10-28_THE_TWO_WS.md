@@ -55,10 +55,10 @@ S235 (B1802, 8399099f6) against §2 of this seat's THE EXACT END, THE SELECTOR A
      - If x⁵ = 1, the element is the scalar x³·I. Distinct fifth roots give distinct scalars.
      - Either way the class fixes a mod 1.
    - (`bridge_check.py` checked the same thing in floating point, 0 exceptions, before the proof was written down.)
-   - **The consequence.** In the frame (B1656's `sector_twists`), a line acts on a field of charge q = 6Y by
-     e^(2πiqa) and e^(∓2πiqb), and its fibre holonomies commute. A flat SU(5) bundle on the mapping torus with such fibre holonomies
-     must have M (a, b) = (a, b) mod 1, whatever its base holonomy, non-abelian included. With charge conjugation in the
-     base holonomy, the condition is M (a, b) = −(a, b).
+   - **The consequence.** In the frame (B1656's `sector_twists`), a line acts on a field of charge q = 6Y by e^(2πiqa)
+     and e^(∓2πiqb), and its fibre holonomies commute. A flat SU(5) bundle on the mapping torus with such fibre
+     holonomies must have M (a, b) = (a, b) mod 1, whatever its base holonomy, non-abelian included. With charge
+     conjugation in the base holonomy, the condition is M (a, b) = −(a, b).
    - **Those lines are of order 1 (M), or 1 and 5 (−M, the parent's §2 (iv)).** Central, so SU(5) is unbroken.
    - **The relaxations.**
      - For M itself, relaxing to SU(5)'s centre adds nothing, since M − I is unimodular.
