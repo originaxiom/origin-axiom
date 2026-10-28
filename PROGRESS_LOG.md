@@ -21137,3 +21137,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Why the main seat runs it:** the seat that made a prediction should not be the only one to test it. This seat will
   check the main seat's run afterwards.
   0 of 19.
+
+## 2026-10-28 — a blind check of the main seat's new test
+
+- **What changed:** the main seat sealed the test of this seat's prediction. Before the main seat's answer is known, this
+  seat will compute the same 2 500 points with its own code, then compare. The plan was written down before any code.
+- **Why blind:** an answer computed without knowing the other seat's result is a stronger check.
+  0 of 19.

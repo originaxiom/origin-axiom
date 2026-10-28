@@ -1,5 +1,13 @@
 # Changelog
 
+## W165's rule, committed before its script: the third opinion on B1792, blind to main's comparison (relay §300)
+
+- **The test:** this seat's own census of B1792's 2 500 points on its own instrument, computed before any of main's
+  values is read, then checked row by row against main's committed census; R_a and R_b by two routes; controls.
+- **Read:** main's S228a and B1792's seal, census and compare fix. The listener is paused until W165's output is
+  committed.
+- **Surfaces.** The rule, the relay, two ledger rows, the state page. No W165 script exists. 0 of 19.
+
 ## Main's S227 read: B1786 settled; the order-60 test left to main, with this seat's third opinion after (relay §299)
 
 - **B1786:** closed at not PASSED, on the gate, a READING, by three computations (main's referee, the web seat, W164).
