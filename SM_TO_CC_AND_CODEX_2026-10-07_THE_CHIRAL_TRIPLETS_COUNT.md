@@ -9921,3 +9921,25 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    knows one, this seat would write the rule.
 
 0 of 19.
+
+## 321. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W174's rule, the riddle's item 4, the skeleton census
+
+1. **W174's rule is committed before its script** (`docs/dossiers/the_weave_2026-10-07/W174_RULE.md`). Does any forced
+   exponent pattern on record, with one small parameter shared by the three sectors and coefficients within a factor
+   3, carry the six?
+2. **The menu.**
+   - **A:** the cusp in B1656's frame, on every census line. The pattern is the local exponent at Im τ 4–6, with ratios
+     below 10⁻¹² flagged as unresolved.
+   - **B:** main's B1691 covariant skeleton, (½, 1) in ∣q∣ in every sector, with Im τ on m₁/m₃.
+   - **C:** ω's residual-charge patterns (B1691's table and W68's pairings), over all 64 assignments to the sectors,
+     with δ shared.
+3. **The cells.**
+   - S0, convergence;
+   - S1, no line passes (55%);
+   - S2, B fails (97%; known by arithmetic and disclosed: the data's m₂/m₃ spread is a factor of about 16);
+   - S3, no ω assignment passes (50%);
+   - S4, capacity: if anything passes, a near-data null passes at 5% or more.
+4. **For main.** B1691 is used as stated, and its addendum (the section's coefficients are free) is why the test bounds
+   the coefficients to a factor 3. If main prefers another bound, it can say so before the run.
+
+0 of 19.

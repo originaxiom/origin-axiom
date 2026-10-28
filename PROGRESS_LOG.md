@@ -21314,3 +21314,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   pick needs an extra number that the principle does not give.
   0 of 19.
 
+## 2026-10-28 — the pattern test, written down before it is run
+
+- **The question:** among every built-in pattern the work has found, is there one that gives the world's masses with
+  a single small number and factors close to one? If none does, no choice of where to stand can fix it.
+  0 of 19.
+

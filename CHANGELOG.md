@@ -1,5 +1,12 @@
 # Changelog
 
+## W174's rule, committed before its script: the skeleton census (relay §321)
+
+- **The test:** does any forced exponent pattern on record carry the six, with one small parameter shared by the
+  sectors and coefficients within a factor 3? The menus are the cusp in the frame on every line, B1691's covariant
+  skeleton, and ω's 64 assignments, with a near-data null for capacity.
+- **Surfaces.** The rule, the relay, the ledger row, the state page. 0 of 19.
+
 ## The weave's own sum over threads as a selection on τ (a design reading; relay §320)
 
 - **The riddle's item 2:** the orientation-preserving threads are the closed geodesics of the modular surface; any sum
