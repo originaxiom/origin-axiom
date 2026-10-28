@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1496** |
-| words of findings prose | **1,211,083** |
+| words of findings prose | **1,211,178** |
 | test lock files referenced | **911** |
 | arcs carrying an authored verdict | **1496** (100.0 %) |
 | recorded closures | **846** (679 classified, 167 routed-only) |
@@ -69,7 +69,7 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE CLOSED FORM OF THE EXPONENTS (main's plan, step 1; data-free; PROVED at leading order, conditional): in B1656's frame the four pole blocks have exponents ||a_x + i/2||^2 + ||a_y + j/2||^2 - 1/8 (the full channel map, r11 included, to 1.3e-10 over 360 line-sectors) and, with B1716's rank-one residue matrix and B1659's det Y = 4 det M det S P, every sector's second-generation exponent is e(m2/m3) = 1/2 - (||2 q_L alpha|| + ||2 q_R alpha||)/2 in both readings, the tropical minimum equal to it in all 3 972 cases; on the domain B1785's window fits agree on 87.6% (m2/m3) and 96.5% (m1/m3), and independent 40-digit runs on seven lines (failing window classes among them) converge to the closed form for m2/m3 and m1/m3 (within 0.02 at Im tau 14-16, (2/11, 1/11) within 0.001 at 28-32); 8 of the 32 failing window classes untested at height; the SM seat's W160 verified on main and generalised; given five-ality alignment, the slope principle's 'Higgs at the unit twist' is the measured 3 : 2 of the up and down second-generation exponents restated, not a derivation; (3/10, 1/5) occurs only at alpha = 2/5 and 1/10. No input removed. 0 of 19.  
 `B1788_the_closed_form_of_the_exponents/FINDINGS.md`
 
-**NEGATIVE — `B1792`** (1195 words, 1 locks)  
+**NEGATIVE — `B1792`** (1290 words, 1 locks)  
 THE OFFSET RECURRENCE AT ORDER 60 (P-399; the SM seat's W164 prediction, sealed 096c97e94 and run by main): R_a FAILS -- of the eight predicted lines (the +1/3, +2/3 shifts of B1755's order-20 carriers) six carry the six (47/60-49/60 at 10.70, 7/60-29/60 at 12.46, 41/60-11/12 at 13.78) and the pair 1/60-7/12 does not (36.34, a robust fail); R_b HOLDS -- none of the other twelve lines carries (least 19.97); so the recurrence is a necessary condition, not a rule: the leptons are exactly shift-invariant (charges -3, 6), the quarks only approximately (their twists move by q/3), and m_u/m_t breaks the failing pair; the 0.060% specificity read-out is one pair's. A READING, no grade sought. No input removed. 0 of 19.  
 `B1792_the_offset_recurrence_at_order_60/FINDINGS.md`
 

@@ -7358,16 +7358,150 @@ sealing; disclosed, and the control is now a rule for any restriction test.
 
 ### Action items (Review 70)
 - [x] R70-1: P-301 — regenerate B893's det₁₄ from the repository's exact tower and certify its sign at the three roots exactly; confirm THEOREM_LEDGER C25 or correct it with a dated note (carried from R69-6, itself from R68-6; owner: cc; first after this landing) — **resolved 2026-10-27 (S223, B1758):** C25 certified exactly (re-banked from the agy lane after main's audit)
-- [ ] R70-2: W64's dimension count on main — the premise of THE WEAVE's "W74's CP-invariance holds given W64's dimension count" (P-238's one live residue; owner: cc)
-- [ ] R70-3: P-298 — main's own check of W130 (the non-abelian Hodge criterion and the (3, 3, 3) non-unitarity) (carried from R69-6, itself from R68-6; owner: cc)
-- [ ] R70-4: L232's five reads (THE_FRAMEWORK and THE_SM_VERDICT first, carrying L231's stale sentences) and L231's six remaining items, each read and corrected or declined (carried from R69-4, itself from R68-4; owner: cc; due at Review 71)
-- [ ] R70-5: L239 (a), (c); L240 (c), (f); L242's two open counts; L243 (c) R79 and (d) the boundary table, with R77's join (carried from R69-7; owner: cc; due at Review 71)
-- [ ] R70-6: P-386 — review the audit lane's sealed P210 sources in its order, then accept with the structured records or refuse with a dated note (owner: cc)
-- [ ] R70-7: the joint-law grade of B1749 and B1753 with a class-choosing null (P-381, P-384), after B1753's third opinion; harvest THE UNIFICATION-SCALE TEST when it lands (W156 harvested at this review) (owner: cc)
+- [>] R70-2: W64's dimension count on main — the premise of THE WEAVE's "W74's CP-invariance holds given W64's dimension count" (P-238's one live residue; owner: cc) — carried at Review 71 as R71-2
+- [>] R70-3: P-298 — main's own check of W130 (the non-abelian Hodge criterion and the (3, 3, 3) non-unitarity) (carried from R69-6, itself from R68-6; owner: cc) — carried at Review 71 as R71-3
+- [>] R70-4: L232's five reads (THE_FRAMEWORK and THE_SM_VERDICT first, carrying L231's stale sentences) and L231's six remaining items, each read and corrected or declined (carried from R69-4, itself from R68-4; owner: cc; due at Review 71) — carried at Review 71 as R71-4 (overdue; due at Review 72)
+- [>] R70-5: L239 (a), (c); L240 (c), (f); L242's two open counts; L243 (c) R79 and (d) the boundary table, with R77's join (carried from R69-7; owner: cc; due at Review 71) — carried at Review 71 as R71-5 (overdue; due at Review 72)
+- [x] R70-6: P-386 — review the audit lane's sealed P210 sources in its order, then accept with the structured records or refuse with a dated note (owner: cc) — **resolved 2026-10-28 (S225, S225b; B1787):** main reviewed P210 itself and accepted it for execution with named caveats; ACCEPTANCE.json binds the pushed review commit 54cfec661
+- [>] R70-7: the joint-law grade of B1749 and B1753 with a class-choosing null (P-381, P-384), after B1753's third opinion; harvest THE UNIFICATION-SCALE TEST when it lands (W156 harvested at this review) (owner: cc) — partly resolved at Review 71: THE UNIFICATION-SCALE TEST harvested and verified (row 1424); the class-choosing null built (B1786's referee); B1749's and B1753's grade under it carried as R71-1
 - [x] R70-8: push the owner's mirror when the owner reconnects the drive (owner: the owner, then cc) — the owner reconnected it during the review; pushed with this landing
 - [x] R70-10: P-388 — grade JUNO's second release against P10 and P10′ in an arc (P10′'s falsifier fires at 5.83σ) (owner: cc) — **resolved 2026-10-27 (S223, B1756):** P10′ falsified at 5.82σ; P10 at 2.28σ
-- [ ] R70-11: P-389 — the web seat's step-back proposal, put to the owner with main's opinion (owner: the owner)
+- [x] R70-11: P-389 — the web seat's step-back proposal, put to the owner with main's opinion (owner: the owner) — **resolved 2026-10-27 (S225):** the owner's ruling ("Adopt main's version") entered in PRACTICES and THE_BAR; P-389 DONE
 - [x] R70-12: B1755 — the SM seat's test of the level-5 rung (P-387): seal, census, comparison (owner: cc) — **resolved 2026-10-27 (S223):** PROVED as sealed at the edge (78 of a limit of 80); every good line has slope 2/5, at selected offsets
 
 **anchor-commit: `34a7a7da4`**
 - [x] R70-9: filed at this review: the seen-first gate's placeholder check (B1743, B1746 corrected; E82); the look ledger's first full count (corrected by the web seat's row check before the push); the audit lane harvested (rows 1393–1395); P-385 adopted (B1754, GENESIS v1.58); P-238 closed by consequence; L230 closed; three glosses
+
+# Review 71 (2026-10-28) — main's plan, steps 1–4: the six's inputs counted, none removed
+
+21 commits since Review 70 (`34a7a7da4..e1adda488`, all on the first-parent line), with this landing, and 13 arcs with a
+verdict (B1755–B1758, B1784–B1792). Run by main at the counter (20 merges; `review-due` DUE).
+
+**What the window did:**
+- **Main's own plan, at the owner's agreement:** counting inputs removed, not fits improved (P-392, P-393;
+  docs/MAINS_PLAN.md). Its first four steps:
+  - **step 1, the slope:**
+    - B1785 and B1788 give the closed form of the exponents, ½ − (‖2q_Lα‖ + ‖2q_Rα‖)/2;
+    - B1786 (sealed): the slope 2/5 alone carries the six at orders 25 and 30, but it is not PASSED under the
+      class-choosing null — three computations agree (main's referee, the web seat's checking pass, the SM seat's W164);
+    - B1792 (sealed): the offset recurrence at order 60 holds as a necessary condition, not a rule;
+  - **step 2, the lepton factor c:** not derived (B1789);
+  - **step 3, the reading:** not derived (B1790; the SM seat holds no slot that assigns it);
+  - **step 4, Im τ:** not forced (B1791).
+- **The six's inputs, honestly counted:** about three continuous (Im τ, Re τ, the line's position) and four discrete
+  (the slope, c, the reading, the horocycle). That is a compression, not a derivation.
+- **Also in the window:**
+  - B1755, the SM seat's level-5 test, holds at the edge through the slope;
+  - B1756: JUNO falsifies P10′;
+  - B1758: C25 certified exactly;
+  - B1784: the agy lane audited, its 19 of 19 typed tables;
+  - B1787: P210 reviewed and accepted by main itself;
+  - the web seat's THE UNIFICATION-SCALE TEST is NEGATIVE as sealed at arm Z, verified on main;
+  - the audit lane's relative gauge-threshold route (P-396), its identities checked in main's code.
+- **Still 0 of 19.**
+
+## 1. The loop (Review 70's block)
+
+- **R70-6 RESOLVED (S225, S225b):** B1787 — main reviewed P210 itself and accepted it for execution with named caveats,
+  in the lane's prospective.py schema (ACCEPTANCE.json binding the pushed review commit 54cfec661).
+- **R70-11 RESOLVED (S225):** the owner's ruling on P-389 ("Adopt main's version") is entered in PRACTICES and THE_BAR;
+  P-389 is DONE.
+- **R70-7 PARTLY RESOLVED:**
+  - THE UNIFICATION-SCALE TEST is harvested and verified (row 1424, the look ledger's cell).
+  - The class-choosing null now exists on main (B1786's referee: verification/referee/null_kd.py and analyse_kd.py).
+  - **B1749's and B1753's own joint-law grade under it is still owed** → R71-1.
+- **R70-2, R70-3 CARRIED** (W64's dimension count; P-298's W130 check) → R71-2, R71-3. Neither was touched; the window
+  went to main's plan.
+- **R70-4, R70-5 CARRIED, OVERDUE.** Both were due at this review and were not read (L232's five reads and L231's items;
+  L239, L240, L242, L243 with R77's join). The window's priority was main's plan at the owner's word; that is the reason,
+  not an excuse → R71-4, R71-5 (due at Review 72).
+- **The window's escalations, decided here:**
+  - **Declined by silence:** the relays CC_TO_CODEX_AND_SM_2026-10-06_B1477 and CC_TO_SM_AND_CODEX_2026-10-06_B1541. No
+    addressee answered in 22 days, and nothing on main rests on them. Reopenable.
+  - **Carried → R71-6:** main's two owed items on SM_TO_CC_AND_CODEX_2026-10-06_THE_FLOOR_AT_THE_CUP_KERNEL (whether
+    Lemma F is known; the one reading recomputed), and the owed re-run on CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.
+  - **Carried → R71-7:** L249's six cells, each queued in the point register by name or closed with its reason.
+
+## 2. The branch inventory and the lanes
+
+- **Branches:** 13 unmerged leaves, every one registered (review_tools, matched on the leaf).
+- **"On one remote only"** for all of them means the owner's mirror is not mounted. The LaCie has been unreachable since
+  2026-10-27; every push in the window went to origin only. It is pushed when the owner reconnects the drive (R71-8).
+- **Lanes active in the window:**
+  - the SM seat (W157–W165);
+  - the web seat (e20–e21, THE UNIFICATION-SCALE TEST, P-323's sealed rule);
+  - the audit lane (P210, the gauge-threshold derivations);
+  - the agy lane (registered at S223a, audited in B1784).
+- **The silent listeners** (P-395) ran on main through the window.
+
+## 3. The declared modulus
+
+- **The sample.** The seeded draw (review_tools, seed `34a7a7da4`) names B1786, B1788, B1789, B1791 and B1792 for a full
+  read. All five are main's, each refereed hostile and read-only before landing. This review re-read each FINDINGS
+  against its verdict line, its lock and its referee's report, and checked that every correction the referee asked for
+  is in the landed text.
+- **Read at headline:** B1755–B1758 (S223) and B1784–B1785.
+- **Locks:** the window's landing suites all ran full (S223–S228, -n 8). Their only standing failures are B805's
+  attachment locks (P-239).
+- **The fresh clone:** PASS at e1adda488 (every gate passes; the belt is OK).
+
+fresh-clone: PASS @ e1adda488 (gates all PASS; belt ok)
+sample seed: 34a7a7da4; read in full: B1786, B1788, B1789, B1791, B1792
+gate controls: 45 registered failing-path tests; unregistered: none
+
+- **What this review cannot certify:** the seats' own instruments (their third opinions are cited, not re-run); the
+  audit lane's two analytic proofs (rows 1423, 1425; owed under P-396).
+
+## 4. The sample, read
+
+Every one of the five agrees with its referee's report as landed:
+- **B1786:** not PASSED (three computations); the scale-free reading.
+- **B1788:** leading order, conditional; the vanishing-theta lines excluded.
+- **B1789:** D = 9 withdrawn; the curvature route kept.
+- **B1791:** the ρ′ peak as a convention; P-396 not involving τ.
+- **B1792:** R_a fails, R_b holds; the lepton/quark split.
+
+B1790, not drawn, was read alongside B1789 and agrees with its referee's report as landed. This review found no
+discrepancy.
+
+## 5. Protocol integrity
+
+- **The seals:** three in the window (B1755, B1786, B1792). Each was sealed before its results, with its hashes recorded.
+- **"Not on every remote"** is the unmounted mirror (R71-8).
+- **B1792's compare.py** differs from its sealed hash by one line, recorded under a dated note in its ARTIFACT_HASHES
+  with the failed launch's log. It was committed and pushed before the rerun (E92).
+- **Outputs:** every census and comparison was committed unread, then read once.
+- **B1786's interrupted first run:** killed by a machine reboot, its partial log kept unread and disclosed.
+
+## 6. Advancement, errors, provenance
+
+- **Advancement:**
+  - **LAW_MAP:** one new law row, B1788's closed form (PROVED at leading order, conditional). One updated row: the
+    weave's TM1 row carries B1756's JUNO result (P10′ falsified, TM1 at 2.28σ).
+  - **THEOREM_REGISTRY:** +0.
+  - **No input removed:** the plan's ledger of inputs removed is still empty.
+- **Errors:**
+  - **New class E92:** the import-tested-only instrument (B1792's loader; the web seat's e21).
+  - **Recurrences, each caught before landing by the arc's hostile referee:**
+    - E84 (B1788's draft: a named check its script did not compute);
+    - E58, twice (B1789's and B1791's drafts: a register row and another seat's object read from their gist);
+    - E67 (B1790's draft: a flip column that re-measured the same point).
+  - **The referee practice** is recorded as the standing rule's working evidence.
+- **Provenance:** 2 597 added lines scanned, 0 hits.
+- **New vocabulary glossed in TERMINOLOGY.md:** main's plan, a plan step, an input removed, data-free.
+
+## 7. The promotion sweep
+
+Nothing in the window meets the §5 bars. No arc is PASSED, and no input is removed.
+
+### Action items (Review 71)
+- [>] R71-1: the joint-law grade of B1749 and B1753 under the class-choosing null (B1786's referee's machinery adapted to their censuses) (carried from R70-7; owner: cc)
+- [>] R71-2: W64's dimension count on main (carried from R70-2; owner: cc)
+- [>] R71-3: P-298 — main's own check of W130 (carried from R70-3, itself from R69-6 and R68-6; owner: cc)
+- [>] R71-4: L232's five reads and L231's six items (carried from R70-4, itself from R69-4 and R68-4; overdue at Review 71; owner: cc; due at Review 72)
+- [>] R71-5: L239 (a), (c); L240 (c), (f); L242's two counts; L243 (c), (d) with R77's join (carried from R70-5, itself from R69-7; overdue at Review 71; owner: cc; due at Review 72)
+- [ ] R71-6: main's owed items on SM_TO_CC_AND_CODEX_2026-10-06_THE_FLOOR_AT_THE_CUP_KERNEL (Lemma F known?; the one reading recomputed) and the owed re-run on CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND (owner: cc)
+- [ ] R71-7: L249's six cells — each queued in the point register by name or closed with its reason (owner: cc)
+- [ ] R71-8: push the owner's mirror when the owner reconnects the drive (owner: the owner, then cc)
+- [ ] R71-9: harvest the SM seat's W165 (B1792's blind third opinion) and the web seat's P-323 result; main's review of the audit lane's two analytic proofs when P-396 yields a value (owner: cc)
+- [ ] R71-10: main's plan, next: P-397 (a one-leg hypercharge insertion for c), the reading's odd-in-3w coupling (P-394), P-398 (owner: cc)

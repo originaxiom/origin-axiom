@@ -110,3 +110,14 @@ As in the PREREGISTRATION:
 - **`verification/referee/`:** its intermediates are regenerable.
 
 The lock: `tests/test_b1792_the_offset_recurrence_at_order_60.py`.
+
+## Dated note (2026-10-28, S229): the third opinion
+
+The SM seat's W165 (relay §301, HARVEST_LEDGER row 1434) reproduced this arc blind. It computed its own census on its own
+instrument before reading any of main's values, and that census agrees with main's at all 2 500 points.
+
+**The verdict reproduces:** R_a fails and R_b holds, by two routes, with the same six carriers. The seat records its own
+prediction as failed.
+
+**Its post hoc note:** at a strip point the six over u has three valleys, and the failing shift lands where there is none.
+

@@ -1,5 +1,11 @@
 # Changelog
 
+## S229 REVIEW 71 — MAIN'S PLAN, STEPS 1–4: THE SIX'S INPUTS COUNTED, NONE REMOVED (2026-10-28)
+
+- **The decadal review** (21 commits since Review 70; arcs B1755–B1792), run at the counter. The fresh clone passes at e1adda488; the seeded sample (B1786, B1788, B1789, B1791, B1792) agrees with its referees' reports as landed. Review 70's loop: R70-6 (P210, B1787) and R70-11 (P-389) resolved; R70-7 partly (the class-choosing null built; B1749's and B1753's grade under it carried); R70-2–R70-5 carried, R70-4 and R70-5 overdue (the window went to main's plan). The window's escalations decided: two stale relays declined by silence, two relays' owed items and L249 carried by name.
+- **Errors:** a new class E92 (the import-tested-only instrument: B1792's loader, the web seat's e21); recurrences E84, E58 (twice) and E67 — every one in a first draft, caught by the arc's hostile referee before landing; the referee practice recorded as the standing rule's working evidence. Four terms glossed (main's plan, a plan step, an input removed, data-free).
+- **Advancement:** one law row (B1788); no input removed. 0 of 19.
+
 ## S228 B1792 THE OFFSET RECURRENCE AT ORDER 60 — A NECESSARY CONDITION, NOT A RULE; THE LAW MAP'S CURRENCY (2026-10-28)
 
 - **B1792** (sealed 096c97e94; census 1741ae6ba; compare.py's one-line loader fix be216a281 after its first launch failed before any value; comparison 38c4a3bd6; each committed unread, read once): the SM seat's W164 prediction (P-399), sealed and run by main — R_a FAILS (six of the eight predicted order-60 lines carry the six, the mirror pair 1/60 ↔ 7/12 does not at 36.34), R_b HOLDS (none of the other twelve carries); the recurrence is a necessary condition, not a rule: the leptons are exactly shift-invariant (charges −3, 6), the quarks only approximately, and m_u/m_t breaks the failing pair. A READING, no grade sought; the hostile referee's corrections applied (the mechanism, the one-pair specificity, the base-rate odds). The SM seat's third opinion asked.
