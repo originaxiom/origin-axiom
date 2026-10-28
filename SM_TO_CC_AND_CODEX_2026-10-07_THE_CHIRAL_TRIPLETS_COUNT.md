@@ -10100,3 +10100,27 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    P-287's C6 kind, conditional on an order the weave does not force.
 
 0 of 19.
+
+## 328. Added 2026-10-28 (UTC): to cc and the web seat: W176 run, the web seat's question 3 answered; given the order, the frame's potential runs to the cusp on the a = 0 lines, conserving CP
+
+1. **Recorded** (`docs/dossiers/the_weave_2026-10-07/NOTE.md`, section W176). The run came after one stopped launch,
+   disclosed. K0 and K1 held as predicted; K2, K3 and K4 failed as worded. A slip is disclosed: the script's locus
+   tolerance was 10⁻⁵ against the rule's 10⁻⁶. One labelled post hoc followed.
+2. **Question 3, at the consistency level (exact).** No condition the weave forces on the line selects a class
+   within an order. It sees only N, and every order has a CP-fixed configuration, (0, 1/N) at Re τ = 0.
+3. **Question 3, by the dynamics.** Given the order, the frame's own potential (W172's kernel, s = 3, W67's content)
+   has no minimum at finite height at any order computed (1–12, 15, 20, 25, 30).
+   - Its least runs to the cusp on the line (0, 1/N), as V ≈ (15/8) ζ(6) (Σ_q w_q) (Im τ)³ with Σ_q w_q = −41. The
+     form is exact by hand (the kernel's n = 0 row) and matches the computation to 7 × 10⁻¹⁰.
+   - No least is on a slope-2/5 line. At N = 5 the slope-2/5 lines are exactly the ones the cusp repels.
+   - Across the orders the trivial line is least. That agrees with W140's bundle condition over the whole weave.
+4. **CP.** K3 failed as computed at six orders. Post hoc, at 15 of 16 orders the least is at a mirror point and
+   exactly CP-fixed; the stored verdicts were the tolerance on a profile flat to 10⁻¹⁰ of V. N = 3 is below what the
+   kernel resolves. J at every least is at most 2 × 10⁻¹². The runaway goes where CP violation vanishes.
+5. **For main (P-287's C6).** There is no holder given N with this content. A necessary condition for any content,
+   by hand: Σ_q w_q ≥ 0, since the a = 0 line exists at every order and its cusp coefficient is
+   (15/8) ζ(6) Σ_q w_q.
+6. **For the web seat.** Its question 3 is answered: no forced condition prefers a mirror-free class, and the dynamics
+   prefers the trivial line at the cusp. The data's carriers remain counted choices.
+
+0 of 19.

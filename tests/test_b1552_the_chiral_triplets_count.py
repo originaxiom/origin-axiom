@@ -5529,3 +5529,39 @@ def test_w175_the_potential_off_the_mirror():
     assert curv[2.2] < 0 < curv[2.25]
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W175. THE RIDDLE's horn 1 off the mirror" in note
+
+
+def test_w176_the_class_by_the_dynamics():
+    """W176: K0 and K1 as predicted, K2, K3 and K4 failed as worded; in process, K0 re-run at N = 12, the exact CP test
+    at the mirror points of (0, 1/5) and off them, the stored least at N = 10 re-evaluated, and the post hoc's cusp
+    coefficient A(0) = (15/8) zeta(6) Sum_q w_q recomputed by hand"""
+    import importlib.util
+    import math
+    from fractions import Fraction as Fr
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_class_by_the_dynamics.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"K0": True, "K1": True, "K2": False, "K3": False, "K4": False}
+    assert "run_failed" not in d and d["warnings"] == [] and d["grid points"] == 676
+    assert d["instrument: V(g tau; carried line) = V(tau; line), worst relative"] < 1e-6
+    assert d["instrument: a mirror-free slope-2/5 line at Re tau 0.3 tests fixed"] is False
+    for N, p in d["per order"].items():
+        assert p["least"]["tau"][1] == 4.0 and p["least"]["line"] == ["0", "0" if N == "1" else f"1/{N}"]
+        assert abs(p["J at the least"]) < 1e-11 and not p["on a slope-2/5 line"]
+    assert d["R"]["the order with the least V overall"] == 1
+    spec = importlib.util.spec_from_file_location("w176", here / "the_class_by_the_dynamics.py")
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    assert m.k0(12)
+    psi = m.psi_of((Fr(0), Fr(1, 5)))
+    assert m.cp_fixed(complex(0.0, 4.0), psi)[0] and m.cp_fixed(complex(0.5, 4.0), psi)[0]
+    assert not m.cp_fixed(complex(0.3, 4.0), psi)[0]
+    wv = m.W72.weights(1.0)
+    v10 = m.V_one(complex(0.0, 4.0), m.psi_of((Fr(0), Fr(1, 10))), wv)
+    assert abs(v10 - d["per order"]["10"]["least"]["V"]) < 1e-9 * abs(v10)
+    ph = json.loads((here / "the_class_by_the_dynamics_posthoc.json").read_text(encoding="utf-8"))
+    a0 = 15 / 8 * math.pi ** 6 / 945 * float(sum(wv))
+    assert float(sum(wv)) == -41.0 and abs(a0 - ph["P2"]["A(0) computed"]) < 1e-8 * abs(a0)
+    fixed = [N for N, r in ph["P1"].items() if r["CP-fixed at the argmin (exact)"]]
+    assert sorted(set(ph["P1"]) - set(fixed)) == ["3"]
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W176. The web seat's question 3 as the weave sees it" in note

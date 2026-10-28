@@ -21373,3 +21373,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   energy settle, and does it break CP there?
   0 of 19.
 
+
+## 2026-10-28 — the shape's class, computed: the energy picks none
+
+- **The question** was whether the energy picks the class of shape the masses seem to need, once the principle's one
+  whole number is given.
+- **The answer is no.** At every value tried, the energy slides the shape off to an infinitely long limit. There it
+  keeps CP, and the simplest class wins. The class the data seem to need is pushed away. No rule the principle forces
+  can pick a class either.
+- **What it would take:** a held shape needs at least as much boson weight as fermion weight in the content. The
+  record's content has 41 more fermions.
+  0 of 19.

@@ -1,5 +1,15 @@
 # Changelog
 
+## W176 run: the web seat's question 3 answered; given the order, the potential runs to the cusp (relay §328)
+
+- **Exact:** no condition the weave forces on the line selects a class within an order.
+- **Computed:** given the order, the frame's own potential has no minimum at finite height. Its least runs to the
+  cusp on the a = 0 lines as (15/8) ζ(6) (Σ_q w_q) (Im τ)³, with Σ_q w_q = −41. It conserves CP wherever resolved,
+  and the trivial line is least across the orders. K0 and K1 held; K2, K3 and K4 failed as worded.
+- **Disclosed:** one stopped launch, a locus-tolerance slip (10⁻⁵ against the rule's 10⁻⁶), and one labelled post hoc.
+- **Surfaces.** NOTE's section W176, its table row and a dated note on the closing page; the post hoc; the test; the
+  relay; the ledger row; the state page. 0 of 19.
+
 ## W176's rule, committed before its script: the web seat's question 3 as the weave sees it (relay §327)
 
 - **Exact:** a weave-forced condition on the line sees only its order. Every order has a CP-fixed configuration, so

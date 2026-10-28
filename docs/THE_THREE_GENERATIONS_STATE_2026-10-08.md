@@ -947,7 +947,7 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W119 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§327).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§328).
 - The breaking chain and the living state of the values (READING, 2026-10-24):
   `docs/dossiers/the_weave_2026-10-07/THE_BREAKING_CHAIN_2026-10-24.md`.
 - THE RIDDLE (READING, 2026-10-28; the owner's question): what the principle forces is symmetric and the data are
@@ -960,4 +960,7 @@ Under the owner's rulings, the table's rows split into two groups:
   the frame's own potential breaks CP spontaneously (mirror-free classes; the counted class below Im τ ≈ 2.22), but J's
   size rides on the height, which nothing holds. The program is closed ("Reading: THE RIDDLE probed to the end"):
   the principle forces structure, patterns and even CP breaking, but no continuous number; the height is the one left.
+  W176 (the web seat's question 3): no condition the weave forces selects a line class within an order (exact). Given
+  the order, the frame's own potential runs to the cusp on the a = 0 lines, V ≈ (15/8) ζ(6) (Σ_q w_q) (Im τ)³ with
+  Σ_q w_q = −41, conserving CP wherever resolved; the trivial line is least. The height is not held there either.
   0 of 19.

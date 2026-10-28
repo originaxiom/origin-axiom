@@ -7726,6 +7726,122 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W176. The web seat's question 3 as the weave sees it: a forced condition on the line sees only its order, and every order has a CP-fixed configuration (exact). Given the order, the frame's own potential chooses no class and no height: on every order its least runs to the cusp on the line (0, 1/N), as V ≈ (15/8) ζ(6) (Σ_q w_q) (Im τ)³ with the content's signed weight −41. Where resolved, the least is CP-conserving and J vanishes there, and across the orders the trivial line is least. K0 and K1 as predicted; K2, K3 and K4 failed as worded (`the_class_by_the_dynamics.py`; `W176_RULE.md`; post hoc `the_class_by_the_dynamics_posthoc.py`)
+
+**Why.** The web seat's question 3 (422cd8ecd; relays §322 and §323) asks whether a consistency condition selects the
+line's class. W140's C1 says the moves act transitively on the lines of each exact order N. So a condition the weave
+forces sees only N, and within an order the class is the dynamics' choice. W176 asks where the frame's own potential
+puts (τ, line) over every line of order N and τ in F. The potential is W172's kernel at s = 3 with W67's content and
+the bosons' weight 1. The arc was run at the owner's "GO" on this seat's open items.
+
+**The order.**
+- The rule (`W176_RULE.md`, 03332382e) was committed and pushed before the script.
+- The script (899d90d9f) was committed before its run.
+- **The first launch was stopped** by the session's one-hour limit on a background task, after the grid and fifteen
+  orders. It writes only at its end, so nothing was written, and only its progress lines were seen
+  (`the_class_by_the_dynamics_first_launch_stopped.txt`).
+  - Its refinement was Nelder–Mead, not the rule's "L-BFGS-B, staying in F".
+  - The fix (56200ca87) changed no cell, threshold, grid, order or line. It was committed before the second launch.
+- The second launch took 587 s. Its output (afbc2a44d) was committed unread after a check of the exit, failures, NaN,
+  paths and warnings, then read once.
+- **A slip, found after the run.** The rule fixes the CP test's locus tolerance at 10⁻⁶, but the script used 10⁻⁵.
+  It was not noticed before the run. Its effect is stated under K3.
+- **One labelled post hoc**, written after the read because K3 failed.
+  - Its script (3accf232b) was committed before its run, and its output (8ebdb7418) was committed unread, then read
+    once.
+  - Before its commit, a timing call evaluated V on (0, 1/3) at τ = 4i and 8i. This is disclosed in its docstring.
+
+**The result (COMPUTED; one run after one stopped launch; K0 and K1 as predicted; K2, K3 and K4 failed as worded).**
+- **K0 held (exact).** At every order listed, the moves' orbit of (0, 1/N) is every point of exact order N.
+- **K1 held (exact).** (0, 1/N) at Re τ = 0 is mirror-fixed at every order.
+  - The controls behaved. A mirror-free slope-2/5 line at Re τ = 0.3 tests not fixed.
+  - The transformation law V(γτ; ψ̃) = V(τ; ψ) holds to 2.6 × 10⁻⁷ relative.
+- **K2 failed: the height is not held.** At every order, N = 1 included, the least over the order's lines and F lies
+  on the domain's top edge, Im τ = 4. It sits on the line (0, 1/N), which is the trivial line at N = 1.
+- **K3 failed as computed.**
+  - The exact test called the least not CP-fixed at N = 2, 3, 5, 9, 12 and 25.
+  - At the rule's 10⁻⁶ it would also have failed at N = 1, 7, 15 and 20 (post hoc).
+  - J at every least is at most 2.2 × 10⁻¹².
+- **K4 failed as worded.** Every order's least has Im τ = 4. That is the domain's cut, which lies in the band's closed
+  interval [2, 4]. It is the edge of the domain, not a point the potential places in the band (K2).
+- **The read-outs.**
+  - No least lies on a slope-2/5 line.
+  - The order with the least V overall is N = 1, with −5011.20 at τ ≈ 4i. The other orders run from −5003.50
+    (N = 3) to −5010.31 (N = 30).
+  - The script did not deliver the rule's "second-least distinct configuration". Each order's five refined candidates
+    are one line at one height, differing only in Re τ. The post hoc supplies it on the top-edge row.
+
+**The post hoc (labelled; not cells).**
+- **P1, the CP verdicts.** On each order's least line at Im τ = 4, the X-profile (201 points) is even to
+  3 × 10⁻¹². Its amplitude is 2 × 10⁻¹² to 2 × 10⁻¹⁰ of |V|.
+  - At 15 of 16 orders the profile's least is at a mirror point, Re τ = 0 or ½. There the exact test says CP-fixed.
+  - The stored "not fixed" at N = 2, 5, 9, 12 and 25 are the tolerance. The optimizer stopped 5 × 10⁻⁶ to
+    9 × 10⁻⁵ from the mirror point, on a profile that flat.
+  - **N = 3 is not resolved.** The profile's least is at Re τ = ±0.385, off the mirror. But its amplitude is
+    2 × 10⁻¹² of |V| (10⁻⁸ absolute).
+    - That is far below the 2.6 × 10⁻⁷ to which the kernel's transformation law was checked.
+    - A hand estimate of how the truncation (|m|, |n| ≤ 48) depends on Re τ gives the same order, about 10⁻⁸. It
+      was not computed.
+    - J at the stored least nearby (Re τ = 0.4) is 3 × 10⁻¹⁵.
+- **P2, the height.** On every least line, V/(Im τ)³ tends to A(0) = −78.2082 as Im τ runs from 2 to 16. Above 4
+  this is outside the rule's domain. dV/dy at Im τ = 4 is −3751 to −3755.
+  - **What A(ψ₁) is.** It is the kernel's n = 0 row over y^s, summed over the content.
+  - **A(0) by hand.** The parities' factor on that row is 1 + 2(−1)^m, so A(0) = (15/8) ζ(6) Σ_q w_q. With W67's
+    signed weight Σ_q w_q = −41, this is −78.20825, matching the computed value to 7 × 10⁻¹⁰.
+  - **Which lines.** Every a = 0 line has the same A(0), and it is the least A over each order's lines. At N = 5,
+    the slope-2/5 lines (a = ±2/5) are exactly the lines with A > 0, pushed away from the cusp, as W175's C4 found.
+- **P3, the second-least distinct configuration** (on the row Im τ = 4).
+  - For N ≥ 5 it is another a = 0 line, (0, k/N), at a gap of 0.74 to 5.2.
+  - For N = 2, 3, 4 and 6 there is one a = 0 line up to sign. The second is then an a ≠ 0 line, at a gap near
+    5 × 10³.
+  - The least line with a ≠ 0 is (1/N, 0) at every order except N = 4, where it is (1/2, 1/4).
+- **P4, J off the mirror on a = 0 lines.**
+  - On (0, 1/5), |J| is 1.7–3.4 × 10⁻⁵ at Im τ = 2 off the mirror, and at most 4 × 10⁻¹⁰ at Im τ = 4.
+  - On (0, 1/3), it is at most 2 × 10⁻⁸ at Im τ = 2 and 4 × 10⁻¹⁴ at Im τ = 4.
+
+**What it shows (a READING on the computed facts).**
+- **Question 3 is answered at the consistency level (exact).** No condition the weave forces on the line can select
+  a class within an order.
+  - It sees only N (K0).
+  - Every order has a CP-conserving configuration (K1).
+  - Over the whole weave, the bundle condition fixes only N = 1 (W140).
+- **Given the order, the dynamics chooses no class in the band.** The frame's own potential runs to the cusp on the
+  a = 0 lines, as V ≈ (15/8) ζ(6) (Σ_q w_q) (Im τ)³.
+  - The form is exact: it is the kernel's n = 0 row, with the content's signed weight −41.
+  - No order has a minimum at finite height. So with this content there is no holder of P-287's C6 kind given N.
+  - There is no minimum for the spontaneous-breaking clause to admit, because the least is the domain's cut.
+- **The runaway conserves CP.**
+  - Wherever the post hoc resolves it, the least is at a mirror point.
+  - J at every least is at most 2 × 10⁻¹².
+  - On the lines read, J off the mirror also falls by five to six orders of magnitude from Im τ = 2 to 4.
+  - K3's failures do not carry the meaning the rule gave them, an orbit of two CP-violating states.
+  - Horn 1 returns at the weave level in a limiting form: the potential runs to where CP violation vanishes.
+- **The class it prefers is the trivial one.**
+  - Within an order it prefers the a = 0 lines. Across the orders computed, N = 1 has the least V along the least
+    lines at every height read (2–16).
+  - So the dynamics agrees with the weave's bundle condition on the trivial line.
+  - The data's carriers, the slope-2/5 lines, are pushed away from the cusp at N = 5 (A > 0).
+- **A necessary condition for any holder given N** (by hand, from the same row).
+  - The a = 0 line exists at every order, and its cusp coefficient is (15/8) ζ(6) Σ_q w_q.
+  - So a content can hold the height on an order's modular curve only if Σ_q w_q ≥ 0. In W67's signs that means the
+    bosons' weighted count is at least the fermions'.
+  - W67's content with the bosons' weight 1 has −41.
+- **For THE RIDDLE's closing page.**
+  - **The height.** On the slope-2/5 classes the potential pushes it down (W175); over an order's modular curve it
+    runs to the cusp. Either way it is not held.
+  - **The class.** The forced class condition the page asked for does not exist within an order (K0, K1). The
+    dynamics prefers the trivial line and the a = 0 lines, where CP is conserved.
+
+**Weave or thread.**
+- Per N, this is a WEAVE result given the stated order. It takes every line of the order, none hand-picked. Its
+  quantity is the weave-type potential, and its claim covers all lines of the order at once.
+- The order is a stated parameter, reported per value. The comparison across orders is a read-out over the orders
+  listed.
+
+**For the look ledger:** no target was read.
+
+0 of 19.
+
 ## Reading: THE RIDDLE probed to the end — the principle delivers counts, patterns, relations and spontaneous CP violation, and leaves one continuous number free, the height (READING, 2026-10-28; the program's closing page)
 
 **Why.** THE RIDDLE's program (the reading below, relay §316) ended with "a closing page states what the principle can
@@ -7793,6 +7909,10 @@ the end. This page closes the program. It adds no computation; each line cites t
 
 **Status.** READING. The program of THE RIDDLE is closed: horns 1 and 3 probed, item 4 answered, item 2 read, item 5
 moot. The open items are the three above. 0 of 19.
+
+*Dated 2026-10-28: W176 (above) settles the second open item within an order. No condition the weave forces selects a
+class within an order (exact). Given the order, the frame's own potential runs to the cusp on the a = 0 lines, where CP
+is conserved, and the trivial line is least. Over an order's modular curve the height is not held either.*
 
 ## W175. THE RIDDLE's horn 1 off the mirror (the web seat's question 1): the frame's own one-loop potential breaks CP spontaneously. On every mirror-free slope-2/5 class its X-minimum has J ≠ 0 at every height. On the counted class itself the mirror point stops being the minimum below Im τ ≈ 2.22, a pitchfork (post hoc). The height is not held: every two-dimensional minimum runs to the domain's lower edge. Among the classes the order-5 class, which has a mirror point, has the least potential at every height. C0, C1 and C4 as predicted; C2 and C3 failed as worded (`the_potential_off_the_mirror.py`; `W175_RULE.md`; post hoc `the_potential_off_the_mirror_posthoc.py`)
 
@@ -14908,6 +15028,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W176 | COMPUTED (the rule first; one run after one stopped launch, disclosed; K0 and K1 as predicted; K2, K3 and K4 failed as worded; a locus-tolerance slip disclosed; one labelled post hoc); a weave result per stated order | the web seat's question 3: a forced condition on the line sees only the order, and every order has a CP-fixed configuration (exact); given the order, the frame's potential runs to the cusp on the a = 0 lines, V ≈ (15/8) ζ(6) (Σ_q w_q) (Im τ)³ with Σ_q w_q = −41, so no height is held; the least is CP-conserving wherever resolved (N = 3 unresolved) with J ≤ 2 × 10⁻¹²; the trivial line is least across the orders |
 | W175 | COMPUTED (the rule first; one run; C0, C1, C4 as predicted; C2 and C3 failed as worded; one labelled post hoc); a frame result on stated classes | THE RIDDLE's horn 1 off the mirror (the web seat's question 1): the frame's own potential breaks CP spontaneously — J ≠ 0 at its X-minimum on all ten mirror-free classes at every height, and on the counted class below Im τ ≈ 2.22 (a pitchfork, post hoc); J's size 10⁻⁵–10⁻² rides on the height, which is pushed down out of the band; the order-5 class (CP-conserving) has the least potential at every height |
 | W174 | COMPUTED (the rule first; one run; S1–S3 as predicted, S0 failed: 74% of resolved lines converged by Im τ 6); a frame census over every line and every forced pattern on record | THE RIDDLE's item 4: no forced exponent pattern carries the six with one shared small parameter and coefficients within a factor 3; nearest the slope-2/5 lines, 3–11% beyond the factor 3 at Im τ ≈ 2.35, pattern (1, 8/3) up and (2/3, 11/6) down and leptons in ε = e^{−0.6π Im τ}; leptons on it, down off by ~3 and ~1/3; the frame's own first-generation coefficients 3–150; near-data null passes 18.5% |
 | W173 | COMPUTED (the rule first; one completed run after one interrupted launch, disclosed; every cell as predicted); a frame result at data-chosen rows, a thread-and-frame look | THE RIDDLE's horn 3: at all 38 best rows the fit is carried by the chosen point — the first generation needs prefactors 4.6–51 over its forced local exponent (down 43–51), Re τ sweeps a feature by up to 20σ, and only the row's own line of 266 passes at its τ; the skeleton works only for m_s/m_b; the CKM sits near a relabelling |
