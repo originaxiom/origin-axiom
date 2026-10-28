@@ -7726,6 +7726,104 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## Reading: THE RIDDLE — why the record removes no input and matches no data even with inputs: what the principle forces is symmetric, and the data are not (READING, 2026-10-28; the owner's question, and the program that probes it to the end)
+
+**Why.** The owner asked why the record fails to reduce inputs, and fails to match the data even with inputs, and
+suspected a conceptual problem. This reading names it, lists the record's evidence for each part, and fixes the program
+that probes it to the end. The owner judged the argument legitimate and asked for that program ("focus into probing
+that to the end"). It is a READING on computed results; nothing here is new computation.
+
+**The riddle.** Everything the principle forces is symmetric under the moves and the mirror, and the data are not. So
+every number the record derives is either:
+- an invariant, which is symmetric and so cannot be the data; or
+- a value at a chosen point, which is an input.
+
+Inputs do not rescue it, because the inputs added are menus of choices, not the missing structure.
+
+**Horn 1, selection: what the frame's own dynamics picks keeps a residual symmetry.**
+- **The mechanism.**
+  - The one-loop potentials on record depend only on the spectrum ∣n + mτ + q w∣². The mirror (τ, w) ↦ (−τ̄, −w̄)
+    maps that spectrum to itself (n ↦ −n). So every such potential is mirror-even, whatever the content, chiral or not.
+  - An invariant function is stationary at the points the moves fix (the stabiliser rotates the tangent plane at i and
+    ω), and its normal derivative vanishes on the mirror lines. This is Michel's critical-orbit principle.
+  - So minima sit on the fixed points or the mirror lines unless several terms compete with tuned coefficients, and
+    tuned coefficients are inputs. A point on those loci keeps a piece of the symmetry, and that piece removes CP
+    violation, the differences between sectors, or the mixing.
+- **The record.**
+  - W51: every canonical functional picks ω or the cusp. W59: ω or the cusp. W60: the line at a half-period.
+  - W62: every content on record runs to a cusp. W154: every content treating the parities alike runs to the cusp,
+    sits at ω or i, or stays on the imaginary axis.
+  - W169: the counted line's potential picks the mirror's fixed point, X = 1. W170: J = 0 exactly there.
+  - W137: θ̄ is fixed only where J = 0. W113: the one assignment that fixes θ̄ and keeps J has a CP-conserving best
+    point.
+- **Not a theorem in general.** The modular-flavour literature also finds the fixed points natural minima, but richer
+  supergravity potentials, with a chosen non-perturbative function, can break CP spontaneously near ω (Novichkov, Penedo
+  and Petcov, arXiv:2201.02020, seen 2026-10-28 by search; not read in full here). So horn 1 is a claim about the
+  potentials this frame forces, and it is to be proved or broken for them.
+
+**Horn 2, averaging: what the weave takes over every thread or line is invariant.**
+- W73: one coupling for every sector gives V = 1.
+- W74: the averaged frame is CP-invariant, so it has no CKM phase.
+- W171: averaged over every line of the counted order, every sector's surface Yukawa is zero.
+- An orbit sum can only carry what every move leaves fixed. The data's asymmetries are not of that kind.
+
+**Horn 3, choices carry the data.**
+- **The counted choices** (W166–W170): the line, Re τ, the height, the down sector's conjugation, the readings, c and
+  the horocycle (chat1). None is forced, and together they form a large menu.
+- **A large menu lands six numbers somewhere.** Once every choice is counted, the nulls say so: B1798 (main), neither
+  B1753 nor B1749 passes when c is chosen on the same six numbers.
+- **When a row fits, the structure is not doing the work.** chat1's arithmetic (not a sealed cell) puts the first
+  generation's prefactors near 30 at the best rows, not near 1.
+- **The CKM fails everywhere.** The sectors differ by a shift of the same functions, a reading or a conjugation. That
+  gives exact alignment (V = 1) or misalignment of order one (W170's moduli off by factors 3 and 6), never a small
+  graded one.
+- **The relations tested so far failed cleanly.** W90 tested B1657's laws and they failed. That is the right kind of
+  test.
+
+**The diagnosis (a READING).**
+- **What a symmetric principle can deliver** is integers and counts (the record has them: three, chirality, the group
+  given F-MC), relations that hold at every state, and the shape of small numbers (which powers of what). It cannot
+  deliver a generic point.
+- **The data look like an approximate symmetry:** powers of one small number, coefficients of order one, and one CP
+  phase of order one.
+- **The missing concepts** are a forced small parameter (how far from the fixed point) and a forced breaking (what moves
+  the state off the CP-fixed loci). The owner's goal of 2026-10-21, a forced integer pattern and one weave constant,
+  already names the first.
+- **Near a fixed point** masses go as powers of the distance from it. W68 found δ² : δ : 1 at ω, and the literature
+  finds the same.
+- **The literature's route for CP** (seen 2026-10-28 by search; not read in full here): θ̄ = 0 with a large CKM phase
+  when the quarks' modular weights sum to zero and only τ breaks CP (Feruglio, Strumia, Titov and co-authors,
+  arXiv:2406.01689 and 2505.20395). W113 is this record's nearest case, and its best point is CP-conserving: horn 1
+  again.
+
+**What would break the riddle.**
+- A forced selection off the CP-fixed loci: a potential the principle forces whose minimum breaks CP.
+- Or a forced skeleton, the exponents near one fixed point, that matches the data with one small number.
+
+**The program (each arc rule first; each labelled weave or thread).**
+1. **Horn 1 at one loop, proved and counted.**
+   - The mirror lemma, exact.
+   - For every content the frame forces, the global minimum over τ and the lines, classified: fixed point, mirror line,
+     or generic.
+   - The price of a CP-breaking minimum: the least coefficient of one added invariant term that moves the minimum off
+     the loci.
+2. **The weave's own sum over threads as a selection functional** (the one forced structure not built from the cusp's
+   Eisenstein series). A design reading first; a rule only if the functional is forced, with no weight chosen by hand.
+3. **What carries the fit:** at the record's best rows, the part of each ratio from the forced exponents against the
+   part from the prefactors.
+4. **The skeleton census:**
+   - the data's own exponent pattern in one small parameter, sector by sector, and the CKM's;
+   - against every pattern the frame forces near i, ω and the cusp (the residual charges, W68's kind).
+   - If none matches, no choice of point can work, and the problem is upstream: the dictionary or the charges. If one
+     matches, it is the target, and its distance is the one number left.
+5. **The CP split near a fixed point:** θ̄ fixed by the weights (W113's assignment) with J from the distance, at the
+   skeleton's fixed point.
+
+**The end.** A closing page states what the principle can deliver and what it cannot, with each item proved, computed
+or excluded.
+
+**Status.** READING. A diagnosis and a program. 0 of 19.
+
 ## W171. W73 per sector at N = 10, the counted line's order, in the weave reading: the frame's own moves forbid every sector's surface Yukawa, in both readings of the twist. On every one of the 36 lines of order 10 the stabiliser carries a non-trivial character for up, down and leptons, and the sum over the orbit vanishes to 10⁻⁴⁹. W73 per sector ends as an exclusion. K0, K1, K3 and K4 as predicted; K2 failed as worded on two instrument slips, and its content holds post hoc (`the_surface_frame_at_order_ten.py`; `W171_RULE.md`; post hoc `the_surface_frame_at_order_ten_posthoc.py`)
 
 **Why.** The last item on the owner's list (relays §304 and §312). W73 left one route to values in the surface frame:

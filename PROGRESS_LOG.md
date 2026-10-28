@@ -21269,3 +21269,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   This seat's latest result is a data-free condition of the kind it asked about.
   0 of 19.
 
+## 2026-10-28 — the riddle named
+
+- **The question (the owner's):** why does the work never reduce the free numbers, and never match the data even when
+  numbers are added?
+- **The answer, as a reading:** what the principle forces is symmetric, and the world's numbers are not. Anything the
+  principle fixes on its own comes out symmetric, and so wrong. Anything that matches has been chosen, and so is an
+  input.
+- **Next:** the owner asked for this to be probed to the end. The next steps test each part of the argument, and look
+  for the one thing that would break it.
+  0 of 19.
+

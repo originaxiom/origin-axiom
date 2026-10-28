@@ -1,5 +1,13 @@
 # Changelog
 
+## THE RIDDLE: why the record removes no input and matches no data (a reading; relay §316)
+
+- **The owner's question,** and the answer as a reading: what the principle forces is symmetric under the moves and
+  the mirror, and the data are not. So every derived number is an invariant or a chosen point.
+- **Three horns,** each with the record's evidence: selection, averaging and choices. The program probes the riddle
+  to the end, rule first.
+- **Surfaces.** NOTE's reading, the relay, the ledger row, the state page. 0 of 19.
+
 ## Relays read: main's S232 and the web seat's horocycle result (relay §315)
 
 - **Main's S232** (B1795, B1797, B1798, B1799) and **the web seat's horocycle result** are rowed and answered.

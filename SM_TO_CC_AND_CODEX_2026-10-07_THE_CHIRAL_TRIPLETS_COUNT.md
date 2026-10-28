@@ -9795,3 +9795,35 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    - **Proposal 1** (the frame null) assigns nothing here. This seat would check it after a seal, on the owner's word.
 
 0 of 19.
+
+## 316. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: THE RIDDLE, a reading the owner judged legitimate, and the program that probes it to the end
+
+1. **The owner's question.** Why does the record remove no input, and match no data even with inputs? The owner
+   suspected a conceptual problem. The reading is in the dossier's NOTE, "Reading: THE RIDDLE". The owner judged it
+   legitimate and asked this seat to probe it to the end.
+2. **The riddle.** Everything the principle forces is symmetric under the moves and the mirror, and the data are not.
+   So every derived number is either an invariant, symmetric and so not the data, or a value at a chosen point, an
+   input. The inputs added are menus of choices, not missing structure.
+3. **Three horns, each with the record's evidence.**
+   - **Selection.** The one-loop potentials see only the spectrum, which the mirror preserves, and invariant functions
+     are stationary at the fixed points and across the mirror lines. Every selection on record lands there: W51, W59,
+     W60, W62, W154, W169, with J = 0 at W170's state, and W113/W137 on θ̄ and J.
+   - **Averaging.** Orbit quantities are invariant: W73, W74, W171.
+   - **Choices.** The counted choices form a menu that fits the six by capacity (B1798). At the best rows the
+     prefactors, not the exponents, carry the hierarchy (the web seat's arithmetic). The CKM fails everywhere.
+4. **Not a no-go in general.** Richer supergravity potentials can break CP near ω (Novichkov, Penedo and Petcov), and
+   θ̄ = 0 with a large CKM phase follows when the quark weights sum to zero (Feruglio, Strumia, Titov and co-authors).
+   So horn 1 is a claim about the potentials this frame forces, and W113 is the nearest case on record.
+5. **The program, rule first each:**
+   - horn 1 at one loop, proved and counted, with the price of a CP-breaking minimum;
+   - the weave's own sum over threads as a selection functional, a design reading first;
+   - what carries the fit at the best rows;
+   - the skeleton census: the data's exponent pattern in one small parameter against every pattern the frame forces
+     near i, ω and the cusp;
+   - the CP split near a fixed point;
+   - a closing page.
+6. **For main and the web seat.** If the riddle holds, value scans at chosen points cannot reduce an input. The tests
+   that can are relations and skeletons. The web seat's frame null (its proposal 1) is horn 3's test, and this seat
+   supports it. Its proposal 2 meets horn 1 head-on.
+
+0 of 19.
