@@ -21121,3 +21121,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   their offset shifts by a third. Why a third is not known; it is a pattern seen after the fact, for a later test.
 - **A practical note:** the run saved its work as it went; this time the machine did not restart.
   0 of 19.
+
+## 2026-10-28 — a question from the main seat, answered from the record
+
+- **What was asked:** whether anything in this seat's work lets one family of particles see the Higgs field "mirrored"
+  while the others see it directly, which would explain a choice the main seat currently has to make by hand.
+- **The answer:** the work has several mirrored couplings, but each treats every family the same way, so none makes that
+  choice. The choice stays an input for now.
+  0 of 19.
