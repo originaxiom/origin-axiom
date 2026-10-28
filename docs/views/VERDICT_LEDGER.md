@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1507 of 1507 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1508 of 1508 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1029)
+## PROVED (1030)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1041,6 +1041,7 @@
 | `B1801` | m004'S FILLINGS AS THE 3-CYCLE Q OF A G2 COMPACTIFICATION (data-free; PROVED for the torsion, NEGATIVE for a coupling): the order-3 Reidemeister torsion of every hyperbolic filling m004(p/q) with 3 | p is 4/3 (|Delta_41(omega)| = 4; Turaev, Fox calculus on SnapPy's presentation, and 3-fold cyclic covers with |H1| = 16p/3), so Friedmann-Witten's L(Q) = 3|H1|/4; the Z/3 line diag(w,w,w,1,1) breaks SU(5) to S(U(3)xU(2)) as every such line does; Friedmann-Witten's thresholds are x k_a + y b_a (their 3.21, computed), so the one-loop sin^2 theta_W is unchanged for any Q -- the torsion relates moduli to M_GUT and fixes none of the 19; the draft's doublet-triplet split withdrawn (in this frame the Higgs are complete multiplets at points; Witten's mechanism needs an involution with fixed circles, P-408). 0 of 19. |  | 1 |
 | `B1802` | WITTEN'S DOUBLET-TRIPLET TOPOLOGY ON THE FIGURE-EIGHT'S EVEN FILLINGS (P-408; data-free; PROVED for the topology): each of m004(p/q)'s three involutions (two strong inversions, one period) has exactly two fixed circles when p is even (explicit branch links L11n132, L13n4507, L13n4800, L14n24777; odd p gives knots); either strong inversion preserves the unique order-2 line W = diag(1,1,1,-1,-1) (SU(5) -> SM) and necessarily lifts trivially on one circle and by W on the other; the period preserves the Z/6 line and splits by W^3 when 6 | p and p = 2 mod 4 -- Witten's topological structure at n = 2, where his first model fails with Z/2 alone (his own caveat); the full Sym(Q) = Z/2 x Z/2 admits 6 enumerated solutions (realisation open, P-409). Structural; none of the 19. |  | 1 |
 | `B1803` | WITTEN'S FIRST MODEL WITH THE FILLINGS' FULL SYMMETRY GROUP (P-409; data-free; PROVED for the topology and the census): on a hyperbolic m004(p/q) with p even, F' = Sym(Q) = Z/2 x Z/2 (two strong inversions and the period) fixes exactly four points -- two on the period's axis in the knot exterior, two on the filling's core -- and, relative to one, they carry all four characters of F' when p = 2 mod 4 and two, twice each, when p = 0 mod 4 (the period's relative lift p/2 mod 2, proved from H1 of the orbifold Q/P and checked on 75 fillings; the referee's two other routes on 150); Witten's first model needs eight multiplets at F'-fixed points, so it cannot be built at distinct points (8 > 4); with coincident points, which his section 3 allows, it is realisable, with at least 4 (p = 0 mod 4) or 7 (p = 2 mod 4) multiplets at one point (12 and 512 placements); each Z/2 alone still needs a matter parity from elsewhere; local models with coincident multiplets open (P-416). Structural; none of the 19. |  | 1 |
+| `B1804` | SELECTION BY INVERSION, FIRST TEST (P-419; data-free; PROVED for both frames' statements): LR-invariant fluxes of Hodge type (1,1) force only curves in the split frame (T^4 = E_tau x E_tau' along LR's invariant splitting: det-form signature (1,1), countably many Hecke-type curves tau' = M tau, no two meeting in H, for every integer flux; controls S -> (i,i), ST -> (omega,omega), T -> none), but force isolated CM points when LR acts holomorphically (the same lattice action, conjugate in SL(4,Z); abelian surfaces with real multiplication by Z[phi]; signature (2,2); quartic CM points in Q(sqrt5, sqrt-d), d = 1, 2, 3, 7, one with CM by Q(sqrt5, sqrt-3), the record's genus field) -- chosen by free flux integers, not by LR, in a frame without an LR-invariant Kahler class; the draft's unscoped NEGATIVE overturned at the referee. None of the 19. |  | 1 |
 
 ## NEGATIVE (374)
 

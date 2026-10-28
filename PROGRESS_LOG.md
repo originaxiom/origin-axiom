@@ -18029,3 +18029,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The six's L_max rows are fits of the small-cut formula at L_max's height; the exact norms there are 35–38% lower and the six fail near the families' rows (RETRACTIONS; P-421). The counted class characterised, not derived (P-422); THE TWO W's (P-424); the web seat's audit (P-423); P-419's first computation (a curve, never a point). 0 of 19.
 - **Landing suite (S238).** 7 833 passed, 68 skipped, 2 failed in 41:47 — B805's two standing attachment locks (P-239).
+
+## 2026-10-28 — S239 B1804 (SELECTION BY INVERSION, FIRST TEST)
+
+- LR-invariant (1,1) fluxes: curves only in the split frame; isolated CM points chosen by flux integers in the holomorphic frame (no invariant Kähler class). Main's draft NEGATIVE overturned at its referee. P-425: CM by the object's compositum ℚ(√5, √−3) (class number 1) — reframed before landing after B334 and B336: requiring it is a choice; the question is whether the flux route reaches √−15. 0 of 19.
+- **Landing suite (S239).** 7 836 passed, 68 skipped, 2 failed in 34:54 — B805's two standing attachment locks (P-239); run on the commit before P-425's text was corrected (a text-only amendment after the seen-first sweep found B334 and B336; the gates rerun on the amended tree).

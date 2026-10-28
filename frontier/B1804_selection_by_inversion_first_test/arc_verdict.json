@@ -1,0 +1,28 @@
+{
+ "id": "B1804",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B486",
+  "B730",
+  "B1696",
+  "B1791",
+  "B1794",
+  "B1800"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "magnetic fluxes on a flat complex 2-torus invariant under the monodromy LR; supersymmetry read as Hodge type (1,1) only (the D-term/Kahler half examined separately)",
+  "object": "the monodromy LR (and RL) of the figure-eight's fibration, acting on T^4 = E x E' (split frame) or holomorphically (abelian surfaces with real multiplication by Z[phi])",
+  "reach": "class",
+  "hypotheses": "flat tori; the second factor, the action and the flux integers are choices; no physical coupling computed"
+ },
+ "claim_one_line": "SELECTION BY INVERSION, FIRST TEST (P-419; data-free; PROVED for both frames' statements): LR-invariant fluxes of Hodge type (1,1) force only curves in the split frame (T^4 = E_tau x E_tau' along LR's invariant splitting: det-form signature (1,1), countably many Hecke-type curves tau' = M tau, no two meeting in H, for every integer flux; controls S -> (i,i), ST -> (omega,omega), T -> none), but force isolated CM points when LR acts holomorphically (the same lattice action, conjugate in SL(4,Z); abelian surfaces with real multiplication by Z[phi]; signature (2,2); quartic CM points in Q(sqrt5, sqrt-d), d = 1, 2, 3, 7, one with CM by Q(sqrt5, sqrt-3), the record's genus field) -- chosen by free flux integers, not by LR, in a frame without an LR-invariant Kahler class; the draft's unscoped NEGATIVE overturned at the referee. None of the 19.",
+ "weave_or_thread": "thread (the monodromy alone)"
+}

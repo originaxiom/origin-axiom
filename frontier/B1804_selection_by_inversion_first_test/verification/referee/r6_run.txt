@@ -1,0 +1,6 @@
+P diag P^-1 == factor-index action: True ; det P = -1
+  P*diag(I, -I): det -1, conjugates diag to factor-index: True
+  P*diag(J, J): det -1, conjugates diag to factor-index: False
+  P*diag(A, I): det -1, conjugates diag to factor-index: True
+  P*diag(A - I, I) [A - I = golden unit, det -1, commutes with A]: det 1, conjugates diag to factor-index: True
+r6 exit 0

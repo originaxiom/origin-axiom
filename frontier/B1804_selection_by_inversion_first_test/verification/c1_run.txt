@@ -1,0 +1,21 @@
+A = LR = [[1, 1], [1, 2]], action diag: invariant mixed classes (2): [[[0, -1], [1, 0]], [[-1, -1], [0, 1]]]
+   N = [[0, -1], [1, 0]]: (1,1) iff -tau + taup = 0 -> tau' = [tau] ; det N = 1
+   N = [[-1, -1], [0, 1]]: (1,1) iff tau*taup - tau - 1 = 0 -> tau' = [(tau + 1)/tau] ; det N = -1
+   both (1,1): tau = 1/2 - sqrt(5)/2, tau' = 1/2 - sqrt(5)/2 ; Im tau = 0, Im tau' = 0
+   both (1,1): tau = 1/2 + sqrt(5)/2, tau' = 1/2 + sqrt(5)/2 ; Im tau = 0, Im tau' = 0
+A = LR = [[1, 1], [1, 2]], action dual: invariant mixed classes (2): [[[-1, 1], [1, 0]], [[1, 0], [0, 1]]]
+   N = [[-1, 1], [1, 0]]: (1,1) iff tau*taup + tau + taup = 0 -> tau' = [-tau/(tau + 1)] ; det N = -1
+   N = [[1, 0], [0, 1]]: (1,1) iff -tau*taup - 1 = 0 -> tau' = [-1/tau] ; det N = 1
+   both (1,1): tau = 1/2 - sqrt(5)/2, tau' = 1/2 + sqrt(5)/2 ; Im tau = 0, Im tau' = 0
+   both (1,1): tau = 1/2 + sqrt(5)/2, tau' = 1/2 - sqrt(5)/2 ; Im tau = 0, Im tau' = 0
+A = RL = [[2, 1], [1, 1]], action diag: invariant mixed classes (2): [[[0, -1], [1, 0]], [[-1, 1], [0, 1]]]
+   N = [[0, -1], [1, 0]]: (1,1) iff -tau + taup = 0 -> tau' = [tau] ; det N = 1
+   N = [[-1, 1], [0, 1]]: (1,1) iff tau*taup + tau - 1 = 0 -> tau' = [(1 - tau)/tau] ; det N = -1
+   both (1,1): tau = -1/2 + sqrt(5)/2, tau' = -1/2 + sqrt(5)/2 ; Im tau = 0, Im tau' = 0
+   both (1,1): tau = -sqrt(5)/2 - 1/2, tau' = -sqrt(5)/2 - 1/2 ; Im tau = 0, Im tau' = 0
+A = RL = [[2, 1], [1, 1]], action dual: invariant mixed classes (2): [[[1, 1], [1, 0]], [[1, 0], [0, 1]]]
+   N = [[1, 1], [1, 0]]: (1,1) iff -tau*taup + tau + taup = 0 -> tau' = [tau/(tau - 1)] ; det N = -1
+   N = [[1, 0], [0, 1]]: (1,1) iff -tau*taup - 1 = 0 -> tau' = [-1/tau] ; det N = 1
+   both (1,1): tau = -1/2 + sqrt(5)/2, tau' = -sqrt(5)/2 - 1/2 ; Im tau = 0, Im tau' = 0
+   both (1,1): tau = -sqrt(5)/2 - 1/2, tau' = -1/2 + sqrt(5)/2 ; Im tau = 0, Im tau' = 0
+c1 exit 0

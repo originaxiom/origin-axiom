@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1507** |
-| words of findings prose | **1,228,396** |
-| test lock files referenced | **922** |
-| arcs carrying an authored verdict | **1507** (100.0 %) |
+| research arcs with findings | **1508** |
+| words of findings prose | **1,230,003** |
+| test lock files referenced | **923** |
+| arcs carrying an authored verdict | **1508** (100.0 %) |
 | recorded closures | **850** (683 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1029 |
+| PROVED | 1030 |
 | NEGATIVE | 374 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1803`** (2109 words, 1 locks)  
-WITTEN'S FIRST MODEL WITH THE FILLINGS' FULL SYMMETRY GROUP (P-409; data-free; PROVED for the topology and the census): on a hyperbolic m004(p/q) with p even, F' = Sym(Q) = Z/2 x Z/2 (two strong inversions and the period) fixes exactly four points -- two on the period's axis in the knot exterior, two on the filling's core -- and, relative to one, they carry all four characters of F' when p = 2 mod 4 and two, twice each, when p = 0 mod 4 (the period's relative lift p/2 mod 2, proved from H1 of the orbifold Q/P and checked on 75 fillings; the referee's two other routes on 150); Witten's first model needs eight multiplets at F'-fixed points, so it cannot be built at distinct points (8 > 4); with coincident points, which his section 3 allows, it is realisable, with at least 4 (p = 0 mod 4) or 7 (p = 2 mod 4) multiplets at one point (12 and 512 placements); each Z/2 alone still needs a matter parity from elsewhere; local models with coincident multiplets open (P-416). Structural; none of the 19.  
-`B1803_witten_first_model_with_the_fillings_full_symmetry_group/FINDINGS.md`
+**PROVED — `B1804`** (1607 words, 1 locks)  
+SELECTION BY INVERSION, FIRST TEST (P-419; data-free; PROVED for both frames' statements): LR-invariant fluxes of Hodge type (1,1) force only curves in the split frame (T^4 = E_tau x E_tau' along LR's invariant splitting: det-form signature (1,1), countably many Hecke-type curves tau' = M tau, no two meeting in H, for every integer flux; controls S -> (i,i), ST -> (omega,omega), T -> none), but force isolated CM points when LR acts holomorphically (the same lattice action, conjugate in SL(4,Z); abelian surfaces with real multiplication by Z[phi]; signature (2,2); quartic CM points in Q(sqrt5, sqrt-d), d = 1, 2, 3, 7, one with CM by Q(sqrt5, sqrt-3), the record's genus field) -- chosen by free flux integers, not by LR, in a frame without an LR-invariant Kahler class; the draft's unscoped NEGATIVE overturned at the referee. None of the 19.  
+`B1804_selection_by_inversion_first_test/FINDINGS.md`
 
 **NEGATIVE — `B1798`** (1635 words, 1 locks)  
 THE SIX GRADED UNDER THE CLASS-CHOOSING NULL (R71-1; NEGATIVE for PASSED): with B1753's census completed to all 266 lines (48 614 points, verified) and 10^7 fresh targets, the class-choosing null gives B1753 m*r 0.0084-0.0088 at m = 39-41 and B1749 0.0094-0.00999 at m = 33-35; but the lepton factor c = 3 was chosen on the same six numbers (the web seat's GJ_FINDINGS) and that null holds it fixed -- a null letting each target choose c as the data did gives m*r 0.035-0.079 (B1753) and 0.034-0.082 (B1749); counted per decisive cell (m ~ 51) B1753 fails too; neither is PASSED; the six's specificity rests on c read from the data. No input removed. 0 of 19.  

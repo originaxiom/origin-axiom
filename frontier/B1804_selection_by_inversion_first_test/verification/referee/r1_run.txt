@@ -1,0 +1,11 @@
+(b) c20 - conj(c02) = 0 (0 => F^{2,0} = conj F^{0,2} for real F)
+(b) dzb1^dzb2^dz1^dz2 = -(tau - taub)*(tp - tpb) vol
+(b) F^dz1^dz2 - c02 * that = 0
+(b) F^dz1^dzb2 - c(dzb1^dz2) * basis = 0 -> it is a (1,1) component, not a condition
+(c) F_N^dz1^dz2 = -Nxx*tau*tp + Nxy*tau + Nyx*tp - Nyy ; minus the draft's expression = 0
+(c) tau' = (Nxy*tau - Nyy)/(Nxx*tau - Nyx) ; check M.tau: 0 ; det M - det N = 0
+(d) F_N ^ F_N = -2*(Nxx*Nyy - Nxy*Nyx) vol  (= -2 det N)
+(d) area form (0, 1) ^ dz1 ^ dz2 = 0
+(d) area form (2, 3) ^ dz1 ^ dz2 = 0
+(d) (i/2) dz1^dzb1 coefficient of dx1^dy1 = I*(-tau + taub)/2 (= Im tau for taub = conj tau)
+r1 exit 0

@@ -1,0 +1,36 @@
+(a) pullback law: phi^*F_N = F_{A^T N B}: True
+A = LR [[1, 1], [1, 2]], action diag: dim 2, det signature (+,-,0) = (1, 1, 0); law gives the same space as A^T N B: {'A^T N B': True, 'A N B^T': True, 'A^-T N B^-1': True, 'A^-1 N B^-T': True}
+     law A^T N B     : every invariant class's (1,1) locus stable under the induced moduli action: True
+     law A N B^T     : every invariant class's (1,1) locus stable under the induced moduli action: True
+     law A^-T N B^-1 : every invariant class's (1,1) locus stable under the induced moduli action: True
+     law A^-1 N B^-T : every invariant class's (1,1) locus stable under the induced moduli action: True
+A = LR [[1, 1], [1, 2]], action dual: dim 2, det signature (+,-,0) = (1, 1, 0); law gives the same space as A^T N B: {'A^T N B': True, 'A N B^T': True, 'A^-T N B^-1': True, 'A^-1 N B^-T': True}
+     law A^T N B     : every invariant class's (1,1) locus stable under the induced moduli action: True
+     law A N B^T     : every invariant class's (1,1) locus stable under the induced moduli action: True
+     law A^-T N B^-1 : every invariant class's (1,1) locus stable under the induced moduli action: True
+     law A^-1 N B^-T : every invariant class's (1,1) locus stable under the induced moduli action: True
+A = RL [[2, 1], [1, 1]], action diag: dim 2, det signature (+,-,0) = (1, 1, 0); law gives the same space as A^T N B: {'A^T N B': True, 'A N B^T': True, 'A^-T N B^-1': True, 'A^-1 N B^-T': True}
+     law A^T N B     : every invariant class's (1,1) locus stable under the induced moduli action: True
+     law A N B^T     : every invariant class's (1,1) locus stable under the induced moduli action: True
+     law A^-T N B^-1 : every invariant class's (1,1) locus stable under the induced moduli action: True
+     law A^-1 N B^-T : every invariant class's (1,1) locus stable under the induced moduli action: True
+A = RL [[2, 1], [1, 1]], action dual: dim 2, det signature (+,-,0) = (1, 1, 0); law gives the same space as A^T N B: {'A^T N B': True, 'A N B^T': True, 'A^-T N B^-1': True, 'A^-1 N B^-T': True}
+     law A^T N B     : every invariant class's (1,1) locus stable under the induced moduli action: True
+     law A N B^T     : every invariant class's (1,1) locus stable under the induced moduli action: True
+     law A^-T N B^-1 : every invariant class's (1,1) locus stable under the induced moduli action: True
+     law A^-1 N B^-T : every invariant class's (1,1) locus stable under the induced moduli action: True
+A = g.LR.g^-1 (non-symmetric) [[3, -1], [1, 0]], action diag: dim 2, det signature (+,-,0) = (1, 1, 0); law gives the same space as A^T N B: {'A^T N B': True, 'A N B^T': False, 'A^-T N B^-1': True, 'A^-1 N B^-T': False}
+     law A^T N B     : every invariant class's (1,1) locus stable under the induced moduli action: True
+     law A N B^T     : every invariant class's (1,1) locus stable under the induced moduli action: False
+     law A^-T N B^-1 : every invariant class's (1,1) locus stable under the induced moduli action: True
+     law A^-1 N B^-T : every invariant class's (1,1) locus stable under the induced moduli action: False
+A = g.LR.g^-1 (non-symmetric) [[3, -1], [1, 0]], action dual: dim 2, det signature (+,-,0) = (1, 1, 0); law gives the same space as A^T N B: {'A^T N B': True, 'A N B^T': False, 'A^-T N B^-1': True, 'A^-1 N B^-T': False}
+     law A^T N B     : every invariant class's (1,1) locus stable under the induced moduli action: True
+     law A N B^T     : every invariant class's (1,1) locus stable under the induced moduli action: False
+     law A^-T N B^-1 : every invariant class's (1,1) locus stable under the induced moduli action: True
+     law A^-1 N B^-T : every invariant class's (1,1) locus stable under the induced moduli action: False
+(c) LR: induced tau -> (2*tau + 1)/(tau + 1) ; fixed points [1/2 - sqrt(5)/2, 1/2 + sqrt(5)/2]
+    LR as a plain Moebius map (a tau + b)/(c tau + d): fixed points [-1/2 + sqrt(5)/2, -sqrt(5)/2 - 1/2]
+(c) RL: induced tau -> (tau + 1)/(tau + 2) ; fixed points [-1/2 + sqrt(5)/2, -sqrt(5)/2 - 1/2]
+    RL as a plain Moebius map (a tau + b)/(c tau + d): fixed points [1/2 - sqrt(5)/2, 1/2 + sqrt(5)/2]
+r2 exit 0

@@ -1,0 +1,7 @@
+diag frame: w1 + w2 invariant: True ; (w1+w2)^2 = 2 Pf = 2 > 0 (Kahler)
+diag frame: induced tau -> (2*tau + 1)/(tau + 1) ; fixed points [1/2 - sqrt(5)/2, 1/2 + sqrt(5)/2] -> none in H: the complex structure is never invariant
+factor-index frame: F^F on the invariant space = -2*c0*c2 + 2*c1**2 - 2*c1*c3 - 2*c3**2 ; signature eigenvalues [-1.0, 1.0, 2.2361, -2.2361]
+  at tau = tau' = 2**(1/3) + I: F^F on the invariant (1,1) classes (real span) = -(-28*r2**2 + 8*2**(2/3)*r2**2 + 24*2**(1/3)*r2**2 + 125*r3**2)/50
+  at tau = tau' = I: F^F on the invariant (1,1) classes (real span) = -(4*r2**2 + 5*r3**2)/2
+  at tau = tau' = -1/2 + sqrt(3)*I/2: F^F on the invariant (1,1) classes (real span) = -(3*r2**2 + 5*r3**2)/2
+r5 exit 0
