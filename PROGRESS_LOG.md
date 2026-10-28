@@ -17979,3 +17979,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The decadal review of main's plan's first window (B1755–B1792): fresh clone PASS; the sample agrees with its referees; E92 named (the import-tested-only instrument); four draft errors caught by the referees recorded; R70-6 and R70-11 resolved, R70-4 and R70-5 carried overdue. 0 of 19.
 - **Landing suite (S229).** full suite 7 787 passed, 3 failed, 68 skipped (22:48, -n 8) on 8d46b04ea: two are B805's attachment locks (P-239, standing); the third, B1626's relay-closure lock, counted B1626's 25 open rows and did not know Review 71's two declines -- counted as their own dated category, the lock rerun green. After the suite and before the push: the SM seat's W165 (B1792's blind third opinion: R_a fails, R_b holds, agreed exactly) harvested (row 1434), with a dated note on B1792.
+
+## 2026-10-28 — S229b REVIEW 71'S ANCHOR
+
+- Review 71's anchor-commit 3e57c3e8d (the review counter reset). 0 of 19.

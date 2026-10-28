@@ -705,6 +705,29 @@ readings, mapped the Higgs's three regimes, and stated exactly what the quark mi
 - **Open:** P-357 (what fixes the invariant); the web seat's sealed READING TEST (P-360); Review 69's items R69-1–R69-7.
   **0 of 19.**
 
+## ⟳ VIEW REFRESH — 2026-10-28 (Review 71)
+
+Touched at the Review 71 anchor (`3e57c3e8d`). **The window (B1755–B1792; 21 commits) ran main's own plan.** It took the
+six's hand-set inputs one at a time and asked whether each can be removed. None was.
+- **The slope** (step 1):
+  - B1785, B1788: the closed form of the exponents, ½ − (‖2q_Lα‖ + ‖2q_Rα‖)/2.
+  - B1786 (sealed): the slope 2/5 alone carries the six at orders 25 and 30; not PASSED under the class-choosing null
+    (three computations agree).
+  - B1792 (sealed): the offset recurrence holds at order 60 as a necessary condition, not a rule (the leptons
+    shift-invariant, the quarks not).
+- **The lepton factor c** (B1789), **the reading** (B1790) and **Im τ** (B1791): none is derived in B1656's frame.
+- **The six's inputs counted:** about three continuous and four discrete. A compression, not a derivation.
+- **Also:**
+  - B1756: JUNO kills TM2.
+  - B1758: C25 exact.
+  - B1784: the agy lane audited.
+  - B1787: P210 accepted by main.
+  - The web seat's unification-scale negative, verified.
+  - The audit lane's gauge-threshold route (P-396).
+  - Review 71: new error class E92; every draft error caught by the arcs' referees.
+- **Next:** P-397 (a one-leg hypercharge insertion for c); the reading's odd-in-3w coupling (P-394); R71-1 (B1749 and B1753
+  under the class-choosing null); R71-4 and R71-5 (overdue). **0 of 19.**
+
 ## ⟳ VIEW REFRESH — 2026-10-24 (Review 70)
 
 Touched at the Review 70 anchor (`34a7a7da4`). **The window (B1746–B1754; 23 commits) read the six on one strip twice,

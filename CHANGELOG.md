@@ -1,5 +1,9 @@
 # Changelog
 
+## S229b REVIEW 71'S ANCHOR (2026-10-28)
+
+- Review 71's anchor-commit (3e57c3e8d): the one-line anchor; the review counter reset. 0 of 19.
+
 ## S229 REVIEW 71 — MAIN'S PLAN, STEPS 1–4: THE SIX'S INPUTS COUNTED, NONE REMOVED (2026-10-28)
 
 - **The decadal review** (21 commits since Review 70; arcs B1755–B1792), run at the counter. The fresh clone passes at e1adda488; the seeded sample (B1786, B1788, B1789, B1791, B1792) agrees with its referees' reports as landed. Review 70's loop: R70-6 (P210, B1787) and R70-11 (P-389) resolved; R70-7 partly (the class-choosing null built; B1749's and B1753's grade under it carried); R70-2–R70-5 carried, R70-4 and R70-5 overdue (the window went to main's plan). The window's escalations decided: two stale relays declined by silence, two relays' owed items and L249 carried by name.

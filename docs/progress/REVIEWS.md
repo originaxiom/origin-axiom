@@ -7505,3 +7505,5 @@ Nothing in the window meets the §5 bars. No arc is PASSED, and no input is remo
 - [ ] R71-8: push the owner's mirror when the owner reconnects the drive (owner: the owner, then cc)
 - [ ] R71-9: harvest the SM seat's W165 (B1792's blind third opinion) and the web seat's P-323 result; main's review of the audit lane's two analytic proofs when P-396 yields a value (owner: cc)
 - [ ] R71-10: main's plan, next: P-397 (a one-leg hypercharge insertion for c), the reading's odd-in-3w coupling (P-394), P-398 (owner: cc)
+
+**anchor-commit: `3e57c3e8d`**
