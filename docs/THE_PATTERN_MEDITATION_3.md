@@ -24,6 +24,13 @@ negatives and find the genuine angle we're missing towards breakthrough from thi
    the slope, the horocycle, M_Z, h₀, …) against 2 partial removals, with about 38 reduction attempts failed.
 4. **The most repeated hatch was never opened:** "a principle that selects the point" (τ, the line, the Higgs direction),
    20 of the 42 negatives since B1600.
+
+   > *Dated note (2026-10-28, S236; the SM seat's §325, widened by main): "never opened" is wrong as stated. Report A
+   > counted main's arcs only. On the SM seat's branch (harvested) selection by the frame's own one-loop potentials was
+   > tried many times before this meditation (W51, W59, W60, W62, W154, W169; W167 for the line), and every one lands at
+   > mirror-fixed points. W175 since finds a CP-conjugate pair of minima on every mirror-free class. None holds the
+   > height: the hatch opens onto the one modulus the object leaves free, which is this meditation's cause (Part II).
+   > An E54 instance.*
 5. **The object's identity left the physics.**
    - After B1600, m004 falls from 26% of claim lines to 2% and ℚ(√−3) from 25% to 1%; τ rises from 7% to 45%.
    - The frame became the generic torus fibre with theta functions.

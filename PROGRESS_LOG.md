@@ -18014,3 +18014,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - B1802: the figure-eight's even fillings supply Witten's topological structure for doublet–triplet splitting (two fixed circles per involution; the order-2 line's forced lift); his model needs the full ℤ/2 × ℤ/2 (P-409). Refereed hostile. Structural; 0 of 19.
 - RETRACTIONS caught up: six rows owed since B1724 (the same-PR rule had lapsed), found by the doc-currency gate.
 - **Landing suite (S235).** The first run was stopped at 94% by a session restart (its log kept as audit/suite_logs/landing_S235_partial_killed_by_restart.log); rerun in full: 7 828 passed, 68 skipped, 3 failed in 1:04:21 — B805's two standing attachment locks (P-239) and test_the_papers_retraction_count_matches_the_index (the catch-up moved the index from 44 to 51 rows; P3's count sentence and its generator updated to fifty-one, as at S187, and the lock's number words extended to sixty; that lock and the 77 paper and retraction locks rerun alone: pass).
+
+## 2026-10-28 — S236 THE SEATS HARVESTED (rows 1445–1456; P-410–P-415)
+
+- The SM seat's §314–§325 and the web seat's two relays read and rowed; the class criterion checked on main by exact arithmetic; the SM seat's correction to the meditation accepted (E54); P-414 and P-415 from the owner's questions on B1803's draft (matter parity from SO(10)'s centre; the towers' interaction). 0 of 19.
+- **Landing suite (S236).** 7 829 passed, 68 skipped, 2 failed in 30:22 — B805's two standing attachment locks (P-239).
