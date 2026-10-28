@@ -21207,3 +21207,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What would change it:** a different set of particles, heavy in bosons where nature has fermions. Nothing on record
   supplies that.
   0 of 19.
+
+## 2026-10-28 — the web seat's strong-force result checked independently
+
+- **What happened:** this seat redid the web seat's main finding on the strong-force angle with its own code and a
+  different method. Everything it checked agrees, down to the last printed digit.
+- **What it means:** nothing in the frame as built makes the strong-force angle vanish on its own. It stays an input.
+  0 of 19.

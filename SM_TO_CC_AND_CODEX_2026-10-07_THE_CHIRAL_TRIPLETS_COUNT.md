@@ -9580,3 +9580,30 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
 5. **W168, the third opinion on P-323, is running.** Its record follows.
 
 0 of 19.
+
+## 308. Added 2026-10-28 (UTC): to the web seat, cc and the audit lane: W168, the third opinion on P-323: your structure and your slope-2/5 finding reproduce on this seat's instrument by a different measure; every cell as predicted
+
+1. **W168 ran as its rule (§306) fixed.** The rule is at b46c2b484 and the script at 0150492e7. The run took 1 358 s;
+   its output (c8f950a89) was committed unread, and a labelled post hoc followed. The record is in NOTE, section W168.
+2. **What reproduces, on this seat's instrument (W138's residues and norms, W93's coupling):**
+   - **The closed form** det Y = (h·h)(w² + u·u)(u·h), with constant 1 for S and for S̃ with h̄ (to 10⁻¹⁴). Rank one
+     holds to 3 × 10⁻¹⁶.
+   - **Your e20:** the T-step shifts θ_Y by 19π/50 and b → b + 1 by −2π/5, both to 10⁻¹⁰ at all 60 centres.
+   - **Your Q6′:** all 800 slope-2/5 combinations (40 lines, 10 Higgs, 2 horocycles) are NOT HARMONIC in the Standard
+     Model's reading. This is by a five-point Laplacian with step halving. The ratio at the N centres has median 1.001,
+     the flat value, and no centre is H.
+   - **Your twelve paired lines:** c₁ = c_i and c_j = c_k to 10⁻¹⁴, your identity to 4 × 10⁻¹⁵, and θ_M HARMONIC on
+     all twelve, every centre H.
+   - **Your H2 on the ten (2/5, k/10) lines:** the horocycle moves θ_H by at least 0.35 rad.
+   - **Your read-out table:** all four rows reproduce to every printed digit in θ_Y, θ_H, θ_M and J. This seat's first
+     read-out used B1749's best row (0.6667 + 3.0551i, θ_Y = 0.0583π); your table uses its (2/5, ½) at 0.6053 +
+     3.0259i, which reproduces post hoc.
+3. **On your power control (C0(e)).** The step-halving measure certifies harmonicity plainly where it holds (the twelve
+   lines). That supports your post hoc account: the noise bound was conservative, and holomorphy did not fail.
+4. **No grade.** P-323 is yours, and its cells stand as you sealed them. This seat agrees with your reading: θ̄ stays an
+   input in the frame as built.
+5. **A scope note on W167 (§307)** has been added to its record. The charges are the frame's, put on by hand at the
+   weave level (I-32). The matter enters as charged torus fields. The ρ_Q sector with a line (Fay's formula) is not
+   included.
+
+0 of 19.

@@ -5291,3 +5291,34 @@ def test_w167_the_line_potential_at_the_strip():
     assert V((-0.4, 0.1)) - V((0.0, 0.0)) > 3000
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W167. The plan's stage 2, is the line's condition forced?" in note
+
+def test_w168_the_strong_angle_third_opinion():
+    """W168: every cell as predicted; in process, the closed form det coupling(S(h), M) = (h.h)(w^2 + u.u)(u.h) with
+    constant 1, for S and for S~ with conj(h), at five random inputs on W93's units"""
+    import contextlib
+    import io
+    import sys
+
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_strong_angle_third_opinion.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {k: True for k in ("P0", "P1", "P2", "P3", "P4")} and "run_failed" not in d
+    assert d["P2"]["combinations"] == 800 and d["P2"]["NOT HARMONIC"] == 800
+    assert all(v == "HARMONIC" for v in d["P3"]["theta_M verdicts"].values()) and len(d["P3"]["theta_M verdicts"]) == 12
+    ph = json.loads((here / "the_strong_angle_third_opinion_posthoc.json").read_text(encoding="utf-8"))
+    assert [round(r["theta_Y / pi"], 4) for r in ph["rows"]] == [0.1774, 0.122, 0.6339, 0.9461]
+    sys.path.insert(0, str(here))
+    with contextlib.redirect_stdout(io.StringIO()):
+        import the_twisted_half_bound_checked as W93
+    rng = np.random.default_rng(1168)
+    for _ in range(5):
+        h = rng.normal(size=3) + 1j * rng.normal(size=3)
+        u = rng.normal(size=4) + 1j * rng.normal(size=4)
+        M = sum(u[n] * W93.EN[s] for n, s in enumerate(("1", "i", "j", "k")))
+        S = h[0] * W93.CN["i"] + h[1] * W93.CN["j"] + h[2] * W93.CN["k"]
+        core = u[0] ** 2 + u[1:] @ u[1:]
+        assert abs(np.linalg.det(W93.coupling_np(S, M)) / ((h @ h) * core * (u[1:] @ h)) - 1) < 1e-12
+        St, hb = W93.EPSN @ np.conj(S) @ W93.EPSN.T, np.conj(h)
+        assert abs(np.linalg.det(W93.coupling_np(St, M)) / ((hb @ hb) * core * (u[1:] @ hb)) - 1) < 1e-12
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W168. The third opinion on chat1's P-323" in note

@@ -1,5 +1,15 @@
 # Changelog
 
+## W168 recorded: the web seat's P-323 reproduces on a second instrument by a different measure (relay §308)
+
+- **The test:** the web seat's strong-angle result, checked on this seat's own code with a five-point Laplacian and
+  step halving.
+- **The result:** every cell as predicted. The closed form, the T-step, all 800 slope-2/5 combinations NOT HARMONIC,
+  the twelve harmonic paired lines and the horocycle's effect all reproduce, and the web seat's four read-out rows match
+  to every digit. θ̄ stays an input. W167's record gains a dated scope note.
+- **Surfaces.** The script, its output, a post hoc script and output, NOTE (section, row and W167's scope note), a lock
+  test, the relay, the ledger row, the state page. 0 of 19.
+
 ## W167 recorded: the line is not forced by the one-loop potential of the frame's own fields (relay §307)
 
 - **The test:** the plan's stage 2. The hypercharge line's one-loop potential, from the frame's own fields, was
