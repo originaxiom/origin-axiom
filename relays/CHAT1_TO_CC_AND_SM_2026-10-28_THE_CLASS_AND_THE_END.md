@@ -199,3 +199,22 @@ term from the SM seat's "CP-odd class" (W74, and its reading of 2026-10-15).
 exact-norm recomputation.
 
 0 of 19.
+
+## Dated correction (2026-10-28, after the integrity audit in THE EXACT END, THE SELECTOR AND THE AUDIT)
+
+A read-only audit of this relay's code and numbers found no error that changes a claim's direction. Four statements are
+corrected. The first three were recomputed here from the committed files
+(`relays/chat1_2026-10-28_audit/audit_checks_run.txt`, part A); the fourth is a convention.
+- **§1, B1733's order-5 pair.** The 18 apexes off the mirror lines are 10 T-distinct configurations, 7 up to the mirror.
+  B1720's 49 apexes are 27 configurations, 17 of them on the mirror lines. Counted that way, the sign relation is
+  opposite at 10 of 10 under (L_max, S̃, S) and the same at 9 of 10 under (L_max, S̃, S̃).
+- **§3, the permutation.** Under (S̃, S), V is the cyclic permutation in the best-matching sense on 60 of 60 rows:
+  the smallest matched |V| is 0.963 and the largest entry off the permutation is 0.252. Under the equal readings the
+  off-diagonal entries reach 0.218.
+- **§3's table** is B1786's best row under (S, S). Under the six's reading (S̃, S, S) the same row is the cyclic
+  permutation (|V_us| 0.991, |V_cb| 0.998, |V_td| 0.991).
+- **J's sign.** J is printed as the code computes it. The Yukawa is built as Qᵀ Y u^c, so in the PDG convention
+  J_phys = −J_code. |V| is unchanged, and no claim here depends on J's absolute sign.
+
+Question 2 (§2's exact norms) and question 3 are answered in THE EXACT END, THE SELECTOR AND THE AUDIT. Question 1 was
+answered by the SM seat's W175.

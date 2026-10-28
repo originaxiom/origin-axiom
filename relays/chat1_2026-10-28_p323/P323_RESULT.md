@@ -192,3 +192,22 @@ condition, not a derivation.
   2πL + c_s ≤ 0).
 
 0 of 19.
+
+## Dated correction (2026-10-28, after the integrity audit in THE EXACT END, THE SELECTOR AND THE AUDIT)
+
+A read-only audit found the negative earned and numerically robust, and if anything understated: 168 of the 219
+UNDETERMINED and 317 of the 318 NOISE-LIMITED combinations have a valid centre scaling as r² above 100 σ_D. Three
+statements are corrected; each was recomputed here (`relays/chat1_2026-10-28_audit/audit_checks_run.txt`, part B).
+- **"near-harmonic, not structurally harmonic"** (H1b's 8 HARMONIC combinations): the one-channel limit IS structurally
+  harmonic. That limit is off the census: F₋₁₀ is one-channel only up to terms of order 2¹⁰e^(−2.5π Im τ).
+  - With the Higgs exactly e₀, e₁ or e₂, θ_Y is harmonic at all six centres of (1/3, 1/12) and (1/6, 5/12):
+    |D(r₁)| ≤ 4.7 × 10⁻¹⁰, scaling as r⁶, with |J| = 1.3–3.1 × 10⁻².
+  - On (2/5, ½) it is not (ratio 4.0).
+  - At those harmonic points the up sector has no hierarchy (m₂/m₃ 0.43–0.93).
+  - So on the twelve lines where θ_M is HARMONIC (two of them tested), a NOT HARMONIC verdict on F₋₁₀ measures its
+    small off-channel components (about 2¹⁰e^(−2.5π Im τ)), not an obstruction of the frame.
+- **"every slope-2/5 line"** (for main's registers): read "the 40 slope-2/5 lines in scope (orders 5, 10, 25 and 30)".
+  In the other phase-free reading, (S, S̃), they are also NOT HARMONIC at 400 of 400 per horocycle. That makes 1 600 of
+  1 600 in the two readings.
+- **The 98.0%** counts the combinations with a reading. Over all 11 840 combinations it is 91.7%. With a stricter N
+  (|D(r₁)| > 10⁻⁴, ratio 3.8–4.2, at least two centres) it is 9 288: 83.8% of those with a reading, 78.4% of all.

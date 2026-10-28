@@ -188,3 +188,23 @@ from a cell, and it stands untested. The values of both generations depend on th
   predicted).
 
 0 of 19.
+
+## Dated correction (2026-10-28, after the integrity audit and the exact end in THE EXACT END, THE SELECTOR AND THE AUDIT)
+
+A read-only audit found H2, H4's L₂ clause, H1, H3 and H5 standing. Four statements are corrected.
+- **"control (b) guards the search's power"** claimed more than (b) tested.
+  - Its 20 targets share one shift, 0.05 − 0.35i, so it tests local convergence only.
+  - The audit re-ran the rule's search, with its constants, on three deeper planted shifts: 0.05 − 1.0i, −0.15 − 1.2i
+    and −0.65i, all three below G's lowest row (Im τ 2.3). All three were recovered to 3 × 10⁻⁸. This seat re-ran them
+    with this note's own `search()` (`relays/chat1_2026-10-28_audit/audit_checks_run.txt`, part H), with the same
+    result.
+  - The audit also found no basin below G: the rms is at least 1.65 at Im τ 1.5–2.1 on two lines, including the
+    closest base point's.
+  - With that, the search's power is shown.
+- **The proposed ledger row** drops two qualifiers that carry weight:
+  - "within W": 110 searches (23%) ended on W's Re edge with the rms still falling;
+  - "(S̃, S, S)": L₂'s best fits use (S̃, S̃, S̃) with c = 3, which was not tested for absorption.
+- **"(Im τ 2.3–3.5)"** in control (c) is the accepted points' range, not B1667's column (Im τ 1–4).
+- **After THE EXACT END,** "L_max" in H4 and in the ledger row is the small-cut weight 2πL + c_s at L = L_max(Im τ),
+  0.647 at the rows. That is not the maximal horoball's norm. With the horoball's exact norms the six fail near the four
+  families' rows: the least of four local refits has χ²_six 25.9.
