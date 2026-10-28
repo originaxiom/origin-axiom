@@ -1,0 +1,53 @@
+C0 stop-rule controls (a, b, c, d, f) hold: True; power C0(e): False
+  C0a: {'checked': 55686, 'worst_ratio': 0.0003500695924802648, 'fails': 0, 'holds': True}
+  C0b: {'worst': 1.546342075160898e-15, 'holds': True}
+  C0c: {'checked': 34800, 'fails': 0, 'worst': 1.438849039914203e-13, 'holds': True}
+  C0d: {'valid N cases with frozen weights in (S, S)': 0, 'holds': True}
+  C0f: {'checked': 360, 'fails': 0, 'worst_deviation': 2.5508484213787597e-12, 'worst_ratio': 0.00449276593355875, 'holds': True}
+  C0e: counts {'NOT HARMONIC': 0, 'HARMONIC': 189, 'UNDETERMINED': 5414, 'NOISE-LIMITED': 247, 'NO READING': 70}, harmonic fraction 0.03373192932357665
+  clamps: {'L_max': {'clamped channel-points': 6864, 'centres with a clamp mismatch': 0}, 'L_2': {'clamped channel-points': 6864, 'centres with a clamp mismatch': 0}}
+H1 holds: False (no HARMONIC: untested (C0(e) failed); UNDETERMINED <= 1%: False); counts {'NOT HARMONIC': 10859, 'HARMONIC': 0, 'UNDETERMINED': 219, 'NOISE-LIMITED': 318, 'NO READING': 444}; no-reading reasons {'clamp mismatch': 0, 'vanishing factor': 1440, 'winding': 0, 'difference past pi/2': 0, '|J| < 1e-9 at the centre': 1224}
+H1b holds: False (no HARMONIC: untested (C0(e) failed); UNDETERMINED <= 1%: False); counts {'NOT HARMONIC': 9986, 'HARMONIC': 8, 'UNDETERMINED': 389, 'NOISE-LIMITED': 298, 'NO READING': 1159}; no-reading reasons {'clamp mismatch': 0, 'vanishing factor': 1440, 'winding': 0, 'difference past pi/2': 0, '|J| < 1e-9 at the centre': 5514}
+H2 holds: True; pairs checked 2833, passing 2697; exceptions 136
+H3 holds: False; counts {'NOT HARMONIC': 4642, 'HARMONIC': 53, 'UNDETERMINED': 832, 'NOISE-LIMITED': 170, 'NO READING': 223}
+H4 holds: False; counts {'NOT HARMONIC': 242, 'HARMONIC': 12, 'UNDETERMINED': 36, 'NOISE-LIMITED': 0, 'NO READING': 6}
+H1 HARMONIC: 0
+H1 UNDETERMINED: 219 (first 30): St,S L_max (0, 5/11) F_-6; St,S L_max (0, 1/12) dR; St,S L_max (0, 1/12) F_-10; St,S L_max (0, 1/12) F_26; St,S L_max (0, 1/12) F_18; St,S L_max (0, 1/12) F_10; St,S L_max (0, 5/12) dR; St,S L_max (0, 5/12) F_-10; St,S L_max (0, 5/12) F_26; St,S L_max (0, 5/12) F_18; St,S L_max (0, 5/12) F_10; St,S L_max (1/12, 0) F_-10; St,S L_max (1/12, 1/12) F_-10; St,S L_max (1/12, 1/6) F_-10; St,S L_max (1/12, 1/4) F_-10; St,S L_max (1/12, 1/3) F_-10; St,S L_max (1/12, 5/12) F_-10; St,S L_max (1/12, 1/2) F_-10; St,S L_max (1/12, 7/12) F_-10; St,S L_max (1/12, 2/3) F_-10; St,S L_max (1/12, 3/4) F_-10; St,S L_max (1/12, 5/6) F_-10; St,S L_max (1/12, 11/12) F_-10; St,S L_max (1/6, 1/12) F_-10; St,S L_max (1/6, 1/4) F_-10; St,S L_max (1/6, 5/12) F_-10; St,S L_max (1/6, 7/12) F_-10; St,S L_max (1/6, 3/4) F_-10; St,S L_max (1/6, 11/12) F_-10; St,S L_max (1/4, 1/12) F_-10
+H1 NOISE-LIMITED: 318 (first 30): St,S L_max (0, 1/2) F_-2; St,S L_max (0, 1/6) F_-2; St,S L_max (0, 1/10) F_-2; St,S L_2 (0, 1/3) F_14; St,S L_2 (0, 1/3) F_6; St,S L_2 (0, 1/3) F_22; St,S L_2 (0, 1/5) dR; St,S L_2 (0, 1/5) F_-10; St,S L_2 (0, 1/5) F_14; St,S L_2 (0, 1/5) F_26; St,S L_2 (0, 1/5) F_-6; St,S L_2 (0, 1/5) F_6; St,S L_2 (0, 1/5) F_-2; St,S L_2 (0, 1/5) F_22; St,S L_2 (0, 1/6) dR; St,S L_2 (0, 1/6) F_14; St,S L_2 (0, 1/6) F_6; St,S L_2 (0, 1/6) F_22; St,S L_2 (1/2, 1/6) dR; St,S L_2 (1/2, 1/6) F_14; St,S L_2 (1/2, 1/6) F_26; St,S L_2 (1/2, 1/6) F_6; St,S L_2 (1/2, 1/6) F_18; St,S L_2 (1/2, 1/6) F_10; St,S L_2 (1/2, 1/6) F_22; St,S L_2 (1/2, 1/3) dR; St,S L_2 (1/2, 1/3) F_14; St,S L_2 (1/2, 1/3) F_26; St,S L_2 (1/2, 1/3) F_6; St,S L_2 (1/2, 1/3) F_18
+H1b HARMONIC: 8 (first 30): S,S L_max (1/3, 1/12) F_-10; S,S L_max (1/3, 1/4) F_-10; S,S L_max (1/3, 5/12) F_-10; S,S L_max (1/3, 7/12) F_-10; S,S L_max (1/3, 3/4) F_-10; S,S L_max (1/3, 11/12) F_-10; S,S L_2 (1/6, 5/12) F_-10; S,S L_2 (1/6, 11/12) F_-10
+H1b UNDETERMINED: 389 (first 30): S,S L_max (0, 1/12) F_-10; S,S L_max (0, 1/12) F_14; S,S L_max (0, 1/12) F_26; S,S L_max (0, 1/12) F_-6; S,S L_max (0, 1/12) F_-2; S,S L_max (0, 1/12) F_22; S,S L_max (0, 5/12) F_-10; S,S L_max (0, 5/12) F_14; S,S L_max (0, 5/12) F_26; S,S L_max (0, 5/12) F_-6; S,S L_max (0, 5/12) F_-2; S,S L_max (0, 5/12) F_22; S,S L_max (1/12, 0) F_-10; S,S L_max (1/12, 1/12) F_-10; S,S L_max (1/12, 1/6) F_-10; S,S L_max (1/12, 1/4) F_-10; S,S L_max (1/12, 1/3) F_-10; S,S L_max (1/12, 5/12) F_-10; S,S L_max (1/12, 1/2) F_-10; S,S L_max (1/12, 7/12) F_-10; S,S L_max (1/12, 2/3) F_-10; S,S L_max (1/12, 3/4) F_-10; S,S L_max (1/12, 5/6) F_-10; S,S L_max (1/12, 11/12) F_-10; S,S L_max (1/6, 1/12) F_-10; S,S L_max (1/6, 1/12) F_14; S,S L_max (1/6, 1/12) F_26; S,S L_max (1/6, 1/12) F_6; S,S L_max (1/6, 1/12) F_18; S,S L_max (1/6, 1/12) F_10
+H1b NOISE-LIMITED: 298 (first 30): S,S L_max (0, 3/11) dR; S,S L_2 (0, 1/5) dR; S,S L_2 (0, 1/5) F_-10; S,S L_2 (0, 1/5) F_14; S,S L_2 (0, 1/5) F_26; S,S L_2 (0, 1/5) F_-6; S,S L_2 (0, 1/5) F_6; S,S L_2 (0, 1/5) F_-2; S,S L_2 (0, 1/5) F_22; S,S L_2 (0, 1/7) dR; S,S L_2 (0, 1/7) F_-10; S,S L_2 (0, 1/7) F_14; S,S L_2 (0, 1/7) F_26; S,S L_2 (0, 1/7) F_-6; S,S L_2 (0, 1/7) F_6; S,S L_2 (0, 1/7) F_18; S,S L_2 (0, 1/7) F_-2; S,S L_2 (0, 1/7) F_10; S,S L_2 (0, 1/7) F_22; S,S L_2 (0, 2/7) dR; S,S L_2 (0, 2/7) F_-10; S,S L_2 (0, 2/7) F_14; S,S L_2 (0, 2/7) F_26; S,S L_2 (0, 2/7) F_-6; S,S L_2 (0, 2/7) F_6; S,S L_2 (0, 2/7) F_18; S,S L_2 (0, 2/7) F_-2; S,S L_2 (0, 2/7) F_10; S,S L_2 (0, 2/7) F_22; S,S L_2 (0, 3/7) F_6
+H2 exceptions (first 30): (1/2, 0) F_14; (1/2, 0) F_26; (1/2, 0) F_18; (1/2, 0) F_22; (1/2, 1/2) F_14; (1/2, 1/2) F_26; (1/2, 1/2) F_18; (1/2, 1/2) F_22; (1/6, 0) F_14; (1/6, 0) F_26; (1/6, 0) F_18; (1/6, 0) F_22; (1/6, 1/6) F_14; (1/6, 1/6) F_26; (1/6, 1/6) F_18; (1/6, 1/6) F_22; (1/6, 1/3) F_14; (1/6, 1/3) F_26; (1/6, 1/3) F_18; (1/6, 1/3) F_22; (1/6, 1/2) F_14; (1/6, 1/2) F_26; (1/6, 1/2) F_18; (1/6, 1/2) F_22; (1/6, 2/3) F_14; (1/6, 2/3) F_26; (1/6, 2/3) F_18; (1/6, 2/3) F_22; (1/6, 5/6) F_14; (1/6, 5/6) F_26
+H4 lines other than NOT HARMONIC (first 40): (0, 1/4) NO READING; (1/4, 0) NO READING; (1/4, 1/4) NO READING; (1/4, 1/2) NO READING; (1/4, 3/4) NO READING; (1/2, 1/4) NO READING; (0, 1/12) UNDETERMINED; (0, 5/12) UNDETERMINED; (1/12, 0) UNDETERMINED; (1/12, 1/12) UNDETERMINED; (1/12, 1/6) UNDETERMINED; (1/12, 1/4) UNDETERMINED; (1/12, 1/3) UNDETERMINED; (1/12, 5/12) UNDETERMINED; (1/12, 1/2) UNDETERMINED; (1/12, 7/12) UNDETERMINED; (1/12, 2/3) UNDETERMINED; (1/12, 3/4) UNDETERMINED; (1/12, 5/6) UNDETERMINED; (1/12, 11/12) UNDETERMINED; (1/6, 1/12) HARMONIC; (1/6, 1/4) HARMONIC; (1/6, 5/12) HARMONIC; (1/6, 7/12) HARMONIC; (1/6, 3/4) HARMONIC; (1/6, 11/12) HARMONIC; (1/4, 1/12) UNDETERMINED; (1/4, 1/6) UNDETERMINED; (1/4, 1/3) UNDETERMINED; (1/4, 5/12) UNDETERMINED; (1/4, 7/12) UNDETERMINED; (1/4, 2/3) UNDETERMINED; (1/4, 5/6) UNDETERMINED; (1/4, 11/12) UNDETERMINED; (1/3, 1/12) HARMONIC; (1/3, 1/4) HARMONIC; (1/3, 5/12) HARMONIC; (1/3, 7/12) HARMONIC; (1/3, 3/4) HARMONIC; (1/3, 11/12) HARMONIC
+read-out, the scaling: {'centres': 25952, 'ratio_in_3_5': 25752}
+read-out, median 4|D(r1)|/r1^2 over N centres by slope (theta_Y SM dR L_max | theta_H | theta_M at L_max):
+  0      2.97e+00 | 1.86e+00 | 4.30e+00
+  1/12   1.18e+00 | 1.39e+00 | -
+  1/11   1.28e+01 | 2.34e+00 | 6.39e+00
+  1/10   1.06e+01 | 3.24e+00 | 4.91e+00
+  1/9    6.62e+00 | 7.30e-01 | 3.93e+00
+  1/8    6.87e+00 | 3.93e+00 | 2.71e+00
+  1/7    2.08e+00 | 1.49e+00 | 2.86e-01
+  1/6    5.60e-02 | 5.88e-02 | 1.07e-02
+  2/11   1.40e-01 | 1.28e-02 | 1.36e-01
+  1/5    6.48e-01 | 7.92e-03 | 6.63e-01
+  2/9    9.90e-01 | 6.65e-03 | 9.96e-01
+  1/4    8.57e-03 | 8.96e-03 | 5.66e-03
+  3/11   1.62e+00 | 5.52e-02 | 1.74e+00
+  2/7    4.92e-01 | 1.57e-01 | 5.63e-01
+  3/10   1.07e+00 | 3.76e-01 | 6.63e-01
+  1/3    5.83e-01 | 5.63e-01 | 4.72e-03
+  4/11   1.35e+00 | 1.10e+00 | 6.17e-01
+  3/8    2.68e+00 | 5.26e-01 | 2.15e+00
+  2/5    4.74e+00 | 1.23e+00 | 4.54e+00
+  5/12   8.36e-01 | 8.34e-01 | -
+  3/7    7.09e+00 | 3.22e-01 | 6.66e+00
+  4/9    3.58e+00 | 1.12e+00 | 3.43e+00
+  5/11   3.22e+00 | 1.51e+00 | 4.64e+00
+  1/2    5.26e+00 | 1.28e+00 | 4.34e+00
+read-out, the record's best six-rows (SM reading, dR, L_max), in units of pi:
+  B1726 best six-row         (2/5, 1/2) at 0.5500 + 3.0500i: theta_Y +0.1774, theta_H +0.3391, theta_M -0.1617, J -4.22e-04
+  B1749 best six-row         (2/5, 1/2) at 0.6053 + 3.0259i: theta_Y +0.1220, theta_H +0.3024, theta_M -0.1803, J -3.64e-04
+  B1786 best row             (2/5, 23/30) at 0.2692 + 3.0375i: theta_Y +0.6339, theta_H +0.2123, theta_M +0.4215, J -1.82e-04
+  B1786 best row's mirror    (2/5, 5/6) at 0.7308 + 3.0375i: theta_Y +0.9461, theta_H -0.3523, theta_M -0.7015, J +1.82e-04
+p323 cells exit 0
