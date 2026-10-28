@@ -1,0 +1,13 @@
+m004(6,1)  L11n132  Sym(S^3 - L) = Z/2, order 2, amphicheiral False
+   cusp perm [0, 1]  maps [[[-1, 0], [0, -1]], [[-1, 0], [0, -1]]]  det [1, 1]  extends to S^3: True
+   cusp perm [0, 1]  maps [[[1, 0], [0, 1]], [[1, 0], [0, 1]]]  det [1, 1]  extends to S^3: True
+m004(8,1)  L13n4507  Sym(S^3 - L) = Z/2, order 2, amphicheiral False
+   cusp perm [0, 1]  maps [[[-1, 0], [0, -1]], [[-1, 0], [0, -1]]]  det [1, 1]  extends to S^3: True
+   cusp perm [0, 1]  maps [[[1, 0], [0, 1]], [[1, 0], [0, 1]]]  det [1, 1]  extends to S^3: True
+m004(8,3)  L13n4800  Sym(S^3 - L) = Z/2, order 2, amphicheiral False
+   cusp perm [0, 1]  maps [[[-1, 0], [0, -1]], [[-1, 0], [0, -1]]]  det [1, 1]  extends to S^3: True
+   cusp perm [0, 1]  maps [[[1, 0], [0, 1]], [[1, 0], [0, 1]]]  det [1, 1]  extends to S^3: True
+m004(4,3)  L14n24777  Sym(S^3 - L) = Z/2, order 2, amphicheiral False
+   cusp perm [0, 1]  maps [[[-1, 0], [0, -1]], [[-1, 0], [0, -1]]]  det [1, 1]  extends to S^3: True
+   cusp perm [0, 1]  maps [[[1, 0], [0, 1]], [[1, 0], [0, 1]]]  det [1, 1]  extends to S^3: True
+c1 exit 0

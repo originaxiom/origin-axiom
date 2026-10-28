@@ -18019,3 +18019,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The SM seat's §314–§325 and the web seat's two relays read and rowed; the class criterion checked on main by exact arithmetic; the SM seat's correction to the meditation accepted (E54); P-414 and P-415 from the owner's questions on B1803's draft (matter parity from SO(10)'s centre; the towers' interaction). 0 of 19.
 - **Landing suite (S236).** 7 829 passed, 68 skipped, 2 failed in 30:22 — B805's two standing attachment locks (P-239).
+
+## 2026-10-28 — S237 B1803 (WITTEN'S FIRST MODEL WITH THE FILLINGS' FULL SYMMETRY GROUP) AND THE TOWERS
+
+- B1803: four F′-fixed points with characters by p mod 4; the first model needs coincident multiplets (4 or 7 at one point); refereed hostile, the draft's NEGATIVE overturned. docs/THE_TOWERS.md written at the owner's ask. P-416–P-420 registered from the owner's questions. 0 of 19.
+- **Landing suite (S237).** 7 833 passed, 68 skipped, 2 failed in 37:04 — B805's two standing attachment locks (P-239).

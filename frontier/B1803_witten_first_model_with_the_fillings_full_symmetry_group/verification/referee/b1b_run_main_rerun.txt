@@ -1,0 +1,85 @@
+m004(2,-13): core 0.010644, geodesics up to 1.02 core: [(0.010643906293855365, 1)] -> unique shortest
+m004(2,-11): core 0.014819, geodesics up to 1.02 core: [(0.014818781507435538, 1)] -> unique shortest
+m004(2,-9): core 0.022016, geodesics up to 1.02 core: [(0.022016359754819165, 1)] -> unique shortest
+m004(2,9): core 0.022016, geodesics up to 1.02 core: [(0.022016359754934142, 1)] -> unique shortest
+m004(2,11): core 0.014819, geodesics up to 1.02 core: [(0.014818781507646135, 1)] -> unique shortest
+m004(2,13): core 0.010644, geodesics up to 1.02 core: [(0.010643906300681974, 1)] -> unique shortest
+m004(4,-13): core 0.010585, geodesics up to 1.02 core: [(0.010584859705542553, 1)] -> unique shortest
+m004(4,-11): core 0.014707, geodesics up to 1.02 core: [(0.014706763578917023, 1)] -> unique shortest
+m004(4,-9): core 0.021778, geodesics up to 1.02 core: [(0.021777930409113164, 1)] -> unique shortest
+m004(4,9): core 0.021778, geodesics up to 1.02 core: [(0.021777930409116034, 1)] -> unique shortest
+m004(4,11): core 0.014707, geodesics up to 1.02 core: [(0.014706763578733571, 1)] -> unique shortest
+m004(4,13): core 0.010585, geodesics up to 1.02 core: [(0.010584859704743524, 1)] -> unique shortest
+m004(6,-13): core 0.010488, geodesics up to 1.02 core: [(0.010487746860141553, 1)] -> unique shortest
+m004(6,-11): core 0.014523, geodesics up to 1.02 core: [(0.014523270466668289, 1)] -> unique shortest
+m004(6,11): core 0.014523, geodesics up to 1.02 core: [(0.014523270466767182, 1)] -> unique shortest
+m004(6,13): core 0.010488, geodesics up to 1.02 core: [(0.010487746860172755, 1)] -> unique shortest
+m004(8,-13): core 0.010354, geodesics up to 1.02 core: [(0.010354460219957253, 1)] -> unique shortest
+m004(8,-11): core 0.014273, geodesics up to 1.02 core: [(0.014272950681357343, 1)] -> unique shortest
+m004(8,-9): core 0.020864, geodesics up to 1.02 core: [(0.020864231605613, 1)] -> unique shortest
+m004(8,9): core 0.020864, geodesics up to 1.02 core: [(0.02086423160564303, 1)] -> unique shortest
+m004(8,11): core 0.014273, geodesics up to 1.02 core: [(0.01427295068164922, 1)] -> unique shortest
+m004(8,13): core 0.010354, geodesics up to 1.02 core: [(0.01035446022020361, 1)] -> unique shortest
+m004(10,-13): core 0.010188, geodesics up to 1.02 core: [(0.010187542196527172, 1)] -> unique shortest
+m004(10,-11): core 0.013962, geodesics up to 1.02 core: [(0.013962001939861676, 1)] -> unique shortest
+m004(10,-9): core 0.020219, geodesics up to 1.02 core: [(0.02021935907382009, 1)] -> unique shortest
+m004(10,9): core 0.020219, geodesics up to 1.02 core: [(0.02021935907405466, 1)] -> unique shortest
+m004(10,11): core 0.013962, geodesics up to 1.02 core: [(0.013962001939775304, 1)] -> unique shortest
+m004(10,13): core 0.010188, geodesics up to 1.02 core: [(0.01018754219651278, 1)] -> unique shortest
+m004(12,-13): core 0.009990, geodesics up to 1.02 core: [(0.009990084264050887, 1)] -> unique shortest
+m004(12,-11): core 0.013598, geodesics up to 1.02 core: [(0.013597871943499353, 1)] -> unique shortest
+m004(12,11): core 0.013598, geodesics up to 1.02 core: [(0.013597871943492545, 1)] -> unique shortest
+m004(12,13): core 0.009990, geodesics up to 1.02 core: [(0.009990084262940752, 1)] -> unique shortest
+m004(14,-13): core 0.009766, geodesics up to 1.02 core: [(0.009765606301640018, 1)] -> unique shortest
+m004(14,-11): core 0.013189, geodesics up to 1.02 core: [(0.013188896801649549, 1)] -> unique shortest
+m004(14,-9): core 0.018655, geodesics up to 1.02 core: [(0.01865540910255492, 1)] -> unique shortest
+m004(14,9): core 0.018655, geodesics up to 1.02 core: [(0.018655409102627758, 1)] -> unique shortest
+m004(14,11): core 0.013189, geodesics up to 1.02 core: [(0.013188896801338472, 1)] -> unique shortest
+m004(14,13): core 0.009766, geodesics up to 1.02 core: [(0.009765606301666584, 1)] -> unique shortest
+m004(16,-13): timeout
+m004(16,-11): core 0.012744, geodesics up to 1.02 core: [(0.012743902471180773, 1)] -> unique shortest
+m004(16,-9): core 0.017782, geodesics up to 1.02 core: [(0.01778206780186229, 1)] -> unique shortest
+m004(16,-7): core 0.026063, geodesics up to 1.02 core: [(0.026063431398668176, 1)] -> unique shortest
+m004(16,7): core 0.026063, geodesics up to 1.02 core: [(0.026063431398742915, 1)] -> unique shortest
+m004(16,9): core 0.017782, geodesics up to 1.02 core: [(0.017782067801799074, 1)] -> unique shortest
+m004(16,11): core 0.012744, geodesics up to 1.02 core: [(0.012743902471404915, 1)] -> unique shortest
+m004(16,13): timeout
+m004(18,-13): timeout
+m004(18,-11): err The Dirichlet construction failed.
+m004(18,-7): core 0.024154, geodesics up to 1.02 core: [(0.024153802032498856, 1)] -> unique shortest
+m004(18,7): core 0.024154, geodesics up to 1.02 core: [(0.0241538020324653, 1)] -> unique shortest
+m004(18,11): err The Dirichlet construction failed.
+m004(18,13): timeout
+m004(20,-13): err The Dirichlet construction failed.
+m004(20,-11): core 0.011781, geodesics up to 1.02 core: [(0.011781220213551493, 1)] -> unique shortest
+m004(20,-9): core 0.015963, geodesics up to 1.02 core: [(0.01596253174583154, 1)] -> unique shortest
+m004(20,-7): core 0.022306, geodesics up to 1.02 core: [(0.022305586668363624, 1)] -> unique shortest
+m004(20,7): core 0.022306, geodesics up to 1.02 core: [(0.022305586668273265, 1)] -> unique shortest
+m004(20,9): core 0.015963, geodesics up to 1.02 core: [(0.015962531745722132, 1)] -> unique shortest
+m004(20,11): err The Dirichlet construction failed.
+m004(20,13): err The Dirichlet construction failed.
+m004(22,-13): timeout
+m004(22,-9): core 0.015054, geodesics up to 1.02 core: [(0.01505362266637402, 1)] -> unique shortest
+m004(22,-7): core 0.020552, geodesics up to 1.02 core: [(0.02055226026584982, 1)] -> unique shortest
+m004(22,7): core 0.020552, geodesics up to 1.02 core: [(0.02055226026584375, 1)] -> unique shortest
+m004(22,9): core 0.015054, geodesics up to 1.02 core: [(0.015053622666334268, 1)] -> unique shortest
+m004(22,13): timeout
+m004(24,-13): err The Dirichlet construction failed.
+m004(24,-11): err The Dirichlet construction failed.
+m004(24,-7): core 0.018914, geodesics up to 1.02 core: [(0.018913935672089776, 1)] -> unique shortest
+m004(24,-5): core 0.025150, geodesics up to 1.02 core: [(0.025149731092783036, 1)] -> unique shortest
+m004(24,5): core 0.025150, geodesics up to 1.02 core: [(0.02514973109274883, 1)] -> unique shortest
+m004(24,7): core 0.018914, geodesics up to 1.02 core: [(0.018913935672072134, 1)] -> unique shortest
+m004(24,11): err The Dirichlet construction failed.
+m004(24,13): err The Dirichlet construction failed.
+uncertified hyperbolic even fillings (p <= 24): 74; core = unique shortest geodesic on 59; timeouts 6 [(16, -13), (16, 13), (18, -13), (18, 13), (22, -13), (22, 13)]; 1124s
+  NOT certified: (18, -11, 'err The Dirichlet construction failed.')
+  NOT certified: (18, 11, 'err The Dirichlet construction failed.')
+  NOT certified: (20, -13, 'err The Dirichlet construction failed.')
+  NOT certified: (20, 11, 'err The Dirichlet construction failed.')
+  NOT certified: (20, 13, 'err The Dirichlet construction failed.')
+  NOT certified: (24, -13, 'err The Dirichlet construction failed.')
+  NOT certified: (24, -11, 'err The Dirichlet construction failed.')
+  NOT certified: (24, 11, 'err The Dirichlet construction failed.')
+  NOT certified: (24, 13, 'err The Dirichlet construction failed.')
+b1b exit 0

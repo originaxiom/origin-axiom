@@ -14534,6 +14534,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1803": {
+   "slug": "witten first model with the fillings full symmetry group",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "z3_generation",
+    "wrt_quantum",
+    "hyperbolicity_split"
+   ],
+   "refs": [
+    "B561",
+    "S1",
+    "S2"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B180": {
    "slug": "two faces dictionary",
    "motifs": [

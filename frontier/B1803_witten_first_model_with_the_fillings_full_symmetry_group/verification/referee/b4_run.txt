@@ -1,0 +1,16 @@
+(a) full first-model solutions over Z/2 x Z/2: 6
+    w = (1, 0): [((0, 1), (1, 1)), ((1, 1), (0, 1))]
+    w = (0, 1): [((1, 0), (1, 1)), ((1, 1), (1, 0))]
+    w = (1, 1): [((1, 0), (0, 1)), ((0, 1), (1, 0))]
+    alpha = 0 in all: True
+(b)-(c) placements: V, 3 x 10, 3 x 5bar at points of one class, V~ at a point of class + w (w from a solution)
+  p = 2 mod 4: points per class [1, 1, 1, 1]; placements with distinct points: 0; with coincidences allowed: 12; min multiplets at one point = 7 (e.g. V at E+, V~ at E-, matter at ('E+', 'E+', 'E+', 'E+', 'E+', 'E+'))
+     total fields 8 vs F'-fixed points 4: distinct placement impossible before any character is used
+  p = 0 mod 4: points per class [2, 2]; placements with distinct points: 0; with coincidences allowed: 512; min multiplets at one point = 4 (e.g. V at E+, V~ at E-, matter at ('E+', 'E+', 'E+', 'C1', 'C1', 'C1'))
+     total fields 8 vs F'-fixed points 4: distinct placement impossible before any character is used
+(d) variant: V may sit at a point of another class (V split by c_V); matter uniform at one class
+  solutions with c_V free: 24; matter still needs six multiplets at one class (at most 2 points per class)
+(e) F' = Z/2 alone (any of h1, h2; P only when p = 2 mod 4; P on the Z/6 line: twist W^3, still order 2)
+  solution without (2.8): alpha 0 sigma 0 tau 1 gamma 0 delta 1
+  Z/2: full 0, without (2.8) 1
+b4 exit 0

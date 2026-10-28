@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1506** |
-| words of findings prose | **1,225,952** |
-| test lock files referenced | **921** |
-| arcs carrying an authored verdict | **1506** (100.0 %) |
+| research arcs with findings | **1507** |
+| words of findings prose | **1,228,061** |
+| test lock files referenced | **922** |
+| arcs carrying an authored verdict | **1507** (100.0 %) |
 | recorded closures | **850** (683 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1028 |
+| PROVED | 1029 |
 | NEGATIVE | 374 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1802`** (1663 words, 1 locks)  
-WITTEN'S DOUBLET-TRIPLET TOPOLOGY ON THE FIGURE-EIGHT'S EVEN FILLINGS (P-408; data-free; PROVED for the topology): each of m004(p/q)'s three involutions (two strong inversions, one period) has exactly two fixed circles when p is even (explicit branch links L11n132, L13n4507, L13n4800, L14n24777; odd p gives knots); either strong inversion preserves the unique order-2 line W = diag(1,1,1,-1,-1) (SU(5) -> SM) and necessarily lifts trivially on one circle and by W on the other; the period preserves the Z/6 line and splits by W^3 when 6 | p and p = 2 mod 4 -- Witten's topological structure at n = 2, where his first model fails with Z/2 alone (his own caveat); the full Sym(Q) = Z/2 x Z/2 admits 6 enumerated solutions (realisation open, P-409). Structural; none of the 19.  
-`B1802_witten_splitting_from_the_figure_eights_strong_inversion/FINDINGS.md`
+**PROVED — `B1803`** (2109 words, 1 locks)  
+WITTEN'S FIRST MODEL WITH THE FILLINGS' FULL SYMMETRY GROUP (P-409; data-free; PROVED for the topology and the census): on a hyperbolic m004(p/q) with p even, F' = Sym(Q) = Z/2 x Z/2 (two strong inversions and the period) fixes exactly four points -- two on the period's axis in the knot exterior, two on the filling's core -- and, relative to one, they carry all four characters of F' when p = 2 mod 4 and two, twice each, when p = 0 mod 4 (the period's relative lift p/2 mod 2, proved from H1 of the orbifold Q/P and checked on 75 fillings; the referee's two other routes on 150); Witten's first model needs eight multiplets at F'-fixed points, so it cannot be built at distinct points (8 > 4); with coincident points, which his section 3 allows, it is realisable, with at least 4 (p = 0 mod 4) or 7 (p = 2 mod 4) multiplets at one point (12 and 512 placements); each Z/2 alone still needs a matter parity from elsewhere; local models with coincident multiplets open (P-416). Structural; none of the 19.  
+`B1803_witten_first_model_with_the_fillings_full_symmetry_group/FINDINGS.md`
 
 **NEGATIVE — `B1798`** (1635 words, 1 locks)  
 THE SIX GRADED UNDER THE CLASS-CHOOSING NULL (R71-1; NEGATIVE for PASSED): with B1753's census completed to all 266 lines (48 614 points, verified) and 10^7 fresh targets, the class-choosing null gives B1753 m*r 0.0084-0.0088 at m = 39-41 and B1749 0.0094-0.00999 at m = 33-35; but the lepton factor c = 3 was chosen on the same six numbers (the web seat's GJ_FINDINGS) and that null holds it fixed -- a null letting each target choose c as the data did gives m*r 0.035-0.079 (B1753) and 0.034-0.082 (B1749); counted per decisive cell (m ~ 51) B1753 fails too; neither is PASSED; the six's specificity rests on c read from the data. No input removed. 0 of 19.  

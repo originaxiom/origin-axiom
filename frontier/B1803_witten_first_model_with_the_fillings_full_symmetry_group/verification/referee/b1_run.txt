@@ -1,0 +1,386 @@
+<site-packages>/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+m004(2,-13): all tetrahedra positively oriented vol 2.013111 H1 Z/2    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(2,-11): all tetrahedra positively oriented vol 2.006504 H1 Z/2    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(2,-9): all tetrahedra positively oriented vol 1.995078 H1 Z/2    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(2,-7): all tetrahedra positively oriented vol 1.972725 H1 Z/2    Sym Z/2 + Z/2    full True amph False
+m004(2,-5): all tetrahedra positively oriented vol 1.919520 H1 Z/2    Sym Z/2 + Z/2    full True amph False
+m004(2,-3): all tetrahedra positively oriented vol 1.737124 H1 Z/2    Sym Z/2 + Z/2    full True amph False
+m004(2,-1): contains flat tetrahedra           vol 0.000000 H1 Z/2    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(2,1): contains flat tetrahedra           vol 0.000000 H1 Z/2    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(2,3): all tetrahedra positively oriented vol 1.737124 H1 Z/2    Sym Z/2 + Z/2    full True amph False
+m004(2,5): all tetrahedra positively oriented vol 1.919520 H1 Z/2    Sym Z/2 + Z/2    full True amph False
+m004(2,7): all tetrahedra positively oriented vol 1.972725 H1 Z/2    Sym Z/2 + Z/2    full True amph False
+m004(2,9): all tetrahedra positively oriented vol 1.995078 H1 Z/2    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(2,11): all tetrahedra positively oriented vol 2.006504 H1 Z/2    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(2,13): all tetrahedra positively oriented vol 2.013111 H1 Z/2    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(4,-13): all tetrahedra positively oriented vol 2.013207 H1 Z/4    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(4,-11): all tetrahedra positively oriented vol 2.006688 H1 Z/4    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(4,-9): all tetrahedra positively oriented vol 1.995478 H1 Z/4    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(4,-7): all tetrahedra positively oriented vol 1.973762 H1 Z/4    Sym Z/2 + Z/2    full True amph False
+m004(4,-5): all tetrahedra positively oriented vol 1.923087 H1 Z/4    Sym Z/2 + Z/2    full True amph False
+m004(4,-3): all tetrahedra positively oriented vol 1.757126 H1 Z/4    Sym Z/2 + Z/2    full True amph False
+m004(4,-1): contains degenerate tetrahedra     vol 0.000000 H1 Z/4    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(4,1): contains degenerate tetrahedra     vol 0.000086 H1 Z/4    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(4,3): all tetrahedra positively oriented vol 1.757126 H1 Z/4    Sym Z/2 + Z/2    full True amph False
+m004(4,5): all tetrahedra positively oriented vol 1.923087 H1 Z/4    Sym Z/2 + Z/2    full True amph False
+m004(4,7): all tetrahedra positively oriented vol 1.973762 H1 Z/4    Sym Z/2 + Z/2    full True amph False
+m004(4,9): all tetrahedra positively oriented vol 1.995478 H1 Z/4    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(4,11): all tetrahedra positively oriented vol 2.006688 H1 Z/4    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(4,13): all tetrahedra positively oriented vol 2.013207 H1 Z/4    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(6,-13): all tetrahedra positively oriented vol 2.013364 H1 Z/6    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(6,-11): all tetrahedra positively oriented vol 2.006989 H1 Z/6    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(6,-7): all tetrahedra positively oriented vol 1.975423 H1 Z/6    Sym Z/2 + Z/2    full True amph False
+m004(6,-5): all tetrahedra positively oriented vol 1.928668 H1 Z/6    Sym Z/2 + Z/2    full True amph False
+m004(6,-1): all tetrahedra positively oriented vol 1.284485 H1 Z/6    Sym Z/2 + Z/2    full True amph False
+m004(6,1): all tetrahedra positively oriented vol 1.284485 H1 Z/6    Sym Z/2 + Z/2    full True amph False
+m004(6,5): all tetrahedra positively oriented vol 1.928668 H1 Z/6    Sym Z/2 + Z/2    full True amph False
+m004(6,7): all tetrahedra positively oriented vol 1.975423 H1 Z/6    Sym Z/2 + Z/2    full True amph False
+m004(6,11): all tetrahedra positively oriented vol 2.006989 H1 Z/6    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(6,13): all tetrahedra positively oriented vol 2.013364 H1 Z/6    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(8,-13): all tetrahedra positively oriented vol 2.013579 H1 Z/8    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(8,-11): all tetrahedra positively oriented vol 2.007397 H1 Z/8    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(8,-9): all tetrahedra positively oriented vol 1.996995 H1 Z/8    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(8,-1): all tetrahedra positively oriented vol 1.583167 H1 Z/8    Sym Z/2 + Z/2    full True amph False
+m004(8,1): all tetrahedra positively oriented vol 1.583167 H1 Z/8    Sym Z/2 + Z/2    full True amph False
+m004(8,9): all tetrahedra positively oriented vol 1.996995 H1 Z/8    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(8,11): all tetrahedra positively oriented vol 2.007397 H1 Z/8    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(8,13): all tetrahedra positively oriented vol 2.013579 H1 Z/8    Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(10,-13): all tetrahedra positively oriented vol 2.013849 H1 Z/10   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(10,-11): all tetrahedra positively oriented vol 2.007903 H1 Z/10   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(10,-9): all tetrahedra positively oriented vol 1.998055 H1 Z/10   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(10,-1): all tetrahedra positively oriented vol 1.730338 H1 Z/10   Sym Z/2 + Z/2    full True amph False
+m004(10,1): all tetrahedra positively oriented vol 1.730338 H1 Z/10   Sym Z/2 + Z/2    full True amph False
+m004(10,9): all tetrahedra positively oriented vol 1.998055 H1 Z/10   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(10,11): all tetrahedra positively oriented vol 2.007903 H1 Z/10   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(10,13): all tetrahedra positively oriented vol 2.013849 H1 Z/10   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(12,-13): all tetrahedra positively oriented vol 2.014166 H1 Z/12   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(12,-11): all tetrahedra positively oriented vol 2.008492 H1 Z/12   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(12,-1): all tetrahedra positively oriented vol 1.815119 H1 Z/12   Sym Z/2 + Z/2    full True amph False
+m004(12,1): all tetrahedra positively oriented vol 1.815119 H1 Z/12   Sym Z/2 + Z/2    full True amph False
+m004(12,11): all tetrahedra positively oriented vol 2.008492 H1 Z/12   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(12,13): all tetrahedra positively oriented vol 2.014166 H1 Z/12   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(14,-13): all tetrahedra positively oriented vol 2.014527 H1 Z/14   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(14,-11): all tetrahedra positively oriented vol 2.009151 H1 Z/14   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(14,-9): all tetrahedra positively oriented vol 2.000594 H1 Z/14   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(14,-1): all tetrahedra positively oriented vol 1.868557 H1 Z/14   Sym Z/2 + Z/2    full True amph False
+m004(14,1): all tetrahedra positively oriented vol 1.868557 H1 Z/14   Sym Z/2 + Z/2    full True amph False
+m004(14,9): all tetrahedra positively oriented vol 2.000594 H1 Z/14   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(14,11): all tetrahedra positively oriented vol 2.009151 H1 Z/14   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(14,13): all tetrahedra positively oriented vol 2.014527 H1 Z/14   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(16,-13): all tetrahedra positively oriented vol 2.014923 H1 Z/16   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(16,-11): all tetrahedra positively oriented vol 2.009865 H1 Z/16   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(16,-9): all tetrahedra positively oriented vol 2.001996 H1 Z/16   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(16,-7): all tetrahedra positively oriented vol 1.989158 H1 Z/16   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(16,-1): all tetrahedra positively oriented vol 1.904396 H1 Z/16   Sym Z/2 + Z/2    full True amph False
+m004(16,1): all tetrahedra positively oriented vol 1.904396 H1 Z/16   Sym Z/2 + Z/2    full True amph False
+m004(16,7): all tetrahedra positively oriented vol 1.989158 H1 Z/16   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(16,9): all tetrahedra positively oriented vol 2.001996 H1 Z/16   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(16,11): all tetrahedra positively oriented vol 2.009865 H1 Z/16   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(16,13): all tetrahedra positively oriented vol 2.014923 H1 Z/16   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(18,-13): all tetrahedra positively oriented vol 2.015349 H1 Z/18   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(18,-11): all tetrahedra positively oriented vol 2.010619 H1 Z/18   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(18,-7): all tetrahedra positively oriented vol 1.992169 H1 Z/18   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(18,-1): all tetrahedra positively oriented vol 1.929575 H1 Z/18   Sym Z/2 + Z/2    full True amph False
+m004(18,1): all tetrahedra positively oriented vol 1.929575 H1 Z/18   Sym Z/2 + Z/2    full True amph False
+m004(18,7): all tetrahedra positively oriented vol 1.992169 H1 Z/18   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(18,11): all tetrahedra positively oriented vol 2.010619 H1 Z/18   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(18,13): all tetrahedra positively oriented vol 2.015349 H1 Z/18   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(20,-13): all tetrahedra positively oriented vol 2.015798 H1 Z/20   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(20,-11): all tetrahedra positively oriented vol 2.011400 H1 Z/20   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(20,-9): all tetrahedra positively oriented vol 2.004886 H1 Z/20   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(20,-7): all tetrahedra positively oriented vol 1.995063 H1 Z/20   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(20,-1): all tetrahedra positively oriented vol 1.947921 H1 Z/20   Sym Z/2 + Z/2    full True amph False
+m004(20,1): all tetrahedra positively oriented vol 1.947921 H1 Z/20   Sym Z/2 + Z/2    full True amph False
+m004(20,7): all tetrahedra positively oriented vol 1.995063 H1 Z/20   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(20,9): all tetrahedra positively oriented vol 2.004886 H1 Z/20   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(20,11): all tetrahedra positively oriented vol 2.011400 H1 Z/20   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(20,13): all tetrahedra positively oriented vol 2.015798 H1 Z/20   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(22,-13): all tetrahedra positively oriented vol 2.016264 H1 Z/22   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(22,-9): all tetrahedra positively oriented vol 2.006319 H1 Z/22   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(22,-7): all tetrahedra positively oriented vol 1.997796 H1 Z/22   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(22,-1): all tetrahedra positively oriented vol 1.961690 H1 Z/22   Sym Z/2 + Z/2    full True amph False
+m004(22,1): all tetrahedra positively oriented vol 1.961690 H1 Z/22   Sym Z/2 + Z/2    full True amph False
+m004(22,7): all tetrahedra positively oriented vol 1.997796 H1 Z/22   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(22,9): all tetrahedra positively oriented vol 2.006319 H1 Z/22   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(22,13): all tetrahedra positively oriented vol 2.016264 H1 Z/22   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(24,-13): all tetrahedra positively oriented vol 2.016741 H1 Z/24   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(24,-11): all tetrahedra positively oriented vol 2.012990 H1 Z/24   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(24,-7): all tetrahedra positively oriented vol 2.000343 H1 Z/24   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(24,-5): all tetrahedra positively oriented vol 1.990617 H1 Z/24   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(24,-1): all tetrahedra positively oriented vol 1.972281 H1 Z/24   Sym Z/2 + Z/2    full True amph False
+m004(24,1): all tetrahedra positively oriented vol 1.972281 H1 Z/24   Sym Z/2 + Z/2    full True amph False
+m004(24,5): all tetrahedra positively oriented vol 1.990617 H1 Z/24   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(24,7): all tetrahedra positively oriented vol 2.000343 H1 Z/24   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(24,11): all tetrahedra positively oriented vol 2.012990 H1 Z/24   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(24,13): all tetrahedra positively oriented vol 2.016741 H1 Z/24   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(26,-11): all tetrahedra positively oriented vol 2.013780 H1 Z/26   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(26,-9): all tetrahedra positively oriented vol 2.009059 H1 Z/26   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(26,-7): all tetrahedra positively oriented vol 2.002694 H1 Z/26   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(26,-5): all tetrahedra positively oriented vol 1.994686 H1 Z/26   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(26,-3): all tetrahedra positively oriented vol 1.986298 H1 Z/26   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(26,-1): all tetrahedra positively oriented vol 1.980597 H1 Z/26   Sym Z/2 + Z/2    full True amph False
+m004(26,1): all tetrahedra positively oriented vol 1.980597 H1 Z/26   Sym Z/2 + Z/2    full True amph False
+m004(26,3): all tetrahedra positively oriented vol 1.986298 H1 Z/26   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(26,5): all tetrahedra positively oriented vol 1.994686 H1 Z/26   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(26,7): all tetrahedra positively oriented vol 2.002694 H1 Z/26   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(26,9): all tetrahedra positively oriented vol 2.009059 H1 Z/26   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(26,11): all tetrahedra positively oriented vol 2.013780 H1 Z/26   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(28,-13): all tetrahedra positively oriented vol 2.017708 H1 Z/28   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(28,-11): all tetrahedra positively oriented vol 2.014556 H1 Z/28   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(28,-9): all tetrahedra positively oriented vol 2.010341 H1 Z/28   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(28,-5): all tetrahedra positively oriented vol 1.998228 H1 Z/28   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(28,-3): all tetrahedra positively oriented vol 1.991600 H1 Z/28   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(28,-1): all tetrahedra positively oriented vol 1.987242 H1 Z/28   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(28,1): all tetrahedra positively oriented vol 1.987242 H1 Z/28   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(28,3): all tetrahedra positively oriented vol 1.991600 H1 Z/28   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(28,5): all tetrahedra positively oriented vol 1.998228 H1 Z/28   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(28,9): all tetrahedra positively oriented vol 2.010341 H1 Z/28   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(28,11): all tetrahedra positively oriented vol 2.014556 H1 Z/28   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(28,13): all tetrahedra positively oriented vol 2.017708 H1 Z/28   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(30,-13): all tetrahedra positively oriented vol 2.018188 H1 Z/30   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(30,-11): all tetrahedra positively oriented vol 2.015311 H1 Z/30   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(30,-7): all tetrahedra positively oriented vol 2.006813 H1 Z/30   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(30,-1): all tetrahedra positively oriented vol 1.992636 H1 Z/30   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(30,1): all tetrahedra positively oriented vol 1.992636 H1 Z/30   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(30,7): all tetrahedra positively oriented vol 2.006813 H1 Z/30   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(30,11): all tetrahedra positively oriented vol 2.015311 H1 Z/30   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(30,13): all tetrahedra positively oriented vol 2.018188 H1 Z/30   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(32,-13): all tetrahedra positively oriented vol 2.018662 H1 Z/32   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(32,-11): all tetrahedra positively oriented vol 2.016040 H1 Z/32   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(32,-9): all tetrahedra positively oriented vol 2.012698 H1 Z/32   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(32,-7): all tetrahedra positively oriented vol 2.008600 H1 Z/32   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(32,-5): all tetrahedra positively oriented vol 2.004009 H1 Z/32   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(32,-3): all tetrahedra positively oriented vol 1.999736 H1 Z/32   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(32,-1): all tetrahedra positively oriented vol 1.997071 H1 Z/32   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(32,1): all tetrahedra positively oriented vol 1.997071 H1 Z/32   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(32,3): all tetrahedra positively oriented vol 1.999736 H1 Z/32   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(32,5): all tetrahedra positively oriented vol 2.004009 H1 Z/32   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(32,7): all tetrahedra positively oriented vol 2.008600 H1 Z/32   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(32,9): all tetrahedra positively oriented vol 2.012698 H1 Z/32   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(32,11): all tetrahedra positively oriented vol 2.016040 H1 Z/32   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(32,13): all tetrahedra positively oriented vol 2.018662 H1 Z/32   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(34,-13): all tetrahedra positively oriented vol 2.019126 H1 Z/34   Sym err:SnapPea crashed in function b'birectangu full None amph None  <-- CHECK
+m004(34,-11): all tetrahedra positively oriented vol 2.016741 H1 Z/34   Sym err:SnapPea crashed in function b'birectangu full None amph None  <-- CHECK
+m004(34,-9): all tetrahedra positively oriented vol 2.013768 H1 Z/34   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(34,-7): all tetrahedra positively oriented vol 2.010221 H1 Z/34   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(34,-5): all tetrahedra positively oriented vol 2.006369 H1 Z/34   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(34,-3): all tetrahedra positively oriented vol 2.002888 H1 Z/34   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(34,-1): all tetrahedra positively oriented vol 2.000762 H1 Z/34   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(34,1): all tetrahedra positively oriented vol 2.000762 H1 Z/34   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(34,3): all tetrahedra positively oriented vol 2.002888 H1 Z/34   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(34,5): all tetrahedra positively oriented vol 2.006369 H1 Z/34   Sym err:SnapPea crashed in function b'birectangu full None amph None  <-- CHECK
+m004(34,7): all tetrahedra positively oriented vol 2.010221 H1 Z/34   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(34,9): all tetrahedra positively oriented vol 2.013768 H1 Z/34   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(34,11): all tetrahedra positively oriented vol 2.016741 H1 Z/34   Sym err:SnapPea crashed in function b'birectangu full None amph None  <-- CHECK
+m004(34,13): all tetrahedra positively oriented vol 2.019126 H1 Z/34   Sym err:SnapPea crashed in function b'birectangu full None amph None  <-- CHECK
+m004(36,-13): all tetrahedra positively oriented vol 2.019579 H1 Z/36   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(36,-11): all tetrahedra positively oriented vol 2.017412 H1 Z/36   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(36,-7): all tetrahedra positively oriented vol 2.011690 H1 Z/36   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(36,-5): all tetrahedra positively oriented vol 2.008442 H1 Z/36   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(36,-1): all tetrahedra positively oriented vol 2.003866 H1 Z/36   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(36,1): all tetrahedra positively oriented vol 2.003866 H1 Z/36   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(36,5): all tetrahedra positively oriented vol 2.008442 H1 Z/36   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(36,7): all tetrahedra positively oriented vol 2.011690 H1 Z/36   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(36,11): all tetrahedra positively oriented vol 2.017412 H1 Z/36   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(36,13): all tetrahedra positively oriented vol 2.019579 H1 Z/36   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(38,-13): all tetrahedra positively oriented vol 2.020018 H1 Z/38   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(38,-11): all tetrahedra positively oriented vol 2.018051 H1 Z/38   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(38,-9): all tetrahedra positively oriented vol 2.015696 H1 Z/38   Sym err:SnapPea crashed in function b'birectangu full None amph None  <-- CHECK
+m004(38,-7): all tetrahedra positively oriented vol 2.013023 H1 Z/38   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(38,-5): all tetrahedra positively oriented vol 2.010269 H1 Z/38   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(38,-3): all tetrahedra positively oriented vol 2.007899 H1 Z/38   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(38,-1): all tetrahedra positively oriented vol 2.006500 H1 Z/38   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(38,1): all tetrahedra positively oriented vol 2.006500 H1 Z/38   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(38,3): all tetrahedra positively oriented vol 2.007899 H1 Z/38   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(38,5): all tetrahedra positively oriented vol 2.010269 H1 Z/38   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(38,7): all tetrahedra positively oriented vol 2.013023 H1 Z/38   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(38,9): all tetrahedra positively oriented vol 2.015696 H1 Z/38   Sym err:SnapPea crashed in function b'birectangu full None amph None  <-- CHECK
+m004(38,11): all tetrahedra positively oriented vol 2.018051 H1 Z/38   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(38,13): all tetrahedra positively oriented vol 2.020018 H1 Z/38   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(40,-13): all tetrahedra positively oriented vol 2.020443 H1 Z/40   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(40,-11): all tetrahedra positively oriented vol 2.018657 H1 Z/40   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(40,-9): all tetrahedra positively oriented vol 2.016560 H1 Z/40   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(40,-7): all tetrahedra positively oriented vol 2.014231 H1 Z/40   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(40,-3): all tetrahedra positively oriented vol 2.009907 H1 Z/40   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(40,-1): all tetrahedra positively oriented vol 2.008755 H1 Z/40   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(40,1): all tetrahedra positively oriented vol 2.008755 H1 Z/40   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(40,3): all tetrahedra positively oriented vol 2.009907 H1 Z/40   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(40,7): all tetrahedra positively oriented vol 2.014231 H1 Z/40   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(40,9): all tetrahedra positively oriented vol 2.016560 H1 Z/40   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(40,11): all tetrahedra positively oriented vol 2.018657 H1 Z/40   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+m004(40,13): all tetrahedra positively oriented vol 2.020443 H1 Z/40   Sym at least Z/2 + Z/2 full False amph False  <-- CHECK
+even fillings tested: 240; not (hyperbolic, Sym = Z/2+Z/2, full, chiral): 172
+    (2, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (2, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (2, -9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (2, -1, 'contains flat tetrahedra', 'at least Z/2 + Z/2', False, False)
+    (2, 1, 'contains flat tetrahedra', 'at least Z/2 + Z/2', False, False)
+    (2, 9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (2, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (2, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (4, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (4, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (4, -9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (4, -1, 'contains degenerate tetrahedra', 'at least Z/2 + Z/2', False, False)
+    (4, 1, 'contains degenerate tetrahedra', 'at least Z/2 + Z/2', False, False)
+    (4, 9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (4, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (4, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (6, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (6, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (6, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (6, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (8, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (8, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (8, -9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (8, 9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (8, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (8, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (10, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (10, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (10, -9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (10, 9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (10, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (10, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (12, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (12, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (12, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (12, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (14, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (14, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (14, -9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (14, 9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (14, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (14, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (16, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (16, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (16, -9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (16, -7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (16, 7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (16, 9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (16, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (16, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (18, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (18, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (18, -7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (18, 7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (18, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (18, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (20, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (20, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (20, -9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (20, -7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (20, 7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (20, 9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (20, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (20, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (22, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (22, -9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (22, -7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (22, 7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (22, 9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (22, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (24, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (24, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (24, -7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (24, -5, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (24, 5, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (24, 7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (24, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (24, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (26, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (26, -9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (26, -7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (26, -5, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (26, -3, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (26, 3, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (26, 5, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (26, 7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (26, 9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (26, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (28, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (28, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (28, -9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (28, -5, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (28, -3, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (28, -1, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (28, 1, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (28, 3, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (28, 5, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (28, 9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (28, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (28, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (30, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (30, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (30, -7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (30, -1, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (30, 1, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (30, 7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (30, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (30, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (32, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (32, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (32, -9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (32, -7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (32, -5, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (32, -3, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (32, -1, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (32, 1, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (32, 3, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (32, 5, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (32, 7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (32, 9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (32, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (32, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (34, -13, 'all tetrahedra positively oriented', "err:SnapPea crashed in function b'birectangu", None, None)
+    (34, -11, 'all tetrahedra positively oriented', "err:SnapPea crashed in function b'birectangu", None, None)
+    (34, -9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (34, -7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (34, -5, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (34, -3, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (34, -1, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (34, 1, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (34, 3, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (34, 5, 'all tetrahedra positively oriented', "err:SnapPea crashed in function b'birectangu", None, None)
+    (34, 7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (34, 9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (34, 11, 'all tetrahedra positively oriented', "err:SnapPea crashed in function b'birectangu", None, None)
+    (34, 13, 'all tetrahedra positively oriented', "err:SnapPea crashed in function b'birectangu", None, None)
+    (36, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (36, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (36, -7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (36, -5, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (36, -1, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (36, 1, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (36, 5, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (36, 7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (36, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (36, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (38, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (38, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (38, -9, 'all tetrahedra positively oriented', "err:SnapPea crashed in function b'birectangu", None, None)
+    (38, -7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (38, -5, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (38, -3, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (38, -1, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (38, 1, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (38, 3, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (38, 5, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (38, 7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (38, 9, 'all tetrahedra positively oriented', "err:SnapPea crashed in function b'birectangu", None, None)
+    (38, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (38, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (40, -13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (40, -11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (40, -9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (40, -7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (40, -3, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (40, -1, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (40, 1, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (40, 3, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (40, 7, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (40, 9, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (40, 11, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+    (40, 13, 'all tetrahedra positively oriented', 'at least Z/2 + Z/2', False, False)
+b1 exit 0

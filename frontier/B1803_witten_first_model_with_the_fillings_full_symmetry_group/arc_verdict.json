@@ -1,0 +1,32 @@
+{
+ "id": "B1803",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-36",
+   "status": "UNEARNED",
+   "note": "Q = m004(p/q) as the G2 frame's GUT 3-cycle, as in B1801 and B1802; here the symmetry group's fixed points and the placement census only"
+  }
+ ],
+ "depends_on": [
+  "B1297",
+  "B1462",
+  "B1801",
+  "B1802"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "Witten's discrete doublet-triplet splitting (hep-ph/0201018), first model, with F' the 3-cycle's full orientation-preserving symmetry group",
+  "object": "hyperbolic Dehn fillings m004(p/q) with p even (exceptional slopes 0, +-2, +-4 excluded)",
+  "reach": "class",
+  "hypotheses": "every multiplet at an F'-fixed point with common charges (Witten's first model); coincident points allowed as in his section 3; the G2 manifold, F's extension to it and the local models of coincident multiplets not supplied"
+ },
+ "claim_one_line": "WITTEN'S FIRST MODEL WITH THE FILLINGS' FULL SYMMETRY GROUP (P-409; data-free; PROVED for the topology and the census): on a hyperbolic m004(p/q) with p even, F' = Sym(Q) = Z/2 x Z/2 (two strong inversions and the period) fixes exactly four points -- two on the period's axis in the knot exterior, two on the filling's core -- and, relative to one, they carry all four characters of F' when p = 2 mod 4 and two, twice each, when p = 0 mod 4 (the period's relative lift p/2 mod 2, proved from H1 of the orbifold Q/P and checked on 75 fillings; the referee's two other routes on 150); Witten's first model needs eight multiplets at F'-fixed points, so it cannot be built at distinct points (8 > 4); with coincident points, which his section 3 allows, it is realisable, with at least 4 (p = 0 mod 4) or 7 (p = 2 mod 4) multiplets at one point (12 and 512 placements); each Z/2 alone still needs a matter parity from elsewhere; local models with coincident multiplets open (P-416). Structural; none of the 19.",
+ "weave_or_thread": "thread (one filling at a time)"
+}
