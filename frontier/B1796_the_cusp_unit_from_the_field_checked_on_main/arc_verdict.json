@@ -1,0 +1,38 @@
+{
+ "id": "B1796",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1290",
+  "B1487",
+  "B1604",
+  "B1629",
+  "B1632",
+  "B1634",
+  "B1640",
+  "B1641",
+  "B1691",
+  "B1700",
+  "B1715",
+  "B1794"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W123",
+  "sm:W127",
+  "sm:W130"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "a Fuchsian point of the punctured torus, (3,3,3) (the modular torus), with its parabolic SL(2) Higgs bundle; the weight-3/2 vector-valued forms of rho_T with end data at the cusp",
+  "object": "W130 (the point's Higgs field cannot vanish) and W123 (the Higgs space's dimension under end data)",
+  "reach": "class",
+  "hypotheses": "W130 checked for non-unitarity, Hitchin's equation and the size (convention stated); not its images, other points, 'exactly one field', H3, H4; W123's exact route; d = max(0, sum m) computed on {-1,0,1,2}^3 (and by the referee on 1 345 more vectors), its sum m <= 0 half proved; the reduction's links FK15, the type identification, uniform end data and the least remainder not derived; given Lambda and the hand"
+ },
+ "claim_one_line": "THE CUSP UNIT FROM THE FIELD, CHECKED ON MAIN (C8; P-288, P-298, R71-3; PROVED, a verification from definitions and with main's own code): the fibre's point (3,3,3), a Fuchsian character (the modular torus, commutator [[-1,0],[-6,-1]]), preserves no positive-definite Hermitian form, so its Higgs field is nowhere zero (|Phi| = 1/2 in the seat's convention; convention-free, 2i tr(Phi^Phi*) is the hyperbolic area form); m units of end data on the three eigenlines give a weight-3/2 Higgs space of dimension max(0, m_P + m_M + m_N) on every vector computed (64 on main, 1 345 more and an independent theta-polynomial route at the referee; the sum m <= 0 half proved), agreeing with the seat's exact route, so O(n delta) gives 3n; FK10's unit reduces to the field's existence (FK15), a type identification, uniform end data and the least remainder, given Lambda and the hand, none derived. No input removed. 0 of 19.",
+ "weave_or_thread": "weave (the field's Higgs at the object's end)"
+}

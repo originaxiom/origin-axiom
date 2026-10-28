@@ -1,0 +1,10 @@
+(1) tr[A,B] at (3,3,3): -2
+    A, B in SL(2,Z): det 1 1 | traces 3 3 3 | [A,B] = [[-1, 0], [-6, -1]] tr -2
+    eigenvalues of A: [3/2 - sqrt(5)/2, sqrt(5)/2 + 3/2] moduli [3/2 - sqrt(5)/2, sqrt(5)/2 + 3/2] -> |tr| = 3 > 2: not in any conjugate of SU(2); no invariant positive-definite Hermitian form
+    SU(2) traces: 2cos t, max 2
+(2) Hitchin on K^1/2: (-8*mu(u, v)**3 + mu(u, v)*Derivative(mu(u, v), (u, 2)) + mu(u, v)*Derivative(mu(u, v), (v, 2)) - Derivative(mu(u, v), u)**2 - Derivative(mu(u, v), v)**2)/(8*mu(u, v)**2) = 0
+    mu = c/v^2 solves it for c = [1/4]
+    curvature of mu|dz|^2: -4
+    |Phi|^2 in curvature -1 units: 1/4 -> |Phi| = 1/2
+    once-punctured torus: chi = -1, area 2 pi; integral |Phi|^2 = pi/2 = pi(-chi/2): True
+w130_check exit 0

@@ -1,0 +1,7 @@
+line orders R, DR, D2R: [[1, -1, 3], [1, -1, 3], [9, -1, 3]]
+residues mod 8 per line (R, DR, D2R): [[[1], [7], [3]], [[1], [7], [3]], [[1], [7], [3]]]
+extreme vectors tested: 345 | d(m) != max(0, sum m): []
+python3 -B fm_extremes.py 2>&1  107.02s user 0.52s system 69% cpu 2:34.99 total
+tail -4  0.00s user 0.01s system 0% cpu 2:34.98 total
+
+[exited with code 0]

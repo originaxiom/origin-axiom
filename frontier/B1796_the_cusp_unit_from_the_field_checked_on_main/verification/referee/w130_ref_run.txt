@@ -1,0 +1,17 @@
+(a) traces 3 3 3 | [A,B] = A B A^-1 B^-1 = [[-1, 0], [-6, -1]] | B^-1 A^-1 B A... A^-1 B^-1 A B = [[-1, 6], [0, -1]]
+    chi12(T) = 1
+    chi12(S) = 9
+    chi12(A) = 0
+    chi12(B) = 0
+    chi12([A,B]) = 0
+    another Fuchsian point (the square torus): [2*sqrt(2), 2*sqrt(2), 4] x^2+y^2+z^2-xyz = 0
+(b) H Hermitian: True | eigenvalues [-1, 1] (indefinite) | A^* H A == H: True | B: True
+(c) seat's route: F1 = 1/(4*v**2) | [Phi,Phi*] on e1 = -c**2/v**2 | F + [Phi,Phi*] = 0 gives c = [1/2]
+    wrong sign F - [Phi,Phi*] = 0 gives c = [] (no positive solution)
+    Phi = unit: F1 - mu = 0 with mu = k v^p -> -(8*k*v**(p + 2) + p)/8 -> needs p = -2 and k = 1/4
+    |dz|^2 = 1/lam (the arc's and the seat's)                              |Phi|^2 = 1/4, |Phi| = 1/2, integral = pi/2
+    |dz|^2 = 2/lam (Riemannian norm of the complex 1-form du + i dv)       |Phi|^2 = 1/2, |Phi| = sqrt(2)/2, integral = pi
+    Hitchin's ||Phi||^2 = 2i int tr(Phi ^ Phi*), density per dA            |Phi|^2 = 1, |Phi| = 1, integral = 2*pi
+    convention-free: 2i tr(Phi ^ Phi*) / dA_(-1) = 1 (the harmonic metric's Phi has the hyperbolic area form as its density)
+    harmonic-map check: 8 tr(phi phi*) v^2 = 2 (= 2 = |d id|^2 for the identity isometry: the curvature -4 solution is the uniformisation)
+w130_ref exit 0

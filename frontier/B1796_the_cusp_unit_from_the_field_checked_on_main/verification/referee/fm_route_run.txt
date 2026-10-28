@@ -1,0 +1,15 @@
+line orders R, DR, D2R: [[1, -1, 3], [1, -1, 3], [9, -1, 3]]
+residues mod 8 per line (R, DR, D2R): [[[1], [7], [3]], [[1], [7], [3]], [[1], [7], [3]]]
+uniform n=0: d=0 (cands 1, nonzero cond rows 1)
+uniform n=1: d=3 (cands 4, nonzero cond rows 1)
+uniform n=2: d=6 (cands 7, nonzero cond rows 1)
+uniform n=3: d=9 (cands 10, nonzero cond rows 1)
+uniform n=4: d=12 (cands 13, nonzero cond rows 1)
+uniform n=5: d=15 (cands 16, nonzero cond rows 1)
+uniform n=6: d=18 (cands 19, nonzero cond rows 1)
+range -4..5: 1000 vectors; d(m) != max(0, sum m) at 0: []
+N-check (1, 1, 1) 3 3
+N-check (2, -1, -1) 0 0
+N-check (-1, 2, -1) 0 0
+N-check (0, 1, 0) 1 1
+N-check (2, 2, -1) 3 3

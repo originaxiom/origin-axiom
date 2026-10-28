@@ -14333,6 +14333,33 @@
    "status": "open",
    "domain": "topology"
   },
+  "B1796": {
+   "slug": "the cusp unit from the field checked on main",
+   "motifs": [
+    "monoid",
+    "closing",
+    "figure_eight",
+    "kappa",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "markov_cubic"
+   ],
+   "refs": [
+    "H0",
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "L250"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B179": {
    "slug": "metallic numbers unified",
    "motifs": [

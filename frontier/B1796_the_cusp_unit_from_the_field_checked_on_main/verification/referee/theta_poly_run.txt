@@ -1,0 +1,17 @@
+completeness (no order condition): dim of the equivariant space vs the free-module count
+  d= 1 (k=-1/2): equivariant 1, free module 1
+  d= 3 (k=3/2): equivariant 1, free module 1
+  d= 5 (k=7/2): equivariant 2, free module 2
+  d= 7 (k=11/2): equivariant 2, free module 2
+  d= 9 (k=15/2): equivariant 3, free module 3
+  d=11 (k=19/2): equivariant 3, free module 3
+  d=13 (k=23/2): equivariant 4, free module 4
+  d=15 (k=27/2): equivariant 4, free module 4
+  d=17 (k=31/2): equivariant 5, free module 5
+  d=27 (k=51/2): equivariant 7, free module 7
+per-line {-1..2}^3 by the theta-polynomial route: mismatches with max(0, sum m): []
+uniform O(n delta):
+  n=0: dim=0 (3n=0)
+  n=1: dim=3 (3n=3)
+  n=2: dim=6 (3n=6)
+python3 -B -u theta_poly_route.py  52.77s user 0.21s system 98% cpu 53.625 total
