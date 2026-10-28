@@ -1,0 +1,32 @@
+Q2' the H1 verdicts recomputed with the J cut: {'NO READING': 444, 'NOISE-LIMITED': 318, 'NOT HARMONIC': 10859, 'UNDETERMINED': 219} (the cells: NOT HARMONIC 10859, HARMONIC 0, UNDETERMINED 219, NOISE-LIMITED 318, NO READING 444)
+   the 219 UNDETERMINED: largest |D(r1)| below 1e-8 12, 1e-8 to 1e-6 201, above 1e-6 6 (there the ratio lies outside [3, 5])
+   by slope: {'0': 27, '1/12': 48, '1/6': 25, '1/4': 33, '1/3': 24, '5/12': 26, '1/2': 36}
+   by Higgs: {'F_-6': 3, 'dR': 4, 'F_-10': 162, 'F_26': 12, 'F_18': 12, 'F_10': 4, 'F_14': 10, 'F_22': 9, 'F_6': 2, 'F_-2': 1}
+Q6' the Standard Model's reading on the 40 slope-2/5 lines, L_max, with the J cut: {'NOT HARMONIC': 400}
+Q6' the Standard Model's reading on the 40 slope-2/5 lines, L_2, with the J cut: {'NOT HARMONIC': 400}
+Q7 the largest component's share |h_max|^2 at the centres, per Higgs: median (min-max)
+   dR    0.499937 (0.496094-0.501027)
+   F_-10 1.000000 (1.000000-1.000000)
+   F_14  0.502250 (0.500316-0.514339)
+   F_26  0.504179 (0.500587-0.526612)
+   F_-6  1.000000 (0.999998-1.000000)
+   F_6   0.500964 (0.500135-0.506147)
+   F_18  0.502893 (0.500406-0.518433)
+   F_-2  0.996190 (0.981935-0.999206)
+   F_10  0.501607 (0.500226-0.510244)
+   F_22  0.503536 (0.500496-0.522524)
+Q8 the norms c_s at the centres on the 12 lines where theta_M is HARMONIC: |c_1 - c_i| and |c_j - c_k| (largest over centres, both sectors), and |c_1 - c_j|
+   (1/6, 1/12): |c_1 - c_i| 4.3e-14, |c_j - c_k| 7.0e-12, |c_1 - c_j| 5.8e+01
+   (1/6, 1/4): |c_1 - c_i| 2.8e-14, |c_j - c_k| 7.0e-12, |c_1 - c_j| 5.8e+01
+   (1/6, 5/12): |c_1 - c_i| 2.8e-14, |c_j - c_k| 7.1e-12, |c_1 - c_j| 5.8e+01
+   (1/6, 7/12): |c_1 - c_i| 5.7e-14, |c_j - c_k| 6.9e-12, |c_1 - c_j| 5.8e+01
+   (1/6, 3/4): |c_1 - c_i| 4.3e-14, |c_j - c_k| 7.0e-12, |c_1 - c_j| 5.8e+01
+   (1/6, 11/12): |c_1 - c_i| 5.7e-14, |c_j - c_k| 6.9e-12, |c_1 - c_j| 5.8e+01
+   (1/3, 1/12): |c_1 - c_i| 1.7e-13, |c_j - c_k| 8.5e-13, |c_1 - c_j| 5.8e+01
+   (1/3, 1/4): |c_1 - c_i| 9.9e-14, |c_j - c_k| 6.1e-13, |c_1 - c_j| 5.8e+01
+   (1/3, 5/12): |c_1 - c_i| 3.1e-13, |c_j - c_k| 1.1e-12, |c_1 - c_j| 5.8e+01
+   (1/3, 7/12): |c_1 - c_i| 2.4e-13, |c_j - c_k| 8.7e-13, |c_1 - c_j| 5.8e+01
+   (1/3, 3/4): |c_1 - c_i| 1.8e-13, |c_j - c_k| 6.1e-13, |c_1 - c_j| 5.8e+01
+   (1/3, 11/12): |c_1 - c_i| 3.0e-13, |c_j - c_k| 1.1e-12, |c_1 - c_j| 5.8e+01
+   for comparison (2/5, 1/2): |c_1 - c_i| nan, |c_j - c_k| 4.6e-01, |c_1 - c_j| 4.5e+00
+p323 posthoc2 exit 0
