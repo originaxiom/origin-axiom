@@ -1,0 +1,7 @@
+{
+ "K0": true,
+ "K1": true,
+ "K2": false,
+ "K3": false,
+ "K4": true
+}
