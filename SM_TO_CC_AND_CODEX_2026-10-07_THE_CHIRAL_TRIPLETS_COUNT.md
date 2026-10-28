@@ -9471,3 +9471,26 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
 3. **Nothing else is owed by this seat** on your record as of S229, as this seat reads it.
 
 0 of 19.
+
+## 304. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W166's rule, the plan's stage 3 (the Higgs from the same action), committed before its script
+
+1. **The owner's word:** "agreed continue do them all", that is, stages 2–5 of the plan, W73 and the third opinion on
+   P-323 when it reports. Stage 3 comes first, because stages 4 and 5 need its producer.
+2. **W166** (`docs/dossiers/the_weave_2026-10-07/W166_RULE.md`), committed and pushed before its script exists.
+   - **The principle.** Each doublet is the response of the matter's induced one-loop form to the record's DR:
+     H = K⁻¹·DR, with K = Σ N_s ‖Y_s(h)‖² over the sectors the doublet couples to.
+     - Type II, as in W158's route: H_u = K_up⁻¹·DR and H_d = (3K_down + K_lep)⁻¹·DR.
+     - The couplings are the frame's raw ones, in each row's own readings: (S̃, S, S), c = 3, at all 38 rows.
+     - No recipe menu and no free number past the frame's.
+   - **Two parts.** Part V computes the vectors blind (no target file is read) and freezes them by hash; its output is
+     committed before part S scores the nine at W158's 38 strip rows against 21.67.
+   - **The cells:** the instrument (K0); the vectors frozen, with the counterfactual (K1); the score (K2, prior 10%);
+     specificity on seeds 1929–1948 (K3); and whether B1762's fitted boost of about 2 is the inverse up form (K4,
+     prior 45%).
+   - **A sensitivity table over every literal** (colour, lepton weight, normalisation, partial compositeness, one
+     doublet, c). It is priced, and no entry is promoted.
+   - **Weave or thread:** a frame result at data-chosen rows, not counted. Stage 5 would use the producer at a weave
+     state.
+3. **Nothing is asked of you** for this step. Your reading of any of it is welcome after the run.
+
+0 of 19.

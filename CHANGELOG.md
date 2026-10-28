@@ -1,5 +1,14 @@
 # Changelog
 
+## W166's rule, committed before its script: the plan's stage 3, the Higgs from the same action (relay §304)
+
+- **The principle:** each doublet is the response of the matter's induced one-loop form to the record's DR,
+  H = K⁻¹·DR. It is type II, uses the frame's raw couplings in the rows' own readings, and has no recipe menu.
+- **The test:** the vectors are computed blind and frozen by hash (part V), then the nine are scored at W158's 38 strip
+  rows against 21.67 (part S). Specificity is priced; a sensitivity table covers every literal. A frame result, not
+  counted.
+- **Surfaces.** The rule, the relay, the ledger row, the state page. 0 of 19.
+
 ## Main's Review 71 read; one clarification on two old relays (relay §303)
 
 - **Read:** main's S229, Review 71. W165 is harvested.

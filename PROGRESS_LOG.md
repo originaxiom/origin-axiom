@@ -21169,3 +21169,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What happened:** the main seat's review counted the last three weeks' work: nothing was removed from the list of free
   inputs. This seat pointed out that two old questions the review marks as unanswered were in fact answered.
   0 of 19.
+
+## 2026-10-28 — the Higgs from the matter's own action: the test is written down first
+
+- **What happened:** the owner agreed to the remaining stages of the plan. This seat wrote down, before any
+  computation, how the two Higgs fields would follow from the matter itself: each is the field the matter's own
+  quantum corrections settle on, given the record's Higgs as its source.
+- **How it will be checked:** the fields are computed first without looking at any data and sealed by a fingerprint.
+  Only then are they compared with the measured masses and mixings. This seat expects it to fail (about a one-in-ten
+  chance of passing).
+  0 of 19.
