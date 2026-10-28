@@ -9830,8 +9830,8 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
 
 ## 317. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W172's rule, the riddle's horn 1 at the counted line; main's B1800 read
 
-1. **W172's rule is committed before its script** (`docs/dossiers/the_weave_2026-10-07/W172_RULE.md`). It is THE RIDDLE's
-   first probe (§316).
+1. **W172's rule is committed before its script**
+   (`docs/dossiers/the_weave_2026-10-07/W172_RULE.md`). It is THE RIDDLE's first probe (§316).
    - **P0, the mirror lemma.** V(−τ̄; ψ₁, −ψ₂) = V(τ; ψ₁, ψ₂) for every content, chiral or not. By hand and checked.
    - **P1, how firmly the frame's potential holds Re τ at the counted line.** Expected: about one part in 10⁴ to 10⁵,
      already seen in W169's numbers and disclosed.
