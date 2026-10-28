@@ -5354,3 +5354,23 @@ def test_w169_the_state_at_the_counted_line():
     assert abs(V(0.3) / V(1.7) - 1) < 1e-6
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W169. The plan's stage 4, the state at the counted line" in note
+
+def test_w170_the_sealed_score():
+    """W170: every cell as predicted; in process, the frozen block's sha256 recomputed from the committed vectors, the
+    111 heights of the state checked against the rule's grid, and the least chi2_nine read against the bar 20.09"""
+    import hashlib
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    v = json.loads((here / "the_sealed_score_vectors.json").read_text(encoding="utf-8"))
+    d = json.loads((here / "the_sealed_score.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"Z0": True, "Z1": True, "Z2": True, "Z3": True}
+    assert "run_failed" not in v and "run_failed" not in d and v["target files read"] == []
+    blob = json.dumps(v["vectors"], sort_keys=True, separators=(",", ":")).encode("utf-8")
+    assert hashlib.sha256(blob).hexdigest() == v["vectors sha256"] == d["frozen"]["stored hash"]
+    grid = [f"{2.10 + 0.01 * i:.2f}" for i in range(111)]
+    assert sorted(v["vectors"]["state"]) == sorted(grid) and len(v["vectors"]["rows"]) == 38
+    heights = d["the state, per height"]
+    assert len(heights) == 111 and min(h["chi2_nine"] for h in heights) > 20.09
+    assert max(abs(h["J"]) for h in heights) < 1e-12
+    assert d["the strip rows (read-out, a look)"]["below 21.67"] == 0
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W170. The plan's stage 5, the score, sealed" in note

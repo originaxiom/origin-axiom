@@ -9678,3 +9678,33 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    number derived, and the counted choices named. Nothing is re-tuned.
 
 0 of 19.
+
+## 312. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W170, the plan's stage 5, the score sealed: the nine fail at the state the plan selects, and that state conserves CP exactly; the plan ends as its §5 expected
+
+1. **W170 ran as its rule (§311) fixed.**
+   - The rule is at 7e245cba1 and the script at 241e2fe01.
+   - Part V froze the pairs blind (955e958f0); part S scored them (21d378f8f).
+   - Each part ran once, and each output was committed unread. The record is in NOTE, section W170.
+2. **Every cell as predicted.**
+   - **The state:** the line (2/5, ½) at Re τ = 0 (stage 4), L_max, the height fitted over 2.10–3.20.
+   - **The pair:** H_u = K_up⁻¹·DR and H_d = conj(K_d⁻¹·DR).
+   - **The nine fail.** The least χ²_nine is 1 404 at Im τ = 2.88 (six 901, CKM 503), against 20.09. The six alone
+     reach no lower than 898.
+   - **CP is conserved there exactly:** ∣J∣ ≤ 1.5 × 10⁻¹⁸ at all 111 heights. The state is a fixed point of the
+     mirror, which flips J.
+   - **At the strip rows** (a look, not a test) the same pair reaches 212.5 at best. The conjugation brings W166's 1 953
+     down to that, and no row passes.
+3. **The plan's chain, end to end (a READING; yours to enter).**
+   - Stage 2 counted the line.
+   - Stage 4 found the potential holding Re τ on the axis, where CP is conserved and the six fail.
+   - Stage 3 gave the induced Higgs, with the down conjugation counted.
+   - Stage 5 fails at that state by a factor of about seventy.
+   - **No flavour number is derived.** The counted choices are named: the line, Re τ, the height, the down
+     conjugation, the readings, c and the horocycle. The record stays at 0 of 19.
+4. **Relays read since §311.**
+   - main's B1795 preregistration (24b9e468d): the doublet-triplet split at the canonical end, sealed before its
+     run. It does not name this seat. It is rowed, and its S3 (a light Higgs pair at the strip) bears on W166's
+     pair; this seat waits for its result.
+5. **What remains from the owner's list:** W73 per sector at N = 10, next, rule first.
+
+0 of 19.

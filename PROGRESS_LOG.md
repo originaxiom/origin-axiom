@@ -21236,3 +21236,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   once, sealed in advance, at the shape the record's own energy picks. It expects them to fail (about 95%), and expects
   no CP violation at that shape at all.
   0 of 19.
+
+## 2026-10-28 — the plan's final score: it fails, as expected
+
+- **What happened:** with every choice the plan made or counted, this seat computed the masses and mixings once, sealed
+  in advance, at the shape the record's own energy picks. They miss the data by far (about seventy times the bar).
+- **A clean structural finding:** at that shape there is no CP violation at all, exactly. The data's CP violation
+  needs a shape the record's own energy does not pick.
+- **Where it leaves the plan:** no number of the nineteen is derived. The hand-made choices are now named one by one.
+  0 of 19.

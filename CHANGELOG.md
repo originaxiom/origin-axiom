@@ -1,5 +1,15 @@
 # Changelog
 
+## W170 recorded: the plan's sealed score fails at its own state, which conserves CP (relay §312)
+
+- **The test:** the plan's stage 5, the nine and J computed once, sealed in advance, at the state the earlier stages
+  select, with the Higgs pair from stage 3.
+- **The result:** every cell as predicted. The nine fail by a factor of about seventy over the bar, and J vanishes
+  exactly at that state, a fixed point of the mirror. The plan ends as it expected: no flavour number derived, and the
+  counted choices named.
+- **Surfaces.** The script and its four outputs, NOTE (section and row), a lock test, the relay, the ledger row, the
+  state page. 0 of 19.
+
 ## W170's rule, committed before its script: the plan's stage 5, the score sealed (relay §311)
 
 - **The test:** the nine and J at the state the earlier stages select (the counted line, the potential's Re τ, the height
