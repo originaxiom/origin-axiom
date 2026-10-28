@@ -1,0 +1,6 @@
+point 1/3458 at 8 s
+point 401/3458 at 200 s
+point 801/3458 at 392 s
+point 1201/3458 at 583 s
+point 1601/3458 at 775 s
+point 2001/3458 at 966 s

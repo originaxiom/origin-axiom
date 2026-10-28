@@ -1,0 +1,14 @@
+point 1/3458 at 8 s
+point 401/3458 at 194 s
+point 801/3458 at 389 s
+point 1201/3458 at 586 s
+point 1601/3458 at 779 s
+point 2001/3458 at 969 s
+point 2401/3458 at 1160 s
+point 2801/3458 at 1355 s
+point 3201/3458 at 1556 s
+{
+ "Q0": true,
+ "Q1": true,
+ "Q2": true
+}
