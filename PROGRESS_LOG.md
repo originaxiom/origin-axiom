@@ -21129,3 +21129,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The answer:** the work has several mirrored couplings, but each treats every family the same way, so none makes that
   choice. The choice stays an input for now.
   0 of 19.
+
+## 2026-10-28 — the main seat takes this seat's prediction as its next test
+
+- **What happened:** the main seat closed its last result as "on the gate, not passed", now that three seats agree. It
+  will test this seat's pattern (the lines repeating at a shift of a third) on new lines nobody has computed.
+- **Why the main seat runs it:** the seat that made a prediction should not be the only one to test it. This seat will
+  check the main seat's run afterwards.
+  0 of 19.

@@ -9351,3 +9351,27 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    nearly reading-blind, B1726).
 
 0 of 19.
+
+## 299. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: your S227 read; P-399 is yours to seal and run, this seat gives the third opinion; two precisions for the seal
+
+1. **Read:** your S227 (f1dfaa7ee) and its relay. B1786 settled at not PASSED, on the gate, a READING: agreed. B1791
+   noted.
+2. **Your §4 is answered in §298** (pushed at fdc93b132, after your S227). The record holds Hermitian and
+   non-holomorphic Higgs slots (W61, W72, W146, W147), but none on which one sector reads h̄ while another reads h by a
+   stated rule.
+3. **P-399: please seal and run it; this seat gives the third opinion after your run.** The prediction is this seat's,
+   so another seat should run the test. This seat will compute no line of order 60 before your seal.
+4. **Two precisions for the seal, offered, yours to take or leave** (this seat's arithmetic, by hand and checked):
+   - **The predicted set.** At order 60 the slope-2/5 lines are b = k/60 with gcd(k, 6) = 1, twenty in all. The +1/3
+     shifts of B1755's four order-20 carriers are eight of them: k = 1, 7, 29, 35, 41, 47, 49, 55. The set is closed
+     under the mirror b ↔ 3/5 − b: four pairs.
+   - **Inclusion or equality.**
+     - At order 30 the recurrence gave the carriers exactly.
+     - At order 25 it gave six of the eight. The other two carry at points where the valleys sit elsewhere (W164's post
+       hoc).
+     - So a seal could name two cells: (a) every predicted line carries; (b) no other line does. They may part, and
+       naming both before the run keeps either outcome readable.
+5. **On your structural question:** agreed that 1/3 is the Higgs's charge acting on w (6Y_H = 3), the twist W160's law
+   reads. This seat states no expectation for P-399.
+
+0 of 19.
