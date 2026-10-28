@@ -7726,6 +7726,78 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W173. THE RIDDLE, horn 3 at the record's best rows: the fit is carried by the chosen point, not by the forced exponents with one height. At all 38 rows the first generation in every sector needs a point-dependent prefactor of 4.6 to 51 over its forced local exponent (the down quark's 43–51), Re τ sweeps the six by up to 20σ on the line's orbit, and of the 266 lines at the row's τ only the row's own passes. Every cell as predicted (`the_fit_at_the_rows.py`; `W173_RULE.md`)
+
+**Why.** THE RIDDLE's program, item 3 (relay §316). Horn 3 says the data are carried by choices, not by forced
+structure. The best rows match the six with χ²_six near 3. This arc measures, row by row, how much of each ratio comes
+from the frame's forced local exponent times the height, and how much from the rest. The question inside it is the
+owner's skeleton: forced exponents and one number, with coefficients of order one.
+
+**The order.**
+- The rule (`W173_RULE.md`, 944c22817) was committed and pushed before the script.
+- The script (41c865eb1) was committed before its run, checked for syntax only.
+- **One interrupted launch, disclosed.** A container restart stopped the first launch after 2001 of its 3458 points.
+  Nothing was written, and only its progress lines were seen (`the_fit_at_the_rows_first_launch_interrupted.txt`).
+- The second launch ran the same committed script unchanged, in 1676 s on four workers. Its output (9e8067194) was
+  committed unread, after a check of the exit, failures, NaN, paths and warnings, then read once.
+
+**The result (COMPUTED; one completed run; every cell as predicted).**
+- **Q0, the instrument.** The own frame's χ²_six reproduces every stored row's to 2.0 × 10⁻¹⁰ relative.
+- **Q1, Re τ is a strong knob.** At every row some feature sweeps at least 17.8σ over Re τ on the line's T-orbit at the
+  row's height.
+  - Each feature's span: up m₂/m₃ 17.8–19.7σ, leptons m₂/m₃ 8.5σ, up m₁/m₃ 7.4–8.9σ, down m₂/m₃ 6.2σ, and the two
+    remaining first-generation ratios 2.0–3.1σ.
+  - χ²_six rises to 176–254 somewhere on the orbit at every row's height. At 30 of the 38 rows a grid point of the
+    sweep lies below the row itself (least 2.69).
+- **Q2, the skeleton test (decisive).** At every row some |P_i| exceeds ln 3. The least of the rows' largest is 3.75,
+  and the largest is always the down quark's m₁/m₃.
+- **The decomposition f_i = −2πy e_i + P_i at the 38 rows** (local exponents e_i; intercepts P_i):
+
+| feature | e_i (frame) | data's own −d_i/(2πy) | data / frame | e^{P_i} | rows with \|P_i\| > ln 3 |
+| --- | --- | --- | --- | --- | --- |
+| up m₂/m₃ | 0.289–0.366 | 0.286–0.301 | 0.81–1.00 | 1.3–3.8 | 22 |
+| up m₁/m₃ | 0.720–0.751 | 0.604–0.636 | 0.81–0.88 | 4.6–18 | 38 |
+| down m₂/m₃ | 0.196–0.205 | 0.203–0.214 | 1.02–1.05 | 0.92–1.05 | 0 |
+| down m₁/m₃ | 0.560–0.567 | 0.356–0.375 | 0.63–0.67 | 43–51 | 38 |
+| leptons m₂/m₃ | 0.193–0.202 | 0.145–0.152 | 0.73–0.76 | 2.6–2.9 | 0 |
+| leptons m₁/m₃ | 0.517–0.526 | 0.418–0.440 | 0.80–0.85 | 5.1–6.3 | 38 |
+
+- **The read-outs.**
+  - **The height.** A change of 10 in χ²_six takes a step in Im τ of 0.025 to 0.87, with median 0.063, about 2% of
+    the height.
+  - **The CKM over Re τ.** At every row |V_us| stays at 0.93–0.99 and |V_cb| at 0.93–0.999, against the data's about
+    0.22 and 0.04. |V_ub| moves over 0.002–0.35.
+  - **The line sweep at the four best rows.** Of the 266 lines at the row's τ, only the row's own line is below
+    16.75. Each feature spreads over the lines by 57σ to 371σ.
+
+**What it shows (a READING on the computed facts).**
+- **Horn 3 is confirmed by measurement, in the outcome the rule fixed.** The rows' match is a selection of a point on a
+  continuum where the six sweep tens of σ (Re τ, the height) to hundreds of σ (the line). That is why random targets
+  also find rows: the menu's capacity is that continuum.
+- **Where the skeleton works and where it does not.**
+  - It works for the second generation of the down quarks: the frame's exponent alone carries m_s/m_b, with a
+    prefactor of 0.92–1.05.
+  - The leptons' m_μ/m_τ is close, with a prefactor of 2.6–2.9.
+  - **The first generation fails in every sector.** The frame's local exponent is steeper than the data's, by a factor
+    of about 1.2 (up, leptons) and 1.5–1.6 (down). A point-dependent prefactor of 4.6 to 51 restores the value.
+  - This is the web seat's "prefactors near 30" measured: 43–51 for the down quark, at every row.
+- **The exponent ratios, free of the height.** The frame's local ratio e₁/e₂ is about 2.0–2.6 (up), 2.7–2.9 (down) and
+  2.6–2.7 (leptons). The data's ln(m₁/m₃)/ln(m₂/m₃) is 2.11, 1.75 and 2.89. The down sector's mismatch (2.8 against
+  1.75) is the cleanest single sign that no choice of height alone repairs the first generation.
+- **The CKM is near a relabelling, not near the identity** (a reading of three moduli, not a computed matrix).
+  By unitarity, ∣V_us∣ ≈ ∣V_cb∣ ≈ 1 puts V near a cyclic permutation of the generations. The sectors' eigenlines are
+  aligned, but in a different order. That fits horn 3's "exact alignment or misalignment of
+  order one, never a small graded one", here in its alignment form.
+- **For the skeleton census (program item 4).** The test should be stated in the height-free ratios e₁/e₂ per sector,
+  and in the e₂ ratios across sectors, on the frame's asymptotic exponents at every line and near i and ω. W173's local
+  values say the 2/5 lines' down sector fails it at the rows' heights.
+- **Weave or thread.** A frame result at data-chosen rows, so a thread-and-frame look. The line sweep covers every line
+  of the census.
+
+**For the look ledger:** one look at the six, counted (the rule's charter viii). It tested no fit and selected nothing.
+
+0 of 19.
+
 ## W172. THE RIDDLE, horn 1 at the counted line: the mirror lemma holds for every content, and the frame's own potential holds Re τ only by a few parts in 10⁴. Its X-profile is one harmonic whose sign the sectors set (quarks to X = 1, leptons to 3.5), and no variation breaks CP; the data's Re τ would cost at most 4 × 10⁻⁵ of the potential. Every cell as predicted (`the_price_of_cp_at_the_counted_line.py`; `W172_RULE.md`)
 
 **Why.** THE RIDDLE's program, item 1 (the reading above; relay §316). Horn 1 says that what the frame's own dynamics
@@ -14523,6 +14595,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W173 | COMPUTED (the rule first; one completed run after one interrupted launch, disclosed; every cell as predicted); a frame result at data-chosen rows, a thread-and-frame look | THE RIDDLE's horn 3: at all 38 best rows the fit is carried by the chosen point — the first generation needs prefactors 4.6–51 over its forced local exponent (down 43–51), Re τ sweeps a feature by up to 20σ, and only the row's own line of 266 passes at its τ; the skeleton works only for m_s/m_b; the CKM sits near a relabelling |
 | W172 | COMPUTED (the rule first; one run; every cell as predicted); a frame result at a counted line, the lemma for every content | THE RIDDLE's horn 1: V(−τ̄; ψ₁, −ψ₂) = V(τ; ψ) to 1.5 × 10⁻¹⁴; at the counted line Re τ is held by a single harmonic of 2–6 × 10⁻⁴ of V; all 15 variations at a mirror fixed point (quarks 1, leptons 3.5); the data's Re τ costs at most 4 × 10⁻⁵ of V; CP conserved robustly but weakly, Re τ in effect flat |
 | W171 | COMPUTED (the rule first; one run after one failed launch; K0, K1, K3 and K4 as predicted; K2 failed as worded on two instrument slips, holds post hoc); a weave result given the counted order | W73 per sector at N = 10 in the weave reading: on all 36 lines of order 10 the stabiliser carries a non-trivial character for every sector in both readings (minimal 3, 5, 5 tenths; per field 8, 6, 6); the orbit sums vanish to 10⁻⁴⁹; every sector's surface Yukawa is zero, so W73 per sector ends as an exclusion; census N = 2–16: the minimal reading keeps all three nowhere, the per field only at N = 2 and 4, which do not split them |
 | W170 | COMPUTED (the rule first; parts V and S each run once; every cell as predicted); the plan's stage 5 | at the state stages 2 and 4 select (the line (2/5, ½) at Re τ = 0, the height fitted over 2.10–3.20), with the sealed pair H_u = K_up⁻¹·DR, H_d = conj(K_d⁻¹·DR): least χ²_nine 1 404 (six 898) against 20.09; J = 0 exactly (the mirror's fixed point conserves CP); at the strip rows the same pair reaches 212.5 at best; **the plan ends as its §5 expected: no flavour number derived, the counted choices named** |

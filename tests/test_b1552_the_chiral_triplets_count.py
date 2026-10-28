@@ -5436,3 +5436,30 @@ def test_w172_the_price_of_cp_at_the_counted_line():
     assert abs(a - b) < 1e-12 * abs(a)
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W172. THE RIDDLE, horn 1 at the counted line" in note
+
+def test_w173_the_fit_at_the_rows():
+    """W173: every cell as predicted; in process, each row's intercepts and the data's own exponents recomputed from the
+    stored six, local exponents, targets and heights, and the cells re-derived from the stored per-row arrays"""
+    import math
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_fit_at_the_rows.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"Q0": True, "Q1": True, "Q2": True}
+    assert "run_failed" not in d and d["warnings"] == [] and d["rows"] == 38 and len(d["per row"]) == 38
+    big = []
+    for p in d["per row"]:
+        y = p["row"][3]
+        f, e, t = np.array(p["six"]), np.array(p["local exponents e_i"]), np.array(p["targets"])
+        P = f + 2 * math.pi * y * e
+        assert np.allclose(P, p["intercepts P_i"], atol=1e-9)
+        assert np.allclose(-t / (2 * math.pi * y), p["the data's own exponents -d_i/(2 pi y)"], atol=1e-12)
+        own, stored = p["chi2_six (own, stored)"]
+        assert abs(own - stored) < 1e-6 * stored
+        assert max(p["Re tau sweep: each feature's span in sigma"]) > 10
+        big.append(float(np.abs(P).max()))
+        assert int(np.argmax(np.abs(P))) == 3 and math.exp(P[3]) > 40
+    assert min(big) > math.log(3) and abs(min(big) - d["Q2"]["least of the rows' largest |P_i|"]) < 1e-9
+    for s in d["R"]["line sweep at four rows"]:
+        assert [v[0] for v in s["lines with chi2_six < 16.75"]] == [s["row"][1]]
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W173. THE RIDDLE, horn 3 at the record's best rows" in note

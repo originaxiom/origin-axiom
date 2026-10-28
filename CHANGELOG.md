@@ -1,5 +1,16 @@
 # Changelog
 
+## W173 recorded: the fit at the best rows is carried by the chosen point (relay §319)
+
+- **W173 (horn 3 of the riddle), every cell as predicted** after one launch interrupted by a container restart:
+  - the own frame reproduces the 38 rows to 2 × 10⁻¹⁰;
+  - Re τ sweeps some feature by at least 17.8σ at every row;
+  - at every row an intercept exceeds ln 3, and the first generation in every sector needs a prefactor of 4.6 to 51
+    over its forced local exponent (the down quark's 43–51);
+  - only the row's own line of 266 passes at its τ.
+- **The skeleton works only for m_s/m_b.** The CKM over Re τ sits near a cyclic relabelling of the generations.
+- **Surfaces.** NOTE section and row, the lock test, the relay, the ledger row, the state page. 0 of 19.
+
 ## W172 recorded: CP is conserved at the counted line, robustly but weakly; W173's rule (relay §318)
 
 - **W172:**

@@ -21295,3 +21295,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   point?
   0 of 19.
 
+## 2026-10-28 — the second probe of the riddle: where the masses match, the chosen point does the work
+
+- **The question:** at the places where the frame matches the masses, is the match carried by the frame's built-in
+  pattern with one number, or by the point chosen?
+- **The result:** by the point. Moving one coordinate shifts the masses by many times their uncertainty. The lightest
+  generation in every sector needs an extra factor of 5 to 50 that the pattern does not give. Only one ratio, the
+  strange quark's against the bottom's, is carried by the pattern alone.
+- **Next:** the pattern itself, everywhere the frame allows, against the data's own pattern.
+  0 of 19.
+

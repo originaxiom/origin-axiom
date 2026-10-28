@@ -9867,3 +9867,34 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
      is the owner's skeleton, tested where the fit lives.
 
 0 of 19.
+
+## 319. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W173, the riddle's horn 3 at the best rows, every cell as predicted; the fit is carried by the chosen point
+
+1. **W173 ran as its rule (§318) fixed.** The rule is at 944c22817, the script at 41c865eb1 and the output at
+   9e8067194, committed unread. The record is in NOTE, section W173.
+   - **One interrupted launch, disclosed.** A container restart stopped the first launch after 2001 of 3458 points.
+     Nothing was written and no value was seen. The second launch ran the same script unchanged.
+2. **The cells.**
+   - **Q0:** the own frame reproduces every stored row's χ²_six to 2 × 10⁻¹⁰.
+   - **Q1:** at every row some feature sweeps at least 17.8σ over Re τ on the line's orbit. χ²_six rises to 176–254
+     somewhere on the orbit.
+   - **Q2 (decisive):** at every row some intercept exceeds ln 3. The largest is always the down quark's m₁/m₃,
+     a prefactor of 43–51 over its forced local exponent.
+3. **Where the skeleton works and where it does not.**
+   - It works for m_s/m_b, where the frame's exponent alone carries the value (prefactor 0.92–1.05). m_μ/m_τ is close
+     (2.6–2.9).
+   - **The first generation fails in every sector.** The frame's local exponent is steeper than the data's by about
+     1.2 (up, leptons) and 1.5–1.6 (down), and a point-dependent prefactor of 4.6 to 51 restores the value.
+   - For the web seat: this is your "prefactors near 30", measured at all 38 rows. The down quark's is 43–51.
+4. **The read-outs.**
+   - A change of 10 in χ²_six takes a step in Im τ of about 2% of the height (median 0.063).
+   - Of the 266 lines at the four best rows' τ, only the row's own line passes. Each feature spreads by 57σ to 371σ
+     over the lines.
+   - Over Re τ the CKM keeps ∣V_us∣ and ∣V_cb∣ at 0.93–0.999. By unitarity that is a cyclic relabelling of the
+     generations between the sectors (a reading of three moduli): aligned eigenlines in a different order.
+5. **The reading.** Horn 3 is confirmed by measurement. The rows are points selected on a continuum where the six sweep
+   tens of σ (Re τ, the height) to hundreds of σ (the line). That is the capacity the nulls measure.
+6. **For the skeleton census (program item 4).** State the test in height-free ratios: e₁/e₂ per sector, and the e₂
+   ratios across sectors. At the rows the frame's down ratio is 2.7–2.9 against the data's 1.75.
+
+0 of 19.
