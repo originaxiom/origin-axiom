@@ -1,5 +1,14 @@
 # Changelog
 
+## W175 recorded: the frame's own potential breaks CP spontaneously; J's size rides on the unheld height (relay §323)
+
+- **W175 (the web seat's question 1):** C0, C1 and C4 as predicted; C2 and C3 failed as worded; one labelled post hoc.
+  - On every mirror-free slope-2/5 class, the potential's own minimum has J ≠ 0 at every height.
+  - On the counted class the mirror point turns into a maximum below Im τ ≈ 2.22, a pitchfork.
+  - |J| runs from 10⁻⁵ to 10⁻² with the height. The potential pushes the height out of the band.
+  - The CP-conserving order-5 class has the least potential at every height.
+- **Surfaces.** NOTE section and row, the lock test, the relay, the ledger row, the state page. 0 of 19.
+
 ## W174 recorded: no forced pattern carries the six; the web seat's class criterion read; W175's rule (relay §322)
 
 - **W174 (the skeleton census):** S1–S3 as predicted, S0 failed (74% of the resolved lines converged by Im τ 6).

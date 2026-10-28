@@ -5493,3 +5493,39 @@ def test_w174_the_skeleton_census():
     assert 0.2 < best < 0.3
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W174. THE RIDDLE, item 4, the skeleton census" in note
+
+def test_w175_the_potential_off_the_mirror():
+    """W175: C0, C1, C4 as predicted, C2 and C3 failed as worded; in process, the class criterion re-derived exactly, one
+    mirror pair's profile reflection recomputed at two points, and the post hoc pitchfork's sign change read"""
+    import importlib.util
+    import math
+    from fractions import Fraction as Fr
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_potential_off_the_mirror.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"C0": True, "C1": True, "C2": False, "C3": False, "C4": True}
+    assert "run_failed" not in d and d["warnings"] == [] and d["C0"]["lines checked"] == 230
+    assert d["C2"]["least |J| on the mirror-free classes"] > 1e-6
+    for b in ("1/10", "0"):
+        assert all(abs(m["J"]) < 1e-8 for y, m in d["per class"][b]["per height"].items() if float(y) >= 2.5)
+    assert abs(d["per class"]["1/10"]["per height"]["2.0"]["J"]) > 1e-3
+    for den in range(1, 61):
+        for j in range(den):
+            q = Fr(j, den)
+            n = math.lcm(5, q.denominator)
+            if n <= 60:
+                assert ((2 * q) % Fr(1, 5) == 0) == (10 % n == 0)
+    spec = importlib.util.spec_from_file_location("w175", here / "the_potential_off_the_mirror.py")
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    wv = m.W72.weights(1.0)
+    p1 = np.asarray(m.W67.psi_of(Fr(2, 5), Fr(1, 30)))
+    p2 = np.asarray(m.W67.psi_of(Fr(2, 5), Fr(1, 6)))
+    for X in (0.37, 2.9):                                  # the mirror on the orbit coordinate is X -> 2 - X (W169)
+        a, b = m.W72.kq(X, 2.0, 3, p1) @ wv, m.W72.kq(2 - X, 2.0, 3, p2) @ wv
+        assert abs(a - b) < 1e-6 * abs(a)
+    ph = json.loads((here / "the_potential_off_the_mirror_posthoc.json").read_text(encoding="utf-8"))
+    curv = {r["Im tau"]: r["fixed points"]["1.0"]["X-curvature"] for r in ph["counted class (2/5, 1/10)"]}
+    assert curv[2.2] < 0 < curv[2.25]
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W175. THE RIDDLE's horn 1 off the mirror" in note

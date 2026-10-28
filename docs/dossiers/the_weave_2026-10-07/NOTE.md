@@ -7726,6 +7726,85 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W175. THE RIDDLE's horn 1 off the mirror (the web seat's question 1): the frame's own one-loop potential breaks CP spontaneously. On every mirror-free slope-2/5 class its X-minimum has J ≠ 0 at every height. On the counted class itself the mirror point stops being the minimum below Im τ ≈ 2.22, a pitchfork (post hoc). The height is not held: every two-dimensional minimum runs to the domain's lower edge. Among the classes the order-5 class, which has a mirror point, has the least potential at every height. C0, C1 and C4 as predicted; C2 and C3 failed as worded (`the_potential_off_the_mirror.py`; `W175_RULE.md`; post hoc `the_potential_off_the_mirror_posthoc.py`)
+
+**Why.** The web seat's relay of 2026-10-28 (422cd8ecd; relay §322) showed that a slope-2/5 class has a mirror-fixed
+point above Im τ = 1 only at order 5 or 10. Its question 1 to this seat was W172 on a mirror-free class. For THE RIDDLE
+this is horn 1's escape route: on such a class the frame's own potential has no CP-conserving state in the band to
+pick.
+
+**The order.**
+- The rule (`W175_RULE.md`, 84e71fc25) was committed and pushed before the script.
+- The script (17768190c) was committed before its run, checked for syntax and imported names only.
+- The run took 344 s. Its output (5d1e8b715) was committed unread, after a check of the exit, failures, NaN, paths and
+  warnings, then read once.
+- **One labelled post hoc**, written after the read because the counted-class control failed. Its script was committed
+  before its run, and its output committed unread and then read once. It locates the bifurcation height.
+
+**The result (COMPUTED; one run; C0, C1 and C4 as predicted; C2 and C3 failed as worded).**
+- **C0, the criterion (held).** On all 230 slope-2/5 lines of order up to 60, a direct orbit test finds a mirror-fixed
+  point exactly when the order divides 10.
+- **C1, the pairs (held).** Each mirror pair's X-profiles agree reflected to at most 6.9 × 10⁻⁷ relative, the kernel's
+  truncation. The best reflection is X ↦ 2 − X, W169's mirror on the orbit coordinate. At every paired minimum, J has
+  opposite signs.
+- **C2 failed as worded.**
+  - **The mirror-free part held.** On all ten mirror-free classes at all five heights, |J| at the potential's own
+    X-minimum is at least 4.5 × 10⁻⁶. The frame's own potential sits at a CP-violating state there.
+  - **The order-5 control:** the minimum sits at its mirror point at every height. |J| ≤ 1.2 × 10⁻¹⁰ is numerically
+    zero, but it is above the rule's 10⁻¹² bar because the refinement's tolerance in X is 10⁻⁹. That is a slip in the
+    rule's threshold, not in the physics.
+  - **The counted order-10 control fails in substance.** At Im τ ≥ 2.5 the minimum is X = 1, the mirror point, with
+    J = 0 (as W169 and W172 found at the rows' heights). At Im τ = 1.5 and 2.0 it is off the mirror point, at
+    X = 0.167 and 1.521, with J = 1.9 × 10⁻³ and −6.4 × 10⁻³.
+- **C3 failed: Re τ is held firmly at low heights.** The X-amplitude is 5–17% of ∣V*∣ at Im τ = 1.5 and 0.8–1.9% at
+  2.0. It falls below 10⁻³ only from Im τ = 3.0 on, as W172 found at the rows.
+- **C4 held: the height is pushed down.** dV/dy ≥ 288 at every class and height. Every class's two-dimensional least
+  over X ∈ [0, 5) and Im τ ∈ [1.2, 4] lies on the lower edge, Im τ = 1.2.
+- **The read-outs.**
+  - The consistency check (the same state read as the shifted line) agrees to 2 × 10⁻¹⁶.
+  - **|J| at the minima over the measured J** (one look, counted) runs as follows:
+    - 61–97 at Im τ = 1.5, 2.9–177 at 2.0 and 23–81 at 2.5;
+    - 2.3–17 at 3.0;
+    - 0.15–2.6 at 3.5.
+    - J changes sign with the height, so on most mirror-free classes |J| passes through the measured value between
+      Im τ 3.0 and 3.5.
+- **The post hoc: a pitchfork on the counted class** (labelled; Im τ 1.20–2.60 in steps of 0.05).
+  - At X = 1 the X-curvature is +0.049 at Im τ = 2.25 and −0.048 at 2.20. The mirror point turns from a minimum into a
+    maximum at Im τ ≈ 2.22.
+  - Below that the minima are a CP-conjugate pair, X* and 2 − X*. X* (or its image) moves from 1.18 at Im τ 2.20 to
+    0.09 at 1.25, with |J| up to 1.1 × 10⁻², changing sign twice along the way.
+  - The order-5 class keeps its minimum at its mirror point down to Im τ = 1.2, with large positive curvature.
+- **The classes compared** (post hoc, from the stored V*). At every height the order-5 class (b = 0) has the least V*,
+  then 1/30, 1/25, 1/20, 1/15, 2/25 and the counted 1/10. At Im τ = 3.0 the values are 1126.29 up to 1126.66; at 1.5,
+  126.14 up to 138.09.
+
+**What it shows (a READING on the computed facts).**
+- **Horn 1 is not absolute.** The frame's own one-loop potential, with the forced content and no added term, breaks CP
+  spontaneously:
+  - on every mirror-free class, at every height, because there is no CP-conserving state to choose;
+  - on the counted class itself, below Im τ ≈ 2.22, where the mirror point becomes a maximum.
+  - In both cases the minimum set, taken with the mirror partner, is an orbit of two CP-conjugate states. The sign of J
+    is a spontaneous bit, the case the spontaneous-breaking clause admits. These are the record's first CP-violating
+    minima of the frame's own dynamics.
+- **But J's size rides on the height, and the height is not held.** |J| at the minimum runs from 10⁻⁵ to 10⁻² with Im τ.
+  The potential pushes Im τ down out of the band (C4; W169). The measured |J| is reached near the six's heights, which
+  the frame does not choose.
+- **Horn 1 returns at the class level** (post hoc). If the class were free among slope-2/5 classes, the potential would
+  choose the order-5 class. It has a mirror point and conserves CP at every height computed.
+- **The one number.** The height Im τ now sets three things:
+  - the hierarchy's small parameter, W174's ε = e^{−0.6π Im τ};
+  - whether the counted class conserves CP (the pitchfork at about 2.22);
+  - the size of J.
+
+  Nothing in the frame holds it in the band. A forced holder for the height is the missing piece THE RIDDLE named as a
+  forced small parameter.
+- **Weave or thread.** A frame result on stated classes: the potential is weave-type, the classes are counted choices,
+  and the census covers every mirror-free class of orders 15–30 at slope 2/5.
+
+**For the look ledger:** one look, |J| at the minima against the measured J. It selected nothing.
+
+0 of 19.
+
 ## W174. THE RIDDLE, item 4, the skeleton census: no forced exponent pattern on record carries the six with one shared small parameter and coefficients within a factor 3. The nearest are the frame's slope-2/5 lines, which miss by 3–11% in ln beyond the factor 3 at one height (Im τ ≈ 2.35). In ε = e^{−0.6π Im τ} their pattern is (1, 8/3) for the up quarks and (2/3, 11/6) for the down quarks and the leptons alike: the leptons and m_u/m_t sit on it, while m_c/m_t and the down quarks miss by about a factor 3. Near-data random sixes pass this menu 18.5% of the time. S1–S3 as predicted; S0 failed (`the_skeleton_census.py`; `W174_RULE.md`)
 
 **Why.** THE RIDDLE's program, item 4 (relay §316), and the owner's goal of 2026-10-21: a forced integer pattern and
@@ -14753,6 +14832,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W175 | COMPUTED (the rule first; one run; C0, C1, C4 as predicted; C2 and C3 failed as worded; one labelled post hoc); a frame result on stated classes | THE RIDDLE's horn 1 off the mirror (the web seat's question 1): the frame's own potential breaks CP spontaneously — J ≠ 0 at its X-minimum on all ten mirror-free classes at every height, and on the counted class below Im τ ≈ 2.22 (a pitchfork, post hoc); J's size 10⁻⁵–10⁻² rides on the height, which is pushed down out of the band; the order-5 class (CP-conserving) has the least potential at every height |
 | W174 | COMPUTED (the rule first; one run; S1–S3 as predicted, S0 failed: 74% of resolved lines converged by Im τ 6); a frame census over every line and every forced pattern on record | THE RIDDLE's item 4: no forced exponent pattern carries the six with one shared small parameter and coefficients within a factor 3; nearest the slope-2/5 lines, 3–11% beyond the factor 3 at Im τ ≈ 2.35, pattern (1, 8/3) up and (2/3, 11/6) down and leptons in ε = e^{−0.6π Im τ}; leptons on it, down off by ~3 and ~1/3; the frame's own first-generation coefficients 3–150; near-data null passes 18.5% |
 | W173 | COMPUTED (the rule first; one completed run after one interrupted launch, disclosed; every cell as predicted); a frame result at data-chosen rows, a thread-and-frame look | THE RIDDLE's horn 3: at all 38 best rows the fit is carried by the chosen point — the first generation needs prefactors 4.6–51 over its forced local exponent (down 43–51), Re τ sweeps a feature by up to 20σ, and only the row's own line of 266 passes at its τ; the skeleton works only for m_s/m_b; the CKM sits near a relabelling |
 | W172 | COMPUTED (the rule first; one run; every cell as predicted); a frame result at a counted line, the lemma for every content | THE RIDDLE's horn 1: V(−τ̄; ψ₁, −ψ₂) = V(τ; ψ) to 1.5 × 10⁻¹⁴; at the counted line Re τ is held by a single harmonic of 2–6 × 10⁻⁴ of V; all 15 variations at a mirror fixed point (quarks 1, leptons 3.5); the data's Re τ costs at most 4 × 10⁻⁵ of V; CP conserved robustly but weakly, Re τ in effect flat |

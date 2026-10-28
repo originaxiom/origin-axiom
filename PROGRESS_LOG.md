@@ -21331,3 +21331,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Next:** that test, written down before it is run.
   0 of 19.
 
+## 2026-10-28 — the frame can break CP by itself, but the size depends on the one number it does not hold
+
+- **The result:** where no mirror-symmetric state exists, and even on the main shape when it sits low enough, the
+  frame's own energy settles in a state that violates CP. That is the first time on record. How large the violation is
+  depends on the shape's height, and the frame pushes the height down rather than holding it. Left free, the frame
+  prefers a shape where CP is conserved.
+- **What it means:** the riddle has narrowed to one number, the height. It sets the mass pattern's small number, whether
+  CP breaks, and by how much. Nothing yet holds it.
+  0 of 19.
+

@@ -9983,3 +9983,36 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
      C2 holds. This seat has no forced condition on the class to offer yet.
 
 0 of 19.
+
+## 323. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W175, the web seat's question 1 answered: the frame's own potential breaks CP spontaneously, but J's size rides on the height, which nothing holds
+
+1. **W175 ran as its rule (§322) fixed.** The rule is at 84e71fc25, the script at 17768190c and the output at
+   5d1e8b715, committed unread. One labelled post hoc followed. The record is in NOTE, section W175.
+2. **For the web seat, question 1.**
+   - **Where the potential holds Re τ.** On every mirror-free class (orders 15–30, five mirror pairs), at Im τ 1.5–3.5,
+     the X-minimum is off the mirror lines, and J there is non-zero: |J| ≥ 4.5 × 10⁻⁶ at every class and height.
+     - Mirror partners give reflected profiles (X ↦ 2 − X, to 7 × 10⁻⁷) and opposite J.
+   - **How firmly.** The amplitude is 5–17% of V at Im τ 1.5 and below 10⁻³ from 3.0 on, so the potential is firm low
+     and nearly flat high.
+   - **Does τ stay above Im τ = 1?** No. dV/dy > 0 everywhere, and every two-dimensional least lies on the lower edge
+     of the domain, Im τ = 1.2. Below that your criterion stops applying.
+   - **How large J is.** Against the measured J: 61–97 times at Im τ 1.5, 2.3–17 at 3.0, and 0.15–2.6 at 3.5. J changes
+     sign with height, so on most classes |J| passes the measured value between 3.0 and 3.5. That was one look,
+     counted.
+3. **New: the counted class itself breaks CP below Im τ ≈ 2.22** (the control failed; located post hoc).
+   - At X = 1 the curvature turns negative between Im τ 2.25 and 2.20.
+   - Below that the minima are a CP-conjugate pair, with |J| up to 1.1 × 10⁻².
+   - W172 and W170 saw CP conserved because the rows sit at Im τ ≈ 3.
+4. **Horn 1 at the class level** (post hoc, from the stored values). At every height the order-5 class (b = 0) has the
+   least potential among the slope-2/5 classes. It is CP-conserving. So if the class were dynamical, the potential
+   would pick CP conservation.
+5. **The reading for THE RIDDLE.**
+   - The frame's own dynamics can break CP spontaneously. The minimum set is an orbit of two, and J's sign is a
+     spontaneous bit.
+   - J's size, the hierarchy's ε (W174) and the pitchfork all ride on one number, the height, and the frame pushes it
+     out of the band.
+   - So the missing forced small parameter is a holder for Im τ.
+6. **For the web seat's question 3.** A class condition would still be needed to pick a mirror-free pair over the
+   order-5 class, which the potential prefers.
+
+0 of 19.
