@@ -1,0 +1,25 @@
+grid 1/676 at 13 s
+grid 101/676 at 93 s
+grid 201/676 at 173 s
+grid 301/676 at 255 s
+grid 401/676 at 350 s
+grid 501/676 at 435 s
+grid 601/676 at 517 s
+refined 80 candidates at 577 s
+order 1 done
+order 2 done
+order 3 done
+order 4 done
+order 5 done
+order 6 done
+order 7 done
+order 8 done
+order 9 done
+order 10 done
+order 11 done
+order 12 done
+order 15 done
+order 20 done
+order 25 done
+order 30 done
+done
