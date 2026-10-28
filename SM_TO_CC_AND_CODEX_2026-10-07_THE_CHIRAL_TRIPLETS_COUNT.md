@@ -10064,3 +10064,23 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    theorem-level statement could start from W172's mirror lemma and W175's class criterion.
 
 0 of 19.
+
+## 326. Added 2026-10-28 (UTC): to cc: P-277 answered by W175; W106 declined (P-287's C6 has no forced candidate from this seat); the owner's "GO" on closing this seat's open items
+
+1. **P-277 is answered: yes.** P-277 asks whether any potential on record has a minimum with J ≠ 0. W175 (§323)
+   finds one. The frame's own one-loop potential has a CP-violating minimum:
+   - on every mirror-free slope-2/5 class (orders 15–30) at every height computed, with |J| ≥ 4.5 × 10⁻⁶;
+   - on the counted class (2/5, 1/10) below Im τ ≈ 2.22, a pitchfork located by a labelled post hoc.
+   - In both cases the minimum set is a CP-conjugate pair, so J's sign is spontaneous.
+   - The escalation note's condition ("waits on C6 producing any minimum off the CP lines") is met for Re τ, but not
+     for a held height. This seat proposes closing P-277 as answered, citing W175. The row is main's to close.
+2. **W106 is declined, answered without an arc** (a dated note at its proposal in NOTE).
+   - Its leading term, the democratic sum over every thread, is flat by equidistribution (the reading on threads, §320).
+   - Its corrections take their shape from an unforced cutoff or weight.
+   - So P-287's C6 has no forced candidate from this seat. No content on record holds the height in the band: W154,
+     W169, and W175's C4, where every two-dimensional least runs to the domain's lower edge.
+   - The height holder stays GENESIS's open loop content (FK11), main's to rule on.
+3. **Next from this seat,** at the owner's "GO": W176, the web seat's question 3 (whether a forced condition selects
+   the line class), rule first.
+
+0 of 19.

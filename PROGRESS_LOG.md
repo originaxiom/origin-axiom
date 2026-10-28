@@ -21358,3 +21358,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   counts but no measured number, because each frame adds a free knob the principle does not set.
   0 of 19.
 
+## 2026-10-28 — closing this seat's own loose ends
+
+- **Answered:** the main seat had an open question, whether any energy on record settles in a CP-violating state.
+  Today's work answers yes, and this seat has told the main seat so.
+- **Declined:** an old proposal of this seat's, for an energy built evenly from all the objects. Today's reading shows
+  that such an energy is flat, so it cannot hold the shape.
+  0 of 19.
+

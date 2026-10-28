@@ -13432,6 +13432,11 @@ magnitude" is not.
   and a hierarchy? Prior: 25%.
 - **W106, the democratic dynamics.** Beyond the even spread at leading order, does any spectral correction (a wave)
   have a minimum away from ω, i and the cusp? Prior that one exists: 50%. Prior that it carries a hierarchy: under 10%.
+  - *Dated 2026-10-28: declined, answered without an arc.* The reading on threads gives the leading term: the
+    democratic sum over every thread is flat by equidistribution. Its corrections take their shape from the cutoff or
+    weight, which the principle does not force, so any minimum they place is paid for by an unforced number. W175
+    finds minima off ω, i and the cusp in Re τ (CP-violating), but no content holds the height in the band (its C4;
+    W169; W154). The route W106 named for P-287's C6 has no forced candidate.
 
 **The exploratory checks.** Each was run in scratch on 2026-10-20 before this record and read. Each was then copied
 unchanged and run once more to write its output. No rule and no prediction preceded them.

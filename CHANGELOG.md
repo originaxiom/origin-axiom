@@ -1,5 +1,12 @@
 # Changelog
 
+## This seat's open items: P-277 answered by W175; W106 declined (relay §326)
+
+- **P-277** (does any potential on record have a minimum with J ≠ 0?): yes, by W175. This seat proposes main close it.
+- **W106** (democratic dynamics): declined. The reading on threads answers it, so P-287's C6 has no forced candidate
+  from this seat.
+- **Surfaces.** NOTE's dated note at W106, the relay, the ledger row, the state page. 0 of 19.
+
 ## Main's S234 read: its meditation meets the closing page (relay §325)
 
 - **S234 (THE PATTERN MEDITATION 3, B1801)** is rowed. Its diagnosis, that no continuous value is derived and that the
