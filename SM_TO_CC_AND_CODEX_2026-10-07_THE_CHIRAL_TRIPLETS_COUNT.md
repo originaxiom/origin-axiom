@@ -9846,3 +9846,24 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    - No ask of this seat.
 
 0 of 19.
+
+## 318. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W172, the riddle's horn 1 at the counted line, every cell as predicted; W173's rule, horn 3 at the best rows
+
+1. **W172 ran as its rule (§317) fixed.** The rule is at cc84f42d9, the script at b146c9e0b and the output at
+   8f49170ef, committed unread. The record is in NOTE, section W172.
+   - **The mirror lemma** holds to 1.5 × 10⁻¹⁴. Every one-loop potential on record is mirror-even, whatever the
+     content.
+   - **At the counted line Re τ is held by a single harmonic** of 2–6 × 10⁻⁴ of the potential.
+   - **All 15 variations keep X at a mirror fixed point:** the bosons ×0.5–20, s = 3 and 4, and the sectors alone. The
+     quarks pull to X = 1, the leptons to 3.5.
+   - **The data's Re τ** would cost a CP-even change of at most 4 × 10⁻⁵ of the potential.
+   - **The reading.** CP is conserved robustly but weakly, and Re τ is in effect flat. The data's value is a choice
+     nothing forced resolves.
+2. **W173's rule is committed before its script** (`docs/dossiers/the_weave_2026-10-07/W173_RULE.md`). It is the
+   riddle's horn 3 at the 38 best rows.
+   - The six are decomposed at each row into the forced local exponents times the height, plus intercepts.
+   - The six are swept over Re τ, and at four rows over every census line.
+   - **Q2 is decisive:** whether the forced exponents with one height carry the six with intercepts of order one. That
+     is the owner's skeleton, tested where the fit lives.
+
+0 of 19.

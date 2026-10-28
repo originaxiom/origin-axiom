@@ -7726,6 +7726,61 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W172. THE RIDDLE, horn 1 at the counted line: the mirror lemma holds for every content, and the frame's own potential holds Re τ only by a few parts in 10⁴. Its X-profile is one harmonic whose sign the sectors set (quarks to X = 1, leptons to 3.5), and no variation breaks CP; the data's Re τ would cost at most 4 × 10⁻⁵ of the potential. Every cell as predicted (`the_price_of_cp_at_the_counted_line.py`; `W172_RULE.md`)
+
+**Why.** THE RIDDLE's program, item 1 (the reading above; relay §316). Horn 1 says that what the frame's own dynamics
+selects keeps a residual symmetry. W169 found the counted line's potential at the mirror's fixed point. This arc asks
+how firmly, and whether anything on record moves it.
+
+**The order.**
+- The rule (`W172_RULE.md`, cc84f42d9) was committed and pushed before the script.
+- The script (b146c9e0b) was committed before its one run, checked for syntax only.
+- The run took 234 s. Its output (8f49170ef) was committed unread, after a check of the exit, failures, NaN, paths and
+  warnings, then read once.
+- The 38 rows have 17 distinct heights, and every height was computed.
+
+**The result (COMPUTED; one run; every cell as predicted).**
+- **P0, the mirror lemma.** V(−τ̄; ψ₁, −ψ₂) = V(τ; ψ₁, ψ₂) to 1.5 × 10⁻¹⁴ at 24 random points, at s = 3 and 4.
+  - The control (ψ₂ kept) fails at 47 of 48.
+  - This seat's general-s kernel equals W167's at s = 3 exactly.
+  - So every one-loop potential on record is mirror-even, whatever the content.
+- **P1, how firmly Re τ is held.** At the 17 heights:
+  - the X-amplitude over the orbit is 3.9–5.7 × 10⁻⁴ of ∣V*∣;
+  - the X-curvature is 3.4–4.1 × 10⁻⁴ of the y-curvature.
+  - The profile is one harmonic. Its first Fourier coefficient (period 5) is 2.0–2.9 × 10⁻⁴ of ∣V*∣, the second at
+    most 2.5 × 10⁻⁵, and the third at most 1.3 × 10⁻⁶.
+- **P2, no variation breaks CP.** Each of the 15 variations puts the global X-minimum at a mirror fixed point at all 17
+  heights:
+  - the bosons ×0.5 to ×20, at s = 3 and 4;
+  - the quarks alone and the Higgs pair alone at X = 1;
+  - the leptons alone at X = 3.5, the other fixed point.
+- **P3, the price of the data's Re τ.** At the 38 rows, the least CP-even change of V that makes the row's X a global
+  minimum is between 6.9 × 10⁻⁶ and 4.0 × 10⁻⁵ of ∣V*∣ (a lower bound).
+- **The read-outs.** The s = 3 and s = 4 X-profiles agree in shape (correlation 0.99996), and both put the minimum at
+  X = 1.
+
+**What it shows (a READING on the computed facts).**
+- **Horn 1 holds at the counted line, robustly and weakly.**
+  - Robustly: every content variation keeps X at a mirror fixed point, so the frame's one-loop dynamics conserves CP
+    there.
+  - Weakly: the whole Re τ dependence is a single harmonic of a few parts in 10⁴.
+- **Why it cannot break CP.** A profile dominated by one cosine harmonic about a fixed point has its minimum at one of
+  the two fixed points; the harmonic's sign decides which. To break CP the first harmonic must nearly cancel, so that
+  higher harmonics compete.
+  - The sectors pull in opposite directions (quarks to 1, leptons to 3.5), so a cancellation is possible in
+    principle.
+  - It needs the contents' weights tuned against each other, and no forced content on record does that.
+- **The data's Re τ lies off the fixed points** (the rows sit 0.35–0.76 away, in mirror pairs). To reach them, a CP-even
+  effect of at most 4 × 10⁻⁵ of the potential would have to reshape the harmonic. Effects of that size (two loops,
+  non-perturbative terms, the Higgs's vacuum) are not computed in this frame.
+- **So horn 1 sharpens.** The frame's dynamics prefers the CP-conserving point, but by so little that Re τ is in
+  effect a flat direction. The data's Re τ is a choice that nothing forced resolves.
+- **Weave or thread.** A frame result at a counted line, with the lemma for every content and every line.
+
+**For the look ledger:** none (the rows' X were read as positions).
+
+0 of 19.
+
 ## Reading: THE RIDDLE — why the record removes no input and matches no data even with inputs: what the principle forces is symmetric, and the data are not (READING, 2026-10-28; the owner's question, and the program that probes it to the end)
 
 **Why.** The owner asked why the record fails to reduce inputs, and fails to match the data even with inputs, and
@@ -14468,6 +14523,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W172 | COMPUTED (the rule first; one run; every cell as predicted); a frame result at a counted line, the lemma for every content | THE RIDDLE's horn 1: V(−τ̄; ψ₁, −ψ₂) = V(τ; ψ) to 1.5 × 10⁻¹⁴; at the counted line Re τ is held by a single harmonic of 2–6 × 10⁻⁴ of V; all 15 variations at a mirror fixed point (quarks 1, leptons 3.5); the data's Re τ costs at most 4 × 10⁻⁵ of V; CP conserved robustly but weakly, Re τ in effect flat |
 | W171 | COMPUTED (the rule first; one run after one failed launch; K0, K1, K3 and K4 as predicted; K2 failed as worded on two instrument slips, holds post hoc); a weave result given the counted order | W73 per sector at N = 10 in the weave reading: on all 36 lines of order 10 the stabiliser carries a non-trivial character for every sector in both readings (minimal 3, 5, 5 tenths; per field 8, 6, 6); the orbit sums vanish to 10⁻⁴⁹; every sector's surface Yukawa is zero, so W73 per sector ends as an exclusion; census N = 2–16: the minimal reading keeps all three nowhere, the per field only at N = 2 and 4, which do not split them |
 | W170 | COMPUTED (the rule first; parts V and S each run once; every cell as predicted); the plan's stage 5 | at the state stages 2 and 4 select (the line (2/5, ½) at Re τ = 0, the height fitted over 2.10–3.20), with the sealed pair H_u = K_up⁻¹·DR, H_d = conj(K_d⁻¹·DR): least χ²_nine 1 404 (six 898) against 20.09; J = 0 exactly (the mirror's fixed point conserves CP); at the strip rows the same pair reaches 212.5 at best; **the plan ends as its §5 expected: no flavour number derived, the counted choices named** |
 | W169 | COMPUTED (the rule first; one run; S0 and S3 as predicted; S2 failed as its 15% prior expected; S1 failed as worded); a frame result at a counted line, the plan's stage 4 | on the line (2/5, 1/10)'s T-orbit, the frame's own one-loop potential holds Re τ (curvature ratio 3–4 × 10⁻⁴, against about 10⁻⁶ at W154's trivial line) at X = 1, the mirror's fixed point (the line (2/5, ½) at Re τ = 0), at every row's height, 0.35–0.76 from every row; the bosons ×2, ×5 do not move it; V rises with height at this line; **Re τ is a second counted number** |

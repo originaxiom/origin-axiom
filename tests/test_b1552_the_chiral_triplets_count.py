@@ -5413,3 +5413,26 @@ def test_w171_the_surface_frame_at_order_ten():
     assert k4["controls give ten times the value"]
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W171. W73 per sector at N = 10, the counted line's order, in the weave reading" in note
+
+
+def test_w172_the_price_of_cp_at_the_counted_line():
+    """W172: every cell as predicted; in process, the mirror lemma recomputed on the kernel at one random point and the
+    stored per-height amplitudes and prices read against the rule's thresholds"""
+    import importlib.util
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_price_of_cp_at_the_counted_line.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"P0": True, "P1": True, "P2": True, "P3": True}
+    assert "run_failed" not in d and d["warnings"] == []
+    assert d["P1"]["largest amplitude / |V*|"] < 1e-3 and d["P3"]["largest price"] < 1e-4
+    assert d["P2"]["off-point minima"] == [] and len(d["P2"]["per variation"]) == 15
+    spec = importlib.util.spec_from_file_location("w172", here / "the_price_of_cp_at_the_counted_line.py")
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    t, ps = complex(0.37, 1.9), (0.23, 0.61)
+    w = m.weights(1.0)
+    a = m.kq(t.real, t.imag, 3, ps) @ w
+    b = m.kq(-t.real, t.imag, 3, (ps[0], -ps[1])) @ w
+    assert abs(a - b) < 1e-12 * abs(a)
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W172. THE RIDDLE, horn 1 at the counted line" in note

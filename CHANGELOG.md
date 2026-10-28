@@ -1,5 +1,15 @@
 # Changelog
 
+## W172 recorded: CP is conserved at the counted line, robustly but weakly; W173's rule (relay §318)
+
+- **W172:**
+  - the mirror lemma holds for every content;
+  - at the counted line Re τ is held by one harmonic of a few parts in 10⁴;
+  - every variation stays at a mirror fixed point;
+  - the data's Re τ would cost at most 4 × 10⁻⁵ of the potential. Re τ is in effect flat.
+- **W173's rule:** at the best rows, do the forced exponents with one height carry the six, or does the chosen point?
+- **Surfaces.** NOTE section and row, the lock test, W173's rule, the relay, the ledger row, the state page. 0 of 19.
+
 ## W172's rule, committed before its script: the riddle's horn 1 at the counted line (relay §317)
 
 - **The test:** the mirror lemma for every content, how firmly the frame's own potential holds Re τ at the counted

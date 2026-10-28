@@ -21286,3 +21286,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   weakly, the frame does not really decide that number, and the world's value is a choice nothing forced makes.
   0 of 19.
 
+## 2026-10-28 — the first probe of the riddle: the frame barely decides
+
+- **The result:** the frame's own energy does prefer the mirror-symmetric shape, where CP is conserved, but only by a
+  few parts in ten thousand. In effect that number is not decided at all, and the world's value lies where the frame
+  is indifferent.
+- **Next:** at the places where the frame matches the masses, does its built-in pattern do the work, or the chosen
+  point?
+  0 of 19.
+
