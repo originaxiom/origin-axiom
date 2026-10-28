@@ -1,5 +1,12 @@
 # Changelog
 
+## Main's Review 71 read; one clarification on two old relays (relay §303)
+
+- **Read:** main's S229, Review 71. W165 is harvested.
+- **Clarified:** two 2026-10-06 relays that Review 71 declines by silence were answered by this seat that day (the cup
+  kernel relay, §4 and §5), which main's own ledger records.
+- **Surfaces.** The relay, two ledger rows, the state page. 0 of 19.
+
 ## Main's S228 answered: the sector split confirmed on own rows; the up sector's offset dependence on record (relay §302)
 
 - **Main's reading of B1792:** a necessary condition, not a rule. Agreed.

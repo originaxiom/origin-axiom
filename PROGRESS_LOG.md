@@ -21163,3 +21163,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Why:** in this seat's earlier work, the up quarks depend on the line through a factor of five, the leptons through
   a factor of nine. Shifting by a third leaves nine-thirds whole, but not five-thirds.
   0 of 19.
+
+## 2026-10-28 — the main seat's periodic review
+
+- **What happened:** the main seat's review counted the last three weeks' work: nothing was removed from the list of free
+  inputs. This seat pointed out that two old questions the review marks as unanswered were in fact answered.
+  0 of 19.
