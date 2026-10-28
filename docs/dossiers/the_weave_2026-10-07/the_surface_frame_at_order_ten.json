@@ -1,0 +1,9086 @@
+{
+ "arc": "W171",
+ "rule": "W171_RULE.md",
+ "status": "one run",
+ "python": "3.11.15",
+ "mpmath": "1.3.0",
+ "machine": "x86_64",
+ "K0": {
+  "generator against direct, worst relative": 1.2683289557790425e-59,
+  "dressing against direct, worst relative": 1.7183333937927158e-53,
+  "dressing cases": 108,
+  "odd components skipped": 0,
+  "holds": true
+ },
+ "K1": {
+  "lines": 36,
+  "box size": 8884,
+  "rows": [
+   {
+    "line (a, b)": [
+     0,
+     1
+    ],
+    "g": [
+     0,
+     1,
+     -1,
+     0
+    ],
+    "g^-1 T^10 g": [
+     1,
+     0,
+     -10,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     0,
+     -10,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     1
+    ]
+   },
+   {
+    "line (a, b)": [
+     0,
+     3
+    ],
+    "g": [
+     -10,
+     3,
+     3,
+     -1
+    ],
+    "g^-1 T^10 g": [
+     -29,
+     10,
+     -90,
+     31
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     0,
+     -10,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     9
+    ]
+   },
+   {
+    "line (a, b)": [
+     1,
+     0
+    ],
+    "g": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "g^-1 T^10 g": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     9
+    ]
+   },
+   {
+    "line (a, b)": [
+     1,
+     1
+    ],
+    "g": [
+     1,
+     1,
+     -1,
+     0
+    ],
+    "g^-1 T^10 g": [
+     1,
+     0,
+     -10,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     9
+    ]
+   },
+   {
+    "line (a, b)": [
+     1,
+     2
+    ],
+    "g": [
+     1,
+     2,
+     0,
+     1
+    ],
+    "g^-1 T^10 g": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     9
+    ]
+   },
+   {
+    "line (a, b)": [
+     1,
+     3
+    ],
+    "g": [
+     1,
+     3,
+     0,
+     1
+    ],
+    "g^-1 T^10 g": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     9
+    ]
+   },
+   {
+    "line (a, b)": [
+     1,
+     4
+    ],
+    "g": [
+     1,
+     4,
+     0,
+     1
+    ],
+    "g^-1 T^10 g": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     9
+    ]
+   },
+   {
+    "line (a, b)": [
+     1,
+     5
+    ],
+    "g": [
+     1,
+     -5,
+     0,
+     1
+    ],
+    "g^-1 T^10 g": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     9
+    ]
+   },
+   {
+    "line (a, b)": [
+     1,
+     6
+    ],
+    "g": [
+     1,
+     -4,
+     0,
+     1
+    ],
+    "g^-1 T^10 g": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     9
+    ]
+   },
+   {
+    "line (a, b)": [
+     1,
+     7
+    ],
+    "g": [
+     1,
+     -3,
+     0,
+     1
+    ],
+    "g^-1 T^10 g": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     9
+    ]
+   },
+   {
+    "line (a, b)": [
+     1,
+     8
+    ],
+    "g": [
+     1,
+     -2,
+     1,
+     -1
+    ],
+    "g^-1 T^10 g": [
+     -9,
+     10,
+     -10,
+     11
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     9
+    ]
+   },
+   {
+    "line (a, b)": [
+     1,
+     9
+    ],
+    "g": [
+     1,
+     -1,
+     1,
+     0
+    ],
+    "g^-1 T^10 g": [
+     1,
+     0,
+     -10,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     9
+    ]
+   },
+   {
+    "line (a, b)": [
+     2,
+     1
+    ],
+    "g": [
+     2,
+     1,
+     -1,
+     0
+    ],
+    "g^-1 T^10 g": [
+     1,
+     0,
+     -10,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -5,
+     7,
+     2,
+     -3
+    ],
+    "eps, c (searched)": [
+     1,
+     3
+    ]
+   },
+   {
+    "line (a, b)": [
+     2,
+     3
+    ],
+    "g": [
+     2,
+     3,
+     -1,
+     -1
+    ],
+    "g^-1 T^10 g": [
+     11,
+     10,
+     -10,
+     -9
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -7,
+     3,
+     2,
+     -1
+    ],
+    "eps, c (searched)": [
+     1,
+     3
+    ]
+   },
+   {
+    "line (a, b)": [
+     2,
+     5
+    ],
+    "g": [
+     2,
+     -5,
+     1,
+     -2
+    ],
+    "g^-1 T^10 g": [
+     -19,
+     40,
+     -10,
+     21
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -9,
+     -5,
+     2,
+     1
+    ],
+    "eps, c (searched)": [
+     1,
+     3
+    ]
+   },
+   {
+    "line (a, b)": [
+     2,
+     7
+    ],
+    "g": [
+     2,
+     -3,
+     1,
+     -1
+    ],
+    "g^-1 T^10 g": [
+     -9,
+     10,
+     -10,
+     11
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -7,
+     -3,
+     -2,
+     -1
+    ],
+    "eps, c (searched)": [
+     1,
+     7
+    ]
+   },
+   {
+    "line (a, b)": [
+     2,
+     9
+    ],
+    "g": [
+     2,
+     -1,
+     1,
+     0
+    ],
+    "g^-1 T^10 g": [
+     1,
+     0,
+     -10,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -5,
+     -7,
+     -2,
+     -3
+    ],
+    "eps, c (searched)": [
+     1,
+     7
+    ]
+   },
+   {
+    "line (a, b)": [
+     3,
+     0
+    ],
+    "g": [
+     3,
+     -10,
+     1,
+     -3
+    ],
+    "g^-1 T^10 g": [
+     -29,
+     90,
+     -10,
+     31
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     1
+    ]
+   },
+   {
+    "line (a, b)": [
+     3,
+     1
+    ],
+    "g": [
+     3,
+     1,
+     -1,
+     0
+    ],
+    "g^-1 T^10 g": [
+     1,
+     0,
+     -10,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     1
+    ]
+   },
+   {
+    "line (a, b)": [
+     3,
+     2
+    ],
+    "g": [
+     3,
+     2,
+     1,
+     1
+    ],
+    "g^-1 T^10 g": [
+     11,
+     10,
+     -10,
+     -9
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     1
+    ]
+   },
+   {
+    "line (a, b)": [
+     3,
+     3
+    ],
+    "g": [
+     -7,
+     3,
+     2,
+     -1
+    ],
+    "g^-1 T^10 g": [
+     -19,
+     10,
+     -40,
+     21
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     1
+    ]
+   },
+   {
+    "line (a, b)": [
+     3,
+     4
+    ],
+    "g": [
+     3,
+     4,
+     -1,
+     -1
+    ],
+    "g^-1 T^10 g": [
+     11,
+     10,
+     -10,
+     -9
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     1
+    ]
+   },
+   {
+    "line (a, b)": [
+     3,
+     5
+    ],
+    "g": [
+     3,
+     -5,
+     -1,
+     2
+    ],
+    "g^-1 T^10 g": [
+     -19,
+     40,
+     -10,
+     21
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     1
+    ]
+   },
+   {
+    "line (a, b)": [
+     3,
+     6
+    ],
+    "g": [
+     3,
+     -4,
+     1,
+     -1
+    ],
+    "g^-1 T^10 g": [
+     -9,
+     10,
+     -10,
+     11
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     1
+    ]
+   },
+   {
+    "line (a, b)": [
+     3,
+     7
+    ],
+    "g": [
+     -7,
+     -3,
+     -2,
+     -1
+    ],
+    "g^-1 T^10 g": [
+     21,
+     10,
+     -40,
+     -19
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     1
+    ]
+   },
+   {
+    "line (a, b)": [
+     3,
+     8
+    ],
+    "g": [
+     3,
+     -2,
+     2,
+     -1
+    ],
+    "g^-1 T^10 g": [
+     -19,
+     10,
+     -40,
+     21
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     1
+    ]
+   },
+   {
+    "line (a, b)": [
+     3,
+     9
+    ],
+    "g": [
+     3,
+     -1,
+     1,
+     0
+    ],
+    "g^-1 T^10 g": [
+     1,
+     0,
+     -10,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -1,
+     -10,
+     0,
+     -1
+    ],
+    "eps, c (searched)": [
+     -1,
+     1
+    ]
+   },
+   {
+    "line (a, b)": [
+     4,
+     1
+    ],
+    "g": [
+     4,
+     1,
+     -1,
+     0
+    ],
+    "g^-1 T^10 g": [
+     1,
+     0,
+     -10,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -7,
+     3,
+     2,
+     -1
+    ],
+    "eps, c (searched)": [
+     1,
+     7
+    ]
+   },
+   {
+    "line (a, b)": [
+     4,
+     3
+    ],
+    "g": [
+     4,
+     3,
+     1,
+     1
+    ],
+    "g^-1 T^10 g": [
+     11,
+     10,
+     -10,
+     -9
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -5,
+     -7,
+     -2,
+     -3
+    ],
+    "eps, c (searched)": [
+     1,
+     3
+    ]
+   },
+   {
+    "line (a, b)": [
+     4,
+     5
+    ],
+    "g": [
+     4,
+     -5,
+     1,
+     -1
+    ],
+    "g^-1 T^10 g": [
+     -9,
+     10,
+     -10,
+     11
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -9,
+     -5,
+     2,
+     1
+    ],
+    "eps, c (searched)": [
+     1,
+     7
+    ]
+   },
+   {
+    "line (a, b)": [
+     4,
+     7
+    ],
+    "g": [
+     4,
+     -3,
+     -1,
+     1
+    ],
+    "g^-1 T^10 g": [
+     -9,
+     10,
+     -10,
+     11
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -5,
+     7,
+     2,
+     -3
+    ],
+    "eps, c (searched)": [
+     1,
+     7
+    ]
+   },
+   {
+    "line (a, b)": [
+     4,
+     9
+    ],
+    "g": [
+     4,
+     -1,
+     1,
+     0
+    ],
+    "g^-1 T^10 g": [
+     1,
+     0,
+     -10,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -7,
+     -3,
+     -2,
+     -1
+    ],
+    "eps, c (searched)": [
+     1,
+     3
+    ]
+   },
+   {
+    "line (a, b)": [
+     5,
+     1
+    ],
+    "g": [
+     -5,
+     1,
+     -1,
+     0
+    ],
+    "g^-1 T^10 g": [
+     1,
+     0,
+     -10,
+     1
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -4,
+     -3,
+     -5,
+     -4
+    ],
+    "eps, c (searched)": [
+     1,
+     3
+    ]
+   },
+   {
+    "line (a, b)": [
+     5,
+     2
+    ],
+    "g": [
+     -5,
+     2,
+     -3,
+     1
+    ],
+    "g^-1 T^10 g": [
+     -29,
+     10,
+     -90,
+     31
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -9,
+     -2,
+     5,
+     1
+    ],
+    "eps, c (searched)": [
+     1,
+     3
+    ]
+   },
+   {
+    "line (a, b)": [
+     5,
+     3
+    ],
+    "g": [
+     -5,
+     3,
+     -2,
+     1
+    ],
+    "g^-1 T^10 g": [
+     -19,
+     10,
+     -40,
+     21
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -4,
+     -3,
+     -5,
+     -4
+    ],
+    "eps, c (searched)": [
+     1,
+     7
+    ]
+   },
+   {
+    "line (a, b)": [
+     5,
+     4
+    ],
+    "g": [
+     -5,
+     4,
+     1,
+     -1
+    ],
+    "g^-1 T^10 g": [
+     -9,
+     10,
+     -10,
+     11
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -9,
+     -2,
+     5,
+     1
+    ],
+    "eps, c (searched)": [
+     1,
+     7
+    ]
+   }
+  ],
+  "conjugate c = +-1 on every line": true,
+  "searched element found on every line": true,
+  "no character trivial": true,
+  "holds": true
+ },
+ "K2": {
+  "rows": [
+   {
+    "line (a, b)": [
+     0,
+     1
+    ],
+    "element": [
+     -1,
+     0,
+     -10,
+     -1
+    ],
+    "eps": -1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "identity channel turns": 0.3,
+    "law turns": 0.30000000000000004,
+    "law error": 2.6232449952189427e-60,
+    "tau-dependence": 2.974552888536469e-60
+   },
+   {
+    "line (a, b)": [
+     0,
+     1
+    ],
+    "element": [
+     -1,
+     0,
+     -10,
+     -1
+    ],
+    "eps": -1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 2.4172459436179808e-60,
+    "tau-dependence": 2.1690993954716327e-60
+   },
+   {
+    "line (a, b)": [
+     0,
+     1
+    ],
+    "element": [
+     -1,
+     0,
+     -10,
+     -1
+    ],
+    "eps": -1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.744584044164623e-60,
+    "tau-dependence": 2.1690993954716327e-60
+   },
+   {
+    "line (a, b)": [
+     0,
+     3
+    ],
+    "element": [
+     -1,
+     0,
+     -10,
+     -1
+    ],
+    "eps": -1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "identity channel turns": 0.7,
+    "law turns": 0.6999999999999993,
+    "law error": 7.773322051824642e-60,
+    "tau-dependence": 2.123190765305672e-60
+   },
+   {
+    "line (a, b)": [
+     0,
+     3
+    ],
+    "element": [
+     -1,
+     0,
+     -10,
+     -1
+    ],
+    "eps": -1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.8574470007746117e-60,
+    "tau-dependence": 1.9886153518242334e-60
+   },
+   {
+    "line (a, b)": [
+     0,
+     3
+    ],
+    "element": [
+     -1,
+     0,
+     -10,
+     -1
+    ],
+    "eps": -1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 8.215281075407078e-60,
+    "tau-dependence": 1.9886153518242334e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     0
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "identity channel turns": 0.7,
+    "law turns": 0.30000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.2946451977842117e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     0
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 8.560884727559259e-61,
+    "tau-dependence": 6.941588177501586e-61
+   },
+   {
+    "line (a, b)": [
+     1,
+     0
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.7696834322958216e-60,
+    "tau-dependence": 6.941588177501586e-61
+   },
+   {
+    "line (a, b)": [
+     1,
+     1
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.7,
+    "law turns": 0.30000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 2.415179407775287e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     1
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 8.219637906970015e-61,
+    "tau-dependence": 1.6870344302451105e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     1
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.4995900981888856e-60,
+    "tau-dependence": 1.4681959340557465e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     2
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "identity channel turns": 0.7,
+    "law turns": 0.30000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.5128656023998352e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     2
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 3.570986971004731e-61,
+    "tau-dependence": 1.3819848577533103e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     2
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.3416708685667845e-60,
+    "tau-dependence": 1.4179195755568802e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     3
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.7,
+    "law turns": 0.30000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.5678610356786325e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     3
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 5.822323878259667e-61,
+    "tau-dependence": 8.437091963765153e-61
+   },
+   {
+    "line (a, b)": [
+     1,
+     3
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.3146592565463057e-60,
+    "tau-dependence": 8.939850050867582e-61
+   },
+   {
+    "line (a, b)": [
+     1,
+     4
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "identity channel turns": 0.7,
+    "law turns": 0.30000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.6036343312783702e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     4
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.0679748529711208e-60,
+    "tau-dependence": 1.9264717159519445e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     4
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.7463279398636408e-60,
+    "tau-dependence": 1.9112010673039798e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     5
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.7,
+    "law turns": 0.30000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 2.377619935345e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     5
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.2834742001282283e-60,
+    "tau-dependence": 2.4498486064255901e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     5
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 2.1931303211827332e-60,
+    "tau-dependence": 2.4498486064255901e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     6
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "identity channel turns": 0.7,
+    "law turns": 0.30000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.2946451977842117e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     6
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 9.836769255957093e-61,
+    "tau-dependence": 1.6642480450906035e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     6
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.720147823534215e-60,
+    "tau-dependence": 1.4086289792427661e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     7
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.7,
+    "law turns": 0.30000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.7480609422473777e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     7
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 5.562683354099924e-61,
+    "tau-dependence": 1.0171568008512285e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     7
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.4378022139331208e-60,
+    "tau-dependence": 1.0323526478443238e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     8
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "identity channel turns": 0.7,
+    "law turns": 0.30000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.804691195090436e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     8
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 6.442541298814533e-61,
+    "tau-dependence": 1.6449874087796839e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     8
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.284317911868147e-60,
+    "tau-dependence": 1.5592487496352162e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     9
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.7,
+    "law turns": 0.30000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 2.123190765305672e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     9
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 7.275298647624565e-61,
+    "tau-dependence": 1.051747467087651e-60
+   },
+   {
+    "line (a, b)": [
+     1,
+     9
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.413287824127402e-60,
+    "tau-dependence": 1.1923013213102651e-60
+   },
+   {
+    "line (a, b)": [
+     2,
+     1
+    ],
+    "element": [
+     -5,
+     7,
+     2,
+     -3
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.2
+     }
+    ],
+    "identity channel turns": 0.1,
+    "law turns": 0.9000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.713096191248976e-60
+   },
+   {
+    "line (a, b)": [
+     2,
+     1
+    ],
+    "element": [
+     -5,
+     7,
+     2,
+     -3
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.017480982103415e-60,
+    "tau-dependence": 1.7398904377113092e-60
+   },
+   {
+    "line (a, b)": [
+     2,
+     1
+    ],
+    "element": [
+     -5,
+     7,
+     2,
+     -3
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 3.525579516602922e-60,
+    "tau-dependence": 1.8289377453053242e-60
+   },
+   {
+    "line (a, b)": [
+     2,
+     3
+    ],
+    "element": [
+     -7,
+     3,
+     2,
+     -1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.2
+     }
+    ],
+    "identity channel turns": 0.1,
+    "law turns": 0.9000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 9.07152568152392e-61
+   },
+   {
+    "line (a, b)": [
+     2,
+     3
+    ],
+    "element": [
+     -7,
+     3,
+     2,
+     -1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.4799624603483006e-62
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.116231789413696e-60,
+    "tau-dependence": 1.0969116210570637e-60
+   },
+   {
+    "line (a, b)": [
+     2,
+     3
+    ],
+    "element": [
+     -7,
+     3,
+     2,
+     -1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 2.1913395555358064e-62
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 3.930824304595383e-60,
+    "tau-dependence": 1.2400448077481136e-60
+   },
+   {
+    "line (a, b)": [
+     2,
+     5
+    ],
+    "element": [
+     -9,
+     -5,
+     2,
+     1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.2
+     }
+    ],
+    "identity channel turns": 0.1,
+    "law turns": 0.9000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 8.41402525212155e-61
+   },
+   {
+    "line (a, b)": [
+     2,
+     5
+    ],
+    "element": [
+     -9,
+     -5,
+     2,
+     1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 8.212253565855743e-61,
+    "tau-dependence": 1.0938595808619108e-60
+   },
+   {
+    "line (a, b)": [
+     2,
+     5
+    ],
+    "element": [
+     -9,
+     -5,
+     2,
+     1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 3.672197320615301e-60,
+    "tau-dependence": 1.0938595808619108e-60
+   },
+   {
+    "line (a, b)": [
+     2,
+     7
+    ],
+    "element": [
+     -7,
+     -3,
+     -2,
+     -1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.8
+     }
+    ],
+    "identity channel turns": 0.9,
+    "law turns": 0.09999999999999964,
+    "law error": 1.902113032590307,
+    "tau-dependence": 7.043975007693234e-61
+   },
+   {
+    "line (a, b)": [
+     2,
+     7
+    ],
+    "element": [
+     -7,
+     -3,
+     -2,
+     -1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.9430696186400448e-60,
+    "tau-dependence": 9.859322661179867e-61
+   },
+   {
+    "line (a, b)": [
+     2,
+     7
+    ],
+    "element": [
+     -7,
+     -3,
+     -2,
+     -1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 4.856364395966118e-60,
+    "tau-dependence": 8.86413773738855e-61
+   },
+   {
+    "line (a, b)": [
+     2,
+     9
+    ],
+    "element": [
+     -5,
+     -7,
+     -2,
+     -3
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.8
+     }
+    ],
+    "identity channel turns": 0.9,
+    "law turns": 0.09999999999999964,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.670172555056782e-60
+   },
+   {
+    "line (a, b)": [
+     2,
+     9
+    ],
+    "element": [
+     -5,
+     -7,
+     -2,
+     -3
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.8192938649827189e-60,
+    "tau-dependence": 1.739305229522017e-60
+   },
+   {
+    "line (a, b)": [
+     2,
+     9
+    ],
+    "element": [
+     -5,
+     -7,
+     -2,
+     -3
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 4.849781725664793e-60,
+    "tau-dependence": 1.6536798873215104e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     0
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "identity channel turns": 0.3,
+    "law turns": 0.6999999999999993,
+    "law error": 1.902113032590307,
+    "tau-dependence": 7.3074901266339e-61
+   },
+   {
+    "line (a, b)": [
+     3,
+     0
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.7640816169194546e-60,
+    "tau-dependence": 7.293158228763414e-61
+   },
+   {
+    "line (a, b)": [
+     3,
+     0
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 5.909293127929251e-60,
+    "tau-dependence": 7.293158228763414e-61
+   },
+   {
+    "line (a, b)": [
+     3,
+     1
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.3,
+    "law turns": 0.6999999999999993,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.5188532205336606e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     1
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.4122415210642093e-60,
+    "tau-dependence": 1.0097531083923478e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     1
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 5.907963433805566e-60,
+    "tau-dependence": 1.0180938466533007e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     2
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "identity channel turns": 0.3,
+    "law turns": 0.6999999999999993,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.5484440508231976e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     2
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.695906631234958e-60,
+    "tau-dependence": 1.67815384010839e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     2
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 5.984441590806883e-60,
+    "tau-dependence": 1.7208102971607156e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     3
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.3,
+    "law turns": 0.6999999999999993,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.2621037878182324e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     3
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.6217478606757098e-60,
+    "tau-dependence": 1.4846009437797161e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     3
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 5.943778918970434e-60,
+    "tau-dependence": 1.4473470102346593e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     4
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "identity channel turns": 0.3,
+    "law turns": 0.6999999999999993,
+    "law error": 1.902113032590307,
+    "tau-dependence": 9.04647770270433e-61
+   },
+   {
+    "line (a, b)": [
+     3,
+     4
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.2796571688334298e-60,
+    "tau-dependence": 1.481673759641626e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     4
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 6.113595433004338e-60,
+    "tau-dependence": 1.5740369992071525e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     5
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.3,
+    "law turns": 0.6999999999999993,
+    "law error": 1.902113032590307,
+    "tau-dependence": 2.4366924355972193e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     5
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 2.1893462182288885e-60,
+    "tau-dependence": 2.4761342175488817e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     5
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 6.106864704651705e-60,
+    "tau-dependence": 2.4761342175488817e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     6
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "identity channel turns": 0.3,
+    "law turns": 0.6999999999999993,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.0757506127372558e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     6
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.3416708685667845e-60,
+    "tau-dependence": 1.363463150518379e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     6
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 6.017056886832565e-60,
+    "tau-dependence": 1.384277569170654e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     7
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.3,
+    "law turns": 0.6999999999999993,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.1829101299264724e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     7
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.61115750029589e-60,
+    "tau-dependence": 1.0560851152213522e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     7
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 5.945982316545497e-60,
+    "tau-dependence": 1.0286167506120944e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     8
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "identity channel turns": 0.3,
+    "law turns": 0.6999999999999993,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.4469346923636232e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     8
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.8313884502706624e-60,
+    "tau-dependence": 1.6223235640468308e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     8
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 5.947142643723292e-60,
+    "tau-dependence": 1.6062687157858538e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     9
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.3,
+    "law turns": 0.6999999999999993,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.713096191248976e-60
+   },
+   {
+    "line (a, b)": [
+     3,
+     9
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.348979831632149e-60,
+    "tau-dependence": 9.458358290595867e-61
+   },
+   {
+    "line (a, b)": [
+     3,
+     9
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 5.985701223244333e-60,
+    "tau-dependence": 7.684569376949564e-61
+   },
+   {
+    "line (a, b)": [
+     4,
+     1
+    ],
+    "element": [
+     -7,
+     3,
+     2,
+     -1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.8
+     }
+    ],
+    "identity channel turns": 0.9,
+    "law turns": 0.09999999999999964,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.1563971617037138e-60
+   },
+   {
+    "line (a, b)": [
+     4,
+     1
+    ],
+    "element": [
+     -7,
+     3,
+     2,
+     -1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 4.119319315372627e-62
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.3601356977626005e-60,
+    "tau-dependence": 1.0684291020362747e-60
+   },
+   {
+    "line (a, b)": [
+     4,
+     1
+    ],
+    "element": [
+     -7,
+     3,
+     2,
+     -1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 4.65008816753108e-60,
+    "tau-dependence": 9.366836244554598e-61
+   },
+   {
+    "line (a, b)": [
+     4,
+     3
+    ],
+    "element": [
+     -5,
+     -7,
+     -2,
+     -3
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.2
+     }
+    ],
+    "identity channel turns": 0.1,
+    "law turns": 0.9000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.8830406187955445e-60
+   },
+   {
+    "line (a, b)": [
+     4,
+     3
+    ],
+    "element": [
+     -5,
+     -7,
+     -2,
+     -3
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 9.32805889070736e-62
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 8.157212985787943e-61,
+    "tau-dependence": 1.7384004068147542e-60
+   },
+   {
+    "line (a, b)": [
+     4,
+     3
+    ],
+    "element": [
+     -5,
+     -7,
+     -2,
+     -3
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.5075116707074567e-62
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 3.961892767510572e-60,
+    "tau-dependence": 1.7456304846711261e-60
+   },
+   {
+    "line (a, b)": [
+     4,
+     5
+    ],
+    "element": [
+     -9,
+     -5,
+     2,
+     1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.8
+     }
+    ],
+    "identity channel turns": 0.9,
+    "law turns": 0.09999999999999964,
+    "law error": 1.902113032590307,
+    "tau-dependence": 6.646183230151726e-61
+   },
+   {
+    "line (a, b)": [
+     4,
+     5
+    ],
+    "element": [
+     -9,
+     -5,
+     2,
+     1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.854126971053477e-60,
+    "tau-dependence": 9.630217671816435e-61
+   },
+   {
+    "line (a, b)": [
+     4,
+     5
+    ],
+    "element": [
+     -9,
+     -5,
+     2,
+     1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 4.67171092322909e-60,
+    "tau-dependence": 9.630217671816435e-61
+   },
+   {
+    "line (a, b)": [
+     4,
+     7
+    ],
+    "element": [
+     -5,
+     7,
+     2,
+     -3
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.8
+     }
+    ],
+    "identity channel turns": 0.9,
+    "law turns": 0.09999999999999964,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.5342130794789723e-60
+   },
+   {
+    "line (a, b)": [
+     4,
+     7
+    ],
+    "element": [
+     -5,
+     7,
+     2,
+     -3
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 2.0734396875451624e-62
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.594926324063449e-60,
+    "tau-dependence": 1.8842768779899137e-60
+   },
+   {
+    "line (a, b)": [
+     4,
+     7
+    ],
+    "element": [
+     -5,
+     7,
+     2,
+     -3
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 4.7520704477319546e-60,
+    "tau-dependence": 1.721582196925099e-60
+   },
+   {
+    "line (a, b)": [
+     4,
+     9
+    ],
+    "element": [
+     -7,
+     -3,
+     -2,
+     -1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.2
+     }
+    ],
+    "identity channel turns": 0.1,
+    "law turns": 0.9000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 6.075412882134642e-61
+   },
+   {
+    "line (a, b)": [
+     4,
+     9
+    ],
+    "element": [
+     -7,
+     -3,
+     -2,
+     -1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.6348776017796297e-63
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 1.1351598309781517e-60,
+    "tau-dependence": 9.205529855679199e-61
+   },
+   {
+    "line (a, b)": [
+     4,
+     9
+    ],
+    "element": [
+     -7,
+     -3,
+     -2,
+     -1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 3.2648858567131893e-60,
+    "tau-dependence": 7.938741623886753e-61
+   },
+   {
+    "line (a, b)": [
+     5,
+     1
+    ],
+    "element": [
+     -4,
+     -3,
+     -5,
+     -4
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 0.2
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.1,
+    "law turns": 0.9000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.8830406187955445e-60
+   },
+   {
+    "line (a, b)": [
+     5,
+     1
+    ],
+    "element": [
+     -4,
+     -3,
+     -5,
+     -4
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.8143658154228724e-61
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 2.2957140711030712e-60,
+    "tau-dependence": 3.6841195627851315e-60
+   },
+   {
+    "line (a, b)": [
+     5,
+     1
+    ],
+    "element": [
+     -4,
+     -3,
+     -5,
+     -4
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.8143658154228724e-61
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 6.194514686572753e-60,
+    "tau-dependence": 3.602779734461655e-60
+   },
+   {
+    "line (a, b)": [
+     5,
+     2
+    ],
+    "element": [
+     -9,
+     -2,
+     5,
+     1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 0.2
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.1,
+    "law turns": 0.9000000000000004,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.4301092982810076e-60
+   },
+   {
+    "line (a, b)": [
+     5,
+     2
+    ],
+    "element": [
+     -9,
+     -2,
+     5,
+     1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 6.945093153836692e-62
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 2.878290098554079e-60,
+    "tau-dependence": 2.354540391764954e-60
+   },
+   {
+    "line (a, b)": [
+     5,
+     2
+    ],
+    "element": [
+     -9,
+     -2,
+     5,
+     1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 6.945093153836692e-62
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 5.069982464700745e-60,
+    "tau-dependence": 2.3192480776420683e-60
+   },
+   {
+    "line (a, b)": [
+     5,
+     3
+    ],
+    "element": [
+     -4,
+     -3,
+     -5,
+     -4
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 0.8
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.9,
+    "law turns": 0.09999999999999964,
+    "law error": 1.902113032590307,
+    "tau-dependence": 2.01798722380959e-60
+   },
+   {
+    "line (a, b)": [
+     5,
+     3
+    ],
+    "element": [
+     -4,
+     -3,
+     -5,
+     -4
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.9820220264448346e-61
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 3.304345143606257e-60,
+    "tau-dependence": 4.046905416126786e-60
+   },
+   {
+    "line (a, b)": [
+     5,
+     3
+    ],
+    "element": [
+     -4,
+     -3,
+     -5,
+     -4
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.9820220264448346e-61
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 4.4044447993207975e-60,
+    "tau-dependence": 3.7551499169479457e-60
+   },
+   {
+    "line (a, b)": [
+     5,
+     4
+    ],
+    "element": [
+     -9,
+     -2,
+     5,
+     1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 0.8
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.9,
+    "law turns": 0.09999999999999964,
+    "law error": 1.902113032590307,
+    "tau-dependence": 1.4087950015386468e-60
+   },
+   {
+    "line (a, b)": [
+     5,
+     4
+    ],
+    "element": [
+     -9,
+     -2,
+     5,
+     1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.039986462465607e-62
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 3.135814456415869e-60,
+    "tau-dependence": 2.5241986114266177e-60
+   },
+   {
+    "line (a, b)": [
+     5,
+     4
+    ],
+    "element": [
+     -9,
+     -2,
+     5,
+     1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.039986462465607e-62
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5,
+    "law turns": 0.5,
+    "law error": 4.917791428638477e-60,
+    "tau-dependence": 2.4211138032396942e-60
+   }
+  ],
+  "worst law error": 1.902113032590307,
+  "worst tau-dependence": 4.046905416126786e-60,
+  "some phase equal to 1": true,
+  "holds": false
+ },
+ "unit residuals": {
+  "F_i 3/2": 5.133573184728466e-41,
+  "F_i -1/2": 4.589870779650999e-41,
+  "F+ 3/2": 1.9432647577353822e-41,
+  "F+ -1/2": 1.742791988443395e-41,
+  "F- 3/2": 3.438143258280543e-41,
+  "F- -1/2": 2.6677286535635263e-41,
+  "f 7/2": 2.4151663737033453e-41,
+  "h 5/2": 1.9759782642974143e-41,
+  "h 9/2": 2.343277773205336e-41
+ },
+ "K3": {
+  "T^10 rows": [
+   {
+    "line (a, b)": [
+     1,
+     0
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "law turns": 0.8,
+    "KL32": 4.3130845578282644e-51,
+    "KR32": 5.84266722750335e-51,
+    "KLM12": 7.03290356668275e-51,
+    "KR72": 3.462952749749646e-51,
+    "Y1": 5.184505913919977e-50,
+    "Y2x": 2.63971868672884e-50,
+    "Y3x": 7.552450621746235e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     0
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "law turns": 0.6,
+    "KL32": 4.3130845578282644e-51,
+    "KR32": 9.361180274212248e-51,
+    "KLM12": 7.03290356668275e-51,
+    "KR72": 8.226227689166774e-51,
+    "Y1": 6.311528936053277e-50,
+    "Y2x": 6.93430466231967e-51,
+    "Y3x": 8.375581767628183e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     0
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "lepton",
+    "law turns": 0.6000000000000001,
+    "KL32": 5.405828739799202e-51,
+    "KR32": 1.0224667648130861e-50,
+    "KLM12": 2.2550944820070797e-51,
+    "KR72": 8.657381874374116e-51,
+    "Y1": 3.249215555065824e-50,
+    "Y2x": 4.179134388786423e-50,
+    "Y3x": 5.576685237842663e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "law turns": 0.8,
+    "KL32": 3.840007724141016e-51,
+    "KR32": 9.960446410750561e-51,
+    "KLM12": 3.79203476338518e-51,
+    "KR72": 5.841751280979413e-51,
+    "Y1": 4.1270737175682837e-50,
+    "Y2x": 8.42573324440658e-50,
+    "Y3x": 4.229279371551055e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "law turns": 0.6,
+    "KL32": 3.840007724141016e-51,
+    "KR32": 1.8513503549696368e-50,
+    "KLM12": 3.79203476338518e-51,
+    "KR72": 1.1881234425539369e-50,
+    "Y1": 4.958897749562856e-50,
+    "Y2x": 4.749961456664093e-50,
+    "Y3x": 9.104300215594516e-51
+   },
+   {
+    "line (a, b)": [
+     1,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "lepton",
+    "law turns": 0.6000000000000001,
+    "KL32": 1.9451808723834597e-50,
+    "KR32": 9.960446410750561e-51,
+    "KLM12": 1.7483352442400546e-50,
+    "KR72": 1.1683502561958826e-50,
+    "Y1": 1.0890696856296926e-50,
+    "Y2x": 1.0406609565337193e-49,
+    "Y3x": 2.0357949014910735e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     2
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "law turns": 0.8,
+    "KL32": 6.340973556494821e-51,
+    "KR32": 1.365128160505196e-50,
+    "KLM12": 6.119719842786505e-51,
+    "KR72": 1.414489484250235e-50,
+    "Y1": 1.3311291060488032e-50,
+    "Y2x": 1.5015526165191933e-49,
+    "Y3x": 3.6165184651903213e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     2
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "law turns": 0.6,
+    "KL32": 6.340973556494821e-51,
+    "KR32": 1.0415852668317692e-50,
+    "KLM12": 6.119719842786505e-51,
+    "KR72": 1.241627944396822e-50,
+    "Y1": 2.300463634816342e-50,
+    "Y2x": 7.5990695140222395e-50,
+    "Y3x": 4.365800340861081e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     2
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "lepton",
+    "law turns": 0.6000000000000001,
+    "KL32": 3.3351043762886916e-51,
+    "KR32": 5.1192306018944856e-51,
+    "KLM12": 4.823575028495526e-51,
+    "KR72": 1.0103496316073106e-50,
+    "Y1": 4.745745107667721e-50,
+    "Y2x": 9.90788504864628e-51,
+    "Y3x": 2.578097433796019e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     3
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "law turns": 0.8,
+    "KL32": 1.4401738011099999e-50,
+    "KR32": 1.1000933302283391e-50,
+    "KLM12": 1.213177391480597e-50,
+    "KR72": 8.685526908944965e-51,
+    "Y1": 1.0992032966307228e-49,
+    "Y2x": 1.0757225990081287e-49,
+    "Y3x": 5.890123776163211e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     3
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "law turns": 0.6,
+    "KL32": 1.4401738011099999e-50,
+    "KR32": 9.874656213269789e-51,
+    "KLM12": 1.213177391480597e-50,
+    "KR72": 1.2250159983305883e-50,
+    "Y1": 7.30163269223624e-50,
+    "Y2x": 9.212723586074929e-50,
+    "Y3x": 3.6161140499004937e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     3
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "lepton",
+    "law turns": 0.6000000000000001,
+    "KL32": 1.314317476484453e-50,
+    "KR32": 1.1000933302283391e-50,
+    "KLM12": 9.392744300772045e-51,
+    "KR72": 8.685526908944965e-51,
+    "Y1": 1.579340093569138e-49,
+    "Y2x": 9.749675323520763e-50,
+    "Y3x": 2.460153317562898e-49
+   },
+   {
+    "line (a, b)": [
+     1,
+     4
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "law turns": 0.8,
+    "KL32": 2.755127840675186e-50,
+    "KR32": 1.179522966369935e-50,
+    "KLM12": 2.2008108684871937e-50,
+    "KR72": 1.3833876158331668e-50,
+    "Y1": 1.6150534112445982e-49,
+    "Y2x": 1.034333868991268e-49,
+    "Y3x": 4.928806932644403e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     4
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "law turns": 0.6,
+    "KL32": 2.755127840675186e-50,
+    "KR32": 2.3995768916109035e-50,
+    "KLM12": 2.2008108684871937e-50,
+    "KR72": 2.778179809260931e-50,
+    "Y1": 1.142753935192836e-49,
+    "Y2x": 7.515814965925205e-50,
+    "Y3x": 2.5886603781964268e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     4
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "lepton",
+    "law turns": 0.6000000000000001,
+    "KL32": 1.824829786691745e-50,
+    "KR32": 7.077137798219611e-51,
+    "KLM12": 1.2997321037352427e-50,
+    "KR72": 2.138944972969325e-51,
+    "Y1": 4.167194281379583e-50,
+    "Y2x": 3.850240666311516e-50,
+    "Y3x": 4.0446265210134586e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     5
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "law turns": 0.8,
+    "KL32": 3.331664034498166e-50,
+    "KR32": 1.4606668068758374e-51,
+    "KLM12": 2.1853416778245605e-50,
+    "KR72": 5.1944291246244694e-51,
+    "Y1": 1.1216310129630663e-49,
+    "Y2x": 1.1303825490791445e-49,
+    "Y3x": 1.2594142108657653e-49
+   },
+   {
+    "line (a, b)": [
+     1,
+     5
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "law turns": 0.6,
+    "KL32": 3.331664034498166e-50,
+    "KR32": 1.7567442702925696e-51,
+    "KLM12": 2.1853416778245605e-50,
+    "KR72": 3.5989746140104634e-51,
+    "Y1": 7.90649651131975e-50,
+    "Y2x": 5.208136563734979e-50,
+    "Y3x": 5.299405832907739e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     5
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "lepton",
+    "law turns": 0.6000000000000001,
+    "KL32": 6.941872448740306e-51,
+    "KR32": 5.84266722750335e-51,
+    "KLM12": 7.011177606789401e-51,
+    "KR72": 8.657381874374116e-51,
+    "Y1": 3.246546167660818e-50,
+    "Y2x": 5.651833566383114e-50,
+    "Y3x": 2.950216831523274e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     6
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "law turns": 0.8,
+    "KL32": 2.6176138218314154e-50,
+    "KR32": 9.960446410750561e-51,
+    "KLM12": 1.9376875672674394e-50,
+    "KR72": 1.0223064741713974e-50,
+    "Y1": 1.286597977505087e-49,
+    "Y2x": 1.3091841226450043e-49,
+    "Y3x": 6.76004452764988e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     6
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "law turns": 0.6,
+    "KL32": 2.6176138218314154e-50,
+    "KR32": 1.8513503549696368e-50,
+    "KLM12": 1.9376875672674394e-50,
+    "KR72": 2.3762468851078738e-50,
+    "Y1": 3.5995270517979034e-50,
+    "Y2x": 7.729069144722161e-50,
+    "Y3x": 4.080776627855458e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     6
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "lepton",
+    "law turns": 0.6000000000000001,
+    "KL32": 4.5264413032572346e-51,
+    "KR32": 1.4940669616125842e-50,
+    "KLM12": 2.6449164058584266e-51,
+    "KR72": 1.0223064741713974e-50,
+    "Y1": 3.241726014114038e-50,
+    "Y2x": 3.1678974237648435e-50,
+    "Y3x": 5.420445589851651e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     7
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "law turns": 0.8,
+    "KL32": 1.8189098582251363e-50,
+    "KR32": 1.706410200631495e-50,
+    "KLM12": 1.4411936074148088e-50,
+    "KR72": 2.0206992632146212e-50,
+    "Y1": 6.925446511013361e-50,
+    "Y2x": 4.1658041837084493e-50,
+    "Y3x": 1.1237217102427199e-49
+   },
+   {
+    "line (a, b)": [
+     1,
+     7
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "law turns": 0.6,
+    "KL32": 1.8189098582251363e-50,
+    "KR32": 1.0750835262764465e-50,
+    "KLM12": 1.4411936074148088e-50,
+    "KR72": 1.4025826144732514e-50,
+    "Y1": 7.362602364945239e-50,
+    "Y2x": 9.934195841742111e-50,
+    "Y3x": 3.918209140853523e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     7
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "lepton",
+    "law turns": 0.6000000000000001,
+    "KL32": 1.6222378236796795e-50,
+    "KR32": 6.82564080252598e-51,
+    "KLM12": 1.7750197373668383e-50,
+    "KR72": 2.0206992632146213e-51,
+    "Y1": 5.017934291529797e-50,
+    "Y2x": 2.717139540847396e-50,
+    "Y3x": 3.691118567159406e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     8
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "law turns": 0.8,
+    "KL32": 2.5661364099100836e-50,
+    "KR32": 2.933582213942238e-50,
+    "KLM12": 2.286570858566445e-50,
+    "KR72": 3.039934418130738e-50,
+    "Y1": 1.2556005497371008e-50,
+    "Y2x": 4.153486223110164e-50,
+    "Y3x": 1.4162974666800782e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     8
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "law turns": 0.6,
+    "KL32": 2.5661364099100836e-50,
+    "KR32": 4.097567808146405e-50,
+    "KLM12": 2.286570858566445e-50,
+    "KR72": 4.675561317848244e-50,
+    "Y1": 5.623589850401219e-50,
+    "Y2x": 4.924871553271122e-50,
+    "Y3x": 5.171980354551787e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     8
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "lepton",
+    "law turns": 0.6000000000000001,
+    "KL32": 3.4577158376588064e-51,
+    "KR32": 7.333955534855595e-51,
+    "KLM12": 3.394685382382374e-51,
+    "KR72": 4.3427634544724827e-51,
+    "Y1": 8.132605571673086e-50,
+    "Y2x": 1.6285607328065536e-49,
+    "Y3x": 6.787654808774079e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     9
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "law turns": 0.8,
+    "KL32": 1.3090758189112107e-50,
+    "KR32": 9.436183730959481e-51,
+    "KLM12": 7.962422134870875e-51,
+    "KR72": 1.1067100926665335e-50,
+    "Y1": 8.513476480526707e-50,
+    "Y2x": 6.552150147477229e-50,
+    "Y3x": 1.0953834819682943e-49
+   },
+   {
+    "line (a, b)": [
+     1,
+     9
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "law turns": 0.6,
+    "KL32": 1.3090758189112107e-50,
+    "KR32": 1.0283900964046728e-50,
+    "KLM12": 7.962422134870875e-51,
+    "KR72": 1.3890899046304656e-50,
+    "Y1": 2.644474382084204e-50,
+    "Y2x": 2.5743231392189903e-50,
+    "Y3x": 7.092189818044812e-50
+   },
+   {
+    "line (a, b)": [
+     1,
+     9
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "lepton",
+    "law turns": 0.6000000000000001,
+    "KL32": 1.0478637922748879e-50,
+    "KR32": 9.436183730959481e-51,
+    "KLM12": 1.1105472344246448e-50,
+    "KR72": 1.5217263774164836e-50,
+    "Y1": 9.388969244464281e-50,
+    "Y2x": 7.381617921920946e-50,
+    "Y3x": 6.678556810746643e-50
+   },
+   {
+    "line (a, b)": [
+     3,
+     0
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "law turns": 0.20000000000000018,
+    "KL32": 5.405828739799202e-51,
+    "KR32": 4.680590137106124e-51,
+    "KLM12": 2.2550944820070797e-51,
+    "KR72": 2.4537845016512334e-51,
+    "Y1": 8.980195312200595e-50,
+    "Y2x": 1.2077511926140456e-49,
+    "Y3x": 7.564605727019373e-50
+   },
+   {
+    "line (a, b)": [
+     3,
+     0
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "law turns": 0.3999999999999999,
+    "KL32": 5.405828739799202e-51,
+    "KR32": 1.0224667648130861e-50,
+    "KLM12": 2.2550944820070797e-51,
+    "KR72": 8.657381874374116e-51,
+    "Y1": 6.338850106093566e-50,
+    "Y2x": 2.86220389597885e-50,
+    "Y3x": 6.691403406909871e-50
+   },
+   {
+    "line (a, b)": [
+     3,
+     0
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "lepton",
+    "law turns": 0.3999999999999986,
+    "KL32": 1.006386396826595e-50,
+    "KR32": 1.170147534276531e-50,
+    "KLM12": 1.0549355350024125e-50,
+    "KR72": 1.233934153375016e-50,
+    "Y1": 6.845618880213198e-50,
+    "Y2x": 7.351347874298637e-50,
+    "Y3x": 5.465227863592842e-50
+   },
+   {
+    "line (a, b)": [
+     3,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "law turns": 0.20000000000000018,
+    "KL32": 2.0277972795995993e-51,
+    "KR32": 1.087081110052599e-50,
+    "KLM12": 2.535742481952626e-51,
+    "KR72": 1.3189448473249266e-50,
+    "Y1": 2.519439606840458e-49,
+    "Y2x": 1.9874483150982506e-49,
+    "Y3x": 1.9351171355144164e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "law turns": 0.3999999999999999,
+    "KL32": 2.0277972795995993e-51,
+    "KR32": 9.31286655481329e-52,
+    "KLM12": 2.535742481952626e-51,
+    "KR72": 6.062097789643863e-51,
+    "Y1": 2.2040282789893135e-49,
+    "Y2x": 2.234190612190752e-49,
+    "Y3x": 2.2592529575957025e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "lepton",
+    "law turns": 0.3999999999999986,
+    "KL32": 1.3511901803958155e-49,
+    "KR32": 1.0050593948949406e-49,
+    "KLM12": 1.109719077709403e-49,
+    "KR72": 9.147429863283052e-50,
+    "Y1": 1.1892751616430768e-49,
+    "Y2x": 2.949106600714814e-49,
+    "Y3x": 2.9761683777141044e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     2
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "law turns": 0.20000000000000018,
+    "KL32": 2.6068996952739217e-51,
+    "KR32": 4.627755433821028e-50,
+    "KLM12": 2.1872723699181005e-51,
+    "KR72": 3.9688282989441875e-50,
+    "Y1": 1.4547638997742283e-49,
+    "Y2x": 1.0547742998831785e-49,
+    "Y3x": 1.4454385362224016e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     2
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "law turns": 0.3999999999999999,
+    "KL32": 2.6068996952739217e-51,
+    "KR32": 1.179522966369935e-50,
+    "KLM12": 2.1872723699181005e-51,
+    "KR72": 1.3833876158331668e-50,
+    "Y1": 9.391409824032204e-50,
+    "Y2x": 1.0280477000471732e-49,
+    "Y3x": 9.832274372139673e-50
+   },
+   {
+    "line (a, b)": [
+     3,
+     2
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "lepton",
+    "law turns": 0.3999999999999986,
+    "KL32": 2.8568839373760273e-50,
+    "KR32": 2.9137719398132396e-50,
+    "KLM12": 2.059200851020316e-50,
+    "KR72": 2.3812969793665123e-50,
+    "Y1": 6.872265513635373e-49,
+    "Y2x": 5.766861924853049e-49,
+    "Y3x": 5.851103241193101e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     3
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "law turns": 0.20000000000000018,
+    "KL32": 1.9451808723834597e-50,
+    "KR32": 4.525523089925779e-50,
+    "KLM12": 1.7483352442400546e-50,
+    "KR72": 4.990118458726535e-50,
+    "Y1": 1.5391003431652634e-49,
+    "Y2x": 9.948585972413673e-50,
+    "Y3x": 7.738605145700569e-50
+   },
+   {
+    "line (a, b)": [
+     3,
+     3
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "law turns": 0.3999999999999999,
+    "KL32": 1.9451808723834597e-50,
+    "KR32": 9.960446410750561e-51,
+    "KLM12": 1.7483352442400546e-50,
+    "KR72": 1.1683502561958826e-50,
+    "Y1": 1.535749849438669e-49,
+    "Y2x": 1.0188919496645582e-49,
+    "Y3x": 1.2937989110174344e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     3
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "lepton",
+    "law turns": 0.3999999999999986,
+    "KL32": 4.20009242248679e-50,
+    "KR32": 1.0285279749831316e-49,
+    "KLM12": 4.039866465142097e-50,
+    "KR72": 9.98023691745307e-50,
+    "Y1": 2.151132684602423e-49,
+    "Y2x": 2.0549357416110127e-49,
+    "Y3x": 1.8622941610912027e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     4
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "law turns": 0.20000000000000018,
+    "KL32": 3.385138088700512e-51,
+    "KR32": 6.601637024235875e-50,
+    "KLM12": 2.710459599219919e-51,
+    "KR72": 5.167725667095427e-50,
+    "Y1": 9.03279510005642e-50,
+    "Y2x": 1.6304084336146337e-49,
+    "Y3x": 8.034750217982243e-50
+   },
+   {
+    "line (a, b)": [
+     3,
+     4
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "law turns": 0.3999999999999999,
+    "KL32": 3.385138088700512e-51,
+    "KR32": 9.167444418569493e-51,
+    "KLM12": 2.710459599219919e-51,
+    "KR72": 8.685526908944965e-51,
+    "Y1": 1.1557873125041384e-50,
+    "Y2x": 3.7986131487797624e-50,
+    "Y3x": 3.473932994487902e-50
+   },
+   {
+    "line (a, b)": [
+     3,
+     4
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "lepton",
+    "law turns": 0.3999999999999986,
+    "KL32": 7.69840922973025e-51,
+    "KR32": 1.3658559360488017e-50,
+    "KLM12": 9.146283434265782e-51,
+    "KR72": 2.2147395716123263e-50,
+    "Y1": 4.055740065012911e-49,
+    "Y2x": 4.0098589087770164e-49,
+    "Y3x": 4.349815610340251e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     5
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "law turns": 0.20000000000000018,
+    "KL32": 6.941872448740306e-51,
+    "KR32": 2.340295068553062e-51,
+    "KLM12": 7.011177606789401e-51,
+    "KR72": 5.484151792777849e-51,
+    "Y1": 1.7598470210705413e-50,
+    "Y2x": 4.713590904061837e-50,
+    "Y3x": 1.309467561806198e-50
+   },
+   {
+    "line (a, b)": [
+     3,
+     5
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "law turns": 0.3999999999999999,
+    "KL32": 6.941872448740306e-51,
+    "KR32": 8.764000841255024e-51,
+    "KLM12": 7.011177606789401e-51,
+    "KR72": 1.3851810998998585e-50,
+    "Y1": 5.358697491461441e-51,
+    "Y2x": 1.6433412901147262e-50,
+    "Y3x": 1.5986195466878718e-50
+   },
+   {
+    "line (a, b)": [
+     3,
+     5
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "lepton",
+    "law turns": 0.3999999999999986,
+    "KL32": 3.265200732242543e-50,
+    "KR32": 4.680590137106124e-51,
+    "KLM12": 2.273420833803966e-50,
+    "KR72": 2.5934461198017537e-51,
+    "Y1": 4.226816901746691e-49,
+    "Y2x": 2.9076590309105548e-49,
+    "Y3x": 4.147976816444874e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     6
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "law turns": 0.20000000000000018,
+    "KL32": 3.3351043762886916e-51,
+    "KR32": 5.025296974474703e-50,
+    "KLM12": 4.823575028495526e-51,
+    "KR72": 4.501116281932931e-50,
+    "Y1": 3.870559671362275e-49,
+    "Y2x": 3.811646110050413e-49,
+    "Y3x": 2.9535346333206865e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     6
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "law turns": 0.3999999999999999,
+    "KL32": 3.3351043762886916e-51,
+    "KR32": 5.1192306018944856e-51,
+    "KLM12": 4.823575028495526e-51,
+    "KR72": 1.0103496316073106e-50,
+    "Y1": 2.1093586990932415e-49,
+    "Y2x": 2.3460028013871183e-49,
+    "Y3x": 2.574309133956322e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     6
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "lepton",
+    "law turns": 0.3999999999999986,
+    "KL32": 1.3255628550832575e-49,
+    "KR32": 1.127296348328109e-49,
+    "KLM12": 1.2708262418405313e-49,
+    "KR72": 1.0018613659786201e-49,
+    "Y1": 1.6230960754322767e-49,
+    "Y2x": 2.0090942857557116e-49,
+    "Y3x": 3.528148169893102e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     7
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "law turns": 0.20000000000000018,
+    "KL32": 2.395117239485458e-50,
+    "KR32": 9.598307566443614e-50,
+    "KLM12": 2.2210944688492897e-50,
+    "KR72": 8.929863672624422e-50,
+    "Y1": 3.650987954941584e-49,
+    "Y2x": 3.558796190924525e-49,
+    "Y3x": 4.714908700435919e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     7
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "law turns": 0.3999999999999999,
+    "KL32": 2.395117239485458e-50,
+    "KR32": 9.436183730959481e-51,
+    "KLM12": 2.2210944688492897e-50,
+    "KR72": 1.1067100926665335e-50,
+    "Y1": 1.308321552992475e-49,
+    "Y2x": 1.200884278264831e-49,
+    "Y3x": 1.4879539315223226e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     7
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "lepton",
+    "law turns": 0.3999999999999986,
+    "KL32": 6.545379094556054e-51,
+    "KR32": 2.5778009126451458e-51,
+    "KLM12": 3.9812110674354375e-51,
+    "KR72": 3.66716248255711e-51,
+    "Y1": 7.767522081888003e-50,
+    "Y2x": 7.114959815299013e-50,
+    "Y3x": 1.3454244040756223e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     8
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "law turns": 0.20000000000000018,
+    "KL32": 1.5623805724244923e-51,
+    "KR32": 6.17116784989879e-51,
+    "KLM12": 2.6034481827738761e-51,
+    "KR72": 1.1881234425539369e-50,
+    "Y1": 9.293237164145742e-50,
+    "Y2x": 8.560923909696901e-50,
+    "Y3x": 9.682837513222505e-50
+   },
+   {
+    "line (a, b)": [
+     3,
+     8
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "law turns": 0.3999999999999999,
+    "KL32": 1.5623805724244923e-51,
+    "KR32": 4.9802232053752804e-51,
+    "KLM12": 2.6034481827738761e-51,
+    "KR72": 7.302189101224267e-51,
+    "Y1": 1.2061001274178346e-49,
+    "Y2x": 1.2859210546196686e-49,
+    "Y3x": 1.189894097616419e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     8
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "lepton",
+    "law turns": 0.3999999999999986,
+    "KL32": 3.900204364356803e-50,
+    "KR32": 1.110810212981782e-49,
+    "KLM12": 2.8840867574739103e-50,
+    "KR72": 1.1405985048517795e-49,
+    "Y1": 6.485048169858624e-50,
+    "Y2x": 1.2988065636888387e-49,
+    "Y3x": 1.7151104450750823e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     9
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "law turns": 0.20000000000000018,
+    "KL32": 1.314317476484453e-50,
+    "KR32": 1.252034608044735e-49,
+    "KLM12": 9.392744300772045e-51,
+    "KR72": 1.0335451334190855e-49,
+    "Y1": 6.753534281706337e-49,
+    "Y2x": 6.853642058308093e-49,
+    "Y3x": 8.865470873680865e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     9
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "law turns": 0.3999999999999999,
+    "KL32": 1.314317476484453e-50,
+    "KR32": 1.1000933302283391e-50,
+    "KLM12": 9.392744300772045e-51,
+    "KR72": 8.685526908944965e-51,
+    "Y1": 3.414092664062908e-49,
+    "Y2x": 3.533376314545991e-49,
+    "Y3x": 3.493277404861522e-49
+   },
+   {
+    "line (a, b)": [
+     3,
+     9
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "lepton",
+    "law turns": 0.3999999999999986,
+    "KL32": 1.751309869044255e-49,
+    "KR32": 1.957726841669949e-49,
+    "KLM12": 1.4834094549881703e-49,
+    "KR72": 1.6733587874404242e-49,
+    "Y1": 3.460498514842288e-49,
+    "Y2x": 5.46540739703404e-49,
+    "Y3x": 2.270015486364658e-49
+   }
+  ],
+  "T^10 worst Y law error": 8.865470873680865e-49,
+  "T^10 worst K": 1.957726841669949e-49,
+  "T^10 some phase equal to 1 where c is prime to 10": false,
+  "W92's V3 at N = 10": {
+   "rows": [
+    {
+     "N": 10,
+     "n": 6,
+     "line": [
+      2,
+      9
+     ],
+     "eps": -1,
+     "c": 9,
+     "sector": "up",
+     "|g tau0 - tau(P/2)|": 0.0,
+     "Im tau0": 0.9682458365518543,
+     "KL32": 9.906186932902006e-42,
+     "KR32": 7.10625446238474e-42,
+     "KLM12": 2.1721906690097575e-42,
+     "KR72": 5.0182852986711584e-42,
+     "Y1": 3.9342172786525937e-41,
+     "Y1 (+q_H^2 law)": 1.1755705045849463,
+     "Y2x": 6.856415359834455e-41,
+     "Y2x (+q_H^2 law)": 1.1755705045849463,
+     "Y3x": 1.8315564025323632e-41,
+     "Y3x (+q_H^2 law)": 1.1755705045849463,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 6,
+     "line": [
+      2,
+      9
+     ],
+     "eps": -1,
+     "c": 9,
+     "sector": "down",
+     "|g tau0 - tau(P/2)|": 0.0,
+     "Im tau0": 0.9682458365518543,
+     "KL32": 9.906186932902006e-42,
+     "KR32": 1.2179547665569686e-41,
+     "KLM12": 2.1721906690097575e-42,
+     "KR72": 2.2612624917577178e-42,
+     "Y1": 1.1336320985843841e-41,
+     "Y1 (+q_H^2 law)": 1.1755705045849463,
+     "Y2x": 9.802117488069663e-41,
+     "Y2x (+q_H^2 law)": 1.1755705045849463,
+     "Y3x": 3.0897297575540803e-41,
+     "Y3x (+q_H^2 law)": 1.1755705045849463,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 6,
+     "line": [
+      2,
+      9
+     ],
+     "eps": -1,
+     "c": 9,
+     "sector": "lepton",
+     "|g tau0 - tau(P/2)|": 0.0,
+     "Im tau0": 0.9682458365518543,
+     "KL32": 1.07521740599504e-42,
+     "KR32": 7.1062544711253e-42,
+     "KLM12": 3.495411260463807e-42,
+     "KR72": 5.018285335747938e-42,
+     "Y1": 4.116506111757993e-41,
+     "Y1 (+q_H^2 law)": 1.1755705045849463,
+     "Y2x": 1.2750585607858054e-40,
+     "Y2x (+q_H^2 law)": 1.1755705045849463,
+     "Y3x": 1.6152651317451637e-40,
+     "Y3x (+q_H^2 law)": 1.1755705045849463,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 6,
+     "line": [
+      4,
+      3
+     ],
+     "eps": -1,
+     "c": 1,
+     "sector": "up",
+     "|g tau0 - tau(P/2)|": 0.0,
+     "Im tau0": 0.9682458365518543,
+     "KL32": 1.0752174427198287e-42,
+     "KR32": 1.217954765741489e-41,
+     "KLM12": 3.495411269055651e-42,
+     "KR72": 2.261262517996289e-42,
+     "Y1": 3.115129591270974e-41,
+     "Y1 (+q_H^2 law)": 1.1755705045849463,
+     "Y2x": 8.113918093777372e-41,
+     "Y2x (+q_H^2 law)": 1.1755705045849463,
+     "Y3x": 1.2851191420571563e-40,
+     "Y3x (+q_H^2 law)": 1.1755705045849463,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 6,
+     "line": [
+      4,
+      3
+     ],
+     "eps": -1,
+     "c": 1,
+     "sector": "down",
+     "|g tau0 - tau(P/2)|": 0.0,
+     "Im tau0": 0.9682458365518543,
+     "KL32": 1.0752174427198287e-42,
+     "KR32": 7.106254468686056e-42,
+     "KLM12": 3.495411269055651e-42,
+     "KR72": 5.018285326574601e-42,
+     "Y1": 1.158387671008447e-41,
+     "Y1 (+q_H^2 law)": 1.1755705045849463,
+     "Y2x": 2.005246993409358e-41,
+     "Y2x (+q_H^2 law)": 1.1755705045849463,
+     "Y3x": 1.1294153497027206e-40,
+     "Y3x (+q_H^2 law)": 1.1755705045849463,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 6,
+     "line": [
+      4,
+      3
+     ],
+     "eps": -1,
+     "c": 1,
+     "sector": "lepton",
+     "|g tau0 - tau(P/2)|": 0.0,
+     "Im tau0": 0.9682458365518543,
+     "KL32": 9.906186931849688e-42,
+     "KR32": 1.2179547659606926e-41,
+     "KLM12": 2.1721906861694902e-42,
+     "KR72": 2.2612625097967356e-42,
+     "Y1": 8.348494220383646e-41,
+     "Y1 (+q_H^2 law)": 1.1755705045849463,
+     "Y2x": 7.999994697710126e-41,
+     "Y2x (+q_H^2 law)": 1.1755705045849463,
+     "Y3x": 2.8694420191649736e-41,
+     "Y3x (+q_H^2 law)": 1.1755705045849463,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 10,
+     "line": [
+      0,
+      1
+     ],
+     "eps": 1,
+     "c": 1,
+     "sector": "up",
+     "|g tau0 - tau(P/2)|": 1.0774258996659865e-50,
+     "Im tau0": 0.9860132971832694,
+     "KL32": 8.063093250958846e-42,
+     "KR32": 4.8614875193707646e-42,
+     "KLM12": 5.3268225492296865e-42,
+     "KR72": 4.289053646881804e-42,
+     "Y1": 2.2292479762396118e-41,
+     "Y1 (+q_H^2 law)": 1.1755705045849463,
+     "Y2x": 1.8535322243817706e-40,
+     "Y2x (+q_H^2 law)": 1.1755705045849463,
+     "Y3x": 2.4555006518215207e-41,
+     "Y3x (+q_H^2 law)": 1.1755705045849463,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 10,
+     "line": [
+      0,
+      1
+     ],
+     "eps": 1,
+     "c": 1,
+     "sector": "down",
+     "|g tau0 - tau(P/2)|": 1.0774258996659865e-50,
+     "Im tau0": 0.9860132971832694,
+     "KL32": 8.063093250958846e-42,
+     "KR32": 6.907984074664611e-42,
+     "KLM12": 5.3268225492296865e-42,
+     "KR72": 5.549432782886146e-42,
+     "Y1": 2.2900966044406081e-41,
+     "Y1 (+q_H^2 law)": 1.1755705045849463,
+     "Y2x": 1.9462045078129343e-40,
+     "Y2x (+q_H^2 law)": 1.1755705045849463,
+     "Y3x": 2.5150630018425875e-41,
+     "Y3x (+q_H^2 law)": 1.1755705045849463,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 10,
+     "line": [
+      0,
+      1
+     ],
+     "eps": 1,
+     "c": 1,
+     "sector": "lepton",
+     "|g tau0 - tau(P/2)|": 1.0774258996659865e-50,
+     "Im tau0": 0.9860132971832694,
+     "KL32": 5.469112823275256e-42,
+     "KR32": 4.861487523427682e-42,
+     "KLM12": 3.971782965027202e-42,
+     "KR72": 4.2890536529229494e-42,
+     "Y1": 6.429044541310584e-41,
+     "Y1 (+q_H^2 law)": 1.1755705045849463,
+     "Y2x": 5.854485104724011e-41,
+     "Y2x (+q_H^2 law)": 1.1755705045849463,
+     "Y3x": 1.3400373854427109e-40,
+     "Y3x (+q_H^2 law)": 1.1755705045849463,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 10,
+     "line": [
+      0,
+      3
+     ],
+     "eps": 1,
+     "c": 9,
+     "sector": "up",
+     "|g tau0 - tau(P/2)|": 1.0774258996659865e-50,
+     "Im tau0": 0.9860132971832694,
+     "KL32": 5.469112823275256e-42,
+     "KR32": 6.907984075313299e-42,
+     "KLM12": 3.971782965027202e-42,
+     "KR72": 5.5494327833419895e-42,
+     "Y1": 4.0138275641939014e-41,
+     "Y1 (+q_H^2 law)": 1.1755705045849463,
+     "Y2x": 6.647803394735611e-41,
+     "Y2x (+q_H^2 law)": 1.1755705045849463,
+     "Y3x": 4.5499853097499495e-41,
+     "Y3x (+q_H^2 law)": 1.1755705045849463,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 10,
+     "line": [
+      0,
+      3
+     ],
+     "eps": 1,
+     "c": 9,
+     "sector": "down",
+     "|g tau0 - tau(P/2)|": 1.0774258996659865e-50,
+     "Im tau0": 0.9860132971832694,
+     "KL32": 5.469112823275256e-42,
+     "KR32": 4.861487523427682e-42,
+     "KLM12": 3.971782965027202e-42,
+     "KR72": 4.2890536529229494e-42,
+     "Y1": 9.189190670972866e-42,
+     "Y1 (+q_H^2 law)": 1.1755705045849463,
+     "Y2x": 2.0486195277909255e-41,
+     "Y2x (+q_H^2 law)": 1.1755705045849463,
+     "Y3x": 7.239025110214413e-41,
+     "Y3x (+q_H^2 law)": 1.1755705045849463,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 10,
+     "line": [
+      0,
+      3
+     ],
+     "eps": 1,
+     "c": 9,
+     "sector": "lepton",
+     "|g tau0 - tau(P/2)|": 1.0774258996659865e-50,
+     "Im tau0": 0.9860132971832694,
+     "KL32": 8.06309326543341e-42,
+     "KR32": 6.907984121883292e-42,
+     "KLM12": 5.326822570484104e-42,
+     "KR72": 5.549432853391746e-42,
+     "Y1": 8.22545391563172e-41,
+     "Y1 (+q_H^2 law)": 1.1755705045849463,
+     "Y2x": 3.152420076394645e-40,
+     "Y2x (+q_H^2 law)": 1.1755705045849463,
+     "Y3x": 2.7886194715320263e-41,
+     "Y3x (+q_H^2 law)": 1.1755705045849463,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 16,
+     "line": [
+      2,
+      9
+     ],
+     "eps": -1,
+     "c": 8,
+     "sector": "up",
+     "|g tau0 - tau(P/2)|": 2.142383892564049e-50,
+     "Im tau0": 0.9938079899999065,
+     "KL32": 2.1017225514830875e-41,
+     "KR32": 2.114193693853059e-41,
+     "KLM12": 7.444094515943031e-42,
+     "KR72": 7.15711663393306e-42,
+     "Y1": 5.715596930290705e-41,
+     "Y1 (+q_H^2 law)": 1.902113032590307,
+     "Y2x": 1.0769311204417226e-41,
+     "Y2x (+q_H^2 law)": 1.902113032590307,
+     "Y3x": 8.086839145135369e-42,
+     "Y3x (+q_H^2 law)": 1.902113032590307,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 16,
+     "line": [
+      2,
+      9
+     ],
+     "eps": -1,
+     "c": 8,
+     "sector": "down",
+     "|g tau0 - tau(P/2)|": 2.142383892564049e-50,
+     "Im tau0": 0.9938079899999065,
+     "KL32": 2.1017225514830875e-41,
+     "KR32": 2.1032256698624535e-41,
+     "KLM12": 7.444094515943031e-42,
+     "KR72": 7.410051855301524e-42,
+     "Y1": 2.6342612448281257e-41,
+     "Y1 (+q_H^2 law)": 1.902113032590307,
+     "Y2x": 3.189459180585117e-41,
+     "Y2x (+q_H^2 law)": 1.902113032590307,
+     "Y3x": 7.962216017417348e-42,
+     "Y3x (+q_H^2 law)": 1.902113032590307,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 16,
+     "line": [
+      2,
+      9
+     ],
+     "eps": -1,
+     "c": 8,
+     "sector": "lepton",
+     "|g tau0 - tau(P/2)|": 2.142383892564049e-50,
+     "Im tau0": 0.9938079899999065,
+     "KL32": 2.1103369258344383e-41,
+     "KR32": 2.1141937550205166e-41,
+     "KLM12": 7.246973712388374e-42,
+     "KR72": 7.157117247615173e-42,
+     "Y1": 3.455382566201719e-41,
+     "Y1 (+q_H^2 law)": 1.902113032590307,
+     "Y2x": 4.626097946252821e-41,
+     "Y2x (+q_H^2 law)": 1.902113032590307,
+     "Y3x": 6.069007040100143e-41,
+     "Y3x (+q_H^2 law)": 1.902113032590307,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 16,
+     "line": [
+      4,
+      3
+     ],
+     "eps": -1,
+     "c": 2,
+     "sector": "up",
+     "|g tau0 - tau(P/2)|": 2.142383892564049e-50,
+     "Im tau0": 0.9938079899999065,
+     "KL32": 2.1103369075129818e-41,
+     "KR32": 2.103225679743555e-41,
+     "KLM12": 7.246973529447163e-42,
+     "KR72": 7.410051950977764e-42,
+     "Y1": 4.734027988417479e-41,
+     "Y1 (+q_H^2 law)": 1.902113032590307,
+     "Y2x": 1.3726469249331422e-41,
+     "Y2x (+q_H^2 law)": 1.902113032590307,
+     "Y3x": 1.3187326737689087e-41,
+     "Y3x (+q_H^2 law)": 1.902113032590307,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 16,
+     "line": [
+      4,
+      3
+     ],
+     "eps": -1,
+     "c": 2,
+     "sector": "down",
+     "|g tau0 - tau(P/2)|": 2.142383892564049e-50,
+     "Im tau0": 0.9938079899999065,
+     "KL32": 2.1103369075129818e-41,
+     "KR32": 2.1141937279972814e-41,
+     "KLM12": 7.246973529447163e-42,
+     "KR72": 7.157116983731864e-42,
+     "Y1": 4.27822727896878e-41,
+     "Y1 (+q_H^2 law)": 1.902113032590307,
+     "Y2x": 2.685746779422284e-41,
+     "Y2x (+q_H^2 law)": 1.902113032590307,
+     "Y3x": 3.728600447121125e-42,
+     "Y3x (+q_H^2 law)": 1.902113032590307,
+     "closes": false
+    },
+    {
+     "N": 10,
+     "n": 16,
+     "line": [
+      4,
+      3
+     ],
+     "eps": -1,
+     "c": 2,
+     "sector": "lepton",
+     "|g tau0 - tau(P/2)|": 2.142383892564049e-50,
+     "Im tau0": 0.9938079899999065,
+     "KL32": 2.1017225498406113e-41,
+     "KR32": 2.1032256657654113e-41,
+     "KLM12": 7.44409450454399e-42,
+     "KR72": 7.410051820751771e-42,
+     "Y1": 4.880145893100151e-41,
+     "Y1 (+q_H^2 law)": 1.902113032590307,
+     "Y2x": 5.720551647737524e-41,
+     "Y2x (+q_H^2 law)": 1.902113032590307,
+     "Y3x": 2.3754855532991555e-41,
+     "Y3x (+q_H^2 law)": 1.902113032590307,
+     "closes": false
+    }
+   ],
+   "worst Y vs the per-field law": 3.152420076394645e-40,
+   "worst K": 2.1141937550205166e-41,
+   "the +q_H^2 law misses wherever it differs": true,
+   "holds": true
+  },
+  "V3: the law's phase equal to 1 where c is prime to 10": false,
+  "holds": true
+ },
+ "K4": {
+  "minimal": {
+   "up": {
+    "1": 4.99279832249384e-62,
+    "i": 4.012996344458714e-62,
+    "j": "identically zero, not tested",
+    "k": 4.838648243034812e-61
+   },
+   "down": {
+    "1": 7.774502344129658e-61,
+    "i": 1.5794416009061062e-62,
+    "j": 3.500838351202684e-61,
+    "k": 2.9932951920777435e-61
+   },
+   "leptons": {
+    "1": 7.774502344129658e-61,
+    "i": 1.5794416009061062e-62,
+    "j": 3.500838351202684e-61,
+    "k": 2.9932951920777435e-61
+   },
+   "controls (untwisted i, j, k; reference 1)": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "per field": {
+   "up": {
+    "Y1": 7.692338395565615e-50,
+    "Y2x": 1.0146844596995157e-49,
+    "Y3x": 1.1625761653451405e-49
+   },
+   "down": {
+    "Y1": 4.508044048186869e-50,
+    "Y2x": 4.884607303018486e-50,
+    "Y3x": 4.469424958115394e-50
+   },
+   "lepton": {
+    "Y1": 8.117963042475129e-50,
+    "Y2x": 6.578290127682432e-50,
+    "Y3x": 6.965305808488326e-50
+   },
+   "control (all charges zero)": {
+    "Y1": 1.0,
+    "Y2x": 1.0,
+    "Y3x": 1.0
+   }
+  },
+  "worst twisted sum, minimal": 7.774502344129658e-61,
+  "worst twisted sum, per field": 1.1625761653451405e-49,
+  "controls give ten times the value": true,
+  "holds": true
+ },
+ "R": {
+  "census over N = 2..16": {
+   "2": {
+    "lines": 3,
+    "c = +-1 on every line": true,
+    "survivors": [
+     "per field down",
+     "per field lepton",
+     "per field up"
+    ],
+    "all three survive, minimal": false,
+    "all three survive, per field": true
+   },
+   "3": {
+    "lines": 4,
+    "c = +-1 on every line": true,
+    "survivors": [
+     "minimal leptons",
+     "per field lepton"
+    ],
+    "all three survive, minimal": false,
+    "all three survive, per field": false
+   },
+   "4": {
+    "lines": 6,
+    "c = +-1 on every line": true,
+    "survivors": [
+     "per field down",
+     "per field lepton",
+     "per field up"
+    ],
+    "all three survive, minimal": false,
+    "all three survive, per field": true
+   },
+   "5": {
+    "lines": 12,
+    "c = +-1 on every line": true,
+    "survivors": [
+     "minimal down",
+     "minimal leptons"
+    ],
+    "all three survive, minimal": false,
+    "all three survive, per field": false
+   },
+   "6": {
+    "lines": 12,
+    "c = +-1 on every line": true,
+    "survivors": [
+     "per field lepton"
+    ],
+    "all three survive, minimal": false,
+    "all three survive, per field": false
+   },
+   "7": {
+    "lines": 24,
+    "c = +-1 on every line": true,
+    "survivors": [],
+    "all three survive, minimal": false,
+    "all three survive, per field": false
+   },
+   "8": {
+    "lines": 24,
+    "c = +-1 on every line": true,
+    "survivors": [
+     "per field up"
+    ],
+    "all three survive, minimal": false,
+    "all three survive, per field": false
+   },
+   "9": {
+    "lines": 36,
+    "c = +-1 on every line": true,
+    "survivors": [
+     "minimal leptons",
+     "per field lepton"
+    ],
+    "all three survive, minimal": false,
+    "all three survive, per field": false
+   },
+   "10": {
+    "lines": 36,
+    "c = +-1 on every line": true,
+    "survivors": [],
+    "all three survive, minimal": false,
+    "all three survive, per field": false
+   },
+   "11": {
+    "lines": 60,
+    "c = +-1 on every line": true,
+    "survivors": [],
+    "all three survive, minimal": false,
+    "all three survive, per field": false
+   },
+   "12": {
+    "lines": 48,
+    "c = +-1 on every line": true,
+    "survivors": [
+     "per field lepton"
+    ],
+    "all three survive, minimal": false,
+    "all three survive, per field": false
+   },
+   "13": {
+    "lines": 84,
+    "c = +-1 on every line": true,
+    "survivors": [],
+    "all three survive, minimal": false,
+    "all three survive, per field": false
+   },
+   "14": {
+    "lines": 72,
+    "c = +-1 on every line": true,
+    "survivors": [],
+    "all three survive, minimal": false,
+    "all three survive, per field": false
+   },
+   "15": {
+    "lines": 96,
+    "c = +-1 on every line": true,
+    "survivors": [
+     "minimal leptons"
+    ],
+    "all three survive, minimal": false,
+    "all three survive, per field": false
+   },
+   "16": {
+    "lines": 96,
+    "c = +-1 on every line": true,
+    "survivors": [],
+    "all three survive, minimal": false,
+    "all three survive, per field": false
+   }
+  },
+  "the counted line (4, 5)": [
+   {
+    "line (a, b)": [
+     4,
+     5
+    ],
+    "g": [
+     4,
+     -5,
+     1,
+     -1
+    ],
+    "g^-1 T^10 g": [
+     -9,
+     10,
+     -10,
+     11
+    ],
+    "eps, c (conjugate)": [
+     1,
+     1
+    ],
+    "characters (tenths)": {
+     "minimal up": 3,
+     "minimal down": 5,
+     "minimal leptons": 5,
+     "per field up": 8,
+     "per field down": 6,
+     "per field lepton": 6
+    },
+    "searched element": [
+     -9,
+     -5,
+     2,
+     1
+    ],
+    "eps, c (searched)": [
+     1,
+     7
+    ]
+   }
+  ],
+  "the measured phases (minimal)": [
+   {
+    "line (a, b)": [
+     0,
+     1
+    ],
+    "sector": "up",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "identity channel turns": 0.3
+   },
+   {
+    "line (a, b)": [
+     0,
+     1
+    ],
+    "sector": "down",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     0,
+     1
+    ],
+    "sector": "leptons",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     0,
+     3
+    ],
+    "sector": "up",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "identity channel turns": 0.7
+   },
+   {
+    "line (a, b)": [
+     0,
+     3
+    ],
+    "sector": "down",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     0,
+     3
+    ],
+    "sector": "leptons",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     0
+    ],
+    "sector": "up",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "identity channel turns": 0.7
+   },
+   {
+    "line (a, b)": [
+     1,
+     0
+    ],
+    "sector": "down",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     0
+    ],
+    "sector": "leptons",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     1
+    ],
+    "sector": "up",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.7
+   },
+   {
+    "line (a, b)": [
+     1,
+     1
+    ],
+    "sector": "down",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     1
+    ],
+    "sector": "leptons",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     2
+    ],
+    "sector": "up",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "identity channel turns": 0.7
+   },
+   {
+    "line (a, b)": [
+     1,
+     2
+    ],
+    "sector": "down",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     2
+    ],
+    "sector": "leptons",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     3
+    ],
+    "sector": "up",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.7
+   },
+   {
+    "line (a, b)": [
+     1,
+     3
+    ],
+    "sector": "down",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     3
+    ],
+    "sector": "leptons",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     4
+    ],
+    "sector": "up",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "identity channel turns": 0.7
+   },
+   {
+    "line (a, b)": [
+     1,
+     4
+    ],
+    "sector": "down",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     4
+    ],
+    "sector": "leptons",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     5
+    ],
+    "sector": "up",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.7
+   },
+   {
+    "line (a, b)": [
+     1,
+     5
+    ],
+    "sector": "down",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     5
+    ],
+    "sector": "leptons",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     6
+    ],
+    "sector": "up",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "identity channel turns": 0.7
+   },
+   {
+    "line (a, b)": [
+     1,
+     6
+    ],
+    "sector": "down",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     6
+    ],
+    "sector": "leptons",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     7
+    ],
+    "sector": "up",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.7
+   },
+   {
+    "line (a, b)": [
+     1,
+     7
+    ],
+    "sector": "down",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     7
+    ],
+    "sector": "leptons",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     8
+    ],
+    "sector": "up",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "identity channel turns": 0.7
+   },
+   {
+    "line (a, b)": [
+     1,
+     8
+    ],
+    "sector": "down",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     8
+    ],
+    "sector": "leptons",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     9
+    ],
+    "sector": "up",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.7
+   },
+   {
+    "line (a, b)": [
+     1,
+     9
+    ],
+    "sector": "down",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     1,
+     9
+    ],
+    "sector": "leptons",
+    "c": 1,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     2,
+     1
+    ],
+    "sector": "up",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.2
+     }
+    ],
+    "identity channel turns": 0.1
+   },
+   {
+    "line (a, b)": [
+     2,
+     1
+    ],
+    "sector": "down",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     2,
+     1
+    ],
+    "sector": "leptons",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     2,
+     3
+    ],
+    "sector": "up",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.2
+     }
+    ],
+    "identity channel turns": 0.1
+   },
+   {
+    "line (a, b)": [
+     2,
+     3
+    ],
+    "sector": "down",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.4799624603483006e-62
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     2,
+     3
+    ],
+    "sector": "leptons",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 2.1913395555358064e-62
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     2,
+     5
+    ],
+    "sector": "up",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.2
+     }
+    ],
+    "identity channel turns": 0.1
+   },
+   {
+    "line (a, b)": [
+     2,
+     5
+    ],
+    "sector": "down",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     2,
+     5
+    ],
+    "sector": "leptons",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     2,
+     7
+    ],
+    "sector": "up",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.8
+     }
+    ],
+    "identity channel turns": 0.9
+   },
+   {
+    "line (a, b)": [
+     2,
+     7
+    ],
+    "sector": "down",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     2,
+     7
+    ],
+    "sector": "leptons",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     2,
+     9
+    ],
+    "sector": "up",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.8
+     }
+    ],
+    "identity channel turns": 0.9
+   },
+   {
+    "line (a, b)": [
+     2,
+     9
+    ],
+    "sector": "down",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     2,
+     9
+    ],
+    "sector": "leptons",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     0
+    ],
+    "sector": "up",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "identity channel turns": 0.3
+   },
+   {
+    "line (a, b)": [
+     3,
+     0
+    ],
+    "sector": "down",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     0
+    ],
+    "sector": "leptons",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     1
+    ],
+    "sector": "up",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.3
+   },
+   {
+    "line (a, b)": [
+     3,
+     1
+    ],
+    "sector": "down",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     1
+    ],
+    "sector": "leptons",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     2
+    ],
+    "sector": "up",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "identity channel turns": 0.3
+   },
+   {
+    "line (a, b)": [
+     3,
+     2
+    ],
+    "sector": "down",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     2
+    ],
+    "sector": "leptons",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     3
+    ],
+    "sector": "up",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.3
+   },
+   {
+    "line (a, b)": [
+     3,
+     3
+    ],
+    "sector": "down",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     3
+    ],
+    "sector": "leptons",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     4
+    ],
+    "sector": "up",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "identity channel turns": 0.3
+   },
+   {
+    "line (a, b)": [
+     3,
+     4
+    ],
+    "sector": "down",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     4
+    ],
+    "sector": "leptons",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     5
+    ],
+    "sector": "up",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.3
+   },
+   {
+    "line (a, b)": [
+     3,
+     5
+    ],
+    "sector": "down",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     5
+    ],
+    "sector": "leptons",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     6
+    ],
+    "sector": "up",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "identity channel turns": 0.3
+   },
+   {
+    "line (a, b)": [
+     3,
+     6
+    ],
+    "sector": "down",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     6
+    ],
+    "sector": "leptons",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     7
+    ],
+    "sector": "up",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.3
+   },
+   {
+    "line (a, b)": [
+     3,
+     7
+    ],
+    "sector": "down",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     7
+    ],
+    "sector": "leptons",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     8
+    ],
+    "sector": "up",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "identity channel turns": 0.3
+   },
+   {
+    "line (a, b)": [
+     3,
+     8
+    ],
+    "sector": "down",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     8
+    ],
+    "sector": "leptons",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     9
+    ],
+    "sector": "up",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.3
+   },
+   {
+    "line (a, b)": [
+     3,
+     9
+    ],
+    "sector": "down",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     3,
+     9
+    ],
+    "sector": "leptons",
+    "c": 9,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     4,
+     1
+    ],
+    "sector": "up",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.8
+     }
+    ],
+    "identity channel turns": 0.9
+   },
+   {
+    "line (a, b)": [
+     4,
+     1
+    ],
+    "sector": "down",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 4.119319315372627e-62
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     4,
+     1
+    ],
+    "sector": "leptons",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     4,
+     3
+    ],
+    "sector": "up",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.2
+     }
+    ],
+    "identity channel turns": 0.1
+   },
+   {
+    "line (a, b)": [
+     4,
+     3
+    ],
+    "sector": "down",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 9.32805889070736e-62
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     4,
+     3
+    ],
+    "sector": "leptons",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.5075116707074567e-62
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     4,
+     5
+    ],
+    "sector": "up",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.8
+     }
+    ],
+    "identity channel turns": 0.9
+   },
+   {
+    "line (a, b)": [
+     4,
+     5
+    ],
+    "sector": "down",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     4,
+     5
+    ],
+    "sector": "leptons",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     4,
+     7
+    ],
+    "sector": "up",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.8
+     }
+    ],
+    "identity channel turns": 0.9
+   },
+   {
+    "line (a, b)": [
+     4,
+     7
+    ],
+    "sector": "down",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 2.0734396875451624e-62
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     4,
+     7
+    ],
+    "sector": "leptons",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     4,
+     9
+    ],
+    "sector": "up",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.2
+     }
+    ],
+    "identity channel turns": 0.1
+   },
+   {
+    "line (a, b)": [
+     4,
+     9
+    ],
+    "sector": "down",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.6348776017796297e-63
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     4,
+     9
+    ],
+    "sector": "leptons",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     5,
+     1
+    ],
+    "sector": "up",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 0.2
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.1
+   },
+   {
+    "line (a, b)": [
+     5,
+     1
+    ],
+    "sector": "down",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.8143658154228724e-61
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     5,
+     1
+    ],
+    "sector": "leptons",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.8143658154228724e-61
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     5,
+     2
+    ],
+    "sector": "up",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 0.2
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.1
+   },
+   {
+    "line (a, b)": [
+     5,
+     2
+    ],
+    "sector": "down",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 6.945093153836692e-62
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     5,
+     2
+    ],
+    "sector": "leptons",
+    "c": 3,
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 6.945093153836692e-62
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     5,
+     3
+    ],
+    "sector": "up",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 0.8
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.9
+   },
+   {
+    "line (a, b)": [
+     5,
+     3
+    ],
+    "sector": "down",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.9820220264448346e-61
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     5,
+     3
+    ],
+    "sector": "leptons",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.9820220264448346e-61
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     5,
+     4
+    ],
+    "sector": "up",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 0.8
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "identity channel turns": 0.9
+   },
+   {
+    "line (a, b)": [
+     5,
+     4
+    ],
+    "sector": "down",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.039986462465607e-62
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   },
+   {
+    "line (a, b)": [
+     5,
+     4
+    ],
+    "sector": "leptons",
+    "c": 7,
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.039986462465607e-62
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "identity channel turns": 0.5
+   }
+  ]
+ },
+ "cells": {
+  "K0": true,
+  "K1": true,
+  "K2": false,
+  "K3": true,
+  "K4": true
+ },
+ "warnings": [],
+ "seconds": 918.3
+}
