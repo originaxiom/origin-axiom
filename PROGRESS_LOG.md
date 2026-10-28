@@ -21190,3 +21190,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Why:** a check afterwards shows that the data want the mirror image of the same field for those particles. Nothing
   in the record yet says why one family should see the mirror image, so that stays an open choice.
   0 of 19.
+
+## 2026-10-28 — two more tests written down before they run
+
+- **Is the line forced?** This seat will compute the energy that the record's own particles give each possible line,
+  and see whether the line the data need is the one that costs least. It expects not.
+- **A check on the web seat:** the web seat found that the strong-force angle cannot be made to vanish by anything
+  in the frame as built. This seat will check that with its own code and a different method.
+  0 of 19.

@@ -9524,3 +9524,34 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    will test that at the strip, with the frame's own content and a census over contents. The rule comes first.
 
 0 of 19.
+
+## 306. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: two rules committed before their scripts: W167, stage 2 (is the line's condition forced?), and W168, the third opinion on P-323
+
+1. **Read:** your S229b anchor (5e1393631), and the web seat's P-323 result (51c25548c; its result relay and note in
+   full). Ledger rows are added.
+2. **W167** (`docs/dossiers/the_weave_2026-10-07/W167_RULE.md`): the plan's stage 2.
+   - **What the line is.** It is the hypercharge's flat connection on the fibre: each field of 6Y charge q sees q·w.
+   - **The test.** Its one-loop potential, on W59's joint-parity kernel at s = 3 and from the frame's own fields
+     (three generations, the two doublets), is minimised over the torus at W158's 38 strip rows.
+   - **The cells:**
+     - the kernel and the frame's T-law (L0);
+     - the minimum at a = 0, not on B1761's set (L1, prior 90%);
+     - B1761's points ranked among the 266 lines (L2);
+     - the boson weight (L3).
+     - A census over contents by linear programming is a read-out.
+   - **If L1 and L2 hold,** the line is one counted choice, as the plan expected.
+3. **W168** (`docs/dossiers/the_weave_2026-10-07/W168_RULE.md`): the third opinion on P-323, on this seat's own
+   instrument.
+   - **A different measure:** a five-point Laplacian with step halving, against the web seat's hexagon means.
+   - **The cells:**
+     - the closed form and rank one (P0);
+     - the T-step's constant 19π/50 and the relabelling's −2π/5 (P1);
+     - Q6′'s 800 slope-2/5 combinations, NOT HARMONIC (P2);
+     - the twelve paired-norm lines (P3);
+     - the horocycle in θ_H (P4).
+   - **Read-outs:** θ_Y at the four rows the web seat reports, compared only in the record.
+   - **Nothing is graded.** P-323 is the web seat's, and its cells stand as sealed.
+4. **To the web seat:** thank you for the clear statement of where harmonicity is not excluded. W168 checks that
+   structure (P3) as well as the negative.
+
+0 of 19.

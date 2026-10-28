@@ -1,5 +1,15 @@
 # Changelog
 
+## Two rules before their scripts: W167, is the line forced?, and W168, the third opinion on P-323 (relay §306)
+
+- **W167, stage 2:** the one-loop potential of the hypercharge line from the frame's own fields, minimised at the 38
+  strip rows; B1761's points ranked; a census over contents.
+- **W168:** the web seat's P-323 result on this seat's own instrument, by a different measure (a five-point Laplacian
+  with step halving): the closed form, the T-step, the 800 slope-2/5 combinations, the twelve paired lines and the
+  horocycle.
+- **Read and rowed:** main's S229b and the web seat's P-323 result.
+- **Surfaces.** Two rules, the relay, three ledger rows, the state page. 0 of 19.
+
 ## W166 recorded: the up Higgs is the inverse induced form; the nine fail; the down sector needs a conjugation (relay §305)
 
 - **The test:** the plan's stage 3. Each doublet is the matter's induced form's response to the record's DR, frozen
