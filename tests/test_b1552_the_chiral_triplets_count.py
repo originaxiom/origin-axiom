@@ -5322,3 +5322,35 @@ def test_w168_the_strong_angle_third_opinion():
         assert abs(np.linalg.det(W93.coupling_np(St, M)) / ((hb @ hb) * core * (u[1:] @ hb)) - 1) < 1e-12
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W168. The third opinion on chat1's P-323" in note
+
+def test_w169_the_state_at_the_counted_line():
+    """W169: S0 and S3 as predicted, S2 and S1 failed; in process, on W59's kernel with the frame's own content at the
+    first row's height: V on (2/5, 1/10) at X = 1 lies below V at the row's own X, and the mirror V(X) = V(2 - X)"""
+    import contextlib
+    import io
+    import sys
+
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_state_at_the_counted_line.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"S0": True, "S1": False, "S2": False, "S3": True} and "run_failed" not in d
+    rows = d["per row"]
+    assert len(rows) == 38 and all(abs(r["X*"] - 1.0) < 1e-4 for r in rows)
+    assert min(r["|X* - X_row|"] for r in rows) > 0.3
+    sys.path.insert(0, str(here))
+    with contextlib.redirect_stdout(io.StringIO()):
+        import the_one_loop_potential_on_the_fibre as W59
+    fields = ((1, 18, -1), (-4, 9, -1), (2, 9, -1), (-3, 6, -1), (6, 3, -1), (-3, 2, 1), (3, 2, 1))
+    psi = np.array([-0.4, 0.1])
+    r0 = rows[0]
+    y = r0["row"][3]
+
+    def V(X):
+        J = W59.Joint(complex(X, y), 1, 48)
+        return sum(n * s * float(-np.sum(J.cw * np.cos(2 * np.pi * (J.m * q * psi[0] + J.n * q * psi[1]))))
+                   for q, n, s in fields)
+
+    assert V(1.0) < V(r0["X_row"])
+    assert abs(V(0.3) / V(1.7) - 1) < 1e-6
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W169. The plan's stage 4, the state at the counted line" in note

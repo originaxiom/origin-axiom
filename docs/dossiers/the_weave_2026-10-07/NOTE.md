@@ -7726,6 +7726,60 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W169. The plan's stage 4, the state at the counted line: the frame's own one-loop potential holds Re τ, far more firmly than W154 found at the trivial line, but on the imaginary axis. Its minimum over the line's whole T-orbit is X = 1, the mirror's fixed point, at every one of the 38 rows' heights, 0.35–0.76 from every row. So Re τ is a second counted number. The potential also rises with height at this line, pushing τ below the band. S0 and S3 as predicted; S2 failed, as its 15% prior expected; S1 failed as worded (`the_state_at_the_counted_line.py`; `W169_RULE.md`)
+
+**Why.** The plan's stage 4 asks where the effective action holds τ. W154 answered at the trivial line: on the axis,
+with Re τ nearly free. W167 made the line a counted choice. At a nontrivial line the charged fields' Re τ dependence is
+much stronger, so the line might hold Re τ where the six pass, which would make Re τ derived given the line.
+
+**The order.**
+- The rule (`W169_RULE.md`, 52dd0c29b) was committed and pushed before the script existed. Two slips in the draft (the
+  orbit's direction and the mirror) were corrected by hand before it was committed, and are disclosed there.
+- The script (6e2dc7d0d) was committed before its one run, checked only for syntax and names.
+- The run took 98 s. Its output (a61a61eee) was committed unread, after a check of the exit, failures, NaN, paths and
+  warnings, then read once.
+
+**The result (COMPUTED; one run; S0 and S3 as predicted; S2 and S1 failed).**
+- **S0, the controls.** On the orbit coordinate X of (2/5, 1/10), at three rows' heights and ten random X each, all to
+  the box's truncation:
+  - the T-step V(X + 1; (2/5, 1/10)) = V(X; (2/5, 1/2)), to 7.5 × 10⁻⁸;
+  - the period V(X + 5) = V(X), to 2.4 × 10⁻⁷;
+  - the mirror V(X) = V(2 − X), to 1.3 × 10⁻⁸.
+- **S2 failed: the minimum is on the axis.**
+  - At every one of the 38 rows' heights, the global minimum over X ∈ [0, 5) is X* = 1.0000. That is the mirror's fixed
+    point, the line (2/5, ½) at Re τ = 0.
+  - Its distance from the rows is 0.35–0.76 (rows at X = 0.27–0.39 and 1.61–1.73).
+  - With the bosons' weight ×2 and ×5 the minimum stays at X = 1.
+  - The rows sit only 0.017–0.091 above the minimum, on a scale where V* is about 1 160–1 190.
+- **S3 held: Re τ is held.** The curvature in X at the minimum is 3.4–4.1 × 10⁻⁴ of the curvature in y. W154's band
+  content at the trivial line had about 10⁻⁶ at these heights (interpolated from its 4.3 × 10⁻⁴ at y = 2.1 and
+  4.9 × 10⁻⁷ at 3.2), a different content, so the comparison is only indicative.
+- **S1 failed as worded: V rises with height.**
+  - At X = 1 and at X = 3.5, V grows from about 334 at y = 2 to 21 370 at y = 8.
+  - So at the counted line the frame's own fermion-dominated content pushes τ down, below the band, not to the cusp.
+  - (At the trivial line W154 found the matter alone running to the cusp.) The y-minimum below 2 was not computed.
+
+**What it shows (a READING on the computed facts).**
+- **Stage 4's map, at the counted line: the line holds Re τ, but on the axis.**
+  - The frame's own potential picks the mirror-symmetric point, as the rule's pre-mortem expected.
+  - The six pass 0.35–0.76 away from it. So Re τ at the strip is chosen by the six, not by the potential: a second
+    counted number.
+- **The height is not held in the band by the frame's own content.** At this line it is pushed down, so holding y ≈ 3
+  needs added content (W154's t, now with the opposite sign of need). The height stays counted, GENESIS FK11's.
+- **The tally of the flavour block's free choices** (the plan's count; a READING):
+  - the line (W167);
+  - the down sector's conjugation (W166);
+  - Re τ (W169);
+  - the height (W154, W169).
+  - With the readings and c, these feed the plan's stage 5.
+
+**Weave or thread.** The potential is weave-type. The line is a counted choice, and the heights are the rows'. A frame
+result at a counted line.
+
+**For the look ledger:** no look at any target. The rows were used as positions only.
+
+0 of 19.
+
 ## W168. The third opinion on chat1's P-323 (the strong angle in the mass frame): its structure and its slope-2/5 finding reproduce on this seat's instrument by a different measure. The closed form holds with constant 1, the T-step and relabelling shifts are exact, all 800 slope-2/5 combinations are NOT HARMONIC, θ_M is HARMONIC on all twelve paired lines, and the horocycle moves θ_H. Chat1's four read-out rows reproduce to every printed digit (post hoc for one row). Every cell as predicted (`the_strong_angle_third_opinion.py`; `W168_RULE.md`; post hoc `the_strong_angle_third_opinion_posthoc.py`)
 
 **Why.** The owner's "agreed continue do them all" includes the third opinion on chat1's P-323 when it reports. It
@@ -14168,6 +14222,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W169 | COMPUTED (the rule first; one run; S0 and S3 as predicted; S2 failed as its 15% prior expected; S1 failed as worded); a frame result at a counted line, the plan's stage 4 | on the line (2/5, 1/10)'s T-orbit, the frame's own one-loop potential holds Re τ (curvature ratio 3–4 × 10⁻⁴, against about 10⁻⁶ at W154's trivial line) at X = 1, the mirror's fixed point (the line (2/5, ½) at Re τ = 0), at every row's height, 0.35–0.76 from every row; the bosons ×2, ×5 do not move it; V rises with height at this line; **Re τ is a second counted number** |
 | W168 | COMPUTED (the rule first; one run; every cell as predicted; a labelled post hoc); a third opinion, thread-and-frame | chat1's P-323 on own instrument by a five-point Laplacian with step halving: the closed form with constant 1 (both readings); the T-step 19π/50 and b + 1 −2π/5 exact; all 800 slope-2/5 combinations NOT HARMONIC (median ratio 1.001); θ_M HARMONIC on the twelve paired lines; the horocycle moves θ_H; chat1's four read-out rows reproduce to every digit (post hoc for B1749's); θ̄ stays an input; agrees with chat1's grading |
 | W167 | COMPUTED (the rule first; one run; L0, L1 and L2 as predicted; L3 failed as worded); a frame result, the plan's stage 2 | the hypercharge line's one-loop potential from the frame's own fields (W59's kernel): its minimum is the trivial line w = 0 at all 38 strip rows; B1761's points rank 106th of 266; the 2/5 class lies about 3 400 above the minimum; the boson weight ×10 sends a to about 1/6, never to 2/5; a content selecting (2/5, 1/10) exists (t* 1.24–1.50) but needs net bosons in the charges of Q, u and e; **the line is one choice, counted** |
 | W166 | COMPUTED (the rule first; parts V and S each run once; K0, K1 and K4 as predicted; K2 and K3 failed); a thread-and-frame result, the plan's stage 3 | H = K⁻¹·DR from the matter's induced form, frozen blind: B1762's boost is K_up⁻¹ to 0.3%; the nine fail at all 38 rows (least 1953; the record's own DR pair 1358; no table entry below 21.67); the down and lepton couplings lie 88°–90° from the fits'; post hoc, the fits' down Higgs is the same response conjugated (1.2°–1.4° from B1762's hd₁): a per-sector h̄ (I-35), unearned |

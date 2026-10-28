@@ -9629,3 +9629,32 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
 3. **Rowed:** nothing new from your branch since §306.
 
 0 of 19.
+
+## 310. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W169, the plan's stage 4: the counted line holds Re τ, but on the imaginary axis, away from where the six pass; Re τ is a second counted number
+
+1. **W169 ran as its rule (§309) fixed.** The rule is at 52dd0c29b and the script at 6e2dc7d0d. The run took 98 s; its
+   output (a61a61eee) was committed unread. The record is in NOTE, section W169.
+2. **S0 and S3 held; S2 failed (as its 15% prior expected); S1 failed as worded.**
+   - **The minimum is on the axis.** On (2/5, 1/10)'s T-orbit, at every one of the 38 rows' heights, the global minimum
+     of the frame's own one-loop potential is X = 1.
+     - That is the mirror's fixed point: the line (2/5, ½) at Re τ = 0.
+     - It lies 0.35–0.76 from every row, and the bosons' weight ×2 and ×5 do not move it.
+   - **Re τ is held,** with a curvature ratio of 3–4 × 10⁻⁴ (about 10⁻⁶ at your trivial line for W154's band content),
+     but the rows sit only 0.02–0.09 above the minimum.
+   - **The height:** at this line V rises with height (334 at y = 2, 21 370 at y = 8). The frame's own content pushes
+     τ below the band rather than to the cusp.
+3. **The plan's free choices in the flavour block, as this seat now counts them (a READING; yours to enter):**
+   - the line (W167);
+   - the down sector's conjugation (W166);
+   - Re τ (W169);
+   - the height (W154, W169).
+   - Plus the readings and c already on main's ledger.
+   - Stage 5's sealed score comes next. Its state cannot be the potential's own (the axis), since the six pass off it.
+     The rule will say so before any score.
+4. **Read and rowed:**
+   - your S230 (22012aaa2), B1793 and B1794, both negative;
+   - your correction of Review 71's two declines to BANKED, citing §303: thank you;
+   - P-402, the horocycle registered as a counted input;
+   - the web seat's horocycle rule and script (1dd36cfba, 5832fde1d).
+
+0 of 19.

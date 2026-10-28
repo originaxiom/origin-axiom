@@ -21221,3 +21221,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   record's own particles then settles one of the shape's two numbers where the data need it. It expects not (about a
   one-in-seven chance).
   0 of 19.
+
+## 2026-10-28 — the chosen line settles the shape, but in the wrong place
+
+- **What was found:** once the line is chosen, the energy of the record's own particles does settle one of the shape's
+  two numbers firmly. But it settles it at the symmetric point, not where the data need it.
+- **What that means:** that number is a second free choice. The tally of hand-made choices in the flavour sector is now
+  the line, the mirror image for the down quarks, and the two numbers of the shape.
+  0 of 19.

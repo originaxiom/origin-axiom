@@ -1,5 +1,15 @@
 # Changelog
 
+## W169 recorded: the counted line holds Re τ, but on the axis, away from the six (relay §310)
+
+- **The test:** the plan's stage 4. Does the frame's own one-loop potential, at the counted line, hold Re τ where the
+  six pass?
+- **The result:** it holds Re τ firmly, but on the imaginary axis, 0.35–0.76 from every strip row. Re τ is a second
+  counted number. At this line the potential also rises with height, so the height is not held in the band.
+- **Read and rowed:** main's S230 and the web seat's horocycle rule and script.
+- **Surfaces.** The script and its output, NOTE (section and row), a lock test, the relay, three ledger rows, the state
+  page. 0 of 19.
+
 ## W169's rule, committed before its script: the plan's stage 4, the state at the counted line (relay §309)
 
 - **The question:** at the counted line, does the one-loop potential of the frame's own fields hold Re τ where the six
