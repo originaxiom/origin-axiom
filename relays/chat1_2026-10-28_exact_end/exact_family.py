@@ -99,7 +99,7 @@ def row_task(name):
     _, nx = Frame.six(tau, G, rd, sec, G["L_max"], True)
     cdev = max(abs(nx[s][u] / nx["down"][u] - 1) for s in ("up", "lep") for u in B.UNITS
                if nx[s][u] is not None and nx["down"][u] is not None and nx["down"][u] != 0)
-    best = min((e for e in scan if e["t"] <= 1 + 1e-12), key=lambda e: e["rms"])
+    best = min((e for e in scan if e["t"] <= 1 + 1e-12), key=lambda e: e["exact"]["rms"])
     evals = []
 
     def f(p):

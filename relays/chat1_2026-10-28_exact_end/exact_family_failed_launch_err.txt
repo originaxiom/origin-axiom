@@ -1,0 +1,30 @@
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "<repo>/relays/chat1_2026-10-28_exact_end/exact_family.py", line 102, in row_task
+    best = min((e for e in scan if e["t"] <= 1 + 1e-12), key=lambda e: e["rms"])
+  File "<repo>/relays/chat1_2026-10-28_exact_end/exact_family.py", line 102, in <lambda>
+    best = min((e for e in scan if e["t"] <= 1 + 1e-12), key=lambda e: e["rms"])
+                                                                       ~^^^^^^^
+KeyError: 'rms'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<repo>/relays/chat1_2026-10-28_exact_end/exact_family.py", line 146, in <module>
+    main()
+    ~~~~^^
+  File "<repo>/relays/chat1_2026-10-28_exact_end/exact_family.py", line 127, in main
+    out = P.map(row_task, sorted(ROWS), chunksize=1)
+  File "/usr/lib/python3.13/multiprocessing/pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/multiprocessing/pool.py", line 774, in get
+    raise self._value
+KeyError: 'rms'
