@@ -1,0 +1,45 @@
+C0 control at (0.25+3j): max relative deviation from B1667's json 8.39e-12 -> HOLDS
+R1 done (94 s): L exact (0.6469, 2.3373) against the column's (0.6469, 2.3375)
+R2 done (117 s): L exact (0.6470, 2.3382) against the column's (0.6470, 2.3383)
+R3 done (149 s): L exact (0.6469, 2.3375) against the column's (0.6470, 2.3376)
+R4 done (174 s): L exact (0.6470, 2.3378) against the column's (0.6470, 2.3379)
+C1 at L_2: max |exact / small-cut - 1| = 0.0060 -> HOLDS
+C2 R1 up   rel gap at L_max per channel: {'1': -0.354, 'i': -0.3782, 'j': -0.3823, 'k': -0.3801}
+   reading S  ratios (m2/m3, m1/m3): compute-like ['0.009787', '0.005123'] -> exact ['0.009195', '0.005122'] ; d ln ['-0.062', '-0.000']
+   reading St ratios (m2/m3, m1/m3): compute-like ['0.003752', '8.531e-06'] -> exact ['0.00357', '7.212e-06'] ; d ln ['-0.050', '-0.168']
+C2 R1 down rel gap at L_max per channel: {'1': -0.354, 'i': -0.3782, 'j': -0.3823, 'k': -0.3801}
+   reading S  ratios (m2/m3, m1/m3): compute-like ['0.01923', '0.000782'] -> exact ['0.01221', '0.0007626'] ; d ln ['-0.454', '-0.025']
+   reading St ratios (m2/m3, m1/m3): compute-like ['0.01808', '9.452e-05'] -> exact ['0.0115', '9.298e-05'] ; d ln ['-0.452', '-0.016']
+C2 R1 lep  rel gap at L_max per channel: {'1': -0.354, 'i': -0.3782, 'j': -0.3823, 'k': -0.3801}
+   reading S  ratios (m2/m3, m1/m3): compute-like ['0.01921', '0.0008308'] -> exact ['0.01246', '0.0008111'] ; d ln ['-0.433', '-0.024']
+   reading St ratios (m2/m3, m1/m3): compute-like ['0.01789', '0.0001976'] -> exact ['0.01168', '0.0001927'] ; d ln ['-0.426', '-0.025']
+C2 R2 up   rel gap at L_max per channel: {'1': -0.3544, 'i': -0.3778, 'j': -0.3819, 'k': -0.3803}
+   reading S  ratios (m2/m3, m1/m3): compute-like ['0.00936', '0.005351'] -> exact ['0.009157', '0.00535'] ; d ln ['-0.022', '-0.000']
+   reading St ratios (m2/m3, m1/m3): compute-like ['0.003642', '8.717e-06'] -> exact ['0.003541', '7.863e-06'] ; d ln ['-0.028', '-0.103']
+C2 R2 down rel gap at L_max per channel: {'1': -0.3544, 'i': -0.3778, 'j': -0.3819, 'k': -0.3803}
+   reading S  ratios (m2/m3, m1/m3): compute-like ['0.0189', '0.0008165'] -> exact ['0.01241', '0.0007962'] ; d ln ['-0.421', '-0.025']
+   reading St ratios (m2/m3, m1/m3): compute-like ['0.01778', '0.0001098'] -> exact ['0.01169', '0.0001078'] ; d ln ['-0.419', '-0.019']
+C2 R2 lep  rel gap at L_max per channel: {'1': -0.3544, 'i': -0.3778, 'j': -0.3819, 'k': -0.3803}
+   reading S  ratios (m2/m3, m1/m3): compute-like ['0.01898', '0.000874'] -> exact ['0.01272', '0.0008533'] ; d ln ['-0.400', '-0.024']
+   reading St ratios (m2/m3, m1/m3): compute-like ['0.01767', '0.0002161'] -> exact ['0.01192', '0.0002107'] ; d ln ['-0.394', '-0.026']
+C2 R3 up   rel gap at L_max per channel: {'1': -0.353, 'i': None, 'j': -0.3827, 'k': -0.3796}
+   reading S  ratios (m2/m3, m1/m3): compute-like ['0.01005', '0.005115'] -> exact ['0.00921', '0.005112'] ; d ln ['-0.087', '-0.001']
+   reading St ratios (m2/m3, m1/m3): compute-like ['0.003862', '5.614e-06'] -> exact ['0.003657', '4.041e-06'] ; d ln ['-0.054', '-0.329']
+C2 R3 down rel gap at L_max per channel: {'1': -0.353, 'i': -0.3791, 'j': -0.3827, 'k': -0.3796}
+   reading S  ratios (m2/m3, m1/m3): compute-like ['0.02027', '0.001002'] -> exact ['0.01257', '0.0009784'] ; d ln ['-0.478', '-0.024']
+   reading St ratios (m2/m3, m1/m3): compute-like ['0.01838', '0.0001557'] -> exact ['0.01152', '0.0001519'] ; d ln ['-0.467', '-0.025']
+C2 R3 lep  rel gap at L_max per channel: {'1': -0.353, 'i': -0.3791, 'j': -0.3827, 'k': -0.3796}
+   reading S  ratios (m2/m3, m1/m3): compute-like ['0.02004', '0.0008324'] -> exact ['0.01244', '0.0008119'] ; d ln ['-0.477', '-0.025']
+   reading St ratios (m2/m3, m1/m3): compute-like ['0.01869', '0.0001909'] -> exact ['0.01168', '0.000186'] ; d ln ['-0.470', '-0.026']
+C2 R4 up   rel gap at L_max per channel: {'1': -0.3481, 'i': -0.3834, 'j': -0.3784, 'k': -0.3839}
+   reading S  ratios (m2/m3, m1/m3): compute-like ['0.01466', '0.005137'] -> exact ['0.01138', '0.005135'] ; d ln ['-0.253', '-0.000']
+   reading St ratios (m2/m3, m1/m3): compute-like ['0.00461', '1.378e-05'] -> exact ['0.003954', '1.211e-05'] ; d ln ['-0.154', '-0.129']
+C2 R4 down rel gap at L_max per channel: {'1': -0.3481, 'i': -0.3834, 'j': -0.3784, 'k': -0.3839}
+   reading S  ratios (m2/m3, m1/m3): compute-like ['0.02467', '0.0009595'] -> exact ['0.01195', '0.0009309'] ; d ln ['-0.724', '-0.030']
+   reading St ratios (m2/m3, m1/m3): compute-like ['0.02241', '0.0002343'] -> exact ['0.01082', '0.0002269'] ; d ln ['-0.728', '-0.032']
+C2 R4 lep  rel gap at L_max per channel: {'1': -0.3481, 'i': -0.3834, 'j': -0.3784, 'k': -0.3839}
+   reading S  ratios (m2/m3, m1/m3): compute-like ['0.02457', '0.0008167'] -> exact ['0.01223', '0.000794'] ; d ln ['-0.697', '-0.028']
+   reading St ratios (m2/m3, m1/m3): compute-like ['0.02303', '0.0001238'] -> exact ['0.01156', '0.0001207'] ; d ln ['-0.689', '-0.026']
+C2 the largest |d ln ratio| at L_max, any sector, reading and row: 0.728 -> the chi2 look is WARRANTED
+exact_end exit 0 (174 s)
+exit 0
