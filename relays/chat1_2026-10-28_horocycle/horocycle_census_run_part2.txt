@@ -1,0 +1,5 @@
+census: G (40 lines x 130 points); 0 lines to do
+census: 3 base-point searches to do
+control (b): 10 done this part (141 s)
+control (b): 20 done this part (227 s)
+census complete: horocycle_census.npz and horocycle_census.json written
