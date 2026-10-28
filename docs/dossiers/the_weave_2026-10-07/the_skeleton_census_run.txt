@@ -1,0 +1,7 @@
+point 1/2128 at 7 s
+point 401/2128 at 231 s
+point 801/2128 at 466 s
+point 1201/2128 at 687 s
+point 1601/2128 at 931 s
+point 2001/2128 at 1175 s
+done
