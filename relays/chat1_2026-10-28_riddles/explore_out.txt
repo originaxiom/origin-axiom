@@ -1,0 +1,56 @@
+tasks: A 60 B 49
+A reading (up|down) S|S    identity 60 of 60; best perms {'[0, 1, 2]': 60}; median Vus 0.118 Vcb 0.069 Vub 0.001; median Vub/Vus 0.00392
+A reading (up|down) St|S   identity  0 of 60; best perms {'[1, 2, 0]': 60}; median Vus 0.990 Vcb 0.995 Vub 0.060; median Vub/Vus 0.0605
+A reading (up|down) S|St   identity  0 of 60; best perms {'[2, 0, 1]': 60}; median Vus 0.035 Vcb 0.008 Vub 0.999; median Vub/Vus 28.9
+A reading (up|down) St|St  identity 60 of 60; best perms {'[0, 1, 2]': 60}; median Vus 0.035 Vcb 0.038 Vub 0.001; median Vub/Vus 0.0377
+A heaviest left-handed state's block, counts over rows: {'up|S': {1: 60}, 'up|St': {2: 29, 0: 31}, 'down|S': {1: 60}, 'down|St': {2: 30, 0: 30}, 'lep|S': {0: 30, 2: 30}, 'lep|St': {1: 60}}
+B LR tau=1.5000+1.1180i mirror [['1/5', '1/5'], ['2/5', '2/5']] J(Lmax,St|S): v 3.515e-14 2v 4.302e-14 ctl -3.487e-14 | max|J| all keys: v 3.52e-14 2v 1.92e-13 ctl 3.90e-13
+B LLLRR tau=2.5000+1.9365i mirror [['1/5', '0'], ['2/5', '0']] J(Lmax,St|S): v -4.420e-14 2v -3.370e-13 ctl -4.308e-14 | max|J| all keys: v 7.61e-13 2v 3.37e-13 ctl 2.80e-13
+B LLRRR tau=2.5000+1.9365i mirror [['1/5', '0'], ['2/5', '0']] J(Lmax,St|S): v -4.420e-14 2v -3.370e-13 ctl -4.308e-14 | max|J| all keys: v 7.61e-13 2v 3.37e-13 ctl 2.80e-13
+B LLLLLR tau=3.5000+3.3541i mirror [['1/5', '4/5'], ['2/5', '3/5']] J(Lmax,St|S): v -1.301e-17 2v -1.514e-15 ctl -2.387e-18 | max|J| all keys: v 1.47e-14 2v 1.61e-15 ctl 1.06e-16
+B LLLRLR tau=2.5000+2.1409i mirror [['1/5', '0'], ['2/5', '0']] J(Lmax,St|S): v -1.548e-16 2v -3.114e-14 ctl 3.705e-15 | max|J| all keys: v 5.72e-15 2v 3.11e-14 ctl 9.32e-14
+B LRLRRR tau=2.5000+2.1409i mirror [['1/5', '0'], ['2/5', '0']] J(Lmax,St|S): v -1.548e-16 2v -3.114e-14 ctl 3.705e-15 | max|J| all keys: v 5.72e-15 2v 3.11e-14 ctl 9.32e-14
+B LRRRRR tau=-3.5000+3.3541i mirror [['1/5', '1/5'], ['2/5', '2/5']] J(Lmax,St|S): v 1.475e-17 2v 1.487e-15 ctl 3.539e-18 | max|J| all keys: v 1.47e-14 2v 1.58e-15 ctl 1.32e-16
+B LLLLLLR tau=4.0000+3.8730i mirror [['1/5', '1/5'], ['2/5', '2/5']] J(Lmax,St|S): v 1.952e-18 2v 1.563e-18 ctl -2.683e-22 | max|J| all keys: v 3.04e-17 2v 1.56e-18 ctl 1.21e-20
+B LLLLLRR tau=3.5000+2.9580i mirror [['1/5', '4/5'], ['2/5', '3/5']] J(Lmax,St|S): v 4.857e-17 2v 2.471e-14 ctl -8.358e-16 | max|J| all keys: v 2.81e-14 2v 2.47e-14 ctl 5.24e-13
+B LLLRLLR tau=2.5000+2.2361i mirror [['1/5', '0'], ['2/5', '0']] J(Lmax,St|S): v 6.252e-16 2v 9.099e-16 ctl 1.582e-15 | max|J| all keys: v 2.85e-14 2v 9.10e-16 ctl 3.01e-14
+B LLRLLRR tau=2.1429+1.5649i off [['1/5', '0'], ['2/5', '0']] J(Lmax,St|S): v 1.710e-02 2v -2.477e-02 ctl 7.455e-04 | max|J| all keys: v 1.71e-02 2v 2.48e-02 ctl 2.38e-03
+B LLRRLRR tau=2.1429+1.5649i off [['1/5', '0'], ['2/5', '0']] J(Lmax,St|S): v 1.710e-02 2v -2.477e-02 ctl 7.455e-04 | max|J| all keys: v 1.71e-02 2v 2.48e-02 ctl 2.38e-03
+B LLRRRRR tau=3.5000+2.9580i mirror [['1/5', '4/5'], ['2/5', '3/5']] J(Lmax,St|S): v 4.857e-17 2v 2.471e-14 ctl -8.358e-16 | max|J| all keys: v 2.81e-14 2v 2.47e-14 ctl 5.24e-13
+B LRRLRRR tau=2.5000+2.2361i mirror [['1/5', '0'], ['2/5', '0']] J(Lmax,St|S): v 6.252e-16 2v 9.099e-16 ctl 1.582e-15 | max|J| all keys: v 2.85e-14 2v 9.10e-16 ctl 3.01e-14
+B LRRRRRR tau=-4.0000+3.8730i mirror [['1/5', '4/5'], ['2/5', '3/5']] J(Lmax,St|S): v 1.756e-17 2v 2.494e-18 ctl -1.426e-21 | max|J| all keys: v 6.16e-17 2v 7.18e-18 ctl 1.04e-20
+B LLLLLRRR tau=3.5000+2.8137i mirror [['1/5', '4/5'], ['2/5', '3/5']] J(Lmax,St|S): v 7.945e-16 2v 1.016e-13 ctl -3.308e-15 | max|J| all keys: v 2.63e-13 2v 1.02e-13 ctl 2.66e-13
+B LLLLRLLR tau=3.0000+2.7386i mirror [['1/5', '2/5'], ['2/5', '4/5']] J(Lmax,St|S): v 1.735e-17 2v 6.288e-18 ctl 1.571e-18 | max|J| all keys: v 1.80e-16 2v 7.86e-18 ctl 2.55e-18
+B LLLLRRRR tau=3.0000+2.2361i mirror [['1/5', '2/5'], ['2/5', '4/5']] J(Lmax,St|S): v -3.469e-18 2v 4.337e-18 ctl 8.464e-18 | max|J| all keys: v 3.54e-16 2v 7.16e-18 ctl 9.88e-18
+B LLLRLRRR tau=2.6429+1.9233i off [['1/5', '2/5'], ['2/5', '4/5']] J(Lmax,St|S): v -2.163e-02 2v 8.082e-03 ctl -7.080e-05 | max|J| all keys: v 2.83e-02 2v 8.08e-03 ctl 2.94e-04
+B LLLRRRLR tau=2.3571+1.9233i off [['1/5', '3/5'], ['2/5', '1/5']] J(Lmax,St|S): v 2.163e-02 2v -8.082e-03 ctl 7.080e-05 | max|J| all keys: v 2.83e-02 2v 8.08e-03 ctl 2.94e-04
+B LLLRRRRR tau=3.5000+2.8137i mirror [['1/5', '4/5'], ['2/5', '3/5']] J(Lmax,St|S): v 7.945e-16 2v 1.016e-13 ctl -3.308e-15 | max|J| all keys: v 2.63e-13 2v 1.02e-13 ctl 2.66e-13
+B LLRLLRLR tau=2.0455+1.6794i off [['1/5', '0'], ['2/5', '0']] J(Lmax,St|S): v 1.603e-02 2v -2.694e-02 ctl 1.729e-04 | max|J| all keys: v 2.25e-02 2v 2.69e-02 ctl 3.86e-04
+B LLRLRRLR tau=2.0000+1.5811i mirror [['1/5', '3/5'], ['2/5', '1/5']] J(Lmax,St|S): v -1.266e-16 2v 1.182e-17 ctl -2.073e-17 | max|J| all keys: v 1.27e-16 2v 1.18e-17 ctl 3.28e-17
+B LRLRRLRR tau=2.0455+1.6794i off [['1/5', '0'], ['2/5', '0']] J(Lmax,St|S): v 1.603e-02 2v -2.694e-02 ctl 1.729e-04 | max|J| all keys: v 2.25e-02 2v 2.69e-02 ctl 3.86e-04
+B LRRLRRRR tau=3.0000+2.7386i mirror [['1/5', '2/5'], ['2/5', '4/5']] J(Lmax,St|S): v 1.735e-17 2v 6.288e-18 ctl 1.571e-18 | max|J| all keys: v 1.80e-16 2v 7.86e-18 ctl 2.55e-18
+B LLLLLLRLR tau=4.0000+3.6515i mirror [['1/5', '1/5'], ['2/5', '2/5']] J(Lmax,St|S): v 2.602e-18 2v 1.348e-18 ctl -3.502e-21 | max|J| all keys: v 8.33e-17 2v 9.92e-18 ctl 7.95e-20
+B LLLLLRRRR tau=3.5000+2.7386i mirror [['1/5', '4/5'], ['2/5', '3/5']] J(Lmax,St|S): v 1.942e-15 2v 1.837e-13 ctl -6.077e-15 | max|J| all keys: v 5.28e-13 2v 1.84e-13 ctl 3.09e-13
+B LLLLRLLLR tau=3.0000+2.7928i mirror [['0', '1/5'], ['0', '2/5']] J(Lmax,St|S): v -6.946e-19 2v 4.163e-18 ctl -6.946e-19 | max|J| all keys: v 2.32e-18 2v 4.16e-18 ctl 2.32e-18
+B LLLLRLRLR tau=3.0000+2.6220i mirror [['1/5', '2/5'], ['2/5', '4/5']] J(Lmax,St|S): v 1.735e-17 2v -7.264e-18 ctl 3.069e-18 | max|J| all keys: v 4.94e-17 2v 7.26e-18 ctl 3.25e-18
+B LLLLRRLRR tau=3.0000+2.3717i mirror [['1/5', '2/5'], ['2/5', '4/5']] J(Lmax,St|S): v 3.816e-17 2v 1.756e-17 ctl 3.521e-18 | max|J| all keys: v 3.26e-16 2v 1.76e-17 ctl 6.29e-18
+B LLLLRRRRR tau=3.5000+2.7386i mirror [['1/5', '4/5'], ['2/5', '3/5']] J(Lmax,St|S): v 1.942e-15 2v 1.837e-13 ctl -6.077e-15 | max|J| all keys: v 5.28e-13 2v 1.84e-13 ctl 3.09e-13
+B LLLRLLLRR tau=2.6667+2.1082i off [['1/5', '4/5'], ['2/5', '3/5']] J(Lmax,St|S): v 2.312e-03 2v -2.839e-02 ctl 8.142e-06 | max|J| all keys: v 1.65e-02 2v 2.84e-02 ctl 2.85e-04
+B LLLRLLRLR tau=2.5455+2.1799i off [['1/5', '2/5'], ['2/5', '4/5']] J(Lmax,St|S): v -4.008e-03 2v 6.752e-03 ctl 4.425e-06 | max|J| all keys: v 2.71e-02 2v 6.75e-03 ctl 8.97e-05
+B LLLRLRLLR tau=2.4545+2.1799i off [['1/5', '3/5'], ['2/5', '1/5']] J(Lmax,St|S): v 4.008e-03 2v -6.752e-03 ctl -4.425e-06 | max|J| all keys: v 2.71e-02 2v 6.75e-03 ctl 8.97e-05
+B LLLRLRLRR tau=2.6154+1.9985i off [['1/5', '2/5'], ['2/5', '4/5']] J(Lmax,St|S): v -1.215e-02 2v 7.999e-03 ctl -1.975e-05 | max|J| all keys: v 2.98e-02 2v 8.00e-03 ctl 2.71e-04
+B LLLRRLRLR tau=2.3846+1.9985i off [['1/5', '3/5'], ['2/5', '1/5']] J(Lmax,St|S): v 1.215e-02 2v -7.999e-03 ctl 1.975e-05 | max|J| all keys: v 2.98e-02 2v 8.00e-03 ctl 2.71e-04
+B LLRLLRRRR tau=3.0000+2.3717i mirror [['1/5', '2/5'], ['2/5', '4/5']] J(Lmax,St|S): v 3.816e-17 2v 1.756e-17 ctl 3.521e-18 | max|J| all keys: v 3.26e-16 2v 1.76e-17 ctl 6.29e-18
+B LLRLRLLRR tau=2.1053+1.5254i off [['1/5', '0'], ['2/5', '0']] J(Lmax,St|S): v 1.915e-02 2v -2.651e-02 ctl 6.849e-04 | max|J| all keys: v 1.92e-02 2v 2.65e-02 ctl 2.52e-03
+B LLRLRLRLR tau=2.0000+1.6183i mirror [['1/5', '3/5'], ['2/5', '1/5']] J(Lmax,St|S): v -9.194e-17 2v 1.301e-17 ctl -1.492e-17 | max|J| all keys: v 1.17e-16 2v 1.30e-17 ctl 2.62e-17
+B LLRLRLRRR tau=2.6154+1.9985i off [['1/5', '2/5'], ['2/5', '4/5']] J(Lmax,St|S): v -1.215e-02 2v 7.999e-03 ctl -1.975e-05 | max|J| all keys: v 2.98e-02 2v 8.00e-03 ctl 2.71e-04
+B LLRRLRLRR tau=2.1053+1.5254i off [['1/5', '0'], ['2/5', '0']] J(Lmax,St|S): v 1.915e-02 2v -2.651e-02 ctl 6.849e-04 | max|J| all keys: v 1.92e-02 2v 2.65e-02 ctl 2.52e-03
+B LLRRRLRLR tau=-2.6154+1.9985i off [['1/5', '3/5'], ['2/5', '1/5']] J(Lmax,St|S): v 1.215e-02 2v -7.999e-03 ctl 1.975e-05 | max|J| all keys: v 2.98e-02 2v 8.00e-03 ctl 2.71e-04
+B LLRRRLRRR tau=2.6667+2.1082i off [['1/5', '4/5'], ['2/5', '3/5']] J(Lmax,St|S): v 2.312e-03 2v -2.839e-02 ctl 8.142e-06 | max|J| all keys: v 1.65e-02 2v 2.84e-02 ctl 2.85e-04
+B LRLRLRLRR tau=2.0000+1.6183i mirror [['1/5', '3/5'], ['2/5', '1/5']] J(Lmax,St|S): v -9.194e-17 2v 1.301e-17 ctl -1.492e-17 | max|J| all keys: v 1.17e-16 2v 1.30e-17 ctl 2.62e-17
+B LRLRLRRRR tau=3.0000+2.6220i mirror [['1/5', '2/5'], ['2/5', '4/5']] J(Lmax,St|S): v 1.735e-17 2v -7.264e-18 ctl 3.069e-18 | max|J| all keys: v 4.94e-17 2v 7.26e-18 ctl 3.25e-18
+B LRLRRLRRR tau=2.5455+2.1799i off [['1/5', '2/5'], ['2/5', '4/5']] J(Lmax,St|S): v -4.008e-03 2v 6.752e-03 ctl 4.425e-06 | max|J| all keys: v 2.71e-02 2v 6.75e-03 ctl 8.97e-05
+B LRLRRRLRR tau=2.4545+2.1799i off [['1/5', '3/5'], ['2/5', '1/5']] J(Lmax,St|S): v 4.008e-03 2v -6.752e-03 ctl -4.425e-06 | max|J| all keys: v 2.71e-02 2v 6.75e-03 ctl 8.97e-05
+B LRLRRRRRR tau=4.0000+3.6515i mirror [['1/5', '1/5'], ['2/5', '2/5']] J(Lmax,St|S): v 2.602e-18 2v 1.348e-18 ctl -3.502e-21 | max|J| all keys: v 8.33e-17 2v 9.92e-18 ctl 7.95e-20
+B LRRRLRRRR tau=3.0000+2.7928i mirror [['0', '1/5'], ['0', '2/5']] J(Lmax,St|S): v -6.946e-19 2v 4.163e-18 ctl -6.946e-19 | max|J| all keys: v 2.32e-18 2v 4.16e-18 ctl 2.32e-18
+explore exit 0
