@@ -1,0 +1,12 @@
+P0 done
+s = 3, height 1/17 at 6 s
+s = 3, height 11/17 at 72 s
+s = 4, height 1/17 at 121 s
+s = 4, height 11/17 at 186 s
+{
+ "P0": true,
+ "P1": true,
+ "P2": true,
+ "P3": true
+}
+exit=0
