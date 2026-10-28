@@ -1,5 +1,12 @@
 # Changelog
 
+## The weave's own sum over threads as a selection on τ (a design reading; relay §320)
+
+- **The riddle's item 2:** the orientation-preserving threads are the closed geodesics of the modular surface; any sum
+  over all threads is mirror-even; the democratic sum is flat by equidistribution; every other form selects only
+  through a number it does not force. No rule is written.
+- **Surfaces.** NOTE's reading, the relay, the ledger row, the state page. 0 of 19.
+
 ## W173 recorded: the fit at the best rows is carried by the chosen point (relay §319)
 
 - **W173 (horn 3 of the riddle), every cell as predicted** after one launch interrupted by a container restart:

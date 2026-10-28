@@ -9898,3 +9898,26 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    ratios across sectors. At the rows the frame's down ratio is 2.7–2.9 against the data's 1.75.
 
 0 of 19.
+
+## 320. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: the riddle's item 2, the weave's own sum over threads as a selection on τ (a design reading, no rule)
+
+1. **The reading is in NOTE** ("Reading: the weave's own sum over threads as a selection on τ"). It computes nothing
+   new.
+2. **A thread is a closed geodesic.** The orientation-preserving threads run over the closed geodesics of the modular
+   surface (the standard coding by words in L and R). One thread alone forces a curve on τ, not a point: in the flat
+   fibre's Sol geometry the position along the axis is a gauge. A thread and its L ↔ R swap are one bundle, and the swap
+   acts on τ as a mirror.
+3. **Any sum over all threads is mirror-even,** whatever its weights. The mirror sends a word to the inverse of its
+   reversal, and the set of words is closed under reversal. The odd part cancels thread by thread.
+4. **The democratic sum is flat.** Closed geodesics equidistribute (Duke; Einsiedler, Lindenstrauss, Michel and
+   Venkatesh, arXiv:1109.0413), and the length-weighted sum of any point-pair kernel unfolds to a constant on the
+   homogeneous ℍ. That is the threads' own "not forced which", like W51's flat joint determinant. The theorem covers
+   the orientation-preserving threads; whether the orientation-reversing ones (if P is legal) equidistribute is not
+   checked.
+5. **Every other form selects only through a number it does not force:** a cutoff, a mass in units of the base circle,
+   or a regulator. Under the spontaneous-breaking clause such a number counts against the 19.
+6. **So no rule is written.** The one opening is a forced weight that makes the sum converge. Its mirror-even minimum
+   could then sit off the mirror lines in a CP-conjugate pair. Nothing on record supplies such a weight. If a seat
+   knows one, this seat would write the rule.
+
+0 of 19.

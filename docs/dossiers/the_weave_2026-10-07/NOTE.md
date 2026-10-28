@@ -7726,6 +7726,89 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## Reading: the weave's own sum over threads as a selection on τ — flat in the democratic limit, mirror-even at every truncation, and choosing a point only through a number it does not force (READING, 2026-10-28; THE RIDDLE's program item 2)
+
+**Why.** THE RIDDLE's program item 2 asks whether the weave's own sum over threads selects τ. It is the one forced
+structure on record that is not built from the cusp's Eisenstein series. The program asked for a design reading first,
+and a rule only if the functional is forced with no weight chosen by hand. This is that reading. It computes nothing
+new; each step is either an identity checked by hand or a theorem from the literature, named as such.
+
+**1. A thread is a closed geodesic of the modular surface (identity and literature).**
+- The record's threads are GENESIS's states: hyperbolic words in the moves with a sign, up to rotation, with the
+  orientation-reversing bundles when P is legal (the dossier's opening; m000 is LP, m003 is −LR, m004 is +LR).
+- On the fibre's modulus τ the sign acts trivially. An orientation-preserving thread acts through a hyperbolic class of
+  PSL(2, ℤ), and every such class is a word in L and R with both letters, unique up to rotation. This is the standard
+  coding of closed geodesics by cutting sequences or minus continued fractions (Series, 1985; Katok; from memory, not
+  re-read here). So the orientation-preserving threads run over the closed geodesics C_γ of X = PSL(2, ℤ)\ℍ, with
+  length ℓ_γ = 2 arccosh(∣tr γ∣/2). ±LR (trace 3) gives the shortest, ℓ = 2 ln φ² ≈ 1.925.
+- **A thread and its swap are one bundle.** The swap L ↔ R is conjugation by P, which acts on τ as τ ↦ 1/τ̄, a mirror
+  of X. So counted as bundles, a thread gives a mirror pair of geodesics.
+- **An orientation-reversing thread** (if P is legal) acts on τ as a glide reflection. Its square is an
+  orientation-preserving class with the same axis, so its geodesic is one of the C_γ.
+- **What one thread forces on τ.** The closed-torus bundle with the thread's monodromy carries the Sol geometry, and
+  in it the fibres' flat shapes run along γ's axis. Moving along the axis is the flow itself, so the position on it is
+  a choice of base point: a gauge. One thread therefore forces a curve, its closed geodesic C_γ ⊂ X, and not a point.
+  That is a thread result, and it holds for the flat fibre only, not for the cusped hyperbolic bundle.
+
+**2. The weave's sum is mirror-even, whatever its weights (identity, by hand).**
+- The mirror τ ↦ −τ̄ is conjugation by diag(1, −1). It sends L to L⁻¹ and R to R⁻¹, so it sends a word w(L, R) to
+  w(L⁻¹, R⁻¹) = (w^rev)⁻¹, the inverse of the reversed word.
+- The set of all words is closed under reversal, and reversal keeps the length and the trace. So the mirror permutes
+  the threads, sending C_γ to the geodesic of the reversed word, traversed backwards.
+- Take any sum over all threads, Σ_γ c(ℓ_γ) Q_γ(τ), where Q_γ is built from the hyperbolic metric and the unoriented
+  geodesic C_γ: an integral of a point-pair kernel along C_γ, or a displacement Σ_{g ∈ [γ]} F(d(τ, gτ)). The mirror is
+  an isometry normalising PSL(2, ℤ), so Q_γ(−τ̄) is Q of the mirrored thread at τ. The sum only relabels its terms.
+- **The odd part cancels thread by thread.** A mirror-odd function (an odd Maass form) has opposite periods on C_γ and
+  on its mirror image, the geodesic of the reversed word. The weave contains both, so their contributions cancel. An
+  amphichiral thread, whose reversal is conjugate to itself, has zero odd period on its own.
+
+**3. The democratic weave is flat (literature, with one unfolding by hand).**
+- **Equidistribution.** Closed geodesics of the modular surface equidistribute in its unit tangent bundle: by
+  discriminant (Duke, 1988), and so by length on average. An ergodic proof is Einsiedler, Lindenstrauss, Michel and
+  Venkatesh (arXiv:1109.0413). Both are seen by search on 2026-10-28 and not re-derived here.
+- **Unfolding (by hand).** Weight each thread by its length, as the occupation measure does, and take Q_γ to be the
+  integral along C_γ of the automorphic kernel K(τ, z) = Σ_{g ∈ Γ} k(d(τ, g z)) of any point-pair kernel k. In the
+  limit, the sum normalised by the total length tends to
+  (1/area) ∫_X K(τ, z) dA(z) = (1/area) ∫_ℍ k(d(τ, z)) dA(z).
+  The right side does not depend on τ, because ℍ is homogeneous.
+- **The scope of the theorem.** It covers the orientation-preserving threads. If P is legal, the orientation-reversing
+  threads add weight on a subset of the same geodesics, and the full democratic sum is flat only if that subset
+  equidistributes too. That is not checked here.
+- **So the weave of all threads, taken democratically, selects no τ** (for the orientation-preserving threads, and for
+  all threads under the condition just stated). It is the threads' own version of W51's flat
+  joint determinant, e₃ = 4 by Jacobi's identity: the joint action is blind to the state it acts on.
+
+**4. Every selection the sum can make is paid for by a number it does not force.**
+- **A truncation** at length T or word length n leaves a τ-dependence of the size of the equidistribution error. Its
+  shape depends on the cutoff, which is a choice.
+- **A convergent weight** such as e^{−sℓ_γ} (s > 1) gives a Γ-invariant, mirror-even function with an O(1) profile.
+  On a thread's mapping torus such a weight is a winding sector's Boltzmann factor: s is a mass in units of the base
+  circle. The Sol metric fixes the base length by γ itself, but the mass and the overall scale are free numbers.
+- **A massless field** gives power-law weights in ℓ_γ. Against the threads' exponential growth (about e^ℓ/ℓ) these
+  diverge, so the sum needs a regulator, and the regulator is the choice.
+- In each case the τ-dependence exists only through the added number. Under the spontaneous-breaking clause
+  (THE_WEAVE.md, adopted 2026-10-24), such a number is counted against the 19.
+
+**What it shows (a READING).**
+- **The weave's sum over threads does not break THE RIDDLE.** It is mirror-even by construction (point 2). In its only
+  weight-free form it is flat (point 3, with its stated scope). Its other forms select only through an added number
+  (point 4).
+- **It sharpens horn 1.** Horn 1 was "what the frame's dynamics picks keeps a residual symmetry". For the threads the
+  stronger statement holds: what all threads pick together is nothing, and the joint action is homogeneous on the
+  fibre's modulus.
+- **This is the weave reading of "not forced which".** W51's flat joint determinant said it for the three parities.
+  Equidistribution says it for the threads. The principle allows every thread and prefers none, and so its joint
+  action prefers no shape of the fibre.
+- **A rule is not written.** No weight-free, convergent form exists among the forms above. If one is found, it must
+  first be shown forced: a weight that every thread's own geometry fixes, with no mass, scale or cutoff. Then a rule
+  with its minimum's classification (fixed point, mirror line, or a mirror pair off the lines) follows.
+- **The one opening.** A forced weight that makes the sum converge would give a mirror-even function whose global
+  minimum could lie off the mirror lines, in a CP-conjugate pair. That would be spontaneous CP violation by the threads
+  themselves. Nothing on record supplies such a weight.
+
+**Status.** READING. A design reading on THE RIDDLE's item 2: mirror-evenness and the odd part's cancellation by hand;
+flatness from the literature's equidistribution and one unfolding by hand. No new computation, and no rule. 0 of 19.
+
 ## W173. THE RIDDLE, horn 3 at the record's best rows: the fit is carried by the chosen point, not by the forced exponents with one height. At all 38 rows the first generation in every sector needs a point-dependent prefactor of 4.6 to 51 over its forced local exponent (the down quark's 43–51), Re τ sweeps the six by up to 20σ on the line's orbit, and of the 266 lines at the row's τ only the row's own passes. Every cell as predicted (`the_fit_at_the_rows.py`; `W173_RULE.md`)
 
 **Why.** THE RIDDLE's program, item 3 (relay §316). Horn 3 says the data are carried by choices, not by forced

@@ -21305,3 +21305,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Next:** the pattern itself, everywhere the frame allows, against the data's own pattern.
   0 of 19.
 
+## 2026-10-28 — all the objects together prefer no shape
+
+- **The question:** the principle's objects, taken all together, act on one shared shape. Do they pick a shape that
+  breaks the mirror symmetry?
+- **The answer, as a reading:** no. Each object alone picks a curve, not a point. Taken all together and treated
+  alike, they spread evenly over every shape (a known theorem about these curves), so together they pick nothing. Any
+  pick needs an extra number that the principle does not give.
+  0 of 19.
+
