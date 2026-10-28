@@ -21320,3 +21320,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   a single small number and factors close to one? If none does, no choice of where to stand can fix it.
   0 of 19.
 
+## 2026-10-28 — the pattern test: close, but no
+
+- **The result:** no built-in pattern gives the world's masses with one small number and factors within 3. The
+  nearest misses by a few percent beyond that. Its leptons fit almost exactly, but it ties the down quarks to the
+  leptons, and the world breaks that tie by factors of about 3. A random set of masses near the real ones would come as
+  close about one time in five, so the near-miss is not a sign.
+- **From another seat:** some of the shapes the work uses have no mirror-symmetric point at all. There the frame's own
+  energy must choose a state that violates CP.
+- **Next:** that test, written down before it is run.
+  0 of 19.
+

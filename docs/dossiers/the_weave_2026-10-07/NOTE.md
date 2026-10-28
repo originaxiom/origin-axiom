@@ -7726,6 +7726,81 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W174. THE RIDDLE, item 4, the skeleton census: no forced exponent pattern on record carries the six with one shared small parameter and coefficients within a factor 3. The nearest are the frame's slope-2/5 lines, which miss by 3–11% in ln beyond the factor 3 at one height (Im τ ≈ 2.35). In ε = e^{−0.6π Im τ} their pattern is (1, 8/3) for the up quarks and (2/3, 11/6) for the down quarks and the leptons alike: the leptons and m_u/m_t sit on it, while m_c/m_t and the down quarks miss by about a factor 3. Near-data random sixes pass this menu 18.5% of the time. S1–S3 as predicted; S0 failed (`the_skeleton_census.py`; `W174_RULE.md`)
+
+**Why.** THE RIDDLE's program, item 4 (relay §316), and the owner's goal of 2026-10-21: a forced integer pattern and
+one weave constant. W173 found the fit at the best rows carried by the chosen point, with local exponents at Im τ ≈ 3.
+This arc asks the skeleton's own question. Does any forced pattern on record, with one small parameter shared by the
+three sectors and coefficients within a factor 3, carry the six? It asks it of three menus:
+- **A:** the frame's exponents at the cusp, on every census line;
+- **B:** main's B1691 covariant skeleton;
+- **C:** ω's residual-charge patterns.
+
+**The order.**
+- The rule (`W174_RULE.md`, 44e5994e0) was committed and pushed before the script.
+- The script (843bb643a) was committed before its run. Its test helpers were checked on synthetic inputs only.
+- **The run.** One run, 1290 s on four workers, with 0 of 2128 frame points failed. Its output (f2b1461d9) was
+  committed unread, after a check of the exit, failures, NaN, paths and warnings, then read once.
+
+**The result (COMPUTED; one run; S1, S2 and S3 as predicted; S0 failed; S4 read out).**
+- **S0 failed: the exponents have not converged everywhere by Im τ = 6.**
+  - Of the 179 lines whose six are resolved at Im τ 4–6 at both Re τ, 133 (74%) have the exponents from (4, 5) and
+    (5, 6) agreeing to 0.02 and independent of Re τ. The rule asked for 90%.
+  - The 46 unconverged lines are named in the output. Among them are (2/5, 3/5) and (2/5, 4/5), and lines of orders 6,
+    7, 8, 9, 10 and 11.
+  - As the rule fixed, S1 is read on the converged lines. It holds on every line, converged or not.
+- **S1 held: no census line passes.** 424 patterns on 212 lines were tested; the other lines have a ratio below the
+  10⁻¹² floor at the top heights.
+  - **The nearest are the twenty slope-2/5 patterns** (ten lines, two Re τ each). The worst feature exceeds ln 3 by
+    0.029–0.108, at one height Im τ = 2.345–2.363.
+  - The nearest other line, (3/8, 1/2), misses by 0.88.
+- **The 2/5 lines' skeleton, read out.** The pattern in units of 2π Im τ is n = (0.296–0.303, 0.741–0.828) for the up
+  quarks and (0.199, 0.548–0.551) for both the down quarks and the leptons. In units of W160's ε = e^{−0.6π Im τ}
+  (ε ≈ 0.012 at Im τ = 2.35) that is about:
+
+| sector | the frame's pattern (m₂/m₃, m₁/m₃) in powers of ε | the data at Im τ = 2.35, in powers of ε |
+| --- | --- | --- |
+| up | (1, 8/3) | (1.27, 2.67) |
+| down | (2/3, 11/6) | (0.90, 1.57) |
+| leptons | (2/3, 11/6) | (0.64, 1.85) |
+
+  - The leptons sit on the skeleton with coefficients within 12% on every 2/5 line. m_u/m_t does too, within 26%, on
+    the converged ones; on the unconverged (2/5, 4/5) it needs 0.41.
+  - m_c/m_t needs a coefficient of about 1/3. The down quarks need about 1/3 on m_s/m_b and 3 on m_d/m_b.
+  - **The frame's own coefficients are not of order one.** Its intercepts at the top height give the first
+    generation's coefficients of 3 to 150 on these lines. So the frame does not realise the skeleton's near-fit
+    itself. A near-fit needs coefficients about ten times smaller than the frame's (W173's "prefactors near 30",
+    again).
+- **S2 held: B1691's covariant skeleton fails.** The least worst excess is 1.33 over ln 3, at Im τ = 1.57.
+- **S3 held: no ω assignment passes.** The nearest of the 64 assignments is up (2, 3), down (1, 2), leptons (1, 2),
+  0.27 over ln 3 at ln δ = −3.49.
+- **S4, read out (nothing passed).** Near-data random sixes (the data ± 2 per feature) pass menu A at 18.5%, menu C at
+  16.5%, and menu B at 0% (on 2000 draws).
+- **The data's own ratios.** ln(m₁/m₃)/ln(m₂/m₃) is 2.11 (up), 1.75 (down) and 2.89 (leptons). The sectors' ln(m₂/m₃)
+  over the up quarks' is 0.71 (down) and 0.51 (leptons).
+
+**What it shows (a READING on the computed facts).**
+- **As the rule fixed, nothing passes.** No forced exponent pattern on record carries the six with one shared small
+  parameter and coefficients within a factor 3. THE RIDDLE's item 4 is answered in its sharpest form: the patterns the
+  frame forces are not the data's pattern.
+- **The margin is thin, and it is not a signal.**
+  - On the slope-2/5 lines the skeleton misses by 3–11% beyond the factor 3. A tolerance of about 3.2 would pass them.
+  - Near-data random sixes pass the same menu 18.5% of the time, so even a pass would not have been specific.
+  - The slope 2/5 is itself the data's choice (W162).
+- **Where it misses is structural.** The frame gives the down quarks and the leptons the same exponents (2/3, 11/6).
+  The leptons sit on them. The down quarks miss by about 1/3 on m_s/m_b and 3 on m_d/m_b.
+  - So the miss is the data breaking a down-lepton equality the frame forces, by factors close to 3. The record's
+    Georgi–Jarlskog material (P-295) bears on this. It is noted here and not tested.
+- **The skeleton half of the owner's goal is nearly met at the level of exponents, and the flesh is not.** The frame's
+  exponents on the data-chosen lines nearly give the data's exponents with one height. Its own coefficients are not of
+  order one, though, and three ratios need coefficients near 3 or 1/3.
+- **Weave or thread.** A frame census over every census line and every forced pattern on record at the cusp and ω. A
+  frame result.
+
+**For the look ledger:** one look at the six, counted. It selected no line for any later fit.
+
+0 of 19.
+
 ## Reading: the weave's own sum over threads as a selection on τ — flat in the democratic limit, mirror-even at every truncation, and choosing a point only through a number it does not force (READING, 2026-10-28; THE RIDDLE's program item 2)
 
 **Why.** THE RIDDLE's program item 2 asks whether the weave's own sum over threads selects τ. It is the one forced
@@ -14678,6 +14753,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W174 | COMPUTED (the rule first; one run; S1–S3 as predicted, S0 failed: 74% of resolved lines converged by Im τ 6); a frame census over every line and every forced pattern on record | THE RIDDLE's item 4: no forced exponent pattern carries the six with one shared small parameter and coefficients within a factor 3; nearest the slope-2/5 lines, 3–11% beyond the factor 3 at Im τ ≈ 2.35, pattern (1, 8/3) up and (2/3, 11/6) down and leptons in ε = e^{−0.6π Im τ}; leptons on it, down off by ~3 and ~1/3; the frame's own first-generation coefficients 3–150; near-data null passes 18.5% |
 | W173 | COMPUTED (the rule first; one completed run after one interrupted launch, disclosed; every cell as predicted); a frame result at data-chosen rows, a thread-and-frame look | THE RIDDLE's horn 3: at all 38 best rows the fit is carried by the chosen point — the first generation needs prefactors 4.6–51 over its forced local exponent (down 43–51), Re τ sweeps a feature by up to 20σ, and only the row's own line of 266 passes at its τ; the skeleton works only for m_s/m_b; the CKM sits near a relabelling |
 | W172 | COMPUTED (the rule first; one run; every cell as predicted); a frame result at a counted line, the lemma for every content | THE RIDDLE's horn 1: V(−τ̄; ψ₁, −ψ₂) = V(τ; ψ) to 1.5 × 10⁻¹⁴; at the counted line Re τ is held by a single harmonic of 2–6 × 10⁻⁴ of V; all 15 variations at a mirror fixed point (quarks 1, leptons 3.5); the data's Re τ costs at most 4 × 10⁻⁵ of V; CP conserved robustly but weakly, Re τ in effect flat |
 | W171 | COMPUTED (the rule first; one run after one failed launch; K0, K1, K3 and K4 as predicted; K2 failed as worded on two instrument slips, holds post hoc); a weave result given the counted order | W73 per sector at N = 10 in the weave reading: on all 36 lines of order 10 the stabiliser carries a non-trivial character for every sector in both readings (minimal 3, 5, 5 tenths; per field 8, 6, 6); the orbit sums vanish to 10⁻⁴⁹; every sector's surface Yukawa is zero, so W73 per sector ends as an exclusion; census N = 2–16: the minimal reading keeps all three nowhere, the per field only at N = 2 and 4, which do not split them |

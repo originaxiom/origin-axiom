@@ -5463,3 +5463,33 @@ def test_w173_the_fit_at_the_rows():
         assert [v[0] for v in s["lines with chi2_six < 16.75"]] == [s["row"][1]]
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W173. THE RIDDLE, horn 3 at the record's best rows" in note
+
+def test_w174_the_skeleton_census():
+    """W174: S1-S3 as predicted, S0 failed; in process, the skeleton test re-derived from the stored six and the slope-2/5
+    patterns (no pass, the least excess in 0.02-0.12), B1691's skeleton recomputed, and omega's 64 assignments re-tested"""
+    import itertools
+    import math
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_skeleton_census.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"S0": False, "S1": True, "S2": True, "S3": True, "S4": None}
+    assert "run_failed" not in d and d["warnings"] == [] and d["menu A failed tasks"] == 0
+    six, ln3 = np.array(d["the six (data, read once)"]), math.log(3)
+    s = np.linspace(-80.0, 0.0, 160001)[:-1]
+
+    def least(model):
+        return float((np.abs(model - six[None, :]).max(axis=1)).min() - ln3)
+
+    two5 = [np.array(p["pattern n_i"]) for e in d["per line"] if e["line"][0] == "2/5" for p in e["per Re tau"]]
+    assert len(two5) == 20
+    ex = [least(s[:, None] * n[None, :]) for n in two5]
+    assert 0.02 < min(ex) and max(ex) < 0.12
+    y = -s / (2 * math.pi)
+    mb = np.stack([s / 2, s + np.log(y)] * 3, axis=1)
+    assert abs(least(mb) - d["S2"]["least worst excess over ln 3"]) < 1e-9 and least(mb) > 1
+    pats = ((1, 1), (2, 3), (1, 2), (2, 4))
+    best = min(least(s[:, None] * np.array([a[0][0], a[0][1], a[1][0], a[1][1], a[2][0], a[2][1]])[None, :])
+               for a in itertools.product(pats, repeat=3))
+    assert 0.2 < best < 0.3
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W174. THE RIDDLE, item 4, the skeleton census" in note

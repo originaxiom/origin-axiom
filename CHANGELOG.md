@@ -1,5 +1,17 @@
 # Changelog
 
+## W174 recorded: no forced pattern carries the six; the web seat's class criterion read; W175's rule (relay §322)
+
+- **W174 (the skeleton census):** S1–S3 as predicted, S0 failed (74% of the resolved lines converged by Im τ 6).
+  - No forced exponent pattern on record carries the six with one shared small parameter and coefficients within a
+    factor 3.
+  - The slope-2/5 lines miss by 3–11% beyond the factor 3 at Im τ ≈ 2.35, with pattern (1, 8/3) for up and (2/3, 11/6)
+    for down and leptons alike. The leptons sit on it; the down quarks miss by about 3 and 1/3.
+  - Near-data random sixes pass 18.5%.
+- **The web seat's relay read:** a slope-2/5 class has a mirror point above Im τ = 1 only at order 5 or 10.
+- **W175's rule:** the frame's potential on the ten mirror-free classes; J at its own minimum.
+- **Surfaces.** NOTE section and row, the lock test, W175's rule, the relay, the ledger rows, the state page. 0 of 19.
+
 ## W174's rule, committed before its script: the skeleton census (relay §321)
 
 - **The test:** does any forced exponent pattern on record carry the six, with one small parameter shared by the
