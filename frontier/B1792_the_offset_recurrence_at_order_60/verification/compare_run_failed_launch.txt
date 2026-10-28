@@ -1,0 +1,41 @@
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "<pyenv>/3.12.1/lib/python3.12/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "<pyenv>/3.12.1/lib/python3.12/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+           ^^^^^^^^^^^^^^^^
+  File "<repo>/frontier/B1792_the_offset_recurrence_at_order_60/verification/compare.py", line 94, in one_class
+    return name, seed, C.one_chi2(seed)[1]
+                       ^^^^^^^^^^^^^^^^
+  File "<repo>/frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/compare.py", line 106, in one_chi2
+    A = arrays(); d6, d9 = draws(seed); out = {}
+        ^^^^^^^^
+  File "<repo>/frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/compare.py", line 35, in arrays
+    if not _A: _load(HERE / "census.jsonl")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/frontier/B1792_the_offset_recurrence_at_order_60/verification/compare.py", line 68, in _load
+    rows = [r for r in rows if CLASSES[_F["cls"]](r)]; n = APEXES * COUNTS[_F["cls"]]
+                               ^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/frontier/B1792_the_offset_recurrence_at_order_60/verification/compare.py", line 28, in <lambda>
+    CLASSES = {"predicted": lambda r: r["b"] in PREDICTED, "other": lambda r: r["b"] not in PREDICTED, "all": lambda r: True}
+                                      ~^^^^^
+KeyError: 'b'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<repo>/frontier/B1792_the_offset_recurrence_at_order_60/verification/compare.py", line 160, in <module>
+    main()
+  File "<repo>/frontier/B1792_the_offset_recurrence_at_order_60/verification/compare.py", line 120, in main
+    res = P.map(one_class, [(name, s) for name in CLASSES for s in S])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<pyenv>/3.12.1/lib/python3.12/multiprocessing/pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<pyenv>/3.12.1/lib/python3.12/multiprocessing/pool.py", line 774, in get
+    raise self._value
+KeyError: 'b'

@@ -16,3 +16,8 @@ d67432f0dc252e911514f211eb29844fd0bfcc5a270c00188312607435b0478d  frontier/B1726
 63450365401c149c726e928f842bc7810086ad4d897a62f51217e3c12189880f  frontier/B1637_fits_on_the_ruled_branch/received/HZ2021_running_masses_MZ.json
 61ea1565a2a8b4e053c33cc3b29e37484f6c9c2aeca54f9b6a83c89137e0d606  frontier/B1612_the_mixing_patterns_the_weave_fixes/verification/data.json
 # after the seal (not sealed): the outputs, committed unread
+# 2026-10-28, after the seal: the first launch of compare.py failed before computing any value (KeyError: 'b' -- its row
+# loader, copied from B1786's, kept no offset, and this arc's class filter keys on the offset; compare_run_failed_launch.txt,
+# paths redacted). The fix adds the row's b to the loader and changes nothing else (the measure, the cells, the seeds, the
+# instrument's every other line); the sealed hash above stands as sealed, and the run uses:
+40435d82631a5e5ef0d561412ff00ea51f7d1fe9dd6fc5180ae46907d45de671  verification/compare.py

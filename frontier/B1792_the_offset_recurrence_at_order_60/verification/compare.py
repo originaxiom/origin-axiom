@@ -41,7 +41,7 @@ def _base(path):
         with open(path, encoding="utf-8") as fh:
             for l in fh:
                 if not l.strip(): continue
-                r = json.loads(l); rec = {"line": r["line"], "order": r.get("order"), "alpha": r.get("alpha"), "Re_tau": r["Re_tau"], "Im_tau": r["Im_tau"], "h": {}}
+                r = json.loads(l); rec = {"line": r["line"], "order": r.get("order"), "alpha": r.get("alpha"), "b": r.get("b"), "Re_tau": r["Re_tau"], "Im_tau": r["Im_tau"], "h": {}}   # "b" added 2026-10-28 after the first launch failed (KeyError: the class filter keys on b); nothing else changed
                 for h in ("L_max", "L_2"):
                     rec["h"][h] = ([lg(r[f"up|{h}|{a}"]) for a in C.RD], [lg(r[f"down|{h}|{a}"]) for a in C.RD], [lg(r[f"lep|{h}|{a}"]) for a in C.RD],
                                    [[lg(r[f"ckm|{h}|{a}|{b}"][:3]) for b in C.RD] for a in C.RD], [[r[f"ckm|{h}|{a}|{b}"][3] for b in C.RD] for a in C.RD])
