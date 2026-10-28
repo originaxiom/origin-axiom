@@ -1,0 +1,13 @@
+filling   |H1(Q)|  predicted |H1(Qt)| = 16p/3   own Reidemeister-Schreier   SnapPy cyclic 3-fold covers
+m004(3,2)  Z/3        16                    free rank 0, torsion [4, 4] (order 16)   ['Z/4 + Z/4']
+m004(3,4)  Z/3        16                    free rank 0, torsion [4, 4] (order 16)   ['Z/4 + Z/4']
+m004(3,5)  Z/3        16                    free rank 0, torsion [4, 4] (order 16)   ['Z/4 + Z/4']
+m004(6,1)  Z/6        32                    free rank 0, torsion [2, 4, 4] (order 32)   ['Z/2 + Z/4 + Z/4']
+m004(6,5)  Z/6        32                    free rank 0, torsion [2, 4, 4] (order 32)   ['Z/2 + Z/4 + Z/4']
+m004(9,1)  Z/9        48                    free rank 0, torsion [4, 12] (order 48)   ['Z/4 + Z/12']
+m004(9,2)  Z/9        48                    free rank 0, torsion [4, 12] (order 48)   ['Z/4 + Z/12']
+m004(12,1)  Z/12       64                    free rank 0, torsion [4, 4, 4] (order 64)   ['Z/4 + Z/4 + Z/4']
+m004(15,2)  Z/15       80                    free rank 0, torsion [4, 20] (order 80)   ['Z/4 + Z/20']
+=> |tau(Q, order-3)|^2 = |H1(Qt)| / (3 p) = 16/9 on every row: |tau| = 4/3 confirmed without Turaev's formula
+control m004(6,1), 2-fold cover: own RS torsion [15] (order 15); Turaev predicts 2*6*|tau(order 2)| = 15.0000 (one nontrivial character, real)
+r2 exit 0

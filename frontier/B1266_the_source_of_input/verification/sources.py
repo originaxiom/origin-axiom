@@ -111,7 +111,7 @@ def selftest():
     print(f"  [srcs ] irreducible sources: {len(groups)}")
     for k, v in sorted(groups.items(), key=lambda kv: -len(kv[1])):
         print(f"           [{len(v)}] {v}")
-    assert len(un) == 19 and len(groups) == 9   # 2026-10-28 (B1790): +I-35, the hypercharge sign rule, registered UNEARNED and not adopted; an instance of I-32, so it joins I-32's source (nine sources unchanged). 2026-10-15 (S133): +I-31 (a new source: given Λ), +I-32, +I-33, +I-34 (instances of I-23, I-13, I-26). 2026-09-07 (B1296): +I-27, a new H5-type source; 2026-09-08 (B1298): +I-28, joins I-27's source; 2026-09-09: +I-29 (joins I-13's source), +I-30 (joins I-27's); was 10 / 7, then 12 / 8
+    assert len(un) == 20 and len(groups) == 9   # 2026-10-28 (B1801): +I-36, m004's filling as the G2 frame's GUT 3-cycle, registered UNEARNED and not adopted; an instance of I-13, so it joins I-13's source (nine sources unchanged). 2026-10-28 (B1790): +I-35, the hypercharge sign rule, registered UNEARNED and not adopted; an instance of I-32, so it joins I-32's source (nine sources unchanged). 2026-10-15 (S133): +I-31 (a new source: given Λ), +I-32, +I-33, +I-34 (instances of I-23, I-13, I-26). 2026-09-07 (B1296): +I-27, a new H5-type source; 2026-09-08 (B1298): +I-28, joins I-27's source; 2026-09-09: +I-29 (joins I-13's source), +I-30 (joins I-27's); was 10 / 7, then 12 / 8
 
     # the I-10/I-11 cycle must be ONE source -- a naive closure reports two
     fork = [v for v in groups.values() if "I-10" in v]
@@ -124,7 +124,7 @@ def selftest():
 
     reduced = len(un) - len(groups)
     print(f"  [ctl  ] rows that are instances of another: {reduced} ({len(un)} rows - {len(groups)} sources)")
-    assert reduced == 10   # 2026-10-28 (B1790): I-35 of I-32 (19 rows - 9 sources). 2026-10-15 (S133): I-32 of I-23, I-33 of I-13, I-34 of I-26 (I-31 its own source); 2026-09-08 (B1298): I-28 of I-27; 2026-09-09: I-29 of I-13, I-30 of I-27; was 3 (= 10 - 7), then 4, then 6
+    assert reduced == 11   # 2026-10-28 (B1801): I-36 of I-13 (20 rows - 9 sources). 2026-10-28 (B1790): I-35 of I-32 (19 rows - 9 sources). 2026-10-15 (S133): I-32 of I-23, I-33 of I-13, I-34 of I-26 (I-31 its own source); 2026-09-08 (B1298): I-28 of I-27; 2026-09-09: I-29 of I-13, I-30 of I-27; was 3 (= 10 - 7), then 4, then 6
 
     print(f"\n  PRICE, two readings, both kept:")
     print(f"    rows outstanding (what the ratchet tracks) : {AXIOMS} + {len(un)} = {AXIOMS+len(un)}")

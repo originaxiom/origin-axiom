@@ -1,0 +1,41 @@
+(1) U = exp(2 pi i 6Y/3) = [-0.5+0.8660254j -0.5+0.8660254j -0.5+0.8660254j  1. -0.j
+  1. -0.j       ] | det = (1+0j)
+    U == diag(w,w,w,1,1): True | U restricted to colour = w * 1_3, the generator of Z(SU(3))
+    dim centraliser in gl(5) = 13 -> in su(5): 12 (SU(3)xSU(2)xU(1) has dim 12)
+    Q               6Y = +1: holonomy w^1; colour triality +1 -> w^(triality) = w^1; equal: True
+    u^c             6Y = -4: holonomy w^2; colour triality -1 -> w^(triality) = w^2; equal: True
+    d^c             6Y = +2: holonomy w^2; colour triality -1 -> w^(triality) = w^2; equal: True
+    L               6Y = -3: holonomy w^0; colour triality +0 -> w^(triality) = w^0; equal: True
+    e^c             6Y = +6: holonomy w^0; colour triality +0 -> w^(triality) = w^0; equal: True
+    H (5, doublet)  6Y = +3: holonomy w^0; colour triality +0 -> w^(triality) = w^0; equal: True
+    T (5, triplet)  6Y = -2: holonomy w^1; colour triality +1 -> w^(triality) = w^1; equal: True
+    X,Y             6Y = +5: holonomy w^2; colour triality -1 -> w^(triality) = w^2; equal: True
+    FW U_gamma(q=3, w=1) = [-0.5-0.8660254j -0.5-0.8660254j -0.5-0.8660254j  1. +0.j
+  1. +0.j       ]
+    FW U_gamma(q=3, w=2) = [-0.5+0.8660254j -0.5+0.8660254j -0.5+0.8660254j  1. +0.j
+  1. +0.j       ]
+    exact orders of U_gamma breaking SU(5) -> SM (q <= 12): [2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+    ... of those, orders leaving the 5's doublet untwisted: [3] (group theory: diag(z,z,z,1,1), z^3 = 1)
+    and the 5's components untwisted at FW's minimal lens (q, w) = (2, 1): U = diag(1,1,1,-1,-1): the TRIPLET untwisted, the doublet twisted
+
+(3) Turaev convention on L(q,1): cells e0..e3, d1 = xi - 1, d2 = 1 + xi + ... + xi^{q-1}, d3 = xi - 1 (twisted)
+    L(2,1), w=1: e^T_omega = 4 sin^2 = 4.000000 = 1/|tau_T| True; L = 4q sin^2 = 8.000000
+    L(3,1), w=1: e^T_omega = 4 sin^2 = 3.000000 = 1/|tau_T| True; L = 4q sin^2 = 9.000000
+    L(6,1), w=1: e^T_omega = 4 sin^2 = 1.000000 = 1/|tau_T| True; L = 4q sin^2 = 6.000000
+    figure-eight fillings: e^T_omega = 1/|tau_T| = 3/4, e^T_O = 1/|H1| -> L = 3|H1|/4:  [(3, 2.25), (6, 4.5), (9, 6.75), (12, 9.0)]
+    the same Turaev formula on the unknot (Delta = 1) gives FW's general lens L = 4q|sin(5 pi w/q) sin(5 pi j w/q)|: consistent
+
+(4) FW (3.20) traces and (3.21) S'_a = -(2/3) b_a (T_O - T_w) + 10 k_a T_w: verified
+    det[16pi^2/g_a^2, k_a, b_a] with the thresholds = 0 (the one-loop relation fixing sin^2 theta_W given alpha_em, alpha_s: torsion-free)
+
+(5) scan p in 3..60 (3 | p), q in -40..40, gcd 1: solution types and lowest volumes
+    lowest five: [(1.284485, 6, 1), (1.284485, 6, -1), (1.440699, 3, -2), (1.440699, 3, 2), (1.667804, 9, -1)]
+    lowest with p = 3: [(1.440699, 3, -2), (1.440699, 3, 2)]
+    slopes dropped by the arc's filter (not 'all positively oriented'): [(3, -1, 'contains flat tetrahedra', True), (3, 1, 'contains flat tetrahedra', True)] ... total 2
+    amphichiral check (6,1) vs (6,-1): 1.2844853 1.2844853
+    m004(1,0): 0 | m004(2,3) (|H1| = 2, hyperbolic): all tetrahedra positively oriented
+    symmetry group of m004(3,2) : Z/2 + Z/2
+    symmetry group of m004(6,1) : Z/2 + Z/2
+    symmetry group of m004(3,4) : Z/2 + Z/2
+    symmetry group of m004(9,2) : Z/2 + Z/2
+r3 exit 0

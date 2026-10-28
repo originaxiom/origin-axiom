@@ -1,0 +1,47 @@
+SnapPy m004: ['a', 'b'] ['aaabABBAb'] peripheral: [('ab', 'aBAbABab')]
+  |Hom(-, S3)| (order 6): SnapPy m004 6, arc relator 6, textbook 4_1 6
+  |Hom(-, S4)| (order 24): SnapPy m004 48, arc relator 48, textbook 4_1 48
+  |Hom(-, A5)| (order 60): SnapPy m004 300, arc relator 300, textbook 4_1 300
+  |Hom(-, S5)| (order 120): SnapPy m004 600, arc relator 600, textbook 4_1 600
+  |Hom(-, PSL27)| (order 168): SnapPy m004 1848, arc relator 1848, textbook 4_1 1848
+phi on generators: {'a': 0, 'b': 1} | meridian word ab -> t^1 | longitude word aBAbABab -> t^0
+  tau(X) via d r/d b / (t^phi(a) - 1) = nan
+  tau(X) via d r/d a / (t^phi(b) - 1) = -(t**2 - 3*t + 1)/(t*(t - 1))
+
+(b) |tau(Q, order-3 chi)| from SnapPy's own words (no Alexander polynomial, no r-formula):
+  m004(3,2) k=1: |tau| = 1.333333333333   (core class r = -59; arc's r = 1)
+  m004(3,2) k=2: |tau| = 1.333333333333   (core class r = -59; arc's r = 1)
+  m004(3,4) k=1: |tau| = 1.333333333333   (core class r = -58; arc's r = 2)
+  m004(3,4) k=2: |tau| = 1.333333333333   (core class r = -58; arc's r = 2)
+  m004(3,5) k=1: |tau| = 1.333333333333   (core class r = -59; arc's r = 1)
+  m004(3,5) k=2: |tau| = 1.333333333333   (core class r = -59; arc's r = 1)
+  m004(3,-2) k=1: |tau| = 1.333333333333   (core class r = -58; arc's r = 2)
+  m004(3,-2) k=2: |tau| = 1.333333333333   (core class r = -58; arc's r = 2)
+  m004(6,1) k=2: |tau| = 1.333333333333   (core class r = -55; arc's r = 5)
+  m004(6,1) k=4: |tau| = 1.333333333333   (core class r = -55; arc's r = 5)
+  m004(6,5) k=2: |tau| = 1.333333333333   (core class r = -59; arc's r = 1)
+  m004(6,5) k=4: |tau| = 1.333333333333   (core class r = -59; arc's r = 1)
+  m004(9,1) k=3: |tau| = 1.333333333333   (core class r = -55; arc's r = 8)
+  m004(9,1) k=6: |tau| = 1.333333333333   (core class r = -55; arc's r = 8)
+  m004(9,2) k=3: |tau| = 1.333333333333   (core class r = -59; arc's r = 4)
+  m004(9,2) k=6: |tau| = 1.333333333333   (core class r = -59; arc's r = 4)
+  m004(12,1) k=4: |tau| = 1.333333333333   (core class r = -49; arc's r = 11)
+  m004(12,1) k=8: |tau| = 1.333333333333   (core class r = -49; arc's r = 11)
+  m004(15,2) k=5: |tau| = 1.333333333333   (core class r = -53; arc's r = 7)
+  m004(15,2) k=10: |tau| = 1.333333333333   (core class r = -53; arc's r = 7)
+  m004(21,4) k=7: |tau| = 1.333333333333   (core class r = -58; arc's r = 5)
+  m004(21,4) k=14: |tau| = 1.333333333333   (core class r = -58; arc's r = 5)
+  m004(30,7) k=10: |tau| = 1.333333333333   (core class r = -43; arc's r = 17)
+  m004(30,7) k=20: |tau| = 1.333333333333   (core class r = -43; arc's r = 17)
+  control, m004(6,1) order-6 char: 2.0 ; m004(10,3) order-10 char: 1.381966011 ; m004(10,3) order-5 char: 1.065247584
+
+(c) dim H^0, H^1 of Q with coefficients C_chi (Fox Jacobian of the filled group):
+  m004(3,2) [2 gens, 2 rels] trivial : H^0 = 1, H^1 = 0
+  m004(3,2) [2 gens, 2 rels] order-3 : H^0 = 0, H^1 = 0
+  m004(6,1) [2 gens, 2 rels] trivial : H^0 = 1, H^1 = 0
+  m004(6,1) [2 gens, 2 rels] order-3 : H^0 = 0, H^1 = 0
+  m004(9,2) [2 gens, 2 rels] trivial : H^0 = 1, H^1 = 0
+  m004(9,2) [2 gens, 2 rels] order-3 : H^0 = 0, H^1 = 0
+  m004(12,1) [2 gens, 2 rels] trivial : H^0 = 1, H^1 = 0
+  m004(12,1) [2 gens, 2 rels] order-3 : H^0 = 0, H^1 = 0
+r1 exit 0

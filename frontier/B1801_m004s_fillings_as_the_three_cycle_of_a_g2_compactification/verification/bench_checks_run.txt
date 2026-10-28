@@ -1,0 +1,16 @@
+(1) FW (3.20) S'_a = [50*T_w/3, 4*T_O + 6*T_w, 6*T_O + 4*T_w] | (3.21) identity holds: True
+    det[16pi^2/g_a^2, k_a, b_a] = 0 (zero: the thresholds are x k_a + y b_a, so the one-loop sin^2 theta_W is unchanged)
+(2) m004(3,2): 3-fold cyclic covers |H1| = [16]; predicted 16p/3 = 16
+(2) m004(6,1): 3-fold cyclic covers |H1| = [32]; predicted 16p/3 = 32
+(2) m004(3,4): 3-fold cyclic covers |H1| = [16]; predicted 16p/3 = 16
+(2) m004(9,2): 3-fold cyclic covers |H1| = [48]; predicted 16p/3 = 48
+(2) m004(12,1): 3-fold cyclic covers |H1| = [64]; predicted 16p/3 = 64
+(2) m004(6,5): 3-fold cyclic covers |H1| = [32]; predicted 16p/3 = 32
+    |tau|^2 = |H1(Qt)| / (3p) = 16/9 on every row: True
+    m004(3,2): the twisted Fox Jacobian's singular values [4. 0.] (the nonzero one is |Delta(omega)| = 4)
+(3) m004(3,2): order-3 character: rank d1 = 1 (H^0 = 0), rank Fox Jacobian = 1 of 2 generators (H^1 = 0)
+    m004(6,1): the twisted Fox Jacobian's singular values [4. 0.] (the nonzero one is |Delta(omega)| = 4)
+(3) m004(6,1): order-3 character: rank d1 = 1 (H^0 = 0), rank Fox Jacobian = 1 of 2 generators (H^1 = 0)
+    m004(9,2): the twisted Fox Jacobian's singular values [4. 0.] (the nonzero one is |Delta(omega)| = 4)
+(3) m004(9,2): order-3 character: rank d1 = 1 (H^0 = 0), rank Fox Jacobian = 1 of 2 generators (H^1 = 0)
+bench_checks exit 0

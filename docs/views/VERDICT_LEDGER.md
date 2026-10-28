@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1504 of 1504 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1505 of 1505 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1026)
+## PROVED (1027)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1038,6 +1038,7 @@
 | `B1797` | GENESIS v1.59 (P-288; the completion map's C8, on B1796): FK10's tagged unit reduced to the field's existence (FK15) and three further links -- the type identification (the fibre's End E x K against a weight-3/2 form of rho_T), uniform end data, the least remainder -- none derived on the record, given Lambda and the hand; the dimension max(0, sum m) recorded with its proved parts (0 for sum m <= 0; 3n for n >= 0 uniform units); B1700's reading tag and FK11 kept; FK15 gains a pointer to its existence half. No status cell changes; FK10 stays a tagged postulate. 0 of 19. |  | 1 |
 | `B1799` | THE NEUTRINO'S SELF-PAIRING AT THE CANONICAL END (P-283; data-free): R1 = 0 identically for equal twists (the residue is v_x v_y^T / theta1'(0)), so with a traceless partner the coupling is exactly symmetric; on the 286 census lines at three points neither Majorana pairing's det M vanishes (m1 != 0, protection lifted), but the Weinberg pair's det M vanishes on CP lines (8 order-8 lines at Re tau = 0, 18 at Re tau = 1/2) and at isolated points; the Dirac L nu^c agrees with B1716's law on all 858 rows (zeros on the 54 lines where -3w has order 4, the electron's zero lines), so a pure type-I seesaw's lightest neutrino is massless on the census exactly where the electron is, and on no slope-2/5 line (the law's condition never fires there). No input removed. 0 of 19. |  | 1 |
 | `B1800` | THE COUPLINGS AS BULK OVERLAPS OF FLUX ZERO MODES (L251 as stated; data-free): every allowed overlap is (Im tau)^(-1/4) theta[(a_p - a_q + m)/2, b_p - b_q](0, 2tau) up to a fixed phase (CIM's closed form, re-derived and checked on main); Wilson-line conservation gives B1636's parity pattern, but Y_pq^2 = (Im tau)^(-1/2) kappa_pq theta_p theta_q, i.e. Y_pq ~ eta^(3/2) theta_r^(-1/2), not B1636's theta_r^2 for any fixed Higgs and any matter Wilson lines (a q-expansion proof); B1642's residue coupling has theta_r^2 but is antisymmetric; the overlap depends on the legs' Wilson-line difference (q_L - q_R)w, at level 2, and is not B1656's flat-frame coupling. No input removed. 0 of 19. |  | 1 |
+| `B1801` | m004'S FILLINGS AS THE 3-CYCLE Q OF A G2 COMPACTIFICATION (data-free; PROVED for the torsion, NEGATIVE for a coupling): the order-3 Reidemeister torsion of every hyperbolic filling m004(p/q) with 3 | p is 4/3 (|Delta_41(omega)| = 4; Turaev, Fox calculus on SnapPy's presentation, and 3-fold cyclic covers with |H1| = 16p/3), so Friedmann-Witten's L(Q) = 3|H1|/4; the Z/3 line diag(w,w,w,1,1) breaks SU(5) to S(U(3)xU(2)) as every such line does; Friedmann-Witten's thresholds are x k_a + y b_a (their 3.21, computed), so the one-loop sin^2 theta_W is unchanged for any Q -- the torsion relates moduli to M_GUT and fixes none of the 19; the draft's doublet-triplet split withdrawn (in this frame the Higgs are complete multiplets at points; Witten's mechanism needs an involution with fixed circles, P-408). 0 of 19. |  | 1 |
 
 ## NEGATIVE (374)
 

@@ -1,0 +1,35 @@
+{
+ "id": "B1801",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-36",
+   "status": "UNEARNED",
+   "note": "a hyperbolic filling m004(p/q) as Friedmann-Witten's GUT 3-cycle Q; registered, not adopted; an instance of I-13"
+  }
+ ],
+ "depends_on": [
+  "B326",
+  "B350",
+  "B862",
+  "B1221",
+  "B1684",
+  "B1794",
+  "B1795"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "Friedmann-Witten: M-theory on a G2 manifold with SU(5) on a 3-cycle Q, broken by a flat abelian Wilson line",
+  "object": "m004(p/q), hyperbolic, 3 | p, as Q (an unearned identification, I-36)",
+  "reach": "class",
+  "hypotheses": "infinite pi1 handled by computed acyclicity (H^0 = H^1 = 0); the abelian vacuum isolated, one of many; the existence of a G2 manifold with such an A4 locus open; one loop"
+ },
+ "claim_one_line": "m004'S FILLINGS AS THE 3-CYCLE Q OF A G2 COMPACTIFICATION (data-free; PROVED for the torsion, NEGATIVE for a coupling): the order-3 Reidemeister torsion of every hyperbolic filling m004(p/q) with 3 | p is 4/3 (|Delta_41(omega)| = 4; Turaev, Fox calculus on SnapPy's presentation, and 3-fold cyclic covers with |H1| = 16p/3), so Friedmann-Witten's L(Q) = 3|H1|/4; the Z/3 line diag(w,w,w,1,1) breaks SU(5) to S(U(3)xU(2)) as every such line does; Friedmann-Witten's thresholds are x k_a + y b_a (their 3.21, computed), so the one-loop sin^2 theta_W is unchanged for any Q -- the torsion relates moduli to M_GUT and fixes none of the 19; the draft's doublet-triplet split withdrawn (in this frame the Higgs are complete multiplets at points; Witten's mechanism needs an involution with fixed circles, P-408). 0 of 19.",
+ "weave_or_thread": "thread (one filling at a time)"
+}

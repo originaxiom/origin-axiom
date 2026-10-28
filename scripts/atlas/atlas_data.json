@@ -14489,6 +14489,34 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1801": {
+   "slug": "m004s fillings as the three cycle of a g2 compactification",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "z3_generation",
+    "torsion",
+    "symplectic",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B326",
+    "B350",
+    "B622",
+    "B862",
+    "B955",
+    "B956",
+    "B98"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B180": {
    "slug": "two faces dictionary",
    "motifs": [

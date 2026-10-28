@@ -1,0 +1,26 @@
+SnapPy m004 relators: ['aaabABBAb'] | our relator abelianises to 0
+Fox d r/d b at a,b -> t: (t**2 - 3*t + 1)/t | expected (up to units) t^2 - 3t + 1
+|Delta(omega)| = 3.9999999999999996 | Fox value |d r/d b (omega)| = 4.0
+  m004( 6, 1): H1 Z/6    vol 1.284485 | |tau(Q, order-3 char)| = 1.333333 | L(Q) = |H1|/|tau| = 4.500000, L^(2/3) = 2.7257
+  m004( 3, 2): H1 Z/3    vol 1.440699 | |tau(Q, order-3 char)| = 1.333333 | L(Q) = |H1|/|tau| = 2.250000, L^(2/3) = 1.7171
+  m004( 9, 1): H1 Z/9    vol 1.667804 | |tau(Q, order-3 char)| = 1.333333 | L(Q) = |H1|/|tau| = 6.750000, L^(2/3) = 3.5717
+  m004( 9, 2): H1 Z/9    vol 1.752092 | |tau(Q, order-3 char)| = 1.333333 | L(Q) = |H1|/|tau| = 6.750000, L^(2/3) = 3.5717
+  m004(12, 1): H1 Z/12   vol 1.815119 | |tau(Q, order-3 char)| = 1.333333 | L(Q) = |H1|/|tau| = 9.000000, L^(2/3) = 4.3267
+  m004( 3, 4): H1 Z/3    vol 1.863443 | |tau(Q, order-3 char)| = 1.333333 | L(Q) = |H1|/|tau| = 2.250000, L^(2/3) = 1.7171
+  m004(15, 1): H1 Z/15   vol 1.888143 | |tau(Q, order-3 char)| = 1.333333 | L(Q) = |H1|/|tau| = 11.250000, L^(2/3) = 5.0207
+  m004( 9, 4): H1 Z/9    vol 1.902688 | |tau(Q, order-3 char)| = 1.333333 | L(Q) = |H1|/|tau| = 6.750000, L^(2/3) = 3.5717
+  m004(15, 2): H1 Z/15   vol 1.904280 | |tau(Q, order-3 char)| = 1.333333 | L(Q) = |H1|/|tau| = 11.250000, L^(2/3) = 5.0207
+  m004( 3, 5): H1 Z/3    vol 1.921027 | |tau(Q, order-3 char)| = 1.333333 | L(Q) = |H1|/|tau| = 2.250000, L^(2/3) = 1.7171
+  m004( 6, 5): H1 Z/6    vol 1.928668 | |tau(Q, order-3 char)| = 1.333333 | L(Q) = |H1|/|tau| = 4.500000, L^(2/3) = 2.7257
+  m004(18, 1): H1 Z/18   vol 1.929575 | |tau(Q, order-3 char)| = 1.333333 | L(Q) = |H1|/|tau| = 13.500000, L^(2/3) = 5.6696
+  m004( 9, 5): H1 Z/9    vol 1.939677 | |tau(Q, order-3 char)| = 1.333333 | L(Q) = |H1|/|tau| = 6.750000, L^(2/3) = 3.5717
+  m004(15, 4): H1 Z/15   vol 1.946574 | |tau(Q, order-3 char)| = 1.333333 | L(Q) = |H1|/|tau| = 11.250000, L^(2/3) = 5.0207
+  Q           6Y = +1: holonomy omega^1
+  u^c         6Y = -4: holonomy omega^2
+  d^c         6Y = +2: holonomy omega^2
+  L           6Y = -3: holonomy trivial
+  e^c         6Y = +6: holonomy trivial
+  H doublet   6Y = +3: holonomy trivial
+  T triplet   6Y = -2: holonomy omega^1
+  X,Y bosons  6Y = +5: holonomy omega^2
+torsion exit 0
