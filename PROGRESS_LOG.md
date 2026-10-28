@@ -21352,3 +21352,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   something forced that splits the down quarks from the leptons by the factors of about 3 the world shows.
   0 of 19.
 
+## 2026-10-28 — two seats, one diagnosis
+
+- **The main seat,** counting the whole record, finds what this seat found by probing: the work fixes patterns and
+  counts but no measured number, because each frame adds a free knob the principle does not set.
+  0 of 19.
+

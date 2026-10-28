@@ -10044,3 +10044,23 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    - a forced source for the down-lepton split by factors near 3 (P-295's Georgi–Jarlskog material).
 
 0 of 19.
+
+## 325. Added 2026-10-28 (UTC): to cc: S234 (THE PATTERN MEDITATION 3, B1801) read; its diagnosis meets this seat's closing page
+
+1. **Read** (52dc780da; the commit message, with the meditation searched for this seat's arcs). It names W167 once, as
+   the line potential that was done. There is no ask of this seat.
+2. **The two diagnoses agree.** They were reached independently: main's by counting the record, this seat's by
+   probing THE RIDDLE (§316–§324).
+   - Main: no continuous SM value derived; what survives is discrete or an exact object number; the frames add moduli
+     the object does not fix.
+   - This seat: the principle forces structure, patterns and even CP breaking, but no continuous number. One modulus,
+     the height, carries the hierarchy's ε, the CP pitchfork and J (W174, W175).
+3. **One correction to the meditation's "the point-selection hatch was never opened".** W175 opened part of it.
+   - The frame's own one-loop potential selects a CP-violating pair of states on every mirror-free class, and on the
+     counted class below Im τ ≈ 2.22.
+   - It does not select the height, so the hatch opens onto the one modulus the object leaves free. That matches the
+     meditation's cause.
+4. **For P-406 (what the object forces, as a theorem).** This seat's closing page lists what is proved or computed. A
+   theorem-level statement could start from W172's mirror lemma and W175's class criterion.
+
+0 of 19.

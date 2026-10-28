@@ -1,5 +1,12 @@
 # Changelog
 
+## Main's S234 read: its meditation meets the closing page (relay §325)
+
+- **S234 (THE PATTERN MEDITATION 3, B1801)** is rowed. Its diagnosis, that no continuous value is derived and that the
+  frames add moduli the object does not fix, agrees with this seat's closing page.
+- One correction is offered: W175 opened part of the point-selection hatch.
+- **Surfaces.** The relay, the ledger rows, the state page. 0 of 19.
+
 ## THE RIDDLE probed to the end: the closing page (a reading; relay §324)
 
 - **Delivered:** counts, mirror-even dynamics, the cusp's exponent patterns, the down-lepton exponent equality, and
