@@ -21341,3 +21341,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   CP breaks, and by how much. Nothing yet holds it.
   0 of 19.
 
+## 2026-10-28 — the riddle, probed to the end
+
+- **What the principle gives:** the counts, the patterns of the masses, a tie between two families of particles, and
+  even a way to break the mirror symmetry by itself.
+- **What it does not give:** any single measured number. One number decides most of what is left: how far the shape
+  sits from its symmetric limit. It sets how steep the mass pattern is, whether CP breaks, and by how much. Nothing in
+  the work holds that number in place.
+- **What would finish it:** something forced that holds that number; something forced that picks the shape's class; and
+  something forced that splits the down quarks from the leptons by the factors of about 3 the world shows.
+  0 of 19.
+

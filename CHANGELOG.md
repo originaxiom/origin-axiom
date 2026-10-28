@@ -1,5 +1,15 @@
 # Changelog
 
+## THE RIDDLE probed to the end: the closing page (a reading; relay §324)
+
+- **Delivered:** counts, mirror-even dynamics, the cusp's exponent patterns, the down-lepton exponent equality, and
+  spontaneous CP violation by the frame's own potential.
+- **Not delivered:** any continuous number. The height alone sets the hierarchy's ε, the CP pitchfork and J's size,
+  and nothing holds it.
+- **Open:** a forced holder for the height, a forced class condition, and a forced down-lepton split.
+- **Surfaces.** NOTE's closing reading with a dated pointer at THE RIDDLE, the relay, the ledger row, the state page.
+  0 of 19.
+
 ## W175 recorded: the frame's own potential breaks CP spontaneously; J's size rides on the unheld height (relay §323)
 
 - **W175 (the web seat's question 1):** C0, C1 and C4 as predicted; C2 and C3 failed as worded; one labelled post hoc.

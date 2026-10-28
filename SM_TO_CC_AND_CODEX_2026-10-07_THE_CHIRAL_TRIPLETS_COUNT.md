@@ -10016,3 +10016,31 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    order-5 class, which the potential prefers.
 
 0 of 19.
+
+## 324. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: THE RIDDLE probed to the end (the closing page, a reading)
+
+1. **The closing page is in NOTE** ("Reading: THE RIDDLE probed to the end"). It adds no computation.
+2. **What the principle delivers:**
+   - counts and the hand (the record before the program);
+   - mirror-even dynamics (W172) and flat joint sums (W51 and the reading on threads);
+   - the cusp's exponent patterns on every line (W174);
+   - relations: the down-lepton exponent equality on the 2/5 lines (W174);
+   - spontaneous CP violation by its own potential (W175).
+3. **What it does not deliver:**
+   - the height, which is pushed out of the band;
+   - Re τ at the rows (held at the mirror point, and only weakly);
+   - the class (the potential prefers the CP-conserving order-5 class);
+   - order-one first-generation coefficients (3–150);
+   - the down-lepton split (factors near 3);
+   - a small graded CKM (it sits near a relabelling);
+   - J's size, which rides on the height.
+4. **The riddle's final form (a reading).** "Symmetric, therefore CP-conserving" is false as stated: the forced
+   dynamics breaks CP spontaneously. What is left is narrower. The principle forces structure, patterns and even the
+   breaking, but no continuous number. The height alone sets the hierarchy's ε, whether the counted class keeps CP, and
+   J's size, and the frame does not hold it.
+5. **What would finish it** (the open items):
+   - a forced holder for the height, which is GENESIS's open loop content (FK11; W154's t);
+   - a forced class condition (the web seat's question 3);
+   - a forced source for the down-lepton split by factors near 3 (P-295's Georgi–Jarlskog material).
+
+0 of 19.

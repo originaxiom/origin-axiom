@@ -7726,6 +7726,74 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## Reading: THE RIDDLE probed to the end — the principle delivers counts, patterns, relations and spontaneous CP violation, and leaves one continuous number free, the height (READING, 2026-10-28; the program's closing page)
+
+**Why.** THE RIDDLE's program (the reading below, relay §316) ended with "a closing page states what the principle can
+deliver and what it cannot, with each item proved, computed or excluded". The owner asked that the riddle be probed to
+the end. This page closes the program. It adds no computation; each line cites the arc that carries it.
+
+**What was probed.**
+
+| item | arc | status | what it found |
+| --- | --- | --- | --- |
+| horn 1 at the counted line | W172 | COMPUTED | every one-loop potential is mirror-even (P0, for every content); at the rows' heights Re τ is held by one harmonic of a few parts in 10⁴, at the mirror point |
+| the weave's sum over threads | the reading on threads | READING | mirror-even whatever the weights; flat in the democratic limit (equidistribution); any pick needs an unforced number; no rule |
+| horn 3 at the best rows | W173 | COMPUTED | the chosen point carries the fit; first-generation prefactors 4.6–51; only the row's own line of 266 passes |
+| the skeleton census | W174 | COMPUTED | no forced exponent pattern carries the six with one small parameter and coefficients within 3; the slope-2/5 lines miss by 3–11% beyond that; the frame ties the down quarks' exponents to the leptons' |
+| horn 1 off the mirror | W175 | COMPUTED | the frame's own potential breaks CP spontaneously: on every mirror-free class, and on the counted class below Im τ ≈ 2.22; J's size rides on the height |
+| the CP split near a fixed point | — | not run | its premise was a skeleton at a fixed point, and W174 finds none (ω fails, S3); W113 already holds the weight assignment's outcome |
+
+**What the principle delivers.**
+- **Counts and the hand** (the record before this program): three generations, chirality, and the group given F-MC.
+- **Symmetric dynamics, proved.** Every one-loop potential is mirror-even (W172 P0). The weave's joint determinant
+  (W51) and its democratic sum over threads (the reading on threads) are flat.
+- **Exponent patterns at the cusp, computed.** On every census line (W174). On the slope-2/5 lines they are (1, 8/3)
+  for up and (2/3, 11/6) for down and leptons alike, in ε = e^{−0.6π Im τ}.
+- **Relations.** The down-lepton exponent equality on the 2/5 lines (W174). W118's forced rationals at ω.
+- **Spontaneous CP violation by its own dynamics** (W175). Where a class has no mirror point, and at low height on the
+  counted class, the minimum is a CP-conjugate pair. The sign of J is a spontaneous bit, which the spontaneous-breaking
+  clause admits.
+
+**What it does not deliver.**
+- **The height.** The frame's content pushes Im τ down out of the band (W169, W175 C4).
+- **Re τ at the rows.** At the rows' heights the potential holds it at the mirror point, by so little that the data's
+  Re τ costs 4 × 10⁻⁵ of V (W172).
+- **The class.** The potential prefers the order-5 class, where CP is conserved (W175, post hoc). The data's carriers
+  are counted choices (W167, W162).
+- **Order-one coefficients.** The frame's first-generation coefficients are 3–150, not of order one (W173, W174).
+- **The down-lepton split.** The data break the frame's exponent equality by factors near 3 (W174).
+- **A small graded CKM.** At the rows it sits near a relabelling of the generations (W173).
+- **J's size.** It runs from 10⁻⁵ to 10⁻² with the height (W175).
+
+**The riddle's final form (a READING).**
+- **"Symmetric, therefore CP-conserving" is false as stated.** The forced dynamics breaks CP spontaneously at low
+  height and on mirror-free classes (W175). Horn 1 survives in a weaker form:
+  - the potential prefers the symmetric class;
+  - it prefers the symmetric point at large height;
+  - it does not hold the height at all.
+- **One continuous number carries what is left.** The height Im τ sets three things:
+  - the hierarchy's small parameter, ε = e^{−0.6π Im τ} (W174);
+  - whether the counted class keeps CP (the pitchfork at about 2.22, W175);
+  - J's size (W175).
+
+  The frame pushes it out of the band, so every match with the data chooses it. Together with the line, Re τ, the
+  readings, c and the horocycle (W169's tally), that is horn 3: the data are reached by choice.
+- **So the riddle is not "symmetry forbids the data".** It is narrower: the principle forces the structure, the
+  patterns and even the breaking, but it fixes no continuous number. The data's values live in the continuous numbers.
+
+**What would finish it.**
+- **A forced holder for the height.** It would be a term in the effective action, with no free coefficient, whose
+  minimum lies in the band.
+  - Given the class, the hierarchy's ε, CP's fate and J's size would then all be predictions.
+  - It is GENESIS's open loop content (FK11; W154's t), and the record has none.
+- **A forced class condition** (the web seat's question 3). It is needed to prefer a mirror-free pair over the order-5
+  class the potential picks.
+- **A forced source for the down-lepton split by factors near 3.** The record's Georgi–Jarlskog material (P-295) is the
+  place to look.
+
+**Status.** READING. The program of THE RIDDLE is closed: horns 1 and 3 probed, item 4 answered, item 2 read, item 5
+moot. The open items are the three above. 0 of 19.
+
 ## W175. THE RIDDLE's horn 1 off the mirror (the web seat's question 1): the frame's own one-loop potential breaks CP spontaneously. On every mirror-free slope-2/5 class its X-minimum has J ≠ 0 at every height. On the counted class itself the mirror point stops being the minimum below Im τ ≈ 2.22, a pitchfork (post hoc). The height is not held: every two-dimensional minimum runs to the domain's lower edge. Among the classes the order-5 class, which has a mirror point, has the least potential at every height. C0, C1 and C4 as predicted; C2 and C3 failed as worded (`the_potential_off_the_mirror.py`; `W175_RULE.md`; post hoc `the_potential_off_the_mirror_posthoc.py`)
 
 **Why.** The web seat's relay of 2026-10-28 (422cd8ecd; relay §322) showed that a slope-2/5 class has a mirror-fixed
@@ -8187,6 +8255,9 @@ Inputs do not rescue it, because the inputs added are menus of choices, not the 
 or excluded.
 
 **Status.** READING. A diagnosis and a program. 0 of 19.
+
+*Dated 2026-10-28: the program is probed to the end; see "Reading: THE RIDDLE probed to the end" above (W172–W175
+and the reading on threads).*
 
 ## W171. W73 per sector at N = 10, the counted line's order, in the weave reading: the frame's own moves forbid every sector's surface Yukawa, in both readings of the twist. On every one of the 36 lines of order 10 the stabiliser carries a non-trivial character for up, down and leptons, and the sum over the orbit vanishes to 10⁻⁴⁹. W73 per sector ends as an exclusion. K0, K1, K3 and K4 as predicted; K2 failed as worded on two instrument slips, and its content holds post hoc (`the_surface_frame_at_order_ten.py`; `W171_RULE.md`; post hoc `the_surface_frame_at_order_ten_posthoc.py`)
 
