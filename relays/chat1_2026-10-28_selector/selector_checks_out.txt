@@ -1,0 +1,14 @@
+A (i) strict parity on slope 2/5: lines [] (slope 2/5 has 2a = 4/5, not an integer)
+A (ii)+(iii) lines: ['1/10', '3/10', '1/2', '7/10', '9/10']
+A their classes: [['1/10', '1/2', '3/10', '7/10', '9/10']]
+A B1786's carriers meeting (ii)+(iii): [] | odd tenths meeting them: ['1/10', '3/10', '1/2', '7/10', '9/10']
+/tmp/claude-0/-home-claude/6cd20217-7806-5dd6-9098-8054245c567d/scratchpad/smwt/frontier/B1538_the_puncture_characters/verification/punct_covers.py:13: SyntaxWarning: invalid escape sequence '\G'
+  - Gamma acts on the right cosets H\Gamma = D (H u <-> ubar for u in F) by
+B Im tau 2.5: b=0(o5) V*=650.592930  b=1/60(o60) V*=650.605238  b=1/50(o50) V*=650.612422  b=1/45(o45) V*=650.618600  b=1/40(o40) V*=650.628138  b=1/35(o35) V*=650.643780  b=1/30(o30) V*=650.671415  b=1/25(o25) V*=650.724919  b=1/20(o20) V*=650.840310  b=1/15(o15) V*=651.115265  b=1/10(o10) V*=651.639526
+   V* increasing with the class's distance from b = 0: True
+B Im tau 3.0: b=0(o5) V*=1126.290829  b=1/60(o60) V*=1126.291210  b=1/50(o50) V*=1126.292238  b=1/45(o45) V*=1126.293362  b=1/40(o40) V*=1126.295393  b=1/35(o35) V*=1126.299245  b=1/30(o30) V*=1126.307030  b=1/25(o25) V*=1126.324063  b=1/20(o20) V*=1126.364975  b=1/15(o15) V*=1126.471151  b=1/10(o10) V*=1126.664482
+   V* increasing with the class's distance from b = 0: True
+B Im tau 3.5: b=0(o5) V*=1789.240596  b=1/60(o60) V*=1789.239200  b=1/50(o50) V*=1789.239013  b=1/45(o45) V*=1789.239040  b=1/40(o40) V*=1789.239314  b=1/35(o35) V*=1789.240171  b=1/30(o30) V*=1789.242453  b=1/25(o25) V*=1789.248407  b=1/20(o20) V*=1789.264518  b=1/15(o15) V*=1789.309660  b=1/10(o10) V*=1789.390947
+   V* increasing with the class's distance from b = 0: False
+selector_checks exit 0 (77 s)
+exit 0
