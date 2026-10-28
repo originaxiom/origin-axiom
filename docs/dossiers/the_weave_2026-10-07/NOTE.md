@@ -7726,6 +7726,65 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W167. The plan's stage 2, is the line's condition forced? The one-loop potential of the hypercharge line from the frame's own fields has its minimum at the trivial line w = 0 at all 38 strip rows. B1761's points rank no better than 106th of the 266 lines, and the 2/5 class sits about 3 400 above the minimum. The line is one choice, counted. A content that would select (2/5, 1/10) exists at every row, but it needs net bosons in the charges of Q, u and e. L0, L1 and L2 as predicted; L3 failed as worded (the boson weight ×10 moves the minimum to a ≈ 1/6) (`the_line_potential_at_the_strip.py`; `W167_RULE.md`)
+
+**Why.** The plan's stage 2 (`THE_NINETEEN_PLAN_2026-10-27.md`; the owner's "agreed continue do them all") asks
+whether B1761's condition is forced. In the frame each field of 6Y charge q sees the line as q·w, so w is the
+hypercharge's flat connection on the fibre. The joint action's one-loop potential decides which flat connection is
+chosen. That is THE WEAVE's spontaneous-breaking clause.
+
+**The order.**
+- The rule (`W167_RULE.md`, b46c2b484) was committed and pushed before the script existed. A sign slip in the draft
+  was corrected by hand before the rule was committed, and is disclosed there.
+- The script (0150492e7) was committed before its one run, checked only for syntax and names.
+- The run took 261 s. Its output (093472cb4) was committed unread, after a check of the exit, failures, NaN, paths and
+  warnings, then read once.
+
+**The result (COMPUTED; one run; L0, L1 and L2 as predicted; L3 failed as worded).**
+- **L0, the kernel.**
+  - W59's kernel with N = 48 agrees with N = 64 to 2.7 × 10⁻⁸ relative, and the content's minimum does not move.
+  - V is even exactly.
+  - The frame's T-law V(ψ₁, ψ₂; τ) = V(ψ₁, ψ₂ + ψ₁; τ + 1) holds to 2.4 × 10⁻⁸, the truncation.
+- **L1, the minimum.** At all 38 rows the global minimum is ψ = (0, 0), the trivial line, with V between −2 202 and
+  −2 288. No row's minimum is on B1761's set.
+- **L2, B1761's points.**
+  - At every row B1761's best point ranks 106th among the 266 lines, above the 10th percentile (about −720 against
+    −75).
+  - The best point of the 2/5 class lies 3 371–3 503 above the minimum.
+- **L3 failed as worded.**
+  - With the bosons' weight ×2 and ×5 the minimum stays at a = 0 at every row.
+  - At ×10 it moves at every row to a = 0.1678. That tends to 1/6 at ×20 and ×50 (0.1672, then 0.1669), with b near
+    0 or 1/6.
+  - So 3a goes to ½, the Higgs's half-period: W59's boson minimum. At no weight is the minimum on B1761's set.
+- **The census over contents (read-out).**
+  - At every row, weights c_q ∈ [−1, 1] exist that make the line (2/5, 1/10) the strict global minimum, with margin
+    t* = 1.24–1.50.
+  - The max-margin weights are the same at every row: +1 at |q| = 1, 4 and 6, −0.556 at |q| = 2, and −1 at |q| = 3.
+  - With bosons positive, that is net bosons in the charges of Q (1), u (4) and e (6), and net fermions in those of
+    d (2) and L or H (3).
+  - The linear programme gives one solution. Other contents may also select the line.
+
+**What it shows (a READING on the computed facts).**
+- **Stage 2 ends as the plan expected: the line is one choice, counted.** The one-loop potential of the frame's own
+  fields has its minimum at the trivial line. That line fails the six at every height (W162). B1761's lines lie deep
+  in the potential's upper range at every strip row.
+  - So no weave selector of this kind forces the line.
+  - This answers P-384's candidate question at one loop, for the frame's content: no.
+- **The choice can be moved, not removed.** A content of these charges that selects (2/5, 1/10) exists. It must be
+  boson-heavy where the Standard Model has only fermions, the charges of Q, u and e.
+  - If GENESIS FK11's content were ever earned, this is the test it would face.
+  - Until then the line is counted against the 19.
+- **What a boson-heavy content does instead:** it sends a to 1/6, where 3a sits at the Higgs's half-period. It never
+  sends it to 2/5.
+
+**Weave or thread.** The potential is weave-type (all three parities, every field of the frame). It was evaluated at
+38 rows the data's six chose, so the result is a frame result. Its claim, that the minimum is the trivial line, holds
+at every one of them.
+
+**For the look ledger:** no look at any target. The census over contents looks only at the frame.
+
+0 of 19.
+
 ## W166. The plan's stage 3, the Higgs from the same action: each doublet as the response of the matter's induced one-loop form to the record's DR, H = K⁻¹·DR. B1762's fitted boost is the up sector's inverse form to 0.3% (K4 held), but the nine fail far from the bar at all 38 strip rows (least 1953; K2 and K3 failed): the down and lepton couplings come out 88°–90° from the free fits'. Post hoc, the fits' down Higgs is the same response conjugated, the per-sector h̄ that no frame structure assigns (`the_higgs_from_the_action.py`; `W166_RULE.md`; post hoc `the_higgs_from_the_action_posthoc.py`)
 
 **Why.** The plan's stage 3 (`THE_NINETEEN_PLAN_2026-10-27.md`; the owner's "agreed continue do them all") asks for
@@ -14042,6 +14101,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W167 | COMPUTED (the rule first; one run; L0, L1 and L2 as predicted; L3 failed as worded); a frame result, the plan's stage 2 | the hypercharge line's one-loop potential from the frame's own fields (W59's kernel): its minimum is the trivial line w = 0 at all 38 strip rows; B1761's points rank 106th of 266; the 2/5 class lies about 3 400 above the minimum; the boson weight ×10 sends a to about 1/6, never to 2/5; a content selecting (2/5, 1/10) exists (t* 1.24–1.50) but needs net bosons in the charges of Q, u and e; **the line is one choice, counted** |
 | W166 | COMPUTED (the rule first; parts V and S each run once; K0, K1 and K4 as predicted; K2 and K3 failed); a thread-and-frame result, the plan's stage 3 | H = K⁻¹·DR from the matter's induced form, frozen blind: B1762's boost is K_up⁻¹ to 0.3%; the nine fail at all 38 rows (least 1953; the record's own DR pair 1358; no table entry below 21.67); the down and lepton couplings lie 88°–90° from the fits'; post hoc, the fits' down Higgs is the same response conjugated (1.2°–1.4° from B1762's hd₁): a per-sector h̄ (I-35), unearned |
 | W165 | COMPUTED (the rule first; one run, one launch; every cell as predicted; blind to main's comparison); a thread-and-frame result, a third opinion | main's B1792 census reproduces on own instrument at all 2 500 points (to 1.2 × 10⁻⁹ in log, J 8.3 × 10⁻⁹); the carrying set by two routes agrees, {7, 29, 41, 47, 49, 55}/60; **this seat's prediction failed in R_a**: six of the eight predicted lines carry, the pair 1/60, 7/12 stays at 36.3; R_b holds (the other twelve no lower than 19.97); main's comparison, read afterwards, agrees exactly (verdicts, carriers, specificity 96 of 160 000); post hoc, the near-invariance under u → u + 1/3 is incomplete at some strip points. 0 of 19 |
 | W164 | COMPUTED (the rule first; one run, one launch; every cell as predicted); a thread-and-frame result, a third opinion | main's B1786 reproduces in full on own instrument and seeds: each class's mean, worst seed and hits equal main's exactly (slope 2/5: 3.0048, 8 of 160 000; 1/10: 919.27; the rest: 103.10), D also on fresh seeds (7 of 160 000); the referee's class-choosing null reproduced on fresh draws (57 of 240 000, 2.38 × 10⁻⁴; m·r 0.0126 at 41), so not PASSED; the best rows on own instrument to 2.1 × 10⁻¹¹ with the T-step, b → b + 1 and mirror controls; 36 rows below the bar, all on FINDINGS' twelve offsets in six mirror pairs; the six at orders 25 and 30 at the same eight apex points as at the lower orders; post hoc, nearly a function of 3 Re w (the order-30 carriers are the +1/3 shifts of the order-10 ones); agrees with main's scope. 0 of 19 |

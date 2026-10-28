@@ -21198,3 +21198,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **A check on the web seat:** the web seat found that the strong-force angle cannot be made to vanish by anything
   in the frame as built. This seat will check that with its own code and a different method.
   0 of 19.
+
+## 2026-10-28 — the line the data need is not the one nature would pick by itself
+
+- **What was found:** the energy that the record's own particles give each possible line is lowest for the plain,
+  trivial line, not for the line the data need. That line ranks about in the middle of 266.
+- **What that means:** the line is a choice the record makes by hand. It is counted as one of the free numbers.
+- **What would change it:** a different set of particles, heavy in bosons where nature has fermions. Nothing on record
+  supplies that.
+  0 of 19.

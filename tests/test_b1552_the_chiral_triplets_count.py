@@ -5258,3 +5258,36 @@ def test_w166_the_higgs_from_the_action():
         assert p["down: D1 response conjugated to B1762's hd_1 (deg)"] < 1.5
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W166. The plan's stage 3, the Higgs from the same action" in note
+
+def test_w167_the_line_potential_at_the_strip():
+    """W167: L0, L1 and L2 as predicted, L3 failed as worded; in process, the frame's content potential on W59's kernel
+    at the first strip row: V at the trivial line equals the recorded minimum, and V at B1761's (2/5, 1/10) lies above
+    it by more than 3 000"""
+    import contextlib
+    import io
+    import sys
+
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_line_potential_at_the_strip.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"L0": True, "L1": True, "L2": True, "L3": False} and "run_failed" not in d
+    rows = d["per row"]
+    assert len(rows) == 38 and all(r["a = 0"] and not r["on B1761's set"] for r in rows)
+    assert all(r["B1761's least rank among the 266"] == 106 for r in rows)
+    assert d["R"]["the least boson multiplier at which a != 0 wins somewhere (up to 50)"] == 10
+    assert d["R"]["census: rows with t* > 0"] == 38
+    sys.path.insert(0, str(here))
+    with contextlib.redirect_stdout(io.StringIO()):
+        import the_one_loop_potential_on_the_fibre as W59
+    fields = ((1, 18, -1), (-4, 9, -1), (2, 9, -1), (-3, 6, -1), (6, 3, -1), (-3, 2, 1), (3, 2, 1))
+    r0 = rows[0]
+    J = W59.Joint(complex(r0["row"][2], r0["row"][3]), 1, 48)
+
+    def V(ps):
+        return sum(n * s * float(-np.sum(J.cw * np.cos(2 * np.pi * (J.m * q * ps[0] + J.n * q * ps[1]))))
+                   for q, n, s in fields)
+
+    assert abs(V((0.0, 0.0)) / r0["minimum"]["value"] - 1) < 1e-9
+    assert V((-0.4, 0.1)) - V((0.0, 0.0)) > 3000
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W167. The plan's stage 2, is the line's condition forced?" in note

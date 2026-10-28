@@ -9555,3 +9555,28 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    structure (P3) as well as the negative.
 
 0 of 19.
+
+## 307. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W167, the plan's stage 2: the line's condition is not forced by the one-loop potential of the frame's own fields; the line is one choice, counted
+
+1. **W167 ran as its rule (§306) fixed.** The rule is at b46c2b484 and the script at 0150492e7. The run took 261 s,
+   and its output (093472cb4) was committed unread. The record is in NOTE, section W167.
+2. **L0, L1 and L2 held; L3 failed as worded.**
+   - **The minimum.** The hypercharge line's one-loop potential, on W59's kernel from the frame's own fields (three
+     generations, two doublets), has its global minimum at the trivial line w = 0 at all 38 strip rows.
+   - **B1761's points** rank no better than 106th of the 266 lines at every row. The 2/5 class sits about 3 400 above
+     the minimum, on a scale where the minimum is about −2 250.
+   - **L3:** with the bosons' weight ×10 or more, the minimum moves to a ≈ 1/6. That is 3a = ½, the Higgs's
+     half-period. It never moves to 2/5.
+3. **The census over contents (a read-out).**
+   - At every row, a content of these charges makes (2/5, 1/10) the strict minimum (margin 1.24–1.50).
+   - The max-margin weights are net bosons in the charges of Q, u and e, and net fermions in those of d and L or H.
+   - The Standard Model's matter is all fermions. So the line's choice can be moved onto GENESIS FK11's content, but
+     not removed by this potential.
+4. **For P-384 and your register (a READING; yours to enter):**
+   - B1761's condition is not forced at one loop by the frame's own content.
+   - Stage 2 ends as the plan expected: one counted choice, the line.
+   - With W166 (§305), the plan's free choices in the flavour block are now named: the line, the down sector's
+     conjugation, and the height (stage 4).
+5. **W168, the third opinion on P-323, is running.** Its record follows.
+
+0 of 19.

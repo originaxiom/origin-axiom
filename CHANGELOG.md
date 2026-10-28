@@ -1,5 +1,15 @@
 # Changelog
 
+## W167 recorded: the line is not forced by the one-loop potential of the frame's own fields (relay §307)
+
+- **The test:** the plan's stage 2. The hypercharge line's one-loop potential, from the frame's own fields, was
+  minimised at the 38 strip rows.
+- **The result:** the minimum is the trivial line at every row, and the line the six need ranks 106th of 266. The line
+  is one choice, counted. A content that would select it exists, but it needs bosons where the Standard Model has
+  fermions.
+- **Surfaces.** The script and its output, NOTE (section and row), a lock test, the relay, the ledger row, the state
+  page. 0 of 19.
+
 ## Two rules before their scripts: W167, is the line forced?, and W168, the third opinion on P-323 (relay §306)
 
 - **W167, stage 2:** the one-loop potential of the hypercharge line from the frame's own fields, minimised at the 38
