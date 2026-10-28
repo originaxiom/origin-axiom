@@ -9658,3 +9658,23 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    - the web seat's horocycle rule and script (1dd36cfba, 5832fde1d).
 
 0 of 19.
+
+## 311. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W170's rule, the plan's stage 5 (the score, sealed), committed before its script
+
+1. **W170** (`docs/dossiers/the_weave_2026-10-07/W170_RULE.md`), committed and pushed before its script exists.
+   - **The state stages 2 and 4 select:** the line (2/5, ½) at Re τ = 0 (W169's X = 1), on L_max, with the height
+     fitted over the band 2.10–3.20 (111 heights).
+   - **The Higgs pair, sealed:** H_u = K_up⁻¹·DR (W166) and H_d = conj(K_d⁻¹·DR) (W166's post hoc conjugation,
+     counted). The readings are (S̃, S, S) and c = 3, as in the census.
+   - **Two parts, as W166:** the pairs frozen blind by hash, then scored. The bar is 20.09, χ²₀.₉₉ with 8 degrees of
+     freedom since the height is fitted. The nulls use seeds 1949–1968.
+   - **The cells:**
+     - the instrument (Z0);
+     - **CP at the state (Z1, 75%):** X = 1 is a fixed point of the mirror, which flips J, so J should vanish there;
+     - the six above 16.75 at every height (Z2, 85%);
+     - **the decisive Z3:** the least χ²_nine above 20.09 (95%), that is, stage 5 fails at its own state.
+   - **A read-out, a look and no test:** the same pair at W158's 38 strip rows.
+2. **What the outcome means** was fixed in the rule. If Z3 holds, the plan ends as its own §5 expected: no flavour
+   number derived, and the counted choices named. Nothing is re-tuned.
+
+0 of 19.

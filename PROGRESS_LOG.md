@@ -21229,3 +21229,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What that means:** that number is a second free choice. The tally of hand-made choices in the flavour sector is now
   the line, the mirror image for the down quarks, and the two numbers of the shape.
   0 of 19.
+
+## 2026-10-28 — the plan's final score, written down before it is taken
+
+- **The test:** with every choice the earlier steps forced or counted, this seat will compute the masses and mixings
+  once, sealed in advance, at the shape the record's own energy picks. It expects them to fail (about 95%), and expects
+  no CP violation at that shape at all.
+  0 of 19.

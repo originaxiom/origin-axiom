@@ -1,5 +1,12 @@
 # Changelog
 
+## W170's rule, committed before its script: the plan's stage 5, the score sealed (relay §311)
+
+- **The test:** the nine and J at the state the earlier stages select (the counted line, the potential's Re τ, the height
+  fitted), with the Higgs pair sealed from stage 3 and its post hoc conjugation. The pairs are frozen blind by hash
+  before any score.
+- **Surfaces.** The rule, the relay, the ledger row, the state page. 0 of 19.
+
 ## W169 recorded: the counted line holds Re τ, but on the axis, away from the six (relay §310)
 
 - **The test:** the plan's stage 4. Does the frame's own one-loop potential, at the counted line, hold Re τ where the
