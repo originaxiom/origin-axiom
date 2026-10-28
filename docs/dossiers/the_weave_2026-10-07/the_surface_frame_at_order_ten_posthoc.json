@@ -1,0 +1,3805 @@
+{
+ "status": "POST HOC (labelled), after W171's read-out; K2 with the eps-law and the character tested",
+ "K2 post hoc": {
+  "rows": [
+   {
+    "line (a, b)": [
+     0,
+     1
+    ],
+    "element": [
+     -1,
+     0,
+     -10,
+     -1
+    ],
+    "eps": -1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "character turns (identity channel)": 0.3,
+    "eps-law turns": 0.30000000000000004,
+    "law error": 2.6232449952189427e-60,
+    "tau-dependence": 2.974552888536469e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     0,
+     1
+    ],
+    "element": [
+     -1,
+     0,
+     -10,
+     -1
+    ],
+    "eps": -1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 2.4172459436179808e-60,
+    "tau-dependence": 2.1690993954716327e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     0,
+     1
+    ],
+    "element": [
+     -1,
+     0,
+     -10,
+     -1
+    ],
+    "eps": -1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.744584044164623e-60,
+    "tau-dependence": 2.1690993954716327e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     0,
+     3
+    ],
+    "element": [
+     -1,
+     0,
+     -10,
+     -1
+    ],
+    "eps": -1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "character turns (identity channel)": 0.7,
+    "eps-law turns": 0.6999999999999993,
+    "law error": 7.773322051824642e-60,
+    "tau-dependence": 2.123190765305672e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     0,
+     3
+    ],
+    "element": [
+     -1,
+     0,
+     -10,
+     -1
+    ],
+    "eps": -1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.8574470007746117e-60,
+    "tau-dependence": 1.9886153518242334e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     0,
+     3
+    ],
+    "element": [
+     -1,
+     0,
+     -10,
+     -1
+    ],
+    "eps": -1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 8.215281075407078e-60,
+    "tau-dependence": 1.9886153518242334e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     0
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "character turns (identity channel)": 0.7,
+    "eps-law turns": 0.7,
+    "law error": 3.966409541899998e-61,
+    "tau-dependence": 1.2946451977842117e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     1,
+     0
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 6.27689732870952e-61,
+    "tau-dependence": 6.941588177501586e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     0
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.2689320877474355e-60,
+    "tau-dependence": 6.941588177501586e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     1
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "character turns (identity channel)": 0.7,
+    "eps-law turns": 0.7,
+    "law error": 5.1156866645219445e-61,
+    "tau-dependence": 2.415179407775287e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     1,
+     1
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 6.946162915117544e-61,
+    "tau-dependence": 1.6870344302451105e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     1
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.345251987698594e-60,
+    "tau-dependence": 1.4681959340557465e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     2
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "character turns (identity channel)": 0.7,
+    "eps-law turns": 0.7,
+    "law error": 5.663029383187581e-61,
+    "tau-dependence": 1.5128656023998352e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     1,
+     2
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 4.7570588081437614e-61,
+    "tau-dependence": 1.3819848577533103e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     2
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.4011254236919667e-60,
+    "tau-dependence": 1.4179195755568802e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     3
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "character turns (identity channel)": 0.7,
+    "eps-law turns": 0.7,
+    "law error": 5.2901349235774014e-61,
+    "tau-dependence": 1.5678610356786325e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     1,
+     3
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 4.818271886065114e-61,
+    "tau-dependence": 8.437091963765153e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     3
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.3666300325933645e-60,
+    "tau-dependence": 8.939850050867582e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     4
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "character turns (identity channel)": 0.7,
+    "eps-law turns": 0.7,
+    "law error": 5.1156866645219445e-61,
+    "tau-dependence": 1.6036343312783702e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     1,
+     4
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 8.923372504538964e-61,
+    "tau-dependence": 1.9264717159519445e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     4
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.4978954421088002e-60,
+    "tau-dependence": 1.9112010673039798e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     5
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "character turns (identity channel)": 0.7,
+    "eps-law turns": 0.7,
+    "law error": 5.885706827841542e-61,
+    "tau-dependence": 2.377619935345e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     1,
+     5
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.0571221776483285e-60,
+    "tau-dependence": 2.4498486064255901e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     5
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.4661821127044378e-60,
+    "tau-dependence": 2.4498486064255901e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     6
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "character turns (identity channel)": 0.7,
+    "eps-law turns": 0.7,
+    "law error": 4.919725548016702e-61,
+    "tau-dependence": 1.2946451977842117e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     1,
+     6
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 8.196288206365429e-61,
+    "tau-dependence": 1.6642480450906035e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     6
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.3105607120572252e-60,
+    "tau-dependence": 1.4086289792427661e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     7
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "character turns (identity channel)": 0.7,
+    "eps-law turns": 0.7,
+    "law error": 6.611953732727463e-61,
+    "tau-dependence": 1.7480609422473777e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     1,
+     7
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 4.099026292127038e-61,
+    "tau-dependence": 1.0171568008512285e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     7
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.2524804227026017e-60,
+    "tau-dependence": 1.0323526478443238e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     8
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     }
+    ],
+    "character turns (identity channel)": 0.7,
+    "eps-law turns": 0.7,
+    "law error": 4.9808424944484486e-61,
+    "tau-dependence": 1.804691195090436e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     1,
+     8
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 6.253481151963238e-61,
+    "tau-dependence": 1.6449874087796839e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     8
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.402614924206164e-60,
+    "tau-dependence": 1.5592487496352162e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     9
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "turns": 0.7
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "character turns (identity channel)": 0.7,
+    "eps-law turns": 0.7,
+    "law error": 5.1156866645219445e-61,
+    "tau-dependence": 2.123190765305672e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     1,
+     9
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 6.397707835388529e-61,
+    "tau-dependence": 1.051747467087651e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     1,
+     9
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 1,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.345251987698594e-60,
+    "tau-dependence": 1.1923013213102651e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     2,
+     1
+    ],
+    "element": [
+     -5,
+     7,
+     2,
+     -3
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.2
+     }
+    ],
+    "character turns (identity channel)": 0.1,
+    "eps-law turns": 0.09999999999999964,
+    "law error": 4.22513207944146e-60,
+    "tau-dependence": 1.713096191248976e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     2,
+     1
+    ],
+    "element": [
+     -5,
+     7,
+     2,
+     -3
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 6.72736188858907e-61,
+    "tau-dependence": 1.7398904377113092e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     2,
+     1
+    ],
+    "element": [
+     -5,
+     7,
+     2,
+     -3
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 4.1121396983145234e-60,
+    "tau-dependence": 1.8289377453053242e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     2,
+     3
+    ],
+    "element": [
+     -7,
+     3,
+     2,
+     -1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.2
+     }
+    ],
+    "character turns (identity channel)": 0.1,
+    "eps-law turns": 0.09999999999999964,
+    "law error": 4.5096738771030744e-60,
+    "tau-dependence": 9.07152568152392e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     2,
+     3
+    ],
+    "element": [
+     -7,
+     3,
+     2,
+     -1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.4799624603483006e-62
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.1746544384141833e-60,
+    "tau-dependence": 1.0969116210570637e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     2,
+     3
+    ],
+    "element": [
+     -7,
+     3,
+     2,
+     -1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 2.1913395555358064e-62
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 3.6556844626053826e-60,
+    "tau-dependence": 1.2400448077481136e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     2,
+     5
+    ],
+    "element": [
+     -9,
+     -5,
+     2,
+     1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.2
+     }
+    ],
+    "character turns (identity channel)": 0.1,
+    "eps-law turns": 0.09999999999999964,
+    "law error": 4.1243984448909613e-60,
+    "tau-dependence": 8.41402525212155e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     2,
+     5
+    ],
+    "element": [
+     -9,
+     -5,
+     2,
+     1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 5.851005309670247e-61,
+    "tau-dependence": 1.0938595808619108e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     2,
+     5
+    ],
+    "element": [
+     -9,
+     -5,
+     2,
+     1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 3.914309545010877e-60,
+    "tau-dependence": 1.0938595808619108e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     2,
+     7
+    ],
+    "element": [
+     -7,
+     -3,
+     -2,
+     -1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.8
+     }
+    ],
+    "character turns (identity channel)": 0.9,
+    "eps-law turns": 0.9000000000000004,
+    "law error": 2.958234285655789e-60,
+    "tau-dependence": 7.043975007693234e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     2,
+     7
+    ],
+    "element": [
+     -7,
+     -3,
+     -2,
+     -1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.334114959810372e-60,
+    "tau-dependence": 9.859322661179867e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     2,
+     7
+    ],
+    "element": [
+     -7,
+     -3,
+     -2,
+     -1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 4.030235030297938e-60,
+    "tau-dependence": 8.86413773738855e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     2,
+     9
+    ],
+    "element": [
+     -5,
+     -7,
+     -2,
+     -3
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.8
+     }
+    ],
+    "character turns (identity channel)": 0.9,
+    "eps-law turns": 0.9000000000000004,
+    "law error": 2.9066482149516844e-60,
+    "tau-dependence": 1.670172555056782e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     2,
+     9
+    ],
+    "element": [
+     -5,
+     -7,
+     -2,
+     -3
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.3936633510746073e-60,
+    "tau-dependence": 1.739305229522017e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     2,
+     9
+    ],
+    "element": [
+     -5,
+     -7,
+     -2,
+     -3
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 4.036811616280402e-60,
+    "tau-dependence": 1.6536798873215104e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     0
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "character turns (identity channel)": 0.3,
+    "eps-law turns": 0.3000000000000007,
+    "law error": 6.654485773339058e-60,
+    "tau-dependence": 7.3074901266339e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     3,
+     0
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.2519997558863395e-60,
+    "tau-dependence": 7.293158228763414e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     0
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 6.416387818193573e-60,
+    "tau-dependence": 7.293158228763414e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     1
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "character turns (identity channel)": 0.3,
+    "eps-law turns": 0.3000000000000007,
+    "law error": 6.892006979507034e-60,
+    "tau-dependence": 1.5188532205336606e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     3,
+     1
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.2803508980793947e-60,
+    "tau-dependence": 1.0097531083923478e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     1
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 6.034790819638381e-60,
+    "tau-dependence": 1.0180938466533007e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     2
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "character turns (identity channel)": 0.3,
+    "eps-law turns": 0.3000000000000007,
+    "law error": 6.556930220073348e-60,
+    "tau-dependence": 1.5484440508231976e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     3,
+     2
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.46355155096053e-60,
+    "tau-dependence": 1.67815384010839e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     2
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 6.281830322532804e-60,
+    "tau-dependence": 1.7208102971607156e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     3
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "character turns (identity channel)": 0.3,
+    "eps-law turns": 0.3000000000000007,
+    "law error": 6.69155019524215e-60,
+    "tau-dependence": 1.2621037878182324e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     3,
+     3
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.2432374906156284e-60,
+    "tau-dependence": 1.4846009437797161e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     3
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 6.206311897398145e-60,
+    "tau-dependence": 1.4473470102346593e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     4
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "character turns (identity channel)": 0.3,
+    "eps-law turns": 0.3000000000000007,
+    "law error": 6.740203550418641e-60,
+    "tau-dependence": 9.04647770270433e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     3,
+     4
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.4193581966820365e-60,
+    "tau-dependence": 1.481673759641626e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     4
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 5.851690126785991e-60,
+    "tau-dependence": 1.5740369992071525e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     5
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "character turns (identity channel)": 0.3,
+    "eps-law turns": 0.3000000000000007,
+    "law error": 6.863413880076138e-60,
+    "tau-dependence": 2.4366924355972193e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     3,
+     5
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.4495713326087932e-60,
+    "tau-dependence": 2.4761342175488817e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     5
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 6.846639590271801e-60,
+    "tau-dependence": 2.4761342175488817e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     6
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "character turns (identity channel)": 0.3,
+    "eps-law turns": 0.3000000000000007,
+    "law error": 6.683520038053065e-60,
+    "tau-dependence": 1.0757506127372558e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     3,
+     6
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.345251987698594e-60,
+    "tau-dependence": 1.363463150518379e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     6
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 5.870036500621365e-60,
+    "tau-dependence": 1.384277569170654e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     7
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "character turns (identity channel)": 0.3,
+    "eps-law turns": 0.3000000000000007,
+    "law error": 6.765740655574401e-60,
+    "tau-dependence": 1.1829101299264724e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     3,
+     7
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.267273430166391e-60,
+    "tau-dependence": 1.0560851152213522e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     7
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 6.095971190754777e-60,
+    "tau-dependence": 1.0286167506120944e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     8
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     }
+    ],
+    "character turns (identity channel)": 0.3,
+    "eps-law turns": 0.3000000000000007,
+    "law error": 6.567879671286711e-60,
+    "tau-dependence": 1.4469346923636232e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     3,
+     8
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.3105607120572252e-60,
+    "tau-dependence": 1.6223235640468308e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     8
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 6.430036220018667e-60,
+    "tau-dependence": 1.6062687157858538e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     9
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "turns": 0.3
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "character turns (identity channel)": 0.3,
+    "eps-law turns": 0.3000000000000007,
+    "law error": 6.949384439960213e-60,
+    "tau-dependence": 1.713096191248976e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     3,
+     9
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.37731905504075e-60,
+    "tau-dependence": 9.458358290595867e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     3,
+     9
+    ],
+    "element": [
+     1,
+     10,
+     0,
+     1
+    ],
+    "eps": 1,
+    "c": 9,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 5.961349121876134e-60,
+    "tau-dependence": 7.684569376949564e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     4,
+     1
+    ],
+    "element": [
+     -7,
+     3,
+     2,
+     -1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.8
+     }
+    ],
+    "character turns (identity channel)": 0.9,
+    "eps-law turns": 0.9000000000000004,
+    "law error": 3.345775097621075e-60,
+    "tau-dependence": 1.1563971617037138e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     4,
+     1
+    ],
+    "element": [
+     -7,
+     3,
+     2,
+     -1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 4.119319315372627e-62
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.872216389469507e-60,
+    "tau-dependence": 1.0684291020362747e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     4,
+     1
+    ],
+    "element": [
+     -7,
+     3,
+     2,
+     -1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 4.214504168819986e-60,
+    "tau-dependence": 9.366836244554598e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     4,
+     3
+    ],
+    "element": [
+     -5,
+     -7,
+     -2,
+     -3
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.2
+     }
+    ],
+    "character turns (identity channel)": 0.1,
+    "eps-law turns": 0.09999999999999964,
+    "law error": 4.416292967795867e-60,
+    "tau-dependence": 1.8830406187955445e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     4,
+     3
+    ],
+    "element": [
+     -5,
+     -7,
+     -2,
+     -3
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 9.32805889070736e-62
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.2807793755215957e-60,
+    "tau-dependence": 1.7384004068147542e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     4,
+     3
+    ],
+    "element": [
+     -5,
+     -7,
+     -2,
+     -3
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.5075116707074567e-62
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 3.7763237032619966e-60,
+    "tau-dependence": 1.7456304846711261e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     4,
+     5
+    ],
+    "element": [
+     -9,
+     -5,
+     2,
+     1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.8
+     }
+    ],
+    "character turns (identity channel)": 0.9,
+    "eps-law turns": 0.9000000000000004,
+    "law error": 3.47267811059929e-60,
+    "tau-dependence": 6.646183230151726e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     4,
+     5
+    ],
+    "element": [
+     -9,
+     -5,
+     2,
+     1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.404645573985629e-60,
+    "tau-dependence": 9.630217671816435e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     4,
+     5
+    ],
+    "element": [
+     -9,
+     -5,
+     2,
+     1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 4.2147556558586015e-60,
+    "tau-dependence": 9.630217671816435e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     4,
+     7
+    ],
+    "element": [
+     -5,
+     7,
+     2,
+     -3
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.8
+     }
+    ],
+    "character turns (identity channel)": 0.9,
+    "eps-law turns": 0.9000000000000004,
+    "law error": 3.302085191246224e-60,
+    "tau-dependence": 1.5342130794789723e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     4,
+     7
+    ],
+    "element": [
+     -5,
+     7,
+     2,
+     -3
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 2.0734396875451624e-62
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.8376451283668635e-60,
+    "tau-dependence": 1.8842768779899137e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     4,
+     7
+    ],
+    "element": [
+     -5,
+     7,
+     2,
+     -3
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 4.3766450402465393e-60,
+    "tau-dependence": 1.721582196925099e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     4,
+     9
+    ],
+    "element": [
+     -7,
+     -3,
+     -2,
+     -1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "up",
+    "identically zero channels": [
+     "i"
+    ],
+    "cycles": [
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     },
+     {
+      "length": 2,
+      "turns": 0.2
+     }
+    ],
+    "character turns (identity channel)": 0.1,
+    "eps-law turns": 0.09999999999999964,
+    "law error": 4.416292967795867e-60,
+    "tau-dependence": 6.075412882134642e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     4,
+     9
+    ],
+    "element": [
+     -7,
+     -3,
+     -2,
+     -1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.6348776017796297e-63
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 1.148526896675638e-60,
+    "tau-dependence": 9.205529855679199e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     4,
+     9
+    ],
+    "element": [
+     -7,
+     -3,
+     -2,
+     -1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 1,
+      "turns": 0.5
+     },
+     {
+      "length": 2,
+      "turns": 1.0
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 4.3217409870870847e-60,
+    "tau-dependence": 7.938741623886753e-61,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     5,
+     1
+    ],
+    "element": [
+     -4,
+     -3,
+     -5,
+     -4
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 0.2
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "character turns (identity channel)": 0.1,
+    "eps-law turns": 0.09999999999999964,
+    "law error": 4.649726287602283e-60,
+    "tau-dependence": 1.8830406187955445e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     5,
+     1
+    ],
+    "element": [
+     -4,
+     -3,
+     -5,
+     -4
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.8143658154228724e-61
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 3.097500459273157e-60,
+    "tau-dependence": 3.6841195627851315e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     5,
+     1
+    ],
+    "element": [
+     -4,
+     -3,
+     -5,
+     -4
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.8143658154228724e-61
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 3.8168620624942897e-60,
+    "tau-dependence": 3.602779734461655e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     5,
+     2
+    ],
+    "element": [
+     -9,
+     -2,
+     5,
+     1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 0.2
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "character turns (identity channel)": 0.1,
+    "eps-law turns": 0.09999999999999964,
+    "law error": 5.349282540286715e-60,
+    "tau-dependence": 1.4301092982810076e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     5,
+     2
+    ],
+    "element": [
+     -9,
+     -2,
+     5,
+     1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 6.945093153836692e-62
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 3.016606753444265e-60,
+    "tau-dependence": 2.354540391764954e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     5,
+     2
+    ],
+    "element": [
+     -9,
+     -2,
+     5,
+     1
+    ],
+    "eps": 1,
+    "c": 3,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 6.945093153836692e-62
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 4.369119402887415e-60,
+    "tau-dependence": 2.3192480776420683e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     5,
+     3
+    ],
+    "element": [
+     -4,
+     -3,
+     -5,
+     -4
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "up",
+    "identically zero channels": [
+     "k"
+    ],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 0.8
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "character turns (identity channel)": 0.9,
+    "eps-law turns": 0.9000000000000004,
+    "law error": 5.572688682172611e-60,
+    "tau-dependence": 2.01798722380959e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     5,
+     3
+    ],
+    "element": [
+     -4,
+     -3,
+     -5,
+     -4
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.9820220264448346e-61
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 4.1007694081371845e-60,
+    "tau-dependence": 4.046905416126786e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     5,
+     3
+    ],
+    "element": [
+     -4,
+     -3,
+     -5,
+     -4
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.9820220264448346e-61
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 6.934274397117899e-60,
+    "tau-dependence": 3.7551499169479457e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     5,
+     4
+    ],
+    "element": [
+     -9,
+     -2,
+     5,
+     1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "up",
+    "identically zero channels": [
+     "j"
+    ],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 0.8
+     },
+     {
+      "length": 1,
+      "untested: an identically zero channel": true
+     }
+    ],
+    "character turns (identity channel)": 0.9,
+    "eps-law turns": 0.9000000000000004,
+    "law error": 3.493524789756372e-60,
+    "tau-dependence": 1.4087950015386468e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": true
+   },
+   {
+    "line (a, b)": [
+     5,
+     4
+    ],
+    "element": [
+     -9,
+     -2,
+     5,
+     1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "down",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.039986462465607e-62
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 3.338176654539709e-60,
+    "tau-dependence": 2.5241986114266177e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   },
+   {
+    "line (a, b)": [
+     5,
+     4
+    ],
+    "element": [
+     -9,
+     -2,
+     5,
+     1
+    ],
+    "eps": 1,
+    "c": 7,
+    "sector": "leptons",
+    "identically zero channels": [],
+    "cycles": [
+     {
+      "length": 2,
+      "turns": 3.039986462465607e-62
+     },
+     {
+      "length": 1,
+      "turns": 0.5
+     }
+    ],
+    "character turns (identity channel)": 0.5,
+    "eps-law turns": 0.5,
+    "law error": 5.250817873029222e-60,
+    "tau-dependence": 2.4211138032396942e-60,
+    "character equal to 1": false,
+    "the rule's form (eps = -1 case) misses": false
+   }
+  ],
+  "worst law error": 8.215281075407078e-60,
+  "worst tau-dependence": 4.046905416126786e-60,
+  "some character equal to 1": false,
+  "rows the rule's form misses": 34,
+  "holds": true
+ },
+ "seconds": 11.7
+}
