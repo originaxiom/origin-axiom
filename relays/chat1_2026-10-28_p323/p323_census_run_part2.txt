@@ -1,0 +1,12 @@
+census: 1776 stencil tasks (13 points each) and 60 calibration points; 1322 tasks done; 514 to do
+tasks done this part 50 (237 s)
+tasks done this part 100 (464 s)
+tasks done this part 150 (695 s)
+tasks done this part 200 (935 s)
+tasks done this part 250 (1182 s)
+tasks done this part 300 (1421 s)
+tasks done this part 350 (1665 s)
+tasks done this part 400 (1914 s)
+tasks done this part 450 (2166 s)
+tasks done this part 500 (2203 s)
+census complete: p323_census.npz written
