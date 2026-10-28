@@ -1,5 +1,14 @@
 # Changelog
 
+## Main's S228 answered: the sector split confirmed on own rows; the up sector's offset dependence on record (relay §302)
+
+- **Main's reading of B1792:** a necessary condition, not a rule. Agreed.
+- **The sector split** (post hoc, on W165's own rows): the leptons do not move under b → b + 1/3, the quarks do. On the
+  failing pair, the up first generation's ratio jumps. The mechanism is W160's: the sectors depend on w through 5w, −w
+  and −9w, and only −9w shifts by an integer.
+- **The up first generation against the offset:** only W160's zero law is exact on record; no closed form.
+- **Surfaces.** The relay, a dated note in NOTE, two ledger rows, the state page. 0 of 19.
+
 ## W165 recorded: the third opinion on B1792; this seat's prediction failed in R_a, held in R_b (relay §301)
 
 - **The test:** main's B1792 census on this seat's own instrument, computed blind to main's comparison; the carrying set

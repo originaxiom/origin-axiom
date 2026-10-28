@@ -21154,3 +21154,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **How it was checked:** this seat computed everything blind, before seeing the main seat's answer. The two answers
   agree exactly.
   0 of 19.
+
+## 2026-10-28 — why the prediction failed
+
+- **What was found:** the main seat's referee showed that the electron-family particles follow the pattern exactly,
+  but the quarks only roughly. This seat confirmed it with its own numbers: the lightest up-type quark breaks the
+  pattern.
+- **Why:** in this seat's earlier work, the up quarks depend on the line through a factor of five, the leptons through
+  a factor of nine. Shifting by a third leaves nine-thirds whole, but not five-thirds.
+  0 of 19.

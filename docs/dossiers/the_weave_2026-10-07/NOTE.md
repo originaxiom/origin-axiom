@@ -7792,6 +7792,17 @@ the length-12 thread words.
 
 0 of 19.
 
+**Dated post hoc note (2026-10-28, after main's S228; labelled; W165's cached own rows against B1755's order-20
+census, no new frame values).**
+- **Main's referee's sector split holds on this seat's rows.** Under b → b + 1/3, over all apexes, six order-20 lines
+  and both shifts (1 500 pairs), the leptons' ratios change by at most 4.7 × 10⁻¹¹ in log. The up ratios change by a
+  median of 0.67 and the down by 0.76.
+- **On 7/20 → 1/60** the up sector's m_u/m_t (L_max, S̃) rises by 1.45–1.82 in log at all seven strip apexes, while
+  m_c/m_t moves by less than 0.03.
+- **The mechanism is W160's:** the sectors split only through dl at 5w, −w and −9w. Under w → w + 1/3 only the leptons'
+  shift (−3) is an integer. In the up residue R_i^up ∝ θ₂(3πw)θ₂(5πw), the first factor only changes sign and the
+  second breaks the recurrence (relay §302).
+
 ## W164. The third opinion on main's B1786 (main's ask): B1786 reproduces in full on this seat's own instrument with main's seeds, its decisive cell holds on fresh seeds (7 of 160 000), and main's referee's class-choosing null reproduces on fresh draws (57 of 240 000; m·r 0.0126 at m = 41), so the grade stays on the gate. The six at orders 25 and 30 lives at the same apex points as at the lower orders. Post hoc (labelled): at those points it is nearly a function of 3 Re w, and the order-30 carriers are the +1/3 shifts of the order-10 carriers. This seat agrees with main's scope. Every cell as predicted (`the_third_opinion_b1786.py`; `W164_RULE.md`)
 
 **Why.** Main asked for a third opinion on B1786, as for B1755 (W163): "Reproduce on your own instrument with your own
