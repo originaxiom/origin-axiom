@@ -1,0 +1,28 @@
+a  12 carriers in 6 T-orbit classes:
+   class 0: carriers ['3/25', '23/25']; orbit ['13/25', '18/25', '23/25', '3/25', '8/25']; mirror partner class [3]
+   class 1: carriers ['4/25', '19/25']; orbit ['14/25', '19/25', '24/25', '4/25', '9/25']; mirror partner class [2]
+   class 2: carriers ['11/25', '21/25']; orbit ['1/25', '11/25', '16/25', '21/25', '6/25']; mirror partner class [1]
+   class 3: carriers ['12/25', '17/25']; orbit ['12/25', '17/25', '2/25', '22/25', '7/25']; mirror partner class [0]
+   class 4: carriers ['1/6', '23/30']; orbit ['1/6', '11/30', '17/30', '23/30', '29/30']; mirror partner class [5]
+   class 5: carriers ['13/30', '5/6']; orbit ['1/30', '13/30', '19/30', '5/6', '7/30']; mirror partner class [4]
+b  B1667's untwisted c_r = N_2 - 2 pi L_2 at its grid points with Im tau >= 3:
+   tau [0.05, 3.0]: {'2': 18.059, '3': -2.84, '4': -2.836}
+   tau [0.15, 3.0]: {'2': 18.059, '3': -2.839, '4': -2.836}
+   tau [0.25, 3.0]: {'2': 18.059, '3': -2.839, '4': -2.836}
+   tau [0.25, 3.25]: {'2': 20.527, '3': -2.838, '4': -2.837}
+   tau [0.25, 3.5]: {'2': 22.994, '3': -2.838, '4': -2.837}
+   tau [0.25, 3.75]: {'2': 25.461, '3': -2.838, '4': -2.838}
+   tau [0.25, 4.0]: {'2': 27.929, '3': -2.838, '4': -2.838}
+   tau [0.35, 3.0]: {'2': 18.059, '3': -2.839, '4': -2.837}
+   tau [0.45, 3.0]: {'2': 18.059, '3': -2.838, '4': -2.837}
+c  apexes off the mirror lines: 18; sign of J(v) against J(2v):
+   ckm|L_2|St|S     opposite 14, same  4, of 18
+   ckm|L_2|St|St    opposite 18, same  0, of 18
+   ckm|L_2|S|S      opposite 16, same  2, of 18
+   ckm|L_2|S|St     opposite  6, same 12, of 18
+   ckm|L_max|St|S   opposite 18, same  0, of 18
+   ckm|L_max|St|St  opposite  2, same 16, of 18
+   ckm|L_max|S|S    opposite 14, same  4, of 18
+   ckm|L_max|S|St   opposite  4, same 14, of 18
+riddles_posthoc2 exit 0
+exit 0
