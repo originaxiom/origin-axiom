@@ -1,0 +1,6 @@
+{
+ "Z0": true,
+ "Z1": true,
+ "Z2": true,
+ "Z3": true
+}
