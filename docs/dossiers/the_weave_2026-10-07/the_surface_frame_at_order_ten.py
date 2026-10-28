@@ -202,6 +202,12 @@ def part_K1():
 
 
 # ----------------------------------------------------------------------------------------------- K2
+def zero_channels(Vs):
+    """channels identically zero on every evaluation (as W91's U4 counts them): below 1e-40 of the largest channel"""
+    return {u for u in ("i", "j", "k")
+            if all(abs(V[u]) < mp.mpf(10) ** -40 * max(abs(V[x]) for x in UNITS) for V in Vs)}
+
+
 def law_min(c, Q):
     return mp.exp(-2j * mp.pi * c * Q / N)
 
@@ -244,19 +250,26 @@ def part_K2(chosen):
             Q = qL * qL + qR * qR
             Vt = [W91.ev_generator(qL + qR, qL - qR, psi, t, need) for t in taus]
             Vg = [W91.ev_generator(qL + qR, qL - qR, psi, x, need) for x in gt]
+            zero = set().union(*(zero_channels([V]) for V in Vt + Vg))
             chi = {u: [Vg[n][u] / Vt[n][pi[u]] / (V0g[n][u] / V0[n][pi[u]]) for n in range(2)]
-                   for u in ("i", "j", "k")}
-            tdep = max(abs(v[0] - v[1]) for v in chi.values())
+                   for u in ("i", "j", "k") if u not in zero and pi[u] not in zero}
+            tdep = max((abs(v[0] - v[1]) for v in chi.values()), default=mp.mpf(0))
             seen, err, cyc = set(), mp.mpf(0), []
             for u in ("i", "j", "k"):
                 if u in seen:
                     continue
-                x, ln, p = u, 0, mp.mpc(1)
+                x, ln, p, ok = u, 0, mp.mpc(1), True
                 while x not in seen:
                     seen.add(x)
-                    p *= chi[x][0]
+                    if x in chi:
+                        p *= chi[x][0]
+                    else:
+                        ok = False
                     x = pi[x]
                     ln += 1
+                if not ok:
+                    cyc.append({"length": ln, "untested: an identically zero channel": True})
+                    continue
                 err = max(err, abs(p - law_min(c, Q) ** ln))
                 cyc.append({"length": ln, "turns": float(mp.arg(p) / (2 * mp.pi) % 1)})
                 any_one |= abs(p - 1) < 1e-3
@@ -266,7 +279,8 @@ def part_K2(chosen):
             any_one |= abs(chi1[0] - 1) < 1e-3
             worst, worst_t = max(worst, err), max(worst_t, tdep)
             rows.append({"line (a, b)": list(w), "element": list(g), "eps": eps, "c": c, "sector": name,
-                         "cycles": cyc, "identity channel turns": float(mp.arg(chi1[0]) / (2 * mp.pi) % 1),
+                         "identically zero channels": sorted(zero), "cycles": cyc,
+                         "identity channel turns": float(mp.arg(chi1[0]) / (2 * mp.pi) % 1),
                          "law turns": float((-c * Q / N) % 1), "law error": float(err), "tau-dependence": float(tdep)})
     return {"rows": rows, "worst law error": float(worst), "worst tau-dependence": float(worst_t),
             "some phase equal to 1": bool(any_one),
@@ -350,7 +364,11 @@ def part_K4(U):
     for name, (qL, qR) in W91.SECTORS.items():
         V = [W91.ev_generator(qL + qR, qL - qR, psi, t, Fr(40)) for t in pts]
         rel = {}
+        zero = set().union(*(zero_channels([v]) for v in V))
         for u in UNITS:
+            if u in zero:
+                rel[u] = "identically zero, not tested"
+                continue
             S = mp.fsum(V[j][u] / d[u] ** j for j in range(10))
             rel[u] = float(abs(S) / mp.fsum(abs(V[j][u]) for j in range(10)))
             worst_tw = max(worst_tw, rel[u])
