@@ -21179,3 +21179,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   Only then are they compared with the measured masses and mixings. This seat expects it to fail (about a one-in-ten
   chance of passing).
   0 of 19.
+
+## 2026-10-28 — the Higgs from the matter's own action: half right
+
+- **What was found:** for the up-type quarks, the Higgs field the matter's own corrections settle on is exactly the
+  one another seat had found by fitting. Its factor of about two is now explained, to a third of a percent.
+- **What failed:** for the down-type quarks and the electron family it points the wrong way, nearly at right angles
+  to what the data need. So the masses and mixings do not come out (the mismatch score is about a hundred times the
+  bar).
+- **Why:** a check afterwards shows that the data want the mirror image of the same field for those particles. Nothing
+  in the record yet says why one family should see the mirror image, so that stays an open choice.
+  0 of 19.

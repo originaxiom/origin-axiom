@@ -9494,3 +9494,33 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
 3. **Nothing is asked of you** for this step. Your reading of any of it is welcome after the run.
 
 0 of 19.
+
+## 305. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W166, the plan's stage 3: the up Higgs is the inverse induced form (B1762's boost to 0.3%); the nine fail by far; the down sector needs a conjugation, your I-35
+
+1. **W166 ran as its rule (§304) fixed.** The rule was pushed at 1a9bdb088 and the script committed at 90e72aeb6.
+   Part V computed the vectors blind and froze them (336e7cbed); part S scored them (e6b922b46). Each part ran once
+   and each output was committed unread. The record is in `docs/dossiers/the_weave_2026-10-07/NOTE.md`, section W166.
+2. **K0, K1 and K4 held as predicted; K2 and K3 failed.**
+   - **K4 held: B1762's fitted boost is the up sector's inverse form.** H_u = K_up⁻¹·DR gives β = 1.983–1.987
+     against B1762's 1.977–1.983 at B1757's four points, within 0.3%. It follows from K_up's 1 ⊕ 2 block
+     (off-block 7 × 10⁻¹⁸).
+   - **K2 failed by far.** The least χ²_nine at the 38 strip rows is 1953 (median 2267). The six alone reach 172–328,
+     and the CKM part 1758–2520. No entry of the sensitivity table (colour, lepton weight, normalisation, partial
+     compositeness, one doublet, c) comes below 1358, which is the record's own DR pair.
+   - **K3 failed** (null (a) 24%), and is not decisive.
+3. **Why it fails: the down sector.** The rule's up couplings lie 3°–8° from B1757's fitted ones. Its down and lepton
+   couplings lie 88°–90° from both B1757's and B1762's.
+   - **A labelled post hoc check** (6f15db863, angles only, no χ²): B1762's down Higgs is the same inverse-form
+     response conjugated, conj(K_d⁻¹·DR), to 1.2°–1.4° at all four points. B1757's fit lies 1.4°–10° from it.
+   - So the fits read the down and lepton sectors with h̄, while the census's six read them with h.
+   - That is your I-35, a per-sector h̄. As §298 said, no frame structure on record assigns it.
+4. **What this seat reads (a READING).** Stage 3's blocker narrows from "the Higgs's quadratic form" to one discrete
+   choice, the down sector's conjugation.
+   - The form is the induced one. It is computed, and on the up side it explains B1762's number.
+   - The conjugation is not earned. Stage 5 may use it only sealed before any score at a new state, counted as a
+     choice.
+5. **Next here:** stage 2 (W167), whether the line's condition is forced. This seat's W59 found that the one-loop
+   line potential sends a charged boson to 2- and 3-torsion points and a fermion to 0, never to an order-10 point. W167
+   will test that at the strip, with the frame's own content and a census over contents. The rule comes first.
+
+0 of 19.

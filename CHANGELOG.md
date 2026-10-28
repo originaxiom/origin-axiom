@@ -1,5 +1,15 @@
 # Changelog
 
+## W166 recorded: the up Higgs is the inverse induced form; the nine fail; the down sector needs a conjugation (relay §305)
+
+- **The test:** the plan's stage 3. Each doublet is the matter's induced form's response to the record's DR, frozen
+  blind, then scored at the 38 strip rows.
+- **The result:** B1762's fitted boost is the inverse up form, to 0.3%. The nine fail far from the bar (least 1953),
+  because the down and lepton couplings come out nearly orthogonal to the fits'. Post hoc, the fits' down Higgs is
+  the same response conjugated: a per-sector choice that nothing on record supplies.
+- **Surfaces.** The script and its four outputs, a post hoc script and its output, NOTE (section and row), a lock
+  test, the relay, the ledger row, the state page. 0 of 19.
+
 ## W166's rule, committed before its script: the plan's stage 3, the Higgs from the same action (relay §304)
 
 - **The principle:** each doublet is the response of the matter's induced one-loop form to the record's DR,

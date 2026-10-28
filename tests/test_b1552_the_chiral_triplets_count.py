@@ -5224,3 +5224,37 @@ def test_w165_the_third_opinion_b1792():
     assert len(pairs) == 4 and sum(1 for p in pairs if p <= carriers) == 3 and carriers <= pred
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W165. The third opinion on main's B1792" in note
+
+def test_w166_the_higgs_from_the_action():
+    """W166: K0, K1 and K4 as predicted, K2 and K3 failed; in process, the frozen block's sha256 recomputed from the
+    committed vectors, and two identities of the frozen table: T7 (unit-trace forms) equals the rule because
+    tr K_lep = tr K_down, and T1 (N_c = 1, r = 1) equals T6 (N_c = 3, r = 3) because the form only rescales"""
+    import hashlib
+
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    v = json.loads((here / "the_higgs_from_the_action_vectors.json").read_text(encoding="utf-8"))
+    d = json.loads((here / "the_higgs_from_the_action.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"K0": True, "K1": True, "K2": False, "K3": False, "K4": True}
+    assert "run_failed" not in v and "run_failed" not in d and v["target files read"] == []
+    blob = json.dumps(v["vectors"], sort_keys=True, separators=(",", ":")).encode("utf-8")
+    assert hashlib.sha256(blob).hexdigest() == v["vectors sha256"] == d["frozen"]["stored hash"]
+    rows = v["vectors"]["rows"]
+    assert len(rows) == 38
+
+    def vec(x):
+        return np.array([complex(a, b) for a, b in x])
+
+    for r in rows.values():
+        for k in (0, 1):
+            assert np.allclose(vec(r["T7"][k]), vec(r["rule"][k]), atol=1e-12)
+            assert np.allclose(vec(r["T1"][k]), vec(r["T6"][k]), atol=1e-12)
+    assert 1953 < d["K2"]["least chi2_nine"] < 1954 and d["K2"]["rows below 21.67"] == []
+    assert min(e["least"] for e in d["the sensitivity table"].values()) > 1358
+    assert d["K4"]["worst |beta/boost - 1|"] < 0.003
+    ph = json.loads((here / "the_higgs_from_the_action_posthoc.json").read_text(encoding="utf-8"))
+    for p in ph["points"]:
+        assert p["down: D0 rule to B1757's fit (deg)"] > 89
+        assert p["down: D1 response conjugated to B1762's hd_1 (deg)"] < 1.5
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W166. The plan's stage 3, the Higgs from the same action" in note

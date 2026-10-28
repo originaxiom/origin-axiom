@@ -7726,6 +7726,86 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W166. The plan's stage 3, the Higgs from the same action: each doublet as the response of the matter's induced one-loop form to the record's DR, H = K⁻¹·DR. B1762's fitted boost is the up sector's inverse form to 0.3% (K4 held), but the nine fail far from the bar at all 38 strip rows (least 1953; K2 and K3 failed): the down and lepton couplings come out 88°–90° from the free fits'. Post hoc, the fits' down Higgs is the same response conjugated, the per-sector h̄ that no frame structure assigns (`the_higgs_from_the_action.py`; `W166_RULE.md`; post hoc `the_higgs_from_the_action_posthoc.py`)
+
+**Why.** The plan's stage 3 (`THE_NINETEEN_PLAN_2026-10-27.md`; the owner's "agreed continue do them all") asks for
+the quadratic form and source behind W161's inverse Gram, from the frame's own action, with no recipe menu and the
+vector frozen by hash before any score.
+
+**The order.**
+- The rule (`W166_RULE.md`, 1a9bdb088) was committed and pushed before the script existed.
+- The script (90e72aeb6) was committed before its runs, checked only for syntax and the names it reads.
+- Part V, the vectors, ran once and read no target file. Its output (336e7cbed) was committed unread, after a check
+  of the exit, failures, NaN, paths, warnings and the hash's presence.
+- Part S, the score, ran once (61 s) after that commit. Its output (e6b922b46) was committed unread, then read once.
+- A labelled post hoc script (6f15db863) was committed before its one run. It reads angles only and computes no χ².
+
+**The result (COMPUTED; each part run once; K0, K1 and K4 as predicted; K2 failed, as the rule expected at 90%; K3
+failed).**
+- **K0, the instrument.**
+  - The pins hold, and the 38 rows rebuilt from the census equal those read from W156's and W157's outputs.
+  - ‖Y_s(h)‖²_F = h†K_s h to 5.6 × 10⁻¹⁶.
+  - The record's DR gives each row's stored χ²_six to 1.7 × 10⁻¹⁰.
+- **K1, frozen and blind.**
+  - Part V read only B1667's column and the two row lists. Every form is positive definite, with condition number
+    at most 3.93.
+  - The committed blob equals the working file, and the hash recomputes.
+  - The vectors recomputed before and after the targets were loaded, and under three moved targets, agree exactly
+    (difference 0).
+- **K2 failed.** No row is below 21.67.
+  - The least χ²_nine is 1953, at B1753's (2/5, 1/2), 0.75 + 3.0619i; the median is 2267.
+  - The six part is 172–328 and the CKM part 1758–2520. J's pull is +533 to +1660.
+- **K3 failed** (not decisive): null (a) 24.1%, null (b) 1.17%.
+- **K4 held.** At the four points β is 1.983–1.987 against B1762's boost of 1.977–1.983, within 0.30%.
+- **The sensitivity table: no entry reaches the bar.** The least per entry:
+  - κ = 0, the record's own DR for both doublets, 1358; κ = 0.1, 1390; κ = 1, 1628; κ = 10, 1886;
+  - one doublet, 1546;
+  - N_c = 1 and 2, 1935 and 1933; N_c = 4, 1974;
+  - lepton weight r = 3, 1935; r = 1/3, 2032; r = 0, 2093;
+  - unit-trace forms, 1953, the same as the rule's, because tr K_lep = tr K_down;
+  - c = 1, 2376.
+
+  The whole table priced: least 1358, null (a) 22.8%, (b) 0.62%.
+- **The read-outs.**
+  - H_u lies 2.4°–3.1° from DR, H_d 1.1°–1.4°, and the two lie 1.7°–2.6° apart.
+  - K_up is 1 ⊕ 2 to 7.4 × 10⁻¹⁸.
+  - tr K_lep / tr K_down = 1 to 4 × 10⁻¹⁶, and tr K_down / tr K_up = 0.69–0.74.
+  - At the four points the rule's χ²_nine is 2006–2276, against B1757's 2.75–29.17.
+  - The rule's up couplings lie 3.0°–7.6° from B1757's fitted ones and 6.0°–7.8° from B1762's.
+  - Its down and lepton couplings lie 87.7°–89.7° from both.
+
+**Post hoc (labelled; written after part S was read; angles only, at the four points).**
+- **The response conjugated, conj(K_d⁻¹DR), in the S reading.** It lies within 1.2°–1.4° of B1762's down Higgs hd₁,
+  for both the down and the lepton couplings, and 1.4°–10.0° from B1757's fit.
+- **The conjugate source K_d⁻¹·conj(DR)** coincides with the response in the other reading S̃. It lies 5.9°–6.0° from
+  hd₁ and 4.0°–8.9° from the fit.
+- **DR itself, conjugated,** lies 2.0°–2.1° from hd₁ and 2.0°–9.0° from the fit.
+
+**What it shows (a READING on the computed facts).**
+- **One of B1762's numbers is explained.** The boost of about 2 on its up Higgs is the up sector's induced form
+  inverted, H_u = K_up⁻¹·DR, to 0.3% at every point. It follows from K_up's 1 ⊕ 2 block. The up side of stage 3
+  holds as the principle states it.
+- **The down side is a conjugation, not a deformation.** In the census's reading (S for down and leptons), DR and
+  every response to it give down couplings nearly orthogonal to what the fits use. B1762's down Higgs is the same
+  inverse-form response, conjugated, to 1.2°–1.4°.
+  - That is a per-sector h̄ for the down sector: main's I-35.
+  - No frame structure on record supplies it (relay §298).
+- **The six and the nine read the down sector differently.** At the 38 rows the six pass with the down sector read
+  as S with DR. The fits' nine need it with h̄.
+- **Stage 3's blocker narrows.** It is no longer "the Higgs's quadratic form": that form is the induced one, and it
+  is computed. What remains is one discrete choice, the down sector's conjugation, which is not earned here and is
+  counted if used.
+- **For stage 5.** The pair H_u = K_up⁻¹·DR, H_d = conj(K_d⁻¹·DR) was found post hoc. It may be used only sealed
+  before any score at a new state, with the conjugation counted as a choice and these looks counted.
+
+**Weave or thread.** A thread-and-frame result: one line class, 38 rows chosen by the data's six, and four fitted
+points. Not counted toward the 19.
+
+**Looks.** Eighteen at the nine, as the rule counted (fourteen at the strip, four at the points). The post hoc adds
+four looks at fitted couplings, by angle only.
+
+0 of 19.
+
 ## W165. The third opinion on main's B1792 (the offset recurrence at order 60; this seat's prediction, sealed and run by main): main's census reproduces on this seat's own instrument at all 2 500 points, computed blind to main's comparison. **This seat's prediction failed in its first part**: six of the eight predicted lines carry the six (R_a fails), and none of the other twelve does (R_b holds). Main's comparison, read afterwards, agrees exactly. Every cell of the rule as predicted (`the_third_opinion_b1792.py`; `W165_RULE.md`)
 
 **Why.** The prediction is this seat's (W164's post hoc read, relay §297). At its word (§299), main sealed it as B1792
@@ -13962,6 +14042,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W166 | COMPUTED (the rule first; parts V and S each run once; K0, K1 and K4 as predicted; K2 and K3 failed); a thread-and-frame result, the plan's stage 3 | H = K⁻¹·DR from the matter's induced form, frozen blind: B1762's boost is K_up⁻¹ to 0.3%; the nine fail at all 38 rows (least 1953; the record's own DR pair 1358; no table entry below 21.67); the down and lepton couplings lie 88°–90° from the fits'; post hoc, the fits' down Higgs is the same response conjugated (1.2°–1.4° from B1762's hd₁): a per-sector h̄ (I-35), unearned |
 | W165 | COMPUTED (the rule first; one run, one launch; every cell as predicted; blind to main's comparison); a thread-and-frame result, a third opinion | main's B1792 census reproduces on own instrument at all 2 500 points (to 1.2 × 10⁻⁹ in log, J 8.3 × 10⁻⁹); the carrying set by two routes agrees, {7, 29, 41, 47, 49, 55}/60; **this seat's prediction failed in R_a**: six of the eight predicted lines carry, the pair 1/60, 7/12 stays at 36.3; R_b holds (the other twelve no lower than 19.97); main's comparison, read afterwards, agrees exactly (verdicts, carriers, specificity 96 of 160 000); post hoc, the near-invariance under u → u + 1/3 is incomplete at some strip points. 0 of 19 |
 | W164 | COMPUTED (the rule first; one run, one launch; every cell as predicted); a thread-and-frame result, a third opinion | main's B1786 reproduces in full on own instrument and seeds: each class's mean, worst seed and hits equal main's exactly (slope 2/5: 3.0048, 8 of 160 000; 1/10: 919.27; the rest: 103.10), D also on fresh seeds (7 of 160 000); the referee's class-choosing null reproduced on fresh draws (57 of 240 000, 2.38 × 10⁻⁴; m·r 0.0126 at 41), so not PASSED; the best rows on own instrument to 2.1 × 10⁻¹¹ with the T-step, b → b + 1 and mirror controls; 36 rows below the bar, all on FINDINGS' twelve offsets in six mirror pairs; the six at orders 25 and 30 at the same eight apex points as at the lower orders; post hoc, nearly a function of 3 Re w (the order-30 carriers are the +1/3 shifts of the order-10 ones); agrees with main's scope. 0 of 19 |
 | W163 | COMPUTED (the rule first; one run, the third launch, the first two lost to container restarts and disclosed; eleven cells as predicted, C2 (ii) and C2r failed); a thread-and-frame result, a third opinion | main's B1755 reproduces in full: main's compare.py re-run exact (1 118 of 1 200 numbers bit-identical, the rest within 3.5 × 10⁻¹³), the own calibration exact per class (15 and 20: 5.330, 78 of 80 000; 13: 4.935%; 14: 42.31%), D also on fresh seeds (69 of 80 000); the referee's pool 0.096%; the best rows on own instrument to 2.7 × 10⁻¹¹; 20 points below the bar, all on FINDINGS' eight lines; the per-line split not predicted across orders (2 of 4 and 0 of 4; post hoc without order 10, 2 of 4 each): the six's valleys in Re w are narrower than the orders' samples; agrees with main's scope. 0 of 19 |
