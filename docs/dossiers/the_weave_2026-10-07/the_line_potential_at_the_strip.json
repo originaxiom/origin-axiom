@@ -1,0 +1,3689 @@
+{
+ "arc": "W167",
+ "rule": "W167_RULE.md",
+ "status": "one run",
+ "head": "0150492e74a25d353346add8eb37ae2fa03c338f",
+ "python": "3.11.15",
+ "numpy": "2.4.6",
+ "machine": "x86_64",
+ "rows": 38,
+ "census lines": 266,
+ "L0": {
+  "N48 vs N64 worst relative": 2.7439328031952925e-08,
+  "minimum shift N48 vs N64": 0.0,
+  "evenness worst": 0.0,
+  "T-law worst": 2.434203049284459e-08
+ },
+ "per row": [
+  {
+   "row": [
+    "B1749",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.666666667,
+    3.055050463303893
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2240.076522179212,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2904.8174559469835,
+     602473.5733683503
+    ],
+    "grid least": -2240.076522179212
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -717.5264266427814,
+   "266 lines: least": -2240.076522179212,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -75.83006496801548,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3429.9595270307163,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.1677664448240251,
+      0.1662750381361372
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.1671944063008105,
+      0.16626976433641458
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687255834640433,
+      0.1664342635376695
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.38830923622979,
+    "c": {
+     "1": 1.0,
+     "2": -0.5561221843615436,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1749",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.333333333,
+    3.055050463303893
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2240.0765223019503,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2909.5304952938186,
+     601498.5553167439
+    ],
+    "grid least": -2240.07652230195
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -717.5264264316417,
+   "266 lines: least": -2240.0765223019503,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -75.83006497004614,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3429.9595237836206,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776644357695109,
+      0.0014896687586744832
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.1671944037940032,
+      0.0009232268616661859
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687255680191437,
+      0.0004375381662166564
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.3944749981397986,
+    "c": {
+     "1": 1.0,
+     "2": -0.5561221823042023,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1749",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.269230769,
+    3.037487672558812
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2201.954347822433,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2943.798557150612,
+     591234.8079191397
+    ],
+    "grid least": -2201.9543478224323
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -705.2854438429297,
+   "266 lines: least": -2201.954347822433,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -74.53709244183877,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3371.418644011393,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776582376795743,
+      0.001205923194336673
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719410075561958,
+      0.0007494181302134807
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687243620780465,
+      0.0003559755123940203
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.3670392546777383,
+    "c": {
+     "1": 1.0,
+     "2": -0.5561402185411687,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1749",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.730769231,
+    3.037487672558812
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2201.954347651988,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2937.007339623843,
+     592600.6792356852
+    ],
+    "grid least": -2201.954347651988
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -705.2854441359675,
+   "266 lines: least": -2201.954347651988,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -74.53709243902438,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3371.4186471480807,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776582497890766,
+      0.16655811879141766
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719410295424325,
+      0.16644325102490803
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687243754491204,
+      0.166515699480554
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.3583438053930204,
+    "c": {
+     "1": 1.0,
+     "2": -0.5561402223778561,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1749",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.605263158,
+    3.0258580889584423
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2176.9541340070737,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2962.0027033632327,
+     585454.0188694573
+    ],
+    "grid least": -2176.9541340070728
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -697.2638108753013,
+   "266 lines: least": -2176.9541340070737,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -73.70960744520224,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3333.0428448862176,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.8322343162717845,
+      0.8340126764289003
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.83280591824334,
+      0.8339075685285005
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.1668724431732185,
+      0.16635070296319046
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.344880684624912,
+    "c": {
+     "1": 1.0,
+     "2": -0.5562551027965296,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1749",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.394736842,
+    3.0258580889584423
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2176.9541340844794,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2965.1856439646967,
+     584826.1261118106
+    ],
+    "grid least": -2176.9541340844794
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -697.2638107422422,
+   "266 lines: least": -2176.9541340844794,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -73.70960744644121,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3333.0428416261448,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.1677656822950956,
+      0.001776750874336588
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.1671940787788203,
+      0.0011003162266790343
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.1668724413263576,
+      0.0005210210082332451
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.3490596905768626,
+    "c": {
+     "1": 1.0,
+     "2": -0.5562551006050972,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1749",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.5,
+    3.0618621784789726
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2254.9815851008866,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2894.6794942361166,
+     605871.0269114629
+    ],
+    "grid least": -2254.9815851008857
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -722.3142294066649,
+   "266 lines: least": -2254.9815851008866,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -76.34147898438763,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3452.865232393706,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776702219474376,
+      0.16552629098678348
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719473138845486,
+      0.16581456919864432
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687269982138064,
+      0.16622210668090523
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.4066114466025512,
+    "c": {
+     "1": 1.0,
+     "2": -0.5562900712273674,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1749",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.5,
+    3.0618621784789726
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2254.9815851008866,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2894.6794942361166,
+     605871.0269114629
+    ],
+    "grid least": -2254.9815851008857
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -722.3142294066649,
+   "266 lines: least": -2254.9815851008866,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -76.34147898438763,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3452.865232393706,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776702219474376,
+      0.16552629098678348
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719473138845486,
+      0.16581456919864432
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687269982138064,
+      0.16622210668090523
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.4066114466025512,
+    "c": {
+     "1": 1.0,
+     "2": -0.5562900712273674,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1749",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.5,
+    3.118684093682859
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2381.939605032705,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2790.451873542487,
+     639650.5718064066
+    ],
+    "grid least": -2381.9396050327064
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -763.0697051313477,
+   "266 lines: least": -2381.939605032705,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -80.61982087035412,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3647.7877072223987,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.1677686023511936,
+      0.16555715803557716
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719544489443183,
+      0.16583631524846637
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687296634766688,
+      0.16623325103288933
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.4977161565134767,
+    "c": {
+     "1": 1.0,
+     "2": -0.5561582944853948,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1749",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.5,
+    3.118684093682859
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2381.939605032705,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2790.451873542487,
+     639650.5718064066
+    ],
+    "grid least": -2381.9396050327064
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -763.0697051313477,
+   "266 lines: least": -2381.939605032705,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -80.61982087035412,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3647.7877072223987,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.1677686023511936,
+      0.16555715803557716
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719544489443183,
+      0.16583631524846637
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687296634766688,
+      0.16623325103288933
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.4977161565134767,
+    "c": {
+     "1": 1.0,
+     "2": -0.5561582944853948,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1749",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.269230769,
+    2.960539291988587
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2040.1023221031408,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     3098.662538365327,
+     548128.73649151
+    ],
+    "grid least": -2040.1023221031403
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -653.3234840792236,
+   "266 lines: least": -2040.1023221031408,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -69.08683465872254,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3122.876072245798,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776336024421837,
+      0.0012223691345560682
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719297123506963,
+      0.0007626601514337175
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687200889473486,
+      0.0003633538607560183
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.2496777072724439,
+    "c": {
+     "1": 1.0,
+     "2": -0.556326106342878,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1749",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.730769231,
+    2.960539291988587
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2040.1023219325136,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     3090.54374003722,
+     549567.5187795269
+    ],
+    "grid least": -2040.1023219325132
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -653.3234843719829,
+   "266 lines: least": -2040.1023219325136,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -69.08683465612191,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3122.876075219565,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776336170860115,
+      0.16653931092985486
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.832807026291474,
+      0.8335710455615538
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.8331279896105132,
+      0.8334920697193605
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.239499909506107,
+    "c": {
+     "1": 1.0,
+     "2": -0.5563261102073984,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.333333333,
+    3.0368111930480994
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2200.4948111768413,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2944.5372619341815,
+     590960.5334506829
+    ],
+    "grid least": -2200.4948111768394
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -704.8195315171205,
+   "266 lines: least": -2200.4948111768413,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -74.4966369487349,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3369.183163584583,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776590036527358,
+      0.0014950565934733
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.8328058442250224,
+      0.9990726278945601
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687246328738636,
+      0.00043978356583315926
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.3659504804441247,
+    "c": {
+     "1": 1.0,
+     "2": -0.5561602174386971,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.666666667,
+    3.0368111930480994
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2200.4948110540763,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2939.623620686014,
+     591947.445106287
+    ],
+    "grid least": -2200.4948110540763
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -704.8195317282004,
+   "266 lines: least": -2200.4948110540763,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -74.4966369467343,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3369.1831667926226,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.167765901672364,
+      0.1662691319187094
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719415835231694,
+      0.1662653893660177
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.1668724648730265,
+      0.16643193353050842
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.359552168741845,
+    "c": {
+     "1": 1.0,
+     "2": -0.5561602194337957,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.6,
+    3.039736830714133
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2206.8116974042805,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2935.2327763746093,
+     593377.833424191
+    ],
+    "grid least": -2206.811697404281
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -706.8492658351838,
+   "266 lines: least": -2206.8116974042805,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -74.71552357173006,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3378.8898346048336,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776611751332518,
+      0.16596883469176316
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719428106791634,
+      0.1660818159182549
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687251868451725,
+      0.16634598141156687
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.3668172987751546,
+    "c": {
+     "1": 1.0,
+     "2": -0.5562293450095517,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.4,
+    3.0397368307141326
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2206.811697477795,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2938.1617901236636,
+     592786.8382740984
+    ],
+    "grid least": -2206.811697477795
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -706.8492657087631,
+   "266 lines: least": -2206.811697477795,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -74.7155235729203,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3378.8898313085047,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.1677661161220213,
+      0.0017956631546991923
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.1671942781216198,
+      0.001111122272466507
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687251685424684,
+      0.0005258136381044508
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.3706792068006397,
+    "c": {
+     "1": 1.0,
+     "2": -0.5562293427491491,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.235294118,
+    2.9994232432898738
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2120.843562701486,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     3019.1963957071193,
+     569582.6747192875
+    ],
+    "grid least": -2120.843562701488
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -679.2441078043457,
+   "266 lines: least": -2120.843562701486,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -71.7989678209212,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3246.8661918330513,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776460127847959,
+      0.0010605932697028266
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.1671935303352095,
+      0.0006609877106696138
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687221720912804,
+      0.00031468411556967424
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.3085852875301538,
+    "c": {
+     "1": 1.0,
+     "2": -0.5562278577959106,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.764705882,
+    2.9994232432898738
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2120.8435625055126,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     3010.6934845452265,
+     571189.9467387144
+    ],
+    "grid least": -2120.8435625055126
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -679.2441081409095,
+   "266 lines: least": -2120.8435625055126,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -71.79896781777973,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3246.8661948523477,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.8322353974442595,
+      0.8332977495072743
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.1671935324530847,
+      0.16653113638631223
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687221848259634,
+      0.16655678630761123
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.2979324809767867,
+    "c": {
+     "1": 1.0,
+     "2": -0.5562278616886519,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.28,
+    2.999733321480428
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2121.4959837646875,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     3018.2007133490015,
+     569826.3776861788
+    ],
+    "grid least": -2121.495983764688
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -679.4557249324831,
+   "266 lines: least": -2121.4959837646875,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -71.82876401792387,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3247.871504662744,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.1677646663303836,
+      0.0012631328427729488
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.8328064263642285,
+      0.9992137585201972
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687223789439487,
+      0.0003739057911954287
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.3088407750683229,
+    "c": {
+     "1": 1.0,
+     "2": -0.5562280703194195,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.72,
+    2.999733321480428
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2121.4959836021985,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     3011.137285823853,
+     571161.9246585326
+    ],
+    "grid least": -2121.4959836021985
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -679.4557252115656,
+   "266 lines: least": -2121.4959836021985,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -71.8287640153429,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3247.8715077308816,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.8322353323202591,
+      0.833500188151017
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719357603295537,
+      0.16640594250592347
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.1668722393508152,
+      0.16649759069617834
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.2998588329767262,
+    "c": {
+     "1": 1.0,
+     "2": -0.5562280741577819,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.653846154,
+    3.076682682916935
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2287.642649130631,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2864.55372175159,
+     615073.593222542
+    ],
+    "grid least": -2287.642649130631
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -732.7966502212776,
+   "266 lines: least": -2287.642649130631,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -77.4341797298025,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3502.994126020518,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776709179051036,
+      0.16622486826543803
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.8328052943684634,
+      0.8337600804209694
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687267245247678,
+      0.1664205844852319
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.4232034927927353,
+    "c": {
+     "1": 1.0,
+     "2": -0.5560918927130749,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.346153846,
+    3.076682682916935
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2287.6426492438513,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2868.6958587707168,
+     614186.3377952477
+    ],
+    "grid least": -2287.64264924385
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -732.7966500263922,
+   "266 lines: least": -2287.6426492438513,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -77.43417973170253,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3502.994122711601,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776709059593214,
+      0.001540472586330617
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.1671947031359888,
+      0.0009533585204643149
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687267090919958,
+      0.0004513247695184207
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.4286664691774187,
+    "c": {
+     "1": 1.0,
+     "2": -0.5560918905326602,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.25,
+    3.0618621784789726
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2254.9815974191397,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2897.2958874540204,
+     605325.0238457294
+    ],
+    "grid least": -2254.9815974191397
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -722.3075715643058,
+   "266 lines: least": -2254.9815974191397,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -76.32087702751161,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3452.838274915047,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776651954551558,
+      0.0011142000106999586
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719441453964107,
+      0.0006919014042371419
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687255331554252,
+      0.0003284928924040994
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.405238609103034,
+    "c": {
+     "1": 1.0,
+     "2": -0.5560871488482558,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.75,
+    3.0618621784789726
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2254.981597234372,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2890.3374273406703,
+     606780.9649591732
+    ],
+    "grid least": -2254.981597234372
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -722.3075718821691,
+   "266 lines: least": -2254.981597234372,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -76.32087702438153,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3452.8382780834736,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776652065412184,
+      0.16665048931987536
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719441654609596,
+      0.16650105010268557
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687255453357983,
+      0.16654328506664218
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.396326558002203,
+    "c": {
+     "1": 1.0,
+     "2": -0.5560871526998601,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.5,
+    3.0495901363953815
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2228.176745087963,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2917.952988710097,
+     598738.2575533824
+    ],
+    "grid least": -2228.176745087962
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -713.7091313309946,
+   "266 lines: least": -2228.176745087963,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -75.43855659908333,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3411.708333830764,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.832233338707834,
+      0.834480158191486
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719456841781236,
+      0.16580999869491722
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.1668726389630809,
+      0.16621975524980592
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.387270884311374,
+    "c": {
+     "1": 1.0,
+     "2": -0.5563204193473865,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.5,
+    3.0495901363953815
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2228.176745087963,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2917.952988710097,
+     598738.2575533824
+    ],
+    "grid least": -2228.176745087962
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -713.7091313309946,
+   "266 lines: least": -2228.176745087963,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -75.43855659908333,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3411.708333830764,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.832233338707834,
+      0.834480158191486
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719456841781236,
+      0.16580999869491722
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.1668726389630809,
+      0.16621975524980592
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.387270884311374,
+    "c": {
+     "1": 1.0,
+     "2": -0.5563204193473865,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.483870968,
+    3.096606178237868
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2332.051687438553,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2830.476840742528,
+     626332.5514990988
+    ],
+    "grid least": -2332.051687438552
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -747.0551837876408,
+   "266 lines: least": -2332.051687438553,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -78.93824447323517,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3571.19339979198,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.167767959060329,
+      0.0021492350886437367
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719514566165872,
+      0.0013225182698059321
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.8331271481437362,
+      0.9993769070472173
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.461734671184155,
+    "c": {
+     "1": 1.0,
+     "2": -0.5561913720978678,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.516129032,
+    3.096606178237868
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2332.0516874267146,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2830.0615775009696,
+     626424.3636332417
+    ],
+    "grid least": -2332.051687426714
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -747.0551838080318,
+   "266 lines: least": -2332.0516874267146,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -78.93824447303638,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3571.193403323029,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.1677679603600194,
+      0.16561718096535105
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.1671951487951483,
+      0.16587132585395703
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687285382928432,
+      0.16624905481039473
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.4611760352800787,
+    "c": {
+     "1": 1.0,
+     "2": -0.5561913748643145,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.516129032,
+    3.096606178237868
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2332.0516874267146,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2830.0615775009696,
+     626424.3636332417
+    ],
+    "grid least": -2332.051687426714
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -747.0551838080318,
+   "266 lines: least": -2332.0516874267146,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -78.93824447303638,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3571.193403323029,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.1677679603600194,
+      0.16561718096535105
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.1671951487951483,
+      0.16587132585395703
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687285382928432,
+      0.16624905481039473
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.4611760352800787,
+    "c": {
+     "1": 1.0,
+     "2": -0.5561913748643145,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.483870968,
+    3.096606178237868
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2332.051687438553,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2830.476840742528,
+     626332.5514990988
+    ],
+    "grid least": -2332.051687438552
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -747.0551837876408,
+   "266 lines: least": -2332.051687438553,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -78.93824447323517,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3571.19339979198,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.167767959060329,
+      0.0021492350886437367
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719514566165872,
+      0.0013225182698059321
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.8331271481437362,
+      0.9993769070472173
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.461734671184155,
+    "c": {
+     "1": 1.0,
+     "2": -0.5561913720978678,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.617647059,
+    2.9998558212182274
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2121.753759125157,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     3013.0842689974306,
+     570814.9505015486
+    ],
+    "grid least": -2121.7537591251566
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -679.5418097894903,
+   "266 lines: least": -2121.753759125157,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -71.85005206079555,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3248.2775859250055,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.1677648412375323,
+      0.1660341447462239
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719369338842782,
+      0.1661198020615569
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687229565659709,
+      0.1663630587684906
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.3040539143675292,
+    "c": {
+     "1": 1.0,
+     "2": -0.5563013694834077,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.382352941,
+    2.9998558212182274
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2121.7537592117196,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     3016.861833150867,
+     570100.8086703384
+    ],
+    "grid least": -2121.75375921172
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -679.5418096407946,
+   "266 lines: least": -2121.7537592117196,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -71.85005206214969,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3248.2775827356186,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776483972875583,
+      0.0017291026540478044
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719369036692336,
+      0.0010725714370474935
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.1668722937889688,
+      0.000508524933944796
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.3089713581174787,
+    "c": {
+     "1": 1.0,
+     "2": -0.5563013674321847,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.695652174,
+    3.0866503216171908
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2309.788128421821,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2845.4329738253637,
+     621124.2546767567
+    ],
+    "grid least": -2309.788128421821
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -739.904113906805,
+   "266 lines: least": -2309.788128421821,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -78.17588147529867,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3536.9916464256858,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776730205046866,
+      0.16641477952827724
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.832805211042745,
+      0.8336432315693322
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687269992685583,
+      0.1664756020056087
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.4377771476834071,
+    "c": {
+     "1": 1.0,
+     "2": -0.5560350488489966,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.304347826,
+    3.0866503216171908
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2309.7881285660087,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2850.5827009730606,
+     620003.2599524596
+    ],
+    "grid least": -2309.7881285660083
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -739.904113658557,
+   "266 lines: least": -2309.7881285660087,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -78.17588147775507,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3536.991643143946,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776730094155695,
+      0.0013507073458201703
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719478672681862,
+      0.0008365551833677209
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.1668726985552583,
+      0.0003963181576555542
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.4445214752010818,
+    "c": {
+     "1": 1.0,
+     "2": -0.5560350450783101,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.586206897,
+    2.999801816680213
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2121.640108540111,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     3013.7987726083247,
+     570669.8402830901
+    ],
+    "grid least": -2121.6401085401108
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -679.5059228791646,
+   "266 lines: least": -2121.640108540111,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -71.84858275476984,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3248.10687601465,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776490487248466,
+      0.16589040612683115
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.16719373562378267,
+      0.16603205858984596
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687231569590866,
+      0.16632204377702306
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.305408498968599,
+    "c": {
+     "1": 1.0,
+     "2": -0.5563407825395641,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.413793103,
+    2.999801816680213
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2121.640108603496,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     3016.5673531180973,
+     570146.5269357648
+    ],
+    "grid least": -2121.6401086034957
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -679.5059227702807,
+   "266 lines: least": -2121.640108603496,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -71.84858275575841,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3248.1068727851257,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776490331568542,
+      0.001872956836240639
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.1671937324151667,
+      0.0011603885938236452
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.8331276862957236,
+      0.9994504254262686
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.3090279091850687,
+    "c": {
+     "1": 1.0,
+     "2": -0.5563407803735545,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/10"
+    ],
+    0.653846154,
+    3.076682682916935
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2287.642649130631,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2864.55372175159,
+     615073.593222542
+    ],
+    "grid least": -2287.642649130631
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -732.7966502212776,
+   "266 lines: least": -2287.642649130631,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -77.4341797298025,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3502.994126020518,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776709179051036,
+      0.16622486826543803
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.8328052943684634,
+      0.8337600804209694
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687267245247678,
+      0.1664205844852319
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.4232034927927353,
+    "c": {
+     "1": 1.0,
+     "2": -0.5560918927130749,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  },
+  {
+   "row": [
+    "B1753",
+    [
+     "2/5",
+     "1/2"
+    ],
+    0.346153846,
+    3.076682682916935
+   ],
+   "minimum": {
+    "psi": [
+     0.0,
+     0.0
+    ],
+    "value": -2287.6426492438513,
+    "gradient norm": 0.0,
+    "hessian eigenvalues": [
+     2868.6958587707168,
+     614186.3377952477
+    ],
+    "grid least": -2287.64264924385
+   },
+   "a = 0": true,
+   "on B1761's set": false,
+   "266 lines: 10th percentile": -732.7966500263922,
+   "266 lines: least": -2287.6426492438513,
+   "266 lines: least line": [
+    "0",
+    "0"
+   ],
+   "B1761's least": -77.43417973170253,
+   "B1761's all above the 10th percentile": true,
+   "B1761's least rank among the 266": 106,
+   "the 2/5 class's best above the minimum": 3502.994122711601,
+   "boson weight": {
+    "2": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "5": {
+     "psi": [
+      0.0,
+      0.0
+     ],
+     "a = 0": true,
+     "on B1761's set": false
+    },
+    "10": {
+     "psi": [
+      0.16776709059593214,
+      0.001540472586330617
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "20": {
+     "psi": [
+      0.1671947031359888,
+      0.0009533585204643149
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    },
+    "50": {
+     "psi": [
+      0.16687267090919958,
+      0.0004513247695184207
+     ],
+     "a = 0": false,
+     "on B1761's set": false
+    }
+   },
+   "census over contents at (2/5, 1/10)": {
+    "t*": 1.4286664691774187,
+    "c": {
+     "1": 1.0,
+     "2": -0.5560918905326602,
+     "3": -1.0,
+     "4": 1.0,
+     "6": 1.0
+    },
+    "signs (boson +, fermion -)": {
+     "1": 1,
+     "2": -1,
+     "3": -1,
+     "4": 1,
+     "6": 1
+    },
+    "grid points": 9184
+   }
+  }
+ ],
+ "R": {
+  "the least boson multiplier at which a != 0 wins somewhere (up to 50)": 10,
+  "census: rows with t* > 0": 38,
+  "census: t* range": [
+   1.239499909506107,
+   1.4977161565134767
+  ],
+  "minima's distinct (a, b), rounded": [
+   [
+    0.0,
+    0.0
+   ]
+  ]
+ },
+ "cells": {
+  "L0": true,
+  "L1": true,
+  "L2": true,
+  "L3": false
+ },
+ "warnings": [],
+ "seconds": 261.0
+}
