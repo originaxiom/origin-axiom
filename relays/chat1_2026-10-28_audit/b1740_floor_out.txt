@@ -1,0 +1,9 @@
+B1740's F_-2 census: 23940 rows at two horocycles
+  up   reading S : least m2/m3 0.300 (81 times the measured 3.68e-03); from 0.300 at Im tau 2.05 to 0.377 at 3.45
+  up   reading St: least m2/m3 0.283 (77 times the measured 3.68e-03); from 0.283 at Im tau 2.05 to 0.347 at 3.45
+  down reading S : least m2/m3 0.374 (20 times the measured 1.87e-02); from 0.379 at Im tau 2.05 to 0.377 at 3.45
+  down reading St: least m2/m3 0.283 (15 times the measured 1.87e-02); from 0.283 at Im tau 2.05 to 0.347 at 3.45
+  lep  reading S : least m2/m3 0.341 (6 times the measured 5.89e-02); from 0.341 at Im tau 2.05 to 0.492 at 3.45
+  lep  reading St: least m2/m3 0.382 (6 times the measured 5.89e-02); from 0.382 at Im tau 2.05 to 0.484 at 3.45
+b1740_floor exit 0
+exit 0

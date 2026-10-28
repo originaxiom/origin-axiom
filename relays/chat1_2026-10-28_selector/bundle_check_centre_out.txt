@@ -1,0 +1,10 @@
+LR, M,                         strictly             :   1 lines, orders [1]; breaking SU(5):   0 (orders []; e.g. []); breaking on slope 2/5: 0
+LR, M,                         up to SU(5)'s centre :  25 lines, orders [1, 5]; breaking SU(5):   0 (orders []; e.g. []); breaking on slope 2/5: 0
+LR, -M (with the involution),  strictly             :   5 lines, orders [1, 5]; breaking SU(5):   0 (orders []; e.g. []); breaking on slope 2/5: 0
+LR, -M (with the involution),  up to SU(5)'s centre : 125 lines, orders [1, 5, 25]; breaking SU(5): 100 (orders [25]; e.g. [('1/25', '3/25'), ('1/25', '8/25')]); breaking on slope 2/5: 0
+RL, M,                         strictly             :   1 lines, orders [1]; breaking SU(5):   0 (orders []; e.g. []); breaking on slope 2/5: 0
+RL, M,                         up to SU(5)'s centre :  25 lines, orders [1, 5]; breaking SU(5):   0 (orders []; e.g. []); breaking on slope 2/5: 0
+RL, -M (with the involution),  strictly             :   5 lines, orders [1, 5]; breaking SU(5):   0 (orders []; e.g. []); breaking on slope 2/5: 0
+RL, -M (with the involution),  up to SU(5)'s centre : 125 lines, orders [1, 5, 25]; breaking SU(5): 100 (orders [25]; e.g. [('1/25', '2/25'), ('1/25', '7/25')]); breaking on slope 2/5: 0
+bundle_check_centre exit 0
+exit 0
