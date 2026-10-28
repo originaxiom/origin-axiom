@@ -116,4 +116,26 @@ power. Between the sampled τ nothing is claimed.
 before the scan began: 2af7f4986; 8cc6dd1a8 item 4). Counted as the rule counted it: two looks, one per arm, arm G's
 target the nine at M_GUT.
 
+**Dated note, 2026-10-28: main's verification** (S225, 2026-10-27; HARVEST_LEDGER row 1424; main's read-only verifier).
+Refereed read-only before it was added.
+- **The negative stands as sealed at arm Z.**
+  - Custody is clean.
+  - The three reported rows recompute in main's own code to 10⁻¹¹ (29.1450, 17.0642, 17.2231).
+  - An independent search of about 360 starts per row, on the ten lowest rows away from the look's lines, finds nothing
+    lower than reported and nothing below 21.67.
+  - Ten rows past the stage-B gate stay far above (least 148.8).
+- **Main entered the outcome cell as proposed** (LOOK_LEDGER.md: two looks, one per arm).
+- **Two defects, neither changing the negative:**
+  - **Stage A is not converged at the gate.** A row reported at 151.00 reaches 148.81 in main's search, so it belonged in
+    stage B. At 148.81 it is far above 21.67; no stage B was run on it.
+  - **The stored χ²_nine read-out differs from the search minimum** on 471 rows at Z and 457 at G, all above 5.9 × 10⁴.
+    - The row named under "Rows above 10⁷" is one of them (this seat's identification).
+    - Two more of this note's read-outs use affected values, recounted by this seat's referee and checked by this seat
+      from the committed rows:
+      - order 12's 59 402 is a read-out; its search minimum is 59 398.6, on (1/4, 11/12) at 0.275 + 2.275i, L_max;
+      - the G − Z read-out on search minima gives quantiles 112, 637 and 3 093, and G lower on 36 of 5 280, not 88.
+    - No cell changes.
+- **A limit both searches share:** narrow near-conic basins can escape them. On a noiseless planted row main's search
+  reached 12.99 where the minimum is 0.
+
 0 of 19.

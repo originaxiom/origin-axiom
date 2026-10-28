@@ -1,0 +1,11 @@
+Z affected 471 least search minimum among them 59398.6 (read-out 59402.0) on (Fraction(1, 4), Fraction(11, 12)) at [0.275, 2.275] L_max
+G affected 457 least search minimum among them 60057.3 (read-out 60065.4) on (Fraction(1, 12), Fraction(1, 4)) at [0.275, 2.275] L_max
+--- every task off the look's lines (the mirror tau and degenerate rows included): 5360 rows
+read-out G - Z quantiles 10/50/90%: 100 582 3075; G lower on 96 of 5360
+search minimum G - Z quantiles 10/50/90%: 106 613 3072; G lower on 44 of 5360
+order 12 at Z: least read-out 59402.0 (search minimum 59398.6) on (Fraction(1, 4), Fraction(11, 12)) at [0.275, 2.275] L_max
+order 12 at Z: least search minimum 59398.6
+--- with the cells' filter (not degenerate, Re tau != 0.725, off the look's lines)
+rows 5280
+read-out G - Z quantiles 10/50/90%: 106 603 3102; G lower on 88 of 5280
+search minimum G - Z quantiles 10/50/90%: 112 637 3093; G lower on 36 of 5280
