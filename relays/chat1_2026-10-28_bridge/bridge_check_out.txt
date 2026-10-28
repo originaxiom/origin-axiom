@@ -1,0 +1,26 @@
+1  the fibre's homology in the mapping torus, |coker(sM - I)| = |det(sM - I)|:
+   LR: s = +1 (the monodromy) 1; s = -1 (with the involution) 5
+   RL: s = +1 (the monodromy) 1; s = -1 (with the involution) 5
+   so H1 of the mapping torus is Z (the base loop) plus a group of order 1: every flat abelian bundle is trivial on the fibre
+2  pairs a != a' (mod 1, denominators <= 60, not both central) with equal eigenvalue multisets on the 5: 0 of 35870
+3  the least k with M^k v = v (and with (-M)^k v = v):
+   LR, the counted class (2/5, odd tenths)  M: [6, 30] | -M: [3, 15]
+   LR, B1786's 12 carriers                  M: [50, 60] | -M: [25, 60]
+   LR, slope 2/5, order 5                   M: [2, 10] | -M: [1, 5]
+   LR, the order-2 lines                    M: [3] | -M: [3]
+   LR, the order of M on (Z/2)^2: 3 (of -M: 3)
+   LR, the order of M on (Z/5)^2: 10 (of -M: 5)
+   LR, the order of M on (Z/10)^2: 30 (of -M: 15)
+   LR, the order of M on (Z/25)^2: 50 (of -M: 25)
+   LR, the order of M on (Z/30)^2: 60 (of -M: 60)
+   RL, the counted class (2/5, odd tenths)  M: [6, 30] | -M: [3, 15]
+   RL, B1786's 12 carriers                  M: [50, 60] | -M: [25, 60]
+   RL, slope 2/5, order 5                   M: [2, 10] | -M: [1, 5]
+   RL, the order-2 lines                    M: [3] | -M: [3]
+   RL, the order of M on (Z/2)^2: 3 (of -M: 3)
+   RL, the order of M on (Z/5)^2: 10 (of -M: 5)
+   RL, the order of M on (Z/10)^2: 30 (of -M: 15)
+   RL, the order of M on (Z/25)^2: 50 (of -M: 25)
+   RL, the order of M on (Z/30)^2: 60 (of -M: 60)
+bridge_check exit 0
+exit 0
