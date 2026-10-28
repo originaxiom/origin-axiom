@@ -1,0 +1,57 @@
+{
+  "status": "UNREVIEWED authored exact light-kernel and running proof conditional on supplied action/background/complete-domain construction",
+  "base_commit": "f06ce63e6654d07562d05ccab11bb25a91b420d7",
+  "quantifier": "Principal R=0 parallel phase on a complete once-punctured elliptic carrier, each extending spin and peripheral-trivial compact-core flat Y character; concrete roster specialized to source order-seven character",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/PROOF.md",
+      "sha256": "8ca99b10c3da48289e47d76cf78870e904558861e19b1e0f9b9dce59079473a7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/RELATIVE_HEAT_ADMISSION_AND_SCALE_DEPENDENCE.md",
+      "sha256": "c296b3b85b85d0e97de0d7d523ee32f6050b26cbea5d5be0926adb8c75a59498"
+    }
+  ],
+  "primary_reading": {
+    "url": "https://stacks.math.columbia.edu/tag/0B5B",
+    "scope": "Lemma53.5.2, Riemann-Roch and duality; local L2 extension comes from recovered repository proof, not compact RR on an open surface",
+    "access_date": "2026-10-27"
+  },
+  "science_execution": "none; hand analytic proof only",
+  "locator_execution": "already_banked.py parallel Wilson chiral kernel; broad hits were not treated as absence proof; B956 analysis read",
+  "scope_limit": [
+    "No selection of spin or Wilson character",
+    "No numerical relative determinant",
+    "No observed coupling comparison",
+    "No quantum mass protection or nonlinear integration of all zero modes",
+    "No full-architecture chirality exclusion",
+    "No three chiral families or gravity",
+    "No independent review completed for this new scope"
+  ],
+  "author_self_audit_date": "2026-10-28",
+  "author_self_audit_scope": "Compared all four contraction density ratios to the actual complex metrics; kept the degree-three slot separate; checked spin/flat-line exceptions and full E8 branching by hand; no independent review or science run."
+}

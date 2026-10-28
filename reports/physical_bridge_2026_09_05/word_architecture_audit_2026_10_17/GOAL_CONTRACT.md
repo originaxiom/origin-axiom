@@ -774,6 +774,35 @@ source-complete admitted design. Frozen seals/review permissions are
 unchanged. Model inputs, vacuum selection, three chiral families and
 gravity are not derived. The full input-reduction mission remains active.
 
+## October 27: actual parallel-phase chiral kernels and spin-dependent running
+
+The [light-kernel proof](PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md)
+contracts every non-extreme principal raising pair by its explicit bounded
+bundle isomorphism on the SAME complete L2 complex. Three extreme-line
+Dolbeault spaces give the entire physical degree-one kernel. Exact cusp
+pole bounds retain both logarithmic endpoints; compact elliptic RR only
+counts the resulting specified line extensions. Character/spin exceptions
+are explicit, rather than extrapolated from an index or end histogram.
+
+For the source's order-seven Wilson choice the charged counts assemble
+as 2(10+bar10)+4(5+bar5). There are kappa=1+2 delta(eta) chiral copies
+of the unbroken adjoint and12 further singlets. The derived physical
+light beta coefficients are (10,4+2kappa,1+3kappa). Thus the trivial
+extending spin has h21=h31=0 and loses the relative common-scale/switch
+ambiguity; the three other spins give (-4,-6) and retain its derived
+running. No spin is selected merely to produce a desired cancellation.
+
+This is conditional light-spectrum determination and removes a separate
+spectrum choice inside the model. Counts are independent of the carrier's
+complex-structure shape under these hypotheses; wavefunctions and the
+finite determinant are not. The three modes of V3 alone are not three
+SM generations: the full companion roster is retained and vector-like.
+Nonparallel/end/source/other-carrier alternatives are not excluded.
+All new claims are UNREVIEWED authored proofs; no science producer/CAS/
+test was run. Independent review, finite spectral values and a derived
+physical state/end mechanism remain required. Earlier seals/review scope
+and the full input-reduction SM/three/gravity goal are unchanged.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
