@@ -1,0 +1,13 @@
+class 1/15 done at 30 s
+class 2/15 done at 58 s
+class 1/20 done at 86 s
+class 3/20 done at 114 s
+class 1/25 done at 145 s
+class 2/25 done at 172 s
+class 3/25 done at 200 s
+class 4/25 done at 230 s
+class 1/30 done at 261 s
+class 1/6 done at 289 s
+class 1/10 done at 316 s
+class 0 done at 344 s
+done
