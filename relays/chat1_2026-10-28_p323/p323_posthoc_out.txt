@@ -1,0 +1,46 @@
+Q1 the power control: frozen weights, reading (S, S), both horocycles, valid centres (no J cut)
+   classes of the valid centres: {'N': 0, 'H': 2132, "H'": 1842, 'U': 15590, 'Un': 15264}
+   why U: {'|D(r1)| < 1e-8 but sigma_D > 1e-10': 4692, '|D(r1)| >= 1e-8, ratio outside [30, 250]': 2, 'ratio in [30, 250] but |D(r2)| < 100 sigma_D': 15585}
+   quantiles 10/50/90%: sigma_D 9.6e-11, 7.9e-10, 6.5e-09; |D(r1)| 3.3e-10, 3.3e-08, 2.2e-06; ratio where |D(r1)| >= 1e-8: 6.4e+01, 6.4e+01, 6.4e+01
+Q2 H1's UNDETERMINED combinations (the two Higgs-phase-free readings): the largest |D(r1)| over their valid centres
+   239 combinations; their largest |D(r1)|: below 1e-8 20, 1e-8 to 1e-6 213, above 1e-6 6 (there the ratio lies outside [3, 5])
+   by slope: {'0': 43, '1/12': 48, '1/6': 25, '1/4': 33, '1/3': 24, '5/12': 26, '1/2': 40}
+   by Higgs: {'F_-6': 3, 'dR': 8, 'F_-10': 166, 'F_26': 16, 'F_18': 16, 'F_10': 8, 'F_14': 10, 'F_22': 9, 'F_6': 2, 'F_-2': 1}
+Q3 H1b's HARMONIC combinations, in every reading (the verdicts)
+   (1/3, 1/12) F_-10 L_max: St,S UNDETERMINED; S,St UNDETERMINED; S,S HARMONIC; St,St UNDETERMINED
+   (1/3, 1/4) F_-10 L_max: St,S UNDETERMINED; S,St UNDETERMINED; S,S HARMONIC; St,St UNDETERMINED
+   (1/3, 5/12) F_-10 L_max: St,S UNDETERMINED; S,St UNDETERMINED; S,S HARMONIC; St,St UNDETERMINED
+   (1/3, 7/12) F_-10 L_max: St,S UNDETERMINED; S,St UNDETERMINED; S,S HARMONIC; St,St UNDETERMINED
+   (1/3, 3/4) F_-10 L_max: St,S UNDETERMINED; S,St UNDETERMINED; S,S HARMONIC; St,St UNDETERMINED
+   (1/3, 11/12) F_-10 L_max: St,S UNDETERMINED; S,St UNDETERMINED; S,S HARMONIC; St,St UNDETERMINED
+   (1/6, 5/12) F_-10 L_2: St,S UNDETERMINED; S,St UNDETERMINED; S,S HARMONIC; St,St UNDETERMINED
+   (1/6, 11/12) F_-10 L_2: St,S UNDETERMINED; S,St UNDETERMINED; S,S HARMONIC; St,St UNDETERMINED
+Q4 the lines where theta_M is HARMONIC: channels clamped (c_s None) at the centre, per sector (units 1, i, j, k)
+   (1/6, 1/12): up ...., down ....
+   (1/6, 1/4): up ...., down ....
+   (1/6, 5/12): up ...., down ....
+   (1/6, 7/12): up ...., down ....
+   (1/6, 3/4): up ...., down ....
+   (1/6, 11/12): up ...., down ....
+   (1/3, 1/12): up ...., down ....
+   (1/3, 1/4): up ...., down ....
+   (1/3, 5/12): up ...., down ....
+   (1/3, 7/12): up ...., down ....
+   (1/3, 3/4): up ...., down ....
+   (1/3, 11/12): up ...., down ....
+Q5 H2's exceptions by line class and Higgs; the largest horocycle difference among them
+   slope 0: 4 pairs; Higgs ['F_14', 'F_22']
+   slope 1/12: 6 pairs; Higgs ['F_-10']
+   slope 1/6: 48 pairs; Higgs ['F_14', 'F_18', 'F_22', 'F_26']
+   slope 2/9: 1 pairs; Higgs ['F_-10']
+   slope 1/4: 9 pairs; Higgs ['F_-10']
+   slope 3/11: 11 pairs; Higgs ['F_-10']
+   slope 2/7: 4 pairs; Higgs ['F_-10']
+   slope 1/3: 24 pairs; Higgs ['F_14', 'F_18', 'F_22', 'F_26']
+   slope 5/12: 5 pairs; Higgs ['F_-10']
+   slope 1/2: 24 pairs; Higgs ['F_14', 'F_18', 'F_22', 'F_26']
+   the largest |theta_Y(L_max) - theta_Y(L_2)| over the exceptions' centres: 1.2e-06
+Q6 the Standard Model's reading on the lines of slope 2/5 in scope: verdicts over 10 Higgs x 2 horocycles
+   L_max (before the J cut): 40 lines; {'NOT HARMONIC': 400}
+   L_2 (before the J cut): 40 lines; {'NOT HARMONIC': 400}
+p323 posthoc exit 0
