@@ -1,1 +1,1 @@
-python3: can't open file '/home/claude/origin-axiom/p323_strong_angle.py': [Errno 2] No such file or directory
+python3: can't open file '<repo>/p323_strong_angle.py': [Errno 2] No such file or directory
