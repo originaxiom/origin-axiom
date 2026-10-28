@@ -1,0 +1,11 @@
+# sealed with the PREREGISTRATION (the seal commit): sha256 of the instrument
+95d1593d6395b5965bd5409a6bd1cf8fbf7ca72a087e50c74a4250c7abceeca0  verification/split.py
+# the dependencies the instrument reads in place (landed earlier; recorded so a change is detectable)
+185cf17d8b51c11559bf14650d5ad1dd12745eaa228fc40da0a8b9181d1986bf  frontier/B1726_the_two_ingredients_replicated/verification/census.py
+31f09c433c14312d9cee8cfa29a632a72ce13fc46ae838757bf9b22958f22528  frontier/B1723_the_golden_valley/verification/b1656_funcs.py
+a8d4ea9bae79dde894b192b7c3645685c1c97890665c96123be20ea6e9073aac  frontier/B1691_the_exponents_at_the_two_fixed_points/verification/the_exponents.py
+113b36d3da004a8a0b69d6f3fd8a38776f56ecbd14254e843c41232741ff1e6d  frontier/B1691_the_exponents_at_the_two_fixed_points/verification/qseries.py
+688152749777970f21a85b3278a39ae33884b9ae99623d5eec541f41de34a774  frontier/B1667_the_canonical_cusp/verification/the_canonical_cusp.json
+# run before the seal (the control only; no vector-like pair): verification/control_run.txt
+bd8d0bb72c15f168015c090bbf91f1dcc35158af41a76d453321d65bc0cad26d  verification/control_run.txt
+# after the seal (not sealed): the outputs, committed unread

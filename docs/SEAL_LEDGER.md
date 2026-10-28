@@ -176,6 +176,7 @@ hash-first status.*
 | frontier/B1755_the_six_on_the_lines_of_order_13_to_20/PREREGISTRATION.md | 139ce35a | 2d6681208 | 1 | yes |
 | frontier/B1786_the_slope_principle_out_of_sample/PREREGISTRATION.md | 52eec744 | 11ebe577b | 1 | yes |
 | frontier/B1792_the_offset_recurrence_at_order_60/PREREGISTRATION.md | 0e17d2e7 | 096c97e94 | 1 | yes |
+| frontier/B1795_the_doublet_triplet_split_at_the_canonical_end/PREREGISTRATION.md | 6a64e314 | untracked | 0 | NO |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f4771 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c1 | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8cf | 1 | yes |
@@ -435,9 +436,10 @@ hash-first status.*
 | frontier/B959_nontoral_rank4/PREREGISTRATION.md | 6c5d76e6 | 4c3c47756 | 1 | yes |
 | frontier/B995_separating_and_rare/PREREGISTRATION.md | a356e987 | 3bae686c2 | 1 | yes |
 
-*Totals: 424 sealed documents; 0 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
+*Totals: 425 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
 
 
 
