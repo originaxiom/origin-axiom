@@ -1,0 +1,23 @@
+cells: 80 refinements to do
+refinements: 10 done this part (206 s)
+refinements: 20 done this part (387 s)
+refinements: 30 done this part (547 s)
+refinements: 40 done this part (719 s)
+refinements: 50 done this part (884 s)
+refinements: 60 done this part (1062 s)
+refinements: 70 done this part (1234 s)
+refinements: 80 done this part (1402 s)
+C0: (a) True; (a') True; (a'') True; (b) True (19 of 20); (c) True; (d) True
+H1 holds False: {'up': 0.5434615384615384, 'down': 0.010384615384615384, 'lep': 0.016923076923076923}
+H2 (THE DECISIVE CELL): NOT ABSORBED; {'base_points': 480, 'searched': 480, 'excluded': 0, 'flagged': 110, 'fraction_unflagged_A_le_0.05': 0.0, 'fraction_unflagged_A_ge_0.15': 0.7708333333333334, 'A_q10_q50_q90': [0.46640053890967276, 0.5655492969926403, 0.6669145033018441], 'not_absorbed_readable': True}
+H3 holds False: {'fraction': 0.028076923076923076, 'holds': False, 'median_abs_d1_ud': 1.0429910802791875, 'median_abs_d1_ld': 0.02308571413493521}
+H4 holds True: {'L_max': {'chi2': 2.40788427449713, 'line': ['2/5', '5/6'], 'tau': [0.763082739710808, 3.0234524101018905], 'start': [0.75, 3.0]}, 'L_2': {'chi2': 30.589374613478576, 'line': ['2/5', '12/25'], 'tau': [0.698898047208786, 2.6378381133079536], 'start': [0.65, 2.6]}}
+H5: {'least_chi2_nine_on_G_30_lines': {'L_max': 110.70040309039754, 'L_2': 116.3759822403292}, 'passes': {'L_max': False, 'L_2': False}}
+read-out, H4's statistic on the ten (2/5, k/10) lines (informed): {'L_max': {'chi2': 2.6580421543587827, 'line': ['2/5', '1/10'], 'tau': [0.3153997421264647, 3.0348918914794902], 'start': [0.25, 3.0]}, 'L_2': {'chi2': 22.02585008180241, 'line': ['2/5', '1/2'], 'tau': [0.4606593370437623, 2.6471106171607968], 'start': [0.45, 2.6]}}
+read-out, B1786's apex grid, least chi2_six per horocycle on the 30 lines: {'L_max': 3.0048102488795805, 'L_2': 61.76582301998936}
+read-out, the unification scale (G minima, tan beta 10): {'L_max': {'30_lines': 17.60472656726202, 'ten_lines': 9.85213109646622}, 'L_2': {'30_lines': 70.90251273521957, 'ten_lines': 54.860616293169016}}
+read-out, levers (q10, q50, q90): {'up2': [0.3731903717736243, 0.8818445419932122, 1.6079176873819883], 'up1': [-0.22601653949127334, 0.8737957548117175, 1.5868427019972324], 'down2': [0.5548969039009621, 0.7865821512414861, 0.8168552349020795], 'down1': [-0.26109563013001436, -0.2008830489650668, 0.07108441739195503], 'lep2': [0.5404931392801485, 0.7834709307033756, 0.8164200441395978], 'lep1': [-0.26804073655080973, -0.2024284544645898, 0.07787725437170163]}
+read-out, second-generation lever differences: {'median_abs_ud': 0.24382002796617863, 'median_abs_ld': 0.002237021363925118, 'fraction_both_within_0.1': 0.21807692307692308}
+read-out, H2: {'rms_lever_at_zero_shift_q10_q50_q90': [0.6395352893704477, 0.7492125963531258, 0.8996384049617532], 'largest_single_residual_q10_q50_q90': [0.5744169792028345, 0.7221481534327663, 0.8712162753688883], 'dRe_q10_q50_q90': [-0.25, -0.019172995044761908, 0.25], 'dIm_q10_q50_q90': [-0.1850177388502189, -0.12703639416765677, -0.054831309633407356]}
+read-out, flagged searches: 110
+horocycle cells exit 0
