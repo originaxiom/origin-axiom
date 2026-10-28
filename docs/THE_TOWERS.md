@@ -136,3 +136,18 @@ question?"
 - **The bearing on § 5's reading.** The towers' meeting places offered by B1803 live along the base of the G₂ frame,
   not in the fibre frame where the six were fitted.
 
+## Dated note (2026-10-29, S240; B1805, P-414 tested)
+
+- **The first probe in § 7 is done, and it is NEGATIVE in Witten's G₂ frame.**
+  - Spin(10)'s order-2 central element is exactly matter parity and survives every flat breaking.
+  - But no flat connection reaches the Standard Model without leaving U(1)_X. Only a localised 16 can break U(1)_X, and
+    that kills the parity; the 126 never localises.
+  - With real Higgs 10's, Witten's mechanism fails for every symmetry of exponent 2.
+- **So in this frame the towers do not supply each other's lack.** SU(5) keeps the doublet–triplet mechanism and lacks
+  the parity; Spin(10) has the parity above the U(1)_X scale and loses the mechanism.
+- **The question stays open in other frames:**
+  - F-theory, where matter curves and monodromy give geometric parities (Hayashi–Kawano–Tsuchiya–Watari,
+    arXiv:1004.3870, to read at source);
+  - a Stückelberg U(1)_X;
+  - an E₆ meeting point with different localised content.
+

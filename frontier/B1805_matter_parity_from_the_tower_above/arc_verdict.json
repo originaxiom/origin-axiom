@@ -1,0 +1,33 @@
+{
+ "id": "B1805",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-36",
+   "status": "UNEARNED",
+   "note": "Q = m004(p/q) as the G2 frame's 3-cycle, as in B1801-B1803; here with Spin(10) on it"
+  }
+ ],
+ "depends_on": [
+  "B952",
+  "B962",
+  "B964",
+  "B1802",
+  "B1803"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "Witten's discrete doublet-triplet splitting (hep-ph/0201018) in M-theory on a G2 space, with Spin(10) (a D5 singularity) on the 3-cycle instead of SU(5); breaking by flat connections; localised matter from enhanced adjoints (Acharya-Witten)",
+  "object": "hyperbolic Dehn fillings m004(p/q), p even, and their symmetries (B1802, B1803)",
+  "reach": "class",
+  "hypotheses": "the G2 space, the D5 singularity and the localisation are not supplied by the object; a Stueckelberg breaking of U(1)_X unchecked"
+ },
+ "claim_one_line": "MATTER PARITY FROM THE TOWER ABOVE, TESTED (P-414; data-free; NEGATIVE in Witten's G2 frame, the group theory PROVED): Spin(10)'s order-2 central element z2 = exp(i pi Q_X) is exactly matter parity (-1 on the 16, +1 on the 10; not in the SM gauge group in any global form) and survives every flat breaking; but the fillings' order-2 line breaks Spin(10) to connected Pati-Salam, no flat connection gives exactly the SM (U(1)_X stays), only 1, 10, 16, 16bar, 45 localise (no 126), so the U(1)_X breaking by a 16 kills the parity; and with real Higgs 10's Witten's conditions have no solution for any exponent-2 F' (none of 31 groups; the H_u self-mass allowed in 440 of 440 cases) -- moving from SU(5) to Spin(10) trades the missing parity for a lost doublet-triplet mechanism. The first test of the owner's towers question fails in this frame. None of the 19.",
+ "weave_or_thread": "thread (one filling at a time)"
+}

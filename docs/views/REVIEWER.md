@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1508** |
-| words of findings prose | **1,230,003** |
-| test lock files referenced | **923** |
-| arcs carrying an authored verdict | **1508** (100.0 %) |
-| recorded closures | **850** (683 classified, 167 routed-only) |
+| research arcs with findings | **1509** |
+| words of findings prose | **1,231,377** |
+| test lock files referenced | **924** |
+| arcs carrying an authored verdict | **1509** (100.0 %) |
+| recorded closures | **851** (684 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 1030 |
-| NEGATIVE | 374 |
+| NEGATIVE | 375 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 120 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 121 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 SELECTION BY INVERSION, FIRST TEST (P-419; data-free; PROVED for both frames' statements): LR-invariant fluxes of Hodge type (1,1) force only curves in the split frame (T^4 = E_tau x E_tau' along LR's invariant splitting: det-form signature (1,1), countably many Hecke-type curves tau' = M tau, no two meeting in H, for every integer flux; controls S -> (i,i), ST -> (omega,omega), T -> none), but force isolated CM points when LR acts holomorphically (the same lattice action, conjugate in SL(4,Z); abelian surfaces with real multiplication by Z[phi]; signature (2,2); quartic CM points in Q(sqrt5, sqrt-d), d = 1, 2, 3, 7, one with CM by Q(sqrt5, sqrt-3), the record's genus field) -- chosen by free flux integers, not by LR, in a frame without an LR-invariant Kahler class; the draft's unscoped NEGATIVE overturned at the referee. None of the 19.  
 `B1804_selection_by_inversion_first_test/FINDINGS.md`
 
-**NEGATIVE — `B1798`** (1635 words, 1 locks)  
-THE SIX GRADED UNDER THE CLASS-CHOOSING NULL (R71-1; NEGATIVE for PASSED): with B1753's census completed to all 266 lines (48 614 points, verified) and 10^7 fresh targets, the class-choosing null gives B1753 m*r 0.0084-0.0088 at m = 39-41 and B1749 0.0094-0.00999 at m = 33-35; but the lepton factor c = 3 was chosen on the same six numbers (the web seat's GJ_FINDINGS) and that null holds it fixed -- a null letting each target choose c as the data did gives m*r 0.035-0.079 (B1753) and 0.034-0.082 (B1749); counted per decisive cell (m ~ 51) B1753 fails too; neither is PASSED; the six's specificity rests on c read from the data. No input removed. 0 of 19.  
-`B1798_the_six_graded_under_the_class_choosing_null/FINDINGS.md`
+**NEGATIVE — `B1805`** (1374 words, 1 locks)  
+MATTER PARITY FROM THE TOWER ABOVE, TESTED (P-414; data-free; NEGATIVE in Witten's G2 frame, the group theory PROVED): Spin(10)'s order-2 central element z2 = exp(i pi Q_X) is exactly matter parity (-1 on the 16, +1 on the 10; not in the SM gauge group in any global form) and survives every flat breaking; but the fillings' order-2 line breaks Spin(10) to connected Pati-Salam, no flat connection gives exactly the SM (U(1)_X stays), only 1, 10, 16, 16bar, 45 localise (no 126), so the U(1)_X breaking by a 16 kills the parity; and with real Higgs 10's Witten's conditions have no solution for any exponent-2 F' (none of 31 groups; the H_u self-mass allowed in 440 of 440 cases) -- moving from SU(5) to Spin(10) trades the missing parity for a lost doublet-triplet mechanism. The first test of the owner's towers question fails in this frame. None of the 19.  
+`B1805_matter_parity_from_the_tower_above/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

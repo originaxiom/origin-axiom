@@ -1,0 +1,14 @@
+Clifford checks passed; spin-rep convention sign 1
+(a) W lifted to Spin(10):  W^2 = 1 ? True ; W commutes with chirality ? True
+    image in SO(10) equals realify(diag(1,1,1,-1,-1)) ? True ; diag of image: [ 1  1  1  1  1  1 -1 -1 -1 -1]
+    W on the 16: eigenvalue +1 x 8 , -1 x 8 ; trace 0
+    centraliser of W in so(10) (spin rep, re/im stacked as rows): dim 21 ; the 21 block-diagonal generators M_ab (a,b both in the +1 block [0, 1, 2, 3, 4, 5] or both in the -1 block [6, 7, 8, 9] ) all commute: True -> so(6)+so(4) = su(4)+su(2)+su(2) exactly (not only dim 21)
+    g = gamma_0 gamma_6: image diag [-1  1  1  1  1  1 -1  1  1  1] (in S(O(6)xO(4)), det -1 on each block)
+    g W g^-1 = W ? False ; = -W (= z2 W) ? True -> the non-identity component conjugates W to z2 W, so C_Spin(10)(W) = preimage of SO(6)xSO(4) = (Spin(6)xSpin(4))/Z2, CONNECTED, = (SU(4)xSU(2)xSU(2))/Z2; and W ~ z2 W are conjugate (the lift's sign is immaterial)
+(b) z2 = lift of the 2 pi rotation in one plane: = -1 on the spinor ? True ; image in SO(10) is 1 ? True
+    Q_X = -2i rho(J) on the 16: {-5: 1, -1: 10, 3: 5} ; on the vector: [-2, 2]
+    exp(i pi Q_X) = z2 on the full spinor ? True ; its vector image = 1 ? True
+    z4 = exp(i pi Q_X / 2): on the 16 a scalar? True value -1j ; vector image = -1 ? True ; z4^2 = z2 ? True
+    z4 commutes with all 45 generators ? True
+    J (U(1)_X) commutes with W ? True
+r1 exit 0

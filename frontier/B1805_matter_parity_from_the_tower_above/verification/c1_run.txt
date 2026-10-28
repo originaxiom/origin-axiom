@@ -1,0 +1,10 @@
+(a) dim su(5) = 24 ; centraliser of W in su(5): 12 (s(u(3)+u(2)) = 12)
+    W on the vector 10 of SO(10): eigenvalues [np.int64(-1), np.int64(-1), np.int64(-1), np.int64(-1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1)] ; det 1
+    dim so(10) = 45 ; centraliser of W in so(10): 21 (so(6)+so(4) = 15+6 = 21: Pati-Salam)
+(b) 16 weights: 16 ; z2 on them: {-1} ; on the 10: {1}
+    Q_X on the 16: [-3, 1, 5] (multiplicities {1: 10, -3: 5, 5: 1} )
+    Q_X on the 10: [-2, 2] ; exp(i pi Q_X) on the 16: {-1} on the 10: {1}  -> z2 = exp(i pi Q_X) = matter parity
+(c) diag(a,a,a,b,b) acting as -1 on every matter field and +1 on H_u: solutions [] -> matter parity is not in S(U(3)xU(2))
+(d) W on the 10 of SU(5) (Lambda^2): Q -> -1 , u^c -> 1 , e^c -> 1 ; on the 5bar: d^c -> +1, L -> -1; on the 1: +1  => W splits a 16 (not a common charge)
+    W on the Higgs 10 of SO(10) = 5 + 5bar: colour triplets +1 (the (6,1,1)), doublets -1 (the (1,2,2)) -> doublet-triplet split persists
+c1 exit 0

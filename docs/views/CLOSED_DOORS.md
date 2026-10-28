@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**850 recorded closures — of which 683 are CLASSIFIED by mechanism and
+**851 recorded closures — of which 684 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -133,6 +133,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Computed (B1794): every hyperbolic closed filling of m004 has finite H1 (184 slopes; b1 > 0 only at the Sol fibre boundary), and family-wide likewise, so H2(X;Q) = H4(X;Q) = 0: no rational class; canonical bundles are trivial or flat; on the cusped m004 one relative class (H2_c = Q) is end data, its integers free topologically.` | 1 |  |
 | `Sealed (B1795; 24b9e468d): det M vanishes for neither vector-like pair on any of 286 lines at three points; on the six's slope-2/5 carriers the light members agree within a factor 7 (the shared twist -2*2/5 = 3*2/5 mod 1); the strip's light members come from the Higgs section's near-degeneracy, shared by every sector.` | 1 |  |
 | `Computed and refereed (B1798): the class-choosing null alone passes B1753 at m = 39-41 (m*r 0.0084-0.0088), but the lepton factor c = 3 was chosen on the same data and the null holds it fixed; a c-choosing null gives m*r 0.035-0.079 (B1753) and 0.034-0.082 (B1749); per-cell look counting (m ~ 51) fails B1753 too.` | 1 |  |
+| `Computed and refereed (B1805): z2 is matter parity and survives every flat breaking, but no flat Spin(10) connection gives exactly the SM (U(1)_X stays), localised fields are only 1, 10, 16, 16bar, 45 (no 126), so the U(1)_X breaking by a 16 kills the parity; and with real Higgs 10's Witten's conditions have no solution for any exponent-2 F' (none of 31 groups; the H_u self-mass allowed in 440 of 440 cases).` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

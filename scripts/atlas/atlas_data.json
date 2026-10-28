@@ -14582,6 +14582,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1805": {
+   "slug": "matter parity from the tower above",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B952",
+    "B962",
+    "B964",
+    "B992"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B180": {
    "slug": "two faces dictionary",
    "motifs": [

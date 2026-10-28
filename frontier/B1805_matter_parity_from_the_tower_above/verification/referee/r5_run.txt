@@ -1,0 +1,5 @@
+draft's basis:   draft function 12 ; row-stacked 12
+rotated basis:   draft function 12 ; row-stacked 12 (the true answer is 12)
+toy map x -> x1 + i x2 (kernel 0): column-stacked kernel 1 ; row-stacked kernel 0
+-> the draft's helper is not a real-rank computation in general; it is right for su(5) because the image of X -> [X, W] (anti-hermitian off-block matrices) is stable under taking real and imaginary parts, so the two ranks coincide. No result changes (r1 recomputes (a) by row-stacking in Spin(10)).
+r5 exit 0

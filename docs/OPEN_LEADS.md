@@ -3846,6 +3846,8 @@ a proof that every admissible bundle there is flat. ★★★
 
 **S232 (2026-10-28): cell (ii), the doublet–triplet split — B1795 (sealed 24b9e468d; NEGATIVE for a structural split).** In B1656's frame at B1667's canonical end, with the singlet typed as the frame's Higgs section, det M vanishes for neither vector-like pair (D D^c, H_u H_d) on any of 286 lines at three points. On the six's slope-2/5 carriers the two pairs' light members agree within a factor 7, since −2·2/5 ≡ 3·2/5 mod 1 (SU(5)'s mod-5 identity in one coordinate). Off that slope they differ by line, without a rule. So the gauge ratio gets nothing from this frame; L250's own frame (P-403) is where a split would have to come from.
 
+**ESCALATED(2026-10-29, S240: the lead-debt ratchet at 22 days)** — carried by name, not dormant: worked in S230–S233 (B1794: no rational hypercharge class on any closed member; B1800: the couplings as flux-mode overlaps, L251 as stated) and registered onward as P-403 (the flux design: name the U(1), compute the three sectors, then seal); B1804 adds that LR-invariant fluxes force at most curves in the split frame. Next action: P-403's design, in the queue's order; read at Review 72.
+
 ## L251 — THE COUPLINGS AS OVERLAPS OF THE FIBRE'S ZERO MODES: ONE COMPUTATION THAT WOULD FIX THE HAND, THE OBJECT AND THE COEFFICIENTS TOGETHER (registered 2026-10-13, after B1640; source: two of the frame audit's three referee lenses, independently)
 
 **The observation.** The record reads the weave's couplings as vector-valued modular forms evaluated at a modulus τ

@@ -1,0 +1,21 @@
+(b') Q_X = 5(B-L) - 4Y; z2 = exp(i pi Q_X); P_M = (-1)^{3(B-L)}
+   Q     B-L=1/3   Y=1/6   Q_X=  1  z2=-1  P_M=-1
+   u^c   B-L=-1/3  Y=-2/3  Q_X=  1  z2=-1  P_M=-1
+   d^c   B-L=-1/3  Y=1/3   Q_X= -3  z2=-1  P_M=-1
+   L     B-L=-1    Y=-1/2  Q_X= -3  z2=-1  P_M=-1
+   e^c   B-L=1     Y=1     Q_X=  1  z2=-1  P_M=-1
+   nu^c  B-L=1     Y=0     Q_X=  5  z2=-1  P_M=-1
+   H_u   B-L=0     Y=1/2   Q_X= -2  z2=+1  P_M=+1
+   H_d   B-L=0     Y=-1/2  Q_X=  2  z2=+1  P_M=+1
+   45: (z2, (-1)^{3(B-L)}) values on its SM pieces: [(1, 1)]
+   126: (z2, (-1)^{3(B-L)}) values on its SM pieces: [(1.0, 1.0)]
+(c') L = (Fraction(-1, 2), 1, 2)  H_d = (Fraction(-1, 2), 1, 2) (Y, colour, SU(2)): identical gauge quantum numbers -> every element of any global form of SU(3)xSU(2)xU(1) acts identically on L and H_d; P_M(L) = -1, P_M(H_d) = +1. Also nu^c is a gauge singlet with P_M = -1.  So P_M is in no form of the SM group (draft's (c) correct; this proof is form-independent and needs no Schur step).
+(e1) 16-type (nu^c)         <Lambda^vee, mu> = 1 Z  -> residual discrete group (stabiliser in the torus modulo its identity component) has order 1; (the SU(5) = SM maximal torus {sum H = 0})
+(e1) 126-type (nu^c nu^c)   <Lambda^vee, mu> = 2 Z  -> residual discrete group (stabiliser in the torus modulo its identity component) has order 2; (the SU(5) = SM maximal torus {sum H = 0})
+     z2 = exp(2 pi i e1) fixes the 16-type VEV ? False
+     z2 = exp(2 pi i e1) fixes the 126-type VEV ? True
+(e2) highest-weight norms^2 (orthonormal basis, roots norm^2 2): {'1': 0.0, '10': 1.0, '16': 1.25, '45': 2.0, '54': 4.0, '120': 3.0, '126': 5.0, '210': 4.0} -> only 1, 10, 16/16bar, 45 can occur in adj(G') of a simply-laced G' (norm <= 2)
+     so(12) adj -> so(10): max norm^2 of restricted weights 2 ; distinct nonzero norms [1.0, 2.0]
+     e8 adj (240 roots) -> so(10) on the first 5 coordinates (regular D5 subsystem): max norm^2 of restricted weights 2 ; restricted dominant weights present: [(0.5, 0.5, 0.5, 0.5, 0.5), (1, 0, 0, 0, 0), (1, 1, 0, 0, 0)]
+     -> the 126's weight (1,1,1,1,1) never occurs: in Witten's / Acharya-Witten's frame a 126 is not available as localized matter, so the only rank-reducing (U(1)_X-breaking) localized field is a 16/16bar, which is z2-odd
+r2 exit 0

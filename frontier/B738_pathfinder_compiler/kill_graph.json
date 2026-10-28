@@ -12232,5 +12232,32 @@
    "reach": "class"
   },
   "weave_or_thread": "thread"
+ },
+ {
+  "id": "B1805",
+  "claim_killed": "That a tower above SU(5) -- Spin(10) on the 3-cycle, whose centre is matter parity -- supplies the matter parity Witten's first model lacked on m004's even fillings (B1803), in Witten's G2 frame (P-414, from the owner's towers question P-415).",
+  "kill_form": "Computed and refereed (B1805): z2 is matter parity and survives every flat breaking, but no flat Spin(10) connection gives exactly the SM (U(1)_X stays), localised fields are only 1, 10, 16, 16bar, 45 (no 126), so the U(1)_X breaking by a 16 kills the parity; and with real Higgs 10's Witten's conditions have no solution for any exponent-2 F' (none of 31 groups; the H_u self-mass allowed in 440 of 440 cases).",
+  "hatch": "another frame (F-theory matter curves and monodromy, Hayashi-Kawano-Tsuchiya-Watari arXiv:1004.3870); a Stueckelberg breaking of U(1)_X; an E6 meeting point with different localised content; a symmetry of the G2 space acting trivially on Q (B1803)",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-29), for tests/test_b833_negative_routing.py",
+  "note": "The draft's 'one discrete input replaced by structure' and 'the first worked case of one tower supplying what another lacks' were overturned by the hostile referee before banking.",
+  "evidence_consulted": [
+   "B952",
+   "B962",
+   "B964",
+   "B992",
+   "B1221",
+   "B1802",
+   "B1803"
+  ],
+  "faces_consulted": [],
+  "fact_computed": "main's centraliser and weight checks (c1); the referee's 32x32 Clifford construction, VEV residuals, Witten's conditions over 31 groups, line and commutant table (r1-r4)",
+  "scope": {
+   "frame": "Witten's discrete doublet-triplet splitting (hep-ph/0201018) in M-theory on a G2 space, with Spin(10) (a D5 singularity) on the 3-cycle instead of SU(5); breaking by flat connections; localised matter from enhanced adjoints (Acharya-Witten)",
+   "object": "hyperbolic Dehn fillings m004(p/q), p even, and their symmetries (B1802, B1803)",
+   "reach": "class",
+   "hypotheses": "the G2 space, the D5 singularity and the localisation are not supplied by the object; a Stueckelberg breaking of U(1)_X unchecked"
+  },
+  "weave_or_thread": "thread"
  }
 ]

@@ -1,0 +1,17 @@
+(A) r8 reproduced (sigma, tau free; all of (2.3)-(2.9)): {'(2,)': 0, '(3,)': 0, '(4,)': 2, '(5,)': 0, '(6,)': 4, '(2, 2)': 6} (r8: 0,0,2,0,4,6)
+    and dropping (2.8): {'(2,)': 1, '(3,)': 0, '(4,)': 3, '(5,)': 0, '(6,)': 5, '(2, 2)': 9} (r8: 1,0,3,0,5,9); the Z/2 one: [{'alpha': (0,), 'sigma': (0,), 'tau': (1,), 'gamma': (0,), 'delta': (1,), 'w': (1,)}]
+(B) sigma = tau, all of (2.3)-(2.9):                      groups with solutions: NONE  (of 31 groups tried)
+(B) sigma = tau, (2.8) dropped:                           groups with solutions: NONE  (of 31 groups tried)
+(B) sigma = tau, (2.6),(2.8) dropped [z2 does both]:      groups with solutions: NONE  (of 31 groups tried)
+(B) sigma = tau, (2.5),(2.6),(2.8) dropped:               groups with solutions: {'(3,)': 2, '(5,)': 4, '(6,)': 4, '(7,)': 6, '(8,)': 4, '(9,)': 8, '(10,)': 8, '(11,)': 10, '(12,)': 8, '(13,)': 12, '(14,)': 12, '(15,)': 14, '(16,)': 12, '(17,)': 16, '(18,)': 16, '(19,)': 18, '(20,)': 16, '(21,)': 20, '(22,)': 20, '(23,)': 22, '(24,)': 20, '(2, 6)': 8, '(3, 3)': 8, '(2, 8)': 8, '(4, 8)': 16}  (of 31 groups tried)
+    exponent | 4 groups, sigma = tau, (2.5),(2.6),(2.8) dropped: {'(2,)': 0, '(4,)': 0, '(2, 2)': 0, '(2, 4)': 0, '(4, 4)': 0, '(2, 2, 2)': 0} -> 0: (2.9) has charge 3 sigma + tau = 4 sigma = 0 there
+    Z/4 with F'^2 = z2 (matter odd, Higgs even), sigma free, (2.6),(2.8) dropped: 0 ; sigma = tau: 0
+(C0) Higgs as real 10s, twist of order <= 2, sigma, tau free, all conditions:              groups with solutions: NONE
+(C0) Higgs as real 10s, twist of order <= 2, sigma, tau free, (2.6),(2.8) dropped:         groups with solutions: {'(10,)': 8, '(20,)': 8}
+(C0) Higgs as real 10s, twist of order <= 2, sigma, tau free, (2.5),(2.6),(2.8) dropped:   groups with solutions: {'(6,)': 4, '(8,)': 4, '(10,)': 8, '(12,)': 8, '(14,)': 12, '(16,)': 12, '(18,)': 16, '(20,)': 16, '(22,)': 20, '(24,)': 20, '(2, 6)': 24, '(2, 8)': 24, '(4, 8)': 48}
+(C0) and Z/4 with F'^2 = z2 (matter odd, Higgs even), real 10s, (2.6),(2.8) dropped: 0 ; also (2.5) dropped: 0
+(C) Higgs as real 10s, sigma, tau free, all conditions:           exponent-2 groups: {'(2,)': 0, '(2, 2)': 0, '(2, 2, 2)': 0}; all groups with solutions: {'(4,)': 2, '(6,)': 4, '(8,)': 6, '(12,)': 10, '(14,)': 12, '(16,)': 14, '(18,)': 16, '(20,)': 10, '(22,)': 20, '(24,)': 22, '(2, 4)': 12, '(4, 4)': 36, '(2, 6)': 24, '(2, 8)': 36, '(4, 8)': 84}
+(C) Higgs as real 10s, sigma, tau free, (2.6),(2.8) dropped:      exponent-2 groups: {'(2,)': 0, '(2, 2)': 0, '(2, 2, 2)': 0}; all groups with solutions: {'(3,)': 2, '(4,)': 4, '(6,)': 8, '(7,)': 6, '(8,)': 12, '(9,)': 8, '(10,)': 8, '(11,)': 10, '(12,)': 20, '(13,)': 12, '(14,)': 24, '(15,)': 10, '(16,)': 28, '(17,)': 16, '(18,)': 32, '(19,)': 18, '(20,)': 28, '(21,)': 20, '(22,)': 40, '(23,)': 22, '(24,)': 44, '(2, 4)': 16, '(4, 4)': 48, '(2, 6)': 32, '(3, 3)': 8, '(2, 8)': 48, '(4, 8)': 112}
+(C) Higgs as real 10s, sigma = tau, (2.5),(2.6),(2.8) dropped:    exponent-2 groups: {'(2,)': 0, '(2, 2)': 0, '(2, 2, 2)': 0}; all groups with solutions: {'(3,)': 2, '(5,)': 4, '(6,)': 4, '(7,)': 6, '(8,)': 4, '(9,)': 8, '(10,)': 8, '(11,)': 10, '(12,)': 8, '(13,)': 12, '(14,)': 12, '(15,)': 14, '(16,)': 12, '(17,)': 16, '(18,)': 16, '(19,)': 18, '(20,)': 16, '(21,)': 20, '(22,)': 20, '(23,)': 22, '(24,)': 20, '(2, 6)': 8, '(3, 3)': 8, '(2, 8)': 8, '(4, 8)': 16}
+(D) top Yukawa + Weinberg allowed, whole 16 at one point, twist of order <= 2: cases 440 ; cases where H_u's 10 self-mass (charge 2 h_u) is forbidden: 0
+r3 exit 0

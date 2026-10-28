@@ -18034,3 +18034,9 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - LR-invariant (1,1) fluxes: curves only in the split frame; isolated CM points chosen by flux integers in the holomorphic frame (no invariant Kähler class). Main's draft NEGATIVE overturned at its referee. P-425: CM by the object's compositum ℚ(√5, √−3) (class number 1) — reframed before landing after B334 and B336: requiring it is a choice; the question is whether the flux route reaches √−15. 0 of 19.
 - **Landing suite (S239).** 7 836 passed, 68 skipped, 2 failed in 34:54 — B805's two standing attachment locks (P-239); run on the commit before P-425's text was corrected (a text-only amendment after the seen-first sweep found B334 and B336; the gates rerun on the amended tree).
+
+## 2026-10-29 — S240 B1805 (MATTER PARITY FROM THE TOWER ABOVE, TESTED)
+
+- Spin(10)'s centre is matter parity and survives every flat breaking, but in Witten's G₂ frame it dies at the U(1)_X breaking and Witten's doublet–triplet mechanism fails with real Higgs 10's; the first towers test fails in this frame. Refereed hostile; the draft's "trade" withdrawn. 0 of 19.
+- The 21-day ratchets: eight relays of 2026-10-07 and lead L250 escalated by name (Review 72's intake).
+- **Landing suite (S240).** 7 839 passed, 68 skipped, 2 failed in 33:55 — B805's two standing attachment locks (P-239).
