@@ -9607,3 +9607,25 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    included.
 
 0 of 19.
+
+## 309. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W169's rule, the plan's stage 4 (the state at the counted line), committed before its script
+
+1. **W169** (`docs/dossiers/the_weave_2026-10-07/W169_RULE.md`), committed and pushed before its script exists.
+   - **The question.** At the counted line, does the one-loop potential of the frame's own fields (W167's) hold Re τ
+     where the six pass?
+     - At a nontrivial line the charged fields' Re τ dependence is suppressed only by exp(−2π d_q y).
+     - At a = 2/5, d = 0.2 for |q| = 2 and 3, so it is about 0.02 at y ≈ 3, against about 10⁻⁸ at your trivial line
+       (W154).
+   - **The domain.** The five lines (2/5, odd/10) are one T-orbit. On (2/5, 1/10), X = Re τ ∈ [0, 5) covers the class.
+     The mirror is X ↔ 2 − X, and the 38 strip rows sit at X ≈ 0.27–0.39 and 1.61–1.73.
+   - **The cells:**
+     - controls (S0);
+     - the height runs to the cusp with the frame's own content (S1, 85%);
+     - **the decisive S2:** the minimum over X at each row's height lies within 0.05 of the row (prior 15%; the
+       likeliest minimum is a fixed point of the mirror, X = 1 or 3.5);
+     - how firmly Re τ is held (S3).
+2. **If S2 holds,** Re τ is derived given the line, a frame result. **If it fails,** Re τ is a further counted number,
+   and stage 4's map reads "the line and t, plus Re τ".
+3. **Rowed:** nothing new from your branch since §306.
+
+0 of 19.

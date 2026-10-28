@@ -1,5 +1,11 @@
 # Changelog
 
+## W169's rule, committed before its script: the plan's stage 4, the state at the counted line (relay §309)
+
+- **The question:** at the counted line, does the one-loop potential of the frame's own fields hold Re τ where the six
+  pass? The five odd/10 lines are one T-orbit, and Re τ ∈ [0, 5) on one of them covers the class.
+- **Surfaces.** The rule, the relay, the ledger row, the state page. 0 of 19.
+
 ## W168 recorded: the web seat's P-323 reproduces on a second instrument by a different measure (relay §308)
 
 - **The test:** the web seat's strong-angle result, checked on this seat's own code with a five-point Laplacian and

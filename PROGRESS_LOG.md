@@ -21214,3 +21214,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   different method. Everything it checked agrees, down to the last printed digit.
 - **What it means:** nothing in the frame as built makes the strong-force angle vanish on its own. It stays an input.
   0 of 19.
+
+## 2026-10-28 — does the chosen line fix the rest of the shape?
+
+- **The test, written down first:** with the line now counted as a choice, this seat asks whether the energy of the
+  record's own particles then settles one of the shape's two numbers where the data need it. It expects not (about a
+  one-in-seven chance).
+  0 of 19.
