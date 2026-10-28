@@ -13,6 +13,13 @@ whether it sits in the six's band.
   R   per N: tau*, the line, V*, the CP status, J where defined, the refined candidates; the overall least
 
     python3 -B docs/dossiers/the_weave_2026-10-07/the_class_by_the_dynamics.py
+
+Fixed for the second launch (2026-10-28; the_class_by_the_dynamics_first_launch_stopped.txt). The first launch was
+stopped by the session's one-hour limit on a background task, refining order 30 after the grid and fifteen orders; it
+writes only at its end, so nothing was written and only its progress lines were seen. Its refinement was Nelder-Mead,
+unconstrained and then reduced into F, which is not the rule's wording ("L-BFGS-B, staying in F") and was slow. Now:
+L-BFGS-B on a box around F, the result reduced into F with the line carried, repeated until it stays in F; and the
+refinement is spread over the four workers. No cell, threshold, grid, order or line changed.
 """
 import contextlib
 import io
@@ -175,6 +182,22 @@ def _grid_point(tau):
     return tau, out
 
 
+def _refine(task):
+    """L-BFGS-B on a box around F for the candidate's line, then the result reduced into F with the line carried;
+    repeated from the reduced configuration until it stays in F (at most four passes)"""
+    tau, phi = task
+    wv = _G["wv"]
+    for _ in range(4):
+        res = minimize(lambda z: V_one(complex(z[0], z[1]), phi, wv), x0=[tau.real, tau.imag], method="L-BFGS-B",
+                       bounds=[(-0.6, 0.6), (0.8, YTOP)], options={"ftol": 1e-15, "gtol": 1e-10, "maxiter": 500})
+        t2, p2 = reduce_to_F(complex(res.x[0], res.x[1]), phi)
+        moved = abs(t2 - complex(res.x[0], res.x[1])) > 1e-12
+        tau, phi = t2, p2
+        if not moved:
+            break
+    return {"V": float(V_one(tau, phi, wv)), "tau": [tau.real, tau.imag], "line": [str(x) for x in line_of(phi)]}
+
+
 def run(root, out, pool_ctx):
     out["K0"] = {"per order": {str(N): k0(N) for N in ORDERS}}
     out["K0"]["holds"] = all(out["K0"]["per order"].values())
@@ -206,27 +229,31 @@ def run(root, out, pool_ctx):
     out["grid points"] = len(taus)
     t0 = time.time()
     grid = {}
+    owner = np.array(owner)
     with pool_ctx.Pool(WORKERS, initializer=_init, initargs=({"P": P, "wv": wv, "QS": W72.QS},)) as pool:
         for j, (tau, vals) in enumerate(pool.imap(_grid_point, taus, chunksize=4)):
             grid[tau] = vals
             if j % 100 == 0:
                 print(f"grid {j + 1}/{len(taus)} at {time.time() - t0:.0f} s", flush=True)
+        cands = {}
+        for N in ORDERS:
+            idx = np.where(owner == N)[0]
+            cands[N] = sorted(((grid[t][i], t, i) for t in taus for i in idx), key=lambda v: v[0])[:5]
+        tasks = [(t, psi_of(lines[i])) for N in ORDERS for (_v, t, i) in cands[N]]
+        done = pool.map(_refine, tasks, chunksize=1)
+        print(f"refined {len(done)} candidates at {time.time() - t0:.0f} s", flush=True)
     with contextlib.redirect_stdout(io.StringIO()):
         col, _sha, W93, W89, _L = W66.frame(root)
-    owner = np.array(owner)
     per = {}
+    k = 0
     for N in ORDERS:
         idx = np.where(owner == N)[0]
-        cand = sorted(((grid[t][i], t, i) for t in taus for i in idx), key=lambda v: v[0])[:5]
         refined = []
-        for v0, t, i in cand:
-            phi = psi_of(lines[i])
-            res = minimize(lambda z: V_one(complex(z[0], z[1]), phi, wv) if z[1] > 0.3 else 1e9, x0=[t.real, t.imag],
-                           method="Nelder-Mead",
-                           options={"xatol": 1e-9, "fatol": 1e-12, "maxiter": 4000})
-            tau_r, psi_r = reduce_to_F(complex(res.x[0], res.x[1]), phi)
-            refined.append({"V": float(res.fun), "tau": [tau_r.real, tau_r.imag],
-                            "line": [str(x) for x in line_of(psi_r)], "grid start": [t.real, t.imag, float(v0)]})
+        for v0, t, i in cands[N]:
+            r = dict(done[k])
+            k += 1
+            r["grid start"] = [t.real, t.imag, float(v0)]
+            refined.append(r)
         refined.sort(key=lambda r: r["V"])
         best = refined[0]
         tau_b = complex(*best["tau"])
