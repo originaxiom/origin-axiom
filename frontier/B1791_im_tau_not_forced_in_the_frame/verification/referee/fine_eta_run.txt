@@ -1,0 +1,23 @@
+eta^6 R   (weight 2.5) Re tau 0.0000: Petersson-norm maximum at Im tau = 1.0000   [leading order 2k'/pi = 1.5915]
+eta^6 R   (weight 2.5) Re tau 0.1000: Petersson-norm maximum at Im tau = 1.0070   [leading order 2k'/pi = 1.5915]
+eta^6 R   (weight 2.5) Re tau 0.2500: Petersson-norm maximum at Im tau = 1.0684   [leading order 2k'/pi = 1.5915]
+eta^6 R   (weight 2.5) Re tau 0.3145: Petersson-norm maximum at Im tau = 1.0916   [leading order 2k'/pi = 1.5915]
+eta^6 R   (weight 2.5) Re tau 0.5000: Petersson-norm maximum at Im tau = 1.1180   [leading order 2k'/pi = 1.5915]
+eta^6 dR  (weight 4.5) Re tau 0.0000: Petersson-norm maximum at Im tau = 2.8406   [leading order 2k'/pi = 2.8648]
+eta^6 dR  (weight 4.5) Re tau 0.1000: Petersson-norm maximum at Im tau = 2.8406   [leading order 2k'/pi = 2.8648]
+eta^6 dR  (weight 4.5) Re tau 0.2500: Petersson-norm maximum at Im tau = 2.8406   [leading order 2k'/pi = 2.8648]
+eta^6 dR  (weight 4.5) Re tau 0.3145: Petersson-norm maximum at Im tau = 2.8406   [leading order 2k'/pi = 2.8648]
+eta^6 dR  (weight 4.5) Re tau 0.5000: Petersson-norm maximum at Im tau = 2.8406   [leading order 2k'/pi = 2.8648]
+eta^6 d2R (weight 6.5) Re tau 0.0000: Petersson-norm maximum at Im tau = 4.1380   [leading order 2k'/pi = 4.1380]
+eta^6 d2R (weight 6.5) Re tau 0.1000: Petersson-norm maximum at Im tau = 4.1380   [leading order 2k'/pi = 4.1380]
+eta^6 d2R (weight 6.5) Re tau 0.2500: Petersson-norm maximum at Im tau = 4.1380   [leading order 2k'/pi = 4.1380]
+eta^6 d2R (weight 6.5) Re tau 0.3145: Petersson-norm maximum at Im tau = 4.1380   [leading order 2k'/pi = 4.1380]
+eta^6 d2R (weight 6.5) Re tau 0.5000: Petersson-norm maximum at Im tau = 4.1380   [leading order 2k'/pi = 4.1380]
+y^((3+m)/4)|eta|^m|dR|, m =  4: max at Im tau = 6.6845 (leading 3(3+m)/(pi(m-3)) = 6.6845)
+y^((3+m)/4)|eta|^m|dR|, m =  5: max at Im tau = 3.8175 (leading 3(3+m)/(pi(m-3)) = 3.8197)
+y^((3+m)/4)|eta|^m|dR|, m =  6: max at Im tau = 2.8406 (leading 3(3+m)/(pi(m-3)) = 2.8648)
+y^((3+m)/4)|eta|^m|dR|, m =  7: max at Im tau = 2.3092 (leading 3(3+m)/(pi(m-3)) = 2.3873)
+y^((3+m)/4)|eta|^m|dR|, m =  8: max at Im tau = 1.9302 (leading 3(3+m)/(pi(m-3)) = 2.1008)
+y^((3+m)/4)|eta|^m|dR|, m =  9: max at Im tau = 0.8398 (leading 3(3+m)/(pi(m-3)) = 1.9099)
+y^((3+m)/4)|eta|^m|dR|, m = 12: max at Im tau = 0.8879 (leading 3(3+m)/(pi(m-3)) = 1.5915)
+fine_eta exit 0

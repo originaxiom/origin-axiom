@@ -1,0 +1,6 @@
+functionals with an interior extremum in Im tau 1.5-8: 4 of 324
+   2/5,1/10|0.3|up|F2_detM [(1.75, 'max')]
+   2/5,4/25|0.7|up|F1_sum_c [(2.25, 'max')]
+   2/5,4/25|0.7|down|F1_sum_c [(2.25, 'max')]
+   2/5,4/25|0.7|lep|F1_sum_c [(2.25, 'max')]
+functionals exit 0

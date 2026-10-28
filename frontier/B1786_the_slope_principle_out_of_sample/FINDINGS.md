@@ -176,3 +176,13 @@ with the Higgs at the generator to the charged-fermion hierarchy; nothing new wa
   run, unread).
 
 The lock: `tests/test_b1786_the_slope_principle_out_of_sample.py`.
+
+## Dated note (2026-10-28, S227): the third opinion
+
+The SM seat's W164 (relay §297, HARVEST_LEDGER row 1429) reproduces this arc in full on its own instrument and draws. Its
+run of the class-choosing null on fresh draws gives m·r 0.0126 at m = 41. So the three computations agree (main's referee,
+the web seat's checking pass, the SM seat): **not PASSED, on the gate, a READING.**
+
+Its read of the offsets (post hoc, labelled): at the strip points the six is nearly a function of 3 Re w, and the carriers
+recur under b → b + 1/3 across orders. That is registered as P-399, a sealable prediction for order 60.
+

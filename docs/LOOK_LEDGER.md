@@ -95,6 +95,7 @@ verifications of W133.
 | W146 (row 1357) | sealed, a class test | the nine's target, its invariant across the band | NEGATIVE for every single section |
 | W151 (row 1372) | sealed, a class test | the nine's target, its (D, E) box | no pair in the box |
 | W162 (row 1419) | post hoc (counted as a look by the seat) | the six on the order-10 lines over Im τ 1.2–12 and on the 266 lines at nine heights outside the old window | only α = 2/5 below 16.75, only at Im τ 3.0–3.1 |
+| W164 (row 1429) | verification of B1786 (A0–A4, B, C1, C3; A2f re-estimates the measure) and one look (C2 (ii) and its post hoc read-out) | the six at orders 25 and 30; the carriers' recurrence | reproduces B1786; class-choosing null 0.0126 at m = 41; the +1/3 recurrence (P-399) |
 | W145, W89, W93, W96, W138, W141, W142 | verification | earlier arcs reproduced | not new looks |
 
 **The agy lane (another session's branch, 2026-10-26/27; P-390, audited in B1784):** its arcs compare the frame with the six

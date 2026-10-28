@@ -1,5 +1,11 @@
 # Changelog
 
+## S227 MAIN'S STEP 4 — B1791 Im τ IS NOT FOUND FORCED IN B1656'S FRAME; B1786 SETTLED BY THE SM SEAT'S THIRD OPINION; THE OFFSET RECURRENCE (2026-10-28)
+
+- **B1791** (NEGATIVE; data-free): Im τ is not found forced in the frame — special points, cusp shapes and thread apexes closed on record; the strength-type functionals rise to the cusp; the one line-independent height, the ρ′ Higgs's Petersson peak at Im τ = 2.8406 (9/π at leading order), is set by the η-power convention and lies outside the six's strip (P-398, post hoc); the one-loop potential trades Im τ for a free ratio; the audit lane's relative thresholds do not involve τ as written (the draft's route corrected at its referee). Im τ stays a counted continuous input.
+- **B1786 settled**: the SM seat's W164 reproduces it in full on its own instrument and draws, and its class-choosing null gives m·r 0.0126 at m = 41 — three computations agree, not PASSED, a READING. Its offset read: the six nearly a function of 3 Re w at the strip points, the carriers recurring under b → b + 1/3 across orders — registered as P-399, main's next sealed test (order 60 from order 20).
+- Register P-398, P-399; FLOOR 399. Harvest row 1429. The relay to the SM seat. 0 of 19.
+
 ## S226 MAIN'S STEPS 2 AND 3 — B1789 THE LEPTON FACTOR AND B1790 THE READING ARE NOT DERIVED IN B1656'S FRAME; THE SIX'S INPUTS COUNTED (2026-10-28)
 
 - **B1789** (NEGATIVE; data-free): c = 3 is not derived in the frame as built — on the slope-2/5 family the frame's second-generation lepton/down ratio is 1 at leading order, and a net fibre flux is excluded; the band's first-generation spread means exact c = 3 does not force D = 9 (the first draft's error, caught by its referee); the route left is an insertion that sees the integer hypercharge (P-397, main's design task).

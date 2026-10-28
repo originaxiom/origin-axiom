@@ -1,0 +1,113 @@
+rows 1456
+
+(0) spot-check against functionals.json (relative deviations)
+   ('2/5,1/10', 0.3, 3.0) max rel dev 3.68e-16
+   ('2/5,23/30', 0.3, 2.0) max rel dev 4.48e-16
+   ('2/5,4/25', 0.3, 6.0) max rel dev 4.10e-16
+   ('2/5,1/10', 0.3, 1.5) max rel dev 2.52e-16
+
+(1) scale-free functionals: interior extrema in Im tau 1.0-8.0 (53 heights), per (line, Re tau) series
+  s2/s1               336 series,   93 with an interior extremum; heights [1.05, 1.1, 1.15, 1.2, 1.25, 2.9, 3.2]
+        ('2/5,1/10', 0.0, 'up', 'L_max', 'S', [(1.15, 'max')])
+        ('2/5,1/10', 0.0, 'up', 'L_2', 'S', [(1.15, 'max')])
+        ('2/5,1/10', 0.0, 'down', 'L_max', 'S', [(1.1, 'max')])
+        ('2/5,1/10', 0.0, 'down', 'L_2', 'S', [(1.1, 'max')])
+        ('2/5,1/10', 0.0, 'lep', 'L_max', 'St', [(1.05, 'max')])
+        ('2/5,1/10', 0.0, 'lep', 'L_2', 'St', [(1.05, 'max')])
+  s3/s1               336 series,  156 with an interior extremum; heights [1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0, 2.2, 2.3, 2.4, 2.6, 2.7, 3.0, 3.1, 3.2, 7.75]
+        ('2/5,1/10', 0.0, 'up', 'L_max', 'S', [(1.25, 'max')])
+        ('2/5,1/10', 0.0, 'up', 'L_2', 'S', [(1.3, 'max')])
+        ('2/5,1/10', 0.0, 'down', 'L_max', 'S', [(1.1, 'max')])
+        ('2/5,1/10', 0.0, 'down', 'L_2', 'S', [(1.15, 'max')])
+        ('2/5,1/10', 0.0, 'lep', 'L_max', 'St', [(1.05, 'max')])
+        ('2/5,1/10', 0.0, 'lep', 'L_2', 'St', [(1.1, 'max')])
+  s1                  336 series,  125 with an interior extremum; heights [1.05, 1.1, 1.15, 1.2, 1.25]
+        ('2/5,1/10', 0.0, 'up', 'L_max', 'S', [(1.15, 'min')])
+        ('2/5,1/10', 0.0, 'up', 'L_2', 'S', [(1.2, 'min')])
+        ('2/5,1/10', 0.0, 'down', 'L_max', 'S', [(1.1, 'min')])
+        ('2/5,1/10', 0.0, 'down', 'L_2', 'S', [(1.15, 'min')])
+        ('2/5,1/10', 0.0, 'lep', 'L_max', 'St', [(1.1, 'min')])
+        ('2/5,1/10', 0.0, 'lep', 'L_2', 'St', [(1.1, 'min')])
+  y^0.5 s1            336 series,   85 with an interior extremum; heights [1.05, 1.1, 1.15, 1.2]
+        ('2/5,1/10', 0.0, 'up', 'L_max', 'S', [(1.1, 'min')])
+        ('2/5,1/10', 0.0, 'up', 'L_2', 'S', [(1.15, 'min')])
+        ('2/5,1/10', 0.0, 'down', 'L_max', 'S', [(1.1, 'min')])
+        ('2/5,1/10', 0.0, 'down', 'L_2', 'S', [(1.1, 'min')])
+        ('2/5,1/10', 0.0, 'lep', 'L_max', 'St', [(1.05, 'min')])
+        ('2/5,1/10', 0.0, 'lep', 'L_2', 'St', [(1.05, 'min')])
+  s3/s2               336 series,  279 with an interior extremum; heights [1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3.0]
+        ('2/5,1/10', 0.0, 'up', 'L_max', 'S', [(2.4, 'max')])
+        ('2/5,1/10', 0.0, 'up', 'L_2', 'S', [(3.5, 'max')])
+        ('2/5,1/10', 0.0, 'down', 'L_max', 'S', [(1.05, 'min'), (2.0, 'max')])
+        ('2/5,1/10', 0.0, 'down', 'L_2', 'S', [(2.5, 'max')])
+        ('2/5,1/10', 0.0, 'down', 'L_2', 'St', [(1.9, 'min'), (2.3, 'max')])
+        ('2/5,1/10', 0.0, 'lep', 'L_max', 'S', [(1.25, 'min'), (2.1, 'max')])
+  c_1                  84 series,    0 with an interior extremum; heights []
+  c_j                  84 series,    9 with an interior extremum; heights [1.2, 1.4]
+        ('2/5,1/10', 0.3, 'up', [(1.2, 'max')])
+        ('2/5,1/10', 0.3, 'down', [(1.2, 'max')])
+        ('2/5,1/10', 0.3, 'lep', [(1.2, 'max')])
+        ('2/5,23/30', 0.3, 'up', [(1.2, 'max')])
+        ('2/5,23/30', 0.3, 'down', [(1.2, 'max')])
+        ('2/5,23/30', 0.3, 'lep', [(1.2, 'max')])
+  c_k                  84 series,   15 with an interior extremum; heights [1.05, 1.45, 2.1, 2.3]
+        ('2/5,1/10', 0.15, 'up', [(2.1, 'max')])
+        ('2/5,1/10', 0.15, 'down', [(2.1, 'max')])
+        ('2/5,1/10', 0.15, 'lep', [(2.1, 'max')])
+        ('2/5,23/30', 0.15, 'up', [(2.1, 'max')])
+        ('2/5,23/30', 0.15, 'down', [(2.1, 'max')])
+        ('2/5,23/30', 0.15, 'lep', [(2.1, 'max')])
+  c_1-c_j              84 series,    0 with an interior extremum; heights []
+  c_1-c_k              84 series,    0 with an interior extremum; heights []
+  c_j-c_k              84 series,    3 with an interior extremum; heights [1.4]
+        ('2/5,4/25', 0.75, 'up', [(1.4, 'min')])
+        ('2/5,4/25', 0.75, 'down', [(1.4, 'min')])
+        ('2/5,4/25', 0.75, 'lep', [(1.4, 'min')])
+  c_i                  70 series,   12 with an interior extremum; heights [1.1, 1.2, 1.45]
+        ('2/5,1/10', 0.0, 'down', [(1.45, 'max')])
+        ('2/5,1/10', 0.0, 'lep', [(1.45, 'max')])
+        ('2/5,1/10', 0.15, 'down', [(1.1, 'max')])
+        ('2/5,1/10', 0.15, 'lep', [(1.1, 'max')])
+        ('2/5,23/30', 0.0, 'up', [(1.45, 'max')])
+        ('2/5,23/30', 0.0, 'down', [(1.45, 'max')])
+  c_1-c_i              70 series,    0 with an interior extremum; heights []
+  c_i-c_j              70 series,    2 with an interior extremum; heights [1.15]
+        ('2/5,1/2', 0.9, 'down', [(1.15, 'max')])
+        ('2/5,1/2', 0.9, 'lep', [(1.15, 'max')])
+  c_i-c_k              70 series,    5 with an interior extremum; heights [1.7]
+        ('2/5,1/10', 0.0, 'down', [(1.7, 'max')])
+        ('2/5,1/10', 0.0, 'lep', [(1.7, 'max')])
+        ('2/5,23/30', 0.0, 'up', [(1.7, 'max')])
+        ('2/5,23/30', 0.0, 'down', [(1.7, 'max')])
+        ('2/5,23/30', 0.0, 'lep', [(1.7, 'max')])
+  s1(up)/s1(down)     112 series,   57 with an interior extremum; heights [1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0, 2.1, 2.2]
+        ('2/5,1/10', 0.0, 'L_max', 'S', 'S', [(1.05, 'max'), (2.1, 'min')])
+        ('2/5,1/10', 0.0, 'L_2', 'S', 'S', [(1.05, 'max'), (1.9, 'min')])
+        ('2/5,1/10', 0.15, 'L_max', 'S', 'S', [(1.05, 'max'), (2.1, 'min')])
+        ('2/5,1/10', 0.15, 'L_2', 'S', 'S', [(1.05, 'max'), (1.8, 'min')])
+        ('2/5,1/10', 0.3, 'L_max', 'S', 'S', [(2.0, 'min')])
+        ('2/5,1/10', 0.3, 'L_2', 'S', 'S', [(1.15, 'min'), (1.4, 'max'), (1.7, 'min')])
+
+(2) seat strength s1 (up S~, down S, lep S; L_max) monotone over Im tau 1.0-1.5?
+   non-monotone: 2/5,1/10 0.0 down [0.3209, 0.3014, 0.2922, 0.2939, 0.3027, 0.3151, 0.3298, 0.3461, 0.3637, 0.3827, 0.4031]
+   non-monotone: 2/5,1/10 0.15 down [0.3116, 0.2961, 0.2907, 0.2945, 0.3039, 0.3163, 0.3308, 0.3467, 0.3641, 0.3829, 0.403]
+   non-monotone: 2/5,1/10 0.3 down [0.3044, 0.2975, 0.2973, 0.3026, 0.3116, 0.3231, 0.3366, 0.3517, 0.3683, 0.3864, 0.4061]
+   non-monotone: 2/5,23/30 0.75 down [0.3011, 0.2982, 0.303, 0.3125, 0.3247, 0.3387, 0.354, 0.3706, 0.3883, 0.4072, 0.4274]
+   non-monotone: 2/5,23/30 0.9 down [0.2934, 0.2907, 0.2978, 0.3093, 0.3229, 0.3377, 0.3537, 0.3707, 0.3886, 0.4077, 0.428]
+   non-monotone: 2/5,4/25 0.0 down [0.2933, 0.2888, 0.2956, 0.3073, 0.3211, 0.336, 0.3521, 0.3691, 0.3871, 0.4062, 0.4265]
+   non-monotone: 2/5,4/25 0.9 down [0.3368, 0.336, 0.3387, 0.3444, 0.3526, 0.3627, 0.3748, 0.3884, 0.4035, 0.42, 0.4381]
+   non-monotone: 2/5,1/2 0.6 down [0.3002, 0.2986, 0.3012, 0.3075, 0.3166, 0.3278, 0.3409, 0.3556, 0.3718, 0.3895, 0.4088]
+   non-monotone: 2/5,1/2 0.75 down [0.3066, 0.2968, 0.2949, 0.2997, 0.3088, 0.3206, 0.3344, 0.3498, 0.3667, 0.385, 0.4048]
+   non-monotone: 2/5,1/2 0.9 down [0.3145, 0.297, 0.2898, 0.293, 0.3025, 0.315, 0.3297, 0.3459, 0.3634, 0.3823, 0.4026]
+   non-monotone series below 1.5: 10
+
+(3) the Higgs alone (line-independent): Petersson y^(3/4)|dR| and y^((3+m)/4)|eta|^m |dR| (all modular-invariant in modulus)
+  Re tau 0.00: [(0, 'monotone up'), (3, 'monotone up'), (4, [(np.float64(6.75), 'max')]), (5, [(np.float64(3.8), 'max')]), (6, [(np.float64(2.8), 'max')]), (7, [(np.float64(2.3), 'max')]), (8, [(np.float64(1.9), 'max')]), (9, [(np.float64(1.6), 'max')]), (12, 'monotone down')]
+  Re tau 0.15: [(0, 'monotone up'), (3, 'monotone up'), (4, [(np.float64(6.75), 'max')]), (5, [(np.float64(3.8), 'max')]), (6, [(np.float64(2.8), 'max')]), (7, [(np.float64(2.3), 'max')]), (8, [(np.float64(1.05), 'min'), (np.float64(1.9), 'max')]), (9, [(np.float64(1.1), 'min'), (np.float64(1.6), 'max')]), (12, 'monotone down')]
+  Re tau 0.30: [(0, 'monotone up'), (3, 'monotone up'), (4, [(np.float64(6.75), 'max')]), (5, [(np.float64(3.8), 'max')]), (6, [(np.float64(2.8), 'max')]), (7, [(np.float64(1.05), 'min'), (np.float64(2.3), 'max')]), (8, [(np.float64(1.15), 'min'), (np.float64(1.9), 'max')]), (9, [(np.float64(1.35), 'min'), (np.float64(1.5), 'max')]), (12, 'monotone down')]
+  Re tau 0.45: [(0, 'monotone up'), (3, 'monotone up'), (4, [(np.float64(6.75), 'max')]), (5, [(np.float64(3.8), 'max')]), (6, [(np.float64(1.05), 'min'), (np.float64(2.8), 'max')]), (7, [(np.float64(1.1), 'min'), (np.float64(2.3), 'max')]), (8, [(np.float64(1.2), 'min'), (np.float64(1.9), 'max')]), (9, 'monotone down'), (12, 'monotone down')]
+  Re tau 0.60: [(0, 'monotone up'), (3, 'monotone up'), (4, [(np.float64(6.75), 'max')]), (5, [(np.float64(3.8), 'max')]), (6, [(np.float64(1.05), 'min'), (np.float64(2.8), 'max')]), (7, [(np.float64(1.1), 'min'), (np.float64(2.3), 'max')]), (8, [(np.float64(1.2), 'min'), (np.float64(1.9), 'max')]), (9, 'monotone down'), (12, 'monotone down')]
+  Re tau 0.75: [(0, 'monotone up'), (3, 'monotone up'), (4, [(np.float64(6.75), 'max')]), (5, [(np.float64(3.8), 'max')]), (6, [(np.float64(2.8), 'max')]), (7, [(np.float64(1.05), 'min'), (np.float64(2.3), 'max')]), (8, [(np.float64(1.1), 'min'), (np.float64(1.9), 'max')]), (9, [(np.float64(1.25), 'min'), (np.float64(1.6), 'max')]), (12, 'monotone down')]
+  Re tau 0.90: [(0, 'monotone up'), (3, 'monotone up'), (4, [(np.float64(6.75), 'max')]), (5, [(np.float64(3.8), 'max')]), (6, [(np.float64(2.8), 'max')]), (7, [(np.float64(2.3), 'max')]), (8, [(np.float64(1.9), 'max')]), (9, [(np.float64(1.05), 'min'), (np.float64(1.6), 'max')]), (12, 'monotone down')]
+  analytic: |dR| ~ e^{pi y/4}, |eta|^m ~ e^{-pi m y/12}: max at y = 3(3+m)/(pi(m-3)) for m > 3 (m=4: 6.68, 5: 3.82, 6: 2.86, 9: 1.91)
+analyse exit 0

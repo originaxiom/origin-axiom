@@ -35,7 +35,8 @@ against it.
    Im τ 1.2–12) the six select 2/5 uniquely at every order tested. **Status: the slope is selected by the data, stably
    out of sample, with one number's worth of input (e_up) — not removed.** Still open in step 1: a data-free reason for
    ‖3α‖ = 1/5 (the Higgs at the generator of SU(5)'s centre), and the offset rule (12 of 30 lines at orders 25 and 30, in
-   equal-valued pairs; 4 of 10 at 15 and 20). Inputs it would remove: the slope and the offset (two).
+   mirror pairs; the SM seat's W164 finds the carriers recurring under b → b + 1/3 across orders — a sealable prediction
+   for order 60, P-399, main's next test). Inputs it would remove: the slope and the offset (two).
 2. **The lepton factor c = 3** (P-294). **Done, B1789 (NEGATIVE):** not derived in the frame as built. On the slope-2/5
    family the frame's second-generation lepton/down ratio is 1 at leading order, and a net fibre flux is excluded. The
    band's first-generation spread means exact c = 3 does not force D = 9. The route left is an insertion that sees the
@@ -46,8 +47,10 @@ against it.
    reading assignments are physically distinct. The hypercharge sign rule would cut the reading to one genuine bit, but
    it is an unearned identification (I-35). A derivation needs an antiholomorphic or Hermitian Higgs slot; that question
    is asked of the SM seat. Input it would remove: the reading.
-4. **Im τ** (P-373). The one-loop potential holds every height at its own content ratio (B1784's negative), so either a
-   forced content fixes the ratio or Im τ is a genuine free number of the frame; main asks which, data-free.
+4. **Im τ** (P-373). **Done, B1791 (NEGATIVE):** not found forced in the frame. The special points, cusp shapes and thread
+   apexes are closed, and the strength-type functionals rise to the cusp. The one line-independent height, the ρ′ Higgs's
+   Petersson peak at 2.8406, is set by the η-power convention and lies outside the strip (P-398). The one-loop potential
+   trades Im τ for a free ratio. Im τ stays a counted continuous input.
 5. **Named, not yet planned:** the horocycle and the comparison scale (no reduction may keep them hidden; the web seat may propose the horocycle as its own reduction). **Later:** the three mass scales, the gauge couplings, the Higgs sector and θ (θ̄ in the mass frame, P-323, handed to the web seat at its offer).
 
 ## How the seats divide the work

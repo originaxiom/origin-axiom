@@ -14173,7 +14173,8 @@
     "amphichiral_cp"
    ],
    "refs": [
-    "P1"
+    "P1",
+    "S227"
    ],
    "obstacle": "measure",
    "obstacle_conf": 19,
@@ -14267,6 +14268,20 @@
    "obstacle_conf": 5,
    "status": "open",
    "domain": "arithmetic"
+  },
+  "B1791": {
+   "slug": "im tau not forced in the frame",
+   "motifs": [
+    "closing",
+    "coupling",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "dormant",
+   "domain": "topology"
   },
   "B179": {
    "slug": "metallic numbers unified",

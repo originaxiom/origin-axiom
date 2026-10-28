@@ -1,0 +1,35 @@
+{
+ "id": "B1791",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1667",
+  "B1691",
+  "B1696",
+  "B1699",
+  "B1702",
+  "B1720",
+  "B1722",
+  "B1726",
+  "B1784",
+  "B1788"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W154",
+  "sm:W162"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's frame at B1667's end (B1726's compute; the record's Higgs DR; L_max)",
+  "object": "whether Im tau is forced",
+  "reach": "class",
+  "hypotheses": "three slope-2/5 lines, Re tau 0.1/0.3/0.7, Im tau 1.5-8 (L frozen above 4; L_2 unscanned); non-perturbative and flux potentials, P-380 Stage B, P-327 and P-343 not examined"
+ },
+ "claim_one_line": "Im TAU IS NOT FOUND FORCED IN B1656'S FRAME (main's plan, step 4; data-free): the special points, cusp shapes and thread apexes are closed on record (B1691, B1696, B1702, B1699, B1720, B1722, P-350); the strength-type functionals rise to the cusp and the scale-free ratios' extrema are line-dependent; the one line-independent height found -- the rho' Higgs eta^6 dR's Petersson peak at Im tau = 2.8406 (leading 9/pi), for every Re tau and line -- is set by the eta-power convention (m = 5, 6, 7 give 3.82, 2.84, 2.31) and lies outside the six's strip (2.96-3.11; post hoc); the one-loop potential trades Im tau for a free content ratio (W154 as read, B1784); the audit lane's relative thresholds (P-396) do not involve tau as written (the draft's route, corrected at its referee). Im tau stays a counted continuous input. No input removed. 0 of 19.",
+ "weave_or_thread": "weave (the field's modulus)"
+}

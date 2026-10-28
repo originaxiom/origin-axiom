@@ -12077,5 +12077,33 @@
    "reach": "class"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1791",
+  "claim_killed": "That Im tau (the hierarchy's scale in B1656's frame) is forced by the frame: by a special point, a cusp shape, a thread apex, an extremum of a natural frame functional, the horocycle, or the one-loop potential.",
+  "kill_form": "Data-free (B1791): special points, cusp shapes and thread apexes closed on record; the strength-type functionals rise to the cusp; the scale-free ratios' extrema are line-dependent; the one line-independent height (the rho' Higgs eta^6 dR's Petersson peak, Im tau = 2.8406) is set by the eta-power convention; the one-loop potential trades Im tau for a free ratio.",
+  "hatch": "a principle fixing the rho' representative and naming the Higgs's Petersson maximum as the vacuum (P-398; post hoc 4-9% below the strip); non-perturbative or flux potentials; P-380 Stage B; P-327, P-343",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-28), for tests/test_b833_negative_routing.py",
+  "note": "The draft's route through the audit lane's relative thresholds (P-396) does not involve tau as written (corrected at its referee).",
+  "evidence_consulted": [
+   "B1667",
+   "B1691",
+   "B1696",
+   "B1699",
+   "B1702",
+   "B1720",
+   "B1722",
+   "B1784"
+  ],
+  "faces_consulted": [],
+  "fact_computed": "324 functional series on three slope-2/5 lines x three Re tau x Im tau 1.5-8; the rho' Petersson peaks and the eta-power family (functionals.py, referee/fine_eta.py, referee/scan.py)",
+  "scope": {
+   "frame": "B1656's frame at B1667's end (the record's Higgs DR; L_max)",
+   "hypotheses": "L frozen above Im tau 4; L_2 unscanned; non-perturbative and flux potentials not examined",
+   "object": "Im tau",
+   "reach": "class"
+  },
+  "weave_or_thread": "weave"
  }
 ]

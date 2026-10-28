@@ -3952,6 +3952,30 @@ readings, mapped the Higgs's three regimes, and stated exactly what the quark mi
 - **Open:** P-357 (what fixes the invariant); the web seat's sealed READING TEST (P-360); Review 69's items R69-1–R69-7.
   **0 of 19.**
 
+## ⟳ VIEW REFRESH — 2026-10-28 (main's plan, steps 1–4)
+
+**Since Review 70 (B1755–B1791): main's plan counts inputs removed (P-392, P-393). Its first four steps are done, and none
+removes an input.**
+- **The slope.**
+  - B1755: the SM seat's level-5 test holds at the edge, through the slope 2/5.
+  - B1785, B1788: the slope sets the exponents; the closed form is ½ − (‖2q_Lα‖ + ‖2q_Rα‖)/2.
+  - B1786: the slope 2/5 alone carries the six at orders 25 and 30. It is not PASSED under the class-choosing null; three
+    computations agree, including the SM seat's W164 and the web seat's checking pass. The principle is five-ality plus
+    one binary choice read from the data.
+- **The lepton factor** (B1789): not derived; the route left is P-397, an insertion on one leg.
+- **The reading** (B1790): not derived; an antiholomorphic or Hermitian Higgs slot was asked of the SM seat; I-35 is
+  unearned.
+- **Im τ** (B1791): not forced; the ρ′ Petersson peak is a convention's height (P-398).
+- **The six's inputs:** about three continuous and four discrete (docs/MAINS_PLAN.md).
+- **Also:**
+  - B1756: JUNO kills TM2.
+  - B1758: C25 exact.
+  - B1784: the agy lane audited.
+  - B1787: P210 accepted by main.
+  - The audit lane's gauge-threshold route: P-396.
+- **Next:** P-399, the offset recurrence at order 60 (sealed by main); P-397's one-leg design; the SM seat's Higgs-slot
+  answer. **0 of 19.**
+
 ## ⟳ VIEW REFRESH — 2026-10-24 (Review 70)
 
 Touched at the Review 70 anchor (`34a7a7da4`). **The window (B1746–B1754; 23 commits) read the six on one strip twice,

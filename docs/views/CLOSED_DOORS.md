@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**844 recorded closures — of which 677 are CLASSIFIED by mechanism and
+**845 recorded closures — of which 678 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -127,6 +127,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed (B1748; 3bf82d0ca): on 26 068 fresh points the four are reached (chi2_heavy 1.16 < 13.28) but 1.54% of random targets from B1741's generators reach as low (bar 1%); coarse 2.07%.` | 1 |  |
 | `Data-free (B1789): on the slope-2/5 family the frame's second-generation lepton/down ratio R2 -> 1 at leading order (0.81-1.16 at the band, 1.0000 at Im tau 8); a net hypercharge flux on the fibre is excluded (one zero mode per field forces n = 0); the frame's hypercharge enters only through periodic twists.` | 1 |  |
 | `Data-free (B1790): the coupling is complex-bilinear in holomorphic Higgs and matter, so no map of (tau, w) conjugates one relative to the other; seven maps preserve both readings to 7e-12, no line is a flip partner (best 1.52 in ln), no slope reproduces the flipped exponents.` | 1 |  |
+| `Data-free (B1791): special points, cusp shapes and thread apexes closed on record; the strength-type functionals rise to the cusp; the scale-free ratios' extrema are line-dependent; the one line-independent height (the rho' Higgs eta^6 dR's Petersson peak, Im tau = 2.8406) is set by the eta-power convention; the one-loop potential trades Im tau for a free ratio.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 
