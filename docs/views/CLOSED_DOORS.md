@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**848 recorded closures — of which 681 are CLASSIFIED by mechanism and
+**850 recorded closures — of which 683 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -131,6 +131,8 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed (B1792; 096c97e94): at order 60, six of the eight predicted lines carry and the mirror pair 1/60-7/12 does not (36.34); none of the twelve others carries (R_b holds). The leptons are exactly shift-invariant; the quarks only approximately; m_u/m_t breaks the pair.` | 1 |  |
 | `Data-free scan (B1793): every realisable weight keeps R2 in 0.98-1.002 on the lepton lines; on (2/5, 1/5) R2 = R1 = 1 exactly for every profile; no cell of the referee's free-lambda and band scans reaches R2 and R1 both >= 2.5.` | 1 |  |
 | `Computed (B1794): every hyperbolic closed filling of m004 has finite H1 (184 slopes; b1 > 0 only at the Sol fibre boundary), and family-wide likewise, so H2(X;Q) = H4(X;Q) = 0: no rational class; canonical bundles are trivial or flat; on the cusped m004 one relative class (H2_c = Q) is end data, its integers free topologically.` | 1 |  |
+| `Sealed (B1795; 24b9e468d): det M vanishes for neither vector-like pair on any of 286 lines at three points; on the six's slope-2/5 carriers the light members agree within a factor 7 (the shared twist -2*2/5 = 3*2/5 mod 1); the strip's light members come from the Higgs section's near-degeneracy, shared by every sector.` | 1 |  |
+| `Computed and refereed (B1798): the class-choosing null alone passes B1753 at m = 39-41 (m*r 0.0084-0.0088), but the lepton factor c = 3 was chosen on the same data and the null holds it fixed; a c-choosing null gives m*r 0.035-0.079 (B1753) and 0.034-0.082 (B1749); per-cell look counting (m ~ 51) fails B1753 too.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

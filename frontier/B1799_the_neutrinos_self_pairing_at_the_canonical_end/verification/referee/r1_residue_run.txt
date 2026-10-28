@@ -1,0 +1,6 @@
+general twist pairs (40): |Res_num - v_x v_y^T/th1'| / |Res| max 3.79e-11;  sigma2/sigma1 of Res max 4.04e-16
+equal twists (40): closed form 3.79e-11; |Res - Res^T|/|Res| max 9.17e-17; R1/|R| (B.residues) max 5.88e-18
+check R1 = v^T eps v / th1' at x = y: 0.0
+line (0.4000, 0.8167): LL twists identical True; nucnuc twists (0.0, 0.0) (0.0, 0.0)
+line (0.1429, 0.4286): LL twists identical True; nucnuc twists (0.0, 0.0) (0.0, 0.0)
+r1 exit 0

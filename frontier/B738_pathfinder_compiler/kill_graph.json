@@ -12178,5 +12178,59 @@
    "reach": "class"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1795",
+  "claim_killed": "That B1656's frame at B1667's canonical end splits the Higgs doublets from the colour triplets structurally (a light H_u H_d pair with every D D^c pair lifted), which would move the unification ratio from 1/2 toward 5/7 (L250 (ii), P-325).",
+  "kill_form": "Sealed (B1795; 24b9e468d): det M vanishes for neither vector-like pair on any of 286 lines at three points; on the six's slope-2/5 carriers the light members agree within a factor 7 (the shared twist -2*2/5 = 3*2/5 mod 1); the strip's light members come from the Higgs section's near-degeneracy, shared by every sector.",
+  "hatch": "a singlet direction with tr(eps S M_H^T) = 0 (B1659's law; splits any line not of order 1 or 5) selected by a principle; another partner typing; non-holomorphic or flux partners (L250's frame, P-403)",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-28), for tests/test_b833_negative_routing.py",
+  "note": "Off slope 2/5 the pairs split approximately, by line, in both directions, without a rule. The pre-seal peek reached 14 lines (disclosed); no outcome affected.",
+  "evidence_consulted": [
+   "B1484",
+   "B1659",
+   "B1703",
+   "B1716",
+   "B1728",
+   "B1792"
+  ],
+  "faces_consulted": [],
+  "fact_computed": "B1716's det M and the coupling's spectrum for the D and H pairs (both slot orders) on 286 lines at three points; the referee's independent recomputation on 11 lines",
+  "scope": {
+   "frame": "B1656's frame at B1667's canonical end",
+   "hypotheses": "the singlet typed as the frame's Higgs section",
+   "object": "the doublet-triplet split",
+   "reach": "class"
+  },
+  "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1798",
+  "claim_killed": "That B1753 (the six on the five-ality lines) or B1749 (the six at fresh apexes) meets THE_BAR's PASSED once the null lets each random target choose its own line class (R71-1).",
+  "kill_form": "Computed and refereed (B1798): the class-choosing null alone passes B1753 at m = 39-41 (m*r 0.0084-0.0088), but the lepton factor c = 3 was chosen on the same data and the null holds it fixed; a c-choosing null gives m*r 0.035-0.079 (B1753) and 0.034-0.082 (B1749); per-cell look counting (m ~ 51) fails B1753 too.",
+  "hatch": "a data-free derivation of c = 3 (P-294, P-397; L250's frame) would remove the c-choice from the null; then the class-choosing grade at a per-test count",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-28), for tests/test_b833_negative_routing.py",
+  "note": "The draft's 'B1753 meets PASSED' was overturned by the hostile referee before any banking. The line-class choice costs about 4x; the c choice another ~4x.",
+  "evidence_consulted": [
+   "B1735",
+   "B1741",
+   "B1748",
+   "B1749",
+   "B1753",
+   "B1786",
+   "B1789",
+   "B1793"
+  ],
+  "faces_consulted": [],
+  "fact_computed": "B1753's census on all 266 lines; the class-choosing null over 10^7 targets; main's sample and seed checks; the referee's c-choosing, menu and direct nulls",
+  "scope": {
+   "frame": "B1656's frame at B1667's canonical end; B1741's measure",
+   "hypotheses": "B1741's draws; THE_BAR's P-389 rule",
+   "object": "THE_BAR's grade of B1749 and B1753",
+   "reach": "class"
+  },
+  "weave_or_thread": "thread"
  }
 ]

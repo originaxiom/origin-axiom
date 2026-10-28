@@ -1,0 +1,15 @@
+point g1: S.S = [-0.006595-0.004332j -0.006595-0.004332j] (h.h-scalar? off-diagonal 2.7e-20, diag diff 0.0e+00)
+  line (2/5, 49/60) partner S     |Y-Y^T|/|Y| 8.95e-17  |Y+Y^T|/|Y| 2.00e+00  sv [1.    0.08  0.006]
+  line (2/5, 49/60) partner S.S   |Y-Y^T|/|Y| 2.00e+00  |Y+Y^T|/|Y| 0.00e+00  sv [1.000e+00 1.000e+00 3.337e-17]
+  line (2/5, 49/60) partner S.S~  |Y-Y^T|/|Y| 1.42e+00  |Y+Y^T|/|Y| 1.41e+00  sv [1.000e+00 1.831e-01 6.716e-05]
+  line (1/7, 3/7) partner S     |Y-Y^T|/|Y| 6.14e-17  |Y+Y^T|/|Y| 2.00e+00  sv [1.    0.071 0.054]
+  line (1/7, 3/7) partner S.S   |Y-Y^T|/|Y| 2.00e+00  |Y+Y^T|/|Y| 0.00e+00  sv [1.000e+00 1.000e+00 7.583e-17]
+  line (1/7, 3/7) partner S.S~  |Y-Y^T|/|Y| 1.38e+00  |Y+Y^T|/|Y| 1.45e+00  sv [1.000e+00 3.888e-02 5.227e-04]
+point strip: S.S = [-0.000869-0.001931j -0.000869-0.001931j] (h.h-scalar? off-diagonal 0.0e+00, diag diff 0.0e+00)
+  line (2/5, 49/60) partner S     |Y-Y^T|/|Y| 4.82e-17  |Y+Y^T|/|Y| 2.00e+00  sv [1.000e+00 6.014e-02 3.258e-04]
+  line (2/5, 49/60) partner S.S   |Y-Y^T|/|Y| 2.00e+00  |Y+Y^T|/|Y| 0.00e+00  sv [1.00e+00 1.00e+00 6.01e-17]
+  line (2/5, 49/60) partner S.S~  |Y-Y^T|/|Y| 1.41e+00  |Y+Y^T|/|Y| 1.42e+00  sv [1.000e+00 1.211e-01 7.947e-07]
+  line (1/7, 3/7) partner S     |Y-Y^T|/|Y| 1.93e-17  |Y+Y^T|/|Y| 2.00e+00  sv [1.    0.014 0.005]
+  line (1/7, 3/7) partner S.S   |Y-Y^T|/|Y| 2.00e+00  |Y+Y^T|/|Y| 0.00e+00  sv [1.000e+00 1.000e+00 1.288e-16]
+  line (1/7, 3/7) partner S.S~  |Y-Y^T|/|Y| 1.41e+00  |Y+Y^T|/|Y| 1.42e+00  sv [1.000e+00 7.123e-03 1.052e-06]
+r6 exit 0

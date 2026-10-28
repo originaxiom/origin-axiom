@@ -1,0 +1,1 @@
+b1749: data min 3.573708662 (sealed 3.573708662); sealed seeds 1769-1788: direct min_chi2 hits 16, KD+per-line hits 16, sealed 16

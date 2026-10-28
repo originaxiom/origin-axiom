@@ -1,0 +1,23 @@
+== b1753_all: 10000000 targets (seeds 5001-7500, 2500 seeds), 3187 candidates; obs 2.739034461; lines present 266
+data: all-lines min 2.739034
+ALL LINES (= ANY CLASS of any partition of the lines present) <= obs hits   2058  frac 2.0580e-04  r97.5 2.1489e-04  m*r(39) 0.0084  m*r(41) 0.0088  m*r(68) 0.0146  m*r(70) 0.0150
+-- partition by slope: 24 classes; data's best class 2/5 (2.7390), data's runner-up class 120.7889; data classes below 16.75: [('2/5', 2.739)]
+  ANY slope class <= obs                                           hits   2058  frac 2.0580e-04  r97.5 2.1489e-04  m*r(39) 0.0084  m*r(41) 0.0088  m*r(68) 0.0146  m*r(70) 0.0150
+  STRICT: some slope class <= obs AND every other >= 16.75         hits   1619  frac 1.6190e-04  r97.5 1.6998e-04  m*r(39) 0.0066  m*r(41) 0.0070  m*r(68) 0.0116  m*r(70) 0.0119
+  the 2/5 slope class <= obs                                       hits    274  frac 2.7400e-05  r97.5 3.0844e-05  m*r(39) 0.0012  m*r(41) 0.0013  m*r(68) 0.0021  m*r(70) 0.0022
+  the 2/5 slope class <= obs AND every other slope >= 16.75        hits    265  frac 2.6500e-05  r97.5 2.9890e-05  m*r(39) 0.0012  m*r(41) 0.0012  m*r(68) 0.0020  m*r(70) 0.0021
+-- partition by order: 12 classes; data's best class 10 (2.7390), data's runner-up class 19.7828; data classes below 16.75: [('10', 2.739)]
+  ANY order class <= obs                                           hits   2058  frac 2.0580e-04  r97.5 2.1489e-04  m*r(39) 0.0084  m*r(41) 0.0088  m*r(68) 0.0146  m*r(70) 0.0150
+  STRICT: some order class <= obs AND every other >= 16.75         hits   1383  frac 1.3830e-04  r97.5 1.4579e-04  m*r(39) 0.0057  m*r(41) 0.0060  m*r(68) 0.0099  m*r(70) 0.0102
+-- the order-divisibility family D_d (d | order): lines per d {1: 266, 2: 129, 3: 100, 4: 78, 5: 48, 6: 60, 7: 24, 8: 24, 9: 36, 10: 36, 11: 60, 12: 48}
+   data min on D_d: {1: 2.739, 2: 2.739, 3: 358.522, 4: 120.789, 5: 2.739, 6: 552.202, 7: 276.887, 8: 120.789, 9: 358.522, 10: 2.739, 11: 327.177, 12: 52142.555}
+   data min off D_d: {1: inf, 2: 19.783, 3: 2.739, 4: 2.739, 5: 120.789, 6: 2.739, 7: 2.739, 8: 2.739, 9: 2.739, 10: 19.783, 11: 2.739, 12: 2.739}
+  ANY D_d (d = 1..12) <= obs                                       hits   2058  frac 2.0580e-04  r97.5 2.1489e-04  m*r(39) 0.0084  m*r(41) 0.0088  m*r(68) 0.0146  m*r(70) 0.0150
+  ANY D_d (d = 2..12) <= obs (the trivial line dropped)            hits   2055  frac 2.0550e-04  r97.5 2.1458e-04  m*r(39) 0.0084  m*r(41) 0.0088  m*r(68) 0.0146  m*r(70) 0.0150
+  STRICT: some D_d (d >= 2) <= obs AND every line off D_d >= 16.75 hits   1585  frac 1.5850e-04  r97.5 1.6650e-04  m*r(39) 0.0065  m*r(41) 0.0068  m*r(68) 0.0113  m*r(70) 0.0117
+  D_5 <= obs (the sealed class, fresh targets)                     hits    555  frac 5.5500e-05  r97.5 6.0315e-05  m*r(39) 0.0024  m*r(41) 0.0025  m*r(68) 0.0041  m*r(70) 0.0042
+  D_5 <= obs AND every line off D_5 >= 16.75                       hits    449  frac 4.4900e-05  r97.5 4.9251e-05  m*r(39) 0.0019  m*r(41) 0.0020  m*r(68) 0.0033  m*r(70) 0.0034
+  D_10 <= obs (order 10 alone)                                     hits    408  frac 4.0800e-05  r97.5 4.4958e-05  m*r(39) 0.0018  m*r(41) 0.0018  m*r(68) 0.0031  m*r(70) 0.0031
+  all-lines hits by best line's slope (top 12): [('1/2', 287), ('2/5', 274), ('3/7', 179), ('5/11', 173), ('4/9', 162), ('1/11', 137), ('0', 134), ('3/11', 107), ('1/10', 82), ('4/11', 67), ('3/8', 62), ('2/7', 59)]
+  all-lines hits by best line's order: [(1, 5), (2, 51), (3, 23), (5, 154), (6, 83), (7, 311), (8, 203), (9, 301), (10, 394), (11, 533)]
+analyse exit 0

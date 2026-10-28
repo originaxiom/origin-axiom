@@ -1,0 +1,6 @@
+LL on the six's carriers at the strip (24 values): sigma3/sigma1 6.60e-05 - 5.09e-03
+Lnuc on the six's carriers at the strip (24 values): sigma3/sigma1 1.70e-05 - 4.04e-03
+nucnuc at the strip: sigma3/sigma1 3.35e-07 - 5.04e-03 (by reading/horocycle: {'sv|L_max|S': '6.0e-06', 'sv|L_max|St': '5.0e-03', 'sv|L_2|S': '3.3e-07', 'sv|L_2|St': '1.1e-03'})
+Dirac on order-1 rows (3): R1_rel max 3.7e-20, |Y-Y^T|/|Y| max 1.2e-16, Dn min 7.06e-04
+Dirac on order-3 rows (12): R1_rel max 5.4e-17, |Y-Y^T|/|Y| max 1.2e-16, Dn min 7.06e-04
+Dirac rows with a symmetric coupling at g1: 5 lines [('0', '1/3'), ('1/3', '0'), ('0', '0'), ('1/3', '1/3'), ('1/3', '2/3')]

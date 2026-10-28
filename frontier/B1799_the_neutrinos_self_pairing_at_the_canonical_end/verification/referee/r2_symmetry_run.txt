@@ -1,0 +1,25 @@
+B1736 form, generation order ijk, sign of the cross terms +1: max rel err 1.76e+00
+B1736 form, generation order ijk, sign of the cross terms -1: max rel err 1.67e+00
+B1736 form, generation order jik, sign of the cross terms +1: max rel err 2.23e-16
+B1736 form, generation order jik, sign of the cross terms -1: max rel err 1.76e+00
+E^1: |E - E^T| = 1.414e+00
+E^i: |E - E^T| = 0.000e+00
+E^j: |E - E^T| = 0.000e+00
+E^k: |E - E^T| = 0.000e+00
+u1 = 0, traceless S: max |Y - Y^T|/|Y| 1.19e-16;  u1 = 0 but h0 != 0: min-over-draws of max asym 1.47e+00 (not symmetric)
+point g1 reading S: |h0|/|h| = 0.00e+00, det S = 7.891e-03
+point g1 reading St: |h0|/|h| = 0.00e+00, det S = 7.891e-03
+point g2 reading S: |h0|/|h| = 0.00e+00, det S = 1.731e-02
+point g2 reading St: |h0|/|h| = 0.00e+00, det S = 1.731e-02
+point strip reading S: |h0|/|h| = 0.00e+00, det S = 2.117e-03
+point strip reading St: |h0|/|h| = 0.00e+00, det S = 2.117e-03
+line (2/5, 49/60) LL     |u1|/|u| 0.0e+00  |M - M^T|/|M| 0.0e+00  |Y - Y^T|/|Y| 9.0e-17
+line (2/5, 49/60) nucnuc |u1|/|u| 0.0e+00  |M - M^T|/|M| 0.0e+00  |Y - Y^T|/|Y| 8.2e-17
+line (2/5, 49/60) Lnuc   |u1|/|u| 4.3e-01  |M - M^T|/|M| 8.6e-01  |Y - Y^T|/|Y| 6.5e-01
+line (1/7, 3/7) LL     |u1|/|u| 0.0e+00  |M - M^T|/|M| 0.0e+00  |Y - Y^T|/|Y| 6.1e-17
+line (1/7, 3/7) nucnuc |u1|/|u| 0.0e+00  |M - M^T|/|M| 0.0e+00  |Y - Y^T|/|Y| 8.2e-17
+line (1/7, 3/7) Lnuc   |u1|/|u| 6.5e-01  |M - M^T|/|M| 1.3e+00  |Y - Y^T|/|Y| 1.3e+00
+line (1/4, 0) LL     |u1|/|u| 0.0e+00  |M - M^T|/|M| 0.0e+00  |Y - Y^T|/|Y| 0.0e+00
+line (1/4, 0) nucnuc |u1|/|u| 0.0e+00  |M - M^T|/|M| 0.0e+00  |Y - Y^T|/|Y| 8.2e-17
+line (1/4, 0) Lnuc   |u1|/|u| 5.0e-01  |M - M^T|/|M| 1.0e+00  |Y - Y^T|/|Y| 8.6e-01
+r2 exit 0

@@ -1,0 +1,28 @@
+{
+ "id": "B1799",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1659",
+  "B1703",
+  "B1711",
+  "B1716",
+  "B1736",
+  "B1795"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's coupling at B1667's canonical end; B1795's 286 lines at its three points",
+  "object": "the neutrino's self-pairings (nu^c nu^c, LL) against the Dirac L nu^c",
+  "reach": "class",
+  "hypotheses": "the partner typed as the frame's Higgs section (traceless, h0 = 0); for LL a further hypothesis (HH, 6Y = 6); the census only, except the referee's CP-line and isolated-point zeros"
+ },
+ "claim_one_line": "THE NEUTRINO'S SELF-PAIRING AT THE CANONICAL END (P-283; data-free): R1 = 0 identically for equal twists (the residue is v_x v_y^T / theta1'(0)), so with a traceless partner the coupling is exactly symmetric; on the 286 census lines at three points neither Majorana pairing's det M vanishes (m1 != 0, protection lifted), but the Weinberg pair's det M vanishes on CP lines (8 order-8 lines at Re tau = 0, 18 at Re tau = 1/2) and at isolated points; the Dirac L nu^c agrees with B1716's law on all 858 rows (zeros on the 54 lines where -3w has order 4, the electron's zero lines), so a pure type-I seesaw's lightest neutrino is massless on the census exactly where the electron is, and on no slope-2/5 line (the law's condition never fires there). No input removed. 0 of 19.",
+ "weave_or_thread": "weave (the frame's neutrino sector on its lines)"
+}

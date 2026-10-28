@@ -1,0 +1,17 @@
+census_ext rows: 41325 | expected 223 x 218 = 48614
+(1) 40 extension rows recomputed (800 keyed entries): max |stored - recomputed| = 0.000e+00
+loader: 59318 rows, 247 duplicates (checked equal), 0 cut lines skipped
+  seed 5667: direct hits 1, KD hits 1 | direct within obs+0.5: 3, KD candidates: 3
+  seed 5704: direct hits 1, KD hits 1 | direct within obs+0.5: 1, KD candidates: 1
+  seed 5721: direct hits 1, KD hits 1 | direct within obs+0.5: 1, KD candidates: 1
+  seed 5970: direct hits 1, KD hits 1 | direct within obs+0.5: 1, KD candidates: 1
+  seed 6012: direct hits 3, KD hits 3 | direct within obs+0.5: 3, KD candidates: 3
+  seed 6195: direct hits 1, KD hits 1 | direct within obs+0.5: 1, KD candidates: 1
+  seed 6256: direct hits 0, KD hits 0 | direct within obs+0.5: 1, KD candidates: 1
+  seed 6508: direct hits 0, KD hits 0 | direct within obs+0.5: 0, KD candidates: 0
+  seed 6580: direct hits 0, KD hits 0 | direct within obs+0.5: 0, KD candidates: 0
+  seed 6615: direct hits 0, KD hits 0 | direct within obs+0.5: 1, KD candidates: 1
+  seed 6711: direct hits 1, KD hits 1 | direct within obs+0.5: 3, KD candidates: 3
+  seed 7020: direct hits 1, KD hits 1 | direct within obs+0.5: 3, KD candidates: 3
+(2) 12 random seeds (48 000 targets): direct hits 10, KD hits 10; targets within the margin not screened: 0
+main_check exit 0

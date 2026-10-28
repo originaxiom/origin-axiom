@@ -1,0 +1,16 @@
+strip (2/5, 49/60) H: S  s3/s1 1.2e-04 s2/s1 3.9e-01 | detS 5.2e-03 detM 8.0e-01 tr 3.4e-02 || St s3/s1 1.9e-03 s2/s1 5.9e-01 | detS 5.2e-03 detM 8.0e-01 tr 4.3e-01
+strip (2/5, 49/60) D: S  s3/s1 5.1e-05 s2/s1 3.8e-01 | detS 5.2e-03 detM 8.0e-01 tr 1.4e-02 || St s3/s1 1.9e-03 s2/s1 6.0e-01 | detS 5.2e-03 detM 8.0e-01 tr 4.4e-01
+strip (2/5, 7/60) H: S  s3/s1 4.9e-05 s2/s1 3.8e-01 | detS 5.2e-03 detM 8.0e-01 tr 1.4e-02 || St s3/s1 1.9e-03 s2/s1 6.0e-01 | detS 5.2e-03 detM 8.0e-01 tr 4.4e-01
+strip (2/5, 7/60) D: S  s3/s1 3.6e-04 s2/s1 4.2e-01 | detS 5.2e-03 detM 8.0e-01 tr 9.8e-02 || St s3/s1 1.5e-03 s2/s1 5.5e-01 | detS 5.2e-03 detM 8.0e-01 tr 3.6e-01
+strip (1/6, 1/12) H: S  s3/s1 9.7e-04 s2/s1 5.1e-03 | detS 5.2e-03 detM 9.7e-04 tr 1.0e+00 || St s3/s1 7.7e-07 s2/s1 1.5e-03 | detS 5.2e-03 detM 9.7e-04 tr 1.8e-03
+strip (1/6, 1/12) D: S  s3/s1 2.6e-03 s2/s1 4.0e-01 | detS 5.2e-03 detM 5.7e-01 tr 6.0e-01 || St s3/s1 1.9e-04 s2/s1 2.2e-01 | detS 5.2e-03 detM 5.7e-01 tr 6.0e-02
+strip (1/4, 3/8) H: S  s3/s1 8.9e-04 s2/s1 6.3e-01 | detS 5.2e-03 detM 9.0e-01 tr 2.0e-01 || St s3/s1 4.9e-04 s2/s1 5.8e-01 | detS 5.2e-03 detM 9.0e-01 tr 1.2e-01
+strip (1/4, 3/8) D: S  s3/s1 9.7e-04 s2/s1 5.1e-03 | detS 5.2e-03 detM 9.7e-04 tr 1.0e+00 || St s3/s1 7.7e-07 s2/s1 1.5e-03 | detS 5.2e-03 detM 9.7e-04 tr 1.8e-03
+g1    (2/5, 49/60) H: S  s3/s1 3.4e-03 s2/s1 3.4e-01 | detS 6.9e-02 detM 7.7e-01 tr 7.6e-02 || St s3/s1 3.3e-02 s2/s1 6.2e-01 | detS 6.9e-02 detM 7.7e-01 tr 5.4e-01
+g1    (2/5, 49/60) D: S  s3/s1 4.0e-03 s2/s1 3.4e-01 | detS 6.9e-02 detM 7.7e-01 tr 8.8e-02 || St s3/s1 3.3e-02 s2/s1 6.0e-01 | detS 6.9e-02 detM 7.7e-01 tr 5.3e-01
+g1    (2/5, 7/60) H: S  s3/s1 4.3e-03 s2/s1 3.4e-01 | detS 6.9e-02 detM 7.7e-01 tr 9.6e-02 || St s3/s1 3.2e-02 s2/s1 6.0e-01 | detS 6.9e-02 detM 7.7e-01 tr 5.3e-01
+g1    (2/5, 7/60) D: S  s3/s1 1.2e-02 s2/s1 4.1e-01 | detS 6.9e-02 detM 7.6e-01 tr 2.3e-01 || St s3/s1 1.8e-02 s2/s1 4.7e-01 | detS 6.9e-02 detM 7.6e-01 tr 3.2e-01
+g1    (1/6, 1/12) H: S  s3/s1 7.6e-03 s2/s1 6.8e-02 | detS 6.9e-02 detM 7.8e-03 tr 9.8e-01 || St s3/s1 8.1e-05 s2/s1 1.9e-02 | detS 6.9e-02 detM 7.8e-03 tr 2.1e-02
+g1    (1/6, 1/12) D: S  s3/s1 3.0e-02 s2/s1 4.2e-01 | detS 6.9e-02 detM 6.3e-01 tr 5.3e-01 || St s3/s1 7.9e-03 s2/s1 2.6e-01 | detS 6.9e-02 detM 6.3e-01 tr 1.7e-01
+g1    (1/4, 3/8) H: S  s3/s1 2.2e-02 s2/s1 6.2e-01 | detS 6.9e-02 detM 8.4e-01 tr 3.6e-01 || St s3/s1 2.4e-03 s2/s1 4.5e-01 | detS 6.9e-02 detM 8.4e-01 tr 4.7e-02
+g1    (1/4, 3/8) D: S  s3/s1 7.6e-03 s2/s1 6.8e-02 | detS 6.9e-02 detM 7.8e-03 tr 9.8e-01 || St s3/s1 8.1e-05 s2/s1 1.9e-02 | detS 6.9e-02 detM 7.8e-03 tr 2.1e-02

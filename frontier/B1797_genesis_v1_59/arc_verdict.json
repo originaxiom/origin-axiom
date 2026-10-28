@@ -1,0 +1,27 @@
+{
+ "id": "B1797",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1754",
+  "B1796"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W123",
+  "sm:W130"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the foundation document",
+  "object": "GENESIS v1.58 -> v1.59: FK10's tagged unit reduced (B1796); FK15 gains a pointer",
+  "reach": "general",
+  "hypotheses": "B1796's verification; the four links and FK11 not derived; given Lambda and the hand"
+ },
+ "claim_one_line": "GENESIS v1.59 (P-288; the completion map's C8, on B1796): FK10's tagged unit reduced to the field's existence (FK15) and three further links -- the type identification (the fibre's End E x K against a weight-3/2 form of rho_T), uniform end data, the least remainder -- none derived on the record, given Lambda and the hand; the dimension max(0, sum m) recorded with its proved parts (0 for sum m <= 0; 3n for n >= 0 uniform units); B1700's reading tag and FK11 kept; FK15 gains a pointer to its existence half. No status cell changes; FK10 stays a tagged postulate. 0 of 19.",
+ "weave_or_thread": "weave (the foundation's end law)"
+}

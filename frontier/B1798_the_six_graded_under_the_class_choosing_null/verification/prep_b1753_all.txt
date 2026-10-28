@@ -1,0 +1,2 @@
+loader: 59318 rows, 247 duplicates (checked equal), 0 cut lines skipped
+b1753_all rows 118636 lines present 266 data min (min_chi2) 2.739034461, per-line min 2.739034461

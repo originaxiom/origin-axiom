@@ -1,0 +1,29 @@
+{
+ "id": "B1795",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1484",
+  "B1659",
+  "B1703",
+  "B1716",
+  "B1726",
+  "B1728",
+  "B1792"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's coupling at B1667's canonical end; B1713's 266 lines and the twenty slope-2/5 lines of order 60; B1716's two generic tau and the six's strip point",
+  "object": "the vector-like pairs D D^c (-2w, 2w) and H_u H_d (3w, -3w) with a singlet partner",
+  "reach": "class",
+  "hypotheses": "the singlet typed as the frame's Higgs section (S and S~); S1, S1' and S2 do not depend on it, S3 and the light-state reads do"
+ },
+ "claim_one_line": "THE DOUBLET-TRIPLET SPLIT AT THE CANONICAL END (P-325; sealed 24b9e468d, outputs committed unread at 195d74e2f; NEGATIVE for a structural split): det M vanishes for neither vector-like pair (D D^c, H_u H_d) on any of 286 lines at three points (S1, S1' hold; S2 fails); S3 fails as sealed, but on every line at the strip and in reading S only -- the light member there is the Higgs section's near-degeneracy at Im tau ~ 3 (B1659's law), shared by every pair and every SM sector; on the six's slope-2/5 carriers the two pairs' light members agree within a factor 7 (-2*2/5 = 3*2/5 mod 1), off that slope they differ by line in both directions without a rule; with the singlet typed as the frame's Higgs section the frame does not solve SU(5)'s doublet-triplet problem. No input removed. 0 of 19.",
+ "weave_or_thread": "weave (the frame's vector-like pairs on its lines)"
+}

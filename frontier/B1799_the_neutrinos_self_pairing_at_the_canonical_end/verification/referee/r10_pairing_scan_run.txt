@@ -1,0 +1,7 @@
+reading S: 2 cells with a zero of tr(eps S M^T); grid min |tr|/(|S||M|) 2.60e-03; grid min sigma3/sigma1 6.66e-17
+   root (a, b) = (0.00117042, 0.20280432): |tr|/(|S||M|) 1.1e-14, Dirac sigma3/sigma1 6.5e-16
+   root (a, b) = (0.33216291, 0.13052901): |tr|/(|S||M|) 5.5e-15, Dirac sigma3/sigma1 3.6e-16
+reading St: 2 cells with a zero of tr(eps S M^T); grid min |tr|/(|S||M|) 6.92e-03; grid min sigma3/sigma1 1.21e-15
+   root (a, b) = (0.15768384, 0.27062966): |tr|/(|S||M|) 7.7e-17, Dirac sigma3/sigma1 4.0e-17
+   root (a, b) = (0.17564949, 0.06270368): |tr|/(|S||M|) 9.1e-16, Dirac sigma3/sigma1 1.8e-17
+r10 exit 0

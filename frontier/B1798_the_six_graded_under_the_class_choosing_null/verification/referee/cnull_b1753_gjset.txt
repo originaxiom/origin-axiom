@@ -1,0 +1,5 @@
+data: seat (c in {1,3}) 2.739034461; bounded c in [0.3333, 5.0] 2.739034461; free c 2.608931264
+seat control (c in {1,3})          obs 2.739034  targets 1600000  hits 354  frac 2.2125e-04  r97.5 2.4554e-04  m*r(39) 0.0096  m*r(41) 0.0101  break-even m 40.7
+c-choosing, c in set 1/3,1/2,2/3,1,3/2,2,3,4,5 obs 2.739034  targets 1600000  hits 1364  frac 8.5250e-04  r97.5 8.9895e-04  m*r(39) 0.0351  m*r(41) 0.0369  break-even m 11.1
+candidates 6357
+cnull exit 0

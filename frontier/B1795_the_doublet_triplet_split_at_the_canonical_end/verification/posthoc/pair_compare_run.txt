@@ -1,0 +1,10 @@
+strip, the six's carriers    rows    6 | log10(light_H / light_D): median -0.001, 5% -0.423, 95% +0.128, min -0.870, max +0.372 | log10(Dn_H/Dn_D) median +0.000
+strip, all 286 lines         rows  286 | log10(light_H / light_D): median -0.000, 5% -2.656, 95% +2.792, min -4.781, max +4.308 | log10(Dn_H/Dn_D) median +0.000
+generic points, all lines    rows  572 | log10(light_H / light_D): median -0.000, 5% -1.643, 95% +1.720, min -3.873, max +3.532 | log10(Dn_H/Dn_D) median +0.000
+  carrier (2/5, 11/12): light_H 3.6e-04 1.5e-03 4.0e-04 3.0e-03 | light_D 2.1e-04 1.8e-03 3.0e-04 3.3e-03  (L_max S, L_max St, L_2 S, L_2 St)
+  carrier (2/5, 29/60): light_H 1.2e-04 1.9e-03 2.5e-04 3.3e-03 | light_D 3.2e-04 1.6e-03 3.8e-04 3.1e-03  (L_max S, L_max St, L_2 S, L_2 St)
+  carrier (2/5, 41/60): light_H 3.1e-04 1.6e-03 3.7e-04 3.1e-03 | light_D 2.9e-04 1.7e-03 3.6e-04 3.1e-03  (L_max S, L_max St, L_2 S, L_2 St)
+  carrier (2/5, 47/60): light_H 4.9e-05 1.9e-03 2.2e-04 3.4e-03 | light_D 1.0e-04 1.9e-03 2.4e-04 3.4e-03  (L_max S, L_max St, L_2 S, L_2 St)
+  carrier (2/5, 49/60): light_H 1.2e-04 1.9e-03 2.5e-04 3.3e-03 | light_D 5.1e-05 1.9e-03 2.2e-04 3.4e-03  (L_max S, L_max St, L_2 S, L_2 St)
+  carrier (2/5, 7/60): light_H 4.9e-05 1.9e-03 2.2e-04 3.4e-03 | light_D 3.6e-04 1.5e-03 4.1e-04 3.0e-03  (L_max S, L_max St, L_2 S, L_2 St)
+pair_compare exit 0

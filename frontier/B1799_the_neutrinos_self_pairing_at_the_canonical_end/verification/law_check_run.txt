@@ -1,0 +1,4 @@
+Dirac L nu^c: exact zeros on 54 lines; B1716's law (left twist -3w of exact order 4) agrees on 858 of 858 rows, disagrees on 0 []
+slope-2/5 lines: Dirac exact zeros on 0 rows of 90; LL min Dn 6.11e-02; nucnuc min Dn 7.06e-04
+Dirac non-zero rows: least Dn 8.51e-06
+law_check exit 0

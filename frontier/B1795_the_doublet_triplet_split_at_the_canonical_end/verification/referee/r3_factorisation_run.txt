@@ -1,0 +1,18 @@
+det Y / (det S det M tr(eps S M^T)) over 200 random draws: mean (4-0j), max |dev| 4.68e-14
+same with general 2x2 S: spread 1.73e-14
+random S (quaternion span), M: max rel sv difference Y(S,M) vs Y(S,M^T): 6.53e-16
+random S~: max rel sv difference Y(S~,M) vs Y(S~,M^T): 6.76e-16
+point g1    reading S  |det S|/(|S|_F^2/2) = 6.948e-02   (S entries [ 0.017 -0.0567j  0.4494-0.1344j -0.006 -0.0072j -0.017 +0.0567j])
+point g1    reading St |det S|/(|S|_F^2/2) = 6.948e-02   (S entries [-0.017 -0.0567j  0.006 -0.0072j -0.4494-0.1344j  0.017 +0.0567j])
+point g2    reading S  |det S|/(|S|_F^2/2) = 2.973e-01   (S entries [ 0.0076-0.0874j  0.3152-0.0276j -0.0293-0.0078j -0.0076+0.0874j])
+point g2    reading St |det S|/(|S|_F^2/2) = 2.973e-01   (S entries [-0.0076-0.0874j  0.0293-0.0078j -0.3152-0.0276j  0.0076+0.0874j])
+point strip reading S  |det S|/(|S|_F^2/2) = 5.153e-03   (S entries [ 1.670e-02-0.0258j  7.604e-01-0.4916j  2.000e-04-0.0013j
+ -1.670e-02+0.0258j])
+point strip reading St |det S|/(|S|_F^2/2) = 5.153e-03   (S entries [-1.670e-02-0.0258j -2.000e-04-0.0013j -7.604e-01-0.4916j
+  1.670e-02+0.0258j])
+strip (2/5, 7/60): SM sv3/sv1 min over h,rn: up 6.9e-06 down 2.3e-04 lep 9.8e-06
+strip (2/5, 29/60): SM sv3/sv1 min over h,rn: up 3.0e-06 down 1.6e-04 lep 1.4e-04
+strip (2/5, 41/60): SM sv3/sv1 min over h,rn: up 1.1e-05 down 2.8e-05 lep 2.3e-04
+strip (2/5, 47/60): SM sv3/sv1 min over h,rn: up 7.7e-06 down 6.2e-05 lep 9.8e-06
+strip (2/5, 49/60): SM sv3/sv1 min over h,rn: up 2.9e-06 down 8.4e-05 lep 1.4e-04
+strip (2/5, 11/12): SM sv3/sv1 min over h,rn: up 2.6e-06 down 1.5e-04 lep 1.5e-04

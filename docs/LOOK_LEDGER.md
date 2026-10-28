@@ -54,6 +54,8 @@ sector is listed with its target.
 | B1788 § 4 | post hoc (closed form, no fit) | the pair (3/10, 1/5) from B1785 § 3 over every slope | only α = 2/5 and 1/10; informs P-384 |
 | B1789's referee | post hoc | D (P-094, 10.58 ± 0.11) against 9·D_frame on the slope-2/5 rows | 2.4% of the rows inside the window; informs P-397 |
 | B1792 | sealed | which slope-2/5 lines of order 60 carry the six (the SM seat's W164 recurrence, P-399) | R_a fails (six of eight predicted carry), R_b holds (no other carries); a READING, no grade sought |
+| B1795, B1799 | sealed (B1795) and data-free | the vector-like pairs; the neutrino's self-pairing | no measured number compared: not looks |
+| B1798 | verification of B1749 and B1753 (R71-1; their class-choosing null) | the same data | not a new look |
 
 ## The web seat (chat1)
 
@@ -84,7 +86,7 @@ row 1399) and entered at Review 70.
 | ROUTE_B_EXPLORATION (2026-10-23) | post hoc, a second Higgs weighted −3 on the leptons | the six and the mixing | listed (row 1315) |
 
 **Not looks** (no data): the zero-free layer's sealed run (it reads no data), the seat's data-free checks and e14–e19, its
-verifications of W133.
+verifications of W133. P-323's sealed test, THE STRONG ANGLE IN THE MASS FRAME (row 1443; harmonicity, no measured number read; the seat's relay asks for one sealed-look entry, since its 85% prior was not met — main records it here and leaves the question to the next full count). THE HOROCYCLE AND THE HEIGHT (row 1444; sealed 1dd36cfba, 2026-10-28 05:04 UTC): its run is not yet committed; entered when it is.
 
 ## The SM seat
 
@@ -97,6 +99,10 @@ verifications of W133.
 | W151 (row 1372) | sealed, a class test | the nine's target, its (D, E) box | no pair in the box |
 | W162 (row 1419) | post hoc (counted as a look by the seat) | the six on the order-10 lines over Im τ 1.2–12 and on the 266 lines at nine heights outside the old window | only α = 2/5 below 16.75, only at Im τ 3.0–3.1 |
 | W164 (row 1429) | verification of B1786 (A0–A4, B, C1, C3; A2f re-estimates the measure) and one look (C2 (ii) and its post hoc read-out) | the six at orders 25 and 30; the carriers' recurrence | reproduces B1786; class-choosing null 0.0126 at m = 41; the +1/3 recurrence (P-399) |
+| W166 (row 1437) | one look: the nine at W158's 38 strip rows with the induced Higgs pair (H = K⁻¹·DR) | the nine | least 1 953; no row below the bar |
+| W170 (row 1441; rule 7e245cba1, 2026-10-28 05:36 UTC) | sealed, two looks: the nine at the state the frame's own potential selects (the line (2/5, ½) at Re τ = 0, one fitted height), and the strip rows with the same sealed pair | the nine | NEGATIVE: least χ²_nine 1 404 against 20.09 at the state; 212.5 at best at the strip; J = 0 exactly at the state (the mirror's fixed point) |
+| W167, W169 (rows 1438, 1440) | the frame's one-loop potential on the line and on Re τ | no measured number compared | not looks (data enter only through the strip rows' heights) |
+| W168 (row 1439) | verification of the web seat's P-323 | — | not a new look |
 | W145, W89, W93, W96, W138, W141, W142 | verification | earlier arcs reproduced | not new looks |
 
 **The agy lane (another session's branch, 2026-10-26/27; P-390, audited in B1784):** its arcs compare the frame with the six

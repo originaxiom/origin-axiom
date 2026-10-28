@@ -1,0 +1,52 @@
+LL on line (1/8, 1/8), Re tau = 0.00:
+  Im tau 1.7000: Dn 1.42e-14, least sigma3/sigma1 over S, S~ and both horocycles 1.20e-16, R1_rel 1.1e-18
+    R: {'1': '1.345e-18-9.471e-19j', 'i': '-7.306e-02-1.934e-01j', 'j': '2.390e-01-5.293e-01j', 'k': '5.454e-01+2.060e-01j'}
+    c: {'1': None, 'i': 1.492781, 'j': 1.492781, 'k': 1.492781}  2piL_2 = 15.164
+  Im tau 2.2000: Dn 1.15e-13, least sigma3/sigma1 over S, S~ and both horocycles 3.43e-16, R1_rel 1.9e-18
+  Im tau 2.6000: Dn 9.99e-14, least sigma3/sigma1 over S, S~ and both horocycles 1.86e-16, R1_rel 8.3e-19
+  Im tau 3.0375: Dn 5.85e-14, least sigma3/sigma1 over S, S~ and both horocycles 5.60e-17, R1_rel 4.3e-19
+  off the CP line, Re tau -0.01, Im 2.2: Dn 7.78e-03, least sigma3/sigma1 2.27e-05
+  off the CP line, Re tau 0.01, Im 2.2: Dn 7.79e-03, least sigma3/sigma1 2.20e-05
+LL on line (3/8, 5/8), Re tau = 0.00:
+  Im tau 1.7000: Dn 8.60e-15, least sigma3/sigma1 over S, S~ and both horocycles 1.09e-16, R1_rel 1.6e-18
+    R: {'1': '-4.130e-19-1.795e-19j', 'i': '-1.934e-01-7.306e-02j', 'j': '-5.293e-01+2.390e-01j', 'k': '2.060e-01+5.454e-01j'}
+    c: {'1': None, 'i': 1.492781, 'j': 1.492781, 'k': 1.492781}  2piL_2 = 15.164
+  Im tau 2.2000: Dn 7.30e-17, least sigma3/sigma1 over S, S~ and both horocycles 2.35e-17, R1_rel 5.3e-19
+  Im tau 2.6000: Dn 1.36e-14, least sigma3/sigma1 over S, S~ and both horocycles 5.39e-17, R1_rel 9.7e-20
+  Im tau 3.0375: Dn 4.62e-15, least sigma3/sigma1 over S, S~ and both horocycles 3.26e-17, R1_rel 4.8e-19
+  off the CP line, Re tau -0.01, Im 2.2: Dn 7.79e-03, least sigma3/sigma1 2.22e-05
+  off the CP line, Re tau 0.01, Im 2.2: Dn 7.78e-03, least sigma3/sigma1 2.25e-05
+LL on line (0, 1/4), Re tau = 0.50:
+  Im tau 1.7000: Dn 2.53e-15, least sigma3/sigma1 over S, S~ and both horocycles 2.41e-17, R1_rel 1.4e-20
+    R: {'1': '6.582e-21+2.153e-22j', 'i': '3.497e-17-2.450e-17j', 'j': '-8.276e-01+3.428e-01j', 'k': '3.428e-01+8.276e-01j'}
+    c: {'1': None, 'i': None, 'j': -2.837403, 'k': -2.837403}  2piL_2 = 15.164
+  Im tau 2.2000: Dn 0.00e+00, least sigma3/sigma1 over S, S~ and both horocycles 6.23e-18, R1_rel 5.2e-21
+  Im tau 2.6000: Dn 0.00e+00, least sigma3/sigma1 over S, S~ and both horocycles 7.16e-18, R1_rel 2.6e-21
+  Im tau 3.0375: Dn 0.00e+00, least sigma3/sigma1 over S, S~ and both horocycles 1.57e-20, R1_rel 1.1e-21
+  off the CP line, Re tau 0.49, Im 2.2: Dn 2.77e-04, least sigma3/sigma1 6.31e-07
+  off the CP line, Re tau 0.51, Im 2.2: Dn 2.77e-04, least sigma3/sigma1 6.31e-07
+LL on line (1/3, 1/12), Re tau = 0.50:
+  Im tau 1.7000: Dn 2.53e-15, least sigma3/sigma1 over S, S~ and both horocycles 2.41e-17, R1_rel 7.7e-21
+    R: {'1': '-2.027e-21+1.064e-21j', 'i': '-2.130e-17+3.057e-17j', 'j': '-8.276e-01+3.428e-01j', 'k': '3.428e-01+8.276e-01j'}
+    c: {'1': None, 'i': None, 'j': -2.837403, 'k': -2.837403}  2piL_2 = 15.164
+  Im tau 2.2000: Dn 0.00e+00, least sigma3/sigma1 over S, S~ and both horocycles 6.23e-18, R1_rel 1.8e-21
+  Im tau 2.6000: Dn 0.00e+00, least sigma3/sigma1 over S, S~ and both horocycles 7.16e-18, R1_rel 6.3e-21
+  Im tau 3.0375: Dn 1.57e-16, least sigma3/sigma1 over S, S~ and both horocycles 6.39e-17, R1_rel 1.0e-21
+  off the CP line, Re tau 0.49, Im 2.2: Dn 2.77e-04, least sigma3/sigma1 6.31e-07
+  off the CP line, Re tau 0.51, Im 2.2: Dn 2.77e-04, least sigma3/sigma1 6.31e-07
+LL on line (1/6, 3/4), Re tau = 0.50:
+  Im tau 1.7000: Dn 0.00e+00, least sigma3/sigma1 over S, S~ and both horocycles 2.05e-17, R1_rel 2.5e-20
+    R: {'1': '5.089e-22-9.127e-21j', 'i': '-5.822e-17-2.342e-17j', 'j': '8.276e-01-3.428e-01j', 'k': '3.428e-01+8.276e-01j'}
+    c: {'1': None, 'i': None, 'j': -2.837403, 'k': -2.837403}  2piL_2 = 15.164
+  Im tau 2.2000: Dn 7.65e-15, least sigma3/sigma1 over S, S~ and both horocycles 3.63e-17, R1_rel 7.2e-21
+  Im tau 2.6000: Dn 2.46e-15, least sigma3/sigma1 over S, S~ and both horocycles 1.11e-17, R1_rel 1.6e-21
+  Im tau 3.0375: Dn 0.00e+00, least sigma3/sigma1 over S, S~ and both horocycles 5.07e-19, R1_rel 3.8e-21
+  off the CP line, Re tau 0.49, Im 2.2: Dn 2.77e-04, least sigma3/sigma1 6.31e-07
+  off the CP line, Re tau 0.51, Im 2.2: Dn 2.77e-04, least sigma3/sigma1 6.31e-07
+  Lnuc on (1/8, 1/8) at Re tau 0.0 + 2.2i: Dn 1.42e-02, least sigma3/sigma1 2.52e-03
+  L e on (1/8, 1/8) at Re tau 0.0 + 2.2i: Dn 1.11e-01, least sigma3/sigma1 6.89e-03
+  nucnuc on (1/8, 1/8) at Re tau 0.0 + 2.2i: Dn 1.26e-02, least sigma3/sigma1 2.66e-05
+  Lnuc on (0, 1/4) at Re tau 0.5 + 2.2i: Dn 4.32e-18, least sigma3/sigma1 3.61e-17
+  L e on (0, 1/4) at Re tau 0.5 + 2.2i: Dn 4.32e-18, least sigma3/sigma1 1.86e-17
+  nucnuc on (0, 1/4) at Re tau 0.5 + 2.2i: Dn 1.01e-02, least sigma3/sigma1 2.57e-05
+r8 exit 0

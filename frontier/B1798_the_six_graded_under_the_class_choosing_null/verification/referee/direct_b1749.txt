@@ -1,0 +1,6 @@
+arc b1749 seeds [5184, 5413, 5653, 5712, 5774, 5805, 5847, 5883, 5960, 6175, 6228, 6376, 6402, 6439, 6443, 6445, 6641, 6653, 6735, 6799, 6997, 7005, 7145, 7277]
+my loader: 33250 rows (66500 feature rows), lines present 266
+data min chi2 3.573708662392 (draft obs 3.573708662392)
+feat_null loader: 66500 feature rows; max |U|,|Dn|,|E| diff 0.000e+00 0.000e+00 0.000e+00
+b1749: 24 seeds, 96000 targets: direct hits 26, KD hits 26; targets within obs+0.5 45, missed by KD 0; max |direct - KD| on candidates 7.276e-12
+direct_null exit 0

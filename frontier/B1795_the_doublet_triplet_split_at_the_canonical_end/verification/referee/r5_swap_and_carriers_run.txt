@@ -1,0 +1,4 @@
+slot swap, residues relative to |R|: |R_s - R_s'| max {'1': '3.4e-15', 'i': '2.5e-16', 'j': '2.5e-16', 'k': '2.5e-16'}  |R_s + R_s'| max {'1': '2.7e-17', 'i': '1.4e+00', 'j': '1.4e+00', 'k': '1.4e+00'}
+line (2/5, 7/60): D left twist (-4/5, -7/15), H left twist (6/5, 7/10); a-parts mod 1: 1/5 vs 1/5; b-parts differ by 7/6
+line (2/5, 49/60): D left twist (-4/5, -49/15), H left twist (6/5, 49/10); a-parts mod 1: 1/5 vs 1/5; b-parts differ by 49/6
+line (2/5, 11/12): D left twist (-4/5, -11/3), H left twist (6/5, 11/2); a-parts mod 1: 1/5 vs 1/5; b-parts differ by 55/6

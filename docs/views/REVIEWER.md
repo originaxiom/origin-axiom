@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1499** |
-| words of findings prose | **1,215,221** |
-| test lock files referenced | **914** |
-| arcs carrying an authored verdict | **1499** (100.0 %) |
-| recorded closures | **848** (681 classified, 167 routed-only) |
+| research arcs with findings | **1503** |
+| words of findings prose | **1,221,006** |
+| test lock files referenced | **918** |
+| arcs carrying an authored verdict | **1503** (100.0 %) |
+| recorded closures | **850** (683 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1023 |
-| NEGATIVE | 372 |
+| PROVED | 1025 |
+| NEGATIVE | 374 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 118 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 120 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1796`** (2286 words, 1 locks)  
-THE CUSP UNIT FROM THE FIELD, CHECKED ON MAIN (C8; P-288, P-298, R71-3; PROVED, a verification from definitions and with main's own code): the fibre's point (3,3,3), a Fuchsian character (the modular torus, commutator [[-1,0],[-6,-1]]), preserves no positive-definite Hermitian form, so its Higgs field is nowhere zero (|Phi| = 1/2 in the seat's convention; convention-free, 2i tr(Phi^Phi*) is the hyperbolic area form); m units of end data on the three eigenlines give a weight-3/2 Higgs space of dimension max(0, m_P + m_M + m_N) on every vector computed (64 on main, 1 345 more and an independent theta-polynomial route at the referee; the sum m <= 0 half proved), agreeing with the seat's exact route, so O(n delta) gives 3n; FK10's unit reduces to the field's existence (FK15), a type identification, uniform end data and the least remainder, given Lambda and the hand, none derived. No input removed. 0 of 19.  
-`B1796_the_cusp_unit_from_the_field_checked_on_main/FINDINGS.md`
+**PROVED — `B1799`** (1674 words, 1 locks)  
+THE NEUTRINO'S SELF-PAIRING AT THE CANONICAL END (P-283; data-free): R1 = 0 identically for equal twists (the residue is v_x v_y^T / theta1'(0)), so with a traceless partner the coupling is exactly symmetric; on the 286 census lines at three points neither Majorana pairing's det M vanishes (m1 != 0, protection lifted), but the Weinberg pair's det M vanishes on CP lines (8 order-8 lines at Re tau = 0, 18 at Re tau = 1/2) and at isolated points; the Dirac L nu^c agrees with B1716's law on all 858 rows (zeros on the 54 lines where -3w has order 4, the electron's zero lines), so a pure type-I seesaw's lightest neutrino is massless on the census exactly where the electron is, and on no slope-2/5 line (the law's condition never fires there). No input removed. 0 of 19.  
+`B1799_the_neutrinos_self_pairing_at_the_canonical_end/FINDINGS.md`
 
-**NEGATIVE — `B1794`** (940 words, 1 locks)  
-THE OBJECT'S BUNDLES ON THE FRAME OF THE RIGHT PARITY (P-401, L250; data-free; NEGATIVE, family-wide): canonical bundles are flat or trivial (trivial where the representation extends holomorphically); every hyperbolic closed filling of the family has finite H1 (m004: Z/|p| over 184 slopes; the only b1 > 0 slope is the Sol fibre boundary), so the frame X = M x SO(3) has H2(X;Q) = H4(X;Q) = 0 -- no rational hypercharge class, and Winkelmann's theorem gives c1 = 0 for every holomorphic bundle on compact quotients; on the cusped m004 one relative direction (H2_c = Q pairing with H4 = Q) is end data, its integers free topologically, holomorphic realisability open; chirality there needs a holomorphic bundle with int ch3 != 0 or an end term, neither examined. No input removed. 0 of 19.  
-`B1794_the_objects_bundles_on_the_frame_of_the_right_parity/FINDINGS.md`
+**NEGATIVE — `B1798`** (1635 words, 1 locks)  
+THE SIX GRADED UNDER THE CLASS-CHOOSING NULL (R71-1; NEGATIVE for PASSED): with B1753's census completed to all 266 lines (48 614 points, verified) and 10^7 fresh targets, the class-choosing null gives B1753 m*r 0.0084-0.0088 at m = 39-41 and B1749 0.0094-0.00999 at m = 33-35; but the lepton factor c = 3 was chosen on the same six numbers (the web seat's GJ_FINDINGS) and that null holds it fixed -- a null letting each target choose c as the data did gives m*r 0.035-0.079 (B1753) and 0.034-0.082 (B1749); counted per decisive cell (m ~ 51) B1753 fails too; neither is PASSED; the six's specificity rests on c read from the data. No input removed. 0 of 19.  
+`B1798_the_six_graded_under_the_class_choosing_null/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

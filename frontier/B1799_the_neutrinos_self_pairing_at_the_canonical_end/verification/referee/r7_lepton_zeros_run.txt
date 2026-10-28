@@ -1,0 +1,3 @@
+charged leptons L e: exact-zero rows 162 (lines 54); Dirac L nu^c: 162 (lines 54); identical row sets: True
+  charged leptons: Dn at zeros max 6.5e-14, elsewhere min 3.22e-06
+r7 exit 0

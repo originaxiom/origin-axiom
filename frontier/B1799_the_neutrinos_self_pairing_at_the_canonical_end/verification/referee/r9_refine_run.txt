@@ -1,0 +1,7 @@
+cell from (0.0000, 0.0741): root (a, b) = (-0.6264977413, -0.1933628779), Dn 2.11e-02; LL least sigma3/sigma1 2.48e-05; nearest p/q (q <= 60) (-37/59, -6/31) off by 6.2e-04
+cell from (0.0370, 0.0556): root (a, b) = (0.0429021708, 0.0566211545), Dn 5.52e-15; LL least sigma3/sigma1 3.47e-17; nearest p/q (q <= 60) (2/47, 3/53) off by 3.5e-04
+cell from (0.0370, 0.1389): root (a, b) = (0.0402015823, 0.1409501528), Dn 4.75e-15; LL least sigma3/sigma1 7.20e-17; nearest p/q (q <= 60) (1/25, 8/57) off by 6.0e-04
+cell from (0.0741, 0.0000): root (a, b) = (0.2057614984, -0.5291941792), Dn 6.46e-02; LL least sigma3/sigma1 1.90e-04; nearest p/q (q <= 60) (7/34, -9/17) off by 2.2e-04
+cell from (0.0833, 0.0741): root (a, b) = (0.1264650844, 0.0257165139), Dn 8.23e-15; LL least sigma3/sigma1 5.31e-17; nearest p/q (q <= 60) (7/55, 1/39) off by 8.1e-04
+cell from (0.0833, 0.1574): root (a, b) = (0.2095688375, 0.2232878212), Dn 5.32e-15; LL least sigma3/sigma1 8.47e-17; nearest p/q (q <= 60) (9/43, 13/58) off by 8.5e-04
+r9 exit 0

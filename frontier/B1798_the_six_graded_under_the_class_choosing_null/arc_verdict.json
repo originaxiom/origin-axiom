@@ -1,0 +1,33 @@
+{
+ "id": "B1798",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1726",
+  "B1735",
+  "B1741",
+  "B1748",
+  "B1749",
+  "B1753",
+  "B1786",
+  "B1789"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "chat1:GJ_FINDINGS",
+  "sm:W157"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's frame at B1667's canonical end; B1741's seat-menu measure; B1749's and B1753's apexes on all 266 lines",
+  "object": "THE_BAR's grade of B1749 and B1753",
+  "reach": "class",
+  "hypotheses": "B1741's draws as the null population; THE_BAR's P-389 rule; the look ledger's count and its contested per-cell reading"
+ },
+ "claim_one_line": "THE SIX GRADED UNDER THE CLASS-CHOOSING NULL (R71-1; NEGATIVE for PASSED): with B1753's census completed to all 266 lines (48 614 points, verified) and 10^7 fresh targets, the class-choosing null gives B1753 m*r 0.0084-0.0088 at m = 39-41 and B1749 0.0094-0.00999 at m = 33-35; but the lepton factor c = 3 was chosen on the same six numbers (the web seat's GJ_FINDINGS) and that null holds it fixed -- a null letting each target choose c as the data did gives m*r 0.035-0.079 (B1753) and 0.034-0.082 (B1749); counted per decisive cell (m ~ 51) B1753 fails too; neither is PASSED; the six's specificity rests on c read from the data. No input removed. 0 of 19.",
+ "weave_or_thread": "thread (the six's grade on the frame's lines)"
+}

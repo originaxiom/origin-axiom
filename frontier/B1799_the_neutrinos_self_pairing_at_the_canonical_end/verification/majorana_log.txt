@@ -1,0 +1,6 @@
+P-283 majorana.py: 858 rows
+nucnuc: {'n': 3, 'max_R1_rel': 3.748538563201341e-20, 'min_Dn': 0.0007064916413061033, 'exact_zero_rows': 0, 'max_asym': 1.1653561329021466e-16, 'min_sv3_over_sv1': 3.346749424734736e-07}
+LL: {'n': 858, 'max_R1_rel': 4.622886206288149e-17, 'min_Dn': 1.1142618756994155e-05, 'exact_zero_rows': 0, 'max_asym': 1.9684602838486097e-16, 'min_sv3_over_sv1': 7.159162917820892e-08}
+Lnuc: {'n': 858, 'max_R1_rel': 0.7071036927390457, 'min_Dn': 5.675464030115092e-19, 'exact_zero_rows': 162, 'max_asym': 1.4153540485603262, 'min_sv3_over_sv1': 1.5483112995452159e-18}
+majorana exit 0
+majorana exit 0

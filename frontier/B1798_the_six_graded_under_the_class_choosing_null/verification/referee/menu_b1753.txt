@@ -1,0 +1,4 @@
+seat  configs  4  obs 2.739034  targets 1600000  candidates 523  hits 354  frac 2.2125e-04  r97.5 2.4554e-04  m*r(39) 0.0096  m*r(41) 0.0101  (f-map spread 0.0e+00)
+cov   configs 16  obs 2.739034  targets 1600000  candidates 1960  hits 1296  frac 8.1000e-04  r97.5 8.5531e-04  m*r(39) 0.0334  m*r(41) 0.0351  (f-map spread 0.0e+00)
+free  configs  2  obs 2.608931  targets 1600000  candidates 5892  hits 4103  frac 2.5644e-03  r97.5 2.6440e-03  m*r(39) 0.1031  m*r(41) 0.1084  (f-map spread 0.0e+00)
+menu_null exit 0

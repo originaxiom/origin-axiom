@@ -14333,6 +14333,23 @@
    "status": "open",
    "domain": "topology"
   },
+  "B1795": {
+   "slug": "the doublet triplet split at the canonical end",
+   "motifs": [
+    "closing",
+    "coupling"
+   ],
+   "refs": [
+    "L250",
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 2,
+   "status": "open",
+   "domain": "topology"
+  },
   "B1796": {
    "slug": "the cusp unit from the field checked on main",
    "motifs": [
@@ -14359,6 +14376,49 @@
    "obstacle_conf": 5,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1797": {
+   "slug": "genesis v1 59",
+   "motifs": [
+    "monoid",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1798": {
+   "slug": "the six graded under the class choosing null",
+   "motifs": [
+    "figure_eight"
+   ],
+   "refs": [
+    "P2",
+    "S215"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1799": {
+   "slug": "the neutrinos self pairing at the canonical end",
+   "motifs": [
+    "choice",
+    "coupling",
+    "figure_eight",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "L221"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B179": {
    "slug": "metallic numbers unified",

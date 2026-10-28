@@ -17993,3 +17993,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - B1796: W130 and W123 verified on main and refereed hostile (two blocking findings applied); the cusp unit reduces to four undrived links under two standing conditions. B1795 sealed and running. The register's close-list applied after checking (128 open). 0 of 19.
 - **Landing suite (S231).** full suite 7 797 passed, 4 failed, 68 skipped (46:47, -n 8) on dc81dc20d: two are B805's attachment locks (P-239, standing); the other two (B887's gate audit, the repo-gates lock) caught one real defect, B1796's FINDINGS citing a seat-branch file as a path on main (path-refs) -- reworded as the seat's dossier file on its branch, the views regenerated, the two files rerun green (8 passed).
+
+## 2026-10-28 — S232 B1795, B1797, B1798, B1799
+
+- B1795 (no structural doublet–triplet split), B1797 (GENESIS v1.59: the cusp unit reduced to four undrived links), B1798 (the six not PASSED once the lepton factor's data choice is priced; a proposed grade overturned by the referee before banking), B1799 (the neutrino's self-pairing; the Weinberg pair's CP-line zeros). Every arc refereed hostile before landing. The seats' new work harvested. 0 of 19.
+- **Landing suite (S232).** full suite 7 816 passed, 2 failed, 68 skipped (23:05, -n 8) on 5db6f8704: the two failures are B805's attachment locks (P-239, standing).

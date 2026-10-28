@@ -1,0 +1,13 @@
+unique (line, point): 858 of 858 | unique (a,b): 286
+strip carriers  L_max S : light_H 4.9e-05 - 3.6e-04 (frac < 1e-3: 1.00) | light_D 5.1e-05 - 3.6e-04
+strip carriers  L_max St: light_H 1.5e-03 - 1.9e-03 (frac < 1e-3: 0.00) | light_D 1.5e-03 - 1.9e-03
+strip carriers  L_2   S : light_H 2.2e-04 - 4.0e-04 (frac < 1e-3: 1.00) | light_D 2.2e-04 - 4.1e-04
+strip carriers  L_2   St: light_H 3.0e-03 - 3.4e-03 (frac < 1e-3: 0.00) | light_D 3.0e-03 - 3.4e-03
+strip all lines L_max S : light_H 2.8e-07 - 5.1e-03 (frac < 1e-3: 0.60) | light_D 2.8e-07 - 5.1e-03
+strip all lines L_max St: light_H 7.7e-07 - 5.1e-03 (frac < 1e-3: 0.62) | light_D 7.7e-07 - 5.1e-03
+strip all lines L_2   S : light_H 1.3e-08 - 5.1e-03 (frac < 1e-3: 0.48) | light_D 3.6e-08 - 5.1e-03
+strip all lines L_2   St: light_H 7.3e-08 - 5.1e-03 (frac < 1e-3: 0.55) | light_D 7.3e-08 - 5.1e-03
+multiset symmetry: max |log10| between sorted light_H and sorted light_D over the census, any (point, h, rn): 0.875
+g1 sorted Dn_H vs Dn_D: max |log10| 0.304
+g2 sorted Dn_H vs Dn_D: max |log10| 0.188
+strip sorted Dn_H vs Dn_D: max |log10| 0.476

@@ -1,0 +1,13 @@
+rows 858 points ['g1', 'g2', 'strip'] lines 286
+NaN Dn: 0 | None c entries: 3900 by unit: {'1': 3432, 'i': 156, 'j': 156, 'k': 156}
+L values (L_max, L_2): {'g1': (0.6538409953445755, 2.4133945308517637), 'g2': (0.6617510883535298, 2.4946439852349473), 'strip': (0.6469468588302519, 2.3374704078338464)} | column Im range 1.0 4.0
+clipped channel weights (2 pi L + c <= 0): 0
+c range -2.9502622472204934 18.431079529070317
+slot swap: max rel |Dn - Dn'| 1.24e-11, max rel ||detM| - |detM'|| 1.19e-11
+slot swap: max rel diff of sv3/sv1 (spectrum NOT invariant?) 7.35e-10
+slot swap: max rel diff residues i,j,k: 1.55e-02
+|detM(L_max)| vs |detM(L_2)| max rel 2.55e-12 ; |detM| vs |D|/4 max rel 6.02e-13
+max |sum R_s^2| / sum |R_s|^2 = 7.55e-16  (rank-one residue => L-independence of det M)
+lines where the H pair's twists are integral (q a in Z, 2 q b in Z): 10 [('0', '0'), ('0', '1/6'), ('0', '1/3'), ('0', '1/2'), ('1/3', '0'), ('1/3', '1/6'), ('1/3', '1/3'), ('1/3', '1/2'), ('1/3', '2/3'), ('1/3', '5/6')] ; its Dn there: {'g1': [0.010537], 'g2': [0.076887], 'strip': [0.000706]}
+lines where the D pair's twists are integral (q a in Z, 2 q b in Z): 6 [('0', '0'), ('0', '1/4'), ('0', '1/2'), ('1/2', '0'), ('1/2', '1/4'), ('1/2', '1/2')] ; its Dn there: {'g1': [0.010537], 'g2': [0.076887], 'strip': [0.000706]}
+order 1/5 lines: 39 rows; max rel diff of sv (D vs H) 2.34e-14; D vs best of H/Hc 2.34e-14

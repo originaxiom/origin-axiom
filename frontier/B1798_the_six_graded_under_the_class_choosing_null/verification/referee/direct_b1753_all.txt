@@ -1,0 +1,7 @@
+arc b1753_all seeds [5056, 5072, 5137, 5160, 5212, 5255, 5326, 5344, 5401, 5403, 5429, 5437, 5439, 5497, 5528, 5628, 5632, 5806, 5921, 5961, 5973, 5978, 6068, 6087, 6257, 6288, 6375, 6381, 6383, 6482, 6529, 6535, 6540, 6611, 6616, 6696, 6819, 6915, 6980, 7013, 7081, 7089, 7240, 7333, 7403, 7423, 7454, 7464]
+my loader: 59318 rows (118636 feature rows), lines present 266
+data min chi2 2.739034460748 (draft obs 2.739034460748)
+loader: 59318 rows, 247 duplicates (checked equal), 0 cut lines skipped
+feat_null loader: 118636 feature rows; max |U|,|Dn|,|E| diff 0.000e+00 0.000e+00 0.000e+00
+b1753_all: 48 seeds, 192000 targets: direct hits 46, KD hits 46; targets within obs+0.5 65, missed by KD 0; max |direct - KD| on candidates 7.276e-12
+direct_null exit 0
