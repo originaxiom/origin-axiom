@@ -1,0 +1,15 @@
+Q4 the lever of ln(m1/m2), L_max minus L_2, over G: median (10th to 90th percentile)
+   up   S  -0.726 (-1.341 to 0.958)
+   up   S~ 0.055 (-1.762 to 1.035)
+   down S  -0.988 (-1.075 to -0.490)
+   down S~ -0.901 (-1.147 to -0.269)
+   lep  S  -0.988 (-1.082 to -0.465)
+   lep  S~ -0.878 (-1.164 to -0.202)
+Q5 steps on G in (S~, S, S)
+   L_max: Im tau steps 4800, all six logs fall at 0.9958; Re tau steps 4680, mixed signs at 0.9432, down's two ratios opposite at 0.4451
+   L_2: Im tau steps 4800, all six logs fall at 0.9862; Re tau steps 4680, mixed signs at 0.9705, down's two ratios opposite at 0.2893
+Q6 found distances: least 0.3654 over all 480 searches; least among the 370 unflagged 0.3654; unflagged below 0.15: 0
+Q7 searches with six iterations: 46; still improving by more than 1e-5 at the last: 38; largest last improvement 5.08e-04
+Q8 L_max refinements: 11 of 40 end on a bound of the box; least chi2_six among them 14.81; refined Im tau 2.973 to 3.149; on an Im bound 0
+Q8 L_2 refinements: 15 of 40 end on a bound of the box; least chi2_six among them 64.88; refined Im tau 2.638 to 3.058; on an Im bound 0
+horocycle posthoc2 exit 0
