@@ -1,0 +1,8 @@
+{
+ "against_B1741_best_row": 0.0,
+ "against_B1755_order_20_carriers": 0.0,
+ "T_covariance_order_60": 3.2037261732911487e-11,
+ "lines": 20,
+ "every_order_60": true,
+ "apex_points": 125
+}

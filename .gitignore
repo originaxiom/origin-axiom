@@ -151,6 +151,8 @@ frontier/B1746_the_cube_groups_forms_as_the_higgs/verification/cube_pencils.json
 # B1786's referee null (verification/referee/): the arrays its scripts write are regenerable and large (features, kd_*, prior_*, classmin/); the scripts and their text summaries are tracked
 frontier/B1786_the_slope_principle_out_of_sample/verification/referee/*.npz
 frontier/B1786_the_slope_principle_out_of_sample/verification/referee/classmin/
+# B1792's sealed census (4 MB): its sealed compare.py reads it by name
+!frontier/B1792_the_offset_recurrence_at_order_60/verification/census.jsonl
 # B1786's sealed census is 126 MB raw, over the host's per-file limit: it is committed as census.jsonl.gz (gzip -n -9)
 # with the raw file's sha256 in census.jsonl.sha256; `gunzip -k census.jsonl.gz` restores the census.jsonl its sealed
 # compare.py reads by name (the raw file stays ignored by *.jsonl)
