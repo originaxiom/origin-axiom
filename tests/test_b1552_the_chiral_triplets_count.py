@@ -5159,3 +5159,43 @@ def test_w163_the_third_opinion_b1755():
         assert all(((-b) % 1 in classes[1]) == (b in classes[0]) for b in lines)
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W163. The third opinion on main's B1755" in note
+
+
+def test_w164_the_third_opinion_b1786():
+    """W164: every cell as predicted; in process, the lines' arithmetic: 300 and 288 lines of exact order 25 and 30 up
+    to sign in 26 slope classes, FINDINGS' twelve offsets are six pairs of the mirror b -> 3/5 - b, and the order-30
+    carriers are the order-30 members of the +1/3 orbits of the order-10 carriers 1/10 and 1/2 (the post hoc read)"""
+    import math
+    from fractions import Fraction as Fq
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "third_opinion_b1786.json").read_text(encoding="utf-8"))
+    cells = ("A0", "A2", "A2f", "C3", "A3", "A4", "B0", "B1", "C1", "C2 (i)", "C2 (ii)")
+    assert d["cells"] == {k: True for k in cells} and not [k for k in d if k.endswith("_failed")]
+    assert d["minima"]["seeds computed in this launch"] == 100
+    a2 = d["A2"]["classes"]
+    assert all(v["equal main (mean, worst seed, hits)"] for v in a2.values())
+    assert a2["a2/5"]["hits"] == 8 and 3.004 < a2["a2/5"]["chi2_six_min"] < 3.006 and a2["all"]["hits"] == 67
+    assert d["A2f"]["a2/5"]["hits"] == 7
+    c3 = d["C3"]["fresh seeds 1869-1928"]
+    assert c3["targets"] == 240000 and c3["class-choosing event (some class <= obs and every other >= 16.75)"] == 57
+    assert d["C1"]["points below 16.75"] == 36
+    assert d["C2"]["(ii)"]["every order-25/30 point also carries a lower-order one"]
+    seen, lines = set(), []
+    for n in (25, 30):
+        for j in range(n):
+            for k in range(n):
+                if math.gcd(math.gcd(j, k), n) != 1:
+                    continue
+                key = min((Fq(j, n), Fq(k, n)), (Fq(-j, n) % 1, Fq(-k, n) % 1))
+                if key not in seen:
+                    seen.add(key)
+                    lines.append(key)
+    assert len(lines) == 588 and len({a for a, _b in lines}) == 26
+    twelve = {Fq(k, 25) for k in (3, 4, 11, 12, 17, 19, 21, 23)} | {Fq(1, 6), Fq(13, 30), Fq(23, 30), Fq(5, 6)}
+    pairs = {frozenset((b, (Fq(3, 5) - b) % 1)) for b in twelve}
+    assert len(pairs) == 6 and all(len(p) == 2 and p <= twelve for p in pairs)
+    orbits = {(b + Fq(j, 3)) % 1 for b in (Fq(1, 10), Fq(1, 2)) for j in range(3)}
+    order30 = {b for a, b in lines if a == Fq(2, 5) and math.lcm(5, b.denominator) == 30}
+    assert orbits & order30 == {Fq(1, 6), Fq(13, 30), Fq(23, 30), Fq(5, 6)}
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W164. The third opinion on main's B1786" in note

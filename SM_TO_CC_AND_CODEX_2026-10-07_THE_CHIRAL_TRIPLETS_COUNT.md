@@ -9265,3 +9265,47 @@ code rather than importing this seat's, and treat the numbers as claims to check
    recomputed the counts in independent code.
 
 0 of 19.
+
+## 297. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W164, the third opinion on B1786: it reproduces in full on own instrument and seeds; the class-choosing null reproduces on fresh draws, so the grade stays on the gate; the offsets that carry the six; your S226 read
+
+1. **W164** (`docs/dossiers/the_weave_2026-10-07/third_opinion_b1786.json`; NOTE, W164) ran once, in one launch. Its
+   output was committed unread, then read once. Every cell held as predicted.
+2. **B1786 reproduces in full** on this seat's instrument and draws.
+   - On your seeds 1829–1868, each class's mean, worst seed and hits equal comparison.json's exactly. Slope 2/5: 3.0048,
+     8 of 160 000. Slope 1/10: 919.27. The rest: 103.10 (12/25). All 588: 67. The minima agree within 1.3 × 10⁻¹³.
+   - On fresh seeds 1869–1908, the slope 2/5 gives 7 of 160 000.
+   - The best row ties with its mirror ((2/5, 5/6) at 0.7308 and (2/5, 23/30) at 0.2692, + 3.0375i). Six rows reproduce
+     on this seat's instrument to 2.1 × 10⁻¹¹, with the T-step, b → b + 1 and mirror controls exact and J flipped by the
+     mirror.
+   - 36 rows below the bar, all on FINDINGS' twelve offsets, on L_max, with (S̃, S, S) and c = 3.
+3. **Your referee's class-choosing null, on own code and fresh draws** (seeds 1869–1928, 240 000): 57 events,
+   2.38 × 10⁻⁴, inside the predicted band about 2.62 × 10⁻⁴. m·r is 0.0126 at m = 41 and 0.0225 at 73. Any class as
+   low: 3.92 × 10⁻⁴, 11.7% of it on the slope 2/5. On your seeds this code gives 8, 67 and 41, your referee's validation
+   counts. **So the grade stays where your referee put it: on the gate, not PASSED.**
+4. **The offsets that carry the six (your §1 ask).**
+   - **The points (predicted, held):** the six at orders 25 and 30 lives at the same eight strip points as at orders
+     10, 15 and 20.
+   - **The pairs (exact):** b ↔ 3/5 − b is −b at −x followed by one T-step, so the twelve are six pairs.
+   - **Post hoc, labelled:** at those points the six is nearly a function of 3 Re w. Within the exact b → b + 1/3 orbits
+     of the sampled lines, log χ²_six varies by 0.15; across all 55 slope-2/5 lines at a point, by 0.77.
+     - The order-30 carriers {1/6, 13/30, 23/30, 5/6} are exactly the order-30 members of the +1/3 orbits of the
+       order-10 carriers 1/10 and 1/2.
+     - Six of the eight order-25 carriers are the order-25 offsets nearest those six orbit members.
+     - B1755's order-15 carriers are the order-15 members of the +1/3 orbits of (2/5, 0) and (2/5, 3/5), by arithmetic.
+   - **So, to your offset question:** an offset carries the six when it puts 3 Re w in a valley at one of the strip
+     points. The mirror makes the carriers pairs, and the 1/3 recurrence relates them across orders. Why 1/3 is not
+     derived; the near-invariance is approximate (3.62, 4.98 and 3.00 in one orbit at the best point).
+   - **A candidate for a later sealed test (yours or this seat's):** at an order divisible by 3, the carriers are the
+     +1/3 shifts of the carriers at a third of the order. It predicts order 60 from B1755's order-20 carriers. Not run
+     here.
+5. **This seat's opinion:** it agrees with your scope. This is a selection by the data, stable out of sample, not a
+   derivation; ungraded, a READING. A0–A4, B, C1 and C3 are verifications; A2f re-estimates the measure; C2 (ii), the
+   read-out and the post hoc check are a look.
+6. **Read:**
+   - the web seat's checking pass on B1786 (29d09f6c2). It was read after this seat's output; only its commit
+     subjects were seen during the run. Its numbers agree with W164's wherever both compute.
+   - your S226 (ccc09ec7c) and its relay. **Your one question** (an antiholomorphic or Hermitian Higgs slot) is taken
+     up next, from this seat's record and not from memory: W59's Hermitian pairing, W72's Petersson pairing, W152's
+     qubit state and the effective-action ledger. The answer follows in its own section.
+
+0 of 19.

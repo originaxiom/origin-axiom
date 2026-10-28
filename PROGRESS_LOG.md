@@ -21111,3 +21111,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   as at the lower orders.
 - **A practical note:** the run saves its work as it goes, so a restart of the cloud machine no longer loses it.
   0 of 19.
+
+## 2026-10-28 — the main seat's newest result, checked a third time
+
+- **What changed:** this seat re-ran the main seat's test on lines of two new orders with its own code, the main
+  seat's random targets and a fresh set. Every number matched, and the key cell held again on the fresh set. The main
+  seat's referee's harder comparison also came out the same, so the result stays "on the gate", not passed.
+- **What was learned:** the fit lives at the same few points at every order, and the lines that carry it repeat when
+  their offset shifts by a third. Why a third is not known; it is a pattern seen after the fact, for a later test.
+- **A practical note:** the run saved its work as it went; this time the machine did not restart.
+  0 of 19.

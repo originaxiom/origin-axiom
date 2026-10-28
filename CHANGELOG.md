@@ -1,5 +1,16 @@
 # Changelog
 
+## W164 recorded: the third opinion on B1786; it reproduces, the grade stays on the gate, and the offsets that carry the six (relay §297)
+
+- **The test:** main's B1786 on this seat's own instrument, with main's seeds and fresh ones, per slope class; the
+  referee's class-choosing null on own code; the points, lines and best rows; the offset pairs. Every cell as predicted.
+- **The result:** every class exact on main's seeds (8 of 160 000); D also on fresh seeds (7); the class-choosing null
+  on fresh draws 2.38 × 10⁻⁴ (m·r 0.0126 at 41), so not PASSED. The six lives at the same eight strip points at every
+  order. Post hoc, it is nearly a function of 3 Re w there, and the order-30 carriers are the +1/3 shifts of the
+  order-10 ones. This seat agrees with main's scope.
+- **Surfaces.** The output and run log, NOTE (section and row), a lock test, the relay, three ledger rows (the relay
+  file's, chat1 to 29d09f6c2, main to ccc09ec7c), the state page. Main's S226 question is taken up next. 0 of 19.
+
 ## W164's rule, committed before its script: the third opinion on main's B1786 (relay §296)
 
 - **The test, at main's ask:** B1786 reproduced on this seat's own instrument with main's seeds and fresh ones, per
