@@ -1,0 +1,18 @@
+B1795 split.py: 286 lines x 3 points x 4 pair orientations (rows in split_rows.jsonl)
+cell C1_control_dev_le_1e-9: True
+cell C2_order5_identity_le_1e-9: True
+cell S1_DECISIVE_no_line_with_exact_detM_H_zero: True
+cell S1p_no_line_with_exact_detM_D_zero: True
+cell S2_split_some_line_detM_H_zero_detM_D_not: False
+cell S3_DECISIVE_no_light_Higgs_pair_at_the_strip_ge_1e-3: False
+readout exact_H_lines: []
+readout exact_D_lines: []
+readout split_lines: []
+readout order5_identity_max_rel: 2.6813967654495197e-13
+readout strip_carriers_rows: 6
+readout strip_carriers_min_sv3_over_sv1_H: 4.917550713676242e-05
+readout strip_carriers_min_sv3_over_sv1_D: 5.146306915568453e-05
+readout min_Dn_H: 7.443755367499636e-05
+readout min_Dn_D: 7.443755367499625e-05
+readout max_R1_rel_leading_order: 1.7104920982725539e-15
+split exit 0

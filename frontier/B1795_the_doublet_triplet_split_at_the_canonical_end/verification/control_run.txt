@@ -1,0 +1,2 @@
+control: SM sectors through split.py's path vs B1726 compute() at (2/5, 49/60), strip point: max dev 0.000e+00
+control exit 0

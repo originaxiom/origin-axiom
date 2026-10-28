@@ -1,0 +1,56 @@
+{
+ "lines": 286,
+ "points": {
+  "g1": [
+   0.37,
+   2.2
+  ],
+  "g2": [
+   0.11,
+   1.7
+  ],
+  "strip": [
+   0.730769231,
+   3.037487672558812
+  ]
+ },
+ "pairs": {
+  "D": [
+   -2,
+   2
+  ],
+  "Dc": [
+   2,
+   -2
+  ],
+  "H": [
+   3,
+   -3
+  ],
+  "Hc": [
+   -3,
+   3
+  ]
+ },
+ "control_dev": 0.0,
+ "cells": {
+  "C1_control_dev_le_1e-9": true,
+  "C2_order5_identity_le_1e-9": true,
+  "S1_DECISIVE_no_line_with_exact_detM_H_zero": true,
+  "S1p_no_line_with_exact_detM_D_zero": true,
+  "S2_split_some_line_detM_H_zero_detM_D_not": false,
+  "S3_DECISIVE_no_light_Higgs_pair_at_the_strip_ge_1e-3": false
+ },
+ "readouts": {
+  "exact_H_lines": [],
+  "exact_D_lines": [],
+  "split_lines": [],
+  "order5_identity_max_rel": 2.6813967654495197e-13,
+  "strip_carriers_rows": 6,
+  "strip_carriers_min_sv3_over_sv1_H": 4.917550713676242e-05,
+  "strip_carriers_min_sv3_over_sv1_D": 5.146306915568453e-05,
+  "min_Dn_H": 7.443755367499636e-05,
+  "min_Dn_D": 7.443755367499625e-05,
+  "max_R1_rel_leading_order": 1.7104920982725539e-15
+ }
+}

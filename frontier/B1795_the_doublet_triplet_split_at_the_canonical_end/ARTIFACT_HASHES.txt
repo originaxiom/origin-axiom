@@ -9,3 +9,8 @@ a8d4ea9bae79dde894b192b7c3645685c1c97890665c96123be20ea6e9073aac  frontier/B1691
 # run before the seal (the control only; no vector-like pair): verification/control_run.txt
 bd8d0bb72c15f168015c090bbf91f1dcc35158af41a76d453321d65bc0cad26d  verification/control_run.txt
 # after the seal (not sealed): the outputs, committed unread
+# 2026-10-28, after the seal (24b9e468d): the one run of split.py --workers 6 (exit 0; 858 rows), committed unread
+64cd1c6fd18db15185bfe1613b803e32e4e51e5ee3e3f5f25f00c884dd866e59  verification/split_rows.jsonl
+58045cad58335bee8d80f9aec1cfa7410466f89c3de01b05b7721a428d0edc8f  verification/split.json
+33bea543948d1b72a27f97c1e76df9a4e609377c055b6994a78bca4ce5d72daf  verification/split_run.txt
+98122255eb2522d804b75b0134925ec29279eae904c75280c1a0d762a72ad5e3  verification/split_log.txt
