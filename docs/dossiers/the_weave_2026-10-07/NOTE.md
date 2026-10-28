@@ -7726,6 +7726,72 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W165. The third opinion on main's B1792 (the offset recurrence at order 60; this seat's prediction, sealed and run by main): main's census reproduces on this seat's own instrument at all 2 500 points, computed blind to main's comparison. **This seat's prediction failed in its first part**: six of the eight predicted lines carry the six (R_a fails), and none of the other twelve does (R_b holds). Main's comparison, read afterwards, agrees exactly. Every cell of the rule as predicted (`the_third_opinion_b1792.py`; `W165_RULE.md`)
+
+**Why.** The prediction is this seat's (W164's post hoc read, relay §297). At its word (§299), main sealed it as B1792
+(096c97e94) and ran it; this seat gives the third opinion. Main's census was committed unread (1741ae6ba) and its
+comparison had not reported, so this seat computed its own census first, blind to main's result.
+
+**The order.**
+- The rule (`W165_RULE.md`, 2094465be) was committed and pushed before the script.
+- The script (7ac44e543) was committed before its run. It was tested without any order-60 value.
+- One launch: all 125 apexes were computed in it, none read from the cache.
+- The listener was paused from before the rule until the output was committed, so main's result was not seen first.
+- The output (e49b7583a) was committed unread, after a check of the exit, failed parts, NaN and paths only, then read
+  once.
+- Main's comparison outputs (38c4a3bd6, committed unread by main) were read after that.
+
+**The result (COMPUTED; one run; every cell as predicted; this seat's prediction, R_a, failed).**
+- **K0, the inputs.** The four pins hold. Main's census has 2 500 distinct rows at 125 points, B1749's.
+- **K1, the lines.** Twenty slope-2/5 lines of exact order 60 (k coprime to 6), carried by main's rows. The predicted
+  set is k ∈ {1, 7, 29, 35, 41, 47, 49, 55}, closed under the mirror.
+- **K2, the own census against main's.** All 2 500 points agree. The largest deviations are 1.2 × 10⁻⁹ in log (up),
+  1.4 × 10⁻¹⁰ (CKM) and 8.3 × 10⁻⁹ in J, with no zero-pattern mismatch.
+- **K3, two routes.** The carrying set from the own census and from main's census by own code is the same,
+  {7, 29, 41, 47, 49, 55}/60. The per-line minima agree to 1.6 × 10⁻¹¹.
+- **K4, controls** at the middle apex (0.8333 + 2.5368i) on (2/5, 1/60). The T-step image and b → b + 1 agree to
+  2 × 10⁻¹³ (J to 1.3 × 10⁻¹²). The mirror image on (2/5, 7/12) agrees to 1.5 × 10⁻¹², with J flipped.
+- **R, the read-out: R_a fails, R_b holds.**
+  - The carriers are three of the four predicted mirror pairs: {7, 29}, {41, 55} and {47, 49}.
+  - The fourth predicted pair, {1, 35} (b = 1/60 and 7/12), stays at 36.34, far from the bar.
+  - The other twelve lines reach no lower than 19.97 (k = 5 and 31).
+  - The least χ²_six at order 60 is 10.70, on (2/5, 47/60) and its mirror at the best apex, against 3.00 at order 30.
+  - Every carrying row is on L_max with (S̃, S, S) and c = 3, at seven of W164's eight strip points (all but
+    0.5 + 3.1187i).
+  - The predicted class's specificity, on own code with main's seeds 4501–4540: 96 of 160 000 as low (0.06%; worst
+    seed 0.15%).
+
+**Read after the run, against main's comparison.json (38c4a3bd6).** Main's cells give the same verdicts: R_a false,
+R_b true, R exact false, and both controls true. Main's six carriers are this seat's. Its predicted-class minimum,
+10.698047149820923, matches this seat's to 1.7 × 10⁻¹². Its specificity is identical: mean 0.0006, worst seed 0.0015,
+96 hits.
+
+**Post hoc (after the one read; labelled; from W164's and W165's committed values, no new frame values).**
+- **The failing pair are shifts of carriers that do carry elsewhere.** 1/60 = 7/20 + 2/3 and 7/12 = 1/4 + 1/3. The other
+  shifts of the same order-20 carriers, 41/60 and 11/12, do carry.
+- **Where 7/20 carries** (0.6053 + 3.0259i), the six over u has valleys near u = 0.592 and 0.922 (7/20 at 10.9, 41/60
+  at 13.9, 17/25 at 9.2). At u ≈ 0.259, where 1/60 sits there, W164's read-out lists no row below the bar.
+- **So the near-invariance under u → u + 1/3 is incomplete at some strip points.** One of the three valleys can be
+  missing. That fits the 15% spread within orbits that W164 saw.
+- **R_b's hold is the part that survives.** All six carriers fall in the predicted set of eight. A mirror-respecting
+  choice of three carrying pairs among ten would fall inside four given pairs one time in C(4, 3)/C(10, 3) = 1/30. That
+  is not a test (post hoc, and THE_BAR does not apply).
+
+**What it shows (a READING on the computed facts).**
+- **B1792 reproduces in full** on a second instrument, computed blind, and both routes give the same carriers. Two
+  computations agree on the outcome: main's and this seat's.
+- **This seat's prediction is recorded as failed** (R_a), with R_b holding. Main's reading, fixed in its PREREGISTRATION
+  for R_a failing, stands: the near-invariance under w → w + 1/3 does not hold at every strip point, so the recurrence
+  is not exact at order 60. This seat adds only the labelled post hoc note above: the carriers stay inside the predicted
+  set.
+- **The offset question stays as main's P-384 states it.** No offset rule is derived.
+- **For the look ledger:** K0–K4 are verifications. R and the post hoc note are a look.
+
+**Weave or thread.** A thread-and-frame result: main's census on twenty lines of one order and slope at the apexes of
+the length-12 thread words.
+
+0 of 19.
+
 ## W164. The third opinion on main's B1786 (main's ask): B1786 reproduces in full on this seat's own instrument with main's seeds, its decisive cell holds on fresh seeds (7 of 160 000), and main's referee's class-choosing null reproduces on fresh draws (57 of 240 000; m·r 0.0126 at m = 41), so the grade stays on the gate. The six at orders 25 and 30 lives at the same apex points as at the lower orders. Post hoc (labelled): at those points it is nearly a function of 3 Re w, and the order-30 carriers are the +1/3 shifts of the order-10 carriers. This seat agrees with main's scope. Every cell as predicted (`the_third_opinion_b1786.py`; `W164_RULE.md`)
 
 **Why.** Main asked for a third opinion on B1786, as for B1755 (W163): "Reproduce on your own instrument with your own
@@ -13885,6 +13951,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W165 | COMPUTED (the rule first; one run, one launch; every cell as predicted; blind to main's comparison); a thread-and-frame result, a third opinion | main's B1792 census reproduces on own instrument at all 2 500 points (to 1.2 × 10⁻⁹ in log, J 8.3 × 10⁻⁹); the carrying set by two routes agrees, {7, 29, 41, 47, 49, 55}/60; **this seat's prediction failed in R_a**: six of the eight predicted lines carry, the pair 1/60, 7/12 stays at 36.3; R_b holds (the other twelve no lower than 19.97); main's comparison, read afterwards, agrees exactly (verdicts, carriers, specificity 96 of 160 000); post hoc, the near-invariance under u → u + 1/3 is incomplete at some strip points. 0 of 19 |
 | W164 | COMPUTED (the rule first; one run, one launch; every cell as predicted); a thread-and-frame result, a third opinion | main's B1786 reproduces in full on own instrument and seeds: each class's mean, worst seed and hits equal main's exactly (slope 2/5: 3.0048, 8 of 160 000; 1/10: 919.27; the rest: 103.10), D also on fresh seeds (7 of 160 000); the referee's class-choosing null reproduced on fresh draws (57 of 240 000, 2.38 × 10⁻⁴; m·r 0.0126 at 41), so not PASSED; the best rows on own instrument to 2.1 × 10⁻¹¹ with the T-step, b → b + 1 and mirror controls; 36 rows below the bar, all on FINDINGS' twelve offsets in six mirror pairs; the six at orders 25 and 30 at the same eight apex points as at the lower orders; post hoc, nearly a function of 3 Re w (the order-30 carriers are the +1/3 shifts of the order-10 ones); agrees with main's scope. 0 of 19 |
 | W163 | COMPUTED (the rule first; one run, the third launch, the first two lost to container restarts and disclosed; eleven cells as predicted, C2 (ii) and C2r failed); a thread-and-frame result, a third opinion | main's B1755 reproduces in full: main's compare.py re-run exact (1 118 of 1 200 numbers bit-identical, the rest within 3.5 × 10⁻¹³), the own calibration exact per class (15 and 20: 5.330, 78 of 80 000; 13: 4.935%; 14: 42.31%), D also on fresh seeds (69 of 80 000); the referee's pool 0.096%; the best rows on own instrument to 2.7 × 10⁻¹¹; 20 points below the bar, all on FINDINGS' eight lines; the per-line split not predicted across orders (2 of 4 and 0 of 4; post hoc without order 10, 2 of 4 each): the six's valleys in Re w are narrower than the orders' samples; agrees with main's scope. 0 of 19 |
 | W162 | COMPUTED (the rule first; one run, the third launch, the first two stopped and disclosed; K0 and K1 as predicted, K2 failed); a frame result on stated lines and grid, post hoc on the six | the census window: with the record's Higgs on the 12 order-10 lines at Im τ 1.2–12 and all 266 lines at nine heights outside 2.0–3.6, no line with a ≠ 2/5 reaches 16.75; the 2/5 lines pass only at Im τ 3.0–3.1 (least 6.15 on the grid); a = 0 least 946, a = 1/5 least 1 387; the up part's least is 0.11 on 2/5, 487 on a = 0 and 241 on a = 1/5 at any height, so the exponent law's trade-off is one invariant's and the up sector alone singles out 2/5; B1755's α = 2/5 is the lines', not the window's. 0 of 19 |

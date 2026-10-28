@@ -21144,3 +21144,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   seat will compute the same 2 500 points with its own code, then compare. The plan was written down before any code.
 - **Why blind:** an answer computed without knowing the other seat's result is a stronger check.
   0 of 19.
+
+## 2026-10-28 — this seat's prediction, tested: partly right
+
+- **What happened:** this seat had predicted which eight of twenty new lines would fit the data. Six of the eight did,
+  and none of the other twelve did. Two of the predicted lines did not fit.
+- **What that means:** the prediction failed as stated, and it is recorded as failed. The pattern behind it is real but
+  not exact, so it is not a rule.
+- **How it was checked:** this seat computed everything blind, before seeing the main seat's answer. The two answers
+  agree exactly.
+  0 of 19.

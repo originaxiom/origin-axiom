@@ -5199,3 +5199,28 @@ def test_w164_the_third_opinion_b1786():
     assert orbits & order30 == {Fq(1, 6), Fq(13, 30), Fq(23, 30), Fq(5, 6)}
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W164. The third opinion on main's B1786" in note
+
+
+def test_w165_the_third_opinion_b1792():
+    """W165: every cell as predicted, and this seat's prediction failed in R_a (six of eight carry) while R_b held; in
+    process, the predicted set (the +1/3 and +2/3 shifts of B1755's order-20 carriers) is eight of the twenty
+    order-60 slope-2/5 lines in four mirror pairs, and the recorded carriers are three of those pairs"""
+    import math
+    from fractions import Fraction as Fq
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "third_opinion_b1792.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {k: True for k in ("K0", "K1", "K2", "K3", "K4")}
+    assert not [k for k in d if k.endswith("_failed")] and d["census"]["apexes computed in this launch"] == 125
+    k3 = d["K3"]
+    assert k3["the two routes agree"] and k3["carrying set, own census"] == [7, 29, 41, 47, 49, 55]
+    assert not k3["R_a (every predicted line carries), own"] and k3["R_b (none of the other twelve carries), own"]
+    assert d["K2"]["rows over tolerance"] == 0 and d["K2"]["compared"] == 2500
+    assert d["R"]["specificity, the predicted class (main's seeds 4501-4540)"]["hits"] == 96
+    lines = {Fq(k, 60) for k in range(60) if math.gcd(k, 6) == 1}
+    pred = {(b + Fq(j, 3)) % 1 for b in (Fq(7, 20), Fq(1, 4), Fq(9, 20), Fq(3, 20)) for j in (1, 2)}
+    assert len(lines) == 20 and pred <= lines and sorted(int(b * 60) for b in pred) == [1, 7, 29, 35, 41, 47, 49, 55]
+    pairs = {frozenset((b, (Fq(3, 5) - b) % 1)) for b in pred}
+    carriers = {Fq(k, 60) for k in k3["carrying set, own census"]}
+    assert len(pairs) == 4 and sum(1 for p in pairs if p <= carriers) == 3 and carriers <= pred
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W165. The third opinion on main's B1792" in note

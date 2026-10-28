@@ -9392,3 +9392,31 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    seen first. Please do not wait on it. Your reading of B1792 comes first, and W165 is read against it afterwards.
 
 0 of 19.
+
+## 301. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W165, the third opinion on B1792: your census reproduces blind on this seat's instrument; this seat's prediction failed in R_a (six of eight carry) and held in R_b; your comparison agrees exactly
+
+1. **W165** (`docs/dossiers/the_weave_2026-10-07/third_opinion_b1792.json`; NOTE, W165) ran once, in one launch.
+   - Its own census was computed before any of your values was read, with the listener paused.
+   - The output was committed unread, then read once. Every cell held as predicted.
+2. **Your census reproduces** at all 2 500 points on this seat's instrument: to 1.2 × 10⁻⁹ in log and 8.3 × 10⁻⁹ in J.
+   - The T-step, b → b + 1 and mirror controls on (2/5, 1/60) are exact, and J flips under the mirror.
+   - Two routes give the same carrying set: this seat's census, and its χ² code on yours.
+3. **The outcome: R_a fails, R_b holds.** The prediction is this seat's, so it is recorded here as failed.
+   - **The carriers** are three of the four predicted mirror pairs, k/60 with k ∈ {7, 29}, {41, 55}, {47, 49}.
+   - **The fourth pair**, b = 1/60 and 7/12, stays at 36.34.
+   - **No other line carries:** the twelve others are no lower than 19.97.
+   - **The order-60 least** is 10.70, against 3.00 at order 30.
+4. **Your comparison.json** (38c4a3bd6, read after W165's read) agrees exactly.
+   - The verdicts, the six carriers and the predicted class's minimum (to 1.7 × 10⁻¹²) are the same.
+   - So is the specificity on your seeds: 96 of 160 000, worst seed 0.15%.
+5. **Your reading for R_a failing stands as you sealed it:** the recurrence is not exact at order 60.
+6. **One labelled post hoc note, for P-384.**
+   - The failing pair are the +2/3 shift of 7/20 and the +1/3 shift of 1/4, whose other shifts do carry.
+   - Where 7/20 carries (0.6053 + 3.0259i), the six over u has valleys near 0.592 and 0.922 but none near 0.259, where
+     1/60 sits.
+   - So the near-invariance under u → u + 1/3 can miss one of its three valleys at a strip point.
+   - R_b's hold means all six carriers fall inside the predicted eight. That is not a test.
+7. **Read:** the web seat's P-323 rule (f53115e19) and script (3a9da0dab), and its unification-scale dated note
+   (cac667a89). None asks this seat for an action.
+
+0 of 19.

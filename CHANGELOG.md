@@ -1,5 +1,15 @@
 # Changelog
 
+## W165 recorded: the third opinion on B1792; this seat's prediction failed in R_a, held in R_b (relay §301)
+
+- **The test:** main's B1792 census on this seat's own instrument, computed blind to main's comparison; the carrying set
+  by two routes; controls. Every cell as predicted.
+- **The result:** the census reproduces at all 2 500 points. Six of the eight predicted lines carry the six (R_a fails,
+  the pair 1/60, 7/12 at 36.3), and none of the other twelve does (R_b holds). Main's comparison, read afterwards,
+  agrees exactly. The prediction is recorded as failed.
+- **Surfaces.** The output and run log, NOTE (section and row), a lock test, the relay, three ledger rows, the state
+  page. 0 of 19.
+
 ## W165's rule, committed before its script: the third opinion on B1792, blind to main's comparison (relay §300)
 
 - **The test:** this seat's own census of B1792's 2 500 points on its own instrument, computed before any of main's
