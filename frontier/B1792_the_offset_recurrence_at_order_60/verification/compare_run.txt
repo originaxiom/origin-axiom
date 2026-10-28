@@ -1,0 +1,23 @@
+R_a_DECISIVE_every_predicted_line_carries False
+R_b_DECISIVE_no_other_line_carries True
+readout_R_exact_recurrence False
+readout_predicted_specific_at_1pc True
+C1_control True
+C2_control_chi2_reproduces_B1735 True
+carriers ['11/12', '29/60', '41/60', '47/60', '49/60', '7/60']
+predicted chi2 six|seat   min 10.70, random as low 0.00060 (worst seed 0.00150, hits 96)
+predicted chi2 six|cov    min 10.70, random as low 0.00134 (worst seed 0.00250, hits 214)
+predicted chi2 six|free   min 6.84, random as low 0.00138 (worst seed 0.00250, hits 220)
+predicted chi2 nine|seat  min 154.49, random as low 0.00478 (worst seed 0.00700, hits 765)
+predicted chi2 nine|sm    min 1281.60, random as low 0.02268 (worst seed 0.02850, hits 3629)
+other     chi2 six|seat   min 19.97, random as low 0.00308 (worst seed 0.00500, hits 493)
+other     chi2 six|cov    min 19.97, random as low 0.00693 (worst seed 0.01000, hits 1109)
+other     chi2 six|free   min 15.34, random as low 0.00764 (worst seed 0.01175, hits 1222)
+other     chi2 nine|seat  min 163.57, random as low 0.00621 (worst seed 0.00875, hits 994)
+other     chi2 nine|sm    min 1281.60, random as low 0.02623 (worst seed 0.03225, hits 4197)
+all       chi2 six|seat   min 10.70, random as low 0.00114 (worst seed 0.00200, hits 183)
+all       chi2 six|cov    min 10.70, random as low 0.00248 (worst seed 0.00475, hits 397)
+all       chi2 six|free   min 6.84, random as low 0.00263 (worst seed 0.00425, hits 420)
+all       chi2 nine|seat  min 154.49, random as low 0.00671 (worst seed 0.00875, hits 1074)
+all       chi2 nine|sm    min 1281.60, random as low 0.02666 (worst seed 0.03275, hits 4266)
+compare exit 0
