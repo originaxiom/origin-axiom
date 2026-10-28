@@ -1,0 +1,7 @@
+R1 at (0.269+3.037j): L_max 0.646933
+  (nth, ns) = (96, 64): exact N {'1': 5.2423741, 'i': 5.5670426, 'j': 2.310076, 'k': 2.3019214}; margin 7.83e-05 (76 s)
+  (nth, ns) = (144, 96): exact N {'1': 5.2423741, 'i': 5.5670426, 'j': 2.310076, 'k': 2.3019214}; margin 3.49e-05; largest relative change from the previous 1.9e-15 (78 s)
+  (nth, ns) = (192, 128): exact N {'1': 5.2423741, 'i': 5.5670426, 'j': 2.310076, 'k': 2.3019214}; margin 1.97e-05; largest relative change from the previous 2.1e-14 (81 s)
+  the horoball's radius over the cell's angles: 0.5000-0.5473 (mean 0.5250); round disc e^(-L_max) 0.5236; the cell's inner radius 0.5000
+exact_end_convergence exit 0
+exit 0
