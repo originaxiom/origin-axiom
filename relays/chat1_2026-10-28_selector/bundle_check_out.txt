@@ -1,0 +1,6 @@
+LR, fixed by M: 1 lines [('0', '0')]; orders [1]; SU(5)-preserving (5a, 5b integers): True
+LR, fixed by -M (with the involution): 5 lines [('0', '0'), ('1/5', '3/5'), ('2/5', '1/5'), ('3/5', '4/5'), ('4/5', '2/5')]; orders [1, 5]; SU(5)-preserving (5a, 5b integers): True
+RL, fixed by M: 1 lines [('0', '0')]; orders [1]; SU(5)-preserving (5a, 5b integers): True
+RL, fixed by -M (with the involution): 5 lines [('0', '0'), ('1/5', '2/5'), ('2/5', '4/5'), ('3/5', '1/5'), ('4/5', '3/5')]; orders [1, 5]; SU(5)-preserving (5a, 5b integers): True
+bundle_check exit 0
+exit 0
