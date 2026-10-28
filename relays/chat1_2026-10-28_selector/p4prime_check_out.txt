@@ -1,0 +1,8 @@
+tau (0.269+3.037j), line (2/5, 23/30), up  : |sum R_s^2| / sum |R_s|^2 = 0.0e+00; |det M(u = R)| / (sum |R_s|^2)^(3/2) = 8.2e-19
+tau (0.269+3.037j), line (2/5, 23/30), down: |sum R_s^2| / sum |R_s|^2 = 4.1e-17; |det M(u = R)| / (sum |R_s|^2)^(3/2) = 1.2e-17
+tau (0.269+3.037j), line (2/5, 23/30), lep : |sum R_s^2| / sum |R_s|^2 = 1.9e-16; |det M(u = R)| / (sum |R_s|^2)^(3/2) = 4.8e-17
+tau (0.5+3.03j), line (2/5, 1/10), up  : |sum R_s^2| / sum |R_s|^2 = 8.2e-17; |det M(u = R)| / (sum |R_s|^2)^(3/2) = 2.4e-17
+tau (0.5+3.03j), line (2/5, 1/10), down: |sum R_s^2| / sum |R_s|^2 = 1.3e-16; |det M(u = R)| / (sum |R_s|^2)^(3/2) = 3.0e-17
+tau (0.5+3.03j), line (2/5, 1/10), lep : |sum R_s^2| / sum |R_s|^2 = 4.3e-17; |det M(u = R)| / (sum |R_s|^2)^(3/2) = 6.7e-18
+p4prime_check exit 0
+exit 0
