@@ -1,0 +1,65 @@
+control (2/5, 1/10) Im tau 3: instrument R2 0.988010 R1 1.209296 | weighted routine at eps 0: R2 0.988010 R1 1.209296
+  (2/5, 1/10) Im tau 3  cos2pi_x1  eps 0.05   R2 0.98739  R1 1.19545
+  (2/5, 1/10) Im tau 3  cos2pi_x1  eps 0.10   R2 0.98700  R1 1.18707
+  (2/5, 1/10) Im tau 3  cos2pi_x1  eps 0.20   R2 0.98654  R1 1.17777
+  (2/5, 1/10) Im tau 3  cos4pi_x1  eps 0.05   R2 0.98726  R1 1.19032
+  (2/5, 1/10) Im tau 3  cos4pi_x1  eps 0.10   R2 0.98694  R1 1.18056
+  (2/5, 1/10) Im tau 3  cos4pi_x1  eps 0.20   R2 0.98677  R1 1.17108
+  (2/5, 1/10) Im tau 3  cos2pi_y1  eps 0.05   R2 0.98818  R1 1.20991
+  (2/5, 1/10) Im tau 3  cos2pi_y1  eps 0.10   R2 0.98837  R1 1.21105
+  (2/5, 1/10) Im tau 3  cos2pi_y1  eps 0.20   R2 0.98884  R1 1.21484
+  (2/5, 1/10) Im tau 3  cos4pi_y1  eps 0.05   R2 0.98796  R1 1.20398
+  (2/5, 1/10) Im tau 3  cos4pi_y1  eps 0.10   R2 0.98800  R1 1.20062
+  (2/5, 1/10) Im tau 3  cos4pi_y1  eps 0.20   R2 0.98823  R1 1.19743
+  (2/5, 1/10) Im tau 3  asym       eps 0.05   R2 0.98783  R1 1.20078
+  (2/5, 1/10) Im tau 3  asym       eps 0.10   R2 0.98787  R1 1.19720
+  (2/5, 1/10) Im tau 3  asym       eps 0.20   R2 0.98824  R1 1.19680
+control (2/5, 1/10) Im tau 6: instrument R2 0.999958 R1 1.004143 | weighted routine at eps 0: R2 0.999958 R1 1.004143
+  (2/5, 1/10) Im tau 6  cos2pi_x1  eps 0.05   R2 0.99996  R1 1.00387
+  (2/5, 1/10) Im tau 6  cos2pi_x1  eps 0.10   R2 0.99995  R1 1.00371
+  (2/5, 1/10) Im tau 6  cos2pi_x1  eps 0.20   R2 0.99995  R1 1.00352
+  (2/5, 1/10) Im tau 6  cos4pi_x1  eps 0.05   R2 0.99995  R1 1.00377
+  (2/5, 1/10) Im tau 6  cos4pi_x1  eps 0.10   R2 0.99995  R1 1.00358
+  (2/5, 1/10) Im tau 6  cos4pi_x1  eps 0.20   R2 0.99995  R1 1.00338
+  (2/5, 1/10) Im tau 6  cos2pi_y1  eps 0.05   R2 0.99996  R1 1.00416
+  (2/5, 1/10) Im tau 6  cos2pi_y1  eps 0.10   R2 0.99996  R1 1.00418
+  (2/5, 1/10) Im tau 6  cos2pi_y1  eps 0.20   R2 0.99996  R1 1.00424
+  (2/5, 1/10) Im tau 6  cos4pi_y1  eps 0.05   R2 0.99996  R1 1.00416
+  (2/5, 1/10) Im tau 6  cos4pi_y1  eps 0.10   R2 0.99996  R1 1.00418
+  (2/5, 1/10) Im tau 6  cos4pi_y1  eps 0.20   R2 0.99996  R1 1.00426
+  (2/5, 1/10) Im tau 6  asym       eps 0.05   R2 0.99996  R1 1.00393
+  (2/5, 1/10) Im tau 6  asym       eps 0.10   R2 0.99995  R1 1.00382
+  (2/5, 1/10) Im tau 6  asym       eps 0.20   R2 0.99995  R1 1.00375
+control (2/5, 23/30) Im tau 3: instrument R2 0.993074 R1 0.944075 | weighted routine at eps 0: R2 0.993074 R1 0.944075
+  (2/5, 23/30) Im tau 3  cos2pi_x1  eps 0.05   R2 0.99291  R1 0.94865
+  (2/5, 23/30) Im tau 3  cos2pi_x1  eps 0.10   R2 0.99279  R1 0.95141
+  (2/5, 23/30) Im tau 3  cos2pi_x1  eps 0.20   R2 0.99268  R1 0.95445
+  (2/5, 23/30) Im tau 3  cos4pi_x1  eps 0.05   R2 0.99300  R1 0.95040
+  (2/5, 23/30) Im tau 3  cos4pi_x1  eps 0.10   R2 0.99293  R1 0.95368
+  (2/5, 23/30) Im tau 3  cos4pi_x1  eps 0.20   R2 0.99279  R1 0.95698
+  (2/5, 23/30) Im tau 3  cos2pi_y1  eps 0.05   R2 0.99476  R1 0.94388
+  (2/5, 23/30) Im tau 3  cos2pi_y1  eps 0.10   R2 0.99677  R1 0.94350
+  (2/5, 23/30) Im tau 3  cos2pi_y1  eps 0.20   R2 1.00184  R1 0.94219
+  (2/5, 23/30) Im tau 3  cos4pi_y1  eps 0.05   R2 0.99480  R1 0.94586
+  (2/5, 23/30) Im tau 3  cos4pi_y1  eps 0.10   R2 0.99673  R1 0.94699
+  (2/5, 23/30) Im tau 3  cos4pi_y1  eps 0.20   R2 1.00102  R1 0.94805
+  (2/5, 23/30) Im tau 3  asym       eps 0.05   R2 0.99629  R1 0.94685
+  (2/5, 23/30) Im tau 3  asym       eps 0.10   R2 0.99896  R1 0.94802
+  (2/5, 23/30) Im tau 3  asym       eps 0.20   R2 1.00351  R1 0.94813
+control (2/5, 23/30) Im tau 6: instrument R2 0.999818 R1 0.998868 | weighted routine at eps 0: R2 0.999818 R1 0.998868
+  (2/5, 23/30) Im tau 6  cos2pi_x1  eps 0.05   R2 0.99980  R1 0.99894
+  (2/5, 23/30) Im tau 6  cos2pi_x1  eps 0.10   R2 0.99978  R1 0.99899
+  (2/5, 23/30) Im tau 6  cos2pi_x1  eps 0.20   R2 0.99976  R1 0.99904
+  (2/5, 23/30) Im tau 6  cos4pi_x1  eps 0.05   R2 0.99981  R1 0.99897
+  (2/5, 23/30) Im tau 6  cos4pi_x1  eps 0.10   R2 0.99981  R1 0.99902
+  (2/5, 23/30) Im tau 6  cos4pi_x1  eps 0.20   R2 0.99980  R1 0.99908
+  (2/5, 23/30) Im tau 6  cos2pi_y1  eps 0.05   R2 0.99983  R1 0.99886
+  (2/5, 23/30) Im tau 6  cos2pi_y1  eps 0.10   R2 0.99985  R1 0.99886
+  (2/5, 23/30) Im tau 6  cos2pi_y1  eps 0.20   R2 0.99990  R1 0.99884
+  (2/5, 23/30) Im tau 6  cos4pi_y1  eps 0.05   R2 0.99986  R1 0.99886
+  (2/5, 23/30) Im tau 6  cos4pi_y1  eps 0.10   R2 0.99990  R1 0.99886
+  (2/5, 23/30) Im tau 6  cos4pi_y1  eps 0.20   R2 1.00002  R1 0.99884
+  (2/5, 23/30) Im tau 6  asym       eps 0.05   R2 0.99986  R1 0.99893
+  (2/5, 23/30) Im tau 6  asym       eps 0.10   R2 0.99988  R1 0.99896
+  (2/5, 23/30) Im tau 6  asym       eps 0.20   R2 0.99991  R1 0.99898
+curvature exit 0

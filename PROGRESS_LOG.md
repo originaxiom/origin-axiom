@@ -17983,3 +17983,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 ## 2026-10-28 — S229b REVIEW 71'S ANCHOR
 
 - Review 71's anchor-commit 3e57c3e8d (the review counter reset). 0 of 19.
+
+## 2026-10-28 — S230 B1793 (THE CURVATURE ROUTE) AND B1794 (THE OBJECT'S BUNDLES ON L250'S FRAME)
+
+- B1793 and B1794, both data-free and refereed before landing: the lepton factor is not produced by a realisable curvature weight; the object forces no rational hypercharge class on any closed frame of the family and no non-flat bundle — on the cusped frame the one class is end data. The owner's question answered (P-400: conceptual, a frame blind to integers); P-401 paid by B1794; P-402 registered. 0 of 19.
+- **Landing suite (S230).** full suite 7 791 passed, 6 failed, 68 skipped (1:03:17, -n 8, the machine shared with R71-1's census) on f89439f09: two are B805's attachment locks (P-239, standing); the other four (B887's gate audit, B977's representation sweep twice, the repo-gates lock) tripped on B1796's draft directory, created in the working tree during the run (atlas-fresh, representation-sweep, seal-ledger). With the two draft arcs moved aside, the three files rerun green (13 passed).

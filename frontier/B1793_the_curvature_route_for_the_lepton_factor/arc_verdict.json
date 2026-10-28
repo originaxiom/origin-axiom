@@ -1,0 +1,28 @@
+{
+ "id": "B1793",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1653",
+  "B1656",
+  "B1716",
+  "B1726",
+  "B1742",
+  "B1789"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's frame at B1667's end (B1726's compute; the Higgs DR; readings S)",
+  "object": "the lepton factor c from a zero-net hypercharge curvature",
+  "reach": "class",
+  "hypotheses": "periodic curvature on the fibre; realisable weights = the frame's channel norms with positive bumps; one-leg routes (a 24-type vev, a one-leg insertion, per-field metrics, another U(1), a double-cover curvature) not covered"
+ },
+ "claim_one_line": "THE CURVATURE ROUTE FOR THE LEPTON FACTOR (P-397; data-free; NEGATIVE as scoped): in B1656's frame a zero-net hypercharge curvature leaves every holomorphic datum unchanged and only re-weights the four channel norms by exp(-(q_L + q_R) phi) -- the pair's total charge, +3 for down and leptons alike -- and the channel kernels themselves are identical for down and leptons (5e-14), so the weights act identically; realisable profiles keep R2 within 0.98-1.002, and even arbitrary channel weights never bring R2 and R1 both to 2.5 (joint distance to (3, 3) at least 2.85): the curvature cannot supply c = 3; one-leg routes remain. No input removed. 0 of 19.",
+ "weave_or_thread": "weave (the field's metric on the threads' pair kernels)"
+}

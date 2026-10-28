@@ -1,0 +1,3 @@
+m003 H1 = Z/5 + Z
+  b1>0 slopes on grid: [(-1, 2)]
+  filling (-1, 2) H1 = Z/5 + Z | solution type: contains flat tetrahedra | volume: 0

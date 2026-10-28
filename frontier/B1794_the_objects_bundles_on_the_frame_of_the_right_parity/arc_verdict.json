@@ -1,0 +1,27 @@
+{
+ "id": "B1794",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1112",
+  "B1483",
+  "B1604",
+  "B1789",
+  "B1793"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "L250's frame: the 6d frame bundle Gamma\\PSL(2,C) of the family's hyperbolic 3-manifolds (closed fillings; the cusped m004)",
+  "object": "whether the object forces a non-flat bundle and a hypercharge class",
+  "reach": "class",
+  "hypotheses": "rational cohomology; holomorphic bundles (L250's admissibility rule); the APS end term and bundles with int ch3 != 0 not examined; m004 is L250's + state (its control)"
+ },
+ "claim_one_line": "THE OBJECT'S BUNDLES ON THE FRAME OF THE RIGHT PARITY (P-401, L250; data-free; NEGATIVE, family-wide): canonical bundles are flat or trivial (trivial where the representation extends holomorphically); every hyperbolic closed filling of the family has finite H1 (m004: Z/|p| over 184 slopes; the only b1 > 0 slope is the Sol fibre boundary), so the frame X = M x SO(3) has H2(X;Q) = H4(X;Q) = 0 -- no rational hypercharge class, and Winkelmann's theorem gives c1 = 0 for every holomorphic bundle on compact quotients; on the cusped m004 one relative direction (H2_c = Q pairing with H4 = Q) is end data, its integers free topologically, holomorphic realisability open; chirality there needs a holomorphic bundle with int ch3 != 0 or an end term, neither examined. No input removed. 0 of 19.",
+ "weave_or_thread": "weave (the field's bundles on the object's frame)"
+}

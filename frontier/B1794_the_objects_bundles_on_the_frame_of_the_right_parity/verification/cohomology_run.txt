@@ -1,0 +1,27 @@
+m004 (cusped): H_1 = Z | rational Betti of M: [1, 1, 0, 0] | chi(M) = 0
+  X = M x SO(3), rational Betti b0..b6: [1, 1, 0, 1, 1, 0, 0]
+  compactly supported Betti (Poincare-Lefschetz) b^c_0..b^c_6: [0, 0, 1, 1, 0, 1, 1]
+  H^2(X;Q) = 0 (no absolute line-bundle class); H^2_c(X;Q) = 1 (a relative class, trivial at the end); H^4(X;Q) = 1 ; H^6_c(X;Q) = 1
+  the pairing H^2_c x H^4 -> H^6_c = Q is Poincare-Lefschetz duality, perfect: ranks 1 x 1
+
+closed fillings m004(p, q): homology, solution type, rational Betti of M and of X
+  (  1, 0) H_1 = 0        contains negatively oriented tetrahedra    hyperbolic=False b(M) = [1, 0, 0, 1]  b(X) = [1, 0, 0, 2, 0, 0, 1]
+  (  0, 1) H_1 = Z        contains flat tetrahedra                   hyperbolic=False b(M) = [1, 1, 1, 1]  b(X) = [1, 1, 1, 2, 1, 1, 1]
+  (  1, 1) H_1 = 0        contains flat tetrahedra                   hyperbolic=False b(M) = [1, 0, 0, 1]  b(X) = [1, 0, 0, 2, 0, 0, 1]
+  (  2, 1) H_1 = Z/2      contains flat tetrahedra                   hyperbolic=False b(M) = [1, 0, 0, 1]  b(X) = [1, 0, 0, 2, 0, 0, 1]
+  (  3, 1) H_1 = Z/3      contains flat tetrahedra                   hyperbolic=False b(M) = [1, 0, 0, 1]  b(X) = [1, 0, 0, 2, 0, 0, 1]
+  (  4, 1) H_1 = Z/4      contains degenerate tetrahedra             hyperbolic=False b(M) = [1, 0, 0, 1]  b(X) = [1, 0, 0, 2, 0, 0, 1]
+  (  5, 1) H_1 = Z/5      all tetrahedra positively oriented         hyperbolic=True  b(M) = [1, 0, 0, 1]  b(X) = [1, 0, 0, 2, 0, 0, 1]
+  (  6, 1) H_1 = Z/6      all tetrahedra positively oriented         hyperbolic=True  b(M) = [1, 0, 0, 1]  b(X) = [1, 0, 0, 2, 0, 0, 1]
+  (  7, 1) H_1 = Z/7      all tetrahedra positively oriented         hyperbolic=True  b(M) = [1, 0, 0, 1]  b(X) = [1, 0, 0, 2, 0, 0, 1]
+  (  8, 1) H_1 = Z/8      all tetrahedra positively oriented         hyperbolic=True  b(M) = [1, 0, 0, 1]  b(X) = [1, 0, 0, 2, 0, 0, 1]
+  ( -5, 1) H_1 = Z/5      all tetrahedra positively oriented         hyperbolic=True  b(M) = [1, 0, 0, 1]  b(X) = [1, 0, 0, 2, 0, 0, 1]
+  (  5, 2) H_1 = Z/5      all tetrahedra positively oriented         hyperbolic=True  b(M) = [1, 0, 0, 1]  b(X) = [1, 0, 0, 2, 0, 0, 1]
+  (  7, 2) H_1 = Z/7      all tetrahedra positively oriented         hyperbolic=True  b(M) = [1, 0, 0, 1]  b(X) = [1, 0, 0, 2, 0, 0, 1]
+  (  5, 3) H_1 = Z/5      all tetrahedra positively oriented         hyperbolic=True  b(M) = [1, 0, 0, 1]  b(X) = [1, 0, 0, 2, 0, 0, 1]
+  (  1, 2) H_1 = 0        all tetrahedra positively oriented         hyperbolic=True  b(M) = [1, 0, 0, 1]  b(X) = [1, 0, 0, 2, 0, 0, 1]
+  (  3, 2) H_1 = Z/3      all tetrahedra positively oriented         hyperbolic=True  b(M) = [1, 0, 0, 1]  b(X) = [1, 0, 0, 2, 0, 0, 1]
+
+hyperbolic fillings with b1(M) > 0 among those listed: 0
+every listed hyperbolic filling has H^2(X;Q) = H^4(X;Q) = 0: True
+cohomology exit 0

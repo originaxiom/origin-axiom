@@ -1,0 +1,16 @@
+(2/5,1/10) Im 3 asym eps 1: phi(0) 1.530 W0 1.015e-02 | my c {'1': 107.2199, 'i': 113.7086, 'j': 22.319, 'k': 21.8914} | quad conv 96->160 4.1e-15 | down=lep 1.3e-15 | vs draft cA_w 1.1e-10
+     draft form 2piL + c:     lam2 {'1': 111.286, 'i': 117.775, 'j': 26.385, 'k': 25.958}  R2 0.99202 R1 1.28868
+     corrected 2piW0 L + c:   lam2 {'1': 107.2611, 'i': 113.7499, 'j': 22.3602, 'k': 21.9327}  R2 0.99243 R1 1.30928
+     draft pipeline: phi  R2 0.99202 R1 1.28868 | phi - phi(0) (same curvature)  R2 0.99243 R1 1.30928
+(2/5,1/10) Im 3 cos2pi_y1 eps 0.2: phi(0) 1.000 W0 5.488e-01 | my c {'1': 5.279, 'i': 5.9665, 'j': 1.0173, 'k': 0.9936} | quad conv 96->160 1.4e-12 | down=lep 1.6e-14 | vs draft cA_w 1.1e-10
+     draft form 2piL + c:     lam2 {'1': 9.345, 'i': 10.033, 'j': 5.083, 'k': 5.06}  R2 0.98813 R1 1.19076
+     corrected 2piW0 L + c:   lam2 {'1': 7.5105, 'i': 8.198, 'j': 3.2489, 'k': 3.2251}  R2 0.98884 R1 1.21484
+     draft pipeline: phi  R2 0.98813 R1 1.19076 | phi - phi(0) (same curvature)  R2 0.98884 R1 1.21484
+(2/5,23/30) Im 3 asym eps 0.2: phi(0) 1.530 W0 3.993e-01 | my c {'1': 11.6605, 'i': 12.7201, 'j': 5.174, 'k': 5.1459} | quad conv 96->160 1.4e-13 | down=lep 6.0e-14 | vs draft cA_w 3.0e-10
+     draft form 2piL + c:     lam2 {'1': 15.727, 'i': 16.786, 'j': 9.24, 'k': 9.212}  R2 1.00349 R1 0.95262
+     corrected 2piW0 L + c:   lam2 {'1': 13.284, 'i': 14.3436, 'j': 6.7975, 'k': 6.7694}  R2 1.00351 R1 0.94813
+     draft pipeline: phi  R2 1.00349 R1 0.95262 | phi - phi(0) (same curvature)  R2 1.00351 R1 0.94813
+(2/5,1/10) Im 3 asym eps 4: phi(0) 1.530 W0 1.060e-08 | my c {'1': 78192512.574, 'i': 82802071.3955, 'j': 2153690.7533, 'k': 1934734.8662} | quad conv 96->160 7.8e-15 | down=lep 2.3e-15 | vs draft cA_w 1.1e-05
+     draft form 2piL + c:     lam2 {'1': 78192516.64, 'i': 82802075.462, 'j': 2153694.819, 'k': 1934738.932}  R2 0.99710 R1 1.90115
+     corrected 2piW0 L + c:   lam2 {'1': 78192512.574, 'i': 82802071.3955, 'j': 2153690.7533, 'k': 1934734.8662}  R2 0.99710 R1 1.90115
+     draft pipeline: phi  R2 0.99710 R1 1.90115 | phi - phi(0) (same curvature)  R2 0.99710 R1 1.90115

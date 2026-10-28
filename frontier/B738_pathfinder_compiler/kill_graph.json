@@ -12129,5 +12129,54 @@
    "reach": "class"
   },
   "weave_or_thread": "thread"
+ },
+ {
+  "id": "B1793",
+  "claim_killed": "That a curvature weight on the fibre torus (a non-flat line bundle's profile entering the overlaps) produces the lepton factor R2 = 3 together with R1 in B1656's frame (P-397's curvature route).",
+  "kill_form": "Data-free scan (B1793): every realisable weight keeps R2 in 0.98-1.002 on the lepton lines; on (2/5, 1/5) R2 = R1 = 1 exactly for every profile; no cell of the referee's free-lambda and band scans reaches R2 and R1 both >= 2.5.",
+  "hatch": "one-leg routes (a weight on one chirality only) and weights not realisable by a line bundle on the torus, not examined",
+  "priority": "low",
+  "routed_from": "main, at banking (2026-10-28), for tests/test_b833_negative_routing.py",
+  "note": "The W(0) normalisation was fixed before landing (the referee's R1 1.21484 reproduced). Scoped: realisable weights only.",
+  "evidence_consulted": [
+   "B1656",
+   "B1726",
+   "B1788",
+   "B1789"
+  ],
+  "faces_consulted": [],
+  "fact_computed": "the weighted overlap routine against B1726's instrument at eps 0, profile scans over the lepton lines, the referee's five re-scans (r0-r4)",
+  "scope": {
+   "frame": "B1656's frame at B1667's end",
+   "hypotheses": "realisable curvature weights (line-bundle profiles on the fibre torus)",
+   "object": "the lepton factor R2 = 3",
+   "reach": "class"
+  },
+  "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1794",
+  "claim_killed": "That the object forces a hypercharge class and a non-flat bundle on L250's frame (the 6d frame bundle of the family's hyperbolic 3-manifolds), so that a chirality index q int c1(L_Y) ch2(V) is fixed by the object.",
+  "kill_form": "Computed (B1794): every hyperbolic closed filling of m004 has finite H1 (184 slopes; b1 > 0 only at the Sol fibre boundary), and family-wide likewise, so H2(X;Q) = H4(X;Q) = 0: no rational class; canonical bundles are trivial or flat; on the cusped m004 one relative class (H2_c = Q) is end data, its integers free topologically.",
+  "hatch": "a holomorphic bundle with int ch3 != 0 (L250's rule), the APS end term, FK10's cusp unit at M12's cusp; L250's hypothesis concerns the - states (m004 is the + control)",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-28), for tests/test_b833_negative_routing.py",
+  "note": "Agrees with Winkelmann (1998) Thm 8.13.1: on compact quotients every holomorphic bundle has c1 = 0. Not a kill of L250, which needs int ch3 or an end term.",
+  "evidence_consulted": [
+   "B1112",
+   "B1483",
+   "B1604",
+   "B1789",
+   "B1793"
+  ],
+  "faces_consulted": [],
+  "fact_computed": "the rational and integral cohomology of X = M x SO(3) over m004's fillings and the cusped m004; m003's b1 > 0 slopes; the Sym2 bundle's triviality on PSL",
+  "scope": {
+   "frame": "L250's frame: Gamma\\PSL(2,C) of the family's hyperbolic 3-manifolds",
+   "hypotheses": "rational cohomology; holomorphic bundles",
+   "object": "a hypercharge class and a non-flat bundle forced by the object",
+   "reach": "class"
+  },
+  "weave_or_thread": "weave"
  }
 ]

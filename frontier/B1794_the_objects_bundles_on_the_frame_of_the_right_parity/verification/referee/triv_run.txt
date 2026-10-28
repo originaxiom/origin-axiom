@@ -1,0 +1,2 @@
+Sym2: phi invariant: True  PSL-well-defined: True
+conj rep: phi invariant: True (smooth, antiholomorphic in g)

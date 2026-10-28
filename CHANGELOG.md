@@ -1,5 +1,13 @@
 # Changelog
 
+## S230 B1793 AND B1794 — THE CURVATURE ROUTE FOR THE LEPTON FACTOR, AND THE OBJECT'S BUNDLES ON THE FRAME OF THE RIGHT PARITY: BOTH NEGATIVE AS SCOPED; THE OWNER'S QUESTION ANSWERED (P-400, P-401) (2026-10-28)
+
+- **B1793** (NEGATIVE as scoped; data-free; P-397's curvature route): a zero-net curvature weight on the fibre, realisable by a line bundle, keeps the lepton factor R₂ in 0.98–1.002, with R₂ = R₁ = 1 exactly on (2/5, 1/5) for every profile; no cell of the referee's scans has R₂ and R₁ both ≥ 2.5. The W(0) normalisation was fixed before landing at the referee. Open: one-leg routes and the 24-type vev.
+- **B1794** (NEGATIVE, family-wide; data-free; P-401, L250 cell (b)): the object does not force a hypercharge class or a non-flat bundle on L250's frame. Canonical bundles are trivial or flat; every hyperbolic closed filling of the family has finite H₁, so H²(X; ℚ) = H⁴(X; ℚ) = 0 (torsion only); on the cusped m004 one relative class is end data, its integers free topologically. L250's actual test — a holomorphic bundle with ∫ch₃ ≠ 0 on a − state, or an end term — is not examined.
+- **The owner's question** (P-400): conceptually, not technically — the flat holomorphic frame sees hypercharge only modulo the lattice and is blind to integer charges, signs and chirality; the night's four negatives are one blindness. Main's step back (P-401): the walls are modular flavour's and the magnetised torus's known walls; the record's one distinct asset is a rigid object, so the question is whether the object fixes the free data. B1794 is that question's first answer, on the closed frames and the + control: it does not, in the bulk; the end is what remains.
+- **Corrections:** Review 71 declined two relays as unanswered that the SM seat had answered (its §303): both BANKED, the review's correction dated, an E54 instance; the L250 draft's run log carried an unprinted line (E84, caught by its referee).
+- Register P-401 DONE (B1794), P-402 (the horocycle, a counted input with no row until now), notes on P-325 and P-397; FLOOR 402. Harvest rows 1435–1436 (the SM seat's §302–§303). Kill graph B1793, B1794. 0 of 19.
+
 ## S229b REVIEW 71'S ANCHOR (2026-10-28)
 
 - Review 71's anchor-commit (3e57c3e8d): the one-line anchor; the review counter reset. 0 of 19.

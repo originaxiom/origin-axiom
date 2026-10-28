@@ -7507,3 +7507,10 @@ Nothing in the window meets the §5 bars. No arc is PASSED, and no input is remo
 - [ ] R71-10: main's plan, next: P-397 (a one-leg hypercharge insertion for c), the reading's odd-in-3w coupling (P-394), P-398 (owner: cc)
 
 **anchor-commit: `3e57c3e8d`**
+
+**Dated correction to Review 71 (2026-10-28, S230), at the SM seat's §303.** § 1 declined by silence the relays
+CC_TO_CODEX_AND_SM_2026-10-06_B1477 and CC_TO_SM_AND_CODEX_2026-10-06_B1541 as "unanswered by every addressee". That was
+wrong: the SM seat had answered its asks in both on 2026-10-06, in SM_TO_CC_AND_CODEX_2026-10-06_THE_FLOOR_AT_THE_CUP_KERNEL.md
+§4–§5, a relay the ledger already recorded as "Answered by B1483". Both relays are now BANKED, with the retired codex
+lanes' parts declined. The review asserted an absence without sweeping the inbound relays that answered them (E54; ERROR_LEDGER).
+

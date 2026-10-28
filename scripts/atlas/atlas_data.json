@@ -14290,10 +14290,47 @@
     "figure_eight",
     "amphichiral_cp"
    ],
-   "refs": [],
+   "refs": [
+    "S229"
+   ],
    "obstacle": "observable",
-   "obstacle_conf": 3,
+   "obstacle_conf": 4,
    "status": "banked",
+   "domain": "topology"
+  },
+  "B1793": {
+   "slug": "the curvature route for the lepton factor",
+   "motifs": [
+    "choice",
+    "coupling",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "open",
+   "domain": "arithmetic"
+  },
+  "B1794": {
+   "slug": "the objects bundles on the frame of the right parity",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B727",
+    "L250",
+    "S65"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "open",
    "domain": "topology"
   },
   "B179": {
