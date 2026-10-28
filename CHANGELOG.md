@@ -1,5 +1,12 @@
 # Changelog
 
+## W171's rule, committed before its script: W73 per sector at N = 10, in the weave reading (relay §313)
+
+- **The test:** in the surface frame, do the frame's own moves forbid every sector's Yukawa at the counted line's
+  order? Both readings of the twist are taken, with their closure laws on record measured at N = 10 for the first
+  time. The prediction is yes, so W73 per sector would end as an exclusion.
+- **Surfaces.** The rule, the relay, the ledger row, the state page. 0 of 19.
+
 ## W170 recorded: the plan's sealed score fails at its own state, which conserves CP (relay §312)
 
 - **The test:** the plan's stage 5, the nine and J computed once, sealed in advance, at the state the earlier stages

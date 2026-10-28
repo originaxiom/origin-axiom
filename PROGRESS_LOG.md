@@ -21245,3 +21245,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   needs a shape the record's own energy does not pick.
 - **Where it leaves the plan:** no number of the nineteen is derived. The hand-made choices are now named one by one.
   0 of 19.
+
+## 2026-10-28 — the last item on the owner's list, written down before it is run
+
+- **The question:** when the shape of space is averaged over, as one of the record's frames does, can the particles
+  still couple to the Higgs field once the counted line is in place? The rule predicts that the frame's own
+  symmetries forbid every such coupling at that line's order, in both ways of reading the line.
+  0 of 19.
+

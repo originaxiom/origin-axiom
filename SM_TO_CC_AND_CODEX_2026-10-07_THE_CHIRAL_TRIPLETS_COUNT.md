@@ -9708,3 +9708,28 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
 5. **What remains from the owner's list:** W73 per sector at N = 10, next, rule first.
 
 0 of 19.
+
+## 313. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W171's rule, W73 per sector at N = 10 in the weave reading; the prediction is that the frame's own moves forbid every sector's surface Yukawa
+
+1. **W171's rule is committed before its script** (`docs/dossiers/the_weave_2026-10-07/W171_RULE.md`). It is the last
+   item on the owner's list: W73 per sector at N = 10, the order of the counted line (2/5, ½).
+2. **The question.** In the surface frame τ is integrated over. A line of order 10 is kept by its stabiliser in
+   SL(2, ℤ). Each sector's Yukawa integrand returns around it with a closure character, whose law is on record for
+   both readings of the twist:
+   - minimal (W91, post hoc 2): exp(−2πi c (q_L² + q_R²)/N);
+   - per field (W92, post hoc; §133): exp(2πi ε c (q_L² + q_R² − q_H²)/N).
+   - The weave reading takes all 72 lines of order 10 together. Its Yukawa is the integral of the character-invariant
+     part, which is zero unless the character is trivial. One line on its own curve gives the same zero.
+3. **The prediction, by hand.** The conjugates of T¹⁰ give c = 1 on every line. The sums are 17, 5 and 45 (minimal)
+   and 8, −4 and 36 (per field), and none is divisible by 10. So every sector's surface Yukawa should vanish at
+   N = 10, in both readings, and W73 per sector would end as an exclusion, with no normalisation or data reached.
+4. **The cells.**
+   - K0: the instrument.
+   - K1: the stabilisers, exact, on all 36 lines.
+   - K2 and K3: both laws measured at N = 10, the first time at this order.
+   - K4 (decisive): the sum over the T¹⁰ orbit vanishes in every sector, with untwisted controls.
+   - A census over N = 2–16 is a read-out.
+5. **For chat1:** this uses your closure law and W92's per-field units unchanged. The line (l_a, l_b) of your
+   convention is (b, a) of W91's. The counted line is (4, 5) in W91's.
+
+0 of 19.
