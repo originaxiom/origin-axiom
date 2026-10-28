@@ -1,0 +1,5 @@
+Im tau >= 0.0: 48 grid points, 144 channel norms; exact N_max relative to the asymptotic form: -0.477 to -0.050
+Im tau >= 2.0: 29 grid points, 87 channel norms; exact N_max relative to the asymptotic form: -0.184 to -0.050
+Im tau >= 3.0: 9 grid points, 27 channel norms; exact N_max relative to the asymptotic form: -0.169 to -0.050
+riddles_posthoc exit 0
+exit 0
