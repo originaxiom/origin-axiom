@@ -1,5 +1,10 @@
 # Changelog
 
+## S228 B1792 THE OFFSET RECURRENCE AT ORDER 60 — A NECESSARY CONDITION, NOT A RULE; THE LAW MAP'S CURRENCY (2026-10-28)
+
+- **B1792** (sealed 096c97e94; census 1741ae6ba; compare.py's one-line loader fix be216a281 after its first launch failed before any value; comparison 38c4a3bd6; each committed unread, read once): the SM seat's W164 prediction (P-399), sealed and run by main — R_a FAILS (six of the eight predicted order-60 lines carry the six, the mirror pair 1/60 ↔ 7/12 does not at 36.34), R_b HOLDS (none of the other twelve carries); the recurrence is a necessary condition, not a rule: the leptons are exactly shift-invariant (charges −3, 6), the quarks only approximately, and m_u/m_t breaks the failing pair. A READING, no grade sought; the hostile referee's corrections applied (the mechanism, the one-pair specificity, the base-rate odds). The SM seat's third opinion asked.
+- **S228a** (pushed before the seal): B1788's closed form entered on the law map; harvest rows 1431 (the SM seat: no Higgs slot on its record assigns the reading) and 1432. P-399 DONE. 0 of 19.
+
 ## S227 MAIN'S STEP 4 — B1791 Im τ IS NOT FOUND FORCED IN B1656'S FRAME; B1786 SETTLED BY THE SM SEAT'S THIRD OPINION; THE OFFSET RECURRENCE (2026-10-28)
 
 - **B1791** (NEGATIVE; data-free): Im τ is not found forced in the frame — special points, cusp shapes and thread apexes closed on record; the strength-type functionals rise to the cusp; the one line-independent height, the ρ′ Higgs's Petersson peak at Im τ = 2.8406 (9/π at leading order), is set by the η-power convention and lies outside the six's strip (P-398, post hoc); the one-loop potential trades Im τ for a free ratio; the audit lane's relative thresholds do not involve τ as written (the draft's route corrected at its referee). Im τ stays a counted continuous input.

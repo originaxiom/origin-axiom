@@ -53,6 +53,7 @@ sector is listed with its target.
 | B1786's referee null | verification of B1786 (its class-choosing null; 10⁷ fresh targets) | the same data | not a new look |
 | B1788 § 4 | post hoc (closed form, no fit) | the pair (3/10, 1/5) from B1785 § 3 over every slope | only α = 2/5 and 1/10; informs P-384 |
 | B1789's referee | post hoc | D (P-094, 10.58 ± 0.11) against 9·D_frame on the slope-2/5 rows | 2.4% of the rows inside the window; informs P-397 |
+| B1792 | sealed | which slope-2/5 lines of order 60 carry the six (the SM seat's W164 recurrence, P-399) | R_a fails (six of eight predicted carry), R_b holds (no other carries); a READING, no grade sought |
 
 ## The web seat (chat1)
 

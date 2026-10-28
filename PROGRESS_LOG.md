@@ -17969,3 +17969,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - B1791: main's step 4, data-free, refereed before landing — Im τ is a counted continuous input of B1656's frame; the ρ′ Higgs's Petersson peak (2.8406) is a convention's height (P-398). The SM seat's W164 settles B1786 (not PASSED; three computations) and finds the offsets' +1/3 recurrence, main's next sealed test (P-399). 0 of 19.
 - **Landing suite (S227).** full suite 7 784 passed, 3 failed, 68 skipped (23:11, -n 8) on 1d8466f28: two are B805's attachment locks (P-239, standing); the third, B833's routing, caught B1791 missing from the kill graph -- routed, and the affected files rerun green. After the suite and before the push: the web seat's P-323 rule (sealed) and script harvested (row 1430), noted on P-323.
+
+## 2026-10-28 — S228 B1792 (THE OFFSET RECURRENCE AT ORDER 60)
+
+- B1792: R_a fails, R_b holds — every carrier at order 60 is a +1/3 shift of an order-20 carrier, but one predicted pair does not carry; the leptons are shift-invariant, the quarks are not. A READING. The law map current (S228a). 0 of 19.
+- **Landing suite (S228).** full suite 7 788 passed, 2 failed, 68 skipped (23:46, -n 8) on 3f2775190: the two failures are B805's attachment locks (P-239, standing). After the suite and before the push: the SM seat's §299-§300 harvested (row 1433; W165, B1792's blind third opinion, under way).

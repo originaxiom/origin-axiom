@@ -14283,6 +14283,19 @@
    "status": "dormant",
    "domain": "topology"
   },
+  "B1792": {
+   "slug": "the offset recurrence at order 60",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "observable",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B179": {
    "slug": "metallic numbers unified",
    "motifs": [

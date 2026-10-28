@@ -1,0 +1,30 @@
+{
+ "id": "B1792",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1726",
+  "B1741",
+  "B1749",
+  "B1755",
+  "B1786",
+  "B1788"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W164"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's frame at B1667's end; B1741's instrument and measure; c = 3 and the reading by hand",
+  "object": "which slope-2/5 lines of exact order 60 carry the six, at B1749's 125 apexes",
+  "reach": "class",
+  "hypotheses": "the seat's menu; out of sample in the offset only (the same strip apexes)"
+ },
+ "claim_one_line": "THE OFFSET RECURRENCE AT ORDER 60 (P-399; the SM seat's W164 prediction, sealed 096c97e94 and run by main): R_a FAILS -- of the eight predicted lines (the +1/3, +2/3 shifts of B1755's order-20 carriers) six carry the six (47/60-49/60 at 10.70, 7/60-29/60 at 12.46, 41/60-11/12 at 13.78) and the pair 1/60-7/12 does not (36.34, a robust fail); R_b HOLDS -- none of the other twelve lines carries (least 19.97); so the recurrence is a necessary condition, not a rule: the leptons are exactly shift-invariant (charges -3, 6), the quarks only approximately (their twists move by q/3), and m_u/m_t breaks the failing pair; the 0.060% specificity read-out is one pair's. A READING, no grade sought. No input removed. 0 of 19.",
+ "weave_or_thread": "thread (lines chosen by a recurrence stated before the run)"
+}

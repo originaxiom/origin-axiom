@@ -35,8 +35,8 @@ against it.
    Im τ 1.2–12) the six select 2/5 uniquely at every order tested. **Status: the slope is selected by the data, stably
    out of sample, with one number's worth of input (e_up) — not removed.** Still open in step 1: a data-free reason for
    ‖3α‖ = 1/5 (the Higgs at the generator of SU(5)'s centre), and the offset rule (12 of 30 lines at orders 25 and 30, in
-   mirror pairs; the SM seat's W164 finds the carriers recurring under b → b + 1/3 across orders — a sealable prediction
-   for order 60, P-399, main's next test). Inputs it would remove: the slope and the offset (two).
+   mirror pairs; the SM seat's W164 finds the carriers recurring under b → b + 1/3 across orders; B1792 at order 60: a
+   necessary condition, not a rule — the leptons are shift-invariant, the quarks are not, and m_u/m_t breaks one pair). Inputs it would remove: the slope and the offset (two).
 2. **The lepton factor c = 3** (P-294). **Done, B1789 (NEGATIVE):** not derived in the frame as built. On the slope-2/5
    family the frame's second-generation lepton/down ratio is 1 at leading order, and a net fibre flux is excluded. The
    band's first-generation spread means exact c = 3 does not force D = 9. The route left is an insertion that sees the

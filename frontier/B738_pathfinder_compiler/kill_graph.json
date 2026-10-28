@@ -12105,5 +12105,29 @@
    "reach": "class"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1792",
+  "claim_killed": "That the slope-2/5 lines carrying the six at an order divisible by 3 are exactly the +1/3 shifts of the carriers at a third of the order (the SM seat's W164 recurrence), i.e. that the six depend on the line through 3 Re w alone.",
+  "kill_form": "Sealed (B1792; 096c97e94): at order 60, six of the eight predicted lines carry and the mirror pair 1/60-7/12 does not (36.34); none of the twelve others carries (R_b holds). The leptons are exactly shift-invariant; the quarks only approximately; m_u/m_t breaks the pair.",
+  "hatch": "an offset rule from the quark sector's twists (their q/3 shifts), not from the Higgs's 3w; the recurrence kept as a necessary condition",
+  "priority": "low",
+  "routed_from": "main, at banking (2026-10-28), for tests/test_b833_negative_routing.py",
+  "note": "R_b held: every carrier is a shift of an order-20 carrier. The 0.060% specificity is one pair's.",
+  "evidence_consulted": [
+   "B1749",
+   "B1755",
+   "B1786",
+   "B1788"
+  ],
+  "faces_consulted": [],
+  "fact_computed": "the twenty slope-2/5 lines of order 60 at 125 apexes (2 500 rows) and their comparison by B1741's measure; the referee's independent re-implementation and sector analysis",
+  "scope": {
+   "frame": "B1656's frame at B1667's end; B1741's measure",
+   "hypotheses": "the same strip apexes; out of sample in the offset only",
+   "object": "the offset recurrence",
+   "reach": "class"
+  },
+  "weave_or_thread": "thread"
  }
 ]
