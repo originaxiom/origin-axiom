@@ -1,0 +1,13 @@
+Q1 the levers ln r(L_max) - ln r(L_2) over G: median (10th to 90th percentile)
+   up   S   second generation 1.026 (0.180 to 1.337);  first generation 0.301 (-0.005 to 1.137)
+   up   S~  second generation 0.882 (0.373 to 1.608);  first generation 0.874 (-0.226 to 1.587)
+   down S   second generation 0.787 (0.555 to 0.817);  first generation -0.201 (-0.261 to 0.071)
+   down S~  second generation 0.832 (0.602 to 0.868);  first generation -0.061 (-0.297 to 0.323)
+   lep  S   second generation 0.783 (0.540 to 0.816);  first generation -0.202 (-0.268 to 0.078)
+   lep  S~  second generation 0.837 (0.599 to 0.874);  first generation -0.041 (-0.302 to 0.369)
+Q2 (S~, S, S): the six levers do not all share one sign at 0.8938 of the G points with finite values
+   and at 480 of the 480 base points
+   the fraction of G points with a negative lever, per ratio: {'up2': 0.0365, 'up1': 0.1362, 'down2': 0.0, 'down1': 0.8435, 'lep2': 0.0, 'lep1': 0.8435}
+Q3 at the searches' minima (480 base points): the median residual (L_2 at the minimum minus L_max) per ratio: {'up2': -0.5214, 'up1': -0.2378, 'down2': -0.5792, 'down1': 0.6383, 'lep2': -0.5854, 'lep1': 0.6397}
+   residuals not all of one sign at 480 of 480; flagged among them 110
+horocycle posthoc exit 0
