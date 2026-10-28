@@ -9733,3 +9733,35 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    convention is (b, a) of W91's. The counted line is (4, 5) in W91's.
 
 0 of 19.
+
+## 314. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W171, W73 per sector at N = 10: the frame's own moves forbid every sector's surface Yukawa in both readings, so W73 per sector ends as an exclusion; main's B1796 read, with thanks
+
+1. **W171 ran as its rule (§313) fixed,** with one failed launch disclosed (a division by zero at an identically zero
+   channel, fixed before the run). The rule is at 7e63c09dc and the script at 318022bf6; the fix is 759cb31eb and the
+   output a01a1f1a7, committed unread. The record is in NOTE, section W171.
+2. **The result (COMPUTED).**
+   - **K1, exact:** on all 36 lines of order 10 the conjugate g⁻¹T¹⁰g keeps the line with c = 1. So every sector's
+     character is non-trivial in both readings: minimal 3, 5 and 5 tenths of a turn, per field 8, 6 and 6.
+   - **K4 (decisive):** the orbit sums at (1, 0) vanish, to 7.8 × 10⁻⁶¹ (minimal) and 1.2 × 10⁻⁴⁹ (per field). The
+     untwisted controls give exactly ten times the value.
+   - **K0 and K3 held.** W92's per-field law holds at N = 10, on T¹⁰ and on three threads, to 3 × 10⁻⁴⁰ or better.
+   - **K2 failed as worded on two instrument slips.**
+     - The rule copied W91 post hoc 2's exp(−2πi c Q/N), which §133 had already named the ε = −1 case.
+     - The "never 1" test was applied to cycle products, where a 2-cycle with χ = −1 gives 1.
+     - Post hoc (labelled), the minimal law exp(2πi ε c Q/N) holds on all 108 rows to 8 × 10⁻⁶⁰, with no character
+       equal to 1. **For chat1:** the minimal reading's closure law carries ε, as the per-field one does.
+3. **What it means (a READING).**
+   - At the counted line's order the surface frame has no Yukawa coupling in any sector, in either reading: the
+     integral over the modular curve sees only the character-invariant part, and that part is zero. Thread and weave
+     agree.
+   - **W73 per sector ends as an exclusion.** No normalisation or data are reached. The owner's list is done.
+   - **The census over N = 2–16, a read-out.** The minimal reading keeps all three sectors at no order. The per-field
+     reading keeps all three only at N = 2 and 4, where, by B1703's table, the sectors do not all split. So, given these
+     readings and laws, no order gives all three a non-zero surface Yukawa while keeping them apart.
+4. **Main's B1796 read** (819f1e4f6, the commit message and FINDINGS.md), with thanks for checking W130 and W123 from
+   definitions. Main's scope is right: the field's existence (GENESIS FK15), the type identification, uniform end data and the
+   least remainder are not derived here, and W123's table is the seat's exact second route, post hoc and labelled so.
+   Nothing is asked of this seat, and none is answered. B1795's outputs (195d74e2f) are rowed; this seat waits for
+   main's read.
+
+0 of 19.

@@ -1,5 +1,17 @@
 # Changelog
 
+## W171 recorded: at the counted line's order the frame's own moves forbid every sector's surface Yukawa (relay §314)
+
+- **The test:** W73 per sector at N = 10, in the weave reading. Both readings of the twist are taken, with their
+  closure laws on record.
+- **The result:** on all 36 lines of order 10 every sector's character is non-trivial, and the orbit sums vanish to
+  10⁻⁴⁹. So W73 per sector ends as an exclusion, and the owner's list is done.
+  - One failed launch is disclosed. K2 failed as worded on two instrument slips and holds post hoc.
+  - A census over N = 2–16 finds no order that gives all three sectors a non-zero surface Yukawa while keeping them
+    apart.
+- **Surfaces.** NOTE section and row, the lock test, the relay, the ledger rows (main's B1796 and B1795 outputs), the
+  state page. 0 of 19.
+
 ## W171's rule, committed before its script: W73 per sector at N = 10, in the weave reading (relay §313)
 
 - **The test:** in the surface frame, do the frame's own moves forbid every sector's Yukawa at the counted line's

@@ -7726,6 +7726,95 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W171. W73 per sector at N = 10, the counted line's order, in the weave reading: the frame's own moves forbid every sector's surface Yukawa, in both readings of the twist. On every one of the 36 lines of order 10 the stabiliser carries a non-trivial character for up, down and leptons, and the sum over the orbit vanishes to 10⁻⁴⁹. W73 per sector ends as an exclusion. K0, K1, K3 and K4 as predicted; K2 failed as worded on two instrument slips, and its content holds post hoc (`the_surface_frame_at_order_ten.py`; `W171_RULE.md`; post hoc `the_surface_frame_at_order_ten_posthoc.py`)
+
+**Why.** The last item on the owner's list (relays §304 and §312). W73 left one route to values in the surface frame:
+give each sector its own coupling, fixed before any data. It was parked on the line's order (relay §115). Stage 2
+counted the line (2/5, ½), of order 10. Both readings of the twist have their pieces and closure laws on record:
+- the minimal reading, W91's coupling vector with W72's untwisted units;
+- the per-field reading, W92's dressed units (the owner's ruling, relay §133).
+
+**The order.**
+- The rule (`W171_RULE.md`, 7e63c09dc) was committed and pushed before the script existed.
+- The script (318022bf6) was committed before its run. Its helpers were smoke-tested on lines of order 7 only.
+- **One failed launch, disclosed.** It stopped after 6 s in K2 with a division by zero. Only its traceback was read.
+  - By hand, the cause: the up sector's k_d = 5 puts 5w on a half-period of every line of order 10, where one even
+    theta vanishes. So one triplet channel of V_up is identically zero there.
+  - Fixed (759cb31eb), as W91's U4 treats such channels: they are reported, and their cycles and orbit sums are not
+    taken. No cell, prediction or threshold changed.
+- **The run.** One run, 918 s. Its output (a01a1f1a7) was committed unread, after a check of the exit, failures, NaN,
+  paths and warnings, then read once.
+- **One labelled post hoc** (e7fb74c76, output 09ed4f3d6), for K2.
+
+**The result (COMPUTED; K0, K1, K3 and K4 as predicted; K2 failed as worded and holds post hoc).**
+- **K0, the instrument.** W91's generator agrees with direct theta evaluation to 1.3 × 10⁻⁵⁹. W92's dressing agrees
+  with direct evaluation to 1.7 × 10⁻⁵³ in 108 cases, every charge the sectors use.
+- **K1, the stabilisers (exact).**
+  - On all 36 lines of order 10, the conjugate g⁻¹T¹⁰g keeps the line with ε = 1 and c = 1.
+  - So no character is trivial: in tenths of a turn, the minimal reading's are 3, 5 and 5 (up, down, leptons), and the
+    per-field reading's are 8, 6 and 6.
+  - The search over [−30, 30] finds an element with c prime to 10 on every line: T¹⁰ on the 20 lines with a prime to
+    10, and |C| = 2, 5 or 10 on the other 16.
+- **K2, the minimal law numerically: FAILED as worded.** The worst error against the rule's law is 1.9, and some cycle
+  product equals 1. Two instrument slips, found at the read-out:
+  - **The law's sign.** The rule took W91 post hoc 2's form exp(−2πi c Q/N). Relay §133 had already named that form the
+    ε = −1 case. On every ε = +1 row the up sector reads 0.7 turns where that form says 0.3, and the two ε = −1 rows
+    agree with it. For down and leptons, cQ/N is a half turn, so the sign does not show.
+  - **The "never 1" test** was applied to cycle products. A 2-cycle with χ = −1 multiplies to 1. That happens on 28 down
+    and lepton rows, whose 1-cycles and identity channel read χ = −1.
+  - **Post hoc** (labelled; K2 rerun at the same lines, elements, points and precision): with exp(2πi ε c Q/N), the law
+    holds on all 108 rows to 8.2 × 10⁻⁶⁰, and it is τ-independent to 4 × 10⁻⁶⁰. No character equals 1. The rule's form
+    misses on 34 rows, all of them up sector with ε = +1.
+  - The up sector has one triplet channel identically zero on every line, as found at the failed launch.
+- **K3, the per-field law numerically (as predicted).**
+  - On T¹⁰ at the 20 lines, the Y integrands return with exp(2πi ε c (q_L² + q_R² − q_H²)/10) to 8.9 × 10⁻⁴⁹, and the
+    K norms are closed to 2 × 10⁻⁴⁹.
+  - W92's V3 at N = 10, on the threads LR⁶, LR¹⁰ and LR¹⁶ (18 rows): the law holds to 3.2 × 10⁻⁴⁰. The +q_H² form misses
+    wherever it differs, and no row closes.
+  - No phase equals 1 where c is prime to 10.
+- **K4, the selection rule's consequence (decisive; as predicted).** At the line (1, 0), each sector's integrand is
+  summed over τ + 10j, j = 0..9:
+  - **minimal:** every channel's sum, over its untwisted multiplier, is at most 7.8 × 10⁻⁶¹ of Σ|·|. The up sector's
+    zero channel is not tested;
+  - **per field:** every Y integrand's sum is at most 1.2 × 10⁻⁴⁹;
+  - the controls (all charges zero, and the reference pair) give exactly ten times the value.
+
+**The read-outs.**
+- **The census over N = 2..16** (exact; c = ±1 is attained on every line at every order). Survivors:
+  - **N = 2 and 4: all three sectors survive in the per-field reading**, and none in the minimal;
+  - N = 3 and 9: the leptons in both readings;
+  - N = 5: down and leptons, minimal;
+  - N = 6 and 12: the leptons, per field;
+  - N = 8: up, per field;
+  - N = 15: the leptons, minimal;
+  - **N = 7, 10, 11, 13, 14 and 16: none.**
+  - So the minimal reading keeps all three sectors at no order N ≥ 2. The per-field reading keeps all three only at
+    N = 2 and 4.
+- **The counted line (4, 5)** (B1656's (2/5)τ + ½): g⁻¹T¹⁰g = (−9, 10; −10, 11) with c = 1, and the searched element
+  is (−9, −5; 2, 1) with c = 7. Its characters are 0.9 turns (up) and ½ (down and leptons), measured, minimal.
+
+**What it shows (a READING on the computed facts).**
+- **At the counted line's order the surface frame has no Yukawa coupling at all.** Each sector's integrand carries a
+  non-trivial character of the stabiliser of every line of order 10, in both readings of the twist. Its
+  character-invariant part, the only part the integral over the modular curve sees, is zero. This is a selection rule
+  of the frame's own moves, and it holds thread and weave alike: one line on its own curve gives the same zero.
+- **W73 per sector at N = 10 ends as an exclusion.** No normalisation (H-end) and no data are reached, because there is
+  nothing to normalise.
+- **The census removes the order's conditioning, for survival.** The minimal reading never keeps all three sectors. The
+  per-field reading keeps all three only at N = 2 and 4, and those orders do not split the sectors: at N = 2 all three
+  coincide, and at N = 4 down equals the leptons, by B1703's table, which is the four-channel frame's (a by-hand
+  reading, not computed here).
+  - So, given these two readings and the closure laws on record, **no order lets the surface frame give all three
+    sectors a non-zero Yukawa while keeping them apart.**
+- **The fibre frame is untouched.** There τ is fixed and not integrated (B1656; W166–W170).
+- **Weave or thread.** A weave result given the counted order: all 72 lines of order 10, every sector, both readings,
+  the orbit under every move, none hand-picked. The census takes every order to 16. The order 10 is the counted line's,
+  and the line is a counted choice.
+
+**For the look ledger:** none. No data were read.
+
+0 of 19.
+
 ## W170. The plan's stage 5, the score, sealed: at the state stages 2 and 4 select (the line (2/5, ½) at Re τ = 0, the height fitted), with the Higgs pair sealed from stage 3 and its conjugation, the nine fail far from the bar (least χ²_nine 1 404 against 20.09; the six alone 898). J vanishes exactly there: the potential's own state conserves CP. At the strip rows the same pair reaches 212.5 at best. Every cell as predicted; the plan ends as its own §5 expected (`the_sealed_score.py`; `W170_RULE.md`)
 
 **Why.** The plan's stage 5: one sealed evaluation of the nine and J, at the state stages 2 and 4 select, with the Higgs
@@ -14281,6 +14370,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W171 | COMPUTED (the rule first; one run after one failed launch; K0, K1, K3 and K4 as predicted; K2 failed as worded on two instrument slips, holds post hoc); a weave result given the counted order | W73 per sector at N = 10 in the weave reading: on all 36 lines of order 10 the stabiliser carries a non-trivial character for every sector in both readings (minimal 3, 5, 5 tenths; per field 8, 6, 6); the orbit sums vanish to 10⁻⁴⁹; every sector's surface Yukawa is zero, so W73 per sector ends as an exclusion; census N = 2–16: the minimal reading keeps all three nowhere, the per field only at N = 2 and 4, which do not split them |
 | W170 | COMPUTED (the rule first; parts V and S each run once; every cell as predicted); the plan's stage 5 | at the state stages 2 and 4 select (the line (2/5, ½) at Re τ = 0, the height fitted over 2.10–3.20), with the sealed pair H_u = K_up⁻¹·DR, H_d = conj(K_d⁻¹·DR): least χ²_nine 1 404 (six 898) against 20.09; J = 0 exactly (the mirror's fixed point conserves CP); at the strip rows the same pair reaches 212.5 at best; **the plan ends as its §5 expected: no flavour number derived, the counted choices named** |
 | W169 | COMPUTED (the rule first; one run; S0 and S3 as predicted; S2 failed as its 15% prior expected; S1 failed as worded); a frame result at a counted line, the plan's stage 4 | on the line (2/5, 1/10)'s T-orbit, the frame's own one-loop potential holds Re τ (curvature ratio 3–4 × 10⁻⁴, against about 10⁻⁶ at W154's trivial line) at X = 1, the mirror's fixed point (the line (2/5, ½) at Re τ = 0), at every row's height, 0.35–0.76 from every row; the bosons ×2, ×5 do not move it; V rises with height at this line; **Re τ is a second counted number** |
 | W168 | COMPUTED (the rule first; one run; every cell as predicted; a labelled post hoc); a third opinion, thread-and-frame | chat1's P-323 on own instrument by a five-point Laplacian with step halving: the closed form with constant 1 (both readings); the T-step 19π/50 and b + 1 −2π/5 exact; all 800 slope-2/5 combinations NOT HARMONIC (median ratio 1.001); θ_M HARMONIC on the twelve paired lines; the horocycle moves θ_H; chat1's four read-out rows reproduce to every digit (post hoc for B1749's); θ̄ stays an input; agrees with chat1's grading |

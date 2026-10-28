@@ -5374,3 +5374,42 @@ def test_w170_the_sealed_score():
     assert d["the strip rows (read-out, a look)"]["below 21.67"] == 0
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W170. The plan's stage 5, the score, sealed" in note
+
+
+def test_w171_the_surface_frame_at_order_ten():
+    """W171: K0, K1, K3 and K4 as predicted, K2 failed as worded and holds post hoc; in process, every stored
+    conjugate g^-1 T^10 g checked to lie in SL(2, Z) and to keep its line with c = 1, the characters recomputed as
+    non-trivial, and the census's survivors recomputed as the orders dividing each sum"""
+    from math import gcd
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_surface_frame_at_order_ten.json").read_text(encoding="utf-8"))
+    ph = json.loads((here / "the_surface_frame_at_order_ten_posthoc.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"K0": True, "K1": True, "K2": False, "K3": True, "K4": True}
+    assert "run_failed" not in d and d["warnings"] == []
+    assert ph["K2 post hoc"]["holds"] and ph["K2 post hoc"]["worst law error"] < 1e-30
+    assert not ph["K2 post hoc"]["some character equal to 1"] and len(ph["K2 post hoc"]["rows"]) == 108
+    rows = d["K1"]["rows"]
+    lines = {tuple(r["line (a, b)"]) for r in rows}
+    assert len(lines) == 36 and all(gcd(gcd(a, b), 10) == 1 for a, b in lines)
+    qmin, qpf = (17, 5, 45), (8, -4, 36)
+    for r in rows:
+        (a, b), (A, B, C, D) = r["line (a, b)"], r["g^-1 T^10 g"]
+        assert A * D - B * C == 1
+        assert ((a * A + b * C) % 10, (a * B + b * D) % 10) == (a, b)
+        pair = a * (a * B + b * D) - b * (a * A + b * C)
+        assert pair % 10 == 0 and (pair // 10) % 10 == 1
+        assert all((q % 10) != 0 for q in qmin + qpf)
+    census = d["R"]["census over N = 2..16"]
+    for n, v in census.items():
+        n = int(n)
+        want = sorted([f"minimal {s}" for s, q in zip(("up", "down", "leptons"), qmin) if q % n == 0]
+                      + [f"per field {s}" for s, q in zip(("up", "down", "lepton"), qpf) if q % n == 0])
+        assert v["survivors"] == want and v["c = +-1 on every line"]
+        assert v["all three survive, minimal"] is False
+        assert v["all three survive, per field"] == (n in (2, 4))
+    assert census["10"]["survivors"] == []
+    k4 = d["K4"]
+    assert k4["worst twisted sum, minimal"] < 1e-25 and k4["worst twisted sum, per field"] < 1e-25
+    assert k4["controls give ten times the value"]
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W171. W73 per sector at N = 10, the counted line's order, in the weave reading" in note

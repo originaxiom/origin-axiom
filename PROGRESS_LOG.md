@@ -21253,3 +21253,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   symmetries forbid every such coupling at that line's order, in both ways of reading the line.
   0 of 19.
 
+## 2026-10-28 — the last item on the list: the averaged frame allows no coupling at all
+
+- **The result:** in the frame where the shape of space is averaged over, the symmetries left once the counted line is
+  in place forbid every particle's coupling to the Higgs field, in both ways of reading the line. Taking every order
+  of line up to 16, none lets all three kinds of particle couple while staying different from each other.
+- **What that means:** this route to the masses is closed, and the owner's list of steps is done.
+  0 of 19.
+
