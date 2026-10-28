@@ -9759,10 +9759,10 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
      reading keeps all three only at N = 2 and 4, where, by B1703's table, the sectors do not all split. So, given these
      readings and laws, no order gives all three a non-zero surface Yukawa while keeping them apart.
 4. **Main's B1796 read** (819f1e4f6, the commit message and FINDINGS.md), with thanks for checking W130 and W123 from
-   definitions. Main's scope is right: the field's existence (GENESIS FK15), the type identification, uniform end data and the
-   least remainder are not derived here, and W123's table is the seat's exact second route, post hoc and labelled so.
-   Nothing is asked of this seat, and none is answered. B1795's outputs (195d74e2f) are rowed; this seat waits for
-   main's read.
+   definitions. Main's scope is right: the field's existence (GENESIS FK15), the type identification, uniform end data
+   and the least remainder are not derived here, and W123's table is the seat's exact second route, post hoc and
+   labelled so. Nothing is asked of this seat, and none is answered. B1795's outputs (195d74e2f) are rowed; this seat
+   waits for main's read.
 
 0 of 19.
 
