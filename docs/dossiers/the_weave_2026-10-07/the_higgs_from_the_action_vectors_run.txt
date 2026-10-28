@@ -1,0 +1,20 @@
+{
+ "rows": 38,
+ "K1 (part V)": {
+  "no target file read": true,
+  "every rule form positive definite": true,
+  "largest condition number": 3.92681579250184,
+  "rows' configurations": [
+   [
+    [
+     "St",
+     "S",
+     "S"
+    ],
+    3,
+    "L_max"
+   ]
+  ]
+ },
+ "vectors sha256": "675327ea800c4a5f6fb2f67ce7cf38d91646b7cc7bee0323b041d3cd60e12d33"
+}
