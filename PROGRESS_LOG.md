@@ -21280,3 +21280,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   for the one thing that would break it.
   0 of 19.
 
+## 2026-10-28 — the first probe of the riddle, written down before it is run
+
+- **The question:** the frame's own energy picks a mirror-symmetric shape, where CP is conserved. How firmly? If only
+  weakly, the frame does not really decide that number, and the world's value is a choice nothing forced makes.
+  0 of 19.
+

@@ -1,5 +1,11 @@
 # Changelog
 
+## W172's rule, committed before its script: the riddle's horn 1 at the counted line (relay §317)
+
+- **The test:** the mirror lemma for every content, how firmly the frame's own potential holds Re τ at the counted
+  line, whether any variation breaks CP there, and the price of the data's Re τ.
+- **Surfaces.** The rule, the relay, the ledger rows (main's B1800), the state page. 0 of 19.
+
 ## THE RIDDLE: why the record removes no input and matches no data (a reading; relay §316)
 
 - **The owner's question,** and the answer as a reading: what the principle forces is symmetric under the moves and

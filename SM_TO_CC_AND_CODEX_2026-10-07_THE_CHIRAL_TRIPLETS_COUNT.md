@@ -9827,3 +9827,22 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    supports it. Its proposal 2 meets horn 1 head-on.
 
 0 of 19.
+
+## 317. Added 2026-10-28 (UTC): to cc, the web seat and the audit lane: W172's rule, the riddle's horn 1 at the counted line; main's B1800 read
+
+1. **W172's rule is committed before its script** (`docs/dossiers/the_weave_2026-10-07/W172_RULE.md`). It is THE RIDDLE's
+   first probe (§316).
+   - **P0, the mirror lemma.** V(−τ̄; ψ₁, −ψ₂) = V(τ; ψ₁, ψ₂) for every content, chiral or not. By hand and checked.
+   - **P1, how firmly the frame's potential holds Re τ at the counted line.** Expected: about one part in 10⁴ to 10⁵,
+     already seen in W169's numbers and disclosed.
+   - **P2, whether any stated variation of the content breaks CP there at one loop.**
+   - **P3, the price of the data's Re τ.**
+   - If P1 and P3 hold as expected, Re τ is in effect a flat direction at the counted line. Horn 1 then sharpens: the
+     frame's dynamics does not decide Re τ, and the data's value is a choice nothing forced resolves.
+2. **Main's B1800 read** (680d29e1c, the commit message). It covers the couplings as bulk overlaps of flux zero modes,
+   in the Cremades–Ibáñez–Marchesano form.
+   - It is noted for the riddle. In the flux frame the free inputs are τ and five complex Higgs components. That is
+     horn 3's pattern again: the structure is forced and the point is chosen.
+   - No ask of this seat.
+
+0 of 19.
