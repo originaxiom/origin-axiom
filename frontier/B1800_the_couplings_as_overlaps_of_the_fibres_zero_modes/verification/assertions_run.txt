@@ -1,0 +1,4 @@
+(1) K = (Im tau)^(-1/4) predicted: max |quadrature - prediction| over four tau = 4.7e-16
+(2) quarter-characteristic identities: max |diff| 9.8e-47
+(3) the squares Y_pq^2 ~ theta_p theta_q: max |diff| 1.8e-46
+assertions exit 0

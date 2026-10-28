@@ -1,5 +1,9 @@
 # Changelog
 
+## S233 B1800 — THE COUPLINGS AS BULK OVERLAPS OF FLUX ZERO MODES (L251 AS STATED) (2026-10-28)
+
+- **B1800** (PROVED; data-free): with flux-one matter on the three even characteristics and a flux-two Higgs (Cremades–Ibáñez–Marchesano modes), every allowed overlap is (Im τ)^(−1/4) ϑ[(a_p − a_q + m)/2, b_p − b_q](0, 2τ) up to a fixed phase (the known closed form, re-derived and checked to 5 × 10⁻¹⁶); Wilson-line conservation gives B1636's parity pattern, but Y_pq² ∝ θ_p(τ)θ_q(τ), i.e. Y_pq ∝ η^{3/2}θ_r^{−1/2} — not B1636's θ_r², for any fixed Higgs and any matter Wilson lines (a q-expansion proof); B1642's residue coupling has θ_r² but is antisymmetric. In the flux frame a sector's coupling depends on its legs' Wilson-line difference (q_L − q_R)w at level 2 — not B1656's flat-frame coupling. The referee's blocking finding (L251 had been answered in the point frame by B1642/B1644/B1653; its status line was stale) and eight corrections applied; L251's status line and B1799's "retired ruled branch" phrase get dated notes. P-403 noted. 0 of 19.
+
 ## S232 B1795, B1797, B1798, B1799 — NO DOUBLET–TRIPLET SPLIT; GENESIS v1.59 (THE CUSP UNIT REDUCED); THE SIX NOT PASSED ONCE c IS PRICED; THE NEUTRINO'S SELF-PAIRING (2026-10-28)
 
 - **B1795** (P-325; sealed 24b9e468d, outputs committed unread at 195d74e2f; NEGATIVE for a structural split): det M vanishes for neither vector-like pair on any of 286 lines at three points; on the six's slope-2/5 carriers the two pairs' light members agree within a factor 7 (−2·2/5 ≡ 3·2/5 mod 1); off that slope they differ by line without a rule; the strip's light members are the Higgs section's near-degeneracy (B1659's law). With the singlet typed as the frame's Higgs section, the frame does not solve SU(5)'s doublet–triplet problem. The referee's blocking finding (the post hoc "triplet as light as doublet" was slope-2/5 only) applied; the pre-seal peek's extent corrected (14 lines, not 2; no outcome affected).

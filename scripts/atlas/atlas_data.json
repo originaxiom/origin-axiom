@@ -14381,7 +14381,8 @@
    "slug": "genesis v1 59",
    "motifs": [
     "monoid",
-    "z3_generation"
+    "z3_generation",
+    "wrt_quantum"
    ],
    "refs": [],
    "obstacle": "units_scale",
@@ -14409,14 +14410,17 @@
     "choice",
     "coupling",
     "figure_eight",
+    "eisenstein",
     "z3_generation",
-    "torsion"
+    "torsion",
+    "wrt_quantum"
    ],
    "refs": [
-    "L221"
+    "L221",
+    "S233"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 9,
+   "obstacle_conf": 10,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -14464,6 +14468,25 @@
    "obstacle": null,
    "obstacle_conf": 0,
    "status": "open",
+   "domain": "arithmetic"
+  },
+  "B1800": {
+   "slug": "the couplings as overlaps of the fibres zero modes",
+   "motifs": [
+    "choice",
+    "coupling",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L251"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B180": {

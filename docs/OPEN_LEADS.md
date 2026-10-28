@@ -3865,7 +3865,7 @@ instrument) with τ and one Wilson-line modulus.
 
 **Why it matters.** It replaces the count 2 + Σ(2d − 1) (B1635, under the unstated modular-flavour ansatz) by τ plus
 Wilson-line moduli, gives τ one role, and is the first route on the record where the couplings' coefficients are computed
-rather than free. **Status:** registered, not computed. Next after the W46 arc.
+rather than free. **Status:** registered, not computed. Next after the W46 arc. **[Dated note, 2026-10-28 (S233), B1800:** this status line was stale — the currency note of 2026-10-15 records L251 computed in the fibre's point frame (B1642, B1644: a rank-two residue coupling, not B1636's matrix; B1653). B1800 computes it as stated, as bulk overlaps of flux modes: Wilson-line conservation gives (a); (b) fails exactly — the overlaps are Y_pq² ∝ θ_pθ_q, i.e. Y_pq ∝ η^{3/2}θ_r^{−1/2}, not θ_r², for any fixed Higgs and any matter Wilson lines; (c) τ and five complex Higgs components. P-403's flux design starts there.]
 
 ## L252 — THE McKAY LADDER: LEVELS 3, 4, 5 ↔ 2T, 2O, 2I ↔ E₆, E₇, E₈, FOUND THREE TIMES AND NEVER UNIFIED (registered 2026-10-13, after B1640; source: the frame audit's patterns referee)
 

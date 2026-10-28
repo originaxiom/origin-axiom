@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1503 of 1503 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1504 of 1504 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1025)
+## PROVED (1026)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1037,6 +1037,7 @@
 | `B1796` | THE CUSP UNIT FROM THE FIELD, CHECKED ON MAIN (C8; P-288, P-298, R71-3; PROVED, a verification from definitions and with main's own code): the fibre's point (3,3,3), a Fuchsian character (the modular torus, commutator [[-1,0],[-6,-1]]), preserves no positive-definite Hermitian form, so its Higgs field is nowhere zero (|Phi| = 1/2 in the seat's convention; convention-free, 2i tr(Phi^Phi*) is the hyperbolic area form); m units of end data on the three eigenlines give a weight-3/2 Higgs space of dimension max(0, m_P + m_M + m_N) on every vector computed (64 on main, 1 345 more and an independent theta-polynomial route at the referee; the sum m <= 0 half proved), agreeing with the seat's exact route, so O(n delta) gives 3n; FK10's unit reduces to the field's existence (FK15), a type identification, uniform end data and the least remainder, given Lambda and the hand, none derived. No input removed. 0 of 19. |  | 1 |
 | `B1797` | GENESIS v1.59 (P-288; the completion map's C8, on B1796): FK10's tagged unit reduced to the field's existence (FK15) and three further links -- the type identification (the fibre's End E x K against a weight-3/2 form of rho_T), uniform end data, the least remainder -- none derived on the record, given Lambda and the hand; the dimension max(0, sum m) recorded with its proved parts (0 for sum m <= 0; 3n for n >= 0 uniform units); B1700's reading tag and FK11 kept; FK15 gains a pointer to its existence half. No status cell changes; FK10 stays a tagged postulate. 0 of 19. |  | 1 |
 | `B1799` | THE NEUTRINO'S SELF-PAIRING AT THE CANONICAL END (P-283; data-free): R1 = 0 identically for equal twists (the residue is v_x v_y^T / theta1'(0)), so with a traceless partner the coupling is exactly symmetric; on the 286 census lines at three points neither Majorana pairing's det M vanishes (m1 != 0, protection lifted), but the Weinberg pair's det M vanishes on CP lines (8 order-8 lines at Re tau = 0, 18 at Re tau = 1/2) and at isolated points; the Dirac L nu^c agrees with B1716's law on all 858 rows (zeros on the 54 lines where -3w has order 4, the electron's zero lines), so a pure type-I seesaw's lightest neutrino is massless on the census exactly where the electron is, and on no slope-2/5 line (the law's condition never fires there). No input removed. 0 of 19. |  | 1 |
+| `B1800` | THE COUPLINGS AS BULK OVERLAPS OF FLUX ZERO MODES (L251 as stated; data-free): every allowed overlap is (Im tau)^(-1/4) theta[(a_p - a_q + m)/2, b_p - b_q](0, 2tau) up to a fixed phase (CIM's closed form, re-derived and checked on main); Wilson-line conservation gives B1636's parity pattern, but Y_pq^2 = (Im tau)^(-1/2) kappa_pq theta_p theta_q, i.e. Y_pq ~ eta^(3/2) theta_r^(-1/2), not B1636's theta_r^2 for any fixed Higgs and any matter Wilson lines (a q-expansion proof); B1642's residue coupling has theta_r^2 but is antisymmetric; the overlap depends on the legs' Wilson-line difference (q_L - q_R)w, at level 2, and is not B1656's flat-frame coupling. No input removed. 0 of 19. |  | 1 |
 
 ## NEGATIVE (374)
 

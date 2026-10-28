@@ -1,0 +1,7 @@
+i       worst |diff| over 6 tau: 3.44e-41
+ii      worst |diff| over 6 tau: 1.28e-41
+c32     worst |diff| over 6 tau: 1.72e-41
+c34     worst |diff| over 6 tau: 5.74e-41
+c24     worst |diff| over 6 tau: 1.23e-41
+jacobi  worst |diff| over 6 tau: 1.43e-40
+ref_identities exit 0

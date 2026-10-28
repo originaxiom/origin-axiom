@@ -1,0 +1,7 @@
+band Im 0.7-2.2: positive control 1.1e-16
+  even characteristics, best over 6 labellings: 0.0942
+  continuous Wilson lines: grid best 0.00063; refined best 0.000275 at c2=(-0.0000,0.5000) c4=(0.5000,0.5000) labelling {'32': '2', '34': '3', '24': '4'}
+wide Im 0.4-4: positive control 7.8e-16
+  even characteristics, best over 6 labellings: 0.2425
+  continuous Wilson lines: grid best 0.00371; refined best 0.002178 at c2=(0.0178,0.5540) c4=(0.3010,0.3553) labelling {'32': '2', '34': '3', '24': '4'}
+ref_b_joint exit 0

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1503** |
-| words of findings prose | **1,221,006** |
-| test lock files referenced | **918** |
-| arcs carrying an authored verdict | **1503** (100.0 %) |
+| research arcs with findings | **1504** |
+| words of findings prose | **1,222,770** |
+| test lock files referenced | **919** |
+| arcs carrying an authored verdict | **1504** (100.0 %) |
 | recorded closures | **850** (683 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1025 |
+| PROVED | 1026 |
 | NEGATIVE | 374 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1799`** (1674 words, 1 locks)  
-THE NEUTRINO'S SELF-PAIRING AT THE CANONICAL END (P-283; data-free): R1 = 0 identically for equal twists (the residue is v_x v_y^T / theta1'(0)), so with a traceless partner the coupling is exactly symmetric; on the 286 census lines at three points neither Majorana pairing's det M vanishes (m1 != 0, protection lifted), but the Weinberg pair's det M vanishes on CP lines (8 order-8 lines at Re tau = 0, 18 at Re tau = 1/2) and at isolated points; the Dirac L nu^c agrees with B1716's law on all 858 rows (zeros on the 54 lines where -3w has order 4, the electron's zero lines), so a pure type-I seesaw's lightest neutrino is massless on the census exactly where the electron is, and on no slope-2/5 line (the law's condition never fires there). No input removed. 0 of 19.  
-`B1799_the_neutrinos_self_pairing_at_the_canonical_end/FINDINGS.md`
+**PROVED — `B1800`** (1722 words, 1 locks)  
+THE COUPLINGS AS BULK OVERLAPS OF FLUX ZERO MODES (L251 as stated; data-free): every allowed overlap is (Im tau)^(-1/4) theta[(a_p - a_q + m)/2, b_p - b_q](0, 2tau) up to a fixed phase (CIM's closed form, re-derived and checked on main); Wilson-line conservation gives B1636's parity pattern, but Y_pq^2 = (Im tau)^(-1/2) kappa_pq theta_p theta_q, i.e. Y_pq ~ eta^(3/2) theta_r^(-1/2), not B1636's theta_r^2 for any fixed Higgs and any matter Wilson lines (a q-expansion proof); B1642's residue coupling has theta_r^2 but is antisymmetric; the overlap depends on the legs' Wilson-line difference (q_L - q_R)w, at level 2, and is not B1656's flat-frame coupling. No input removed. 0 of 19.  
+`B1800_the_couplings_as_overlaps_of_the_fibres_zero_modes/FINDINGS.md`
 
 **NEGATIVE — `B1798`** (1635 words, 1 locks)  
 THE SIX GRADED UNDER THE CLASS-CHOOSING NULL (R71-1; NEGATIVE for PASSED): with B1753's census completed to all 266 lines (48 614 points, verified) and 10^7 fresh targets, the class-choosing null gives B1753 m*r 0.0084-0.0088 at m = 39-41 and B1749 0.0094-0.00999 at m = 33-35; but the lepton factor c = 3 was chosen on the same six numbers (the web seat's GJ_FINDINGS) and that null holds it fixed -- a null letting each target choose c as the data did gives m*r 0.035-0.079 (B1753) and 0.034-0.082 (B1749); counted per decisive cell (m ~ 51) B1753 fails too; neither is PASSED; the six's specificity rests on c read from the data. No input removed. 0 of 19.  

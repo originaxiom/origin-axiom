@@ -17998,3 +17998,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - B1795 (no structural doublet–triplet split), B1797 (GENESIS v1.59: the cusp unit reduced to four undrived links), B1798 (the six not PASSED once the lepton factor's data choice is priced; a proposed grade overturned by the referee before banking), B1799 (the neutrino's self-pairing; the Weinberg pair's CP-line zeros). Every arc refereed hostile before landing. The seats' new work harvested. 0 of 19.
 - **Landing suite (S232).** full suite 7 816 passed, 2 failed, 68 skipped (23:05, -n 8) on 5db6f8704: the two failures are B805's attachment locks (P-239, standing).
+
+## 2026-10-28 — S233 B1800 (THE COUPLINGS AS BULK OVERLAPS OF FLUX ZERO MODES)
+
+- B1800: L251 as stated — the flux-mode overlaps are level-2 theta constants of the legs' Wilson-line difference (Y_pq² ∝ θ_pθ_q), not B1636's θ_r² (exactly, for any fixed Higgs and Wilson lines); refereed hostile. P-403's flux design starts there. 0 of 19.
+- **Landing suite (S233).** full suite 7 819 passed, 2 failed, 68 skipped (23:03, -n 8) on 0138b2b80: the two failures are B805's attachment locks (P-239, standing).

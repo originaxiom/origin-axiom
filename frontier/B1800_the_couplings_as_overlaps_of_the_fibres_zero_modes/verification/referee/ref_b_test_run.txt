@@ -1,0 +1,12 @@
+positive control (exact B1636 functions): 2.1e-08
+near-control (1% perturbation of one entry): 6.1e-04
+even characteristics, labelling {'32': '4', '34': '2', '24': '3'}: score 0.846
+even characteristics, labelling {'32': '4', '34': '3', '24': '2'}: score 0.518
+even characteristics, labelling {'32': '2', '34': '4', '24': '3'}: score 0.609
+even characteristics, labelling {'32': '2', '34': '3', '24': '4'}: score 0.497
+even characteristics, labelling {'32': '3', '34': '4', '24': '2'}: score 0.634
+even characteristics, labelling {'32': '3', '34': '2', '24': '4'}: score 0.827
+odd replacing theta3, worst-best over labellings: 0.641
+grid of 39366 (Wilson lines x labellings): best score 0.0207 at c2=(np.float64(0.6666666666666666), np.float64(0.4444444444444444)) c4=(np.float64(0.7777777777777777), np.float64(0.7777777777777777)) labelling {'32': '3', '34': '4', '24': '2'}
+Nelder-Mead from 150 random starts: best score 0.0131
+ref_b_test exit 0

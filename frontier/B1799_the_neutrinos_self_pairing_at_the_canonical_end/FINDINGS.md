@@ -130,3 +130,5 @@ R₁ = 0. The log's doubled exit line is the wrapper's echo.
 - `verification/referee/`: r1–r10 and their runs.
 
 The lock: `tests/test_b1799_the_neutrinos_self_pairing_at_the_canonical_end.py`.
+
+**Dated note (2026-10-28, S233, at B1800's referee):** § Seen first's "the retired ruled-branch weave" is unsupported — the record retires τ = ω on the ruled branch (GENESIS v1.35, B1640), not the branch itself; read "the ruled-branch weave (B1612–B1640)". Nothing else changes.

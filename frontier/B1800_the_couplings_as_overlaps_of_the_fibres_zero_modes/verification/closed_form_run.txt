@@ -1,0 +1,9 @@
+tau (0.37+1.2j)        periodic overlaps matched 11; K(t) = 0.955443-0.000000i; spread 4.5e-16; predicted zeros vanish: True
+tau (0.11+0.9j)        periodic overlaps matched 11; K(t) = 1.026690-0.000000i; spread 7.0e-16; predicted zeros vanish: True
+tau 1j                 periodic overlaps matched 11; K(t) = 1.000000-0.000000i; spread 3.4e-16; predicted zeros vanish: True
+tau (0.25+1.5j)        periodic overlaps matched 11; K(t) = 0.903602-0.000000i; spread 5.6e-16; predicted zeros vanish: True
+tau (-0.3+1.1j)        periodic overlaps matched 11; K(t) = 0.976454+0.000000i; spread 4.7e-16; predicted zeros vanish: True
+tau (0.45+2j)          periodic overlaps matched 11; K(t) = 0.840896-0.000000i; spread 7.1e-16; predicted zeros vanish: True
+tau (0.2+0.8j)         periodic overlaps matched 11; K(t) = 1.057371-0.000000i; spread 4.8e-16; predicted zeros vanish: True
+worst spread 7.1e-16
+closed_form exit 0

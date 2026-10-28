@@ -1,0 +1,33 @@
+{
+ "id": "B1800",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1634",
+  "B1636",
+  "B1642",
+  "B1644",
+  "B1651",
+  "B1653",
+  "B1656",
+  "B1789"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W49",
+  "sm:W72"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the fibre E_tau with flux-one matter on the three even characteristics and a flux-two Higgs (Cremades-Ibanez-Marchesano modes, Wilson lines as Scherk-Schwarz phases)",
+  "object": "the Yukawa couplings as bulk overlap integrals (L251 as stated)",
+  "reach": "class",
+  "hypotheses": "flux-one matter (L251's typing; not the standard M = 3 route, not B1656's flat frame); a fixed Higgs; other flux assignments, point frames and tau-dependent Higgs vevs not covered"
+ },
+ "claim_one_line": "THE COUPLINGS AS BULK OVERLAPS OF FLUX ZERO MODES (L251 as stated; data-free): every allowed overlap is (Im tau)^(-1/4) theta[(a_p - a_q + m)/2, b_p - b_q](0, 2tau) up to a fixed phase (CIM's closed form, re-derived and checked on main); Wilson-line conservation gives B1636's parity pattern, but Y_pq^2 = (Im tau)^(-1/2) kappa_pq theta_p theta_q, i.e. Y_pq ~ eta^(3/2) theta_r^(-1/2), not B1636's theta_r^2 for any fixed Higgs and any matter Wilson lines (a q-expansion proof); B1642's residue coupling has theta_r^2 but is antisymmetric; the overlap depends on the legs' Wilson-line difference (q_L - q_R)w, at level 2, and is not B1656's flat-frame coupling. No input removed. 0 of 19.",
+ "weave_or_thread": "weave (the fibre's zero modes)"
+}

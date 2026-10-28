@@ -722,3 +722,32 @@ that fits.
 
 **What this does not supply.** Any of the nineteen. The masses' pattern and values are reached with τ, the line, the
 reading and c chosen; the mixing needs a Higgs ingredient the record does not have (P-357).
+
+## Currency note — 2026-10-28, through B1800 (main's plan, steps 1–4; the inputs counted; the grade that fell; the gauge and neutrino sectors; the couplings computed)
+
+- **The six's inputs, counted** (main's plan; B1786–B1792): about three continuous (Im τ, Re τ, the line's offset) and four
+  discrete (the slope 2/5, the lepton factor c, the reading, the horocycle).
+  - None is derived in B1656's frame: c (B1789, B1793), the reading (B1790), Im τ (B1791).
+  - The slope is selected by the data (B1786); the offset recurrence is a necessary condition, not a rule (B1792).
+- **The six's specificity is not graded** (B1798). The class-choosing null alone would pass B1753, but c = 3 was read from the
+  same data. A null that repeats that choice raises the rate about fourfold. So the frame reaches the six at a rarity of
+  order 10⁻³ once its data-chosen ingredients are priced.
+- **The gauge sector.** No doublet–triplet split in the frame (B1795): det M vanishes for neither vector-like pair on 286
+  lines. The one-loop gauge ratio stays at the complete-multiplet ½, against 0.7172 measured (B1484).
+- **The neutrino sector.**
+  - A self-pairing's coupling is symmetric with R₁ = 0 (B1799).
+  - On the census the lightest neutrino is massive on the lines that carry the six. A pure type-I seesaw's is massless
+    exactly where the electron is.
+  - The Weinberg pair's det M vanishes on CP lines (P-404).
+- **The strong angle.** θ̄ stays an input in the frame as built (the web seat's P-323, with the SM seat's W168; main's check
+  owed).
+- **The generations.** Three follows from the least uniform end data at the cusp, with four links not derived (B1796;
+  GENESIS v1.59).
+- **The couplings' coefficients** are computable as zero-mode overlaps once fluxes are assigned (B1800). The coefficients the
+  earlier frame assumed are not those overlaps.
+- **The dynamics route.** At the state the frame's own one-loop potential selects, the nine fail and J = 0 exactly (the SM
+  seat's W170).
+
+**What this does not supply.** Any of the nineteen. The lepton factor 3 is the linchpin: any effect linear in one leg's
+hypercharge gives exactly 3, by anomaly cancellation. The flux frame (P-403), where a sector's coupling depends on its legs'
+Wilson-line difference, is where a data-free derivation would have to come from.
