@@ -1,0 +1,1370 @@
+{
+ "arc": "W176 post hoc",
+ "status": "post hoc, labelled",
+ "head": "3accf232bb7cc9b4d58dd51dd7e64692c2e93417",
+ "P1": {
+  "1": {
+   "line": [
+    "0",
+    "0"
+   ],
+   "least as stored": [
+    3.188020075450356e-06,
+    4.0
+   ],
+   "distance of Re tau from the nearest of 0, +-1/2": 3.188020075450356e-06,
+   "CP-fixed as stored, tol 1e-5 (the script's)": true,
+   "CP-fixed as stored, tol 1e-6 (the rule's)": false,
+   "profile amplitude (max - min)": 1.5558089216938242e-07,
+   "profile amplitude over |V|": 3.104665084592905e-11,
+   "profile evenness, worst |V(x) - V(-x)|": 2.7284841053187847e-12,
+   "V(0) - V(1/2)": -1.5558089216938242e-07,
+   "profile argmin Re tau": 0.0,
+   "CP-fixed at the argmin (exact)": true
+  },
+  "2": {
+   "line": [
+    "0",
+    "1/2"
+   ],
+   "least as stored": [
+    0.49990905052977486,
+    4.0
+   ],
+   "distance of Re tau from the nearest of 0, +-1/2": 9.094947022514344e-05,
+   "CP-fixed as stored, tol 1e-5 (the script's)": false,
+   "CP-fixed as stored, tol 1e-6 (the rule's)": false,
+   "profile amplitude (max - min)": 9.82952769845724e-07,
+   "profile amplitude over |V|": 1.963831663405459e-10,
+   "profile evenness, worst |V(x) - V(-x)|": 1.8189894035458565e-12,
+   "V(0) - V(1/2)": 9.82952769845724e-07,
+   "profile argmin Re tau": -0.5,
+   "CP-fixed at the argmin (exact)": true
+  },
+  "3": {
+   "line": [
+    "0",
+    "1/3"
+   ],
+   "least as stored": [
+    0.4000022784585141,
+    4.0
+   ],
+   "distance of Re tau from the nearest of 0, +-1/2": 0.0999977215414859,
+   "CP-fixed as stored, tol 1e-5 (the script's)": false,
+   "CP-fixed as stored, tol 1e-6 (the rule's)": false,
+   "profile amplitude (max - min)": 9.75251168711111e-09,
+   "profile amplitude over |V|": 1.949138469385276e-12,
+   "profile evenness, worst |V(x) - V(-x)|": 1.8189894035458565e-12,
+   "V(0) - V(1/2)": 6.699337973259389e-09,
+   "profile argmin Re tau": -0.385,
+   "CP-fixed at the argmin (exact)": false
+  },
+  "4": {
+   "line": [
+    "0",
+    "1/4"
+   ],
+   "least as stored": [
+    -0.49999971100564217,
+    4.0
+   ],
+   "distance of Re tau from the nearest of 0, +-1/2": 2.889943578332499e-07,
+   "CP-fixed as stored, tol 1e-5 (the script's)": true,
+   "CP-fixed as stored, tol 1e-6 (the rule's)": true,
+   "profile amplitude (max - min)": 6.013870006427169e-07,
+   "profile amplitude over |V|": 1.2016028319752232e-10,
+   "profile evenness, worst |V(x) - V(-x)|": 1.8189894035458565e-12,
+   "V(0) - V(1/2)": 6.013860911480151e-07,
+   "profile argmin Re tau": 0.5,
+   "CP-fixed at the argmin (exact)": true
+  },
+  "5": {
+   "line": [
+    "0",
+    "1/5"
+   ],
+   "least as stored": [
+    5.029493326892149e-06,
+    4.0
+   ],
+   "distance of Re tau from the nearest of 0, +-1/2": 5.029493326892149e-06,
+   "CP-fixed as stored, tol 1e-5 (the script's)": false,
+   "CP-fixed as stored, tol 1e-6 (the rule's)": false,
+   "profile amplitude (max - min)": 3.9230144466273487e-08,
+   "profile amplitude over |V|": 7.837458349487408e-12,
+   "profile evenness, worst |V(x) - V(-x)|": 2.7284841053187847e-12,
+   "V(0) - V(1/2)": -3.9230144466273487e-08,
+   "profile argmin Re tau": 0.0,
+   "CP-fixed at the argmin (exact)": true
+  },
+  "6": {
+   "line": [
+    "0",
+    "1/6"
+   ],
+   "least as stored": [
+    -0.5,
+    4.0
+   ],
+   "distance of Re tau from the nearest of 0, +-1/2": 0.0,
+   "CP-fixed as stored, tol 1e-5 (the script's)": true,
+   "CP-fixed as stored, tol 1e-6 (the rule's)": true,
+   "profile amplitude (max - min)": 9.183258953271434e-08,
+   "profile amplitude over |V|": 1.834620216438324e-11,
+   "profile evenness, worst |V(x) - V(-x)|": 1.8189894035458565e-12,
+   "V(0) - V(1/2)": 9.183258953271434e-08,
+   "profile argmin Re tau": -0.5,
+   "CP-fixed at the argmin (exact)": true
+  },
+  "7": {
+   "line": [
+    "0",
+    "1/7"
+   ],
+   "least as stored": [
+    1.063128872813902e-06,
+    4.0
+   ],
+   "distance of Re tau from the nearest of 0, +-1/2": 1.063128872813902e-06,
+   "CP-fixed as stored, tol 1e-5 (the script's)": true,
+   "CP-fixed as stored, tol 1e-6 (the rule's)": false,
+   "profile amplitude (max - min)": 1.150719981524162e-07,
+   "profile amplitude over |V|": 2.2989012209548997e-11,
+   "profile evenness, worst |V(x) - V(-x)|": 1.8189894035458565e-12,
+   "V(0) - V(1/2)": -1.1507108865771443e-07,
+   "profile argmin Re tau": 0.0,
+   "CP-fixed at the argmin (exact)": true
+  },
+  "8": {
+   "line": [
+    "0",
+    "1/8"
+   ],
+   "least as stored": [
+    -0.5,
+    4.0
+   ],
+   "distance of Re tau from the nearest of 0, +-1/2": 0.0,
+   "CP-fixed as stored, tol 1e-5 (the script's)": true,
+   "CP-fixed as stored, tol 1e-6 (the rule's)": true,
+   "profile amplitude (max - min)": 4.580406312015839e-07,
+   "profile amplitude over |V|": 9.150438105045221e-11,
+   "profile evenness, worst |V(x) - V(-x)|": 2.7284841053187847e-12,
+   "V(0) - V(1/2)": 4.580397217068821e-07,
+   "profile argmin Re tau": 0.5,
+   "CP-fixed at the argmin (exact)": true
+  },
+  "9": {
+   "line": [
+    "0",
+    "1/9"
+   ],
+   "least as stored": [
+    6.713396880662056e-06,
+    4.0
+   ],
+   "distance of Re tau from the nearest of 0, +-1/2": 6.713396880662056e-06,
+   "CP-fixed as stored, tol 1e-5 (the script's)": false,
+   "CP-fixed as stored, tol 1e-6 (the rule's)": false,
+   "profile amplitude (max - min)": 1.391563273500651e-07,
+   "profile amplitude over |V|": 2.7798058999532175e-11,
+   "profile evenness, worst |V(x) - V(-x)|": 1.8189894035458565e-12,
+   "V(0) - V(1/2)": -1.391563273500651e-07,
+   "profile argmin Re tau": 0.0,
+   "CP-fixed at the argmin (exact)": true
+  },
+  "10": {
+   "line": [
+    "0",
+    "1/10"
+   ],
+   "least as stored": [
+    0.0,
+    4.0
+   ],
+   "distance of Re tau from the nearest of 0, +-1/2": 0.0,
+   "CP-fixed as stored, tol 1e-5 (the script's)": true,
+   "CP-fixed as stored, tol 1e-6 (the rule's)": true,
+   "profile amplitude (max - min)": 4.582852852763608e-08,
+   "profile amplitude over |V|": 9.154064818960247e-12,
+   "profile evenness, worst |V(x) - V(-x)|": 2.7284841053187847e-12,
+   "V(0) - V(1/2)": -4.582761903293431e-08,
+   "profile argmin Re tau": 0.0,
+   "CP-fixed at the argmin (exact)": true
+  },
+  "11": {
+   "line": [
+    "0",
+    "1/11"
+   ],
+   "least as stored": [
+    0.0,
+    4.0
+   ],
+   "distance of Re tau from the nearest of 0, +-1/2": 0.0,
+   "CP-fixed as stored, tol 1e-5 (the script's)": true,
+   "CP-fixed as stored, tol 1e-6 (the rule's)": true,
+   "profile amplitude (max - min)": 5.925448931520805e-08,
+   "profile amplitude over |V|": 1.1834873606503848e-11,
+   "profile evenness, worst |V(x) - V(-x)|": 1.8189894035458565e-12,
+   "V(0) - V(1/2)": -5.925448931520805e-08,
+   "profile argmin Re tau": 0.0,
+   "CP-fixed at the argmin (exact)": true
+  },
+  "12": {
+   "line": [
+    "0",
+    "1/12"
+   ],
+   "least as stored": [
+    0.49990905052977486,
+    4.0
+   ],
+   "distance of Re tau from the nearest of 0, +-1/2": 9.094947022514344e-05,
+   "CP-fixed as stored, tol 1e-5 (the script's)": false,
+   "CP-fixed as stored, tol 1e-6 (the rule's)": false,
+   "profile amplitude (max - min)": 1.4199667930370197e-07,
+   "profile amplitude over |V|": 2.8358634954379296e-11,
+   "profile evenness, worst |V(x) - V(-x)|": 1.8189894035458565e-12,
+   "V(0) - V(1/2)": 1.4199667930370197e-07,
+   "profile argmin Re tau": -0.5,
+   "CP-fixed at the argmin (exact)": true
+  },
+  "15": {
+   "line": [
+    "0",
+    "1/15"
+   ],
+   "least as stored": [
+    -3.1979653578704214e-06,
+    4.0
+   ],
+   "distance of Re tau from the nearest of 0, +-1/2": 3.1979653578704214e-06,
+   "CP-fixed as stored, tol 1e-5 (the script's)": true,
+   "CP-fixed as stored, tol 1e-6 (the rule's)": false,
+   "profile amplitude (max - min)": 2.9262082534842193e-08,
+   "profile amplitude over |V|": 5.842805698897634e-12,
+   "profile evenness, worst |V(x) - V(-x)|": 1.8189894035458565e-12,
+   "V(0) - V(1/2)": -2.9032889869995415e-08,
+   "profile argmin Re tau": 0.0,
+   "CP-fixed at the argmin (exact)": true
+  },
+  "20": {
+   "line": [
+    "0",
+    "1/20"
+   ],
+   "least as stored": [
+    1.5953959294795826e-06,
+    4.0
+   ],
+   "distance of Re tau from the nearest of 0, +-1/2": 1.5953959294795826e-06,
+   "CP-fixed as stored, tol 1e-5 (the script's)": true,
+   "CP-fixed as stored, tol 1e-6 (the rule's)": false,
+   "profile amplitude (max - min)": 3.254717739764601e-08,
+   "profile amplitude over |V|": 6.4973044212698936e-12,
+   "profile evenness, worst |V(x) - V(-x)|": 1.8189894035458565e-12,
+   "V(0) - V(1/2)": -3.072455001529306e-08,
+   "profile argmin Re tau": 0.0,
+   "CP-fixed at the argmin (exact)": true
+  },
+  "25": {
+   "line": [
+    "0",
+    "1/25"
+   ],
+   "least as stored": [
+    -5.156380998881671e-06,
+    4.0
+   ],
+   "distance of Re tau from the nearest of 0, +-1/2": 5.156380998881671e-06,
+   "CP-fixed as stored, tol 1e-5 (the script's)": false,
+   "CP-fixed as stored, tol 1e-6 (the rule's)": false,
+   "profile amplitude (max - min)": 4.1552993934601545e-08,
+   "profile amplitude over |V|": 8.294098567361772e-12,
+   "profile evenness, worst |V(x) - V(-x)|": 1.8189894035458565e-12,
+   "V(0) - V(1/2)": -4.0529812395107e-08,
+   "profile argmin Re tau": 0.0,
+   "CP-fixed at the argmin (exact)": true
+  },
+  "30": {
+   "line": [
+    "0",
+    "1/30"
+   ],
+   "least as stored": [
+    0.0,
+    4.0
+   ],
+   "distance of Re tau from the nearest of 0, +-1/2": 0.0,
+   "CP-fixed as stored, tol 1e-5 (the script's)": true,
+   "CP-fixed as stored, tol 1e-6 (the rule's)": true,
+   "profile amplitude (max - min)": 4.961475497111678e-08,
+   "profile amplitude over |V|": 9.902539106578963e-12,
+   "profile evenness, worst |V(x) - V(-x)|": 1.8189894035458565e-12,
+   "V(0) - V(1/2)": -4.92782419314608e-08,
+   "profile argmin Re tau": 0.0,
+   "CP-fixed at the argmin (exact)": true
+  }
+ },
+ "P2": {
+  "Sum_q w_q": -41.0,
+  "hand formula (15/8) zeta(6) Sum_q w_q": -78.20824789005451,
+  "A(0) computed": -78.20824794484896,
+  "per order": {
+   "1": {
+    "V on the least line at its argmin": {
+     "2.0": -649.1540956165803,
+     "3.0": -2122.0572243219003,
+     "4.0": -5011.197276687341,
+     "6.0": -16895.5901664791,
+     "8.0": -40044.09026184882,
+     "16.0": -320341.3501519124
+    },
+    "V / y^3": {
+     "2.0": -81.14426195207254,
+     "3.0": -78.59471201192224,
+     "4.0": -78.29995744823971,
+     "6.0": -78.22032484481066,
+     "8.0": -78.21111379267347,
+     "16.0": -78.20833743943174
+    },
+    "dV/dy at Im tau 4": -3751.061267638306,
+    "A on the least line": -78.20824794484896,
+    "A least over the order's lines": -78.20824794484896,
+    "lines attaining the least A": [
+     [
+      "0",
+      "0"
+     ]
+    ],
+    "lines with A < 0 (run to the cusp)": 1,
+    "lines with A > 0 (pushed from the cusp)": 0,
+    "lines": 1
+   },
+   "2": {
+    "V on the least line at its argmin": {
+     "2.0": -625.4755419064991,
+     "3.0": -2111.5378789308475,
+     "4.0": -5005.280178348874,
+     "6.0": -16892.96040703276,
+     "8.0": -40042.6111157037,
+     "16.0": -320340.9808758628
+    },
+    "V / y^3": {
+     "2.0": -78.18444273831238,
+     "3.0": -78.20510662706842,
+     "4.0": -78.20750278670116,
+     "6.0": -78.20815003255906,
+     "8.0": -78.20822483535879,
+     "16.0": -78.2082472841462
+    },
+    "dV/dy at Im tau 4": -3754.019851893645,
+    "A on the least line": -78.20824794484896,
+    "A least over the order's lines": -78.20824794484896,
+    "lines attaining the least A": [
+     [
+      "0",
+      "1/2"
+     ]
+    ],
+    "lines with A < 0 (run to the cusp)": 1,
+    "lines with A > 0 (pushed from the cusp)": 2,
+    "lines": 3
+   },
+   "3": {
+    "V on the least line at its argmin": {
+     "2.0": -618.3515842012682,
+     "3.0": -2108.37074807602,
+     "4.0": -5003.498643268213,
+     "6.0": -16892.168556446646,
+     "8.0": -40042.16561623381,
+     "16.0": -320340.86920652306
+    },
+    "V / y^3": {
+     "2.0": -77.29394802515853,
+     "3.0": -78.08780548429704,
+     "4.0": -78.17966630106582,
+     "6.0": -78.20448405762336,
+     "8.0": -78.20735471920666,
+     "16.0": -78.2082200211238
+    },
+    "dV/dy at Im tau 4": -3754.910587500035,
+    "A on the least line": -78.20824794484896,
+    "A least over the order's lines": -78.20824794484896,
+    "lines attaining the least A": [
+     [
+      "0",
+      "1/3"
+     ]
+    ],
+    "lines with A < 0 (run to the cusp)": 1,
+    "lines with A > 0 (pushed from the cusp)": 3,
+    "lines": 4
+   },
+   "4": {
+    "V on the least line at its argmin": {
+     "2.0": -623.8487346430445,
+     "3.0": -2110.8146671460727,
+     "4.0": -5004.873362807765,
+     "6.0": -16892.7795778537,
+     "8.0": -40042.50936579005,
+     "16.0": -320340.9552805465
+    },
+    "V / y^3": {
+     "2.0": -77.98109183038056,
+     "3.0": -78.1783210054101,
+     "4.0": -78.20114629387133,
+     "6.0": -78.2073128604338,
+     "8.0": -78.20802610505869,
+     "16.0": -78.20824103528967
+    },
+    "dV/dy at Im tau 4": -3754.2232472746946,
+    "A on the least line": -78.20824794484896,
+    "A least over the order's lines": -78.20824794484896,
+    "lines attaining the least A": [
+     [
+      "0",
+      "1/4"
+     ]
+    ],
+    "lines with A < 0 (run to the cusp)": 1,
+    "lines with A > 0 (pushed from the cusp)": 5,
+    "lines": 6
+   },
+   "5": {
+    "V on the least line at its argmin": {
+     "2.0": -626.2257010705499,
+     "3.0": -2111.8712547749515,
+     "4.0": -5005.467680582858,
+     "6.0": -16893.04368620598,
+     "8.0": -40042.65788207612,
+     "16.0": -320340.9922427325
+    },
+    "V / y^3": {
+     "2.0": -78.27821263381874,
+     "3.0": -78.21745388055376,
+     "4.0": -78.21043250910715,
+     "6.0": -78.20853558428695,
+     "8.0": -78.20831617592992,
+     "16.0": -78.20825005926086
+    },
+    "dV/dy at Im tau 4": -3753.9260693347387,
+    "A on the least line": -78.20824794484896,
+    "A least over the order's lines": -78.20824794484896,
+    "lines attaining the least A": [
+     [
+      "0",
+      "1/5"
+     ],
+     [
+      "0",
+      "2/5"
+     ]
+    ],
+    "lines with A < 0 (run to the cusp)": 7,
+    "lines with A > 0 (pushed from the cusp)": 5,
+    "lines": 12
+   },
+   "6": {
+    "V on the least line at its argmin": {
+     "2.0": -626.501100517189,
+     "3.0": -2111.994076001014,
+     "4.0": -5005.536770492769,
+     "6.0": -16893.074396820357,
+     "8.0": -40042.67515903471,
+     "16.0": -320340.9965537311
+    },
+    "V / y^3": {
+     "2.0": -78.31263756464863,
+     "3.0": -78.22200281485237,
+     "4.0": -78.21151203894952,
+     "6.0": -78.20867776305721,
+     "8.0": -78.20834991998967,
+     "16.0": -78.20825111175076
+    },
+    "dV/dy at Im tau 4": -3753.8915272652957,
+    "A on the least line": -78.20824794484896,
+    "A least over the order's lines": -78.20824794484896,
+    "lines attaining the least A": [
+     [
+      "0",
+      "1/6"
+     ]
+    ],
+    "lines with A < 0 (run to the cusp)": 7,
+    "lines with A > 0 (pushed from the cusp)": 5,
+    "lines": 12
+   },
+   "7": {
+    "V on the least line at its argmin": {
+     "2.0": -626.4415122448274,
+     "3.0": -2111.9671860494304,
+     "4.0": -5005.521642405257,
+     "6.0": -16893.067672808214,
+     "8.0": -40042.67138307792,
+     "16.0": -320340.99567094847
+    },
+    "V / y^3": {
+     "2.0": -78.30518903060343,
+     "3.0": -78.22100689071965,
+     "4.0": -78.21127566258214,
+     "6.0": -78.20864663337136,
+     "8.0": -78.20834254507406,
+     "16.0": -78.20825089622765
+    },
+    "dV/dy at Im tau 4": -3753.899089402694,
+    "A on the least line": -78.20824794484896,
+    "A least over the order's lines": -78.20824794484896,
+    "lines attaining the least A": [
+     [
+      "0",
+      "1/7"
+     ],
+     [
+      "0",
+      "2/7"
+     ],
+     [
+      "0",
+      "3/7"
+     ]
+    ],
+    "lines with A < 0 (run to the cusp)": 10,
+    "lines with A > 0 (pushed from the cusp)": 14,
+    "lines": 24
+   },
+   "8": {
+    "V on the least line at its argmin": {
+     "2.0": -627.0292450558411,
+     "3.0": -2112.2288952817526,
+     "4.0": -5005.668864631048,
+     "6.0": -16893.133126444693,
+     "8.0": -40042.70822525617,
+     "16.0": -320341.00493179244
+    },
+    "V / y^3": {
+     "2.0": -78.37865563198014,
+     "3.0": -78.2306998252501,
+     "4.0": -78.21357600986012,
+     "6.0": -78.20894965946617,
+     "8.0": -78.20841450245345,
+     "16.0": -78.20825315717589
+    },
+    "dV/dy at Im tau 4": -3753.8254920059444,
+    "A on the least line": -78.20824794484896,
+    "A least over the order's lines": -78.20824794484896,
+    "lines attaining the least A": [
+     [
+      "0",
+      "1/8"
+     ],
+     [
+      "0",
+      "3/8"
+     ]
+    ],
+    "lines with A < 0 (run to the cusp)": 10,
+    "lines with A > 0 (pushed from the cusp)": 14,
+    "lines": 24
+   },
+   "9": {
+    "V on the least line at its argmin": {
+     "2.0": -628.2469446932886,
+     "3.0": -2112.7692510624497,
+     "4.0": -5005.972803799252,
+     "6.0": -16893.268191349325,
+     "8.0": -40042.784177756424,
+     "16.0": -320341.0238655514
+    },
+    "V / y^3": {
+     "2.0": -78.53086808666107,
+     "3.0": -78.25071300231295,
+     "4.0": -78.21832505936331,
+     "6.0": -78.20957495995059,
+     "8.0": -78.20856284718052,
+     "16.0": -78.20825777967563
+    },
+    "dV/dy at Im tau 4": -3753.6735097442033,
+    "A on the least line": -78.20824794484896,
+    "A least over the order's lines": -78.20824794484896,
+    "lines attaining the least A": [
+     [
+      "0",
+      "1/9"
+     ],
+     [
+      "0",
+      "2/9"
+     ],
+     [
+      "0",
+      "4/9"
+     ]
+    ],
+    "lines with A < 0 (run to the cusp)": 12,
+    "lines with A > 0 (pushed from the cusp)": 24,
+    "lines": 36
+   },
+   "10": {
+    "V on the least line at its argmin": {
+     "2.0": -629.7896875763194,
+     "3.0": -2113.4546083719183,
+     "4.0": -5006.358315566467,
+     "6.0": -16893.439523885852,
+     "8.0": -40042.880540647275,
+     "16.0": -320341.04790694837
+    },
+    "V / y^3": {
+     "2.0": -78.72371094703992,
+     "3.0": -78.27609660636735,
+     "4.0": -78.22434868072605,
+     "6.0": -78.21036816613821,
+     "8.0": -78.20875105595171,
+     "16.0": -78.20826364915732
+    },
+    "dV/dy at Im tau 4": -3753.4807517395166,
+    "A on the least line": -78.20824794484896,
+    "A least over the order's lines": -78.20824794484896,
+    "lines attaining the least A": [
+     [
+      "0",
+      "1/10"
+     ],
+     [
+      "0",
+      "3/10"
+     ]
+    ],
+    "lines with A < 0 (run to the cusp)": 17,
+    "lines with A > 0 (pushed from the cusp)": 19,
+    "lines": 36
+   },
+   "11": {
+    "V on the least line at its argmin": {
+     "2.0": -631.4369027766703,
+     "3.0": -2114.18637017885,
+     "4.0": -5006.76993142071,
+     "6.0": -16893.62246623476,
+     "8.0": -40042.983447233026,
+     "16.0": -320341.07361394865
+    },
+    "V / y^3": {
+     "2.0": -78.92961284708379,
+     "3.0": -78.30319889551298,
+     "4.0": -78.2307801784486,
+     "6.0": -78.21121512145722,
+     "8.0": -78.208952045377,
+     "16.0": -78.20826992528043
+    },
+    "dV/dy at Im tau 4": -3753.2749447841525,
+    "A on the least line": -78.20824794484896,
+    "A least over the order's lines": -78.20824794484896,
+    "lines attaining the least A": [
+     [
+      "0",
+      "1/11"
+     ],
+     [
+      "0",
+      "2/11"
+     ],
+     [
+      "0",
+      "3/11"
+     ],
+     [
+      "0",
+      "4/11"
+     ],
+     [
+      "0",
+      "5/11"
+     ]
+    ],
+    "lines with A < 0 (run to the cusp)": 27,
+    "lines with A > 0 (pushed from the cusp)": 33,
+    "lines": 60
+   },
+   "12": {
+    "V on the least line at its argmin": {
+     "2.0": -633.0555162228092,
+     "3.0": -2114.9084405569515,
+     "4.0": -5007.176104637366,
+     "6.0": -16893.802992656758,
+     "8.0": -40043.084997254315,
+     "16.0": -320341.09898630594
+    },
+    "V / y^3": {
+     "2.0": -79.13193952785115,
+     "3.0": -78.32994224285005,
+     "4.0": -78.23712663495884,
+     "6.0": -78.21205089192944,
+     "8.0": -78.20915038526233,
+     "16.0": -78.2082761197036
+    },
+    "dV/dy at Im tau 4": -3753.0718619250365,
+    "A on the least line": -78.20824794484896,
+    "A least over the order's lines": -78.20824794484896,
+    "lines attaining the least A": [
+     [
+      "0",
+      "1/12"
+     ],
+     [
+      "0",
+      "5/12"
+     ]
+    ],
+    "lines with A < 0 (run to the cusp)": 20,
+    "lines with A > 0 (pushed from the cusp)": 28,
+    "lines": 48
+   },
+   "15": {
+    "V on the least line at its argmin": {
+     "2.0": -637.2577801947901,
+     "3.0": -2116.7722407711617,
+     "4.0": -5008.224480297726,
+     "6.0": -16894.268928526642,
+     "8.0": -40043.34707348378,
+     "16.0": -320341.1644324716
+    },
+    "V / y^3": {
+     "2.0": -79.65722252434877,
+     "3.0": -78.3989718804134,
+     "4.0": -78.25350750465196,
+     "6.0": -78.21420800243816,
+     "8.0": -78.20966225289801,
+     "16.0": -78.20829209777139
+    },
+    "dV/dy at Im tau 4": -3752.5476688279014,
+    "A on the least line": -78.20824794484896,
+    "A least over the order's lines": -78.20824794484896,
+    "lines attaining the least A": [
+     [
+      "0",
+      "1/15"
+     ],
+     [
+      "0",
+      "2/15"
+     ],
+     [
+      "0",
+      "4/15"
+     ],
+     [
+      "0",
+      "7/15"
+     ]
+    ],
+    "lines with A < 0 (run to the cusp)": 44,
+    "lines with A > 0 (pushed from the cusp)": 52,
+    "lines": 96
+   },
+   "20": {
+    "V on the least line at its argmin": {
+     "2.0": -641.7036848065655,
+     "3.0": -2118.747310179018,
+     "4.0": -5009.335454730731,
+     "6.0": -16894.76269396774,
+     "8.0": -40043.62481361872,
+     "16.0": -320341.23382320086
+    },
+    "V / y^3": {
+     "2.0": -80.2129606008207,
+     "3.0": -78.47212259922289,
+     "4.0": -78.27086648016767,
+     "6.0": -78.21649395355435,
+     "8.0": -78.21020471409906,
+     "16.0": -78.2083090388674
+    },
+    "dV/dy at Im tau 4": -3751.9921812104258,
+    "A on the least line": -78.20824794484896,
+    "A least over the order's lines": -78.20824794484896,
+    "lines attaining the least A": [
+     [
+      "0",
+      "1/20"
+     ],
+     [
+      "0",
+      "3/20"
+     ],
+     [
+      "0",
+      "7/20"
+     ],
+     [
+      "0",
+      "9/20"
+     ]
+    ],
+    "lines with A < 0 (run to the cusp)": 64,
+    "lines with A > 0 (pushed from the cusp)": 80,
+    "lines": 144
+   },
+   "25": {
+    "V on the least line at its argmin": {
+     "2.0": -644.1507902908862,
+     "3.0": -2119.834439419435,
+     "4.0": -5009.946963750508,
+     "6.0": -16895.03447531258,
+     "8.0": -40043.77768985769,
+     "16.0": -320341.27202967985
+    },
+    "V / y^3": {
+     "2.0": -80.51884878636078,
+     "3.0": -78.51238664516426,
+     "4.0": -78.28042130860169,
+     "6.0": -78.2177522005212,
+     "8.0": -78.2105033005033,
+     "16.0": -78.20831836662106
+    },
+    "dV/dy at Im tau 4": -3751.6864264212018,
+    "A on the least line": -78.20824794484896,
+    "A least over the order's lines": -78.20824794484896,
+    "lines attaining the least A": [
+     [
+      "0",
+      "1/25"
+     ],
+     [
+      "0",
+      "11/25"
+     ],
+     [
+      "0",
+      "12/25"
+     ],
+     [
+      "0",
+      "2/25"
+     ],
+     [
+      "0",
+      "3/25"
+     ],
+     [
+      "0",
+      "4/25"
+     ],
+     [
+      "0",
+      "6/25"
+     ],
+     [
+      "0",
+      "7/25"
+     ],
+     [
+      "0",
+      "8/25"
+     ],
+     [
+      "0",
+      "9/25"
+     ]
+    ],
+    "lines with A < 0 (run to the cusp)": 130,
+    "lines with A > 0 (pushed from the cusp)": 170,
+    "lines": 300
+   },
+   "30": {
+    "V on the least line at its argmin": {
+     "2.0": -645.5891094044068,
+     "3.0": -2120.473422176356,
+     "4.0": -5010.306390828001,
+     "6.0": -16895.194220312987,
+     "8.0": -40043.86754585267,
+     "16.0": -320341.2944878993
+    },
+    "V / y^3": {
+     "2.0": -80.69863867555085,
+     "3.0": -78.53605267319837,
+     "4.0": -78.28603735668752,
+     "6.0": -78.21849176070828,
+     "8.0": -78.2106788004935,
+     "16.0": -78.20832384958479
+    },
+    "dV/dy at Im tau 4": -3751.5067126514623,
+    "A on the least line": -78.20824794484896,
+    "A least over the order's lines": -78.20824794484896,
+    "lines attaining the least A": [
+     [
+      "0",
+      "1/30"
+     ],
+     [
+      "0",
+      "11/30"
+     ],
+     [
+      "0",
+      "13/30"
+     ],
+     [
+      "0",
+      "7/30"
+     ]
+    ],
+    "lines with A < 0 (run to the cusp)": 118,
+    "lines with A > 0 (pushed from the cusp)": 170,
+    "lines": 288
+   }
+  }
+ },
+ "P3": {
+  "1": {
+   "least": [
+    -5011.197276687341,
+    [
+     "0",
+     "0"
+    ],
+    0.0
+   ],
+   "second": null,
+   "gap": null,
+   "least with a != 0": null,
+   "a = 0 lines": 1
+  },
+  "2": {
+   "least": [
+    -5005.280178348874,
+    [
+     "0",
+     "1/2"
+    ],
+    -0.5
+   ],
+   "second": [
+    119.26436458222406,
+    [
+     "1/2",
+     "0"
+    ],
+    0.0
+   ],
+   "gap": 5124.5445429310985,
+   "least with a != 0": [
+    119.26436458222406,
+    [
+     "1/2",
+     "0"
+    ],
+    0.0
+   ],
+   "a = 0 lines": 1
+  },
+  "3": {
+   "least": [
+    -5003.498643268166,
+    [
+     "0",
+     "1/3"
+    ],
+    -0.4
+   ],
+   "second": [
+    1577.2588602276662,
+    [
+     "1/3",
+     "0"
+    ],
+    0.0
+   ],
+   "gap": 6580.757503495833,
+   "least with a != 0": [
+    1577.2588602276662,
+    [
+     "1/3",
+     "0"
+    ],
+    0.0
+   ],
+   "a = 0 lines": 1
+  },
+  "4": {
+   "least": [
+    -5004.873362807765,
+    [
+     "0",
+     "1/4"
+    ],
+    0.5
+   ],
+   "second": [
+    122.44619681220237,
+    [
+     "1/2",
+     "1/4"
+    ],
+    -0.5
+   ],
+   "gap": 5127.319559619968,
+   "least with a != 0": [
+    122.44619681220237,
+    [
+     "1/2",
+     "1/4"
+    ],
+    -0.5
+   ],
+   "a = 0 lines": 1
+  },
+  "5": {
+   "least": [
+    -5005.467680582858,
+    [
+     "0",
+     "1/5"
+    ],
+    0.0
+   ],
+   "second": [
+    -5002.258037908448,
+    [
+     "0",
+     "2/5"
+    ],
+    0.0
+   ],
+   "gap": 3.209642674409224,
+   "least with a != 0": [
+    -169.79749168430766,
+    [
+     "1/5",
+     "0"
+    ],
+    0.0
+   ],
+   "a = 0 lines": 2
+  },
+  "6": {
+   "least": [
+    -5005.536770492769,
+    [
+     "0",
+     "1/6"
+    ],
+    -0.5
+   ],
+   "second": [
+    -207.95814586271,
+    [
+     "1/6",
+     "0"
+    ],
+    0.0
+   ],
+   "gap": 4797.5786246300595,
+   "least with a != 0": [
+    -207.95814586271,
+    [
+     "1/6",
+     "0"
+    ],
+    0.0
+   ],
+   "a = 0 lines": 1
+  },
+  "7": {
+   "least": [
+    -5005.521642405257,
+    [
+     "0",
+     "1/7"
+    ],
+    0.0
+   ],
+   "second": [
+    -5004.528361231669,
+    [
+     "0",
+     "2/7"
+    ],
+    0.0
+   ],
+   "gap": 0.9932811735880023,
+   "least with a != 0": [
+    -186.02840769546165,
+    [
+     "1/7",
+     "0"
+    ],
+    0.0
+   ],
+   "a = 0 lines": 3
+  },
+  "8": {
+   "least": [
+    -5005.668864631048,
+    [
+     "0",
+     "1/8"
+    ],
+    0.5
+   ],
+   "second": [
+    -5002.351251155179,
+    [
+     "0",
+     "3/8"
+    ],
+    0.5
+   ],
+   "gap": 3.3176134758687112,
+   "least with a != 0": [
+    -311.1241482209576,
+    [
+     "1/8",
+     "0"
+    ],
+    0.0
+   ],
+   "a = 0 lines": 2
+  },
+  "9": {
+   "least": [
+    -5005.972803799252,
+    [
+     "0",
+     "1/9"
+    ],
+    0.0
+   ],
+   "second": [
+    -5005.2322308783,
+    [
+     "0",
+     "2/9"
+    ],
+    0.0
+   ],
+   "gap": 0.7405729209522178,
+   "least with a != 0": [
+    -567.9611843033653,
+    [
+     "1/9",
+     "0"
+    ],
+    0.0
+   ],
+   "a = 0 lines": 3
+  },
+  "10": {
+   "least": [
+    -5006.358315566467,
+    [
+     "0",
+     "1/10"
+    ],
+    0.0
+   ],
+   "second": [
+    -5004.321235749137,
+    [
+     "0",
+     "3/10"
+    ],
+    0.0
+   ],
+   "gap": 2.0370798173307776,
+   "least with a != 0": [
+    -898.0934750017386,
+    [
+     "1/10",
+     "0"
+    ],
+    0.0
+   ],
+   "a = 0 lines": 2
+  },
+  "11": {
+   "least": [
+    -5006.76993142071,
+    [
+     "0",
+     "1/11"
+    ],
+    0.0
+   ],
+   "second": [
+    -5005.54420325781,
+    [
+     "0",
+     "2/11"
+    ],
+    0.0
+   ],
+   "gap": 1.2257281628999408,
+   "least with a != 0": [
+    -1254.5065259166406,
+    [
+     "1/11",
+     "0"
+    ],
+    0.0
+   ],
+   "a = 0 lines": 5
+  },
+  "12": {
+   "least": [
+    -5007.176104637366,
+    [
+     "0",
+     "1/12"
+    ],
+    -0.5
+   ],
+   "second": [
+    -5002.5866310232595,
+    [
+     "0",
+     "5/12"
+    ],
+    -0.5
+   ],
+   "gap": 4.589473614106282,
+   "least with a != 0": [
+    -1607.53536831775,
+    [
+     "1/12",
+     "0"
+    ],
+    0.0
+   ],
+   "a = 0 lines": 2
+  },
+  "15": {
+   "least": [
+    -5008.224480297726,
+    [
+     "0",
+     "1/15"
+    ],
+    0.0
+   ],
+   "second": [
+    -5005.571949525237,
+    [
+     "0",
+     "2/15"
+    ],
+    0.0
+   ],
+   "gap": 2.652530772488717,
+   "least with a != 0": [
+    -2516.759188080759,
+    [
+     "1/15",
+     "0"
+    ],
+    0.0
+   ],
+   "a = 0 lines": 4
+  },
+  "20": {
+   "least": [
+    -5009.335454730731,
+    [
+     "0",
+     "1/20"
+    ],
+    0.0
+   ],
+   "second": [
+    -5005.513386784053,
+    [
+     "0",
+     "3/20"
+    ],
+    0.0
+   ],
+   "gap": 3.8220679466776346,
+   "least with a != 0": [
+    -3471.9738711885498,
+    [
+     "1/20",
+     "0"
+    ],
+    0.0
+   ],
+   "a = 0 lines": 4
+  },
+  "25": {
+   "least": [
+    -5009.946963750508,
+    [
+     "0",
+     "1/25"
+    ],
+    0.0
+   ],
+   "second": [
+    -5007.371304493146,
+    [
+     "0",
+     "2/25"
+    ],
+    -0.5
+   ],
+   "gap": 2.5756592573616217,
+   "least with a != 0": [
+    -3989.457193473061,
+    [
+     "1/25",
+     "0"
+    ],
+    0.0
+   ],
+   "a = 0 lines": 10
+  },
+  "30": {
+   "least": [
+    -5010.306390828001,
+    [
+     "0",
+     "1/30"
+    ],
+    0.0
+   ],
+   "second": [
+    -5005.082469717454,
+    [
+     "0",
+     "7/30"
+    ],
+    0.0
+   ],
+   "gap": 5.223921110547053,
+   "least with a != 0": [
+    -4289.222820066848,
+    [
+     "1/30",
+     "0"
+    ],
+    0.0
+   ],
+   "a = 0 lines": 4
+  }
+ },
+ "P4": {
+  "(0, 1/3) at 0.1 + 2.0i": -1.9292355548846938e-08,
+  "(0, 1/3) at 0.25 + 2.0i": -1.9128994259299526e-08,
+  "(0, 1/3) at 0.4 + 2.0i": -4.883617922647459e-09,
+  "(0, 1/3) at 0.1 + 4.0i": 4.2982579119715846e-14,
+  "(0, 1/3) at 0.25 + 4.0i": 1.1429289013409402e-14,
+  "(0, 1/3) at 0.4 + 4.0i": 2.900917817736191e-15,
+  "(0, 1/5) at 0.1 + 2.0i": 2.4103059404439846e-05,
+  "(0, 1/5) at 0.25 + 2.0i": 3.4160817329084714e-05,
+  "(0, 1/5) at 0.4 + 2.0i": 1.6775780249767697e-05,
+  "(0, 1/5) at 0.1 + 4.0i": -2.490520055166466e-10,
+  "(0, 1/5) at 0.25 + 4.0i": -4.007046035838357e-10,
+  "(0, 1/5) at 0.4 + 4.0i": -2.2332436587981666e-10
+ },
+ "warnings": [],
+ "seconds": 37.9
+}
