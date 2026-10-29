@@ -10176,3 +10176,21 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
 6. **Labelled** neither (an instrument). The register's qualifier no longer doubles a parenthesised answer.
 
 0 of 19.
+
+## 332. Added 2026-10-29 (UTC): W178's rule, the six's exponents at the cusp, exactly
+
+1. **Why.** W174's S0 failed: on 46 of 179 resolved lines the six's exponents had not converged by Im τ = 6. Its S1
+   was read on local exponents at Im τ 3–6, and 54 lines were not tested, below double precision's floor. W177 made
+   the kernel norms exact and found a slow correction on some kernels.
+2. **The rule** (`docs/dossiers/the_weave_2026-10-07/W178_RULE.md`, committed and pushed before its script) computes
+   W174's frame six on all 266 census lines, at Re τ 1/8 and 3/8, up to Im τ = 48, with every piece in working
+   precision and the norms by W177's series.
+   - The record's absolute residue cut is kept for the tie at Im τ 3–6 and dropped above 6, where it would remove the
+     channels being measured.
+   - Each point runs at two precisions; features are resolved, zero, or unresolved, and counted.
+   - The cells: T0, the tie to W174's stored six (10⁻⁶); T1, convergence by Im τ 48 (0.005), settling S0; T2, W174's
+     skeleton test on the cusp patterns, settling S1.
+3. **Labelled** neither (a frame census over every census line at the cusp). The probe's numbers, W177's output, the
+   mental arithmetic on λ and a timing call are disclosed in the rule.
+
+0 of 19.

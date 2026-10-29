@@ -1,5 +1,17 @@
 # Changelog
 
+## W178's rule, committed before its script: the six's exponents at the cusp, exactly (relay §332)
+
+- **The occasion:** the second half of this seat's item 4. W174's S0 failed on 46 lines, and its S1 was read on local
+  exponents with 54 lines below double precision's floor.
+- **The computation:** W174's frame six on all 266 census lines, at Re τ 1/8 and 3/8, up to Im τ = 48, with every
+  piece in working precision and W177's exact norms; the record's absolute residue cut kept for the tie at Im τ 3–6
+  and dropped above.
+- **The cells:** T0, the tie to W174's stored six; T1, convergence by Im τ 48 (S0); T2, W174's skeleton test on the
+  cusp patterns (S1).
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/W178_RULE.md`; relay §332; the ledger row; the state page.
+  0 of 19.
+
 ## W177 run: the frame's kernel norms are exact closed series (relay §331)
 
 - **The cells:** N0, N1 and N4 held to the 40-digit floor; N2 held, the series meeting W89's quadrature to

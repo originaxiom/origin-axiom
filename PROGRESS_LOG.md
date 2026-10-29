@@ -21482,3 +21482,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   than the run carried; rerun with more digits afterwards, it passes (this is labelled as an after-the-fact check).
 - **What it means next:** it shows where the slow convergence in W174 can come from, which the next arc tests.
   0 of 19.
+
+## 2026-10-29 — a rule written first: the mass patterns read exactly, far up the cusp
+
+- **Why:** the earlier census (W174) could not tell whether the mass patterns' powers had settled, and could not
+  resolve some lines at all, because it ran in ordinary double precision.
+- **What was done:** the plan for redoing it exactly, on every line and much higher up, was written down with three
+  tests and their odds, before any program runs it.
+  0 of 19.
