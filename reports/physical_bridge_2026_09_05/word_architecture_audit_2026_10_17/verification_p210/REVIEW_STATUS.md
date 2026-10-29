@@ -100,3 +100,22 @@ main's exact acceptance, strict prospective admission and clean quiescent
 custody remain necessary before any science import/collection/run.
 This mutable status page is outside the sealed 39-artifact inventory;
 the specification, reviewed sources and review attestations are unchanged.
+
+## Main's independent review and acceptance recovered October 29
+
+B1787 on fetched main supplies a different, non-authoring review at
+54cfec661b80293985b3b48f5b4d3b0c0f7e2653 and a separately committed
+acceptance at 8ca002cd13152f79f699799c6dac55d80d0cb74e. ADMISSION.json
+binds their exact bytes to the unchanged sealed specification. Main
+explicitly does NOT accept the earlier review by this lane's own agents
+as independent. That historical record and its earlier status wording
+remain preserved, not retroactively relabelled as independent acceptance.
+
+Main approves EXECUTION ONLY with named caveats: a pass confirms bounded
+arithmetic, not P-210; several checks are by-construction/definition
+checks, and the missing dagger/sign/orientation/minus-slot controls are
+not repaired by running this unchanged package. The sheaf/domain and
+generic-stabilizer qualifications remain. A scientific run still needs
+the literal command, pinned runtime, fresh clean clone, externally
+verified wrapper chain and strict prospective gate. At this status
+update no mathematical import, collection or test has occurred.
