@@ -1,0 +1,26 @@
+DECISIVE_P1_and_P2_seat_0.1pc False
+readout_P2_alone_chi2_six_specific_seat_0.1pc False
+readout_P2_at_1pc False
+P1_chi2_six_below_16.75_seat False
+readout_R1_six_within_2_seat False
+readout_R2_six_specific_seat False
+readout_R3_six_specific_cov False
+readout_R4_six_specific_free False
+readout_R5_nine_specific_seat False
+readout_R7_D_within_3_sigma_at_best_six_seat False
+readout_P2c_chi2_six_specific_cov False
+readout_P3_chi2_nine_below_21.67_seat False
+readout_P4_chi2_nine_below_21.67_SM_reading False
+C1_control True
+C2_control_chi2_reproduces_B1735 True
+mean random as good nine|cov   0.5373
+mean random as good nine|free  0.5506
+mean random as good nine|seat  0.4935
+mean random as good six|cov    0.4978
+mean random as good six|free   0.5601
+mean random as good six|seat   0.4978
+chi2 six|seat   min 4521.52, random as low 0.0981 (worst seed 0.1128)
+chi2 six|cov    min 4521.52, random as low 0.0981 (worst seed 0.1128)
+chi2 six|free   min 4496.95, random as low 0.1027 (worst seed 0.1185)
+chi2 nine|seat  min 96199.62, random as low 0.2845 (worst seed 0.2965)
+chi2 nine|sm    min 96199.62, random as low 0.2845 (worst seed 0.2965)
