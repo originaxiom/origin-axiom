@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1513** |
-| words of findings prose | **1,240,638** |
+| research arcs with findings | **1514** |
+| words of findings prose | **1,242,349** |
 | test lock files referenced | **924** |
-| arcs carrying an authored verdict | **1513** (100.0 %) |
+| arcs carrying an authored verdict | **1514** (100.0 %) |
 | recorded closures | **852** (685 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1033 |
+| PROVED | 1034 |
 | NEGATIVE | 376 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1809`** (2487 words, 0 locks)  
-WHAT FOUR FRAMES ON RECORD LEAVE FREE (P-406 re-scoped; a census with one classical lemma; data-free): for every discrete choice on record each of four frames keeps a continuous datum nothing on record fixes or an infinite discrete menu nothing on record selects; the configurations the object's symmetry fixes are (i,0), (omega,0), (i,(1/2,1/2)), (omega,(1/3,2/3)); there the outputs are degeneracies, J = 0, or numbers set by the discrete choices -- Table T, which at B1667's L_2(i) runs from m2/m3 = 0.019 (a Higgs along R) to 1 (a0: (0.0753, 0.658); DR: (0, 1)); 'hierarchy' is not defined here, the table is the statement and P-432 completes it. Refereed hostile twice; main's own driver reproduces the table. None of the 19.  
-`B1809_what_four_frames_on_record_leave_free/FINDINGS.md`
+**PROVED — `B1810`** (1711 words, 0 locks)  
+THE SYMMETRY-SELECTION VALUE TABLE (P-432, first half; data-free): the frame's outputs at the four configurations the object's symmetry fixes, for Table T's directions and B1730's complete n = 1 family (13 directions, 832 rows, 206 distinct outputs); up and down coincide there up to phase (B1703: N | 6); at omega every direction falls on a stabiliser eigenline, the output (0, 1) or rank one; at (i, 0) every listed direction shares one left eigenbasis, so V is a permutation; on the 2-torsion line at i the first generation is massless for every listed direction but DR and a split reading gives one angle of order 1/L (0.101 at L_2(i), 9e-5 at L = 2560), a permutation as L -> infinity; J = 0 wherever V is defined. The directions are an infinite discrete family (a ladder in kappa at i), so these outputs are a comb indexed by a discrete choice. None of the 19.  
+`B1810_the_symmetry_selection_value_table/FINDINGS.md`
 
 **NEGATIVE — `B1808`** (1909 words, 0 locks)  
 THREE GENERATIONS CUT A CURVE, NOT A POINT (P-419, selection by inversion, in B1804's holomorphic flux frame; data-free; NEGATIVE for 'three selects the moduli'): one LR-invariant flux with index -3 is (1,1) exactly on a curve of Hirzebruch-Zagier form; a point needs a second flux with free integers and such points are infinitely many (LR: 48 in a small box, 14 NS determinants); three or more independent fluxes have no common point; the same for the null matrices B_4..B_7 and for every generation number (U in Lambda_A); chi(L) < 0 for every invariant (1,1) flux on every holomorphic component, the index in a fixed orientation -3 on HxH and +3 on HxH^-: the hand CHOSEN. A short corollary of B1804 with U in Lambda_A. None of the 19.  

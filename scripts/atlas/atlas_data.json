@@ -14740,6 +14740,23 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1810": {
+   "slug": "the symmetry selection value table",
+   "motifs": [
+    "coupling",
+    "kappa",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 11,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B181": {
    "slug": "criticality scale",
    "motifs": [

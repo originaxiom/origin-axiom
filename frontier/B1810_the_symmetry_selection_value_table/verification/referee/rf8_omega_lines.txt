@@ -1,0 +1,8 @@
+DR normalised a(omega)/a_I = [ 1.+0.j -1.-0.j  1.+0.j]  |<a,DR>|/|a||DR| = 1.000000000000
+a0 normalised a(omega)/a_I = [ 1. +0.j         0.5+0.8660254j -0.5+0.8660254j]  |<a,DR>|/|a||DR| = 0.000000000000
+R normalised a(omega)/a_I = [ 1. -0.j         0.5-0.8660254j -0.5-0.8660254j]  |<a,DR>|/|a||DR| = 0.000000000000
+t normalised a(omega)/a_I = [ 1. +0.j         0.5+0.8660254j -0.5+0.8660254j]  |<a,DR>|/|a||DR| = 0.000000000000
+F_6 normalised a(omega)/a_I = [ 1.-0.j -1.+0.j  1.+0.j]  |<a,DR>|/|a||DR| = 1.000000000000
+F_10 normalised a(omega)/a_I = [ 1. +0.j         0.5+0.8660254j -0.5+0.8660254j]  |<a,DR>|/|a||DR| = 0.000000000000
+F_14 normalised a(omega)/a_I = [ 1. +0.j         0.5-0.8660254j -0.5-0.8660254j]  |<a,DR>|/|a||DR| = 0.000000000000
+F_22 normalised a(omega)/a_I = [ 1. -0.j         0.5+0.8660254j -0.5+0.8660254j]  |<a,DR>|/|a||DR| = 0.000000000000

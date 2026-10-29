@@ -1,0 +1,8 @@
+(i,0) kappa=0.707 det Y=1.886e+00  |4 detS detM tr(eps S M^T)|=1.886e+00  |tr(eps S M^T)|=3.363e+00  detS=a.a=1.500
+(i,0) kappa=2.828 det Y=1.471e+01  |4 detS detM tr(eps S M^T)|=1.471e+01  |tr(eps S M^T)|=6.557e+00  detS=a.a=6.000
+(i,0) kappa=-5.657 det Y=6.976e+01  |4 detS detM tr(eps S M^T)|=6.976e+01  |tr(eps S M^T)|=6.220e+00  detS=a.a=30.000
+(i,0) kappa=1.700 det Y=1.616e+00  |4 detS detM tr(eps S M^T)|=1.616e+00  |tr(eps S M^T)|=4.858e+00  detS=a.a=0.890
+(i,(1/2,1/2)) kappa=0.707 det Y=6.351e-16  |4 detS detM tr(eps S M^T)|=9.962e-16  |tr(eps S M^T)|=1.776e-15  detS=a.a=1.500
+(i,(1/2,1/2)) kappa=2.828 det Y=2.071e-15  |4 detS detM tr(eps S M^T)|=3.985e-15  |tr(eps S M^T)|=1.776e-15  detS=a.a=6.000
+(i,(1/2,1/2)) kappa=-5.657 det Y=5.975e-14  |4 detS detM tr(eps S M^T)|=1.992e-14  |tr(eps S M^T)|=1.776e-15  detS=a.a=30.000
+(i,(1/2,1/2)) kappa=1.700 det Y=1.657e-15  |4 detS detM tr(eps S M^T)|=4.433e-16  |tr(eps S M^T)|=1.332e-15  detS=a.a=0.890

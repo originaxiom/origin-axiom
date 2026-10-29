@@ -1,0 +1,29 @@
+a0 a/a_I = [1.+0.j       1.+0.j       0.+0.707107j]  kappa = 0.7071067811865476  2^(a/4) check: None
+R a/a_I = [ 1.-0.j        1.-0.j       -0.-1.414214j]  kappa = -1.414213562373095  2^(a/4) check: None
+t a/a_I = [1.+0.j       1.+0.j       0.+1.414214j]  kappa = 1.4142135623730951  2^(a/4) check: None
+F_6 a/a_I = [1.+0.j       1.+0.j       0.+2.828427j]  kappa = 2.8284271247461903  2^(a/4) check: 2.8284271247461903
+F_10 a/a_I = [ 1.-0.j        1.-0.j       -0.-5.656854j]  kappa = -5.656854249492379  2^(a/4) check: 5.656854249492381
+F_14 a/a_I = [1. +0.j       1. +0.j       0.+11.313708j]  kappa = 11.31370849898476  2^(a/4) check: 11.313708498984761
+F_22 a/a_I = [1. +0.j       1. +0.j       0.+45.254834j]  kappa = 45.25483399593904  2^(a/4) check: 45.254833995939045
+== (i,(1/2,1/2)) L_max
+ kappa=  0.7071  s/s3=[0.       0.528083 1.      ]  even-in-kappa:7.7e-17  row1+row2 x row3: 3.0e-15  cos(theta)=0.726517  |V|11=0.726517  kappa->2/kappa same spectrum: 6.5e-16
+ kappa=  2.8284  s/s3=[0.       0.528083 1.      ]  even-in-kappa:3.1e-16  row1+row2 x row3: 3.1e-15  cos(theta)=0.726517  |V|11=0.726517  kappa->2/kappa same spectrum: 5.5e-16
+ kappa= -5.6569  s/s3=[0.       0.708412 1.      ]  even-in-kappa:1.1e-16  row1+row2 x row3: 2.8e-14  cos(theta)=0.935303  |V|11=0.935303  kappa->2/kappa same spectrum: 1.7e-15
+ kappa= 11.3137  s/s3=[0.       0.839227 1.      ]  even-in-kappa:3.0e-16  row1+row2 x row3: 7.7e-15  cos(theta)=0.984157  |V|11=0.984157  kappa->2/kappa same spectrum: 2.2e-15
+ kappa= 45.2548  s/s3=[0.       0.956917 1.      ]  even-in-kappa:4.2e-16  row1+row2 x row3: 9.6e-15  cos(theta)=0.999017  |V|11=0.999017  kappa->2/kappa same spectrum: 2.6e-15
+ kappa=  0.3000  s/s3=[0.       0.744991 1.      ]  even-in-kappa:5.0e-17  row1+row2 x row3: 6.1e-15  cos(theta)=0.953761  |V|11=0.953761  kappa->2/kappa same spectrum: 1.7e-15
+ kappa=  1.7000  s/s3=[0.       0.425772 1.      ]  even-in-kappa:2.7e-16  row1+row2 x row3: 8.3e-16  cos(theta)=0.252480  |V|11=0.252480  kappa->2/kappa same spectrum: 1.1e-16
+ kappa= -5.0000  s/s3=[0.       0.678764 1.      ]  even-in-kappa:2.0e-16  row1+row2 x row3: 3.5e-14  cos(theta)=0.916605  |V|11=0.916605  kappa->2/kappa same spectrum: 1.3e-15
+== (i,0) L_max : one eigenbasis for every kappa?
+  max over 48 kappa of dist(|Uref^H U(kappa)|, permutation): 1.163986299094521e-13
+== (i,(1/2,1/2)) L_2
+ kappa=  0.7071  s/s3=[0.       0.335481 1.      ]  even-in-kappa:1.9e-16  row1+row2 x row3: 3.0e-16  cos(theta)=0.994883  |V|11=0.994883  kappa->2/kappa same spectrum: 6.3e-17
+ kappa=  2.8284  s/s3=[0.       0.335481 1.      ]  even-in-kappa:3.8e-16  row1+row2 x row3: 2.6e-16  cos(theta)=0.994883  |V|11=0.994883  kappa->2/kappa same spectrum: 1.1e-16
+ kappa= -5.6569  s/s3=[0.       0.601054 1.      ]  even-in-kappa:3.4e-16  row1+row2 x row3: 1.7e-15  cos(theta)=0.999176  |V|11=0.999176  kappa->2/kappa same spectrum: 3.4e-17
+ kappa= 11.3137  s/s3=[0.      0.77837 1.     ]  even-in-kappa:3.8e-16  row1+row2 x row3: 7.9e-16  cos(theta)=0.999813  |V|11=0.999813  kappa->2/kappa same spectrum: 3.8e-18
+ kappa= 45.2548  s/s3=[0.       0.939565 1.      ]  even-in-kappa:5.5e-16  row1+row2 x row3: 9.4e-16  cos(theta)=0.999989  |V|11=0.999989  kappa->2/kappa same spectrum: 2.2e-16
+ kappa=  0.3000  s/s3=[0.       0.650903 1.      ]  even-in-kappa:4.6e-17  row1+row2 x row3: 5.8e-16  cos(theta)=0.999428  |V|11=0.999428  kappa->2/kappa same spectrum: 8.8e-18
+ kappa=  1.7000  s/s3=[0.       0.099377 1.      ]  even-in-kappa:1.3e-16  row1+row2 x row3: 1.3e-16  cos(theta)=0.924768  |V|11=0.924768  kappa->2/kappa same spectrum: 2.8e-17
+ kappa= -5.0000  s/s3=[0.      0.56021 1.     ]  even-in-kappa:1.3e-16  row1+row2 x row3: 1.9e-15  cos(theta)=0.998905  |V|11=0.998905  kappa->2/kappa same spectrum: 2.2e-16
+== (i,0) L_2 : one eigenbasis for every kappa?
+  max over 48 kappa of dist(|Uref^H U(kappa)|, permutation): 2.397198262961135e-14

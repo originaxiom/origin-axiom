@@ -1,0 +1,14 @@
+(i, 0)                 rows 128  distinct mass patterns  97  distinct outputs (masses+V)  97  without leptons  49
+(omega, 0)             rows 128  distinct mass patterns   2  distinct outputs (masses+V)   2  without leptons   2
+(i, (1/2, 1/2))        rows 128  distinct mass patterns  12  distinct outputs (masses+V)  32  without leptons  32
+(omega, (1/3, 2/3))    rows 128  distinct mass patterns   2  distinct outputs (masses+V)   2  without leptons   2
+all configurations: distinct outputs 130 (without leptons 82) of 512 rows
+exceptions: 40  distinct (radius, small nontrivial |V| entry): 8
+    ('L_2', 0.00476489) rows 4  theta = 0.0048 rad
+    ('L_2', 0.0193398) rows 4  theta = 0.0193 rad
+    ('L_2', 0.0405877) rows 4  theta = 0.0406 rad
+    ('L_2', 0.101033) rows 8  theta = 0.1012 rad
+    ('L_max', 0.0443346) rows 4  theta = 0.0443 rad
+    ('L_max', 0.1773) rows 4  theta = 0.1782 rad
+    ('L_max', 0.353848) rows 4  theta = 0.3617 rad
+    ('L_max', 0.687148) rows 8  theta = 0.7576 rad

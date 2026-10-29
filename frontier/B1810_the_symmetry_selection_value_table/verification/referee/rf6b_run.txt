@@ -1,0 +1,8 @@
+S   p'=(0.3000, 0.9000) w/(c tau+d)  L' = L +1 log|c tau0 + d| (0.1760): max diff over sectors 1.5e-14
+S   p'=(0.3000, 0.9000) w/(c tau+d)  L' = L -1 log|c tau0 + d| (0.1760): max diff over sectors 1.7e-02
+S   p'=(0.3000, 0.9000) transpose    L' = L +1 log|c tau0 + d| (0.1760): max diff over sectors 1.5e-14
+S   p'=(0.3000, 0.9000) transpose    L' = L -1 log|c tau0 + d| (0.1760): max diff over sectors 1.7e-02
+g3  p'=(0.3000, 0.2000) w/(c tau+d)  L' = L +1 log|c tau0 + d| (0.1760): max diff over sectors 3.0e-14
+g3  p'=(0.3000, 0.2000) w/(c tau+d)  L' = L -1 log|c tau0 + d| (0.1760): max diff over sectors 1.7e-02
+g3  p'=(0.4000, 0.9000) transpose    L' = L +1 log|c tau0 + d| (0.1760): max diff over sectors 2.2e-01
+g3  p'=(0.4000, 0.9000) transpose    L' = L -1 log|c tau0 + d| (0.1760): max diff over sectors 2.1e-01

@@ -1,0 +1,32 @@
+{
+ "id": "B1810",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1618",
+  "B1656",
+  "B1659",
+  "B1667",
+  "B1691",
+  "B1697",
+  "B1703",
+  "B1730",
+  "B1790",
+  "B1809"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's flat fibre frame (FR-FIB): four-channel coupling at B1667's canonical radii",
+  "object": "the four configurations the object's symmetry fixes; Table T's directions and B1730's zero-free F_a at n = 1",
+  "reach": "class",
+  "hypotheses": "the reading and the horocycle chosen (all tabulated); F_a outside H-cov's proofs; data-free"
+ },
+ "claim_one_line": "THE SYMMETRY-SELECTION VALUE TABLE (P-432, first half; data-free): the frame's outputs at the four configurations the object's symmetry fixes, for Table T's directions and B1730's complete n = 1 family (13 directions, 832 rows, 206 distinct outputs); up and down coincide there up to phase (B1703: N | 6); at omega every direction falls on a stabiliser eigenline, the output (0, 1) or rank one; at (i, 0) every listed direction shares one left eigenbasis, so V is a permutation; on the 2-torsion line at i the first generation is massless for every listed direction but DR and a split reading gives one angle of order 1/L (0.101 at L_2(i), 9e-5 at L = 2560), a permutation as L -> infinity; J = 0 wherever V is defined. The directions are an infinite discrete family (a ladder in kappa at i), so these outputs are a comb indexed by a discrete choice. None of the 19.",
+ "weave_or_thread": "weave (the symmetry-fixed configurations of the shared fibre)"
+}

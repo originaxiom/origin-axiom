@@ -1,0 +1,24 @@
+(1) rows 512 512  keys that differ: {'V defined', 'degenerate sectors (V undefined)'}
+(2) omega (0.3333333333333333, 0.6666666666666666) vs (0.6666666666666666, 0.3333333333333333) up max|ratio diff| 1.8e-16
+(2) omega (0.3333333333333333, 0.6666666666666666) vs (0.6666666666666666, 0.3333333333333333) down max|ratio diff| 1.1e-16
+(2) omega (0.3333333333333333, 0.6666666666666666) vs (0.6666666666666666, 0.3333333333333333) lepton max|ratio diff| 6.7e-17
+(2) i (0.5, 0.5) vs (0.5, -0.5) up max|ratio diff| 2.8e-17
+(2) i (0.5, 0.5) vs (0.5, -0.5) down max|ratio diff| 1.3e-16
+(2) i (0.5, 0.5) vs (0.5, -0.5) lepton max|ratio diff| 6.6e-17
+(2) i (0.5, 0.5) vs (-0.5, -0.5) up max|ratio diff| 5.6e-17
+(2) i (0.5, 0.5) vs (-0.5, -0.5) down max|ratio diff| 1.3e-16
+(2) i (0.5, 0.5) vs (-0.5, -0.5) lepton max|ratio diff| 1.7e-16
+(3) '1'-channel weight vanishes at L = 0.6173857453515398
+(3) L=0.688386 |V_ub|=0.687148 m2/m3=0.528083  dlog|V_ub|/dlogL=-1.487  dlog(m2/m3)/dlogL=-2.360
+(3) L=2.719258 |V_ub|=0.101033 m2/m3=0.335481  dlog|V_ub|/dlogL=-1.183  dlog(m2/m3)/dlogL=-0.015
+    L=  0.620  a0-class |V_ub| = 0.795658  m2/m3 = 0.870849
+    L=  0.650  a0-class |V_ub| = 0.746568  m2/m3 = 0.629739
+    L=  0.700  a0-class |V_ub| = 0.670147  m2/m3 = 0.508840
+    L=  1.000  a0-class |V_ub| = 0.383799  m2/m3 = 0.369153
+    L=  1.500  a0-class |V_ub| = 0.213759  m2/m3 = 0.343289
+    L=  2.000  a0-class |V_ub| = 0.146888  m2/m3 = 0.337923
+    L=  2.719  a0-class |V_ub| = 0.101031  m2/m3 = 0.335481
+    L=  4.000  a0-class |V_ub| = 0.064840  m2/m3 = 0.334213
+    L=  8.000  a0-class |V_ub| = 0.030564  m2/m3 = 0.333528
+    L= 40.000  a0-class |V_ub| = 0.005841  m2/m3 = 0.333340
+    L=2560.000  a0-class |V_ub| = 0.000090  m2/m3 = 0.333333

@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1513 of 1513 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1514 of 1514 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1033)
+## PROVED (1034)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1045,6 +1045,7 @@
 | `B1806` | THE THIRD FIXED POINT, AND A PROXY CORRECTED (P-406's L2 at tau = i; data-free; PROVED under H-cov): near tau = i a generic covariant section gives no 2-3 hierarchy -- at k = 3/2 mod 4 the heavy pair is exactly degenerate at i (m2/m3 = 1, s1 = s2), at k = 7/2 mod 4 m2/m3(i) takes any value in [0,1] with the free coefficients (closed form at 7/2: min(x,1/x), x = 3/(2|288t+5|)), and the sections without D2R at 15/2 and 23/2 give m2/m3 ~ |tau - i|^2 [CORRECTED 2026-10-29 (S248, scope): in the L-free coupling; at the canonical end radius m2/m3 near i is flat and nonzero, 0.2080 and 0.01907 at L_max(i) and L_2(i) (B1809)]; rho(S) has order 8 and selects a(i)'s eigenline by k mod 4. B1691's '-> 1/2' was a bounded proxy s1 s2/(s1^2 + s2^2) whose 1/2 means m2/m3 = 1: corrected in B1691 (its S163 addendum and the omega table) and B1697 (a0 -> 1), the qualitative no-hierarchy surviving as an exact degeneracy. None of the 19. |  | 0 |
 | `B1807` | THE FIRST GENERATION AT THE SPECIAL POINTS, AND WHAT THE END RADIUS CHANGES (P-431; data-free; PROVED under H-cov at zero line): a.R = -f2 eta^6/4 and a.a = (eta^6/4)(f1^2 - 2 f0 f2 - (5/144) E4 f2^2) exactly, so in the L-free coupling the near-point exponents are zero orders of two scalar forms (the 1/L coefficient of m1/m3 vanishes at p to order nu_p(D) + nu_p(f2); m2/m3 to order nu_p(g)); at the canonical end radius (L of order one, B1667) the channel splitting decides near i: m1(i) = 0 at every L and m1/m3 ~ |tau - i| for every k = 3/2 mod 4 section with a(i) != 0, and on the k = 7/2 mod 4 isotropic branches m2/m3(i) = O(1/L); the record's parameter-free sections at i: DR (0, 1) at every L, B1697's a0 m2/m3 = 2/3 exactly. The weight class sets the exponents; nothing sets the scale. None of the 19. |  | 0 |
 | `B1809` | WHAT FOUR FRAMES ON RECORD LEAVE FREE (P-406 re-scoped; a census with one classical lemma; data-free): for every discrete choice on record each of four frames keeps a continuous datum nothing on record fixes or an infinite discrete menu nothing on record selects; the configurations the object's symmetry fixes are (i,0), (omega,0), (i,(1/2,1/2)), (omega,(1/3,2/3)); there the outputs are degeneracies, J = 0, or numbers set by the discrete choices -- Table T, which at B1667's L_2(i) runs from m2/m3 = 0.019 (a Higgs along R) to 1 (a0: (0.0753, 0.658); DR: (0, 1)); 'hierarchy' is not defined here, the table is the statement and P-432 completes it. Refereed hostile twice; main's own driver reproduces the table. None of the 19. |  | 0 |
+| `B1810` | THE SYMMETRY-SELECTION VALUE TABLE (P-432, first half; data-free): the frame's outputs at the four configurations the object's symmetry fixes, for Table T's directions and B1730's complete n = 1 family (13 directions, 832 rows, 206 distinct outputs); up and down coincide there up to phase (B1703: N | 6); at omega every direction falls on a stabiliser eigenline, the output (0, 1) or rank one; at (i, 0) every listed direction shares one left eigenbasis, so V is a permutation; on the 2-torsion line at i the first generation is massless for every listed direction but DR and a split reading gives one angle of order 1/L (0.101 at L_2(i), 9e-5 at L = 2560), a permutation as L -> infinity; J = 0 wherever V is defined. The directions are an infinite discrete family (a ladder in kappa at i), so these outputs are a comb indexed by a discrete choice. None of the 19. |  | 0 |
 
 ## NEGATIVE (376)
 

@@ -18094,3 +18094,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - P-419's flux frame closed for the generation count (a curve, not a point); P-406 delivered re-scoped as a census with Table T. 0 of 19.
 - **Landing suite (S250).** 7 854 passed, 68 skipped, 2 failed in 33:46 — B805's two standing attachment locks (P-239). The suite was launched with a shell '&' rather than as a tracked background job (disclosed; its result read from the log).
+
+## 2026-10-29 — S251 B1810 (THE SYMMETRY-SELECTION VALUE TABLE)
+
+- P-432's first half: the frame's outputs at the symmetry-fixed configurations, tabulated and structured; no data read. 0 of 19.
+- **Landing suite (S251).** 7 856 passed, 68 skipped, 2 failed in 31:25 — B805's two standing attachment locks (P-239).
