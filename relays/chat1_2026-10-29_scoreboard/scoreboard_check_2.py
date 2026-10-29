@@ -170,6 +170,8 @@ Q = [
     ("P-094", REG_ROWS["P-094"], "10.58 ± 0.11"),
     ("P-377", REG_ROWS["P-377"], "reaches χ²_nine 47 at best"),
     ("P-421", REG_ROWS["P-421"], "or the scale is an input"),
+    ("P-287", REG_ROWS["P-287"], "the fits put Im τ near 2.7 at the second horocycle and near 3.1 at the first"),
+    ("TWO_HIGGS_RULE", RULE, "Im τ ∈ {2.0, 2.1, …, 3.5} (16 values)"),
     ("TWO_HIGGS_RULE", RULE, "the readings S, S̃ and the two mixed ones"),
     ("TWO_HIGGS_RESULT", RES_, "depends on tan β"),
     ("ZERO_FREE_FRAME_EXPLORATION", seat(ZF), "only the ε = +1 lines with a ≥ 6 reach"),
