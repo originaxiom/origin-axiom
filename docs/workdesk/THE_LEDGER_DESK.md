@@ -132,11 +132,41 @@ dimensions are used only where the object is three-dimensional.
    with one orbit per order (W140) and the mirror's fixed configurations marked.
    - Beside it, the weave's own dynamics: the frame's potential over each order's modular curve, as small multiples over
      N, with the runaway to the cusp (W176).
-4. **The waves,** in the record's tick sense: at tick n a thread acts on the parities as (φ mod 2)ⁿ. A static matrix
-   of ticks against every state to a stated length, with one thread's row as a labelled focus.
-5. **The towers.** Each thread's tower of closed fillings (W125), all on shared axes, headed by the weave statement
-   they share. A 3D inside view of one filled manifold, exported from SnapPy in CI, opens only as a labelled THREAD
-   view.
+4. **The waves** (the owner's ruling, 2026-10-29: senses 1 and 2, with sense 4 as a plate).
+   - **The tick walk.** At tick n a thread acts as φⁿ, and on the parities as (φ mod 2)ⁿ. The stage is a static matrix
+     of ticks against every state to a stated length, carrying the WEAVE + WAVE results (the trichotomy, Theorem S;
+     W8, W11, W12). One thread's row is a labelled focus.
+   - **The field.** This is the owner's seed and field of 2026-10-13: the wave as the seed's counterpart, whose state
+     would supply the nineteen sizes, the vacuum point τ and the Higgs state (GENESIS FK9). It is drawn as the seed's
+     space of vacua with the record's candidate potentials over it (W59, W172–W176), marked plainly as not built and
+     not forced. The nineteen sit here.
+   - **Plate: the matter's wavefunctions.** The zero modes on the torus fibre (W21, W41, W60–W62), as one density per
+     line. Exact.
+5. **The towers** (the owner's ruling, 2026-10-29: the gauge towers of P-415, with towers 2 and 5 as plates and tower 3
+   later).
+   - **The gauge towers.** The owner's question of 2026-10-28 (main's P-415): does reality emerge from what is allowed
+     on all the towers together, rather than from one thread going through one of them? The chain is su(3) ⊕ su(2) ⊂
+     su(5) ⊂ so(10) ⊂ E₆ ⊂ E₇ ⊂ E₈. Where towers meet, matter sits (one step of enhancement) and Yukawas sit (two
+     steps). The stage draws every rung at once, none chosen, with each frame's verdict on each rung:
+     - main's B727 (NEGATIVE): E₆ across three faces is forced by the ADE classification, so it is generic, not the
+       object's;
+     - main's B1805 (Witten's G₂ frame): SU(5) keeps the mechanism and lacks the parity; Spin(10) has the parity and
+       loses the mechanism;
+     - main's B1812 (F-theory's 7-brane frame, NEGATIVE for towers meeting at loci): the genesis word LR lies in the
+       class of the E₁₀ configuration, whose nested pieces carry the whole chain. Only so(10) to E₈ can collapse to a
+       point; su(3) ⊕ su(2) and su(5) cannot. The object fixes the total class, not where any tower sits.
+     - P-415 stays open in other frames. The stage shows the record's verdicts and marks every untested frame as open.
+   - **Plate: each thread's tower of closed universes** (W125). The Dehn fillings of 42 threads to Q = 16,000, on shared
+     axes, headed by the weave statement they share: the same coefficients on every thread.
+   - **Plate: the congruence tower.** The lines of order N on the shared fibre and each order's modular curve (W140,
+     W176), with W153's ladder N = 2, 3, 5. Weave by construction.
+   - **Later: the closings at every tick of every thread** (tower sense 3). The closing at tick n is defined for every
+     thread from φⁿ, but only the root's (Y₂ to Y₂₄, `docs/THE_TOWER_2026-09-08.md`) are computed; the rest needs an
+     arc. Until then, the root's tower appears only as a labelled THREAD plate.
+   - A 3D inside view of one filled manifold, exported from SnapPy in CI, opens only as a labelled THREAD view.
+
+A **plate** is a panel opened from a stage, as plates in a book sit beside the text. It carries its own source and its
+own weave or thread label, and the stage's rule does not change when one is opened.
 
 Every frame states how it was made: the data file and its commit, the script, the projection, the colour map, and what
 is omitted. Every frame is also checked to be unchanged under rotation of a word and change of fundamental domain.
@@ -170,10 +200,13 @@ dimensions for objects that are not three-dimensional.
 
 ## Decisions for the owner
 
-- **"Wave".** The record uses it in two senses: the tick walk, and the seed-and-field framing of 2026-10-13. Which does
-  the story show?
-- **"Tower".** The record uses it for each thread's tower of fillings and for the root's tower, a single thread. Which
-  does the story show?
+- **"Wave" and "tower": ruled 2026-10-29.**
+  - **Wave:** the tick walk and the field, with the matter's wavefunctions as a plate.
+  - **Tower:** the gauge towers of P-415, with each thread's tower of closed universes and the congruence tower as
+    plates, and the closings at every tick later.
+  The record's other senses stay out of the story: "wave" as a batch of arcs; the root's tower as anything but a
+  labelled thread plate; the Ruelle tower; the web seat's excluded-order towers; the tower of spacetimes up the ranks,
+  which the record banked as not climbing.
 - **Two data fields.** Should the seats add a weave-or-thread field to every arc and a verdict file to every W arc?
   Every later view depends on these two.
 - **Where the desk lives.** A separate repository, or a CI job publishing from this one.

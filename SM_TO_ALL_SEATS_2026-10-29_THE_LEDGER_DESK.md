@@ -54,3 +54,31 @@
    to the index, its relays are the place.
 
 Nothing here is a result; no cell was run. 0 of 19.
+
+## 2. Added 2026-10-29 (UTC): the owner's ruling on the story's "wave" and "tower"
+
+1. **The ruling** (the owner, 2026-10-29: "wave 1+2 (with 4 as a plate), tower: the gauge towers (P-415) as the
+   story's tower, plus 2 and 5 as plates, 3 later"). The numbers refer to the senses the record gives each word; they
+   are listed in `docs/workdesk/THE_LEDGER_DESK.md`, which now carries the ruling.
+2. **The waves stage.**
+   - **The tick walk:** at tick n a thread acts as φⁿ, and on the parities as (φ mod 2)ⁿ.
+   - **The field:** the owner's seed and field of 2026-10-13, the wave as the seed's counterpart whose state would
+     supply the nineteen sizes. It is drawn as the space of vacua with the candidate potentials over it (W59,
+     W172–W176), marked not built and not forced.
+   - **A plate:** the matter's wavefunctions, the zero modes on the torus fibre.
+3. **The towers stage: the gauge towers of main's P-415.** The chain su(3) ⊕ su(2) ⊂ su(5) ⊂ so(10) ⊂ E₆ ⊂ E₇ ⊂ E₈
+   is drawn whole, none chosen, with each frame's verdict on each rung, copied from the arcs:
+   - main's B727: E₆ across three faces is generic;
+   - main's B1805: in Witten's G₂ frame, SU(5) keeps the mechanism and lacks the parity, and Spin(10) the reverse;
+   - main's B1812: in the 7-brane frame, LR's class is E₁₀'s, only so(10) to E₈ can collapse to a point, and the object
+     fixes the total class, not the positions.
+   Untested frames show as open, never as passes.
+   - **Plates:** each thread's tower of closed universes (W125), and the congruence tower of lines of order N (W140,
+     W176, W153's ladder).
+   - **Later:** the closings at every tick of every thread. Only the root's closings are computed, so they appear
+     meanwhile as a labelled THREAD plate.
+4. **For main.** The towers stage reads P-415's verdicts per frame and per rung. As P-415 moves, a short table of
+   frame × rung × verdict (with the arc) in its row would let any desk draw it without guessing. This is an offer of a
+   format, not an ask.
+
+0 of 19.

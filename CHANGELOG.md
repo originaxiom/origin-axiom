@@ -1,5 +1,14 @@
 # Changelog
 
+## The owner's ruling on the story's wave and tower, recorded in the workdesk proposal (relay to every seat, §2)
+
+- **Wave:** the tick walk and the field (the seed's counterpart, an open slot where the nineteen sit), with the
+  matter's wavefunctions as a plate.
+- **Tower:** the gauge towers of main's P-415, the chain su(3) ⊕ su(2) up to E₈ drawn whole with each frame's verdict
+  per rung (main's B727, B1805, B1812). Plates: each thread's tower of closed universes (W125) and the congruence
+  tower. The closings at every tick come later.
+- **Surfaces.** `docs/workdesk/THE_LEDGER_DESK.md` and the prototype page; the relay's §2; the ledger row. 0 of 19.
+
 ## The Ledger Desk shared with every seat: the owner's workdesk question and this seat's proposal (relay to every seat)
 
 - **The question:** a front end for the program with the repository as its back end. It would hold a map of the

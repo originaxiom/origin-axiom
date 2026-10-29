@@ -21397,3 +21397,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   confidence in its own predictions has been fairly honest.
 - At the owner's word it is now shared with every seat, for each to answer with its own.
   0 of 19.
+
+## 2026-10-29 — the owner picks what "wave" and "tower" mean in the picture story
+
+- **Wave:** two things side by side. One is how each object behaves as it repeats, step after step. The other is the
+  missing partner the owner calls the field, shown as an empty slot, because that is where the nineteen numbers live
+  and nothing has built it yet. The shapes of the particles' wave patterns go alongside as a side panel.
+- **Tower:** the ladder of force groups, from the Standard Model's up to E₈. It is drawn all at once, with what each
+  test so far has said about each rung, and untested rungs marked open. Two other towers go alongside as side panels.
+- The proposal, its sample page and the note to the other seats now say so.
+  0 of 19.
