@@ -375,6 +375,9 @@ n = 2000 (two seeds, 2000 walks each).
 - **The feedback** is the walk: steps and their pull-backs, escaping at a positive rate (§9.3). Its long-run averages
   are set by equidistribution (Duke for long threads; the geodesic flow's ergodicity for the typical motion, ⟨f⟩ =
   0.31500491, §7).
+  > *Corrected 2026-10-29 (S258, P-469): false for the walk. B1663 found the walk's averaged defect 0.517 the same day, and B1815 proves
+  > its exit law is Minkowski's (the move clock): equidistribution's 0.315 is the trace ordering's and the typical motion's, not the
+  > walk's.*
 - **Equidistribution is the spectral gap in disguise:** how fast the threads forget where they started is set by the
   lowest wave above the constant one.
 - **So "weave or wave" is the trace formula's two sides,** and the push-back is the motion that reads one through the

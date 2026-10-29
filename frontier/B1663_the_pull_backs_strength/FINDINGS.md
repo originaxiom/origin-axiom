@@ -24,6 +24,16 @@ and Tiozzo (2015) for nonuniform lattices (the preregistration's "Guivarc'h–Le
 wider than their papers; corrected at banking by the paper's attribution check); Series (1985); the Minkowski
 question-mark measure.
 
+> *Corrected 2026-10-29 (S258, B1815):*
+> - *The exit law is now known in closed form: ν_p = (1−p)·M + p·F₊M at every p. So this arc's T2 (P(ξ > 0) = 1 − p) and
+>   T4(b) (the shape does not depend on p) are theorems.*
+> - *The Guivarc'h–Le Jan 1993 paper and its 1996 note contain no random-walk theorem. The singularity corollary is
+>   attributed by Blachère–Haïssinsky–Mathieu (Theorem 1.10) to their 1990 C. R. note, which was not read. The citation
+>   rests on Gadre–Maher–Tiozzo, Deroin–Kleptsyn–Navas, Blachère–Haïssinsky–Mathieu and Bénard. The same attribution sits
+>   in the sealed instrument's docstring (T4(c)).*
+> - *The post-seal digit frequencies, and the ray averages, carry a small length bias from pooling walks stopped at a size
+>   cap (about −0.35% in P(Im τ > 2)). No verdict changes.*
+
 ## 0b. Disclosed
 
 - In full in the preregistration's §0b and §5: the ray instrument's design (a truncation bias found and removed),

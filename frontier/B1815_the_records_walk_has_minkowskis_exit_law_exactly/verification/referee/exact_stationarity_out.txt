@@ -1,0 +1,10 @@
+reduced identity (a): ?(1-x) = 1 - ?(x) on rationals in (0,1): 0
+reduced identity (b): M([1,x]) = M([x/(x-1), inf]) for rational x > 1: 0
+p = 0     claimed law: max |defect| = 0   control (side weight moved by 0.1): max |defect| = 0.05
+p = 1/10  claimed law: max |defect| = 0   control (side weight moved by 0.1): max |defect| = 0.05
+p = 1/3   claimed law: max |defect| = 0   control (side weight moved by 0.1): max |defect| = 0.05
+p = 1/2   claimed law: max |defect| = 0   control (side weight moved by 0.1): max |defect| = 0.05
+p = 3/4   claimed law: max |defect| = 0   control (side weight moved by 0.1): max |defect| = 0.05
+p = 9/10  claimed law: max |defect| = 0   control (side weight moved by 0.1): max |defect| = 0.05
+p = 1     claimed law: max |defect| = 0   control (side weight moved by 0.1): max |defect| = 0.05
+unequal-within-pair walk, best side weight w in {0.40..0.60}: min over w of max|defect| = 0.01249995231628418

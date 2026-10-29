@@ -1,0 +1,4 @@
+by word length n = 10: threads 99, mean f 0.5040 +- 0.0124, length-weighted 0.5169
+by word length n = 12: threads 335, mean f 0.5070 +- 0.0061, length-weighted 0.5178
+by word length n = 14: threads 1161, mean f 0.5084 +- 0.0030, length-weighted 0.5176
+control by trace <= 200 (B1666's own enumeration): threads 4186, mean f 0.3187

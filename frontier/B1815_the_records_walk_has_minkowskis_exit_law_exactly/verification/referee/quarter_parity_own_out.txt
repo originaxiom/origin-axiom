@@ -1,0 +1,9 @@
+length <= 10:    224 classes, share 0.3214  | exactly 10: share 0.5152
+length <= 11:    410 classes, share 0.1756  | exactly 11: share 0.0000
+length <= 12:    745 classes, share 0.3181  | exactly 12: share 0.4925
+length <= 13:   1375 classes, share 0.1724  | exactly 13: share 0.0000
+length <= 14:   2536 classes, share 0.3241  | exactly 14: share 0.5039
+length <= 15:   4718 classes, share 0.1742  | exactly 15: share 0.0000
+length <= 16:   8798 classes, share 0.3244  | exactly 16: share 0.4980
+length <= 17:  16508 classes, share 0.1729  | exactly 17: share 0.0000
+length <= 18:  31040 classes, share 0.3265  | exactly 18: share 0.5010

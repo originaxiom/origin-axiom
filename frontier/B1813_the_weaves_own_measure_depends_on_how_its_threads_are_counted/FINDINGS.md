@@ -148,6 +148,8 @@ for N = 3, …, 30 (0.99 for N = 2).
 - **B852:** the Farey map's pressure and its phase transition.
 - **W57** (the SM seat; harvest row 1099): the hyperbolic measure in the ruled-branch frame.
 - The SM seat's § 320; B1720; B1733; B1662; B1629; B1630; THE_WEAVE's rule.
+- *Added 2026-10-29 (S258, P-470): B1666, omitted here, reached 0.315 by trace on 2026-10-16, the day B1663 found the move clock's
+  0.517. Both clocks were on record that day.*
 
 **Literature (pointers, not read on the bench unless marked):**
 - Minkowski's ?(x) (Denjoy; Salem); Kinney (1960); Kesseböhmer–Stratmann (2007);

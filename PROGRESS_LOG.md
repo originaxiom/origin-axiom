@@ -18129,3 +18129,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The clock as one dial from the principle's golden path to the critical point; nothing turns it yet; the test plan T1–T6 (T2 and T1 first, approved). 0 of 19.
 - **Landing suite (S257).** 7867 passed, 68 skipped, 2 failed (46:33; audit/suite_logs/landing_S257.log): B805's two attachment locks (standing, P-239).
+
+## 2026-10-29 — S258 B1815 (THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY)
+
+- The clock plan T1-T4 done and verified: the walk model is the move clock exactly; the frame is native to continuous clocks; nothing generates the symmetry that would force area; the clock stays CHOSEN. 0 of 19.
+- **Landing suite (S258).** 7867 passed, 68 skipped, 5 failed (44:10; audit/suite_logs/landing_S258.log): three fixed before the push -- B1815's copied T1 census carried a vendor token in a branch name and its copied T3/T4 report cited a path that exists only on the seat's branch (both made neutral; the gates had been run before the new files were staged), and B1815 was absent from the claim pool (row added); the three tests rerun and pass. B805's two attachment locks (standing, P-239).

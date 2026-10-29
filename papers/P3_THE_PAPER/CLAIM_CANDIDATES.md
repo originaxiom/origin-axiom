@@ -583,6 +583,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1679` | PROVED | L | | THE COMMON POINT FOR EVERY n: for n ≥ 3 the only SL(2, ℂ) character of F_n fixed by every move is trivial; at n = 2 the record's moves fix the trivial point and the quaternion point; two records follow from a non-trivial common character; no data |
 | `B1680` | PROVED | L | | THE COMMON POINT IN TARGETS OF HIGHER RANK: in every finite target tested a common point exists only at two records, and it is always a Heisenberg point (Q₈, H(3), H(5)); the target supplies only the prime, p = 2 giving the triplet; no data |
 | `B1682` | PROVED | L | | THE WORD SIDE OF THE RECORD COUNT: for n ≥ 3 no non-trivial conjugacy class of F_n keeps its length under every move; at n = 2 the kept classes are the powers of [a, b]; a kept object, class or character, exists exactly at two records, so the common point characterises GM1 rather than deriving it from a weaker input; no data |
+| `B1815` | PROVED | L | | THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY: for i.i.d. letters L, R at (1−p)/2 and L⁻¹, R⁻¹ at p/2 the endpoint law is (1−p)·M + p·F₊M at every p, singular to area, P(ξ > 0) = 1 − p; with the arclength placement its averages are the move clock's; the clock stays CHOSEN |
 
 ## The exhibit that forced the rebuild
 

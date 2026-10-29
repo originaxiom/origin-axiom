@@ -1,0 +1,10 @@
+by trace <= 400        classes  14690  share with #L = #R mod 4: 0.2481
+by trace <= 200        classes   4186  share with #L = #R mod 4: 0.2523
+by word length <= 16   classes   8798  share with #L = #R mod 4: 0.3244
+by word length <= 14   classes   2536  share with #L = #R mod 4: 0.3241
+86:  representation, and nothing above 3. The lemma: dL and dR at the common point are quarter turns about two axes of the
+569:  is ∣D∣/(2πL∣R∣²) or a quarter of it, a cone at ω.
+597:  multiplied by exactly i^(#L−#R), the Higgs's character. So coherent averages live on the quarter of threads with
+721:  as quarter turns and generate Aut(Q₈) ≅ S₄; B1611's group modulo its centre ℤ₄ is that group, L to L and R to R; the
+
+[exited with code 0]

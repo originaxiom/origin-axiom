@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1518 of 1518 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1519 of 1519 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1035)
+## PROVED (1036)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1047,6 +1047,7 @@
 | `B1809` | WHAT FOUR FRAMES ON RECORD LEAVE FREE (P-406 re-scoped; a census with one classical lemma; data-free): for every discrete choice on record each of four frames keeps a continuous datum nothing on record fixes or an infinite discrete menu nothing on record selects; the configurations the object's symmetry fixes are (i,0), (omega,0), (i,(1/2,1/2)), (omega,(1/3,2/3)); there the outputs are degeneracies, J = 0, or numbers set by the discrete choices -- Table T, which at B1667's L_2(i) runs from m2/m3 = 0.019 (a Higgs along R) to 1 (a0: (0.0753, 0.658); DR: (0, 1)); 'hierarchy' is not defined here, the table is the statement and P-432 completes it. Refereed hostile twice; main's own driver reproduces the table. None of the 19. |  | 0 |
 | `B1810` | THE SYMMETRY-SELECTION VALUE TABLE (P-432, first half; data-free): the frame's outputs at the four configurations the object's symmetry fixes, for Table T's directions and B1730's complete n = 1 family (13 directions, 832 rows, 206 distinct outputs); up and down coincide there up to phase (B1703: N | 6); at omega every direction falls on a stabiliser eigenline, the output (0, 1) or rank one; at (i, 0) every listed direction shares one left eigenbasis, so V is a permutation; on the 2-torsion line at i the first generation is massless for every listed direction but DR and a split reading gives one angle of order 1/L (0.101 at L_2(i), 9e-5 at L = 2560), a permutation as L -> infinity; J = 0 wherever V is defined. The directions are an infinite discrete family (a ladder in kappa at i), so these outputs are a comb indexed by a discrete choice. None of the 19. |  | 0 |
 | `B1813` | THE WEAVE'S OWN MEASURE DEPENDS ON HOW ITS THREADS ARE COUNTED (the owner's whole-existence computation, stage 1; P-107; data-free): left unforced, the threads produce a definite measure on tau for each counting rule, and the rule is a continuum -- counted move by move (Minkowski's measure, B1663) the limit keeps out of the cusp, P(Im tau > Y) ~ 3.9 * 4^-Y / sqrt(Y) (0.0346 at Y = 3); counted by geometric length it approaches hyperbolic area (0.315 at trace <= 400 against 0.318); weighting words by exp(-s * l) interpolates, the cusp tail's rate falling to zero at the Farey map's phase transition (s = 1, B852), where area lives. P-107 relocated, not settled: the counting rule is CHOSEN. A reading (conditional on H-cov and end data): under the move rule deep hierarchies are power-suppressed; at the critical point they are common. None of the 19. |  | 0 |
+| `B1815` | THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY (the owner-approved clock plan T1-T4; data-free; refereed hostile, PASS WITH CORRECTIONS): the walk model of B1662/B1663 (L, R at (1-p)/2, L^-1, R^-1 at p/2) has endpoint law nu_p = (1-p) M + p F_*M at every p -- Minkowski's measure and its mirror, singular to area, P(xi > 0) = 1 - p exactly (an elementary proof; an exact rational test, defect identically 0 at seven p) -- so with tau placed by arclength along the ray (CHOSEN) its averages are B1813's move clock's (0.0346 above Im tau = 3; B1663's 0.517). The object's discrete symmetry cannot decide the clock (Minkowski's measure is SL(2,Z)-quasi-invariant); the frame that computes the masses never sees word length; nothing on record generates a continuous horocycle action (Dani's door is CHOSEN); the record's established results are consistent with both clocks. The clock stays CHOSEN. Main's reading that the letters count branes is refuted (L is conjugate to no 7-brane monodromy). 0 of 19. |  | 0 |
 
 ## NEGATIVE (379)
 

@@ -1,0 +1,25 @@
+{
+ "algebra: max |F L F - L^-1| + |F R F - R^-1| on three points": 0.0,
+ "M: P(xi >= 0) at p = 0": 1.0,
+ "p = 0.25": {
+  "P(xi > 0)": 0.7478,
+  "1 - p": 0.75,
+  "KS(walk, (1-p)M + p(-M))": 0.0093,
+  "KS noise scale ~ 1.36 sqrt(2/N)": 0.0136,
+  "control: KS(walk, M)": 0.2524
+ },
+ "p = 0.75": {
+  "P(xi > 0)": 0.2512,
+  "1 - p": 0.25,
+  "KS(walk, (1-p)M + p(-M))": 0.0079,
+  "KS noise scale ~ 1.36 sqrt(2/N)": 0.0136,
+  "control: KS(walk, M)": 0.7488
+ },
+ "p = 0.9": {
+  "P(xi > 0)": 0.0987,
+  "1 - p": 0.09999999999999998,
+  "KS(walk, (1-p)M + p(-M))": 0.0104,
+  "KS noise scale ~ 1.36 sqrt(2/N)": 0.0136,
+  "control: KS(walk, M)": 0.9013
+ }
+}

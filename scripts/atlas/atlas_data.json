@@ -11571,7 +11571,9 @@
     "coupling",
     "wrt_quantum"
    ],
-   "refs": [],
+   "refs": [
+    "S258"
+   ],
    "obstacle": "particle_dict",
    "obstacle_conf": 9,
    "status": "dead",
@@ -12143,7 +12145,8 @@
    "refs": [
     "B186",
     "B451",
-    "S142"
+    "S142",
+    "S258"
    ],
    "obstacle": "measure",
    "obstacle_conf": 3,
@@ -14813,7 +14816,8 @@
     "S163",
     "S164",
     "S245",
-    "S248"
+    "S248",
+    "S258"
    ],
    "obstacle": "measure",
    "obstacle_conf": 33,
@@ -14835,6 +14839,30 @@
    "obstacle_conf": 23,
    "status": "open",
    "domain": "physics"
+  },
+  "B1815": {
+   "slug": "the records walk has minkowskis exit law exactly",
+   "motifs": [
+    "monoid",
+    "trace_map",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "symplectic",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B169",
+    "B21",
+    "B944",
+    "B97"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 23,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B181": {
    "slug": "criticality scale",

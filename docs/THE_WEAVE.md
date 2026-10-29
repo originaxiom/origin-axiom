@@ -596,8 +596,12 @@ found with B1635's sealed instrument.
 - **On every thread with trace ≤ 600** (30 674), the matter's amplitude D·(dz/ds)^(−1/2) returns after one period
   multiplied by exactly i^(#L−#R), the Higgs's character. So coherent averages live on the quarter of threads with
   #L ≡ #R (mod 4).
+  > *Scoped 2026-10-29 (S258, B1815 § 5; P-439): "the quarter" is a by-trace number (0.248 at trace ≤ 400, 0.252 at ≤ 200). By word
+  > length the share has no limit: it alternates with the parity of the length cut, 0.32 at even cuts and 0.17 at odd ones.*
 - **By trace, the threads reach the constant mode.** The layer averages of the defect come out at the typical motion's
   0.315, with the gap closing as t^(−½). This is the weave side meeting the wave side's constant.
+  > *Scoped 2026-10-29 (S258, B1815 § 5): this holds by trace; ordered by word length (the walk model's clock) the same layer averages
+  > are 0.508–0.518 (B1663's 0.517), so the meeting is a property of the trace ordering, CHOSEN.*
 - **The amplitude has no constant wave.** Its coherence decays with length. The coherent rule favours the cusp family
   L^(4m+1)R, not the root: the weave's "nothing" end, where f vanishes, carries the coherent amplitude.
 - **The pull-back's strength** (B1663) sets the side and the speed of the motion, not the defect it averages

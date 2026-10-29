@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1518** |
-| words of findings prose | **1,249,272** |
+| research arcs with findings | **1519** |
+| words of findings prose | **1,252,617** |
 | test lock files referenced | **925** |
-| arcs carrying an authored verdict | **1518** (100.0 %) |
+| arcs carrying an authored verdict | **1519** (100.0 %) |
 | recorded closures | **855** (688 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1035 |
+| PROVED | 1036 |
 | NEGATIVE | 379 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1813`** (1702 words, 0 locks)  
-THE WEAVE'S OWN MEASURE DEPENDS ON HOW ITS THREADS ARE COUNTED (the owner's whole-existence computation, stage 1; P-107; data-free): left unforced, the threads produce a definite measure on tau for each counting rule, and the rule is a continuum -- counted move by move (Minkowski's measure, B1663) the limit keeps out of the cusp, P(Im tau > Y) ~ 3.9 * 4^-Y / sqrt(Y) (0.0346 at Y = 3); counted by geometric length it approaches hyperbolic area (0.315 at trace <= 400 against 0.318); weighting words by exp(-s * l) interpolates, the cusp tail's rate falling to zero at the Farey map's phase transition (s = 1, B852), where area lives. P-107 relocated, not settled: the counting rule is CHOSEN. A reading (conditional on H-cov and end data): under the move rule deep hierarchies are power-suppressed; at the critical point they are common. None of the 19.  
-`B1813_the_weaves_own_measure_depends_on_how_its_threads_are_counted/FINDINGS.md`
+**PROVED — `B1815`** (3130 words, 0 locks)  
+THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY (the owner-approved clock plan T1-T4; data-free; refereed hostile, PASS WITH CORRECTIONS): the walk model of B1662/B1663 (L, R at (1-p)/2, L^-1, R^-1 at p/2) has endpoint law nu_p = (1-p) M + p F_*M at every p -- Minkowski's measure and its mirror, singular to area, P(xi > 0) = 1 - p exactly (an elementary proof; an exact rational test, defect identically 0 at seven p) -- so with tau placed by arclength along the ray (CHOSEN) its averages are B1813's move clock's (0.0346 above Im tau = 3; B1663's 0.517). The object's discrete symmetry cannot decide the clock (Minkowski's measure is SL(2,Z)-quasi-invariant); the frame that computes the masses never sees word length; nothing on record generates a continuous horocycle action (Dani's door is CHOSEN); the record's established results are consistent with both clocks. The clock stays CHOSEN. Main's reading that the letters count branes is refuted (L is conjugate to no 7-brane monodromy). 0 of 19.  
+`B1815_the_records_walk_has_minkowskis_exit_law_exactly/FINDINGS.md`
 
 **NEGATIVE — `B1814`** (2324 words, 0 locks)  
 THE MEASURED WORLD AS A DRAW FROM THE WEAVE'S OWN MEASURE (P-437, stage 3; sealed 86cb26b30; NEGATIVE as sealed for D2's prediction): by the sealed statistic the six do not separate B1813's two clocks (p_F 0.43 under the geometric clock, 0.069 under the move clock) -- the clock is not decided by these numbers, and the test could not have decided it (power about 19%: a world from the critical clock fails D2 about 81% of the time; the p_nn read-out shows the pattern, as for 67% of random hierarchies). The six are not atypical at the 5% level among the geometric clock's resolved worlds, unforced (p_nn 0.072) or with B1726's two ingredients by hand (0.094), CONSISTENT, NOT SPECIFIC (73% and 45% of random hierarchies pass); D1 fails at the floor 1e-8 and the model does not come close (the nearest unforced world 11 sigma away); with the mixings the by-hand world is atypical (0.0017); anarchy puts the data at the estimator's floor. 0 of 19.  

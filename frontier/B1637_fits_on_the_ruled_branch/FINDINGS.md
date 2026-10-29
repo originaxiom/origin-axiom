@@ -60,6 +60,8 @@ but a failure is a statement about this search.
   about 2·10⁻⁵, and the weight-3 lepton fits near 6.8. That is deep toward the cusp. Under the weave's uniform measure
   the principle's dynamics puts no weight there (B1629, as scoped in B1648), and in the fibre frame τ runs there (the
   SM seat's W62). Neither selects a τ, and the fits do not either.
+  > *Sharpened 2026-10-29 (S258, B1815 § 7): "puts no weight there" overstates B1629 (scoped by B1648 to the limit Y → ∞): the uniform
+  > word measure, lifted (B1813's move clock), puts 3.5% of its weight above Im τ = 3 and 0.03% above 6 — small, not none.*
 
 ## 3. Read against W54 (P-076)
 
