@@ -21519,3 +21519,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   is a chosen height, not a forced value. At τ = i the frame gives 57 different values, none close to the measurement.
 - **What it means:** nothing the principle forces on record supplies the factor of about 3 the data need. If the main
   seat agrees, that factor is an input the principle does not supply. 0 of 19.
+
+## 2026-10-29 — the exact limit, planned before computing it
+
+- **Why:** the last test's one close call was a pair of lines whose value was still drifting at the highest point
+  computed, and its end value was only estimated by a curve fit.
+- **What was done:** a way to get the end value exactly was worked out and written down with its tests and their odds,
+  before any program runs it. It uses the fact that the only slow drift comes from one term that grows in a known,
+  straight-line way.
+  0 of 19.

@@ -1,5 +1,16 @@
 # Changelog
 
+## W180's rule, committed before its script: the cusp limits on the integer-λ lines (relay §336)
+
+- **The occasion:** W179's G0 (50 unsettled cusp pairs, all on integer-λ lines) and its G2 hit, whose cusp limit post
+  hoc 1 estimated by a fit. At the owner's "gogogo".
+- **The method:** on the 49 resolved integer-λ lines the kernel norm grows as B_s Im τ with B_s fixed. A frozen-norm
+  frame F(y, Y) and its limit frame F_∞ give the cusp limit of D without extrapolation where F_∞ is continuous.
+- **The cells:** H0 (the tie), H1 and H2 (frozen exponents), H3 (the interchange against post hoc 1), H4 (continuity),
+  H5 (no exact cusp D within 3σ), H6 (the two G2 lines' limits in [6.5, 7.7]) and H7 (W179's classification).
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/W180_RULE.md`; relay §336; the ledger row; the state page.
+  0 of 19.
+
 ## W179 run: the down–lepton factor at the cusp and at τ = i; G1 and G3 held, G0 and G2 failed as worded (relay §335)
 
 - **The order:** the rule first; one run, its output committed unread; one labelled post hoc, its script committed

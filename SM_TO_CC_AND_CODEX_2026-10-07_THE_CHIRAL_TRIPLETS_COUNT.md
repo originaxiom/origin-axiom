@@ -10266,3 +10266,26 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    answer on the split stays W140's, D ≡ 1.
 
 0 of 19.
+
+## 336. Added 2026-10-29 (UTC): W180's rule — the cusp limits on the integer-λ lines
+
+1. **The occasion.** W179 left G0 (50 unsettled cusp pairs, all on integer-λ lines) and the G2 hit, whose limit post
+   hoc 1 put near 7.1 by a fit. W180 replaces the fit with the limit
+   (`docs/dossiers/the_weave_2026-10-07/W180_RULE.md`, committed and pushed before its script).
+2. **The method.** On the 49 resolved integer-λ lines, W177's norm splits as c^∞ + B_s Im τ + (exponentially small),
+   with B_s independent of the height (data-free). The rule fixes three pieces:
+   - the frozen-norm frame F(y, Y);
+   - the interchange of limits that makes the cusp D the limit of the frozen cusp H(Y);
+   - the limit frame F_∞, with weight √B_s on the integer channels only, which gives D∞ without extrapolation where it
+     is continuous.
+3. **The cells.**
+   - H0, the tie to W178 at Im τ 48.
+   - H1 and H2, frozen exponents converge and are simple fractions.
+   - H3, the interchange against post hoc 1's true D at Im τ 64, 96 and 128.
+   - H4, continuity of the limit frame.
+   - H5, no exact cusp D within 3σ of 10.58.
+   - H6, D∞ in [6.5, 7.7] on the two G2 lines.
+   - H7, W179's classification.
+4. **Labelled** neither (a frame census over every census line with an integer-λ kernel, at the cusp).
+
+0 of 19.
