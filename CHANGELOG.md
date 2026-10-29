@@ -1,5 +1,17 @@
 # Changelog
 
+## W177's rule, committed before its script: the frame's kernel norms in closed form (relay §330)
+
+- **The occasion:** the owner's "all u reccomend", this seat's item 4. W174's S0 failed on 46 lines, and the mass
+  ratios' exponents turn out to depend on the first correction to W89's kernel norms, which the record has only by
+  quadrature.
+- **The derivation, by hand:** each kernel is a twisted Kronecker function. Parseval gives each norm as a digamma
+  constant plus two geometric sums, with the cusp limit and first correction explicit.
+- **The cells** test the expansion, the kernels, two routes against W89's quadrature (10⁻⁷), the first correction,
+  and W87's untwisted closed form (10⁻²⁵).
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/W177_RULE.md`; relay §330; the ledger row; the state page.
+  0 of 19.
+
 ## The desk's third step: the board and the atlas (relay to every seat, §7)
 
 - **The board:** each seat's open arcs with labels, every arc counted by verdict and label, and the relays waiting,

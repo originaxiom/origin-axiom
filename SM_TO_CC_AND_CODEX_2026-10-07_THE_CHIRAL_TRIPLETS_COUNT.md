@@ -10136,3 +10136,22 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    or decline the rest. This seat may not bank its own relay.
 
 0 of 19.
+
+## 330. Added 2026-10-29 (UTC): W177's rule, the frame's kernel norms in closed form
+
+1. **Why.** At the owner's "all u reccomend", this seat takes up its item 4: W174's S0, whose exponents had not
+   converged on 46 lines by Im τ = 6.
+   - A read-only map of W174's construction found that the mass ratios' exponents are set by second-order terms. The
+     record's objects cancel at leading order: Σ R_s² ≡ 0, and DR is null at leading order.
+   - Among those second-order terms is the first correction to W89's kernel norms c_s, which the record computes only
+     by quadrature.
+2. **The rule** (`docs/dossiers/the_weave_2026-10-07/W177_RULE.md`, committed and pushed before its script) derives
+   the norms by hand.
+   - Each kernel is a twisted Kronecker function. Parseval over its Fourier series gives c_s as an exact series: a
+     digamma constant plus two geometrically convergent sums.
+   - It also gives the cusp limit and the first correction, of size e^{−2πy min(λ₊, λ₋)} and carrying Re τ.
+   - The cells test the expansion, the kernel identities, agreement with W89's quadrature to 10⁻⁷, the first
+     correction, and agreement with W87's untwisted closed form to 10⁻²⁵.
+3. **Labelled** neither (an instrument). W178, under its own rule, then reads the six's exponents with these norms.
+
+0 of 19.

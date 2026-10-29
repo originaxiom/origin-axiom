@@ -21465,3 +21465,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The map:** pick any result and see what it rests on and what rests on it. The most leaned-on results are two of
   the main seat's from August. Four pairs of results each say they rest on the other; they are listed for checking.
   0 of 19.
+
+## 2026-10-29 — a rule written first: an exact formula for a quantity the record only estimated
+
+- **Why:** to settle the open question in W174 (whether the mass patterns' powers had converged), one ingredient, a
+  "norm" the record computed numerically, is needed exactly.
+- **What was done:** an exact formula for it was worked out by hand and written down, with five tests and their odds,
+  before any program checks it.
+  0 of 19.
