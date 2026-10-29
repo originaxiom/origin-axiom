@@ -1,0 +1,10 @@
+THE CRITICAL LINE, POST HOC: e^P(-k/2) against the spectral radius of Sym^k L + Sym^k R
+
+k =  0 (beta =   0.0): log rho = 0.6931471806   P(beta) = 0.6931471806   difference -4.4e-16
+k =  1 (beta =  -0.5): log rho = 1.0986122887   P(beta) = 1.0986122887   difference 1.6e-15
+k =  2 (beta =  -1.0): log rho = 1.5176630947   P(beta) = 1.5176630947   difference -4.9e-15
+k =  4 (beta =  -2.0): log rho = 2.3809408006   P(beta) = 2.3809408006   difference 2.5e-14
+k =  8 (beta =  -4.0): log rho = 4.1652244638   P(beta) = 4.1652244638   difference -1.2e-14
+k = 16 (beta =  -8.0): log rho = 7.8496759987   P(beta) = 7.8496759987   difference 0.0e+00
+
+exact forms: k = 1: rho = 3; k = 2: rho = 4.5615528128 = (5 + sqrt 17)/2 = 4.5615528128
