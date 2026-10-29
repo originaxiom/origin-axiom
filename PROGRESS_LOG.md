@@ -18050,3 +18050,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - B1739, B1740, B1790: three scope corrections verified on main and applied (dated notes, RETRACTIONS, an E2 instance); no negative reverses. 0 of 19.
 - **Landing suite (S242).** 7 842 passed, 68 skipped, 2 failed in 36:25 — B805's two standing attachment locks (P-239).
+
+## 2026-10-29 — S243 P-277 CLOSED, VERIFIED ON MAIN
+
+- W175 reproduced on main; spontaneous CP violation at fixed height on the mirror-free classes; no true minimum in τ. 0 of 19.
+- **Landing suite (S243).** 7 842 passed, 68 skipped, 2 failed in 35:09 — B805's two standing attachment locks (P-239).

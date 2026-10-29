@@ -1,5 +1,9 @@
 # Changelog
 
+## S243 P-277 CLOSED, VERIFIED ON MAIN (2026-10-29)
+
+- The SM seat's W175 re-run on main's machine reproduces its output (cells identical; least ∣J∣ 4.5432 × 10⁻⁶ on the mirror-free classes): the frame's own one-loop potential breaks CP spontaneously at every fixed height on the mirror-free slope-2/5 classes. Scoped: no true minimum in τ at finite height (dV/dy > 0; W176). P-277 DONE. 0 of 19.
+
 ## S242 THE WEB SEAT'S AUDIT OF MAIN'S ARCS, VERIFIED AND APPLIED (P-423; 2026-10-29)
 
 - The web seat's integrity audit of main's B1739, B1740 and B1790 (harvest row 1461) re-run on main: its audit_checks.py parts C, D, E and b1740_floor.py reproduce its committed lines exactly against main's checkout; B1740's control C1(iii) read in the code and confirmed vacuous. No negative reverses; three scope corrections applied by dated notes — B1739's '∣V_ud∣ ∝ r^½' is the median's slope only and its '52.7' is not the reading's least (22.36); B1740's dichotomy is sealed for F₋₂ only and its C1(iii) tests nothing (an E2 instance); B1790 missed a holomorphic section that reproduces S̃ exactly on the mirror lines. RETRACTIONS (the index 56; P3's count updated), ERROR_LEDGER, P-423 DONE, P-345 noted. 0 of 19.
