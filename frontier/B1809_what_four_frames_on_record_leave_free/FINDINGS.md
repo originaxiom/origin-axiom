@@ -116,6 +116,8 @@ regenerate byte-identically on main; the two code paths agree to every printed d
 - C(d): τ, and a generic section's coefficients.
 - D: the weight class; a shared or per-sector section; h; the line (orders 1–12, 15–30); the reading (eight, B1790);
   c; h₀.
+  > *Re-typed 2026-10-29 (P-489): h₀ is a continuous datum set by hand (h₀ = 0), not a discrete choice (the web seat's
+  > scoreboard row 1478).*
 
 **Fixed at d.**
 - Degeneracies at the special points (Table T).

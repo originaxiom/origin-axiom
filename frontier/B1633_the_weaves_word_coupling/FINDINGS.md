@@ -19,6 +19,13 @@ As sealed: `VERDICT topic-sweep /word.reading|thread's own H|zero.mode projector
 | **W3** | each coset's limit commutes with all of G | 90% | **HOLDS** — both limits are scalars. Odd lengths have trace 0 (no zero modes at all, as the seat's W42 found); even lengths have a mean zero-mode dimension of 5/12 |
 | **W4** | the zero-mode fraction tends to a constant between ¼ and ½ | 60% | **HOLDS** — 0.3125 (to 0.312 at n = 38). The seat's primitive census gives 237/745 ≈ 0.32 to length 12 |
 
+> *Corrected 2026-10-29 (P-483; recounted on main, `verification/p483_recount/`): W4's comparison set two different quantities
+> side by side. W4 is a per-length fraction over all words, with the record's single lift, at even n (odd lengths carry no
+> zero modes). The seat's 237 of 745 is a census of primitive threads over lengths 2–12, counting a thread when either sign
+> extension ±g of its lift has a fixed vector (its W42, Part B). Counted one per thread with this arc's single lift, the census
+> gives 157 of 745 (0.211; 157 of the 477 even-length threads, 0.329); with either extension it gives exactly 237. W4's
+> verdict (the per-length fraction tends to a constant in [¼, ½]) is unaffected.*
+
 ## 2. What it says
 
 - **One thread reads the rule's word.** Its own H¹ breaks the parity grading (democratically, by the seat's W42).

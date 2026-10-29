@@ -11,6 +11,12 @@ signature are all the OBSERVER-COUPLING's — the same handoff as chirality (B71
 values (B685/B706).** The object supplies no external time, no canonical 4d, no
 canonical Lorentzian continuation; becoming is imposed on it, not authored by it.
 
+> *Sharpened 2026-10-29 (the web seat's THE CONE AND THE SIGN, REPRODUCED by main's verifier; main's ruling): the Lorentzian
+> signature is not the observer's. The holonomy carries it: PSL(2, ℂ) ≅ SO⁺(3, 1) acts on the Hermitian matrices with det of
+> signature (1, 3), and H³ is the mass hyperboloid (B428) — generic to every hyperbolic 3-manifold, which is why B428 did not
+> bank it as physics. What the holonomy does not fix stays the observer's or a choice: the vacuum (Λ's sign), the nappe, the
+> unit, and the identification with physical spacetime, which remains UNEARNED.*
+
 ## Probe 1 — intrinsic time is thermal/Anosov, no arrow (OUTCOME B, high)
 The object's only internal time is the suspension of its Anosov monodromy
 σ=[[2,1],[1,1]] (the cat map). Three decisive discriminators: (1) topological entropy

@@ -58,6 +58,10 @@ conventions and B1030's trit as open until its orbit is checked) (the goal resta
 continuous: τ (2) and the Higgs's direction (up to 4); free discrete: the end, the line, c, h₀; identifications 4; conventions
 3. Nothing in the table is the observer's except the two conventions of the signer; the rest is counted.
 
+> *Re-typed 2026-10-29 (P-489; the web seat's scoreboard row 1478, main's ruling): h₀ = 0 is a continuous datum set by hand,
+> not a discrete choice; and the comparison scale M_Z is a choice (CHOSEN, by hand; P-365), not an identification. The
+> count above is unchanged in size: four free discrete become three plus one continuous datum set by hand.*
+
 ## 3. The mirror maps J to −J (checked on main)
 
 At B1741's tie pair (W145, row 1356; the dated note on B1741): the line (2/5, 9/10) at 3.4 + 2.9933i and the line

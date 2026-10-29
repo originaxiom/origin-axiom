@@ -67,6 +67,11 @@ against it.
 
 Each step that removes an input adds a row to this page's ledger, with its arc and its seal. Today: none removed.
 
+> *2026-10-29 (P-489): the offset b is counted within the line's menu (the 266 lines of orders 1–12), as the scoreboard's
+> rows count it (harvest rows 1478, 1479), rather than as a continuous input through u; the two describe one freedom, and
+> the scoreboard's count is the one the generator (P-418) will use. The scoreboard's FR-FIB rows: about 20 bits (15 searched
+> on the data), 2 fitted continuous, 2 continuous set by hand, 2 irreducible identification sources; no input removed.*
+
 **The six's inputs as they stand (2026-10-28, after steps 1–3):** the frame reaches the six with about three
 continuous inputs and four discrete ones. That is a compression of six numbers, not a derivation.
 

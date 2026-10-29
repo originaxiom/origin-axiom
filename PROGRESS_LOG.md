@@ -18144,3 +18144,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The frame's canonical end computes a Weil–Petersson potential's gradient; WP stands beside area as a frame-native clock, unranked. W150's holder reproduced, with a second degenerate vacuum around ρ. B1817: the frame's own cusp lepton/down factor is 1, 4 or ¼ at every colour count, not tracking N_c (none is 3 at N_c = 3). 0 of 19.
 - **Landing suite (S260).** full suite 7 878 passed, 2 failed, 68 skipped (49:17, -n 6, the machine shared with the CM tables and the evening verifier) on 9fe24857e: the two failures are B805's attachment locks (P-239, standing).
+
+## 2026-10-29 — S261 THE FINAL ATTACK proposed; the queue cleared; the web seat's evening relays verified
+
+- The owner: finish the queue, then propose the final attack that explains our universe. Proposed (docs/THE_FINAL_ATTACK_2026-10-29.md): explanation as compression with a null; the CM tables show rigid τ buys one or two bits and the decision lies in the CKM at the six's own address; Step A (a Higgs direction fixed by the interaction), Step B (THE NINE FROM ONE ADDRESS, sealed). The queue's bookkeeping landed; the web seat's evening relays reproduced. 0 of 19.
+- **Landing suite (S261).** full suite 7 878 passed, 6 failed, 68 skipped (30:44, -n 10) on e741f981c: two are B805's attachment locks (P-239, standing); the other four (B1266's sources, B1421's completeness sweep) caught a real defect -- the I-34 dated note named a row id in the earning cell, which B1266's union-find reads as a reduction (9 sources became 8); reworded without ids, both tests rerun green (8 passed), gates after staging.

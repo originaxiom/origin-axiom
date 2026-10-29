@@ -13931,7 +13931,7 @@
     "B926"
    ],
    "obstacle": "units_scale",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
    "status": "banked",
    "domain": "topology"
   },
@@ -14830,6 +14830,7 @@
    "motifs": [
     "coupling",
     "figure_eight",
+    "z3_generation",
     "wrt_quantum",
     "lorentzian"
    ],
@@ -27625,13 +27626,14 @@
     "lorentzian"
    ],
    "refs": [
+    "B428",
     "B685",
     "B706",
     "B710",
     "B713"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 15,
+   "obstacle_conf": 19,
    "status": "banked",
    "domain": "topology"
   },

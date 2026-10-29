@@ -86,6 +86,10 @@
   seeds.
 - **But D1 does not hold across the floor:** it FAILS at the floor 10⁻⁸ (p_nn = 0.043; there only about 36% of random
   hierarchies are typical) and holds at 10⁻¹⁶ (0.104).
+  > *Sharpened 2026-10-29 (the web seat's blind rerun, REPRODUCED by main's verifier): on a second census of 8 000 draws D1 at the
+  > floor 10⁻⁸ holds (p_nn 0.089), so the floor's failure is census-dependent; the three decisive verdicts (D1 holds, D1h
+  > holds, D2 fails) recur, D2's deciding value 0.0538. Regenerations agree with this census to round-off (≤ 4.1 × 10⁻¹⁴),
+  > not bit for bit, across platforms.*
 - **D1h is less robust:** it holds in 83% of subsamples, 96.5% of half-splits and 95% of configuration seeds.
 
 **What supplies D1's hold** (the referee's r8, regenerated on main).

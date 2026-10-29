@@ -33,6 +33,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 
 # each group: (a name, its terms as regular expressions); a sweep that matches any term pulls in the whole group
 ALIASES = [
+    ("democratic", [r"democratic", r"equal weight per", r"equidistribut"]),
+    ("a history", [r"followed histor", r"counted histor", r"histor(y|ies) (followed|counted)"]),
     ("the cusp's unit", [r"cusp's unit", r"cusp unit", r"end condition", r"\bFK10\b", r"\bFK11\b", r"\bI-26\b", r"net chirality", r"index formula"]),
     ("the lowest geodesic", [r"lowest closed geodesic", r"shortest (closed )?geodesic", r"\bsystole", r"metallic classification"]),
     ("the weave's measure", [r"uniform measure", r"average over (all )?threads", r"haar limit", r"tower measure", r"tracking the tower"]),

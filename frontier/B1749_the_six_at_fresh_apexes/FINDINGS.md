@@ -97,3 +97,5 @@ commits.
 ## Dated note (2026-10-28, S238; the web seat's THE EXACT END, reproduced on main)
 
 This arc's L_max is the small-cut norm 2πL + c_s evaluated at L = L_max(Im τ) (B1726's compute()), not the maximal horoball's exact norm. At L_max the exact twisted norms lie 35–38% below it, and with them the six fail near the four families' rows (RETRACTIONS; P-421). Nothing else in this arc changes.
+
+> *Noted 2026-10-29 (P-436): this arc's preregistration did not fill the input-completeness ledger (docs/INPUT_COMPLETENESS_LEDGER.md, 12 rows). Sealed preregistrations are not edited; the gap is recorded here. From B1811 on the ledger is filled (B1811, B1814) and a lock enforces it for new seals (tests/test_input_completeness_in_every_new_seal.py). The six's inputs are carried by the scoreboard's rows (harvest 1478, 1479).*

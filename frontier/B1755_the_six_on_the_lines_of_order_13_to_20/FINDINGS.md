@@ -88,3 +88,4 @@ calibration. D also holds on fresh seeds 1829–1848 (69 hits). The seat agrees 
 read: on the slope-2/5 lines the six is one function of (Re τ mod 1, Im τ, Re w mod 1), with narrow valleys in Re w. An offset
 rule must locate those valleys (P-384).
 
+> *Noted 2026-10-29 (P-436): this arc's preregistration did not fill the input-completeness ledger (docs/INPUT_COMPLETENESS_LEDGER.md, 12 rows). Sealed preregistrations are not edited; the gap is recorded here. From B1811 on the ledger is filled (B1811, B1814) and a lock enforces it for new seals (tests/test_input_completeness_in_every_new_seal.py). The six's inputs are carried by the scoreboard's rows (harvest 1478, 1479).*

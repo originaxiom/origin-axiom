@@ -1,0 +1,105 @@
+{
+ "2": {
+  "primitive threads": 1,
+  "with zero modes": 1,
+  "all words": 4,
+  "all words with zero modes": 2,
+  "fraction (all words)": 0.5
+ },
+ "3": {
+  "primitive threads": 2,
+  "with zero modes": 0,
+  "all words": 8,
+  "all words with zero modes": 0,
+  "fraction (all words)": 0.0
+ },
+ "4": {
+  "primitive threads": 3,
+  "with zero modes": 1,
+  "all words": 16,
+  "all words with zero modes": 6,
+  "fraction (all words)": 0.375
+ },
+ "5": {
+  "primitive threads": 6,
+  "with zero modes": 0,
+  "all words": 32,
+  "all words with zero modes": 0,
+  "fraction (all words)": 0.0
+ },
+ "6": {
+  "primitive threads": 9,
+  "with zero modes": 3,
+  "all words": 64,
+  "all words with zero modes": 20,
+  "fraction (all words)": 0.3125
+ },
+ "7": {
+  "primitive threads": 18,
+  "with zero modes": 0,
+  "all words": 128,
+  "all words with zero modes": 0,
+  "fraction (all words)": 0.0
+ },
+ "8": {
+  "primitive threads": 30,
+  "with zero modes": 12,
+  "all words": 256,
+  "all words with zero modes": 104,
+  "fraction (all words)": 0.40625
+ },
+ "9": {
+  "primitive threads": 56,
+  "with zero modes": 0,
+  "all words": 512,
+  "all words with zero modes": 0,
+  "fraction (all words)": 0.0
+ },
+ "10": {
+  "primitive threads": 99,
+  "with zero modes": 29,
+  "all words": 1024,
+  "all words with zero modes": 292,
+  "fraction (all words)": 0.28515625
+ },
+ "11": {
+  "primitive threads": 186,
+  "with zero modes": 0,
+  "all words": 2048,
+  "all words with zero modes": 0,
+  "fraction (all words)": 0.0
+ },
+ "12": {
+  "primitive threads": 335,
+  "with zero modes": 111,
+  "all words": 4096,
+  "all words with zero modes": 1368,
+  "fraction (all words)": 0.333984375
+ },
+ "lengths 2-12": {
+  "primitive threads": 745,
+  "with zero modes": 157,
+  "fraction": 0.21073825503355706,
+  "even lengths": {
+   "threads": 477,
+   "with zero modes": 157
+  }
+ },
+ "the seat's count (either extension +-g)": {
+  "total": 237,
+  "by length": {
+   "2": 1,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 5,
+   "7": 0,
+   "8": 14,
+   "9": 0,
+   "10": 51,
+   "11": 0,
+   "12": 165
+  },
+  "-g in G": 96
+ }
+}

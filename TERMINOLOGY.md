@@ -987,3 +987,19 @@ referee's session; the rest are classical and cited. Use the classical name besi
 | the metallic family L^mR^m, L^mP | period-one continued fractions [m; m, m, …], discriminants m² + 4 | E | classical |
 | the E₆ 27 and trinification ℤ/3 | McKay + the stabiliser of ω | D | classical |
 | the golden quasicrystal (B517), the Fibonacci anyon (Jones era) | ℤ[φ] in its icosahedral and TQFT dresses: the same rung-E unit | E | classical |
+
+## Added 2026-10-29 (P-471) — the clock window's words
+
+- **democratic** has two senses on record; say which.
+  - **Equal weight per unit length** (the SM seat's § 320; Duke's equidistribution of closed geodesics by length).
+  - **Equal weight per word** (B1813, P-413: every word of a given length counted once).
+  - Ordered by moves, the per-word sum is not flat in length. The two senses are B1813's two clocks.
+- **thread** is closed by definition (THE_WEAVE): a primitive cyclic word, a closed geodesic, a once-punctured-torus bundle.
+  - A sequence of letters read in order (B1813's counted or followed paths; B1815's walk) is a **history**, not a thread.
+  - A history has an endpoint law; a thread has a trace.
+- **the clocks** (B1813, B1815, B1816): the measure on τ that makes 'typical' meaningful.
+  - **the move clock** (Minkowski's measure; word length);
+  - **area** (hyperbolic area, the Teichmüller metric's volume);
+  - **Weil–Petersson** (the fibre's hyperbolic metric; the volume B1667's accessory parameter is a primitive of).
+  - The last two are frame-native; none is FORCED.
+
