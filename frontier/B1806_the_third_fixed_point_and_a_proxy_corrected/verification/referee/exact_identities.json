@@ -1,0 +1,11 @@
+{
+ "D2R.D2R + (5/144) E4 DR.DR: lowest surviving power of x (None = identically 0 to x^240)": null,
+ "a.a for a = D2R - (5/288) E4 R: lowest power (None/>200 = identically 0)": null,
+ "DR.DR / eta^6: powers present up to x^150": [
+  0
+ ],
+ "DR.DR / eta^6 constant": [
+  "1/4",
+  "0"
+ ]
+}

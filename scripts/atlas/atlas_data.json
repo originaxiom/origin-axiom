@@ -12740,10 +12740,11 @@
    "refs": [
     "S160",
     "S163",
-    "S164"
+    "S164",
+    "S245"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 32,
+   "obstacle_conf": 33,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -12857,10 +12858,11 @@
     "B674",
     "B675",
     "S164",
-    "S167"
+    "S167",
+    "S245"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 6,
+   "obstacle_conf": 7,
    "status": "dormant",
    "domain": "topology"
   },
@@ -14604,6 +14606,22 @@
    ],
    "obstacle": "gauge_dict",
    "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1806": {
+   "slug": "the third fixed point and a proxy corrected",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "L2",
+    "S163"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 10,
    "status": "banked",
    "domain": "arithmetic"
   },

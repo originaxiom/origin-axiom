@@ -122,3 +122,18 @@ Feruglio, Gherardi, Romanino and Titov, modular invariant dynamics and fermion m
 > *Scope note 2026-10-21 (B1697, the scan for misses).* The section ∂R used here is unique among the covariant sections that carry **one unit of end data on v₊** (B1691's family f₀R + f₁∂R + f₂∂²R is exactly those). The Higgs without end data is unique at weight 7/2, a₀ = ∂²R − E₄R/48 (W68 G1, computed on main in B1697), and gives no second-to-third hierarchy at the cusp (m₂/m₃ → ½). So this arc's hierarchy rests on the Higgs carrying end data on v₊, a datum of FK10's kind (P-245).
 
 > *Scope note 2026-10-22 (B1700, P-245).* ∂R's end data are FK10's tagged unit (W46's), not a second datum: given the unit, the weight-3/2 Higgs directions form a three-dimensional space (W46's three), ∂R is its only member holomorphic off v₊ — the coupling triplet R's own end condition — and the only one giving a hierarchy. So this arc holds given Λ, the unit and H-cov in R's own module.
+
+## Dated note (2026-10-29, S245; B1806's referee, verified on main) — a proxy read as the ratio
+
+- **The proxy.** This arc's `at()` returns s₁s₂/(s₁² + s₂²) (from B1646 D3's two identities). That is ≤ ½, and it equals
+  m₂/m₃ = s₂/s₁ only when s₂ ≪ s₁. The exponents (slopes) below are unaffected, since the proxy has the right leading
+  order where the ratio is small. But a value of "½" means s₁ = s₂: m₂/m₃ = 1, an exact degeneracy.
+- **The ω table's k ≡ 3/2 mod 6 row** ("→ ½") reads m₂/m₃ = 1, with B1618.
+- **The S163 addendum.**
+  - "½ exactly at ω and at i" reads **1**.
+  - "between 0.295 and 0.500 on LR's geodesic" is the proxy's range. The true range is **[0.536, 0.983]**, and the 0.295
+    minimum is a q-series truncation artefact at Im τ = 0.044.
+  - Its JSON's "top of LR's geodesic" i√5/2 is not on LR's axis ∣z − ½∣² = 5/4 (the top is ½ + i√5/2).
+  - The heights 2, 2.5 and 3 (s₂ ≪ s₁) stand. The conclusion "no second-to-third hierarchy" stands, as a degeneracy.
+- **The addendum's "pole" at t = −5/288** is a whole section with a·a ≡ 0 (m₂ ≡ 0).
+- RETRACTIONS; ERROR_LEDGER E93.

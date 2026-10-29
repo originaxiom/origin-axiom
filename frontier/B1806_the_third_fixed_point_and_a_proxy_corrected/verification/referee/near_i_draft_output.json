@@ -1,0 +1,262 @@
+{
+ "rho_S_eigenvalues": [
+  "(-0.70710678 - 0.70710678j)",
+  "(0.70710678 + 0.70710678j)",
+  "(0.70710678 + 0.70710678j)"
+ ],
+ "rho_S_eigenlines_isotropic": [
+  "1.0",
+  "1.0",
+  "1.0"
+ ],
+ "near_i": {
+  "-1/2": {
+   "seed1": {
+    "|a(omega)|^2": "57.61",
+    "m2/m3_at_omega": "1.78223e-42",
+    "slope_m2/m3_in_eps": null,
+    "slope_lift_factor_in_eps": null,
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "6.69e-41",
+     "5.37",
+     "5.37"
+    ]
+   },
+   "seed2": {
+    "|a(omega)|^2": "98.277",
+    "m2/m3_at_omega": "1.86892e-42",
+    "slope_m2/m3_in_eps": null,
+    "slope_lift_factor_in_eps": null,
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "7.26e-41",
+     "7.01",
+     "7.01"
+    ]
+   }
+  },
+  "3/2": {
+   "seed1": {
+    "|a(omega)|^2": "0.92295",
+    "m2/m3_at_omega": "0.5",
+    "slope_m2/m3_in_eps": [
+     -0.0,
+     -0.0,
+     -0.0
+    ],
+    "slope_lift_factor_in_eps": null,
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "0.961",
+     "8.37e-42",
+     "6.68e-42"
+    ]
+   },
+   "seed2": {
+    "|a(omega)|^2": "4.3681",
+    "m2/m3_at_omega": "0.5",
+    "slope_m2/m3_in_eps": [
+     -0.0,
+     -0.0,
+     -0.0
+    ],
+    "slope_lift_factor_in_eps": null,
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "2.09",
+     "4.06e-42",
+     "2.33e-41"
+    ]
+   }
+  },
+  "7/2": {
+   "seed1": {
+    "|a(omega)|^2": "41.825",
+    "m2/m3_at_omega": "0.00542267",
+    "slope_m2/m3_in_eps": [
+     0.0,
+     -0.0,
+     -0.0
+    ],
+    "slope_lift_factor_in_eps": [
+     -0.0,
+     -0.0,
+     0.0
+    ],
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "3.63e-41",
+     "4.6",
+     "4.54"
+    ]
+   },
+   "seed2": {
+    "|a(omega)|^2": "24.466",
+    "m2/m3_at_omega": "0.0056439",
+    "slope_m2/m3_in_eps": [
+     0.0,
+     -0.0,
+     -0.0
+    ],
+    "slope_lift_factor_in_eps": [
+     -0.0,
+     -0.0,
+     0.0
+    ],
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "3.27e-41",
+     "3.46",
+     "3.54"
+    ]
+   }
+  },
+  "11/2": {
+   "seed1": {
+    "|a(omega)|^2": "0.60579",
+    "m2/m3_at_omega": "0.5",
+    "slope_m2/m3_in_eps": [
+     -0.0,
+     -0.0,
+     -0.0
+    ],
+    "slope_lift_factor_in_eps": null,
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "0.778",
+     "1.15e-40",
+     "1.01e-40"
+    ]
+   },
+   "seed2": {
+    "|a(omega)|^2": "0.98696",
+    "m2/m3_at_omega": "0.5",
+    "slope_m2/m3_in_eps": [
+     -0.0,
+     -0.0,
+     -0.0
+    ],
+    "slope_lift_factor_in_eps": null,
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "0.993",
+     "1.18e-40",
+     "1.09e-40"
+    ]
+   }
+  },
+  "15/2": {
+   "seed1": {
+    "|a(omega)|^2": "282.09",
+    "m2/m3_at_omega": "0.0027052",
+    "slope_m2/m3_in_eps": [
+     0.0,
+     -0.0,
+     -0.0
+    ],
+    "slope_lift_factor_in_eps": [
+     -0.0,
+     -0.0,
+     0.0
+    ],
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "1.45e-40",
+     "11.9",
+     "11.9"
+    ]
+   },
+   "seed2": {
+    "|a(omega)|^2": "757.47",
+    "m2/m3_at_omega": "0.00174125",
+    "slope_m2/m3_in_eps": [
+     0.0,
+     -0.0,
+     -0.0
+    ],
+    "slope_lift_factor_in_eps": [
+     -0.0,
+     -0.0,
+     0.0
+    ],
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "2.64e-40",
+     "19.5",
+     "19.4"
+    ]
+   }
+  },
+  "19/2": {
+   "seed1": {
+    "|a(omega)|^2": "2.1141",
+    "m2/m3_at_omega": "0.5",
+    "slope_m2/m3_in_eps": [
+     -0.0,
+     -0.0,
+     -0.0
+    ],
+    "slope_lift_factor_in_eps": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "1.45",
+     "2.47e-40",
+     "2.26e-40"
+    ]
+   },
+   "seed2": {
+    "|a(omega)|^2": "3.8226",
+    "m2/m3_at_omega": "0.5",
+    "slope_m2/m3_in_eps": [
+     -0.0,
+     -0.0,
+     -0.0
+    ],
+    "slope_lift_factor_in_eps": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "1.96",
+     "4.94e-40",
+     "4.94e-40"
+    ]
+   }
+  },
+  "23/2": {
+   "seed1": {
+    "|a(omega)|^2": "942.67",
+    "m2/m3_at_omega": "0.00194185",
+    "slope_m2/m3_in_eps": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "slope_lift_factor_in_eps": [
+     -0.0,
+     -0.0,
+     0.0
+    ],
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "1.3e-40",
+     "21.7",
+     "21.7"
+    ]
+   },
+   "seed2": {
+    "|a(omega)|^2": "386.57",
+    "m2/m3_at_omega": "0.00386805",
+    "slope_m2/m3_in_eps": [
+     0.0,
+     -0.0,
+     -0.0
+    ],
+    "slope_lift_factor_in_eps": [
+     -0.0,
+     -0.0,
+     0.0
+    ],
+    "a(omega)_on_rho(ST)_eigenlines": [
+     "2.44e-41",
+     "14.0",
+     "13.8"
+    ]
+   }
+  }
+ }
+}

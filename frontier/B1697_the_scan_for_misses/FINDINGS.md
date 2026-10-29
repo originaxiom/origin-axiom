@@ -64,3 +64,10 @@ the cited arcs.
 
 - `verification/the_scan.py` → `the_scan.json` (items 1, 3, 4, 5 computed).
 - The lock: `tests/test_b1697_the_scan_for_misses.py`.
+
+## Dated note (2026-10-29, S245; B1806's referee, verified on main)
+
+- **a₀ tends to degeneracy, not to ½.** "a₀ … m₂/m₃ → ½ (0.484, 0.496, 0.499, 0.4998)" was B1691's bounded proxy
+  s₁s₂/(s₁² + s₂²). The exact ratio s₂/s₁ → 1: 0.885, 0.975 and 0.9989 at Im τ = 2, 3 and 5. The heavy pair becomes
+  degenerate at the cusp.
+- **The conclusion stands:** no cusp hierarchy for a₀. RETRACTIONS; ERROR_LEDGER E93.

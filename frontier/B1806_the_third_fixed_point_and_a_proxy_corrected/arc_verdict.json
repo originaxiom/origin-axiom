@@ -1,0 +1,27 @@
+{
+ "id": "B1806",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1618",
+  "B1646",
+  "B1654",
+  "B1691",
+  "B1697"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's flat fibre frame with a covariant Higgs section (B1691's tagged H-cov; P-115 open)",
+  "object": "the fixed point tau = i of PSL(2,Z) and its residual symmetry rho(S)",
+  "reach": "class",
+  "hypotheses": "H-cov; the first generation (D at i) not computed"
+ },
+ "claim_one_line": "THE THIRD FIXED POINT, AND A PROXY CORRECTED (P-406's L2 at tau = i; data-free; PROVED under H-cov): near tau = i a generic covariant section gives no 2-3 hierarchy -- at k = 3/2 mod 4 the heavy pair is exactly degenerate at i (m2/m3 = 1, s1 = s2), at k = 7/2 mod 4 m2/m3(i) takes any value in [0,1] with the free coefficients (closed form at 7/2: min(x,1/x), x = 3/(2|288t+5|)), and the sections without D2R at 15/2 and 23/2 give m2/m3 ~ |tau - i|^2; rho(S) has order 8 and selects a(i)'s eigenline by k mod 4. B1691's '-> 1/2' was a bounded proxy s1 s2/(s1^2 + s2^2) whose 1/2 means m2/m3 = 1: corrected in B1691 (its S163 addendum and the omega table) and B1697 (a0 -> 1), the qualitative no-hierarchy surviving as an exact degeneracy. None of the 19.",
+ "weave_or_thread": "weave (the field at a fixed point)"
+}

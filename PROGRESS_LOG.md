@@ -18064,3 +18064,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 ## 2026-10-29 — S244b Review 72's anchor-commit (5e439a0ce)
 
 - The counter reset; the eight views refreshed; INDEX re-stamped and MAIN_GOAL given its currency note (P-417's catch-up). 0 of 19.
+
+## 2026-10-29 — S245 B1806 (THE THIRD FIXED POINT, AND A PROXY CORRECTED)
+
+- At τ = i the generic covariant section gives no 2–3 hierarchy (a degenerate pair, or a free ratio; ∝ ∣τ − i∣² without ∂²R); B1691's ½ was a proxy for 1, corrected in B1691 and B1697 (E93). 0 of 19.
+- **Landing suite (S245).** 7 845 passed, 68 skipped, 2 failed in 25:36 — B805's two standing attachment locks (P-239).

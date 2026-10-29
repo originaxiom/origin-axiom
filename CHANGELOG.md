@@ -1,5 +1,10 @@
 # Changelog
 
+## S245 B1806 — THE THIRD FIXED POINT, AND A PROXY CORRECTED (2026-10-29)
+
+- **B1806** (P-406's lemma L2 at τ = i; PROVED under B1691's tagged H-cov; data-free): near τ = i a generic covariant section gives no 2–3 hierarchy — at k ≡ 3/2 mod 4 the heavy pair is exactly degenerate at i (m₂/m₃ = 1), at k ≡ 7/2 mod 4 m₂/m₃(i) takes any value in [0, 1] with the free coefficients (closed form at 7/2), and the sections without ∂²R at 15/2 and 23/2 give m₂/m₃ ∝ ∣τ − i∣²; ρ(S) has order 8 and selects a(i)'s eigenline by k mod 4. With B1691 at the cusp and ω, L2 holds at the object's three special points: the residual symmetry fixes which exponents and degeneracies occur, never the scale or the coefficients.
+- **A proxy corrected in landed arcs** (found by B1806's hostile referee, verified on main): B1691's `at()` returns s₁s₂/(s₁² + s₂²) ≤ ½, not s₂/s₁, so its "½" means m₂/m₃ = 1. Corrected by dated notes on B1691 (the ω table; the S163 addendum's "½ exactly at ω and at i" → 1, its geodesic range [0.295, 0.500] → [0.536, 0.983], its "pole" a section with a·a ≡ 0) and B1697 (a₀ → 1, not ½); the exponents unaffected, the qualitative no-hierarchy kept as an exact degeneracy. RETRACTIONS (the index 58; P3's count updated); ERROR_LEDGER's new class E93 (a proxy read as the quantity). P-406 noted (its proof plan drafted); P-431 (the first generation near i). FLOOR 431. 0 of 19.
+
 ## S244b Review 72's anchor-commit (5e439a0ce) (2026-10-29)
 
 - The one-line anchor (the review counter reset). The eight navigation views refreshed at the anchor (README, ROADMAP, CAMPAIGN_STATUS, LEAD_REGISTER, MASTERPLAN, OPEN_LEADS, OPEN_PROBLEMS, PRICED_DOORS), as at Review 71; and the two fronts outside the eight that had gone stale, at the owner's split (P-417): INDEX's currency line re-stamped (last stamped at Review 56) with GENESIS.md, the point register, THE_WEAVE, the meditation and THE_TOWERS added to its living documents; MAIN_GOAL given a dated currency note. 0 of 19.
