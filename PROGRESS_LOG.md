@@ -18079,3 +18079,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The exponents are zero orders of two forms (large L); at the canonical end m₁/m₃ ∝ ∣τ − i∣ in the 3/2 class; a₀ gives 2/3 at i; P-406's theorem draft withdrawn as a theorem (a census). 0 of 19.
 - **Landing suite (S247).** 7 848 passed, 68 skipped, 2 failed in 25:24 — B805's two standing attachment locks (P-239).
+
+## 2026-10-29 — S248 P-433 CLOSED (WHICH NEAR-POINT STATEMENTS ARE LARGE-L ONLY)
+
+- At the canonical end radius B1691's ω row −½ mod 6 becomes (∣ε∣, ∣ε∣³) and B1806's ∂²R-free rows give a flat m₂/m₃ at i; two RETRACTIONS rows (scope). 0 of 19.
+- **Landing suite (S248).** 7 850 passed, 68 skipped, 2 failed in 33:43 — B805's two standing attachment locks (P-239).

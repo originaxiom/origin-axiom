@@ -12741,7 +12741,8 @@
     "S160",
     "S163",
     "S164",
-    "S245"
+    "S245",
+    "S248"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 33,
@@ -14620,7 +14621,8 @@
    "refs": [
     "L2",
     "S163",
-    "S247"
+    "S247",
+    "S248"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 10,
@@ -14641,7 +14643,8 @@
     "B2",
     "L2",
     "P4",
-    "S164"
+    "S164",
+    "S248"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 8,

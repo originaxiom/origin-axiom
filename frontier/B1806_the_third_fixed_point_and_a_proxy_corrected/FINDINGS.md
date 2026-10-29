@@ -120,3 +120,13 @@ None computed the exponents near i.
 - **The record's parameter-free sections at i.** DR gives (m₁/m₃, m₂/m₃) = (0, 1) at every L. B1697's a₀ gives m₂/m₃ = 2/3
   exactly (this arc's closed form at t = −1/48; B1807 § 5).
 - **What stands.** This arc's verdict, its selection rule and its L-free table.
+
+## Dated note (2026-10-29, S248; P-433, main's own route) — this arc's own ∂²R-free rows at the canonical end
+
+- **The rows "k = 15/2, 23/2 with f₂ = 0: m₂/m₃ ∝ ∣τ − i∣²"** hold in the L-free coupling only. At the canonical end radius,
+  with the record's four-channel machinery (B1691's `verification/correction_s248/`), m₂/m₃ near i is flat in ε and nonzero:
+  0.272 at L = 0.65 and 0.0211 at L = 2.5. m₁/m₃ ∝ ∣τ − i∣² (slopes 1.98–2.00): the zero moves to a·a, whose bracket f₁²
+  vanishes doubly at i (B1807 § 4).
+- **S247's note sharpened.** Its "≈ 0.044/L" (31/2, f₂ = E₆²) is the large-L asymptote (0.001095 at L = 40, 1.693 × 10⁻⁵ at
+  L = 2560). At the canonical radius the values are 0.273 and 0.0211.
+- **What stands.** The selection rule, the degenerate class and the closed form. RETRACTIONS.

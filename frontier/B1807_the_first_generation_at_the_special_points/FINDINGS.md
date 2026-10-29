@@ -164,3 +164,11 @@ Eisenstein sums, its own channel-norm quadrature validated against B1654) reprod
 
 **Main's verification.** The mechanism and the a·a identity were derived by hand. The referee's ref_finite_L, ref_extra and
 ref_aa regenerate byte-identically on main, and so do the P-406 referee's r1 and r6, used in § 5.
+
+## Dated note (2026-10-29, S248; P-433)
+
+- **§ 4's "m₂/m₃(i) ≈ 0.044/L"** is the large-L asymptote. At the canonical radius it is 0.273 (L = 0.65) and 0.0211
+  (L = 2.5), the same for B1806's f₂ = 0 rows at 15/2 and 23/2.
+- **§ 4's finite-L statements are confirmed by main's own route** (the record's four-channel machinery,
+  B1691's `verification/correction_s248/`): near i, DR and 19/2 give m₁/m₃ ∝ ∣ε∣ (slopes 0.95–1.00); near ω, B1691's
+  k ≡ −½ mod 6 row becomes (m₂/m₃, m₁/m₃) ∝ (∣ε∣, ∣ε∣³) (B1691's S248 note).

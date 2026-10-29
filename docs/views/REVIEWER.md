@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1511** |
-| words of findings prose | **1,235,612** |
+| words of findings prose | **1,236,090** |
 | test lock files referenced | **924** |
 | arcs carrying an authored verdict | **1511** (100.0 %) |
 | recorded closures | **851** (684 classified, 167 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1807`** (2034 words, 0 locks)  
+**PROVED — `B1807`** (2123 words, 0 locks)  
 THE FIRST GENERATION AT THE SPECIAL POINTS, AND WHAT THE END RADIUS CHANGES (P-431; data-free; PROVED under H-cov at zero line): a.R = -f2 eta^6/4 and a.a = (eta^6/4)(f1^2 - 2 f0 f2 - (5/144) E4 f2^2) exactly, so in the L-free coupling the near-point exponents are zero orders of two scalar forms (the 1/L coefficient of m1/m3 vanishes at p to order nu_p(D) + nu_p(f2); m2/m3 to order nu_p(g)); at the canonical end radius (L of order one, B1667) the channel splitting decides near i: m1(i) = 0 at every L and m1/m3 ~ |tau - i| for every k = 3/2 mod 4 section with a(i) != 0, and on the k = 7/2 mod 4 isotropic branches m2/m3(i) = O(1/L); the record's parameter-free sections at i: DR (0, 1) at every L, B1697's a0 m2/m3 = 2/3 exactly. The weight class sets the exponents; nothing sets the scale. None of the 19.  
 `B1807_the_first_generation_at_the_special_points/FINDINGS.md`
 

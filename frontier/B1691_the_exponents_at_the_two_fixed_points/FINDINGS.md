@@ -137,3 +137,18 @@ Feruglio, Gherardi, Romanino and Titov, modular invariant dynamics and fermion m
   - The heights 2, 2.5 and 3 (s₂ ≪ s₁) stand. The conclusion "no second-to-third hierarchy" stands, as a degeneracy.
 - **The addendum's "pole" at t = −5/288** is a whole section with a·a ≡ 0 (m₂ ≡ 0).
 - RETRACTIONS; ERROR_LEDGER E93.
+
+## Dated note (2026-10-29, S248; P-433, main's own route) — the ω table at the canonical end radius
+
+- **The scope.** This arc's exponents are those of B1646's L-free coupling Y(a, R), the large-L limit of B1654's canonical
+  end. Recomputed at the canonical end radius (L = 0.65 and 2.5; B1667) with the record's four-channel machinery (B1656's
+  b1656_funcs, as this arc's S164 correction uses it) and this arc's own sections, ε = 10⁻² to 10⁻³
+  (`verification/correction_s248/`):
+  - **The k ≡ −½ mod 6 row (23/2; and 11/2).** m₂/m₃ ∝ ∣ε∣, not ∣ε∣² (slopes 0.99–1.00 at both L), and m₁/m₃ ∝ ∣ε∣³ — at
+    11/2 too, where the table has m₁ = 0 (S164's 1/L² lift). The ∣ε∣² law shows only for ∣ε∣ ≳ 1/L (B1807's referee at L = 2560).
+  - **The k ≡ 3/2 mod 6 row (15/2).** Unchanged: m₂/m₃ → 1, m₁/m₃ ∝ ∣ε∣² (slopes 1.94–2.00).
+  - **The k ≡ 7/2 mod 6 row (7/2, 19/2).** Unchanged in the smallest decade (B1807's referee, regenerated on main).
+- **The mechanism** (B1807 § 4): near ω the channel norms split at first order in ε (D's linear zero), which lifts the
+  degeneracy that a·a's double zero gives at L = ∞. Agreement with B1807's referee's independent evaluator to the per-mille
+  (m₂/m₃ = 5.765 × 10⁻⁵ against 5.783 × 10⁻⁵ at 23/2, L = 2.5, ε = 10⁻³, in two directions).
+- **The cusp column** stands as this arc's S164 correction left it. RETRACTIONS.
