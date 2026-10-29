@@ -1,0 +1,298 @@
+{
+ "K(E_N)": {
+  "1": {
+   "K": [
+    [
+     -2,
+     -7
+    ],
+    [
+     -1,
+     -4
+    ]
+   ],
+   "trace": -6,
+   "kind": "hyperbolic",
+   "content": 1
+  },
+  "2": {
+   "K": [
+    [
+     -2,
+     -5
+    ],
+    [
+     -1,
+     -3
+    ]
+   ],
+   "trace": -5,
+   "kind": "hyperbolic",
+   "content": 1
+  },
+  "3": {
+   "K": [
+    [
+     -2,
+     -3
+    ],
+    [
+     -1,
+     -2
+    ]
+   ],
+   "trace": -4,
+   "kind": "hyperbolic",
+   "content": 1
+  },
+  "4": {
+   "K": [
+    [
+     -2,
+     -1
+    ],
+    [
+     -1,
+     -1
+    ]
+   ],
+   "trace": -3,
+   "kind": "hyperbolic",
+   "content": 1
+  },
+  "5": {
+   "K": [
+    [
+     -2,
+     1
+    ],
+    [
+     -1,
+     0
+    ]
+   ],
+   "trace": -2,
+   "kind": "parabolic",
+   "content": 1
+  },
+  "6": {
+   "K": [
+    [
+     -2,
+     3
+    ],
+    [
+     -1,
+     1
+    ]
+   ],
+   "trace": -1,
+   "kind": "elliptic",
+   "content": 1
+  },
+  "7": {
+   "K": [
+    [
+     -2,
+     5
+    ],
+    [
+     -1,
+     2
+    ]
+   ],
+   "trace": 0,
+   "kind": "elliptic",
+   "content": 1
+  },
+  "8": {
+   "K": [
+    [
+     -2,
+     7
+    ],
+    [
+     -1,
+     3
+    ]
+   ],
+   "trace": 1,
+   "kind": "elliptic",
+   "content": 1
+  },
+  "9": {
+   "K": [
+    [
+     -2,
+     9
+    ],
+    [
+     -1,
+     4
+    ]
+   ],
+   "trace": 2,
+   "kind": "parabolic",
+   "content": 1
+  },
+  "10": {
+   "K": [
+    [
+     -2,
+     11
+    ],
+    [
+     -1,
+     5
+    ]
+   ],
+   "trace": 3,
+   "kind": "hyperbolic",
+   "content": 1
+  },
+  "11": {
+   "K": [
+    [
+     -2,
+     13
+    ],
+    [
+     -1,
+     6
+    ]
+   ],
+   "trace": 4,
+   "kind": "hyperbolic",
+   "content": 1
+  },
+  "12": {
+   "K": [
+    [
+     -2,
+     15
+    ],
+    [
+     -1,
+     7
+    ]
+   ],
+   "trace": 5,
+   "kind": "hyperbolic",
+   "content": 1
+  }
+ },
+ "LR": [
+  [
+   2,
+   1
+  ],
+  [
+   1,
+   1
+  ]
+ ],
+ "RL": [
+  [
+   1,
+   1
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "g with g K(E_10) g^-1 = LR (GENESIS)": [
+  [
+   -3,
+   7
+  ],
+  [
+   5,
+   -12
+  ]
+ ],
+ "g with g K(E_10) g^-1 = RL": [
+  [
+   -3,
+   7
+  ],
+  [
+   2,
+   -5
+  ]
+ ],
+ "g with g K(E_4) g^-1 = -RL (the sister's sign class, trace -3)": [
+  [
+   -5,
+   -3
+  ],
+  [
+   -8,
+   -5
+  ]
+ ],
+ "metallic L^n R^n": {
+  "1": {
+   "word": [
+    [
+     2,
+     1
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "trace": 3,
+   "content": 1
+  },
+  "2": {
+   "word": [
+    [
+     5,
+     2
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "trace": 6,
+   "content": 2
+  },
+  "3": {
+   "word": [
+    [
+     10,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "trace": 11,
+   "content": 3
+  },
+  "4": {
+   "word": [
+    [
+     17,
+     4
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "trace": 18,
+   "content": 4
+  }
+ },
+ "E_3, E_4 hyperbolic of negative trace (DHIZ: not collapsible)": [
+  "hyperbolic",
+  -4,
+  "hyperbolic",
+  -3
+ ]
+}

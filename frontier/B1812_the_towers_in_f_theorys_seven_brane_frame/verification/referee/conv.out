@@ -1,0 +1,4 @@
+GENESIS LR [[2, 1], [1, 1]] RL [[1, 1], [1, 2]]
+g K g^-1 = [[1, 1], [1, 2]] == GENESIS RL: True
+g' = L g = [[-1, 2], [2, -5]] det 1 g' K g'^-1 == GENESIS LR: True
+GENESIS L^mR^m: [[[2, 1], [1, 1]], [[5, 2], [2, 1]], [[10, 3], [3, 1]]]

@@ -18104,3 +18104,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - P-432 closed NEGATIVE as sealed on the n = 1 menu: the frame's parameter-free values at the object's symmetry points miss the six (overshoot where non-degenerate, zeros elsewhere). 0 of 19.
 - **Landing suite (S252).** 7 858 passed, 68 skipped, 2 failed in 39:30 — B805's two standing attachment locks (P-239).
+
+## 2026-10-29 — S253 B1812 (THE TOWERS IN F-THEORY'S 7-BRANE FRAME)
+
+- The genesis word is the E₁₀ 7-brane class; the SM's and SU(5)'s algebras sit on its non-collapsible pieces: NEGATIVE for towers meeting at loci in this frame. 0 of 19.
+- **Landing suite (S253).** 7 860 passed, 68 skipped, 2 failed in 40:35 — B805's two standing attachment locks (P-239).

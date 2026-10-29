@@ -12309,5 +12309,28 @@
    "hypotheses": "one Higgs for all sectors; n >= 2 directions and two-Higgs pairs not tested"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1812",
+  "claim_killed": "That in F-theory's 7-brane frame the object's word realises the Standard Model's gauge towers as configurations meeting at loci (P-415's towers question in this frame).",
+  "kill_form": "Computed and read in the source (B1812): the word's class is DHIZ's E_10; its nested subconfigurations carry su(3)+su(2) ... E8, but su(3)+su(2) and su(5) are hyperbolic of negative trace and cannot collapse (DHIZ-I 7.4), so they are not gauge symmetries at a point; the object fixes only the total class.",
+  "hatch": "a frame where the SM's algebra sits at a collapsible point while the object's class constrains the whole (e.g. a global F-theory model with the object's class as a total monodromy and the SM inside a collapsible so(10)/E6 subcluster broken by flux); an E6 meeting point with flux breaking (P-415, P-422)",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-29), for tests/test_b833_negative_routing.py",
+  "note": "The draft's 'towers meeting at loci' reading (it read 'up to E8 collapse' as including su(3)+su(2) and su(5)) was overturned by the hostile referee and verified on main in the source's text.",
+  "evidence_consulted": [
+   "B781",
+   "B1343",
+   "B1344"
+  ],
+  "faces_consulted": [],
+  "fact_computed": "the E_N monodromies (DHIZ-I 2.4, 7.56), an explicit conjugator to LR, contents, kinds; the referee's junction lattices and class counts",
+  "scope": {
+   "frame": "F-theory 7-branes: SL(2,Z) monodromy on tau and the (p,q) charges, as DeWolfe-Hauer-Iqbal-Zwiebach classify (hep-th/9812028, 9812209)",
+   "object": "the genesis word LR (GENESIS's convention) and m003's sign class",
+   "reach": "class",
+   "hypotheses": "the identification of the object's word with a 7-brane monodromy CHOSEN (UNEARNED); the configuration by DHIZ's classification conjecture and minimality"
+  },
+  "weave_or_thread": "thread"
  }
 ]

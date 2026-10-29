@@ -1,0 +1,246 @@
+{
+ "1": {
+  "1": {
+   "rank": 1,
+   "det(-Gram)": 2,
+   "signature(+,-,0) of -Gram": [
+    1,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "2": {
+   "rank": 2,
+   "det(-Gram)": 7,
+   "signature(+,-,0) of -Gram": [
+    2,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "3": {
+   "rank": 3,
+   "det(-Gram)": 6,
+   "signature(+,-,0) of -Gram": [
+    3,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "4": {
+   "rank": 4,
+   "det(-Gram)": 5,
+   "signature(+,-,0) of -Gram": [
+    4,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "5": {
+   "rank": 5,
+   "det(-Gram)": 4,
+   "signature(+,-,0) of -Gram": [
+    5,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "6": {
+   "rank": 6,
+   "det(-Gram)": 3,
+   "signature(+,-,0) of -Gram": [
+    6,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "7": {
+   "rank": 7,
+   "det(-Gram)": 2,
+   "signature(+,-,0) of -Gram": [
+    7,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "8": {
+   "rank": 8,
+   "det(-Gram)": 1,
+   "signature(+,-,0) of -Gram": [
+    8,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "9": {
+   "rank": 9,
+   "det(-Gram)": 0,
+   "signature(+,-,0) of -Gram": [
+    8,
+    0,
+    1
+   ],
+   "even": true
+  },
+  "10": {
+   "rank": 10,
+   "det(-Gram)": -1,
+   "signature(+,-,0) of -Gram": [
+    9,
+    1,
+    0
+   ],
+   "even": true
+  },
+  "11": {
+   "rank": 11,
+   "det(-Gram)": -2,
+   "signature(+,-,0) of -Gram": [
+    10,
+    1,
+    0
+   ],
+   "even": true
+  },
+  "12": {
+   "rank": 12,
+   "det(-Gram)": -3,
+   "signature(+,-,0) of -Gram": [
+    11,
+    1,
+    0
+   ],
+   "even": true
+  }
+ },
+ "-1": {
+  "1": {
+   "rank": 1,
+   "det(-Gram)": 2,
+   "signature(+,-,0) of -Gram": [
+    1,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "2": {
+   "rank": 2,
+   "det(-Gram)": 15,
+   "signature(+,-,0) of -Gram": [
+    2,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "3": {
+   "rank": 3,
+   "det(-Gram)": 22,
+   "signature(+,-,0) of -Gram": [
+    3,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "4": {
+   "rank": 4,
+   "det(-Gram)": 29,
+   "signature(+,-,0) of -Gram": [
+    4,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "5": {
+   "rank": 5,
+   "det(-Gram)": 36,
+   "signature(+,-,0) of -Gram": [
+    5,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "6": {
+   "rank": 6,
+   "det(-Gram)": 43,
+   "signature(+,-,0) of -Gram": [
+    6,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "7": {
+   "rank": 7,
+   "det(-Gram)": 50,
+   "signature(+,-,0) of -Gram": [
+    7,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "8": {
+   "rank": 8,
+   "det(-Gram)": 57,
+   "signature(+,-,0) of -Gram": [
+    8,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "9": {
+   "rank": 9,
+   "det(-Gram)": 64,
+   "signature(+,-,0) of -Gram": [
+    9,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "10": {
+   "rank": 10,
+   "det(-Gram)": 71,
+   "signature(+,-,0) of -Gram": [
+    10,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "11": {
+   "rank": 11,
+   "det(-Gram)": 78,
+   "signature(+,-,0) of -Gram": [
+    11,
+    0,
+    0
+   ],
+   "even": true
+  },
+  "12": {
+   "rank": 12,
+   "det(-Gram)": 85,
+   "signature(+,-,0) of -Gram": [
+    12,
+    0,
+    0
+   ],
+   "even": true
+  }
+ }
+}

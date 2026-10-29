@@ -1,0 +1,25 @@
+{
+ "id": "B1812",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B781",
+  "B1343",
+  "B1344"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-theory 7-branes: SL(2,Z) monodromy on tau and the (p,q) charges, as DeWolfe-Hauer-Iqbal-Zwiebach classify (hep-th/9812028, 9812209)",
+  "object": "the genesis word LR (GENESIS's convention) and m003's sign class",
+  "reach": "class",
+  "hypotheses": "the identification of the object's word with a 7-brane monodromy CHOSEN (UNEARNED); the configuration by DHIZ's classification conjecture and minimality"
+ },
+ "claim_one_line": "THE TOWERS IN F-THEORY'S 7-BRANE FRAME (P-415, the owner's towers question; data-free; NEGATIVE for the towers-meeting-at-loci reading): the genesis word LR (trace 3) lies in the single SL(2,Z) class DeWolfe-Hauer-Iqbal-Zwiebach assign to E_10 = E_8^H (a conjugator computed), whose nested subconfigurations A^(N-1)BCC carry su(3)+su(2), su(5), so(10), E6, E7, E8, affine E8; but only so(10)-E8 can collapse to singularities -- su(3)+su(2) (trace -4) and su(5) (trace -3) are hyperbolic and non-collapsible, their algebras organising massive BPS states, not gauge symmetries at a point; the object fixes the total class, not where any tower sits. m003's sign class is E_4's. Among the metallic words only the golden one is an E-series monodromy (content). Complements B1343. None of the 19.",
+ "weave_or_thread": "thread (the genesis word's class; the sister's sign class)"
+}

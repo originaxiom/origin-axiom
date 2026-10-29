@@ -1,0 +1,116 @@
+{
+ "LR": [
+  [
+   2,
+   1
+  ],
+  [
+   1,
+   1
+  ]
+ ],
+ "RL": [
+  [
+   1,
+   1
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "g with g K(E_10) g^-1 = LR (GENESIS)": [
+  [
+   -3,
+   7
+  ],
+  [
+   5,
+   -12
+  ]
+ ],
+ "g with g K(E_10) g^-1 = RL": [
+  [
+   -3,
+   7
+  ],
+  [
+   2,
+   -5
+  ]
+ ],
+ "g with g K(E_4) g^-1 = -RL (the sister's sign class, trace -3)": [
+  [
+   -5,
+   -3
+  ],
+  [
+   -8,
+   -5
+  ]
+ ],
+ "metallic L^n R^n": {
+  "1": {
+   "word": [
+    [
+     2,
+     1
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "trace": 3,
+   "content": 1
+  },
+  "2": {
+   "word": [
+    [
+     5,
+     2
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "trace": 6,
+   "content": 2
+  },
+  "3": {
+   "word": [
+    [
+     10,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "trace": 11,
+   "content": 3
+  },
+  "4": {
+   "word": [
+    [
+     17,
+     4
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "trace": 18,
+   "content": 4
+  }
+ },
+ "E_3, E_4 hyperbolic of negative trace (DHIZ: not collapsible)": [
+  "hyperbolic",
+  -4,
+  "hyperbolic",
+  -3
+ ]
+}

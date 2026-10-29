@@ -1,0 +1,11 @@
+t=3 D=5 H(t)=1 hplus(D)=1
+t=4 D=12 H(t)=2 hplus(D)=2
+t=5 D=21 H(t)=2 hplus(D)=2
+t=6 D=32 H(t)=3 hplus(D)=2
+t=7 D=45 H(t)=3 hplus(D)=2
+t=8 D=60 H(t)=4 hplus(D)=4
+t=9 D=77 H(t)=2 hplus(D)=2
+t=10 D=96 H(t)=6 hplus(D)=4
+t=11 D=117 H(t)=3 hplus(D)=2
+t=12 D=140 H(t)=4 hplus(D)=4
+quadunit(5)=w norm=-1 h(5)=1

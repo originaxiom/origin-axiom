@@ -14777,6 +14777,28 @@
    "status": "open",
    "domain": "physics"
   },
+  "B1812": {
+   "slug": "the towers in f theorys seven brane frame",
+   "motifs": [
+    "measurement",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "B727",
+    "B781",
+    "S041",
+    "S061"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B181": {
    "slug": "criticality scale",
    "motifs": [

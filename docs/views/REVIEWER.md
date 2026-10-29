@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1515** |
-| words of findings prose | **1,243,765** |
+| research arcs with findings | **1516** |
+| words of findings prose | **1,245,142** |
 | test lock files referenced | **925** |
-| arcs carrying an authored verdict | **1515** (100.0 %) |
-| recorded closures | **853** (686 classified, 167 routed-only) |
+| arcs carrying an authored verdict | **1516** (100.0 %) |
+| recorded closures | **854** (687 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 1034 |
-| NEGATIVE | 377 |
+| NEGATIVE | 378 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 123 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 124 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE SYMMETRY-SELECTION VALUE TABLE (P-432, first half; data-free): the frame's outputs at the four configurations the object's symmetry fixes, for Table T's directions and B1730's complete n = 1 family (13 directions, 832 rows, 206 distinct outputs); up and down coincide there up to phase (B1703: N | 6); at omega every direction falls on a stabiliser eigenline, the output (0, 1) or rank one; at (i, 0) every listed direction shares one left eigenbasis, so V is a permutation; on the 2-torsion line at i the first generation is massless for every listed direction but DR and a split reading gives one angle of order 1/L (0.101 at L_2(i), 9e-5 at L = 2560), a permutation as L -> infinity; J = 0 wherever V is defined. The directions are an infinite discrete family (a ladder in kappa at i), so these outputs are a comb indexed by a discrete choice. None of the 19.  
 `B1810_the_symmetry_selection_value_table/FINDINGS.md`
 
-**NEGATIVE — `B1811`** (1333 words, 1 locks)  
-THE SYMMETRY-SELECTION VALUES AGAINST THE SIX (P-432's second half; sealed 316457df6; NEGATIVE as sealed): at the four configurations the object's symmetry fixes, no parameter-free output of B1656's frame reaches the measured mass ratios -- the best chi2_six is 4521.5 against P1's threshold of 16.75 and 9.8% of random hierarchies do as well on the same menu (the sealed n = 1 menu); the chi2-best row (F_6 at (i, 0), L_2, (S~, S~, S~), c = 3) overshoots every one of the six, by 7.5x to 1739x, as do all 22 non-degenerate cells (all at tau = i); the other 156 of the 208 seat-reading cells carry a massless state or rank one. The end enters through B1740's small-cut norm (0.6% from exact at L_2). Controls hold. None of the 19.  
-`B1811_the_symmetry_selection_values_against_the_six/FINDINGS.md`
+**NEGATIVE — `B1812`** (1377 words, 0 locks)  
+THE TOWERS IN F-THEORY'S 7-BRANE FRAME (P-415, the owner's towers question; data-free; NEGATIVE for the towers-meeting-at-loci reading): the genesis word LR (trace 3) lies in the single SL(2,Z) class DeWolfe-Hauer-Iqbal-Zwiebach assign to E_10 = E_8^H (a conjugator computed), whose nested subconfigurations A^(N-1)BCC carry su(3)+su(2), su(5), so(10), E6, E7, E8, affine E8; but only so(10)-E8 can collapse to singularities -- su(3)+su(2) (trace -4) and su(5) (trace -3) are hyperbolic and non-collapsible, their algebras organising massive BPS states, not gauge symmetries at a point; the object fixes the total class, not where any tower sits. m003's sign class is E_4's. Among the metallic words only the golden one is an E-series monodromy (content). Complements B1343. None of the 19.  
+`B1812_the_towers_in_f_theorys_seven_brane_frame/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  
