@@ -1,5 +1,17 @@
 # Changelog
 
+## The desk shows every arc's weave-or-thread label; the page rebuilds from the record; the CI job proposed (relay, §6)
+
+- **The index, schema 2:** every arc carries main's `weave_or_thread` and its era. After the rule: main 198 of 198,
+  this seat's B arcs 2 of 2, its W arcs 171 of 171; before it, none (1320 and 121), shown so.
+- **The page:** view C framed by the register's labels (a dot on the 82 assigned); view F's labels panel.
+  `docs/workdesk/build_page.py` rebuilds it from the record and reproduced the committed page byte for byte.
+- **For main:** `docs/workdesk/PROPOSED_WORKFLOW_ledger_desk.yml` builds and deploys the page to Pages, committing
+  nothing; inert until main copies it into `.github/workflows/`; the owner switches Pages on.
+- **Corrections:** §4's "never touches the working tree" (the W rows and cells are read from the checkout); the
+  owner's "ao" read as "so".
+- **Surfaces.** The scripts, the page, `docs/workdesk/THE_LEDGER_DESK.md`, the relay's §6, the ledger row. 0 of 19.
+
 ## Every W arc labelled with main's weave-or-thread field, under the rule pushed first (relay to every seat, §6)
 
 - **The register:** `docs/dossiers/the_weave_2026-10-07/W_VERDICTS.json`, built and checked by

@@ -69,7 +69,8 @@ ASSIGNED = {
     "W24": ("weave (a census)", "the row: a WEAVE census, NEGATIVE"),
     "W25": ("weave (a theorem)", "the row: a WEAVE theorem"),
     "W27": ("weave (given the stated link Λ, an input)", "STATED (the link Λ, an input) and COMPUTED"),
-    "W29": ("neither (a chosen object, the ℤ₆ flux, not forced)", "the arc's own words: the object is chosen, not forced"),
+    "W29": ("neither (a chosen object, the ℤ₆ flux, not forced)",
+            "the arc's own words: the object is chosen, not forced"),
     "W31": ("neither (a weave-type computation on a chosen object, the ℤ₅ flux, not forced)",
             "the arc's own words: a weave-type computation on a chosen structure; the object is chosen, not forced"),
     "W36": ("neither (a check of the audit lane's phase, and a reading)", "status VERIFIED and READING"),
@@ -97,7 +98,8 @@ ASSIGNED = {
     "W94": ("neither (a fibre-frame result at one τ, a frozen piece)", "the arc's own words"),
     "W96": ("neither (identities of one frame, and a frozen piece at ω, as main's B1659)", "the arc's own words"),
     "W97": ("thread (a thread-frame result on each thread of a stated set, T-low)", "the arc's own words"),
-    "W99": ("neither (a paper read; its two proofs are weave statements)", "the arc's own words: the read itself is neither"),
+    "W99": ("neither (a paper read; its two proofs are weave statements)",
+            "the arc's own words: the read itself is neither"),
     "W107": ("weave", "the rule: a WEAVE question"),
     "W108": ("weave (about the forms)", "the rule: a WEAVE question about the forms"),
     "W109": ("weave (every transvection of every n ≥ 3 records)", "main's B1677 for every n, by hand"),
@@ -226,7 +228,8 @@ def build():
         if r and opening(r[1]):
             found.append((r[0], opening(r[1]), clean(r[1])[:200], qualifier(r[1])))
         if len({f[1] for f in found}) > 1:
-            conflicts.append({"id": wid, "sources": [{"source": s, "label": lab, "quote": q} for s, lab, q, _ in found]})
+            conflicts.append({"id": wid,
+                              "sources": [{"source": s, "label": lab, "quote": q} for s, lab, q, _ in found]})
         if found:
             src, lab, quote, qual = found[0]
             wot = f"{lab} ({qual})" if qual else lab
@@ -241,7 +244,8 @@ def build():
         entries.append({"id": wid, "verdict": kw, "weave_or_thread": wot, "source": src, "quote": quote,
                         "note_row": f"NOTE.md:{line}"})
     entries.sort(key=lambda e: int(e["id"][1:]))
-    return {"rule": RULE, "field": "weave_or_thread (main's convention: weave, thread or neither, neither with its reason)",
+    return {"rule": RULE,
+            "field": "weave_or_thread (main's convention: weave, thread or neither, neither with its reason)",
             "counts": counts, "conflicts": conflicts, "arcs": entries}
 
 

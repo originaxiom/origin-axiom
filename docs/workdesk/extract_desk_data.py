@@ -112,17 +112,21 @@ def towers():
     return rows, orders
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--out", help="write the JSON here (default: print it)")
-    a = ap.parse_args()
+def desk_data():
+    """the page's data, as one dict"""
     p, o = priors(), outcomes()
     cells = [[re.match(r"(W\d+)", rule).group(1), c, pr, int(o[(rule, c)]), pred[:160], src]
              for (rule, c), (pr, pred, src) in p.items() if (rule, c) in o]
     w125, w176 = towers()
-    data = {"head": git("rev-parse", "--short=9", "HEAD").strip(), "cells": cells, "arcs": arcs(),
+    return {"head": git("rev-parse", "--short=9", "HEAD").strip(), "cells": cells, "arcs": arcs(),
             "w125": w125, "w176": w176}
-    text = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--out", help="write the JSON here (default: print it)")
+    a = ap.parse_args()
+    text = json.dumps(desk_data(), ensure_ascii=False, separators=(",", ":"))
     if a.out:
         Path(a.out).write_text(text + "\n", encoding="utf-8")
     else:

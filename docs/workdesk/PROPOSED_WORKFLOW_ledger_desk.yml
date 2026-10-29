@@ -1,0 +1,62 @@
+# The Ledger Desk, built and published by CI (docs/workdesk/THE_LEDGER_DESK.md; ruled 2026-10-29).
+#
+# A proposal from the SM-derivation seat. It does nothing here: GitHub runs a workflow only from .github/workflows/ on
+# the default branch. Main adopts it by copying this file there, if and when main chooses. The owner then switches
+# Pages on (Settings, Pages, Source: GitHub Actions). The page is public, as the repository is.
+#
+# The job commits nothing. It checks out the SM seat's branch, where the desk's scripts and the weave dossier live,
+# with main's history beside it; checks the W labels register against the record; builds the index twice and stops
+# unless the two builds agree; rebuilds the page from the record; and deploys the page.
+name: ledger-desk
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ledger-desk
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Check out the SM seat's branch, with main beside it
+        run: |
+          ref=$(git for-each-ref --format='%(refname:short)' refs/remotes/origin | grep -m1 '/standard-model-derivation-')
+          test -n "$ref"
+          git checkout --detach "$ref"
+          echo "Building from $ref at $(git rev-parse --short=9 HEAD) and origin/main at $(git rev-parse --short=9 origin/main)"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: The W labels register matches the record
+        run: python3 -B docs/workdesk/w_labels.py --check
+      - name: The index, built twice
+        run: python3 -B docs/workdesk/build_index.py --out "$RUNNER_TEMP/index" --check
+      - name: The page, rebuilt from the record
+        run: python3 -B docs/workdesk/build_page.py --index "$RUNNER_TEMP/index" --out "$RUNNER_TEMP/site"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

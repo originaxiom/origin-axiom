@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 """The Ledger Desk's index (a proposal's prototype, not an arc; see THE_LEDGER_DESK.md). Read-only over two refs, HEAD
-(this seat's branch) and origin/main, it writes one index outside the record:
+(this seat's branch) and origin/main, it writes one index outside the record. The B arcs and the W register are read
+through git; the W rows and the prior cells come from extract_desk_data.py, which reads the checked-out tree, so build
+from a clean checkout of HEAD:
 
   arcs       one row per arc, keyed (seat, id): main's and this seat's B arcs from frontier/*/arc_verdict.json, and the
              W arcs from NOTE's status table. A B directory on origin/main is main's; one only on HEAD is this seat's
-             (sm). Each row carries its source path, the ref, the commit, and the file's blob.
+             (sm). Each row carries its source path, the ref, the commit, and the file's blob. Each also carries its
+             weave_or_thread label, as main's verdict files state it or as this seat's register for W arcs gives it
+             (W_VERDICTS.json, docs/workdesk/THE_LABELS_RULE_2026-10-29.md), and its era: after the rule (main's arcs
+             from B1491, this seat's B arcs whose verdict file came after docs/THE_WEAVE.md, every W arc) or before.
   edges      depends_on, supersedes and superseded_by from the verdict files, and main's rests_on_seat and cites_seat
              (to sm: ids). A bare id resolves within the citing arc's seat, then at main, then at the other seat; each
              edge says which, or that its target is a directory without a verdict file, or on neither branch.
@@ -34,9 +39,11 @@ REPO = HERE.parents[1]
 sys.path.insert(0, str(HERE))
 import extract_desk_data as X  # noqa: E402  (W rows, priors, outcomes, the tower plates)
 
-SCHEMA = 1
+SCHEMA = 2
 REFS = {"sm": "HEAD", "main": "origin/main"}
 WEAVE_START = "2026-10-07"
+MAIN_LABEL_FROM = 1491  # main carries weave_or_thread on every verdict file from B1491 on (its test for B1600)
+W_REGISTER = "docs/dossiers/the_weave_2026-10-07/W_VERDICTS.json"
 STEPS = [("rule", r"^(W\d+)'s rule\b"), ("script", r"^(W\d+)'s script\b"), ("output", r"^(W\d+)'s output\b"),
          ("posthoc_script", r"^(W\d+)'s (?:labelled )?post hoc script"),
          ("posthoc_output", r"^(W\d+)'s post hoc output"), ("recorded", r"^(W\d+) recorded\b")]
@@ -80,6 +87,7 @@ def b_arcs():
     files = {seat: verdict_files(ref) for seat, ref in REFS.items()}
     commits = {seat: git("rev-parse", ref).decode().strip() for seat, ref in REFS.items()}
     blobs = read_blobs(list(files["main"].values()) + list(files["sm"].values()))
+    rule_time, added = sm_added_times()
     rows = []
     for seat, paths in (("main", files["main"]), ("sm", {p: b for p, b in files["sm"].items()
                                                        if p not in files["main"]})):
@@ -87,12 +95,31 @@ def b_arcs():
             d = blobs.get(blob) or {}
             dir_id = path.split("/")[1].split("_")[0]
             wot = d.get("weave_or_thread")
+            num = int(re.sub(r"\D", "", dir_id) or 0)
+            after = num >= MAIN_LABEL_FROM if seat == "main" else added.get(path, 0) >= rule_time
             rows.append({"key": f"{seat}:{dir_id}", "seat": seat, "kind": "B", "id": dir_id,
                          "verdict": d.get("verdict"),
                          "scope": (wot.split()[0] if isinstance(wot, str) and wot else None),
+                         "label": wot if isinstance(wot, str) and wot else None,
+                         "label_source": "verdict file" if wot else None,
+                         "era": "after the rule" if after else "before the rule",
                          "claim": (d.get("claim_one_line") or "")[:300], "source": path, "ref": REFS[seat],
                          "commit": commits[seat], "blob": blob, "_d": d})
     return rows, commits
+
+
+def sm_added_times():
+    """the time the weave rule was adopted on this branch (docs/THE_WEAVE.md added), and each verdict file's first
+    commit time on this branch: this seat's B arcs are 'after the rule' when their verdict file came later"""
+    rule = git("log", "--diff-filter=A", "--format=%ct", REFS["sm"], "--", "docs/THE_WEAVE.md").decode().split()
+    added, t = {}, 0
+    for ln in git("log", "--diff-filter=A", "--format=@%ct", "--name-only", REFS["sm"], "--",
+                  "frontier/").decode().splitlines():
+        if ln.startswith("@"):
+            t = int(ln[1:])
+        elif ln.endswith("/arc_verdict.json"):
+            added[ln] = min(added.get(ln, t), t)
+    return int(rule[-1]), added
 
 
 def frontier_dirs():
@@ -137,10 +164,15 @@ def b_edges(rows, keys):
 
 
 def w_rows(head):
+    reg = json.loads(git("show", f"{REFS['sm']}:{W_REGISTER}").decode())
+    labels = {e["id"]: e for e in reg["arcs"]}
     rows = []
     for arc, status, tag, st, what, line, first, last in X.arcs():
+        lab = labels.get(arc, {})
+        wot = lab.get("weave_or_thread")
         rows.append({"key": f"sm:{arc}", "seat": "sm", "kind": "W", "id": arc, "verdict": status,
-                     "scope": tag.lower() or None, "claim": what[:300],
+                     "scope": wot.split()[0] if wot else None, "label": wot,
+                     "label_source": lab.get("source"), "era": "after the rule", "claim": what[:300],
                      "source": f"docs/dossiers/the_weave_2026-10-07/NOTE.md:{line}", "ref": "HEAD", "commit": head,
                      "blob": None})
     return rows
@@ -231,7 +263,12 @@ def page_data(tables, manifest):
              if e["resolved"] in ("directory without a verdict file", "missing on both branches",
                                   "another seat's id, not indexed")]
     life = [[s["arc"], s["step"], s["date"], s["commit"]] for s in tables["lifecycle"]]
-    return {"manifest": manifest, "counts": sorted([list(k) + [v] for k, v in counts.items()]),
+    cover = collections.Counter((a["seat"], a["kind"], a["era"], bool(a["label"])) for a in tables["arcs"])
+    labels = [[s, k, e, cover[(s, k, e, True)], cover[(s, k, e, True)] + cover[(s, k, e, False)]]
+              for s, k, e in sorted({key[:3] for key in cover})]
+    w_labels = {a["id"]: [a["scope"], a["label"], a["label_source"]] for a in tables["arcs"] if a["kind"] == "W"}
+    return {"manifest": manifest, "counts": sorted([list(k) + [v] for k, v in counts.items()]), "labels": labels,
+            "w_labels": w_labels,
             "resolved": sorted(how.items(), key=lambda kv: -kv[1]), "cross": cross, "audit": audit, "life": life,
             "flags": tables["flags"]}
 

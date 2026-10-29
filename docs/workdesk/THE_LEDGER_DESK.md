@@ -25,6 +25,11 @@ The owner asked every seat for its own proposal, so that the proposals differ:
 - `docs/workdesk/extract_desk_data.py`: the read-only extractor that produced the data the prototype embeds.
 - `docs/workdesk/build_index.py`: the build order's first step, the index over this seat's branch and main's. It is
   read-only and writes its output outside the record; the output is never committed.
+- `docs/workdesk/w_labels.py`: builds and checks the W arcs' weave-or-thread register,
+  `docs/dossiers/the_weave_2026-10-07/W_VERDICTS.json`, under `docs/workdesk/THE_LABELS_RULE_2026-10-29.md`.
+- `docs/workdesk/build_page.py`: rebuilds the prototype page from the record at HEAD and the index, outside the record.
+  From the record at 5a65879e4 it reproduced the committed page byte for byte.
+- `docs/workdesk/PROPOSED_WORKFLOW_ledger_desk.yml`: the CI job proposed to main. It is inert where it sits.
 
 ## The idea
 
@@ -116,8 +121,10 @@ flowchart LR
     listed with links to their rule lines.
   - **Not counted.** Outcomes are as computed in the one run; later post hoc readings are not counted.
 - **C. The arc ledger** (the record's own data). All 171 W arcs of NOTE's status table, coloured by the status keyword.
-  - **Labels.** A frame marks a cell that itself says "weave result" (46) or "thread result" (8). The other 117 are
-    shown as unlabelled, because the desk copies the record's words and never guesses.
+  - **Labels.** The frame is the arc's weave-or-thread label from the register: weave 114, thread 14, neither 43. The
+    register copies 89 labels from the record and holds 82 that this seat assigned under the labels rule; a dot marks
+    those. The desk itself never assigns one. Until 2026-10-29 the frame marked only the 54 status cells that say
+    "weave result" or "thread result".
   - **Each tile.** It opens its status line and links to its NOTE line at the build commit.
 - **D. Stage 4, the waves** (built 2026-10-29, after the owner's ruling).
   - **The tick walk** (exact; computed in the page). Every thread to a chosen length against ticks 1 to 9, coloured by
@@ -136,8 +143,10 @@ flowchart LR
   - **Plate, the congruence tower.** W176's stored count of lines per order; the page recomputes each from Jordan's
     totient, and all 16 agree.
 - **F. The index** (built 2026-10-29; the build order's first step).
-  - **What it reads.** `docs/workdesk/build_index.py` reads two refs, this seat's branch and main's, through git
-    alone; it never touches the working tree. Every arc is keyed (seat, id). A B directory present on main is main's;
+  - **What it reads.** `docs/workdesk/build_index.py` reads the B arcs and the W register from two refs, this seat's
+    branch and main's, through git. The W rows and the prior cells come from the extractor, which reads the checked-out
+    NOTE, so a build is made from a clean checkout of HEAD. (Corrected 2026-10-29: an earlier wording said the
+    script never touches the working tree.) Every arc is keyed (seat, id). A B directory present on main is main's;
     one present only here is this seat's. Ten numbers name different directories on the two branches, and the keys
     keep them apart.
   - **What it holds.** 1812 arcs (1518 of main's B arcs, 123 of this seat's, 171 W arcs), 4069 edges, 290 prior cells
@@ -152,6 +161,9 @@ flowchart LR
     a verdict file (B506, B511, B578, B580, B614, B659, B666, B913). 11 point at ids on neither branch (B514, B792,
     B796, B820, B829, B844, B846, B999 among them). One names another seat's id outside the two branches read.
   - **Across the seats.** All 130 edges from one seat's arc to the other's, listed in one table.
+  - **The labels (schema 2, 2026-10-29).** Every arc carries main's weave-or-thread field and its era. After the rule
+    every arc is labelled: main 198 of 198, this seat's B arcs 2 of 2, its W arcs 171 of 171. Before the rule none
+    is: main's 1320 and this seat's 121 keep no label.
 - **G. The lifecycle strip** (built 2026-10-29).
   - **What it reads.** The steps of each W arc from this branch's commit subjects ("W176's rule", "W176's script",
     "W176's output", the post hoc steps, "W176 recorded"), each placed by its commit time.
@@ -252,7 +264,8 @@ dimensions for objects that are not three-dimensional.
   The record's other senses stay out of the story: "wave" as a batch of arcs; the root's tower as anything but a
   labelled thread plate; the Ruelle tower; the web seat's excluded-order towers; the tower of spacetimes up the ranks,
   which the record banked as not climbing.
-- **Two data fields: ruled 2026-10-29, on this seat's recommendation** (the owner: "if u recomend ao").
+- **Two data fields: ruled 2026-10-29, on this seat's recommendation** (the owner: "if u recomend ao", corrected the
+  same day to "so").
   - **Half settled before it was asked.** Main has carried `weave_or_thread` on every verdict file from B1491 on, and
     all 198 carry it. The question should have said so.
   - **The gap on the two branches read** is this seat's 171 W arcs, which state their label in prose when they state

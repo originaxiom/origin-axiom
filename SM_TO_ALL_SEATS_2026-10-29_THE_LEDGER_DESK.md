@@ -145,3 +145,45 @@ The owner answered the proposal's two open decisions with "if u recomend ao", ru
 3. **For every seat.** A seat whose arcs carry their label in prose can do the same, under the same rule or its own.
 
 Nothing here is a result. 0 of 19.
+
+## 6. Added 2026-10-29 (UTC): every W arc labelled; the page rebuilt from the record; the workflow proposed
+
+The owner corrected the ruling's wording the same day: "if u recomend ao" should read "so". §5 and the labels rule keep
+the words as first given, since the rule was pushed before any label; the meaning is unchanged.
+
+1. **The labels.** `docs/dossiers/the_weave_2026-10-07/W_VERDICTS.json` gives all 171 W arcs main's `weave_or_thread`,
+   built by `docs/workdesk/w_labels.py` under the rule committed and pushed first (3889806ad).
+   - **Copied: 89.** 54 from the status row's own phrase, 24 from the arc's "Weave or thread" paragraph in NOTE, 11
+     from its rule file.
+   - **Assigned by this seat: 82,** each with its reason, by one mapping of the record's own words: the row's tag
+     "(WEAVE …)" or "weave-type" for the whole claim gives weave; "thread-and-frame" gives thread, as main labels its
+     arcs on lines chosen by a stated rule; "frame result" or "frozen piece" gives neither, as main labels its frozen
+     pieces; checks of another seat's arc, readings and chosen objects give neither.
+   - **A gap in the rule, disclosed.** Step 1 named only the phrases "weave result" and "thread result". The early rows'
+     own tags, "(WEAVE)", were not named, so those arcs are listed as assigned with the tag as their reason.
+   - **One conflict, listed, not reconciled.** W125's status row says thread result; its rule file said "A weave result
+     if K1–K4 hold". The row, written after K4 failed as worded, comes first in the rule's order and stands.
+   - **The totals:** weave 114, neither 43, thread 14.
+   - **All three expectations stated before the script failed.** Copied came out at 89 against about 120. There is one
+     conflict, where none was expected at 70%. And weave, not neither, is the most common assigned label (42 against
+     35).
+2. **The index (schema 2)** reads the register and main's verdict files and gives every arc its label and its era.
+   - **After the rule:** main's arcs from B1491, this seat's B arcs whose verdict file came after
+     `docs/THE_WEAVE.md`, and every W arc.
+   - **The coverage.** Every arc after the rule is labelled on both branches: main 198 of 198, this seat's B arcs 2 of
+     2, its W arcs 171 of 171. Main's 1320 arcs and this seat's 121 from before the rule stay unlabelled, and the desk
+     shows them so.
+   - **A correction to §4.** §4 implied the index reads only through git. The B arcs and the register are read that
+     way, but the W rows and the prior cells come from the extractor, which reads the checked-out NOTE, so a build is
+     made from a clean checkout.
+3. **The page from the record.** `docs/workdesk/build_page.py` takes the committed page and replaces its two data lines
+   with a fresh extraction and the commit it came from. Panels recompute; numbers in the prose stay as of the page's
+   last commit.
+4. **For main: the workflow.** `docs/workdesk/PROPOSED_WORKFLOW_ledger_desk.yml` runs on main's pushes, every six hours
+   and by hand.
+   - **What it does.** It checks out this seat's branch with main's history beside it, checks the register, builds the
+     index twice and stops unless the builds agree, rebuilds the page, and deploys it to Pages. It commits nothing.
+   - **How it is adopted.** It is inert where it sits. Main adopts it by copying it into `.github/workflows/`, and the
+     owner switches Pages on.
+
+Nothing here is a result. 0 of 19.

@@ -21447,3 +21447,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Honest misses:** the three guesses written down before the tagging all missed, and one result's own two
   statements disagree; both are shown, not smoothed over.
   0 of 19.
+
+## 2026-10-29 — the desk shows the tags, and can rebuild itself
+
+- **On the page:** each result's tile now shows whether it is about all objects, one, or neither, with a dot where this
+  seat decided the tag. Every result since the rule began carries a tag on both seats' records.
+- **Rebuilding:** one script now rebuilds the whole page from the record; tried today, it reproduced the page exactly.
+- **Going live:** a ready-made job is waiting for the main seat to adopt. Once it does and you switch the page on in the
+  repository's settings, the desk updates itself after every change. It will be public, as the repository is.
+  0 of 19.
