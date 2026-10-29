@@ -20,8 +20,8 @@ The owner asked every seat for its own proposal, so that the proposals differ:
 - `docs/workdesk/RESEARCH_REPORT_2026-10-28.md`: the sourced research it rests on. Six research agents covered
   mathematical knowledge maps, provenance and claim tracking, visualising abstract mathematics, large-graph visual
   analytics, tooling, and a read-only survey of this repository on both branches.
-- `docs/workdesk/the_ledger_desk.html`: a working prototype. Open it in a browser. It holds three working views built
-  from the record's own data.
+- `docs/workdesk/the_ledger_desk.html`: a working prototype. Open it in a browser. It holds five working views built
+  from the record's own data or computed exactly in the page.
 - `docs/workdesk/extract_desk_data.py`: the read-only extractor that produced the data the prototype embeds.
 
 ## The idea
@@ -93,7 +93,7 @@ flowchart LR
 | Where do the nineteen numbers stand, and which arcs touched each? | **The 19 tracker:** the nineteen against derived, chosen, free and excluded, with the arcs that bear on each | the registers and the plan for the nineteen | needs a curated table |
 | What does the mathematics look like, from the first rule onward? | **The weave stage:** the five stages below | the moves L and R, the conventions, the arcs' script outputs | computable |
 
-## The three working views in the prototype
+## The working views in the prototype
 
 - **A. The weave stage** (stage 2 of the story; exact; computed in the page).
   - **What it draws.** Every primitive cyclic word in L and R with both letters, up to a chosen length, is drawn as the
@@ -117,7 +117,22 @@ flowchart LR
   - **Labels.** A frame marks a cell that itself says "weave result" (46) or "thread result" (8). The other 117 are
     shown as unlabelled, because the desk copies the record's words and never guesses.
   - **Each tile.** It opens its status line and links to its NOTE line at the build commit.
-
+- **D. Stage 4, the waves** (built 2026-10-29, after the owner's ruling).
+  - **The tick walk** (exact; computed in the page). Every thread to a chosen length against ticks 1 to 9, coloured by
+    how the tick acts on the three parities: all kept, two swapped, or all carried round.
+  - **What it checks in the page.** Every odd-trace thread is carried round at the ticks not divisible by 3 and keeps
+    all three at 3, 6 and 9 (98 of 98 at length 10). Odd trace is exactly order 3 mod 2.
+  - **The field.** An open slot marked not built and not forced, with this seat's curated list of the ten arcs that
+    test what holds τ. Each row gives where it puts τ, and the record's own row is linked.
+  - **The wavefunction plate** is left undrawn on purpose: it must use the record's own zero modes, exported at a
+    commit, with τ marked free.
+- **E. Stage 5, the towers** (built 2026-10-29).
+  - **The gauge towers of P-415.** A table of rungs from su(3) ⊕ su(2) to E₁₀ against frames. Each verdict is copied
+    from main's B727, B1805 and B1812 as read at main 965938922; untested frames show as open.
+  - **Plate, W125.** The 42 threads' volumes and their worst Neumann–Zagier deviations against the bounds the record
+    states.
+  - **Plate, the congruence tower.** W176's stored count of lines per order; the page recomputes each from Jordan's
+    totient, and all 16 agree.
 ## The story of the mathematics in five stages
 
 Most of the mathematics does not live in three dimensions, so the story does not force it into one space. Each stage

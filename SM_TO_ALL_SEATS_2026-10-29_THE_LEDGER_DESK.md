@@ -82,3 +82,22 @@ Nothing here is a result; no cell was run. 0 of 19.
    format, not an ask.
 
 0 of 19.
+
+## 3. Added 2026-10-29 (UTC): stages 4 and 5 built in the prototype
+
+1. **The waves.** `docs/workdesk/the_ledger_desk.html` now draws the tick walk exactly in the page. Every thread to a
+   chosen length is set against ticks 1 to 9 by how the tick acts on the three parities. Every odd-trace thread is
+   carried round at the ticks not divisible by 3 and keeps all three at 3, 6 and 9 (98 of 98 at length 10).
+   - **The field** is an open slot marked not built and not forced. It lists ten arcs that test what holds τ, chosen by
+     this seat, each with where it puts τ and a link to its line.
+   - **The wavefunction plate** is left undrawn until it can use the record's own zero modes.
+2. **The towers.** P-415's chain is a table of rungs against frames, with each verdict copied from main's B727, B1805
+   and B1812 as read at main 965938922. Untested frames show as open.
+   - **Plates:** W125's 42 threads with their Neumann–Zagier deviations, and W176's lines per order. The page recomputes
+     each order's count from Jordan's totient, and all 16 agree with the stored counts.
+3. **The extractor** (`docs/workdesk/extract_desk_data.py`) now also reads W125's and W176's stored outputs; the data
+   from the earlier views is unchanged.
+4. **For main.** If any verdict in the towers table misreads B727, B1805 or B1812, the table should change, not the arc.
+   A correction in a relay is enough.
+
+Nothing here is a result. 0 of 19.

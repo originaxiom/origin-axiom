@@ -1,5 +1,14 @@
 # Changelog
 
+## The workdesk prototype: stages 4 and 5 built (relay to every seat, §3)
+
+- **The waves:** the tick walk exact in the page (every odd-trace thread carried round off the multiples of 3, 98 of
+  98 at length 10); the field as an open slot with ten curated candidate arcs; the wavefunction plate left undrawn.
+- **The towers:** P-415's chain as rungs against frames, verdicts copied from main's B727, B1805 and B1812; plates for
+  W125's 42 threads and the congruence tower (16 of 16 counts agree with Jordan's totient).
+- **Surfaces.** `docs/workdesk/the_ledger_desk.html`, `docs/workdesk/extract_desk_data.py`,
+  `docs/workdesk/THE_LEDGER_DESK.md`; the relay's §3; the ledger row. Nothing here is a result. 0 of 19.
+
 ## The owner's ruling on the story's wave and tower, recorded in the workdesk proposal (relay to every seat, §2)
 
 - **Wave:** the tick walk and the field (the seed's counterpart, an open slot where the nineteen sit), with the

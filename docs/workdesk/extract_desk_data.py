@@ -8,6 +8,9 @@ dossier and git history and writes the compact data the prototype page embeds as
          first commit date, last commit date]. The tag is set only where the cell itself says "weave result" or
          "thread result"; otherwise it is left empty (unlabelled). Nothing is guessed.
 
+  w125   W125's per-thread tower checks: [bundle, volume, worst |Q dV/pi^2 - 1|, worst |Q l/2pi - 1|] (Q >= 400)
+  w176   W176's per-order read-outs: [N, lines of order N, least V, Im tau at the least, the least's line]
+
 It writes nothing in the repository unless --out points there.
 
     python3 -B docs/workdesk/extract_desk_data.py --out /path/to/desk_data.json
@@ -96,6 +99,19 @@ def arcs():
     return rows
 
 
+def towers():
+    w125 = json.loads((D / "the_quantum_weave.json").read_text(encoding="utf-8"))
+    rows = []
+    for b in w125["per bundle"]:
+        k1 = next(v for k, v in b.items() if k.startswith("K1 worst |Q dV"))
+        k2 = next(v for k, v in b.items() if k.startswith("K2 worst |Q l"))
+        rows.append([b["bundle"], b["volume"], k1, k2])
+    w176 = json.loads((D / "the_class_by_the_dynamics.json").read_text(encoding="utf-8"))
+    orders = [[int(n), p["lines"], p["least"]["V"], p["least"]["tau"][1], "(" + ", ".join(p["least"]["line"]) + ")"]
+              for n, p in w176["per order"].items()]
+    return rows, orders
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", help="write the JSON here (default: print it)")
@@ -103,7 +119,9 @@ def main():
     p, o = priors(), outcomes()
     cells = [[re.match(r"(W\d+)", rule).group(1), c, pr, int(o[(rule, c)]), pred[:160], src]
              for (rule, c), (pr, pred, src) in p.items() if (rule, c) in o]
-    data = {"head": git("rev-parse", "--short=9", "HEAD").strip(), "cells": cells, "arcs": arcs()}
+    w125, w176 = towers()
+    data = {"head": git("rev-parse", "--short=9", "HEAD").strip(), "cells": cells, "arcs": arcs(),
+            "w125": w125, "w176": w176}
     text = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
     if a.out:
         Path(a.out).write_text(text + "\n", encoding="utf-8")

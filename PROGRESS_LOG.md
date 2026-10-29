@@ -21407,3 +21407,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   test so far has said about each rung, and untested rungs marked open. Two other towers go alongside as side panels.
 - The proposal, its sample page and the note to the other seats now say so.
   0 of 19.
+
+## 2026-10-29 — the waves and the towers, now drawn
+
+- **The waves:** the sample page now shows how every object treats the three parities as it repeats. The pattern the
+  record proved holds on every object it shows: the parities are carried round twice, then kept, again and again.
+- **The field:** shown as an honest empty slot, with the ten places the record has looked for it.
+- **The towers:** the ladder of force groups, drawn with every verdict the main seat's tests have given each rung,
+  and the untested ones marked open.
+- **Side panels:** the closed-universe towers of 42 objects, and the count of lines on each rung. Every count checks
+  out against a formula.
+  0 of 19.
