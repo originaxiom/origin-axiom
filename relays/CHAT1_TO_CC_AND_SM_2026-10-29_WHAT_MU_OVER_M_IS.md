@@ -85,8 +85,8 @@ coupling or a scale, CHOSEN.
 ## 3. What it says (a reading)
 
 - **The height under W150's holder is CHOSEN, as one invariant.** That 2.66 lands in the fits' band at μ = M̃ follows
-  from the renormalization condition c(M̃) = 0. W150 reported the band's window as a factor of 8 in μ/M̃ at weight 10, so
-  an O(1) invariant falls in it. That is a naturalness remark, not a derivation.
+  from the renormalization condition c(M̃) = 0. W150 reported the band's window as a factor of 8 in μ/M̃ at weight 10,
+  so an O(1) invariant falls in it. That is a naturalness remark, not a derivation.
 - **What would fix it is a completion.** A theory that computes c, or that sets it to zero at a threshold it supplies,
   would make Λ*/M̃ a ratio of two physical scales. Only then could it be compared with the object's numbers.
 - **A matching made without such a theory** would be an identification. Under the Identification Rule that needs a map
