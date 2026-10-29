@@ -7495,16 +7495,16 @@ discrepancy.
 Nothing in the window meets the §5 bars. No arc is PASSED, and no input is removed.
 
 ### Action items (Review 71)
-- [>] R71-1: the joint-law grade of B1749 and B1753 under the class-choosing null (B1786's referee's machinery adapted to their censuses) (carried from R70-7; owner: cc)
-- [>] R71-2: W64's dimension count on main (carried from R70-2; owner: cc)
-- [>] R71-3: P-298 — main's own check of W130 (carried from R70-3, itself from R69-6 and R68-6; owner: cc)
-- [>] R71-4: L232's five reads and L231's six items (carried from R70-4, itself from R69-4 and R68-4; overdue at Review 71; owner: cc; due at Review 72)
-- [>] R71-5: L239 (a), (c); L240 (c), (f); L242's two counts; L243 (c), (d) with R77's join (carried from R70-5, itself from R69-7; overdue at Review 71; owner: cc; due at Review 72)
-- [ ] R71-6: main's owed items on SM_TO_CC_AND_CODEX_2026-10-06_THE_FLOOR_AT_THE_CUP_KERNEL (Lemma F known?; the one reading recomputed) and the owed re-run on CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND (owner: cc)
-- [ ] R71-7: L249's six cells — each queued in the point register by name or closed with its reason (owner: cc)
-- [ ] R71-8: push the owner's mirror when the owner reconnects the drive (owner: the owner, then cc)
-- [ ] R71-9: harvest the SM seat's W165 (B1792's blind third opinion) and the web seat's P-323 result; main's review of the audit lane's two analytic proofs when P-396 yields a value (owner: cc)
-- [ ] R71-10: main's plan, next: P-397 (a one-leg hypercharge insertion for c), the reading's odd-in-3w coupling (P-394), P-398 (owner: cc)
+- [x] R71-1: the joint-law grade of B1749 and B1753 under the class-choosing null (B1786's referee's machinery adapted to their censuses) (carried from R70-7; owner: cc) — RESOLVED at Review 72: B1798 (S232)
+- [x] R71-2: W64's dimension count on main (carried from R70-2; owner: cc) — RESOLVED at Review 72 for K5 (B1796's run; an E54 instance), K4 registered as P-430
+- [x] R71-3: P-298 — main's own check of W130 (carried from R70-3, itself from R69-6 and R68-6; owner: cc) — RESOLVED at Review 72: B1796 (S231), P-298 DONE
+- [x] R71-4: L232's five reads and L231's six items (carried from R70-4, itself from R69-4 and R68-4; overdue at Review 71; owner: cc; due at Review 72) — declined from the review loop at Review 72 with its reason (the carry limit): every cell registered (P-426, P-427; P-317 (b), P-318, P-330)
+- [x] R71-5: L239 (a), (c); L240 (c), (f); L242's two counts; L243 (c), (d) with R77's join (carried from R70-5, itself from R69-7; overdue at Review 71; owner: cc; due at Review 72) — declined from the review loop at Review 72 with its reason (the carry limit): every cell registered (P-428; P-321)
+- [x] R71-6: main's owed items on SM_TO_CC_AND_CODEX_2026-10-06_THE_FLOOR_AT_THE_CUP_KERNEL (Lemma F known?; the one reading recomputed) and the owed re-run on CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND (owner: cc) — RESOLVED at Review 72: (i) paid at S101 by B1623 before Review 71 carried it (E54); (ii) the 59 cells banked, the control declined
+- [x] R71-7: L249's six cells — each queued in the point register by name or closed with its reason (owner: cc) — RESOLVED at Review 72 by registering: P-429
+- [>] R71-8: push the owner's mirror when the owner reconnects the drive (owner: the owner, then cc) — carried to Review 72 as R72-3
+- [>] R71-9: harvest the SM seat's W165 (B1792's blind third opinion) and the web seat's P-323 result; main's review of the audit lane's two analytic proofs when P-396 yields a value (owner: cc) — the harvests RESOLVED (rows 1437–1444); the review of the two analytic proofs carried to Review 72 as R72-4
+- [>] R71-10: main's plan, next: P-397 (a one-leg hypercharge insertion for c), the reading's odd-in-3w coupling (P-394), P-398 (owner: cc) — carried to Review 72 as R72-5
 
 **anchor-commit: `3e57c3e8d`**
 
@@ -7514,3 +7514,144 @@ wrong: the SM seat had answered its asks in both on 2026-10-06, in SM_TO_CC_AND_
 §4–§5, a relay the ledger already recorded as "Answered by B1483". Both relays are now BANKED, with the retired codex
 lanes' parts declined. The review asserted an absence without sweeping the inbound relays that answered them (E54; ERROR_LEDGER).
 
+# Review 72 (2026-10-29) — why nothing is derived, and the answers tested
+
+20 commits since Review 71 (`3e57c3e8d..`, all on the first-parent line), with this landing, and 13 arcs with a verdict
+(B1793–B1805). Run by main at the counter (20 merges; `review-due` DUE).
+
+**What the window did:**
+- **The diagnosis:** THE_PATTERN_MEDITATION_3, at the owner's ask.
+  - On the record's own counts no continuous value has been derived, and 90% of the physics positives are discrete.
+  - Its cause: the frames add moduli the object does not fix.
+  - The SM seat (THE RIDDLE, W171–W176) and the web seat reached the same diagnosis independently.
+- **The rigid route** (m004's fillings as a G₂ 3-cycle):
+  - B1801: the order-3 torsion is 4/3, and it fixes no coupling;
+  - B1802: Witten's doublet–triplet topology;
+  - B1803: four fixed points, with 4–7 coincident fields needed.
+- **The owner's towers question** (docs/THE_TOWERS.md). Its first test, B1805, is NEGATIVE in Witten's frame: SO(10)'s
+  centre is matter parity, but it does not reach the Standard Model, and the doublet–triplet mechanism dies.
+- **Selection by inversion** (B1804): curves, or integer-chosen CM points.
+- **Also in the window:**
+  - B1793–B1800 (S230–S233): the flat frame's doublet–triplet split, the cusp unit, GENESIS v1.59, the class-choosing
+    grade, the neutrinos' self-pairing, the flux overlaps;
+  - the six's L_max fits found to rest on an approximation (the web seat's THE EXACT END, reproduced on main);
+  - the web seat's audit of B1739, B1740 and B1790, verified on main and applied;
+  - P-277 closed on main's rerun of W175;
+  - the first document gate (doc-facts);
+  - the workdesk research (P-420).
+- **Still 0 of 19.**
+
+## 1. The loop (Review 71's block)
+
+- **R71-1 RESOLVED (S232, B1798):** neither B1749 nor B1753 is PASSED once c is chosen in the null. P-381 is DONE.
+- **R71-2 RESOLVED for K5, the rest registered.** B1796's run computed W64's K5 (`w123_check_run.txt`: d(1,0,0),
+  d(0,1,0), d(0,0,1) = 1 1 1), and it was never recorded (an E54 instance).
+  - Dated notes added on THE_WEAVE and B1690.
+  - K4 (weight −½) is P-430.
+- **R71-3 RESOLVED (S231, B1796):** P-298 is DONE.
+- **R71-4: declined from the review loop with its reason** (its fourth carry; the carry limit).
+  - Every cell now has a point-register row, where the owner's rule of 2026-10-13 puts open points.
+  - The five living documents are P-426. THE_FRAMEWORK's "no canonical arrow" gets a dated note: B1083 and B1662 make the
+    arrow forced.
+  - L231's three unrowed items are P-427; its other three are already P-317 (b), P-318 and P-330.
+- **R71-5: declined from the review loop with its reason** (its third carry). Every cell is registered as P-428, with
+  L239 (a) as P-321. Main's drafts of 2026-10-23 are recorded as proposals to confirm, not accepted closures.
+- **R71-6.** (i) Resolved at S101 by B1623, before Review 71 carried it (an E54 instance; the relay row is now updated).
+  (ii) The 59 cells were cross-checked on B1439's census (harvest row 899's S129 note): banked; the seat's control
+  declined, since nothing rests on it.
+- **R71-7: resolved by registering** as P-429: L249's six cells, with the drafts' dispositions to confirm.
+- **R71-8 OPEN:** the owner's mirror. The LaCie is still unmounted.
+- **R71-9.** The harvests are RESOLVED (rows 1437–1444, S232). Main's review of the audit lane's two analytic proofs,
+  owed when P-396 yields a value, is carried.
+- **R71-10 OPEN:** P-394, P-397 and P-398 are queued. P-397 moved once (B1793). The meditation put P-406 before the owner,
+  which may retire the plan's next steps.
+- **The eight relays escalated at S240** (the 21-day line), each now settled by topic:
+  - **BANKED** (the SM seat's parts answered, the audit lane's attack requests declined by silence):
+    - N45 UNDER THEOREM A (THE_PUNCTURE_ROOM § 4);
+    - YOUR SILVER MEMBERS (the same, B1486, B1489);
+    - THE GENERATION LANE AUDITED (THE_ENDS_AGREED §§ 2–3);
+    - THE COMPANIONS REGISTERED (THE_LINES_ROOM § 3).
+  - **DECLINED:**
+    - THREE GENERATIONS RESEARCHED, ROOM NEEDS GENUS and THE COMMON POINT MOD 3, declined by the addressee by name in its
+      § 50.2 (2026-10-09). The rows were never updated (an E54 instance).
+    - LP01, the LP seat dormant since 2026-10-06.
+  - **A wording correction:** the "retired codex lanes" phrase in two relay rows and Review 71 is wrong. The audit lane
+    is active; only `codex/seat-r001` was retired. The right reason is Review 71 § 1's: no answer, nothing rests on them,
+    reopenable.
+
+## 2. The branch inventory and the lanes
+
+- **Branches:** 13 unmerged leaves, every one registered.
+- **"On one remote only"** is the unmounted mirror (R71-8).
+- **Lanes active in the window:**
+  - the SM seat (W166–W176, THE RIDDLE and its closing page);
+  - the web seat (P-323's result, THE HOROCYCLE AND THE HEIGHT, THE CLASS AND THE END, THE EXACT END, THE SELECTOR, its
+    audit, THE TWO W's);
+  - the audit lane (the chiral kernels, the unification intake).
+- **Two of main's relays await the seats:** the four decisions (D1–D4) and the workdesk.
+
+## 3. The declared modulus
+
+- **The sample.** The seeded draw (review_tools, seed `3e57c3e8d`) names B1795, B1799, B1800, B1801 and B1803. Each was
+  re-read against its verdict line, its lock and its referee's report.
+- **Locks:** every landing suite in the window ran in full (S230–S243). The only standing failures are B805's
+  attachment locks (P-239).
+  - S235's first suite was killed at 94% by a session restart; its log is kept and it was rerun in full, disclosed.
+  - S239 was amended in text after its suite, disclosed.
+- **The fresh clone:** PASS at 3352c18e1 (every gate passes; the belt is OK).
+
+fresh-clone: PASS @ 3352c18e1 (gates all PASS; belt ok)
+sample seed: 3e57c3e8d; read in full: B1795, B1799, B1800, B1801, B1803
+gate controls: 46 registered failing-path tests; unregistered: none
+
+- **What this review cannot certify:** the seats' own instruments beyond the three re-run on main this window (W175,
+  THE EXACT END, the audit checks), and the audit lane's analytic proofs.
+
+## 4. The sample, read
+
+Every one of the five agrees with its referee's report as landed. Each lock passes, and each keeps its referee's scripts.
+- **B1795 (NEGATIVE):** its pre-seal peek's disclosure was corrected (14 lines).
+- **B1799 (PROVED):** carries the dated note from B1800's referee (the ruled-branch phrase).
+- **B1800 (PROVED):** L251's stale status corrected.
+- **B1801 (PROVED for the torsion, NEGATIVE for a coupling):** the doublet–triplet claim withdrawn.
+- **B1803 (PROVED for the topology and the census):** the draft's NEGATIVE overturned.
+
+This review found no discrepancy.
+
+## 5. Protocol integrity
+
+- **The seals:** one in the window (B1795), sealed before its results, 11 of 11 hashes. It is not on every remote
+  because of the unmounted mirror (R71-8).
+- **Outputs:** committed unread, then read once.
+- **Reruns of seat instruments on main** (W175, THE EXACT END, the audit checks): each from a detached worktree or an
+  extracted folder, its outputs compared, its differences reported (optimiser-level for W175).
+
+## 6. Advancement, errors, provenance
+
+- **Advancement:**
+  - LAW_MAP +2 rows; THEOREM_REGISTRY +0.
+  - No input removed.
+  - New living document: docs/THE_TOWERS.md.
+  - New gate: doc-facts, with its failing-path test.
+- **Errors:** no new class.
+  - Instances in the window: E54 (twice), E84, E76, E75, E2 (B1740's C1(iii), a control that compares an expression with
+    itself).
+  - Three more E54 instances found by this review: R71-6 carried though paid; three declines never entered; W64's K5 marked
+    unverified.
+  - The hostile referees caught five blocking findings before landing, each overturning or scoping main's draft: B1801,
+    B1802, B1803, B1804 and B1805.
+- **Provenance:** 4 070 added lines scanned, 0 hits.
+- **New vocabulary** not in TERMINOLOGY.md: none.
+
+## 7. The promotion sweep
+
+Nothing in the window meets the § 5 bars. No arc is PASSED, and no input is removed.
+
+### Action items (Review 72)
+- [ ] R72-1: the owner's decisions — P-406 or a selection principle (with P-419's first test, B1804, in hand); P-407 (the style rules); P-417's WORKING_RULES line; P-420's go (owner: the owner)
+- [ ] R72-2: the seats' answers to main's two relays (the four decisions; the workdesk), rowed and put to the owner (owner: cc)
+- [>] R72-3: push the owner's mirror when the drive is reconnected (carried from R71-8; owner: the owner, then cc)
+- [>] R72-4: main's review of the audit lane's two analytic proofs when P-396 yields a value (carried from R71-9; owner: cc)
+- [>] R72-5: main's plan's next steps P-394, P-397, P-398, or their retirement if the owner takes reading 2 (carried from R71-10; owner: cc)
+- [ ] R72-6: the cells registered by this review (P-426–P-430) worked in the queue's order (owner: cc)
+- [ ] R72-7: P-417's remaining steps (classification, banners, surfaces, the retraction grep) and P-421 (name the end) (owner: cc)

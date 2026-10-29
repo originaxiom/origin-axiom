@@ -725,7 +725,7 @@ found with B1635's sealed instrument.
   Clifford layer and the seed's golden layer multiply to the record's first N = 1 theory. Discrete data; no number.
 - **The tribunal's FAILS cells (B1690).** W76 (every mirror-symmetric thread to length 16 has CS = 0) and W83 (in the
   lane's E₈ frame the commutant is su(6), and a trace-free Y commuting with the weave's moves on T has dimension 0) are
-  verified on main; W81's branching too; W74's CP-invariance of the surface frame holds given W64's dimension count (the seat's, unverified on main; row 1124).
+  verified on main; W81's branching too; W74's CP-invariance of the surface frame holds given W64's dimension count (the seat's, unverified on main; row 1124). *[Dated note 2026-10-29, Review 72: W64's K5 — each one-unit space one-dimensional — is computed on main by B1796 (w123_check_run.txt: d(1,0,0), d(0,1,0), d(0,0,1) = 1 1 1), so W74 rests on main for K5; K4 (weight −½) is P-430.]*
 
 ## Main's addition: the exponents at the two fixed points (B1691, PROVED)
 

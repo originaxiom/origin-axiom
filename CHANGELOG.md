@@ -1,5 +1,9 @@
 # Changelog
 
+## S244 REVIEW 72 -- WHY NOTHING IS DERIVED, AND THE ANSWERS TESTED (2026-10-29)
+
+- The decadal review at the counter (20 commits since Review 71; arcs B1793-B1805). The loop: R71-1 and R71-3 resolved; R71-2 resolved for K5 (B1796 had computed it; an E54 instance), K4 registered (P-430); R71-4 (fourth carry) and R71-5 (third) declined from the review loop with their reason -- every cell now a point-register row (P-426-P-428), main's 2026-10-23 drafts kept as proposals to confirm; R71-6 (i) found paid at S101 (B1623) before Review 71 carried it (E54); R71-7 registered (P-429). The eight relays escalated at S240 settled by topic: four BANKED, four DECLINED (three by the addressee by name in the SM seat's section 50.2, never entered -- E54; one to the dormant LP seat). Dated notes: THE_WEAVE and B1690 (W64's K5 on main), THE_FRAMEWORK (the arrow forced, B1083, B1662). Sample read in full: B1795, B1799, B1800, B1801, B1803; fresh clone PASS at 3352c18e1; 46 gates with failing-path tests; provenance clean; no new error class. Nothing promoted. FLOOR 430. 0 of 19.
+
 ## S243 P-277 CLOSED, VERIFIED ON MAIN (2026-10-29)
 
 - The SM seat's W175 re-run on main's machine reproduces its output (cells identical; least ∣J∣ 4.5432 × 10⁻⁶ on the mirror-free classes): the frame's own one-loop potential breaks CP spontaneously at every fixed height on the mirror-free slope-2/5 classes. Scoped: no true minimum in τ at finite height (dV/dy > 0; W176). P-277 DONE. 0 of 19.

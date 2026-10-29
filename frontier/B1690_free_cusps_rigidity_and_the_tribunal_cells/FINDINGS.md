@@ -104,3 +104,8 @@ E₆ ⊃ SU(2) × SU(6) (Slansky 1981).
   `verification/main_w76.py` → `main_w76.json`; `verification/main_w81_w83.py` → `main_w81_w83.json`;
   `verification/main_w74.py` → `main_w74.json`.
 - The lock: `tests/test_b1690_free_cusps_rigidity_and_the_tribunal_cells.py`.
+
+## Dated note (2026-10-29, Review 72)
+
+- W64's K5, "each one-unit space is one-dimensional" (§ above: "not verified on main"), is computed on main by B1796 (its `verification/w123_check_run.txt`: d(1,0,0), d(0,1,0), d(0,0,1) = 1 1 1).
+- W74's conclusion here now rests on main for K5. K4 (weight −½) is P-430.

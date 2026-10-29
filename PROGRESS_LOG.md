@@ -18055,3 +18055,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - W175 reproduced on main; spontaneous CP violation at fixed height on the mirror-free classes; no true minimum in τ. 0 of 19.
 - **Landing suite (S243).** 7 842 passed, 68 skipped, 2 failed in 35:09 — B805's two standing attachment locks (P-239).
+
+## 2026-10-29 -- S244 REVIEW 72 (the decadal review at the counter)
+
+- The loop closed or registered (P-426-P-430); eight relays settled by topic; three E54 instances; the sample read; nothing promoted. 0 of 19.
+- **Landing suite (S244).** 7 841 passed, 68 skipped, 3 failed in 35:39 — B805's two standing locks (P-239) and B1626's relay-closure lock, which counts the rows each review closes: Review 72's settled rows were counted as B1626's own (44 against 40); fixed after the suite as Reviews 69 and 71 did (a Review 72 clause), and the suite showed one note on the wrong row (R71-6's on the B1477 relay instead of THE_FLOOR_AT_THE_CUP_KERNEL's, found by a substring match), moved; that lock, relay-debt and the gates rerun alone: pass.

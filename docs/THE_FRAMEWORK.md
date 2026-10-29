@@ -556,7 +556,7 @@ amphichirality** (B1012): no deeper eigenvalue, face, or control can ever bear o
 anything that fixes k comes from the observer or the bulk, and neither is computed.
 
 **Time, 4d, signature.** All the observer's: **no canonical arrow, no canonical 4d
-filling, no canonical Wick rotation** (B716). The object supplies four incompletenesses —
+filling, no canonical Wick rotation** (B716). *[Dated note 2026-10-29, Review 72: the arrow is no longer the observer's — B1083 and B1662 make it forced under GM5b (adopted, GENESIS v1.48; B1750's table); the rest of this sentence stands as written (P-426).]* The object supplies four incompletenesses —
 space, time, charge, value — and the observer supplies every closing (B717). Thermal
 time **fails on identity**: the object's clock is tracial type II₁ with **trivial modular
 flow** (B721).
