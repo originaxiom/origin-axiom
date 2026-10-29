@@ -72,3 +72,14 @@ bearing on it B1739, B1736, B1730, B1731, B1732, B1726, B1735, B1724. **Literatu
 - `verification/census.py` → `census.jsonl`, `control.json`, `census_run.txt`.
 - `verification/compare.py` → `comparison.json`, `compare_run.txt`.
 - The lock: `tests/test_b1740_the_non_null_higgs_under_the_standard_models_reading.py`.
+
+## Dated note (2026-10-29, S242; the web seat's audit, harvest row 1461, verified on main (S242): the seat's audit_checks.py parts C, D, E run against main's checkout reproduce its committed lines exactly, and b1740_floor.py likewise)
+
+- **Read "the dichotomy is sealed" as "sealed for F₋₂".** One non-null Higgs (F₋₂) was tested; the general form
+  overreaches.
+- **The floors, recomputed.** F₋₂'s least m₂/m₃ is 81 times the measured value (up, reading S), 77 (up, S̃), 20 and 15
+  (down), and 6 (leptons, both readings).
+- **Control C1(iii) tests nothing.** It compares v_iv_jv_k for v = (θ₂⁻², θ₄⁻², iθ₃⁻²), built from locally recomputed
+  thetas, with i(θ₂θ₃θ₄)⁻²: two expressions identical by algebra, never touching the instrument's own Higgs. Main read
+  the code. An E2 instance (ERROR_LEDGER, S242).
+- **Unchanged:** the verdict for F₋₂ on its grid.

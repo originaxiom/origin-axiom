@@ -1,5 +1,9 @@
 # Changelog
 
+## S242 THE WEB SEAT'S AUDIT OF MAIN'S ARCS, VERIFIED AND APPLIED (P-423; 2026-10-29)
+
+- The web seat's integrity audit of main's B1739, B1740 and B1790 (harvest row 1461) re-run on main: its audit_checks.py parts C, D, E and b1740_floor.py reproduce its committed lines exactly against main's checkout; B1740's control C1(iii) read in the code and confirmed vacuous. No negative reverses; three scope corrections applied by dated notes — B1739's '∣V_ud∣ ∝ r^½' is the median's slope only and its '52.7' is not the reading's least (22.36); B1740's dichotomy is sealed for F₋₂ only and its C1(iii) tests nothing (an E2 instance); B1790 missed a holomorphic section that reproduces S̃ exactly on the mirror lines. RETRACTIONS (the index 56; P3's count updated), ERROR_LEDGER, P-423 DONE, P-345 noted. 0 of 19.
+
 ## S241 THE FIRST DOCUMENT GATE: doc-facts (P-417; 2026-10-29)
 
 - **`doc-facts`** (scripts/checks/doc_facts.py; a new gate with its failing-path test, tests/test_doc_facts.py, registered in tests/GATE_CONTROLS.json and docs/PRACTICES.md): a front page (README, ROADMAP, MAIN_GOAL, INDEX, CAMPAIGN_STATUS, MASTERPLAN) must not state a current fact its source contradicts. The first fact is the GENESIS version ("`GENESIS.md` is at vX.Y" against GENESIS's own header); history and dated mentions are not checked. It found exactly one stale statement: the README's opening banner ("is at v1.14", GENESIS being at v1.59). Fixed by the owner's split: a short current banner on top (v1.59, 0 of 19, pointers to CAMPAIGN_STATUS and the register), the old banner kept as dated history, the narrative's rewrite owed to the next decadal review. doc-currency measures recency; this measures facts. P-417 noted. 0 of 19.

@@ -18045,3 +18045,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - A front page may not state a current fact its source contradicts; first fact the GENESIS version; the README's banner fixed (a current banner on top, the narrative owed to the next review). 0 of 19.
 - **Landing suite (S241).** 7 842 passed, 68 skipped, 2 failed in 26:59 — B805's two standing attachment locks (P-239).
+
+## 2026-10-29 — S242 THE WEB SEAT'S AUDIT OF MAIN'S ARCS, VERIFIED AND APPLIED (P-423)
+
+- B1739, B1740, B1790: three scope corrections verified on main and applied (dated notes, RETRACTIONS, an E2 instance); no negative reverses. 0 of 19.
+- **Landing suite (S242).** 7 842 passed, 68 skipped, 2 failed in 36:25 — B805's two standing attachment locks (P-239).

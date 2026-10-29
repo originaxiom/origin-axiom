@@ -13661,10 +13661,11 @@
     "z3_generation"
    ],
    "refs": [
-    "S216"
+    "S216",
+    "S242"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 11,
+   "obstacle_conf": 12,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -13707,6 +13708,7 @@
     "P2",
     "P3",
     "P4",
+    "S242",
     "V1"
    ],
    "obstacle": "particle_dict",
@@ -14269,7 +14271,9 @@
     "amphichiral_cp",
     "wrt_quantum"
    ],
-   "refs": [],
+   "refs": [
+    "S242"
+   ],
    "obstacle": "particle_dict",
    "obstacle_conf": 5,
    "status": "open",

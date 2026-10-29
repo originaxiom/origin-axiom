@@ -93,3 +93,13 @@ Per τ, the median ∣V_ud∣ under the mixed readings follows r(τ): **log-corr
 
 - `verification/the_higgs_is_nearly_null.py` → `the_higgs_is_nearly_null.json`, `the_higgs_is_nearly_null_run.txt`.
 - The lock: `tests/test_b1739_the_higgs_is_nearly_null.py`.
+
+## Dated note (2026-10-29, S242; the web seat's audit, harvest row 1461, verified on main (S242): the seat's audit_checks.py parts C, D, E run against main's checkout reproduce its committed lines exactly, and b1740_floor.py likewise)
+
+- **The power law is a property of the median, not of the distribution.** § 3's "∣V_ud∣ ∝ r^½" (slope 0.52 for S̃/S) holds
+  for the median only. The quantile slopes of ln ∣V_ud∣ against ln r are 1.24, 1.14, 0.52 and 0.22 at q = 0.10, 0.25,
+  0.50 and 0.75. So P-345's "∝ r^½ ≈ 0.1" is unearned as a law.
+- **The 52.7 is not that reading's least.** § 4's "that reading misses the six (χ² 52.7)" is the six at the nine's best
+  row. The all-S̃ reading's own least χ²_six is 22.36 (B1726's least per assignment, with B1740's compare.py).
+- **Unchanged:** the exclusion on its grid (no row with both a hierarchy and ∣V_ud∣ ≥ 0.97 reaches the six: the least
+  χ²_six among the 6 151 such rows is 387.4).

@@ -122,3 +122,12 @@ Bearing on it:
   - `common.py`.
 
 The lock: `tests/test_b1790_the_reading_not_derived_in_the_frame.py`.
+
+## Dated note (2026-10-29, S242; the web seat's audit, harvest row 1461, verified on main (S242): the seat's audit_checks.py parts C, D, E run against main's checkout reproduce its committed lines exactly, and b1740_floor.py likewise)
+
+- **A route was missed.** On the mirror lines, a single holomorphic section (DR with K negated, at τ or at τ − 1)
+  reproduces the S̃ reading exactly: the largest ∣d ln∣ is 0.00, against 6.06–6.36 for S, at (2/5, 1/10) at 3i and at
+  0.5 + 3i. Off the lines it does not (control at 0.35 + 3.05i: 1.27). So § 3's "two holomorphic Higgs objects cannot
+  do it" holds off the mirror lines only; on them the section is covariant under Γ⁰(2) only.
+- **"Nearly reading-blind" holds for the coarse measure only.**
+- **Unchanged:** the reading is not derived in the frame. The sign bit stays post hoc (§ 2).
