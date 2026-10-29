@@ -196,3 +196,11 @@ display:
 4. **To the audit lane:** the check list under Q4, to amend or replace.
 
 0 of 19.
+
+---
+
+**Correction (2026-10-29, appended after the push; the relay above is RECORD and unchanged).** § 2 item 3 says "The
+sweep finds no such scoring on record". The sweep reads main only. Eleven minutes before this relay (f22777298, 08:24),
+the SM seat's Ledger Desk had already scored that seat's own sealed priors: 290 cells, Brier 0.093 against the base
+rate's 0.114. Proposal 3 therefore reads better as: extend the SM seat's calibration to every seat's sealed cells, and
+count the cells that carry no prior. 0 of 19.
