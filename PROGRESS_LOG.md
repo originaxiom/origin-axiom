@@ -18124,3 +18124,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - B1814: the measured world is not atypical of the weave's critical-clock measure (not specific), and the six do not decide the clock (NEGATIVE as sealed for D2; underpowered). Phase 0: the arcs' data consistent (gate `arc-data`). The owner's sweep: 27 register rows (P-438–P-464), two missed relays harvested and verified, B1785's false sentence corrected. 0 of 19.
 - **Landing suite (S256).** 7865 passed, 68 skipped, 4 failed (30:31; audit/suite_logs/landing_S256.log): B1814's verdict scope (reach written as prose) and its kill-graph scope keys -- both fixed before the push, tests/test_arc_verdict_schema.py rerun, 1528 passed; B805's two attachment locks (standing, P-239). The owner's four points of the evening (P-465-P-468) added after the suite (register rows only).
+
+## 2026-10-29 — S257 THE CLOCK AND THE NEXT ATTACK (the owner's briefing)
+
+- The clock as one dial from the principle's golden path to the critical point; nothing turns it yet; the test plan T1–T6 (T2 and T1 first, approved). 0 of 19.
+- **Landing suite (S257).** 7867 passed, 68 skipped, 2 failed (46:33; audit/suite_logs/landing_S257.log): B805's two attachment locks (standing, P-239).

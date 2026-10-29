@@ -14828,9 +14828,11 @@
     "wrt_quantum",
     "lorentzian"
    ],
-   "refs": [],
+   "refs": [
+    "S257"
+   ],
    "obstacle": "measure",
-   "obstacle_conf": 22,
+   "obstacle_conf": 23,
    "status": "open",
    "domain": "physics"
   },

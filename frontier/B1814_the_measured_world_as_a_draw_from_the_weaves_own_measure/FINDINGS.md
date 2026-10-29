@@ -33,6 +33,10 @@
   HOROCYCLE AND THE HEIGHT; THE FRAME NULL's two cells, conservatively) and one it missed: THE EXACT END's sealed look
   (row 1459, sealed 2026-10-28). So m is 54. No grade changes: every r is at least 0.068, against 0.01/54 ≈ 1.9 × 10⁻⁴.
 
+  > *Corrected 2026-10-29 (S257, P-445): THE FRAME NULL is not a look — ruled by precedent (a null-calibration of an existing
+  > best row on the same data, as B1786's referee null). So the prior looks were 49, this test's cells are looks 50–52, and
+  > m = 52. No grade changes.*
+
 ## 2. Computed (`verification/comparison.json`; `compare_run.txt`)
 
 **Controls hold.**
