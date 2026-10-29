@@ -499,3 +499,28 @@ down.
    a chosen statistic. Its density has its global maximum at Im τ = 1, and no rise beyond 3 SE at the run's resolution.
 
 0 of 19.
+
+> **Dated correction, 2026-10-29 evening (chat1, after main's B1815 at c9ba922ef and its register row P-482, "THE
+> LETTERS AS BRANES — RAISED AND REFUTED"; refereed read-only, PASS WITH CORRECTIONS, together with THE ISOTROPY
+> CONTROL).**
+> - **What B1815 shows** (§ "The brane reading fails"): "In B1812's convention K_[0,1] = R and K_[1,0] = L⁻¹". L is
+>   conjugate to no 7-brane monodromy, so a positive word mixes a brane letter with an inverse-brane letter and "its
+>   length does not count branes". B1815's words: "The move clock has no shown home in the brane layer."
+> - **The P-466 study (§ Optional) leaned on the opposite reading in four places,** each corrected here:
+>   1. Item 2 of "What the frame forces": "So a thread is a loop in the base minus the branes, and the move clock counts
+>      encirclings."
+>      - **Kept:** its first sentence, that a loop's monodromy is the ordered product of the encircled branes' K_[p,q].
+>      - **Kept, as a reading:** "a thread is a loop in the base minus the branes", for a thread whose word is written
+>        with inverse letters (L = K_[1,0]⁻¹).
+>      - **Withdrawn:** "the move clock counts encirclings".
+>   2. The section "The clock becomes a choice of measure on the base": "'Counted' and 'followed' are measures on such
+>      paths." The counted clock is not shown to be a measure on base paths, so it is withdrawn for "counted".
+>      - The table's header "the clock, in the base" and its first row, "counted: words of encirclings", should read
+>        "counted: words in L and R (no base-path measure shown; B1815)". The row's measure and tail (Minkowski's;
+>        B1813's ≈ 3.9 · 4^(−Y)/√Y) are unchanged as statements about the move clock.
+>   3. Under "CHOSEN": "which measure is the history's clock: counted, hyperbolic or the base's own. The clock question
+>      becomes this choice". It narrows to the two base measures, the pulled-back hyperbolic and the base's own. The
+>      counted clock stays CHOSEN in B1813's and B1815's sense, outside the base.
+>   4. Under "FORCED": "the words as products of K_[p,q]" holds only with inverse letters (L = K_[1,0]⁻¹).
+> - **Unaffected:** the depth–distance law, the base metric (GSVY) and its two area integrals, and the 4π rate under
+>   the base's own metric. The study stays SPECULATION throughout.
