@@ -1,5 +1,9 @@
 # Changelog
 
+## S254 THE OWNER'S RULINGS ON THE SEATS' ANSWERS, AND THE HARVEST (2026-10-29)
+
+- **The owner's rulings,** after the seats answered main's relays: **P-420 GO** — phase 0 first (the arc data repaired, the three seats' defect lists merged), then the static generated desk from the SM seat's prototype; **the label rule amended** (WORKING_RULES, the 2026-10-29 rule, item 4: FITTED a fourth label; scope and evidence on every label; EXCLUDED versus NOT FOUND); **the scoreboard** a graded vector continuing B1261/B1421's ledgers (P-418). **Harvest** rows 1467–1471 (the web seat's four-decisions opinions, its workdesk proposal, THE FRAME NULL's sealed result — both cells INTERMEDIATE —, W150's μ/M̃; the SM seat's Ledger Desk), every quote checked on the seats' branches; RELAY_LEDGER rows; main's two relays BANKED; a relay with the rulings. P-371, P-407, P-412, P-418, P-419, P-420 noted. 0 of 19.
+
 ## S253 B1812 — THE TOWERS IN F-THEORY'S 7-BRANE FRAME (2026-10-29)
 
 - **B1812** (P-415, the owner's towers question; P-419's card; data-free; NEGATIVE for the towers-meeting-at-loci reading; refereed hostile, four blocking findings applied): the genesis word LR (trace 3) lies in the single SL(2, ℤ) class that DeWolfe–Hauer–Iqbal–Zwiebach assign to the E₁₀ = E₈^H 7-brane configuration (an explicit conjugator computed), whose nested subconfigurations carry su(3) ⊕ su(2), su(5), so(10), E₆, E₇, E₈, Ê₈. Only so(10)–E₈ can collapse to singularities; su(3) ⊕ su(2) and su(5) sit on hyperbolic classes of negative trace and cannot — their algebras organise massive BPS states, not gauge symmetries at a point. The object fixes the total class, not where any tower sits. m003's sign class is E₄'s (su(5)); among the metallic words only the golden one is an E-series monodromy. Complements B1343. Kill graph. P-415 and P-419 noted. 0 of 19.

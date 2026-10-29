@@ -438,6 +438,14 @@ none had answered.
 
    A verdict file's claim, and every discrete item in P-406's census, carries one. The check of 2026-10-29 found two
    mislabels on record: the arrow and the 2T surjection are generic, not specific to the object.
+
+   **Amended 2026-10-29 at the owner's ruling, on the web seat's opinion** (`CHAT1_TO_CC_2026-10-28_FOUR_DECISIONS_THE_WEB_SEATS_OPINIONS.md`):
+   - **FITTED** is a fourth label: a continuous value set by data (τ's height), a different freedom from a discrete
+     choice. It costs differently in any look-elsewhere count.
+   - **Every label carries its scope and its evidence,** e.g. "FORCED within frame F, by arc X". A label without scope
+     repeats the overreach the web seat's integrity audit found in the record's negatives.
+   - **Negatives keep the same discipline:** EXCLUDED (within a stated scope, by an argument) is distinct from NOT FOUND
+     (a declared search's null), as the audit lane asked.
 5. **Every document is watched or frozen.** Each tracked document at the root and in docs/ is one of:
    - LIVING: its banner and key facts are checked by a gate;
    - RECORD: frozen, with a pointer to what supersedes it;
