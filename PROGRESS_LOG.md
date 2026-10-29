@@ -18134,3 +18134,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The clock plan T1-T4 done and verified: the walk model is the move clock exactly; the frame is native to continuous clocks; nothing generates the symmetry that would force area; the clock stays CHOSEN. 0 of 19.
 - **Landing suite (S258).** 7867 passed, 68 skipped, 5 failed (44:10; audit/suite_logs/landing_S258.log): three fixed before the push -- B1815's copied T1 census carried a vendor token in a branch name and its copied T3/T4 report cited a path that exists only on the seat's branch (both made neutral; the gates had been run before the new files were staged), and B1815 was absent from the claim pool (row added); the three tests rerun and pass. B805's two attachment locks (standing, P-239).
+
+## 2026-10-29 — S259 THE WEB SEAT'S CRITICAL LINE AND LIMITS (verified, harvested)
+
+- The delegated mathematics of the two-clock family verified on main and harvested; no point of the line picks a height. The owner's final act registered (P-485-P-488): support first, the absence claim retracted, the support test on the whole interaction, c never set. 0 of 19.
+- **Landing suite (S259).** full suite 7 869 passed, 3 failed, 68 skipped (43:38, -n 6, the machine shared with B1816's referee and strand A's map) on 40836fb50: two are B805's attachment locks (P-239, standing); the third, B1306's slice D, caught a real defect -- the chat1 pin had been advanced past two unrowed relays (the scoreboard's first and second rows): rowed 1478 and 1479 (both checks REPRODUCED on main, byte-identical), P-489 registered, FLOOR 489; the 175 ledger-reading tests and the gates (47/47) rerun green on the amended tree.

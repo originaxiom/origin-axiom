@@ -45,6 +45,10 @@ referee's check 7 shows the float sampler fails near ℓ ≈ 40.
   geodesic flow (B1663 found it as the walk's).
 - **Its tail:** P(Im τ > Y) ≈ 3.9·4^(−Y)/√Y. The local slope is 1.5–1.6 at Y = 2–4, falling toward 2 ln 2 ≈ 1.39: a run of
   a letters reaches height about a/2 with probability 2^(−a).
+  > *Sharpened 2026-10-29 (S259; the web seat's THE CRITICAL LINE AND THE LIMITS, harvest row 1476, verified on main): the constant is
+  > a 1-periodic function of ⟨2Y⟩, P(Im τ > Y) = C(⟨2Y⟩) Y^(−½) 4^(−Y)(1 − c/Y + …) with C between 3.914 and 3.999 (mean 3.954;
+  > "3.9" is its value at θ = 0) and c about 0.090; the hierarchy exponent 0.44 is 2 log 2/π with a log-periodic factor; the
+  > family's tail rate is exactly 2P(s).*
 - **The mean geodesic length per move** is 0.7924, twice B1663's escape rate.
 - **B1662's walk with inverses** gives the same height marginal (P(Im τ > 3) = 0.034–0.035; the referee's check 5).
 

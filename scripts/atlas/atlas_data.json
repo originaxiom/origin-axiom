@@ -14817,7 +14817,8 @@
     "S164",
     "S245",
     "S248",
-    "S258"
+    "S258",
+    "S259"
    ],
    "obstacle": "measure",
    "obstacle_conf": 33,
