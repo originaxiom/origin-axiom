@@ -12,7 +12,7 @@ Checks:
       union-find over the rows used gives the irreducible sources;
   K5  the bits, computed here from the counts (log2 of the options or of the options searched), never typed.
 """
-import ast, json, math, pathlib, re, subprocess, sys
+import ast, functools, json, math, pathlib, re, subprocess, sys
 from fractions import Fraction as Fr
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -82,7 +82,7 @@ cov = eval(re.search(r"^COV = (tuple\(.*\))\s*$", cmp41, flags=re.M).group(1), {
 check("K2", len(seat) == 2 and len(cov) == 8 and len(set(cov)) == 8, "readings: SEAT %s (%d), COV %d" % (seat, len(seat), len(cov)))
 cen = arc("B1726", "verification/census.py")
 fn = next(n for n in ast.parse(cen).body if isinstance(n, ast.FunctionDef) and n.name == "lines")
-ns = {"math": math, "Fr": Fr}
+ns = {"math": math, "Fr": Fr, "functools": functools}
 exec(compile(ast.Module(body=[fn], type_ignores=[]), "lines", "exec"), ns)
 L = ns["lines"]()
 check("K2", len(L) == 266 and (Fr(2, 5), Fr(1, 10)) in L, "lines: B1726's lines() gives %d; (2/5, 1/10) among them" % len(L))
