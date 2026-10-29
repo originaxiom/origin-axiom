@@ -1,0 +1,39 @@
+W178's first launch (2026-10-29), the script at 57c550d85: ran to its end, exit 0, 1877.4 s, 0 warnings, and failed.
+
+What was checked before anything else, as the rule allows: the exit, failures, NaN, paths and warnings.
+- 258 of 5852 tasks failed, every one on the ladder (no residue cut), every one with ZeroDivisionError in W177's
+  c_series (the integer-lambda term 4 pi^2 y / |1 - W Q^(-l0)|^2).
+- The failed tasks fall on the 20 census lines of order dividing 6, where 3w is a half-period, so that ub = (qL + qR) w
+  lies on the zero of one theta_s and that channel's residue vanishes identically. The script computed that channel's
+  kernel norm anyway, which is undefined there: it divided by zero where the zero was hit exactly, and where rounding
+  left it tiny would give a huge norm times a tiny residue.
+- The tracebacks stored in the output carried absolute paths, which the repository's gates do not allow.
+
+The cells (T0, T1, T2) and every read-out were not read. The output JSON was moved out of the tree unread and is not
+committed: on the 20 lines it was written by the defective instrument, and on the others the second launch recomputes
+the same quantities.
+
+The fix, committed before the second launch, changes no cell, threshold, height, line, precision or tolerance:
+(1) a channel whose theta_s(ub) vanishes identically, decided exactly from the line's fractions, gets u_s = 0 (the
+record's cut and W177's grid already treat it so), counted per task; (2) tracebacks are written without the
+repository and library paths.
+
+The 20 lines (a, b): (0, 0), (0, 1/2), (0, 1/3), (0, 1/6), (1/2, 0), (1/2, 1/2), (1/2, 1/3), (1/2, 1/6), (1/3, 0),
+(1/3, 1/2), (1/3, 1/3), (1/3, 1/6), (1/3, 2/3), (1/3, 5/6), (1/6, 0), (1/6, 1/2), (1/6, 1/3), (1/6, 1/6), (1/6, 2/3),
+(1/6, 5/6). Their ladder entries carried the failure flag at 38 of 40 line-and-Re-tau pairs.
+
+The first launch's progress lines:
+point 1/5852 at 0 s
+point 501/5852 at 645 s
+point 1001/5852 at 1008 s
+point 1501/5852 at 1214 s
+point 2001/5852 at 1334 s
+point 2501/5852 at 1421 s
+point 3001/5852 at 1498 s
+point 3501/5852 at 1563 s
+point 4001/5852 at 1628 s
+point 4501/5852 at 1693 s
+point 5001/5852 at 1756 s
+point 5501/5852 at 1821 s
+written the_six_at_the_cusp.json in 1877.4 s; 0 distinct warnings
+exit=0

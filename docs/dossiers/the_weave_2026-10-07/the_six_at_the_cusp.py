@@ -17,17 +17,28 @@ repeated once at twice the digits; a feature still neither is unresolved.
   R   read-outs
 
     python3 -B docs/dossiers/the_weave_2026-10-07/the_six_at_the_cusp.py
+
+Fixed for the second launch (2026-10-29; the_six_at_the_cusp_first_launch_failed.txt).  The first launch ran to its
+end with 258 failed tasks, all on the ladder (no cut) and all on the 20 lines of order dividing 6, where 3w is a
+half-period and so ub lies on the zero of one theta_s.  There the channel's residue vanishes identically and its kernel
+norm is undefined; the script still computed the norm, which divided by zero where the zero was hit exactly (and, where
+rounding left it tiny, would give a huge norm times a tiny residue).  Its cells were not read.  Two changes, nothing
+else: (1) a channel whose theta_s(ub) vanishes identically, decided exactly from the line's fractions, gets u_s = 0,
+as the record's cut and W177's grid already treat it, and is counted per task; (2) failed tasks' tracebacks are written
+with the repository and library paths removed.
 """
 import contextlib
 import io
 import json
 import math
+import re
 import multiprocessing as mpc
 import platform
 import sys
 import time
 import traceback
 import warnings
+from fractions import Fraction as Fr
 from pathlib import Path
 
 import numpy as np
@@ -93,7 +104,7 @@ def six_at(line, x, y, p, cut):
         S = dr[0] * CM["i"] + dr[1] * CM["j"] + dr[2] * CM["k"]
         reads = {"S": S, "St": EPSM * mat_conj(S) * EPSM.T}
         Lv = mp.mpf(W162.L_of(_G["col"], y, "L_max"))
-        out, lnr = [], []
+        out, lnr, zeroed = [], [], 0
         for sec, rd in READ:
             qL, qR = T8.charges(W93, sec)
             R = W93.residues((a, -b), sec, t)
@@ -101,6 +112,9 @@ def six_at(line, x, y, p, cut):
             ub = (qL + qR) * (mp.mpf(a.numerator) / a.denominator * t + mp.mpf(b.numerator) / b.denominator)
             M = mp.zeros(2, 2)
             for s in T8.UNITS:
+                if theta_zero(W89TH[s], line, qL + qR):
+                    zeroed += 1
+                    continue
                 Rs = k * R[s]
                 if cut and abs(Rs) <= CUT:
                     continue
@@ -114,10 +128,22 @@ def six_at(line, x, y, p, cut):
                 lnr.append(r)
         for r in lnr:
             out.append(float(mp.log(r)) if r > 0 else -math.inf)
-        return out, [float(mp.log10(r)) if r > 0 else -math.inf for r in lnr]
+        return out, [float(mp.log10(r)) if r > 0 else -math.inf for r in lnr], zeroed
 
 
 W89TH = {"1": 1, "i": 2, "j": 4, "k": 3}
+ZEROS = {1: (Fr(0), Fr(0)), 2: (Fr(1, 2), Fr(0)), 3: (Fr(1, 2), Fr(1, 2)), 4: (Fr(0), Fr(1, 2))}
+
+
+def theta_zero(s, line, qsum):
+    """theta_s(ub) vanishes identically: ub = qsum (a tau + b) lies on theta_s's zero modulo the lattice (exact)"""
+    a, b = line
+    return ((qsum * b) % 1, (qsum * a) % 1) == ZEROS[s]
+
+
+def sanitize(text):
+    text = text.replace(str(ROOT) + "/", "")
+    return re.sub(r"/[^\s\"']*/(site|dist)-packages/", "<packages>/", text)
 
 
 def point(task):
@@ -129,8 +155,8 @@ def point(task):
         p1, p2 = precisions(y)
         status = None
         for attempt in (1, 2):
-            f1, l1 = six_at(line, x, y, p1, cut)
-            f2, l2 = six_at(line, x, y, p2, cut)
+            f1, l1, zeroed = six_at(line, x, y, p1, cut)
+            f2, l2, _z = six_at(line, x, y, p2, cut)
             status = []
             for i in range(6):
                 if math.isfinite(f1[i]) and math.isfinite(f2[i]) and abs(f1[i] - f2[i]) <= AGREE:
@@ -144,9 +170,9 @@ def point(task):
             p1, p2 = 2 * p1, 2 * p2
         six = [f2[i] if status[i] == "resolved" else None for i in range(6)]
         return {"k": k, "x": x, "y": y, "cut": cut, "six": six, "status": status, "digits": [p1, p2],
-                "seconds": round(time.time() - t0, 2)}
+                "theta-zero channels": zeroed, "seconds": round(time.time() - t0, 2)}
     except Exception:  # noqa: BLE001  (a failed task is kept and disclosed)
-        return {"k": k, "x": x, "y": y, "cut": cut, "failed": traceback.format_exc()[-1500:]}
+        return {"k": k, "x": x, "y": y, "cut": cut, "failed": sanitize(traceback.format_exc()[-1500:])}
 
 
 def _init(root_str):
@@ -190,6 +216,9 @@ def run(out, pool):
     out["tasks"] = len(tasks)
     out["failed tasks"] = [[r["k"], r["x"], r["y"], r["cut"], r["failed"]] for r in res.values() if "failed" in r][:20]
     out["failed task count"] = sum(1 for r in res.values() if "failed" in r)
+    out["theta-zero channels skipped (tasks with any, lines)"] = [
+        sum(1 for r in res.values() if r.get("theta-zero channels")),
+        len({r["k"] for r in res.values() if r.get("theta-zero channels")})]
     out["doubled-precision tasks"] = sum(1 for r in res.values()
                                          if "digits" in r and r["digits"][0] > precisions(r["y"])[0])
     # ---------------------------------------------------------------- T0: the tie
@@ -333,7 +362,7 @@ def main():
             with mpc.get_context("fork").Pool(WORKERS, initializer=_init, initargs=(str(ROOT),)) as pool:
                 run(out, pool)
         except Exception:  # noqa: BLE001  (a failed run still writes what it has)
-            out["run_failed"] = traceback.format_exc()[-3000:]
+            out["run_failed"] = sanitize(traceback.format_exc()[-3000:])
     out["warnings"] = sorted({f"{w.category.__name__}: {w.message}" for w in caught})
     out["seconds"] = round(time.time() - t0, 1)
     OUT.write_text(json.dumps(out, indent=1, ensure_ascii=False, default=str) + "\n", encoding="utf-8")
