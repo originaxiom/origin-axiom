@@ -1,0 +1,54 @@
+DR (i, 0) done
+DR (omega, 0) done
+DR (i, (1/2, 1/2)) done
+DR (omega, (1/3, 2/3)) done
+a0 (i, 0) done
+a0 (omega, 0) done
+a0 (i, (1/2, 1/2)) done
+a0 (omega, (1/3, 2/3)) done
+R (i, 0) done
+R (omega, 0) done
+R (i, (1/2, 1/2)) done
+R (omega, (1/3, 2/3)) done
+t=-5/288 (i, 0) done
+t=-5/288 (omega, 0) done
+t=-5/288 (i, (1/2, 1/2)) done
+t=-5/288 (omega, (1/3, 2/3)) done
+F_-10 (i, 0) done
+F_-10 (omega, 0) done
+F_-10 (i, (1/2, 1/2)) done
+F_-10 (omega, (1/3, 2/3)) done
+F_-6 (i, 0) done
+F_-6 (omega, 0) done
+F_-6 (i, (1/2, 1/2)) done
+F_-6 (omega, (1/3, 2/3)) done
+F_-2 (i, 0) done
+F_-2 (omega, 0) done
+F_-2 (i, (1/2, 1/2)) done
+F_-2 (omega, (1/3, 2/3)) done
+F_6 (i, 0) done
+F_6 (omega, 0) done
+F_6 (i, (1/2, 1/2)) done
+F_6 (omega, (1/3, 2/3)) done
+F_10 (i, 0) done
+F_10 (omega, 0) done
+F_10 (i, (1/2, 1/2)) done
+F_10 (omega, (1/3, 2/3)) done
+F_14 (i, 0) done
+F_14 (omega, 0) done
+F_14 (i, (1/2, 1/2)) done
+F_14 (omega, (1/3, 2/3)) done
+F_18 (i, 0) done
+F_18 (omega, 0) done
+F_18 (i, (1/2, 1/2)) done
+F_18 (omega, (1/3, 2/3)) done
+F_22 (i, 0) done
+F_22 (omega, 0) done
+F_22 (i, (1/2, 1/2)) done
+F_22 (omega, (1/3, 2/3)) done
+F_26 (i, 0) done
+F_26 (omega, 0) done
+F_26 (i, (1/2, 1/2)) done
+F_26 (omega, (1/3, 2/3)) done
+{"C1a_F-2_equals_B1740s_higgs": 1.1102230246251565e-16, "C1b_B1740_row_reproduced": 0.0, "C1c_ckm_cells_compared": 200, "C1c_B1810_rows_reproduced_relative": 2.9830303681391147e-06}
+census exit 0
