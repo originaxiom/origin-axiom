@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-29",
+  "execution_head": "ec20db9c915f1e9ad6b747748da2672101de387b",
+  "exit_code": 0,
+  "elapsed_seconds": 117.42848565,
+  "captures": {
+    "launch.stdout.json": {
+      "bytes": 34,
+      "sha256": "38096e5e7a373eb296703f83d5bb4846c82d0c7ac6a165ba924fe5d4e1b2a5ab"
+    },
+    "launch.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "reserved_outputs": {
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/results/attempt_01.jsonl": {
+      "exists": true,
+      "bytes": 181673
+    },
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/results/attempt_01.log": {
+      "exists": true,
+      "bytes": 1748
+    }
+  },
+  "git_status_after": ""
+}

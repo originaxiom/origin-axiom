@@ -142,3 +142,21 @@ un-escalated stale relay debt; this is not a clean-clone certificate.
 Historical seal noncompliance remains explicitly retained. All 39 frozen
 artifacts and specification/design/environment hashes match. The tests
 remain UNRUN until a new strict clean-clone preflight actually admits them.
+
+## October 29: admitted execution completed, ten bounded passes
+
+The literal source-bound command ran once in a fresh clean clone at
+ec20db9c9, after real main review/acceptance and strict prospective admission.
+All ten expected methods passed, zero failures/errors/skips. All39 source
+pins and the specification/design/environment remained unchanged, and
+the execution checkout stayed clean at its original HEAD. Complete outputs
+are preserved in results/attempt_01.jsonl and results/attempt_01.log; the
+external receipts and qualified interpretation are in execution_2026_10_29/.
+The reserved paths are consumed and must not be overwritten or rerun.
+
+Earlier UNRUN statements are preserved history, superseded by this actual
+execution event. Main B1787's caveats still apply: bounded quotient-model
+arithmetic confirmed; P210 sharpened, not answered. The report is
+prospective_admissible=true and global_compliant=false; historical failures
+remain noncompliant. No newer spectral/radial proof or physical SM3 claim
+is certified and no foundational input is marked removed.

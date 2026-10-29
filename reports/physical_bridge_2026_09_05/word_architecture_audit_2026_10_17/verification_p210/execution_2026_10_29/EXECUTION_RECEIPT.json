@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-29",
+  "status": "EXECUTED_BOUNDED_CHECKS_PASS_NOT_PHYSICAL_COMPLETION",
+  "execution_head": "ec20db9c915f1e9ad6b747748da2672101de387b",
+  "main_review_commit": "54cfec661b80293985b3b48f5b4d3b0c0f7e2653",
+  "main_acceptance_commit": "8ca002cd13152f79f699799c6dac55d80d0cb74e",
+  "specification_sha256": "f33348144c91711b0bcc3a05cf62974aac28a468eb57181f1ea6dfc93077f948",
+  "prospective_admissible": true,
+  "global_compliant": false,
+  "historical_seal_report_counts": {
+    "absent_branch": 0,
+    "data": 5,
+    "historical_violation": 5,
+    "preregistration": 162,
+    "source": 3,
+    "unknown": 562
+  },
+  "expected_test_ids_match_executed": true,
+  "tests_run": 10,
+  "passes": 10,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "expected_failures": 0,
+  "unexpected_successes": 0,
+  "source_pins_before_and_after_match": true,
+  "clean_execution_checkout_before_and_after": true,
+  "stdout_stderr_and_scientific_outputs_preserved_byte_faithfully": true,
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/results/attempt_01.jsonl",
+      "bytes": 181673,
+      "sha256": "40d1b8f9edd43bb3ee029687878a31219b4c3c8c3b33a14070944972a096e2b6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/results/attempt_01.log",
+      "bytes": 1748,
+      "sha256": "8aab504893c5cceb48378efabf2559fd07949608306e4d7b8534e1039b3065d4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/execution_2026_10_29/EXTERNAL_PRELAUNCH.json",
+      "bytes": 1609,
+      "sha256": "8c8e0254aa1868d65db08d19399493c91523466cdbfc47bd136c97604fe654d0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/execution_2026_10_29/OUTCOME.json",
+      "bytes": 832,
+      "sha256": "981c2f2972bf4ae35b27d51441d7b55b3fcf896a0c9c9b4b1f57c973126c37d0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/execution_2026_10_29/launch.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/execution_2026_10_29/launch.stdout.json",
+      "bytes": 34,
+      "sha256": "38096e5e7a373eb296703f83d5bb4846c82d0c7ac6a165ba924fe5d4e1b2a5ab"
+    }
+  ],
+  "reserved_attempt_paths_consumed": true,
+  "must_not_rerun_or_overwrite_attempt_01": true,
+  "main_verdict_scope": "The bounded quotient-model statements confirmed by this lane code; P-210 sharpened, not answered. A pass confirms bounded arithmetic, not a banked positive.",
+  "retained_review_caveats": [
+    "Several checks are by-construction or definition checks (4,6,7,10).",
+    "Missing transpose-versus-dagger rejecting control in check1.",
+    "Missing wrong Green sign, wrong decay orientation and omitted MINUS-slot controls in checks8-9.",
+    "Full Q8 stabilizer only generic tau; conditional sheaf/domain index; symmetric K=0 is not Fredholm.",
+    "Actual generated physical end, fields, stationary action/domain, full charged spectrum and anomalies are separate duties."
+  ],
+  "newer_heat_geodesic_radial_proofs_certified": false,
+  "foundational_inputs_removed": 0,
+  "scientific_attempts_for_this_frozen_package": 1,
+  "previous_preflight_rejection_preserved": true
+}

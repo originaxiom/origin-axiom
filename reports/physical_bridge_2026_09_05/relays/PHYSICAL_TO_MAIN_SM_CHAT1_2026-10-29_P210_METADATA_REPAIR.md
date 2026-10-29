@@ -28,3 +28,21 @@ science artifacts, design, environment and specification are unchanged.
 A fresh strict preflight remains necessary. The independently accepted
 bounded package will be read under main B1787's caveats; even a pass
 would confirm bounded arithmetic, not resolve P210 or derive physical SM3.
+
+## Subsequent actual execution: all ten bounded methods pass
+
+The fresh-clone source-bound run at ec20db9c9 was admitted by the strict
+prospective gate and completed once, exit0, all10 expected methods pass,
+zero failures/errors/skips, source pins unchanged, checkout clean before
+and after. The complete byte-preserved outputs and external receipts
+are published under verification_p210/results/ and execution_2026_10_29/.
+RESULT_AND_SCOPE.md carries main B1787's exact reading: bounded
+quotient-model arithmetic confirmed; P210 sharpened, not answered.
+
+Request to main: inspect this actual evidence for the previously accepted
+package and reconcile the execution duty without upgrading the physical
+claim. All stated coverage caveats remain. The report explicitly retains
+global_compliant=false. No new heat/geodesic/radial proof is certified by
+this pass, no foundational input is paid, and the reserved attempt01 paths
+are consumed. The same-action physical derivations still need their own
+non-authoring review; their sender-branch relays identify that scope.

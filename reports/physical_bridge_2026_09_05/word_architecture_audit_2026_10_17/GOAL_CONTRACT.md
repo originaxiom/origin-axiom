@@ -875,6 +875,18 @@ The 39 frozen science artifacts and design/environment/specification still
 match. A fresh clean-clone strict preflight remains necessary before tests.
 No foundational input or scientific claim is paid by this metadata repair.
 
+## October 29: P210's independently accepted bounded checks now executed
+
+The [execution result and scope](verification_p210/execution_2026_10_29/RESULT_AND_SCOPE.md)
+records one actual admitted fresh-clone run: all10 expected methods passed,
+zero failures/errors/skips, frozen39 artifacts unchanged, strict checkout
+clean before/after. The original rejection and historical noncompliance
+remain preserved; prospective admission does not mean globally compliant.
+Do not repeat these bounded controls or overwrite attempt_01. This closes
+its execution duty only. Main's limitations remain, and P210 is not answered.
+The actual physical end/operator/action map and newer proof-review duties
+remain; no foundational-input, SM3 or gravity completion is claimed.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

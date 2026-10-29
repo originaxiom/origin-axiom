@@ -1,0 +1,15 @@
+test_18_projector_paths_keep_opposite_limits_and_endpoint (word_join_checks.SymmetricResponseChecks.test_18_projector_paths_keep_opposite_limits_and_endpoint) ... ok
+test_48_state_covariances_and_frozen_state_rejection (word_join_checks.SymmetricResponseChecks.test_48_state_covariances_and_frozen_state_rejection) ... ok
+test_actual_cusp_conjugation_and_retained_bump_normalization (word_join_checks.SymmetricResponseChecks.test_actual_cusp_conjugation_and_retained_bump_normalization) ... ok
+test_actual_symmetric_coupling_keeps_transpose_and_wrong_input (word_join_checks.SymmetricResponseChecks.test_actual_symmetric_coupling_keeps_transpose_and_wrong_input) ... ok
+test_all_eight_graded_family_involutions_and_conditional_indices (word_join_checks.SymmetricResponseChecks.test_all_eight_graded_family_involutions_and_conditional_indices) ... ok
+test_both_decaying_slots_scalar_controls_and_zero_threshold (word_join_checks.SymmetricResponseChecks.test_both_decaying_slots_scalar_controls_and_zero_threshold) ... ok
+test_four_cayley_planes_and_nonnull_wrong_graph (word_join_checks.SymmetricResponseChecks.test_four_cayley_planes_and_nonnull_wrong_graph) ... ok
+test_full_q8_commutant_and_nonscalar_family_freedom (word_join_checks.SymmetricResponseChecks.test_full_q8_commutant_and_nonscalar_family_freedom) ... ok
+test_null_graph_does_not_automatically_preserve_gamma (word_join_checks.SymmetricResponseChecks.test_null_graph_does_not_automatically_preserve_gamma) ... ok
+test_tail_clifford_green_grading_and_wrong_commuting_symbol (word_join_checks.SymmetricResponseChecks.test_tail_clifford_green_grading_and_wrong_commuting_symbol) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 15.339s
+
+OK
