@@ -1,0 +1,19 @@
+B1813's LIMITS AT SOURCE — one run of the sealed rule (792562983)
+
+(a)  E r = 1.584514 +- 0.000533;  E r / 2 = 0.792257 (B1813: 0.7924; Kesseboehmer-Stratmann: chi ~ 0.792)  L1: True
+(b)  T0(1.5), T0(2), T0(3) = [0.382911 0.167646 0.03463 ] +- [1.14e-04 5.00e-05 1.00e-05]; B1813 (0.3829, 0.1676, 0.03462); z [0.09 0.93 0.92]  L2: True
+(c)  Y0 = 8: C_Y(theta) mean 3.91231, range 0.08697 (2.223% of mean; 407.0 SE of the paired difference), max at theta 0.775, min at theta 0.200; C_Y(0) = 3.90191
+     C_Y on theta (every 4th): 0.000:3.9019, 0.100:3.8813, 0.200:3.8715, 0.300:3.8800, 0.400:3.8920, 0.500:3.9111, 0.600:3.9339, 0.700:3.9538, 0.800:3.9566, 0.900:3.9395
+(c)  Y0 = 15: C_Y(theta) mean 3.93081, range 0.08602 (2.188% of mean; 402.4 SE of the paired difference), max at theta 0.775, min at theta 0.200; C_Y(0) = 3.92122
+     L3 (range > 0.2% of the mean, beyond 3 SE): True
+     C_Y on theta (every 4th): 0.000:3.9212, 0.100:3.9004, 0.200:3.8905, 0.300:3.8989, 0.400:3.9107, 0.500:3.9296, 0.600:3.9522, 0.700:3.9720, 0.800:3.9746, 0.900:3.9574
+(d)  the series: C-bar = 3.95361 (analytic mean (2/E r) g0 E[2^s] = 3.95361); min 3.91351, max 3.99912 (range 2.165%)
+     first Fourier coefficient |c1| = 0.02069; predicted |(2/E r) g1 E[2^s e^(2 pi i s)]| = 0.02069; |E[2^s e^(2 pi i s)]| = 0.29395
+     C(theta) (every 4th of 40): 0.000:3.9443, 0.100:3.9235, 0.200:3.9135, 0.300:3.9218, 0.400:3.9336, 0.500:3.9524, 0.600:3.9750, 0.700:3.9946, 0.800:3.9971, 0.900:3.9798
+     L4 (C-bar in (3.85, 4.05)): True
+     C_Y(theta)/C(theta) at Y0 = 8 (theta = 0, 0.25, 0.5, 0.75): [np.float64(0.98924), np.float64(0.98931), np.float64(0.98955), np.float64(0.98983)]
+     C_Y(theta)/C(theta) at Y0 = 15 (theta = 0, 0.25, 0.5, 0.75): [np.float64(0.99414), np.float64(0.99414), np.float64(0.99423), np.float64(0.99435)]
+     local rate at Y ~ 15 from the form: 2 log 2 + 1/(2Y) = 1.41963 (2 log 2 = 1.38629)
+(e)  POST HOC (values read before the seal): P(beta) log(1/(1-beta))/(1-beta): {0.95: 1.2066, 0.98: 1.3185, 0.99: 1.3659}  L5: True
+
+     the hierarchy exponent (B2): 2 log 2 / pi = 0.441271; the modulation's period in x: e^(pi/2) = 4.8105
