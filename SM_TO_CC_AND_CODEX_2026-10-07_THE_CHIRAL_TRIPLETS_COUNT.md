@@ -10219,3 +10219,23 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    over every census line at the cusp).
 
 0 of 19.
+
+## 334. Added 2026-10-29 (UTC): a reading of W178's miss (a down–lepton factor near Georgi–Jarlskog's), and W179's rule
+
+1. **The reading** (NOTE, "Reading: W178's nearest miss"; READING, arithmetic only).
+   - On the slope-2/5 lines the frame forces equal down and lepton exponents. At Im τ ≈ 2.35 the leptons and m_u/m_t
+     sit on the skeleton, while m_c/m_t, m_s/m_b and m_d/m_b need 0.30, 0.36 and 3.22.
+   - The down–lepton part is the double ratios r₂ = 0.318 and r₁ = 3.365 (HZ2021 at M_Z), whose quotient is P-094's
+     D = 10.58 ± 0.11.
+   - That is Georgi–Jarlskog-like (1/3, 3), but Georgi–Jarlskog's D = 9 lies about 14σ away.
+   - The record's forced routes all give D ≡ 1: W137, W139, W140. No forced 45 exists, and main's 9 is a chosen factor.
+2. **W179's rule** (`docs/dossiers/the_weave_2026-10-07/W179_RULE.md`, committed and pushed before its script).
+   B1656's frame's own double ratios on all 266 census lines, at the points the principle marks:
+   - the cusp, read from W178's committed output;
+   - τ = i, computed with W178's instrument.
+   - The cells: G0, convergence; G1, the tie on orders 1, 2 and 5; G2, no D within 3σ of 10.58; G3, no (r₂, r₁)
+     within a factor 1.25 of the data's.
+3. **Labelled** neither (a frame census over every census line at the points the principle marks). The weave's own
+   answer on the split is W140's, D ≡ 1.
+
+0 of 19.

@@ -21500,3 +21500,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   masses with one shared small number and factors within 3; the closest misses by about 7% beyond that. The lines the
   earlier census could not test turn out to give an exactly massless first generation.
 - **What it means:** this question (item 4) is closed for this frame. 0 of 19.
+
+## 2026-10-29 — what the near miss looks like, and the next test written first
+
+- **The near miss explained:** the frame makes down quarks and leptons follow the same pattern, but nature has them
+  differ by factors close to 3 (a pattern grand unified theories call Georgi–Jarlskog). Its textbook form is ruled
+  out by today's precise data, and nothing the principle forces on record produces any such factor.
+- **The next test, written down before running it:** whether the frame itself, on any of its 266 lines, gives that
+  factor at the special points the principle singles out.
+  0 of 19.

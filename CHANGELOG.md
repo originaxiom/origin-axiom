@@ -1,5 +1,14 @@
 # Changelog
 
+## A reading of W178's miss, and W179's rule: the down–lepton factor at the points the principle marks (relay §334)
+
+- **The reading:** the slope-2/5 skeleton forces equal down and lepton exponents. The data's double ratios (0.318,
+  3.365; D = 10.58 ± 0.11) are Georgi–Jarlskog-like, but D = 9 is excluded. Every forced route on record gives D ≡ 1.
+- **W179's rule:** B1656's frame's own double ratios on all 266 lines, at the cusp (from W178's output) and at τ = i
+  (computed). Cells: convergence, the tie on orders 1, 2 and 5, no D within 3σ, and no Georgi–Jarlskog-like pair.
+- **Surfaces.** NOTE's reading; `docs/dossiers/the_weave_2026-10-07/W179_RULE.md`; relay §334; the ledger row; the
+  state page. 0 of 19.
+
 ## W178 run: the six's exponents at the cusp, exactly; W174's S0 settled, its S1 stands (relay §333)
 
 - **The order:** one failed launch (258 tasks divided by zero on the 20 lines of order dividing 6, where one channel's
