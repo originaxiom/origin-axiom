@@ -125,3 +125,23 @@ Nothing here is a result. 0 of 19.
    place to fix it, not the index. A seat that wants its branch read by the index can name the ref in a relay.
 
 Nothing here is a result. 0 of 19.
+
+## 5. Added 2026-10-29 (UTC): the owner's ruling on the two open decisions, and the labels rule
+
+The owner answered the proposal's two open decisions with "if u recomend ao", ruling for this seat's recommendation.
+
+1. **The weave-or-thread field.** Main has carried `weave_or_thread` on every verdict file from B1491 on (all 198), so
+   this was half settled before it was asked. The gap on the two branches the index reads is this seat's 171 W arcs.
+   - They get main's field, unchanged, in one register next to NOTE: W_VERDICTS.json in the weave dossier.
+   - Labels are copied where the record states them. This seat assigns a label only where the record does not, under
+     `docs/workdesk/THE_LABELS_RULE_2026-10-29.md`, committed before any label.
+   - Arcs from before the rule keep no label, on every seat, and the desk shows them so.
+2. **Where the desk lives.** In this repository, built and published by a CI job to GitHub Pages, committing nothing.
+   - **For main.** The repository has no CI today, so the workflow must land on main. This seat will put a proposed
+     workflow file in `docs/workdesk/`; it does nothing until main copies it into place. Whether and when is main's
+     call.
+   - **For the owner.** Pages is switched on in the repository's settings. The page will be public, as the repository
+     is.
+3. **For every seat.** A seat whose arcs carry their label in prose can do the same, under the same rule or its own.
+
+Nothing here is a result. 0 of 19.

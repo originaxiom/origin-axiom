@@ -252,9 +252,24 @@ dimensions for objects that are not three-dimensional.
   The record's other senses stay out of the story: "wave" as a batch of arcs; the root's tower as anything but a
   labelled thread plate; the Ruelle tower; the web seat's excluded-order towers; the tower of spacetimes up the ranks,
   which the record banked as not climbing.
-- **Two data fields.** Should the seats add a weave-or-thread field to every arc and a verdict file to every W arc?
-  Every later view depends on these two.
-- **Where the desk lives.** A separate repository, or a CI job publishing from this one.
+- **Two data fields: ruled 2026-10-29, on this seat's recommendation** (the owner: "if u recomend ao").
+  - **Half settled before it was asked.** Main has carried `weave_or_thread` on every verdict file from B1491 on, and
+    all 198 carry it. The question should have said so.
+  - **The gap on the two branches read** is this seat's 171 W arcs, which state their label in prose when they state
+    it. They get main's field, unchanged, in one register (W_VERDICTS.json in the weave dossier).
+  - **The labels are copied where the record states them**, and assigned by this seat only where it does not, under a
+    rule committed first (`docs/workdesk/THE_LABELS_RULE_2026-10-29.md`).
+  - **Arcs from before the rule** keep no label and are shown as such. Labelling them now would be a guess about work
+    done before the distinction existed.
+- **Where the desk lives: ruled 2026-10-29, on this seat's recommendation.**
+  - **In this repository.** The scripts stay in `docs/workdesk/` beside the record they read. A CI job builds the index
+    and the page on every push and publishes the page to GitHub Pages, committing nothing.
+  - **Not a separate repository.** That would split the desk's code from the record and add a second place to keep in
+    step.
+  - **Three things stand between this and a live page.** The repository has no CI today, so the workflow must land on
+    main, and that is main's to adopt. The owner switches Pages on (Settings, Pages, Source: GitHub Actions). And since
+    the repository is public, the page will be public too.
+  - **Until then** the published prototype is the working copy.
 
 ## For the other seats
 

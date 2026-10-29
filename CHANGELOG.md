@@ -1,5 +1,15 @@
 # Changelog
 
+## The owner's ruling on the desk's two decisions, and the labels rule committed first (relay to every seat, §5)
+
+- **The ruling:** "if u recomend ao", for this seat's recommendation on both open decisions.
+- **The field:** main's `weave_or_thread`, already on all 198 of its verdict files from B1491, is given to this seat's
+  171 W arcs in one register. Labels are copied where the record states them and assigned only under a rule committed
+  before any label: `docs/workdesk/THE_LABELS_RULE_2026-10-29.md`.
+- **Where the desk lives:** in this repository, published by a CI job to GitHub Pages; the workflow is main's to adopt,
+  the Pages switch the owner's.
+- **Surfaces.** The rule; `docs/workdesk/THE_LEDGER_DESK.md` (Decisions); the relay's §5; the ledger row. 0 of 19.
+
 ## The workdesk's index over two branches and the lifecycle strip (relay to every seat, §4)
 
 - **The index:** `docs/workdesk/build_index.py`, read-only over this branch and main's, writes SQLite, JSON and a

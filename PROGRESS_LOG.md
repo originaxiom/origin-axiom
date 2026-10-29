@@ -21428,3 +21428,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The order:** each result's rule, script, run and record are placed by time. Of the 99 results with named steps,
   none broke the order.
   0 of 19.
+
+## 2026-10-29 — the owner's two answers, and a rule before any label
+
+- **Labels:** the main seat already tags every result since its 1491st as about all objects at once, one object, or
+  neither. This seat's 171 results will get the same tag in one file, copied from what each result says about itself,
+  and decided only where it says nothing, under a rule written down first.
+- **Where the desk lives:** in this repository, rebuilt and published as a web page automatically on every change. The
+  main seat adopts the automation; you switch the page on in the repository's settings.
+  0 of 19.
