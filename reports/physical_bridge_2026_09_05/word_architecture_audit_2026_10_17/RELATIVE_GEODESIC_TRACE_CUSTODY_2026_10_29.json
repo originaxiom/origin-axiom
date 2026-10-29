@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-29",
+  "status": "UNREVIEWED authored conditional spectral derivation; no numerical execution or banking",
+  "base_commit": "db1d44b69d75f92e2e6215723281dd4fe13087f1",
+  "quantifier": "Same-action principal R=0 parallel phase, complete hyperbolic once-punctured elliptic carrier, extending spin, peripheral-trivial unitary character; displayed final coupling product specializes to order-seven source state",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/RELATIVE_GEODESIC_TRACE_AND_COUPLING_PRODUCT.md",
+      "sha256": "23f17303a785db5249c30c84520aa73eef9a339b48b76678541897edd98cb595"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/TWO_HEAT_RESPONSES_AND_SCALE_FREE_COUPLING.md",
+      "sha256": "816c77db9e26fa18574a5ca2656aff7c35664e97ccffb816e217c0000dc098c3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/TWO_HEAT_RESPONSES_AUTHOR_AUDIT_2026_10_29.md",
+      "sha256": "124b34588b432ceb086335dc65fbca0e2d0074ce89b9e05b66dec133e7a65a40"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_FERMION_RELATIVE_HEAT_EXISTENCE.md",
+      "sha256": "81ff70cb5b04867cb972cb0af518ab4d7b56b1d838ac61cab9a5dc433e35a623"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/WILSON_CHARGE_RESOLVED_RELATIVE_THRESHOLD_MAP.md",
+      "sha256": "72cc494c6960f7b40fb23435e10cec4f6edff63d663f176f982e0b844bd79c24"
+    }
+  ],
+  "locator": {
+    "command": "python3 -B scripts/checks/already_banked.py twisted Selberg spin determinant",
+    "outcome": "broad settled hits; B1165 full findings read; targeted B1684 findings read in full, source producer definitions located",
+    "absence_or_novelty_claim": false
+  },
+  "primary_reading": [
+    {
+      "url": "https://doi.org/10.1112/S0024609398004780",
+      "scope": "Theorem1.1 and equations1.1-1.8, especially H2 kernel1.7; no whole-paper claim",
+      "access_date": "2026-10-29"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2212.11793",
+      "scope": "v5 selected spin-class/local-operator sections; pretrace and orbital unfolding section4, admissibility, heat specialization section6.2; not the complete paper",
+      "access_date": "2026-10-29"
+    }
+  ],
+  "new_scientific_execution": false,
+  "new_independent_review": "owed",
+  "endpoint": "A32(1) is an Abel limit proved from the stated heat-side gap/cancellation assumptions, not an absolutely convergent raw Euler product",
+  "foundational_inputs_removed": 0,
+  "scope_warning": "Carrier geodesics are not identified with the modular-surface update words, m004 geodesics, a probability measure or physical time",
+  "cross_seat_delta": {
+    "main": "c9ba922ef234d2f40c85554dd03cea8481a9d470",
+    "SM": "b0c23138751feeb48f8a9ca2ba725bd1b5d098c0",
+    "chat1": "b7075abed50706a17ff355f0fe64a4498c098cfb",
+    "all_remote_heads_fetched": 14,
+    "main_reading": "B1815 findings full, through split reads; no reproduction of its scientific tests",
+    "SM_reading": "W178 complete substantive result section in NOTE; not a fresh producer verification",
+    "chat1_reading": "B1814 rerun relay selected provenance/results sections; no unapproved reproduction; isotropy unread outputs not opened"
+  },
+  "metadata_validation": {
+    "proof_and_source_sha256": "match",
+    "p210_39_artifacts_design_environment_and_specification": "unchanged",
+    "new_scientific_execution": false,
+    "claims_independent_review": false,
+    "new_numerical_result": false
+  },
+  "author_controls": [
+    "Unitary-frame transform identifies scalar K0 and single-chirality spin K1 without time rescaling",
+    "Scalar cylinder integral retains primitive length and oriented class multiplicity",
+    "Heat Gaussian integral yields product arguments 1,2,3/2,5/2 with endpoint limit separate",
+    "Common flat peripheral transport cancels parabolic terms before trace integration",
+    "Fixed-domain physical P_v/P_c pairing gives zero relative parity-even Gaussian vacuum functional at zero external gauge field; no metric-potential or phase claim"
+  ],
+  "additional_locator": {
+    "command": "python3 -B scripts/checks/already_banked.py supersymmetric vacuum supertrace",
+    "outcome": "broad hits; no priority or absence claim based on this query",
+    "scientific_execution": false
+  }
+}

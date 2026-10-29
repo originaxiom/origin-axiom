@@ -843,6 +843,25 @@ Citation and stale-relay repairs remain owed before another clean-clone
 preflight; the historical register remains noncompliant. No global-green
 or science-pass claim.
 
+## October 29: global geometric expression, with the clock kept separate
+
+The [geodesic expression](RELATIVE_GEODESIC_TRACE_AND_COUPLING_PRODUCT.md)
+proposes an explicit full scalar/spin relative trace and the same-action
+coupling combination as a finite list of product ratios, including one
+controlled convergence-edge limit. It retains the spin lift, cusp law,
+scalar continuous spectrum and actual physical weights. This is authored
+UNREVIEWED analysis, no numerical execution or foundational-input removal.
+No world/history measure is derived from these carrier-loop weights.
+A same-action Gaussian control cancels the relative Wilson vacuum
+functional at zero external gauge field, with metric/measure held fixed;
+this kinetic threshold cannot be used as a vacuum-selection potential.
+
+The latest all-head fetch brought main B1815 and SM W178: their source
+reading scope and exact pins are in the new custody/relay. Reuse them
+within their actual hypotheses, and do not duplicate the norm/exponent
+producer. The native parent/action/end-law and state selection duties
+remain central; a better spectral evaluation cannot supply them by fiat.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
