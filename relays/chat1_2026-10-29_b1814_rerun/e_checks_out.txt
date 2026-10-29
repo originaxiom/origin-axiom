@@ -1,0 +1,8 @@
+B1814 BLIND RERUN: the agreement cells (rule c0259df7d); this seat's census b0c206418, comparison d61495146
+
+E1 D1 main True, rerun True; D1h main True, rerun True; D2 main False, rerun False  -> True
+E2 A0|unforced main 0.8962 rerun 0.9018 (+0.55 pp); A0|hand main 0.8962 rerun 0.9015 (+0.52 pp); A1|unforced main 0.7650 rerun 0.7552 (-0.98 pp); A1|hand main 0.7558 rerun 0.7448 (-1.10 pp)  -> True
+E3 A0 KS D 0.0137 p 0.8440 (n 4000, 4000); A1 KS D 0.0133 p 0.8740 (n 4000, 4000)  -> True
+E4 p_F A1 unforced main 0.4260 rerun 0.4246 (x1.00); p_F A0 unforced main 0.0686 rerun 0.0538 (x1.28); p_nn A1 unforced main 0.0719 rerun 0.1271 (x1.77); p_nn A1 by hand main 0.0936 rerun 0.0795 (x1.18); the nine by hand (A1, p_nn) main 0.0017 rerun 0.0020 (x1.22)  -> True
+
+CELLS: E1 holds, E2 holds, E3 holds, E4 holds

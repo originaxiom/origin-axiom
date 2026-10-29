@@ -1,0 +1,102 @@
+{
+ "E1": {
+  "main_vs_rerun": {
+   "D1_the_unforced_world_typical_under_the_geometric_clock": [
+    true,
+    true
+   ],
+   "D1h_by_hand_typical_under_the_geometric_clock": [
+    true,
+    true
+   ],
+   "D2_the_clock_depths_typical_under_A1_not_A0": [
+    false,
+    false
+   ]
+  },
+  "holds": true
+ },
+ "E2": {
+  "shares": {
+   "A0|unforced": {
+    "main": 0.89625,
+    "rerun": 0.90175,
+    "diff_pp": 0.550000000000006
+   },
+   "A0|hand": {
+    "main": 0.89625,
+    "rerun": 0.9015,
+    "diff_pp": 0.5249999999999977
+   },
+   "A1|unforced": {
+    "main": 0.765,
+    "rerun": 0.75525,
+    "diff_pp": -0.9750000000000036
+   },
+   "A1|hand": {
+    "main": 0.75575,
+    "rerun": 0.74475,
+    "diff_pp": -1.100000000000001
+   }
+  },
+  "holds": true
+ },
+ "E3": {
+  "ks": {
+   "A0": {
+    "n_main": 4000,
+    "n_rerun": 4000,
+    "D": 0.013749999999999929,
+    "p": 0.8439982063196315
+   },
+   "A1": {
+    "n_main": 4000,
+    "n_rerun": 4000,
+    "D": 0.01325000000000004,
+    "p": 0.8740415683356425
+   }
+  },
+  "holds": true
+ },
+ "E4": {
+  "p": {
+   "p_F A1 unforced": {
+    "main": 0.42600457366873573,
+    "rerun": 0.4245532759761747,
+    "ratio": 1.003418411244676,
+    "within": true
+   },
+   "p_F A0 unforced": {
+    "main": 0.06860011154489683,
+    "rerun": 0.05376940133037694,
+    "ratio": 1.2758206312061224,
+    "within": true
+   },
+   "p_nn A1 unforced": {
+    "main": 0.0718719372754002,
+    "rerun": 0.1270681667769689,
+    "ratio": 1.7679802659286443,
+    "within": true
+   },
+   "p_nn A1 by hand": {
+    "main": 0.09358465608465609,
+    "rerun": 0.07953020134228188,
+    "ratio": 1.1767184604737349,
+    "within": true
+   },
+   "the nine by hand (A1, p_nn)": {
+    "main": 0.0016534391534391533,
+    "rerun": 0.0020134228187919465,
+    "ratio": 1.2177181208053693,
+    "within": true
+   }
+  },
+  "holds": true
+ },
+ "cells": {
+  "E1": true,
+  "E2": true,
+  "E3": true,
+  "E4": true
+ }
+}
