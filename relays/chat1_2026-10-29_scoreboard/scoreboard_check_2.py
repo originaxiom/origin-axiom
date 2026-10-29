@@ -104,14 +104,17 @@ check("K2", len(RES) == 8 and len(IMS) == 16 and len(LINES) * len(RES) * len(IMS
           len(RES), min(RES), max(RES), len(IMS), min(IMS), max(IMS), len(LINES), len(LINES) * len(RES) * len(IMS)))
 check("K2", (0.5625 in RES) and (2.6 in IMS) and (Fr(2, 5), Fr(1, 10)) in LINES, "the best row 0.5625 + 2.6i on (2/5, 1/10) is a grid point")
 mr = E["menu_rule"]
-members = mr["members_with_one_unit"]
+zf = seat(ZF)
+mline = re.search(r"With one unit of end data the members are a = (.*?)\n", zf).group(1)
+mline = re.sub(r"\(r = \d+\)", "", mline)
+members = [int(t.replace("−", "-")) for t in re.findall(r"[−-]?\d+", mline)]
 rule_ok = all(a % 4 == 2 for a in members) and sorted({(2 * a) % 24 for a in members}) == [4, 12, 20]
 eps = {a: 1j ** ((a + 2) // 2) for a in members}                        # eps = i^((a+2)/2), the stated rule
 derived = sorted(a for a in members if (2 * a) % 24 in mr["r_three_generations"] and abs(eps[a] - 1) < 1e-12)
 check("K2", rule_ok and derived == sorted(mr["menu"]) == menu_a,
       "the menu from its rule: of %d members (a = 2 mod 4, r = 2a mod 24 in {4, 12, 20}), r in %s and eps = +1 (a = 6 mod 8) "
       "leave %s; the test's MENU is %s" % (len(members), mr["r_three_generations"], derived, menu_a))
-COUNT = {"line": ("open", len(L266)), "higgs_assignment": (len(assign27), len(PAIRS)), "reading": (len(set(cov)), None),
+COUNT = {"line": ("open", len(L266)), "higgs_assignment": (len(assign27), len(PAIRS)), "reading": (len(set(cov)), 4),                                   # four readings seen: quoted in K3
          "c": ("open", len(cvals)), "horocycle": (len(hors), len(hors)), "end_scale": (2, None), "weight": ("open", None)}
 check("K2", sorted(PAIRS) == sorted((u, d) for u, d, e in typeII) and len(PAIRS) == 9,
       "assignments: %d in all; the %d with down = leptons are the test's PAIRS" % (len(assign27), len(typeII)))
@@ -158,6 +161,20 @@ Q = [
     ("THE EXACT END", seat("relays/CHAT1_TO_CC_AND_SM_2026-10-28_THE_EXACT_END_THE_SELECTOR_AND_THE_AUDIT.md"),
      "at L₂ the exact norms of the frame's twisted kernels agree with 2πL₂ + c_s to 0.6%"),
     ("route_b_scan.py", rbs, "return v[0] * B.QI + v[1] * B.QJ + v[2] * B.QK"),
+    ("B1753", arc("B1753"), "10.75 (1.6σ) at the χ²-best row"),
+    ("B1753", arc("B1753"), "10.48–11.32 over the rows below the bar"),
+    ("B1753", arc("B1753"), "nine fail (χ²_nine 183"),
+    ("B1726", arc("B1726"), "35–38% below it, and with them the six fail near the four families' rows"),
+    ("B1730", arc("B1730"), "IS ZERO-FREE ONLY IF r ≡ 4 MOD 8"),
+    ("B1790", arc("B1790"), "the MSSM's H_u, H_d"),
+    ("P-094", REG_ROWS["P-094"], "10.58 ± 0.11"),
+    ("P-377", REG_ROWS["P-377"], "reaches χ²_nine 47 at best"),
+    ("P-421", REG_ROWS["P-421"], "or the scale is an input"),
+    ("TWO_HIGGS_RULE", RULE, "the readings S, S̃ and the two mixed ones"),
+    ("TWO_HIGGS_RESULT", RES_, "depends on tan β"),
+    ("ZERO_FREE_FRAME_EXPLORATION", seat(ZF), "only the ε = +1 lines with a ≥ 6 reach nines near 2.5"),
+    ("ZERO_FREE_FRAME_EXPLORATION", seat(ZF), "Main's frame is outside PF1-W as written"),
+    ("ZERO_FREE_FRAME_EXPLORATION", seat(ZF), "Where χ_η^r is absorbed (the fermions' twists or a counterterm) is not tested"),
     ("I-32", ID_ROWS["I-32"], "the weave's Higgs line as the electroweak Higgs"),
     ("I-33", ID_ROWS["I-33"], "T-NORM by hand, B1654"),
 ]
@@ -177,7 +194,7 @@ def find(x):
 used = I["rows"]
 for r in used:
     row = ID_ROWS[r["id"]]
-    q_ok = r["quote"] is None or r["quote"] in row
+    q_ok = (r["quote"] is None or r["quote"] in row) and (r["reduces_to"] is None or r["reduces_to"] in (r["quote"] or ""))
     a_ok = all(covers(row, b) for b in r["arcs"])
     check("K4", status(r["id"]) == "UNEARNED" and q_ok and a_ok, "%s %s; reduction quote %s; arcs %s %s" % (
         r["id"], status(r["id"]), "found" if q_ok else "MISSING", r["arcs"], "cited" if a_ok else "NOT ALL CITED"))
@@ -220,12 +237,12 @@ print("  continuous, set by hand (%d): %s" % (len(cc), ", ".join("%s = %s" % (p[
 print("  discrete (%d; %d chosen on the data, %d by hand):" % (len(E["discrete"]),
       sum("on the data" in d["label"] for d in E["discrete"]), sum("on the data" not in d["label"] for d in E["discrete"])))
 print("\n".join(out))
-print("  bits (a heuristic, not a bound): %.2f searched on the data, %.2f set by hand" % (on_data, by_hand))
+print("  bits (a heuristic, not a bound): %.2f searched on the data, %.2f set by hand; %.2f in all" % (on_data, by_hand, on_data + by_hand))
 print("  identifications: %d rows -> %d irreducible sources: %s; not used: %s; not entered: %d" % (
     len(used), len(groups), "; ".join("[%s] %s" % (k, ", ".join(v)) for k, v in sorted(groups.items())),
     ", ".join(r["id"] for r in I["not_used"]), len(I["not_entered"]["rows"])))
 print("  tagged hypotheses (listed, not counted): %s" % ", ".join(h["id"] for h in E["hypotheses"]))
-print("  searches the test's calibration does not count: %d" % len(E["unpriced_looks"]))
+print("  unpriced looks (searches with the data in view that no bits here price): %d" % len(E["unpriced_looks"]))
 print("  bought: %s" % E["reach"]["bought"])
 print()
 print("RESULT: %s" % ("ALL CHECKS PASS" if not FAILS else "%d FAIL: %s" % (len(FAILS), FAILS)))

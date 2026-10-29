@@ -44,7 +44,7 @@
     "source": [
      "B1742"
     ],
-    "note": "the nine fail (chi2_nine 154); |V_us| 0.19 of measured at the best six-row; |J| about 10^-6"
+    "note": "the nine fail: the census minimum chi2_nine is 154 (the first row's census minimum, B1753 sec. 1: 183); |V_us| 0.19 of measured at the best six-row; |J| about 10^-6"
    },
    {
     "what": "the other nine of the 19",
@@ -53,7 +53,7 @@
     ]
    }
   ],
-  "output_rank": "f(d) <= 2 at this d (C(d) is tau alone; the directions are fixed functions of tau); two of the six's relations are the Georgi-Jarlskog relations, exact here (B1742 sec. 3)",
+  "output_rank": "f(d) <= 2 at this d (C(d) is tau alone; the directions are fixed functions of tau). Two of the six's relations are the Georgi-Jarlskog relations, holding to rounding here: the best row's line is k = 1 (odd), where the identity holds only for a Higgs with no QI component (B1742 sec. 3; B1809 sec. 4)",
   "bought": "0 of 19"
  },
  "fitted_continuous": [
@@ -111,7 +111,7 @@
     "P-365",
     "P-363"
    ],
-   "how": "as in the first row; at 2 x 10^16 GeV in the SM chi2_six at the best row is 5.8, still below the bar, and m_c/m_t moves to 4.8 sigma (TWO_HIGGS_RESULT, P2 and Limits)",
+   "how": "as in the first row. The quoted running (chi2_six 5.8 and m_c/m_t at 4.8 sigma at 2 x 10^16 GeV) is the SM's; for a holomorphic two-doublet (supersymmetric) structure the running differs and depends on tan beta (TWO_HIGGS_RESULT, P2), a further continuous datum (the ratio of the two vevs) that the six at M_Z do not see and this row does not fix",
    "route": []
   }
  ],
@@ -137,7 +137,8 @@
    "route": [
     "P-384",
     "P-411"
-   ]
+   ],
+   "unpriced_note": "the alpha = 2/5 restriction is priced here, in the line's 266"
   },
   {
    "id": "higgs_assignment",
@@ -152,7 +153,7 @@
    "options": 27,
    "options_source": "a direction from the menu of three for each of the three sectors",
    "searched": 9,
-   "searched_source": "the rule's nine pairs (six off-diagonal, three diagonal), all computed; 'the pair is chosen by the data out of six' (B1742); the tie of the down quarks and the leptons to one direction is the Standard Model's two-doublet pattern, put in by hand (TWO_HIGGS_RULE, the claim under test)",
+   "searched_source": "the rule's nine pairs (six off-diagonal, three diagonal), all computed; 'the pair is chosen by the data out of six' (B1742). The tie of the down quarks and the leptons to one direction is put in by hand: it is the MSSM's H_u, H_d pattern (B1790's literature line) and I-35's sector pattern (up with one sign, down and leptons with the other)",
    "how": "only F_6 | F_22 reaches the bar; the swapped pair gives 3.07, every pair with F_-2 25-167, the diagonal pairs 1.466 and 1.571 at the coarse measure (TWO_HIGGS_RESULT)",
    "route": []
   },
@@ -160,7 +161,7 @@
    "id": "reading",
    "name": "the reading",
    "value": "S in every sector",
-   "label": "CHOSEN, by hand (holomorphy, W135, applied to the Higgs factor)",
+   "label": "CHOSEN, on the data (four readings seen); the rest of the menu of eight set by hand",
    "scope": "FR-FIB, this branch",
    "evidence": [
     "B1790",
@@ -168,11 +169,14 @@
    ],
    "options": 8,
    "options_source": "B1790: the eight assignments are physically distinct",
-   "searched": null,
-   "searched_source": "fixed by the rule before the run: 'both read S (holomorphic)'",
-   "how": "holomorphy is a reading applied to the Higgs factor only (TWO_HIGGS_RESULT, Limits)",
+   "searched": 4,
+   "searched_source": "the rule's 'What was seen before' includes the zero-free census's read-out, 'which gives, for each single direction, the readings S, S~ and the two mixed ones'; the rule then fixed 'both read S (holomorphic)'",
+   "how": "holomorphy (W135, applied to the Higgs factor) is the stated reason; the choice was made with four readings' results in view",
    "route": [
     "P-394"
+   ],
+   "seat_source": [
+    "TWO_HIGGS_RULE.md, What was seen before; The model"
    ]
   },
   {
@@ -255,19 +259,7 @@
   }
  ],
  "menu_rule": {
-  "what": "the Higgs menu {F_6, F_-2, F_22}, from its stated rule (ZERO_FREE_FRAME_EXPLORATION sec. 1 and sec. 6): the zero-free weight-3/2 members with one unit of end data are a = -10, 2, 14, 26 (r = 4); -6, 6, 18 (r = 12); -2, 10, 22 (r = 20), with a = 2 (mod 4) and r = 2a (mod 24); three generations at r = 12 and 20 (W127, as that section reads it); holomorphy keeps the sign class eps = +1, a = 6 (mod 8)",
-  "members_with_one_unit": [
-   -10,
-   2,
-   14,
-   26,
-   -6,
-   6,
-   18,
-   -2,
-   10,
-   22
-  ],
+  "what": "the Higgs menu {F_6, F_-2, F_22}, from its stated rule (ZERO_FREE_FRAME_EXPLORATION sec. 1 and sec. 6; B1730): the zero-free weight-3/2 members with one unit of end data are a = -10, 2, 14, 26 (r = 4); -6, 6, 18 (r = 12); -2, 10, 22 (r = 20), with a = 2 (mod 4) and r = 2a (mod 24); three generations at r = 12 and 20 (W127, as that section reads it); the sign class eps = +1 (a = 6 mod 8) kept because on the zero-free census's nine 'only the eps = +1 lines with a >= 6 reach nines near 2.5' (sec. 6), with holomorphy fixing the reading",
   "r_three_generations": [
    12,
    20
@@ -277,7 +269,8 @@
    -2,
    22
   ],
-  "note": "the sign class was tied to holomorphy on the zero-free census's nine (ZERO_FREE_FRAME_EXPLORATION sec. 6), so the menu was fixed after that census's results (TWO_HIGGS_RESULT, Limits)"
+  "note": "the sign class was tied to holomorphy on the zero-free census's nine (ZERO_FREE_FRAME_EXPLORATION sec. 6), so the menu was fixed after that census's results (TWO_HIGGS_RESULT, Limits)",
+  "members_parsed_from": "ZERO_FREE_FRAME_EXPLORATION sec. 1 (the check parses them from the text)"
  },
  "identifications": {
   "expected_sources": 3,
@@ -293,7 +286,7 @@
    },
    {
     "id": "I-32",
-    "what": "the 6Y charges as the channels' twists, the sector assignment, and the weave's Higgs line as the electroweak Higgs; here two directions read as two electroweak doublets",
+    "what": "the 6Y charges as the channels' twists, the sector assignment, and the weave's Higgs line as the electroweak Higgs",
     "arcs": [
      "B1653",
      "B1656"
@@ -333,7 +326,7 @@
    },
    {
     "id": "I-34",
-    "what": "the index given the cusp's unit as the generation count: the menu keeps the twists r = 12 and 20 because W127 counts three generations there",
+    "what": "the index given the cusp's unit as the generation count: the menu keeps r = 12 and 20 because W127 counts three generations there. This seat's reading by default: I-34's row cites W45 and W46, not W127; main to confirm",
     "arcs": [
      "B1627",
      "B1641"
@@ -379,14 +372,14 @@
   "not_on_ledger": [
    {
     "what": "two Higgs directions as two electroweak doublets, H_u for the up quarks and H_d for the down quarks and leptons",
-    "why": "TWO_HIGGS_RESULT: 'If S stands for the Higgs doublet' is a reading; if the frame's 2 x 2 index is internal, the two-doublet structure is a choice, not a consequence"
+    "why": "TWO_HIGGS_RESULT: 'If S stands for the Higgs doublet' is a reading. If it were registered as a row (an instance of I-32, so of I-13), the 1.58-bit down = leptons tie would go with it: a trade of bits for an unearned row, as in the first row's sec. 3, not progress by P-392"
    }
   ]
  },
  "hypotheses": [
   {
    "id": "PF1-W",
-   "what": "the zero-free reading: the Higgs has no zeros on the weave (a reading)",
+   "what": "the zero-free reading: the Higgs has no zeros on the weave (a reading). Caveat (ZERO_FREE sec. 7): main's frame is outside PF1-W as written, and where chi_eta^r is absorbed is not tested",
    "source": [
     "B1730"
    ]
@@ -394,8 +387,10 @@
   {
    "id": "holomorphy",
    "what": "the Higgs's components enter holomorphically (W135, applied to the Higgs factor only)",
-   "source": [
-    "B1742"
+   "source": [],
+   "seat_source": [
+    "TWO_HIGGS_RULE.md, The model",
+    "TWO_HIGGS_RESULT.md, Limits"
    ]
   },
   {
@@ -484,28 +479,32 @@
    "source": [
     "B1750"
    ],
-   "note": "TWO_HIGGS_RESULT Q4: the two lepton ratios miss by 230 and 54 sigma at the measurements' own errors; the allowance admits them"
+   "note": "TWO_HIGGS_RESULT Q4: the two lepton ratios miss by 230 and 54 sigma at the measurements' own errors; the allowance admits them. The first row's relations were not tested at the measurements' errors"
   }
  ],
  "unpriced_looks": [
   {
-   "what": "the restriction to the ten alpha = 2/5 lines, chosen after the earlier results",
+   "what": "the Im tau window 2.0-3.5, the record's band (set by B1748 after B1741's best rows were seen), as in the first row",
    "source": [
-    "B1742"
+    "B1748",
+    "B1798"
    ]
   },
   {
-   "what": "the Higgs menu, fixed after the zero-free census (its sign class read on that census's nine)",
-   "source": [
-    "B1742"
+   "what": "the Higgs menu's sign class, kept after the zero-free census's nine",
+   "source": [],
+   "seat_source": [
+    "ZERO_FREE_FRAME_EXPLORATION.md sec. 6",
+    "TWO_HIGGS_RESULT.md, Limits"
    ]
   },
   {
-   "what": "the two-doublet idea itself, which came from the framing read-outs showing the one-doublet readings near the six's bar",
-   "source": [
-    "B1742"
+   "what": "the two-doublet idea itself, which came from the framing read-outs",
+   "source": [],
+   "seat_source": [
+    "TWO_HIGGS_RESULT.md, Limits"
    ]
   }
  ],
- "unpriced_looks_note": "the test's calibration counts the rows (tau, the ten lines, the six pairs, the horocycles), not these (TWO_HIGGS_RESULT, Limits); c = 3 is priced in its bits"
+ "unpriced_looks_note": "one definition in both rows: a search made with the data in view that no bits in the vector price. The alpha = 2/5 restriction and c = 3, which TWO_HIGGS_RESULT's Limits also lists as not counted by the test's calibration, are priced here in the line's 266 and c's 9"
 }
