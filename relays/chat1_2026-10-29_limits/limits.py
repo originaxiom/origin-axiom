@@ -97,7 +97,7 @@ def main():
                                                                      TH[imax], TH[imin], c[0]))
         if Y0 == 15:
             L3 = bool(rng_ / c.mean() > 0.002 and rng_ > 3 * dd_se)
-            print("     L3 (range > 0.2% of the mean, beyond 3 SE): %s" % L3)
+            print("     L3 (range > 0.2%% of the mean, beyond 3 SE): %s" % L3)
         print("     C_Y on theta (every 4th): " + ", ".join("%.3f:%.4f" % (t, v) for t, v in zip(TH[::4], c[::4])))
     Cser = m(Cs)
     Cbar = Cser.mean()
