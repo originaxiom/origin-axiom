@@ -1,0 +1,114 @@
+{
+ "identities": {
+  "(0.0 + 1.0j)": {
+   "|R.R|/|R|^2": "4.06e-41",
+   "|R.dR|/(|R||dR|)": "1.12e-41",
+   "|R.d2R + dR.dR|": "5.74e-42",
+   "dR.dR / eta6": "(0.25 + 0.0j)",
+   "eta6 theta vs product rel": "8.38e-41",
+   "|Wronskian| / |eta|^9 * 8": "1.0",
+   "Wronskian / (-(i/8) eta6^(3/2)) (branch-free check of |.|: should have modulus 1)": "1.0",
+   "Ramanujan DE2 residual": "3.59e-42"
+  },
+  "(0.13 + 1.07j)": {
+   "|R.R|/|R|^2": "8.16e-42",
+   "|R.dR|/(|R||dR|)": "6.32e-42",
+   "|R.d2R + dR.dR|": "8.02e-43",
+   "dR.dR / eta6": "(0.25 - 3.674116183768582593969716e-43j)",
+   "eta6 theta vs product rel": "0.0",
+   "|Wronskian| / |eta|^9 * 8": "1.0",
+   "Wronskian / (-(i/8) eta6^(3/2)) (branch-free check of |.|: should have modulus 1)": "1.0",
+   "Ramanujan DE2 residual": "5.07e-43"
+  },
+  "(-0.31 + 0.92j)": {
+   "|R.R|/|R|^2": "2.25e-41",
+   "|R.dR|/(|R||dR|)": "1.54e-41",
+   "|R.d2R + dR.dR|": "4.81e-42",
+   "dR.dR / eta6": "(0.25 + 8.127760493662777456477231e-42j)",
+   "eta6 theta vs product rel": "7.65e-41",
+   "|Wronskian| / |eta|^9 * 8": "1.0",
+   "Wronskian / (-(i/8) eta6^(3/2)) (branch-free check of |.|: should have modulus 1)": "1.0",
+   "Ramanujan DE2 residual": "2.87e-42"
+  },
+  "(0.5 + 0.8660254j)": {
+   "|R.R|/|R|^2": "1.1e-41",
+   "|R.dR|/(|R||dR|)": "3.26e-42",
+   "|R.d2R + dR.dR|": "2.03e-42",
+   "dR.dR / eta6": "(0.25 + 7.707599250304677848046737e-42j)",
+   "eta6 theta vs product rel": "3.24e-40",
+   "|Wronskian| / |eta|^9 * 8": "1.0",
+   "Wronskian / (-(i/8) eta6^(3/2)) (branch-free check of |.|: should have modulus 1)": "1.0",
+   "Ramanujan DE2 residual": "1.43e-42"
+  },
+  "(0.07 + 2.3j)": {
+   "|R.R|/|R|^2": "2.97e-41",
+   "|R.dR|/(|R||dR|)": "3.68e-41",
+   "|R.d2R + dR.dR|": "1.52e-41",
+   "dR.dR / eta6": "(0.25 + 4.263937474106606832647929e-41j)",
+   "eta6 theta vs product rel": "1.34e-41",
+   "|Wronskian| / |eta|^9 * 8": "1.0",
+   "Wronskian / (-(i/8) eta6^(3/2)) (branch-free check of |.|: should have modulus 1)": "1.0",
+   "Ramanujan DE2 residual": "4.9e-43"
+  },
+  "(0.201 + 1.0007j)": {
+   "|R.R|/|R|^2": "1.47e-41",
+   "|R.dR|/(|R||dR|)": "1.28e-41",
+   "|R.d2R + dR.dR|": "7.4e-43",
+   "dR.dR / eta6": "(0.25 + 5.389294897768966103639718e-42j)",
+   "eta6 theta vs product rel": "1.14e-40",
+   "|Wronskian| / |eta|^9 * 8": "1.0",
+   "Wronskian / (-(i/8) eta6^(3/2)) (branch-free check of |.|: should have modulus 1)": "1.0",
+   "Ramanujan DE2 residual": "1.45e-42"
+  }
+ },
+ "sections": {
+  "-0.5": {
+   "max rel |a.R + f2 eta6/4| (q-series R)": "4.23e-41",
+   "max rel |a'.R' + f2 eta6/(4 pi^2)| (R/pi)": "4.23e-41"
+  },
+  "1.5": {
+   "max rel |a.R + f2 eta6/4| (q-series R)": "4.13e-41",
+   "max rel |a'.R' + f2 eta6/(4 pi^2)| (R/pi)": "4.13e-41"
+  },
+  "3.5": {
+   "max rel |a.R + f2 eta6/4| (q-series R)": "4.82e-41",
+   "max rel |a'.R' + f2 eta6/(4 pi^2)| (R/pi)": "4.94e-41"
+  },
+  "5.5": {
+   "max rel |a.R + f2 eta6/4| (q-series R)": "2.65e-41",
+   "max rel |a'.R' + f2 eta6/(4 pi^2)| (R/pi)": "2.65e-41"
+  },
+  "7.5": {
+   "max rel |a.R + f2 eta6/4| (q-series R)": "4.41e-41",
+   "max rel |a'.R' + f2 eta6/(4 pi^2)| (R/pi)": "4.43e-41"
+  },
+  "9.5": {
+   "max rel |a.R + f2 eta6/4| (q-series R)": "4.74e-41",
+   "max rel |a'.R' + f2 eta6/(4 pi^2)| (R/pi)": "4.98e-41"
+  },
+  "11.5": {
+   "max rel |a.R + f2 eta6/4| (q-series R)": "3.58e-41",
+   "max rel |a'.R' + f2 eta6/(4 pi^2)| (R/pi)": "3.58e-41"
+  },
+  "13.5": {
+   "max rel |a.R + f2 eta6/4| (q-series R)": "2.56e-41",
+   "max rel |a'.R' + f2 eta6/(4 pi^2)| (R/pi)": "2.56e-41"
+  },
+  "15.5": {
+   "max rel |a.R + f2 eta6/4| (q-series R)": "4.93e-41",
+   "max rel |a'.R' + f2 eta6/(4 pi^2)| (R/pi)": "5.28e-41"
+  },
+  "17.5": {
+   "max rel |a.R + f2 eta6/4| (q-series R)": "2.92e-41",
+   "max rel |a'.R' + f2 eta6/(4 pi^2)| (R/pi)": "2.92e-41"
+  },
+  "19.5": {
+   "max rel |a.R + f2 eta6/4| (q-series R)": "3.81e-41",
+   "max rel |a'.R' + f2 eta6/(4 pi^2)| (R/pi)": "3.81e-41"
+  },
+  "21.5": {
+   "max rel |a.R + f2 eta6/4| (q-series R)": "5.83e-41",
+   "max rel |a'.R' + f2 eta6/(4 pi^2)| (R/pi)": "7.2e-41"
+  }
+ }
+}

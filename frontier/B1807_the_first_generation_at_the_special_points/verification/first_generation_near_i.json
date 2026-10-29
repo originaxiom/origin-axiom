@@ -1,0 +1,304 @@
+{
+ "identity a.R + f2 eta^6/4 = 0": {
+  "-1/2": true,
+  "3/2": true,
+  "7/2": true,
+  "11/2": true,
+  "15/2": true,
+  "19/2": true,
+  "23/2": true,
+  "27/2": true,
+  "31/2": true,
+  "35/2": true,
+  "39/2": true,
+  "43/2": true
+ },
+ "slopes": {
+  "19/2, f2 in M6 = <E6>": {
+   "predicted": 1,
+   "seed1": {
+    "slope_lift_in_eps": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.999991"
+   },
+   "seed2": {
+    "slope_lift_in_eps": [
+     0.999,
+     0.999,
+     0.999
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.99971"
+   },
+   "holds": true
+  },
+  "27/2, f2 in M10 = <E4 E6>": {
+   "predicted": 1,
+   "seed1": {
+    "slope_lift_in_eps": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.999881"
+   },
+   "seed2": {
+    "slope_lift_in_eps": [
+     0.998,
+     0.998,
+     0.998
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.999199"
+   },
+   "holds": true
+  },
+  "35/2, f2 in M14 = <E4^2 E6>": {
+   "predicted": 1,
+   "seed1": {
+    "slope_lift_in_eps": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.999908"
+   },
+   "seed2": {
+    "slope_lift_in_eps": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.999988"
+   },
+   "holds": true
+  },
+  "43/2, f2 random in M18": {
+   "predicted": 1,
+   "seed1": {
+    "slope_lift_in_eps": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.999899"
+   },
+   "seed2": {
+    "slope_lift_in_eps": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.999906"
+   },
+   "holds": true
+  },
+  "43/2, f2 = E6^3": {
+   "predicted": 3,
+   "seed1": {
+    "slope_lift_in_eps": [
+     3.0,
+     3.0,
+     3.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.999899"
+   },
+   "seed2": {
+    "slope_lift_in_eps": [
+     3.0,
+     3.0,
+     3.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.999906"
+   },
+   "holds": true
+  },
+  "43/2, f2 = E4^3 E6": {
+   "predicted": 1,
+   "seed1": {
+    "slope_lift_in_eps": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.999899"
+   },
+   "seed2": {
+    "slope_lift_in_eps": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.999906"
+   },
+   "holds": true
+  },
+  "15/2, f2 in M4 = <E4>": {
+   "predicted": 0,
+   "seed1": {
+    "slope_lift_in_eps": [
+     -0.0,
+     -0.0,
+     0.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.00183979"
+   },
+   "seed2": {
+    "slope_lift_in_eps": [
+     -0.0,
+     -0.0,
+     0.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.00296136"
+   },
+   "holds": true
+  },
+  "31/2, f2 random in M12": {
+   "predicted": 0,
+   "seed1": {
+    "slope_lift_in_eps": [
+     -0.0,
+     -0.0,
+     0.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.000186236"
+   },
+   "seed2": {
+    "slope_lift_in_eps": [
+     -0.0,
+     -0.0,
+     0.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.0307557"
+   },
+   "holds": true
+  },
+  "31/2, f2 = E6^2": {
+   "predicted": 2,
+   "seed1": {
+    "slope_lift_in_eps": [
+     2.0,
+     2.0,
+     2.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "2.52574e-14"
+   },
+   "seed2": {
+    "slope_lift_in_eps": [
+     2.0,
+     2.0,
+     2.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "6.18891e-14"
+   },
+   "holds": true
+  },
+  "39/2, f2 = E4 E6^2": {
+   "predicted": 2,
+   "seed1": {
+    "slope_lift_in_eps": [
+     2.0,
+     2.0,
+     2.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "8.89046e-15"
+   },
+   "seed2": {
+    "slope_lift_in_eps": [
+     2.0,
+     2.0,
+     2.0
+    ],
+    "m2/m3_exact_at_eps_1e-6": "1.19644e-14"
+   },
+   "holds": true
+  },
+  "3/2 (no f2: m1 = 0 identically)": {
+   "predicted": null,
+   "seed1": {
+    "slope_lift_in_eps": [
+     null,
+     null,
+     null
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.999998"
+   },
+   "seed2": {
+    "slope_lift_in_eps": [
+     null,
+     null,
+     null
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.999998"
+   },
+   "holds": true
+  },
+  "11/2 (no f2: m1 = 0 identically)": {
+   "predicted": null,
+   "seed1": {
+    "slope_lift_in_eps": [
+     null,
+     null,
+     null
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.999854"
+   },
+   "seed2": {
+    "slope_lift_in_eps": [
+     null,
+     null,
+     null
+    ],
+    "m2/m3_exact_at_eps_1e-6": "0.999866"
+   },
+   "holds": true
+  }
+ },
+ "dR.dR / eta^6": {
+  "constant": true,
+  "value": [
+   "1/4",
+   "0"
+  ]
+ },
+ "POST HOC m2/m3 slope in eps": {
+  "31/2, f2 = E6^2": {
+   "seed1": [
+    2.0,
+    2.0,
+    2.0
+   ],
+   "seed2": [
+    2.0,
+    2.0,
+    2.0
+   ]
+  },
+  "39/2, f2 = E4 E6^2": {
+   "seed1": [
+    2.0,
+    2.0,
+    2.0
+   ],
+   "seed2": [
+    2.0,
+    2.0,
+    2.0
+   ]
+  },
+  "31/2, f2 random (control)": {
+   "seed1": [
+    0.0,
+    -0.0,
+    -0.0
+   ],
+   "seed2": [
+    0.0,
+    -0.0,
+    0.0
+   ]
+  }
+ },
+ "all_hold": true
+}

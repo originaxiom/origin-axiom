@@ -107,3 +107,16 @@ None computed the exponents near i.
 **Literature:**
 - Feruglio, Gherardi, Romanino and Titov (2021);
 - Novichkov, Penedo and Petcov (2021).
+
+## Dated note (2026-10-29, S247; B1807, verified on main) — the m₂ rows are the L-free coupling's
+
+- **The coupling.** This arc's table is computed in B1646's coupling Y(a, R), the large-L limit of B1654's canonical end
+  (u_r = √(2πL + c_r)R_r). At the canonical end radius (L of order one, B1667), on the isotropic branches near i, m₂/m₃(i) is
+  O(1/L), not 0 (≈ 0.044/L at 31/2 with f₂ = E₆²): the channel splitting a·(c⊙R)(i) = f₀(i)D(i) ≠ 0 lifts it (B1807 § 4).
+- **The row "k = 15/2, 23/2 with f₂ = 0".** From 31/2 on, it is the single condition f₂(i) = 0, with f₀(i) ≠ 0. A second
+  isotropic branch, 2f₀(i) + (5/144)E₄(i)f₂(i) = 0, puts a(i) on R̄(i)'s line (B1807 § 3).
+- **The normalisation.** "∂R·∂R = ¼η⁶" holds for the q-series normalisation R = (−θ₂², −θ₄², iθ₃²)/(θ₂θ₃θ₄). With B1691's
+  FINDINGS' and B1654's 1/π it is η⁶/(4π²).
+- **The record's parameter-free sections at i.** DR gives (m₁/m₃, m₂/m₃) = (0, 1) at every L. B1697's a₀ gives m₂/m₃ = 2/3
+  exactly (this arc's closed form at t = −1/48; B1807 § 5).
+- **What stands.** This arc's verdict, its selection rule and its L-free table.

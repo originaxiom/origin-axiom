@@ -1,0 +1,37 @@
+  B1012   PROVED    TWO BRANCH RESULTS VERIFIED EXACTLY (integrate-don't-merge, cc3 branch at 59d9f26f, 66 commits past B921's harvest head), AND THE HARVEST REGISTERED SO NOTHING GOES SILEN
+  B1030   PROVED    THE PRICE-LOCK VERIFICATION (incoming-results protocol on the audit seat's price_lock.py; a verification arc, no outcome-prior to protect): THE FLOOR VERIFIES AS ONE UNIT
+  B1105   PROVED    THE WALL'S SCOPE AUDIT (#279, owner-prompted; the B959 lesson applied proactively to the program's biggest theorem): the four languages' exact quantifiers stated side by 
+  B1226   PROVED    THE BETA-ODD BOX: THE SCALE WALL IS NOT A SYMMETRY THEOREM, AND EVERY PROBE EVER FIRED AT THE OBJECT'S ONE LIVE CHANNEL DEMANDED THE WRONG TYPE (owner-directed: the SM pa
+  B1253   PROVED    THE GEOMETRY OF THE FOREIGN 16s IS RIGID -- AND IT IS *NOT* A GENERATION COUNT. THIS ARC'S DRAFT HEADLINE WAS 'the generation count is forced at three' AND IT IS REFUTED,
+  B1255   PROVED    THE GENERATION INDEX HAS THE RIGHT GALOIS TYPE AND THE WRONG COMMUTATOR. The pattern behind twelve lost three-nesses is named: every one was built on Q(sqrt-3), where 3 R
+  B1332   OPEN      THIRD ADDENDUM -- ONE-CUSPED ISOTROPY BROADENED AND NOT BROKEN. B1334's addendum leaves isotropy as the ONLY live route for the one-cusped case, so it was attacked: six f
+  B139    NEGATIVE  Multiplicity cannot supply the SM's simple non-abelian factor or irreducible chirality: the mirror preserves every computed invariant except the Chern-Simons sign.
+  B1401   PROVED    |kappa-2| AS A LOWER BOUND ON J: ALL FIVE RELAYED VALUES CONFIRMED EXACTLY, THE TWO CLAIMS ARE ONE CLAIM, AND THE BOUND IS ATTAINED ON A PARABOLIC MERIDIAN IN EVERY ONE. 
+  B1476   PROVED    THE SPIN SWAP, PHASE 1c (L246; sealed 88ed6981 / aedf139f): AT CS = 1/4 NO SPIN STRUCTURE SURVIVES THE MIRROR on every amphichiral manifold tested -- the family's seven a
+  B1477   PROVED    WHAT DECIDES THE SWAP (L246; first seal 673e52be5 / 31acad53, second seal 1e11c51ce / ea209e9d). THEOREM A (proved): an isometry preserving a cusp and fixing a spin struc
+  B1634   PROVED    THE SM SEAT'S W50 ON MAIN, AND W45'S MULTIPLIER FROM THE THETA CONSTANTS (sealed; PROVED): <L, R> meets the inner automorphisms only in <Delta^4> = <conj(a b^-1 a^-1 b)> 
+  B1652   PROVED    THE FRAME TRIBUNAL (P-136; a compiled verdict on the record of 2026-10-14, attacked by both seats -- the SM seat's W82 and section 101, chat1's selection report): no fram
+  B1682   PROVED    THE WORD SIDE OF THE RECORD COUNT, VERIFIED ON MAIN (re-banks the SM seat's W110, proof before checks before run; main re-derived the proof, ran its own census with its o
+  B1754   PROVED    GENESIS v1.58 at the owner's ruling on P-385: the ladder's rule in the three seats' merged wording -- the rungs are the moves' quotients by T^N, Delta(2, 3, N), finite ex
+  B1806   PROVED    THE THIRD FIXED POINT, AND A PROXY CORRECTED (P-406's L2 at tau = i; data-free; PROVED under H-cov): near tau = i a generic covariant section gives no 2-3 hierarchy -- at
+  B331    NEGATIVE  The generation-permuting order-3 element is elliptic and conjugate to its inverse, forcing chi_27(g) real and n1=n2 in every representation - closing the proposed SL(2,C)
+  B411    NEGATIVE  The gamma-prime field dictionary is killed: it is multi-valued on generic cells and determines the field only on the boundary cells.
+  B484    NEGATIVE  The relayed 'SM gauge group = braiding statistics of Fibonacci anyons' frame does not survive: run under HELD(value-matching); tr(figure-eight braid) = -3/phi exactly, wh
+  B530    PROVED    The four-letter object's own grammar is golden at three nested levels, its growth is a mirror plus a symplectic form, and its pure discrete spectrum is certified.
+  B612    NEGATIVE  The sealed per-level pairing biconditional FAILED (chiral RRLLL closes at kappa=6); only the level-uniform quantified form survives on the seven objects.
+  B660    NEGATIVE  Verification of cc2's four cells banks the dimensionful no-go as a wall and an exactly zero v₀-mediated trilinear, closing the last class-level mass-shape route.
+  B678    NEGATIVE  The full 8x12 ladder census shows no growth in any of 96 cells, refuting chat1's amphichiral-suppression mechanism at every level, convergent with B669.
+  B679    PROVED    The engine_v7 gate_report patch hoists the O(N^3) expression out of the max generator, verified bit-identical on all gates with up to 221x speedup.
+  B787    PROVED    Inversion (iota) is an independent 4th involution raising the torsor rank 3->4 unconditionally, de-welding time's arrow from the basepoint bit; all six doors MISS.
+  B789    PROVED    An explicit intertwiner Q = S_iota * S_sd^{-1} conjugates transpose-with-reversal back to the Riley Sym^2 representation, which descends to pi_1(4_1); Q is rep-dependent.
+  B791    PROVED    Independently verified the B788 Maass bank and corrected the Weyl completeness criterion to dim(V_i) x W(T) per sector, dissolving the claimed live defect.
+  B794    PROVED    Re-derived from scratch: the figure-eight group is congruence of level exactly (4), and every trace norm is 0 or 3 mod 4, refuting the narrower norm-split claim.
+  B871    PROVED    G5 CLOSED at the group layer -- the cascade's last owed definition is paid: a chirality-REGISTERING measurement is the B599 pairing datum (bra chi_R, theta-odd dial-neutr
+  B880    PROVED    The module-level magic-square signature, computed on this build (the computational half of the M(O,C) identification; B882 is the bibliographic half): so(8) = derived(cor
+  B882    PROVED    THE TILING HAS A CLASSICAL NAME -- M(O,C), the Freudenthal-Vinberg magic square entry: a 10-agent five-angle prior-art workflow (search + verify, verbatim-quote disciplin
+  B965    PROVED    THE LAW_MAP SCOPE AUDIT, commissioned by the owner after B964 to catch the error class no gate can see. METHOD, mechanical not editorial: for each of LAW_MAP's 165 claim 
+  B969    PROVED    L138 FIRES -- THE OBJECT'S CANONICAL PAIR RETURNS K, verified independently 3 for 3, with its scope limit stated and the solo seat's own correction banked alongside. B962
+  B9      NEGATIVE  Fibonacci fusion and the cubic vertex only share the polynomial tau^2-tau-1; no fusion-to-scattering map exists.
+  P-385   DONE      two wordings put to the owner by the SM seat (its relay §271), both refinements that change no computation: (1) the ladder's rule merged fro  [B1754 (GENESIS v1.58) and docs/THE_WEAVE]
+  P-431   QUEUED    the first generation near τ = i (B1806 left it open): m₁/m₃ needs D's behaviour at i (B1654 gives it at the cusp and ω); compute D near i in  [Q3 (with P-406) [2026-10-29 (S246, narro]
+VERDICT topic-sweep /nu_i|valence|a.R = -|first generation near|f2\(i\)/ (full text): 34 of 1553 arcs on main match (NEGATIVE 8, OPEN 1, PROVED 25); 2 register rows match (DONE 1, QUEUED 1)

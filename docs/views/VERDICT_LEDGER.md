@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1510 of 1510 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1511 of 1511 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1031)
+## PROVED (1032)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1043,6 +1043,7 @@
 | `B1803` | WITTEN'S FIRST MODEL WITH THE FILLINGS' FULL SYMMETRY GROUP (P-409; data-free; PROVED for the topology and the census): on a hyperbolic m004(p/q) with p even, F' = Sym(Q) = Z/2 x Z/2 (two strong inversions and the period) fixes exactly four points -- two on the period's axis in the knot exterior, two on the filling's core -- and, relative to one, they carry all four characters of F' when p = 2 mod 4 and two, twice each, when p = 0 mod 4 (the period's relative lift p/2 mod 2, proved from H1 of the orbifold Q/P and checked on 75 fillings; the referee's two other routes on 150); Witten's first model needs eight multiplets at F'-fixed points, so it cannot be built at distinct points (8 > 4); with coincident points, which his section 3 allows, it is realisable, with at least 4 (p = 0 mod 4) or 7 (p = 2 mod 4) multiplets at one point (12 and 512 placements); each Z/2 alone still needs a matter parity from elsewhere; local models with coincident multiplets open (P-416). Structural; none of the 19. |  | 1 |
 | `B1804` | SELECTION BY INVERSION, FIRST TEST (P-419; data-free; PROVED for both frames' statements): LR-invariant fluxes of Hodge type (1,1) force only curves in the split frame (T^4 = E_tau x E_tau' along LR's invariant splitting: det-form signature (1,1), countably many Hecke-type curves tau' = M tau, no two meeting in H, for every integer flux; controls S -> (i,i), ST -> (omega,omega), T -> none), but force isolated CM points when LR acts holomorphically (the same lattice action, conjugate in SL(4,Z); abelian surfaces with real multiplication by Z[phi]; signature (2,2); quartic CM points in Q(sqrt5, sqrt-d), d = 1, 2, 3, 7, one with CM by Q(sqrt5, sqrt-3), the record's genus field) -- chosen by free flux integers, not by LR, in a frame without an LR-invariant Kahler class; the draft's unscoped NEGATIVE overturned at the referee. None of the 19. |  | 1 |
 | `B1806` | THE THIRD FIXED POINT, AND A PROXY CORRECTED (P-406's L2 at tau = i; data-free; PROVED under H-cov): near tau = i a generic covariant section gives no 2-3 hierarchy -- at k = 3/2 mod 4 the heavy pair is exactly degenerate at i (m2/m3 = 1, s1 = s2), at k = 7/2 mod 4 m2/m3(i) takes any value in [0,1] with the free coefficients (closed form at 7/2: min(x,1/x), x = 3/(2|288t+5|)), and the sections without D2R at 15/2 and 23/2 give m2/m3 ~ |tau - i|^2; rho(S) has order 8 and selects a(i)'s eigenline by k mod 4. B1691's '-> 1/2' was a bounded proxy s1 s2/(s1^2 + s2^2) whose 1/2 means m2/m3 = 1: corrected in B1691 (its S163 addendum and the omega table) and B1697 (a0 -> 1), the qualitative no-hierarchy surviving as an exact degeneracy. None of the 19. |  | 0 |
+| `B1807` | THE FIRST GENERATION AT THE SPECIAL POINTS, AND WHAT THE END RADIUS CHANGES (P-431; data-free; PROVED under H-cov at zero line): a.R = -f2 eta^6/4 and a.a = (eta^6/4)(f1^2 - 2 f0 f2 - (5/144) E4 f2^2) exactly, so in the L-free coupling the near-point exponents are zero orders of two scalar forms (the 1/L coefficient of m1/m3 vanishes at p to order nu_p(D) + nu_p(f2); m2/m3 to order nu_p(g)); at the canonical end radius (L of order one, B1667) the channel splitting decides near i: m1(i) = 0 at every L and m1/m3 ~ |tau - i| for every k = 3/2 mod 4 section with a(i) != 0, and on the k = 7/2 mod 4 isotropic branches m2/m3(i) = O(1/L); the record's parameter-free sections at i: DR (0, 1) at every L, B1697's a0 m2/m3 = 2/3 exactly. The weight class sets the exponents; nothing sets the scale. None of the 19. |  | 0 |
 
 ## NEGATIVE (375)
 

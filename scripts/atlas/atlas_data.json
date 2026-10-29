@@ -14612,16 +14612,39 @@
   "B1806": {
    "slug": "the third fixed point and a proxy corrected",
    "motifs": [
+    "coupling",
     "eisenstein",
     "golden",
     "z3_generation"
    ],
    "refs": [
     "L2",
-    "S163"
+    "S163",
+    "S247"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1807": {
+   "slug": "the first generation at the special points",
+   "motifs": [
+    "closing",
+    "coupling",
+    "eisenstein",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B1",
+    "B2",
+    "L2",
+    "P4",
+    "S164"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
    "status": "banked",
    "domain": "arithmetic"
   },

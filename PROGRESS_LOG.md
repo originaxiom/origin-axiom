@@ -18074,3 +18074,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - L1 checked; L2 complete (the first generation at i from banked results); L7 drafted; Part I: most forced structure generic. 0 of 19.
 - **Landing suite (S246).** 7 845 passed, 68 skipped, 2 failed in 0:33:32 — B805's two standing attachment locks (P-239).
+
+## 2026-10-29 — S247 B1807 (THE FIRST GENERATION AT THE SPECIAL POINTS, AND WHAT THE END RADIUS CHANGES)
+
+- The exponents are zero orders of two forms (large L); at the canonical end m₁/m₃ ∝ ∣τ − i∣ in the 3/2 class; a₀ gives 2/3 at i; P-406's theorem draft withdrawn as a theorem (a census). 0 of 19.
+- **Landing suite (S247).** 7 848 passed, 68 skipped, 2 failed in 25:24 — B805's two standing attachment locks (P-239).

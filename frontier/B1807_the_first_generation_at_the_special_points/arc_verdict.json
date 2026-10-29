@@ -1,0 +1,28 @@
+{
+ "id": "B1807",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1646",
+  "B1654",
+  "B1667",
+  "B1691",
+  "B1697",
+  "B1806"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's flat fibre frame at zero Wilson line with a covariant Higgs section (B1691's tagged H-cov; P-115 open); B1654's canonical end condition P4",
+  "object": "the special points i, omega and the cusp; the record's parameter-free sections DR and a0",
+  "reach": "class",
+  "hypotheses": "H-cov; zero line; a(p) != 0; the large-L statements also on B1654's lift"
+ },
+ "claim_one_line": "THE FIRST GENERATION AT THE SPECIAL POINTS, AND WHAT THE END RADIUS CHANGES (P-431; data-free; PROVED under H-cov at zero line): a.R = -f2 eta^6/4 and a.a = (eta^6/4)(f1^2 - 2 f0 f2 - (5/144) E4 f2^2) exactly, so in the L-free coupling the near-point exponents are zero orders of two scalar forms (the 1/L coefficient of m1/m3 vanishes at p to order nu_p(D) + nu_p(f2); m2/m3 to order nu_p(g)); at the canonical end radius (L of order one, B1667) the channel splitting decides near i: m1(i) = 0 at every L and m1/m3 ~ |tau - i| for every k = 3/2 mod 4 section with a(i) != 0, and on the k = 7/2 mod 4 isotropic branches m2/m3(i) = O(1/L); the record's parameter-free sections at i: DR (0, 1) at every L, B1697's a0 m2/m3 = 2/3 exactly. The weight class sets the exponents; nothing sets the scale. None of the 19.",
+ "weave_or_thread": "weave (the field at a fixed point)"
+}

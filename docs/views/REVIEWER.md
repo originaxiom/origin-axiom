@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1510** |
-| words of findings prose | **1,233,378** |
+| research arcs with findings | **1511** |
+| words of findings prose | **1,235,612** |
 | test lock files referenced | **924** |
-| arcs carrying an authored verdict | **1510** (100.0 %) |
+| arcs carrying an authored verdict | **1511** (100.0 %) |
 | recorded closures | **851** (684 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1031 |
+| PROVED | 1032 |
 | NEGATIVE | 375 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1806`** (1218 words, 0 locks)  
-THE THIRD FIXED POINT, AND A PROXY CORRECTED (P-406's L2 at tau = i; data-free; PROVED under H-cov): near tau = i a generic covariant section gives no 2-3 hierarchy -- at k = 3/2 mod 4 the heavy pair is exactly degenerate at i (m2/m3 = 1, s1 = s2), at k = 7/2 mod 4 m2/m3(i) takes any value in [0,1] with the free coefficients (closed form at 7/2: min(x,1/x), x = 3/(2|288t+5|)), and the sections without D2R at 15/2 and 23/2 give m2/m3 ~ |tau - i|^2; rho(S) has order 8 and selects a(i)'s eigenline by k mod 4. B1691's '-> 1/2' was a bounded proxy s1 s2/(s1^2 + s2^2) whose 1/2 means m2/m3 = 1: corrected in B1691 (its S163 addendum and the omega table) and B1697 (a0 -> 1), the qualitative no-hierarchy surviving as an exact degeneracy. None of the 19.  
-`B1806_the_third_fixed_point_and_a_proxy_corrected/FINDINGS.md`
+**PROVED — `B1807`** (2034 words, 0 locks)  
+THE FIRST GENERATION AT THE SPECIAL POINTS, AND WHAT THE END RADIUS CHANGES (P-431; data-free; PROVED under H-cov at zero line): a.R = -f2 eta^6/4 and a.a = (eta^6/4)(f1^2 - 2 f0 f2 - (5/144) E4 f2^2) exactly, so in the L-free coupling the near-point exponents are zero orders of two scalar forms (the 1/L coefficient of m1/m3 vanishes at p to order nu_p(D) + nu_p(f2); m2/m3 to order nu_p(g)); at the canonical end radius (L of order one, B1667) the channel splitting decides near i: m1(i) = 0 at every L and m1/m3 ~ |tau - i| for every k = 3/2 mod 4 section with a(i) != 0, and on the k = 7/2 mod 4 isotropic branches m2/m3(i) = O(1/L); the record's parameter-free sections at i: DR (0, 1) at every L, B1697's a0 m2/m3 = 2/3 exactly. The weight class sets the exponents; nothing sets the scale. None of the 19.  
+`B1807_the_first_generation_at_the_special_points/FINDINGS.md`
 
 **NEGATIVE — `B1805`** (1374 words, 1 locks)  
 MATTER PARITY FROM THE TOWER ABOVE, TESTED (P-414; data-free; NEGATIVE in Witten's G2 frame, the group theory PROVED): Spin(10)'s order-2 central element z2 = exp(i pi Q_X) is exactly matter parity (-1 on the 16, +1 on the 10; not in the SM gauge group in any global form) and survives every flat breaking; but the fillings' order-2 line breaks Spin(10) to connected Pati-Salam, no flat connection gives exactly the SM (U(1)_X stays), only 1, 10, 16, 16bar, 45 localise (no 126), so the U(1)_X breaking by a 16 kills the parity; and with real Higgs 10's Witten's conditions have no solution for any exponent-2 F' (none of 31 groups; the H_u self-mass allowed in 440 of 440 cases) -- moving from SU(5) to Spin(10) trades the missing parity for a lost doublet-triplet mechanism. The first test of the owner's towers question fails in this frame. None of the 19.  
