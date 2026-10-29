@@ -1,0 +1,28 @@
+THE FINAL ACT'S BAR -- design arithmetic (data-free)
+
+[1a] followed clock: P(Im tau in [2.96, 3.11]) = (3/pi)(1/2.96 - 1/3.11) = 0.015560
+     followed clock: P(Im tau >= 3.03) = 0.315158
+     largest ratio P_D(S)/P_D0(S) any law can reach (P_D(S) <= 1): 64.3
+
+[1b] counted clock, this seat's Monte Carlo of B1813's limit law (8 batches of 10^6 runs):
+     P(Im tau >  1.50) = 0.382764 +- 0.000109  B1813's limit row: 0.3829
+     P(Im tau >  2.00) = 0.167582 +- 0.000048  B1813's limit row: 0.1676
+     P(Im tau >  3.00) = 0.034616 +- 0.000010  B1813's limit row: 0.03462
+     P(Im tau >  4.00) = 0.007542 +- 0.000002  B1813's limit row: 0.00754
+     P(Im tau >  6.00) = 0.000387 +- 0.000000  B1813's limit row: 0.00039
+     P(Im tau >  2.96) = 0.037111 +- 0.000011
+     P(Im tau >  3.03) = 0.032922 +- 0.000009
+     P(Im tau >  3.11) = 0.028989 +- 0.000008
+     counted clock: P(Im tau in the strip) = 0.008122 +- 0.000003
+     largest ratio any law can reach: 123.1
+     row 1476's asymptotic form, C at mean 3.954: 0.007595 (C at the ends: 0.006891 to 0.008310)
+
+[2] THE_BAR's gate: p < 0.01; at the joint look count m = 53: p < 1.887e-04
+    bits: log2(1/P(S)) = 6.01 (followed), 6.94 (counted); the gate at m = 53 needs 12.37 bits; at m = 1, 6.64
+
+[3] window at Im tau = 3.03 with null probability 1.887e-04:
+    followed: width 0.00181;  counted (strip-mean density 0.05415 per unit height): width 0.00348
+
+[4] the six's resolution in Im tau (quadratic through P-373's chi2 2.66 -> 34 at +-0.1; illustrative): sigma = 0.0179
+    an exactly right law's window contains the six's best height with probability 0.040 (followed), 0.078 (counted)
+    for comparison, the whole strip's width 0.15 would hold it with probability 1.000

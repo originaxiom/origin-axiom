@@ -1,0 +1,9 @@
+word state | census name | shape field (polredabs) | degree | discriminant | real places | complex places | reading
+++LR | m004(0,0) | x^2 - x + 1 | 2 | -3 | 0 | 1 | imaginary quadratic: necessary for arithmeticity (not sufficient alone)
++-LR | m003(0,0) | x^2 - x + 1 | 2 | -3 | 0 | 1 | imaginary quadratic: necessary for arithmeticity (not sufficient alone)
+++LLR | m009(0,0) | x^2 - x + 2 | 2 | -7 | 0 | 1 | imaginary quadratic: necessary for arithmeticity (not sufficient alone)
++-LLR | m010(0,0) | x^2 - x + 2 | 2 | -7 | 0 | 1 | imaginary quadratic: necessary for arithmeticity (not sufficient alone)
+++LLLR | m023(0,0) | x^4 - x^3 + 2*x^2 - x + 2 | 4 | 697 | 0 | 2 | NON-ARITHMETIC (more than one complex place)
++-LLLR | m022(0,0) | x^4 - x^3 + 2*x^2 - x + 2 | 4 | 697 | 0 | 2 | NON-ARITHMETIC (more than one complex place)
+++LLRR | m136(0,0) | x^2 + 1 | 2 | -4 | 0 | 1 | imaginary quadratic: necessary for arithmeticity (not sufficient alone)
++-LLRR | m135(0,0) | x^2 + 1 | 2 | -4 | 0 | 1 | imaginary quadratic: necessary for arithmeticity (not sufficient alone)
