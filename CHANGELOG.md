@@ -1,5 +1,16 @@
 # Changelog
 
+## W179 run: the down–lepton factor at the cusp and at τ = i; G1 and G3 held, G0 and G2 failed as worded (relay §335)
+
+- **The order:** the rule first; one run, its output committed unread; one labelled post hoc, its script committed
+  before its run and its output committed unread.
+- **The cells:** G1 (the tie on orders 1, 2 and 5) and G3 (no Georgi–Jarlskog-like pair) held. G0 failed: 50 cusp
+  pairs, all on integer-λ lines, are not settled by Im τ 48. G2 failed as worded: two lines read D = 10.41 at Im τ 48,
+  but post hoc D keeps falling (8.29 at 128, about 7.1 at the cusp by a fit), so the hit is a height crossing.
+- **The read-outs:** every settled cusp limit ties (D = 1 exactly); at τ = i, 57 distinct D, none within 3σ.
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/the_down_lepton_factor.py`, its post hoc and their JSON, NOTE's
+  W179 section and row, `W_VERDICTS.json`, the test, relay §335, the ledger row, the state page. 0 of 19.
+
 ## A reading of W178's miss, and W179's rule: the down–lepton factor at the points the principle marks (relay §334)
 
 - **The reading:** the slope-2/5 skeleton forces equal down and lepton exponents. The data's double ratios (0.318,

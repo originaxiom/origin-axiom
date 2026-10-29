@@ -10239,3 +10239,30 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    answer on the split is W140's, D ≡ 1.
 
 0 of 19.
+
+## 335. Added 2026-10-29 (UTC): W179 run and recorded — the down–lepton factor at the cusp and at τ = i
+
+1. **The order.** The rule (ebaa5d5af) was pushed first. Then the script (793d6deb7), one run (34.6 s, exit 0) and
+   the output, committed unread (0b3702114). One labelled post hoc followed (b0c231387, its output 966c2d1c9).
+2. **The cells** (NOTE, W179; `docs/dossiers/the_weave_2026-10-07/the_down_lepton_factor.json`).
+   - **G1 held:** the tie on all 16 lines of order 1, 2 or 5, at every height and at τ = i.
+   - **G3 held:** no Georgi–Jarlskog-like (r₂, r₁) within a factor 1.25 anywhere.
+   - **G0 failed:** 50 of the 110 finite cusp pairs are not settled by Im τ = 48. All lie on lines with an integer-λ
+     kernel (post hoc).
+   - **G2 failed as worded:** (1/2, 1/5) and (1/2, 3/10) read D = 10.4075 at Im τ 48. Post hoc 1 shows D still
+     falling, to 8.29 at Im τ 128, and about 7.1 at the cusp by a fit. The hit is a crossing near Im τ 46, a height
+     the rule left out, not a cusp value.
+3. **The read-outs.**
+   - Every settled cusp limit is an exact tie: 60 pairs with r₂ = r₁ = D = 1.
+   - At τ = i, 57 distinct D (0.151 to 16.8), none within 3σ; the nearest are 13.69 and 7.20.
+   - The rule's hand expectation of an order-10 split at the cusp was wrong. Those lines tie there, and three
+     slope-2/5 lines of order 10 split at τ = i.
+4. **For main.** The rule's closing clause needs G2 and G3 both to hold, and G2 failed as worded. Read with post hoc
+   1, no settled or limiting value at either marked point is near the data's D. If main accepts that reading, the
+   record's forced routes (W137, W139, W140 and this frame) give no down–lepton factor near the data's. The factor
+   would then be a candidate entry for GENESIS's dictionary data (FK11), not a derivation. The ask is main's ruling
+   on that reading.
+5. **Labelled** neither (a frame census over every census line at the points the principle marks). The weave's own
+   answer on the split stays W140's, D ≡ 1.
+
+0 of 19.

@@ -5631,3 +5631,50 @@ def test_w178_the_six_at_the_cusp():
     assert (here / "the_six_at_the_cusp_first_launch_failed.txt").exists()
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W178. The six's exponents at the cusp, exactly" in note
+
+
+def test_w179_the_down_lepton_factor():
+    """W179: G1 and G3 as predicted, G0 and G2 failed as worded; in process, the double ratios recomputed from W178's
+    stored six, every settled cusp pair tied (D = 1), every unsettled pair on a line with an integer-lambda kernel, the
+    two G2 lines' ladder, and post hoc 1's heights and fit"""
+    import math
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_down_lepton_factor.json").read_text(encoding="utf-8"))
+    w = json.loads((here / "the_six_at_the_cusp.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"G0": False, "G1": True, "G2": False, "G3": True}
+    assert d["warnings"] == [] and d["Part B failed tasks"] == [] and "run_failed" not in d
+    assert d["counts"] == {"cusp finite": 110, "cusp running": 314, "cusp excluded": 108, "i finite": 207,
+                           "i excluded": 59}
+    assert d["G1"]["tie lines (orders 1, 2, 5)"] == 16 and d["G1"]["misses"] == []
+    hits = {(tuple(h[0]), h[1], h[2]) for h in d["G2"]["hits"]}
+    assert hits == {(ln, x, "cusp") for ln in (("1/2", "1/5"), ("1/2", "3/10")) for x in (0.125, 0.375)}
+    assert d["G3"]["hits"] == []
+    rate = {tuple(e["line"]): e["slowest kernel min(l+, l-)"] for e in w["per line"]}
+    bad = {(tuple(b[0]), b[1]) for b in d["G0"]["not settled"]}
+    assert len(bad) == 50 and all(rate[ln] == 0.0 for ln, _x in bad)
+    settled = 0
+    for e, we in zip(d["per line"], w["per line"]):
+        assert e["line"] == we["line"]
+        for row, p in zip(e["cusp"], we["per Re tau"]):
+            if row["status"] != "finite":
+                continue
+            six = p["six per height"]["48.0"]
+            mine = [six[2] - six[4], six[3] - six[5], (six[3] - six[5]) - (six[2] - six[4])]
+            assert max(abs(u - v) for u, v in zip(mine, row["cusp ln (r2, r1, D)"])) < 1e-12
+            if (tuple(e["line"]), row["x"]) not in bad:
+                settled += 1
+                assert abs(mine[2]) < 1e-8
+    assert settled == 60
+    import numpy as np
+    p = json.loads((here / "the_down_lepton_factor_posthoc.json").read_text(encoding="utf-8"))
+    for e in p["per line"]:
+        ys = [r[0] for r in e["D per height"]]
+        ds = [r[1] for r in e["D per height"]]
+        assert ys == [32.0, 48.0, 64.0, 96.0, 128.0] and all(a > b for a, b in zip(ds, ds[1:]))
+        assert abs(ds[1] - 10.4075) < 1e-4 and abs(ds[-1] - 8.2881) < 1e-4
+        X = np.array([[1.0, 1.0 / y, 1.0 / y ** 2] for y in ys])
+        coef = np.linalg.lstsq(X, np.array(ds), rcond=None)[0]
+        assert max(abs(u - v) for u, v in zip(coef, e["fit A, B, C"])) < 1e-6 and abs(coef[0] - 7.12) < 0.01
+        assert not 10.25 <= coef[0] <= 10.91
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W179. The down–lepton factor at the points the principle marks" in note

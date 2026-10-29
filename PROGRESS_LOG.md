@@ -21509,3 +21509,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The next test, written down before running it:** whether the frame itself, on any of its 266 lines, gives that
   factor at the special points the principle singles out.
   0 of 19.
+
+## 2026-10-29 — the down–lepton factor tested at the special points
+
+- **What was done:** the frame's own ratio between the down-quark and lepton patterns was read on every one of its 266
+  lines, far up the cusp and at the symmetric point τ = i.
+- **What it found:** wherever the cusp values have settled, the frame gives the down quarks and the leptons exactly the
+  same ratios. Two lines pass through the measured value at one height, but keep falling past it further up, so that
+  is a chosen height, not a forced value. At τ = i the frame gives 57 different values, none close to the measurement.
+- **What it means:** nothing the principle forces on record supplies the factor of about 3 the data need. If the main
+  seat agrees, that factor is an input the principle does not supply. 0 of 19.
