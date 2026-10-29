@@ -1,0 +1,2 @@
+draws: 8000 already written: 160 to do: 7840
+draws: 8000 | control: {"C1a_trace_counts": {"12": [29, 29], "18": [60, 60], "24": [96, 96], "30": [151, 151], "400": [14690, 14690]}, "C1a_move_count_14": [2536, 2536], "R1_move_count_16": [8798, 8798], "C1b_reduction_max_rel_err": 3.880695745055233e-14, "R3_lines_equal_B1733": [true, 600], "C1c_covariance_R_TS_max_log": 1.3242740237737636e-12, "C1c_least_Im_tau": 0.4100568692008381, "C1d_against_B1726_row": 6.433076293867315e-12, "C1e_max_ratio_at_YCAP": 6.2544689311747e-14}
