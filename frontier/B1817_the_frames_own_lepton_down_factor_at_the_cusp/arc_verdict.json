@@ -1,0 +1,28 @@
+{
+ "id": "B1817",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1788",
+  "B1789",
+  "B1793",
+  "B1742",
+  "B1726",
+  "B1656"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's frame through B1726's compute (unchanged), the Higgs DR, both readings and horocycles, L clamped beyond B1667's column; Re tau 1/3 (the referee: 0.1, 0.6), offsets b = 0.137, 0.311",
+  "object": "the frame's lepton/down ratios R2 (and R1) in the cusp limit (Im tau 8-12, the referee to 20) on every slope of order <= 30 with equal second-generation exponents (B1788's closed form); the anomaly-fixed charges of N_c = 2, 4, 5 as the control",
+  "reach": "class",
+  "hypotheses": "exploratory, unsealed, data-free; the control changes only the twists' integer charges (compute reads charges only through the sector twists); limits of the instrument (L clamped), not of a physical cusp; double precision fails by Im tau 24"
+ },
+ "claim_one_line": "THE FRAME'S OWN LEPTON/DOWN FACTOR AT THE CUSP (strand A's A1; P-397; data-free; refereed hostile, PASS WITH CORRECTIONS): on the slopes of order <= 30 with equal down/lepton second-generation exponents, every converged limit of R2 independent of the offset and of Re tau is 1, 4 or 1/4 (by reading) or a non-integer line constant (3.43 on 1/8); with the anomaly-fixed charges of N_c = 2, 4, 5 the same 4 and 1/4 recur unchanged -- the integer does not move with N_c (it equals N_c only at N_c = 4, by coincidence), so no limit tracks N_c and none is 3 at N_c = 3; on the torsion-degenerate slopes R2 is a function of the offset b and passes through 3 on a continuum -- a tuned value, not a factor. The twist-charge route to c = N_c is closed on the slopes tested; c stays one discrete input, never set. 0 of 19.",
+ "weave_or_thread": "weave (every equal-exponent slope; no thread selected)"
+}

@@ -18139,3 +18139,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The delegated mathematics of the two-clock family verified on main and harvested; no point of the line picks a height. The owner's final act registered (P-485-P-488): support first, the absence claim retracted, the support test on the whole interaction, c never set. 0 of 19.
 - **Landing suite (S259).** full suite 7 869 passed, 3 failed, 68 skipped (43:38, -n 6, the machine shared with B1816's referee and strand A's map) on 40836fb50: two are B805's attachment locks (P-239, standing); the third, B1306's slice D, caught a real defect -- the chat1 pin had been advanced past two unrowed relays (the scoreboard's first and second rows): rowed 1478 and 1479 (both checks REPRODUCED on main, byte-identical), P-489 registered, FLOOR 489; the 175 ledger-reading tests and the gates (47/47) rerun green on the amended tree.
+
+## 2026-10-29 — S260 B1816 (the accessory parameter is a WP primitive), B1817 (the cusp lepton factor does not track N_c) and W150 verified on main
+
+- The frame's canonical end computes a Weil–Petersson potential's gradient; WP stands beside area as a frame-native clock, unranked. W150's holder reproduced, with a second degenerate vacuum around ρ. B1817: the frame's own cusp lepton/down factor is 1, 4 or ¼ at every colour count, not tracking N_c (none is 3 at N_c = 3). 0 of 19.
+- **Landing suite (S260).** full suite 7 878 passed, 2 failed, 68 skipped (49:17, -n 6, the machine shared with the CM tables and the evening verifier) on 9fe24857e: the two failures are B805's attachment locks (P-239, standing).

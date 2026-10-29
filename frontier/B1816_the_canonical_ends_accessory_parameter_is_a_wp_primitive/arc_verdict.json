@@ -1,0 +1,26 @@
+{
+ "id": "B1816",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1667",
+  "B1815",
+  "B1813",
+  "B21"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "FR-FIB's canonical end: B1667's sealed instrument (the accessory parameter c of y'' + (P/4 + c) y = 0 on the lattice Z + tau Z), points off Re tau = 0",
+  "object": "the once-punctured torus's moduli: the accessory parameter on its uniformising (gated) branch against the Fenchel-Nielsen coordinates of its holonomy",
+  "reach": "class",
+  "hypotheses": "verified numerically (10^-11 at six points by an independent stencil, 10^-8 at four by main's), volume closure to 2e-6, the branch certified by B1667's gate; derived from McMullen's Theorem 1.5 modulo one step and one normalisation not stated in a source; not a proof for the punctured torus; not preregistered"
+ },
+ "claim_one_line": "THE CANONICAL END'S ACCESSORY PARAMETER IS A WEIL-PETERSSON PRIMITIVE (P-481; data-free; refereed hostile, PASS WITH CORRECTIONS): on its uniformising branch B1667's accessory parameter satisfies dC/d(tau-bar) = i h_WP(tau) with C = 2c and h_WP dx^dy = (1/2) dl^dt (Wolpert's normalisation) -- checked against the Fenchel-Nielsen route to 1e-11, its total volume closing on pi^2/12 -- so Weil-Petersson volume (depth tail about 3/(Y + 4 ln2/pi)^2, 0.20 at Y = 3) stands beside hyperbolic area (3/(pi Y), 0.32) as a frame-native clock; the identity holds on any real-holonomy branch, the gate and the volume certify it as WP of tau; nothing here ranks the clocks (the clock stays CHOSEN), and no clock studied picks a point (the WP-to-area ratio varies by 0.5%, peaking at omega). 0 of 19.",
+ "weave_or_thread": "weave (a measure on all fibres' moduli; no single thread)"
+}

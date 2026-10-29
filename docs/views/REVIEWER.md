@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1519** |
-| words of findings prose | **1,252,698** |
-| test lock files referenced | **925** |
-| arcs carrying an authored verdict | **1519** (100.0 %) |
-| recorded closures | **855** (688 classified, 167 routed-only) |
+| research arcs with findings | **1521** |
+| words of findings prose | **1,256,246** |
+| test lock files referenced | **927** |
+| arcs carrying an authored verdict | **1521** (100.0 %) |
+| recorded closures | **856** (689 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1036 |
-| NEGATIVE | 379 |
+| PROVED | 1037 |
+| NEGATIVE | 380 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 125 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 126 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1815`** (3130 words, 0 locks)  
-THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY (the owner-approved clock plan T1-T4; data-free; refereed hostile, PASS WITH CORRECTIONS): the walk model of B1662/B1663 (L, R at (1-p)/2, L^-1, R^-1 at p/2) has endpoint law nu_p = (1-p) M + p F_*M at every p -- Minkowski's measure and its mirror, singular to area, P(xi > 0) = 1 - p exactly (an elementary proof; an exact rational test, defect identically 0 at seven p) -- so with tau placed by arclength along the ray (CHOSEN) its averages are B1813's move clock's (0.0346 above Im tau = 3; B1663's 0.517). The object's discrete symmetry cannot decide the clock (Minkowski's measure is SL(2,Z)-quasi-invariant); the frame that computes the masses never sees word length; nothing on record generates a continuous horocycle action (Dani's door is CHOSEN); the record's established results are consistent with both clocks. The clock stays CHOSEN. Main's reading that the letters count branes is refuted (L is conjugate to no 7-brane monodromy). 0 of 19.  
-`B1815_the_records_walk_has_minkowskis_exit_law_exactly/FINDINGS.md`
+**PROVED — `B1816`** (1857 words, 1 locks)  
+THE CANONICAL END'S ACCESSORY PARAMETER IS A WEIL-PETERSSON PRIMITIVE (P-481; data-free; refereed hostile, PASS WITH CORRECTIONS): on its uniformising branch B1667's accessory parameter satisfies dC/d(tau-bar) = i h_WP(tau) with C = 2c and h_WP dx^dy = (1/2) dl^dt (Wolpert's normalisation) -- checked against the Fenchel-Nielsen route to 1e-11, its total volume closing on pi^2/12 -- so Weil-Petersson volume (depth tail about 3/(Y + 4 ln2/pi)^2, 0.20 at Y = 3) stands beside hyperbolic area (3/(pi Y), 0.32) as a frame-native clock; the identity holds on any real-holonomy branch, the gate and the volume certify it as WP of tau; nothing here ranks the clocks (the clock stays CHOSEN), and no clock studied picks a point (the WP-to-area ratio varies by 0.5%, peaking at omega). 0 of 19.  
+`B1816_the_canonical_ends_accessory_parameter_is_a_wp_primitive/FINDINGS.md`
 
-**NEGATIVE — `B1814`** (2324 words, 0 locks)  
-THE MEASURED WORLD AS A DRAW FROM THE WEAVE'S OWN MEASURE (P-437, stage 3; sealed 86cb26b30; NEGATIVE as sealed for D2's prediction): by the sealed statistic the six do not separate B1813's two clocks (p_F 0.43 under the geometric clock, 0.069 under the move clock) -- the clock is not decided by these numbers, and the test could not have decided it (power about 19%: a world from the critical clock fails D2 about 81% of the time; the p_nn read-out shows the pattern, as for 67% of random hierarchies). The six are not atypical at the 5% level among the geometric clock's resolved worlds, unforced (p_nn 0.072) or with B1726's two ingredients by hand (0.094), CONSISTENT, NOT SPECIFIC (73% and 45% of random hierarchies pass); D1 fails at the floor 1e-8 and the model does not come close (the nearest unforced world 11 sigma away); with the mixings the by-hand world is atypical (0.0017); anarchy puts the data at the estimator's floor. 0 of 19.  
-`B1814_the_measured_world_as_a_draw_from_the_weaves_own_measure/FINDINGS.md`
+**NEGATIVE — `B1817`** (1637 words, 1 locks)  
+THE FRAME'S OWN LEPTON/DOWN FACTOR AT THE CUSP (strand A's A1; P-397; data-free; refereed hostile, PASS WITH CORRECTIONS): on the slopes of order <= 30 with equal down/lepton second-generation exponents, every converged limit of R2 independent of the offset and of Re tau is 1, 4 or 1/4 (by reading) or a non-integer line constant (3.43 on 1/8); with the anomaly-fixed charges of N_c = 2, 4, 5 the same 4 and 1/4 recur unchanged -- the integer does not move with N_c (it equals N_c only at N_c = 4, by coincidence), so no limit tracks N_c and none is 3 at N_c = 3; on the torsion-degenerate slopes R2 is a function of the offset b and passes through 3 on a continuum -- a tuned value, not a factor. The twist-charge route to c = N_c is closed on the slopes tested; c stays one discrete input, never set. 0 of 19.  
+`B1817_the_frames_own_lepton_down_factor_at_the_cusp/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

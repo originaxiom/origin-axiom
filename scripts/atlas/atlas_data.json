@@ -14865,6 +14865,40 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1816": {
+   "slug": "the canonical ends accessory parameter is a wp primitive",
+   "motifs": [
+    "closing",
+    "action",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "symplectic",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B21",
+    "B737"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1817": {
+   "slug": "the frames own lepton down factor at the cusp",
+   "motifs": [
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "L250"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B181": {
    "slug": "criticality scale",
    "motifs": [

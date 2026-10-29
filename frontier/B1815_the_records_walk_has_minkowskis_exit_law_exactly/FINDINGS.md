@@ -122,6 +122,9 @@ Remark 1.22; `verification/T3_T4_REPORT.md` § 1.5). The referee checked its let
   - Weil–Petersson, defined by the fibre's hyperbolic metric. Its height tail is ~ 1/Y²: Wolpert's boundary asymptotics,
     with the referee's estimate ℓ ≈ π/Im τ and ω_WP = ℓ dℓ ∧ d Re τ giving a density of about π²/Y³. To read at
     source (P-481).
+    > *Sharpened 2026-10-29 (B1816): read at source and computed on B1667's instrument — g_WP = (π²/2)∣dτ∣²/(Im τ)³ near the
+    > cusp in Wolpert's normalisation (π² in ω = dℓ∧dt), volume π²/12, tail ≈ 3/(Y + 4 ln 2/π)²; the accessory parameter
+    > is its primitive on the gated branch. Nothing ranks area against WP.*
 - **Within FR-FIB the move clock is not frame-native.** This is a statement about naturality, not a theorem about the
   world.
 - **The brane reading fails.**

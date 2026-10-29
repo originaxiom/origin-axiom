@@ -12356,5 +12356,31 @@
    "hypotheses": "the counting rule, line cutoff, floor, horocycle and readings CHOSEN; sealed 86cb26b30"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1817",
+  "claim_killed": "That the frame's own twists, which see each leg's hypercharge through the exponents (B1788), supply the lepton/down factor as the colour count N_c in the cusp limit on some slope (strand A's A1; P-397).",
+  "kill_form": "Computed (B1817, exploratory, data-free): on the 31 slopes of order <= 30 with equal down/lepton second-generation exponents, every converged, offset- and Re tau-independent limit of R2 is 1, 4 or 1/4 (by reading) or a non-integer line constant (3.43 on 1/8); rerun with the anomaly-fixed charges of N_c = 2, 4, 5 the same 4 and 1/4 recur unchanged (equal to N_c only at N_c = 4, by coincidence), so no limit tracks N_c and none is 3 at N_c = 3; on torsion-degenerate slopes R2 is a function of the offset b and passes through 3 on a continuum (a tuned value).",
+  "hatch": "a mechanism that generates an entry linearly in the doublet leg's own charge (the GJ structure; L/Q = -N_c for every N_c); the B - L Clebsch channels (45, 126, 351', (15,2,2)) absent at tree level; L250's non-abelian bundle (P-401, P-403)",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-29), for tests/test_b833_negative_routing.py",
+  "note": "Refereed hostile, PASS WITH CORRECTIONS: the draft's 'line constants' on 1/12, 1/4, 5/12 depend on b and Re tau; the control changes only the twists' integer charges; limits are the instrument's (L clamped).",
+  "evidence_consulted": [
+   "B1788",
+   "B1789",
+   "B1793",
+   "B1742",
+   "B1726",
+   "B1656"
+  ],
+  "faces_consulted": [],
+  "fact_computed": "840 rows of B1726's compute (unchanged) at Im tau 8, 10, 12, two offsets, both readings and horocycles, N_c = 2, 3, 4, 5; the referee's independent driver at Re tau 0.1 and 0.6, Im tau to 20, a b-scan; regenerated on main",
+  "scope": {
+   "frame": "B1656's frame through B1726's compute (unchanged), the Higgs DR, both readings and horocycles, L clamped beyond B1667's column; Re tau 1/3 (the referee: 0.1, 0.6), offsets b = 0.137, 0.311",
+   "object": "the frame's lepton/down ratios R2 (and R1) in the cusp limit (Im tau 8-12, the referee to 20) on every slope of order <= 30 with equal second-generation exponents (B1788's closed form); the anomaly-fixed charges of N_c = 2, 4, 5 as the control",
+   "reach": "class",
+   "hypotheses": "exploratory, unsealed, data-free; the control changes only the twists' integer charges (compute reads charges only through the sector twists); limits of the instrument (L clamped), not of a physical cusp; double precision fails by Im tau 24"
+  },
+  "weave_or_thread": "weave"
  }
 ]

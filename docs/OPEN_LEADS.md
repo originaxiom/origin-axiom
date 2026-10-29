@@ -4221,3 +4221,30 @@ stage in the twisted frame and tested it once against data.**
   4. **The map's sealable questions:** P-277 (a potential minimum with J ≠ 0), P-279–P-282.
 - **0 of 19.**
 
+
+## ⟳ CURRENCY NOTE — 2026-10-29 (S244–S260: B1806–B1817)
+
+**The window moved from selection by symmetry to the clock, then to the owner's final act.**
+- **Selection by symmetry and by inversion failed to pick a world.**
+  - B1806 and B1807: the special points' first generation.
+  - B1808: three generations cut a curve, not a point.
+  - B1810 and B1811: the symmetry-selected values miss the six, sealed.
+  - B1812: the towers do not meet at loci in the 7-brane frame.
+  - B1809: what four frames leave free.
+- **The clock** (P-437–P-442):
+  - B1813: the weave's measure depends on how threads are counted.
+  - B1814: the measured world does not decide the clock, sealed.
+  - B1815: the walk has Minkowski's exit law.
+  - B1816: the canonical end's accessory parameter is a Weil–Petersson primitive, so WP joins area as a frame-native
+    clock, unranked.
+- **The owner's final act** (P-485–P-488): support first, then exclusion, then typicality.
+  - Strand A, B1817: the frame's own cusp lepton/down factor is 1, 4 or ¼ at every colour count. The 3 is not made by
+    the twists.
+  - Strand B: W150's τ-holder is reproduced on main (row 1371), with a second degenerate vacuum around ρ.
+  - Strand C, THE SUPPORT TEST (P-487): designed, not sealed.
+- **Open leads, in order:**
+  1. THE SUPPORT TEST (P-487), with c supplied by the interaction and never set (P-488).
+  2. A mechanism that generates the lepton entry linearly in the doublet leg's charge (P-397), or L250's non-abelian
+     bundle (P-401, P-403).
+  3. The scoreboard's generator (P-418), and the four typings to reconcile (P-489).
+- **0 of 19.**

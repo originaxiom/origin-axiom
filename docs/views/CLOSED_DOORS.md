@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**855 recorded closures — of which 688 are CLASSIFIED by mechanism and
+**856 recorded closures — of which 689 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -138,6 +138,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed and refereed (B1811): the best chi2_six is 4521.5 against P1's threshold of 16.75 and 9.8% of random hierarchies do as well on the same menu; the chi2-best row overshoots every ratio by 7.5x to 1739x, as do all 22 non-degenerate cells; the other 156 of 208 cells carry a massless state or rank one.` | 1 |  |
 | `Computed and read in the source (B1812): the word's class is DHIZ's E_10; its nested subconfigurations carry su(3)+su(2) ... E8, but su(3)+su(2) and su(5) are hyperbolic of negative trace and cannot collapse (DHIZ-I 7.4), so they are not gauge symmetries at a point; the object fixes only the total class.` | 1 |  |
 | `Sealed cell failed (B1814): p_F(A1) 0.43, p_F(A0) 0.069 > 0.05, robust over half-splits, subsamples and configuration seeds; the test was underpowered (about 19% of A1's own draws are atypical under A0), so the clock is not decided by these numbers. Not a negative for the critical clock or for typicality: D1 and D1h hold, not specific.` | 1 |  |
+| `Computed (B1817, exploratory, data-free): on the 31 slopes of order <= 30 with equal down/lepton second-generation exponents, every converged, offset- and Re tau-independent limit of R2 is 1, 4 or 1/4 (by reading) or a non-integer line constant (3.43 on 1/8); rerun with the anomaly-fixed charges of N_c = 2, 4, 5 the same 4 and 1/4 recur unchanged (equal to N_c only at N_c = 4, by coincidence), so no limit tracks N_c and none is 3 at N_c = 3; on torsion-degenerate slopes R2 is a function of the offset b and passes through 3 on a continuum (a tuned value).` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 
