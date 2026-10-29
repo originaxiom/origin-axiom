@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-29",
+  "commit": "ffc16de5fe4c7e62d6d7bcd19520953e2f57f11e",
+  "parent": "4572f758c4463a0926b102ce65b8be5690a3aa06",
+  "scope": "Owned metadata commit only",
+  "original_head_index_and_work_ledger_recovered_by_removing_owned_insertions": true,
+  "all_unrelated_index_entries_unchanged": true,
+  "inherited_staged_path_population_unchanged": true,
+  "inherited_staged_hunks_unchanged_except_ledger_blob_ids": true,
+  "inherited_staged_path_count": 49,
+  "original_staged_patch_sha256": "1b1174453bc7f3159582386919a082dc803c0e9d63323a375872d4d346ba3786",
+  "current_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "why_patch_hash_changes": "Expected ledger baseline/index blob identities change; the original content and actual inherited hunks are preserved.",
+  "scientific_execution": false
+}
