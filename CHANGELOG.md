@@ -1,5 +1,9 @@
 # Changelog
 
+## S249 THE OWNER'S RULINGS ON THE FOUR DECISIONS (2026-10-29)
+
+- **P-406:** the census, then selection — the census lands as reading 2's statement after one more hostile referee (under way); P-419 (selection by inversion) is the next main line; P-432 is to be run as a sealed test. **P-407:** adopted, binding for every seat — WORKING_RULES' rule of 2026-10-29 (frame cards; chain backwards; read the source; FORCED / ADMITTED / CHOSEN on every claim); three PRACTICES rows. **P-417:** the rule line adopted (every document watched or frozen; each arc declares its surfaces); its gates still owed. **P-418:** the total-inputs scoreboard adopted beside 0 of 19 (the 19, the price 4 + 9 = 13, and a counted list of discrete choices, to build). **P-420:** held for the seats' workdesk proposals. Relay to all seats with the rulings (RELAY_LEDGER). 0 of 19.
+
 ## S248 P-433 CLOSED — WHICH NEAR-POINT STATEMENTS ARE LARGE-L ONLY (2026-10-29)
 
 - **Main's own route** (the record's four-channel machinery, B1656's b1656_funcs as B1691's S164 correction uses it, with B1691's own sections) at the canonical end radius (L = 0.65, 2.5): near ω, B1691's k ≡ −½ mod 6 row (23/2; 11/2) becomes (m₂/m₃, m₁/m₃) ∝ (∣ε∣, ∣ε∣³), not (∣ε∣², ∣ε∣³) and m₁ = 0; its 15/2 and 7/2-class rows stand. Near i, B1806's ∂²R-free rows at 15/2 and 23/2 give m₂/m₃ flat and nonzero (0.272 at L = 0.65, 0.0211 at L = 2.5), m₁/m₃ ∝ ∣τ − i∣². Agreement with B1807's referee's independent evaluator to the per-mille. Dated notes on B1691, B1806 and B1807 (S247's '0.044/L' is the large-L asymptote); RETRACTIONS two rows, CORRECTED (scope) (the index 60; P3's count updated). P-433 DONE; P-357 noted (its invariant in closed form, I = ∣η∣⁶∣g∣/(4∣a∣²)). 0 of 19.

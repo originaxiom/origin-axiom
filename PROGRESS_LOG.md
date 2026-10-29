@@ -18084,3 +18084,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - At the canonical end radius B1691's ω row −½ mod 6 becomes (∣ε∣, ∣ε∣³) and B1806's ∂²R-free rows give a flat m₂/m₃ at i; two RETRACTIONS rows (scope). 0 of 19.
 - **Landing suite (S248).** 7 850 passed, 68 skipped, 2 failed in 33:43 — B805's two standing attachment locks (P-239).
+
+## 2026-10-29 — S249 THE OWNER'S RULINGS ON THE FOUR DECISIONS
+
+- P-406 census then selection (P-419 next); P-407 and P-417's rule into WORKING_RULES; P-418 adopted; P-420 held for the seats. 0 of 19.
+- **Landing suite (S249).** 7 850 passed, 68 skipped, 2 failed in 34:05 — B805's two standing attachment locks (P-239).

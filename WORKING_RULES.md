@@ -408,3 +408,44 @@ adopted 2026-10-24, P-385). The full text, with its conditions on the functional
 
 **The ladder's rule (adopted 2026-10-24).** R1: every finite rung of the moves' ladder at once (the end at 5 follows from the
 moves' orders; E₈ as the container adopted by the ruling, not derived; B1752); the rule fixes the algebra, not its embedding or its fields. Text and clauses in `docs/THE_WEAVE.md` (B1751). The rungs are the quotients by T^N, Δ(2, 3, N), not every finite quotient of the moves; R2 needs one scalar holomorphic theta series (the merged wording, P-385; GENESIS v1.58, B1754).
+
+## Rule (2026-10-29, the owner's ruling on P-407 and P-417 — adopted): FRAME CARDS, CLAIM LABELS, AND DOCUMENTS THAT TRACK THE RECORD
+
+The owner adopted, 2026-10-29, main's proposals P-407 (THE_PATTERN_MEDITATION_3 § V) and P-417's rule line, binding for
+every seat. The seats' opinions had been asked (`docs/handoffs/CC_TO_ALL_SEATS_2026-10-28_FOUR_DECISIONS_FOR_THE_OWNER.md`);
+none had answered.
+
+1. **A frame card before a frame.** Before an arc builds or uses a frame — a rule turning the object, with stated extra
+   data, into numbers comparable with the Standard Model's — it writes the frame's card:
+   - the continuous configurations;
+   - the discrete choices;
+   - the outputs, each named against the 19;
+   - the conditions built from the object that it imposes, each typed: symmetry, canonical construction, variational
+     or arithmetic.
+
+   This is P-406's census definition. The card counts the free data against the object's rigid invariants that could fix
+   them. The null that any positive will be measured against is fixed on the card before the run, and that null chooses
+   as freely as the arc does (B1798).
+2. **Chain backwards.** A route is stated as a complete derivation: space → fields → zero modes → couplings → running →
+   comparison. The card names which links the object supplies and which are taken as input.
+3. **Read the source.** A route from the literature is believed only after its source has been read on the bench. This
+   works with the 2026-10-06 rule on load-bearing mathematics.
+4. **Every claim carries a label: FORCED, ADMITTED or CHOSEN.**
+   - FORCED: the record derives it with no choice among alternatives. The label also says whether it is forced for any
+     comparable object (E20) or for this one.
+   - ADMITTED: the object allows it, among alternatives it also allows.
+   - CHOSEN: an input.
+
+   A verdict file's claim, and every discrete item in P-406's census, carries one. The check of 2026-10-29 found two
+   mislabels on record: the arrow and the 2T surjection are generic, not specific to the object.
+5. **Every document is watched or frozen.** Each tracked document at the root and in docs/ is one of:
+   - LIVING: its banner and key facts are checked by a gate;
+   - RECORD: frozen, with a pointer to what supersedes it;
+   - GENERATED.
+
+   Each arc declares the documents it changes. Scripts run at every landing; prose rewrites wait for the decadal reviews
+   (the owner's cost split, 2026-10-28).
+
+**Enforced by:** the gate `doc-facts` (rule 5's key facts; S241). Rules 1–4, and rule 5's classification and declared
+surfaces, are MANUAL until P-417's steps 1, 2, 4 and 5 build their gates. They are registered in `docs/PRACTICES.md`.
+
