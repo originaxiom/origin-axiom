@@ -7726,6 +7726,79 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W180. The cusp limits on the integer-λ lines: the kernel norm's split into c^∞ + B_s Im τ + ρ_s is exact, but its exponentially small rest ρ_s reaches the light features, so the frozen-norm frame is not the true frame for the six (H0 failed on all 98 pairs) and the rule withholds every D∞. On the two G2 lines ρ_s cancels in D: the frozen D equals the true D at Im τ 64–128 to 10⁻¹³ (H3) and keeps falling, to 6.59 at Y = 4096. No pair's value lies in the data's window (H5). The limit frame is discontinuous on every agreeing pair (H4 failed) (`the_integer_lambda_limits.py`; `W180_RULE.md`; post hoc `the_integer_lambda_limits_posthoc.py`)
+
+**Why.** At the owner's "gogogo", this seat's recommendation after W179. W179's G0 failed on 50 cusp pairs, all on lines
+with an integer-λ kernel, and its G2 hit's cusp limit rested on a fit. This arc tried to replace the fit with the limit
+on all 49 resolved integer-λ lines, by the frozen-norm frame F(y, Y) and its limit frame F_∞.
+
+**The order.**
+- The rule (`W180_RULE.md`, 952eb9924) was committed and pushed before the script.
+- The script (a1dbd9139) was committed and pushed before its run. A timing call on its draft printed statuses, digits
+  and seconds only (disclosed in its docstring).
+- **One run**, 1893.9 s, 1568 points, exit 0, no warnings, no failed point, no doubled precision. Its output
+  (7f05eb5a0) was committed unread after the checks on the exit, failures, NaN, paths and warnings, then read once.
+- **Post hoc 1** (`the_integer_lambda_limits_posthoc.py`, a1c43b322) was written after the read, to find why H0
+  failed, and committed before its run. Its output (3e18a3b2d) was committed unread.
+- **Two instrument debug runs in the scratchpad** then compared the two code paths at one point ((0, 1/6), Re τ 1/8,
+  Im τ 48), code against code with no data. Given W177's exact c_series, the frozen path reproduces W178's six. Its own
+  norms agree with c_series channel by channel.
+
+**The result (COMPUTED; one run; H1, H2, H3, H5 and H7 as predicted; H0, H4 and H6 failed as worded; one labelled post
+hoc).**
+- **H0 failed: the frozen frame is not the true frame for the six.** F(48, 48) misses W178's stored six on all 98
+  pairs, by 3.7 × 10⁻⁴ to 0.51 in ln (median 0.007, worst (0, 1/6)).
+  - **Post hoc 1 finds the cause.** The rule's split of the norm is exact: c^∞ + B_s y meets W177's c_series to
+    10⁻¹³⁰ on the integer channels. On the λ = ±½ channels the rest ρ_s is about 7.5 × 10⁻⁶⁵ at Im τ 48.
+  - **The rule's rate was wrong.** It said ρ_s falls as e^{−2π Im τ}. On the λ = ±½ channels it falls as e^{−π Im τ}.
+  - **That rest is far larger than the light features.** ln(s₃/s₁) is near −295 at Im τ 48, that is about 10⁻¹²⁸.
+    So the light features depend on terms the frozen frame drops, and on Re τ through them. The true frame on (0, 2/7)
+    gives r₁ = 5.45 and 4.82 at the two Re τ (W179), while the frozen frame gives 4.71 at both.
+- **H3 held: on the two G2 lines ρ_s cancels in D.** The frozen D(64, Y) equals post hoc 1 of W179's true D at Im τ 64,
+  96 and 128 to 5.7 × 10⁻¹⁴. Down and leptons share every norm, and there the shifts are the same in both (−0.0146 and
+  +7.9 × 10⁻⁵ at Im τ 48, post hoc 1).
+- **H1 and H2 held, for the frozen frame.** On all 98 pairs its 588 resolved exponents are the same at all seven Y
+  within 10⁻⁶ and are fractions with denominator at most 60. They are the frozen frame's exponents, not shown to be the
+  true frame's.
+- **H7 held.** The pairs whose frozen down and lepton exponents agree are exactly W179's 62 finite pairs on integer-λ
+  lines.
+- **H4 failed on all 62 agreeing pairs.** F_∞ (weight √B_s on the integer channels only) changes the exponents of the
+  features in D, so the half-integer channels lead at the cusp. On 16 pairs the approach is also not monotone, and on 4
+  the limit frame's D does not settle.
+- **H5 held.** No agreeing pair's value (D at Y = 4096, flagged) lies in [10.25, 10.91]. There are 22 distinct values,
+  from 0.137 to 29.9, and 12 pairs tie (D = 1). The nearest are (0, 2/7) at 11.86 and the G2 lines at 6.59.
+- **H6 failed as worded.** On (1/2, 1/5) and (1/2, 3/10), at both Re τ, D at Y = 4096 is 6.588. That is inside [6.5,
+  7.7] but flagged, because H4 failed.
+- **The read-outs.**
+  - Each feature's power of Y, from Y 1024 to 4096, is 0, ½ or 1 (104, 190 and 294 features), the largest deviation
+    0.038.
+  - On the G2 lines the six carry (1, ½, 1, ½, 1, ½).
+  - **The G2 lines' frozen ladder:** D = 10.41, 9.56, 8.72, 8.29, 7.59, 6.89 and 6.59 at Y = 48, 64, 96, 128, 256,
+    1024 and 4096.
+  - **(0, 2/7)'s frozen ladder:** D falls from 20.3 to 11.86 and r₂ rises from 0.232 to 0.247, while r₁ passes 3.37
+    near Y ≈ 260. This is the frozen frame, which the true frame does not follow on this line.
+
+**What it shows (a READING on the computed facts).**
+- **The rule's meaning applies: every D∞ is withheld.** H0 failed, so the frozen frame's ladder cannot stand in for
+  the true cusp on the lines named, which is all 98 pairs. W179's G0 is not settled by this arc.
+- **The structure found is real.** On the integer-λ lines the light mass ratios sit below the norms' exponentially small
+  rests. Their cusp limits depend on those rests' phases as well as on the norms' linear growth. A frame that keeps
+  ρ_s's leading terms, or the true frame higher up, is what settles them.
+- **W179's G2 hit stays a height crossing.** The true frame falls through the window between Im τ 42 and 50 and reaches
+  8.29 by Im τ 128 (W179 post hoc 1). On these two lines D is insensitive to ρ_s where checked (H3), and the frozen
+  ladder keeps falling, to 6.59 at Y = 4096. That the limit lies below the window is a READING here, not a settled
+  value.
+- **The limit frame's failure is a structural fact.** On every agreeing pair, dropping the half-integer channels
+  changes which channels lead. So no closed limit-frame value exists for any of them.
+
+**Weave or thread.** neither (a frame census over every census line with an integer-λ kernel, at the cusp). The frame
+is B1656's; the lines are the frame's whole class, none picked. The weave's own answer on the split stays W140's, D ≡ 1.
+
+**For the look ledger:** one look at the data, counted: H5 read D once. No line is selected for a later fit.
+
+**Status.** COMPUTED (the rule first; one run; H0, H4 and H6 failed as worded; one labelled post hoc and two disclosed
+instrument debug runs). A frame census whose method falls short for the six; every D∞ withheld. 0 of 19.
+
 ## W179. The down–lepton factor at the points the principle marks: B1656's frame's own double ratios on every census line, at the cusp and at τ = i. Every settled cusp limit ties the down quarks to the leptons (D = 1 exactly, 60 pairs). The 50 pairs that split all lie on lines with an integer-λ kernel and are still running at Im τ = 48 (G0 failed). Two of them, (1/2, 1/5) and (1/2, 3/10), pass through the data's window there (G2 failed as worded); post hoc, D keeps falling past it (8.29 at Im τ 128, about 7.1 at the cusp by a fit), so the window is crossed at a finite height near Im τ 46, not reached at the cusp. At τ = i the frame gives 57 distinct values, none within 3σ. No line has the Georgi–Jarlskog-like shape (G3 held), and the tie on orders 1, 2 and 5 held (G1) (`the_down_lepton_factor.py`; `W179_RULE.md`; post hoc `the_down_lepton_factor_posthoc.py`)
 
 **Why.** This is the second half of the owner's "do them both". The reading above names W178's nearest miss: a
@@ -15337,6 +15410,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W180 | COMPUTED (the rule first; one run; H1, H2, H3, H5 and H7 as predicted; H0, H4 and H6 failed as worded; one labelled post hoc and two disclosed instrument debug runs); a frame census over every census line with an integer-λ kernel | the frozen-norm frame on the 49 integer-λ lines: the norm's split c^∞ + B_s Im τ is exact (to 10⁻¹³⁰), but its rest ρ_s (e^{−π Im τ} on λ = ±½, not e^{−2π Im τ} as the rule said) reaches the light features (s₃/s₁ ~ 10⁻¹²⁸), so H0 failed on all 98 pairs and every D∞ is withheld; on the G2 lines ρ_s cancels in D (H3 to 10⁻¹³) and the frozen D falls to 6.59 at Y = 4096; no value in the window (H5); the limit frame is discontinuous on all 62 agreeing pairs (H4); W179's classification exact (H7) |
 | W179 | COMPUTED (the rule first; one run; G1 and G3 as predicted; G0 and G2 failed as worded; one labelled post hoc); a frame census over every census line at the points the principle marks | B1656's frame's own down–lepton double ratios on all 266 lines, at the cusp (W178's stored ladder) and at τ = i: every settled cusp limit ties (60 pairs, r₂ = r₁ = D = 1 exactly); the 50 unsettled pairs all lie on integer-λ lines (G0 failed); (1/2, 1/5) and (1/2, 3/10) read D = 10.41 at Im τ 48, in the 3σ window (G2 failed as worded), but D keeps falling (8.29 at 128; about 7.1 at the cusp by a fit, post hoc): a height crossing near Im τ 46, not a limit; at τ = i 57 distinct D (0.151–16.8), none in the window; no Georgi–Jarlskog-like (r₂, r₁) within 1.25 (G3); the tie on orders 1, 2, 5 holds (G1) |
 | W178 | COMPUTED (the rule first; one failed launch, fixed and disclosed; the second launch, every cell as predicted; one labelled post hoc); a frame census over every census line | the six's exponents at the cusp, exactly, on all 266 lines to Im τ 48: W174's S0 settled (all 212 resolved lines converge, to 0.003); its S1 stands (no cusp pattern passes; the slope-2/5 lines' exact (3/10, 4/5, 1/5, 11/20, 1/5, 11/20) miss by 0.068 beyond ln 3; null 15.4%); the 54 untested lines have an exactly massless first generation (m_e on 48 order-12 lines, all three on 6 order-4 lines); the cusp exponents are simple fractions on every line without an integer-λ kernel (post hoc) |
 | W177 | COMPUTED (the rule first; one run; N0, N1, N2 and N4 as predicted; N3 failed as worded on the rule's 40-digit precision, holds post hoc); an instrument | the frame's kernel norms in closed form: each kernel a twisted Kronecker function, c_s an exact series with its cusp limit and first correction; W89's quadrature (with the record's theta series) confirmed to 5.5 × 10⁻¹³, W87's closed form to 7 × 10⁻⁴⁰, about 27 times faster; on the slope-2/11 lines' s = 3, 4 (λ₊ = 1/22) the first correction is 24.9 at Im τ 6 and 0.15 at 24 |

@@ -10289,3 +10289,29 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
 4. **Labelled** neither (a frame census over every census line with an integer-λ kernel, at the cusp).
 
 0 of 19.
+
+## 337. Added 2026-10-29 (UTC): W180 run and recorded — the frozen-norm frame falls short for the six; every D∞ withheld
+
+1. **The order.** The rule (952eb9924) and the script (a1dbd9139) were pushed first. One run followed (1893.9 s, 1568
+   points, exit 0), and its output was committed unread (7f05eb5a0). Then came one labelled post hoc (a1c43b322, output
+   3e18a3b2d) and two disclosed instrument debug runs, code against code.
+2. **The cells** (NOTE, W180; `docs/dossiers/the_weave_2026-10-07/the_integer_lambda_limits.json`).
+   - **H0 failed on all 98 pairs.** The norm's split is exact (to 10⁻¹³⁰ on the integer channels). Its rest ρ_s on
+     the λ = ±½ channels falls as e^{−π Im τ}, not e^{−2π Im τ} as the rule said, and reaches the light features,
+     which sit near 10⁻¹²⁸. So the frozen frame is not the true frame for the six, and per the rule every D∞ is
+     withheld.
+   - **H3 held.** On the two G2 lines ρ_s cancels in D: the frozen D equals the true D at Im τ 64–128 to 10⁻¹³.
+     Their frozen ladder keeps falling, to 6.59 at Y = 4096.
+   - **H1, H2 and H7 held.** The frozen exponents are simple fractions. The agreeing pairs are exactly W179's 62.
+   - **H4 failed.** The limit frame changes the exponents on all 62 agreeing pairs.
+   - **H5 held.** No value lies in the window; the nearest are 11.86 on (0, 2/7) and 6.59 on the G2 lines.
+   - **H6 failed as worded.** The G2 lines' 6.59 is flagged.
+3. **For main.**
+   - W179's G0 is not settled by this arc.
+   - W179's G2 hit stays a height crossing, from the true frame to Im τ 128. That its limit lies below the window is a
+     READING.
+   - The way to settle the integer-λ lines exactly is a frame that keeps ρ_s's leading terms, checked against the true
+     six before any ladder, or the true frame higher up.
+4. **Labelled** neither (a frame census over every census line with an integer-λ kernel, at the cusp).
+
+0 of 19.

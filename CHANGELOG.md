@@ -1,5 +1,16 @@
 # Changelog
 
+## W180 run: the frozen-norm frame falls short for the six; every D∞ withheld (relay §337)
+
+- **The order:** the rule and the script pushed first; one run, its output committed unread; one labelled post hoc,
+  committed before its run, its output committed unread; two disclosed instrument debug runs.
+- **The cells:** H1, H2, H3, H5 and H7 held; H0, H4 and H6 failed as worded. The norm's split is exact, but its rest
+  (e^{−π Im τ} on the half-integer channels, not e^{−2π Im τ} as the rule said) reaches the light features, so the
+  frozen frame is not the true frame for the six and every D∞ is withheld. On the two G2 lines D is unaffected (to
+  10⁻¹³) and the frozen D falls to 6.59 at Y = 4096. No value lies in the data's window.
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/the_integer_lambda_limits.py`, its post hoc and their JSON, NOTE's
+  W180 section and row, `W_VERDICTS.json`, the test, relay §337, the ledger row, the state page. 0 of 19.
+
 ## The Weave Lab: the Ledger Desk's new front page (relay to every seat, §8)
 
 - **The occasion:** the owner asked for a front desk as advanced as a published "paper lab".

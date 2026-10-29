@@ -21535,3 +21535,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   every allowed thread on it, the whole sequence of work as a ring, and the frame's 266 lines, with panels that replay
   the work's history, its convergence checks and its predictions against outcomes.
 - **What it means:** nothing new is claimed. Every picture is drawn from the record, and the record stays at 0 of 19.
+
+## 2026-10-29 — the exact limit, attempted: a shortcut that does not hold
+
+- **What was done:** the planned exact method was run on every line where one term grows steadily. It replaces that
+  term by its straight-line form and drops a remainder too small to matter.
+- **What it found:** the remainder is tiny but not small enough. The lightest masses in this frame are smaller still,
+  so they feel it, and the shortcut does not reproduce the full calculation for them. By the plan written beforehand,
+  no limit is claimed. On the two lines that mattered most the shortcut does agree with the full calculation, and
+  there the ratio keeps falling past the measured value.
+- **What it means:** the earlier close call stays a passing crossing, not a forced value. Settling the exact limits
+  needs a better method, now known. 0 of 19.

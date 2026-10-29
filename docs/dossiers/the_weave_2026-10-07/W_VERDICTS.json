@@ -2,7 +2,7 @@
  "rule": "docs/workdesk/THE_LABELS_RULE_2026-10-29.md",
  "field": "weave_or_thread (main's convention: weave, thread or neither, neither with its reason)",
  "counts": {
-  "copied": 92,
+  "copied": 93,
   "assigned": 82,
   "missing": 0
  },
@@ -30,7 +30,7 @@
    "weave_or_thread": "weave (three parities, permuted with none distinguished only when the moves act together)",
    "source": "assigned",
    "quote": "the claim is about the moves acting together on every thread",
-   "note_row": "NOTE.md:15242"
+   "note_row": "NOTE.md:15315"
   },
   {
    "id": "W2",
@@ -38,7 +38,7 @@
    "weave_or_thread": "weave (the common point every thread shares)",
    "source": "assigned",
    "quote": "one structure all threads share",
-   "note_row": "NOTE.md:15243"
+   "note_row": "NOTE.md:15316"
   },
   {
    "id": "W3",
@@ -46,7 +46,7 @@
    "weave_or_thread": "weave (the same A4 and 2T on every odd-trace thread)",
    "source": "assigned",
    "quote": "a claim about every odd-trace thread at once",
-   "note_row": "NOTE.md:15244"
+   "note_row": "NOTE.md:15317"
   },
   {
    "id": "W4",
@@ -54,7 +54,7 @@
    "weave_or_thread": "weave (one triplet, the same on every odd-trace thread, under the weave's group)",
    "source": "assigned",
    "quote": "a claim about every odd-trace thread at once",
-   "note_row": "NOTE.md:15245"
+   "note_row": "NOTE.md:15318"
   },
   {
    "id": "W5",
@@ -62,7 +62,7 @@
    "weave_or_thread": "neither (a reading)",
    "source": "assigned",
    "quote": "status READING",
-   "note_row": "NOTE.md:15247"
+   "note_row": "NOTE.md:15320"
   },
   {
    "id": "W6",
@@ -70,7 +70,7 @@
    "weave_or_thread": "weave (Theorem G), with thread results inside (the +LR reading and the census)",
    "source": "assigned",
    "quote": "the row's tags: PROVED (WEAVE); COMPUTED (THREAD)",
-   "note_row": "NOTE.md:15248"
+   "note_row": "NOTE.md:15321"
   },
   {
    "id": "W7",
@@ -78,7 +78,7 @@
    "weave_or_thread": "weave (by rule)",
    "source": "assigned",
    "quote": "the row's tag: COMPUTED (WEAVE, by rule)",
-   "note_row": "NOTE.md:15249"
+   "note_row": "NOTE.md:15322"
   },
   {
    "id": "W8",
@@ -86,7 +86,7 @@
    "weave_or_thread": "weave (Lemma V, with the wave)",
    "source": "assigned",
    "quote": "the row's tag: PROVED (Lemma V, WEAVE + WAVE)",
-   "note_row": "NOTE.md:15250"
+   "note_row": "NOTE.md:15323"
   },
   {
    "id": "W9",
@@ -94,7 +94,7 @@
    "weave_or_thread": "weave",
    "source": "assigned",
    "quote": "the row's tag: COMPUTED (WEAVE, two routes)",
-   "note_row": "NOTE.md:15251"
+   "note_row": "NOTE.md:15324"
   },
   {
    "id": "W10",
@@ -102,7 +102,7 @@
    "weave_or_thread": "weave",
    "source": "assigned",
    "quote": "the row's tag: COMPUTED (WEAVE)",
-   "note_row": "NOTE.md:15252"
+   "note_row": "NOTE.md:15325"
   },
   {
    "id": "W11",
@@ -110,7 +110,7 @@
    "weave_or_thread": "weave (with the wave; sm:B1552 sealed)",
    "source": "assigned",
    "quote": "the row's tag: PROVED (WEAVE + WAVE)",
-   "note_row": "NOTE.md:15253"
+   "note_row": "NOTE.md:15326"
   },
   {
    "id": "W12",
@@ -118,7 +118,7 @@
    "weave_or_thread": "weave (with the wave)",
    "source": "assigned",
    "quote": "the row's tag: PROVED (WEAVE + WAVE)",
-   "note_row": "NOTE.md:15254"
+   "note_row": "NOTE.md:15327"
   },
   {
    "id": "W13",
@@ -126,7 +126,7 @@
    "weave_or_thread": "neither (a check of main's B1434)",
    "source": "assigned",
    "quote": "status VERIFIED: main's B1434 read with this seat's code",
-   "note_row": "NOTE.md:15255"
+   "note_row": "NOTE.md:15328"
   },
   {
    "id": "W14",
@@ -134,7 +134,7 @@
    "weave_or_thread": "thread (F-CI's index on each thread, over a census of every odd-trace thread to length 6)",
    "source": "assigned",
    "quote": "the slope law and the census are each thread's; the arc finds F-CI's content not a weave quantity",
-   "note_row": "NOTE.md:15256"
+   "note_row": "NOTE.md:15329"
   },
   {
    "id": "W15",
@@ -142,7 +142,7 @@
    "weave_or_thread": "weave (Theorem H and the weave's own extension, over a census of 32 states)",
    "source": "assigned",
    "quote": "the hand is the determinant of the weave's triplet on every odd-trace thread",
-   "note_row": "NOTE.md:15257"
+   "note_row": "NOTE.md:15330"
   },
   {
    "id": "W16",
@@ -150,7 +150,7 @@
    "weave_or_thread": "neither (a check of main's B1601 and B1604)",
    "source": "assigned",
    "quote": "status VERIFIED",
-   "note_row": "NOTE.md:15258"
+   "note_row": "NOTE.md:15331"
   },
   {
    "id": "W17",
@@ -158,7 +158,7 @@
    "weave_or_thread": "weave",
    "source": "assigned",
    "quote": "the row's tag: COMPUTED (WEAVE, 32 of 32 states)",
-   "note_row": "NOTE.md:15259"
+   "note_row": "NOTE.md:15332"
   },
   {
    "id": "W18",
@@ -166,7 +166,7 @@
    "weave_or_thread": "weave",
    "source": "assigned",
    "quote": "the row's tag: COMPUTED (WEAVE, 32 states)",
-   "note_row": "NOTE.md:15260"
+   "note_row": "NOTE.md:15333"
   },
   {
    "id": "W19",
@@ -174,7 +174,7 @@
    "weave_or_thread": "neither (a reading; the facts classical)",
    "source": "assigned",
    "quote": "status READING",
-   "note_row": "NOTE.md:15261"
+   "note_row": "NOTE.md:15334"
   },
   {
    "id": "W20",
@@ -182,7 +182,7 @@
    "weave_or_thread": "weave (the weave's own SL(2) and Euler characteristic), a reading for the dictionary",
    "source": "assigned",
    "quote": "three on the weave, zero on every thread",
-   "note_row": "NOTE.md:15262"
+   "note_row": "NOTE.md:15335"
   },
   {
    "id": "W21",
@@ -190,7 +190,7 @@
    "weave_or_thread": "weave (the hand by Hodge type on the shared fibre, under the weave's group)",
    "source": "assigned",
    "quote": "the zero modes for the three parities on the fibre every thread shares",
-   "note_row": "NOTE.md:15263"
+   "note_row": "NOTE.md:15336"
   },
   {
    "id": "W22",
@@ -198,7 +198,7 @@
    "weave_or_thread": "weave",
    "source": "assigned",
    "quote": "the row's tag: PROVED and COMPUTED (WEAVE)",
-   "note_row": "NOTE.md:15264"
+   "note_row": "NOTE.md:15337"
   },
   {
    "id": "W23",
@@ -206,7 +206,7 @@
    "weave_or_thread": "weave (a census)",
    "source": "assigned",
    "quote": "the row's tag: COMPUTED (WEAVE; a census, negative)",
-   "note_row": "NOTE.md:15265"
+   "note_row": "NOTE.md:15338"
   },
   {
    "id": "W24",
@@ -214,7 +214,7 @@
    "weave_or_thread": "weave (a census)",
    "source": "assigned",
    "quote": "the row: a WEAVE census, NEGATIVE",
-   "note_row": "NOTE.md:15266"
+   "note_row": "NOTE.md:15339"
   },
   {
    "id": "W25",
@@ -222,7 +222,7 @@
    "weave_or_thread": "weave (a theorem)",
    "source": "assigned",
    "quote": "the row: a WEAVE theorem",
-   "note_row": "NOTE.md:15267"
+   "note_row": "NOTE.md:15340"
   },
   {
    "id": "W26",
@@ -230,7 +230,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (exact and SnapPy; the rule committed first, every cell as predicted); a WEAVE result, NEGATIVE for the two candidates beyond the weave",
-   "note_row": "NOTE.md:15268"
+   "note_row": "NOTE.md:15341"
   },
   {
    "id": "W27",
@@ -238,7 +238,7 @@
    "weave_or_thread": "weave (given the stated link Λ, an input)",
    "source": "assigned",
    "quote": "STATED (the link Λ, an input) and COMPUTED",
-   "note_row": "NOTE.md:15269"
+   "note_row": "NOTE.md:15342"
   },
   {
    "id": "W28",
@@ -246,7 +246,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED and PROVED (I5, exact; the rule committed first, every cell as predicted); a WEAVE result, the foundation",
-   "note_row": "NOTE.md:15270"
+   "note_row": "NOTE.md:15343"
   },
   {
    "id": "W29",
@@ -254,7 +254,7 @@
    "weave_or_thread": "neither (a chosen object, the ℤ₆ flux, not forced)",
    "source": "assigned",
    "quote": "the arc's own words: the object is chosen, not forced",
-   "note_row": "NOTE.md:15271"
+   "note_row": "NOTE.md:15344"
   },
   {
    "id": "W30",
@@ -262,7 +262,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED and PROVED (Q1, Q2; the rule committed first, every cell as stated); a WEAVE result, NOT FORCED",
-   "note_row": "NOTE.md:15272"
+   "note_row": "NOTE.md:15345"
   },
   {
    "id": "W31",
@@ -270,7 +270,7 @@
    "weave_or_thread": "neither (a weave-type computation on a chosen object, the ℤ₅ flux, not forced)",
    "source": "assigned",
    "quote": "the arc's own words: a weave-type computation on a chosen structure; the object is chosen, not forced",
-   "note_row": "NOTE.md:15273"
+   "note_row": "NOTE.md:15346"
   },
   {
    "id": "W32",
@@ -278,7 +278,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED and PROVED (P1; the rule committed first, every cell as stated); a WEAVE result within F-HE, NEGATIVE",
-   "note_row": "NOTE.md:15274"
+   "note_row": "NOTE.md:15347"
   },
   {
    "id": "W33",
@@ -286,7 +286,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule committed first, every cell as stated, one wording difference disclosed); a WEAVE result within the record's frames, NEGATIVE for the naive law",
-   "note_row": "NOTE.md:15275"
+   "note_row": "NOTE.md:15348"
   },
   {
    "id": "W34",
@@ -294,7 +294,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule committed first; Q2, Q3, Q5 as stated; Q1's sealed criterion missed on 11 states, resolved post hoc); WEAVE results (Q2, Q5) and laws over the threads (Q1, Q3), NEGATIVE for the obs",
-   "note_row": "NOTE.md:15276"
+   "note_row": "NOTE.md:15349"
   },
   {
    "id": "W35",
@@ -302,7 +302,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "VERIFIED (not blind; B1612 read first); main's WEAVE result reproduced",
-   "note_row": "NOTE.md:15277"
+   "note_row": "NOTE.md:15350"
   },
   {
    "id": "W36",
@@ -310,7 +310,7 @@
    "weave_or_thread": "neither (a check of the audit lane's phase, and a reading)",
    "source": "assigned",
    "quote": "status VERIFIED and READING",
-   "note_row": "NOTE.md:15278"
+   "note_row": "NOTE.md:15351"
   },
   {
    "id": "W37",
@@ -318,7 +318,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "VERIFIED (not blind; S92 read first); main's WEAVE results reproduced",
-   "note_row": "NOTE.md:15279"
+   "note_row": "NOTE.md:15352"
   },
   {
    "id": "W38",
@@ -326,7 +326,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "VERIFIED (not blind; S93 and S94 read first); main's WEAVE results reproduced",
-   "note_row": "NOTE.md:15280"
+   "note_row": "NOTE.md:15353"
   },
   {
    "id": "W39",
@@ -334,7 +334,7 @@
    "weave_or_thread": "neither (a reading given Λ)",
    "source": "assigned",
    "quote": "status READING, no new computation",
-   "note_row": "NOTE.md:15281"
+   "note_row": "NOTE.md:15354"
   },
   {
    "id": "W40",
@@ -342,7 +342,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "VERIFIED (not blind; S95 read first); main's WEAVE result reproduced, given τ = ω",
-   "note_row": "NOTE.md:15282"
+   "note_row": "NOTE.md:15355"
   },
   {
    "id": "W41",
@@ -350,7 +350,7 @@
    "weave_or_thread": "weave (the zero modes under all of SL(2, ℤ) at once)",
    "source": "assigned",
    "quote": "the rule: the moves, all of SL(2, ℤ) at once",
-   "note_row": "NOTE.md:15283"
+   "note_row": "NOTE.md:15356"
   },
   {
    "id": "W42",
@@ -358,7 +358,7 @@
    "weave_or_thread": "weave (every subgroup of the weave's group, and a census of every thread to length 12)",
    "source": "assigned",
    "quote": "the rule: Part A weave-type, Part B weave-type as a census; with a check of main's B1620",
-   "note_row": "NOTE.md:15285"
+   "note_row": "NOTE.md:15358"
   },
   {
    "id": "W43",
@@ -366,7 +366,7 @@
    "weave_or_thread": "weave (every subgroup of each frame's group, none chosen)",
    "source": "assigned",
    "quote": "the rule: every residual, none chosen",
-   "note_row": "NOTE.md:15286"
+   "note_row": "NOTE.md:15359"
   },
   {
    "id": "W44",
@@ -374,7 +374,7 @@
    "weave_or_thread": "weave (every residual pair in each frame, none chosen)",
    "source": "assigned",
    "quote": "the rule: every residual pair, none chosen",
-   "note_row": "NOTE.md:15287"
+   "note_row": "NOTE.md:15360"
   },
   {
    "id": "W45",
@@ -382,7 +382,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; fixes in review before it, disclosed); a WEAVE result given Λ, NEGATIVE for GENESIS FK11 in its canonical reading",
-   "note_row": "NOTE.md:15288"
+   "note_row": "NOTE.md:15361"
   },
   {
    "id": "W46",
@@ -390,7 +390,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result given Λ",
-   "note_row": "NOTE.md:15289"
+   "note_row": "NOTE.md:15362"
   },
   {
    "id": "W47",
@@ -398,7 +398,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; a check's scope fixed in review, disclosed); a WEAVE result given Λ, NEGATIVE for a forcing",
-   "note_row": "NOTE.md:15290"
+   "note_row": "NOTE.md:15363"
   },
   {
    "id": "W48",
@@ -406,7 +406,7 @@
    "weave_or_thread": "weave (the weave's own surface), conditional on a dictionary beyond Λ",
    "source": "assigned",
    "quote": "the rule: the weave's own surface, read by every move at once",
-   "note_row": "NOTE.md:15291"
+   "note_row": "NOTE.md:15364"
   },
   {
    "id": "W49",
@@ -414,7 +414,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result; a post-hoc READING for W50",
-   "note_row": "NOTE.md:15292"
+   "note_row": "NOTE.md:15365"
   },
   {
    "id": "W50",
@@ -422,7 +422,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first, corrected before the run; one run; every cell as predicted); a WEAVE result on the ruled branch",
-   "note_row": "NOTE.md:15293"
+   "note_row": "NOTE.md:15366"
   },
   {
    "id": "W51",
@@ -430,7 +430,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result",
-   "note_row": "NOTE.md:15294"
+   "note_row": "NOTE.md:15367"
   },
   {
    "id": "W52",
@@ -438,7 +438,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; C1 and C4 as predicted; C2 and C3 failed as worded, explained post hoc 128 of 128); a WEAVE result given Λ",
-   "note_row": "NOTE.md:15295"
+   "note_row": "NOTE.md:15368"
   },
   {
    "id": "W53",
@@ -446,7 +446,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule and its data first; one run; F2, F3 and F4 went the way their priors leaned; M0(e) and F1 failed as worded; post hoc P1 to P4); a WEAVE result given Λ",
-   "note_row": "NOTE.md:15296"
+   "note_row": "NOTE.md:15369"
   },
   {
    "id": "W54",
@@ -454,7 +454,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; H0 and H2 as predicted; H1 and H3 failed as worded, both explained post hoc); a WEAVE result given Λ",
-   "note_row": "NOTE.md:15297"
+   "note_row": "NOTE.md:15370"
   },
   {
    "id": "W55",
@@ -462,7 +462,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result given Λ",
-   "note_row": "NOTE.md:15298"
+   "note_row": "NOTE.md:15371"
   },
   {
    "id": "W56",
@@ -470,7 +470,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result given Λ",
-   "note_row": "NOTE.md:15299"
+   "note_row": "NOTE.md:15372"
   },
   {
    "id": "W57",
@@ -478,7 +478,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; T4 as predicted; T1–T3 failed as worded, explained post hoc); a WEAVE result given Λ",
-   "note_row": "NOTE.md:15300"
+   "note_row": "NOTE.md:15373"
   },
   {
    "id": "W58",
@@ -486,7 +486,7 @@
    "weave_or_thread": "neither (a check of an outside preprint; K1 and K2 on the weave's T)",
    "source": "assigned",
    "quote": "an outside claim checked",
-   "note_row": "NOTE.md:15301"
+   "note_row": "NOTE.md:15374"
   },
   {
    "id": "W59",
@@ -494,7 +494,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first, what was worked by hand disclosed; one run; K1, K2, K3, K5 as predicted; K4 failed as worded, checked post hoc); a WEAVE result given Λ, sector by sector",
-   "note_row": "NOTE.md:15302"
+   "note_row": "NOTE.md:15375"
   },
   {
    "id": "W60",
@@ -502,7 +502,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; P2–P4 as predicted; P1 failed as worded, a 0/0, re-scored post hoc); a WEAVE result given Λ at τ = ω",
-   "note_row": "NOTE.md:15303"
+   "note_row": "NOTE.md:15376"
   },
   {
    "id": "W61",
@@ -510,7 +510,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first, the hand derivation disclosed; one run; every cell as predicted); a WEAVE result given Λ at W60's state",
-   "note_row": "NOTE.md:15304"
+   "note_row": "NOTE.md:15377"
   },
   {
    "id": "W62",
@@ -518,7 +518,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; A1 failed as worded at one sample point, the rest as predicted; a post hoc labelled); a WEAVE result given Λ, per sector",
-   "note_row": "NOTE.md:15305"
+   "note_row": "NOTE.md:15378"
   },
   {
    "id": "W63",
@@ -526,7 +526,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; V1 failed as worded on its branch clause, disclosed before the run; the rest as predicted); a WEAVE result given Λ and B1644's hypothesis",
-   "note_row": "NOTE.md:15306"
+   "note_row": "NOTE.md:15379"
   },
   {
    "id": "W64",
@@ -534,7 +534,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; K1, K3, K6, K7 as predicted; K2, K4, K5 failed as worded on one instrument error, the θ₂ branch, re-scored post hoc as predicted); a WEAVE result given Λ and the sta",
-   "note_row": "NOTE.md:15307"
+   "note_row": "NOTE.md:15380"
   },
   {
    "id": "W65",
@@ -542,7 +542,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run after one disclosed failed launch; all six cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's coupling; H-sec)",
-   "note_row": "NOTE.md:15308"
+   "note_row": "NOTE.md:15381"
   },
   {
    "id": "W66",
@@ -550,7 +550,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; all three cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's form; H-sec; H-pair)",
-   "note_row": "NOTE.md:15309"
+   "note_row": "NOTE.md:15382"
   },
   {
    "id": "W67",
@@ -558,7 +558,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; F2 as predicted; F1 and F3 failed as worded on R′ alone, checked in a labelled post hoc); a WEAVE result given Λ and the stated hypotheses (H-sec; H-pot)",
-   "note_row": "NOTE.md:15310"
+   "note_row": "NOTE.md:15383"
   },
   {
    "id": "W68",
@@ -566,7 +566,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first, corrected before any code; one run; all four cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's form; H-sec; H-pair′)",
-   "note_row": "NOTE.md:15311"
+   "note_row": "NOTE.md:15384"
   },
   {
    "id": "W69",
@@ -574,7 +574,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; all three cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's form; H-sec; H-pair′)",
-   "note_row": "NOTE.md:15312"
+   "note_row": "NOTE.md:15385"
   },
   {
    "id": "W70",
@@ -582,7 +582,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run, held for P024; all five cells as predicted; exact); a WEAVE result given the audit lane's registered E₈ embedding, H-charge and Λ",
-   "note_row": "NOTE.md:15313"
+   "note_row": "NOTE.md:15386"
   },
   {
    "id": "W71",
@@ -590,7 +590,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run after one failed launch; all five cells as predicted; exact, with a numerical second route); a WEAVE result given the audit lane's embedding and parent, and Λ",
-   "note_row": "NOTE.md:15314"
+   "note_row": "NOTE.md:15387"
   },
   {
    "id": "W72",
@@ -598,7 +598,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run after one failed launch; X1 and X4 as predicted; X2, X3 and X5 failed as worded on instruments, confirmed by two labelled post hocs); a WEAVE result given Λ, B1644's ",
-   "note_row": "NOTE.md:15315"
+   "note_row": "NOTE.md:15388"
   },
   {
    "id": "W73",
@@ -606,7 +606,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; all four cells as predicted); post hoc in its choice of H-end; a WEAVE result given Λ, B1644's coupling, the surface frame with GENESIS FK10's unit, H-surf and H-end",
-   "note_row": "NOTE.md:15316"
+   "note_row": "NOTE.md:15389"
   },
   {
    "id": "W74",
@@ -614,7 +614,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; all three cells as predicted; exact where stated); a WEAVE result given Λ, B1644's coupling, the surface frame with GENESIS FK10's unit, and H-surf",
-   "note_row": "NOTE.md:15317"
+   "note_row": "NOTE.md:15390"
   },
   {
    "id": "W75",
@@ -622,7 +622,7 @@
    "weave_or_thread": "weave (U1, a census of every thread under a stated rule), U2 to U4 fibre-level",
    "source": "assigned",
    "quote": "the row: U1 a weave-type census, U2 to U4 fibre-level",
-   "note_row": "NOTE.md:15318"
+   "note_row": "NOTE.md:15391"
   },
   {
    "id": "W76",
@@ -630,7 +630,7 @@
    "weave_or_thread": "weave (a census of thread quantities under a stated rule)",
    "source": "assigned",
    "quote": "the row's own words",
-   "note_row": "NOTE.md:15319"
+   "note_row": "NOTE.md:15392"
   },
   {
    "id": "W77",
@@ -638,7 +638,7 @@
    "weave_or_thread": "neither (a review of another seat's analytic estimate)",
    "source": "W77_RULE.md:18",
    "quote": "Neither: a review of another seat's analytic estimate. The operator is the lane's, on its supplied semi-flat cusp metric, with zero scalar background, either extreme puncture law and the flat retained",
-   "note_row": "NOTE.md:15320"
+   "note_row": "NOTE.md:15393"
   },
   {
    "id": "W78",
@@ -646,7 +646,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first, one disclosed correction before code; one run; N0, N3, N4 as predicted; N1, N2 FAILED as worded; a labelled post hoc); a WEAVE result on the ruled branch, given Λ",
-   "note_row": "NOTE.md:15321"
+   "note_row": "NOTE.md:15394"
   },
   {
    "id": "W79",
@@ -654,7 +654,7 @@
    "weave_or_thread": "neither (a comparison of two seats' instruments for the same ansatz (one τ, holomorphic couplings, T ⊗ T))",
    "source": "W79_RULE.md:18",
    "quote": "Neither: a comparison of two seats' instruments for the same ansatz (one τ, holomorphic couplings, T ⊗ T).",
-   "note_row": "NOTE.md:15322"
+   "note_row": "NOTE.md:15395"
   },
   {
    "id": "W80",
@@ -662,7 +662,7 @@
    "weave_or_thread": "weave (on the ruled branch, given Λ, under main's ansatz), a test of main's B1637",
    "source": "assigned",
    "quote": "the rule: as B1637 and W78, a WEAVE result on the ruled branch",
-   "note_row": "NOTE.md:15323"
+   "note_row": "NOTE.md:15396"
   },
   {
    "id": "W81",
@@ -670,7 +670,7 @@
    "weave_or_thread": "neither (a check of the audit lane's character)",
    "source": "assigned",
    "quote": "the row's own words",
-   "note_row": "NOTE.md:15324"
+   "note_row": "NOTE.md:15397"
   },
   {
    "id": "W82",
@@ -678,7 +678,7 @@
    "weave_or_thread": "neither (two checks for main's frame tribunal)",
    "source": "assigned",
    "quote": "the row's own words",
-   "note_row": "NOTE.md:15325"
+   "note_row": "NOTE.md:15398"
   },
   {
    "id": "W83",
@@ -686,7 +686,7 @@
    "weave_or_thread": "neither (an answer to a tribunal item, in the audit lane's frame)",
    "source": "assigned",
    "quote": "the row's own words",
-   "note_row": "NOTE.md:15326"
+   "note_row": "NOTE.md:15399"
   },
   {
    "id": "W84",
@@ -694,7 +694,7 @@
    "weave_or_thread": "thread (one thread at a time, read under chat1's H-thread, which is a hypothesis)",
    "source": "W84_RULE.md:16",
    "quote": "THREAD results, one thread at a time, read under chat1's H-thread, which is a hypothesis.",
-   "note_row": "NOTE.md:15327"
+   "note_row": "NOTE.md:15400"
   },
   {
    "id": "W85",
@@ -702,7 +702,7 @@
    "weave_or_thread": "weave (as B1651: the zero modes are the weave's T on the fibre every thread shares, and the moves are the weave's L and R)",
    "source": "W85_RULE.md:17",
    "quote": "Weave-type, as B1651: the zero modes are the weave's T on the fibre every thread shares, and the moves are the weave's L and R. The check reads one τ at a time, at random τ, and the claims are identit",
-   "note_row": "NOTE.md:15328"
+   "note_row": "NOTE.md:15401"
   },
   {
    "id": "W86",
@@ -710,7 +710,7 @@
    "weave_or_thread": "neither (a check of chat1's whole branch; each item keeps its own label)",
    "source": "assigned",
    "quote": "the arc's own words",
-   "note_row": "NOTE.md:15329"
+   "note_row": "NOTE.md:15402"
   },
   {
    "id": "W87",
@@ -718,7 +718,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first, its exploration disclosed; one run; every cell as predicted); a WEAVE result given Λ, P1 and P2, at main's suggestion",
-   "note_row": "NOTE.md:15330"
+   "note_row": "NOTE.md:15403"
   },
   {
    "id": "W88",
@@ -726,7 +726,7 @@
    "weave_or_thread": "neither (a scoreboard of relations against the data, mixed by relation)",
    "source": "assigned",
    "quote": "the arc's own words: mixed, by relation, each labelled",
-   "note_row": "NOTE.md:15331"
+   "note_row": "NOTE.md:15404"
   },
   {
    "id": "W89",
@@ -734,7 +734,7 @@
    "weave_or_thread": "weave (as B1656: the fibre every thread shares at τ = ω, W59's lines, and the three sectors jointly)",
    "source": "NOTE.md:7547",
    "quote": "Weave-type, as B1656: the fibre every thread shares at τ = ω, W59's lines, and the three sectors jointly. It is given Λ, the dictionary's hypercharges, B1654's premises with four channels, and B1653's",
-   "note_row": "NOTE.md:15332"
+   "note_row": "NOTE.md:15405"
   },
   {
    "id": "W90",
@@ -742,7 +742,7 @@
    "weave_or_thread": "weave (every sector jointly under one rule, the shared Higgs's defect defined by the joint coupling, and a claim about all sectors at once)",
    "source": "NOTE.md:7602",
    "quote": "Weave-type: every sector jointly under one rule, the shared Higgs's defect defined by the joint coupling, and a claim about all sectors at once. It is given Λ, the dictionary's sectors and the rule's ",
-   "note_row": "NOTE.md:15333"
+   "note_row": "NOTE.md:15406"
   },
   {
    "id": "W91",
@@ -750,15 +750,15 @@
    "weave_or_thread": "weave",
    "source": "W91_RULE.md:15",
    "quote": "Weave-type objects. Sections over the whole modular curve, for every characteristic pair. Which thread carries them is chat1's design.",
-   "note_row": "NOTE.md:15334"
+   "note_row": "NOTE.md:15407"
   },
   {
    "id": "W92",
    "verdict": "COMPUTED",
    "weave_or_thread": "weave (sections over each line's stabiliser curve, for every line of order N and every charge, none picked)",
-   "source": "NOTE.md:14627",
+   "source": "NOTE.md:14700",
    "quote": "Weave-type objects: sections over each line's stabiliser curve, for every line of order N and every charge, none picked. Which threads carry them is chat1's design.",
-   "note_row": "NOTE.md:15335"
+   "note_row": "NOTE.md:15408"
   },
   {
    "id": "W93",
@@ -766,7 +766,7 @@
    "weave_or_thread": "neither (a fibre-frame result at one τ, a frozen piece, as main's B1658)",
    "source": "assigned",
    "quote": "the arc's own words",
-   "note_row": "NOTE.md:15336"
+   "note_row": "NOTE.md:15409"
   },
   {
    "id": "W94",
@@ -774,7 +774,7 @@
    "weave_or_thread": "neither (a fibre-frame result at one τ, a frozen piece)",
    "source": "assigned",
    "quote": "the arc's own words",
-   "note_row": "NOTE.md:15337"
+   "note_row": "NOTE.md:15410"
   },
   {
    "id": "W95",
@@ -782,7 +782,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; a failed first launch preserved; one run; V1–V3, V7 as predicted; V4–V6, V8 failed as worded; a labelled post hoc); a WEAVE result in a supplied frame",
-   "note_row": "NOTE.md:15425"
+   "note_row": "NOTE.md:15499"
   },
   {
    "id": "W96",
@@ -790,7 +790,7 @@
    "weave_or_thread": "neither (identities of one frame, and a frozen piece at ω, as main's B1659)",
    "source": "assigned",
    "quote": "the arc's own words",
-   "note_row": "NOTE.md:15338"
+   "note_row": "NOTE.md:15411"
   },
   {
    "id": "W97",
@@ -798,7 +798,7 @@
    "weave_or_thread": "thread (a thread-frame result on each thread of a stated set, T-low)",
    "source": "assigned",
    "quote": "the arc's own words",
-   "note_row": "NOTE.md:15339"
+   "note_row": "NOTE.md:15412"
   },
   {
    "id": "W98",
@@ -806,7 +806,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; T1, T3, T4, T6 as predicted; T2, T5 failed as worded at the instrument's precision limit, t ≥ 30); a WEAVE result in a supplied frame",
-   "note_row": "NOTE.md:15424"
+   "note_row": "NOTE.md:15498"
   },
   {
    "id": "W99",
@@ -814,15 +814,15 @@
    "weave_or_thread": "neither (a paper read; its two proofs are weave statements)",
    "source": "assigned",
    "quote": "the arc's own words: the read itself is neither",
-   "note_row": "NOTE.md:15423"
+   "note_row": "NOTE.md:15497"
   },
   {
    "id": "W100",
    "verdict": "COMPUTED",
    "weave_or_thread": "neither (a property of the shared fibre, the punctured torus that every thread carries, at two supplied values of τ)",
-   "source": "NOTE.md:14112",
+   "source": "NOTE.md:14185",
    "quote": "Neither: a property of the shared fibre, the punctured torus that every thread carries, at two supplied values of τ. It is a replication of main's B1667, not a census of threads.",
-   "note_row": "NOTE.md:15422"
+   "note_row": "NOTE.md:15496"
   },
   {
    "id": "W101",
@@ -830,7 +830,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; C0, A1, A2, A3a, A3c as predicted; C1 failed as worded by an instrument defect, its purpose met post hoc; A4 failed as stated; A3b post hoc); a WEAVE result",
-   "note_row": "NOTE.md:15420"
+   "note_row": "NOTE.md:15494"
   },
   {
    "id": "W107",
@@ -838,7 +838,7 @@
    "weave_or_thread": "weave",
    "source": "assigned",
    "quote": "the rule: a WEAVE question",
-   "note_row": "NOTE.md:15417"
+   "note_row": "NOTE.md:15491"
   },
   {
    "id": "W108",
@@ -846,7 +846,7 @@
    "weave_or_thread": "weave (about the forms)",
    "source": "assigned",
    "quote": "the rule: a WEAVE question about the forms",
-   "note_row": "NOTE.md:15416"
+   "note_row": "NOTE.md:15490"
   },
   {
    "id": "W109",
@@ -854,7 +854,7 @@
    "weave_or_thread": "weave (every transvection of every n ≥ 3 records)",
    "source": "assigned",
    "quote": "main's B1677 for every n, by hand",
-   "note_row": "NOTE.md:15415"
+   "note_row": "NOTE.md:15489"
   },
   {
    "id": "W110",
@@ -862,7 +862,7 @@
    "weave_or_thread": "weave (every transvection of every n ≥ 3 records, on the word side)",
    "source": "assigned",
    "quote": "a claim about every class of F_n",
-   "note_row": "NOTE.md:15414"
+   "note_row": "NOTE.md:15488"
   },
   {
    "id": "W111",
@@ -870,7 +870,7 @@
    "weave_or_thread": "weave (every mapping class at every genus)",
    "source": "assigned",
    "quote": "the surface route, by hand",
-   "note_row": "NOTE.md:15413"
+   "note_row": "NOTE.md:15487"
   },
   {
    "id": "W112",
@@ -878,7 +878,7 @@
    "weave_or_thread": "weave (given Λ and W69's hypotheses)",
    "source": "assigned",
    "quote": "the row: a WEAVE-type result given Λ and W69's hypotheses",
-   "note_row": "NOTE.md:15412"
+   "note_row": "NOTE.md:15486"
   },
   {
    "id": "W113",
@@ -886,7 +886,7 @@
    "weave_or_thread": "weave (given the frame below)",
    "source": "W113_RULE.md:17",
    "quote": "WEAVE-type, given the frame below. 1. Every assignment. Every quark hand (s_Q, s_u, s_d) ∈ {±1}³ (W101's eight), every coupling weight, and every coupling in the whole space its representation allows.",
-   "note_row": "NOTE.md:15411"
+   "note_row": "NOTE.md:15485"
   },
   {
    "id": "W114",
@@ -894,7 +894,7 @@
    "weave_or_thread": "weave (given the frame)",
    "source": "W114_RULE.md:18",
    "quote": "WEAVE-type, given the frame. All sixteen viable tuned assignments up to weight 7 are taken, with none hand-picked. Every coupling on each tuned variety and in each automatic space is allowed. The clai",
-   "note_row": "NOTE.md:15410"
+   "note_row": "NOTE.md:15484"
   },
   {
    "id": "W115",
@@ -902,7 +902,7 @@
    "weave_or_thread": "weave (given the frame)",
    "source": "W115_RULE.md:16",
    "quote": "WEAVE-type, given the frame.",
-   "note_row": "NOTE.md:15409"
+   "note_row": "NOTE.md:15483"
   },
   {
    "id": "W116",
@@ -910,7 +910,7 @@
    "weave_or_thread": "thread",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; S4 failed, the other cells as predicted); a census of thread results",
-   "note_row": "NOTE.md:15408"
+   "note_row": "NOTE.md:15482"
   },
   {
    "id": "W117",
@@ -918,7 +918,7 @@
    "weave_or_thread": "thread",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; every cell as predicted); a census of thread results with weave functionals",
-   "note_row": "NOTE.md:15407"
+   "note_row": "NOTE.md:15481"
   },
   {
    "id": "W118",
@@ -926,7 +926,7 @@
    "weave_or_thread": "weave (given Λ (GENESIS FK11) and the stated hypotheses (B1644's form, H-sec, H-pair′, H-comp))",
    "source": "W118_RULE.md:90",
    "quote": "WEAVE-type, given Λ (GENESIS FK11) and the stated hypotheses (B1644's form, H-sec, H-pair′, H-comp).",
-   "note_row": "NOTE.md:15406"
+   "note_row": "NOTE.md:15480"
   },
   {
    "id": "W119",
@@ -934,7 +934,7 @@
    "weave_or_thread": "weave (given the frames)",
    "source": "W119_RULE.md:64",
    "quote": "WEAVE-type, given the frames.",
-   "note_row": "NOTE.md:15405"
+   "note_row": "NOTE.md:15479"
   },
   {
    "id": "W120",
@@ -942,15 +942,15 @@
    "weave_or_thread": "thread",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; seven cells as predicted; A3 and A4 failed as worded on SnapPy's notation, traced post hoc and labelled; A4's intended claim holds post hoc); family-wide (A1, A2), a",
-   "note_row": "NOTE.md:15404"
+   "note_row": "NOTE.md:15478"
   },
   {
    "id": "W121",
    "verdict": "COMPUTED",
    "weave_or_thread": "weave",
-   "source": "NOTE.md:12649",
+   "source": "NOTE.md:12722",
    "quote": "WEAVE-type. The quantities come from the moves' joint action (the monodromy group, the metaplectic abelianization, T's representation of the whole modular group). The claims are about every closed tor",
-   "note_row": "NOTE.md:15403"
+   "note_row": "NOTE.md:15477"
   },
   {
    "id": "W122",
@@ -958,15 +958,15 @@
    "weave_or_thread": "thread",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; every cell as predicted); a census of thread results",
-   "note_row": "NOTE.md:15402"
+   "note_row": "NOTE.md:15476"
   },
   {
    "id": "W123",
    "verdict": "COMPUTED",
    "weave_or_thread": "weave (as W45 and W46: the moves' joint representation, every per-line end datum in the box at the weave's own cusp, and claims about the weave's surface)",
-   "source": "NOTE.md:12542",
+   "source": "NOTE.md:12615",
    "quote": "WEAVE-type, as W45 and W46: the moves' joint representation, every per-line end datum in the box at the weave's own cusp, and claims about the weave's surface.",
-   "note_row": "NOTE.md:15401"
+   "note_row": "NOTE.md:15475"
   },
   {
    "id": "W124",
@@ -974,7 +974,7 @@
    "weave_or_thread": "thread",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; G2 failed as worded on the constant mode's geodesic tail, which the rule's tolerance missed; G5's read-out biased and replaced post hoc by a positivity bound, found ",
-   "note_row": "NOTE.md:15400"
+   "note_row": "NOTE.md:15474"
   },
   {
    "id": "W125",
@@ -982,7 +982,7 @@
    "weave_or_thread": "thread",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; K0–K3 held; K4 failed as worded on the cut's small-Q terms, and the remainder converges post hoc: successive differences halve, ratios 1.81–2.18, all carried by Q ≤ ",
-   "note_row": "NOTE.md:15399"
+   "note_row": "NOTE.md:15473"
   },
   {
    "id": "W126",
@@ -990,15 +990,15 @@
    "weave_or_thread": "thread",
    "source": "status row",
    "quote": "COMPUTED (the rule first, corrected before the script; two launches killed for memory, logs kept unread; the third ran; every cell held); thread results",
-   "note_row": "NOTE.md:15398"
+   "note_row": "NOTE.md:15472"
   },
   {
    "id": "W127",
    "verdict": "COMPUTED",
    "weave_or_thread": "weave (as W45 to W47: the weave's own surface, every allowed twist and puncture condition, and n in a box)",
-   "source": "NOTE.md:12180",
+   "source": "NOTE.md:12253",
    "quote": "WEAVE-type, as W45 to W47: the weave's own surface, every allowed twist and puncture condition, and n in a box. The joint quantity is the field twisted by all six characters. The per-datum minima are ",
-   "note_row": "NOTE.md:15397"
+   "note_row": "NOTE.md:15471"
   },
   {
    "id": "W128",
@@ -1006,7 +1006,7 @@
    "weave_or_thread": "weave (C0, C2 and C4), C1 the Standard Model's group theory, C3 a reading",
    "source": "assigned",
    "quote": "the row's own words",
-   "note_row": "NOTE.md:15396"
+   "note_row": "NOTE.md:15470"
   },
   {
    "id": "W129",
@@ -1014,87 +1014,87 @@
    "weave_or_thread": "neither (a reading across W127, W128 and the record)",
    "source": "assigned",
    "quote": "status READING",
-   "note_row": "NOTE.md:15395"
+   "note_row": "NOTE.md:15469"
   },
   {
    "id": "W130",
    "verdict": "COMPUTED",
    "weave_or_thread": "weave (the shared fibre at every τ, every forced flat datum, and every image under the moves to length 6)",
-   "source": "NOTE.md:11959",
+   "source": "NOTE.md:12032",
    "quote": "WEAVE-type: the shared fibre at every τ, every forced flat datum, and every image under the moves to length 6.",
-   "note_row": "NOTE.md:15394"
+   "note_row": "NOTE.md:15468"
   },
   {
    "id": "W131",
    "verdict": "COMPUTED",
    "weave_or_thread": "weave (the shared fibre at three τ, all three parity blocks, the forced field and its conjugate and square root, and the coupling to all three at once)",
-   "source": "NOTE.md:11886",
+   "source": "NOTE.md:11959",
    "quote": "WEAVE-type: the shared fibre at three τ, all three parity blocks, the forced field and its conjugate and square root, and the coupling to all three at once.",
-   "note_row": "NOTE.md:15393"
+   "note_row": "NOTE.md:15467"
   },
   {
    "id": "W132",
    "verdict": "COMPUTED",
    "weave_or_thread": "weave (the whole group the moves generate, every one of B1674's 64 sign assignments, every allowed twist, and the copies n = 1 to 8)",
-   "source": "NOTE.md:11836",
+   "source": "NOTE.md:11909",
    "quote": "WEAVE-type: the whole group the moves generate, every one of B1674's 64 sign assignments, every allowed twist, and the copies n = 1 to 8.",
-   "note_row": "NOTE.md:15392"
+   "note_row": "NOTE.md:15466"
   },
   {
    "id": "W133",
    "verdict": "COMPUTED",
    "weave_or_thread": "weave (the weave's own surface, every allowed twist, end data n ∈ {0, 1}, the moves' joint representation, and claims about every section at once)",
-   "source": "NOTE.md:11767",
+   "source": "NOTE.md:11840",
    "quote": "WEAVE-type: the weave's own surface, every allowed twist, end data n ∈ {0, 1}, the moves' joint representation, and claims about every section at once.",
-   "note_row": "NOTE.md:15391"
+   "note_row": "NOTE.md:15465"
   },
   {
    "id": "W134",
    "verdict": "COMPUTED",
    "weave_or_thread": "weave (the weave's own surface, the whole triplet in the family slot, every allowed twist, all four conditions, and every datum |m| ≤ 24)",
-   "source": "NOTE.md:11658",
+   "source": "NOTE.md:11731",
    "quote": "WEAVE-type: the weave's own surface, the whole triplet in the family slot, every allowed twist, all four conditions, and every datum |m| ≤ 24.",
-   "note_row": "NOTE.md:15390"
+   "note_row": "NOTE.md:15464"
   },
   {
    "id": "W135",
    "verdict": "COMPUTED",
    "weave_or_thread": "weave (E₈, E₆ and A₂ from the moves shared by every thread)",
-   "source": "NOTE.md:11590",
+   "source": "NOTE.md:11663",
    "quote": "WEAVE-type: E₈, E₆ and A₂ from the moves shared by every thread; the weave's surface; the whole triplet; every allowed twist and admissible datum; the full 27.",
-   "note_row": "NOTE.md:15389"
+   "note_row": "NOTE.md:15463"
   },
   {
    "id": "W136",
    "verdict": "COMPUTED",
    "weave_or_thread": "weave (the moves' joint representation, every irrep of the joint family group, every even weight to 24, all three det-1 twists, and claims about every coupling at once)",
-   "source": "NOTE.md:11511",
+   "source": "NOTE.md:11584",
    "quote": "WEAVE-type: the moves' joint representation, every irrep of the joint family group, every even weight to 24, all three det-1 twists, and claims about every coupling at once.",
-   "note_row": "NOTE.md:15388"
+   "note_row": "NOTE.md:15462"
   },
   {
    "id": "W137",
    "verdict": "COMPUTED",
    "weave_or_thread": "weave (the joint frame (E₆ from the moves, the families' Γ₄), every det-1 twist and admissible datum, and claims about every coupling, constant and vev at once)",
-   "source": "NOTE.md:11423",
+   "source": "NOTE.md:11496",
    "quote": "WEAVE-type: the joint frame (E₆ from the moves, the families' Γ₄), every det-1 twist and admissible datum, and claims about every coupling, constant and vev at once.",
-   "note_row": "NOTE.md:15387"
+   "note_row": "NOTE.md:15461"
   },
   {
    "id": "W138",
    "verdict": "COMPUTED",
    "weave_or_thread": "neither (a check of main's census of one frame (B1656's coupling on the shared fibre))",
-   "source": "NOTE.md:11350",
+   "source": "NOTE.md:11423",
    "quote": "Neither: a check of main's census of one frame (B1656's coupling on the shared fibre). The census takes every flat line of order ≤ 12 with none hand-picked.",
-   "note_row": "NOTE.md:15386"
+   "note_row": "NOTE.md:15460"
   },
   {
    "id": "W139",
    "verdict": "COMPUTED",
    "weave_or_thread": "weave (as W137, and conditional on W135's frame (E₆ from the moves))",
-   "source": "NOTE.md:11286",
+   "source": "NOTE.md:11359",
    "quote": "WEAVE-type, as W137, and conditional on W135's frame (E₆ from the moves). It covers all three families, every symmetric λ and every vev of the 27s that keeps colour and charge, and its claims are abou",
-   "note_row": "NOTE.md:15385"
+   "note_row": "NOTE.md:15459"
   },
   {
    "id": "W140",
@@ -1102,39 +1102,39 @@
    "weave_or_thread": "weave (C1, every move at once), with a census of thread objects (C2 to C4)",
    "source": "assigned",
    "quote": "the row: C1 WEAVE",
-   "note_row": "NOTE.md:15384"
+   "note_row": "NOTE.md:15458"
   },
   {
    "id": "W141",
    "verdict": "COMPUTED",
    "weave_or_thread": "neither (a check of main's census of one frame (B1656's coupling on the shared fibre) at the threads' own points)",
-   "source": "NOTE.md:11155",
+   "source": "NOTE.md:11228",
    "quote": "Neither: a check of main's census of one frame (B1656's coupling on the shared fibre) at the threads' own points. The census takes every B1720 class with order-5 or order-10 lines, with none hand-pick",
-   "note_row": "NOTE.md:15383"
+   "note_row": "NOTE.md:15457"
   },
   {
    "id": "W142",
    "verdict": "COMPUTED",
    "weave_or_thread": "neither (a check and an audit of main's census of one frame, with τ on B1726's grid)",
-   "source": "NOTE.md:11065",
+   "source": "NOTE.md:11138",
    "quote": "Neither: a check and an audit of main's census of one frame, with τ on B1726's grid.",
-   "note_row": "NOTE.md:15382"
+   "note_row": "NOTE.md:15456"
   },
   {
    "id": "W143",
    "verdict": "COMPUTED",
    "weave_or_thread": "weave (as W133: the weave's own surface, every allowed twist, end data n ∈ {0, 1}, the moves' joint representation, and claims about every zero-free section at once)",
-   "source": "NOTE.md:10981",
+   "source": "NOTE.md:11054",
    "quote": "WEAVE-type, as W133: the weave's own surface, every allowed twist, end data n ∈ {0, 1}, the moves' joint representation, and claims about every zero-free section at once.",
-   "note_row": "NOTE.md:15381"
+   "note_row": "NOTE.md:15455"
   },
   {
    "id": "W144",
    "verdict": "COMPUTED",
    "weave_or_thread": "neither (a proof review of another seat's checkpoints)",
-   "source": "NOTE.md:10915",
+   "source": "NOTE.md:10988",
    "quote": "Neither, strictly: a proof review of another seat's checkpoints. Part A acts with the whole lifted group of the moves; parts B to D sit on one fixed fibre, the lane's stated scope; part E is group the",
-   "note_row": "NOTE.md:15380"
+   "note_row": "NOTE.md:15454"
   },
   {
    "id": "W145",
@@ -1142,31 +1142,31 @@
    "weave_or_thread": "thread",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; every cell as predicted except A2, failed as worded and diagnosed post hoc as a tie between mirror points); a thread result",
-   "note_row": "NOTE.md:15379"
+   "note_row": "NOTE.md:15453"
   },
   {
    "id": "W146",
    "verdict": "COMPUTED",
    "weave_or_thread": "weave (the quantity is the moves' joint representation ρ on the Higgs, and the claims are about every holomorphic and antiholomorphic Higgs section at once)",
-   "source": "NOTE.md:10714",
+   "source": "NOTE.md:10787",
    "quote": "WEAVE-type: the quantity is the moves' joint representation ρ on the Higgs, and the claims are about every holomorphic and antiholomorphic Higgs section at once. L1–L3 check another seat's lemmas, and",
-   "note_row": "NOTE.md:15378"
+   "note_row": "NOTE.md:15452"
   },
   {
    "id": "W147",
    "verdict": "COMPUTED",
    "weave_or_thread": "weave (for P0–P2 and P3's first half: every admissible space and pair, the moves' joint action, and claims about all pairs at once)",
-   "source": "NOTE.md:10554",
+   "source": "NOTE.md:10627",
    "quote": "WEAVE-type for P0–P2 and P3's first half: every admissible space and pair, the moves' joint action, and claims about all pairs at once. P3's line count is a census of thread objects, every line with n",
-   "note_row": "NOTE.md:15376"
+   "note_row": "NOTE.md:15450"
   },
   {
    "id": "W148",
    "verdict": "COMPUTED",
    "weave_or_thread": "neither (a review of another seat's algebra at one fixed state)",
-   "source": "NOTE.md:10616",
+   "source": "NOTE.md:10689",
    "quote": "Neither: a review of another seat's algebra at one fixed state.",
-   "note_row": "NOTE.md:15377"
+   "note_row": "NOTE.md:15451"
   },
   {
    "id": "W149",
@@ -1174,7 +1174,7 @@
    "weave_or_thread": "weave (for C1, C3 and C4)",
    "source": "W149_RULE.md:31",
    "quote": "WEAVE-type for C1, C3 and C4. Their objects are the joint family group's action, every section of ρ ⊗ χ, and every coefficient pair. C2 is about R, one object of the joint frame (the family group's we",
-   "note_row": "NOTE.md:15374"
+   "note_row": "NOTE.md:15448"
   },
   {
    "id": "W150",
@@ -1182,7 +1182,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run; five cells as predicted, H6 failed as worded on a phrase flagged before the run); a mechanism census, not a weave result",
-   "note_row": "NOTE.md:15373"
+   "note_row": "NOTE.md:15447"
   },
   {
    "id": "W151",
@@ -1190,7 +1190,7 @@
    "weave_or_thread": "weave (the lemma, Q3, for every pair of sections)",
    "source": "assigned",
    "quote": "the rule: the lemma (Q3) is weave-type",
-   "note_row": "NOTE.md:15372"
+   "note_row": "NOTE.md:15446"
   },
   {
    "id": "W152",
@@ -1198,7 +1198,7 @@
    "weave_or_thread": "weave (K2 and K3, the moves' group on the common point's qubit)",
    "source": "assigned",
    "quote": "the row: K2 and K3 weave-type",
-   "note_row": "NOTE.md:15371"
+   "note_row": "NOTE.md:15445"
   },
   {
    "id": "W153",
@@ -1206,7 +1206,7 @@
    "weave_or_thread": "weave",
    "source": "assigned",
    "quote": "the row: L1 to L4 weave-type, every cell",
-   "note_row": "NOTE.md:15368"
+   "note_row": "NOTE.md:15442"
   },
   {
    "id": "W154",
@@ -1214,7 +1214,7 @@
    "weave_or_thread": "weave",
    "source": "assigned",
    "quote": "the row: C0 to C3 weave-type, every cell",
-   "note_row": "NOTE.md:15367"
+   "note_row": "NOTE.md:15441"
   },
   {
    "id": "W155",
@@ -1222,7 +1222,7 @@
    "weave_or_thread": "weave",
    "source": "assigned",
    "quote": "the row: H0 to H3 weave-type, every cell",
-   "note_row": "NOTE.md:15366"
+   "note_row": "NOTE.md:15440"
   },
   {
    "id": "W156",
@@ -1230,7 +1230,7 @@
    "weave_or_thread": "neither (a check of main's B1749)",
    "source": "assigned",
    "quote": "the arc's own words: a check of main's census",
-   "note_row": "NOTE.md:15364"
+   "note_row": "NOTE.md:15438"
   },
   {
    "id": "W157",
@@ -1238,7 +1238,7 @@
    "weave_or_thread": "neither (a check of main's B1753)",
    "source": "assigned",
    "quote": "the arc's own words: a check of main's census",
-   "note_row": "NOTE.md:15362"
+   "note_row": "NOTE.md:15436"
   },
   {
    "id": "W158",
@@ -1246,7 +1246,7 @@
    "weave_or_thread": "neither (a frame result at the six's strip)",
    "source": "assigned",
    "quote": "the arc's own words",
-   "note_row": "NOTE.md:15361"
+   "note_row": "NOTE.md:15435"
   },
   {
    "id": "W159",
@@ -1254,7 +1254,7 @@
    "weave_or_thread": "neither (a frame result at the six's strip)",
    "source": "assigned",
    "quote": "the arc's own words",
-   "note_row": "NOTE.md:15360"
+   "note_row": "NOTE.md:15434"
   },
   {
    "id": "W160",
@@ -1262,7 +1262,7 @@
    "weave_or_thread": "neither (a frame result, data-free)",
    "source": "assigned",
    "quote": "the arc's own words",
-   "note_row": "NOTE.md:15359"
+   "note_row": "NOTE.md:15433"
   },
   {
    "id": "W161",
@@ -1270,7 +1270,7 @@
    "weave_or_thread": "thread (one line class, four points and ten recipes chosen by their author)",
    "source": "assigned",
    "quote": "the arc's own words: a thread-and-frame result; with a check of the agy branch's B1762",
-   "note_row": "NOTE.md:15358"
+   "note_row": "NOTE.md:15432"
   },
   {
    "id": "W162",
@@ -1278,7 +1278,7 @@
    "weave_or_thread": "neither (a frame result on stated lines and a stated grid)",
    "source": "assigned",
    "quote": "the arc's own words",
-   "note_row": "NOTE.md:15357"
+   "note_row": "NOTE.md:15431"
   },
   {
    "id": "W163",
@@ -1286,7 +1286,7 @@
    "weave_or_thread": "neither (a check of main's B1755)",
    "source": "assigned",
    "quote": "the arc's own words: a check of main's census",
-   "note_row": "NOTE.md:15356"
+   "note_row": "NOTE.md:15430"
   },
   {
    "id": "W164",
@@ -1294,7 +1294,7 @@
    "weave_or_thread": "neither (a check of main's B1786)",
    "source": "assigned",
    "quote": "the arc's own words: a check of main's census",
-   "note_row": "NOTE.md:15355"
+   "note_row": "NOTE.md:15429"
   },
   {
    "id": "W165",
@@ -1302,7 +1302,7 @@
    "weave_or_thread": "neither (a check of main's B1792)",
    "source": "assigned",
    "quote": "the arc's own words: a check of main's census",
-   "note_row": "NOTE.md:15354"
+   "note_row": "NOTE.md:15428"
   },
   {
    "id": "W166",
@@ -1310,7 +1310,7 @@
    "weave_or_thread": "thread (one line class, 38 rows the data chose, fitted numbers)",
    "source": "assigned",
    "quote": "the arc's own words: a thread-and-frame result",
-   "note_row": "NOTE.md:15353"
+   "note_row": "NOTE.md:15427"
   },
   {
    "id": "W167",
@@ -1318,7 +1318,7 @@
    "weave_or_thread": "neither (a frame result; the potential weave-type)",
    "source": "assigned",
    "quote": "the arc's own words",
-   "note_row": "NOTE.md:15352"
+   "note_row": "NOTE.md:15426"
   },
   {
    "id": "W168",
@@ -1326,7 +1326,7 @@
    "weave_or_thread": "neither (a check of chat1's P-323)",
    "source": "assigned",
    "quote": "the arc's own words: a third opinion",
-   "note_row": "NOTE.md:15351"
+   "note_row": "NOTE.md:15425"
   },
   {
    "id": "W169",
@@ -1334,7 +1334,7 @@
    "weave_or_thread": "neither (a frame result at a counted line; the potential weave-type)",
    "source": "assigned",
    "quote": "the arc's own words",
-   "note_row": "NOTE.md:15350"
+   "note_row": "NOTE.md:15424"
   },
   {
    "id": "W170",
@@ -1342,7 +1342,7 @@
    "weave_or_thread": "neither (a frame result: the potential's own state, given counted choices)",
    "source": "assigned",
    "quote": "the arc's own words",
-   "note_row": "NOTE.md:15349"
+   "note_row": "NOTE.md:15423"
   },
   {
    "id": "W171",
@@ -1350,7 +1350,7 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run after one failed launch; K0, K1, K3 and K4 as predicted; K2 failed as worded on two instrument slips, holds post hoc); a weave result given the counted order",
-   "note_row": "NOTE.md:15348"
+   "note_row": "NOTE.md:15422"
   },
   {
    "id": "W172",
@@ -1358,7 +1358,7 @@
    "weave_or_thread": "neither (a frame result at a counted line; the mirror lemma for every content)",
    "source": "assigned",
    "quote": "the arc's own words",
-   "note_row": "NOTE.md:15347"
+   "note_row": "NOTE.md:15421"
   },
   {
    "id": "W173",
@@ -1366,7 +1366,7 @@
    "weave_or_thread": "thread (a thread-and-frame look at data-chosen rows)",
    "source": "assigned",
    "quote": "the arc's own words",
-   "note_row": "NOTE.md:15346"
+   "note_row": "NOTE.md:15420"
   },
   {
    "id": "W174",
@@ -1374,7 +1374,7 @@
    "weave_or_thread": "neither (a frame census over every census line and every forced pattern on record)",
    "source": "assigned",
    "quote": "the arc's own words",
-   "note_row": "NOTE.md:15345"
+   "note_row": "NOTE.md:15419"
   },
   {
    "id": "W175",
@@ -1382,7 +1382,7 @@
    "weave_or_thread": "neither (a frame result on stated classes; the potential weave-type)",
    "source": "assigned",
    "quote": "the arc's own words",
-   "note_row": "NOTE.md:15344"
+   "note_row": "NOTE.md:15418"
   },
   {
    "id": "W176",
@@ -1390,31 +1390,39 @@
    "weave_or_thread": "weave",
    "source": "status row",
    "quote": "COMPUTED (the rule first; one run after one stopped launch, disclosed; K0 and K1 as predicted; K2, K3 and K4 failed as worded; a locus-tolerance slip disclosed; one labelled post hoc); a weave result ",
-   "note_row": "NOTE.md:15343"
+   "note_row": "NOTE.md:15417"
   },
   {
    "id": "W177",
    "verdict": "COMPUTED",
    "weave_or_thread": "neither (an instrument)",
-   "source": "NOTE.md:8032",
+   "source": "NOTE.md:8105",
    "quote": "neither (an instrument). The quantity is the frame's kernel norm on the shared fibre, at every τ and every shift. It is a closed form for what W89 computes, not a claim about threads or the weave's jo",
-   "note_row": "NOTE.md:15342"
+   "note_row": "NOTE.md:15416"
   },
   {
    "id": "W178",
    "verdict": "COMPUTED",
    "weave_or_thread": "neither (a frame census over every census line at the cusp)",
-   "source": "NOTE.md:7944",
+   "source": "NOTE.md:8017",
    "quote": "neither (a frame census over every census line at the cusp). The frame is B1656's, as in W174. The lines are all 266, none picked.",
-   "note_row": "NOTE.md:15341"
+   "note_row": "NOTE.md:15415"
   },
   {
    "id": "W179",
    "verdict": "COMPUTED",
    "weave_or_thread": "neither (a frame census over every census line at the points the principle marks)",
-   "source": "NOTE.md:7800",
+   "source": "NOTE.md:7873",
    "quote": "neither (a frame census over every census line at the points the principle marks). The frame is B1656's; the lines are all 266, none picked. The weave's own answer on the split stays W140's, D ≡ 1.",
-   "note_row": "NOTE.md:15340"
+   "note_row": "NOTE.md:15414"
+  },
+  {
+   "id": "W180",
+   "verdict": "COMPUTED",
+   "weave_or_thread": "neither (a frame census over every census line with an integer-λ kernel, at the cusp)",
+   "source": "NOTE.md:7794",
+   "quote": "neither (a frame census over every census line with an integer-λ kernel, at the cusp). The frame is B1656's; the lines are the frame's whole class, none picked. The weave's own answer on the split sta",
+   "note_row": "NOTE.md:15413"
   }
  ]
 }

@@ -5678,3 +5678,45 @@ def test_w179_the_down_lepton_factor():
         assert not 10.25 <= coef[0] <= 10.91
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W179. The down–lepton factor at the points the principle marks" in note
+
+
+def test_w180_the_integer_lambda_limits():
+    """W180: H1, H2, H3, H5 and H7 as predicted, H0, H4 and H6 failed as worded; in process, the G2 lines' frozen D
+    ladder, the powers of Y read to their nearest half, and post hoc 1's diagnosis (the norm's split exact, its rest on
+    the half-integer channels near e^{-pi Im tau}, W178 reproducing its stored six, the frozen frame not)"""
+    import math
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_integer_lambda_limits.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"H0": False, "H1": True, "H2": True, "H3": True, "H4": False, "H5": True, "H6": False,
+                          "H7": True}
+    assert d["tasks"] == 1568 and d["failed tasks"] == [] and d["warnings"] == [] and "run_failed" not in d
+    assert d["pairs"] == {"lines": 49, "pairs": 98}
+    assert len(d["H0"]["misses"]) == 98 and d["H1"]["features"] == 588 and not d["H1"]["misses"]
+    assert not d["H2"]["misses"] and len(d["H4"]["misses"]) == 62 and not d["H5"]["hits"]
+    assert max(r[5] for r in d["H3"]["rows (line, x, Y, ln D frozen, ln D true, |difference|)"]) < 1e-12
+    assert d["H7"]["agreeing pairs"] == d["H7"]["W179 finite pairs on integer-lambda lines"] == 62
+    devs = []
+    for r in d["per pair"]:
+        for p in r.get("power of Y per feature (1024 to 4096)") or []:
+            if p is not None:
+                assert p[1] in (0.0, 0.5, 1.0)
+                devs.append(abs(p[0] - p[1]))
+        if r["line"] in (["1/2", "1/5"], ["1/2", "3/10"]):
+            lad = [math.exp(r["ln (r2, r1, D) at Im tau 64 per Y"][k][2]) for k in
+                   ("48.0", "64.0", "96.0", "128.0", "256.0", "1024.0", "4096.0")]
+            assert all(a > b for a, b in zip(lad, lad[1:])) and abs(lad[0] - 10.4075) < 1e-4
+            assert abs(lad[-1] - 6.5878) < 1e-4 and r["H4"] == ["limit-frame exponents differ"]
+    assert max(devs) < 0.04
+    p = json.loads((here / "the_integer_lambda_limits_posthoc.json").read_text(encoding="utf-8"))
+    for r in p["per pair"]:
+        assert r["six: W178 point now"] == r["six: stored W178"] and r["six: frozen F(48, 48)"] != r["six: stored W178"]
+        for c in r["channels"]:
+            if c[2] == "theta-zero":
+                continue
+            lam, diff = float(c[2]), abs(float(c[5]))
+            if abs(lam - round(lam)) < 1e-12:
+                assert diff < 1e-120
+            else:
+                assert abs(abs(lam) - 0.5) < 1e-12 and 1e-67 < diff < 1e-63
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W180. The cusp limits on the integer-λ lines" in note
