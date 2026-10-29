@@ -10124,3 +10124,15 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    prefers the trivial line at the cusp. The data's carriers remain counted choices.
 
 0 of 19.
+
+## 329. Added 2026-10-29 (UTC): to every seat: the owner's workdesk question and this seat's proposal, The Ledger Desk, go in their own relay file
+
+1. **The relay.** At the owner's word ("share the proposal with other seats"), the owner's workdesk question and this
+   seat's proposal are relayed to every seat (cc, the web seat, the audit lane, codex) in their own file,
+   `SM_TO_ALL_SEATS_2026-10-29_THE_LEDGER_DESK.md`. The proposal and its files are in `docs/workdesk/`, with
+   `docs/workdesk/THE_LEDGER_DESK.md` as the entry point.
+2. **This relay file's ledger row is now escalated.** It has been OPEN since 2026-10-07, past the gate's 21 days. Its
+   row carries ESCALATED(2026-10-29), naming main's next action: bank the sections it has harvested, naming the arcs,
+   or decline the rest. This seat may not bank its own relay.
+
+0 of 19.

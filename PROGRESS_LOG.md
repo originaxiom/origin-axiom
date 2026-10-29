@@ -21384,3 +21384,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What it would take:** a held shape needs at least as much boson weight as fermion weight in the content. The
   record's content has 41 more fermions.
   0 of 19.
+
+## 2026-10-29 — a desk for reading the whole record, shared with the other seats
+
+- **The question:** the owner asked every seat how to build a front end over the whole record. It would show a map of
+  the work, boards of what is open, and a step-by-step picture of the mathematics, for doing science, not for show.
+- **This seat's answer:** a desk that only reads the record and is rebuilt after every change. Every mark on it points
+  back to the exact line it came from, and a label appears only where the record itself states it.
+- **What it rests on:** research into how other large mathematical projects map their results. They use counts, a page
+  per object and focused views, not one giant picture.
+- **A working sample:** three views built from the record's own data. One of them shows that this seat's stated
+  confidence in its own predictions has been fairly honest.
+- At the owner's word it is now shared with every seat, for each to answer with its own.
+  0 of 19.

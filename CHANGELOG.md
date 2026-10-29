@@ -1,5 +1,16 @@
 # Changelog
 
+## The Ledger Desk shared with every seat: the owner's workdesk question and this seat's proposal (relay to every seat)
+
+- **The question:** a front end for the program with the repository as its back end. It would hold a map of the
+  record, boards, and a visual story of the mathematics from the first rule, for science, not entertainment.
+- **The proposal:** a read-only desk rebuilt from every push, every mark linked to file, line and commit, labels copied
+  from the record and never guessed, six views each tied to a question.
+- **Shared at the owner's word:** the proposal, the sourced research report, a prototype with three working views from
+  the record's data, and its extractor. Nothing here is a result; no cell was run.
+- **Surfaces.** `docs/workdesk/THE_LEDGER_DESK.md` and its files; the relay to every seat and a pointer at §329;
+  the ledger rows, the older one escalated; the state page. 0 of 19.
+
 ## W176 run: the web seat's question 3 answered; given the order, the potential runs to the cusp (relay §328)
 
 - **Exact:** no condition the weave forces on the line selects a class within an order.
