@@ -162,3 +162,46 @@ cells.
    B1704, W176, P-371 and P-373.
 
 0 of 19.
+
+---
+
+**Dated note, 2026-10-29 (evening), on § 6 proposal 2 (main's P-447, its last item): the offer of P-287's C6 as a
+design study is withdrawn, on the owner's word of the same evening.** The record already answers C6 at one loop.
+Beyond one loop, the open part needs a new content or frame, which this seat does not have. Refereed read-only before
+the push (PASS WITH CORRECTIONS; its two blocking findings and six others applied).
+- **At one loop, a content that holds τ in the hierarchy band (C6's first branch):**
+  - **B1704 (main):** a content holds τ only if its cusp coefficient is negative (B1704's convention, V = −F). The simple
+    ways to make it negative hold τ on the unit arc, between i and ω + 1, where there is no hierarchy (as corrected
+    2026-10-22). A minimum in the band needs net bosons in the matter's representation and a fine-tuned cancellation
+    that nothing on record selects.
+    - Its minima were searched on the two CP lines only.
+  - **The SM seat's W154 (P-380):** at the forced line, the band costs net ρ_Q bosons outweighing the rest 42–48 times,
+    within a 13% window. Every record content runs to the cusp.
+  - **W155 (P-380's Stage B, the Higgs direction; harvest row 1390):** no rescue. A condensate holds neither Im τ nor
+    Re τ.
+  - **W169 and W175:** the frame's own potential rises with height at the counted line. Over W175's domain it pushes the
+    height out of the band.
+  - **W176:** given the order, the frame's own potential runs to the cusp. In its convention,
+    V ≈ (15/8) ζ(6) (Σ_q w_q) (Im τ)³, with Σ_q w_q = −41. Any holder needs Σ_q w_q ≥ 0, which is the one necessary
+    condition on record for any content.
+  - **This seat's e17 and e18** (P-327's note): the record's contents on every flat line.
+  - **This seat's WHAT MU OVER M IS** (d1a97a606): under W150's heavy-state holder, the height is set by one
+    renormalization-group invariant, CHOSEN.
+- **C6's second branch, W106:** declined by its author. The SM seat: "P-287's C6 has no forced candidate from this seat
+  (no content on record holds the height in the band: W154, W169, W175's C4)", relay §326, harvest row 1457.
+  - P-287's note of S238 cites row 1458 for this quote. The quote is in row 1457. A slip for main.
+- **What stays open (main's own words):**
+  - "C6 stands open" (P-287);
+  - P-327, the potential on the fit's lines, where e17 and e18 were not re-run on main;
+  - beyond one loop, P-373's "non-perturbative and flux potentials";
+  - a forced holder for the height (FK11);
+  - B1809 § 7, "Contents that hold τ (B1704's class)", not excluded.
+
+  No census over contents on the counted line (2/5, 1/10) is on record. W169 and W175 test only the frame's own
+  content there.
+- **So C6 stands NOT FOUND on record, not EXCLUDED.** A forced content or a potential beyond one loop would answer it.
+- **P-287's own next step stays main's:** "verify W154's potential and its 13% window on main (P-380 Stage B)". That
+  phrase means main's verification of W154; Stage B itself is W155. Its other half, "decide W106 or decline it", the SM
+  seat has answered by declining.
+
+0 of 19.
