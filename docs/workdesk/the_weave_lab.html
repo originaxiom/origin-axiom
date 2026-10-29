@@ -512,14 +512,18 @@ function drawVal() {
   g.strokeStyle = C.bright; g.beginPath(); cv.forEach((v, i) => { const x = 1 + i / (cv.length - 1) * (w - 2); i ? g.lineTo(x, ly(v)) : g.moveTo(x, ly(v)); }); g.stroke();
   g.fillStyle = C.bright; g.fillText(`${cv.length} lines · worst ${cv[cv.length - 1].toExponential(1)}`, 6, y0 + 11);
   /* 2: W179's D ladder on (1/2, 1/5) */
-  [y0, hh] = frame(1, "W179 · D on (1/2, 1/5) by Im τ · band: data 3σ");
-  const W1 = LAB.w179, lad = W1.ladder.filter(p => p[0] >= 12), xs = y => 4 + (Math.log(y) - Math.log(12)) / (Math.log(128) - Math.log(12)) * (w - 60);
+  [y0, hh] = frame(1, "W179–W180 · D on (1/2, 1/5) by Im τ · band: data 3σ");
+  const W1 = LAB.w179, lad = W1.ladder.filter(p => p[0] >= 12), fz = (W1["w180 frozen ladder"] || []).filter(p => p[0] >= 128);
+  const yTop = fz.length ? 4096 : 128, xs = y => 4 + (Math.log(y) - Math.log(12)) / (Math.log(yTop) - Math.log(12)) * (w - 60);
   const dy = v => y0 + hh - (Math.log(v) - Math.log(5)) / (Math.log(40) - Math.log(5)) * hh;
   g.fillStyle = "rgba(212,138,140,0.22)"; g.fillRect(1, dy(W1.window[1]), w - 2, Math.max(1, dy(W1.window[0]) - dy(W1.window[1])));
   g.strokeStyle = C.dim; g.setLineDash([2, 3]); g.beginPath(); g.moveTo(1, dy(W1.fit[0])); g.lineTo(w - 1, dy(W1.fit[0])); g.stroke(); g.setLineDash([]);
   g.fillStyle = C.dim; g.fillText(`fit's limit ${W1.fit[0].toFixed(2)}`, w - 92, dy(W1.fit[0]) - 3);
   g.strokeStyle = C.bright; g.beginPath(); lad.forEach((p, i) => i ? g.lineTo(xs(p[0]), dy(p[1])) : g.moveTo(xs(p[0]), dy(p[1]))); g.stroke();
-  lad.forEach(p => { g.fillStyle = p[0] > 48 ? C.amber : C.bright; g.fillRect(xs(p[0]) - 2, dy(p[1]) - 2, 4, 4); g.fillStyle = C.dim; g.fillText(p[0], xs(p[0]) - 4, y0 + hh - 2); });
+  lad.forEach(p => { g.fillStyle = p[0] > 48 ? C.amber : C.bright; g.fillRect(xs(p[0]) - 2, dy(p[1]) - 2, 4, 4); if (p[0] % 32 === 0 || p[0] === 12) { g.fillStyle = C.dim; g.fillText(p[0], xs(p[0]) - 4, y0 + hh - 2); } });
+  if (fz.length) { g.strokeStyle = C.steel; g.setLineDash([3, 3]); g.beginPath(); fz.forEach((p, i) => i ? g.lineTo(xs(p[0]), dy(p[1])) : g.moveTo(xs(p[0]), dy(p[1]))); g.stroke(); g.setLineDash([]);
+    fz.forEach(p => { g.fillStyle = C.steel; g.fillRect(xs(p[0]) - 1.5, dy(p[1]) - 1.5, 3, 3); }); g.fillStyle = C.dim; g.fillText("4096", xs(4096) - 22, y0 + hh - 2);
+    g.fillStyle = C.steel; g.fillText(`W180 frozen ladder → ${fz[fz.length - 1][1].toFixed(2)} at Y 4096 (D∞ withheld)`, 6, y0 + 22); }
   if (W1["w180 limits"]) { const v = W1["w180 limits"].find(r => r[0][0] === "1/2" && r[0][1] === "1/5"); if (v) { g.fillStyle = C.bright; g.fillText(`W180 exact limit ${v[2].toFixed(4)}`, 6, y0 + 22); } }
   /* 3: calibration */
   [y0, hh] = frame(2, "cells in run order · held share (white) vs mean prior (grey)");
