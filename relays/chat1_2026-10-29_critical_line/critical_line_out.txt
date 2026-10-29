@@ -1,0 +1,110 @@
+THE CRITICAL LINE — one run of the sealed rule (be2d87e30)
+
+M1  the line mu = P(beta)   [N=40, K0=4000 | N=52, K0=8000]
+    beta  -8.00  P = 7.8496759987   (7.8496759987; diff 0.0e+00)
+    beta  -4.00  P = 4.1652244638   (4.1652244638; diff 8.9e-16)
+    beta  -2.00  P = 2.3809408006   (2.3809408006; diff 4.4e-16)
+    beta  -1.00  P = 1.5176630947   (1.5176630947; diff 1.8e-15)
+    beta  -0.50  P = 1.0986122887   (1.0986122887; diff 1.1e-15)
+    beta   0.00  P = 0.6931471806   (0.6931471806; diff 3.3e-16)
+    beta   0.05  P = 0.6536391626   (0.6536391626; diff 1.3e-15)
+    beta   0.10  P = 0.6143676600   (0.6143676600; diff 5.6e-16)
+    beta   0.15  P = 0.5753490803   (0.5753490803; diff 3.3e-16)
+    beta   0.20  P = 0.5366018890   (0.5366018890; diff 6.7e-16)
+    beta   0.25  P = 0.4981470008   (0.4981470008; diff 1.6e-15)
+    beta   0.30  P = 0.4600082738   (0.4600082738; diff 4.4e-16)
+    beta   0.35  P = 0.4222131429   (0.4222131429; diff 2.2e-16)
+    beta   0.40  P = 0.3847934456   (0.3847934456; diff 0.0e+00)
+    beta   0.45  P = 0.3477865178   (0.3477865178; diff 5.0e-16)
+    beta   0.50  P = 0.3112366793   (0.3112366793; diff 5.6e-17)
+    beta   0.55  P = 0.2751972975   (0.2751972975; diff 1.1e-16)
+    beta   0.60  P = 0.2397337415   (0.2397337415; diff 1.1e-16)
+    beta   0.65  P = 0.2049277627   (0.2049277627; diff 5.6e-16)
+    beta   0.70  P = 0.1708842835   (0.1708842835; diff 5.3e-16)
+    beta   0.75  P = 0.1377425219   (0.1377425219; diff 7.2e-16)
+    beta   0.80  P = 0.1056956167   (0.1056956167; diff 1.1e-15)
+    beta   0.85  P = 0.0750289824   (0.0750289824; diff 3.9e-16)
+    beta   0.90  P = 0.0462077914   (0.0462077914; diff 2.8e-16)
+    beta   0.95  P = 0.0201386365   (0.0201386365; diff 4.2e-17)
+    beta   1.00  P = 0.0000000000   (0.0000000000; diff 0.0e+00)
+    beta   0.98  P = 0.0067405313   (0.0067405313; diff 3.1e-17)
+    beta   0.99  P = 0.0029659066   (0.0029659066; diff 2.6e-16)
+
+C1  P(0) - log 2 = 4.44e-16  -> True
+C2  radius at (1, 0) - 1 = -7.51e-12  -> True
+C3  P - B852:  P(0.2) +1.9e-06, P(0.5) -3.3e-06, P(0.8) -4.4e-06  -> True
+C4  -P'(0) = 0.792425  (B1813: 0.7924)  -> True
+
+M2  beta* = 0.3912862189   (P(beta*) = beta*);  A1 (beta* in (0.35, 0.45)): True
+
+M6  -P'(beta) (mean flow time per letter): 0.00: 0.79243, 0.10: 0.78296, 0.20: 0.77210, 0.30: 0.75944, 0.40: 0.74440, 0.50: 0.72609, 0.60: 0.70300, 0.70: 0.67239, 0.80: 0.62830, 0.90: 0.55321, 0.95: 0.48250, 0.99: 0.34961
+    A4 (below 2 log phi = 0.962424 on [0, 1]): True
+    -P(beta)/beta at beta = -8: 0.981209  (1.95% from 2 log phi)  A5: True
+    P(2 log phi) = 0.0143057286; second differences there: {0.02: ['1.75084', '2.54331', '6.85905'], 0.01: ['2.03430', '2.47522', '3.18849'], 0.005: ['2.22106', '2.45979', '2.76024']}  A6 (no kink): False
+
+M3  beta 0.0000 (mu 0.693147, eigenvalue 1.000000000): T(1) 0.91903, T(1.5) 0.38279, T(2) 0.16755, T(3) 0.034584, T(6) 3.92e-04; flow per letter 0.79245  [62 s]
+
+M3  beta 0.1000 (mu 0.614368, eigenvalue 1.000000000): T(1) 0.92100, T(1.5) 0.39613, T(2) 0.18089, T(3) 0.041310, T(6) 6.65e-04; flow per letter 0.78287  [90 s]
+
+M3  beta 0.2000 (mu 0.536602, eigenvalue 1.000000000): T(1) 0.92306, T(1.5) 0.41015, T(2) 0.19533, T(3) 0.049304, T(6) 1.14e-03; flow per letter 0.77210  [120 s]
+
+M3  beta 0.3000 (mu 0.460008, eigenvalue 1.000000000): T(1) 0.92534, T(1.5) 0.42535, T(2) 0.21150, T(3) 0.059169, T(6) 1.96e-03; flow per letter 0.75939  [151 s]
+
+M3  beta 0.3913 (mu 0.391286, eigenvalue 1.000000000): T(1) 0.92759, T(1.5) 0.44048, T(2) 0.22794, T(3) 0.069939, T(6) 3.21e-03; flow per letter 0.74593  [184 s]
+
+M3  beta 0.4000 (mu 0.384793, eigenvalue 1.000000000): T(1) 0.92782, T(1.5) 0.44215, T(2) 0.22990, T(3) 0.071244, T(6) 3.35e-03; flow per letter 0.74436  [217 s]
+
+M3  beta 0.5000 (mu 0.311237, eigenvalue 1.000000000): T(1) 0.93058, T(1.5) 0.46056, T(2) 0.25060, T(3) 0.086121, T(6) 5.82e-03; flow per letter 0.72609  [255 s]
+
+M3  beta 0.6000 (mu 0.239734, eigenvalue 1.000000000): T(1) 0.93351, T(1.5) 0.48101, T(2) 0.27459, T(3) 0.105028, T(6) 1.01e-02; flow per letter 0.70306  [296 s]
+
+M3  beta 0.7000 (mu 0.170884, eigenvalue 1.000000000): T(1) 0.93697, T(1.5) 0.50473, T(2) 0.30321, T(3) 0.129607, T(6) 1.79e-02; flow per letter 0.67240  [343 s]
+
+M3  beta 0.8000 (mu 0.105696, eigenvalue 1.000000000): T(1) 0.94099, T(1.5) 0.53291, T(2) 0.33836, T(3) 0.162596, T(6) 3.24e-02; flow per letter 0.62828  [390 s]
+
+M3  beta 0.9000 (mu 0.046208, eigenvalue 1.000000000): T(1) 0.94603, T(1.5) 0.56918, T(2) 0.38545, T(3) 0.211113, T(6) 6.20e-02; flow per letter 0.55318  [438 s]
+
+M3  beta 0.9500 (mu 0.020139, eigenvalue 1.000000000): T(1) 0.94938, T(1.5) 0.59376, T(2) 0.41828, T(3) 0.247589, T(6) 9.03e-02; flow per letter 0.48265  [486 s]
+
+M3  beta 1.0000 (mu 0.000000, eigenvalue 1.000000000): T(1) 0.95493, T(1.5) 0.63678, T(2) 0.47770, T(3) 0.318610, T(6) 1.59e-01; flow per letter 0.09430  [543 s]
+
+C5  beta = 1 against 3/(pi y) on [1, 6]: max |z| 3.76 over 221 grid points -> False
+C6  beta = 0 against B1813's limit: T(1.5) z -1.86, T(2.0) z -0.97, T(3.0) z -1.70 -> True
+
+M4  monotonicity on [1, 6] (rule: no later bin's density above an earlier bin's by more than 3 SE):
+    beta 0.0000: largest standardised rise +14.05 (bins at 1.88 -> 1.89); largest adjacent +14.05; density mode at y = 1.00
+    beta 0.1000: largest standardised rise +6.98 (bins at 3.84 -> 3.88); largest adjacent +5.81; density mode at y = 1.00
+    beta 0.2000: largest standardised rise +1.63 (bins at 1.88 -> 1.89); largest adjacent +1.63; density mode at y = 1.00
+    beta 0.3000: largest standardised rise -1.57 (bins at 3.38 -> 3.40); largest adjacent -1.57; density mode at y = 1.00
+    beta 0.3913: largest standardised rise -2.91 (bins at 3.88 -> 3.90); largest adjacent -2.91; density mode at y = 1.00
+    beta 0.4000: largest standardised rise -1.36 (bins at 3.88 -> 3.90); largest adjacent -1.36; density mode at y = 1.00
+    beta 0.5000: largest standardised rise -5.43 (bins at 3.88 -> 3.90); largest adjacent -5.43; density mode at y = 1.00
+    beta 0.6000: largest standardised rise -12.55 (bins at 3.88 -> 3.90); largest adjacent -12.55; density mode at y = 1.00
+    beta 0.7000: largest standardised rise -9.72 (bins at 3.88 -> 3.90); largest adjacent -9.72; density mode at y = 1.00
+    beta 0.8000: largest standardised rise -13.45 (bins at 3.92 -> 3.94); largest adjacent -13.45; density mode at y = 1.00
+    beta 0.9000: largest standardised rise -19.69 (bins at 1.98 -> 1.99); largest adjacent -19.69; density mode at y = 1.00
+    beta 0.9500: largest standardised rise -19.19 (bins at 3.66 -> 3.68); largest adjacent -19.19; density mode at y = 1.00
+    beta 1.0000: largest standardised rise -17.61 (bins at 3.96 -> 3.98); largest adjacent -17.61; density mode at y = 1.00
+    A2 (every member monotone on [1, 6]): False
+
+M5  order in beta on [1, 8]: smallest standardised step +7.89 (beta 0.391 -> 0.400 at y = 7.00); A3: True
+
+M6  flow time per letter, sample against -P'(beta):
+    beta 0.0000: sample 0.79245, -P' 0.79243
+    beta 0.1000: sample 0.78287, -P' 0.78296
+    beta 0.2000: sample 0.77210, -P' 0.77210
+    beta 0.3000: sample 0.75939, -P' 0.75944
+    beta 0.3913: sample 0.74593, -P' 0.74583
+    beta 0.4000: sample 0.74436, -P' 0.74440
+    beta 0.5000: sample 0.72609, -P' 0.72609
+    beta 0.6000: sample 0.70306, -P' 0.70300
+    beta 0.7000: sample 0.67240, -P' 0.67239
+    beta 0.8000: sample 0.62828, -P' 0.62830
+    beta 0.9000: sample 0.55318, -P' 0.55321
+    beta 0.9500: sample 0.48265, -P' 0.48250
+    beta 1.0000: sample 0.09430, -P' nan
+
+CONTROLS: C1 holds, C2 holds, C3 holds, C4 holds, C5 FAILS, C6 holds
+CELLS:    A1 holds, A2 fails, A3 holds, A4 holds, A5 holds, A6 fails
+
+[548 s]
