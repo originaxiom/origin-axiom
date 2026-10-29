@@ -1,5 +1,9 @@
 # Changelog
 
+## S246 P-406's PROOF PLAN ADVANCED (2026-10-29)
+
+- The forced-structure theorem's plan (audit/drafts/p406/PLAN.md, a draft for the owner's decision): lemma L1 checked by exact enumeration (the object's symmetries fix only the orbits of i and ω, mirror geodesics, or nothing); L2 complete at all three special points and, from banked results, for the first generation at i (B1654's D(i) ≠ 0 with B1806's selection rule); L7's per-frame count drafted; Part I's labels checked — most 'forced' Standard-Model structure is generic (anomaly cancellation, the ℤ₆ form, ADE), the object-specific forced items few. P-406 and P-431 noted. 0 of 19.
+
 ## S245 B1806 — THE THIRD FIXED POINT, AND A PROXY CORRECTED (2026-10-29)
 
 - **B1806** (P-406's lemma L2 at τ = i; PROVED under B1691's tagged H-cov; data-free): near τ = i a generic covariant section gives no 2–3 hierarchy — at k ≡ 3/2 mod 4 the heavy pair is exactly degenerate at i (m₂/m₃ = 1), at k ≡ 7/2 mod 4 m₂/m₃(i) takes any value in [0, 1] with the free coefficients (closed form at 7/2), and the sections without ∂²R at 15/2 and 23/2 give m₂/m₃ ∝ ∣τ − i∣²; ρ(S) has order 8 and selects a(i)'s eigenline by k mod 4. With B1691 at the cusp and ω, L2 holds at the object's three special points: the residual symmetry fixes which exponents and degeneracies occur, never the scale or the coefficients.

@@ -18069,3 +18069,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - At τ = i the generic covariant section gives no 2–3 hierarchy (a degenerate pair, or a free ratio; ∝ ∣τ − i∣² without ∂²R); B1691's ½ was a proxy for 1, corrected in B1691 and B1697 (E93). 0 of 19.
 - **Landing suite (S245).** 7 845 passed, 68 skipped, 2 failed in 25:36 — B805's two standing attachment locks (P-239).
+
+## 2026-10-29 — S246 P-406's PROOF PLAN ADVANCED
+
+- L1 checked; L2 complete (the first generation at i from banked results); L7 drafted; Part I: most forced structure generic. 0 of 19.
+- **Landing suite (S246).** 7 845 passed, 68 skipped, 2 failed in 0:33:32 — B805's two standing attachment locks (P-239).
