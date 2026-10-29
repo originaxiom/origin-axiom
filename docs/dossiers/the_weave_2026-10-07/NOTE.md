@@ -7726,6 +7726,61 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## Reading: W178's nearest miss is a down–lepton factor near Georgi–Jarlskog's, and the record's forced structures do not supply it (READING; the owner's "do them both", 2026-10-29)
+
+**Why.** W178 closed THE RIDDLE's item 4 on B1656's frame at the cusp. Its nearest miss has a definite shape. This
+reading names the shape and sets it beside what the record has already shown about splitting the down quarks from the
+leptons. It computes nothing new: arithmetic on W178's exact pattern, W174's recorded data-side exponents and the
+record's mass file. W179, under its own rule, tests the one piece left open.
+
+**1. Where the slope-2/5 skeleton misses (arithmetic).**
+- W178's exact cusp pattern on all ten slope-2/5 lines is (3/10, 4/5, 1/5, 11/20, 1/5, 11/20) in units of 2π Im τ.
+  In W160's ε = e^{−0.6π Im τ} that is (1, 8/3) for the up quarks and (2/3, 11/6) for the down quarks and the leptons.
+- At the best height, Im τ ≈ 2.35 (ε ≈ 0.012), the coefficients each ratio needs over its power of ε, from W174's
+  recorded data-side exponents, are:
+
+| ratio | m_u/m_t | m_μ/m_τ | m_e/m_τ | m_c/m_t | m_s/m_b | m_d/m_b |
+| --- | --- | --- | --- | --- | --- | --- |
+| coefficient needed | 0.99 | 1.13 | 0.93 | 0.30 | 0.36 | 3.22 |
+
+- The leptons and m_u/m_t sit on the skeleton. Three ratios need a factor near 3 or 1/3, and the worst, 3.22, is the
+  0.068 beyond ln 3 that W178 reports.
+
+**2. Two of the three are a down–lepton factor (arithmetic on the record's mass file).**
+- The frame forces the down quarks and the leptons to have the same exponents on these lines. So their difference can
+  live only in the coefficients, and it is measured by the two double ratios, in which the hierarchy cancels.
+- From HZ2021 at M_Z (the record's file, the one W174 and W178 read): r₂ = (m_s/m_b)/(m_μ/m_τ) = 0.318 and
+  r₁ = (m_d/m_b)/(m_e/m_τ) = 3.365. Their quotient is the record's D = y_μ y_d/(y_s y_e) = 10.58, the target A2
+  recorded at 10.58 ± 0.11 (Antusch, Hinze and Saad 2026). These ratios change little with the scale.
+- **Georgi and Jarlskog's relations** (SU(5) with a 45: m_μ = 3 m_s, m_d = 3 m_e and m_b = m_τ at unification) give
+  r₂ = 1/3, r₁ = 3 and D = 9.
+- **So the miss is Georgi–Jarlskog-like, not Georgi–Jarlskog.** The data sit near (1/3, 3), but D = 9 lies about
+  14σ from 10.58 ± 0.11, as the record has said since P-094.
+- m_c/m_t's factor of about 1/3 has no counterpart in that pattern.
+
+**3. What the record already forces on the split (cited).**
+- W137: the minimal Clebsch forces M_e = M_d, so D ≡ 1.
+- W139: no vev of the families' 27s splits them; M_l = −(1 ⊗ Jᵀ)M_qᵀ(1 ⊗ J), so D ≡ 1 inside E₆'s 27s.
+- W140: the moves jointly fix only the trivial line, so the weave's joint frame keeps D ≡ 1. Any split needs a line
+  that one thread fixes. Inside E₆ only the five-ality lines keep the tie.
+- The forced-45 reading: no forced 45 exists on record. The 45 is SU(5)'s Georgi–Jarlskog Higgs.
+- W141: in B1656's frame, D ≡ 1 exactly on every order-5 line. Main's D = 9 there is the integer lepton factor c = 3,
+  chosen from a menu, not forced.
+- W58: the level-four preprint's 2/ε = 10.714 is an outside model's number, and its generations are not the record's.
+
+**4. What this leaves open.** Nothing forced at the weave level splits the down quarks from the leptons. The one place
+on record where a split appears without a chosen number is B1656's frame itself, on a line that is not five-ality
+trivial, at a point the principle marks (the cusp, or τ = i). Those are parameter-free numbers per line, and none has
+been read. W179 reads them, rule first.
+
+**Caveats.** The six were read once in W174 and W178; the double ratios here are arithmetic on the same file and the
+recorded A2 target, not a new selection. Near-data random sixes pass W178's menu 15% of the time, and the slope 2/5 is
+itself the data's choice (W162). So this is a reading of the miss's shape, not evidence for a mechanism.
+
+**Weave or thread.** neither (a reading on a frame census). The weave's own answer on the split is W140's: D ≡ 1.
+
+0 of 19.
+
 ## W178. The six's exponents at the cusp, exactly: W174's frame six on every census line up to Im τ = 48, in working precision with W177's norms. W174's S0 is settled, because every resolved line converges. Its S1 stands at the cusp: no cusp pattern passes, and the nearest, every slope-2/5 line's exact (3/10, 4/5, 1/5, 11/20, 1/5, 11/20), misses by 0.068 beyond ln 3. The 54 lines W174 could not test have a mass exactly zero. Every cell as predicted, after one failed launch (`the_six_at_the_cusp.py`; `W178_RULE.md`; `the_six_at_the_cusp_first_launch_failed.txt`)
 
 **Why.** This is the second half of this seat's item 4, at the owner's "all u reccomend". W174's S0 failed: on 46 of
