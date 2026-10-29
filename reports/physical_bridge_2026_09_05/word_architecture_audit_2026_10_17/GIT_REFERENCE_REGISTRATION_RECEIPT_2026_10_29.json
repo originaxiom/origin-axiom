@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-29",
+  "kind": "EXACT_GIT_REFERENCE_REGISTRATION_ONLY",
+  "policy_path": "docs/GIT_REFERENCE_PROVENANCE.json",
+  "policy_before_sha256": "4471714db55cae130705fe8d501e748ccf179461aa5a363ae9153d3d6fa53376",
+  "policy_after_sha256": "7e0c4d5db98823c988ce454082e1c2b835a75b905c2c5d043d180bdc1bf6d04d",
+  "registered_spans": {
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json": 15,
+    "reports/physical_bridge_2026_09_05/relays/RELAY_INVENTORY_2026-10-24.json": 75
+  },
+  "evidence": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+  "historical_timing_certified": false,
+  "captured_inventories_unchanged": true,
+  "gate_code_changed": false,
+  "attribution_baseline_changed": false,
+  "whole_repository_gate_pass_claimed": false,
+  "science_execution": false,
+  "remaining_preflight_repairs": [
+    "path-reference records",
+    "named stale-relay escalation records"
+  ],
+  "note": "Existing bounded-span policy only; quoted Git names are provenance, not attribution. Later capture may establish a literal name but does not reconstruct or certify an earlier branch tip.",
+  "software_controls": {
+    "command": "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 PYTHONDONTWRITEBYTECODE=1 python3 -B -m pytest --noconftest -p no:cacheprovider -q tests/test_governance_provenance_policy.py",
+    "interpreter": "CPython 3.12.1",
+    "result": "46 passed in 22.98s",
+    "exit_code": 0,
+    "scope": "Existing governance-only positive/rejecting fixtures; no P210 science import or execution; repository-wide conftest and plugin autoload disabled."
+  },
+  "p210_39_artifacts_design_environment_and_specification_unchanged": true,
+  "actual_repository_gate_observation": {
+    "command": "python3 -B scripts/gates/gates.py attribution",
+    "intended_scope": "single attribution gate",
+    "actual_scope": "CLI ignores that positional argument and runs aggregate governance checks",
+    "exit_code": 1,
+    "attribution": "PASS",
+    "failed_gates": [
+      "path-refs",
+      "seal-provenance",
+      "relay-debt"
+    ],
+    "historical_seal_failures_preserved": true,
+    "execution_context": "Existing working checkout, including inherited work; not a clean-clone certificate or scientific attempt",
+    "output_capture": "Tool result; aggregate seal-provenance details were truncated. No byte-complete capture claimed for this diagnostic.",
+    "new_scientific_run": false
+  }
+}

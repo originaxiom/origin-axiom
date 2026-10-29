@@ -446,6 +446,1188 @@
           }
         }
       ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+      "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+      "refs": [
+        {
+          "start": 908,
+          "end": 941,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 1083,
+          "end": 1110,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9vdXRzaWRlLWJlbmNo",
+          "commit": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1075,
+            "end": 1171,
+            "abbreviation": "13d2c5b63ba7a3db9ea880016a43d3c688cee954"
+          }
+        },
+        {
+          "start": 1252,
+          "end": 1298,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wYXBlci1yZXZpZXctdmVyaWZpY2F0aW9uLWthejNmNQ==",
+          "commit": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1244,
+            "end": 1359,
+            "abbreviation": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd"
+          }
+        },
+        {
+          "start": 1440,
+          "end": 1475,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 1617,
+          "end": 1663,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 4065,
+          "end": 4111,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 4437,
+          "end": 4483,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 4764,
+          "end": 4810,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 5150,
+          "end": 5196,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 5515,
+          "end": 5561,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 5862,
+          "end": 5908,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 6211,
+          "end": 6257,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 6587,
+          "end": 6633,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 9565,
+          "end": 9611,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 9903,
+          "end": 9949,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        }
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/RELAY_INVENTORY_2026-10-24.json",
+      "sha256": "c30e79f448b44e9b392fe7a2f152cbe40fe2cc6d1bd490d601c8db446ed15550",
+      "refs": [
+        {
+          "start": 1145,
+          "end": 1178,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 1190,
+          "end": 1217,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9vdXRzaWRlLWJlbmNo",
+          "commit": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1075,
+            "end": 1171,
+            "abbreviation": "13d2c5b63ba7a3db9ea880016a43d3c688cee954"
+          }
+        },
+        {
+          "start": 1229,
+          "end": 1275,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wYXBlci1yZXZpZXctdmVyaWZpY2F0aW9uLWthejNmNQ==",
+          "commit": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1244,
+            "end": 1359,
+            "abbreviation": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd"
+          }
+        },
+        {
+          "start": 1287,
+          "end": 1322,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 1758,
+          "end": 1791,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 1803,
+          "end": 1838,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 2240,
+          "end": 2273,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 2285,
+          "end": 2320,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 2710,
+          "end": 2743,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 2755,
+          "end": 2790,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 3191,
+          "end": 3224,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 3236,
+          "end": 3271,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 3680,
+          "end": 3713,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 3725,
+          "end": 3760,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 4171,
+          "end": 4204,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 4216,
+          "end": 4251,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 4670,
+          "end": 4703,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 4715,
+          "end": 4750,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 5168,
+          "end": 5201,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 5213,
+          "end": 5248,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 5670,
+          "end": 5703,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 5715,
+          "end": 5750,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 6169,
+          "end": 6202,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 6214,
+          "end": 6249,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 6659,
+          "end": 6692,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 6704,
+          "end": 6739,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 7153,
+          "end": 7186,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 7198,
+          "end": 7233,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 7640,
+          "end": 7673,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 7685,
+          "end": 7720,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 8146,
+          "end": 8179,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 8191,
+          "end": 8226,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 8644,
+          "end": 8677,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 8689,
+          "end": 8716,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9vdXRzaWRlLWJlbmNo",
+          "commit": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1075,
+            "end": 1171,
+            "abbreviation": "13d2c5b63ba7a3db9ea880016a43d3c688cee954"
+          }
+        },
+        {
+          "start": 8728,
+          "end": 8774,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wYXBlci1yZXZpZXctdmVyaWZpY2F0aW9uLWthejNmNQ==",
+          "commit": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1244,
+            "end": 1359,
+            "abbreviation": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd"
+          }
+        },
+        {
+          "start": 8786,
+          "end": 8821,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 9432,
+          "end": 9465,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9raW5kLWh5cGF0aWEtdWswdnY5",
+          "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 900,
+            "end": 1002,
+            "abbreviation": "6a537f899c9c1882930475144a30ae76aa2966d8"
+          }
+        },
+        {
+          "start": 9477,
+          "end": 9512,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wcm9qZWN0LXRocmVhZC1oY3Rsb3g=",
+          "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1432,
+            "end": 1536,
+            "abbreviation": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+          }
+        },
+        {
+          "start": 23303,
+          "end": 23330,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9vdXRzaWRlLWJlbmNo",
+          "commit": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1075,
+            "end": 1171,
+            "abbreviation": "13d2c5b63ba7a3db9ea880016a43d3c688cee954"
+          }
+        },
+        {
+          "start": 23342,
+          "end": 23388,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wYXBlci1yZXZpZXctdmVyaWZpY2F0aW9uLWthejNmNQ==",
+          "commit": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1244,
+            "end": 1359,
+            "abbreviation": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd"
+          }
+        },
+        {
+          "start": 23604,
+          "end": 23650,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 23820,
+          "end": 23866,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 24035,
+          "end": 24081,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 24250,
+          "end": 24296,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 24465,
+          "end": 24511,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 24690,
+          "end": 24736,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 24909,
+          "end": 24955,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 25135,
+          "end": 25181,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 25355,
+          "end": 25401,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 25582,
+          "end": 25628,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 25802,
+          "end": 25848,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 26022,
+          "end": 26068,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 26257,
+          "end": 26303,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 26481,
+          "end": 26527,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 26711,
+          "end": 26757,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 26958,
+          "end": 27004,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 27186,
+          "end": 27232,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 27435,
+          "end": 27481,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 27671,
+          "end": 27717,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 27914,
+          "end": 27960,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 28142,
+          "end": 28188,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 28363,
+          "end": 28409,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 28575,
+          "end": 28621,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 28803,
+          "end": 28849,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 29036,
+          "end": 29082,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 29262,
+          "end": 29308,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 29492,
+          "end": 29538,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 29727,
+          "end": 29773,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 29933,
+          "end": 29979,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 30153,
+          "end": 30199,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 30365,
+          "end": 30411,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 30648,
+          "end": 30694,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 30923,
+          "end": 30969,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 31204,
+          "end": 31250,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        },
+        {
+          "start": 31481,
+          "end": 31527,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "861816e061a0f02eefeeea7a9f421d75ea9ee28c",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json",
+            "sha256": "56b034f097c28060de152ad6f5e666313bf48cb10ff92d35f6e10de0add54933",
+            "start": 1609,
+            "end": 1724,
+            "abbreviation": "861816e061a0f02eefeeea7a9f421d75ea9ee28c"
+          }
+        }
+      ]
     }
   ]
 }

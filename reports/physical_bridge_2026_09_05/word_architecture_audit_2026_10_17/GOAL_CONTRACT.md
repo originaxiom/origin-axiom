@@ -821,6 +821,28 @@ The byte-preserved [receipt](verification_p210/preflight_2026_10_29/RECEIPT.json
 records exit 2 and unchanged frozen sources. Tests are UNRUN; repair the
 actual metadata before a new preflight, without changing sealed code.
 
+## October 29: author audit and one bounded governance repair
+
+The [author audit](TWO_HEAT_RESPONSES_AUTHOR_AUDIT_2026_10_29.md) explicitly
+re-derives the weighted recurrence and real physical slot sum, and gives
+the unspecialized charge formula before any order-seven alias. It retains
+the order-two/order-three scale exceptions. This remains UNREVIEWED;
+author self-checking is not independent acceptance and no numerical
+prediction or foundational-input removal is recorded.
+
+Existing exact-span provenance policy now registers 90 literal Git-name
+occurrences in two preserved inventories. Their bytes, attribution
+baseline and checking code are unchanged. The existing governance-only
+positive/rejecting fixture suite passed 46 cases; its scope and command
+are recorded in GIT_REFERENCE_REGISTRATION_RECEIPT_2026_10_29.json.
+The frozen P210 specification, 39 artifacts, design and environment still
+match their seals. The attempted single-gate CLI command actually ran
+aggregate governance: attribution passed, aggregate exit 1 preserved
+path-reference, historical seal-provenance and stale-relay failures.
+Citation and stale-relay repairs remain owed before another clean-clone
+preflight; the historical register remains noncompliant. No global-green
+or science-pass claim.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

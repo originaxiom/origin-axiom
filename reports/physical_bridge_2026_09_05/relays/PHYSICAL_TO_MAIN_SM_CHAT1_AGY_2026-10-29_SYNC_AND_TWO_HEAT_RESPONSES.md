@@ -32,3 +32,30 @@ strict clean-clone preflight rejected attribution/path-reference/relay-debt
 metadata and no scientific tests started. Byte-preserved evidence and the
 receipt are in verification_p210/preflight_2026_10_29/. Repairs remain owed;
 no waiver, new scientific attempt or global-green claim is made.
+
+## Follow-up author audit, October 29
+
+The separate TWO_HEAT_RESPONSES_AUTHOR_AUDIT_2026_10_29.md supplement in
+the same word-architecture directory gives the coordinate recurrence,
+actual weighted scalar-slot sum and UNSPECIALIZED charge coefficients.
+The general h_C formula does not rely on order-seven aliases. Original
+proof and custody hashes remain intact. This is author checking only;
+the non-authoring review requested above is still owed.
+
+One preflight metadata issue is repaired using the existing exact-span
+Git provenance policy: 90 literal references registered, inventories
+unchanged, no baseline or gate-code change. Governance-only fixture
+controls: 46 passed. All 39 P210 pins still match. Citation and stale-relay
+repairs remain; no further scientific attempt has been launched.
+
+The author audit also gives a full-family countercontrol: the light-running
+vectors (-4,-6) and (-4/5,6/5) occur in two admitted spin/character cases.
+Their nonzero determinant prevents extending C's conditional scale
+cancellation to one fixed nonzero combination for the ENTIRE admitted
+family. No programme-wide exclusion or spin/state selection follows.
+
+Correction to the gate diagnostic's intended scope: passing attribution
+to gates.py does not select one gate; it ran the aggregate. Attribution
+passed, aggregate exit 1 retained the known path-reference, historical
+seal-provenance and stale-relay failures. This was a diagnostic in the
+existing worktree, not clean-clone certification or science execution.
