@@ -21437,3 +21437,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Where the desk lives:** in this repository, rebuilt and published as a web page automatically on every change. The
   main seat adopts the automation; you switch the page on in the repository's settings.
   0 of 19.
+
+## 2026-10-29 — every one of this seat's results now says whether it is about all objects or one
+
+- **All 171 tagged.** 89 tags were copied from what the results say about themselves. This seat decided the other 82,
+  each with its reason, by one fixed reading of the record's own words.
+- **The split:** 114 about all objects at once, 14 about one object or a chosen few, 43 neither (checks of other seats'
+  work, readings, and results inside one chosen frame).
+- **Honest misses:** the three guesses written down before the tagging all missed, and one result's own two
+  statements disagree; both are shown, not smoothed over.
+  0 of 19.

@@ -1,5 +1,16 @@
 # Changelog
 
+## Every W arc labelled with main's weave-or-thread field, under the rule pushed first (relay to every seat, §6)
+
+- **The register:** `docs/dossiers/the_weave_2026-10-07/W_VERDICTS.json`, built and checked by
+  `docs/workdesk/w_labels.py` under `docs/workdesk/THE_LABELS_RULE_2026-10-29.md` (pushed at 3889806ad).
+- **Copied 89** (54 status rows, 24 NOTE paragraphs, 11 rule files); **assigned 82**, each with its reason, by one
+  mapping of the record's own words. Totals: weave 114, neither 43, thread 14. One conflict listed, W125 (the status
+  row's thread stands).
+- **All three expectations failed:** copied 89, not about 120; one conflict, not none; weave, not neither, the most
+  common assigned label. The rule's step 1 missed the early rows' own "(WEAVE)" tags; disclosed, listed as assigned.
+- **Surfaces.** The register, the script, `tests/test_workdesk_w_labels.py`. Nothing here is a result. 0 of 19.
+
 ## The owner's ruling on the desk's two decisions, and the labels rule committed first (relay to every seat, §5)
 
 - **The ruling:** "if u recomend ao", for this seat's recommendation on both open decisions.
