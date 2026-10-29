@@ -1,0 +1,511 @@
+{
+ "what": "P-418's graded vector, second row: FR-FIB's two-Higgs branch (the web seat's sealed TWO_HIGGS, verified on main as B1742), scored on the six charged-fermion mass ratios. A proposal from the web seat; it assigns nothing. Data-free: no measured number is read to build it.",
+ "as_of_main": "187855d48",
+ "as_of_seat": "27f4782fa",
+ "class": "the entry is typed by hand from the cited sources; scoreboard_check_2.py recomputes from committed files every menu count it can (the ten lines and the 266, the Higgs menu from its stated rule, the pairs, the grid, the horocycles, c's scan, the readings), checks every other typed item by quoting its source, and prints the vector (GENERATED)",
+ "labels": "WORKING_RULES' 2026-10-29 rule, item 4, as amended: FORCED / ADMITTED / CHOSEN for discrete items, FITTED for continuous values set by data; each with scope and evidence. Discrete items selected on the data are 'CHOSEN, on the data'.",
+ "conditions_K": [
+  {
+   "what": "the coupling's covariance under the family group Gamma_4 = S_4 acting by rho'",
+   "type": "symmetry",
+   "source": [
+    "B1736",
+    "B1750"
+   ]
+  },
+  {
+   "what": "the canonical end radius L = L_h(tau)",
+   "type": "canonical construction",
+   "source": [
+    "B1667",
+    "B1809"
+   ]
+  }
+ ],
+ "reach": {
+  "outputs": "the six charged-fermion mass ratios at M_Z",
+  "scope": "FR-FIB's two-Higgs branch: H_u for the up quarks, H_d for the down quarks and the leptons, each a zero-free direction F_a from the menu {F_6, F_-2, F_22}, all read S, c = 3, on the ten lines (2/5, k/10) (the web seat's TWO_HIGGS, rule 0b192e458; B1742 on main's B1740 instrument)",
+  "best_row": {
+   "tau": "0.5625 + 2.6i",
+   "line": "(2/5, 1/10)",
+   "horocycle": "L_2",
+   "pair": "H_u = F_6, H_d = F_22",
+   "reading": "S in every sector",
+   "c": 3,
+   "chi2_six": 1.188,
+   "source": [
+    "B1742"
+   ]
+  },
+  "grade": "a READING (B1742; P-351): the sealed H5 holds (chi2_six 1.19, the first sealed chi2_six cell to hold); with H_d = F_22 on these lines the lepton spectrum is the down spectrum, so with c = 3 the six are four quark ratios (B1742 sec. 3; P-355), fitted by 0.15% of random four-target sets (post hoc); the branch's own relation D = 9 is excluded at 14 sigma by P-094's 10.58 +- 0.11",
+  "not_reached": [
+   {
+    "what": "the four CKM parameters",
+    "source": [
+     "B1742"
+    ],
+    "note": "the nine fail (chi2_nine 154); |V_us| 0.19 of measured at the best six-row; |J| about 10^-6"
+   },
+   {
+    "what": "the other nine of the 19",
+    "source": [
+     "B1809"
+    ]
+   }
+  ],
+  "output_rank": "f(d) <= 2 at this d (C(d) is tau alone; the directions are fixed functions of tau); two of the six's relations are the Georgi-Jarlskog relations, exact here (B1742 sec. 3)",
+  "bought": "0 of 19"
+ },
+ "fitted_continuous": [
+  {
+   "id": "Re_tau",
+   "name": "Re tau",
+   "value": "0.5625 (the best row)",
+   "label": "FITTED",
+   "scope": "FR-FIB, this branch",
+   "evidence": [
+    "B1742"
+   ],
+   "how": "minimised over the rule's grid: eight Re tau values 0.0625-0.9375 and sixteen Im tau values 2.0-3.5, on each of the ten lines; +-0.02 in Re tau or Im tau moves chi2_six to 1.04-3.43 (B1742 sec. 2)",
+   "route": [
+    "P-373",
+    "P-419"
+   ]
+  },
+  {
+   "id": "Im_tau",
+   "name": "Im tau",
+   "value": "2.6 (the best row)",
+   "label": "FITTED",
+   "scope": "FR-FIB, this branch",
+   "evidence": [
+    "B1742"
+   ],
+   "how": "as Re tau; the fourteen rows below the bar all sit at Im tau 2.6 on L_2 (B1742 sec. 2)",
+   "route": [
+    "P-373",
+    "P-419"
+   ]
+  }
+ ],
+ "chosen_continuous": [
+  {
+   "id": "h0",
+   "name": "the Higgs's scalar part h0",
+   "value": "0",
+   "label": "CHOSEN, by hand",
+   "scope": "FR-FIB, this branch",
+   "evidence": [
+    "B1750"
+   ],
+   "how": "each direction enters as S = v . (QI, QJ, QK), a pure vector, so h0 = 0 by construction (route_b_scan.py's S_of); B1750 types h0 'free (set by hand)'",
+   "route": []
+  },
+  {
+   "id": "mu_compare",
+   "name": "the comparison scale",
+   "value": "M_Z",
+   "label": "CHOSEN, by hand",
+   "scope": "every FR-FIB comparison with the measured ratios",
+   "evidence": [
+    "P-365",
+    "P-363"
+   ],
+   "how": "as in the first row; at 2 x 10^16 GeV in the SM chi2_six at the best row is 5.8, still below the bar, and m_c/m_t moves to 4.8 sigma (TWO_HIGGS_RESULT, P2 and Limits)",
+   "route": []
+  }
+ ],
+ "discrete": [
+  {
+   "id": "line",
+   "name": "the flat line w = alpha tau + b",
+   "value": "(2/5, 1/10)",
+   "label": "CHOSEN, on the data",
+   "scope": "FR-FIB, this branch",
+   "evidence": [
+    "B1742",
+    "B1713",
+    "B1786",
+    "P-384"
+   ],
+   "options": "open",
+   "options_source": "every rational line",
+   "searched": 266,
+   "searched_source": "the test searched the ten (2/5, k/10) lines, a restriction 'made after' the earlier censuses' results over B1713's 266 lines (TWO_HIGGS_RULE, the grid); the search behind the value is counted as the 266",
+   "searched_in_test": 10,
+   "how": "the fourteen rows below the bar sit on (2/5, 1/10), (2/5, 1/2) and (2/5, 4/5) (B1742)",
+   "route": [
+    "P-384",
+    "P-411"
+   ]
+  },
+  {
+   "id": "higgs_assignment",
+   "name": "the Higgs direction of each sector",
+   "value": "up F_6; down and leptons F_22",
+   "label": "CHOSEN, on the data (the pair among the nine with down = leptons); the down = leptons tie CHOSEN by hand",
+   "scope": "FR-FIB, this branch",
+   "evidence": [
+    "B1742",
+    "B1730"
+   ],
+   "options": 27,
+   "options_source": "a direction from the menu of three for each of the three sectors",
+   "searched": 9,
+   "searched_source": "the rule's nine pairs (six off-diagonal, three diagonal), all computed; 'the pair is chosen by the data out of six' (B1742); the tie of the down quarks and the leptons to one direction is the Standard Model's two-doublet pattern, put in by hand (TWO_HIGGS_RULE, the claim under test)",
+   "how": "only F_6 | F_22 reaches the bar; the swapped pair gives 3.07, every pair with F_-2 25-167, the diagonal pairs 1.466 and 1.571 at the coarse measure (TWO_HIGGS_RESULT)",
+   "route": []
+  },
+  {
+   "id": "reading",
+   "name": "the reading",
+   "value": "S in every sector",
+   "label": "CHOSEN, by hand (holomorphy, W135, applied to the Higgs factor)",
+   "scope": "FR-FIB, this branch",
+   "evidence": [
+    "B1790",
+    "B1742"
+   ],
+   "options": 8,
+   "options_source": "B1790: the eight assignments are physically distinct",
+   "searched": null,
+   "searched_source": "fixed by the rule before the run: 'both read S (holomorphic)'",
+   "how": "holomorphy is a reading applied to the Higgs factor only (TWO_HIGGS_RESULT, Limits)",
+   "route": [
+    "P-394"
+   ]
+  },
+  {
+   "id": "c",
+   "name": "the lepton factor c",
+   "value": "3",
+   "label": "CHOSEN, on the data",
+   "scope": "FR-FIB, this branch",
+   "evidence": [
+    "B1742",
+    "B1798",
+    "B1789"
+   ],
+   "options": "open",
+   "options_source": "any Clebsch",
+   "searched": 9,
+   "searched_source": "set by hand in the rule; inherited from the GJ scan of nine values, chosen knowing the data (B1798 sec. 4); with c = 1 the six's worst factor is 3.20 at the best row (B1742)",
+   "how": "not derived (B1789)",
+   "route": [
+    "P-397"
+   ]
+  },
+  {
+   "id": "horocycle",
+   "name": "the horocycle",
+   "value": "L_2",
+   "label": "ADMITTED menu (B1667's two canonical radii); the pick CHOSEN, on the data",
+   "scope": "FR-FIB, this branch",
+   "evidence": [
+    "B1667",
+    "B1742"
+   ],
+   "options": 2,
+   "options_source": "L_max and L_2",
+   "searched": 2,
+   "searched_source": "both horocycles on the grid",
+   "how": "every row below the bar is on L_2; the first row's branch picks L_max",
+   "route": [
+    "P-402",
+    "P-421"
+   ]
+  },
+  {
+   "id": "end_scale",
+   "name": "the end's regularised scale",
+   "value": "the small-cut norm 2 pi L + c_s at L = L_2(Im tau)",
+   "label": "CHOSEN, by hand",
+   "scope": "FR-FIB, this branch",
+   "evidence": [
+    "B1740",
+    "P-421"
+   ],
+   "options": 2,
+   "options_source": "the small-cut norm or the exact norm (P-421)",
+   "searched": null,
+   "searched_source": "fixed by the instrument",
+   "how": "the web seat's THE EXACT END (C1): at L_2 the exact twisted norms agree with 2 pi L_2 + c_s to 0.6% in every channel, at its four rows near Im tau 3; at this branch's rows the exact six were not computed. L is read at Im tau from B1667's Re tau = 1/4 column (B1740's census.py), as in the first row",
+   "route": [
+    "P-421"
+   ]
+  },
+  {
+   "id": "weight",
+   "name": "the Higgs's weight",
+   "value": "3/2 (the zero-free weight-3/2 Higgs of rho_T x chi_eta^r)",
+   "label": "CHOSEN, by hand",
+   "scope": "FR-FIB, this branch",
+   "evidence": [
+    "B1730"
+   ],
+   "options": "open",
+   "options_source": "counted at log2 of seven weights, as in the first row, for comparability",
+   "searched": null,
+   "searched_source": "not varied",
+   "how": "the menu F_a is W133's census of zero-free weight-3/2 Higgs directions (ZERO_FREE_FRAME_EXPLORATION sec. 1)",
+   "route": [
+    "P-366",
+    "P-368"
+   ]
+  }
+ ],
+ "menu_rule": {
+  "what": "the Higgs menu {F_6, F_-2, F_22}, from its stated rule (ZERO_FREE_FRAME_EXPLORATION sec. 1 and sec. 6): the zero-free weight-3/2 members with one unit of end data are a = -10, 2, 14, 26 (r = 4); -6, 6, 18 (r = 12); -2, 10, 22 (r = 20), with a = 2 (mod 4) and r = 2a (mod 24); three generations at r = 12 and 20 (W127, as that section reads it); holomorphy keeps the sign class eps = +1, a = 6 (mod 8)",
+  "members_with_one_unit": [
+   -10,
+   2,
+   14,
+   26,
+   -6,
+   6,
+   18,
+   -2,
+   10,
+   22
+  ],
+  "r_three_generations": [
+   12,
+   20
+  ],
+  "menu": [
+   6,
+   -2,
+   22
+  ],
+  "note": "the sign class was tied to holomorphy on the zero-free census's nine (ZERO_FREE_FRAME_EXPLORATION sec. 6), so the menu was fixed after that census's results (TWO_HIGGS_RESULT, Limits)"
+ },
+ "identifications": {
+  "expected_sources": 3,
+  "rows": [
+   {
+    "id": "I-31",
+    "what": "given Lambda: T's three zero modes as the three generations",
+    "arcs": [
+     "B1656"
+    ],
+    "reduces_to": null,
+    "quote": "Priced as its own source"
+   },
+   {
+    "id": "I-32",
+    "what": "the 6Y charges as the channels' twists, the sector assignment, and the weave's Higgs line as the electroweak Higgs; here two directions read as two electroweak doublets",
+    "arcs": [
+     "B1653",
+     "B1656"
+    ],
+    "reduces_to": "I-23",
+    "quote": "An instance of I-23"
+   },
+   {
+    "id": "I-23",
+    "what": "Y as the electromagnetic charge functional",
+    "arcs": [
+     "B919"
+    ],
+    "reduces_to": "I-13",
+    "quote": "i.e. paying I-13 on this instance",
+    "used_through": "I-32"
+   },
+   {
+    "id": "I-33",
+    "what": "the read-out (singular values as masses, U_u^dagger U_d as the CKM matrix), with T-NORM by hand",
+    "arcs": [
+     "B1655",
+     "B1656"
+    ],
+    "reduces_to": "I-13",
+    "quote": "An instance of I-13"
+   },
+   {
+    "id": "I-13",
+    "what": "the listener map u",
+    "arcs": [
+     "B1231"
+    ],
+    "reduces_to": null,
+    "quote": null,
+    "used_through": "I-32, I-33"
+   },
+   {
+    "id": "I-34",
+    "what": "the index given the cusp's unit as the generation count: the menu keeps the twists r = 12 and 20 because W127 counts three generations there",
+    "arcs": [
+     "B1627",
+     "B1641"
+    ],
+    "reduces_to": "I-26",
+    "quote": "An instance of I-26"
+   },
+   {
+    "id": "I-26",
+    "what": "an index read as the number of chiral generations",
+    "arcs": [
+     "B1253"
+    ],
+    "reduces_to": null,
+    "quote": null,
+    "used_through": "I-34"
+   }
+  ],
+  "not_used": [
+   {
+    "id": "I-35",
+    "what": "the hypercharge sign rule for the reading",
+    "why": "not adopted (B1790); the reading here is fixed by holomorphy instead"
+   }
+  ],
+  "not_entered": {
+   "rows": [
+    "I-6",
+    "I-7",
+    "I-10",
+    "I-11",
+    "I-14",
+    "I-18",
+    "I-25",
+    "I-27",
+    "I-28",
+    "I-29",
+    "I-30",
+    "I-36"
+   ],
+   "why": "the other UNEARNED rows: none enters the two-Higgs census (B1740's instrument with a per-sector Higgs) or its menu's rule"
+  },
+  "not_on_ledger": [
+   {
+    "what": "two Higgs directions as two electroweak doublets, H_u for the up quarks and H_d for the down quarks and leptons",
+    "why": "TWO_HIGGS_RESULT: 'If S stands for the Higgs doublet' is a reading; if the frame's 2 x 2 index is internal, the two-doublet structure is a choice, not a consequence"
+   }
+  ]
+ },
+ "hypotheses": [
+  {
+   "id": "PF1-W",
+   "what": "the zero-free reading: the Higgs has no zeros on the weave (a reading)",
+   "source": [
+    "B1730"
+   ]
+  },
+  {
+   "id": "holomorphy",
+   "what": "the Higgs's components enter holomorphically (W135, applied to the Higgs factor only)",
+   "source": [
+    "B1742"
+   ]
+  },
+  {
+   "id": "Lambda",
+   "what": "given Lambda (its row is I-31)",
+   "source": [
+    "GENESIS"
+   ]
+  },
+  {
+   "id": "the unit",
+   "what": "one unit of end data at the weave's cusp (FK10, v1.39); it fixes the menu's members (its row is I-34)",
+   "source": [
+    "GENESIS"
+   ]
+  },
+  {
+   "id": "GM5b",
+   "what": "inverse moves are legal (v1.48)",
+   "source": [
+    "GENESIS",
+    "B1662"
+   ]
+  }
+ ],
+ "hypotheses_note": "H-cov is not used: the F_a are outside H-cov's proofs (B1809, Table T)",
+ "forced": [
+  {
+   "what": "the family group Gamma_4 = S_4 acting by rho'",
+   "scope": "FORCED within FR-FIB, the frame's own (B1750)",
+   "source": [
+    "B1736",
+    "B1750"
+   ]
+  },
+  {
+   "what": "the coupling's closed form",
+   "scope": "FORCED within FR-FIB (B1750)",
+   "source": [
+    "B1736",
+    "B1744"
+   ]
+  },
+  {
+   "what": "the two end radii L_max and L_2",
+   "scope": "FORCED as canonical constructions (B1750)",
+   "source": [
+    "B1667",
+    "B1750"
+   ]
+  },
+  {
+   "what": "the lepton-down identity on (2/5, k/10): for k odd only for a Higgs with no QI component; F_22's is about 10^-13 at Im tau 2.6, so D = 9 to rounding with c = 3",
+   "scope": "FORCED within this branch, given the line family and H_d = F_22 (B1742 sec. 3); the order-5 case is B1728's law",
+   "source": [
+    "B1742",
+    "B1728",
+    "P-355"
+   ]
+  }
+ ],
+ "conventions": [
+  {
+   "what": "the overall mass scale",
+   "source": [
+    "B1750"
+   ]
+  },
+  {
+   "what": "the sign of J",
+   "source": [
+    "B1750"
+   ]
+  },
+  {
+   "what": "the split of 2 pi L + c_s into L and c_s",
+   "source": [
+    "B1750",
+    "P-365"
+   ]
+  }
+ ],
+ "the_bars": [
+  {
+   "what": "the 10% allowance",
+   "source": [
+    "B1750"
+   ],
+   "note": "TWO_HIGGS_RESULT Q4: the two lepton ratios miss by 230 and 54 sigma at the measurements' own errors; the allowance admits them"
+  }
+ ],
+ "unpriced_looks": [
+  {
+   "what": "the restriction to the ten alpha = 2/5 lines, chosen after the earlier results",
+   "source": [
+    "B1742"
+   ]
+  },
+  {
+   "what": "the Higgs menu, fixed after the zero-free census (its sign class read on that census's nine)",
+   "source": [
+    "B1742"
+   ]
+  },
+  {
+   "what": "the two-doublet idea itself, which came from the framing read-outs showing the one-doublet readings near the six's bar",
+   "source": [
+    "B1742"
+   ]
+  }
+ ],
+ "unpriced_looks_note": "the test's calibration counts the rows (tau, the ten lines, the six pairs, the horocycles), not these (TWO_HIGGS_RESULT, Limits); c = 3 is priced in its bits"
+}
