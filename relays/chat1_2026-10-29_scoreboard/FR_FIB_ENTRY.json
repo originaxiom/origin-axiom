@@ -1,105 +1,115 @@
 {
-  "what": "P-418's graded vector for one frame: FR-FIB (B1656's flat fibre frame, B1809 section 4) as it reaches the six charged-fermion mass ratios at its best census row. A proposal from the web seat; it assigns nothing. Data-free: no measured number is read to build it.",
+  "what": "P-418's graded vector for one frame: FR-FIB (B1656's flat fibre frame, B1809 section 4), scored on the six charged-fermion mass ratios on its H-cov, shared-dR branch at B1753's census. A proposal from the web seat; it assigns nothing. Data-free: no measured number is read to build it.",
   "as_of_main": "987a1f270",
-  "class": "GENERATED (the vector is printed from this file by scoreboard_check.py; every count is recomputed from main's committed files at as_of_main)",
+  "class": "the entry is typed by hand from the cited sources; scoreboard_check.py recomputes from main's committed files every menu count it can (the readings, the lines, the apexes and their band, the horocycles, c's scan), checks every other typed item by quoting its source row, and prints the vector (GENERATED)",
+  "labels": "WORKING_RULES' 2026-10-29 rule, item 4, as amended: FORCED / ADMITTED / CHOSEN for discrete items, FITTED for continuous values set by data; each with scope and evidence. Discrete items selected on the data are 'CHOSEN, on the data'.",
+  "conditions_K": [
+    {"what": "the coupling's covariance under the family group Gamma_4 = S_4 acting by rho'", "type": "symmetry", "source": ["B1736", "B1750"]},
+    {"what": "the canonical end radius L = L_h(tau)", "type": "canonical construction", "source": ["B1667", "B1809"]}
+  ],
   "reach": {
     "outputs": "the six charged-fermion mass ratios (m_u/m_t, m_c/m_t, m_d/m_b, m_s/m_b, m_e/m_tau, m_mu/m_tau) at M_Z",
+    "scope": "the H-cov, shared-dR branch of FR-FIB on B1753's census (the instrument of B1726, B1741, B1753); B1742's per-sector branch (F6 | F22, both read S, chi2_six 1.188, its pair chosen by the data out of six, its D = 9 excluded at 14 sigma) is a different d and needs its own row",
     "best_row": {"tau": "0.3333 + 3.0368i", "line": "(2/5, 1/10)", "horocycle": "L_max", "reading": "(S~, S, S)", "c": 3, "chi2_six": 2.74, "source": ["B1753"]},
     "grade": "a READING, not PASSED: under the class-choosing null with c's scan repeated, m*r is 0.037 (B1798 sec. 4); the frame null P-412 gives both cells INTERMEDIATE (about 1 in 270 permuted frames and 1 in 430 Froggatt-Nielsen populations reach the best row's chi2_six)",
     "not_reached": [
       {"what": "the four CKM parameters", "source": ["P-377", "B1747", "B1726"], "note": "one Higgs read everywhere reaches chi2_nine 47 at best at the six's strip; two free doublets reach the bar with 8 reals for 9 numbers (reachability, not evidence); |J| 7.8 times too small at B1726's best nine-row"},
       {"what": "the other nine of the 19 (the scale, y_t, y_b, y_tau, lambda, theta-bar, the three gauge couplings)", "source": ["B1809"]}
     ],
-    "output_rank": "f(d) <= 2 at this d (C(d) is tau alone once h0 is set; B1809 sec. 4); the generic rank is owed (B1809 sec. 8)",
+    "output_rank": "f(d) <= 2 at this d while the end's scale is a function of tau (C(d) is tau alone once h0 is set; B1809 sec. 4); the generic rank is owed (B1809 sec. 8)",
     "bought": "0 of 19"
   },
   "fitted_continuous": [
     {"id": "Re_tau", "name": "Re tau", "value": "0.3333 (the best row's apex)", "label": "FITTED",
-     "scope": "FR-FIB, the six",
+     "scope": "FR-FIB, the six, this branch",
      "evidence": ["B1750", "B1753", "B1798"],
-     "how": "the census minimises over 223 thread apexes (B1720's rule: tau at a thread's apex) in the band Im tau in [2.0, 3.6]; the band was introduced by B1748 after B1741's best rows were seen, an opportunity B1798 sec. 4 says cannot be priced from the committed censuses",
-     "route": ["P-373", "P-419", "P-413"], "since_B1750": "same"},
+     "how": "the census minimises over 223 thread apexes (B1720's rule) in the band Im tau in [2.0, 3.6]; the band was introduced by B1748 after B1741's best rows were seen, and B1798 sec. 4 says it cannot be priced from the committed censuses",
+     "route": ["P-373", "P-419"], "since_B1750": "same"},
     {"id": "Im_tau", "name": "Im tau", "value": "3.0368 (the best row's apex)", "label": "FITTED",
-     "scope": "FR-FIB, the six",
+     "scope": "FR-FIB, the six, this branch",
      "evidence": ["B1750", "B1753", "B1788", "B1791", "B1811"],
-     "how": "as Re tau; the hierarchy's scale, fixed by one ratio (B1788); not forced in the frame (B1791, NEGATIVE); the symmetry-fixed points fail the six (B1811, NEGATIVE)",
+     "how": "as Re tau; 'one ratio fixes it' (MAINS_PLAN's ledger of inputs, from B1788); not found forced in the frame (B1791); the symmetry-selected configurations fail the six, NEGATIVE as sealed at the n = 1 window (B1811, P-432)",
      "route": ["P-373", "P-419"], "since_B1750": "same"}
   ],
   "chosen_continuous": [
-    {"id": "h0", "name": "the Higgs's scalar part h0", "value": "0", "label": "CHOSEN",
+    {"id": "h0", "name": "the Higgs's scalar part h0", "value": "0", "label": "CHOSEN, by hand",
      "scope": "FR-FIB, since B1700",
      "evidence": ["B1750", "B1809"],
-     "how": "set by hand; B1750 types it 'free (set by hand); harmless for the obstruction (e9)', B1809 lists it among the discrete choices; it is a continuous datum set at a value, neither fitted nor a choice from a menu",
-     "route": [], "since_B1750": "same"},
-    {"id": "mu_compare", "name": "the comparison scale", "value": "M_Z", "label": "CHOSEN",
+     "how": "B1750 types it 'free (set by hand); harmless for the obstruction (e9)' and counts it among the free discrete inputs, as B1809 sec. 4 does; it is a continuous datum set at a value, neither fitted nor picked from a menu",
+     "route": [], "since_B1750": "re-typed (B1750: free discrete; here a continuous datum set by hand)"},
+    {"id": "mu_compare", "name": "the comparison scale", "value": "M_Z", "label": "CHOSEN, by hand",
      "scope": "every FR-FIB comparison with the measured ratios",
      "evidence": ["P-365", "P-363", "B1750"],
-     "how": "P-365: 'the frame states no scale - the comparison at M_Z is a choice'; P-363: the heavy ratios move about 10% between M_Z and 10^12 GeV; B1750 typed it an identification ('where the frame's Yukawas live'); it is not a row of the identification ledger",
-     "route": ["P-363"], "since_B1750": "re-typed (B1750: identification; P-365: a choice)"}
+     "how": "fixed by PRECISION_BAR before the censuses; P-365: 'the frame states no scale - the comparison at M_Z is a choice'; P-363: the heavy ratios move about 10% between M_Z and 10^12 GeV; MAINS_PLAN: it does 'fitting work without a plan holding' it; B1750 typed it an identification; it is not a row of the identification ledger",
+     "route": [], "route_note": "none on record: MAINS_PLAN step 5, 'named, not yet planned'",
+     "since_B1750": "re-typed (B1750: identification; P-365: a choice)"}
   ],
   "discrete": [
-    {"id": "line", "name": "the flat line w = alpha tau + b", "value": "(2/5, 1/10)", "label": "FITTED",
-     "scope": "FR-FIB, the six",
+    {"id": "line", "name": "the flat line w = alpha tau + b", "value": "(2/5, 1/10)", "label": "CHOSEN, on the data",
+     "scope": "FR-FIB, the six, this branch",
      "evidence": ["B1713", "B1753", "B1786", "B1788", "B1798", "P-384"],
      "options": "open", "options_source": "every rational line; the record has orders 1-12 (B1713's 266), 15-30 (W175, W176), 25 and 30 (B1786), 60 (B1792)",
-     "searched": 266, "searched_source": "B1753's census completed to B1713's 266 lines (B1798)",
-     "how": "the slope 2/5 is selected by the data, stably out of sample (B1786), and is the measured up exponent restated (B1788); the offset has no rule (P-384); the order-5/10 class was read before B1753's seal (S215, counted in m by B1798 sec. 4)",
+     "searched": 266, "searched_source": "the censuses run every one of B1713's 266 lines (B1726, B1741; B1753's census completed to 266 by B1798)",
+     "how": "the slope 2/5 is selected by the data, stably out of sample (B1786), 'with one number's worth of input (e_up) - not removed' (MAINS_PLAN); the offset has no rule (P-384); the order-5/10 class was read before B1753's seal (S215, counted in m by B1798 sec. 4). MAINS_PLAN's ledger types the offset as continuous through u = Re w mod 1; here u = alpha Re tau + b mod 1 is fixed by tau and the line, and the offset is counted within the 266",
      "route": ["P-384", "P-411", "P-422"], "since_B1750": "same"},
-    {"id": "reading", "name": "the reading (which sector sees S and which S~)", "value": "(S~, S, S)", "label": "FITTED over the census menu; the menu CHOSEN",
-     "scope": "FR-FIB, the six",
-     "evidence": ["B1790", "B1660", "P-365", "B1741", "B1726"],
-     "options": 8, "options_source": "B1790: the eight reading assignments are physically distinct",
-     "searched": 2, "searched_source": "the seat menu SEAT = ((1,0,0), (1,1,1)) in B1741's compare.py; the two were picked by hand, (S~, S, S) from the Standard Model's H~ pairing (B1660; P-365: 'an identification made by hand'); B1726's covariant cell searched all 8 and found the same best six-row",
-     "how": "not derived (B1790, NEGATIVE, frame-scoped); I-35 would cut it to one bit and is not adopted",
+    {"id": "reading", "name": "the reading (which sector sees S and which S~)", "value": "(S~, S, S)", "label": "CHOSEN, on the data",
+     "scope": "FR-FIB, the six, this branch",
+     "evidence": ["B1790", "B1726", "B1741", "P-365"],
+     "options": 8, "options_source": "B1790: the eight assignments are physically distinct",
+     "searched": 8, "searched_source": "B1726's covariant cell R3 ran all eight (COV) on the data and found the same best six-row; B1726: the ingredients 'were chosen on the seat's rows with the data in view'; B1790: 'The data's preference for up S~ fixed it, post hoc'; the census menu since is B1741's SEAT, two of the eight",
+     "how": "not derived (B1790, NEGATIVE, frame-scoped); I-35 would cut it from eight options to two and is not adopted",
      "route": ["P-394", "P-295"], "since_B1750": "re-typed (B1750: identification by hand; B1790: a choice of eight)"},
-    {"id": "c", "name": "the lepton factor c (m_mu/m_tau times c, m_e/m_tau divided by c)", "value": "3", "label": "FITTED",
-     "scope": "FR-FIB, the six",
+    {"id": "c", "name": "the lepton factor c (m_mu/m_tau times c, m_e/m_tau divided by c)", "value": "3", "label": "CHOSEN, on the data",
+     "scope": "FR-FIB, the six, this branch",
      "evidence": ["B1726", "B1789", "B1798", "P-397"],
      "options": "open", "options_source": "any Clebsch; an imported Georgi-Jarlskog factor (B1750)",
-     "searched": 9, "searched_source": "the web seat's GJ scan c in {1/3, 1/2, 2/3, 1, 3/2, 2, 3, 4, 5}; 'The Clebsch 3 was chosen knowing the data's R2 = 3.14' (B1798 sec. 4)",
+     "searched": 9, "searched_source": "the web seat's GJ scan c in {1/3, 1/2, 2/3, 1, 3/2, 2, 3, 4, 5}, and its GJ_FINDINGS as quoted in B1798 sec. 4: 'The Clebsch 3 was chosen knowing the data's R2 = 3.14'",
      "how": "not derived in the frame (B1789, NEGATIVE); B1798: repeating the scan in the null costs the six's specificity about four times",
      "route": ["P-397", "P-294"], "since_B1750": "same (now priced at the nine values scanned, not the menu's two)"},
-    {"id": "horocycle", "name": "the horocycle", "value": "L_max", "label": "FITTED",
-     "scope": "FR-FIB, the six",
+    {"id": "horocycle", "name": "the horocycle", "value": "L_max", "label": "ADMITTED menu (B1667's two canonical radii); the pick CHOSEN, on the data",
+     "scope": "FR-FIB, the six, this branch",
      "evidence": ["B1667", "B1748", "B1750", "P-402"],
      "options": 2, "options_source": "B1667's two canonical end radii, L_max and L_2",
      "searched": 2, "searched_source": "both horocycles are in every census (B1726, B1741, B1753)",
-     "how": "B1748 takes L_max as a rule informed post hoc (B1750); the web seat's test: selected by the data, not absorbed by a shift of tau (P-402)",
-     "route": ["P-402"], "since_B1750": "same"},
-    {"id": "end_scale", "name": "the end's regularised scale", "value": "the small-cut norm 2 pi L + c_s at L = L_h(Im tau)", "label": "CHOSEN",
-     "scope": "FR-FIB, every census since B1726",
-     "evidence": ["B1656", "B1726", "P-421"],
-     "options": 2, "options_source": "the small-cut norm or the maximal horoball's exact norm (P-421)",
+     "how": "B1748 takes L_max as a rule informed post hoc (B1750); the web seat's test: selected by the data, not absorbed by a shift of tau (P-402). Not independent of the end's scale: P-402's S238 bracket, 'the end's scale is now P-421'",
+     "route": ["P-402", "P-421"], "since_B1750": "same"},
+    {"id": "end_scale", "name": "the end's regularised scale", "value": "the small-cut norm 2 pi L + c_s at L = L_h(Im tau)", "label": "CHOSEN, by hand",
+     "scope": "FR-FIB, every census since B1712",
+     "evidence": ["B1656", "B1726", "P-421", "P-402"],
+     "options": 2, "options_source": "the small-cut norm or the maximal horoball's exact norm (P-421); a binary by definition",
      "searched": null, "searched_source": "fixed by B1726's compute(); not varied on the data",
-     "how": "at L_max the exact twisted norms lie 35-38% below the small-cut norm, and with them the six fail near the four families' rows (B1726's dated note; P-421); its geometric ground is lost, so either a reason ties the scale to L_max(tau) or the scale is a continuous input",
+     "how": "at L_max the exact twisted norms lie 35-38% below the small-cut norm, and with them the six fail near the four families' rows (B1726's dated note; P-421). L is read at Im tau from B1667's Re tau = 1/4 column (B1726's census.py, as B1712-B1725), a hand choice inside this item. If P-421 resolves the scale as an input, this item and the horocycle become one continuous scale, which moves to the continuous component and lifts the bound f(d) <= 2",
      "route": ["P-421", "P-266"], "since_B1750": "added (B1750 typed c_s a convention, 'only 2 pi L + c_s enters')"},
-    {"id": "weight", "name": "the Higgs's weight class", "value": "3/2 (the section dR, H-cov's only member there)", "label": "CHOSEN",
-     "scope": "FR-FIB, the six's censuses",
+    {"id": "weight", "name": "the Higgs's weight class", "value": "3/2 (the section dR, H-cov's only member there)", "label": "CHOSEN, by hand",
+     "scope": "FR-FIB, this branch (B1726, B1741, B1753)",
      "evidence": ["B1691", "B1700", "B1809"],
      "options": "open", "options_source": "every weight 2n - 1/2; B1691 computed seven, -1/2 to 23/2",
-     "searched": null, "searched_source": "not varied in the six's censuses",
+     "searched": null, "searched_source": "not varied in this branch's censuses (B1742's branch uses F6 and F22)",
      "how": "at weight 3/2 H-cov leaves one section, dR, so no section coefficient is free; under the unit alone the weight-3/2 directions form a three-dimensional family and only dR gives a hierarchy (B1700), so the choice was made knowing a hierarchy was needed",
-     "route": ["P-413", "P-368", "P-366"], "since_B1750": "re-typed (B1750: 'the Higgs's direction, free (up to four reals), or a form chosen by hand')"},
-    {"id": "shared_section", "name": "one section shared by the three sectors", "value": "shared", "label": "CHOSEN",
-     "scope": "FR-FIB, the six's censuses",
-     "evidence": ["B1809"],
-     "options": 2, "options_source": "a shared or a per-sector section (B1809 sec. 4, D)",
-     "searched": null, "searched_source": "not varied in the six's censuses",
+     "route": ["P-366", "P-368"], "since_B1750": "re-typed (split from B1750's 'the Higgs's direction', with the shared section)"},
+    {"id": "shared_section", "name": "one section shared by the three sectors", "value": "shared", "label": "CHOSEN, by hand",
+     "scope": "FR-FIB, this branch (B1726, B1741, B1753)",
+     "evidence": ["B1809", "B1742"],
+     "options": 2, "options_source": "a shared or a per-sector section (B1809 sec. 4, D); a binary by definition",
+     "searched": null, "searched_source": "not varied in this branch's censuses (B1742's branch is per-sector)",
      "how": "with per-sector sections V varies with tau (B1809 c3, c7)",
-     "route": [], "since_B1750": "re-typed (part of B1750's 'Higgs's direction')"}
+     "route": [], "since_B1750": "re-typed (split from B1750's 'the Higgs's direction', with the weight)"}
   ],
   "identifications": {
+    "expected_sources": 2,
     "rows": [
       {"id": "I-31", "what": "given Lambda: the weave's triplet T is the SM's left-handed multiplet, its three zero modes the three generations", "arcs": ["B1656"], "reduces_to": null, "quote": "Priced as its own source"},
-      {"id": "I-32", "what": "the hypercharge dictionary: the SM's 6Y charges as the flat-line twists of the sector channels, and the sector assignment", "arcs": ["B1653", "B1656"], "reduces_to": "I-23", "quote": "An instance of I-23"},
+      {"id": "I-32", "what": "the hypercharge dictionary: the SM's 6Y charges as the flat-line twists of the sector channels, the sector assignment, and the weave's Higgs line as the electroweak Higgs (SIXY's H = 3)", "arcs": ["B1653", "B1656"], "reduces_to": "I-23", "quote": "An instance of I-23"},
       {"id": "I-23", "what": "Y as the electromagnetic charge functional", "arcs": ["B919"], "reduces_to": "I-13", "quote": "i.e. paying I-13 on this instance", "used_through": "I-32"},
-      {"id": "I-33", "what": "the read-out: singular values as masses, U_u^dagger U_d as the CKM matrix, a sector's massless state as its lightest fermion", "arcs": ["B1655", "B1656"], "reduces_to": "I-13", "quote": "An instance of I-13"},
-      {"id": "I-34", "what": "the chiral index given the cusp's unit is the number of generations", "arcs": ["B1627", "B1641"], "reduces_to": "I-26", "quote": "An instance of I-26", "used_through": "the tag 'the unit' (B1726, B1809 sec. 1); flagged: the frame's three is I-31's, and whether the six's computation also leans on I-34's reading is not stated on record"},
+      {"id": "I-33", "what": "the read-out: singular values as masses, U_u^dagger U_d as the CKM matrix, a sector's massless state as its lightest fermion; with the matter's kinetic metric fixed by hand (T-NORM, B1654), which the row names in its earning condition", "arcs": ["B1655", "B1656"], "reduces_to": "I-13", "quote": "An instance of I-13"},
       {"id": "I-13", "what": "the listener map u: a structural analogue read as the physical quantity", "arcs": ["B1231"], "reduces_to": null, "quote": null, "used_through": "I-32, I-33"}
     ],
     "not_used": [
+      {"id": "I-34", "what": "the chiral index given the cusp's unit is the number of generations", "why": "flagged, excluded by default: B1726's compute() computes no index; the frame's three is I-31's; the unit enters only as dR's end data (B1700) and is listed as a tag. If main finds the six lean on I-34's reading, it adds a row and a source (I-26)."},
       {"id": "I-35", "what": "the hypercharge sign rule for the reading", "why": "not adopted (B1790); the reading is counted as a discrete choice instead"}
     ],
+    "not_entered": {"rows": ["I-6", "I-7", "I-10", "I-11", "I-14", "I-18", "I-25", "I-26", "I-27", "I-28", "I-29", "I-30", "I-36"],
+                    "why": "the other UNEARNED rows: none is entered by B1726's compute(), and none is among B1809 sec. 1's H or B1750 sec. 2's identifications"},
     "not_on_ledger": [
       {"what": "the comparison scale", "why": "B1750 typed it an identification; P-365 calls it a choice; counted here under chosen_continuous"}
     ]
@@ -110,20 +120,24 @@
     {"id": "the unit", "what": "one unit of end data at the weave's cusp (FK10, v1.39); it already contains dR's end data (B1700); its identification row is I-34", "source": ["GENESIS", "B1700"]},
     {"id": "GM5b", "what": "inverse moves are legal (v1.48)", "source": ["GENESIS", "B1662"]}
   ],
+  "hypotheses_note": "B1726 also tags 'the canonical end'; it is in K above (B1809 sec. 1)",
   "forced": [
-    {"what": "the family group Gamma_4 = S_4 acting by rho'", "source": ["B1736"]},
-    {"what": "the coupling's closed form det Y = N(S) N(M) <S, M>", "source": ["B1736", "B1744"]},
-    {"what": "the two end radii L_max and L_2 (canonical)", "source": ["B1667"]},
-    {"what": "given the line, the leading exponents", "source": ["B1785", "B1788"]},
-    {"what": "the down-lepton relation: exact on the order-5 lines; at the exponent level only on the order-10 lines of slope 2/5", "source": ["B1728", "P-412"]}
+    {"what": "the family group Gamma_4 = S_4 acting by rho'", "scope": "FORCED within FR-FIB, the frame's own (B1750)", "source": ["B1736", "B1750"]},
+    {"what": "the coupling's closed form det Y = N(S) N(M) <S, M>", "scope": "FORCED within FR-FIB (B1750)", "source": ["B1736", "B1744"]},
+    {"what": "the two end radii L_max and L_2", "scope": "FORCED as canonical constructions (B1750); which one is used is the horocycle item", "source": ["B1667", "B1750"]},
+    {"what": "given the line, the leading exponents", "scope": "PROVED at leading order in Im tau, conditional on B1788 sec. 5's hypotheses", "source": ["B1785", "B1788"]},
+    {"what": "the down-lepton relation", "scope": "exact on the order-5 lines (B1728); at the exponent level on the slope-2/5 lines (B1785); on order-10 lines it holds only for a Higgs with no QI component (B1742)", "source": ["B1728", "B1785", "B1742"]}
   ],
   "conventions": [
     {"what": "the overall mass scale", "source": ["B1750"]},
     {"what": "the sign of J", "source": ["B1750"]},
-    {"what": "the split of 2 pi L + c_s into L and c_s", "source": ["B1750", "P-365"]},
-    {"what": "the bar's 10% allowance", "source": ["B1750"]}
+    {"what": "the split of 2 pi L + c_s into L and c_s", "source": ["B1750", "P-365"]}
+  ],
+  "the_bars": [
+    {"what": "the 10% allowance", "source": ["B1750"], "note": "B1750: 'the bar's, not physics'"}
   ],
   "unpriced_looks": [
     {"what": "the apex band Im tau in [2.0, 3.6], introduced after B1741's best rows were seen", "source": ["B1748", "B1798"]}
-  ]
+  ],
+  "none_removed_basis": ["MAINS_PLAN's ledger of inputs: 'Today: none removed.'", "B1798: 'No input removed.'"]
 }
