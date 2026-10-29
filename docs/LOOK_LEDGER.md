@@ -55,6 +55,7 @@ sector is listed with its target.
 | B1789's referee | post hoc | D (P-094, 10.58 ± 0.11) against 9·D_frame on the slope-2/5 rows | 2.4% of the rows inside the window; informs P-397 |
 | B1792 | sealed | which slope-2/5 lines of order 60 carry the six (the SM seat's W164 recurrence, P-399) | R_a fails (six of eight predicted carry), R_b holds (no other carries); a READING, no grade sought |
 | B1795, B1799 | sealed (B1795) and data-free | the vector-like pairs; the neutrino's self-pairing | no measured number compared: not looks |
+| B1811 | sealed | the six at the four configurations the object's symmetry fixes, B1810's 13 directions (n = 1), B1667's radii; the decisive cell P1 AND P2 (the 47th look, m = 47 at the seal) | NEGATIVE as sealed (min χ²_six 4521.5; 9.8% of random hierarchies as low) |
 | B1798 | verification of B1749 and B1753 (R71-1; their class-choosing null) | the same data | not a new look |
 
 ## The web seat (chat1)

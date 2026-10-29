@@ -1,0 +1,32 @@
+{
+ "id": "B1811",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1667",
+  "B1726",
+  "B1730",
+  "B1740",
+  "B1741",
+  "B1753",
+  "B1809",
+  "B1810"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "W94"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's flat fibre frame at B1667's canonical end (both radii); the seat's and the covariant readings; B1741's sealed measure",
+  "object": "the four configurations the object's symmetry fixes; B1810's 13 directions (n = 1 window)",
+  "reach": "class",
+  "hypotheses": "one Higgs for all sectors; n >= 2 directions and two-Higgs pairs not tested"
+ },
+ "claim_one_line": "THE SYMMETRY-SELECTION VALUES AGAINST THE SIX (P-432's second half; sealed 316457df6; NEGATIVE as sealed): at the four configurations the object's symmetry fixes, no parameter-free output of B1656's frame reaches the measured mass ratios -- the best chi2_six is 4521.5 against P1's threshold of 16.75 and 9.8% of random hierarchies do as well on the same menu (the sealed n = 1 menu); the chi2-best row (F_6 at (i, 0), L_2, (S~, S~, S~), c = 3) overshoots every one of the six, by 7.5x to 1739x, as do all 22 non-degenerate cells (all at tau = i); the other 156 of the 208 seat-reading cells carry a massless state or rank one. The end enters through B1740's small-cut norm (0.6% from exact at L_2). Controls hold. None of the 19.",
+ "weave_or_thread": "weave (the symmetry-fixed configurations of the shared fibre)"
+}

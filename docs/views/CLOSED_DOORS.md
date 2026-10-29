@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**852 recorded closures — of which 685 are CLASSIFIED by mechanism and
+**853 recorded closures — of which 686 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -135,6 +135,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Computed and refereed (B1798): the class-choosing null alone passes B1753 at m = 39-41 (m*r 0.0084-0.0088), but the lepton factor c = 3 was chosen on the same data and the null holds it fixed; a c-choosing null gives m*r 0.035-0.079 (B1753) and 0.034-0.082 (B1749); per-cell look counting (m ~ 51) fails B1753 too.` | 1 |  |
 | `Computed and refereed (B1805): z2 is matter parity and survives every flat breaking, but no flat Spin(10) connection gives exactly the SM (U(1)_X stays), localised fields are only 1, 10, 16, 16bar, 45 (no 126), so the U(1)_X breaking by a 16 kills the parity; and with real Higgs 10's Witten's conditions have no solution for any exponent-2 F' (none of 31 groups; the H_u self-mass allowed in 440 of 440 cases).` | 1 |  |
 | `Computed and refereed (B1808): one invariant flux with index -3 is (1,1) exactly on a curve; a point needs a second flux with free integers and such points are infinitely many; three or more independent fluxes have no common point; the same for the null matrices B_4..B_7 and for every generation number (U in Lambda_A).` | 1 |  |
+| `Sealed and refereed (B1811): the best chi2_six is 4521.5 against P1's threshold of 16.75 and 9.8% of random hierarchies do as well on the same menu; the chi2-best row overshoots every ratio by 7.5x to 1739x, as do all 22 non-degenerate cells; the other 156 of 208 cells carry a massless state or rank one.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

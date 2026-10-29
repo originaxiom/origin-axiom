@@ -18099,3 +18099,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - P-432's first half: the frame's outputs at the symmetry-fixed configurations, tabulated and structured; no data read. 0 of 19.
 - **Landing suite (S251).** 7 856 passed, 68 skipped, 2 failed in 31:25 — B805's two standing attachment locks (P-239).
+
+## 2026-10-29 — S252 B1811 (THE SYMMETRY-SELECTION VALUES AGAINST THE SIX)
+
+- P-432 closed NEGATIVE as sealed on the n = 1 menu: the frame's parameter-free values at the object's symmetry points miss the six (overshoot where non-degenerate, zeros elsewhere). 0 of 19.
+- **Landing suite (S252).** 7 858 passed, 68 skipped, 2 failed in 39:30 — B805's two standing attachment locks (P-239).

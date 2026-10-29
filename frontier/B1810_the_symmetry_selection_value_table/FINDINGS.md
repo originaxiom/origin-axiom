@@ -143,3 +143,9 @@ at its hostile referee (§ 6): two blocking findings.
   fixed points; the frame's line convention; B1667's radii line-independent.
 - **Main's verification:** the referee's rf1–rf9 regenerated on main; F₆ at ω, a₀ ≡ F₆ at (i, (½, ½)), B1703's statement
   and B1730's one-unit list checked against the table and the arcs.
+
+## Dated note (2026-10-29, S252; B1811's referee, verified on main) — where κ → 2/κ holds
+
+- § 2.3's "That is why a₀ ≡ F₆ there, and also F₋₆ ≡ F₁₀ and F₋₁₀ ≡ F₁₄" holds on the 2-torsion line (i, (½, ½)) (equal to
+  6 × 10⁻⁴ relative), not at (i, 0), where a₀ and F₆ differ in the sector ratios by up to 2.35 relative (c/t 0.186 against
+  0.148 under S̃). The left-eigenbasis statement at (i, 0) (V a permutation) stands.

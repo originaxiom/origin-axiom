@@ -12283,5 +12283,31 @@
    "hypotheses": "flat T^4; the (1,1) condition as the supersymmetric F-term choice; no invariant Kahler class (B1804 r5)"
   },
   "weave_or_thread": "thread"
+ },
+ {
+  "id": "B1811",
+  "claim_killed": "That the parameter-free outputs of B1656's frame at the configurations the object's symmetry fixes (B1810's menu: four configurations, 13 Higgs directions of the n = 1 window, B1667's radii, the seat's readings) reach the six measured mass ratios (P-432).",
+  "kill_form": "Sealed and refereed (B1811): the best chi2_six is 4521.5 against P1's threshold of 16.75 and 9.8% of random hierarchies do as well on the same menu; the chi2-best row overshoots every ratio by 7.5x to 1739x, as do all 22 non-degenerate cells; the other 156 of 208 cells carry a massless state or rank one.",
+  "hatch": "a configuration off the symmetry points chosen by a principle (P-419; the hierarchy lives in tau's distance from them); n >= 2 directions; two-Higgs pairs (B1742); a frame other than B1656's",
+  "priority": "low",
+  "routed_from": "main, at banking (2026-10-29), for tests/test_b833_negative_routing.py",
+  "note": "Foreknown in direction from B1810's structure (up and down differ only by the reading; massless first generation on the 2-torsion line; rank one at omega); the decisive cell was made P1 AND P2 at the pre-seal review.",
+  "evidence_consulted": [
+   "B1726",
+   "B1740",
+   "B1741",
+   "B1753",
+   "B1809",
+   "B1810"
+  ],
+  "faces_consulted": [],
+  "fact_computed": "B1740's sealed census at the four configurations (52 rows), scored by B1741's sealed measure with 20 fresh seeds",
+  "scope": {
+   "frame": "B1656's flat fibre frame at B1667's canonical end (both radii); the seat's and the covariant readings; B1741's sealed measure",
+   "object": "the four configurations the object's symmetry fixes; B1810's 13 directions (n = 1 window)",
+   "reach": "class",
+   "hypotheses": "one Higgs for all sectors; n >= 2 directions and two-Higgs pairs not tested"
+  },
+  "weave_or_thread": "weave"
  }
 ]

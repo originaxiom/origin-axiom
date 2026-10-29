@@ -14751,11 +14751,31 @@
     "torsion",
     "wrt_quantum"
    ],
-   "refs": [],
+   "refs": [
+    "S252"
+   ],
    "obstacle": "particle_dict",
    "obstacle_conf": 11,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1811": {
+   "slug": "the symmetry selection values against the six",
+   "motifs": [
+    "coupling",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "P1",
+    "P2",
+    "S1",
+    "S2"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 5,
+   "status": "open",
+   "domain": "physics"
   },
   "B181": {
    "slug": "criticality scale",
