@@ -862,6 +862,19 @@ within their actual hypotheses, and do not duplicate the norm/exponent
 producer. The native parent/action/end-law and state selection duties
 remain central; a better spectral evaluation cannot supply them by fiat.
 
+## October 29: preserve evidence and repair the actual preflight metadata
+
+The [repair receipt](governance_repair_2026_10_29/REPAIR_RECEIPT.json)
+records three immutable source citations and 49 named escalations. All
+relay dispositions/dates remain unchanged; OPEN is not acceptance. The
+original B1672 test hash matches main's archived received test, rather
+than its replacement lock. A synthetic Git-only fixture checks preservation
+of staged/unstaged data through the owned ledger edit. Working-tree path
+and relay diagnostics pass; historical seal failures remain noncompliant.
+The 39 frozen science artifacts and design/environment/specification still
+match. A fresh clean-clone strict preflight remains necessary before tests.
+No foundational input or scientific claim is paid by this metadata repair.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

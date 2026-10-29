@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-29",
+  "status": "OWNED_METADATA_REPAIR_SOURCE_RECORD_NOT_EXECUTION_CERTIFICATE",
+  "base_commit": "4572f758c4463a0926b102ce65b8be5690a3aa06",
+  "citations": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COHERENT_WORD_LIFTS_AND_LOCAL_BOUNDARY.md",
+      "original_document_commit": "4572f758c4463a0926b102ce65b8be5690a3aa06",
+      "original_document_sha256": "000a8df7534b57bbbd62a5ff22a5b2d9a3817e52c8cd03e08ffb3428e3cf28ca",
+      "repaired_document_sha256": "388dc8f5d3af483581f6a96ed5a5d0bba3bd9459dffac3ef1df68abce74a7311",
+      "target_commit": "2e5716bd9bea013d69f3cd733f083b61a6f59dbd",
+      "target_path": "docs/POINT_REGISTER.md",
+      "target_sha256": "b907dfa01f20e810ca421e2a4ace5e8a1fc4e09160608f7d2cfc98a690938d8f",
+      "mathematics_changed": false
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GLOBAL_ELLIPTIC_FACTORISATION_AND_REGISTER_PRICE.md",
+      "original_document_commit": "4572f758c4463a0926b102ce65b8be5690a3aa06",
+      "original_document_sha256": "603ee6f21100ee273d585e9b17314bce5f90f4e2090c29adf72e1237e919c593",
+      "repaired_document_sha256": "e215fd42481bdc8cf54e9903d9451d82e1324110afbb39b8b6d256bc44afe6fd",
+      "target_commit": "da077b79713b12cf2fa9fad44c243ef00e419ccb",
+      "target_path": "frontier/B1343_deriving_the_other_faces/FINDINGS.md",
+      "target_sha256": "00a210e8c26e732982c6f8f88b388b0fb3a37c70927674cc4f431b5b56dce2b9",
+      "mathematics_changed": false
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FRONTIER_RESOLUTION_REPORT_INTAKE.md",
+      "original_document_commit": "4572f758c4463a0926b102ce65b8be5690a3aa06",
+      "original_document_sha256": "c44cec3ae12baf60d12cfcc22ae41b86cedefee6a6d572fbc17477bbfcc977e4",
+      "repaired_document_sha256": "0967a37b13cc8909c758847af52814e24dbd79fb89c57482b18dc37cc72f2972",
+      "target_commit": "5a16562acdce80a7d99a658ffe7c5c307a08781b",
+      "target_path": "frontier/B1672_discharging_triplet_index_gauge_frontier/verification/as_received/lock_as_received.py.txt",
+      "target_sha256": "bd5b4e056588f0d98ef2b1f634545c74aac7b1f5efe063197a88c59bb6ea86af",
+      "mathematics_changed": false
+    }
+  ],
+  "ledger": {
+    "path": "docs/RELAY_LEDGER.md",
+    "effective_stale_rows": 49,
+    "head_before_sha256": "90bd1822795a46688e96a581dff7c7d08d28cb8c195c63f3bdbecd284fd117bf",
+    "index_before_sha256": "d8854e2ee26b6e32eb8d2dc51feedea05bc59b08548807b111a2c309464617d4",
+    "work_before_sha256": "d8854e2ee26b6e32eb8d2dc51feedea05bc59b08548807b111a2c309464617d4",
+    "owned_head_after_sha256": "3f99ea65c43aef829c91aad5675311ee8e8c54df4992ca77d767ce7eb4165537",
+    "index_after_sha256": "37af728cd9821902055eb8f75e6b22010c26f4c9453cd5fabc71e4485da64439",
+    "work_after_sha256": "37af728cd9821902055eb8f75e6b22010c26f4c9453cd5fabc71e4485da64439",
+    "dispositions_and_dates_unchanged": true,
+    "inverse_owned_edit_recovers_each_original": true
+  },
+  "synthetic_fixture": {
+    "source": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/governance_repair_2026_10_29/index_preservation_fixture.py",
+    "sha256": "7c31c43e45c61fdc98d4aabe808da9c70442e2ef63bb0ceffddc2522fb6ff543",
+    "outcome": "PASS, 3 rejecting cases; staged and unstaged bytes exactly recoverable; changed blob IDs expected",
+    "prior_attempts": [
+      "Syntax error before execution; no user state touched.",
+      "Synthetic-only assertion rejected an impossible byte-identical Git diff after baseline blob changes; content preservation checks had held. Corrected criterion checks exact inverse bytes and residual hunks."
+    ]
+  },
+  "scientific_execution": false,
+  "gate_code_changed": false,
+  "historical_noncompliance_retained": true,
+  "working_tree_diagnostics": {
+    "path_refs": {
+      "ok": true,
+      "citations_resolved": 3583
+    },
+    "relay_debt": {
+      "ok": true,
+      "counts": {
+        "BANKED": 44,
+        "DECLINED": 26,
+        "OPEN": 171
+      },
+      "un_escalated_stale": 0
+    },
+    "p210_artifact_pins": "all39 plus specification/design/environment unchanged",
+    "clean_clone_certificate": false
+  }
+}

@@ -39,7 +39,7 @@ The following source bodies were read directly, without importing them:
 - B1641, `verification/w46_on_main.py`, and its Review 63 addendum:
   inner lifts, the local boundary action, and the outstanding coherence
   obligation.
-- `docs/POINT_REGISTER.md`, P-074: Gate 12 remains queued.
+- [POINT_REGISTER at the source pin](https://github.com/originaxiom/origin-axiom/blob/2e5716bd9bea013d69f3cd733f083b61a6f59dbd/docs/POINT_REGISTER.md), P-074: Gate 12 remains queued.
 
 The Banking Seat's Gate 11 `PROOF_AND_SCOPE.md` and `NEXT_TEST.md`, in
 the owner's October 13 archive, already identify the obstruction to an
@@ -324,3 +324,12 @@ the faithful cylinder covariance tower. Those duties, compatibility with
 the paper's holomorphic fields and interactions, and the physical end
 law remain open. No existing seal, historical verdict, canonical
 GENESIS statement or priced-input row is changed by this note.
+
+
+## Citation provenance correction, October 29
+
+This navigation-only correction replaces a checkout-relative citation
+with its verified immutable source. The original text remains at commit
+4572f758c4463a0926b102ce65b8be5690a3aa06. Mathematical content and historical read/review
+scope are unchanged. No new scientific reproduction or acceptance is
+asserted. The dated repair receipt records both document hashes.

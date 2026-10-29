@@ -27,7 +27,7 @@ construction. It is a concrete compatibility duty for a possible end.
 Sources were read without importing their executable modules:
 
 - Main `da077b79713b12cf2fa9fad44c243ef00e419ccb`:
-  `frontier/B1343_deriving_the_other_faces/FINDINGS.md` and its entire
+  [B1343 findings at the source pin](https://github.com/originaxiom/origin-axiom/blob/da077b79713b12cf2fa9fad44c243ef00e419ccb/frontier/B1343_deriving_the_other_faces/FINDINGS.md) and its entire
   `verification/b1343_faces.py`. Q1--Q3 compare one local Kodaira
   monodromy with LR and its powers. The producer contains no product-of-
   local-monodromies test. Its broader printed inference is not an
@@ -260,3 +260,12 @@ separates that recovered cancellation from closed-fibre gauge transport,
 vanishing-thimble flatness and the dimensional role of the fibration.
 It preserves nonflat/defect alternatives and the existing interacting
 backgrounds; none is identified with this geometric candidate for free.
+
+
+## Citation provenance correction, October 29
+
+This navigation-only correction replaces a checkout-relative citation
+with its verified immutable source. The original text remains at commit
+4572f758c4463a0926b102ce65b8be5690a3aa06. Mathematical content and historical read/review
+scope are unchanged. No new scientific reproduction or acceptance is
+asserted. The dated repair receipt records both document hashes.

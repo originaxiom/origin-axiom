@@ -131,3 +131,14 @@ The byte-preserved report and receipt are in preflight_2026_10_29/. All
 actual provenance/citation/escalation records before a new preflight. This
 is a governance rejection, not a mathematical failure or a global-green
 claim; mathematical attempt_01 remains unconsumed.
+
+## October 29: metadata repair prepared for a new preflight
+
+The exact-reference registration was committed separately at db1d44b69.
+The subsequent three citation repairs use verified immutable Git targets;
+49 stale OPEN rows now carry named next actions, with dates/dispositions
+retained. Working-tree diagnostics report 3583 citations resolved and no
+un-escalated stale relay debt; this is not a clean-clone certificate.
+Historical seal noncompliance remains explicitly retained. All 39 frozen
+artifacts and specification/design/environment hashes match. The tests
+remain UNRUN until a new strict clean-clone preflight actually admits them.

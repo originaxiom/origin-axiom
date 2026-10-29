@@ -242,7 +242,7 @@ not evidence that main committed or independently accepted this result.
 The complete FINDINGS and added test file were read, without execution.
 FINDINGS SHA256 is
 `0bf9661ec063986f6e15c5b51dc0602aab1544562716489f19c0b300f62d21f5`;
-`tests/test_b1672_discharging_triplet_index_gauge_frontier.py` SHA256 is
+[the historical received test, subsequently archived by main](https://github.com/originaxiom/origin-axiom/blob/5a16562acdce80a7d99a658ffe7c5c307a08781b/frontier/B1672_discharging_triplet_index_gauge_frontier/verification/as_received/lock_as_received.py.txt) SHA256 is
 `bd5b4e056588f0d98ef2b1f634545c74aac7b1f5efe063197a88c59bb6ea86af`.
 
 The purported live local-domain check does not construct the actual
@@ -267,3 +267,15 @@ Omega quotient, with explicit frames and hands. Its full-E extension
 fails on the modulus/lattice-only base by the J_c stabilizer sign.
 This is a useful positive and a precise next monodromy duty, not a
 global rejection of theta-dependent puncture maps.
+
+
+## Citation provenance correction, October 29
+
+This navigation-only correction replaces a checkout-relative citation
+with its verified immutable source. The original text remains at commit
+4572f758c4463a0926b102ce65b8be5690a3aa06. Mathematical content and historical read/review
+scope are unchanged. No new scientific reproduction or acceptance is
+asserted. The dated repair receipt records both document hashes.
+The received test was untracked when originally read. Its later archived
+copy has the original recorded hash; main's replacement live test is a
+different artifact and is not substituted for that historical evidence.
