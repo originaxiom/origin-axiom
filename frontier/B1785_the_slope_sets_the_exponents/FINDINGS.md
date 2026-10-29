@@ -9,7 +9,13 @@ Every flat line on record — B1713's 266 of order ≤ 12 and B1755's 396 of ord
 and Im τ = 4, 5, 6 with B1726's sealed `compute()` (B1656's frame at B1667's end, the Higgs DR, both readings, both
 horocycles). For each sector, reading, horocycle and ratio (m₂/m₃, m₁/m₃), the exponent e = −d ln(ratio)/d(2π Im τ) from
 a least-squares line through the three heights; the residual of that line is ≤ 0.07 everywhere (the leading power has set
-in up to sub-leading terms). No measured value is read.
+in up to sub-leading terms).
+
+> *Corrected 2026-10-29 (S256; the web seat's THE FRAME NULL relay § 5, the owner's no-lead-lost sweep, recounted on main;
+> P-444). "≤ 0.07 everywhere" is false on this arc's own `exponents.json`: 585 of the 15 888 three-height fits exceed
+> 0.07 (515 of them m₁/m₃), 67 exceed 1 (52 of them the leptons' m₁/m₃), the largest 5.52 (leptons, L₂, S̃, m₁/m₃ on
+> (0, 1/12)), where the fitted exponent is near zero or negative: no leading power at these heights. On those fits the
+> exponent is not a leading power; whether the slope-alone statement holds on them is B1788's closed form's question.* No measured value is read.
 
 ## 2. What it shows (the seat's reading: up S̃, down S, leptons S; L_max)
 

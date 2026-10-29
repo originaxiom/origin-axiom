@@ -1,0 +1,7 @@
+{
+ "data p_nn at (S~,S,S), c=3, L_max": 0.12285902503293808,
+ "data best over the 48": 0.16268412438625204,
+ "share of random hierarchies whose best p_nn over the 48 exceeds the data's L_max value": 0.11399999999999999,
+ "the same over the 32 fixed-horocycle configurations": 0.0698,
+ "check: the sealed free null (16, drawn) at 0.05": 0.45499999999999996
+}

@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1517** |
-| words of findings prose | **1,246,844** |
+| research arcs with findings | **1518** |
+| words of findings prose | **1,249,220** |
 | test lock files referenced | **925** |
-| arcs carrying an authored verdict | **1517** (100.0 %) |
-| recorded closures | **854** (687 classified, 167 routed-only) |
+| arcs carrying an authored verdict | **1518** (100.0 %) |
+| recorded closures | **855** (688 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 1035 |
-| NEGATIVE | 378 |
+| NEGATIVE | 379 |
 | OPEN | 93 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 124 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 125 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE WEAVE'S OWN MEASURE DEPENDS ON HOW ITS THREADS ARE COUNTED (the owner's whole-existence computation, stage 1; P-107; data-free): left unforced, the threads produce a definite measure on tau for each counting rule, and the rule is a continuum -- counted move by move (Minkowski's measure, B1663) the limit keeps out of the cusp, P(Im tau > Y) ~ 3.9 * 4^-Y / sqrt(Y) (0.0346 at Y = 3); counted by geometric length it approaches hyperbolic area (0.315 at trace <= 400 against 0.318); weighting words by exp(-s * l) interpolates, the cusp tail's rate falling to zero at the Farey map's phase transition (s = 1, B852), where area lives. P-107 relocated, not settled: the counting rule is CHOSEN. A reading (conditional on H-cov and end data): under the move rule deep hierarchies are power-suppressed; at the critical point they are common. None of the 19.  
 `B1813_the_weaves_own_measure_depends_on_how_its_threads_are_counted/FINDINGS.md`
 
-**NEGATIVE — `B1812`** (1377 words, 0 locks)  
-THE TOWERS IN F-THEORY'S 7-BRANE FRAME (P-415, the owner's towers question; data-free; NEGATIVE for the towers-meeting-at-loci reading): the genesis word LR (trace 3) lies in the single SL(2,Z) class DeWolfe-Hauer-Iqbal-Zwiebach assign to E_10 = E_8^H (a conjugator computed), whose nested subconfigurations A^(N-1)BCC carry su(3)+su(2), su(5), so(10), E6, E7, E8, affine E8; but only so(10)-E8 can collapse to singularities -- su(3)+su(2) (trace -4) and su(5) (trace -3) are hyperbolic and non-collapsible, their algebras organising massive BPS states, not gauge symmetries at a point; the object fixes the total class, not where any tower sits. m003's sign class is E_4's. Among the metallic words only the golden one is an E-series monodromy (content). Complements B1343. None of the 19.  
-`B1812_the_towers_in_f_theorys_seven_brane_frame/FINDINGS.md`
+**NEGATIVE — `B1814`** (2272 words, 0 locks)  
+THE MEASURED WORLD AS A DRAW FROM THE WEAVE'S OWN MEASURE (P-437, stage 3; sealed 86cb26b30; NEGATIVE as sealed for D2's prediction): by the sealed statistic the six do not separate B1813's two clocks (p_F 0.43 under the geometric clock, 0.069 under the move clock) -- the clock is not decided by these numbers, and the test could not have decided it (power about 19%: a world from the critical clock fails D2 about 81% of the time; the p_nn read-out shows the pattern, as for 67% of random hierarchies). The six are not atypical at the 5% level among the geometric clock's resolved worlds, unforced (p_nn 0.072) or with B1726's two ingredients by hand (0.094), CONSISTENT, NOT SPECIFIC (73% and 45% of random hierarchies pass); D1 fails at the floor 1e-8 and the model does not come close (the nearest unforced world 11 sigma away); with the mixings the by-hand world is atypical (0.0017); anarchy puts the data at the estimator's floor. 0 of 19.  
+`B1814_the_measured_world_as_a_draw_from_the_weaves_own_measure/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

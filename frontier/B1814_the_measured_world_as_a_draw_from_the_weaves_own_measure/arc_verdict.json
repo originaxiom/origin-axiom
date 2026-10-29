@@ -1,0 +1,32 @@
+{
+ "id": "B1814",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1813",
+  "B1740",
+  "B1741",
+  "B1733",
+  "B1724",
+  "B1667",
+  "B1726",
+  "B1798"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W57"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling at B1667's canonical end (B1740's module, the Higgs DR); B1813's two clocks (A0: word length <= 16; A1: trace <= 400), the threads' own lines of order <= 12, the configuration drawn per draw",
+  "object": "the measured six (B1741's data and sigmas) among each clock's resolved worlds (all six ratios above 1e-12)",
+  "reach": "single",
+  "hypotheses": "the counting rule, the line cutoff, the floor, the horocycle and readings drawn: CHOSEN; sealed 86cb26b30"
+ },
+ "claim_one_line": "THE MEASURED WORLD AS A DRAW FROM THE WEAVE'S OWN MEASURE (P-437, stage 3; sealed 86cb26b30; NEGATIVE as sealed for D2's prediction): by the sealed statistic the six do not separate B1813's two clocks (p_F 0.43 under the geometric clock, 0.069 under the move clock) -- the clock is not decided by these numbers, and the test could not have decided it (power about 19%: a world from the critical clock fails D2 about 81% of the time; the p_nn read-out shows the pattern, as for 67% of random hierarchies). The six are not atypical at the 5% level among the geometric clock's resolved worlds, unforced (p_nn 0.072) or with B1726's two ingredients by hand (0.094), CONSISTENT, NOT SPECIFIC (73% and 45% of random hierarchies pass); D1 fails at the floor 1e-8 and the model does not come close (the nearest unforced world 11 sigma away); with the mixings the by-hand world is atypical (0.0017); anarchy puts the data at the estimator's floor. 0 of 19.",
+ "weave_or_thread": "weave (the threads' measure, every thread)"
+}

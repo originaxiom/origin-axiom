@@ -12332,5 +12332,29 @@
    "hypotheses": "the identification of the object's word with a 7-brane monodromy CHOSEN (UNEARNED); the configuration by DHIZ's classification conjecture and minimality"
   },
   "weave_or_thread": "thread"
+ },
+ {
+  "id": "B1814",
+  "claim_killed": "That the measured depths separate B1813's two clocks in favour of the critical (geometric) clock: the six typical under A1 and atypical under A0 by the sealed statistic (D2).",
+  "kill_form": "Sealed cell failed (B1814): p_F(A1) 0.43, p_F(A0) 0.069 > 0.05, robust over half-splits, subsamples and configuration seeds; the test was underpowered (about 19% of A1's own draws are atypical under A0), so the clock is not decided by these numbers. Not a negative for the critical clock or for typicality: D1 and D1h hold, not specific.",
+  "hatch": "decide the clock on the theory side (P-438 followed or counted, P-439 the clock, P-440 the pure move clock); or a statistic with power (more numbers with resolved mixings, a deeper census at the floor)",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-29), for tests/test_b833_negative_routing.py",
+  "note": "The p_nn read-out shows the D2 pattern, as 67% of random hierarchies do; neither statistic is specific. The direction of the marginals (the data deeper than 98% of A0's draws in c/t and u/t) is generic: every random hierarchy A0 rejects is rejected on the deep side.",
+  "evidence_consulted": [
+   "B1813",
+   "B1663",
+   "B1741",
+   "B1726"
+  ],
+  "faces_consulted": [],
+  "fact_computed": "4 000 draws per clock through B1740's module; p_nn and p_F among resolved worlds; B1741's random hierarchies over 20 seeds; power both ways; the referee's independent re-implementation and resampling",
+  "scope": {
+   "frame": "B1656's four-channel coupling at B1667's end, the Higgs DR, the threads' own lines of order <= 12",
+   "object": "the measured six (B1741) among B1813's two clocks' resolved worlds (A0 word length <= 16; A1 trace <= 400)",
+   "reach": "single",
+   "hypotheses": "the counting rule, line cutoff, floor, horocycle and readings CHOSEN; sealed 86cb26b30"
+  },
+  "weave_or_thread": "weave"
  }
 ]

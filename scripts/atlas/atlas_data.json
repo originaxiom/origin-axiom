@@ -14171,7 +14171,9 @@
     "z3_generation",
     "wrt_quantum"
    ],
-   "refs": [],
+   "refs": [
+    "S256"
+   ],
    "obstacle": "particle_dict",
    "obstacle_conf": 10,
    "status": "banked",
@@ -14817,6 +14819,20 @@
    "obstacle_conf": 33,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B1814": {
+   "slug": "the measured world as a draw from the weaves own measure",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 22,
+   "status": "open",
+   "domain": "physics"
   },
   "B181": {
    "slug": "criticality scale",

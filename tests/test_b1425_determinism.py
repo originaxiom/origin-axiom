@@ -91,7 +91,7 @@ def test_the_papers_retraction_count_matches_the_index():
              41: "forty-one", 42: "forty-two", 43: "forty-three", 44: "forty-four", 45: "forty-five",
              46: "forty-six", 47: "forty-seven", 48: "forty-eight", 49: "forty-nine", 50: "fifty",
              51: "fifty-one", 52: "fifty-two", 53: "fifty-three", 54: "fifty-four", 55: "fifty-five",
-             56: "fifty-six", 57: "fifty-seven", 58: "fifty-eight", 59: "fifty-nine", 60: "sixty"}
+             56: "fifty-six", 57: "fifty-seven", 58: "fifty-eight", 59: "fifty-nine", 60: "sixty", 61: "sixty-one", 62: "sixty-two", 63: "sixty-three", 64: "sixty-four", 65: "sixty-five"}
     assert len(rows) in words, "extend the number-words table: the index has %d rows" % len(rows)
     paper = (ROOT / "papers" / "P3_THE_PAPER" / "main.tex").read_text()
     m = re.search(r"retractions index holds ([a-z-]+) corrected or withdrawn statements", paper)

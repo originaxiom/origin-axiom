@@ -1,0 +1,25 @@
+{
+ "data d": 11.197118117080507,
+ "n draws as isolated as the data": 219,
+ "n": 3060,
+ "share of them with Im tau > 4 (radii held)": 0.7397260273972602,
+ "share of all resolved with Im tau > 4": 0.11176470588235295,
+ "share of them with min ratio < 1e-8": 0.4611872146118721,
+ "share of them with min ratio < 1e-6 (below the data's least ratio, 7.3e-6)": 0.7853881278538812,
+ "median Im tau of them": 4.884717016433979,
+ "median Im tau, all": 1.637421710359951,
+ "their distance from the data: median, min (sigma)": [
+  50.35495353749732,
+  19.72211170301628
+ ],
+ "data's least ratio": 7.310115297753476e-06,
+ "nearest world: model/measured factors": [
+  0.5168147593483541,
+  0.14600628493870257,
+  2.3300106300683163,
+  0.2520571428171807,
+  0.7421654454059862,
+  0.8592699590319167
+ ],
+ "nearest world Im tau": 3.556938109896516
+}

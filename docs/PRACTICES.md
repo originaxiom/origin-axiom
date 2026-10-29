@@ -40,6 +40,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | No AI labels, seat labels, or the owner's surname in public docs | **TESTED** | `tests/test_public_surface_scan.py` |
 | Commits as `originaxiom`; no AI trailer | **GATED** | `attribution` |
 | No new frontier arc may reuse a B-number | **GATED** | `id-collisions` |
+| The arcs' machine-readable data does not contradict itself (P-420 phase 0, the owner's GO 2026-10-29): no duplicated id beyond the grandfathered, no folder whose number is not its id, no dependency on nothing, on a folder with FINDINGS but no verdict, or on a non-arc id (a seat id goes in `rests_on_seat` or `cites_seat`), and no one-sided supersession in either direction; resolved cases and prose-only candidates are reported by scripts/checks/arc_data.py, not gated | **GATED** | `arc-data` |
 
 ### Views and navigation — the class that drifted
 

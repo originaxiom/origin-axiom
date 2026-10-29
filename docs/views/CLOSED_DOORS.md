@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**854 recorded closures — of which 687 are CLASSIFIED by mechanism and
+**855 recorded closures — of which 688 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -137,6 +137,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Computed and refereed (B1808): one invariant flux with index -3 is (1,1) exactly on a curve; a point needs a second flux with free integers and such points are infinitely many; three or more independent fluxes have no common point; the same for the null matrices B_4..B_7 and for every generation number (U in Lambda_A).` | 1 |  |
 | `Sealed and refereed (B1811): the best chi2_six is 4521.5 against P1's threshold of 16.75 and 9.8% of random hierarchies do as well on the same menu; the chi2-best row overshoots every ratio by 7.5x to 1739x, as do all 22 non-degenerate cells; the other 156 of 208 cells carry a massless state or rank one.` | 1 |  |
 | `Computed and read in the source (B1812): the word's class is DHIZ's E_10; its nested subconfigurations carry su(3)+su(2) ... E8, but su(3)+su(2) and su(5) are hyperbolic of negative trace and cannot collapse (DHIZ-I 7.4), so they are not gauge symmetries at a point; the object fixes only the total class.` | 1 |  |
+| `Sealed cell failed (B1814): p_F(A1) 0.43, p_F(A0) 0.069 > 0.05, robust over half-splits, subsamples and configuration seeds; the test was underpowered (about 19% of A1's own draws are atypical under A0), so the clock is not decided by these numbers. Not a negative for the critical clock or for typicality: D1 and D1h hold, not specific.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

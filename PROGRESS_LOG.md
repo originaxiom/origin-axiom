@@ -18119,3 +18119,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - Unforced, the threads give a measure per counting rule; the geometric count is the move family's critical point. 0 of 19.
 - **Landing suite (S255).** 7 860 passed, 68 skipped, 4 failed in 27:56 — B805's two standing attachment locks (P-239), and the gate tests test_repo_gates and test_b887_gate_audit: the attribution gate counted one vendor-like token in B1813's FINDINGS (the physics word inside a quoted sweep pattern; a new file's baseline is zero). Fixed before the push by rerunning the sweep with an equivalent pattern and quoting its VERDICT line; the views regenerated; the gates and those two tests rerun alone: pass.
+
+## 2026-10-29 — S256 B1814, P-420 PHASE 0, THE NO-LEAD-LOST SWEEP
+
+- B1814: the measured world is not atypical of the weave's critical-clock measure (not specific), and the six do not decide the clock (NEGATIVE as sealed for D2; underpowered). Phase 0: the arcs' data consistent (gate `arc-data`). The owner's sweep: 27 register rows (P-438–P-464), two missed relays harvested and verified, B1785's false sentence corrected. 0 of 19.
+- **Landing suite (S256).** 7865 passed, 68 skipped, 4 failed (30:31; audit/suite_logs/landing_S256.log): B1814's verdict scope (reach written as prose) and its kill-graph scope keys -- both fixed before the push, tests/test_arc_verdict_schema.py rerun, 1528 passed; B805's two attachment locks (standing, P-239). The owner's four points of the evening (P-465-P-468) added after the suite (register rows only).

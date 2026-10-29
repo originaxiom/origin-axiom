@@ -322,3 +322,10 @@ def test_seat_positive_verified_fails_on_an_undeclared_or_unverified_seat_result
     mapping["frontier/B99991_b/arc_verdict.json"] = _json.dumps({"id": "B99991", "verdict": "PROVED", "rests_on_seat": ["sm:W7"],
                                                                  "cites_seat": ["sm:W8"], "claim_one_line": "on W8's lines and W7's frame"})
     ok, msg = gates.gate_seat_positive_verified(reader=reader); assert ok, msg
+
+
+def test_arc_data_fails_on_a_dependency_on_nothing(tmp_path, monkeypatch):
+    d = tmp_path / "frontier" / "B99990_a"; d.mkdir(parents=True)
+    (d / "arc_verdict.json").write_text('{"id": "B99990", "depends_on": ["B99991"]}', encoding="utf-8")
+    monkeypatch.setattr(gates, "ROOT", str(tmp_path))
+    ok, why = gates.gate_arc_data(); assert ok is False and "B99991" in why

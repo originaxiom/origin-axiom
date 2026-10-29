@@ -433,7 +433,10 @@ def gate_views_fresh():
 # Historical collisions predating the gate. GOVERNANCE §12 forbids renaming banked paths
 # ("zero file moves"), so these are GRANDFATHERED explicitly rather than fixed — auditable and
 # versioned, per this file's design rule. NEW collisions still fail.
-GRANDFATHERED_IDS = frozenset({"B58"})
+# P-420 phase 0 (2026-10-29): the folder pattern below read only a lower-case suffix, so B89T_tower_route (an upper-case
+# suffix, carrying "id": "B89") collided with B89_sl4_symbolic_M4L unseen. The pattern now reads either case; B89 is
+# historical (both folders banked in June) and is grandfathered beside B58.
+GRANDFATHERED_IDS = frozenset({"B58", "B89"})
 
 
 def gate_id_collisions():
@@ -451,7 +454,7 @@ def gate_id_collisions():
     for name in sorted(os.listdir(fdir)):
         if not os.path.isdir(os.path.join(fdir, name)):
             continue
-        m = re.match(r"(B\d+)[a-z]?_", name)
+        m = re.match(r"(B\d+)[A-Za-z]?_", name)
         if not m:
             continue
         bid = m.group(1)
@@ -1694,6 +1697,22 @@ def gate_seat_positive_verified(reader=None):
     return True, "ok (%d declared seat dependencies, all VERIFIED or REPRODUCED on main)" % len(rests)
 
 
+def gate_arc_data():
+    """P-420 phase 0 (the owner's GO, 2026-10-29): the arcs' machine-readable data a generated desk reads must not
+    contradict itself. scripts/checks/arc_data.py's defect classes D1-D6 must be empty: a duplicated id (beyond the
+    grandfathered), a folder whose number is not its id, a dependency on nothing, on a folder with FINDINGS but no verdict,
+    on a non-arc id (a seat id belongs in rests_on_seat or cites_seat), or a one-sided supersession. The resolved cases
+    (R1-R5) and the prose-only candidates (D7) are reported, not gated."""
+    import importlib.util as _ilu
+    sp = _ilu.spec_from_file_location("arc_data", os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "checks", "arc_data.py"))
+    m = _ilu.module_from_spec(sp); sp.loader.exec_module(m)
+    out = m.check(root=ROOT)
+    bad = {k: v for k, v in out.items() if k[:2] in ("D1", "D2", "D3", "D4", "D5", "D6") and v}
+    if bad:
+        return False, "; ".join("%s: %s" % (k, (list(v)[:4] if isinstance(v, dict) else v[:4])) for k, v in bad.items())[:600]
+    return True, "ok (%d verdict files; D1-D6 empty; %d prose-only candidates reported)" % (out["verdict files"], len(out["D7 relation in prose only (candidates)"]))
+
+
 GATES = {
     "identification-register": gate_identification_register,
     "framing": gate_framing,
@@ -1707,6 +1726,7 @@ GATES = {
     "review-actions": gate_review_actions,
     "views-fresh": gate_views_fresh,
     "id-collisions": gate_id_collisions,
+    "arc-data": gate_arc_data,
     "knowledge-index": gate_knowledge_index,
     "path-refs": gate_path_refs,
     "tracked-deps": gate_tracked_deps,

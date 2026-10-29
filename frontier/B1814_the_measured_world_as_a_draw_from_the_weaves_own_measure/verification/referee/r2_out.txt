@@ -1,0 +1,6 @@
+rows 8000 unique (arm,i) 8000
+tasks() 134.2 s
+task-field mismatches: 0
+A0 capped 0 capped rows lacking frame keys 0 uncapped rows with frame keys 4000 warned 0 order>12 0 Im<1 325
+A1 capped 41 capped rows lacking frame keys 41 uncapped rows with frame keys 3959 warned 0 order>12 0 Im<1 180
+recomputed 60 rows in 51 s; rows with any difference: 0
