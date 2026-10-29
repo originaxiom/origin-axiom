@@ -119,3 +119,15 @@ generic-stabilizer qualifications remain. A scientific run still needs
 the literal command, pinned runtime, fresh clean clone, externally
 verified wrapper chain and strict prospective gate. At this status
 update no mathematical import, collection or test has occurred.
+
+## October 29: actual clean-clone preflight outcome
+
+The real-main-bound package was launched in a fresh clean clone under the
+pinned runtime and externally verified source chain. The strict prospective
+gate rejected attribution, path-reference and stale-relay metadata, exit 2.
+Scientific output creation, imports, collection and tests did not begin.
+The byte-preserved report and receipt are in preflight_2026_10_29/. All
+39 frozen source pins still match; the clone remained clean. Repair the
+actual provenance/citation/escalation records before a new preflight. This
+is a governance rejection, not a mathematical failure or a global-green
+claim; mathematical attempt_01 remains unconsumed.

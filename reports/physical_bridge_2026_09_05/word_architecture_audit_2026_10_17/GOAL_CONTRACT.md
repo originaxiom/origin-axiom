@@ -803,6 +803,24 @@ test was run. Independent review, finite spectral values and a derived
 physical state/end mechanism remain required. Earlier seals/review scope
 and the full input-reduction SM/three/gravity goal are unchanged.
 
+## October 29: all-head sync and conditional full-trace reduction
+
+The [dated cross-seat intake](CROSS_SEAT_SYNC_2026_10_29.md) records all
+14 fetched heads and the source-reading limits. Reuse SM's twisted norms
+and cusp exponents; preserve main/chat1's separate clock/measure work.
+The [new full-trace proof](TWO_HEAT_RESPONSES_AND_SCALE_FREE_COUPLING.md)
+is authored UNREVIEWED analysis on our supplied action/domain. It proposes
+two ordinary heat-response families and one relative coupling combination
+without common-scale or matching-switch dependence on the nonexceptional
+character family, for all extending spins. Computational compression is
+not counted as a physical input removal. No foundational row is paid.
+
+P210's actual main review/acceptance remain bound, but the clean-clone
+preflight rejected three governance metadata gates before science began.
+The byte-preserved [receipt](verification_p210/preflight_2026_10_29/RECEIPT.json)
+records exit 2 and unchanged frozen sources. Tests are UNRUN; repair the
+actual metadata before a new preflight, without changing sealed code.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

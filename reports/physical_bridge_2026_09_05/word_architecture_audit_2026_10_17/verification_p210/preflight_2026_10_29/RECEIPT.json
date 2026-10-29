@@ -1,0 +1,50 @@
+{
+  "client_date": "2026-10-29",
+  "kind": "PREFLIGHT_REJECTION_NOT_SCIENTIFIC_ATTEMPT",
+  "execution_head": "a89e061e195e8490ed490d2a9b482a7b64409e4c",
+  "exit_code": 2,
+  "real_main_review_bound": true,
+  "real_main_acceptance_bound": true,
+  "strict_checkout_after": {
+    "clean": true,
+    "errors": {},
+    "head_after": "a89e061e195e8490ed490d2a9b482a7b64409e4c",
+    "head_before": "a89e061e195e8490ed490d2a9b482a7b64409e4c",
+    "index_changes": [],
+    "worktree_changes": []
+  },
+  "errors": [
+    "other governance failures: attribution, path-refs, relay-debt"
+  ],
+  "failed_governance": {
+    "attribution": [
+      false,
+      [
+        "reports/physical_bridge_2026_09_05/relays/RELAY_INVENTORY_2026-10-24.json (75 vendor tokens, baseline 0)",
+        "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CROSS_SEAT_CUSTODY_2026_10_26.json (15 vendor tokens, baseline 0)"
+      ]
+    ],
+    "path-refs": [
+      false,
+      "3 unresolved path citation(s): reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COHERENT_WORD_LIFTS_AND_LOCAL_BOUNDARY.md -> docs/POINT_REGISTER.md; reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FRONTIER_RESOLUTION_REPORT_INTAKE.md -> tests/test_b1672_discharging_triplet_index_gauge_frontier.py; reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GLOBAL_ELLIPTIC_FACTORISATION_AND_REGISTER_PRICE.md -> frontier/B1343_deriving_the_other_faces/FINDINGS.md"
+    ],
+    "relay-debt": [
+      false,
+      "relay-debt: 44 banked, 26 declined, 171 open |   relay-debt: 49 UNESCALATED STALE DEBT(S) \u2014 escalate by name or close -- |     CODEX_TO_CC_AND_SM_2026-10-04_RIGIDITY_TRANSPORT_R84.md: OPEN for 25 days (> 21), no ESCALATED marker |     PHYSICAL_BRIDGE_TO_TOWER_AND_INTERACTION_2026_10_01_R75.md: OPEN for 28 days (> 21), no ESCALATED marker |     PHYSICAL_BRIDGE_TO_SOURCE_AND_HIGGS_2026_10_02_R76.md:"
+    ]
+  },
+  "science_outputs_created": false,
+  "science_import_collection_or_tests_started": false,
+  "basis_for_no_science_execution": "Frozen runner returns on rejected prospective gate before output creation, scientific import or collection; both reserved output paths remain absent.",
+  "reserved_output_paths_retained": [
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/results/attempt_01.jsonl",
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/results/attempt_01.log"
+  ],
+  "source_pins_after_match": true,
+  "stdout_uncompressed_sha256": "bc21562178e3890d16b325141a6fea1cc16df89b15d691c2c6607524b841aa4f",
+  "stdout_uncompressed_bytes": 248176,
+  "compression": "gzip, mtime=0; decompressed bytes equal original capture",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "historical_failures_retained": true,
+  "next_action": "Repair actual provenance/citation/escalation records without modifying the sealed source/gate chain or weakening enforcement; then a new clean-clone preflight. A preflight failure does not consume mathematical attempt_01."
+}

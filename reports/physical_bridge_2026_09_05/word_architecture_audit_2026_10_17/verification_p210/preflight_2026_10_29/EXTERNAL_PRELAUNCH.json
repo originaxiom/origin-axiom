@@ -1,0 +1,41 @@
+{
+  "client_date": "2026-10-29",
+  "stage": "external_prelaunch_metadata_only",
+  "head": "a89e061e195e8490ed490d2a9b482a7b64409e4c",
+  "canonical_main_commit": "52dc780da5b30b4ee6b6c46df7a2f865af1f382c",
+  "clone": "fresh local shared clone of committed audit branch; no copied untracked workspace files",
+  "main_reference_provenance": "local git fetch of canonical source checkout origin/main after successful GitHub fetch; source/clone object IDs equal; direct clone GitHub fetch failed SSH authentication",
+  "artifact_pins_verified": 39,
+  "design_verified": true,
+  "specification_verified": true,
+  "wrapper_chain_verified_before_import": true,
+  "clean_including_untracked": true,
+  "reserved_outputs_absent": true,
+  "runtime": "3.12.1",
+  "packages": {
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "science_imported": false,
+  "review": {
+    "commit": "54cfec661b80293985b3b48f5b4d3b0c0f7e2653",
+    "path": "frontier/B1787_p210_reviewed_and_accepted_by_main/MAIN_REVIEW.json",
+    "sha256": "392e593cd9fb98de45ac92f81be7c3881c7edeb4c6449ba170a90a425933406c"
+  },
+  "acceptance": {
+    "commit": "8ca002cd13152f79f699799c6dac55d80d0cb74e",
+    "path": "frontier/B1787_p210_reviewed_and_accepted_by_main/ACCEPTANCE.json",
+    "sha256": "54fcc2351c32c27384a58485bb814668eeb5bae39a0cf809e9b57f037dd17539"
+  },
+  "literal_argv": [
+    "python3",
+    "-B",
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/run_checks.py",
+    "--admission",
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/ADMISSION.json",
+    "--output",
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/results/attempt_01.jsonl",
+    "--log",
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/results/attempt_01.log"
+  ]
+}

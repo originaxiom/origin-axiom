@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-29",
+  "status": "UNREVIEWED authored conditional proof; not a scientific preregistration or admission",
+  "base_commit": "a89e061e195e8490ed490d2a9b482a7b64409e4c",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/TWO_HEAT_RESPONSES_AND_SCALE_FREE_COUPLING.md",
+      "sha256": "816c77db9e26fa18574a5ca2656aff7c35664e97ccffb816e217c0000dc098c3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_FERMION_RELATIVE_HEAT_EXISTENCE.md",
+      "sha256": "81ff70cb5b04867cb972cb0af518ab4d7b56b1d838ac61cab9a5dc433e35a623"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/RELATIVE_HEAT_ADMISSION_AND_SCALE_DEPENDENCE.md",
+      "sha256": "c296b3b85b85d0e97de0d7d523ee32f6050b26cbea5d5be0926adb8c75a59498"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    }
+  ],
+  "quantifier": "Supplied curved action, principal R=0 parallel phase, hyperbolic once-punctured elliptic carrier, fixed complete domains and peripheral-trivial unitary flat line. Concrete finite character table uses the source order-seven line.",
+  "scientific_execution": "none; no CAS, new tests, heat computation or empirical comparison",
+  "primary_reading": {
+    "url": "https://arxiv.org/pdf/dg-ga/9607005",
+    "access_date": "2026-10-29",
+    "scope": "Complete III section 3.5 only; relative graded heat/index theorem with hypotheses; no whole-book claim"
+  },
+  "dependency_accounting": {
+    "computational": "Two ordinary operator families, six nontrivial character evaluations in the order-seven example; not two free constants",
+    "observable_level": "One relative coupling combination loses common mass scale and matching-switch dependence on the nonexceptional character family",
+    "foundational_inputs_removed": 0
+  },
+  "review": "owed; no acceptance for P210 extends to this proof",
+  "controls": "Analytic rejecting controls stated in section 8; no executed test claim"
+}
