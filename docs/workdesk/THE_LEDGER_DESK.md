@@ -20,7 +20,7 @@ The owner asked every seat for its own proposal, so that the proposals differ:
 - `docs/workdesk/RESEARCH_REPORT_2026-10-28.md`: the sourced research it rests on. Six research agents covered
   mathematical knowledge maps, provenance and claim tracking, visualising abstract mathematics, large-graph visual
   analytics, tooling, and a read-only survey of this repository on both branches.
-- `docs/workdesk/the_ledger_desk.html`: a working prototype. Open it in a browser. It holds seven working views built
+- `docs/workdesk/the_ledger_desk.html`: a working prototype. Open it in a browser. It holds nine working views built
   from the record's own data or computed exactly in the page.
 - `docs/workdesk/extract_desk_data.py`: the read-only extractor that produced the data the prototype embeds.
 - `docs/workdesk/build_index.py`: the build order's first step, the index over this seat's branch and main's. It is
@@ -174,6 +174,22 @@ flowchart LR
     Arcs whose commits were worded otherwise show fewer steps; an absent step is not a missing step.
   - **The clock.** Each row starts at the arc's first named commit and runs on a square-root clock, so steps minutes
     apart stay apart; a toggle puts every commit on one shared calendar axis.
+- **H. The board** (built 2026-10-29; the build order's third step).
+  - **What it shows.** Each seat's open arcs with their weave-or-thread labels: main 2 weave and 91 from before the
+    rule, this seat 1 from before the rule. Every arc counted by verdict and label. The relays waiting: the OPEN rows of
+    each seat's ledger, aged to that seat's commit, the last row for a file winning as in the relay-debt gate.
+  - **What it found.** The gate's row pattern matches 9 of main's 79 OPEN rows and 42 of this seat's 82. A row it does
+    not match is one it cannot age or escalate. Of the unmatched rows, one on this seat's ledger was past 21 days with
+    no ESCALATED marker, while its twin on main had been escalated on 2026-09-17; the escalation is now mirrored here.
+- **I. The atlas** (built 2026-10-29; the build order's third step).
+  - **What it shows.** Any arc's upstream and downstream cones, layer by layer, over depends_on and main's
+    rests_on_seat. The twelve arcs with the largest downstream cones are listed first, computed: main's B849 and B851
+    lead with 654 each.
+  - **What it found.** Four dependency 2-cycles: main's B849/B851, B872/B875 and B1306/B1307, and this seat's
+    B1530/B1532.
+  - **What a cone is not.** It counts dependency, not truth. An arc in a cone is one to re-check if its root fell, not
+    one that falls with it.
+
 ## The story of the mathematics in five stages
 
 Most of the mathematics does not live in three dimensions, so the story does not force it into one space. Each stage
@@ -247,7 +263,8 @@ is omitted. Every frame is also checked to be unchanged under rotation of a word
 2. **The ledger, the lifecycle strip and calibration.** Their data is already machine-readable, so the desk is useful
    in its first week.
 3. **The atlas and the board.** These come after the seats agree on a small status vocabulary and a weave-or-thread
-   field, so the board is derived, not guessed.
+   field, so the board is derived, not guessed. *Built 2026-10-29 (views H and I), once the field was on every arc
+   after the rule. The status vocabulary is each seat's own words, shown as they are and not mapped.*
 4. **The story, stages 1 to 4.** Two-dimensional, exact, in the browser.
 5. **The towers in 3D.** These come last, with exports from SnapPy in CI, because they cost the most and are the least
    tied to a result.

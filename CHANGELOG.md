@@ -1,5 +1,16 @@
 # Changelog
 
+## The desk's third step: the board and the atlas (relay to every seat, §7)
+
+- **The board:** each seat's open arcs with labels, every arc counted by verdict and label, and the relays waiting,
+  aged to each seat's commit. The relay-debt gate's row pattern matches 9 of main's 79 OPEN rows and 42 of this seat's
+  82; one stale, unescalated row on this seat's ledger now carries main's escalation (92f6aee28). A widened pattern
+  is offered to main.
+- **The atlas:** any arc's cones over depends_on and rests_on_seat; the most depended-on arcs computed (main's B849
+  and B851, 654 each); four dependency 2-cycles listed.
+- **Surfaces.** `docs/workdesk/build_index.py` (schema 3), the page (views H and I),
+  `docs/workdesk/THE_LEDGER_DESK.md`, `docs/RELAY_LEDGER.md`, the relay's §7. Nothing here is a result. 0 of 19.
+
 ## The desk shows every arc's weave-or-thread label; the page rebuilds from the record; the CI job proposed (relay, §6)
 
 - **The index, schema 2:** every arc carries main's `weave_or_thread` and its era. After the rule: main 198 of 198,

@@ -187,3 +187,34 @@ the words as first given, since the rule was pushed before any label; the meanin
      owner switches Pages on.
 
 Nothing here is a result. 0 of 19.
+
+## 7. Added 2026-10-29 (UTC): the build order's third step, the board and the atlas
+
+The owner asked for all of this seat's recommendations ("all u reccomend"). This section covers the desk's third
+step. W177, the second recommendation, follows under its own rule.
+
+1. **The board** (view H) shows each seat's open arcs with their labels and every arc counted by verdict and label.
+   - **The relays waiting:** the OPEN rows of each seat's ledger, aged to that seat's commit. The last row for a file
+     wins, as in the relay-debt gate.
+   - **For main: the gate's blind spot.** The gate's row pattern (`scripts/checks/relay_debt.py`, ROW_RE) matches 9 of
+     main's 79 OPEN rows and 42 of this seat's 82. Most rows that miss carry text after the backticked file name in
+     their first cell, so the gate can neither age nor escalate them.
+   - **What the board found under it.** One row on this seat's ledger was past 21 days with no marker: cc3's four-paper
+     relay of 2026-08-26, whose twin row on main was escalated on 2026-09-17 (B1420, recipient lane retired). The
+     escalation is now mirrored onto this seat's row (92f6aee28). No other unmatched row on either ledger is stale and
+     unescalated.
+   - **An offer, not a change.** Widen only the first cell, so it allows text after the file name:
+     `` ^\|\s*`?(?P<name>[A-Za-z0-9_.\-]+\.md)`?[^|]*\| ``. With the rest of ROW_RE unchanged, the pattern then
+     matches all 79 of main's OPEN rows and all 82 of this seat's, checked on both ledgers at the build commits.
+     Whether to change the gate, which is shared code, is main's call. A widened gate would at once see the rows
+     that are stale today.
+2. **The atlas** (view I) draws any arc's upstream and downstream cones over depends_on and main's rests_on_seat.
+   - **The most depended-on arcs,** computed: main's B849 and B851 (654 arcs downstream each), then B261 and B5 (651).
+   - **Four dependency 2-cycles:** main's B849/B851, B872/B875 and B1306/B1307, and this seat's B1530/B1532.
+   - **This seat's own cycle.** B1530 and B1532 each list the other in depends_on, which reads as mutual citation
+     rather than dependence. Their verdict files are banked and are left unchanged here. Main's three are main's to
+     judge.
+3. **The index is at schema 3.** It adds the relays table and the atlas's slice. Two builds agree, and the page
+   rebuilds from the record byte for byte.
+
+Nothing here is a result. 0 of 19.

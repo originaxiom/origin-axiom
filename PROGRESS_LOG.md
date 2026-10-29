@@ -21456,3 +21456,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Going live:** a ready-made job is waiting for the main seat to adopt. Once it does and you switch the page on in the
   repository's settings, the desk updates itself after every change. It will be public, as the repository is.
   0 of 19.
+
+## 2026-10-29 — the desk's board and map of what rests on what
+
+- **The board:** what is open on each seat, and which messages between the seats are still waiting and for how long.
+  It found that the automatic check on waiting messages can only see a small share of them, because of how their rows
+  are written; one overdue one of this seat's own has been flagged, and a fix is offered to the main seat.
+- **The map:** pick any result and see what it rests on and what rests on it. The most leaned-on results are two of
+  the main seat's from August. Four pairs of results each say they rest on the other; they are listed for checking.
+  0 of 19.
