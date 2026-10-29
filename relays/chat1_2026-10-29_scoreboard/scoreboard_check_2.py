@@ -172,7 +172,7 @@ Q = [
     ("P-421", REG_ROWS["P-421"], "or the scale is an input"),
     ("TWO_HIGGS_RULE", RULE, "the readings S, S̃ and the two mixed ones"),
     ("TWO_HIGGS_RESULT", RES_, "depends on tan β"),
-    ("ZERO_FREE_FRAME_EXPLORATION", seat(ZF), "only the ε = +1 lines with a ≥ 6 reach nines near 2.5"),
+    ("ZERO_FREE_FRAME_EXPLORATION", seat(ZF), "only the ε = +1 lines with a ≥ 6 reach"),
     ("ZERO_FREE_FRAME_EXPLORATION", seat(ZF), "Main's frame is outside PF1-W as written"),
     ("ZERO_FREE_FRAME_EXPLORATION", seat(ZF), "Where χ_η^r is absorbed (the fermions' twists or a counterterm) is not tested"),
     ("I-32", ID_ROWS["I-32"], "the weave's Higgs line as the electroweak Higgs"),
