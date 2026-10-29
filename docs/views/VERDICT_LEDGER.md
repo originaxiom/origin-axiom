@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1516 of 1516 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1517 of 1517 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1034)
+## PROVED (1035)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1046,6 +1046,7 @@
 | `B1807` | THE FIRST GENERATION AT THE SPECIAL POINTS, AND WHAT THE END RADIUS CHANGES (P-431; data-free; PROVED under H-cov at zero line): a.R = -f2 eta^6/4 and a.a = (eta^6/4)(f1^2 - 2 f0 f2 - (5/144) E4 f2^2) exactly, so in the L-free coupling the near-point exponents are zero orders of two scalar forms (the 1/L coefficient of m1/m3 vanishes at p to order nu_p(D) + nu_p(f2); m2/m3 to order nu_p(g)); at the canonical end radius (L of order one, B1667) the channel splitting decides near i: m1(i) = 0 at every L and m1/m3 ~ |tau - i| for every k = 3/2 mod 4 section with a(i) != 0, and on the k = 7/2 mod 4 isotropic branches m2/m3(i) = O(1/L); the record's parameter-free sections at i: DR (0, 1) at every L, B1697's a0 m2/m3 = 2/3 exactly. The weight class sets the exponents; nothing sets the scale. None of the 19. |  | 0 |
 | `B1809` | WHAT FOUR FRAMES ON RECORD LEAVE FREE (P-406 re-scoped; a census with one classical lemma; data-free): for every discrete choice on record each of four frames keeps a continuous datum nothing on record fixes or an infinite discrete menu nothing on record selects; the configurations the object's symmetry fixes are (i,0), (omega,0), (i,(1/2,1/2)), (omega,(1/3,2/3)); there the outputs are degeneracies, J = 0, or numbers set by the discrete choices -- Table T, which at B1667's L_2(i) runs from m2/m3 = 0.019 (a Higgs along R) to 1 (a0: (0.0753, 0.658); DR: (0, 1)); 'hierarchy' is not defined here, the table is the statement and P-432 completes it. Refereed hostile twice; main's own driver reproduces the table. None of the 19. |  | 0 |
 | `B1810` | THE SYMMETRY-SELECTION VALUE TABLE (P-432, first half; data-free): the frame's outputs at the four configurations the object's symmetry fixes, for Table T's directions and B1730's complete n = 1 family (13 directions, 832 rows, 206 distinct outputs); up and down coincide there up to phase (B1703: N | 6); at omega every direction falls on a stabiliser eigenline, the output (0, 1) or rank one; at (i, 0) every listed direction shares one left eigenbasis, so V is a permutation; on the 2-torsion line at i the first generation is massless for every listed direction but DR and a split reading gives one angle of order 1/L (0.101 at L_2(i), 9e-5 at L = 2560), a permutation as L -> infinity; J = 0 wherever V is defined. The directions are an infinite discrete family (a ladder in kappa at i), so these outputs are a comb indexed by a discrete choice. None of the 19. |  | 0 |
+| `B1813` | THE WEAVE'S OWN MEASURE DEPENDS ON HOW ITS THREADS ARE COUNTED (the owner's whole-existence computation, stage 1; P-107; data-free): left unforced, the threads produce a definite measure on tau for each counting rule, and the rule is a continuum -- counted move by move (Minkowski's measure, B1663) the limit keeps out of the cusp, P(Im tau > Y) ~ 3.9 * 4^-Y / sqrt(Y) (0.0346 at Y = 3); counted by geometric length it approaches hyperbolic area (0.315 at trace <= 400 against 0.318); weighting words by exp(-s * l) interpolates, the cusp tail's rate falling to zero at the Farey map's phase transition (s = 1, B852), where area lives. P-107 relocated, not settled: the counting rule is CHOSEN. A reading (conditional on H-cov and end data): under the move rule deep hierarchies are power-suppressed; at the critical point they are common. None of the 19. |  | 0 |
 
 ## NEGATIVE (378)
 

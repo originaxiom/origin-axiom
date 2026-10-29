@@ -14799,6 +14799,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1813": {
+   "slug": "the weaves own measure depends on how its threads are counted",
+   "motifs": [
+    "arrow",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "B852",
+    "S163",
+    "S164",
+    "S245",
+    "S248"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 33,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B181": {
    "slug": "criticality scale",
    "motifs": [

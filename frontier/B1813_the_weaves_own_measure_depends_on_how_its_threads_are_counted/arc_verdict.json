@@ -1,0 +1,30 @@
+{
+ "id": "B1813",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B852",
+  "B1662",
+  "B1663",
+  "B1691",
+  "B1720",
+  "B1733"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "W57"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's threads (primitive positive words with both letters = PSL(2,Z)'s hyperbolic classes), each with its closed geodesic's arclength measure",
+  "object": "the measure the threads generate on the modular surface's height, by counting rule",
+  "reach": "class",
+  "hypotheses": "the counting rule CHOSEN; the hierarchy reading conditional on H-cov and on end data on v+"
+ },
+ "claim_one_line": "THE WEAVE'S OWN MEASURE DEPENDS ON HOW ITS THREADS ARE COUNTED (the owner's whole-existence computation, stage 1; P-107; data-free): left unforced, the threads produce a definite measure on tau for each counting rule, and the rule is a continuum -- counted move by move (Minkowski's measure, B1663) the limit keeps out of the cusp, P(Im tau > Y) ~ 3.9 * 4^-Y / sqrt(Y) (0.0346 at Y = 3); counted by geometric length it approaches hyperbolic area (0.315 at trace <= 400 against 0.318); weighting words by exp(-s * l) interpolates, the cusp tail's rate falling to zero at the Farey map's phase transition (s = 1, B852), where area lives. P-107 relocated, not settled: the counting rule is CHOSEN. A reading (conditional on H-cov and end data): under the move rule deep hierarchies are power-suppressed; at the critical point they are common. None of the 19.",
+ "weave_or_thread": "weave (every thread; the measure they generate)"
+}

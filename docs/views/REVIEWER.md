@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1516** |
-| words of findings prose | **1,245,142** |
+| research arcs with findings | **1517** |
+| words of findings prose | **1,246,844** |
 | test lock files referenced | **925** |
-| arcs carrying an authored verdict | **1516** (100.0 %) |
+| arcs carrying an authored verdict | **1517** (100.0 %) |
 | recorded closures | **854** (687 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1034 |
+| PROVED | 1035 |
 | NEGATIVE | 378 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1810`** (1794 words, 0 locks)  
-THE SYMMETRY-SELECTION VALUE TABLE (P-432, first half; data-free): the frame's outputs at the four configurations the object's symmetry fixes, for Table T's directions and B1730's complete n = 1 family (13 directions, 832 rows, 206 distinct outputs); up and down coincide there up to phase (B1703: N | 6); at omega every direction falls on a stabiliser eigenline, the output (0, 1) or rank one; at (i, 0) every listed direction shares one left eigenbasis, so V is a permutation; on the 2-torsion line at i the first generation is massless for every listed direction but DR and a split reading gives one angle of order 1/L (0.101 at L_2(i), 9e-5 at L = 2560), a permutation as L -> infinity; J = 0 wherever V is defined. The directions are an infinite discrete family (a ladder in kappa at i), so these outputs are a comb indexed by a discrete choice. None of the 19.  
-`B1810_the_symmetry_selection_value_table/FINDINGS.md`
+**PROVED — `B1813`** (1702 words, 0 locks)  
+THE WEAVE'S OWN MEASURE DEPENDS ON HOW ITS THREADS ARE COUNTED (the owner's whole-existence computation, stage 1; P-107; data-free): left unforced, the threads produce a definite measure on tau for each counting rule, and the rule is a continuum -- counted move by move (Minkowski's measure, B1663) the limit keeps out of the cusp, P(Im tau > Y) ~ 3.9 * 4^-Y / sqrt(Y) (0.0346 at Y = 3); counted by geometric length it approaches hyperbolic area (0.315 at trace <= 400 against 0.318); weighting words by exp(-s * l) interpolates, the cusp tail's rate falling to zero at the Farey map's phase transition (s = 1, B852), where area lives. P-107 relocated, not settled: the counting rule is CHOSEN. A reading (conditional on H-cov and end data): under the move rule deep hierarchies are power-suppressed; at the critical point they are common. None of the 19.  
+`B1813_the_weaves_own_measure_depends_on_how_its_threads_are_counted/FINDINGS.md`
 
 **NEGATIVE — `B1812`** (1377 words, 0 locks)  
 THE TOWERS IN F-THEORY'S 7-BRANE FRAME (P-415, the owner's towers question; data-free; NEGATIVE for the towers-meeting-at-loci reading): the genesis word LR (trace 3) lies in the single SL(2,Z) class DeWolfe-Hauer-Iqbal-Zwiebach assign to E_10 = E_8^H (a conjugator computed), whose nested subconfigurations A^(N-1)BCC carry su(3)+su(2), su(5), so(10), E6, E7, E8, affine E8; but only so(10)-E8 can collapse to singularities -- su(3)+su(2) (trace -4) and su(5) (trace -3) are hyperbolic and non-collapsible, their algebras organising massive BPS states, not gauge symmetries at a point; the object fixes the total class, not where any tower sits. m003's sign class is E_4's. Among the metallic words only the golden one is an E-series monodromy (content). Complements B1343. None of the 19.  

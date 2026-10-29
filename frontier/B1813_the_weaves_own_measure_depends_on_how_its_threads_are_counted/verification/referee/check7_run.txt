@@ -1,0 +1,5 @@
+n=14  median ell=11.4  max |P_axis - P_runs| (Y=2) = 0.0038
+n=30  median ell=24.2  max |P_axis - P_runs| (Y=2) = 0.0019
+n=40  median ell=31.8  max |P_axis - P_runs| (Y=2) = 0.0040
+n=50  median ell=39.6  max |P_axis - P_runs| (Y=2) = 0.1094
+n=70  median ell=56.0  max |P_axis - P_runs| (Y=2) = 0.2548

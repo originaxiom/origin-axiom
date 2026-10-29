@@ -1,0 +1,46 @@
+  B530    PROVED    The four-letter object's own grammar is golden at three nested levels, its growth is a mirror plus a symplectic form, and its pure discrete spectrum is certified.
+  B532    PROVED    The interaction grammar reduces to a four-word irreducible kernel anchored at the self-containing sigma(a)=abAAB; period-3 is absent from the spectrum.
+  B535    PROVED    One measured Perron number plus the object's own grammar determines the substitution uniquely up to conjugacy; the coupling census saturates at 6 Perron types.
+  B540    PROVED    The observer flow closes on 12 canonical systems with three fixed points and one ℤ/2 two-cycle, correcting B535's window-length-limited census.
+  B552    PROVED    coker(I−M) ≅ ℤ/11 with primitive left generator χ=(1,3,6,7) is conserved by σ and transported unchanged along the observer flow, and it decouples from the double clock.
+  B553    PROVED    Verified exact from seat-1's session: |det(A_m - I)| = m^2 (the metallic Weil level), the odd-Fibonacci Markoff cluster, and Z/11-charge-clock decoupling; two errors corr
+  B554    NEGATIVE  The meditation's central Station-4 claim (species = forward bit-pairs) is refuted - 61% mismatch and the forward bigram does not determine the species - while three stati
+  B556    PROVED    ESTABLISHED exactly: T(M)=[[M,M],[M^2,M]] sends the golden Fibonacci matrix to the sigma_4 incidence matrix verbatim, and the field doubles at every verified rung (norm-s
+  B567    NEGATIVE  The proposed six-level pi/3-spaced Hamiltonian spectrum is impossible: the level-15 Weil monodromy has projective order 20 with 11 distinct eigenvalues.
+  B579    NEGATIVE  The July-14 handoff is deflated: its T(F) characteristic polynomial is wrong (true one is the banked D4 quartic), two attributions fail, the phi-power scan is routed to h
+  B584    PROVED    On the golden stage SU(3)_2 the entire amplitude -1/phi is theta-odd, heard only by the antiphase mirror channel; the theta-even block cancels exactly.
+  B585    PROVED    The θ-odd channel is exactly what the two SL(2,ℤ) lifts agree on, and the figure-eight's chiral SU(3)_k trace obeys the two-tone law 1·[4|κ]−(1/φ)·[5|κ] (5/5 held-out hit
+  B596    NEGATIVE  The preregistered prediction fails on the blind sweep: the θ-odd block's clock is not the naive cat-map period in any registered form.
+  B597    NEGATIVE  Distinct theta-odd widths and theta-even torsions structurally exclude the free-rotation outcome C (conditionally), narrowing D1 to the existence question.
+  B600    NEGATIVE  Z₄ = Tr ρ₄(A₁) = 0 and Tr(Θρ₄) = 0 at E₆ level 4 (κ=16), reproduced in an independent pipeline and certified exactly in the integrated packet, so H133 dies at its own reg
+  B601    PROVED    trace(B_odd)(kappa) = [5|kappa]/phi - [4|kappa] holds exactly on 14 kappa-points including two registered discriminating predictions, and coincides with B587's LAW-O, mak
+  B605    PROVED    Door 2 settled: the amphichiral involutions are FREE deck transformations, not reflections (Gieseking control).
+  B609    PROVED    The Phase-2 sealed value table is banked: exact Killing-class mixing fractions, hearing amplitudes and finite-order kappa spectra, hashed before any comparison exists.
+  B611    NEGATIVE  Both sealed predictions failed: amphichirality-implies-conjugation-closure breaks on a degenerate one-dimensional edge, and the unit-circle-departure candidate is vacuous
+  B619    NEGATIVE  Both A5-bridge readings are refuted by computed group orders (clock order 20; projective image over 400); only a shared-arithmetic remark survives.
+  B629    PROVED    The interaction-layer value bank: values sealed by hash, with NO comparison of any kind performed in this arc.
+  B635    PROVED    The audit seat's computations were reproduced in-sandbox (all gates pass, 162/162 coboundary descents, h1(D;27)=2 at the full-E6 bends, the -A1 weld fails to descend) and
+  B646    PROVED    Three cc2 packets verified and banked — 11/11 seals rehashed, reruns reproduced, the corrected generic-silence law Z(κ)=(1−(κ|5))/2 adopted, one lead killed.
+  B650    PROVED    The frozen type system passed its held-out battery after one disclosed revision, and the exact Sylvester solve gives T=0 uniquely (no nonzero monodromy-equivariant linear
+  B654    PROVED    The chord's field of definition equals the tetrahedral shape field (fig-8 Q(sqrt-3), silver Q(i)), the melody period is N0 = 75*lcm{d^2} exactly, the defect law defect = 
+  B656    PROVED    The digest queue was confirmed independently: B596's multiplier table is exactly the conductor clock ord(A₁ mod 3κ) (10/10 rows), and det(w) = (−1)^{v_p(det B_w)} holds i
+  B663    PROVED    Bifocal credit adjudicated with corrections; the heart is an invertible Jordan unit, the resonant phase one Legendre character, the stage sign a block central character.
+  B703    PROVED    With PDG masses the Koide angle is theta_0 = 0.2222296(83) rad, i.e. 0.89 sigma from 2/9 (the crude 7 sigma refuted), and it is firewalled as a post-hoc, convention-frame
+  B721    NEGATIVE  The thermal-time lead fails identity: the object's own clock is tracial type II_1 with trivial modular flow, complementary to rather than inside the CMR KMS torsor.
+  B723    PROVED    The type-III observer apparatus is built (tracial II₁ core plus an external weight gives R_λ), and measurement is identified as the β=1 KMS symmetry breaking.
+  B749    PROVED    The genesis axiom chain is priced by computation: F2/F3/F4/F7 ROBUST, F5 and F6 FRAGILE (the det −1 sibling is the Gieseking; closure keeps only the hearing face), and F8
+  B776    PROVED    B685's Habiro leg is corroborated from first principles: the symmetrized product is pure-3 through order 50 with no 5 or 7 in any denominator.
+  B787    PROVED    Inversion (iota) is an independent 4th involution raising the torsor rank 3->4 unconditionally, de-welding time's arrow from the basepoint bit; all six doors MISS.
+  B790    NEGATIVE  The Maass handoff's thesis is unsupported: LMFDB holds no Bianchi Laplace data, three tests are vacuous, and the valueless-object null stands.
+  B791    PROVED    Independently verified the B788 Maass bank and corrected the Weyl completeness criterion to dim(V_i) x W(T) per sector, dissolving the claimed live defect.
+  B793    NEGATIVE  Gate 8R2-A is blocked: the B788 solver is bounded refinement inside a supplied window, cannot count roots, so "parent-validated" is unearned.
+  B848    PROVED    The incoming handoff bundle's arrow/amphichirality census reproduces exactly (6/6) by two independent methods, but its stated metallic mechanism proves the wrong half: sy
+  B850    NEGATIVE  The foliation-algebra question has a computable shadow via length-spectrum density, and it CLOSES the lead: m004, its sister m003 and a non-arithmetic control all return 
+  B852    PROVED    B451's transfer-operator instrument was structurally incapable of finding a phase transition: uniformly hyperbolic pressure is analytic (demonstrated, second differences 
+  B944    PROVED    THE DYNAMICS & CHIRALITY SWEEP (owner directive: 'we might have all of it, maybe in the other faces, child or combinations'): NEITHER IS MISSING. Verdict-level census: ch
+  P-198   DONE      As received: Settle the open problem: Discharging the Triplet & Index Postulates (Spacetime & Gauge Emergence): derive the 4D Dirac operator  [B1672 (NEGATIVE as verified on main, 202]
+  P-201   DONE      the owner (the foundations quest): "are we sure we end up with a weave of two records instead of a weave of four or more?" Main: no. Two rec  [B1677 (within its scope): two records is]
+  P-217   DONE      the common point as the qubit's Pauli group (the web seat's map): B1680's Heisenberg point at p = 2 is Q₈, the SU(2) part of the one-qubit P  [the identification holds (Q₈ = {±1, ±i, ]
+  P-279   QUEUED    the cusp's unit under the family of wordings (the web seat's map §0 item 5(d), §6.7): B1629 found that nothing the golden thread's tick and   [Q3]
+  P-333   QUEUED    F-CI on m003's companion o10_150729 (L205): F-CI's three on all five ends, A₅ on the ends, the only one of 16 thread companions computed; a   [Q3]
+VERDICT topic-sweep /word length|uniform words|Farey|Gauss measure|continued fraction.{0,30}measure|tick.{0,20}measure|clock/ (full text): 109 of 1559 arcs on main match (NEGATIVE 17, OPEN 8, PROVED 84); 5 register rows match (DONE 3, QUEUED 2)

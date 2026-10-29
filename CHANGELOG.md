@@ -1,5 +1,9 @@
 # Changelog
 
+## S255 B1813 — THE WEAVE'S OWN MEASURE DEPENDS ON HOW ITS THREADS ARE COUNTED (2026-10-29)
+
+- **B1813** (the owner's whole-existence computation, stage 1; data-free; refereed hostile, PASS WITH CORRECTIONS): left unforced, the weave's threads produce a definite measure on τ for each counting rule, and the rule is a continuum. Counted move by move (Minkowski's measure, B1663) the limit keeps out of the cusp: P(Im τ > Y) ≈ 3.9·4^(−Y)/√Y (0.0346 at Y = 3). Counted by geometric length it approaches hyperbolic area (0.315 at trace ≤ 400). Weighting words by e^(−s·ℓ) interpolates, the cusp tail's rate vanishing at the Farey phase transition s = 1 (B852), where area lives. P-107 relocated, not settled (the counting rule is CHOSEN). A reading, conditional on H-cov and end data: under the move rule deep hierarchies are power-suppressed; at the critical point they are common. P-091, P-107, P-413 noted; P-437 (the whole-existence line). FLOOR 437. 0 of 19.
+
 ## S254 THE OWNER'S RULINGS ON THE SEATS' ANSWERS, AND THE HARVEST (2026-10-29)
 
 - **The owner's rulings,** after the seats answered main's relays: **P-420 GO** — phase 0 first (the arc data repaired, the three seats' defect lists merged), then the static generated desk from the SM seat's prototype; **the label rule amended** (WORKING_RULES, the 2026-10-29 rule, item 4: FITTED a fourth label; scope and evidence on every label; EXCLUDED versus NOT FOUND); **the scoreboard** a graded vector continuing B1261/B1421's ledgers (P-418). **Harvest** rows 1467–1471 (the web seat's four-decisions opinions, its workdesk proposal, THE FRAME NULL's sealed result — both cells INTERMEDIATE —, W150's μ/M̃; the SM seat's Ledger Desk), every quote checked on the seats' branches; RELAY_LEDGER rows; main's two relays BANKED; a relay with the rulings. P-371, P-407, P-412, P-418, P-419, P-420 noted. 0 of 19.

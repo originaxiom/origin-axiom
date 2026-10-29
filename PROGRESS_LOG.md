@@ -18114,3 +18114,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - P-420 GO (phase 0 first); the label amendments and the graded scoreboard adopted; rows 1467–1471 harvested. 0 of 19.
 - **Landing suite (S254).** 7 860 passed, 68 skipped, 2 failed in 44:23 — B805's two standing attachment locks (P-239).
+
+## 2026-10-29 — S255 B1813 (THE WEAVE'S OWN MEASURE DEPENDS ON HOW ITS THREADS ARE COUNTED)
+
+- Unforced, the threads give a measure per counting rule; the geometric count is the move family's critical point. 0 of 19.
+- **Landing suite (S255).** 7 860 passed, 68 skipped, 4 failed in 27:56 — B805's two standing attachment locks (P-239), and the gate tests test_repo_gates and test_b887_gate_audit: the attribution gate counted one vendor-like token in B1813's FINDINGS (the physics word inside a quoted sweep pattern; a new file's baseline is zero). Fixed before the push by rerunning the sweep with an equivalent pattern and quoting its VERDICT line; the views regenerated; the gates and those two tests rerun alone: pass.
