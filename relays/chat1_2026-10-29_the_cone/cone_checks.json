@@ -1,0 +1,220 @@
+{
+ "rule": "aabd77104",
+ "S1a": {
+  "wx_minus_yw_zero": true,
+  "wx_plus_yw_zero": false,
+  "holds": true
+ },
+ "S1b": {
+  "riley": {
+   "x": {
+    "gram_zero": true,
+    "det": "1",
+    "Lambda00": "3/2",
+    "Lambda00_ge_1": true,
+    "all_real": true,
+    "Lambda": [
+     [
+      "3/2",
+      "1",
+      "0",
+      "-1/2"
+     ],
+     [
+      "1",
+      "1",
+      "0",
+      "-1"
+     ],
+     [
+      "0",
+      "0",
+      "1",
+      "0"
+     ],
+     [
+      "1/2",
+      "1",
+      "0",
+      "1/2"
+     ]
+    ]
+   },
+   "y": {
+    "gram_zero": true,
+    "det": "1",
+    "Lambda00": "3/2",
+    "Lambda00_ge_1": true,
+    "all_real": true,
+    "Lambda": [
+     [
+      "3/2",
+      "1/2",
+      "-sqrt(3)/2",
+      "1/2"
+     ],
+     [
+      "1/2",
+      "1",
+      "0",
+      "1/2"
+     ],
+     [
+      "-sqrt(3)/2",
+      "0",
+      "1",
+      "-sqrt(3)/2"
+     ],
+     [
+      "-1/2",
+      "-1/2",
+      "sqrt(3)/2",
+      "1/2"
+     ]
+    ]
+   }
+  },
+  "snappy_m004": {
+   "a": {
+    "max_imag": 2.220446049250313e-16,
+    "gram_resid": 1.1381216740197914e-15,
+    "det": 1.0,
+    "Lambda00": 3.500000000000003
+   },
+   "b": {
+    "max_imag": 4.87643797055045e-16,
+    "gram_resid": 2.3092638912203256e-14,
+    "det": 0.9999999999999795,
+    "Lambda00": 13.500000000000009
+   }
+  },
+  "snappy_m004_relators": [
+   "aaabABBAb"
+  ],
+  "holds": true
+ },
+ "S2": {
+  "metric_is_cone": true,
+  "detX_is_t2": true,
+  "holds": true,
+  "metric": [
+   [
+    "1",
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "-t**2",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "0",
+    "-t**2*sinh(r)**2",
+    "0"
+   ],
+   [
+    "0",
+    "0",
+    "0",
+    "-t**2*sin(theta)**2*sinh(r)**2"
+   ]
+  ]
+ },
+ "S3": {
+  "time_reversal_commutes": true,
+  "time_reversal_swaps_halves": true,
+  "conjugation_is_diag(1,1,-1,1)": true,
+  "conjugation_det": "-1",
+  "conjugation_Lambda00": "1",
+  "conjugation_intertwines": true,
+  "holds": true
+ },
+ "S4": {
+  "keeps_disc": {
+   "L": true,
+   "R": true
+  },
+  "signature": [
+   2,
+   1
+  ],
+  "LR": [
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    2
+   ]
+  ],
+  "LR_invariant_forms": [
+   [
+    "-1",
+    "-1",
+    "1"
+   ]
+  ],
+  "their_disc": [
+   "5"
+  ],
+  "L_invariant_forms": [
+   [
+    "1",
+    "0",
+    "0"
+   ]
+  ],
+  "their_disc_L": [
+   "0"
+  ],
+  "holds": true
+ },
+ "S5": {
+  "XJ_symmetric": true,
+  "Killing_over_disc": "2",
+  "intertwines_Ad": true,
+  "holds": true
+ },
+ "S6": {
+  "signature": [
+   3,
+   3
+  ],
+  "holds": true
+ },
+ "S7": {
+  "relators": [
+   "abAAbabbb"
+  ],
+  "gens": {
+   "a": {
+    "max_imag": 2.220446049250313e-16,
+    "gram_resid": 1.158049280730262e-15,
+    "det": 0.9999999999999976,
+    "Lambda00": 4.499999999999998
+   },
+   "b": {
+    "max_imag": 5.551115123125783e-17,
+    "gram_resid": 2.3314683517128287e-15,
+    "det": 0.9999999999999966,
+    "Lambda00": 2.4999999999999973
+   }
+  },
+  "holds": true
+ },
+ "cells": {
+  "S1a": true,
+  "S1b": true,
+  "S2": true,
+  "S3": true,
+  "S4": true,
+  "S5": true,
+  "S6": true,
+  "S7": true
+ }
+}

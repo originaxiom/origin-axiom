@@ -1,0 +1,32 @@
+THE CONE AND THE SIGN: the checks of THE_CONE_RULE.md (sealed aabd77104)
+
+S1a Riley's relator w x = y w (w = x^-1 y x y^-1), omega = e^(2 pi i/3): wx - yw = 0: True; wx + yw = 0: False  -> True
+    tr(x y^-1) = 3/2 + sqrt(3)*I/2, tr(x y) = 5/2 - sqrt(3)*I/2
+S1b Riley x: Lambda^T eta Lambda = eta exactly: True; det 1; Lambda00 3/2 (>= 1: True); real: True
+      Lambda = [['3/2', '1', '0', '-1/2'], ['1', '1', '0', '-1'], ['0', '0', '1', '0'], ['1/2', '1', '0', '1/2']]
+S1b Riley y: Lambda^T eta Lambda = eta exactly: True; det 1; Lambda00 3/2 (>= 1: True); real: True
+      Lambda = [['3/2', '1/2', '-sqrt(3)/2', '1/2'], ['1/2', '1', '0', '1/2'], ['-sqrt(3)/2', '0', '1', '-sqrt(3)/2'], ['-1/2', '-1/2', 'sqrt(3)/2', '1/2']]
+S1b SnapPy m004 a: max imag 2.2e-16; gram residual 1.1e-15; det 1.000000000000; Lambda00 3.500000
+S1b SnapPy m004 b: max imag 4.9e-16; gram residual 2.3e-14; det 1.000000000000; Lambda00 13.500000
+    m004 relators (SnapPy): ['aaabABBAb']
+S1b -> True
+
+S2 the pull-back of eta in (t, r, theta, phi): [['1', '0', '0', '0'], ['0', '-t**2', '0', '0'], ['0', '0', '-t**2*sinh(r)**2', '0'], ['0', '0', '0', '-t**2*sin(theta)**2*sinh(r)**2']]
+    = dt^2 - t^2 (dr^2 + sinh^2 r dOmega^2) exactly: True; det X = t^2: True  -> True
+
+S3 X -> -X commutes with both generators: True; swaps the halves (e0 -> -e0): True
+    complex conjugation of entries = diag(1, 1, -1, 1) on (I, s1, s2, s3): True; det -1; Lambda00 1; Lambda(conj A) = C Lambda(A) C: True  -> True
+
+S4 L, R keep b^2 - 4ac: {'L': True, 'R': True}; its signature (pos, neg) = (2, 1)
+    LR = [[1, 1], [1, 2]]; its invariant forms (a, b, c): [['-1', '-1', '1']], discriminant ['5'] (> 0: spacelike)
+    L's invariant forms: [['1', '0', '0']], discriminant ['0'] (null, the cusp)  -> True
+
+S5 X J symmetric: True; Killing(X, X)/disc = 2; M (XJ) M^T = (M X M^-1) J for L, R: True  -> True
+
+S6 the Killing form of sl(2, C) as a real Lie algebra: signature (pos, neg) = (3, 3)  -> True
+
+S7 SnapPy m003 a: gram residual 1.2e-15; det 1.000000000000; Lambda00 4.500000
+S7 SnapPy m003 b: gram residual 2.3e-15; det 1.000000000000; Lambda00 2.500000
+S7 -> True
+
+CELLS: S1a holds, S1b holds, S2 holds, S3 holds, S4 holds, S5 holds, S6 holds, S7 holds
