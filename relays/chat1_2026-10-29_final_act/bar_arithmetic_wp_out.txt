@@ -1,0 +1,6 @@
+THE FINAL ACT'S BAR -- design arithmetic, the Weil-Petersson clock (B1816's approximate tail; data-free)
+delta = 4 ln2/pi = 0.882542; tail at Y = 3: 0.1990 (B1816: 0.1990 by the formula, 0.2016 on its grid)
+P_WP(Im tau in [2.96, 3.11]) ~ 0.014980; largest ratio any law can reach ~ 66.8; bits 6.06
+P_WP(Im tau >= 3.03) ~ 0.195976
+window at 3.03 with null probability 1.887e-04: width 0.00188
+an exactly right law's window holds the six's best height with probability 0.042 (sigma 0.0179)
