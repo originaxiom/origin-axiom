@@ -21418,3 +21418,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Side panels:** the closed-universe towers of 42 objects, and the count of lines on each rung. Every count checks
   out against a formula.
   0 of 19.
+
+## 2026-10-29 — the desk's index, and a check that every result kept its order
+
+- **The index:** one script now reads this seat's branch and the main seat's, and lists every result on both, 1812 in
+  all, with every link between them. It builds twice and refuses to save unless both builds agree to the last byte.
+- **The loose ends:** 30 links point at results the index cannot find. They are listed for the seats to fix, not
+  guessed at.
+- **The order:** each result's rule, script, run and record are placed by time. Of the 99 results with named steps,
+  none broke the order.
+  0 of 19.

@@ -20,9 +20,11 @@ The owner asked every seat for its own proposal, so that the proposals differ:
 - `docs/workdesk/RESEARCH_REPORT_2026-10-28.md`: the sourced research it rests on. Six research agents covered
   mathematical knowledge maps, provenance and claim tracking, visualising abstract mathematics, large-graph visual
   analytics, tooling, and a read-only survey of this repository on both branches.
-- `docs/workdesk/the_ledger_desk.html`: a working prototype. Open it in a browser. It holds five working views built
+- `docs/workdesk/the_ledger_desk.html`: a working prototype. Open it in a browser. It holds seven working views built
   from the record's own data or computed exactly in the page.
 - `docs/workdesk/extract_desk_data.py`: the read-only extractor that produced the data the prototype embeds.
+- `docs/workdesk/build_index.py`: the build order's first step, the index over this seat's branch and main's. It is
+  read-only and writes its output outside the record; the output is never committed.
 
 ## The idea
 
@@ -133,6 +135,33 @@ flowchart LR
     states.
   - **Plate, the congruence tower.** W176's stored count of lines per order; the page recomputes each from Jordan's
     totient, and all 16 agree.
+- **F. The index** (built 2026-10-29; the build order's first step).
+  - **What it reads.** `docs/workdesk/build_index.py` reads two refs, this seat's branch and main's, through git
+    alone; it never touches the working tree. Every arc is keyed (seat, id). A B directory present on main is main's;
+    one present only here is this seat's. Ten numbers name different directories on the two branches, and the keys
+    keep them apart.
+  - **What it holds.** 1812 arcs (1518 of main's B arcs, 123 of this seat's, 171 W arcs), 4069 edges, 290 prior cells
+    and 200 lifecycle steps. Every row carries its source file, the ref, the commit and the file's blob.
+  - **Determinism.** The build runs twice and refuses to write unless every table's sha-256 agrees. The manifest names
+    both commits (this branch at f35e814d3, main at ac2e51f87), the schema, the extractors' sha-256 and each table's
+    rows and sha-256.
+  - **How edges resolve.** A bare id is looked up in the citing arc's seat, then at main, then at the other seat, and
+    the edge records which: 3716 within the same seat, 193 at main, 126 seat citations, 4 across the seats by bare
+    number.
+  - **The audit list.** 30 edges whose target is not found, listed and never guessed. 18 point at directories without
+    a verdict file (B506, B511, B578, B580, B614, B659, B666, B913). 11 point at ids on neither branch (B514, B792,
+    B796, B820, B829, B844, B846, B999 among them). One names another seat's id outside the two branches read.
+  - **Across the seats.** All 130 edges from one seat's arc to the other's, listed in one table.
+- **G. The lifecycle strip** (built 2026-10-29).
+  - **What it reads.** The steps of each W arc from this branch's commit subjects ("W176's rule", "W176's script",
+    "W176's output", the post hoc steps, "W176 recorded"), each placed by its commit time.
+  - **What it checks.** The order: rule before script, script before output, output no later than the record, and a
+    post hoc step after the output. 99 arcs have a named step, 46 have two or more and 20 have all four main steps.
+    None is out of order.
+  - **What it cannot check.** That a rule was pushed before its script existed, or that an output was read only once.
+    Arcs whose commits were worded otherwise show fewer steps; an absent step is not a missing step.
+  - **The clock.** Each row starts at the arc's first named commit and runs on a square-root clock, so steps minutes
+    apart stay apart; a toggle puts every commit on one shared calendar axis.
 ## The story of the mathematics in five stages
 
 Most of the mathematics does not live in three dimensions, so the story does not force it into one space. Each stage
@@ -201,7 +230,8 @@ is omitted. Every frame is also checked to be unchanged under rotation of a word
 ## Build order
 
 1. **The index.** The extractor, the manifest and the determinism check, over every seat's branch; arcs keyed (seat,
-   number). No views yet.
+   number). No views yet. *Built 2026-10-29 over two branches, this seat's and main's (view F); the other seats'
+   branches are not yet read. The lifecycle strip of step 2 was built with it (view G).*
 2. **The ledger, the lifecycle strip and calibration.** Their data is already machine-readable, so the desk is useful
    in its first week.
 3. **The atlas and the board.** These come after the seats agree on a small status vocabulary and a weave-or-thread

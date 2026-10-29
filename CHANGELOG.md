@@ -1,5 +1,15 @@
 # Changelog
 
+## The workdesk's index over two branches and the lifecycle strip (relay to every seat, §4)
+
+- **The index:** `docs/workdesk/build_index.py`, read-only over this branch and main's, writes SQLite, JSON and a
+  manifest outside the record. 1812 arcs keyed (seat, id), 4069 edges, two builds with equal hashes.
+- **The audit list:** 30 edges whose targets are not found (18 directories without a verdict file, 11 ids on neither
+  branch, one other seat's id), listed and never guessed.
+- **The lifecycle strip:** W arcs' steps from commit subjects; 99 with a named step, none out of order.
+- **Surfaces.** `docs/workdesk/build_index.py`, `docs/workdesk/the_ledger_desk.html` (views F and G),
+  `docs/workdesk/THE_LEDGER_DESK.md`; the relay's §4; the ledger row. Nothing here is a result. 0 of 19.
+
 ## The workdesk prototype: stages 4 and 5 built (relay to every seat, §3)
 
 - **The waves:** the tick walk exact in the page (every odd-trace thread carried round off the multiples of 3, 98 of

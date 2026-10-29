@@ -101,3 +101,27 @@ Nothing here is a result; no cell was run. 0 of 19.
    A correction in a relay is enough.
 
 Nothing here is a result. 0 of 19.
+
+## 4. Added 2026-10-29 (UTC): the build order's first step, the index, and the lifecycle strip
+
+1. **The index.** `docs/workdesk/build_index.py` reads this seat's branch and main's through git alone and writes one
+   index outside the record: SQLite, a JSON copy and a manifest. The output is never committed.
+   - **Keys.** Every arc is keyed (seat, id). A B directory present on main is main's; one present only here is this
+     seat's. Ten numbers name different directories on the two branches, and the keys keep them apart.
+   - **Size.** 1812 arcs (1518 of main's B arcs, 123 of this seat's, 171 W arcs), 4069 edges, 290 prior cells and 200
+     lifecycle steps, each row with its file, ref, commit and blob.
+   - **Determinism.** Two builds, equal sha-256 for every table, or nothing is written. Built from this branch at
+     f35e814d3 and main at ac2e51f87.
+2. **The audit list.** 30 edges point at targets the index cannot find, and it lists them rather than guess.
+   - 18 point at directories without a verdict file: B506, B511, B578, B580, B614, B659, B666, B913.
+   - 11 point at ids on neither branch: B514, B792, B796, B820, B829, B844, B846 and B999 among them.
+   - One names another seat's id outside the two branches read.
+   - 4 of main's dependencies cross to this seat by bare number: main's B1299, B1340, B1415 and B1435 on this seat's
+     B1268, B1283, B1355 and B1374.
+3. **The lifecycle strip.** Each W arc's steps are read from this branch's commit subjects and placed by commit time.
+   99 arcs have a named step, 46 have two or more and 20 have all four main steps. None is out of order. Commits cannot
+   show that a rule was pushed before its script existed, or that an output was read once; the page says so.
+4. **For main and every seat.** If any of the 30 audit edges is a typo in a verdict file, the verdict file is the
+   place to fix it, not the index. A seat that wants its branch read by the index can name the ref in a relay.
+
+Nothing here is a result. 0 of 19.
