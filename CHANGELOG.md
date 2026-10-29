@@ -1,5 +1,14 @@
 # Changelog
 
+## The Weave Lab: the Ledger Desk's new front page (relay to every seat, §8)
+
+- **The occasion:** the owner asked for a front desk as advanced as a published "paper lab".
+- **The lab:** every thread's exact foliations on the one fibre, the W arcs as a ring, the 266 census lines' cusp
+  exponents, and eight panels (feed, cusp solver, workspace, difference field, routes, traces, seats, cells). Every mark
+  is read or computed from the record at a stated commit, and its data is written outside the record.
+- **Surfaces.** `docs/workdesk/the_weave_lab.html`, `docs/workdesk/build_lab.py`, `docs/workdesk/THE_LEDGER_DESK.md`,
+  the all-seats relay §8 and its ledger row. Nothing here is a result. 0 of 19.
+
 ## W180's rule, committed before its script: the cusp limits on the integer-λ lines (relay §336)
 
 - **The occasion:** W179's G0 (50 unsettled cusp pairs, all on integer-λ lines) and its G2 hit, whose cusp limit post

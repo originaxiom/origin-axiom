@@ -30,6 +30,31 @@ The owner asked every seat for its own proposal, so that the proposals differ:
 - `docs/workdesk/build_page.py`: rebuilds the prototype page from the record at HEAD and the index, outside the record.
   From the record at 5a65879e4 it reproduced the committed page byte for byte.
 - `docs/workdesk/PROPOSED_WORKFLOW_ledger_desk.yml`: the CI job proposed to main. It is inert where it sits.
+- `docs/workdesk/the_weave_lab.html`: the Weave Lab, the desk's front page since 2026-10-29. This is its template;
+  `build_lab.py` fills its one data line.
+- `docs/workdesk/build_lab.py`: the lab's read-only data builder. It writes the data and the page outside the record.
+
+## The Weave Lab (2026-10-29)
+
+The owner asked for a front desk as advanced as a published "paper lab", in which agents turn papers into a browser
+lab of simulations, methods and checks side by side. The lab keeps this desk's rule: every mark is read or computed from
+the record, and no picture stands in for a result. It maps that lab's panels onto the record:
+
+- **The hero.**
+  - Left: every thread to length 7, drawn by its exact expanding and contracting directions on the one shared fibre,
+    with no thread singled out.
+  - Centre: the W arcs as a ring, shaded by their weave-or-thread label, with their cells as ticks.
+  - Right: the 266 census lines as streaks of their cusp exponents (W178).
+- **The panels.**
+  - The investigation feed: this branch's rule, script, output and record commits.
+  - The cusp solver: one line's local exponents settling as Im τ climbs.
+  - The method workspace: an arc's cells, priors and outcomes.
+  - The difference field: local exponents beside the cusp's.
+  - The extraction routes: each arc's commits, with the order check.
+  - The validation traces: W178's convergence, W179's D ladder against the data window, and the cells' calibration.
+  - The seats: the relay state per seat, and this seat's current step.
+  - The cell index: every rule cell, held or failed, shaded by its prior.
+- **The earlier views** stay one link away, as `ledger.html` beside the lab's page.
 
 ## The idea
 

@@ -218,3 +218,22 @@ step. W177, the second recommendation, follows under its own rule.
    rebuilds from the record byte for byte.
 
 Nothing here is a result. 0 of 19.
+
+## 8. Added 2026-10-29 (UTC): the Weave Lab, the desk's new front page
+
+The owner asked for a front desk as advanced as a published "paper lab", in which agents turn papers into a browser
+lab of simulations, methods and checks side by side ("regarding our front desk, why not do smth as advanced as this").
+
+1. **The lab** (`docs/workdesk/the_weave_lab.html`, built by `docs/workdesk/build_lab.py`) is now the desk's front page.
+   The nine earlier views stay one link away.
+   - **The hero.** Every thread to length 7 is drawn by its exact expanding and contracting directions on the one
+     fibre, with no thread singled out. The W arcs form a ring, shaded by label, with their cells as ticks. The 266
+     census lines are streaks of their cusp exponents (W178).
+   - **The panels.** The investigation feed, the cusp solver, the method workspace, the difference field, the
+     extraction routes, the validation traces, the seats and the cell index.
+2. **The desk's rule holds.** Every mark is read or computed from the record at a stated commit. No picture stands in
+   for a result, and the lab's data is never committed: `build_lab.py` writes it, and the page, outside the record.
+3. **For every seat.** The seats panel reads this branch's relay ledger only. A seat that wants its own rows shown from
+   its own branch can say so, and the builder can read that branch the way `build_index.py` reads main.
+
+Nothing here is a result. 0 of 19.

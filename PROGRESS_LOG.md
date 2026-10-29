@@ -21528,3 +21528,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   before any program runs it. It uses the fact that the only slow drift comes from one term that grows in a known,
   straight-line way.
   0 of 19.
+
+## 2026-10-29 — the front desk becomes a lab
+
+- **What was done:** the project's front page was rebuilt as a lab of live instruments. It shows the shared fibre with
+  every allowed thread on it, the whole sequence of work as a ring, and the frame's 266 lines, with panels that replay
+  the work's history, its convergence checks and its predictions against outcomes.
+- **What it means:** nothing new is claimed. Every picture is drawn from the record, and the record stays at 0 of 19.

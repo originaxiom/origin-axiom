@@ -1,0 +1,573 @@
+<title>The Weave Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=JetBrains+Mono:wght@400;600&family=Martian+Mono:wght@300;500&display=swap">
+<style>
+/* Layout: one instrument bench. A wide hero (the weave, the arc ring, the census rays) over a 4-up grid of panels,
+   each panel one instrument reading the record. Single dark world, chosen on purpose: an observatory console. */
+:root {
+  --ink: #06080b;        /* the bench */
+  --panel: #0b0e12;      /* an instrument's face */
+  --rule: #1a2027;       /* hairlines */
+  --dim: #5f6973;        /* labels */
+  --fg: #c9d0d6;         /* readings */
+  --bright: #f1f4f6;     /* the weave's threads, held cells */
+  --steel: #8ea2b2;      /* the down quarks, secondary series */
+  --rose: #d48a8c;       /* failed as worded, massless, differences */
+  --amber: #c8a466;      /* post hoc, slow convergence, in progress */
+  --f-display: "Martian Mono", "JetBrains Mono", ui-monospace, monospace;
+  --f-data: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --t-micro: 0.625rem; --t-small: 0.72rem; --t-body: 0.86rem; --t-big: 1.35rem;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { background: var(--ink); color: var(--fg); }
+body { font-family: var(--f-body); font-size: var(--t-body); line-height: 1.45; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--ink); }
+.wrap { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 14px 28px; max-width: 1680px; margin: 0 auto; display: grid; gap: 10px; }
+a { color: var(--bright); text-decoration-color: var(--dim); text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible, select:focus-visible { outline: 1px solid var(--amber); outline-offset: 2px; }
+.lbl { font-family: var(--f-display); font-weight: 300; font-size: var(--t-micro); letter-spacing: 0.12em; text-transform: uppercase; color: var(--dim); }
+.num { font-family: var(--f-data); font-variant-numeric: tabular-nums; }
+
+/* the header strip */
+.bar { display: grid; grid-template-columns: minmax(0, 1.5fr) repeat(7, minmax(0, 1fr)); border: 1px solid var(--rule); background: var(--panel); }
+.bar > div { padding: 8px 10px 7px; border-right: 1px solid var(--rule); min-width: 0; position: relative; }
+.bar > div:last-child { border-right: 0; }
+.mark { font-family: var(--f-display); font-weight: 500; font-size: 0.78rem; letter-spacing: 0.1em; color: var(--bright); text-transform: uppercase; white-space: nowrap; }
+.mark span { color: var(--dim); font-weight: 300; }
+.sub { font-family: var(--f-display); font-weight: 300; font-size: var(--t-micro); color: var(--dim); letter-spacing: 0.06em; margin-top: 3px; overflow-wrap: anywhere; }
+.stat .v { font-family: var(--f-data); font-size: 1.02rem; color: var(--bright); font-variant-numeric: tabular-nums; margin-top: 2px; }
+.stat .meter { position: absolute; left: 0; bottom: -1px; height: 2px; background: var(--fg); opacity: 0.55; }
+.stat.alert .v, .stat.alert .lbl { color: var(--rose); }
+.stat.alert .meter { background: var(--rose); }
+
+/* the hero */
+.hero { position: relative; border: 1px solid var(--rule); background: var(--ink); overflow: hidden; }
+.hero canvas { display: block; width: 100%; }
+#heroDyn { position: absolute; inset: 0; pointer-events: none; }
+.tag { position: absolute; font-family: var(--f-display); font-weight: 300; font-size: var(--t-micro); letter-spacing: 0.1em; text-transform: uppercase; color: var(--dim); pointer-events: none; max-width: 42%; }
+.tag b { color: var(--fg); font-weight: 500; }
+.formula { position: absolute; right: 14px; bottom: 14px; border: 1px solid var(--rule); background: rgba(6, 8, 11, 0.86); padding: 7px 10px; pointer-events: none; max-width: min(380px, 70%); }
+.formula .f { font-family: var(--f-data); font-size: var(--t-small); color: var(--bright); margin-top: 3px; }
+.legend { position: absolute; left: 14px; bottom: 12px; display: flex; flex-wrap: wrap; gap: 4px 12px; pointer-events: none; max-width: 60%; background: rgba(6, 8, 11, 0.86); border: 1px solid var(--rule); padding: 5px 8px; }
+.legend span { font-family: var(--f-display); font-size: var(--t-micro); color: var(--dim); letter-spacing: 0.06em; display: inline-flex; align-items: center; gap: 5px; }
+.legend i { width: 9px; height: 9px; display: inline-block; border: 1px solid var(--rule); }
+
+/* the panels */
+.grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.p { border: 1px solid var(--rule); background: var(--panel); padding: 9px 10px 10px; min-width: 0; display: flex; flex-direction: column; gap: 7px; }
+.p header { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.p h2 { margin: 0; font-family: var(--f-display); font-weight: 500; font-size: var(--t-micro); letter-spacing: 0.12em; text-transform: uppercase; color: var(--fg); }
+.p h2 span { color: var(--dim); font-weight: 300; }
+.p .foot { font-family: var(--f-display); font-weight: 300; font-size: var(--t-micro); color: var(--dim); letter-spacing: 0.04em; margin-top: auto; overflow-wrap: anywhere; }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; }
+button.chip { font: inherit; font-family: var(--f-data); font-size: var(--t-micro); color: var(--dim); background: transparent; border: 1px solid var(--rule); padding: 2px 6px; cursor: pointer; }
+button.chip[aria-pressed="true"] { color: var(--bright); border-color: var(--dim); }
+button.chip:hover { color: var(--fg); }
+select { font-family: var(--f-data); font-size: var(--t-micro); color: var(--fg); background: var(--ink); border: 1px solid var(--rule); padding: 2px 4px; max-width: 100%; }
+.scroll { overflow: auto; min-height: 0; }
+.feed { max-height: 238px; font-family: var(--f-data); font-size: var(--t-micro); }
+.feed div { display: grid; grid-template-columns: 6.2em 4.6em 3.6em minmax(0, 1fr); gap: 6px; padding: 2px 0; border-bottom: 1px solid #10151a; white-space: nowrap; }
+.feed div span:last-child { overflow: hidden; text-overflow: ellipsis; color: var(--dim); }
+.feed .h { color: var(--dim); }
+.st-rule { color: var(--bright); } .st-script { color: var(--steel); } .st-output { color: var(--fg); }
+.st-recorded { color: var(--bright); font-weight: 600; } .st-posthoc { color: var(--amber); } .st-relay, .st-reading, .st-desk, .st-other { color: var(--dim); }
+canvas.plot { width: 100%; display: block; }
+.ws { font-family: var(--f-data); font-size: var(--t-micro); line-height: 1.55; white-space: pre-wrap; overflow-wrap: anywhere; max-height: 238px; }
+.ws .k { color: var(--dim); } .ws .ok { color: var(--bright); } .ws .no { color: var(--rose); } .ws .ph { color: var(--amber); }
+table { border-collapse: collapse; width: 100%; font-family: var(--f-data); font-size: var(--t-micro); font-variant-numeric: tabular-nums; }
+th { font-family: var(--f-display); font-weight: 300; letter-spacing: 0.08em; color: var(--dim); text-align: left; padding: 3px 4px; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+td { padding: 3px 4px; border-bottom: 1px solid #10151a; white-space: nowrap; color: var(--fg); }
+td.miss { color: #2c343c; }
+tr.sel td { background: #121820; }
+.read { font-family: var(--f-data); font-size: var(--t-micro); color: var(--fg); display: flex; flex-wrap: wrap; gap: 3px 12px; }
+.read b { color: var(--bright); font-weight: 600; }
+.pill { font-family: var(--f-display); font-size: var(--t-micro); letter-spacing: 0.06em; padding: 1px 5px; border: 1px solid var(--rule); color: var(--dim); }
+.pill.slow { color: var(--amber); border-color: #4b3f2a; }
+.pill.zero { color: var(--rose); border-color: #4a2f31; }
+.seat { display: grid; grid-template-columns: 7.5em minmax(0, 1fr) 6.8em; gap: 8px; align-items: center; font-family: var(--f-data); font-size: var(--t-micro); padding: 3px 0; }
+.seat .nm { color: var(--fg); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.seat .bars { display: flex; height: 8px; background: #0f1419; }
+.seat .bars i { display: block; height: 100%; }
+.seat .d { color: var(--dim); text-align: right; }
+.now { border: 1px solid var(--rule); padding: 6px 8px; font-family: var(--f-data); font-size: var(--t-micro); display: grid; gap: 3px; }
+.now .row { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.step { padding: 1px 5px; border: 1px solid var(--rule); color: var(--dim); }
+.step.done { color: var(--bright); border-color: var(--dim); }
+.step.live { color: var(--amber); border-color: #4b3f2a; animation: pulse 1.6s ease-in-out infinite; }
+@keyframes pulse { 50% { opacity: 0.45; } }
+.tip { position: fixed; z-index: 20; pointer-events: none; background: rgba(6, 8, 11, 0.95); border: 1px solid var(--dim); padding: 6px 8px; font-family: var(--f-data); font-size: var(--t-micro); color: var(--fg); max-width: 320px; line-height: 1.45; }
+.tip b { color: var(--bright); }
+footer.prov { border-top: 1px solid var(--rule); padding-top: 10px; display: flex; flex-wrap: wrap; gap: 6px 22px; justify-content: space-between; font-family: var(--f-display); font-weight: 300; font-size: var(--t-micro); letter-spacing: 0.04em; color: var(--dim); }
+footer.prov p { margin: 0; max-width: 78ch; }
+@media (max-width: 1180px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .bar { grid-template-columns: repeat(4, minmax(0, 1fr)); } .bar > div:first-child { grid-column: 1 / -1; border-right: 0; border-bottom: 1px solid var(--rule); } }
+@media (max-width: 640px) { .grid { grid-template-columns: minmax(0, 1fr); } .bar { grid-template-columns: repeat(2, minmax(0, 1fr)); } .tag { max-width: 70% !important; } .tag.wide, .legend, .formula { display: none; } }
+@media (prefers-reduced-motion: reduce) { .step.live { animation: none; } }
+</style>
+
+<div class="wrap">
+  <div class="bar" id="bar">
+    <div><div class="mark">Origin Axiom <span>/</span> Weave Lab</div><div class="sub" id="barSub">the record as instruments · read-only</div></div>
+  </div>
+
+  <section class="hero" id="hero" aria-label="The weave on the shared fibre, the W arcs as a ring, and the census lines' cusp exponents as rays">
+    <canvas id="heroCv" role="img" aria-label="Every thread's expanding and contracting directions drawn on one fibre; the ring of W arcs; the 266 census lines' cusp exponents."></canvas>
+    <canvas id="heroDyn" aria-hidden="true"></canvas>
+    <div class="tag" style="left:14px; top:12px; max-width:30%"><b>The weave</b> · <span id="tagThreads"></span></div>
+    <div class="tag wide" style="right:14px; top:12px; text-align:right; max-width:34%"><b>The census</b> · 266 lines, each a streak of its three sectors' cusp exponents (W178) · ring: the W arcs, W1 at the top</div>
+    <div class="legend">
+      <span><i style="background:var(--bright)"></i>weave</span>
+      <span><i style="background:var(--steel)"></i>thread</span>
+      <span><i style="background:#2c343c"></i>neither</span>
+      <span><i style="background:var(--rose)"></i>failed as worded · massless</span>
+      <span><i style="background:var(--amber)"></i>in progress · slow (integer λ)</span>
+    </div>
+    <div class="formula"><div class="lbl">Kernel norm · W177</div><div class="f">c<sub>s</sub> = −2π ln 2π − 2πγ − π[ψ(λ₊)+ψ(λ₋)] + π(S₊+S₋)</div><div class="lbl" style="margin-top:4px">integer λ adds 4π²·Im τ / |1 − W Q<sup>−l₀</sup>|² · W180</div></div>
+  </section>
+
+  <div class="grid">
+    <section class="p" aria-labelledby="h-feed">
+      <header><h2 id="h-feed">Investigation feed <span>· this branch</span></h2><div class="chips" id="feedChips"></div></header>
+      <div class="scroll feed" id="feed"></div>
+      <div class="foot">commit subjects since the weave began · newest first</div>
+    </section>
+
+    <section class="p" aria-labelledby="h-cusp">
+      <header><h2 id="h-cusp">Cusp solver <span>· W178 ladder</span></h2><button class="chip" id="play" aria-pressed="false">climb Im τ</button></header>
+      <select id="lineSel" aria-label="census line"></select>
+      <canvas class="plot" id="cuspCv" height="190" aria-label="local exponents of the six mass ratios against Im τ"></canvas>
+      <div class="read" id="cuspRead"></div>
+      <div class="foot">local exponent between ladder heights, in units of 2π·Im τ · dashed: the cusp pattern e(32,48)</div>
+    </section>
+
+    <section class="p" aria-labelledby="h-ws">
+      <header><h2 id="h-ws">Method workspace <span id="wsArc"></span></h2><select id="arcSel" aria-label="W arc"></select></header>
+      <div class="scroll ws" id="ws"></div>
+      <div class="foot" id="wsFoot"></div>
+    </section>
+
+    <section class="p" aria-labelledby="h-diff">
+      <header><h2 id="h-diff">Difference field <span>· local vs cusp</span></h2><div class="chips" id="featChips"></div></header>
+      <canvas class="plot" id="diffCv" height="214" aria-label="each census line's exponent at Im tau 6 to 8, at the cusp, and their difference"></canvas>
+      <div class="foot">266 lines, ordered by order N · left: local e(6,8) · right: cusp e(32,48) · below: their difference · × massless</div>
+    </section>
+
+    <section class="p" aria-labelledby="h-routes">
+      <header><h2 id="h-routes">Extraction routes <span>· rule → record</span></h2><span class="lbl" id="flagCount"></span></header>
+      <div class="scroll" style="max-height:238px"><table id="routes"><thead><tr><th>arc</th><th>rule</th><th>script</th><th>output</th><th>post hoc</th><th>recorded</th></tr></thead><tbody></tbody></table></div>
+      <div class="foot">each step's first commit · the order rule &lt; script &lt; output ≤ recorded is checked</div>
+    </section>
+
+    <section class="p" aria-labelledby="h-val">
+      <header><h2 id="h-val">Validation traces</h2></header>
+      <canvas class="plot" id="valCv" height="262" aria-label="three traces: convergence of the cusp exponents, the down-lepton ratio D against height, and the cells' calibration"></canvas>
+      <div class="foot">W178 convergence · W179 D on (1/2, 1/5) with post hoc 1 · priors against outcomes</div>
+    </section>
+
+    <section class="p" aria-labelledby="h-seats">
+      <header><h2 id="h-seats">Seats <span>· dispatch</span></h2></header>
+      <div class="now" id="now"></div>
+      <div id="seats"></div>
+      <div class="foot">relay rows on this branch's ledger by sending seat · white banked · grey open · rose escalated</div>
+    </section>
+
+    <section class="p" aria-labelledby="h-cells">
+      <header><h2 id="h-cells">Cell index <span>· every rule's cells</span></h2></header>
+      <canvas class="plot" id="cellCv" height="214" aria-label="every cell of every rule, held or failed as worded, shaded by its prior"></canvas>
+      <div class="read" id="cellRead"></div>
+      <div class="foot">one column per arc, one square per cell · bright held · rose failed as worded · faint = low prior</div>
+    </section>
+  </div>
+
+  <footer class="prov">
+    <p id="prov"></p>
+    <p><a href="ledger.html">The ledger's nine views</a> · <a id="repoLink" href="https://github.com/originaxiom/origin-axiom" target="_blank" rel="noopener">the repository</a></p>
+  </footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const LAB=__LAB__;
+const REPO = "https://github.com/originaxiom/origin-axiom";
+const NOTE = "docs/dossiers/the_weave_2026-10-07/NOTE.md";
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const C = {}; ["--ink","--panel","--rule","--dim","--fg","--bright","--steel","--rose","--amber"].forEach(k => C[k.slice(2)] = css(k));
+const FEATS = ["m_c/m_t", "m_u/m_t", "m_s/m_b", "m_d/m_b", "m_μ/m_τ", "m_e/m_τ"];
+const SER = [C.bright, C.bright, C.steel, C.steel, C.dim, C.dim];
+const REDUCED = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const q = s => { const [n, d] = String(s).split("/"); return d ? +n / +d : +n; };
+const kindOf = lbl => (lbl || "").split(" ")[0].replace(/[^a-z]/g, "") || "neither";
+const frac = (x, maxDen = 60) => { let best = [Math.round(x), 1, Math.abs(x - Math.round(x))];
+  for (let d = 2; d <= maxDen; d++) { const n = Math.round(x * d), e = Math.abs(x - n / d); if (e < best[2] - 1e-12) best = [n, d, e]; }
+  return best; };
+const fracStr = x => { const [n, d, e] = frac(x); return (d === 1 ? String(n) : n + "/" + d) + (e > 2e-4 ? "~" : ""); };
+
+/* ---------------------------------------------------------------- tooltip */
+const tip = $("tip");
+function showTip(html, ev) { tip.innerHTML = html; tip.hidden = false;
+  const w = tip.offsetWidth, h = tip.offsetHeight; let x = ev.clientX + 14, y = ev.clientY + 14;
+  if (x + w > innerWidth - 8) x = ev.clientX - w - 14; if (y + h > innerHeight - 8) y = ev.clientY - h - 14;
+  tip.style.left = Math.max(8, x) + "px"; tip.style.top = Math.max(8, y) + "px"; }
+function hideTip() { tip.hidden = true; }
+
+/* ---------------------------------------------------------------- data shaping */
+const arcs = LAB.arcs.map(a => ({ id: a[0], label: a[1], kind: kindOf(a[1]), verdict: a[2], status: a[3], what: a[4],
+  first: a[5], last: a[6], held: a[7], failed: a[8], line: a[9] }));
+const arcIds = new Set(arcs.map(a => a.id));
+Object.keys(LAB.routes).sort((a, b) => +a.slice(1) - +b.slice(1)).forEach(id => {
+  if (!arcIds.has(id)) arcs.push({ id, label: "", kind: "progress", verdict: "IN PROGRESS", status: "rule committed; recorded not yet", what: "", held: 0, failed: 0, line: null }); });
+arcs.sort((a, b) => +a.id.slice(1) - +b.id.slice(1));
+const cellsBy = {}; LAB.cells.forEach(c => (cellsBy[c[0]] = cellsBy[c[0]] || []).push(c));
+const lines = LAB.census.lines.map((l, k) => ({ k, a: l[0], b: l[1], N: l[2], zero: l[3], rate: l[4], pat: l[5], local: l[6], conv: l[7] }));
+const hByN = [...lines].sort((p, r) => p.N - r.N || q(p.a) - q(r.a) || q(p.b) - q(r.b));
+let selArc = [...arcs].reverse().find(a => (cellsBy[a.id] || []).length)?.id || arcs[arcs.length - 1].id;
+let selLine = lines.find(l => l.a === "1/2" && l.b === "1/5")?.k ?? 0;
+let feat = 5;
+
+/* ---------------------------------------------------------------- header */
+(function header() {
+  const c = LAB.counts, bar = $("bar");
+  const items = [["W arcs", c["W arcs"], 1], ["cells run", c["cells run"], 1], ["held", c["held"], c["held"] / c["cells run"]],
+    ["failed as worded", c["failed as worded"], c["failed as worded"] / c["cells run"]], ["seats", c["seats"], 1],
+    ["open relay rows", c["open relay rows"], c["open relay rows"] / LAB.seats.reduce((s, x) => s + x.rows, 0)], ["record", "0 / 19", 0]];
+  items.forEach(([k, v, f], i) => { const d = document.createElement("div"); d.className = "stat" + (i === 6 ? " alert" : "");
+    d.innerHTML = `<div class="lbl">${esc(k)}</div><div class="v">${esc(v)}</div><div class="meter" style="width:${Math.round(Math.max(0, Math.min(1, f)) * 100)}%"></div>`;
+    bar.appendChild(d); });
+  $("barSub").textContent = `the record as instruments · read-only · commit ${LAB.head} · ${LAB.day}`;
+  $("prov").textContent = `Every mark is read or computed from the record at commit ${LAB.head} (${LAB.day}) by docs/workdesk/build_lab.py. ` +
+    `Pictures here are instruments over computed results; none stands in for a result. Nothing is promoted. The record stands at 0 of 19.`;
+  $("repoLink").href = `${REPO}/tree/${LAB.head}`;
+  $("tagThreads").textContent = `${LAB.threads.length} threads on the one fibre: each one's expanding and contracting directions`;
+})();
+
+/* ---------------------------------------------------------------- hero */
+const heroCv = $("heroCv"), heroDyn = $("heroDyn");
+let G = null;
+function eig(t) { const [w, a, b, c, d] = t; const tr = a + d, disc = Math.sqrt(tr * tr - 4);
+  const lu = (tr + disc) / 2, ls = (tr - disc) / 2;
+  const nu = Math.hypot(b, lu - a), ns = Math.hypot(b, ls - a);
+  return { w, tr, u: [b / nu, (lu - a) / nu], s: [b / ns, (ls - a) / ns], lu }; }
+const TH = LAB.threads.map(eig);
+
+function layoutHero() {
+  const W = heroCv.clientWidth, narrow = W < 640;
+  const H = Math.round(narrow ? W * 1.05 : Math.max(420, Math.min(660, W * 0.5)));
+  const dpr = Math.min(2, devicePixelRatio || 1);
+  [heroCv, heroDyn].forEach(cv => { cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr); cv.style.height = H + "px"; });
+  heroDyn.style.width = W + "px";
+  const R = narrow ? H * 0.47 : H * 0.62, cx = narrow ? W * 0.44 : Math.min(W * 0.36, R * 0.92), cy = H * 0.52;
+  const rw = narrow ? 30 : 46;
+  G = { W, H, dpr, cx, cy, R, rw, rin: R - rw, th: Math.min(1.25, Math.asin(Math.min(0.98, (H * 0.46) / R))), narrow };
+  drawHero();
+}
+function torusToScreen(u, v) { const S = 2 * G.rin; return [G.cx - S / 2 + u * S, G.cy - S / 2 + v * S]; }
+function drawHero() {
+  const g = heroCv.getContext("2d"), { W, H, dpr, cx, cy, R, rw, rin, th } = G;
+  g.setTransform(dpr, 0, 0, dpr, 0, 0); g.fillStyle = C.ink; g.fillRect(0, 0, W, H);
+  /* the weave: invariant foliations of every thread on the one fibre, clipped to the disc */
+  g.save(); g.beginPath(); g.arc(cx, cy, rin - 2, 0, Math.PI * 2); g.clip();
+  const S = 2 * rin;
+  TH.forEach((t, i) => {
+    const wgt = 0.55 + 0.45 * ((i * 0.618034) % 1);
+    [[t.u, 0.26 * wgt, 2, 5.5], [t.s, 0.13 * wgt, 2, 4]].forEach(([dir, alpha, seeds, len]) => {
+      g.strokeStyle = `rgba(241,244,246,${alpha})`; g.lineWidth = 0.7;
+      for (let s = 0; s < seeds; s++) {
+        let u = ((i * 0.6180339 + s * 0.3819660) % 1), v = ((i * 0.4142135 + s * 0.7320508) % 1);
+        let rem = len;
+        g.beginPath();
+        while (rem > 0) {
+          const tx = dir[0] > 0 ? (1 - u) / dir[0] : dir[0] < 0 ? -u / dir[0] : 1e9;
+          const ty = dir[1] > 0 ? (1 - v) / dir[1] : dir[1] < 0 ? -v / dir[1] : 1e9;
+          const step = Math.min(tx, ty, rem);
+          const [x0, y0] = torusToScreen(u, v), [x1, y1] = torusToScreen(u + dir[0] * step, v + dir[1] * step);
+          g.moveTo(x0, y0); g.lineTo(x1, y1);
+          u += dir[0] * step; v += dir[1] * step; rem -= step;
+          if (u >= 1 - 1e-9) u = 0; else if (u <= 1e-9 && dir[0] < 0) u = 1;
+          if (v >= 1 - 1e-9) v = 0; else if (v <= 1e-9 && dir[1] < 0) v = 1;
+        }
+        g.stroke();
+      }
+    });
+  });
+  /* fixed points of the short threads: (A - I) x = n mod 1 */
+  g.strokeStyle = "rgba(241,244,246,0.55)"; g.lineWidth = 0.8;
+  LAB.threads.filter(t => t[1] + t[4] <= 7).forEach(t => {
+    const [, a, b, c, d] = t, A = [[a - 1, b], [c, d - 1]], det = A[0][0] * A[1][1] - A[0][1] * A[1][0];
+    const inv = [[A[1][1] / det, -A[0][1] / det], [-A[1][0] / det, A[0][0] / det]];
+    const seen = new Set();
+    for (let n1 = -6; n1 <= 6; n1++) for (let n2 = -6; n2 <= 6; n2++) {
+      let x = inv[0][0] * n1 + inv[0][1] * n2, y = inv[1][0] * n1 + inv[1][1] * n2;
+      x = ((x % 1) + 1) % 1; y = ((y % 1) + 1) % 1; const key = x.toFixed(4) + "," + y.toFixed(4);
+      if (seen.has(key)) continue; seen.add(key);
+      const [px, py] = torusToScreen(x, y); g.beginPath(); g.arc(px, py, 2.6, 0, Math.PI * 2); g.stroke(); }
+  });
+  g.restore();
+  g.strokeStyle = C.rule; g.lineWidth = 1; g.beginPath(); g.arc(cx, cy, rin - 1, 0, Math.PI * 2); g.stroke();
+  /* the census rays: one horizontal streak per line from the ring's outer edge */
+  const n = lines.length, maxSum = 3.2, room = W - (cx + R) - 18;
+  lines.forEach((l, j) => {
+    const ang = -th + (j + 0.5) / n * 2 * th, y = cy + R * Math.sin(ang), x0 = cx + R * Math.cos(ang) + 6;
+    if (y < 4 || y > H - 4) return;
+    if (l.zero) { g.fillStyle = C.rose; g.fillRect(x0, y - 0.6, 10, 1.2); return; }
+    const p = l.pat[0]; let x = x0; const sc = Math.max(40, room + (cx + R - x0)) / maxSum;
+    [[p[1], C.bright, 0.85], [p[3], C.steel, 0.75], [p[5], C.dim, 0.9]].forEach(([e, col, al]) => {
+      g.globalAlpha = al; g.fillStyle = col; const len = Math.max(1, e * sc); g.fillRect(x, y - 0.5, len, 1); x += len + 2; });
+    g.globalAlpha = 1;
+    if (l.rate === 0) { g.fillStyle = C.amber; g.fillRect(x0 - 4, y - 1, 2, 2); }
+  });
+  /* the ring: W arcs on the circle's right arc */
+  const m = arcs.length;
+  g.save(); g.font = `${G.narrow ? 6 : 7.5}px ${css("--f-data")}`; g.textBaseline = "middle";
+  arcs.forEach((a, i) => {
+    const a0 = -th + i / m * 2 * th, a1 = -th + (i + 1) / m * 2 * th, am = (a0 + a1) / 2;
+    const col = a.kind === "weave" ? C.bright : a.kind === "thread" ? C.steel : a.kind === "progress" ? C.amber : "#3a434c";
+    g.beginPath(); g.arc(cx, cy, R - rw * 0.42, a0 + 0.0008, a1 - 0.0008); g.arc(cx, cy, R - 2, a1 - 0.0008, a0 + 0.0008, true); g.closePath();
+    g.fillStyle = a.id === selArc ? C.bright : (i % 2 ? "rgba(255,255,255,0.035)" : "rgba(255,255,255,0.065)"); g.fill();
+    g.fillStyle = col; g.fillRect(cx + (R - 3) * Math.cos(am) - 1, cy + (R - 3) * Math.sin(am) - 1, 2, 2);
+    g.save(); g.translate(cx + (R - rw * 0.21) * Math.cos(am), cy + (R - rw * 0.21) * Math.sin(am)); g.rotate(am);
+    const every = G.narrow ? 20 : 10; g.fillStyle = a.id === selArc ? C.ink : col;
+    if (a.id === selArc || (+a.id.slice(1)) % every === 0) g.fillText(a.id, -rw * 0.2, 0); g.restore();
+    const tot = a.held + a.failed;
+    if (tot) { const r0 = R - rw + 3, r1 = R - rw * 0.46; const share = a.held / tot;
+      const rm = r0 + (r1 - r0) * 0.5, seg = (s, e, col) => { if (e - s > 1e-4) { g.strokeStyle = col; g.beginPath(); g.arc(cx, cy, rm, s, e); g.stroke(); } };
+      g.lineWidth = 2.2; seg(a0 + 0.0015, a0 + (a1 - a0) * share - 0.0005, "rgba(241,244,246,0.85)");
+      if (a.failed) seg(a0 + (a1 - a0) * share + 0.0005, a1 - 0.0015, C.rose); }
+  });
+  g.restore();
+  g.strokeStyle = C.rule; g.beginPath(); g.arc(cx, cy, R, -th, th); g.stroke(); g.beginPath(); g.arc(cx, cy, R - rw, -th, th); g.stroke();
+  /* the selected census line */
+  const j = selLine, ang = -th + (j + 0.5) / n * 2 * th, ys = cy + R * Math.sin(ang);
+  g.strokeStyle = C.amber; g.lineWidth = 1; g.setLineDash([3, 3]); g.beginPath(); g.moveTo(cx + R * Math.cos(ang) + 2, ys); g.lineTo(W - 6, ys); g.stroke(); g.setLineDash([]);
+}
+/* particles: points of the fibre carried along each thread's expanding direction */
+const P = Array.from({ length: 520 }, (_, i) => ({ t: i % TH.length, u: Math.random(), v: Math.random(), age: Math.random() * 200 }));
+function stepParticles() {
+  if (!G) return;
+  const g = heroDyn.getContext("2d"), { dpr, cx, cy, rin } = G;
+  g.setTransform(dpr, 0, 0, dpr, 0, 0);
+  g.globalCompositeOperation = "destination-out"; g.fillStyle = "rgba(0,0,0,0.085)"; g.fillRect(0, 0, G.W, G.H);
+  g.globalCompositeOperation = "source-over";
+  g.save(); g.beginPath(); g.arc(cx, cy, rin - 2, 0, Math.PI * 2); g.clip();
+  g.strokeStyle = "rgba(241,244,246,0.75)"; g.lineWidth = 0.9;
+  g.beginPath();
+  P.forEach(p => { const d = TH[p.t].u, sp = 0.0016;
+    const [x0, y0] = torusToScreen(p.u, p.v); p.u += d[0] * sp; p.v += d[1] * sp; p.age++;
+    let wrapped = false; if (p.u < 0 || p.u >= 1 || p.v < 0 || p.v >= 1 || p.age > 320) { p.u = ((p.u % 1) + 1) % 1; p.v = ((p.v % 1) + 1) % 1; wrapped = true; }
+    if (p.age > 320) { p.u = Math.random(); p.v = Math.random(); p.age = 0; }
+    if (!wrapped) { const [x1, y1] = torusToScreen(p.u, p.v); g.moveTo(x0, y0); g.lineTo(x1, y1); } });
+  g.stroke(); g.restore();
+}
+let running = !REDUCED;
+function loop() { if (running) stepParticles(); requestAnimationFrame(loop); }
+document.addEventListener("visibilitychange", () => { running = !document.hidden && !REDUCED; });
+function heroHit(ev) {
+  const r = heroCv.getBoundingClientRect(), x = ev.clientX - r.left, y = ev.clientY - r.top, { cx, cy, R, rw, rin, th } = G;
+  const dx = x - cx, dy = y - cy, rad = Math.hypot(dx, dy), ang = Math.atan2(dy, dx);
+  if (rad >= R - rw && rad <= R + 2 && ang >= -th && ang <= th) {
+    const i = Math.min(arcs.length - 1, Math.floor((ang + th) / (2 * th) * arcs.length)); return { kind: "arc", i }; }
+  if (x > cx + R * 0.3 && rad > R) {
+    const s = Math.max(-1, Math.min(1, (y - cy) / R)), a = Math.asin(s);
+    if (a >= -th && a <= th) { const j = Math.min(lines.length - 1, Math.floor((a + th) / (2 * th) * lines.length));
+      if (x > cx + R * Math.cos(a) - 2) return { kind: "line", j }; } }
+  if (rad < rin) return { kind: "fibre" };
+  return null;
+}
+heroCv.addEventListener("mousemove", ev => { const h = heroHit(ev); heroCv.style.cursor = h && h.kind !== "fibre" ? "pointer" : "default";
+  if (!h) return hideTip();
+  if (h.kind === "arc") { const a = arcs[h.i]; showTip(`<b>${a.id}</b> · ${esc(a.label || a.verdict)}<br>${esc(a.status.slice(0, 220))}<br>${a.held + a.failed ? `${a.held} held · ${a.failed} failed as worded` : "no cells on record"}`, ev); }
+  else if (h.kind === "line") { const l = lines[h.j]; showTip(`<b>line (${l.a}, ${l.b})</b> · order ${l.N}${l.zero ? " · <b>massless</b> channel" : ""}${l.rate === 0 ? " · integer λ (slow)" : ""}<br>${l.pat ? "cusp e at Re τ 1/8: " + l.pat[0].map(fracStr).join(", ") : "no cusp pattern (zero channel)"}<br>click to load it in the cusp solver`, ev); }
+  else showTip(`<b>the shared fibre</b> · ${LAB.threads.length} threads, each a closed path of the moves L and R. Lines: each thread's expanding and contracting directions (exact eigenvectors); circles: fixed points of the short threads.`, ev); });
+heroCv.addEventListener("mouseleave", hideTip);
+heroCv.addEventListener("click", ev => { const h = heroHit(ev); if (!h) return;
+  if (h.kind === "arc") selectArc(arcs[h.i].id); if (h.kind === "line") selectLine(h.j); });
+
+/* ---------------------------------------------------------------- feed */
+const STEPCLS = { "rule": "st-rule", "script": "st-script", "output": "st-output", "recorded": "st-recorded", "post hoc": "st-posthoc", "relay": "st-relay", "reading": "st-reading", "desk": "st-desk", "other": "st-other" };
+let feedFilter = "all";
+function drawFeed() {
+  $("feed").innerHTML = LAB.feed.filter(f => feedFilter === "all" || f[2] === feedFilter).map(f =>
+    `<div title="${esc(f[4])}"><span class="h">${esc(f[0])}</span><span class="${STEPCLS[f[2]] || "st-other"}">${esc(f[2])}</span><span>${esc(f[3])}</span><span>${esc(f[4])}</span></div>`).join(""); }
+["all", "rule", "script", "output", "post hoc", "recorded"].forEach(k => { const b = document.createElement("button"); b.className = "chip"; b.textContent = k;
+  b.setAttribute("aria-pressed", k === feedFilter); b.onclick = () => { feedFilter = k; [...$("feedChips").children].forEach(c => c.setAttribute("aria-pressed", c === b)); drawFeed(); };
+  $("feedChips").appendChild(b); });
+
+/* ---------------------------------------------------------------- canvas helper */
+function prep(cv) { const w = cv.clientWidth, h = +cv.getAttribute("height"), dpr = Math.min(2, devicePixelRatio || 1);
+  cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr); cv.style.height = h + "px";
+  const g = cv.getContext("2d"); g.setTransform(dpr, 0, 0, dpr, 0, 0); g.clearRect(0, 0, w, h); return [g, w, h]; }
+const FONT = () => `9px ${css("--f-data")}`;
+
+/* ---------------------------------------------------------------- cusp solver */
+let sweep = 1, sweepTimer = null;
+function localExps(k) {
+  const lad = LAB.census.ladder[k]; if (!lad) return null;
+  const hs = LAB.census.heights; const out = [];
+  for (let i = 0; i + 1 < hs.length; i++) { const a = lad[hs[i].toFixed(1)], b = lad[hs[i + 1].toFixed(1)];
+    out.push({ y: Math.sqrt(hs[i] * hs[i + 1]), e: a.map((v, f) => (v == null || b[f] == null) ? null : -(b[f] - v) / (2 * Math.PI * (hs[i + 1] - hs[i]))) }); }
+  return out; }
+function drawCusp() {
+  const [g, w, h] = prep($("cuspCv")), l = lines[selLine], le = localExps(selLine);
+  const L = 30, Rt = 50, T = 8, B = 20, ymax = 1.6, x = y => L + (Math.log(y) - Math.log(6)) / (Math.log(48) - Math.log(6)) * (w - L - Rt), yy = e => T + (1 - e / ymax) * (h - T - B);
+  g.font = FONT(); g.fillStyle = C.dim; g.strokeStyle = C.rule; g.lineWidth = 1;
+  [0, 0.4, 0.8, 1.2, 1.6].forEach(v => { g.beginPath(); g.moveTo(L, yy(v)); g.lineTo(w - Rt, yy(v)); g.stroke(); g.fillText(v.toFixed(1), 4, yy(v) + 3); });
+  [6, 8, 12, 16, 24, 32, 48].forEach(v => { g.fillText(v, x(v) - 5, h - 6); });
+  g.fillText("Im τ", w - Rt + 6, h - 6);
+  if (!le) { g.fillStyle = C.rose; g.fillText("a channel is zero on this line: massless (W178)", L + 6, T + 14); }
+  else {
+    const pat = l.pat[0], yCut = 6 * Math.pow(8, sweep);
+    pat.forEach((e, f) => { g.strokeStyle = SER[f]; g.globalAlpha = 0.5; g.setLineDash([2, 3]); g.beginPath(); g.moveTo(L, yy(e)); g.lineTo(w - Rt, yy(e)); g.stroke(); g.setLineDash([]);
+      g.globalAlpha = 1; g.fillStyle = SER[f]; if (e <= ymax) g.fillText(fracStr(e), w - Rt + 4, yy(e) + 3 + (f % 2 ? 0 : -1)); });
+    for (let f = 0; f < 6; f++) { g.strokeStyle = SER[f]; g.lineWidth = f % 2 ? 1.4 : 1; g.beginPath(); let started = false;
+      le.forEach(p => { if (p.y > yCut || p.e[f] == null) return; const px = x(p.y), py = yy(Math.min(ymax, Math.max(0, p.e[f])));
+        started ? g.lineTo(px, py) : g.moveTo(px, py); started = true; }); g.stroke();
+      g.fillStyle = SER[f]; le.forEach(p => { if (p.y > yCut || p.e[f] == null) return; g.fillRect(x(p.y) - 1.5, yy(Math.min(ymax, Math.max(0, p.e[f]))) - 1.5, 3, 3); }); }
+    if (sweep < 1) { g.strokeStyle = C.amber; g.beginPath(); g.moveTo(x(yCut), T); g.lineTo(x(yCut), h - B); g.stroke(); }
+  }
+  const pills = [`<span class="pill">order ${l.N}</span>`];
+  if (l.zero) pills.push(`<span class="pill zero">massless channel</span>`);
+  if (l.rate === 0) pills.push(`<span class="pill slow">integer λ · slow (W179 G0, W180)</span>`);
+  $("cuspRead").innerHTML = `<span>line <b>(${l.a}, ${l.b})</b></span>${pills.join("")}` +
+    (l.pat ? `<span>cusp: ${l.pat[0].map((e, f) => FEATS[f] + " " + fracStr(e)).join(" · ")}</span><span>converged to ${l.conv != null ? l.conv.toExponential(1) : "—"}</span>` : "");
+}
+(function fillLineSel() { const s = $("lineSel");
+  hByN.forEach(l => { const o = document.createElement("option"); o.value = l.k; o.textContent = `(${l.a}, ${l.b}) · order ${l.N}${l.zero ? " · massless" : l.rate === 0 ? " · integer λ" : ""}`; s.appendChild(o); });
+  s.value = selLine; s.onchange = () => selectLine(+s.value); })();
+$("play").onclick = () => { if (sweepTimer) return; sweep = 0; $("play").setAttribute("aria-pressed", "true");
+  const t0 = performance.now(); const tick = now => { sweep = Math.min(1, (now - t0) / 4200); drawCusp();
+    if (sweep < 1) sweepTimer = requestAnimationFrame(tick); else { sweepTimer = null; $("play").setAttribute("aria-pressed", "false"); } };
+  if (REDUCED) { sweep = 1; drawCusp(); $("play").setAttribute("aria-pressed", "false"); } else sweepTimer = requestAnimationFrame(tick); };
+function selectLine(k) { selLine = k; $("lineSel").value = k; drawCusp(); drawHero(); }
+
+/* ---------------------------------------------------------------- method workspace */
+(function fillArcSel() { const s = $("arcSel");
+  [...arcs].reverse().forEach(a => { const o = document.createElement("option"); o.value = a.id; o.textContent = a.id + (a.kind === "progress" ? " · in progress" : ""); s.appendChild(o); });
+  s.onchange = () => selectArc(s.value); })();
+function drawWs() {
+  const a = arcs.find(x => x.id === selArc), cs = cellsBy[selArc] || [], r = LAB.routes[selArc] || {};
+  $("arcSel").value = selArc; $("wsArc").textContent = "· " + selArc;
+  const rows = [`<span class="k">arc     </span>${esc(a.id)}`, `<span class="k">label   </span>${esc(a.label || "—")}`,
+    `<span class="k">status  </span>${esc(a.status)}`];
+  if (a.what) rows.push(`<span class="k">what    </span>${esc(a.what)}`);
+  rows.push(`<span class="k">cells</span>`);
+  if (!cs.length) rows.push(`  <span class="k">none run on record${a.kind === "progress" ? " yet: the run is pending" : ""}</span>`);
+  cs.forEach(c => rows.push(`  ${esc(c[1].padEnd(4))} <span class="k">p=${c[2].toFixed(2)}</span>  ${c[3] ? '<span class="ok">✓ held  </span>' : '<span class="no">✗ failed</span>'}  ${esc(c[4])}`));
+  $("ws").innerHTML = rows.join("\n");
+  $("wsFoot").innerHTML = a.line ? `<a href="${REPO}/blob/${LAB.head}/${NOTE}#L${a.line}" target="_blank" rel="noopener">NOTE.md line ${a.line}</a> · rule ${r.rule ? r.rule[0] : "—"} · recorded ${r.recorded ? r.recorded[0] : "—"}`
+    : `rule ${r.rule ? r.rule[0] : "—"} · script ${r.script ? r.script[0] : "—"} · not yet recorded`;
+}
+function selectArc(id) { selArc = id; drawWs(); drawRoutes(); drawHero(); }
+
+/* ---------------------------------------------------------------- difference field */
+function drawDiff() {
+  const [g, w, h] = prep($("diffCv")), n = hByN.length, cols = 19, rows = Math.ceil(n / cols);
+  const gap = 10, cw = Math.min(9, Math.floor((w - gap) / 2 / cols)), mapW = cols * cw, mapH = rows * cw;
+  const ox = [Math.floor((w - 2 * mapW - gap) / 2), Math.floor((w - 2 * mapW - gap) / 2) + mapW + gap], oy = 14;
+  g.font = FONT(); g.fillStyle = C.dim; g.fillText("local · Im τ 6–8", ox[0], 10); g.fillText("cusp · Im τ 32–48", ox[1], 10);
+  const vals = hByN.map(l => (l.pat && l.local) ? [l.local[feat], l.pat[0][feat]] : null);
+  const all = vals.filter(Boolean).flat().filter(v => v != null); const lo = Math.min(...all), hi = Math.max(...all);
+  const shade = v => { const t = (v - lo) / (hi - lo || 1); const c = Math.round(28 + t * 210); return `rgb(${c},${c + 4},${c + 8})`; };
+  hByN.forEach((l, i) => { const cx = i % cols, cy = Math.floor(i / cols); const v = vals[i];
+    [0, 1].forEach(s => { const x = ox[s] + cx * cw, y = oy + cy * cw;
+      if (!v || v[s] == null) { g.strokeStyle = C.rose; g.lineWidth = 1; g.beginPath(); g.moveTo(x + 2, y + 2); g.lineTo(x + cw - 2, y + cw - 2); g.moveTo(x + cw - 2, y + 2); g.lineTo(x + 2, y + cw - 2); g.stroke(); return; }
+      g.fillStyle = shade(v[s]); g.fillRect(x, y, cw - 1, cw - 1);
+      if (l.k === selLine) { g.strokeStyle = C.amber; g.strokeRect(x - 0.5, y - 0.5, cw, cw); } }); });
+  const d = vals.map(v => v && v[0] != null && v[1] != null ? v[0] - v[1] : null).filter(v => v != null);
+  const y0 = oy + mapH + 22, bh = h - y0 - 14, bins = 41, dm = Math.max(0.02, ...d.map(Math.abs));
+  const cnt = new Array(bins).fill(0); d.forEach(v => cnt[Math.min(bins - 1, Math.floor((v + dm) / (2 * dm) * bins))]++);
+  const mx = Math.max(...cnt), bw = (w - 20) / bins;
+  g.fillStyle = C.dim; g.fillText("local − cusp", 10, y0 - 6); g.fillText((-dm).toFixed(2), 10, h - 2); g.fillText("+" + dm.toFixed(2), w - 40, h - 2);
+  cnt.forEach((c, i) => { const mid = -dm + (i + 0.5) / bins * 2 * dm; g.fillStyle = Math.abs(mid) < dm / bins * 1.2 ? C.fg : C.rose; g.globalAlpha = 0.85;
+    const bhh = c / mx * bh; g.fillRect(10 + i * bw, y0 + bh - bhh, bw - 1, bhh); }); g.globalAlpha = 1;
+  g.fillStyle = C.fg; g.fillText(FEATS[feat], w - 54, y0 - 6);
+}
+FEATS.forEach((f, i) => { const b = document.createElement("button"); b.className = "chip"; b.textContent = f; b.setAttribute("aria-pressed", i === feat);
+  b.onclick = () => { feat = i; [...$("featChips").children].forEach(c => c.setAttribute("aria-pressed", c === b)); drawDiff(); }; $("featChips").appendChild(b); });
+
+/* ---------------------------------------------------------------- routes */
+function drawRoutes() {
+  const ids = Object.keys(LAB.routes).sort((a, b) => +b.slice(1) - +a.slice(1)).slice(0, 40);
+  if (!ids.includes(selArc) && LAB.routes[selArc]) ids.unshift(selArc);
+  const cell = (r, k) => r[k] ? `<td>${esc(r[k][0].slice(0, 7))}</td>` : `<td class="miss">·······</td>`;
+  $("routes").querySelector("tbody").innerHTML = ids.map(id => { const r = LAB.routes[id];
+    const ph = r.posthoc_output || r.posthoc_script;
+    return `<tr class="${id === selArc ? "sel" : ""}" data-arc="${id}" style="cursor:pointer"><td>${id}</td>${cell(r, "rule")}${cell(r, "script")}${cell(r, "output")}${ph ? `<td style="color:var(--amber)">${esc(ph[0].slice(0, 7))}</td>` : '<td class="miss">·······</td>'}${cell(r, "recorded")}</tr>`; }).join("");
+  [...$("routes").querySelectorAll("tr[data-arc]")].forEach(tr => tr.onclick = () => selectArc(tr.dataset.arc));
+  $("flagCount").textContent = LAB.flags.length ? `${LAB.flags.length} order flags` : "0 order flags";
+}
+
+/* ---------------------------------------------------------------- validation traces */
+function drawVal() {
+  const [g, w, h] = prep($("valCv")); g.font = FONT(); const bandH = (h - 18) / 3;
+  const frame = (i, title) => { const y0 = 4 + i * (bandH + 5); g.fillStyle = C.dim; g.fillText(title, 4, y0 + 8); g.strokeStyle = C.rule; g.strokeRect(0.5, y0 + 12.5, w - 1, bandH - 14); return [y0 + 13, bandH - 15]; };
+  /* 1: W178 convergence, sorted, log scale */
+  let [y0, hh] = frame(0, "W178 convergence per line · rose: tolerance 0.005");
+  const cv = lines.filter(l => !l.zero && l.conv != null).map(l => l.conv).sort((a, b) => a - b);
+  const ly = v => y0 + hh - (Math.log10(Math.max(1e-9, v)) + 9) / 7 * hh;
+  g.strokeStyle = C.rose; g.setLineDash([3, 3]); g.beginPath(); g.moveTo(1, ly(0.005)); g.lineTo(w - 1, ly(0.005)); g.stroke(); g.setLineDash([]);
+  g.fillStyle = "rgba(241,244,246,0.08)"; g.beginPath(); g.moveTo(1, y0 + hh); cv.forEach((v, i) => g.lineTo(1 + i / (cv.length - 1) * (w - 2), ly(v))); g.lineTo(w - 1, y0 + hh); g.fill();
+  g.strokeStyle = C.bright; g.beginPath(); cv.forEach((v, i) => { const x = 1 + i / (cv.length - 1) * (w - 2); i ? g.lineTo(x, ly(v)) : g.moveTo(x, ly(v)); }); g.stroke();
+  g.fillStyle = C.bright; g.fillText(`${cv.length} lines · worst ${cv[cv.length - 1].toExponential(1)}`, 6, y0 + 11);
+  /* 2: W179's D ladder on (1/2, 1/5) */
+  [y0, hh] = frame(1, "W179 · D on (1/2, 1/5) by Im τ · band: data 3σ");
+  const W1 = LAB.w179, lad = W1.ladder.filter(p => p[0] >= 12), xs = y => 4 + (Math.log(y) - Math.log(12)) / (Math.log(128) - Math.log(12)) * (w - 60);
+  const dy = v => y0 + hh - (Math.log(v) - Math.log(5)) / (Math.log(40) - Math.log(5)) * hh;
+  g.fillStyle = "rgba(212,138,140,0.22)"; g.fillRect(1, dy(W1.window[1]), w - 2, Math.max(1, dy(W1.window[0]) - dy(W1.window[1])));
+  g.strokeStyle = C.dim; g.setLineDash([2, 3]); g.beginPath(); g.moveTo(1, dy(W1.fit[0])); g.lineTo(w - 1, dy(W1.fit[0])); g.stroke(); g.setLineDash([]);
+  g.fillStyle = C.dim; g.fillText(`fit's limit ${W1.fit[0].toFixed(2)}`, w - 92, dy(W1.fit[0]) - 3);
+  g.strokeStyle = C.bright; g.beginPath(); lad.forEach((p, i) => i ? g.lineTo(xs(p[0]), dy(p[1])) : g.moveTo(xs(p[0]), dy(p[1]))); g.stroke();
+  lad.forEach(p => { g.fillStyle = p[0] > 48 ? C.amber : C.bright; g.fillRect(xs(p[0]) - 2, dy(p[1]) - 2, 4, 4); g.fillStyle = C.dim; g.fillText(p[0], xs(p[0]) - 4, y0 + hh - 2); });
+  if (W1["w180 limits"]) { const v = W1["w180 limits"].find(r => r[0][0] === "1/2" && r[0][1] === "1/5"); if (v) { g.fillStyle = C.bright; g.fillText(`W180 exact limit ${v[2].toFixed(4)}`, 6, y0 + 22); } }
+  /* 3: calibration */
+  [y0, hh] = frame(2, "cells in run order · held share (white) vs mean prior (grey)");
+  let sh = 0, sp = 0; const pts = LAB.cells.map((c, i) => { sh += c[3]; sp += c[2]; return [sh / (i + 1), sp / (i + 1)]; });
+  const cy = v => y0 + hh - (v - 0.5) / 0.5 * hh, cx2 = i => 1 + i / (pts.length - 1) * (w - 2);
+  [[1, C.dim], [0, C.bright]].forEach(([k, col]) => { g.strokeStyle = col; g.beginPath(); pts.forEach((p, i) => i ? g.lineTo(cx2(i), cy(p[k])) : g.moveTo(cx2(i), cy(p[k]))); g.stroke(); });
+  const last = pts[pts.length - 1]; g.fillStyle = C.bright; g.fillText(`held ${(last[0] * 100).toFixed(0)}% · mean prior ${(last[1] * 100).toFixed(0)}%`, 6, y0 + 11);
+}
+
+/* ---------------------------------------------------------------- seats */
+function drawSeats() {
+  const max = Math.max(...LAB.seats.map(s => s.rows));
+  $("seats").innerHTML = LAB.seats.map(s => { const open = s.open - Math.min(s.open, s.escalated);
+    return `<div class="seat"><span class="nm">${esc(s.name)}</span><span class="bars" style="width:${Math.max(8, s.rows / max * 100)}%" title="${s.rows} rows · ${s.banked} banked · ${s.open} open · ${s.escalated} escalated"><i style="width:${s.banked / s.rows * 100}%;background:${C.bright}"></i><i style="width:${open / s.rows * 100}%;background:#3a434c"></i><i style="width:${Math.min(s.escalated, s.open) / s.rows * 100}%;background:${C.rose}"></i></span><span class="d">${esc(s.latest)}</span></div>`; }).join("");
+  const ids = Object.keys(LAB.routes).sort((a, b) => +b.slice(1) - +a.slice(1)); const cur = ids[0], r = LAB.routes[cur];
+  const order = ["rule", "script", "output", "recorded"]; const nextIdx = order.findIndex(k => !r[k]);
+  $("now").innerHTML = `<div class="lbl">this seat · now</div><div class="row"><b style="color:var(--bright)">${cur}</b>${order.map((k, i) =>
+    `<span class="step ${r[k] ? "done" : i === nextIdx ? "live" : ""}">${k}${r[k] ? " " + r[k][0].slice(0, 7) : ""}</span>`).join("")}</div>`;
+}
+
+/* ---------------------------------------------------------------- cell index */
+let cellGeom = null;
+function drawCells() {
+  const [g, w, h] = prep($("cellCv")); const ids = [...new Set(LAB.cells.map(c => c[0]))];
+  const maxK = Math.max(...ids.map(id => cellsBy[id].length)); const cw = Math.max(2, Math.min(9, Math.floor((w - 4) / ids.length))), ch = Math.min(12, Math.floor((h - 16) / maxK));
+  const ox = Math.floor((w - ids.length * cw) / 2);
+  ids.forEach((id, i) => cellsBy[id].forEach((c, k) => { g.globalAlpha = 0.25 + 0.75 * Math.max(0, (c[2] - 0.5) / 0.5);
+    g.fillStyle = c[3] ? C.bright : C.rose; g.fillRect(ox + i * cw, 4 + k * ch, cw - 1, ch - 1);
+    if (id === selArc) { g.globalAlpha = 1; g.strokeStyle = C.amber; g.strokeRect(ox + i * cw - 0.5, 3.5 + k * ch, cw, ch); } }));
+  g.globalAlpha = 1; g.font = FONT(); g.fillStyle = C.dim; g.fillText(ids[0], ox, h - 3); g.fillText(ids[ids.length - 1], ox + ids.length * cw - 28, h - 3);
+  cellGeom = { ids, cw, ch, ox };
+  const c = LAB.cells, held = c.filter(x => x[3]).length, mp = c.reduce((s, x) => s + x[2], 0) / c.length;
+  const fails = c.filter(x => !x[3]), hiFail = fails.filter(x => x[2] >= 0.9).length;
+  $("cellRead").innerHTML = `<span><b>${c.length}</b> cells</span><span><b>${held}</b> held</span><span><b style="color:var(--rose)">${c.length - held}</b> failed as worded</span><span>mean prior <b>${(mp * 100).toFixed(1)}%</b></span><span>${hiFail} failures at prior ≥ 90%</span>`;
+}
+$("cellCv").addEventListener("mousemove", ev => { if (!cellGeom) return; const r = $("cellCv").getBoundingClientRect(), x = ev.clientX - r.left, y = ev.clientY - r.top;
+  const i = Math.floor((x - cellGeom.ox) / cellGeom.cw), k = Math.floor((y - 4) / cellGeom.ch), id = cellGeom.ids[i], c = id && cellsBy[id][k];
+  if (!c) return hideTip(); showTip(`<b>${c[0]} · ${esc(c[1])}</b> · prior ${(c[2] * 100).toFixed(0)}% · ${c[3] ? "held" : "<b>failed as worded</b>"}<br>${esc(c[4])}`, ev); });
+$("cellCv").addEventListener("mouseleave", hideTip);
+$("cellCv").addEventListener("click", ev => { if (!cellGeom) return; const r = $("cellCv").getBoundingClientRect(); const i = Math.floor((ev.clientX - r.left - cellGeom.ox) / cellGeom.cw);
+  if (cellGeom.ids[i]) selectArc(cellGeom.ids[i]); });
+$("cuspCv").addEventListener("mousemove", ev => { const l = lines[selLine]; if (!l.pat) return; showTip(`<b>(${l.a}, ${l.b})</b><br>${l.pat[0].map((e, f) => `${FEATS[f]}: ${e.toFixed(5)} ≈ ${fracStr(e)}`).join("<br>")}`, ev); });
+$("cuspCv").addEventListener("mouseleave", hideTip);
+
+/* ---------------------------------------------------------------- boot */
+function drawAll() { layoutHero(); drawCusp(); drawDiff(); drawVal(); drawCells(); }
+drawFeed(); drawWs(); drawRoutes(); drawSeats(); drawAll();
+let rz = null; addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(drawAll, 120); });
+requestAnimationFrame(loop);
+if (!REDUCED) setTimeout(() => $("play").click(), 700);
+</script>
