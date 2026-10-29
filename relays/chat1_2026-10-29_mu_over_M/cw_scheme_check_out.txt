@@ -1,0 +1,6 @@
+1. dV/du at large u, leading: log((u/mu**2)**(m0**2/(16*pi**2)))
+   equals (m0^2/16 pi^2) log(u/mu^2): True
+2. dV/d log mu^2 = -m0**2*(m0**2 + 2*u)/(32*pi**2)  | u-dependent: True
+   d(V_lead + c m0^2 u)/d log mu^2 = 0
+3. large-u minimum u* = [exp(L0 - 16*pi**2*c0)]  | d u*/d log mu^2 = [0]
+   at c(mu = M~) = 0 (the paper's choice) u* = M~^2: True
