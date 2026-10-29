@@ -152,3 +152,10 @@ Feruglio, Gherardi, Romanino and Titov, modular invariant dynamics and fermion m
   degeneracy that a·a's double zero gives at L = ∞. Agreement with B1807's referee's independent evaluator to the per-mille
   (m₂/m₃ = 5.765 × 10⁻⁵ against 5.783 × 10⁻⁵ at 23/2, L = 2.5, ε = 10⁻³, in two directions).
 - **The cusp column** stands as this arc's S164 correction left it. RETRACTIONS.
+
+## Dated note (2026-10-29, S250; B1809's referee, verified on main) — the radii in S248's note
+
+- S248's "at the canonical end radius (L = 0.65 and 2.5; B1667)" took two values inside B1667's range, not the radii at the
+  points. At τ = i the radii are L_max(i) = 0.688 and L₂(i) = 2.719. There a section with a(i) on R(i)'s line gives
+  m₂/m₃ = 0.2080 and 0.01907 (B1809 Table T).
+- The exponents stand.

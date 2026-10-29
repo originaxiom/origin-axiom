@@ -262,3 +262,25 @@ withdraw no result; B1687 corrects a register point's expectation, not a banked 
 - "B1724's law maps J to −J" (the SM seat's W145) — corrected on main: the T-law keeps J; the mirror flips it (B1750 §3).
 - "the prime 5 adopted by the rule" (main's first ladder clause, GENESIS v1.56) — corrected by v1.57 (B1752): the end at 5 follows from the moves' orders; the container E₈ is the adoption.
 - No row added: each phrase remains legitimately quoted in its own history.
+
+**Currency read 2026-10-29 (S250; the window B1753–B1809).** The window's corrections, each carried by a dated note in
+its own arc (and, where its claim line repeated it, a bracket there):
+- **THE EXACT END** (B1726, B1741, B1749, B1753, B1786): the small-cut end, 35–38% above the exact norms.
+- **The web seat's audit** (B1739, B1740, B1790).
+- **B1806's proxy correction** (B1691's and B1697's "→ ½" meant 1; E93; B1697's claim line bracketed, P-435).
+- **S248's scope corrections** (B1691's ω row and B1806's ∂²R-free rows hold in the L-free coupling only; B1806's claim
+  line bracketed).
+- **S250's radii** (B1691, B1806).
+
+**The synthesis surfaces that repeated a withdrawn number were corrected in place:**
+- THE_WEAVE's "½ exactly at ω and at i … 0.29–0.50";
+- CAMPAIGN_STATUS's dated S163 entry, annotated (a history entry, not rewritten).
+
+**Withdrawn before landing, so never live:**
+- the P-406 drafts' "no scale at the forced points" and "no hierarchy is fixed at a symmetry selection";
+- B1804's draft "never a CM point";
+- B1803's and B1805's draft framings;
+- B1808's draft "the hand opposite between components".
+
+No living surface repeats them. No row added.
+

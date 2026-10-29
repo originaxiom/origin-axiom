@@ -1,0 +1,7 @@
+canonical radii at i: (0.688385709056232, 2.7192576281085956)  at omega: (0.6920800405023999, 2.7864751428899948)
+1.3j DR (k=3/2) a0 (k=7/2) J = -3.597e-19 [[np.float64(0.9987), np.float64(0.0339), np.float64(0.0368)], [np.float64(0.0499), np.float64(0.7296), np.float64(0.6821)], [np.float64(0.0037), np.float64(0.683), np.float64(0.7304)]]
+1.3j 7/2 generic seed1 19/2 generic seed2 J = 4.414e-06 [[np.float64(0.996), np.float64(0.0892), np.float64(0.0013)], [np.float64(0.0891), np.float64(0.9951), np.float64(0.0423)], [np.float64(0.0044), np.float64(0.0421), np.float64(0.9991)]]
+(0.5+1.3j) DR (k=3/2) a0 (k=7/2) J = 5.746e-18 [[np.float64(0.9996), np.float64(0.0191), np.float64(0.0214)], [np.float64(0.0285), np.float64(0.7497), np.float64(0.6612)], [np.float64(0.0034), np.float64(0.6616), np.float64(0.7499)]]
+(0.5+1.3j) 7/2 generic seed1 19/2 generic seed2 J = 1.549e-06 [[np.float64(0.9978), np.float64(0.067), np.float64(0.0008)], [np.float64(0.067), np.float64(0.9973), np.float64(0.029)], [np.float64(0.0024), np.float64(0.029), np.float64(0.9996)]]
+(0.17+1.3j) DR (k=3/2) a0 (k=7/2) J = 2.855e-05 [[np.float64(0.999), np.float64(0.0311), np.float64(0.0334)], [np.float64(0.0455), np.float64(0.7378), np.float64(0.6734)], [np.float64(0.0039), np.float64(0.6743), np.float64(0.7385)]]
+(0.17+1.3j) 7/2 generic seed1 19/2 generic seed2 J = 2.820e-06 [[np.float64(0.9971), np.float64(0.0757), np.float64(0.0012)], [np.float64(0.0756), np.float64(0.9964), np.float64(0.0372)], [np.float64(0.0035), np.float64(0.0371), np.float64(0.9993)]]

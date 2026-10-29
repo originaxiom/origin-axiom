@@ -1,0 +1,626 @@
+{
+ "LR": {
+  "rank": 4,
+  "det": 5,
+  "t^2-4": 5,
+  "signature": [
+   2,
+   2
+  ],
+  "Gram": [
+   [
+    "0",
+    "0",
+    "-1",
+    "0"
+   ],
+   [
+    "0",
+    "2",
+    "0",
+    "-1"
+   ],
+   [
+    "-1",
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "-1",
+    "0",
+    "-2"
+   ]
+  ],
+  "HxH": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     -1,
+     -1
+    ]
+   ]
+  },
+  "HxH-": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     -1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "H-xH": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     -1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "H-xH-": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     -1,
+     -1
+    ]
+   ]
+  },
+  "det M_w / Q(w) (identically)": "-5/2"
+ },
+ "B_3": {
+  "rank": 4,
+  "det": 5,
+  "t^2-4": 5,
+  "signature": [
+   2,
+   2
+  ],
+  "Gram": [
+   [
+    "0",
+    "0",
+    "-1",
+    "0"
+   ],
+   [
+    "0",
+    "2",
+    "0",
+    "3"
+   ],
+   [
+    "-1",
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "3",
+    "0",
+    "2"
+   ]
+  ],
+  "HxH": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     -1,
+     -1
+    ]
+   ]
+  },
+  "HxH-": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     -1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "H-xH": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     -1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "H-xH-": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     -1,
+     -1
+    ]
+   ]
+  },
+  "det M_w / Q(w) (identically)": "-5/2"
+ },
+ "B_4": {
+  "rank": 4,
+  "det": 12,
+  "t^2-4": 12,
+  "signature": [
+   2,
+   2
+  ],
+  "Gram": [
+   [
+    "0",
+    "0",
+    "-1",
+    "0"
+   ],
+   [
+    "0",
+    "2",
+    "0",
+    "4"
+   ],
+   [
+    "-1",
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "4",
+    "0",
+    "2"
+   ]
+  ],
+  "HxH": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     -1,
+     -1
+    ]
+   ]
+  },
+  "HxH-": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     -1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "H-xH": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     -1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "H-xH-": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     -1,
+     -1
+    ]
+   ]
+  },
+  "det M_w / Q(w) (identically)": "-6"
+ },
+ "B_5": {
+  "rank": 4,
+  "det": 21,
+  "t^2-4": 21,
+  "signature": [
+   2,
+   2
+  ],
+  "Gram": [
+   [
+    "0",
+    "0",
+    "-1",
+    "0"
+   ],
+   [
+    "0",
+    "2",
+    "0",
+    "5"
+   ],
+   [
+    "-1",
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "5",
+    "0",
+    "2"
+   ]
+  ],
+  "HxH": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     -1,
+     -1
+    ]
+   ]
+  },
+  "HxH-": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     -1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "H-xH": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     -1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "H-xH-": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     -1,
+     -1
+    ]
+   ]
+  },
+  "det M_w / Q(w) (identically)": "-21/2"
+ },
+ "B_6": {
+  "rank": 4,
+  "det": 32,
+  "t^2-4": 32,
+  "signature": [
+   2,
+   2
+  ],
+  "Gram": [
+   [
+    "0",
+    "0",
+    "-1",
+    "0"
+   ],
+   [
+    "0",
+    "2",
+    "0",
+    "6"
+   ],
+   [
+    "-1",
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "6",
+    "0",
+    "2"
+   ]
+  ],
+  "HxH": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     -1,
+     -1
+    ]
+   ]
+  },
+  "HxH-": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     -1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "H-xH": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     -1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "H-xH-": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     -1,
+     -1
+    ]
+   ]
+  },
+  "det M_w / Q(w) (identically)": "-16"
+ },
+ "B_7": {
+  "rank": 4,
+  "det": 45,
+  "t^2-4": 45,
+  "signature": [
+   2,
+   2
+  ],
+  "Gram": [
+   [
+    "0",
+    "0",
+    "-1",
+    "0"
+   ],
+   [
+    "0",
+    "2",
+    "0",
+    "7"
+   ],
+   [
+    "-1",
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "7",
+    "0",
+    "2"
+   ]
+  ],
+  "HxH": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     -1,
+     -1
+    ]
+   ]
+  },
+  "HxH-": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     -1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "H-xH": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     -1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "H-xH-": {
+   "(complex orientation vs e0123, signs of the form on the invariant (1,1) plane in the COMPLEX orientation)": [
+    [
+     1,
+     [
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "signs in the FIXED orientation e0123": [
+    [
+     -1,
+     -1
+    ]
+   ]
+  },
+  "det M_w / Q(w) (identically)": "-45/2"
+ }
+}

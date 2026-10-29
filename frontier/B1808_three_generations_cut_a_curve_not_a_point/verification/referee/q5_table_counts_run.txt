@@ -1,0 +1,5 @@
+LR | |chi|=3 classes: 184 (author 184) | Q=-6: 92 Q=+6: 92 | distinct det Gram: exact 15, author's list 15 | distinct det NS (saturated): 14, range 3-60 | u-pairs 168 -> points 48
+B_4 | |chi|=3 classes: 194 (author 194) | Q=-6: 114 Q=+6: 80 | distinct det Gram: exact 22, author's list 22 | distinct det NS (saturated): 21, range 3-159 | u-pairs 138 -> points 62
+B_5 | |chi|=3 classes: 156 (author 156) | Q=-6: 96 Q=+6: 60 | distinct det Gram: exact 38, author's list 38 | distinct det NS (saturated): 36, range 11-252 | u-pairs 364 -> points 110
+B_6 | |chi|=3 classes: 72 (author 72) | Q=-6: 32 Q=+6: 40 | distinct det Gram: exact 40, author's list 40 | distinct det NS (saturated): 37, range 12-383 | u-pairs 430 -> points 135
+B_7 | |chi|=3 classes: 76 (author 76) | Q=-6: 44 Q=+6: 32 | distinct det Gram: exact 48, author's list 40 | distinct det NS (saturated): 46, range 11-540 | u-pairs 442 -> points 141

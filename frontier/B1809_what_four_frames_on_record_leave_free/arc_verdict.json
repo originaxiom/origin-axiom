@@ -1,0 +1,41 @@
+{
+ "id": "B1809",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1656",
+  "B1667",
+  "B1684",
+  "B1686",
+  "B1691",
+  "B1697",
+  "B1704",
+  "B1730",
+  "B1742",
+  "B1800",
+  "B1801",
+  "B1804",
+  "B1805",
+  "B1806",
+  "B1807",
+  "B1808"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "W175",
+  "W176"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "four frames on record: B1656's flat fibre (FR-FIB), the flux frames (FR-FLUX), Witten's G2 frame over Q = m004(p/q) (FR-G2Q), the one-loop potentials (FR-DYN)",
+  "object": "the object's group PGL(2,Z) with GM5b and the mirror; the record's parameter-free Higgs directions",
+  "reach": "class",
+  "hypotheses": "H-cov; zero line for Table T unless stated; B1667's canonical end; the census's absence claims rest on the referees' sweeps"
+ },
+ "claim_one_line": "WHAT FOUR FRAMES ON RECORD LEAVE FREE (P-406 re-scoped; a census with one classical lemma; data-free): for every discrete choice on record each of four frames keeps a continuous datum nothing on record fixes or an infinite discrete menu nothing on record selects; the configurations the object's symmetry fixes are (i,0), (omega,0), (i,(1/2,1/2)), (omega,(1/3,2/3)); there the outputs are degeneracies, J = 0, or numbers set by the discrete choices -- Table T, which at B1667's L_2(i) runs from m2/m3 = 0.019 (a Higgs along R) to 1 (a0: (0.0753, 0.658); DR: (0, 1)); 'hierarchy' is not defined here, the table is the statement and P-432 completes it. Refereed hostile twice; main's own driver reproduces the table. None of the 19.",
+ "weave_or_thread": "weave (the census of frames; Table T at the symmetry-fixed configurations)"
+}

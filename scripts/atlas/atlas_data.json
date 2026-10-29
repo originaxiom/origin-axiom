@@ -12742,7 +12742,8 @@
     "S163",
     "S164",
     "S245",
-    "S248"
+    "S248",
+    "S250"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 33,
@@ -14622,7 +14623,8 @@
     "L2",
     "S163",
     "S247",
-    "S248"
+    "S248",
+    "S250"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 10,
@@ -14648,6 +14650,59 @@
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1808": {
+   "slug": "three generations cut a curve not a point",
+   "motifs": [
+    "arrow",
+    "closing",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 13,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1809": {
+   "slug": "what four frames on record leave free",
+   "motifs": [
+    "closing",
+    "choice",
+    "coupling",
+    "action",
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B213",
+    "B714",
+    "B727",
+    "B736",
+    "B758",
+    "B990",
+    "L91",
+    "S1",
+    "S2",
+    "S245",
+    "S248",
+    "S3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 11,
    "status": "banked",
    "domain": "arithmetic"
   },

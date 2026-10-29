@@ -12259,5 +12259,29 @@
    "hypotheses": "the G2 space, the D5 singularity and the localisation are not supplied by the object; a Stueckelberg breaking of U(1)_X unchecked"
   },
   "weave_or_thread": "thread"
+ },
+ {
+  "id": "B1808",
+  "claim_killed": "That the Standard Model's discrete datum 'three generations' selects the moduli (a point) in the frame where LR-invariant flux pairs force isolated CM points (B1804's holomorphic flux frame; P-419, selection by inversion).",
+  "kill_form": "Computed and refereed (B1808): one invariant flux with index -3 is (1,1) exactly on a curve; a point needs a second flux with free integers and such points are infinitely many; three or more independent fluxes have no common point; the same for the null matrices B_4..B_7 and for every generation number (U in Lambda_A).",
+  "hatch": "another frame on P-419's card (F-theory matter curves; an E6 meeting point, P-415); further discrete data (the doublet-triplet split, matter parity) with a principle fixing the second flux; a completion where the T^4 index is a 4D chiral count",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-29), for tests/test_b833_negative_routing.py",
+  "note": "The draft's 'the chirality's sign is opposite between the components' was overturned by the hostile referee (chi < 0 on every component; the fixed-orientation index flips). A short corollary of B1804 with U in Lambda_A.",
+  "evidence_consulted": [
+   "B1496",
+   "B1794",
+   "B1800",
+   "B1804"
+  ],
+  "faces_consulted": [],
+  "fact_computed": "main's lattices and Moebius curves (PARI matkerint); the referee's independent recount of points and saturated NS determinants (q1-q6)",
+  "scope": {
+   "frame": "B1804's holomorphic flux frame (abelian surfaces with real multiplication by Z[phi] on which LR acts holomorphically); one U(1) bundle; the T^4 index read as the generation number (CHOSEN, cf. I-34); the null B_t, t = 4..7",
+   "object": "the monodromy LR acting as A (x) I on H^1(T^4)",
+   "reach": "class",
+   "hypotheses": "flat T^4; the (1,1) condition as the supersymmetric F-term choice; no invariant Kahler class (B1804 r5)"
+  },
+  "weave_or_thread": "thread"
  }
 ]

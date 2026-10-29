@@ -1,0 +1,4 @@
+rank RM (eigenvalues phi^{+-4}): 2 ; rank Lambda_A: 4
+Q(RM, Lambda_A) all zero: True
+Gram on RM: [[-2, 1], [1, 2]] eigen signs: [-1, 1]
+RM classes (1,1) at 20 random points of H x H: True ; positive RM classes with definite Hermitian form: 60

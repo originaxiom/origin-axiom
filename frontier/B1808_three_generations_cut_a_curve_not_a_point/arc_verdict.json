@@ -1,0 +1,25 @@
+{
+ "id": "B1808",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1496",
+  "B1800",
+  "B1804"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1804's holomorphic flux frame (abelian surfaces with real multiplication by Z[phi] on which LR acts holomorphically); one U(1) bundle; the T^4 index read as the generation number (CHOSEN, cf. I-34); the null B_t, t = 4..7",
+  "object": "the monodromy LR acting as A (x) I on H^1(T^4)",
+  "reach": "class",
+  "hypotheses": "flat T^4; the (1,1) condition as the supersymmetric F-term choice; no invariant Kahler class (B1804 r5)"
+ },
+ "claim_one_line": "THREE GENERATIONS CUT A CURVE, NOT A POINT (P-419, selection by inversion, in B1804's holomorphic flux frame; data-free; NEGATIVE for 'three selects the moduli'): one LR-invariant flux with index -3 is (1,1) exactly on a curve of Hirzebruch-Zagier form; a point needs a second flux with free integers and such points are infinitely many (LR: 48 in a small box, 14 NS determinants); three or more independent fluxes have no common point; the same for the null matrices B_4..B_7 and for every generation number (U in Lambda_A); chi(L) < 0 for every invariant (1,1) flux on every holomorphic component, the index in a fixed orientation -3 on HxH and +3 on HxH^-: the hand CHOSEN. A short corollary of B1804 with U in Lambda_A. None of the 19.",
+ "weave_or_thread": "thread (the monodromy alone; nulls run)"
+}

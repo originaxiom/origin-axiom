@@ -18089,3 +18089,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - P-406 census then selection (P-419 next); P-407 and P-417's rule into WORKING_RULES; P-418 adopted; P-420 held for the seats. 0 of 19.
 - **Landing suite (S249).** 7 850 passed, 68 skipped, 2 failed in 34:05 — B805's two standing attachment locks (P-239).
+
+## 2026-10-29 — S250 B1808 AND B1809 (THREE GENERATIONS CUT A CURVE; WHAT FOUR FRAMES ON RECORD LEAVE FREE)
+
+- P-419's flux frame closed for the generation count (a curve, not a point); P-406 delivered re-scoped as a census with Table T. 0 of 19.
+- **Landing suite (S250).** 7 854 passed, 68 skipped, 2 failed in 33:46 — B805's two standing attachment locks (P-239). The suite was launched with a shell '&' rather than as a tracked background job (disclosed; its result read from the log).

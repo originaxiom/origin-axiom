@@ -743,7 +743,8 @@ found with B1635's sealed instrument.
   second generation is the weight-3/2 section ∂R: m₂/m₃ = 18|q|^½ + …, and m₁ = 0 only in B1654's large-L limit — at
   the canonical end (B1667) its first generation is lifted, m₁/m₃ ~ 1/L² (B1691's correction). What fixes the section is P-115.
 - **At the principle's own τ the parameter-free ratio has no hierarchy.** ∂R gives m₂/m₃ = ½ exactly at ω and at i, and
-  0.29–0.50 on LR's geodesic (Im τ ≤ √5/2); the measured values would need Im τ = 1.8–2.7, a different τ per sector,
+  0.29–0.50 on LR's geodesic (Im τ ≤ √5/2) *[corrected 2026-10-29 (B1806, E93): those were B1691's bounded proxy; the exact
+  ratio is 1 at ω and at i — a degeneracy — and 0.54–0.98 on LR's geodesic; the conclusion, no hierarchy there, stands]*; the measured values would need Im τ = 1.8–2.7, a different τ per sector,
   deeper than anything the principle forces visits (B1691's second addendum). The hierarchy needs a τ the principle does
   not supply.
 

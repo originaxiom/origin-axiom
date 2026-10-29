@@ -130,3 +130,10 @@ None computed the exponents near i.
 - **S247's note sharpened.** Its "≈ 0.044/L" (31/2, f₂ = E₆²) is the large-L asymptote (0.001095 at L = 40, 1.693 × 10⁻⁵ at
   L = 2560). At the canonical radius the values are 0.273 and 0.0211.
 - **What stands.** The selection rule, the degenerate class and the closed form. RETRACTIONS.
+
+## Dated note (2026-10-29, S250; B1809's referee, verified on main) — the radii in S248's note
+
+- S248's "at the canonical end radius (L = 0.65 and 2.5; B1667)" took two values inside B1667's range, not the radii at the
+  points. At τ = i the radii are L_max(i) = 0.688 and L₂(i) = 2.719. There a section with a(i) on R(i)'s line gives
+  m₂/m₃ = 0.2080 and 0.01907 (B1809 Table T).
+- The exponents stand.
