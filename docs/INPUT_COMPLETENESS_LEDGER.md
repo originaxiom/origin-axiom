@@ -18,6 +18,7 @@ table in its prereg, before sealing. An unfilled row is a design defect, not a f
 | 10 | **The firewall question** | Is this cell asking the object for VALUES? The banked theorems (K020 Galois firewall; the role-separation law) say values live in the stage. If yes: state explicitly which stage-selection assumption is being tested, or reframe. |
 | 11 | **Source freshness** | Targets fetched from the current primary source (NuFIT/PDG release + date recorded), not recalled from memory; the fetch archived in the packet. |
 | 12 | **Sealing** | Inputs pasted verbatim BEFORE the seal; design + runner hashed; outputs banked before comparison prose. |
+| 13 | **Reach and resolution** | Each scanned axis's range and grid, why it ends where it ends, and a data-free resolution check before the seal; a negative beyond a CHOSEN cutoff is NOT FOUND there unless an argument (a proof, or a certified bound) covers it (added 2026-10-30: the owner's word on the gates, P-509; the web seat's bar, S0) |
 
 ## First application: the recorded B615 audited against this ledger
 

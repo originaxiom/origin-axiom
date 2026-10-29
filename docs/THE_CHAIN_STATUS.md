@@ -168,3 +168,79 @@ as **Q7 (hatch / Route A), Q8 (gate B), Q9 (gate D)** — see `SPECIALIST_SEND_Q
 | cloud memo 152 `THE_CHAIN_GAP.md` | `e51afd6c:outside_bench/` | **primary source** for §1, §2, §4, §5 |
 | `THE_TOE_GAP.md`, `THE_FULL_ACCOUNTING.md`, `THE_GRAND_TABLE.md` | outside bench | superseded taxonomies |
 | `docs/OPEN_PROBLEMS.md` | main | the gates' full specifications and §C's closure |
+
+## Currency pass of 2026-10-30 (S263): the chain written backwards, labelled (the web seat's map, adopted)
+
+*The web seat's map (harvest row of S263), adopted as this file's currency pass at its own request ("A future consolidation
+should edit this file, not open a sixth"). Each label is its cited source's; main spot-checked seven against their sources
+before adopting (all matching). The section below is the seat's text, unchanged; the ✅ ◐ 📖 🔒 ❌ table above is kept for
+its date.*
+
+### The chain, backwards
+
+**Label key.**
+- WORKING_RULES' labels (the 2026-10-29 rule, item 4):
+  - FORCED, marked "generic" when forced for any comparable object (E20);
+  - ADMITTED;
+  - CHOSEN;
+  - FITTED;
+  - for negatives, EXCLUDED (within a scope, by an argument) and NOT FOUND (a declared search's null).
+- GENESIS's statuses, quoted as GENESIS's: POSTULATED, CHOSEN, OPEN, DERIVED, CONDITIONAL, ADOPTED, and § 3's NOT
+  DERIVED.
+- IDENTIFICATION_LEDGER's UNEARNED, for an identification.
+- "the seat's, unverified on main", for this seat's relays that main has not yet harvested. At S261 main's verifier
+  REPRODUCED THE CONE AND THE SIGN (harvest row 1481) and THE ISOTROPY CONTROL (row 1482), as well as B1814's blind rerun
+  (row 1480). It read THE DAY'S LEDGER (row 1483; P-490).
+
+**The order.** The rows run in the order of dependence. Item 2's chain is rows 4, 6, 7, 8, 10 and 11, with this relay's
+addition, the moduli's law (row 9), between couplings and running.
+
+| # | link | what the record supplies | label (scope; evidence) | open |
+|---|---|---|---|---|
+| 0 | the principle | PF1–PF3 | POSTULATED (GENESIS § 1); FK1 confirmed as written (v1.5) | — |
+| 1 | the grammar | GM1–GM5 | GM1 POSTULATED in an equivalent form (v1.50); GM2, GM3 and GM5a POSTULATED; GM4 POSTULATED, the puncture CONDITIONAL; GM5b ADOPTED (v1.48, B1662); GM5c OPEN; GM5d CHOSEN (GENESIS § 2) | GM5c; FK3, FK5 and FK7 OPEN; FK6 CHOSEN (GENESIS § 8) |
+| 2 | the states, the root, the arena | X_gen (GENESIS § 3); the root m004, given GM3, GM4, SE1 and SE2; the arena SL(2, ℝ)/SL(2, ℤ), read as SE1's trace-1 solution (a reading recorded, v1.48); the weave (THE_WEAVE; GENESIS § 0, v1.24) | SE1 POSTULATED; T-ROOT DERIVED; SE2 CHOSEN (GENESIS § 4; fork FK2). Of X_gen, GENESIS § 3 marks three claims NOT DERIVED: "Every legal state occurs in one history"; "All legal states are physically realised together"; "Some arrow of X_gen is physical time". It marks "A rule selects which state is physical" OPEN (FK9) | FK2, FK9. P-485's premise is the second NOT DERIVED claim, extended from states to configurations (this relay's reading; § 3) |
+| 3 | the weave's measure: the clock | **counted:** Minkowski's measure (B1813), exactly the exit law of the record's walk (B1815). **followed:** hyperbolic area. **Weil–Petersson:** frame-native (P-481 DONE; B1816, PROVED: B1667's accessory parameter is a Weil–Petersson primitive). **the s-family and the critical line between them** (B1813; P-441, row 1475, VERIFIED: β\* = 0.3912862189, and no point picks a height except through a chosen statistic). **the action weight** (P-476, supercritical; L154) | **the clock:** CHOSEN. B1815: nothing on record forces it. B1816: "nothing here ranks the clocks (the clock stays CHOSEN), and no clock studied picks a point". GENESIS § 3: "Some arrow of X_gen is physical time" NOT DERIVED; GAP5. **door A:** CHOSEN (B1815 § 4; P-472). **area under the walk:** if GM5b's walk is the programme's dynamics, area is EXCLUDED as its exit law (B1815, scoped to its walk model; P-473). That is CONDITIONAL on the ruling P-439 owes. P-495 uses "no move clock (foreign to the frame)" | P-439 (is the walk the dynamics?), P-476 |
+| 4 | space | a thread as the space of a universe | **the mathematics:** FORCED, generic. Given GM4 (orientable states), GM3 holds exactly when the interior admits a complete constant-curvature metric. It does not substitute for GM4, since 5_2 passes (THE ISOTROPY CONTROL, REPRODUCED, row 1482). **the reading "a thread is physical space":** an identification with no IDENTIFICATION_LEDGER row, and it is not earned (THE CONE AND THE SIGN, REPRODUCED: "physical spacetime UNEARNED", P-490) | P-493 (the sign of space's curvature as a sealed look) |
+| 5 | spacetime | **the geometric holonomy** (B1115: "D2 — the geometric holonomy: FORCED, 0 bits (Mostow)"); **SL(2, ℂ) = Spin(3,1) as the Lorentz group, and H³ as the mass hyperboloid** (B428, steps 1–4); **the (3,1) signature** (B716's note of 2026-10-29); **Einstein vacua over every thread** for every sign of the cosmological constant (B1708: the Milne cone is Ricci-flat exactly when the curvature is −1; THE_LADDER X4, P-276: scale factors t, sinh t and sin t); **the arrow** (B1750 § 2; B1083's addendum; B1662) | **the holonomy:** FORCED, generic (Mostow; B428's control leg: every hyperbolic 3-manifold has it). P-490 summarises B428's refusal after THE ISOTROPY CONTROL as "right at the object level, silent at the grammar level". **the signature:** FORCED, generic, as the holonomy's. B716's note, main's ruling on THE CONE AND THE SIGN: "the Lorentzian signature is not the observer's. The holonomy carries it … generic to every hyperbolic 3-manifold". B1115's scope stays beside it: "signature-as-READING (PSL(2,ℂ) = SO⁺(3,1)) become available; signature-as-STRUCTURE does NOT — the irreducible holonomy's centralizer is trivial (Schur), so no Lorentz-partner sl₂ exists before an internal space is chosen". **the 4d cosmological constant's sign:** every sign ADMITTED (THE_LADDER X4); ours is not fixed by the holonomy (B716's note: "What the holonomy does not fix stays the observer's or a choice: the vacuum (Λ's sign), the nappe, the unit, and the identification with physical spacetime, which remains UNEARNED"). The object's own 3d Λ = −1 is FORCED (B259; THE_CHAIN_STATUS row 14). **Einstein's equations:** an input (THE_CHAIN_STATUS row 14: "the form is imported … the 4d dynamics is absent"). **the arrow:** FORCED, generic, as the walk's escape (WORKING_RULES item 4: "the arrow and the 2T surjection are generic"), its side CHOSEN (B1809 § 6; B1662); both CONDITIONAL on the walk being the dynamics (B1815 calls the walk model "a firewalled reading"). **B428's step 5, the spin coupling:** EXCLUDED for the principal sl₂ (B428, Wall 2: all E₆ content is integer-spin); a non-principal sl₂ would be a choice | the nappe and the vacuum, choices (B716's note) |
+| 6 | fields: the gauge group and matter, discrete (F-MC, GENESIS § 5) | **the cascade:** E₆'s cascade halts at the SM's group (B860–B863). **the global form:** ℤ₆ (B862). **the hypercharge direction** (B862; B1160). **E₆** by McKay (B727). **three.** **the hand.** **the cusp's unit** (C8; B1796). **Λ** (I-31) | **the SM's group:** selected "uniquely under one named premise: the selected option must be registerable by a measurement of the object" (B860). **ℤ₆:** "conditional on exactly what the cascade is conditional on (P5 + the fused rule)" (B862), and FORCED, generic, as a property of the algebra (B1221; B1809 § 6). **the hypercharge direction:** FORCED, generic, "given an SM-shaped 15-plet" (B1160; B1809 § 6), but FR-FIB does not use it. FR-FIB's charges are I-32 ("the charges are the SM's, put on the sectors"), an instance of I-23 and so of I-13, all UNEARNED (row 8). **E₆:** generic (B727; about one manifold in three, GENESIS § 5). **F-MC's inputs:** counted, five external data and a live price of 13 (4 axioms + 9 irreducible sources; GENESIS § 5, v1.47). **three:** GENESIS FK14 (v1.28) has "DERIVED on the weave: three, alike, chiral under the weave's own group, one per parity", and, to the owner's question, "the flavour three is derived, the gauge three is a selection". B1809 § 6 lists "'Three' (selected: B1496, B1604)" as not forced. **the hand:** FK14 (v1.28) has "the hand forced at the puncture". GENESIS GM5c's row qualifies it: v1.29, "neither hand is derived on the weave; each is derived on a subweave the weave does not select: a selection, located"; v1.31, "the three's hand is the sheet of the orientation double cover — SE2's choice — not a naming"; v1.33, "which hand is called left is a convention". Read together, the hand is forced given SE2's sheet, and the sheet is CHOSEN. B1809 § 6 lists it as not forced (FK10 OPEN; B1808: CHOSEN in FR-FLUX). **the cusp's unit:** a tagged working postulate (GENESIS v1.39); its field route is checked on main (C8, B1796). **Λ:** the owner's tagged working postulate, I-31, UNEARNED | chirality without an inserted closing (WHAT_WOULD_COUNT § 4A.1); FK10, FK14, FK15; GAP2, GAP3 |
+| 7 | zero modes | W21's holomorphic triplet T; the puncture index ±3 with its grading (GENESIS FK14, v1.28; B1606, verified on main) | **the flavour three:** "DERIVED on the weave" (GENESIS FK14). **its readings:** FK14 lists as READINGS "that the triplet is the generations (FK14); that holomorphic zero modes on the fibre are the left-handed matter (FK11's compactification dictionary)". **the identification:** I-31, "given Λ": UNEARNED, "postulated, never derived" (IDENTIFICATION_LEDGER). The six lean on I-31 only, not I-34 (P-489, main's ruling) | FK11, FK14 |
+| 8 | couplings: the frame and its discrete inputs | **the frame:** B1656's four-channel coupling at B1667's end (FR-FIB; B1809 § 4). **its dictionary:** I-32 (the 6Y charges read as the channels' twists; the weave's Higgs line as the electroweak Higgs), an instance of I-23 (Y as the electromagnetic charge functional), itself an instance of I-13. **its discrete inputs for the six** (the scoreboard's first row, harvest row 1478, taken by main at S259): the line (α, b), c, the reading, the horocycle, the end's regularised scale, the Higgs's weight, and one shared section. **H-cov:** a tagged hypothesis | **the frame:** CHOSEN. No frame is derived: GENESIS § 5 says of its frames "None is derived from §1–§4", and GAP1. **its dictionary:** I-32, I-23 and I-13 UNEARNED (IDENTIFICATION_LEDGER). Row 1478 counts the six's five identification rows (I-13, I-23, I-31, I-32, I-33) as 2 irreducible sources. **B1800:** its overlaps belong to another frame (FR-FLUX): "The two frames' couplings are not the same object", and "No input removed". No flat or harmonic Higgs couples the zero modes in the bulk (B1651), and a point coupling has rank at most two (B1653). **the line:** CHOSEN on the data. α = 2/5 is "selected by the data, stably out of sample" and not PASSED (MAINS_PLAN step 1; B1786, W162). The offset is counted within the line's menu (P-489, main's ruling). **c = 3:** CHOSEN on the data. It is EXCLUDED as an output of B1656's frame as built and NOT FOUND beyond it (B1789, B1793). B1817 (S260, NEGATIVE as scoped) adds that on the equal-exponent slopes of order ≤ 30 "the twist-charge route to c = N_c is closed on the slopes tested; c stays one discrete input, never set" (P-488). P-495 carries c ∈ {1, N_c = 3} as two declared arms. **the reading:** CHOSEN on the data. Off the mirror lines it is EXCLUDED as an output of the frame as built, since the coupling is complex-bilinear (B1790), and NOT FOUND beyond it. On the mirror lines a holomorphic section reproduces S̃ exactly (P-394's dated note). **the horocycle:** the menu ADMITTED (B1667's two canonical radii; "the end datum is a discrete choice, not a continuum"), the pick CHOSEN on the data, "selected by the data, not absorbed by τ" (P-402; row 1455). **the end's regularised scale, the Higgs's weight and the shared section:** CHOSEN by hand (row 1478; P-421). P-495's Step A proposes a Higgs direction fixed by the interaction | FK11; P-397 (strand A: what remains after B1817), P-394, P-402, P-421, P-384; P-495 Step A |
+| 9 | the moduli and their law: the depth | Im τ, Re τ; the line's position u; h₀ | **Im τ and Re τ:** FITTED (the six; rows 1478, 1479). Im τ is NOT FOUND forced in B1656's frame (B1791, a declared search's null). P-495 (T3): rigid τ at CM points "buys one or two bits". **u:** counted within the line's menu (P-489, main's ruling; MAINS_PLAN's ledger). **h₀ = 0:** "a continuous datum set by hand" (P-489, main's ruling) | P-373; § 2's open candidates |
+| 10 | running and the comparison scale | none forced | **the comparison scale M_Z:** a choice, CHOSEN by hand (P-489, main's ruling; INPUT_COMPLETENESS row 2; MAINS_PLAN step 5). **the scale:** the object supplies none at a single level (B151; B666's scale-torsor no-go). WHAT_WOULD_COUNT's addendum of 2026-09-14 scopes that no-go as single-level: B1116's tower-growth-rate channel is not excluded | P-329; L154 (WHAT_WOULD_COUNT § 4A.3; R11); P-492 (the arena beside L154) |
+| 11 | the comparison: the 19 | **the read-out, I-33:** a coupling matrix's singular values are the fermion masses, and U_u†U_d is the CKM matrix | **I-33:** UNEARNED, an instance of I-13 (IDENTIFICATION_LEDGER). **I-34** (the chiral index as the generation count) is not used by the six (P-489, main's ruling). **0 of 19** | P-495 Step B (THE NINE FROM ONE ADDRESS) |
+| 12 | the read-out on spacetime (C10) | the index of the Dirac operator twisted by ρ_T on the Milne cone over a thread | **on m004:** OPEN. B940's kernel candidate has dimension 2, and its seal's obligation O2 is open (P-330). **on the Weeks and Meyerhoff universes:** the SM seat's W126 reads zero (P-289; the seat's, unverified on main) | C10 |
+
+**The 19, by group** (MAINS_PLAN's table, as it stands):
+- **the six charged-fermion mass ratios:** reached on one strip, with inputs set by hand. They are "a READING, ungraded"
+  (MAINS_PLAN), not PASSED (B1798).
+- **the three mass scales:** not touched;
+- **the four CKM numbers:** not reached;
+- **the three gauge couplings:** not in the frame;
+- **the Higgs mass and vev, and θ_QCD:** not in the frame.
+
+THE_PATTERN_MEDITATION_3 counts no continuous value derived (0 of about 15 blind contacts). What survives is discrete:
+75% of 229 PROVED physics positives, and 31 of the 32 input removals.
+
+**The six gaps (GENESIS § 7), placed on the chain:**
+- **GAP1, the dictionary:** rows 7, 8 and 11.
+- **GAP2, the ends, and GAP3, the source:** row 6.
+- **GAP4, selection and coincidence:** "a Standard-Model-like feature somewhere is expected by chance". This is P-485's
+  question (a), and P-495's null (§ 3).
+- **GAP5, dynamics:** rows 3, 5 and 9. "none of it has been turned into a potential, a breaking or a running that fixes
+  a value".
+- **GAP6, the flatness:** "the flat frame reaches DISCRETE data … and cannot reach CONTINUOUS MODULI". The depth (row 9)
+  is such a modulus.
+
+**THE_COMPLETION_MAP's items, placed:**
+- **C2, which thread:** the record's measures. "B1722, NEGATIVE as sealed: neither measure selects the data's thread",
+  and "A selection may select a measure" (GENESIS v1.53). Row 3.
+- **C5, the near-ω regime:** QUEUED. Row 9.
+- **C6, a content that holds τ in the band:** door E's own row, open. § 2.
+- **C7, a potential minimum with J ≠ 0:** answered on the potential side. P-277 is DONE: W175 gives J ≠ 0 at every fixed
+  height on the mirror-free classes, with no true minimum in τ. P-440 gives J ≠ 0 on 178 of 266 lines at Re τ = 0. Row 9.
+- **C9, the joining law:** row 6.
+- **C10:** row 12.
+- **C11, which fields carry T:** row 7.
+
+

@@ -125,3 +125,12 @@ An arc that reports a positive on a generated state fills in the card in its FIN
   function is superseded for looks by Bonferroni (B1524).
 - the SM seat's `null_contract.py` (sm:B1524, on its branch): the exact scan law and the contract's checks.
 - B1518's strata table (`bar_run.json`, reading R6), for F-CI's own level.
+
+## Appendix (2026-10-30, S263): a final act under P-485
+
+The web seat's THE FINAL ACT'S BAR is adopted as this page's appendix for grading a final act under the owner's plenitude
+(P-485), copied unchanged into docs/THE_FINAL_ACTS_BAR_2026-10-29.md (sealed on its branch at 064157ed4). Its cells: S support
+(with reach and resolution), K compression, X exclusion and specificity, T typicality as a screen, V held-out values, I inputs.
+P-495's seal supersedes its defaults where it fixes them. Main verified the seal's hash, the gate's arithmetic and the
+controls' fields before adopting it (harvest row of S263).
+
