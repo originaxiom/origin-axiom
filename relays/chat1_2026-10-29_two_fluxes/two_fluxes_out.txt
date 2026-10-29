@@ -1,0 +1,36 @@
+Lambda_A Gram (B1808, LR): [[0, -1, 0, 0], [-1, 0, 0, 0], [0, 0, 2, 1], [0, 0, 1, -2]]
+a priori even negative-definite binary lattices (as positive forms (a, b, c) = a x^2 + 2bxy + c y^2), det <= 36,
+  with two independent vectors of norm 6: 8
+    (2, 1, 2)  det  3  CM d = 3
+    (2, 0, 4)  det  8  CM d = 2
+    (2, 1, 6)  det 11  CM d = 11
+    (4, 2, 6)  det 20  CM d = 1
+    (6, 3, 6)  det 27  CM d = 3
+    (6, 2, 6)  det 32  CM d = 2
+    (6, 1, 6)  det 35  CM d = 7
+    (6, 0, 6)  det 36  CM d = 1
+
+B = 4: 208 classes with Q = -6; 5448 negative-definite planes; 5 NS classes
+    NS(-1) = (2, 1, 2)  det  3  CM field Q(sqrt5, sqrt-3)  planes   656  |b| in [3]  in a priori list: True  e.g. ([-4, -3, -3, -3], [-4, -3, -3, 0])
+    NS(-1) = (2, 0, 4)  det  8  CM field Q(sqrt5, sqrt-2)  planes   664  |b| in [2]  in a priori list: True  e.g. ([-4, -3, -3, -3], [-2, -1, -1, 1])
+    NS(-1) = (2, 1, 6)  det 11  CM field Q(sqrt5, sqrt-11)  planes  2432  |b| in [5]  in a priori list: True  e.g. ([-4, -3, -3, -3], [-4, -2, -3, -4])
+    NS(-1) = (6, 2, 6)  det 32  CM field Q(sqrt5, sqrt-2)  planes  1088  |b| in [2]  in a priori list: True  e.g. ([-4, -3, -3, -3], [-3, -4, -3, 0])
+    NS(-1) = (6, 1, 6)  det 35  CM field Q(sqrt5, sqrt-7)  planes   608  |b| in [1]  in a priori list: True  e.g. ([-4, -3, -3, -3], [-4, 2, 1, 4])
+
+B = 6: 320 classes with Q = -6; 10336 negative-definite planes; 5 NS classes
+    NS(-1) = (2, 1, 2)  det  3  CM field Q(sqrt5, sqrt-3)  planes  1304  |b| in [3]  in a priori list: True  e.g. ([-6, -2, -6, 3], [-6, -2, -3, 0])
+    NS(-1) = (2, 0, 4)  det  8  CM field Q(sqrt5, sqrt-2)  planes  1152  |b| in [2]  in a priori list: True  e.g. ([-6, -2, -6, 3], [-2, -4, -2, -1])
+    NS(-1) = (2, 1, 6)  det 11  CM field Q(sqrt5, sqrt-11)  planes  4512  |b| in [5]  in a priori list: True  e.g. ([-6, -2, -6, 3], [-4, -2, -3, 1])
+    NS(-1) = (6, 2, 6)  det 32  CM field Q(sqrt5, sqrt-2)  planes  2208  |b| in [2]  in a priori list: True  e.g. ([-6, -2, -6, 3], [-2, -1, 0, -1])
+    NS(-1) = (6, 1, 6)  det 35  CM field Q(sqrt5, sqrt-7)  planes  1160  |b| in [1]  in a priori list: True  e.g. ([-6, -2, -6, 3], [-4, -3, -3, 0])
+
+B = 8: 688 classes with Q = -6; 31184 negative-definite planes; 5 NS classes
+    NS(-1) = (2, 1, 2)  det  3  CM field Q(sqrt5, sqrt-3)  planes  3872  |b| in [3]  in a priori list: True  e.g. ([-8, -8, -7, -4], [-7, -4, -5, -5])
+    NS(-1) = (2, 0, 4)  det  8  CM field Q(sqrt5, sqrt-2)  planes  3568  |b| in [2]  in a priori list: True  e.g. ([-8, -8, -7, -4], [-4, -2, -3, -4])
+    NS(-1) = (2, 1, 6)  det 11  CM field Q(sqrt5, sqrt-11)  planes 13200  |b| in [5]  in a priori list: True  e.g. ([-8, -8, -7, -4], [-8, -8, -7, -3])
+    NS(-1) = (6, 2, 6)  det 32  CM field Q(sqrt5, sqrt-2)  planes  7216  |b| in [2]  in a priori list: True  e.g. ([-8, -8, -7, -4], [-7, -4, -5, 0])
+    NS(-1) = (6, 1, 6)  det 35  CM field Q(sqrt5, sqrt-7)  planes  3328  |b| in [1]  in a priori list: True  e.g. ([-8, -8, -7, -4], [-8, 2, -3, -7])
+
+stable from B = 6 to B = 8: True | classes at B = 8 not at B = 6: []
+CM fields d found at B = 8: [2, 3, 7, 11]
+two_fluxes exit 0
