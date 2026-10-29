@@ -265,13 +265,105 @@ def view_reviewer(arcs, kills):
     return "\n".join(L) + "\n"
 
 
+def view_context_recovery(arcs, kills):
+    """docs/views/CONTEXT_RECOVERY.md -- main's first read after a compaction (P-506, the owner's 'two readers, one
+    source'). Built from tracked files only, so the views gate can regenerate it byte for byte: the newest arcs, what
+    waits for the owner, the queue's head, the last landings, the latest campaign line, the record's counts, and the
+    completeness checks (arc folders without a verdict file, verification scripts without an output). Live state that
+    is not tracked -- runs in flight, seat heads past their pins -- is pointed to, not copied."""
+    import glob
+
+    def rd(rel):
+        p = os.path.join(ROOT, rel)
+        return open(p, encoding="utf-8").read() if os.path.isfile(p) else ""
+
+    def clip(s, n):
+        s = " ".join(s.split())
+        return s if len(s) <= n else s[: n - 1].rstrip() + "…"
+
+    def num(a):
+        return a["n"]
+
+    def vr(a):
+        return a.get("verdict_record") or {}
+
+    out = [HEADER.replace("Source of truth: frontier/<arc>/arc_verdict.json + kill_graph.json.",
+                          "Source of truth: the tracked record (verdict files, the point register, the ledgers, the logs)."),
+           "# CONTEXT RECOVERY — the first read after a compaction\n",
+           "*Generated at every landing from tracked files (P-506). Read this, then the memory index, then `audit/IN_FLIGHT.md`",
+           "(runs in flight and unlanded work; gitignored), then the newest CHANGELOG entry. Live seat debt:",
+           "`python3 scripts/checks/harvest_debt.py`. Nothing here is hand-kept.*\n"]
+
+    # ---- counts
+    verdicts = Counter(vr(a).get("verdict") for a in arcs if vr(a).get("verdict"))
+    reg = rd("docs/POINT_REGISTER.md").splitlines()
+    rows = [l for l in reg if l.startswith("| P-")]
+    cells = [l.strip().strip("|").split(" | ") for l in rows]
+    disp = Counter(c[4].split("(")[0].strip() if len(c) == 7 else "MALFORMED" for c in cells)
+    hv = [l for l in rd("docs/HARVEST_LEDGER.md").splitlines() if re.match(r"^\| \d+ \|", l)]
+    last_h = max((int(l.split(" | ")[0][2:]) for l in hv), default=0)
+    out.append("## The record's counts\n")
+    out.append("| what | count |\n|---|---|")
+    out.append("| arcs with a verdict file | %d |" % sum(verdicts.values()))
+    for k in ("PROVED", "NEGATIVE", "OPEN", "RETRACTED"):
+        out.append("| … %s | %d |" % (k, verdicts.get(k, 0)))
+    out.append("| register points | %d |" % len(rows))
+    for k in ("QUEUED", "LEAD", "OWNER", "DONE", "DECLINED"):
+        out.append("| … %s | %d |" % (k, sum(v for d, v in disp.items() if d.startswith(k))))
+    out.append("| harvest rows (the last number) | %d |" % last_h)
+    out.append("| the Standard Model's 19 derived | 0 |\n")
+
+    # ---- the newest arcs
+    out.append("## The newest arcs\n")
+    out.append("| arc | verdict | claim |\n|---|---|---|")
+    for a in sorted(arcs, key=num, reverse=True)[:12]:
+        out.append("| %s | %s | %s |" % (a["id"], vr(a).get("verdict") or "—", clip((vr(a).get("claim_one_line") or a["title"] or "").replace("|", "∣"), 220)))
+    out.append("")
+
+    # ---- what waits for the owner, and the queue's head
+    owner = [c for c in cells if len(c) == 7 and c[4].startswith("OWNER")]
+    out.append("## Waiting for the owner (register rows with disposition OWNER)\n")
+    out.extend("- **%s** — %s → *%s*" % (c[0], clip(c[3], 220), clip(c[5], 160)) for c in owner) if owner else out.append("- none")
+    out.append("")
+    q1 = [c for c in cells if len(c) == 7 and c[4].startswith("QUEUED") and re.match(r"Q1\b", c[5])]
+    out.append("## The queue's head (QUEUED in slot Q1, newest first)\n")
+    out.extend("- **%s** (%s) — %s" % (c[0], c[1], clip(c[3], 200)) for c in sorted(q1, key=lambda c: c[0], reverse=True)[:25])
+    out.append("")
+
+    # ---- the last landings and the campaign line
+    ch = [l[3:].strip() for l in rd("CHANGELOG.md").splitlines() if l.startswith("## S")][:8]
+    out.append("## The last landings (CHANGELOG)\n")
+    out.extend("- " + clip(h, 200) for h in ch)
+    latest = next((l for l in rd("docs/CAMPAIGN_STATUS.md").splitlines() if l.startswith("**LATEST")), "")
+    out.append("\n## The latest campaign line\n")
+    out.append(clip(latest.strip("*"), 700) + "\n")
+
+    # ---- completeness: nothing skipped silently
+    folders = sorted(d for d in os.listdir(os.path.join(ROOT, "frontier")) if re.match(r"B\d+", d) and os.path.isdir(os.path.join(ROOT, "frontier", d)))
+    no_verdict = [d for d in folders if not os.path.isfile(os.path.join(ROOT, "frontier", d, "arc_verdict.json"))]
+    scripts = sorted(glob.glob(os.path.join(ROOT, "frontier", "B*", "verification", "*.py")))
+    lone = []
+    for s_ in scripts:
+        d = os.path.dirname(s_)
+        if not any(not f.endswith(".py") and not f.startswith("__") for f in os.listdir(d)):
+            lone.append(os.path.relpath(s_, ROOT))
+    out.append("## Completeness (nothing skipped silently)\n")
+    out.append("| check | count | first items |\n|---|---|---|")
+    out.append("| arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | %d | %s |" % (len(no_verdict), ", ".join(no_verdict[:6]) or "—"))
+    out.append("| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | %d | %s |" % (len(lone), ", ".join("`%s`" % x for x in lone[:4]) or "—"))
+    out.append("| register rows not in the 7-cell form | %d | — |" % disp.get("MALFORMED", 0))
+    out.append("")
+    return "\n".join(out) + "\n"
+
+
 def main():
     arcs, kills = collect()
     os.makedirs(OUT, exist_ok=True)
     views = {"COVERAGE.md": view_coverage(arcs, kills),
              "VERDICT_LEDGER.md": view_claims(arcs),
              "CLOSED_DOORS.md": view_closed_doors(arcs, kills),
-             "REVIEWER.md": view_reviewer(arcs, kills)}
+             "REVIEWER.md": view_reviewer(arcs, kills),
+             "CONTEXT_RECOVERY.md": view_context_recovery(arcs, kills)}
     changed = []
     for name, body in views.items():
         p = os.path.join(OUT, name)

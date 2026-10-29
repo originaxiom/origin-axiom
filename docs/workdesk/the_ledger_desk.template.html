@@ -1,0 +1,1128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Ledger Desk</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'">
+<style>
+/* Layout: one reading column (68ch) with full-width instrument panels; the instruments are the point, prose frames them. */
+:root {
+  --paper: #f3f5f6; --sheet: #ffffff; --ink: #17202c; --muted: #586474; --rule: #d3d9df; --faint: #e7ebee;
+  --accent: #0b6b70; --accent-soft: #d6ecec;
+  --s-proved: #0067a5; --s-computed: #00845f; --s-verified: #3d9ad1; --s-reading: #c98600; --s-negative: #c4520a; --s-other: #b0619a;
+  --display: "Spectral", "Iowan Old Style", Georgia, serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #0f141a; --sheet: #151c24; --ink: #e5eaf0; --muted: #9aa6b5; --rule: #2a3542; --faint: #1d2630;
+  --accent: #5cc3c6; --accent-soft: #163a3c;
+  --s-proved: #4ea7e6; --s-computed: #34c08e; --s-verified: #8cc8ee; --s-reading: #f0b43c; --s-negative: #f08a4b; --s-other: #d993c4;
+  color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --paper: #0f141a; --sheet: #151c24; --ink: #e5eaf0; --muted: #9aa6b5; --rule: #2a3542; --faint: #1d2630;
+  --accent: #5cc3c6; --accent-soft: #163a3c;
+  --s-proved: #4ea7e6; --s-computed: #34c08e; --s-verified: #8cc8ee; --s-reading: #f0b43c; --s-negative: #f08a4b; --s-other: #d993c4;
+  color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.6; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-block: 40px 72px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.col { max-width: 68ch; }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; text-wrap: balance; line-height: 1.2; margin: 0; }
+h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); letter-spacing: -0.01em; }
+h2 { font-size: clamp(1.45rem, 3vw, 1.9rem); }
+h3 { font-size: 1.15rem; }
+p { margin: 0; }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.eyebrow { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.lede { font-size: 1.15rem; color: var(--ink); }
+.stack { display: grid; gap: 14px; }
+section { display: grid; gap: 18px; padding-top: 56px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font-family: var(--mono); font-size: 0.78rem; border: 1px solid var(--rule); background: var(--sheet); border-radius: 999px; padding: 3px 10px; color: var(--muted); }
+.chip b { color: var(--ink); font-weight: 500; }
+.panel { background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 20px; display: grid; gap: 16px; min-width: 0; }
+.panel-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; align-items: baseline; }
+.badge { font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.05em; text-transform: uppercase; padding: 3px 9px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); overflow-wrap: anywhere; }
+.badge.thread { background: transparent; border: 1px dashed var(--accent); }
+.grid2 { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 820px) { .grid2 { grid-template-columns: minmax(0, 1fr); } }
+.note { font-size: 0.9rem; color: var(--muted); }
+.mono { font-family: var(--mono); font-size: 0.86rem; font-variant-numeric: tabular-nums; }
+.findings { display: grid; gap: 0; border-top: 1px solid var(--rule); }
+.finding { display: grid; grid-template-columns: 12rem minmax(0, 1fr); gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--rule); }
+.finding .k { font-family: var(--display); font-weight: 600; font-size: 1.02rem; }
+.finding .src { font-size: 0.85rem; color: var(--muted); }
+@media (max-width: 640px) { .finding { grid-template-columns: minmax(0, 1fr); gap: 4px; } }
+.tablewrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 10px; background: var(--sheet); }
+table { border-collapse: collapse; width: 100%; min-width: 720px; font-size: 0.92rem; }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--faint); }
+th { font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); font-weight: 500; background: var(--paper); }
+tr:last-child td { border-bottom: 0; }
+.have { font-family: var(--mono); font-size: 0.78rem; padding: 2px 7px; border-radius: 4px; white-space: nowrap; }
+.have.yes { background: var(--accent-soft); color: var(--accent); }
+.have.part { border: 1px dashed var(--muted); color: var(--muted); }
+.controls { display: flex; flex-wrap: wrap; gap: 14px 20px; align-items: center; }
+.controls label { font-size: 0.9rem; color: var(--muted); display: flex; gap: 8px; align-items: center; }
+input[type="range"] { accent-color: var(--accent); width: 150px; }
+input[type="text"] { font-family: var(--mono); font-size: 0.9rem; padding: 6px 9px; border: 1px solid var(--rule); border-radius: 6px; background: var(--paper); color: var(--ink); width: 9.5rem; }
+button { font-family: var(--body); font-size: 0.86rem; border: 1px solid var(--rule); background: var(--paper); color: var(--ink); border-radius: 6px; padding: 5px 11px; cursor: pointer; }
+button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+.stage svg { width: 100%; height: auto; display: block; max-width: 640px; margin: 0 auto; }
+.kv { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 6px 14px; font-size: 0.92rem; }
+.kv dt { color: var(--muted); }
+.kv dd { margin: 0; font-family: var(--mono); font-size: 0.86rem; overflow-wrap: anywhere; }
+.bars { display: grid; gap: 4px; }
+.bar { display: grid; grid-template-columns: 4.6rem minmax(0, 1fr) 3rem; gap: 8px; align-items: center; font-family: var(--mono); font-size: 0.78rem; color: var(--muted); }
+.bar i { display: block; height: 9px; background: var(--accent); border-radius: 2px; opacity: 0.75; }
+.list { display: grid; gap: 8px; }
+.item { font-size: 0.9rem; border-left: 3px solid var(--rule); padding: 2px 0 2px 10px; }
+.item .mono { color: var(--muted); }
+.ledger { display: grid; grid-template-columns: repeat(auto-fill, minmax(52px, 1fr)); gap: 5px; }
+.tile { font-family: var(--mono); font-size: 0.7rem; text-align: center; padding: 6px 0; border-radius: 4px; cursor: pointer; border: 2px solid transparent; color: var(--ink); background: var(--faint); }
+.tile[data-tag="WEAVE"] { border-color: var(--ink); }
+.tile[data-tag="THREAD"] { border-style: dashed; border-color: var(--muted); }
+.tile[data-tag="NEITHER"] { border-style: dotted; border-color: var(--muted); }
+.tile { position: relative; }
+.tile.assigned::after { content: ""; position: absolute; top: 3px; right: 3px; width: 4px; height: 4px; border-radius: 50%; background: var(--ink); opacity: 0.55; }
+.tile[aria-pressed="true"] { outline: 2px solid var(--accent); outline-offset: 1px; }
+.tile.dim { opacity: 0.18; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 0.82rem; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.steps { display: grid; gap: 0; counter-reset: st; border-top: 1px solid var(--rule); }
+.step { display: grid; grid-template-columns: 3rem minmax(0, 1fr); gap: 14px; padding: 18px 0; border-bottom: 1px solid var(--rule); }
+.step::before { counter-increment: st; content: counter(st); font-family: var(--display); font-size: 1.8rem; color: var(--accent); line-height: 1; }
+.step .sub { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 8px; font-size: 0.9rem; }
+.step .sub div b { display: block; font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); font-weight: 500; margin-bottom: 2px; }
+@media (max-width: 760px) { .step .sub { grid-template-columns: minmax(0, 1fr); } }
+ul.plain { margin: 0; padding-left: 1.1rem; display: grid; gap: 8px; }
+.mermaid-wrap { overflow-x: auto; background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 16px; }
+footer { margin-top: 64px; padding-top: 18px; border-top: 1px solid var(--rule); font-size: 0.85rem; color: var(--muted); display: grid; gap: 6px; }
+.tickwrap { max-height: 440px; overflow: auto; border: 1px solid var(--faint); border-radius: 6px; }
+.ticks { display: grid; grid-template-columns: minmax(6rem, max-content) repeat(9, 22px); gap: 2px; padding: 6px; font-family: var(--mono); font-size: 0.72rem; }
+.ticks .h { color: var(--muted); text-align: center; }
+.ticks .w { color: var(--ink); padding-right: 8px; white-space: nowrap; }
+.ticks .c { width: 22px; height: 14px; border-radius: 2px; }
+.vc { font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.04em; text-transform: uppercase; padding: 1px 6px; border-radius: 3px; margin-right: 4px; white-space: nowrap; }
+.vc.neg { background: color-mix(in srgb, var(--s-negative) 22%, var(--sheet)); color: var(--ink); }
+.vc.ok { background: color-mix(in srgb, var(--s-computed) 24%, var(--sheet)); color: var(--ink); }
+.vc.fact { background: color-mix(in srgb, var(--s-proved) 22%, var(--sheet)); color: var(--ink); }
+table.towers td.nt { color: var(--muted); font-style: italic; }
+table.towers td.rung { font-family: var(--display); font-weight: 600; white-space: nowrap; }
+table.mini { min-width: 0; font-size: 0.85rem; }
+table.mini td, table.mini th { padding: 5px 8px; white-space: nowrap; }
+#w125 { width: 100%; height: auto; }
+table.tight { font-size: 0.8rem; }
+table.tight td, table.tight th { padding: 4px 6px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+</style>
+<style>body { margin: 0; }</style>
+</head>
+<body>
+<div class="wrap">
+<header class="stack">
+  <p class="eyebrow">origin-axiom · a read-only desk over the record</p>
+  <h1>The Ledger Desk</h1>
+  <div class="col stack">
+    <p class="lede">A read-only desk over the record. The repository stays the only place anything is written; this page
+      is generated from it by docs/workdesk/build_page.py and changes only when the record does. Each view says what it
+      reads. Pictures of the mathematics are computed, labelled weave or thread, and never stand in for a result.</p>
+    <div class="chips">
+      <span class="chip">main at <b id="sha"></b></span>
+      <span class="chip" id="chip-seat"></span>
+      <span class="chip">nothing here is a result of the program</span>
+    </div>
+    <nav class="chips" id="contents" aria-label="Views"></nav>
+    <p class="note">Labels. Verdict: the verdict file's own word (for a W arc of the SM seat, the keyword its NOTE row
+      begins with). Weave, thread or neither: the first word of the verdict file's weave_or_thread field, kept as
+      written; arcs from before B1491 carry none and are shown as before the rule. Edges: depends_on and rests_on_seat
+      (a dependency), supersedes, superseded_by, cites_seat. A target that is not found is listed, never guessed. A
+      seat's arcs are keyed sm: and are the seat's results, not main's verdicts.</p>
+  </div>
+</header>
+
+<section aria-labelledby="h-stage">
+  <div class="col stack">
+    <p class="eyebrow">View A · exact, computed in this page</p>
+    <h2 id="h-stage">The weave stage: every thread on one surface</h2>
+    <p>Each thread is a cyclic word in the two moves. Its matrix is hyperbolic, so it has an axis in the upper half-plane,
+      and the word closes into one geodesic on the modular surface. The stage draws every lift of every thread up to the
+      length you choose, over the Farey tessellation, in the Poincaré disk. Nothing is picked by hand: the rule is all
+      primitive cyclic words with both letters, length at most n. Click a curve to focus one thread. The badge then says
+      THREAD.</p>
+  </div>
+  <div class="panel stage">
+    <div class="panel-head">
+      <span class="badge" id="stage-badge">weave</span>
+      <div class="controls">
+        <label for="len">longest word <input type="range" id="len" min="2" max="10" value="7"> <span class="mono" id="len-out">7</span></label>
+        <label for="word">focus <input type="text" id="word" placeholder="e.g. LLR" autocomplete="off" spellcheck="false"></label>
+        <button type="button" id="clear">show all</button>
+        <button type="button" id="farey" aria-pressed="true">Farey tessellation</button>
+      </div>
+    </div>
+    <div class="grid2">
+      <div><svg id="disk" viewBox="0 0 600 600" role="img" aria-label="Geodesic axes of every thread over the Farey tessellation in the Poincaré disk"></svg></div>
+      <div class="stack">
+        <dl class="kv" id="stage-info"></dl>
+        <div class="stack">
+          <p class="eyebrow">threads per length</p>
+          <div class="bars" id="len-bars"></div>
+        </div>
+        <p class="note">Exact, computed in this page from L = [[1, 1], [0, 1]] and R = [[1, 0], [1, 1]] (GENESIS.md, the core
+          convention) with the period rule, a word acting as the standard rule on its reverse (the SM seat's weave
+          dossier, CONVENTIONS §3; not in main). The full stage is the
+          same under either rule; only a single thread's label changes. A matrix and its negative act alike on the
+          plane, so the sign of a thread (LR for m004, −LR for m003) is not visible here. The cusp ∞ is at the top and 0
+          at the bottom.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="h-cal" data-needs="w">
+  <div class="col stack">
+    <p class="eyebrow">View B · the SM seat's weave dossier (the seat's priors, not main's verdicts)</p>
+    <h2 id="h-cal">How well does the SM seat predict its own runs?</h2>
+    <p>Every W rule states its cells with a prior before the script exists. Every output records which cells held. Joining
+      the two gives a calibration curve, a check on the record's honesty that no single arc can give. A point on the
+      diagonal means the stated priors meant what they said.</p>
+  </div>
+  <div class="panel">
+    <div class="panel-head">
+      <span class="badge">every joined cell of the SM seat's W arcs</span>
+      <span class="mono note" id="cal-n"></span>
+    </div>
+    <div class="grid2">
+      <div><svg id="cal" viewBox="0 0 520 400" role="img" aria-label="Reliability diagram: stated prior against fraction of cells that held"></svg></div>
+      <div class="stack">
+        <dl class="kv" id="cal-info"></dl>
+        <p class="note">Outcomes are as computed in each arc's one run. Later post hoc readings, such as "failed as worded,
+          holds post hoc", are not counted. Prior rows that join to a machine-readable outcome are counted; the rest
+          record theirs in prose and are not. Bars are 95% Wilson intervals.</p>
+      </div>
+    </div>
+    <div class="grid2">
+      <div class="stack"><p class="eyebrow">confident and wrong (prior ≥ 90%, failed)</p><div class="list" id="hi-list"></div></div>
+      <div class="stack"><p class="eyebrow">doubtful and right (prior ≤ 50%, held)</p><div class="list" id="lo-list"></div></div>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="h-ledger" data-needs="w">
+  <div class="col stack">
+    <p class="eyebrow">View C · the SM seat's weave dossier (NOTE's status table)</p>
+    <h2 id="h-ledger">The arc ledger</h2>
+    <p>Every W arc from NOTE's status table, in number order. Colour is the status keyword the cell begins with. The
+      frame is the arc's weave-or-thread label, main's field, from the register next to NOTE: solid for weave, dashed
+      for thread, dotted for neither. A label is copied from the record where the record states one, and assigned by the SM seat under its labels rule, committed first, where it does not; a dot marks the assigned ones. The desk itself
+      never assigns a label. Select a tile to read its status line, its label with the label's source, and the link.</p>
+  </div>
+  <div class="panel">
+    <div class="panel-head">
+      <div class="legend" id="legend"></div>
+      <div class="controls" id="filters"></div>
+    </div>
+    <div class="ledger" id="ledger"></div>
+    <dl class="kv" id="arc-info"></dl>
+  </div>
+</section>
+
+<section aria-labelledby="h-waves">
+  <div class="col stack">
+    <p class="eyebrow">View D · exact, computed in this page</p>
+    <h2 id="h-waves">The tick walk</h2>
+    <p>How each thread acts as it repeats: at tick n a thread acts as φⁿ, and on the three parities as (φ mod 2)ⁿ. Every
+      primitive cyclic word in L, R with both letters, up to the chosen length, is a row; nothing is picked by hand.</p>
+  </div>
+  <div class="panel">
+    <div class="panel-head">
+      <span class="badge" id="tick-badge">weave</span>
+      <div class="controls">
+        <label for="len4">longest word <input type="range" id="len4" min="2" max="10" value="6"> <span class="mono" id="len4-out">6</span></label>
+      </div>
+    </div>
+    <div class="grid2">
+      <div class="stack">
+        <div class="legend" id="tick-legend"></div>
+        <div class="tickwrap"><div class="ticks" id="ticks" role="img" aria-label="Each thread's action on the three parities at ticks 1 to 9"></div></div>
+      </div>
+      <div class="stack">
+        <dl class="kv" id="tick-info"></dl>
+        <p class="note">Exact, computed in this page: each thread's matrix is reduced mod 2 and raised to the tick. Only the
+          kind of permutation is shown (all three kept, two swapped, all three carried round), which does not depend on
+          the period-or-standard convention. A sign ±M is invisible mod 2. The counts beside the table are recomputed from the rows shown.</p>
+      </div>
+    </div>
+  </div>
+  <div class="panel" data-needs="w">
+    <div class="panel-head">
+      <span class="badge thread">open slot · not built, not forced</span>
+      <span class="mono note">the field</span>
+    </div>
+    <div class="col stack">
+      <p>The vacuum point τ and the Higgs state would be chosen in the field (GENESIS FK9), and with them the nineteen
+        sizes. The SM seat reads the record as holding no field the principle forces. The rows below are its list of
+        the arcs whose question is what holds τ, each with where it puts τ and a link to its line.</p>
+    </div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>arc</th><th>where it puts τ (the SM seat's one-line reading)</th><th>the record's row (first words)</th></tr></thead>
+      <tbody id="field-rows"></tbody>
+    </table></div>
+    <p class="note">A curated list: the arcs whose question is what holds τ or the vacuum point, chosen by the SM seat. The
+      middle column is a one-line reading; the right column is the record's own status-table text, linked to its line.</p>
+  </div>
+  <div class="panel" data-needs="w">
+    <div class="panel-head"><span class="badge thread">plate · not yet drawn</span><span class="mono note">the matter's wavefunctions</span></div>
+    <p class="col">The zero modes on the torus fibre (W21, W41, W60–W62), one density per line. Not drawn yet, on purpose:
+      the plate must use the record's own zero modes, exported by its scripts at a commit, not a textbook theta function
+      that looks similar. And τ is not fixed by the record, so the plate will carry a τ control marked free.</p>
+  </div>
+</section>
+
+<section aria-labelledby="h-towers">
+  <div class="col stack">
+    <p class="eyebrow">View E · P-415's gauge chain (a hand-copied table) and the SM seat's tower plates</p>
+    <h2 id="h-towers">The towers: the gauge chain, every rung at once</h2>
+    <p>P-415 (docs/POINT_REGISTER.md) asks whether reality emerges from what is allowed on all the towers together,
+      rather than from one thread going through one of them. The chain is drawn whole, none chosen. Each cell copies a
+      frame's verdict on that rung from the arc that tested it, by hand: this table is not generated. A blank frame
+      has not been tested; it is open, not passed.</p>
+  </div>
+  <div class="panel">
+    <div class="panel-head"><span class="badge" id="towers-badge">P-415 · verdicts copied from main's arcs</span><span class="mono note" id="towers-copied"></span></div>
+    <div class="tablewrap"><table class="towers">
+      <thead><tr><th>rung</th><th>where towers meet (P-415, from the geometric-unification literature)</th><th>E₆ cascade · main's B727</th><th>Witten's G₂ frame · main's B1805</th><th>F-theory 7-brane frame · main's B1812</th><th>other frames</th></tr></thead>
+      <tbody>
+        <tr><td class="rung">E₁₀ = E₈ hyperbolic</td><td>the total class</td><td class="nt">not tested</td><td class="nt">not tested</td>
+          <td><span class="vc fact">fact</span> the genesis word LR lies in this class; its nested pieces carry the whole chain. The object fixes the total class, not where any tower sits</td><td class="nt">open</td></tr>
+        <tr><td class="rung">E₈</td><td></td><td class="nt">not tested</td><td class="nt">not tested</td><td><span class="vc ok">can collapse</span> to a singularity, a gauge symmetry at a point</td><td class="nt">open</td></tr>
+        <tr><td class="rung">E₇</td><td></td><td class="nt">not tested</td><td class="nt">not tested</td><td><span class="vc ok">can collapse</span></td><td class="nt">open</td></tr>
+        <tr><td class="rung">E₆</td><td>up-type Yukawas where su(5) enhances to E₆; down-type where it enhances to so(12)</td>
+          <td><span class="vc neg">negative</span> E₆ across three faces is forced by the ADE classification, so it is generic, not the object's</td><td class="nt">not tested</td><td><span class="vc ok">can collapse</span></td><td class="nt">open</td></tr>
+        <tr><td class="rung">so(10)</td><td>a 10 of matter where su(5) enhances to so(10); its centre can give matter parity (P-414)</td><td class="nt">not tested</td>
+          <td><span class="vc neg">fails</span> has the parity (above the U(1)_X scale), loses the mechanism</td><td><span class="vc ok">can collapse</span></td><td class="nt">open</td></tr>
+        <tr><td class="rung">su(5)</td><td>a 5 of matter where su(5) enhances to su(6)</td><td class="nt">not tested</td>
+          <td><span class="vc neg">fails</span> keeps the mechanism, lacks the parity</td><td><span class="vc neg">cannot collapse</span> a hyperbolic class of trace −3: not a gauge symmetry at a point</td><td class="nt">open</td></tr>
+        <tr><td class="rung">su(3) ⊕ su(2)</td><td>the Standard Model's own</td><td class="nt">not tested</td><td class="nt">not tested</td>
+          <td><span class="vc neg">cannot collapse</span> a hyperbolic class of trace −4</td><td class="nt">open</td></tr>
+      </tbody>
+    </table></div>
+    <ul class="plain note">
+      <li><b>Threads in the 7-brane frame (B1812).</b> LR's class is E₁₀'s and m003's sign class is E₄'s; among the
+        metallic words only the golden one is an E-series monodromy.</li>
+      <li><b>Open, in main's words:</b> "a global model with the SM inside a collapsible subcluster broken by flux".</li>
+      <li><b>Not a result of the desk.</b> Every verdict is copied from the arc named in its column; P-415's row in
+        docs/POINT_REGISTER.md is the source. The table below the list is computed: it checks each cited arc
+        against the commit the copy was made at.</li>
+    </ul>
+    <div class="tablewrap"><table class="mini"><thead><tr><th>cited arc</th><th>verdict now</th><th>last change</th><th>since the copy</th></tr></thead><tbody id="towers-fresh"></tbody></table></div>
+  </div>
+  <div class="grid2" data-needs="w">
+    <div class="panel">
+      <div class="panel-head"><span class="badge">plate · weave · W125</span><span class="mono note" id="w125-n"></span></div>
+      <p class="note">Each thread's tower of closed universes: the Dehn fillings of 42 threads to Q = 16,000. The same law on
+        every thread: Q·ΔV/π² and Q·ℓ/2π tend to 1 (Neumann–Zagier). Bars are each thread's volume; dots are its worst
+        deviation at Q ≥ 400, against the bounds the record states (dashed).</p>
+      <svg id="w125" viewBox="0 0 520 300" role="img" aria-label="Volumes and Neumann–Zagier deviations of 42 threads"></svg>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><span class="badge">plate · weave · W176</span><span class="mono note">the congruence tower</span></div>
+      <p class="note">The lines of each order N on the shared fibre. The moves carry every line of an order to every other
+        (one orbit, W176's K0), so an order is one rung. The bar is the number of lines up to sign, as stored by W176; the
+        check column recomputes it in the page from Jordan's totient.</p>
+      <div class="tablewrap"><table class="mini"><thead><tr><th>N</th><th>lines</th><th>check</th><th>least V (W176)</th><th>its line</th></tr></thead><tbody id="w176-rows"></tbody></table></div>
+      <p class="note">Every order's least sits at Im τ = 4, the domain's top edge (W176): the potential holds no height
+        on any rung. W153's ladder ends at N = 5 from the orders 2 and 3.</p>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="h-index">
+  <div class="col stack">
+    <p class="eyebrow">View F · the index over the verdict files, edges and relay ledger</p>
+    <h2 id="h-index">The index: every arc, keyed by seat</h2>
+    <p>One read-only extractor reads main's verdict files and relay ledger through git (and, when asked, the SM seat's
+      branch) and writes the index outside the record: a SQLite file, a JSON copy and a manifest. Every arc is keyed
+      (seat, id), so numbers that name different arcs on different branches stay apart; a number carried by several
+      folders keys the later ones B58#2, B58#3. Every row carries its file, the ref, the commit and the file's blob. The
+      determinism check, when run, builds twice and refuses to write if the two differ.</p>
+  </div>
+  <div class="grid2">
+    <div class="panel">
+      <div class="panel-head"><span class="badge">manifest</span><span class="mono note" id="idx-det"></span></div>
+      <dl class="kv" id="idx-manifest"></dl>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><span class="badge">arcs by seat and verdict</span><span class="mono note" id="idx-total"></span></div>
+      <div class="tablewrap"><table class="mini"><thead><tr><th>seat</th><th>kind</th><th>verdict</th><th>arcs</th></tr></thead><tbody id="idx-counts"></tbody></table></div>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="panel-head"><span class="badge">weave or thread · main's field</span><span class="mono note">labelled of all, by era</span></div>
+    <p class="note">Main carries <span class="mono">weave_or_thread</span> on every verdict file from B1491 on; the era is that
+      number. With the SM seat's branch read, its W arcs carry it in the seat's register, copied where the record states
+      it and assigned by the seat where it does not, and its B arcs count as after the rule when their verdict file came
+      after the rule was adopted. Arcs from before the rule keep no label; labelling them now would be a guess.</p>
+    <div class="tablewrap"><table class="mini"><thead><tr><th>seat</th><th>kind</th><th>era</th><th>labelled</th></tr></thead><tbody id="idx-labels"></tbody></table></div>
+  </div>
+  <div class="grid2">
+    <div class="panel">
+      <div class="panel-head"><span class="badge">how each edge resolved</span><span class="mono note" id="idx-edges"></span></div>
+      <div class="bars" id="idx-resolved"></div>
+      <p class="note">A bare id is looked up in the citing arc's own seat, then at main, then at the other seat. The index
+        says which, and never guesses: an edge whose target has a directory but no verdict file, or exists on no
+        branch read, is listed as an audit item. A seat id whose branch is not read is counted apart, not as missing.</p>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><span class="badge">audit · targets not found</span><span class="mono note" id="idx-audit-n"></span></div>
+      <div class="tablewrap" style="max-height: 300px; overflow: auto"><table class="mini"><thead><tr><th>from</th><th>to</th><th>found as</th><th>edge</th></tr></thead><tbody id="idx-audit"></tbody></table></div>
+      <p class="note">"No verdict file": the target's directory exists but holds no verdict. "Not on a branch read": no
+        directory in frontier/ on the branches read. scripts/checks/arc_data.py (gate arc-data) classes the
+        depends_on cases among these as resolved, not defects; it reads depends_on only.</p>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="panel-head"><span class="badge">across the seats</span><span class="mono note" id="idx-cross-n"></span></div>
+    <p class="note">Every edge from a main arc to a seat's arc: rests_on_seat (built on; VERIFIED on main) and cites_seat
+      (registered only), and any dependency that crosses by bare number. An arc of a branch that was not read is named
+      here but not indexed.</p>
+    <div class="tablewrap" style="max-height: 320px; overflow: auto"><table class="mini"><thead><tr><th>main's arc</th><th>edge</th><th>the seat's arc</th></tr></thead><tbody id="idx-cross"></tbody></table></div>
+  </div>
+</section>
+
+<section aria-labelledby="h-life" data-needs="w">
+  <div class="col stack">
+    <p class="eyebrow">View G · the SM seat's W arcs, from its branch's commit subjects</p>
+    <h2 id="h-life">Did each arc keep its order?</h2>
+    <p>The record's discipline is an order: the rule before its script, the script before its run, the output committed
+      before it is read, then the record. The commit subjects on the SM seat's branch name those steps, so the order can be
+      checked by machine. Each row is one W arc; each mark is a commit. By default each row starts at the arc's first
+      named commit and runs on a square-root clock, so steps minutes apart stay apart; "calendar time" places every
+      commit on one shared date axis instead.</p>
+  </div>
+  <div class="panel">
+    <div class="panel-head">
+      <div class="legend" id="life-legend"></div>
+      <div class="controls"><button type="button" id="life-axis" aria-pressed="false">calendar time</button><button type="button" id="life-all" aria-pressed="false">show arcs with one step too</button></div>
+    </div>
+    <div class="grid2">
+      <div class="tickwrap" style="max-height: 520px"><svg id="life" role="img" aria-label="Lifecycle steps of each W arc, placed by commit time"></svg></div>
+      <div class="stack">
+        <dl class="kv" id="life-info"></dl>
+        <p class="note">Read from commit subjects of the forms "W176's rule", "W176's script", "W176's output", "W176's
+          post hoc script", "W176's post hoc output" and "W176 recorded". Arcs whose commits were worded otherwise show
+          fewer steps; an absent step is not a missing step. What commits cannot show: that a rule was pushed before its
+          script existed, or that an output was read only once.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="h-board">
+  <div class="col stack">
+    <p class="eyebrow">View H · verdict files and the relay ledger</p>
+    <h2 id="h-board">The board: what is open, and what is waiting on whom?</h2>
+    <p>One lane per ledger read. Every card comes from a verdict file or a ledger row; nothing is placed by hand. Open arcs
+      are those whose verdict file says OPEN, with their weave-or-thread label. Relays waiting are the OPEN rows of each
+      seat's relay ledger, aged to that seat's commit, with the last row for a file winning as in the relay-debt
+      gate.</p>
+  </div>
+  <div class="grid2">
+    <div class="panel">
+      <div class="panel-head"><span class="badge">open arcs</span><span class="mono note" id="board-open-n"></span></div>
+      <div class="chips" id="board-open-chips"></div>
+      <div class="tablewrap" style="max-height: 360px; overflow: auto"><table class="mini"><thead><tr><th>arc</th><th>label</th><th>claim</th></tr></thead><tbody id="board-open"></tbody></table></div>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><span class="badge">every arc, counted</span><span class="mono note">verdict × label</span></div>
+      <div class="tablewrap" style="max-height: 360px; overflow: auto"><table class="mini tight"><thead><tr><th>arcs</th><th>verdict</th><th>weave</th><th>thread</th><th>neither</th><th>other label</th><th>none, after the rule</th><th>pre-rule</th></tr></thead><tbody id="board-counts"></tbody></table></div>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="panel-head"><span class="badge">relays waiting</span><div class="controls" id="board-relay-filters"></div></div>
+    <p class="note" id="board-relay-note"></p>
+    <div class="tablewrap" style="max-height: 420px; overflow: auto"><table class="mini"><thead><tr><th>ledger</th><th>relay</th><th>from → to</th><th>opened</th><th>days</th><th>escalated</th><th>gate sees it</th></tr></thead><tbody id="board-relays"></tbody></table></div>
+  </div>
+</section>
+
+<section aria-labelledby="h-atlas">
+  <div class="col stack">
+    <p class="eyebrow">View I · depends_on and rests_on_seat</p>
+    <h2 id="h-atlas">The atlas: what rests on what, and what would fall?</h2>
+    <p>Pick an arc. On the left, what it rests on, layer by layer; on the right, what rests on it. The dependencies are
+      the verdict files' depends_on and main's rests_on_seat, resolved by the index. The arcs listed first are the twelve
+      with the largest downstream cones, computed, not chosen. A cone counts dependency, not truth: an arc in a cone is
+      one to re-check if its root fell, not one that falls with it.</p>
+  </div>
+  <div class="panel">
+    <div class="panel-head">
+      <div class="controls"><label>arc <input type="text" id="atlas-q" placeholder="B849 or main:B849" aria-label="Arc to centre"></label>
+        <label>layers <input type="range" id="atlas-depth" min="1" max="6" value="3"><span class="mono" id="atlas-depth-v">3</span></label></div>
+      <span class="mono note" id="atlas-msg"></span>
+    </div>
+    <div class="chips" id="atlas-load"></div>
+    <div class="grid2">
+      <div class="tickwrap" style="max-height: 640px"><svg id="atlas" role="img" aria-label="Upstream and downstream cones of the chosen arc"></svg></div>
+      <div class="stack"><dl class="kv" id="atlas-info"></dl>
+        <div class="legend" id="atlas-legend"></div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Generated by docs/workdesk/build_page.py from the record at main <span class="mono" id="sha2"></span><span id="foot-seat"></span>.
+    The index's manifest (view F) names the commit read for each seat, the schema, the sha-256 of the scripts and the
+    template that built this page, and each table's rows and sha-256. View A and the tick walk are computed in the page.
+    Nothing on this page is a result of the program.</p>
+  <p class="mono">rebuild: python3 -B docs/workdesk/build_page.py --out DIR (add --check for the determinism check, --seat-ref auto for the SM seat's branch)</p>
+</footer>
+</div>
+<script>
+const DESK={};
+const SHA = "";
+const SEAT_SHA = "";
+const REPO = "https://github.com/originaxiom/origin-axiom/blob/" + SHA + "/";
+const SEAT_REPO = "https://github.com/originaxiom/origin-axiom/blob/" + SEAT_SHA + "/";   // the SM seat's dossier lives at the seat's commit
+const HAVE_W = !!DESK.w_present;
+const HAVE_SEAT = !!SEAT_SHA;
+const blob = (key, src) => (key.startsWith("sm:") ? SEAT_REPO : REPO) + src.replace(/:(\d+)$/, "#L$1");   // "file:line" becomes a line anchor
+const DOSSIER = "docs/dossiers/the_weave_2026-10-07/";
+const NS = "http://www.w3.org/2000/svg";
+const $ = (id) => document.getElementById(id);
+const el = (tag, attrs = {}, text) => {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v);
+  if (text !== undefined) e.textContent = text;
+  return e;
+};
+const sv = (tag, attrs = {}) => {
+  const e = document.createElementNS(NS, tag);
+  for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v);
+  return e;
+};
+const kv = (dl, rows) => {
+  dl.replaceChildren();
+  for (const [k, v, href] of rows) {
+    dl.append(el("dt", {}, k));
+    const dd = el("dd");
+    if (href) { const a = el("a", { href, target: "_blank", rel: "noopener" }, v); dd.append(a); } else dd.textContent = v;
+    dl.append(dd);
+  }
+};
+$("sha").textContent = SHA.slice(0, 9);
+$("sha2").textContent = SHA.slice(0, 9);
+$("chip-seat").textContent = HAVE_SEAT ? "the SM seat's branch at " + SEAT_SHA.slice(0, 9) + " is read as well (its arcs are keyed sm:)" : "main only: the SM seat's branch is not read";
+$("foot-seat").textContent = HAVE_SEAT ? " and the SM seat's branch at " + SEAT_SHA.slice(0, 9) : "";
+if (!HAVE_W) document.querySelectorAll('[data-needs="w"]').forEach((e) => e.remove());   // views that need the seat's dossier
+
+/* ---------------------------------------------------------------- view A: the weave stage */
+const Lm = [[1, 1], [0, 1]], Rm = [[1, 0], [1, 1]];
+const mul = (A, B) => [[A[0][0] * B[0][0] + A[0][1] * B[1][0], A[0][0] * B[0][1] + A[0][1] * B[1][1]],
+                       [A[1][0] * B[0][0] + A[1][1] * B[1][0], A[1][0] * B[0][1] + A[1][1] * B[1][1]]];
+const stdMat = (w) => { let M = [[1, 0], [0, 1]]; for (const ch of w) M = mul(M, ch === "L" ? Lm : Rm); return M; };
+const rev = (w) => [...w].reverse().join("");
+const recMat = (w) => stdMat(rev(w));            // the record's period rule = the standard rule on the reversed word
+function lyndon(n) {
+  const res = []; let w = [-1];
+  while (w.length) {
+    w[w.length - 1]++; res.push(w.slice());
+    const m = w.length;
+    while (w.length < n) w.push(w[w.length - m]);
+    while (w.length && w[w.length - 1] === 1) w.pop();
+  }
+  return res.filter((x) => x.length >= 2).map((x) => x.map((b) => (b ? "R" : "L")).join(""));
+}
+const rotations = (w) => [...Array(w.length).keys()].map((i) => w.slice(i) + w.slice(0, i));
+const canonical = (w) => rotations(w).sort()[0];
+const axisEnds = (M) => {
+  const [[a, b], [c, d]] = M, t = a + d, s = Math.sqrt(t * t - 4);
+  return [((a - d) + s) / (2 * c), ((a - d) - s) / (2 * c)];   // attracting, repelling (c > 0 for both letters)
+};
+const C = 300, RAD = 285;
+const toDisk = (x) => {                          // Cayley map; the cusp at infinity on top, 0 at the bottom
+  if (!isFinite(x)) return [0, 1];
+  const q = x * x + 1, u = (x * x - 1) / q, v = -2 * x / q;
+  return [-v, u];
+};
+const scr = ([u, v]) => [C + RAD * u, C - RAD * v];
+function geodesicPath(x1, x2) {
+  const P = toDisk(x1), Q = toDisk(x2);
+  const dot = Math.max(-1, Math.min(1, P[0] * Q[0] + P[1] * Q[1]));
+  const D = Math.acos(dot);
+  if (Math.abs(Math.PI - D) < 1e-3) { const a = scr(P), b = scr(Q); return `M${a[0]},${a[1]}L${b[0]},${b[1]}`; }
+  const mx = (P[0] + Q[0]) / 2, my = (P[1] + Q[1]) / 2, mn = Math.hypot(mx, my);
+  const dist = 1 / Math.cos(D / 2), r = Math.tan(D / 2);
+  const cx = mx / mn * dist, cy = my / mn * dist;
+  let a1 = Math.atan2(P[1] - cy, P[0] - cx), a2 = Math.atan2(Q[1] - cy, Q[0] - cx);
+  let da = a2 - a1; while (da > Math.PI) da -= 2 * Math.PI; while (da < -Math.PI) da += 2 * Math.PI;
+  const N = Math.max(8, Math.ceil(Math.abs(da) * 18)); let d = "";
+  for (let i = 0; i <= N; i++) {
+    const t = a1 + da * i / N, p = scr([cx + r * Math.cos(t), cy + r * Math.sin(t)]);
+    d += (i ? "L" : "M") + p[0].toFixed(2) + "," + p[1].toFixed(2);
+  }
+  return d;
+}
+function fareyEdges(K, Q) {
+  const edges = [];
+  for (let n = -K; n <= K; n++) edges.push([n, Infinity]);
+  const rec = (p, q, r, s) => {                // Farey neighbours p/q < r/s, mediant split
+    edges.push([p / q, r / s]);
+    const a = p + r, b = q + s;
+    if (b > Q) return;
+    rec(p, q, a, b); rec(a, b, r, s);
+  };
+  for (let n = -K; n < K; n++) rec(n, 1, n + 1, 1);
+  return edges;
+}
+const disk = $("disk");
+const gFarey = sv("g"), gThreads = sv("g"), gFocus = sv("g");
+disk.append(sv("circle", { cx: C, cy: C, r: RAD, fill: "var(--paper)", stroke: "var(--muted)", "stroke-width": 1.2 }), gFarey, gThreads, gFocus);
+for (const [lab, x, dy] of [["∞", Infinity, -8], ["0", 0, 18], ["1", 1, 0], ["−1", -1, 0]]) {
+  const p = scr(toDisk(x)), dx = x === 1 ? 12 : x === -1 ? -22 : -4;
+  const t = sv("text", { x: p[0] + dx, y: p[1] + dy + (Math.abs(x) === 1 ? 4 : 0), fill: "var(--muted)", "font-size": 14, "font-family": "IBM Plex Mono, monospace" });
+  t.textContent = lab; disk.append(t);
+}
+for (const [x1, x2] of fareyEdges(12, 14)) {
+  const P = toDisk(x1), Q2 = toDisk(x2);
+  if (Math.hypot(P[0] - Q2[0], P[1] - Q2[1]) < 0.012) continue;
+  gFarey.append(sv("path", { d: geodesicPath(x1, x2), fill: "none", stroke: "var(--rule)", "stroke-width": 0.8 }));
+}
+let focus = null;
+function contFrac(w) {                           // the attracting end of one lift, as a periodic continued fraction
+  const r = rev(w);
+  const rot = rotations(r).find((s) => s[0] === "L" && s[s.length - 1] === "R");
+  return rot.match(/L+|R+/g).map((s) => s.length);
+}
+function drawStage() {
+  const n = +$("len").value; $("len-out").textContent = n;
+  const words = lyndon(n);
+  gThreads.replaceChildren(); gFocus.replaceChildren();
+  let lifts = 0; const traces = [];
+  for (const w of words) {
+    const t = recMat(w)[0][0] + recMat(w)[1][1]; traces.push(t);
+    for (const r of rotations(w)) {
+      const [xa, xr] = axisEnds(recMat(r));
+      const d = geodesicPath(xa, xr);
+      const vis = sv("path", { d, fill: "none", stroke: "var(--ink)", "stroke-opacity": 0.32, "stroke-width": 0.9 });
+      const hit = sv("path", { d, fill: "none", stroke: "transparent", "stroke-width": 7, "data-w": w, style: "cursor:pointer" });
+      const ttl = sv("title"); ttl.textContent = w; hit.append(ttl);
+      hit.addEventListener("click", () => { $("word").value = w; setFocus(w); });
+      gThreads.append(vis, hit); lifts++;
+    }
+  }
+  const counts = {}; words.forEach((w) => (counts[w.length] = (counts[w.length] || 0) + 1));
+  const max = Math.max(...Object.values(counts));
+  $("len-bars").replaceChildren(...Object.keys(counts).map((k) => {
+    const row = el("div", { class: "bar" }); row.append(el("span", {}, "length " + k));
+    const track = el("span"); const i = el("i"); i.style.width = (100 * counts[k] / max) + "%"; track.append(i);
+    row.append(track, el("span", {}, String(counts[k]))); return row;
+  }));
+  stageState = { n, words, lifts, tmin: Math.min(...traces), tmax: Math.max(...traces) };
+  setFocus(focus && focus.length <= n ? focus : null);
+}
+let stageState = null;
+function setFocus(w) {
+  gFocus.replaceChildren();
+  const s = stageState;
+  if (!w) {
+    focus = null;
+    $("stage-badge").textContent = "weave · all " + s.words.length + " threads, length ≤ " + s.n;
+    $("stage-badge").className = "badge";
+    kv($("stage-info"), [["rule", "every primitive cyclic word in L, R with both letters, length ≤ " + s.n],
+      ["threads", String(s.words.length)], ["lifts drawn", String(s.lifts)],
+      ["traces", s.tmin + " to " + s.tmax], ["picked by hand", "none"]]);
+    return;
+  }
+  focus = w;
+  const M = recMat(w), t = M[0][0] + M[1][1];
+  for (const r of rotations(w)) {
+    const [xa, xr] = axisEnds(recMat(r));
+    gFocus.append(sv("path", { d: geodesicPath(xa, xr), fill: "none", stroke: "var(--accent)", "stroke-width": 2.4 }));
+  }
+  const lift = rotations(w).find((r) => { const s = rev(r); return s[0] === "L" && s[s.length - 1] === "R"; });
+  const [xa, xr] = axisEnds(recMat(lift));
+  const cf = contFrac(w);
+  $("stage-badge").textContent = "thread focus · " + w;
+  $("stage-badge").className = "badge thread";
+  kv($("stage-info"), [["thread", w + "  (" + w.length + " letters, " + w.length + " lifts)"],
+    ["matrix", "[[" + M[0][0] + ", " + M[0][1] + "], [" + M[1][0] + ", " + M[1][1] + "]]"],
+    ["trace", String(t)], ["geodesic length", (2 * Math.acosh(t / 2)).toFixed(6)],
+    ["one lift", "rotation " + lift + ", ends " + xa.toFixed(6) + " and " + xr.toFixed(6)],
+    ["continued fraction", xa.toFixed(6) + " = [" + cf.join(", ") + ", " + cf.join(", ") + ", …]"],
+    ["label", "a THREAD focus; the stage's rule is unchanged"]]);
+}
+$("len").addEventListener("input", drawStage);
+$("word").addEventListener("input", () => {
+  const raw = $("word").value.toUpperCase().replace(/[^LR]/g, "");
+  if (raw.length >= 2 && raw.includes("L") && raw.includes("R")) {
+    const c = canonical(raw);
+    const prim = !rotations(c).slice(1).includes(c);
+    if (prim && c.length <= stageState.n) { setFocus(c); return; }
+  }
+  if (!raw) setFocus(null);
+});
+$("clear").addEventListener("click", () => { $("word").value = ""; setFocus(null); });
+$("farey").addEventListener("click", (e) => {
+  const on = e.currentTarget.getAttribute("aria-pressed") !== "true";
+  e.currentTarget.setAttribute("aria-pressed", String(on)); gFarey.style.display = on ? "" : "none";
+});
+drawStage();
+
+/* ---------------------------------------------------------------- view B: calibration */
+const cells = DESK.cells.map(([arc, cell, prior, held, pred, src]) => ({ arc, cell, prior, held, pred, src }));
+const BINS = [["≤ 60%", 0, 0.6], ["61–80%", 0.6, 0.8], ["81–90%", 0.8, 0.9], ["91–97%", 0.9, 0.97], ["98–99%", 0.97, 1.0]];
+const wilson = (k, n) => {
+  const z = 1.96, p = k / n, d = 1 + z * z / n, c = (p + z * z / (2 * n)) / d, h = z * Math.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / d;
+  return [c - h, c + h];
+};
+const bins = BINS.map(([lab, lo, hi]) => {
+  const xs = cells.filter((c) => c.prior > lo && c.prior <= hi || (lo === 0 && c.prior <= hi));
+  const k = xs.filter((c) => c.held).length;
+  return { lab, n: xs.length, mp: xs.reduce((a, c) => a + c.prior, 0) / xs.length, obs: k / xs.length, ci: wilson(k, xs.length) };
+});
+const brier = cells.reduce((a, c) => a + (c.prior - c.held) ** 2, 0) / cells.length;
+const base = cells.filter((c) => c.held).length / cells.length;
+if (HAVE_W) {
+$("cal-n").textContent = cells.length + " cells · " + new Set(cells.map((c) => c.arc)).size + " arcs";
+kv($("cal-info"), [["Brier score", brier.toFixed(3) + " (lower is better)"],
+  ["always say " + Math.round(base * 100) + "%", (base * (1 - base)).toFixed(3) + " (the base rate, for comparison)"],
+  ...bins.map((b) => [b.lab, b.n + " cells; stated " + Math.round(b.mp * 100) + "%, held " + Math.round(b.obs * 100) + "%"])]);
+(() => {
+  const svg = $("cal"), L = 56, T = 18, W = 440, H = 320;
+  const X = (p) => L + W * p, Y = (p) => T + H * (1 - p);
+  for (const g of [0, 0.2, 0.4, 0.6, 0.8, 1]) {
+    svg.append(sv("line", { x1: X(g), x2: X(g), y1: Y(0), y2: Y(1), stroke: "var(--faint)" }));
+    svg.append(sv("line", { x1: X(0), x2: X(1), y1: Y(g), y2: Y(g), stroke: "var(--faint)" }));
+    const tx = sv("text", { x: X(g), y: Y(0) + 18, "text-anchor": "middle", fill: "var(--muted)", "font-size": 12, "font-family": "IBM Plex Mono, monospace" });
+    tx.textContent = Math.round(g * 100) + "%"; svg.append(tx);
+    const ty = sv("text", { x: X(0) - 8, y: Y(g) + 4, "text-anchor": "end", fill: "var(--muted)", "font-size": 12, "font-family": "IBM Plex Mono, monospace" });
+    ty.textContent = Math.round(g * 100) + "%"; svg.append(ty);
+  }
+  svg.append(sv("line", { x1: X(0), y1: Y(0), x2: X(1), y2: Y(1), stroke: "var(--muted)", "stroke-dasharray": "4 4" }));
+  const ax = sv("text", { x: X(0.5), y: Y(0) + 38, "text-anchor": "middle", fill: "var(--muted)", "font-size": 12 }); ax.textContent = "stated prior (bin mean)"; svg.append(ax);
+  const ay = sv("text", { x: 14, y: Y(0.5), "text-anchor": "middle", fill: "var(--muted)", "font-size": 12, transform: `rotate(-90 14 ${Y(0.5)})` }); ay.textContent = "fraction of cells that held"; svg.append(ay);
+  for (const b of bins) {
+    svg.append(sv("line", { x1: X(b.mp), x2: X(b.mp), y1: Y(b.ci[0]), y2: Y(b.ci[1]), stroke: "var(--accent)", "stroke-width": 2 }));
+    svg.append(sv("circle", { cx: X(b.mp), cy: Y(b.obs), r: 3 + Math.sqrt(b.n) * 0.8, fill: "var(--accent)", "fill-opacity": 0.85, stroke: "var(--sheet)", "stroke-width": 1.5 }));
+    const t = sv("text", { x: X(b.mp) + 12, y: Y(b.obs) + 4 + (b.mp > 0.95 ? 16 : 0), fill: "var(--ink)", "font-size": 12, "font-family": "IBM Plex Mono, monospace" });
+    t.textContent = "n=" + b.n; svg.append(t);
+  }
+})();
+const itemOf = (c) => {
+  const d = el("div", { class: "item" });
+  const a = el("a", { href: SEAT_REPO + DOSSIER + c.src.replace(/:(\d+)$/, "#L$1"), target: "_blank", rel: "noopener" }, c.arc + " " + c.cell);
+  d.append(a, el("span", { class: "mono" }, "  prior " + Math.round(c.prior * 100) + "% · " + (c.held ? "held" : "failed")));
+  d.append(el("div", {}, c.pred.length > 150 ? c.pred.slice(0, 150) + "…" : c.pred));
+  return d;
+};
+$("hi-list").replaceChildren(...cells.filter((c) => c.prior >= 0.9 && !c.held).sort((a, b) => b.prior - a.prior).map(itemOf));
+$("lo-list").replaceChildren(...cells.filter((c) => c.prior <= 0.5 && c.held).sort((a, b) => a.prior - b.prior).map(itemOf));
+}
+
+/* ---------------------------------------------------------------- view C: the arc ledger */
+const STATUS = [["COMPUTED", "--s-computed"], ["PROVED", "--s-proved"], ["VERIFIED", "--s-verified"],
+  ["READING", "--s-reading"], ["NEGATIVE", "--s-negative"], ["other", "--s-other"]];
+const colorOf = (s) => (STATUS.find(([k]) => k === s) || STATUS[5])[1];
+const arcs = DESK.arcs.map(([arc, status, _tag, st, what, line, first, last]) => {
+  const L = (DESK.index.w_labels || {})[arc] || [null, null, null];
+  return { arc, status, tag: L[0] ? L[0].toUpperCase() : "", label: L[1], lsrc: L[2], st, what, line, first, last };
+})
+  .sort((a, b) => parseInt(a.arc.slice(1)) - parseInt(b.arc.slice(1)));
+const counts = {}; arcs.forEach((a) => { const k = STATUS.some(([s]) => s === a.status) ? a.status : "other"; counts[k] = (counts[k] || 0) + 1; });
+if (HAVE_W) {
+$("legend").replaceChildren(...STATUS.filter(([k]) => counts[k]).map(([k, v]) => {
+  const s = el("span"); const sw = el("i", { class: "sw" }); sw.style.background = `var(${v})`;
+  s.append(sw, document.createTextNode(k.toLowerCase() + " " + counts[k])); return s;
+}));
+let filt = "all";
+const tags = { all: arcs.length, WEAVE: arcs.filter((a) => a.tag === "WEAVE").length, THREAD: arcs.filter((a) => a.tag === "THREAD").length,
+  NEITHER: arcs.filter((a) => a.tag === "NEITHER").length, assigned: arcs.filter((a) => a.lsrc === "assigned").length };
+$("filters").replaceChildren(...Object.entries(tags).map(([k, n]) => {
+  const b = el("button", { type: "button", "aria-pressed": String(k === "all") }, k.toLowerCase() + " " + n);
+  b.addEventListener("click", () => { filt = k; [...$("filters").children].forEach((x) => x.setAttribute("aria-pressed", String(x === b))); paintLedger(); });
+  return b;
+}));
+let picked = null;
+function paintLedger() {
+  $("ledger").replaceChildren(...arcs.map((a) => {
+    const t = el("button", { type: "button", class: "tile" + (a.lsrc === "assigned" ? " assigned" : ""), "data-tag": a.tag || "none", "aria-pressed": String(picked === a.arc), title: a.arc + " · " + a.status + (a.label ? " · " + a.label : "") }, a.arc);
+    t.style.background = `color-mix(in srgb, var(${colorOf(a.status)}) 34%, var(--sheet))`;
+    const on = filt === "all" || (filt === "assigned" ? a.lsrc === "assigned" : a.tag === filt);
+    if (!on) t.classList.add("dim");
+    t.addEventListener("click", () => { picked = a.arc; showArc(a); paintLedger(); });
+    return t;
+  }));
+}
+function showArc(a) {
+  kv($("arc-info"), [["arc", a.arc + " · " + a.status],
+    ["label", a.label ? a.label + " · " + (a.lsrc === "assigned" ? "assigned by the SM seat under its labels rule" : "copied from " + a.lsrc) : "none in the register"],
+    ["status line", a.st], ["what", a.what],
+    ["commits", a.first ? (a.first === a.last ? a.first : a.first + " to " + a.last) : "not found in the seat branch's history"],
+    ["source", "NOTE.md line " + a.line, SEAT_REPO + DOSSIER + "NOTE.md#L" + a.line]]);
+}
+paintLedger();
+showArc(arcs[arcs.length - 1]); picked = arcs[arcs.length - 1].arc; paintLedger();
+}
+
+/* ---------------------------------------------------------------- view D: the tick walk and the field */
+const mod2 = (M) => M.map((r) => r.map((x) => ((x % 2) + 2) % 2));
+const mul2 = (A, B) => mod2(mul(A, B));
+const isI2 = (M) => M[0][0] === 1 && M[0][1] === 0 && M[1][0] === 0 && M[1][1] === 1;
+const KINDS = [["kept", "all three parities kept, each separate", "--s-computed"],
+               ["swap", "one kept, two swapped", "--s-reading"],
+               ["cycle", "all three carried round", "--s-proved"]];
+const kindOf = (P) => (isI2(P) ? 0 : isI2(mul2(P, P)) ? 1 : 2);
+$("tick-legend").replaceChildren(...KINDS.map(([, label, v]) => {
+  const s = el("span"); const sw = el("i", { class: "sw" }); sw.style.background = `var(${v})`;
+  s.append(sw, document.createTextNode(label)); return s;
+}));
+function drawTicks() {
+  const n = +$("len4").value; $("len4-out").textContent = n;
+  const words = lyndon(n).map((w) => {
+    const M2 = mod2(recMat(w)); const row = []; let P = [[1, 0], [0, 1]];
+    for (let k = 1; k <= 9; k++) { P = mul2(P, M2); row.push(kindOf(P)); }
+    return { w, row, order: kindOf(M2) === 2 ? 3 : kindOf(M2) === 1 ? 2 : 1, tr: recMat(w)[0][0] + recMat(w)[1][1] };
+  }).sort((a, b) => b.order - a.order || a.w.length - b.w.length || (a.w < b.w ? -1 : 1));
+  const g = $("ticks"); g.replaceChildren(el("span", { class: "h" }, "thread · tick"));
+  for (let k = 1; k <= 9; k++) g.append(el("span", { class: "h" }, String(k)));
+  for (const r of words) {
+    g.append(el("span", { class: "w", title: "trace " + r.tr }, r.w));
+    r.row.forEach((k, i) => {
+      const c = el("span", { class: "c", title: r.w + " at tick " + (i + 1) + ": " + KINDS[k][1] });
+      c.style.background = `var(${KINDS[k][2]})`; g.append(c);
+    });
+  }
+  const odd = words.filter((r) => r.tr % 2 !== 0);
+  const oddOk = odd.filter((r) => r.row.every((k, i) => (((i + 1) % 3 === 0) ? k === 0 : k === 2))).length;
+  const even = words.filter((r) => r.tr % 2 === 0);
+  const oddIsOrder3 = words.every((r) => (r.tr % 2 !== 0) === (r.order === 3));
+  $("tick-badge").textContent = "weave · all " + words.length + " threads, length ≤ " + n + ", ticks 1–9";
+  kv($("tick-info"), [["rule", "every primitive cyclic word in L, R with both letters, length ≤ " + n],
+    ["odd trace", odd.length + " threads; carried round at ticks not divisible by 3, all kept at 3, 6, 9: " +
+      oddOk + " of " + odd.length],
+    ["even trace", even.length + " threads; never carried round (all kept, or two swapped)"],
+    ["odd trace ⇔ order 3 mod 2", oddIsOrder3 ? "holds on every thread shown" : "FAILS on some thread"],
+    ["picked by hand", "none"]]);
+}
+$("len4").addEventListener("input", drawTicks);
+drawTicks();
+
+const FIELD = [
+  ["W51", "minimal at ω on every canonical functional the weave allows; i a saddle; the joint determinant flat"],
+  ["W59", "the one-loop potential on the fibre: stationary only at i (a saddle) and ω"],
+  ["W62", "the matter's τ-dependence: lowest at ω, a saddle at i"],
+  ["W67", "the weave's quartic on the Higgs sections: ω if the sign c > 0, the cusp if c < 0"],
+  ["W150", "a heavy-state holder: a curve m_Q(τ) = μ; the height only for a free ratio μ/M̃"],
+  ["W154", "the census over contents: the cusp, ω, i, or the axis at y* ≈ 7t/π² for a content ratio t"],
+  ["W169", "on the counted line's orbit: Re τ held at the mirror point at every height; V rises with height"],
+  ["W172", "at the counted line: Re τ held at the mirror point, but by a few parts in 10⁴ of V"],
+  ["W175", "off the mirror: CP breaks spontaneously; the height is pushed down out of the band"],
+  ["W176", "given the order: runs to the cusp on the a = 0 lines; no height held"]];
+const arcById = Object.fromEntries(arcs.map((a) => [a.arc, a]));
+if (HAVE_W) $("field-rows").replaceChildren(...FIELD.filter(([id]) => arcById[id]).map(([id, lands]) => {
+  const a = arcById[id]; const tr = el("tr");
+  const t1 = el("td"); t1.append(el("a", { href: SEAT_REPO + DOSSIER + "NOTE.md#L" + a.line, target: "_blank", rel: "noopener" }, id));
+  const what = a.what.length > 150 ? a.what.slice(0, 150) + "…" : a.what;
+  tr.append(t1, el("td", {}, lands), el("td", { class: "note" }, what)); return tr;
+}));
+
+/* ---------------------------------------------------------------- view E: the towers' plates */
+(() => {                                         // the hand-copied table's sources, checked against the commit it was copied at
+  const C = DESK.index.curated, R = C.register;
+  $("towers-badge").textContent = "P-415 · " + (R ? R.disposition + " in the register" : "not found in the register") + " · verdicts copied from main's arcs";
+  $("towers-copied").replaceChildren(document.createTextNode("copied at main " + C.copied_at + (R ? " · register row: " : "")),
+    ...(R ? [el("a", { href: blob("main:", "docs/POINT_REGISTER.md:" + R.line), target: "_blank", rel: "noopener" }, "line " + R.line)] : []));
+  $("towers-fresh").replaceChildren(...C.arcs.map(([arc, verdict, claim, last, same, src]) => {
+    const tr = el("tr", { title: claim }); const td = el("td", { class: "mono" });
+    if (src) td.append(el("a", { href: blob("main:", src), target: "_blank", rel: "noopener" }, arc)); else td.textContent = arc;
+    tr.append(td, el("td", { class: "mono" }, verdict), el("td", { class: "mono" }, last || "·"),
+      el("td", { class: "mono" }, same === null ? "not checkable" : same ? "unchanged since the copy" : "CHANGED since the copy: re-read the table"));
+    return tr;
+  }));
+})();
+if (HAVE_W) (() => {
+  const rows = DESK.w125.map(([b, V, k1, k2]) => ({ b, V, k1, k2 })).sort((a, b) => a.V - b.V || (a.b < b.b ? -1 : 1));
+  $("w125-n").textContent = rows.length + " threads";
+  const svg = $("w125"), L = 58, W = 452, T1 = 12, H1 = 120, T2 = 170, H2 = 100;
+  const vmax = Math.ceil(Math.max(...rows.map((r) => r.V)));
+  const bw = W / rows.length;
+  const X = (i) => L + i * bw;
+  const txt = (x, y, s, a = "start", size = 11) => { const t = sv("text", { x, y, fill: "var(--muted)", "font-size": size, "text-anchor": a, "font-family": "IBM Plex Mono, monospace" }); t.textContent = s; svg.append(t); };
+  for (const g of [0, vmax / 2, vmax]) { const y = T1 + H1 * (1 - g / vmax); svg.append(sv("line", { x1: L, x2: L + W, y1: y, y2: y, stroke: "var(--faint)" })); txt(L - 6, y + 4, g.toFixed(0), "end"); }
+  rows.forEach((r, i) => {
+    const h = H1 * r.V / vmax; const bar = sv("rect", { x: X(i) + 1, y: T1 + H1 - h, width: bw - 2, height: h, fill: "var(--accent)", "fill-opacity": 0.7 });
+    const tt = sv("title"); tt.textContent = r.b + " · volume " + r.V.toFixed(6); bar.append(tt); svg.append(bar);
+  });
+  txt(L, T1 + H1 + 14, "volume, threads sorted by volume");
+  const dmax = 0.01, Y2 = (d) => T2 + H2 * (1 - d / dmax);
+  for (const [d, lab] of [[0.0047, "0.0047"], [0.0094, "0.0094"]]) {
+    svg.append(sv("line", { x1: L, x2: L + W, y1: Y2(d), y2: Y2(d), stroke: "var(--muted)", "stroke-dasharray": "4 4" })); txt(L - 6, Y2(d) + 4, lab, "end", 10);
+  }
+  svg.append(sv("line", { x1: L, x2: L + W, y1: Y2(0), y2: Y2(0), stroke: "var(--faint)" })); txt(L - 6, Y2(0) + 4, "0", "end", 10);
+  rows.forEach((r, i) => {
+    for (const [d, f] of [[r.k1, "var(--s-proved)"], [r.k2, "var(--s-reading)"]]) {
+      const c = sv("circle", { cx: X(i) + bw / 2, cy: Y2(d), r: 2.6, fill: f });
+      const tt = sv("title"); tt.textContent = r.b + " · " + d.toExponential(2); c.append(tt); svg.append(c);
+    }
+  });
+  txt(L, T2 + H2 + 16, "worst deviation at Q ≥ 400: blue Q·ΔV/π², orange Q·ℓ/2π");
+})();
+if (HAVE_W) (() => {
+  const primes = (n) => { const p = []; for (let q = 2; q * q <= n; q++) if (n % q === 0) { p.push(q); while (n % q === 0) n /= q; } if (n > 1) p.push(n); return p; };
+  const J2 = (n) => primes(n).reduce((a, p) => a * (1 - 1 / (p * p)), n * n);
+  $("w176-rows").replaceChildren(...DESK.w176.map(([N, lines, V, y, line]) => {
+    const want = N <= 2 ? Math.round(J2(N)) : Math.round(J2(N) / 2);
+    const tr = el("tr");
+    tr.append(el("td", { class: "mono" }, String(N)), el("td", { class: "mono" }, String(lines)),
+      el("td", { class: "mono" }, want === lines ? "= " + want : "≠ " + want),
+      el("td", { class: "mono" }, V.toFixed(2)), el("td", { class: "mono" }, line));
+    return tr;
+  }));
+})();
+
+/* ---------------------------------------------------------------- view F: the index */
+(() => {
+  const I = DESK.index, M = I.manifest;
+  $("idx-det").textContent = M.deterministic ? "two builds, identical hashes" : "determinism not checked";
+  kv($("idx-manifest"), [["built from", Object.entries(M.built_from).map(([r, c]) => r + " " + c.slice(0, 9)).join(" · ")],
+    ["mode", M.mode], ["schema", String(M.schema)],
+    ...Object.entries(M.extractors_sha256 || {}).map(([n, h]) => [n, "sha-256 " + h.slice(0, 12) + "…"]),
+    ...Object.entries(M.tables).map(([n, t]) => [n, t.rows + " rows · sha-256 " + t.sha256.slice(0, 12) + "…"]),
+    ["written to", "outside the record; never committed"]]);
+  const total = I.counts.reduce((a, r) => a + r[3], 0);
+  $("idx-total").textContent = total + " arcs";
+  $("idx-counts").replaceChildren(...I.counts.map(([s, k, v, n]) => {
+    const tr = el("tr"); [s, k, v, String(n)].forEach((x) => tr.append(el("td", { class: "mono" }, x))); return tr;
+  }));
+  const max = Math.max(...I.resolved.map((r) => r[1]));
+  $("idx-edges").textContent = I.resolved.reduce((a, r) => a + r[1], 0) + " edges";
+  $("idx-resolved").replaceChildren(...I.resolved.map(([how, n]) => {
+    const row = el("div", { class: "bar" }); row.style.gridTemplateColumns = "13rem minmax(0, 1fr) 3.5rem";
+    row.append(el("span", {}, how)); const tr = el("span"); const i = el("i");
+    i.style.width = Math.max(1, 100 * Math.log10(1 + n) / Math.log10(1 + max)) + "%"; tr.append(i);
+    row.append(tr, el("span", {}, String(n))); return row;
+  }));
+  $("idx-labels").replaceChildren(...I.labels.map(([s, k, era, n, all]) => {
+    const tr = el("tr"); [s, k, era, n + " of " + all].forEach((x) => tr.append(el("td", { class: "mono" }, x))); return tr;
+  }));
+  $("idx-audit-n").textContent = I.audit.length + " edges";
+  const SHORT = { "directory without a verdict file": "no verdict file", "missing on both branches": "not on a branch read", "missing on main": "not on a branch read", "missing on the seat's branch": "not on a branch read" };
+  $("idx-audit").replaceChildren(...I.audit.map(([a, b, k, f]) => { const tr = el("tr"); [a, b, SHORT[f] || f, k].forEach((x) => tr.append(el("td", { class: "mono" }, x))); return tr; }));
+  $("idx-cross-n").textContent = I.cross.length + " edges";
+  const readIds = new Set(I.atlas.nodes.filter((n) => n[1] !== "SEAT (not read)" && n[1] !== "NOT FOUND").map((n) => n[0]));
+  $("idx-cross").replaceChildren(...I.cross.map(([s, d, k]) => {
+    const tr = el("tr"); const [a, b] = s.startsWith("main:") ? [s, d] : [d, s];
+    [a, k, b + (readIds.has(b) ? "" : "  (branch not read)")].forEach((x) => tr.append(el("td", { class: "mono" }, x))); return tr;
+  }));
+})();
+
+/* ---------------------------------------------------------------- view G: the lifecycle strip */
+if (HAVE_W) (() => {
+  const STEP = [["rule", "rule", "--s-reading"], ["script", "script", "--s-other"], ["output", "output committed unread", "--s-proved"],
+    ["posthoc_script", "post hoc script", "--muted"], ["posthoc_output", "post hoc output", "--muted"], ["recorded", "recorded", "--s-computed"]];
+  $("life-legend").replaceChildren(...STEP.filter((s, i) => i !== 4).map(([k, label, v]) => {
+    const s = el("span"); const sw = el("i", { class: "sw" }); sw.style.background = `var(${v})`;
+    if (k.startsWith("posthoc")) sw.style.borderRadius = "50%";
+    s.append(sw, document.createTextNode(k === "posthoc_script" ? "post hoc steps" : label)); return s;
+  }));
+  const byArc = {};
+  for (const [arc, step, date, commit] of DESK.index.life) (byArc[arc] = byArc[arc] || []).push({ step, t: Date.parse(date), date, commit });
+  const all = Object.keys(byArc).sort((a, b) => parseInt(a.split(":W")[1]) - parseInt(b.split(":W")[1]));
+  const kinds = (a) => new Set(byArc[a].map((s) => s.step)).size;
+  const four = all.filter((a) => ["rule", "script", "output", "recorded"].every((k) => byArc[a].some((s) => s.step === k)));
+  kv($("life-info"), [["arcs with a named step", String(all.length)], ["with two or more steps", String(all.filter((a) => kinds(a) >= 2).length)],
+    ["with all four main steps", String(four.length)], ["out of order", DESK.index.flags.length === 0 ? "none" : DESK.index.flags.map((f) => f.arc).join(", ")]]);
+  let showAll = false, calendar = false;
+  const mono = { fill: "var(--muted)", "font-size": 10, "font-family": "IBM Plex Mono, monospace" };
+  function draw() {
+    const rows = all.filter((a) => showAll || kinds(a) >= 2);
+    const L = 54, W = 470, RH = 14, T = 22, H = T + rows.length * RH + 8;
+    const svg = $("life"); svg.replaceChildren(); svg.setAttribute("viewBox", `0 0 ${L + W + 12} ${H}`);
+    svg.style.width = "100%"; svg.style.minWidth = "420px";
+    const first = (a) => Math.min(...byArc[a].map((s) => s.t));
+    let X;
+    if (calendar) {
+      const ts = rows.flatMap((a) => byArc[a].map((s) => s.t)); const t0 = Math.min(...ts), t1 = Math.max(...ts);
+      X = (t) => L + W * (t - t0) / Math.max(1, t1 - t0);
+      const days = []; for (let d = new Date(new Date(t0).toISOString().slice(0, 10)); d.getTime() <= t1; d.setUTCDate(d.getUTCDate() + 1)) days.push(d.getTime());
+      days.forEach((d, i) => {
+        if (d < t0) return;
+        svg.append(sv("line", { x1: X(d), x2: X(d), y1: T - 6, y2: H, stroke: "var(--faint)" }));
+        if (i % 3 === 0) { const tx = sv("text", { x: X(d) + 2, y: 12, ...mono }); tx.textContent = new Date(d).toISOString().slice(5, 10); svg.append(tx); }
+      });
+    } else {
+      const span = Math.max(...rows.map((a) => Math.max(...byArc[a].map((s) => s.t)) - first(a)), 60e3);
+      const R = (dt) => L + W * Math.sqrt(dt / span);
+      X = (t, a) => R(t - first(a));
+      [[0, "0"], [5, "5 min"], [30, "30 min"], [60, "1 h"], [120, "2 h"], [240, "4 h"]].forEach(([m, label]) => {
+        if (m * 60e3 > span) return;
+        svg.append(sv("line", { x1: R(m * 60e3), x2: R(m * 60e3), y1: T - 6, y2: H, stroke: "var(--faint)" }));
+        const tx = sv("text", { x: R(m * 60e3) + 2, y: 12, ...mono }); tx.textContent = label; svg.append(tx);
+      });
+    }
+    rows.forEach((a, i) => {
+      const y = T + i * RH + RH / 2; const ss = byArc[a].slice().sort((p, q) => p.t - q.t);
+      const lab = sv("text", { x: L - 6, y: y + 3, "text-anchor": "end", ...mono, fill: "var(--ink)" }); lab.textContent = a.split(":")[1]; svg.append(lab);
+      svg.append(sv("line", { x1: X(ss[0].t, a), x2: X(ss[ss.length - 1].t, a), y1: y, y2: y, stroke: "var(--rule)", "stroke-width": 2 }));
+      for (const s of ss) {
+        const st = STEP.find((k) => k[0] === s.step);
+        const m = s.step.startsWith("posthoc") ? sv("circle", { cx: X(s.t, a), cy: y, r: 3.2, fill: `var(${st[2]})` })
+          : sv("rect", { x: X(s.t, a) - 3.2, y: y - 3.2, width: 6.4, height: 6.4, fill: `var(${st[2]})` });
+        const tt = sv("title"); tt.textContent = a + " · " + st[1] + " · " + s.commit + " · " + s.date; m.append(tt); svg.append(m);
+      }
+    });
+  }
+  $("life-axis").addEventListener("click", (e) => { calendar = !calendar; e.currentTarget.setAttribute("aria-pressed", String(calendar)); draw(); });
+  $("life-all").addEventListener("click", (e) => { showAll = !showAll; e.currentTarget.setAttribute("aria-pressed", String(showAll)); draw(); });
+  draw();
+})();
+
+/* ---------------------------------------------------------------- view H: the board */
+(() => {
+  const B = DESK.index.board;
+  const seats = HAVE_SEAT ? ["main", "sm"] : ["main"];
+  $("board-open-n").textContent = B.open.length + " arcs";
+  const tagCount = {};
+  B.open.forEach(([k, t]) => { const s = k.split(":")[0]; tagCount[s + " · " + t] = (tagCount[s + " · " + t] || 0) + 1; });
+  $("board-open-chips").replaceChildren(...Object.entries(tagCount).sort().map(([k, n]) => { const c = el("span", { class: "chip" }); c.append(document.createTextNode(k + " "), el("b", {}, String(n))); return c; }));
+  $("board-open").replaceChildren(...B.open.map(([k, t, claim, src]) => {
+    const tr = el("tr"); const a = el("a", { href: blob(k, src), target: "_blank", rel: "noopener" }, k);
+    const td = el("td", { class: "mono" }); td.append(a); tr.append(td, el("td", { class: "mono" }, t), el("td", {}, claim));
+    tr.lastChild.style.whiteSpace = "normal"; tr.lastChild.style.minWidth = "22rem"; return tr;
+  }));
+  const TAGS = ["weave", "thread", "neither", "other", "unlabelled", "before the rule"];
+  const col = (t) => (["weave", "thread", "neither", "unlabelled", "before the rule"].includes(t) ? t : "other");   // other: a first word that is none of the three
+  const piv = {};
+  for (const [s, k, v, t, n] of B.by_label) { const r = (piv[s + "|" + k + "|" + v] = piv[s + "|" + k + "|" + v] || {}); r[col(t)] = (r[col(t)] || 0) + n; }
+  $("board-counts").replaceChildren(...Object.keys(piv).sort().map((key) => {
+    const [s, k, v] = key.split("|"); const tr = el("tr");
+    [s + " " + k, v, ...TAGS.map((t) => piv[key][t] ? String(piv[key][t]) : "·")].forEach((x) => tr.append(el("td", { class: "mono" }, x)));
+    return tr;
+  }));
+  const W = B.waiting.map(([seat, file, date, age, esc, frm, to, note, sees]) => ({ seat, file, date, age, esc, frm, to, note, sees }));
+  const SD = B.stale_days;   // the relay-debt gate's own limit, carried in the data
+  const stale = (r) => (r.age === null || r.age > SD) && !r.esc;
+  const sentence = seats.map((s) => { const mine = W.filter((r) => r.seat === s); return (s === "sm" ? "the SM seat's " : "main's ") + mine.filter((r) => r.sees).length + " of " + mine.length; }).join(" and ");
+  $("board-relay-note").textContent = "The relay-debt gate's row pattern matches " + sentence + " OPEN rows; a row it does not match is one it cannot age or escalate. Past " + SD + " days with no ESCALATED marker: " + W.filter(stale).length + ".";
+  const FILT = { all: () => true, ["past " + SD + " days"]: (r) => r.age === null || r.age > SD, "not escalated": (r) => !r.esc, "gate cannot see": (r) => !r.sees };
+  let f = "all";
+  function paint() {
+    const rows = W.filter(FILT[f]).sort((a, b) => (b.age ?? 1e9) - (a.age ?? 1e9) || a.file.localeCompare(b.file));
+    $("board-relays").replaceChildren(...rows.map((r) => {
+      const tr = el("tr", { title: r.note });
+      [r.seat === "sm" ? "the SM seat" : "main", r.file, (r.frm || "?") + " → " + (r.to || "?"), r.date || "no date", r.age === null ? "·" : String(r.age), r.esc ? "yes" : "no", r.sees ? "yes" : "no"]
+        .forEach((x, i) => { const td = el("td", { class: "mono" }, x); if (i === 1) { td.style.whiteSpace = "normal"; td.style.wordBreak = "break-all"; td.style.minWidth = "16rem"; } tr.append(td); });
+      if (stale(r)) tr.style.background = "color-mix(in srgb, var(--s-negative) 14%, var(--sheet))";
+      return tr;
+    }));
+  }
+  $("board-relay-filters").replaceChildren(...Object.keys(FILT).map((k) => {
+    const b = el("button", { type: "button", "aria-pressed": String(k === f) }, k + " " + W.filter(FILT[k]).length);
+    b.addEventListener("click", () => { f = k; [...$("board-relay-filters").children].forEach((x) => x.setAttribute("aria-pressed", String(x === b))); paint(); });
+    return b;
+  }));
+  paint();
+})();
+
+/* ---------------------------------------------------------------- view I: the atlas */
+(() => {
+  const A = DESK.index.atlas, N = A.nodes, at = {};
+  N.forEach((n, i) => { at[n[0]] = i; });
+  const up = N.map(() => []), dn = N.map(() => []);
+  for (const [s, d] of A.dep) { up[s].push(d); dn[d].push(s); }
+  const VC = { PROVED: "--s-proved", NEGATIVE: "--s-negative", OPEN: "--s-reading", RETRACTED: "--s-other", COMPUTED: "--s-computed",
+    VERIFIED: "--s-verified", READING: "--s-reading", "NOT FOUND": "--muted", "SEAT (not read)": "--faint" };
+  const DASH = { weave: null, thread: "4 2", neither: "1 2" };
+  const short = (k) => k.startsWith("main:") ? k.slice(5) : k.replace(":", " ");
+  const num = (k) => parseInt(k.replace(/\D/g, "")) || 0;
+  function layers(i, adj, D) {
+    const seen = new Set([i]); let front = [i]; const out = [];
+    for (let d = 0; d < D; d++) {
+      const nxt = [];
+      for (const x of front) for (const y of adj[x]) if (!seen.has(y)) { seen.add(y); nxt.push(y); }
+      if (!nxt.length) break;
+      nxt.sort((a, b) => num(N[a][0]) - num(N[b][0])); out.push(nxt); front = nxt;
+    }
+    return out;
+  }
+  function cone(i, adj) {
+    const seen = new Set(); const todo = [i];
+    while (todo.length) for (const y of adj[todo.pop()]) if (!seen.has(y)) { seen.add(y); todo.push(y); }
+    return seen;
+  }
+  $("atlas-legend").replaceChildren(...[["proved", "--s-proved"], ["negative", "--s-negative"], ["open", "--s-reading"], ["retracted", "--s-other"], ["not found", "--muted"], ["seat arc, not read", "--faint"]].map(([l, v]) => {
+    const s = el("span"); const sw = el("i", { class: "sw" }); sw.style.background = `var(${v})`; s.append(sw, document.createTextNode(l)); return s;
+  }), el("span", {}, "frame: solid weave · dashed thread · dotted neither · none before the rule"));
+  let focus = at[A.load[0][0]];
+  $("atlas-load").replaceChildren(...A.load.map(([k, n]) => {
+    const b = el("button", { type: "button" }, short(k) + " · " + n); b.addEventListener("click", () => { focus = at[k]; draw(); }); return b;
+  }));
+  function draw() {
+    const D = +$("atlas-depth").value; $("atlas-depth-v").textContent = String(D);
+    const U = layers(focus, up, D), Dn = layers(focus, dn, D);
+    const cols = [...U.slice().reverse(), [focus], ...Dn], CAP = 26, CW = 104, NW = 88, NH = 15, GAP = 4, T = 22;
+    const shown = cols.map((c) => c.slice(0, CAP));
+    const H = T + Math.max(...shown.map((c) => c.length + (cols[shown.indexOf(c)].length > CAP ? 1 : 0))) * (NH + GAP) + 10;
+    const svg = $("atlas"); svg.replaceChildren(); svg.setAttribute("viewBox", `0 0 ${cols.length * CW + 8} ${H}`);
+    svg.style.width = Math.max(420, cols.length * CW) + "px";
+    const pos = new Map();
+    shown.forEach((c, ci) => c.forEach((n, ri) => pos.set(n + ":" + ci, [8 + ci * CW, T + ri * (NH + GAP)])));
+    const fi = U.length;
+    let lines = 0;
+    shown.forEach((c, ci) => {
+      if (ci === shown.length - 1) return;
+      for (const a of c) for (const b of shown[ci + 1]) {
+        const dep = ci < fi ? up[b].includes(a) : dn[a].includes(b);
+        if (!dep || lines > 900) continue;
+        const [x1, y1] = pos.get(a + ":" + ci), [x2, y2] = pos.get(b + ":" + (ci + 1));
+        svg.append(sv("line", { x1: x1 + NW, y1: y1 + NH / 2, x2, y2: y2 + NH / 2, stroke: "var(--rule)", "stroke-width": 0.8 })); lines++;
+      }
+    });
+    shown.forEach((c, ci) => {
+      const hd = sv("text", { x: 8 + ci * CW, y: 12, fill: "var(--muted)", "font-size": 9.5, "font-family": "IBM Plex Mono, monospace" });
+      hd.textContent = ci < fi ? "rests on · " + (fi - ci) : ci === fi ? "centre" : "rests on it · " + (ci - fi); svg.append(hd);
+      c.forEach((n) => {
+        const [x, y] = pos.get(n + ":" + ci); const [k, v, t] = N[n];
+        const r = sv("rect", { x, y, width: NW, height: NH, rx: 2, fill: `color-mix(in srgb, var(${VC[v] || "--s-other"}) ${n === focus ? 70 : 34}%, var(--sheet))`,
+          stroke: t === "weave" || t === "thread" || t === "neither" ? "var(--ink)" : "none", "stroke-width": 1, "stroke-dasharray": DASH[t] || "" });
+        const tx = sv("text", { x: x + 4, y: y + 11, fill: "var(--ink)", "font-size": 9.5, "font-family": "IBM Plex Mono, monospace" }); tx.textContent = short(k);
+        const g = sv("g"); g.style.cursor = "pointer"; const tt = sv("title"); tt.textContent = k + " · " + v + (t ? " · " + t : "") + "\n" + N[n][3]; g.append(tt, r, tx);
+        g.addEventListener("click", () => { focus = n; draw(); }); svg.append(g);
+      });
+      if (cols[ci].length > CAP) {
+        const more = sv("text", { x: 8 + ci * CW, y: T + CAP * (NH + GAP) + 10, fill: "var(--muted)", "font-size": 9.5, "font-family": "IBM Plex Mono, monospace" });
+        more.textContent = "+" + (cols[ci].length - CAP) + " more"; svg.append(more);
+      }
+    });
+    const cu = cone(focus, up), cd = cone(focus, dn);
+    const byV = {}; cd.forEach((n) => { byV[N[n][1]] = (byV[N[n][1]] || 0) + 1; });
+    kv($("atlas-info"), [["arc", N[focus][0] + " · " + N[focus][1] + (N[focus][2] ? " · " + N[focus][2] : "")], ["claim", N[focus][3] || (N[focus][1] === "SEAT (not read)" ? "(an arc of a branch that was not read)" : "(not found on a branch read)")],
+      ...(N[focus][4] ? [["verdict file", N[focus][4].split("/")[1], blob(N[focus][0], N[focus][4])]] : []),
+      ["rests on", cu.size + " arcs, all layers"], ["rests on it", cd.size + " arcs, all layers"],
+      ["of those, by verdict", Object.entries(byV).sort((a, b) => b[1] - a[1]).map(([v, n]) => v.toLowerCase() + " " + n).join(" · ") || "none"],
+      ["dependency cycles", A.cycles.length ? A.cycles.length + " in the index: " + A.cycles.map((c) => c.map(short).join(" ↔ ")).join("; ") : "none"]]);
+    $("atlas-msg").textContent = "";
+  }
+  $("atlas-q").addEventListener("change", (e) => {
+    const q = e.target.value.trim(); const cand = q.includes(":") ? [q] : ["main:" + q, "sm:" + q];
+    const hit = cand.find((k) => k in at);
+    if (hit === undefined) { $("atlas-msg").textContent = "no arc " + q + " in the index"; return; }
+    focus = at[hit]; draw();
+  });
+  $("atlas-depth").addEventListener("input", draw);
+  draw();
+})();
+
+/* ---------------------------------------------------------------- the contents line */
+$("contents").replaceChildren(...[...document.querySelectorAll("section[aria-labelledby]")].map((s) => {
+  const h = $(s.getAttribute("aria-labelledby"));
+  return el("a", { class: "chip", href: "#" + h.id }, s.querySelector(".eyebrow").textContent.split(" · ")[0] + ": " + h.textContent.split(":")[0]);
+}));
+</script>
+</body>
+</html>

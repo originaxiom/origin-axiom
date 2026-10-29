@@ -1,0 +1,83 @@
+# P-420 phase 2 — the desk at originaxiom.org behind a login (design; main, 2026-10-29)
+
+*The owner's ruling (2026-10-29): "when ready we can publish it in originaxiom.org and make it accessible through a safe
+login box. later we can decide about the public face of the website. i dont mind the code to be public, its part of the
+public framework of our program". Nothing below is deployed; deployment needs the owner's accounts and an explicit go
+at the time.*
+
+## What a login does and does not protect
+- **It controls who can open the site.**
+- **It does not make the data private.** The desk is generated from the public repository: every number on it, and the
+  generated page itself (docs/workdesk/), is readable on GitHub. If any desk content should not be public, it must stay
+  out of the repository, which is a different decision from the login.
+
+## Recommended setup (static, no server to maintain, no passwords held by us)
+- **The host: Cloudflare Pages** (free) serves the generated desk as static files.
+- **The login box: Cloudflare Access** (Zero Trust; free up to 50 users) sits in front of the whole site.
+  - It sends a one-time code to an allow-listed email address, or uses GitHub or Google sign-in.
+  - No password is stored by the programme, and the policy lists exactly who may enter.
+- **The build: Cloudflare Pages' own Git integration, run on every push to main** (the repository's gate tracked-forbidden
+  rejects any `.github/` path, so no GitHub Actions job can land; Pages builds from the repository directly, with no file
+  in `.github/`).
+- *(superseded)* A GitHub Actions job on every push to main.
+  - It rebuilds the desk with the repository's own scripts (the SM seat's proposed CI job, adapted; P-420 phase 1).
+  - It deploys to Pages with an API token, which the owner stores as a repository secret.
+  - The desk always shows the pushed record, with the commit on every page.
+- **The domain.** originaxiom.org's DNS points the site's host name (the apex or `desk.`) to Pages. The DNS lookup
+  from this machine returned no records on 2026-10-29: either the domain has none yet, or the lookup was blocked here.
+
+## The owner's steps (main cannot do these: they create accounts and hold credentials)
+1. A Cloudflare account; add originaxiom.org (or move its DNS there).
+2. A Pages project connected to the GitHub repository (Cloudflare's Git integration; read access to the public repository),
+   with the build command and output directory main supplies (no token is stored in the repository).
+3. In Zero Trust → Access: an application for the host name, with a policy listing the allowed emails.
+4. Tell main "go": the first deployment runs from Pages' Git integration. The owner checks the login, and the site
+   is then live behind it.
+
+## Alternatives, if Cloudflare is not wanted
+- A small server: nginx, HTTPS by Let's Encrypt, and oauth2-proxy (GitHub or Google sign-in). This means more upkeep.
+- Netlify or Vercel password protection (paid plans): a shared password, weaker than per-person sign-in.
+- GitHub Pages cannot put a login in front of a site.
+
+## Order
+1. Phase 1 lands on main: the desk builds from main's record, verified (2026-10-29, S262).
+2. The build command and output directory documented in docs/workdesk/README.md.
+3. The owner's steps.
+4. Go.
+
+## The owner's second ruling (2026-10-29): the panel's standard
+*"i think the dashboard should be sophisticated and have beautiful high end, latest tech visual styling and practices.
+look like a sophisticated well organized, structured and architectured admin panel."* Together with the owner's earlier
+constraint (2026-10-28: "it all should be scientific representations, not for entertaining approach or purposes").
+
+**Architecture**
+- **Data:** phase 1's extractor and index (the SM seat's build_index.py, adapted to main) give typed JSON at every push.
+  Each record carries its provenance: path, line and commit.
+- **The app:** a single-page admin panel built as static files, with a component design system, light and dark themes
+  under the system setting, a sidebar navigation, and a command palette for search.
+  - Dense tables that sort, filter and pin columns.
+  - Graphs drawn for reading: a dependency cone per arc rather than one hairball, and matrices where they beat node-link
+    drawings.
+  - Charts with axes, units and the source run named.
+  - Every value links to its source line at its commit.
+- **Views:**
+  1. **Overview:** counts against stated end conditions, the scoreboard, the latest landing.
+  2. **Arcs:** verdict, scope, depends_on, the cone.
+  3. **The point register as a board,** by disposition and queue slot.
+  4. **Ledgers:** harvest, relay, identification, looks and seals, retractions.
+  5. **The kill graph.**
+  6. **Theorems and laws.**
+  7. **Seats:** pins, debt, branches.
+  8. **The final attack's tracker:** the steps, seals and looks.
+  9. **The mathematical figures,** each regenerated by a repository script, with its weave-or-thread label.
+- **Standards:**
+  - accessible contrast;
+  - keyboard navigation;
+  - no decorative motion;
+  - tabular figures;
+  - semantic status colours (PROVED, NEGATIVE, OPEN, RETRACTED; FORCED, ADMITTED, CHOSEN, FITTED) kept apart from the
+    accent;
+  - a fast first paint from pre-built JSON.
+- **The stack, proposed:** TypeScript with a modern component framework and a utility-CSS design system, built to static
+  files by a bundler; a graph library for the cones; a charting library for the series. The packages come from the public
+  npm registry at pinned versions, with the lockfile committed.

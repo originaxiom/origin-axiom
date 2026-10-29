@@ -159,3 +159,5 @@ frontier/B1792_the_offset_recurrence_at_order_60/verification/referee/*.npy
 # B1786's sealed census is 126 MB raw, over the host's per-file limit: it is committed as census.jsonl.gz (gzip -n -9)
 # with the raw file's sha256 in census.jsonl.sha256; `gunzip -k census.jsonl.gz` restores the census.jsonl its sealed
 # compare.py reads by name (the raw file stays ignored by *.jsonl)
+# the workdesk's generated page is built on demand and at deploy, never committed (P-420, D1)
+docs/workdesk/the_ledger_desk.html
