@@ -13,6 +13,11 @@ from a clean checkout of HEAD:
   edges      depends_on, supersedes and superseded_by from the verdict files, and main's rests_on_seat and cites_seat
              (to sm: ids). A bare id resolves within the citing arc's seat, then at main, then at the other seat; each
              edge says which, or that its target is a directory without a verdict file, or on neither branch.
+  relays     each branch's docs/RELAY_LEDGER.md, one row per relay file (the last row for a file wins, as in the
+             relay-debt gate, and rows_for_file counts its rows): the first file the row names, its disposition (first
+             word), date, age in days at that branch's commit, whether the note carries ESCALATED, and from/to read
+             from the file's name where it follows the SEAT_TO_SEAT_date pattern; and whether the relay-debt gate's
+             own row pattern matches the row (a row it does not match is one the gate cannot age or escalate).
   cells      W rule priors joined to one-run outcomes (extract_desk_data.py).
   lifecycle  W arc steps read from this branch's commit subjects ("W176's rule", "W176's script", "W176's output",
              "W176's post hoc script", "W176's post hoc output", "W176 recorded"), each with its commit and position.
@@ -39,7 +44,7 @@ REPO = HERE.parents[1]
 sys.path.insert(0, str(HERE))
 import extract_desk_data as X  # noqa: E402  (W rows, priors, outcomes, the tower plates)
 
-SCHEMA = 2
+SCHEMA = 3
 REFS = {"sm": "HEAD", "main": "origin/main"}
 WEAVE_START = "2026-10-07"
 MAIN_LABEL_FROM = 1491  # main carries weave_or_thread on every verdict file from B1491 on (its test for B1600)
@@ -212,6 +217,48 @@ def cells():
             for (rule, c), (pr, _pred, src) in sorted(p.items()) if (rule, c) in o]
 
 
+LEDGER_DATE = re.compile(r"[0-9]{4}-[0-9]{2}-[0-9]{2}")
+# the relay-debt gate's own row pattern (scripts/checks/relay_debt.py), copied: a row it does not match is a row the
+# gate cannot age or escalate
+GATE_ROW = re.compile(r"^\|\s*`?(?P<name>[A-Za-z0-9_.\-]+\.md)`?\s*\|\s*(?P<disp>BANKED|DECLINED|OPEN)\s*\|"
+                      r"\s*(?P<date>[0-9]{4}-[0-9]{2}-[0-9]{2}|—|-)\s*\|\s*(?P<note>[^|]*)\|")
+DIRECTION = re.compile(r"^(?P<frm>[A-Z0-9]+(?:_[A-Z0-9]+)*?)_TO_(?P<to>[A-Z0-9_]+?)_\d{4}-\d{2}-\d{2}")
+
+
+def relays(commits):
+    """each branch's relay ledger, row by row; ages are counted to that branch's commit date, so a build is fixed by
+    its commits"""
+    import collections
+    import datetime
+    rows = {}
+    for seat, ref in REFS.items():
+        day = datetime.date.fromisoformat(git("show", "-s", "--format=%cs", commits[seat]).decode().strip())
+        text = git("show", f"{ref}:docs/RELAY_LEDGER.md").decode()
+        seen = collections.Counter()
+        for line in text.splitlines():
+            if not line.startswith("| `"):
+                continue
+            cells = [c.strip() for c in line.strip().strip("|").split("|")]
+            if len(cells) < 4:
+                continue
+            name = re.match(r"`([^`]+)`", cells[0]).group(1)
+            disp = (cells[1].split() or ["?"])[0].strip("*,;")
+            when = LEDGER_DATE.search(cells[2])
+            date = when.group(0) if when else None
+            note = "|".join(cells[3:])
+            d = DIRECTION.match(name)
+            seen[name] += 1
+            rows[f"{seat}:{name}"] = {"key": f"{seat}:{name}", "seat": seat, "file": name, "row": cells[0][:160],
+                         "rows_for_file": seen[name],
+                         "gate_sees": bool(GATE_ROW.match(line)),
+                         "disposition": disp, "date": date,
+                         "age_days": (day - datetime.date.fromisoformat(date)).days if date else None,
+                         "escalated": "ESCALATED(" in note,
+                         "frm": d.group("frm") if d else None, "to": d.group("to") if d else None,
+                         "note": note[:240]}
+    return sorted(rows.values(), key=lambda r: r["key"])
+
+
 def build():
     rows, commits = b_arcs()
     w = w_rows(commits["sm"])
@@ -219,7 +266,8 @@ def build():
     rows += w
     rows.sort(key=lambda r: (r["seat"], r["kind"], int(re.sub(r"\D", "", r["id"]) or 0), r["id"]))
     steps, flags = lifecycle()
-    return {"arcs": rows, "edges": edges, "cells": cells(), "lifecycle": steps, "flags": flags}, commits
+    return {"arcs": rows, "edges": edges, "cells": cells(), "lifecycle": steps, "flags": flags,
+            "relays": relays(commits)}, commits
 
 
 def digest(obj):
@@ -252,6 +300,50 @@ def write(tables, commits, out, deterministic):
     return manifest
 
 
+def dependency_cycles(n, dep, nodes):
+    """the strongly connected components with more than one arc (Tarjan, iterative): arcs that rest on each other"""
+    adj = [[] for _ in range(n)]
+    for s_, d_ in dep:
+        adj[s_].append(d_)
+    index, low, stack, on, out, count = {}, {}, [], set(), [], 0
+    for root in range(n):
+        if root in index:
+            continue
+        work = [(root, 0)]
+        index[root] = low[root] = count
+        count += 1
+        stack.append(root)
+        on.add(root)
+        while work:
+            v, i = work[-1]
+            if i < len(adj[v]):
+                work[-1] = (v, i + 1)
+                w = adj[v][i]
+                if w not in index:
+                    index[w] = low[w] = count
+                    count += 1
+                    stack.append(w)
+                    on.add(w)
+                    work.append((w, 0))
+                elif w in on:
+                    low[v] = min(low[v], index[w])
+                continue
+            work.pop()
+            if work:
+                low[work[-1][0]] = min(low[work[-1][0]], low[v])
+            if low[v] == index[v]:
+                comp = []
+                while True:
+                    w = stack.pop()
+                    on.discard(w)
+                    comp.append(w)
+                    if w == v:
+                        break
+                if len(comp) > 1:
+                    out.append(sorted(nodes[x][0] for x in comp))
+    return sorted(out)
+
+
 def page_data(tables, manifest):
     """the compact slice the prototype page embeds as DESK.index"""
     import collections
@@ -267,8 +359,44 @@ def page_data(tables, manifest):
     labels = [[s, k, e, cover[(s, k, e, True)], cover[(s, k, e, True)] + cover[(s, k, e, False)]]
               for s, k, e in sorted({key[:3] for key in cover})]
     w_labels = {a["id"]: [a["scope"], a["label"], a["label_source"]] for a in tables["arcs"] if a["kind"] == "W"}
+    # the board: what is open on each seat, and which relays wait
+    tag = {a["key"]: (a["scope"] or ("before the rule" if a["era"] == "before the rule" else "unlabelled"))
+           for a in tables["arcs"]}
+    open_arcs = [[a["key"], tag[a["key"]], a["claim"][:140], a["source"]] for a in tables["arcs"]
+                 if (a["verdict"] or "").upper() == "OPEN"]
+    by_label = collections.Counter((a["seat"], a["kind"], (a["verdict"] or "none").upper(), tag[a["key"]])
+                                   for a in tables["arcs"])
+    waiting = [[r["seat"], r["file"], r["date"], r["age_days"], r["escalated"], r["frm"], r["to"], r["note"][:160],
+                r["gate_sees"]] for r in tables["relays"] if r["disposition"] == "OPEN"]
+    dispositions = collections.Counter((r["seat"], r["disposition"]) for r in tables["relays"])
+    # the atlas: every arc and every dependency (depends_on, rests_on_seat); the cones are drawn in the page
+    keys = [a["key"] for a in tables["arcs"]]
+    at = {k: i for i, k in enumerate(keys)}
+    nodes = [[a["key"], (a["verdict"] or "none").upper(), tag[a["key"]], a["claim"][:110]] for a in tables["arcs"]]
+    ghosts = sorted({e["dst"] for e in tables["edges"] if e["dst"] not in at})
+    for g in ghosts:
+        at[g] = len(nodes)
+        nodes.append([g, "NOT FOUND", "", ""])
+    dep = [[at[e["src"]], at[e["dst"]]] for e in tables["edges"] if e["kind"] in ("depends_on", "rests_on_seat")]
+    down = collections.defaultdict(set)
+    for s_, d_ in dep:
+        down[d_].add(s_)
+
+    def cone(i):
+        seen, todo = set(), [i]
+        while todo:
+            for j in down[todo.pop()]:
+                if j not in seen:
+                    seen.add(j)
+                    todo.append(j)
+        return seen
+    load = sorted(((len(cone(i)), nodes[i][0]) for i in range(len(nodes))), key=lambda t: (-t[0], t[1]))[:12]
+    cycles = dependency_cycles(len(nodes), dep, nodes)
     return {"manifest": manifest, "counts": sorted([list(k) + [v] for k, v in counts.items()]), "labels": labels,
             "w_labels": w_labels,
+            "board": {"open": open_arcs, "by_label": sorted([list(k) + [v] for k, v in by_label.items()]),
+                      "waiting": waiting, "dispositions": sorted([list(k) + [v] for k, v in dispositions.items()])},
+            "atlas": {"nodes": nodes, "dep": dep, "load": [[k, n] for n, k in load], "cycles": cycles},
             "resolved": sorted(how.items(), key=lambda kv: -kv[1]), "cross": cross, "audit": audit, "life": life,
             "flags": tables["flags"]}
 
