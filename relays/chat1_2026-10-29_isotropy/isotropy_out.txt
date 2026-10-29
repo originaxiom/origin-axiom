@@ -1,0 +1,43 @@
+THE ISOTROPY CONTROL AND THE ARENA'S METRIC: the checks of THE_ISOTROPY_RULE.md (sealed 3a4daeaa5)
+
+I1 I (identity)                             M = [[1, 0], [0, 1]], tr +2, order 1: Phi^1 = conj(g), g = []; Phi(g) = g: True
+I1 -I                                       M = [[-1, 0], [0, -1]], tr -2, order 2: Phi^2 = conj(g), g = []; Phi(g) = g: True
+I1 order 6 (LR^-1, trace 1, the trefoil)    M = [[0, 1], [-1, 1]], tr +1, order 6: Phi^6 = conj(g), g = [2, 1, -2, -1]; Phi(g) = g: True
+I1 order 6, inverse (RL^-1)                 M = [[1, -1], [1, 0]], tr +1, order 6: Phi^6 = conj(g), g = [1, 2, -1, -2]; Phi(g) = g: True
+I1 order 4 (LR^-1L, trace 0)                M = [[0, 1], [-1, 0]], tr +0, order 4: Phi^4 = conj(g), g = [2, 1, -2, -1]; Phi(g) = g: True
+I1 order 4, inverse (L^-1RL^-1)             M = [[0, -1], [1, 0]], tr +0, order 4: Phi^4 = conj(g), g = [1, 2, -1, -2]; Phi(g) = g: True
+I1 order 3 ((LR^-1)^2, trace -1)            M = [[-1, 1], [-1, 0]], tr -1, order 3: Phi^3 = conj(g), g = [2, 1, -2, -1]; Phi(g) = g: True
+I1 order 3, inverse ((RL^-1)^2)             M = [[0, -1], [1, -1]], tr -1, order 3: Phi^3 = conj(g), g = [1, 2, -1, -2]; Phi(g) = g: True
+I1 -> True
+
+I2 L^1     M = [[1, 1], [0, 1]], tr +2: Phi^1(a) = a; Phi(c) = w c w^-1 with w = (); certificate: S_4, |psi(P)| = 2, psi(a) of type (2, 2)
+I2 L^-1    M = [[1, -1], [0, 1]], tr +2: Phi^1(a) = a; Phi(c) = w c w^-1 with w = (); certificate: S_4, |psi(P)| = 2, psi(a) of type (2, 2)
+I2 -L^1    M = [[-1, -1], [0, -1]], tr -2: Phi^2(a) = a; Phi(c) = w c w^-1 with w = [-2, -1]; certificate: S_4, |psi(P)| = 2, psi(a) of type (2, 2)
+I2 -L^-1   M = [[-1, 1], [0, -1]], tr -2: Phi^2(a) = a; Phi(c) = w c w^-1 with w = [-2, -1]; certificate: S_4, |psi(P)| = 2, psi(a) of type (2, 2)
+I2 L^2     M = [[1, 2], [0, 1]], tr +2: Phi^1(a) = a; Phi(c) = w c w^-1 with w = (); certificate: S_2, |psi(P)| = 1, psi(a) of type (2,)
+I2 L^-2    M = [[1, -2], [0, 1]], tr +2: Phi^1(a) = a; Phi(c) = w c w^-1 with w = (); certificate: S_2, |psi(P)| = 1, psi(a) of type (2,)
+I2 -L^2    M = [[-1, -2], [0, -1]], tr -2: Phi^2(a) = a; Phi(c) = w c w^-1 with w = [-2, -1]; certificate: S_2, |psi(P)| = 1, psi(a) of type (2,)
+I2 -L^-2   M = [[-1, 2], [0, -1]], tr -2: Phi^2(a) = a; Phi(c) = w c w^-1 with w = [-2, -1]; certificate: S_2, |psi(P)| = 1, psi(a) of type (2,)
+I2 L^3     M = [[1, 3], [0, 1]], tr +2: Phi^1(a) = a; Phi(c) = w c w^-1 with w = (); certificate: S_3, |psi(P)| = 1, psi(a) of type (3,)
+I2 L^-3    M = [[1, -3], [0, 1]], tr +2: Phi^1(a) = a; Phi(c) = w c w^-1 with w = (); certificate: S_3, |psi(P)| = 1, psi(a) of type (3,)
+I2 -L^3    M = [[-1, -3], [0, -1]], tr -2: Phi^2(a) = a; Phi(c) = w c w^-1 with w = [-2, -1]; certificate: S_3, |psi(P)| = 2, psi(a) of type (3,)
+I2 -L^-3   M = [[-1, 3], [0, -1]], tr -2: Phi^2(a) = a; Phi(c) = w c w^-1 with w = [-2, -1]; certificate: S_3, |psi(P)| = 2, psi(a) of type (3,)
+I2 L^4     M = [[1, 4], [0, 1]], tr +2: Phi^1(a) = a; Phi(c) = w c w^-1 with w = (); certificate: S_2, |psi(P)| = 1, psi(a) of type (2,)
+I2 L^-4    M = [[1, -4], [0, 1]], tr +2: Phi^1(a) = a; Phi(c) = w c w^-1 with w = (); certificate: S_2, |psi(P)| = 1, psi(a) of type (2,)
+I2 -L^4    M = [[-1, -4], [0, -1]], tr -2: Phi^2(a) = a; Phi(c) = w c w^-1 with w = [-2, -1]; certificate: S_2, |psi(P)| = 1, psi(a) of type (2,)
+I2 -L^-4   M = [[-1, 4], [0, -1]], tr -2: Phi^2(a) = a; Phi(c) = w c w^-1 with w = [-2, -1]; certificate: S_2, |psi(P)| = 1, psi(a) of type (2,)
+I2a -> True; I2b -> True (16 of 16 classes certified)
+
+I3 LR = [[2, 1], [1, 1]], trace 3, char. poly (1, [(x**2 - 3*x + 1, 1)]), discriminant 5 (not a square), LR^n != I for n <= 1000: True  -> True
+
+I4 hyperbolic sector: 854 of 854 orientable states (word length 2-11, both signs) positively oriented; others: []
+   excluded classes through twister: {'order 6': 'contains degenerate tetrahedra', 'order 6, inverse': 'contains degenerate tetrahedra', 'order 4': 'contains flat tetrahedra', 'order 4, inverse': 'contains degenerate tetrahedra', 'order 3': 'contains flat tetrahedra', 'order 3, inverse': 'contains flat tetrahedra', '-I': 'contains degenerate tetrahedra', 'L^1': 'contains degenerate tetrahedra', 'L^-1': 'contains degenerate tetrahedra', '-L^1': 'contains degenerate tetrahedra', '-L^-1': 'contains degenerate tetrahedra', 'L^2': 'contains degenerate tetrahedra', 'L^-2': 'contains degenerate tetrahedra', '-L^2': 'contains degenerate tetrahedra', '-L^-2': 'contains degenerate tetrahedra', 'L^3': 'contains degenerate tetrahedra', 'L^-3': 'contains degenerate tetrahedra', '-L^3': 'contains degenerate tetrahedra', '-L^-3': 'contains degenerate tetrahedra', 'L^4': 'contains degenerate tetrahedra', 'L^-4': 'contains degenerate tetrahedra', '-L^4': 'contains degenerate tetrahedra', '-L^-4': 'contains degenerate tetrahedra'}
+   excluded classes with a positively oriented solution: []  -> True
+
+I5 SL(2, Z) with entries in [-6, 6]: {'elliptic': 50, 'parabolic': 104, 'hyperbolic': 216, '+-I': 2}; exceptions: []  -> True
+
+I6 -det on sl(2, R) = Killing/8: True; signature (pos, neg) = (2, 1); invariant under left and right multiplication by det-1 matrices: True
+   -det on the generators: {'H (geodesic flow)': '1', 'E (horocycle)': '0', 'F (horocycle)': '0', 'E - F (fibre)': '-1'} (positive: spacelike; 0: null; negative: timelike)
+   exp(pi (E - F)) = -I: True; exp(tH/2).i = I*exp(t) (the geodesic); exp(sE).i = s + I (the horocycle); exp(theta (E-F)/2).i = I (the fibre fixes the point)  -> True
+
+CELLS: I1 holds, I2a holds, I2b holds, I3 holds, I4 holds, I5 holds, I6 holds
