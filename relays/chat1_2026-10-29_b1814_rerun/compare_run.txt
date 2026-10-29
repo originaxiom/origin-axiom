@@ -1,0 +1,13 @@
+D1_the_unforced_world_typical_under_the_geometric_clock True
+D1h_by_hand_typical_under_the_geometric_clock True
+D2_the_clock_depths_typical_under_A1_not_A0 False
+C1_census_controls True
+C2_control_chi2_reproduces_B1735 True
+A0|unforced    six p_nn 0.0169 p_F 0.0538 d 11.0 (q95 6.9) | nine p_nn 0.0172 p_F 0.0978
+A0|hand        six p_nn 0.0316 p_F 0.0671 d 6.2 (q95 5.0) | nine p_nn 0.0019 p_F 0.0615
+A1|unforced    six p_nn 0.1271 p_F 0.4246 d 7.9 (q95 13.4) | nine p_nn 0.0794 p_F 0.5728
+A1|hand        six p_nn 0.0795 p_F 0.4017 d 7.0 (q95 8.7) | nine p_nn 0.0020 p_F 0.3262
+N|unforced     six p_nn 0.0002 p_F 0.0002 d 46.1 (q95 2.7) | nine p_nn 0.0002 p_F 0.0002
+specificity r: {'D1': 0.7128625, 'D1h': 0.1172375, 'D1h_free': 0.6142, 'D2': 0.7446999999999999, 'D2 A1 leg': 1.0, 'D2 A0 leg typical': 0.25529999999999997}
+power: {'A1 draws atypical under A0': {'p_nn <= 0.05': 0.197, 'p_F <= 0.05': 0.192}, 'A0 draws atypical under A1': {'p_nn <= 0.05': 0.004, 'p_F <= 0.05': 0.031}, 'N draws atypical under A1': {'p_nn <= 0.05': 0.0, 'p_F <= 0.05': 0.148}, 'N draws atypical under A0': {'p_nn <= 0.05': 0.001, 'p_F <= 0.05': 0.047}}
+calibration: {'A0|unforced': {'held-out at p_nn <= 0.05': 0.048, 'at p_F <= 0.05': 0.048}, 'A1|unforced': {'held-out at p_nn <= 0.05': 0.044, 'at p_F <= 0.05': 0.03}, 'A1|hand': {'held-out at p_nn <= 0.05': 0.04, 'at p_F <= 0.05': 0.036}}
