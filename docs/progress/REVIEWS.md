@@ -7655,3 +7655,5 @@ Nothing in the window meets the § 5 bars. No arc is PASSED, and no input is rem
 - [>] R72-5: main's plan's next steps P-394, P-397, P-398, or their retirement if the owner takes reading 2 (carried from R71-10; owner: cc)
 - [ ] R72-6: the cells registered by this review (P-426–P-430) worked in the queue's order (owner: cc)
 - [ ] R72-7: P-417's remaining steps (classification, banners, surfaces, the retraction grep) and P-421 (name the end) (owner: cc)
+
+**anchor-commit: `5e439a0ce`**

@@ -3984,6 +3984,42 @@ removes an input.**
 - **Next:** P-399, the offset recurrence at order 60 (sealed by main); P-397's one-leg design; the SM seat's Higgs-slot
   answer. **0 of 19.**
 
+## ⟳ VIEW REFRESH — 2026-10-29 (Review 72)
+
+Touched at the Review 72 anchor (`5e439a0ce`). **The window (B1793–B1805; S230–S243) turned from fitting to asking why nothing is
+derived, and tested the answers.**
+
+- **The diagnosis** (THE_PATTERN_MEDITATION_3, at the owner's ask).
+  - On the record's own counts no continuous value has been derived, and 90% of the physics positives are discrete.
+  - The frames add moduli the object does not fix, so they can fit and cannot derive.
+  - The SM seat (THE RIDDLE, W172–W176) and the web seat reached the same diagnosis independently. Everything the
+    principle forces is mirror-symmetric, and every continuous value rides on the height of τ, which nothing holds.
+- **The rigid route** (m004's fillings as the 3-cycle of a G₂ compactification):
+  - B1801: the order-3 torsion is 4/3; it fixes no coupling.
+  - B1802: the fillings carry Witten's doublet–triplet topology.
+  - B1803: their symmetry group fixes four points, and Witten's first model needs 4–7 fields to coincide there.
+- **The owner's towers question** (docs/THE_TOWERS.md): the Standard Model as the meeting of SU(5), SO(10) and E₆, each
+  supplying what the others lack. It is new to the record. Its first test (B1805) fails in Witten's frame: SO(10)'s centre
+  is matter parity, but it does not reach the Standard Model, and the doublet–triplet mechanism dies.
+- **Selection by inversion** (B1804): fluxes invariant under the monodromy force only curves, or CM points chosen by free
+  integers.
+- **Honest narrowings:**
+  - the record's best six-fits used an approximation off by a third at their horoball (the web seat; reproduced on
+    main);
+  - three of main's arcs claimed more than they tested (the web seat's audit; verified on main);
+  - one control could not fail;
+  - two of main's own overstatements withdrawn before landing.
+- **Also:**
+  - P-277 closed: the frame's own potential breaks CP spontaneously at fixed height, but holds no height;
+  - the first document gate (doc-facts) at the owner's question;
+  - the workdesk research (P-420), with the seats asked for their proposals.
+- **Waiting on the owner:**
+  - P-406 or a selection principle;
+  - P-407 (the style rules);
+  - P-417's rule;
+  - the workdesk's go.
+- **0 of 19.**
+
 ## ⟳ VIEW REFRESH — 2026-10-28 (Review 71)
 
 Touched at the Review 71 anchor (`3e57c3e8d`). **The window (B1755–B1792; 21 commits) ran main's own plan.** It took the

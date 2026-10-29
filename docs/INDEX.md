@@ -1,6 +1,6 @@
 # The document map — what is living, what is reference, what is history
 
-*Currency: 2026-09-09 (Review 56). **Re-stamp this line at every decadal review** — a
+*Currency: 2026-10-29 (Review 72); before it 2026-09-09 (Review 56), not re-stamped by Reviews 57–71 (P-417). **Re-stamp this line at every decadal review** — a
 router that does not carry its own date is how this file went five weeks stale while
 looking authoritative. (Nothing in this repo is deleted — records are the credibility
 model, GOVERNANCE §1/§9; this map says what to read for the current state.)*
@@ -9,7 +9,7 @@ model, GOVERNANCE §1/§9; this map says what to read for the current state.)*
 
 | if you are about to… | read FIRST |
 |---|---|
-| **anything at all, first session** | `docs/THE_END_TO_END_CHAIN.md` **PART VIII** (the whole chain in one paragraph) |
+| **anything at all, first session** | `GENESIS.md` (the foundation document since 2026-10-02: A = LR, the forks; amended only by `adoption/amend.py`), then `docs/CAMPAIGN_STATUS.md` (its LATEST entries: the current state) and `docs/THE_PATTERN_MEDITATION_3.md` (why no value has been derived); the older entry, `docs/THE_END_TO_END_CHAIN.md` **PART VIII** (the whole chain in one paragraph), is kept |
 | **question the framework's foundations** | `philosophy/P000_what_is_not_nothing.md` — **the framework does NOT start from a 3-manifold; m004 is DERIVED at C6** |
 | **ask "is this novel / is this ours?"** | `THE_END_TO_END_CHAIN.md` **PART 0** (+ §0.1's corrected attribution) — the claim is a COST claim (ZERO dials · THREE priced axioms · TWO undetermined), not a priority claim; `docs/NOVELTY_SWEEP_LEDGER.md` for what is already known outside |
 | **call something a choice / say "E₆ is chosen"** | `THE_END_TO_END_CHAIN.md` **PART 0.5** — the forcedness census: 39 of 43 links forced, the stretch C6→C17 axiom-free, **E₆ handed over at the object's hyperbolic ℚ(√−3) end** (2T→E₆, McKay; B981/B248 — the "level 15 factors" CRT reading withdrawn, cc3 1a0b5a90); gate `scripts/checks/forcedness_census.py` (B1123) |
@@ -31,6 +31,11 @@ model, GOVERNANCE §1/§9; this map says what to read for the current state.)*
 | `GOVERNANCE.md` · `WORKING_RULES.md` | the constitution, and the working rules (**Gate 5 lives in §6**) |
 | `docs/OPEN_LEADS.md` · `docs/OPEN_PROBLEMS.md` | the live frontier |
 | `docs/progress/REVIEWS.md` | the decadal-review ledger |
+| `GENESIS.md` | **the foundation document** (since 2026-10-02): the principle, its forks and their status; cite its IDs |
+| `docs/POINT_REGISTER.md` | every point raised, one disposition each, the queue worked in order (since 2026-10-13) |
+| `docs/THE_WEAVE.md` | the weave of threads and field, the owner's rule (2026-10-07): never freeze it |
+| `docs/THE_PATTERN_MEDITATION_3.md` | why no continuous value has been derived (2026-10-28), and the two readings left |
+| `docs/THE_TOWERS.md` | the owner's towers question (2026-10-28): the gauge chain's meeting places, probed in order |
 | `CHANGELOG.md` · `PROGRESS_LOG.md` | recent history · append-only working log |
 
 ## The registers (permanent, load-bearing — consult by question, not by browsing)
