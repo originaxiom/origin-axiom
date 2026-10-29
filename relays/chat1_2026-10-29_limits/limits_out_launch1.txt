@@ -1,0 +1,7 @@
+B1813's LIMITS AT SOURCE — one run of the sealed rule (792562983)
+
+(a)  E r = 1.584514 +- 0.000533;  E r / 2 = 0.792257 (B1813: 0.7924; Kesseboehmer-Stratmann: chi ~ 0.792)  L1: True
+(b)  T0(1.5), T0(2), T0(3) = [0.382911 0.167646 0.03463 ] +- [1.14e-04 5.00e-05 1.00e-05]; B1813 (0.3829, 0.1676, 0.03462); z [0.09 0.93 0.92]  L2: True
+(c)  Y0 = 8: C_Y(theta) mean 3.91231, range 0.08697 (2.223% of mean; 407.0 SE of the paired difference), max at theta 0.775, min at theta 0.200; C_Y(0) = 3.90191
+     C_Y on theta (every 4th): 0.000:3.9019, 0.100:3.8813, 0.200:3.8715, 0.300:3.8800, 0.400:3.8920, 0.500:3.9111, 0.600:3.9339, 0.700:3.9538, 0.800:3.9566, 0.900:3.9395
+(c)  Y0 = 15: C_Y(theta) mean 3.93081, range 0.08602 (2.188% of mean; 402.4 SE of the paired difference), max at theta 0.775, min at theta 0.200; C_Y(0) = 3.92122

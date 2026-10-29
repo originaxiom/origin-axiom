@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "relays/chat1_2026-10-29_limits/limits.py", line 134, in <module>
+    main()
+    ~~~~^^
+  File "relays/chat1_2026-10-29_limits/limits.py", line 100, in main
+    print("     L3 (range > 0.2% of the mean, beyond 3 SE): %s" % L3)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+TypeError: not enough arguments for format string
