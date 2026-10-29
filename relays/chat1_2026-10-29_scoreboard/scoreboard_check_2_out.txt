@@ -1,0 +1,92 @@
+K1   PASS  58 citations, missing: none
+K2   PASS  lines: the test's 10 lines are (2/5, k/10), all among B1713's 266
+K2   PASS  grid: 8 Re tau (0.0625-0.9375) x 16 Im tau (2.0-3.5) x 10 lines = 1280 points
+K2   PASS  the best row 0.5625 + 2.6i on (2/5, 1/10) is a grid point
+K2   PASS  the menu from its rule: of 10 members (a = 2 mod 4, r = 2a mod 24 in {4, 12, 20}), r in [12, 20] and eps = +1 (a = 6 mod 8) leave [-2, 6, 22]; the test's MENU is [-2, 6, 22]
+K2   PASS  assignments: 27 in all; the 9 with down = leptons are the test's PAIRS
+K2   PASS  line: options open (entry open), searched 266 (entry 266)
+K2   PASS  higgs_assignment: options 27 (entry 27), searched 9 (entry 9)
+K2   PASS  reading: options 8 (entry 8), searched 4 (entry 4)
+K2   PASS  c: options open (entry open), searched 9 (entry 9)
+K2   PASS  horocycle: options 2 (entry 2), searched 2 (entry 2)
+K2   PASS  end_scale: options 2 (entry 2), searched None (entry None)
+K2   PASS  weight: options open (entry open), searched None (entry None)
+K2   PASS  the line: 10 searched in the test
+K3   PASS  B1742: 'best six-row (F₆ ∣ F₂₂, 0.5625 + 2.6i, (2/5, 1/10), L₂)'
+K3   PASS  B1742: '| χ²_six (σ² = rel² + 0.10², B1720's) | 1.19 | 1.1884 |'
+K3   PASS  B1742: '| rows below 16.75 | 14, all F₆ ∣ F₂₂, Im τ 2.6, L₂'
+K3   PASS  B1742: 'χ²_six 1.04–3.43'
+K3   PASS  B1742: 'the pair is chosen by the data out of six'
+K3   PASS  B1742: 'F₂₂'s QI component is θ₂²²/θ₃²² ≈ 10⁻¹³'
+K3   PASS  B1742: '| with c = 1 at that row | worst six 3.20 | 3.198 |'
+K3   PASS  B1742: '| the full grid (15 360 off-diagonal rows): min χ²_six; min χ²_nine | 1.19; 154.1 | 1.1884; 154.'
+K3   PASS  B1809: 'outside H-cov's proofs'
+K3   PASS  B1750: 'free (set by hand)'
+K3   PASS  B1740 census.py: 'L read at Im tau from its Re tau = 1/4 column'
+K3   PASS  P-355: 'excludes at 14σ'
+K3   PASS  P-351: 'A READING (the pair chosen by the data'
+K3   PASS  P-365: 'the comparison at M_Z is a choice'
+K3   PASS  TWO_HIGGS_RULE: 'This restriction is a choice made after those results'
+K3   PASS  TWO_HIGGS_RULE: 'both read S (holomorphic)'
+K3   PASS  TWO_HIGGS_RULE: 'H_u for the up quarks and H_d for the down quarks and the leptons'
+K3   PASS  TWO_HIGGS_RESULT: 'With c = 1 the six is 3.20: the hand-set factor is essential.'
+K3   PASS  TWO_HIGGS_RESULT: 'PF1-W is a reading; holomorphy applies to the Higgs factor only.'
+K3   PASS  TWO_HIGGS_RESULT: 'the menu (fixed after the zero-free census)'
+K3   PASS  TWO_HIGGS_RESULT: 'the two-doublet idea itself, which came from the framing read-outs'
+K3   PASS  TWO_HIGGS_RESULT: '0.15% of random four-target sets'
+K3   PASS  TWO_HIGGS_RESULT: 'The two lepton ratios miss by 230σ and 54σ'
+K3   PASS  TWO_HIGGS_RESULT: '"If S stands for the Higgs doublet" is a reading'
+K3   PASS  TWO_HIGGS_RESULT: 'χ²_six at this row is 5.8'
+K3   PASS  TWO_HIGGS_RESULT: 'at 2 × 10¹⁶ GeV in the SM m_c/m_t moves to 4.8σ'
+K3   PASS  TWO_HIGGS_RESULT: 'every pair with F_−2 misses (25–167)'
+K3   PASS  ZERO_FREE_FRAME_EXPLORATION: 'With one unit of end data the members are a = −10, 2, 14, 26 (r = 4); −6, 6, 18 (r = 12); and −2'
+K3   PASS  ZERO_FREE_FRAME_EXPLORATION: 'W127 counts three generations at r = 12 and 20'
+K3   PASS  ZERO_FREE_FRAME_EXPLORATION: 'that leaves F_6, F_−2 and F_22, and F_−2 fails'
+K3   PASS  ZERO_FREE_FRAME_EXPLORATION: 'a ≡ 2 (mod 4), ε = i^{(a+2)/2} and r ≡ 2a (mod 24)'
+K3   PASS  THE EXACT END: 'at L₂ the exact norms of the frame's twisted kernels agree with 2πL₂ + c_s to 0.6%'
+K3   PASS  route_b_scan.py: 'return v[0] * B.QI + v[1] * B.QJ + v[2] * B.QK'
+K3   PASS  B1753: '10.75 (1.6σ) at the χ²-best row'
+K3   PASS  B1753: '10.48–11.32 over the rows below the bar'
+K3   PASS  B1753: 'nine fail (χ²_nine 183'
+K3   PASS  B1726: '35–38% below it, and with them the six fail near the four families' rows'
+K3   PASS  B1730: 'IS ZERO-FREE ONLY IF r ≡ 4 MOD 8'
+K3   PASS  B1790: 'the MSSM's H_u, H_d'
+K3   PASS  P-094: '10.58 ± 0.11'
+K3   PASS  P-377: 'reaches χ²_nine 47 at best'
+K3   PASS  P-421: 'or the scale is an input'
+K3   PASS  TWO_HIGGS_RULE: 'the readings S, S̃ and the two mixed ones'
+K3   PASS  TWO_HIGGS_RESULT: 'depends on tan β'
+K3   PASS  ZERO_FREE_FRAME_EXPLORATION: 'only the ε = +1 lines with a ≥ 6 reach'
+K3   PASS  ZERO_FREE_FRAME_EXPLORATION: 'Main's frame is outside PF1-W as written'
+K3   PASS  ZERO_FREE_FRAME_EXPLORATION: 'Where χ_η^r is absorbed (the fermions' twists or a counterterm) is not tested'
+K3   PASS  I-32: 'the weave's Higgs line as the electroweak Higgs'
+K3   PASS  I-33: 'T-NORM by hand, B1654'
+K4   PASS  I-31 UNEARNED; reduction quote found; arcs ['B1656'] cited
+K4   PASS  I-32 UNEARNED; reduction quote found; arcs ['B1653', 'B1656'] cited
+K4   PASS  I-23 UNEARNED; reduction quote found; arcs ['B919'] cited
+K4   PASS  I-33 UNEARNED; reduction quote found; arcs ['B1655', 'B1656'] cited
+K4   PASS  I-13 UNEARNED; reduction quote found; arcs ['B1231'] cited
+K4   PASS  I-34 UNEARNED; reduction quote found; arcs ['B1627', 'B1641'] cited
+K4   PASS  I-26 UNEARNED; reduction quote found; arcs ['B1253'] cited
+K4   PASS  union-find: 7 rows -> 3 sources (entry expects 3): [I-13] I-32, I-23, I-33, I-13; [I-26] I-34, I-26; [I-31] I-31
+K4   PASS  the ledger's 20 UNEARNED rows = 7 used + 1 not used + 12 not entered
+K5   PASS  every item chosen on the data has a search count and no item chosen by hand has one
+
+THE VECTOR — FR-FIB's two-Higgs branch on the six, at main 187855d48 and seat 27f4782fa
+  fitted continuous (2): Re tau = 0.5625, Im tau = 2.6
+  continuous, set by hand (2): the Higgs's scalar part h0 = 0, the comparison scale = M_Z
+  discrete (7; 5 chosen on the data, 2 by hand):
+    line              (2/5, 1/10)                              CHOSEN, on the data                                            options open  bits open  searched 266  bits 8.06 
+    higgs_assignment  up F_6; down and leptons F_22            CHOSEN, on the data (the pair among the nine with down = lepto options 27    bits 4.75  searched 9    bits 3.17 
+    reading           S in every sector                        CHOSEN, on the data (four readings seen); the rest of the menu options 8     bits 3.00  searched 4    bits 2.00 
+    c                 3                                        CHOSEN, on the data                                            options open  bits open  searched 9    bits 3.17 
+    horocycle         L_2                                      ADMITTED menu (B1667's two canonical radii); the pick CHOSEN,  options 2     bits 1.00  searched 2    bits 1.00 
+    end_scale         the small-cut norm 2 pi L + c_s at L = L CHOSEN, by hand                                                options 2     bits 1.00  searched -    bits -    
+    weight            3/2 (the zero-free weight-3/2 Higgs of r CHOSEN, by hand                                                options open  bits open  searched -    bits -    
+  bits (a heuristic, not a bound): 17.40 searched on the data, 6.39 set by hand; 23.79 in all
+  identifications: 7 rows -> 3 irreducible sources: [I-13] I-32, I-23, I-33, I-13; [I-26] I-34, I-26; [I-31] I-31; not used: I-35; not entered: 12
+  tagged hypotheses (listed, not counted): PF1-W, holomorphy, Lambda, the unit, GM5b
+  unpriced looks (searches with the data in view that no bits here price): 3
+  bought: 0 of 19
+
+RESULT: ALL CHECKS PASS
