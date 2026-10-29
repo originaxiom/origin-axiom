@@ -237,9 +237,18 @@ def main():
     T = draws()
     import os
     os.environ.setdefault("OPENBLAS_NUM_THREADS", "1")
-    with Pool(A.workers, initializer=_init, initargs=(str(MAIN),)) as P, open(OUT / "census.jsonl", "w") as f:
-        for r in P.imap(point, T, chunksize=8):
-            f.write(json.dumps(r) + "\n")
+    done, good = set(), []                                # resume: keep every whole row already written, redo the rest
+    if (OUT / "census.jsonl").exists():
+        for l in (OUT / "census.jsonl").read_text().splitlines():
+            try: r = json.loads(l)
+            except ValueError: continue
+            done.add((r["arm"], r["i"])); good.append(l)
+        (OUT / "census.jsonl").write_text("".join(x + "\n" for x in good))
+    todo = [t for t in T if (t["arm"], t["i"]) not in done]
+    print("draws:", len(T), "already written:", len(done), "to do:", len(todo), flush=True)
+    with Pool(A.workers, initializer=_init, initargs=(str(MAIN),)) as P, open(OUT / "census.jsonl", "a") as f:
+        for r in P.imap(point, todo, chunksize=8):
+            f.write(json.dumps(r) + "\n"); f.flush()
         c = controls(P)
     (OUT / "control.json").write_text(json.dumps(c, indent=1) + "\n")
     print("draws:", len(T), "| control:", json.dumps(c), flush=True)
