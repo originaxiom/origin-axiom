@@ -43,3 +43,4 @@ def test_the_first_record_of_the_register():
     assert by["W125"]["weave_or_thread"] == "thread" and by["W125"]["source"] == "status row"
     assert by["W1"]["source"] == "assigned" and by["W1"]["weave_or_thread"].startswith("weave")
     assert by["W93"]["weave_or_thread"].startswith("neither (a fibre-frame result at one τ")
+    assert by["W177"]["weave_or_thread"] == "neither (an instrument)"       # a parenthesised answer, not doubled

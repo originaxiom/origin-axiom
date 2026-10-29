@@ -5565,3 +5565,32 @@ def test_w176_the_class_by_the_dynamics():
     assert sorted(set(ph["P1"]) - set(fixed)) == ["3"]
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W176. The web seat's question 3 as the weave sees it" in note
+
+def test_w177_the_twisted_norms_closed():
+    """W177: N0, N1, N2 and N4 as predicted, N3 failed as worded on the rule's working precision; in process, the cusp
+    limit c-infinity recomputed from the digamma constant for all four classes on the grid, the theta_2 tie of N4 read
+    against pi^2 y - 2 pi ln 2 pi, N2's stored differences re-derived from its stored routes, and the post hoc read"""
+    import mpmath as mp
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_twisted_norms_closed.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"N0": True, "N1": True, "N2": True, "N3": False, "N4": True}
+    assert d["warnings"] == [] and d["dps"] == 40
+    n2, n3 = d["N2 two routes"], d["N3 the first correction"]
+    assert n2["points"] == 900 and n2["non-finite quadrature"] == 0 and n2["worst |series - quadrature|"] < 1e-12
+    assert n3["fail count"] == 80 and {r[4] for r in n3["rows"] if not r[-1]} == {24}
+    with mp.workdps(30):
+        for lp, stored in (("0.2", "4.4731975426"), ("0.3", "-0.338153765"), ("5/11", "-2.727274546"),
+                           ("1/22", "57.582948914")):
+            x = mp.mpf(lp) if "/" not in lp else mp.mpf(int(lp.split("/")[0])) / int(lp.split("/")[1])
+            cinf = -2 * mp.pi * mp.log(2 * mp.pi) - 2 * mp.pi * mp.euler - mp.pi * (mp.digamma(x) + mp.digamma(1 - x))
+            assert abs(cinf - mp.mpf(stored)) < 1e-8
+            assert any(r[8].startswith(stored[:10]) for r in n2["rows"])
+        for r in d["N4 W87's closed form"]["rows"]:
+            if r[0] == 2 and r[1] == 8:
+                assert abs(mp.mpf(r[3]) - (mp.pi ** 2 * 8 - 2 * mp.pi * mp.log(2 * mp.pi))) < 1e-15
+    for r in n2["rows"][:200]:
+        assert abs(abs(float(r[5]) - float(r[6])) - r[7]) < 1e-12
+    post = (here / "the_twisted_norms_closed_posthoc.txt").read_text(encoding="utf-8")
+    assert '"points": 80' in post and '"all within": true' in post
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W177. The frame's kernel norms in closed form" in note

@@ -159,6 +159,8 @@ def qualifier(answer):
     m = re.match(r"(?:a\s+)?(?:weave|thread|neither)(?:-type)?(?:\s+results?|\s+objects?)?[,:]?\s*(.*)$", first, re.I)
     q = m.group(1).rstrip(".;: ").strip() if m else ""
     q = re.sub(r"^strictly[,:]?\s*", "", q)
+    if q.startswith("(") and q.endswith(")") and q.count("(") == 1:
+        q = q[1:-1].strip()       # an answer written "neither (a reason)." already carries main's parentheses
     return q or None
 
 

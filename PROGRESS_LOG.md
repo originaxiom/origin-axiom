@@ -21473,3 +21473,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What was done:** an exact formula for it was worked out by hand and written down, with five tests and their odds,
   before any program checks it.
   0 of 19.
+
+## 2026-10-29 — the exact formula checks out
+
+- **What was checked:** the formula written down first for the record's "norms" was tested five ways in one run.
+- **What it found:** it is right. It matches the record's numerical estimates to twelve decimal places and the older
+  exact special case to forty, and it is about 27 times faster. One test failed only because it asked for more digits
+  than the run carried; rerun with more digits afterwards, it passes (this is labelled as an after-the-fact check).
+- **What it means next:** it shows where the slow convergence in W174 can come from, which the next arc tests.
+  0 of 19.

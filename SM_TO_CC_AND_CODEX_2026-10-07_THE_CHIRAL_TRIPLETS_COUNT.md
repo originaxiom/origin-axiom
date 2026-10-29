@@ -10155,3 +10155,24 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
 3. **Labelled** neither (an instrument). W178, under its own rule, then reads the six's exponents with these norms.
 
 0 of 19.
+
+## 331. Added 2026-10-29 (UTC): W177 run: the frame's kernel norms are exact closed series
+
+1. **The order.** The rule (§330, f388c10c5) was pushed before the script (73f5bbede). One run, 90.1 s. Its output
+   (603b22a21) was committed unread, then read once.
+   - Before the script's commit, its draft was reviewed against W89 and W174. W89's own 40-term theta series returns
+     NaN above Im τ ≈ 3, so the quadrature route runs with W162's theta series, as W174's workers do (checked
+     data-free; disclosed in the docstring).
+2. **N0, N1 and N4 held to the 40-digit floor** (6.2 × 10⁻⁴⁰, 6.2 × 10⁻⁴⁰, 7.3 × 10⁻⁴⁰). Each kernel is a twisted
+   Kronecker function, and the series reproduces W87's untwisted closed form.
+3. **N2 held.** The series and W89's quadrature agree to 5.5 × 10⁻¹³ at all 900 grid points with Im τ ≤ 6. So the
+   record's quadrature, as the record runs it, is good to double precision. The series is about 27 times faster.
+4. **N3 failed as worded, on the rule's precision.** All 80 failures are at Im τ = 24 on the slope-2/11 lines, where
+   the bound (6 × 10⁻⁵⁹) lies below the 40-digit floor. A labelled post hoc at 120 digits puts all 80 within the
+   bound, the worst at 0.62 of it.
+5. **For W178.** The cusp limits on the grid are 4.4732 (λ₊ = 0.2), −0.3382 (0.3), −2.7273 (5/11) and 57.583 (1/22).
+   On the slope-2/11 lines the kernels s = 3, 4 have λ₊ = 1/22, and their first correction is still 24.9 at Im τ = 6
+   and 0.15 at 24. Whether that is what kept W174's 2/11 lines from converging is W178's question, under its own rule.
+6. **Labelled** neither (an instrument). The register's qualifier no longer doubles a parenthesised answer.
+
+0 of 19.

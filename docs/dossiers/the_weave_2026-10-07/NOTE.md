@@ -7726,6 +7726,92 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W177. The frame's kernel norms in closed form: each of W89's twisted kernels is a twisted Kronecker function, and its regularised norm is an exact series, c_s = −2π ln 2π − 2πγ − π[ψ(λ₊) + ψ(λ₋)] + π(S₊ + S₋), with its cusp limit and first correction explicit. The series meets W89's quadrature to 5.5 × 10⁻¹³ wherever the record used it and W87's closed form to 7 × 10⁻⁴⁰, and is about 27 times faster. N0, N1, N2 and N4 as predicted; N3 failed as worded on the rule's working precision and holds post hoc (`the_twisted_norms_closed.py`; `W177_RULE.md`; post hoc `the_twisted_norms_closed_posthoc.py`)
+
+**Why.** At the owner's "all u reccomend", this seat took up its item 4: W174's S0, whose exponents had not converged
+on 46 lines by Im τ = 6. A read-only map of W174's construction (disclosed in the rule) found that the mass ratios'
+exponents are set at second order, because the record's objects cancel at leading order. Among the second-order terms
+is the first correction to W89's kernel norms c_s, on record only by a double-precision quadrature. This arc gives the
+norms exactly. W178, under its own rule, reads the six's exponents with them.
+
+**The order.**
+- The rule (`W177_RULE.md`, f388c10c5) was committed and pushed before the script. Its derivation was done by hand.
+- **The script's draft was reviewed against W89 and W174 before its commit**, and three things were fixed, all
+  disclosed in its docstring:
+  - W89's own 40-term theta series returns NaN above Im τ ≈ 3 (a nome power that underflows to 0 times a sine that
+    overflows). This was checked data-free at Im τ = 4 and 6 with Im z = 3. So the quadrature route is W89's `norm`,
+    unchanged, with the theta series the record runs it with there: W162's third-launch fix, installed as W174's
+    workers install it.
+  - A non-finite quadrature value is counted and fails N2, rather than vanishing inside a maximum.
+  - The rule's skips (θ_s(ū) = 0 and the record's residue cut) apply to N3 as well as N2, and are counted. Warnings
+    are recorded, not raised.
+- The script (73f5bbede) was committed before its run.
+- **One run**, 90.1 s, exit 0, no warnings. Its output (603b22a21) was committed unread after a check of the exit,
+  failures, NaN, paths and warnings, then read once.
+- **One labelled post hoc**, written after the read because N3 failed. It was run once in scratch before its commit,
+  not after it as this seat's post hocs usually are. Its script and its output are committed as they ran
+  (`the_twisted_norms_closed_posthoc.py`, run as `python3 -B` on it with the dossier as its argument;
+  `the_twisted_norms_closed_posthoc.txt`).
+
+**The result (COMPUTED; one run; N0, N1, N2 and N4 as predicted; N3 failed as worded).**
+- **N0 held: the expansion.** F(z, w) = −2πi Σ_n X^n/(1 − WQ^n) at all 200 seeded points, the worst relative
+  difference 6.2 × 10⁻⁴⁰, which is the 40-digit floor.
+- **N1 held: the kernels.** K_s(z) = e^{2πiλ_s z} F(z, w_s) with the rule's table, all four s, worst 6.2 × 10⁻⁴⁰.
+- **N2 held: two routes.**
+  - 900 grid points were computed. 60 were skipped by the residue cut and none by a zero of θ_s(ū). No quadrature
+    value was non-finite.
+  - The worst |series − quadrature| is 5.5 × 10⁻¹³: 2.8 × 10⁻¹³ at Im τ = 2, 2.7 × 10⁻¹³ at 4 and 5.5 × 10⁻¹³ at 6.
+    By min(λ₊, λ₋) it is 4.8 × 10⁻¹³ at 1/22, 5.5 × 10⁻¹³ at 0.2 and 0.3, and 4.8 × 10⁻¹³ at 5/11.
+  - So W89's quadrature, as the record runs it at these heights, is good to double precision, a million times inside
+    the rule's 10⁻⁷.
+- **N3 failed as worded: the first correction.**
+  - 1800 points were computed and 120 skipped by the residue cut. 80 fall outside the bound.
+  - All 80 are at Im τ = 24, on the ten slope-2/11 lines with s = 1 and 2, where min(λ₊, λ₋) = 5/11.
+  - There the rule's bound is 6.4 × 10⁻⁵⁹, below the run's 40-digit floor. The stored remainders, 6 × 10⁻⁴¹ to
+    2 × 10⁻⁴⁰, are that floor.
+  - Wherever the remainder is resolved it is within the bound, at most 0.92 of it (at Im τ = 4) and 0.64 of it at
+    the largest heights.
+- **N4 held: W87's closed form.** For ū = 0 and s = 2, 3, 4 at Im τ ∈ {1, 2, 4, 8} and Re τ ∈ {0, 1/8, 3/8}, the
+  series equals −2π ln((π/2)|θ_s(0)|²) to 7.3 × 10⁻⁴⁰.
+- **The read-outs.**
+  - Time per norm: 2.7 ms for the series at 40 digits, 74 ms for the quadrature in double precision.
+  - The cusp limits c^∞ by λ₊ (each value with its mirror λ₊ ↔ 1 − λ₊):
+
+| λ₊ | where on the grid | c^∞ | the largest leading correction at Im τ = 6 | at Im τ = 24 |
+| --- | --- | --- | --- | --- |
+| 0.2, 0.8 | s = 1, 2 on the slope-2/5 lines | 4.4731975426 | 1.6 × 10⁻² | 2.5 × 10⁻¹² |
+| 0.3, 0.7 | s = 3, 4 on the slope-2/5 lines | −0.338153765 | 2.6 × 10⁻⁴ | 4.7 × 10⁻¹⁹ |
+| 5/11, 6/11 | s = 1, 2 on the slope-2/11 lines | −2.727274546 | 5.1 × 10⁻⁷ | 2.4 × 10⁻²⁹ |
+| 1/22, 21/22 | s = 3, 4 on the slope-2/11 lines | 57.582948914 | 24.9 | 0.146 |
+
+**The post hoc (labelled; not a cell).** N3's 80 failing points were recomputed with the committed script's own
+functions at 120 digits. All 80 are within the rule's bound, the worst at 0.62 of it. So N3 failed on the rule's
+working precision, not on the leading-correction formula.
+
+**What it shows (a READING on the computed facts).**
+- **The derivation is right.** The frame's kernel norms are exact closed series, at any precision and any height.
+  Their cusp limit and first correction are explicit, and the first correction's form and constant hold wherever the
+  precision resolves them.
+- **The record's quadrature is confirmed** to 5.5 × 10⁻¹³ where the record used it, with the theta series the record
+  runs it with. Its 40-term default would not have run above Im τ ≈ 3.
+- **The disclosed map's cusp values are these norms.** Its −0.3382, 4.4732 and −2.7273 at β′ = 0.2, 0.3 and 1/22 are
+  c^∞ at λ₊ = ½ ± β′, as the rule's step 6 said. The grid adds a fourth class the map did not name: λ₊ = 1/22, with
+  c^∞ ≈ 57.58.
+- **Where the slow part sits, for W178 (a hypothesis, not shown here).** On the slope-2/11 lines the kernels s = 3
+  and 4 have λ₊ = 1/22. Their first correction decays as e^{−2π Im τ/22}: it is 24.9 at Im τ = 6, on a cusp value of
+  57.6, and still 0.15 at 24. All ten slope-2/11 lines on the grid were among W174's 46 unconverged lines. The
+  eleventh, (2/11, 9/11), passed W174's 0.02 test at 0.018, and all eleven sit near that threshold (0.017–0.027, from
+  W174's stored output). Whether this correction is what keeps their six from converging is W178's to test, under its
+  own rule.
+- **An instrument, ready.** The norms are now exact, about 27 times faster than the quadrature, and can be carried at
+  whatever precision the six need at large heights.
+
+**Weave or thread.** neither (an instrument). The quantity is the frame's kernel norm on the shared fibre, at every τ
+and every shift. It is a closed form for what W89 computes, not a claim about threads or the weave's joint action.
+
+**Status.** COMPUTED (the rule first; one run; N0, N1, N2 and N4 as predicted; N3 failed as worded on the rule's
+working precision and holds post hoc, labelled). An instrument, with no data. 0 of 19.
+
 ## W176. The web seat's question 3 as the weave sees it: a forced condition on the line sees only its order, and every order has a CP-fixed configuration (exact). Given the order, the frame's own potential chooses no class and no height: on every order its least runs to the cusp on the line (0, 1/N), as V ≈ (15/8) ζ(6) (Σ_q w_q) (Im τ)³ with the content's signed weight −41. Where resolved, the least is CP-conserving and J vanishes there, and across the orders the trivial line is least. K0 and K1 as predicted; K2, K3 and K4 failed as worded (`the_class_by_the_dynamics.py`; `W176_RULE.md`; post hoc `the_class_by_the_dynamics_posthoc.py`)
 
 **Why.** The web seat's question 3 (422cd8ecd; relays §322 and §323) asks whether a consistency condition selects the
@@ -15028,6 +15114,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W177 | COMPUTED (the rule first; one run; N0, N1, N2 and N4 as predicted; N3 failed as worded on the rule's 40-digit precision, holds post hoc); an instrument | the frame's kernel norms in closed form: each kernel a twisted Kronecker function, c_s an exact series with its cusp limit and first correction; W89's quadrature (with the record's theta series) confirmed to 5.5 × 10⁻¹³, W87's closed form to 7 × 10⁻⁴⁰, about 27 times faster; on the slope-2/11 lines' s = 3, 4 (λ₊ = 1/22) the first correction is 24.9 at Im τ 6 and 0.15 at 24 |
 | W176 | COMPUTED (the rule first; one run after one stopped launch, disclosed; K0 and K1 as predicted; K2, K3 and K4 failed as worded; a locus-tolerance slip disclosed; one labelled post hoc); a weave result per stated order | the web seat's question 3: a forced condition on the line sees only the order, and every order has a CP-fixed configuration (exact); given the order, the frame's potential runs to the cusp on the a = 0 lines, V ≈ (15/8) ζ(6) (Σ_q w_q) (Im τ)³ with Σ_q w_q = −41, so no height is held; the least is CP-conserving wherever resolved (N = 3 unresolved) with J ≤ 2 × 10⁻¹²; the trivial line is least across the orders |
 | W175 | COMPUTED (the rule first; one run; C0, C1, C4 as predicted; C2 and C3 failed as worded; one labelled post hoc); a frame result on stated classes | THE RIDDLE's horn 1 off the mirror (the web seat's question 1): the frame's own potential breaks CP spontaneously — J ≠ 0 at its X-minimum on all ten mirror-free classes at every height, and on the counted class below Im τ ≈ 2.22 (a pitchfork, post hoc); J's size 10⁻⁵–10⁻² rides on the height, which is pushed down out of the band; the order-5 class (CP-conserving) has the least potential at every height |
 | W174 | COMPUTED (the rule first; one run; S1–S3 as predicted, S0 failed: 74% of resolved lines converged by Im τ 6); a frame census over every line and every forced pattern on record | THE RIDDLE's item 4: no forced exponent pattern carries the six with one shared small parameter and coefficients within a factor 3; nearest the slope-2/5 lines, 3–11% beyond the factor 3 at Im τ ≈ 2.35, pattern (1, 8/3) up and (2/3, 11/6) down and leptons in ε = e^{−0.6π Im τ}; leptons on it, down off by ~3 and ~1/3; the frame's own first-generation coefficients 3–150; near-data null passes 18.5% |

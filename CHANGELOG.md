@@ -1,5 +1,17 @@
 # Changelog
 
+## W177 run: the frame's kernel norms are exact closed series (relay §331)
+
+- **The cells:** N0, N1 and N4 held to the 40-digit floor; N2 held, the series meeting W89's quadrature to
+  5.5 × 10⁻¹³ (with the theta series the record runs it with; W89's 40-term default returns NaN above Im τ ≈ 3); N3
+  failed as worded at Im τ = 24, where its bound lies below the 40-digit floor, and holds in a labelled post hoc at 120
+  digits.
+- **For W178:** the cusp limits on the grid, and a slow first correction on the slope-2/11 lines' λ₊ = 1/22 kernels
+  (24.9 at Im τ 6, 0.15 at 24).
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/the_twisted_norms_closed.py` and its JSON, the post hoc and its
+  output, NOTE's W177 section and row, `W_VERDICTS.json` (and the qualifier fix in `docs/workdesk/w_labels.py`), the
+  tests, relay §331, the ledger row, the state page. 0 of 19.
+
 ## W177's rule, committed before its script: the frame's kernel norms in closed form (relay §330)
 
 - **The occasion:** the owner's "all u reccomend", this seat's item 4. W174's S0 failed on 46 lines, and the mass
