@@ -5594,3 +5594,40 @@ def test_w177_the_twisted_norms_closed():
     assert '"points": 80' in post and '"all within": true' in post
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W177. The frame's kernel norms in closed form" in note
+
+def test_w178_the_six_at_the_cusp():
+    """W178: T0, T1 and T2 as predicted after one failed launch; in process, the slope-2/5 cusp pattern read as exact
+    fractions, the zero channels' lines and orders, convergence re-derived from the stored ladders, and the post hoc
+    split (simple-fraction exponents exactly on the lines with no integer-lambda kernel) recomputed"""
+    import math
+    from fractions import Fraction as Fr
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_six_at_the_cusp.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"T0": True, "T1": True, "T2": True}
+    assert d["warnings"] == [] and d["failed task count"] == 0 and d["tasks"] == 5852
+    assert d["theta-zero channels skipped (tasks with any, lines)"] == [440, 20]
+    assert d["T0"]["features compared"] == 11209 and d["T0"]["worst |difference| in ln"] < 1e-6
+    assert d["T1"]["converged"] == 212 and d["T1"]["lines with a zero channel"] == 54
+    assert d["T2"]["patterns tested"] == 424 and not d["T2"]["passing (line, Re tau, s interval, Im tau interval)"]
+    two5 = [Fr(3, 10), Fr(4, 5), Fr(1, 5), Fr(11, 20), Fr(1, 5), Fr(11, 20)]
+    zero_orders, simple = {}, {True: 0, False: 0}
+    for e in d["per line"]:
+        a, b = Fr(e["line"][0]), Fr(e["line"][1])
+        if any(p.get("zero channel") for p in e["per Re tau"]):
+            n = math.lcm(a.denominator, b.denominator)
+            zero_orders[n] = zero_orders.get(n, 0) + 1
+            continue
+        for p in e["per Re tau"]:
+            six = p["six per height"]
+            e48 = [-(six["48.0"][i] - six["32.0"][i]) / (2 * math.pi * 16) for i in range(6)]
+            assert max(abs(u - v) for u, v in zip(e48, p["cusp pattern e(32,48)"])) < 1e-12
+            if a == Fr(2, 5):
+                assert max(abs(u - float(v)) for u, v in zip(e48, two5)) < 1e-4
+        vals = [v for p in e["per Re tau"] for v in p["cusp pattern e(32,48)"]]
+        ok = all(abs(v - float(Fr(v).limit_denominator(60))) < 2e-4 for v in vals)
+        assert ok == (e["slowest kernel min(l+, l-)"] != 0.0)
+        simple[ok] += 1
+    assert zero_orders == {12: 48, 4: 6} and simple == {True: 163, False: 49}
+    assert (here / "the_six_at_the_cusp_first_launch_failed.txt").exists()
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W178. The six's exponents at the cusp, exactly" in note

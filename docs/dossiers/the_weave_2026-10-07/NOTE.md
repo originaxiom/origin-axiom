@@ -7726,6 +7726,94 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W178. The six's exponents at the cusp, exactly: W174's frame six on every census line up to Im τ = 48, in working precision with W177's norms. W174's S0 is settled, because every resolved line converges. Its S1 stands at the cusp: no cusp pattern passes, and the nearest, every slope-2/5 line's exact (3/10, 4/5, 1/5, 11/20, 1/5, 11/20), misses by 0.068 beyond ln 3. The 54 lines W174 could not test have a mass exactly zero. Every cell as predicted, after one failed launch (`the_six_at_the_cusp.py`; `W178_RULE.md`; `the_six_at_the_cusp_first_launch_failed.txt`)
+
+**Why.** This is the second half of this seat's item 4, at the owner's "all u reccomend". W174's S0 failed: on 46 of
+179 resolved lines the exponents had not converged by Im τ = 6. Its S1 was read on local exponents, and 54 lines were
+not tested, below double precision's floor. W177 made the kernel norms exact. This arc reads W174's six exactly, on
+every census line, up to Im τ = 48.
+
+**The order.**
+- The rule (`W178_RULE.md`, c8c36855a) was committed and pushed before the script.
+- The script (57c550d85) was committed before its run. A timing call on its draft printed statuses only (disclosed in
+  the rule).
+- **The first launch failed** (`the_six_at_the_cusp_first_launch_failed.txt`).
+  - It ran to its end with 258 of 5852 tasks failed. All were on the ladder without the cut, on the 20 lines of order
+    dividing 6, where ū lies on a zero of one θ_s. That channel's residue vanishes identically, and its kernel norm is
+    undefined, so W177's series divided by zero.
+  - Its tracebacks also carried absolute paths.
+  - Only the exit, failures, NaN, paths and warnings were checked. Its output was moved out of the tree unread.
+- **The fix** (a89ebc621) was committed before the second launch. It changed no cell, threshold, height, line or
+  precision.
+  - A channel whose θ_s(ū) vanishes identically, decided exactly from the line's fractions, gets u_s = 0, as the
+    record's cut and W177's grid already treat it.
+  - Tracebacks are written without paths.
+- **The second launch** took 1946 s, with no failed task and no warnings. The θ-zero rule applied on 440 tasks, exactly
+  the 20 lines at both Re τ and all eleven heights. Its output (21748b79a) was committed unread after the same checks,
+  then read once.
+
+**The result (COMPUTED; the second launch; T0, T1 and T2 as predicted).**
+- **T0 held: the tie.** With the cut at Im τ 3–6, all 11 209 features W174 stored above ln 10⁻⁸ agree with this
+  instrument, the worst by 4.8 × 10⁻⁸ in ln.
+- **T1 held: W174's S0 is settled.**
+  - 212 lines are resolved at every ladder height at both Re τ, and all 212 converge.
+  - The largest |e(32, 48) − e(24, 32)| is 0.0029, with a median of 2 × 10⁻⁵. The two Re τ agree to 4 × 10⁻⁴.
+  - No feature was unresolved, and no point needed doubled precision.
+- **The 54 lines W174 could not test have a mass exactly zero.** Their channel sits at the working precision's own
+  floor at every height, and they are the 54 untested lines exactly.
+  - On 48 lines of order 12, m_e/m_τ is zero.
+  - On 6 lines of order 4, all three first-generation ratios are zero.
+  - The 212 resolved lines are exactly W174's 212 tested ones.
+- **T2 held: W174's S1 stands at the cusp.** None of the 424 cusp patterns (212 lines, two Re τ) passes the skeleton
+  test.
+  - **The nearest are the ten slope-2/5 lines**, all with the same pattern, (3/10, 4/5, 1/5, 11/20, 1/5, 11/20) in
+    units of 2π Im τ, to five digits.
+  - They miss by 0.0676 beyond ln 3, at s = −14.79 (Im τ ≈ 2.35).
+  - In W160's ε = e^{−0.6π Im τ} this is (1, 8/3) for the up quarks and (2/3, 11/6) for the down quarks and the
+    leptons, exactly the values W174 read from local exponents.
+- **The read-outs.**
+  - The null pass rate of the cusp patterns on W174's 20 000 draws is 15.4% (W174's local patterns: 18.5%).
+  - Removing the cut changes no feature at Im τ = 6.
+  - W174's local pattern differs from the cusp pattern by more than 0.02 at 247 line-and-Re-τ pairs on 128 lines, by up
+    to 0.26. Its S1 verdict does not change.
+  - **W174's S0 beside the slowest kernel rate** (min(λ₊, λ₋) over the line's kernels, 0 for an integer λ):
+
+| slowest rate | lines W174 called unconverged | the other resolved lines |
+| --- | --- | --- |
+| 0 (an integer λ) | 10 | 39 |
+| 1/22 | 10 | 1 |
+| 1/14, 1/11, 1/10 | 14 | 24 |
+| 1/8 to 1/4 | 12 | 102 |
+
+**The post hoc (labelled; read from the committed output after the read, and recomputed in the test).** The 212
+lines split exactly by the integer λ.
+- On all 163 lines with no integer-λ kernel, every cusp exponent equals a fraction with denominator at most 60, to
+  2 × 10⁻⁴.
+- On all 49 lines with an integer-λ kernel, some do not. There W177's norm grows linearly with Im τ, so the ratios carry
+  a power of Im τ. Their e(32, 48) is within the convergence tolerance but carries a correction of order 1/Im τ.
+
+**What it shows (a READING on the computed facts).**
+- **The exponents at the cusp exist on every line, and on most lines they are simple fractions.** W174's failure at
+  Im τ = 6 was pre-asymptotic, as the rule allowed. W177's slow kernels are where it came from: ten of the eleven
+  lines whose slowest kernel decays as e^{−2π Im τ/22} were unconverged. The table shows the link is strong but not
+  exclusive.
+- **THE RIDDLE's item 4 closes on the frame at the cusp.** No cusp pattern the frame forces carries the six with one
+  shared small parameter and coefficients within a factor 3, on any of the 266 lines. W174's answer is now exact and
+  complete: the 54 lines it could not test have a massless generation.
+- **The slope-2/5 skeleton is exact.** It is (1, 8/3) for the up quarks and (2/3, 11/6) for the down quarks and the
+  leptons, in ε = e^{−0.6π Im τ}. It misses the data by 7% beyond a factor 3, and near-data random sixes pass the same
+  menu 15% of the time.
+- **A frame fact the census found.** The frame's lines of order 12 make the electron massless (48 lines), and those of
+  order 4 make every first-generation fermion massless (6 lines).
+
+**Weave or thread.** neither (a frame census over every census line at the cusp). The frame is B1656's, as in W174.
+The lines are all 266, none picked.
+
+**For the look ledger:** one look at the six, counted: T2 read them once. No line is selected for a later fit.
+
+**Status.** COMPUTED (the rule first; one failed launch, fixed and disclosed; the second launch, every cell as
+predicted; one labelled post hoc). A frame census. 0 of 19.
+
 ## W177. The frame's kernel norms in closed form: each of W89's twisted kernels is a twisted Kronecker function, and its regularised norm is an exact series, c_s = −2π ln 2π − 2πγ − π[ψ(λ₊) + ψ(λ₋)] + π(S₊ + S₋), with its cusp limit and first correction explicit. The series meets W89's quadrature to 5.5 × 10⁻¹³ wherever the record used it and W87's closed form to 7 × 10⁻⁴⁰, and is about 27 times faster. N0, N1, N2 and N4 as predicted; N3 failed as worded on the rule's working precision and holds post hoc (`the_twisted_norms_closed.py`; `W177_RULE.md`; post hoc `the_twisted_norms_closed_posthoc.py`)
 
 **Why.** At the owner's "all u reccomend", this seat took up its item 4: W174's S0, whose exponents had not converged
@@ -15114,6 +15202,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W178 | COMPUTED (the rule first; one failed launch, fixed and disclosed; the second launch, every cell as predicted; one labelled post hoc); a frame census over every census line | the six's exponents at the cusp, exactly, on all 266 lines to Im τ 48: W174's S0 settled (all 212 resolved lines converge, to 0.003); its S1 stands (no cusp pattern passes; the slope-2/5 lines' exact (3/10, 4/5, 1/5, 11/20, 1/5, 11/20) miss by 0.068 beyond ln 3; null 15.4%); the 54 untested lines have an exactly massless first generation (m_e on 48 order-12 lines, all three on 6 order-4 lines); the cusp exponents are simple fractions on every line without an integer-λ kernel (post hoc) |
 | W177 | COMPUTED (the rule first; one run; N0, N1, N2 and N4 as predicted; N3 failed as worded on the rule's 40-digit precision, holds post hoc); an instrument | the frame's kernel norms in closed form: each kernel a twisted Kronecker function, c_s an exact series with its cusp limit and first correction; W89's quadrature (with the record's theta series) confirmed to 5.5 × 10⁻¹³, W87's closed form to 7 × 10⁻⁴⁰, about 27 times faster; on the slope-2/11 lines' s = 3, 4 (λ₊ = 1/22) the first correction is 24.9 at Im τ 6 and 0.15 at 24 |
 | W176 | COMPUTED (the rule first; one run after one stopped launch, disclosed; K0 and K1 as predicted; K2, K3 and K4 failed as worded; a locus-tolerance slip disclosed; one labelled post hoc); a weave result per stated order | the web seat's question 3: a forced condition on the line sees only the order, and every order has a CP-fixed configuration (exact); given the order, the frame's potential runs to the cusp on the a = 0 lines, V ≈ (15/8) ζ(6) (Σ_q w_q) (Im τ)³ with Σ_q w_q = −41, so no height is held; the least is CP-conserving wherever resolved (N = 3 unresolved) with J ≤ 2 × 10⁻¹²; the trivial line is least across the orders |
 | W175 | COMPUTED (the rule first; one run; C0, C1, C4 as predicted; C2 and C3 failed as worded; one labelled post hoc); a frame result on stated classes | THE RIDDLE's horn 1 off the mirror (the web seat's question 1): the frame's own potential breaks CP spontaneously — J ≠ 0 at its X-minimum on all ten mirror-free classes at every height, and on the counted class below Im τ ≈ 2.22 (a pitchfork, post hoc); J's size 10⁻⁵–10⁻² rides on the height, which is pushed down out of the band; the order-5 class (CP-conserving) has the least potential at every height |

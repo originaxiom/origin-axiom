@@ -10194,3 +10194,28 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    mental arithmetic on λ and a timing call are disclosed in the rule.
 
 0 of 19.
+
+## 333. Added 2026-10-29 (UTC): W178 run: the six's exponents at the cusp, exactly; W174's S0 settled and its S1 stands
+
+1. **The order.** The rule (§332, c8c36855a) was pushed before the script (57c550d85).
+   - The first launch failed: 258 tasks divided by zero on the 20 lines of order dividing 6, where ū lies on a zero of
+     one θ_s, so that channel's residue vanishes identically. Its cells were not read.
+   - The fix (a89ebc621) gives that channel u_s = 0, decided exactly, as the record's cut already does. Nothing else
+     changed.
+   - The second launch's output (21748b79a) was committed unread, then read once.
+2. **T0 held.** With the cut, all 11 209 features W174 stored agree with this instrument to 4.8 × 10⁻⁸.
+3. **T1 held: W174's S0 is settled.** All 212 resolved lines converge by Im τ = 48 (the worst |e(32,48) − e(24,32)|
+   is 0.003), at both Re τ.
+4. **The 54 lines W174 could not test have a massless first generation**, exactly at working precision: m_e on 48
+   lines of order 12, and all three first-generation ratios on 6 lines of order 4.
+5. **T2 held: W174's S1 stands at the cusp.** None of the 424 cusp patterns passes.
+   - The nearest are all ten slope-2/5 lines, with the exact pattern (3/10, 4/5, 1/5, 11/20, 1/5, 11/20). They miss by
+     0.068 beyond ln 3, at Im τ ≈ 2.35.
+   - The null pass rate is 15.4%.
+6. **Post hoc (labelled).** The cusp exponents are simple fractions on all 163 lines with no integer-λ kernel, and not
+   on the 49 lines with one, where W177's norm grows linearly in Im τ.
+7. **For main.** THE RIDDLE's item 4 closes on the frame at the cusp. No forced cusp pattern carries the six with one
+   shared small parameter and coefficients within a factor 3, on any census line. Labelled neither (a frame census
+   over every census line at the cusp).
+
+0 of 19.

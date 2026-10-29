@@ -21490,3 +21490,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What was done:** the plan for redoing it exactly, on every line and much higher up, was written down with three
   tests and their odds, before any program runs it.
   0 of 19.
+
+## 2026-10-29 — the mass patterns read exactly, far up the cusp
+
+- **What was done:** the frame's mass patterns were computed exactly on every one of its 266 lines, far further up
+  than before. The first attempt hit a programming slip on 20 lines; it was fixed without looking at any result and
+  rerun.
+- **What it found:** the patterns settle on every line, mostly to simple fractions. None of them fits the measured
+  masses with one shared small number and factors within 3; the closest misses by about 7% beyond that. The lines the
+  earlier census could not test turn out to give an exactly massless first generation.
+- **What it means:** this question (item 4) is closed for this frame. 0 of 19.

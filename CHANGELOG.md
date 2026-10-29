@@ -1,5 +1,15 @@
 # Changelog
 
+## W178 run: the six's exponents at the cusp, exactly; W174's S0 settled, its S1 stands (relay §333)
+
+- **The order:** one failed launch (258 tasks divided by zero on the 20 lines of order dividing 6, where one channel's
+  residue vanishes identically; cells not read), fixed and disclosed; the second launch's output committed unread.
+- **The cells:** T0 (the tie to W174, 4.8 × 10⁻⁸), T1 (all 212 resolved lines converge by Im τ 48) and T2 (no cusp
+  pattern passes the skeleton test; the slope-2/5 lines' exact (3/10, 4/5, 1/5, 11/20, 1/5, 11/20) nearest, 0.068
+  beyond ln 3) as predicted. The 54 lines W174 could not test have a massless first generation.
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/the_six_at_the_cusp.py` and its JSON, the failed launch's record,
+  NOTE's W178 section and row, `W_VERDICTS.json`, the test, relay §333, the ledger row, the state page. 0 of 19.
+
 ## W178's rule, committed before its script: the six's exponents at the cusp, exactly (relay §332)
 
 - **The occasion:** the second half of this seat's item 4. W174's S0 failed on 46 lines, and its S1 was read on local
