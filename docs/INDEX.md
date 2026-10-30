@@ -1,6 +1,6 @@
 # The document map — what is living, what is reference, what is history
 
-*Currency: 2026-10-29 (Review 72); before it 2026-09-09 (Review 56), not re-stamped by Reviews 57–71 (P-417). **Re-stamp this line at every decadal review** — a
+*Currency: 2026-10-30 (Review 73); before it 2026-10-29 (Review 72) and 2026-09-09 (Review 56), not re-stamped by Reviews 57–71 (P-417). **Re-stamp this line at every decadal review** — a
 router that does not carry its own date is how this file went five weeks stale while
 looking authoritative. (Nothing in this repo is deleted — records are the credibility
 model, GOVERNANCE §1/§9; this map says what to read for the current state.)*

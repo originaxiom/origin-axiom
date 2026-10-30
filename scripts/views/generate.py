@@ -44,8 +44,10 @@ def collect():
     arcs = []
     fdir = os.path.join(ROOT, "frontier")
     for d in sorted(os.listdir(fdir)):
-        fp = os.path.join(fdir, d, "FINDINGS.md")
-        if not os.path.isfile(fp):
+        # S264b (2026-10-30): a folder whose findings document is VERDICT.md (B519) was skipped silently by every
+        # generated view; the record admits both names (B817's FINDINGS_DOCS)
+        fp = next((p for p in (os.path.join(fdir, d, n) for n in ("FINDINGS.md", "VERDICT.md")) if os.path.isfile(p)), None)
+        if fp is None:
             continue
         m = re.match(r"(B\d+)[a-zA-Z]?_", d)
         if not m:
@@ -356,6 +358,64 @@ def view_context_recovery(arcs, kills):
     return "\n".join(out) + "\n"
 
 
+README = os.path.join(ROOT, "README.md")
+README_STATE = re.compile(r"(<!-- STATE:BEGIN[^\n]*-->\n)(.*?)(<!-- STATE:END -->)", re.S)
+
+
+def view_readme_state(arcs):
+    """README.md's state block (the owner's rewrite of the front door, 2026-10-30; P-513): the facts a first reader needs,
+    regenerated at every landing from tracked files so the front door cannot go stale (P-417's split: facts at each
+    landing, prose at the reviews). It names the last review's anchor, so a review's follow-up refreshes it."""
+
+    def rd(rel):
+        p = os.path.join(ROOT, rel)
+        return open(p, encoding="utf-8").read() if os.path.isfile(p) else ""
+
+    def clip(s, n):
+        s = " ".join(s.split())
+        return s if len(s) <= n else s[: n - 1].rstrip() + "…"
+
+    gv = re.search(r"\*\*Version (\d+\.\d+) · (\d{4}-\d{2}-\d{2})", rd("GENESIS.md"))
+    goal = re.search(r"Its state is \*\*(\d+) of 19\*\*", rd("docs/MAIN_GOAL.md"))
+    verdicts = Counter((a.get("verdict_record") or {}).get("verdict") for a in arcs if (a.get("verdict_record") or {}).get("verdict"))
+    cells = [l.strip().strip("|").split(" | ") for l in rd("docs/POINT_REGISTER.md").splitlines() if l.startswith("| P-")]
+    disp = [c[4].strip() if len(c) == 7 else "" for c in cells]
+    n_open = sum(1 for d in disp if d.startswith(("QUEUED", "LEAD", "OWNER")))
+    n_closed = sum(1 for d in disp if d.startswith(("DONE", "DECLINED")))
+    rv = rd("docs/progress/REVIEWS.md")
+    heads = list(re.finditer(r"(?m)^# Review (\d+) \((\d{4}-\d{2}-\d{2})\)", rv))
+    anchor = re.search(r"anchor-commit: `?([0-9a-f]{7,40})`?", rv[heads[-1].end():]) if heads else None
+    land = next((l[3:].strip() for l in rd("CHANGELOG.md").splitlines() if l.startswith("## S")), "")
+    out = ["*Where the programme stands, generated from the tracked record at every landing (`scripts/views/generate.py`);",
+           "nothing in this block is typed by hand.*", "",
+           "| | |", "|---|---|",
+           "| Standard-Model parameters derived | **%s of 19** (`docs/MAIN_GOAL.md`) |" % (goal.group(1) if goal else "—"),
+           "| the foundations | `GENESIS.md` (v%s) of %s |" % (gv.group(1), gv.group(2)) if gv else "| the foundations | `GENESIS.md` |",
+           "| arcs with a verdict | %d: %d PROVED, %d NEGATIVE, %d OPEN, %d RETRACTED |" % (
+               sum(verdicts.values()), verdicts.get("PROVED", 0), verdicts.get("NEGATIVE", 0), verdicts.get("OPEN", 0), verdicts.get("RETRACTED", 0)),
+           "| points in the register | %d: %d open (queued, leads, waiting for the owner), %d closed |" % (len(cells), n_open, n_closed),
+           "| the last review | %s |" % (("Review %s (%s), anchor %s" % (heads[-1].group(1), heads[-1].group(2), "`%s`" % anchor.group(1) if anchor else "pending")) if heads else "—"),
+           "| the last landing | %s |" % clip(land, 150).replace("|", "∣"),
+           ""]
+    return "\n".join(out)
+
+
+def write_readme_state(arcs):
+    """Fill README.md's state block in place. False when there is no block, or when it is already current (nothing is
+    written then, so a gate that regenerates the views changes nothing in a current tree)."""
+    if not os.path.isfile(README):
+        return False
+    t = open(README, encoding="utf-8").read()
+    m = README_STATE.search(t)
+    if not m:
+        return False
+    new = t[: m.start(2)] + view_readme_state(arcs) + t[m.end(2):]
+    if new == t:
+        return False
+    open(README, "w", encoding="utf-8").write(new)
+    return True
+
+
 def main():
     arcs, kills = collect()
     os.makedirs(OUT, exist_ok=True)
@@ -371,6 +431,8 @@ def main():
         if old != body:
             open(p, "w", encoding="utf-8").write(body)
             changed.append(name)
+    if write_readme_state(arcs):
+        changed.append("README.md (its state block)")
     print(f"arcs={len(arcs)}  authored={sum(1 for a in arcs if a['verdict_record'])}  "
           f"kills={len(kills)}")
     print(f"views written to docs/views/: {', '.join(views)}")

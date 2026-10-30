@@ -7822,3 +7822,5 @@ Step B is the window's only route to a promotion, and it is sealed first.
 - [ ] R73-8: P-507 (the completeness lists classified) and P-512 (the quarter relation) (owner: cc)
 - [ ] R73-9: P-516 — the window's identifications declared in its verdict files, with a lock (owner: cc)
 - [ ] R73-10: P-517 — B1811's referee-stage numbers committed and locked (owner: cc)
+
+**anchor-commit: `99d90d515`**

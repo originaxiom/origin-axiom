@@ -627,8 +627,13 @@ def gate_views_generated():
         for f in sorted(os.listdir(vdir)):
             if f.endswith(".md"):
                 before[f] = (pathlib.Path(vdir) / f).read_bytes()
+    # S264b (2026-10-30, P-513): README.md carries a block generate.py fills; it is snapshotted, compared and restored too
+    readme = pathlib.Path(ROOT) / "README.md"
+    readme_raw = readme.read_bytes() if readme.is_file() else None
 
     def _restore():
+        if readme_raw is not None and readme.read_bytes() != readme_raw:
+            readme.write_bytes(readme_raw)
         for name, raw in before.items():
             q = pathlib.Path(vdir) / name
             if not q.is_file() or q.read_bytes() != raw:
@@ -648,6 +653,8 @@ def gate_views_generated():
         stale = [f for f, raw in before.items()
                  if (pathlib.Path(vdir) / f).read_bytes() != raw]
         new = [f for f in os.listdir(vdir) if f.endswith(".md") and f not in before]
+        if readme_raw is not None and readme.read_bytes() != readme_raw:
+            stale.append("README.md (its state block)")
     finally:
         _restore()
     if stale or new:

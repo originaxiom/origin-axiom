@@ -4,10 +4,11 @@
 full. im confident in you, just dont be superficial." Binding for this seat. Refines
 `docs/STRATEGY_2026-09-05.md` §4; its items 3–5 stay live and resume when a join blocks.)*
 
-> **Currency (2026-10-29, Review 72).** The goal stands. Its state is **0 of 19**.
+> **Currency (2026-10-30, Review 73).** The goal stands. Its state is **0 of 19**.
 > - THE_PATTERN_MEDITATION_3 (2026-10-28) finds on the record's own counts that no continuous value has been derived. Its
 >   cause: the frames add moduli the object does not fix.
-> - The two readings it leaves are before the owner (P-406): a selection principle, or the theorem of what is forced.
+> - The owner approved THE FINAL ATTACK's order on 2026-10-30 (P-495): explaining as compression with a null, and one
+>   sealed test of the nine from one address.
 > - The thesis below ("the programme has the ingredients; what it lacks is assembly") is the 2026-09-06 reading, kept
 >   as written. Read docs/CAMPAIGN_STATUS.md (LATEST) for the current state.
 

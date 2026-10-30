@@ -17,7 +17,7 @@ STAMP = "stamp 2026-08-19: still CURRENT as of B1082"
 
 # (file, anchor that must be present) — the 12 fixes
 FIXES = [
-    ("README.md", "OVERTAKEN on 2026-08-10 by B1019"),
+    ("docs/README_HISTORY.md", "OVERTAKEN on 2026-08-10 by B1019"),     # S264b (2026-10-30, P-513): the README's old text is archived byte for byte in docs/README_HISTORY.md
     ("docs/OPEN_LEADS.md", "OVERTAKEN\non 2026-08-10 by B1019"),
     ("docs/THE_FRAMEWORK.md", "CLOSED the same day (2026-08-10) by B1016"),
     ("docs/SM_SPECIFICATION_LEDGER.md", "SEVEN sealed crossings, seven negatives"),
@@ -97,10 +97,10 @@ def test_cold_audit_corrections_landed():
 # ============================================================
 
 DOCWAVE_ANCHORS = [
-    ("README.md", "Standard-Model-shaped"),
-    ("README.md", "Tier-STRUCTURE"),
-    ("README.md", "conditionally force"),
-    ("README.md", "CORRECTED 2026-08-10 by the verification seat"),
+    ("docs/README_HISTORY.md", "Standard-Model-shaped"),
+    ("docs/README_HISTORY.md", "Tier-STRUCTURE"),
+    ("docs/README_HISTORY.md", "conditionally force"),
+    ("docs/README_HISTORY.md", "CORRECTED 2026-08-10 by the verification seat"),
     ("docs/THE_FRAMEWORK.md", "Standard-Model-shaped"),
     ("docs/THE_FRAMEWORK.md", "Tier-STRUCTURE"),
     ("docs/THE_FRAMEWORK.md", "THE GRAVITY THEORY"),
@@ -122,6 +122,9 @@ DOCWAVE_ABSENT = [
     ("README.md", "the Standard Model's own gauge algebra"),
     ("README.md", "derives the Standard Model's gauge algebra"),
     ("README.md", "eleven-item"),
+    ("docs/README_HISTORY.md", "the Standard Model's own gauge algebra"),     # the archive keeps them dead too
+    ("docs/README_HISTORY.md", "derives the Standard Model's gauge algebra"),
+    ("docs/README_HISTORY.md", "eleven-item"),
     ("docs/THE_FRAMEWORK.md", "lands on the Standard Model's algebra"),
     ("docs/THE_FRAMEWORK.md", "THE THIRD THEORY"),
     ("docs/THE_FRAMEWORK.md", "eleven-item"),

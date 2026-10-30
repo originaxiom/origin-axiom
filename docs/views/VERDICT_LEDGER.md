@@ -5,7 +5,7 @@
 
 # Arc verdict ledger (generated)
 
-1521 of 1521 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1522 of 1522 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
 ## PROVED (1037)
@@ -1533,7 +1533,7 @@
 | `B1664` | THE LAYERS (sealed beaa42ff6, sha256 20c39c08; OPEN: the sealed gate L0 failed -- the period-phase check was NaN on the 593 threads whose sampling began above height 50, where the instrument sets D to zero (0/0); on the other 30 081 threads the phase equals i^(#L-#R) to 3.2e-10 (post-seal diagnosis); an E74 instance). So L1 and L2 are read-outs, not results: the layer averages of f reach the typical motion's 0.31500491 (top quarter 0.3144 against 0.3692 at t <= 20; the gap falls as t^-0.51); the amplitude's coherence on the phase-1 threads decays with length (slope -0.27 +- 0.08); the coherent rule favours the cusp family L^(4m+1) R (0.717 ... 0.99994), not the root LR (0.637). B1665 re-seals the corrected test, a scoreboard. 0 of 19. |  | 0 |
 | `B1665` | THE LAYERS, RE-SEALED (sealed 043c90b6a, sha256 9955d1b6; OPEN: the gate failed again -- the repaired start, the period's lowest point, sits at the corners omega where D also vanishes, and 22 threads gave a one-point phase ratio up to 3.7e6; post-seal the least-squares phase over a whole period equals i^(#L-#R) on all 30 674 threads to 1.4e-8; main's second E74 instance of the day, the seal unreviewed as disclosed). Read-outs identical to B1664's: layer averages of f 0.3144 (traces 451-600) against 0.3692 (t <= 20), the gap falling as t^-0.51; phase-1 coherence slope -0.269 +- 0.083; the cusp family L^(4m+1) R to 0.9923. B1666 seals the robust estimator. 0 of 19. |  | 0 |
 
-## RETRACTED (11)
+## RETRACTED (12)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1543,6 +1543,7 @@
 | `B216` | The verdict that the f>=8 period-law split is genus-theoretic and NEEDS-SPECIALIST was an artifact of testing only the scalars +-I and is withdrawn. |  | 1 |
 | `B225` | The '2 = octahedral parent REFUTED' half is withdrawn as VACUOUS (the bad-prime extraction reports 2 for EVERY monic-in-z input, so specificity at p=2 is zero) and that question returns to OPEN; what SURVIVES is the prime-5 identification -- 5 in the figure-eight character variety's conductor 40 is exactly the golden monodromy branch point x^2=5. |  | 0 |
 | `B437` | The child's 'golden return' is withdrawn as inheritance: the trefoil control shows Q(sqrt5) is slope-5-forced, leaving only generic or class-shared content. |  | 1 |
+| `B519` | The re-mining campaign's B1 'no EXTERNAL crossing' headline is withdrawn by its own correction banner: the refutation conflated Bellissard gap-LABELING (a necessary K-theoretic constraint on where gaps sit) with gap-OPENING (which gaps physically open), so the mixed-chain 2x2 opening pattern is falsifiable and the cell is LIVE again. |  | 1 |
 | `B702` | The arc's law 'metallic hearing iff real-quadratic swap field' is retracted as a swap/weld conflation (both swap fields are imaginary); the silver's exact Q(i) core ratio and rational tones survive. |  | 0 |
 | `B731` | The 'figure-eight knot group is non-congruence' headline is withdrawn: the 2-adic index jumps at level (8), so m004 is a congruence subgroup after all. |  | 0 |
 | `B780` | The c-versus-theta gate's verification and its 8-to-4 enumeration halving are retracted as vacuous: the signatures were hardcoded literals, not computed booleans. |  | 0 |

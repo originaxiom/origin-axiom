@@ -45,7 +45,7 @@ def test_the_verdict_files_and_findings_carry_the_audit():
 
 
 def test_the_pages_carry_the_scopes_and_their_tables_parse():
-    for f in ("README.md", "ROADMAP.md", "docs/MASTERPLAN.md", "docs/OPEN_PROBLEMS.md", "docs/LEAD_REGISTER.md",
+    for f in ("docs/README_HISTORY.md", "ROADMAP.md", "docs/MASTERPLAN.md", "docs/OPEN_PROBLEMS.md", "docs/LEAD_REGISTER.md",
               "docs/PRICED_DOORS.md"):
         t = (ROOT / f).read_text(encoding="utf-8")
         assert "every weight (scoped by B1655: where the inner automorphisms act)" in t, f

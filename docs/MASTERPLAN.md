@@ -417,6 +417,27 @@ readings, mapped the Higgs's three regimes, and stated exactly what the quark mi
 - **Open:** P-357 (what fixes the invariant); the web seat's sealed READING TEST (P-360); Review 69's items R69-1–R69-7.
   **0 of 19.**
 
+## ⟳ VIEW REFRESH — 2026-10-30 (Review 73)
+
+Touched at the Review 73 anchor (`99d90d515`). **The window (B1806–B1817; S244–S263) asked whether symmetry, inversion or the
+clock picks our world. On the record the answer is no, and the final attack was proposed and approved.**
+
+- **Selection by symmetry and inversion** (B1806–B1811): the symmetry-fixed values miss the six, sealed (B1810, B1811);
+  three generations cut a curve, not a point (B1808); four frames leave named data free (B1809).
+- **The towers in F-theory's frame** (B1812, narrowed by this review): the object's word lies in the class of the
+  twelve-brane E₁₀ configuration. Inside it SU(5) ⊂ SO(10) ⊂ E₆ can meet at a point as stacks of A-branes; the object
+  allows the meeting and does not select it.
+- **The clock stays CHOSEN** (B1813–B1816): the measured world does not decide it, sealed (B1814, its read-outs
+  census-dependent); the walk's exit law is Minkowski's (B1815); the accessory parameter is a Weil–Petersson primitive
+  (B1816).
+- **The final act and the final attack** (P-485–P-488; P-495, approved 2026-10-30): explaining as compression with a
+  null; Step A's limit; Step B, the nine from one address, sealed first. B1817: the cusp lepton factor does not track the
+  colour count.
+- **The seats** harvested and verified. **The desk:** phase 1 landed, the panel previewed locally, the context card.
+- **This review:** three arcs re-read in full and three corrected; the full suite run on a fresh clone, where four files
+  the locks read had never been committed (now they are). The README was rewritten from blank at the owner's word.
+- **0 of 19.**
+
 ## ⟳ VIEW REFRESH — 2026-10-29 (Review 72)
 
 Touched at the Review 72 anchor (`5e439a0ce`). **The window (B1793–B1805; S230–S243) turned from fitting to asking why nothing is

@@ -18164,3 +18164,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - Review 73 at the counter, first in THE FINAL ATTACK's approved order; the owner's rulings on P-495, P-496 and P-508 recorded. 0 of 19.
 - **Landing suite (S264).** full suite 7 897 passed, 2 failed, 69 skipped (25:34, -n 12) on a8bf5c143: the two failures are B805's attachment locks (P-239, standing); B1812's new lock (the A-brane stacks) and the repointed B1426 lock pass, and B1602's and B1671's locks read their force-added files.
+
+## 2026-10-30 — S264b Review 73's anchor; the README rewritten from blank
+
+- The anchor-commit (`99d90d515`), the views refreshed at it, and the owner's front door (P-513). 0 of 19.
+- **Landing suite (S264b).** full suite 7 902 passed, 2 failed, 69 skipped (23:44, -n 12) on f8cf03f1b: the two failures are B805's attachment locks (P-239, standing); the front door's five new locks and the four repointed ones pass.

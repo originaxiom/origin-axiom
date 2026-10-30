@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1521 |
+| arcs with a verdict file | 1522 |
 | … PROVED | 1037 |
 | … NEGATIVE | 380 |
 | … OPEN | 93 |
-| … RETRACTED | 11 |
+| … RETRACTED | 12 |
 | register points | 517 |
-| … QUEUED | 190 |
+| … QUEUED | 189 |
 | … LEAD | 10 |
 | … OWNER | 5 |
-| … DONE | 303 |
+| … DONE | 304 |
 | … DECLINED | 9 |
 | harvest rows (the last number) | 1501 |
 | the Standard Model's 19 derived | 0 |
@@ -56,7 +56,6 @@
 
 - ** P-515** (2026-10-30) — THE HISTORY CALENDAR (the owner, the night of 2026-10-29/30: a contribution calendar like GitHub's, 'very very sophisticated and detailed, so we can navigate through the history'; then 'thanks Do It'…
 - ** P-514** (2026-10-30) — THE PROGRAMME SO FAR (the owner, 2026-10-30: 'the panel should include the proven summary of what it actually is so far. from philosophy passage to math, all the way to current state and an explanato…
-- ** P-513** (2026-10-30) — THE README FROM BLANK (the owner, 2026-10-30: 'should the readme in the repo be the same or readme serves other purpose? right now is properly scattered, no?', then 'no i dont like readme as is. id c…
 - ** P-510** (2026-10-30) — KIND_TABLE's KIND CLAUSE FOR THE FRAME'S SUPPORT TESTS (the web seat's map, verified on main): KIND_TABLE's lane for mass ratios is the pair channel, 'CLOSED until one is', and none of B1749, B1753,…
 - ** P-507** (2026-10-29) — THE CONTEXT CARD'S COMPLETENESS CHECKS, FIRST READING (P-506; the card generated at S262): 39 arc folders carry no verdict file (scripts/checks/arc_data.py's resolved classes among them — preregistra…
 - ** P-506** (2026-10-29) — TWO READERS, ONE SOURCE (the owner, 2026-10-29): 'the dashboard should serve us both, me for better visualising the universe we're trying to construct, and the frameworks structure, analyze, and you…
@@ -79,9 +78,11 @@
 - ** P-425** (2026-10-28) — CM BY THE OBJECT'S OWN COMPOSITUM? (B1804's holomorphic frame, SPECULATION until computed): LR acting holomorphically on abelian surfaces with real multiplication by ℤ[φ] (a Hilbert modular surface f…
 - ** P-421** (2026-10-28) — NAME THE END (the web seat's THE EXACT END, reproduced on main; harvest row 1459): the six's best rows take the end as the small-cut norm 2πL + c_s at L = L_max(Im τ) (B1726's compute()), which is no…
 - ** P-419** (2026-10-28) — the same answer, item 3 — SELECTION AS THE OBJECT OF STUDY, by inversion: only one selection mechanism was tried (potentials: mirror-even, landing at fixed points; W51–W175); untried is that the SM's…
+- ** P-418** (2026-10-28) — the owner's question (2026-10-28: analyse the whole framework once more — room for sophistication, what did the period teach): main's answer, item 1 — ONE HONEST SCOREBOARD, total inputs: the 19 cont…
 
 ## The last landings (CHANGELOG)
 
+- S264b REVIEW 73's ANCHOR; THE VIEWS REFRESHED; THE README REWRITTEN FROM BLANK (2026-10-30)
 - S264 REVIEW 73 — the clock decided as CHOSEN, the final attack approved, B1812 narrowed, the fresh clone run (2026-10-30)
 - S263 THE SEATS HARVESTED; THE FINAL ACT'S BAR AND THE MAP ADOPTED; THE TWO TIERS; THE TOOLS ADOPTED AND CALIBRATED (2026-10-30)
 - S262 THE WORKDESK, PHASE 1 (the desk from main's record); THE OWNER'S RULINGS ON THE SITE AND THE PANEL (2026-10-29)
@@ -89,7 +90,6 @@
 - S260 B1816 THE CANONICAL END'S ACCESSORY PARAMETER IS A WEIL-PETERSSON PRIMITIVE; B1817 THE CUSP LEPTON FACTOR DOES NOT TRACK THE COLOUR COUNT; W150 VERIFIED ON MAIN (2026-10-29)
 - S259 THE WEB SEAT'S CRITICAL LINE AND LIMITS, VERIFIED AND HARVESTED (2026-10-29)
 - S258 B1815 THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY (2026-10-29)
-- S257 THE CLOCK AND THE NEXT ATTACK — the owner's briefing (2026-10-29)
 
 ## The latest campaign line
 

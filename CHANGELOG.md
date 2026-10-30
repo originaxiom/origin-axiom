@@ -1,5 +1,10 @@
 # Changelog
 
+## S264b REVIEW 73's ANCHOR; THE VIEWS REFRESHED; THE README REWRITTEN FROM BLANK (2026-10-30)
+
+- **The anchor** (`99d90d515`): the review counter resets; the seven hand-kept navigation views carry Review 73's refresh; INDEX's and MAIN_GOAL's currency re-stamped.
+- **The README from blank** (P-513, the owner's word): what the programme is, a state block generated at every landing (scripts/views/generate.py; the views gate compares and restores it), where to start, how the record is kept, how to check it, the provenance statement. The old text is archived byte for byte in docs/README_HISTORY.md (its sha-256 in the header); the locks that read its anchors (B1009, B1458, B1655, the stale-absence lock) read the archive; a new lock checks the block against a recount, every link, and the archive's hash. 0 of 19.
+
 ## S264 REVIEW 73 — the clock decided as CHOSEN, the final attack approved, B1812 narrowed, the fresh clone run (2026-10-30)
 
 - **Review 73** (docs/progress/REVIEWS.md; 27 commits, B1806-B1817), first in the owner's approved order for THE FINAL ATTACK: Review 72's loop closed (R72-1, R72-2 resolved; five items carried with their state restated); 13 branch leaves registered; three arcs read in full by seed by a reader, two by main; the full suite on a fresh clone (P-511): 6 failures against main's 2 -- two more E94 instances (force-added), a lock that rewrote its tracked evidence from the machine's git remotes (fixed), a lock that needs the seat branches (a clone artefact), and B805's two standing; E94 registered (a lock reading an ignored output); the window's terms glossed in TERMINOLOGY.md; no promotion; the two seals intact, off the mirror only because the drive is unmounted.

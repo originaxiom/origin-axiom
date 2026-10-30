@@ -12,8 +12,9 @@ import pathlib
 import re
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
+# S264b (2026-10-30, P-513): the README's old text is archived byte for byte in docs/README_HISTORY.md; the withdrawal note lives there now
 VIEWS = ["ROADMAP.md", "docs/MASTERPLAN.md", "docs/OPEN_PROBLEMS.md",
-         "docs/PRICED_DOORS.md", "README.md"]
+         "docs/PRICED_DOORS.md", "docs/README_HISTORY.md"]
 
 
 def test_the_endpoint_overreach_stays_withdrawn():
