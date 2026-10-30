@@ -18,11 +18,11 @@
 | … NEGATIVE | 381 |
 | … OPEN | 93 |
 | … RETRACTED | 12 |
-| register points | 540 |
-| … QUEUED | 204 |
+| register points | 546 |
+| … QUEUED | 207 |
 | … LEAD | 10 |
 | … OWNER | 5 |
-| … DONE | 312 |
+| … DONE | 315 |
 | … DECLINED | 9 |
 | harvest rows (the last number) | 1509 |
 | the Standard Model's 19 derived | 0 |
@@ -54,6 +54,7 @@
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
+- ** P-543** (2026-10-30) — TWO DIRECTIONS LOOK STRUCTURALLY DEAD FOR OUR WORLD (the interpolant's diagnosis, line (2/5, 1/10)): R and t = -5/288 carry m1/m3 and J at roundoff (<= 1e-13; m1 = 0 where the coupling has rank 2, P-…
 - ** P-538** (2026-10-30) — THE PRICE OF A PRINCIPLED LINE ON STEP B's CARD (the web seat's P-530 § 6.2, harvest row 1508): the record's principles admit different lines (closure around the tick, w = 0; move-invariance, w = 0 o…
 - ** P-535** (2026-10-30) — THE LAB'S SEAL-ORDER FINDINGS (the panel's Tests view, checking all 353 sealed tests against git; two checked by main): B496's sealed PREREGISTRATION retitled B493 → B496 after its record (88f293a41)…
 - ** P-533** (2026-10-30) — HOSTINGER: MANAGE THE WEBSITES, REPLACE ORIGINAXIOM.ORG (the owner, 2026-10-30: 'how can i make you connect to hostinger so you can manage my websites, delete the old originaxiom.org site and build n…
@@ -78,10 +79,10 @@
 - ** P-474** (2026-10-29) — DOOR D — A CLOCK-FREE OBSERVABLE: the dimension d = h/λ of a history's endpoint law is 0 on the principle's golden path, log 2/0.7924 = 0.875 for fair-coin letters (Kinney's dimension of Minkowski's…
 - ** P-468** (2026-10-29) — PICKED IN COMBINATION (the owner: what if the two clocks pick Im τ ≈ 3 in combination?): a falling height distribution sets at most a scale; a point needs a rising factor times a falling one. Four pr…
 - ** P-465** (2026-10-29) — THE PRINCIPLE AS THE SELECTION (the owner, 2026-10-29: could the selection principle that chooses our world be the initial a → ab, b → a principle itself?): iterated as a history, the principle is th…
-- ** P-443** (2026-10-29) — INHERITED ASSUMPTIONS (the owner, 2026-10-29: 'maybe our whole understanding is crippled, how science sees the standard model, spacetime parameters … we inherit that misunderstanding'): main's reply…
 
 ## The last landings (CHANGELOG)
 
+- S276 STEP B's GENERATOR REBUILT ON THE CENSUS's MEASURED INTERPOLANT; THE FIFTH PRE-SEAL REVIEW ANSWERED (2026-10-30)
 - S275 THE NOTES OWED SINCE B1822: T-NORM IS A CHOSEN INPUT, DATED WHERE THE RECORD USED IT (2026-10-30)
 - S274 THE WEB SEAT'S FIVE RELAYS VERIFIED AND HARVESTED; B933's SYMMETRY CORRECTED (2026-10-30)
 - S273 B1823 STEP A v2 NEGATIVE AS A COMPRESSION; B1824 TWO DECLARED DIRECTIONS ARE ONE (2026-10-30)
@@ -89,11 +90,10 @@
 - S271 B1822 T-NORM ON THE FRAME'S MATTER: EXACT IN THE CHOSEN METRIC, WHICH THE FLAT STRUCTURE DOES NOT FORCE (2026-10-30)
 - S270 THE WEB SEAT'S THREE RELAYS VERIFIED AND HARVESTED: P-512 DERIVED AT LEADING ORDER; P-510 RULED (FIX THE FRAME: T-NORM); ITS ATTACK READ (2026-10-30)
 - S269 B1821 THE FRAME'S MIRROR SYMMETRY; STEP B's DESIGN THROUGH ITS SECOND PRE-SEAL REVIEW (2026-10-30)
-- S268 B1820 THE RIGID CENSUS'S CURVATURE ALONG Re τ: THE REFINEMENT IS NEAR-UNIFORM (2026-10-30)
 
 ## The latest campaign line
 
-LATEST (2026-10-30, S275: a debt paid. When the frame's normalisation of the three generations turned out to be a choice rather than a consequence (B1822), the earlier tests and rules that had assumed it were owed a dated note. They have them now, and every seat has been told. Their verdicts stand, for the frame as chosen. 0 of 19.)
+LATEST (2026-10-30, S276: the machine that will grade the final attack's Step B was rebuilt after it was tested against the real computation. Filling in between the census's grid points works almost everywhere. It fails at isolated points where a mixing angle or a mass vanishes, and it now follows the lines where CP violation changes sign; worlds the frame makes are still found 99.6% of the time, against 91% without filling in, and every decision on the filled-in frame is bounded rigorously. A fifth independent hostile review found two real bugs; both are fixed and tested. The census completes tonight, and the test is sealed before any measured number is compared. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

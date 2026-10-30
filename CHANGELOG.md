@@ -1,5 +1,13 @@
 # Changelog
 
+## S276 STEP B's GENERATOR REBUILT ON THE CENSUS's MEASURED INTERPOLANT; THE FIFTH PRE-SEAL REVIEW ANSWERED (2026-10-30)
+
+- **The interpolant's diagnosis** (a 5 × 5 patch of the real evaluator and 81 fresh points on it; data-free): interpolation fails only at isolated zeros (|V_ub|, |V_cb| or m1 vanishing at a point) and on J's zero curves; worlds planted from the frame are reached 99.6% of the time interpolated and 90.8% node-only; the 4 × 4 Gauss rule errs up to 6.5 bits on a choice's τ total, 16 × 16 up to 0.004. Rank-2 directions (m1 = 0) and real-CKM directions (J = 0) appear as roundoff, below 10⁻¹³.
+- **The generator rebuilt** (scripts/stepb/; tests/stepb/): J interpolated signed; Bernstein enclosures and a branch-and-bound decide S on the interpolant; K's windows drop at most 2^−30 of their mass, rigorously bounded, with 4/16/32 tiered quadrature and a convergence flag; BL1's null draws its CKM from the frame's physical choices; p_K = 2^−C_ten and p_CKM = 2^−bits_CKM are exact likelihood-ratio bounds (P-544); the census certification's gate is the planted miss rate (P-545); every pre-seal script refuses an unpushed manifest; the σ-only file (B1741's σ and J's PDG 2024 relative error).
+- **The fifth hostile pre-seal review** (GO WITH FIXES; generator_review_5): B1, the least-χ² search unseeded (a node-only argmin returned inf or too high), and B2, the certification without the push guard, fixed with tests that kill the old code; nine non-blocking findings taken (undecided worlds counted in p2's upper end; K UNJUDGED unless converged; the Markov check on the supported worlds; the void rule; J pinned on the card; a driver smoke test end to end).
+- **Bugs the new tests caught on the way:** K's numerator windowed on the six (bits off by ~100 on a badly predicted CKM); the threshold search pruning against best − tol; the sub-block border row Im 1.5 without stencils (1% of rows node-only).
+- Register: P-541–P-546 (FLOOR 546); notes on P-534, P-538 and P-474; B1741's J constant dated (P-546). 0 of 19.
+
 ## S275 THE NOTES OWED SINCE B1822: T-NORM IS A CHOSEN INPUT, DATED WHERE THE RECORD USED IT (2026-10-30)
 
 - **P-539 and P-532 closed** (found by main's verifier of the web seat's P-510 pointer): dated notes on KIND_TABLE's pair-channel line (in field form no frame-invariant residue exists, so the lane is met only by fixing the frame), on B1643's C2 (its frame clause applies to mixings computed from a frame's Yukawas too) and its double-ratio bullet, on I-33 (outside its earning cell), and on FR-FIB's support tests B1749, B1753, B1786, B1811 and B1814 (each graded the frame with T-NORM assumed; their verdicts stand for FR-FIB with H = I). The correction relay to all seats sent. 0 of 19.

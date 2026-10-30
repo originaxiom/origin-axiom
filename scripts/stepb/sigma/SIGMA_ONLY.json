@@ -1,0 +1,45 @@
+{
+ "what": "Step B's sigma-only file: natural-log sigmas of the ten (the relative error in quadrature with ALLOW); no central value",
+ "order": [
+  "c/t",
+  "u/t",
+  "s/b",
+  "d/b",
+  "mu/tau",
+  "e/tau",
+  "|V_us|",
+  "|V_cb|",
+  "|V_ub|",
+  "|J|"
+ ],
+ "allow": 0.1,
+ "sigma_natural_log": [
+  0.10378674926018663,
+  0.1979120617487184,
+  0.13268050100375323,
+  0.12307626351310923,
+  0.10000038659384412,
+  0.10000446994766284,
+  0.1000456546548568,
+  0.10176777363132819,
+  0.10286675687247873,
+  0.10774047521706966
+ ],
+ "relative_errors_implied": [
+  0.027779296643307014,
+  0.1707898831477688,
+  0.08720157880799498,
+  0.07174793823064396,
+  0.0002780627955665903,
+  0.0009455207628590586,
+  0.003022087907204082,
+  0.018885967009323514,
+  0.024115755627009662,
+  0.040099999999999976
+ ],
+ "sources": {
+  "nine": "B1741 compare.sigmas() (its sealed measure), called once by extract_sigma.py; central values not read",
+  "J": "PDG 2024 CKM review (Phys. Rev. D 110, 030001, section 12.3), the global fit's asymmetric error symmetrised: relative 0.0401"
+ },
+ "written": "2026-10-30, once; disclosed as seen (THE FINAL ATTACK, Step B card section 7)"
+}

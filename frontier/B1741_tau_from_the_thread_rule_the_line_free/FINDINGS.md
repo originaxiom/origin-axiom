@@ -5,6 +5,10 @@ READING: τ placed by a rule and the line chosen from a finite list, both ingred
 (main), 2026-10-23, at the owner's recheck of τ. Sealed `acd2fec77` (sha256 7a8eeb8a) before its instruments ran; the
 census outputs committed unread at `3da06f258`, the comparison's at `624f93419`, then read once. **0 of 19.**
 
+> *2026-10-30 (S276, P-546; found by Step B's fifth pre-seal review): verification/compare.py's constant J_PDG =
+> 3.08 × 10⁻⁵ (+0.15 −0.13), labelled the 2024 edition, is the PDG 2022 global fit's value; the PDG 2024 CKM review's
+> § 12.3 reads J = 3.12^{+0.13}_{−0.12} × 10⁻⁵. This arc's grades did not use J; its verdict stands.*
+
 ## 1. The result
 
 75 distinct apex points of B1720's 121 thread classes (Im τ = Lagrange/2) × all 266 lines of order 1–12 = 19 950

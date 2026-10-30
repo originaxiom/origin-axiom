@@ -18224,3 +18224,9 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - T-NORM dated where the record used it; P-532 and P-539 closed; the correction relay sent. 0 of 19.
 - **Landing suite (S275).** full suite 7 926 passed, 7 failed, 69 skipped (49:53, -n 8, beside the refined census on eight workers) on 6180ffa48: two failures are B805's attachment locks (P-239, standing); four (B1266's and B1421's source partition) came from row ids this landing wrote into I-31's earning cell, reworded before the push and the four locks rerun green (8 passed with their neighbours); one (B137's m2 seal) failed under load and passes alone (67 s). The B933 lock passes.
+
+## 2026-10-30 — S276 Step B's generator rebuilt on the measured interpolant; the fifth pre-seal review answered
+
+- The diagnosis on the real evaluator, the rebuilt generator (cells.py, kten.py; the drivers; the certification's planted gate), the fifth review's two blocking findings fixed and tested, P-541–P-546. 0 of 19.
+- **Landing suite (S276).** full suite 8 003 passed, 2 failed, 69 skipped (55:17, -n 8, beside the refined census on eight workers) on 5dacd6de4: the two failures are B805's attachment locks (P-239, standing). Step B's 72 new locks (tests/stepb) pass.
+
