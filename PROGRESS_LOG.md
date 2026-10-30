@@ -18159,3 +18159,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The audit lane's P210 executed and reproduced; the web seat's bar, map and the owner's word on the gates verified and adopted; the tools for running, group theory, evidence and search adopted with calibrations. 0 of 19.
 - **Landing suite (S263).** full suite 7 896 passed, 2 failed, 69 skipped (24:35, -n 12) on 214964e3b: the two failures are B805's attachment locks (P-239, standing); B1817's lock now reads its force-added map, and the harvest locks pass on the 8-character pins.
+
+## 2026-10-30 — S264 Review 73
+
+- Review 73 at the counter, first in THE FINAL ATTACK's approved order; the owner's rulings on P-495, P-496 and P-508 recorded. 0 of 19.
+- **Landing suite (S264).** full suite 7 897 passed, 2 failed, 69 skipped (25:34, -n 12) on a8bf5c143: the two failures are B805's attachment locks (P-239, standing); B1812's new lock (the A-brane stacks) and the repointed B1426 lock pass, and B1602's and B1671's locks read their force-added files.

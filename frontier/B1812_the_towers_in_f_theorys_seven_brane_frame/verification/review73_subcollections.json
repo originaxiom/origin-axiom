@@ -1,0 +1,390 @@
+{
+ "sub_collections": [
+  {
+   "sub": "A^1",
+   "word": "A",
+   "branes": 1,
+   "trace": 2,
+   "collapsible_as": [
+    "I_1",
+    "su(1)"
+   ]
+  },
+  {
+   "sub": "A^0B",
+   "word": "B",
+   "branes": 1,
+   "trace": 2,
+   "collapsible_as": [
+    "I_1",
+    "su(1)"
+   ]
+  },
+  {
+   "sub": "C",
+   "word": "C",
+   "branes": 1,
+   "trace": 2,
+   "collapsible_as": [
+    "I_1",
+    "su(1)"
+   ]
+  },
+  {
+   "sub": "A^2",
+   "word": "AA",
+   "branes": 2,
+   "trace": 2,
+   "collapsible_as": [
+    "I_2",
+    "su(2)"
+   ]
+  },
+  {
+   "sub": "A^1B",
+   "word": "AB",
+   "branes": 2,
+   "trace": 1,
+   "collapsible_as": [
+    "II",
+    "-"
+   ]
+  },
+  {
+   "sub": "A^0BC",
+   "word": "BC",
+   "branes": 2,
+   "trace": -2,
+   "collapsible_as": null
+  },
+  {
+   "sub": "CC",
+   "word": "CC",
+   "branes": 2,
+   "trace": 2,
+   "collapsible_as": [
+    "I_2",
+    "su(2)"
+   ]
+  },
+  {
+   "sub": "A^3",
+   "word": "AAA",
+   "branes": 3,
+   "trace": 2,
+   "collapsible_as": [
+    "I_3",
+    "su(3)"
+   ]
+  },
+  {
+   "sub": "A^2B",
+   "word": "AAB",
+   "branes": 3,
+   "trace": 0,
+   "collapsible_as": [
+    "III",
+    "su(2)"
+   ]
+  },
+  {
+   "sub": "A^1BC",
+   "word": "ABC",
+   "branes": 3,
+   "trace": -2,
+   "collapsible_as": null
+  },
+  {
+   "sub": "A^0BCC",
+   "word": "BCC",
+   "branes": 3,
+   "trace": -6,
+   "collapsible_as": null
+  },
+  {
+   "sub": "A^4",
+   "word": "AAAA",
+   "branes": 4,
+   "trace": 2,
+   "collapsible_as": [
+    "I_4",
+    "su(4)"
+   ]
+  },
+  {
+   "sub": "A^3B",
+   "word": "AAAB",
+   "branes": 4,
+   "trace": -1,
+   "collapsible_as": [
+    "IV",
+    "su(3)"
+   ]
+  },
+  {
+   "sub": "A^2BC",
+   "word": "AABC",
+   "branes": 4,
+   "trace": -2,
+   "collapsible_as": null
+  },
+  {
+   "sub": "A^1BCC",
+   "word": "ABCC",
+   "branes": 4,
+   "trace": -5,
+   "collapsible_as": null
+  },
+  {
+   "sub": "A^5",
+   "word": "AAAAA",
+   "branes": 5,
+   "trace": 2,
+   "collapsible_as": [
+    "I_5",
+    "su(5)"
+   ]
+  },
+  {
+   "sub": "A^4B",
+   "word": "AAAAB",
+   "branes": 5,
+   "trace": -2,
+   "collapsible_as": null
+  },
+  {
+   "sub": "A^3BC",
+   "word": "AAABC",
+   "branes": 5,
+   "trace": -2,
+   "collapsible_as": null
+  },
+  {
+   "sub": "A^2BCC",
+   "word": "AABCC",
+   "branes": 5,
+   "trace": -4,
+   "collapsible_as": null
+  },
+  {
+   "sub": "A^6",
+   "word": "AAAAAA",
+   "branes": 6,
+   "trace": 2,
+   "collapsible_as": [
+    "I_6",
+    "su(6)"
+   ]
+  },
+  {
+   "sub": "A^5B",
+   "word": "AAAAAB",
+   "branes": 6,
+   "trace": -3,
+   "collapsible_as": null
+  },
+  {
+   "sub": "A^4BC",
+   "word": "AAAABC",
+   "branes": 6,
+   "trace": -2,
+   "collapsible_as": [
+    "I_0*",
+    "so(8)"
+   ]
+  },
+  {
+   "sub": "A^3BCC",
+   "word": "AAABCC",
+   "branes": 6,
+   "trace": -3,
+   "collapsible_as": null
+  },
+  {
+   "sub": "A^7",
+   "word": "AAAAAAA",
+   "branes": 7,
+   "trace": 2,
+   "collapsible_as": [
+    "I_7",
+    "su(7)"
+   ]
+  },
+  {
+   "sub": "A^6B",
+   "word": "AAAAAAB",
+   "branes": 7,
+   "trace": -4,
+   "collapsible_as": null
+  },
+  {
+   "sub": "A^5BC",
+   "word": "AAAAABC",
+   "branes": 7,
+   "trace": -2,
+   "collapsible_as": [
+    "I_1*",
+    "so(10)"
+   ]
+  },
+  {
+   "sub": "A^4BCC",
+   "word": "AAAABCC",
+   "branes": 7,
+   "trace": -2,
+   "collapsible_as": [
+    "I_1*",
+    "so(10)"
+   ]
+  },
+  {
+   "sub": "A^8",
+   "word": "AAAAAAAA",
+   "branes": 8,
+   "trace": 2,
+   "collapsible_as": [
+    "I_8",
+    "su(8)"
+   ]
+  },
+  {
+   "sub": "A^7B",
+   "word": "AAAAAAAB",
+   "branes": 8,
+   "trace": -5,
+   "collapsible_as": null
+  },
+  {
+   "sub": "A^6BC",
+   "word": "AAAAAABC",
+   "branes": 8,
+   "trace": -2,
+   "collapsible_as": [
+    "I_2*",
+    "so(12)"
+   ]
+  },
+  {
+   "sub": "A^5BCC",
+   "word": "AAAAABCC",
+   "branes": 8,
+   "trace": -1,
+   "collapsible_as": [
+    "IV*",
+    "e6"
+   ]
+  },
+  {
+   "sub": "A^9",
+   "word": "AAAAAAAAA",
+   "branes": 9,
+   "trace": 2,
+   "collapsible_as": [
+    "I_9",
+    "su(9)"
+   ]
+  },
+  {
+   "sub": "A^8B",
+   "word": "AAAAAAAAB",
+   "branes": 9,
+   "trace": -6,
+   "collapsible_as": null
+  },
+  {
+   "sub": "A^7BC",
+   "word": "AAAAAAABC",
+   "branes": 9,
+   "trace": -2,
+   "collapsible_as": [
+    "I_3*",
+    "so(14)"
+   ]
+  },
+  {
+   "sub": "A^6BCC",
+   "word": "AAAAAABCC",
+   "branes": 9,
+   "trace": 0,
+   "collapsible_as": [
+    "III*",
+    "e7"
+   ]
+  },
+  {
+   "sub": "A^9B",
+   "word": "AAAAAAAAAB",
+   "branes": 10,
+   "trace": -7,
+   "collapsible_as": null
+  },
+  {
+   "sub": "A^8BC",
+   "word": "AAAAAAAABC",
+   "branes": 10,
+   "trace": -2,
+   "collapsible_as": [
+    "I_4*",
+    "so(16)"
+   ]
+  },
+  {
+   "sub": "A^7BCC",
+   "word": "AAAAAAABCC",
+   "branes": 10,
+   "trace": 1,
+   "collapsible_as": [
+    "II*",
+    "e8"
+   ]
+  },
+  {
+   "sub": "A^9BC",
+   "word": "AAAAAAAAABC",
+   "branes": 11,
+   "trace": -2,
+   "collapsible_as": [
+    "I_5*",
+    "so(18)"
+   ]
+  },
+  {
+   "sub": "A^8BCC",
+   "word": "AAAAAAAABCC",
+   "branes": 11,
+   "trace": 2,
+   "collapsible_as": null
+  },
+  {
+   "sub": "A^9BCC",
+   "word": "AAAAAAAAABCC",
+   "branes": 12,
+   "trace": 3,
+   "collapsible_as": null
+  }
+ ],
+ "chain": {
+  "AAAAA": [
+   "I_5",
+   "su(5)"
+  ],
+  "AAAAABC": [
+   "I_1*",
+   "so(10)"
+  ],
+  "AAAAABCC": [
+   "IV*",
+   "e6"
+  ],
+  "AAABCC": null,
+  "AABCC": null,
+  "AAA": [
+   "I_3",
+   "su(3)"
+  ],
+  "AA": [
+   "I_2",
+   "su(2)"
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+TT k=1: weakly-hol null 8, with cusp 1, pieces {'D': 0, 'O+': 1, 'O-': 0, 'total': 1}
+TT k=3: weakly-hol null 9, with cusp 2, pieces {'D': 0, 'O+': 1, 'O-': 1, 'total': 2}
+TT k=5: weakly-hol null 11, with cusp 4, pieces {'D': 1, 'O+': 2, 'O-': 1, 'total': 4}
+TT k=7: weakly-hol null 12, with cusp 5, pieces {'D': 1, 'O+': 2, 'O-': 2, 'total': 5}
+TT k=9: weakly-hol null 14, with cusp 7, pieces {'D': 2, 'O+': 3, 'O-': 2, 'total': 7}
+TT k=11: weakly-hol null 15, with cusp 8, pieces {'D': 2, 'O+': 3, 'O-': 3, 'total': 8}
+B1635 table reproduced: True
+TbT k=0: {'D': 1, 'O+': 0, 'O-': 0, 'total': 1}
+TbT k=2: {'D': 1, 'O+': 1, 'O-': 1, 'total': 2}
+TbT k=4: {'D': 2, 'O+': 2, 'O-': 2, 'total': 4}
+TbT k=6: {'D': 2, 'O+': 3, 'O-': 3, 'total': 5}
+weight 1 generic member 0: det/(eta^6) = (-58687.288 - 6092.2663j), (-58687.288 - 6092.2663j), (-58687.288 - 6092.2663j), (-58687.288 - 6092.2663j)  spread 2.81e-10
+weight 3 generic member 0: det/(eta^6 E6) = (-4554.5283 - 8318.0866j), (-4554.5283 - 8318.0866j), (-4554.5283 - 8318.0866j), (-4554.5283 - 8318.0866j)  spread 1.14e-9
+weight 3 generic member 1: det/(eta^6 E6) = (31309.189 + 42982.185j), (31309.189 + 42982.185j), (31309.189 + 42982.185j), (31309.189 + 42982.185j)  spread 3.25e-10
+weight 5 generic member 0: det/(eta^6) = (-7545.7495 - 13125.145j), (30077.192 + 4712.1519j), (-3885.3728 - 12429.134j), (-3902.174 - 12403.693j)  spread 27.5
+weight 5 generic member 1: det/(eta^6) = (-16369.441 + 14104.227j), (121939.33 - 66740.947j), (-1934.0275 - 6212.6427j), (-1850.9789 - 6056.5236j)  spread 39.0
+weight5 det/eta^6 fit to a E4^3 + b Delta: coeffs (1873.45 - 4962.3j) (6.37566e+6 + 2.98548e+6j) max rel resid 4.45e-10

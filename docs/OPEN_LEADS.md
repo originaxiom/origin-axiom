@@ -4229,7 +4229,8 @@ stage in the twisted frame and tested it once against data.**
   - B1806 and B1807: the special points' first generation.
   - B1808: three generations cut a curve, not a point.
   - B1810 and B1811: the symmetry-selected values miss the six, sealed.
-  - B1812: the towers do not meet at loci in the 7-brane frame.
+  - B1812: the towers do not meet at loci in the 7-brane frame *[narrowed 2026-10-30, Review 73: not as the nested E₃
+    and E₄ pieces; as stacks of A-branes SU(5) ⊂ SO(10) ⊂ E₆ can meet at a point, allowed and not chosen by the object]*.
   - B1809: what four frames leave free.
 - **The clock** (P-437–P-442):
   - B1813: the weave's measure depends on how threads are counted.

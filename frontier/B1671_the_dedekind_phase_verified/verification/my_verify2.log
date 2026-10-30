@@ -1,0 +1,49 @@
+char poly lead coeff -1
+e1^2-4e2 = 0
+Heron-type identity residual: 0
+det Y = 0
+tau (0.130000000000000004440892098501 + 1.20999999999999996447286321199j) det Y1/eta^6 = (8.0 + 1.36829412136604e-32j)
+tau (-0.30999999999999999777955395075 + 0.949999999999999955591079014994j) det Y1/eta^6 = (8.0 + 2.65481752725632e-32j)
+tau (0.450000000000000011102230246252 + 2.0j) det Y1/eta^6 = (8.0 - 8.13583933584115e-31j)
+T-covariance err 0.0 S-covariance err (weight 1) 1.1443916996305594e-16
+eta T: (0.9659258262890683+0.25881904510252074j) (0.9659258262890683+0.25881904510252074j)  eta S ratio / (tau^{1/2}): (0.7071067811865476-0.7071067811865476j) (0.7071067811865476-0.7071067811865475j)
+det rhobar(t)^2 = (-6.106226635438361e-15+1.0000000000000013j)  chi_eta(t)^6= (2.7755575615628914e-16+1j)
+det rhobar(s)^2 = (1.3600232051658168e-14+1j)  chi_eta(s)^6= (-6.661338147750939e-16+1j)
+TT k=1: pre-cusp null 17 (sv gap (np.float64(1.126501280484483e-08), np.float64(5.717382548664729e-10))), with cusp 1, pieces {'D': 0, 'O+': 1, 'O-': 0, 'total': 1}  [3s]
+TT k=3: pre-cusp null 27 (sv gap (np.float64(2.17720593160471e-09), np.float64(1.7164671907809365e-10))), with cusp 11, pieces {'D': 4, 'O+': 4, 'O-': 4, 'total': 11}  [3s]
+TT k=5: pre-cusp null 47 (sv gap (np.float64(1.1410510939672602e-09), np.float64(2.7022132705103086e-10))), with cusp 31, pieces {'D': 11, 'O+': 12, 'O-': 12, 'total': 31}  [3s]
+TT k=7: pre-cusp null 74 (sv gap (np.float64(1.0056904551448444e-09), np.float64(9.654213986456162e-10))), with cusp 58, pieces {'D': 19, 'O+': 20, 'O-': 20, 'total': 58}  [3s]
+TT k=9: pre-cusp null 95 (sv gap (np.float64(1.9354759792777864e-09), np.float64(5.08843474269632e-10))), with cusp 79, pieces {'D': 27, 'O+': 27, 'O-': 26, 'total': 79}  [4s]
+TT k=11: pre-cusp null 114 (sv gap (np.float64(1.2319677576314132e-09), np.float64(4.3133855958848315e-10))), with cusp 96, pieces {'D': 33, 'O+': 33, 'O-': 33, 'total': 96}  [4s]
+TbT k=0: null 1 (gap (np.float64(3.1513673686993005), np.float64(4.2368497459353006e-15))) pieces {'D': 1, 'O+': 0, 'O-': 0, 'total': 1}
+TbT k=2: null 2 (gap (np.float64(0.047636473018403694), np.float64(4.0256503689108854e-15))) pieces {'D': 1, 'O+': 1, 'O-': 1, 'total': 2}
+TbT k=4: null 4 (gap (np.float64(0.0005154860673193725), np.float64(1.8332309624421038e-15))) pieces {'D': 2, 'O+': 2, 'O-': 2, 'total': 4}
+TbT k=6: null 5 (gap (np.float64(6.49441440428427e-06), np.float64(2.728014578315875e-15))) pieces {'D': 2, 'O+': 3, 'O-': 3, 'total': 5}
+B1635 table reproduced by my solver: False
+weight3 dim 11
+ generic weight-3 member 0: det/(eta^6 E6) at 5 tau = [-26295.640568-88595.78098j  -26295.640507-88595.780976j
+ -26295.636713-88595.775683j -26295.640609-88595.781009j
+ -26295.640138-88595.781653j] spread 7.09e-08; symmetric? 4.28e+01
+ generic weight-3 member 1: det/(eta^6 E6) at 5 tau = [-53868.831311+73726.913845j -53868.831317+73726.913872j
+ -53868.833835+73726.915541j -53868.831295+73726.913827j
+ -53868.830979+73726.914099j] spread 3.33e-08; symmetric? 2.81e+01
+ generic weight-3 member 2: det/(eta^6 E6) at 5 tau = [-32209.813357-1041.75416j  -32209.813347-1041.754178j
+ -32209.811677-1041.754645j -32209.813369-1041.754152j
+ -32209.813521-1041.754344j] spread 5.42e-08; symmetric? 4.72e+01
+ generic weight-2 Dirac member 0: det/E6 = [0.30455-0.436543j 0.30455-0.436543j 0.30455-0.436543j 0.30455-0.436543j
+ 0.30455-0.436543j] spread 1.56e-15
+ generic weight-2 Dirac member 1: det/E6 = [-0.403606+0.157074j -0.403606+0.157074j -0.403606+0.157074j
+ -0.403606+0.157074j -0.403606+0.157074j] spread 1.86e-15
+x=-0.50  y=1.0 dev 0.00e+00  y=2.5 dev 0.00e+00  (bound 12*2*exp(-2 pi y) = 1.81e-06)
+x=-0.40  y=1.0 dev 1.31e-02  y=2.5 dev 1.06e-06  (bound 12*2*exp(-2 pi y) = 1.81e-06)
+x=-0.30  y=1.0 dev 2.13e-02  y=2.5 dev 1.72e-06  (bound 12*2*exp(-2 pi y) = 1.81e-06)
+x=-0.20  y=1.0 dev 2.13e-02  y=2.5 dev 1.72e-06  (bound 12*2*exp(-2 pi y) = 1.81e-06)
+x=-0.10  y=1.0 dev 1.32e-02  y=2.5 dev 1.06e-06  (bound 12*2*exp(-2 pi y) = 1.81e-06)
+x=0.00  y=1.0 dev 0.00e+00  y=2.5 dev 0.00e+00  (bound 12*2*exp(-2 pi y) = 1.81e-06)
+x=0.10  y=1.0 dev 1.32e-02  y=2.5 dev 1.06e-06  (bound 12*2*exp(-2 pi y) = 1.81e-06)
+x=0.20  y=1.0 dev 2.13e-02  y=2.5 dev 1.72e-06  (bound 12*2*exp(-2 pi y) = 1.81e-06)
+x=0.30  y=1.0 dev 2.13e-02  y=2.5 dev 1.72e-06  (bound 12*2*exp(-2 pi y) = 1.81e-06)
+x=0.40  y=1.0 dev 1.31e-02  y=2.5 dev 1.06e-06  (bound 12*2*exp(-2 pi y) = 1.81e-06)
+x=0.50  y=1.0 dev 0.00e+00  y=2.5 dev 0.00e+00  (bound 12*2*exp(-2 pi y) = 1.81e-06)
+max dev y>=1: 0.021349358007618058
+arg det(Y1)^2 = 0.7225657996903604   pi*x = 0.7225663103256524  12 arg eta = 0.7225657996903603

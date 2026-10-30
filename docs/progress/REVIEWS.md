@@ -7648,12 +7648,177 @@ This review found no discrepancy.
 Nothing in the window meets the § 5 bars. No arc is PASSED, and no input is removed.
 
 ### Action items (Review 72)
-- [ ] R72-1: the owner's decisions — P-406 or a selection principle (with P-419's first test, B1804, in hand); P-407 (the style rules); P-417's WORKING_RULES line; P-420's go (owner: the owner)
-- [ ] R72-2: the seats' answers to main's two relays (the four decisions; the workdesk), rowed and put to the owner (owner: cc)
-- [>] R72-3: push the owner's mirror when the drive is reconnected (carried from R71-8; owner: the owner, then cc)
-- [>] R72-4: main's review of the audit lane's two analytic proofs when P-396 yields a value (carried from R71-9; owner: cc)
-- [>] R72-5: main's plan's next steps P-394, P-397, P-398, or their retirement if the owner takes reading 2 (carried from R71-10; owner: cc)
-- [ ] R72-6: the cells registered by this review (P-426–P-430) worked in the queue's order (owner: cc)
-- [ ] R72-7: P-417's remaining steps (classification, banners, surfaces, the retraction grep) and P-421 (name the end) (owner: cc)
+- [x] R72-1: the owner's decisions — P-406 or a selection principle (with P-419's first test, B1804, in hand); P-407 (the style rules); P-417's WORKING_RULES line; P-420's go (owner: the owner)
+- [x] R72-2: the seats' answers to main's two relays (the four decisions; the workdesk), rowed and put to the owner (owner: cc)
+- [>] R72-3: push the owner's mirror when the drive is reconnected (carried from R71-8; owner: the owner, then cc) — carried to Review 73 as R73-1
+- [>] R72-4: main's review of the audit lane's two analytic proofs when P-396 yields a value (carried from R71-9; owner: cc) — carried to Review 73 as R73-2
+- [>] R72-5: main's plan's next steps P-394, P-397, P-398, or their retirement if the owner takes reading 2 (carried from R71-10; owner: cc) — carried to Review 73 as R73-3
+- [>] R72-6: the cells registered by this review (P-426–P-430) worked in the queue's order (owner: cc) — carried to Review 73 as R73-4
+- [>] R72-7: P-417's remaining steps (classification, banners, surfaces, the retraction grep) and P-421 (name the end) (owner: cc) — carried to Review 73 as R73-5
 
 **anchor-commit: `5e439a0ce`**
+
+# Review 73 (2026-10-30) — the clock decided as CHOSEN, the final attack proposed and approved, the seats checked to their heads
+
+27 commits since Review 72 (`5e439a0ce..5e5e75ac4`, all on the first-parent line), with this landing, and 12 arcs with a
+verdict (B1806–B1817). Run by main at the counter (26 merges; `review-due` DUE), first in the owner's approved order for
+THE FINAL ATTACK (P-495: Review 73 → Step A → the rigid-direction census → the generator → the seal → the run).
+
+**What the window did:**
+- **Selection by symmetry and inversion failed to pick a world** (B1806–B1812).
+  - The special points' first generation.
+  - Three generations cut a curve, not a point (B1808).
+  - What four frames leave free (B1809).
+  - The symmetry-selected values miss the six, sealed (B1810, B1811).
+  - In F-theory's 7-brane frame the towers do not meet at loci as the nested E₃ and E₄ pieces (B1812). This review
+    narrows it: as stacks of A-branes, SU(5) ⊂ SO(10) ⊂ E₆ can meet at a point inside the object's class. The object
+    allows the meeting and does not select it.
+- **The clock:**
+  - the weave's measure depends on how threads are counted (B1813);
+  - the measured world does not decide the clock, sealed (B1814; its floor reading census-dependent, the web seat's blind
+    rerun);
+  - the walk's exit law is Minkowski's (B1815);
+  - B1667's accessory parameter is a Weil–Petersson primitive (B1816), so WP joins area as a frame-native clock;
+  - the web seat's critical line and limits verified;
+  - the clock stays CHOSEN.
+- **The owner's final act** (P-485–P-488) and **THE FINAL ATTACK** (P-495, approved).
+  - Strand A's first leg is NEGATIVE as scoped (B1817): the frame's own cusp lepton factor is 1, 4 or ¼, not the colour
+    count.
+  - Strand B: W150 verified on main.
+  - The data-free CM tables: rigid τ buys one or two bits.
+- **The seats, harvested to their heads and verified:**
+  - the web seat's bar and map adopted, and the owner's two tiers;
+  - the audit lane's P210 executed (ten of ten) and reproduced;
+  - the SM seat's W177–W180 reproduced bit for bit, consistent with B1817.
+- **The desk:**
+  - phase 1 (docs/workdesk/);
+  - the context-recovery card;
+  - the tools adopted and calibrated;
+  - phase 2's panel built and previewed locally.
+- **Still 0 of 19.**
+
+## 1. The loop (Review 72's block)
+
+- **R72-1 RESOLVED:** the owner's decisions were made.
+  - P-406 and P-407 are DONE.
+  - P-417's WORKING_RULES line was adopted (the 2026-10-29 rule, item 5).
+  - P-420 got its go (S254); phase 1 landed at S262.
+- **R72-2 RESOLVED:** the seats' answers to main's two relays were rowed (harvest rows 1468, 1471) and put to the owner,
+  who ruled at S254.
+- **R72-3 (from R71-8) carried as R73-1:** the mirror. The drive is still unmounted, which is also why § 7's two seals read "not on
+  every remote".
+- **R72-4 (from R71-9) carried as R73-2:** P-396's review. It grew this window: the audit lane's two heat responses and its geodesic
+  product are unreviewed proofs stacked on the same rows.
+- **R72-5 (from R71-10) carried as R73-3:** main's plan's steps.
+  - P-397 advanced: B1817 closed the twist-charge route on the slopes tested.
+  - P-394 and P-398 are still queued.
+- **R72-6 carried as R73-4:** P-426–P-430, all still queued.
+- **R72-7 carried as R73-5:** P-417's remaining steps (the classification gate, banners, declared surfaces, the retraction
+  grep) and P-421.
+
+## 1b. The branch inventory
+
+13 unmerged leaves, every one registered. Every one is on one remote only, because the owner's mirror (the second remote
+the tool reads) is unmounted. The owner's ruling on P-508 (2026-10-30): vendor-prefixed branch names may be mentioned; no
+renaming.
+
+## 2. The declared modulus
+
+- **The window:** 27 commits, S244–S263.
+- **Read in full:**
+  - drawn by the anchor's seed: B1811, B1812 and B1814, by a reader (`audit/review73/reader/READ_IN_FULL.md`). All three
+    HOLD WITH NOTES. Main checked each correction with its own code (`audit/review73/main_verify/`) before applying it in
+    this landing:
+    - **B1811:** "156 of the 208" is 164 (52 + 52 + 48 + 12), recounted by the reader from census.jsonl and by main
+      without reading data. No verdict impact. Its referee-stage numbers have no committed output (P-517).
+    - **B1812:** the NEGATIVE's reason was wider than the computation (E9). Inside the same twelve-brane configuration
+      A⁹BCC, the stacks A⁵ ⊂ A⁵BC ⊂ A⁵BCC are Kodaira fibres with matching brane numbers, I₅ ⊂ I₁* ⊂ IV*. So
+      SU(5) ⊂ SO(10) ⊂ E₆ can meet at a point, and A³ and A² give su(3) and su(2) at points. What stays NEGATIVE: the
+      nested E₃ and E₄ pieces, and the object's fixing of any meeting. Main's check is committed in the arc with a lock.
+      Its identification is labelled UNEARNED and is not declared in the verdict, like every arc of the window (P-516).
+    - **B1814:** the title's and the claim line's "D1 fails at the floor 10⁻⁸" and "11σ" belong to the first census. On
+      the second census D1 holds there (0.0889), the nearest unforced world is 7.9σ, and the L₂ read-out crosses 0.05
+      (0.0269 → 0.0556). All three were checked on main's own runs of S261. "Regenerated byte-identically" was a
+      60-row recompute (E11). The sealed verdict is unchanged.
+    - **Reruns:** two committed checks byte-identical, B1812's `e_n_monodromy.py` and B1814's `referee/r3_independent.py`.
+  - B1815 and B1816, by main (their author; both refereed hostile before landing, their checks regenerated on main).
+    B1815 carried "ten-brane" for B1812's twelve branes; corrected.
+- **The locks:** the full suite ran at every landing (S256–S263). A full suite on a fresh clone of S263 ran for P-511:
+  - 7 891 passed, 6 failed, 70 skipped, against main's 7 896, 2 and 69.
+  - Two failures are E94 again: B1602's census and B1671's three verification logs, force-added here.
+  - One lock rewrote its tracked evidence from the machine's git remotes (B1426). It now writes to a temporary path.
+  - One needs the seat branches a clone of the local repository does not carry (B1306). With them fetched it passes.
+  - B805's two attachment locks fail on main too (P-239).
+  - Not certified: the seats' own trees beyond the commits each harvest row names.
+- **The review tool's fresh clone:** PASS at 5e5e75ac4 (every gate passes; the belt is OK).
+
+fresh-clone: PASS @ 5e5e75ac4 (gates all PASS; belt ok)
+sample seed: 5e439a0ce; read in full: B1811, B1812, B1814, B1815, B1816
+gate controls: 47 registered failing-path tests; unregistered: none
+
+## 3. Advancement
+
+- **The tables:** LAW_MAP +4 rows; THEOREM_REGISTRY +6 rows.
+  - The six include T-WALK-EXIT-LAW and T-ACCESSORY-WP-PRIMITIVE.
+  - Two rows of the 2026-10-20 integration were stated PROVED against NEGATIVE arcs (B1672, B1673). They were corrected in
+    place (P-484), and a lock now compares every registry row with its own arc's verdict (one more row scoped).
+- **Nothing moved a physics row:** the structure positives of the window are identifications (B1815, B1816), and the
+  negatives are kills.
+
+## 4. Error-class recurrence
+
+- **New class E93,** a proxy read as the quantity: main's B1807 draft, caught by its referee.
+- **Instances:**
+  - **E54 twice.** One is main's absence claim that "the record does not yet have a dynamics for τ", challenged by the
+    owner and retracted (P-486: four τ-holding routes were on record).
+  - **E37 once.**
+  - **E9 once,** found by this review's reader: B1812 stated a closure wider than its computation.
+  - **E11 twice:**
+    - B1814 wrote "regenerated byte-identically" for a 60-row recompute;
+    - B1811's "156" is a figure no committed script computes.
+  - **E53 once:** THE_TOWERS, a living record, did not carry B1812. It does now.
+- **A new class this review registers, E94: a lock that reads an output the repository ignores.** B1817's map and B1816's
+  reader file matched `.gitignore`'s `*.jsonl` and were never committed. B1817's lock passed on main's machine only. Both
+  were force-added at S263. The standing rule that would have caught it: a suite run on a fresh clone at every review
+  (P-511, run here). The run found two more instances (B1602, B1671), and one of the same family: a lock that rewrote
+  its tracked evidence from the machine's git remotes (B1426).
+- **Two near-misses of the same family:**
+  - a dated note that named an identification row's id in its earning cell, which B1266's union-find reads as a reduction
+    (caught by the suite at S261);
+  - harvest pins written with nine characters where the locks expect eight (caught at S263).
+
+  Both were caught by locks; neither is a new class.
+
+## 5. The provenance spot-sweep
+
+- **Pretense:** 7 745 added lines scanned, 0 hits, 0 in public-facing files.
+- **The window's new vocabulary** without a gloss: "refereed hostile", "data-free refereed", "hostile pass". All three are
+  glossed in TERMINOLOGY.md by this landing.
+
+## 6. The promotion sweep
+
+None promoted. 0 of 19. B1816's identification of the accessory parameter is structure, not a value. THE FINAL ATTACK's
+Step B is the window's only route to a promotion, and it is sealed first.
+
+## 7. Protocol integrity
+
+- **The window's two seals** (B1811, B1814): 13 of 13 hashes, sealed before results.
+  - The reader checked each chain at its seal commit and at the head; ancestry holds.
+  - The instruments are unchanged from seal to head.
+  - B1814's later edits touch only FINDINGS.md.
+- **"Not on every remote"** only because the mirror is unmounted (R73-1). The mirror's main is 2d6681208 (2026-10-24),
+  67 commits behind.
+- **Seals elsewhere:** the web seat's THE FINAL ACT'S BAR was checked against its seal's sha-256 at harvest. The unread
+  rigid census is pinned by its hash in THE FINAL ATTACK § 5.
+
+### Action items (Review 73)
+- [>] R73-1: push the owner's mirror when the drive is reconnected (carried from R72-3, before it R71-8; owner: the owner, then cc)
+- [>] R73-2: main's review of the audit lane's analytic proofs, now four notes on P-396's rows (carried from R72-4, before it R71-9; owner: cc)
+- [>] R73-3: P-394 and P-398, main's plan's remaining steps (carried from R72-5, before it R71-10; P-397 advanced by B1817; owner: cc)
+- [>] R73-4: P-426–P-430 worked in the queue's order (carried from R72-6; owner: cc)
+- [>] R73-5: P-417's remaining steps and P-421 (carried from R72-7; owner: cc)
+- [ ] R73-6: THE FINAL ATTACK in the owner's approved order — Step A's design note next; P-510's KIND_TABLE ruling before the seal (owner: cc)
+- [ ] R73-7: the full suite on a fresh clone made a standing step of every review, carried by the review tool (P-511's run; owner: cc)
+- [ ] R73-8: P-507 (the completeness lists classified) and P-512 (the quarter relation) (owner: cc)
+- [ ] R73-9: P-516 — the window's identifications declared in its verdict files, with a lock (owner: cc)
+- [ ] R73-10: P-517 — B1811's referee-stage numbers committed and locked (owner: cc)

@@ -1003,3 +1003,13 @@ referee's session; the rest are classical and cited. Use the classical name besi
   - **Weil–Petersson** (the fibre's hyperbolic metric; the volume B1667's accessory parameter is a primitive of).
   - The last two are frame-native; none is FORCED.
 
+## Added at Review 73 (2026-10-30) — the terms the window used without a gloss
+
+- **refereed hostile** (the window's arcs, B1806–B1817): read by a referee instructed to refute and to change nothing; its
+  verdict is PASS, PASS WITH CORRECTIONS or FAIL. Its checks are regenerated on main from the arc folder before landing
+  (E84); a referee is the arc's own reader, not an independent opinion (the owner's rule: main is the final verifier).
+- **data-free:** no measured number is read, set beside a frame value, or used to choose anything. A data-free
+  computation is not a look (LOOK_LEDGER); exploration that is data-free is free under the two tiers (P-509).
+- **PASS WITH CORRECTIONS** (a referee's verdict): the claim stands once the listed corrections are applied; the arc
+  records each, applied or declined with its reason.
+

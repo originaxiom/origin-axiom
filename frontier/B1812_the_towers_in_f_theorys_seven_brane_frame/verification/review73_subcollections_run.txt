@@ -1,0 +1,44 @@
+A              branes  1  trace   2  ('I_1', 'su(1)')
+B              branes  1  trace   2  ('I_1', 'su(1)')
+C              branes  1  trace   2  ('I_1', 'su(1)')
+AA             branes  2  trace   2  ('I_2', 'su(2)')
+AB             branes  2  trace   1  ('II', '-')
+BC             branes  2  trace  -2  not a Kodaira fibre
+CC             branes  2  trace   2  ('I_2', 'su(2)')
+AAA            branes  3  trace   2  ('I_3', 'su(3)')
+AAB            branes  3  trace   0  ('III', 'su(2)')
+ABC            branes  3  trace  -2  not a Kodaira fibre
+BCC            branes  3  trace  -6  not a Kodaira fibre
+AAAA           branes  4  trace   2  ('I_4', 'su(4)')
+AAAB           branes  4  trace  -1  ('IV', 'su(3)')
+AABC           branes  4  trace  -2  not a Kodaira fibre
+ABCC           branes  4  trace  -5  not a Kodaira fibre
+AAAAA          branes  5  trace   2  ('I_5', 'su(5)')
+AAAAB          branes  5  trace  -2  not a Kodaira fibre
+AAABC          branes  5  trace  -2  not a Kodaira fibre
+AABCC          branes  5  trace  -4  not a Kodaira fibre
+AAAAAA         branes  6  trace   2  ('I_6', 'su(6)')
+AAAAAB         branes  6  trace  -3  not a Kodaira fibre
+AAAABC         branes  6  trace  -2  ('I_0*', 'so(8)')
+AAABCC         branes  6  trace  -3  not a Kodaira fibre
+AAAAAAA        branes  7  trace   2  ('I_7', 'su(7)')
+AAAAAAB        branes  7  trace  -4  not a Kodaira fibre
+AAAAABC        branes  7  trace  -2  ('I_1*', 'so(10)')
+AAAABCC        branes  7  trace  -2  ('I_1*', 'so(10)')
+AAAAAAAA       branes  8  trace   2  ('I_8', 'su(8)')
+AAAAAAAB       branes  8  trace  -5  not a Kodaira fibre
+AAAAAABC       branes  8  trace  -2  ('I_2*', 'so(12)')
+AAAAABCC       branes  8  trace  -1  ('IV*', 'e6')
+AAAAAAAAA      branes  9  trace   2  ('I_9', 'su(9)')
+AAAAAAAAB      branes  9  trace  -6  not a Kodaira fibre
+AAAAAAABC      branes  9  trace  -2  ('I_3*', 'so(14)')
+AAAAAABCC      branes  9  trace   0  ('III*', 'e7')
+AAAAAAAAAB     branes 10  trace  -7  not a Kodaira fibre
+AAAAAAAABC     branes 10  trace  -2  ('I_4*', 'so(16)')
+AAAAAAABCC     branes 10  trace   1  ('II*', 'e8')
+AAAAAAAAABC    branes 11  trace  -2  ('I_5*', 'so(18)')
+AAAAAAAABCC    branes 11  trace   2  not a Kodaira fibre
+AAAAAAAAABCC   branes 12  trace   3  not a Kodaira fibre
+{"AAAAA": ["I_5", "su(5)"], "AAAAABC": ["I_1*", "so(10)"], "AAAAABCC": ["IV*", "e6"], "AAABCC": null, "AABCC": null, "AAA": ["I_3", "su(3)"], "AA": ["I_2", "su(2)"]}
+CHECKS PASS
+exit 0

@@ -18,11 +18,11 @@
 | … NEGATIVE | 380 |
 | … OPEN | 93 |
 | … RETRACTED | 11 |
-| register points | 512 |
-| … QUEUED | 185 |
+| register points | 517 |
+| … QUEUED | 190 |
 | … LEAD | 10 |
-| … OWNER | 7 |
-| … DONE | 301 |
+| … OWNER | 5 |
+| … DONE | 303 |
 | … DECLINED | 9 |
 | harvest rows (the last number) | 1501 |
 | the Standard Model's 19 derived | 0 |
@@ -51,15 +51,16 @@
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
 - ** P-303** — PF1-W read on each Higgs field or on each sector's mass determinant? (the web seat's W133 check §5–§6, row 1316). On a parity-diagonal coupling the two are the same condition; but no combination of two or more zero-free… → *asked of the owner: which reading of PF1-W (each Higgs field, or each sector's determinant) the record adopts; main's recommendation to follow with P-300's ver…*
 - ** P-335** — the owner's calls the sweep surfaced: L178 (the tone crossing) — retire by the math?; L248 §8 (retire, or the L240 reader's probe later); COMPUTE_THE_PROGRAM — rewrite for the weave or freeze; L161's realisation — commi… → *asked of the owner with the next report*
-- ** P-495** — THE FINAL ATTACK (main's proposal to the owner, docs/THE_FINAL_ATTACK_2026-10-29.md): explaining under plenitude is compression with a null — our world's description through the framework (the object, its rule, our worl… → *the owner approves the order (Review 73 → Step A → the rigid-direction census → the generator → the seal → the run) and whether Step A also goes to a seat [202…*
-- ** P-508** — VENDOR-PREFIXED BRANCH NAMES ON A PUBLIC SEAT BRANCH (main's reader of the audit lane, 2026-10-29): the lane registered 90 occurrences of remote-branch names under a vendor-prefixed namespace as exact spans in two prese… → *the owner decides whether seat branches may carry the vendor-prefixed branch names in their inventories (renaming the branches is the alternative); main's attr…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
-- ** P-511** (2026-10-30) — A LOCK READING AN IGNORED OUTPUT (main's verifier of the SM seat, 2026-10-30): B1817's map a1_cusp_map.jsonl and B1816's reader_scratch/wp_vs_accessory.jsonl matched .gitignore's *.jsonl and were nev…
+- ** P-515** (2026-10-30) — THE HISTORY CALENDAR (the owner, the night of 2026-10-29/30: a contribution calendar like GitHub's, 'very very sophisticated and detailed, so we can navigate through the history'; then 'thanks Do It'…
+- ** P-514** (2026-10-30) — THE PROGRAMME SO FAR (the owner, 2026-10-30: 'the panel should include the proven summary of what it actually is so far. from philosophy passage to math, all the way to current state and an explanato…
+- ** P-513** (2026-10-30) — THE README FROM BLANK (the owner, 2026-10-30: 'should the readme in the repo be the same or readme serves other purpose? right now is properly scattered, no?', then 'no i dont like readme as is. id c…
 - ** P-510** (2026-10-30) — KIND_TABLE's KIND CLAUSE FOR THE FRAME'S SUPPORT TESTS (the web seat's map, verified on main): KIND_TABLE's lane for mass ratios is the pair channel, 'CLOSED until one is', and none of B1749, B1753,…
 - ** P-507** (2026-10-29) — THE CONTEXT CARD'S COMPLETENESS CHECKS, FIRST READING (P-506; the card generated at S262): 39 arc folders carry no verdict file (scripts/checks/arc_data.py's resolved classes among them — preregistra…
 - ** P-506** (2026-10-29) — TWO READERS, ONE SOURCE (the owner, 2026-10-29): 'the dashboard should serve us both, me for better visualising the universe we're trying to construct, and the frameworks structure, analyze, and you…
+- ** P-495** (2026-10-29) — THE FINAL ATTACK (main's proposal to the owner, docs/THE_FINAL_ATTACK_2026-10-29.md): explaining under plenitude is compression with a null — our world's description through the framework (the object…
 - ** P-494** (2026-10-29) — A CM SIGHTING, DISCLOSED (main, 2026-10-29, by hand, before any CM table): τ = 3i (ℚ(i), D = −36) lies at Im τ = 3.000 and τ = (1 + 7√3 i)/4 = 0.25 + 3.031i (ℚ(√−3), D = −588) inside the fitted strip…
 - ** P-487** (2026-10-29) — THE SUPPORT TEST (main's design from P-485, at the owner's 'lets attack… the final act'): defined on the whole interaction — the fibre frame × the weave's sums × the towers — with c supplied by the i…
 - ** P-485** (2026-10-29) — THE PLENITUDE REFRAMING (the owner, 2026-10-29: 'if all worlds in our framework are allowed to happen… they will happen, so our own'): if every world the framework allows is realised, deriving the SM…
@@ -78,12 +79,10 @@
 - ** P-425** (2026-10-28) — CM BY THE OBJECT'S OWN COMPOSITUM? (B1804's holomorphic frame, SPECULATION until computed): LR acting holomorphically on abelian surfaces with real multiplication by ℤ[φ] (a Hilbert modular surface f…
 - ** P-421** (2026-10-28) — NAME THE END (the web seat's THE EXACT END, reproduced on main; harvest row 1459): the six's best rows take the end as the small-cut norm 2πL + c_s at L = L_max(Im τ) (B1726's compute()), which is no…
 - ** P-419** (2026-10-28) — the same answer, item 3 — SELECTION AS THE OBJECT OF STUDY, by inversion: only one selection mechanism was tried (potentials: mirror-even, landing at fixed points; W51–W175); untried is that the SM's…
-- ** P-418** (2026-10-28) — the owner's question (2026-10-28: analyse the whole framework once more — room for sophistication, what did the period teach): main's answer, item 1 — ONE HONEST SCOREBOARD, total inputs: the 19 cont…
-- ** P-417** (2026-10-28) — the owner (2026-10-28): "how do we make sure all the documentation, all md docs gets updated and reflect the most recent state of the repo, whenever the math and progress affect them? like readme and…
-- ** P-415** (2026-10-28) — the owner (2026-10-28): "is it possible that the reality finally emerges as the interaction of what's allowed on all towers, instead of the thread going through one of them … they provide each other…
 
 ## The last landings (CHANGELOG)
 
+- S264 REVIEW 73 — the clock decided as CHOSEN, the final attack approved, B1812 narrowed, the fresh clone run (2026-10-30)
 - S263 THE SEATS HARVESTED; THE FINAL ACT'S BAR AND THE MAP ADOPTED; THE TWO TIERS; THE TOOLS ADOPTED AND CALIBRATED (2026-10-30)
 - S262 THE WORKDESK, PHASE 1 (the desk from main's record); THE OWNER'S RULINGS ON THE SITE AND THE PANEL (2026-10-29)
 - S261 THE FINAL ATTACK, PROPOSED; THE QUEUE CLEARED; THE WEB SEAT'S EVENING RELAYS VERIFIED (2026-10-29)
@@ -91,11 +90,10 @@
 - S259 THE WEB SEAT'S CRITICAL LINE AND LIMITS, VERIFIED AND HARVESTED (2026-10-29)
 - S258 B1815 THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY (2026-10-29)
 - S257 THE CLOCK AND THE NEXT ATTACK — the owner's briefing (2026-10-29)
-- S256 B1814 THE MEASURED WORLD AS A DRAW FROM THE WEAVE'S OWN MEASURE; P-420 PHASE 0; THE NO-LEAD-LOST SWEEP (2026-10-29)
 
 ## The latest campaign line
 
-LATEST (2026-10-30, S263: the seats' latest work checked and taken in — a grading bar for the final attack, sealed before any of it is run; the whole chain from the rule to the 19 written backwards and labelled; the owner's word that strict gates bind claims, not exploration; and the standard tools for running couplings, group theory and model evidence, each calibrated before use. 0 of 19.)
+LATEST (2026-10-30, S264: Review 73 — the periodic audit of the record, run first in the owner's approved order for the final attack. Its reader found the towers result too negative: in F-theory's 7-brane frame, inside the very configuration the object's word selects, SU(5), SO(10) and E₆ can sit together at one point as stacks of one kind of brane — the towers can meet there. What stays negative is that the object does not choose where they meet. Two smaller counts and claims were corrected, the whole test suite was run on a fresh copy of the repository (four files the locks read had never been committed; now they are), and the owner's approval of the attack's order is recorded. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

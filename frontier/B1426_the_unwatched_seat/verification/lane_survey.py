@@ -12,9 +12,13 @@ import json
 import pathlib
 import re
 import subprocess
+import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[3]
-OUT = pathlib.Path(__file__).resolve().parent / "lane_survey.json"
+# Review 73 (2026-10-30, P-511): the lock ran this script and it overwrote the tracked evidence with the machine's
+# own remotes; on a clone without the other repository's remote the sibling lock then failed, and on main every run
+# left the file modified. An output path may now be given; the default is unchanged.
+OUT = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else pathlib.Path(__file__).resolve().parent / "lane_survey.json"
 
 
 # assembled from fragments so this file does not itself carry the tokens the attribution gate hunts.

@@ -151,3 +151,15 @@ question?"
   - a Stückelberg U(1)_X;
   - an E₆ meeting point with different localised content.
 
+## Dated note (2026-10-30, S264; B1812 and Review 73's correction)
+
+- **B1812 (2026-10-29), F-theory's 7-brane frame.** The genesis word LR lies in the single SL(2, ℤ) class DeWolfe, Hauer,
+  Iqbal and Zwiebach assign to the E₁₀ configuration A⁹BCC (twelve branes). Its nested subconfigurations A^(N−1)BCC carry
+  the chain from su(3) ⊕ su(2) (E₃) and su(5) (E₄) to E₈. E₃ and E₄ are hyperbolic and cannot collapse.
+- **Review 73 narrowed it (main's own check, committed in the arc).** Inside the same configuration the stacks
+  A⁵ ⊂ A⁵BC ⊂ A⁵BCC collapse, I₅ ⊂ I₁* ⊂ IV*: SU(5) ⊂ SO(10) ⊂ E₆ can meet at a point, and A³ and A² give su(3) and
+  su(2) at points. The towers can meet in this frame.
+- **What the object does and does not do here.** It fixes the total class; where the branes sit is a modulus. It allows
+  the meeting and does not select it. By P-415's criterion this is a bigger menu, not a breakthrough. A dynamics that
+  would select it, moving branes and τ together, is P-466.
+

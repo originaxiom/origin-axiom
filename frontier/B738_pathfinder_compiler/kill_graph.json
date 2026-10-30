@@ -12287,7 +12287,7 @@
  {
   "id": "B1811",
   "claim_killed": "That the parameter-free outputs of B1656's frame at the configurations the object's symmetry fixes (B1810's menu: four configurations, 13 Higgs directions of the n = 1 window, B1667's radii, the seat's readings) reach the six measured mass ratios (P-432).",
-  "kill_form": "Sealed and refereed (B1811): the best chi2_six is 4521.5 against P1's threshold of 16.75 and 9.8% of random hierarchies do as well on the same menu; the chi2-best row overshoots every ratio by 7.5x to 1739x, as do all 22 non-degenerate cells; the other 156 of 208 cells carry a massless state or rank one.",
+  "kill_form": "Sealed and refereed (B1811): the best chi2_six is 4521.5 against P1's threshold of 16.75 and 9.8% of random hierarchies do as well on the same menu; the chi2-best row overshoots every ratio by 7.5x to 1739x, as do all 22 non-degenerate cells; the other 164 of 208 cells carry a massless state or rank one (corrected 2026-10-30 at Review 73: 156 before, a mis-sum).",
   "hatch": "a configuration off the symmetry points chosen by a principle (P-419; the hierarchy lives in tau's distance from them); n >= 2 directions; two-Higgs pairs (B1742); a frame other than B1656's",
   "priority": "low",
   "routed_from": "main, at banking (2026-10-29), for tests/test_b833_negative_routing.py",
@@ -12317,7 +12317,7 @@
   "hatch": "a frame where the SM's algebra sits at a collapsible point while the object's class constrains the whole (e.g. a global F-theory model with the object's class as a total monodromy and the SM inside a collapsible so(10)/E6 subcluster broken by flux); an E6 meeting point with flux breaking (P-415, P-422)",
   "priority": "medium",
   "routed_from": "main, at banking (2026-10-29), for tests/test_b833_negative_routing.py",
-  "note": "The draft's 'towers meeting at loci' reading (it read 'up to E8 collapse' as including su(3)+su(2) and su(5)) was overturned by the hostile referee and verified on main in the source's text.",
+  "note": "The draft's 'towers meeting at loci' reading (it read 'up to E8 collapse' as including su(3)+su(2) and su(5)) was overturned by the hostile referee and verified on main in the source's text. [2026-10-30, Review 73: scope corrected -- inside the same configuration A^5 < A^5BC < A^5BCC collapse (I_5 < I_1* < IV*), so the kill holds for the E_3 and E_4 realisations and for the object's fixing of the meeting, not for the algebras; the hatch's SM inside a collapsible subcluster is realised inside the object's class, as A-brane stacks, and the object does not select it.]",
   "evidence_consulted": [
    "B781",
    "B1343",

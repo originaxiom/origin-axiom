@@ -14786,6 +14786,7 @@
    "slug": "the towers in f theorys seven brane frame",
    "motifs": [
     "measurement",
+    "closing",
     "trace_map",
     "metallic",
     "eisenstein",
@@ -14835,7 +14836,8 @@
     "lorentzian"
    ],
    "refs": [
-    "S257"
+    "S257",
+    "S261"
    ],
    "obstacle": "measure",
    "obstacle_conf": 23,

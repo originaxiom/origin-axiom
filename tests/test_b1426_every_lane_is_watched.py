@@ -17,10 +17,12 @@ SURVEY = ROOT / "frontier" / "B1426_the_unwatched_seat" / "verification" / "lane
 
 
 @pytest.mark.slow
-def test_no_lane_with_unique_work_is_outside_the_gate():
-    r = subprocess.run([sys.executable, str(SURVEY)], capture_output=True, text=True, cwd=ROOT, timeout=900)
+def test_no_lane_with_unique_work_is_outside_the_gate(tmp_path):
+    # Review 73 (2026-10-30, P-511): the survey is written to a temporary path, not over the tracked evidence
+    out = tmp_path / "lane_survey.json"
+    r = subprocess.run([sys.executable, str(SURVEY), str(out)], capture_output=True, text=True, cwd=ROOT, timeout=900)
     assert r.returncode == 0, r.stdout[-800:] + r.stderr[-800:]
-    res = json.loads((SURVEY.parent / "lane_survey.json").read_text())
+    res = json.loads(out.read_text())
     assert not res["unwatched_lanes"], "lane(s) outside the gate: %s" % res["unwatched_lanes"]
 
 

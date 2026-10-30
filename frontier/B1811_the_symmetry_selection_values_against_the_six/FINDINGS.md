@@ -43,8 +43,9 @@
   parameter-free too and were not run.
 - **The direction of the miss.**
   - On the 22 non-degenerate cells, all at τ = i, every ratio is too large: 7.5× to 1 739× at the χ²-best row.
-  - Every other cell carries a massless state, rank one or (0, 1) (B1810), and misses by zeros: 156 of the 208
-    seat-reading cells (all of (ω, 0) and (ω, (⅓, ⅔)); 48 at (i, (½, ½)); DR, R and t at (i, 0)).
+  - Every other cell carries a massless state, rank one or (0, 1) (B1810), and misses by zeros: 164 of the 208
+    seat-reading cells (all of (ω, 0) and (ω, (⅓, ⅔)); 48 at (i, (½, ½)); DR, R and t at (i, 0)). *[Corrected 2026-10-30 at Review 73: 156 before, a mis-sum of
+    52 + 52 + 48 + 12; recounted from census.jsonl by its reader and, without reading data, by main.]*
   - The record's former near-fit rows (B1726, B1741, B1749, B1753; Im τ 2.99–3.06) sit far from these points. They are
     scope-corrected as small-cut fits at L_max's height (RETRACTIONS; P-421).
   - Near such a point each output moves as r₀ + c·δ^p (B1809 (S1)). That distance is a datum the object does not fix
@@ -75,7 +76,7 @@
 |---|---|
 | seal integrity (13 hashes match; the seal precedes the outputs; instruments unchanged) | HOLDS |
 | faithfulness of the cells and numbers | HOLDS, with F1–F4 corrected: the χ²-best row is `line` = 70 (F₆), not 60; "28.4%"; the `line` key named; the read-outs added |
-| overclaim | CORRECTED: "the miss is uniform" was false over the menu (156 of 208 cells miss by zeros); the end's small-cut norm stated; "on the sealed menu"; "P1's threshold" (not THE_BAR); the LOOK_LEDGER row added in this landing |
+| overclaim | CORRECTED: "the miss is uniform" was false over the menu (164 of 208 cells miss by zeros; 156 before Review 73's recount); the end's small-cut norm stated; "on the sealed menu"; "P1's threshold" (not THE_BAR); the LOOK_LEDGER row added in this landing |
 | house structure | applied: the seal's hash in the header, both best rows, D, the referee section, a lock test |
 
 **Main's verification:** the referee's checks rerun on main reproduce:

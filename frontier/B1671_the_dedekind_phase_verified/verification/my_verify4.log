@@ -1,0 +1,5 @@
+symmetric zero-diag (O+)           : max|s1-s2-s3|/s1=1.04e-15  min s2/s1=0.5004  violations(>1e-9)=0/50000
+antisymmetric (O-)                 : max|s1-s2-s3|/s1=1.15e-15  min s2/s1=1.0000  violations(>1e-9)=0/50000
+general zero-diag (O+ + r O-)      : max|s1-s2-s3|/s1=8.28e-01  min s2/s1=0.1280  violations(>1e-9)=50000/50000
+general zero-diag random           : max|s1-s2-s3|/s1=8.69e-01  min s2/s1=0.1224  violations(>1e-9)=50000/50000
+symmetric with small diagonal      : max|s1-s2-s3|/s1=7.32e-01  min s2/s1=0.1805  violations(>1e-9)=50000/50000

@@ -132,7 +132,8 @@ Remark 1.22; `verification/T3_T4_REPORT.md` § 1.5). The referee checked its let
   - L is conjugate to no 7-brane monodromy: every K_[p,q] is conjugate to K_[1,0] = L⁻¹. No K_[p,q] equals L for
     |p|, |q| ≤ 20, and none is conjugate to L within entries up to 6 (main's check). L is conjugate to R⁻¹.
   - A positive word mixes a brane letter with an inverse-brane letter, so its length does not count branes. B1812
-    identifies the word LR with the total monodromy of the ten-brane E₁₀ configuration.
+    identifies the word LR with the total monodromy of the E₁₀ configuration, on twelve branes (A⁹BCC)
+    *["ten-brane" corrected 2026-10-30, Review 73]*.
   - The move clock has no shown home in the brane layer. P-482, raised as main's reading, is refuted.
 
 ## 4. T3 — door A: horocycle invariance

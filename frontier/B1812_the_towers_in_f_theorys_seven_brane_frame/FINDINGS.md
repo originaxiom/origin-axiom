@@ -4,6 +4,16 @@
 computation and read in the source. Data-free; none of the 19. cc (main), 2026-10-29. Corrected before landing at its
 hostile referee (§ 5): four blocking findings.
 
+> *Scope corrected 2026-10-30 (Review 73: its reader's finding; main's own check, `verification/review73_subcollections.py`
+> → `.json`). The NEGATIVE holds for the E_N realisation of the lowest rungs, not for their algebras. Inside the same
+> twelve-brane configuration A⁹BCC the contiguous sub-collections A⁵ ⊂ A⁵BC ⊂ A⁵BCC have Kodaira monodromies with
+> matching brane numbers, I₅ (su(5)) ⊂ I₁* (so(10)) ⊂ IV* (e₆), and A³ and A² those of I₃ and I₂ (su(3), su(2)). So
+> SU(5) ⊂ SO(10) ⊂ E₆ can meet at a point in this frame, and the Standard Model's algebra can sit at points, as stacks of
+> A-branes. What stays NEGATIVE: su(3) ⊕ su(2) and su(5) as the nested E₃ and E₄ subconfigurations (hyperbolic, not
+> collapsible), and the object's fixing of any meeting: it fixes the total class, not where the branes sit. By P-415's
+> own criterion (a breakthrough only if the object fixes where the towers meet) the verdict stands; its reason, in the
+> title and in § 3, is narrowed here. The class: E9, a closure stated wider than the computation.*
+
 **0 of 19.**
 
 ## The frame card (WORKING_RULES, the rule of 2026-10-29)
@@ -55,6 +65,8 @@ hostile referee (§ 5): four blocking findings.
     a point: towers meeting at loci.
   - su(3) ⊕ su(2) and su(5) sit on hyperbolic classes of negative trace and cannot; nor can Ê₈ or E₁₀.
   - So the Standard Model's and SU(5)'s algebras are exactly the ones that are not gauge symmetries at a point here.
+    *[Withdrawn 2026-10-30 (Review 73): true of their E₃ and E₄ realisations only; as stacks of A-branes they collapse
+    (the dated note under the verdict).]*
   - The object fixes only the total class. Where the branes sit, and hence which subconfigurations collapse, is a
     modulus.
 - **What it does not give.**
