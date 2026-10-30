@@ -14,6 +14,11 @@
     comparison.json in full; across platforms regenerations agree to round-off (the S261 note).]*
 - cc (main), 2026-10-29. **0 of 19.**
 
+> *2026-10-30 (S275, P-539; P-510's ruling, point 7): this test graded FR-FIB, never the object, with T-NORM (the
+> generations' kinetic normalisation ∝ I₃) assumed, not computed. B1822 has since computed it: T-NORM holds exactly in the
+> metric the frame uses, H = I, but the flat structure does not force that metric, so H = I is a CHOSEN input. The verdict
+> stands for FR-FIB with H = I.*
+
 ## 1. The question (the preregistration, in full in `PREREGISTRATION.md`)
 
 - **The owner (2026-10-29)** asked for a whole-existence computation of the interaction, unforced. Stage 1 (B1813)

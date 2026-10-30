@@ -46,6 +46,12 @@ excluded numerically at −2.3σ. Kind admissibility is necessary, never suffici
 - **pair channel → mass ratios** (kind-admissible BUT frame-relative — B936; a crossing here must
   first exhibit a frame-invariant residue, which B1016 says is NOT the coupling's Re h — none is
   currently banked ⟹ this lane is CLOSED until one is)
+  > *2026-10-30 (S275; P-510's ruling, P-539): in field form no frame-invariant residue exists. Under the generations'
+  > full kinetic freedom no function of the six, the CKM moduli or J is invariant (the web seat's options note, verified
+  > on main, harvest row 1503). So this lane, and mixings computed from a frame's Yukawas, are met only by fixing the frame
+  > (B1643 C2's 'fixed' branch); the coupling lane above is for the object's coupling-channel values. FR-FIB fixes the
+  > frame in the chosen metric H = I (B1822). Its support tests grade the frame, never the object, and object-level
+  > crossings keep B1074 as their gate.*
 - **object-level θ → θ_QCD** (kind-admissible; FUNCTOR-GATED — B1009; stays a HOOK)
 - everything else: kind-inadmissible; a prereg proposing it does not seal.
 

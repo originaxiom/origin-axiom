@@ -49,6 +49,13 @@ present at `4.00 × 10⁻¹⁵` (DESIGN §5a is a theorem, and it was **enforced
 not assumed** — §5a was verified symbolically and exactly: σ₂·conj(σ_k) +
 σ_k·σ₂ = 0 and J² + I = 0 to machine zero).
 
+> *2026-10-30 (S274; the web seat's flag, harvest row 1507, checked by main): the identity checked here is true of the
+> bracket, but B933's D carries a prefactor −i that the antilinear J flips, so J commutes with D
+> (`tests/test_b933_j_commutes_with_d.py`) and DESIGN § 5a is not a theorem. The partner λ = −2.9745505801732 was
+> found by its own scans (the two-Y bar, 8.26 × 10⁻¹³; 4.00 × 10⁻¹⁵ from +λ), so the observation and the verdict
+> stand; what produces the ± pairing is open (P-540). The comment in `dirac_sealed.py` that cites § 5a carries the
+> same slip.*
+
 ## 3. The battery, element by element
 
 | sealed element | measured | bar | verdict |

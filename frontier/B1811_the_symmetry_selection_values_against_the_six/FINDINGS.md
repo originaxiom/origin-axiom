@@ -6,6 +6,11 @@
 - cc (main), 2026-10-29, P-432's second half, at the owner's ruling.
 - Corrected before landing at its hostile referee (§ 4).
 
+> *2026-10-30 (S275, P-539; P-510's ruling, point 7): this test graded FR-FIB, never the object, with T-NORM (the
+> generations' kinetic normalisation ∝ I₃) assumed, not computed. B1822 has since computed it: T-NORM holds exactly in the
+> metric the frame uses, H = I, but the flat structure does not force that metric, so H = I is a CHOSEN input. The verdict
+> stands for FR-FIB with H = I.*
+
 **0 of 19.**
 
 ## 1. The cells (`verification/compare_run.txt`, `comparison.json`, `control.json`)

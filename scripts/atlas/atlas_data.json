@@ -11511,12 +11511,13 @@
     "P4",
     "P5",
     "P6",
+    "S274",
     "V1",
     "V2",
     "V3",
     "V4"
    ],
-   "obstacle": "spacetime_3p1",
+   "obstacle": "cancellation",
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "topology"
@@ -11701,6 +11702,7 @@
   "B1643": {
    "slug": "the crossings census",
    "motifs": [
+    "closing",
     "choice",
     "coupling",
     "eisenstein",
@@ -11719,10 +11721,11 @@
     "B936",
     "P1",
     "P10",
-    "P2"
+    "P2",
+    "S275"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 18,
+   "obstacle_conf": 23,
    "status": "dead",
    "domain": "arithmetic"
   },
@@ -13858,18 +13861,20 @@
   "B1749": {
    "slug": "the six at fresh apexes",
    "motifs": [
+    "z3_generation",
     "amphichiral_cp",
     "wrt_quantum"
    ],
    "refs": [
     "P1",
     "P2",
-    "S238"
+    "S238",
+    "S275"
    ],
    "obstacle": "measure",
    "obstacle_conf": 4,
    "status": "banked",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B174": {
    "slug": "gluing map landscape",
@@ -13963,17 +13968,19 @@
   "B1753": {
    "slug": "the six on the five ality lines",
    "motifs": [
+    "z3_generation",
     "amphichiral_cp"
    ],
    "refs": [
     "P1",
     "P2",
-    "S238"
+    "S238",
+    "S275"
    ],
    "obstacle": "measure",
    "obstacle_conf": 3,
    "status": "banked",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B1754": {
    "slug": "genesis v1 58",
@@ -14192,7 +14199,8 @@
    "refs": [
     "P1",
     "S227",
-    "S238"
+    "S238",
+    "S275"
    ],
    "obstacle": "measure",
    "obstacle_conf": 19,
@@ -14769,18 +14777,20 @@
    "motifs": [
     "coupling",
     "eisenstein",
+    "z3_generation",
     "wrt_quantum"
    ],
    "refs": [
     "P1",
     "P2",
     "S1",
-    "S2"
+    "S2",
+    "S275"
    ],
-   "obstacle": "measure",
-   "obstacle_conf": 5,
-   "status": "open",
-   "domain": "physics"
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B1812": {
    "slug": "the towers in f theorys seven brane frame",
@@ -14837,7 +14847,8 @@
    ],
    "refs": [
     "S257",
-    "S261"
+    "S261",
+    "S275"
    ],
    "obstacle": "measure",
    "obstacle_conf": 23,
@@ -32905,10 +32916,12 @@
    ],
    "refs": [
     "B921",
-    "B922"
+    "B922",
+    "B940",
+    "S274"
    ],
    "obstacle": "cancellation",
-   "obstacle_conf": 1,
+   "obstacle_conf": 4,
    "status": "banked",
    "domain": "topology"
   },
@@ -33053,6 +33066,7 @@
     "P4",
     "S1",
     "S2",
+    "S274",
     "S3",
     "S4"
    ],

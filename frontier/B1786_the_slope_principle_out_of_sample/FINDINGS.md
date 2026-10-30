@@ -3,6 +3,11 @@
 **Verdict: PROVED as sealed — the decisive cell D holds; a READING, not PASSED (under the class-choosing null THE_BAR's m·r sits on the 0.01 gate at m = 41 and fails it at m = 73; § 2).** cc (main), 2026-10-27, step 1 of main's plan (docs/MAINS_PLAN.md, P-393; P-384). Sealed
 11ebe577b; census 4b5d8c602 and comparison c31c4d0e1, each committed unread, then read once. **0 of 19.**
 
+> *2026-10-30 (S275, P-539; P-510's ruling, point 7): this test graded FR-FIB, never the object, with T-NORM (the
+> generations' kinetic normalisation ∝ I₃) assumed, not computed. B1822 has since computed it: T-NORM holds exactly in the
+> metric the frame uses, H = I, but the flat structure does not force that metric, so H = I is a CHOSEN input. The verdict
+> stands for FR-FIB with H = I.*
+
 ## 1. The cells, as sealed (`verification/compare_run.txt`, `comparison.json`)
 
 | cell | prediction | outcome |

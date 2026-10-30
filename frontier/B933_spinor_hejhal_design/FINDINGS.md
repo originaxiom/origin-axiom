@@ -53,6 +53,12 @@ both conventions ⟹ discrete Dirac spectrum, unconditional).
   probe's ±3e−13 pairing and dim-2 kernel match both consequences. This
   gives the sealed run an enforceable shape gate — partial compensation for
   the missing external anchor.
+  > *2026-10-30 (S274; the web seat's flag in its I-31 relay, harvest row 1507, checked by main:
+  > `tests/test_b933_j_commutes_with_d.py`): for D as written in DESIGN § 2, J = σ₂∘conj COMMUTES with D. It
+  > anticommutes with the bracket, and being antilinear it flips the prefactor −i. With J² = −1 it doubles every
+  > eigenvalue (Kramers), which is the doubling of the next bullet; it does not pair λ with −λ, so the spectral
+  > symmetry is not a theorem. ker D's even dimension stands. The ± pairing the probe and B940 observed is a computed
+  > fact whose source is open (P-540).*
 - **An instrument-level Kramers-type doubling**: the ENTIRE singular
   spectrum is doubled at every λ. Mechanism open (obligation O1); blocks
   multiplicity language, not eigenvalue claims.

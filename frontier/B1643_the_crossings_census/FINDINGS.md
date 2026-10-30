@@ -71,6 +71,13 @@ Antusch, Hinze and Saad, arXiv:2510.01312 (the double ratio, as data); Barger, a
 | **C5** | **Boundary-relational and dimensionless:** no scale output | B926 |
 | **C6** | **The computed object must carry the structure the target tests:** flavour structure for a flavour target | B1642, W61 (P-105) |
 
+> *2026-10-30 (S275; P-510's ruling and B1822; P-532, P-539): C2's frame clause applies to mixing-sector quantities too,
+> when they are computed from a frame's Yukawas. In field form the generations' kinetic metric moves the CKM moduli and J
+> as it moves the six, and under the full kinetic freedom no function of them is invariant (the web seat's options note,
+> verified, harvest row 1503). The 'fixed' branch is T-NORM, which holds in the chosen metric H = I (B1822); B1654 § 1.11's
+> argument for it proves at best a diagonal H. So C2 is met only by a CHOSEN frame, or by a typing that forces it
+> (P-531).*
+
 ## 4. Status: no crossing through a field is ready
 
 - **C6 fails today.** The fibre's zero modes give no flavour structure: three independent routes agree (B1642, W61,
@@ -84,6 +91,9 @@ Antusch, Hinze and Saad, arXiv:2510.01312 (the double ratio, as data); Barger, a
     normalisations, but not a kinetic mixing between generations.
   - By C2 it is admissible only once the Kähler structure is fixed or shown to be diagonal in the generation basis
     (P-109).
+    > *2026-10-30 (S275): the invariance under rescaling each generation holds for couplings diagonal in the generation
+    > basis; for FR-FIB's couplings the double ratio is a robustness reading with that scope (P-510's ruling, point 4).
+    > P-109's closure rested on B1654 § 1.11, which proves at best a diagonal H (B1822).*
   - Seen: the target 10.58, and Barger's 2/ε = 10.714.
 
 ## 5. The answer to the owner's question

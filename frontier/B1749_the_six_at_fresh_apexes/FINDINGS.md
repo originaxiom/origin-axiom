@@ -5,6 +5,11 @@
 ran; the census outputs committed unread at `53ab50676`, the comparison's at `537662002`, then read once. **0 of 19** —
 THE_BAR's grade waits for the third opinion (§ 4), and the claim is narrower than the preregistration's reading (§ 4).
 
+> *2026-10-30 (S275, P-539; P-510's ruling, point 7): this test graded FR-FIB, never the object, with T-NORM (the
+> generations' kinetic normalisation ∝ I₃) assumed, not computed. B1822 has since computed it: T-NORM holds exactly in the
+> metric the frame uses, H = I, but the flat structure does not force that metric, so H = I is a CHOSEN input. The verdict
+> stands for FR-FIB with H = I.*
+
 ## 1. The result
 
 125 distinct apex points of the primitive thread words of length 12 (Im τ 2.01–3.58; none used by B1741 or B1748) × all

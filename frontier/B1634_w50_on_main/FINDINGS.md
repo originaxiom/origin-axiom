@@ -82,6 +82,10 @@ does not use the formula (§2, P4).
 - **W50's premise is verified on main.** The inner automorphisms by a and by b are not moves of the ruled weave:
   - ⟨L, R⟩ ≅ B₃ meets Inn(F₂) exactly in ⟨Δ⁴⟩ = ⟨conj(a b⁻¹ a⁻¹ b)⟩ (the classical kernel, and the census to length 12).
   - They enter only with the sign (GM5b) or the swap (GM5c), and the owner's rulings (GENESIS v1.33) rule both out.
+    > *2026-10-30 (S274; the web seat's P-531 relay, harvest row 1509, verified): GM5b is ADOPTED since GENESIS v1.48.
+    > The sign it generates acts on F₂ as Δ^{±2}, inside ⟨L, R⟩, so it brings no inner automorphism. The inner
+    > automorphisms enter with W10's sign ι, whose commutators with L and R are the conjugations by a and by b (main's
+    > check), or with the swap (GM5c); neither is adopted. The conclusion stands; only the attribution is dated.*
   - So **T-TAU-ONLY-PERMUTATION, B1617's order-48 residual and B1630's single line at i hold where the inner automorphisms
     act**: on the sign or swap branches, or if the records' base point is given moves of its own (point-pushing on
     M₁,₂, a move §2 does not name).

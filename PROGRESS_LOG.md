@@ -18214,3 +18214,13 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - Step A v2's tied heavy vacuum does not fix the Higgs direction without CHOSEN continuous data; two of the thirteen declared directions are one. Step B runs on twelve. 0 of 19.
 - **Landing suite (S273).** full suite 7 928 passed, 3 failed, 69 skipped (47:36, -n 8, beside the refined census on eight workers) on 7533a06ab: two failures are B805's attachment locks (P-239, standing); the third, B833's routing lock, found B1823 absent from the kill graph: routed before the push (frontier/B738_pathfinder_compiler/kill_graph.json) and the lock rerun green (5 passed). B1823's and B1824's seven locks pass.
+
+## 2026-10-30 — S274 the web seat's five relays harvested; B933's symmetry corrected
+
+- Rows 1505–1509 verified; P-530 closed; P-538–P-540 registered; dated notes on B933, B940, B1634 and I-31. 0 of 19.
+- **Landing suite (S274).** full suite 7 926 passed, 7 failed, 69 skipped (49:53, -n 8, beside the refined census on eight workers) on 6180ffa48: two failures are B805's attachment locks (P-239, standing); four (B1266's and B1421's source partition) came from row ids this landing wrote into I-31's earning cell, reworded before the push and the four locks rerun green (8 passed with their neighbours); one (B137's m2 seal) failed under load and passes alone (67 s). The B933 lock passes.
+
+## 2026-10-30 — S275 the notes owed since B1822
+
+- T-NORM dated where the record used it; P-532 and P-539 closed; the correction relay sent. 0 of 19.
+- **Landing suite (S275).** full suite 7 926 passed, 7 failed, 69 skipped (49:53, -n 8, beside the refined census on eight workers) on 6180ffa48: two failures are B805's attachment locks (P-239, standing); four (B1266's and B1421's source partition) came from row ids this landing wrote into I-31's earning cell, reworded before the push and the four locks rerun green (8 passed with their neighbours); one (B137's m2 seal) failed under load and passes alone (67 s). The B933 lock passes.

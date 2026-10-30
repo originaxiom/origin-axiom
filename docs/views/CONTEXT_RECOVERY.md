@@ -18,13 +18,13 @@
 | … NEGATIVE | 381 |
 | … OPEN | 93 |
 | … RETRACTED | 12 |
-| register points | 537 |
+| register points | 540 |
 | … QUEUED | 204 |
 | … LEAD | 10 |
 | … OWNER | 5 |
-| … DONE | 309 |
+| … DONE | 312 |
 | … DECLINED | 9 |
-| harvest rows (the last number) | 1504 |
+| harvest rows (the last number) | 1509 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -54,9 +54,9 @@
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
+- ** P-538** (2026-10-30) — THE PRICE OF A PRINCIPLED LINE ON STEP B's CARD (the web seat's P-530 § 6.2, harvest row 1508): the record's principles admit different lines (closure around the tick, w = 0; move-invariance, w = 0 o…
 - ** P-535** (2026-10-30) — THE LAB'S SEAL-ORDER FINDINGS (the panel's Tests view, checking all 353 sealed tests against git; two checked by main): B496's sealed PREREGISTRATION retitled B493 → B496 after its record (88f293a41)…
 - ** P-533** (2026-10-30) — HOSTINGER: MANAGE THE WEBSITES, REPLACE ORIGINAXIOM.ORG (the owner, 2026-10-30: 'how can i make you connect to hostinger so you can manage my websites, delete the old originaxiom.org site and build n…
-- ** P-532** (2026-10-30) — WHAT RESTED ON B1654 § 1.11's ARGUMENT, STILL TO BE NOTED (B1822's referee): I-33 in the identification ledger, B1643's criterion C2, and the two 2026-10-15 relays to all seats
 - ** P-529** (2026-10-30) — THE LAB: BOTH SEATS' PANEL PROPOSALS INTEGRATED (the owner, 2026-10-30: 'did you integrate SM's proposal and work on the admin panel? weave lab?', 'did you get any proposal from chat1 for the panel?'…
 - ** P-527** (2026-10-30) — THE DROPPED CM ARM (the attack plan's reader; the second pre-seal review's NB14): the revised Step B design has no forced-CM-against-control comparison, which THE FINAL ATTACK named and P-425, P-449…
 - ** P-526** (2026-10-30) — THE WEB SEAT'S SECOND CODE AND ITS READ OF THE CARD, AS STEP B's THIRD OPINION (its attack plan's 1.1 + 1.3; harvest row 1504): an independent calculator for the whole decisive conjunction (S, p₂, p_…
@@ -82,18 +82,18 @@
 
 ## The last landings (CHANGELOG)
 
+- S275 THE NOTES OWED SINCE B1822: T-NORM IS A CHOSEN INPUT, DATED WHERE THE RECORD USED IT (2026-10-30)
+- S274 THE WEB SEAT'S FIVE RELAYS VERIFIED AND HARVESTED; B933's SYMMETRY CORRECTED (2026-10-30)
 - S273 B1823 STEP A v2 NEGATIVE AS A COMPRESSION; B1824 TWO DECLARED DIRECTIONS ARE ONE (2026-10-30)
 - S272 THE LAB BUILT; ITS SEAL-ORDER FINDINGS REGISTERED; THE OWNER'S HOSTINGER AND TOOLS QUESTIONS ROWED; THE SEAL LEDGER REGENERATED (2026-10-30)
 - S271 B1822 T-NORM ON THE FRAME'S MATTER: EXACT IN THE CHOSEN METRIC, WHICH THE FLAT STRUCTURE DOES NOT FORCE (2026-10-30)
 - S270 THE WEB SEAT'S THREE RELAYS VERIFIED AND HARVESTED: P-512 DERIVED AT LEADING ORDER; P-510 RULED (FIX THE FRAME: T-NORM); ITS ATTACK READ (2026-10-30)
 - S269 B1821 THE FRAME'S MIRROR SYMMETRY; STEP B's DESIGN THROUGH ITS SECOND PRE-SEAL REVIEW (2026-10-30)
 - S268 B1820 THE RIGID CENSUS'S CURVATURE ALONG Re τ: THE REFINEMENT IS NEAR-UNIFORM (2026-10-30)
-- S267 B1819 THE RIGID CENSUS'S SMOOTHNESS IN τ: AN INTERPOLANT AND TARGETED REFINEMENT, NOT A 5× GRID (2026-10-30)
-- S266 THE FINAL ATTACK, STEPS 2-4 AS THEY STAND: STEP A OPEN, THE CENSUS COMPLETE AND UNREAD, THE GENERATOR UNDER REVIEW (2026-10-30)
 
 ## The latest campaign line
 
-LATEST (2026-10-30, S273, B1823 and B1824: the final attack's Step A came back negative. A sector of heavy particles can fix the Higgs direction through its quantum corrections, but only once one chooses how to normalise the mathematical forms it is built from, and that choice is itself a set of free numbers; left free, it undoes the saving. So the final test runs on the record's own declared directions, and one of those turned out to be a duplicate: there are twelve, not thirteen. 0 of 19.)
+LATEST (2026-10-30, S275: a debt paid. When the frame's normalisation of the three generations turned out to be a choice rather than a consequence (B1822), the earlier tests and rules that had assumed it were owed a dated note. They have them now, and every seat has been told. Their verdicts stand, for the frame as chosen. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
