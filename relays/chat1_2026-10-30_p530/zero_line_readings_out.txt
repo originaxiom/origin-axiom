@@ -1,0 +1,17 @@
+zero line, 0.35+2.75i, L_max: S (0.008621967009010465, 3.2630766789522005e-05)  St (0.020391412822995145, 0.012056746096421402)
+c=1 reading(u,d,l)=S,S,S          all equal          
+c=1 reading(u,d,l)=S,S,St         d!=e u!=e          
+c=1 reading(u,d,l)=S,St,S         u!=d d!=e          
+c=1 reading(u,d,l)=S,St,St        u!=d u!=e          
+c=1 reading(u,d,l)=St,S,S         u!=d u!=e          
+c=1 reading(u,d,l)=St,S,St        u!=d d!=e          
+c=1 reading(u,d,l)=St,St,S        d!=e u!=e          
+c=1 reading(u,d,l)=St,St,St       all equal          
+c=3 reading(u,d,l)=S,S,S          d!=e u!=e          
+c=3 reading(u,d,l)=S,S,St         d!=e u!=e          
+c=3 reading(u,d,l)=S,St,S         u!=d d!=e u!=e     ALL THREE SPLIT
+c=3 reading(u,d,l)=S,St,St        u!=d d!=e u!=e     ALL THREE SPLIT
+c=3 reading(u,d,l)=St,S,S         u!=d d!=e u!=e     ALL THREE SPLIT
+c=3 reading(u,d,l)=St,S,St        u!=d d!=e u!=e     ALL THREE SPLIT
+c=3 reading(u,d,l)=St,St,S        d!=e u!=e          
+c=3 reading(u,d,l)=St,St,St       d!=e u!=e          

@@ -1,0 +1,2 @@
+H = I for every field: {'up': (np.float64(0.00862197), np.float64(3.263e-05)), 'down': (np.float64(0.00862197), np.float64(3.263e-05)), 'lep': (np.float64(0.00862197), np.float64(3.263e-05))}
+per-field H (u: diag(1,1,1.1), e: diag(1.1,1,1), others I): {'up': (np.float64(0.00882321), np.float64(3.258e-05)), 'down': (np.float64(0.00862197), np.float64(3.263e-05)), 'lep': (np.float64(0.00882534), np.float64(3.26e-05))}
