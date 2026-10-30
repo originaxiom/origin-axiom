@@ -1,0 +1,6 @@
+sym_y exit 0
+sym2 exit 0
+explore1 exit 0
+explore2 exit 0
+explore3 exit 0
+explore4 exit 0

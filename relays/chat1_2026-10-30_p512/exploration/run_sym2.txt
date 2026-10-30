@@ -1,0 +1,20 @@
+== big entry t00
+    [m01, I*m00, I*m01]
+    [I*m11, -m10, -m11]
+    [-I*m01, m00, m01]
+   pos^2 coefficients of the minors: [m00*m11 - m01*m10, 0, -I*(m00*m11 - m01*m10), 0, 0, 0, I*(m00*m11 - m01*m10), 0, m00*m11 - m01*m10]
+== big entry t01
+    [-m00, -I*m01, I*m00]
+    [-I*m10, m11, -m10]
+    [I*m00, -m01, m00]
+   pos^2 coefficients of the minors: [-m00*m11 + m01*m10, 0, -I*(m00*m11 - m01*m10), 0, 0, 0, -I*(m00*m11 - m01*m10), 0, m00*m11 - m01*m10]
+== big entry t10
+    [m11, I*m10, I*m11]
+    [I*m01, -m00, -m01]
+    [I*m11, -m10, -m11]
+   pos^2 coefficients of the minors: [-m00*m11 + m01*m10, 0, I*(m00*m11 - m01*m10), 0, 0, 0, I*(m00*m11 - m01*m10), 0, m00*m11 - m01*m10]
+== big entry t11
+    [-m10, -I*m11, I*m10]
+    [-I*m00, m01, -m00]
+    [-I*m10, m11, -m10]
+   pos^2 coefficients of the minors: [m00*m11 - m01*m10, 0, I*(m00*m11 - m01*m10), 0, 0, 0, -I*(m00*m11 - m01*m10), 0, m00*m11 - m01*m10]

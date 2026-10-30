@@ -1,0 +1,8 @@
+Im tau 2.5 base c: {'1': -1.925805, 'i': -1.991621, 'j': 21.486276, 'k': 7.6579}
+   lep(1/8) vs down(1/8; e^T S e) max rel diff of singular values: 1.367752251470879e-13  c: {'1': -1.925805, 'i': -1.991621, 'j': 21.486276, 'k': 7.6579}
+   down(3/8) vs down(1/8; e^T S) max rel diff of singular values: 9.856947071810424e-13  c: {'1': 21.486276, 'i': 7.6579, 'j': -1.925805, 'k': -1.991621}
+   lep(3/8) vs down(1/8; S e) max rel diff of singular values: 3.7988107169220556e-13  c: {'1': 21.486276, 'i': 7.6579, 'j': -1.925805, 'k': -1.991621}
+Im tau 6.0 base c: {'1': -1.958704, 'i': -1.958721, 'j': 14.144348, 'k': 13.27197}
+   lep(1/8) vs down(1/8; e^T S e) max rel diff of singular values: 2.514522228366311e-10  c: {'1': -1.958704, 'i': -1.958721, 'j': 14.144348, 'k': 13.27197}
+   down(3/8) vs down(1/8; e^T S) max rel diff of singular values: 5.185094312402142e-10  c: {'1': 14.144348, 'i': 13.27197, 'j': -1.958704, 'k': -1.958721}
+   lep(3/8) vs down(1/8; S e) max rel diff of singular values: 3.2247376427753595e-08  c: {'1': 14.144348, 'i': 13.27197, 'j': -1.958704, 'k': -1.958721}
