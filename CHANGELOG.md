@@ -1,5 +1,11 @@
 # Changelog
 
+## S272 THE LAB BUILT; ITS SEAL-ORDER FINDINGS REGISTERED; THE OWNER'S HOSTINGER AND TOOLS QUESTIONS ROWED; THE SEAL LEDGER REGENERATED (2026-10-30)
+
+- **The Lab** (P-529, the owner's word; local): both seats' panel proposals reviewed and ported — test cards for 353 sealed tests with their order certified by git, the committed fits, the weave and cusp instruments, the record dated against its outside sources, the dispatch board. Its Tests view found seal-order issues on main's own record, registered for Review 74 (P-535): one sealed preregistration retitled after its record (B496), undisclosed changes to hashed files in B1486, B742 and B749, B1490's rule edited in its output commit, and the early practice of committing a preregistration with its findings (80 tests).
+- **The seal ledger regenerated:** B1814's row read 'untracked'; one preregistration had no row.
+- **The owner's questions:** Hostinger's MCP server added locally, awaiting the owner's sign-in (P-533, P-496); the tools read objectively and Graphify's code-only trial run offline (P-534). 0 of 19.
+
 ## S271 B1822 T-NORM ON THE FRAME'S MATTER: EXACT IN THE CHOSEN METRIC, WHICH THE FLAT STRUCTURE DOES NOT FORCE (2026-10-30)
 
 - **B1822** (PROVED; refereed hostile, PASS WITH CORRECTIONS; P-525 closed): FR-FIB's matter zero modes give the generation Gram matrix G = H·‖F_x‖², so T-NORM holds exactly in the chosen metric H = I, the one the census uses (306 twist classes; reproduced by independent code). The flat structure leaves H free (8 real parameters per field; 2 under the diagonal SU(2) of the frame's holonomy), and the outputs move with it (a democratic 0.1 mixing shifts the mass ratios by 0.045 decades and the CKM moduli by 0.08). So 'no new freedom' is false for the flat structure, H = I is a CHOSEN input on Step B's card, and the census stands for FR-FIB with H = I.

@@ -18204,3 +18204,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - T-NORM exact in the chosen metric H = I; the flat structure leaves H free; H = I a CHOSEN input; B1654's argument scoped. 0 of 19.
 - **Landing suite (S271).** full suite 7 920 passed, 2 failed, 69 skipped (56:16, -n 6, beside the refined census) on 2b20bd0d6: the two failures are B805's attachment locks (P-239, standing); B1822's three locks pass.
+
+## 2026-10-30 — S272 the Lab; its seal-order findings; the owner's questions
+
+- P-529's Lab built locally; P-533–P-535 rowed; the seal ledger regenerated. 0 of 19.
+- **Landing suite (S272).** full suite 7 920 passed, 2 failed, 69 skipped (57:03, -n 6, beside the refined census) on ffc27f941: the two failures are B805's attachment locks (P-239, standing).

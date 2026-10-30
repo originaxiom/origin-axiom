@@ -18,8 +18,8 @@
 | … NEGATIVE | 380 |
 | … OPEN | 93 |
 | … RETRACTED | 12 |
-| register points | 532 |
-| … QUEUED | 201 |
+| register points | 535 |
+| … QUEUED | 204 |
 | … LEAD | 10 |
 | … OWNER | 5 |
 | … DONE | 307 |
@@ -54,6 +54,8 @@
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
+- ** P-535** (2026-10-30) — THE LAB'S SEAL-ORDER FINDINGS (the panel's Tests view, checking all 353 sealed tests against git; two checked by main): B496's sealed PREREGISTRATION retitled B493 → B496 after its record (88f293a41)…
+- ** P-533** (2026-10-30) — HOSTINGER: MANAGE THE WEBSITES, REPLACE ORIGINAXIOM.ORG (the owner, 2026-10-30: 'how can i make you connect to hostinger so you can manage my websites, delete the old originaxiom.org site and build n…
 - ** P-532** (2026-10-30) — WHAT RESTED ON B1654 § 1.11's ARGUMENT, STILL TO BE NOTED (B1822's referee): I-33 in the identification ledger, B1643's criterion C2, and the two 2026-10-15 relays to all seats
 - ** P-529** (2026-10-30) — THE LAB: BOTH SEATS' PANEL PROPOSALS INTEGRATED (the owner, 2026-10-30: 'did you integrate SM's proposal and work on the admin panel? weave lab?', 'did you get any proposal from chat1 for the panel?'…
 - ** P-527** (2026-10-30) — THE DROPPED CM ARM (the attack plan's reader; the second pre-seal review's NB14): the revised Step B design has no forced-CM-against-control comparison, which THE FINAL ATTACK named and P-425, P-449…
@@ -77,11 +79,10 @@
 - ** P-475** (2026-10-29) — DOOR E — THE RISING FACTOR: τ's own one-loop potential runs to the cusp (B1686, B1704) and is a third 'time' never set against the threads' measure; with the measurer (L241) it is the candidate for t…
 - ** P-474** (2026-10-29) — DOOR D — A CLOCK-FREE OBSERVABLE: the dimension d = h/λ of a history's endpoint law is 0 on the principle's golden path, log 2/0.7924 = 0.875 for fair-coin letters (Kinney's dimension of Minkowski's…
 - ** P-468** (2026-10-29) — PICKED IN COMBINATION (the owner: what if the two clocks pick Im τ ≈ 3 in combination?): a falling height distribution sets at most a scale; a point needs a rising factor times a falling one. Four pr…
-- ** P-465** (2026-10-29) — THE PRINCIPLE AS THE SELECTION (the owner, 2026-10-29: could the selection principle that chooses our world be the initial a → ab, b → a principle itself?): iterated as a history, the principle is th…
-- ** P-443** (2026-10-29) — INHERITED ASSUMPTIONS (the owner, 2026-10-29: 'maybe our whole understanding is crippled, how science sees the standard model, spacetime parameters … we inherit that misunderstanding'): main's reply…
 
 ## The last landings (CHANGELOG)
 
+- S272 THE LAB BUILT; ITS SEAL-ORDER FINDINGS REGISTERED; THE OWNER'S HOSTINGER AND TOOLS QUESTIONS ROWED; THE SEAL LEDGER REGENERATED (2026-10-30)
 - S271 B1822 T-NORM ON THE FRAME'S MATTER: EXACT IN THE CHOSEN METRIC, WHICH THE FLAT STRUCTURE DOES NOT FORCE (2026-10-30)
 - S270 THE WEB SEAT'S THREE RELAYS VERIFIED AND HARVESTED: P-512 DERIVED AT LEADING ORDER; P-510 RULED (FIX THE FRAME: T-NORM); ITS ATTACK READ (2026-10-30)
 - S269 B1821 THE FRAME'S MIRROR SYMMETRY; STEP B's DESIGN THROUGH ITS SECOND PRE-SEAL REVIEW (2026-10-30)
@@ -89,11 +90,10 @@
 - S267 B1819 THE RIGID CENSUS'S SMOOTHNESS IN τ: AN INTERPOLANT AND TARGETED REFINEMENT, NOT A 5× GRID (2026-10-30)
 - S266 THE FINAL ATTACK, STEPS 2-4 AS THEY STAND: STEP A OPEN, THE CENSUS COMPLETE AND UNREAD, THE GENERATOR UNDER REVIEW (2026-10-30)
 - S265 THE PROGRAMME SO FAR (2026-10-30)
-- S264b REVIEW 73's ANCHOR; THE VIEWS REFRESHED; THE README REWRITTEN FROM BLANK (2026-10-30)
 
 ## The latest campaign line
 
-LATEST (2026-10-30, S271: B1822 — the frame's normalisation of the three generations was computed for the first time. It holds exactly in the convention the frame uses, but the geometry does not force that convention: it leaves a family of choices, and the frame's outputs depend on which is taken. So the convention is now a declared input of the final test, and an old argument that it was forced is corrected. 0 of 19.)
+LATEST (2026-10-30, S272: the owner's panel now has a Lab, built from both seats' proposals, and its first act was an audit: checking all 353 sealed tests against the repository's history, it found a handful of seals whose order or disclosure is not as the rules require — registered for the next review to rule on one by one. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

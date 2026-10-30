@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.59) of 2026-10-28 |
 | arcs with a verdict | 1526: 1041 PROVED, 380 NEGATIVE, 93 OPEN, 12 RETRACTED |
-| points in the register | 532: 216 open (queued, leads, waiting for the owner), 316 closed |
+| points in the register | 535: 219 open (queued, leads, waiting for the owner), 316 closed |
 | the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S271 B1822 T-NORM ON THE FRAME'S MATTER: EXACT IN THE CHOSEN METRIC, WHICH THE FLAT STRUCTURE DOES NOT FORCE (2026-10-30) |
+| the last landing | S272 THE LAB BUILT; ITS SEAL-ORDER FINDINGS REGISTERED; THE OWNER'S HOSTINGER AND TOOLS QUESTIONS ROWED; THE SEAL LEDGER REGENERATED (2026-10-30) |
 <!-- STATE:END -->
 
 ## Start here

@@ -179,7 +179,7 @@ hash-first status.*
 | frontier/B1795_the_doublet_triplet_split_at_the_canonical_end/PREREGISTRATION.md | 6a64e314 | 24b9e468d | 1 | yes |
 | frontier/B1798_the_six_graded_under_the_class_choosing_null/DESIGN.md | 507ab9a5 | c6038b155 | 1 | yes |
 | frontier/B1811_the_symmetry_selection_values_against_the_six/PREREGISTRATION.md | 0ce51ca6 | 316457df6 | 1 | yes |
-| frontier/B1814_the_measured_world_as_a_draw_from_the_weaves_own_measure/PREREGISTRATION.md | fe4ef1ac | untracked | 0 | yes |
+| frontier/B1814_the_measured_world_as_a_draw_from_the_weaves_own_measure/PREREGISTRATION.md | fe4ef1ac | 86cb26b30 | 1 | yes |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f4771 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c1 | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8cf | 1 | yes |
@@ -442,6 +442,7 @@ hash-first status.*
 *Totals: 428 sealed documents; 0 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
 
 
 
