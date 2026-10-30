@@ -35,6 +35,7 @@ for rel, h in HASHES.items():
     assert hashlib.sha256((ROOT / rel).read_bytes()).hexdigest() == h, "hash mismatch: " + rel
 
 sys.path.insert(0, str(ROOT / "frontier" / "B1723_the_golden_valley" / "verification"))
+sys.path.insert(0, str(ROOT / "frontier" / "B1691_the_exponents_at_the_two_fixed_points" / "verification"))  # the_exponents imports qseries from here (launch 1's fix)
 _argv = sys.argv; sys.argv = ["x"]
 import b1656_funcs as B  # noqa: E402
 sys.argv = _argv
