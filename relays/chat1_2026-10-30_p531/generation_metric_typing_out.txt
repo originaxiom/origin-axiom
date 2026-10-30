@@ -1,0 +1,25 @@
+Table A: the ruled branch's group <L, R> (real dimension of the generation metrics H kept)
+  the flat holonomy alone (B1822's family)         9
+  L                                                3
+  R                                                3
+  LR (one thread's monodromy)                      3
+  L and R                                          1
+  the stabiliser of a generic tau: the centre      9
+  the stabiliser of tau = i: R L^-1 R              5
+  the stabiliser of tau = omega: L R^-1            3
+  a 2-torsion line's stabiliser: L^2 and R         2
+  GM5b's sign, (L R^-1 L)^2                        9
+Table B: with the inner automorphisms (the parity grading) and W10's sign iota
+  the parity grading alone                         3
+  the parity grading and a generic tau             3
+  the parity grading and tau = i                   2
+  the parity grading and tau = omega               1
+  the parity grading and one thread (LR)           1
+  iota and a generic tau                           5
+  iota and tau = i                                 3
+  iota and tau = omega                             1
+  L, R and iota                                    1
+  L, R and the swap                                1
+under L and R: H / H_11 equals the identity: True
+H = I kept by L, R, sign, swap, c_a, c_b: True
+iota on the generation index, s_p for p = j, i, k: [-1, -1, 1]  (the characters of a b^-1: [-1, -1, 1] )
