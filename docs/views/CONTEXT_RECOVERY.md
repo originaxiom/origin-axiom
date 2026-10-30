@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1523 |
-| … PROVED | 1038 |
+| arcs with a verdict file | 1524 |
+| … PROVED | 1039 |
 | … NEGATIVE | 380 |
 | … OPEN | 93 |
 | … RETRACTED | 12 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1820 | PROVED | THE RIGID CENSUS'S CURVATURE ALONG Re TAU AND ITS REFINEMENT LIST (Step B's revision, P-521; aggregates and indices only; data-free): along Re tau the grid is the coarse one -- 7.75% of curvatures exceed 0.08 decades (I… |
 | B1819 | PROVED | THE RIGID CENSUS'S SMOOTHNESS IN TAU (Step B's revision, P-521; aggregates only; data-free): on B1726's grid the frame's outputs are smooth in Im tau almost everywhere -- median second difference 0.0008 decades, 99% bel… |
 | B1817 | NEGATIVE | THE FRAME'S OWN LEPTON/DOWN FACTOR AT THE CUSP (strand A's A1; P-397; data-free; refereed hostile, PASS WITH CORRECTIONS): on the slopes of order <= 30 with equal down/lepton second-generation exponents, every converged… |
 | B1816 | PROVED | THE CANONICAL END'S ACCESSORY PARAMETER IS A WEIL-PETERSSON PRIMITIVE (P-481; data-free; refereed hostile, PASS WITH CORRECTIONS): on its uniformising branch B1667's accessory parameter satisfies dC/d(tau-bar) = i h_WP(… |
@@ -42,7 +43,6 @@
 | B1810 | PROVED | THE SYMMETRY-SELECTION VALUE TABLE (P-432, first half; data-free): the frame's outputs at the four configurations the object's symmetry fixes, for Table T's directions and B1730's complete n = 1 family (13 directions, 8… |
 | B1809 | PROVED | WHAT FOUR FRAMES ON RECORD LEAVE FREE (P-406 re-scoped; a census with one classical lemma; data-free): for every discrete choice on record each of four frames keeps a continuous datum nothing on record fixes or an infin… |
 | B1808 | NEGATIVE | THREE GENERATIONS CUT A CURVE, NOT A POINT (P-419, selection by inversion, in B1804's holomorphic flux frame; data-free; NEGATIVE for 'three selects the moduli'): one LR-invariant flux with index -3 is (1,1) exactly on… |
-| B1807 | PROVED | THE FIRST GENERATION AT THE SPECIAL POINTS, AND WHAT THE END RADIUS CHANGES (P-431; data-free; PROVED under H-cov at zero line): a.R = -f2 eta^6/4 and a.a = (eta^6/4)(f1^2 - 2 f0 f2 - (5/144) E4 f2^2) exactly, so in the… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -82,6 +82,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S268 B1820 THE RIGID CENSUS'S CURVATURE ALONG Re τ: THE REFINEMENT IS NEAR-UNIFORM (2026-10-30)
 - S267 B1819 THE RIGID CENSUS'S SMOOTHNESS IN τ: AN INTERPOLANT AND TARGETED REFINEMENT, NOT A 5× GRID (2026-10-30)
 - S266 THE FINAL ATTACK, STEPS 2-4 AS THEY STAND: STEP A OPEN, THE CENSUS COMPLETE AND UNREAD, THE GENERATOR UNDER REVIEW (2026-10-30)
 - S265 THE PROGRAMME SO FAR (2026-10-30)
@@ -89,11 +90,10 @@
 - S264 REVIEW 73 — the clock decided as CHOSEN, the final attack approved, B1812 narrowed, the fresh clone run (2026-10-30)
 - S263 THE SEATS HARVESTED; THE FINAL ACT'S BAR AND THE MAP ADOPTED; THE TWO TIERS; THE TOOLS ADOPTED AND CALIBRATED (2026-10-30)
 - S262 THE WORKDESK, PHASE 1 (the desk from main's record); THE OWNER'S RULINGS ON THE SITE AND THE PANEL (2026-10-29)
-- S261 THE FINAL ATTACK, PROPOSED; THE QUEUE CLEARED; THE WEB SEAT'S EVENING RELAYS VERIFIED (2026-10-29)
 
 ## The latest campaign line
 
-LATEST (2026-10-30, S267: B1819 — the sealed-away table of the frame's outputs was read once, only as statistics of how smoothly it changes, through a tool fixed in the record before it ran. It is smooth almost everywhere, so filling in between its grid points needs only targeted refinement, not a five-times-finer table. 0 of 19.)
+LATEST (2026-10-30, S268: B1820 — the second statistics-only read of the sealed table: it is smooth along one direction of τ but coarse along the other, so the table must be recomputed on a finer grid before the final test is sealed — about 86 hours of computing, to be done once the test's reach is fixed. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

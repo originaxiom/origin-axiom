@@ -1,0 +1,25 @@
+{
+ "id": "B1820",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1819",
+  "B1810",
+  "B1726"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the rigid-direction census of FR-FIB, as B1819",
+  "object": "the curvature along Re tau and the per-line refinement list (cell indices), as aggregates",
+  "reach": "class",
+  "hypotheses": "data-free; aggregates and indices only, through a committed script reusing B1819's manifest check; threshold 0.08 decades"
+ },
+ "claim_one_line": "THE RIGID CENSUS'S CURVATURE ALONG Re TAU AND ITS REFINEMENT LIST (Step B's revision, P-521; aggregates and indices only; data-free): along Re tau the grid is the coarse one -- 7.75% of curvatures exceed 0.08 decades (Im tau: 0.54%, B1819) -- and since a configuration computes every output at once, 98.7% of the Re intervals and 67.7% of the Im intervals hold some series that needs refining; the refinement is near-uniform (Re step 0.05, Im step 0.05: about 154 000 configurations, 86 CPU-hours at the current band), computed once after the reach decision. Sharpens B1819. None of the 19.",
+ "weave_or_thread": "frame (no thread selected)"
+}

@@ -14946,6 +14946,17 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1820": {
+   "slug": "the rigid censuss curvature along re tau",
+   "motifs": [
+    "measurement"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B182": {
    "slug": "multiplicity selection",
    "motifs": [

@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.59) of 2026-10-28 |
-| arcs with a verdict | 1523: 1038 PROVED, 380 NEGATIVE, 93 OPEN, 12 RETRACTED |
+| arcs with a verdict | 1524: 1039 PROVED, 380 NEGATIVE, 93 OPEN, 12 RETRACTED |
 | points in the register | 523: 209 open (queued, leads, waiting for the owner), 314 closed |
 | the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S267 B1819 THE RIGID CENSUS'S SMOOTHNESS IN τ: AN INTERPOLANT AND TARGETED REFINEMENT, NOT A 5× GRID (2026-10-30) |
+| the last landing | S268 B1820 THE RIGID CENSUS'S CURVATURE ALONG Re τ: THE REFINEMENT IS NEAR-UNIFORM (2026-10-30) |
 <!-- STATE:END -->
 
 ## Start here

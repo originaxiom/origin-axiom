@@ -1,5 +1,9 @@
 # B1819 — THE RIGID CENSUS'S SMOOTHNESS IN τ (THE FINAL ATTACK, Step B's revision, P-521; aggregates only; data-free): ON B1726'S GRID THE FRAME'S OUTPUTS ARE SMOOTH IN Im τ ALMOST EVERYWHERE — THE MEDIAN CURVATURE IS 0.0008 DECADES PER STEP AND 99% OF IT BELOW 0.041 — SO A CERTIFIED INTERPOLANT MEETS THE RESOLUTION CHECK ON ABOUT 99.5% OF CELLS; THE REST (THE ORDER-4 LINES, 0.54% OF CURVED CELLS, AND 7568 DEGENERACY CROSSINGS) NEEDS LOCAL REFINEMENT, NOT A 5× GRID
 
+> *Sharpened 2026-10-30 (B1820): the 99.5% holds per output series along Im τ. Along Re τ 7.75% of curvatures exceed
+> 0.08 decades, and since one configuration computes every series at once, nearly every interval needs a refinement
+> point: the refinement is near-uniform (about 86 CPU-hours at the current band), not targeted.*
+
 **Verdict: PROVED**, as a measurement of the census (an instrument for Step B's seal). Data-free: no row's value is
 printed and nothing is compared with a measured value. cc (main), 2026-10-30.
 

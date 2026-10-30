@@ -18184,3 +18184,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The census read once, as aggregates, through a committed tool; an interpolant plus targeted refinement meets the resolution check (P-521). 0 of 19.
 - **Landing suite (S267).** full suite 7 910 passed, 2 failed, 69 skipped (21:50, -n 12) on 81fedbc90: the two failures are B805's attachment locks (P-239, standing); B1819's three locks pass.
+
+## 2026-10-30 — S268 B1820 (the census's curvature along Re τ)
+
+- The refinement is near-uniform, after the reach decision (P-521). 0 of 19.
+- **Landing suite (S268).** full suite 7 913 passed, 2 failed, 69 skipped (22:09, -n 12) on d576174b7: the two failures are B805's attachment locks (P-239, standing); B1820's two locks and B1819's three pass.

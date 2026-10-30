@@ -1,0 +1,2 @@
+refinement list written: 256 files match the recorded manifest | flagged intervals {'im_intervals': 14560, 're_intervals': 18952} | fractions {'im': 0.67708, 're': 0.98708}
+exit 0

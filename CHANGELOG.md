@@ -1,5 +1,9 @@
 # Changelog
 
+## S268 B1820 THE RIGID CENSUS'S CURVATURE ALONG Re τ: THE REFINEMENT IS NEAR-UNIFORM (2026-10-30)
+
+- **B1820** (PROVED, an instrument; P-521; aggregates and indices only; data-free): through a tool committed before it ran (S268a), reusing B1819's check against the manifest on record. Along Re τ the census's grid is the coarse one (7.75% of curvatures above 0.08 decades, against 0.54% along Im τ), and since a configuration computes every output at once, 99% of the Re intervals and 68% of the Im intervals hold some series that needs refining. The refinement is near-uniform (a Re step and an Im step of 0.05, about 154 000 configurations, 86 CPU-hours at the current band), computed once after the reach decision. B1819 sharpened by a dated note. 0 of 19.
+
 ## S267 B1819 THE RIGID CENSUS'S SMOOTHNESS IN τ: AN INTERPOLANT AND TARGETED REFINEMENT, NOT A 5× GRID (2026-10-30)
 
 - **B1819** (PROVED, an instrument; P-521; aggregates only; data-free): the census read once, through a tool committed before it ran (S267a) that checks every file against the manifest on record (P-495) and writes only distributions of differences. On B1726's grid the outputs are smooth in Im τ almost everywhere (median second difference 0.0008 decades, 99% below 0.041, 0.54% above 0.08), so a quadratic interpolant meets the resolution check on about 99.5% of cells; the order-4 lines, the curved cells and 7 568 degeneracy crossings need local refinement; Re τ's curvature is still to be checked. So P-521 costs a refinement, not a 5× grid of about 225 CPU-hours. A lock checks the aggregates, the tool's pin and its refusal of a census not on record. 0 of 19.
