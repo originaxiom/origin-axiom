@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1522 of 1522 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1523 of 1523 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1037)
+## PROVED (1038)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1049,6 +1049,7 @@
 | `B1813` | THE WEAVE'S OWN MEASURE DEPENDS ON HOW ITS THREADS ARE COUNTED (the owner's whole-existence computation, stage 1; P-107; data-free): left unforced, the threads produce a definite measure on tau for each counting rule, and the rule is a continuum -- counted move by move (Minkowski's measure, B1663) the limit keeps out of the cusp, P(Im tau > Y) ~ 3.9 * 4^-Y / sqrt(Y) (0.0346 at Y = 3); counted by geometric length it approaches hyperbolic area (0.315 at trace <= 400 against 0.318); weighting words by exp(-s * l) interpolates, the cusp tail's rate falling to zero at the Farey map's phase transition (s = 1, B852), where area lives. P-107 relocated, not settled: the counting rule is CHOSEN. A reading (conditional on H-cov and end data): under the move rule deep hierarchies are power-suppressed; at the critical point they are common. None of the 19. |  | 0 |
 | `B1815` | THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY (the owner-approved clock plan T1-T4; data-free; refereed hostile, PASS WITH CORRECTIONS): the walk model of B1662/B1663 (L, R at (1-p)/2, L^-1, R^-1 at p/2) has endpoint law nu_p = (1-p) M + p F_*M at every p -- Minkowski's measure and its mirror, singular to area, P(xi > 0) = 1 - p exactly (an elementary proof; an exact rational test, defect identically 0 at seven p) -- so with tau placed by arclength along the ray (CHOSEN) its averages are B1813's move clock's (0.0346 above Im tau = 3; B1663's 0.517). The object's discrete symmetry cannot decide the clock (Minkowski's measure is SL(2,Z)-quasi-invariant); the frame that computes the masses never sees word length; nothing on record generates a continuous horocycle action (Dani's door is CHOSEN); the record's established results are consistent with both clocks. The clock stays CHOSEN. Main's reading that the letters count branes is refuted (L is conjugate to no 7-brane monodromy). 0 of 19. |  | 0 |
 | `B1816` | THE CANONICAL END'S ACCESSORY PARAMETER IS A WEIL-PETERSSON PRIMITIVE (P-481; data-free; refereed hostile, PASS WITH CORRECTIONS): on its uniformising branch B1667's accessory parameter satisfies dC/d(tau-bar) = i h_WP(tau) with C = 2c and h_WP dx^dy = (1/2) dl^dt (Wolpert's normalisation) -- checked against the Fenchel-Nielsen route to 1e-11, its total volume closing on pi^2/12 -- so Weil-Petersson volume (depth tail about 3/(Y + 4 ln2/pi)^2, 0.20 at Y = 3) stands beside hyperbolic area (3/(pi Y), 0.32) as a frame-native clock; the identity holds on any real-holonomy branch, the gate and the volume certify it as WP of tau; nothing here ranks the clocks (the clock stays CHOSEN), and no clock studied picks a point (the WP-to-area ratio varies by 0.5%, peaking at omega). 0 of 19. |  | 1 |
+| `B1819` | THE RIGID CENSUS'S SMOOTHNESS IN TAU (Step B's revision, P-521; aggregates only; data-free): on B1726's grid the frame's outputs are smooth in Im tau almost everywhere -- median second difference 0.0008 decades, 99% below 0.041, 0.54% above 0.08 -- so a quadratic interpolant meets the resolution check on about 99.5% of cells, and the rest (the order-4 lines, q99 1.7034; the curved cells; 7568 degeneracy crossings) needs local refinement, not a 5x grid. The census read once, through a committed script that checks it against its recorded manifest. None of the 19. | yes | 0 |
 
 ## NEGATIVE (380)
 

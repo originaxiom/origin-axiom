@@ -14902,6 +14902,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1819": {
+   "slug": "the rigid censuss smoothness in tau",
+   "motifs": [
+    "measurement",
+    "z3_generation"
+   ],
+   "refs": [
+    "S0",
+    "S266"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B181": {
    "slug": "criticality scale",
    "motifs": [

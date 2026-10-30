@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1522 |
-| … PROVED | 1037 |
+| arcs with a verdict file | 1523 |
+| … PROVED | 1038 |
 | … NEGATIVE | 380 |
 | … OPEN | 93 |
 | … RETRACTED | 12 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1819 | PROVED | THE RIGID CENSUS'S SMOOTHNESS IN TAU (Step B's revision, P-521; aggregates only; data-free): on B1726's grid the frame's outputs are smooth in Im tau almost everywhere -- median second difference 0.0008 decades, 99% bel… |
 | B1817 | NEGATIVE | THE FRAME'S OWN LEPTON/DOWN FACTOR AT THE CUSP (strand A's A1; P-397; data-free; refereed hostile, PASS WITH CORRECTIONS): on the slopes of order <= 30 with equal down/lepton second-generation exponents, every converged… |
 | B1816 | PROVED | THE CANONICAL END'S ACCESSORY PARAMETER IS A WEIL-PETERSSON PRIMITIVE (P-481; data-free; refereed hostile, PASS WITH CORRECTIONS): on its uniformising branch B1667's accessory parameter satisfies dC/d(tau-bar) = i h_WP(… |
 | B1815 | PROVED | THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY (the owner-approved clock plan T1-T4; data-free; refereed hostile, PASS WITH CORRECTIONS): the walk model of B1662/B1663 (L, R at (1-p)/2, L^-1, R^-1 at p/2) has endpo… |
@@ -42,7 +43,6 @@
 | B1809 | PROVED | WHAT FOUR FRAMES ON RECORD LEAVE FREE (P-406 re-scoped; a census with one classical lemma; data-free): for every discrete choice on record each of four frames keeps a continuous datum nothing on record fixes or an infin… |
 | B1808 | NEGATIVE | THREE GENERATIONS CUT A CURVE, NOT A POINT (P-419, selection by inversion, in B1804's holomorphic flux frame; data-free; NEGATIVE for 'three selects the moduli'): one LR-invariant flux with index -3 is (1,1) exactly on… |
 | B1807 | PROVED | THE FIRST GENERATION AT THE SPECIAL POINTS, AND WHAT THE END RADIUS CHANGES (P-431; data-free; PROVED under H-cov at zero line): a.R = -f2 eta^6/4 and a.a = (eta^6/4)(f1^2 - 2 f0 f2 - (5/144) E4 f2^2) exactly, so in the… |
-| B1806 | PROVED | THE THIRD FIXED POINT, AND A PROXY CORRECTED (P-406's L2 at tau = i; data-free; PROVED under H-cov): near tau = i a generic covariant section gives no 2-3 hierarchy -- at k = 3/2 mod 4 the heavy pair is exactly degenera… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -82,6 +82,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S267 B1819 THE RIGID CENSUS'S SMOOTHNESS IN τ: AN INTERPOLANT AND TARGETED REFINEMENT, NOT A 5× GRID (2026-10-30)
 - S266 THE FINAL ATTACK, STEPS 2-4 AS THEY STAND: STEP A OPEN, THE CENSUS COMPLETE AND UNREAD, THE GENERATOR UNDER REVIEW (2026-10-30)
 - S265 THE PROGRAMME SO FAR (2026-10-30)
 - S264b REVIEW 73's ANCHOR; THE VIEWS REFRESHED; THE README REWRITTEN FROM BLANK (2026-10-30)
@@ -89,11 +90,10 @@
 - S263 THE SEATS HARVESTED; THE FINAL ACT'S BAR AND THE MAP ADOPTED; THE TWO TIERS; THE TOOLS ADOPTED AND CALIBRATED (2026-10-30)
 - S262 THE WORKDESK, PHASE 1 (the desk from main's record); THE OWNER'S RULINGS ON THE SITE AND THE PANEL (2026-10-29)
 - S261 THE FINAL ATTACK, PROPOSED; THE QUEUE CLEARED; THE WEB SEAT'S EVENING RELAYS VERIFIED (2026-10-29)
-- S260 B1816 THE CANONICAL END'S ACCESSORY PARAMETER IS A WEIL-PETERSSON PRIMITIVE; B1817 THE CUSP LEPTON FACTOR DOES NOT TRACK THE COLOUR COUNT; W150 VERIFIED ON MAIN (2026-10-29)
 
 ## The latest campaign line
 
-LATEST (2026-10-30, S266: the final attack, step by step. The first attempt to let the interaction fix the Higgs direction failed its hostile review — the construction was not consistent — but the review found a better road: if the heavy states' masses are tied together, as the mechanism's own source ties them, the direction might be fixed with a single free number. The big table of the frame's outputs over its whole menu of lines is complete and sealed away unread, its fingerprint on record. The scoring rule for the final test was attacked before anything was sealed and failed its review on seven points, among them a grid of τ too coarse to rule anything out; each is now a task, and the te…
+LATEST (2026-10-30, S267: B1819 — the sealed-away table of the frame's outputs was read once, only as statistics of how smoothly it changes, through a tool fixed in the record before it ran. It is smooth almost everywhere, so filling in between its grid points needs only targeted refinement, not a five-times-finer table. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

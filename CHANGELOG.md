@@ -1,5 +1,9 @@
 # Changelog
 
+## S267 B1819 THE RIGID CENSUS'S SMOOTHNESS IN τ: AN INTERPOLANT AND TARGETED REFINEMENT, NOT A 5× GRID (2026-10-30)
+
+- **B1819** (PROVED, an instrument; P-521; aggregates only; data-free): the census read once, through a tool committed before it ran (S267a) that checks every file against the manifest on record (P-495) and writes only distributions of differences. On B1726's grid the outputs are smooth in Im τ almost everywhere (median second difference 0.0008 decades, 99% below 0.041, 0.54% above 0.08), so a quadratic interpolant meets the resolution check on about 99.5% of cells; the order-4 lines, the curved cells and 7 568 degeneracy crossings need local refinement; Re τ's curvature is still to be checked. So P-521 costs a refinement, not a 5× grid of about 225 CPU-hours. A lock checks the aggregates, the tool's pin and its refusal of a census not on record. 0 of 19.
+
 ## S266 THE FINAL ATTACK, STEPS 2-4 AS THEY STAND: STEP A OPEN, THE CENSUS COMPLETE AND UNREAD, THE GENERATOR UNDER REVIEW (2026-10-30)
 
 - **Step A** (P-495's order, step 2): main's first construction (a draft arc, held in the audit room) failed at its hostile referee -- the coupling was not gauge-consistent, the phase of S is a seventh coordinate, the forms were not modular singlets, and 'one free ratio per pair' was a choice. With the heavy ratios tied, as W150's source ties them, the direction might be fixed with one free number. Step A stays OPEN (P-518, P-519).

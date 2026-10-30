@@ -1,0 +1,25 @@
+{
+ "id": "B1819",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1810",
+  "B1726",
+  "B1713"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the rigid-direction census of FR-FIB (B1810's thirteen directions, the 266-line menu's other 256 lines, B1726's tau grid, both radii, the eight readings)",
+  "object": "first and second differences in tau of the log10 outputs (six ratios, three CKM moduli), as aggregates",
+  "reach": "class",
+  "hypotheses": "data-free; aggregates only, through a committed script that checks the census against its recorded manifest; Re tau's curvature not measured; the interpolant's error estimated, not certified"
+ },
+ "claim_one_line": "THE RIGID CENSUS'S SMOOTHNESS IN TAU (Step B's revision, P-521; aggregates only; data-free): on B1726's grid the frame's outputs are smooth in Im tau almost everywhere -- median second difference 0.0008 decades, 99% below 0.041, 0.54% above 0.08 -- so a quadratic interpolant meets the resolution check on about 99.5% of cells, and the rest (the order-4 lines, q99 1.7034; the curved cells; 7568 degeneracy crossings) needs local refinement, not a 5x grid. The census read once, through a committed script that checks it against its recorded manifest. None of the 19.",
+ "weave_or_thread": "frame (no thread selected)"
+}

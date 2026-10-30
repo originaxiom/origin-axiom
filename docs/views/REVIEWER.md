@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1522** |
-| words of findings prose | **1,258,354** |
+| research arcs with findings | **1523** |
+| words of findings prose | **1,258,995** |
 | test lock files referenced | **929** |
-| arcs carrying an authored verdict | **1522** (100.0 %) |
+| arcs carrying an authored verdict | **1523** (100.0 %) |
 | recorded closures | **856** (689 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1037 |
+| PROVED | 1038 |
 | NEGATIVE | 380 |
 | OPEN | 93 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1816`** (1857 words, 1 locks)  
-THE CANONICAL END'S ACCESSORY PARAMETER IS A WEIL-PETERSSON PRIMITIVE (P-481; data-free; refereed hostile, PASS WITH CORRECTIONS): on its uniformising branch B1667's accessory parameter satisfies dC/d(tau-bar) = i h_WP(tau) with C = 2c and h_WP dx^dy = (1/2) dl^dt (Wolpert's normalisation) -- checked against the Fenchel-Nielsen route to 1e-11, its total volume closing on pi^2/12 -- so Weil-Petersson volume (depth tail about 3/(Y + 4 ln2/pi)^2, 0.20 at Y = 3) stands beside hyperbolic area (3/(pi Y), 0.32) as a frame-native clock; the identity holds on any real-holonomy branch, the gate and the volume certify it as WP of tau; nothing here ranks the clocks (the clock stays CHOSEN), and no clock studied picks a point (the WP-to-area ratio varies by 0.5%, peaking at omega). 0 of 19.  
-`B1816_the_canonical_ends_accessory_parameter_is_a_wp_primitive/FINDINGS.md`
+**PROVED — `B1819`** (641 words, 0 locks)  
+THE RIGID CENSUS'S SMOOTHNESS IN TAU (Step B's revision, P-521; aggregates only; data-free): on B1726's grid the frame's outputs are smooth in Im tau almost everywhere -- median second difference 0.0008 decades, 99% below 0.041, 0.54% above 0.08 -- so a quadratic interpolant meets the resolution check on about 99.5% of cells, and the rest (the order-4 lines, q99 1.7034; the curved cells; 7568 degeneracy crossings) needs local refinement, not a 5x grid. The census read once, through a committed script that checks it against its recorded manifest. None of the 19.  
+`B1819_the_rigid_censuss_smoothness_in_tau/FINDINGS.md`
 
 **NEGATIVE — `B1817`** (1637 words, 1 locks)  
 THE FRAME'S OWN LEPTON/DOWN FACTOR AT THE CUSP (strand A's A1; P-397; data-free; refereed hostile, PASS WITH CORRECTIONS): on the slopes of order <= 30 with equal down/lepton second-generation exponents, every converged limit of R2 independent of the offset and of Re tau is 1, 4 or 1/4 (by reading) or a non-integer line constant (3.43 on 1/8); with the anomaly-fixed charges of N_c = 2, 4, 5 the same 4 and 1/4 recur unchanged -- the integer does not move with N_c (it equals N_c only at N_c = 4, by coincidence), so no limit tracks N_c and none is 3 at N_c = 3; on the torsion-degenerate slopes R2 is a function of the offset b and passes through 3 on a continuum -- a tuned value, not a factor. The twist-charge route to c = N_c is closed on the slopes tested; c stays one discrete input, never set. 0 of 19.  

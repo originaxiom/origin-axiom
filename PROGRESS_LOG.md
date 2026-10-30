@@ -18179,3 +18179,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - Step A OPEN after its referee; the census complete and unread, its manifest hash on record; the generator under review. 0 of 19.
 - **Landing suite (S266).** full suite 7 906 passed, 2 failed, 69 skipped (22:05, -n 12) on 59ccd4d06: the two failures are B805's attachment locks (P-239, standing).
+
+## 2026-10-30 — S267 B1819 (the census's smoothness in τ)
+
+- The census read once, as aggregates, through a committed tool; an interpolant plus targeted refinement meets the resolution check (P-521). 0 of 19.
+- **Landing suite (S267).** full suite 7 910 passed, 2 failed, 69 skipped (21:50, -n 12) on 81fedbc90: the two failures are B805's attachment locks (P-239, standing); B1819's three locks pass.

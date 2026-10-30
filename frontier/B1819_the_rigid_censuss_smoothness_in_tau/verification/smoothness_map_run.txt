@@ -1,0 +1,2 @@
+smoothness map written: 256 files match the recorded manifest | second differences along Im above 0.08: 0.0054
+exit 0
