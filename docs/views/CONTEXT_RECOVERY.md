@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1525 |
-| … PROVED | 1040 |
+| arcs with a verdict file | 1526 |
+| … PROVED | 1041 |
 | … NEGATIVE | 380 |
 | … OPEN | 93 |
 | … RETRACTED | 12 |
-| register points | 530 |
-| … QUEUED | 200 |
+| register points | 532 |
+| … QUEUED | 201 |
 | … LEAD | 10 |
 | … OWNER | 5 |
-| … DONE | 306 |
+| … DONE | 307 |
 | … DECLINED | 9 |
 | harvest rows (the last number) | 1504 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1822 | PROVED | T-NORM ON THE FRAME'S MATTER (P-525; data-free; refereed hostile, PASS WITH CORRECTIONS): FR-FIB's matter zero modes (one quaternion-type doublet per field times the blocks QJ, QI, QK) give the generation Gram matrix G… |
 | B1821 | PROVED | THE FRAME'S MIRROR SYMMETRY ON THE CENSUS (B1790's mirror map, confirmed on every direction and line; Step B's census, P-521; data-free): FR-FIB's outputs at (-x+iy, line (a, -b)) equal those at (x+iy, (a, b)) row by ro… |
 | B1820 | PROVED | THE RIGID CENSUS'S CURVATURE ALONG Re TAU AND ITS REFINEMENT LIST (Step B's revision, P-521; aggregates and indices only; data-free): along Re tau the grid is the coarse one -- 7.75% of curvatures exceed 0.08 decades (I… |
 | B1819 | PROVED | THE RIGID CENSUS'S SMOOTHNESS IN TAU (Step B's revision, P-521; aggregates only; data-free): on B1726's grid the frame's outputs are smooth in Im tau almost everywhere -- median second difference 0.0008 decades, 99% bel… |
@@ -42,7 +43,6 @@
 | B1812 | NEGATIVE | THE TOWERS IN F-THEORY'S 7-BRANE FRAME (P-415, the owner's towers question; data-free; NEGATIVE for the towers-meeting-at-loci reading): the genesis word LR (trace 3) lies in the single SL(2,Z) class DeWolfe-Hauer-Iqbal… |
 | B1811 | NEGATIVE | THE SYMMETRY-SELECTION VALUES AGAINST THE SIX (P-432's second half; sealed 316457df6; NEGATIVE as sealed): at the four configurations the object's symmetry fixes, no parameter-free output of B1656's frame reaches the me… |
 | B1810 | PROVED | THE SYMMETRY-SELECTION VALUE TABLE (P-432, first half; data-free): the frame's outputs at the four configurations the object's symmetry fixes, for Table T's directions and B1730's complete n = 1 family (13 directions, 8… |
-| B1809 | PROVED | WHAT FOUR FRAMES ON RECORD LEAVE FREE (P-406 re-scoped; a census with one classical lemma; data-free): for every discrete choice on record each of four frames keeps a continuous datum nothing on record fixes or an infin… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -54,10 +54,10 @@
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
+- ** P-532** (2026-10-30) — WHAT RESTED ON B1654 § 1.11's ARGUMENT, STILL TO BE NOTED (B1822's referee): I-33 in the identification ledger, B1643's criterion C2, and the two 2026-10-15 relays to all seats
 - ** P-529** (2026-10-30) — THE LAB: BOTH SEATS' PANEL PROPOSALS INTEGRATED (the owner, 2026-10-30: 'did you integrate SM's proposal and work on the admin panel? weave lab?', 'did you get any proposal from chat1 for the panel?'…
 - ** P-527** (2026-10-30) — THE DROPPED CM ARM (the attack plan's reader; the second pre-seal review's NB14): the revised Step B design has no forced-CM-against-control comparison, which THE FINAL ATTACK named and P-425, P-449…
 - ** P-526** (2026-10-30) — THE WEB SEAT'S SECOND CODE AND ITS READ OF THE CARD, AS STEP B's THIRD OPINION (its attack plan's 1.1 + 1.3; harvest row 1504): an independent calculator for the whole decisive conjunction (S, p₂, p_…
-- ** P-525** (2026-10-30) — T-NORM ON THE EVALUATOR, A PRE-SEAL CONDITION (P-510's ruling): the census evaluator takes the SVD of Y(S, M′) with the generations' kinetic normalisation assumed trivial; no arc on main computes the…
 - ** P-523** (2026-10-30) — THE VACUITY CALIBRATION AND THE CONTROLS (the pre-seal review, B2 and its controls): on the real census with the record's allowances, every criterion must be shown able to fail given support; the dec…
 - ** P-522** (2026-10-30) — THE CKM LEG DEFINED (the pre-seal review, B5): 'the CKM predicted from the six's address' has no tie rule (8-digit and full-precision rows mixed; ties to 1e-15 on record, B1811), no rule for undefine…
 - ** P-521** (2026-10-30) — THE τ GRID FAILS THE RESOLUTION CHECK (the pre-seal review, B4; INPUT_COMPLETENESS row 13): B1726's 90-point grid is at least 4.5 times too coarse in Im τ for the record's illustrative resolution; on…
@@ -82,6 +82,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S271 B1822 T-NORM ON THE FRAME'S MATTER: EXACT IN THE CHOSEN METRIC, WHICH THE FLAT STRUCTURE DOES NOT FORCE (2026-10-30)
 - S270 THE WEB SEAT'S THREE RELAYS VERIFIED AND HARVESTED: P-512 DERIVED AT LEADING ORDER; P-510 RULED (FIX THE FRAME: T-NORM); ITS ATTACK READ (2026-10-30)
 - S269 B1821 THE FRAME'S MIRROR SYMMETRY; STEP B's DESIGN THROUGH ITS SECOND PRE-SEAL REVIEW (2026-10-30)
 - S268 B1820 THE RIGID CENSUS'S CURVATURE ALONG Re τ: THE REFINEMENT IS NEAR-UNIFORM (2026-10-30)
@@ -89,11 +90,10 @@
 - S266 THE FINAL ATTACK, STEPS 2-4 AS THEY STAND: STEP A OPEN, THE CENSUS COMPLETE AND UNREAD, THE GENERATOR UNDER REVIEW (2026-10-30)
 - S265 THE PROGRAMME SO FAR (2026-10-30)
 - S264b REVIEW 73's ANCHOR; THE VIEWS REFRESHED; THE README REWRITTEN FROM BLANK (2026-10-30)
-- S264 REVIEW 73 — the clock decided as CHOSEN, the final attack approved, B1812 narrowed, the fresh clone run (2026-10-30)
 
 ## The latest campaign line
 
-LATEST (2026-10-30, S270: the web seat's three relays, each checked on main by its own code. Its derivation of the quarter relation among the frame's cusp constants holds at leading order (with an exact lemma main's verifier found beside it). Its note on the kind clause corrected main's draft ruling: in the frame's field form nothing is invariant, so the frame must be fixed, and main is now computing whether the frame's own normalisation holds before the final test is sealed. Its attack plan was read, and its offer of an independent second code for the final test was taken. 0 of 19.)
+LATEST (2026-10-30, S271: B1822 — the frame's normalisation of the three generations was computed for the first time. It holds exactly in the convention the frame uses, but the geometry does not force that convention: it leaves a family of choices, and the frame's outputs depend on which is taken. So the convention is now a declared input of the final test, and an old argument that it was forced is corrected. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

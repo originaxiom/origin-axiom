@@ -1,5 +1,10 @@
 # Changelog
 
+## S271 B1822 T-NORM ON THE FRAME'S MATTER: EXACT IN THE CHOSEN METRIC, WHICH THE FLAT STRUCTURE DOES NOT FORCE (2026-10-30)
+
+- **B1822** (PROVED; refereed hostile, PASS WITH CORRECTIONS; P-525 closed): FR-FIB's matter zero modes give the generation Gram matrix G = H·‖F_x‖², so T-NORM holds exactly in the chosen metric H = I, the one the census uses (306 twist classes; reproduced by independent code). The flat structure leaves H free (8 real parameters per field; 2 under the diagonal SU(2) of the frame's holonomy), and the outputs move with it (a democratic 0.1 mixing shifts the mass ratios by 0.045 decades and the CKM moduli by 0.08). So 'no new freedom' is false for the flat structure, H = I is a CHOSEN input on Step B's card, and the census stands for FR-FIB with H = I.
+- **B1654 § 1.11's argument proves at best a diagonal H**: dated notes on B1654 and B1645; P-109, P-112 and P-146 scoped (P-146's dismissal of the web seat's weight on one mode refuted); P-510's ruling corrected. Owed: I-33, B1643 C2 and a correction relay to the seats (P-532); a typing that forces H = I (P-531). FLOOR 532. 0 of 19.
+
 ## S270 THE WEB SEAT'S THREE RELAYS VERIFIED AND HARVESTED: P-512 DERIVED AT LEADING ORDER; P-510 RULED (FIX THE FRAME: T-NORM); ITS ATTACK READ (2026-10-30)
 
 - **P-512** (harvest row 1502; VERIFIED WITH CORRECTIONS): the quarter relation R₂(1/8) = 4·R₂(3/8) DERIVED at leading order in the cusp limit, conditional on B1788 § 5 (a)–(c), by the web seat; main's verifier re-derived D1–D3 exactly, confirmed the rest at leading order on main's frame code, and reran the sealed check (six of six). Main's verifier adds an exact lemma: the channel kernels and c_s depend on b only through b_x + b_y (P-524).

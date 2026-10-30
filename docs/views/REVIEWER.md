@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1525** |
-| words of findings prose | **1,260,211** |
+| research arcs with findings | **1526** |
+| words of findings prose | **1,261,738** |
 | test lock files referenced | **929** |
-| arcs carrying an authored verdict | **1525** (100.0 %) |
+| arcs carrying an authored verdict | **1526** (100.0 %) |
 | recorded closures | **856** (689 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1040 |
+| PROVED | 1041 |
 | NEGATIVE | 380 |
 | OPEN | 93 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1821`** (637 words, 0 locks)  
-THE FRAME'S MIRROR SYMMETRY ON THE CENSUS (B1790's mirror map, confirmed on every direction and line; Step B's census, P-521; data-free): FR-FIB's outputs at (-x+iy, line (a, -b)) equal those at (x+iy, (a, b)) row by row with J -> -J, to 5.8e-07 in log10 on 24 configurations and all thirteen directions, and as reading-multisets on 200 of 200 random configurations; so the census needs only Re tau in [0, 1/2], and J's sign is never predicted (a world and its mirror cost the same). The census's evaluator committed here as its instrument. None of the 19.  
-`B1821_the_frames_mirror_symmetry_in_re_tau/FINDINGS.md`
+**PROVED — `B1822`** (1423 words, 0 locks)  
+T-NORM ON THE FRAME'S MATTER (P-525; data-free; refereed hostile, PASS WITH CORRECTIONS): FR-FIB's matter zero modes (one quaternion-type doublet per field times the blocks QJ, QI, QK) give the generation Gram matrix G = H ||F_x||^2, so T-NORM holds exactly in the chosen metric H = I, the one the census uses (306 twist classes, off-diagonals <= 2e-12, refined to 1e-15; reproduced by independent code); but the flat structure leaves H free -- 8 real parameters per field (2 under the diagonal SU(2) of the frame's holonomy) -- and the outputs move with it (a democratic 0.1 mixing shifts the mass ratios by 0.045 decades and |V| by 0.08): 'no new freedom' is false for the flat structure and H = I is a CHOSEN input; B1654's section 1.11 argument proves at best a diagonal H (P-146's dismissal refuted). None of the 19.  
+`B1822_t_norm_on_the_frames_matter/FINDINGS.md`
 
 **NEGATIVE — `B1817`** (1637 words, 1 locks)  
 THE FRAME'S OWN LEPTON/DOWN FACTOR AT THE CUSP (strand A's A1; P-397; data-free; refereed hostile, PASS WITH CORRECTIONS): on the slopes of order <= 30 with equal down/lepton second-generation exponents, every converged limit of R2 independent of the offset and of Re tau is 1, 4 or 1/4 (by reading) or a non-integer line constant (3.43 on 1/8); with the anomaly-fixed charges of N_c = 2, 4, 5 the same 4 and 1/4 recur unchanged -- the integer does not move with N_c (it equals N_c only at N_c = 4, by coincidence), so no limit tracks N_c and none is 3 at N_c = 3; on the torsion-degenerate slopes R2 is a function of the offset b and passes through 3 on a continuum -- a tuned value, not a factor. The twist-charge route to c = N_c is closed on the slopes tested; c stays one discrete input, never set. 0 of 19.  

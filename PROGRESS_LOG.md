@@ -18199,3 +18199,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - P-512 derived at leading order (conditional); P-510 ruled (T-NORM); the attack read; P-524–P-530. 0 of 19.
 - **Landing suite (S270).** full suite 7 916 passed, 2 failed, 69 skipped (58:35, -n 6, beside the refined census on eight workers) on b42167f1a: the two failures are B805's attachment locks (P-239, standing).
+
+## 2026-10-30 — S271 B1822 (T-NORM on the frame's matter)
+
+- T-NORM exact in the chosen metric H = I; the flat structure leaves H free; H = I a CHOSEN input; B1654's argument scoped. 0 of 19.
+- **Landing suite (S271).** full suite 7 920 passed, 2 failed, 69 skipped (56:16, -n 6, beside the refined census) on 2b20bd0d6: the two failures are B805's attachment locks (P-239, standing); B1822's three locks pass.

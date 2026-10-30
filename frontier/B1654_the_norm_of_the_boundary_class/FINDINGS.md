@@ -107,6 +107,11 @@ In full in the preregistration's §0b. In brief:
   that texture. If GST is nature's, the canonical end condition alone does not give the Cabibbo angle (P-129).
 - **T-NORM for the matter (§1.11 of the preregistration, by hand):** the generations live in different flat bundles,
   so their physical L² metric is ‖F‖²·I₃. Only the Higgs needs a cut.
+  > *Scoped 2026-10-30 (B1822, refereed): the argument proves at best a diagonal H. The generation bundles are isomorphic,
+  > so an invariant pairing exists (step 1 false for the matter); the discrete charge forbids cross terms only as a typing
+  > (step 2); and the unitarity of C_p fixes the diagonal only if the generations share one normalisation (step 3 leaves
+  > three free scales). The flat structure leaves 8 real parameters per field. ‖F‖²·I₃ holds in the chosen metric H = I,
+  > a CHOSEN input of FR-FIB, which the census uses. The argument is true for the Higgs channels (four distinct characters).*
 - **What it does not show:**
   - which end condition is physical (P4, P4′ or P4″): the parent's clauses 4 and 6;
   - L, τ, or the Higgs's direction;

@@ -1,0 +1,45 @@
+{
+ "(1) frame's coupling/bil vs (C_a F_x)^T eps S (C_b F_y) from my modes, max rel": 1.5522904603672397e-14,
+ "(2) base outputs (H = I), generic S, L = 2, tau = 0.31+1.73i, line (2/5, 3/10)": {
+  "up": [
+   0.05693728701260311,
+   0.4855869348227575
+  ],
+  "down": [
+   0.03347243856890559,
+   0.4205019022367381
+  ],
+  "V": [
+   0.016831584031606558,
+   0.39974646566442706,
+   0.05825353115943342
+  ],
+  "J": -0.0003319576600324006
+ },
+ "(2) kinetic metrics": {
+  "H = 3.7 I on Q (a scale)": {
+   "max |log10 ratio change|": 5.303801066043082e-16,
+   "bound log10 sqrt(cond_L cond_R)": 0.0,
+   "within bound": true,
+   "max |V change|": 2.498001805406602e-16
+  },
+  "H_Q = diag(1, 1, 1.1) (a weight on the k mode)": {
+   "max |log10 ratio change|": 0.007398012763202472,
+   "bound log10 sqrt(cond_L cond_R)": 0.02069634257911254,
+   "within bound": true,
+   "max |V change|": 0.0004433477149795584
+  },
+  "H_Q with a 0.05 mixing (j, k)": {
+   "max |log10 ratio change|": 0.00509053157954464,
+   "bound log10 sqrt(cond_L cond_R)": 0.021732846890545172,
+   "within bound": true,
+   "max |V change|": 0.009430980676119693
+  },
+  "H_u = H_d = I + 0.1 (J - I) (democratic, the SU(2)-diagonal family)": {
+   "max |log10 ratio change|": 0.04475375184646131,
+   "bound log10 sqrt(cond_L cond_R)": 0.06246936830415,
+   "within bound": true,
+   "max |V change|": 0.08034691728596671
+  }
+ }
+}

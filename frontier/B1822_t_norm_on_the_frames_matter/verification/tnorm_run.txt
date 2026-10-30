@@ -1,0 +1,8 @@
+P0 {"bil (holomorphic F_x F_y^T) vs the frame's b1656_funcs.bil, max rel": 1.8286415642082745e-15, "twist (q p1, -2 q p2) vs the frame's line_w/sector_twists, max abs": 1.7763568394002505e-15, 'series truncation NK=24 vs 60 (abs, on herm at Im z up to 2.6 Im tau)': 0.0}
+C+ singular {'1j': {'duffy': np.float64(3.5254943480781744), 'polar_reference': 3.5254943480781717, 'rel_error': np.float64(6.661338147750939e-16)}, '(0.3+1.2j)': {'duffy': np.float64(3.836851946487827), 'polar_reference': 3.8368519464878257, 'rel_error': np.float64(4.440892098500626e-16)}, '(0.45+2.6j)': {'duffy': np.float64(5.298880619797315), 'polar_reference': 5.2988806197973135, 'rel_error': np.float64(4.440892098500626e-16)}, 'exact at tau = i: 4 ln(1 + sqrt 2)': 3.5254943480781717}
+C+- magnetised done
+S {'r(z+1)+r(z)': 4.0797801616407984e-14, 's spread': 1.42394257966807e-13, '|F0|^2,|F1|^2 periodic under 1': 6.23945339839338e-14, '|F0|^2<->|F1|^2 under tau': 2.609024107869118e-13, '|F|^2 periodic (1 and tau)': 8.548717289613705e-14, 'cross-integrand character residual': 8.552720545358835e-14} [(-1.0, -0.0)] ['{"i": [1, -1], "j": [-1, 1], "k": [-1, -1]}'] 1170 306
+K {'flat structure alone (real dim)': 9, 'plus the characters as a symmetry of the multiplicity index': 3, 'cover typing: metric on V (2x2) invariant under the deck action Phi': 1} 0.0
+C- frame done
+done 360.6 s; 306 twist classes
+exit 0

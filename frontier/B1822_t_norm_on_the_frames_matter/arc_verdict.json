@@ -1,0 +1,28 @@
+{
+ "id": "B1822",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1656",
+  "B1691",
+  "B1642",
+  "B1654",
+  "B1643",
+  "B1821"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "FR-FIB's matter (B1656's flat fibre frame as the census evaluator builds it)",
+  "object": "the L2 Gram matrix of the three matter zero modes per field; the invariant metrics of the flat structure",
+  "reach": "class",
+  "hypotheses": "data-free; the flat L2 product; H = I CHOSEN (forced only by three underived one-dimensional typings); the census stands for FR-FIB with H = I"
+ },
+ "claim_one_line": "T-NORM ON THE FRAME'S MATTER (P-525; data-free; refereed hostile, PASS WITH CORRECTIONS): FR-FIB's matter zero modes (one quaternion-type doublet per field times the blocks QJ, QI, QK) give the generation Gram matrix G = H ||F_x||^2, so T-NORM holds exactly in the chosen metric H = I, the one the census uses (306 twist classes, off-diagonals <= 2e-12, refined to 1e-15; reproduced by independent code); but the flat structure leaves H free -- 8 real parameters per field (2 under the diagonal SU(2) of the frame's holonomy) -- and the outputs move with it (a democratic 0.1 mixing shifts the mass ratios by 0.045 decades and |V| by 0.08): 'no new freedom' is false for the flat structure and H = I is a CHOSEN input; B1654's section 1.11 argument proves at best a diagonal H (P-146's dismissal refuted). None of the 19.",
+ "weave_or_thread": "frame (no thread selected)"
+}

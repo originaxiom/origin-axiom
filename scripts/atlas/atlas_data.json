@@ -11950,7 +11950,7 @@
     "S141"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 15,
+   "obstacle_conf": 17,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -14968,6 +14968,20 @@
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1822": {
+   "slug": "t norm on the frames matter",
+   "motifs": [
+    "coupling",
+    "trace_map",
+    "kappa",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 12,
+   "status": "banked",
+   "domain": "physics"
   },
   "B182": {
    "slug": "multiplicity selection",

@@ -1,0 +1,448 @@
+{
+ "rows": [
+  {
+   "config": "Q|zero|1j",
+   "class": "Q|zero|1j",
+   "a": "0",
+   "b": "0",
+   "tau": [
+    0.0,
+    1.0
+   ],
+   "seconds": 3.2,
+   "max_abs_diff_vs_stored": 0.0,
+   "cover_max_offdiag (rerun)": 2.133896688597621e-16,
+   "cell_P0 entries (rerun)": {
+    "ji": [
+     0.0,
+     0.0
+    ],
+    "jk": [
+     0.0,
+     -0.620890689335
+    ],
+    "ik": [
+     0.0,
+     -0.620890689335
+    ]
+   },
+   "cell_P0+1 entries (rerun)": {
+    "ji": [
+     0.0,
+     0.0
+    ],
+    "jk": [
+     0.0,
+     -0.620890689335
+    ],
+    "ik": [
+     0.0,
+     0.620890689335
+    ]
+   },
+   "norm_F2 cover/P0/polar (rerun)": [
+    1.5364508446521148,
+    1.5364508446521126,
+    1.5364508446521135
+   ],
+   "structure": {
+    "r(z+1)+r(z)": 9.196633211774077e-16,
+    "s = r(z+tau) r(z)": [
+     -1.0,
+     0.0
+    ],
+    "s spread": 2.1104727820554466e-15,
+    "|F0|^2,|F1|^2 periodic under 1": 1.7763568394002505e-15,
+    "|F0|^2<->|F1|^2 under tau": 4.6629367034256575e-15,
+    "|F|^2 periodic (1 and tau)": 3.3306690738754696e-15,
+    "characters (chi(1), chi(tau)) of C_p F": {
+     "j": [
+      -1,
+      1
+     ],
+     "i": [
+      1,
+      -1
+     ],
+     "k": [
+      -1,
+      -1
+     ]
+    },
+    "cross-integrand character residual": 3.2762508999200854e-15,
+    "cross characters nontrivial": true
+   }
+  },
+  {
+   "config": "e|2/5,3/10|(0.35+2.75j)",
+   "class": "Q|2/5,3/10|(0.35+2.75j)",
+   "a": "2/5",
+   "b": "-3/5",
+   "tau": [
+    0.35,
+    2.75
+   ],
+   "seconds": 3.2,
+   "max_abs_diff_vs_stored": 0.0,
+   "cover_max_offdiag (rerun)": 4.2101059210809045e-16,
+   "cell_P0 entries (rerun)": {
+    "ji": [
+     0.0,
+     0.104756165529
+    ],
+    "jk": [
+     0.0,
+     0.906119209165
+    ],
+    "ik": [
+     0.0,
+     0.020947657515
+    ]
+   },
+   "cell_P0+1 entries (rerun)": {
+    "ji": [
+     0.0,
+     -0.104756165529
+    ],
+    "jk": [
+     0.0,
+     0.906119209165
+    ],
+    "ik": [
+     0.0,
+     -0.020947657515
+    ]
+   },
+   "norm_F2 cover/P0/polar (rerun)": [
+    5.008321464055843,
+    5.00832146405584,
+    5.0083214640558475
+   ],
+   "structure": {
+    "r(z+1)+r(z)": 1.7558732872397073e-15,
+    "s = r(z+tau) r(z)": [
+     -1.0,
+     0.0
+    ],
+    "s spread": 1.0667274583645192e-14,
+    "|F0|^2,|F1|^2 periodic under 1": 2.4424906541753444e-15,
+    "|F0|^2<->|F1|^2 under tau": 4.163336342344337e-14,
+    "|F|^2 periodic (1 and tau)": 3.008704396734174e-14,
+    "characters (chi(1), chi(tau)) of C_p F": {
+     "j": [
+      -1,
+      1
+     ],
+     "i": [
+      1,
+      -1
+     ],
+     "k": [
+      -1,
+      -1
+     ]
+    },
+    "cross-integrand character residual": 3.003753126888152e-14,
+    "cross characters nontrivial": true
+   }
+  },
+  {
+   "config": "u|ord7 2/7,3/7|(0.85+3.45j)",
+   "class": "u|ord7 2/7,3/7|(0.85+3.45j)",
+   "a": "-8/7",
+   "b": "24/7",
+   "tau": [
+    0.85,
+    3.45
+   ],
+   "seconds": 3.2,
+   "max_abs_diff_vs_stored": 0.0,
+   "cover_max_offdiag (rerun)": 2.6704322184134143e-14,
+   "cell_P0 entries (rerun)": {
+    "ji": [
+     0.0,
+     -0.104051722134
+    ],
+    "jk": [
+     0.0,
+     -0.864908559939
+    ],
+    "ik": [
+     0.0,
+     -0.016731567757
+    ]
+   },
+   "cell_P0+1 entries (rerun)": {
+    "ji": [
+     0.0,
+     0.104051722134
+    ],
+    "jk": [
+     0.0,
+     -0.864908559939
+    ],
+    "ik": [
+     0.0,
+     0.016731567757
+    ]
+   },
+   "norm_F2 cover/P0/polar (rerun)": [
+    6.204803128696463,
+    6.204803128696599,
+    6.204803128696625
+   ],
+   "structure": {
+    "r(z+1)+r(z)": 4.537438119529047e-15,
+    "s = r(z+tau) r(z)": [
+     -1.0,
+     0.0
+    ],
+    "s spread": 1.5128460031225933e-14,
+    "|F0|^2,|F1|^2 periodic under 1": 9.992007221626409e-16,
+    "|F0|^2<->|F1|^2 under tau": 2.8199664825478976e-14,
+    "|F|^2 periodic (1 and tau)": 2.5091040356528538e-14,
+    "characters (chi(1), chi(tau)) of C_p F": {
+     "j": [
+      -1,
+      1
+     ],
+     "i": [
+      1,
+      -1
+     ],
+     "k": [
+      -1,
+      -1
+     ]
+    },
+    "cross-integrand character residual": 2.5103641329263713e-14,
+    "cross characters nontrivial": true
+   }
+  },
+  {
+   "config": "L|ord12 5/12,1/12|(0.3+6j)",
+   "class": "L|ord12 1/12,5/12|(0.3+6j)",
+   "a": "-1/4",
+   "b": "5/2",
+   "tau": [
+    0.3,
+    6.0
+   ],
+   "seconds": 3.1,
+   "max_abs_diff_vs_stored": 0.0,
+   "cover_max_offdiag (rerun)": 4.142315640826291e-13,
+   "cell_P0 entries (rerun)": {
+    "ji": [
+     0.0,
+     0.154927185733
+    ],
+    "jk": [
+     0.0,
+     -0.0
+    ],
+    "ik": [
+     0.0,
+     -0.0
+    ]
+   },
+   "cell_P0+1 entries (rerun)": {
+    "ji": [
+     0.0,
+     -0.154927185733
+    ],
+    "jk": [
+     0.0,
+     -0.0
+    ],
+    "ik": [
+     0.0,
+     0.0
+    ]
+   },
+   "norm_F2 cover/P0/polar (rerun)": [
+    6.441271197871931,
+    6.441271197868389,
+    6.4412711978684705
+   ],
+   "structure": {
+    "r(z+1)+r(z)": 5.678224248232488e-15,
+    "s = r(z+tau) r(z)": [
+     -1.0,
+     -0.0
+    ],
+    "s spread": 2.1204540359847832e-14,
+    "|F0|^2,|F1|^2 periodic under 1": 2.7755575615628914e-15,
+    "|F0|^2<->|F1|^2 under tau": 1.1102230246251565e-15,
+    "|F|^2 periodic (1 and tau)": 1.1102230246251565e-15,
+    "characters (chi(1), chi(tau)) of C_p F": {
+     "j": [
+      -1,
+      1
+     ],
+     "i": [
+      1,
+      -1
+     ],
+     "k": [
+      -1,
+      -1
+     ]
+    },
+    "cross-integrand character residual": 2.3640060882185346e-15,
+    "cross characters nontrivial": true
+   }
+  },
+  {
+   "config": "d|ord9 1/9,1/9|(0.05+2.05j)",
+   "class": "d|ord9 1/9,1/9|(0.05+2.05j)",
+   "a": "2/9",
+   "b": "-4/9",
+   "tau": [
+    0.05,
+    2.05
+   ],
+   "seconds": 3.2,
+   "max_abs_diff_vs_stored": 0.0,
+   "cover_max_offdiag (rerun)": 9.315278837197907e-16,
+   "cell_P0 entries (rerun)": {
+    "ji": [
+     0.0,
+     0.359844597574
+    ],
+    "jk": [
+     0.0,
+     -0.213943241927
+    ],
+    "ik": [
+     0.0,
+     -0.066487695912
+    ]
+   },
+   "cell_P0+1 entries (rerun)": {
+    "ji": [
+     0.0,
+     -0.359844597574
+    ],
+    "jk": [
+     0.0,
+     -0.213943241927
+    ],
+    "ik": [
+     0.0,
+     0.066487695912
+    ]
+   },
+   "norm_F2 cover/P0/polar (rerun)": [
+    2.519603442920272,
+    2.5196034429202743,
+    2.5196034429202854
+   ],
+   "structure": {
+    "r(z+1)+r(z)": 1.3740568921748657e-15,
+    "s = r(z+tau) r(z)": [
+     -1.0,
+     0.0
+    ],
+    "s spread": 6.229329442616684e-15,
+    "|F0|^2,|F1|^2 periodic under 1": 2.4424906541753444e-15,
+    "|F0|^2<->|F1|^2 under tau": 1.7985612998927536e-14,
+    "|F|^2 periodic (1 and tau)": 1.3322676295501878e-15,
+    "characters (chi(1), chi(tau)) of C_p F": {
+     "j": [
+      -1,
+      1
+     ],
+     "i": [
+      1,
+      -1
+     ],
+     "k": [
+      -1,
+      -1
+     ]
+    },
+    "cross-integrand character residual": 4.598396582196583e-15,
+    "cross characters nontrivial": true
+   }
+  },
+  {
+   "config": "Q|ord4 0,1/4|(0.3+6j)",
+   "class": "Q|ord4 0,1/4|(0.3+6j)",
+   "a": "0",
+   "b": "-1/2",
+   "tau": [
+    0.3,
+    6.0
+   ],
+   "seconds": 3.1,
+   "max_abs_diff_vs_stored": 0.0,
+   "cover_max_offdiag (rerun)": 2.0306436185717323e-12,
+   "cell_P0 entries (rerun)": {
+    "ji": [
+     0.0,
+     -0.0
+    ],
+    "jk": [
+     0.0,
+     -0.999852509403
+    ],
+    "ik": [
+     0.0,
+     0.0
+    ]
+   },
+   "cell_P0+1 entries (rerun)": {
+    "ji": [
+     0.0,
+     0.0
+    ],
+    "jk": [
+     0.0,
+     -0.999852509403
+    ],
+    "ik": [
+     0.0,
+     0.0
+    ]
+   },
+   "norm_F2 cover/P0/polar (rerun)": [
+    77.54418279640956,
+    77.5441827961977,
+    77.54418279619743
+   ],
+   "structure": {
+    "r(z+1)+r(z)": 1.8802285827836496e-15,
+    "s = r(z+tau) r(z)": [
+     -1.0,
+     0.0
+    ],
+    "s spread": 1.2989977088816063e-14,
+    "|F0|^2,|F1|^2 periodic under 1": 7.771561172376096e-16,
+    "|F0|^2<->|F1|^2 under tau": 3.219646771412954e-14,
+    "|F|^2 periodic (1 and tau)": 2.4646951146678475e-14,
+    "characters (chi(1), chi(tau)) of C_p F": {
+     "j": [
+      -1,
+      1
+     ],
+     "i": [
+      1,
+      -1
+     ],
+     "k": [
+      -1,
+      -1
+     ]
+    },
+    "cross-integrand character residual": 2.470224226946302e-14,
+    "cross characters nontrivial": true
+   }
+  }
+ ],
+ "worst_abs_diff_vs_stored": 0.0,
+ "K_invariant_metrics (rerun)": {
+  "flat structure alone (real dim)": 9,
+  "plus the characters as a symmetry of the multiplicity index": 3,
+  "cover typing: metric on V (2x2) invariant under the deck action Phi": 1
+ }
+}
