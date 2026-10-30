@@ -1,0 +1,134 @@
+{
+ "Z_n2": [
+  {
+   "point": "i",
+   "max_sval": 0.9999999999840481,
+   "rank_1e9": 1
+  },
+  {
+   "point": "omega_0",
+   "max_sval": 141917523.81244484,
+   "rank_1e9": 1
+  },
+  {
+   "point": "omega_1",
+   "max_sval": 141917523.81244484,
+   "rank_1e9": 2
+  },
+  {
+   "point": "omega_2",
+   "max_sval": 141917523.81244484,
+   "rank_1e9": 2
+  }
+ ],
+ "Z_n4": [
+  {
+   "point": "i",
+   "max_sval": 1.7320508075412477,
+   "rank_1e9": 1
+  },
+  {
+   "point": "omega_0",
+   "max_sval": 962336654.2743393,
+   "rank_1e9": 2
+  },
+  {
+   "point": "omega_1",
+   "max_sval": 2175390156.2496486,
+   "rank_1e9": 3
+  },
+  {
+   "point": "omega_2",
+   "max_sval": 401403373.82793236,
+   "rank_1e9": 2
+  }
+ ],
+ "Z_n8": [
+  {
+   "point": "i",
+   "max_sval": 3.3166247903024932,
+   "rank_1e9": 1
+  },
+  {
+   "point": "omega_0",
+   "max_sval": 1009361739.7784928,
+   "rank_1e9": 3
+  },
+  {
+   "point": "omega_1",
+   "max_sval": 2175424316.372352,
+   "rank_1e9": 3
+  },
+  {
+   "point": "omega_2",
+   "max_sval": 2949722376.329866,
+   "rank_1e9": 4
+  }
+ ],
+ "H_n2": [
+  {
+   "point": "i",
+   "max_sval": 0.9999999999840481,
+   "rank_1e9": 1
+  },
+  {
+   "point": "omega_0",
+   "max_sval": 141917523.81244484,
+   "rank_1e9": 2
+  },
+  {
+   "point": "omega_1",
+   "max_sval": 141917523.81244484,
+   "rank_1e9": 1
+  },
+  {
+   "point": "omega_2",
+   "max_sval": 141917523.81244484,
+   "rank_1e9": 2
+  }
+ ],
+ "H_n4": [
+  {
+   "point": "i",
+   "max_sval": 1.7320508075412477,
+   "rank_1e9": 1
+  },
+  {
+   "point": "omega_0",
+   "max_sval": 962336654.2743391,
+   "rank_1e9": 3
+  },
+  {
+   "point": "omega_1",
+   "max_sval": 668463843.3276771,
+   "rank_1e9": 2
+  },
+  {
+   "point": "omega_2",
+   "max_sval": 401403373.82793236,
+   "rank_1e9": 2
+  }
+ ],
+ "H_n8": [
+  {
+   "point": "i",
+   "max_sval": 3.3166247903024932,
+   "rank_1e9": 1
+  },
+  {
+   "point": "omega_0",
+   "max_sval": 2261586429.5028596,
+   "rank_1e9": 4
+  },
+  {
+   "point": "omega_1",
+   "max_sval": 689007396.0995147,
+   "rank_1e9": 3
+  },
+  {
+   "point": "omega_2",
+   "max_sval": 913645368.7099916,
+   "rank_1e9": 3
+  }
+ ]
+}

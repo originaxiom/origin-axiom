@@ -1,0 +1,28 @@
+{
+ "id": "B1824",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1697",
+  "B1730",
+  "B1810",
+  "B1811",
+  "B1691",
+  "B1645"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record's Higgs direction functions (B1697's a0, B1730's zero-free F_a) as B1810 declares them",
+  "object": "vector-valued modular forms of rho_R on the upper half plane: a0 = D^2 R - E4 R/48 against F_-2 = eta^5 (th2^-2, th4^-2, i th3^-2)",
+  "reach": "general",
+  "hypotheses": "data-free; an identity at every tau (Serre derivatives; Dedekind eta); the census's coincidence of outputs follows for any computation reading the direction through its line, to be confirmed on the census's rows"
+ },
+ "claim_one_line": "TWO OF B1810'S THIRTEEN DECLARED HIGGS DIRECTIONS ARE ONE (data-free; proved by hand, exact in B1691's q-series to q^25, re-derived by main in sympy and to 2e-40 numerically): a0 = D^2 R - E4 R/48 = (1/48)(th2 th3^3 th4^3, th2^3 th3^3 th4, i th2^3 th3 th4^3) = (eta^9/6)(th2^-2, th4^-2, i th3^-2) = eta^4 F_-2/6 identically, so N(a0) = i eta^21/864 (zero-free) and B1691's 'unidentified zero at t = -1/48' is eta^4 times B1730's zero-free F_-2; B1810's thirteen declared directions are twelve distinct (B1811's NEGATIVE unchanged: the null shared the duplicate); Step B's declared menu is twelve (0.115 bits less), the census's a0 and F_-2 rows to be confirmed equal before the seal. None of the 19.",
+ "weave_or_thread": "frame (no thread selected)"
+}

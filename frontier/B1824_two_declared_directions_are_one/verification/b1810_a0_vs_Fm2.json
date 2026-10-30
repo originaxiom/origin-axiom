@@ -1,0 +1,9 @@
+{
+ "pairs": 64,
+ "max_mass_ratio_difference": 1.56267e-16,
+ "V_defined_pairs": 32,
+ "max_V_difference_where_defined": 9.922850000000001e-16,
+ "max_J_difference_where_defined": 7.484229e-33,
+ "V_undefined_pairs": 32,
+ "max_V_difference_where_undefined": 0.0214988
+}

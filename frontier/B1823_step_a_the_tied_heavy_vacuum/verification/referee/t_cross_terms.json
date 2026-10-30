@@ -1,0 +1,527 @@
+{
+ "menu_Z": {
+  "n2": {
+   "L_i Lbar_j": {
+    "count": 2,
+    "off_diagonal_pairs": 2,
+    "examples": [
+     [
+      1,
+      2,
+      "eta^20 x (weight 0 level-1 form)"
+     ],
+     [
+      2,
+      1,
+      "eta^12 x (weight 4 level-1 form)"
+     ]
+    ]
+   },
+   "E_i Ebar_j": {
+    "count": 1,
+    "off_diagonal_pairs": 2,
+    "examples": [
+     [
+      2,
+      1,
+      "eta^16 x (weight 4 level-1 form)"
+     ]
+    ]
+   },
+   "H L_i Ebar_j": {
+    "count": 2,
+    "off_diagonal_pairs": 2,
+    "examples": [
+     [
+      1,
+      2,
+      "the weight-3/2 triplet of copy 2 (r = 12)"
+     ],
+     [
+      2,
+      1,
+      "the weight-3/2 triplet of copy 1 (r = 4)"
+     ]
+    ]
+   }
+  },
+  "n3": {
+   "L_i Lbar_j": {
+    "count": 6,
+    "off_diagonal_pairs": 6,
+    "examples": [
+     [
+      1,
+      2,
+      "eta^20 x (weight 0 level-1 form)"
+     ],
+     [
+      1,
+      3,
+      "eta^8 x (weight 6 level-1 form)"
+     ],
+     [
+      2,
+      1,
+      "eta^12 x (weight 4 level-1 form)"
+     ],
+     [
+      2,
+      3,
+      "eta^8 x (weight 6 level-1 form)"
+     ],
+     [
+      3,
+      1,
+      "eta^12 x (weight 4 level-1 form)"
+     ],
+     [
+      3,
+      2,
+      "eta^20 x (weight 0 level-1 form)"
+     ]
+    ]
+   },
+   "E_i Ebar_j": {
+    "count": 5,
+    "off_diagonal_pairs": 6,
+    "examples": [
+     [
+      1,
+      3,
+      "eta^4 x (weight 10 level-1 form)"
+     ],
+     [
+      2,
+      1,
+      "eta^16 x (weight 4 level-1 form)"
+     ],
+     [
+      2,
+      3,
+      "eta^8 x (weight 8 level-1 form)"
+     ],
+     [
+      3,
+      1,
+      "eta^0 x (weight 12 level-1 form)"
+     ],
+     [
+      3,
+      2,
+      "eta^8 x (weight 8 level-1 form)"
+     ]
+    ]
+   },
+   "H L_i Ebar_j": {
+    "count": 6,
+    "off_diagonal_pairs": 6,
+    "examples": [
+     [
+      1,
+      2,
+      "the weight-3/2 triplet of copy 2 (r = 12)"
+     ],
+     [
+      1,
+      3,
+      "the weight-3/2 triplet of copy 3 (r = 20)"
+     ],
+     [
+      2,
+      1,
+      "the weight-3/2 triplet of copy 1 (r = 4)"
+     ],
+     [
+      2,
+      3,
+      "the weight-3/2 triplet of copy 3 (r = 20)"
+     ],
+     [
+      3,
+      1,
+      "the weight-3/2 triplet of copy 1 (r = 4)"
+     ],
+     [
+      3,
+      2,
+      "the weight-3/2 triplet of copy 2 (r = 12)"
+     ]
+    ]
+   }
+  },
+  "n8": {
+   "L_i Lbar_j": {
+    "count": 56,
+    "off_diagonal_pairs": 56,
+    "examples": [
+     [
+      1,
+      2,
+      "eta^20 x (weight 0 level-1 form)"
+     ],
+     [
+      1,
+      3,
+      "eta^8 x (weight 6 level-1 form)"
+     ],
+     [
+      1,
+      4,
+      "eta^8 x (weight 8 level-1 form)"
+     ],
+     [
+      1,
+      5,
+      "eta^16 x (weight 6 level-1 form)"
+     ],
+     [
+      1,
+      6,
+      "eta^8 x (weight 10 level-1 form)"
+     ],
+     [
+      1,
+      7,
+      "eta^20 x (weight 6 level-1 form)"
+     ]
+    ]
+   },
+   "E_i Ebar_j": {
+    "count": 53,
+    "off_diagonal_pairs": 56,
+    "examples": [
+     [
+      1,
+      3,
+      "eta^4 x (weight 10 level-1 form)"
+     ],
+     [
+      1,
+      4,
+      "eta^4 x (weight 10 level-1 form)"
+     ],
+     [
+      1,
+      6,
+      "eta^12 x (weight 6 level-1 form)"
+     ],
+     [
+      1,
+      7,
+      "eta^12 x (weight 6 level-1 form)"
+     ],
+     [
+      2,
+      1,
+      "eta^16 x (weight 4 level-1 form)"
+     ],
+     [
+      2,
+      3,
+      "eta^8 x (weight 8 level-1 form)"
+     ]
+    ]
+   },
+   "H L_i Ebar_j": {
+    "count": 56,
+    "off_diagonal_pairs": 56,
+    "examples": [
+     [
+      1,
+      2,
+      "the weight-3/2 triplet of copy 2 (r = 12)"
+     ],
+     [
+      1,
+      3,
+      "the weight-3/2 triplet of copy 3 (r = 20)"
+     ],
+     [
+      1,
+      4,
+      "the weight-3/2 triplet of copy 3 (r = 20)"
+     ],
+     [
+      1,
+      5,
+      "the weight-3/2 triplet of copy 2 (r = 12)"
+     ],
+     [
+      1,
+      6,
+      "the weight-3/2 triplet of copy 1 (r = 4)"
+     ],
+     [
+      1,
+      7,
+      "the weight-3/2 triplet of copy 1 (r = 4)"
+     ]
+    ]
+   }
+  }
+ },
+ "menu_H": {
+  "n2": {
+   "L_i Lbar_j": {
+    "count": 2,
+    "off_diagonal_pairs": 2,
+    "examples": [
+     [
+      1,
+      2,
+      "eta^20 x (weight 0 level-1 form)"
+     ],
+     [
+      2,
+      1,
+      "eta^12 x (weight 4 level-1 form)"
+     ]
+    ]
+   },
+   "E_i Ebar_j": {
+    "count": 1,
+    "off_diagonal_pairs": 2,
+    "examples": [
+     [
+      1,
+      2,
+      "eta^16 x (weight 4 level-1 form)"
+     ]
+    ]
+   },
+   "H L_i Ebar_j": {
+    "count": 2,
+    "off_diagonal_pairs": 2,
+    "examples": [
+     [
+      1,
+      2,
+      "the weight-3/2 triplet of copy 2 (r = 4)"
+     ],
+     [
+      2,
+      1,
+      "the weight-3/2 triplet of copy 1 (r = 0)"
+     ]
+    ]
+   }
+  },
+  "n3": {
+   "L_i Lbar_j": {
+    "count": 6,
+    "off_diagonal_pairs": 6,
+    "examples": [
+     [
+      1,
+      2,
+      "eta^20 x (weight 0 level-1 form)"
+     ],
+     [
+      1,
+      3,
+      "eta^8 x (weight 6 level-1 form)"
+     ],
+     [
+      2,
+      1,
+      "eta^12 x (weight 4 level-1 form)"
+     ],
+     [
+      2,
+      3,
+      "eta^8 x (weight 6 level-1 form)"
+     ],
+     [
+      3,
+      1,
+      "eta^12 x (weight 4 level-1 form)"
+     ],
+     [
+      3,
+      2,
+      "eta^20 x (weight 0 level-1 form)"
+     ]
+    ]
+   },
+   "E_i Ebar_j": {
+    "count": 5,
+    "off_diagonal_pairs": 6,
+    "examples": [
+     [
+      1,
+      2,
+      "eta^16 x (weight 4 level-1 form)"
+     ],
+     [
+      1,
+      3,
+      "eta^0 x (weight 12 level-1 form)"
+     ],
+     [
+      2,
+      3,
+      "eta^8 x (weight 8 level-1 form)"
+     ],
+     [
+      3,
+      1,
+      "eta^4 x (weight 10 level-1 form)"
+     ],
+     [
+      3,
+      2,
+      "eta^8 x (weight 8 level-1 form)"
+     ]
+    ]
+   },
+   "H L_i Ebar_j": {
+    "count": 6,
+    "off_diagonal_pairs": 6,
+    "examples": [
+     [
+      1,
+      2,
+      "the weight-3/2 triplet of copy 2 (r = 4)"
+     ],
+     [
+      1,
+      3,
+      "the weight-3/2 triplet of copy 3 (r = 12)"
+     ],
+     [
+      2,
+      1,
+      "the weight-3/2 triplet of copy 1 (r = 0)"
+     ],
+     [
+      2,
+      3,
+      "the weight-3/2 triplet of copy 3 (r = 12)"
+     ],
+     [
+      3,
+      1,
+      "the weight-3/2 triplet of copy 1 (r = 0)"
+     ],
+     [
+      3,
+      2,
+      "the weight-3/2 triplet of copy 2 (r = 4)"
+     ]
+    ]
+   }
+  },
+  "n8": {
+   "L_i Lbar_j": {
+    "count": 56,
+    "off_diagonal_pairs": 56,
+    "examples": [
+     [
+      1,
+      2,
+      "eta^20 x (weight 0 level-1 form)"
+     ],
+     [
+      1,
+      3,
+      "eta^8 x (weight 6 level-1 form)"
+     ],
+     [
+      1,
+      4,
+      "eta^8 x (weight 8 level-1 form)"
+     ],
+     [
+      1,
+      5,
+      "eta^16 x (weight 6 level-1 form)"
+     ],
+     [
+      1,
+      6,
+      "eta^8 x (weight 10 level-1 form)"
+     ],
+     [
+      1,
+      7,
+      "eta^20 x (weight 6 level-1 form)"
+     ]
+    ]
+   },
+   "E_i Ebar_j": {
+    "count": 55,
+    "off_diagonal_pairs": 56,
+    "examples": [
+     [
+      1,
+      2,
+      "eta^16 x (weight 4 level-1 form)"
+     ],
+     [
+      1,
+      3,
+      "eta^0 x (weight 12 level-1 form)"
+     ],
+     [
+      1,
+      4,
+      "eta^8 x (weight 8 level-1 form)"
+     ],
+     [
+      1,
+      5,
+      "eta^8 x (weight 8 level-1 form)"
+     ],
+     [
+      1,
+      6,
+      "eta^0 x (weight 12 level-1 form)"
+     ],
+     [
+      1,
+      7,
+      "eta^16 x (weight 4 level-1 form)"
+     ]
+    ]
+   },
+   "H L_i Ebar_j": {
+    "count": 56,
+    "off_diagonal_pairs": 56,
+    "examples": [
+     [
+      1,
+      2,
+      "the weight-3/2 triplet of copy 2 (r = 4)"
+     ],
+     [
+      1,
+      3,
+      "the weight-3/2 triplet of copy 3 (r = 12)"
+     ],
+     [
+      1,
+      4,
+      "the weight-3/2 triplet of copy 4 (r = 20)"
+     ],
+     [
+      1,
+      5,
+      "the weight-3/2 triplet of copy 4 (r = 20)"
+     ],
+     [
+      1,
+      6,
+      "the weight-3/2 triplet of copy 3 (r = 12)"
+     ],
+     [
+      1,
+      7,
+      "the weight-3/2 triplet of copy 2 (r = 4)"
+     ]
+    ]
+   }
+  }
+ },
+ "reading": "with every copy's L at k = 0, c = 0, the cross terms L_i Lbar_j (form Y_L,j) and H L_i Ebar_j (triplet Y3,j) carry exactly the weight and character of copy j's own terms, so they are invariant for every i != j; the construction's 'one copy, one block' superpotential sets them to zero by choice (no symmetry of the exhibited assignment forbids them); another member of the affine family of assignments would have to be exhibited"
+}

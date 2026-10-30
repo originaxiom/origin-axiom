@@ -1,0 +1,344 @@
+== D: 176 configurations
+H N    n=1 mu2=0.3 m0^2/mu2=0.01 lv=0.1 | FLAT(2)   plan:flat2 | tau=+0.30149+0.95347i mirror=None          | min/max eig 8.2e-19 | free rank -  | b2 max 3.5e-32 | c min 0.007
+H N    n=1 mu2=0.3 m0^2/mu2=0.01 lv=0.3 | FLAT(2)   plan:flat2 | tau=+0.30149+0.95347i mirror=None          | min/max eig -6.9e-17 | free rank -  | b2 max 1.4e-31 | c min 0.007
+H N    n=1 mu2=0.3 m0^2/mu2=0.01 lv=1.0 | FLAT(2)   plan:flat2 | tau=+0.30149+0.95347i mirror=None          | min/max eig -1.3e-15 | free rank -  | b2 max 2.3e-30 | c min 0.007
+H N    n=1 mu2=0.5 m0^2/mu2=0.01 lv=0.1 | FLAT(2)   plan:flat2 | tau=+0.43044+1.17822i mirror=None          | min/max eig 4.8e-19 | free rank -  | b2 max 1.3e-31 | c min 0.010
+H N    n=1 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | FLAT(2)   plan:flat2 | tau=+0.43044+1.17822i mirror=None          | min/max eig -8.8e-17 | free rank -  | b2 max 3.1e-31 | c min 0.010
+H N    n=1 mu2=0.5 m0^2/mu2=0.01 lv=1.0 | FLAT(2)   plan:flat2 | tau=+0.43044+1.17822i mirror=None          | min/max eig -1.5e-15 | free rank -  | b2 max 3.1e-30 | c min 0.010
+H N    n=1 mu2=0.5 m0^2/mu2=0.10 lv=0.3 | FLAT(2)   plan:flat2 | tau=+0.40727+1.15998i mirror=None          | min/max eig -1.0e-16 | free rank -  | b2 max 1.6e-31 | c min 0.095
+H N    n=1 mu2=0.8 m0^2/mu2=0.01 lv=0.1 | FLAT(2)   plan:flat2 | tau=-0.50000+1.40606i mirror=None          | min/max eig 1.1e-17 | free rank -  | b2 max 1.3e-32 | c min 0.015
+H N    n=1 mu2=0.8 m0^2/mu2=0.01 lv=0.3 | FLAT(2)   plan:flat2 | tau=-0.50000+1.40606i mirror=None          | min/max eig -9.5e-17 | free rank -  | b2 max 3.3e-31 | c min 0.015
+H N    n=1 mu2=0.8 m0^2/mu2=0.01 lv=1.0 | FLAT(2)   plan:flat2 | tau=-0.50000+1.40606i mirror=None          | min/max eig -7.6e-16 | free rank -  | b2 max 4.9e-30 | c min 0.015
+H N    n=2 mu2=0.3 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.50000+1.25344i mirror=Re tau = -1/2 | min/max eig 2.1e-03 | free rank 1 (0.02 8.4e-05 1.4e-14) | b2 max 1.6e-32 | c min 0.010
+H N    n=2 mu2=0.3 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.25344i mirror=Re tau = -1/2 | min/max eig 9.2e-03 | free rank 1 (0.02 8.4e-05 1.9e-15) | b2 max 1.3e-31 | c min 0.010
+H N    n=2 mu2=0.3 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=-0.50000+1.25344i mirror=Re tau = -1/2 | min/max eig 5.2e-03 | free rank 1 (0.02 8.4e-05 2.6e-16) | b2 max 1.3e-30 | c min 0.010
+H N    n=2 mu2=0.5 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.50000+1.24402i mirror=Re tau = -1/2 | min/max eig 1.4e-03 | free rank 1 (0.017 8.4e-05 9e-15) | b2 max 5.6e-33 | c min 0.011
+H N    n=2 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.24402i mirror=Re tau = -1/2 | min/max eig 8.1e-03 | free rank 1 (0.017 8.4e-05 2.7e-16) | b2 max 2.5e-32 | c min 0.011
+H N    n=2 mu2=0.5 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=-0.50000+1.24402i mirror=Re tau = -1/2 | min/max eig 3.2e-03 | free rank 1 (0.017 8.4e-05 5.5e-16) | b2 max 6.4e-31 | c min 0.011
+H N    n=2 mu2=0.5 m0^2/mu2=0.10 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.24480i mirror=Re tau = -1/2 | min/max eig 8.2e-03 | free rank 1 (0.018 0.00087 7.7e-17) | b2 max 2.5e-32 | c min 0.115
+H N    n=2 mu2=0.8 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.40529+1.23056i mirror=None          | min/max eig 8.8e-04 | free rank 2 (0.35 0.0016 2.7e-14) | b2 max 1.0e-32 | c min 0.010
+H N    n=2 mu2=0.8 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.40529+1.23056i mirror=None          | min/max eig 6.4e-03 | free rank 2 (0.35 0.0016 2.8e-15) | b2 max 1.6e-31 | c min 0.010
+H N    n=2 mu2=0.8 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.40529+1.23056i mirror=None          | min/max eig 4.7e-03 | free rank 2 (0.35 0.0016 4.5e-16) | b2 max 1.2e-30 | c min 0.010
+H N    n=3 mu2=0.3 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.50000+1.19742i mirror=Re tau = -1/2 | min/max eig 6.9e-04 | free rank 3 (0.87 0.0053 0.049) | b2 max 9.6e-03 | c min 0.008
+H N    n=3 mu2=0.3 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.16348i mirror=Re tau = -1/2 | min/max eig 3.9e-03 | free rank 3 (0.71 0.0044 0.53) | b2 max 1.1e-01 | c min 0.007
+H N    n=3 mu2=0.3 m0^2/mu2=0.01 lv=1.0 | UNCONVERGED(grad 1e-03, Im tau 3.62) plan:flat0 | tau=+0.00632+3.61714i mirror=None          | min/max eig 2.6e-07 | free rank -  | b2 max 2.4e-01 | c min -0.034
+H N    n=3 mu2=0.5 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.50000+1.24600i mirror=Re tau = -1/2 | min/max eig 7.7e-04 | free rank 3 (0.54 0.0041 0.012) | b2 max 1.0e-02 | c min 0.009
+H N    n=3 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.25709i mirror=Re tau = -1/2 | min/max eig 4.9e-03 | free rank 3 (0.55 0.0038 0.15) | b2 max 9.9e-02 | c min 0.009
+H N    n=3 mu2=0.5 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=-0.50000+1.03879i mirror=Re tau = -1/2 | min/max eig 1.9e-02 | free rank 3 (0.095 0.00075 0.22) | b2 max 5.8e-01 | c min 0.002
+H N    n=3 mu2=0.5 m0^2/mu2=0.10 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.25056i mirror=Re tau = -1/2 | min/max eig 4.3e-03 | free rank 3 (0.74 0.048 0.16) | b2 max 9.5e-02 | c min 0.092
+H N    n=3 mu2=0.8 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.50000+1.28767i mirror=Re tau = -1/2 | min/max eig 8.1e-04 | free rank 3 (0.31 0.002 0.0078) | b2 max 1.2e-02 | c min 0.008
+H N    n=3 mu2=0.8 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.30398i mirror=Re tau = -1/2 | min/max eig 6.6e-03 | free rank 3 (0.24 0.0012 0.065) | b2 max 1.1e-01 | c min 0.008
+H N    n=3 mu2=0.8 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=-0.50000+1.59142i mirror=Re tau = -1/2 | min/max eig 1.5e-03 | free rank 3 (0.14 0.0028 0.52) | b2 max 7.8e-01 | c min -0.010
+H N    n=4 mu2=0.3 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.50000+1.18653i mirror=Re tau = -1/2 | min/max eig 2.9e-04 | free rank 3 (0.62 0.002 0.0065) | b2 max 1.6e-02 | c min 0.005
+H N    n=4 mu2=0.3 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.13104i mirror=Re tau = -1/2 | min/max eig 1.6e-03 | free rank 3 (0.2 0.0064 0.11) | b2 max 1.3e-01 | c min 0.003
+H N    n=4 mu2=0.3 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=-0.50000+1.00193i mirror=Re tau = -1/2 | min/max eig 4.2e-03 | free rank 3 (0.094 0.0015 0.54) | b2 max 1.4e+00 | c min -0.003
+H N    n=4 mu2=0.5 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.50000+1.28917i mirror=Re tau = -1/2 | min/max eig 2.4e-03 | free rank 3 (0.28 0.003 0.0063) | b2 max 1.4e-02 | c min 0.006
+H N    n=4 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.30854i mirror=Re tau = -1/2 | min/max eig 1.0e-02 | free rank 3 (0.3 0.0031 0.05) | b2 max 1.2e-01 | c min 0.006
+H N    n=4 mu2=0.5 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=-0.50000+1.41035i mirror=Re tau = -1/2 | min/max eig 1.1e-02 | free rank 3 (0.17 0.001 0.086) | b2 max 1.2e+00 | c min 0.006
+H N    n=4 mu2=0.5 m0^2/mu2=0.10 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.28664i mirror=Re tau = -1/2 | min/max eig 8.2e-03 | free rank 3 (0.3 0.022 0.053) | b2 max 1.3e-01 | c min 0.056
+H N    n=4 mu2=0.8 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.50000+1.39702i mirror=Re tau = -1/2 | min/max eig 5.4e-03 | free rank 3 (0.27 0.0033 0.0074) | b2 max 1.2e-02 | c min 0.003
+H N    n=4 mu2=0.8 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.42211i mirror=Re tau = -1/2 | min/max eig 1.7e-02 | free rank 2 (0.26 0.003 0.057) | b2 max 1.0e-01 | c min 0.001
+H N    n=4 mu2=0.8 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=-0.50000+1.47669i mirror=Re tau = -1/2 | min/max eig 7.5e-03 | free rank 3 (0.13 0.00065 0.14) | b2 max 1.0e+00 | c min -0.002
+H N    n=5 mu2=0.3 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.32657+1.15270i mirror=None          | min/max eig 3.3e-03 | free rank 3 (0.37 0.0035 0.0077) | b2 max 1.5e-02 | c min 0.005
+H N    n=5 mu2=0.3 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.33901+1.12579i mirror=None          | min/max eig 1.8e-02 | free rank 3 (0.42 0.004 0.056) | b2 max 1.4e-01 | c min 0.005
+H N    n=5 mu2=0.3 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.34454+0.93877i mirror=|tau| = 1     | min/max eig 5.3e-05 | free rank 3 (0.18 0.00062 0.31) | b2 max 1.2e+00 | c min -0.000
+H N    n=5 mu2=0.5 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.33540+1.31020i mirror=None          | min/max eig 5.8e-03 | free rank 3 (0.34 0.0043 0.024) | b2 max 1.7e-02 | c min 0.007
+H N    n=5 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.38345+1.26562i mirror=None          | min/max eig 1.9e-02 | free rank 3 (0.34 0.0031 0.13) | b2 max 1.4e-01 | c min 0.006
+H N    n=5 mu2=0.5 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=-0.50000+1.09740i mirror=Re tau = -1/2 | min/max eig 3.4e-03 | free rank 3 (0.14 0.0051 0.2) | b2 max 1.3e+00 | c min -0.002
+H N    n=5 mu2=0.5 m0^2/mu2=0.10 lv=0.3 | ISOLATED  plan:iso   | tau=+0.38708+1.24155i mirror=None          | min/max eig 1.9e-02 | free rank 3 (0.4 0.026 0.11) | b2 max 1.4e-01 | c min 0.052
+H N    n=5 mu2=0.8 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.12138+1.54787i mirror=None          | min/max eig 5.9e-03 | free rank 3 (0.65 0.0037 0.27) | b2 max 2.2e-02 | c min -0.007
+H N    n=5 mu2=0.8 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.42276+1.42405i mirror=None          | min/max eig 6.1e-03 | free rank 3 (0.36 0.007 0.53) | b2 max 1.7e-01 | c min 0.001
+H N    n=5 mu2=0.8 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=-0.50000+1.20407i mirror=Re tau = -1/2 | min/max eig 9.1e-03 | free rank 3 (0.2 0.002 0.22) | b2 max 1.3e+00 | c min -0.002
+H N    n=6 mu2=0.3 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.35729+1.12336i mirror=None          | min/max eig 1.6e-03 | free rank 3 (0.47 0.0048 0.012) | b2 max 1.6e-02 | c min 0.004
+H N    n=6 mu2=0.3 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.36130+1.08514i mirror=None          | min/max eig 7.3e-03 | free rank 3 (0.56 0.0057 0.085) | b2 max 1.4e-01 | c min 0.003
+H N    n=6 mu2=0.3 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.36000+0.93295i mirror=|tau| = 1     | min/max eig 1.6e-03 | free rank 3 (0.2 0.00059 0.34) | b2 max 1.2e+00 | c min -0.001
+H N    n=6 mu2=0.5 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.37562+1.33344i mirror=None          | min/max eig 7.3e-03 | free rank 3 (1.5 0.027 0.21) | b2 max 3.7e-02 | c min 0.004
+H N    n=6 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.22846i mirror=Re tau = -1/2 | min/max eig 2.6e-03 | free rank 3 (0.23 0.0027 0.1) | b2 max 1.6e-01 | c min 0.003
+H N    n=6 mu2=0.5 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=-0.50000+1.06223i mirror=Re tau = -1/2 | min/max eig 1.3e-03 | free rank 3 (0.22 0.0011 0.32) | b2 max 1.4e+00 | c min -0.004
+H N    n=6 mu2=0.5 m0^2/mu2=0.10 lv=0.3 | ISOLATED  plan:iso   | tau=+0.47126+1.20632i mirror=None          | min/max eig 2.8e-03 | free rank 3 (1.5 0.087 0.3) | b2 max 1.5e-01 | c min 0.028
+H N    n=6 mu2=0.8 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.00000+1.65643i mirror=Re tau = 0    | min/max eig 1.1e-02 | free rank 3 (0.83 0.00042 0.64) | b2 max 2.8e-01 | c min -0.015
+H N    n=6 mu2=0.8 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.38593i mirror=Re tau = -1/2 | min/max eig 1.1e-02 | free rank 3 (0.71 0.016 0.45) | b2 max 4.1e-01 | c min -0.001
+H N    n=6 mu2=0.8 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.49527+1.10642i mirror=None          | min/max eig 7.2e-04 | free rank 3 (2.6 0.027 0.48) | b2 max 1.6e+00 | c min -0.009
+H N    n=7 mu2=0.3 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.26400+1.07891i mirror=None          | min/max eig 1.8e-03 | free rank 3 (1 0.01 0.052) | b2 max 1.3e-02 | c min 0.004
+H N    n=7 mu2=0.3 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.25607+0.96666i mirror=|tau| = 1     | min/max eig 3.6e-03 | free rank 3 (0.17 0.00058 0.031) | b2 max 1.3e-01 | c min 0.004
+H N    n=7 mu2=0.3 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.32769+0.94478i mirror=|tau| = 1     | min/max eig 2.4e-02 | free rank 3 (0.063 0.00053 0.12) | b2 max 1.4e+00 | c min 0.001
+H N    n=7 mu2=0.5 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.19437+1.35971i mirror=None          | min/max eig 2.7e-02 | free rank 3 (1.1 0.012 0.22) | b2 max 7.9e-02 | c min 0.005
+H N    n=7 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.29319+1.21179i mirror=None          | min/max eig 3.2e-02 | free rank 3 (0.71 0.0068 0.36) | b2 max 2.0e-01 | c min 0.004
+H N    n=7 mu2=0.5 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.32193+0.94676i mirror=|tau| = 1     | min/max eig 1.2e-02 | free rank 3 (0.15 0.00068 0.22) | b2 max 1.5e+00 | c min -0.003
+H N    n=7 mu2=0.5 m0^2/mu2=0.10 lv=0.3 | ISOLATED  plan:iso   | tau=+0.29457+1.18535i mirror=None          | min/max eig 2.6e-02 | free rank 3 (0.84 0.061 0.37) | b2 max 1.6e-01 | c min 0.043
+H N    n=7 mu2=0.8 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.00000+1.60771i mirror=Re tau = 0    | min/max eig 6.7e-03 | free rank 3 (0.33 0.0016 0.2) | b2 max 3.9e-01 | c min -0.011
+H N    n=7 mu2=0.8 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.33671+1.35887i mirror=None          | min/max eig 3.2e-02 | free rank 3 (0.59 0.0044 0.34) | b2 max 5.8e-01 | c min -0.000
+H N    n=7 mu2=0.8 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.35032+1.05627i mirror=None          | min/max eig 2.0e-02 | free rank 3 (0.43 0.0076 0.38) | b2 max 1.4e+00 | c min -0.008
+H N    n=8 mu2=0.3 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.25970+1.16015i mirror=None          | min/max eig 5.7e-03 | free rank 3 (1.2 0.011 0.18) | b2 max 5.6e-02 | c min -0.014
+H N    n=8 mu2=0.3 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.27539+1.09669i mirror=None          | min/max eig 1.7e-02 | free rank 3 (0.64 0.0059 0.25) | b2 max 1.4e-01 | c min -0.016
+H N    n=8 mu2=0.3 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.33625+0.94177i mirror=|tau| = 1     | min/max eig 1.6e-02 | free rank 3 (0.0085 0.0009 0.056) | b2 max 1.3e+00 | c min -0.020
+H N    n=8 mu2=0.5 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.21047+1.35739i mirror=None          | min/max eig 8.9e-03 | free rank 3 (0.34 0.0039 0.28) | b2 max 4.8e-01 | c min -0.018
+H N    n=8 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.29708+1.19811i mirror=None          | min/max eig 1.3e-02 | free rank 3 (0.39 0.0037 0.3) | b2 max 5.2e-01 | c min -0.026
+H N    n=8 mu2=0.5 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.34844+1.01604i mirror=None          | min/max eig 1.9e-02 | free rank 3 (0.22 0.0031 0.23) | b2 max 1.3e+00 | c min -0.036
+H N    n=8 mu2=0.5 m0^2/mu2=0.10 lv=0.3 | ISOLATED  plan:iso   | tau=+0.29631+1.18685i mirror=None          | min/max eig 1.4e-02 | free rank 3 (0.42 0.028 0.31) | b2 max 4.7e-01 | c min -0.223
+H N    n=8 mu2=0.8 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.28507+1.44159i mirror=None          | min/max eig 3.5e-03 | free rank 3 (0.73 0.008 0.24) | b2 max 8.8e-01 | c min -0.029
+H N    n=8 mu2=0.8 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.33033+1.26968i mirror=None          | min/max eig 6.9e-03 | free rank 3 (0.46 0.0045 0.35) | b2 max 9.8e-01 | c min -0.043
+H N    n=8 mu2=0.8 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.35307+1.07021i mirror=None          | min/max eig 1.6e-02 | free rank 3 (0.21 0.0031 0.27) | b2 max 1.3e+00 | c min -0.059
+H cusp n=1 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | UNCONVERGED(grad 7e-10, Im tau 4.12) plan:flat3 | tau=+0.02858+4.11681i mirror=None          | min/max eig -5.4e-16 | free rank -  | b2 max 3.1e-21 | c min 0.002
+H cusp n=2 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | UNCONVERGED(grad 2e-09, Im tau 4.12) plan:flat1 | tau=+0.01419+4.11657i mirror=None          | min/max eig 2.6e-11 | free rank -  | b2 max 8.7e-05 | c min -0.056
+H cusp n=3 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | RUNAWAY(interior ISOLATED) plan:iso   | tau=+0.03068+0.99953i mirror=|tau| = 1     | min/max eig 2.4e-03 | free rank 2 (0.027 0.00013 0.028) | b2 max 3.8e-01 | c min -0.022
+H cusp n=4 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | RUNAWAY(interior ISOLATED) plan:iso   | tau=+0.37857+0.92557i mirror=|tau| = 1     | min/max eig 2.1e-04 | free rank 3 (0.012 5.7e-05 0.029) | b2 max 4.0e-01 | c min -0.021
+H cusp n=5 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.37978+0.92508i mirror=|tau| = 1     | min/max eig 2.9e-03 | free rank 3 (0.025 2.9e-05 0.0018) | b2 max 3.0e-01 | c min -0.021
+H cusp n=6 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.49532+0.86871i mirror=|tau| = 1     | min/max eig 1.7e-04 | free rank 3 (0.013 0.00012 0.00035) | b2 max 4.1e-01 | c min -0.053
+H cusp n=7 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.49518+0.86879i mirror=|tau| = 1     | min/max eig 5.5e-05 | free rank 3 (0.024 0.00015 0.0046) | b2 max 7.8e+00 | c min -0.053
+H cusp n=8 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.49473+0.86905i mirror=|tau| = 1     | min/max eig 4.1e-05 | free rank 3 (0.026 0.00016 0.0045) | b2 max 7.8e+00 | c min -0.053
+Z N    n=1 mu2=0.3 m0^2/mu2=0.01 lv=0.1 | FLAT(2)   plan:flat2 | tau=+0.30149+0.95347i mirror=None          | min/max eig -1.0e-19 | free rank -  | b2 max 6.0e-35 | c min 0.007
+Z N    n=1 mu2=0.3 m0^2/mu2=0.01 lv=0.3 | FLAT(2)   plan:flat2 | tau=+0.30149+0.95347i mirror=None          | min/max eig 1.4e-19 | free rank -  | b2 max 0.0e+00 | c min 0.007
+Z N    n=1 mu2=0.3 m0^2/mu2=0.01 lv=1.0 | FLAT(2)   plan:flat2 | tau=+0.30149+0.95347i mirror=None          | min/max eig -1.4e-18 | free rank -  | b2 max 1.5e-32 | c min 0.007
+Z N    n=1 mu2=0.5 m0^2/mu2=0.01 lv=0.1 | FLAT(2)   plan:flat2 | tau=+0.43044+1.17822i mirror=None          | min/max eig -9.2e-19 | free rank -  | b2 max 4.4e-34 | c min 0.010
+Z N    n=1 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | FLAT(2)   plan:flat2 | tau=+0.43044+1.17822i mirror=None          | min/max eig 3.1e-19 | free rank -  | b2 max 4.3e-33 | c min 0.010
+Z N    n=1 mu2=0.5 m0^2/mu2=0.01 lv=1.0 | FLAT(2)   plan:flat2 | tau=+0.43044+1.17822i mirror=None          | min/max eig 1.7e-18 | free rank -  | b2 max 8.3e-32 | c min 0.010
+Z N    n=1 mu2=0.5 m0^2/mu2=0.10 lv=0.3 | FLAT(2)   plan:flat2 | tau=+0.40727+1.15998i mirror=None          | min/max eig 5.7e-19 | free rank -  | b2 max 1.2e-33 | c min 0.095
+Z N    n=1 mu2=0.8 m0^2/mu2=0.01 lv=0.1 | FLAT(2)   plan:flat2 | tau=-0.50000+1.40606i mirror=None          | min/max eig -2.2e-18 | free rank -  | b2 max 7.5e-37 | c min 0.015
+Z N    n=1 mu2=0.8 m0^2/mu2=0.01 lv=0.3 | FLAT(2)   plan:flat2 | tau=-0.50000+1.40606i mirror=None          | min/max eig 7.7e-18 | free rank -  | b2 max 3.2e-33 | c min 0.015
+Z N    n=1 mu2=0.8 m0^2/mu2=0.01 lv=1.0 | FLAT(2)   plan:flat2 | tau=-0.50000+1.40606i mirror=None          | min/max eig -3.1e-19 | free rank -  | b2 max 1.3e-32 | c min 0.015
+Z N    n=2 mu2=0.3 m0^2/mu2=0.01 lv=0.1 | FLAT(1)   plan:flat1 | tau=+0.00000+2.65374i mirror=None          | min/max eig 8.9e-18 | free rank -  | b2 max 3.0e-01 | c min -0.030
+Z N    n=2 mu2=0.3 m0^2/mu2=0.01 lv=0.3 | FLAT(1)   plan:flat1 | tau=-0.00000+2.65374i mirror=None          | min/max eig 6.7e-16 | free rank -  | b2 max 3.0e-01 | c min -0.030
+Z N    n=2 mu2=0.3 m0^2/mu2=0.01 lv=1.0 | FLAT(1)   plan:flat1 | tau=+0.00000+2.65374i mirror=None          | min/max eig 9.8e-15 | free rank -  | b2 max 3.0e-01 | c min -0.030
+Z N    n=2 mu2=0.5 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.50000+1.24402i mirror=Re tau = -1/2 | min/max eig 1.7e-03 | free rank 1 (0.022 0.00011 9.8e-15) | b2 max 2.0e-33 | c min 0.011
+Z N    n=2 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.24402i mirror=Re tau = -1/2 | min/max eig 1.3e-02 | free rank 1 (0.022 0.00011 1.9e-15) | b2 max 1.3e-32 | c min 0.011
+Z N    n=2 mu2=0.5 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=-0.50000+1.24402i mirror=Re tau = -1/2 | min/max eig 1.9e-02 | free rank 1 (0.022 0.00011 6.8e-16) | b2 max 1.3e-31 | c min 0.011
+Z N    n=2 mu2=0.5 m0^2/mu2=0.10 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.24480i mirror=Re tau = -1/2 | min/max eig 1.4e-02 | free rank 1 (0.023 0.0011 2.3e-16) | b2 max 3.5e-33 | c min 0.115
+Z N    n=2 mu2=0.8 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.40529+1.23056i mirror=None          | min/max eig 9.7e-04 | free rank 2 (0.46 0.0021 2.9e-14) | b2 max 6.0e-34 | c min 0.010
+Z N    n=2 mu2=0.8 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.40529+1.23056i mirror=None          | min/max eig 7.6e-03 | free rank 2 (0.46 0.0021 2.4e-15) | b2 max 6.5e-33 | c min 0.010
+Z N    n=2 mu2=0.8 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.40529+1.23056i mirror=None          | min/max eig 1.7e-02 | free rank 2 (0.46 0.0021 8.8e-16) | b2 max 3.1e-32 | c min 0.010
+Z N    n=3 mu2=0.3 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.50000+1.19888i mirror=Re tau = -1/2 | min/max eig 8.7e-04 | free rank 3 (0.12 0.00067 0.0041) | b2 max 9.9e-03 | c min 0.008
+Z N    n=3 mu2=0.3 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.19189i mirror=Re tau = -1/2 | min/max eig 4.3e-03 | free rank 3 (0.11 0.00069 0.035) | b2 max 8.7e-02 | c min 0.008
+Z N    n=3 mu2=0.3 m0^2/mu2=0.01 lv=1.0 | RUNAWAY(interior ISOLATED) plan:iso   | tau=+0.23689+1.05650i mirror=None          | min/max eig 5.0e-02 | free rank 3 (0.29 0.002 0.56) | b2 max 2.5e-01 | c min 0.007
+Z N    n=3 mu2=0.5 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.50000+1.24404i mirror=Re tau = -1/2 | min/max eig 7.9e-04 | free rank 3 (0.14 0.00088 0.0047) | b2 max 1.0e-02 | c min 0.009
+Z N    n=3 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.23651i mirror=Re tau = -1/2 | min/max eig 4.7e-03 | free rank 3 (0.14 0.00092 0.042) | b2 max 8.8e-02 | c min 0.009
+Z N    n=3 mu2=0.5 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.25476+1.13645i mirror=None          | min/max eig 8.4e-02 | free rank 3 (0.18 0.0016 0.38) | b2 max 3.3e-01 | c min 0.007
+Z N    n=3 mu2=0.5 m0^2/mu2=0.10 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.23173i mirror=Re tau = -1/2 | min/max eig 4.7e-03 | free rank 3 (0.14 0.0089 0.043) | b2 max 8.8e-02 | c min 0.088
+Z N    n=3 mu2=0.8 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.50000+1.28498i mirror=Re tau = -1/2 | min/max eig 6.6e-04 | free rank 3 (0.28 0.0014 0.0053) | b2 max 9.9e-03 | c min 0.008
+Z N    n=3 mu2=0.8 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.27858i mirror=Re tau = -1/2 | min/max eig 4.5e-03 | free rank 3 (0.28 0.0015 0.049) | b2 max 8.7e-02 | c min 0.008
+Z N    n=3 mu2=0.8 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.28398+1.19757i mirror=None          | min/max eig 6.9e-02 | free rank 3 (0.2 0.0019 0.39) | b2 max 4.3e-01 | c min 0.006
+Z N    n=4 mu2=0.3 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.50000+1.18416i mirror=Re tau = -1/2 | min/max eig 2.8e-03 | free rank 3 (0.19 0.0023 0.0017) | b2 max 9.2e-03 | c min 0.005
+Z N    n=4 mu2=0.3 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.17693i mirror=Re tau = -1/2 | min/max eig 2.1e-02 | free rank 3 (0.18 0.0023 0.014) | b2 max 8.2e-02 | c min 0.005
+Z N    n=4 mu2=0.3 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.20075+0.97964i mirror=|tau| = 1     | min/max eig 1.8e-02 | free rank 3 (0.048 0.00014 0.45) | b2 max 2.5e-01 | c min 0.006
+Z N    n=4 mu2=0.5 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.50000+1.28535i mirror=Re tau = -1/2 | min/max eig 4.3e-03 | free rank 3 (0.34 0.0045 0.003) | b2 max 9.3e-03 | c min 0.006
+Z N    n=4 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.27400i mirror=Re tau = -1/2 | min/max eig 3.1e-02 | free rank 3 (0.31 0.0042 0.024) | b2 max 8.3e-02 | c min 0.005
+Z N    n=4 mu2=0.5 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.21673+1.12685i mirror=None          | min/max eig 6.5e-02 | free rank 3 (0.49 0.0064 0.84) | b2 max 3.6e-01 | c min 0.006
+Z N    n=4 mu2=0.5 m0^2/mu2=0.10 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+1.25375i mirror=Re tau = -1/2 | min/max eig 2.8e-02 | free rank 3 (0.29 0.028 0.022) | b2 max 8.4e-02 | c min 0.049
+Z N    n=4 mu2=0.8 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.50000+1.40132i mirror=Re tau = -1/2 | min/max eig 2.9e-03 | free rank 3 (3.3 0.029 0.033) | b2 max 2.5e-02 | c min 0.003
+Z N    n=4 mu2=0.8 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.00000+1.74277i mirror=Re tau = 0    | min/max eig 2.1e-02 | free rank 3 (0.51 0.0044 0.98) | b2 max 7.1e-01 | c min -0.022
+Z N    n=4 mu2=0.8 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.18679+1.27284i mirror=None          | min/max eig 6.2e-02 | free rank 3 (0.52 0.0092 0.54) | b2 max 4.8e-01 | c min 0.005
+Z N    n=5 mu2=0.3 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.31876+1.14696i mirror=None          | min/max eig 1.1e-03 | free rank 3 (0.77 0.0099 0.07) | b2 max 1.2e-02 | c min 0.005
+Z N    n=5 mu2=0.3 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.28454+1.08319i mirror=None          | min/max eig 5.7e-03 | free rank 3 (0.38 0.0052 0.26) | b2 max 9.7e-02 | c min 0.005
+Z N    n=5 mu2=0.3 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.11912+0.99288i mirror=|tau| = 1     | min/max eig 6.2e-02 | free rank 3 (0.062 0.00097 0.22) | b2 max 3.5e-01 | c min -0.000
+Z N    n=5 mu2=0.5 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.31717+1.31962i mirror=None          | min/max eig 5.3e-03 | free rank 3 (1.4 0.013 0.043) | b2 max 3.5e-02 | c min 0.007
+Z N    n=5 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.27786+1.25898i mirror=None          | min/max eig 8.2e-03 | free rank 3 (2.9 0.032 1.1) | b2 max 1.7e-01 | c min 0.007
+Z N    n=5 mu2=0.5 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.15275+0.98826i mirror=|tau| = 1     | min/max eig 3.3e-02 | free rank 3 (0.11 0.0013 0.23) | b2 max 5.2e-01 | c min -0.003
+Z N    n=5 mu2=0.5 m0^2/mu2=0.10 lv=0.3 | ISOLATED  plan:iso   | tau=+0.29516+1.20963i mirror=None          | min/max eig 7.3e-03 | free rank 3 (1.8 0.18 0.76) | b2 max 1.2e-01 | c min 0.057
+Z N    n=5 mu2=0.8 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.00000+1.64405i mirror=Re tau = 0    | min/max eig 1.0e-01 | free rank 3 (0.47 0.0023 0.17) | b2 max 9.8e-02 | c min -0.014
+Z N    n=5 mu2=0.8 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.00000+1.70952i mirror=Re tau = 0    | min/max eig 5.0e-02 | free rank 3 (0.18 0.00059 0.37) | b2 max 1.0e+00 | c min -0.019
+Z N    n=5 mu2=0.8 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.16959+1.10912i mirror=None          | min/max eig 1.9e-02 | free rank 3 (0.37 0.0091 0.35) | b2 max 7.7e-01 | c min -0.008
+Z N    n=6 mu2=0.3 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.34870+1.11854i mirror=None          | min/max eig 7.3e-04 | free rank 3 (0.5 0.0058 0.056) | b2 max 1.3e-02 | c min 0.004
+Z N    n=6 mu2=0.3 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.30705+1.04791i mirror=None          | min/max eig 3.0e-03 | free rank 3 (0.62 0.0063 0.36) | b2 max 9.1e-02 | c min 0.004
+Z N    n=6 mu2=0.3 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.12187+0.99255i mirror=|tau| = 1     | min/max eig 6.1e-02 | free rank 3 (0.077 0.0013 0.34) | b2 max 3.5e-01 | c min -0.000
+Z N    n=6 mu2=0.5 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.35917+1.30945i mirror=None          | min/max eig 3.1e-03 | free rank 3 (1.9 0.022 0.29) | b2 max 4.4e-02 | c min 0.004
+Z N    n=6 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.33209+1.19092i mirror=None          | min/max eig 7.0e-03 | free rank 3 (0.4 0.0048 0.3) | b2 max 1.7e-01 | c min 0.004
+Z N    n=6 mu2=0.5 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.16080+0.98699i mirror=|tau| = 1     | min/max eig 3.4e-02 | free rank 3 (0.09 0.0015 0.35) | b2 max 5.3e-01 | c min -0.003
+Z N    n=6 mu2=0.5 m0^2/mu2=0.10 lv=0.3 | ISOLATED  plan:iso   | tau=+0.33487+1.16968i mirror=None          | min/max eig 6.6e-03 | free rank 3 (0.4 0.037 0.3) | b2 max 1.6e-01 | c min 0.034
+Z N    n=6 mu2=0.8 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.00000+1.58685i mirror=Re tau = 0    | min/max eig 1.2e-02 | free rank 3 (0.41 0.0026 0.26) | b2 max 3.1e-01 | c min -0.010
+Z N    n=6 mu2=0.8 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.31638+1.31990i mirror=None          | min/max eig 5.4e-03 | free rank 3 (0.56 0.0063 0.42) | b2 max 3.2e-01 | c min 0.000
+Z N    n=6 mu2=0.8 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.19693+1.05881i mirror=None          | min/max eig 1.7e-02 | free rank 3 (0.47 0.0061 0.53) | b2 max 7.7e-01 | c min -0.009
+Z N    n=7 mu2=0.3 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.26211+1.07994i mirror=None          | min/max eig 8.8e-04 | free rank 3 (1.3 0.01 0.053) | b2 max 1.2e-02 | c min 0.004
+Z N    n=7 mu2=0.3 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.25000+1.00626i mirror=None          | min/max eig 7.0e-04 | free rank 3 (3.8 0.03 0.87) | b2 max 9.0e-02 | c min 0.003
+Z N    n=7 mu2=0.3 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.07147+0.99744i mirror=|tau| = 1     | min/max eig 1.9e-02 | free rank 3 (0.12 0.0035 0.44) | b2 max 3.3e-01 | c min -0.002
+Z N    n=7 mu2=0.5 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.17836+1.36065i mirror=None          | min/max eig 1.5e-02 | free rank 3 (0.96 0.012 0.18) | b2 max 7.2e-02 | c min 0.005
+Z N    n=7 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.27128+1.20250i mirror=None          | min/max eig 3.4e-02 | free rank 3 (0.37 0.0039 0.21) | b2 max 2.5e-01 | c min 0.005
+Z N    n=7 mu2=0.5 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.11111+0.99381i mirror=|tau| = 1     | min/max eig 7.5e-03 | free rank 3 (0.32 0.006 0.82) | b2 max 6.3e-01 | c min -0.006
+Z N    n=7 mu2=0.5 m0^2/mu2=0.10 lv=0.3 | ISOLATED  plan:iso   | tau=+0.27718+1.17562i mirror=None          | min/max eig 2.6e-02 | free rank 3 (0.42 0.03 0.21) | b2 max 2.1e-01 | c min 0.044
+Z N    n=7 mu2=0.8 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.00000+1.58716i mirror=Re tau = 0    | min/max eig 1.3e-02 | free rank 3 (0.23 0.0024 0.18) | b2 max 3.1e-01 | c min -0.010
+Z N    n=7 mu2=0.8 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.25614+1.34839i mirror=None          | min/max eig 2.9e-02 | free rank 3 (0.23 0.0038 0.27) | b2 max 5.8e-01 | c min 0.001
+Z N    n=7 mu2=0.8 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.31149+1.01367i mirror=None          | min/max eig 1.3e-02 | free rank 3 (0.55 0.014 0.53) | b2 max 9.3e-01 | c min -0.008
+Z N    n=8 mu2=0.3 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.26364+1.13024i mirror=None          | min/max eig 3.0e-03 | free rank 3 (1.1 0.013 0.69) | b2 max 1.6e-01 | c min -0.015
+Z N    n=8 mu2=0.3 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.26026+1.06297i mirror=None          | min/max eig 5.2e-03 | free rank 3 (0.61 0.0049 0.31) | b2 max 2.2e-01 | c min -0.017
+Z N    n=8 mu2=0.3 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.07509+0.99718i mirror=|tau| = 1     | min/max eig 1.6e-02 | free rank 3 (0.12 0.003 0.4) | b2 max 3.4e-01 | c min -0.025
+Z N    n=8 mu2=0.5 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=+0.10254+1.40524i mirror=None          | min/max eig 7.2e-03 | free rank 3 (1.4 0.016 0.47) | b2 max 4.4e-01 | c min -0.016
+Z N    n=8 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.27094+1.19578i mirror=None          | min/max eig 1.3e-02 | free rank 3 (0.42 0.0051 0.2) | b2 max 5.2e-01 | c min -0.027
+Z N    n=8 mu2=0.5 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.11458+0.99341i mirror=|tau| = 1     | min/max eig 6.3e-03 | free rank 3 (0.33 0.006 0.8) | b2 max 6.3e-01 | c min -0.041
+Z N    n=8 mu2=0.5 m0^2/mu2=0.10 lv=0.3 | ISOLATED  plan:iso   | tau=+0.27650+1.17582i mirror=None          | min/max eig 1.2e-02 | free rank 3 (0.48 0.04 0.19) | b2 max 4.8e-01 | c min -0.228
+Z N    n=8 mu2=0.8 m0^2/mu2=0.01 lv=0.1 | ISOLATED  plan:iso   | tau=-0.00000+1.53796i mirror=Re tau = 0    | min/max eig 3.7e-03 | free rank 3 (0.3 0.0023 0.2) | b2 max 7.1e-01 | c min -0.022
+Z N    n=8 mu2=0.8 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.26110+1.29388i mirror=None          | min/max eig 1.2e-02 | free rank 3 (0.26 0.0035 0.25) | b2 max 9.1e-01 | c min -0.041
+Z N    n=8 mu2=0.8 m0^2/mu2=0.01 lv=1.0 | ISOLATED  plan:iso   | tau=+0.31394+1.02204i mirror=None          | min/max eig 4.9e-03 | free rank 3 (0.52 0.016 0.63) | b2 max 9.1e-01 | c min -0.062
+Z cusp n=1 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | UNCONVERGED(grad 1e-08, Im tau 4.12) plan:flat2 | tau=+0.08627+4.11681i mirror=None          | min/max eig -5.4e-11 | free rank -  | b2 max 3.3e-12 | c min 0.002
+Z cusp n=2 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | UNRESOLVED(2 noise-level) plan:flat2 | tau=+0.00000+4.11681i mirror=None          | min/max eig 1.5e-13 | free rank -  | b2 max 5.0e-01 | c min -0.056
+Z cusp n=3 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | RUNAWAY(interior ISOLATED) plan:iso   | tau=+0.03070+0.99953i mirror=|tau| = 1     | min/max eig 9.6e-06 | free rank 3 (0.18 0.00069 0.36) | b2 max 4.4e-01 | c min -0.022
+Z cusp n=4 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.37834+0.92567i mirror=|tau| = 1     | min/max eig 2.3e-05 | free rank 2 (0.33 0.00086 0.66) | b2 max 8.3e-01 | c min -0.021
+Z cusp n=5 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=+0.37926+0.92529i mirror=|tau| = 1     | min/max eig 1.6e-05 | free rank 2 (0.33 0.00087 0.66) | b2 max 8.2e-01 | c min -0.021
+Z cusp n=6 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED(weak, min 1.1e-03) plan:flat0 | tau=+0.49531+0.86872i mirror=|tau| = 1     | min/max eig 7.7e-07 | free rank -  | b2 max 2.5e+00 | c min -0.053
+Z cusp n=7 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED(weak, min 1.3e-03) plan:flat0 | tau=+0.49529+0.86873i mirror=|tau| = 1     | min/max eig 8.9e-07 | free rank -  | b2 max 2.5e+00 | c min -0.053
+Z cusp n=8 mu2=0.5 m0^2/mu2=0.01 lv=0.3 | ISOLATED  plan:iso   | tau=-0.50000+0.87150i mirror=Re tau = -1/2 | min/max eig 7.1e-05 | free rank 3 (0.041 0.00019 0.039) | b2 max 1.6e+01 | c min -0.053
+
+== D summary by (menu, convention, n): refined classes over the primary grid (m0^2 = 0.01 mu^2) and the checks
+  H N    n=1: {'FLAT(2)': 10}
+  H N    n=2: {'ISOLATED': 10}
+  H N    n=3: {'ISOLATED': 9, 'UNCONVERGED(grad 1e-03, Im tau 3.62)': 1}
+  H N    n=4: {'ISOLATED': 10}
+  H N    n=5: {'ISOLATED': 10}
+  H N    n=6: {'ISOLATED': 10}
+  H N    n=7: {'ISOLATED': 10}
+  H N    n=8: {'ISOLATED': 10}
+  H cusp n=1: {'UNCONVERGED(grad 7e-10, Im tau 4.12)': 1}
+  H cusp n=2: {'UNCONVERGED(grad 2e-09, Im tau 4.12)': 1}
+  H cusp n=3: {'RUNAWAY(interior ISOLATED)': 1}
+  H cusp n=4: {'RUNAWAY(interior ISOLATED)': 1}
+  H cusp n=5: {'ISOLATED': 1}
+  H cusp n=6: {'ISOLATED': 1}
+  H cusp n=7: {'ISOLATED': 1}
+  H cusp n=8: {'ISOLATED': 1}
+  Z N    n=1: {'FLAT(2)': 10}
+  Z N    n=2: {'FLAT(1)': 3, 'ISOLATED': 7}
+  Z N    n=3: {'ISOLATED': 9, 'RUNAWAY(interior ISOLATED)': 1}
+  Z N    n=4: {'ISOLATED': 10}
+  Z N    n=5: {'ISOLATED': 10}
+  Z N    n=6: {'ISOLATED': 10}
+  Z N    n=7: {'ISOLATED': 10}
+  Z N    n=8: {'ISOLATED': 10}
+  Z cusp n=1: {'UNCONVERGED(grad 1e-08, Im tau 4.12)': 1}
+  Z cusp n=2: {'UNRESOLVED(2 noise-level)': 1}
+  Z cusp n=3: {'RUNAWAY(interior ISOLATED)': 1}
+  Z cusp n=4: {'ISOLATED': 1}
+  Z cusp n=5: {'ISOLATED': 1}
+  Z cusp n=6: {'ISOLATED(weak, min 1.1e-03)': 1}
+  Z cusp n=7: {'ISOLATED(weak, min 1.3e-03)': 1}
+  Z cusp n=8: {'ISOLATED': 1}
+
+== free-number rank and speeds (ISOLATED primary-grid points, N/sup convention)
+  Z n=2: ranks {1: 4, 2: 3} | speed per log mu2 0.022-0.46, log m02 0.00011-0.0021, log lv 2.3e-16-2.9e-14 | mirror {'Re tau = -1/2': 4, 'None': 3}
+  Z n=3: ranks {3: 9} | speed per log mu2 0.11-0.28, log m02 0.00067-0.0089, log lv 0.0041-0.39 | mirror {'Re tau = -1/2': 7, 'None': 2}
+  Z n=4: ranks {3: 10} | speed per log mu2 0.048-3.3, log m02 0.00014-0.029, log lv 0.0017-0.98 | mirror {'Re tau = -1/2': 6, '|tau| = 1': 1, 'None': 2, 'Re tau = 0': 1}
+  Z n=5: ranks {3: 10} | speed per log mu2 0.062-2.9, log m02 0.00059-0.18, log lv 0.043-1.1 | mirror {'None': 6, '|tau| = 1': 2, 'Re tau = 0': 2}
+  Z n=6: ranks {3: 10} | speed per log mu2 0.077-1.9, log m02 0.0013-0.037, log lv 0.056-0.53 | mirror {'None': 7, '|tau| = 1': 2, 'Re tau = 0': 1}
+  Z n=7: ranks {3: 10} | speed per log mu2 0.12-3.8, log m02 0.0024-0.03, log lv 0.053-0.87 | mirror {'None': 7, '|tau| = 1': 2, 'Re tau = 0': 1}
+  Z n=8: ranks {3: 10} | speed per log mu2 0.12-1.4, log m02 0.0023-0.04, log lv 0.19-0.8 | mirror {'None': 7, '|tau| = 1': 2, 'Re tau = 0': 1}
+  H n=2: ranks {1: 7, 2: 3} | speed per log mu2 0.017-0.35, log m02 8.4e-05-0.0016, log lv 7.7e-17-2.7e-14 | mirror {'Re tau = -1/2': 7, 'None': 3}
+  H n=3: ranks {3: 9} | speed per log mu2 0.095-0.87, log m02 0.00075-0.048, log lv 0.0078-0.53 | mirror {'Re tau = -1/2': 9}
+  H n=4: ranks {3: 9, 2: 1} | speed per log mu2 0.094-0.62, log m02 0.00065-0.022, log lv 0.0063-0.54 | mirror {'Re tau = -1/2': 10}
+  H n=5: ranks {3: 10} | speed per log mu2 0.14-0.65, log m02 0.00062-0.026, log lv 0.0077-0.53 | mirror {'None': 7, '|tau| = 1': 1, 'Re tau = -1/2': 2}
+  H n=6: ranks {3: 10} | speed per log mu2 0.2-2.6, log m02 0.00042-0.087, log lv 0.012-0.64 | mirror {'None': 5, '|tau| = 1': 1, 'Re tau = -1/2': 3, 'Re tau = 0': 1}
+  H n=7: ranks {3: 10} | speed per log mu2 0.063-1.1, log m02 0.00053-0.061, log lv 0.031-0.38 | mirror {'None': 6, '|tau| = 1': 3, 'Re tau = 0': 1}
+  H n=8: ranks {3: 10} | speed per log mu2 0.0085-1.2, log m02 0.0009-0.028, log lv 0.056-0.35 | mirror {'None': 9, '|tau| = 1': 1}
+
+== regimes at the interior vacua (primary convention): copies with c_i < 0 (light singlets) and their b_i^2 / u*
+  H n=3 mu2=0.3 lv=1.0 m0^2/mu2=0.01: [(1, -0.0085, 0.796), (2, -0.0336, 0.0087)] -> UNCONVERGED(grad 1e-03, Im tau 3.62)
+  H n=3 mu2=0.8 lv=1.0 m0^2/mu2=0.01: [(2, -0.0099, 0.9742)] -> ISOLATED
+  H n=4 mu2=0.3 lv=1.0 m0^2/mu2=0.01: [(4, -0.0031, 4.5677)] -> ISOLATED
+  H n=4 mu2=0.8 lv=1.0 m0^2/mu2=0.01: [(2, -0.0019, 1.2908)] -> ISOLATED
+  H n=5 mu2=0.3 lv=1.0 m0^2/mu2=0.01: [(4, -0.0001, 4.1783)] -> ISOLATED
+  H n=5 mu2=0.5 lv=1.0 m0^2/mu2=0.01: [(4, -0.0016, 2.7082)] -> ISOLATED
+  H n=5 mu2=0.8 lv=0.1 m0^2/mu2=0.01: [(2, -0.0068, 0.006)] -> ISOLATED
+  H n=5 mu2=0.8 lv=1.0 m0^2/mu2=0.01: [(4, -0.0021, 1.695)] -> ISOLATED
+  H n=6 mu2=0.3 lv=1.0 m0^2/mu2=0.01: [(4, -0.0012, 4.0718), (6, -0.001, 0.6471)] -> ISOLATED
+  H n=6 mu2=0.5 lv=1.0 m0^2/mu2=0.01: [(4, -0.0041, 2.7759), (6, -0.004, 0.6987)] -> ISOLATED
+  H n=6 mu2=0.8 lv=0.1 m0^2/mu2=0.01: [(2, -0.0148, 0.0026), (6, -0.0044, 0.3469)] -> ISOLATED
+  H n=6 mu2=0.8 lv=0.3 m0^2/mu2=0.01: [(6, -0.0007, 0.5105)] -> ISOLATED
+  H n=6 mu2=0.8 lv=1.0 m0^2/mu2=0.01: [(4, -0.0091, 1.9565), (6, -0.0094, 0.718)] -> ISOLATED
+  H n=7 mu2=0.5 lv=1.0 m0^2/mu2=0.01: [(4, -0.003, 2.9728), (6, -0.0029, 0.6922)] -> ISOLATED
+  H n=7 mu2=0.8 lv=0.1 m0^2/mu2=0.01: [(2, -0.0111, 0.0082), (6, -0.0033, 0.4919)] -> ISOLATED
+  H n=7 mu2=0.8 lv=0.3 m0^2/mu2=0.01: [(6, -0.0001, 0.7228)] -> ISOLATED
+  H n=7 mu2=0.8 lv=1.0 m0^2/mu2=0.01: [(3, -0.0005, 0.7257), (4, -0.0081, 1.7286), (5, -0.0021, 0.5741), (6, -0.0084, 0.6226)] -> ISOLATED
+  H n=8 mu2=0.3 lv=0.1 m0^2/mu2=0.01: [(8, -0.0144, 0.1865)] -> ISOLATED
+  H n=8 mu2=0.3 lv=0.3 m0^2/mu2=0.01: [(8, -0.0162, 0.4801)] -> ISOLATED
+  H n=8 mu2=0.3 lv=1.0 m0^2/mu2=0.01: [(8, -0.02, 0.3926)] -> ISOLATED
+  H n=8 mu2=0.5 lv=0.1 m0^2/mu2=0.01: [(8, -0.018, 0.9651)] -> ISOLATED
+  H n=8 mu2=0.5 lv=0.3 m0^2/mu2=0.01: [(8, -0.0263, 1.053)] -> ISOLATED
+  H n=8 mu2=0.5 lv=1.0 m0^2/mu2=0.01: [(4, -0.0021, 2.687), (6, -0.0021, 0.7832), (8, -0.0356, 0.6297)] -> ISOLATED
+  H n=8 mu2=0.5 lv=0.3 m0^2/mu2=0.10: [(8, -0.2227, 0.9848)] -> ISOLATED
+  H n=8 mu2=0.8 lv=0.1 m0^2/mu2=0.01: [(6, -0.0005, 0.1067), (8, -0.0288, 1.1107)] -> ISOLATED
+  H n=8 mu2=0.8 lv=0.3 m0^2/mu2=0.01: [(6, -0.0003, 0.2441), (8, -0.0426, 1.2265)] -> ISOLATED
+  H n=8 mu2=0.8 lv=1.0 m0^2/mu2=0.01: [(4, -0.0073, 1.6433), (5, -0.0017, 0.5977), (6, -0.0077, 0.6867), (8, -0.0592, 0.939)] -> ISOLATED
+  Z n=2 mu2=0.3 lv=0.1 m0^2/mu2=0.01: [(2, -0.0304, 0.9981)] -> FLAT(1)
+  Z n=2 mu2=0.3 lv=0.3 m0^2/mu2=0.01: [(2, -0.0304, 0.9981)] -> FLAT(1)
+  Z n=2 mu2=0.3 lv=1.0 m0^2/mu2=0.01: [(2, -0.0304, 0.9981)] -> FLAT(1)
+  Z n=4 mu2=0.8 lv=0.3 m0^2/mu2=0.01: [(2, -0.0217, 0.8981)] -> ISOLATED
+  Z n=5 mu2=0.3 lv=1.0 m0^2/mu2=0.01: [(5, -0.0002, 1.1572)] -> ISOLATED
+  Z n=5 mu2=0.5 lv=1.0 m0^2/mu2=0.01: [(5, -0.0034, 1.0512)] -> ISOLATED
+  Z n=5 mu2=0.8 lv=0.1 m0^2/mu2=0.01: [(2, -0.0139, 0.1227)] -> ISOLATED
+  Z n=5 mu2=0.8 lv=0.3 m0^2/mu2=0.01: [(2, -0.019, 1.2735)] -> ISOLATED
+  Z n=5 mu2=0.8 lv=1.0 m0^2/mu2=0.01: [(5, -0.0079, 0.9694)] -> ISOLATED
+  Z n=6 mu2=0.3 lv=1.0 m0^2/mu2=0.01: [(5, -0.0001, 1.1807)] -> ISOLATED
+  Z n=6 mu2=0.5 lv=1.0 m0^2/mu2=0.01: [(5, -0.003, 1.075)] -> ISOLATED
+  Z n=6 mu2=0.8 lv=0.1 m0^2/mu2=0.01: [(2, -0.0096, 0.0283), (6, -0.0028, 0.3898)] -> ISOLATED
+  Z n=6 mu2=0.8 lv=1.0 m0^2/mu2=0.01: [(5, -0.0087, 0.9701), (6, -0.0001, 0.1694)] -> ISOLATED
+  Z n=7 mu2=0.3 lv=1.0 m0^2/mu2=0.01: [(5, -0.0021, 0.1516)] -> ISOLATED
+  Z n=7 mu2=0.5 lv=1.0 m0^2/mu2=0.01: [(5, -0.0059, 0.1407), (7, -0.0008, 1.259)] -> ISOLATED
+  Z n=7 mu2=0.8 lv=0.1 m0^2/mu2=0.01: [(2, -0.0096, 0.0289), (6, -0.0028, 0.3934)] -> ISOLATED
+  Z n=7 mu2=0.8 lv=1.0 m0^2/mu2=0.01: [(3, -0.0011, 0.9296), (4, -0.0078, 0.8096), (5, -0.0039, 0.7441), (6, -0.008, 0.4883)] -> ISOLATED
+  Z n=8 mu2=0.3 lv=0.1 m0^2/mu2=0.01: [(8, -0.0153, 0.5232)] -> ISOLATED
+  Z n=8 mu2=0.3 lv=0.3 m0^2/mu2=0.01: [(8, -0.0172, 0.7469)] -> ISOLATED
+  Z n=8 mu2=0.3 lv=1.0 m0^2/mu2=0.01: [(5, -0.002, 0.1389), (8, -0.0248, 0.8929)] -> ISOLATED
+  Z n=8 mu2=0.5 lv=0.1 m0^2/mu2=0.01: [(8, -0.0158, 0.8807)] -> ISOLATED
+  Z n=8 mu2=0.5 lv=0.3 m0^2/mu2=0.01: [(8, -0.0267, 1.0367)] -> ISOLATED
+  Z n=8 mu2=0.5 lv=1.0 m0^2/mu2=0.01: [(5, -0.0057, 0.126), (7, -0.0007, 1.2744), (8, -0.0408, 0.9196)] -> ISOLATED
+  Z n=8 mu2=0.5 lv=0.3 m0^2/mu2=0.10: [(8, -0.2277, 1.0004)] -> ISOLATED
+  Z n=8 mu2=0.8 lv=0.1 m0^2/mu2=0.01: [(2, -0.0062, 0.0527), (6, -0.0017, 0.6922), (8, -0.0224, 0.8913)] -> ISOLATED
+  Z n=8 mu2=0.8 lv=0.3 m0^2/mu2=0.01: [(8, -0.0412, 1.1437)] -> ISOLATED
+  Z n=8 mu2=0.8 lv=1.0 m0^2/mu2=0.01: [(3, -0.0009, 0.9466), (4, -0.0075, 0.9272), (5, -0.0037, 0.7359), (6, -0.0078, 0.4435), (8, -0.0616, 0.9217)] -> ISOLATED
+
+== A {"menu_Z": {"per_copy": [{"copy": "(eta^12 E4^1 E6^0 /sup | eta^12 E4^0 E6^1 /sup | F_2)", "weights": [10.0, 12.0, 1.5], "max_rel_dev": 1.1675950287847617e-33}, {"copy": "(eta^20 E4^0 E6^0 /sup | eta^24 E4^0 E6^0 /sup | F_6)", "weights": [10.0, 12.0, 1.5], "max_rel_dev": 1.6370404527291505e-33}, {"copy": "(eta^8 E4^0 E6^1 /sup | eta^16 E4^1 E6^0 /sup | F_-2)", "weights": [10.0, 12.0, 1.5], "max_rel_dev": 1.0833355937178202e-33}, {"copy": "(eta^8 E4^2 E6^0 /sup | eta^20 E4^1 E6^0 /sup | F_10)", "weights": [12.0, 14.0, 1.5], "max_rel_dev": 1.6851887013388314e-33}, {"copy": "(eta^16 E4^0 E6^1 /sup | eta^12 E4^2 E6^0 /sup | F_-6)", "weights": [14.0, 14.0, 1.5], "max_rel_dev": 1.6972257634912516e-33}, {"copy": "(eta^8 E4^1 E6^1 /sup | eta^24 E4^1 E6^0 /sup | F_14)", "weights": [14.0, 16.0, 1.5], "max_rel_dev": 2.311115933264683e-33}, {"copy": "(eta^20 E4^0 E6^1 /sup | eta^16 E4^2 E6^0 /sup | F_-10)", "weights": [16.0, 16.0, 1.5], "max_rel_dev": 2.2388935603501617e-33}, {"copy": "(eta^12 E4^1 E6^1 /sup | eta^8 E4^3 E6^0 /sup | F_18)", "weights": [16.0, 16.0, 1.5], "max_rel_dev": 2.5518571763130875e-33}], "worst": 2.5518571763130875e-33, "pass_lt_1e20": true}, "menu_H": {"per_copy": [{"copy": "(eta^12 E4^1 E6^0 /sup | eta^12 E4^0 E6^1 /sup | DR)", "weights": [10.0, 12.0, 1.5], "max_rel_dev": 1.8055593228630336e-33}, {"copy": "(eta^20 E4^0 E6^0 /sup | eta^24 E4^0 E6^0 /sup | F_2)", "weights": [10.0, 12.0, 1.5], "max_rel_dev": 1.3481509610710651e-33}, {"copy": "(eta^8 E4^0 E6^1 /sup |
+== B {"max_rel_dev_eigs_under_phase": 7.222237291452134e-35, "pass_lt_1e25": true, "control_B1818_additive_rel_change": [-0.045661739041895015, -0.30290790523725736, -0.8133318369836815], "seconds": 33.0}
+== C {"menu_Z": {"ranks": {"1": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], "2": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], "3": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5], "4": [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], "5": [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], "6": [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], "7": [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], "8": [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]}, "smallest_kept_sval": {"1": 0.00021310038920845735, "2": 0.00021712460535574501, "3": 0.00043929735040886794, "4": 0.0004635760368001277, "5": 0.010825729578901346, "6": 0.013943156303397243, "7": 0.016874243988745027, "8": 0.01742094343577213}, "two_steps_agree": true, "generic_min_n_plus_2_6": true}, "menu_H": {"ranks": {"1": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], "2": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], "3": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5], "4": [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], "5": [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], "6": [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], "7": [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], "8": [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]}, "smallest_kept_sval": {"1": 0.0002128930993132374, "2": 0.00021490158547067659, "3": 0.00044152788751329765, "4": 0.0006469215463509009, "5": 0.01329452153068609, "6": 0.01674016654689507, "7": 0.024314089209311295, "8": 0.03332062573541141}, "two_steps_agree": true, "generic_min_n_plus_2_6": true}, "control_shared_triplet": {"ranks": {"1": [3, 3, 3, 3, 3, 3], "2": [3, 3, 3, 3, 3, 3], "4": [3, 3, 3, 3, 3, 3], "8": [3, 3, 3, 3, 3, 3]}, "caps_at_3": true}, "sec
+== G
+  n1 at-level=True V-bound=2.72e-16 n_flat=2 isolated=False min/max=2.0e-18
+  n1 at-level=True V-bound=-3.26e-16 n_flat=2 isolated=False min/max=-8.1e-18
+  n2 at-level=True V-bound=-1.39e-16 n_flat=0 isolated=True min/max=5.8e-04
+  n2 at-level=True V-bound=1.11e-16 n_flat=0 isolated=True min/max=2.4e-03
+  n3 at-level=False V-bound=8.41e-04 n_flat=0 isolated=True min/max=4.5e-03
+  n3 at-level=False V-bound=1.21e-03 n_flat=0 isolated=True min/max=5.7e-03
+== H: symmetric configurations (stationary; minimum?)
+  menu_Z n=1: [('i', -0.008786, '3e-21', False), ('omega_0', -0.005304, '1e-16', False), ('omega_1', -0.005094, '8e-17', False), ('omega_2', -0.005304, '1e-16', False)]
+  menu_Z n=2: [('i', -0.021493, '4e-21', False), ('omega_0', -0.011671, '1e-16', False), ('omega_1', -0.014248, '9e-17', False), ('omega_2', -0.014458, '1e-16', False)]
+  menu_Z n=3: [('i', -0.02529, '6e-21', False), ('omega_0', -0.019631, '2e-16', False), ('omega_1', -0.022208, '2e-16', False), ('omega_2', -0.023328, '1e-16', False)]
+  menu_Z n=4: [('i', -0.031075, '6e-21', False), ('omega_0', -0.020089, '2e-16', False), ('omega_1', -0.022666, '2e-16', False), ('omega_2', -0.027108, '1e-16', False)]
+  menu_Z n=5: [('i', -0.034459, '2e-20', False), ('omega_0', -0.027892, '2e-16', False), ('omega_1', -0.03137, '3e-16', False), ('omega_2', -0.035812, '2e-16', False)]
+  menu_Z n=6: [('i', -0.037815, '2e-20', False), ('omega_0', -0.02835, '3e-16', False), ('omega_1', -0.03515, '3e-16', False), ('omega_2', -0.03627, '2e-16', False)]
+  menu_Z n=7: [('i', -0.042525, '3e-20', False), ('omega_0', -0.034605, '3e-16', False), ('omega_1', -0.040153, '3e-16', False), ('omega_2', -0.042525, '2e-16', False)]
+  menu_Z n=8: [('i', -0.043016, '3e-20', False), ('omega_0', -0.038384, '3e-16', False), ('omega_1', -0.040611, '3e-16', False), ('omega_2', -0.042983, '3e-16', False)]
+  menu_H n=1: [('i', 0.146226, '4e-21', False), ('omega_0', 0.148979, '8e-17', False), ('omega_1', -0.005304, '1e-16', False), ('omega_2', -0.005304, '1e-16', False)]
+  menu_H n=2: [('i', 0.133519, '3e-21', False), ('omega_0', 0.139826, '8e-17', False), ('omega_1', -0.011671, '1e-16', False), ('omega_2', -0.014458, '1e-16', False)]
+  menu_H n=3: [('i', 0.129722, '7e-22', False), ('omega_0', 0.130955, '8e-17', False), ('omega_1', -0.019631, '2e-16', False), ('omega_2', -0.022418, '2e-16', False)]
+  menu_H n=4: [('i', 0.123937, '6e-22', False), ('omega_0', 0.130497, '9e-17', False), ('omega_1', -0.020089, '2e-16', False), ('omega_2', -0.026198, '2e-16', False)]
+  menu_H n=5: [('i', 0.120553, '9e-21', False), ('omega_0', 0.121793, '9e-17', False), ('omega_1', -0.028793, '2e-16', False), ('omega_2', -0.034, '2e-16', False)]
+  menu_H n=6: [('i', 0.117196, '9e-21', False), ('omega_0', 0.118014, '1e-16', False), ('omega_1', -0.029251, '3e-16', False), ('omega_2', -0.034458, '3e-16', False)]
+  menu_H n=7: [('i', 0.112487, '2e-20', False), ('omega_0', 0.111759, '1e-16', False), ('omega_1', -0.034255, '3e-16', False), ('omega_2', -0.040713, '3e-16', False)]
+  menu_H n=8: [('i', 0.111996, '3e-20', False), ('omega_0', 0.111301, '2e-16', False), ('omega_1', -0.038034, '3e-16', False), ('omega_2', -0.041171, '3e-16', False)]
+== decoupling limit (lambda v -> 0); m02 speeds below the 2-D optimiser's resolution: use section D's IFT instead
+  menu_Z n=1 tau0*=0.43044+1.17822i Q eigs/lv2 [-0.0, 0.0, 0.01856] gap 1.9e-16 (S* degenerate: a CP^1) | speeds mu2 (tau 0.616, S 4.79e+03)
+  menu_Z n=2 tau0*=0.50000+1.24402i Q eigs/lv2 [-0.0, 0.02129, 0.04129] gap 0.52 | speeds mu2 (tau 0.0138, S 0.0173)
+  menu_Z n=3 tau0*=0.50000+1.24504i Q eigs/lv2 [0.01127, 0.02159, 0.04755] gap 0.22 | speeds mu2 (tau 0.0711, S 0.123)
+  menu_Z n=4 tau0*=0.50000+1.28682i Q eigs/lv2 [0.01458, 0.04819, 0.07237] gap 0.46 | speeds mu2 (tau 0.177, S 0.297)
+  menu_Z n=5 tau0*=0.32624+1.31870i Q eigs/lv2 [0.04266, 0.0868, 0.10929] gap 0.4 | speeds mu2 (tau 0.326, S 1.16)
+  menu_Z n=6 tau0*=0.00000+1.53535i Q eigs/lv2 [0.21739, 0.3975, 0.54648] gap 0.33 | speeds mu2 (tau 0.221, S 1.06)
+  menu_Z n=7 tau0*=0.00000+1.43502i Q eigs/lv2 [0.13915, 0.44494, 2.34586] gap 0.13 | speeds mu2 (tau 0.291, S 0.155)
+  menu_Z n=8 tau0*=0.00000+1.89493i Q eigs/lv2 [-1.34536, 30.64175, 221.97526] gap 0.14 | speeds mu2 (tau 0.0785, S 0.0545)
+  menu_H n=1 tau0*=0.00000+2.36189i Q eigs/lv2 [-0.0, 0.0, 9.55916] gap 9.3e-17 (S* degenerate: a CP^1) | speeds mu2 (tau 0.284, S 1.34e+03)
+  menu_H n=2 tau0*=0.50000+1.24402i Q eigs/lv2 [0.0, 0.01708, 1.17706] gap 0.015 | speeds mu2 (tau 0.0139, S 0.0101)
+  menu_H n=3 tau0*=0.50000+1.24504i Q eigs/lv2 [0.015, 0.02491, 1.18994] gap 0.0083 | speeds mu2 (tau 0.0711, S 0.525)
+  menu_H n=4 tau0*=0.50000+1.28682i Q eigs/lv2 [0.01756, 0.037, 1.33755] gap 0.015 | speeds mu2 (tau 0.177, S 0.217)
+  menu_H n=5 tau0*=0.32624+1.31870i Q eigs/lv2 [0.03293, 0.08212, 1.47078] gap 0.033 | speeds mu2 (tau 0.326, S 0.162)
+  menu_H n=6 tau0*=0.00000+1.53535i Q eigs/lv2 [0.1126, 0.19486, 2.65155] gap 0.031 | speeds mu2 (tau 0.221, S 0.922)
+  menu_H n=7 tau0*=0.00000+1.43502i Q eigs/lv2 [0.12824, 1.0039, 1.99314] gap 0.44 | speeds mu2 (tau 0.291, S 0.409)
+  menu_H n=8 tau0*=0.00000+1.89493i Q eigs/lv2 [6.81956, 18.64849, 42.22903] gap 0.28 | speeds mu2 (tau 0.0783, S 0.262)
+  scan mu2=0.20 tau*=0.000001+2.851349i line=Re tau = 0 c=[0.0043, -0.0214]
+  scan mu2=0.25 tau*=0.000002+2.743449i line=None c=[0.0055, -0.0261]
+  scan mu2=0.30 tau*=0.500000+1.253444i line=Re tau = 1/2 c=[0.0101, 0.0098]
+  scan mu2=0.35 tau*=0.500000+1.250447i line=Re tau = 1/2 c=[0.0106, 0.0104]
+  scan mu2=0.40 tau*=0.500000+1.247962i line=Re tau = 1/2 c=[0.0111, 0.0109]
+  scan mu2=0.45 tau*=0.500000+1.245852i line=Re tau = 1/2 c=[0.0113, 0.0113]
+  scan mu2=0.50 tau*=0.500000+1.244024i line=Re tau = 1/2 c=[0.0115, 0.0115]
+  scan mu2=0.55 tau*=0.500000+1.242418i line=Re tau = 1/2 c=[0.0116, 0.0117]
+  scan mu2=0.60 tau*=0.500000+1.240990i line=Re tau = 1/2 c=[0.0115, 0.0117]
+  scan mu2=0.65 tau*=0.500000+1.239707i line=Re tau = 1/2 c=[0.0114, 0.0117]
+  scan mu2=0.70 tau*=0.478066+1.238239i line=None c=[0.0112, 0.0116]
+  scan mu2=0.75 tau*=0.430326+1.234333i line=None c=[0.0108, 0.0116]
+  scan mu2=0.80 tau*=0.405286+1.230561i line=None c=[0.0104, 0.0115]
+  scan mu2=0.85 tau*=0.386613+1.226911i line=None c=[0.0098, 0.0113]
+  scan mu2=0.90 tau*=0.371412+1.223375i line=None c=[0.0092, 0.0111]
+  scan mu2=0.95 tau*=0.358490+1.219944i line=None c=[0.0085, 0.0108]

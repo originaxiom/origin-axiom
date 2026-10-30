@@ -1,0 +1,322 @@
+{
+ "Z_n2": [
+  {
+   "point": "i",
+   "max_sval_raw": 6.331402345403094e-22,
+   "rank_raw_1e9": 0,
+   "massless_heavy_states": 1,
+   "control_off_point_max_sval": 1.0133463649485372,
+   "invariants_max_sval_raw": 4.952398133433991e-22,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [],
+   "control_off_point_rank": 4
+  },
+  {
+   "point": "omega_0",
+   "max_sval_raw": 2.3206148626226427e-16,
+   "rank_raw_1e9": 0,
+   "massless_heavy_states": 2,
+   "control_off_point_max_sval": 0.3994521230001573,
+   "invariants_max_sval_raw": 1.759973212128613e-16,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [],
+   "control_off_point_rank": 4
+  },
+  {
+   "point": "omega_1",
+   "max_sval_raw": 8.159501547507168e-05,
+   "rank_raw_1e9": 1,
+   "massless_heavy_states": 2,
+   "control_off_point_max_sval": 0.5410999981718659,
+   "invariants_max_sval_raw": 7.037754620182919e-17,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [
+    1
+   ],
+   "control_off_point_rank": 4
+  },
+  {
+   "point": "omega_2",
+   "max_sval_raw": 9.993318958753684e-05,
+   "rank_raw_1e9": 1,
+   "massless_heavy_states": 2,
+   "control_off_point_max_sval": 1.7099112231275395,
+   "invariants_max_sval_raw": 9.816066665272367e-17,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [
+    1
+   ],
+   "control_off_point_rank": 4
+  }
+ ],
+ "Z_n4": [
+  {
+   "point": "i",
+   "max_sval_raw": 7.10803687966132e-22,
+   "rank_raw_1e9": 0,
+   "massless_heavy_states": 3,
+   "control_off_point_max_sval": 0.8379689273273678,
+   "invariants_max_sval_raw": 6.342713742514452e-22,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [],
+   "control_off_point_rank": 6
+  },
+  {
+   "point": "omega_0",
+   "max_sval_raw": 2.3266871010348936e-16,
+   "rank_raw_1e9": 0,
+   "massless_heavy_states": 6,
+   "control_off_point_max_sval": 0.6113484441759822,
+   "invariants_max_sval_raw": 1.77937170040726e-16,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [
+    3
+   ],
+   "control_off_point_rank": 5
+  },
+  {
+   "point": "omega_1",
+   "max_sval_raw": 8.159501547507168e-05,
+   "rank_raw_1e9": 1,
+   "massless_heavy_states": 6,
+   "control_off_point_max_sval": 0.9725627698648733,
+   "invariants_max_sval_raw": 2.4900328073650263e-16,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [
+    1,
+    3
+   ],
+   "control_off_point_rank": 6
+  },
+  {
+   "point": "omega_2",
+   "max_sval_raw": 9.993318958753684e-05,
+   "rank_raw_1e9": 1,
+   "massless_heavy_states": 5,
+   "control_off_point_max_sval": 1.7980297274292742,
+   "invariants_max_sval_raw": 2.5854294816885344e-16,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [
+    1
+   ],
+   "control_off_point_rank": 6
+  }
+ ],
+ "Z_n8": [
+  {
+   "point": "i",
+   "max_sval_raw": 8.39542329283157e-22,
+   "rank_raw_1e9": 0,
+   "massless_heavy_states": 11,
+   "control_off_point_max_sval": 1.2333877879230735,
+   "invariants_max_sval_raw": 7.74870656467978e-22,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [],
+   "control_off_point_rank": 6
+  },
+  {
+   "point": "omega_0",
+   "max_sval_raw": 4.942384125762928e-16,
+   "rank_raw_1e9": 0,
+   "massless_heavy_states": 13,
+   "control_off_point_max_sval": 0.8594481958394817,
+   "invariants_max_sval_raw": 6.821545209272882e-16,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [
+    3,
+    5
+   ],
+   "control_off_point_rank": 6
+  },
+  {
+   "point": "omega_1",
+   "max_sval_raw": 7.021684375315138e-05,
+   "rank_raw_1e9": 1,
+   "massless_heavy_states": 13,
+   "control_off_point_max_sval": 1.0126364032125659,
+   "invariants_max_sval_raw": 3.3718520557347263e-16,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [
+    1,
+    3,
+    7
+   ],
+   "control_off_point_rank": 6
+  },
+  {
+   "point": "omega_2",
+   "max_sval_raw": 9.993318958753684e-05,
+   "rank_raw_1e9": 1,
+   "massless_heavy_states": 13,
+   "control_off_point_max_sval": 1.9658851866251255,
+   "invariants_max_sval_raw": 3.6721660812619926e-16,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [
+    1,
+    5,
+    7
+   ],
+   "control_off_point_rank": 6
+  }
+ ],
+ "H_n2": [
+  {
+   "point": "i",
+   "max_sval_raw": 6.012310196132214e-23,
+   "rank_raw_1e9": 0,
+   "massless_heavy_states": 1,
+   "control_off_point_max_sval": 0.10686612704700245,
+   "invariants_max_sval_raw": 5.318599108686382e-23,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [],
+   "control_off_point_rank": 4
+  },
+  {
+   "point": "omega_0",
+   "max_sval_raw": 2.0230885570560785e-05,
+   "rank_raw_1e9": 1,
+   "massless_heavy_states": 2,
+   "control_off_point_max_sval": 0.1022690225775388,
+   "invariants_max_sval_raw": 5.7578386071625e-16,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [
+    1
+   ],
+   "control_off_point_rank": 4
+  },
+  {
+   "point": "omega_1",
+   "max_sval_raw": 1.0578726656027302e-15,
+   "rank_raw_1e9": 0,
+   "massless_heavy_states": 2,
+   "control_off_point_max_sval": 0.39994468639882313,
+   "invariants_max_sval_raw": 1.5769444058527868e-15,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [],
+   "control_off_point_rank": 4
+  },
+  {
+   "point": "omega_2",
+   "max_sval_raw": 0.00012722718294251768,
+   "rank_raw_1e9": 1,
+   "massless_heavy_states": 2,
+   "control_off_point_max_sval": 0.6387356243007816,
+   "invariants_max_sval_raw": 2.162447564030455e-15,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [
+    1
+   ],
+   "control_off_point_rank": 4
+  }
+ ],
+ "H_n4": [
+  {
+   "point": "i",
+   "max_sval_raw": 8.363350779360735e-23,
+   "rank_raw_1e9": 0,
+   "massless_heavy_states": 3,
+   "control_off_point_max_sval": 0.10839132307269772,
+   "invariants_max_sval_raw": 8.380168807162921e-23,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [],
+   "control_off_point_rank": 6
+  },
+  {
+   "point": "omega_0",
+   "max_sval_raw": 2.0230885570560785e-05,
+   "rank_raw_1e9": 1,
+   "massless_heavy_states": 6,
+   "control_off_point_max_sval": 0.11980521010939256,
+   "invariants_max_sval_raw": 5.758051540743482e-16,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [
+    1,
+    3
+   ],
+   "control_off_point_rank": 6
+  },
+  {
+   "point": "omega_1",
+   "max_sval_raw": 1.0581018229164352e-15,
+   "rank_raw_1e9": 0,
+   "massless_heavy_states": 6,
+   "control_off_point_max_sval": 0.6139103086213737,
+   "invariants_max_sval_raw": 1.5772864394612312e-15,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [
+    3
+   ],
+   "control_off_point_rank": 5
+  },
+  {
+   "point": "omega_2",
+   "max_sval_raw": 0.00012722718294251768,
+   "rank_raw_1e9": 1,
+   "massless_heavy_states": 5,
+   "control_off_point_max_sval": 0.9317512953274022,
+   "invariants_max_sval_raw": 2.1628064299334935e-15,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [
+    1
+   ],
+   "control_off_point_rank": 6
+  }
+ ],
+ "H_n8": [
+  {
+   "point": "i",
+   "max_sval_raw": 9.957782404405039e-23,
+   "rank_raw_1e9": 0,
+   "massless_heavy_states": 11,
+   "control_off_point_max_sval": 0.1397219646483957,
+   "invariants_max_sval_raw": 1.0283633459291625e-22,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [],
+   "control_off_point_rank": 6
+  },
+  {
+   "point": "omega_0",
+   "max_sval_raw": 2.0230885570560785e-05,
+   "rank_raw_1e9": 1,
+   "massless_heavy_states": 13,
+   "control_off_point_max_sval": 0.14072029522456472,
+   "invariants_max_sval_raw": 5.770994920139518e-16,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [
+    1,
+    3,
+    7
+   ],
+   "control_off_point_rank": 6
+  },
+  {
+   "point": "omega_1",
+   "max_sval_raw": 1.0587956715752933e-15,
+   "rank_raw_1e9": 0,
+   "massless_heavy_states": 13,
+   "control_off_point_max_sval": 0.7509980431629869,
+   "invariants_max_sval_raw": 1.5783160781675584e-15,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [
+    3,
+    5
+   ],
+   "control_off_point_rank": 6
+  },
+  {
+   "point": "omega_2",
+   "max_sval_raw": 0.00012722718294251768,
+   "rank_raw_1e9": 1,
+   "massless_heavy_states": 13,
+   "control_off_point_max_sval": 1.1698468466555678,
+   "invariants_max_sval_raw": 2.169343011447835e-15,
+   "invariants_rank_1e9": 0,
+   "copies_degenerate_a_eq_d_at_zero_mixing": [
+    1,
+    5,
+    7
+   ],
+   "control_off_point_rank": 6
+  }
+ ]
+}

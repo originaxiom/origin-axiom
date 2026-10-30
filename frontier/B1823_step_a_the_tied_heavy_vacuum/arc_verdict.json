@@ -1,0 +1,28 @@
+{
+ "id": "B1823",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1656",
+  "B1730",
+  "B1809",
+  "B1810",
+  "B1703",
+  "B1824"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "FR-FIB's multiplier rho_R acting on (tau, S); a CHOSEN heavy sector (n copies of vector-like leptons) with an H_d-type Higgs triplet",
+  "object": "the one-loop (Coleman-Weinberg) vacuum of the tied heavy sector on the six coordinates (tau, [S] in CP^2), n = 1-8, two menus",
+  "reach": "class",
+  "hypotheses": "data-free; CHOSEN: the heavy content, the menus, the tie, the forms' normalisation convention (continuous), the cross-copy couplings and non-universal counterterm parts set to zero, minimal Kahler, H_d only, charge-preserving vevs, |v| fixed; the supersymmetric completion (H_u) required and not computed"
+ },
+ "claim_one_line": "STEP A v2, THE TIED HEAVY SECTOR'S ONE-LOOP VACUUM (P-518, P-519; data-free; refereed hostile, FAIL as drafted, the three blocking findings verified by main and applied): NEGATIVE as a compression. Under the plan's sealed reading (the global minimum isolated at every primary point) n = 1-3 fail (a flat valley; light-copy valleys; a runaway to the cusp and an unconverged point) and n = 4-8 pass only in a CHOSEN normalisation convention for the forms (3n - 2 continuous ratios) with the invariant cross-copy couplings and non-universal counterterms set to zero, and even there the plan's free-number measure is 3 at the primary points (numerically weak: one leading in the decoupling limit), against the two real numbers of tau a declared direction costs; with the convention free the vacuum's rank is 1-2 at n = 2 (in the heavy regime) and 3 (the whole fixed locus of a mirror line) or 6 (off the lines; computed at n = 5, 6, 8) for n >= 3, no compression; in the cusp and a Petersson-type convention n = 2-5 are light-copy at decoupling, so n = 2's heavy-regime vacuum is lost (none isolated found in the cusp convention at lambda v = 0.3); the supersymmetric reading the potential needs requires H_u (a lone H_d triplet is anomalous), whose direction is unfixed and whose identification with H_d is UNEARNED. Robust: two copies' direction is the formula Y1 x Y2 at tau* in every convention (rank 1 on a mirror line where the heavy regime holds); menu H's lands on R (a massless first generation). Step B keeps the declared directions (twelve, B1824). None of the 19.",
+ "weave_or_thread": "frame (no thread selected)"
+}

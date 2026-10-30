@@ -1,0 +1,51 @@
+{"tau": "(0.17 + 1.23j)", "a0_vs_P3_over_48_theta_m2": 3.7995291858568814e-31, "ratio_spread_a": 2.704586164264509e-31, "a_ratio_over_eta4_6": [1.0, 5.174056177449529e-32], "b_ratio_over_eta9_6": [1.0, 6.622513252384013e-32], "b_ratio_over_eta4_6": [0.19482417534863125, 0.043689138216894734], "c_ratio_over_abseta4_6": [0.9221944651144469, 0.38672647764573753], "d_ratio_over_eta4_6": [1.0, 6.120757950283201e-32], "d_ratio_over_etap4_6": [1.0, 2.3558199077056242e-32], "eta_true_over_principal_cuberoot": [1.0, -2.2516311136210617e-33], "theta_dlog_formula_devs": [1.4444474582904269e-33, 6.890416440883599e-33, 1.855301406197367e-32]}
+{"tau": "(1.7 + 0.9j)", "a0_vs_P3_over_48_theta_m2": 9.26260899012642e-31, "ratio_spread_a": 2.228357080202621e-31, "a_ratio_over_eta4_6": [1.0, 2.872783395054451e-32], "b_ratio_over_eta9_6": [1.0, -2.555166242891915e-32], "b_ratio_over_eta4_6": [-0.1924945756478392, 0.24242744188048376], "c_ratio_over_abseta4_6": [-0.6264526747895833, -0.7794594577327141], "d_ratio_over_eta4_6": [1.0, -1.973070973105779e-31], "d_ratio_over_etap4_6": [1.0, -2.894557174257301e-31], "eta_true_over_principal_cuberoot": [1.0, -2.0604933431885862e-32], "theta_dlog_formula_devs": [5.3926038442842604e-33, 1.7431527984210495e-32, 3.486305596842099e-32]}
+{"tau": "(-2.3 + 1.4j)", "a0_vs_P3_over_48_theta_m2": 7.2908076604212665e-31, "ratio_spread_a": 4.871248605250641e-31, "a_ratio_over_eta4_6": [1.0, -8.965363837148448e-32], "b_ratio_over_eta9_6": [1.0, -1.2345212289029358e-31], "b_ratio_over_eta4_6": [-0.1586509538895574, -0.021002887950876768], "c_ratio_over_abseta4_6": [0.6484630861514076, 0.7612461007446883], "d_ratio_over_eta4_6": [1.0, -1.7258471197185525e-31], "d_ratio_over_etap4_6": [1.0, -1.3068898927954599e-31], "eta_true_over_principal_cuberoot": [1.0, 6.878503029266239e-33], "theta_dlog_formula_devs": [1.2335352014295122e-32, 6.933347799794049e-33, 2.178940998026312e-33]}
+{"tau": "(0.5 + 0.87j)", "a0_vs_P3_over_48_theta_m2": 6.674977199711572e-31, "ratio_spread_a": 3.2605183819816946e-31, "a_ratio_over_eta4_6": [1.0, 3.398677186053886e-31], "b_ratio_over_eta9_6": [1.0, 3.046593801941213e-31], "b_ratio_over_eta4_6": [0.25941798189599896, 0.19905841867583735], "c_ratio_over_abseta4_6": [0.3826834323650898, 0.9238795325112867], "d_ratio_over_eta4_6": [1.0, 1.7761470940147622e-31], "d_ratio_over_etap4_6": [1.0, 3.6346172912756493e-32], "eta_true_over_principal_cuberoot": [1.0, -1.7208526127394738e-32], "theta_dlog_formula_devs": [2.465190328815662e-32, 1.7431527984210495e-32, 1.7431527984210495e-32]}
+{"tau": "(0.05 + 2.6j)", "a0_vs_P3_over_48_theta_m2": 5.077447970357879e-31, "ratio_spread_a": 5.645763570623873e-31, "a_ratio_over_eta4_6": [1.0, 9.056121954132665e-33], "b_ratio_over_eta9_6": [1.0, 1.0306980244240438e-32], "b_ratio_over_eta4_6": [0.0331890330415818, 0.0021753200125446933], "c_ratio_over_abseta4_6": [0.9930684832360296, 0.11753717540970439], "d_ratio_over_eta4_6": [1.0, -2.836395546883348e-33], "d_ratio_over_etap4_6": [1.0, -2.492976511873239e-32], "eta_true_over_principal_cuberoot": [1.0, -2.0841167797218113e-33], "theta_dlog_formula_devs": [2.465190588854762e-32, 4.863345529171048e-33, 5.488930038122678e-33]}
+{
+ "exact_qseries_a0_equals_P3_over_48_times_theta_minus2": [
+  true,
+  true,
+  true
+ ],
+ "exact_qseries_a0_equals_th2th3^3th4^3_etc_over_48": [
+  true,
+  true,
+  true
+ ],
+ "exact_compared_up_to_x_power": 200,
+ "a0_leading_terms": [
+  {
+   "1": [
+    "1/24",
+    "0"
+   ],
+   "9": [
+    "-11/24",
+    "0"
+   ]
+  },
+  {
+   "3": [
+    "1/6",
+    "0"
+   ],
+   "7": [
+    "2/3",
+    "0"
+   ]
+  },
+  {
+   "3": [
+    "0",
+    "1/6"
+   ],
+   "7": [
+    "0",
+    "-2/3"
+   ]
+  }
+ ],
+ "identity": "a0 = D^2 R - E4 R / 48 = (1/48)(th2 th3^3 th4^3, th2^3 th3^3 th4, i th2^3 th3 th4^3) = (eta^9/6)(th2^-2, th4^-2, i th3^-2) = eta^4 F_-2 / 6, with eta the Dedekind eta (eta^3 = th2 th3 th4 / 2) and F_-2 = eta^5 (th2^-2, th4^-2, i th3^-2) (B1730, eps = +1); componentwise a0_k = -(1/48) R_k x (th3^4 th4^4, th2^4 th3^4, -th2^4 th4^4)"
+}

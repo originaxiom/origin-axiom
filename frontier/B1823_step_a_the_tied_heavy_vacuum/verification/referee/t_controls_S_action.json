@@ -1,0 +1,14 @@
+{
+ "menu_Z": {
+  "right (L^-1, P)": 1.2037062152420224e-33,
+  "T with L": 0.25595725695865446,
+  "T with S unchanged": 0.37706293442692257,
+  "S-move with S unchanged": 0.9341438104394154
+ },
+ "menu_H": {
+  "right (L^-1, P)": 9.664734899189638e-18,
+  "T with L": 2.579722011121791,
+  "T with S unchanged": 1.5605251163235005,
+  "S-move with S unchanged": 3.4113510903598545
+ }
+}

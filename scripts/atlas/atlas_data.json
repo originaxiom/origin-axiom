@@ -14760,7 +14760,7 @@
     "S252"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 11,
+   "obstacle_conf": 12,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -14982,6 +14982,44 @@
    "obstacle_conf": 12,
    "status": "banked",
    "domain": "physics"
+  },
+  "B1823": {
+   "slug": "step a the tied heavy vacuum",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B1",
+    "B2",
+    "B3",
+    "B865",
+    "B895",
+    "B944",
+    "B953",
+    "B978"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 20,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1824": {
+   "slug": "two declared directions are one",
+   "motifs": [
+    "measurement",
+    "kappa"
+   ],
+   "refs": [],
+   "obstacle": "numerology",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "dynamics"
   },
   "B182": {
    "slug": "multiplicity selection",

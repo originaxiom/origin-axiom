@@ -1,0 +1,157 @@
+== section D
+  D Z n=1 mu2=0.30 m02=0.0030 lv=1.0 N/sup: V=-0.0053772992 tau=0.301487+0.953470i iso=False flat=2 neg=0 mirror=None sym=None free=None [2 minima, 18s]
+  D Z n=1 mu2=0.30 m02=0.0030 lv=0.3 N/sup: V=-0.0053772992 tau=0.301487+0.953470i iso=False flat=2 neg=0 mirror=None sym=None free=None [3 minima, 20s]
+  D Z n=1 mu2=0.30 m02=0.0030 lv=0.1 N/sup: V=-0.0053772992 tau=0.301487+0.953470i iso=False flat=2 neg=0 mirror=None sym=None free=None [5 minima, 24s]
+  D Z n=1 mu2=0.50 m02=0.0050 lv=0.3 N/sup: V=-0.0149999375 tau=0.430444+1.178219i iso=False flat=2 neg=0 mirror=None sym=None free=None [2 minima, 14s]
+  D Z n=1 mu2=0.50 m02=0.0050 lv=1.0 N/sup: V=-0.0149999375 tau=0.430444+1.178219i iso=False flat=2 neg=0 mirror=None sym=None free=None [2 minima, 12s]
+  D Z n=1 mu2=0.50 m02=0.0050 lv=0.1 N/sup: V=-0.0149999375 tau=0.430444+1.178219i iso=False flat=2 neg=0 mirror=None sym=None free=None [5 minima, 18s]
+  D Z n=1 mu2=0.80 m02=0.0080 lv=1.0 N/sup: V=-0.0382278622 tau=-0.500000+1.406056i iso=False flat=2 neg=0 mirror=None sym=None free=None [2 minima, 12s]
+  D Z n=1 mu2=0.80 m02=0.0080 lv=0.3 N/sup: V=-0.0382278622 tau=-0.500000+1.406056i iso=False flat=2 neg=0 mirror=None sym=None free=None [2 minima, 14s]
+  D Z n=1 mu2=0.80 m02=0.0080 lv=0.1 N/sup: V=-0.0382278622 tau=-0.500000+1.406056i iso=False flat=2 neg=0 mirror=None sym=None free=None [2 minima, 19s]
+  D Z n=1 mu2=0.50 m02=0.0500 lv=0.3 N/sup: V=-0.1499374974 tau=0.407271+1.159977i iso=False flat=2 neg=0 mirror=None sym=None free=None [2 minima, 10s]
+  D Z n=1 mu2=0.50 m02=0.0050 lv=0.3 cusp/cusp: V=-0.0060011596 tau=0.086271+4.116809i iso=False flat=2 neg=0 mirror=None sym=None free=None [2 minima, 19s]
+  D Z n=2 mu2=0.30 m02=0.0030 lv=0.1 N/sup: V=-0.0068493893 tau=0.000000+2.653736i iso=False flat=1 neg=0 mirror=None sym=None free=None [5 minima, 29s]
+  D Z n=2 mu2=0.30 m02=0.0030 lv=0.3 N/sup: V=-0.0068493893 tau=-0.000000+2.653736i iso=False flat=1 neg=0 mirror=None sym=None free=None [6 minima, 24s]
+  D Z n=2 mu2=0.30 m02=0.0030 lv=1.0 N/sup: V=-0.0068493893 tau=0.000000+2.653736i iso=False flat=1 neg=0 mirror=None sym=None free=None [4 minima, 19s]
+  D Z n=2 mu2=0.50 m02=0.0050 lv=0.3 N/sup: V=-0.0294679996 tau=-0.500000+1.244024i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=1 [4 minima, 18s]
+  D Z n=2 mu2=0.50 m02=0.0050 lv=1.0 N/sup: V=-0.0294679996 tau=-0.500000+1.244024i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=1 [2 minima, 14s]
+  D Z n=2 mu2=0.50 m02=0.0050 lv=0.1 N/sup: V=-0.0294679996 tau=-0.500000+1.244024i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=1 [16 minima, 27s]
+  D Z n=2 mu2=0.80 m02=0.0080 lv=0.3 N/sup: V=-0.0740076115 tau=0.405286+1.230560i iso=True flat=0 neg=0 mirror=None sym=None free=2 [1 minima, 18s]
+  D Z n=2 mu2=0.80 m02=0.0080 lv=1.0 N/sup: V=-0.0740076115 tau=0.405286+1.230560i iso=True flat=0 neg=0 mirror=None sym=None free=2 [1 minima, 11s]
+  D Z n=2 mu2=0.80 m02=0.0080 lv=0.1 N/sup: V=-0.0740076115 tau=0.405286+1.230560i iso=True flat=0 neg=0 mirror=None sym=None free=2 [2 minima, 28s]
+  D Z n=2 mu2=0.50 m02=0.0500 lv=0.3 N/sup: V=-0.2920242241 tau=-0.500000+1.244800i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=1 [2 minima, 13s]
+  D Z n=2 mu2=0.50 m02=0.0050 lv=0.3 cusp/cusp: V=-0.0113063973 tau=0.000000+4.116809i iso=False flat=2 neg=0 mirror=None sym=None free=None [5 minima, 25s]
+  D Z n=3 mu2=0.30 m02=0.0030 lv=0.3 N/sup: V=-0.0103156316 tau=-0.500000+1.191893i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=3 [14 minima, 40s]
+  D Z n=3 mu2=0.30 m02=0.0030 lv=1.0 N/sup: V=-0.0057296568 tau=0.417974+10.622790i iso=False flat=3 neg=0 mirror=None sym=None free=None [6 minima, 29s]
+  D Z n=3 mu2=0.30 m02=0.0030 lv=0.1 N/sup: V=-0.0111025892 tau=-0.500000+1.198880i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=3 [20 minima, 48s]
+  D Z n=3 mu2=0.50 m02=0.0050 lv=1.0 N/sup: V=-0.0336022333 tau=0.254759+1.136452i iso=True flat=0 neg=0 mirror=None sym=None free=3 [5 minima, 18s]
+  D Z n=3 mu2=0.50 m02=0.0050 lv=0.3 N/sup: V=-0.0417073268 tau=-0.500000+1.236507i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=3 [2 minima, 25s]
+  D Z n=3 mu2=0.50 m02=0.0050 lv=0.1 N/sup: V=-0.0426282604 tau=-0.500000+1.244040i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=3 [7 minima, 37s]
+  D Z n=3 mu2=0.80 m02=0.0080 lv=0.3 N/sup: V=-0.1037366328 tau=-0.500000+1.278575i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=3 [1 minima, 23s]
+  D Z n=3 mu2=0.80 m02=0.0080 lv=1.0 N/sup: V=-0.0941856156 tau=0.283976+1.197574i iso=True flat=0 neg=0 mirror=None sym=None free=3 [1 minima, 13s]
+  D Z n=3 mu2=0.80 m02=0.0080 lv=0.1 N/sup: V=-0.1046067250 tau=-0.500000+1.284976i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=3 [8 minima, 40s]
+  D Z n=3 mu2=0.50 m02=0.0500 lv=0.3 N/sup: V=-0.4164182171 tau=-0.500000+1.231732i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=3 [1 minima, 17s]
+  D Z n=3 mu2=0.50 m02=0.0050 lv=0.3 cusp/cusp: V=0.0063118321 tau=0.146122+6.107204i iso=False flat=1 neg=3 mirror=None sym=None free=None [12 minima, 29s]
+  D Z n=4 mu2=0.30 m02=0.0030 lv=0.3 N/sup: V=-0.0120486432 tau=-0.500000+1.176930i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=3 [1 minima, 31s]
+  D Z n=4 mu2=0.30 m02=0.0030 lv=1.0 N/sup: V=-0.0034523856 tau=0.200749+0.979643i iso=True flat=0 neg=0 mirror=|tau| = 1 sym=None free=3 [1 minima, 27s]
+  D Z n=4 mu2=0.30 m02=0.0030 lv=0.1 N/sup: V=-0.0129822951 tau=-0.500000+1.184165i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=3 [6 minima, 46s]
+  D Z n=4 mu2=0.50 m02=0.0050 lv=1.0 N/sup: V=-0.0368219825 tau=0.216732+1.126847i iso=True flat=0 neg=0 mirror=None sym=None free=3 [1 minima, 24s]
+  D Z n=4 mu2=0.50 m02=0.0050 lv=0.3 N/sup: V=-0.0484794463 tau=-0.500000+1.273996i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=3 [1 minima, 29s]
+  D Z n=4 mu2=0.50 m02=0.0050 lv=0.1 N/sup: V=-0.0496590103 tau=-0.500000+1.285348i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=3 [2 minima, 39s]
+  D Z n=4 mu2=0.80 m02=0.0080 lv=1.0 N/sup: V=-0.1087561912 tau=0.186793+1.272843i iso=True flat=0 neg=0 mirror=None sym=None free=3 [1 minima, 19s]
+  D Z n=4 mu2=0.80 m02=0.0080 lv=0.3 N/sup: V=-0.1244029202 tau=-0.000000+1.742767i iso=True flat=0 neg=0 mirror=Re tau = 0 sym=None free=3 [2 minima, 23s]
+  D Z n=4 mu2=0.80 m02=0.0080 lv=0.1 N/sup: V=-0.1237858912 tau=-0.500000+1.401319i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=3 [9 minima, 38s]
+  D Z n=4 mu2=0.50 m02=0.0500 lv=0.3 N/sup: V=-0.4934539547 tau=-0.500000+1.253749i iso=True flat=0 neg=0 mirror=Re tau = -1/2 sym=None free=3 [1 minima, 20s]
+  D Z n=4 mu2=0.50 m02=0.0050 lv=0.3 cusp/cusp: V=4.7697436467 tau=0.378337+0.925668i iso=True flat=0 neg=0 mirror=|tau| = 1 sym=None free=2 [24 minima, 31s]
+  D Z n=5 mu2=0.30 m02=0.0030 lv=0.3 N/sup: V=-0.0130822097 tau=0.284543+1.083187i iso=True flat=0 neg=0 mirror=None sym=None free=3 [2 minima, 33s]
+  D Z n=5 mu2=0.30 m02=0.0030 lv=1.0 N/sup: V=-0.0051013221 tau=0.119119+0.992880i iso=True flat=0 neg=0 mirror=|tau| = 1 sym=None free=3 [1 minima, 28s]
+  D Z n=5 mu2=0.30 m02=0.0030 lv=0.1 N/sup: V=-0.0146965006 tau=0.318757+1.146963i iso=True flat=0 neg=0 mirror=None sym=None free=3 [15 minima, 50s]
+  D Z n=5 mu2=0.50 m02=0.0050 lv=0.1 N/sup: V=-0.0607823611 tau=0.317171+1.319622i iso=True flat=0 neg=0 mirror=None sym=None free=3 [3 minima, 35s]
+  D Z n=5 mu2=0.50 m02=0.0050 lv=1.0 N/sup: V=-0.0436073882 tau=0.152751+0.988265i iso=True flat=0 neg=0 mirror=|tau| = 1 sym=None free=3 [1 minima, 26s]
+  D Z n=5 mu2=0.50 m02=0.0050 lv=0.3 N/sup: V=-0.0573788554 tau=0.277865+1.258976i iso=True flat=0 neg=0 mirror=None sym=None free=3 [3 minima, 32s]
+  D Z n=5 mu2=0.80 m02=0.0080 lv=0.3 N/sup: V=-0.1603354249 tau=-0.000000+1.709522i iso=True flat=0 neg=0 mirror=Re tau = 0 sym=None free=3 [1 minima, 24s]
+  D Z n=5 mu2=0.80 m02=0.0080 lv=0.1 N/sup: V=-0.1597625479 tau=0.000000+1.644048i iso=True flat=0 neg=0 mirror=Re tau = 0 sym=None free=3 [2 minima, 29s]
+  D Z n=5 mu2=0.80 m02=0.0080 lv=1.0 N/sup: V=-0.1257043134 tau=0.169593+1.109117i iso=True flat=0 neg=0 mirror=None sym=None free=3 [1 minima, 26s]
+  D Z n=5 mu2=0.50 m02=0.0500 lv=0.3 N/sup: V=-0.5844588541 tau=0.295160+1.209634i iso=True flat=0 neg=0 mirror=None sym=None free=3 [1 minima, 24s]
+  D Z n=5 mu2=0.50 m02=0.0050 lv=0.3 cusp/cusp: V=5.3964751688 tau=0.379257+0.925291i iso=True flat=0 neg=0 mirror=|tau| = 1 sym=None free=2 [24 minima, 37s]
+  D Z n=6 mu2=0.30 m02=0.0030 lv=0.1 N/sup: V=-0.0160617986 tau=0.348701+1.118542i iso=True flat=0 neg=0 mirror=None sym=None free=3 [12 minima, 65s]
+  D Z n=6 mu2=0.30 m02=0.0030 lv=0.3 N/sup: V=-0.0145190680 tau=0.307046+1.047909i iso=True flat=0 neg=0 mirror=None sym=None free=3 [2 minima, 52s]
+  D Z n=6 mu2=0.30 m02=0.0030 lv=1.0 N/sup: V=-0.0039574652 tau=0.121869+0.992546i iso=True flat=0 neg=0 mirror=|tau| = 1 sym=None free=3 [1 minima, 38s]
+  D Z n=6 mu2=0.50 m02=0.0050 lv=1.0 N/sup: V=-0.0473292932 tau=0.160802+0.986987i iso=True flat=0 neg=0 mirror=|tau| = 1 sym=None free=3 [2 minima, 29s]
+  D Z n=6 mu2=0.50 m02=0.0050 lv=0.3 N/sup: V=-0.0623517660 tau=0.332087+1.190920i iso=True flat=0 neg=0 mirror=None sym=None free=3 [1 minima, 40s]
+  D Z n=6 mu2=0.50 m02=0.0050 lv=0.1 N/sup: V=-0.0662106253 tau=0.359168+1.309450i iso=True flat=0 neg=0 mirror=None sym=None free=3 [4 minima, 50s]
+  D Z n=6 mu2=0.80 m02=0.0080 lv=0.1 N/sup: V=-0.1754808695 tau=0.000000+1.586849i iso=True flat=0 neg=0 mirror=Re tau = 0 sym=None free=3 [1 minima, 37s]
+  D Z n=6 mu2=0.80 m02=0.0080 lv=1.0 N/sup: V=-0.1391784844 tau=0.196927+1.058811i iso=True flat=0 neg=0 mirror=None sym=None free=3 [2 minima, 28s]
+  D Z n=6 mu2=0.80 m02=0.0080 lv=0.3 N/sup: V=-0.1650112906 tau=0.316382+1.319898i iso=True flat=0 neg=0 mirror=None sym=None free=3 [1 minima, 33s]
+  D Z n=6 mu2=0.50 m02=0.0500 lv=0.3 N/sup: V=-0.6505145808 tau=0.334867+1.169678i iso=True flat=0 neg=0 mirror=None sym=None free=3 [1 minima, 26s]
+  D Z n=6 mu2=0.50 m02=0.0050 lv=0.3 cusp/cusp: V=5.8934048591 tau=0.495306+0.868719i iso=False flat=0 neg=0 mirror=|tau| = 1 sym=None free=None [24 minima, 33s]
+  D Z n=7 mu2=0.30 m02=0.0030 lv=0.1 N/sup: V=-0.0192118057 tau=0.262105+1.079940i iso=True flat=0 neg=0 mirror=None sym=None free=3 [4 minima, 67s]
+  D Z n=7 mu2=0.30 m02=0.0030 lv=0.3 N/sup: V=-0.0173788986 tau=0.250003+1.006262i iso=True flat=0 neg=0 mirror=None sym=None free=3 [9 minima, 50s]
+  D Z n=7 mu2=0.30 m02=0.0030 lv=1.0 N/sup: V=-0.0046301395 tau=0.071469+0.997443i iso=True flat=0 neg=0 mirror=|tau| = 1 sym=None free=3 [8 minima, 39s]
+  D Z n=7 mu2=0.50 m02=0.0050 lv=1.0 N/sup: V=-0.0507267192 tau=0.111105+0.993809i iso=True flat=0 neg=0 mirror=|tau| = 1 sym=None free=3 [11 minima, 20s]
+  D Z n=7 mu2=0.50 m02=0.0050 lv=0.3 N/sup: V=-0.0741392978 tau=0.271277+1.202495i iso=True flat=0 neg=0 mirror=None sym=None free=3 [6 minima, 26s]
+  D Z n=7 mu2=0.50 m02=0.0050 lv=0.1 N/sup: V=-0.0795434669 tau=0.178364+1.360649i iso=True flat=0 neg=0 mirror=None sym=None free=3 [5 minima, 34s]
+  D Z n=7 mu2=0.80 m02=0.0080 lv=0.1 N/sup: V=-0.2138263741 tau=0.000000+1.587161i iso=True flat=0 neg=0 mirror=Re tau = 0 sym=None free=3 [6 minima, 30s]
+  D Z n=7 mu2=0.80 m02=0.0080 lv=1.0 N/sup: V=-0.1576395867 tau=0.311493+1.013673i iso=True flat=0 neg=0 mirror=None sym=None free=3 [6 minima, 23s]
+<root>/audit/drafts/step_a_v2/model.py:174: RuntimeWarning: overflow encountered in scalar multiply
+  disc = (a2 - d2) ** 2 + b2 * (2 * a2 + 2 * d2 + b2)                  # = s^2 - 4 a^2 d^2, manifestly >= 0
+<root>/audit/drafts/step_a_v2/model.py:183: RuntimeWarning: invalid value encountered in scalar subtract
+  return (u + m02) ** 2 * (np.log((u + m02) / mu2) - 1.5) - u ** 2 * (np.log(u / mu2) - 1.5)
+<root>/audit/drafts/step_a_v2/model.py:126: RuntimeWarning: divide by zero encountered in scalar power
+  v = np.array([self.eps * t2 ** a, self.eps * t4 ** a, 1j * t3 ** a])
+<root>/audit/drafts/step_a_v2/model.py:126: RuntimeWarning: invalid value encountered in scalar power
+  v = np.array([self.eps * t2 ** a, self.eps * t4 ** a, 1j * t3 ** a])
+<root>/audit/drafts/step_a_v2/model.py:126: RuntimeWarning: invalid value encountered in scalar multiply
+  v = np.array([self.eps * t2 ** a, self.eps * t4 ** a, 1j * t3 ** a])
+<root>/audit/drafts/step_a_v2/model.py:127: RuntimeWarning: overflow encountered in scalar power
+  return v, abs_eta(th) ** (3 - a) * self.scale
+<root>/audit/drafts/step_a_v2/search.py:93: RuntimeWarning: invalid value encountered in multiply
+  W.append(self.lv * y2 ** (c.Y3.w / 2) * fac * vec)
+<root>/audit/drafts/step_a_v2/search.py:97: RuntimeWarning: overflow encountered in square
+  b2 = np.abs(W @ S) ** 2
+<root>/audit/drafts/step_a_v2/model.py:127: RuntimeWarning: divide by zero encountered in scalar power
+  return v, abs_eta(th) ** (3 - a) * self.scale
+  D Z n=7 mu2=0.80 m02=0.0080 lv=0.3 N/sup: V=-0.1995934097 tau=0.256135+1.348395i iso=True flat=0 neg=0 mirror=None sym=None free=3 [3 minima, 32s]
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "<python>/lib/python3.12/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "<root>/audit/drafts/step_a_v2/step_a_v2.py", line 395, in one_config
+    tau, Sf, v, r = local_min(model, complex(x, y), S)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<root>/audit/drafts/step_a_v2/search.py", line 159, in local_min
+    r = minimize(f, x0, method="BFGS", options=dict(gtol=gtol, maxiter=4000))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/site-packages/scipy/optimize/_minimize.py", line 779, in minimize
+    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/site-packages/scipy/optimize/_optimize.py", line 1443, in _minimize_bfgs
+    _line_search_wolfe12(f, myfprime, xk, pk, gfk,
+  File "<python>/lib/python3.12/site-packages/scipy/optimize/_optimize.py", line 1172, in _line_search_wolfe12
+    ret = line_search_wolfe1(f, fprime, xk, pk, gfk,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/site-packages/scipy/optimize/_linesearch.py", line 93, in line_search_wolfe1
+    stp, fval, old_fval = scalar_search_wolfe1(
+                          ^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/site-packages/scipy/optimize/_linesearch.py", line 170, in scalar_search_wolfe1
+    stp, phi1, phi0, task = dcsrch(
+                            ^^^^^^^
+  File "<python>/lib/python3.12/site-packages/scipy/optimize/_dcsrch.py", line 255, in __call__
+    phi1 = self.phi(stp)
+           ^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/site-packages/scipy/optimize/_linesearch.py", line 84, in phi
+    return f(xk + s*pk, *args)
+           ^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/site-packages/scipy/optimize/_differentiable_functions.py", line 385, in fun
+    self._update_fun()
+  File "<python>/lib/python3.12/site-packages/scipy/optimize/_differentiable_functions.py", line 353, in _update_fun
+    fx = self._wrapped_fun(self.x)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/site-packages/scipy/_lib/_util.py", line 590, in __call__
+    fx = self.f(np.copy(x), *self.args)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<root>/audit/drafts/step_a_v2/search.py", line 158, in f
+    return model.V(tau, S) + (nS ** 2 - 1) ** 2
+           ^^^^^^^^^^^^^^^
+  File "<root>/audit/drafts/step_a_v2/search.py", line 112, in V
+    return self.V_pieces(*self.pieces(tau), S)
+                          ^^^^^^^^^^^^^^^^
+  File "<root>/audit/drafts/step_a_v2/search.py", line 91, in pieces
+    D.append(self.M ** 2 * y2 ** c.YE.w * c.YE.absval(th, E4, E6, ae) ** 2)
+                           ~~~^^~~~~~~~
+OverflowError: (34, 'Result too large')
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<root>/audit/drafts/step_a_v2/step_a_v2.py", line 642, in <module>
+    r = SECTIONS[key](workers) if key == "D" else SECTIONS[key]()
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "<root>/audit/drafts/step_a_v2/step_a_v2.py", line 482, in sec_D
+    for r in pool.imap_unordered(one_config, jobs):
+  File "<python>/lib/python3.12/multiprocessing/pool.py", line 873, in next
+    raise value
+OverflowError: (34, 'Result too large')

@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.59) of 2026-10-28 |
-| arcs with a verdict | 1526: 1041 PROVED, 380 NEGATIVE, 93 OPEN, 12 RETRACTED |
-| points in the register | 535: 219 open (queued, leads, waiting for the owner), 316 closed |
+| arcs with a verdict | 1528: 1042 PROVED, 381 NEGATIVE, 93 OPEN, 12 RETRACTED |
+| points in the register | 537: 219 open (queued, leads, waiting for the owner), 318 closed |
 | the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S272 THE LAB BUILT; ITS SEAL-ORDER FINDINGS REGISTERED; THE OWNER'S HOSTINGER AND TOOLS QUESTIONS ROWED; THE SEAL LEDGER REGENERATED (2026-10-30) |
+| the last landing | S273 B1823 STEP A v2 NEGATIVE AS A COMPRESSION; B1824 TWO DECLARED DIRECTIONS ARE ONE (2026-10-30) |
 <!-- STATE:END -->
 
 ## Start here

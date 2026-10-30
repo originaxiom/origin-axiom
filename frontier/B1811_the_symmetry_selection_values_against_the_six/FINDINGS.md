@@ -63,6 +63,8 @@
 - **How the end enters.** Through B1740's small-cut norm 2πL + c_s, not the horoball's exact norm (RETRACTIONS; P-421).
   That is 0.6% from exact at L₂, where both best six-rows sit, and 35–38% at L_max. The verdict does not depend on it.
 - The four configuration-fixed points; the 13 directions of B1810's n = 1 window.
+  > *2026-10-30 (B1824): two of the 13 are one direction (a₀ = η⁴F₋₂/6), so the menu held twelve distinct directions,
+  > one of them twice, in the arc and in the null alike; the verdict is unchanged.*
 - The seat's and the covariant readings, with c ∈ {1, 3} as B1741's menus carry them.
 - **Not tested:**
   - n ≥ 2 directions;

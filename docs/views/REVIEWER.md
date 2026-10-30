@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1526** |
-| words of findings prose | **1,261,738** |
-| test lock files referenced | **929** |
-| arcs carrying an authored verdict | **1526** (100.0 %) |
-| recorded closures | **856** (689 classified, 167 routed-only) |
+| research arcs with findings | **1528** |
+| words of findings prose | **1,268,338** |
+| test lock files referenced | **930** |
+| arcs carrying an authored verdict | **1528** (100.0 %) |
+| recorded closures | **857** (690 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1041 |
-| NEGATIVE | 380 |
+| PROVED | 1042 |
+| NEGATIVE | 381 |
 | OPEN | 93 |
 | RETRACTED | 12 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 126 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 127 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1822`** (1423 words, 0 locks)  
-T-NORM ON THE FRAME'S MATTER (P-525; data-free; refereed hostile, PASS WITH CORRECTIONS): FR-FIB's matter zero modes (one quaternion-type doublet per field times the blocks QJ, QI, QK) give the generation Gram matrix G = H ||F_x||^2, so T-NORM holds exactly in the chosen metric H = I, the one the census uses (306 twist classes, off-diagonals <= 2e-12, refined to 1e-15; reproduced by independent code); but the flat structure leaves H free -- 8 real parameters per field (2 under the diagonal SU(2) of the frame's holonomy) -- and the outputs move with it (a democratic 0.1 mixing shifts the mass ratios by 0.045 decades and |V| by 0.08): 'no new freedom' is false for the flat structure and H = I is a CHOSEN input; B1654's section 1.11 argument proves at best a diagonal H (P-146's dismissal refuted). None of the 19.  
-`B1822_t_norm_on_the_frames_matter/FINDINGS.md`
+**PROVED — `B1824`** (1416 words, 1 locks)  
+TWO OF B1810'S THIRTEEN DECLARED HIGGS DIRECTIONS ARE ONE (data-free; proved by hand, exact in B1691's q-series to q^25, re-derived by main in sympy and to 2e-40 numerically): a0 = D^2 R - E4 R/48 = (1/48)(th2 th3^3 th4^3, th2^3 th3^3 th4, i th2^3 th3 th4^3) = (eta^9/6)(th2^-2, th4^-2, i th3^-2) = eta^4 F_-2/6 identically, so N(a0) = i eta^21/864 (zero-free) and B1691's 'unidentified zero at t = -1/48' is eta^4 times B1730's zero-free F_-2; B1810's thirteen declared directions are twelve distinct (B1811's NEGATIVE unchanged: the null shared the duplicate); Step B's declared menu is twelve (0.115 bits less), the census's a0 and F_-2 rows to be confirmed equal before the seal. None of the 19.  
+`B1824_two_declared_directions_are_one/FINDINGS.md`
 
-**NEGATIVE — `B1817`** (1637 words, 1 locks)  
-THE FRAME'S OWN LEPTON/DOWN FACTOR AT THE CUSP (strand A's A1; P-397; data-free; refereed hostile, PASS WITH CORRECTIONS): on the slopes of order <= 30 with equal down/lepton second-generation exponents, every converged limit of R2 independent of the offset and of Re tau is 1, 4 or 1/4 (by reading) or a non-integer line constant (3.43 on 1/8); with the anomaly-fixed charges of N_c = 2, 4, 5 the same 4 and 1/4 recur unchanged -- the integer does not move with N_c (it equals N_c only at N_c = 4, by coincidence), so no limit tracks N_c and none is 3 at N_c = 3; on the torsion-degenerate slopes R2 is a function of the offset b and passes through 3 on a continuum -- a tuned value, not a factor. The twist-charge route to c = N_c is closed on the slopes tested; c stays one discrete input, never set. 0 of 19.  
-`B1817_the_frames_own_lepton_down_factor_at_the_cusp/FINDINGS.md`
+**NEGATIVE — `B1823`** (5091 words, 0 locks)  
+STEP A v2, THE TIED HEAVY SECTOR'S ONE-LOOP VACUUM (P-518, P-519; data-free; refereed hostile, FAIL as drafted, the three blocking findings verified by main and applied): NEGATIVE as a compression. Under the plan's sealed reading (the global minimum isolated at every primary point) n = 1-3 fail (a flat valley; light-copy valleys; a runaway to the cusp and an unconverged point) and n = 4-8 pass only in a CHOSEN normalisation convention for the forms (3n - 2 continuous ratios) with the invariant cross-copy couplings and non-universal counterterms set to zero, and even there the plan's free-number measure is 3 at the primary points (numerically weak: one leading in the decoupling limit), against the two real numbers of tau a declared direction costs; with the convention free the vacuum's rank is 1-2 at n = 2 (in the heavy regime) and 3 (the whole fixed locus of a mirror line) or 6 (off the lines; computed at n = 5, 6, 8) for n >= 3, no compression; in the cusp and a Petersson-type convention n = 2-5 are light-copy at decoupling, so n = 2's heavy-regime vacuum is lost (none isolated found in the cusp convention at lambda v = 0.3); the supersymmetric reading the potential needs requires H_u (a lone H_d triplet is anomalous), whose direction is unfixed and whose identification with H_d is UNEARNED. Robust: two copies' direction is the formula Y1 x Y2 at tau* in every convention (rank 1 on a mirror line where the heavy regime holds); menu H's lands on R (a massless first generation). Step B keeps the declared directions (twelve, B1824). None of the 19.  
+`B1823_step_a_the_tied_heavy_vacuum/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

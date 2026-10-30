@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1526 |
-| … PROVED | 1041 |
-| … NEGATIVE | 380 |
+| arcs with a verdict file | 1528 |
+| … PROVED | 1042 |
+| … NEGATIVE | 381 |
 | … OPEN | 93 |
 | … RETRACTED | 12 |
-| register points | 535 |
+| register points | 537 |
 | … QUEUED | 204 |
 | … LEAD | 10 |
 | … OWNER | 5 |
-| … DONE | 307 |
+| … DONE | 309 |
 | … DECLINED | 9 |
 | harvest rows (the last number) | 1504 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,8 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1824 | PROVED | TWO OF B1810'S THIRTEEN DECLARED HIGGS DIRECTIONS ARE ONE (data-free; proved by hand, exact in B1691's q-series to q^25, re-derived by main in sympy and to 2e-40 numerically): a0 = D^2 R - E4 R/48 = (1/48)(th2 th3^3 th4… |
+| B1823 | NEGATIVE | STEP A v2, THE TIED HEAVY SECTOR'S ONE-LOOP VACUUM (P-518, P-519; data-free; refereed hostile, FAIL as drafted, the three blocking findings verified by main and applied): NEGATIVE as a compression. Under the plan's seal… |
 | B1822 | PROVED | T-NORM ON THE FRAME'S MATTER (P-525; data-free; refereed hostile, PASS WITH CORRECTIONS): FR-FIB's matter zero modes (one quaternion-type doublet per field times the blocks QJ, QI, QK) give the generation Gram matrix G… |
 | B1821 | PROVED | THE FRAME'S MIRROR SYMMETRY ON THE CENSUS (B1790's mirror map, confirmed on every direction and line; Step B's census, P-521; data-free): FR-FIB's outputs at (-x+iy, line (a, -b)) equal those at (x+iy, (a, b)) row by ro… |
 | B1820 | PROVED | THE RIGID CENSUS'S CURVATURE ALONG Re TAU AND ITS REFINEMENT LIST (Step B's revision, P-521; aggregates and indices only; data-free): along Re tau the grid is the coarse one -- 7.75% of curvatures exceed 0.08 decades (I… |
@@ -41,8 +43,6 @@
 | B1814 | NEGATIVE | THE MEASURED WORLD AS A DRAW FROM THE WEAVE'S OWN MEASURE (P-437, stage 3; sealed 86cb26b30; NEGATIVE as sealed for D2's prediction): by the sealed statistic the six do not separate B1813's two clocks (p_F 0.43 under th… |
 | B1813 | PROVED | THE WEAVE'S OWN MEASURE DEPENDS ON HOW ITS THREADS ARE COUNTED (the owner's whole-existence computation, stage 1; P-107; data-free): left unforced, the threads produce a definite measure on tau for each counting rule, a… |
 | B1812 | NEGATIVE | THE TOWERS IN F-THEORY'S 7-BRANE FRAME (P-415, the owner's towers question; data-free; NEGATIVE for the towers-meeting-at-loci reading): the genesis word LR (trace 3) lies in the single SL(2,Z) class DeWolfe-Hauer-Iqbal… |
-| B1811 | NEGATIVE | THE SYMMETRY-SELECTION VALUES AGAINST THE SIX (P-432's second half; sealed 316457df6; NEGATIVE as sealed): at the four configurations the object's symmetry fixes, no parameter-free output of B1656's frame reaches the me… |
-| B1810 | PROVED | THE SYMMETRY-SELECTION VALUE TABLE (P-432, first half; data-free): the frame's outputs at the four configurations the object's symmetry fixes, for Table T's directions and B1730's complete n = 1 family (13 directions, 8… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -64,8 +64,6 @@
 - ** P-522** (2026-10-30) — THE CKM LEG DEFINED (the pre-seal review, B5): 'the CKM predicted from the six's address' has no tie rule (8-digit and full-precision rows mixed; ties to 1e-15 on record, B1811), no rule for undefine…
 - ** P-521** (2026-10-30) — THE τ GRID FAILS THE RESOLUTION CHECK (the pre-seal review, B4; INPUT_COMPLETENESS row 13): B1726's 90-point grid is at least 4.5 times too coarse in Im τ for the record's illustrative resolution; on…
 - ** P-520** (2026-10-30) — THE GENERATOR'S PRE-SEAL REVIEW: NO GO (main's hostile pre-seal reviewer of STEP_B_GENERATOR_DESIGN, synthetic targets only, no census value and no measured value opened; checked by main): the declar…
-- ** P-519** (2026-10-30) — TIED HEAVY RATIOS AS A WAY TO FIX THE HIGGS DIRECTION (B1818's referee, B3): W150's source ties its heavy pairs to one shared M_Q and μ; if a frame ties the heavy spectrum this way, n ≥ 7 pairs could…
-- ** P-518** (2026-10-30) — STEP A's CONSTRUCTION, MADE CONSISTENT (B1818's hostile referee, FAIL as drafted, checked by main): the coupling W ⊃ (M_Q Y + λ⟨S⟩·Y₃) QQ̄ puts a neutral mass and a charged Higgs on one bilinear (not…
 - ** P-515** (2026-10-30) — THE HISTORY CALENDAR (the owner, the night of 2026-10-29/30: a contribution calendar like GitHub's, 'very very sophisticated and detailed, so we can navigate through the history'; then 'thanks Do It'…
 - ** P-510** (2026-10-30) — KIND_TABLE's KIND CLAUSE FOR THE FRAME'S SUPPORT TESTS (the web seat's map, verified on main): KIND_TABLE's lane for mass ratios is the pair channel, 'CLOSED until one is', and none of B1749, B1753,…
 - ** P-507** (2026-10-29) — THE CONTEXT CARD'S COMPLETENESS CHECKS, FIRST READING (P-506; the card generated at S262): 39 arc folders carry no verdict file (scripts/checks/arc_data.py's resolved classes among them — preregistra…
@@ -79,9 +77,12 @@
 - ** P-475** (2026-10-29) — DOOR E — THE RISING FACTOR: τ's own one-loop potential runs to the cusp (B1686, B1704) and is a third 'time' never set against the threads' measure; with the measurer (L241) it is the candidate for t…
 - ** P-474** (2026-10-29) — DOOR D — A CLOCK-FREE OBSERVABLE: the dimension d = h/λ of a history's endpoint law is 0 on the principle's golden path, log 2/0.7924 = 0.875 for fair-coin letters (Kinney's dimension of Minkowski's…
 - ** P-468** (2026-10-29) — PICKED IN COMBINATION (the owner: what if the two clocks pick Im τ ≈ 3 in combination?): a falling height distribution sets at most a scale; a point needs a rising factor times a falling one. Four pr…
+- ** P-465** (2026-10-29) — THE PRINCIPLE AS THE SELECTION (the owner, 2026-10-29: could the selection principle that chooses our world be the initial a → ab, b → a principle itself?): iterated as a history, the principle is th…
+- ** P-443** (2026-10-29) — INHERITED ASSUMPTIONS (the owner, 2026-10-29: 'maybe our whole understanding is crippled, how science sees the standard model, spacetime parameters … we inherit that misunderstanding'): main's reply…
 
 ## The last landings (CHANGELOG)
 
+- S273 B1823 STEP A v2 NEGATIVE AS A COMPRESSION; B1824 TWO DECLARED DIRECTIONS ARE ONE (2026-10-30)
 - S272 THE LAB BUILT; ITS SEAL-ORDER FINDINGS REGISTERED; THE OWNER'S HOSTINGER AND TOOLS QUESTIONS ROWED; THE SEAL LEDGER REGENERATED (2026-10-30)
 - S271 B1822 T-NORM ON THE FRAME'S MATTER: EXACT IN THE CHOSEN METRIC, WHICH THE FLAT STRUCTURE DOES NOT FORCE (2026-10-30)
 - S270 THE WEB SEAT'S THREE RELAYS VERIFIED AND HARVESTED: P-512 DERIVED AT LEADING ORDER; P-510 RULED (FIX THE FRAME: T-NORM); ITS ATTACK READ (2026-10-30)
@@ -89,11 +90,10 @@
 - S268 B1820 THE RIGID CENSUS'S CURVATURE ALONG Re τ: THE REFINEMENT IS NEAR-UNIFORM (2026-10-30)
 - S267 B1819 THE RIGID CENSUS'S SMOOTHNESS IN τ: AN INTERPOLANT AND TARGETED REFINEMENT, NOT A 5× GRID (2026-10-30)
 - S266 THE FINAL ATTACK, STEPS 2-4 AS THEY STAND: STEP A OPEN, THE CENSUS COMPLETE AND UNREAD, THE GENERATOR UNDER REVIEW (2026-10-30)
-- S265 THE PROGRAMME SO FAR (2026-10-30)
 
 ## The latest campaign line
 
-LATEST (2026-10-30, S272: the owner's panel now has a Lab, built from both seats' proposals, and its first act was an audit: checking all 353 sealed tests against the repository's history, it found a handful of seals whose order or disclosure is not as the rules require — registered for the next review to rule on one by one. 0 of 19.)
+LATEST (2026-10-30, S273, B1823 and B1824: the final attack's Step A came back negative. A sector of heavy particles can fix the Higgs direction through its quantum corrections, but only once one chooses how to normalise the mathematical forms it is built from, and that choice is itself a set of free numbers; left free, it undoes the saving. So the final test runs on the record's own declared directions, and one of those turned out to be a duplicate: there are twelve, not thirteen. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

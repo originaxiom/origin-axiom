@@ -114,6 +114,11 @@ or free and unspecific (free doublets; a chosen c). It fits by capacity. What is
 
 1. Review 73 (due: 23 merges; it fires at 40), so the attack starts from an audited record.
 2. Step A's design note and its data-free computation (the joint vacuum's dimension).
+   > *2026-10-30 (S273): Step A's second construction is NEGATIVE as a compression (B1823). Under its plan's sealed
+   > reading the tied heavy vacuum fixes the direction only from four copies on, and only in a CHOSEN continuous
+   > normalisation convention with invariant couplings set to zero; with the convention free it does not compress; its
+   > supersymmetric reading needs an H_u whose direction nothing fixes. Step B runs on the declared directions, twelve
+   > distinct (B1824: a₀ = η⁴F₋₂/6), with no Step A arm.*
 3. The rigid-direction census: the thirteen directions on the menu's lines over τ. The record has them only at the
    symmetric points (B1810). **Computed tonight on the six's 2/5 family and left unread:** 900 configurations (ten lines,
    B1726's τ grid), 187 200 rows, no errors; `rigid_census.jsonl` sha256 9c5116649efb372e…, its script e5567219b92d5b0b….

@@ -1,0 +1,1 @@
+symmetric configurations checked: 640  without a negative Hessian direction: 0

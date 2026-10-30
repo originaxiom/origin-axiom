@@ -1,0 +1,43 @@
+# sha256 of the plan and the code at the plan (before the main runs), 2026-10-30T10:19:02Z
+4e2181fddbdf11a124d136ae1caa2ea6e2096729793d941b0aeaad2b0f35a485  PLAN.md
+32fb9b97a0fb8f591286e12407d335849a2dec1851651801127514f7e4d3981c  model.py
+f5a6583e0bb53dd6002ef667ab18cc56f68cd07e4a60c96a96500c997c456420  search.py
+
+# post-plan code changes before the main runs (disclosed in DESIGN.md: the discriminant written non-negatively; per-copy levels for the untied control; the invariant Jacobian; the valley follow; the mirror check at Re tau = -1/2; the phase test applied in mpmath), 2026-10-30T10:30:20Z
+0c545f5019398bf958cf0c6af69209428595a7f12f7071c8f718d1d5f9938800  model.py
+17fbbd3cd1b611b8ab7a57b10bf687846c446a844057c18e0849d71712e6550f  search.py
+849a67502ef0478960b46a03da92c78b03ca3b8a56398fe90997733109f6a710  step_a_v2.py
+
+# the first D launch crashed (OverflowError deep in the cusp; its log kept as step_a_v2_run_D_crashed_overflow.txt, no D output written); fix: a soft wall at Im tau > 40 after reduction, per-start error trapping, runaway (Im tau > 6) recorded apart from the refined interior minimum; relaunch 2026-10-30T10:47:07Z
+0c545f5019398bf958cf0c6af69209428595a7f12f7071c8f718d1d5f9938800  model.py
+cdfbffa8cbaa522b6ff7efe48f55f629ff658dc98ef718b2143cb6efe8ec7466  search.py
+65d895c908d1c6f129ba00d647a504f1d5d51bab777f1f26f135d105f332b6f8  step_a_v2.py
+
+# final state of every script and output, 2026-10-30T11:32:28Z
+4e2181fddbdf11a124d136ae1caa2ea6e2096729793d941b0aeaad2b0f35a485  PLAN.md
+a3289d1c47e99e5d3869d6bb723fa858faf7fb2a8343ae4e11e99c13b0e7223b  DESIGN.md
+0c545f5019398bf958cf0c6af69209428595a7f12f7071c8f718d1d5f9938800  model.py
+cdfbffa8cbaa522b6ff7efe48f55f629ff658dc98ef718b2143cb6efe8ec7466  search.py
+65d895c908d1c6f129ba00d647a504f1d5d51bab777f1f26f135d105f332b6f8  step_a_v2.py
+bf52d9a75dd041cce60a6b180ba8695d3a9988db911971da17fba161cf966dfb  runner_FGH.py
+9bf9bb8ef83a2a7ac0442db1f8240b457bdc4a8e9e1e15a63ec4b60b2708d95a  merge.py
+2a52674d12c7e43849b761d47cda7c5e65cc39c372836c5d28a6a46c04dcfcff  checks_extra.py
+dede996f129b1841d3c393a5565f741b0133a7d2a3cb38db69080dd6e78c01d0  analysis_leading.py
+d4fb6c4d02dc1e53a1d4c82c77014b412540cc9c4dec208cf6df521824add0be  analysis_points.py
+21bdd24923a1627200c7aae6efe12c050df33f8d3e7fe1a7b576b74c09b4c5d3  analysis_vacua.py
+830fb2963e980bdff133ad759360905e9d1690fcdbd5d08dce01743b281b20c3  summarize.py
+47258d0dd87168586d2beb6d8d6d4882fec99dede116954a6d2e17c6d5e567a1  step_a_v2.json
+ae3a00f1cac637a2248d660a012dbb45b5846c5985952c1f0d7bc2a7869736aa  step_a_v2_FGH.json
+bcbb5e984dc5fac35e0fd39e1c87b8e4ca268734586f65135403c26aaf6b321a  checks_extra.json
+0e58b3dc28e95a051df88bf1b05b9b74389be25ad02cb4fb2c16aac3cb3a36ba  analysis_leading_Z.json
+8e5353938b43579dc49c14c286f8bcffc8686f4322869ce188ba88ee7e5a0a52  analysis_leading_H.json
+fc4f3d065a18872917ac3411728b9aba8bd689562aea71c85d052d4156a19dde  analysis_leading_scan.json
+c333d4d88ba52fb3a029970e85108535606a1726dd564498244e1308ac64326b  analysis_points.json
+6b873bac6be74a278f2206e9e9b5096fabb3b7c9a721461501234ca14c1ce718  analysis_vacua.json
+db2429567a4a63c888ab8dc8422b9864a9212c422951d0b9854bf9b1fd36e175  summary.txt
+c8e993889b4abbc519969a98de83f227c93d37d73ae0001a83908e20e29752fd  step_a_v2_run_D.txt
+c811b78c50978c5d7a8e62930d5cbdb08e8b31a9eaf405f5a8d6e13bc3151f52  step_a_v2_run_D_crashed_overflow.txt
+edfe3fae82927bd12d3644a133561f4234cd849f7efc19f0aecf44fba32d2408  step_a_v2_run_FGH.txt
+
+# DESIGN.md after its last edit, 2026-10-30T11:32:53Z
+38b7550070e0dc3ef34c67b6cf651076ab66d5d991f0ea6021e3b04521c717af  DESIGN.md

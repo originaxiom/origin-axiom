@@ -54,6 +54,9 @@ at its hostile referee (§ 6): two blocking findings.
    - The residual m₂/m₃ ≤ 1.2 × 10⁻¹³ is the quadrature's asymmetry, scaling as 1/(2πL + c) (the referee's rf8).
 3. **At τ = i every listed direction except DR is a ∝ (1, 1, iκ) with κ real.**
    - κ = 2^{a/4} times F_a's sign; a₀ has κ = 2^{−1/2} (= F₋₂); R and t have κ = ∓√2.
+     > *2026-10-30 (B1824, PROVED): a₀ = η⁴F₋₂/6 at every τ, not only at i, so a₀ and F₋₂ are one direction and the
+     > thirteen listed directions are twelve distinct; on this table their 64 row pairs agree in every mass ratio to
+     > 1.6 × 10⁻¹⁶ (and in ∣V∣ and J where V is defined).*
    - The menu at i is therefore a geometric ladder in κ, with a symmetry κ → 2/κ. That is why a₀ ≡ F₆ there, and also
      F₋₆ ≡ F₁₀ and F₋₁₀ ≡ F₁₄.
    - **(i, 0):** the coupling's left singular basis does not depend on κ (to 10⁻¹³ over 48 values, the referee's rf3).

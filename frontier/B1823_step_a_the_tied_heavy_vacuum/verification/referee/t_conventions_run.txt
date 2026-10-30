@@ -1,0 +1,96 @@
+Z n=2 singlets sup  triplets N    tau0* = 0.5000+1.2440i  c_min +0.0115  Q eigs [0.      0.02129 0.04129]
+Z n=2 singlets sup  triplets cusp tau0* = 0.5000+1.2440i  c_min +0.0115  Q eigs [-0.       0.05419  0.65398]
+Z n=2 singlets cusp triplets N    tau0* = 0.0000+4.1168i  c_min -0.0561  Q eigs [-1.0649351e+02  0.0000000e+00  4.1100000e-03]
+Z n=2 singlets cusp triplets cusp tau0* = 0.0000+4.1168i  c_min -0.0561  Q eigs [-1.70389611e+03 -0.00000000e+00  1.03400000e-02]
+Z n=2 singlets L2   triplets N    tau0* = 0.0000+2.8139i  c_min -0.0518  Q eigs [-7.18952  0.       0.02633]
+Z n=2 singlets L2   triplets cusp tau0* = 0.0000+2.8139i  c_min -0.0518  Q eigs [-1.1503227e+02  0.0000000e+00  6.6350000e-02]
+Z n=3 singlets sup  triplets N    tau0* = 0.5000+1.2450i  c_min +0.0091  Q eigs [0.01127 0.02159 0.04755]
+Z n=3 singlets sup  triplets cusp tau0* = 0.5000+1.2450i  c_min +0.0091  Q eigs [0.00518 0.05447 0.6558 ]
+Z n=3 singlets cusp triplets N    tau0* = 0.0606+6.0000i  c_min -0.0561  Q eigs [-3.60910691e+03 -7.59900000e-02  6.25350000e-01]
+Z n=3 singlets cusp triplets cusp tau0* = 0.0145+6.0000i  c_min -0.0561  Q eigs [-5.77457105e+04 -1.91480000e-01  2.48170000e-01]
+Z n=3 singlets L2   triplets N    tau0* = 0.0000+3.8728i  c_min -0.0560  Q eigs [-6.622691e+01 -4.307000e-02  7.648000e-02]
+Z n=3 singlets L2   triplets cusp tau0* = 0.0000+3.8728i  c_min -0.0560  Q eigs [-1.05963069e+03 -1.08540000e-01  3.03500000e-02]
+Z n=4 singlets sup  triplets N    tau0* = 0.5000+1.2868i  c_min +0.0056  Q eigs [0.01458 0.04819 0.07237]
+Z n=4 singlets sup  triplets cusp tau0* = 0.5000+1.2868i  c_min +0.0056  Q eigs [0.01514 0.64226 5.23613]
+Z n=4 singlets cusp triplets N    tau0* = 0.3786+0.9256i  c_min -0.0205  Q eigs [-0.03573  0.08488  0.1354 ]
+Z n=4 singlets cusp triplets cusp tau0* = 0.3786+0.9256i  c_min -0.0205  Q eigs [-0.56174  0.14593  6.86693]
+Z n=4 singlets L2   triplets N    tau0* = 0.4999+4.6217i  c_min -0.0561  Q eigs [-2.79975040e+02 -5.30200000e-01  4.51481933e+04]
+Z n=4 singlets L2   triplets cusp tau0* = 0.4999+4.6217i  c_min -0.0561  Q eigs [-4.47960036e+03 -2.10410000e-01  4.58677895e+06]
+Z n=5 singlets sup  triplets N    tau0* = 0.3262+1.3187i  c_min +0.0069  Q eigs [0.04266 0.0868  0.10929]
+Z n=5 singlets sup  triplets cusp tau0* = 0.3262+1.3187i  c_min +0.0069  Q eigs [0.01827 0.59808 7.93691]
+Z n=5 singlets cusp triplets N    tau0* = 0.3794+0.9252i  c_min -0.0205  Q eigs [0.01558 0.09599 0.14566]
+Z n=5 singlets cusp triplets cusp tau0* = 0.3794+0.9252i  c_min -0.0205  Q eigs [-0.5585   0.14716  6.78274]
+Z n=5 singlets L2   triplets N    tau0* = 0.4999+4.5650i  c_min -0.0561  Q eigs [-6.48970594e+06 -2.51395230e+02  4.49372290e+04]
+Z n=5 singlets L2   triplets cusp tau0* = 0.5000+4.5650i  c_min -0.0561  Q eigs [-4.05606782e+05 -4.02232354e+03  4.56534610e+06]
+H n=2 singlets sup  triplets N    tau0* = 0.5000+1.2440i  c_min +0.0115  Q eigs [-0.       0.01708  1.17706]
+H n=2 singlets sup  triplets cusp tau0* = 0.5000+1.2440i  c_min +0.0115  Q eigs [0.      0.04278 1.18448]
+H n=2 singlets cusp triplets N    tau0* = 0.0000+4.1168i  c_min -0.0561  Q eigs [-2.000000e-05  0.000000e+00  5.733294e+01]
+H n=2 singlets cusp triplets cusp tau0* = 0.0000+4.1168i  c_min -0.0561  Q eigs [-5.000000e-05  0.000000e+00  5.714792e+01]
+H n=2 singlets L2   triplets N    tau0* = 0.0000+2.8139i  c_min -0.0518  Q eigs [-1.310000e-03 -0.000000e+00  2.401816e+01]
+H n=2 singlets L2   triplets cusp tau0* = 0.0000+2.8139i  c_min -0.0518  Q eigs [-3.340000e-03  0.000000e+00  2.382863e+01]
+H n=3 singlets sup  triplets N    tau0* = 0.5000+1.2450i  c_min +0.0091  Q eigs [0.015   0.02491 1.18994]
+H n=3 singlets sup  triplets cusp tau0* = 0.5000+1.2450i  c_min +0.0091  Q eigs [0.04049 0.31909 1.38789]
+H n=3 singlets cusp triplets N    tau0* = 0.0104+6.0000i  c_min -0.0561  Q eigs [-54906.82136     -0.         265.78777]
+H n=3 singlets cusp triplets cusp tau0* = 0.0203+6.0000i  c_min -0.0561  Q eigs [-54906.94282     -0.        4252.60435]
+H n=3 singlets L2   triplets N    tau0* = 0.0000+3.8728i  c_min -0.0560  Q eigs [-3.6177135e+02 -5.0000000e-05  3.5037100e+00]
+H n=3 singlets L2   triplets cusp tau0* = 0.0000+3.8728i  c_min -0.0560  Q eigs [-3.6196313e+02 -1.2000000e-04  5.6059430e+01]
+H n=4 singlets sup  triplets N    tau0* = 0.5000+1.2868i  c_min +0.0056  Q eigs [0.01756 0.037   1.33755]
+H n=4 singlets sup  triplets cusp tau0* = 0.5000+1.2868i  c_min +0.0056  Q eigs [0.03607 0.42464 1.5457 ]
+H n=4 singlets cusp triplets N    tau0* = 0.3786+0.9256i  c_min -0.0205  Q eigs [-0.03602  0.06843  3.57481]
+H n=4 singlets cusp triplets cusp tau0* = 0.3786+0.9256i  c_min -0.0205  Q eigs [-0.09108  0.25178  4.76133]
+H n=4 singlets L2   triplets N    tau0* = 0.5000+4.6217i  c_min -0.0561  Q eigs [-3.41738569e+03 -5.32122100e+01  1.78640000e-01]
+H n=4 singlets L2   triplets cusp tau0* = 0.4999+4.6217i  c_min -0.0561  Q eigs [-3.41755469e+03 -8.51395400e+02  7.08800000e-02]
+H n=5 singlets sup  triplets N    tau0* = 0.3262+1.3187i  c_min +0.0069  Q eigs [0.03293 0.08212 1.47078]
+H n=5 singlets sup  triplets cusp tau0* = 0.3262+1.3187i  c_min +0.0069  Q eigs [ 0.22478  1.18807 10.65926]
+H n=5 singlets cusp triplets N    tau0* = 0.3794+0.9252i  c_min -0.0205  Q eigs [-0.02005  0.14305  3.57574]
+H n=5 singlets cusp triplets cusp tau0* = 0.3794+0.9252i  c_min -0.0205  Q eigs [-0.02322  4.6842   9.53596]
+H n=5 singlets L2   triplets N    tau0* = 0.5000+4.5650i  c_min -0.0561  Q eigs [-2.77446416e+05 -4.27277900e+01  1.57140000e-01]
+H n=5 singlets L2   triplets cusp tau0* = 0.4999+4.5650i  c_min -0.0561  Q eigs [-2.78891516e+07 -6.83644580e+02  2.83700000e-02]
+Z 2 (sup, N) vs the draft's (sup, N) d_hyp 0.000  d_FS 0.000
+Z 2 (sup, cusp) vs the draft's (sup, N) d_hyp 0.000  d_FS 0.000
+Z 2 (cusp, N) vs the draft's (sup, N) d_hyp 1.213  d_FS 1.363
+Z 2 (cusp, cusp) vs the draft's (sup, N) d_hyp 1.213  d_FS 1.363
+Z 2 (L2, N) vs the draft's (sup, N) d_hyp 0.854  d_FS 1.363
+Z 2 (L2, cusp) vs the draft's (sup, N) d_hyp 0.854  d_FS 1.363
+Z 3 (sup, N) vs the draft's (sup, N) d_hyp 0.000  d_FS 0.000
+Z 3 (sup, cusp) vs the draft's (sup, N) d_hyp 0.000  d_FS 0.233
+Z 3 (cusp, N) vs the draft's (sup, N) d_hyp 1.578  d_FS 1.538
+Z 3 (cusp, cusp) vs the draft's (sup, N) d_hyp 1.579  d_FS 1.538
+Z 3 (L2, N) vs the draft's (sup, N) d_hyp 1.153  d_FS 1.538
+Z 3 (L2, cusp) vs the draft's (sup, N) d_hyp 1.153  d_FS 1.538
+Z 4 (sup, N) vs the draft's (sup, N) d_hyp 0.000  d_FS 0.000
+Z 4 (sup, cusp) vs the draft's (sup, N) d_hyp 0.000  d_FS 0.314
+Z 4 (cusp, N) vs the draft's (sup, N) d_hyp 0.347  d_FS 0.728
+Z 4 (cusp, cusp) vs the draft's (sup, N) d_hyp 0.347  d_FS 0.700
+Z 4 (L2, N) vs the draft's (sup, N) d_hyp 1.279  d_FS 1.395
+Z 4 (L2, cusp) vs the draft's (sup, N) d_hyp 1.279  d_FS 1.395
+Z 5 (sup, N) vs the draft's (sup, N) d_hyp 0.000  d_FS 0.000
+Z 5 (sup, cusp) vs the draft's (sup, N) d_hyp 0.000  d_FS 1.446
+Z 5 (cusp, N) vs the draft's (sup, N) d_hyp 0.358  d_FS 0.571
+Z 5 (cusp, cusp) vs the draft's (sup, N) d_hyp 0.358  d_FS 0.617
+Z 5 (L2, N) vs the draft's (sup, N) d_hyp 1.243  d_FS 1.386
+Z 5 (L2, cusp) vs the draft's (sup, N) d_hyp 1.243  d_FS 1.386
+H 2 (sup, N) vs the draft's (sup, N) d_hyp 0.000  d_FS 0.000
+H 2 (sup, cusp) vs the draft's (sup, N) d_hyp 0.000  d_FS 0.000
+H 2 (cusp, N) vs the draft's (sup, N) d_hyp 1.213  d_FS 1.194
+H 2 (cusp, cusp) vs the draft's (sup, N) d_hyp 1.213  d_FS 1.194
+H 2 (L2, N) vs the draft's (sup, N) d_hyp 0.854  d_FS 1.219
+H 2 (L2, cusp) vs the draft's (sup, N) d_hyp 0.854  d_FS 1.219
+H 3 (sup, N) vs the draft's (sup, N) d_hyp 0.000  d_FS 0.000
+H 3 (sup, cusp) vs the draft's (sup, N) d_hyp 0.000  d_FS 0.337
+H 3 (cusp, N) vs the draft's (sup, N) d_hyp 1.580  d_FS 1.053
+H 3 (cusp, cusp) vs the draft's (sup, N) d_hyp 1.579  d_FS 1.053
+H 3 (L2, N) vs the draft's (sup, N) d_hyp 1.153  d_FS 1.061
+H 3 (L2, cusp) vs the draft's (sup, N) d_hyp 1.153  d_FS 1.061
+H 4 (sup, N) vs the draft's (sup, N) d_hyp 0.000  d_FS 0.000
+H 4 (sup, cusp) vs the draft's (sup, N) d_hyp 0.000  d_FS 0.122
+H 4 (cusp, N) vs the draft's (sup, N) d_hyp 0.347  d_FS 0.311
+H 4 (cusp, cusp) vs the draft's (sup, N) d_hyp 0.347  d_FS 0.269
+H 4 (L2, N) vs the draft's (sup, N) d_hyp 1.279  d_FS 0.918
+H 4 (L2, cusp) vs the draft's (sup, N) d_hyp 1.279  d_FS 0.918
+H 5 (sup, N) vs the draft's (sup, N) d_hyp 0.000  d_FS 0.000
+H 5 (sup, cusp) vs the draft's (sup, N) d_hyp 0.000  d_FS 0.255
+H 5 (cusp, N) vs the draft's (sup, N) d_hyp 0.358  d_FS 0.656
+H 5 (cusp, cusp) vs the draft's (sup, N) d_hyp 0.358  d_FS 0.437
+H 5 (L2, N) vs the draft's (sup, N) d_hyp 1.243  d_FS 1.174
+H 5 (L2, cusp) vs the draft's (sup, N) d_hyp 1.243  d_FS 1.174

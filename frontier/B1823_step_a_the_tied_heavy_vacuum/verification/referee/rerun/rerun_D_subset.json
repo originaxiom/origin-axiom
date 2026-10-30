@@ -1,0 +1,106 @@
+[
+ {
+  "config": [
+   "Z",
+   2,
+   0.5,
+   0.005,
+   0.3,
+   "N"
+  ],
+  "tau": [
+   -0.5,
+   1.2440242580583776
+  ],
+  "tau_draft": [
+   -0.5,
+   1.2440242580583776
+  ],
+  "V": -0.02946799963248221,
+  "V_draft": -0.02946799963248221,
+  "isolated": true,
+  "isolated_draft": true,
+  "n_flat": 0,
+  "n_flat_draft": 0,
+  "free_rank": 1,
+  "free_rank_draft": 1
+ },
+ {
+  "config": [
+   "H",
+   2,
+   0.8,
+   0.008,
+   0.3,
+   "N"
+  ],
+  "tau": [
+   0.40528643146743787,
+   1.2305604955115317
+  ],
+  "tau_draft": [
+   0.40528643146743787,
+   1.2305604955115317
+  ],
+  "V": -0.07400761148183395,
+  "V_draft": -0.07400761148183395,
+  "isolated": true,
+  "isolated_draft": true,
+  "n_flat": 0,
+  "n_flat_draft": 0,
+  "free_rank": 2,
+  "free_rank_draft": 2
+ },
+ {
+  "config": [
+   "Z",
+   2,
+   0.3,
+   0.003,
+   0.3,
+   "N"
+  ],
+  "tau": [
+   -2.016397262331313e-19,
+   2.6537360137727948
+  ],
+  "tau_draft": [
+   -2.016397262331313e-19,
+   2.6537360137727948
+  ],
+  "V": -0.006849389310352735,
+  "V_draft": -0.006849389310352735,
+  "isolated": false,
+  "isolated_draft": false,
+  "n_flat": 1,
+  "n_flat_draft": 1,
+  "free_rank": null,
+  "free_rank_draft": null
+ },
+ {
+  "config": [
+   "Z",
+   4,
+   0.5,
+   0.005,
+   0.3,
+   "N"
+  ],
+  "tau": [
+   -0.5,
+   1.2739964671410413
+  ],
+  "tau_draft": [
+   -0.5,
+   1.2739964671410413
+  ],
+  "V": -0.0484794462586237,
+  "V_draft": -0.0484794462586237,
+  "isolated": true,
+  "isolated_draft": true,
+  "n_flat": 0,
+  "n_flat_draft": 0,
+  "free_rank": 3,
+  "free_rank_draft": 3
+ }
+]

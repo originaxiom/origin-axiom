@@ -1,0 +1,6742 @@
+{
+ "changed": [
+  [
+   [
+    "H",
+    "N",
+    "sup",
+    3,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "UNCONVERGED",
+   "flat0",
+   "UNCONVERGED",
+   "flat1",
+   [
+    0.006315882891174102,
+    3.6171399180434833
+   ],
+   [
+    2.5745589317428948e-08,
+    3.6171399184715978
+   ],
+   null
+  ],
+  [
+   [
+    "H",
+    "cusp",
+    "cusp",
+    1,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "UNCONVERGED",
+   "flat3",
+   "UNCONVERGED",
+   "flat3",
+   [
+    0.028584831486157432,
+    4.116808863822761
+   ],
+   [
+    1.1365724990120166e-05,
+    4.116808875072924
+   ],
+   null
+  ],
+  [
+   [
+    "H",
+    "cusp",
+    "cusp",
+    2,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "UNCONVERGED",
+   "flat1",
+   "UNCONVERGED",
+   "flat1",
+   [
+    0.014191704506396908,
+    4.11657214472304
+   ],
+   [
+    0.48900452006692346,
+    4.116572150081899
+   ],
+   null
+  ],
+  [
+   [
+    "H",
+    "cusp",
+    "cusp",
+    5,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "ISOLATED",
+   "iso",
+   "RUNAWAY(interior ISOLATED)",
+   "iso",
+   [
+    0.3797767680662904,
+    0.925078162339336
+   ],
+   [
+    0.3797767680662904,
+    0.925078162339336
+   ],
+   {
+    "V": 3.9507698647371003,
+    "tau": [
+     0.35796247599819253,
+     7.416487810870855
+    ],
+    "note": "the lowest point found lies deep in the cusp (Im tau > 6): no interior global minimum"
+   }
+  ],
+  [
+   [
+    "Z",
+    "N",
+    "sup",
+    2,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "FLAT(1)",
+   "flat1",
+   "UNRESOLVED",
+   "flat1",
+   [
+    3.0090749067652694e-19,
+    2.6537360137727948
+   ],
+   [
+    2.2959748142383334e-20,
+    2.6537360137727948
+   ],
+   null
+  ],
+  [
+   [
+    "Z",
+    "cusp",
+    "cusp",
+    1,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "UNCONVERGED",
+   "flat2",
+   "UNCONVERGED",
+   "flat2",
+   [
+    0.08627074545183018,
+    4.116809096416173
+   ],
+   [
+    0.01668860357994918,
+    4.116808865194537
+   ],
+   null
+  ],
+  [
+   [
+    "Z",
+    "cusp",
+    "cusp",
+    2,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "UNRESOLVED",
+   "flat2",
+   "UNCONVERGED",
+   "flat1",
+   [
+    8.862101490745008e-15,
+    4.116808873442643
+   ],
+   [
+    0.0010849322686875662,
+    4.116808873439716
+   ],
+   null
+  ]
+ ],
+ "per_n": {
+  "1": {
+   "draft": {
+    "primary": "0/18",
+    "passes": false,
+    "m0_check": "0/2",
+    "cusp": [
+     "UNCONVERGED",
+     "UNCONVERGED"
+    ]
+   },
+   "rerun": {
+    "primary": "0/18",
+    "passes": false,
+    "m0_check": "0/2",
+    "cusp": [
+     "UNCONVERGED",
+     "UNCONVERGED"
+    ]
+   }
+  },
+  "2": {
+   "draft": {
+    "primary": "15/18",
+    "passes": false,
+    "m0_check": "2/2",
+    "cusp": [
+     "UNCONVERGED",
+     "UNRESOLVED"
+    ]
+   },
+   "rerun": {
+    "primary": "15/18",
+    "passes": false,
+    "m0_check": "2/2",
+    "cusp": [
+     "UNCONVERGED",
+     "UNCONVERGED"
+    ]
+   }
+  },
+  "3": {
+   "draft": {
+    "primary": "16/18",
+    "passes": false,
+    "m0_check": "2/2",
+    "cusp": [
+     "RUNAWAY(interior ISOLATED)",
+     "RUNAWAY(interior ISOLATED)"
+    ]
+   },
+   "rerun": {
+    "primary": "16/18",
+    "passes": false,
+    "m0_check": "2/2",
+    "cusp": [
+     "RUNAWAY(interior ISOLATED)",
+     "RUNAWAY(interior ISOLATED)"
+    ]
+   }
+  },
+  "4": {
+   "draft": {
+    "primary": "18/18",
+    "passes": true,
+    "m0_check": "2/2",
+    "cusp": [
+     "RUNAWAY(interior ISOLATED)",
+     "ISOLATED"
+    ]
+   },
+   "rerun": {
+    "primary": "18/18",
+    "passes": true,
+    "m0_check": "2/2",
+    "cusp": [
+     "RUNAWAY(interior ISOLATED)",
+     "ISOLATED"
+    ]
+   }
+  },
+  "5": {
+   "draft": {
+    "primary": "18/18",
+    "passes": true,
+    "m0_check": "2/2",
+    "cusp": [
+     "ISOLATED",
+     "ISOLATED"
+    ]
+   },
+   "rerun": {
+    "primary": "18/18",
+    "passes": true,
+    "m0_check": "2/2",
+    "cusp": [
+     "RUNAWAY(interior ISOLATED)",
+     "ISOLATED"
+    ]
+   }
+  },
+  "6": {
+   "draft": {
+    "primary": "18/18",
+    "passes": true,
+    "m0_check": "2/2",
+    "cusp": [
+     "ISOLATED",
+     "ISOLATED(weak)"
+    ]
+   },
+   "rerun": {
+    "primary": "18/18",
+    "passes": true,
+    "m0_check": "2/2",
+    "cusp": [
+     "ISOLATED",
+     "ISOLATED(weak)"
+    ]
+   }
+  },
+  "7": {
+   "draft": {
+    "primary": "18/18",
+    "passes": true,
+    "m0_check": "2/2",
+    "cusp": [
+     "ISOLATED",
+     "ISOLATED(weak)"
+    ]
+   },
+   "rerun": {
+    "primary": "18/18",
+    "passes": true,
+    "m0_check": "2/2",
+    "cusp": [
+     "ISOLATED",
+     "ISOLATED(weak)"
+    ]
+   }
+  },
+  "8": {
+   "draft": {
+    "primary": "18/18",
+    "passes": true,
+    "m0_check": "2/2",
+    "cusp": [
+     "ISOLATED",
+     "ISOLATED"
+    ]
+   },
+   "rerun": {
+    "primary": "18/18",
+    "passes": true,
+    "m0_check": "2/2",
+    "cusp": [
+     "ISOLATED",
+     "ISOLATED"
+    ]
+   }
+  }
+ },
+ "rows": [
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    1,
+    0.3,
+    0.003,
+    0.1
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.3014871226702675,
+     0.9534702485468558
+    ],
+    "V": -0.005377299198386189,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.3014871226702675,
+     0.9534702485468558
+    ],
+    "V": -0.005377299198386189,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    1,
+    0.3,
+    0.003,
+    0.3
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.3014871226702675,
+     0.9534702485468558
+    ],
+    "V": -0.005377299198386189,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.3014871226702675,
+     0.9534702485468558
+    ],
+    "V": -0.005377299198386189,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    1,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.3014871226702675,
+     0.9534702485468558
+    ],
+    "V": -0.005377299198386189,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.3014871226702675,
+     0.9534702485468558
+    ],
+    "V": -0.005377299198386189,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    1,
+    0.5,
+    0.005,
+    0.1
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4304444578239266,
+     1.1782189367804918
+    ],
+    "V": -0.014999937499973958,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4304444578239266,
+     1.1782189367804918
+    ],
+    "V": -0.014999937499973958,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    1,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4304444578239266,
+     1.1782189367804918
+    ],
+    "V": -0.014999937499973958,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4304444578239266,
+     1.1782189367804918
+    ],
+    "V": -0.014999937499973958,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    1,
+    0.5,
+    0.005,
+    1.0
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4304444578239266,
+     1.1782189367804918
+    ],
+    "V": -0.014999937499973958,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4304444578239266,
+     1.1782189367804918
+    ],
+    "V": -0.014999937499973958,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    1,
+    0.5,
+    0.05,
+    0.3
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4072714332365435,
+     1.159976904203037
+    ],
+    "V": -0.14993749739516132,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4072714332365435,
+     1.159976904203037
+    ],
+    "V": -0.14993749739516132,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    1,
+    0.8,
+    0.008,
+    0.1
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     -0.5,
+     1.4060557122109067
+    ],
+    "V": -0.03822786217082175,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     -0.5,
+     1.4060557122109067
+    ],
+    "V": -0.03822786217082175,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    1,
+    0.8,
+    0.008,
+    0.3
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     -0.5,
+     1.4060557122109067
+    ],
+    "V": -0.03822786217082175,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     -0.5,
+     1.4060557122109067
+    ],
+    "V": -0.03822786217082175,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    1,
+    0.8,
+    0.008,
+    1.0
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     -0.5,
+     1.4060557122109067
+    ],
+    "V": -0.03822786217082175,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     -0.5,
+     1.4060557122109067
+    ],
+    "V": -0.03822786217082175,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    2,
+    0.3,
+    0.003,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2534441355743107
+    ],
+    "V": -0.006795080274503025,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2534441355743107
+    ],
+    "V": -0.006795080274503025,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    2,
+    0.3,
+    0.003,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2534441355743107
+    ],
+    "V": -0.006795080274503025,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2534441355743107
+    ],
+    "V": -0.006795080274503025,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    2,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2534441355743107
+    ],
+    "V": -0.006795080274503025,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2534441355743107
+    ],
+    "V": -0.006795080274503025,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    2,
+    0.5,
+    0.005,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2440242580583776
+    ],
+    "V": -0.02946799963248221,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2440242580583776
+    ],
+    "V": -0.02946799963248221,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    2,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2440242580583776
+    ],
+    "V": -0.02946799963248221,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2440242580583776
+    ],
+    "V": -0.02946799963248221,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    2,
+    0.5,
+    0.005,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2440242580583776
+    ],
+    "V": -0.02946799963248221,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2440242580583776
+    ],
+    "V": -0.02946799963248221,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    2,
+    0.5,
+    0.05,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2448000032027882
+    ],
+    "V": -0.2920242240828635,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2448000032027882
+    ],
+    "V": -0.2920242240828635,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    2,
+    0.8,
+    0.008,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.40528643146743787,
+     1.2305604955115317
+    ],
+    "V": -0.07400761148183395,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.40528643146743787,
+     1.2305604955115317
+    ],
+    "V": -0.07400761148183395,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    2,
+    0.8,
+    0.008,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.40528643146743787,
+     1.2305604955115317
+    ],
+    "V": -0.07400761148183395,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.40528643146743787,
+     1.2305604955115317
+    ],
+    "V": -0.07400761148183395,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    2,
+    0.8,
+    0.008,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.40528643146743787,
+     1.2305604955115317
+    ],
+    "V": -0.07400761148183395,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.40528643146743787,
+     1.2305604955115317
+    ],
+    "V": -0.07400761148183395,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    3,
+    0.3,
+    0.003,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.1974170313198247
+    ],
+    "V": -0.011069432421301786,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.1974170313198247
+    ],
+    "V": -0.011069432421301786,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    3,
+    0.3,
+    0.003,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.163477669761518
+    ],
+    "V": -0.010074618303426184,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.163477669761518
+    ],
+    "V": -0.010074618303426184,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    3,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "draft": {
+    "plan": "flat0",
+    "refined": "UNCONVERGED",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.006315882891174102,
+     3.6171399180434833
+    ],
+    "V": -0.006035936711892174,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat1",
+    "refined": "UNCONVERGED",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     2.5745589317428948e-08,
+     3.6171399184715978
+    ],
+    "V": -0.0060359389771228525,
+    "runaway_at": null
+   },
+   "same_tau": false
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    3,
+    0.5,
+    0.005,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2460025498874243
+    ],
+    "V": -0.042590927423220105,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2460025498874243
+    ],
+    "V": -0.042590927423220105,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    3,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2570877558103424
+    ],
+    "V": -0.04137481488777223,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2570877558103424
+    ],
+    "V": -0.04137481488777223,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    3,
+    0.5,
+    0.005,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.038788034639386
+    ],
+    "V": -0.03249429324931113,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.038788034639386
+    ],
+    "V": -0.03249429324931113,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    3,
+    0.5,
+    0.05,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2505587602826258
+    ],
+    "V": -0.4128784637982431,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2505587602826258
+    ],
+    "V": -0.4128784637982431,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    3,
+    0.8,
+    0.008,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2876742657377274
+    ],
+    "V": -0.10459527351674427,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2876742657377274
+    ],
+    "V": -0.10459527351674427,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    3,
+    0.8,
+    0.008,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.3039800635467131
+    ],
+    "V": -0.1036573187594075,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.3039800635467131
+    ],
+    "V": -0.1036573187594075,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    3,
+    0.8,
+    0.008,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.5914247394699104
+    ],
+    "V": -0.09575004273214582,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.5914247394699104
+    ],
+    "V": -0.09575004273214582,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    4,
+    0.3,
+    0.003,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.1865259847055283
+    ],
+    "V": -0.012910839253920952,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.1865259847055283
+    ],
+    "V": -0.012910839253920952,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    4,
+    0.3,
+    0.003,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.1310425033101028
+    ],
+    "V": -0.011417315406705233,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.1310425033101028
+    ],
+    "V": -0.011417315406705233,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    4,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.0019295924336205
+    ],
+    "V": 0.0035584551987030096,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.0019295924336205
+    ],
+    "V": 0.0035584551987030096,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    4,
+    0.5,
+    0.005,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2891676258278626
+    ],
+    "V": -0.04962900419469963,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2891676258278626
+    ],
+    "V": -0.04962900419469963,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    4,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.3085433574612764
+    ],
+    "V": -0.04819623655958507,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.3085433574612764
+    ],
+    "V": -0.04819623655958507,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    4,
+    0.5,
+    0.005,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.4103515149831094
+    ],
+    "V": -0.027874779449541833,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.4103515149831094
+    ],
+    "V": -0.027874779449541833,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    4,
+    0.5,
+    0.05,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2866380593920934
+    ],
+    "V": -0.48949257684258235,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2866380593920934
+    ],
+    "V": -0.48949257684258235,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    4,
+    0.8,
+    0.008,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.3970242984114853
+    ],
+    "V": -0.12381801046577061,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.3970242984114853
+    ],
+    "V": -0.12381801046577061,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    4,
+    0.8,
+    0.008,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.4221063581621478
+    ],
+    "V": -0.12317099480139185,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.4221063581621478
+    ],
+    "V": -0.12317099480139185,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    4,
+    0.8,
+    0.008,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.476693748349034
+    ],
+    "V": -0.10608950505443406,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.476693748349034
+    ],
+    "V": -0.10608950505443406,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    5,
+    0.3,
+    0.003,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3265667690960828,
+     1.1527041810049188
+    ],
+    "V": -0.014725922838205908,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3265667690960828,
+     1.1527041810049188
+    ],
+    "V": -0.014725922838205908,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    5,
+    0.3,
+    0.003,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.33901296653241064,
+     1.1257874483416317
+    ],
+    "V": -0.013010457533742198,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.33901296653241064,
+     1.1257874483416317
+    ],
+    "V": -0.013010457533742198,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    5,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.34454466016935514,
+     0.9387699276972945
+    ],
+    "V": 0.008375543533071657,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.34454466016935514,
+     0.9387699276972945
+    ],
+    "V": 0.008375543533071657,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    5,
+    0.5,
+    0.005,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3354000385923755,
+     1.3102044289325108
+    ],
+    "V": -0.06088533796882325,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3354000385923755,
+     1.3102044289325108
+    ],
+    "V": -0.06088533796882325,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    5,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3834549741969203,
+     1.2656172346403283
+    ],
+    "V": -0.05841034990768089,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3834549741969203,
+     1.2656172346403283
+    ],
+    "V": -0.05841034990768089,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    5,
+    0.5,
+    0.005,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.097399484643032
+    ],
+    "V": -0.029921580475122875,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.097399484643032
+    ],
+    "V": -0.029921580475122875,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    5,
+    0.5,
+    0.05,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.38707663148432403,
+     1.2415535894917835
+    ],
+    "V": -0.5937507944652769,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.38707663148432403,
+     1.2415535894917835
+    ],
+    "V": -0.5937507944652769,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    5,
+    0.8,
+    0.008,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.1213824534041089,
+     1.5478672715188702
+    ],
+    "V": -0.1584441970228437,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.1213824534041089,
+     1.5478672715188702
+    ],
+    "V": -0.1584441970228437,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    5,
+    0.8,
+    0.008,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.4227595962651156,
+     1.4240546851521934
+    ],
+    "V": -0.15473630250714376,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.4227595962651156,
+     1.4240546851521934
+    ],
+    "V": -0.15473630250714376,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    5,
+    0.8,
+    0.008,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2040657099926713
+    ],
+    "V": -0.11871448242286442,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2040657099926713
+    ],
+    "V": -0.11871448242286442,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    6,
+    0.3,
+    0.003,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.35728554589058165,
+     1.1233599938741141
+    ],
+    "V": -0.016066295863068437,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.35728554589058165,
+     1.1233599938741141
+    ],
+    "V": -0.016066295863068437,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    6,
+    0.3,
+    0.003,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.36130109500971275,
+     1.0851384643105084
+    ],
+    "V": -0.014321186598136347,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.36130109500971275,
+     1.0851384643105084
+    ],
+    "V": -0.014321186598136347,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    6,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.36000218491349106,
+     0.9329514600757708
+    ],
+    "V": 0.006702677700661799,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.36000218491349106,
+     0.9329514600757708
+    ],
+    "V": 0.006702677700661799,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    6,
+    0.5,
+    0.005,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3756185914626573,
+     1.3334400674819364
+    ],
+    "V": -0.06648288983504817,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3756185914626573,
+     1.3334400674819364
+    ],
+    "V": -0.06648288983504817,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    6,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2284648980721034
+    ],
+    "V": -0.06315461679331942,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2284648980721034
+    ],
+    "V": -0.06315461679331942,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    6,
+    0.5,
+    0.005,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.0622257488593692
+    ],
+    "V": -0.034765114491002606,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.0622257488593692
+    ],
+    "V": -0.034765114491002606,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    6,
+    0.5,
+    0.05,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.4712595779984354,
+     1.2063198338100853
+    ],
+    "V": -0.6564920431693522,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.4712595779984354,
+     1.2063198338100853
+    ],
+    "V": -0.6564920431693522,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    6,
+    0.8,
+    0.008,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -1.752637343781459e-21,
+     1.656425658196535
+    ],
+    "V": -0.17669431718456224,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -2.761372247302706e-22,
+     1.656425658196535
+    ],
+    "V": -0.17669431718456224,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    6,
+    0.8,
+    0.008,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.3859320560733555
+    ],
+    "V": -0.1684366384944384,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.3859320560733555
+    ],
+    "V": -0.1684366384944384,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    6,
+    0.8,
+    0.008,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.4952744206608316,
+     1.10642365196527
+    ],
+    "V": -0.1298014071235404,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.4952744206608316,
+     1.10642365196527
+    ],
+    "V": -0.1298014071235404,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    7,
+    0.3,
+    0.003,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2639999913736811,
+     1.078911352547886
+    ],
+    "V": -0.019180153145313752,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2639999913736811,
+     1.078911352547886
+    ],
+    "V": -0.019180153145313752,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    7,
+    0.3,
+    0.003,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2560659743563164,
+     0.9666593075002953
+    ],
+    "V": -0.01717734241880341,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2560659743563164,
+     0.9666593075002953
+    ],
+    "V": -0.01717734241880341,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    7,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.32769414752567483,
+     0.9447838618845166
+    ],
+    "V": 0.006730262967668536,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.32769414752567483,
+     0.9447838618845166
+    ],
+    "V": 0.006730262967668536,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    7,
+    0.5,
+    0.005,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.1943698629279103,
+     1.35971063903369
+    ],
+    "V": -0.07959713735503601,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.1943698629279103,
+     1.35971063903369
+    ],
+    "V": -0.07959713735503601,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    7,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.29319107227420677,
+     1.2117897725633504
+    ],
+    "V": -0.07433538266621496,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.29319107227420677,
+     1.2117897725633504
+    ],
+    "V": -0.07433538266621496,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    7,
+    0.5,
+    0.005,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3219347877112561,
+     0.9467618456936826
+    ],
+    "V": -0.043823326502380286,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3219347877112561,
+     0.9467618456936826
+    ],
+    "V": -0.043823326502380286,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    7,
+    0.5,
+    0.05,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.29456560626551,
+     1.1853502515919707
+    ],
+    "V": -0.7689695990618316,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.29456560626551,
+     1.1853502515919707
+    ],
+    "V": -0.7689695990618316,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    7,
+    0.8,
+    0.008,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -2.977005152591825e-21,
+     1.6077126013469927
+    ],
+    "V": -0.21438441944806882,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     1.4204719256751262e-21,
+     1.6077126013469927
+    ],
+    "V": -0.21438441944806882,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    7,
+    0.8,
+    0.008,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.33671427666171233,
+     1.358873457084401
+    ],
+    "V": -0.2015296939900852,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.33671427666171233,
+     1.358873457084401
+    ],
+    "V": -0.2015296939900852,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    7,
+    0.8,
+    0.008,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.35032409551850163,
+     1.0562669951324564
+    ],
+    "V": -0.15480162820425805,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.35032409551850163,
+     1.0562669951324564
+    ],
+    "V": -0.15480162820425805,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    8,
+    0.3,
+    0.003,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2597037778194005,
+     1.160145976048298
+    ],
+    "V": -0.020519151374499583,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2597037778194005,
+     1.160145976048298
+    ],
+    "V": -0.020519151374499583,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    8,
+    0.3,
+    0.003,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2753932074807797,
+     1.096693962965797
+    ],
+    "V": -0.018745307663396667,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2753932074807797,
+     1.096693962965797
+    ],
+    "V": -0.018745307663396667,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    8,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3362540620622006,
+     0.9417713128709484
+    ],
+    "V": 0.0051336111508146366,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3362540620622006,
+     0.9417713128709484
+    ],
+    "V": 0.0051336111508146366,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    8,
+    0.5,
+    0.005,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.21047372413602852,
+     1.3573929554931583
+    ],
+    "V": -0.08689808971506,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.21047372413602852,
+     1.3573929554931583
+    ],
+    "V": -0.08689808971506,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    8,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.29708352342655364,
+     1.1981146476905231
+    ],
+    "V": -0.0806678580789414,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.29708352342655364,
+     1.1981146476905231
+    ],
+    "V": -0.0806678580789414,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    8,
+    0.5,
+    0.005,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3484381128265217,
+     1.0160429963119744
+    ],
+    "V": -0.04812194071029202,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3484381128265217,
+     1.0160429963119744
+    ],
+    "V": -0.04812194071029202,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    8,
+    0.5,
+    0.05,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.29630973144197414,
+     1.186848091923127
+    ],
+    "V": -0.845846066827304,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.29630973144197414,
+     1.186848091923127
+    ],
+    "V": -0.845846066827304,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    8,
+    0.8,
+    0.008,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2850714204890043,
+     1.4415900578049885
+    ],
+    "V": -0.22912881769274607,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2850714204890043,
+     1.4415900578049885
+    ],
+    "V": -0.22912881769274607,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    8,
+    0.8,
+    0.008,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.33032932433199513,
+     1.2696754483354102
+    ],
+    "V": -0.21348929387365267,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.33032932433199513,
+     1.2696754483354102
+    ],
+    "V": -0.21348929387365267,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "N",
+    "sup",
+    8,
+    0.8,
+    0.008,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.35306879021627097,
+     1.0702128743389958
+    ],
+    "V": -0.16934511284117906,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.35306879021627097,
+     1.0702128743389958
+    ],
+    "V": -0.16934511284117906,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "cusp",
+    "cusp",
+    1,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "flat3",
+    "refined": "UNCONVERGED",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.028584831486157432,
+     4.116808863822761
+    ],
+    "V": -0.006001159617057913,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat3",
+    "refined": "UNCONVERGED",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     1.1365724990120166e-05,
+     4.116808875072924
+    ],
+    "V": -0.006001159617156556,
+    "runaway_at": null
+   },
+   "same_tau": false
+  },
+  {
+   "config": [
+    "H",
+    "cusp",
+    "cusp",
+    2,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "flat1",
+    "refined": "UNCONVERGED",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.014191704506396908,
+     4.11657214472304
+    ],
+    "V": -0.006463836499218646,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat1",
+    "refined": "UNCONVERGED",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.48900452006692346,
+     4.116572150081899
+    ],
+    "V": -0.0064638364869028225,
+    "runaway_at": null
+   },
+   "same_tau": false
+  },
+  {
+   "config": [
+    "H",
+    "cusp",
+    "cusp",
+    3,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "RUNAWAY(interior ISOLATED)",
+    "runaway": true,
+    "sealed_pass": false,
+    "tau": [
+     0.030683725632067376,
+     0.9995291436378111
+    ],
+    "V": 0.065509152688514,
+    "runaway_at": {
+     "V": -0.015915888515510117,
+     "tau": [
+      0.4597198945559837,
+      6.162900338738718
+     ],
+     "note": "the lowest point found lies deep in the cusp (Im tau > 6): no interior global minimum"
+    }
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "RUNAWAY(interior ISOLATED)",
+    "runaway": true,
+    "sealed_pass": false,
+    "tau": [
+     0.030683725632067376,
+     0.9995291436378111
+    ],
+    "V": 0.065509152688514,
+    "runaway_at": {
+     "V": -0.015915892756678186,
+     "tau": [
+      0.15204308900934113,
+      6.162893477526715
+     ],
+     "note": "the lowest point found lies deep in the cusp (Im tau > 6): no interior global minimum"
+    }
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "cusp",
+    "cusp",
+    4,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "RUNAWAY(interior ISOLATED)",
+    "runaway": true,
+    "sealed_pass": false,
+    "tau": [
+     0.37856515023303644,
+     0.9255746469242978
+    ],
+    "V": 4.761215854855763,
+    "runaway_at": {
+     "V": 0.5315286813826147,
+     "tau": [
+      0.44276822672014315,
+      7.4833116164016475
+     ],
+     "note": "the lowest point found lies deep in the cusp (Im tau > 6): no interior global minimum"
+    }
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "RUNAWAY(interior ISOLATED)",
+    "runaway": true,
+    "sealed_pass": false,
+    "tau": [
+     0.37856515023303644,
+     0.9255746469242978
+    ],
+    "V": 4.761215854855763,
+    "runaway_at": {
+     "V": 0.5315286689649992,
+     "tau": [
+      0.34751663411764433,
+      7.483338680657486
+     ],
+     "note": "the lowest point found lies deep in the cusp (Im tau > 6): no interior global minimum"
+    }
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "cusp",
+    "cusp",
+    5,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3797767680662904,
+     0.925078162339336
+    ],
+    "V": 5.3918168758046825,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "RUNAWAY(interior ISOLATED)",
+    "runaway": true,
+    "sealed_pass": false,
+    "tau": [
+     0.3797767680662904,
+     0.925078162339336
+    ],
+    "V": 5.3918168758046825,
+    "runaway_at": {
+     "V": 3.9507698647371003,
+     "tau": [
+      0.35796247599819253,
+      7.416487810870855
+     ],
+     "note": "the lowest point found lies deep in the cusp (Im tau > 6): no interior global minimum"
+    }
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "cusp",
+    "cusp",
+    6,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.4953190420986711,
+     0.8687111410212573
+    ],
+    "V": 5.876885957582517,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.4953190420986711,
+     0.8687111410212573
+    ],
+    "V": 5.876885957582517,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "cusp",
+    "cusp",
+    7,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.4951754185753147,
+     0.868793016108418
+    ],
+    "V": 6.582134486118348,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.4951754185753147,
+     0.868793016108418
+    ],
+    "V": 6.582134486118348,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "H",
+    "cusp",
+    "cusp",
+    8,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.49472547677072104,
+     0.8690493096677442
+    ],
+    "V": 6.57266339649947,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.49472547677072104,
+     0.8690493096677442
+    ],
+    "V": 6.57266339649947,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    1,
+    0.3,
+    0.003,
+    0.1
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.3014871226702675,
+     0.9534702485468558
+    ],
+    "V": -0.005377299198386189,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.3014871226702675,
+     0.9534702485468558
+    ],
+    "V": -0.005377299198386189,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    1,
+    0.3,
+    0.003,
+    0.3
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.3014871226702675,
+     0.9534702485468558
+    ],
+    "V": -0.005377299198386189,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.3014871226702675,
+     0.9534702485468558
+    ],
+    "V": -0.005377299198386189,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    1,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.3014871226702675,
+     0.9534702485468558
+    ],
+    "V": -0.005377299198386189,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.3014871226702675,
+     0.9534702485468558
+    ],
+    "V": -0.005377299198386189,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    1,
+    0.5,
+    0.005,
+    0.1
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4304444578239266,
+     1.1782189367804918
+    ],
+    "V": -0.014999937499973958,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4304444578239266,
+     1.1782189367804918
+    ],
+    "V": -0.014999937499973958,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    1,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4304444578239266,
+     1.1782189367804918
+    ],
+    "V": -0.014999937499973958,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4304444578239266,
+     1.1782189367804918
+    ],
+    "V": -0.014999937499973958,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    1,
+    0.5,
+    0.005,
+    1.0
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4304444578239266,
+     1.1782189367804918
+    ],
+    "V": -0.014999937499973958,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4304444578239266,
+     1.1782189367804918
+    ],
+    "V": -0.014999937499973958,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    1,
+    0.5,
+    0.05,
+    0.3
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4072714332365435,
+     1.159976904203037
+    ],
+    "V": -0.14993749739516132,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4072714332365435,
+     1.159976904203037
+    ],
+    "V": -0.14993749739516132,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    1,
+    0.8,
+    0.008,
+    0.1
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     -0.5,
+     1.4060557122109067
+    ],
+    "V": -0.03822786217082175,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     -0.5,
+     1.4060557122109067
+    ],
+    "V": -0.03822786217082175,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    1,
+    0.8,
+    0.008,
+    0.3
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     -0.5,
+     1.4060557122109067
+    ],
+    "V": -0.03822786217082175,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     -0.5,
+     1.4060557122109067
+    ],
+    "V": -0.03822786217082175,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    1,
+    0.8,
+    0.008,
+    1.0
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     -0.5,
+     1.4060557122109067
+    ],
+    "V": -0.03822786217082175,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "FLAT(2)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     -0.5,
+     1.4060557122109067
+    ],
+    "V": -0.03822786217082175,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    2,
+    0.3,
+    0.003,
+    0.1
+   ],
+   "draft": {
+    "plan": "flat1",
+    "refined": "FLAT(1)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     4.3977009930640626e-18,
+     2.6537360137727948
+    ],
+    "V": -0.006849389310352735,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat1",
+    "refined": "FLAT(1)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     1.809714053847731e-20,
+     2.6537360137727948
+    ],
+    "V": -0.006849389310352735,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    2,
+    0.3,
+    0.003,
+    0.3
+   ],
+   "draft": {
+    "plan": "flat1",
+    "refined": "FLAT(1)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     -2.016397262331313e-19,
+     2.6537360137727948
+    ],
+    "V": -0.006849389310352735,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat1",
+    "refined": "FLAT(1)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     3.2061077217744773e-20,
+     2.6537360137727948
+    ],
+    "V": -0.006849389310352735,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    2,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "draft": {
+    "plan": "flat1",
+    "refined": "FLAT(1)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     3.0090749067652694e-19,
+     2.6537360137727948
+    ],
+    "V": -0.006849389310352735,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat1",
+    "refined": "UNRESOLVED",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     2.2959748142383334e-20,
+     2.6537360137727948
+    ],
+    "V": -0.006849389310352735,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    2,
+    0.5,
+    0.005,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2440242580583776
+    ],
+    "V": -0.02946799963248221,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2440242580583776
+    ],
+    "V": -0.02946799963248221,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    2,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2440242580583776
+    ],
+    "V": -0.02946799963248221,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2440242580583776
+    ],
+    "V": -0.02946799963248221,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    2,
+    0.5,
+    0.005,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2440242580583776
+    ],
+    "V": -0.02946799963248221,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2440242580583776
+    ],
+    "V": -0.02946799963248221,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    2,
+    0.5,
+    0.05,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2448000032027882
+    ],
+    "V": -0.2920242240828635,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2448000032027882
+    ],
+    "V": -0.2920242240828635,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    2,
+    0.8,
+    0.008,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.40528643146743787,
+     1.2305604955115317
+    ],
+    "V": -0.07400761148183395,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.40528643146743787,
+     1.2305604955115317
+    ],
+    "V": -0.07400761148183395,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    2,
+    0.8,
+    0.008,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.40528643146743787,
+     1.2305604955115317
+    ],
+    "V": -0.07400761148183395,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.40528643146743787,
+     1.2305604955115317
+    ],
+    "V": -0.07400761148183395,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    2,
+    0.8,
+    0.008,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.40528643146743787,
+     1.2305604955115317
+    ],
+    "V": -0.07400761148183395,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.40528643146743787,
+     1.2305604955115317
+    ],
+    "V": -0.07400761148183395,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    3,
+    0.3,
+    0.003,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.198879846971754
+    ],
+    "V": -0.011102589182003264,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.198879846971754
+    ],
+    "V": -0.011102589182003264,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    3,
+    0.3,
+    0.003,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.1918933315135116
+    ],
+    "V": -0.010315631626014815,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.1918933315135116
+    ],
+    "V": -0.010315631626014815,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    3,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "RUNAWAY(interior ISOLATED)",
+    "runaway": true,
+    "sealed_pass": false,
+    "tau": [
+     0.23689151661455363,
+     1.05650178434515
+    ],
+    "V": -0.00435250423254971,
+    "runaway_at": {
+     "V": -0.005722094930324802,
+     "tau": [
+      0.4179742945311874,
+      10.402115621017643
+     ],
+     "note": "the lowest point found lies deep in the cusp (Im tau > 6): no interior global minimum"
+    }
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "RUNAWAY(interior ISOLATED)",
+    "runaway": true,
+    "sealed_pass": false,
+    "tau": [
+     0.23689151661455363,
+     1.05650178434515
+    ],
+    "V": -0.00435250423254971,
+    "runaway_at": {
+     "V": -0.005728563339786311,
+     "tau": [
+      0.16864066114064538,
+      10.536036416047885
+     ],
+     "note": "the lowest point found lies deep in the cusp (Im tau > 6): no interior global minimum"
+    }
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    3,
+    0.5,
+    0.005,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2440398360710712
+    ],
+    "V": -0.04262826037834626,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2440398360710712
+    ],
+    "V": -0.04262826037834626,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    3,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2365074280900303
+    ],
+    "V": -0.041707326822755436,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2365074280900303
+    ],
+    "V": -0.041707326822755436,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    3,
+    0.5,
+    0.005,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.25475874519620034,
+     1.1364519074901234
+    ],
+    "V": -0.033602233280151265,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.25475874519620034,
+     1.1364519074901234
+    ],
+    "V": -0.033602233280151265,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    3,
+    0.5,
+    0.05,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2317322632233043
+    ],
+    "V": -0.41641821709440974,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2317322632233043
+    ],
+    "V": -0.41641821709440974,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    3,
+    0.8,
+    0.008,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.28497568157993
+    ],
+    "V": -0.10460672500121027,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.28497568157993
+    ],
+    "V": -0.10460672500121027,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    3,
+    0.8,
+    0.008,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2785753534432875
+    ],
+    "V": -0.10373663282772223,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2785753534432875
+    ],
+    "V": -0.10373663282772223,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    3,
+    0.8,
+    0.008,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.28397644547753587,
+     1.1975736281536276
+    ],
+    "V": -0.09418561558249253,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.28397644547753587,
+     1.1975736281536276
+    ],
+    "V": -0.09418561558249253,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    4,
+    0.3,
+    0.003,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.1841649993243186
+    ],
+    "V": -0.012982295108653409,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.1841649993243186
+    ],
+    "V": -0.012982295108653409,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    4,
+    0.3,
+    0.003,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.1769295978968173
+    ],
+    "V": -0.012048643217160197,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.1769295978968173
+    ],
+    "V": -0.012048643217160197,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    4,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.20074869829287773,
+     0.9796427716947209
+    ],
+    "V": -0.0034523856462044928,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.20074869829287773,
+     0.9796427716947209
+    ],
+    "V": -0.0034523856462044928,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    4,
+    0.5,
+    0.005,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2853478128784555
+    ],
+    "V": -0.049659010257974416,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2853478128784555
+    ],
+    "V": -0.049659010257974416,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    4,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2739964671410413
+    ],
+    "V": -0.0484794462586237,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.2739964671410413
+    ],
+    "V": -0.0484794462586237,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    4,
+    0.5,
+    0.005,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2167315584845619,
+     1.1268467175477144
+    ],
+    "V": -0.03682198254602342,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2167315584845619,
+     1.1268467175477144
+    ],
+    "V": -0.03682198254602342,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    4,
+    0.5,
+    0.05,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.25374912465242
+    ],
+    "V": -0.4934539546635671,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.25374912465242
+    ],
+    "V": -0.4934539546635671,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    4,
+    0.8,
+    0.008,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.401319438678952
+    ],
+    "V": -0.12378589122479848,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     1.401319438678952
+    ],
+    "V": -0.12378589122479848,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    4,
+    0.8,
+    0.008,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -3.9088160771215725e-21,
+     1.7427665895046416
+    ],
+    "V": -0.12440292023141178,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -4.739478474108504e-22,
+     1.7427665895046416
+    ],
+    "V": -0.12440292023141178,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    4,
+    0.8,
+    0.008,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.18679295980538888,
+     1.272842757704817
+    ],
+    "V": -0.10875619120470946,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.18679295980538888,
+     1.272842757704817
+    ],
+    "V": -0.10875619120470946,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    5,
+    0.3,
+    0.003,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.318757012130933,
+     1.1469627763676602
+    ],
+    "V": -0.014696500582910985,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.318757012130933,
+     1.1469627763676602
+    ],
+    "V": -0.014696500582910985,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    5,
+    0.3,
+    0.003,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2845430082865477,
+     1.0831874385868163
+    ],
+    "V": -0.013082209713254266,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2845430082865477,
+     1.0831874385868163
+    ],
+    "V": -0.013082209713254266,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    5,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.1191186490004282,
+     0.9928800267204053
+    ],
+    "V": -0.005101322055904015,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.1191186490004282,
+     0.9928800267204053
+    ],
+    "V": -0.005101322055904015,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    5,
+    0.5,
+    0.005,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3171708131532562,
+     1.3196217416457874
+    ],
+    "V": -0.06078236108888983,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3171708131532562,
+     1.3196217416457874
+    ],
+    "V": -0.06078236108888983,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    5,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.27786476525246895,
+     1.2589762490354472
+    ],
+    "V": -0.057378855435309344,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.27786476525246895,
+     1.2589762490354472
+    ],
+    "V": -0.057378855435309344,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    5,
+    0.5,
+    0.005,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.15275135603723233,
+     0.9882646524230171
+    ],
+    "V": -0.04360738820185575,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.15275135603723233,
+     0.9882646524230171
+    ],
+    "V": -0.04360738820185575,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    5,
+    0.5,
+    0.05,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.29515952072908397,
+     1.2096342939776674
+    ],
+    "V": -0.5844588541218996,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.29515952072908397,
+     1.2096342939776674
+    ],
+    "V": -0.5844588541218996,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    5,
+    0.8,
+    0.008,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     2.9053569263503397e-21,
+     1.6440476925434258
+    ],
+    "V": -0.15976254788219418,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -3.1139181749335433e-22,
+     1.6440476925434258
+    ],
+    "V": -0.15976254788219418,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    5,
+    0.8,
+    0.008,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -2.0525328368770377e-21,
+     1.7095221925055926
+    ],
+    "V": -0.16033542486382416,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     3.962813047311184e-23,
+     1.7095221925055926
+    ],
+    "V": -0.16033542486382416,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    5,
+    0.8,
+    0.008,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.16959261008471976,
+     1.1091169247993193
+    ],
+    "V": -0.1257043134113373,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.16959261008471976,
+     1.1091169247993193
+    ],
+    "V": -0.1257043134113373,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    6,
+    0.3,
+    0.003,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.34870126741664265,
+     1.1185421028523046
+    ],
+    "V": -0.016061798567946872,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.34870126741664265,
+     1.1185421028523046
+    ],
+    "V": -0.016061798567946872,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    6,
+    0.3,
+    0.003,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.30704612282597865,
+     1.0479091470042448
+    ],
+    "V": -0.014519067959881907,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.30704612282597865,
+     1.0479091470042448
+    ],
+    "V": -0.014519067959881907,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    6,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.12186940831103538,
+     0.992546143671879
+    ],
+    "V": -0.003957465233866604,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.12186940831103538,
+     0.992546143671879
+    ],
+    "V": -0.003957465233866604,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    6,
+    0.5,
+    0.005,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.35916843897240464,
+     1.3094497986766553
+    ],
+    "V": -0.06621062526946621,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.35916843897240464,
+     1.3094497986766553
+    ],
+    "V": -0.06621062526946621,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    6,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3320865107092792,
+     1.1909197379867944
+    ],
+    "V": -0.0623517659553258,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3320865107092792,
+     1.1909197379867944
+    ],
+    "V": -0.0623517659553258,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    6,
+    0.5,
+    0.005,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.16080233574855507,
+     0.9869866305162441
+    ],
+    "V": -0.04732929321723536,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.16080233574855507,
+     0.9869866305162441
+    ],
+    "V": -0.04732929321723536,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    6,
+    0.5,
+    0.05,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.33486650941655144,
+     1.1696775571928468
+    ],
+    "V": -0.6505145808219504,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.33486650941655144,
+     1.1696775571928468
+    ],
+    "V": -0.6505145808219504,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    6,
+    0.8,
+    0.008,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     4.022885814012229e-21,
+     1.5868490928163614
+    ],
+    "V": -0.1754808695199208,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -7.767316671087083e-23,
+     1.5868490928163614
+    ],
+    "V": -0.1754808695199208,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    6,
+    0.8,
+    0.008,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.31638203278367033,
+     1.3198983001655915
+    ],
+    "V": -0.16501129062065695,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.31638203278367033,
+     1.3198983001655915
+    ],
+    "V": -0.16501129062065695,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    6,
+    0.8,
+    0.008,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.19692716450203193,
+     1.058810504237651
+    ],
+    "V": -0.13917848438453573,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.19692716450203193,
+     1.058810504237651
+    ],
+    "V": -0.13917848438453573,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    7,
+    0.3,
+    0.003,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.262105069463058,
+     1.079940225348992
+    ],
+    "V": -0.019211805716627298,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.262105069463058,
+     1.079940225348992
+    ],
+    "V": -0.019211805716627298,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    7,
+    0.3,
+    0.003,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2500031242210048,
+     1.006262132163739
+    ],
+    "V": -0.017378898564764822,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2500031242210048,
+     1.006262132163739
+    ],
+    "V": -0.017378898564764822,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    7,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.07146913653361985,
+     0.9974428116554547
+    ],
+    "V": -0.004630139459053521,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.07146913653361985,
+     0.9974428116554547
+    ],
+    "V": -0.004630139459053521,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    7,
+    0.5,
+    0.005,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.17836359270100943,
+     1.360649046328997
+    ],
+    "V": -0.07954346685459932,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.17836359270100943,
+     1.360649046328997
+    ],
+    "V": -0.07954346685459932,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    7,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.27127670353026384,
+     1.2024953671807734
+    ],
+    "V": -0.07413929780163966,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.27127670353026384,
+     1.2024953671807734
+    ],
+    "V": -0.07413929780163966,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    7,
+    0.5,
+    0.005,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.11110534958449263,
+     0.9938086341412554
+    ],
+    "V": -0.05072671922044798,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.11110534958449263,
+     0.9938086341412554
+    ],
+    "V": -0.05072671922044798,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    7,
+    0.5,
+    0.05,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.277183943357491,
+     1.175615412506785
+    ],
+    "V": -0.7680379190863591,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.277183943357491,
+     1.175615412506785
+    ],
+    "V": -0.7680379190863591,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    7,
+    0.8,
+    0.008,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     1.2930915609077293e-21,
+     1.587160885617201
+    ],
+    "V": -0.2138263741086361,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -1.8977962512400527e-22,
+     1.587160885617201
+    ],
+    "V": -0.2138263741086361,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    7,
+    0.8,
+    0.008,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2561352066721172,
+     1.3483947244212
+    ],
+    "V": -0.19959340970725364,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2561352066721172,
+     1.3483947244212
+    ],
+    "V": -0.19959340970725364,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    7,
+    0.8,
+    0.008,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3114932728994843,
+     1.0136728330478058
+    ],
+    "V": -0.15763958667981837,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3114932728994843,
+     1.0136728330478058
+    ],
+    "V": -0.15763958667981837,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    8,
+    0.3,
+    0.003,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2636372835179134,
+     1.1302388293638663
+    ],
+    "V": -0.021049720595813892,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.2636372835179134,
+     1.1302388293638663
+    ],
+    "V": -0.021049720595813892,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    8,
+    0.3,
+    0.003,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.26026013965059347,
+     1.0629714637718033
+    ],
+    "V": -0.01938657509124514,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.26026013965059347,
+     1.0629714637718033
+    ],
+    "V": -0.01938657509124514,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    8,
+    0.3,
+    0.003,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.07508708157199301,
+     0.9971769803705864
+    ],
+    "V": -0.006575946669160305,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.07508708157199301,
+     0.9971769803705864
+    ],
+    "V": -0.006575946669160305,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    8,
+    0.5,
+    0.005,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.10254161592438854,
+     1.4052351703169066
+    ],
+    "V": -0.08703546633791037,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.10254161592438854,
+     1.4052351703169066
+    ],
+    "V": -0.08703546633791037,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    8,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.27093960812741075,
+     1.1957765166776966
+    ],
+    "V": -0.08040847351542635,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.27093960812741075,
+     1.1957765166776966
+    ],
+    "V": -0.08040847351542635,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    8,
+    0.5,
+    0.005,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.1145790879170825,
+     0.9934141294606643
+    ],
+    "V": -0.05622451949440109,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.1145790879170825,
+     0.9934141294606643
+    ],
+    "V": -0.05622451949440109,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    8,
+    0.5,
+    0.05,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.27649915894651583,
+     1.1758160413213747
+    ],
+    "V": -0.8440936314751211,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.27649915894651583,
+     1.1758160413213747
+    ],
+    "V": -0.8440936314751211,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    8,
+    0.8,
+    0.008,
+    0.1
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -2.683103016369577e-21,
+     1.5379582002360046
+    ],
+    "V": -0.23298330657981745,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -4.332381100733255e-22,
+     1.5379582002360046
+    ],
+    "V": -0.23298330657981745,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    8,
+    0.8,
+    0.008,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.26109925221444,
+     1.2938781680292952
+    ],
+    "V": -0.21353334268153593,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.26109925221444,
+     1.2938781680292952
+    ],
+    "V": -0.21353334268153593,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "N",
+    "sup",
+    8,
+    0.8,
+    0.008,
+    1.0
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.31393590228553286,
+     1.0220355472935037
+    ],
+    "V": -0.1720064153704116,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.31393590228553286,
+     1.0220355472935037
+    ],
+    "V": -0.1720064153704116,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "cusp",
+    "cusp",
+    1,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "UNCONVERGED",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.08627074545183018,
+     4.116809096416173
+    ],
+    "V": -0.0060011596162696645,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat2",
+    "refined": "UNCONVERGED",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.01668860357994918,
+     4.116808865194537
+    ],
+    "V": -0.006001159617121123,
+    "runaway_at": null
+   },
+   "same_tau": false
+  },
+  {
+   "config": [
+    "Z",
+    "cusp",
+    "cusp",
+    2,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "flat2",
+    "refined": "UNRESOLVED",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     8.862101490745008e-15,
+     4.116808873442643
+    ],
+    "V": -0.011306397308304496,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat1",
+    "refined": "UNCONVERGED",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.0010849322686875662,
+     4.116808873439716
+    ],
+    "V": -0.011306397308304315,
+    "runaway_at": null
+   },
+   "same_tau": false
+  },
+  {
+   "config": [
+    "Z",
+    "cusp",
+    "cusp",
+    3,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "RUNAWAY(interior ISOLATED)",
+    "runaway": true,
+    "sealed_pass": false,
+    "tau": [
+     0.030696386749976764,
+     0.9995287548842684
+    ],
+    "V": 0.0655146437912122,
+    "runaway_at": {
+     "V": -0.020354738456403905,
+     "tau": [
+      0.02611158523458004,
+      6.156673703594159
+     ],
+     "note": "the lowest point found lies deep in the cusp (Im tau > 6): no interior global minimum"
+    }
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "RUNAWAY(interior ISOLATED)",
+    "runaway": true,
+    "sealed_pass": false,
+    "tau": [
+     0.030696386749976764,
+     0.9995287548842684
+    ],
+    "V": 0.0655146437912122,
+    "runaway_at": {
+     "V": -0.02035473845554626,
+     "tau": [
+      0.04531419299307203,
+      6.15667283673277
+     ],
+     "note": "the lowest point found lies deep in the cusp (Im tau > 6): no interior global minimum"
+    }
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "cusp",
+    "cusp",
+    4,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3783368550816344,
+     0.9256679880426558
+    ],
+    "V": 4.769743646690424,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.3783368550816344,
+     0.9256679880426558
+    ],
+    "V": 4.769743646690424,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "cusp",
+    "cusp",
+    5,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.37925714938108407,
+     0.9252913133945082
+    ],
+    "V": 5.396475168847907,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     0.37925714938108407,
+     0.9252913133945082
+    ],
+    "V": 5.396475168847907,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "cusp",
+    "cusp",
+    6,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "flat0",
+    "refined": "ISOLATED(weak)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4953059284460883,
+     0.8687186179921312
+    ],
+    "V": 5.893404859090603,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat0",
+    "refined": "ISOLATED(weak)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.4953059284460883,
+     0.8687186179921312
+    ],
+    "V": 5.893404859090603,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "cusp",
+    "cusp",
+    7,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "flat0",
+    "refined": "ISOLATED(weak)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.49529041208250224,
+     0.8687274645705321
+    ],
+    "V": 6.147048379643427,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "flat0",
+    "refined": "ISOLATED(weak)",
+    "runaway": false,
+    "sealed_pass": false,
+    "tau": [
+     0.49529041208250224,
+     0.8687274645705321
+    ],
+    "V": 6.147048379643427,
+    "runaway_at": null
+   },
+   "same_tau": true
+  },
+  {
+   "config": [
+    "Z",
+    "cusp",
+    "cusp",
+    8,
+    0.5,
+    0.005,
+    0.3
+   ],
+   "draft": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     0.8715030409357171
+    ],
+    "V": 6.532727424450468,
+    "runaway_at": null
+   },
+   "rerun": {
+    "plan": "iso",
+    "refined": "ISOLATED",
+    "runaway": false,
+    "sealed_pass": true,
+    "tau": [
+     -0.5,
+     0.8715030409357171
+    ],
+    "V": 6.532727424450468,
+    "runaway_at": null
+   },
+   "same_tau": true
+  }
+ ]
+}

@@ -18209,3 +18209,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - P-529's Lab built locally; P-533–P-535 rowed; the seal ledger regenerated. 0 of 19.
 - **Landing suite (S272).** full suite 7 920 passed, 2 failed, 69 skipped (57:03, -n 6, beside the refined census) on ffc27f941: the two failures are B805's attachment locks (P-239, standing).
+
+## 2026-10-30 — S273 B1823 (Step A v2, NEGATIVE as a compression) and B1824 (a₀ = η⁴F₋₂/6)
+
+- Step A v2's tied heavy vacuum does not fix the Higgs direction without CHOSEN continuous data; two of the thirteen declared directions are one. Step B runs on twelve. 0 of 19.
+- **Landing suite (S273).** full suite 7 928 passed, 3 failed, 69 skipped (47:36, -n 8, beside the refined census on eight workers) on 7533a06ab: two failures are B805's attachment locks (P-239, standing); the third, B833's routing lock, found B1823 absent from the kill graph: routed before the push (frontier/B738_pathfinder_compiler/kill_graph.json) and the lock rerun green (5 passed). B1823's and B1824's seven locks pass.

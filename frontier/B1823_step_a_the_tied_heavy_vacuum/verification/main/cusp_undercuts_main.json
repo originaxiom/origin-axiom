@@ -1,0 +1,46 @@
+[
+ {
+  "menu": "H",
+  "n": 4,
+  "reported_interior": 4.761215854855763,
+  "referee_point_tau": [
+   0.15078703408610572,
+   7.483337489986754
+  ],
+  "V_at_referee_point_main": 0.5315286663929878,
+  "lower": true
+ },
+ {
+  "menu": "H",
+  "n": 5,
+  "reported_interior": 5.3918168758046825,
+  "referee_point_tau": [
+   0.25565370570598134,
+   7.205406623372415
+  ],
+  "V_at_referee_point_main": 0.8673256796894337,
+  "lower": true
+ },
+ {
+  "menu": "Z",
+  "n": 4,
+  "reported_interior": 4.769743646690424,
+  "referee_point_tau": [
+   0.11026113956631889,
+   6.92148260025834
+  ],
+  "V_at_referee_point_main": 1.5451217513727469,
+  "lower": true
+ },
+ {
+  "menu": "Z",
+  "n": 5,
+  "reported_interior": 5.396475168847907,
+  "referee_point_tau": [
+   0.3792571588931354,
+   0.9252913205467529
+  ],
+  "V_at_referee_point_main": 5.39647516884793,
+  "lower": false
+ }
+]
