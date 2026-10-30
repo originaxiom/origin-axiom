@@ -18,13 +18,13 @@
 | … NEGATIVE | 380 |
 | … OPEN | 93 |
 | … RETRACTED | 12 |
-| register points | 523 |
-| … QUEUED | 194 |
+| register points | 530 |
+| … QUEUED | 200 |
 | … LEAD | 10 |
 | … OWNER | 5 |
-| … DONE | 305 |
+| … DONE | 306 |
 | … DECLINED | 9 |
-| harvest rows (the last number) | 1501 |
+| harvest rows (the last number) | 1504 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -54,6 +54,10 @@
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
+- ** P-529** (2026-10-30) — THE LAB: BOTH SEATS' PANEL PROPOSALS INTEGRATED (the owner, 2026-10-30: 'did you integrate SM's proposal and work on the admin panel? weave lab?', 'did you get any proposal from chat1 for the panel?'…
+- ** P-527** (2026-10-30) — THE DROPPED CM ARM (the attack plan's reader; the second pre-seal review's NB14): the revised Step B design has no forced-CM-against-control comparison, which THE FINAL ATTACK named and P-425, P-449…
+- ** P-526** (2026-10-30) — THE WEB SEAT'S SECOND CODE AND ITS READ OF THE CARD, AS STEP B's THIRD OPINION (its attack plan's 1.1 + 1.3; harvest row 1504): an independent calculator for the whole decisive conjunction (S, p₂, p_…
+- ** P-525** (2026-10-30) — T-NORM ON THE EVALUATOR, A PRE-SEAL CONDITION (P-510's ruling): the census evaluator takes the SVD of Y(S, M′) with the generations' kinetic normalisation assumed trivial; no arc on main computes the…
 - ** P-523** (2026-10-30) — THE VACUITY CALIBRATION AND THE CONTROLS (the pre-seal review, B2 and its controls): on the real census with the record's allowances, every criterion must be shown able to fail given support; the dec…
 - ** P-522** (2026-10-30) — THE CKM LEG DEFINED (the pre-seal review, B5): 'the CKM predicted from the six's address' has no tie rule (8-digit and full-precision rows mixed; ties to 1e-15 on record, B1811), no rule for undefine…
 - ** P-521** (2026-10-30) — THE τ GRID FAILS THE RESOLUTION CHECK (the pre-seal review, B4; INPUT_COMPLETENESS row 13): B1726's 90-point grid is at least 4.5 times too coarse in Im τ for the record's illustrative resolution; on…
@@ -75,13 +79,10 @@
 - ** P-468** (2026-10-29) — PICKED IN COMBINATION (the owner: what if the two clocks pick Im τ ≈ 3 in combination?): a falling height distribution sets at most a scale; a point needs a rising factor times a falling one. Four pr…
 - ** P-465** (2026-10-29) — THE PRINCIPLE AS THE SELECTION (the owner, 2026-10-29: could the selection principle that chooses our world be the initial a → ab, b → a principle itself?): iterated as a history, the principle is th…
 - ** P-443** (2026-10-29) — INHERITED ASSUMPTIONS (the owner, 2026-10-29: 'maybe our whole understanding is crippled, how science sees the standard model, spacetime parameters … we inherit that misunderstanding'): main's reply…
-- ** P-440** (2026-10-29) — THE PURE MOVE CLOCK: a clock that ticks once per Farey crossing, both between and along threads, puts every sampled τ on Re τ = 0 (every Farey edge reduces to the imaginary axis); B1813's A0 counts b…
-- ** P-439** (2026-10-29) — THE CLOCK (the owner's 'how we expect reality to emerge', 2026-10-29, made one question): is the weave's time the move count (discrete; the coding's maximal entropy) or the geodesic flow (continuous;…
-- ** P-438** (2026-10-29) — FOLLOWED OR COUNTED (P-437's theory side; the owner's question 'what do you mean by coin-flip word'): a candidate answer to why the weave would sit at its critical point — counting closed threads wor…
-- ** P-437** (2026-10-29) — the owner's whole-existence computation, unforced (2026-10-29: 'see what program produces when not forced'; 'count in both ways and see whether both ways interact'): stage 1 landed as B1813 (the meas…
 
 ## The last landings (CHANGELOG)
 
+- S270 THE WEB SEAT'S THREE RELAYS VERIFIED AND HARVESTED: P-512 DERIVED AT LEADING ORDER; P-510 RULED (FIX THE FRAME: T-NORM); ITS ATTACK READ (2026-10-30)
 - S269 B1821 THE FRAME'S MIRROR SYMMETRY; STEP B's DESIGN THROUGH ITS SECOND PRE-SEAL REVIEW (2026-10-30)
 - S268 B1820 THE RIGID CENSUS'S CURVATURE ALONG Re τ: THE REFINEMENT IS NEAR-UNIFORM (2026-10-30)
 - S267 B1819 THE RIGID CENSUS'S SMOOTHNESS IN τ: AN INTERPOLANT AND TARGETED REFINEMENT, NOT A 5× GRID (2026-10-30)
@@ -89,11 +90,10 @@
 - S265 THE PROGRAMME SO FAR (2026-10-30)
 - S264b REVIEW 73's ANCHOR; THE VIEWS REFRESHED; THE README REWRITTEN FROM BLANK (2026-10-30)
 - S264 REVIEW 73 — the clock decided as CHOSEN, the final attack approved, B1812 narrowed, the fresh clone run (2026-10-30)
-- S263 THE SEATS HARVESTED; THE FINAL ACT'S BAR AND THE MAP ADOPTED; THE TWO TIERS; THE TOOLS ADOPTED AND CALIBRATED (2026-10-30)
 
 ## The latest campaign line
 
-LATEST (2026-10-30, S269: B1821 — the frame's known mirror symmetry (B1790) was confirmed across the whole table, which halves the table the final test needs and means the sign of the CP-violating quantity J can never be predicted, only its size. The final test's scoring rule passed its second hostile review with fixes, all accepted. 0 of 19.)
+LATEST (2026-10-30, S270: the web seat's three relays, each checked on main by its own code. Its derivation of the quarter relation among the frame's cusp constants holds at leading order (with an exact lemma main's verifier found beside it). Its note on the kind clause corrected main's draft ruling: in the frame's field form nothing is invariant, so the frame must be fixed, and main is now computing whether the frame's own normalisation holds before the final test is sealed. Its attack plan was read, and its offer of an independent second code for the final test was taken. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

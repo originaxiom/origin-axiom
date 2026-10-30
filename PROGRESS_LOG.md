@@ -18194,3 +18194,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The census halves; J's sign unscored; the design GO WITH FIXES, applied. 0 of 19.
 - **Landing suite (S269).** full suite 7 916 passed, 2 failed, 69 skipped (23:02, -n 12) on bf8b08372: the two failures are B805's attachment locks (P-239, standing); B1821's two locks pass (one recomputes a mirror pair with the committed evaluator).
+
+## 2026-10-30 — S270 the web seat's three relays verified and harvested
+
+- P-512 derived at leading order (conditional); P-510 ruled (T-NORM); the attack read; P-524–P-530. 0 of 19.
+- **Landing suite (S270).** full suite 7 916 passed, 2 failed, 69 skipped (58:35, -n 6, beside the refined census on eight workers) on b42167f1a: the two failures are B805's attachment locks (P-239, standing).

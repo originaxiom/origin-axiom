@@ -1,5 +1,11 @@
 # Changelog
 
+## S270 THE WEB SEAT'S THREE RELAYS VERIFIED AND HARVESTED: P-512 DERIVED AT LEADING ORDER; P-510 RULED (FIX THE FRAME: T-NORM); ITS ATTACK READ (2026-10-30)
+
+- **P-512** (harvest row 1502; VERIFIED WITH CORRECTIONS): the quarter relation R₂(1/8) = 4·R₂(3/8) DERIVED at leading order in the cusp limit, conditional on B1788 § 5 (a)–(c), by the web seat; main's verifier re-derived D1–D3 exactly, confirmed the rest at leading order on main's frame code, and reran the sealed check (six of six). Main's verifier adds an exact lemma: the channel kernels and c_s depend on b only through b_x + b_y (P-524).
+- **P-510** (row 1503; VERIFIED WITH CORRECTIONS, adopted): in field form no function of the six, the CKM moduli or J is invariant under the generations' kinetic freedom, so the kind clause is met only by fixing the frame (T-NORM); both legs of Step B grade FR-FIB on one footing; main's first draft's lane asymmetry withdrawn; T-NORM a pre-seal condition, being computed (P-525).
+- **The web seat's attack** (row 1504; READ): its 1.1 + 1.3 taken as Step B's third opinion (P-526); the dropped CM arm registered (P-527); I-26's stale note (P-528). The audit lane's two relays given their RELAY_LEDGER rows. The owner's Lab request registered (P-529). A reply to the web seat (docs/handoffs/CC_TO_CHAT1_2026-10-30_THE_THREE_RELAYS_VERIFIED.md). FLOOR 530. 0 of 19.
+
 ## S269 B1821 THE FRAME'S MIRROR SYMMETRY; STEP B's DESIGN THROUGH ITS SECOND PRE-SEAL REVIEW (2026-10-30)
 
 - **B1821** (PROVED, a confirmation of B1790's mirror map, which preserves both readings there to 7 × 10⁻¹²; data-free): FR-FIB's outputs at (−x + iy, line (α, −b)) equal those at (x + iy, (α, b)) row by row with J → −J, to 6 × 10⁻⁷ in log10 on 24 configurations and all thirteen directions (Step B's second reviewer's check), and as reading-multisets on 200 of 200 random configurations. So the census needs only Re τ ∈ [0, ½], and J's sign is never predicted. The census's evaluator is committed in the arc as its instrument; a lock recomputes one mirror pair and fails a wrong pairing.

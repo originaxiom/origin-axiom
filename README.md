@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.59) of 2026-10-28 |
 | arcs with a verdict | 1525: 1040 PROVED, 380 NEGATIVE, 93 OPEN, 12 RETRACTED |
-| points in the register | 523: 209 open (queued, leads, waiting for the owner), 314 closed |
+| points in the register | 530: 215 open (queued, leads, waiting for the owner), 315 closed |
 | the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S269 B1821 THE FRAME'S MIRROR SYMMETRY; STEP B's DESIGN THROUGH ITS SECOND PRE-SEAL REVIEW (2026-10-30) |
+| the last landing | S270 THE WEB SEAT'S THREE RELAYS VERIFIED AND HARVESTED: P-512 DERIVED AT LEADING ORDER; P-510 RULED (FIX THE FRAME: T-NORM); ITS ATTACK READ (2026-1… |
 <!-- STATE:END -->
 
 ## Start here
