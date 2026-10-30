@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.59) of 2026-10-28 |
 | arcs with a verdict | 1528: 1042 PROVED, 381 NEGATIVE, 93 OPEN, 12 RETRACTED |
-| points in the register | 546: 222 open (queued, leads, waiting for the owner), 324 closed |
+| points in the register | 549: 225 open (queued, leads, waiting for the owner), 324 closed |
 | the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S276 STEP B's GENERATOR REBUILT ON THE CENSUS's MEASURED INTERPOLANT; THE FIFTH PRE-SEAL REVIEW ANSWERED (2026-10-30) |
+| the last landing | S277 STEP B's DRIVERS FINISHED FOR THE RUN; THE CENSUS's EVALUATOR REPRODUCES B1726's DR CENSUS (2026-10-30) |
 <!-- STATE:END -->
 
 ## Start here

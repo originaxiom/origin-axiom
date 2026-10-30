@@ -12,7 +12,9 @@ entry (an exactly zero modulus at a node-only cell) is not of our kind: dropped 
 The graded upper end counts the UNDECIDED worlds as possible hits (the fifth review's N2): p2_up = CP upper of
 (hits + undecided) / N.  Read-out: p2 at chi2_nine < 21.67.
 Worlds are drawn in the parent (one seed, reproducible whatever the scheduling) and searched by forked workers sharing the
-index (tested identical to serial); a checkpoint is written after every batch.
+index (tested identical to serial); a checkpoint is written after every batch.  The INDICES of the supported worlds in the
+drawn sequence (never their values) are recorded, so the calibration regenerates them from the seed without searching
+again.  The nine-quantity read-out runs on the first N9 worlds.
 Prints and writes counts, rates, Clopper-Pearson intervals, timings; never a world or a row's value.
     python3 -I p2_driver.py <refined dir> <manifest.json> <manifest sha256> <sigma file> <out.json> [N] [seed] [batch] [workers]"""
 import json, math, multiprocessing as mp, pathlib, sys, time
@@ -77,36 +79,55 @@ def _work(args):
         r = CI.support_batch(W, C.C_SCAN)
     else:
         r = CI.support_batch(W, C.C_SCAN, T=C.THRESHOLD_NINE, comps=tuple(range(9)))
-    return int(r["in_support"].sum()), int(r["undecided"])
+    return int(r["in_support"].sum()), int(r["undecided"]), np.nonzero(r["in_support"])[0].tolist()
 
 
-def main(refined, manifest, expected, sigma_file, out, N="1000000", seed="20261031", batch="20000", workers="8"):
+def worlds_by_index(ci, sig, seed, batch, N, indices):
+    """regenerate the drawn sequence (the same seed and batches as main) and return the worlds at the given indices (the
+    sequence after the non-finite drop), without searching"""
+    want = sorted(set(int(i) for i in indices)); out = {}; rng = np.random.default_rng(seed); done = pos = 0
+    while done < N and len(out) < len(want):
+        b = min(batch, N - done)
+        W, _ = null_worlds(ci, sig, rng, b)
+        for i in want:
+            if pos <= i < pos + len(W):
+                out[i] = W[i - pos]
+        pos += len(W); done += b
+    return np.array([out[i] for i in want if i in out])
+
+
+def main(refined, manifest, expected, sigma_file, out, N="1000000", seed="20261031", batch="20000", workers="8", N9="100000"):
     global CI
-    N, seed, batch, workers = int(N), int(seed), int(batch), int(workers)
+    N, seed, batch, workers, N9 = int(N), int(seed), int(batch), int(workers), int(N9)
     CI, sig, meta = build(refined, manifest, expected, sigma_file)
     rng = np.random.default_rng(seed)
-    hits10 = hits9 = und10 = und9 = done = dropped = 0; t0 = time.time()
+    hits10 = hits9 = und10 = und9 = done = dropped = pos = done9 = 0; t0 = time.time(); supported = []
     ctx = mp.get_context("fork")
     with ctx.Pool(workers) as P:
         while done < N:
             b = min(batch, N - done)
             W, dr = null_worlds(CI, sig, rng, b); dropped += dr
-            chunks = [W[a:a + max(1, len(W) // workers + 1)] for a in range(0, len(W), max(1, len(W) // workers + 1))]
-            for h, u in P.map(_work, [(c, "ten") for c in chunks]):
-                hits10 += h; und10 += u
-            for h, u in P.map(_work, [(c, "nine") for c in chunks]):
-                hits9 += h; und9 += u
-            done += b
+            step = max(1, len(W) // workers + 1)
+            starts = list(range(0, len(W), step))
+            for st, (h, u, idx) in zip(starts, P.map(_work, [(W[a:a + step], "ten") for a in starts])):
+                hits10 += h; und10 += u; supported.extend(pos + st + i for i in idx)
+            if done9 < N9:
+                for h, u, _ in P.map(_work, [(W[a:a + step], "nine") for a in starts]):
+                    hits9 += h; und9 += u
+                done9 += len(W)
+            done += b; pos += len(W)
             ck = dict(meta, N_done=done, dropped_nonfinite=dropped, in_support_ten=hits10, undecided_ten=und10,
-                      in_support_nine=hits9, undecided_nine=und9, seconds=round(time.time() - t0, 1), complete=False)
+                      in_support_nine=hits9, undecided_nine=und9, N9_done=done9, seconds=round(time.time() - t0, 1), complete=False,
+                      seed=seed, batch=batch, supported_indices=supported[:5000])
             pathlib.Path(out).with_suffix(".checkpoint.json").write_text(json.dumps(ck, indent=1) + "\n")
             print("worlds %d (dropped %d)  in support (ten) %d  (nine) %d  undecided %d/%d  %.0f s" % (
                 done, dropped, hits10, hits9, und10, und9, time.time() - t0), flush=True)
     n = N - dropped
-    rep = dict(meta, N_drawn=N, N=n, dropped_nonfinite=dropped, seed=seed, in_support_ten=hits10, undecided_ten=und10,
+    rep = dict(meta, N_drawn=N, N=n, dropped_nonfinite=dropped, seed=seed, batch=batch, in_support_ten=hits10, undecided_ten=und10,
                p2=hits10 / n, p2_cp95=(cp(hits10, n)[0], cp(hits10 + und10, n)[1]),
-               readout_in_support_nine=hits9, readout_undecided_nine=und9, readout_p2_nine=hits9 / n,
-               readout_p2_nine_cp95=(cp(hits9, n)[0], cp(hits9 + und9, n)[1]), seconds=round(time.time() - t0, 1), complete=True,
+               readout_N9=done9, readout_in_support_nine=hits9, readout_undecided_nine=und9, readout_p2_nine=hits9 / max(1, done9),
+               readout_p2_nine_cp95=(cp(hits9, max(1, done9))[0], cp(hits9 + und9, max(1, done9))[1]), seconds=round(time.time() - t0, 1), complete=True,
+               supported_indices=supported[:5000],
                definition="p2 = P_null(S): continuous tau, the nine c, chi2_ten < 23.209; null = B1741's box x the frame's "
                           "physical CKM marginal (BL1); the upper end counts undecided worlds as hits")
     pathlib.Path(out).write_text(json.dumps(rep, indent=1) + "\n", encoding="utf-8")

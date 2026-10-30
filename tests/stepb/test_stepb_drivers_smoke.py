@@ -64,6 +64,11 @@ def test_p2_driver_end_to_end(census, monkeypatch):
     P2.main(str(tmp), str(man), h, str(sig), str(out), N="3000", seed="1", batch="1500", workers="2")
     r = json.loads(out.read_text())
     assert r["complete"] and r["N_drawn"] == 3000 and r["N"] + r["dropped_nonfinite"] == 3000
+    assert len(r["supported_indices"]) == min(5000, r["in_support_ten"]) and r["readout_N9"] == r["N"]
+    import p2_driver as P2b                                               # the indices regenerate the supported worlds
+    ci, s_, _ = P2b.build(str(tmp), str(man), h, str(sig))
+    W = P2b.worlds_by_index(ci, s_, 1, 1500, 3000, r["supported_indices"][:20])
+    assert len(W) == min(20, len(r["supported_indices"])) and ci.support_batch(W, C.C_SCAN)["in_support"].all()
     assert r["choices"] == 2 * 12 * 2 * 8 and r["rows_defined"] == r["rows"]
     lo, hi = r["p2_cp95"]; assert 0 <= lo <= r["p2"] <= hi <= 1
     assert json.loads(out.with_suffix(".checkpoint.json").read_text())["N_done"] == 3000
@@ -73,11 +78,14 @@ def test_calibration_driver_end_to_end(census, monkeypatch):
     tmp, man, h, per, sig = census
     import p2_driver as P2, calibration_driver as CD
     stub_guard(monkeypatch, per)
-    p2 = tmp / "p2_for_cal.json"; p2.write_text(json.dumps({"p2_cp95": [1e-3, 1e-2]}))
+    p2 = tmp / "p2.json"                                                  # the p2 test's own output (seed, batch, indices)
+    if not p2.exists():
+        P2.main(str(tmp), str(man), h, str(sig), str(p2), N="3000", seed="1", batch="1500", workers="2")
     out = tmp / "cal.json"
     CD.main(str(tmp), str(man), h, str(sig), str(p2), str(out), M="2", M0="2", P="3", seed="2", workers="2")
     r = json.loads(out.read_text())
     assert r["complete"] and r["vacuity"]["supported"] <= 2 and "all_ok" in r["markov"]
+    assert r["vacuity"]["supported"] == min(2, len(json.loads(p2.read_text())["supported_indices"]))
     assert r["planted_chi2_0"]["n"] >= 1 and r["leg_size"]["n"] >= 1
     assert r["planted_chi2_0"]["S"] >= 1                                 # a world planted at chi2 = 0 is in the support
 

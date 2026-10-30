@@ -1,5 +1,13 @@
 # Changelog
 
+## S277 STEP B's DRIVERS FINISHED FOR THE RUN; THE CENSUS's EVALUATOR REPRODUCES B1726's DR CENSUS (2026-10-30)
+
+- **p2 records the indices of its supported worlds** in the drawn sequence (never their values), and the calibration regenerates them from p2's seed, so the vacuity calibration needs no second search; the nine-quantity read-out runs on the first 10⁵ worlds.
+- **The calibration's controls completed:** worlds planted on the grid (sanity), and anarchy CKMs from Haar-random unitaries (E20's negative control), beside the leg's size against the frame's own marginal; FN-texture populations are not computed (stated on the card).
+- **The DR slice (data-free):** the census's evaluator (B1821) reproduces B1726's sealed DR census on 40 random points of it, every sector, radius, reading and CKM pair: largest |ln| difference 5.8 × 10⁻¹¹ for the ratios, 1.3 × 10⁻¹⁰ for the moduli, 1.4 × 10⁻⁹ for J. B1726 writes w = aτ + b and the census w = aτ − b, so B1726's line (a, b) is the census's (a, −b); the coupling module is byte-identical in both.
+- **Eight relays of 2026-10-09 went stale at midnight** (the relay-debt gate's 21 days): each escalated by name with a dated next action (main's next relay to the SM seat lists their asks; Review 74 closes or declines each); one row's raw pipes, which hid its marker, set as ∣ (P-549).
+- P-547 (the LaCie mirror unreachable since S276: the owner's grant of volume access), P-548 (a suite test rewrites B1690's committed output at import), P-549. FLOOR 549. 0 of 19.
+
 ## S276 STEP B's GENERATOR REBUILT ON THE CENSUS's MEASURED INTERPOLANT; THE FIFTH PRE-SEAL REVIEW ANSWERED (2026-10-30)
 
 - **The interpolant's diagnosis** (a 5 × 5 patch of the real evaluator and 81 fresh points on it; data-free): interpolation fails only at isolated zeros (|V_ub|, |V_cb| or m1 vanishing at a point) and on J's zero curves; worlds planted from the frame are reached 99.6% of the time interpolated and 90.8% node-only; the 4 × 4 Gauss rule errs up to 6.5 bits on a choice's τ total, 16 × 16 up to 0.004. Rank-2 directions (m1 = 0) and real-CKM directions (J = 0) appear as roundoff, below 10⁻¹³.

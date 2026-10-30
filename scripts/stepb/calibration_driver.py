@@ -3,8 +3,8 @@
 is committed and pushed).  m0 = 53, the floor of m: the gates here are the loosest the card can apply (gate_bits(53) =
 12.37 bits); the card's m at the seal is at least 53.  Runs after p2_driver (it reads p2's output).
 
-1. THE VACUITY CALIBRATION (P-523): null worlds (BL1, as p2_driver draws them) until M of them are in the support (S at the
-   nine c); for each, K over the ten and the CKM leg at the scan's best c.  Reported: the fraction with K failing
+1. THE VACUITY CALIBRATION (P-523): the first M of the null worlds p2 found in the support (regenerated from p2's seed by
+   their indices, and re-checked in the support); for each, K over the ten and the CKM leg at the scan's best c.  Reported: the fraction with K failing
    (C_ten <= gate_bits) and with the CKM leg failing, with Clopper-Pearson intervals.  VOID only if a failing fraction is
    0 (K or the leg implied by support); a fraction near 1 is the healthy outcome (the fifth review's N5).
 2. THE MARKOV CHECK, with power at the gate (N5): unconditioned worlds rarely reach the frame, so the check runs on the
@@ -17,6 +17,10 @@ is committed and pushed).  m0 = 53, the floor of m: the gates here are the loose
    CKM leg; per reading.  If no planted world passes, the card says before the seal that the conjunction cannot pass.
 4. THE LEG'S SIZE: the six planted from the frame (c = 3), the four drawn from the frame's physical marginal independently:
    the CKM leg's pass rate.
+5. PLANTED ON THE GRID (sanity): worlds at a physical row's node exactly (its census values, c = 3): S must hold.
+6. ANARCHY (E20's negative control): the six planted from the frame (c = 3), the four from a Haar-random unitary
+   (|V_us| = |U_12|, |V_cb| = |U_23|, |V_ub| = |U_13|, J = Im U_12 U_23 U_13* U_22*): the CKM leg's pass rate against a
+   population the frame did not make.  (FN-texture populations are not computed: stated on the card.)
 Every K is computed by forked workers sharing the index (tested identical to serial); a checkpoint follows each section.
 Prints and writes counts, rates and intervals; never a world or a row's value.
     python3 -I calibration_driver.py <refined dir> <manifest.json> <manifest sha256> <sigma file> <p2.json> <out.json> [M] [M0] [P] [seed] [workers]"""
@@ -76,11 +80,11 @@ def main(refined, manifest, expected, sigma_file, p2_file, out, M="100", M0="200
     ctx = mp.get_context("fork")
     with ctx.Pool(workers) as pool:
         # 1. the vacuity calibration
-        sup, drawn = [], 0
-        while len(sup) < M and drawn < 5_000_000:
-            W, _ = P2.null_worlds(ci, sig, rng, 20000); drawn += 20000
-            ins = ci.support_batch(W, C.C_SCAN)["in_support"]
-            sup.extend(W[ins][: M - len(sup)])
+        # the supported worlds p2 found, regenerated from its seed by their indices (no second search)
+        sup = list(P2.worlds_by_index(ci, sig, int(p2["seed"]), int(p2["batch"]), int(p2["N_drawn"]), p2["supported_indices"][:M]))
+        drawn = int(p2["N_drawn"])
+        chk = ci.support_batch(np.array(sup), C.C_SCAN)["in_support"] if sup else np.zeros(0, bool)
+        assert chk.all(), "a regenerated world is not in the support: the regeneration does not match p2's sequence"
         res = pool.map(legs_for, [(t, C.C_SCAN) for t in sup])
         judged = [r for r in res if r["K_judged"]]
         kf = sum(not r["K"] for r in judged); cf = sum(not r["CKM"] for r in judged)
@@ -126,6 +130,27 @@ def main(refined, manifest, expected, sigma_file, p2_file, out, M="100", M0="200
         rr = pool.map(legs_for, [(t, C.C_OURS) for t in T])
         npass = int(sum(r["CKM"] for r in rr))
         rep["leg_size"] = {"n": int(len(T)), "CKM_passing": npass, "cp95": P2.cp(npass, len(T))}
+        save()
+        # 5. planted on the grid
+        pool_rows = ci.rows[ci.phys[ci.rows]]
+        rr_ = pool_rows[rng.choice(len(pool_rows), size=Pn)]
+        Tg = ci.feat(ci.coords(rr_)) + C.c_shift(3.0); Tg = Tg[np.isfinite(Tg).all(axis=1)]
+        Sg = ci.support_batch(Tg, C.C_OURS)["in_support"]
+        rep["planted_on_grid"] = {"n": int(len(Tg)), "S": int(Sg.sum())}
+        save(); print("planted_on_grid", rep["planted_on_grid"], flush=True)
+        # 6. anarchy
+        T6, _ = planted(ci, sig, rng, Pn, False)
+        Z = (rng.normal(size=(len(T6), 3, 3)) + 1j * rng.normal(size=(len(T6), 3, 3))) / math.sqrt(2)
+        four = []
+        for z in Z:
+            q, r = np.linalg.qr(z); U = q * (np.diag(r) / np.abs(np.diag(r)))[None, :]
+            J = float(np.imag(U[0, 1] * U[1, 2] * np.conj(U[0, 2]) * np.conj(U[1, 1])))
+            four.append(np.log([abs(U[0, 1]), abs(U[1, 2]), abs(U[0, 2]), abs(J) + 1e-300]))
+        T6[:, 6:10] = np.array(four)
+        ra = pool.map(legs_for, [(t, C.C_OURS) for t in T6])
+        na = int(sum(r["CKM"] for r in ra))
+        rep["anarchy"] = {"n": int(len(T6)), "CKM_passing": na, "cp95": P2.cp(na, len(T6))}
+        save(); print("anarchy", rep["anarchy"], flush=True)
     rep["seconds"] = round(time.time() - t0, 1); rep["complete"] = True
     pathlib.Path(out).write_text(json.dumps(rep, indent=1, default=float) + "\n", encoding="utf-8")
     print(json.dumps({k: v for k, v in rep.items() if k not in ("planted_chi2_0", "planted_noise_sigma", "markov")}, indent=1, default=float))

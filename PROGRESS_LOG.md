@@ -18230,3 +18230,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - The diagnosis on the real evaluator, the rebuilt generator (cells.py, kten.py; the drivers; the certification's planted gate), the fifth review's two blocking findings fixed and tested, P-541–P-546. 0 of 19.
 - **Landing suite (S276).** full suite 8 003 passed, 2 failed, 69 skipped (55:17, -n 8, beside the refined census on eight workers) on 5dacd6de4: the two failures are B805's attachment locks (P-239, standing). Step B's 72 new locks (tests/stepb) pass.
 
+## 2026-10-30 — S277 Step B's drivers finished; the DR slice reproduced
+
+- p2's supported-world indices and the calibration's regeneration; the on-grid and anarchy controls; the census's evaluator reproduces B1726's DR census to 1.4 × 10⁻⁹; P-547, P-548. 0 of 19.
+- **Landing suite (S277).** full suite 7 999 passed, 6 failed, 69 skipped (1:11:27, -n 8, beside the census on fourteen workers) on 1d67f5cc7: two are B805's attachment locks (P-239, standing); four (the repo gates, B887's gate audit, B1626's relay closure, B1172's runner) were the relay-debt gate firing at midnight on eight relays of 2026-10-09: escalated by name in this amendment (P-549), and those locks rerun green with the gate and point-debt locks (27 passed).
+
