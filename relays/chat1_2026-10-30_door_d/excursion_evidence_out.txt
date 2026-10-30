@@ -1,0 +1,46 @@
+(1) evidence per run, ln(p_G/p_M) in nats (positive favours area)
+   a =  1  height about  0.5   -0.186
+   a =  2  height about  1.0   -0.386
+   a =  3  height about  1.5   -0.295
+   a =  4  height about  2.0   -0.059
+   a =  5  height about  2.5   +0.263
+   a =  6  height about  3.0   +0.644
+   a =  8  height about  4.0   +1.523
+   a =  9  height about  4.5   +2.005
+   a = 10  height about  5.0   +2.506
+   a = 11  height about  5.5   +3.025
+   a = 12  height about  6.0   +3.557
+   a = 15  height about  7.5   +5.220
+   a = 20  height about 10.0   +8.142
+   a = 25  height about 12.5   +11.180
+(2) expected evidence per run (nats)
+   a move-clock world, uncapped: KL(M||G) = 0.1878 (favours the move clock; -0.1878 in (1)'s sign)
+   an area world: KL(G||M) diverges like ln A (the Gauss-Kuzmin tail); capped at A:
+   A =     6   conditioned on a <= A, renormalised: 0.0199   deeper runs lumped into one cell: 0.3399
+   A =    10   conditioned on a <= A, renormalised: 0.0950   deeper runs lumped into one cell: 0.5762
+   A =    20   conditioned on a <= A, renormalised: 0.3442   deeper runs lumped into one cell: 1.0054
+   A =    50   conditioned on a <= A, renormalised: 0.9011   deeper runs lumped into one cell: 1.7190
+   A =   200   conditioned on a <= A, renormalised: 2.0409   deeper runs lumped into one cell: 2.9764
+   A =  1000   conditioned on a <= A, renormalised: 3.5598   deeper runs lumped into one cell: 4.5423
+   an area world's median run: P_G(a <= 2) = 0.5850; a run of 2 carries -0.386 nats
+(3) three runs at given depths: bits of likelihood ratio (positive favours area)
+   runs (4, 4, 4), independent:  -0.26 bits
+   runs (5, 5, 5), independent:   1.14 bits
+   runs (6, 6, 6), independent:   2.79 bits
+   runs (6, 5, 4), independent:   1.22 bits
+   runs (9, 9, 9), independent:   8.68 bits
+   runs (10, 10, 10), independent:  10.85 bits
+   runs (11, 11, 11), independent:  13.09 bits
+   runs (6, 6, 6), consecutive, the exact Gauss-measure cylinder:   2.43 bits
+   runs (9, 9, 9), consecutive, the exact Gauss-measure cylinder:   8.14 bits
+   runs (11, 11, 11), consecutive, the exact Gauss-measure cylinder:  12.48 bits
+(4) THE_BAR's gate used as a yardstick
+   the gate: p < 0.01/53 = 1.887e-04, that is 12.372 bits (stated as 12.4)
+   (a) as a likelihood ratio of 12.37 bits; (b) the SBB bound at that p, 1/(-e p ln p) = 227.4 = 7.83 bits
+   three equal runs first reach (a) at a = 11 (13.09 bits), (b) at a = 9 (8.68 bits)
+   (c) three runs of a = 6: p = 6.622e-03 (7.24 bits); passes the gate: False
+   (c) three runs of a = 8: p = 2.308e-04 (12.08 bits); passes the gate: False
+   (c) three runs of a = 9: p = 3.743e-05 (14.71 bits); passes the gate: True
+(5) a placement by depth, as illustration: the deepest of N runs equals a
+   N = 64, deepest = 6: P_M = 0.2339, P_G = 1.026e-06, +17.80 bits for the move clock
+   N = 64, deepest = 9: P_M = 0.104, P_G = 5.122e-05, +10.99 bits for the move clock
