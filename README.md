@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.59) of 2026-10-28 |
 | arcs with a verdict | 1522: 1037 PROVED, 380 NEGATIVE, 93 OPEN, 12 RETRACTED |
-| points in the register | 517: 203 open (queued, leads, waiting for the owner), 314 closed |
+| points in the register | 523: 209 open (queued, leads, waiting for the owner), 314 closed |
 | the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S265 THE PROGRAMME SO FAR (2026-10-30) |
+| the last landing | S266 THE FINAL ATTACK, STEPS 2-4 AS THEY STAND: STEP A OPEN, THE CENSUS COMPLETE AND UNREAD, THE GENERATOR UNDER REVIEW (2026-10-30) |
 <!-- STATE:END -->
 
 ## Start here

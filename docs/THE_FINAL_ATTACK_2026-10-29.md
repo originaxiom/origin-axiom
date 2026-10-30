@@ -118,6 +118,11 @@ or free and unspecific (free doublets; a chosen c). It fits by capacity. What is
    symmetric points (B1810). **Computed tonight on the six's 2/5 family and left unread:** 900 configurations (ten lines,
    B1726's τ grid), 187 200 rows, no errors; `rigid_census.jsonl` sha256 9c5116649efb372e…, its script e5567219b92d5b0b….
    Only its row count has been read; the sealed test is its first reader. The other 256 lines are owed before the seal.
+   > *2026-10-30 (S266): the other 256 lines are computed (23 040 configurations, 0 errors, one gzip file per line at
+   > 8 significant digits; a storage check against full precision agrees to 5 × 10⁻⁸) and left unread; the manifest's
+   > sha256 is 4683a000bd09dda1cbf22dae68117530fb6c3f09691528347f55177b4a9804d1 (P-495). Step A's first construction failed at its referee: Step A is OPEN (P-518, P-519). The
+   > generator's pre-seal review: NO GO; the τ grid fails the resolution check, so the census is refined before the seal
+   > (P-520 to P-523).*
 4. The compression generator (P-418): description lengths computed by code.
 5. The exclusion map (P-487 (b)): which patterns of the nine no rigid configuration reaches.
 

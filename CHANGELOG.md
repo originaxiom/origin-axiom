@@ -1,5 +1,11 @@
 # Changelog
 
+## S266 THE FINAL ATTACK, STEPS 2-4 AS THEY STAND: STEP A OPEN, THE CENSUS COMPLETE AND UNREAD, THE GENERATOR UNDER REVIEW (2026-10-30)
+
+- **Step A** (P-495's order, step 2): main's first construction (a draft arc, held in the audit room) failed at its hostile referee -- the coupling was not gauge-consistent, the phase of S is a seventh coordinate, the forms were not modular singlets, and 'one free ratio per pair' was a choice. With the heavy ratios tied, as W150's source ties them, the direction might be fixed with one free number. Step A stays OPEN (P-518, P-519).
+- **The rigid-direction census on the full menu** (step 3): the other 256 lines over B1726's τ grid, 23 040 configurations, 0 errors, unread; its manifest hash put on record before any seal (P-495; THE FINAL ATTACK § 5).
+- **The generator** (step 4, P-418): its design drafted, and its hostile pre-seal review says NO GO -- the ranges set the null, support nearly implies specificity under a broad box, the null does not repeat the data's own choices, B1726's τ grid is too coarse for the resolution check, the CKM statistic lacks a tie rule, the look count is open, the bar's cells are not computed as adopted; each is a row (P-520 to P-523), and a revised design gets a second review. Main's P-510 ruling drafted for Step B's card: both legs grade FR-FIB; the CKM cells are in the lane the table leaves open. 0 of 19.
+
 ## S265 THE PROGRAMME SO FAR (2026-10-30)
 
 - **THE PROGRAMME SO FAR** (docs/THE_PROGRAMME_SO_FAR.md; P-514, the owner's word): the programme in plain words, from its idea (the philosophy, as motivation) through the principle and the grammar, what the grammar generates, the frames and identifications, the derived discrete structure, the major negatives with what would reopen each, the values and why they are not derived, the clock and the owner's plenitude, to where it stands. A writer drafted it; three readers checked every sentence and table row against its source (158, 133 and 332), recounting every count; they found 74 defects (2 wrong, 13 stale, 52 overstated, 7 unsupported), and main checked the substantive ones at source and accepted all 74. The README's first row points to it; a lock checks that every arc and register row it cites exists; the genesis-cited gate reads its GENESIS items. 0 of 19.
