@@ -1,0 +1,2 @@
+200 random configurations: all 26 groups identical under the mirror in 200 | errors 0 | not identical []
+EXIT 0

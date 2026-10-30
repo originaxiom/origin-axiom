@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1524 of 1524 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1525 of 1525 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1039)
+## PROVED (1040)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1051,6 +1051,7 @@
 | `B1816` | THE CANONICAL END'S ACCESSORY PARAMETER IS A WEIL-PETERSSON PRIMITIVE (P-481; data-free; refereed hostile, PASS WITH CORRECTIONS): on its uniformising branch B1667's accessory parameter satisfies dC/d(tau-bar) = i h_WP(tau) with C = 2c and h_WP dx^dy = (1/2) dl^dt (Wolpert's normalisation) -- checked against the Fenchel-Nielsen route to 1e-11, its total volume closing on pi^2/12 -- so Weil-Petersson volume (depth tail about 3/(Y + 4 ln2/pi)^2, 0.20 at Y = 3) stands beside hyperbolic area (3/(pi Y), 0.32) as a frame-native clock; the identity holds on any real-holonomy branch, the gate and the volume certify it as WP of tau; nothing here ranks the clocks (the clock stays CHOSEN), and no clock studied picks a point (the WP-to-area ratio varies by 0.5%, peaking at omega). 0 of 19. |  | 1 |
 | `B1819` | THE RIGID CENSUS'S SMOOTHNESS IN TAU (Step B's revision, P-521; aggregates only; data-free): on B1726's grid the frame's outputs are smooth in Im tau almost everywhere -- median second difference 0.0008 decades, 99% below 0.041, 0.54% above 0.08 -- so a quadratic interpolant meets the resolution check on about 99.5% of cells, and the rest (the order-4 lines, q99 1.7034; the curved cells; 7568 degeneracy crossings) needs local refinement, not a 5x grid. The census read once, through a committed script that checks it against its recorded manifest. None of the 19. [Sharpened 2026-10-30 by B1820: per series along Im tau; along Re tau 7.75% exceed and, per configuration, nearly every interval needs refining -- the refinement is near-uniform, about 86 CPU-hours, not targeted.] | yes | 0 |
 | `B1820` | THE RIGID CENSUS'S CURVATURE ALONG Re TAU AND ITS REFINEMENT LIST (Step B's revision, P-521; aggregates and indices only; data-free): along Re tau the grid is the coarse one -- 7.75% of curvatures exceed 0.08 decades (Im tau: 0.54%, B1819) -- and since a configuration computes every output at once, 98.7% of the Re intervals and 67.7% of the Im intervals hold some series that needs refining; the refinement is near-uniform (Re step 0.05, Im step 0.05: about 154 000 configurations, 86 CPU-hours at the current band), computed once after the reach decision. Sharpens B1819. None of the 19. | yes | 0 |
+| `B1821` | THE FRAME'S MIRROR SYMMETRY ON THE CENSUS (B1790's mirror map, confirmed on every direction and line; Step B's census, P-521; data-free): FR-FIB's outputs at (-x+iy, line (a, -b)) equal those at (x+iy, (a, b)) row by row with J -> -J, to 5.8e-07 in log10 on 24 configurations and all thirteen directions, and as reading-multisets on 200 of 200 random configurations; so the census needs only Re tau in [0, 1/2], and J's sign is never predicted (a world and its mirror cost the same). The census's evaluator committed here as its instrument. None of the 19. | yes | 0 |
 
 ## NEGATIVE (380)
 

@@ -1,0 +1,27 @@
+{
+ "id": "B1821",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1726",
+  "B1790",
+  "B1810",
+  "B1819",
+  "B1820"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "FR-FIB as the rigid census computes it (the evaluator committed here)",
+  "object": "the outputs under tau -> -conj(tau) with the line (a, b) -> (a, -b); the period and sign checks beside it",
+  "reach": "class",
+  "hypotheses": "data-free; a numerical identity (row by row to 6e-7 in log10 on 24 configurations; multisets on 200 random); a written proof owed"
+ },
+ "claim_one_line": "THE FRAME'S MIRROR SYMMETRY ON THE CENSUS (B1790's mirror map, confirmed on every direction and line; Step B's census, P-521; data-free): FR-FIB's outputs at (-x+iy, line (a, -b)) equal those at (x+iy, (a, b)) row by row with J -> -J, to 5.8e-07 in log10 on 24 configurations and all thirteen directions, and as reading-multisets on 200 of 200 random configurations; so the census needs only Re tau in [0, 1/2], and J's sign is never predicted (a world and its mirror cost the same). The census's evaluator committed here as its instrument. None of the 19.",
+ "weave_or_thread": "frame (no thread selected)"
+}

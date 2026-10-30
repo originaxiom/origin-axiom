@@ -14957,6 +14957,18 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1821": {
+   "slug": "the frames mirror symmetry in re tau",
+   "motifs": [
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B182": {
    "slug": "multiplicity selection",
    "motifs": [

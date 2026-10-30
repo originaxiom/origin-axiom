@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-10-30, S269: B1821 — the frame's known mirror symmetry (B1790) was confirmed across the whole table, which halves the table the final test needs and means the sign of the CP-violating quantity J can never be predicted, only its size. The final test's scoring rule passed its second hostile review with fixes, all accepted. 0 of 19.)**
+
 **LATEST (2026-10-30, S268: B1820 — the second statistics-only read of the sealed table: it is smooth along one direction of τ but coarse along the other, so the table must be recomputed on a finer grid before the final test is sealed — about 86 hours of computing, to be done once the test's reach is fixed. 0 of 19.)**
 
 **LATEST (2026-10-30, S267: B1819 — the sealed-away table of the frame's outputs was read once, only as statistics of how smoothly it changes, through a tool fixed in the record before it ran. It is smooth almost everywhere, so filling in between its grid points needs only targeted refinement, not a five-times-finer table. 0 of 19.)**

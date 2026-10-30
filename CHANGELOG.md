@@ -1,5 +1,10 @@
 # Changelog
 
+## S269 B1821 THE FRAME'S MIRROR SYMMETRY; STEP B's DESIGN THROUGH ITS SECOND PRE-SEAL REVIEW (2026-10-30)
+
+- **B1821** (PROVED, a confirmation of B1790's mirror map, which preserves both readings there to 7 × 10⁻¹²; data-free): FR-FIB's outputs at (−x + iy, line (α, −b)) equal those at (x + iy, (α, b)) row by row with J → −J, to 6 × 10⁻⁷ in log10 on 24 configurations and all thirteen directions (Step B's second reviewer's check), and as reading-multisets on 200 of 200 random configurations. So the census needs only Re τ ∈ [0, ½], and J's sign is never predicted. The census's evaluator is committed in the arc as its instrument; a lock recomputes one mirror pair and fails a wrong pairing.
+- **Step B's design** passed its second pre-seal review with fixes (GO WITH FIXES), every one accepted: the CKM leg graded against the frame's own CKM marginal (not anarchy), the band from the evaluator's radius column with a finer sub-block (about 146 CPU-hours), K1 re-ruled, p₂ computed before the seal, T added, J in S with its sign unscored, c = 3 for our world, the card before the calibration (P-520–P-522). 0 of 19.
+
 ## S268 B1820 THE RIGID CENSUS'S CURVATURE ALONG Re τ: THE REFINEMENT IS NEAR-UNIFORM (2026-10-30)
 
 - **B1820** (PROVED, an instrument; P-521; aggregates and indices only; data-free): through a tool committed before it ran (S268a), reusing B1819's check against the manifest on record. Along Re τ the census's grid is the coarse one (7.75% of curvatures above 0.08 decades, against 0.54% along Im τ), and since a configuration computes every output at once, 99% of the Re intervals and 68% of the Im intervals hold some series that needs refining. The refinement is near-uniform (a Re step and an Im step of 0.05, about 154 000 configurations, 86 CPU-hours at the current band), computed once after the reach decision. B1819 sharpened by a dated note. 0 of 19.

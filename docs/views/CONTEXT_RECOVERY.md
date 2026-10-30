@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1524 |
-| … PROVED | 1039 |
+| arcs with a verdict file | 1525 |
+| … PROVED | 1040 |
 | … NEGATIVE | 380 |
 | … OPEN | 93 |
 | … RETRACTED | 12 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1821 | PROVED | THE FRAME'S MIRROR SYMMETRY ON THE CENSUS (B1790's mirror map, confirmed on every direction and line; Step B's census, P-521; data-free): FR-FIB's outputs at (-x+iy, line (a, -b)) equal those at (x+iy, (a, b)) row by ro… |
 | B1820 | PROVED | THE RIGID CENSUS'S CURVATURE ALONG Re TAU AND ITS REFINEMENT LIST (Step B's revision, P-521; aggregates and indices only; data-free): along Re tau the grid is the coarse one -- 7.75% of curvatures exceed 0.08 decades (I… |
 | B1819 | PROVED | THE RIGID CENSUS'S SMOOTHNESS IN TAU (Step B's revision, P-521; aggregates only; data-free): on B1726's grid the frame's outputs are smooth in Im tau almost everywhere -- median second difference 0.0008 decades, 99% bel… |
 | B1817 | NEGATIVE | THE FRAME'S OWN LEPTON/DOWN FACTOR AT THE CUSP (strand A's A1; P-397; data-free; refereed hostile, PASS WITH CORRECTIONS): on the slopes of order <= 30 with equal down/lepton second-generation exponents, every converged… |
@@ -42,7 +43,6 @@
 | B1811 | NEGATIVE | THE SYMMETRY-SELECTION VALUES AGAINST THE SIX (P-432's second half; sealed 316457df6; NEGATIVE as sealed): at the four configurations the object's symmetry fixes, no parameter-free output of B1656's frame reaches the me… |
 | B1810 | PROVED | THE SYMMETRY-SELECTION VALUE TABLE (P-432, first half; data-free): the frame's outputs at the four configurations the object's symmetry fixes, for Table T's directions and B1730's complete n = 1 family (13 directions, 8… |
 | B1809 | PROVED | WHAT FOUR FRAMES ON RECORD LEAVE FREE (P-406 re-scoped; a census with one classical lemma; data-free): for every discrete choice on record each of four frames keeps a continuous datum nothing on record fixes or an infin… |
-| B1808 | NEGATIVE | THREE GENERATIONS CUT A CURVE, NOT A POINT (P-419, selection by inversion, in B1804's holomorphic flux frame; data-free; NEGATIVE for 'three selects the moduli'): one LR-invariant flux with index -3 is (1,1) exactly on… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -82,6 +82,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S269 B1821 THE FRAME'S MIRROR SYMMETRY; STEP B's DESIGN THROUGH ITS SECOND PRE-SEAL REVIEW (2026-10-30)
 - S268 B1820 THE RIGID CENSUS'S CURVATURE ALONG Re τ: THE REFINEMENT IS NEAR-UNIFORM (2026-10-30)
 - S267 B1819 THE RIGID CENSUS'S SMOOTHNESS IN τ: AN INTERPOLANT AND TARGETED REFINEMENT, NOT A 5× GRID (2026-10-30)
 - S266 THE FINAL ATTACK, STEPS 2-4 AS THEY STAND: STEP A OPEN, THE CENSUS COMPLETE AND UNREAD, THE GENERATOR UNDER REVIEW (2026-10-30)
@@ -89,11 +90,10 @@
 - S264b REVIEW 73's ANCHOR; THE VIEWS REFRESHED; THE README REWRITTEN FROM BLANK (2026-10-30)
 - S264 REVIEW 73 — the clock decided as CHOSEN, the final attack approved, B1812 narrowed, the fresh clone run (2026-10-30)
 - S263 THE SEATS HARVESTED; THE FINAL ACT'S BAR AND THE MAP ADOPTED; THE TWO TIERS; THE TOOLS ADOPTED AND CALIBRATED (2026-10-30)
-- S262 THE WORKDESK, PHASE 1 (the desk from main's record); THE OWNER'S RULINGS ON THE SITE AND THE PANEL (2026-10-29)
 
 ## The latest campaign line
 
-LATEST (2026-10-30, S268: B1820 — the second statistics-only read of the sealed table: it is smooth along one direction of τ but coarse along the other, so the table must be recomputed on a finer grid before the final test is sealed — about 86 hours of computing, to be done once the test's reach is fixed. 0 of 19.)
+LATEST (2026-10-30, S269: B1821 — the frame's known mirror symmetry (B1790) was confirmed across the whole table, which halves the table the final test needs and means the sign of the CP-violating quantity J can never be predicted, only its size. The final test's scoring rule passed its second hostile review with fixes, all accepted. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

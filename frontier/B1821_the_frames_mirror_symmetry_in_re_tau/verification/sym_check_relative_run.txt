@@ -1,0 +1,54 @@
+{
+ "seed": 20261030,
+ "n": 24,
+ "errors": 0,
+ "outputs_below_1e-5_in_the_six_across_sampled_rows": 3896,
+ "aggregates": {
+  "mirror": {
+   "configs": 24,
+   "row_by_row_max_dlog10": 5.801303633035104e-07,
+   "row_by_row_max_dJ_rel": 5.5578949490171823e-08,
+   "row_by_row_degenerate_mismatches": 0,
+   "row_by_row_vdefined_mismatches": 0,
+   "best_assignment_max_dlog10": 5.801303633035104e-07,
+   "best_assignment_max_dJ_rel": 5.5578949490171823e-08,
+   "best_assignment_degenerate_mismatches": 0,
+   "best_assignment_vdefined_mismatches": 0,
+   "groups_matched_with_identity_reading_map": "624 of 624",
+   "configs_with_best_assignment_dlog10_above_1e-6": 0,
+   "configs_with_row_by_row_dlog10_above_1e-6": 0,
+   "orders_failing_best_assignment_1e-6": []
+  },
+  "T_shift": {
+   "configs": 24,
+   "row_by_row_max_dlog10": 8.12253992066303e-07,
+   "row_by_row_max_dJ_rel": 3.564928296043121e-08,
+   "row_by_row_degenerate_mismatches": 0,
+   "row_by_row_vdefined_mismatches": 0,
+   "best_assignment_max_dlog10": 8.12253992066303e-07,
+   "best_assignment_max_dJ_rel": 3.564928296043121e-08,
+   "best_assignment_degenerate_mismatches": 0,
+   "best_assignment_vdefined_mismatches": 0,
+   "groups_matched_with_identity_reading_map": "624 of 624",
+   "configs_with_best_assignment_dlog10_above_1e-6": 0,
+   "configs_with_row_by_row_dlog10_above_1e-6": 0,
+   "orders_failing_best_assignment_1e-6": []
+  },
+  "sign": {
+   "configs": 24,
+   "row_by_row_max_dlog10": 4.4691019951415e-07,
+   "row_by_row_max_dJ_rel": 2.6781601599230788e-08,
+   "row_by_row_degenerate_mismatches": 0,
+   "row_by_row_vdefined_mismatches": 0,
+   "best_assignment_max_dlog10": 4.4691019951415e-07,
+   "best_assignment_max_dJ_rel": 2.6781601599230788e-08,
+   "best_assignment_degenerate_mismatches": 0,
+   "best_assignment_vdefined_mismatches": 0,
+   "groups_matched_with_identity_reading_map": "624 of 624",
+   "configs_with_best_assignment_dlog10_above_1e-6": 0,
+   "configs_with_row_by_row_dlog10_above_1e-6": 0,
+   "orders_failing_best_assignment_1e-6": []
+  }
+ },
+ "note": "aggregates only; no census file opened; no measured value used; outputs compared in log10, J signed"
+}
