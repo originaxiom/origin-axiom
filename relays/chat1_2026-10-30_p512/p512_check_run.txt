@@ -1,0 +1,147 @@
+C1 exact identities: D1 max 1.07e-14 (< 1e-10), D3 singular values max 2.82e-11 (< 1e-8), c_s max 4.08e-12 (< 1e-8) -> PASS
+  Re 0.1 b 0.05 L_max: R2(1/8) 3.4298922 R2(3/8) 0.8574731 ratio 4.0000000 | St ratio 0.2500000 | x 0.1173113 pred 3.4298922 0.8574731
+  Re 0.1 b 0.05 L_2  : R2(1/8) 2.5911232 R2(3/8) 0.6477808 ratio 4.0000000 | St ratio 0.2500000 | x 0.4427303 pred 2.5911232 0.6477808
+  Re 0.1 b 0.40 L_max: R2(1/8) 3.4298922 R2(3/8) 0.8574731 ratio 4.0000000 | St ratio 0.2500000 | x 0.1173113 pred 3.4298922 0.8574731
+  Re 0.1 b 0.40 L_2  : R2(1/8) 2.5911232 R2(3/8) 0.6477808 ratio 4.0000000 | St ratio 0.2500000 | x 0.4427303 pred 2.5911232 0.6477808
+  Re 0.6 b 0.05 L_max: R2(1/8) 3.4298923 R2(3/8) 0.8574731 ratio 4.0000000 | St ratio 0.2500000 | x 0.1173113 pred 3.4298922 0.8574731
+  Re 0.6 b 0.05 L_2  : R2(1/8) 2.5911232 R2(3/8) 0.6477808 ratio 4.0000001 | St ratio 0.2500000 | x 0.4427303 pred 2.5911232 0.6477808
+  Re 0.6 b 0.40 L_max: R2(1/8) 3.4298922 R2(3/8) 0.8574731 ratio 4.0000000 | St ratio 0.2500000 | x 0.1173113 pred 3.4298922 0.8574731
+  Re 0.6 b 0.40 L_2  : R2(1/8) 2.5911232 R2(3/8) 0.6477808 ratio 4.0000000 | St ratio 0.2500000 | x 0.4427303 pred 2.5911232 0.6477808
+C2 leading formula: max deviation 3.52e-09 (< 1e-05) -> PASS
+C3 the relation: max deviation 1.35e-08 (< 1e-05) -> PASS
+C4 the constant in closed form: max deviation 9.95e-09 (< 1e-05) -> PASS
+C5 ties among N_c = 3's equal-exponent slopes: ['1/4', '1/8', '3/8', '1/12', '5/12'] (predicted ['1/12', '1/8', '1/4', '3/8', '5/12']) -> PASS
+C6 integer limits as multiplicity ratios: 26 graded slopes, 26 agree; 106 not graded -> PASS
+   N_c 2 alpha 1/3    p_d [1, 1] p_l [1, 1] pred S 1    St 1    R2(12) {'0.137|S': 1.0, '0.137|St': 1.0, '0.311|S': 1.0, '0.311|St': 1.0} dev 1.10e-10 agrees
+   N_c 2 alpha 1/6    p_d [0, 0] p_l [1, 1] pred S 4    St 1/4  R2(12) {'0.137|S': 3.99999, '0.137|St': 0.250001, '0.311|S': 3.99999, '0.311|St': 0.250001} dev 2.58e-06 agrees
+   N_c 2 alpha 2/13   p_d [0, 0] p_l [1, 1] pred S 4    St 1/4  R2(12) {'0.137|S': 3.999492, '0.137|St': 0.249992, '0.311|S': 3.999492, '0.311|St': 0.249992} dev 1.27e-04 agrees
+   N_c 2 alpha 3/17   p_d [0, 0] p_l [1, 1] pred S 4    St 1/4  R2(12) {'0.137|S': 3.998208, '0.137|St': 0.249974, '0.311|S': 3.998208, '0.311|St': 0.249974} dev 4.48e-04 agrees
+   N_c 2 alpha 3/19   p_d [0, 0] p_l [1, 1] pred S 4    St 1/4  R2(12) {'0.137|S': 3.99987, '0.137|St': 0.249998, '0.311|S': 3.99987, '0.311|St': 0.249998} dev 3.24e-05 agrees
+   N_c 2 alpha 4/23   p_d [0, 0] p_l [1, 1] pred S 4    St 1/4  R2(12) {'0.137|S': 3.999585, '0.137|St': 0.249995, '0.311|S': 3.999585, '0.311|St': 0.249995} dev 1.04e-04 agrees
+   N_c 2 alpha 8/23   p_d [1, 1] p_l [1, 1] pred S 1    St 1    R2(12) {'0.137|S': 0.999778, '0.137|St': 0.999944, '0.311|S': 0.999778, '0.311|St': 0.999944} dev 2.22e-04 agrees
+   N_c 2 alpha 4/25   p_d [0, 0] p_l [1, 1] pred S 4    St 1/4  R2(12) {'0.137|S': 3.999937, '0.137|St': 0.249999, '0.311|S': 3.999937, '0.311|St': 0.249999} dev 1.58e-05 agrees
+   N_c 2 alpha 9/26   p_d [1, 1] p_l [1, 1] pred S 1    St 1    R2(12) {'0.137|S': 0.999874, '0.137|St': 0.999968, '0.311|S': 0.999873, '0.311|St': 0.999968} dev 1.27e-04 agrees
+   N_c 2 alpha 5/29   p_d [0, 0] p_l [1, 1] pred S 4    St 1/4  R2(12) {'0.137|S': 3.999826, '0.137|St': 0.249999, '0.311|S': 3.999826, '0.311|St': 0.249999} dev 4.36e-05 agrees
+   N_c 2 alpha 10/29  p_d [1, 1] p_l [1, 1] pred S 1    St 1    R2(12) {'0.137|S': 0.999919, '0.137|St': 0.99998, '0.311|S': 0.999919, '0.311|St': 0.99998} dev 8.07e-05 agrees
+   N_c 3 alpha 1/5    p_d [0, 1] p_l [1, 0] pred S 1    St 1    R2(12) {'0.137|S': 1.0, '0.137|St': 1.0, '0.311|S': 1.0, '0.311|St': 1.0} dev 4.46e-07 agrees
+   N_c 3 alpha 2/5    p_d [1, 0] p_l [0, 1] pred S 1    St 1    R2(12) {'0.137|S': 1.0, '0.137|St': 1.0, '0.311|S': 1.0, '0.311|St': 1.0} dev 1.43e-07 agrees
+   N_c 3 alpha 1/10   p_d [0, 0] p_l [1, 1] pred S 4    St 1/4  R2(12) {'0.137|S': 3.99861, '0.137|St': 0.250086, '0.311|S': 3.998613, '0.311|St': 0.250087} dev 3.48e-04 agrees
+   N_c 4 alpha 1/5    p_d [0, 1] p_l [0, 1] pred S 1    St 1    R2(12) {'0.137|S': 1.0, '0.137|St': 1.0, '0.311|S': 1.0, '0.311|St': 1.0} dev 2.71e-07 agrees
+   N_c 4 alpha 2/5    p_d [1, 0] p_l [1, 0] pred S 1    St 1    R2(12) {'0.137|S': 1.000001, '0.137|St': 1.000001, '0.311|S': 1.0, '0.311|St': 1.0} dev 1.01e-06 agrees
+   N_c 4 alpha 1/7    p_d [0, 1] p_l [1, 0] pred S 1    St 1    R2(12) {'0.137|S': 0.999988, '0.137|St': 0.999988, '0.311|S': 0.999973, '0.311|St': 0.999973} dev 2.66e-05 agrees
+   N_c 4 alpha 2/7    p_d [1, 0] p_l [0, 1] pred S 1    St 1    R2(12) {'0.137|S': 1.0, '0.137|St': 1.0, '0.311|S': 1.0, '0.311|St': 1.0} dev 3.95e-10 agrees
+   N_c 4 alpha 3/7    p_d [1, 1] p_l [1, 1] pred S 1    St 1    R2(12) {'0.137|S': 0.999994, '0.137|St': 0.999994, '0.311|S': 0.999974, '0.311|St': 0.999974} dev 2.57e-05 agrees
+   N_c 4 alpha 3/10   p_d [1, 0] p_l [0, 1] pred S 1    St 1    R2(12) {'0.137|S': 1.000346, '0.137|St': 0.999653, '0.311|S': 1.000347, '0.311|St': 0.999654} dev 3.47e-04 agrees
+   N_c 4 alpha 5/14   p_d [1, 0] p_l [1, 0] pred S 1    St 1    R2(12) {'0.137|S': 0.999968, '0.137|St': 0.999961, '0.311|S': 0.999962, '0.311|St': 0.999955} dev 4.53e-05 agrees
+   N_c 5 alpha 1/3    p_d [1, 1] p_l [1, 1] pred S 1    St 1    R2(12) {'0.137|S': 1.0, '0.137|St': 1.0, '0.311|S': 1.0, '0.311|St': 1.0} dev 1.72e-10 agrees
+   N_c 5 alpha 1/6    p_d [0, 1] p_l [0, 1] pred S 1    St 1    R2(12) {'0.137|S': 1.0, '0.137|St': 1.0, '0.311|S': 1.0, '0.311|St': 1.0} dev 3.64e-10 agrees
+   N_c 5 alpha 2/9    p_d [0, 0] p_l [0, 0] pred S 1    St 1    R2(12) {'0.137|S': 1.0, '0.137|St': 1.0, '0.311|S': 1.0, '0.311|St': 1.0} dev 1.47e-07 agrees
+   N_c 5 alpha 1/12   p_d [0, 1] p_l [1, 0] pred S 1    St 1    R2(12) {'0.137|S': 1.000106, '0.137|St': 0.999906, '0.311|S': 1.000086, '0.311|St': 0.999886} dev 1.14e-04 agrees
+   N_c 5 alpha 5/12   p_d [1, 1] p_l [0, 0] pred S 1/4  St 4    R2(12) {'0.137|S': 0.250024, '0.137|St': 3.999587, '0.311|S': 0.250026, '0.311|St': 3.99961} dev 1.03e-04 agrees
+   not graded: N_c 2 alpha 1/7    (not a converged constant (conv False, b-independent True))
+   not graded: N_c 2 alpha 1/8    (tie)
+   not graded: N_c 2 alpha 3/8    (tie)
+   not graded: N_c 2 alpha 2/11   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 2 alpha 4/11   (not a converged constant (conv False, b-independent False))
+   not graded: N_c 2 alpha 5/14   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 2 alpha 2/15   (not a converged constant (conv False, b-independent False))
+   not graded: N_c 2 alpha 3/16   (tie)
+   not graded: N_c 2 alpha 5/16   (tie)
+   not graded: N_c 2 alpha 6/17   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 2 alpha 6/19   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 2 alpha 7/19   (not a converged constant (conv False, b-independent False))
+   not graded: N_c 2 alpha 3/20   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 2 alpha 7/20   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 2 alpha 3/22   (not a converged constant (conv False, b-independent False))
+   not graded: N_c 2 alpha 7/22   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 2 alpha 3/23   (not a converged constant (conv False, b-independent False))
+   not graded: N_c 2 alpha 8/25   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 2 alpha 9/25   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 2 alpha 4/27   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 2 alpha 5/27   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 2 alpha 10/27  (not a converged constant (conv False, b-independent False))
+   not graded: N_c 2 alpha 5/28   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 2 alpha 9/28   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 2 alpha 4/29   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 2 alpha 11/30  (not a converged constant (conv False, b-independent False))
+   not graded: N_c 3 alpha 1/4    (tie)
+   not graded: N_c 3 alpha 1/8    (tie)
+   not graded: N_c 3 alpha 3/8    (tie)
+   not graded: N_c 3 alpha 1/9    (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 3/10   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 1/11   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 1/12   (tie)
+   not graded: N_c 3 alpha 5/12   (tie)
+   not graded: N_c 3 alpha 5/13   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 2/17   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 7/17   (not a converged constant (conv False, b-independent False))
+   not graded: N_c 3 alpha 7/18   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 2/19   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 2/21   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 8/21   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 9/22   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 2/23   (not a converged constant (conv False, b-independent False))
+   not graded: N_c 3 alpha 9/23   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 3/25   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 3/26   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 11/27  (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 3/28   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 11/28  (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 3/29   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 11/29  (not a converged constant (conv False, b-independent True))
+   not graded: N_c 3 alpha 12/29  (not a converged constant (conv False, b-independent False))
+   not graded: N_c 4 alpha 1/10   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 1/12   (tie)
+   not graded: N_c 4 alpha 5/12   (tie)
+   not graded: N_c 4 alpha 1/13   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 4/13   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 1/14   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 3/14   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 1/15   (not a converged constant (conv False, b-independent False))
+   not graded: N_c 4 alpha 1/16   (tie)
+   not graded: N_c 4 alpha 3/16   (tie)
+   not graded: N_c 4 alpha 5/16   (tie)
+   not graded: N_c 4 alpha 7/16   (tie)
+   not graded: N_c 4 alpha 5/17   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 4/19   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 8/19   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 4/21   (not a converged constant (conv False, b-independent False))
+   not graded: N_c 4 alpha 5/23   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 7/23   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 10/23  (not a converged constant (conv False, b-independent False))
+   not graded: N_c 4 alpha 5/24   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 7/24   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 2/25   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 5/26   (not a converged constant (conv False, b-independent False))
+   not graded: N_c 4 alpha 11/26  (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 2/27   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 8/27   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 2/29   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 6/29   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 4 alpha 9/29   (not a converged constant (conv False, b-independent False))
+   not graded: N_c 4 alpha 13/30  (not a converged constant (conv False, b-independent True))
+   not graded: N_c 5 alpha 1/4    (tie)
+   not graded: N_c 5 alpha 1/9    (not a converged constant (conv False, b-independent False))
+   not graded: N_c 5 alpha 4/9    (not a converged constant (conv False, b-independent True))
+   not graded: N_c 5 alpha 2/13   (not a converged constant (conv False, b-independent False))
+   not graded: N_c 5 alpha 1/16   (tie)
+   not graded: N_c 5 alpha 7/16   (tie)
+   not graded: N_c 5 alpha 1/17   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 5 alpha 1/18   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 5 alpha 5/18   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 5 alpha 7/18   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 5 alpha 1/19   (not a converged constant (conv False, b-independent False))
+   not graded: N_c 5 alpha 3/19   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 5 alpha 1/20   (tie)
+   not graded: N_c 5 alpha 3/20   (tie)
+   not graded: N_c 5 alpha 7/20   (tie)
+   not graded: N_c 5 alpha 9/20   (tie)
+   not graded: N_c 5 alpha 4/23   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 5 alpha 8/23   (not a converged constant (conv False, b-independent False))
+   not graded: N_c 5 alpha 4/25   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 5 alpha 11/25  (not a converged constant (conv False, b-independent True))
+   not graded: N_c 5 alpha 9/26   (not a converged constant (conv False, b-independent False))
+   not graded: N_c 5 alpha 5/29   (not a converged constant (conv False, b-independent True))
+   not graded: N_c 5 alpha 10/29  (not a converged constant (conv False, b-independent False))
+   not graded: N_c 5 alpha 13/29  (not a converged constant (conv False, b-independent False))
+verdicts: {'C1': True, 'C2': True, 'C3': True, 'C4': True, 'C5': True, 'C6': True}
