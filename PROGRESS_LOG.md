@@ -18169,3 +18169,8 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The anchor-commit (`99d90d515`), the views refreshed at it, and the owner's front door (P-513). 0 of 19.
 - **Landing suite (S264b).** full suite 7 902 passed, 2 failed, 69 skipped (23:44, -n 12) on f8cf03f1b: the two failures are B805's attachment locks (P-239, standing); the front door's five new locks and the four repointed ones pass.
+
+## 2026-10-30 — S265 THE PROGRAMME SO FAR
+
+- The plain-words account of the programme, checked line by line (P-514). 0 of 19.
+- **Landing suite (S265).** full suite 7 906 passed, 2 failed, 69 skipped (45:33, -n 8, beside the full-menu census on eight workers) on 81867e8b2: the two failures are B805's attachment locks (P-239, standing); the page's four new locks pass.

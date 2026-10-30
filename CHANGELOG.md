@@ -1,5 +1,9 @@
 # Changelog
 
+## S265 THE PROGRAMME SO FAR (2026-10-30)
+
+- **THE PROGRAMME SO FAR** (docs/THE_PROGRAMME_SO_FAR.md; P-514, the owner's word): the programme in plain words, from its idea (the philosophy, as motivation) through the principle and the grammar, what the grammar generates, the frames and identifications, the derived discrete structure, the major negatives with what would reopen each, the values and why they are not derived, the clock and the owner's plenitude, to where it stands. A writer drafted it; three readers checked every sentence and table row against its source (158, 133 and 332), recounting every count; they found 74 defects (2 wrong, 13 stale, 52 overstated, 7 unsupported), and main checked the substantive ones at source and accepted all 74. The README's first row points to it; a lock checks that every arc and register row it cites exists; the genesis-cited gate reads its GENESIS items. 0 of 19.
+
 ## S264b REVIEW 73's ANCHOR; THE VIEWS REFRESHED; THE README REWRITTEN FROM BLANK (2026-10-30)
 
 - **The anchor** (`99d90d515`): the review counter resets; the seven hand-kept navigation views carry Review 73's refresh; INDEX's and MAIN_GOAL's currency re-stamped.

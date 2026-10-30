@@ -22,15 +22,16 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.59) of 2026-10-28 |
 | arcs with a verdict | 1522: 1037 PROVED, 380 NEGATIVE, 93 OPEN, 12 RETRACTED |
-| points in the register | 517: 204 open (queued, leads, waiting for the owner), 313 closed |
+| points in the register | 517: 203 open (queued, leads, waiting for the owner), 314 closed |
 | the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S264b REVIEW 73's ANCHOR; THE VIEWS REFRESHED; THE README REWRITTEN FROM BLANK (2026-10-30) |
+| the last landing | S265 THE PROGRAMME SO FAR (2026-10-30) |
 <!-- STATE:END -->
 
 ## Start here
 
 | to | read |
 |---|---|
+| understand the programme, from its idea to where it stands, in plain words | [`docs/THE_PROGRAMME_SO_FAR.md`](docs/THE_PROGRAMME_SO_FAR.md), every line with its source and status |
 | see the foundations, each item with its status | [`GENESIS.md`](GENESIS.md): the principle, the grammar, the generated states, the root, the frames, the forks, and what is not claimed |
 | see where it stands now | [`docs/CAMPAIGN_STATUS.md`](docs/CAMPAIGN_STATUS.md), its LATEST entries |
 | see the plan | [`docs/THE_FINAL_ATTACK_2026-10-29.md`](docs/THE_FINAL_ATTACK_2026-10-29.md), the order the owner approved on 2026-10-30 |

@@ -19,10 +19,10 @@
 | … OPEN | 93 |
 | … RETRACTED | 12 |
 | register points | 517 |
-| … QUEUED | 189 |
+| … QUEUED | 188 |
 | … LEAD | 10 |
 | … OWNER | 5 |
-| … DONE | 304 |
+| … DONE | 305 |
 | … DECLINED | 9 |
 | harvest rows (the last number) | 1501 |
 | the Standard Model's 19 derived | 0 |
@@ -55,7 +55,6 @@
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 - ** P-515** (2026-10-30) — THE HISTORY CALENDAR (the owner, the night of 2026-10-29/30: a contribution calendar like GitHub's, 'very very sophisticated and detailed, so we can navigate through the history'; then 'thanks Do It'…
-- ** P-514** (2026-10-30) — THE PROGRAMME SO FAR (the owner, 2026-10-30: 'the panel should include the proven summary of what it actually is so far. from philosophy passage to math, all the way to current state and an explanato…
 - ** P-510** (2026-10-30) — KIND_TABLE's KIND CLAUSE FOR THE FRAME'S SUPPORT TESTS (the web seat's map, verified on main): KIND_TABLE's lane for mass ratios is the pair channel, 'CLOSED until one is', and none of B1749, B1753,…
 - ** P-507** (2026-10-29) — THE CONTEXT CARD'S COMPLETENESS CHECKS, FIRST READING (P-506; the card generated at S262): 39 arc folders carry no verdict file (scripts/checks/arc_data.py's resolved classes among them — preregistra…
 - ** P-506** (2026-10-29) — TWO READERS, ONE SOURCE (the owner, 2026-10-29): 'the dashboard should serve us both, me for better visualising the universe we're trying to construct, and the frameworks structure, analyze, and you…
@@ -79,9 +78,11 @@
 - ** P-421** (2026-10-28) — NAME THE END (the web seat's THE EXACT END, reproduced on main; harvest row 1459): the six's best rows take the end as the small-cut norm 2πL + c_s at L = L_max(Im τ) (B1726's compute()), which is no…
 - ** P-419** (2026-10-28) — the same answer, item 3 — SELECTION AS THE OBJECT OF STUDY, by inversion: only one selection mechanism was tried (potentials: mirror-even, landing at fixed points; W51–W175); untried is that the SM's…
 - ** P-418** (2026-10-28) — the owner's question (2026-10-28: analyse the whole framework once more — room for sophistication, what did the period teach): main's answer, item 1 — ONE HONEST SCOREBOARD, total inputs: the 19 cont…
+- ** P-417** (2026-10-28) — the owner (2026-10-28): "how do we make sure all the documentation, all md docs gets updated and reflect the most recent state of the repo, whenever the math and progress affect them? like readme and…
 
 ## The last landings (CHANGELOG)
 
+- S265 THE PROGRAMME SO FAR (2026-10-30)
 - S264b REVIEW 73's ANCHOR; THE VIEWS REFRESHED; THE README REWRITTEN FROM BLANK (2026-10-30)
 - S264 REVIEW 73 — the clock decided as CHOSEN, the final attack approved, B1812 narrowed, the fresh clone run (2026-10-30)
 - S263 THE SEATS HARVESTED; THE FINAL ACT'S BAR AND THE MAP ADOPTED; THE TWO TIERS; THE TOOLS ADOPTED AND CALIBRATED (2026-10-30)
@@ -89,11 +90,10 @@
 - S261 THE FINAL ATTACK, PROPOSED; THE QUEUE CLEARED; THE WEB SEAT'S EVENING RELAYS VERIFIED (2026-10-29)
 - S260 B1816 THE CANONICAL END'S ACCESSORY PARAMETER IS A WEIL-PETERSSON PRIMITIVE; B1817 THE CUSP LEPTON FACTOR DOES NOT TRACK THE COLOUR COUNT; W150 VERIFIED ON MAIN (2026-10-29)
 - S259 THE WEB SEAT'S CRITICAL LINE AND LIMITS, VERIFIED AND HARVESTED (2026-10-29)
-- S258 B1815 THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY (2026-10-29)
 
 ## The latest campaign line
 
-LATEST (2026-10-30, S264: Review 73 — the periodic audit of the record, run first in the owner's approved order for the final attack. Its reader found the towers result too negative: in F-theory's 7-brane frame, inside the very configuration the object's word selects, SU(5), SO(10) and E₆ can sit together at one point as stacks of one kind of brane — the towers can meet there. What stays negative is that the object does not choose where they meet. Two smaller counts and claims were corrected, the whole test suite was run on a fresh copy of the repository (four files the locks read had never been committed; now they are), and the owner's approval of the attack's order is recorded. 0 of 19.)
+LATEST (2026-10-30, S265: THE PROGRAMME SO FAR — the whole programme in plain words, from its idea to where it stands, every line with its source and its status, checked sentence by sentence by three readers before it landed. It is the README's first link and the panel's first page. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
