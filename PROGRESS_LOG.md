@@ -18259,3 +18259,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - Swap grew by ~9 GB at each fork of the 20 GB index; the serial path (one worker, no fork) added and tested equal to the forked run. Verification: the smoke tests, the gates. 0 of 19.
 
+## 2026-10-31 — S284 the pass side moved onto B1741's box; determinism at the census's precision
+
+- The calibration's dress rehearsal had a void pass side (all planted six outside the box, K unjudged); calibration_inbox.py plants on the box; the determinism check compares at the census's 8-digit precision (bound 2.171e-8 in log10; observed 2.16e-8). P-551-P-553. Verification: the two new smoke tests, the guard's refusal of a wrong hash, the gates. 0 of 19.
+

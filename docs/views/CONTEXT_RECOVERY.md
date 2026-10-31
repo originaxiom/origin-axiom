@@ -18,8 +18,8 @@
 | … NEGATIVE | 381 |
 | … OPEN | 93 |
 | … RETRACTED | 12 |
-| register points | 550 |
-| … QUEUED | 210 |
+| register points | 553 |
+| … QUEUED | 213 |
 | … LEAD | 10 |
 | … OWNER | 5 |
 | … DONE | 316 |
@@ -54,6 +54,9 @@
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
+- ** P-553** (2026-10-31) — THE CERTIFICATION's DETERMINISM TOLERANCE WAS MIS-SPECIFIED: 1e-9 in log10 against a census stored at 8 significant digits ('%.8g', relative error up to 5e-8, 2.171e-8 in log10); the first run's larg…
+- ** P-552** (2026-10-31) — THE FULL CALIBRATION IS INFEASIBLE AT THE RUNBOOK's SCOPE: a judged K costs 3-6 minutes serially (S283: 3 in 522 s, 5 in 1678 s), so M = 100, M0 = 200, P = 100 (about 700 K) is about two days, and fo…
+- ** P-551** (2026-10-31) — THE CALIBRATION's PLANTED LEGS WERE VOID (S283's dress rehearsal, read in S284): planted from the frame's whole prior, all 20 pass-side worlds and the 10 each of the leg's size and anarchy had six ou…
 - ** P-549** (2026-10-31) — EIGHT RELAYS OF 2026-10-09 TO THE SM SEAT AND CODEX WENT STALE AT MIDNIGHT (the relay-debt gate's 21 days; found by S277's suite): B1625, B1626, B1628, B1629, B1630-B1631, B1632, B1634 and B1635-B163…
 - ** P-547** (2026-10-30) — THE MIRROR UNREACHABLE (S276, 2026-10-30): `git push backup main` refused -- /Volumes/LaCie answers 'Permission denied' to this session's processes (macOS removable-volume access; earlier pushes this…
 - ** P-543** (2026-10-30) — TWO DIRECTIONS LOOK STRUCTURALLY DEAD FOR OUR WORLD (the interpolant's diagnosis, line (2/5, 1/10)): R and t = -5/288 carry m1/m3 and J at roundoff (<= 1e-13; m1 = 0 where the coupling has rank 2, P-…
@@ -76,12 +79,10 @@
 - ** P-487** (2026-10-29) — THE SUPPORT TEST (main's design from P-485, at the owner's 'lets attack… the final act'): defined on the whole interaction — the fibre frame × the weave's sums × the towers — with c supplied by the i…
 - ** P-485** (2026-10-29) — THE PLENITUDE REFRAMING (the owner, 2026-10-29: 'if all worlds in our framework are allowed to happen… they will happen, so our own'): if every world the framework allows is realised, deriving the SM…
 - ** P-479** (2026-10-29) — THE LIKELIHOOD DESIGN: B1814's D2 used a pair of p-value thresholds; for a two-clock question the likelihood ratio is the most powerful statistic, and p_F(A0) = 0.069 allows at most a Bayes factor of…
-- ** P-478** (2026-10-29) — THE LITERATURE TRANSFERS (reader B): the cosmological measure problem has the same one-parameter shape (Garriga et al.) and never derived its measure; the counting-equals-following test (Bousso–Yang)…
-- ** P-475** (2026-10-29) — DOOR E — THE RISING FACTOR: τ's own one-loop potential runs to the cusp (B1686, B1704) and is a third 'time' never set against the threads' measure; with the measurer (L241) it is the candidate for t…
-- ** P-474** (2026-10-29) — DOOR D — A CLOCK-FREE OBSERVABLE: the dimension d = h/λ of a history's endpoint law is 0 on the principle's golden path, log 2/0.7924 = 0.875 for fair-coin letters (Kinney's dimension of Minkowski's…
 
 ## The last landings (CHANGELOG)
 
+- S284 THE CALIBRATION's PLANTED LEGS WERE VOID; THE PASS SIDE MOVED ONTO B1741's BOX; DETERMINISM AT THE CENSUS's PRECISION (2026-10-31)
 - S283 NO FORK FOR THE BIG INDEX (2026-10-31)
 - S282 p2's WORKERS BOUNDED; THE DRY RUN's MEASUREMENTS (2026-10-31)
 - S281 THE MACHINE PANICKED UNDER THE PRE-SEAL JOBS; STEP B's INDEX MADE MEMORY-LEAN (2026-10-31)
@@ -89,11 +90,10 @@
 - S279 THE a0/F_-2 DUPLICATE CHECK REFUSED THE CENSUS; AN AGGREGATE DIAGNOSTIC COMMITTED BEFORE IT RUNS (2026-10-31)
 - S278 THE REFINED CENSUS COMPLETE; ITS MANIFEST PUSHED BEFORE ANY READ (2026-10-31)
 - S277 STEP B's DRIVERS FINISHED FOR THE RUN; THE CENSUS's EVALUATOR REPRODUCES B1726's DR CENSUS (2026-10-30)
-- S276 STEP B's GENERATOR REBUILT ON THE CENSUS's MEASURED INTERPOLANT; THE FIFTH PRE-SEAL REVIEW ANSWERED (2026-10-30)
 
 ## The latest campaign line
 
-LATEST (2026-10-31, S281: the computer crashed overnight under the test's preparation, because its disk was nearly full and the job asked for more memory than the machine could swap. Nothing was lost: the census was checked byte for byte against its recorded fingerprint. The code no longer keeps duplicate copies of its largest arrays, and the heavy jobs now run one at a time. 0 of 19.)
+LATEST (2026-10-31, S284: a rehearsal of the test's controls found that its planted worlds, drawn from the frame, all fell outside the range where the compression leg is defined, so that part of the rehearsal measured nothing; it is now redone on worlds inside that range. A precision check that failed was found to ask for more digits than the census stores. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

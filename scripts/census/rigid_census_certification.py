@@ -24,8 +24,10 @@ hashed with sha256, kept when the first byte is below 13: 13/256 = 5.1%), at a h
    was 12.8%, all of it roundoff); the removals are counted.  THE GATE: the larger of the miss rate's two-sided 95%
    Clopper-Pearson upper end and its 97.5% bootstrap quantile over cells (the 192 rows of a cell share one tau: the
    design effect) is at most 0.01 -- the numerical frame adds no more misses than the threshold's own 1%.
-2. DETERMINISM: per file, the first chosen cell's NODE is re-evaluated at its stored tau; the census must equal it (largest
-   |log10 difference| at most 1e-9; a structurally zero J, roundoff, is not compared).
+2. DETERMINISM: per file, the first chosen cell's NODE is re-evaluated at its stored tau; the census must equal it at its
+   own precision (census_io.dup_disagreement: it stores 8 significant digits, whose rounding error reaches 2.17e-8 in
+   log10, so the first run's 1e-9 log10 tolerance was mis-specified (S284; its largest difference was 2.16e-8;
+   rigid_census_determinism.py recomputes the check alone); a structurally zero J, roundoff, is not compared).
 3. B1824's duplicate: a0 and F_-2 agree at the census's precision everywhere (census_io.dup_disagreement: within 1e-9
    absolutely, or both below the roundoff floor, or within 1e-6 in log10; the S279 diagnostic found every disagreement of
    the plain log10 check to be roundoff or the precision limit of a tiny m1/m3).
@@ -143,8 +145,7 @@ def task(args):
                 jf = [abs(f_["J"])] if abs(x[7]) > 1e-15 else []
                 for p_, q_ in zip(list(x[3]) + list(x[4]) + list(x[5]) + list(x[6]) + js,
                                   list(f_["up"]) + list(f_["down"]) + list(f_["lepton"]) + list(f_["V"]) + jf):
-                    if p_ > 0 and q_ > 0: det = max(det, abs(math.log10(p_) - math.log10(q_)))
-                    elif (p_ > 0) != (q_ > 0): det = math.inf
+                    det = max(det, dup_disagreement(p_, q_))       # the census's precision rule (it stores 8 digits; S284)
         fresh = Z.rows_at(complex(*Q), (a, b))
         frc = _census([{"tau": Q, "rows": [[Z.DIRS.index(r["direction"]), ("L_max", "L_2").index(r["radius"]), r["reading"],
                                             r["up"], r["down"], r["lepton"], r["V"], r["J"], r["V defined"]] for r in fresh]}], C, reading_index, key)

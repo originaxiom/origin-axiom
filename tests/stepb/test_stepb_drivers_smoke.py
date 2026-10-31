@@ -90,6 +90,31 @@ def test_calibration_driver_end_to_end(census, monkeypatch):
     assert r["planted_chi2_0"]["S"] >= 1                                 # a world planted at chi2 = 0 is in the support
 
 
+def test_calibration_inbox_end_to_end(census, monkeypatch):
+    tmp, man, h, per, sig = census
+    import p2_driver as P2, calibration_inbox as CI_
+    stub_guard(monkeypatch, per)
+    out = tmp / "cal_inbox.json"
+    CI_.main(str(tmp), str(man), h, str(sig), str(out), P="2", seed="3", N_max="200000")
+    r = json.loads(out.read_text())
+    fm = r["frame_mass_in_box"]
+    assert r["complete"] and fm["drawn"] > 0 and 0 < fm["fraction"] <= 1      # the synthetic six lie in the box
+    for k in ("pass_side_in_box_chi2_0", "pass_side_in_box_noise_sigma", "leg_size_in_box", "anarchy_in_box"):
+        assert r[k]["complete"] and r[k]["n"] == 2
+    a = r["pass_side_in_box_chi2_0"]
+    assert a["K_judged"] == a["n"] and a["S"] == a["n"] and a["C_ten_q10_50_90"] is not None   # every in-box world is judged
+
+
+def test_inbox_mask_matches_in_box():
+    import compression as K, calibration_inbox as CI_
+    T = np.array([[-4.2, -9.5, -4.4, -9.0, -5.2, -10.0, 0, 0, 0, 0],             # inside
+                  [-4.2, -9.5, -4.4, -9.0, -0.5, -10.0, 0, 0, 0, 0],             # lepton r2 above the box
+                  [-4.2, -4.0, -4.4, -9.0, -5.2, -10.0, 0, 0, 0, 0],             # up r1 > r2
+                  [-4.2, -np.inf, -4.4, -9.0, -5.2, -10.0, 0, 0, 0, 0]])         # a structural zero
+    assert list(CI_.in_box_mask(T)) == [True, False, False, False]
+    assert math.isinf(K.L_raw(T[1, :6], np.full(6, 0.1))) and math.isfinite(K.L_raw(T[0, :6], np.full(6, 0.1)))
+
+
 def test_run_end_to_end(census, monkeypatch):
     tmp, man, h, per, sig = census
     import p2_driver as P2, run_stepb as RS
