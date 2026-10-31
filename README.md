@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.59) of 2026-10-28 |
 | arcs with a verdict | 1528: 1042 PROVED, 381 NEGATIVE, 93 OPEN, 12 RETRACTED |
-| points in the register | 553: 228 open (queued, leads, waiting for the owner), 325 closed |
+| points in the register | 554: 226 open (queued, leads, waiting for the owner), 328 closed |
 | the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S284 THE CALIBRATION's PLANTED LEGS WERE VOID; THE PASS SIDE MOVED ONTO B1741's BOX; DETERMINISM AT THE CENSUS's PRECISION (2026-10-31) |
+| the last landing | S285 THE PASS SIDE ON B1741's BOX: POWER AT AN ADDRESS, LITTLE A SIGMA AWAY; THE SIX DO NOT COMPRESS; DETERMINISM PASSES (2026-10-31) |
 <!-- STATE:END -->
 
 ## Start here

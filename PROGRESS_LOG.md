@@ -18263,3 +18263,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The calibration's dress rehearsal had a void pass side (all planted six outside the box, K unjudged); calibration_inbox.py plants on the box; the determinism check compares at the census's 8-digit precision (bound 2.171e-8 in log10; observed 2.16e-8). P-551-P-553. Verification: the two new smoke tests, the guard's refusal of a wrong hash, the gates. 0 of 19.
 
+## 2026-10-31 — S285 the pass side on B1741's box; the six do not compress; determinism passes
+
+- In box: the frame's mass 4.74%; at chi2 = 0 all three legs pass on 7 of 10 planted worlds, with noise at sigma on 1 of 10; unrelated and anarchy CKMs pass the CKM leg on 0 of 10 each; C_six's 90th percentile negative in every section. Determinism: 0 of 487692 values beyond the storage bound. The card filled. Verification: the runs' own logs and the valve's (no limit hit), the gates. 0 of 19.
+
