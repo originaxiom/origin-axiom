@@ -1,5 +1,10 @@
 # Changelog
 
+## S282 p2's WORKERS BOUNDED; THE DRY RUN's MEASUREMENTS (2026-10-31)
+
+- **A measured dry run** (one batch of 20 000 null worlds, four workers, under a memory valve): the index builds at a 20.6 GB peak for the 'nine' tree alone; once the workers searched, swap grew to 7.3 GB in a minute and the valve stopped the run. The valve now watches the system's free memory and swap (summed per-process RSS double-counts the pages forked workers share).
+- **The fix:** each worker feeds the batched search 250 worlds at a time, so the candidate-pair arrays stay bounded; the search reports the pairs it examined, and the driver logs them with its peak memory. Tested (the batched search against the single search; p2's run end to end). 0 of 19.
+
 ## S281 THE MACHINE PANICKED UNDER THE PRE-SEAL JOBS; STEP B's INDEX MADE MEMORY-LEAN (2026-10-31)
 
 - **The panic** (~03:35, watchdog timeout, 'LOW swap space'): p2's build of the 5e7-row cell index, three full float64 k-d tree copies heading for ~35-40 GB, ran beside six certification workers on a Data volume 97% full (29 GB free), so swap could not grow. The census and the repository survived (every file matches the pushed manifest; git fsck clean).

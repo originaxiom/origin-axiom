@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
 | arcs with a verdict | 1528: 1042 PROVED, 381 NEGATIVE, 93 OPEN, 12 RETRACTED |
 | points in the register | 550: 225 open (queued, leads, waiting for the owner), 325 closed |
 | the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S281 THE MACHINE PANICKED UNDER THE PRE-SEAL JOBS; STEP B's INDEX MADE MEMORY-LEAN (2026-10-31) |
+| the last landing | S282 p2's WORKERS BOUNDED; THE DRY RUN's MEASUREMENTS (2026-10-31) |
 <!-- STATE:END -->
 
 ## Start here

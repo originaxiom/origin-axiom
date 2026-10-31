@@ -18251,3 +18251,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The machine panicked under p2's build on a 97%-full disk; the census verified intact; trees without copies, built per space; K's chunks by points; peak memory logged; P-550. Verification: the 73 generator tests and the drivers' smoke tests, the gates and the gate locks. 0 of 19.
 
+## 2026-10-31 — S282 p2's workers bounded
+
+- The dry run: a 20.6 GB build; swap grew under four workers; each worker now searches 250 worlds at a time and logs its candidate pairs. Verification: the search and p2 smoke tests, the gates. 0 of 19.
+

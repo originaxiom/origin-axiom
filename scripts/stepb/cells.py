@@ -396,7 +396,7 @@ class CellIndex:
         """S for many worlds (n, 10) at once: per c and bucket one batched ball query; the exact filter on (world, row)
         pairs; a node below T decides at once; the rest by branch-and-bound, world by world, until one cell is below T.
         Returns in_support (n,) and the count of undecided searches."""
-        T10 = np.asarray(T10, float); n = len(T10); ins = np.zeros(n, bool); und = 0
+        T10 = np.asarray(T10, float); n = len(T10); ins = np.zeros(n, bool); und = 0; npairs = 0
         _, buckets = self.trees(space); compsl = list(SPACES[space])
         for cv in c_values:
             todo = np.nonzero(~ins)[0]
@@ -417,7 +417,7 @@ class CellIndex:
                 W.append(w[keep]); R_.append(r[keep])
             if not W:
                 continue
-            w = np.concatenate(W); r = np.concatenate(R_)
+            w = np.concatenate(W); r = np.concatenate(R_); npairs += len(w)
             lb = self.chi2_lower(r, TT[w], comps); keep = lb < T; w, r, lb = w[keep], r[keep], lb[keep]
             if not len(w):
                 continue
@@ -432,7 +432,7 @@ class CellIndex:
                     if st == "below":
                         ins[todo[a]] = True; break
                     und += st == "undecided"
-        return {"in_support": ins, "undecided": und}
+        return {"in_support": ins, "undecided": und, "pairs": npairs}
 
     def global_min(self, t, c_values, comps=tuple(range(10)), space="nine", tol=1e-3):
         """the least chi2 over every cell and the c values (the data's read-out), within the relative tolerance tol: the

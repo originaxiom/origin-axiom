@@ -82,13 +82,21 @@ def null_worlds(ci, sig, rng, n):
     return W[fin], int((~fin).sum())
 
 
+SUB = 250                                     # worlds a search call takes at once: bounds the candidate-pair arrays (S282)
+
+
 def _work(args):
+    """(hits, undecided, hit indices within the chunk, candidate pairs examined) for one chunk, SUB worlds at a time"""
     W, which = args
-    if which == "ten":
-        r = CI.support_batch(W, C.C_SCAN)
-    else:
-        r = CI.support_batch(W, C.C_SCAN, T=C.THRESHOLD_NINE, comps=tuple(range(9)))
-    return int(r["in_support"].sum()), int(r["undecided"]), np.nonzero(r["in_support"])[0].tolist()
+    hits, und, pairs, idx = 0, 0, 0, []
+    for a in range(0, len(W), SUB):
+        if which == "ten":
+            r = CI.support_batch(W[a:a + SUB], C.C_SCAN)
+        else:
+            r = CI.support_batch(W[a:a + SUB], C.C_SCAN, T=C.THRESHOLD_NINE, comps=tuple(range(9)))
+        hits += int(r["in_support"].sum()); und += int(r["undecided"]); pairs += int(r["pairs"])
+        idx.extend(a + int(i) for i in np.nonzero(r["in_support"])[0])
+    return hits, und, idx, pairs
 
 
 def worlds_by_index(ci, sig, seed, batch, N, indices):
@@ -110,7 +118,7 @@ def main(refined, manifest, expected, sigma_file, out, N="1000000", seed="202610
     N, seed, batch, workers, N9 = int(N), int(seed), int(batch), int(workers), int(N9)
     CI, sig, meta = build(refined, manifest, expected, sigma_file)
     rng = np.random.default_rng(seed)
-    hits10 = hits9 = und10 = und9 = done = dropped = pos = done9 = 0; t0 = time.time(); supported = []
+    hits10 = hits9 = und10 = und9 = done = dropped = pos = done9 = pairs10 = 0; t0 = time.time(); supported = []
     ctx = mp.get_context("fork")
     with ctx.Pool(workers) as P:
         while done < N:
@@ -118,25 +126,25 @@ def main(refined, manifest, expected, sigma_file, out, N="1000000", seed="202610
             W, dr = null_worlds(CI, sig, rng, b); dropped += dr
             step = max(1, len(W) // workers + 1)
             starts = list(range(0, len(W), step))
-            for st, (h, u, idx) in zip(starts, P.map(_work, [(W[a:a + step], "ten") for a in starts])):
-                hits10 += h; und10 += u; supported.extend(pos + st + i for i in idx)
+            for st, (h, u, idx, pr) in zip(starts, P.map(_work, [(W[a:a + step], "ten") for a in starts])):
+                hits10 += h; und10 += u; pairs10 += pr; supported.extend(pos + st + i for i in idx)
             if done9 < N9:
-                for h, u, _ in P.map(_work, [(W[a:a + step], "nine") for a in starts]):
+                for h, u, _, _ in P.map(_work, [(W[a:a + step], "nine") for a in starts]):
                     hits9 += h; und9 += u
                 done9 += len(W)
             done += b; pos += len(W)
             ck = dict(meta, N_done=done, dropped_nonfinite=dropped, in_support_ten=hits10, undecided_ten=und10,
-                      in_support_nine=hits9, undecided_nine=und9, N9_done=done9, seconds=round(time.time() - t0, 1), complete=False,
+                      in_support_nine=hits9, undecided_nine=und9, N9_done=done9, seconds=round(time.time() - t0, 1), complete=False, candidate_pairs_ten=pairs10,
                       seed=seed, batch=batch, supported_indices=supported[:5000])
             pathlib.Path(out).with_suffix(".checkpoint.json").write_text(json.dumps(ck, indent=1) + "\n")
-            print("worlds %d (dropped %d)  in support (ten) %d  (nine) %d  undecided %d/%d  %.0f s" % (
-                done, dropped, hits10, hits9, und10, und9, time.time() - t0), flush=True)
+            print("worlds %d (dropped %d)  in support (ten) %d  (nine) %d  undecided %d/%d  pairs %.3g  %.0f s  peak %.1f GB" % (
+                done, dropped, hits10, hits9, und10, und9, pairs10, time.time() - t0, peak_gb()), flush=True)
     n = N - dropped
     rep = dict(meta, N_drawn=N, N=n, dropped_nonfinite=dropped, seed=seed, batch=batch, in_support_ten=hits10, undecided_ten=und10,
                p2=hits10 / n, p2_cp95=(cp(hits10, n)[0], cp(hits10 + und10, n)[1]),
                readout_N9=done9, readout_in_support_nine=hits9, readout_undecided_nine=und9, readout_p2_nine=hits9 / max(1, done9),
                readout_p2_nine_cp95=(cp(hits9, max(1, done9))[0], cp(hits9 + und9, max(1, done9))[1]), seconds=round(time.time() - t0, 1), complete=True,
-               supported_indices=supported[:5000],
+               supported_indices=supported[:5000], candidate_pairs_ten=pairs10,
                definition="p2 = P_null(S): continuous tau, the nine c, chi2_ten < 23.209; null = B1741's box x the frame's "
                           "physical CKM marginal (BL1); the upper end counts undecided worlds as hits")
     pathlib.Path(out).write_text(json.dumps(rep, indent=1) + "\n", encoding="utf-8")
