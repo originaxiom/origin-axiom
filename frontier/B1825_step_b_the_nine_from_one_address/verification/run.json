@@ -1,0 +1,119 @@
+{
+ "manifest_commit": "ece543c98c619ca85bd8af9f40ea44e3b4a3aa51",
+ "load_s": 999.3,
+ "rows": 50612352,
+ "rows_defined": 50343318,
+ "rows_interpolated": 49436345,
+ "choices": 50880,
+ "choices_physical": 40000,
+ "error_configs": 0,
+ "a0_F-2_max_log10": 0.0,
+ "peak_GB_after_build": 28.97,
+ "m": 53,
+ "gate_bits": 12.371776644337924,
+ "J_source": "PDG 2024 CKM review, global fit",
+ "S": {
+  "in_support": false,
+  "undecided": 0,
+  "least_chi2_ten": 291.4096900277224,
+  "address": {
+   "key": [
+    "(Fraction(3, 8), Fraction(3, 8))",
+    "0",
+    "1",
+    "6"
+   ],
+   "tau": [
+    0.093359375,
+    2.742578125
+   ]
+  },
+  "readout_least_chi2_nine": 82.6047634064222,
+  "readout_c1_in_support": false,
+  "readout_fresh_at_address": {
+   "defined": true,
+   "tau": [
+    0.093359375,
+    2.742578125
+   ],
+   "chi2_ten_fresh": 291.4866623550638,
+   "chi2_ten_interpolant": 291.4096900277224
+  }
+ },
+ "status": "DONE",
+ "seconds": 1062.9,
+ "K": {
+  "grade": "JUDGED",
+  "L_six": 36.828958267893995,
+  "C_six": -3.079844503525365,
+  "bits_CKM": -193.95671509890448,
+  "C_ten": -197.03655960242986,
+  "c": 3.0,
+  "choice": 30900,
+  "drop_bits_rel": -52.25015873855722,
+  "converged": true,
+  "reports": {
+   "six_report": {
+    "rows": 29063,
+    "tier2": 4380,
+    "total_bits": -16.45902728787725,
+    "check_rows": 1428,
+    "delta32": 0.0,
+    "ub": 1.526249168009361,
+    "D": 110.90354888959125,
+    "drop_bits_rel": -55.89529070436872
+   },
+   "num_report": {
+    "rows": 717,
+    "tier2": 294,
+    "total_bits": -221.68737071914785,
+    "check_rows": 20,
+    "delta32": 5.684341886080802e-14,
+    "ub": 291.8074925391496,
+    "D": 110.90354888959125,
+    "drop_bits_rel": -52.25015873855722
+   },
+   "marg_report": {
+    "rows": 144834,
+    "tier2": 32205,
+    "total_bits": 3.0155081223017177,
+    "check_rows": 11528,
+    "delta32": 5.241473242456607e-05,
+    "ub": 0.34783773740775753,
+    "D": 110.90354888959125,
+    "drop_bits_rel": -58.7548498907488
+   }
+  }
+ },
+ "CKM": {
+  "p_CKM": 1.0,
+  "clause": {
+   "clause": false,
+   "min_chi2_six": 1.3582125046184093,
+   "best_chi2_4": Infinity,
+   "undecided": 0
+  }
+ },
+ "T": {
+  "area": {
+   "y0": 2.742578125,
+   "t": 0.3056544651759008,
+   "grade": "CONSISTENT"
+  },
+  "decides": "CONSISTENT under area: T is not NEGATIVE under every clock"
+ },
+ "legs": {
+  "S": false,
+  "X2": false,
+  "K": false,
+  "K_grade": "JUDGED",
+  "CKM": false
+ },
+ "p": {
+  "p2_up": 0.004377320104529616,
+  "p_K": 1.0,
+  "p_CKM": 1.0,
+  "gate": 0.00018867924528301886
+ },
+ "reading": "NO SUPPORT: the frame does not contain our world's mixing at a rigid address (NOT FOUND unless the reach and resolution make it EXCLUDED); X2, K and the CKM leg are reported ungraded"
+}
