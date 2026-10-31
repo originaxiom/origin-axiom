@@ -1,5 +1,10 @@
 # Changelog
 
+## S278 THE REFINED CENSUS COMPLETE; ITS MANIFEST PUSHED BEFORE ANY READ (2026-10-31)
+
+- **The refined census** (THE FINAL ATTACK's Step B; P-521): B1810's thirteen directions on all 266 lines of orders 1-12, both radii, the eight readings, at 991 τ points (Re τ 0-½ by 0.05 and a 0.025 sub-block on Im τ 1-1.5; Im τ 1-4): 263 606 configurations, 0 errors, about 5.5 × 10⁷ rows. Run by B1821's committed evaluator on eight workers from 2026-10-30 08:00, with a second set of six taking the remaining lines in reverse from 23:20 (its records checked identical on sample points; each line written atomically, deterministic bytes).
+- **The manifest** (scripts/census/REFINED_CENSUS_MANIFEST.json: every file's sha256 and the manifest's own, 6a0ffb84323e5edcd7a11cfcc4cee0b3db2f8cb2b209e474e0b95b3f60852620) is committed and pushed before any read, as the second pre-seal review required; every Step B script refuses the census unless this commit is on origin/main. Nothing has been read from the census. 0 of 19.
+
 ## S277 STEP B's DRIVERS FINISHED FOR THE RUN; THE CENSUS's EVALUATOR REPRODUCES B1726's DR CENSUS (2026-10-30)
 
 - **p2 records the indices of its supported worlds** in the drawn sequence (never their values), and the calibration regenerates them from p2's seed, so the vacuity calibration needs no second search; the nine-quantity read-out runs on the first 10⁵ worlds.

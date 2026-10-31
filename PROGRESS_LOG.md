@@ -18235,3 +18235,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - p2's supported-world indices and the calibration's regeneration; the on-grid and anarchy controls; the census's evaluator reproduces B1726's DR census to 1.4 × 10⁻⁹; P-547, P-548. 0 of 19.
 - **Landing suite (S277).** full suite 7 999 passed, 6 failed, 69 skipped (1:11:27, -n 8, beside the census on fourteen workers) on 1d67f5cc7: two are B805's attachment locks (P-239, standing); four (the repo gates, B887's gate audit, B1626's relay closure, B1172's runner) were the relay-debt gate firing at midnight on eight relays of 2026-10-09: escalated by name in this amendment (P-549), and those locks rerun green with the gate and point-debt locks (27 passed).
 
+## 2026-10-31 — S278 the refined census complete; its manifest pushed before any read
+
+- 263 606 configurations, 0 errors; the manifest's sha256 6a0ffb84323e5edcd7a11cfcc4cee0b3db2f8cb2b209e474e0b95b3f60852620; no read before this push. Verification: the gates, and the gate and point-debt locks (the commit adds one JSON file and log lines). 0 of 19.
+
