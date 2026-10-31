@@ -113,6 +113,13 @@ def worlds_by_index(ci, sig, seed, batch, N, indices):
     return np.array([out[i] for i in want if i in out])
 
 
+class _Serial:
+    """the pool's map in the parent process (no fork)"""
+    def __enter__(self): return self
+    def __exit__(self, *a): return False
+    def map(self, f, xs): return [f(x) for x in xs]
+
+
 def main(refined, manifest, expected, sigma_file, out, N="1000000", seed="20261031", batch="20000", workers="8", N9="100000"):
     global CI
     N, seed, batch, workers, N9 = int(N), int(seed), int(batch), int(workers), int(N9)
@@ -120,7 +127,8 @@ def main(refined, manifest, expected, sigma_file, out, N="1000000", seed="202610
     rng = np.random.default_rng(seed)
     hits10 = hits9 = und10 = und9 = done = dropped = pos = done9 = pairs10 = 0; t0 = time.time(); supported = []
     ctx = mp.get_context("fork")
-    with ctx.Pool(workers) as P:
+    # workers <= 1: no fork (S283: forking the 20 GB index made macOS grow swap by ~9 GB at once on a nearly full disk)
+    with (ctx.Pool(workers) if workers > 1 else _Serial()) as P:
         while done < N:
             b = min(batch, N - done)
             W, dr = null_worlds(CI, sig, rng, b); dropped += dr

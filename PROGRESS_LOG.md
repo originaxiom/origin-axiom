@@ -18255,3 +18255,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The dry run: a 20.6 GB build; swap grew under four workers; each worker now searches 250 worlds at a time and logs its candidate pairs. Verification: the search and p2 smoke tests, the gates. 0 of 19.
 
+## 2026-10-31 — S283 no fork for the big index
+
+- Swap grew by ~9 GB at each fork of the 20 GB index; the serial path (one worker, no fork) added and tested equal to the forked run. Verification: the smoke tests, the gates. 0 of 19.
+

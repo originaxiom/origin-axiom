@@ -78,7 +78,7 @@ def main(refined, manifest, expected, sigma_file, p2_file, out, M="100", M0="200
     ck = pathlib.Path(out).with_suffix(".checkpoint.json")
     save = lambda: ck.write_text(json.dumps(rep, indent=1, default=float) + "\n")
     ctx = mp.get_context("fork")
-    with ctx.Pool(workers) as pool:
+    with (ctx.Pool(workers) if workers > 1 else P2._Serial()) as pool:      # workers <= 1: no fork (S283)
         # 1. the vacuity calibration
         # the supported worlds p2 found, regenerated from its seed by their indices (no second search)
         sup = list(P2.worlds_by_index(ci, sig, int(p2["seed"]), int(p2["batch"]), int(p2["N_drawn"]), p2["supported_indices"][:M]))

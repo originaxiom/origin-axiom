@@ -1,5 +1,10 @@
 # Changelog
 
+## S283 NO FORK FOR THE BIG INDEX (2026-10-31)
+
+- **The third dry run** (three bounded workers): the system's free memory stayed at 79-84%, but swap grew from 0.6 GB to 9.1 GB in ten seconds at the moment the workers forked (as in the first dry run): macOS answers the fork of a 20 GB process by growing swap at once, on a disk with 27 GB free. The valve stopped the run.
+- **The fix:** with one worker, p2 and the calibration run their searches in the parent process, with no fork; a test checks that the serial run equals the forked one exactly (counts, supported indices, candidate pairs). 0 of 19.
+
 ## S282 p2's WORKERS BOUNDED; THE DRY RUN's MEASUREMENTS (2026-10-31)
 
 - **A measured dry run** (one batch of 20 000 null worlds, four workers, under a memory valve): the index builds at a 20.6 GB peak for the 'nine' tree alone; once the workers searched, swap grew to 7.3 GB in a minute and the valve stopped the run. The valve now watches the system's free memory and swap (summed per-process RSS double-counts the pages forked workers share).

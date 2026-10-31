@@ -111,3 +111,16 @@ def test_run_end_to_end(census, monkeypatch):
     assert r["legs"]["K_grade"] == "JUDGED" and r["K"]["converged"] is True and 0 <= r["p"]["p_K"] <= 1 and 0 <= r["p"]["p_CKM"] <= 1
     assert r["CKM"]["clause"]["clause"] in (True, False)
     assert set(r["legs"]) >= {"S", "X2", "K", "CKM"} and isinstance(r["reading"], str) and r["T"]["area"]["grade"] in ("CONSISTENT", "NEGATIVE")
+
+
+def test_p2_serial_equals_forked(census, monkeypatch):
+    """workers = 1 runs the search in the parent (no fork, S283); the same seed gives the same counts and indices"""
+    tmp, man, h, per, sig = census
+    import p2_driver as P2
+    stub_guard(monkeypatch, per)
+    a, b = tmp / "p2_serial.json", tmp / "p2_forked.json"
+    P2.main(str(tmp), str(man), h, str(sig), str(a), N="1500", seed="5", batch="750", workers="1")
+    P2.main(str(tmp), str(man), h, str(sig), str(b), N="1500", seed="5", batch="750", workers="2")
+    ra, rb = json.loads(a.read_text()), json.loads(b.read_text())
+    for k in ("in_support_ten", "undecided_ten", "readout_in_support_nine", "supported_indices", "candidate_pairs_ten"):
+        assert ra[k] == rb[k], k
