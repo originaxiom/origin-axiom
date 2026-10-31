@@ -41,7 +41,15 @@ def cp(k, n):
     return lo, hi
 
 
-def build(refined, manifest, expected, sigma_file):
+def peak_gb():
+    import resource
+    r = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+    return round(r / (1e9 if sys.platform == "darwin" else 1e6), 2)        # bytes on macOS, KiB on Linux
+
+
+def build(refined, manifest, expected, sigma_file, spaces=("nine",), gauss=()):
+    """the guarded load and the cell index, with only the trees and Gauss tables the caller needs (memory: the machine
+    panicked at S280 when every tree was built beside other jobs on a nearly full disk)"""
     g = require_pushed_manifest(manifest, expected)
     sig = np.array(json.loads(pathlib.Path(sigma_file).read_text())["sigma_natural_log"], float)
     assert sig.shape == (10,) and (sig >= 0.0999).all()
@@ -52,15 +60,16 @@ def build(refined, manifest, expected, sigma_file):
     if ch.R.shape[0] > N_CHOICES_MAX:
         raise SystemExit("refused: %d choices exceed the address code's %d (Kraft)" % (ch.R.shape[0], N_CHOICES_MAX))
     ci = CellIndex(cen.F, cen.J, pts, ch, sig)
-    for s in ("nine", "six", "ckm3"):
-        ci.trees(s)
-    for n in (4, 16, 32, 64):
+    for sp in spaces:
+        ci.trees(sp)
+    for n in gauss:
         ci.gauss_table(n)
     ci.measure_totals()
+    print("built: %d rows, peak %.1f GB" % (len(ci.rows), peak_gb()), flush=True)
     return ci, sig, {"manifest_commit": g["manifest_commit"], "load_s": round(time.time() - t0, 1), "rows": int(len(cen.F)),
                      "rows_defined": int(len(ci.rows)), "rows_interpolated": int(ci.ok.sum()), "choices": int(ch.R.shape[0]),
                      "choices_physical": int(ci.physical_choice.sum()), "error_configs": len(info["errors"]),
-                     "a0_F-2_max_log10": info["worst_a0_Fm2_log10"]}
+                     "a0_F-2_max_log10": info["worst_a0_Fm2_log10"], "peak_GB_after_build": peak_gb()}
 
 
 def null_worlds(ci, sig, rng, n):

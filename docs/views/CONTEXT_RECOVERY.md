@@ -18,11 +18,11 @@
 | … NEGATIVE | 381 |
 | … OPEN | 93 |
 | … RETRACTED | 12 |
-| register points | 549 |
+| register points | 550 |
 | … QUEUED | 210 |
 | … LEAD | 10 |
 | … OWNER | 5 |
-| … DONE | 315 |
+| … DONE | 316 |
 | … DECLINED | 9 |
 | harvest rows (the last number) | 1509 |
 | the Standard Model's 19 derived | 0 |
@@ -82,6 +82,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S281 THE MACHINE PANICKED UNDER THE PRE-SEAL JOBS; STEP B's INDEX MADE MEMORY-LEAN (2026-10-31)
 - S280 THE DUPLICATE CHECK MADE PRECISION-AWARE, AFTER ITS AGGREGATE DIAGNOSTIC (2026-10-31)
 - S279 THE a0/F_-2 DUPLICATE CHECK REFUSED THE CENSUS; AN AGGREGATE DIAGNOSTIC COMMITTED BEFORE IT RUNS (2026-10-31)
 - S278 THE REFINED CENSUS COMPLETE; ITS MANIFEST PUSHED BEFORE ANY READ (2026-10-31)
@@ -89,11 +90,10 @@
 - S276 STEP B's GENERATOR REBUILT ON THE CENSUS's MEASURED INTERPOLANT; THE FIFTH PRE-SEAL REVIEW ANSWERED (2026-10-30)
 - S275 THE NOTES OWED SINCE B1822: T-NORM IS A CHOSEN INPUT, DATED WHERE THE RECORD USED IT (2026-10-30)
 - S274 THE WEB SEAT'S FIVE RELAYS VERIFIED AND HARVESTED; B933's SYMMETRY CORRECTED (2026-10-30)
-- S273 B1823 STEP A v2 NEGATIVE AS A COMPRESSION; B1824 TWO DECLARED DIRECTIONS ARE ONE (2026-10-30)
 
 ## The latest campaign line
 
-LATEST (2026-10-31, S278: the census the final attack's Step B grades is complete: the frame computed at about fifty-five million addresses, with no errors. Its fingerprint is on record before anyone has looked at it. 0 of 19.)
+LATEST (2026-10-31, S281: the computer crashed overnight under the test's preparation, because its disk was nearly full and the job asked for more memory than the machine could swap. Nothing was lost: the census was checked byte for byte against its recorded fingerprint. The code no longer keeps duplicate copies of its largest arrays, and the heavy jobs now run one at a time. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

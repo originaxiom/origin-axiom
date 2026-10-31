@@ -18247,3 +18247,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The diagnostic: every disagreement is roundoff against roundoff or a tiny m1/m3's precision limit; the loader's and the certification's rule fixed and tested. Verification: the loader and guard locks, the gates and the gate locks. 0 of 19.
 
+## 2026-10-31 — S281 the panic; the index made memory-lean
+
+- The machine panicked under p2's build on a 97%-full disk; the census verified intact; trees without copies, built per space; K's chunks by points; peak memory logged; P-550. Verification: the 73 generator tests and the drivers' smoke tests, the gates and the gate locks. 0 of 19.
+

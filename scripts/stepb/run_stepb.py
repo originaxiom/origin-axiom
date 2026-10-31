@@ -48,7 +48,7 @@ def main(refined, manifest, expected, sigma_file, p2_file, m, J, out):
     m = int(m); J = float(J); t0 = time.time()
     if m < 53:
         sys.exit("m is the joint look ledger's count at the seal plus one, at least 53")
-    ci, sig, meta = build(refined, manifest, expected, sigma_file)
+    ci, sig, meta = build(refined, manifest, expected, sigma_file, spaces=("nine", "six", "ckm3"), gauss=(4, 16, 32, 64))
     t10 = targets(J)
     rep = dict(meta, m=m, gate_bits=K.gate_bits(m), J_source="PDG 2024 CKM review, global fit")
     def save(status):

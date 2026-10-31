@@ -1,5 +1,10 @@
 # Changelog
 
+## S281 THE MACHINE PANICKED UNDER THE PRE-SEAL JOBS; STEP B's INDEX MADE MEMORY-LEAN (2026-10-31)
+
+- **The panic** (~03:35, watchdog timeout, 'LOW swap space'): p2's build of the 5e7-row cell index, three full float64 k-d tree copies heading for ~35-40 GB, ran beside six certification workers on a Data volume 97% full (29 GB free), so swap could not grow. The census and the repository survived (every file matches the pushed manifest; git fsck clean).
+- **The fixes** (scripts/stepb): the k-d trees reference per-bucket float64 data without copying, with no full-size temporary, and are built per space on demand (p2 builds one of the three); K's quadrature chunks by points (about 168 MB a chunk); every driver logs its peak memory. Heavy jobs now run one at a time, sized against free disk (P-550). The 73 generator tests and the driver smoke tests pass. 0 of 19.
+
 ## S280 THE DUPLICATE CHECK MADE PRECISION-AWARE, AFTER ITS AGGREGATE DIAGNOSTIC (2026-10-31)
 
 - **The diagnostic** (S279's committed script, aggregate counts only): of 42166592 a0/F_-2 pairs, 2130760 disagree beyond 1e-6 in log10 with BOTH values below the roundoff floor 1e-12 (structural zeros; up to 62 decades between two roundoff values), 2184 with both above it (all m1/m3, at Im τ 3.5-4, orders 2, 6 and 10; at most 3.3e-05 in log10: the double-precision limit of a tiny singular-value ratio), and none with one value on each side; 10220 pairs have one exact zero. B1824's identity holds in the census; the check was mis-specified.

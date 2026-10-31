@@ -71,7 +71,7 @@ def cp_lower(k, n):
 
 def main(refined, manifest, expected, sigma_file, p2_file, out, M="100", M0="200", P="100", seed="20261101", workers="8"):
     M, M0, Pn, seed, workers = int(M), int(M0), int(P), int(seed), int(workers)
-    P2.CI, sig, meta = P2.build(refined, manifest, expected, sigma_file)
+    P2.CI, sig, meta = P2.build(refined, manifest, expected, sigma_file, spaces=("nine", "six", "ckm3"), gauss=(4, 16, 32, 64))
     ci = P2.CI
     p2 = json.loads(pathlib.Path(p2_file).read_text()); p2_lo = float(p2["p2_cp95"][0])
     rng = np.random.default_rng(seed); rep = dict(meta, gate_bits_m53=GATE, p2_lo=p2_lo); t0 = time.time()

@@ -36,7 +36,7 @@ CHECK_MASS_BITS = 20.0
 CHECK_TOL_BITS = 0.01
 DROP_BITS = 30.0
 D0 = 2 * math.log(2) * 40.0
-CHUNK_ROWS = 4096
+CHUNK_POINTS = 1 << 21          # 2M points x 10 features x 8 bytes = 168 MB a chunk
 
 
 def lse2(a) -> float:
@@ -89,10 +89,11 @@ class Integrand:
 def integrals(ci, rows, g: Integrand, n: int):
     """per-row log2 integrals at n x n Gauss points (chunked)"""
     rows = np.asarray(rows, np.int64); out = np.empty(len(rows))
-    for a in range(0, len(rows), CHUNK_ROWS):
-        r = rows[a:a + CHUNK_ROWS]
+    step = max(16, CHUNK_POINTS // (n * n))                        # bounded transients: about CHUNK_POINTS points a chunk
+    for a in range(0, len(rows), step):
+        r = rows[a:a + step]
         V, LW = ci.gauss(r, n)
-        out[a:a + CHUNK_ROWS] = lse2_rows(LW + g(V))
+        out[a:a + step] = lse2_rows(LW + g(V))
     return out
 
 

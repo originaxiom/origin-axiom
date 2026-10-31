@@ -191,28 +191,35 @@ class CellIndex:
 
     # ---- the k-d trees (one per space, bucketed by the rows' radii) ----
     def trees(self, space):
+        """the space's k-d trees, one per radius bucket: (rows, tree, the bucket's largest radius, the bucket's sigma-scaled
+        float64 data, which the tree references without a copy).  Memory: one float64 copy of the space's columns over the
+        rows with finite values and radii (no full-size temporary; finiteness checked chunk by chunk on the float32 data)."""
         if space not in self._trees:
-            comps = list(SPACES[space]); Y = self.F[:, comps].astype(np.float64) / self.sig[comps]
-            fin = self.rows[np.isfinite(Y[self.rows]).all(axis=1) & np.isfinite(self.rad[space][self.rows])]
+            comps = list(SPACES[space]); sc = self.sig[comps]
+            keep = np.zeros(len(self.rows), bool)
+            for a in range(0, len(self.rows), CHUNK):
+                r = self.rows[a:a + CHUNK]
+                keep[a:a + CHUNK] = np.isfinite(self.F[r][:, comps]).all(axis=1) & np.isfinite(self.rad[space][r])
+            fin = self.rows[keep]; rr = self.rad[space][fin]
             out = []
             for lo_, hi_ in zip(BUCKETS[:-1], BUCKETS[1:]):
-                rr = self.rad[space][fin]
                 sel = fin[(rr >= lo_) & (rr < hi_)]
                 if len(sel):
-                    out.append((sel, cKDTree(Y[sel]), float(self.rad[space][sel].astype(np.float64).max())))
-            self._trees[space] = (Y, out)
+                    Yb = np.ascontiguousarray(self.F[sel][:, comps].astype(np.float64) / sc)
+                    out.append((sel, cKDTree(Yb, copy_data=False), float(self.rad[space][sel].astype(np.float64).max()), Yb))
+            self._trees[space] = (None, out)
         return self._trees[space]
 
     def candidates(self, space, t, x2max):
         """rows whose cells can reach chi2 <= x2max in the space's components (the ball bound; a superset of the exact
         lower-bound filter, which the caller applies)"""
-        Y, buckets = self.trees(space); comps = list(SPACES[space]); y = t[comps] / self.sig[comps]
+        _, buckets = self.trees(space); comps = list(SPACES[space]); y = t[comps] / self.sig[comps]
         out = []
-        for sel, tree, rmax in buckets:
+        for sel, tree, rmax, Yb in buckets:
             hit = tree.query_ball_point(y, math.sqrt(x2max) + rmax + SLACK)
             if hit:
-                c = sel[np.asarray(hit, np.int64)]
-                d = np.linalg.norm(Y[c] - y, axis=1)
+                h = np.asarray(hit, np.int64); c = sel[h]
+                d = np.linalg.norm(Yb[h] - y, axis=1)
                 out.append(c[d <= math.sqrt(x2max) + self.rad[space][c].astype(np.float64) + SLACK])
         return np.concatenate(out) if out else np.zeros(0, np.int64)
 
@@ -390,7 +397,7 @@ class CellIndex:
         pairs; a node below T decides at once; the rest by branch-and-bound, world by world, until one cell is below T.
         Returns in_support (n,) and the count of undecided searches."""
         T10 = np.asarray(T10, float); n = len(T10); ins = np.zeros(n, bool); und = 0
-        Y, buckets = self.trees(space); compsl = list(SPACES[space])
+        _, buckets = self.trees(space); compsl = list(SPACES[space])
         for cv in c_values:
             todo = np.nonzero(~ins)[0]
             if not len(todo):
@@ -398,13 +405,14 @@ class CellIndex:
             TT = T10[todo] - C.c_shift(cv)
             yq = TT[:, compsl] / self.sig[compsl]
             W, R_ = [], []
-            for sel, tree, rmax in buckets:
+            for sel, tree, rmax, Yb in buckets:
                 hits = tree.query_ball_point(yq, math.sqrt(T) + rmax + SLACK)
                 lens = np.fromiter((len(h) for h in hits), np.int64, len(hits))
                 if not lens.sum():
                     continue
-                w = np.repeat(np.arange(len(todo)), lens); r = sel[np.concatenate([np.asarray(h, np.int64) for h in hits if len(h)])]
-                d = np.linalg.norm(Y[r] - yq[w], axis=1)
+                w = np.repeat(np.arange(len(todo)), lens); loc = np.concatenate([np.asarray(h, np.int64) for h in hits if len(h)])
+                r = sel[loc]
+                d = np.linalg.norm(Yb[loc] - yq[w], axis=1)
                 keep = d <= math.sqrt(T) + self.rad[space][r].astype(np.float64) + SLACK
                 W.append(w[keep]); R_.append(r[keep])
             if not W:
