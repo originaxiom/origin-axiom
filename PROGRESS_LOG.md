@@ -18239,3 +18239,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - 263 606 configurations, 0 errors; the manifest's sha256 6a0ffb84323e5edcd7a11cfcc4cee0b3db2f8cb2b209e474e0b95b3f60852620; no read before this push. Verification: the gates, and the gate and point-debt locks (the commit adds one JSON file and log lines). 0 of 19.
 
+## 2026-10-31 — S279 the duplicate check refused the census; the diagnostic committed first
+
+- The loader's a0/F_-2 check found 18.4 in log10; the aggregate diagnostic is committed and pushed before it runs. Verification: the gates and the gate locks (one new script and log lines). 0 of 19.
+

@@ -1,5 +1,10 @@
 # Changelog
 
+## S279 THE a0/F_-2 DUPLICATE CHECK REFUSED THE CENSUS; AN AGGREGATE DIAGNOSTIC COMMITTED BEFORE IT RUNS (2026-10-31)
+
+- The census loader (census_io, committed) refused the refined census: a0 and F_-2, one direction by B1824, differ somewhere by 18.4 in log10. p2 and the structure count stopped at load; the certification was stopped. Nothing else has been read.
+- scripts/census/a0_fm2_duplicate_diagnostic.py (aggregate-only; guarded by the pushed manifest) counts the disagreements by class: both values above the roundoff floor 1e-12 (genuine), one below, both below (two roundoff values), by output, Im τ band, order and mixing definition. Committed and pushed before it runs. 0 of 19.
+
 ## S278 THE REFINED CENSUS COMPLETE; ITS MANIFEST PUSHED BEFORE ANY READ (2026-10-31)
 
 - **The refined census** (THE FINAL ATTACK's Step B; P-521): B1810's thirteen directions on all 266 lines of orders 1-12, both radii, the eight readings, at 991 τ points (Re τ 0-½ by 0.05 and a 0.025 sub-block on Im τ 1-1.5; Im τ 1-4): 263 606 configurations, 0 errors, about 5.5 × 10⁷ rows. Run by B1821's committed evaluator on eight workers from 2026-10-30 08:00, with a second set of six taking the remaining lines in reverse from 23:20 (its records checked identical on sample points; each line written atomically, deterministic bytes).
