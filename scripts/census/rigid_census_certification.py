@@ -26,7 +26,9 @@ hashed with sha256, kept when the first byte is below 13: 13/256 = 5.1%), at a h
    design effect) is at most 0.01 -- the numerical frame adds no more misses than the threshold's own 1%.
 2. DETERMINISM: per file, the first chosen cell's NODE is re-evaluated at its stored tau; the census must equal it (largest
    |log10 difference| at most 1e-9; a structurally zero J, roundoff, is not compared).
-3. B1824's duplicate: the largest difference between the a0 and F_-2 rows over the whole census, at most 1e-6 in log10.
+3. B1824's duplicate: a0 and F_-2 agree at the census's precision everywhere (census_io.dup_disagreement: within 1e-9
+   absolutely, or both below the roundoff floor, or within 1e-6 in log10; the S279 diagnostic found every disagreement of
+   the plain log10 check to be roundoff or the precision limit of a tiny m1/m3).
 4. Read-outs (never gating): the ten-output worlds' miss rate alone; the pointwise |log10 interpolant - log10 fresh| at Q,
    per output and overall, with the fraction above half of ALLOW (0.0217 log10); the planted worlds' best chi2 quantiles;
    the undecided searches; the node-only owners; the outputs the floor rule removed.
@@ -97,7 +99,7 @@ def task(args):
     import numpy as np
     import cm_zero_line as Z
     import stepb_core as C
-    from census_io import reading_index, line_key
+    from census_io import reading_index, line_key, dup_disagreement
     from assemble import Choices
     from cells import CellIndex
     from scipy.stats import chi2 as chi2d
@@ -112,11 +114,11 @@ def task(args):
     for rec in recs:
         by = {(x[0], x[1], x[2]): x for x in rec["rows"]}
         for (dd, rr, lab), x in by.items():
-            if dd == FM2:
+            if dd == FM2:                                                 # the loader's rule (census_io.dup_disagreement)
                 y = by[(A0, rr, lab)]; both = bool(x[8]) and bool(y[8])
-                for p_, q_ in zip(list(x[3]) + list(x[4]) + list(x[5]) + (list(x[6]) if both else []),
-                                  list(y[3]) + list(y[4]) + list(y[5]) + (list(y[6]) if both else [])):
-                    if p_ > 0 and q_ > 0: dup = max(dup, abs(math.log10(p_) - math.log10(q_)))
+                for p_, q_ in zip(list(x[3]) + list(x[4]) + list(x[5]) + ((list(x[6]) + [abs(x[7])]) if both else []),
+                                  list(y[3]) + list(y[4]) + list(y[5]) + ((list(y[6]) + [abs(y[7])]) if both else [])):
+                    dup = max(dup, dup_disagreement(p_, q_))
     cen = _census(recs, C, reading_index, key); Fe = C.features(cen)
     pts = [tuple(rec["tau"]) for rec in recs]
     ch = Choices(cen, Fe, pts)

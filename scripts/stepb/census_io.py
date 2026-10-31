@@ -6,7 +6,9 @@
   identically for data and null).
 - The reading label (B1821's evaluator) is per sector (up, down, lepton) "S" or "S~"; its index is 4u + 2d + l, S~ = 1.
 - The directions are B1810's thirteen (B1821's DIRS); a0 (index 1) and F_-2 (index 6) are one direction (B1824): the loader
-  keeps a0's rows and drops F_-2's after checking, per configuration, that the two agree within `dup_tol` (log10).
+  keeps a0's rows and drops F_-2's after checking, per configuration, that the two agree at the census's precision
+  (dup_disagreement: within 1e-9 absolutely, or both below the roundoff floor, or within 1e-6 in log10; the moduli and |J|
+  where both define the mixing); `dup_tol` bounds what remains.
 - The mirror (B1821): the census covers Re tau in [0, 1/2]; the configuration (-x + i y, (a, -b)) is (x + i y, (a, b)) with
   J -> -J.  `mirror_partner` gives each line's partner class in the menu, for the tau mixture over the whole band."""
 from __future__ import annotations
@@ -19,6 +21,26 @@ import numpy as np
 import stepb_core as C
 
 A0, FM2 = 1, 6
+DUP_TOL = 1e-6          # log10: the identity's agreement for values well above the precision limit
+DUP_FLOOR = 1e-12       # the roundoff floor (cells.FLOOR): below it an output is a structural zero (or exact 0)
+DUP_ABS = 1e-9          # the double-precision limit of a ratio of singular values: Weyl's bound gives an absolute error of
+                        # order c eps, c up to ~1e6 where F_-2's components span e^(pi Im tau)/4 ~ 7e4 at Im tau = 4 (the
+                        # S279 diagnostic: 2184 physical disagreements, all m1/m3 at Im 3.5-4, at most 3.3e-5 in log10)
+
+
+def dup_disagreement(x: float, y: float) -> float:
+    """0 when an a0 value and its F_-2 twin agree at the census's precision (B1824: one direction), else their |log10|
+    difference (inf for a physical value paired with a structural zero).  They agree when they differ by at most DUP_ABS,
+    or both lie below the floor (two roundoff values, or exact zeros), or their log10 difference is at most DUP_TOL."""
+    if abs(x - y) <= DUP_ABS:
+        return 0.0
+    xb, yb = x < DUP_FLOOR, y < DUP_FLOOR
+    if xb and yb:
+        return 0.0
+    if xb != yb:
+        return math.inf
+    d = abs(math.log10(x) - math.log10(y))
+    return 0.0 if d <= DUP_TOL else d
 
 
 def sha256(path) -> str:
@@ -87,14 +109,13 @@ def load(directory, manifest: dict, dup_tol: float = 1e-6):
                         twin = by[(A0, r, lab)]
                         both_v = bool(row[8]) and bool(twin[8])          # |V| is compared only where both define it
                         for x, y in zip(_flat(row, both_v), _flat(twin, both_v)):
-                            if x > 0 and y > 0:
-                                worst_dup = max(worst_dup, abs(math.log10(x) - math.log10(y)))
+                            worst_dup = max(worst_dup, dup_disagreement(x, y))
                         continue
                     _, _, _, up, dn, lp, V, J, vd = row
                     cols["cfg"].append(ci); cols["d"].append(d); cols["r"].append(r); cols["k"].append(reading_index(lab))
                     cols["m"].append([up, dn, lp]); cols["v"].append(V); cols["J"].append(J); cols["vdef"].append(bool(vd))
     if worst_dup > dup_tol:
-        raise ValueError("a0 and F_-2 differ by %.3g in log10 (B1824 says they are one direction)" % worst_dup)
+        raise ValueError("a0 and F_-2 disagree beyond the census's precision (%.3g in log10; B1824 says they are one direction)" % worst_dup)
     cen = C.Census(cfg=np.array(cols["cfg"]), d=np.array(cols["d"]), r=np.array(cols["r"]), k=np.array(cols["k"]),
                    m=np.array(cols["m"], float), v=np.array(cols["v"], float), J=np.array(cols["J"], float),
                    vdef=np.array(cols["vdef"]), lines=cfg_l, tau=np.array(cfg_t, float))
@@ -103,7 +124,7 @@ def load(directory, manifest: dict, dup_tol: float = 1e-6):
 
 def _flat(row, with_v: bool):
     _, _, _, up, dn, lp, V, J, _ = row
-    return list(up) + list(dn) + list(lp) + (list(V) if with_v else [])
+    return list(up) + list(dn) + list(lp) + ((list(V) + [abs(J)]) if with_v else [])
 
 
 # ---- the streaming loader (the fourth review's F7): compact arrays, no per-row Python containers ----
@@ -162,8 +183,7 @@ def load_compact(directory, manifest: dict, n_cfg_expected: int, dup_tol: float 
                     if dd == FM2:
                         y = by[(A0, rr, lab)]; both_v = bool(x[8]) and bool(y[8])
                         for a, b in zip(_flat(x, both_v), _flat(y, both_v)):
-                            if a > 0 and b > 0:
-                                worst = max(worst, abs(math.log10(a) - math.log10(b)))
+                            worst = max(worst, dup_disagreement(a, b))
                 keep = [x for x in rec["rows"] if x[0] != FM2]
                 assert len(keep) == ROWS_KEPT_PER_CFG, len(keep)
                 Fi, di, ri, ki, vi, Ji = _row_features(keep)
@@ -172,7 +192,7 @@ def load_compact(directory, manifest: dict, n_cfg_expected: int, dup_tol: float 
                 F[sl], d[sl], r[sl], k[sl], vdef[sl], cfg[sl], Jsg[sl] = Fi, di, ri, ki, vi, ci, Ji
                 pos += len(keep)
     if worst > dup_tol:
-        raise ValueError("a0 and F_-2 differ by %.3g in log10 (B1824 says they are one direction)" % worst)
+        raise ValueError("a0 and F_-2 disagree beyond the census's precision (%.3g in log10; B1824 says they are one direction)" % worst)
     if pos != n:
         raise ValueError("row count %d differs from the expected %d (%d error configurations)" % (pos, n, len(errors)))
     return CompactCensus(F=F, J=Jsg, cfg=cfg, d=d, r=r, k=k, vdef=vdef, lines=lines, tau=np.array(taus, float)), \

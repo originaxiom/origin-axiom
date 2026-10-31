@@ -94,10 +94,23 @@ def test_compact_loader_keeps_J_signed(tmp_path):
         recs = [json.loads(l) for l in gzip.open(tmp_path / name, "rt")]
         for rec in recs:
             for i, row in enumerate(rec["rows"]):
-                row[7] = (-1) ** i * 1e-5 * (1 + 0.01 * i)
+                dd = 1 if row[0] == 6 else row[0]                          # F_-2 keeps a0's J (one direction, B1824)
+                j = dd * 16 + row[1] * 8 + LABELS.index(row[2])
+                row[7] = (-1) ** j * 1e-5 * (1 + 0.01 * j)
         with gzip.open(tmp_path / name, "wt", encoding="utf-8") as fh:
             for rec in recs: fh.write(json.dumps(rec) + "\n")
         man[name] = IO.sha256(tmp_path / name)
     cen, _ = IO.load(tmp_path, man)
     cc, _ = IO.load_compact(tmp_path, man, n_cfg_expected=2)
     assert (np.sign(cc.J) == np.sign(cen.J)).all() and (cc.J < 0).any() and np.allclose(cc.J, cen.J, rtol=1e-6)
+
+
+def test_dup_rule_agrees_at_the_census_precision_and_refuses_real_disagreements():
+    d = IO.dup_disagreement
+    assert d(1e-17, 1e-35) == 0.0 and d(0.0, 1e-15) == 0.0                 # structural zeros: roundoff against roundoff
+    assert d(1.00008e-11, 1e-11) == 0.0                                    # the precision limit (absolute)
+    assert d(0.1, 0.1 * (1 + 2e-7)) == 0.0                                 # the identity's agreement (log10)
+    assert d(1.2e-12, 0.9e-12) == 0.0                                      # straddling the floor within the precision
+    assert d(0.1, 0.11) > 1e-6                                             # a real disagreement
+    assert d(1e-3, 1e-13) == float("inf") and d(0.0, 1e-3) == float("inf") # a physical value against a structural zero
+    assert d(1e-6, 1e-6 + 2e-9) > 0                                        # beyond the absolute limit at a small value

@@ -18243,3 +18243,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The loader's a0/F_-2 check found 18.4 in log10; the aggregate diagnostic is committed and pushed before it runs. Verification: the gates and the gate locks (one new script and log lines). 0 of 19.
 
+## 2026-10-31 — S280 the duplicate check made precision-aware
+
+- The diagnostic: every disagreement is roundoff against roundoff or a tiny m1/m3's precision limit; the loader's and the certification's rule fixed and tested. Verification: the loader and guard locks, the gates and the gate locks. 0 of 19.
+

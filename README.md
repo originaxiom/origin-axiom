@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
 | arcs with a verdict | 1528: 1042 PROVED, 381 NEGATIVE, 93 OPEN, 12 RETRACTED |
 | points in the register | 549: 225 open (queued, leads, waiting for the owner), 324 closed |
 | the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S279 THE a0/F_-2 DUPLICATE CHECK REFUSED THE CENSUS; AN AGGREGATE DIAGNOSTIC COMMITTED BEFORE IT RUNS (2026-10-31) |
+| the last landing | S280 THE DUPLICATE CHECK MADE PRECISION-AWARE, AFTER ITS AGGREGATE DIAGNOSTIC (2026-10-31) |
 <!-- STATE:END -->
 
 ## Start here

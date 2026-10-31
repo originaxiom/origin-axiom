@@ -1,5 +1,10 @@
 # Changelog
 
+## S280 THE DUPLICATE CHECK MADE PRECISION-AWARE, AFTER ITS AGGREGATE DIAGNOSTIC (2026-10-31)
+
+- **The diagnostic** (S279's committed script, aggregate counts only): of 42166592 a0/F_-2 pairs, 2130760 disagree beyond 1e-6 in log10 with BOTH values below the roundoff floor 1e-12 (structural zeros; up to 62 decades between two roundoff values), 2184 with both above it (all m1/m3, at Im τ 3.5-4, orders 2, 6 and 10; at most 3.3e-05 in log10: the double-precision limit of a tiny singular-value ratio), and none with one value on each side; 10220 pairs have one exact zero. B1824's identity holds in the census; the check was mis-specified.
+- **The rule** (census_io.dup_disagreement, used by the loader and the certification): two values agree when they differ by at most 1e-9 (Weyl's bound: an absolute error of order c ε in σ_min/σ_max, c up to ~1e6 where F_-2's components span e^(π Im τ)/4 ≈ 7 × 10⁴), or both lie below the floor, or their log10 difference is at most 1e-6; a physical value paired with a structural zero refuses. |J| is now compared too, where both rows define the mixing. Tested both ways. 0 of 19.
+
 ## S279 THE a0/F_-2 DUPLICATE CHECK REFUSED THE CENSUS; AN AGGREGATE DIAGNOSTIC COMMITTED BEFORE IT RUNS (2026-10-31)
 
 - The census loader (census_io, committed) refused the refined census: a0 and F_-2, one direction by B1824, differ somewhere by 18.4 in log10. p2 and the structure count stopped at load; the certification was stopped. Nothing else has been read.
