@@ -1,0 +1,41 @@
+{
+ "manifest_commit": "ece543c98c619ca85bd8af9f40ea44e3b4a3aa51",
+ "load_s": 951.8,
+ "rows": 50612352,
+ "rows_defined": 50343318,
+ "rows_interpolated": 49436345,
+ "choices": 50880,
+ "choices_physical": 40000,
+ "error_configs": 0,
+ "a0_F-2_max_log10": 0.0,
+ "peak_GB_after_build": 20.61,
+ "N_drawn": 2000,
+ "N": 2000,
+ "dropped_nonfinite": 0,
+ "seed": 20261031,
+ "batch": 1000,
+ "in_support_ten": 3,
+ "undecided_ten": 0,
+ "p2": 0.0015,
+ "p2_cp95": [
+  0.00030944294931233306,
+  0.004377320104529616
+ ],
+ "readout_N9": 2000,
+ "readout_in_support_nine": 5,
+ "readout_undecided_nine": 0,
+ "readout_p2_nine": 0.0025,
+ "readout_p2_nine_cp95": [
+  0.0008122259751939095,
+  0.005824445334518517
+ ],
+ "seconds": 4653.9,
+ "complete": true,
+ "supported_indices": [
+  307,
+  657,
+  1274
+ ],
+ "candidate_pairs_ten": 38139252,
+ "definition": "p2 = P_null(S): continuous tau, the nine c, chi2_ten < 23.209; null = B1741's box x the frame's physical CKM marginal (BL1); the upper end counts undecided worlds as hits"
+}

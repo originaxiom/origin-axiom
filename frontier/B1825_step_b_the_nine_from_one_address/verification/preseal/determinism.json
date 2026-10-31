@@ -1,0 +1,11 @@
+{
+ "files": 266,
+ "values_compared": 487692,
+ "determinism_max_disagreement": 0.0,
+ "readout_raw_max_log10": 2.1594829702209495e-08,
+ "storage_bound_log10": 2.171472351675665e-08,
+ "pairs_above_storage_bound": 0,
+ "files_without_a_chosen_node": 0,
+ "rule": "census_io.dup_disagreement (the census's 8-digit precision)",
+ "gate": "PASS"
+}
