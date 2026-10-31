@@ -15033,6 +15033,21 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1825": {
+   "slug": "step b the nine from one address",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "metallic",
+    "wrt_quantum",
+    "markov_cubic"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 32,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B182": {
    "slug": "multiplicity selection",
    "motifs": [

@@ -1,5 +1,11 @@
 # Changelog
 
+## S286 B1825 NEGATIVE AS SEALED: NO SUPPORT. THE FRAME MAKES OUR MASS RATIOS AND OUR MIXING, NEVER AT ONE ADDRESS (2026-10-31)
+
+- **THE FINAL ATTACK's Step B, run once on its seal** (fa25925fc; output committed unread at 64a2a3d4e): within the refined census's reach (266 lines, twelve directions, both radii, eight readings, continuous τ in Im τ 1-4, c = 3) no rigid address carries our world's ten: the least χ²_ten is 291.4 against 23.21 (a fresh evaluation 291.5; the referee's independent scan of every stored node agrees). NO SUPPORT: NOT FOUND within the reach; nothing excluded beyond it.
+- **Where the miss lives:** the six alone are reached (least χ²_six 1.36) and the four alone are reached (|V_us|, |V_cb|, |V_ub| and |J| at χ²_4 0.35 at a node), never together: no address whose six lie near the best reaches the four (rigorous enclosures), and K's bits_CKM is −194. K fails (C_ten −197), X2 had failed before the seal, T is CONSISTENT under the area clock.
+- **Routed** to the kill graph (the hatch: the mixing as the meeting of two addresses, P-555); the look ledger's 53rd look; the post-run read-outs queued (P-556). 0 of 19.
+
 ## S285 THE PASS SIDE ON B1741's BOX: POWER AT AN ADDRESS, LITTLE A SIGMA AWAY; THE SIX DO NOT COMPRESS; DETERMINISM PASSES (2026-10-31)
 
 - **Determinism** (scripts/census/rigid_census_determinism.py, committed in S284 before it read the census): 266 nodes, 487 692 values, every one equal to a fresh evaluation at the census's precision and none beyond the 8-digit storage bound (2.171e-8 in log10; largest 2.159e-8, bit-identical to the certification's, so the same nodes). PASS (P-553).

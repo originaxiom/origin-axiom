@@ -57,6 +57,7 @@ sector is listed with its target.
 | B1795, B1799 | sealed (B1795) and data-free | the vector-like pairs; the neutrino's self-pairing | no measured number compared: not looks |
 | B1811 | sealed | the six at the four configurations the object's symmetry fixes, B1810's 13 directions (n = 1), B1667's radii; the decisive cell P1 AND P2 (the 47th look, m = 47 at the seal) | NEGATIVE as sealed (min χ²_six 4521.5; 9.8% of random hierarchies as low) |
 | B1814 | sealed | the six among the weave's own measure's resolved worlds, both clocks (B1813), the threads' own lines; three decisive cells D1, D1h, D2 (looks 50–52: the seal counted 53 conservatively; with THE EXACT END entered and THE FRAME NULL ruled not a look, m = 52; no grade changes) | NEGATIVE as sealed for D2 (the clocks not separated, p_F(A0) 0.069; power about 19%); D1, D1h hold, CONSISTENT, NOT SPECIFIC (r 0.73, 0.45) |
+| B1825 | sealed | the ten (the six, ∣V_us∣, ∣V_cb∣, ∣V_ub∣, ∣J∣) from one rigid address of the refined census (266 lines, twelve directions, both radii, eight readings, continuous τ, c = 3); the decisive cell S (the 53rd look, m = 53 at the seal) | NEGATIVE as sealed: NO SUPPORT (least χ²_ten 291.4 against 23.21; the six alone 1.36, the four alone 0.35, never together) |
 | B1798 | verification of B1749 and B1753 (R71-1; their class-choosing null) | the same data | not a new look |
 
 ## The web seat (chat1)

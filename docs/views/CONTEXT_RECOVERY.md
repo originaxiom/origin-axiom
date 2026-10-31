@@ -13,13 +13,13 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1528 |
+| arcs with a verdict file | 1529 |
 | … PROVED | 1042 |
-| … NEGATIVE | 381 |
+| … NEGATIVE | 382 |
 | … OPEN | 93 |
 | … RETRACTED | 12 |
-| register points | 554 |
-| … QUEUED | 211 |
+| register points | 556 |
+| … QUEUED | 213 |
 | … LEAD | 10 |
 | … OWNER | 5 |
 | … DONE | 319 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1825 | NEGATIVE | THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings,… |
 | B1824 | PROVED | TWO OF B1810'S THIRTEEN DECLARED HIGGS DIRECTIONS ARE ONE (data-free; proved by hand, exact in B1691's q-series to q^25, re-derived by main in sympy and to 2e-40 numerically): a0 = D^2 R - E4 R/48 = (1/48)(th2 th3^3 th4… |
 | B1823 | NEGATIVE | STEP A v2, THE TIED HEAVY SECTOR'S ONE-LOOP VACUUM (P-518, P-519; data-free; refereed hostile, FAIL as drafted, the three blocking findings verified by main and applied): NEGATIVE as a compression. Under the plan's seal… |
 | B1822 | PROVED | T-NORM ON THE FRAME'S MATTER (P-525; data-free; refereed hostile, PASS WITH CORRECTIONS): FR-FIB's matter zero modes (one quaternion-type doublet per field times the blocks QJ, QI, QK) give the generation Gram matrix G… |
@@ -42,7 +43,6 @@
 | B1815 | PROVED | THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY (the owner-approved clock plan T1-T4; data-free; refereed hostile, PASS WITH CORRECTIONS): the walk model of B1662/B1663 (L, R at (1-p)/2, L^-1, R^-1 at p/2) has endpo… |
 | B1814 | NEGATIVE | THE MEASURED WORLD AS A DRAW FROM THE WEAVE'S OWN MEASURE (P-437, stage 3; sealed 86cb26b30; NEGATIVE as sealed for D2's prediction): by the sealed statistic the six do not separate B1813's two clocks (p_F 0.43 under th… |
 | B1813 | PROVED | THE WEAVE'S OWN MEASURE DEPENDS ON HOW ITS THREADS ARE COUNTED (the owner's whole-existence computation, stage 1; P-107; data-free): left unforced, the threads produce a definite measure on tau for each counting rule, a… |
-| B1812 | NEGATIVE | THE TOWERS IN F-THEORY'S 7-BRANE FRAME (P-415, the owner's towers question; data-free; NEGATIVE for the towers-meeting-at-loci reading): the genesis word LR (trace 3) lies in the single SL(2,Z) class DeWolfe-Hauer-Iqbal… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -54,6 +54,7 @@
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
+- ** P-555** (2026-10-31) — THE MASSES AND THE MIXING AT DIFFERENT ADDRESSES (B1825): the frame reaches our six alone (least chi2_six 1.36) and our four alone (0.35 at a node), never at one rigid address (least chi2_ten 291.4;…
 - ** P-554** (2026-10-31) — THE SIX DO NOT COMPRESS, EVEN AT A FRAME ADDRESS (S285's pass side on B1741's box): C_six's 90th percentile is negative in every section (-0.85 bits at chi2 = 0, -2.5 with noise at sigma): the addres…
 - ** P-549** (2026-10-31) — EIGHT RELAYS OF 2026-10-09 TO THE SM SEAT AND CODEX WENT STALE AT MIDNIGHT (the relay-debt gate's 21 days; found by S277's suite): B1625, B1626, B1628, B1629, B1630-B1631, B1632, B1634 and B1635-B163…
 - ** P-547** (2026-10-30) — THE MIRROR UNREACHABLE (S276, 2026-10-30): `git push backup main` refused -- /Volumes/LaCie answers 'Permission denied' to this session's processes (macOS removable-volume access; earlier pushes this…
@@ -78,10 +79,10 @@
 - ** P-485** (2026-10-29) — THE PLENITUDE REFRAMING (the owner, 2026-10-29: 'if all worlds in our framework are allowed to happen… they will happen, so our own'): if every world the framework allows is realised, deriving the SM…
 - ** P-479** (2026-10-29) — THE LIKELIHOOD DESIGN: B1814's D2 used a pair of p-value thresholds; for a two-clock question the likelihood ratio is the most powerful statistic, and p_F(A0) = 0.069 allows at most a Bayes factor of…
 - ** P-478** (2026-10-29) — THE LITERATURE TRANSFERS (reader B): the cosmological measure problem has the same one-parameter shape (Garriga et al.) and never derived its measure; the counting-equals-following test (Bousso–Yang)…
-- ** P-475** (2026-10-29) — DOOR E — THE RISING FACTOR: τ's own one-loop potential runs to the cusp (B1686, B1704) and is a third 'time' never set against the threads' measure; with the measurer (L241) it is the candidate for t…
 
 ## The last landings (CHANGELOG)
 
+- S286 B1825 NEGATIVE AS SEALED: NO SUPPORT. THE FRAME MAKES OUR MASS RATIOS AND OUR MIXING, NEVER AT ONE ADDRESS (2026-10-31)
 - S285 THE PASS SIDE ON B1741's BOX: POWER AT AN ADDRESS, LITTLE A SIGMA AWAY; THE SIX DO NOT COMPRESS; DETERMINISM PASSES (2026-10-31)
 - S284 THE CALIBRATION's PLANTED LEGS WERE VOID; THE PASS SIDE MOVED ONTO B1741's BOX; DETERMINISM AT THE CENSUS's PRECISION (2026-10-31)
 - S283 NO FORK FOR THE BIG INDEX (2026-10-31)
@@ -89,17 +90,16 @@
 - S281 THE MACHINE PANICKED UNDER THE PRE-SEAL JOBS; STEP B's INDEX MADE MEMORY-LEAN (2026-10-31)
 - S280 THE DUPLICATE CHECK MADE PRECISION-AWARE, AFTER ITS AGGREGATE DIAGNOSTIC (2026-10-31)
 - S279 THE a0/F_-2 DUPLICATE CHECK REFUSED THE CENSUS; AN AGGREGATE DIAGNOSTIC COMMITTED BEFORE IT RUNS (2026-10-31)
-- S278 THE REFINED CENSUS COMPLETE; ITS MANIFEST PUSHED BEFORE ANY READ (2026-10-31)
 
 ## The latest campaign line
 
-LATEST (2026-10-31, S285: the test's controls are measured. If our world sat exactly at one of the frame's addresses, the test would detect it seven times in ten; a measurement error's width away, about once in ten. Unrelated mixing matrices never pass. The six mass ratios on their own never compress: whatever the frame can show lies in the mixing matrix. 0 of 19.)
+LATEST (2026-10-31, S286: the final attack's sealed test of one address is NEGATIVE (B1825). The frame can produce our six mass ratios, and separately our quark mixing, but no single point of it produces both: the closest it comes is far outside the measured errors. The next question is whether the mixing comes from two points meeting. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
 | check | count | first items |
 |---|---|---|
-| arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 40 | B1825_step_b_the_nine_from_one_address, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word, B502_parity_signature |
+| arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 39 | B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word, B502_parity_signature, B503_external_contact |
 | verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 154 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 

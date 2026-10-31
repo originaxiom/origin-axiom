@@ -18267,3 +18267,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - In box: the frame's mass 4.74%; at chi2 = 0 all three legs pass on 7 of 10 planted worlds, with noise at sigma on 1 of 10; unrelated and anarchy CKMs pass the CKM leg on 0 of 10 each; C_six's 90th percentile negative in every section. Determinism: 0 of 487692 values beyond the storage bound. The card filled. Verification: the runs' own logs and the valve's (no limit hit), the gates. 0 of 19.
 
+## 2026-10-31 — S286 B1825 NEGATIVE as sealed: no support
+
+- Least χ²_ten 291.4 (threshold 23.21); the six alone 1.36, the four alone 0.35, never together; K's bits_CKM −194. Verification: the fresh evaluation at the address, the referee's independent node scan, the gates. 0 of 19.
+
