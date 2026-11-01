@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-01",
+  "status": "UNREVIEWED_AUTHOR_ANALYTIC_WORK",
+  "source_head": "8f4d100addad564cd7094a0232f79ca81ad599e8",
+  "proof": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_FLAVOUR_ORBIT_METRIC_AND_HEAVY_RESPONSE.md",
+    "bytes": 15965,
+    "sha256": "31467b660be024c9f42ca8fb6d6dffe178d7d4692f4751b68b342abbc03c7aee",
+    "read_scope": "full new hand derivation"
+  },
+  "relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_CHAT1_2026-11-01_PARALLEL_ORBIT_NORM_AND_MASSIVE_RESPONSE.md",
+    "bytes": 3837,
+    "sha256": "dff825396f6afd911c9185ab47ce73a6d0aa81dbdb313998235f34f1fca3cf13",
+    "read_scope": "review-sharing request"
+  },
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c",
+      "read_scope": "existing stationary background, global cocharacter, trace normalization and flavour classification"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "bytes": 12292,
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b",
+      "read_scope": "full complex/metrics and flavour-symmetry section"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "read_scope": "kinetic/superpotential and complete-domain cutoff argument"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "bytes": 16197,
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce",
+      "read_scope": "actual real gauge tangent, vector operator and source coefficients"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "bytes": 14328,
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c",
+      "read_scope": "complete physical kernel and light R roster"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUANTUM_NORMALIZATION_AND_WEIGHTED_GAUGE_MATCHING.md",
+      "bytes": 20252,
+      "sha256": "e6389aea20614b4effdb34c6bfd2ef77a74fb618db9b73acf75782d659407dee",
+      "read_scope": "preceding source-cubic and conditional EFT claim"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md",
+      "bytes": 11904,
+      "sha256": "2ba7f4810d821c7aa95fc458ea5219187037381a4bc34830067f36e7f2119678",
+      "read_scope": "actual complement norm and nonlinear admission limits"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_quartic_2026_10_11/PROOF.md",
+      "bytes": 4835,
+      "sha256": "7d4e4611b0ba99d9f706975c38d910c8a35c33fc20ae51c5bb1f351d8c4ada6b",
+      "read_scope": "full prior quartic-exchange proof, different domain not transplanted"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/PROOF.md",
+      "bytes": 3904,
+      "sha256": "07acffd7de75ceb915988ff3064e2b270d61cd9a861f9af2a68880274abc8e89",
+      "read_scope": "full prior cubic-mechanism protocol, different domain"
+    }
+  ],
+  "primary_reading": {
+    "url": "https://arxiv.org/pdf/hep-th/9301042",
+    "identifier": "hep-th/9301042v3",
+    "scope": "Intro, equation 3.7 and geometric quotient discussion 4.1-4.3, personally read via primary PDF text; no whole-paper reading claim",
+    "pdf_bytes_locally_pinned": false,
+    "claim_transferred": "Elementary symplectic/projective quotient only; actual metric independently derived from source action"
+  },
+  "hand_cross_checks": [
+    "Pointwise full F/D residuals on the entire stationary S3 flavour orbit.",
+    "Global t=H/2 gauge direction with complete-graph cutoff approximation.",
+    "Real-gauge vector eigenvalue P_v t=t and full source current on its reducing eigenline.",
+    "Invariant trace identity kappa(H^2)=2kappa(E-dagger E) checks scalar/vector mass factors.",
+    "Two projective charts and linear R-mode norm match G=N0/(1+abs(c)^2)^2.",
+    "Formal positive with nonzero massive dressing and induced Kahler interactions.",
+    "Rejecting zero-cubic, R-linear model has nonzero induced quartic when shear identity is absent."
+  ],
+  "formal_nonlinear_holomorphic_slice_inverse_admitted": false,
+  "cp1_only_consistent_truncation_proved": false,
+  "spin_and_wilson_selected": false,
+  "scientific_code_execution": false,
+  "independent_review": false,
+  "foundational_inputs_removed": 0,
+  "new_free_metric_function_introduced": false,
+  "actual_norm_function_status": "Determined output of supplied parent, explicitly calculated; not counted as an independent input removed.",
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "search_scope": {
+    "already_banked_terms": [
+      "massive quartic superpotential",
+      "Fubini flavor parallel"
+    ],
+    "broad_locator_hits_read_in_full": false,
+    "source_location_not_absence_certificate": true,
+    "refreshed_refs": [
+      "main",
+      "SM",
+      "chat1",
+      "agy"
+    ],
+    "B1823_findings_read_scope": "Answer, construction and chosen-input sections; not independent reproduction",
+    "Fubini_Study_branch_hits_checked": "Use in B1823 and B1743 is different frame/target metric; no new novelty claim."
+  }
+}

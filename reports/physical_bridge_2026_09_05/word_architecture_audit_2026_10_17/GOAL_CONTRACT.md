@@ -917,6 +917,23 @@ the prior one-loop scale cancellation to an all-orders measured-coupling
 prediction. Physical parent, norms, quantum matching and domain admission
 remain duties. No scientific code was run or frozen certificate extended.
 
+## November 1: the full orbit norm and the higher-interaction discriminator
+
+[Parallel flavour orbit and heavy response](PARALLEL_FLAVOUR_ORBIT_METRIC_AND_HEAVY_RESPONSE.md)
+reuses the source's old SU2 flavour family and derives its neutral CP1
+metric from the actual full gauge response: G=N0/(1+|c|^2)^2. Its scale
+obeys the same scalar/vector mass relation, with g6 and the parent still
+supplied. The result is an explicit determined norm, not a foundational
+input removal or a derived FR-FIB generation metric.
+
+A separate formal lemma explains when the source's R-linearity and
+shear identity eliminate the entire tree superpotential after legitimate
+massive matching. Its nonlinear cusp admission is explicitly owed.
+Positive heavy-dressing and negative quartic controls prevent treating a
+zero projected cubic as a general exclusion of higher interactions.
+All new claims remain UNREVIEWED; no scientific executable was run,
+no certificate extended, and no other physical route closed.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
