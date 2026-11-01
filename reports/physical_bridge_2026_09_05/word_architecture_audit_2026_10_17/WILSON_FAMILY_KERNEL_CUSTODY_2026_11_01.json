@@ -1,0 +1,154 @@
+{
+  "date": "2026-11-01",
+  "status": "UNREVIEWED_AUTHOR_DERIVATION_AND_UNRUN_CONTROL_IMPLEMENTATION",
+  "source_parent": "da004d178c7342fa534fdbb4db50bbd5e9c4126e",
+  "proof": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/WILSON_FAMILY_KERNEL_AND_LEVEL_FOUR_REGISTER_MAP.md",
+    "bytes": 12532,
+    "sha256": "b53f22602afcc6194a3cbddde86eaa86d6e1f54c707e4135777d1f018ad2d6ae"
+  },
+  "relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_CHAT1_2026-11-01_GENERIC_ROSTER_LEVEL_FOUR_AND_UNRUN_CONTROLS.md",
+    "bytes": 3587,
+    "sha256": "4a307a0901198758dbaefcba25a9535e31ae564fff904f27d757b085c49ec0ed"
+  },
+  "control_inventory": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_physical_family_2026_11_01/SOURCE_REVIEW_INVENTORY.json",
+    "bytes": 9477,
+    "sha256": "d499ec0902409ef5dc2c6507eebe9a6b04fa560a075b075f8cb6db9ee7e3c3c8"
+  },
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "bytes": 14328,
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "bytes": 16197,
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md",
+      "bytes": 11904,
+      "sha256": "2ba7f4810d821c7aa95fc458ea5219187037381a4bc34830067f36e7f2119678"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/HODGE_GEOMETRY_REDUCTION_AND_FIBRE_MAP.md",
+      "bytes": 14910,
+      "sha256": "bac5a56ab1ab4f12f6cb79eee30b75ffb30907fedc9f3c12e852491df3d716f4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/TWO_HEAT_RESPONSES_AND_SCALE_FREE_COUPLING.md",
+      "bytes": 14695,
+      "sha256": "816c77db9e26fa18574a5ca2656aff7c35664e97ccffb816e217c0000dc098c3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/TWO_HEAT_RESPONSES_AUTHOR_AUDIT_2026_10_29.md",
+      "bytes": 9184,
+      "sha256": "124b34588b432ceb086335dc65fbca0e2d0074ce89b9e05b66dec133e7a65a40"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUANTUM_NORMALIZATION_AND_WEIGHTED_GAUGE_MATCHING.md",
+      "bytes": 20252,
+      "sha256": "e6389aea20614b4effdb34c6bfd2ef77a74fb618db9b73acf75782d659407dee"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_FLAVOUR_ORBIT_METRIC_AND_HEAVY_RESPONSE.md",
+      "bytes": 15965,
+      "sha256": "31467b660be024c9f42ca8fb6d6dffe178d7d4692f4751b68b342abbc03c7aee"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_FLAT_FAMILY_METRIC_AND_DISCONNECTED_CENTRALIZER.md",
+      "bytes": 15421,
+      "sha256": "df538ad48d13a0cec5c5bb8ac7f8fcca73adbb1deb549902332ac992d0e076fc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/MATTER_AND_BOUNDARY_COMMON_REGISTER.md",
+      "bytes": 10094,
+      "sha256": "919d215b4f6f6d32095c8341d7bef2036b97ae41d74b2fd849881a32cd6551f6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/THETA_SEQUENCE_REPAIR_AND_MONODROMY_DUTY.md",
+      "bytes": 11391,
+      "sha256": "9ef89181bac358d63c5de77be091fade474085ab5f39ea6397105f933038a0ae"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "bytes": 11351,
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "bytes": 12292,
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "bytes": 12932,
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    }
+  ],
+  "remote_heads_after_successful_fetch": [
+    "origin/agy/frontier-2026-10-26 05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/audit/fork-2026-09-20 0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/physical-bridge-2026-09-05 da004d178c7342fa534fdbb4db50bbd5e9c4126e",
+    "origin/chat1/web-seat c575739a1433ccc70baf1941dc95058a3cf825c1",
+    "origin/chatgpt/weave-physics-archive-2026-10-11 efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9 6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench 13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5 5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox 8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao a880cb8d08a32c737157742ecf04e3c563929fdb",
+    "origin/main 64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+    "origin/referee/B1668_the_price_of_the_nineteen 0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing 806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/sep16-branch 3205984b48d1b98a80042cdc70916878973980f5"
+  ],
+  "remote_head_count": 14,
+  "static_checks": {
+    "syntax": "AST_ONLY_PASS",
+    "methods": 16,
+    "exact_design_method_names": true,
+    "design_and_runtime_unchanged_since_preimplementation_commit": true
+  },
+  "author_review_repairs_before_any_run": [
+    "Replace nr-1 tautology with full R roster assembled with and without the principal (j=1,k=0) row.",
+    "Use independent field and derivative matrix entries in the shear control.",
+    "Check independence as well as count of fixed so5 matrices.",
+    "Distinguish the signs of local/matter and mu-twisted theta modules at L^4."
+  ],
+  "prior_work_locator": {
+    "already_banked_queries": [
+      "Wilson order-four signed axes",
+      "generic Wilson roster exceptions"
+    ],
+    "settled_findings_read": [
+      "B1071_sealed_listener",
+      "B955_l133_scout",
+      "B1079_wilson_menu"
+    ],
+    "reconciliation": "Earlier icosahedral listener and E6 Wilson-menu results have different specified parents; common finite-group names or count 108 do not identify them.",
+    "wide_four_branch_text_query": "Interrupted after overly broad large-line matches; NOT an absence certificate or exhaustive search.",
+    "universal_absence_priority_or_newness_claim": false
+  },
+  "scientific_import": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "independent_review": false,
+  "main_acceptance": false,
+  "foundational_inputs_removed": 0,
+  "conditional_premise_weakening": "Order seven is unnecessary for the source complete roster; the exact all-spin condition is chi^3 != 1 and chi^10 != 1. No physical Wilson state or selector is eliminated.",
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "inherited_staged_paths": 49
+}

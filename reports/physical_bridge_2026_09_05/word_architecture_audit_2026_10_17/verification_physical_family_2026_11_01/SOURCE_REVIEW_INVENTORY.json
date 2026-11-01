@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "kind": "author_source_review_inventory_only",
+  "date": "2026-11-01",
+  "implementation_parent": "da004d178c7342fa534fdbb4db50bbd5e9c4126e",
+  "design_committed_before_implementation": "da004d178c7342fa534fdbb4db50bbd5e9c4126e",
+  "status": "UNREVIEWED_UNRUN_NOT_IMPORTED_NOT_COLLECTED",
+  "source_complete_execution_specification": false,
+  "independent_review": false,
+  "main_acceptance": false,
+  "prospective_admission": false,
+  "static_intended_population": {
+    "class": "PhysicalFamilyChecks",
+    "method_count": 16,
+    "inherited_methods": 0,
+    "expected_tests": [
+      "PhysicalFamilyChecks.test_principal_module_gram_and_chevalley_J",
+      "PhysicalFamilyChecks.test_real_gauss_eigenline_and_scalar_vector_ratio",
+      "PhysicalFamilyChecks.test_projective_orbit_metric_and_second_chart",
+      "PhysicalFamilyChecks.test_shear_identity_and_heavy_exchange_controls",
+      "PhysicalFamilyChecks.test_complete_E8_principal_weight_population",
+      "PhysicalFamilyChecks.test_complete_light_kernel_and_R_spin_control",
+      "PhysicalFamilyChecks.test_full_two_loop_matrix_and_weighted_row",
+      "PhysicalFamilyChecks.test_weighted_determinants_and_copy_frame_change",
+      "PhysicalFamilyChecks.test_harmonic_metric_period_covariance_and_scale",
+      "PhysicalFamilyChecks.test_joint_SM_stratum_and_25_central_points",
+      "PhysicalFamilyChecks.test_disconnected_torus_action_and_rank_four_control",
+      "PhysicalFamilyChecks.test_uniform_roster_exceptions_and_order_four",
+      "PhysicalFamilyChecks.test_level_four_and_seven_orbits_and_axis_map",
+      "PhysicalFamilyChecks.test_inner_register_rejects_quotient_map_extension",
+      "PhysicalFamilyChecks.test_fixed_state_and_covariant_family_are_different",
+      "PhysicalFamilyChecks.test_order_ten_jump_and_order_seven_alias_scope"
+    ],
+    "design_name_match": "AST_ONLY_PASS",
+    "runtime_discovery": "NOT_RUN"
+  },
+  "ast_imports_not_executed": [
+    "from collections import Counter, deque",
+    "from fractions import Fraction",
+    "from itertools import combinations, permutations, product",
+    "from math import gcd",
+    "import unittest",
+    "import sympy as s"
+  ],
+  "implementation_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_physical_family_2026_11_01/DESIGN.md",
+      "bytes": 7944,
+      "sha256": "e46d7998dc5f25d70c51a4b49d635caf6298ca33356375ba392de5b53fa598a8"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_physical_family_2026_11_01/ENVIRONMENT.json",
+      "bytes": 661,
+      "sha256": "f582189d326a73f1e09dbcbef5898c0892207fd8a3099fe889ad9a770404daed"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_physical_family_2026_11_01/checks.py",
+      "bytes": 21155,
+      "sha256": "43d335da94e775eae38680999298321cbc03d23de7b36b8905c3a020a2186832"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_physical_family_2026_11_01/REVIEW_STATUS.md",
+      "bytes": 3320,
+      "sha256": "5c1ae33ffb19606a7198e07bf638a75cce27c033ce118db10550a60e19ce2f28"
+    }
+  ],
+  "declared_analytic_sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "bytes": 14328,
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "bytes": 16197,
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md",
+      "bytes": 11904,
+      "sha256": "2ba7f4810d821c7aa95fc458ea5219187037381a4bc34830067f36e7f2119678"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/HODGE_GEOMETRY_REDUCTION_AND_FIBRE_MAP.md",
+      "bytes": 14910,
+      "sha256": "bac5a56ab1ab4f12f6cb79eee30b75ffb30907fedc9f3c12e852491df3d716f4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/TWO_HEAT_RESPONSES_AND_SCALE_FREE_COUPLING.md",
+      "bytes": 14695,
+      "sha256": "816c77db9e26fa18574a5ca2656aff7c35664e97ccffb816e217c0000dc098c3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/TWO_HEAT_RESPONSES_AUTHOR_AUDIT_2026_10_29.md",
+      "bytes": 9184,
+      "sha256": "124b34588b432ceb086335dc65fbca0e2d0074ce89b9e05b66dec133e7a65a40"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUANTUM_NORMALIZATION_AND_WEIGHTED_GAUGE_MATCHING.md",
+      "bytes": 20252,
+      "sha256": "e6389aea20614b4effdb34c6bfd2ef77a74fb618db9b73acf75782d659407dee"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_FLAVOUR_ORBIT_METRIC_AND_HEAVY_RESPONSE.md",
+      "bytes": 15965,
+      "sha256": "31467b660be024c9f42ca8fb6d6dffe178d7d4692f4751b68b342abbc03c7aee"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_FLAT_FAMILY_METRIC_AND_DISCONNECTED_CENTRALIZER.md",
+      "bytes": 15421,
+      "sha256": "df538ad48d13a0cec5c5bb8ac7f8fcca73adbb1deb549902332ac992d0e076fc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/WILSON_FAMILY_KERNEL_AND_LEVEL_FOUR_REGISTER_MAP.md",
+      "bytes": 12532,
+      "sha256": "b53f22602afcc6194a3cbddde86eaa86d6e1f54c707e4135777d1f018ad2d6ae"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/MATTER_AND_BOUNDARY_COMMON_REGISTER.md",
+      "bytes": 10094,
+      "sha256": "919d215b4f6f6d32095c8341d7bef2036b97ae41d74b2fd849881a32cd6551f6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/THETA_SEQUENCE_REPAIR_AND_MONODROMY_DUTY.md",
+      "bytes": 11391,
+      "sha256": "9ef89181bac358d63c5de77be091fade474085ab5f39ea6397105f933038a0ae"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "bytes": 11351,
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "bytes": 12292,
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "bytes": 12932,
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    }
+  ],
+  "prior_primary_reading_and_scope_custody": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUANTUM_NORMALIZATION_CUSTODY_2026_11_01.json",
+      "bytes": 7636,
+      "sha256": "13338a3a75cce8a8ac9ea252dcca79698b11ceac76d4efe79f5be74b0ee92bb5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_ORBIT_CUSTODY_2026_11_01.json",
+      "bytes": 5776,
+      "sha256": "0ab6791f57402fd095c7f45a945f0b07f719bccb1e9afe0b9dac3407f8c86d2d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_FLAT_FAMILY_CUSTODY_2026_11_01.json",
+      "bytes": 6285,
+      "sha256": "15b6303bda0baf4066ba739e490e02374ef26fd6bbe0b0c6f898034a0f485341"
+    }
+  ],
+  "no_empirical_targets_random_samples_or_runtime_data_files": true,
+  "scientific_source_module_imports": [],
+  "static_inspection_limits": [
+    "AST does not prove runtime collection or assertions pass.",
+    "Source pins are an inventory for review, not a declaration of complete transitive scientific or execution closure.",
+    "No execution entrypoint, output namespace or admitted wrapper has been supplied.",
+    "The named global PDE/domain/component and quantum arguments remain separate analytic review duties.",
+    "Several identities are by-construction arithmetic checks; a future pass would not select a physical model."
+  ],
+  "pre_execution_duties": [
+    "Genuine independent proof/code review of the exact candidate, including the 16-method population and source closure.",
+    "Revalidate and pin runtime/dependencies and prepare fresh output paths.",
+    "Specify and engineer-check any admission wrapper or changed existing binding.",
+    "Complete the prospective source/input/test/environment/gate closure.",
+    "Obtain main separate acceptance of the exact review, then strict admission on a clean quiescent checkout."
+  ],
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "inherited_staged_paths": 49
+}

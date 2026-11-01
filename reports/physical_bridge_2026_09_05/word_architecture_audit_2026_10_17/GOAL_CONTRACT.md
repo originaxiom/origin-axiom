@@ -953,6 +953,31 @@ phase was upgraded to a whole-architecture exclusion. State/interaction
 selection must address the full admitted family rather than start from
 one chosen Wilson example. The full physical goal remains active.
 
+## November 1: generic roster and an explicit quotient map with its register retained
+
+[Wilson-family kernel and level-four map](WILSON_FAMILY_KERNEL_AND_LEVEL_FOUR_REGISTER_MAP.md)
+removes the supplied order-seven condition from this parent's complete
+light-roster theorem. Uniformly over four spins its exact exception set
+is J[3] union J[10], with 108 points; order four already supports the
+generic roster. This weakens a conditional model premise and does not
+derive the physical Wilson state, SM stratum or foundational parent.
+Exceptional modes and state-dependent massive observables are retained.
+
+The same note exhibits a concrete L,R-equivariant six-state signed-axis
+map. It also rejects its extension through the natural inner action and
+keeps distinct central/coefficient factors. Fixed-state invariance is
+not substituted for a covariant family of retained relational data.
+No chirality, three-generation count or full physical map is inferred.
+
+The [sixteen-control verification package](verification_physical_family_2026_11_01/REVIEW_STATUS.md)
+has a design committed at da004d178 before implementation. AST/source
+metadata only have been inspected: every method is unrun, unimported
+and uncollected. Source inventory is review access, not execution
+closure. Real independent review, runtime/wrapper closure, main acceptance
+and strict prospective admission remain required. The proof and code
+are UNREVIEWED; P210's earlier certificate is not extended. The full
+SM3/gravity and derivation-led reduction goal remains active.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
