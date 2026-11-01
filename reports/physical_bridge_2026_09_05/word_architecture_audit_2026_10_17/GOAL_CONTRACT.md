@@ -934,6 +934,25 @@ zero projected cubic as a general exclusion of higher interactions.
 All new claims remain UNREVIEWED; no scientific executable was run,
 no certificate extended, and no other physical route closed.
 
+## November 1: restore the full flat branch and its disconnected action
+
+[Full flat family and global centralizer](FULL_FLAT_FAMILY_METRIC_AND_DISCONNECTED_CENTRALIZER.md)
+puts the source's Y point into the entire eight-dimensional commuting
+Cartan branch and derives its same-action harmonic kinetic metric. The
+SM group lies on the two-dimensional joint 3+2 stratum; that fact does
+not select the stratum or its order-seven point. A compact Chevalley/J
+construction and a personally checked classification table give the
+principal triple's charge-conjugating Z2 component, distinct from the
+old connected C_E8(SM). New flat component reductions are retained with
+an explicit rank-four-torus control; their complete matter is uncomputed.
+
+These are UNREVIEWED author applications/derivations, not independent
+reproduction of the literature table or a new physical SM solution.
+No scientific producer ran, foundational row was paid or old paired
+phase was upgraded to a whole-architecture exclusion. State/interaction
+selection must address the full admitted family rather than start from
+one chosen Wilson example. The full physical goal remains active.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

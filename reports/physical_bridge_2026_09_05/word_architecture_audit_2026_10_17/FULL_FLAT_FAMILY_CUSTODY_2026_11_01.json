@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-01",
+  "status": "UNREVIEWED_AUTHOR_DERIVATION_AND_PRIMARY_SOURCE_APPLICATION",
+  "source_head": "0dc9e65f9b6ea01254dc91cfebb7b7f8d0d6cf66",
+  "remote_head_count": 14,
+  "fetched_object_ids": [
+    "05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "0dc9e65f9b6ea01254dc91cfebb7b7f8d0d6cf66",
+    "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "3205984b48d1b98a80042cdc70916878973980f5",
+    "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+    "6a537f899c9c1882930475144a30ae76aa2966d8",
+    "806dfd6002773bf1d1eba273f432fb626f27b302",
+    "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "a880cb8d08a32c737157742ecf04e3c563929fdb",
+    "c575739a1433ccc70baf1941dc95058a3cf825c1",
+    "efadcdeaa5375cf0ac76d954dbf34abd070430cd"
+  ],
+  "proof": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_FLAT_FAMILY_METRIC_AND_DISCONNECTED_CENTRALIZER.md",
+    "bytes": 15421,
+    "sha256": "df538ad48d13a0cec5c5bb8ac7f8fcca73adbb1deb549902332ac992d0e076fc",
+    "read_scope": "full new hand argument"
+  },
+  "relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_CHAT1_2026-11-01_FULL_FLAT_FAMILY_AND_DISCRETE_COMPONENT.md",
+    "bytes": 4606,
+    "sha256": "17dcf010f9366c98b22914677786a5b9a2ef02e465b816b283f7cec48ffc79f9",
+    "read_scope": "source-bound review-sharing request"
+  },
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c",
+      "read_scope": "full principal embedding, complete branching, J5, group kernels and flat representative argument"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "read_scope": "actual kinetic functional and gauge/graph domains"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "bytes": 16197,
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce",
+      "read_scope": "full gauge and vector kinetic normalization"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/HODGE_GEOMETRY_REDUCTION_AND_FIBRE_MAP.md",
+      "bytes": 14910,
+      "sha256": "bac5a56ab1ab4f12f6cb79eee30b75ffb30907fedc9f3c12e852491df3d716f4",
+      "read_scope": "first 155 lines, Hodge norm and distinction of base and fibre"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_FLAVOUR_ORBIT_METRIC_AND_HEAVY_RESPONSE.md",
+      "bytes": 15965,
+      "sha256": "31467b660be024c9f42ca8fb6d6dffe178d7d4692f4751b68b342abbc03c7aee",
+      "read_scope": "source orbit metric and gauge-response proof"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "bytes": 14328,
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c",
+      "read_scope": "field/roster and crossing qualifications"
+    }
+  ],
+  "primary": {
+    "url": "https://arxiv.org/pdf/2407.11801",
+    "version": "arXiv:2407.11801v1",
+    "authors": "Emanuele Di Bella and Willem A. de Graaf",
+    "title": "Computing component groups of stabilizers of nilpotent orbit representatives",
+    "bytes": 257303,
+    "sha256": "bd02e6b023550e9b7b6bdfda20c71f0b222133e6b00594d2a1d32480e28bafe7",
+    "read_scope": [
+      "Sections 2.1-2.2, inner automorphisms and triple/nilpotent component relation",
+      "Centralizer/double-centralizer setup and section 6 table-column definitions",
+      "Table 5, E8 A4 row on printed/PDF page 18, rendered and inspected"
+    ],
+    "whole_paper_read": false,
+    "authors_gap_calculation_reproduced": false,
+    "source_table_count": "A4 connected centralizer and S2 component group; applied only after identifying the source A4 Levi/triple"
+  },
+  "hand_cross_checks": [
+    "J5 squared is one, determinant one and theta(J5)=J5; s=J5^-1 n fixes H,E,E-dagger and has square one.",
+    "s acts outerly on SU5_g; this is different from the old connected C_E8(SM).",
+    "Simultaneous diagonalization with the faithful SU5 cocharacter lattice and full finite inversion action.",
+    "The harmonic one-form Gram matrix is positive with determinant one for every Im tau>0.",
+    "Actual Gauss source vanishes on the coclosed commuting Cartan tangent.",
+    "SU5 coupling, Wilson metric and CP1 norm share g6 with distinct radius dependence.",
+    "SM occurs on a joint 3+2 pair partition; six constraints reduce the eight-dimensional covering branch to two dimensions.",
+    "Common pair coincidence requires 5p and 5q integral, yielding 25 central points.",
+    "An outer element centralizing a rank-four torus would require minus identity in the A4 Weyl action; the permutation trace bound rejects it."
+  ],
+  "boundaries": [
+    "Connected-versus-full group and global family must be independently reviewed.",
+    "No state probability law, order-seven selector or physical SM3 spectrum derived.",
+    "Discrete K-reduction labels are not claimed full E8 superselection sectors.",
+    "No fixed-roster EFT is continued through enhancement loci.",
+    "No anti-linear spacetime symmetry or changed spin/physical boundary law is silently substituted."
+  ],
+  "prior_work_search": {
+    "already_banked_terms": [
+      "Wilson Jacobian kinetic",
+      "principal disconnected centralizer"
+    ],
+    "settled_hits_read_in_full": false,
+    "universal_absence_or_literature_priority_claim": false,
+    "scope": "Source location followed by stated source and primary readings, not an absence sweep"
+  },
+  "scientific_execution": false,
+  "new_frozen_experiment_created": false,
+  "independent_review": false,
+  "foundational_inputs_removed": 0,
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
