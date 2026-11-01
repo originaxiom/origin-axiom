@@ -899,6 +899,24 @@ No newer proof inherits P210's execution certificate, and no foundational
 input is marked removed. The next duty remains the same-parent physical
 norm/action/domain map and independent scrutiny of the operator chain.
 
+## November 1: derive the light cubic before supplying its quantum correction
+
+[Quantum normalization and weighted matching](QUANTUM_NORMALIZATION_AND_WEIGHTED_GAUGE_MATCHING.md)
+uses the actual full light kernel: for nontrivial extending spin in the
+source parallel phase the only light R slot is proportional to Q0 and
+every light a commutes with Q0, making the projected cubic zero. The
+trivial-spin branch retains an explicit nonzero adjoint control. Under
+the stated finite supersymmetric EFT admission, the first branch's
+marginal Yukawa is derived rather than supplied. This is UNREVIEWED
+author analysis, not a physical SM spectrum or foundational-input payment.
+
+The same note derives the weighted kinetic-determinant matching target
+and an extended fixed-frame perturbative RG constant, with the full
+two-loop gauge coefficients and spin cases retained. It does not promote
+the prior one-loop scale cancellation to an all-orders measured-coupling
+prediction. Physical parent, norms, quantum matching and domain admission
+remain duties. No scientific code was run or frozen certificate extended.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-01",
+  "status": "UNREVIEWED_AUTHOR_ANALYTIC_DERIVATION_NOT_EXECUTED_CONTROLS",
+  "source_head": "ce2a3a6e3e1a1c8c18287e8e40365a82607d4365",
+  "proof": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUANTUM_NORMALIZATION_AND_WEIGHTED_GAUGE_MATCHING.md",
+    "bytes": 20252,
+    "sha256": "e6389aea20614b4effdb34c6bfd2ef77a74fb618db9b73acf75782d659407dee"
+  },
+  "relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_CHAT1_2026-11-01_DERIVED_CUBIC_AND_QUANTUM_NORMALIZATION.md",
+    "bytes": 3917,
+    "sha256": "03ac1a0278c7587d4632581dd921ca709a5a1d4d88e3f3e7eb3c0d0ced9b6fa9"
+  },
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "bytes": 14328,
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c",
+      "read_scope": "full, reused kernel representatives and complete roster",
+      "source_commit": "ce2a3a6e3e1a1c8c18287e8e40365a82607d4365"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/TWO_HEAT_RESPONSES_AND_SCALE_FREE_COUPLING.md",
+      "bytes": 14695,
+      "sha256": "816c77db9e26fa18574a5ca2656aff7c35664e97ccffb816e217c0000dc098c3",
+      "read_scope": "relative combination and scope",
+      "source_commit": "ce2a3a6e3e1a1c8c18287e8e40365a82607d4365"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/TWO_HEAT_RESPONSES_AUTHOR_AUDIT_2026_10_29.md",
+      "bytes": 9184,
+      "sha256": "124b34588b432ceb086335dc65fbca0e2d0074ce89b9e05b66dec133e7a65a40",
+      "read_scope": "full source charge formulas and exceptions",
+      "source_commit": "ce2a3a6e3e1a1c8c18287e8e40365a82607d4365"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "bytes": 16197,
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce",
+      "read_scope": "existing physical weights, no new execution",
+      "source_commit": "ce2a3a6e3e1a1c8c18287e8e40365a82607d4365"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md",
+      "bytes": 11904,
+      "sha256": "2ba7f4810d821c7aa95fc458ea5219187037381a4bc34830067f36e7f2119678",
+      "read_scope": "prior hypothesis/scope, not identified with quantum Z",
+      "source_commit": "ce2a3a6e3e1a1c8c18287e8e40365a82607d4365"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "read_scope": "first 180 lines refreshed, full prior proof already credited",
+      "source_commit": "ce2a3a6e3e1a1c8c18287e8e40365a82607d4365"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "bytes": 11351,
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "read_scope": "first 140 lines refreshed",
+      "source_commit": "ce2a3a6e3e1a1c8c18287e8e40365a82607d4365"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c",
+      "read_scope": "background and full branching portions refreshed",
+      "source_commit": "ce2a3a6e3e1a1c8c18287e8e40365a82607d4365"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "bytes": 12932,
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862",
+      "read_scope": "first 130 lines, spin-section and profile control",
+      "source_commit": "ce2a3a6e3e1a1c8c18287e8e40365a82607d4365"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/PROOF.md",
+      "bytes": 6707,
+      "sha256": "53cd127aaf00cbb6d0c3bc52d2f60c84ab227fe86541354b58f8b505bb2cb0e4",
+      "read_scope": "first 80 lines, different-parent distinction",
+      "source_commit": "ce2a3a6e3e1a1c8c18287e8e40365a82607d4365"
+    }
+  ],
+  "primary_reading": [
+    {
+      "url": "https://arxiv.org/pdf/hep-th/9707133",
+      "version": "hep-th/9707133v1 as printed in the retrieved PDF",
+      "bytes": 381027,
+      "sha256": "4869e47927ce0d63641a9263648c1d4bb0104e9751503767215100ffcd26f1f4",
+      "personally_read_scope": "targeted portions of sections 2-4; equations 2.8-2.12, 4.1-4.6 and scheme discussion",
+      "rendered_and_visually_inspected_pdf_pages_one_based": [
+        6,
+        11
+      ],
+      "whole_paper_read_claimed": false,
+      "repository_redistribution": false
+    },
+    {
+      "url": "https://arxiv.org/pdf/hep-ph/9311340v4",
+      "version": "hep-ph/9311340v4",
+      "bytes": 176888,
+      "sha256": "e1c5b45520d0cf249f5a700e3fd680bb5e78bbdde695a31602531b3030e27272",
+      "personally_read_scope": "section II gauge and wavefunction formulas, section III product-group rules 3.1-3.6",
+      "rendered_and_visually_inspected_pdf_pages_one_based": [
+        6
+      ],
+      "whole_paper_read_claimed": false,
+      "repository_redistribution": false
+    }
+  ],
+  "review_duties": [
+    "Actual completeness of the light R roster, all a commuting with Q0, and trivial-spin nonzero control.",
+    "Heavy-sector inverse, domains, matching and finite supersymmetric EFT hypotheses.",
+    "Rescaling-anomaly sign, finite constants and fixed holomorphic frame.",
+    "All light multiplicities, Dynkin indices, Casimirs and the full two-loop coefficient matrix.",
+    "No identification of the relative heat determinant with a holomorphic gauge coefficient without matching."
+  ],
+  "hand_cross_checks": [
+    "Expansion of both antisymmetric superpotential terms gives W3=-i integral Tr(u[a,v]).",
+    "All nontrivial-spin light R modes lie in the single principal j=1 singlet; every light a is highest weight.",
+    "Trivial-spin a0, u0 and v0 in noncommuting unbroken adjoint directions give a nonzero integrated cubic.",
+    "The weighted beta row agrees between the full matrix and the direct weighted Casimir sum.",
+    "The three off-diagonal dimension-weighted beta entries agree pairwise.",
+    "Differentiating the primary normalization relation reproduces its pure-SYM equation 2.12; printed v1 equation 4.7 is not copied."
+  ],
+  "search_scope": {
+    "text_terms": [
+      "NSVZ",
+      "Konishi",
+      "rescaling anomal",
+      "parallel near cubic or Yukawa"
+    ],
+    "remote_sources": [
+      "main",
+      "SM",
+      "chat1",
+      "agy"
+    ],
+    "binary_false_positive_hits_not_used_as_evidence": true,
+    "parallel_cubic_text_hit_read": "OPEN_LEADS L95, unrelated E6 triality-vector cubic",
+    "already_banked_terms": [
+      "parallel",
+      "cubic",
+      "massless"
+    ],
+    "locator_hits": 90,
+    "settled_threshold_hits": 2,
+    "all_locator_hits_read": false,
+    "universal_absence_or_priority_claim": false
+  },
+  "scientific_execution": false,
+  "independent_review": false,
+  "new_numerical_value": false,
+  "old_frozen_p210_sources_and_design_unchanged": true,
+  "inherited_staged_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "foundational_inputs_removed": 0,
+  "conditional_result": "Same-action light cubic and weighted quantum normalization duty; finite EFT hypotheses explicit."
+}
