@@ -1,0 +1,469 @@
+{
+  "date": "2026-11-01",
+  "kind": "AUTHOR_SELF_AUDIT_METADATA_AND_SOURCE_INTAKE_ONLY",
+  "audited_head": "4227859ac281e092db9c8d47e3900cb1efbe93de",
+  "fetched_remote_head_count": 14,
+  "fetched_heads": {
+    "main": "64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+    "SM": "a880cb8d08a32c737157742ecf04e3c563929fdb",
+    "chat1": "c575739a1433ccc70baf1941dc95058a3cf825c1",
+    "agy": "05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "audit": "4227859ac281e092db9c8d47e3900cb1efbe93de"
+  },
+  "enumerated_head_object_ids": [
+    "05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "3205984b48d1b98a80042cdc70916878973980f5",
+    "4227859ac281e092db9c8d47e3900cb1efbe93de",
+    "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+    "6a537f899c9c1882930475144a30ae76aa2966d8",
+    "806dfd6002773bf1d1eba273f432fb626f27b302",
+    "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "a880cb8d08a32c737157742ecf04e3c563929fdb",
+    "c575739a1433ccc70baf1941dc95058a3cf825c1",
+    "efadcdeaa5375cf0ac76d954dbf34abd070430cd"
+  ],
+  "all_branch_mathematics_audited": false,
+  "inherited_staged_path_count": 49,
+  "inherited_staged_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "expected_inherited_staged_diff_matches": true,
+  "session_goal_observed_active_and_reductions_first": true,
+  "p210_specification_sha256": "f33348144c91711b0bcc3a05cf62974aac28a468eb57181f1ea6dfc93077f948",
+  "p210_source_pin_checks": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/DESIGN.md",
+      "expected_sha256": "6cbfcf7a2885ec49b80d9fc45f273ecaeb4fa45ba43c1778490a3c2f58839374",
+      "actual_sha256": "6cbfcf7a2885ec49b80d9fc45f273ecaeb4fa45ba43c1778490a3c2f58839374",
+      "match": true
+    },
+    {
+      "path": "scripts/gates/prospective.py",
+      "expected_sha256": "f1f446846d07cbdb649eb04cc0971ad6f5fc1bc89a85493203b3f2ede0c52065",
+      "actual_sha256": "f1f446846d07cbdb649eb04cc0971ad6f5fc1bc89a85493203b3f2ede0c52065",
+      "match": true
+    },
+    {
+      "path": "scripts/gates/gates.py",
+      "expected_sha256": "3d4e6ab844a462cdb9ab10d79d4cabefa77154969cc33d4c143ca4b9367f9176",
+      "actual_sha256": "3d4e6ab844a462cdb9ab10d79d4cabefa77154969cc33d4c143ca4b9367f9176",
+      "match": true
+    },
+    {
+      "path": "scripts/gates/provenance_policy.py",
+      "expected_sha256": "19b0fa2382a31fb6a0d943f6df11b0b7dc482494a90e94013c2e2947a65f53c2",
+      "actual_sha256": "19b0fa2382a31fb6a0d943f6df11b0b7dc482494a90e94013c2e2947a65f53c2",
+      "match": true
+    },
+    {
+      "path": "scripts/checks/check_path_references.py",
+      "expected_sha256": "4c04dda43e898e0f58ff46aa711de5035f7bc394583989f1ac71ffd027665b01",
+      "actual_sha256": "4c04dda43e898e0f58ff46aa711de5035f7bc394583989f1ac71ffd027665b01",
+      "match": true
+    },
+    {
+      "path": "scripts/checks/check_test_vacuity.py",
+      "expected_sha256": "cacea50360bcf3a17bb65a6af85e24cba9e62ac7cd82bfdf6b72675c35dda867",
+      "actual_sha256": "cacea50360bcf3a17bb65a6af85e24cba9e62ac7cd82bfdf6b72675c35dda867",
+      "match": true
+    },
+    {
+      "path": "scripts/checks/retraction_sweep.py",
+      "expected_sha256": "4d1ecc5e57a0ed56c428b2b5f4b8e107755ce3a511f2924dae26b73840ee37f4",
+      "actual_sha256": "4d1ecc5e57a0ed56c428b2b5f4b8e107755ce3a511f2924dae26b73840ee37f4",
+      "match": true
+    },
+    {
+      "path": "scripts/checks/relay_debt.py",
+      "expected_sha256": "620b4ce71ff2c9227f1d8eafd5cf63e41bd4d30edaba8c4840ee432fedafe2ab",
+      "actual_sha256": "620b4ce71ff2c9227f1d8eafd5cf63e41bd4d30edaba8c4840ee432fedafe2ab",
+      "match": true
+    },
+    {
+      "path": "scripts/checks/doc_currency.py",
+      "expected_sha256": "89c0d8d5e401b622cffc5a8a85dcb082c59e89bef4bdfacb1529c025ac6dfed4",
+      "actual_sha256": "89c0d8d5e401b622cffc5a8a85dcb082c59e89bef4bdfacb1529c025ac6dfed4",
+      "match": true
+    },
+    {
+      "path": "scripts/checks/representation_sweep.py",
+      "expected_sha256": "0c9b5daadbac3a3f6e7edb9b8cf55bb47d65cc9baa2153c84293bb091e3d4e37",
+      "actual_sha256": "0c9b5daadbac3a3f6e7edb9b8cf55bb47d65cc9baa2153c84293bb091e3d4e37",
+      "match": true
+    },
+    {
+      "path": "scripts/views/generate.py",
+      "expected_sha256": "e8f5594c877ff3df10c27b5637a931904bed85fec21b62300b11b2d2f4dcf0af",
+      "actual_sha256": "e8f5594c877ff3df10c27b5637a931904bed85fec21b62300b11b2d2f4dcf0af",
+      "match": true
+    },
+    {
+      "path": "scripts/gates/tracked_state.py",
+      "expected_sha256": "22ac6ab65ed48fa5e1aeb92f74a9c7215ae4bf61825749a1ce66ce81854cc7f1",
+      "actual_sha256": "22ac6ab65ed48fa5e1aeb92f74a9c7215ae4bf61825749a1ce66ce81854cc7f1",
+      "match": true
+    },
+    {
+      "path": "scripts/gates/prospective_strict.py",
+      "expected_sha256": "82985893d0db217514f7acfa5e676089e14eed30c6d98b0e6f22770fc4533f26",
+      "actual_sha256": "82985893d0db217514f7acfa5e676089e14eed30c6d98b0e6f22770fc4533f26",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py",
+      "expected_sha256": "1cc1c9e299be3f85df41d066b2673c2c62b33e83ad978603f769cf04fd8adbf0",
+      "actual_sha256": "1cc1c9e299be3f85df41d066b2673c2c62b33e83ad978603f769cf04fd8adbf0",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/run_checks.py",
+      "expected_sha256": "04682dc98cb80d9c123a942e0ace77105b281daa436c0e2b3ca9a713c0f484e9",
+      "actual_sha256": "04682dc98cb80d9c123a942e0ace77105b281daa436c0e2b3ca9a713c0f484e9",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/checks.py",
+      "expected_sha256": "70d441f672228f6bbf9bb22e869a3575e6082d3002c7be044ad1c15c642b5a58",
+      "actual_sha256": "70d441f672228f6bbf9bb22e869a3575e6082d3002c7be044ad1c15c642b5a58",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SYMMETRIC_STATE_GREEN_RESPONSE_AND_GRADING.md",
+      "expected_sha256": "1ec843f5fd186ea94528ce6d12de0a7989daefca1eff7e6f91c70b611ff8affe",
+      "actual_sha256": "1ec843f5fd186ea94528ce6d12de0a7989daefca1eff7e6f91c70b611ff8affe",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/P210_EXTERIOR_GAP_AND_THRESHOLD_DUTY.md",
+      "expected_sha256": "b8ed860c60d320ff85d1e312a4f80242835f033334b043ab1be3e2afd75a10f3",
+      "actual_sha256": "b8ed860c60d320ff85d1e312a4f80242835f033334b043ab1be3e2afd75a10f3",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COVARIANT_END_DOMAIN_SCOPE.md",
+      "expected_sha256": "2c397e8d061b36d8818b35e4dd156de27b6b33adcf317f982a5ab4734ef895d5",
+      "actual_sha256": "2c397e8d061b36d8818b35e4dd156de27b6b33adcf317f982a5ab4734ef895d5",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_COUPLING_TRANSPORT.md",
+      "expected_sha256": "54c7c58701d656ae09351de21e9de0cc8db9dd90f03e4a73102dde1a5c8112f5",
+      "actual_sha256": "54c7c58701d656ae09351de21e9de0cc8db9dd90f03e4a73102dde1a5c8112f5",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_PRINCIPAL_PARTS_AND_GREEN_TRANSPORT.md",
+      "expected_sha256": "577b00a1c6b8ff40a23d0b7f469790117740c713e058b6ddbd7610940c1571a7",
+      "actual_sha256": "577b00a1c6b8ff40a23d0b7f469790117740c713e058b6ddbd7610940c1571a7",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXTERIOR_RESPONSE_AND_JOINING.md",
+      "expected_sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68",
+      "actual_sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/PROOF.md",
+      "expected_sha256": "0102fc971479acc9d57a05c6234dcbf4ada7007269d96bc4931719bebabf929f",
+      "actual_sha256": "0102fc971479acc9d57a05c6234dcbf4ada7007269d96bc4931719bebabf929f",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/probe.py",
+      "expected_sha256": "3474603ed114ef24c26909abeacc97f1fafddc179705e83536acca8cfc8c1a6f",
+      "actual_sha256": "3474603ed114ef24c26909abeacc97f1fafddc179705e83536acca8cfc8c1a6f",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "expected_sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "actual_sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "expected_sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "actual_sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/PROOF.md",
+      "expected_sha256": "21739f08bbe2ed0b95fe4232b48cb2bba484a57779e9021cad06f8f62f8fc4bf",
+      "actual_sha256": "21739f08bbe2ed0b95fe4232b48cb2bba484a57779e9021cad06f8f62f8fc4bf",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/PROOF.md",
+      "expected_sha256": "3ac161b2e4418b8826de0926ef853262d2f98ef57a1743a663d0b488f7d153c0",
+      "actual_sha256": "3ac161b2e4418b8826de0926ef853262d2f98ef57a1743a663d0b488f7d153c0",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/ENVIRONMENT.json",
+      "expected_sha256": "1c538e3327da56d8fc6db00a25f79e9cabbbf3b1dee23b63e65d5d7e51b91dfb",
+      "actual_sha256": "1c538e3327da56d8fc6db00a25f79e9cabbbf3b1dee23b63e65d5d7e51b91dfb",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/ENGINEERING_DESIGN.md",
+      "expected_sha256": "e68c69ea535b374dbb04b731d3b0fbcb60a5771e8db15dd0b8e503776482f377",
+      "actual_sha256": "e68c69ea535b374dbb04b731d3b0fbcb60a5771e8db15dd0b8e503776482f377",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/SOURCE_REVIEW_MANIFEST.json",
+      "expected_sha256": "6527684c1999398e25e98f59584f03f7e417ad0a4a7f728f8941b8f3052dbf4d",
+      "actual_sha256": "6527684c1999398e25e98f59584f03f7e417ad0a4a7f728f8941b8f3052dbf4d",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering_checks.py",
+      "expected_sha256": "4002fc024eabcd762ba7144e82299a1dd44aaa7ebe7f88b239a0abd646af13e6",
+      "actual_sha256": "4002fc024eabcd762ba7144e82299a1dd44aaa7ebe7f88b239a0abd646af13e6",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/DELEGATION_COUNTER_STRENGTHENING.md",
+      "expected_sha256": "74566ae1c0b55148d703937f8668d772a8d9d04c6cf0d1c5ad23a55c5ae8ac38",
+      "actual_sha256": "74566ae1c0b55148d703937f8668d772a8d9d04c6cf0d1c5ad23a55c5ae8ac38",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/ENVIRONMENT_DISCOVERY.md",
+      "expected_sha256": "0147ad4f908b7a6cb595cc486fa6a8a4767037f96401cf00595c279c110c0be0",
+      "actual_sha256": "0147ad4f908b7a6cb595cc486fa6a8a4767037f96401cf00595c279c110c0be0",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/FIRST_FAILURE_NORMALIZED.txt",
+      "expected_sha256": "6752cecb08547f7d8e4b387aefbe45bbfc01720e5c033bef58afd469fb4a1825",
+      "actual_sha256": "6752cecb08547f7d8e4b387aefbe45bbfc01720e5c033bef58afd469fb4a1825",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/FOURTH_RUN_RESEARCH_RUNTIME.txt",
+      "expected_sha256": "fea8942885171159bc911d9cac3518a42a7315e9d414d35d04bd3a413085063b",
+      "actual_sha256": "fea8942885171159bc911d9cac3518a42a7315e9d414d35d04bd3a413085063b",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/PATH_EXPECTATION_REPAIR.md",
+      "expected_sha256": "49d9add6dc17bc65cb095a211972a6903d3dcfba03b4240a569e0720b985b9c4",
+      "actual_sha256": "49d9add6dc17bc65cb095a211972a6903d3dcfba03b4240a569e0720b985b9c4",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/SECOND_RUN.txt",
+      "expected_sha256": "20602201900cdd099fa70231feccf9bb0647ffe889709b08b3daa9dfa32754f3",
+      "actual_sha256": "20602201900cdd099fa70231feccf9bb0647ffe889709b08b3daa9dfa32754f3",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/THIRD_RUN.txt",
+      "expected_sha256": "17d175b5d96fedb168b819e05e0f3dc7920600b02f8d7c626ddc84b24ed501be",
+      "actual_sha256": "17d175b5d96fedb168b819e05e0f3dc7920600b02f8d7c626ddc84b24ed501be",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/EXECUTION_REVIEW_DUTIES.md",
+      "expected_sha256": "d4d7737b0ba5cd8613d1485d4211f871d7e8c67d20a10329301389755e2ee3e7",
+      "actual_sha256": "d4d7737b0ba5cd8613d1485d4211f871d7e8c67d20a10329301389755e2ee3e7",
+      "match": true
+    }
+  ],
+  "p210_execution_artifact_checks": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/results/attempt_01.jsonl",
+      "expected_bytes": 181673,
+      "actual_bytes": 181673,
+      "expected_sha256": "40d1b8f9edd43bb3ee029687878a31219b4c3c8c3b33a14070944972a096e2b6",
+      "actual_sha256": "40d1b8f9edd43bb3ee029687878a31219b4c3c8c3b33a14070944972a096e2b6",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/results/attempt_01.log",
+      "expected_bytes": 1748,
+      "actual_bytes": 1748,
+      "expected_sha256": "8aab504893c5cceb48378efabf2559fd07949608306e4d7b8534e1039b3065d4",
+      "actual_sha256": "8aab504893c5cceb48378efabf2559fd07949608306e4d7b8534e1039b3065d4",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/execution_2026_10_29/EXTERNAL_PRELAUNCH.json",
+      "expected_bytes": 1609,
+      "actual_bytes": 1609,
+      "expected_sha256": "8c8e0254aa1868d65db08d19399493c91523466cdbfc47bd136c97604fe654d0",
+      "actual_sha256": "8c8e0254aa1868d65db08d19399493c91523466cdbfc47bd136c97604fe654d0",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/execution_2026_10_29/OUTCOME.json",
+      "expected_bytes": 832,
+      "actual_bytes": 832,
+      "expected_sha256": "981c2f2972bf4ae35b27d51441d7b55b3fcf896a0c9c9b4b1f57c973126c37d0",
+      "actual_sha256": "981c2f2972bf4ae35b27d51441d7b55b3fcf896a0c9c9b4b1f57c973126c37d0",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/execution_2026_10_29/launch.stderr.txt",
+      "expected_bytes": 0,
+      "actual_bytes": 0,
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/execution_2026_10_29/launch.stdout.json",
+      "expected_bytes": 34,
+      "actual_bytes": 34,
+      "expected_sha256": "38096e5e7a373eb296703f83d5bb4846c82d0c7ac6a165ba924fe5d4e1b2a5ab",
+      "actual_sha256": "38096e5e7a373eb296703f83d5bb4846c82d0c7ac6a165ba924fe5d4e1b2a5ab",
+      "match": true
+    }
+  ],
+  "p210_event_counts": {
+    "admitted_start": 1,
+    "test_start": 10,
+    "test_pass": 10,
+    "custody": 1,
+    "finished": 1
+  },
+  "expected_test_set_equals_recorded_starts_and_passes": true,
+  "each_recorded_test_starts_and_passes_once": true,
+  "main_review_and_acceptance_checks": [
+    {
+      "commit": "54cfec661b80293985b3b48f5b4d3b0c0f7e2653",
+      "path": "frontier/B1787_p210_reviewed_and_accepted_by_main/MAIN_REVIEW.json",
+      "sha256": "392e593cd9fb98de45ac92f81be7c3881c7edeb4c6449ba170a90a425933406c",
+      "recorded_hash_matches": true,
+      "ancestor_of_fetched_main": true
+    },
+    {
+      "commit": "8ca002cd13152f79f699799c6dac55d80d0cb74e",
+      "path": "frontier/B1787_p210_reviewed_and_accepted_by_main/ACCEPTANCE.json",
+      "sha256": "54fcc2351c32c27384a58485bb814668eeb5bae39a0cf809e9b57f037dd17539",
+      "recorded_hash_matches": true,
+      "ancestor_of_fetched_main": true
+    }
+  ],
+  "cross_seat_read_sources": [
+    {
+      "source": "main",
+      "commit": "64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+      "path": "docs/MAINS_PLAN.md",
+      "sha256": "0acb3516b65f31c44bc47f2ba2b93c607b293150399f858c13dbeb515e5bce48",
+      "read_scope": "full"
+    },
+    {
+      "source": "main",
+      "commit": "64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-30_T_NORM_IS_A_CHOSEN_INPUT.md",
+      "sha256": "c6f5be184ab9a61512c1e57c934f8b0e47fcf9c923accd7a5a299be2d0f1c9d9",
+      "read_scope": "full"
+    },
+    {
+      "source": "main",
+      "commit": "64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+      "path": "frontier/B1822_t_norm_on_the_frames_matter/FINDINGS.md",
+      "sha256": "6cde2e138955210dcdac4c5c3e102004f44d1e07f59ee40777824fdad92e6be1",
+      "read_scope": "full"
+    },
+    {
+      "source": "main",
+      "commit": "64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+      "path": "frontier/B1822_t_norm_on_the_frames_matter/verification/referee/independent.py",
+      "sha256": "b67759395129d947279ecdcee6e062a37de4736bec8d1e3ab5a8c0be5d5bc4b3",
+      "read_scope": "lines 1-230 only; not imported or executed"
+    },
+    {
+      "source": "main",
+      "commit": "64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+      "path": "docs/handoffs/CC_TO_CHAT1_2026-10-30_THE_FIVE_RELAYS_VERIFIED.md",
+      "sha256": "76b53856d4f216482532a9cb9960999af41da8cc8d695d96e491d11cca11efe1",
+      "read_scope": "full across source calls"
+    },
+    {
+      "source": "main",
+      "commit": "64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+      "path": "docs/handoffs/CC_TO_CHAT1_2026-10-30_THE_THREE_RELAYS_VERIFIED.md",
+      "sha256": "acf9fc1f05316d8bc84ff588f78a79e1a2fa2d81209216e5eb46e502a905f2b1",
+      "read_scope": "full"
+    },
+    {
+      "source": "chat1",
+      "commit": "c575739a1433ccc70baf1941dc95058a3cf825c1",
+      "path": "relays/CHAT1_TO_CC_2026-10-30_P531_WHICH_TYPING_FIXES_THE_METRIC.md",
+      "sha256": "f4fa752fd0efc8b522ddf8cf79244030a9a0755ea0037600ca76bb4156ff1097",
+      "read_scope": "full across source calls"
+    },
+    {
+      "source": "chat1",
+      "commit": "c575739a1433ccc70baf1941dc95058a3cf825c1",
+      "path": "relays/chat1_2026-10-30_p531/generation_metric_typing.py",
+      "sha256": "740a368bc2195d856823a95f468f7a8657a035a2015a4d601c57cfd239319339",
+      "read_scope": "full; not imported or executed"
+    },
+    {
+      "source": "chat1",
+      "commit": "c575739a1433ccc70baf1941dc95058a3cf825c1",
+      "path": "relays/CHAT1_TO_CC_2026-10-30_T_NORM_ON_THE_WEB_SEATS_PAGES.md",
+      "sha256": "2356ffe6fedd278c66a89c8c116817ef5ff19162268246f71d8128582e11d3d9",
+      "read_scope": "full"
+    },
+    {
+      "source": "SM",
+      "commit": "a880cb8d08a32c737157742ecf04e3c563929fdb",
+      "path": "docs/dossiers/the_weave_2026-10-07/NOTE.md",
+      "sha256": "9ae59af6361f17271f91c0123b7ad50c92ff6b38a6143dc170d37b2fd19b13bc",
+      "read_scope": "W180 complete findings section only; producers not executed"
+    }
+  ],
+  "own_source_reading": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COEFFICIENT_METRIC_CONSTRAINTS_AND_PHYSICAL_PRICES.md",
+      "bytes": 9453,
+      "sha256": "b13da01dddef09d1c2ed4c95f5d43aaf2a7b7a27728c8529ca8a2ed0cd0b082e",
+      "scope": "full"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md",
+      "bytes": 11904,
+      "sha256": "2ba7f4810d821c7aa95fc458ea5219187037381a4bc34830067f36e7f2119678",
+      "scope": "lines 1-155; theorem hypotheses and norm identity"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GEOMETRIC_THETA_REGISTER.md",
+      "bytes": 11103,
+      "sha256": "59268072937a02e17e48794ecaa3b9f64fc7870e2de14d85ff7efbcbe3ca9c69",
+      "scope": "lines 1-190"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GEOMETRIC_END_NORM_TRANSPORT.md",
+      "bytes": 7910,
+      "sha256": "8bcdb3880a76842a6e6b49d51420dca8e4eb2d0c60c48d72f85d04f65d5435f3",
+      "scope": "lines 1-160"
+    }
+  ],
+  "already_banked_locator": {
+    "terms": [
+      "T-NORM",
+      "generation metric",
+      "canonical normalization"
+    ],
+    "reported_corpus_hits": 257,
+    "reported_settled_hits_meeting_threshold": 3,
+    "all_hits_read": false,
+    "novelty_or_absence_claim_licensed": false
+  },
+  "new_scientific_execution": false,
+  "earlier_run_repeated": false,
+  "consumed_output_paths_modified": false,
+  "other_seat_numbers_independently_reproduced_here": false,
+  "newer_proofs_certified_by_p210": false,
+  "independent_review_claimed": false,
+  "foundational_inputs_removed_by_this_checkpoint": 0,
+  "global_compliance_claimed": false
+}

@@ -887,6 +887,18 @@ its execution duty only. Main's limitations remain, and P210 is not answered.
 The actual physical end/operator/action map and newer proof-review duties
 remain; no foundational-input, SM3 or gravity completion is claimed.
 
+## November 1: self-audit and current metric correction
+
+The [self-audit](SELF_AUDIT_2026_11_01.md) refreshes all remote heads,
+checks custody of the completed bounded P210 run and preserves the
+49 inherited staged paths. Main B1822's metric correction is taken
+seriously: constant move invariance, a covariant metric family and the
+actual physical Hilbert norm are separate requirements. Our conditional
+coefficient and reconstruction results do not derive FR-FIB's H=I.
+No newer proof inherits P210's execution certificate, and no foundational
+input is marked removed. The next duty remains the same-parent physical
+norm/action/domain map and independent scrutiny of the operator chain.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
