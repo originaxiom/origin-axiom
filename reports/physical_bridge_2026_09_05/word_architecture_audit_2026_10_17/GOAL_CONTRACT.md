@@ -1037,6 +1037,33 @@ paid foundational input. All claims are UNREVIEWED hand analysis,
 outside frozen controls; no science code ran or acceptance was extended.
 The full derivation-led physical goal remains active.
 
+## November 2: exact nonlinear electroweak branch in the same action
+
+[Exact stationary electroweak branch](EXACT_ORDER_THREE_ELECTROWEAK_BRANCH.md)
+continues the new R doublets beyond the linearized kernel. Four actual
+E8 roots give a second raising vector G commuting with E and satisfying
+[G,G-dagger]=[E,E-dagger]=H. The fields qhat=aE/(2ell), rhat=bG/(2ell)
+then solve every old vacuum residual when |a|^2+|b|^2=1, with the Q
+backreaction retained and no appended potential. Their global lines,
+finite norms and complete domains are retained. For a,b nonzero the
+computed connected stabilizer is U3, colour plus electromagnetism.
+
+This is an UNREVIEWED analytical positive for a classical stationary
+Higgs branch, with nonnegative full bosonic Hessian. Its independent
+two-field Gram invariant prevents erasing it as the old rank-one flavour
+orbit. Its amplitude and the physical state remain unselected; the
+supplied parent/order-three restriction is not derived from genesis.
+The full R!=0 fermion spectrum and quantum stability are new duties;
+old SM charged blocks cannot be kept fixed after that group breaks.
+No three-generation, mass prediction, gravity or foundational-input
+payment is claimed.
+
+An eight-control [design](verification_electroweak_branch_2026_11_02/DESIGN.md)
+and proposed environment are committed before creating its module.
+No science is implemented or executed in that package yet. Source
+closure, real independent review, main acceptance and strict prospective
+admission remain required. Earlier seals, packages and reviews are unchanged.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
