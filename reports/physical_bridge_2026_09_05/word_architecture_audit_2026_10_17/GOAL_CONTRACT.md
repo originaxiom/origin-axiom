@@ -1187,6 +1187,32 @@ and acceptances stay separate. This implementation shares a candidate
 verification source; it pays no foundational input and does not
 complete the active full physical mission.
 
+## November 2: full neutral-family charged spectrum and a fourth-order map
+
+[Full neutral-family kernel](NEUTRAL_STATE_COMPLETE_CHARGED_KERNEL_AND_FOURTH_ORDER_MAP.md)
+extends the native up-pair recovery by exact shifted-chain elimination,
+using only nonzero raising pivots and bounded polynomial psi maps.
+The full reduced complex retains the end pole law and every charged
+coefficient; it does not divide the Hilbert space by decaying psi.
+
+The UNREVIEWED candidate gives chiral dimension87 at zero neutral
+amplitude,71 on a nonzero exceptional plane and59 generically, plus
+nine gauge/gaugino modes. Up pairs lift generically; two down and two
+charged-lepton pairs persist. The lepton transfer has fourth-order
+rank2 rather than a nonzero bare light cubic. The entire EM-neutral
+operator, including three colour-adjoint chirals, is unchanged.
+No physical pole masses or observed hierarchy are inferred.
+
+This is a conditional same-action interaction/spectrum derivation,
+not a selected chiral SM or foundational-input reduction. The state,
+spin, parent, scale and complete end law retain their prices. A
+[five-control design](verification_neutral_full_kernel_2026_11_02/DESIGN.md)
+precedes implementation; no science ran or acceptance extended.
+The [third reduction card](REDUCTION_CARD_03_NATIVE_PAIR_MASSES_AND_STATE_PRICE.md)
+records the before/after dependencies, residual spectrum and physical
+earning duties without counting a hypothetical fitted input as removed.
+The full input-reduction and physical mission remains active.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

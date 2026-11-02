@@ -1,0 +1,185 @@
+{
+  "date": "2026-11-02",
+  "status": "UNREVIEWED_FULL_NEUTRAL_FAMILY_KERNEL_AND_FOURTH_ORDER_HOLOMORPHIC_MAP",
+  "source_parent": "bd0e1eb091c2ccaf4cffc252dbc7d41037700d43",
+  "proof": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/NEUTRAL_STATE_COMPLETE_CHARGED_KERNEL_AND_FOURTH_ORDER_MAP.md",
+    "bytes": 13586,
+    "sha256": "2220bd04aba8dcb3c95c149131ae008af7e37e1bbd223ce014c0842ac0062ef7"
+  },
+  "sender_relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_CHAT1_2026-11-02_FULL_NEUTRAL_KERNEL_AND_FOURTH_ORDER_MAP.md",
+    "bytes": 3672,
+    "sha256": "0241169f5ab63c3fe47f5e0505dd83b00c621e1dfd955b91064c33f219fd6cf3"
+  },
+  "preimplementation_design": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_neutral_full_kernel_2026_11_02/DESIGN.md",
+    "bytes": 5808,
+    "sha256": "b43aef01f932c6e5a264620a0e1cf44e7a2012f66697448c0d3e78666379c311"
+  },
+  "proposed_environment": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_neutral_full_kernel_2026_11_02/ENVIRONMENT.json",
+    "bytes": 663,
+    "sha256": "64bd1e5036c027ef8f6b4b14dec9bfb24f721c6c5453cecb15312666f851826e"
+  },
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXISTING_NEUTRAL_FIELD_LIFTS_THE_UP_KERNEL.md",
+      "bytes": 13855,
+      "sha256": "198ca027a3a4b6527c47dab4486b3b68c19a5f40a0555ad8ad05e11d38db20df"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "bytes": 15858,
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXACT_ORDER_THREE_ELECTROWEAK_BRANCH.md",
+      "bytes": 13553,
+      "sha256": "3eae4eba764343746f46db14b58ae5d03ee412534b4067219143c40c3a2f09aa"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md",
+      "bytes": 11904,
+      "sha256": "2ba7f4810d821c7aa95fc458ea5219187037381a4bc34830067f36e7f2119678"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "bytes": 14328,
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "bytes": 16197,
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ORDER_THREE_R_HIGGS_AND_DERIVED_TREE_VERTICES.md",
+      "bytes": 15622,
+      "sha256": "0495e91b320778287eb4132ae764c89711769ee915bcbdad42c1577ecfbd0a62"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "bytes": 12932,
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "bytes": 12292,
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "bytes": 11351,
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    }
+  ],
+  "remote_heads_after_fetch": [
+    "origin/agy/frontier-2026-10-26 05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/audit/fork-2026-09-20 0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/physical-bridge-2026-09-05 bd0e1eb091c2ccaf4cffc252dbc7d41037700d43",
+    "origin/chat1/web-seat c575739a1433ccc70baf1941dc95058a3cf825c1",
+    "origin/chatgpt/weave-physics-archive-2026-10-11 efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9 6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench 13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5 5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox 8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao a880cb8d08a32c737157742ecf04e3c563929fdb",
+    "origin/main 64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+    "origin/referee/B1668_the_price_of_the_nineteen 0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing 806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/sep16-branch 3205984b48d1b98a80042cdc70916878973980f5"
+  ],
+  "remote_head_count": 14,
+  "prior_package_inventory": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_neutral_up_lift_2026_11_02/SOURCE_REVIEW_INVENTORY.json",
+    "bytes": 6804,
+    "sha256": "ff1c30a369d05e7bcc9b534b85edbd65a85f05024c0cd96a75c1d57a309b31bb"
+  },
+  "planned_controls": {
+    "class": "NeutralFullKernelChecks",
+    "methods": [
+      "test_shifted_Jordan_elimination_without_scalar_inverse",
+      "test_tensor_reduction_total_spin_and_Koszul_signs",
+      "test_pole_duality_and_long_exact_sequence_rank_accounting",
+      "test_complete_charged_roster_all_neutral_strata",
+      "test_fourth_order_transfer_and_exact_survivor_controls"
+    ],
+    "count": 5,
+    "implementation_exists": false,
+    "runtime_discovery": "NOT_RUN"
+  },
+  "author_hand_argument": [
+    "Eliminate only constant nonzero raising pivots; retain the shifted-chain monomial with no inverse of psi.",
+    "All elementary operations and inverses are finite polynomial holomorphic maps, bounded in the actual total-spin bundles and complete graph domains.",
+    "Tensor operations retain both generator degrees, metrics and determinant, leaving the actual four line complexes.",
+    "Use line-cohomology isomorphisms and the cone for generic up acyclicity, then long exact sequences for each exceptional plane.",
+    "For both half-spinors the two fourth-order maps are proportional to the same psi^4; a constant middle-line map reduces to two pairs.",
+    "Actual source Hodge duality gives the rank-one lepton injection/surjection; nontrivial down flat lines preserve two pairs.",
+    "Read every remaining charged E8 coefficient and all H0/H3; neutral ad(Z)=0 leaves its entire operator unchanged."
+  ],
+  "review_priority": [
+    "Global bounded Jordan elimination and inverse operations in the ACTUAL weighted bundles and graph domains.",
+    "Tensor compatibility, total integral spin powers, determinant and original physical mass isometry.",
+    "Exact line multiplication maps, Hodge transpose, cone and long exact sequences without a global psi inverse.",
+    "Full E8 coefficient phases, conjugate modules, charged H0/H3 and neutral-sector preservation.",
+    "All-finite kernel scope separated from physical pole masses and state-dependent normalization."
+  ],
+  "claimed_chiral_dimension_targets": [
+    87,
+    71,
+    59
+  ],
+  "claimed_full_left_kernel_targets": [
+    96,
+    80,
+    68
+  ],
+  "targets_are_authored_unreviewed_not_executed": true,
+  "numerical_physical_masses_claimed": false,
+  "scientific_implementation_created": false,
+  "scientific_import": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "independent_review": false,
+  "main_acceptance": false,
+  "complete_execution_specification": false,
+  "prior_acceptance_extended": false,
+  "reduction_account": {
+    "foundational_inputs_removed": 0,
+    "new_fields_couplings_boundaries_or_fitted_mass_tensors": false,
+    "conditional_positive": "The supplied action and exact end complex determine native pair-lifting and a fourth-order transferred lepton map, with exact surviving modes.",
+    "retained_prices": [
+      "Parent and field roster",
+      "E8 embedding, carrier, metric and complete end law",
+      "Trivial extending spin",
+      "Interior and neutral state coordinates",
+      "Action/kinetic scale and physical state law"
+    ],
+    "charged_index_zero_preserved": true,
+    "three_chiral_SM_families_or_gravity_derived": false
+  },
+  "prior_work_locator": {
+    "actual_terms": [
+      "neutral",
+      "jordan",
+      "lepton"
+    ],
+    "scope": "Locator only, not a full corpus or history sweep",
+    "all_hits_read": false,
+    "absence_or_priority_claim": false,
+    "B1033_body_reread_for_chirality_vs_generation_distinction": true
+  },
+  "inherited_staged_paths": 49,
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "reduction_card": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REDUCTION_CARD_03_NATIVE_PAIR_MASSES_AND_STATE_PRICE.md",
+    "bytes": 6505,
+    "sha256": "77c5d2e5a6030136d6f566fccf86e4573334db8f95f8884e5349c946219aaede"
+  }
+}
