@@ -996,6 +996,24 @@ of its selection. The generic zero-cubic proof is preserved at its
 proper scope; it cannot be extended across this change of R kernel.
 No foundational row is removed, and the full physical goal remains active.
 
+## November 2: three relational readings, without adopting a hidden axiom
+
+[Three-lens foundation intake](THREE_LENS_RELATIONAL_FOUNDATION_INTAKE_2026_11_02.md)
+reads the owner's complete residue/recurrence/non-splitting proposal.
+It retains the useful interpretation-neutral candidate while correcting
+the one-record linearity, Fibonacci transpose/minimum, characteristic-two
+pairing and quadratic-refinement claims. Main's already recorded
+two-record characterization and B1707's genus-one square form are reused.
+The cited odd-characteristic quantization paper is not applied at p=2;
+separate characteristic-two prior art is read at its specified sections.
+
+The arrow from the founding descriptive premise to a nondegenerate
+alternating relation remains a proposed derivation duty, not a new
+adopted canonical axiom or a completed input reduction. The based
+register and actual central/square data must travel through any map.
+This source/hand audit is UNREVIEWED, no scientific code ran and the
+physical action/domain, chirality and SM3/gravity goal remains active.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

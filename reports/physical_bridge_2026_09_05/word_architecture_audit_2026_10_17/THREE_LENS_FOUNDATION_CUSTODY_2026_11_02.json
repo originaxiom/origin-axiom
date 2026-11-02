@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-02",
+  "status": "UNREVIEWED_OWNER_PROPOSAL_INTAKE_AND_HAND_AUDIT",
+  "source_parent": "b710d69c05b674b11e60deff0ba2e2c4196f3032",
+  "received_text": {
+    "description": "Owner-provided three-lens residue/recurrence/non-splitting proposal",
+    "bytes": 13604,
+    "sha256": "03ed8cd9f0120bfe322fca70760ee6ef5f966dc831288677be5350ba5cf90aa5",
+    "personally_read": "full text",
+    "redistributed": false,
+    "claimed_enumeration_reproduced": false,
+    "source_instructions_not_treated_as_user_authorization": true
+  },
+  "analysis": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/THREE_LENS_RELATIONAL_FOUNDATION_INTAKE_2026_11_02.md",
+    "bytes": 10306,
+    "sha256": "c50ec3310624988fc45baf2700272be4ed5c73c97e62680bbba1c9cd0149a583"
+  },
+  "sender_relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_CHAT1_2026-11-02_THREE_LENS_FOUNDATION_INTAKE.md",
+    "bytes": 2967,
+    "sha256": "c1570c6c62c425b9ac3c5609edec122fffaa46b93cbcebba63a61fb39228be44"
+  },
+  "main_source_pins": [
+    {
+      "commit": "64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-21_TWO_RECORDS_CHARACTERISED_AND_THE_SURFACE_ROUTE.md",
+      "bytes": 5681,
+      "sha256": "b33385dbe5702073ea572c02b8e9c57e788d4d06b355a0ddaab8cd081fb2c6c7",
+      "read_scope": "full text, read-only; scientific producers not imported or executed"
+    },
+    {
+      "commit": "64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+      "path": "docs/handoffs/CC_TO_ALL_SEATS_2026-10-20_TWO_RECORDS_DERIVED_AND_THE_END_LAW_QUESTION.md",
+      "bytes": 4194,
+      "sha256": "30b3e743eef8d483c55fe702657bec3fd5280e8445ee9e26b3d13078d49ae446",
+      "read_scope": "full text, read-only; scientific producers not imported or executed"
+    },
+    {
+      "commit": "64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+      "path": "frontier/B1707_w111_on_main/FINDINGS.md",
+      "bytes": 4443,
+      "sha256": "1b1fbdf0bebe07adb33ff08072471b5bb74510a201cb546743eec04c2f1b219b",
+      "read_scope": "full text, read-only; scientific producers not imported or executed"
+    }
+  ],
+  "primary_readings": [
+    {
+      "url": "https://arxiv.org/pdf/0708.0669",
+      "version": "0708.0669v3",
+      "personally_read_scope": [
+        "section1.1 odd-characteristic hypothesis",
+        "sections2.1--2.3 Heisenberg group, central character and oriented models"
+      ],
+      "whole_paper_read": false,
+      "local_pdf_hash_recorded": false
+    },
+    {
+      "url": "https://arxiv.org/pdf/0808.1664",
+      "version": "0808.1664v1",
+      "personally_read_scope": [
+        "introduction0.1--0.4 characteristic-two extensions, quadratic information and enhanced Lagrangian models"
+      ],
+      "whole_paper_read": false,
+      "local_pdf_hash_recorded": false
+    }
+  ],
+  "hand_checks": [
+    "Two-dimensional matrix identity M^TJM=det(M)J.",
+    "Fibonacci entry-sum minima in the declared nonnegative primitive unimodular class, and the determinant-plus-one variant.",
+    "Q8 and dihedral refinements of the same F2 commutator pairing.",
+    "Full three-direction symmetry forces the unique all-nonzero square form.",
+    "Affine one-record and commuting rank-two countercontrols."
+  ],
+  "canonical_genesis_changed": false,
+  "foundational_inputs_removed": 0,
+  "independent_review": false,
+  "scientific_import_collection_or_execution": false,
+  "new_experiment_created": false,
+  "continuation_scope": "Physical parent/action/domain and end-law reduction continues; the owner question adds an intake, not a replacement goal.",
+  "inherited_staged_paths": 49,
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
