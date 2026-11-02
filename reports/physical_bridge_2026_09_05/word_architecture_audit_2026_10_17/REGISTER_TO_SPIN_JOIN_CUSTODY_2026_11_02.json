@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-02",
+  "status": "UNREVIEWED_REGISTER_TO_SPIN_APPLICATION_WITH_PHYSICAL_JOIN_UNEARNED",
+  "source_parent": "64b89a4738838d6cbb49113aa9e7eb1e93ecba0d",
+  "proof": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTER_QUADRATIC_FORM_TO_ODD_SPIN_AND_PHYSICAL_JOIN.md",
+    "bytes": 9351,
+    "sha256": "04830b9aea811c090ff4316fece10f7e95810106a52fe6665443718d372c6ee7"
+  },
+  "sender_relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_CHAT1_2026-11-02_QUADRATIC_REGISTER_TO_SPIN_JOIN.md",
+    "bytes": 3743,
+    "sha256": "59b709263927f1690a891a95dad099202ed65965e7e89a1eac524cf0e981de8b"
+  },
+  "local_sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/THREE_LENS_RELATIONAL_FOUNDATION_INTAKE_2026_11_02.md",
+      "bytes": 10306,
+      "sha256": "c50ec3310624988fc45baf2700272be4ed5c73c97e62680bbba1c9cd0149a583"
+    },
+    {
+      "path": "frontier/B1141_spin_payment/FINDINGS.md",
+      "bytes": 6836,
+      "sha256": "06cc51eeb2f43935f761f1fa5ccef94a2b2557f40ee93456ac8ddeaeecfec572"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "bytes": 12932,
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/PROOF.md",
+      "bytes": 4992,
+      "sha256": "a56dcbb3d4571f466f0a179de0ce843179f90045465a43ba8cea44ec7adab057"
+    }
+  ],
+  "verified_git_source_pins": [
+    {
+      "verified_commit": "64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+      "path": "frontier/B1707_w111_on_main/FINDINGS.md",
+      "bytes": 4443,
+      "sha256": "1b1fbdf0bebe07adb33ff08072471b5bb74510a201cb546743eec04c2f1b219b"
+    },
+    {
+      "verified_commit": "64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+      "path": "frontier/B1707_w111_on_main/verification/the_surface_route.py",
+      "bytes": 7906,
+      "sha256": "432e377ac736f6745441413a00d71634eda32d25854dea39e41d2bdf2d367ece"
+    }
+  ],
+  "primary_literature": {
+    "author": "Dennis Johnson",
+    "title": "Spin Structures and Quadratic Forms on Surfaces",
+    "year": 1980,
+    "pages": "365-373",
+    "doi": "10.1112/jlms/s2-22.2.365",
+    "url": "https://math.mit.edu/~hrm/palestine/johnson-spin-structures.pdf",
+    "access_date": "2026-11-02",
+    "bytes": 463312,
+    "sha256": "3f003a63538737ddd1d857eba50d553201d115f917da2b14ae3773ab75165cff",
+    "paper_page_count": 9,
+    "personally_read_text": "All nine pages",
+    "personally_visually_inspected_printed_pages": "366-373, including band-change diagrams and theorems3-4",
+    "source_transferred": "Natural equivariant spin/quadratic correspondence; general parity theorem used as a consistency check.",
+    "new_author_application": "Explicit genus-one frame-fibre functional, spin-period map, all three mod-two monodromy strata, and remaining physical earning duties.",
+    "pdf_or_figures_committed": false
+  },
+  "mathematical_map": "xi_q(tilde(v)+e z)=q(v)+e, with xi_q(z)=1 and inverse q(v)=xi_q(tilde(v)).",
+  "retained_prices": [
+    "Symplectic identification of actual record space with the physical compact surface homology",
+    "Full based/gauge/R/companion/measuring transport",
+    "Coherent lifted transition composition and cocycle",
+    "Physical extra flat twist or derived family/distribution",
+    "Same physical field degree, kinetic metric and complete domain"
+  ],
+  "before_after": "A canonical mathematical candidate for the formerly chosen trivial spin is exhibited; its physical identification is not silently counted as a removed input.",
+  "foundational_inputs_removed": 0,
+  "physical_spin_input_paid": false,
+  "neutral_amplitude_selected": false,
+  "B1141_scope": "Preserved three-manifold beat-selection theorem; no unexhibited equality with the four curve spin classes.",
+  "literature_scope_guard": "Genus>=2 is retained in the no-common-fixed-spin statement; genus1 is handled explicitly.",
+  "producer_hygiene": {
+    "path": "frontier/B1707_w111_on_main/verification/the_surface_route.py",
+    "unused_variable": "triv",
+    "store_line": 104,
+    "load_lines": [],
+    "vacuous_empty_generator_disjunct": true,
+    "published_independent_counter_line": 106,
+    "published_counter_affected": false,
+    "theorem_or_output_refuted": false,
+    "old_source_changed": false,
+    "kind": "static_AST_and_source_observation_no_scientific_execution"
+  },
+  "prior_work_locator": {
+    "actual_terms": [
+      "odd",
+      "spin",
+      "modular"
+    ],
+    "excluded_blinded_arc": "B1825",
+    "scope": "Locator only, not all heads/content/history absence certification",
+    "all_broad_hits_read": false,
+    "absence_or_priority_claim": false
+  },
+  "scientific_import": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "independent_review": false,
+  "main_acceptance": false,
+  "prior_acceptance_extended": false,
+  "neutral_kernel_source_candidate_unchanged": true,
+  "inherited_staged_paths": 49,
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}

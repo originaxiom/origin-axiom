@@ -1228,6 +1228,26 @@ independent review. Finite reconstructions do not certify it. No older
 acceptance extends to this candidate, no foundational input is paid,
 and the full physical reduction mission remains active.
 
+## November 2: a concrete register-to-spin arrow and its remaining physical join
+
+[Register quadratic form to spin](REGISTER_QUADRATIC_FORM_TO_ODD_SPIN_AND_PHYSICAL_JOIN.md)
+connects the already banked genus-one quaternion square refinement to
+the odd spin through an explicit natural frame-fibre map. Johnson's
+primary theorem was read personally, including rendered proof pages.
+The derived spin CLASS is the one admitting the old neutral section.
+
+This does not yet identify the physical bundle, full based/gauge/R
+transport or coherent lifted cocycle. Those maps and any extra flat
+twist remain earning duties, with no physical spin row marked paid.
+The note distinguishes one-word monodromy, which can fix one/two/four
+spin classes, from full-move compatibility and an equivariant spin
+family. It also preserves B1141's separate three-manifold scope and
+the genus>=2 qualifier in the literature's fixed-spin statement.
+
+This is a separately UNREVIEWED analytical intake, not an implicit
+extension of the neutral-kernel package or any scientific acceptance.
+No science ran and the full physical input-reduction goal stays active.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
