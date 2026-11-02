@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-02",
+  "status": "UNREVIEWED_FULL_CLASSICAL_PARENT_SPIN_FLAVOUR_FACTORISATION_WITH_MEASURER_QUALIFICATION",
+  "source_parent": "4996400b9a1cd70912c63d133cd730bba35fd7aa",
+  "proof": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SPIN_FLAVOUR_FACTORISATION_AND_PHYSICAL_TWIST_PRICE.md",
+    "bytes": 12732,
+    "sha256": "308eeb1745d36cd8c86e35d25f0ede9fbd9e1d5f43d235cfa908307ece45887f"
+  },
+  "sender_relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_CHAT1_2026-11-02_SPIN_FLAVOUR_PRODUCT_AND_TWIST_PRICE.md",
+    "bytes": 3573,
+    "sha256": "70c577186a3b9f3eab025fcaff39247860c5f830eb4e5d484e6a6207bf344e41"
+  },
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "bytes": 11351,
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "bytes": 12292,
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "bytes": 12932,
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_FLAVOUR_ORBIT_METRIC_AND_HEAVY_RESPONSE.md",
+      "bytes": 15965,
+      "sha256": "31467b660be024c9f42ca8fb6d6dffe178d7d4692f4751b68b342abbc03c7aee"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COMBINED_SPIN_GAUGE_DESCENT_AND_RETAINED_SECTORS.md",
+      "bytes": 7579,
+      "sha256": "b5db69555bed0bfd457d733f79b6509dcc1c3088cd6792734ffc46a7901cfc2f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTER_QUADRATIC_FORM_TO_ODD_SPIN_AND_PHYSICAL_JOIN.md",
+      "bytes": 9351,
+      "sha256": "04830b9aea811c090ff4316fece10f7e95810106a52fe6665443718d372c6ee7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "bytes": 16197,
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce"
+    }
+  ],
+  "remote_heads_after_fetch": [
+    "origin/agy/frontier-2026-10-26 05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/audit/fork-2026-09-20 0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/physical-bridge-2026-09-05 4996400b9a1cd70912c63d133cd730bba35fd7aa",
+    "origin/chat1/web-seat c575739a1433ccc70baf1941dc95058a3cf825c1",
+    "origin/chatgpt/weave-physics-archive-2026-10-11 efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9 6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench 13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5 5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox 8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao a880cb8d08a32c737157742ecf04e3c563929fdb",
+    "origin/main 64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+    "origin/referee/B1668_the_price_of_the_nineteen 0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing 806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/sep16-branch 3205984b48d1b98a80042cdc70916878973980f5"
+  ],
+  "remote_head_count": 14,
+  "exact_candidate_map": {
+    "bundle": "J:(S tensor T) tensor(F tensor T) -> S tensor F via the unit parallel T^2 contraction",
+    "input_map": "J_in=diag(1_lambda,1_a,J)",
+    "output_map": "Induced unitary trace-dual conjugate map J_out",
+    "physical_identity": "J_out M_prime=M J_in at transported backgrounds",
+    "gauge_bundle_and_connection": "P,A held fixed and actual background transported; rebuilding P(S_prime) independently is not this comparison."
+  },
+  "author_hand_argument": [
+    "Existing Q/R equal-metric SU2 flavour symmetry is reused, not invented or gauged.",
+    "Both spin and flavour transitions gain the same flat sign, leaving the combined bundle, connection, norm and K-valued epsilon pairing identical.",
+    "The full action and boundary primitive agree for arbitrary fields; every retained Weyl, residual, determinant and gaugino slot is transported.",
+    "Gauge tangent, real gauge slice, ghost operator and full weighted fermion map intertwine by actual isometries.",
+    "Compact-support cores and complete graph/nonlinear domains map onto each other, with the original Green pairing.",
+    "A gauge-only uniform minus on the full E8 adjoint is rejected by the nonzero Lie bracket, with no broader gauge-compensation exclusion.",
+    "Only the combined central character is visible to the retained classical parent; separately sensitive measuring sectors need their own map."
+  ],
+  "independence_account": {
+    "original_fixed_flavour_spin_classes": 4,
+    "extended_factor_pair_descriptions": 16,
+    "diagonal_refactorisation_orbits": 4,
+    "effective_character": "epsilon_S+epsilon_F at fixed marked carrier/reference",
+    "original_physical_choice_removed": false,
+    "foundational_inputs_removed": 0,
+    "new_flavour_dynamics_supplied": false,
+    "extra_measuring_sector_identified": false,
+    "quantum_equivalence_claimed": false
+  },
+  "old_scope_preserved": [
+    "The ordinary spin/gauge doublet construction and its integer-isospin warning.",
+    "Nontrivial spin with trivial flavour remains a different combined class and keeps its scoped no-psi statement.",
+    "Neutral-family complete spectra and zero charged index do not change under the simultaneous re-factorisation.",
+    "No earlier review, acceptance, scientific source, seal or failure is changed."
+  ],
+  "intrinsic_physical_derivation_target": "The joint rank2 bundle B, Hermitian metric h_B, connection nabla_B, K-valued alternating pairing, complete end realization and measuring maps, including full noncentral register holonomy if applicable.",
+  "review_priority": [
+    "Actual source slot parities, four-Weyl mass map, epsilon/spin-square maps and all 248 gauge coefficients.",
+    "Unitary operator identity and complete domains, with P,A and transported background fixed.",
+    "Boundary primitive, gauge quotient, ghost and source-normalized Green pairing.",
+    "No original four-to-one physical reduction hidden in the sixteen-to-four description count.",
+    "Actual measuring/register representations, extra flavour holonomy and distinction from quantum or full-programme equivalence."
+  ],
+  "prior_work_locator": {
+    "actual_terms": [
+      "spin",
+      "flavour",
+      "twist"
+    ],
+    "excluded_blinded_arc": "B1825",
+    "broad_hits_read_completely": false,
+    "absence_or_priority_claim": false,
+    "old_compensated_bundle_positive_reused": true
+  },
+  "scientific_implementation_created": false,
+  "scientific_import": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "independent_review": false,
+  "main_acceptance": false,
+  "prior_acceptance_extended": false,
+  "previous_neutral_source_candidate_and_spin_intake_pins_unchanged": true,
+  "inherited_staged_paths": 49,
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}

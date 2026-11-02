@@ -1248,6 +1248,30 @@ This is a separately UNREVIEWED analytical intake, not an implicit
 extension of the neutral-kernel package or any scientific acceptance.
 No science ran and the full physical input-reduction goal stays active.
 
+## November 2: full-parent spin/flavour map and the residual combined character
+
+[Spin/flavour product and twist price](SPIN_FLAVOUR_FACTORISATION_AND_PHYSICAL_TWIST_PRICE.md)
+uses the existing Q/R doublet to construct an exact simultaneous
+spin/flavour re-factorization. Its tensor transition, connection,
+kinetic metric and epsilon pairing are unchanged. The authored map
+transports the whole action and physical mass operator, all four Weyl
+slots, gauge quotient, complete domain and boundary pairing.
+
+This is a conditional positive, not an erased physical choice. The
+original parent fixed flavour transport and had four spin classes;
+allowing two central description characters gives 16 pairs whose four
+orbits retain the combined character epsilon_S+epsilon_F. No old
+input is removed by moving it to a flavour Wilson sign. The actual
+registry map must earn that combined structure or its family, with
+any separately sensitive measuring sector retained.
+
+Old nontrivial-spin/trivial-flavour no-psi results, the ordinary
+spin/gauge doublet positive, the exact neutral-state spectra and their
+zero index are preserved in scope. The new argument is UNREVIEWED,
+outside every earlier package, with no scientific execution or
+acceptance extended. No foundational row is paid; the full physical
+input-reduction mission remains active.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
