@@ -1,0 +1,154 @@
+{
+  "date": "2026-11-02",
+  "status": "UNREVIEWED_AUTHOR_HAND_DERIVATION",
+  "source_parent": "b77117f6be26147de45e844f5737eef64faa9cca",
+  "proof": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ORDER_THREE_R_HIGGS_AND_DERIVED_TREE_VERTICES.md",
+    "bytes": 15622,
+    "sha256": "0495e91b320778287eb4132ae764c89711769ee915bcbdad42c1577ecfbd0a62"
+  },
+  "relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_CHAT1_2026-11-02_ORDER_THREE_R_DOUBLETS_AND_NORMALIZED_VERTICES.md",
+    "bytes": 4653,
+    "sha256": "ba055a87e0260f97e17643a7b7ec81663bdcef54595a236c67a81491c5aee6ea"
+  },
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "bytes": 14328,
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUANTUM_NORMALIZATION_AND_WEIGHTED_GAUGE_MATCHING.md",
+      "bytes": 20252,
+      "sha256": "e6389aea20614b4effdb34c6bfd2ef77a74fb618db9b73acf75782d659407dee"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/WILSON_FAMILY_KERNEL_AND_LEVEL_FOUR_REGISTER_MAP.md",
+      "bytes": 12532,
+      "sha256": "b53f22602afcc6194a3cbddde86eaa86d6e1f54c707e4135777d1f018ad2d6ae"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ORDER_TEN_PHYSICAL_CUBIC_AND_EXCEPTIONAL_MODE_PAIRING.md",
+      "bytes": 11425,
+      "sha256": "2d82c2229c63421b944caaa534613f6992fd1fb4de0f89fae73d344fd8ea2ceb"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/TWO_HEAT_RESPONSES_AUTHOR_AUDIT_2026_10_29.md",
+      "bytes": 9184,
+      "sha256": "124b34588b432ceb086335dc65fbca0e2d0074ce89b9e05b66dec133e7a65a40"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/probe.py",
+      "bytes": 11338,
+      "sha256": "432e8fe1ff674f7d72aec6aa54e86ec1769ffda8f8c2ede04d357d93c8286049"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/PROOF.md",
+      "bytes": 11161,
+      "sha256": "8ca99b10c3da48289e47d76cf78870e904558861e19b1e0f9b9dce59079473a7"
+    },
+    {
+      "path": "frontier/B987_X8_higgs_doublet/FINDINGS.md",
+      "bytes": 4395,
+      "sha256": "753a9561373a168efa27bfe8c4f3a43f79a688b971a472055807a0eab74265cf"
+    },
+    {
+      "path": "frontier/B1185_yukawa_three_mechanisms/FINDINGS.md",
+      "bytes": 5870,
+      "sha256": "56aadd0669371b8c58d3c9de684d0e1228c0764815d80465d5469ca64b6fe4ec"
+    }
+  ],
+  "remote_heads": [
+    "origin/agy/frontier-2026-10-26 05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/audit/fork-2026-09-20 0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/physical-bridge-2026-09-05 b77117f6be26147de45e844f5737eef64faa9cca",
+    "origin/chat1/web-seat c575739a1433ccc70baf1941dc95058a3cf825c1",
+    "origin/chatgpt/weave-physics-archive-2026-10-11 efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9 6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench 13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5 5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox 8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao a880cb8d08a32c737157742ecf04e3c563929fdb",
+    "origin/main 64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+    "origin/referee/B1668_the_price_of_the_nineteen 0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing 806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/sep16-branch 3205984b48d1b98a80042cdc70916878973980f5"
+  ],
+  "remote_head_count": 14,
+  "hand_checks": [
+    "The exact old R kernel gives delta(chi^2) for triplets and delta(chi^3) for doublets, fixing order three conditional on the R-sector duty.",
+    "The spin-cancelled weak R line is globally trivial with constant positive physical norm.",
+    "The unit principal V1 highest bivector is annihilated by the literal raising map.",
+    "The two exterior products have coefficients -2sqrt(6)/5 and -sqrt(3/5).",
+    "The three literal E8 roots have the source coordinates, grades and charges, sum to zero and give a nonzero unit-root A2 bracket.",
+    "The actual Hodge-dual line equals the u line in both allowed down channels; the cusp bounds keep every chosen variation admissible.",
+    "The true kinetic densities give I/2,I,Area, so each profile integral cancels separately in canonical normalization.",
+    "The up-type grade sum is nonzero and its invariant trace vanishes pointwise.",
+    "The changed complete roster and beta insertion agree with the already-derived general heat/running exception formula."
+  ],
+  "canonical_tree_coefficients_status": "Author derived in the declared unit-root convention; not independently reviewed, computed, or compared with empirical targets.",
+  "reduction_account": {
+    "foundational_inputs_removed": 0,
+    "conditional_model_constraint": "R-field weak doublets and no R triplet partners imply exact order three.",
+    "determined_outputs": [
+      "Full companion roster",
+      "Parallel R profile",
+      "Nonzero down/charged-lepton channel overlaps",
+      "Two canonical tree vertices and their ratio",
+      "Specified colour down-block rank",
+      "Pointwise up-type cubic zero"
+    ],
+    "new_fitted_yukawa_tensor": false,
+    "unknown_profile_integrals_assumed_equal": false,
+    "physical_generation_Gram_assumed_identity": false,
+    "unselected": [
+      "Which field combination is the physical Higgs",
+      "Why the R-specific duty is adopted",
+      "Marked character, modulus and spin",
+      "Parent, embedding, overall coupling and physical field interpretation",
+      "Electroweak stationary vacuum",
+      "Physical end/index class and three chiral generations"
+    ]
+  },
+  "prior_work_search": {
+    "already_banked_terms": [
+      "parallel Wilson Higgs doublet",
+      "order-three Higgs Yukawa"
+    ],
+    "full_older_findings_read": [
+      "B987_X8_higgs_doublet",
+      "B1185_yukawa_three_mechanisms"
+    ],
+    "bounded_four_branch_order_three_Higgs_Yukawa_path_locator_matches": 0,
+    "locator_is_absence_certificate": false,
+    "priority_or_universal_absence_claim": false
+  },
+  "outside_frozen_sixteen_controls": true,
+  "new_executable_or_experiment_design_created": false,
+  "scientific_import": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "independent_review": false,
+  "main_acceptance": false,
+  "review_priority": [
+    "All actual harmonic-kernel/domain and spin/charge identifications.",
+    "E8 root-to-unit-tensor map, including its common invariant constant.",
+    "Both principal Clebsches and the trace-normalized g4 convention.",
+    "Actual same-parent kinetic factors and the profile cancellation.",
+    "Full companions, physical Higgs-direction duty and up-channel exclusion scope.",
+    "Tree versus renormalized matching, source/end law and zero-index limitations."
+  ],
+  "inherited_staged_paths": 49,
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}

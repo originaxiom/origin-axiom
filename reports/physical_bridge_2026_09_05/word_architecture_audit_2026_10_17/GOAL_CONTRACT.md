@@ -1014,6 +1014,29 @@ register and actual central/square data must travel through any map.
 This source/hand audit is UNREVIEWED, no scientific code ran and the
 physical action/domain, chirality and SM3/gravity goal remains active.
 
+## November 2: R-doublet duty and derived tree vertices
+
+[Order-three R doublets and normalized vertices](ORDER_THREE_R_HIGGS_AND_DERIVED_TREE_VERTICES.md)
+turns a supplied Wilson order into an exact compatibility condition:
+R weak doublets with no R triplet partner require order three within
+the same old SM stratum. Their parallel profile, actual E8 root/cubic
+coefficients and Hodge-paired norms determine two nonzero down-channel
+tree vertices; each unknown overlap cancels against its own kinetic
+norms. The colour down block has rank two, with proposed canonical
+coefficient ratio sqrt(8/5). No fitted Yukawa or assumed generation
+Gram is introduced.
+
+The complete companions are retained, including A/Q triplets. V1
+supplies the R doublet and one down leg; V3 supplies the other, so
+discarding V1 would discard a genuine positive. The up-type cubic
+vanishes in this fixed background, the charged spectrum remains
+vector-like and no electroweak vacuum or three generations is inferred.
+The R-doublet duty and parent remain supplied: this is a conditional
+model restriction and a determined vertex calculation, not a newly
+paid foundational input. All claims are UNREVIEWED hand analysis,
+outside frozen controls; no science code ran or acceptance was extended.
+The full derivation-led physical goal remains active.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
