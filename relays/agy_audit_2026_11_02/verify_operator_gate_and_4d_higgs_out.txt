@@ -1,0 +1,6 @@
+=== ELEVATION PLAN EXECUTION: GATE 0, 4D HIGGS & TWISTED NORMS BENCHMARK ===
+Gate 0 runtime: 1.35 ms
+  FR-FIB: passed=False (0/4 clauses) | |V_ub|/|V_td|=11.2797, sin(delta_CP)=0.0842
+  FR-COV: passed=True (4/4 clauses) | |V_ub|/|V_td|=0.6778, sin(delta_CP)=0.6997
+4D Quaternionic Yukawa formula vs direct 2x2 trace bilinear max err: 9.93e-16
+Twisted norms c_s(tau, w): 3-sector 2D quadrature = 1201.73 ms vs closed_form_cA = 24.80 ms (48.5x speedup, max diff = 1.67e-12)

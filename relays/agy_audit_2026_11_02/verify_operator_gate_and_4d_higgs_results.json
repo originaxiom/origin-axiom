@@ -1,0 +1,93 @@
+{
+  "gate_0_evaluation_ms": 1.3468819997797254,
+  "gate_0_FR_FIB": {
+    "frame_name": "FR-FIB",
+    "extends_to_3manifold_m004": false,
+    "forces_kinetic_metric_H_eq_I": false,
+    "null_cone_ckm_corner_free": false,
+    "colour_triality_distinguishes_dc_from_L": false,
+    "sample_Vub_over_Vtd": 11.279715295920811,
+    "sample_sin_delta_CP": 0.08424385383205917
+  },
+  "gate_0_FR_COV": {
+    "frame_name": "FR-COV",
+    "extends_to_3manifold_m004": true,
+    "forces_kinetic_metric_H_eq_I": true,
+    "null_cone_ckm_corner_free": true,
+    "colour_triality_distinguishes_dc_from_L": true,
+    "sample_Vub_over_Vtd": 0.6778383600354327,
+    "sample_sin_delta_CP": 0.6997107482496434
+  },
+  "b1825_address_3d_vs_4d_higgs_comparison": {
+    "max_4d_formula_vs_direct_err": 9.930136612989092e-16,
+    "FR_FIB_a0_eq_0": {
+      "mc_over_mt": 0.004553287810439156,
+      "ms_over_mb": 0.027399284053615167,
+      "Vub_over_Vus_Vcb": 1.063052447215049,
+      "Vtd_over_Vus_Vcb": 0.09424461693634154,
+      "Vub_over_Vtd": 11.279715295920811,
+      "sin_delta_CP": 0.08424385383205917
+    },
+    "FR_COV_shared_a0_0p20_exp_i7pi8": {
+      "a0_real": -0.18477590650225736,
+      "a0_imag": 0.07653668647301798,
+      "mc_over_mt": 0.03816444825297395,
+      "ms_over_mb": 0.06673204028665089,
+      "Vub_over_Vus_Vcb": 1.6861544265933857,
+      "Vtd_over_Vus_Vcb": 2.487546480115473,
+      "Vub_over_Vtd": 0.6778383600354327,
+      "sin_delta_CP": 0.6997107482496434
+    }
+  },
+  "twisted_norms_benchmark": {
+    "quadrature_cA_ms_per_sector": 400.57821400114335,
+    "quadrature_cA_ms_3_sectors": 1201.73464200343,
+    "closed_form_cA_ms_all_sectors": 24.802067997370614,
+    "speedup_factor_vs_3_sector_quadrature": 48.45300166626556,
+    "max_abs_diff": 1.673328142715036e-12
+  },
+  "m004_cover_invariants": {
+    "monodromy_LR": [
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "det_LR_minus_I": -1,
+    "torsion_lines_invariant_under_LR": 1,
+    "deck_commutant_dim_R": 1,
+    "forces_H_proportional_to_I": true,
+    "alexander_at_omega_abs": 4.0,
+    "reidemeister_torsion_at_omega_abs": 2.3094010767585034,
+    "distinguishes_colour_triplet_dc_from_singlet_L": true
+  },
+  "stepb_audit_summary": {
+    "choice_30900": {
+      "choice_index": 30900,
+      "line_index": 160,
+      "line": [
+        "2/5",
+        "0"
+      ],
+      "line_order": 5,
+      "direction": "D2R",
+      "radius": "L_max",
+      "reading": [
+        "S~",
+        "S",
+        "S"
+      ],
+      "has_complex_ckm": false
+    },
+    "order_12_summary": {
+      "order_12_lines": 48,
+      "order_12_total_choices": 9216,
+      "order_12_choices_in_physical_choice": 7680,
+      "fraction_of_40000_physical_choices": 0.192
+    }
+  }
+}

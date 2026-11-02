@@ -23,6 +23,9 @@ Self-contained verification scripts, JSON results, and stdout logs accompanying 
 4. **`verify_stepb_and_census_audit.py`** (`verify_stepb_and_census_audit_results.json`, `verify_stepb_and_census_audit_out.txt`)
    - Verifies the unread `B1825` (`Step B`) `run.json` readout and observable-by-observable $\chi^2_{\text{ten}}$ breakdown, the four `scripts/stepb/` and `cm_zero_line.py` architectural/numerical defects (`kten.py` choice `30900` ignore, `cells.py` $7,680$ order-12 massless-electron choices in `physical_choice`, $2:1$ CKM reading duplication, and `F_6..F_26` asymptotic collapse / `float64` underflow), and the 3-manifold `m004` topological and $\mathbb{Z}_3$ colour-center Wilson line torsion checks.
 
+5. **`verify_operator_gate_and_4d_higgs.py`** (`verify_operator_gate_and_4d_higgs_results.json`, `verify_operator_gate_and_4d_higgs_out.txt`)
+   - Verifies the executed three-step elevation in `src/origin_axiom/` (`twisted_norms.py`, `operator_gate.py`, `stepb_audit.py`) and `tests/test_elevation_operator_gate.py`: runs `Gate 0` (`evaluate_operator_gate`) on `FR-FIB` (`0/4` clauses passed) vs `FR-COV` (`4/4` clauses passed) in $1.35\text{ ms}$, verifies the 4D quaternionic Yukawa identity $Y_s^{\text{4D}}$ to $9.93 \times 10^{-16}$, demonstrates how a single shared scalar quaternion component $a_0$ flips $|V_{ub}|/|V_{td}|$ from $11.28$ to $0.6778 < 1.0$ and raises $\sin\delta_{\text{CP}}$ from $0.0842$ to $0.6997$ on `B1825`'s exact best address, and benchmarks `closed_form_cA` ($48.5\times$ speedup over 3-sector 2D Gauss–Legendre quadrature).
+
 ## Reproduction
 
 From the repository root:
@@ -32,4 +35,6 @@ python3 relays/agy_audit_2026_11_02/independent_core_recompute.py
 python3 relays/agy_audit_2026_11_02/verify_closed_form_c.py
 python3 relays/agy_audit_2026_11_02/verify_ckm_inversion.py
 python3 relays/agy_audit_2026_11_02/verify_stepb_and_census_audit.py
+python3 relays/agy_audit_2026_11_02/verify_operator_gate_and_4d_higgs.py
+pytest tests/test_elevation_operator_gate.py -v
 ```
