@@ -15,7 +15,7 @@ As proved in Theorem 2 (`relays/AGY_TO_CC_2026-11-02_FULL_AUDIT_BLIND_SPOTS_AND_
 $$Y_s = \vec{h}\,\vec{m}_\perp^T + \vec{m}_\perp\,\vec{h}^T - (\vec{h}\cdot\vec{m}_\perp)I_3 - m_1^{(s)}[\vec{h}]_\times \quad \Longrightarrow \quad Y_s\vec{h} = Y_s^T\vec{h} = (\vec{h}\cdot\vec{h})\vec{m}_\perp^{(s)},$$
 which locks the 1st-generation singular vector $u_1^{(s)}$ of both up and down quarks to the same sector-blind vector $\hat{h}^*$ on the null cone $r = |\vec{h}\cdot\vec{h}|/\|\vec{h}\|^2 \ll 1$, forcing $\theta_{12}^{(u)}/\theta_{12}^{(d)} \sim (m_s/m_b)/(m_c/m_t) \gg 1$, transposing the $(1,3)$ and $(3,1)$ corners ($|V_{ub}| \approx |V_{us}||V_{cb}| \gg |V_{td}|$), and suppressing $\sin\delta_{\text{CP}} \ll 1$.
 
-**The core methodological lesson:** When `origin-axiom` works by **exact finite-dimensional algebra and topological invariants** (`src/origin_axiom/root.py`, `src/origin_axiom/hypercharge.py`, `src/origin_axiom/weave.py`), it settles questions permanently in $< 1\text{ s}$. Every candidate frame must therefore pass an upfront **Algebraic Operator Gate (`Gate 0`)** *before* any $\tau$-grid scan or census is permitted.
+**The core methodological lesson:** When `origin-axiom` works by **exact finite-dimensional algebra and topological invariants** (`src/origin_axiom/constants.py`, `src/origin_axiom/algebra.py`, `src/origin_axiom/mobius.py`, `src/origin_axiom/topology.py`), it settles questions permanently in $< 1\text{ s}$. Every candidate frame must therefore pass an upfront **Algebraic Operator Gate (`Gate 0`)** *before* any $\tau$-grid scan or census is permitted.
 
 ---
 
