@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-02",
+  "status": "PROPOSED_RUNTIME_NOT_AN_EXECUTION_ADMISSION",
+  "implementation": "CPython",
+  "version": "3.12.1",
+  "scientific_dependency_versions": {
+    "sympy": "1.14.0"
+  },
+  "transitive_declared_version": {
+    "mpmath": "1.3.0"
+  },
+  "environment": {
+    "PYTHONHASHSEED": "0",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "SYMPY_GROUND_TYPES": "python"
+  },
+  "optimization": "disabled",
+  "arithmetic": "exact rational and symbolic; no empirical targets or random samples",
+  "actual_runtime_revalidated_for_this_package": false,
+  "scientific_import_collection_or_execution": false,
+  "complete_prospective_specification": false
+}

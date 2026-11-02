@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-02",
+  "status": "UNREVIEWED_AUTHOR_COMPLETE_KERNEL_DERIVATION_AND_PREIMPLEMENTATION_DESIGN",
+  "source_parent": "7f59ec2b998d5399a0ad78b32780931503fe20da",
+  "proof": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+    "bytes": 15858,
+    "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f"
+  },
+  "sender_relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_CHAT1_2026-11-02_COMPLETE_INTERIOR_FERMION_KERNEL.md",
+    "bytes": 4471,
+    "sha256": "a2d1674ed53f7767a5919b788ce88e9e067a696b6b4c0a5f9d4a168a2c73d53e"
+  },
+  "preimplementation_design": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_kernel_2026_11_02/DESIGN.md",
+    "bytes": 6931,
+    "sha256": "bd84bcea47137699b69c5d1eb0fb813f93a3f200c6673a8b415287b18dd39274"
+  },
+  "proposed_environment": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_kernel_2026_11_02/ENVIRONMENT.json",
+    "bytes": 663,
+    "sha256": "64bd1e5036c027ef8f6b4b14dec9bfb24f721c6c5453cecb15312666f851826e"
+  },
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXACT_ORDER_THREE_ELECTROWEAK_BRANCH.md",
+      "bytes": 13553,
+      "sha256": "3eae4eba764343746f46db14b58ae5d03ee412534b4067219143c40c3a2f09aa"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "bytes": 16197,
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "bytes": 14328,
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ORDER_THREE_R_HIGGS_AND_DERIVED_TREE_VERTICES.md",
+      "bytes": 15622,
+      "sha256": "0495e91b320778287eb4132ae764c89711769ee915bcbdad42c1577ecfbd0a62"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_VECTOR_MATCHING_AND_HEAVY_RESPONSE.md",
+      "bytes": 11797,
+      "sha256": "bc50e5ee8c3742900ace464b61bea44e30f0fce802fc1e9ef9690ee83112fe98"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "bytes": 11351,
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "bytes": 12292,
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/PROOF.md",
+      "bytes": 11161,
+      "sha256": "8ca99b10c3da48289e47d76cf78870e904558861e19b1e0f9b9dce59079473a7"
+    }
+  ],
+  "remote_heads_after_fetch": [
+    "origin/agy/frontier-2026-10-26 05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/audit/fork-2026-09-20 0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/physical-bridge-2026-09-05 7f59ec2b998d5399a0ad78b32780931503fe20da",
+    "origin/chat1/web-seat c575739a1433ccc70baf1941dc95058a3cf825c1",
+    "origin/chatgpt/weave-physics-archive-2026-10-11 efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9 6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench 13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5 5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox 8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao a880cb8d08a32c737157742ecf04e3c563929fdb",
+    "origin/main 64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+    "origin/referee/B1668_the_price_of_the_nineteen 0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing 806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/sep16-branch 3205984b48d1b98a80042cdc70916878973980f5"
+  ],
+  "remote_head_count": 14,
+  "hand_derivation_steps": [
+    "The explicit unitary frame map reduces E,G to E5 tensor I and E5 tensor sigma_x, with the orthogonal form transported.",
+    "The two commuting triples use H_++H_-=H and are global in the actual spin/gauge bundles.",
+    "All248 roots/Cartans are accounted for by D5+A3 and its vector and both half-spinor modules.",
+    "The diagonal triple restriction recovers the entire old(24,11,21,11,1) population.",
+    "The constant interior Q/R Koszul generator change carries all degrees and metrics, with bounds allowed to deteriorate at a=0 or b=0.",
+    "Both bounded raising contractions preserve the same complete graph domain and reduce to four line complexes.",
+    "Closed range transfers from the retained complete Dolbeault line problems; the actual physical mass-map isometry retains C3/gaugino.",
+    "Actual E8 root/half-root phases at order three determine each coefficient line.",
+    "Exact cusp endpoint dimensions yield the full colour/EM roster and63/87 chiral dimensions plus9 gauginos.",
+    "Four conjugate massless up pairs follow from the full(2,0)/(0,2) cohomology, not a projected cubic or index."
+  ],
+  "planned_controls": {
+    "class": "ElectroweakKernelChecks",
+    "methods": [
+      "test_explicit_two_triple_split_and_orthogonal_form",
+      "test_full_D5_A3_population_and_actual_half_spinors",
+      "test_actual_Koszul_generator_change_and_extreme_grading",
+      "test_full_root_flat_phases_and_colour_EM_assignment",
+      "test_exact_pole_counts_all_spins_and_complete_physical_totals",
+      "test_charged_roster_pairs_and_massless_up_control"
+    ],
+    "count": 6,
+    "implementation_exists": false,
+    "runtime_discovery": "NOT_RUN"
+  },
+  "previous_eight_control_sources_unchanged": true,
+  "previous_review_or_execution_scope_extended": false,
+  "scientific_implementation_created": false,
+  "scientific_import": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "independent_review": false,
+  "main_acceptance": false,
+  "complete_execution_specification": false,
+  "physical_account": {
+    "conditional_model_output": "Complete physical massless zero-mode roster on every fixed nonzero-a,b branch state, under the old physical/domain hypotheses.",
+    "foundational_inputs_removed": 0,
+    "new_mass_tensor_domain_or_chiral_projector": false,
+    "unselected": [
+      "Parent, carrier, spin and end law",
+      "Embedding and R-sector interpretation",
+      "Vacuum amplitude and state law"
+    ],
+    "not_completed": [
+      "Observed massive fermions and three chiral SM generations",
+      "Quantum and supersymmetry-breaking completion",
+      "Gravity"
+    ],
+    "exclusion_scope": "The fixed classical interior branch cannot give its four up conjugate pairs a mass by changing only its nonzero amplitude; no all-architecture or quantum exclusion."
+  },
+  "prior_work_locator": {
+    "queries": [
+      "commuting triples Koszul",
+      "D5 A3 electroweak spectrum"
+    ],
+    "actual_terms_second_query": [
+      "electroweak",
+      "spectrum"
+    ],
+    "all_broad_locator_hits_read": false,
+    "absence_or_priority_claim": false
+  },
+  "review_priority": [
+    "Actual two-triple compact/Clifford embedding and all spin/flat transitions.",
+    "Complete248 and actual coefficient characters, including both16s.",
+    "Bounded full-domain contraction and closed-range transfer.",
+    "General-Q,R physical mass-map isometry, C3 and independent left-Weyl counting.",
+    "Every exact logarithmic cusp endpoint and complete charged/neutral roster.",
+    "Interior bound versus singular symmetric endpoints and no unearned physical equivalence."
+  ],
+  "inherited_staged_paths": 49,
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}

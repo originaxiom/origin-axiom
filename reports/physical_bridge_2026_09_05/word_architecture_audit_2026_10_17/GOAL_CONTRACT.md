@@ -1100,6 +1100,32 @@ was paid. The amplitude/scale/state and complete fermion/quantum/SM3/
 gravity duties remain. A compressed Higgs matrix is not promoted to
 the full finite-amplitude spectrum.
 
+## November 2: complete two-field physical zero modes on the interior branch
+
+[The two-triple physical kernel](ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md)
+uses the literal D5 matrices to split E,G into two independent commuting
+compact triples, reconstructs the ENTIRE248 including both spinor16s,
+and contracts the actual Q/R complex onto four complete line operators.
+The old physical mass-map isometry and exact cusp bounds then give
+63/87 chiral dimensions and9 gaugino zero modes for nontrivial/trivial
+extending spin, with the full colour/EM roster recorded.
+
+This is UNREVIEWED authored analysis. It retains a positive complete
+physical spectrum calculation in the same stationary model, and a
+precise limitation: four massless colour-up conjugate pairs survive
+throughout the fixed interior branch. The old projected up-cubic zero
+is not substituted for that all-field/domain proof. Neither this
+scoped result nor vector-like residual colour/EM is a whole-programme
+kill. The amplitude is not erased by a nonunitary change used to count
+cohomology; massive spectra and interactions keep their physical data.
+
+A separate six-control [design](verification_electroweak_kernel_2026_11_02/DESIGN.md)
+and proposed environment are committed before any implementation.
+No scientific code ran, earlier packages/reviews were extended or
+foundational input paid. The full parent/end/state selection, physical
+SM3 and gravity goal remains active; independent scrutiny of the
+global mass/domain map and all companions is the next review duty.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
