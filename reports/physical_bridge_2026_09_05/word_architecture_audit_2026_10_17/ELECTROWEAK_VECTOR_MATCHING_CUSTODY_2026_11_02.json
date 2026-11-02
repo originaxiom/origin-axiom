@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-02",
+  "status": "UNREVIEWED_AUTHOR_ANALYTICAL_SUCCESSOR",
+  "source_parent": "d355ff9a1117a1874dc5c02ea71801683538efd1",
+  "proof": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_VECTOR_MATCHING_AND_HEAVY_RESPONSE.md",
+    "bytes": 11797,
+    "sha256": "bc50e5ee8c3742900ace464b61bea44e30f0fce802fc1e9ef9690ee83112fe98"
+  },
+  "sender_relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_CHAT1_2026-11-02_ELECTROWEAK_VECTOR_HEAVY_RESPONSE.md",
+    "bytes": 2704,
+    "sha256": "157e0dd2e92589451b2ce4bce2d2b69eb1e519da467427626b951c664e10a2f5"
+  },
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXACT_ORDER_THREE_ELECTROWEAK_BRANCH.md",
+      "bytes": 13553,
+      "sha256": "3eae4eba764343746f46db14b58ae5d03ee412534b4067219143c40c3a2f09aa"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "bytes": 16197,
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md",
+      "bytes": 11904,
+      "sha256": "2ba7f4810d821c7aa95fc458ea5219187037381a4bc34830067f36e7f2119678"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ORDER_THREE_R_HIGGS_AND_DERIVED_TREE_VERTICES.md",
+      "bytes": 15622,
+      "sha256": "0495e91b320778287eb4132ae764c89711769ee915bcbdad42c1577ecfbd0a62"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "bytes": 14328,
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "bytes": 11351,
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    }
+  ],
+  "hand_checks": [
+    "The actual vector operator on the stationary branch is P0+sV with bounded selfadjoint V and fixed domain.",
+    "The old complete vector zero is isolated; the actual complementary inverse exists sufficiently near it.",
+    "The exact retained pencil and reconstructed heavy fields retain their induced norm.",
+    "Actual source trace norms and P_v factor give the leading charged and neutral matrices.",
+    "The neutral heavy source is the explicit bundle V2 Cartan with exact old eigenvalue3/ell^2.",
+    "The charged heavy source is the actual gauge-ten V2 zero-weight mode; its2/5 unit bivector contraction determines the source norm.",
+    "The negative second-order corrections follow from the positive actual old complement, not a free heavy coefficient.",
+    "Leading and corrected relations remain small-amplitude model matching, not measured quantities."
+  ],
+  "future_eight_control_pass_does_not_certify_this_successor": true,
+  "scientific_import": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "independent_review": false,
+  "main_acceptance": false,
+  "new_experiment_created": false,
+  "empirical_targets_read_or_compared": false,
+  "foundational_inputs_removed": 0,
+  "review_priority": [
+    "Real compact gauge form, all factor-two and trace normalizations.",
+    "Global old vector gap and fixed-domain bounded perturbation.",
+    "Actual normalized SM light projection and complement.",
+    "Neutral Cartan source, norm and exact P0 eigenvalue.",
+    "Charged bivector/root coefficient, target gauge module and exact P0 eigenvalue.",
+    "Small-s resolvent expansion versus a spurious finite-amplitude truncation."
+  ],
+  "reduction_account": {
+    "determined_model_output": "Leading weak-vector matching and first explicit massive response from the same parent.",
+    "new_independent_vector_mass_or_threshold_parameter": false,
+    "remaining_freedom": [
+      "Higgs amplitude s",
+      "curvature/carrier scale and state",
+      "supplied action, embedding, spin and field interpretation"
+    ],
+    "not_derived": [
+      "Physical state selection",
+      "complete fermion spectrum and three chiral generations",
+      "renormalized quantum matching",
+      "gravity"
+    ]
+  },
+  "prior_work_locator": {
+    "already_banked_terms": "parallel gauge Higgs mass ratio",
+    "older_locator_hits_not_all_read": true,
+    "universal_absence_or_priority_claim": false,
+    "reused_Schur_resolvent_proof": true
+  },
+  "inherited_staged_paths": 49,
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}

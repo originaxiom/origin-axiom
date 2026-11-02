@@ -1081,6 +1081,25 @@ The analytical global E8/bundle/domain and full R!=0 fermion duties
 cannot be replaced by finite passes. No earlier package or acceptance
 is extended. The physical reduction mission remains active.
 
+## November 2: actual vector matching and a fixed heavy-mode correction
+
+[Vector matching with heavy response](ELECTROWEAK_VECTOR_MATCHING_AND_HEAVY_RESPONSE.md)
+uses the same complete P_v, actual gauge kinetic norm and its isolated
+old12-dimensional kernel. On the exact branch P(s)=P0+sV with s=|b|^2;
+the exact-complement resolvent retains the massive internal mixing.
+The hand derivation gives m_W^2=(5s-4s^2/3+...)/ell^2 and
+m_Z^2=(8s-56s^2/15+...)/ell^2. Both massive sources are explicit old
+V2 modes of mass square3/ell^2. No independently supplied threshold
+or kinetic matrix is appended.
+
+The standard leading doublet relation is recovered, with a nonzero
+finite-amplitude correction. This is UNREVIEWED small-amplitude tree
+matching, outside the eight controls and all earlier acceptances.
+No science ran, empirical value was compared or foundational input
+was paid. The amplitude/scale/state and complete fermion/quantum/SM3/
+gravity duties remain. A compressed Higgs matrix is not promoted to
+the full finite-amplitude spectrum.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
