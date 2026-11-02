@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "kind": "author_source_review_inventory_only",
+  "date": "2026-11-02",
+  "source_parent": "76941fbf4eb8200547210b42ab5987cb1e8ef71d",
+  "design_committed_before_implementation": "76941fbf4eb8200547210b42ab5987cb1e8ef71d",
+  "status": "UNREVIEWED_UNRUN_NOT_IMPORTED_NOT_COLLECTED",
+  "static_intended_population": {
+    "class": "NeutralFullKernelChecks",
+    "method_count": 5,
+    "inherited_test_methods": 0,
+    "expected_tests": [
+      "NeutralFullKernelChecks.test_shifted_Jordan_elimination_without_scalar_inverse",
+      "NeutralFullKernelChecks.test_tensor_reduction_total_spin_and_Koszul_signs",
+      "NeutralFullKernelChecks.test_pole_duality_and_long_exact_sequence_rank_accounting",
+      "NeutralFullKernelChecks.test_complete_charged_roster_all_neutral_strata",
+      "NeutralFullKernelChecks.test_fourth_order_transfer_and_exact_survivor_controls"
+    ],
+    "design_name_match": "AST_ONLY_PASS",
+    "runtime_discovery": "NOT_RUN"
+  },
+  "ast_imports_not_executed": [
+    "from collections import Counter, defaultdict",
+    "from fractions import Fraction",
+    "from itertools import combinations, product",
+    "import unittest",
+    "import sympy as s"
+  ],
+  "implementation_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_neutral_full_kernel_2026_11_02/DESIGN.md",
+      "bytes": 5808,
+      "sha256": "b43aef01f932c6e5a264620a0e1cf44e7a2012f66697448c0d3e78666379c311"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_neutral_full_kernel_2026_11_02/ENVIRONMENT.json",
+      "bytes": 663,
+      "sha256": "64bd1e5036c027ef8f6b4b14dec9bfb24f721c6c5453cecb15312666f851826e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_neutral_full_kernel_2026_11_02/checks.py",
+      "bytes": 19244,
+      "sha256": "33cb0be8f8381e50faa672aa4da2e22b6b7478ed0d74b9d46b4cfbfda86271d5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_neutral_full_kernel_2026_11_02/REVIEW_STATUS.md",
+      "bytes": 4129,
+      "sha256": "dde38a47041bb94f69b6eba7ead0cc065f5c40520ff5bbf31a7d3f690bd3f269"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_CHAT1_2026-11-02_FULL_NEUTRAL_KERNEL_CONTROLS_UNRUN.md",
+      "bytes": 2213,
+      "sha256": "70534aab40ba560354bb7d4ff77cae2b8910833b13ca184728ba75d1d3974368"
+    }
+  ],
+  "analytic_sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/NEUTRAL_STATE_COMPLETE_CHARGED_KERNEL_AND_FOURTH_ORDER_MAP.md",
+      "bytes": 13586,
+      "sha256": "2220bd04aba8dcb3c95c149131ae008af7e37e1bbd223ce014c0842ac0062ef7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REDUCTION_CARD_03_NATIVE_PAIR_MASSES_AND_STATE_PRICE.md",
+      "bytes": 6505,
+      "sha256": "77c5d2e5a6030136d6f566fccf86e4573334db8f95f8884e5349c946219aaede"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXISTING_NEUTRAL_FIELD_LIFTS_THE_UP_KERNEL.md",
+      "bytes": 13855,
+      "sha256": "198ca027a3a4b6527c47dab4486b3b68c19a5f40a0555ad8ad05e11d38db20df"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "bytes": 15858,
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXACT_ORDER_THREE_ELECTROWEAK_BRANCH.md",
+      "bytes": 13553,
+      "sha256": "3eae4eba764343746f46db14b58ae5d03ee412534b4067219143c40c3a2f09aa"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md",
+      "bytes": 11904,
+      "sha256": "2ba7f4810d821c7aa95fc458ea5219187037381a4bc34830067f36e7f2119678"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "bytes": 14328,
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "bytes": 16197,
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ORDER_THREE_R_HIGGS_AND_DERIVED_TREE_VERTICES.md",
+      "bytes": 15622,
+      "sha256": "0495e91b320778287eb4132ae764c89711769ee915bcbdad42c1577ecfbd0a62"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "bytes": 12932,
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "bytes": 12292,
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "bytes": 11351,
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    }
+  ],
+  "prior_analytical_custody": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/NEUTRAL_FULL_KERNEL_CUSTODY_2026_11_02.json",
+    "bytes": 9292,
+    "sha256": "59b2756370039a53fa6bcb4f0c6fd8713229479732dafc6c9136d50f30f2f792"
+  },
+  "intended_finite_coverage": [
+    "Complete transformed raising matrices and explicitly accumulated inverse maps, with no scalar-shift denominators.",
+    "All three tensor chain-coordinate identities, Koszul signs, degree2 determinant and retained corner maps.",
+    "Exact source pole/Hodge dimensions and conditional long-exact-sequence ranks.",
+    "Full E8 root coefficient phases and EM charges, both half-spinors/up companions, gauge/gaugino and all neutral strata.",
+    "Derived fourth-order coefficient, two independent rank2 minors, exact survivors and linear up comparator."
+  ],
+  "coverage_limits": [
+    "Global polynomial maps must be shown bounded and domain preserving in the actual weighted bundles.",
+    "The finite injection is a basis model of an analytical Hodge multiplication premise, not a physical overlap computation.",
+    "The inherited E8/D5/half-spinor physical map is not independently proved by root populations or tensor dimensions.",
+    "Long-exact-sequence and roster agreement uses formulas from the same author argument; no independent acceptance follows.",
+    "No physical pole masses, observed hierarchy, state selection, chiral SM3 or foundational reduction are inferred."
+  ],
+  "scientific_import": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "independent_review": false,
+  "main_acceptance": false,
+  "complete_prospective_execution_specification": false,
+  "admitted_wrapper": false,
+  "runtime_revalidated_for_package": false,
+  "prior_acceptance_extended": false,
+  "earlier_neutral_package_pins_unchanged": true,
+  "inherited_staged_paths": 49,
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "reduction_account": {
+    "foundational_inputs_removed": 0,
+    "new_action_fields_couplings_or_end_rules": false,
+    "retained_prices": [
+      "Supplied physical parent, embedding, metric, carrier and end law",
+      "Trivial extending spin",
+      "Unselected interior and neutral state coordinates",
+      "Physical kinetic normalization, common scale and state law"
+    ]
+  }
+}

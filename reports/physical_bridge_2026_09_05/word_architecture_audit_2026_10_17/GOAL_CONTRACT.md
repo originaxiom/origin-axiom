@@ -1213,6 +1213,21 @@ records the before/after dependencies, residual spectrum and physical
 earning duties without counting a hypothetical fitted input as removed.
 The full input-reduction and physical mission remains active.
 
+## November 2: full neutral-family finite source candidate, unrun
+
+The [full neutral-family review status](verification_neutral_full_kernel_2026_11_02/REVIEW_STATUS.md)
+records five methods implemented after design commit 76941fbf4. They
+reconstruct polynomial elimination and explicit inverses, both tensor
+directions and degree maps, exact-sequence rank accounting, actual E8
+coefficient phases and the fourth-order transferred map. Static AST
+population and hash checks are source custody only; no scientific
+import, collection or execution has occurred.
+
+The global weighted-domain/Hodge/physical-map proof still needs genuine
+independent review. Finite reconstructions do not certify it. No older
+acceptance extends to this candidate, no foundational input is paid,
+and the full physical reduction mission remains active.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
