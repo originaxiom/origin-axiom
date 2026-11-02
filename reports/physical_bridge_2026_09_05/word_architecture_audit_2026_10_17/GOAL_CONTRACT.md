@@ -1171,6 +1171,22 @@ and proposed environment precede implementation. No science ran,
 review/acceptance was extended or physical state law was derived.
 The full physical reduction mission remains active.
 
+## November 2: four neutral-up controls implemented for review, unrun
+
+The [neutral-up source status](verification_neutral_up_lift_2026_11_02/REVIEW_STATUS.md)
+records four methods implemented after design commit b061fd9a9.
+They cover the actual neutral commutant and moment cross terms,
+all-spin pole data, source cubic factors and both charged blocks,
+and finite exact Schur response with a higher-order lifting control.
+No scientific import, collection or execution occurred. Static AST
+and hash checks provide source custody only.
+
+The global stationary/domain, Hodge-pairing and full-complement
+arguments still need genuinely independent review. Previous packages
+and acceptances stay separate. This implementation shares a candidate
+verification source; it pays no foundational input and does not
+complete the active full physical mission.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
