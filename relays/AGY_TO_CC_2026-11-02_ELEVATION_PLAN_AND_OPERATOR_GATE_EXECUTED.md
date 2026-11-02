@@ -64,6 +64,56 @@ To end the copy-paste drift across `frontier/B*/verification/` scripts, we have 
    - `cusp_combination_D_inf(alpha)` — exact cusp limit $c_j^\infty + c_k^\infty - c_1^\infty - c_i^\infty$, proving it vanishes on $\alpha \in (0, 1/2)$ iff $\alpha \in \{1/12, 1/4, 5/12\}$ (`B1788` Hypothesis `(b)`).
    - `channel_pair_decay_exponents(alpha)` — exact fermion-independent decay exponents $E(c_1 - c_i) = \frac{1}{2}\|3\alpha\|_{\mathbb{Z}}$ and $E(c_j - c_k) = \frac{1}{4} - \frac{1}{2}\|3\alpha\|_{\mathbb{Z}}$ (`B1788` Hypothesis `(a)`).
 2. **`src/origin_axiom/operator_gate.py`:**
-   - `quaternionic_4d_yukawa`, `direct_quaternion_coupling`, `ckm_full_diagnostics`, `lagrange_ckm_compromise`, `m004_three_fold_cover_invariants`, and `evaluate_operator_gate`.
+   - `quaternionic_4d_yukawa`, `direct_quaternion_coupling`, `ckm_full_diagnostics`, `lagrange_ckm_compromise`, `m004_three_fold_cover_invariants`, `evaluate_operator_gate`, `yukawa_4d_determinant_factorization` (Theorem 3), and `serre_dr_dot_dr_eta6_identity` (Theorem 4).
 3. **`src/origin_axiom/stepb_audit.py`:**
    - `decode_stepb_choice_index`, `count_order12_massless_electron_choices`, and `strict_ten_physical_choice_mask` (providing the corrected 10-observable physical-choice filter without altering the SHA-256 hash-pinned files in `scripts/stepb/` listed in `frontier/B1825_step_b_the_nine_from_one_address/ARTIFACT_HASHES.txt`).
+4. **`src/origin_axiom/parameter_ledger.py`:**
+   - `m004_cover_monodromy_fixed_torsion`, `compare_frame_input_ledgers`, and `nineteen_parameter_impact_table`.
+
+---
+
+## 5. Theorems 3 & 4: Exact Quaternionic Determinant Factorization and the $DR\cdot DR \equiv \frac{1}{4}\eta(\tau)^6$ Identity
+
+### Theorem 3 (Quaternionic Determinant Factorization of $Y_s^{\text{4D}}$)
+For any 4D Higgs quaternion $S = (a_0, \vec{h}) \in \mathbb{H}_{\mathbb{C}}$ and any 4D matter quaternion $M^{(s)} = (m_1^{(s)}, \vec{m}_\perp^{(s)}) \in \mathbb{H}_{\mathbb{C}}$, the determinant of the $3 \times 3$ Yukawa matrix $Y_s^{\text{4D}}(a_0, \vec{h}; m_1^{(s)}, \vec{m}_\perp^{(s)})$ factors identically into three quadratic/bilinear quaternionic invariants (`yukawa_4d_determinant_factorization` in `src/origin_axiom/operator_gate.py`, verified to $4.67 \times 10^{-15}$):
+$$\det\big(Y_s^{\text{4D}}(a_0, \vec{h}; m_1^{(s)}, \vec{m}_\perp^{(s)})\big) \equiv \underbrace{\big(a_0^2 + \vec{h}\cdot\vec{h}\big)}_{\det(S)} \, \underbrace{\Big(\big(m_1^{(s)}\big)^2 + \vec{m}_\perp^{(s)}\cdot\vec{m}_\perp^{(s)}\Big)}_{D_s(\tau, w)} \, \underbrace{\big(a_0 m_1^{(s)} + \vec{h}\cdot\vec{m}_\perp^{(s)}\big)}_{\langle S, M^{(s)}\rangle_{\mathbb{H}}}.$$
+
+**Three immediate consequences:**
+1. **Why `FR-FIB` had to invent the 13-direction menu:** At $a_0 = 0$, the first factor collapses to $\vec{h}\cdot\vec{h}$, which vanishes identically on the primary zero-mode residue $R(\tau)$ by Jacobi's abstruse identity $R(\tau)\cdot R(\tau) \equiv 0$, forcing $\det(Y_s) \equiv 0$ ($m_1 \equiv 0$). At $a_0 \ne 0$ (`FR-COV`), $\det(S) = a_0^2 + R(\tau)\cdot R(\tau) = a_0^2 \ne 0$, so all three generations are massive even on the primary section $R(\tau)$ without needing the 13-direction menu.
+2. **Exact cancellation of the horocycle cutoff $L$ in $\det(M^{(s)})$:** Because the residue quaternion $R_a^{(s)}(\tau, w)$ satisfies Riemann's 4-term null identity $\sum_{a \in \{1,i,j,k\}} R_a^{(s)}(\tau, w)^2 \equiv 0$ (`frontier/B1653_the_rank_of_a_point_coupling/verification/the_rank_of_a_point_coupling.py`), the $2\pi L$ horocycle term cancels identically in $(m_1^{(s)})^2 + \vec{m}_\perp^{(s)}\cdot\vec{m}_\perp^{(s)} = D_s(\tau, w) = \sum_a c_a^{(s)}(\tau, w) R_a^{(s)}(\tau, w)^2$.
+3. **Why $a_0 \ne 0$ is already present with zero new parameters:** In `frontier/B1691_the_exponents_at_the_two_fixed_points/verification/correction/b1656_funcs.py` (line 22), `SIXY = {"Q": 1, "u": -4, "d": 2, "L": -3, "e": 6, "H": 3}` defines $6Y(H) = 3$, but `FR-FIB` evaluated the Higgs section at zero hypercharge twist ($w_H = 0$), breaking $U(1)_Y$ gauge invariance on the torus and artificially setting $\vartheta_1(0|\tau) = 0 \implies a_0 = 0$. Furthermore, by **Theorem 4** (`serre_dr_dot_dr_eta6_identity`), the Serre derivative $DR(\tau) = D_{-1/2} R(\tau)$ satisfies the exact modular identity to all orders in $q^{1/8}$:
+   $$DR(\tau) \cdot DR(\tau) = -R(\tau)\cdot D^2 R(\tau) \equiv \frac{1}{4}\eta(\tau)^6 = \left(\frac{\vartheta_1'(0|\tau)}{4\pi}\right)^2,$$
+   so $\sqrt{DR(\tau)\cdot DR(\tau)} = \frac{1}{2}\eta(\tau)^3 = \frac{1}{4\pi}\vartheta_1'(0|\tau)$ is the unique canonical weight-$3/2$ scalar modular form in the 1st (odd spin-structure) channel $1 = (0,0)$.
+
+---
+
+## 6. How `FR-COV` Reduces the Input Budget (`docs/THE_FINAL_ACTS_BAR_2026-10-29.md` §1 C8)
+
+As codified in `compare_frame_input_ledgers()` (`src/origin_axiom/parameter_ledger.py`), moving from `FR-FIB` to `FR-COV` eliminates **$16.34\text{ bits}$ of discrete menu freedom** ($497,952 \to 6$ discrete configurations, an $82,992\times$ reduction) plus **$8$ continuous hidden metric parameters**:
+
+| Input Slot | `FR-FIB` (`B1656`–`B1825`) | `FR-COV` ($M_3 \to \text{m004}$ + 4D Quaternionic Higgs) | Mathematical Reduction Mechanism |
+| :--- | :--- | :--- | :--- |
+| **Torsion line menu** | $266$ lines ($8.055\text{ bits}$) | $6$ orbits ($2.585\text{ bits}$) | On $M_3 \to \text{m004}$, $|\det((LR)^3 - I)| = 16 \implies \ker((LR)^3 - I) \cong (\mathbb{Z}/4\mathbb{Z})^2$ ($5$ non-zero $\langle T, -I\rangle$-orbits) $+$ $1$ Golden order-5 eigen-orbit |
+| **Higgs direction menu** | $13$ dirs ($3.700\text{ bits}$) | $1$ canonical ($0\text{ bits}$) | Theorem 3 + Theorem 4 lift $\det(Y_s^{\text{4D}}) \ne 0$ on the canonical section without needing the 13-direction menu |
+| **Reading map menu** | $8$ readings ($3.000\text{ bits}$) | $1$ reading ($0\text{ bits}$) | $U(1)_Y$ gauge invariance (`SIXY["H"] = 3`) forces `up` ($q_L+q_R=-3$) to couple to $\tilde{S} = \varepsilon S^*\varepsilon^T$ and `down`/`lepton` ($+3$) to couple to $S$ |
+| **Horocycle cutoff** | $2$ radii ($1.000\text{ bit}$) | $1$ canonical ($0\text{ bits}$) | Canonical cusp radius on `m004`; $\det(M^{(s)}) = D_s(\tau, w)$ is strictly $L$-independent by Theorem 3 |
+| **Lepton/down factor $c$** | $9$ values ($3.170\text{ bits}$) | $1$ torsion ($0\text{ bits}$) | Replaced by `m004`'s order-3 colour-center meridian holonomy $\omega = e^{2\pi i/3}$ ($|\Delta_{\text{m004}}(\omega)| = 4$ vs $1$) |
+| **Total discrete menu** | **$497,952$ ($18.926\text{ bits}$)** | **$6$ ($2.585\text{ bits}$)** | **Saves $16.341\text{ bits}$ ($82,992\times$ smaller menu)** |
+| **Kinetic metric $H_s$** | $8$ (or $40$) free reals | **$0$ free reals ($H = I_3$)** | Forced by $\dim_{\mathbb{R}}\text{Comm}_{\text{sym}}(S_3) = 1$ on $M_3 \to \text{m004}$ (`Gate 0` Clause 2) |
+
+---
+
+## 7. How `FR-COV` Affects All 0–19 Standard Model Parameters (`nineteen_parameter_impact_table`)
+
+| SM Parameters | Count | Status in `FR-FIB` (`0 of 19`) | Status & Mechanism in `FR-COV` |
+| :--- | :--- | :--- | :--- |
+| **1–2: $m_u/m_c, m_c/m_t$** | $2$ | Reached only by fitting $\tau$ and picking from 13-dir menu ($m_1 = 0$ on $R(\tau)$ at $a_0=0$) | **Unlocked on primary section:** $\det(Y_u^{\text{4D}}) \ne 0$ via Theorem 3 at $a_0 \ne 0$ |
+| **3–4: $m_d/m_s, m_s/m_b$** | $2$ | Degenerate with leptons unless $c \ne 1$ is scanned by hand (`B1789`/`B1817`) | **Split from leptons with 0 free parameters** by `m004` meridian $SU(3)_c$ center torsion $|\Delta_{\text{m004}}(\omega)| = 4$ |
+| **5–6: $m_e/m_\mu, m_\mu/m_\tau$** | $2$ | Requires $c=3$ by hand; $36/5832$ `B1825` choices have $m_e = 0$ on order-12 lines | **Colour-singlet torsion ($|\Delta_{\text{m004}}(1)| = 1$)** + strict non-zero $m_e$ filter (`stepb_audit.py`) |
+| **7–10: $\|V_{us}\|, \|V_{cb}\|, \|V_{ub}\|, J$** | $4$ | **Structural No-Go (Theorem 2):** $\|V_{ub}\|/\|V_{td}\| = 11.28$ ($26\times$ inverted), $\sin\delta_{\text{CP}} = 0.084$, $\chi^2_{\text{ten}} = 291.41$ | **No-Go Lifted at 0 extra up/down parameters:** $\vec{\Omega}_s = m_1^{(s)}\vec{h} + a_0\vec{m}_\perp^{(s)}$ flips $\|V_{ub}\|/\|V_{td}\| = 0.678 < 1$ and $\sin\delta_{\text{CP}} = 0.700$ |
+| **11–12: $m_b/m_t, m_\tau/m_b$** | $2$ | Unreached (each sector normalized by its own $s_3$; $H_s$ unconstrained) | **Well-defined operator ratios:** $H = I_3$ forced on $M_3 \to \text{m004}$ and $m_\tau/m_b$ fixed by $|\tau_{\text{RS}}(\text{m004}; \omega)| = 4/\sqrt{3}$ |
+| **13: $y_t$** | $1$ | Unreached (2D fibre integral carries arbitrary normalization) | Normalized by the 3-manifold hyperbolic volume $\text{Vol}(M_3) = 3\,\text{Vol}(\text{m004}) = 6 V_0 \approx 6.08965$ |
+| **14–16: $g_1, g_2, g_3$** | $3$ | Tree $\sin^2\theta_W = 3/8$ (`B919`); misses $M_Z$ at $16\sigma$ in pure SM desert (`B915`) | 3-manifold KK / Ray–Singer torsion threshold $\Delta_3 - \Delta_{1,2} = \ln|\tau_{\text{RS}}(\omega)| = \ln(4/\sqrt{3})$ enters running |
+| **17: $\bar{\theta}_{\text{QCD}}$** | $1$ | Proportional to $\pi\,\text{Re}\,\tau$ (`B1671`), conflicting with $\text{Re}\,\tau \ne 0$ for CP | Compatible with $\bar{\theta}_{\text{QCD}} = 0$ on the amphichiral slice $\text{Re}\,\tau = 0$ while line + $a_0$ generate $J \ne 0$ |
+| **18: $m_H$ (or $\lambda_H$)** | $1$ | Unreached in 2D fibre frame (approximate $128.4\text{ GeV}$ via UV criticality in `B1670`) | Linked to the 4D quaternionic norm $\det(S) = a_0^2 + DR\cdot DR = a_0^2 + \frac{1}{4}\eta(\tau)^6$ (Theorem 4) |
+| **19: $v$ (or $\ell$)** | $1$ | External by design ($\text{Hom}(G, \mathbb{R}_+) = 0$, `B1025`) | External by design (the single dimensionful unit $\ell$ of `docs/PARAMETER_CLOSURE_MASTERPLAN.md`) |

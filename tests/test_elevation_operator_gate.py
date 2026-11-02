@@ -33,6 +33,13 @@ from origin_axiom.operator_gate import (
     lagrange_ckm_compromise,
     m004_three_fold_cover_invariants,
     quaternionic_4d_yukawa,
+    serre_dr_dot_dr_eta6_identity,
+    yukawa_4d_determinant_factorization,
+)
+from origin_axiom.parameter_ledger import (
+    compare_frame_input_ledgers,
+    m004_cover_monodromy_fixed_torsion,
+    nineteen_parameter_impact_table,
 )
 from origin_axiom.stepb_audit import (
     count_order12_massless_electron_choices,
@@ -168,3 +175,49 @@ def test_stepb_structural_audit_defects():
     phys_ten, zero10 = strict_ten_physical_choice_mask(f_mat, r_tab)
     assert phys_ten.tolist() == [True, False]
     assert zero10[1, 5] == True and not zero10[1, 6:10].any()
+
+
+def test_theorem3_theorem4_and_19_parameter_ledger():
+    # 1. Theorem 3: Exact quaternionic determinant factorization
+    # det(Y_s^4D) == (a_0^2 + h.h) * (m_1^2 + m_perp.m_perp) * (a_0*m_1 + h.m_perp)
+    rng = np.random.default_rng(20261103)
+    for _ in range(25):
+        a0 = complex(rng.normal() + 1j * rng.normal())
+        h_vec = rng.normal(size=3) + 1j * rng.normal(size=3)
+        m1 = complex(rng.normal() + 1j * rng.normal())
+        m_perp = rng.normal(size=3) + 1j * rng.normal(size=3)
+        res = yukawa_4d_determinant_factorization(a0, h_vec, m1, m_perp)
+        assert float(res["rel_error"]) < 1e-13
+
+        # On the 3D null cone h.h = 0 (like primary R(tau)), det(Y) == 0 at a0 = 0
+        # but det(Y) != 0 as soon as a0 != 0:
+        h_null = np.array([1.0 + 0.0j, 0.0 + 0.0j, 1j], dtype=complex)  # h_null . h_null == 0
+        res_zero = yukawa_4d_determinant_factorization(0.0, h_null, m1, m_perp)
+        res_lifted = yukawa_4d_determinant_factorization(a0, h_null, m1, m_perp)
+        assert abs(complex(res_zero["det_Y"])) < 1e-14
+        assert abs(complex(res_lifted["det_Y"])) > 1e-3
+
+    # 2. Theorem 4: DR(tau) . DR(tau) == (1/4) eta(tau)^6 modular identity:
+    id4 = serre_dr_dot_dr_eta6_identity(0.093359375 + 2.742578125j)
+    assert float(id4["rel_error"]) < 1e-13
+
+    # 3. Input-reduction ledger & 0-19 parameter table:
+    tors = m004_cover_monodromy_fixed_torsion()
+    assert tors["det_LR_minus_I"] == -1
+    assert tors["non_zero_fixed_points_k1"] == 0
+    assert tors["det_LR3_minus_I"] == -16
+    assert tors["non_zero_fixed_points_k3"] == 15
+    assert tors["t_orbits_in_non_zero_fixed_k3"] == 5
+
+    led = compare_frame_input_ledgers()
+    assert led["FR_FIB"]["total_discrete_choices"] == 497952
+    assert abs(float(led["FR_FIB"]["total_discrete_bits"]) - math.log2(497952)) < 1e-12
+    assert led["FR_COV"]["total_discrete_choices"] == 6
+    assert float(led["reductions"]["discrete_bits_saved"]) > 16.3
+    assert led["reductions"]["hidden_kinetic_metric_reals_eliminated"] == 8
+
+    table19 = nineteen_parameter_impact_table()
+    assert len(table19) == 10
+    all_names = [n for row in table19 for n in row["names"]]
+    assert len(all_names) == 19
+

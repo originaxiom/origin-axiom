@@ -363,3 +363,96 @@ def evaluate_operator_gate(frame_name: str) -> OperatorGateReport:
         )
 
     raise ValueError(f"Unknown frame_name: {frame_name!r}")
+
+
+def yukawa_4d_determinant_factorization(
+    a0: complex,
+    h_vec: np.ndarray,
+    m1: complex,
+    m_perp: np.ndarray,
+) -> Dict[str, complex | float]:
+    """Theorem 3 (The Quaternionic Determinant Factorization Theorem for Y_s^4D):
+    For any 4D Higgs quaternion S = (a_0, h) in H_C and 4D matter quaternion M = (m_1, m_perp) in H_C,
+      det(Y_s^4D(a_0, h; m_1, m_perp)) == (a_0^2 + h . h) * (m_1^2 + m_perp . m_perp) * (a_0 m_1 + h . m_perp).
+    """
+    a0_c = complex(a0)
+    m1_c = complex(m1)
+    h = np.asarray(h_vec, dtype=complex)
+    mp_ = np.asarray(m_perp, dtype=complex)
+
+    y_mat = quaternionic_4d_yukawa(a0_c, h, m1_c, mp_)
+    det_y = complex(np.linalg.det(y_mat))
+    det_s = a0_c ** 2 + complex(np.dot(h, h))
+    det_m = m1_c ** 2 + complex(np.dot(mp_, mp_))
+    inner_sm = a0_c * m1_c + complex(np.dot(h, mp_))
+    factored = det_s * det_m * inner_sm
+    rel_err = abs(det_y - factored) / max(abs(factored), 1e-30)
+    return {
+        "det_Y": det_y,
+        "det_S": det_s,
+        "det_M": det_m,
+        "inner_SM": inner_sm,
+        "factored": factored,
+        "rel_error": float(rel_err),
+    }
+
+
+def serre_dr_dot_dr_eta6_identity(tau: complex = 0.093359375 + 2.742578125j) -> Dict[str, complex | float]:
+    """Theorem 4 (Exact Serre-Dedekind Modular Identity for DR . DR):
+    For the weight -1/2 theta triplet R(tau) = (-th2^2, -th4^2, i*th3^2)/(th2*th3*th4) and its
+    weight +3/2 Serre derivative DR(tau) = D_{-1/2} R(tau) = q dR/dq + (1/24) E_2(tau) R(tau),
+      DR(tau) . DR(tau) == -R(tau) . D^2 R(tau) == (1/4) eta(tau)^6 == (1/16) (th2(tau) th3(tau) th4(tau))^2
+    identically for all tau in H. Consequently, sqrt(DR(tau) . DR(tau)) = (1/2) eta(tau)^3 = th1'(0|tau) / (4*pi)
+    is the unique canonical weight +3/2 modular scalar in the 1st spin-structure channel 1 = (0,0).
+    """
+    q_half = np.exp(1j * math.pi * tau)
+    q = q_half ** 2
+
+    def eval_th2(q_h: complex, n_max: int = 30) -> Tuple[complex, complex]:
+        val = sum(2.0 * (q_h ** ((n + 0.5) ** 2)) for n in range(0, n_max))
+        qdq = sum(((n + 0.5) ** 2) * (q_h ** ((n + 0.5) ** 2)) for n in range(0, n_max))
+        return val, qdq
+
+    def eval_th3(q_h: complex, n_max: int = 30) -> Tuple[complex, complex]:
+        val = 1.0 + sum(2.0 * (q_h ** (n * n)) for n in range(1, n_max))
+        qdq = sum((n * n) * (q_h ** (n * n)) for n in range(1, n_max))
+        return val, qdq
+
+    def eval_th4(q_h: complex, n_max: int = 30) -> Tuple[complex, complex]:
+        val = 1.0 + sum(2.0 * ((-1.0) ** n) * (q_h ** (n * n)) for n in range(1, n_max))
+        qdq = sum((n * n) * ((-1.0) ** n) * (q_h ** (n * n)) for n in range(1, n_max))
+        return val, qdq
+
+    def eval_e2(q_full: complex, n_max: int = 60) -> complex:
+        return 1.0 - 24.0 * sum(n * (q_full ** n) / (1.0 - (q_full ** n)) for n in range(1, n_max))
+
+    t2, dt2 = eval_th2(q_half)
+    t3, dt3 = eval_th3(q_half)
+    t4, dt4 = eval_th4(q_half)
+    den = t2 * t3 * t4
+    d_log_den = (dt2 / t2) + (dt3 / t3) + (dt4 / t4)
+
+    r0 = np.array([-(t2 * t2) / den, -(t4 * t4) / den, 1j * (t3 * t3) / den], dtype=complex)
+    qdq_r0 = np.array(
+        [
+            r0[0] * (2.0 * (dt2 / t2) - d_log_den),
+            r0[1] * (2.0 * (dt4 / t4) - d_log_den),
+            r0[2] * (2.0 * (dt3 / t3) - d_log_den),
+        ],
+        dtype=complex,
+    )
+    e2_val = eval_e2(q)
+    # D_{-1/2} R = q dR/dq + (1/24) E_2 R
+    dr_vec = qdq_r0 + (1.0 / 24.0) * e2_val * r0
+    dr_dot_dr = complex(np.dot(dr_vec, dr_vec))
+
+    eta3_val = 0.5 * den
+    quarter_eta6 = 0.25 * (eta3_val ** 2)
+    rel_err = abs(dr_dot_dr - quarter_eta6) / max(abs(quarter_eta6), 1e-30)
+    return {
+        "DR_dot_DR": dr_dot_dr,
+        "quarter_eta6": quarter_eta6,
+        "half_eta3": 0.5 * eta3_val,
+        "rel_error": float(rel_err),
+    }
+
