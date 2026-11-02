@@ -1126,6 +1126,25 @@ foundational input paid. The full parent/end/state selection, physical
 SM3 and gravity goal remains active; independent scrutiny of the
 global mass/domain map and all companions is the next review duty.
 
+## November 2: complete-kernel verification code implemented, not executed
+
+The six-control design at f5f1042d6 now has an
+[implemented source candidate](verification_electroweak_kernel_2026_11_02/REVIEW_STATUS.md).
+It reconstructs both actual half-spinor16s through a Clifford/Fock
+module, checks their Lie/adjoint/parity and spectral-projector data,
+recomputes graded finite Koszul cohomology and source flat phases,
+and assembles the full pole/spin/companion/gaugino populations. The
+old symmetric count is rebuilt separately from the root weight strings.
+
+Static AST and source hashes only have been inspected: every method
+is unrun, unimported and uncollected. Review must still establish the
+actual global E8/bundle/domain map, bounded contraction and closed-range
+transfer; the finite checks cannot replace those proofs. Complete
+execution closure, genuine independent review, main acceptance and
+strict prospective admission remain required. Earlier packages and
+seals are unchanged. No foundational input is paid or full physical
+goal completed by this implementation checkpoint.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

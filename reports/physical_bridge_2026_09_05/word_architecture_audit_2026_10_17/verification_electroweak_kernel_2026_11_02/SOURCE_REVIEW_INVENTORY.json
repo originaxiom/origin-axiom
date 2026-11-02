@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "kind": "author_source_review_inventory_only",
+  "date": "2026-11-02",
+  "source_parent": "f5f1042d616c2c4c344277d571d3160f6dcd9766",
+  "design_committed_before_implementation": "f5f1042d616c2c4c344277d571d3160f6dcd9766",
+  "status": "UNREVIEWED_UNRUN_NOT_IMPORTED_NOT_COLLECTED",
+  "static_intended_population": {
+    "class": "ElectroweakKernelChecks",
+    "method_count": 6,
+    "inherited_methods": 0,
+    "expected_tests": [
+      "ElectroweakKernelChecks.test_explicit_two_triple_split_and_orthogonal_form",
+      "ElectroweakKernelChecks.test_full_D5_A3_population_and_actual_half_spinors",
+      "ElectroweakKernelChecks.test_actual_Koszul_generator_change_and_extreme_grading",
+      "ElectroweakKernelChecks.test_full_root_flat_phases_and_colour_EM_assignment",
+      "ElectroweakKernelChecks.test_exact_pole_counts_all_spins_and_complete_physical_totals",
+      "ElectroweakKernelChecks.test_charged_roster_pairs_and_massless_up_control"
+    ],
+    "design_name_match": "AST_ONLY_PASS",
+    "runtime_discovery": "NOT_RUN"
+  },
+  "ast_imports_not_executed": [
+    "from collections import Counter, defaultdict",
+    "from fractions import Fraction",
+    "from functools import lru_cache",
+    "from itertools import combinations, product",
+    "import unittest",
+    "import sympy as s"
+  ],
+  "implementation_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_kernel_2026_11_02/DESIGN.md",
+      "bytes": 6931,
+      "sha256": "bd84bcea47137699b69c5d1eb0fb813f93a3f200c6673a8b415287b18dd39274"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_kernel_2026_11_02/ENVIRONMENT.json",
+      "bytes": 663,
+      "sha256": "64bd1e5036c027ef8f6b4b14dec9bfb24f721c6c5453cecb15312666f851826e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_kernel_2026_11_02/checks.py",
+      "bytes": 23086,
+      "sha256": "154e506cdc40fb41d3fe2c56346452d67bbc00a076e078f24ccc485355517d00"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_kernel_2026_11_02/REVIEW_STATUS.md",
+      "bytes": 4047,
+      "sha256": "4492e481d34a91fc6109cc8931da0d81d48e3c5bf4c90fbb1cb3c619dec5713a"
+    }
+  ],
+  "analytic_sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "bytes": 15858,
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXACT_ORDER_THREE_ELECTROWEAK_BRANCH.md",
+      "bytes": 13553,
+      "sha256": "3eae4eba764343746f46db14b58ae5d03ee412534b4067219143c40c3a2f09aa"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "bytes": 14328,
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "bytes": 16197,
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ORDER_THREE_R_HIGGS_AND_DERIVED_TREE_VERTICES.md",
+      "bytes": 15622,
+      "sha256": "0495e91b320778287eb4132ae764c89711769ee915bcbdad42c1577ecfbd0a62"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "bytes": 11351,
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "bytes": 12292,
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/PROOF.md",
+      "bytes": 11161,
+      "sha256": "8ca99b10c3da48289e47d76cf78870e904558861e19b1e0f9b9dce59079473a7"
+    }
+  ],
+  "prior_proof_custody": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_KERNEL_CUSTODY_2026_11_02.json",
+    "bytes": 8575,
+    "sha256": "a3c13ba95db750f40f39ad1dbcd05cf0a4523828fd5305c40ee53af40f60b884"
+  },
+  "scientific_producer_imports": [],
+  "no_empirical_targets_random_samples_or_external_runtime_data": true,
+  "source_complete_execution_specification": false,
+  "scientific_execution": false,
+  "independent_review": false,
+  "main_acceptance": false,
+  "prospective_admission": false,
+  "pre_execution_duties": [
+    "Genuine independent proof/code review of the exact sources and substantive coverage.",
+    "Source/input/test/environment/gate closure; actual runtime revalidation.",
+    "Own admission wrapper engineering specification and controls, fresh result namespace.",
+    "Main separate exact acceptance and strict prospective admission on a clean quiescent checkout before scientific import."
+  ],
+  "analytical_duties_not_certified_by_finite_controls": [
+    "Actual global compact two-triple/D5/E8 and spin/flat bundle map.",
+    "All-degree weighted graph-domain bounded contraction and closed-range/Fredholm transfer.",
+    "Full general-Q,R physical mass-map isometry and C3/gaugino interpretation.",
+    "All-order interior scope, singular endpoints and physical state/parameter distinctions."
+  ],
+  "coverage_limits": [
+    "Direct reconstruction of old D5 matrices repeats known source arithmetic and is not independent proof of their global identification.",
+    "Exact line dimension arithmetic assumes the cited analytical pole/Hodge/domain results.",
+    "AST checks do not prove scientific correctness or actual runtime collection.",
+    "Several formula comparisons are by construction; a future finite pass neither selects the parent nor pays a foundational input."
+  ],
+  "inherited_staged_paths": 49,
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}

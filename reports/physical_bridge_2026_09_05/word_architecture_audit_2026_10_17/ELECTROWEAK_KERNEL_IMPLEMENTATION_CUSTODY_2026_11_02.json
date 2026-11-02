@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-02",
+  "status": "UNREVIEWED_UNRUN_COMPLETE_KERNEL_IMPLEMENTATION",
+  "source_parent": "f5f1042d616c2c4c344277d571d3160f6dcd9766",
+  "inventory": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_kernel_2026_11_02/SOURCE_REVIEW_INVENTORY.json",
+    "bytes": 6755,
+    "sha256": "7325329f77c628631a22bf7bf92a194b20a40819e00fe3def7ec03314b72f32c"
+  },
+  "review_status": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_kernel_2026_11_02/REVIEW_STATUS.md",
+    "bytes": 4047,
+    "sha256": "4492e481d34a91fc6109cc8931da0d81d48e3c5bf4c90fbb1cb3c619dec5713a"
+  },
+  "sender_relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_CHAT1_2026-11-02_KERNEL_SIX_CONTROLS_IMPLEMENTED_UNRUN.md",
+    "bytes": 2591,
+    "sha256": "75ddf95a1b949d7779a74fdac4a9fcf879c51ac1aea50c97930fb5a09823ad37"
+  },
+  "remote_heads_after_fetch": [
+    "origin/agy/frontier-2026-10-26 05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/audit/fork-2026-09-20 0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/physical-bridge-2026-09-05 f5f1042d616c2c4c344277d571d3160f6dcd9766",
+    "origin/chat1/web-seat c575739a1433ccc70baf1941dc95058a3cf825c1",
+    "origin/chatgpt/weave-physics-archive-2026-10-11 efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9 6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench 13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5 5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox 8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao a880cb8d08a32c737157742ecf04e3c563929fdb",
+    "origin/main 64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+    "origin/referee/B1668_the_price_of_the_nineteen 0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing 806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/sep16-branch 3205984b48d1b98a80042cdc70916878973980f5"
+  ],
+  "remote_head_count": 14,
+  "static_checks": {
+    "syntax": "AST_ONLY_PASS",
+    "six_design_method_names_match": true,
+    "inherited_methods": 0,
+    "preimplementation_design_environment_unchanged": true,
+    "older_eight_control_source_pins_match": true
+  },
+  "author_source_repairs_before_any_execution": [
+    "Supplement the tautological projector sum by annihilating-polynomial and projector algebra tests.",
+    "Check parity preservation of the actual Fock action before restricting to either half spinor.",
+    "Reconstruct the collapsed triple through the same split function and compare its zero/nonzero norm.",
+    "Assemble the physical rows with and without gaugino/C3 rather than only assert different arithmetic totals.",
+    "Make the doubled conjugate control break the actual charged-pair equality as well as the total dimension.",
+    "Bind Fock Cartan weights/parity to the actual last-five E8 half-root coordinates, including which16 matches each A3 spinor."
+  ],
+  "scientific_import": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "independent_review": false,
+  "main_acceptance": false,
+  "foundational_inputs_removed": 0,
+  "previous_packages_or_acceptance_extended": false,
+  "inherited_staged_paths": 49,
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "uncommitted_preexecution_inventory_revision": {
+    "previous_inventory_sha256": "df48a5e2416d233a4d45ff9f0f4b8c4d607dcc056be753e7dcc0458bbe47f678",
+    "previous_implementation_pins": [
+      {
+        "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_kernel_2026_11_02/DESIGN.md",
+        "bytes": 6931,
+        "sha256": "bd84bcea47137699b69c5d1eb0fb813f93a3f200c6673a8b415287b18dd39274"
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_kernel_2026_11_02/ENVIRONMENT.json",
+        "bytes": 663,
+        "sha256": "64bd1e5036c027ef8f6b4b14dec9bfb24f721c6c5453cecb15312666f851826e"
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_kernel_2026_11_02/checks.py",
+        "bytes": 22190,
+        "sha256": "27086c7f7fd1f38a30e55618ca2e6922f71b31b3ccdb9de45a6102903e03dc6a"
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_kernel_2026_11_02/REVIEW_STATUS.md",
+        "bytes": 3900,
+        "sha256": "6eea391e7c14a75d02c44c4573c024e0fc6039ef835bd320247a0346460dba9c"
+      }
+    ],
+    "reason": "Strengthen the root-to-Fock binding during source self-review before the first implementation commit. No runtime output existed or was replaced.",
+    "scientific_execution": false
+  }
+}
