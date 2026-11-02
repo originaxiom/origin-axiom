@@ -1,0 +1,65 @@
+=== 1. Verification of Sector Independence & Exact Digamma + Lerch Closed Form ===
+Line (0.4000, 0.1000) at tau=(0.2+2.5j):
+  channel 1: exact=  4.330300996571  cA=  4.330300996571  |diff|=3.30e-13  sector_spread=0.00e+00
+  channel j: exact= -0.458305139204  cA= -0.458305139208  |diff|=4.11e-12  sector_spread=1.39e-12
+  channel k: exact= -0.218636059624  cA= -0.218636059626  |diff|=1.71e-12  sector_spread=9.52e-13
+Line (0.3750, 0.3750) at tau=(0.2+2.5j):
+  channel 1: exact= 19.656987268103  cA= 19.656987268103  |diff|=3.87e-13  sector_spread=5.68e-14
+  channel i: exact=  8.332199401865  cA=  8.332199401865  |diff|=3.64e-13  sector_spread=0.00e+00
+  channel j: exact= -1.943949521555  cA= -1.943949521557  |diff|=2.83e-12  sector_spread=2.64e-12
+  channel k: exact= -1.973683381029  cA= -1.973683381032  |diff|=2.40e-12  sector_spread=1.76e-12
+Line (0.4167, 0.9167) at tau=(0.2+2.5j):
+  channel 1: exact=  1.357088276641  cA=  1.357088276640  |diff|=3.39e-13  sector_spread=4.26e-14
+  channel i: exact=  1.662716261239  cA=  1.662716261238  |diff|=3.49e-13  sector_spread=1.42e-14
+  channel j: exact=  1.662716261239  cA=  1.662716261237  |diff|=2.14e-12  sector_spread=4.26e-13
+  channel k: exact=  1.357088276641  cA=  1.357088276638  |diff|=2.63e-12  sector_spread=2.56e-13
+Line (0.1429, 0.2857) at tau=(0.2+2.5j):
+  channel 1: exact= -2.558576489810  cA= -2.558576489810  |diff|=3.32e-13  sector_spread=0.00e+00
+  channel i: exact= -2.566003970641  cA= -2.566003970642  |diff|=3.02e-13  sector_spread=2.84e-14
+  channel j: exact= 48.430328933622  cA= 48.430328933620  |diff|=2.32e-12  sector_spread=1.82e-12
+  channel k: exact= 13.758531972700  cA= 13.758531972700  |diff|=3.91e-14  sector_spread=3.11e-12
+Line (0.4444, 0.1111) at tau=(0.2+2.5j):
+  channel i: exact= -1.183322062427  cA= -1.183322062427  |diff|=2.90e-13  sector_spread=5.68e-14
+  channel j: exact=  5.666486459054  cA=  5.666486459049  |diff|=5.82e-12  sector_spread=3.07e-12
+  channel k: exact=  9.323086049945  cA=  9.323086049944  |diff|=8.56e-13  sector_spread=1.63e-12
+Line (0.3333, 0.1111) at tau=(0.2+2.5j):
+  channel i: exact= 87.148322123432  cA= 87.148322123431  |diff|=7.39e-13  sector_spread=2.84e-14
+  channel j: exact= -2.841325036357  cA= -2.841325036360  |diff|=3.14e-12  sector_spread=2.83e-12
+  channel k: exact= -2.833431771761  cA= -2.833431771764  |diff|=2.28e-12  sector_spread=1.92e-12
+Line (0.0000, 0.2500) at tau=(0.2+2.5j):
+  channel 1: exact= 37.800299825382  cA= 37.800299825381  |diff|=5.47e-13  sector_spread=2.84e-14
+  channel i: exact= 37.800299825382  cA= 37.800299825381  |diff|=5.33e-13  sector_spread=1.42e-14
+  channel j: exact= -2.837378989268  cA= -2.837378989268  |diff|=3.26e-13  sector_spread=0.00e+00
+  channel k: exact= -2.837378989268  cA= -2.837378989268  |diff|=3.26e-13  sector_spread=0.00e+00
+Max sector spread across ('up', 'down', 'lepton'): 3.11e-12
+Max |c_exact - cA_quadrature| across all channels:  5.82e-12
+
+=== 2. Exact Cusp Vanishing of (c_j + c_k - c_1 - c_i) at alpha in {1/12, 1/4, 5/12} ===
+  alpha=1/12 ({3*alpha}= 1/4): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = -0.000000000000
+  alpha=1/11 ({3*alpha}=3/11): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = +4.223248580416
+  alpha=1/10 ({3*alpha}=3/10): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = +9.622702617009
+  alpha= 1/9 ({3*alpha}= 1/3): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = +17.420688722429
+  alpha= 1/8 ({3*alpha}= 3/8): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = +31.326717375301
+  alpha= 1/7 ({3*alpha}= 3/7): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = +70.071100281683
+  alpha=2/11 ({3*alpha}=6/11): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = +120.620446922935
+  alpha= 1/5 ({3*alpha}= 3/5): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = +44.464080061866
+  alpha= 2/9 ({3*alpha}= 2/3): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = +17.420688722429
+  alpha= 1/4 ({3*alpha}= 3/4): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = +0.000000000000
+  alpha=3/11 ({3*alpha}=9/11): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = -13.646983825797
+  alpha= 2/7 ({3*alpha}= 6/7): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = -24.534360042874
+  alpha=3/10 ({3*alpha}=9/10): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = -44.464080061866
+  alpha=4/11 ({3*alpha}=1/11): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = -50.917684902203
+  alpha= 3/8 ({3*alpha}= 1/8): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = -31.326717375301
+  alpha= 2/5 ({3*alpha}= 1/5): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = -9.622702617009
+  alpha=5/12 ({3*alpha}= 1/4): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = -0.000000000000
+  alpha= 3/7 ({3*alpha}= 2/7): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = +6.725325928477
+  alpha= 4/9 ({3*alpha}= 1/3): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = +17.420688722429
+  alpha=5/11 ({3*alpha}=4/11): lim_(Im tau->inf) (c_j+c_k-c_1-c_i) = +26.824416836793
+Vanishing constant slopes up to order 12: ['1/12', '1/4', '5/12']
+
+=== 3. Refutation & Exact Replacement of B1788 Hypothesis (a) ===
+  alpha= 2/5: E(c1-ci) measured=0.100000, theorem=0.100000 (B1788 hyp a=0.100000) | E(cj-ck) measured=0.150000, theorem=0.150000 (B1788 hyp a=0.250000)
+  alpha= 1/7: E(c1-ci) measured=0.215967, theorem=0.214286 (B1788 hyp a=0.214286) | E(cj-ck) measured=0.035714, theorem=0.035714 (B1788 hyp a=0.214286)
+  alpha= 4/9: E(c1-ci) measured=0.166667, theorem=0.166667 (B1788 hyp a=0.166667) | E(cj-ck) measured=0.083333, theorem=0.083333 (B1788 hyp a=0.055556)
+  alpha= 3/8: E(c1-ci) measured=0.062500, theorem=0.062500 (B1788 hyp a=0.062500) | E(cj-ck) measured=0.187500, theorem=0.187500 (B1788 hyp a=0.187500)
+  alpha=5/12: E(c1-ci) measured=0.125000, theorem=0.125000 (B1788 hyp a=0.125000) | E(cj-ck) measured=0.125000, theorem=0.125000 (B1788 hyp a=0.125000)

@@ -1,0 +1,20 @@
+=== STEP B (B1825), CENSUS & TOPOLOGICAL AUDIT VERIFICATION ===
+B1825 least_chi2_ten = 291.409690 (recomputed: 291.486662)
+  c/t     : model=4.5533e-03, target=3.6848e-03, ratio=1.236, z=+2.04, z^2=4.16
+  u/t     : model=2.3072e-05, target=7.3101e-06, ratio=3.156, z=+5.81, z^2=33.73
+  s/b     : model=2.7399e-02, target=1.8725e-02, ratio=1.463, z=+2.87, z^2=8.23
+  d/b     : model=7.5339e-04, target=9.4047e-04, ratio=0.801, z=-1.80, z^2=3.25
+  mu/tau  : model=2.8467e-02, target=1.9624e-02, ratio=1.451, z=+3.72, z^2=13.84
+  e/tau   : model=7.8423e-04, target=8.3839e-04, ratio=0.935, z=-0.67, z^2=0.45
+  |V_us|  : model=2.0275e-01, target=2.2501e-01, ratio=0.901, z=-1.04, z^2=1.08
+  |V_cb|  : model=6.3301e-02, target=4.1830e-02, ratio=1.513, z=+4.07, z^2=16.57
+  |V_ub|  : model=1.3644e-02, target=3.7320e-03, ratio=3.656, z=+12.60, z^2=158.81
+  |J|     : model=1.4414e-05, target=3.1200e-05, ratio=0.462, z=-7.17, z^2=51.37
+  Sum chi2_six  = 63.6450
+  Sum chi2_ckm3 = 176.4690
+  chi2_J        = 51.3726
+  Sum chi2_ten  = 291.4867
+
+Defect 2A: K_ten selected choice = 30900 -> line=(2/5, 0), dir=D2R, rad=L_max, reading=('S~', 'S', 'S')
+Defect 2B: 48 order-12 lines -> 7680 massless-electron choices in physical_choice (det M_lep = 8.14e-17)
+m004 topology: det(LR - I) = -1, |Delta_m004(omega)| = 4.0000, |tau_RS(m004; omega)| = 2.309401

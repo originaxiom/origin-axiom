@@ -1,0 +1,61 @@
+
+=== B1825 Best chi2_ten: (3/8, 3/8), DR, L_2, S~S~S, tau=0.0934+2.7426j ===
+  4D null err = 2.35e-16, 3D non-null |R_perp.R_perp|/||R||^2 >= 0.0047, PY_vec err = 9.93e-16, (PY)h err = 5.19e-16
+  Higgs nullity r = 1.2969e-02 | m2/m3: up=0.00455, down=0.02740 (down/up = 6.02)
+  |<u_k^(up),   h*>| = [0.9787  0.2052  0.00646] -> theta_12^(u)=0.2052, theta_13^(u)=0.00646
+  |<u_k^(down), h*>| = [0.99988 0.01436 0.00648] -> theta_12^(d)=0.0144, theta_13^(d)=0.00648 (theta_12^(u)/theta_12^(d) = 14.28)
+  Full |V_CKM| matrix:
+    u: [0.97914, 0.20275, 0.01364]
+    c: [0.20321, 0.97709, 0.06330]
+    t: [0.00121, 0.06474, 0.99790]
+  |V_ub| / (|V_us|*|V_cb|) = 1.0631  (PDG = 0.3965)
+  |V_td| / (|V_us|*|V_cb|) = 0.0942  (PDG = 0.9135)
+  |V_ub| / |V_td|          = 11.2797  (PDG = 0.4340)
+  |J| = 1.4414e-05, J_max = 1.7110e-04, sin(delta_CP) = 0.0842 (PDG = 0.948)
+
+=== B1726 Best nine-row: (2/5, 1/10), DR, L_max, S~S~S~, tau=0.55+2.55j ===
+  4D null err = 1.80e-16, 3D non-null |R_perp.R_perp|/||R||^2 >= 0.0156, PY_vec err = 1.57e-16, (PY)h err = 8.67e-17
+  Higgs nullity r = 2.3635e-02 | m2/m3: up=0.01810, down=0.02483 (down/up = 1.37)
+  |<u_k^(up),   h*>| = [0.99889 0.04569 0.01171] -> theta_12^(u)=0.0457, theta_13^(u)=0.01171
+  |<u_k^(down), h*>| = [0.99987 0.0109  0.01176] -> theta_12^(d)=0.0109, theta_13^(d)=0.01176 (theta_12^(u)/theta_12^(d) = 4.19)
+  Full |V_CKM| matrix:
+    u: [0.99934, 0.03616, 0.00228]
+    c: [0.03623, 0.99814, 0.04902]
+    t: [0.00057, 0.04907, 0.99879]
+  |V_ub| / (|V_us|*|V_cb|) = 1.2858  (PDG = 0.3965)
+  |V_td| / (|V_us|*|V_cb|) = 0.3236  (PDG = 0.9135)
+  |V_ub| / |V_td|          = 3.9733  (PDG = 0.4340)
+  |J| = 5.5492e-07, J_max = 4.0339e-06, sin(delta_CP) = 0.1376 (PDG = 0.948)
+
+=== P-377 Strip: (2/5, 1/10), DR, L_max, S~S~S~, tau=0.45+3.00j ===
+  4D null err = 1.46e-16, 3D non-null |R_perp.R_perp|/||R||^2 >= 0.0069, PY_vec err = 3.14e-16, (PY)h err = 2.03e-16
+  Higgs nullity r = 5.7954e-03 | m2/m3: up=0.00644, down=0.01245 (down/up = 1.93)
+  |<u_k^(up),   h*>| = [0.99981 0.01937 0.00289] -> theta_12^(u)=0.0194, theta_13^(u)=0.00289
+  |<u_k^(down), h*>| = [1.00e+00 4.60e-04 2.89e-03] -> theta_12^(d)=0.0005, theta_13^(d)=0.00289 (theta_12^(u)/theta_12^(d) = 42.50)
+  Full |V_CKM| matrix:
+    u: [0.99981, 0.01941, 0.00063]
+    c: [0.01942, 0.99930, 0.03187]
+    t: [0.00004, 0.03188, 0.99949]
+  |V_ub| / (|V_us|*|V_cb|) = 1.0132  (PDG = 0.3965)
+  |V_td| / (|V_us|*|V_cb|) = 0.0691  (PDG = 0.9135)
+  |V_ub| / |V_td|          = 14.6607  (PDG = 0.4340)
+  |J| = 2.6174e-08, J_max = 3.8769e-07, sin(delta_CP) = 0.0675 (PDG = 0.948)
+
+=== B1743 F_6: (2/5, 3/10), F_6, L_max, SSS, tau=0.3125+3.30j ===
+  4D null err = 2.31e-16, 3D non-null |R_perp.R_perp|/||R||^2 >= 0.0039, PY_vec err = 1.83e-15, (PY)h err = 2.87e-15
+  Higgs nullity r = 7.5469e-04 | m2/m3: up=0.00401, down=0.01138 (down/up = 2.84)
+  |<u_k^(up),   h*>| = [9.9999e-01 4.4900e-03 3.8000e-04] -> theta_12^(u)=0.0045, theta_13^(u)=0.00038
+  |<u_k^(down), h*>| = [1.0e+00 1.6e-04 3.7e-04] -> theta_12^(d)=0.0002, theta_13^(d)=0.00037 (theta_12^(u)/theta_12^(d) = 27.63)
+  Full |V_CKM| matrix:
+    u: [0.99999, 0.00465, 0.00012]
+    c: [0.00466, 0.99963, 0.02693]
+    t: [0.00001, 0.02693, 0.99964]
+  |V_ub| / (|V_us|*|V_cb|) = 0.9509  (PDG = 0.3965)
+  |V_td| / (|V_us|*|V_cb|) = 0.0559  (PDG = 0.9135)
+  |V_ub| / |V_td|          = 17.0215  (PDG = 0.4340)
+  |J| = 3.9915e-10, J_max = 1.4938e-08, sin(delta_CP) = 0.0267 (PDG = 0.948)
+
+=== Lagrange-Multiplier Compromise Under |V_ub| = |V_us|*|V_cb| = 2.5213 * |V_ub|_PDG ===
+  Analytic equal-relative-weight compromise: [0.7347 0.7347 1.3611]
+  B1743 free-CP^2 optimum ratios to PDG:     [0.773, 0.775, 1.213]
+  P-377 strip ratios to PDG:                 [0.692, 0.761, 1.545]

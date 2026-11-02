@@ -1,0 +1,6 @@
+=== INDEPENDENT CORE RECOMPUTATION SUMMARY ===
+m004 volume (50 dps): 2.0298832128193072500424051085490406
+6Y charges:           [1, -4, 2, -3, 6]
+Anomaly residuals:    {'SU3_sq_U1': 0.0, 'SU2_sq_U1': 0.0, 'grav_sq_U1': 0.0, 'U1_cubed': 2.220446049250313e-16}
+B1824 a0 identity:    a0 = (-5/288) * R + (3/2) * D2R
+B1825 Step B:         in_support=False, least_chi2_ten=291.41, C_ten=-197.04

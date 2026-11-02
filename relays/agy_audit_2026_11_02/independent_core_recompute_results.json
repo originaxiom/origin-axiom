@@ -1,0 +1,41 @@
+{
+  "t_root_m004": {
+    "volume_m004_50dps": "2.0298832128193072500424051085490406",
+    "trace_LR": 3,
+    "trace_commutator_LR": 3
+  },
+  "c25_anomaly_cancellation": {
+    "Y_Q_uc_dc_L_ec": [
+      0.16666666666666666,
+      -0.6666666666666666,
+      0.3333333333333333,
+      -0.5,
+      1.0
+    ],
+    "6Y_integers": [
+      1,
+      -4,
+      2,
+      -3,
+      6
+    ],
+    "anomaly_residuals": {
+      "SU3_sq_U1": 0.0,
+      "SU2_sq_U1": 0.0,
+      "grav_sq_U1": 0.0,
+      "U1_cubed": 2.220446049250313e-16
+    }
+  },
+  "frontier_endpoints": {
+    "B1824_a0_identity": {
+      "exact_identity": "a0 = (-5/288) * R + (3/2) * D2R",
+      "verified": true
+    },
+    "B1825_step_b": {
+      "in_support": false,
+      "least_chi2_ten": 291.4096900277224,
+      "C_ten": -197.03655960242986,
+      "p_CKM": 1.0
+    }
+  }
+}
