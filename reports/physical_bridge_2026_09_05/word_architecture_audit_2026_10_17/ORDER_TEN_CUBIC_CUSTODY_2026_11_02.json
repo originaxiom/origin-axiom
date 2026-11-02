@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-02",
+  "draft_begun": "2026-11-01",
+  "status": "UNREVIEWED_AUTHOR_ANALYTICAL_SUCCESSOR",
+  "source_parent": "ac28256fcf624fa25938dc0e333e8620c0e5e7db",
+  "proof": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ORDER_TEN_PHYSICAL_CUBIC_AND_EXCEPTIONAL_MODE_PAIRING.md",
+    "bytes": 11425,
+    "sha256": "2d82c2229c63421b944caaa534613f6992fd1fb4de0f89fae73d344fd8ea2ceb"
+  },
+  "relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_CHAT1_2026-11-02_ORDER_TEN_RESTORES_AN_ACTUAL_CUBIC.md",
+    "bytes": 3403,
+    "sha256": "fbb894cc35cf70f22f926c6c461d783cb38eef688925c8f7ea6dfba63af3b596"
+  },
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "bytes": 14328,
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUANTUM_NORMALIZATION_AND_WEIGHTED_GAUGE_MATCHING.md",
+      "bytes": 20252,
+      "sha256": "e6389aea20614b4effdb34c6bfd2ef77a74fb618db9b73acf75782d659407dee"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_FLAT_FAMILY_METRIC_AND_DISCONNECTED_CENTRALIZER.md",
+      "bytes": 15421,
+      "sha256": "df538ad48d13a0cec5c5bb8ac7f8fcca73adbb1deb549902332ac992d0e076fc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/WILSON_FAMILY_KERNEL_AND_LEVEL_FOUR_REGISTER_MAP.md",
+      "bytes": 12532,
+      "sha256": "b53f22602afcc6194a3cbddde86eaa86d6e1f54c707e4135777d1f018ad2d6ae"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/PROOF.md",
+      "bytes": 11161,
+      "sha256": "8ca99b10c3da48289e47d76cf78870e904558861e19b1e0f9b9dce59079473a7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "bytes": 12932,
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    }
+  ],
+  "remote_heads_after_successful_fetch": [
+    "origin/agy/frontier-2026-10-26 05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/audit/fork-2026-09-20 0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/physical-bridge-2026-09-05 ac28256fcf624fa25938dc0e333e8620c0e5e7db",
+    "origin/chat1/web-seat c575739a1433ccc70baf1941dc95058a3cf825c1",
+    "origin/chatgpt/weave-physics-archive-2026-10-11 efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9 6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench 13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5 5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox 8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao a880cb8d08a32c737157742ecf04e3c563929fdb",
+    "origin/main 64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+    "origin/referee/B1668_the_price_of_the_nineteen 0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing 806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/sep16-branch 3205984b48d1b98a80042cdc70916878973980f5"
+  ],
+  "remote_head_count": 14,
+  "hand_cross_checks": [
+    "The old exact cusp endpoint gives h0(S L_(+/-5))=1 and h1(L_(+/-5))=0 at eta=chi^5 of exact order ten.",
+    "The two compact spin/charge factors are trivial but the conjugate gauge representations are not identified.",
+    "The selected a0,u0,v0 are actual harmonic kernel representatives of the same action and domain.",
+    "The literal SU5 commutator is -5 times the opposite-root trace pairing.",
+    "The spatial product is omega wedge bar(omega), nonzero and absolutely convergent.",
+    "Bounded decaying physical mode profiles keep the nonlinear products admissible.",
+    "Multiplication followed by the old actual Hermitian Hodge pairing yields the stated j2/j3 channel ranks, with the j1 absence retained.",
+    "The changed R roster and nonzero cubic forbid reusing the old generic Y=0 two-loop expression."
+  ],
+  "scientific_import": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "independent_review": false,
+  "main_acceptance": false,
+  "prospective_test_design_created": false,
+  "earlier_sixteen_controls_extended": false,
+  "earlier_package_scope": "At ac28256fc test16 checks exceptional counts/beta insertion only, not the successor wavefunction integrals or multiplication ranks.",
+  "reduction_account": {
+    "foundational_inputs_removed": 0,
+    "new_fitted_yukawa_tensor": false,
+    "derived_conditional_output": "An actual nonzero light cubic and specified charged-channel pairing ranks in the existing parent.",
+    "remaining_state_conditions": [
+      "exact-order-ten chi",
+      "eta=chi^5"
+    ],
+    "physical_limitations": [
+      "vector-like spectrum",
+      "coloured mixed-adjoint modes are not an SM Higgs doublet",
+      "no vacuum selection, three chiral generations or gravity derived"
+    ]
+  },
+  "review_duties": [
+    "Global spin/flat-line identifications and complete physical kernel.",
+    "All exact endpoint pole inequalities and actual Hermitian-Hodge representative.",
+    "Cusp and nonlinear product/variation admission.",
+    "Lie and integral nonvanishing, channel-specific multiplication ranks.",
+    "No claim of physical chirality or canonical Yukawa size from counts."
+  ],
+  "locator_scope": {
+    "already_banked_query": "order-ten adjoint cubic",
+    "broad_settled_matches_not_all_read": true,
+    "bounded_remote_locator_output_not_recovered": true,
+    "absence_priority_or_exhaustive_search_claim": false
+  },
+  "inherited_staged_paths": 49,
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}

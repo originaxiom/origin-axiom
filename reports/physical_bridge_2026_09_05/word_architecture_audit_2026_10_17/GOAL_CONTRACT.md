@@ -978,6 +978,24 @@ and strict prospective admission remain required. The proof and code
 are UNREVIEWED; P210's earlier certificate is not extended. The full
 SM3/gravity and derivation-led reduction goal remains active.
 
+## November 2: an exceptional state restores the actual light cubic
+
+[Order-ten physical cubic and mode pairing](ORDER_TEN_PHYSICAL_CUBIC_AND_EXCEPTIONAL_MODE_PAIRING.md)
+follows the extra modes of the same SM Wilson family into the actual
+parent vertex. At chi of exact order ten with eta=chi^5, opposite-charge
+spin sections multiply to omega and the existing harmonic a_0 gives a
+nonzero, convergent cubic. The exact pole/Hodge map also fixes the
+permitted ten- and five-channel pairing ranks. No fitted Yukawa tensor,
+new boundary condition or changed action is inserted.
+
+This is an UNREVIEWED analytical positive outside the frozen sixteen
+controls and every earlier acceptance. The spectrum remains vector-like;
+the extra coloured mixed-adjoint fields are not an SM Higgs doublet.
+The conditions describe an allowed compatible state, not a derivation
+of its selection. The generic zero-cubic proof is preserved at its
+proper scope; it cannot be extended across this change of R kernel.
+No foundational row is removed, and the full physical goal remains active.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
