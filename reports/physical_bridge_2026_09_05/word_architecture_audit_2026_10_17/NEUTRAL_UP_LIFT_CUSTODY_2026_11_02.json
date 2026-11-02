@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-02",
+  "status": "UNREVIEWED_EXISTING_FIELD_RECOVERY_AND_FULL_OPERATOR_LOCAL_LIFTING",
+  "source_parent": "d5c06027bbc1146fa37954de8d5c1db17fd04c1a",
+  "proof": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXISTING_NEUTRAL_FIELD_LIFTS_THE_UP_KERNEL.md",
+    "bytes": 13855,
+    "sha256": "198ca027a3a4b6527c47dab4486b3b68c19a5f40a0555ad8ad05e11d38db20df"
+  },
+  "sender_relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_CHAT1_2026-11-02_EXISTING_NEUTRAL_FIELD_LIFTS_UP.md",
+    "bytes": 4239,
+    "sha256": "ceb9209857de10d7946a4a7cef1da47f41a11490ab7b67c8ed99e1e7e9219492"
+  },
+  "preimplementation_design": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_neutral_up_lift_2026_11_02/DESIGN.md",
+    "bytes": 4978,
+    "sha256": "3513041ab324c01384b55e62b436d818eefe321b8935527692aecd013d9d9d79"
+  },
+  "proposed_environment": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_neutral_up_lift_2026_11_02/ENVIRONMENT.json",
+    "bytes": 663,
+    "sha256": "64bd1e5036c027ef8f6b4b14dec9bfb24f721c6c5453cecb15312666f851826e"
+  },
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "bytes": 15858,
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXACT_ORDER_THREE_ELECTROWEAK_BRANCH.md",
+      "bytes": 13553,
+      "sha256": "3eae4eba764343746f46db14b58ae5d03ee412534b4067219143c40c3a2f09aa"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md",
+      "bytes": 11904,
+      "sha256": "2ba7f4810d821c7aa95fc458ea5219187037381a4bc34830067f36e7f2119678"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "bytes": 14328,
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "bytes": 16197,
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ORDER_THREE_R_HIGGS_AND_DERIVED_TREE_VERTICES.md",
+      "bytes": 15622,
+      "sha256": "0495e91b320778287eb4132ae764c89711769ee915bcbdad42c1577ecfbd0a62"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "bytes": 12932,
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "bytes": 12292,
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "bytes": 11351,
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    }
+  ],
+  "remote_heads_after_fetch": [
+    "origin/agy/frontier-2026-10-26 05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/audit/fork-2026-09-20 0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/physical-bridge-2026-09-05 d5c06027bbc1146fa37954de8d5c1db17fd04c1a",
+    "origin/chat1/web-seat c575739a1433ccc70baf1941dc95058a3cf825c1",
+    "origin/chatgpt/weave-physics-archive-2026-10-11 efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9 6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench 13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5 5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox 8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao a880cb8d08a32c737157742ecf04e3c563929fdb",
+    "origin/main 64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+    "origin/referee/B1668_the_price_of_the_nineteen 0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing 806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/sep16-branch 3205984b48d1b98a80042cdc70916878973980f5"
+  ],
+  "remote_head_count": 14,
+  "hand_derivation_steps": [
+    "Recover the old trivial-spin holomorphic psi section and its existing two-field finite-norm admission.",
+    "The actual EM Cartan commutes with E,G and adjoints while acting nontrivially on up coefficients.",
+    "Every F/D residual and all neutral adjoint cross terms vanish in the extended Q/R background; connected colour/EM is retained.",
+    "The all-degree generator change gives kappa_+ and kappa_-, while the actual harmonic source cubic independently gives ad-bc and ad+bc.",
+    "Multiplication by psi identifies the exact compact S3L and S4L pole lines, with their actual Hodge dual map and nonzero finite physical overlap.",
+    "Both complete charged modules are kept, with no gaugino in their old kernel; the resulting4-by-4 first-order block is invertible in the stated generic directions.",
+    "The actual Fredholm complementary inverse and exact Schur zero-map control the higher-order response; an invertible first-order block removes full zeros locally.",
+    "No global inverse of the cusp-decaying psi, projected-only mass conclusion or universal statement about exceptional planes is used."
+  ],
+  "planned_controls": {
+    "class": "NeutralUpLiftChecks",
+    "methods": [
+      "test_actual_neutral_generator_and_full_residual_compatibility",
+      "test_spin_pole_and_dual_multiplication_data",
+      "test_first_order_physical_mass_blocks_and_exceptional_planes",
+      "test_full_complement_schur_and_unbounded_inverse_controls"
+    ],
+    "count": 4,
+    "implementation_exists": false,
+    "runtime_discovery": "NOT_RUN"
+  },
+  "earlier_six_control_sources_unchanged": true,
+  "scientific_implementation_created": false,
+  "scientific_import": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "independent_review": false,
+  "main_acceptance": false,
+  "complete_execution_specification": false,
+  "prior_acceptance_extended": false,
+  "reduction_account": {
+    "foundational_inputs_removed": 0,
+    "new_action_fields_or_couplings": false,
+    "new_boundary_or_chiral_projector": false,
+    "reused_old_state_coordinates": [
+      "Trivial extending spin section",
+      "Neutral Q/R amplitudes c,d"
+    ],
+    "conditional_positive": "A small existing neutral R amplitude lifts all four up conjugate pairs near a fixed interior electroweak state.",
+    "retained_prices": [
+      "Choice of trivial spin",
+      "Unselected neutral amplitudes and physical state",
+      "Supplied parent, geometry, embedding and end law"
+    ],
+    "not_completed": [
+      "Numerical masses or hierarchy",
+      "Complete extended-state spectrum and vector response",
+      "Three chiral Standard Model generations",
+      "Quantum, gravity and foundational state selection"
+    ]
+  },
+  "negative_scope_preserved": "The old nilpotent c=d=0 interior family still has its exact massless-up kernel. The new allowed neutral state changes that hypothesis, not the action or its mathematical verdict.",
+  "prior_work_locator": {
+    "query": "neutral spin up masses",
+    "actual_terms": [
+      "neutral",
+      "spin",
+      "masses"
+    ],
+    "two_character_term_dropped_by_instrument": true,
+    "all_broad_locator_hits_read": false,
+    "absence_or_priority_claim": false,
+    "old_neutral_section_and_two_field_sources_reused": true
+  },
+  "review_priority": [
+    "Actual global neutral psi/Z and full stationary/domain admission.",
+    "Whole old charged kernel/cokernel, both triple modules and source physical Hodge representatives.",
+    "Induced cohomology map and actual cubic, including all factors needed for nonzero rank.",
+    "No unbounded psi division; true complete complementary inverse and local epsilon scope.",
+    "Retain spin/amplitude/state prices, changed other spectra and zero-index limitation."
+  ],
+  "inherited_staged_paths": 49,
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}

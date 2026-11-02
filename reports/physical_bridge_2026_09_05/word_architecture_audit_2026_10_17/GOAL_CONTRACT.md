@@ -1145,6 +1145,32 @@ strict prospective admission remain required. Earlier packages and
 seals are unchanged. No foundational input is paid or full physical
 goal completed by this implementation checkpoint.
 
+## November 2: an existing neutral state direction lifts the scoped up kernel
+
+[Existing neutral field and up lifting](EXISTING_NEUTRAL_FIELD_LIFTS_THE_UP_KERNEL.md)
+recovers the old trivial-spin holomorphic section psi before widening
+the nilpotent-branch massless-up result. Q0+eps c psi Q_em and
+R0+eps d psi Q_em remain exact stationary solutions of the same
+action, complete domain and colour/EM gauge phase. Their actual
+finite Hodge/Koszul maps and source cubic give first-order charged
+factors ad-bc and ad+bc. For a generic fixed direction, including
+c=0,d!=0, the genuine full complementary inverse proves all four
+up conjugate pairs lift for sufficiently small nonzero eps.
+
+The old zero-mode theorem stays true on c=d=0. This is a changed
+allowed state already using old fields, not a retraction or a new
+action fitted to fix it. No global inverse of the decaying psi is
+used. The trivial spin and neutral amplitudes remain unselected;
+the construction pays no foundational input, changes no charged
+index and supplies no three chiral generations or gravity. Its
+other spectra and vector responses are not inherited unchanged.
+
+This is UNREVIEWED authored analysis outside every earlier package.
+A four-control [design](verification_neutral_up_lift_2026_11_02/DESIGN.md)
+and proposed environment precede implementation. No science ran,
+review/acceptance was extended or physical state law was derived.
+The full physical reduction mission remains active.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
