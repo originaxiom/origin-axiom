@@ -1064,6 +1064,23 @@ No science is implemented or executed in that package yet. Source
 closure, real independent review, main acceptance and strict prospective
 admission remain required. Earlier seals, packages and reviews are unchanged.
 
+## November 2: stationary-branch controls implemented, still unrun
+
+The eight-control design at e181282de now has
+[implementation and review status](verification_electroweak_branch_2026_11_02/REVIEW_STATUS.md).
+Only static AST/name matching and source metadata were inspected;
+the module is unimported, uncollected and unrun. The zero-Higgs control
+reconstructs its constraints from actual zero field data, and the
+real neutral stabilizer, weighted root moment and compact conjugation
+controls retain their full source data. This is reviewable verification
+work, not an executed certificate or physical input reduction.
+
+Source/runtime/wrapper closure, genuine independent review, main's
+separate acceptance and strict prospective admission remain required.
+The analytical global E8/bundle/domain and full R!=0 fermion duties
+cannot be replaced by finite passes. No earlier package or acceptance
+is extended. The physical reduction mission remains active.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

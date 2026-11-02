@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-02",
+  "status": "UNREVIEWED_UNRUN_IMPLEMENTATION_CHECKPOINT",
+  "source_parent": "e181282de8f526221415583ea6ae05cc29ff874c",
+  "inventory": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_branch_2026_11_02/SOURCE_REVIEW_INVENTORY.json",
+    "bytes": 6405,
+    "sha256": "f8708f0e42b1bfb40fc21c32154b46cb849f829fb7ec9a5016a1c6c1f008afee"
+  },
+  "review_status": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_branch_2026_11_02/REVIEW_STATUS.md",
+    "bytes": 2802,
+    "sha256": "8e004db53c68dbef23b8575607030859511995b9936cdf8b0fa81c2ccd138036"
+  },
+  "sender_relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_CHAT1_2026-11-02_ELECTROWEAK_CONTROL_IMPLEMENTATION_UNRUN.md",
+    "bytes": 2078,
+    "sha256": "9ccf1719d131c385f634a6265acbedafdac6cd8303ca2305b0fd08203a67a284"
+  },
+  "remote_heads_after_fetch": [
+    "origin/agy/frontier-2026-10-26 05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/audit/fork-2026-09-20 0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/physical-bridge-2026-09-05 e181282de8f526221415583ea6ae05cc29ff874c",
+    "origin/chat1/web-seat c575739a1433ccc70baf1941dc95058a3cf825c1",
+    "origin/chatgpt/weave-physics-archive-2026-10-11 efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9 6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench 13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5 5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox 8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao a880cb8d08a32c737157742ecf04e3c563929fdb",
+    "origin/main 64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+    "origin/referee/B1668_the_price_of_the_nineteen 0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing 806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/sep16-branch 3205984b48d1b98a80042cdc70916878973980f5"
+  ],
+  "remote_head_count": 14,
+  "metadata_checks": {
+    "syntax": "AST_ONLY_PASS",
+    "design_method_name_match": true,
+    "method_count": 8,
+    "preimplementation_design_and_runtime_unchanged": true,
+    "scientific_import_collection_and_execution": false
+  },
+  "author_preexecution_source_repairs": [
+    "Reassemble zero-Higgs constraints from zero field values rather than zero the old matrix.",
+    "Require realified as well as complex neutral stabilizer rank.",
+    "Tie each literal root moment to its faithful matrix Cartan.",
+    "Check the compact conjugation preserves the orthogonal form and determinant."
+  ],
+  "new_scientific_execution": false,
+  "independent_review": false,
+  "main_acceptance": false,
+  "foundational_inputs_removed": 0,
+  "inherited_staged_paths": 49,
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}

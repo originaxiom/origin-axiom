@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "kind": "author_source_review_inventory_only",
+  "date": "2026-11-02",
+  "source_parent": "e181282de8f526221415583ea6ae05cc29ff874c",
+  "design_committed_before_implementation": "e181282de8f526221415583ea6ae05cc29ff874c",
+  "status": "UNREVIEWED_UNRUN_NOT_IMPORTED_NOT_COLLECTED",
+  "static_intended_population": {
+    "class": "ElectroweakBranchChecks",
+    "method_count": 8,
+    "inherited_methods": 0,
+    "expected_tests": [
+      "ElectroweakBranchChecks.test_actual_D5_roots_and_E8_embedding",
+      "ElectroweakBranchChecks.test_compact_ten_matrix_metric_and_principal_triple",
+      "ElectroweakBranchChecks.test_highest_doublets_and_actual_involution",
+      "ElectroweakBranchChecks.test_moment_closure_in_roots_and_matrices",
+      "ElectroweakBranchChecks.test_second_triple_gram_and_independent_flavour_direction",
+      "ElectroweakBranchChecks.test_complete_scaled_vacuum_and_backreaction_control",
+      "ElectroweakBranchChecks.test_radius_norm_balance_and_nonzero_domain_comparators",
+      "ElectroweakBranchChecks.test_actual_SM_neutral_stabilizer_and_three_broken_directions"
+    ],
+    "design_name_match": "AST_ONLY_PASS",
+    "runtime_discovery": "NOT_RUN"
+  },
+  "ast_imports_not_executed": [
+    "from collections import Counter",
+    "from fractions import Fraction",
+    "from itertools import combinations, product",
+    "import unittest",
+    "import sympy as s"
+  ],
+  "implementation_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_branch_2026_11_02/DESIGN.md",
+      "bytes": 5209,
+      "sha256": "df9f9fdd80da40a1885f27f94e558bf83f8438509bfa92c33c3c8bbc3548abed"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_branch_2026_11_02/ENVIRONMENT.json",
+      "bytes": 663,
+      "sha256": "64bd1e5036c027ef8f6b4b14dec9bfb24f721c6c5453cecb15312666f851826e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_branch_2026_11_02/checks.py",
+      "bytes": 14677,
+      "sha256": "49b1b3ac3af981e2c8cdb2e8d0a4a284fd66c2abc23692d8c335476c0398439c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_branch_2026_11_02/REVIEW_STATUS.md",
+      "bytes": 2802,
+      "sha256": "8e004db53c68dbef23b8575607030859511995b9936cdf8b0fa81c2ccd138036"
+    }
+  ],
+  "analytic_sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXACT_ORDER_THREE_ELECTROWEAK_BRANCH.md",
+      "bytes": 13553,
+      "sha256": "3eae4eba764343746f46db14b58ae5d03ee412534b4067219143c40c3a2f09aa"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ORDER_THREE_R_HIGGS_AND_DERIVED_TREE_VERTICES.md",
+      "bytes": 15622,
+      "sha256": "0495e91b320778287eb4132ae764c89711769ee915bcbdad42c1577ecfbd0a62"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_FLAT_FAMILY_METRIC_AND_DISCONNECTED_CENTRALIZER.md",
+      "bytes": 15421,
+      "sha256": "df538ad48d13a0cec5c5bb8ac7f8fcca73adbb1deb549902332ac992d0e076fc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "bytes": 14328,
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "bytes": 16197,
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/TWO_SPIN_FIELD_MOMENT_ORBIT_UNIQUENESS.md",
+      "bytes": 10902,
+      "sha256": "b206f2803136110fe17afa24b32ac40bfc9cb0e54c5e10de8f5536b25815ebf6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "bytes": 12292,
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "bytes": 12932,
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    }
+  ],
+  "prior_proof_custody": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXACT_ELECTROWEAK_BRANCH_CUSTODY_2026_11_02.json",
+    "bytes": 8406,
+    "sha256": "489478d30f8c96bd8b02f4704dd7809ef9764826b78c5a857b2371a9a78fe6e8"
+  },
+  "no_older_scientific_module_imports": true,
+  "no_empirical_targets_random_samples_or_external_runtime_data": true,
+  "source_complete_execution_specification": false,
+  "scientific_execution": false,
+  "independent_review": false,
+  "main_acceptance": false,
+  "prospective_admission": false,
+  "pre_execution_duties": [
+    "Exact independent proof/code review, including source closure and substantive coverage.",
+    "Actual runtime and dependency revalidation.",
+    "Own wrapper design, engineering controls and fresh output namespace.",
+    "Source/input/test/environment/gate closure and main separate exact acceptance.",
+    "Strict prospective admission on a clean quiescent checkout before any scientific import."
+  ],
+  "analytical_duties_not_proved_by_finite_controls": [
+    "Full E8 compact-phase and source bundle map.",
+    "Global spin/flat-line and complete nonlinear domain/variation admission.",
+    "Stationarity from the full functional and interior connected stabilizer scope.",
+    "The complete R-not-zero physical fermion spectrum, vacuum selection and quantum theory."
+  ],
+  "inherited_staged_paths": 49,
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
