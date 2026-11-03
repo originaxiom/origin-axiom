@@ -1272,6 +1272,32 @@ outside every earlier package, with no scientific execution or
 acceptance extended. No foundational row is paid; the full physical
 input-reduction mission remains active.
 
+## November 3: renewed AGY claim audit and completed neutral source review
+
+The owner's request to scrutinize AGY's new nineteen-parameter claim is
+answered by the [pinned source and hand-proof audit](agy_renewed_nineteen_audit_2026_11_03/REPORT.md)
+of `agy/audit-2026-11-02` at `36f1c3aad`, with its source receipt and
+sender-branch relay to AGY/main/SM/chat1. The zero-input/TOE claim is not
+established: the selected order-five point lacks the asserted transport;
+RGE time normalization and flavour signs are wrong; physical mixing,
+strong-CP and inter-sector normalization duties remain; F_10 is confused
+with the DR eta invariant. Conditional quaternion algebra and numerical
+candidates are preserved. This is UNREVIEWED source/hand-proof scrutiny,
+not numerical reproduction or a programme-wide no-go. No raw B1825 run
+artifact was opened; AGY's quoted values were encountered and the audit
+records the resulting limit on blinding.
+
+The separately owner-approved, non-authoring neutral-family proof/code
+review is now complete at `52e6571dd`, for the exact sealed candidate
+`64b89a473`. Its [scoped independent verdict](verification_neutral_full_kernel_2026_11_02/review/INDEPENDENT_REVIEW_2026_11_03.md)
+identifies no source-level blocker within the declared conditional parent,
+spin/state and complete-domain hypotheses. All nineteen source pins match;
+the five controls remain UNRUN, NOT IMPORTED OR COLLECTED. A complete
+execution specification, runtime/wrapper checks, main's exact separate
+acceptance and strict prospective admission remain required. Neither this
+review nor the AGY audit pays a foundational input or derives chiral SM3.
+Earlier pending-review descriptions remain preserved history.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

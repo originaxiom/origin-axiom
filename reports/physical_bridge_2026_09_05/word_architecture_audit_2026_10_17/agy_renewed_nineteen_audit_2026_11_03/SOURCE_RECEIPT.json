@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-03",
+  "branch": "agy/audit-2026-11-02",
+  "commit": "36f1c3aadc3e0a4e9d0c1834b5748f27b1173e1c",
+  "status": "UNREVIEWED_SOURCE_AND_HAND_PROOF_AUDIT_NO_SCIENTIFIC_EXECUTION",
+  "scientific_imports": false,
+  "scientific_execution": false,
+  "test_collection": false,
+  "numerical_reproduction": false,
+  "raw_B1825_artifacts_opened": false,
+  "indirect_B1825_quoted_values_seen": true,
+  "sources": [
+    {
+      "path": "relays/AGY_TO_CC_2026-11-03_TOE_MASTER_EXECUTION_PLAN_AND_CLOSURE.md",
+      "bytes": 16400,
+      "lines": 143,
+      "sha256": "7689cbee4289e4b363e7576e2e05d249e62576c4e7de3aff51f187b3e52c66e4"
+    },
+    {
+      "path": "relays/agy_audit_2026_11_02/hostile_referee_audit.py",
+      "bytes": 58537,
+      "lines": 1136,
+      "sha256": "2fad768cb4be879d696694c780dda896172351690fa6fc598594116d91b7cf06",
+      "ast_parse": "PASS_METADATA_ONLY"
+    },
+    {
+      "path": "src/origin_axiom/operator_gate.py",
+      "bytes": 23466,
+      "lines": 564,
+      "sha256": "eccd338da490c020e0ca69644369e69c16462662e392486bb92d2998798c968f",
+      "ast_parse": "PASS_METADATA_ONLY"
+    },
+    {
+      "path": "src/origin_axiom/parameter_ledger.py",
+      "bytes": 15120,
+      "lines": 280,
+      "sha256": "b1c06135e0d3113f0bd7e52ca4fa92899fb87f761ff72bfa4d02d3fe2fb37502",
+      "ast_parse": "PASS_METADATA_ONLY"
+    },
+    {
+      "path": "src/origin_axiom/sm_19_gate.py",
+      "bytes": 44244,
+      "lines": 982,
+      "sha256": "ab52696d487635372d27e11bc152fadf752504bb41e1f05ccff8f0db4c8e0377",
+      "ast_parse": "PASS_METADATA_ONLY"
+    },
+    {
+      "path": "src/origin_axiom/toe_closure.py",
+      "bytes": 18951,
+      "lines": 391,
+      "sha256": "0eb1db0903a3af1c7af6c84619bf2b9c3a1ffa76c18db0a854fa4c1828bea02e",
+      "ast_parse": "PASS_METADATA_ONLY",
+      "phase1_u_mat_loads": 0
+    },
+    {
+      "path": "src/origin_axiom/twisted_norms.py",
+      "bytes": 7155,
+      "lines": 160,
+      "sha256": "187ce8e8da977301053d006c48aec3b7f8538cd2bd0e50c8e1a859a2c881e94d",
+      "ast_parse": "PASS_METADATA_ONLY"
+    },
+    {
+      "path": "tests/test_elevation_operator_gate.py",
+      "bytes": 22081,
+      "lines": 475,
+      "sha256": "5266a004af8389cc677a273902c7b9a272cc4880778f728b9a611517ac75ea70",
+      "ast_parse": "PASS_METADATA_ONLY",
+      "static_test_functions": [
+        "test_theorem1_sector_independence_and_closed_form_c",
+        "test_theorem2_4d_quaternionic_yukawa_and_operator_gate",
+        "test_stepb_structural_audit_defects",
+        "test_theorem3_theorem4_and_19_parameter_ledger",
+        "test_seven_pillars_sm_19_gate_preparation",
+        "test_four_sequential_steps_stepb_v2_closure",
+        "test_theorem8_zero_parameter_golden_codifferent_unit_modulus_closure",
+        "test_theorem9_hypercharge_quadratic_refinement_and_full_19_closure",
+        "test_five_phase_master_toe_closure"
+      ]
+    }
+  ],
+  "latest_committed_referee_result": {
+    "path": "relays/agy_audit_2026_11_02/hostile_referee_audit_results.json",
+    "sha256": "97e5a87df8c434a853eb204da74fabbef74245675d815ea8a4850f90ac615ff3",
+    "area9_key_present": true
+  },
+  "inherited_staged_paths": 49,
+  "inherited_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "audit_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/agy_renewed_nineteen_audit_2026_11_03/REPORT.md",
+      "bytes": 21754,
+      "sha256": "ebd14a4b0f5c6c50fe211c9f3f68d8a36b5e29eda521f02e0aaf00bcab150dca"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_MAIN_SM_CHAT1_2026-11-03_RENEWED_NINETEEN_SOURCE_AUDIT.md",
+      "bytes": 4130,
+      "sha256": "f928ed6a7d4a20373521788dd8ce5e209db09edd7ae789e8635699b2ee474ff0"
+    }
+  ],
+  "completed_independent_review_checkpoint": "52e6571dd"
+}
