@@ -10,3 +10,6 @@
 (4) controls at Re tau = 0, Im tau 2.2 (up and down)
     (1/12, 0) (the slope, 4M even): up |D|/sum|R|^2 6.32e-01, c_1 - c_i 1.6e+00, c_j - c_k 1.6e+00, sigma_b -8.10e-13; down |D|/sum|R|^2 6.32e-01, c_1 - c_i 1.6e+00, c_j - c_k 1.6e+00, sigma_b -1.42e-14
     (1/7, 1/12) (4M odd, not the slope): up |D|/sum|R|^2 8.38e-01, c_1 - c_i -1.4e-14, c_j - c_k -1.6e-13, sigma_b 4.86e+01; down |D|/sum|R|^2 4.71e+00, c_1 - c_i 2.8e-14, c_j - c_k -8.5e-14, sigma_b 4.86e+01
+(5) Re tau = 0.13, up and down: the least |D|/sum|R|^2 by the line's order
+    order 12 (16 lines): least 3.4e-02
+    order  4 (2 lines): least 9.2e-17
