@@ -1,5 +1,9 @@
 # Changelog
 
+## S290 THE RELATION THAT LIFTS THE CORNERS: THE ADJUGATE READING; THE 45-LIKE SINGLET SPLITS THE SECOND GENERATION (2026-11-03)
+
+- **Data-free, exploration tier (B1827's dated note):** the Standard Model's reading (S~ for up, S for down) with a singlet Higgs component over-flips the CKM's corners but scrambles the light generation; the relation the scans reward — the singlet flipped, the triplet kept — is the adjugate adj(S) = εSᵀεᵀ = det(S)·S⁻¹, a holomorphic reading that equals −S on the frame's 3D Higgs and so was invisible by construction, never considered by B1724 or B1790. With SU(5)'s 45 Clebsch for the leptons, the same singlet splits the second generation's lepton/down ratio to about 2–4.5 on order-5 lines (about the Georgi–Jarlskog factor, without c), not the first. One candidate structure is named (P-566); its price is not yet computed and nothing is compared with a measured value. 0 of 19.
+
 ## S289 THE FRAMING LEDGER (B1827): WHAT THE PROGRAMME EXCLUDES BY THE WAY IT IS FRAMED (2026-11-03)
 
 - **The owner's exercise:** "what are we excluding by the way we frame the program? … log everything so we clarify this once for all". Five readers inventoried the record in parallel — the foundations and the bar (60 entries), the frame's construction with its code (39), the tests' conventions (40), the walls mapped to their causes with the hatches never tried (15 clusters, 14 groups), and a blind outside reading — every entry citing the record; main checked a sample of each and merged them into docs/FRAMING_LEDGER.md: eighteen commitments in three layers, ranked, with the data-free test of each (P-565-P-573).

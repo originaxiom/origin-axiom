@@ -56,3 +56,19 @@ singlet odd between the sectors is the first open test (P-566).
 ## Disclosed
 
 - Seen before the scans: B1825's run and B1826's corner inversion (both post-run read-outs); the two coarse facts above.
+
+> *2026-11-03, later (S290; exploration tier, data-free; scans in verification/scans/): **which relation between the sectors
+> lifts the corners.** (a) The Standard Model's reading (up reads S̃ = εS*εᵀ, down reads S) with a singlet at natural magnitude
+> does not: it over-flips the corners (∣V_ub∣ < ∣V_td∣ at 70–76%, median ratio about 0.1) but scrambles the light generation
+> (∣V_ud∣ > 0.9 at 14–20%; both at 0.2–3%), since S̃ conjugates the triplet too (B1739); sm_reading_singlet_scan.py. (b) The
+> relation the scans reward — the singlet flipped, the triplet kept — is the ADJUGATE, adj(S) = εSᵀεᵀ = det(S)·S⁻¹, the
+> quaternion conjugate a₀ − h·Q (verified exactly): a holomorphic reading with no complex conjugation. On the frame's 3D Higgs
+> adj(S) = −S, so this reading was invisible by construction; it becomes distinct only once the Higgs has a singlet, and then it
+> is exactly the opposite-sign family (33–48%). B1724 and B1790 considered only S, S* and S̃. (c) The 45-like Clebsch: on the
+> order-5 lines, a singlet entering the leptons with SU(5)'s −3 relative to down splits the second generation's lepton/down
+> ratio to about 2–4.5 at Im τ 1.9–2.6 (a 5-like control stays near 1) — about the Georgi–Jarlskog factor without c — but not the
+> first generation (scattered); for the up quarks there the singlet's contribution is antisymmetric, the 45's 10·10 form;
+> gj45_probe.py. One structure — a 4D Higgs whose singlet enters as the 45, read by its adjugate in one sector — is the candidate
+> P-566 now names; its price (the singlet's size, its phase, the reading, the address) is not yet computed, and nothing here
+> is compared with a measured value.*
+

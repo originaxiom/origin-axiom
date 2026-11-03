@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
 | arcs with a verdict | 1531: 1043 PROVED, 382 NEGATIVE, 94 OPEN, 12 RETRACTED |
 | points in the register | 573: 245 open (queued, leads, waiting for the owner), 328 closed |
 | the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S289 THE FRAMING LEDGER (B1827): WHAT THE PROGRAMME EXCLUDES BY THE WAY IT IS FRAMED (2026-11-03) |
+| the last landing | S290 THE RELATION THAT LIFTS THE CORNERS: THE ADJUGATE READING; THE 45-LIKE SINGLET SPLITS THE SECOND GENERATION (2026-11-03) |
 <!-- STATE:END -->
 
 ## Start here

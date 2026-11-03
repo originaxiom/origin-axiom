@@ -18283,3 +18283,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - Eighteen framing commitments inventoried and ranked (docs/FRAMING_LEDGER.md); the corner inversion lifted by a sector-odd singlet Higgs (data-free); order-5 lines = minimal SU(5). Verification: the readers' citations sampled, the scans in B1827/verification/scans, the gates. 0 of 19.
 
+## 2026-11-03 — S290 the adjugate reading; the 45-like singlet
+
+- The SM reading with a singlet fails (∣V_ud∣ scrambled); the adjugate reading is the relation that lifts the corners; the 45's Clebsch splits the second generation by about 3. Verification: B1827/verification/scans (sm_reading_singlet_scan, gj45_probe), the gates. 0 of 19.
+

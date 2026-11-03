@@ -1,0 +1,23 @@
+sm_reading c 0                  n  402  |V_ub|<|V_td| 0.73  |V_ud|>0.9 0.14  both 0.012  median ratio 0.0883
+sm_reading c exp(2 pi i 0/12)   n  367  |V_ub|<|V_td| 0.70  |V_ud|>0.9 0.20  both 0.016  median ratio 0.113
+sm_reading c exp(2 pi i 1/12)   n  380  |V_ub|<|V_td| 0.71  |V_ud|>0.9 0.16  both 0.005  median ratio 0.111
+sm_reading c exp(2 pi i 2/12)   n  409  |V_ub|<|V_td| 0.73  |V_ud|>0.9 0.14  both 0.002  median ratio 0.108
+sm_reading c exp(2 pi i 4/12)   n  412  |V_ub|<|V_td| 0.75  |V_ud|>0.9 0.15  both 0.019  median ratio 0.119
+sm_reading c exp(2 pi i 5/12)   n  369  |V_ub|<|V_td| 0.73  |V_ud|>0.9 0.18  both 0.019  median ratio 0.114
+sm_reading c exp(2 pi i 6/12)   n  352  |V_ub|<|V_td| 0.73  |V_ud|>0.9 0.18  both 0.020  median ratio 0.102
+sm_reading c exp(2 pi i 7/12)   n  363  |V_ub|<|V_td| 0.75  |V_ud|>0.9 0.18  both 0.022  median ratio 0.0832
+sm_reading c exp(2 pi i 8/12)   n  390  |V_ub|<|V_td| 0.76  |V_ud|>0.9 0.15  both 0.013  median ratio 0.0812
+sm_reading c exp(2 pi i 10/12)  n  396  |V_ub|<|V_td| 0.76  |V_ud|>0.9 0.15  both 0.010  median ratio 0.106
+sm_reading c exp(2 pi i 11/12)  n  377  |V_ub|<|V_td| 0.72  |V_ud|>0.9 0.18  both 0.032  median ratio 0.114
+equal_reading c 0                  n  319  |V_ub|<|V_td| 0.03  |V_ud|>0.9 0.76  both 0.019  median ratio 28.5
+equal_reading c exp(2 pi i 0/12)   n  291  |V_ub|<|V_td| 0.03  |V_ud|>0.9 0.70  both 0.021  median ratio 21.5
+equal_reading c exp(2 pi i 1/12)   n  284  |V_ub|<|V_td| 0.01  |V_ud|>0.9 0.72  both 0.007  median ratio 23
+equal_reading c exp(2 pi i 2/12)   n  310  |V_ub|<|V_td| 0.03  |V_ud|>0.9 0.78  both 0.019  median ratio 25.4
+equal_reading c exp(2 pi i 4/12)   n  323  |V_ub|<|V_td| 0.01  |V_ud|>0.9 0.77  both 0.003  median ratio 25.5
+equal_reading c exp(2 pi i 5/12)   n  293  |V_ub|<|V_td| 0.04  |V_ud|>0.9 0.71  both 0.027  median ratio 22.6
+equal_reading c exp(2 pi i 6/12)   n  283  |V_ub|<|V_td| 0.04  |V_ud|>0.9 0.71  both 0.035  median ratio 23.2
+equal_reading c exp(2 pi i 7/12)   n  273  |V_ub|<|V_td| 0.03  |V_ud|>0.9 0.72  both 0.018  median ratio 26.8
+equal_reading c exp(2 pi i 8/12)   n  303  |V_ub|<|V_td| 0.03  |V_ud|>0.9 0.79  both 0.023  median ratio 28.4
+equal_reading c exp(2 pi i 10/12)  n  318  |V_ub|<|V_td| 0.02  |V_ud|>0.9 0.79  both 0.022  median ratio 23
+equal_reading c exp(2 pi i 11/12)  n  301  |V_ub|<|V_td| 0.04  |V_ud|>0.9 0.71  both 0.027  median ratio 22.5
+exit 0

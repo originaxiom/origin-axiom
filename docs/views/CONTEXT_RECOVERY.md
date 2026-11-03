@@ -82,6 +82,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S290 THE RELATION THAT LIFTS THE CORNERS: THE ADJUGATE READING; THE 45-LIKE SINGLET SPLITS THE SECOND GENERATION (2026-11-03)
 - S289 THE FRAMING LEDGER (B1827): WHAT THE PROGRAMME EXCLUDES BY THE WAY IT IS FRAMED (2026-11-03)
 - S288 THE AGY LANE's REPORTS READ IN FULL; ITS FRAMING RULED; THE MIRROR RULE CLOSED FOR THE CKM (2026-11-03)
 - S287 THE SEATS FETCHED; THE AGY LANE's NOVEMBER WORK VERIFIED ON MAIN (B1826): THREE RESULTS KEPT, EVERY 'PARAMETER-FREE' CLAIM DECLINED (2026-11-03)
@@ -89,11 +90,10 @@
 - S285 THE PASS SIDE ON B1741's BOX: POWER AT AN ADDRESS, LITTLE A SIGMA AWAY; THE SIX DO NOT COMPRESS; DETERMINISM PASSES (2026-10-31)
 - S284 THE CALIBRATION's PLANTED LEGS WERE VOID; THE PASS SIDE MOVED ONTO B1741's BOX; DETERMINISM AT THE CENSUS's PRECISION (2026-10-31)
 - S283 NO FORK FOR THE BIG INDEX (2026-10-31)
-- S282 p2's WORKERS BOUNDED; THE DRY RUN's MEASUREMENTS (2026-10-31)
 
 ## The latest campaign line
 
-LATEST (2026-11-03, S289: the programme's own framing, inventoried for the first time (B1827, docs/FRAMING_LEDGER.md): eighteen choices that shape what it can find. The quark-mixing wall turns out to be one of them — a choice in how the Higgs is built — and a calculation shows the wall disappears when the Higgs gains one ingredient with opposite signs for the two quark types. About nine of the nineteen numbers have no framework at all yet. 0 of 19.)
+LATEST (2026-11-03, S290: the ingredient that lifts the quark-mixing wall is pinned down: the Higgs needs a singlet part that one quark type sees mirrored — a relation the framework could not even express before. The same ingredient, weighted the way SU(5) weights its 45-dimensional Higgs, also splits the second-generation lepton and down-quark masses by about the needed factor of three. A candidate structure, not a result: its cost in free choices comes next. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
