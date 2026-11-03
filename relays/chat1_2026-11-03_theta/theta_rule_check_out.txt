@@ -1,0 +1,51 @@
+(1) the relabellings: 14 lines x 3 tau x 5 directions x 2 radius rules x 4 readings = 1680 rows
+    A: arg det Y_u - 204 pi a: 2.2e-09; arg det Y_d - 60 pi a: 1.7e-09; theta_Y - 264 pi a: 3.9e-09
+    P: 4.1e-09;  N: 6.5e-09;  T in (S~, S) and (S, S~), theta_Y + 132 pi a^2 + pi/2: 4.6e-01;  M, theta_Y(Mx) + theta_Y(x): 3.3e-09
+    the masses, |V| and J under A, P, N, T (largest change): A 5.8e-11, P 4.2e-11, N 4.7e-11, T 2.7e-02
+    under M: the masses and |V| change by 3.2e-11; J(Mx) + J(x) 5.8e-15
+    M keeps each reading pair (largest mass change with the pair kept): (S~, S) 7.9e-15, (S, S~) 7.4e-15, (S, S) 7.4e-15, (S~, S~) 7.9e-15
+    M with the pair swapped (smallest mass change): (S~, S) 6.8e-08, (S, S~) 6.8e-08
+    T in (S, S) and (S~, S~): theta_Y's shift + 132 pi a^2, in units of pi (spread over lines, tau, radii):
+        (S, S)    DR     +1.0000 (spread 5.7e-12)
+        (S, S)    a0     +1.0000 (spread 8.1e-13)
+        (S, S)    F_-10  +0.5001 (spread 4.9e-03)
+        (S, S)    F_6    +0.4975 (spread 2.1e-01)
+        (S, S)    F_22   +0.5000 (spread 1.9e-06)
+        (S~, S~)  DR     -0.0000 (spread 1.0e-12)
+        (S~, S~)  a0     -0.0000 (spread 4.6e-13)
+        (S~, S~)  F_-10  +0.5005 (spread 5.4e-03)
+        (S~, S~)  F_6    +0.5042 (spread 1.1e-01)
+        (S~, S~)  F_22   +0.5000 (spread 4.6e-06)
+(2) the ambiguity: theta_Y is a function of the physical point only modulo 2 pi / N
+    slope a  N_A (from A)  N_T (from T)  N
+    0        1             4             4
+    1/2      1             4             4
+    1/3      1             12            12
+    1/4      1             8             8
+    1/5      5             100           100
+    2/5      5             100           100
+    1/6      1             12            12
+    1/7      7             196           196
+    2/7      7             196           196
+    3/7      7             196           196
+    1/8      2             32            32
+    3/8      2             32            32
+    1/9      3             108           108
+    2/9      3             108           108
+    4/9      3             108           108
+    1/10     5             100           100
+    3/10     5             100           100
+    1/11     1             44            44
+    2/11     1             44            44
+    3/11     1             44            44
+    4/11     1             44            44
+    5/11     1             44            44
+    1/12     1             24            24
+    5/12     1             24            24
+(3) CP on the mirror's fixed set, (S~, S), DR / a0 / F_6, both radius rules
+    144 rows on 12 fixed points x Im tau 2.2, 2.6: theta_Y - (264 pi a b + 132 pi a^2 Re tau - (pi/2) Re tau) mod pi, largest 4.6e-12; largest |J| 5.1e-15
+(4) the counterterm theta_ct = -264 pi a b + (pi/2 - 132 pi a^2) Re tau, (S~, S)
+    theta_Y + theta_ct: change under A 1.9e-09, T 3.6e-01, N 3.6e-09; under M, theta_bar(Mx) + theta_bar(x) 6.8e-10; on (3)'s fixed points mod pi 4.6e-12
+    under P (not a symmetry of theta_ct): theta_Y + theta_ct changes by more than 1e-6 on 420 of 420 rows
+(5) the modular route: can theta_Y be invariant under T on any line?
+    slopes r/s in [0, 1), s <= 400: 48678; with the T anomaly zero: 0; with the A anomaly zero: 132 (s | 132)
