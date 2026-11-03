@@ -379,8 +379,9 @@ def test_theorem8_zero_parameter_golden_codifferent_unit_modulus_closure():
     phi = (1.0 + math.sqrt(5.0)) / 2.0
     assert abs(float(t8["tau_Golden"][0]) - (1.0 / math.sqrt(5.0))) < 1e-15
     assert abs(float(t8["tau_Golden"][1]) - (phi * phi)) < 1e-15
-    assert t8["continuous_parameters"] == 0
-    assert float(t8["L_tau_bits"]) == 0.0
+    assert t8["continuous_parameters_fitted_before_naming"] == 2
+    assert t8["zero_bit_modulus_derivation_established"] is False
+    assert abs(float(t8["L_tau_post_inspection_bits"]) - 9.03) < 1e-2
     assert t8["passes_all_three_gates"] is True
     assert abs(float(t8["chi2_six"]) - 7.6937) < 1e-2
     assert abs(float(t8["chi2_ckm"]) - 0.0669) < 1e-3
@@ -394,6 +395,7 @@ def test_theorem8_zero_parameter_golden_codifferent_unit_modulus_closure():
 
     pmns = t8["block_III_pmns"]
     assert float(pmns["weinberg_LL_singlet_residue_abs"]) < 1e-15
+    assert pmns["is_frame_dependent_rhs_diagnostic_not_physical_pmns"] is True
     assert abs(float(pmns["sin2_theta12_pred"]) - 0.3098) < 1e-3
 
     comp = t8["compression_verdict_at_tau_Golden"]
@@ -405,52 +407,60 @@ def test_theorem8_zero_parameter_golden_codifferent_unit_modulus_closure():
 def test_theorem9_hypercharge_quadratic_refinement_and_full_19_closure():
     t9 = theorem9_hypercharge_quadratic_refinement_and_full_19_closure()
 
-    # Part A: Deterministic derivation of (c_u, c_d, c_e) from (q_1, q_2) via k_R = q_2 // 2
+    # Part A: Deterministic evaluation of (c_u, c_d, c_e) from (q_1, q_2) via k_R = q_2 // 2 with explicit 8-bit post-hoc pricing
     pa = t9["part_A_hypercharge_quadratic_refinement"]
     assert float(pa["max_abs_diff_vs_theorem7_roots"]) < 1e-15
-    assert float(pa["post_hoc_z8_selection_bits_remaining"]) == 0.0
+    assert float(pa["post_hoc_character_selection_bits"]) == 8.0
+    assert pa["zero_bit_character_derivation_established"] is False
+    assert float(pa["alt_quadratic_refinement_diff_at_kR_1"]) > 1.99
     assert pa["sectors"]["up"]["k_R_triality_electric_charge"] == -2
     assert pa["sectors"]["up"]["k_R_sq_mod_8"] == 4
     assert pa["sectors"]["down"]["k_R_triality_electric_charge"] == 1
     assert pa["sectors"]["down"]["k_R_sq_mod_8"] == 1
     assert pa["sectors"]["lepton"]["is_colour_triplet_on_M3"] is False
 
-    # Part B: Zero-input SM gauge couplings from Vol(m004) and tau_RS(m004) = 4/sqrt(3)
+    # Part B: Candidate m004 gauge coupling hypotheses from Vol(m004) and tau_RS(m004) = 4/sqrt(3)
     pb = t9["part_B_zero_input_m004_gauge_and_hierarchy"]
+    assert pb["status"] == "proposed_volume_boundary_ansatz_not_derived_from_action"
     assert float(pb["rel_error_alpha_em_inv_MZ"]) < 0.005     # +0.475%
     assert float(pb["rel_error_sin2_thetaW_MZ"]) < 0.002      # +0.155%
     assert float(pb["rel_error_alpha_s_MZ"]) < 0.016          # +1.575%
 
-    # Part C: Block V (bar_theta_QCD = 0, top mass cascade 172.48 GeV, 1-loop Higgs criticality 132.07 GeV)
+    # Part C: Block V (actual arg det(Y_u Y_d) = -2.9219 rad, top mass cascade 172.48 GeV, 1-loop Higgs criticality)
     pc = t9["part_C_block_V_strong_cp_top_and_higgs_criticality"]
-    assert float(pc["bar_theta_QCD_pred"]) == 0.0
+    assert abs(float(pc["bare_arg_det_Yu_Yd_rad"]) - (-2.9219)) < 1e-3
+    assert pc["strong_cp_solved_on_complex_background"] is False
     assert float(pc["rel_error_mt_pole"]) < 0.002             # -0.12%
-    assert float(pc["rel_error_mH_1loop"]) < 0.06             # +5.45% at 1-loop (within ALLOW = 10%)
+    assert float(pc["rel_error_mH_1loop"]) < 0.06             # +5.45% at 1-loop legacy half-rate
 
 
 def test_five_phase_master_toe_closure():
     sc = evaluate_full_toe_master_scorecard()
 
-    # Phase 1: Zero-bit discrete cell selection
+    # Phase 1: Candidate cell evaluation & Guardrail 1-2 audit pricing
     p1 = sc["phase1_zero_bit_cell_selection"]
     assert p1["coprime_and_transpose_orders_in_2_to_12"] == [5]
     assert p1["unique_selected_order_N"] == 5
     assert p1["selected_line"] == ("2/5", "0")
-    assert p1["selected_direction"] == "F_10"
-    assert p1["selected_radius"] == "L_2"
-    assert p1["selected_reading"] == "S~S~S~"
-    assert p1["selected_georgi_jarlskog_c"] == 3
-    assert float(p1["discrete_address_bits_remaining"]) == 0.0
+    assert p1["true_U_lambda2_eigenline_mod5"] == ("2/5", "1/5")
+    assert p1["U_on_2_0_mod5"] == [2, 4]
+    assert p1["U_on_2_1_mod5"] == [4, 2]
+    assert p1["zero_bit_cell_derivation_established"] is False
+    assert float(p1["post_inspection_cell_address_bits"]) == 18.81
 
-    # Phase 2: Weinberg neutrino spectrum at tau_Golden
+    # Phase 2: Candidate Weinberg neutrino spectrum at tau_Golden
     p2 = sc["phase2_weinberg_neutrino_spectrum"]
+    assert abs(float(p2["f10_b10_norm_sq_used"]) - 0.0214338) < 1e-5
+    assert abs(float(p2["true_quarter_eta6_abs"]) - 0.0040921) < 1e-5
     assert float(p2["rel_error_m3_vs_sqrt_dm31"]) < 0.03      # +2.63% (51.43 vs 50.11 meV)
     assert float(p2["rel_error_m2_vs_sqrt_dm21"]) < 0.085     # -8.13% (7.91 vs 8.61 meV)
     assert p2["satisfies_cosmological_bound"] is True
     assert float(p2["sum_mnu_eV_pred"]) < 0.072               # 0.0596 eV < 0.072 eV
 
-    # Phase 3: 2-loop SM RGE Higgs criticality
+    # Phase 3: 2-loop SM RGE Higgs criticality (corrected Buttazzo rate vs legacy half-rate)
     p3 = sc["phase3_two_loop_higgs_and_qcd"]
+    assert abs(float(p3["mH_GeV_2loop_corr_at_mt162"]) - 118.83) < 0.1
+    assert p3["mH_GeV_2loop_pred_had_half_rate_bug"] is True
     assert float(p3["rel_error_mH_2loop"]) < 0.01             # +0.82% (126.28 vs 125.25 GeV)
     assert float(p3["rel_error_mH_2loop"]) < float(p3["rel_error_mH_1loop"]) / 5.0
 
@@ -459,6 +469,7 @@ def test_five_phase_master_toe_closure():
     assert float(p4["rel_error_M_Pl_reduced"]) < 0.0025       # +0.194%
     assert float(p4["rel_error_G_N"]) < 0.0045                # -0.390%
     assert float(p4["rel_error_rho_DE"]) < 0.01               # +0.68%
+    assert p4["uses_different_modulus_from_tau_Golden"] is True
 
     # Phase 5: Lorentzian SL(2, C) ~= Spin^+(1, 3) Minkowski bridge
     p5 = sc["phase5_lorentzian_sl2c_minkowski_bridge"]
@@ -468,29 +479,37 @@ def test_five_phase_master_toe_closure():
     assert float(p5["max_so13_lorentz_norm_invariance_error"]) < 1e-13
     assert p5["eisenstein_ring_generator_omega_shared_with_M3_cover"] is True
 
-    # Phase 6: Complete PMNS unitary overlap and leptonic CP phase
+    # Phase 6: Diagnostic single-matrix PMNS overlap and Guardrail 3 right-handed rotation countercheck
     p6 = sc["phase6_complete_pmns_unitary_and_cp"]
     assert float(p6["rel_error_theta13_lr_deg"]) < 0.03       # 8.79 deg vs 8.54 deg (+2.95%)
     assert float(p6["rel_error_theta23_lr_deg"]) < 0.04       # 50.98 deg vs 49.1 deg (+3.82%)
     assert float(p6["rel_error_delta_CP_PMNS"]) < 0.045       # 205.15 deg vs 197 deg (+4.14%)
+    assert p6["basis_dependent_diagnostic_violates_guardrail3"] is True
+    assert float(p6["rhs_unitary_rotation_sends_VeT_Ue_to_I3_max_err"]) < 1e-13
 
-    # Phase 7: Parameter-free 1-loop top-Yukawa RGE integral I_t and light-generation closure
+    # Phase 7: Top-Yukawa RGE integral I_t (corrected vs legacy half-rate) and true downward Xing-Zhou check
     p7 = sc["phase7_exact_it_rge_light_generations"]
+    assert abs(float(p7["I_t_corr_buttazzo_rate_1loop_integral"]) - 0.06449) < 1e-4
     assert abs(float(p7["I_t_exact_1loop_integral"]) - 0.09845) < 1e-4
+    assert p7["post_hoc_fitted_anomalous_vector_not_sm_1loop"] is True
+    assert float(p7["chi2_ten_true_downward_Xing_Zhou"]) > 25.0
     assert float(p7["chi2_six_dressed"]) < 0.20               # 0.1730 (down from 7.6937)
     assert float(p7["chi2_ten_dressed"]) < 0.25               # 0.2399 (down from 7.7606)
     assert float(p7["max_rel_error_across_all_10"]) < 0.032   # max error 3.16% across all 10 observables
 
-    # Phase 8: Dynamical modulus stabilization of tau_Golden
+    # Phase 8: Post-hoc quadratic template centered at tau_Golden (Guardrail 1 scope flag)
     p8 = sc["phase8_dynamical_modulus_stabilization"]
     assert float(p8["grad_norm_at_stationary_point"]) < 1e-9
     assert p8["is_positive_definite_minimum"] is True
+    assert p8["tautological_post_hoc_quadratic_template_embeds_tau_star"] is True
+    assert p8["dynamical_stabilization_established"] is False
     assert p8["avoids_cosmological_moduli_problem"] is True
     assert float(p8["m_tau_PeV_pred"]) > 40.0                 # 48.83 PeV >> 10 TeV
 
-    # Phase 9: Cosmological baryogenesis (eta_B) and dark matter (Omega_DM / Omega_b)
+    # Phase 9: Candidate baryogenesis (eta_B) and dark matter (Omega_DM / Omega_b)
     p9 = sc["phase9_cosmological_baryogenesis_and_dark_matter"]
     assert float(p9["rel_error_eta_B"]) < 0.02                # +1.57% (6.216e-10 vs 6.12e-10)
+    assert abs(float(p9["eta_B_pred_with_true_quarter_eta6"]) - 1.1867e-10) < 1e-12
     assert float(p9["rel_error_Omega_DM_over_Omega_b"]) < 0.004  # +0.33% (5.3820 vs 5.3643)
 
     # Audit 395b27210 source repairs and counterchecks:
@@ -523,6 +542,8 @@ def test_five_phase_master_toe_closure():
     assert f10["is_nonzero_on_complex_background"] is True
     assert abs(float(f10["arg_det_Yu_Yd_rad"]) - (-2.9219)) < 0.01
     assert sc["summary_metrics"]["first_principles_certified_sm_parameters_after_395b27210_audit"] == 0
+    assert sc["summary_metrics"]["continuous_parameters_fitted_before_naming_tau_Golden"] == 2
+    assert float(sc["summary_metrics"]["post_hoc_character_selection_bits_in_theorem9"]) == 8.0
 
     # Theorem 10: Amphichiral A^3 + I_2 Involution, Rank-2 Local System on M_3 & T^8 Cusp Gauge Equivalence
     t10 = sc["theorem10_amphichiral_a3_involution_and_t8_cusp_equivalence"]
@@ -541,6 +562,7 @@ def test_five_phase_master_toe_closure():
     assert float(t10["max_Ye_involution_error"]) < 1e-11
     assert float(t10["max_Hermitian_Hs_involution_error"]) < 1e-11
     assert float(t10["max_T8_cusp_equivalence_yukawa_error"]) < 1e-11
+    assert float(t10["max_T8_cusp_error_across_all_5_lines_2_5_j_5"]) < 1e-11
     assert t10["lines_2_5_j_5_with_A3_x_eq_pm_x_mod5"] == [1]
     assert float(t10["max_haar_basis_scramble_10_obs_error"]) < 1e-12
 
@@ -554,6 +576,7 @@ def test_five_phase_master_toe_closure():
     assert float(t11["f10_norm_abs_at_elliptic_zero_rho"]) < 1e-13
     assert float(t11["unbranched_principal_cut_jump_norm_at_2i"]) > 2.0
     assert float(t11["branched_double_cover_conj_err_at_2i"]) < 1e-14
+    assert t11["M_minus_I2_matrix"] == [[12, -8], [-8, 4]]
     assert t11["M_minus_I2_smith_invariants"] == [4, 4]
     assert t11["H1_M3_Z_torsion_invariants"] == [4, 4]
     assert abs(float(t11["bare_single_sheet_arg_det_Yu_Yd_rad"]) - (-2.92043)) < 1e-3
@@ -579,7 +602,7 @@ def test_five_phase_master_toe_closure():
     b_match = nd["buttazzo_matched_at_mu_173p34_GeV"]
     assert abs(float(b_match["Mh_pole_matched_GeV"]) - 120.18) < 0.2
     assert abs(float(b_match["Mt_pole_matched_GeV"]) - 169.34) < 0.2
-    assert float(nd["dmH_dyt2_M12_sensitivity_GeV"]) > 300.0
+    assert abs(float(nd["dmH_dyt2_M12_sensitivity_GeV"]) - 424.15) < 1.0
     assert nd["uv_boundary_is_post_hoc_hypothesis"] is True
 
     # Theorem 13: Basis-Invariant Symmetric Weinberg Operator M_W(h, m_W) on (-3, -3) & Guardrail 3 Verification
@@ -587,10 +610,12 @@ def test_five_phase_master_toe_closure():
     assert float(t13["pauli_1_residue_abs_at_m3_m3"]) < 1e-15
     assert float(t13["mw_a0_independence_error"]) < 1e-14
     assert float(t13["mw_formula_match_error"]) < 1e-15
+    assert float(t13["max_c_ll_closed_form_vs_b1656_cA_err"]) < 1e-11
     s_ll6 = t13["exact_ll_twist6_weinberg_spectrum"]
     assert abs(float(s_ll6["sin2_theta12"]) - 0.26946) < 1e-4
     assert abs(float(s_ll6["sin2_theta23"]) - 0.03372) < 1e-4
     assert abs(float(s_ll6["sin2_theta13"]) - 0.00118) < 1e-4
+    assert abs(float(s_ll6["m2_over_m3"]) - 0.09433) < 1e-4
     assert abs(float(t13["sin2_theta12_weinberg_minimal"]) - 0.27697) < 1e-4
     assert abs(float(t13["sin2_theta13_weinberg_minimal"]) - 0.01393) < 1e-4
     assert t13["passes_guardrail3_basis_invariance"] is True
@@ -619,10 +644,42 @@ def test_five_phase_master_toe_closure():
     assert float(pb14["max_SO10_gauge_realization_err_across_all_16_elements_of_2D4"]) < 1e-14
 
     pc14 = t14["part_C_explicit_Ad_SO10_quaternion_compensator_group_Q8"]
+    assert pc14["order_of_Kc_group_in_10D_vector_rep"] == 16
     assert pc14["order_of_Ad_Kc_group_in_Ad_SO10"] == 8
     assert float(pc14["max_joint_parallel_invariance_err_on_Phi0"]) < 1e-14
     assert float(pc14["max_commutator_err_with_order3_Wilson_H"]) < 1e-15
     assert float(pc14["max_SO10_I10_unitarity_and_orthogonality_err"]) < 1e-14
+
+    # Theorem 15: P-559 B1788 Exponents, P-562 Higgs Twist, Stage 1 D5 Quartic Shell & Stage 2 P-564 Commutant
+    t15 = sc["theorem15_p559_b1788_exponents_p562_higgs_twist_and_d5_s3_commutant"]
+    pa15 = t15["part_A_p559_b1788_exponent_census"]
+    assert pa15["total_reduced_slopes_tested"] == 22
+    assert pa15["total_slope_sector_pairs_tested"] == 66
+    assert pa15["exact_3x_ratio_confirmed_on_all_3_named_down_lines"] is True
+
+    pb15 = t15["part_B_p562_data_free_higgs_hypercharge_twist"]
+    assert float(pb15["diagonal_higgs_3_3_pauli1_residue_abs"]) < 1e-15
+    assert float(pb15["up_5torsion_2_5_1_5_pauli1_residue_abs"]) < 1e-14
+    assert float(pb15["a0_1_oddness_up_plus_down_err"]) < 1e-12
+    assert float(pb15["a0_1_down_minus_lepton_err"]) < 1e-12
+    assert pb15["data_free_sign_qL_plus_qR_flips_Vub_over_Vtd_below_1_at_2_5_0"] is True
+    assert pb15["laurent_regular_P1_reg_0_flips_Vub_over_Vtd_below_1_at_2_5_0"] is True
+    assert pb15["sector_blind_higgs_twist_flips_Vub_over_Vtd_below_1"] is False
+
+    pc15 = t15["part_C_stage1_d5_quartic_energy_and_stage2_p564_commutant"]
+    assert abs(float(pc15["quartic_energy_I4_hat_C0"]) - 1.25) < 1e-14
+    assert abs(float(pc15["quartic_energy_I4_hat_CL"]) - 0.625) < 1e-14
+    assert abs(float(pc15["quartic_energy_I4_hat_CR"]) - 0.625) < 1e-14
+    assert float(pc15["chiral_flip_wLR_preserves_C0_err"]) < 1e-14
+    assert float(pc15["chiral_flip_wLR_swaps_CL_CR_err"]) < 1e-14
+    assert pc15["unique_maximum_quartic_shell_is_C0"] is True
+    assert pc15["dim_Comm_Sym3_R_under_deck_C3_only"] == 2
+    assert pc15["dim_Comm_Sym3_R_under_perm_S3_only"] == 2
+    assert pc15["dim_Comm_Sym3_R_under_A4_eq_Q8_rtimes_C3"] == 1
+    assert pc15["dim_Comm_Sym3_R_under_S4_eq_Q8_rtimes_S3"] == 1
+    assert pc15["order_of_A4_on_3_generations"] == 12
+    assert pc15["order_of_S4_on_3_generations"] == 24
+    assert pc15["forces_isotropic_generation_metric_H_eq_a_I3"] is True
 
 
 

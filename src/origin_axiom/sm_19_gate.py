@@ -554,6 +554,7 @@ def step3_pmns_and_m004_gauge_thresholds(
             "sin2_theta13_pdg": 0.0220,
             "sin2_theta23_pred": sin2_theta23_pred,
             "sin2_theta23_pdg": 0.546,
+            "is_frame_dependent_rhs_diagnostic_not_physical_pmns": True,
         },
         "block_IV_gauge_unification": {
             "unification_scale_M12_GeV": 91.1876 * math.exp(2.0 * math.pi * t_12),
@@ -764,12 +765,15 @@ def theorem8_golden_codifferent_unit_modulus_closure() -> Dict[str, object]:
     b_ten_bits = 65.81755222014933
     l_disc_fr_cov = 12.167418145831733
     l_z8_phases_and_signs = math.log2(8.0 * 8.0 * 2.0 * 8.0)  # 10.0 bits if (Z_8, Z_8, Z_2) + signs priced by hand
+    bare_arg_det_yu_yd = float(np.angle(np.linalg.det(yu) * np.linalg.det(yd)))
 
     return {
         "tau_Golden": (tau_golden.real, tau_golden.imag),
         "L2_Golden": l2_golden,
-        "continuous_parameters": 0,
-        "L_tau_bits": 0.0,
+        "continuous_parameters_fitted_before_naming": 2,
+        "L_tau_post_inspection_bits": 9.03,
+        "zero_bit_modulus_derivation_established": False,
+        "bare_arg_det_Yu_Yd_rad": bare_arg_det_yu_yd,
         "chi2_six": float(rg_tree["chi2_six_mz"]),
         "chi2_ckm": float(rg_tree["chi2_ckm_mz"]),
         "chi2_ten": float(rg_tree["chi2_ten_mz"]),
@@ -803,18 +807,18 @@ def theorem8_golden_codifferent_unit_modulus_closure() -> Dict[str, object]:
 def derive_scalar_higgs_characters_from_hypercharge(
     sectors: Tuple[Tuple[str, int, int], ...] = (("up", 1, -4), ("down", 1, 2), ("lepton", -3, 6)),
 ) -> Dict[str, object]:
-    """Theorem 9 Part A: Derive the norm-preserving scalar Higgs coefficients (c_u, c_d, c_e) directly
-    and deterministically from the Standard Model sector hypercharge pairs (q_1, q_2) = (6 Y_L, -6 Y_R):
+    """Theorem 9 Part A: Evaluate the candidate scalar Higgs coefficients (c_u, c_d, c_e) from
+    the Standard Model sector hypercharge pairs (q_1, q_2) = (6 Y_L, -6 Y_R):
       - Triality-scaled right-handed electric charge: k_R(f) = q_2(f) // 2 = -3 Q_EM(f_R) in {-2, +1, +3}.
-      - For colour-triplet quark sectors (q_1 % 3 != 0), the elliptic heat equation (4*pi*i d_tau - d_z^2)theta = 0
-        pairs the Serre tau-derivative d_R(tau) with the second z-derivative d_z^2 on the 8-torsion spin bundle (Z_8),
-        fixing the unimodular sheet-transfer determinant character:
+      - For colour-triplet quark sectors (q_1 % 3 != 0):
           1 + c_q^2 = chi_8(q) = exp(2*pi*i * k_R(q)^2 / 8) = exp(i*pi * (q_2(q)/2)^2 / 4),
           c_q = -sqrt(chi_8(q) - 1).
-      - For the colour-singlet lepton sector (q_1 % 3 == 0 and q_2 % 3 == 0, trivial on the Z_3 cover M_3 -> m004),
-        the scalar Higgs coefficient is the untwisted fermion parity reflection:
-          c_e = (-1)**k_R(e) = (-1)**3 = -1.
-    Eliminates all 10 bits of post-hoc Z_8 phase-and-sign selection debt.
+      - For the colour-singlet lepton sector (q_1 % 3 == 0 and q_2 % 3 == 0):
+          c_e = (-1)**k_R(e) = (-1)**3 = -1 (giving |det S_e|/|h.h| = |c_e^2 + 1| = 2.0).
+      - Scope note (Guardrail 1 & Finding 3 of 395b27210): chi'(k_R) = (-1)^k_R exp(i*pi*k_R^2/4) shares the
+        same bilinear polarization and unit modulus while differing at k_R = +1 (down quark), so selecting chi_8
+        and the minus branch carries ~8-10 bits of post-hoc character selection cost until derived from the
+        spin-structure Arf invariant on m004.
     """
     derived: Dict[str, Dict[str, object]] = {}
     for name, q1, q2 in sectors:
@@ -849,24 +853,26 @@ def derive_scalar_higgs_characters_from_hypercharge(
         abs(complex(*derived["down"]["c_s"]) - cd_ref),
         abs(complex(*derived["lepton"]["c_s"]) - ce_ref),
     )
+    chi_down = np.exp(1j * math.pi / 4.0)
+    chi_alt_down = (-1.0) * np.exp(1j * math.pi / 4.0)
     return {
         "sectors": derived,
         "max_abs_diff_vs_theorem7_roots": float(max_diff),
-        "post_hoc_z8_selection_bits_remaining": 0.0,
+        "alt_quadratic_refinement_diff_at_kR_1": float(abs(chi_down - chi_alt_down)),
+        "post_hoc_character_selection_bits": 8.0,
+        "zero_bit_character_derivation_established": False,
     }
 
 
 def theorem9_hypercharge_quadratic_refinement_and_full_19_closure() -> Dict[str, object]:
-    """Theorem 9: Complete parameter-free closure of the 4D scalar Higgs characters from (q_1, q_2)
-    (Part A), zero-input derivation of all three SM gauge couplings (alpha_EM^-1(M_Z), sin^2(theta_W)(M_Z),
-    alpha_s(M_Z)) and the electroweak/Planck hierarchy from Vol(m004) and tau_RS(m004) alone (Part B),
-    and Block V closure (bar_theta_QCD = 0 by m004 amphicheirality + 1-loop SM RGE Higgs criticality
-    lambda_H(M_12) = 0 predicting m_H = 132.07 GeV at 1-loop, +5.45% vs PDG 125.25 GeV) (Part C).
+    """Theorem 9: Candidate hypercharge character parametrization (Part A), proposed Vol(m004) / tau_RS(m004)
+    gauge coupling relations (Part B), and Block V top-Higgs RGE / strong-CP diagnostic (Part C), with all
+    Guardrail 1-5 scope prices and determinant phases explicitly computed.
     """
     part_a = derive_scalar_higgs_characters_from_hypercharge()
     t8 = theorem8_golden_codifferent_unit_modulus_closure()
 
-    # Part B: Zero-input SM gauge couplings and scale hierarchy from Vol(m004) and tau_RS(m004) = 4/sqrt(3)
+    # Part B: Proposed SM gauge coupling and scale relations from Vol(m004) and tau_RS(m004) = 4/sqrt(3)
     # Vol(m004) = 2 * Clausen_2(pi/3) = 2.0298832128193072:
     vol_m004 = 2.0298832128193072
     vol_m3 = 3.0 * vol_m004
@@ -888,7 +894,7 @@ def theorem9_hypercharge_quadratic_refinement_and_full_19_closure() -> Dict[str,
     m12_gev_pred = mz_gev * math.exp(2.0 * math.pi * t_12_geom)
     m_kk_pl_gev_pred = mz_gev * math.exp(2.0 * math.pi * vol_m3)
 
-    # Part C: Top mass cascade m_t(M_Z) = (m_t/m_b) * (m_b/m_tau) * m_tau(M_Z) and 1-loop Higgs criticality lambda_H(M_12) = 0
+    # Part C: Top mass cascade m_t(M_Z) = (m_t/m_b) * (m_b/m_tau) * m_tau(M_Z) (imports m_tau(M_Z) and M_Z)
     inter = t8["inter_sector_scales"]
     mt_over_mtau_mz_pred = float(inter["mt_over_mb_MZ_pred"]) * float(inter["mb_over_mtau_MZ_pred"])
     mtau_mz_gev = 1.74624
@@ -898,30 +904,30 @@ def theorem9_hypercharge_quadratic_refinement_and_full_19_closure() -> Dict[str,
     v_ew_gev = 246.21965
     yt_mz_pred = math.sqrt(2.0) * mt_msbar_gev_pred / v_ew_gev
 
-    # RK4 integration of 1-loop SM RGEs from t = 0 (M_Z) to t = t_12_geom (M_12) with bisection for lambda_H(M_12) = 0:
+    # RK4 integration of 1-loop SM RGEs from t = 0 (M_Z) to t = t_12_geom (M_12) with corrected Buttazzo rate fac = 1/(4*pi):
     g1_sq_0 = 4.0 * math.pi / a1_inv_mz
     g2_sq_0 = 4.0 * math.pi / a2_inv_mz
     g3_sq_0 = 4.0 * math.pi / a3_inv_mz
     yt_sq_0 = yt_mz_pred * yt_mz_pred
 
-    def integrate_lam_to_m12(lam_0: float, n_steps: int = 400) -> float:
+    def integrate_lam_to_m12(lam_0: float, rate_fac: float = 1.0 / (4.0 * math.pi), n_steps: int = 400) -> float:
         dt = t_12_geom / float(n_steps)
-        fac = 1.0 / (8.0 * math.pi)
+        g_fac = 1.0 / (8.0 * math.pi)
         state = np.array([g1_sq_0, g2_sq_0, g3_sq_0, yt_sq_0, lam_0], dtype=float)
 
         def deriv(s: np.ndarray) -> np.ndarray:
             g1_2, g2_2, g3_2, yt_2, lam = s
-            dg1 = (41.0 / 5.0) * (g1_2 ** 2) * fac
-            dg2 = (-19.0 / 3.0) * (g2_2 ** 2) * fac
-            dg3 = (-14.0) * (g3_2 ** 2) * fac
-            dyt = yt_2 * (4.5 * yt_2 - 8.0 * g3_2 - 2.25 * g2_2 - (17.0 / 20.0) * g1_2) * fac
+            dg1 = (41.0 / 5.0) * (g1_2 ** 2) * g_fac
+            dg2 = (-19.0 / 3.0) * (g2_2 ** 2) * g_fac
+            dg3 = (-14.0) * (g3_2 ** 2) * g_fac
+            dyt = yt_2 * (4.5 * yt_2 - 8.0 * g3_2 - 2.25 * g2_2 - (17.0 / 20.0) * g1_2) * rate_fac
             dlam = (
                 12.0 * (lam ** 2)
                 + 6.0 * lam * yt_2
                 - 3.0 * (yt_2 ** 2)
                 - 1.5 * lam * (3.0 * g2_2 + 0.6 * g1_2)
                 + (3.0 / 16.0) * (2.0 * (g2_2 ** 2) + ((g2_2 + 0.6 * g1_2) ** 2))
-            ) * fac
+            ) * rate_fac
             return np.array([dg1, dg2, dg3, dyt, dlam], dtype=float)
 
         for _ in range(n_steps):
@@ -932,16 +938,27 @@ def theorem9_hypercharge_quadratic_refinement_and_full_19_closure() -> Dict[str,
             state = state + (dt / 6.0) * (k1 + 2.0 * k2 + 2.0 * k3 + k4)
         return float(state[4])
 
+    lo_c, hi_c = 0.08, 0.25
+    for _ in range(50):
+        mid_c = 0.5 * (lo_c + hi_c)
+        if integrate_lam_to_m12(mid_c, rate_fac=1.0 / (4.0 * math.pi)) < 0.0:
+            lo_c = mid_c
+        else:
+            hi_c = mid_c
+    lambda_h_mz_corr = 0.5 * (lo_c + hi_c)
+    mh_gev_1loop_corr = math.sqrt(2.0 * lambda_h_mz_corr) * v_ew_gev
+
     lo, hi = 0.08, 0.22
     for _ in range(50):
         mid = 0.5 * (lo + hi)
-        if integrate_lam_to_m12(mid) < 0.0:
+        if integrate_lam_to_m12(mid, rate_fac=1.0 / (8.0 * math.pi)) < 0.0:
             lo = mid
         else:
             hi = mid
-    lambda_h_mz_pred = 0.5 * (lo + hi)
-    mh_gev_1loop_pred = math.sqrt(2.0 * lambda_h_mz_pred) * v_ew_gev
+    lambda_h_mz_legacy_half = 0.5 * (lo + hi)
+    mh_gev_1loop_legacy_half = math.sqrt(2.0 * lambda_h_mz_legacy_half) * v_ew_gev
     mh_gev_pdg = 125.25
+    bare_arg_det = float(t8["bare_arg_det_Yu_Yd_rad"])
 
     return {
         "part_A_hypercharge_quadratic_refinement": part_a,
@@ -962,19 +979,25 @@ def theorem9_hypercharge_quadratic_refinement_and_full_19_closure() -> Dict[str,
             "alpha_s_MZ_pred": alpha_s_mz_pred,
             "alpha_s_MZ_pdg": 0.1179,
             "rel_error_alpha_s_MZ": abs(alpha_s_mz_pred - 0.1179) / 0.1179,
+            "status": "proposed_volume_boundary_ansatz_not_derived_from_action",
+            "imported_dimensionful_anchors_beyond_v_EW": ["M_Z=91.1876 GeV"],
         },
         "part_C_block_V_strong_cp_top_and_higgs_criticality": {
-            "bar_theta_QCD_pred": 0.0,
-            "bar_theta_QCD_mechanism": "Exact amphicheirality of m004 (Re CS(m004) = 0) + real 5-torsion (2/5, 0) + Z_3 sheet determinant product 1*omega*omega^2 = +1",
+            "bare_arg_det_Yu_Yd_rad": bare_arg_det,
+            "strong_cp_solved_on_complex_background": bool(abs(bare_arg_det) < 1e-10),
+            "imported_dimensionful_anchors_beyond_v_EW": ["M_Z=91.1876 GeV", "m_tau(M_Z)=1.74624 GeV"],
             "mt_over_mtau_MZ_pred": mt_over_mtau_mz_pred,
             "mt_pole_GeV_pred": mt_pole_gev_pred,
             "mt_pole_GeV_pdg": mt_pole_gev_pdg,
             "rel_error_mt_pole": abs(mt_pole_gev_pred - mt_pole_gev_pdg) / mt_pole_gev_pdg,
-            "lambda_H_MZ_1loop_criticality_pred": lambda_h_mz_pred,
+            "lambda_H_MZ_1loop_corr": lambda_h_mz_corr,
+            "mH_GeV_1loop_corr_at_mt165": mh_gev_1loop_corr,
+            "rel_error_mH_1loop_corr": abs(mh_gev_1loop_corr - mh_gev_pdg) / mh_gev_pdg,
+            "lambda_H_MZ_1loop_criticality_pred": lambda_h_mz_legacy_half,
             "lambda_H_MZ_pdg": (mh_gev_pdg ** 2) / (2.0 * (v_ew_gev ** 2)),
-            "mH_GeV_1loop_criticality_pred": mh_gev_1loop_pred,
+            "mH_GeV_1loop_criticality_pred": mh_gev_1loop_legacy_half,
             "mH_GeV_pdg": mh_gev_pdg,
-            "rel_error_mH_1loop": abs(mh_gev_1loop_pred - mh_gev_pdg) / mh_gev_pdg,
+            "rel_error_mH_1loop": abs(mh_gev_1loop_legacy_half - mh_gev_pdg) / mh_gev_pdg,
         },
     }
 

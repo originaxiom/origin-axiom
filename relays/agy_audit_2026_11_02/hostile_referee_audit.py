@@ -1197,6 +1197,32 @@ def audit_area_9() -> Dict[str, object]:
         if all(abs(ind_i4_hat(x_m @ g_m @ x_m.conj().T) - 1.5) < 1e-12 for x_m in ind_2o)
     )
 
+    # (g) Independent zero-trust verification of Theorem 15 (P-559 3x exponent ratio on {2/5, 1/7, 4/9},
+    #     P-562 R_1(3w, 3w) == 0 & a_{0,1}^u + a_{0,1}^d == 0, and Stage 2 P-564 dim Comm_{Sym_3(R)}(A_4) == 1):
+    t15 = sc["theorem15_p559_b1788_exponents_p562_higgs_twist_and_d5_s3_commutant"]
+    ind_p559_3x_ratios: List[Fraction] = []
+    for p1_fr in (Fraction(2, 5), Fraction(1, 7), Fraction(4, 9)):
+        # In B1788 units (2*pi*Im(tau)), E_ij = ||q_L alpha + i/2||^2 + ||q_R alpha + j/2||^2 - 1/8 on down (1, 2):
+        def dist_z(x_fr: Fraction) -> Fraction:
+            f_fr = x_fr - int(math.floor(float(x_fr)))
+            return min(f_fr, Fraction(1, 1) - f_fr)
+
+        dx_d = dist_z(p1_fr) - Fraction(1, 4)
+        dy_d = dist_z(2 * p1_fr) - Fraction(1, 4)
+        e00_e11_d = abs(dx_d + dy_d)
+        e01_e10_d = abs(dx_d - dy_d)
+        e_c1_ci = dist_z(3 * p1_fr)
+        e_cj_ck = dist_z(3 * p1_fr + Fraction(1, 2))
+        if p1_fr > Fraction(1, 3):
+            ind_p559_3x_ratios.append(e_cj_ck / e00_e11_d)
+        else:
+            ind_p559_3x_ratios.append(e_c1_ci / e01_e10_d)
+
+    # Independent b1656_funcs check of R_1(3w, 3w) == 0 on (2/5, 0) at tau_Golden:
+    x_diag, y_diag = B.sector_twists(w_eig_b, tau_g_c, 3, 3)
+    r_diag_b1656 = B.residues(x_diag, y_diag, tau_g_c)
+    ind_p562_r1_diag_abs = float(abs(r_diag_b1656["1"]))
+
     return {
         "clausen_volume_mpmath_abs_diff": vol_diff,
         "first_principles_certified_sm_parameters": 0,
@@ -1235,6 +1261,19 @@ def audit_area_9() -> Dict[str, object]:
             "theorem14_independent_compact_E8_gauge_classes": len(ind_2o) // ind_stab_2d4_count,
             "theorem14_max_2D4_SO10_gauge_realization_err": t14["part_B_complete_2O_orbit_stabilizer_and_SO10_gauge_census"]["max_SO10_gauge_realization_err_across_all_16_elements_of_2D4"],
             "theorem14_max_Q8_compensator_err": t14["part_C_explicit_Ad_SO10_quaternion_compensator_group_Q8"]["max_joint_parallel_invariance_err_on_Phi0"],
+            "theorem15_independent_p559_3x_ratios_on_2_5_1_7_4_9": [str(r) for r in ind_p559_3x_ratios],
+            "theorem15_independent_p562_r1_diag_3_3_abs": ind_p562_r1_diag_abs,
+            "theorem15_stage1_quartic_energies_C0_CL_CR": [
+                t15["part_C_stage1_d5_quartic_energy_and_stage2_p564_commutant"]["quartic_energy_I4_hat_C0"],
+                t15["part_C_stage1_d5_quartic_energy_and_stage2_p564_commutant"]["quartic_energy_I4_hat_CL"],
+                t15["part_C_stage1_d5_quartic_energy_and_stage2_p564_commutant"]["quartic_energy_I4_hat_CR"],
+            ],
+            "theorem15_stage2_commutant_dims_C3_S3_A4_S4": [
+                t15["part_C_stage1_d5_quartic_energy_and_stage2_p564_commutant"]["dim_Comm_Sym3_R_under_deck_C3_only"],
+                t15["part_C_stage1_d5_quartic_energy_and_stage2_p564_commutant"]["dim_Comm_Sym3_R_under_perm_S3_only"],
+                t15["part_C_stage1_d5_quartic_energy_and_stage2_p564_commutant"]["dim_Comm_Sym3_R_under_A4_eq_Q8_rtimes_C3"],
+                t15["part_C_stage1_d5_quartic_energy_and_stage2_p564_commutant"]["dim_Comm_Sym3_R_under_S4_eq_Q8_rtimes_S3"],
+            ],
             "mpmath_b10_sq_at_tau_Golden": b10_sq_mp,
             "mpmath_quarter_eta6_at_tau_Golden": quarter_eta6_mp,
             "mpmath_ratio_b10_sq_over_quarter_eta6": ind_ratio_b10_sq_over_eta6,

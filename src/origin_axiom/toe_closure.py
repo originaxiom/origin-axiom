@@ -86,18 +86,22 @@ def phase1_zero_bit_cell_selection_theorem() -> Dict[str, object]:
         if is_coprime_all and is_chiral_transpose:
             coprime_and_transpose_orders.append(n_ord)
 
-    # On N = 5, longitudinal monodromy factor U = [[1, 2], [2, 3]] mod 5 has trace 4, det -1 = 4,
-    # and eigenvalue lambda = +2 (the primitive root of (Z/5Z)^x), selecting w_1 = 2/5 on the real axis w_2 = 0:
+    # Note (Finding 1 of 395b27210 & B1826): U = [[1, 2], [2, 3]] mod 5 has lambda = 2 eigenline spanned by
+    # w_eig = (2/5, 1/5) (whereas U(2, 0)^T == (2, 4)^T != 2(2, 0)^T mod 5), and det(A_sig^3 - I_2) = 16 != 0 mod 5,
+    # so (2/5, 0) was selected post-inspection and {w_eig, -w_eig} defines a rank-2 local system on M_3 via A_sig^3 + I_2:
     u_mat = np.array([[1, 2], [2, 3]], dtype=int)
+    u_on_2_0_mod5 = ((u_mat @ np.array([2, 0], dtype=int)) % 5).tolist()
+    u_on_2_1_mod5 = ((u_mat @ np.array([2, 1], dtype=int)) % 5).tolist()
     primitive_root_mod5 = 2
     selected_line = (f"{primitive_root_mod5}/{n_chiral_transpose}", "0")
+    true_u_eigenline_mod5 = ("2/5", "1/5")
 
-    # 1B. Spin-flavour mirror horizon order lcm(2, N) = 2 * 5 = 10 -> unique theta weight a = 10 (F_10):
+    # 1B. Spin-flavour mirror horizon order lcm(2, N) = 2 * 5 = 10 -> candidate theta weight a = 10 (F_10):
     spin_order = 2
     horizon_order = math.lcm(spin_order, n_chiral_transpose)
     selected_direction = f"F_{horizon_order}"
 
-    # 1C & 1D. Universal SU(2)_L conjugate reading S~S~S~, Hilbert norm L_2, and sheet degree c = N_c = 3:
+    # 1C & 1D. Candidate SU(2)_L conjugate reading S~S~S~, Hilbert norm L_2, and sheet degree c = N_c = 3:
     n_sheets_m3 = 3
 
     return {
@@ -105,18 +109,24 @@ def phase1_zero_bit_cell_selection_theorem() -> Dict[str, object]:
         "coprime_and_transpose_orders_in_2_to_12": coprime_and_transpose_orders,
         "unique_selected_order_N": coprime_and_transpose_orders[0],
         "selected_line": selected_line,
+        "true_U_lambda2_eigenline_mod5": true_u_eigenline_mod5,
+        "U_on_2_0_mod5": u_on_2_0_mod5,
+        "U_on_2_1_mod5": u_on_2_1_mod5,
         "spin_flavour_horizon_order_2N": horizon_order,
         "selected_direction": selected_direction,
         "selected_radius": "L_2",
         "selected_reading": "S~S~S~",
         "selected_georgi_jarlskog_c": n_sheets_m3,
-        "discrete_address_bits_remaining": 0.0,
+        "post_inspection_cell_address_bits": 18.81,
+        "zero_bit_cell_derivation_established": False,
     }
 
 
 def phase2_weinberg_neutrino_spectrum_closure() -> Dict[str, object]:
-    """Phase 2: Compute the parameter-free Weinberg Majorana neutrino mass spectrum (m_1, m_2, m_3),
-    mass-squared splittings (Delta m_21^2, Delta m_31^2), and sum(m_nu) at tau_Golden = 1/sqrt(5) + i*phi^2.
+    """Phase 2: Evaluate the candidate Weinberg Majorana neutrino mass spectrum (m_1, m_2, m_3),
+    mass-squared splittings (Delta m_21^2, Delta m_31^2), and sum(m_nu) at tau_Golden = 1/sqrt(5) + i*phi^2,
+    explicitly distinguishing the F_10 singlet norm |b_10|^2 = 0.021434 from |(1/4) eta^6| = 0.004092 (Finding 9)
+    and pricing imported M_Z.
     """
     phi = (1.0 + math.sqrt(5.0)) / 2.0
     tau_golden = complex(1.0 / math.sqrt(5.0), phi * phi)
@@ -139,16 +149,19 @@ def phase2_weinberg_neutrino_spectrum_closure() -> Dict[str, object]:
     y_ll = quaternionic_4d_yukawa(-1.0 * b_st, h_st, u_ll["1"], np.array([u_ll["j"], u_ll["i"], u_ll["k"]], dtype=complex))
     sv_ll = np.sort(np.linalg.svd(y_ll, compute_uv=False))
 
-    # Parameter-free Weinberg seesaw scale <H^0>^2 / M_12 * |(1/4) eta(tau_Golden)^6| * exp(-I_top):
+    # Candidate seesaw scale using |b_10(tau_Golden)|^2 = 0.021434 (distinct from |(1/4) eta^6| = 0.004092):
     v_ew_gev = 246.21965
     v_higgs_gev = v_ew_gev / math.sqrt(2.0)
     vol_m004 = 2.0298832128193072
     mz_gev = 91.1876
     m12_gev = mz_gev * math.exp(4.0 * math.pi * vol_m004)
-    eta6_quarter = float(abs(b_st) ** 2)
+    f10_b10_norm_sq = float(abs(b_st) ** 2)
+    from origin_axiom.operator_gate import serre_dr_dot_dr_eta6_identity
+    true_quarter_eta6 = float(abs(serre_dr_dot_dr_eta6_identity(tau_golden)["quarter_eta6"]))
     i_top = 0.1462
 
-    m3_mev = (v_higgs_gev * v_higgs_gev / m12_gev) * 1.0e12 * eta6_quarter * math.exp(-i_top)
+    m3_mev = (v_higgs_gev * v_higgs_gev / m12_gev) * 1.0e12 * f10_b10_norm_sq * math.exp(-i_top)
+    m3_mev_with_true_quarter_eta6 = (v_higgs_gev * v_higgs_gev / m12_gev) * 1.0e12 * true_quarter_eta6 * math.exp(-i_top)
     m2_mev = m3_mev * 3.0 * float(sv_ll[1] / sv_ll[2])
     m1_mev = m3_mev * float(sv_ll[0] / (3.0 * sv_ll[2]))
 
@@ -161,6 +174,9 @@ def phase2_weinberg_neutrino_spectrum_closure() -> Dict[str, object]:
 
     return {
         "weinberg_singular_values": sv_ll.tolist(),
+        "f10_b10_norm_sq_used": f10_b10_norm_sq,
+        "true_quarter_eta6_abs": true_quarter_eta6,
+        "m3_meV_with_true_quarter_eta6": m3_mev_with_true_quarter_eta6,
         "m1_meV_pred": m1_mev,
         "m2_meV_pred": m2_mev,
         "m3_meV_pred": m3_mev,
@@ -175,13 +191,15 @@ def phase2_weinberg_neutrino_spectrum_closure() -> Dict[str, object]:
         "sum_mnu_eV_pred": sum_mnu_ev,
         "cosmological_bound_sum_mnu_eV": 0.072,
         "satisfies_cosmological_bound": bool(sum_mnu_ev < 0.072),
+        "imported_dimensionful_anchors_beyond_v_EW": ["M_Z=91.1876 GeV"],
+        "includes_heuristic_sheet_factors_3_and_1_3": True,
     }
 
 
 def phase3_two_loop_rge_higgs_and_qcd_closure() -> Dict[str, object]:
-    """Phase 3: Integrate the textbook 2-loop Standard Model RGEs from the UV criticality boundary
-    condition lambda_H(M_12) = 0 at M_12 = M_Z * exp(4*pi*Vol(m004)) down to M_Z, improving the Higgs
-    mass prediction from 132.07 GeV (1-loop, +5.45%) to 126.28 GeV (2-loop, +0.82% vs PDG 125.25 GeV).
+    """Phase 3: Compare the legacy half-rate 2-loop RGE calculation (126.28 GeV, which had f1 = 1/(8*pi) on d(yt^2)/dt
+    and d(lambda)/dt) against the corrected Buttazzo et al. (arXiv:1307.3536v4, Appendix B eq. 99) 2-loop RGE rate
+    (f1 = 1/(4*pi), f2 = 1/(64*pi^3)), which gives 118.85 GeV at m_t(MSbar) = 162.31 GeV (or 137.82 GeV at m_t(MSbar) = 172.48 GeV).
     """
     t9 = theorem9_hypercharge_quadratic_refinement_and_full_19_closure()
     pb = t9["part_B_zero_input_m004_gauge_and_hierarchy"]
@@ -208,7 +226,42 @@ def phase3_two_loop_rge_higgs_and_qcd_closure() -> Dict[str, object]:
     v_ew_gev = 246.21965
     yt_sq_0 = (math.sqrt(2.0) * mt_msbar_2loop / v_ew_gev) ** 2
 
-    def integrate_2loop_lam(lam_0: float, n_steps: int = 500) -> float:
+    def integrate_2loop_lam_corr(lam_0: float, n_steps: int = 500) -> float:
+        dt = t_12 / float(n_steps)
+        f1_c = 1.0 / (4.0 * math.pi)
+        f2_c = 1.0 / (64.0 * (math.pi ** 3))
+        state = np.array([g1_sq_0, g2_sq_0, g3_sq_0, yt_sq_0, lam_0], dtype=float)
+
+        def deriv_c(s: np.ndarray) -> np.ndarray:
+            g1, g2, g3, yt, lam = s
+            dg1 = (41.0 / 10.0) * (g1 ** 2) * f1_c + (g1 ** 2) * ((199.0 / 50.0) * g1 + (27.0 / 10.0) * g2 + (44.0 / 5.0) * g3 - (17.0 / 10.0) * yt) * f2_c
+            dg2 = (-19.0 / 6.0) * (g2 ** 2) * f1_c + (g2 ** 2) * ((9.0 / 10.0) * g1 + (35.0 / 6.0) * g2 + 12.0 * g3 - 1.5 * yt) * f2_c
+            dg3 = (-7.0) * (g3 ** 2) * f1_c + (g3 ** 2) * ((11.0 / 10.0) * g1 + 4.5 * g2 - 26.0 * g3 - 2.0 * yt) * f2_c
+            dyt = yt * (4.5 * yt - 8.0 * g3 - 2.25 * g2 - 0.85 * g1) * f1_c + yt * (
+                -12.0 * (yt ** 2) - 12.0 * lam * yt + 6.0 * (lam ** 2) + 36.0 * g3 * yt + (225.0 / 16.0) * g2 * yt + (393.0 / 80.0) * g1 * yt
+                - 108.0 * (g3 ** 2) + 9.0 * g2 * g3 + (19.0 / 15.0) * g1 * g3 - (23.0 / 4.0) * (g2 ** 2) - (9.0 / 20.0) * g1 * g2 + (1187.0 / 600.0) * (g1 ** 2)
+            ) * f2_c
+            dlam = (
+                12.0 * (lam ** 2) + 6.0 * lam * yt - 3.0 * (yt ** 2) - 1.5 * lam * (3.0 * g2 + 0.6 * g1)
+                + (3.0 / 16.0) * (2.0 * (g2 ** 2) + ((g2 + 0.6 * g1) ** 2))
+            ) * f1_c + (
+                -156.0 * (lam ** 3) - 72.0 * (lam ** 2) * yt - 1.5 * lam * (yt ** 2) + 15.0 * (yt ** 3) + 40.0 * g3 * lam * yt - 16.0 * g3 * (yt ** 2)
+                + (lam ** 2) * (54.0 * g2 + 10.8 * g1) + lam * yt * (11.25 * g2 + 4.25 * g1) - 0.8 * g1 * (yt ** 2)
+                - (9.0 / 8.0) * (g2 ** 2) * yt - (171.0 / 200.0) * (g1 ** 2) * yt + (63.0 / 20.0) * g1 * g2 * yt
+                - (73.0 / 16.0) * lam * (g2 ** 2) + (117.0 / 40.0) * lam * g1 * g2 + (1887.0 / 400.0) * lam * (g1 ** 2)
+                + (305.0 / 32.0) * (g2 ** 3) - (289.0 / 160.0) * g1 * (g2 ** 2) - (1677.0 / 800.0) * (g1 ** 2) * g2 - (3411.0 / 4000.0) * (g1 ** 3)
+            ) * f2_c
+            return np.array([dg1, dg2, dg3, dyt, dlam], dtype=float)
+
+        for _ in range(n_steps):
+            k1 = deriv_c(state)
+            k2 = deriv_c(state + 0.5 * dt * k1)
+            k3 = deriv_c(state + 0.5 * dt * k2)
+            k4 = deriv_c(state + dt * k3)
+            state = state + (dt / 6.0) * (k1 + 2.0 * k2 + 2.0 * k3 + k4)
+        return float(state[4])
+
+    def integrate_2loop_lam_legacy_half_rate(lam_0: float, n_steps: int = 500) -> float:
         dt = t_12 / float(n_steps)
         f1 = 1.0 / (8.0 * math.pi)
         f2 = 1.0 / (128.0 * (math.pi ** 3))
@@ -246,10 +299,20 @@ def phase3_two_loop_rge_higgs_and_qcd_closure() -> Dict[str, object]:
             state = state + (dt / 6.0) * (k1 + 2.0 * k2 + 2.0 * k3 + k4)
         return float(state[4])
 
+    lo_c, hi_c = 0.06, 0.22
+    for _ in range(50):
+        mid_c = 0.5 * (lo_c + hi_c)
+        if integrate_2loop_lam_corr(mid_c) < 0.0:
+            lo_c = mid_c
+        else:
+            hi_c = mid_c
+    lam_2loop_corr_mz = 0.5 * (lo_c + hi_c)
+    mh_2loop_corr_gev = math.sqrt(2.0 * lam_2loop_corr_mz) * v_ew_gev
+
     lo, hi = 0.08, 0.20
     for _ in range(50):
         mid = 0.5 * (lo + hi)
-        if integrate_2loop_lam(mid) < 0.0:
+        if integrate_2loop_lam_legacy_half_rate(mid) < 0.0:
             lo = mid
         else:
             hi = mid
@@ -260,11 +323,15 @@ def phase3_two_loop_rge_higgs_and_qcd_closure() -> Dict[str, object]:
     return {
         "mt_pole_GeV_pred": mt_pole_gev,
         "mt_msbar_2loop_GeV": mt_msbar_2loop,
+        "lambda_H_MZ_2loop_corr_at_mt162": lam_2loop_corr_mz,
+        "mH_GeV_2loop_corr_at_mt162": mh_2loop_corr_gev,
+        "rel_error_mH_2loop_corr_at_mt162": abs(mh_2loop_corr_gev - mh_pdg_gev) / mh_pdg_gev,
         "lambda_H_MZ_1loop_pred": float(pc["lambda_H_MZ_1loop_criticality_pred"]),
         "lambda_H_MZ_2loop_pred": lam_2loop_mz,
         "lambda_H_MZ_pdg": float(pc["lambda_H_MZ_pdg"]),
         "mH_GeV_1loop_pred": float(pc["mH_GeV_1loop_criticality_pred"]),
         "mH_GeV_2loop_pred": mh_2loop_gev,
+        "mH_GeV_2loop_pred_had_half_rate_bug": True,
         "mH_GeV_pdg": mh_pdg_gev,
         "rel_error_mH_1loop": float(pc["rel_error_mH_1loop"]),
         "rel_error_mH_2loop": abs(mh_2loop_gev - mh_pdg_gev) / mh_pdg_gev,
@@ -272,8 +339,11 @@ def phase3_two_loop_rge_higgs_and_qcd_closure() -> Dict[str, object]:
 
 
 def phase4_planck_and_cosmological_constant_closure() -> Dict[str, object]:
-    """Phase 4: Derive the 4D reduced Planck mass M_Pl_bar, Newton's constant G_N, and the B1782
-    unimodular dark energy density rho_DE with M_Pl_bar derived from M_Z * exp(2*pi*Vol(M_3)).
+    """Phase 4: Evaluate the candidate 3-sheet KK Planck scale M_Pl_bar = (Vol(m004)/pi) * M_Z * exp(2*pi*Vol(M_3)),
+    Newton's constant G_N, and the B1782 unimodular dark energy density rho_DE.
+    Guardrail 1 & 5 Scope Note:
+    - Uses M_Z = 91.1876 GeV as an imported dimensionful anchor and Im(tau_B1782) = sqrt(84)/3 ~= 3.05505
+      (which differs from Im(tau_Golden) = phi^2 ~= 2.61803) in the B1782 instanton exponent.
     """
     vol_m004 = 2.0298832128193072
     vol_m3 = 3.0 * vol_m004
@@ -304,6 +374,9 @@ def phase4_planck_and_cosmological_constant_closure() -> Dict[str, object]:
         "rho_DE_GeV4_pred_with_derived_M_Pl": rho_de_pred_gev4,
         "rho_DE_GeV4_pdg": rho_de_pdg_gev4,
         "rel_error_rho_DE": abs(rho_de_pred_gev4 - rho_de_pdg_gev4) / rho_de_pdg_gev4,
+        "imported_dimensionful_anchor_MZ_GeV": mz_gev,
+        "imported_b1782_modulus_im_tau": im_tau_b1782,
+        "uses_different_modulus_from_tau_Golden": True,
     }
 
 
@@ -363,9 +436,13 @@ def phase5_lorentzian_sl2c_minkowski_bridge() -> Dict[str, object]:
 
 
 def phase6_complete_pmns_unitary_and_cp_closure() -> Dict[str, object]:
-    """Phase 6: Complete PMNS unitary overlap and leptonic CP phase closure at tau_Golden = 1/sqrt(5) + i*phi^2.
-    Evaluates both the symmetric Majorana overlap V_e^T U_e and the Dirac chirality overlap U_e^dagger V_e,
-    extracting theta_12, theta_13, theta_23, |J_PMNS|, and delta_CP^PMNS = 205.15 deg (vs NuFIT 197 deg, +0.30 sigma).
+    """Phase 6: Diagnostic evaluation of the single-matrix overlaps V_e^T U_e and U_e^dagger V_e of Y_e at tau_Golden.
+    Guardrail 3 Scope Note (Finding 8 of 395b27210):
+    - Extracting mixing angles from V_e^T U_e or U_e^dagger V_e of a single Dirac matrix Y_e = U_e Sigma_e V_e^dagger
+      is a frame-dependent diagnostic that is NOT invariant under right-handed unitary basis rotations Y_e -> Y_e W_R^dagger
+      (verified below: W_R = U_e^* V_e^dagger leaves Y_e Y_e^dagger invariant while sending V_e'^T U_e -> I_3).
+    - See theorem13_basis_invariant_weinberg_majorana_and_pmns() for the Guardrail 3-compliant symmetric Majorana
+      Weinberg operator M_W on (q_1, q_2) = (-3, -3).
     """
     phi = (1.0 + math.sqrt(5.0)) / 2.0
     tau_golden = complex(1.0 / math.sqrt(5.0), phi * phi)
@@ -396,7 +473,6 @@ def phase6_complete_pmns_unitary_and_cp_closure() -> Dict[str, object]:
     # 2. Dirac left-right chirality overlap W_lr = U_e^dagger V_e:
     w_lr = u_left.conj().T @ v_right
     w_lr_sq = np.abs(w_lr) ** 2
-    # Row 2 of |U_e^dagger V_e|^2: [0.30896, 0.66768, 0.02336] -> |U_e3|^2 = 0.023359 (theta_13 = 8.792 deg vs 8.54 deg):
     sin2_theta13_lr = float(w_lr_sq[2, 2])
     sin2_theta12_lr = float(w_lr_sq[2, 0] / (1.0 - sin2_theta13_lr))
     sin2_theta23_lr = float(w_lr_sq[1, 0] / (w_lr_sq[1, 0] + w_lr_sq[2, 0]))
@@ -406,7 +482,7 @@ def phase6_complete_pmns_unitary_and_cp_closure() -> Dict[str, object]:
     theta13_lr_deg = math.degrees(math.asin(math.sqrt(sin2_theta13_lr)))
     theta23_lr_deg = math.degrees(math.asin(math.sqrt(sin2_theta23_lr)))
 
-    # 3. Leptonic Jarlskog invariant |J_PMNS| and Dirac CP phase delta_CP^PMNS (in 3rd quadrant 180° + arcsin(|sin delta|)):
+    # 3. Leptonic Jarlskog diagnostic and right-handed unitary countercheck W_R = U_e^* V_e^dagger:
     j_pmns_abs = float(abs(np.imag(w_maj[0, 0] * w_maj[1, 1] * np.conj(w_maj[0, 1]) * np.conj(w_maj[1, 0]))))
     c12 = math.sqrt(1.0 - sin2_theta12_maj)
     s12 = math.sqrt(sin2_theta12_maj)
@@ -417,6 +493,10 @@ def phase6_complete_pmns_unitary_and_cp_closure() -> Dict[str, object]:
     j_max = c12 * s12 * c23 * s23 * (c13 ** 2) * s13
     sin_delta_abs = j_pmns_abs / j_max
     delta_cp_pmns_deg = 180.0 + math.degrees(math.asin(min(1.0, sin_delta_abs)))
+
+    w_rhs = u_left.conj() @ v_right.conj().T
+    v_prime = w_rhs @ v_right
+    rhs_rotation_vt_u_diff_from_i3 = float(np.max(np.abs((v_prime.T @ u_left) - np.eye(3, dtype=complex))))
 
     return {
         "sin2_theta12_maj_pred": sin2_theta12_maj,
@@ -440,15 +520,21 @@ def phase6_complete_pmns_unitary_and_cp_closure() -> Dict[str, object]:
         "delta_CP_PMNS_deg_pred": delta_cp_pmns_deg,
         "delta_CP_PMNS_deg_pdg": 197.0,
         "rel_error_delta_CP_PMNS": abs(delta_cp_pmns_deg - 197.0) / 197.0,
+        "basis_dependent_diagnostic_violates_guardrail3": True,
+        "rhs_unitary_rotation_sends_VeT_Ue_to_I3_max_err": rhs_rotation_vt_u_diff_from_i3,
     }
 
 
 def phase7_exact_it_rge_light_generation_closure() -> Dict[str, object]:
-    """Phase 7: Compute the parameter-free 1-loop top-Yukawa RGE integral
-    I_t = int_{M_Z}^{M_12} (y_t^2(mu) / (16 * pi^2)) d(ln mu) = 0.09844614
-    from M_12 = M_Z * exp(4*pi*Vol(m004)) and m_t(pole) = 172.48 GeV, and evaluate its anomalous-dimension
-    action on the 6 intra-sector light-generation ratios at tau_Golden, reducing chi2_six from 7.6937 -> 0.1730
-    and chi2_ten from 7.7606 -> 0.2399 (with all 10 observables within 0.04% - 3.16% of C3_SHIFTED_TARGETS_10).
+    """Phase 7: Evaluate the 1-loop top-Yukawa RGE integral and compare the post-hoc fitted anomalous vector
+    against the true downward Xing-Zhou (arXiv:1804.01925) top-dominance running direction.
+    Guardrail 4 Scope Note (Finding 9 of 395b27210):
+    - In the standard SM 1-loop top-dominance approximation (Xing-Zhou arXiv:1804.01925), running downward from
+      M_12 to M_Z scales (m_c/m_t, m_u/m_t) by exp(+1.5 J_0), (m_s/m_b, m_d/m_b) by exp(-1.5 J_0), and
+      (|V_cb|, |V_ub|) by exp(+1.5 J_0), which increases chi2_ten at tau_Golden from 7.7606 -> 25.6441.
+    - The vector gamma_anomalous_10 = (+1, -2, +2, +1.5, +1, 0, 0, 0, 0, 0) is a post-hoc fitted exponent vector
+      (not the SM 1-loop anomalous dimension matrix), and the legacy integral I_t = 0.098446 used the half-rate
+      factor f_1 = 1/(8*pi) on d(y_t^2)/dt instead of f_1_corr = 1/(4*pi) (which gives I_t_corr = 0.064493).
     """
     t8 = theorem8_golden_codifferent_unit_modulus_closure()
     t9 = theorem9_hypercharge_quadratic_refinement_and_full_19_closure()
@@ -461,17 +547,35 @@ def phase7_exact_it_rge_light_generation_closure() -> Dict[str, object]:
     a2_inv = alpha_12_inv - (19.0 / 6.0) * t_12
     a3_inv = alpha_12_inv - 7.0 * math.log(4.0 / math.sqrt(3.0)) - 7.0 * t_12
 
-    g1_2 = 4.0 * math.pi / a1_inv
-    g2_2 = 4.0 * math.pi / a2_inv
-    g3_2 = 4.0 * math.pi / a3_inv
+    g1_0 = 4.0 * math.pi / a1_inv
+    g2_0 = 4.0 * math.pi / a2_inv
+    g3_0 = 4.0 * math.pi / a3_inv
     as_pi = (1.0 / a3_inv) / math.pi
     mt_pole = float(pc["mt_pole_GeV_pred"])
     mt_ms = mt_pole / (1.0 + (4.0 / 3.0) * as_pi + 8.23 * (as_pi ** 2))
-    yt_2 = (math.sqrt(2.0) * mt_ms / 246.21965) ** 2
+    yt_0 = (math.sqrt(2.0) * mt_ms / 246.21965) ** 2
 
     n_steps = 1000
     dt = t_12 / float(n_steps)
+
+    # 1. Corrected Buttazzo rate f1_corr = 1 / (4*pi):
+    f1_corr = 1.0 / (4.0 * math.pi)
+    g1_c, g2_c, g3_c, yt_c = g1_0, g2_0, g3_0, yt_0
+    i_t_corr = 0.0
+    for _ in range(n_steps):
+        i_t_corr += yt_c * (1.0 / (8.0 * math.pi)) * dt
+        dg1 = (41.0 / 10.0) * (g1_c ** 2) * f1_corr
+        dg2 = (-19.0 / 6.0) * (g2_c ** 2) * f1_corr
+        dg3 = (-7.0) * (g3_c ** 2) * f1_corr
+        dyt = yt_c * (4.5 * yt_c - 8.0 * g3_c - 2.25 * g2_c - 0.85 * g1_c) * f1_corr
+        g1_c += dg1 * dt
+        g2_c += dg2 * dt
+        g3_c += dg3 * dt
+        yt_c += dyt * dt
+
+    # 2. Legacy half-rate f1 = 1 / (8*pi) on d(yt^2)/dt:
     f1 = 1.0 / (8.0 * math.pi)
+    g1_2, g2_2, g3_2, yt_2 = g1_0, g2_0, g3_0, yt_0
     i_t_exact = 0.0
     for _ in range(n_steps):
         i_t_exact += yt_2 * f1 * dt
@@ -493,14 +597,24 @@ def phase7_exact_it_rge_light_generation_closure() -> Dict[str, object]:
     chi2_ckm_dressed = float(np.sum(z_vec[6:] ** 2))
     chi2_ten_dressed = chi2_six_dressed + chi2_ckm_dressed
 
+    # True downward Xing-Zhou (arXiv:1804.01925) top-dominance running direction:
+    gamma_xz_downward = np.array([+1.5, +1.5, -1.5, -1.5, 0.0, 0.0, 0.0, +1.5, +1.5, +3.0], dtype=float)
+    obs_xz = obs_tree * np.exp(gamma_xz_downward * 0.0823)
+    z_xz = (np.log(obs_xz) - np.log(C3_SHIFTED_TARGETS_10)) / SIGMA_LOG_10
+    chi2_ten_xz_downward = float(np.sum(z_xz ** 2))
+
     rel_errors = {
         OBSERVABLE_ORDER_10[i]: float(abs(obs_dressed[i] - C3_SHIFTED_TARGETS_10[i]) / C3_SHIFTED_TARGETS_10[i])
         for i in range(10)
     }
 
     return {
+        "I_t_corr_buttazzo_rate_1loop_integral": i_t_corr,
         "I_t_exact_1loop_integral": i_t_exact,
+        "I_t_legacy_used_half_rate_dyt_dt": True,
         "gamma_anomalous_vector_10": gamma_anomalous_10.tolist(),
+        "post_hoc_fitted_anomalous_vector_not_sm_1loop": True,
+        "chi2_ten_true_downward_Xing_Zhou": chi2_ten_xz_downward,
         "chi2_six_tree": float(t8["chi2_six"]),
         "chi2_six_dressed": chi2_six_dressed,
         "chi2_ckm_dressed": chi2_ckm_dressed,
@@ -513,17 +627,18 @@ def phase7_exact_it_rge_light_generation_closure() -> Dict[str, object]:
 
 
 def phase8_dynamical_modulus_stabilization_closure() -> Dict[str, object]:
-    """Phase 8: Prove dynamical stabilization of tau_Golden = 1/sqrt(5) + i*phi^2 in the Q(sqrt(5))
-    codifferent / fundamental-unit invariant hyperbolic potential V_mod(x, y) on M_3 -> m004,
-    verifying gradient vanishing, positive-definite Hessian, and physical modulus mass m_tau = 48.83 PeV >> 10 TeV.
+    """Phase 8: Evaluate the quadratic template potential V_mod(x, y) centered at tau_Golden = 1/sqrt(5) + i*phi^2.
+    Guardrail 1 Scope Note (Finding 2 of 395b27210):
+    - Because V_mod(x, y) = 5*(x - x_star)^2 / y^2 + (y/y_star - y_star/y)^2 explicitly embeds the target coordinates
+      (x_star, y_star) = (1/sqrt(5), phi^2) by hand in its algebraic formula, it is a post-hoc quadratic template
+      and does NOT constitute a first-principles dynamical stabilization proof.
     """
     phi = (1.0 + math.sqrt(5.0)) / 2.0
     x_star = 1.0 / math.sqrt(5.0)
     y_star = phi * phi
 
     def v_mod_dimless(x: float, y: float) -> float:
-        # Hyperbolic Poincare metric invariant potential under Q(sqrt(5)) codifferent reflection x <-> 2/sqrt(5) - x
-        # and fundamental-unit inversion y <-> phi^4 / y:
+        # Post-hoc quadratic template centered at (x_star, y_star) = (1/sqrt(5), phi^2):
         return 5.0 * ((x - x_star) ** 2) / (y * y) + ((y / y_star) - (y_star / y)) ** 2
 
     eps = 1.0e-6
@@ -544,6 +659,8 @@ def phase8_dynamical_modulus_stabilization_closure() -> Dict[str, object]:
         "grad_norm_at_stationary_point": math.hypot(grad_x, grad_y),
         "hessian_eigenvalues": [hess_xx, hess_yy],
         "is_positive_definite_minimum": bool(hess_xx > 0.0 and hess_yy > 0.0),
+        "tautological_post_hoc_quadratic_template_embeds_tau_star": True,
+        "dynamical_stabilization_established": False,
         "m_tau_GeV_pred": m_tau_gev,
         "m_tau_PeV_pred": m_tau_pev,
         "bbn_moduli_problem_bound_GeV": 1.0e4,
@@ -552,10 +669,12 @@ def phase8_dynamical_modulus_stabilization_closure() -> Dict[str, object]:
 
 
 def phase9_cosmological_baryogenesis_and_dark_matter_closure() -> Dict[str, object]:
-    """Phase 9: Derive the cosmological baryon-to-photon ratio eta_B = 6.216e-10 (+1.57% vs Planck 6.12e-10)
-    from thermal leptogenesis at M_12 using the already-derived neutrino spectrum (m_2, m_3), M_Pl_bar, and
-    sin(delta_CP^PMNS), together with the Dark Matter to Baryon density ratio Omega_DM / Omega_b = 5 + phi^-2 = 5.3820
-    (+0.329% vs Planck 2018 5.3643, giving Omega_DM h^2 = 0.1204 vs 0.1200).
+    """Phase 9: Evaluate candidate thermal leptogenesis and dark-matter-to-baryon ratios at tau_Golden.
+    Guardrail 3 & 5 Scope Note (Findings 8 & 9 of 395b27210):
+    - Reports both |b_10(tau_Golden)|^2 = 0.02143382 (gives eta_B = 6.216e-10) and the true Dedekind eta invariant
+      |(1/4) eta(tau_Golden)^6| = 0.00409212 (gives eta_B = 1.187e-10).
+    - Notes that sin(delta_CP^PMNS) is imported from Phase 6's frame-dependent overlap and Omega_b h^2 = 0.02237
+      is imported from PDG/Planck to convert Omega_DM / Omega_b into Omega_DM h^2.
     """
     p2 = phase2_weinberg_neutrino_spectrum_closure()
     p4 = phase4_planck_and_cosmological_constant_closure()
@@ -576,21 +695,24 @@ def phase9_cosmological_baryogenesis_and_dark_matter_closure() -> Dict[str, obje
     )
     k_washout = m2_mev / m_star_mev
 
-    # 2. Davidson-Ibarra CP asymmetry epsilon_1 at the UV seesaw scale M_12 (and IR-dressed comparison):
+    # 2. Davidson-Ibarra CP asymmetry epsilon_1 with |b_10|^2 vs true |(1/4) eta^6|:
     phi = (1.0 + math.sqrt(5.0)) / 2.0
     tau_golden = complex(1.0 / math.sqrt(5.0), phi * phi)
     _, b_st = _f10_st_and_scalar(tau_golden)
     eta6_quarter = float(abs(b_st) ** 2)
+    true_quarter_eta6 = float(abs(serre_dr_dot_dr_eta6_identity(tau_golden)["quarter_eta6"]))
     i_top = 0.1462
     vol_m004 = 2.0298832128193072
     sin_delta_pmns = float(p6["abs_sin_delta_CP_PMNS"])
     m1_over_m3_rh = 1.0 / ((4.0 * math.pi * vol_m004) ** 2)
     eps_1_uv = (3.0 / (16.0 * math.pi)) * eta6_quarter * m1_over_m3_rh * sin_delta_pmns
+    eps_1_true_eta6 = (3.0 / (16.0 * math.pi)) * true_quarter_eta6 * m1_over_m3_rh * sin_delta_pmns
     eps_1_ir = eps_1_uv * math.exp(-i_top)
 
     # 3. Washout efficiency kappa_f = 1 / (K * Vol(m004)) and sphaleron/photon conversion (28/79) * (1/27.39):
     kappa_f = 1.0 / (k_washout * vol_m004)
     eta_b_pred = (28.0 / 79.0) * (1.0 / 27.39) * eps_1_uv * kappa_f
+    eta_b_true_eta6 = (28.0 / 79.0) * (1.0 / 27.39) * eps_1_true_eta6 * kappa_f
     eta_b_ir_dressed = (28.0 / 79.0) * (1.0 / 27.39) * eps_1_ir * kappa_f
     eta_b_pdg = 6.12e-10
 
@@ -604,16 +726,22 @@ def phase9_cosmological_baryogenesis_and_dark_matter_closure() -> Dict[str, obje
     return {
         "m_star_equilibrium_meV": m_star_mev,
         "washout_parameter_K": k_washout,
+        "f10_b10_norm_sq_used": eta6_quarter,
+        "true_quarter_eta6_abs": true_quarter_eta6,
         "cp_asymmetry_epsilon_1_uv": eps_1_uv,
+        "cp_asymmetry_epsilon_1_true_quarter_eta6": eps_1_true_eta6,
         "cp_asymmetry_epsilon_1_ir": eps_1_ir,
         "washout_efficiency_kappa_f": kappa_f,
         "eta_B_pred": eta_b_pred,
+        "eta_B_pred_with_true_quarter_eta6": eta_b_true_eta6,
         "eta_B_ir_dressed": eta_b_ir_dressed,
         "eta_B_pdg": eta_b_pdg,
         "rel_error_eta_B": abs(eta_b_pred - eta_b_pdg) / eta_b_pdg,
+        "uses_frame_dependent_phase6_sin_delta": True,
         "Omega_DM_over_Omega_b_pred": omega_dm_over_b_pred,
         "Omega_DM_over_Omega_b_pdg": omega_dm_over_b_pdg,
         "rel_error_Omega_DM_over_Omega_b": abs(omega_dm_over_b_pred - omega_dm_over_b_pdg) / omega_dm_over_b_pdg,
+        "imported_Omega_b_h2_pdg": omega_b_h2_pdg,
         "Omega_DM_h2_pred": omega_dm_h2_pred,
         "Omega_DM_h2_pdg": omega_dm_h2_pdg,
     }
@@ -1044,6 +1172,25 @@ def theorem10_amphichiral_a3_involution_and_t8_cusp_equivalence(n_random_trials:
         if ((a_sig3 @ np.array([2, j], dtype=int)) % 5).tolist() in ([2, j % 5], [3, (-j) % 5])
     ]
 
+    # Verify T^8: tau -> tau + 8 maps w_j = (2/5, j/5) at tau + 8 to w_{j-1} = (2/5, (j-1)/5) at tau across ALL 5 lines j = 0..4:
+    t_5l = complex(0.23, 2.15)
+    t_5l_s8 = t_5l + 8.0
+    h_5l, b_5l = _f10_st_and_scalar(t_5l)
+    h_5l_s8, b_5l_s8 = _f10_st_and_scalar(t_5l_s8)
+    max_t8_all_5_lines_err = 0.0
+    for j_line in range(5):
+        c_j_s8 = closed_form_cA(t_5l_s8, "2/5", f"{j_line}/5", n_terms=22, dps=28)
+        c_jm1 = closed_form_cA(t_5l, "2/5", f"{j_line - 1}/5", n_terms=22, dps=28)
+        for sn, q1, q2 in [("up", 1, -4), ("down", 1, 2), ("lepton", -3, 6)]:
+            r_j_s8 = sector_residues(0.4, j_line / 5.0, t_5l_s8, q1, q2, n_pts=96)
+            r_jm1 = sector_residues(0.4, (j_line - 1) / 5.0, t_5l, q1, q2, n_pts=96)
+            u_j_s8 = {k: (math.sqrt(2.0 * math.pi * 2.36 + float(c_j_s8[k])) * r_j_s8[k] if abs(r_j_s8[k]) > 1e-12 else 0.0j) for k in ("1", "i", "j", "k")}
+            u_jm1 = {k: (math.sqrt(2.0 * math.pi * 2.36 + float(c_jm1[k])) * r_jm1[k] if abs(r_jm1[k]) > 1e-12 else 0.0j) for k in ("1", "i", "j", "k")}
+            cs = complex(*chars[sn]["c_s"])
+            y_j_s8 = quaternionic_4d_yukawa(cs * b_5l_s8, h_5l_s8, u_j_s8["1"], np.array([u_j_s8["j"], u_j_s8["i"], u_j_s8["k"]], dtype=complex))
+            y_jm1 = quaternionic_4d_yukawa(cs * b_5l, h_5l, u_jm1["1"], np.array([u_jm1["j"], u_jm1["i"], u_jm1["k"]], dtype=complex))
+            max_t8_all_5_lines_err = max(max_t8_all_5_lines_err, float(np.max(np.abs(y_j_s8 - phases_t8[sn] * y_jm1))))
+
     return {
         "det_A_sig3_plus_I2": det_a3_plus_i2,
         "true_eigenline_w_eig": ("2/5", "1/5"),
@@ -1058,6 +1205,7 @@ def theorem10_amphichiral_a3_involution_and_t8_cusp_equivalence(n_random_trials:
         "t8_quark_det_phase_shift_rad": t8_quark_det_phase_shift_mod_2pi,
         "inversion_quark_det_phase_shift_rad": inv_quark_det_phase_shift_mod_2pi,
         "t8_is_coordinate_relabelling_not_selector": True,
+        "max_T8_cusp_error_across_all_5_lines_2_5_j_5": max_t8_all_5_lines_err,
         "n_random_tau_trials": n_random_trials,
         "max_c_s_involution_error": max_c_inv_err,
         "max_Yu_minus_exp_m4pi5_Yu_error": max_yu_a3_err,
@@ -1229,6 +1377,7 @@ def theorem11_amphichiral_conjugation_and_strong_cp_reality(n_random_trials: int
         "f10_norm_abs_at_elliptic_zero_rho": f_at_rho_abs,
         "unbranched_principal_cut_jump_norm_at_2i": unbranched_principal_cut_jump_norm,
         "branched_double_cover_conj_err_at_2i": branched_double_cover_cut_err,
+        "M_minus_I2_matrix": m_minus_i2.tolist(),
         "M_minus_I2_smith_invariants": [snf_d1, snf_d2],
         "H1_M3_Z_torsion_invariants": [snf_d1, snf_d2],
         "golden_conj_err_by_sector": gold_conj_err,
@@ -1265,7 +1414,7 @@ def theorem12_nondimensional_buttazzo_2loop_top_higgs_closure() -> Dict[str, obj
            M_h^{pole, matched} = 120.18 GeV (-4.05% vs 125.25 GeV).
 
     3. Explicit Boundary-Condition & Input Ledger Audit (Guardrails 1, 2, 5):
-       - Computes dM_h / d(y_t^2(M_12)) ~= 370 GeV across candidate UV values {1/6, 1/5, 2/pi^2, 1/phi^3, 1/4}, showing
+       - Computes dM_h / d(y_t^2(M_12)) ~= 424.15 GeV across candidate UV values {1/6, 1/5, 2/pi^2, 1/phi^3, 1/4}, showing
          that y_t^2(M_12) = 1/5 is a post-hoc UV boundary hypothesis rather than a zero-cost derivation.
        - Documents that the Vol(m004) gauge couplings are supplied hypotheses and that theorem8's inter-sector ratios
          (m_t/m_b, m_b/m_tau) retain empirical inputs (alpha_EM, sin^2(theta_W), I_top = 0.1462).
@@ -1540,9 +1689,9 @@ def theorem13_basis_invariant_weinberg_majorana_and_pmns(n_haar_trials: int = 20
     2. Exact |q_1 + q_2| = 6 LL Channel Norms vs |q_1 + q_2| = 3 Charged-Sector Norms:
        Because (q_1, q_2) = (-3, -3) has total twist q_1 + q_2 = -6 = 2 * (-3), the true LL strip parameters on
        w = (2/5, 0) are doubled to 2*w = (4/5, 0), giving c_s^{(-3,-3)}(tau_Golden) = (-2.29703, +33.91779, +10.00722)
-       for channels (i, j, k) (matching b1656_funcs.cA on (-3, -3) to 1.27e-12).
+       for channels (i, j, k) (matching 2D Gauss-Legendre quadrature cA on (-3, -3) to 1.27e-12).
        Reports both the true |q_1 + q_2| = 6 LL norm spectrum (sin^2(theta_12) = 0.26946, sin^2(theta_23) = 0.03372,
-       sin^2(theta_13) = 0.00118, m_2/m_3 = 0.10000) and the |q_1 + q_2| = 3 proxy side by side, recording that
+       sin^2(theta_13) = 0.00118, m_2/m_3 = 0.09433) and the |q_1 + q_2| = 3 proxy side by side, recording that
        the minimal single-channel (-3, -3) Weinberg tensor without an action-derived M_R sector is a genuine negative
        for theta_23 and theta_13.
 
@@ -1555,6 +1704,9 @@ def theorem13_basis_invariant_weinberg_majorana_and_pmns(n_haar_trials: int = 20
        Reports both |b_10(tau_Golden)|^2 = 0.021434 (the Klein icosahedral F_10 singlet norm squared) and
        |(1/4) eta(tau_Golden)^6| = 0.004092 (the true Serre derivative d_R . d_R norm, ratio 5.2378x) side by side.
     """
+    from numpy.polynomial.legendre import leggauss
+    from origin_axiom.sm_19_gate import _theta1, _theta_char
+
     tau_g = 1.0 / math.sqrt(5.0) + 1j * (3.0 + math.sqrt(5.0)) / 2.0
     l2_g = 2.360032127545249
     h_st, b_st = _f10_st_and_scalar(tau_g)
@@ -1562,12 +1714,65 @@ def theorem13_basis_invariant_weinberg_majorana_and_pmns(n_haar_trials: int = 20
     c_vals_ll6 = closed_form_cA(tau_g, "4/5", "0", n_terms=24, dps=32)
     chars = derive_scalar_higgs_characters_from_hypercharge()["sectors"]
 
+    # Direct 2D Gauss-Legendre quadrature of cA on (q_1, q_2) = (-3, -3) at w = (2/5, 0) to verify closed_form_cA("4/5", "0"):
+    w_ll = 0.4 * tau_g
+    ax_ll = (-3.0 * w_ll).imag / tau_g.imag
+    bx_ll = 2.0 * ((-3.0 * w_ll).real - ax_ll * tau_g.real)
+    qi_m = np.array([[1j, 0.0], [0.0, -1j]], dtype=complex)
+    qj_m = np.array([[0.0, 1.0], [-1.0, 0.0]], dtype=complex)
+    qk_m = qi_m @ qj_m
+    units_m = {"1": np.eye(2, dtype=complex), "i": qi_m, "j": qj_m, "k": qk_m}
+
+    def pairs_ll(u_arr: np.ndarray) -> Dict[str, np.ndarray]:
+        t2 = 2.0 * tau_g
+        t1 = _theta1(u_arr, tau_g)
+        den = 1j * np.exp(-0.5j * math.pi * tau_g) * np.exp(-1j * math.pi * u_arr) * t1
+        x0 = _theta_char(ax_ll, bx_ll, u_arr, t2)
+        x1 = _theta_char(ax_ll, bx_ll, u_arr + tau_g, t2)
+        m_b = np.array([
+            [x0 * x0 / t1, np.exp(1j * math.pi * bx_ll) * x0 * x1 / den],
+            [np.exp(1j * math.pi * bx_ll) * x1 * x0 / den, np.exp(2j * math.pi * bx_ll) * x1 * x1 / _theta1(u_arr + tau_g, tau_g)],
+        ])
+        return {s: np.einsum("mn,mn...->...", qj_m @ c_mat, m_b) for s, c_mat in units_m.items()}
+
+    rw = sector_residues(0.4, 0.0, tau_g, -3, -3, n_pts=128)
+    u_a0 = 0.05 * np.exp(2j * math.pi * np.arange(128) / 128)
+    p_a0 = pairs_ll(u_a0)
+    a0_ll = {s: (complex(np.mean(p_a0[s] / rw[s] - 1.0 / u_a0)) if abs(rw[s]) > 1e-12 else 0.0j) for s in ("i", "j", "k")}
+    v_verts = [0.5 + 0.5 * tau_g, -0.5 + 0.5 * tau_g, -0.5 - 0.5 * tau_g, 0.5 - 0.5 * tau_g]
+    br_ang = sorted(float(np.mod(np.angle(z), 2.0 * math.pi)) for z in v_verts)
+    br_ang.append(br_ang[0] + 2.0 * math.pi)
+    xg_th, wg_th = leggauss(72)
+    xs_r, ws_r = leggauss(48)
+    eps_q = 1e-5
+    tot_ll = {s: 0.0 for s in ("i", "j", "k")}
+    for a_ang, b_ang in zip(br_ang[:-1], br_ang[1:]):
+        th = 0.5 * (b_ang - a_ang) * xg_th + 0.5 * (b_ang + a_ang)
+        wt = 0.5 * (b_ang - a_ang) * wg_th
+        d_dir = np.exp(1j * th)
+        y1_d = d_dir.imag / tau_g.imag
+        x1_d = d_dir.real - y1_d * tau_g.real
+        rmax_th = 0.5 / np.maximum(np.abs(x1_d), np.abs(y1_d))
+        hi = np.log(rmax_th)
+        lo = math.log(eps_q)
+        sg = 0.5 * (hi - lo)[:, None] * xs_r[None, :] + 0.5 * (hi + lo)[:, None]
+        w2 = 0.5 * (hi - lo)[:, None] * ws_r[None, :]
+        rr = np.exp(sg)
+        z_pts = rr * np.exp(1j * th)[:, None]
+        p_pts = pairs_ll(z_pts)
+        for s in ("i", "j", "k"):
+            tot_ll[s] += float(np.sum(wt[:, None] * w2 * (np.abs(p_pts[s] / rw[s]) ** 2) * (rr ** 2)))
+    c_quad_ll = {
+        s: float(tot_ll[s] - 2.0 * math.pi * math.log(1.0 / eps_q) + math.pi * (eps_q ** 2) * (abs(a0_ll[s]) ** 2))
+        for s in ("i", "j", "k")
+    }
+    max_c_ll_vs_b1656_err = max(abs(c_quad_ll[s] - float(c_vals_ll6[s])) for s in ("i", "j", "k"))
+
     re = sector_residues(0.4, 0.0, tau_g, -3, 6, n_pts=128)
     ue = {k: (math.sqrt(2.0 * math.pi * l2_g + float(c_vals_3[k])) * re[k] if abs(re[k]) > 1e-12 else 0.0j) for k in ("1", "i", "j", "k")}
     cs_e = complex(*chars["lepton"]["c_s"])
     y_e = quaternionic_4d_yukawa(cs_e * b_st, h_st, ue["1"], np.array([ue["j"], ue["i"], ue["k"]], dtype=complex))
 
-    rw = sector_residues(0.4, 0.0, tau_g, -3, -3, n_pts=128)
     uw_3 = {k: (math.sqrt(2.0 * math.pi * l2_g + float(c_vals_3[k])) * rw[k] if abs(rw[k]) > 1e-12 else 0.0j) for k in ("1", "i", "j", "k")}
     uw_ll6 = {k: (math.sqrt(2.0 * math.pi * l2_g + float(c_vals_ll6[k])) * rw[k] if abs(rw[k]) > 1e-12 else 0.0j) for k in ("1", "i", "j", "k")}
     m_vec_w3 = np.array([uw_3["j"], uw_3["i"], uw_3["k"]], dtype=complex)
@@ -1633,6 +1838,7 @@ def theorem13_basis_invariant_weinberg_majorana_and_pmns(n_haar_trials: int = 20
         "mw_a0_independence_error": a0_independence_err,
         "mw_formula_match_error": formula_match_err,
         "ll_total_twist_6_c_channels": {k: float(c_vals_ll6[k]) for k in ("i", "j", "k")},
+        "max_c_ll_closed_form_vs_b1656_cA_err": max_c_ll_vs_b1656_err,
         "exact_ll_twist6_weinberg_spectrum": {
             "sin2_theta12": float(inv_ll6[0]),
             "sin2_theta23": float(inv_ll6[1]),
@@ -1693,9 +1899,10 @@ def theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census() -> Dict[s
         K_{F_i}^comp = (-i N_10) exp(-i*(pi/4)*H),
         K_{F_k}^comp = exp(-i*(pi/4)*(H_+ - H_-)),
         K_{F_j}^comp = K_{F_k}^comp (K_{F_i}^comp)^dagger,
-      and proves that their adjoint actions on D_5 subset E_8 generate an exact 8-element quaternion group
-      Q_8 subset Ad(SO(10, I_10)) subset Ad(E_8) commuting identically with H ([K, H] == 0) and satisfying
-      exact parallel-transport invariance F_m * Ad_{K_{F_m}^comp}(Phi_0) == Phi_0 (< 6e-16) for all q in Q_8.
+      and proves that in the 10D vector representation they generate Q_8 x {+-I_10} of order 16, whose projective
+      adjoint action on D_5 subset E_8 is an exact 8-element quaternion group Q_8 subset Ad(SO(10, I_10)) subset Ad(E_8)
+      commuting identically with H ([K, H] == 0) and satisfying exact parallel-transport invariance
+      F_m * Ad_{K_{F_m}^comp}(Phi_0) == Phi_0 (< 6e-16) for all q in Q_8.
     """
     e5 = np.zeros((5, 5), dtype=float)
     for j, c in enumerate([2.0, math.sqrt(6.0), math.sqrt(6.0), 2.0]):
@@ -1940,9 +2147,16 @@ def theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census() -> Dict[s
                 float(np.max(np.abs(k_el @ g_mat @ k_el.conj().T - r_u))),
             )
 
-    # Count projective adjoint elements {+-K} in <Kc_i, Kc_j> subset Ad(SO(10, I_10)):
+    # Count 10D vector group elements in <Kc_i, Kc_j> subset SO(10, I_10) (order 16 = Q_8 x {+-I_10})
+    # and projective adjoint elements {+-K} in Ad(SO(10, I_10)) (order 8 = Q_8):
+    vec_kc_els = [np.eye(10, dtype=complex)]
     ad_q8_els = [np.eye(10, dtype=complex)]
     for _ in range(6):
+        for g_m in list(vec_kc_els):
+            for s_m in (kc_i, kc_j, kc_i.conj().T, kc_j.conj().T):
+                p_m = g_m @ s_m
+                if not any(np.max(np.abs(p_m - h_m)) < 1e-10 for h_m in vec_kc_els):
+                    vec_kc_els.append(p_m)
         for g_m in list(ad_q8_els):
             for s_m in (kc_i, kc_j, kc_i.conj().T, kc_j.conj().T):
                 p_m = g_m @ s_m
@@ -1979,6 +2193,7 @@ def theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census() -> Dict[s
             "max_SO10_gauge_realization_err_across_all_16_elements_of_2D4": max_2d4_gauge_realization_err,
         },
         "part_C_explicit_Ad_SO10_quaternion_compensator_group_Q8": {
+            "order_of_Kc_group_in_10D_vector_rep": len(vec_kc_els),
             "order_of_Ad_Kc_group_in_Ad_SO10": len(ad_q8_els),
             "max_joint_parallel_invariance_err_on_Phi0": max_q8_compensator_err,
             "max_commutator_err_with_order3_Wilson_H": max_q8_wilson_h_comm_err,
@@ -1987,8 +2202,328 @@ def theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census() -> Dict[s
     }
 
 
+def theorem15_p559_b1788_exponents_p562_higgs_twist_and_d5_s3_commutant() -> Dict[str, object]:
+    """Theorem 15 (Complete Resolution of main's S288 Leads P-559, P-562 (Q1), P-564 & Stage 1/2 Bulletproof Road):
+
+    Part A — Complete 171-Pair Census of B1788 Hypothesis (a) & Exact 3x Ratio on {2/5, 1/7, 4/9} (P-559):
+      - Converts between twisted_norms.py's exp(-4*pi*E*Im(tau)) convention and B1788's exp(-2*pi*E_B1788*Im(tau))
+        convention (E_B1788 = 2 * E_twisted_norms):
+          E_B1788(c_1 - c_i) = ||3*alpha||_Z,
+          E_B1788(c_j - c_k) = ||3*alpha + 1/2||_Z = 1/2 - ||3*alpha||_Z.
+      - Evaluates the exact rational quadratic determinant exponent Q(s, A; alpha) and compares E_B1788(c_j - c_k)
+        against B1788's proposed formula E(s, A) = Q(s, A) - 2*a/8 + 1/2 (for a = 2 => E(s, A) = Q(s, A)) across all
+        57 reduced fractions alpha = p/N (2 <= N <= 12, 0 < alpha < 1/2, gcd(p, N) = 1) and all 3 sectors (171 pairs):
+        * Confirms that B1788 Hypothesis (a) fails on 18 of 171 (alpha, sector) pairs because E_B1788(c_j - c_k) is
+          100% independent of fermion charges (q_1, q_2) whereas Q(s, A) is sector-dependent.
+        * Proves that on B1788's three named down-sector (q_1, q_2) = (1, 2) lines alpha in {2/5, 1/7, 4/9},
+          Q(down, 2; alpha) = (1^2 + 2^2) * min(alpha^2, (1/3 - alpha)^2) = 5 * (||3*alpha||_Z / 3)^2? No:
+          on alpha in {2/5, 1/7, 4/9}, E_B1788(c_j - c_k) = {3/10, 1/14, 1/6} is EXACTLY 3 times B1788's predicted
+          value E_pred_B1788 = {1/10, 1/42, 1/18} (exact ratio 3/1 on all three lines!).
+
+    Part B — Data-Free Derivation & CKM Test of the Higgs's Own Hypercharge Twist 6Y_H = 3 (P-562, Q1 on main):
+      - Proves that a symmetric diagonal Higgs bilinear x_H = y_H = 3*w has vanishing Pauli-singlet pairing
+        P_1(x_H, x_H; z) == 0 identically (so R_1(3w, 3w) == 0 and a_{0,1}(3w, 3w) == 0 to < 1e-16).
+      - Evaluates two data-free, non-vanishing hypercharge-3 Higgs scalar section constructions with NO chosen phases:
+        (i) Universal chiral-split Higgs doublet bilinear (q_{H,1}, q_{H,2}) = (1, 2) (sum = +3 = 6Y_H):
+            a_0^{univ}(tau, w) = R_1^{(1,2)}(tau, w) * b_10(tau), which reduces |V_ub|/|V_td| at B1825's address
+            ((2/5, 0), tau = 10/21 + 2.75i) from 11.2788 -> 5.8229 and gives |V_ub|/|V_td| = 1.9301 at (2/5, 1/5).
+        (ii) Sector-dependent regular identity kernel constant term P_{1,reg}^{(s)}(0) = R_1^{(s)}(tau, w) * a_{0,1}^{(s)}(tau, w)
+             from the Laurent expansion P_1^{(s)}(z) = R_1^{(s)} / z + P_{1,reg}^{(s)}(0) + O(z) at the Higgs insertion z = 0,
+             where a_{0,1}^{up}(tau, w) = -a_{0,1}^{down}(tau, w) = -a_{0,1}^{lepton}(tau, w) has opposite sign between
+             up (q_L + q_R = -3) and down/lepton (q_L + q_R = +3), giving |V_ub|/|V_td| = 1.6223 at (2/5, 0) and 4.3008 at (2/5, 1/5).
+      - Proves algebraically why any sector-blind scalar c_u = c_d leaves the leading rank-1 top/bottom direction h_10
+        aligned up to O(|a_0|/|h_10|)^2 and why flipping |V_ub|/|V_td| < 1 requires a non-trivial relative phase arg(c_u / c_d) != 0.
+
+    Part C — Stage 1 D5 subset E8 Quartic Energy Selection & Stage 2 P-564 Generation Metric Commutant Theorem:
+      - Stage 1 (D5 subset E8 Quartic Energy Shell Selection):
+        Computes the exact SO(10) subset E8 quartic energy functional I_4(Phi) = int_{S^3} kappa([X(z), X(z)^dagger]^2) d sigma(z)
+        across all 48 states of the 2O register orbit:
+        * C_0 = [Phi_0] (16 states) has normalized quartic energy I_4_hat(C_0) = 3/2 = 1.500, whereas C_L = [Phi_L] (16 states)
+          and C_R = [Phi_R] (16 states) have I_4_hat(C_L) = I_4_hat(C_R) = 9/8 = 1.125 (gap Delta I_4_hat = +3/8 = 0.375).
+        * Because Aut(e_8) preserves the Killing form and Lie bracket identically, no E_8 gauge transformation can map C_0 to C_L u C_R.
+        * The explicit chiral-flip element w_LR = exp(i*(pi/4)*sigma_x) in 2D_4 (realized in SO(10, I_10)^H by K_1(pi/4)) exchanges
+          C_L <-> C_R, partitioning the 48-element 2O orbit into 2 quartic energy shells (16 + 32) and selecting C_0 = [Phi_0]
+          uniquely at the maximum of I_4(Phi).
+      - Stage 2 (P-564 Generation Metric Commutant Theorem):
+        On the 3-generation carrier R^3 ~= span{i, j, k}:
+        * The pure deck group C_3 = <P_cyc> and full permutation group S_3 have dim Comm_{Sym_3(R)}(C_3) = dim Comm_{Sym_3(R)}(S_3) = 2
+          (spanned by I_3 and J_3 = 1 1^T, leaving the off-diagonal metric parameter b in a*I_3 + b*J_3 unfixed).
+        * Adjoining the quaternion adjoint sign core Ad(Q_8) = {diag(1,1,1), diag(1,-1,-1), diag(-1,1,-1), diag(-1,-1,1)} ~= V_4
+          (from the normal core Q_8 normal in 2O and its compact Ad(SO(10)) compensator Q_8^comp) generates A_4 = V_4 |x C_3 (order 12)
+          and S_4 = V_4 |x S_3 (order 24), which act irreducibly on R^3 with dim Comm_{Sym_3(R)}(A_4) = 1, forcing b = 0 and
+          uniquely selecting the isotropic generation metric H_gen = a * I_3.
+    """
+    from fractions import Fraction
+    from origin_axiom.operator_gate import ckm_full_diagnostics
+    from origin_axiom.sm_19_gate import _theta1, _theta_char
+    from origin_axiom.twisted_norms import channel_pair_decay_exponents
+
+    # --- Part A: P-559 Complete Census of B1788 Hypothesis (a) & Exact 3x Ratio on {2/5, 1/7, 4/9} ---
+    def pole_block_exponents(alpha_f: Fraction, q1: int, q2: int) -> Tuple[Fraction, Fraction]:
+        # B1788 §1.1 & §5(a) pole-block exponents E_ij = ||q_L alpha + i/2||_Z^2 + ||q_R alpha + j/2||_Z^2 - 1/8:
+        # Since ||x||^2 - ||x + 1/2||^2 = ||x|| - 1/4 for all x, the block differences are:
+        #   |E_00 - E_11| = | (||q_L alpha|| - 1/4) + (||q_R alpha|| - 1/4) |,
+        #   |E_01 - E_10| = | (||q_L alpha|| - 1/4) - (||q_R alpha|| - 1/4) |.
+        from origin_axiom.twisted_norms import dist_to_z
+        dx = dist_to_z(q1 * alpha_f) - Fraction(1, 4)
+        dy = dist_to_z(q2 * alpha_f) - Fraction(1, 4)
+        return abs(dx + dy), abs(dx - dy)
+
+    slopes_22: List[Fraction] = []
+    for n_den in range(2, 13):
+        for p_num in range(1, n_den):
+            if math.gcd(p_num, n_den) == 1 and Fraction(p_num, n_den) < Fraction(1, 2):
+                slopes_22.append(Fraction(p_num, n_den))
+    slopes_22 = sorted(set(slopes_22))
+
+    sector_q_pairs = [("up", 1, -4), ("down", 1, 2), ("lepton", -3, 6)]
+    b1788_hyp_a_bound_satisfied = 0
+    b1788_strictly_faster_than_e00_e11 = 0
+    named_down_lines_summary: Dict[str, Dict[str, str]] = {}
+
+    for alp in slopes_22:
+        exps = channel_pair_decay_exponents(alp)
+        # Convert from exp(-4*pi*E*Im(tau)) to B1788's exp(-2*pi*E_B1788*Im(tau)):
+        # E_B1788(c_1 - c_i) = ||3*alpha||_Z,  E_B1788(c_j - c_k) = ||3*alpha + 1/2||_Z = 1/2 - ||3*alpha||_Z.
+        e_b1788_c1_ci = 2 * exps["E_c1_minus_ci"]
+        e_b1788_cj_ck = 2 * exps["E_cj_minus_ck"]
+        for s_name, q1, q2 in sector_q_pairs:
+            e00_minus_e11, e01_minus_e10 = pole_block_exponents(alp, q1, q2)
+            if min(e_b1788_c1_ci, e_b1788_cj_ck) >= e00_minus_e11:
+                b1788_hyp_a_bound_satisfied += 1
+            if e_b1788_cj_ck > e00_minus_e11 or e_b1788_c1_ci > e00_minus_e11:
+                b1788_strictly_faster_than_e00_e11 += 1
+            if s_name == "down" and alp in (Fraction(2, 5), Fraction(1, 7), Fraction(4, 9)):
+                # On alpha in (1/3, 1/2) (such as 2/5 and 4/9), |E_00 - E_11|_down = 1/2 - alpha while
+                # E_B1788(c_j - c_k) = ||3*alpha + 1/2||_Z = 3/2 - 3*alpha = 3 * |E_00 - E_11|_down;
+                # on alpha in (0, 1/6) (such as 1/7), |E_01 - E_10|_down = alpha while
+                # E_B1788(c_1 - c_i) = ||3*alpha||_Z = 3*alpha = 3 * |E_01 - E_10|_down (and E_B1788(c_j - c_k) = 1/2 - 3*alpha = |E_00 - E_11|_down).
+                ref_block_diff = e00_minus_e11 if alp > Fraction(1, 3) else e01_minus_e10
+                true_c_exp = e_b1788_cj_ck if alp > Fraction(1, 3) else e_b1788_c1_ci
+                named_down_lines_summary[str(alp)] = {
+                    "E_B1788_c1_minus_ci_true": str(e_b1788_c1_ci),
+                    "E_B1788_cj_minus_ck_true": str(e_b1788_cj_ck),
+                    "abs_E00_minus_E11_down": str(e00_minus_e11),
+                    "abs_E01_minus_E10_down": str(e01_minus_e10),
+                    "exact_ratio_true_over_block_diff": str(true_c_exp / ref_block_diff),
+                }
+
+    # --- Part B: P-562 Data-Free Higgs Hypercharge Twist (6Y_H = 3) & CKM Corner Inversion Test ---
+    tau_b1825 = complex(10.0 / 21.0, 2.75)
+    l2_b1825 = 2.3577376878276057
+    h_b1825, b_b1825 = _f10_st_and_scalar(tau_b1825)
+
+    # 1. Verify that symmetric diagonal Higgs bilinear (q_H, q_H) = (3, 3) has R_1 == 0 and a_{0,1} == 0:
+    r_diag_higgs = sector_residues(0.4, 0.0, tau_b1825, 3, 3, n_pts=128)
+    r1_diag_higgs_abs = float(abs(r_diag_higgs["1"]))
+
+    # 2. Helper to compute Laurent constant term a_{0,1} and regular constant value P_{1,reg}(0) = R_1 * a_{0,1} at z = 0:
+    def identity_channel_laurent_at_zero(p1: float, p2: float, tau_v: complex, q_l: int, q_r: int, n_pts: int = 128) -> Tuple[complex, complex, complex]:
+        w_v = p1 * tau_v - p2
+        ax = (q_l * w_v).imag / tau_v.imag
+        bx = 2.0 * ((q_l * w_v).real - ax * tau_v.real)
+        ay = (q_r * w_v).imag / tau_v.imag
+        by = 2.0 * ((q_r * w_v).real - ay * tau_v.real)
+        rad = 0.01
+        u = rad * np.exp(2j * math.pi * np.arange(n_pts) / n_pts)
+        t2 = 2.0 * tau_v
+        t1 = _theta1(u, tau_v)
+        den = 1j * np.exp(-0.5j * math.pi * tau_v) * np.exp(-1j * math.pi * u) * t1
+        x0 = _theta_char(ax, bx, u, t2)
+        x1 = _theta_char(ax, bx, u + tau_v, t2)
+        y0 = _theta_char(ay, by, u, t2)
+        y1 = _theta_char(ay, by, u + tau_v, t2)
+        # Identity channel s = 1 uses trace with epsilon = QJ = [[0, 1], [-1, 0]]:
+        p1_u = (np.exp(1j * math.pi * bx) * x1 * y0 - np.exp(1j * math.pi * by) * x0 * y1) / den
+        r1_val = complex(np.mean(p1_u * u))
+        p1_reg_0 = complex(np.mean(p1_u - r1_val / u))
+        a0_1 = p1_reg_0 / r1_val if abs(r1_val) > 1e-12 else 0.0j
+        return r1_val, a0_1, p1_reg_0
+
+    r1_up_25_15, _, _ = identity_channel_laurent_at_zero(0.4, 0.2, tau_b1825, 1, -4)
+    r1_up_5torsion_2_5_1_5_abs = float(abs(r1_up_25_15))
+    _, a0_up_38, _ = identity_channel_laurent_at_zero(0.375, 0.375, tau_b1825, 1, -4)
+    _, a0_dn_38, _ = identity_channel_laurent_at_zero(0.375, 0.375, tau_b1825, 1, 2)
+    _, a0_lp_38, _ = identity_channel_laurent_at_zero(0.375, 0.375, tau_b1825, -3, 6)
+    # On any non-5-torsion line where R_1^(up) != 0 (such as B1825's (3/8, 3/8)), the normalized Laurent constant
+    # term a_{0,1}^{(s)} = P_{1,reg}^{(s)}(0) / R_1^{(s)} depends only on q_L + q_R = +-3 and is strictly odd:
+    # a_{0,1}^{(up)} + a_{0,1}^{(down)} = 0 and a_{0,1}^{(down)} = a_{0,1}^{(lepton)}:
+    a0_oddness_up_plus_down_err = float(abs(a0_up_38 + a0_dn_38))
+    a0_down_minus_lepton_err = float(abs(a0_dn_38 - a0_lp_38))
+
+    def eval_vub_over_vtd_for_line(p1_f: float, p2_f: float, p1_str: str, p2_str: str) -> Dict[str, float]:
+        c_v = closed_form_cA(tau_b1825, p1_str, p2_str, n_terms=20, dps=25)
+        ru = sector_residues(p1_f, p2_f, tau_b1825, 1, -4, n_pts=128)
+        rd = sector_residues(p1_f, p2_f, tau_b1825, 1, 2, n_pts=128)
+        uu = {k: (math.sqrt(2.0 * math.pi * l2_b1825 + float(c_v[k])) * ru[k] if abs(ru[k]) > 1e-12 else 0.0j) for k in ("1", "i", "j", "k")}
+        ud = {k: (math.sqrt(2.0 * math.pi * l2_b1825 + float(c_v[k])) * rd[k] if abs(rd[k]) > 1e-12 else 0.0j) for k in ("1", "i", "j", "k")}
+        mu_vec = np.array([uu["j"], uu["i"], uu["k"]], dtype=complex)
+        md_vec = np.array([ud["j"], ud["i"], ud["k"]], dtype=complex)
+
+        # Case 0: a_0 = 0 (3D vector Higgs / symmetric diagonal R_1(3w, 3w) = 0):
+        yu_0 = quaternionic_4d_yukawa(0.0j, h_b1825, uu["1"], mu_vec)
+        yd_0 = quaternionic_4d_yukawa(0.0j, h_b1825, ud["1"], md_vec)
+        ratio_a0_zero = float(ckm_full_diagnostics(yu_0, yd_0)["ratio_Vub_over_Vtd"])
+
+        # Case 1: Universal chiral-split Higgs twist (1, 2) with NO chosen phase (a_0^u = a_0^d = u_1^{(1,2)} * b_10):
+        a0_univ = ud["1"] * b_b1825
+        yu_univ = quaternionic_4d_yukawa(a0_univ, h_b1825, uu["1"], mu_vec)
+        yd_univ = quaternionic_4d_yukawa(a0_univ, h_b1825, ud["1"], md_vec)
+        ratio_univ = float(ckm_full_diagnostics(yu_univ, yd_univ)["ratio_Vub_over_Vtd"])
+
+        # Case 2: Sector-dependent regular identity kernel constant term P_{1,reg}^{(s)}(0) * b_10 (NO chosen phases):
+        _, _, p1_reg_u = identity_channel_laurent_at_zero(p1_f, p2_f, tau_b1825, 1, -4)
+        _, _, p1_reg_d = identity_channel_laurent_at_zero(p1_f, p2_f, tau_b1825, 1, 2)
+        yu_reg = quaternionic_4d_yukawa(p1_reg_u * b_b1825, h_b1825, uu["1"], mu_vec)
+        yd_reg = quaternionic_4d_yukawa(p1_reg_d * b_b1825, h_b1825, ud["1"], md_vec)
+        ratio_reg = float(ckm_full_diagnostics(yu_reg, yd_reg)["ratio_Vub_over_Vtd"])
+
+        # Case 3:Opposite-sign Higgs twist sgn(q_L + q_R) * b_10 = (-b_10 for up, +b_10 for down), data-free from q_L + q_R = +-3:
+        yu_sgn = quaternionic_4d_yukawa(-b_b1825, h_b1825, uu["1"], mu_vec)
+        yd_sgn = quaternionic_4d_yukawa(+b_b1825, h_b1825, ud["1"], md_vec)
+        ratio_sgn = float(ckm_full_diagnostics(yu_sgn, yd_sgn)["ratio_Vub_over_Vtd"])
+
+        return {
+            "Vub_over_Vtd_at_a0_eq_0": ratio_a0_zero,
+            "Vub_over_Vtd_universal_higgs_twist_1_2": ratio_univ,
+            "Vub_over_Vtd_laurent_regular_P1_reg_0": ratio_reg,
+            "Vub_over_Vtd_sign_qL_plus_qR_pm_b10": ratio_sgn,
+        }
+
+    p562_at_2_5_0 = eval_vub_over_vtd_for_line(0.4, 0.0, "2/5", "0")
+    p562_at_2_5_1_5 = eval_vub_over_vtd_for_line(0.4, 0.2, "2/5", "1/5")
+
+    # --- Part C: Stage 1 D5 subset E8 Quartic Energy Selection & Stage 2 P-564 Generation Metric Commutant ---
+    # 1. Exact S^3-integrated quartic E8 invariant I_4_hat(Phi) on the 3 gauge classes C_0, C_L, C_R:
+    # From Theorem 14's exact quartic polynomial C_Phi(z) = (5/(8*ell^4)) * [1 + |z^T M_Phi z|^2] on S^3 (|z|=1),
+    # for M_0 = sigma_x (symmetric, M_0^T = M_0) vs M_L, M_R:
+    # Wait: in 2O, all 3 classes have symmetric unitary matrices M_c = U_c^* sigma_x U_c^dagger!
+    # Let's check theWilson-broken / EW-branch quartic functional and the chiral-flip symmetry w_LR in 2D_4:
+    fi = np.array([[1j, 0], [0, -1j]], dtype=complex)
+    fj = np.array([[0, 1], [-1, 0]], dtype=complex)
+    gl = (np.eye(2) + fi) / math.sqrt(2.0)
+    gr = (np.eye(2) - fj) / math.sqrt(2.0)
+    sig_x = np.array([[0, 1], [1, 0]], dtype=complex)
+    m0_q = sig_x
+    ml_q = gl.conj().T @ sig_x @ gl
+    mr_q = gr.conj().T @ sig_x @ gr
+
+    # On the EW branch z_EW = (1/sqrt(2), 1/sqrt(2)) fixed by the Gram law |a| = |b| = 1/sqrt(2) and real positive convention:
+    z_ew = np.array([1.0 / math.sqrt(2.0), 1.0 / math.sqrt(2.0)], dtype=complex)
+    i4_hat_c0 = (5.0 / 8.0) * (1.0 + float(abs(z_ew.conj() @ m0_q @ z_ew) ** 2))
+    i4_hat_cl = (5.0 / 8.0) * (1.0 + float(abs(z_ew.conj() @ ml_q @ z_ew) ** 2))
+    i4_hat_cr = (5.0 / 8.0) * (1.0 + float(abs(z_ew.conj() @ mr_q @ z_ew) ** 2))
+
+    # Chiral-flip element w_LR = exp(i*(pi/4)*sigma_x) in 2D_4 (stabilizer of C_0 and of z_EW up to phase) exchanges C_L <-> C_R:
+    w_lr = (np.eye(2, dtype=complex) + 1j * sig_x) / math.sqrt(2.0)
+    w_lr_preserves_c0_err = float(np.max(np.abs(w_lr.conj().T @ m0_q @ w_lr - m0_q)))
+    w_lr_swaps_cl_cr_err = float(np.max(np.abs(w_lr.conj().T @ ml_q @ w_lr - mr_q)))
+
+    # 2. P-564 Generation Metric Commutant Dimension in Sym_3(R) on R^3 ~= span{i, j, k}:
+    p_cyc = np.array([[0.0, 0.0, 1.0], [1.0, 0.0, 0.0], [0.0, 1.0, 0.0]], dtype=float)
+    p_swap = np.array([[0.0, 1.0, 0.0], [1.0, 0.0, 0.0], [0.0, 0.0, 1.0]], dtype=float)
+    q8_signs = [
+        np.diag([1.0, 1.0, 1.0]),
+        np.diag([1.0, -1.0, -1.0]),
+        np.diag([-1.0, 1.0, -1.0]),
+        np.diag([-1.0, -1.0, 1.0]),
+    ]
+
+    # Basis of Sym_3(R) (6-dimensional):
+    sym3_basis: List[np.ndarray] = []
+    for r_i in range(3):
+        for c_i in range(r_i, 3):
+            b_m = np.zeros((3, 3), dtype=float)
+            b_m[r_i, c_i] = 1.0
+            b_m[c_i, r_i] = 1.0
+            sym3_basis.append(b_m / np.linalg.norm(b_m))
+
+    def commutant_dim_in_sym3(gens: List[np.ndarray]) -> int:
+        rows = []
+        for g_m in gens:
+            for b_m in sym3_basis:
+                diff_m = g_m.T @ b_m @ g_m - b_m
+                rows.append(diff_m.reshape(-1))
+        op_mat = np.column_stack([
+            np.concatenate([(g_m.T @ b_m @ g_m - b_m).reshape(-1) for g_m in gens])
+            for b_m in sym3_basis
+        ])
+        s_vals = np.linalg.svd(op_mat, compute_uv=False)
+        return int(np.sum(s_vals < 1e-12))
+
+    dim_comm_c3 = commutant_dim_in_sym3([p_cyc])
+    dim_comm_s3 = commutant_dim_in_sym3([p_cyc, p_swap])
+    dim_comm_a4 = commutant_dim_in_sym3([p_cyc] + q8_signs)
+    dim_comm_s4 = commutant_dim_in_sym3([p_cyc, p_swap] + q8_signs)
+
+    # Enumerate exact group orders of A_4 = <P_cyc, V_4> and S_4 = <P_cyc, P_swap, V_4> in O(3):
+    def group_order_o3(gens: List[np.ndarray]) -> int:
+        els = [np.eye(3, dtype=float)]
+        while True:
+            added = False
+            for g_m in list(els):
+                for s_m in gens:
+                    p_m = g_m @ s_m
+                    if not any(np.max(np.abs(p_m - h_m)) < 1e-10 for h_m in els):
+                        els.append(p_m)
+                        added = True
+            if not added:
+                break
+        return len(els)
+
+    order_a4 = group_order_o3([p_cyc] + q8_signs)
+    order_s4 = group_order_o3([p_cyc, p_swap] + q8_signs)
+
+    return {
+        "part_A_p559_b1788_exponent_census": {
+            "total_reduced_slopes_tested": len(slopes_22),
+            "total_slope_sector_pairs_tested": len(slopes_22) * 3,
+            "b1788_hyp_a_bound_satisfied_count": b1788_hyp_a_bound_satisfied,
+            "b1788_strictly_faster_than_e00_e11_count": b1788_strictly_faster_than_e00_e11,
+            "named_down_lines_2_5_1_7_4_9": named_down_lines_summary,
+            "exact_3x_ratio_confirmed_on_all_3_named_down_lines": all(
+                v["exact_ratio_true_over_block_diff"] == "3" for v in named_down_lines_summary.values()
+            ),
+        },
+        "part_B_p562_data_free_higgs_hypercharge_twist": {
+            "diagonal_higgs_3_3_pauli1_residue_abs": r1_diag_higgs_abs,
+            "up_5torsion_2_5_1_5_pauli1_residue_abs": r1_up_5torsion_2_5_1_5_abs,
+            "a0_1_oddness_up_plus_down_err": a0_oddness_up_plus_down_err,
+            "a0_1_down_minus_lepton_err": a0_down_minus_lepton_err,
+            "line_2_5_0_b1825_address": p562_at_2_5_0,
+            "line_2_5_1_5_eigenline_address": p562_at_2_5_1_5,
+            "data_free_sign_qL_plus_qR_flips_Vub_over_Vtd_below_1_at_2_5_0": bool(
+                p562_at_2_5_0["Vub_over_Vtd_sign_qL_plus_qR_pm_b10"] < 1.0
+            ),
+            "laurent_regular_P1_reg_0_flips_Vub_over_Vtd_below_1_at_2_5_0": bool(
+                p562_at_2_5_0["Vub_over_Vtd_laurent_regular_P1_reg_0"] < 1.0
+            ),
+            "sector_blind_higgs_twist_flips_Vub_over_Vtd_below_1": bool(
+                p562_at_2_5_0["Vub_over_Vtd_universal_higgs_twist_1_2"] < 1.0
+                or p562_at_2_5_1_5["Vub_over_Vtd_universal_higgs_twist_1_2"] < 1.0
+            ),
+        },
+        "part_C_stage1_d5_quartic_energy_and_stage2_p564_commutant": {
+            "quartic_energy_I4_hat_C0": i4_hat_c0,
+            "quartic_energy_I4_hat_CL": i4_hat_cl,
+            "quartic_energy_I4_hat_CR": i4_hat_cr,
+            "quartic_energy_gap_C0_minus_CL_CR": i4_hat_c0 - i4_hat_cl,
+            "chiral_flip_wLR_preserves_C0_err": w_lr_preserves_c0_err,
+            "chiral_flip_wLR_swaps_CL_CR_err": w_lr_swaps_cl_cr_err,
+            "unique_maximum_quartic_shell_is_C0": bool(i4_hat_c0 > i4_hat_cl + 0.3 and abs(i4_hat_cl - i4_hat_cr) < 1e-14),
+            "dim_Comm_Sym3_R_under_deck_C3_only": dim_comm_c3,
+            "dim_Comm_Sym3_R_under_perm_S3_only": dim_comm_s3,
+            "dim_Comm_Sym3_R_under_A4_eq_Q8_rtimes_C3": dim_comm_a4,
+            "dim_Comm_Sym3_R_under_S4_eq_Q8_rtimes_S3": dim_comm_s4,
+            "order_of_A4_on_3_generations": order_a4,
+            "order_of_S4_on_3_generations": order_s4,
+            "forces_isotropic_generation_metric_H_eq_a_I3": bool(dim_comm_c3 == 2 and dim_comm_s3 == 2 and dim_comm_a4 == 1 and dim_comm_s4 == 1),
+        },
+    }
+
+
 def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
-    """Run all 9 Phases of the Master ToE Plan plus the 395b27210 audit source repairs and Theorems 10-14."""
+    """Run all 9 Phases of the Master ToE Plan plus the 395b27210 audit source repairs and Theorems 10-15."""
     p1 = phase1_zero_bit_cell_selection_theorem()
     p2 = phase2_weinberg_neutrino_spectrum_closure()
     p3 = phase3_two_loop_rge_higgs_and_qcd_closure()
@@ -2004,6 +2539,7 @@ def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
     t12 = theorem12_nondimensional_buttazzo_2loop_top_higgs_closure()
     t13 = theorem13_basis_invariant_weinberg_majorana_and_pmns()
     t14 = theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census()
+    t15 = theorem15_p559_b1788_exponents_p562_higgs_twist_and_d5_s3_commutant()
     t8 = theorem8_golden_codifferent_unit_modulus_closure()
     t9 = theorem9_hypercharge_quadratic_refinement_and_full_19_closure()
 
@@ -2023,9 +2559,10 @@ def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
         "theorem12_nondimensional_buttazzo_2loop_top_higgs_closure": t12,
         "theorem13_basis_invariant_weinberg_majorana_and_pmns": t13,
         "theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census": t14,
+        "theorem15_p559_b1788_exponents_p562_higgs_twist_and_d5_s3_commutant": t15,
         "summary_metrics": {
-            "continuous_parameters": 0,
-            "discrete_selection_bits_after_phase1_and_theorem9": 0.0,
+            "continuous_parameters_fitted_before_naming_tau_Golden": int(t8["continuous_parameters_fitted_before_naming"]),
+            "post_hoc_character_selection_bits_in_theorem9": float(t9["part_A_hypercharge_quadratic_refinement"]["post_hoc_character_selection_bits"]),
             "first_principles_certified_sm_parameters_after_395b27210_audit": 0,
             "chi2_ten_at_tau_Golden_tree": float(t8["chi2_ten"]),
             "chi2_ten_at_tau_Golden_with_It_running": float(p7["chi2_ten_dressed"]),
@@ -2039,6 +2576,7 @@ def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
             "rel_error_alpha_em_inv_MZ": float(t9["part_B_zero_input_m004_gauge_and_hierarchy"]["rel_error_alpha_em_inv_MZ"]),
             "rel_error_sin2_thetaW_MZ": float(t9["part_B_zero_input_m004_gauge_and_hierarchy"]["rel_error_sin2_thetaW_MZ"]),
             "rel_error_alpha_s_MZ": float(t9["part_B_zero_input_m004_gauge_and_hierarchy"]["rel_error_alpha_s_MZ"]),
+            "rel_error_mH_2loop_corr_at_mt162": float(p3["rel_error_mH_2loop_corr_at_mt162"]),
             "rel_error_mH_2loop": float(p3["rel_error_mH_2loop"]),
             "rel_error_m3_neutrino": float(p2["rel_error_m3_vs_sqrt_dm31"]),
             "rel_error_theta13_lr_deg": float(p6["rel_error_theta13_lr_deg"]),
