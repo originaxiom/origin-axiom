@@ -18311,6 +18311,11 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - Every open row typed; only debts age; 59 debts ranked by load, P-355 first (B1830). 0 of 19.
 
+## 2026-11-03 — S298 the harvest
+
+- Every seat's branch read to its head (rows 1515–1543); the web seat's review verified and applied: B1825's bar grade NOT
+  FOUND, the mirror rule's 'closed' unearned, B1788's (b) scoped on four order-8 lines; four SM looks entered; P-591–P-593. 0 of 19.
+
 ## 2026-11-03 — S297 the triage rechecked
 
 - The owner's 'make sure … didn't miss anything load bearing': typings and closures stand (P-154, P-421 retyped debts);

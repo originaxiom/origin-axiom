@@ -88,3 +88,10 @@ independent audits, main's provenance check confirming the decisive one). 0 of 1
 > |h·h|/|h|² falling like e^(−π Im τ)). The agy lane's addition is the 1–2 angle's dependence, θ₁₂ ∝ r/(m₂/m₃) per
 > sector, and the corner inversion that follows from one shared r. The arc's credit line is read with this.*
 
+> *Dated note 2026-11-03 (S298, the web seat's review of 2026-11-03, verified on main):*
+> - *Item 2's "the vanishing is exact at finite τ on these slopes" holds where 12p₂ is an integer; hypothesis (b)'s σ_b vanishes identically at finite τ on these slopes only where 12p₂ is an integer (36 of the census's 40 lines on them); on the four order-8 lines (1/4, odd/8) it is nonzero off Re τ ∈ ℤ (∓0.10 at τ = 0.13 + 1.9i, 1.9 × 10⁻⁴ at Im τ 3.9) and vanishes only at Re τ ∈ ℤ and in the cusp limit, so (b) still fails there (the web seat's kernels note of 2026-11-03, reproduced on main with B1826's own functions, S298).*
+> - *§ 1.3's "a strong tendency, not a no-go" holds with equal readings and up steeper than down; over main's whole sample with equal readings the corner order is near a coin flip, |V_ub| < |V_td| at 0.486 of 1 456 points (B1827's scans/mirror_rule_structure2_out.txt).*
+
+> *Dated note 2026-11-03 (S298, the harvest of the physical-bridge lane's row 1538):*
+> - *Item 1's sector-blindness holds as stated, for the three charged sectors (twist ∓3; their norms agree to 7 × 10⁻¹² on three more lines, main, S298). It does not extend to the LL pair (twist ∓6), whose norms differ from them by order 10 (main, S298); B1799 is unaffected (B1795's split uses each sector's own twist).*
+> - *§ 2's "118.9 GeV by the independent lane and 118.83 GeV by the lane's own repair" are those lanes' values, not re-run here; the physical-bridge lane reads the agy repair's λ beta function as still off against Buttazzo et al. eq. 99 and the m_H formula as lacking pole matching, so neither value is certified. The refutation of 126.28 GeV stands.*

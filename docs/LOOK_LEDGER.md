@@ -57,7 +57,7 @@ sector is listed with its target.
 | B1795, B1799 | sealed (B1795) and data-free | the vector-like pairs; the neutrino's self-pairing | no measured number compared: not looks |
 | B1811 | sealed | the six at the four configurations the object's symmetry fixes, B1810's 13 directions (n = 1), B1667's radii; the decisive cell P1 AND P2 (the 47th look, m = 47 at the seal) | NEGATIVE as sealed (min χ²_six 4521.5; 9.8% of random hierarchies as low) |
 | B1814 | sealed | the six among the weave's own measure's resolved worlds, both clocks (B1813), the threads' own lines; three decisive cells D1, D1h, D2 (looks 50–52: the seal counted 53 conservatively; with THE EXACT END entered and THE FRAME NULL ruled not a look, m = 52; no grade changes) | NEGATIVE as sealed for D2 (the clocks not separated, p_F(A0) 0.069; power about 19%); D1, D1h hold, CONSISTENT, NOT SPECIFIC (r 0.73, 0.45) |
-| B1825 | sealed | the ten (the six, ∣V_us∣, ∣V_cb∣, ∣V_ub∣, ∣J∣) from one rigid address of the refined census (266 lines, twelve directions, both radii, eight readings, continuous τ, c = 3); the decisive cell S (the 53rd look, m = 53 at the seal) | NEGATIVE as sealed: NO SUPPORT (least χ²_ten 291.4 against 23.21; the six alone 1.36, the four alone 0.35, never together) |
+| B1825 | sealed | the ten (the six, ∣V_us∣, ∣V_cb∣, ∣V_ub∣, ∣J∣) from one rigid address of the refined census (266 lines, twelve directions, both radii, eight readings, continuous τ, c = 3); the decisive cell S (the 53rd look, m = 53 at the seal) | NEGATIVE as sealed: NO SUPPORT (least χ²_ten 291.4 against 23.21; the six alone 1.36, the four alone 0.35, never together) [S298: the bar's grade is NOT FOUND — S not found, T consistent, no V cell; B1825's dated note] |
 | B1798 | verification of B1749 and B1753 (R71-1; their class-choosing null) | the same data | not a new look |
 
 ## The web seat (chat1)
@@ -107,13 +107,17 @@ verifications of W133. P-323's sealed test, THE STRONG ANGLE IN THE MASS FRAME (
 | W164 (row 1429) | verification of B1786 (A0–A4, B, C1, C3; A2f re-estimates the measure) and one look (C2 (ii) and its post hoc read-out) | the six at orders 25 and 30; the carriers' recurrence | reproduces B1786; class-choosing null 0.0126 at m = 41; the +1/3 recurrence (P-399) |
 | W166 (row 1437) | one look: the nine at W158's 38 strip rows with the induced Higgs pair (H = K⁻¹·DR) | the nine | least 1 953; no row below the bar |
 | W170 (row 1441; rule 7e245cba1, 2026-10-28 05:36 UTC) | sealed, two looks: the nine at the state the frame's own potential selects (the line (2/5, ½) at Re τ = 0, one fitted height), and the strip rows with the same sealed pair | the nine | NEGATIVE: least χ²_nine 1 404 against 20.09 at the state; 212.5 at best at the strip; J = 0 exactly at the state (the mirror's fixed point) |
+| W179 (row 1498) | one look (entered S298; missed at S263): the frame's own D on every census line at the cusp and at τ = i, against P-094's window | D | the settled cusp limits tie down to leptons (D = 1); two unsettled pairs cross the window near Im τ 46 |
+| W180 (row 1499) | one look (entered S298): the exact kernel norms' split, D∞ against the window | D | the frozen-norm frame not the true frame (H0 failed on 98 pairs); every D∞ withheld |
+| W181 (row 1541; rule b2f0de70b) | sealed, one look: the cusp limits on the 49 integer-λ lines in the exact norms, c = 1 | D | 17 distinct limits, none within 3σ of the window |
+| W182 (row 1542; rule bd4061f45) | sealed, one look (C4): the 90 centre lines at the cusp ladder and τ = i, c = 1 | D | no D in [10.25, 10.91]; at τ = i 42 values, 0.117–4.95 |
 | W167, W169 (rows 1438, 1440) | the frame's one-loop potential on the line and on Re τ | no measured number compared | not looks (data enter only through the strip rows' heights) |
 | W168 (row 1439) | verification of the web seat's P-323 | — | not a new look |
 | W145, W89, W93, W96, W138, W141, W142 | verification | earlier arcs reproduced | not new looks |
 
 **The agy lane (another session's branch, 2026-10-26/27; P-390, audited in B1784):** its arcs compare the frame with the six
 and the nine post hoc and unsealed (agy:B1760's null, agy:B1762's laws, agy:B1763's weights, agy:B1764's τ*, agy:B1765–B1782's
-nineteen); none informed a main test, so none counts for a main grade; listed here so a later count sees them.
+nineteen); none informed a main test, so none counts for a main grade; listed here so a later count sees them. **Its audit branch (S298, row 1539):** an unsealed computation of y_b/y_t and θ̄ on the strip, y_b/y_t set against the measured m_b/m_t in its own variant — a prior look at P-585's held-out targets, counted in m_V (main has not read the values).
 
 **Another target in the frame (listed, not counted at the six):** the web seat's lepton test under PF1-W (row 1292; the lepton and neutrino sector).
 

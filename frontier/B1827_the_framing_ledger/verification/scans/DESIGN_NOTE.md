@@ -72,3 +72,5 @@ computed): the Higgs's hypercharge sign (the up and down sums q_L + q_R are −3
 lane's Theorem 11: (τ, c) → (−τ̄, −c̄)); a singlet imaginary relative to the triplet under the reading's conjugation (the
 reading maps (a0, h) → (a0*, h*), computed by hand here). Robustness running: singlet_robustness.py (fresh seeds; |a0|² =
 0.25, 1, 4 × |h·h|). The corner ratio becomes balanced (~0.9), not the measured 0.43: half the inversion's distance, not all.
+
+> *Dated note 2026-11-03 (S298, the web seat's review of 2026-11-03, verified on main): "CLOSED for the CKM" is an unearned negative; see B1827's FINDINGS, the dated note of this date. ∣V_ud∣ > 0.9, used in § 2, is a function of the graded four and was not among the disclosed facts.*

@@ -18,13 +18,13 @@
 | … NEGATIVE | 382 |
 | … OPEN | 94 |
 | … RETRACTED | 12 |
-| register points | 590 |
-| … QUEUED | 233 |
+| register points | 593 |
+| … QUEUED | 235 |
 | … LEAD | 10 |
 | … OWNER | 5 |
-| … DONE | 332 |
+| … DONE | 333 |
 | … DECLINED | 10 |
-| harvest rows (the last number) | 1514 |
+| harvest rows (the last number) | 1543 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -57,6 +57,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S298 THE HARVEST: EVERY SEAT'S BRANCH READ TO ITS HEAD; THE WEB SEAT'S REVIEW VERIFIED AND APPLIED — B1825's BAR GRADE IS NOT FOUND, THE MIRROR RULE'S 'CLOSED' UNEARNED, B1788's (b) SCOPED (2026-11-0…
 - S297 THE TRIAGE RECHECKED AT THE OWNER'S WORD: 20 STALE LAW-MAP ROWS, THE CANDIDATE'S END, THE NEGATIVES' SCALE, P-355's FIRST ITEM (2026-11-03)
 - S296 THE REGISTER TRIAGED: EVERY OPEN ROW TYPED, ONLY DEBTS AGE, THE 59 DEBTS RANKED BY LOAD (THE OWNER'S RULING ON P-587) (2026-11-03)
 - S295 THE CANDIDATE FAMILY's OWN RELATION D, CREDITED; THE REGISTER's LOAD MEASURED (2026-11-03)
@@ -64,11 +65,10 @@
 - S293 THE OWNER'S WORD ON B1814's BLIND RERUN, RELAYED TO THE SM SEAT (2026-11-03)
 - S292 THE EARNED DICTIONARY: GENESIS v1.60 — A FRAME MAY EARN ITS DICTIONARY BY HELD-OUT PREDICTION (THE OWNER'S RULING ON P-580) (2026-11-03)
 - S291 THE RECHECK AND THE RECOGNITION AUDIT: ONE S290 CLAIM RETRACTED; WOULD WE KNOW THE ANSWER? NOT AS THE TESTS ARE BUILT (2026-11-03)
-- S290 THE RELATION THAT LIFTS THE CORNERS: THE ADJUGATE READING; THE 45-LIKE SINGLET SPLITS THE SECOND GENERATION (2026-11-03)
 
 ## The latest campaign line
 
-LATEST (2026-11-03, S297: the triage re-checked at the owner's word. Every typing and every closure stood, except two points marked as ideas or housekeeping that are in fact owed checks; both are debts now. The re-check also found what a register cannot show: twenty rows of the law map still stated results that later work had corrected. The most important is that the candidate found at S294 holds only with an approximate formula for the boundary; with the exact one, the six masses fail. All twenty are corrected in place, the candidate is recorded as weaker, and the habit that let the corrections stall is written down (P-589). 0 of 19.)
+LATEST (2026-11-03, S298: every parallel seat's work read to its latest commit and recorded. The web seat's review of main was right on every point checked: the attempt of 31 October is graded NOT FOUND rather than NEGATIVE, a 'closed' route for the quark mixing was never closed (three counter-examples, reproduced), and a formula's scope written yesterday was too wide on four lines. All corrected in place. Nothing a seat sent is banked without main's own check; what is not yet checked is listed as owed. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

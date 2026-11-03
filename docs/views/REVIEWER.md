@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1534** |
-| words of findings prose | **1,278,347** |
+| words of findings prose | **1,279,216** |
 | test lock files referenced | **932** |
 | arcs carrying an authored verdict | **1534** (100.0 %) |
 | recorded closures | **858** (691 classified, 167 routed-only) |
@@ -69,8 +69,8 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE REGISTER TRIAGED (the owner's ruling on P-587, 2026-11-03: 'yes'): every open row typed DEBT, LEAD or PROCESS, only debts age, every open debt on a ranked list by load (point_debt.py rule 6, with a planted test). Five readers typed the 250 open rows; main verified every proposed closure: DONE P-386, P-495, P-502, P-503, P-510, P-520, P-521, P-522; P-292 merged into P-337; P-485, P-487, P-218 kept open. 59 debts, 141 leads, 41 process; 15 aged debts escalated; the debts ranked -- first those bearing on the strip candidate (P-355's D first), the live prediction P10 and B1825's machinery, then foundation statements, then checks, then premises. 0 of 19. [S297, rechecked at the owner's word: P-154 and P-421 retyped DEBT; 20 stale LAW_MAP rows corrected (P-588, P-589); new debts P-589, P-590]  
 `B1830_the_register_triaged/FINDINGS.md`
 
-**NEGATIVE — `B1825`** (1664 words, 0 locks)  
-THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings, continuous tau with Im tau in [1, 4], c = 3) no rigid address of FR-FIB carries our world's ten (the six mass ratios, |V_us|, |V_cb|, |V_ub|, |J|): the least chi2_ten is 291.4 against 23.21 (a fresh evaluation 291.5; refereed by an independent scan of every stored node). The six alone are reached (least chi2_six 1.36) and the four alone are reached (0.35 at a node), never together: no address whose six lie near the best reaches the four (rigorous enclosures), and K's bits_CKM is -194 (knowing our six makes the frame's prediction of our mixing 2^194 times worse). The wall was seen on narrower menus (B1713: masses and mixing together a factor 3.59; B1720: they do not meet); this seals it on the whole menu at sigma resolution. NOT FOUND within the reach; nothing excluded beyond it. 0 of 19.  
+**NEGATIVE — `B1825`** (1949 words, 0 locks)  
+THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings, continuous tau with Im tau in [1, 4], c = 3) no rigid address of FR-FIB carries our world's ten (the six mass ratios, |V_us|, |V_cb|, |V_ub|, |J|): the least chi2_ten is 291.4 against 23.21 (a fresh evaluation 291.5; refereed by an independent scan of every stored node). The six alone are reached (least chi2_six 1.36) and the four alone are reached (0.35 at a node), never together: no address whose six lie near the best reaches the four (rigorous enclosures), and K's bits_CKM is -194 (knowing our six makes the frame's prediction of our mixing 2^194 times worse). The wall was seen on narrower menus (B1713: masses and mixing together a factor 3.59; B1720: they do not meet); this seals it on the whole menu at sigma resolution. NOT FOUND within the reach; nothing excluded beyond it. 0 of 19. [S298: the bar's grade is NOT FOUND (S not found, T consistent, no V cell); NEGATIVE is the kill graph's category; scope at H = I (B1822)]  
 `B1825_step_b_the_nine_from_one_address/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  

@@ -16,7 +16,8 @@
   "B1814",
   "B1823",
   "B1713",
-  "B1720"
+  "B1720",
+  "B1822"
  ],
  "rests_on_seat": [],
  "cites_seat": [],
@@ -29,6 +30,6 @@
   "reach": "single",
   "hypotheses": "the census's reach (lines of order <= 12, Im tau <= 4), c = 3, the threshold chi2_10's 0.99 quantile and the floor 1e-12: CHOSEN; sealed fa25925fc"
  },
- "claim_one_line": "THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings, continuous tau with Im tau in [1, 4], c = 3) no rigid address of FR-FIB carries our world's ten (the six mass ratios, |V_us|, |V_cb|, |V_ub|, |J|): the least chi2_ten is 291.4 against 23.21 (a fresh evaluation 291.5; refereed by an independent scan of every stored node). The six alone are reached (least chi2_six 1.36) and the four alone are reached (0.35 at a node), never together: no address whose six lie near the best reaches the four (rigorous enclosures), and K's bits_CKM is -194 (knowing our six makes the frame's prediction of our mixing 2^194 times worse). The wall was seen on narrower menus (B1713: masses and mixing together a factor 3.59; B1720: they do not meet); this seals it on the whole menu at sigma resolution. NOT FOUND within the reach; nothing excluded beyond it. 0 of 19.",
+ "claim_one_line": "THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings, continuous tau with Im tau in [1, 4], c = 3) no rigid address of FR-FIB carries our world's ten (the six mass ratios, |V_us|, |V_cb|, |V_ub|, |J|): the least chi2_ten is 291.4 against 23.21 (a fresh evaluation 291.5; refereed by an independent scan of every stored node). The six alone are reached (least chi2_six 1.36) and the four alone are reached (0.35 at a node), never together: no address whose six lie near the best reaches the four (rigorous enclosures), and K's bits_CKM is -194 (knowing our six makes the frame's prediction of our mixing 2^194 times worse). The wall was seen on narrower menus (B1713: masses and mixing together a factor 3.59; B1720: they do not meet); this seals it on the whole menu at sigma resolution. NOT FOUND within the reach; nothing excluded beyond it. 0 of 19. [S298: the bar's grade is NOT FOUND (S not found, T consistent, no V cell); NEGATIVE is the kill graph's category; scope at H = I (B1822)]",
  "weave_or_thread": "thread (one rigid address)"
 }
