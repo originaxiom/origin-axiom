@@ -176,7 +176,7 @@ def main() -> int:
 
     # In stepb (assemble.py line 41), choices are sorted by (str(line), d, r, k)
     non_trivial_lines = sorted([l for l in lines if l != (F(0, 1), F(0, 1))], key=str)
-    kept_directions = ["DR", "a0", "F_6", "F_10", "F_14", "F_18", "F_22", "F_26", "F_-6", "F_-10", "R", "D2R"]
+    kept_directions = ["DR", "a0", "R", "t=-5/288", "F_-10", "F_-6", "F_6", "F_10", "F_14", "F_18", "F_22", "F_26"]
     radii_names = ["L_max", "L_2"]
     readings = [
         ("S", "S", "S"), ("S", "S", "S~"), ("S", "S~", "S"), ("S", "S~", "S~"),
@@ -209,7 +209,7 @@ def main() -> int:
     det_m_lep_12 = float(abs(np.linalg.det(B.coupling(Sm_12, B.weighted_M(u_12)))))
 
     # On the 48 order-12 lines, 12 directions * 2 radii * 8 readings = 9,216 total choices;
-    # the 10 complex directions (excluding R and D2R where J=0) give 48 * 10 * 2 * 8 = 7,680 choices in physical_choice
+    # the 10 complex directions (excluding R and t=-5/288 where J=0) give 48 * 10 * 2 * 8 = 7,680 choices in physical_choice
     order_12_total_choices = len(order_12_lines) * 12 * 2 * 8
     order_12_physical_choices = len(order_12_lines) * 10 * 2 * 8
 
@@ -222,10 +222,9 @@ def main() -> int:
             "radius": radii_names[rad_idx],
             "reading": list(readings[r_idx]),
             "note": (
-                "six_mixture calls windowed(..., physical=False) and selects choice 30900 "
-                "(((2/5, 0), D2R, L_max, S~SS)), a purely real direction where J = 0 identically "
-                "(so physical_choice[30900] is False), while K_ten ignores m['choice'] and integrates "
-                "num and den over all 50,880 discrete choices."
+                "six_mixture calls windowed(..., physical=False) (passing the two null directions R and t=-5/288 "
+                "where a.a == 0 and J = 0 identically) and selects choice 30900 (((2/5, 0), F_26, L_max, S~SS)), "
+                "while K_ten ignores m['choice'] and integrates num and den over all 29,063 rows in the tau-window across all discrete choices."
             ),
         },
         "defect_2B_massless_electron_choices_in_physical_choice": {

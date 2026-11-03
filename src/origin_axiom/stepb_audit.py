@@ -123,3 +123,57 @@ def strict_ten_physical_choice_mask(
     ok_f = np.where(np.isfinite(f10[rows]), f10[rows] >= lf, False)
     np.logical_and.at(zero10, jj, ~ok_f)
     return ~zero10.any(axis=1), zero10
+
+
+def repaired_stepb_k_cell_audit(
+    run_json_data: Dict[str, object],
+    per_file_manifest: Dict[str, str],
+) -> Dict[str, object]:
+    """Quantify the exact bit and choice-count corrections required for Step B v2 (Pillar 1):
+    1. Choice-coherent K_ten denominator vs run.json's all-choice sum:
+       In run.json, L_six = 36.828958267893995 and A_DISCRETE = log2(50880) = 15.634811066510738,
+       so choice 30900 has log2 integral log2(Q_30900) = -L_tau(30900) = -21.194147201383257.
+       However, kten.py line 203 computed den = lse2(m['I']) = -16.45902728787725 (summing over all
+       29,063 rows across all choices in the 6-ratio window), inflating den by +4.735120 bits
+       (choice 30900 carries only 2^-4.735120 = 3.755% of the 6-ratio window integral).
+    2. Strict 10-observable physical discrete choice count:
+       Removing the 10,880 null-direction choices (R and t=-5/288 where a.a == 0 and J == 0)
+       gives 40,000 CKM-defined choices; further removing the 48 order-12 massless-electron lines
+       (48 * 10 * 2 * 8 = 7,680 choices where m_e/m_tau == 0) leaves 32,320 strictly physical
+       10-observable choices (and 16,160 distinct quark/lepton choices after removing the 2:1
+       lepton-reading duplication of V_CKM).
+    """
+    k_cell = run_json_data["K"]
+    reports = k_cell["reports"]
+    n_total_choices = int(run_json_data["choices"])
+    n_ckm_physical = int(run_json_data["choices_physical"])
+    a_discrete_raw = math.log2(n_total_choices)
+
+    l_six = float(k_cell["L_six"])
+    l_tau_30900 = l_six - a_discrete_raw
+    log2_q_30900 = -l_tau_30900
+    den_all_choices = float(reports["six_report"]["total_bits"])
+    den_inflation_bits = den_all_choices - log2_q_30900
+    choice_30900_window_share = 2.0 ** (-den_inflation_bits)
+
+    o12 = count_order12_massless_electron_choices(per_file_manifest)
+    n_massless_e = int(o12["order_12_choices_in_physical_choice"])
+    n_strict_physical = n_ckm_physical - n_massless_e
+    n_dedup_strict_physical = n_strict_physical // 2
+
+    return {
+        "n_total_choices": n_total_choices,
+        "n_ckm_physical_choices": n_ckm_physical,
+        "n_massless_electron_choices_removed": n_massless_e,
+        "n_strict_ten_physical_choices": n_strict_physical,
+        "n_deduplicated_strict_physical_choices": n_dedup_strict_physical,
+        "A_discrete_raw_bits": a_discrete_raw,
+        "A_discrete_strict_physical_bits": math.log2(n_strict_physical),
+        "A_discrete_dedup_strict_bits": math.log2(n_dedup_strict_physical),
+        "log2_Q_30900": log2_q_30900,
+        "den_all_choices_bits": den_all_choices,
+        "den_inflation_bits": den_inflation_bits,
+        "choice_30900_share_of_six_window": choice_30900_window_share,
+        "ckm_clause_best_chi2_4_in_six_window": float(run_json_data["CKM"]["clause"]["best_chi2_4"]),
+    }
+

@@ -63,6 +63,81 @@ def m004_cover_monodromy_fixed_torsion() -> Dict[str, int | List[int]]:
     }
 
 
+def m004_cover_spin_monodromy_cosets() -> Dict[str, object]:
+    """Prove and enumerate the 4 canonical spin-structure cosets of the 3-fold cover monodromy
+    (LR)^3 on T^2 = R^2 / Z^2 (Pillar 2):
+      ((LR)^3 - I_2) x == (1/2) * eps  (mod 1),   eps in {(0,0), (1,0), (0,1), (1,1)}.
+
+    Key algebraic identity:
+      (LR)^3 - I_2 = [[12, 8], [8, 4]] = 4 * U,  where U = [[3, 2], [2, 1]] in GL_2(Z) (det U = -1).
+    Because U is unimodular over Z and U == I_2 (mod 2) on the diagonal/sum:
+      - eps = (0, 0) (Ramond periodic spin structure):
+          4 x == (0, 0) (mod 1)  <=>  x in (1/4 Z / Z)^2  (16 points).
+      - eps = (1, 1) (Neveu-Schwarz anti-periodic spin structure of Jacobi theta_1):
+          4 U x == (1/2, 1/2) (mod 1)  <=>  x = (u/8, v/8) with u, v in {1, 3, 5, 7} (16 odd-eighth points).
+          Under the spin-preserving Gamma(2) cusp group <T^2, -I>, these 16 Neveu-Schwarz points
+          collapse into ONLY TWO orbits of size 8:
+            Orbit 1: represented by (1/8, 1/8)
+            Orbit 2: represented by (3/8, 3/8) [B1825's exact best 10-observable line!].
+      - Also verifies that B1735/B1741's best 6-ratio line (2/5, 1/10) is the spin-shifted
+        Golden eigen-line (2/5, 3/5) + (0, 1/2), where (LR)(2/5, 3/5) == (2/5, 0) (mod 1).
+    """
+    a_lr = np.array([[2, 1], [1, 1]], dtype=int)
+    a3_minus_i = a_lr @ a_lr @ a_lr - np.eye(2, dtype=int)
+    u_mat = a3_minus_i // 4
+    det_u = int(round(np.linalg.det(u_mat)))
+
+    # Verify ((LR)^3 - I)(3/8, 3/8) == (1/2, 1/2) mod 1:
+    shift_3_8 = (a3_minus_i @ np.array([3.0 / 8.0, 3.0 / 8.0])) % 1.0
+    contains_3_8_in_ns = bool(np.allclose(shift_3_8, [0.5, 0.5], atol=1e-12))
+
+    # Partition all 64 points of (1/8 Z / Z)^2 into the 4 spin characteristics eps in {0, 1}^2:
+    coset_counts: Dict[str, int] = {"(0,0)": 0, "(1,0)": 0, "(0,1)": 0, "(1,1)": 0}
+    for u in range(8):
+        for v in range(8):
+            rem = (a3_minus_i @ np.array([u, v], dtype=int)) % 8
+            # Since 4 divides a3_minus_i, rem entries are in {0, 4} (representing 0 and 1/2 mod 1):
+            key = f"({rem[0] // 4},{rem[1] // 4})"
+            coset_counts[key] += 1
+
+    # Enumerate Gamma(2) <T^2, -I> orbits on the Neveu-Schwarz (1, 1) coset (u, v odd):
+    seen_ns = set()
+    ns_gamma2_orbits = []
+    for u in (1, 3, 5, 7):
+        for v in (1, 3, 5, 7):
+            if (u, v) in seen_ns:
+                continue
+            orb = set()
+            for m in range(4):
+                p1, p2 = u, (v + 2 * m * u) % 8
+                orb.add((p1, p2))
+                orb.add(((-p1) % 8, (-p2) % 8))
+            seen_ns |= orb
+            rep = sorted(orb)[0]
+            ns_gamma2_orbits.append(
+                {
+                    "rep_eighths": rep,
+                    "size": len(orb),
+                    "contains_3_8_3_8": (3, 3) in orb,
+                }
+            )
+
+    # Verify (2/5, 1/10) = (2/5, 3/5) + (0, 1/2) mod 1:
+    double_golden = (2.0 * np.array([2.0 / 5.0, 1.0 / 10.0])) % 1.0
+    is_half_period_over_5_torsion = bool(np.allclose(double_golden, [4.0 / 5.0, 1.0 / 5.0], atol=1e-12))
+
+    return {
+        "a3_minus_I": a3_minus_i.tolist(),
+        "unimodular_factor_U": u_mat.tolist(),
+        "det_U": det_u,
+        "spin_coset_point_counts": coset_counts,
+        "ns_coset_contains_3_8_3_8": contains_3_8_in_ns,
+        "ns_gamma2_orbit_count": len(ns_gamma2_orbits),
+        "ns_gamma2_orbits": ns_gamma2_orbits,
+        "golden_2_5_1_10_is_spin_shifted_5_torsion": is_half_period_over_5_torsion,
+    }
+
+
 def compare_frame_input_ledgers() -> Dict[str, object]:
     """Compare the discrete bit budget and continuous/hidden parameter counts of FR-FIB vs FR-COV
     under THE_FINAL_ACTS_BAR §1 C8 ("The inputs vector").

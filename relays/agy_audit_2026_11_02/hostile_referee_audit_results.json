@@ -2,7 +2,7 @@
   "audit_metadata": {
     "role": "Hostile Referee (Zero-Trust Independent Verification)",
     "branch_audited": "agy/audit-2026-11-02",
-    "runtime_seconds": 22.919202262997715
+    "runtime_seconds": 23.45520578400101
   },
   "area_1_b1825_readout_and_lagrange": {
     "chi2_ten_fresh_run_json": 291.4866623550638,
@@ -72,16 +72,16 @@
       "agy_KEPT_DIRECTIONS": [
         "DR",
         "a0",
+        "R",
+        "t=-5/288",
+        "F_-10",
+        "F_-6",
         "F_6",
         "F_10",
         "F_14",
         "F_18",
         "F_22",
-        "F_26",
-        "F_-6",
-        "F_-10",
-        "R",
-        "D2R"
+        "F_26"
       ],
       "true_cm_zero_line_KEPT_DIRECTIONS": [
         "DR",
@@ -97,7 +97,7 @@
         "F_22",
         "F_26"
       ],
-      "agy_decoded_direction_for_30900": "D2R",
+      "agy_decoded_direction_for_30900": "F_26",
       "true_decoded_direction_for_30900": "F_26",
       "true_d_column_value_in_census": 12,
       "line_for_30900": [

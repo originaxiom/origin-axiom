@@ -33,17 +33,26 @@ from origin_axiom.operator_gate import (
     lagrange_ckm_compromise,
     m004_three_fold_cover_invariants,
     quaternionic_4d_yukawa,
+    schur_quaternionic_bimodule_decomposition,
     serre_dr_dot_dr_eta6_identity,
     yukawa_4d_determinant_factorization,
+    z3_norm_preserving_scalar_higgs,
 )
 from origin_axiom.parameter_ledger import (
     compare_frame_input_ledgers,
     m004_cover_monodromy_fixed_torsion,
+    m004_cover_spin_monodromy_cosets,
     nineteen_parameter_impact_table,
+)
+from origin_axiom.sm_19_gate import (
+    evaluate_sm_19_gate,
+    inter_sector_yukawa_unification,
+    stabilized_modulus_candidates,
 )
 from origin_axiom.stepb_audit import (
     count_order12_massless_electron_choices,
     decode_stepb_choice_index,
+    repaired_stepb_k_cell_audit,
     strict_ten_physical_choice_mask,
 )
 
@@ -227,4 +236,82 @@ def test_theorem3_theorem4_and_19_parameter_ledger():
     assert len(table19) == 10
     all_names = [n for row in table19 for n in row["names"]]
     assert len(all_names) == 19
+
+
+def test_seven_pillars_sm_19_gate_preparation():
+    # Pillar 1: Repaired Step B K-cell audit and strict physical choice counts
+    manifest = json.loads(
+        (ROOT / "scripts/census/REFINED_CENSUS_MANIFEST.json").read_text(encoding="utf-8")
+    )["per_file"]
+    run_json = json.loads(
+        (ROOT / "frontier/B1825_step_b_the_nine_from_one_address/verification/run.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    k_audit = repaired_stepb_k_cell_audit(run_json, manifest)
+    assert k_audit["n_total_choices"] == 50880
+    assert k_audit["n_ckm_physical_choices"] == 40000
+    assert k_audit["n_massless_electron_choices_removed"] == 7680
+    assert k_audit["n_strict_ten_physical_choices"] == 32320
+    assert k_audit["n_deduplicated_strict_physical_choices"] == 16160
+    assert abs(float(k_audit["den_inflation_bits"]) - 4.735119929845) < 1e-10
+    assert not math.isfinite(float(k_audit["ckm_clause_best_chi2_4_in_six_window"]))
+
+    # Pillar 2: Spin-structure cosets of (LR)^3 - I = 4 U on M_3 -> m004
+    spin = m004_cover_spin_monodromy_cosets()
+    assert spin["det_U"] == -1
+    assert spin["spin_coset_point_counts"] == {"(0,0)": 16, "(1,0)": 16, "(0,1)": 16, "(1,1)": 16}
+    assert spin["ns_coset_contains_3_8_3_8"] is True
+    assert spin["ns_gamma2_orbit_count"] == 2
+    assert spin["golden_2_5_1_10_is_spin_shifted_5_torsion"] is True
+
+    # Pillar 3: Theorem 5 (Schur-Quaternionic Bimodule Decomposition) & Theorem 6 (Z_3 Norm-Preserving Scalar Higgs)
+    rng = np.random.default_rng(20261104)
+    for _ in range(15):
+        a0 = complex(rng.normal() + 1j * rng.normal())
+        h_vec = rng.normal(size=3) + 1j * rng.normal(size=3)
+        m1 = complex(rng.normal() + 1j * rng.normal())
+        m_perp = rng.normal(size=3) + 1j * rng.normal(size=3)
+        bim = schur_quaternionic_bimodule_decomposition(a0, h_vec, m1, m_perp)
+        assert float(bim["max_matrix_diff"]) < 1e-14
+        assert float(bim["det_A_rel_error"]) < 1e-13
+        assert float(bim["det_B_rel_error"]) < 1e-13
+
+    thm6 = z3_norm_preserving_scalar_higgs()
+    assert float(thm6["max_norm_deviation"]) < 1e-12
+
+    # Pillar 4: Inter-sector Yukawa unification (||R_down||_2 == ||R_lepton||_2 & m_b(M_Z)/m_tau(M_Z))
+    unif = inter_sector_yukawa_unification()
+    assert float(unif["b_tau_residue_norm_diff"]) < 1e-14
+    assert abs(float(unif["uv_yb_over_ytau"]) - 1.005894) < 1e-4
+    assert float(unif["rel_error_mb_over_mtau_MZ"]) < 0.01
+
+    # Pillar 6: Parameter-free modulus stabilization candidates
+    mods = stabilized_modulus_candidates()
+    assert mods["LR3_trace"] == 18
+    assert mods["LR3_discriminant"] == 320
+    assert abs(mods["tau_apex_LR3"][0] - 0.5) < 1e-14
+    assert abs(mods["tau_apex_LR3"][1] - 0.5 * math.sqrt(5.0)) < 1e-14
+    assert mods["continuous_parameters_when_stabilized"] == 0
+
+    # Pillar 5 & 7: Unified 0-19 SM Gate progression across FR-FIB, FR-COV+Thm6, and FR-COV+Thm6+1loop RG
+    gate19 = evaluate_sm_19_gate()
+    arms = gate19["arms_at_frozen_tau_star"]
+    fib = arms["FR_FIB_baseline"]
+    cov6 = arms["FR_COV_Theorem6_zero_param"]
+    cov6_rg = arms["FR_COV_Theorem6_plus_1loop_RG"]
+
+    assert abs(float(fib["chi2_ten"]) - 291.486662) < 1e-3
+    assert float(fib["Vub_over_Vtd"]) > 10.0
+
+    # Theorem 6 Z_3 norm-preserving scalar improves BOTH chi2_six and chi2_ckm at frozen tau* with 0 free parameters:
+    assert float(cov6["chi2_six"]) < float(fib["chi2_six"])
+    assert float(cov6["chi2_ckm"]) < float(fib["chi2_ckm"])
+    assert float(cov6["chi2_ten"]) < 230.0
+    assert float(cov6["Vub_over_Vtd"]) < 1.0
+
+    # Adding 1-loop SM top-Yukawa RG running drops chi2_ten further to ~161.70 at frozen tau*:
+    assert float(cov6_rg["chi2_ten"]) < 162.0
+    assert gate19["parameter_table_count"] == 19
+
 

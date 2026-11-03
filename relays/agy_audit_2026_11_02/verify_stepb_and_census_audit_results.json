@@ -103,14 +103,14 @@
         "2/5",
         "0"
       ],
-      "direction": "D2R",
+      "direction": "F_26",
       "radius": "L_max",
       "reading": [
         "S~",
         "S",
         "S"
       ],
-      "note": "six_mixture calls windowed(..., physical=False) and selects choice 30900 (((2/5, 0), D2R, L_max, S~SS)), a purely real direction where J = 0 identically (so physical_choice[30900] is False), while K_ten ignores m['choice'] and integrates num and den over all 50,880 discrete choices."
+      "note": "six_mixture calls windowed(..., physical=False) (passing the two null directions R and t=-5/288 where a.a == 0 and J = 0 identically) and selects choice 30900 (((2/5, 0), F_26, L_max, S~SS)), while K_ten ignores m['choice'] and integrates num and den over all 29,063 rows in the tau-window across all discrete choices."
     },
     "defect_2B_massless_electron_choices_in_physical_choice": {
       "order_12_lines_count": 48,
