@@ -1,21 +1,21 @@
 (1) the rank of the ten in (Re tau, Im tau), per branch
-    line (1/7, 2/7), tau 0.13+2.20i: 208 branches; max |sin| between two output gradients: median 0.996, minimum 0.515, below 0.1: 0
-    line (1/7, 2/7), tau 0.31+3.10i: 208 branches; max |sin| between two output gradients: median 0.993, minimum 0.480, below 0.1: 0
-    line (3/8, 3/8), tau 0.13+2.20i: 208 branches; max |sin| between two output gradients: median 1.000, minimum 0.684, below 0.1: 0
-    line (3/8, 3/8), tau 0.31+3.10i: 208 branches; max |sin| between two output gradients: median 0.998, minimum 0.464, below 0.1: 0
-    line (4/9, 1/3), tau 0.13+2.20i: 208 branches; max |sin| between two output gradients: median 0.997, minimum 0.328, below 0.1: 0
-    line (4/9, 1/3), tau 0.31+3.10i: 208 branches; max |sin| between two output gradients: median 0.989, minimum 0.447, below 0.1: 0
-    line (2/5, 1/10), tau 0.13+2.20i: 208 branches; max |sin| between two output gradients: median 1.000, minimum 0.974, below 0.1: 0
-    line (2/5, 1/10), tau 0.31+3.10i: 208 branches; max |sin| between two output gradients: median 0.998, minimum 0.490, below 0.1: 0
-    line (3/11, 5/11), tau 0.13+2.20i: 208 branches; max |sin| between two output gradients: median 1.000, minimum 0.759, below 0.1: 0
-    line (3/11, 5/11), tau 0.31+3.10i: 208 branches; max |sin| between two output gradients: median 0.997, minimum 0.484, below 0.1: 0
-    line (1/12, 0), tau 0.13+2.20i: 208 branches; max |sin| between two output gradients: median 0.998, minimum 0.423, below 0.1: 0
-    line (1/12, 0), tau 0.31+3.10i: 208 branches; max |sin| between two output gradients: median 0.996, minimum 0.549, below 0.1: 0
-    line (5/12, 1/4), tau 0.13+2.20i: 208 branches; max |sin| between two output gradients: median 0.999, minimum 0.986, below 0.1: 0
-    line (5/12, 1/4), tau 0.31+3.10i: 208 branches; max |sin| between two output gradients: median 0.997, minimum 0.814, below 0.1: 0
-    line (1/4, 1/8), tau 0.13+2.20i: 208 branches; max |sin| between two output gradients: median 0.996, minimum 0.142, below 0.1: 0
-    line (1/4, 1/8), tau 0.31+3.10i: 208 branches; max |sin| between two output gradients: median 0.974, minimum 0.134, below 0.1: 0
-    all: 3328 branches; minimum 0.134; below 0.1: 0
+    line (1/7, 2/7), tau 0.13+2.20i: 208 branches; max |sin| between two kept gradients: median 0.991, minimum 0.515, below 0.1: 0
+    line (1/7, 2/7), tau 0.31+3.10i: 208 branches; max |sin| between two kept gradients: median 0.946, minimum 0.480, below 0.1: 0
+    line (3/8, 3/8), tau 0.13+2.20i: 208 branches; max |sin| between two kept gradients: median 1.000, minimum 0.483, below 0.1: 0
+    line (3/8, 3/8), tau 0.31+3.10i: 208 branches; max |sin| between two kept gradients: median 0.995, minimum 0.129, below 0.1: 0
+    line (4/9, 1/3), tau 0.13+2.20i: 208 branches; max |sin| between two kept gradients: median 0.993, minimum 0.129, below 0.1: 0
+    line (4/9, 1/3), tau 0.31+3.10i: 208 branches; max |sin| between two kept gradients: median 0.974, minimum 0.300, below 0.1: 0
+    line (2/5, 1/10), tau 0.13+2.20i: 208 branches; max |sin| between two kept gradients: median 1.000, minimum 0.921, below 0.1: 0
+    line (2/5, 1/10), tau 0.31+3.10i: 208 branches; max |sin| between two kept gradients: median 0.994, minimum 0.402, below 0.1: 0
+    line (3/11, 5/11), tau 0.13+2.20i: 208 branches; max |sin| between two kept gradients: median 0.999, minimum 0.748, below 0.1: 0
+    line (3/11, 5/11), tau 0.31+3.10i: 208 branches; max |sin| between two kept gradients: median 0.994, minimum 0.247, below 0.1: 0
+    line (1/12, 0), tau 0.13+2.20i: 208 branches; max |sin| between two kept gradients: median 0.993, minimum 0.043, below 0.1: 8
+    line (1/12, 0), tau 0.31+3.10i: 208 branches; max |sin| between two kept gradients: median 0.877, minimum 0.099, below 0.1: 2
+    line (5/12, 1/4), tau 0.13+2.20i: 208 branches; max |sin| between two kept gradients: median 0.998, minimum 0.083, below 0.1: 8
+    line (5/12, 1/4), tau 0.31+3.10i: 208 branches; max |sin| between two kept gradients: median 0.995, minimum 0.065, below 0.1: 8
+    line (1/4, 1/8), tau 0.13+2.20i: 208 branches; max |sin| between two kept gradients: median 0.990, minimum 0.110, below 0.1: 0
+    line (1/4, 1/8), tau 0.31+3.10i: 208 branches; max |sin| between two kept gradients: median 0.969, minimum 0.116, below 0.1: 0
+    all: 3328 branches (1284 with an output below 1e-6 dropped); minimum 0.043; below 0.1: 26; below 1e-3: 0
 (2) the exact relations by line class, tau = 0.13 + 2.2i, DR, L_2, one reading in all sectors
     order  2 line (1/2, 0) reading S : up=down ratios equal, largest equal; down=lepton ratios equal, largest equal; up=lepton ratios equal, largest equal; V = 1
     order  2 line (1/2, 0) reading S~: up=down ratios equal, largest equal; down=lepton ratios equal, largest equal; up=lepton ratios equal, largest equal; V = 1
