@@ -1021,17 +1021,36 @@ def audit_area_8(dr_ser, a0_ser, area1) -> Dict[str, object]:
 
 
 def audit_area_9() -> Dict[str, object]:
-    """Area 9: Zero-trust audit of Theorem 9 and the 9-Phase Master ToE Closure (toe_closure.py),
-    including explicit separation of <3.2% parameter-free hits vs remaining discrete/theoretical caveats."""
+    """Area 9: Zero-trust audit of Theorem 9, the 9-Phase Master ToE Closure (toe_closure.py),
+    and independent verification of all counterchecks from the physical audit seat's commit 395b27210."""
     t9 = theorem9_hypercharge_quadratic_refinement_and_full_19_closure()
     sc = evaluate_full_toe_master_scorecard()
+    rep = sc["audit_395b27210_source_repairs_and_scope_corrections"]
 
     # Independently check Clausen volume Vol(m004) = 2 * Cl_2(pi/3) via mpmath polylog:
     vol_mp = float(2.0 * mp.im(mp.polylog(2, mp.exp(1j * mp.pi / 3.0))))
     vol_diff = abs(vol_mp - float(t9["part_B_zero_input_m004_gauge_and_hierarchy"]["vol_m004"]))
 
+    # Independent counterchecks (without calling producer functions):
+    # (a) U = [[1,2],[2,3]] on (2,0) mod 5 vs (2,1) mod 5, and det(A^3 - I_2):
+    u_mat = np.array([[1, 2], [2, 3]], dtype=int)
+    a3_mat = np.array([[13, 8], [8, 5]], dtype=int)
+    ind_u_2_0_mod5 = ((u_mat @ np.array([2, 0])) % 5).tolist()
+    ind_u_2_1_mod5 = ((u_mat @ np.array([2, 1])) % 5).tolist()
+    ind_det_a3_minus_i2 = int(round(np.linalg.det(a3_mat - np.eye(2))))
+
+    # (b) Independent mpmath check of |b_10(tau_Golden)|^2 vs |(1/4) eta(tau_Golden)^6|:
+    phi = (1.0 + math.sqrt(5.0)) / 2.0
+    tau_g = mp.mpc(1.0 / math.sqrt(5.0), phi * phi)
+    q_g = mp.exp(1j * mp.pi * tau_g)
+    th2_g, th3_g, th4_g = mp.jtheta(2, 0, q_g), mp.jtheta(3, 0, q_g), mp.jtheta(4, 0, q_g)
+    b10_sq_mp = float(abs(th4_g ** 20 + th2_g ** 20 - th3_g ** 20))
+    quarter_eta6_mp = float(abs(0.25 * ((0.5 * th2_g * th3_g * th4_g) ** 2)))
+    ind_ratio_b10_sq_over_eta6 = b10_sq_mp / quarter_eta6_mp
+
     return {
         "clausen_volume_mpmath_abs_diff": vol_diff,
+        "first_principles_certified_sm_parameters": 0,
         "theorem9_zero_bit_character_derivation_verified": bool(
             float(t9["part_A_hypercharge_quadratic_refinement"]["max_abs_diff_vs_theorem7_roots"]) < 1e-15
         ),
@@ -1050,40 +1069,41 @@ def audit_area_9() -> Dict[str, object]:
         "phase8_m_tau_PeV": sc["phase8_dynamical_modulus_stabilization"]["m_tau_PeV_pred"],
         "phase9_eta_B_pred": sc["phase9_cosmological_baryogenesis_and_dark_matter"]["eta_B_pred"],
         "phase9_Omega_DM_over_Omega_b_pred": sc["phase9_cosmological_baryogenesis_and_dark_matter"]["Omega_DM_over_Omega_b_pred"],
+        "independent_395b27210_counterchecks": {
+            "U_on_2_0_mod5": ind_u_2_0_mod5,
+            "U_on_2_1_mod5_true_eigenline": ind_u_2_1_mod5,
+            "det_A3_minus_I2": ind_det_a3_minus_i2,
+            "mpmath_b10_sq_at_tau_Golden": b10_sq_mp,
+            "mpmath_quarter_eta6_at_tau_Golden": quarter_eta6_mp,
+            "mpmath_ratio_b10_sq_over_quarter_eta6": ind_ratio_b10_sq_over_eta6,
+            "corrected_Buttazzo_mH_1loop_GeV_at_mt162": rep["finding6_and_9_corrected_buttazzo_rge_and_xing_zhou_sign"]["mH_1loop_corr_GeV_at_mt162"],
+            "corrected_Buttazzo_mH_2loop_GeV_at_mt162": rep["finding6_and_9_corrected_buttazzo_rge_and_xing_zhou_sign"]["mH_2loop_corr_GeV_at_mt162"],
+            "true_downward_Xing_Zhou_chi2_ten": rep["finding6_and_9_corrected_buttazzo_rge_and_xing_zhou_sign"]["chi2_ten_true_downward_Xing_Zhou_at_J0_0p0823"],
+            "arg_det_Yu_Yd_rad_at_tau_Golden": rep["finding10_actual_quark_determinant_phase"]["arg_det_Yu_Yd_rad"],
+            "pmns_Ve_prime_T_Ue_minus_I3_under_rhs_rotation": rep["finding8_pmns_right_handed_basis_countercheck"]["max_diff_Ve_prime_T_Ue_from_I3"],
+        },
         "hostile_referee_zero_fabrication_audit_notes": {
-            "verified_parameter_free_hits": [
-                "m_t / m_b = 60.238 vs 60.246 (-0.0135%)",
-                "|V_us| = 0.22492 vs C3_target 0.22501 (-0.041%)",
-                "m_b / m_tau = 1.6399 vs 1.6380 (+0.114%)",
-                "m_t(pole) = 172.48 GeV vs 172.69 GeV (-0.12%)",
-                "sin^2(theta_W)(M_Z) = 0.23158 vs 0.23122 (+0.16%)",
-                "M_Pl_reduced = 2.4401e18 GeV vs 2.4354e18 GeV (+0.194%)",
-                "Omega_DM / Omega_b = 5 + phi^-2 = 5.3820 vs Planck 5.3643 (+0.329%)",
-                "alpha_EM^-1(M_Z) = 128.559 vs 127.951 (+0.48%)",
-                "m_mu / m_tau (with +1.0*I_t) = 0.01953 vs C3_target 0.01962 (-0.50%)",
-                "m_d / m_b (with +1.5*I_t) = 9.342e-4 vs C3_target 9.405e-4 (-0.66%)",
-                "rho_DE = 2.819e-47 GeV^4 vs 2.80e-47 GeV^4 (+0.68%)",
-                "m_H^(2-loop) = 126.28 GeV vs 125.25 GeV (+0.82%)",
-                "sin^2(theta_12^PMNS) = 0.3098 vs 0.307 (+0.91%, +0.22 sigma)",
-                "m_c / m_t (with +1.0*I_t) = 3.729e-3 vs C3_target 3.685e-3 (+1.19%)",
-                "|V_ub| = 0.003686 vs C3_target 0.003732 (-1.23%)",
-                "|V_cb| = 0.04244 vs C3_target 0.04183 (+1.45%)",
-                "alpha_s(M_Z) = 0.11976 vs 0.11790 (+1.57%)",
-                "eta_B (baryon-to-photon) = 6.216e-10 vs Planck 6.12e-10 (+1.57%)",
-                "|J_CKM| = 3.181e-5 vs C3_target 3.120e-5 (+1.96%)",
-                "m_3(nu) = 51.43 meV vs 50.11 meV (+2.63%)",
-                "m_e / m_tau (tree-level) = 8.617e-4 vs C3_target 8.384e-4 (+2.78%)",
-                "m_u / m_t (with -2.0*I_t) = 7.524e-6 vs C3_target 7.310e-6 (+2.93%)",
-                "theta_13^PMNS (Dirac LR overlap) = 8.792 deg vs 8.54 deg (+2.95%)",
-                "m_s / m_b (with +2.0*I_t) = 0.01813 vs C3_target 0.01872 (-3.16%)",
-                "theta_23^PMNS (Dirac LR overlap) = 50.98 deg vs 49.1 deg (+3.82%, +1.44 sigma)",
-                "delta_CP^PMNS = 205.15 deg vs NuFIT 197 deg (+4.14%, +0.30 sigma)",
+            "verified_algebraic_theorems_and_identities": rep["preserved_valid_results"],
+            "candidate_numerical_consistency_relations_with_explicit_scope": [
+                "m_t / m_b = 60.238 vs 60.246 (-0.0135%, evaluated at candidate tau_Golden)",
+                "|V_us| = 0.22492 vs C3_target 0.22501 (-0.041%, evaluated at candidate tau_Golden)",
+                "m_b / m_tau = 1.6399 vs 1.6380 (+0.114%, evaluated at candidate tau_Golden with c=3)",
+                "m_t(M_Z cascade) = 172.48 GeV vs pole 172.69 GeV (-0.12%, imports empirical m_tau(M_Z))",
+                "sin^2(theta_W)(M_Z) = 0.23158 vs 0.23122 (+0.16%, proposed Vol(m004) boundary ansatz)",
+                "M_Pl_reduced = 2.4401e18 GeV vs 2.4354e18 GeV (+0.194%, proposed Vol(M_3) exponent ansatz, imports M_Z)",
+                "Omega_DM / Omega_b = 5 + phi^-2 = 5.3820 vs Planck 5.3643 (+0.329%, heuristic ratio ansatz)",
+                "alpha_EM^-1(M_Z) = 128.559 vs 127.951 (+0.48%, proposed Vol(m004) boundary ansatz)",
+                "rho_DE = 2.819e-47 GeV^4 vs 2.80e-47 GeV^4 (+0.68%, B1782 formula with M_Pl_reduced)",
+                "alpha_s(M_Z) = 0.11976 vs 0.11790 (+1.57%, proposed Vol(m004) + tau_RS boundary ansatz)",
+                "|J_CKM| = 3.181e-5 vs C3_target 3.120e-5 (+1.96%, evaluated at candidate tau_Golden)",
             ],
-            "explicit_remaining_residuals_and_caveats": [
-                "Phase 7 discrete anomalous-dimension assignment duty: While the 1-loop RGE integral I_t = 0.098446 is parameter-free, the half-integer weights gamma_six = (+1, -2, +2, +3/2, +1, 0) that reduce chi2_ten from 7.7606 -> 0.2399 must be derived from first principles via the 2-loop cusp Kahler wave-function counterterms on M_3 -> m004.",
-                "Phase 6 PMNS row/column seesaw permutation caveat: Row 2 of |U_e^dagger V_e|^2 gives (|U_e1|^2, |U_e2|^2, |U_e3|^2) = (0.6677, 0.3090, 0.0234) and Column 0 gives sin^2(theta_23) = 0.6035; unifying both simultaneously into standard PDG column ordering requires the non-trivial Type-I seesaw permutation between right-handed Majorana eigenstates and left-handed charged leptons.",
-                "Phase 9 semi-analytic washout caveat: Thermal leptogenesis eta_B = 6.216e-10 uses the geometric washout efficiency kappa_f = 1 / (K * Vol(m004)) at K = m_2 / m_* = 7.403; full precision requires integrating the coupled Boltzmann equations with flavour effects.",
-                "One overall dimensionful reference scale: All dimensionful masses in GeV are anchored to 1 overall reference scale (M_Z = 91.1876 GeV / v_EW = 246.22 GeV), which defines the human GeV unit.",
+            "explicit_395b27210_counterchecks_and_blockers": [
+                "Phase 1 eigenline & A^3 - I_2 monodromy defect: U(2,0)^T = (2,4)^T != 2(2,0)^T mod 5 (true lambda=2 eigenline of U is (2/5, 1/5) and of U_0 is (3/5, 1/5)), and det(A^3 - I_2) = -16 = 4 != 0 mod 5, so no rank-1 abelian order-5 character is fixed by A^3.",
+                "Golden modulus tau_Golden = 1/sqrt(5) + i*phi^2 and Phase 8 potential V_mod(x,y): tau_Golden was identified after seeing the numerical optimum tau* = 0.44643 + 2.60792i, and V_mod hard-codes (x*, y*) rather than deriving it from a spectral action.",
+                "Quadratic refinement & lepton determinant norm: chi'(k_R) = (-1)^k_R exp(i*pi*k_R^2/4) shares the same bilinear polarization as chi(k_R) while differing at k_R = +1, and c_e = -1 gives |det(S_e)| / |h_10.h_10| = 2.0.",
+                "Corrected Buttazzo et al. (arXiv:1307.3536) 2-loop RGE rate (f1 = 1/(4*pi), f2 = 1/(64*pi^3)): fixing the factor-of-2 rate bug on d(y_t^2)/dt and d(lambda)/dt gives m_H^(1-loop, corr) = 124.31 GeV and m_H^(2-loop, corr) = 118.83 GeV (at m_t(MSbar) = 162.31 GeV), and true downward Xing-Zhou top-dominance running raises chi2_ten at tau_Golden from 7.7606 -> 25.6441.",
+                "Strong CP phase on complex background: arg det(Y_u Y_d) at tau_Golden evaluates to -2.92191 rad != 0.",
+                "PMNS right-handed basis countercheck & F_10 vs DR scalar mismatch: under Y_e -> Y_e W^dagger (W = U_e^* V_e^dagger), Y_e Y_e^dagger is unchanged while V_e'^T U_e -> I_3; and on F_10, |b_10|^2 = 0.021434 whereas |(1/4) eta^6| = 0.004092 (ratio 5.2378x).",
             ],
         },
     }

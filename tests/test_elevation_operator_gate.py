@@ -493,6 +493,38 @@ def test_five_phase_master_toe_closure():
     assert float(p9["rel_error_eta_B"]) < 0.02                # +1.57% (6.216e-10 vs 6.12e-10)
     assert float(p9["rel_error_Omega_DM_over_Omega_b"]) < 0.004  # +0.33% (5.3820 vs 5.3643)
 
+    # Audit 395b27210 source repairs and counterchecks:
+    rep = sc["audit_395b27210_source_repairs_and_scope_corrections"]
+    f1 = rep["finding1_phase1_eigenline_and_monodromy_defect"]
+    assert f1["point_2_5_0_is_NOT_on_lambda2_eigenline_of_U"] is True
+    assert f1["U_on_2_1_mod5"] == [4, 2]
+    assert f1["U0_on_3_1_mod5"] == [1, 2]
+    assert f1["det_A3_minus_I2"] == -16
+    assert f1["no_nonzero_rank1_order5_character_fixed_by_A3"] is True
+    assert f1["gamma2_matrix_1_2_6_13_links_1_8_and_3_8"] is True
+
+    f3 = rep["finding3_quadratic_refinement_and_lepton_det_norm"]
+    assert abs(float(f3["lepton_det_S_e_over_h_dot_h_norm_ratio"]) - 2.0) < 1e-12
+
+    f69 = rep["finding6_and_9_corrected_buttazzo_rge_and_xing_zhou_sign"]
+    assert abs(float(f69["mH_1loop_corr_GeV_at_mt162"]) - 124.31) < 0.1
+    assert abs(float(f69["mH_2loop_corr_GeV_at_mt162"]) - 118.83) < 0.1
+    assert float(f69["chi2_ten_true_downward_Xing_Zhou_at_J0_0p0823"]) > 25.0
+
+    f8 = rep["finding8_pmns_right_handed_basis_countercheck"]
+    assert float(f8["max_diff_Ye_Ye_dagger_under_rhs_rotation"]) < 1e-13
+    assert float(f8["max_diff_Ve_prime_T_Ue_from_I3"]) < 1e-13
+    assert f8["is_frame_dependent_diagnostic"] is True
+
+    f9 = rep["finding9_f10_vs_dr_eta6_countercheck"]
+    assert abs(float(f9["ratio_b10_sq_over_quarter_eta6"]) - 5.2378) < 0.01
+
+    f10 = rep["finding10_actual_quark_determinant_phase"]
+    assert f10["is_nonzero_on_complex_background"] is True
+    assert abs(float(f10["arg_det_Yu_Yd_rad"]) - (-2.9219)) < 0.01
+    assert sc["summary_metrics"]["first_principles_certified_sm_parameters_after_395b27210_audit"] == 0
+
+
 
 
 

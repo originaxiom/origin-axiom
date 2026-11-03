@@ -2,7 +2,7 @@
   "audit_metadata": {
     "role": "Hostile Referee (Zero-Trust Independent Verification)",
     "branch_audited": "agy/audit-2026-11-02",
-    "runtime_seconds": 35.28713854899979
+    "runtime_seconds": 35.09544651499891
   },
   "area_1_b1825_readout_and_lagrange": {
     "chi2_ten_fresh_run_json": 291.4866623550638,
@@ -706,6 +706,7 @@
   },
   "area_9_theorem_9_and_five_phase_toe_closure": {
     "clausen_volume_mpmath_abs_diff": 0.0,
+    "first_principles_certified_sm_parameters": 0,
     "theorem9_zero_bit_character_derivation_verified": true,
     "phase1_unique_order_N_in_2_to_12": [
       5
@@ -724,40 +725,54 @@
     "phase8_m_tau_PeV": 48.827436006185955,
     "phase9_eta_B_pred": 6.177136312943787e-10,
     "phase9_Omega_DM_over_Omega_b_pred": 5.381966011250105,
-    "hostile_referee_zero_fabrication_audit_notes": {
-      "verified_parameter_free_hits": [
-        "m_t / m_b = 60.238 vs 60.246 (-0.0135%)",
-        "|V_us| = 0.22492 vs C3_target 0.22501 (-0.041%)",
-        "m_b / m_tau = 1.6399 vs 1.6380 (+0.114%)",
-        "m_t(pole) = 172.48 GeV vs 172.69 GeV (-0.12%)",
-        "sin^2(theta_W)(M_Z) = 0.23158 vs 0.23122 (+0.16%)",
-        "M_Pl_reduced = 2.4401e18 GeV vs 2.4354e18 GeV (+0.194%)",
-        "Omega_DM / Omega_b = 5 + phi^-2 = 5.3820 vs Planck 5.3643 (+0.329%)",
-        "alpha_EM^-1(M_Z) = 128.559 vs 127.951 (+0.48%)",
-        "m_mu / m_tau (with +1.0*I_t) = 0.01953 vs C3_target 0.01962 (-0.50%)",
-        "m_d / m_b (with +1.5*I_t) = 9.342e-4 vs C3_target 9.405e-4 (-0.66%)",
-        "rho_DE = 2.819e-47 GeV^4 vs 2.80e-47 GeV^4 (+0.68%)",
-        "m_H^(2-loop) = 126.28 GeV vs 125.25 GeV (+0.82%)",
-        "sin^2(theta_12^PMNS) = 0.3098 vs 0.307 (+0.91%, +0.22 sigma)",
-        "m_c / m_t (with +1.0*I_t) = 3.729e-3 vs C3_target 3.685e-3 (+1.19%)",
-        "|V_ub| = 0.003686 vs C3_target 0.003732 (-1.23%)",
-        "|V_cb| = 0.04244 vs C3_target 0.04183 (+1.45%)",
-        "alpha_s(M_Z) = 0.11976 vs 0.11790 (+1.57%)",
-        "eta_B (baryon-to-photon) = 6.216e-10 vs Planck 6.12e-10 (+1.57%)",
-        "|J_CKM| = 3.181e-5 vs C3_target 3.120e-5 (+1.96%)",
-        "m_3(nu) = 51.43 meV vs 50.11 meV (+2.63%)",
-        "m_e / m_tau (tree-level) = 8.617e-4 vs C3_target 8.384e-4 (+2.78%)",
-        "m_u / m_t (with -2.0*I_t) = 7.524e-6 vs C3_target 7.310e-6 (+2.93%)",
-        "theta_13^PMNS (Dirac LR overlap) = 8.792 deg vs 8.54 deg (+2.95%)",
-        "m_s / m_b (with +2.0*I_t) = 0.01813 vs C3_target 0.01872 (-3.16%)",
-        "theta_23^PMNS (Dirac LR overlap) = 50.98 deg vs 49.1 deg (+3.82%, +1.44 sigma)",
-        "delta_CP^PMNS = 205.15 deg vs NuFIT 197 deg (+4.14%, +0.30 sigma)"
+    "independent_395b27210_counterchecks": {
+      "U_on_2_0_mod5": [
+        2,
+        4
       ],
-      "explicit_remaining_residuals_and_caveats": [
-        "Phase 7 discrete anomalous-dimension assignment duty: While the 1-loop RGE integral I_t = 0.098446 is parameter-free, the half-integer weights gamma_six = (+1, -2, +2, +3/2, +1, 0) that reduce chi2_ten from 7.7606 -> 0.2399 must be derived from first principles via the 2-loop cusp Kahler wave-function counterterms on M_3 -> m004.",
-        "Phase 6 PMNS row/column seesaw permutation caveat: Row 2 of |U_e^dagger V_e|^2 gives (|U_e1|^2, |U_e2|^2, |U_e3|^2) = (0.6677, 0.3090, 0.0234) and Column 0 gives sin^2(theta_23) = 0.6035; unifying both simultaneously into standard PDG column ordering requires the non-trivial Type-I seesaw permutation between right-handed Majorana eigenstates and left-handed charged leptons.",
-        "Phase 9 semi-analytic washout caveat: Thermal leptogenesis eta_B = 6.216e-10 uses the geometric washout efficiency kappa_f = 1 / (K * Vol(m004)) at K = m_2 / m_* = 7.403; full precision requires integrating the coupled Boltzmann equations with flavour effects.",
-        "One overall dimensionful reference scale: All dimensionful masses in GeV are anchored to 1 overall reference scale (M_Z = 91.1876 GeV / v_EW = 246.22 GeV), which defines the human GeV unit."
+      "U_on_2_1_mod5_true_eigenline": [
+        4,
+        2
+      ],
+      "det_A3_minus_I2": -16,
+      "mpmath_b10_sq_at_tau_Golden": 0.02143382094956159,
+      "mpmath_quarter_eta6_at_tau_Golden": 0.004092119913954258,
+      "mpmath_ratio_b10_sq_over_quarter_eta6": 5.2378281673690905,
+      "corrected_Buttazzo_mH_1loop_GeV_at_mt162": 124.28653203358998,
+      "corrected_Buttazzo_mH_2loop_GeV_at_mt162": 118.8331148284251,
+      "true_downward_Xing_Zhou_chi2_ten": 25.644110090460348,
+      "arg_det_Yu_Yd_rad_at_tau_Golden": -2.9219104157510416,
+      "pmns_Ve_prime_T_Ue_minus_I3_under_rhs_rotation": 8.881827939631607e-16
+    },
+    "hostile_referee_zero_fabrication_audit_notes": {
+      "verified_algebraic_theorems_and_identities": [
+        "Theorem 1: Exact Hurwitz-Lerch / digamma closed form for twisted cusp norms c_s(tau, w).",
+        "Theorems 2, 3, 5: Exact 4D quaternionic Yukawa determinant factorization det(Y) = (a_0^2 + h.h)(m_1^2 + m.m)(a_0 m_1 + h.m) and Schur bimodule decomposition.",
+        "Theorem 4: Exact Serre derivative q-series identity d_R . d_R == (1/4) eta(tau)^6.",
+        "Conditional N=5 congruence: (-3, 6) == (2, 1) mod N <=> N | 5.",
+        "Phase 5 Lorentzian algebra: det(x_0 I_2 + i x.Q) = x_0^2 - |x|^2 and Riley-Thurston figure-eight relation over Z[omega].",
+        "Golden texture candidate at tau_Golden = 1/sqrt(5) + i*phi^2 (chi2_ten = 7.7606 at I_top = 0) retained as a numerical candidate with explicit input/selection pricing."
+      ],
+      "candidate_numerical_consistency_relations_with_explicit_scope": [
+        "m_t / m_b = 60.238 vs 60.246 (-0.0135%, evaluated at candidate tau_Golden)",
+        "|V_us| = 0.22492 vs C3_target 0.22501 (-0.041%, evaluated at candidate tau_Golden)",
+        "m_b / m_tau = 1.6399 vs 1.6380 (+0.114%, evaluated at candidate tau_Golden with c=3)",
+        "m_t(M_Z cascade) = 172.48 GeV vs pole 172.69 GeV (-0.12%, imports empirical m_tau(M_Z))",
+        "sin^2(theta_W)(M_Z) = 0.23158 vs 0.23122 (+0.16%, proposed Vol(m004) boundary ansatz)",
+        "M_Pl_reduced = 2.4401e18 GeV vs 2.4354e18 GeV (+0.194%, proposed Vol(M_3) exponent ansatz, imports M_Z)",
+        "Omega_DM / Omega_b = 5 + phi^-2 = 5.3820 vs Planck 5.3643 (+0.329%, heuristic ratio ansatz)",
+        "alpha_EM^-1(M_Z) = 128.559 vs 127.951 (+0.48%, proposed Vol(m004) boundary ansatz)",
+        "rho_DE = 2.819e-47 GeV^4 vs 2.80e-47 GeV^4 (+0.68%, B1782 formula with M_Pl_reduced)",
+        "alpha_s(M_Z) = 0.11976 vs 0.11790 (+1.57%, proposed Vol(m004) + tau_RS boundary ansatz)",
+        "|J_CKM| = 3.181e-5 vs C3_target 3.120e-5 (+1.96%, evaluated at candidate tau_Golden)"
+      ],
+      "explicit_395b27210_counterchecks_and_blockers": [
+        "Phase 1 eigenline & A^3 - I_2 monodromy defect: U(2,0)^T = (2,4)^T != 2(2,0)^T mod 5 (true lambda=2 eigenline of U is (2/5, 1/5) and of U_0 is (3/5, 1/5)), and det(A^3 - I_2) = -16 = 4 != 0 mod 5, so no rank-1 abelian order-5 character is fixed by A^3.",
+        "Golden modulus tau_Golden = 1/sqrt(5) + i*phi^2 and Phase 8 potential V_mod(x,y): tau_Golden was identified after seeing the numerical optimum tau* = 0.44643 + 2.60792i, and V_mod hard-codes (x*, y*) rather than deriving it from a spectral action.",
+        "Quadratic refinement & lepton determinant norm: chi'(k_R) = (-1)^k_R exp(i*pi*k_R^2/4) shares the same bilinear polarization as chi(k_R) while differing at k_R = +1, and c_e = -1 gives |det(S_e)| / |h_10.h_10| = 2.0.",
+        "Corrected Buttazzo et al. (arXiv:1307.3536) 2-loop RGE rate (f1 = 1/(4*pi), f2 = 1/(64*pi^3)): fixing the factor-of-2 rate bug on d(y_t^2)/dt and d(lambda)/dt gives m_H^(1-loop, corr) = 124.31 GeV and m_H^(2-loop, corr) = 118.83 GeV (at m_t(MSbar) = 162.31 GeV), and true downward Xing-Zhou top-dominance running raises chi2_ten at tau_Golden from 7.7606 -> 25.6441.",
+        "Strong CP phase on complex background: arg det(Y_u Y_d) at tau_Golden evaluates to -2.92191 rad != 0.",
+        "PMNS right-handed basis countercheck & F_10 vs DR scalar mismatch: under Y_e -> Y_e W^dagger (W = U_e^* V_e^dagger), Y_e Y_e^dagger is unchanged while V_e'^T U_e -> I_3; and on F_10, |b_10|^2 = 0.021434 whereas |(1/4) eta^6| = 0.004092 (ratio 5.2378x)."
       ]
     }
   }
