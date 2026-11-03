@@ -1,0 +1,204 @@
+{
+  "date_utc": "2026-11-03T10:29:06.487439+00:00",
+  "status": "UNREVIEWED_SOURCE_AND_HAND_PROOF_AUDIT_FOR_REVIEW_SHARING",
+  "author_branch": "audit/physical-bridge-2026-09-05",
+  "author_parent_commit": "e19aa4ddcd67628e974fcb6eed2875257776c9b2",
+  "agy_commit": "dcae538abd0a90cb3a024e793de10703fd971f8e",
+  "independent_audit_commit": "2dbfe96dc113c7cca64326e5c326502b17ba5918",
+  "origin_main_commit_at_fetch": "64a2a3d4e80194fb93ca8b21a668c85fd97cdf51",
+  "scientific_execution": {
+    "imports": false,
+    "collection": false,
+    "tests": false,
+    "quadrature": false,
+    "rge_integration": false,
+    "cas": false
+  },
+  "review_method": [
+    "Git source reading",
+    "ordinary hand algebra",
+    "primary-literature comparison",
+    "stdlib AST and hash metadata"
+  ],
+  "design_timing": "Post-inspection review; no preregistration or blind certificate claimed",
+  "new_hand_proofs_independently_reviewed": false,
+  "raw_B1825_output_opened": false,
+  "blinding_limit": "AGY prose/code and the independent audit tail exposed quoted B1825 values; no blindness to those values is claimed.",
+  "inherited_stage_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "inherited_stage_path_count": 49,
+  "function_metadata": [
+    {
+      "name": "theorem10_amphichiral_a3_involution_and_t8_cusp_equivalence",
+      "first_line": 884,
+      "last_line": 1033
+    },
+    {
+      "name": "theorem11_amphichiral_conjugation_and_strong_cp_reality",
+      "first_line": 1036,
+      "last_line": 1146
+    },
+    {
+      "name": "theorem12_nondimensional_buttazzo_2loop_top_higgs_closure",
+      "first_line": 1149,
+      "last_line": 1363
+    },
+    {
+      "name": "theorem13_basis_invariant_weinberg_majorana_and_pmns",
+      "first_line": 1366,
+      "last_line": 1463
+    }
+  ],
+  "source_inventory": [
+    {
+      "commit": "dcae538abd0a90cb3a024e793de10703fd971f8e",
+      "path": "src/origin_axiom/toe_closure.py",
+      "sha256": "6fc5fac0655dc05280b6c55eac081b65681e04c743c0b0b9abd4b1c5530ff628",
+      "bytes": 80283,
+      "lines": 1525,
+      "read_scope": "Theorems 10-13 lines 884-1463 and their scorecard; predecessor dependency audit reused",
+      "cached_bytes_matched_if_present": true
+    },
+    {
+      "commit": "dcae538abd0a90cb3a024e793de10703fd971f8e",
+      "path": "src/origin_axiom/sm_19_gate.py",
+      "sha256": "ab52696d487635372d27e11bc152fadf752504bb41e1f05ccff8f0db4c8e0377",
+      "bytes": 44244,
+      "lines": 982,
+      "read_scope": "Scalar square root, sector residues, Theorem 8 inter-sector dependencies; previous audit reused",
+      "cached_bytes_matched_if_present": true
+    },
+    {
+      "commit": "dcae538abd0a90cb3a024e793de10703fd971f8e",
+      "path": "src/origin_axiom/twisted_norms.py",
+      "sha256": "187ce8e8da977301053d006c48aec3b7f8538cd2bd0e50c8e1a859a2c881e94d",
+      "bytes": 7155,
+      "lines": 160,
+      "read_scope": "Complete 160-line charged-sector norm source",
+      "cached_bytes_matched_if_present": true
+    },
+    {
+      "commit": "dcae538abd0a90cb3a024e793de10703fd971f8e",
+      "path": "src/origin_axiom/operator_gate.py",
+      "sha256": "eccd338da490c020e0ca69644369e69c16462662e392486bb92d2998798c968f",
+      "bytes": 23466,
+      "lines": 564,
+      "read_scope": "Quaternionic Yukawa formula and prior complete source audit reused",
+      "cached_bytes_matched_if_present": true
+    },
+    {
+      "commit": "dcae538abd0a90cb3a024e793de10703fd971f8e",
+      "path": "tests/test_elevation_operator_gate.py",
+      "sha256": "14bc78cde0efcec21c39243fe7a156b8dfdbbce365c708723484631357af4c07",
+      "bytes": 28885,
+      "lines": 590,
+      "read_scope": "New theorem assertions lines 527-581 and adjacent prior assertions",
+      "cached_bytes_matched_if_present": true
+    },
+    {
+      "commit": "dcae538abd0a90cb3a024e793de10703fd971f8e",
+      "path": "frontier/B1691_the_exponents_at_the_two_fixed_points/verification/correction/b1656_funcs.py",
+      "sha256": "31f09c433c14312d9cee8cfa29a632a72ce13fc46ae838757bf9b22958f22528",
+      "bytes": 7926,
+      "lines": 130,
+      "read_scope": "Complete general bilinear, residue and norm source",
+      "cached_bytes_matched_if_present": true
+    },
+    {
+      "commit": "dcae538abd0a90cb3a024e793de10703fd971f8e",
+      "path": "frontier/B1663_the_pull_backs_strength/FINDINGS.md",
+      "sha256": "41b719c6dbec6c7a0ce5f24ae7f80cc9f6892728f943aa5939b047b3fe01d1e1",
+      "bytes": 7154,
+      "lines": 86,
+      "read_scope": "Citation-scope check",
+      "cached_bytes_matched_if_present": true
+    },
+    {
+      "commit": "dcae538abd0a90cb3a024e793de10703fd971f8e",
+      "path": "relays/AGY_TO_PHYSICAL_AND_CC_2026-11-03_395B27210_AUDIT_ACCEPTED_AND_SOURCE_REPAIRS.md",
+      "sha256": "2280cec144be8085d333764b3ae0331d89b5d02a247472618d0e78419cd01289",
+      "bytes": 13506,
+      "lines": 93,
+      "read_scope": "Complete accepted-audit response",
+      "cached_bytes_matched_if_present": true
+    },
+    {
+      "commit": "dcae538abd0a90cb3a024e793de10703fd971f8e",
+      "path": "relays/AGY_TO_PHYSICAL_AND_CC_2026-11-03_GUARDRAIL_VERIFIED_THEOREMS_10_TO_13_AND_SM_CLOSURE.md",
+      "sha256": "ce815e6fbd089b3cb2af5516616996a4ee2a99b50d34ece558801bf2d95159ff",
+      "bytes": 10406,
+      "lines": 68,
+      "read_scope": "Complete theorem relay",
+      "cached_bytes_matched_if_present": true
+    },
+    {
+      "commit": "dcae538abd0a90cb3a024e793de10703fd971f8e",
+      "path": "relays/agy_audit_2026_11_02/hostile_referee_audit.py",
+      "sha256": "7959dc9c52519aeb1f42c6e844677eadbcee12294fe2bfe555119d4a1e44bc3b",
+      "bytes": 65769,
+      "lines": 1222,
+      "read_scope": "Area 9 lines 1023-1155 and dependency entry points",
+      "cached_bytes_matched_if_present": true
+    },
+    {
+      "commit": "dcae538abd0a90cb3a024e793de10703fd971f8e",
+      "path": "relays/agy_audit_2026_11_02/verify_closed_form_c.py",
+      "sha256": "da80897be676b3fe82c847a31b2c57318bbdbe1d847259bf1e10671695e4b3b5",
+      "bytes": 9835,
+      "lines": 233,
+      "read_scope": "Norm verification definitions and claimed charged-sector scope",
+      "cached_bytes_matched_if_present": false
+    },
+    {
+      "commit": "dcae538abd0a90cb3a024e793de10703fd971f8e",
+      "path": "relays/agy_audit_2026_11_02/hostile_referee_audit_results.json",
+      "sha256": "a49762f9502f7b9425c0d1a1f9578c7d819848be3f37aa5562936bc8eccf86cf",
+      "bytes": 33055,
+      "lines": 789,
+      "read_scope": "Selected Theorem 10-13 and accepted-audit output fields only; received evidence",
+      "cached_bytes_matched_if_present": false
+    },
+    {
+      "commit": "2dbfe96dc113c7cca64326e5c326502b17ba5918",
+      "path": "audit_independent/theorems_10_13/REPORT_THEOREMS_10_13.md",
+      "sha256": "8c845fb5dd80e46694c28fdbf559974d87556d7432c7b40322872c3f8cfc5231",
+      "bytes": 8820,
+      "lines": 88,
+      "read_scope": "Complete theorem report",
+      "cached_bytes_matched_if_present": false
+    },
+    {
+      "commit": "2dbfe96dc113c7cca64326e5c326502b17ba5918",
+      "path": "audit_independent/theorems_10_13/t10_13_check.py",
+      "sha256": "75e2efbe3e7870c05033c4571bc2d4b914463bea3143bcc226584dd196396d0e",
+      "bytes": 12440,
+      "lines": 208,
+      "read_scope": "208-line source with special attention to beta at 109-123 and matching at 161-167",
+      "cached_bytes_matched_if_present": false
+    },
+    {
+      "commit": "2dbfe96dc113c7cca64326e5c326502b17ba5918",
+      "path": "audit_independent/AUDIT_REPORT_2026-11-03.md",
+      "sha256": "b40f47e7c6b3caec612880435d2a8a6b740b17e300c4b8419ae8a4b0d14b4e81",
+      "bytes": 20498,
+      "lines": 195,
+      "read_scope": "Tail including cross-seat summary; additional quoted B1825 values exposed",
+      "cached_bytes_matched_if_present": false
+    }
+  ],
+  "literature_access_date": "2026-11-03",
+  "literature": [
+    {
+      "url": "https://arxiv.org/html/1307.3536v4",
+      "scope": "Appendix B equations 96-101, Table 1, matching sections and input conventions"
+    },
+    {
+      "url": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-axions.pdf",
+      "scope": "Section 89.2.1"
+    },
+    {
+      "url": "https://people.maths.ox.ac.uk/beem/papers/modular_forms_notes.pdf",
+      "scope": "Sections 3.2-3.4 and theta/eta identities"
+    }
+  ],
+  "report_sha256": "2757ed3e7e4626dddd0317e1a116c40ad1280274914540be6364592d728b5bb4"
+}

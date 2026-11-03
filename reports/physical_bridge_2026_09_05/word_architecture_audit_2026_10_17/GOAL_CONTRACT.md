@@ -1337,6 +1337,22 @@ full registered geometric/field transition and end law, with these tests
 available to reject both an unjustified fixed-state demand and a false
 identification of all equal-norm configurations.
 
+## November 3 recheck of AGY Theorems 10–13
+
+The [pinned successor audit](agy_theorems_10_13_audit_2026_11_03/REPORT.md)
+reviews AGY at dcae538ab and the newly fetched independent audit at
+2dbfe96dc. It preserves the inverse-character orbit, an explicit authored
+rank-two abelian extension, the corrected RGE rate and the symmetric
+LL tensor's scalar cancellation and mixing covariance. It identifies
+remaining quartic coefficient/term errors, scalar square-root transition
+duties, strong-CP dynamics and actual LL normalization duties. Numerical
+outputs are received evidence, not rerun by this lane. This is an
+UNREVIEWED source/hand-proof checkpoint, with its sender-branch relay.
+No scientific checks were imported, collected or executed and no input
+is marked paid. The full registered physical bundle and end law remain
+the constructive priority, retaining the inverse-character route rather
+than extending a rank-one failure into an architectural exclusion.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
