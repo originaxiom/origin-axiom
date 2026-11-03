@@ -19,6 +19,12 @@ THE RULE (checked here)
 4. QUEUED names a slot Q<n> defined in the queue table; LEAD names an L<n> registered in docs/OPEN_LEADS.md and a slot.
 5. A QUEUED or LEAD row whose `moved` date is more than STALE_DAYS old fails, unless its `where` carries
    ESCALATED(YYYY-MM-DD: next action) dated within STALE_DAYS. A row without a valid date is stale.
+   [2026-11-03, the owner's ruling on P-587] This applies to DEBT rows only (rule 6).
+6. TYPED (the owner, 2026-11-03, P-587: "yes" to main's proposal): every QUEUED or LEAD row's `where` carries exactly one
+   type tag -- [DEBT] (a result the record uses is owed a check or a correction), [LEAD] (an idea, a question, a computation
+   not done; nothing current rests on it) or [PROCESS] (tooling, documents, harvests, governance). Only debts age. Every
+   open DEBT row is named in the register's ranked list (the section headed "## The debts, by load"), and that list names
+   only open DEBT rows: debts are worked in that order.
 The clock is the real date; OA_POINT_TODAY=YYYY-MM-DD overrides it for tests. OA_POINT_REGISTER overrides the file.
 """
 from __future__ import annotations
@@ -38,6 +44,8 @@ DISPOSITIONS = {"DONE", "QUEUED", "LEAD", "OWNER", "DECLINED"}
 ROW_RE = re.compile(r"^\|\s*(P-\d{3})\s*\|(.*)\|\s*$")
 SLOT_RE = re.compile(r"^\|\s*(Q\d+)\s*\|")
 ESC_RE = re.compile(r"ESCALATED\((\d{4}-\d{2}-\d{2})")
+TYPE_RE = re.compile(r"\[(DEBT|LEAD|PROCESS)\]")
+RANK_HEAD = "## The debts, by load"
 PATH_RE = re.compile(r"(?<![\w/.-])((?:docs|frontier|scripts|tests|papers|reports)/[\w./-]+\.\w+|GENESIS\.md)")
 
 
@@ -51,6 +59,20 @@ def _date(s: str):
         return datetime.date.fromisoformat(s.strip())
     except ValueError:
         return None
+
+
+def ranked(text: str):
+    """the P-ids of the ranked debt list, in order (the numbered lines under RANK_HEAD, up to the next heading)"""
+    out, inside = [], False
+    for line in text.splitlines():
+        if line.startswith(RANK_HEAD):
+            inside = True; continue
+        if inside and line.startswith("## "):
+            break
+        if inside:
+            m = re.match(r"^\s*\d+\.\s+\**(P-\d{3})\b", line)
+            if m: out.append(m.group(1))
+    return out
 
 
 def parse(text: str):
@@ -110,13 +132,26 @@ def check(text: str, root: pathlib.Path = ROOT, leads_text: str | None = None, t
                         fails.append(f"{pid}: {lead} not registered in OPEN_LEADS")
                 if not re.search(r"\bL\d+\b", where):
                     fails.append(f"{pid}: LEAD without an L-number")
+            types = set(TYPE_RE.findall(where))
+            if len(types) != 1:
+                fails.append(f"{pid}: {disp} row {'untyped' if not types else 'with two types'} -- tag it [DEBT], [LEAD] or [PROCESS] (rule 6)")
+            typ = next(iter(types)) if len(types) == 1 else "?"
             d = _date(moved)
             esc = [_date(e) for e in ESC_RE.findall(where)]
             fresh_esc = any(e and (today - e).days <= STALE_DAYS for e in esc)
             age = (today - d).days if d else None
-            if (age is None or age > STALE_DAYS) and not fresh_esc:
-                fails.append(f"{pid}: {disp} unmoved {age if age is not None else '?'} days (> {STALE_DAYS}) without ESCALATED")
-            open_rows.append((pid, sorted(named)[0] if named else "?", age))
+            if typ == "DEBT" and (age is None or age > STALE_DAYS) and not fresh_esc:
+                fails.append(f"{pid}: {disp} DEBT unmoved {age if age is not None else '?'} days (> {STALE_DAYS}) without ESCALATED")
+            open_rows.append((pid, sorted(named)[0] if named else "?", age, typ))
+    rank = ranked(text)
+    debts = {pid for pid, _, _, t in open_rows if t == "DEBT"}
+    for pid in sorted(debts - set(rank)):
+        fails.append(f"{pid}: an open DEBT missing from the ranked list ({RANK_HEAD!r})")
+    for pid in rank:
+        if pid not in debts:
+            fails.append(f"the ranked list names {pid}, which is not an open DEBT row")
+    if len(rank) != len(set(rank)):
+        fails.append("the ranked list names a row twice")
     return fails, open_rows, rows
 
 
@@ -125,9 +160,13 @@ def main(argv=None) -> int:
     if not path.exists():
         print("point-debt: docs/POINT_REGISTER.md missing"); return 1
     fails, open_rows, rows = check(path.read_text(encoding="utf-8"))
-    nxt = min((int(q[1:]), q) for _, q, _ in open_rows if q != "?")[1] if open_rows else "none"
-    oldest = max((a for _, _, a in open_rows if a is not None), default=0)
-    print(f"point-debt: {len(rows)} points, {len(open_rows)} open (oldest {oldest} days), next slot {nxt}")
+    text = path.read_text(encoding="utf-8")
+    rank = ranked(text)
+    by = {t: [r for r in open_rows if r[3] == t] for t in ("DEBT", "LEAD", "PROCESS", "?")}
+    oldest = max((a for _, _, a, t in open_rows if t == "DEBT" and a is not None), default=0)
+    print(f"point-debt: {len(rows)} points, {len(open_rows)} open -- {len(by['DEBT'])} debts (oldest {oldest} days), "
+          f"{len(by['LEAD'])} leads, {len(by['PROCESS'])} process" + (f", {len(by['?'])} untyped" if by['?'] else "")
+          + f"; next debt {rank[0] if rank else 'none'}")
     for f in fails:
         print("  FAIL", f)
     return 1 if fails else 0

@@ -1,0 +1,26 @@
+{
+ "id": "B1830",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1829",
+  "B1825",
+  "B1787",
+  "B1823"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record's governance: docs/POINT_REGISTER.md and its gate",
+  "object": "the 250 open QUEUED and LEAD rows, typed and triaged",
+  "reach": "general",
+  "hypotheses": "the owner's ruling of 2026-11-03 on P-587 ('yes'); the readers' KEEP is 'not confirmed paid'"
+ },
+ "claim_one_line": "THE REGISTER TRIAGED (the owner's ruling on P-587, 2026-11-03: 'yes'): every open row typed DEBT, LEAD or PROCESS, only debts age, every open debt on a ranked list by load (point_debt.py rule 6, with a planted test). Five readers typed the 250 open rows; main verified every proposed closure: DONE P-386, P-495, P-502, P-503, P-510, P-520, P-521, P-522; P-292 merged into P-337; P-485, P-487, P-218 kept open. 59 debts, 141 leads, 41 process; 15 aged debts escalated; the debts ranked -- first those bearing on the strip candidate (P-355's D first), the live prediction P10 and B1825's machinery, then foundation statements, then checks, then premises. 0 of 19.",
+ "weave_or_thread": "weave (the record's governance)"
+}

@@ -1,5 +1,9 @@
 # Changelog
 
+## S296 THE REGISTER TRIAGED: EVERY OPEN ROW TYPED, ONLY DEBTS AGE, THE 59 DEBTS RANKED BY LOAD (THE OWNER'S RULING ON P-587) (2026-11-03)
+
+- **The owner's ruling (P-587, 'yes'), B1830:** every open register row typed [DEBT], [LEAD] or [PROCESS]; only debts age; every open debt on a ranked list by load (point_debt.py rule 6, a planted test added). Five readers typed the 250 open rows; main verified every proposed closure: DONE P-386, P-495, P-502, P-503, P-510, P-520, P-521, P-522; P-292 merged into P-337; P-485, P-487, P-218 kept open; P-321 retyped a debt. 59 debts, 141 leads, 41 process; 15 aged debts escalated with their next action; the debts ranked — the strip candidate's (P-355's D first), the live prediction P10's, B1825's machinery, then foundation statements, checks, premises. The push block of 2026-11-04 averted. 0 of 19.
+
 ## S295 THE CANDIDATE FAMILY's OWN RELATION D, CREDITED; THE REGISTER's LOAD MEASURED (2026-11-03)
 
 - **Correction (seen first, missed at S294):** B1829's candidate family THE SIX ON THE STRIP is already in about 3σ tension with D = (m_μ/m_e)(m_d/m_s) = 10.58 ± 0.11 (P-094) at its best rows — 10.92 (B1753), 10.94 (B1749), up to 4.3σ (B1741) — and 9 at 14σ where lepton = down (P-355); the 10% allowance hides it. REGRADE.md, B1829's FINDINGS, P-585, P-355.

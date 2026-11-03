@@ -59,7 +59,7 @@ def test_planted_defects_each_fire(tmp_path):
     cases = {
         "disposition": text.replace(first_done, first_done.replace("| DONE |", "| MAYBE |")),
         "does not exist": text.replace(first_done, first_done.replace("| DONE |", "| DONE |").replace("B1640 cell A;", "docs/NO_SUCH_FILE.md;")),
-        "not defined": text.replace(first_q, first_q.replace("| QUEUED | Q", "| QUEUED | Q99 Q")),
+        "not defined": text.replace(first_q, first_q.replace("| QUEUED | ", "| QUEUED | Q99 ", 1)),
     }
     for needle, planted in cases.items():
         r = _run(planted, tmp_path)
@@ -71,8 +71,31 @@ def test_a_stale_queued_point_fails_and_escalation_clears_it(tmp_path):
     far = (datetime.date(2026, 10, 13) + datetime.timedelta(days=60)).isoformat()
     r = _run(text, tmp_path, today=far)
     assert r.returncode == 1 and "without ESCALATED" in r.stdout
-    q = next(l for l in text.splitlines() if l.startswith("| P-") and "| QUEUED |" in l)
+    q = next(l for l in text.splitlines() if l.startswith("| P-") and "| QUEUED |" in l and "[DEBT]" in l)
     pid = q.split("|")[1].strip()
     escalated = text.replace(q, q.replace("| QUEUED | ", f"| QUEUED | ESCALATED({far}: next action named) "))
     r2 = _run(escalated, tmp_path, today=far)
     assert pid + ":" not in r2.stdout and pid + ":" in r.stdout
+
+
+def test_typing_rule_6(tmp_path):
+    """the owner, 2026-11-03 (P-587): every open row typed; only debts age; every open debt ranked, the ranking only debts"""
+    text = REGISTER.read_text(encoding="utf-8")
+    lines = text.splitlines()
+    lead = next(l for l in lines if l.startswith("| P-") and "| QUEUED |" in l and "[LEAD]" in l)
+    debt = next(l for l in lines if l.startswith("| P-") and "| QUEUED |" in l and "[DEBT]" in l)
+    lead_id, debt_id = lead.split("|")[1].strip(), debt.split("|")[1].strip()
+    # an untyped open row fails
+    r = _run(text.replace(lead, lead.replace("[LEAD]", "")), tmp_path)
+    assert r.returncode == 1 and "untyped" in r.stdout
+    # a lead does not age: sixty days on, no lead row is reported stale
+    far = (datetime.date(2026, 11, 3) + datetime.timedelta(days=60)).isoformat()
+    r = _run(text, tmp_path, today=far)
+    assert lead_id + ": QUEUED DEBT unmoved" not in r.stdout and lead_id + ":" not in r.stdout
+    # a debt missing from the ranked list fails, and a ranked id that is not an open debt fails
+    rank_line = next(l for l in lines if l.lstrip().split(" ")[0].rstrip(".").isdigit() and debt_id in l.split("—")[0])
+    r = _run(text.replace(rank_line + "\n", ""), tmp_path)
+    assert r.returncode == 1 and debt_id + ": an open DEBT missing from the ranked list" in r.stdout
+    r = _run(text.replace(rank_line, rank_line.replace(debt_id, lead_id, 1)), tmp_path)
+    assert r.returncode == 1 and "which is not an open DEBT row" in r.stdout
+

@@ -13,17 +13,17 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1533 |
-| … PROVED | 1045 |
+| arcs with a verdict file | 1534 |
+| … PROVED | 1046 |
 | … NEGATIVE | 382 |
 | … OPEN | 94 |
 | … RETRACTED | 12 |
 | register points | 587 |
-| … QUEUED | 240 |
+| … QUEUED | 231 |
 | … LEAD | 10 |
-| … OWNER | 6 |
-| … DONE | 322 |
-| … DECLINED | 9 |
+| … OWNER | 5 |
+| … DONE | 331 |
+| … DECLINED | 10 |
 | harvest rows (the last number) | 1514 |
 | the Standard Model's 19 derived | 0 |
 
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1830 | PROVED | THE REGISTER TRIAGED (the owner's ruling on P-587, 2026-11-03: 'yes'): every open row typed DEBT, LEAD or PROCESS, only debts age, every open debt on a ranked list by load (point_debt.py rule 6, with a planted test). Fi… |
 | B1829 | PROVED | GENESIS v1.61 (the owner's ruling on P-577, 2026-11-03, 'agreed' to the owner's own tiered-bar proposal as main assessed it): where the joint look count applies, level 1 is a fixed screen (THE_BAR at p < 0.01 with every… |
 | B1828 | PROVED | GENESIS v1.60 (the owner's ruling on P-580, 2026-11-03: YES): a frame may EARN its dictionary BY PREDICTION -- an identification is EARNED BY PREDICTION within a frame F when F is fixed on a sealed card before, at least… |
 | B1827 | OPEN | THE FRAMING LEDGER (the owner's exercise, 2026-11-03; OPEN, an audit): eighteen framing commitments inventoried from five readers (docs/FRAMING_LEDGER.md), then the question itself and its recognition audited (S291, § G… |
@@ -42,7 +43,6 @@
 | B1821 | PROVED | THE FRAME'S MIRROR SYMMETRY ON THE CENSUS (B1790's mirror map, confirmed on every direction and line; Step B's census, P-521; data-free): FR-FIB's outputs at (-x+iy, line (a, -b)) equal those at (x+iy, (a, b)) row by ro… |
 | B1820 | PROVED | THE RIGID CENSUS'S CURVATURE ALONG Re TAU AND ITS REFINEMENT LIST (Step B's revision, P-521; aggregates and indices only; data-free): along Re tau the grid is the coarse one -- 7.75% of curvatures exceed 0.08 decades (I… |
 | B1819 | PROVED | THE RIGID CENSUS'S SMOOTHNESS IN TAU (Step B's revision, P-521; aggregates only; data-free): on B1726's grid the frame's outputs are smooth in Im tau almost everywhere -- median second difference 0.0008 decades, 99% bel… |
-| B1817 | NEGATIVE | THE FRAME'S OWN LEPTON/DOWN FACTOR AT THE CUSP (strand A's A1; P-397; data-free; refereed hostile, PASS WITH CORRECTIONS): on the slopes of order <= 30 with equal down/lepton second-generation exponents, every converged… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -51,38 +51,13 @@
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
 - ** P-303** — PF1-W read on each Higgs field or on each sector's mass determinant? (the web seat's W133 check §5–§6, row 1316). On a parity-diagonal coupling the two are the same condition; but no combination of two or more zero-free… → *asked of the owner: which reading of PF1-W (each Higgs field, or each sector's determinant) the record adopts; main's recommendation to follow with P-300's ver…*
 - ** P-335** — the owner's calls the sweep surfaced: L178 (the tone crossing) — retire by the math?; L248 §8 (retire, or the L240 reader's probe later); COMPUTE_THE_PROGRAM — rewrite for the weave or freeze; L161's realisation — commi… → *asked of the owner with the next report*
-- ** P-587** — THE REGISTER's OPEN ROWS AND THEIR LOAD (the owner, 2026-11-03: 'at what time should we deal with all open leads, and queued … whats the point of keepin them there? if theyre open do they bear load on our current math?'… → *asked: adopt the typing and the ageing rule, and start the triage now?*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
-- ** P-585** (2026-11-03) — THE CANDIDATE FAMILY'S CONFIRMATION (B1829's re-grade): THE SIX ON THE STRIP (FR-FIB on the order-10 lines (2/5, b), Im τ ≈ 3.0, (S̃, S, S), c = 3; candidates B1749, B1753) — about 0.5 false candidat…
-- ** P-583** (2026-11-03) — THE LEPTONS READ THE ADJUGATE (S291, exact on all 24 order-5 lines; M_e = λM_dᵀ is B1728's law, credited at S294): M_e = λM_dᵀ (λ⁵ = 1) and Y_e(S) = −λY_d(adj S)ᵀ — the reading that balances the CKM'…
-- ** P-582** (2026-11-03) — EXISTENCE BEFORE SEALED LOOKS (A6 Q-EXIST; with P-563): B1713 (factor 3.59) and B1720 (6.5) had shown masses and mixing apart before B1825 spent look 53 on the same obstruction (291 against 23.21)
-- ** P-579** (2026-11-03) — THE EXISTENTIAL QUESTION (the owner, 2026-11-03: 'are we making the proper existential question, could we identify the answer'; FL-19): the headline '0 of 19' counts Tier 4, which WHAT_WOULD_COUNT ma…
-- ** P-576** (2026-11-03) — THE FRAME'S OWN LENGTH (FL-23, A6 CE-4): K never charges the frame's description; FR-FIB's H-cov branch carries about 15 bits searched on the data (THE_FINAL_ACTS_BAR l. 193); a frame planted to cont…
-- ** P-575** (2026-11-03) — A DECLARED THEORY ERROR (FL-22, A6 R3/R6): the flat 10% allowance discards 29.7 bits of measured information against a 12.37-bit gate, and K's power for a correct frame a σ away is 1 in 10 (B1825's c…
-- ** P-574** (2026-11-03) — THE SCALE AND THE RUNNING (FL-21, R1): a theory exact at 2 × 10¹⁶ GeV scores χ²_ten 11.8 against nature at M_Z (one loop, the test's own inputs; it reproduces HZ2021's a and b at 10¹² GeV) — S passes…
-- ** P-568** (2026-11-03) — RELATIONS AND RIGID OUTPUTS (FL-14, FL-15): the bar grades values, never relations; the number of relations the frame forces (the Jacobian co-rank of its outputs in its continuous data) and its rigid…
-- ** P-567** (2026-11-03) — THE LINES AS CENTRE WILSON LINES (FL-08; the blind reader, verified on order 5 in B1827): on order-5 lines the frame is minimal SU(5) exactly (Y_u symmetric, the down and lepton spectra identical), s…
-- ** P-566** (2026-11-03) — THE SECTOR-ODD SINGLET (FL-06, B1827 § 2): a singlet Higgs component at natural magnitude ODD between up and down lifts the CKM's corner inversion generically (33-47% at every phase against 2%; media…
-- ** P-562** (2026-11-03) — THE HIGGS's OWN HYPERCHARGE TWIST (the agy lane's framing, its full-audit and elevation relays read in full, S288): FR-FIB's Higgs directions are modular forms of tau alone, with no identity channel,…
-- ** P-555** (2026-10-31) — THE MASSES AND THE MIXING AT DIFFERENT ADDRESSES (B1825): the frame reaches our six alone (least chi2_six 1.36) and our four alone (0.35 at a node), never at one rigid address (least chi2_ten 291.4;…
-- ** P-554** (2026-10-31) — THE SIX DO NOT COMPRESS, EVEN AT A FRAME ADDRESS (S285's pass side on B1741's box): C_six's 90th percentile is negative in every section (-0.85 bits at chi2 = 0, -2.5 with noise at sigma): the addres…
-- ** P-549** (2026-10-31) — EIGHT RELAYS OF 2026-10-09 TO THE SM SEAT AND CODEX WENT STALE AT MIDNIGHT (the relay-debt gate's 21 days; found by S277's suite): B1625, B1626, B1628, B1629, B1630-B1631, B1632, B1634 and B1635-B163…
-- ** P-547** (2026-10-30) — THE MIRROR UNREACHABLE (S276, 2026-10-30): `git push backup main` refused -- /Volumes/LaCie answers 'Permission denied' to this session's processes (macOS removable-volume access; earlier pushes this…
-- ** P-543** (2026-10-30) — TWO DIRECTIONS LOOK STRUCTURALLY DEAD FOR OUR WORLD (the interpolant's diagnosis, line (2/5, 1/10)): R and t = -5/288 carry m1/m3 and J at roundoff (<= 1e-13; m1 = 0 where the coupling has rank 2, P-…
-- ** P-538** (2026-10-30) — THE PRICE OF A PRINCIPLED LINE ON STEP B's CARD (the web seat's P-530 § 6.2, harvest row 1508): the record's principles admit different lines (closure around the tick, w = 0; move-invariance, w = 0 o…
-- ** P-535** (2026-10-30) — THE LAB'S SEAL-ORDER FINDINGS (the panel's Tests view, checking all 353 sealed tests against git; two checked by main): B496's sealed PREREGISTRATION retitled B493 → B496 after its record (88f293a41)…
-- ** P-533** (2026-10-30) — HOSTINGER: MANAGE THE WEBSITES, REPLACE ORIGINAXIOM.ORG (the owner, 2026-10-30: 'how can i make you connect to hostinger so you can manage my websites, delete the old originaxiom.org site and build n…
-- ** P-529** (2026-10-30) — THE LAB: BOTH SEATS' PANEL PROPOSALS INTEGRATED (the owner, 2026-10-30: 'did you integrate SM's proposal and work on the admin panel? weave lab?', 'did you get any proposal from chat1 for the panel?'…
-- ** P-527** (2026-10-30) — THE DROPPED CM ARM (the attack plan's reader; the second pre-seal review's NB14): the revised Step B design has no forced-CM-against-control comparison, which THE FINAL ATTACK named and P-425, P-449…
-- ** P-526** (2026-10-30) — THE WEB SEAT'S SECOND CODE AND ITS READ OF THE CARD, AS STEP B's THIRD OPINION (its attack plan's 1.1 + 1.3; harvest row 1504): an independent calculator for the whole decisive conjunction (S, p₂, p_…
-- ** P-523** (2026-10-30) — THE VACUITY CALIBRATION AND THE CONTROLS (the pre-seal review, B2 and its controls): on the real census with the record's allowances, every criterion must be shown able to fail given support; the dec…
-- ** P-522** (2026-10-30) — THE CKM LEG DEFINED (the pre-seal review, B5): 'the CKM predicted from the six's address' has no tie rule (8-digit and full-precision rows mixed; ties to 1e-15 on record, B1811), no rule for undefine…
-- ** P-521** (2026-10-30) — THE τ GRID FAILS THE RESOLUTION CHECK (the pre-seal review, B4; INPUT_COMPLETENESS row 13): B1726's 90-point grid is at least 4.5 times too coarse in Im τ for the record's illustrative resolution; on…
 
 ## The last landings (CHANGELOG)
 
+- S296 THE REGISTER TRIAGED: EVERY OPEN ROW TYPED, ONLY DEBTS AGE, THE 59 DEBTS RANKED BY LOAD (THE OWNER'S RULING ON P-587) (2026-11-03)
 - S295 THE CANDIDATE FAMILY's OWN RELATION D, CREDITED; THE REGISTER's LOAD MEASURED (2026-11-03)
 - S294 THE TWO-LEVEL BAR: GENESIS v1.61 — A FIXED SCREEN MAKES A CANDIDATE, ONLY A HELD-OUT CONFIRMATION MAKES A RESULT (THE OWNER'S RULING ON P-577) (2026-11-03)
 - S293 THE OWNER'S WORD ON B1814's BLIND RERUN, RELAYED TO THE SM SEAT (2026-11-03)
@@ -90,11 +65,10 @@
 - S291 THE RECHECK AND THE RECOGNITION AUDIT: ONE S290 CLAIM RETRACTED; WOULD WE KNOW THE ANSWER? NOT AS THE TESTS ARE BUILT (2026-11-03)
 - S290 THE RELATION THAT LIFTS THE CORNERS: THE ADJUGATE READING; THE 45-LIKE SINGLET SPLITS THE SECOND GENERATION (2026-11-03)
 - S289 THE FRAMING LEDGER (B1827): WHAT THE PROGRAMME EXCLUDES BY THE WAY IT IS FRAMED (2026-11-03)
-- S288 THE AGY LANE's REPORTS READ IN FULL; ITS FRAMING RULED; THE MIRROR RULE CLOSED FOR THE CKM (2026-11-03)
 
 ## The latest campaign line
 
-LATEST (2026-11-03, S294: on the owner's own proposal, the bar no longer rises with every attempt. A first, fixed level flags a candidate; only a second level — predicting numbers never used — makes a result (foundation document version 1.61, B1829). Re-grading all 53 past attempts finds one candidate: the framework's fit of the six mass ratios on one strip of its parameter space. Chance alone would give about half a candidate, and the same framework already fails the quark mixing, so it is a lead to test on untouched numbers, not a result. 0 of 19.)
+LATEST (2026-11-03, S296: the register of open points, triaged at the owner's word (B1830). Each of its 241 open points is now marked as a debt (something the record uses is owed a check), an idea, or housekeeping; only debts carry deadlines, and the 59 debts are worked in order of what rests on them — first the one that bears on today's candidate. Nine points were found already paid and closed, each checked. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

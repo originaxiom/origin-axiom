@@ -18306,3 +18306,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 ## 2026-11-03 — S295 the candidate's own D; the register's load
 
 - The strip family sits ~3σ from P-094's D at its best rows (14σ where lepton = down): credited on P-585. The owner's register question measured (P-587). 0 of 19.
+
+## 2026-11-03 — S296 the register triaged
+
+- Every open row typed; only debts age; 59 debts ranked by load, P-355 first (B1830). 0 of 19.

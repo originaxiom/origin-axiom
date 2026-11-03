@@ -15081,8 +15081,11 @@
    ],
    "refs": [
     "S286",
+    "S289",
     "S290",
-    "S291"
+    "S291",
+    "S292",
+    "S294"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 13,
@@ -15103,7 +15106,10 @@
   "B1829": {
    "slug": "genesis v1 61",
    "motifs": [],
-   "refs": [],
+   "refs": [
+    "S294",
+    "S295"
+   ],
    "obstacle": "particle_dict",
    "obstacle_conf": 5,
    "status": "banked",
@@ -15139,6 +15145,20 @@
    "obstacle_conf": 15,
    "status": "dormant",
    "domain": "arithmetic"
+  },
+  "B1830": {
+   "slug": "the register triaged",
+   "motifs": [
+    "closing",
+    "figure_eight"
+   ],
+   "refs": [
+    "P10"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "topology"
   },
   "B183": {
    "slug": "open collective arrow",

@@ -1,0 +1,2252 @@
+[
+ {
+  "id": "P-020",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Unpursued overlap-integral coupling idea; nothing rests on it."
+ },
+ {
+  "id": "P-022",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Open question on tau's two roles; no current dependence."
+ },
+ {
+  "id": "P-023",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Near-fixed-point computation undone; tied to C5 decision."
+ },
+ {
+  "id": "P-025",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "Holomorphy/minimal-Kahler imports bear on the count underlying B1656's frame and the hierarchy readings.",
+  "next": "Compute the count with non-minimal Kahler/non-holomorphic forms or scope the stated count as conditional.",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-030",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "The golden identity (MC10 arcs, B1638) cites classical input via secondary sources.",
+  "next": "Read Berndt III p. 280 or re-derive the input; else grade conditional.",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-031",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "The claim 'special to discriminant 5' is used by golden-identity arcs and P10-adjacent readings.",
+  "next": "Run discriminants <=100 with primitive N_M, other weights, degrees 3 and 7; scope the claim.",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-032",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Numerical conjecture, converse unproved; an open question."
+ },
+ {
+  "id": "P-033",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "McKay ladder unification not done."
+ },
+ {
+  "id": "P-034",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Uncited July corpus; reading task."
+ },
+ {
+  "id": "P-035",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Spin-structure reading arc against B1477-83 not done."
+ },
+ {
+  "id": "P-036",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Independence of selections: free-number count question."
+ },
+ {
+  "id": "P-038",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Orphan B471 not integrated."
+ },
+ {
+  "id": "P-039",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "One data-free check against B1656's Y owed."
+ },
+ {
+  "id": "P-040",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Orphan B640 not integrated."
+ },
+ {
+  "id": "P-041",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Orphan B997 not integrated."
+ },
+ {
+  "id": "P-042",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Orphan B1430-type check vs neutrino sector undone."
+ },
+ {
+  "id": "P-043",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Orphan B1430 vs FK11 dictionary undone."
+ },
+ {
+  "id": "P-044",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Orphan B1484 reading undone."
+ },
+ {
+  "id": "P-045",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Orphan B1251 vs P-014 undone."
+ },
+ {
+  "id": "P-046",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Orphan B1089 vs L251 undone."
+ },
+ {
+  "id": "P-054",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "GENESIS cites W24 and W30 (order-3 flux allowed, not forced).",
+  "next": "Verify W24/W30 on main (W24 done in B1689) and record W30.",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-055",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "W23/W27/W28 (two generations in E8 frames, qubit) are cited as results.",
+  "next": "Verify W27, W28 on main (W23 done in B1689).",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-056",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "W47 (no forcing of cusp unit) underlies FK10's tagged-postulate status.",
+  "next": "Verify W47 on main.",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-057",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "Fork lane's exact packets feed GM4 readings.",
+  "next": "Re-run the four packets on main, then write the GM4 reading.",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-058",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Comparison of lane's charged three to T-NO-INDEX-IN-THREE not done."
+ },
+ {
+  "id": "P-059",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Comparison of lane's cubic undone."
+ },
+ {
+  "id": "P-060",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Lane's E8 embedding results unreviewed; not used."
+ },
+ {
+  "id": "P-061",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Lane analytic work awaiting specialist review."
+ },
+ {
+  "id": "P-062",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Engage-more list of W-items; reading task."
+ },
+ {
+  "id": "P-063",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Seat gate result unverified on main; nothing cited depends on it (confirm no cite)."
+ },
+ {
+  "id": "P-064",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Seat gate result unverified on main; nothing cited depends on it (confirm no cite)."
+ },
+ {
+  "id": "P-069",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Valley closed (B1723); potential minimum remains via C6/C7."
+ },
+ {
+  "id": "P-070",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Argument gap on matter at the common point; question only."
+ },
+ {
+  "id": "P-073",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Root question: no field dynamics; nothing rests on it."
+ },
+ {
+  "id": "P-091",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1814's census and the typicality cell rest on W57, whose own frame is unregenerated.",
+  "next": "Regenerate W57's frame, measure and ten numbers on main (B1814 blind rerun, P-584).",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-092",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "docs/THE_CLAIM.md section 1's cubic carries no dated line on d/e spectrum; B1738 not cited there (grep empty).",
+  "next": "Add dated line citing B1340/B1738 and F-MC's Higgs content statement.",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-102",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Review of lane's dictionary relay; harvest task."
+ },
+ {
+  "id": "P-107",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "P-091's 'seed's own measure' premise and B1813/B1814 depend on measure choice.",
+  "next": "Verify the counterexample and scope P-091 and W57 accordingly.",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-117",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "PH2 1% match is cited from B1686; W154's analytic form under P-380 Stage B.",
+  "next": "Verify W154 on main under P-380 Stage B; then close.",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-130",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Philosophical passage to field; firewalled speculation."
+ },
+ {
+  "id": "P-135",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1650's condensate test and Simpson table are cited conditionally on H-RES.",
+  "next": "Check Simpson's table from source and the E8 embedding count on main.",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-137",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Pose L154 bridge on weave; not computed."
+ },
+ {
+  "id": "P-138",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "GENESIS GAP5 (line 378) still says 'no free dimensionless constant'; LAMBDA_POSITION line 26 unscoped.",
+  "next": "Scope arc like B1648: repair both wordings for the weave.",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-139",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Selection principle, owner-assigned to web seat; open question."
+ },
+ {
+  "id": "P-143",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Parallel runner done; slow-lane move still open."
+ },
+ {
+  "id": "P-145",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "Memo 132 / COSMOLOGY_LEDGER row 4 / CATALOG update, still unchecked on main.",
+  "next": "Check three items on main and correct the ledger rows.",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-154",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "retraction_sweep still skips third table shape; tooling."
+ },
+ {
+  "id": "P-155",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1602/B1603 counts (16 of 42) are over candidate kernels, never identified.",
+  "next": "Identify the actual kernel or restate counts as over-candidates.",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-156",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1606/B1652's D2 ±3 index rests on the end condition and dim Λ+ - 3.",
+  "next": "Verify end condition, dim Λ+ - 3 and the M1,2 identification on main.",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-157",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "Reading of P10 and P10' (B1628) as Dirac neutrinos depends on B1620's tensor assignment.",
+  "next": "Reproduce the auditor's mixed-assignment run on main.",
+  "note": "Verification/correction owed on a result the record uses."
+ },
+ {
+  "id": "P-158",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1643's three-routes claim and its lock are cited in the record; the sin2theta12 near-match disclosure is owed.",
+  "next": "Add dated disclosure notes to B1643 FINDINGS (B1075, B1126, 0.15 sigma near-match; two routes not three; lock tautological).",
+  "note": "Census completion owed to B1643; no payment found."
+ },
+ {
+  "id": "P-160",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "Paper claim pool, SM specification ledger lines and kill-graph note still carry B1636-B1653 wording.",
+  "next": "Sweep the listed secondary surfaces and add dated corrections.",
+  "note": "Secondary-surface sweep not found done."
+ },
+ {
+  "id": "P-161",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Terminology addition to PRACTICES (E89 rule); grep of docs/PRACTICES.md finds no 'NEGATIVE as sealed' entry."
+ },
+ {
+  "id": "P-177",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Owner's motion/push-back view; items 2 and 5 of the speculation table still open."
+ },
+ {
+  "id": "P-178",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Arena proposals N2-N4 of SM seat; N1 recorded in GENESIS v1.48; remainder not done."
+ },
+ {
+  "id": "P-182",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Seal-time smallest-attainable-p check with failing-path test not found in PRACTICES."
+ },
+ {
+  "id": "P-184",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Index-domain question; row notes B1672 NEGATIVE keeps it standing; paper corrected already."
+ },
+ {
+  "id": "P-210",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Joining law for the end's index (+-1 vs +-3) still needed; S263 sharpened, not answered."
+ },
+ {
+  "id": "P-218",
+  "type": "LEAD",
+  "proposal": "MERGE",
+  "evidence": "docs/POINT_REGISTER.md P-218 row: 'P-210 ... is their slot'; row says 'Q3 (with P-210)'",
+  "load": "",
+  "next": "",
+  "note": "Pure pointer to P-210; fold the three ±3 pointers into P-210."
+ },
+ {
+  "id": "P-219",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Triage of 299 orphan arcs into ledgers at Review 68; ledger coverage, not a math statement."
+ },
+ {
+  "id": "P-233",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "Hypercharge-forcing theorems T-Y18, T-TWO-ORBITS, T-DEFLATION-P in the registry lack the independent reimplementation control.",
+  "next": "Write rule, then from-scratch Cartan-only recount of the 36/36 cells.",
+  "note": "MC1 never run."
+ },
+ {
+  "id": "P-239",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B805's attachment locks guard the forcing graph and fail at every landing (CHANGELOG 'standing').",
+  "next": "Run sealed reader panel on unattached arcs or re-scope the locks.",
+  "note": "Locks still failing per CHANGELOG."
+ },
+ {
+  "id": "P-257",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Tied to completion map C5; W118 rationals unproven on main."
+ },
+ {
+  "id": "P-258",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Add J as ninth cell; pin PDG J; B1713 carried J only as read-out."
+ },
+ {
+  "id": "P-262",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1701's 0:1:1 law and B1703's N|3 zero are banked as computed laws used by later zero-law work (P-337, P-268).",
+  "next": "Derive the residue law by duplication (rank-one residue factored into thetas) in an arc.",
+  "note": "Half-derived: 0:1:1 done B1716; residue law owed."
+ },
+ {
+  "id": "P-263",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1689 banked with W24 discrete-torsion, K3-K4 and W44 PMNS cells unchecked.",
+  "next": "Check those cells on main and add dated note.",
+  "note": "Unchecked cells of a banked arc."
+ },
+ {
+  "id": "P-264",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Compute ALG-instanton end condition and count properly; hand check gave -15/-12."
+ },
+ {
+  "id": "P-267",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "PF1-W is a firewalled READING awaiting a test with unknown outcome."
+ },
+ {
+  "id": "P-268",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "The order-12 electron-zero law (B1712/B1716) is cited by zero-law rows P-292/P-337 and the lepton analysis.",
+  "next": "Write the full proof of the pairing in the arc, covering the Re tau=0 family.",
+  "note": "Written proof owed; 'if' direction done."
+ },
+ {
+  "id": "P-269",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "W123 and W124 owed when SM-seat runs land; W122 verified B1719."
+ },
+ {
+  "id": "P-279",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Question on cusp unit under the wording family."
+ },
+ {
+  "id": "P-280",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Does any weave quantity separate p=2 from p=3 without the triplet."
+ },
+ {
+  "id": "P-281",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Does U(1)_Y survive in move-kept H(N) in E8."
+ },
+ {
+  "id": "P-287",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Completion map C6 open; verify W154 potential, then decide W106."
+ },
+ {
+  "id": "P-289",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "C10 read-out on physical spacetime; verify W126 first."
+ },
+ {
+  "id": "P-290",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "C11 field-carrying-T question; priced by B1674, not answered."
+ },
+ {
+  "id": "P-291",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Math-integrity maintenance check design (gate, failing-path test, GATE_CONTROLS row)."
+ },
+ {
+  "id": "P-292",
+  "type": "LEAD",
+  "proposal": "MERGE",
+  "evidence": "docs/POINT_REGISTER.md P-292 row: 'explained by the spin-structure channels and the rectangular mirror (P-337)'; P-337 carries the zero law with P-292",
+  "load": "",
+  "next": "",
+  "note": "Explanation task is P-337's zero law; survivor P-337."
+ },
+ {
+  "id": "P-294",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Derive lepton factor 3; routes closed in frame; P-397/P-403 remain."
+ },
+ {
+  "id": "P-295",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Reading rule underived; B1790 no derivation in frame; carried with P-394."
+ },
+ {
+  "id": "P-310",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B335's title/claim 'mass degeneracy is a theorem' (frontier/B335 FINDINGS line 1) is cited as a degeneracy argument.",
+  "next": "Verify with B325 and a circulant check, add a dated sharpening note to B335 FINDINGS.",
+  "note": "Header still reads 'theorem'; no note found."
+ },
+ {
+  "id": "P-315",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Why only Higgs i-component splits down from leptons on order-10 lines."
+ },
+ {
+  "id": "P-316",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1732's 'incompatible' verdict and P-303's recommendation rest on the web seat's tests not yet re-run on main.",
+  "next": "Re-run TICK_LINE_HIGGS, RIGID_TAU and ZERO_FREE on main; add B1732 dated note on all-S reading.",
+  "note": "B1732 note partly added; re-runs owed."
+ },
+ {
+  "id": "P-317",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "Checks that cannot fail guard B1137 PSLQ DISJOINT, B162, GENESIS citation gate, kill graph T-VALUE-REGULATOR.",
+  "next": "Reproduce (b)-(h) with planted controls and correct each.",
+  "note": "Only (a) done in S196."
+ },
+ {
+  "id": "P-318",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "THE_CLAIM section 1, GENESIS F-MC, LAW_MAP rows 236/419/427 and THEOREM_REGISTRY carry B997 uniqueness etc.",
+  "next": "Reproduce each listed error on main and add dated corrections.",
+  "note": "Large list of banked-claim corrections."
+ },
+ {
+  "id": "P-319",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "Frozen paper P9 cites B1479 and B1656, superseded by B1662 and B1658.",
+  "next": "Build the P9/GENESIS supersession check and decide each pair as errata.",
+  "note": "Possible P9 errata."
+ },
+ {
+  "id": "P-320",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "GENESIS FK3, FK5, F-MC, m000 row, GAP6, GM4 lag the record.",
+  "next": "Draft adoption amendment through adoption/amend.py for owner.",
+  "note": "GENESIS currency; amendment not found."
+ },
+ {
+  "id": "P-321",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Derive GM4 and prime-is-2 reading; computation not found done."
+ },
+ {
+  "id": "P-322",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Tooling and record-housekeeping debts; atlas status, topic_sweep, slow lane."
+ },
+ {
+  "id": "P-323",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Data-free theta-bar in the mass frame; web seat results do not settle it."
+ },
+ {
+  "id": "P-326",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Majorana mass of nu^c as modular form; not computed."
+ },
+ {
+  "id": "P-327",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Run B1704 potential on order-5/10 lines or accept seat result with note."
+ },
+ {
+  "id": "P-328",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Verify e20c J-vanishing rule on main; decide Im tau as anchor."
+ },
+ {
+  "id": "P-329",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "B1726 at GUT scale; not found done; relates to P-585."
+ },
+ {
+  "id": "P-330",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Seal B940 O2 kernel candidate; waits on P-540 pairing source."
+ },
+ {
+  "id": "P-331",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Check theta-odd 2I doublet on an order-5 line; data-free."
+ },
+ {
+  "id": "P-332",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1121 banked 'inconclusive' on F4(Z) transitivity from a too-small search box.",
+  "next": "Prove transitivity by Eichler criterion and add dated note to B1121.",
+  "note": "Proof and note owed."
+ },
+ {
+  "id": "P-333",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "GENESIS F-CI sentence rests on one of 16 companions computed.",
+  "next": "Seal F-CI read on o10_150729 and census companions to length 10; fix GENESIS sentence via amend.",
+  "note": "F-CI incomplete per row."
+ },
+ {
+  "id": "P-334",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "Stale OPEN verdicts and un-noted answered leads sit in tests and arcs (B1406, OPEN O1-O10).",
+  "next": "Write the dated notes per ANSWERED verdict and edit OPEN tests in same commit.",
+  "note": "Closable items still unwritten."
+ },
+ {
+  "id": "P-337",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Prove the zero law with B1716 instrument; survivor of P-292 merge."
+ },
+ {
+  "id": "P-343",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Needs principle placing tau; merge into P-373 planned once P-327 is run (still open)."
+ },
+ {
+  "id": "P-345",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Route to the nine (Higgs/reading rule) not yet found; nothing rests on it."
+ },
+ {
+  "id": "P-346",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "tests/test_b1719_w122_on_main.py has no retry on undecided SnapPy kernel; flake fix owed."
+ },
+ {
+  "id": "P-355",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1829 candidate family P-585 (and B1742 order-5 rows) rest on the c=3 / D=9 identity, which is Georgi-Jarlskog by construction and sits 3-14 sigma from P-094's D.",
+  "next": "Carry D=(m_mu/m_e)(m_d/m_s)=10.58+-0.11 as a first consistency cell on P-585's level-2 card; state c=3 as GJ's.",
+  "note": "Lepton-down identity bears on candidate family; D mismatch must be a card cell."
+ },
+ {
+  "id": "P-357",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Higgs invariant target; sharpened into P-366; open design question."
+ },
+ {
+  "id": "P-366",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Sharpening of P-357; second object or non-holomorphic section unsealed."
+ },
+ {
+  "id": "P-371",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "tau height ratio mu/M free until something fixes it; computation pending."
+ },
+ {
+  "id": "P-373",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "What fixes Im tau ~3.03; open principle search."
+ },
+ {
+  "id": "P-374",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "THE_CLAIM section 1 typed-data counts (two F2 bits, one scale, one trit) are what the 19-input accounting and GENESIS cite.",
+  "next": "Data-free recount of THE_CLAIM section 1 under the convention test; check the trit's orbit under triality and the Galois row; correct or note in THE_CLAIM.",
+  "note": "Typed-data recount owed; trit orbit unchecked in THE_CLAIM line 22 area."
+ },
+ {
+  "id": "P-377",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Design input for sealed mixing test at the strip; open."
+ },
+ {
+  "id": "P-380",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Census over contents Stage A; Stage B awaits owner word; open."
+ },
+ {
+  "id": "P-384",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1753 (sealed, candidate per B1829 REGRADE) and the P-585 candidate family rest on the 2/5 line class, which the referee showed is mostly a pick.",
+  "next": "State a principle for alpha=2/5, b odd/10 before its check (with P-373), or grade the line rule a chosen input on the candidate card.",
+  "note": "Line rule is mostly a pick; candidate B1753 rests on it."
+ },
+ {
+  "id": "P-386",
+  "type": "PROCESS",
+  "proposal": "DONE",
+  "evidence": "frontier/B1787_p210_reviewed_and_accepted_by_main/arc_verdict.json: 'P210 REVIEWED AND ACCEPTED BY MAIN (P-386)'; row's own 2026-10-30 note: run executed ten of ten, reproduced on main.",
+  "load": "",
+  "next": "",
+  "note": "Main's review and acceptance of P210 package landed as B1787 PROVED."
+ },
+ {
+  "id": "P-390",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Agy lane harvest; reusable items still to be re-derived on main."
+ },
+ {
+  "id": "P-391",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Fabrication-gates to design with planted failures; not built."
+ },
+ {
+  "id": "P-393",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Main's plan steps in progress; superseded partly by nineteen plan but steps open."
+ },
+ {
+  "id": "P-394",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Reading rule not derived (B1790); remains a free discrete input to remove."
+ },
+ {
+  "id": "P-396",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Audit lane's unverified gauge-threshold results; main verification pending."
+ },
+ {
+  "id": "P-397",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Lepton factor route; open design."
+ },
+ {
+  "id": "P-398",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Frame-internal height set by discrete convention; open."
+ },
+ {
+  "id": "P-402",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Horocycle as counted discrete input; web-seat result exists but end rule unresolved."
+ },
+ {
+  "id": "P-403",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Sealed design for flux-mode Higgs not yet built; caution unchecked."
+ },
+ {
+  "id": "P-404",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Weinberg pair CP-line zeros; open question."
+ },
+ {
+  "id": "P-405",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "G2 membrane-instanton sub-angle; open."
+ },
+ {
+  "id": "P-411",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Class-selecting consistency condition; open."
+ },
+ {
+  "id": "P-412",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Frame null INTERMEDIATE; further nulls pending."
+ },
+ {
+  "id": "P-413",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Forced weight is B1813's counting parameter s; none forced; open lead."
+ },
+ {
+  "id": "P-415",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Owner's towers interaction line; live."
+ },
+ {
+  "id": "P-416",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Local G2 coincident multiplet existence; open."
+ },
+ {
+  "id": "P-417",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Doc currency gates in progress (steps partly landed)."
+ },
+ {
+  "id": "P-418",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Total-inputs scoreboard unbuilt per FRAMING_LEDGER."
+ },
+ {
+  "id": "P-419",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Selection by inversion; first computation done, line continues."
+ },
+ {
+  "id": "P-420",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Workdesk phases 0-1 landed; later figure plates remain."
+ },
+ {
+  "id": "P-421",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Name the end: L_max regularisation scale reason owed."
+ },
+ {
+  "id": "P-422",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Fibre involution gauging selector; open."
+ },
+ {
+  "id": "P-424",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Two W's do not meet on the object; ways out open."
+ },
+ {
+  "id": "P-425",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "CM compositum speculation; B1808 says not a selection; open."
+ },
+ {
+  "id": "P-426",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "docs/THE_FRAMEWORK.md line 558 'no canonical arrow' (contradicted by B1750/B1662) and four other living docs carry DECLARED_DEBT in doc_currency.py.",
+  "next": "Read each of the five docs, correct or freeze with pointer, and remove its DECLARED_DEBT entry in the same commit.",
+  "note": "Five living documents unread/uncorrected; front-document statements stale."
+ },
+ {
+  "id": "P-427",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B723's PROVED verdict (after three clause retractions), CLAIMS.md C-cal (line 147) and paths/PATHS.md are cited records.",
+  "next": "Re-read B723 verdict, add B653 voiding to CLAIMS.md C-cal, and probe or decline the 17 unprobed paths.",
+  "note": "Three unrowed items still open."
+ },
+ {
+  "id": "P-428",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Review-carry cells with draft dispositions to confirm; open sub-rows remain."
+ },
+ {
+  "id": "P-429",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Six cells' proposed answers (B1607, B1733, B1708...) unconfirmed; confirm before closing."
+ },
+ {
+  "id": "P-430",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "W74's CP-invariance of the surface frame rests on K5 (B1796) and possibly K4, the weight -1/2 count, unchecked.",
+  "next": "Check whether W74 needs K4; compute it or record that it does not.",
+  "note": "K4 weight -1/2 count left unchecked."
+ },
+ {
+  "id": "P-437",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Owner's main line, unforced whole-existence computation; live."
+ },
+ {
+  "id": "P-438",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Followed-or-counted data-free table; open."
+ },
+ {
+  "id": "P-439",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Clock question: sweep record; open."
+ },
+ {
+  "id": "P-440",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Pure move clock computed only in audit room, not banked arc; keep."
+ },
+ {
+  "id": "P-443",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "List of inherited assumptions; open."
+ },
+ {
+  "id": "P-444",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1785 FINDINGS section 1 'residual <= 0.07 everywhere' is false (585 of 15888 fits exceed); B1788 compares against B1785 medians.",
+  "next": "Recompute B1788's comparison with the 585 fits omitted and test whether B1785's slope-alone statement holds on them.",
+  "note": "Retraction row exists; B1788 recheck still owed."
+ },
+ {
+  "id": "P-446",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1786, B1789, B1792 and B1814's census rest on c=3 chosen on the data and the down-lepton relation being part of the fit.",
+  "next": "Read the frame-null post hoc findings against B1786/B1789/B1792/B1814 nearest draw; decide what the census records.",
+  "note": "Post hoc findings affect banked census readings."
+ },
+ {
+  "id": "P-447",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Census labels and c pricing proposals awaiting adopt/amend and relay answer."
+ },
+ {
+  "id": "P-448",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "P-432's DONE status and B1811's NEGATIVE (used by B1825 and the clock arcs) rest on a window the row says covers only n=1.",
+  "next": "Run or decline each omitted case (n>=2, B1742 pairs, exact-norm end, other frames) with a reason; log each run as a look.",
+  "note": "P-432 is marked DONE with an unrun tail; B1811 closed only n=1."
+ },
+ {
+  "id": "P-449",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Data-free CM tables computed in audit/drafts/p449 but comparison still open; tied to P-527 (dropped CM arm)."
+ },
+ {
+  "id": "P-450",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Unverified referee suggestion that the curve is T15; topic_sweep shows no arc verifying it."
+ },
+ {
+  "id": "P-451",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Claims index for 'never/no arc' sentences; no tool built (no matching script)."
+ },
+ {
+  "id": "P-452",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Workdesk adoption decisions, after phase 0."
+ },
+ {
+  "id": "P-453",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Flux as puncture degree; untried angle, no computation on record."
+ },
+ {
+  "id": "P-454",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Weil filter; untried, never run."
+ },
+ {
+  "id": "P-455",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Period average of couplings; untried."
+ },
+ {
+  "id": "P-456",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Least-description line rule; untried, to be sealed first."
+ },
+ {
+  "id": "P-457",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Table of 12-conventions; data-free table not built."
+ },
+ {
+  "id": "P-458",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Spin connection as L250 background; untried."
+ },
+ {
+  "id": "P-459",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Criticality as m_H; untried."
+ },
+ {
+  "id": "P-460",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Doublet-leg spin twist; untried."
+ },
+ {
+  "id": "P-461",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "DH valley and FPST theta-bar check; untried."
+ },
+ {
+  "id": "P-462",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "B707's three bridge tests never run."
+ },
+ {
+  "id": "P-463",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Whether the record's E8/E6 containers map to the E10 brane configuration; unanswered."
+ },
+ {
+  "id": "P-464",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "171 prose-only supersession relations; validator cleanup (arc_data.py one-sided check exists, audit not done)."
+ },
+ {
+  "id": "P-465",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Owner's question; partial data-free computations noted, selection question still open."
+ },
+ {
+  "id": "P-466",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Dynamics selecting the tower descent is the live question per Review 73 note."
+ },
+ {
+  "id": "P-468",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Combined-clock height selection; forms 2 and 4 closed, forms 1 and 3 still open."
+ },
+ {
+  "id": "P-474",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Clock-free observable design; waits on a frame with outputs at several letters."
+ },
+ {
+  "id": "P-475",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Set B1704 potential against threads' measure; not done."
+ },
+ {
+  "id": "P-476",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Action weight as third clock; placement and cutoff not stated."
+ },
+ {
+  "id": "P-477",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Thermal-clock claims unverified at source."
+ },
+ {
+  "id": "P-478",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Literature items to be read at source before citation."
+ },
+ {
+  "id": "P-479",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Likelihood-ratio design for the clock test; evidence per world not computed."
+ },
+ {
+  "id": "P-480",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Regression lock pinning B1813's 0.7924 to Pollicott; topic_sweep shows P-480 still QUEUED."
+ },
+ {
+  "id": "P-485",
+  "type": "LEAD",
+  "proposal": "DONE",
+  "evidence": "frontier/B1825_step_b_the_nine_from_one_address/FINDINGS.md:1-12 'NO SUPPORT ... S fails ... nothing excluded beyond the reach'; the row's own disposition names P-487 as (a)+(b)",
+  "load": "",
+  "next": "",
+  "note": "Plenitude reframing's (a) and (b) were executed as P-487 -> B1825; (c) typicality is B1814's."
+ },
+ {
+  "id": "P-487",
+  "type": "LEAD",
+  "proposal": "DONE",
+  "evidence": "frontier/B1825_step_b_the_nine_from_one_address/FINDINGS.md:3-8 'Our world's ten are not in the frame's support ... least chi2_ten 291.4 against 23.21'; arc_verdict.json NEGATIVE",
+  "load": "",
+  "next": "",
+  "note": "The support test was run: B1825 sealed fa25925fc, NEGATIVE, refereed."
+ },
+ {
+  "id": "P-491",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Celestial reading of m004 Maass spectrum; speculation, read first."
+ },
+ {
+  "id": "P-492",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1088 (c = 3l/2G, c = 6 sigma) and B1034's bridge in the gravity line rest on a boundary assumption the row questions.",
+  "next": "Read B1034, B1088 and Brown-Henneaux hypotheses against m004 and the arena; add a dated scope note to B1088 if unmet.",
+  "note": "Brown-Henneaux scope question may bear on banked B1088's c = 6 sigma."
+ },
+ {
+  "id": "P-493",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Sealed curvature-sign look; no rule drafted."
+ },
+ {
+  "id": "P-494",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Disclosure for a CM null; the CM arm was dropped from B1825 and is held open by P-527."
+ },
+ {
+  "id": "P-495",
+  "type": "LEAD",
+  "proposal": "DONE",
+  "evidence": "frontier/B1823_step_a_the_tied_heavy_vacuum (NEGATIVE) and frontier/B1825_step_b_the_nine_from_one_address/FINDINGS.md:1 'STEP B ... NEGATIVE AS SEALED'; CM arm remains under P-527",
+  "load": "",
+  "next": "",
+  "note": "The final attack ran in the approved order: Step A NEGATIVE, Step B sealed and NEGATIVE."
+ },
+ {
+  "id": "P-496",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Desk deployment waits on owner's host and login choice."
+ },
+ {
+  "id": "P-497",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Panel phase 2 in build."
+ },
+ {
+  "id": "P-500",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Semantic index only prototyped; next steps stated (FINDINGS sections, larger model)."
+ },
+ {
+  "id": "P-501",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Token-map script; none found under scripts/."
+ },
+ {
+  "id": "P-502",
+  "type": "PROCESS",
+  "proposal": "DONE",
+  "evidence": "CHANGELOG.md:185 'PyR@TE 3, flavio, wilson, RunDec ... installed ... each calibrated against a known result'; audit/tools_calibration/CALIBRATIONS.json",
+  "load": "",
+  "next": "",
+  "note": "Tools installed in a separate environment and calibrated against known results."
+ },
+ {
+  "id": "P-503",
+  "type": "PROCESS",
+  "proposal": "DONE",
+  "evidence": "CHANGELOG.md:185 'LiE installed ... each calibrated'; audit/tools_calibration/calibrate.py",
+  "load": "",
+  "next": "",
+  "note": "LiE installed and calibrated on E6 -> D5 x T1 branching."
+ },
+ {
+  "id": "P-504",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "arc_data.py now reads supersedes (line 114) but B514's history/edge is not recovered or marked."
+ },
+ {
+  "id": "P-506",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Context card exists (docs/views/CONTEXT_RECOVERY.md); completeness locks not confirmed."
+ },
+ {
+  "id": "P-507",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Classification of 39 verdictless folders and 154 outputless scripts not done."
+ },
+ {
+  "id": "P-510",
+  "type": "LEAD",
+  "proposal": "DONE",
+  "evidence": "docs/KIND_TABLE.md:49 '2026-10-30 (S275; P-510's ruling, P-539): in field form no frame-invariant residue exists ... FR-FIB fixes the'; frontier/B1825_step_b_the_nine_from_one_address/PREREGISTRATION.md:12 'H = I, a CHOSEN input (B1822)'",
+  "load": "",
+  "next": "",
+  "note": "Kind-clause ruling written into KIND_TABLE and applied (H = I chosen) in Step B's card."
+ },
+ {
+  "id": "P-515",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "History calendar in panel build."
+ },
+ {
+  "id": "P-516",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "IDENTIFICATION_LEDGER and the identification-completeness lock; B1825 depends on B1814 and B1810, which read singular values as masses.",
+  "next": "Declare each window arc's identifications in its arc_verdict.json (B1812 ledger row; I-33 for B1811 and B1814) and add the UNEARNED-card lock.",
+  "note": "Arcs B1811, B1812, B1814 still carry identifications: [] despite I-33 / UNEARNED reads."
+ },
+ {
+  "id": "P-517",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1811 (cited as NEGATIVE) and the D = 9 figure feeding P-585's candidate-family relation D and P-355.",
+  "next": "Commit a decode script with output beside comparison.json and lock FINDINGS' stated numbers against it.",
+  "note": "B1811's chi2-best row, D = 9 and 22-cell figures have no committed decode script; verification dir lacks one."
+ },
+ {
+  "id": "P-520",
+  "type": "LEAD",
+  "proposal": "DONE",
+  "evidence": "frontier/B1825_step_b_the_nine_from_one_address/FINDINGS.md:10-14 'Sealed fa25925fc after a hostile pre-seal check of the card'; PREREGISTRATION.md (K1, p2, T, J, c=3 ruled)",
+  "load": "",
+  "next": "",
+  "note": "Revised generator design passed its second review and was sealed and run."
+ },
+ {
+  "id": "P-521",
+  "type": "LEAD",
+  "proposal": "DONE",
+  "evidence": "CHANGELOG.md:95 'The refined census ... 991 tau points ... 263 606 configurations, 0 errors'; B1825 PREREGISTRATION.md:25 'tau is continuous'",
+  "load": "",
+  "next": "",
+  "note": "Refined 991-point census built and used continuous-tau interpolation."
+ },
+ {
+  "id": "P-522",
+  "type": "LEAD",
+  "proposal": "DONE",
+  "evidence": "frontier/B1825_step_b_the_nine_from_one_address/PREREGISTRATION.md:69 'The CKM leg (BL1)'; FINDINGS.md section 2 table",
+  "load": "",
+  "next": "",
+  "note": "CKM leg defined (BL1) on the sealed card and run."
+ },
+ {
+  "id": "P-523",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Pre-seal vacuity calibration and controls for Step B; not yet run."
+ },
+ {
+  "id": "P-524",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1656's frame and Step B's channel kernels (B1825) use the b_x+b_y dependence on a relay's say-so.",
+  "next": "Bank an arc with the written proof, a referee and a LAW_MAP row after a topic sweep.",
+  "note": "Lemma relayed as observed; needs written proof and LAW_MAP row."
+ },
+ {
+  "id": "P-526",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Independent calculator as Step B third opinion; still unrun."
+ },
+ {
+  "id": "P-527",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "P-425, P-449 and P-494 rest on THE FINAL ATTACK's forced-CM comparison that the revised Step B dropped.",
+  "next": "Restore a CM read-out on the card or re-dispose P-425, P-449, P-494 with reasons.",
+  "note": "Dropped CM arm; three rows rest on it."
+ },
+ {
+  "id": "P-528",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "docs/IDENTIFICATION_LEDGER.md I-26 row, cited by the generation-count line.",
+  "next": "Read B1417, B1291, B1321, B1333 against the row and add a dated note.",
+  "note": "Ledger I-26 still says unverified on main (checked line 43); dated note not added."
+ },
+ {
+  "id": "P-529",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Admin panel Lab section; tooling."
+ },
+ {
+  "id": "P-531",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Derive physical typing for the generations' metric; H=I stays CHOSEN meanwhile."
+ },
+ {
+  "id": "P-533",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Website/hosting work for the owner."
+ },
+ {
+  "id": "P-534",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Tool evaluation and Graphify trial; tooling."
+ },
+ {
+  "id": "P-535",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "The seal-order claims of B496, B742, B749, B1486 and B1490, which later arcs cite as sealed.",
+  "next": "Add dated disclosure notes on each arc and re-verify the affected outputs.",
+  "note": "Sealed tests changed after sealing without disclosure (B1486, B742, B749, B496)."
+ },
+ {
+  "id": "P-536",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "H_u triplet requirement; only matters if B1823 is revived."
+ },
+ {
+  "id": "P-537",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Canonical normalisation of forms; conditional on reviving a B1823-type construction."
+ },
+ {
+  "id": "P-538",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Principled-line price for Step B card; design question."
+ },
+ {
+  "id": "P-540",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B940's instrument is used by C10's seal on m004 (P-330).",
+  "next": "Check whether m004's orientation-reversing isometry produces the pairing before C10's seal.",
+  "note": "B940's pairing source unexplained (Kramers doubling vs observed pairing)."
+ },
+ {
+  "id": "P-541",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Harvest-pin lag check in harvest_debt.py."
+ },
+ {
+  "id": "P-542",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1821's and B1726's census outputs, and any test needing the census near Im tau = 1+k/4.",
+  "next": "Compute a smooth radius law from B1667 only if a test needs it; else note the bound on B1821.",
+  "note": "Linear interpolation of radius column gives C0 kinks in B1821/B1726 census; bounded ~1e-3."
+ },
+ {
+  "id": "P-543",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Count of structurally dead directions menu-wide; census_structure not yet run."
+ },
+ {
+  "id": "P-547",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Mirror push still fails today (ls-remote: LaCie path not a repo); owner grant needed."
+ },
+ {
+  "id": "P-548",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Suite test rewrites tracked B1690 output; test hygiene fix owed."
+ },
+ {
+  "id": "P-549",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Stale relays to SM seat/codex; relay-debt gate."
+ },
+ {
+  "id": "P-554",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Six do not compress at a frame address; later design owed."
+ },
+ {
+  "id": "P-555",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Two-address frame design note; firewalled until written."
+ },
+ {
+  "id": "P-556",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Unlabelled post-run read-outs of B1825, never grading."
+ },
+ {
+  "id": "P-557",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1825's null for the four (p2) and its sealed verdict use that definition.",
+  "next": "Verify the 1.24x on main and define physical by all ten on the next card.",
+  "note": "B1825's card defines physical without the massless electron; 1.24x bound unverified on main."
+ },
+ {
+  "id": "P-558",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "FR-COV as candidate frame; only if priced below the gate."
+ },
+ {
+  "id": "P-559",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "B1788's exponents are cited by later flavour-line arcs and the agy lane's replacement claim.",
+  "next": "Main's own check of the exponents on B1788's lines; dated note on B1788.",
+  "note": "B1788 hypothesis (a) fails in 18/171 per independent lane; unverified on main."
+ },
+ {
+  "id": "P-560",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Harvest physical-bridge lane's 25 commits and 21 relays."
+ },
+ {
+  "id": "P-561",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "Harvest rows 1478-1479 and the scoreboard built on I-33's T-NORM.",
+  "next": "Add dated notes on rows 1478 and 1479.",
+  "note": "Scoreboard rows 1478/1479 carry T-NORM though the metric is CHOSEN (B1822)."
+ },
+ {
+  "id": "P-562",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Whether Higgs should carry hypercharge twist; undecided."
+ },
+ {
+  "id": "P-563",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Proposed METHOD entry for decadal review."
+ },
+ {
+  "id": "P-564",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Cover framing is not yet a frame with outputs."
+ },
+ {
+  "id": "P-565",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Upkeep of FRAMING_LEDGER by decadal review; governance."
+ },
+ {
+  "id": "P-566",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Sector-odd singlet origin and data-free tests; nothing banked rests on it."
+ },
+ {
+  "id": "P-567",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Test whether centre lines give Georgi-Jarlskog 3 outside the sealed reach."
+ },
+ {
+  "id": "P-568",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Compute relations and rigid outputs data-free."
+ },
+ {
+  "id": "P-569",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "theta-bar locus as constraint; data-free computation."
+ },
+ {
+  "id": "P-570",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Card design reading frame at its own scale."
+ },
+ {
+  "id": "P-571",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "The value-kill census and walls cited in the record's negatives (FRAMING_LEDGER FL-02/03).",
+  "next": "Re-read which of the 107 flat-premise kills change under curvature, flux or the chiral choice, data-free.",
+  "note": "107 of 173 value-kills on flat premises; SE2 dependence uncomputed."
+ },
+ {
+  "id": "P-572",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Nine quantities have no frame; needs new structure and scoreboard statement."
+ },
+ {
+  "id": "P-574",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Future cards must declare scale and run one loop."
+ },
+ {
+  "id": "P-575",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Declared theory error in future cards."
+ },
+ {
+  "id": "P-576",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Charge frame-length bits on future cards."
+ },
+ {
+  "id": "P-578",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Object and rival nulls before the next sealed look."
+ },
+ {
+  "id": "P-579",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "Front-document headline '0 of 19' in logs and the scoreboard, and WHAT_WOULD_COUNT's tiers.",
+  "next": "Build P-418's total-inputs vector, print beside '0 of 19', refresh tiers at the decadal review.",
+  "note": "Headline '0 of 19' counts Tier 4 that WHAT_WOULD_COUNT made not live; vector P-418 unbuilt."
+ },
+ {
+  "id": "P-581",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "The structural package grades (B862, B727 line) in GENESIS-level claims.",
+  "next": "Fix one comparison-class rule and compute the structural package's rate among comparable objects (Q-STRUCT).",
+  "note": "Structural grades use two comparison classes; Z6 and 3/8 grades may be generic."
+ },
+ {
+  "id": "P-582",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Unsealed existence scan to gate sealed looks; not yet done."
+ },
+ {
+  "id": "P-583",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Data-free corner/V_ud tests on order-5 lines under adjugate reading."
+ },
+ {
+  "id": "P-584",
+  "type": "PROCESS",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Harvest SM seat's blind rerun when relayed."
+ },
+ {
+  "id": "P-585",
+  "type": "LEAD",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "",
+  "next": "",
+  "note": "Level-2 confirmation card for the candidate family; open by design."
+ },
+ {
+  "id": "P-586",
+  "type": "DEBT",
+  "proposal": "KEEP",
+  "evidence": "",
+  "load": "The re-grade REGRADE.md (B1829) and the candidate P-585 depend on these looks' grading.",
+  "next": "Run the fully matched null for each as verifications, then update REGRADE.",
+  "note": "Looks B1726, B1734, B1755, B1786 and web-seat looks lack a fully matched null."
+ }
+]

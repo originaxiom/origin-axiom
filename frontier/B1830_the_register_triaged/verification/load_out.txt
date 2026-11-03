@@ -1,0 +1,33 @@
+rows 586 open 255 Counter({'QUEUED': 240, 'LEAD': 10, 'OWNER': 5})
+by slot: [('Q1', 68), ('Q3', 64), ('Q2', 45), ('Q7', 27), ('Q8', 21), ('none', 15), ('Q5', 7), ('Q4', 3), ('Q6', 3), ('Q9', 2)]
+days since last moved: Counter({0: 161, 1: 43, 3: 34, 2: 17}) (bins of a week; 4 = 28+)
+ESCALATED notes: 15
+unmoved >= 14 days without ESCALATED: 51 ; >= 21: 34
+
+open rows that question a cited arc (keyword) -- with the number of later arcs depending on the cited arcs: 72
+  with >= 1 dependent: 70 ; >= 10: 59
+ 549  P-477  QUEUED Q7  ['B716', 'B721', 'B723', 'B850']  THERMAL CLOCKS (reader A, unverified): each measure's own modular flow is its counting rule — Minkowski's measure scales by exactly ½ per move (a cand
+ 469  P-427  QUEUED Q2  ['B653', 'B723']  L231's THREE UNROWED ITEMS (R71-4, moved here by Review 72): (i) B723's verdict still PROVED after three retractions of its clause; (ii) CLAIMS.md's C
+ 467  P-318  QUEUED Q3  ['B171', 'B173', 'B207', 'B399', 'B448', 'B632']  targeted dated corrections the sweep found (each reproduced on main first): B997's golden uniqueness fails at m = 4 (R⁴, L⁴ mod 20 generate 2I; only m
+ 428  P-317  QUEUED Q3  ['B162', 'B837', 'B1137', 'B1172', 'B1179', 'B1206']  the integrity class 'a check that cannot fail' (E2/MB12), found by the sweep: (a) the reproduction belt's soft text pins — a live false pass on B1172'
+ 427  P-334  QUEUED Q3  ['B499', 'B502', 'B507', 'B1406']  answered or closable items to write down (the sweep's ANSWERED verdicts, each with a dated note on the arc or lead): L206 (b = mer⁻¹a⁻¹mer⁻¹a⁻³, J(m00
+ 426  P-239  QUEUED Q5  ['B738', 'B800', 'B805', 'B806', 'B842', 'B1000']  B805's attachment lock (tests/test_b805_forcing.py, "arcs on no face below half") fails from S158: the forcing graph's arc-to-face attachment comes on
+ 425  P-291  QUEUED Q3  ['B805', 'B1678', 'B1701', 'B1703', 'B1711', 'B1712']  the owner's ask of 2026-10-22: a math-integrity maintenance check, in the family of the gates and reviews — load-bearing math preserved and bug-free, 
+ 425  P-145  QUEUED Q8  ['B980']  three record items the web seat's cross-seat sweep reports (its mysteries note; not yet checked on main): Memo 132's inflation row reads MISSING where
+ 425  P-138  QUEUED Q5  ['B980', 'B1015', 'B1088', 'B1648', 'B1650']  two wording repairs from the web seat's scale note (B1650): THE_LAMBDA_POSITION §1 ('The scale term is invisible to the object in principle') holds fo
+ 415  P-415  QUEUED Q1  ['B727', 'B1653', 'B1803']  the owner (2026-10-28): "is it possible that the reality finally emerges as the interaction of what's allowed on all towers, instead of the thread goi
+ 411  P-425  QUEUED Q1  ['B333', 'B334', 'B336', 'B401', 'B414', 'B420']  CM BY THE OBJECT'S OWN COMPOSITUM? (B1804's holomorphic frame, SPECULATION until computed): LR acting holomorphically on abelian surfaces with real mu
+ 407  P-331  QUEUED Q3  ['B665', 'B997', 'B1656']  L161 Phase 1b (the owner's aperiodic crossing campaign): on one order-5 line, does B1656's coupling carry the θ-odd 2I doublet that carries the tones 
+ 407  P-322  QUEUED Q3  ['B758', 'B792', 'B841', 'B1177', 'B1207', 'B1454']  tooling and record debts the sweep found: the atlas guesses status from keywords (578 of 1458 disagree with the verdicts) — make it read arc_verdict.j
+ 394  P-177  QUEUED Q3  ['B990', 'B1657']  the owner's view (2026-10-15, "pay attention to what i said"): "pure existence is only laws and structure, reality we observe is not pure exisfence, i
+ 394  P-139  QUEUED Q3  ['B990', 'B1646', 'B1651', 'B1652', 'B1655']  the selection principle (GENESIS FK9, "Selection: what makes a state physical", OPEN), named by main at the owner's question ("do we still miss any cr
+ 356  P-143  QUEUED Q5  ['B371', 'B532', 'B618', 'B1018', 'B1293']  the full suite's runtime has grown to about 4 hours (S124: 3 h 59 min for 7310 tests; once about 27 minutes), which delays every landing and every rel
+ 346  P-492  QUEUED Q7: ['B1034', 'B1088']  L2, THE ARENA AS A SECOND, LORENTZIAN CANDIDATE FOR L154's AdS₃ (the web seat's day ledger and THE ISOTROPY CONTROL's I6, REPRODUCED: SL(2, ℝ)/SL(2, ℤ
+ 344  P-320  QUEUED Q3  ['B1248', 'B1327', 'B1380']  GENESIS currency (an adoption amendment, v1.55): FK3, FK5, F-MC and the m000 row lag the record; GAP6 is stale (W46 with the cusp unit gives a conditi
+ 321  P-528  QUEUED Q2: ['B1291', 'B1417']  I-26's STALE NOTE (the attack plan's reader): the identification ledger's I-26 row still calls the cloud seat's R61/R62 'unverified on main', which B1
+ 313  P-330  QUEUED Q3  ['B940']  C10 on m004 (L177, L174): B940 recorded a Dirac kernel candidate of dimension exactly 2 that its seal excluded (open obligation O2); seal O2 with B940
+ 296  P-464  QUEUED Q2  ['B288', 'B1419']  Phase 0's D7 (P-420): 171 relations recorded only in prose in 96 arcs' claim lines (retract, refute, supersede, correct or withdraw, naming another ar
+ 235  P-428  QUEUED Q2  ['B1384', 'B1447', 'B1457', 'B1459', 'B1604', 'B1619']  R71-5's CELLS (its third carry, moved here by Review 72), with main's own drafts of 2026-10-23 (audit/drafts/leads_reeval/) as proposals TO CONFIRM, n
+ 218  P-319  QUEUED Q3  ['B1479', 'B1656', 'B1658', 'B1662']  possible errata in the frozen paper P9: the supersession prototype flags B1479 (by B1662) and B1656 (by B1658), both cited by P9; build the supersessi
+ 189  P-156  QUEUED Q8  ['B1606', 'B1652', 'B1689']  B1606's premises: ±3 when the end condition keeps the parity grading; dim Λ₊ − 3 taken as stated; W23 and W24 registered at headline level, not verifi
+ 178  P-160  QUEUED Q5  ['B1615', 'B1617', 'B1618', 'B1630', 'B1636', 'B1637']  the secondary surfaces B1655 did not touch: the paper's claim pool (CLAIM_CANDIDATES rows for B1636, B1637, B1641, B1645–B1653), the SM specification 
