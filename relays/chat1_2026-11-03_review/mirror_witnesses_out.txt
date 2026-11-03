@@ -1,0 +1,16 @@
+direction DR, radius L_max, readings S~ (up) and S~ (down)
+line (3/5, 0), tau 0.115927+3.410785i, L_max 0.645132
+   frame  |V_ub|/|V_td|  10.621  |V_ud| 1.0000  |V_us| 0.0065  |V_cb| 0.0291
+   mirror |V_ub|/|V_td|   0.728  |V_ud| 0.9999  |V_us| 0.0125  |V_cb| 0.0292
+   up m2/m3 3.532e-03 m1/m3 3.956e-06 | down m2/m3 1.538e-02 m1/m3 1.035e-05 | mirror-down kept to 9.9e-16 (relative)
+   main's filters (mirror_rule_structure2): both hierarchical True; up steeper than down True
+line (10/11, 9/11), tau 0.075904+3.632748i, L_max 0.644257
+   frame  |V_ub|/|V_td|  10.321  |V_ud| 0.9977  |V_us| 0.0677  |V_cb| 0.0181
+   mirror |V_ub|/|V_td|   0.342  |V_ud| 0.9977  |V_us| 0.0672  |V_cb| 0.0700
+   up m2/m3 5.823e-03 m1/m3 5.331e-05 | down m2/m3 1.700e-02 m1/m3 7.738e-04 | mirror-down kept to 1.7e-17 (relative)
+   main's filters (mirror_rule_structure2): both hierarchical True; up steeper than down True
+line (2/5, 0), tau 0.492764+3.142599i, L_max 0.646396
+   frame  |V_ub|/|V_td|  18.530  |V_ud| 0.9996  |V_us| 0.0293  |V_cb| 0.0347
+   mirror |V_ub|/|V_td|   0.491  |V_ud| 0.9967  |V_us| 0.0809  |V_cb| 0.0350
+   up m2/m3 3.216e-03 m1/m3 1.668e-05 | down m2/m3 1.835e-02 m1/m3 9.036e-05 | mirror-down kept to 3.7e-16 (relative)
+   main's filters (mirror_rule_structure2): both hierarchical True; up steeper than down True
