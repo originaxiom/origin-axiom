@@ -10569,3 +10569,44 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    marks, under one fixed definition).
 
 0 of 19.
+
+## 345. Added 2026-11-03 (UTC): W183 recorded — RI-1 at τ = i: the parity is the object's own; the corner lift is generic
+
+1. **The run.** The rule (2a1653df5) and the script (1c2ce95b7) came first. One run took 473.7 s: 1305 tasks, no
+   failure, no warning. The output (874fdedfe) was committed unread and read once. NOTE has the W183 section and row.
+2. **Held:**
+   - O0, the tie to W179 (1242 features);
+   - O1, the parity on this seat's code: a₀(up) = −a₀(down) to 10⁻⁶⁰ and a₀(lepton) = a₀(down) exactly, in all four
+     channels, with the numerical route agreeing to 10⁻³⁹·⁸;
+   - O2, none at 7.7%;
+   - O3, even at 5.7%, against none's 8.2%;
+   - O5, a₀'s phase inside the twelve fixed phases' range, 0–16%;
+   - O7, no Georgi–Jarlskog shape.
+3. **Failed:**
+   - **O4 and O6.** At τ = i the identification lifts the joint coarse fact (nature's corner order and ∣V_ud∣ > 0.9)
+     from 8% to 14% under both the natural and the bare size. The rule predicted 10 points.
+   - **O8.** Under the bare singlet, (4/9, 1/3) and (4/9, 4/9) and their mirrors give D = 10.27 and 10.39, inside the
+     data's window. But r₂ ≈ 1 and r₁ ≈ 9–11: the split is in the first generation only, not the Georgi–Jarlskog
+     shape. Per the rule this is a sealed target, with nothing banked.
+4. **For P-566, Q1.**
+   - **τ = i is not your scans' regime.** No frame point at τ = i is hierarchical in your scan's sense, under any
+     variant. So the 8% → 14% is not comparable to your 33–47% at nature-like points.
+   - **Two structural facts for your row:**
+     - a₀ vanishes identically where 3w is a half-period (15 census lines);
+     - at τ = i, DR·DR is real and positive, so on the 47 lines where a₀ is purely imaginary the natural singlet sits
+       at your null phases ±i (det S = 0).
+   - **Towards the cusp** (Im τ 12, read-outs), the joint rate is about 50% with no singlet and 57% under the natural
+     size.
+5. **RI-1's status** on the open list is TESTED at τ = i (W183), not earned.
+   - The sign is the object's own.
+   - The rule that the singlet reads the kernel's constant is still a choice.
+   - At τ = i it lifts no more than a generic odd singlet.
+   - An UNEARNED row in your IDENTIFICATION_LEDGER is the most it could carry. The band, Im τ 1–4 at nature-like
+     points, would be the test that bears on your scans. It needs your address rule, since B1825's address was chosen
+     with data.
+6. **Next here:** the B1814 blind rerun, at the owner's word. B1814's outputs stay unread until this seat's are
+   committed.
+7. **Labelled** neither (a frame census over every census line with an identity kernel, at the point the principle
+   marks, under one fixed definition).
+
+0 of 19.

@@ -7726,6 +7726,104 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W183. The kernel's Laurent constant as the Higgs's singlet (RI-1; main's P-566, Q1): the parity is the object's own, but at τ = i the identification lifts nature's corner order only from 8% to 14% (O4 and O6 failed), its phase is not special, and the even singlet does nothing. Under the bare singlet four order-9 lines put D in the data's window (O8 failed), with the split all in the first generation (r₂ ≈ 1), not the Georgi–Jarlskog shape (`the_laurent_singlet.py`; `W183_RULE.md`)
+
+**Why.** At the owner's "yes please" to item 1 of §343: RI-1 of the retrieval sweep. The web seat proved the identity
+kernel's Laurent constant odd between up and down (its relay of 2026-11-03, § 5). Main's FL-06 and P-566 need a Higgs
+singlet odd between up and down for the CKM's corners. P-566, Q1 asks for one definition first, then the corner order,
+∣V_ud∣ and the six at the frame's points.
+
+**The order.**
+- The rule (`W183_RULE.md`, 2a1653df5) was committed and pushed before the script.
+  - A bullet on the 15 lines where 3w is a half-period was added before its push, found while writing the script.
+  - A first push was stopped for it.
+- The script (1c2ce95b7) was committed before its run. A timing call after the rule's push ran two tasks and printed
+  statuses, digits and seconds only (disclosed in its docstring).
+- **One run**, 473.7 s on four workers, 1305 tasks, exit 0, no warnings, no failed task, 22 at doubled precision. Its
+  output (874fdedfe) was committed unread after the checks on the exit, failures, NaN, paths and warnings, then read
+  once.
+
+**The result (COMPUTED; one run; O0, O1, O2, O3, O5 and O7 as predicted; O4, O6 and O8 failed).**
+- **O0 held: the instrument is W178's frame.** With σ = 0 and W178's readings, all 1242 features compared at τ = i
+  equal W179's stored six within 10⁻⁶.
+- **O1 held: the parity on this seat's code.**
+  - At every point, in all four channels, ∣a₀(up) + a₀(down)∣ ≤ 10⁻⁶⁰(1 + ∣a₀∣), and a₀(lepton) = a₀(down) exactly.
+  - The numerical Laurent constant (route 2) agrees with the closed form within 10⁻³⁹·⁸(1 + ∣a₀∣).
+  - The web seat's § 5 holds on this seat's kernels.
+- **O2 held.** With no singlet and equal readings, the joint coarse fact (nature's corner order and ∣V_ud∣ > 0.9)
+  holds on 20 of the 261 lines at τ = i (7.7%).
+- **O3 held.** The even singlet gives 5.7%, against none's 8.2%, on the 244 lines decided under both.
+- **O4 failed: the natural-size identification lifts the corners by 5 points, not 10.** N gives 13.5%, against 8.2%
+  (244 lines).
+- **O5 held: a₀'s phase is not special.** On the 224 lines decided under N and all twelve phases, N's 14.7% lies
+  inside the twelve-phase range, 0 to 16.1%.
+  - Main's null phases ±i give 0.
+  - The phases 1 and −1 give 16.1%.
+- **O6 failed: the bare identification lifts by 6 points.** B gives 13.8%, against 8.1% (246 lines).
+- **O7 held.** No line under B or N has (r₂, r₁) within a factor 1.25 of (1/3, 3).
+- **O8 failed: four lines under the bare singlet put D in the data's window.**
+  - (4/9, 1/3) and (4/9, 2/3) give D = 10.265, and (4/9, 4/9) and (4/9, 5/9) give 10.393. The data's 10.58 ± 0.11
+    lies 2.9σ and 1.7σ above them.
+  - Their shape is not the data's. r₂ = 1.04 and 0.86, and r₁ = 10.7 and 8.9, against the data's (0.318, 3.365). The
+    split sits in the first generation only.
+  - On (4/9, 1/3) the joint coarse fact also holds under B.
+  - Under N and under none, no line lands.
+- **The read-outs.**
+  - **No point at τ = i is hierarchical** in main's sense, under any variant. "Hierarchical" means both sectors have
+    m₂/m₃ < 0.1 and m₁/m₃ < 0.01, with up steeper than down. So τ = i is not where P-566's scans found 33–47%.
+  - **The corners:** the median ∣V_ub∣/∣V_td∣ is 0.95 (none), 1.01 (B), 0.98 (N) and 1.04 (even). The median
+    ∣V_ud∣ is 0.85, 0.85, 0.76 and 0.89.
+  - **The bare size:** ∣a₀∣/∣DR∣ at τ = i runs from 0.91 to 47, median 6.2, below 1 on two lines only. The bare
+    singlet dominates the triplet.
+  - **N's null points:** 47 lines.
+    - At τ = i, DR·DR is real and positive on every line (∣DR·DR∣^{1/2} = ∣DR∣).
+    - a₀ is purely imaginary on exactly 47 lines. There the natural singlet is main's null phase ±i, and det S = 0.
+  - **The order-5 lines (P-583).** Under B, D = 1 on (0, 1/5) and (0, 2/5), and 1.03 to 1.97 elsewhere. Under N, D
+    runs from 0.63 to 3.26. The same singlet in down and leptons splits them there, as P-583's relation implies, by
+    line-dependent amounts.
+  - **D's spread at τ = i:**
+    - under B, 192 lines resolved, from 0.25 to 11.06, 110 distinct values, 9 above 8;
+    - under N, 163 lines, from 0.27 to 11.6;
+    - with no singlet, 207 lines, from 0.15 to 16.8, which is W179's set.
+  - **Towards the cusp** (Re τ 1/8 and 3/8, Im τ 6 and 12):
+    - at Im τ 12 the joint rate is 50% with no singlet, 50% under B, 57% under N and 53% under even;
+    - the verdict at Im τ 6 and at 12 agrees on 476 of 486 pairs (none), 387 of 498 (B), 371 of 383 (N) and 469 of
+      486 (even).
+
+**What it shows (a READING on the computed facts).**
+- **The parity is the object's own.** On every line and in every channel, the kernel's Laurent constant is odd
+  between up and down, as the web seat proved (O1). It vanishes identically where 3w is a half-period. That part of
+  RI-1 is settled.
+- **As a singlet at τ = i, it does what any odd singlet does there, and no more.**
+  - The lift is about 6 points under either size (O4 and O6 failed).
+  - a₀'s phase sits inside the twelve fixed phases' range (O5).
+  - The even singlet does nothing (O3), as main found.
+- **τ = i is not P-566's regime.** No frame point at τ = i is hierarchical, so these rates are not comparable to
+  main's 33–47% at nature-like points. The test answers P-566, Q1 at τ = i only. The band (Im τ 1–4) stayed out, as
+  the rule fixed.
+- **O8's hits are not the Georgi–Jarlskog pattern.**
+  - The bare singlet puts four order-9 lines (two mirror pairs) in D's window, but through the first generation
+    alone (r₂ ≈ 1).
+  - 9 of B's 192 values lie above 8, and the window took two of their distinct values.
+  - Per the rule, they are a sealed target, with nothing banked: (4/9, 1/3) and (4/9, 4/9) under the bare singlet
+    at τ = i.
+- **RI-1's status.**
+  - The sign is the object's own.
+  - The rule that the singlet reads the kernel's constant is still a choice.
+  - At τ = i the singlet does not lift the corners beyond the generic.
+  - On the open list RI-1 becomes TESTED at τ = i (W183), not earned. It goes to main with these numbers, as a
+    candidate for an UNEARNED row at most.
+
+**Weave or thread.** neither (a frame census over every census line with an identity kernel, at the point the
+principle marks, under one fixed definition). The frame is B1656's. The identification is a hypothesis, not a
+derivation from the joint action.
+
+**For the look ledger:** one look at the data, counted. The corner order, ∣V_ud∣ > 0.9, main's hierarchy filter,
+(r₂, r₁) and D were each read once. O8's lines are sealed targets, not selected for a fit.
+
+**Status.** COMPUTED (the rule first; one run; O0–O3, O5 and O7 as predicted; O4, O6 and O8 failed). RI-1 tested at
+τ = i: the parity holds, and the corner lift is generic. 0 of 19.
+
 ## W182. The down–lepton factor on the centre lines (main's P-567, Q1): no centre line gives the Georgi–Jarlskog shape. On the 80 new lines of order 15 and 30 the Z₃ part splits the down quarks from the leptons at τ = i on every line, by line-dependent amounts (D from 0.12 to 4.95, 39 values), never a Clebsch of 3. At the cusp it splits only where it sits in a; on the 20 new lines with a = 2/5 the cusp still ties (C2 failed as worded). No D lies in the data's window (`the_centre_lines.py`; `W182_RULE.md`)
 
 **Why.** At the owner's "continue". Main's framing ledger (S289, B1827, FL-08) found order-5 lines minimal SU(5)
@@ -15565,6 +15663,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W183 | COMPUTED (the rule first; one run; O0–O3, O5 and O7 as predicted; O4, O6 and O8 failed); a frame census over every census line with an identity kernel, at τ = i, under one fixed definition | RI-1, main's P-566 Q1: the identity kernel's Laurent constant a₀ as the Higgs's singlet, read alike by every sector: the parity a₀(up) = −a₀(down) = −a₀(lepton) holds on this seat's code to 10⁻⁶⁰ (O1), and a₀ = 0 on the 15 half-period lines; at τ = i the joint coarse fact (nature's corner order and ∣V_ud∣ > 0.9) rises from 8% to 14% under the natural and the bare sizes (O4, O6 failed: 10 points predicted); a₀'s phase inside the twelve fixed phases' 0–16% (O5); the even singlet does nothing (O3); no point at τ = i is hierarchical; under the bare singlet (4/9, 1/3) and (4/9, 4/9) and their mirrors give D = 10.27 and 10.39 in the window (O8 failed), with r₂ ≈ 1, the split in the first generation only: a sealed target; no Georgi–Jarlskog shape (O7) |
 | W182 | COMPUTED (the rule first; one run; C0, C1, C3 and C4 as predicted; C2 failed as worded on the rule's hand expectation); a frame census over the centre lines P-567 names | main's P-567, Q1 in B1656's frame at c = 1, on the 90 lines (2/5 + j/3, k/30): the 10 census lines tie the record (C0); order 5 ties everywhere and every new line splits at τ = i (C1); at the cusp the 60 new lines with a = 1/15, 11/15 run, but the 20 with a = 2/5 tie (C2 failed: only a reaches the cusp exponents); no Georgi–Jarlskog shape within 1.25 of (1/3, 3) (C3; nearest (0.559, 1.887)); no D in the window (C4; at τ = i 42 values, 0.117–4.95); single factors near 1/3 or 3 occur, never the pattern: no centre line gives the 3 |
 | W181 | COMPUTED (the rule first; one run; every cell as predicted; one labelled post hoc); a frame census over every census line with an integer-λ kernel, in the exact norms | B1656's frame with W177's exact norms and only their linear part B_s Im τ moved to a scale Y: the limit in Im τ at fixed Y (reached to 10⁻¹³), then in Y^{−1/2} by Neville's extrapolation (to 2 × 10⁻⁹); all 62 agreeing pairs accepted, 17 distinct D∞, none within 3σ (K7); nearest (0, 2/7) at 11.345, 7σ above; the G2 lines 6.3138 (K8), post hoc cot(π/20); 24 ties; only (0, 1/6) depends on Re τ; post hoc, every r∞ but (0, 1/6)'s a cosine ratio of the line's order or ¼; with W179 all 110 finite cusp pairs determined, no cusp D in the window on any census line |
 | W180 | COMPUTED (the rule first; one run; H1, H2, H3, H5 and H7 as predicted; H0, H4 and H6 failed as worded; one labelled post hoc and two disclosed instrument debug runs); a frame census over every census line with an integer-λ kernel | the frozen-norm frame on the 49 integer-λ lines: the norm's split c^∞ + B_s Im τ is exact (to 10⁻¹³⁰), but its rest ρ_s (e^{−π Im τ} on λ = ±½, not e^{−2π Im τ} as the rule said) reaches the light features (s₃/s₁ ~ 10⁻¹²⁸), so H0 failed on all 98 pairs and every D∞ is withheld; on the G2 lines ρ_s cancels in D (H3 to 10⁻¹³) and the frozen D falls to 6.59 at Y = 4096; no value in the window (H5); the limit frame is discontinuous on all 62 agreeing pairs (H4); W179's classification exact (H7) |

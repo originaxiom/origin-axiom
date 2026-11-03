@@ -1,5 +1,18 @@
 # Changelog
 
+## W183 run: the kernel's Laurent constant as the Higgs's singlet, tested at τ = i (RI-1; relay §345)
+
+- **The order:** the rule and the script first; one run, its output committed unread and read once.
+- **The cells:** O0, O1, O2, O3, O5 and O7 held; O4 and O6 failed (the lift is about 6 points, not 10); O8 failed
+  (two order-9 mirror pairs under the bare singlet put D in the window, with the split in the first generation only).
+- **What it shows:** the parity is the object's own, but at τ = i the singlet lifts the CKM's corners no more than any
+  odd singlet does. No frame point at τ = i is hierarchical, so it is not the regime of main's scans. RI-1 is tested
+  there and not earned.
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W183 section and row),
+  `docs/dossiers/the_weave_2026-10-07/the_laurent_singlet.json`,
+  `docs/dossiers/the_weave_2026-10-07/W_VERDICTS.json`, `tests/test_b1552_the_chiral_triplets_count.py`
+  (`test_w183_the_laurent_singlet`), the sweep page's RI-1 row, relay §345, the ledger row, the state page. 0 of 19.
+
 ## W183's rule, committed before its script: the kernel's Laurent constant as the Higgs's singlet (RI-1; main's P-566, Q1; relay §344)
 
 - **The occasion:** the owner's "yes please" to item 1 of §343. RI-1 is the retrieval sweep's strongest

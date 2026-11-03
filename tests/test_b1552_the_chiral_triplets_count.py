@@ -5800,6 +5800,53 @@ def test_w182_the_centre_lines():
     assert "## W182. The down–lepton factor on the centre lines (main's P-567, Q1)" in note
 
 
+def test_w183_the_laurent_singlet():
+    """W183: O0-O3, O5 and O7 as predicted, O4, O6 and O8 failed; in process, the 5 excluded and 15 half-period lines
+    from the fractions, and the kernel's Laurent constant odd between up and down and zero at a half-period"""
+    import math
+    import mpmath as mp
+    from fractions import Fraction as Fr
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_laurent_singlet.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"O0": True, "O1": True, "O2": True, "O3": True, "O4": False, "O5": True, "O6": False,
+                          "O7": True, "O8": False}
+    assert d["tasks"] == 1305 and d["failed tasks"] == [] and d["warnings"] == [] and "run_failed" not in d
+    assert d["O0"]["features compared"] == 1242 and d["O0"]["disagreements"] == []
+    assert d["O2"]["decided"] == 261 and abs(d["O2"]["rate none"] - 20 / 261) < 1e-12
+    assert d["O4"]["common lines"] == 244 and 0.05 < d["O4"]["rate N"] - d["O4"]["rate none"] < 0.10
+    assert d["O6"]["common lines"] == 246 and 0.05 < d["O6"]["rate B"] - d["O6"]["rate none"] < 0.10
+    assert sorted({h[0][1] for h in d["O8"]["hits"]}) == ["1/3", "2/3", "4/9", "5/9"]
+    assert all(h[0][0] == "4/9" and h[1] == "B" for h in d["O8"]["hits"])
+    excl = {tuple(x) for x in d["lines"]["excluded (3w in the lattice)"]}
+    half = {tuple(x) for x in d["lines"]["a0 = 0 (3w a half-period), left out of O3-O8"]}
+    assert excl == {("0", "0"), ("0", "1/3"), ("1/3", "0"), ("1/3", "1/3"), ("1/3", "2/3")} and len(half) == 15
+    for a, b in half:
+        a, b = Fr(a), Fr(b)
+        assert (6 * a) % 1 == 0 and (6 * b) % 1 == 0 and not ((3 * a) % 1 == 0 and (3 * b) % 1 == 0)
+    assert sum(1 for e in d["per line"] if not e["a0 = 0"] and abs(e["a0(down), identity channel"][0]) < 1e-30) \
+        == d["R: per variant at tau = i"]["N"]["null points (any sector)"] == 47
+    with mp.workdps(30):
+        t = mp.mpc(0, 1)
+        q = mp.exp(1j * mp.pi * t)
+
+        def a0(ub):
+            beta = mp.im(ub) / mp.im(t)
+            alpha = mp.re(ub) - beta * mp.re(t)
+            ubr = (alpha - mp.nint(alpha)) + (beta - mp.nint(beta)) * t
+            A = mp.im(ubr) / mp.im(t)
+            return 2j * mp.pi * A + mp.pi * mp.jtheta(1, mp.pi * ubr, q, 1) / mp.jtheta(1, mp.pi * ubr, q)
+        w = mp.mpf(4) / 9 * t + mp.mpf(1) / 3
+        up, down = a0(-3 * w), a0(3 * w)
+        assert abs(up + down) < mp.mpf(10) ** -25
+        rec = next(e for e in d["per line"] if e["line"] == ["4/9", "1/3"])
+        assert abs(complex(down) - complex(*rec["a0(down), identity channel"])) < 1e-12
+        w2 = mp.mpf(1) / 6 * t + mp.mpf(1) / 2
+        assert abs(a0(3 * w2)) < mp.mpf(10) ** -25
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W183. The kernel's Laurent constant as the Higgs's singlet (RI-1; main's P-566, Q1)" in note
+    assert not math.isnan(d["seconds"])
+
+
 def test_the_retrieval_sweep_keeps_its_open_list():
     """The owner's question of 2026-11-03 ('so we dont forget again'): the sweep's open list RI-1 to RI-8 stays on the
     page, every row with a status, and the standing rule stays in WORKING_RULES.md. A row may change status when an arc

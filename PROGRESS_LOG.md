@@ -21613,3 +21613,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   what would count as success, and what each outcome would mean. Nothing has been computed yet.
   0 of 19.
 
+## 2026-11-03 — the first lead tested
+
+- **What was tested:** whether the sign the main frame throws away could serve as the missing piece of the Higgs that
+  the quark mixings need.
+- **What came out:** the sign behaves exactly as proved, opposite for up and down quarks on every line. But at the
+  point tested, adding it improves the mixing pattern only slightly, no more than any piece with that sign would. Four
+  lines happened to land near a measured number, but in the wrong way (one generation only), so they count for
+  nothing yet.
+- **What it means:** the lead is real as a property of the object, but this test did not make it the missing piece.
+  The more telling test is at the points where the frame looks most like nature, and that needs a rule from main
+  first. 0 of 19.
+
