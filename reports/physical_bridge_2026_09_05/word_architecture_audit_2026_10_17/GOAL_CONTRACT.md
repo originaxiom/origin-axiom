@@ -1313,6 +1313,30 @@ remain hypotheses; correction and load-bearing audit support the primary
 physical-map derivation. This is planning, not a new execution seal or
 canonical GENESIS amendment.
 
+## November 3: first constructive register/field test
+
+The [new authored joint](REGISTER_FLAVOUR_ACTION_GRAM_AND_QUARTIC_STATE_TEST.md)
+and [reduction card 04](REDUCTION_CARD_04_REGISTER_ACTION_AND_STATE_COMPATIBILITY.md)
+reuse the register E->2O and the old whole-parent flavour symmetry to
+construct an exact physical-sector action with its mass/domain transport.
+A distinct proposed Q8 physical holonomy forces equal orthogonal parallel
+fields as a necessary condition, not an earned identification or global
+existence result. On the original F0 parent, a quartic E8 invariant
+separates three same-Gram stationary configurations at a fixed flavour
+reference. They are symmetry-related states with unitarily transported
+operators, not generations or new numerical predictions. The finite
+kernel, full six-component module, separate matter triplets and measuring
+data remain explicit.
+
+Proof/design were committed at 84632be08 before the five-control source
+was written. Its exact five method names and source pins were checked
+statically; controls remain UNREVIEWED, UNRUN, NOT IMPORTED OR COLLECTED.
+This new package does not inherit the neutral-family review or main's
+acceptance. No foundational input is paid. The next duty is the actual
+full registered geometric/field transition and end law, with these tests
+available to reject both an unjustified fixed-state demand and a false
+identification of all equal-norm configurations.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
