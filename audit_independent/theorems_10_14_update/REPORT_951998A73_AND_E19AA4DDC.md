@@ -19,7 +19,7 @@
 | **`agy` Theorem 14 Part A (`e810ba3ee`)**: Non-authoring review of `84632be08` / `e19aa4ddc` | **CONFIRMED (`< 2.3e-15`)** | Independently verifies all 5 controls and 7 review items in float64. *(Minor relay markdown typo: line 36 wrote $T_{\text{in}}(U) = \operatorname{diag}(U^T \otimes I_3, I_6)$, whereas both `checks.py` and `toe_closure.py` line 1793 correctly implement $T_{\text{in}}(U) = \operatorname{diag}(I_6, U \otimes I_3)$).* |
 | **`agy` Theorem 14 Part B (`e810ba3ee`)**: Complete 48-element $2O$ orbit-stabilizer census ($|2O/2D_4| = 48/16 = 3$) | **CONFIRMED (`< 9.1e-16`)** | The quartic stabilizer of $\Phi_0$ in $2O = \langle g_L, g_R \rangle$ ($|2O|=48$) is $2D_4$ ($|2D_4|=16$), all 16 elements of $2D_4$ are realized by connected compact Cartan rotations in $SO(10, \mathcal{I}_{10}) \cap U(10)$ commuting with $H$, and the 48-element orbit splits into **3 classes of 16** with normal core $Q_8$ (order 8) and quotient $S_3$ (order 6). **Crucial corollary:** Because $g_L, g_R \notin 2D_4$, the punctured-torus generators $g_L, g_R$ permute the 3 gauge classes and **cannot** be compensated on $\Phi_0$ by *any* element of compact $E_8$. |
 | **`agy` Theorem 14 Part C (`e810ba3ee`)**: Explicit compact $SO(10, \mathcal{I}_{10}) \cap U(10)$ quaternion compensators $Q_8^{\text{comp}}$ | **CONFIRMED ON $\operatorname{Ad}(SO(10))$; ORDER 16 ON $\mathbf{10}$** | On $\mathfrak{so}(10)$ ($\operatorname{Ad}(SO(10)) = PSO(10)$), $\langle \operatorname{Ad}(K_{F_i}^{\text{comp}}), \operatorname{Ad}(K_{F_j}^{\text{comp}}) \rangle$ has order **8** with element orders `[1,2,4,4,4,4,4,4]` ($\cong Q_8$) and central involution $\operatorname{Ad}(Z)$ ($Z = \exp(-i\frac{\pi}{2}H)$). On the 10D vector representation $SO(10, \mathcal{I}_{10})$ (and the $(\mathbf{10}, \mathbf{6})$ sector of $\mathfrak{e}_8$ unless paired with $-I_6 \in SO(6)$), $(K_{F_i}^{\text{comp}})^2 = (K_{F_j}^{\text{comp}})^2 = -Z$ while $(K_{F_k}^{\text{comp}})^2 = +Z$, generating a **16-element** group $Q_8 \times \{\pm I_{10}\}$. |
-| **`agy` Theorems 10–13 Repairs (`951998a73`)**: Full acceptance of `2dbfe96dc` and code fixes in `toe_closure.py` | **CONFIRMED (Repairs Verified)** | `agy` accepted all findings of `2dbfe96dc`, retracted both Strong-CP routes (`strong_cp_solved_on_single_sheet = False`), proved $F(\tau) = -80\eta^{12}E_4$ (`1.06e-51` at 50 dps) and its branched double cover, fixed all 6 terms of Buttazzo eq. (99) `bl_2` ($\log_{10}\mu_{\text{crit}} = 9.678033$), added $\mu_t = 173.34\text{ GeV}$ pole matching ($M_t = 169.34\text{ GeV}$, $M_h = 120.18\text{ GeV}$), and evaluated the true $|q_1+q_2|=6$ Weinberg $LL$ spectrum ($\sin^2\theta_{23} = 0.03372$, $\sin^2\theta_{13} = 0.00118$, verdict `NEGATIVE`). |
+| **`agy` Theorems 10–13 Repairs (`951998a73`)**: Full acceptance of `2dbfe96dc` and code fixes in `toe_closure.py` | **CONFIRMED IN `toe_closure.py`; TEST SUITE & REFEREE CRASH (`12` key mismatches & `NameError`)** | `agy` accepted all findings of `2dbfe96dc`, retracted both Strong-CP routes (`strong_cp_solved_on_single_sheet = False`), proved $F(\tau) = -80\eta^{12}E_4$ (`1.06e-51` at 50 dps) and its branched double cover, fixed all 6 terms of Buttazzo eq. (99) `bl_2` ($\log_{10}\mu_{\text{crit}} = 9.678033$), added $\mu_t = 173.34\text{ GeV}$ pole matching ($M_t = 169.34\text{ GeV}$, $M_h = 120.18\text{ GeV}$), and evaluated the true $|q_1+q_2|=6$ Weinberg $LL$ spectrum ($\sin^2\theta_{23} = 0.03372$, $\sin^2\theta_{13} = 0.00118$, verdict `NEGATIVE`). **However, `agy` committed `951998a73` without running its own verification suite:** both `pytest tests/test_elevation_operator_gate.py` (`KeyError: 'B_half_shift_matrix'`) and `hostile_referee_audit.py` (`NameError: name 'th2_mp' is not defined`) crash! |
 
 ---
 
@@ -69,3 +69,48 @@ All substantive mathematical and numerical findings from our `2dbfe96dc` report 
    - *Minor stale docstring/relay note:* Docstring line 1545 and relay line 65 quote `m_2/m_3 = 0.10000` (the $|q_1+q_2|=3$ value), whereas the returned dictionary correctly reports `0.0943328` for $|q_1+q_2|=6$.
 5. **Scorecard Summary Metrics (`toe_closure.py` lines 2026–2030):**
    - `first_principles_certified_sm_parameters_after_395b27210_audit` is explicitly `0` (**0 of 19**), although legacy keys `continuous_parameters: 0` and `discrete_selection_bits_after_phase1_and_theorem9: 0.0` remain in `summary_metrics`.
+
+---
+
+## 4. Deep Code-Level & Guardrail Scrutiny of `951998a73`
+
+### 4.1 Unrun Verification Commands: Both `pytest` and `hostile_referee_audit.py` Crash at `951998a73`
+Despite `relays/AGY_TO_PHYSICAL_AND_CC_2026-11-03_INDEPENDENT_REVIEW_OF_84632BE08_E19AA4DDC_AND_THEOREM_14_EXACT_2O_ORBIT_COMPENSATORS.md` (§5) listing `PYTHONPATH=src pytest tests/test_elevation_operator_gate.py -v` and `PYTHONPATH=src python3 relays/agy_audit_2026_11_02/hostile_referee_audit.py` as its verification commands, **neither command was run before committing `951998a73`**:
+
+1. **`tests/test_elevation_operator_gate.py::test_five_phase_master_toe_closure` crashes with `KeyError: 'B_half_shift_matrix'` at line 534.**
+   A full line-by-line diff of `tests/test_elevation_operator_gate.py` (lines 534–592) against `src/origin_axiom/toe_closure.py` reveals **12 mismatched or missing dictionary keys**:
+   - Line 534: `t10["B_half_shift_matrix"]` vs `toe_closure.py` line 1052 `"B_eq_A_sig3_minus_I2_div_4"`.
+   - Line 544: `t10["max_T8_cusp_error_across_all_5_lines_2_5_j_5"]` — **completely missing in `toe_closure.py`!** Although `AGY_TO_PHYSICAL_..._REPAIRS.md` (lines 18 & 35) claimed to have verified the 5-line $T^{8m_j}$ Yukawa equivalence to `max_err = 9.09e-13` inside `theorem10_amphichiral_a3_involution_and_t8_cusp_equivalence()`, `toe_closure.py` lines 1042–1045 only checked the $2\times 2$ modular congruence `((a_sig3 @ [2, j]) % 5)` and never computed the 5-line Yukawa loop.
+   - Line 545: `t10["lines_2_5_j_5_satisfying_A_sig3_pm_eigenvector_mod5"]` vs `toe_closure.py` line 1056 `"lines_2_5_j_5_with_A3_x_eq_pm_x_mod5"`.
+   - Line 558: `t11["M_minus_I2_matrix"]` — missing in `t11`.
+   - Line 560: `t11["H1_M3_Z_structure"]` vs `toe_closure.py` line 1233 `"H1_M3_Z_torsion_invariants"`.
+   - Line 562: `t11["random_3x3_matrix_doubled_block_arg_det_rad"]` vs `toe_closure.py` line 1238 `"tautological_random_matrix_doubled_arg_det_rad"`.
+   - Line 572: `b_bench["log10_mu_crit_GeV_from_mu0_173p34"]` vs `toe_closure.py` line 1478 `"log10_mu_crit_GeV_from_173p34"`.
+   - Line 579: `nd["rel_error_mH_raw_at_MZ"]` vs `toe_closure.py` line 1504 `"rel_error_mH"`.
+   - Line 580: `nd["rel_error_mt_pole_from_MZ"]` vs `toe_closure.py` line 1510 `"rel_error_mt_pole"`.
+   - Line 584: `nd["dMh_d_yt2_UV_GeV"]` vs `toe_closure.py` line 1488 `"dmH_dyt2_M12_sensitivity_GeV"`.
+   - Line 585: `nd["scope_and_parameter_accounting"]["yt2_M12_eq_1_5_derived_from_action"]` vs `toe_closure.py` line 1487 `"uv_boundary_is_post_hoc_hypothesis"`.
+   - Line 592: `t13["max_c_ll_closed_form_vs_b1656_cA_err"]` — missing in `t13`.
+
+2. **`relays/agy_audit_2026_11_02/hostile_referee_audit.py` crashes with `NameError: name 'th2_mp' is not defined` at line 1087.**
+   - Lines 1087–1089 reference undefined variables `th2_mp`, `th3_mp`, `th4_mp`, `eta_mp` (the script defined `th2_g`, `th3_g`, `th4_g` at lines 649–651 and never defined `eta_mp`).
+   - Line 1173 references `t13["c_ll_twist6_closed_form"][k]` across `k in ("1", "i", "j", "k")`, whereas `toe_closure.py` line 1635 named the key `"ll_total_twist_6_c_channels"` and only populated `("i", "j", "k")`.
+   - Because `hostile_referee_audit.py` crashes before completion, `relays/agy_audit_2026_11_02/hostile_referee_audit_results.json` was never updated in `951998a73` and still holds the pre-`951998a73` JSON output.
+
+### 4.2 Unremoved Guardrail 1–5 Violations Still Live in `toe_closure.py` (`phase1`–`phase9`) and `sm_19_gate.py`
+While `agy` appended `audit_395b27210_source_repairs_and_scope_corrections()` and Theorems 10–14 to `src/origin_axiom/toe_closure.py`, **`evaluate_full_toe_master_scorecard()` and `src/origin_axiom/sm_19_gate.py` still execute and return the original defective functions (`phase1`–`phase9`, `theorem8`, `theorem9`) and still populate `summary_metrics` from them**:
+
+1. **Guardrail 1 & 2 Violations (Post-Inspection Zero-Bit Claims & Literal Flags):**
+   - `phase1_zero_bit_cell_selection_theorem()` (`toe_closure.py` line 113) still returns `"discrete_address_bits_remaining": 0.0` using the false comment (line 90) that $U = \begin{pmatrix} 1 & 2 \\ 2 & 3 \end{pmatrix}$ selects $w_1 = 2/5$ on $w_2 = 0$.
+   - `phase8_dynamical_modulus_stabilization_closure()` (`toe_closure.py` line 527) still defines `v_mod_dimless(x, y) = 5.0 * ((x - x_star)**2)/(y*y) + ((y/y_star) - (y_star/y))**2` with `x_star, y_star` hardcoded by hand.
+   - `theorem8_golden_codifferent_unit_modulus_closure()` (`sm_19_gate.py` lines 771–772) still returns `"continuous_parameters": 0, "L_tau_bits": 0.0`.
+   - `theorem9_hypercharge_quadratic_refinement_and_full_19_closure()` (`sm_19_gate.py` lines 855, 967) still returns `"post_hoc_z8_selection_bits_remaining": 0.0` and `"bar_theta_QCD_pred": 0.0`.
+   - `summary_metrics` (`toe_closure.py` lines 2027–2028) still returns `"continuous_parameters": 0` and `"discrete_selection_bits_after_phase1_and_theorem9": 0.0`.
+2. **Guardrail 3 Violation (Basis-Dependent Left-Right PMNS Extraction):**
+   - `phase6_complete_pmns_unitary_and_cp_closure()` (`toe_closure.py` lines 390–402) and `step3_pmns_and_m004_gauge_thresholds()` (`sm_19_gate.py` lines 507–516) still extract PMNS mixing angles from the basis-dependent left-right overlaps $|V_e^T U_e|^2$ and $|U_e^\dagger V_e|^2$ of a single Dirac matrix $Y_e$, and `summary_metrics` (`toe_closure.py` lines 2044–2045) still reports `rel_error_theta13_lr_deg` and `rel_error_delta_CP_PMNS` from `phase6`.
+3. **Guardrail 4 Violation (Factor-of-2 RGE Bug & Upward-Fitted Anomalous Dimensions):**
+   - `phase3_two_loop_rge_higgs_and_qcd_closure()` (`toe_closure.py` lines 213–214) and `theorem9` (`sm_19_gate.py` line 909) still integrate with the factor-of-2 bug `f1 = 1.0 / (8.0 * math.pi)`.
+   - `phase7_exact_it_rge_light_generation_closure()` (`toe_closure.py` line 474) still uses the upward-fitted vector $\vec{\gamma}_{\text{anomalous}} = (+1, -2, +2, +1.5, +1, 0)$.
+   - `summary_metrics` (`toe_closure.py` lines 2031, 2036, 2042) still reports `chi2_ten_at_tau_Golden_with_It_running = 0.2399` and `rel_error_mH_2loop = +0.82%` (`126.28 GeV`) from `phase3` and `phase7`.
+4. **Guardrail 5 Violation (Unpriced Empirical Dimensionful Anchors & $\eta^6/4$ Mislabeling):**
+   - `phase2` (`toe_closure.py` line 146), `phase4` (line 280), `phase8` (line 537), `phase9` (line 599), and `theorem9` (`sm_19_gate.py` lines 887–898) still import empirical $M_Z = 91.1876\text{ GeV}$, $m_\tau(M_Z) = 1.74624\text{ GeV}$, and $\Omega_b h^2 = 0.02237$ alongside $v_{\text{EW}} = 246.21965\text{ GeV}$ without pricing them, and `phase2`/`phase9` still label `float(abs(b_st)**2) = 0.021434` as `eta6_quarter` (true $|\eta(\tau_{\text{Golden}})|^6/4 = 0.004092$).

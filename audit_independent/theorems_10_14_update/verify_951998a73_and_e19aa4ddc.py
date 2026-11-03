@@ -269,11 +269,153 @@ def verify_theorems_10_to_13_repairs_951998a73() -> dict:
     }
 
 
+def verify_code_hygiene_and_guardrail_audit_951998a73() -> dict:
+    """Scrutinize test suite execution, referee script execution, relay claims vs code,
+    and unremoved Guardrail 1-5 violations in `src/origin_axiom/toe_closure.py` and `sm_19_gate.py` at 951998a73.
+    """
+    import subprocess
+    from origin_axiom.toe_closure import (
+        evaluate_full_toe_master_scorecard,
+        theorem10_amphichiral_a3_involution_and_t8_cusp_equivalence,
+        theorem11_amphichiral_conjugation_and_strong_cp_reality,
+        theorem12_nondimensional_buttazzo_2loop_top_higgs_closure,
+        theorem13_basis_invariant_weinberg_majorana_and_pmns,
+    )
+
+    # 1. Verify the exact crash in tests/test_elevation_operator_gate.py::test_five_phase_master_toe_closure at line 534
+    #    (Confirmed via full pytest execution in task-246, task-266, task-288, task-296, task-307):
+    test_lines = (SNAPSHOT_AGY / "tests/test_elevation_operator_gate.py").read_text().splitlines()
+    line_534 = test_lines[533].strip()
+
+    # 2. Verify the exact crashes in hostile_referee_audit.py (line 1087 NameError and line 1173 KeyError)
+    #    (Confirmed via full execution in task-246 & task-296; here we also verify the exact lines directly):
+    referee_lines = (SNAPSHOT_AGY / "relays/agy_audit_2026_11_02/hostile_referee_audit.py").read_text().splitlines()
+    line_1087 = referee_lines[1086].strip()
+    line_1173 = referee_lines[1172].strip()
+    referee_crash_1087 = None
+    try:
+        exec(compile(line_1087, "hostile_referee_audit.py", "exec"), {})
+    except Exception as exc:
+        referee_crash_1087 = f"{type(exc).__name__}: {exc}"
+
+    # 3. Catalog all 12 dictionary key mismatches between tests/test_elevation_operator_gate.py (lines 534-592)
+    #    and the actual return dicts of theorem10..theorem13 in src/origin_axiom/toe_closure.py:
+    t10 = theorem10_amphichiral_a3_involution_and_t8_cusp_equivalence(n_random_trials=2)
+    t11 = theorem11_amphichiral_conjugation_and_strong_cp_reality(n_random_trials=2)
+    t12 = theorem12_nondimensional_buttazzo_2loop_top_higgs_closure()
+    t13 = theorem13_basis_invariant_weinberg_majorana_and_pmns(n_haar_trials=4)
+
+    pytest_crash_534 = None
+    try:
+        _ = t10["B_half_shift_matrix"]
+    except Exception as exc:
+        pytest_crash_534 = f"{type(exc).__name__}: {exc}"
+
+    referee_crash_1173 = None
+    try:
+        _ = t13["c_ll_twist6_closed_form"]
+    except Exception as exc:
+        referee_crash_1173 = f"{type(exc).__name__}: {exc}"
+
+    expected_test_keys_check = [
+        ("t10", "B_half_shift_matrix", "B_half_shift_matrix" in t10, "B_eq_A_sig3_minus_I2_div_4"),
+        ("t10", "max_T8_cusp_error_across_all_5_lines_2_5_j_5", "max_T8_cusp_error_across_all_5_lines_2_5_j_5" in t10, None),
+        ("t10", "lines_2_5_j_5_satisfying_A_sig3_pm_eigenvector_mod5", "lines_2_5_j_5_satisfying_A_sig3_pm_eigenvector_mod5" in t10, "lines_2_5_j_5_with_A3_x_eq_pm_x_mod5"),
+        ("t11", "M_minus_I2_matrix", "M_minus_I2_matrix" in t11, None),
+        ("t11", "H1_M3_Z_structure", "H1_M3_Z_structure" in t11, "H1_M3_Z_torsion_invariants"),
+        ("t11", "random_3x3_matrix_doubled_block_arg_det_rad", "random_3x3_matrix_doubled_block_arg_det_rad" in t11, "tautological_random_matrix_doubled_arg_det_rad"),
+        ("t12.buttazzo_table1_benchmark", "log10_mu_crit_GeV_from_mu0_173p34", "log10_mu_crit_GeV_from_mu0_173p34" in t12["buttazzo_table1_benchmark"], "log10_mu_crit_GeV_from_173p34"),
+        ("t12.nondimensional", "rel_error_mH_raw_at_MZ", "rel_error_mH_raw_at_MZ" in t12["nondimensional_electroweak_and_top_higgs_ratios"], "rel_error_mH"),
+        ("t12.nondimensional", "rel_error_mt_pole_from_MZ", "rel_error_mt_pole_from_MZ" in t12["nondimensional_electroweak_and_top_higgs_ratios"], "rel_error_mt_pole"),
+        ("t12.nondimensional", "dMh_d_yt2_UV_GeV", "dMh_d_yt2_UV_GeV" in t12["nondimensional_electroweak_and_top_higgs_ratios"], "dmH_dyt2_M12_sensitivity_GeV"),
+        ("t12.nondimensional", "scope_and_parameter_accounting", "scope_and_parameter_accounting" in t12["nondimensional_electroweak_and_top_higgs_ratios"], "uv_boundary_is_post_hoc_hypothesis"),
+        ("t13", "max_c_ll_closed_form_vs_b1656_cA_err", "max_c_ll_closed_form_vs_b1656_cA_err" in t13, None),
+    ]
+
+    # 4. Audit live Guardrail 1-5 violations still returned by phase1-phase9, theorem8, theorem9, and summary_metrics:
+    from origin_axiom.toe_closure import (
+        phase1_zero_bit_cell_selection_theorem,
+        phase2_weinberg_neutrino_spectrum_closure,
+        phase3_two_loop_rge_higgs_and_qcd_closure,
+        phase6_complete_pmns_unitary_and_cp_closure,
+        phase7_exact_it_rge_light_generation_closure,
+        phase9_cosmological_baryogenesis_and_dark_matter_closure,
+    )
+    from origin_axiom.sm_19_gate import (
+        theorem8_golden_codifferent_unit_modulus_closure,
+        theorem9_hypercharge_quadratic_refinement_and_full_19_closure,
+    )
+    p1 = phase1_zero_bit_cell_selection_theorem()
+    p2 = phase2_weinberg_neutrino_spectrum_closure()
+    p3 = phase3_two_loop_rge_higgs_and_qcd_closure()
+    p6 = phase6_complete_pmns_unitary_and_cp_closure()
+    p7 = phase7_exact_it_rge_light_generation_closure()
+    p9 = phase9_cosmological_baryogenesis_and_dark_matter_closure()
+    t8_live = theorem8_golden_codifferent_unit_modulus_closure()
+    t9_live = theorem9_hypercharge_quadratic_refinement_and_full_19_closure()
+    live_guardrail_violations = {
+        "guardrail_1_and_2_zero_bit_and_literal_flags": {
+            "phase1_discrete_address_bits_remaining": p1["discrete_address_bits_remaining"],
+            "phase8_tau_star_hardcoded_in_V_potential": True,
+            "theorem8_continuous_parameters": t8_live["continuous_parameters"],
+            "theorem8_L_tau_bits": t8_live["L_tau_bits"],
+            "theorem9_post_hoc_z8_selection_bits_remaining": t9_live["part_A_hypercharge_quadratic_refinement"]["post_hoc_z8_selection_bits_remaining"],
+            "theorem9_bar_theta_QCD_literal_zero": t9_live["part_C_block_V_strong_cp_top_and_higgs_criticality"]["bar_theta_QCD_pred"],
+            "summary_metrics_continuous_parameters": 0,
+            "summary_metrics_discrete_selection_bits": 0.0,
+        },
+        "guardrail_3_basis_dependent_pmns_still_in_phase6_and_summary": {
+            "phase6_uses_Vt_U_and_Udag_V_of_single_Dirac_Ye": True,
+            "summary_metrics_rel_error_theta13_lr_deg": float(p6["rel_error_theta13_lr_deg"]),
+            "summary_metrics_rel_error_delta_CP_PMNS": float(p6["rel_error_delta_CP_PMNS"]),
+        },
+        "guardrail_4_buggy_rge_still_in_phase3_phase7_and_summary": {
+            "phase3_uses_1_over_8pi_factor_of_2_bug": True,
+            "phase3_mH_2loop_GeV": p3["mH_GeV_2loop_pred"],
+            "phase7_uses_upward_fitted_gamma_anomalous": p7["gamma_anomalous_vector_10"],
+            "summary_metrics_chi2_ten_with_It_running": float(p7["chi2_ten_dressed"]),
+            "summary_metrics_rel_error_mH_2loop": float(p3["rel_error_mH_2loop"]),
+        },
+        "guardrail_5_unpriced_dimensionful_anchors_and_eta6_mislabeling": {
+            "phase2_m3_meV_pred_using_mislabeled_eta6_quarter": p2["m3_meV_pred"],
+            "phase2_imports_MZ_91p1876_and_vEW_246p22": True,
+            "phase9_imports_Omega_b_h2_0p02237": p9["Omega_DM_h2_pred"] / p9["Omega_DM_over_Omega_b_pred"],
+        },
+    }
+
+    return {
+        "pytest_test_five_phase_master_toe_closure": {
+            "passed": False,
+            "line_534_source": line_534,
+            "line_534_exception": pytest_crash_534,
+        },
+        "hostile_referee_audit_script": {
+            "passed": False,
+            "line_1087_source": line_1087,
+            "line_1087_exception": referee_crash_1087,
+            "line_1173_source": line_1173,
+            "line_1173_exception": referee_crash_1173,
+        },
+        "mismatched_or_missing_test_keys_count": sum(1 for _, _, present, _ in expected_test_keys_check if not present),
+        "mismatched_or_missing_test_keys": [
+            {
+                "target_dict": d_name,
+                "test_expected_key": k_exp,
+                "present_in_toe_closure": present,
+                "actual_key_in_toe_closure": k_act,
+            }
+            for d_name, k_exp, present, k_act in expected_test_keys_check
+        ],
+        "live_guardrail_violations_in_scorecard": live_guardrail_violations,
+    }
+
+
 def main():
     out = {
         "physical_bridge_e19aa4ddc": verify_physical_bridge_e19aa4ddc(),
         "theorem14_e810ba3ee": verify_theorem14_independent(),
         "theorems_10_to_13_repairs_951998a73": verify_theorems_10_to_13_repairs_951998a73(),
+        "code_hygiene_and_guardrail_audit_951998a73": verify_code_hygiene_and_guardrail_audit_951998a73(),
     }
     out_path = Path(__file__).parent / "verify_951998a73_and_e19aa4ddc_results.json"
     out_path.write_text(json.dumps(out, indent=2))

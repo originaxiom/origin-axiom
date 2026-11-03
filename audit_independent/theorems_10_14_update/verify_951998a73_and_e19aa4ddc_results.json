@@ -134,5 +134,134 @@
       "operator_gate_distinguishes_dc_from_L": true,
       "operator_gate_extends_to_m004": true
     }
+  },
+  "code_hygiene_and_guardrail_audit_951998a73": {
+    "pytest_test_five_phase_master_toe_closure": {
+      "passed": false,
+      "line_534_source": "assert t10[\"B_half_shift_matrix\"] == [[3, -2], [-2, 1]]",
+      "line_534_exception": "KeyError: 'B_half_shift_matrix'"
+    },
+    "hostile_referee_audit_script": {
+      "passed": false,
+      "line_1087_source": "f_tau_mp = (th2_mp ** 20) + (th4_mp ** 20) - (th3_mp ** 20)",
+      "line_1087_exception": "NameError: name 'th2_mp' is not defined",
+      "line_1173_source": "ind_c_ll_err = max(abs(float(ca_ll_b1656[k]) - float(t13[\"c_ll_twist6_closed_form\"][k])) for k in B.UNITS)",
+      "line_1173_exception": "KeyError: 'c_ll_twist6_closed_form'"
+    },
+    "mismatched_or_missing_test_keys_count": 12,
+    "mismatched_or_missing_test_keys": [
+      {
+        "target_dict": "t10",
+        "test_expected_key": "B_half_shift_matrix",
+        "present_in_toe_closure": false,
+        "actual_key_in_toe_closure": "B_eq_A_sig3_minus_I2_div_4"
+      },
+      {
+        "target_dict": "t10",
+        "test_expected_key": "max_T8_cusp_error_across_all_5_lines_2_5_j_5",
+        "present_in_toe_closure": false,
+        "actual_key_in_toe_closure": null
+      },
+      {
+        "target_dict": "t10",
+        "test_expected_key": "lines_2_5_j_5_satisfying_A_sig3_pm_eigenvector_mod5",
+        "present_in_toe_closure": false,
+        "actual_key_in_toe_closure": "lines_2_5_j_5_with_A3_x_eq_pm_x_mod5"
+      },
+      {
+        "target_dict": "t11",
+        "test_expected_key": "M_minus_I2_matrix",
+        "present_in_toe_closure": false,
+        "actual_key_in_toe_closure": null
+      },
+      {
+        "target_dict": "t11",
+        "test_expected_key": "H1_M3_Z_structure",
+        "present_in_toe_closure": false,
+        "actual_key_in_toe_closure": "H1_M3_Z_torsion_invariants"
+      },
+      {
+        "target_dict": "t11",
+        "test_expected_key": "random_3x3_matrix_doubled_block_arg_det_rad",
+        "present_in_toe_closure": false,
+        "actual_key_in_toe_closure": "tautological_random_matrix_doubled_arg_det_rad"
+      },
+      {
+        "target_dict": "t12.buttazzo_table1_benchmark",
+        "test_expected_key": "log10_mu_crit_GeV_from_mu0_173p34",
+        "present_in_toe_closure": false,
+        "actual_key_in_toe_closure": "log10_mu_crit_GeV_from_173p34"
+      },
+      {
+        "target_dict": "t12.nondimensional",
+        "test_expected_key": "rel_error_mH_raw_at_MZ",
+        "present_in_toe_closure": false,
+        "actual_key_in_toe_closure": "rel_error_mH"
+      },
+      {
+        "target_dict": "t12.nondimensional",
+        "test_expected_key": "rel_error_mt_pole_from_MZ",
+        "present_in_toe_closure": false,
+        "actual_key_in_toe_closure": "rel_error_mt_pole"
+      },
+      {
+        "target_dict": "t12.nondimensional",
+        "test_expected_key": "dMh_d_yt2_UV_GeV",
+        "present_in_toe_closure": false,
+        "actual_key_in_toe_closure": "dmH_dyt2_M12_sensitivity_GeV"
+      },
+      {
+        "target_dict": "t12.nondimensional",
+        "test_expected_key": "scope_and_parameter_accounting",
+        "present_in_toe_closure": false,
+        "actual_key_in_toe_closure": "uv_boundary_is_post_hoc_hypothesis"
+      },
+      {
+        "target_dict": "t13",
+        "test_expected_key": "max_c_ll_closed_form_vs_b1656_cA_err",
+        "present_in_toe_closure": false,
+        "actual_key_in_toe_closure": null
+      }
+    ],
+    "live_guardrail_violations_in_scorecard": {
+      "guardrail_1_and_2_zero_bit_and_literal_flags": {
+        "phase1_discrete_address_bits_remaining": 0.0,
+        "phase8_tau_star_hardcoded_in_V_potential": true,
+        "theorem8_continuous_parameters": 0,
+        "theorem8_L_tau_bits": 0.0,
+        "theorem9_post_hoc_z8_selection_bits_remaining": 0.0,
+        "theorem9_bar_theta_QCD_literal_zero": 0.0,
+        "summary_metrics_continuous_parameters": 0,
+        "summary_metrics_discrete_selection_bits": 0.0
+      },
+      "guardrail_3_basis_dependent_pmns_still_in_phase6_and_summary": {
+        "phase6_uses_Vt_U_and_Udag_V_of_single_Dirac_Ye": true,
+        "summary_metrics_rel_error_theta13_lr_deg": 0.029437303322795684,
+        "summary_metrics_rel_error_delta_CP_PMNS": 0.022335981322010447
+      },
+      "guardrail_4_buggy_rge_still_in_phase3_phase7_and_summary": {
+        "phase3_uses_1_over_8pi_factor_of_2_bug": true,
+        "phase3_mH_2loop_GeV": 126.2767528408974,
+        "phase7_uses_upward_fitted_gamma_anomalous": [
+          1.0,
+          -2.0,
+          2.0,
+          1.5,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "summary_metrics_chi2_ten_with_It_running": 0.2399269166291917,
+        "summary_metrics_rel_error_mH_2loop": 0.008197627472234743
+      },
+      "guardrail_5_unpriced_dimensionful_anchors_and_eta6_mislabeling": {
+        "phase2_m3_meV_pred_using_mislabeled_eta6_quarter": 51.426474988167904,
+        "phase2_imports_MZ_91p1876_and_vEW_246p22": true,
+        "phase9_imports_Omega_b_h2_0p02237": 0.02237
+      }
+    }
   }
 }
