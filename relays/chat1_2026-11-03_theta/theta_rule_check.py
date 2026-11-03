@@ -35,6 +35,17 @@ theta_Y by 264 pi a = 12 pi a sum(q_L^2 + q_R^2); P and N leave it; T shifts it 
 (5) The modular route (FPST's condition, P-461). For every slope r/s with s <= 400: whether the T anomaly can vanish
     (66a^2 + 1/4 an integer), and how many slopes have a vanishing A anomaly (132a an integer). Exact arithmetic.
 
+Version 2 (version 1 at ba981b3e8, its output in the next commit) adds (0) and splits (1)'s T rows by direction.
+Version 1's T rows failed for the F_a directions (theta_Y off its closed form by up to 0.46, the masses moved by up to
+0.027) while DR and a0 held. The cause is the instrument, not the frame: main's F_a (cm_zero_line.direction) take
+theta_2 from mpmath's jtheta at the nome q = e^{i pi tau}, i.e. with the principal branch of q^{1/4}. Past Re tau = 1
+that branch differs from the analytic e^{i pi tau/4} by -i, which flips the sign of F_a's QI component for a = 2 mod 4.
+Version 2 therefore builds F_a from the series theta_2 = sum e^{i pi tau (n + 1/2)^2}, theta_3, theta_4 directly (the
+same functions on |Re tau| < 1, as (0) prints), and keeps DR and a0 as main builds them.
+(0) The instrument. For the F_a in (1): the largest |main's F_a - the series' F_a| / |F_a| at tau (|Re tau| < 1) and
+    at tau + 1; and the departure of each from the T law F(tau + 1) = e^{i pi a/4} (F_i, F_k, -F_j)(tau) (for DR and
+    a0, B1724's e^{i pi/4}).
+
 Usage: python3 theta_rule_check.py <main checkout>   (main at 354a4ea4d)
 """
 import contextlib
@@ -81,10 +92,24 @@ def guard(a):
 _DC = {}
 
 
+def series_F(a_, tau, n=40):
+    """F_a = (eps th2^a, eps th4^a, i th3^a) with eps = i^((a+2)/2), as cm_zero_line.direction, but with each theta
+    summed from its series in tau, so no branch of q^(1/4) is taken."""
+    import mpmath as mp
+    t = mp.mpc(tau.real, tau.imag); E = lambda x: mp.exp(1j * mp.pi * t * x)
+    th2 = mp.fsum(E((k + mp.mpf(1) / 2) ** 2) for k in range(-n, n))
+    th3 = mp.fsum(E(k * k) for k in range(-n, n + 1)); th4 = mp.fsum((-1) ** k * E(k * k) for k in range(-n, n + 1))
+    eps = 1j ** ((a_ + 2) // 2)
+    return [complex(eps * th2 ** a_), complex(eps * th4 ** a_), complex(1j * th3 ** a_)]
+
+
 def direction(d, tau):
     if (d, tau) not in _DC:
-        with contextlib.redirect_stdout(io.StringIO()):
-            _DC[(d, tau)] = Z.direction(d, tau)
+        if d.startswith("F_"):
+            _DC[(d, tau)] = series_F(int(d[2:]), tau)
+        else:
+            with contextlib.redirect_stdout(io.StringIO()):
+                _DC[(d, tau)] = Z.direction(d, tau)
     return _DC[(d, tau)]
 
 
@@ -168,9 +193,30 @@ if __name__ == "__main__":
         recs = [r for part in pool.map(work1, tasks1, chunksize=1) for r in part]
         fx = dict(pool.map(work3, fixed_points(), chunksize=1))
 
+    print("(0) the instrument: main's F_a against the series' F_a, and the T law F(tau + 1) = phi (F_i, F_k, -F_j)(tau)")
+    for d in DIRS:
+        same_in = same_out = law_main = law_series = 0.0
+        for tau in TAUS:
+            with contextlib.redirect_stdout(io.StringIO()):
+                m0, m1 = np.array(Z.direction(d, tau)), np.array(Z.direction(d, tau + 1))
+            s0, s1 = np.array(direction(d, tau)), np.array(direction(d, tau + 1))
+            ph = np.exp(1j * PI * int(d[2:]) / 4) if d.startswith("F_") else np.exp(1j * PI / 4)
+            if d.startswith("F_"):
+                same_in = max(same_in, np.linalg.norm(m0 - s0) / np.linalg.norm(s0))
+                same_out = max(same_out, np.linalg.norm(m1 - s1) / np.linalg.norm(s1))
+            rho = lambda v: ph * np.array([v[0], v[2], -v[1]])
+            law_main = max(law_main, np.linalg.norm(m1 - rho(m0)) / np.linalg.norm(m1))
+            law_series = max(law_series, np.linalg.norm(s1 - rho(s0)) / np.linalg.norm(s1))
+        if d.startswith("F_"):
+            print("    %-6s main = series at tau: %.1e; at tau + 1: %.1e; T law, main's: %.1e; the series': %.1e"
+                  % (d, same_in, same_out, law_main, law_series))
+        else:
+            print("    %-6s (main's, as used) T law: %.1e" % (d, law_main))
+
     print("(1) the relabellings: %d lines x %d tau x %d directions x 2 radius rules x 4 readings = %d rows"
           % (len(LINES), len(TAUS), len(DIRS), len(recs)))
     dev = {k: 0.0 for k in ("A_u", "A_d", "A", "P", "N", "T", "M")}
+    devT = {d: 0.0 for d in DIRS}; physT = {d: 0.0 for d in DIRS}
     phys = {k: 0.0 for k in ("A", "P", "N", "T")}
     physM = 0.0; jM = 0.0
     tconst = {}
@@ -184,10 +230,12 @@ if __name__ == "__main__":
         dev["N"] = max(dev["N"], abs(wrap(o["N"]["th"] - x["th"])))
         if rp in ((1, 0), (0, 1)):
             dev["T"] = max(dev["T"], abs(wrap(o["T"]["th"] - x["th"] + 132 * PI * a * a + PI / 2)))
+            devT[d] = max(devT[d], abs(wrap(o["T"]["th"] - x["th"] + 132 * PI * a * a + PI / 2)))
         else:
             tconst.setdefault((rp, d), []).append(wrap(o["T"]["th"] - x["th"] + 132 * PI * a * a) / PI)
         for k in phys:
             phys[k] = max(phys[k], np.max(np.abs(o[k]["m"] - x["m"])), np.max(np.abs(o[k]["V"] - x["V"])), abs(o[k]["J"] - x["J"]))
+        physT[d] = max(physT[d], np.max(np.abs(o["T"]["m"] - x["m"])), np.max(np.abs(o["T"]["V"] - x["V"])), abs(o["T"]["J"] - x["J"]))
         dev["M"] = max(dev["M"], abs(wrap(o["M"]["th"] + x["th"])))
         physM = max(physM, np.max(np.abs(o["M"]["m"] - x["m"])), np.max(np.abs(o["M"]["V"] - x["V"])))
         jM = max(jM, abs(o["M"]["J"] + x["J"]))
@@ -198,6 +246,8 @@ if __name__ == "__main__":
     print("    P: %.1e;  N: %.1e;  T in (S~, S) and (S, S~), theta_Y + 132 pi a^2 + pi/2: %.1e;  M, theta_Y(Mx) + theta_Y(x): %.1e"
           % (dev["P"], dev["N"], dev["T"], dev["M"]))
     print("    the masses, |V| and J under A, P, N, T (largest change): %s" % ", ".join("%s %.1e" % kv for kv in phys.items()))
+    print("    T by direction, (S~, S) and (S, S~): theta_Y off its closed form / the masses, |V| and J's largest change: %s"
+          % "; ".join("%s %.1e / %.1e" % (d, devT[d], physT[d]) for d in DIRS))
     print("    under M: the masses and |V| change by %.1e; J(Mx) + J(x) %.1e" % (physM, jM))
     print("    M keeps each reading pair (largest mass change with the pair kept): %s" % ", ".join("%s %.1e" % (RPN[k], v) for k, v in mself.items()))
     print("    M with the pair swapped (smallest mass change): %s" % ", ".join("%s %.1e" % (RPN[k], v) for k, v in mswap.items()))
