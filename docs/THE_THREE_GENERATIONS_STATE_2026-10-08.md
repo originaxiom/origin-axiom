@@ -947,9 +947,13 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W101, W107–W119 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§342).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§343).
 - The breaking chain and the living state of the values (READING, 2026-10-24):
   `docs/dossiers/the_weave_2026-10-07/THE_BREAKING_CHAIN_2026-10-24.md`.
+- The retrieval sweep and its open list (READING, 2026-11-03; the owner's question whether the load-bearing negatives
+  are buried in the record): `docs/dossiers/the_weave_2026-10-07/THE_RETRIEVAL_SWEEP_2026-11-03.md`. Nothing supplies a
+  missing piece; eight candidates (RI-1 to RI-8) stay open until tested, under the standing rule of 2026-11-03 in
+  `WORKING_RULES.md`.
 - THE RIDDLE (READING, 2026-10-28; the owner's question): what the principle forces is symmetric and the data are
   not, so every derived number is an invariant or a chosen point. The section "Reading: THE RIDDLE" in the dossier's
   NOTE, with the program that probes it to the end. Probed so far: W172 (horn 1 at the counted line holds,

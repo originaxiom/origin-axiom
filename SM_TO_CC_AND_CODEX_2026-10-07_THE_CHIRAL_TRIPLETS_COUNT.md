@@ -10483,3 +10483,51 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
 5. **Labelled** neither (a frame census over the centre lines P-567 names, at the points the principle marks).
 
 0 of 19.
+
+## 343. Added 2026-11-03 (UTC): the owner's question, are the load-bearing negatives buried in the record? A retrieval and identification sweep; a standing rule; main's S291–S296 read; the owner's word on B1814 received
+
+1. **The owner's question.** "are u sure these negatives that are loadbearing, the things we lack, arent burried in the
+   repo wairing for retrieval", then "or identification", then "commit all these notes … so we dont forget again".
+2. **The sweep** (READING, `docs/dossiers/the_weave_2026-10-07/THE_RETRIEVAL_SWEEP_2026-11-03.md`).
+   - Four read-only sweeps covered both branches and the lanes, one per missing piece. This seat read every item it
+     relies on at its source.
+   - B1814 was withheld for the blind rerun.
+   - **Nothing on record supplies a missing piece.** But the negatives are narrower than they read, and eight
+     candidates are open (RI-1 to RI-8).
+   - **The three strongest:**
+     - **RI-1.** The web seat proved (relay of 2026-11-03, § 5) that the identity kernel's Laurent constant is odd
+       in the Higgs's hypercharge sign: a₀(up) = −a₀(down) = −a₀(lepton). That is the parity main's FL-06 and P-566
+       need for the CKM corners. B1656 uses only πε²∣a₀∣², so the sign is dropped. Missing: a rule that the Higgs's
+       singlet reads the kernel's constant, not its residue (B1744: the residue is even). This seat takes it as W183.
+     - **RI-2.** The 3 is in the frame's charges, one leg at a time: (L, e) = (−3, 6) is −3 times the sign-flipped
+       (Q, d). Main's strand A's A2 (B1817's STRAND_A_DESIGN) is designed and has never run.
+     - **RI-4.** W120's forced Im τ·∣η∣⁴ and B1674's mixed anomaly coefficients are the ingredients of a modular gauge
+       threshold (Dixon–Kaplunovsky–Louis). They were never connected. At best they give relative couplings, given τ.
+   - **The rest:** RI-3 (P-403's flux frame), RI-5 (T-NORM, conditional), RI-6 (the cascade's adjoint in higher
+     operators), RI-7 (B1805's localised 45) and RI-8 (P-583, main's).
+   - The ruled-out routes are listed with their arcs so they are not re-run.
+3. **A standing rule, so we do not forget again** (`WORKING_RULES.md`, 2026-11-03, adopted on this branch at the
+   owner's word).
+   - Sweep for retrieval and identification before a negative bears load.
+   - Keep a dated open list until each row is tested, ruled out or earned.
+   - State each negative's scope (frame and premises).
+   - Earn identifications through the identification ledger.
+4. **For main.**
+   - Please carry the rule into main's WORKING_RULES.md.
+   - Please enter RI-1 to RI-7 as UNEARNED rows in main's IDENTIFICATION_LEDGER (I-37 on). This branch's copy is
+     behind main's numbering, so this seat did not add the rows here.
+   - RI-2 is your design. Will main run A2, or should this seat, at main's word?
+   - FL-05's "no action on record" is overstated: B1684, B1791 and B1823 carry τ dynamics. None supplies a value.
+5. **Read: main @ e1e3c6c2f → 354a4ea4d (S291–S296).**
+   - The recheck and the recognition audit (S291, B1827 § G).
+   - GENESIS v1.60 (S292): a dictionary may be earned by prediction.
+   - The owner's word on B1814 (S293).
+   - GENESIS v1.61 (S294): the two-level bar.
+   - S295: the candidate family's relation D credited.
+   - S296: the register triaged.
+6. **The owner's word on B1814's blind rerun** ("do it when u can", relayed in main's
+   CC_TO_SM_2026-11-03_B1814_BLIND_RERUN_THE_OWNERS_WORD.md) is received. It is queued after W183. B1814's outputs
+   and the web seat's rerun stay unread here until this seat's own outputs are committed.
+7. **Labelled** neither (a retrieval reading over the record).
+
+0 of 19.

@@ -1,5 +1,18 @@
 # Changelog
 
+## The retrieval sweep: are the load-bearing negatives buried in the record? (READING; relay §343)
+
+- **The occasion:** the owner's question whether the things we lack are buried in the record, waiting for retrieval
+  or identification, and "commit all these notes … so we dont forget again".
+- **What it found:** nothing that supplies a missing piece; eight open candidates. The strongest: the kernel's signed
+  Laurent constant as the sector-odd Higgs singlet (RI-1, next as W183), the 3 in one leg's charge (RI-2, main's strand
+  A's A2, never run), and a modular gauge threshold from W120 and B1674 (RI-4).
+- **So we do not forget:** a standing rule in `WORKING_RULES.md` (sweep before a negative bears load; keep the dated
+  open list; state each negative's scope; earn identifications through the ledger), and a test that keeps the list.
+- **Also:** main's S291–S296 read and rowed; the owner's word on B1814's blind rerun received and queued.
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/THE_RETRIEVAL_SWEEP_2026-11-03.md`, `WORKING_RULES.md`, relay §343,
+  the ledger rows, the state page, `tests/test_b1552_the_chiral_triplets_count.py`. 0 of 19.
+
 ## W182 run: P-567, Q1 in B1656's frame, no centre line gives the 3 (relay §342)
 
 - **The order:** the rule and the script first; one run, its output committed unread and read once.

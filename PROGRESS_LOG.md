@@ -21591,3 +21591,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   they would differ at the far end was wrong: on 20 of the lines they still come out equal there.
 - **What it means:** this frame does not supply the factor of 3 on any line tried so far. It would need a new
   ingredient. 0 of 19.
+
+## 2026-11-03 — checking whether the missing pieces were already in the record
+
+- **Why:** the owner asked whether the things the work says it lacks might already be in the record, unnoticed or
+  under another name.
+- **What was done:** the whole record, on every branch, was searched for each missing piece. Nothing found supplies one
+  outright. But eight leads were found that had never been tested, or never connected to the gap they could fill. The
+  strongest is a quantity the main frame already computes and then throws away the sign of. That sign is exactly what
+  one of the hardest problems needs.
+- **So it is not forgotten again:** the leads are kept on a dated list, and a new working rule says the record must be
+  searched this way before any negative is leaned on.
+  0 of 19.

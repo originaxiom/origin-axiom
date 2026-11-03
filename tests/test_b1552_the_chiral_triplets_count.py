@@ -5798,3 +5798,21 @@ def test_w182_the_centre_lines():
     assert near[0] in (["1/15", "1/5"], ["1/15", "4/5"]) and abs(near[2] - 0.5588) < 1e-3
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W182. The down–lepton factor on the centre lines (main's P-567, Q1)" in note
+
+
+def test_the_retrieval_sweep_keeps_its_open_list():
+    """The owner's question of 2026-11-03 ('so we dont forget again'): the sweep's open list RI-1 to RI-8 stays on the
+    page, every row with a status, and the standing rule stays in WORKING_RULES.md. A row may change status when an arc
+    tests it; it may not disappear."""
+    import re
+    page = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "THE_RETRIEVAL_SWEEP_2026-11-03.md").read_text(
+        encoding="utf-8")
+    rows = {m.group(1): line for line in page.splitlines() if (m := re.match(r"\| (RI-\d+) \|", line))}
+    assert sorted(rows, key=lambda r: int(r[3:])) == [f"RI-{i}" for i in range(1, 9)]
+    for rid, line in rows.items():
+        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        assert len(cells) == 7 and cells[5], rid
+    assert "a₀(up) = −a₀(down) = −a₀(lepton)" in page and "Nothing on record supplies a missing piece" in page
+    rules = (ROOT / "WORKING_RULES.md").read_text(encoding="utf-8")
+    assert "BEFORE A NEGATIVE BEARS LOAD, SWEEP FOR RETRIEVAL AND IDENTIFICATION" in rules
+    assert "THE_RETRIEVAL_SWEEP_2026-11-03.md" in rules

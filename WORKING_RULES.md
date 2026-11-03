@@ -587,3 +587,23 @@ moves' orders; E₈ as the container adopted by the ruling, not derived; B1752);
 - one irreducible A₄ triplet on the shared fibre for every odd-trace thread.
 
 By this test sm:B1550 and the held sm:B1551 are thread results.
+
+## Rule (2026-11-03, the owner's instruction — adopted on this branch, proposed to main): BEFORE A NEGATIVE BEARS LOAD, SWEEP FOR RETRIEVAL AND IDENTIFICATION
+
+**The owner, 2026-11-03:** "are u sure these negatives that are loadbearing, the things we lack, arent burried in the
+repo wairing for retrieval … or identification", then "commit all these notes … so we dont forget again". A sweep of
+both branches and the lanes found nothing that supplies a missing piece. It did find pieces that had never been tested,
+or never identified with the gap they would fill. The first list is
+`docs/dossiers/the_weave_2026-10-07/THE_RETRIEVAL_SWEEP_2026-11-03.md`.
+
+**The rule.**
+1. **Sweep before leaning.** Before a negative is cited as a wall or as "what we lack", sweep the record (both branches
+   and the lanes) for anything that supplies it, under its own name or under another (identification). Record the
+   sweep's date and scope beside the claim.
+2. **Keep the open list.** Every candidate found and not yet tested stays on a dated list until it is tested, ruled out
+   or earned. A closed row keeps its line and gains the arc that closed it. Later sweeps add to the list; they do not
+   replace it.
+3. **State the negative's scope.** A negative carries the frame and the premises it was computed in: flat or curved,
+   tree level, one address, one reading. A negative of one frame is not read as a negative of the object (main's FL-02).
+4. **Identification is a claim like any other.** A candidate becomes an entry in `docs/IDENTIFICATION_LEDGER.md` and is
+   EARNED, REFUTED or left UNEARNED by THE IDENTIFICATION RULE above, never by a name matching.
