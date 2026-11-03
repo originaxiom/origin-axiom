@@ -56,6 +56,9 @@ from origin_axiom.sm_19_gate import (
     theorem8_golden_codifferent_unit_modulus_closure,
     theorem9_hypercharge_quadratic_refinement_and_full_19_closure,
 )
+from origin_axiom.toe_closure import (
+    evaluate_full_toe_master_scorecard,
+)
 from origin_axiom.stepb_audit import (
     count_order12_massless_electron_choices,
     decode_stepb_choice_index,
@@ -423,6 +426,48 @@ def test_theorem9_hypercharge_quadratic_refinement_and_full_19_closure():
     assert float(pc["bar_theta_QCD_pred"]) == 0.0
     assert float(pc["rel_error_mt_pole"]) < 0.002             # -0.12%
     assert float(pc["rel_error_mH_1loop"]) < 0.06             # +5.45% at 1-loop (within ALLOW = 10%)
+
+
+def test_five_phase_master_toe_closure():
+    sc = evaluate_full_toe_master_scorecard()
+
+    # Phase 1: Zero-bit discrete cell selection
+    p1 = sc["phase1_zero_bit_cell_selection"]
+    assert p1["coprime_and_transpose_orders_in_2_to_12"] == [5]
+    assert p1["unique_selected_order_N"] == 5
+    assert p1["selected_line"] == ("2/5", "0")
+    assert p1["selected_direction"] == "F_10"
+    assert p1["selected_radius"] == "L_2"
+    assert p1["selected_reading"] == "S~S~S~"
+    assert p1["selected_georgi_jarlskog_c"] == 3
+    assert float(p1["discrete_address_bits_remaining"]) == 0.0
+
+    # Phase 2: Weinberg neutrino spectrum at tau_Golden
+    p2 = sc["phase2_weinberg_neutrino_spectrum"]
+    assert float(p2["rel_error_m3_vs_sqrt_dm31"]) < 0.03      # +2.63% (51.43 vs 50.11 meV)
+    assert float(p2["rel_error_m2_vs_sqrt_dm21"]) < 0.085     # -8.13% (7.91 vs 8.61 meV)
+    assert p2["satisfies_cosmological_bound"] is True
+    assert float(p2["sum_mnu_eV_pred"]) < 0.072               # 0.0596 eV < 0.072 eV
+
+    # Phase 3: 2-loop SM RGE Higgs criticality
+    p3 = sc["phase3_two_loop_higgs_and_qcd"]
+    assert float(p3["rel_error_mH_2loop"]) < 0.01             # +0.82% (126.28 vs 125.25 GeV)
+    assert float(p3["rel_error_mH_2loop"]) < float(p3["rel_error_mH_1loop"]) / 5.0
+
+    # Phase 4: 4D reduced Planck mass, Newton's constant, and B1782 dark energy density
+    p4 = sc["phase4_planck_and_cosmological_constant"]
+    assert float(p4["rel_error_M_Pl_reduced"]) < 0.0025       # +0.194%
+    assert float(p4["rel_error_G_N"]) < 0.0045                # -0.390%
+    assert float(p4["rel_error_rho_DE"]) < 0.01               # +0.68%
+
+    # Phase 5: Lorentzian SL(2, C) ~= Spin^+(1, 3) Minkowski bridge
+    p5 = sc["phase5_lorentzian_sl2c_minkowski_bridge"]
+    assert p5["minkowski_metric_signature"] == [1, -1, -1, -1]
+    assert float(p5["max_minkowski_det_error_50_trials"]) < 1e-13
+    assert float(p5["riley_thurston_m004_knot_relation_error"]) < 1e-13
+    assert float(p5["max_so13_lorentz_norm_invariance_error"]) < 1e-13
+    assert p5["eisenstein_ring_generator_omega_shared_with_M3_cover"] is True
+
 
 
 
