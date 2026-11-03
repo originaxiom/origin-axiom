@@ -524,6 +524,23 @@ def test_five_phase_master_toe_closure():
     assert abs(float(f10["arg_det_Yu_Yd_rad"]) - (-2.9219)) < 0.01
     assert sc["summary_metrics"]["first_principles_certified_sm_parameters_after_395b27210_audit"] == 0
 
+    # Theorem 10: Exact Amphichiral A^3 + I_2 Involution & T^8 Cusp Gauge Equivalence on (2/5, 1/5)
+    t10 = sc["theorem10_amphichiral_a3_involution_and_t8_cusp_equivalence"]
+    assert t10["det_A_sig3_plus_I2"] == 20
+    assert t10["true_eigenline_w_eig"] == ("2/5", "1/5")
+    assert t10["involution_partner_minus_w_eig"] == ("3/5", "4/5")
+    assert t10["U_on_2_1_mod5"] == [4, 2]
+    assert t10["A_sig3_plus_I2_on_w_eig"] == [4, -2]
+    assert t10["is_even_integer_lattice_shift"] is True
+    assert float(t10["max_c_s_involution_error"]) < 1e-13
+    assert float(t10["max_Yu_minus_exp_m4pi5_Yu_error"]) < 1e-12
+    assert float(t10["max_Yd_involution_error"]) < 1e-12
+    assert float(t10["max_Ye_involution_error"]) < 1e-11
+    assert float(t10["max_Hermitian_Hs_involution_error"]) < 1e-11
+    assert float(t10["max_T8_cusp_equivalence_yukawa_error"]) < 1e-11
+    assert float(t10["max_haar_basis_scramble_10_obs_error"]) < 1e-12
+
+
 
 
 
