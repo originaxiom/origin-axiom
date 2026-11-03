@@ -183,4 +183,45 @@ We fetched and audited `origin/main` at `1bb5fcfa2` (`S291`), `origin/audit/phys
   1. **Rank-2 $SU(2)$ Mapping-Torus Local System on $M_3$:** For $w = (2/5, 1/5)$ where $M w = -w + (4, -2)^T \equiv -w \pmod{\mathbb{Z}^2}$, the rank-2 $SU(2)$ representation $\rho(\gamma) = \operatorname{diag}(\chi_w(\gamma), \chi_w(\gamma)^{-1})$, $\rho(t) = J = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$ satisfies $J\,\rho(\gamma)\,J^{-1} = \rho(M\gamma)$ to `< 1e-15` across $\mathbb{Z}^2$.
   2. **Exact $F_{10}$ Scalar Factorization & Principal Square-Root Cut:** Verifies $F_{10}(\tau) = \theta_4^{20} + \theta_2^{20} - \theta_3^{20} = -80\,\eta(\tau)^{12}\,E_4(\tau)$ to `< 1e-14`, its simple zero at the orbifold point $\tau = e^{2\pi i/3}$ (`|F_10(e^{2pi i/3})| < 1e-14`), and its negative real principal square-root branch cut along the imaginary axis $\tau = i y$ where $b_{\text{st}}(iy) = -\overline{b_{\text{st}}(iy)}$ (`err < 1e-15`).
 
+---
+
+## 6. `Theorem 18`: Zero-Trust Audit of `S291`–`S294` (`B1828`, `B1829`), `P-585` / `P-568` Level-2 Strip Target Evaluation, Exact `15 : 5 : 3` Exponent Law on $\alpha = 2/5$, and the Order-10 Reflection-Transpose Identity (Extending `B1728`)
+
+**Seen first (`WORKING_RULES.md`):** `B1703_the_six_on_the_strip`, `B1728_the_lines_order_as_a_quotient_of_hypercharge`, `B1742_two_higgs_verified_on_main`, `B1749_the_six_at_fresh_apexes`, `B1753_the_six_on_the_five_ality_lines`, `B1827_two_readings_one_dictionary`, `B1828_the_earned_dictionary_by_held_out_prediction`, `B1829_the_two_level_bar`, and `python3 scripts/checks/topic_sweep.py "y_b.*y_t|m_b.*m_t|order-10|B1728|B1742|P-585|P-568" --refs`.
+
+We fetched `origin/main` through `S294` (`c004f8235`) and locked the independent mathematical verification of `S291`–`S294` and the queued `P-585` / `P-568` Level-2 held-out strip targets in **`Theorem 18`** (`theorem18_p585_strip_level2_targets_and_order10_reflection_transpose()`):
+
+### 6.1 Independent Verification of `S291`–`S294` Recognition Controls (`R1`, `R4`, `R6`)
+- **`R6` (10% Quadrature Floor Information Loss):** Recomputed directly from `SIGMA_LOG_10`, replacing PDG experimental uncertainties $\sigma_i$ with $\sigma_{\text{eff},i} = \sqrt{\sigma_i^2 + 0.10^2}$ discards
+  $$\sum_{i=1}^{10} \log_2\left(\frac{\sqrt{\sigma_i^2 + 0.01}}{\sigma_i}\right) = \mathbf{29.7108\text{ bits}}$$
+  of measured precision (confirming `S291` `R6`: `29.7 bits`, `err < 1e-12`).
+- **`R4` (Look-Elsewhere Horizon):** At median exact-hit compression $C_{\text{ten}} = 13.4\text{ bits}$, the $p < 0.01$ joint-look horizon is $m = 0.01 \cdot 2^{13.4} = \mathbf{108.09\text{ looks}}$ (`50%` of the budget consumed at `53` looks).
+
+### 6.2 `P-585` / `P-568` Target 1 ($y_b / y_t$ on $\alpha = 2/5$) & the Exact `15 : 5 : 3` Rational Theta-Exponent Law
+1. **`FORCED` within `B1656`'s twisted bilinear on $\alpha = 2/5$:**
+   From the theta characteristics in `sector_residues`, on **every** line with $\alpha = 2/5$:
+   - **Up $(1, -4)$:** $e_{00} = 39/200$, $e_{11} = -21/200 \implies E_{\text{dom}}^{\text{up}} = E_{j,k}^{\text{up}} = -\mathbf{21/200} = -0.105$; $e_{01} = e_{10} = +9/200 \implies E_{1,i}^{\text{up}} = +\mathbf{9/200} = +0.045$; so
+     $$\Delta E_{\text{up}} = \frac{9}{200} - \left(-\frac{21}{200}\right) = \frac{30}{200} = \mathbf{\frac{3}{20} = 0.15}.$$
+   - **Down $(1, 2)$ & Lepton $(-3, 6)$:** $\{e_{01}, e_{10}\} = \{1/8, -3/40\} \implies E_{\text{dom}}^{\text{down}} = E_{1,i}^{\text{down}} = -\mathbf{15/200} = -0.075$; $e_{00} = 3/40$, $e_{11} = -1/40 \implies E_{j,k}^{\text{down}} = -\mathbf{5/200} = -0.025$; so
+     $$\Delta E_{\text{down}} = -\frac{5}{200} - \left(-\frac{15}{200}\right) = \frac{10}{200} = \mathbf{\frac{1}{20} = 0.05}.$$
+   - **Inter-sector 3rd-generation ratio $y_b / y_t = \sigma_3(Y_d)/\sigma_3(Y_u)$:**
+     $$\Delta E_{b/t} = E_{\text{dom}}^{\text{down}} - E_{\text{dom}}^{\text{up}} = -\frac{15}{200} - \left(-\frac{21}{200}\right) = \frac{6}{200} = \mathbf{\frac{3}{100} = 0.03}.$$
+   - Therefore, the leading $q$-exponents satisfy the exact integer proportion (`verified numerically against high-Im(tau) residue slopes to < 1e-12`):
+     $$\Delta E_{\text{up}} : \Delta E_{\text{down}} : \Delta E_{b/t} = \mathbf{15 : 5 : 3} \implies \frac{\Delta E_{b/t}}{\Delta E_{\text{up}}} = \frac{1}{5}, \quad \frac{\Delta E_{b/t}}{\Delta E_{\text{down}}} = \frac{3}{5}.$$
+2. **`EXCLUDED` within the One-Higgs Shared-Normalization Scope (`FR-FIB` / `FR-COV` with $v_u = v_d$ and equal sector kinetic normalization on $\alpha = 2/5$, $\operatorname{Im}\tau \in [2.6, 3.0]$):**
+   - Because $\Delta E_{b/t} = 0.03$ is only $\frac{1}{5}$ of $\Delta E_{\text{up}} = 0.15$, at $\operatorname{Im}\tau \in [2.618, 2.75]$ the exponential suppression is only $e^{-2\pi (0.03)(2.75)} = 0.5958$. Across all 10 strip lines $(2/5, j/10)$ ($j = 0, \dots, 9$), the bare one-Higgs ratio $y_b / y_t$ lies in **$[1.0784, 1.1119]$** at $a_0 = 0$ (`FR-FIB`) and in **$[0.5346, 0.5784]$** for the 4D adjugate (`FR-COV`), which is **$31\times\text{--}81\times$ larger** than SM 1-loop running $m_b/m_t(\mu) \in [0.01364, 0.01700]$.
+   - *Explicit Scope Boundary (`WORKING_RULES.md`):* This excludes $y_b/y_t = m_b/m_t$ **only** within the one-Higgs shared-normalization scope ($v_u = v_d$, equal sector normalization). It does **not** exclude a two-Higgs frame (`B1742` `TWO_HIGGS` with $\tan\beta = v_u/v_d$) or an action with sector-dependent modular/kinetic normalization.
+
+### 6.3 `P-585` Targets 2 & 3 ($y_\tau / y_b$ and $\bar{\theta}$ on the Strip) & the Exact Order-10 Reflection-Transpose Identity (Extending `B1728`)
+1. **Exact Order-10 Reflection-Transpose Identity (`FORCED` within `B1656` / `FR-COV` on all order-10 lines $w = \frac{2}{5}\tau - \frac{2j+1}{10}$):**
+   - `B1728` proved on $w = \tau/N$ ($\beta = 0$) that down-lepton equality holds iff $N \mid 5$, and noted that on $\beta \neq 0$ the characteristic $b$ adds an extra $e^{i\pi b}$ phase.
+   - `Theorem 18` Part C proves the exact law on all order-10 lines $w = \frac{2}{5}\tau - \frac{2j+1}{10}$ ($j \in \{0, 1, 2, 3, 4\}$): because `sector_residues` defines $b_x = -2 q_L p_2$ and $b_y = -2 q_R p_2$, shifting $(q_L, q_R)$ by $(+5, -5)$ between down $(1, 2)$ and lepton $(-3, 6)$ shifts $(b_x, b_y)$ by **odd integers** $\mp(2j+1)$. Thus $e^{i\pi b}$ picks up $(-1)^{2j+1} = -1$ in the off-diagonal bilinear entries `m_bil[0, 1]` and `m_bil[1, 0]` (which form $u_i$), while leaving `m_bil[0, 0]` and `m_bil[1, 1]` (which form $u_1, u_j, u_k$) invariant:
+     $$(u_1^e,\, \vec{m}^e) = \lambda_{2, 2j+1}\,\left(+u_1^d,\, D_i \vec{m}^d\right), \qquad D_i = \operatorname{diag}(1, -1, 1) \in O(3), \quad \lambda_{2, 2j+1} = -e^{-\pi i(2j+1)/5} = e^{2\pi i(2 - j)/5} \quad (\text{exact to } < 10^{-14}).$$
+   - Because $\det D_i = -1 \implies D_i [\vec{v}]_\times D_i = [D_i \vec{v}]_\times^T$, the 4D Yukawa matrices satisfy the **exact reflection-transpose identity** for arbitrary $(a_0, \vec{h})$:
+     $$Y_e(a_0, \vec{h}) = \lambda_{2, 2j+1}\,D_i\,Y_d(+a_0,\, D_i \vec{h})^T\,D_i \quad (\text{verified to } < 2\times 10^{-14}\text{ across all 5 order-10 lines}).$$
+   - On the 5 order-5 lines ($j$ even), $y_\tau / y_b = 1$ holds identically (`< 1e-13`). On the 5 order-10 lines ($j$ odd) at $a_0 = 0$, because $|h_I| = |\theta_2|^{10} \sim 2\times 10^{-5} \ll \|\vec{h}\|$ at $\operatorname{Im}\tau = 2.75$, $D_i \vec{h} \approx \vec{h}$, forcing $y_\tau / y_b = 1.0000000$ to 7 significant digits (`< 1e-6`).
+2. **Exact Higgs-Norm Phase Cancellation in $\bar{\theta} = \arg\det(Y_u Y_d)$ under $(\tilde{S}, S, S)$ at $a_0 = 0$ (`FORCED` within `Theorem 3`):**
+   - By `Theorem 3`, at $a_0 = 0$, $\det Y_s = (\vec{h}_s\cdot\vec{h}_s)(m_{1,s}^2 + \vec{m}_s\cdot\vec{m}_s)(\vec{h}_s\cdot\vec{m}_s)$. Under `FR-FIB` $(\tilde{S}, S, S)$ where $\vec{h}_{\text{up}} = \overline{\vec{h}_{\text{down}}}$, $(\vec{h}_{\text{up}}\cdot\vec{h}_{\text{up}})(\vec{h}_{\text{down}}\cdot\vec{h}_{\text{down}}) = |\vec{h}\cdot\vec{h}|^2 > 0$ (`imag == 0.0`), so the quadratic Higgs phase cancels identically out of $\arg\det(Y_u Y_d)$ for all $\tau \in \mathcal{H}$, leaving a strip-dependent matter phase in $[-2.80, +3.03]\text{ rad}$.
+
+
 

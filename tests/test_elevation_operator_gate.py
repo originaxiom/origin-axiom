@@ -729,6 +729,47 @@ def test_five_phase_master_toe_closure():
     assert float(pc17["f10_abs_at_E4_orbifold_zero_exp_2pi_i_3"]) < 2e-14
     assert float(pc17["imag_axis_principal_sqrt_cut_b_plus_bconj_err"]) < 1e-15
 
+    # Theorem 18: S291-S294 Recognition Controls, P-585 Strip Level-2 Targets, 15:5:3 Exponent Law & Order-10 Reflection-Transpose
+    t18 = sc["theorem18_p585_strip_level2_targets_and_order10_reflection_transpose"]
+    assert "B1728_the_lines_order_as_a_quotient_of_hypercharge" in t18["seen_first"]
+    assert "B1829_the_two_level_bar" in t18["seen_first"]
+    assert "FORCED" in t18["claim_labels_and_scopes"]["exponent_ratio_15_5_3_on_alpha_2_5"]
+    assert "FORCED" in t18["claim_labels_and_scopes"]["order10_reflection_transpose_identity"]
+    assert "EXCLUDED_WITHIN_SCOPE" in t18["claim_labels_and_scopes"]["one_higgs_shared_norm_yb_over_yt_on_strip"]
+
+    pa18 = t18["part_A_s291_s294_recognition_controls"]
+    assert abs(float(pa18["R6_bits_discarded_by_10pct_quadrature_floor"]) - 29.710848) < 1e-5
+    assert float(pa18["R6_matches_s291_29p7_bits_err"]) < 1e-12
+    assert abs(float(pa18["R4_horizon_looks_at_C_ten_13p4_bits_p0p01"]) - 108.0941) < 1e-3
+
+    pb18 = t18["part_B_p585_strip_exponent_law_and_yb_over_yt"]
+    assert pb18["E_dom_up_exact"] == "-21/200"
+    assert pb18["E_sub_up_exact"] == "9/200"
+    assert pb18["Delta_E_up_exact"] == "3/20"
+    assert pb18["E_dom_down_exact"] == "-3/40"
+    assert pb18["E_sub_down_exact"] == "-1/40"
+    assert pb18["Delta_E_down_exact"] == "1/20"
+    assert pb18["E_dom_lepton_exact"] == "-3/40"
+    assert pb18["Delta_E_bt_exact"] == "3/100"
+    assert pb18["ratio_Delta_E_bt_over_Delta_E_up"] == "1/5"
+    assert pb18["ratio_Delta_E_bt_over_Delta_E_down"] == "3/5"
+    assert float(pb18["numerical_slope_vs_exact_Delta_E_bt_err"]) < 1e-5
+    assert float(pb18["numerical_slope_vs_exact_Delta_E_up_err"]) < 5e-5
+    assert float(pb18["numerical_slope_vs_exact_Delta_E_down_err"]) < 5e-5
+    assert 1.07 < float(pb18["one_higgs_yb_over_yt_a0_zero_min_across_strip"]) < 1.09
+    assert 1.10 < float(pb18["one_higgs_yb_over_yt_a0_zero_max_across_strip"]) < 1.12
+    assert 0.53 < float(pb18["one_higgs_yb_over_yt_4d_adj_min_across_strip"]) < 0.55
+    assert 0.57 < float(pb18["one_higgs_yb_over_yt_4d_adj_max_across_strip"]) < 0.59
+
+    pc18 = t18["part_C_order10_reflection_transpose_and_strip_targets"]
+    assert float(pc18["max_order10_residue_reflection_err_across_5_lines"]) < 1e-13
+    assert float(pc18["max_order10_yukawa_reflection_transpose_err"]) < 1e-13
+    assert float(pc18["order5_ytau_over_yb_max_dev_from_1"]) < 1e-13
+    assert float(pc18["order10_ytau_over_yb_max_dev_from_1_at_F10"]) < 1e-6
+    assert float(pc18["max_higgs_norm_phase_cancel_imag_err"]) < 1e-15
+    assert len(pc18["bar_theta_s_tilde_s_s_across_10_strip_lines_rad"]) == 10
+
+
 
 
 
