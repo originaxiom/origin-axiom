@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.59) of 2026-10-28 |
 | arcs with a verdict | 1531: 1043 PROVED, 382 NEGATIVE, 94 OPEN, 12 RETRACTED |
-| points in the register | 573: 245 open (queued, leads, waiting for the owner), 328 closed |
+| points in the register | 583: 255 open (queued, leads, waiting for the owner), 328 closed |
 | the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S290 THE RELATION THAT LIFTS THE CORNERS: THE ADJUGATE READING; THE 45-LIKE SINGLET SPLITS THE SECOND GENERATION (2026-11-03) |
+| the last landing | S291 THE RECHECK AND THE RECOGNITION AUDIT: ONE S290 CLAIM RETRACTED; WOULD WE KNOW THE ANSWER? NOT AS THE TESTS ARE BUILT (2026-11-03) |
 <!-- STATE:END -->
 
 ## Start here

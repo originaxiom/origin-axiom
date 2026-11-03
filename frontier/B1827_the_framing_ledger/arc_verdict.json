@@ -15,7 +15,12 @@
   "B1720",
   "B1790",
   "B1822",
-  "B1728"
+  "B1728",
+  "B1659",
+  "B1786",
+  "B1798",
+  "B1637",
+  "B862"
  ],
  "rests_on_seat": [],
  "cites_seat": [],
@@ -28,6 +33,6 @@
   "reach": "single",
   "hypotheses": "the scans use two coarse facts of the measured world (the hierarchy; up steeper than down), disclosed; exploration tier, no measured value compared"
  },
- "claim_one_line": "THE FRAMING LEDGER (the owner's exercise, 2026-11-03; OPEN, an audit): eighteen framing commitments of the programme inventoried from five readers' ~200 cited entries (docs/FRAMING_LEDGER.md) and ranked; the record had no inventory of its own framing. Computed data-free (two coarse facts of the measured world disclosed): the CKM's corner inversion is a construction choice (the Higgs's orientation from the adjoint units only, untwisted, shared) -- the mirror rule cannot lift it (0 of 303 nature-like points), a singlet Higgs component of the same sign in up and down does nothing (0.7-4.0%), the same singlet with OPPOSITE signs lifts it generically (33-47% at every phase against 2%; median |V_ub|/|V_td| about 0.9); on order-5 lines the frame is minimal SU(5) exactly (Y_u symmetric, the down and lepton spectra identical), so c = 3 is the Georgi-Jarlskog Clebsch by hand. About nine of the 19 have no frame (no action, normalisation or scale). Claims no parameter. 0 of 19.",
+ "claim_one_line": "THE FRAMING LEDGER (the owner's exercise, 2026-11-03; OPEN, an audit): eighteen framing commitments inventoried from five readers (docs/FRAMING_LEDGER.md), then the question itself and its recognition audited (S291, § G: a blind sixth reader verified citation by citation, and main's control R1). Computed data-free (two coarse facts disclosed): the CKM's corner inversion is a construction choice -- the mirror rule cannot lift it, a same-sign singlet Higgs does nothing, an opposite-sign singlet (exactly the ADJUGATE reading adj(S) = eps S^T eps^T) balances the corners at all ten non-null phases (33-47% against 2%; median |V_ub|/|V_td| about 0.9, not nature's 0.43); on all 24 order-5 lines the frame is minimal SU(5) (Y_u symmetric, Y_e = lam Y_d^T with lam^5 = 1) and the leptons read the down sector through the adjugate, Y_e(S) = -lam Y_d(adj S)^T; c = 3 is the Georgi-Jarlskog factor by hand; the 45-like singlet does NOT give Georgi-Jarlskog's pattern (S290's claim retracted: mislabelled). Recognition: a theory exact at 2e16 GeV scores chi2_ten 11.8 at M_Z and pays 8.5 bits on K (one loop; B1825's address leaves 3.6); the headline counts a tier the record retired, and no outcome of any current test can move it. Six of the 19 have no frame; three are unexamined outputs. Claims no parameter. 0 of 19.",
  "weave_or_thread": "weave (the programme's framing)"
 }

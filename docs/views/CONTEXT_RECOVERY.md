@@ -18,10 +18,10 @@
 | … NEGATIVE | 382 |
 | … OPEN | 94 |
 | … RETRACTED | 12 |
-| register points | 573 |
-| … QUEUED | 230 |
+| register points | 583 |
+| … QUEUED | 238 |
 | … LEAD | 10 |
-| … OWNER | 5 |
+| … OWNER | 7 |
 | … DONE | 319 |
 | … DECLINED | 9 |
 | harvest rows (the last number) | 1514 |
@@ -31,7 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
-| B1827 | OPEN | THE FRAMING LEDGER (the owner's exercise, 2026-11-03; OPEN, an audit): eighteen framing commitments of the programme inventoried from five readers' ~200 cited entries (docs/FRAMING_LEDGER.md) and ranked; the record had… |
+| B1827 | OPEN | THE FRAMING LEDGER (the owner's exercise, 2026-11-03; OPEN, an audit): eighteen framing commitments inventoried from five readers (docs/FRAMING_LEDGER.md), then the question itself and its recognition audited (S291, § G… |
 | B1826 | PROVED | THE AGY LANE'S NOVEMBER WORK, VERIFIED ON MAIN (agy/audit-2026-11-02, 16 commits from main's 64a2a3d4e; with the physical-bridge lane's source review and the independent audit lane's recomputation): three results kept,… |
 | B1825 | NEGATIVE | THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings,… |
 | B1824 | PROVED | TWO OF B1810'S THIRTEEN DECLARED HIGGS DIRECTIONS ARE ONE (data-free; proved by hand, exact in B1691's q-series to q^25, re-derived by main in sympy and to 2e-40 numerically): a0 = D^2 R - E4 R/48 = (1/48)(th2 th3^3 th4… |
@@ -51,9 +51,17 @@
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
 - ** P-303** — PF1-W read on each Higgs field or on each sector's mass determinant? (the web seat's W133 check §5–§6, row 1316). On a parity-diagonal coupling the two are the same condition; but no combination of two or more zero-free… → *asked of the owner: which reading of PF1-W (each Higgs field, or each sector's determinant) the record adopts; main's recommendation to follow with P-300's ver…*
 - ** P-335** — the owner's calls the sweep surfaced: L178 (the tone crossing) — retire by the math?; L248 §8 (retire, or the L240 reader's probe later); COMPUTE_THE_PROGRAM — rewrite for the weave or freeze; L161's realisation — commi… → *asked of the owner with the next report*
+- ** P-577** — THE LOOK HORIZON (FL-24, A6 R4): one joint look ledger; the gate log₂(m/0.01) meets an exact hit's median C_ten (13.4 bits) at m ≈ 108 (now 53) — past it a correct frame fails K more often than not → *asked: keep one ledger, split it per question, or price looks by the information they spend (THE_BAR's choice)*
+- ** P-580** — NO ROUTE TO AN EARNED DICTIONARY (FL-20, A6 R1): every positive is a READING while FK11 is UNEARNED, UNEARNABLE within F-HE and F-CI (GENESIS l. 424); PASSED is never sufficient for DERIVED — no outcome of any current t… → *asked: may a frame earn its dictionary by held-out prediction (the bar's V cell), amending GAP1's stance through adoption/amend.py?*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
+- ** P-583** (2026-11-03) — THE LEPTONS READ THE ADJUGATE (S291, exact on all 24 order-5 lines): M_e = λM_dᵀ (λ⁵ = 1) and Y_e(S) = −λY_d(adj S)ᵀ — the reading that balances the CKM's corners (down reads adj S, P-566) is, on the…
+- ** P-582** (2026-11-03) — EXISTENCE BEFORE SEALED LOOKS (A6 Q-EXIST; with P-563): B1713 (factor 3.59) and B1720 (6.5) had shown masses and mixing apart before B1825 spent look 53 on the same obstruction (291 against 23.21)
+- ** P-579** (2026-11-03) — THE EXISTENTIAL QUESTION (the owner, 2026-11-03: 'are we making the proper existential question, could we identify the answer'; FL-19): the headline '0 of 19' counts Tier 4, which WHAT_WOULD_COUNT ma…
+- ** P-576** (2026-11-03) — THE FRAME'S OWN LENGTH (FL-23, A6 CE-4): K never charges the frame's description; FR-FIB's H-cov branch carries about 15 bits searched on the data (THE_FINAL_ACTS_BAR l. 193); a frame planted to cont…
+- ** P-575** (2026-11-03) — A DECLARED THEORY ERROR (FL-22, A6 R3/R6): the flat 10% allowance discards 29.7 bits of measured information against a 12.37-bit gate, and K's power for a correct frame a σ away is 1 in 10 (B1825's c…
+- ** P-574** (2026-11-03) — THE SCALE AND THE RUNNING (FL-21, R1): a theory exact at 2 × 10¹⁶ GeV scores χ²_ten 11.8 against nature at M_Z (one loop, the test's own inputs; it reproduces HZ2021's a and b at 10¹² GeV) — S passes…
 - ** P-568** (2026-11-03) — RELATIONS AND RIGID OUTPUTS (FL-14, FL-15): the bar grades values, never relations; the number of relations the frame forces (the Jacobian co-rank of its outputs in its continuous data) and its rigid…
 - ** P-567** (2026-11-03) — THE LINES AS CENTRE WILSON LINES (FL-08; the blind reader, verified on order 5 in B1827): on order-5 lines the frame is minimal SU(5) exactly (Y_u symmetric, the down and lepton spectra identical), s…
 - ** P-566** (2026-11-03) — THE SECTOR-ODD SINGLET (FL-06, B1827 § 2): a singlet Higgs component at natural magnitude ODD between up and down lifts the CKM's corner inversion generically (33-47% at every phase against 2%; media…
@@ -73,15 +81,10 @@
 - ** P-522** (2026-10-30) — THE CKM LEG DEFINED (the pre-seal review, B5): 'the CKM predicted from the six's address' has no tie rule (8-digit and full-precision rows mixed; ties to 1e-15 on record, B1811), no rule for undefine…
 - ** P-521** (2026-10-30) — THE τ GRID FAILS THE RESOLUTION CHECK (the pre-seal review, B4; INPUT_COMPLETENESS row 13): B1726's 90-point grid is at least 4.5 times too coarse in Im τ for the record's illustrative resolution; on…
 - ** P-520** (2026-10-30) — THE GENERATOR'S PRE-SEAL REVIEW: NO GO (main's hostile pre-seal reviewer of STEP_B_GENERATOR_DESIGN, synthetic targets only, no census value and no measured value opened; checked by main): the declar…
-- ** P-515** (2026-10-30) — THE HISTORY CALENDAR (the owner, the night of 2026-10-29/30: a contribution calendar like GitHub's, 'very very sophisticated and detailed, so we can navigate through the history'; then 'thanks Do It'…
-- ** P-510** (2026-10-30) — KIND_TABLE's KIND CLAUSE FOR THE FRAME'S SUPPORT TESTS (the web seat's map, verified on main): KIND_TABLE's lane for mass ratios is the pair channel, 'CLOSED until one is', and none of B1749, B1753,…
-- ** P-507** (2026-10-29) — THE CONTEXT CARD'S COMPLETENESS CHECKS, FIRST READING (P-506; the card generated at S262): 39 arc folders carry no verdict file (scripts/checks/arc_data.py's resolved classes among them — preregistra…
-- ** P-506** (2026-10-29) — TWO READERS, ONE SOURCE (the owner, 2026-10-29): 'the dashboard should serve us both, me for better visualising the universe we're trying to construct, and the frameworks structure, analyze, and you…
-- ** P-495** (2026-10-29) — THE FINAL ATTACK (main's proposal to the owner, docs/THE_FINAL_ATTACK_2026-10-29.md): explaining under plenitude is compression with a null — our world's description through the framework (the object…
-- ** P-494** (2026-10-29) — A CM SIGHTING, DISCLOSED (main, 2026-10-29, by hand, before any CM table): τ = 3i (ℚ(i), D = −36) lies at Im τ = 3.000 and τ = (1 + 7√3 i)/4 = 0.25 + 3.031i (ℚ(√−3), D = −588) inside the fitted strip…
 
 ## The last landings (CHANGELOG)
 
+- S291 THE RECHECK AND THE RECOGNITION AUDIT: ONE S290 CLAIM RETRACTED; WOULD WE KNOW THE ANSWER? NOT AS THE TESTS ARE BUILT (2026-11-03)
 - S290 THE RELATION THAT LIFTS THE CORNERS: THE ADJUGATE READING; THE 45-LIKE SINGLET SPLITS THE SECOND GENERATION (2026-11-03)
 - S289 THE FRAMING LEDGER (B1827): WHAT THE PROGRAMME EXCLUDES BY THE WAY IT IS FRAMED (2026-11-03)
 - S288 THE AGY LANE's REPORTS READ IN FULL; ITS FRAMING RULED; THE MIRROR RULE CLOSED FOR THE CKM (2026-11-03)
@@ -89,11 +92,10 @@
 - S286 B1825 NEGATIVE AS SEALED: NO SUPPORT. THE FRAME MAKES OUR MASS RATIOS AND OUR MIXING, NEVER AT ONE ADDRESS (2026-10-31)
 - S285 THE PASS SIDE ON B1741's BOX: POWER AT AN ADDRESS, LITTLE A SIGMA AWAY; THE SIX DO NOT COMPRESS; DETERMINISM PASSES (2026-10-31)
 - S284 THE CALIBRATION's PLANTED LEGS WERE VOID; THE PASS SIDE MOVED ONTO B1741's BOX; DETERMINISM AT THE CENSUS's PRECISION (2026-10-31)
-- S283 NO FORK FOR THE BIG INDEX (2026-10-31)
 
 ## The latest campaign line
 
-LATEST (2026-11-03, S290: the ingredient that lifts the quark-mixing wall is pinned down: the Higgs needs a singlet part that one quark type sees mirrored — a relation the framework could not even express before. The same ingredient, weighted the way SU(5) weights its 45-dimensional Higgs, also splits the second-generation lepton and down-quark masses by about the needed factor of three. A candidate structure, not a result: its cost in free choices comes next. 0 of 19.)
+LATEST (2026-11-03, S291: every claim of the last two landings re-derived from the code. One is withdrawn: the SU(5)-style "45" ingredient does not produce the needed lepton/quark mass pattern — its probe had mislabelled factors, and with the right ones the lightest generation goes the wrong way. The rest holds exactly, and one new exact fact appeared: the framework's leptons already see the down quarks through the same mirror (the adjugate) that fixes the quark-mixing corners. Then the owner's deeper question — are we asking the right question, and would we recognise the answer? A blind reader and a calculation say: not as the tests are built. The headline counts a goal the record itself r…
 
 ## Completeness (nothing skipped silently)
 

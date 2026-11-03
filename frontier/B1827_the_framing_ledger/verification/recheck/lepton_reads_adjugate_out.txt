@@ -1,0 +1,1 @@
+Y_e(S) = -lam Y_d(adj S)^T over 1152 cases on the 24 order-5 lines: worst relative deviation 9.3e-15  PASS; lam = 1 on 8 lines

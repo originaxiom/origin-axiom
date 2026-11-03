@@ -35,7 +35,7 @@ sectors) and that the up hierarchy is steeper than the down. No measured value i
    ten phases; the frame alone 2.1%; median ∣V_ub∣/∣V_td∣ 20–29).
 3. **The same singlet with opposite signs in up and down lifts the inversion generically: 33–47% at every phase, median
    ∣V_ub∣/∣V_td∣ 0.91–1.0.** **Robust (singlet_robustness.py, fresh seeds 1200–1439, four phases):** at ∣a₀∣² = 0.25, 1 and 4 × ∣h·h∣ the rate is 29–38%, 34–48% and 33–42% (the frame alone 2.2%, median 21), the median ∣V_ub∣/∣V_td∣ 1.03–1.11, 0.91–1.02 and 0.83–0.93: the effect holds over a factor 16 in the singlet's size, and a larger singlet moves the corner ratio further towards nature's side. The corner ratio becomes balanced, not the measured 0.43.
-4. **On order-5 lines the frame is minimal SU(5) exactly:** on (2/5, 0) and (1/5, 3/5), R₁(up) = 0, Y_u symmetric and the
+4. **On order-5 lines the frame is minimal SU(5) exactly** *(S291: verified on all 24 order-5 lines, with Y_e = λY_dᵀ, λ⁵ = 1, in general — see the note below)*: on (2/5, 0) and (1/5, 3/5), R₁(up) = 0, Y_u symmetric and the
    down and lepton spectra identical (on (2/5, 0) Y_e = Y_dᵀ to 2 × 10⁻¹⁵) — so the down–lepton degeneracy is SU(5)'s, and
    c = 3 is the Georgi–Jarlskog Clebsch put in by hand (the blind reader's claim, verified); the order-10 lines that won the
    six's fits break the relations slightly; an order-7 control has none.
@@ -64,7 +64,7 @@ singlet odd between the sectors is the first open test (P-566).
 > relation the scans reward — the singlet flipped, the triplet kept — is the ADJUGATE, adj(S) = εSᵀεᵀ = det(S)·S⁻¹, the
 > quaternion conjugate a₀ − h·Q (verified exactly): a holomorphic reading with no complex conjugation. On the frame's 3D Higgs
 > adj(S) = −S, so this reading was invisible by construction; it becomes distinct only once the Higgs has a singlet, and then it
-> is exactly the opposite-sign family (33–48%). B1724 and B1790 considered only S, S* and S̃. (c) The 45-like Clebsch: on the
+> is exactly the opposite-sign family (33–48%). B1724 and B1790 considered only S, S* and S̃. (c) *[RETRACTED by S291, the note below: the probe's labels were wrong]* The 45-like Clebsch: on the
 > order-5 lines, a singlet entering the leptons with SU(5)'s −3 relative to down splits the second generation's lepton/down
 > ratio to about 2–4.5 at Im τ 1.9–2.6 (a 5-like control stays near 1) — about the Georgi–Jarlskog factor without c — but not the
 > first generation (scattered); for the up quarks there the singlet's contribution is antisymmetric, the 45's 10·10 form;
@@ -72,3 +72,50 @@ singlet odd between the sectors is the first open test (P-566).
 > P-566 now names; its price (the singlet's size, its phase, the reading, the address) is not yet computed, and nothing here
 > is compared with a measured value.*
 
+> *2026-11-03, night (S291; the owner: "make sure sure sure all your claims and conclusions are right", then: "check whether
+> we're missing valuable insight, whether we're making the proper existential question and could identify the answer if we
+> ever get to it"). **THE RECHECK** (verification/recheck/, RECHECK.md; data-free).*
+> - **Hold, exactly:** adj(S) = εSᵀεᵀ = det(S)·S⁻¹ = a₀ − h·Q, S̃ = a₀* + h*·Q, det S = a₀² + h·h; the frame's coupling is
+>   linear in S and obeys Y(S, M) = −Y(adj S, Mᵀ)ᵀ, so the adjugate reading IS the opposite-sign family (500 random cases,
+>   7 × 10⁻¹⁵); every scan number in § 2 and in S290's note matches its output file; c = 3 is the Georgi–Jarlskog factor in
+>   the code (stepb_core.c_shift: × c on μ/τ, ÷ c on e/τ).
+> - **Order 5, all 24 lines** (1 152 cases: three τ, both radii, four directions, both readings): R₁(up) = 0, M_u and Y_u
+>   symmetric, the singlet's part of Y_u antisymmetric (the 45's 10·10 form), the down and lepton spectra equal — but
+>   **Y_e = Y_dᵀ holds only on the 8 lines with a = 0 or b = 0; in general M_e = λM_dᵀ with λ a fifth root of unity, and
+>   then, exactly (9 × 10⁻¹⁵), Y_e(S) = −λ Y_d(adj S)ᵀ: the leptons read the down sector through the adjugate.** The
+>   reading that lifts the CKM's corners is, on these lines, the frame's own down–lepton relation (P-583).
+> - **Disclosure owed:** two of the twelve phases (c = ±i) had no points: there a₀² = −h·h, the Higgs is null (det S = 0)
+>   and every lightest state is massless (B1659's J4), so the hierarchy filter drops them — "every phase" means the ten
+>   non-null ones. The SM reading's over-flip and scrambled ∣V_ud∣ are the reading's own (identical at c = 0: 73%, 14%,
+>   1.2%), not the singlet's.
+> - **RETRACTED — S290 (c), the 45-like split.** By the identity, the singlet's Clebsch relative to the triplet's SU(5)
+>   relation is κ = −k (k the lepton's coefficient in the code): gj45_probe.py's "k = −3, the 45" was κ = +3, and its
+>   "5-like control" k = +1 was κ = −1 (a true 5, k = −1, gives exactly 1 — verified). Rerun with the correct labels
+>   (gj45_corrected.py; 24 lines, three τ, both radii, three directions, both readings, three phases): with the 45's κ = −3
+>   the second generation's (μ/τ)/(s/b) has median 2.0 (quartiles 1.3–3.3) but the first's (e/τ)/(d/b) median 3.3
+>   (1.5–6.0), where Georgi–Jarlskog needs about 3 and 1/3; the pattern at 1.1% (κ = +3: 0.5%). **The 45 half of P-566's
+>   candidate is dead** on the coarse Georgi–Jarlskog fact (disclosed); the adjugate half stands as computed.
+> - **Sharpened:** "about nine of the 19 have no frame" — nine lie outside the ten graded numbers; six have no frame
+>   (g₁, g₂, g₃, m_H, v, y_t); three are frame outputs never examined (θ̄, P-569; y_b/y_t and y_τ/y_t, P-568).
+>
+> ***THE RECOGNITION AUDIT*** *(docs/FRAMING_LEDGER.md § G; verification/recognition/; verification/readers/A6_*).*
+> - **R1 (main; a control of the test — no frame output enters):** the test's own measured inputs, run up with the
+>   Standard Model's one-loop RGEs, move the ten from M_Z to 2 × 10¹⁶ GeV by −11.6% (c/t, u/t), +13.1% (s/b, d/b, ∣V_cb∣,
+>   ∣V_ub∣), +28% (∣J∣) and 0 (the leptons, ∣V_us∣). The run reproduces the test's own source at 10¹² GeV (HZ2021's a and b,
+>   P-363: 2.838 against 2.84, 0.268 against 0.269) and a two-loop table's shifts at 1–10 TeV to within 15% of the shift
+>   (arXiv:1306.6879, Table 1, read through a fetch). **A theory exactly right at the unification scale scores
+>   χ²_ten = 11.8 against nature at M_Z: it passes S (23.21) but pays 8.5 bits on K** (χ²/2 · log₂ e), more than the
+>   3.6 bits of room B1825's address leaves (P-555); the four alone cost 5.9 bits. With σ-sized residuals as well, S would
+>   reject it 39% of the time.
+> - **A6, a blind reader** (it saw neither this arc nor the ledger), **verified by main citation by citation**
+>   (A6_VERIFIED.md): the headline "0 of 19" counts Tier 4, which WHAT_WOULD_COUNT made "not a live criterion" (l. 381); the
+>   owner's restated goal (2026-10-08: the structure and how many free numbers) has its answer on record, "all 19 are free";
+>   the owner's total-inputs scoreboard (P-418, 2026-10-29: "'0 of 19' alone hid the drift") is unbuilt; every positive is
+>   a READING while the dictionary is UNEARNED, and it is UNEARNABLE within F-HE and F-CI (GENESIS l. 424), so the board
+>   cannot move under any outcome of any current test; B1825's PASS was unreachable before its seal (its own words) and its
+>   K's power for a correct frame a σ away is 1 in 10 (its calibration); the allowance discards 29.7 bits of measured
+>   information (main's recount); the frame's own length is not charged; one joint look ledger meets an exact hit's median
+>   C_ten at m ≈ 108 (now 53); structural grades use two comparison classes (ℤ₆ DERIVED against the SM, sin²θ_W REPRODUCED
+>   against the GUT class). Sharpened by main: B1786's m·r was already 0.0099–0.0112 at m = 41.
+> - Main's reading of the question, the triggers that would reshape the foundations, and what is the owner's: the ledger's
+>   § G. P-566 updated; P-572 sharpened; P-574–P-583. Nothing here is compared with a frame output. **0 of 19.**

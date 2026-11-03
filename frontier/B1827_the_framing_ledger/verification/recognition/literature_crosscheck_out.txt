@@ -1,0 +1,5 @@
+c/t     two-loop table: 1 TeV -2.10%  10 TeV -3.67%   | ours (one loop): 1 TeV -1.87%  10 TeV -3.31%
+s/b     two-loop table: 1 TeV +2.19%  10 TeV +3.86%   | ours (one loop): 1 TeV +1.90%  10 TeV +3.41%
+mu/tau  two-loop table: 1 TeV +0.00%  10 TeV +0.00%   | ours (one loop): 1 TeV -0.00%  10 TeV -0.00%
+|V_cb|  two-loop table: 1 TeV +2.09%  10 TeV +3.71%   | ours (one loop): 1 TeV +1.91%  10 TeV +3.42%
+|V_ub|  two-loop table: 1 TeV +2.20%  10 TeV +3.57%   | ours (one loop): 1 TeV +1.91%  10 TeV +3.42%

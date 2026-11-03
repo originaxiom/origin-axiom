@@ -1,0 +1,18 @@
+V1+V2 max deviation over 500 random (S, M): 7.4e-15  PASS
+V3 over 1152 (line, tau, radius, direction, reading) cases on the 24 order-5 lines:
+   MeMdT     worst relative deviation 1.9e+00  FAIL
+   MuMuT     worst relative deviation 0.0e+00  PASS
+   R1u       worst relative deviation 5.7e-15  PASS
+   Yu_sym    worst relative deviation 2.1e-16  PASS
+   Yu1_anti  worst relative deviation 2.9e-16  PASS
+   Ye_adj    worst relative deviation 1.9e+00  FAIL
+   spec      worst relative deviation 2.8e-09  FAIL
+V4 DR c=1j: |det S| 1.3e-17  m1/m3 (up, down, lepton) 6.8e-17 6.6e-18 1.7e-17
+V4 DR c=(-0-1j): |det S| 1.2e-17  m1/m3 (up, down, lepton) 1.7e-17 1.3e-16 1.7e-17
+V4 DR c=1.0: |det S| 8.4e-03  m1/m3 (up, down, lepton) 1.2e-02 2.7e-03 2.8e-03
+V4 F_6 c=1j: |det S| 2.0e-16  m1/m3 (up, down, lepton) 3.9e-18 7.2e-17 9.6e-17
+V4 F_6 c=(-0-1j): |det S| 2.0e-16  m1/m3 (up, down, lepton) 5.0e-17 2.9e-17 8.6e-17
+V4 F_6 c=1.0: |det S| 2.7e-02  m1/m3 (up, down, lepton) 5.6e-05 3.8e-04 3.8e-04
+V4 F_22 c=1j: |det S| 2.4e-17  m1/m3 (up, down, lepton) 5.3e-17 4.4e-17 7.2e-17
+V4 F_22 c=(-0-1j): |det S| 2.5e-17  m1/m3 (up, down, lepton) 7.2e-17 4.3e-17 4.8e-17
+V4 F_22 c=1.0: |det S| 1.0e-01  m1/m3 (up, down, lepton) 1.8e-04 7.7e-04 7.7e-04

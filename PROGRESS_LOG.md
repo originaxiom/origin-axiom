@@ -18287,3 +18287,6 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - The SM reading with a singlet fails (∣V_ud∣ scrambled); the adjugate reading is the relation that lifts the corners; the 45's Clebsch splits the second generation by about 3. Verification: B1827/verification/scans (sm_reading_singlet_scan, gj45_probe), the gates. 0 of 19.
 
+## 2026-11-03 — S291 the recheck and the recognition audit
+
+- Every S289/S290 claim re-derived (B1827 verification/recheck/): the identities hold; Y_e = λY_dᵀ with λ⁵ = 1 on the order-5 lines and Y_e(S) = −λY_d(adj S)ᵀ exactly; the 45-like split RETRACTED (mislabelled). The question and its recognition (docs/FRAMING_LEDGER.md § G): a blind reader verified by main, and R1 (a theory exact at the unification scale pays 8.5 bits on K at M_Z). P-574–P-583. 0 of 19.

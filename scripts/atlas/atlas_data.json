@@ -15070,19 +15070,24 @@
   "B1827": {
    "slug": "the framing ledger",
    "motifs": [
+    "closing",
     "coupling",
+    "figure_eight",
+    "kappa",
+    "metallic",
     "z3_generation",
     "amphichiral_cp",
     "wrt_quantum"
    ],
    "refs": [
     "S286",
-    "S290"
+    "S290",
+    "S291"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 10,
+   "obstacle_conf": 13,
    "status": "open",
-   "domain": "physics"
+   "domain": "topology"
   },
   "B182": {
    "slug": "multiplicity selection",

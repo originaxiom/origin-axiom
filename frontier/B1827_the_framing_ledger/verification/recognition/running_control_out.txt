@@ -1,0 +1,7 @@
+check at M_Z (should equal the inputs): J 3.120e-05  |V_ub| 0.00373  m_t 168.26
+mu 1.0e+03 GeV: chi2_ten   0.28 (six  0.09, four  0.19); K price  0.20 bits | m_t 149.7 m_b 2.438 m_tau 1.757 m_b/m_tau 1.388 | shifts %: c/t -1.9 u/t -1.9 s/b +1.9 d/b +1.9 mu/tau -0.0 e/tau -0.0 |V_us| +0.0 |V_cb| +1.9 |V_ub| +1.9 |J| +3.9
+mu 1.0e+06 GeV: chi2_ten   2.53 (six  0.78, four  1.74); K price  1.82 bits | m_t 118.8 m_b 1.802 m_tau 1.785 m_b/m_tau 1.009 | shifts %: c/t -5.5 u/t -5.5 s/b +5.8 d/b +5.9 mu/tau -0.0 e/tau -0.0 |V_us| +0.0 |V_cb| +5.9 |V_ub| +5.9 |J| +12.1
+mu 1.0e+09 GeV: chi2_ten   5.34 (six  1.66, four  3.69); K price  3.86 bits | m_t 101.1 m_b 1.466 m_tau 1.773 m_b/m_tau 0.827 | shifts %: c/t -8.0 u/t -8.0 s/b +8.6 d/b +8.6 mu/tau -0.0 e/tau -0.0 |V_us| +0.0 |V_cb| +8.7 |V_ub| +8.7 |J| +18.0
+mu 1.0e+12 GeV: chi2_ten   8.14 (six  2.53, four  5.62); K price  5.87 bits | m_t 88.9 m_b 1.248 m_tau 1.739 m_b/m_tau 0.718 | shifts %: c/t -9.7 u/t -9.7 s/b +10.8 d/b +10.8 mu/tau -0.0 e/tau -0.0 |V_us| +0.0 |V_cb| +10.8 |V_ub| +10.8 |J| +22.7
+mu 2.0e+16 GeV: chi2_ten  11.83 (six  3.67, four  8.16); K price  8.53 bits | m_t 76.2 m_b 1.039 m_tau 1.667 m_b/m_tau 0.623 | shifts %: c/t -11.6 u/t -11.6 s/b +13.1 d/b +13.1 mu/tau -0.0 e/tau -0.0 |V_us| +0.0 |V_cb| +13.1 |V_ub| +13.1 |J| +28.0
+mu 1.2e+19 GeV: chi2_ten  13.96 (six  4.33, four  9.63); K price 10.07 bits | m_t 69.8 m_b 0.939 m_tau 1.610 m_b/m_tau 0.583 | shifts %: c/t -12.6 u/t -12.6 s/b +14.3 d/b +14.3 mu/tau -0.0 e/tau -0.0 |V_us| +0.0 |V_cb| +14.3 |V_ub| +14.3 |J| +30.8
