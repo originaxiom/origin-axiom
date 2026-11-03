@@ -1,0 +1,15 @@
+{
+  "status": "PROPOSED_ONLY_NOT_REVALIDATED_NOT_ADMITTED",
+  "python": "3.12.1",
+  "sympy": "1.14.0",
+  "mpmath": "1.3.0",
+  "environment": {
+    "PYTHONHASHSEED": "0",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "SYMPY_GROUND_TYPES": "python"
+  },
+  "scientific_imports_or_execution": false,
+  "test_collection": false,
+  "review_status": "REQUIRES_NEW_INDEPENDENT_SCOPE",
+  "main_exact_acceptance": "NOT_OBTAINED"
+}

@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-03",
+  "status": "UNREVIEWED_AUTHOR_PROOF_AND_PREIMPLEMENTATION_DESIGN_NO_SCIENTIFIC_EXECUTION",
+  "source_baseline": "7c8b8094b5cfcc6922f29ec80f6ec9f08cb5555a",
+  "scientific_execution": false,
+  "scientific_imports": false,
+  "test_collection": false,
+  "foundational_inputs_paid": 0,
+  "scope": "Partial constant register quotient action and conditional holonomy-state discriminator; not a full genesis-to-physical-bundle map",
+  "existing_sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "commit": "7c8b8094b5cfcc6922f29ec80f6ec9f08cb5555a",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "commit": "7c8b8094b5cfcc6922f29ec80f6ec9f08cb5555a",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "commit": "7c8b8094b5cfcc6922f29ec80f6ec9f08cb5555a",
+      "bytes": 11351,
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COHERENT_WORD_LIFTS_AND_LOCAL_BOUNDARY.md",
+      "commit": "7c8b8094b5cfcc6922f29ec80f6ec9f08cb5555a",
+      "bytes": 15311,
+      "sha256": "388dc8f5d3af483581f6a96ed5a5d0bba3bd9459dffac3ef1df68abce74a7311"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_DOUBLET_QUARTET_AND_NORMALIZATION.md",
+      "commit": "7c8b8094b5cfcc6922f29ec80f6ec9f08cb5555a",
+      "bytes": 8444,
+      "sha256": "33d1fe14ed077a20814c93bd7f4be89627794264f7fc4dc3c399eb7de4c3cb78"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COEFFICIENT_METRIC_CONSTRAINTS_AND_PHYSICAL_PRICES.md",
+      "commit": "7c8b8094b5cfcc6922f29ec80f6ec9f08cb5555a",
+      "bytes": 9453,
+      "sha256": "b13da01dddef09d1c2ed4c95f5d43aaf2a7b7a27728c8529ca8a2ed0cd0b082e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/MATTER_AND_BOUNDARY_COMMON_REGISTER.md",
+      "commit": "7c8b8094b5cfcc6922f29ec80f6ec9f08cb5555a",
+      "bytes": 10094,
+      "sha256": "919d215b4f6f6d32095c8341d7bef2036b97ae41d74b2fd849881a32cd6551f6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SPIN_FLAVOUR_FACTORISATION_AND_PHYSICAL_TWIST_PRICE.md",
+      "commit": "7c8b8094b5cfcc6922f29ec80f6ec9f08cb5555a",
+      "bytes": 12732,
+      "sha256": "308eeb1745d36cd8c86e35d25f0ede9fbd9e1d5f43d235cfa908307ece45887f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXACT_ORDER_THREE_ELECTROWEAK_BRANCH.md",
+      "commit": "7c8b8094b5cfcc6922f29ec80f6ec9f08cb5555a",
+      "bytes": 13553,
+      "sha256": "3eae4eba764343746f46db14b58ae5d03ee412534b4067219143c40c3a2f09aa"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "commit": "7c8b8094b5cfcc6922f29ec80f6ec9f08cb5555a",
+      "bytes": 15858,
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f"
+    }
+  ],
+  "candidate_before_implementation": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTER_FLAVOUR_ACTION_GRAM_AND_QUARTIC_STATE_TEST.md",
+      "bytes": 11605,
+      "sha256": "370fa0f0d88a08b3a3cab8b893c3930404724da18ef1c99356b5b05c3d0e7d6b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_register_flavour_joint_2026_11_03/DESIGN.md",
+      "bytes": 3479,
+      "sha256": "528b6b1d996aa5a54409e1d3549dd5383f808b383997f517e91c19e14e5d2494"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_register_flavour_joint_2026_11_03/ENVIRONMENT.json",
+      "bytes": 415,
+      "sha256": "d25d171c277ccc3849db11d8e27d8bdd98068f8cffdbab38626794fa231e9ddf"
+    }
+  ]
+}
