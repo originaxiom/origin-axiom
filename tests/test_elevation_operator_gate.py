@@ -128,6 +128,7 @@ def test_theorem2_4d_quaternionic_yukawa_and_operator_gate():
     # 3. Verify m004 3-fold cover and colour-center Wilson line torsion invariants:
     inv = m004_three_fold_cover_invariants()
     assert inv["det_LR_minus_i" if "det_LR_minus_i" in inv else "det_LR_minus_I"] == -1
+    assert inv["deck_only_S3_commutant_dim_R"] == 2
     assert inv["deck_commutant_dim_R"] == 1
     assert inv["forces_H_proportional_to_I"] is True
     assert abs(float(inv["alexander_at_omega_abs"]) - 4.0) < 1e-12
@@ -155,10 +156,16 @@ def test_stepb_structural_audit_defects():
     # 1. Decode choice 30900 selected by six_mixture in B1825:
     c30900 = decode_stepb_choice_index(30900, manifest)
     assert c30900["line"] == (Fraction(2, 5), Fraction(0, 1))
-    assert c30900["direction"] == "D2R"
+    assert c30900["direction"] == "F_26"
     assert c30900["radius"] == "L_max"
     assert c30900["reading"] == ("S~", "S", "S")
-    assert c30900["has_complex_ckm"] is False
+    assert c30900["has_complex_ckm"] is True
+
+    # And verify the two null-quaternion directions R (d_idx=2) and t=-5/288 (d_idx=3) have has_complex_ckm=False:
+    c_r = decode_stepb_choice_index(2 * 16, manifest)
+    c_t = decode_stepb_choice_index(3 * 16, manifest)
+    assert c_r["direction"] == "R" and c_r["has_complex_ckm"] is False
+    assert c_t["direction"] == "t=-5/288" and c_t["has_complex_ckm"] is False
 
     # 2. Count order-12 massless-electron choices included in physical_choice:
     o12 = count_order12_massless_electron_choices(manifest)

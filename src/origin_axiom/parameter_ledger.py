@@ -79,12 +79,12 @@ def compare_frame_input_ledgers() -> Dict[str, object]:
     fr_fib_total_discrete_bits = sum(v["bits"] for v in fr_fib_discrete.values())
 
     # FR-COV discrete menu counts after applying Gate 0 + Theorems 1-4:
-    # - torsion_lines: 4 non-zero T-orbits in Fix((LR)^3) = (Z/4Z)^2 \ {0} + 1 Golden order-5 eigen-orbit = 5 orbits
+    # - torsion_lines: 5 non-zero <T, -I>-orbits in Fix((LR)^3) = (Z/4Z)^2 \ {0} + 1 Golden order-5 eigen-orbit = 6 orbits
     # - higgs_directions: 1 canonical 4D section (Theorem 3 + Theorem 4 lift R/DR without needing the 13-direction menu)
-    # - readings_S_Stilde: 1 gauge-invariant assignment (S~, S, S) up to global conjugation sign (0 bits for moduli)
+    # - readings_S_Stilde: 1 gauge-invariant assignment up to global conjugation sign (0 bits for moduli)
     # - horocycle_radii: 1 canonical cusp radius (and det(M^(s)) = D_s is strictly L-independent by Theorem 3)
     # - lepton_down_c_menu: 1 (fixed by m004's order-3 colour-center meridian holonomy omega = exp(2*pi*i/3))
-    fr_cov_orbits = int(tors["t_orbits_in_non_zero_fixed_k3"]) + 1  # 4 + 1 = 5
+    fr_cov_orbits = int(tors["t_orbits_in_non_zero_fixed_k3"]) + 1  # 5 + 1 = 6
     fr_cov_discrete = {
         "torsion_lines": {"options": fr_cov_orbits, "bits": math.log2(fr_cov_orbits)},
         "higgs_directions": {"options": 1, "bits": 0.0},
@@ -142,7 +142,7 @@ def nineteen_parameter_impact_table() -> List[Dict[str, object]]:
             "param_range": "5-6",
             "names": ["m_e/m_mu", "m_mu/m_tau"],
             "sector": "Charged-lepton mass ratios (2 of The Six)",
-            "fr_fib_status": "REQUIRES c = 3 BY HAND; 36/5832 B1825 choices have m_e = 0 on order-12 lines",
+            "fr_fib_status": "REQUIRES c = 3 BY HAND; 7,680/40,000 B1825 physical choices have m_e = 0 on order-12 lines",
             "fr_cov_status": "COLOUR-SINGLET TORSION (|Delta_m004(1)| = 1) + STRICT NON-ZERO m_e FILTER",
             "governing_theorem": "m004 colour-triality Clause 4 + stepb_audit strict_ten_physical_choice_mask",
         },

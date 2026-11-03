@@ -5,9 +5,10 @@ Provides pure, data-free functions that verify the four Step B / census architec
 defects without modifying the SHA-256 hash-pinned files in scripts/stepb/:
 1. Defect A (scripts/stepb/kten.py lines 170-214):
    Decodes choice = 30900 under assemble.py's canonical (str(line_key), d, r, k) ordering to
-   ((2/5, 0), D2R, L_max, ('S~', 'S', 'S')), proving that six_mixture(physical=False) selected
-   a purely real direction (D2R, where J = 0 identically and physical_choice[30900] is False),
-   while K_ten ignored m["choice"] and summed num and den over all 50,880 discrete choices.
+   ((2/5, 0), F_26, L_max, ('S~', 'S', 'S')), and verifies that six_mixture(physical=False)
+   omitted the physical=True filter (which passes the two null-quaternion directions R and t=-5/288
+   where a.a == 0 and J == 0 identically), while K_ten ignored m["choice"] = 30900 and summed
+   num and den over all 29,063 rows in the tau-window across all discrete choices.
 2. Defect B (scripts/stepb/cells.py lines 131-139):
    Proves that physical_choice checks only F[:, 6:10] (the 4 CKM columns) and misses all 48
    order-12 lines where det M_lep = 0 (m_e/m_tau = 0 identically, B1716), leaving
@@ -27,7 +28,7 @@ from typing import Dict, List, Tuple
 import numpy as np
 
 KEPT_DIRECTIONS: Tuple[str, ...] = (
-    "DR", "a0", "F_6", "F_10", "F_14", "F_18", "F_22", "F_26", "F_-6", "F_-10", "R", "D2R"
+    "DR", "a0", "R", "t=-5/288", "F_-10", "F_-6", "F_6", "F_10", "F_14", "F_18", "F_22", "F_26"
 )
 RADII_NAMES: Tuple[str, ...] = ("L_max", "L_2")
 READINGS: Tuple[Tuple[str, str, str], ...] = (
@@ -80,7 +81,7 @@ def decode_stepb_choice_index(
         "direction": direction,
         "radius": RADII_NAMES[rad_idx],
         "reading": READINGS[r_idx],
-        "has_complex_ckm": direction not in ("R", "D2R"),
+        "has_complex_ckm": direction not in ("R", "t=-5/288"),
     }
 
 
@@ -91,7 +92,7 @@ def count_order12_massless_electron_choices(per_file_manifest: Dict[str, str]) -
     order12 = [l for l in lines if math.lcm(l[0].denominator, l[1].denominator) == 12]
     n_lines = len(order12)
     total_choices = n_lines * 12 * 2 * 8
-    # R and D2R have J = 0 everywhere; the 10 complex directions have non-zero CKM & J on order 12:
+    # R and t=-5/288 have a.a == 0 and J = 0 everywhere; the 10 remaining directions have J != 0 on order 12:
     complex_ckm_choices = n_lines * 10 * 2 * 8
     return {
         "order_12_lines": n_lines,

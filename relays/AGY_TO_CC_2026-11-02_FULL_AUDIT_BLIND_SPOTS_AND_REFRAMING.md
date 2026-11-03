@@ -19,9 +19,9 @@
 2. **Read-out of the unread `B1825` (`Step B`) output (`frontier/B1825_step_b_the_nine_from_one_address/verification/run.json`):**
    - At `main` HEAD (`64a2a3d4e`), `B1825`'s output `frontier/B1825_step_b_the_nine_from_one_address/verification/run.json` was committed unread. Its exact numbers are:
      - **Support cell `S`:** `in_support: false`, `least_chi2_ten: 291.409690` (at line `(3/8, 3/8)` of order $8$, direction `DR`, radius `L_2`, reading `S~S~S`, $\tau = 0.093359375 + 2.742578125i$; fresh point evaluation `291.486662`).
-     - **Nine-observable readout (dropping $|J|$):** `readout_least_chi2_nine: 82.600158` (at `(3/8, 3/8), F_26, L_2, S~S~S`).
-     - **Compression cell `K`:** `C_ten: -197.040229` bits (`L_six: 23.467113` bits, `C_six: 9.162624` bits, `bits_CKM: -206.202854` bits), selected six-mass discrete choice `"choice": 30900`.
-     - **Conditional CKM cell `CKM`:** `min_chi2_six: 1.358308`, `best_chi2_4: Infinity` (0 rows in the six-mass pass set have finite ten-observable vectors).
+     - **Nine-observable readout (dropping $|J|$):** `readout_least_chi2_nine: 82.604763` (at `(3/8, 3/8), a0, L_2, S~S~S`).
+     - **Compression cell `K`:** `C_ten: -197.036560` bits (`L_six: 36.828958` bits, `C_six: -3.079845` bits, `bits_CKM: -193.956715` bits), selected six-mass discrete choice `"choice": 30900`.
+     - **Conditional CKM cell `CKM`:** `min_chi2_six: 1.358213`, `best_chi2_4: Infinity` (0 rows in the six-mass pass set have finite ten-observable vectors).
    - **Observable-by-observable decomposition of `least_chi2_ten = 291.41`** (`relays/agy_audit_2026_11_02/verify_stepb_and_census_audit.py`):
      - Six mass ratios $\chi^2_{\text{six}} = 63.6450$ ($c/t$: $z = +2.04, z^2 = 4.16$; $u/t$: $z = +5.81, z^2 = 33.73$; $s/b$: $z = +2.87, z^2 = 8.23$; $d/b$: $z = -1.80, z^2 = 3.25$; $\mu/\tau$: $z = +3.72, z^2 = 13.84$; $e/\tau$: $z = -0.67, z^2 = 0.45$).
      - Cabibbo and $2$–$3$ CKM angles: $|V_{us}| = 0.2028$ vs $0.2250$ ($z = -1.04, z^2 = 1.08$), $|V_{cb}| = 0.0633$ vs $0.0418$ ($z = +4.07, z^2 = 16.57$).
@@ -137,15 +137,15 @@ $$\sin\delta_{\text{CP}} = \frac{|J|}{J_{\max}} \lesssim O\!\left(\frac{\theta_{
 Because $|V_{us}|_{\text{PDG}}|V_{cb}|_{\text{PDG}} = 2.5213\,|V_{ub}|_{\text{PDG}}$, the structural law $|V_{ub}| \approx |V_{us}||V_{cb}|$ forces the ratios $r_{12} = |V_{us}|/|V_{us}|_{\text{PDG}}$, $r_{23} = |V_{cb}|/|V_{cb}|_{\text{PDG}}$, and $r_{13} = |V_{ub}|/|V_{ub}|_{\text{PDG}}$ to obey:
 $$\frac{r_{13}}{r_{12}\,r_{23}} \approx 2.5213 \quad \Longrightarrow \quad (\ln r_{13}) - (\ln r_{12}) - (\ln r_{23}) \approx \ln(2.5213) = 0.9248.$$
 Minimizing $(\ln r_{12})^2 + (\ln r_{23})^2 + (\ln r_{13})^2$ subject to this constraint gives $\ln r_{12} = \ln r_{23} = -\ln r_{13} = -\frac{1}{3}\ln(2.5213)$, i.e.:
-$$(r_{12}^*,\, r_{23}^*,\, r_{13}^*) = \big(2.5213^{-1/3},\, 2.5213^{-1/3},\, 2.5213^{+1/3}\big) = \mathbf{(0.7348,\, 0.7348,\, 1.3609)}.$$
+$$(r_{12}^*,\, r_{23}^*,\, r_{13}^*) = \big(2.5213^{-1/3},\, 2.5213^{-1/3},\, 2.5213^{+1/3}\big) = \mathbf{(0.7347,\, 0.7347,\, 1.3611)}.$$
 This explains analytically why `B1743`'s global free-$\mathbb{CP}^2$ optimizer landed on `(0.773, 0.775, 1.213)` and `P-377` landed on `(0.692, 0.761, 1.545)`.
 
 ---
 
 ## 4. Architectural & Numerical Defects Identified in `scripts/stepb/` and `cm_zero_line.py`
 
-1. **Defect 4A (`scripts/stepb/kten.py` lines 170–214): `six_mixture` selects a non-physical choice (`30900`), and `K_ten` ignores `m["choice"]` completely.**
-   - `six_mixture()` calls `windowed(..., physical=False)` and selects `jbest = m["choice"] = 30900` (`((2/5, 0), D2R, L_max, ('S~', 'S', 'S'))`), paying the $18.81$-bit discrete header `A_DISCRETE`. Because `D2R` (`d = 12`) is a purely real direction where $J = 0$ identically at every $\tau$, `physical_choice[30900]` is `False`!
+1. **Defect 4A (`scripts/stepb/kten.py` lines 170–214): `six_mixture` omits `physical=True`, and `K_ten` ignores `m["choice"] = 30900` completely.**
+   - `six_mixture()` calls `windowed(..., physical=False)` (omitting the `physical=True` filter that excludes the two null-quaternion directions `R` and `t=-5/288` where $\vec{a}\cdot\vec{a} \equiv 0$ and $J = 0$ across all $113,312$ rows each) and selects `jbest = m["choice"] = 30900` (`((2/5, 0), F_26, L_max, ('S~', 'S', 'S'))`), paying the $18.81$-bit discrete header `A_DISCRETE`.
    - Even worse, on lines 202–203, `K_ten()` never filters by `j == m["choice"]`! It sums `In` and `m["I"]` over all `29,063` rows across all `50,880` discrete choices simultaneously (`# (the six's window, every choice)`).
 
 2. **Defect 4B (`scripts/stepb/cells.py` lines 131–139): `physical_choice` checks only `F[:, 6:10]` (the 4 CKM columns) and misses the 48 order-12 lines with massless electrons.**

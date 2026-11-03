@@ -9,7 +9,7 @@
 
 ## 1. The Architectural Diagnosis: Why `origin-axiom` Spent 170 Arcs on a Frame Killed by a 10-Line Algebraic Theorem
 
-Across `B1656`–`B1825`, the programme generated `50,612,352` census rows (`29 GB` RAM, `999.3s` load time in `frontier/B1825_step_b_the_nine_from_one_address/verification/run.json`) scanning $266 \text{ lines} \times 13 \text{ directions} \times 2 \text{ radii} \times 8 \text{ readings} \times 9 \text{ values of } c \times 995\;\tau\text{-nodes}$ only to arrive at `in_support: false`, `least_chi2_ten: 291.409690`, `C_ten: -197.040229` bits.
+Across `B1656`–`B1825`, the programme generated `50,612,352` census rows (`29 GB` RAM, `999.3s` load time in `frontier/B1825_step_b_the_nine_from_one_address/verification/run.json`) scanning $266 \text{ lines} \times 13 \text{ directions} \times 2 \text{ radii} \times 8 \text{ readings} \times 9 \text{ values of } c \times 995\;\tau\text{-nodes}$ only to arrive at `in_support: false`, `least_chi2_ten: 291.409690`, `C_ten: -197.036560` bits.
 
 As proved in Theorem 2 (`relays/AGY_TO_CC_2026-11-02_FULL_AUDIT_BLIND_SPOTS_AND_REFRAMING.md` §3 and `src/origin_axiom/operator_gate.py`), **no point in `FR-FIB` could ever produce the Standard Model CKM matrix**, because `FR-FIB` restricted the Higgs quaternion $S(\vec{h})$ to 3D $\text{span}\{i, j, k\}$ ($a_0 \equiv 0$) while promoting twisted matter $M(u^{(s)})$ at $w \ne 0$ to 4D $\text{span}\{1, i, j, k\}$. That 3D-vs-4D mismatch gives:
 $$Y_s = \vec{h}\,\vec{m}_\perp^T + \vec{m}_\perp\,\vec{h}^T - (\vec{h}\cdot\vec{m}_\perp)I_3 - m_1^{(s)}[\vec{h}]_\times \quad \Longrightarrow \quad Y_s\vec{h} = Y_s^T\vec{h} = (\vec{h}\cdot\vec{h})\vec{m}_\perp^{(s)},$$

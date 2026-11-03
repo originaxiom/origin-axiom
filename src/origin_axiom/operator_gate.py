@@ -219,16 +219,28 @@ def m004_three_fold_cover_invariants() -> Dict[str, object]:
     monodromy = l_mat @ r_mat
     det_lr_minus_i = int(round(np.linalg.det(monodromy - np.eye(2))))
 
-    # Deck generator C_3 (cyclic shift of 3 sheets) and reflection P (sheet swap + sign)
+    # Deck generator C_3 (cyclic shift of 3 sheets), pure sheet swap P_perm (generating S_3, order 6,
+    # commutant dim = 2: H = a I_3 + b J_3, B1822 §3 Row 4), and quaternion-character-graded reflection
+    # P_refl = diag(1, -1, -1) P_perm (generating S_4 = (Z_2 x Z_2) x| S_3, order 24, commutant dim = 1:
+    # H = a I_3, B1822 §3 Row 6).
     c3 = np.array([[0, 1, 0], [0, 0, 1], [1, 0, 0]], dtype=float)
+    p_perm = np.array([[1, 0, 0], [0, 0, 1], [0, 1, 0]], dtype=float)
     p_refl = np.array([[1, 0, 0], [0, 0, -1], [0, -1, 0]], dtype=float)
-    # Solve [H, C_3] = 0 and [H, P] = 0 for symmetric 3x3 real matrices H
     basis_sym = []
     for i in range(3):
         for j in range(i, 3):
             m = np.zeros((3, 3), dtype=float)
             m[i, j] = m[j, i] = 1.0
             basis_sym.append(m)
+    a_mat_s3 = np.column_stack(
+        [
+            np.concatenate([(g.T @ b @ g - b).ravel() for g in (c3, p_perm)])
+            for b in basis_sym
+        ]
+    )
+    _, s_vals_s3, _ = np.linalg.svd(a_mat_s3)
+    deck_only_s3_dim = int(np.sum(s_vals_s3 < 1e-12))
+
     a_mat = np.column_stack(
         [
             np.concatenate([(g.T @ b @ g - b).ravel() for g in (c3, p_refl)])
@@ -246,6 +258,7 @@ def m004_three_fold_cover_invariants() -> Dict[str, object]:
         "monodromy_LR": monodromy.tolist(),
         "det_LR_minus_I": det_lr_minus_i,
         "torsion_lines_invariant_under_LR": 1,  # only (0, 0)
+        "deck_only_S3_commutant_dim_R": deck_only_s3_dim,
         "deck_commutant_dim_R": commutant_dim,
         "forces_H_proportional_to_I": bool(commutant_dim == 1),
         "alexander_at_omega_abs": alex_abs,

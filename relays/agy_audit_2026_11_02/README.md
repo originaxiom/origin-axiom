@@ -26,6 +26,9 @@ Self-contained verification scripts, JSON results, and stdout logs accompanying 
 5. **`verify_operator_gate_and_4d_higgs.py`** (`verify_operator_gate_and_4d_higgs_results.json`, `verify_operator_gate_and_4d_higgs_out.txt`)
    - Verifies the executed three-step elevation in `src/origin_axiom/` (`twisted_norms.py`, `operator_gate.py`, `stepb_audit.py`) and `tests/test_elevation_operator_gate.py`: runs `Gate 0` (`evaluate_operator_gate`) on `FR-FIB` (`0/4` clauses passed) vs `FR-COV` (`4/4` clauses passed) in $1.35\text{ ms}$, verifies the 4D quaternionic Yukawa identity $Y_s^{\text{4D}}$ to $9.93 \times 10^{-16}$, demonstrates how a single shared scalar quaternion component $a_0$ flips $|V_{ub}|/|V_{td}|$ from $11.28$ to $0.6778 < 1.0$ and raises $\sin\delta_{\text{CP}}$ from $0.0842$ to $0.6997$ on `B1825`'s exact best address, and benchmarks `closed_form_cA` ($48.5\times$ speedup over 3-sector 2D Gauss–Legendre quadrature).
 
+6. **`hostile_referee_audit.py`** (`hostile_referee_audit_results.json`)
+   - Independent zero-trust Hostile Referee verification script (`relays/AGY_TO_CC_2026-11-03_HOSTILE_REFEREE_AUDIT_REPORT.md`) that cross-checks all 24 claims across Areas 1–7 from scratch against the untouched `main`-branch files on fresh adversarial inputs.
+
 ## Reproduction
 
 From the repository root:
@@ -36,5 +39,6 @@ python3 relays/agy_audit_2026_11_02/verify_closed_form_c.py
 python3 relays/agy_audit_2026_11_02/verify_ckm_inversion.py
 python3 relays/agy_audit_2026_11_02/verify_stepb_and_census_audit.py
 python3 relays/agy_audit_2026_11_02/verify_operator_gate_and_4d_higgs.py
+python3 relays/agy_audit_2026_11_02/hostile_referee_audit.py
 pytest tests/test_elevation_operator_gate.py -v
 ```

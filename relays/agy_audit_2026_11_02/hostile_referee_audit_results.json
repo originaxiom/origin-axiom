@@ -1,0 +1,682 @@
+{
+  "audit_metadata": {
+    "role": "Hostile Referee (Zero-Trust Independent Verification)",
+    "branch_audited": "agy/audit-2026-11-02",
+    "runtime_seconds": 22.919202262997715
+  },
+  "area_1_b1825_readout_and_lagrange": {
+    "chi2_ten_fresh_run_json": 291.4866623550638,
+    "chi2_ten_fresh_recomputed": 291.4866623550638,
+    "abs_diff_fresh_recomputation": 0.0,
+    "chi2_six_recomputed": 63.644969919438694,
+    "chi2_Vub_recomputed": 158.81229232572585,
+    "chi2_J_recomputed": 51.372646035809865,
+    "fraction_Vub_plus_J_of_chi2_ten": 0.7210790938540668,
+    "prose_vs_run_json_discrepancies": {
+      "readout_least_chi2_nine": {
+        "run_json_exact": 82.6047634064222,
+        "agy_verify_json": 82.6047634064222,
+        "agy_relay_prose_line_22": 82.600158,
+        "diff_prose_vs_run_json": -0.004605406422200531
+      },
+      "L_six": {
+        "run_json_exact": 36.828958267893995,
+        "agy_relay_prose_line_23": 23.467113,
+        "diff_prose_vs_run_json": -13.361845267893994
+      },
+      "C_six": {
+        "run_json_exact": -3.079844503525365,
+        "agy_relay_prose_line_23": 9.162624,
+        "diff_prose_vs_run_json": 12.242468503525364,
+        "note": "In run.json, C_six is NEGATIVE (-3.079845 bits: the six do not compress), whereas relay line 23 printed +9.162624 bits!"
+      },
+      "bits_CKM": {
+        "run_json_exact": -193.95671509890448,
+        "agy_relay_prose_line_23": -206.202854,
+        "diff_prose_vs_run_json": -12.24613890109552
+      },
+      "C_ten": {
+        "run_json_exact": -197.03655960242986,
+        "agy_verify_json": -197.03655960242986,
+        "agy_relay_prose_line_23": -197.040229,
+        "diff_prose_vs_run_json": -0.003669397570149613
+      },
+      "min_chi2_six": {
+        "run_json_exact": 1.3582125046184093,
+        "agy_verify_json": 1.3582125046184093,
+        "agy_relay_prose_line_24": 1.358308,
+        "diff_prose_vs_run_json": 9.54953815908155e-05
+      }
+    },
+    "lagrange_compromise": {
+      "equal_weight_pdg_rounded": [
+        0.7347253585664997,
+        0.7347253585664997,
+        1.3610527911423524
+      ],
+      "equal_weight_T9_exact": [
+        0.7346559217515988,
+        0.7346559217515988,
+        1.3611814325483913
+      ],
+      "sigma_weighted_T9_exact": [
+        0.7414211158626591,
+        0.7337586280871866,
+        1.3720382563153877
+      ],
+      "relay_1_line_140_rounding_note": "Relay 1 line 140 wrote (0.7348, 0.7348, 1.3609), whereas 2.5213^(-1/3) = 0.734733 and 2.5213^(+1/3) = 1.361038 (corrected in operator_gate.py to (0.7347, 0.7347, 1.3611))."
+    }
+  },
+  "area_2_stepb_code_defects": {
+    "defect_4A_choice_30900_audit": {
+      "agy_KEPT_DIRECTIONS": [
+        "DR",
+        "a0",
+        "F_6",
+        "F_10",
+        "F_14",
+        "F_18",
+        "F_22",
+        "F_26",
+        "F_-6",
+        "F_-10",
+        "R",
+        "D2R"
+      ],
+      "true_cm_zero_line_KEPT_DIRECTIONS": [
+        "DR",
+        "a0",
+        "R",
+        "t=-5/288",
+        "F_-10",
+        "F_-6",
+        "F_6",
+        "F_10",
+        "F_14",
+        "F_18",
+        "F_22",
+        "F_26"
+      ],
+      "agy_decoded_direction_for_30900": "D2R",
+      "true_decoded_direction_for_30900": "F_26",
+      "true_d_column_value_in_census": 12,
+      "line_for_30900": [
+        "2/5",
+        "0"
+      ],
+      "radius_for_30900": "L_max",
+      "reading_for_30900": [
+        "S~",
+        "S",
+        "S"
+      ],
+      "sample_abs_J_on_true_choice_30900_F26": 0.0003127607527176595,
+      "is_choice_30900_actually_physical": true,
+      "referee_finding_on_30900": "REFUTED / BUG EXPOSED IN stepb_audit.py: agy hardcoded KEPT_DIRECTIONS as ('DR','a0','F_6','F_10','F_14','F_18','F_22','F_26','F_-6','F_-10','R','D2R'), putting 'D2R' at index 11. In reality, cm_zero_line.py line 37 defines DIRS = ['DR','a0','R','t=-5/288','F_-10','F_-6','F_-2','F_6','F_10','F_14','F_18','F_22','F_26'], and census_io.py drops index 6 ('F_-2'), so the 12th kept direction (d_pos=11, d=12) is 'F_26', NOT 'D2R'! On ((2/5, 0), F_26, L_max, ('S~', 'S', 'S')), |J| != 0 and physical_choice[30900] is True! However, the second half of Defect 4A IS VERIFIED: kten.py line 172 calls windowed(..., physical=False) and lines 202-203 ignore m['choice'] = 30900 when computing num and den of lp_post."
+    },
+    "two_dead_directions_in_census": {
+      "names": [
+        "R",
+        "t=-5/288"
+      ],
+      "R_dot_R_identically_zero": true,
+      "t_minus_5_288_dot_self_identically_zero": true,
+      "explanation": "Both R and t=-5/288 = D^2R - (5/288) E_4 R satisfy a(tau) . a(tau) == 0 identically! By Theorem 3 at a_0 = 0, det(Y_s) = (a.a) det(M) (a.m_perp) == 0, forcing m_1 = 0 in every sector and locking u_1^(u) = u_1^(d) = a_hat^*, which makes V_CKM block-diagonal 1 (+) U(2) and J == 0 identically."
+    },
+    "defect_4B_order12_massless_electrons": {
+      "order_12_lines": 48,
+      "order_12_total_choices": 9216,
+      "order_12_choices_in_physical_choice_40000": 7680,
+      "fraction_of_40000": 0.192,
+      "parameter_ledger_line_145_note": "VERIFIED that 48 * 10 * 2 * 8 = 7,680 massless-electron choices (19.2% of 40,000) enter physical_choice. Note: parameter_ledger.py line 145 and ELEVATION_PLAN line 112 also cite '36/5832', which comes from an older 5,832-row sub-table (e.g. B1726/B1741) rather than B1825's 50,880-choice census."
+    }
+  },
+  "area_3_theorem_1_twisted_norms": {
+    "max_abs_err_vs_cA_on_10_adversarial_cases": 2.8421709430404007e-12,
+    "max_sector_spread_on_10_adversarial_cases": 5.4569682106375694e-12,
+    "route_B_cB_comparison": {
+      "1": {
+        "closed_form": 1.8021715862049295,
+        "cB_mpmath_quad": 1.8021715819792385,
+        "abs_diff": 4.225690908299384e-09
+      },
+      "i": {
+        "closed_form": 11.011257406395087,
+        "cB_mpmath_quad": 11.011257398580124,
+        "abs_diff": 7.814962899033162e-09
+      },
+      "j": {
+        "closed_form": -1.5395209575933004,
+        "cB_mpmath_quad": -1.539520947764773,
+        "abs_diff": 9.828527325339564e-09
+      },
+      "k": {
+        "closed_form": -0.07834365328521983,
+        "cB_mpmath_quad": -0.07834364887056032,
+        "abs_diff": 4.41465951295239e-09
+      }
+    },
+    "adversarial_quadrature_cases": [
+      {
+        "label": "random_1_ord11",
+        "tau": [
+          0.314159,
+          1.414213
+        ],
+        "alpha": "3/11",
+        "b": "7/11",
+        "channels": {
+          "1": {
+            "closed_form": 14.203660922599113,
+            "quad_ref": 14.203660922598411,
+            "abs_diff": 7.016609515630989e-13
+          },
+          "i": {
+            "closed_form": 0.3332579883857012,
+            "quad_ref": 0.3332579883850859,
+            "abs_diff": 6.152856002472618e-13
+          },
+          "j": {
+            "closed_form": -0.45040082833713196,
+            "quad_ref": -0.4504008283365079,
+            "abs_diff": 6.240563621418005e-13
+          },
+          "k": {
+            "closed_form": -1.3222304570094678,
+            "quad_ref": -1.3222304570090964,
+            "abs_diff": 3.714806240395774e-13
+          }
+        }
+      },
+      {
+        "label": "random_2_ord9",
+        "tau": [
+          -0.271828,
+          2.15
+        ],
+        "alpha": "2/9",
+        "b": "5/9",
+        "channels": {
+          "1": {
+            "closed_form": -1.3769406762771828,
+            "quad_ref": -1.376940676277346,
+            "abs_diff": 1.63202784619898e-13
+          },
+          "i": {
+            "closed_form": -1.0074816001026534,
+            "quad_ref": -1.0074816001028082,
+            "abs_diff": 1.5476508963274682e-13
+          },
+          "j": {
+            "closed_form": 6.237981170892252,
+            "quad_ref": 6.237981170893551,
+            "abs_diff": 1.2994050280212832e-12
+          },
+          "k": {
+            "closed_form": 8.05936712280767,
+            "quad_ref": 8.059367122809002,
+            "abs_diff": 1.3322676295501878e-12
+          }
+        }
+      },
+      {
+        "label": "random_3_ord8_neg_re",
+        "tau": [
+          -0.41,
+          1.62
+        ],
+        "alpha": "1/8",
+        "b": "5/8",
+        "channels": {
+          "1": {
+            "closed_form": -1.601222798750564,
+            "quad_ref": -1.6012227987500813,
+            "abs_diff": 4.827249711070181e-13
+          },
+          "i": {
+            "closed_form": -2.3010300325985593,
+            "quad_ref": -2.301030032598097,
+            "abs_diff": 4.622968674539152e-13
+          },
+          "j": {
+            "closed_form": 16.54168395059137,
+            "quad_ref": 16.54168395059125,
+            "abs_diff": 1.2079226507921703e-13
+          },
+          "k": {
+            "closed_form": 5.998921658840684,
+            "quad_ref": 5.998921658841232,
+            "abs_diff": 5.480060849549773e-13
+          }
+        }
+      },
+      {
+        "label": "boundary_alpha_0_ord5",
+        "tau": [
+          0.19,
+          1.75
+        ],
+        "alpha": "0",
+        "b": "2/5",
+        "channels": {
+          "1": {
+            "closed_form": 38.444291652878654,
+            "quad_ref": 38.4442916528789,
+            "abs_diff": 2.4868995751603507e-13
+          },
+          "i": {
+            "closed_form": 14.841227821185297,
+            "quad_ref": 14.84122782118572,
+            "abs_diff": 4.227729277772596e-13
+          },
+          "j": {
+            "closed_form": -2.8111936922220218,
+            "quad_ref": -2.811193692221562,
+            "abs_diff": 4.596323321948148e-13
+          },
+          "k": {
+            "closed_form": -2.8638130823961006,
+            "quad_ref": -2.8638130823955983,
+            "abs_diff": 5.022648963404208e-13
+          }
+        }
+      },
+      {
+        "label": "boundary_alpha_1_3_nu0",
+        "tau": [
+          0.23,
+          1.95
+        ],
+        "alpha": "1/3",
+        "b": "1/7",
+        "channels": {
+          "1": {
+            "closed_form": 8.700607466334372,
+            "quad_ref": 8.700607466334043,
+            "abs_diff": 3.2862601528904634e-13
+          },
+          "i": {
+            "closed_form": 377.1326555948826,
+            "quad_ref": 377.1326555948813,
+            "abs_diff": 1.2505552149377763e-12
+          },
+          "j": {
+            "closed_form": -2.874482669286698,
+            "quad_ref": -2.8744826692860794,
+            "abs_diff": 6.186162693211372e-13
+          },
+          "k": {
+            "closed_form": -2.80025421400608,
+            "quad_ref": -2.800254214005546,
+            "abs_diff": 5.342393194496253e-13
+          }
+        }
+      },
+      {
+        "label": "boundary_alpha_1_6_nuj0",
+        "tau": [
+          0.11,
+          1.55
+        ],
+        "alpha": "1/6",
+        "b": "1/5",
+        "channels": {
+          "1": {
+            "closed_form": -2.983900173466956,
+            "quad_ref": -2.983900173465934,
+            "abs_diff": 1.0222933610748441e-12
+          },
+          "i": {
+            "closed_form": -2.6901500416933577,
+            "quad_ref": -2.6901500416923656,
+            "abs_diff": 9.920952948050399e-13
+          },
+          "j": {
+            "closed_form": 5.364743801999765,
+            "quad_ref": 5.364743802000274,
+            "abs_diff": 5.089262344881718e-13
+          },
+          "k": {
+            "closed_form": 148.65429016906327,
+            "quad_ref": 148.65429016906043,
+            "abs_diff": 2.8421709430404007e-12
+          }
+        }
+      },
+      {
+        "label": "boundary_alpha_1_2",
+        "tau": [
+          0.29,
+          1.85
+        ],
+        "alpha": "1/2",
+        "b": "1/3",
+        "channels": {
+          "1": {
+            "closed_form": -2.791351849164192,
+            "quad_ref": -2.791351849164201,
+            "abs_diff": 8.881784197001252e-15
+          },
+          "i": {
+            "closed_form": -2.883515667690296,
+            "quad_ref": -2.883515667690304,
+            "abs_diff": 7.993605777301127e-15
+          },
+          "j": {
+            "closed_form": null,
+            "quad_down": null
+          },
+          "k": {
+            "closed_form": 6.7110739304148215,
+            "quad_ref": 6.711073930414344,
+            "abs_diff": 4.778399897986674e-13
+          }
+        }
+      },
+      {
+        "label": "adversarial_alpha_gt_half_5_8",
+        "tau": [
+          0.14,
+          1.92
+        ],
+        "alpha": "5/8",
+        "b": "3/8",
+        "channels": {
+          "1": {
+            "closed_form": 19.524504466211727,
+            "quad_ref": 19.524504466211496,
+            "abs_diff": 2.3092638912203256e-13
+          },
+          "i": {
+            "closed_form": 6.599391377708398,
+            "quad_ref": 6.599391377708207,
+            "abs_diff": 1.9095836023552692e-13
+          },
+          "j": {
+            "closed_form": -1.7930491937770419,
+            "quad_ref": -1.7930491937759854,
+            "abs_diff": 1.056488230233299e-12
+          },
+          "k": {
+            "closed_form": -2.1219651824502987,
+            "quad_ref": -2.121965182449482,
+            "abs_diff": 8.166800569142652e-13
+          }
+        }
+      },
+      {
+        "label": "adversarial_alpha_gt_half_7_9",
+        "tau": [
+          0.37,
+          2.05
+        ],
+        "alpha": "7/9",
+        "b": "2/9",
+        "channels": {
+          "1": {
+            "closed_form": -1.4370105643275732,
+            "quad_ref": -1.4370105643274984,
+            "abs_diff": 7.482903185973555e-14
+          },
+          "i": {
+            "closed_form": -0.944064788686662,
+            "quad_ref": -0.944064788686553,
+            "abs_diff": 1.0902390101819037e-13
+          },
+          "j": {
+            "closed_form": 6.452234379827102,
+            "quad_ref": 6.452234379828957,
+            "abs_diff": 1.8554047187535616e-12
+          },
+          "k": {
+            "closed_form": 7.601487438305657,
+            "quad_ref": 7.601487438306225,
+            "abs_diff": 5.6754601018838e-13
+          }
+        }
+      },
+      {
+        "label": "degenerate_R_i_zero_on_1_3_1_6",
+        "tau": [
+          0.21,
+          1.8
+        ],
+        "alpha": "1/3",
+        "b": "1/6",
+        "channels": {
+          "1": {
+            "closed_form": 6.21752744862208,
+            "quad_ref": 6.217527448622306,
+            "abs_diff": 2.255973186038318e-13
+          },
+          "i": {
+            "closed_form": null,
+            "quad_down": null
+          },
+          "j": {
+            "closed_form": -2.906815057401495,
+            "quad_ref": -2.9068150574034064,
+            "abs_diff": 1.9113599591946695e-12
+          },
+          "k": {
+            "closed_form": -2.767787417127653,
+            "quad_ref": -2.767787417128716,
+            "abs_diff": 1.0627054791711998e-12
+          }
+        }
+      }
+    ],
+    "exposed_caveats_on_decay_exponents": {
+      "caveat_3A_integer_twist_identical_vanishing_at_cos6pib_eq_0": {
+        "alpha": "1/3",
+        "b": "1/12",
+        "predicted_by_channel_pair_decay_exponents": 0.0,
+        "abs_c1_minus_ci_at_0p17_plus_2j": 0.0,
+        "abs_c1_minus_ci_at_0p41_plus_3j": 0.0,
+        "explanation": "At alpha = 1/3 (nu_1 = nu_i = 0), generically c_1 - c_i grows linearly with Im(tau) (E = 0), except when cos(6*pi*b) = 0 (6*b in Z + 1/2, e.g. b = 1/12, 1/4), where flipping eta -> -eta swaps wp <-> wm for every n >= 1 and preserves |1 + eta*e^(-6*pi*i*b)|^2 = 2, forcing c_1(tau) - c_i(tau) == 0 identically for ALL tau in H."
+      },
+      "caveat_3B_nodal_phase_slice_jumps_from_nu_over_2_to_1_minus_nu_over_2": {
+        "alpha": "2/5",
+        "b_exact_zero_at_Re0": "1/12",
+        "c1_minus_ci_at_Re0_b_1_12": 0.0,
+        "Re_tau_for_branch_kill": 0.35,
+        "b_for_branch_kill": "-3/50",
+        "generic_E_c1_minus_ci": 0.1,
+        "actual_measured_E_on_nodal_slice": 0.3996791991845791,
+        "explanation": "At Re(tau) in (1/2)Z and nu*Re(tau) - 3*b in (1/2)Z + 1/4 (e.g. Re(tau)=0, b=1/12 or Re(tau)=1/2, b=-1/20), both wp and wm are purely imaginary for all n, so c_1 - c_i == 0 IDENTICALLY for all Im(tau) > 0! At generic Re(tau) not in (1/2)Z with nu*Re(tau) - 3*b in (1/2)Z + 1/4 (e.g. Re(tau)=0.35, b=-3/50 for alpha=2/5), the entire n=0, nu=1/5 branch is purely imaginary on odd powers, so the decay exponent jumps from E = nu/2 = 0.10 to E' = (1 - nu)/2 = 0.40."
+      }
+    }
+  },
+  "area_4_and_5_theorems_2_3_4": {
+    "theorem2_and_3_200_random_trials": {
+      "max_4d_yukawa_abs_err": 2.6645352591003757e-15,
+      "max_yh_identity_abs_err": 8.881784197001252e-15,
+      "max_det_factorization_rel_err": 7.507539117128448e-15
+    },
+    "theorem2_all_4_quark_reading_pairs_at_b1825": {
+      "pairs": {
+        "SS": {
+          "V_ud": 0.08241742194580817,
+          "V_us": 0.9888110561197627,
+          "V_cb": 0.008722012587153185,
+          "V_ub": 0.12433850511859518,
+          "V_td": 0.016795047311513114,
+          "Vub_over_Vtd": 7.403284004645841,
+          "sin_delta_CP": 0.47403242439265075
+        },
+        "S~S~": {
+          "V_ud": 0.9791351006251181,
+          "V_us": 0.20275182812500575,
+          "V_cb": 0.06330137129794686,
+          "V_ub": 0.013643713417090393,
+          "V_td": 0.0012095795912530254,
+          "Vub_over_Vtd": 11.279715295920811,
+          "sin_delta_CP": 0.08424385383205917
+        },
+        "S~S": {
+          "V_ud": 0.09918434910932628,
+          "V_us": 0.9944304573671152,
+          "V_cb": 0.9890048752244529,
+          "V_ub": 0.03564449960918518,
+          "V_td": 0.9844621054336851,
+          "Vub_over_Vtd": 0.03620708142288799,
+          "sin_delta_CP": 0.7571502273445622
+        },
+        "SS~": {
+          "V_ud": 0.958951461457565,
+          "V_us": 0.2821863362959424,
+          "V_cb": 0.9950863851174866,
+          "V_ub": 0.027981532772064173,
+          "V_td": 0.27893700832814133,
+          "Vub_over_Vtd": 0.10031488091084247,
+          "sin_delta_CP": 0.5521846747047875
+        }
+      },
+      "referee_finding": "Theorem 2's proof in AGY_TO_CC_2026-11-02_FULL_AUDIT_BLIND_SPOTS_AND_REFRAMING.md \u00a73.2 assumes up and down share the same Higgs vector h_u = h_d (readings SS and S~S~, where |V_ud| ~ 0.979 and |V_ub|/|V_td| = 11.28). For mixed readings (S~S and SS~, where h_d = h_u^*), on the null cone h.h -> 0, u_1^(u) -> h_u^* and u_1^(d) -> h_u are nearly ORTHOGONAL (<h_u^*, h_u> = (h.h)/||h||^2 = r << 1), which catastrophically collapses |V_ud| to 0.0175 and sends |V_us| to 0.9997! Thus all 8 readings fail at a_0 = 0."
+    },
+    "theorem4_exact_qseries_and_random_tau": {
+      "exact_qseries_DR_dot_DR_minus_quarter_eta6_ord": null,
+      "exact_qseries_DR_dot_DR_plus_R_dot_D2R_ord": null,
+      "identically_zero_through_x240": true,
+      "max_numerical_rel_err_20_random_tau": 1.1125612692990765e-13
+    }
+  },
+  "area_6_m004_cover_commutant": {
+    "pure_S3_sheet_permutation_C3_and_P_perm": {
+      "group_order": 6,
+      "dim_R_symmetric_commutant": 2,
+      "dim_R_hermitian_commutant": 2,
+      "general_invariant_metric": "H = a I_3 + b J_3 (2 real parameters: allows democratic mixing b != 0, matching B1822 \u00a73 Row 4!)"
+    },
+    "C3_alone_cyclic_deck_group": {
+      "group_order": 3,
+      "dim_R_symmetric_commutant": 2,
+      "dim_R_hermitian_commutant": 3
+    },
+    "agy_operator_gate_C3_and_P_refl_with_minus_signs": {
+      "group_order": 24,
+      "dim_R_symmetric_commutant": 1,
+      "dim_R_hermitian_commutant": 1,
+      "referee_finding": "CAVEAT / OVERSTATEMENT EXPOSED: In operator_gate.py lines 223-224 and parameter_ledger.py line 9, agy claims the 3-fold cover deck group S_3 = Z_3 x| Z_2 has a 1D symmetric commutant (dim_R = 1). In fact, the pure 3-sheet permutation action of S_3 (C_3 and P_perm = [[1,0,0],[0,0,1],[0,1,0]], group order 6) splits R^3 = 1 (+) 2_E and has a 2-DIMENSIONAL commutant H = a I_3 + b J_3 (allowing democratic mixing, as B1822 \u00a73 Row 4 proved). operator_gate.py got commutant_dim = 1 only because p_refl = [[1,0,0],[0,0,-1],[0,-1,0]] multiplies P_perm by diag(1,-1,-1) (a Z_2 x Z_2 quaternion character sign flip on BLOCKS = [QJ, QI, QK]), generating the 24-element octahedral group S_4 = (Z_2 x Z_2) x| S_3 (which corresponds to B1822 \u00a73 Row 6: 'characters plus the order-3 automorphism | 1', NOT the bare sheet-permutation group S_3 alone)."
+    }
+  },
+  "area_7_fr_cov_chi2_and_parameter_ledger": {
+    "b1825_address_full_chi2_ten_comparison": {
+      "FR_FIB_a0_eq_0_S_tilde_S_tilde_S": {
+        "chi2_ten": 291.4866623551962,
+        "chi2_six": 63.644969919569874,
+        "chi2_ckm4": 227.84169243562633,
+        "V_us": 0.20275182812500575,
+        "V_cb": 0.06330137129794686,
+        "V_ub": 0.013643713417090393,
+        "V_td": 0.0012095795912530254,
+        "Vub_over_Vtd": 11.279715295920811,
+        "sin_delta_CP": 0.08424385383205917,
+        "abs_J": 1.4413875540421277e-05,
+        "mc_over_mt": 0.004553287810439156,
+        "ms_over_mb": 0.027399284053615167,
+        "per_observable_chi2": {
+          "c/t": 4.15827976751842,
+          "u/t": 33.72589262019538,
+          "s/b": 8.231254840888214,
+          "d/b": 3.247636572324345,
+          "mu/tau": 13.835903246259749,
+          "e/tau": 0.44600287238376435,
+          "|V_us|": 1.0839850536527915,
+          "|V_cb|": 16.57276902043717,
+          "|V_ub|": 158.8122923257239,
+          "|J|": 51.37264603581246
+        }
+      },
+      "FR_COV_witness_a0_0p20_exp_7pi8_on_S_tilde_S_tilde_S": {
+        "chi2_ten": 2029.2359474893804,
+        "chi2_six": 1820.493824944258,
+        "chi2_ckm4": 208.74212254512247,
+        "V_us": 0.11157818266866834,
+        "V_cb": 0.06103911765897655,
+        "V_ub": 0.01148378036364737,
+        "V_td": 0.016941768186514373,
+        "Vub_over_Vtd": 0.6778383600354327,
+        "sin_delta_CP": 0.6997107482496434,
+        "abs_J": 5.427536320718492e-05,
+        "mc_over_mt": 0.03816444825297395,
+        "ms_over_mb": 0.06673204028665089,
+        "per_observable_chi2": {
+          "c/t": 507.33170104564357,
+          "u/t": 211.10818257117316,
+          "s/b": 91.74053939592406,
+          "d/b": 268.05410583449975,
+          "mu/tau": 104.76599858607365,
+          "e/tau": 637.4932975109436,
+          "|V_us|": 49.15401249703362,
+          "|V_cb|": 13.789098419169722,
+          "|V_ub|": 119.39216983724745,
+          "|J|": 26.40684179167169
+        }
+      },
+      "FR_COV_witness_a0_0p20_exp_7pi8_on_claimed_reading_S_tilde_S_S": {
+        "chi2_ten": 6571.364693984465,
+        "chi2_six": 2059.664328274936,
+        "chi2_ckm4": 4511.700365709528,
+        "V_us": 0.4266647592591593,
+        "V_cb": 0.9512688449754279,
+        "V_ub": 0.11627760169713483,
+        "V_td": 0.3856753260678408,
+        "Vub_over_Vtd": 0.30149090138237533,
+        "sin_delta_CP": 0.47656970063742093,
+        "abs_J": 0.0061876794325067715,
+        "mc_over_mt": 0.03816444825297395,
+        "ms_over_mb": 0.0791042436779109,
+        "per_observable_chi2": {
+          "c/t": 507.33170104564357,
+          "u/t": 211.10818257117316,
+          "s/b": 117.93991522560779,
+          "d/b": 481.025233335494,
+          "mu/tau": 104.76599858607365,
+          "e/tau": 637.4932975109436,
+          "|V_us|": 40.903924788936116,
+          "|V_cb|": 942.4370785367739,
+          "|V_ub|": 1117.695212441723,
+          "|J|": 2410.6641499420957
+        }
+      },
+      "FR_COV_canonical_a0_half_eta3_on_S_tilde_S_tilde_S": {
+        "a0_half_eta3_abs": 0.05800865328948898,
+        "chi2_ten": 510.9035515873181,
+        "chi2_six": 226.10196017300038,
+        "chi2_ckm4": 284.80159141431767,
+        "V_us": 0.27208157963285673,
+        "V_cb": 0.06047281672986919,
+        "V_ub": 0.01981983700137704,
+        "V_td": 0.0034052051508281812,
+        "Vub_over_Vtd": 5.82045313673881,
+        "sin_delta_CP": 0.12554913076610436,
+        "abs_J": 3.9310247061926555e-05,
+        "mc_over_mt": 0.007871737616369662,
+        "ms_over_mb": 0.028029644667534624,
+        "per_observable_chi2": {
+          "c/t": 53.49085656057151,
+          "u/t": 76.10972393257312,
+          "s/b": 9.244331738658035,
+          "d/b": 30.044225859902788,
+          "mu/tau": 23.60603186848772,
+          "e/tau": 33.6067902128072,
+          "|V_us|": 3.6050774911452668,
+          "|V_cb|": 13.117267675650234,
+          "|V_ub|": 263.4796621358447,
+          "|J|": 4.599584111677499
+        }
+      },
+      "referee_finding_on_FR_COV_witness": "CRITICAL CAVEAT EXPOSED: At B1825's best address ((3/8,3/8), DR, L_2, S~S~S, tau=0.0934+2.7426j), plugging in the hand-picked complex witness a_0 = 0.20*exp(7j*pi/8) flips |V_ub|/|V_td| to 0.6778 and raises sin(delta_CP) to 0.6997, BUT it drives m_c/m_t from 0.00455 to 0.03816 (chi2_{c/t} = 507.33) and collapses |V_us| from 0.2028 to 0.11158 (chi2_{|V_us|} = 49.15), increasing the total 10-observable chi2_ten from 291.49 to 2029.24! Furthermore, Theorem 4's parameter-free scalar a_0 = (1/2)eta(tau)^3 has modulus 5.801e-02 at Im(tau)=2.7426 (3.45x smaller than 0.20), which leaves |V_ub|/|V_td| = 5.8205 and chi2_ten = 510.90. Thus evaluate_operator_gate('FR-COV') is an algebraic existence proof that a_0 != 0 unlocks the CKM corner inversion, NOT a completed 10-observable SM fit (scoreboard rightly remains 0 of 19)."
+    },
+    "torsion_locus_compatibility_check": {
+      "t_orbits_in_non_zero_fixed_k3": 5,
+      "fr_cov_total_discrete_choices_in_code": 6,
+      "comment_vs_code_note": "parameter_ledger.py line 82 comment says '4 + 1 = 5 orbits', whereas line 62 computes t_orbits_in_non_zero_fixed_k3 = 5 and line 87 computes 5 + 1 = 6 orbits.",
+      "b1825_best_line_3_8_3_8_in_Fix_LR3": false,
+      "b1726_best_line_2_5_1_10_in_Fix_LR3": false,
+      "golden_eigen_line_2_5_1_5_in_Fix_LR3_projective": true,
+      "referee_finding_on_torsion_lines": "CAVEAT EXPOSED: ker((LR)^3 - I) = (Z/4Z)^2 contains only lines of orders 1, 2, 4 (plus the projective order-5 eigen-orbit (2/5, 1/5) where (LR)^3 = -I mod 5). Neither B1825's best line (3/8, 3/8) (order 8) nor B1726's best line (2/5, 1/10) (order 10) lies in Fix((LR)^3). Moving to FR-COV's cover-compatible torsion locus therefore requires a fresh scan over the 6 cover-compatible orbits."
+    }
+  }
+}
