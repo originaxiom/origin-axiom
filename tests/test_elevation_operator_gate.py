@@ -784,6 +784,69 @@ def test_five_phase_master_toe_closure():
     assert pd18["order_on_chiral_spinor_16_plus_and_minus"] == 32
     assert float(pd18["spinor_16_fourth_power_central_signs_err"]) < 1e-14
 
+    # Theorem 19: P-524 Elliptic Periodicity & bx+by Lemma, P-384 Order-5 Uniqueness & 2/5 Sign Selection, P-233 Control
+    t19 = sc["theorem19_p524_elliptic_periodicity_p384_order5_uniqueness_and_p233_hypercharge_forcing"]
+    assert "B1728_the_lines_order_as_a_quotient_of_hypercharge" in t19["seen_first"]
+    assert "FORCED" in t19["claim_labels_and_scopes"]["p524_elliptic_periodicity_and_bx_plus_by_lemma"]
+    assert "FORCED" in t19["claim_labels_and_scopes"]["p384_order5_uniqueness_and_2_5_sign_selection"]
+    assert "FORCED" in t19["claim_labels_and_scopes"]["p233_hypercharge_forcing_t_y18_two_orbits_deflation_p"]
+
+    pa19 = t19["part_A_p524_elliptic_periodicity_and_bx_plus_by_lemma"]
+    assert float(pa19["theta_char_period_shift_err"]) < 1e-13
+    assert float(pa19["theta1_period_shift_err"]) < 1e-13
+    assert float(pa19["max_p524_normalized_kernel_diff_at_fixed_bx_plus_by"]) < 1e-11
+
+    pb19 = t19["part_B_p384_order5_uniqueness_and_alpha_2_5_sign_selection"]
+    assert pb19["coprime6_su5_slopes_in_2_to_12"] == ["1/5", "2/5"]
+    assert pb19["alpha_1_5_Delta_E_up"] == "1/20"
+    assert pb19["alpha_1_5_Delta_E_down"] == "1/20"
+    assert pb19["alpha_1_5_Delta_E_bt"] == "-3/100"
+    assert pb19["alpha_2_5_Delta_E_up"] == "3/20"
+    assert pb19["alpha_2_5_Delta_E_down"] == "1/20"
+    assert pb19["alpha_2_5_Delta_E_bt"] == "3/100"
+    assert pb19["unique_slope_with_Delta_E_up_gt_down_and_Delta_E_bt_gt_0"] == "2/5"
+
+    pc19 = t19["part_C_p233_independent_hypercharge_forcing_control"]
+    assert pc19["trinification_27_class_count"] == 15
+    assert pc19["assignments_searched_5_to_4"] == 625
+    assert pc19["t_y18_exact_solving_directions_count"] == 18
+    assert pc19["color_commuting_pure_solutions_count"] == 0
+    assert pc19["t_seven_not_eight_projected_class_counts"] == [7, 7]
+    assert pc19["t_seven_not_eight_projected_max_multiplicities"] == [9, 9]
+    assert pc19["t_two_orbits_weyl_orbit_sizes"] == [9, 9]
+    assert pc19["t_deflation_p_plain_swap_fuses_orbits"] is False
+    assert pc19["t_deflation_p_mirror_neg_blockswap_fuses_orbits"] is True
+    assert pc19["derived_6Y_sector_pairs_up_down_lepton"] == [(1, -4), (1, 2), (-3, 6)]
+
+    # Theorem 20: P-355/P-446 4D Adjugate Order-10 Unification & Det-1 Shift, B1742 tan(beta) & 90149211e F2 Transport
+    t20 = sc["theorem20_p355_double_ratio_mechanisms_b1742_tan_beta_and_90149211e_f2_transport"]
+    assert "B1827_two_readings_one_dictionary" in t20["seen_first"]
+    assert "FORCED" in t20["claim_labels_and_scopes"]["order10_4d_adjugate_preserves_b_tau_unification"]
+    assert "FORCED" in t20["claim_labels_and_scopes"]["f2_kernel_retention_and_all_word_intertwiner"]
+
+    pa20 = t20["part_A_p355_4d_adjugate_order5_vs_order10_and_det1_shift"]
+    assert float(pa20["order5_4d_S_ytau_over_yb_max_dev_from_1"]) > 0.03
+    assert float(pa20["order10_4d_S_ytau_over_yb_max_dev_from_1"]) < 2e-7
+    assert abs(float(pa20["order10_4d_S_D_c3_min"]) - 9.0) < 2e-4
+    assert abs(float(pa20["order10_4d_S_D_c3_max"]) - 9.0) < 2e-4
+    assert abs(float(pa20["det1_effective_clebsch_sqrt_10p58"]) - 3.2526911934581184) < 1e-12
+    assert abs(float(pa20["det1_rel_shift_from_integer_3"]) - 0.0842303978193728) < 1e-12
+
+    pb20 = t20["part_B_b1742_two_higgs_tan_beta_and_quadratic_hypercharge"]
+    assert 35.0 < float(pb20["required_tan_beta_min_at_1e6_GeV"]) < 36.0
+    assert 40.0 < float(pb20["required_tan_beta_max_at_MGUT"]) < 41.0
+    assert pb20["Q2_up_qL2_plus_qR2"] == 17.0
+    assert pb20["Q2_down_qL2_plus_qR2"] == 5.0
+    assert pb20["Q2_lepton_qL2_plus_qR2"] == 45.0
+    assert abs(float(pb20["ratio_Q2_lepton_over_Q2_down"]) - 9.0) < 1e-14
+
+    pc20 = t20["part_C_90149211e_f2_kernel_retention_and_all_word_intertwiner"]
+    assert pc20["f2_words_tested_up_to_length_3"] == 84
+    assert float(pc20["max_all_word_12x12_intertwiner_err"]) < 1e-14
+    assert float(pc20["max_composition_homomorphism_err"]) < 1e-14
+    assert pc20["e8_sector_orders_A3_D5_vec10_spin16"] == [1, 8, 16, 32]
+
+
 
 
 

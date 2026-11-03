@@ -241,6 +241,39 @@ We fetched `origin/main` through `S294` (`c004f8235`) and locked the independent
      - Vector product $(\mathbf{10}, \mathbf{6})$: order **16** ($\cong \mathbb{Z}_4 \rtimes \mathbb{Z}_4$, center $\{\pm I_{10}, \pm Z_{135}\} \cong \mathbb{Z}_2 \times \mathbb{Z}_2$),
      - Chiral spinor products $(\mathbf{16}_+, \mathbf{4})$ and $(\mathbf{16}_-, \bar{\mathbf{4}})$: order **32**, with $(\hat{K}_{F_i}^{\text{comp}})^4 = (\hat{K}_{F_j}^{\text{comp}})^4 = -I_{16}$ (from half-integer $\hat{N}_{10}$ weights $p - 5/2$) and $(\hat{K}_{F_k}^{\text{comp}})^4 = +I_{16}$ (from even-integer $\widehat{H_+ - H_-}$ spinor weights, `err < 1e-15`).
 
+---
+
+## 7. Update (Theorems 19 & 20): `P-524` Elliptic Periodicity, `P-384` Order-5 & $\alpha = 2/5$ Sign Selection, `P-233` Hypercharge Control, `P-355` 4D Order-10 Unification, and `90149211e` Step 2.3–2.5 $F_2$ Transport
+
+In **`Theorem 19`** (`theorem19_p524_elliptic_periodicity_p384_order5_uniqueness_and_p233_hypercharge_forcing`) and **`Theorem 20`** (`theorem20_p355_double_ratio_mechanisms_b1742_tan_beta_and_90149211e_f2_transport`), we closed the next three open `POINT_REGISTER.md` derivations (`P-524`, `P-384`, `P-233`), discovered the exact 4D `(-adj S, S, S)` order-10 $b$-$\tau$ unification theorem (`P-355`/`P-446`/`B1742`), and completed Step 2.3–2.5 of `90149211e`'s work order:
+
+1. **`Theorem 19` Part A (`P-524` Elliptic Quasi-Periodicity & $b_x + b_y$ Lemma, `FORCED`):**
+   - Under $u \mapsto u + \tau$, `_theta_char(a, b, u + tau, 2*tau)` $= e^{-i\pi\tau/2 - i\pi(u + b)}$ `_theta_char(a + 1/2, b, u, 2*tau)` (`err < 1e-13`) swaps the half-integer characteristics $a \leftrightarrow a + 1/2$ while multiplying by $e^{-i\pi b}$, and `_theta1(u + tau, tau)` $= -e^{-i\pi\tau - 2i\pi u}$ `_theta1(u, tau)` (`err < 1e-13`).
+   - Consequently, the bilinear numerator in `m_bil(u)` is multiplied by a common scalar factor under both lattice shifts $(u_x, u_y) \mapsto (u_x + \tau, u_y)$ and $(u_x, u_y) \mapsto (u_x, u_y + \tau)$ **if and only if** the 4 half-characteristic blocks carry the relative phase weights $(1, e^{i\pi b_y}, e^{i\pi b_x}, e^{i\pi(b_x + b_y)})$ (`err = 3.2e-16` with phases vs `failure > 1.89` when phases are set to `1`).
+   - Furthermore, every residue-normalized channel kernel $\hat{P}_s(u) = P_s(u) / R_s$ depends on $(b_x, b_y)$ **exclusively** through the sum $b_x + b_y = -2(q_L + q_R)p_2$ (`max_diff = 1.6e-15` at fixed $b_x + b_y$ vs `> 0.37` at shifted $b_x + b_y$).
+
+2. **`Theorem 19` Part B (`P-384` Order-5 Uniqueness & Parameter-Free Qualitative Sign Selection of $\alpha = 2/5$ Over $\alpha = 1/5$, `FORCED`):**
+   - Across all 18 reduced denominators $2 \le N \le 12$ ($0 < \alpha = p/N < 1/2$, $\gcd(N, 6) = 1$), $\alpha \in \{1/5, 2/5\}$ ($N = 5$) are the **unique** slopes where $R_1^{(1,-4)}(\alpha\tau) = 0$ and $Y_e(0, \vec{h}) = \lambda Y_d(0, \vec{h})^T$.
+   - Between the two $N = 5$ slopes $\alpha = 1/5$ and $\alpha = 2/5$, evaluating the exact `Theorem 18` rational theta-exponent formulas shows that at $\alpha = 1/5$:
+     $$\Delta E_{\text{up}}(1/5) = \frac{1}{20} = \Delta E_{\text{down}}(1/5) = \frac{1}{20} \quad\left(\frac{\Delta E_{\text{up}}}{\Delta E_{\text{down}}} = 1\right), \qquad \Delta E_{b/t}(1/5) = -\frac{3}{100} < 0.$$
+     That is, $\alpha = 1/5$ fails $\Delta E_{\text{up}} > \Delta E_{\text{down}}$ (giving equal up/down family hierarchy slopes instead of the 3:1 up/down ratio on $\alpha = 2/5$) **and** inverts the 3rd-generation top/bottom hierarchy ($\Delta E_{b/t}(1/5) = -3/100 = -\Delta E_{b/t}(2/5) < 0$, making $y_b / y_t$ grow exponentially as $\operatorname{Im}\tau \to \infty$). Only **$\alpha = 2/5$** satisfies the two parameter-free qualitative sign conditions $\Delta E_{\text{up}} > \Delta E_{\text{down}}$ ($3/20 > 1/20$, ratio $3$) and $\Delta E_{b/t} > 0$ ($+3/100 > 0$).
+
+3. **`Theorem 19` Part C (`P-233` Zero-Trust Independent Re-Implementation Control for `T-Y18`, `T-SEVEN-NOT-EIGHT`, `T-TWO-ORBITS`, `T-DEFLATION-P`, `FORCED`):**
+   - Independently constructs the 27-dimensional trinification representation $\mathbf{27} = (\mathbf{3}, \mathbf{3}, \mathbf{1}) \oplus (\bar{\mathbf{3}}, \mathbf{1}, \bar{\mathbf{3}}) \oplus (\mathbf{1}, \bar{\mathbf{3}}, \mathbf{3})$ and its 15 distinct $H_L \oplus H_R \subset \mathbb{Q}^4$ weight classes from $W_{\mathbf{3}} = \{(1,0), (0,1), (-1,-1)\}$ in pure `Fraction` arithmetic (zero JSON files read), exhaustively searches all $5^4 = 625$ basis assignments, recovers all **18** exact solving directions (`T-Y18`), proves the 7-class / multiplicity-9 color-commuting obstruction (`T-SEVEN-NOT-EIGHT`), partitions the 18 solutions under $W(A_2)_L \times W(A_2)_R$ into `[9, 9]` (`T-TWO-ORBITS`), proves plain block swap gives `False` while mirror (`neg ∘ blockswap`) gives `True` (`T-DEFLATION-P`), and verifies $t = (1/6, 1/6, 2/3, -1/3)$ outputs $6Y = [(1, -4), (1, 2), (-3, 6)]$.
+
+4. **`Theorem 20` Part A (`P-355`/`P-446` 4D `(-adj S, S, S)` Order-10 Preservation vs Order-5 Breaking & Determinant-1 Shift):**
+   - Under the 4D holomorphic SM reading `(-adj S, S, S)` (`B1827`) where both down and lepton read $+S = (+b_{10}, \vec{h})$:
+     - On the 5 **order-5** lines $(2/5, j/5)$, $u_1^e = -\lambda u_1^d$ has the opposite sign to $u_1^d$, so reading $+S$ in both sectors breaks $b$-$\tau$ unification at $a_0 = +b_{10} \neq 0$ (`y_tau/y_b` deviates by $3.4\%$, and $D_{c=3}$ varies wildly across $[3.07, 161.21]$).
+     - On the 5 **order-10** lines $(2/5, (2j+1)/10)$, our `Theorem 18` Reflection-Transpose identity has $u_1^e = +\lambda u_1^d$ with the **same** sign as $u_1^d$! Consequently, the 4D `(-adj S, S, S)` reading with $a_0 = +b_{10} \neq 0$ preserves **7-digit $b$-$\tau$ unification** ($y_\tau/y_b \in [0.99999988, 1.00000011]$, `max_dev < 2e-7`) and keeps $D_{c=3} \in [8.99995, 9.00015]$ across all 5 order-10 lines!
+   - Any determinant-1 light-generation operator $\operatorname{diag}(e^{-\eta}, e^{+\eta}, 1)$ acts as $D(\eta) = e^{2\eta} D_{\text{raw}}$, requiring $e^\eta = \sqrt{10.58} = 3.252691$ ($+8.42\%$ from $3$), while a two-line assignment (`down` on $(2/5, 1/5)$, `lepton` on $(2/5, 1/10)$) reaches $D_{c=3} = 10.377$ at $a_0 = 0.3$.
+
+5. **`Theorem 20` Part B (`B1742` Two-Higgs $\tan\beta$ & Quadratic Hypercharge Invariants):**
+   - Matching the 1-loop SM running ratio $m_b/m_t \in [0.01364, 0.01517]$ from the 4D adjugate strip ratio $y_b/y_t \in [0.5346, 0.5559]$ requires $\tan\beta = v_u/v_d \in [35.24, 40.76]$, and the quadratic charge sums $Q_2^{(s)} = q_{L,s}^2 + q_{R,s}^2$ are $(17, 5, 45)$ ($Q_2^{\text{lepton}} / Q_2^{\text{down}} = 9$).
+
+6. **`Theorem 20` Part C (`90149211e` Step 2.3–2.5 Free-Group $F_2$ Kernel Retention & All-Word Intertwiner, `FORCED`):**
+   - Verifies across all $4 + 16 + 64 = 84$ words $w \in F_2$ of length $1 \le m \le 3$ in $\{g_L^{\pm 1}, g_R^{\pm 1}\}$ that the $12\times 12$ physical mass operator satisfies $M_{\rho(w)\Phi_0} T_{\text{in}}(\rho(w)) = T_{\text{out}}(\rho(w)) M_{\Phi_0}$ and $T_{\text{in}}(w_1 w_2) = T_{\text{in}}(w_1)T_{\text{in}}(w_2)$ (`err < 1e-14`), while the $F_2 \to 2O$ kernel word $g_L^4$ acts as $+I_2$ in $SU(2)_{\text{reg}}$ and $+I_{45}$ on $\operatorname{Ad}(D_5)$, as $-I_{10}$ on the 10D vector $(\mathbf{10}, \mathbf{6})$ and $-I_{16}$ on the chiral spinor $(\mathbf{16}_\pm, \mathbf{4})$, and $g_L^8$ acts as the identity across all 248 dimensions of $\mathfrak{e}_8$.
+
+
 
 
 
