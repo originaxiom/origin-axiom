@@ -1298,6 +1298,21 @@ acceptance and strict prospective admission remain required. Neither this
 review nor the AGY audit pays a foundational input or derives chiral SM3.
 Earlier pending-review descriptions remain preserved history.
 
+## November 3: work priority after the AGY review
+
+The [dated priority update](REORIENTATION_AFTER_AGY_REVIEW_2026_11_03.md)
+keeps the reductions-first goal and changes the next work order: first
+join the actual full registered transport to the physical bundle, norm
+and end law; then derive allowed fields and interaction coefficients;
+then normalize and investigate state selection on the admitted family.
+Reuse the existing local two-plus-four, coefficient-metric and full
+spin/flavour results, including their counterfamilies and measuring-sector
+limits. The reviewed neutral-family mechanism remains a conditional
+positive, with no foundational input paid. AGY's numerical candidates
+remain hypotheses; correction and load-bearing audit support the primary
+physical-map derivation. This is planning, not a new execution seal or
+canonical GENESIS amendment.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
