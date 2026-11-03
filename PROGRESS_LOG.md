@@ -18302,3 +18302,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 ## 2026-11-03 — S294 the two-level bar (GENESIS v1.61)
 
 - The owner's tiered-bar proposal, assessed and ruled 'agreed' (B1829): a fixed screen makes a CANDIDATE, a held-out confirmation a result. Re-grade: one candidate family, THE SIX ON THE STRIP (B1749, B1753; seven UNSETTLED). P-585, P-586. 0 of 19.
+
+## 2026-11-03 — S295 the candidate's own D; the register's load
+
+- The strip family sits ~3σ from P-094's D at its best rows (14σ where lepton = down): credited on P-585. The owner's register question measured (P-587). 0 of 19.

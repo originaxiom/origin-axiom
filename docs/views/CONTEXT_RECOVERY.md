@@ -18,10 +18,10 @@
 | … NEGATIVE | 382 |
 | … OPEN | 94 |
 | … RETRACTED | 12 |
-| register points | 586 |
+| register points | 587 |
 | … QUEUED | 240 |
 | … LEAD | 10 |
-| … OWNER | 5 |
+| … OWNER | 6 |
 | … DONE | 322 |
 | … DECLINED | 9 |
 | harvest rows (the last number) | 1514 |
@@ -51,6 +51,7 @@
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
 - ** P-303** — PF1-W read on each Higgs field or on each sector's mass determinant? (the web seat's W133 check §5–§6, row 1316). On a parity-diagonal coupling the two are the same condition; but no combination of two or more zero-free… → *asked of the owner: which reading of PF1-W (each Higgs field, or each sector's determinant) the record adopts; main's recommendation to follow with P-300's ver…*
 - ** P-335** — the owner's calls the sweep surfaced: L178 (the tone crossing) — retire by the math?; L248 §8 (retire, or the L240 reader's probe later); COMPUTE_THE_PROGRAM — rewrite for the weave or freeze; L161's realisation — commi… → *asked of the owner with the next report*
+- ** P-587** — THE REGISTER's OPEN ROWS AND THEIR LOAD (the owner, 2026-11-03: 'at what time should we deal with all open leads, and queued … whats the point of keepin them there? if theyre open do they bear load on our current math?'… → *asked: adopt the typing and the ageing rule, and start the triage now?*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
@@ -82,6 +83,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S295 THE CANDIDATE FAMILY's OWN RELATION D, CREDITED; THE REGISTER's LOAD MEASURED (2026-11-03)
 - S294 THE TWO-LEVEL BAR: GENESIS v1.61 — A FIXED SCREEN MAKES A CANDIDATE, ONLY A HELD-OUT CONFIRMATION MAKES A RESULT (THE OWNER'S RULING ON P-577) (2026-11-03)
 - S293 THE OWNER'S WORD ON B1814's BLIND RERUN, RELAYED TO THE SM SEAT (2026-11-03)
 - S292 THE EARNED DICTIONARY: GENESIS v1.60 — A FRAME MAY EARN ITS DICTIONARY BY HELD-OUT PREDICTION (THE OWNER'S RULING ON P-580) (2026-11-03)
@@ -89,7 +91,6 @@
 - S290 THE RELATION THAT LIFTS THE CORNERS: THE ADJUGATE READING; THE 45-LIKE SINGLET SPLITS THE SECOND GENERATION (2026-11-03)
 - S289 THE FRAMING LEDGER (B1827): WHAT THE PROGRAMME EXCLUDES BY THE WAY IT IS FRAMED (2026-11-03)
 - S288 THE AGY LANE's REPORTS READ IN FULL; ITS FRAMING RULED; THE MIRROR RULE CLOSED FOR THE CKM (2026-11-03)
-- S287 THE SEATS FETCHED; THE AGY LANE's NOVEMBER WORK VERIFIED ON MAIN (B1826): THREE RESULTS KEPT, EVERY 'PARAMETER-FREE' CLAIM DECLINED (2026-11-03)
 
 ## The latest campaign line
 

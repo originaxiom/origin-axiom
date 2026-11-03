@@ -59,3 +59,5 @@ tiers become three), docs/FRAMING_LEDGER.md FL-24.
 ## Disclosed
 
 - The level-1 threshold (1%) is main's, from THE_BAR's standing gate; the owner may move it. Nothing was computed.
+
+> *2026-11-03, later (S295).* **Correction (S295, the same day; seen first, missed at S294):** the family's own records already show it in tension with a relation among its six measured to about 1%, D = (m_μ/m_e)(m_d/m_s) = 10.58 ± 0.11 (P-094): at the best six-rows D = 10.92 (B1753, 3.06σ; its R7 fails), 10.94 (B1749, 3.3σ), 11.01 (B1726, 3.9σ), 11.05 (B1741, 4.3σ), and exactly 9 (14σ) wherever the lepton and down spectra coincide (P-355; B1742, B1728). The 10% allowance on each ratio hides it (FL-15, FL-22). So the candidate is weak before any confirmation: a level-2 card must carry D at its measured precision as an in-sample consistency cell, and fails at > 3σ there before any held-out number is read.*

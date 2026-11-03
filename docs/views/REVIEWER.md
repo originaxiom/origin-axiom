@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1533** |
-| words of findings prose | **1,276,186** |
+| words of findings prose | **1,276,307** |
 | test lock files referenced | **931** |
 | arcs carrying an authored verdict | **1533** (100.0 %) |
 | recorded closures | **858** (691 classified, 167 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1829`** (787 words, 0 locks)  
+**PROVED — `B1829`** (908 words, 0 locks)  
 GENESIS v1.61 (the owner's ruling on P-577, 2026-11-03, 'agreed' to the owner's own tiered-bar proposal as main assessed it): where the joint look count applies, level 1 is a fixed screen (THE_BAR at p < 0.01 with every within-arc choice priced, no joint factor) that makes a CANDIDATE -- frozen, never cited as support, not a result -- and level 2, a confirmation by held-out prediction under GAP1's v1.60 rule, makes a result (PREDICTED); the ledger stays as the count of screens. Re-graded from the record: B1749 and B1753 are candidates (r 0.1-0.25% under B1798's null re-choosing c and the class); B1726, B1734, B1755, B1786 and three web-seat looks UNSETTLED (no fully matched null); all one family, THE SIX ON THE STRIP, about 0.5 false candidates expected by chance over 53 looks; the family already fails the mixing; its level 2 (P-585): y_b/y_t, theta-bar; y_tau/y_b not clean (scale-set). Nothing computed or compared. 0 of 19.  
 `B1829_genesis_v1_61/FINDINGS.md`
 

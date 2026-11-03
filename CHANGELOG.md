@@ -1,5 +1,10 @@
 # Changelog
 
+## S295 THE CANDIDATE FAMILY's OWN RELATION D, CREDITED; THE REGISTER's LOAD MEASURED (2026-11-03)
+
+- **Correction (seen first, missed at S294):** B1829's candidate family THE SIX ON THE STRIP is already in about 3σ tension with D = (m_μ/m_e)(m_d/m_s) = 10.58 ± 0.11 (P-094) at its best rows — 10.92 (B1753), 10.94 (B1749), up to 4.3σ (B1741) — and 9 at 14σ where lepton = down (P-355); the 10% allowance hides it. REGRADE.md, B1829's FINDINGS, P-585, P-355.
+- **The owner's question on the register (P-587):** 255 open rows; about 15 bear on current math; the gate blocks pushes from 2026-11-04; main's proposal (type rows DEBT/LEAD/PROCESS, age only debts, triage now) awaits the owner. FLOOR 587. 0 of 19.
+
 ## S294 THE TWO-LEVEL BAR: GENESIS v1.61 — A FIXED SCREEN MAKES A CANDIDATE, ONLY A HELD-OUT CONFIRMATION MAKES A RESULT (THE OWNER'S RULING ON P-577) (2026-11-03)
 
 - **The owner's proposal and ruling (P-577):** "instead of keep rising the bar … make the bar in different levels … first level is looser, and what passes first level goes through more strictness"; main's assessment (sound under three conditions: the second level uses untouched numbers, the candidate is frozen, a candidate is never a result); the owner: "agreed". B1829, GENESIS v1.61 (FK9): where the joint look count applies, a fixed screen (p < 0.01, the fully matched null, no joint factor) makes a CANDIDATE, a confirmation by held-out prediction (GAP1's v1.60 rule) a result; the ledger counts screens and reports the chance expectation. Companions: THE_BAR (step 6, the CANDIDATE grade), LOOK_LEDGER, PRACTICES (three levels), FRAMING_LEDGER FL-24.
