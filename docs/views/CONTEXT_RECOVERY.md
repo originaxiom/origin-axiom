@@ -13,13 +13,13 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1530 |
+| arcs with a verdict file | 1531 |
 | … PROVED | 1043 |
 | … NEGATIVE | 382 |
-| … OPEN | 93 |
+| … OPEN | 94 |
 | … RETRACTED | 12 |
-| register points | 564 |
-| … QUEUED | 221 |
+| register points | 573 |
+| … QUEUED | 230 |
 | … LEAD | 10 |
 | … OWNER | 5 |
 | … DONE | 319 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1827 | OPEN | THE FRAMING LEDGER (the owner's exercise, 2026-11-03; OPEN, an audit): eighteen framing commitments of the programme inventoried from five readers' ~200 cited entries (docs/FRAMING_LEDGER.md) and ranked; the record had… |
 | B1826 | PROVED | THE AGY LANE'S NOVEMBER WORK, VERIFIED ON MAIN (agy/audit-2026-11-02, 16 commits from main's 64a2a3d4e; with the physical-bridge lane's source review and the independent audit lane's recomputation): three results kept,… |
 | B1825 | NEGATIVE | THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings,… |
 | B1824 | PROVED | TWO OF B1810'S THIRTEEN DECLARED HIGGS DIRECTIONS ARE ONE (data-free; proved by hand, exact in B1691's q-series to q^25, re-derived by main in sympy and to 2e-40 numerically): a0 = D^2 R - E4 R/48 = (1/48)(th2 th3^3 th4… |
@@ -42,7 +43,6 @@
 | B1817 | NEGATIVE | THE FRAME'S OWN LEPTON/DOWN FACTOR AT THE CUSP (strand A's A1; P-397; data-free; refereed hostile, PASS WITH CORRECTIONS): on the slopes of order <= 30 with equal down/lepton second-generation exponents, every converged… |
 | B1816 | PROVED | THE CANONICAL END'S ACCESSORY PARAMETER IS A WEIL-PETERSSON PRIMITIVE (P-481; data-free; refereed hostile, PASS WITH CORRECTIONS): on its uniformising branch B1667's accessory parameter satisfies dC/d(tau-bar) = i h_WP(… |
 | B1815 | PROVED | THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY (the owner-approved clock plan T1-T4; data-free; refereed hostile, PASS WITH CORRECTIONS): the walk model of B1662/B1663 (L, R at (1-p)/2, L^-1, R^-1 at p/2) has endpo… |
-| B1814 | NEGATIVE | THE MEASURED WORLD AS A DRAW FROM THE WEAVE'S OWN MEASURE (P-437, stage 3; sealed 86cb26b30; NEGATIVE as sealed for D2's prediction): by the sealed statistic the six do not separate B1813's two clocks (p_F 0.43 under th… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -54,6 +54,9 @@
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
+- ** P-568** (2026-11-03) — RELATIONS AND RIGID OUTPUTS (FL-14, FL-15): the bar grades values, never relations; the number of relations the frame forces (the Jacobian co-rank of its outputs in its continuous data) and its rigid…
+- ** P-567** (2026-11-03) — THE LINES AS CENTRE WILSON LINES (FL-08; the blind reader, verified on order 5 in B1827): on order-5 lines the frame is minimal SU(5) exactly (Y_u symmetric, the down and lepton spectra identical), s…
+- ** P-566** (2026-11-03) — THE SECTOR-ODD SINGLET (FL-06, B1827 § 2): a singlet Higgs component at natural magnitude ODD between up and down lifts the CKM's corner inversion generically (33-47% at every phase against 2%; media…
 - ** P-562** (2026-11-03) — THE HIGGS's OWN HYPERCHARGE TWIST (the agy lane's framing, its full-audit and elevation relays read in full, S288): FR-FIB's Higgs directions are modular forms of tau alone, with no identity channel,…
 - ** P-555** (2026-10-31) — THE MASSES AND THE MIXING AT DIFFERENT ADDRESSES (B1825): the frame reaches our six alone (least chi2_six 1.36) and our four alone (0.35 at a node), never at one rigid address (least chi2_ten 291.4;…
 - ** P-554** (2026-10-31) — THE SIX DO NOT COMPRESS, EVEN AT A FRAME ADDRESS (S285's pass side on B1741's box): C_six's 90th percentile is negative in every section (-0.85 bits at chi2 = 0, -2.5 with noise at sigma): the addres…
@@ -76,12 +79,10 @@
 - ** P-506** (2026-10-29) — TWO READERS, ONE SOURCE (the owner, 2026-10-29): 'the dashboard should serve us both, me for better visualising the universe we're trying to construct, and the frameworks structure, analyze, and you…
 - ** P-495** (2026-10-29) — THE FINAL ATTACK (main's proposal to the owner, docs/THE_FINAL_ATTACK_2026-10-29.md): explaining under plenitude is compression with a null — our world's description through the framework (the object…
 - ** P-494** (2026-10-29) — A CM SIGHTING, DISCLOSED (main, 2026-10-29, by hand, before any CM table): τ = 3i (ℚ(i), D = −36) lies at Im τ = 3.000 and τ = (1 + 7√3 i)/4 = 0.25 + 3.031i (ℚ(√−3), D = −588) inside the fitted strip…
-- ** P-487** (2026-10-29) — THE SUPPORT TEST (main's design from P-485, at the owner's 'lets attack… the final act'): defined on the whole interaction — the fibre frame × the weave's sums × the towers — with c supplied by the i…
-- ** P-485** (2026-10-29) — THE PLENITUDE REFRAMING (the owner, 2026-10-29: 'if all worlds in our framework are allowed to happen… they will happen, so our own'): if every world the framework allows is realised, deriving the SM…
-- ** P-479** (2026-10-29) — THE LIKELIHOOD DESIGN: B1814's D2 used a pair of p-value thresholds; for a two-clock question the likelihood ratio is the most powerful statistic, and p_F(A0) = 0.069 allows at most a Bayes factor of…
 
 ## The last landings (CHANGELOG)
 
+- S289 THE FRAMING LEDGER (B1827): WHAT THE PROGRAMME EXCLUDES BY THE WAY IT IS FRAMED (2026-11-03)
 - S288 THE AGY LANE's REPORTS READ IN FULL; ITS FRAMING RULED; THE MIRROR RULE CLOSED FOR THE CKM (2026-11-03)
 - S287 THE SEATS FETCHED; THE AGY LANE's NOVEMBER WORK VERIFIED ON MAIN (B1826): THREE RESULTS KEPT, EVERY 'PARAMETER-FREE' CLAIM DECLINED (2026-11-03)
 - S286 B1825 NEGATIVE AS SEALED: NO SUPPORT. THE FRAME MAKES OUR MASS RATIOS AND OUR MIXING, NEVER AT ONE ADDRESS (2026-10-31)
@@ -89,11 +90,10 @@
 - S284 THE CALIBRATION's PLANTED LEGS WERE VOID; THE PASS SIDE MOVED ONTO B1741's BOX; DETERMINISM AT THE CENSUS's PRECISION (2026-10-31)
 - S283 NO FORK FOR THE BIG INDEX (2026-10-31)
 - S282 p2's WORKERS BOUNDED; THE DRY RUN's MEASUREMENTS (2026-10-31)
-- S281 THE MACHINE PANICKED UNDER THE PRE-SEAL JOBS; STEP B's INDEX MADE MEMORY-LEAN (2026-10-31)
 
 ## The latest campaign line
 
-LATEST (2026-11-03, S288: the other lane's reasoning about why our framework fails on the quark mixing holds: one Higgs, pushed by the mass hierarchy toward a special direction, drags both quark types' lightest states with it (B1826, building on B1739). The obvious symmetry fix does not help; a second ingredient of the Higgs is the next thing to test. 0 of 19.)
+LATEST (2026-11-03, S289: the programme's own framing, inventoried for the first time (B1827, docs/FRAMING_LEDGER.md): eighteen choices that shape what it can find. The quark-mixing wall turns out to be one of them — a choice in how the Higgs is built — and a calculation shows the wall disappears when the Higgs gains one ingredient with opposite signs for the two quark types. About nine of the nineteen numbers have no framework at all yet. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

@@ -1,0 +1,33 @@
+{
+ "id": "B1827",
+ "verdict": "OPEN",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1825",
+  "B1826",
+  "B1739",
+  "B1744",
+  "B1653",
+  "B1694",
+  "B1713",
+  "B1720",
+  "B1790",
+  "B1822",
+  "B1728"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the programme's framing (foundations, FR-FIB's construction, the sealed tests' conventions); the scans in FR-FIB with a 4D Higgs S = a0 I + a.Q",
+  "object": "the record's own commitments (five readers' inventories); the CKM's corner order at the frame's hierarchical points",
+  "reach": "single",
+  "hypotheses": "the scans use two coarse facts of the measured world (the hierarchy; up steeper than down), disclosed; exploration tier, no measured value compared"
+ },
+ "claim_one_line": "THE FRAMING LEDGER (the owner's exercise, 2026-11-03; OPEN, an audit): eighteen framing commitments of the programme inventoried from five readers' ~200 cited entries (docs/FRAMING_LEDGER.md) and ranked; the record had no inventory of its own framing. Computed data-free (two coarse facts of the measured world disclosed): the CKM's corner inversion is a construction choice (the Higgs's orientation from the adjoint units only, untwisted, shared) -- the mirror rule cannot lift it (0 of 303 nature-like points), a singlet Higgs component of the same sign in up and down does nothing (0.7-4.0%), the same singlet with OPPOSITE signs lifts it generically (33-47% at every phase against 2%; median |V_ub|/|V_td| about 0.9); on order-5 lines the frame is minimal SU(5) exactly (Y_u symmetric, the down and lepton spectra identical), so c = 3 is the Georgi-Jarlskog Clebsch by hand. About nine of the 19 have no frame (no action, normalisation or scale). Claims no parameter. 0 of 19.",
+ "weave_or_thread": "weave (the programme's framing)"
+}

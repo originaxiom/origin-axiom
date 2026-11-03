@@ -1,0 +1,23 @@
+same     c 0                  n  331  |V_ub|<|V_td| 0.04  |V_ud|>0.9 0.75  both 0.021  median ratio 27.1
+same     c exp(2 pi i 0/12)   n  294  |V_ub|<|V_td| 0.04  |V_ud|>0.9 0.69  both 0.024  median ratio 21.1
+same     c exp(2 pi i 1/12)   n  300  |V_ub|<|V_td| 0.01  |V_ud|>0.9 0.71  both 0.007  median ratio 20.5
+same     c exp(2 pi i 2/12)   n  332  |V_ub|<|V_td| 0.02  |V_ud|>0.9 0.75  both 0.018  median ratio 21.2
+same     c exp(2 pi i 4/12)   n  323  |V_ub|<|V_td| 0.02  |V_ud|>0.9 0.76  both 0.019  median ratio 26.6
+same     c exp(2 pi i 5/12)   n  300  |V_ub|<|V_td| 0.05  |V_ud|>0.9 0.72  both 0.040  median ratio 22.9
+same     c exp(2 pi i 6/12)   n  287  |V_ub|<|V_td| 0.05  |V_ud|>0.9 0.71  both 0.028  median ratio 23.1
+same     c exp(2 pi i 7/12)   n  293  |V_ub|<|V_td| 0.02  |V_ud|>0.9 0.72  both 0.017  median ratio 26.2
+same     c exp(2 pi i 8/12)   n  315  |V_ub|<|V_td| 0.03  |V_ud|>0.9 0.74  both 0.025  median ratio 28.5
+same     c exp(2 pi i 10/12)  n  324  |V_ub|<|V_td| 0.02  |V_ud|>0.9 0.75  both 0.012  median ratio 24.6
+same     c exp(2 pi i 11/12)  n  298  |V_ub|<|V_td| 0.02  |V_ud|>0.9 0.71  both 0.017  median ratio 21.9
+opposite c 0                  n  331  |V_ub|<|V_td| 0.04  |V_ud|>0.9 0.75  both 0.021  median ratio 27.1
+opposite c exp(2 pi i 0/12)   n  282  |V_ub|<|V_td| 0.51  |V_ud|>0.9 0.68  both 0.326  median ratio 0.995
+opposite c exp(2 pi i 1/12)   n  295  |V_ub|<|V_td| 0.56  |V_ud|>0.9 0.71  both 0.393  median ratio 0.936
+opposite c exp(2 pi i 2/12)   n  318  |V_ub|<|V_td| 0.62  |V_ud|>0.9 0.73  both 0.465  median ratio 0.928
+opposite c exp(2 pi i 4/12)   n  324  |V_ub|<|V_td| 0.62  |V_ud|>0.9 0.75  both 0.444  median ratio 0.91
+opposite c exp(2 pi i 5/12)   n  303  |V_ub|<|V_td| 0.57  |V_ud|>0.9 0.72  both 0.399  median ratio 0.923
+opposite c exp(2 pi i 6/12)   n  298  |V_ub|<|V_td| 0.54  |V_ud|>0.9 0.69  both 0.369  median ratio 0.945
+opposite c exp(2 pi i 7/12)   n  300  |V_ub|<|V_td| 0.54  |V_ud|>0.9 0.70  both 0.373  median ratio 0.959
+opposite c exp(2 pi i 8/12)   n  332  |V_ub|<|V_td| 0.62  |V_ud|>0.9 0.72  both 0.416  median ratio 0.908
+opposite c exp(2 pi i 10/12)  n  312  |V_ub|<|V_td| 0.61  |V_ud|>0.9 0.71  both 0.429  median ratio 0.926
+opposite c exp(2 pi i 11/12)  n  284  |V_ub|<|V_td| 0.52  |V_ud|>0.9 0.70  both 0.363  median ratio 0.977
+exit 0

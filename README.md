@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.59) of 2026-10-28 |
-| arcs with a verdict | 1530: 1043 PROVED, 382 NEGATIVE, 93 OPEN, 12 RETRACTED |
-| points in the register | 564: 236 open (queued, leads, waiting for the owner), 328 closed |
+| arcs with a verdict | 1531: 1043 PROVED, 382 NEGATIVE, 94 OPEN, 12 RETRACTED |
+| points in the register | 573: 245 open (queued, leads, waiting for the owner), 328 closed |
 | the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S288 THE AGY LANE's REPORTS READ IN FULL; ITS FRAMING RULED; THE MIRROR RULE CLOSED FOR THE CKM (2026-11-03) |
+| the last landing | S289 THE FRAMING LEDGER (B1827): WHAT THE PROGRAMME EXCLUDES BY THE WAY IT IS FRAMED (2026-11-03) |
 <!-- STATE:END -->
 
 ## Start here

@@ -18279,3 +18279,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - Every agy relay read in full; the framing ruled point by point (P-562-P-564); the mirror rule cannot lift the corner inversion (0 of 303 nature-like points). Verification: the exploration scripts in audit/drafts/p555/, the gates. 0 of 19.
 
+## 2026-11-03 — S289 the framing ledger (B1827)
+
+- Eighteen framing commitments inventoried and ranked (docs/FRAMING_LEDGER.md); the corner inversion lifted by a sector-odd singlet Higgs (data-free); order-5 lines = minimal SU(5). Verification: the readers' citations sampled, the scans in B1827/verification/scans, the gates. 0 of 19.
+

@@ -1,0 +1,12 @@
+c 0                  n  105  |V_ub|<|V_td| 0.03  |V_ud|>0.9 0.85  both 0.02  median ratio 28.4
+c exp(2 pi i 0/12)   n   94  |V_ub|<|V_td| 0.06  |V_ud|>0.9 0.77  both 0.06  median ratio 22.5
+c exp(2 pi i 1/12)   n   91  |V_ub|<|V_td| 0.05  |V_ud|>0.9 0.76  both 0.05  median ratio 23.3
+c exp(2 pi i 2/12)   n   98  |V_ub|<|V_td| 0.03  |V_ud|>0.9 0.84  both 0.02  median ratio 30
+c exp(2 pi i 4/12)   n  104  |V_ub|<|V_td| 0.02  |V_ud|>0.9 0.85  both 0.02  median ratio 30.8
+c exp(2 pi i 5/12)   n  100  |V_ub|<|V_td| 0.03  |V_ud|>0.9 0.77  both 0.02  median ratio 28.1
+c exp(2 pi i 6/12)   n   94  |V_ub|<|V_td| 0.04  |V_ud|>0.9 0.73  both 0.03  median ratio 27.5
+c exp(2 pi i 7/12)   n   93  |V_ub|<|V_td| 0.05  |V_ud|>0.9 0.73  both 0.04  median ratio 29
+c exp(2 pi i 8/12)   n  103  |V_ub|<|V_td| 0.05  |V_ud|>0.9 0.82  both 0.03  median ratio 32.8
+c exp(2 pi i 10/12)  n  102  |V_ub|<|V_td| 0.04  |V_ud|>0.9 0.85  both 0.04  median ratio 34.7
+c exp(2 pi i 11/12)  n   95  |V_ub|<|V_td| 0.02  |V_ud|>0.9 0.78  both 0.02  median ratio 26.6
+exit 0
