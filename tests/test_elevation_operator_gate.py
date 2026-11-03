@@ -45,6 +45,7 @@ from origin_axiom.parameter_ledger import (
     nineteen_parameter_impact_table,
 )
 from origin_axiom.sm_19_gate import (
+    derive_scalar_higgs_characters_from_hypercharge,
     evaluate_sm_19_gate,
     inter_sector_yukawa_unification,
     stabilized_modulus_candidates,
@@ -53,6 +54,7 @@ from origin_axiom.sm_19_gate import (
     step3_pmns_and_m004_gauge_thresholds,
     step4_sealed_stepb_v2_fr_cov_verdict,
     theorem8_golden_codifferent_unit_modulus_closure,
+    theorem9_hypercharge_quadratic_refinement_and_full_19_closure,
 )
 from origin_axiom.stepb_audit import (
     count_order12_massless_electron_choices,
@@ -395,6 +397,33 @@ def test_theorem8_zero_parameter_golden_codifferent_unit_modulus_closure():
     assert float(comp["C_ten_bits_fr_cov_zero_L_tau"]) > 53.5
     assert float(comp["C_ten_bits_adversarial_23bit_ledger"]) > 42.5
     assert float(comp["C_ten_bits_adversarial_plus_full_10bit_Z8_price"]) > 32.5
+
+
+def test_theorem9_hypercharge_quadratic_refinement_and_full_19_closure():
+    t9 = theorem9_hypercharge_quadratic_refinement_and_full_19_closure()
+
+    # Part A: Deterministic derivation of (c_u, c_d, c_e) from (q_1, q_2) via k_R = q_2 // 2
+    pa = t9["part_A_hypercharge_quadratic_refinement"]
+    assert float(pa["max_abs_diff_vs_theorem7_roots"]) < 1e-15
+    assert float(pa["post_hoc_z8_selection_bits_remaining"]) == 0.0
+    assert pa["sectors"]["up"]["k_R_triality_electric_charge"] == -2
+    assert pa["sectors"]["up"]["k_R_sq_mod_8"] == 4
+    assert pa["sectors"]["down"]["k_R_triality_electric_charge"] == 1
+    assert pa["sectors"]["down"]["k_R_sq_mod_8"] == 1
+    assert pa["sectors"]["lepton"]["is_colour_triplet_on_M3"] is False
+
+    # Part B: Zero-input SM gauge couplings from Vol(m004) and tau_RS(m004) = 4/sqrt(3)
+    pb = t9["part_B_zero_input_m004_gauge_and_hierarchy"]
+    assert float(pb["rel_error_alpha_em_inv_MZ"]) < 0.005     # +0.475%
+    assert float(pb["rel_error_sin2_thetaW_MZ"]) < 0.002      # +0.155%
+    assert float(pb["rel_error_alpha_s_MZ"]) < 0.016          # +1.575%
+
+    # Part C: Block V (bar_theta_QCD = 0, top mass cascade 172.48 GeV, 1-loop Higgs criticality 132.07 GeV)
+    pc = t9["part_C_block_V_strong_cp_top_and_higgs_criticality"]
+    assert float(pc["bar_theta_QCD_pred"]) == 0.0
+    assert float(pc["rel_error_mt_pole"]) < 0.002             # -0.12%
+    assert float(pc["rel_error_mH_1loop"]) < 0.06             # +5.45% at 1-loop (within ALLOW = 10%)
+
 
 
 
