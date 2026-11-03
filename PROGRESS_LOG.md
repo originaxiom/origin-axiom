@@ -21582,3 +21582,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What was done:** the test was written down with its checks and their odds before any program runs it. It looks at
   90 lines, 80 of them never computed before, at the two points the principle marks.
   0 of 19.
+
+## 2026-11-03 — the new lines checked
+
+- **What was done:** the planned test ran once on the 90 lines, 80 of them new.
+- **What it shows:** on the new lines the colour twist does make the down quarks and the leptons differ, but by
+  amounts that change from line to line, never by the steady factor of 3 the data suggest. One prediction about where
+  they would differ at the far end was wrong: on 20 of the lines they still come out equal there.
+- **What it means:** this frame does not supply the factor of 3 on any line tried so far. It would need a new
+  ingredient. 0 of 19.

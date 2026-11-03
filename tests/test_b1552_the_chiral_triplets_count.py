@@ -5764,3 +5764,37 @@ def test_w181_the_exact_norm_limits():
     assert len(p["lines whose D_inf differs between the two Re tau (> 1e-6)"]) == 1
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W181. The cusp limits on the integer-λ lines in the exact norms" in note
+
+
+def test_w182_the_centre_lines():
+    """W182: C0, C1, C3 and C4 as predicted, C2 failed as worded; in process, the line set and the tie law from the
+    lattice condition, the cusp tie exactly on the a = 2/5 lines (only a reaches the cusp exponents), every new line
+    split at tau = i, and no Georgi-Jarlskog shape"""
+    import math
+    from fractions import Fraction as Fr
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_centre_lines.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"C0": True, "C1": True, "C2": False, "C3": True, "C4": True}
+    assert d["tasks"] == 1440 and d["failed tasks"] == [] and d["warnings"] == [] and "run_failed" not in d
+    assert d["lines"] == {"count": 90, "census (tie-law) lines": 10, "orders": {"5": 5, "10": 5, "15": 40, "30": 40}}
+    assert d["counts"] == {"cusp finite": 60, "cusp running": 120, "cusp excluded": 0, "i finite": 90,
+                           "i excluded": 0}
+    assert d["C0"]["features compared"] == 900 and not d["C3"]["hits"] and not d["C4"]["hits"]
+    lines = [((Fr(2, 5) + Fr(j, 3)) % 1, Fr(k, 30)) for j in range(3) for k in range(30)]
+    tie = lambda a, b: any((n * a) % 1 == 0 and (n * b) % 1 == 0 for n in (8, 10))
+    assert [e["line"] for e in d["per line"]] == [[str(a), str(b)] for a, b in lines]
+    for (a, b), e in zip(lines, d["per line"]):
+        assert e["new"] == (not tie(a, b))
+        if e["new"]:
+            assert abs(e["at i"]["ln (r2, r1, D)"][2]) > 1e-8
+            for r in e["cusp"]:
+                assert (r["status"] == "finite") == (a == Fr(2, 5))
+                if r["status"] == "finite":
+                    assert r["cusp ln (r2, r1, D)"][2] == 0.0
+                else:
+                    assert max(abs(v) for v in r["down minus lepton exponent (m2, m1)"]) > 0.05 - 1e-6
+    assert d["R: distinct finite cusp D (to 1e-6)"] == [1.0] and len(d["R: distinct D at i (to 1e-6)"]) == 42
+    near = d["R: ten nearest to (1/3, 3)"][0]
+    assert near[0] in (["1/15", "1/5"], ["1/15", "4/5"]) and abs(near[2] - 0.5588) < 1e-3
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W182. The down–lepton factor on the centre lines (main's P-567, Q1)" in note

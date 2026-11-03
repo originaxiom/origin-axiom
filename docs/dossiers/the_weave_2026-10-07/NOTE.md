@@ -7726,6 +7726,76 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W182. The down–lepton factor on the centre lines (main's P-567, Q1): no centre line gives the Georgi–Jarlskog shape. On the 80 new lines of order 15 and 30 the Z₃ part splits the down quarks from the leptons at τ = i on every line, by line-dependent amounts (D from 0.12 to 4.95, 39 values), never a Clebsch of 3. At the cusp it splits only where it sits in a; on the 20 new lines with a = 2/5 the cusp still ties (C2 failed as worded). No D lies in the data's window (`the_centre_lines.py`; `W182_RULE.md`)
+
+**Why.** At the owner's "continue". Main's framing ledger (S289, B1827, FL-08) found order-5 lines minimal SU(5)
+exactly, so B1825's c = 3 is the Georgi–Jarlskog Clebsch by hand. Main's P-567, Q1 asks for the lepton/down factor on
+the centre lines (2/5 + j/3, k/30) at c = 1: does any centre line give 3? This seat took Q1 (relay §341). B1656's frame
+has no c.
+
+**The order.**
+- The rule (`W182_RULE.md`, bd4061f45) was committed and pushed before the script.
+- The script (c04044bff) was committed before its run. A timing call after the rule's push ran two tasks and printed
+  statuses, digits and seconds only (disclosed in its docstring).
+- **One run**, 438.7 s on four workers, 1440 tasks, exit 0, no warnings, no failed task, no doubled precision. Its
+  output (78e03d3b5) was committed unread after the checks on the exit, failures, NaN, paths and warnings, then read
+  once.
+
+**The result (COMPUTED; one run; C0, C1, C3 and C4 as predicted; C2 failed as worded).**
+- **C0 held: the instrument is W178's frame.** On the 10 census lines all 900 features compared equal W178's stored six
+  at every height and W179's six at τ = i, within 10⁻⁶.
+- **C1 held: the tie law.** On the five order-5 lines |ln D| ≤ 10⁻⁸ at every height, both Re τ, and at τ = i. On all 80
+  new lines D ≠ 1 at τ = i: the Z₃ part of the line splits the down quarks from the leptons there.
+- **C2 failed as worded: the cusp ties on 20 of the new lines.**
+  - On the 60 new lines with a = 1/15 or 11/15 (120 pairs) the down and lepton exponents differ, by 0.050 to 0.250, so
+    the cusp double ratios run.
+  - On the 20 new lines with a = 2/5 (the (2/5, k/30) with 3 ∤ k, 40 pairs) the exponents agree exactly, and the cusp
+    limit is D = 1, unchanged from Im τ 32 to 48.
+  - **Why (a READING, from the recorded exponents):** the cusp exponents follow the imaginary parts of (q_L − q_R)w
+    alone, −a for down and −9a for leptons. For a = 2/5 these are −2/5 and 2/5, equal in size. So a Z₃ part in b moves
+    only the phases, which the cusp does not see.
+  - The rule's hand expectation had used a = 1/15 and 11/15 only. Its statement that the down fraction is 14/15 or 4/15
+    on every new line was wrong for a = 2/5, where it is 3/5.
+- **C3 held: no Georgi–Jarlskog shape.** No line, at a finite cusp limit (all D = 1) or at τ = i, has (r₂, r₁) within
+  a factor 1.25 of (1/3, 3). The nearest at τ = i is (1/15, 1/5) and (1/15, 4/5), at (r₂, r₁) = (0.559, 1.887) with
+  D = 3.38.
+- **C4 held.** No D lies in [10.25, 10.91]. The largest at τ = i is 4.95, on (1/15, 1/6) and (1/15, 5/6).
+- **The read-outs.**
+  - At τ = i the 90 lines give 42 distinct D, from 0.117 to 4.95; the 80 new lines give 39 of them. The census
+    controls give 1 on the order-5 lines and 1, 0.264 or 2.686 on the order-10 lines, as W179 recorded.
+  - **Single factors near 3 or 1/3** (within a factor 1.1), all at τ = i:
+    - r₁ ≈ 0.31 on six lines, the inverse of the Georgi–Jarlskog direction;
+    - the lightest generation's absolute σ₁(e)/σ₁(d) = 0.333 on (2/5, 1/6) and (2/5, 5/6), 2.76 on (11/15, 1/30) and
+      (11/15, 29/30), and 3.19 on (1/15, 0).
+  - **The absolute pattern, read post hoc on the recorded numbers** (a distance in ln to (1, 3, 1/3), no new
+    computation): the nearest is (1/15, 1/5) at (σ₃, σ₂, σ₁)(e/d) = (0.875, 1.566, 0.464). On (2/5, 1/6) it is
+    (0.847, 0.834, 0.333): the lightest generation's 1/3 comes with a second-generation 0.83, not 3.
+
+**What it shows (a READING on the computed facts).**
+- **P-567, Q1, answered in B1656's frame at c = 1.** At the points the principle marks, no centre line gives 3 as a
+  Clebsch. The Z₃ part does split the down quarks from the leptons: at τ = i on every new line, and at the cusp where
+  it sits in a. But it splits them by amounts that change from line to line, not by a fixed factor. A5's expectation
+  holds.
+- **The split comes from the colour centre alone.** On the 80 new lines the down sector's (q_L − q_R)w = −w carries
+  the Z₃ part and the lepton's −9w does not. This is the frame's own place where colour separates quarks from leptons,
+  the role main's FL-08 and P-564 give the Z₃ Wilson line.
+- **The cusp tie on a = 2/5 is structural.** W179's ties on orders 5 and 10 at the cusp extend to every (2/5, b): only
+  a reaches the cusp exponents.
+- **What would supply the 3, by elimination.** Neither the census lines (W179, W181) nor the centre lines (here) supply
+  it. A Clebsch of 3 would need structure outside B1656's frame as built: a non-abelian or singlet Higgs component
+  (P-566, P-567), or another reading. Single-generation factors near 1/3 or 3 do occur at τ = i, but never with the
+  other two generations of the pattern.
+
+**Weave or thread.** neither (a frame census over the centre lines P-567 names, at the points the principle marks). The
+frame is B1656's; the lines are P-567's whole set, none picked. The weave's own answer on the split stays W140's, D ≡ 1.
+
+**For the look ledger:** one look at the data, counted: C4 and the read-outs read D and (r₂, r₁) once. No line is
+selected for a later fit.
+
+**Status.** COMPUTED (the rule first; one run; C0, C1, C3 and C4 as predicted; C2 failed as worded on the rule's hand
+expectation, explained from the recorded exponents). P-567, Q1 answered in this frame: no centre line gives the 3.
+0 of 19.
+
 ## W181. The cusp limits on the integer-λ lines in the exact norms: every cell as predicted. All 62 agreeing pairs have an accepted cusp limit, 17 distinct values, none within 3σ of the data. The nearest, (0, 2/7) at 11.345, lies 7σ above; the two G2 lines go to 6.3138, which post hoc is cot(π/20). So all 110 of W179's finite cusp pairs are determined, and B1656's frame gives no cusp D in the data's window on any census line (`the_exact_norm_limits.py`; `W181_RULE.md`; post hoc `the_exact_norm_limits_posthoc.py`)
 
 **Why.** At the owner's "resume", named in relay §338, item 6. W179 left 50 cusp pairs unsettled at Im τ 48, all on
@@ -15495,6 +15565,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W182 | COMPUTED (the rule first; one run; C0, C1, C3 and C4 as predicted; C2 failed as worded on the rule's hand expectation); a frame census over the centre lines P-567 names | main's P-567, Q1 in B1656's frame at c = 1, on the 90 lines (2/5 + j/3, k/30): the 10 census lines tie the record (C0); order 5 ties everywhere and every new line splits at τ = i (C1); at the cusp the 60 new lines with a = 1/15, 11/15 run, but the 20 with a = 2/5 tie (C2 failed: only a reaches the cusp exponents); no Georgi–Jarlskog shape within 1.25 of (1/3, 3) (C3; nearest (0.559, 1.887)); no D in the window (C4; at τ = i 42 values, 0.117–4.95); single factors near 1/3 or 3 occur, never the pattern: no centre line gives the 3 |
 | W181 | COMPUTED (the rule first; one run; every cell as predicted; one labelled post hoc); a frame census over every census line with an integer-λ kernel, in the exact norms | B1656's frame with W177's exact norms and only their linear part B_s Im τ moved to a scale Y: the limit in Im τ at fixed Y (reached to 10⁻¹³), then in Y^{−1/2} by Neville's extrapolation (to 2 × 10⁻⁹); all 62 agreeing pairs accepted, 17 distinct D∞, none within 3σ (K7); nearest (0, 2/7) at 11.345, 7σ above; the G2 lines 6.3138 (K8), post hoc cot(π/20); 24 ties; only (0, 1/6) depends on Re τ; post hoc, every r∞ but (0, 1/6)'s a cosine ratio of the line's order or ¼; with W179 all 110 finite cusp pairs determined, no cusp D in the window on any census line |
 | W180 | COMPUTED (the rule first; one run; H1, H2, H3, H5 and H7 as predicted; H0, H4 and H6 failed as worded; one labelled post hoc and two disclosed instrument debug runs); a frame census over every census line with an integer-λ kernel | the frozen-norm frame on the 49 integer-λ lines: the norm's split c^∞ + B_s Im τ is exact (to 10⁻¹³⁰), but its rest ρ_s (e^{−π Im τ} on λ = ±½, not e^{−2π Im τ} as the rule said) reaches the light features (s₃/s₁ ~ 10⁻¹²⁸), so H0 failed on all 98 pairs and every D∞ is withheld; on the G2 lines ρ_s cancels in D (H3 to 10⁻¹³) and the frozen D falls to 6.59 at Y = 4096; no value in the window (H5); the limit frame is discontinuous on all 62 agreeing pairs (H4); W179's classification exact (H7) |
 | W179 | COMPUTED (the rule first; one run; G1 and G3 as predicted; G0 and G2 failed as worded; one labelled post hoc); a frame census over every census line at the points the principle marks | B1656's frame's own down–lepton double ratios on all 266 lines, at the cusp (W178's stored ladder) and at τ = i: every settled cusp limit ties (60 pairs, r₂ = r₁ = D = 1 exactly); the 50 unsettled pairs all lie on integer-λ lines (G0 failed); (1/2, 1/5) and (1/2, 3/10) read D = 10.41 at Im τ 48, in the 3σ window (G2 failed as worded), but D keeps falling (8.29 at 128; about 7.1 at the cusp by a fit, post hoc): a height crossing near Im τ 46, not a limit; at τ = i 57 distinct D (0.151–16.8), none in the window; no Georgi–Jarlskog-like (r₂, r₁) within 1.25 (G3); the tie on orders 1, 2, 5 holds (G1) |

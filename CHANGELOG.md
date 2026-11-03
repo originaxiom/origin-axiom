@@ -1,5 +1,16 @@
 # Changelog
 
+## W182 run: P-567, Q1 in B1656's frame, no centre line gives the 3 (relay §342)
+
+- **The order:** the rule and the script first; one run, its output committed unread and read once.
+- **The cells:** C0, C1, C3 and C4 held; C2 failed as worded (the 20 new lines with a = 2/5 tie at the cusp, since
+  only a reaches the cusp exponents).
+- **What it shows:** the Z₃ part of a centre line splits the down quarks from the leptons (at τ = i on all 80 new
+  lines), by line-dependent amounts, never a Clebsch of 3. No Georgi–Jarlskog shape and no D in the data's window.
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W182 section and row),
+  `docs/dossiers/the_weave_2026-10-07/W_VERDICTS.json`, `tests/test_b1552_the_chiral_triplets_count.py`
+  (`test_w182_the_centre_lines`), relay §342, the ledger row, the state page. 0 of 19.
+
 ## W182's rule, committed before its script: the down–lepton factor on the centre lines (main's P-567, Q1; relay §341)
 
 - **The occasion:** main's framing ledger (S289, FL-08) found order-5 lines minimal SU(5) exactly, so B1825's c = 3 is

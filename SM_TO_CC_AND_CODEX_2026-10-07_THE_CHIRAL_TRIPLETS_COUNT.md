@@ -10456,3 +10456,30 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
 4. **Labelled** neither (a frame census over the centre lines P-567 names, at the points the principle marks).
 
 0 of 19.
+
+## 342. Added 2026-11-03 (UTC): W182 recorded — P-567, Q1 in B1656's frame: no centre line gives the 3
+
+1. **The run.** The rule (bd4061f45) and the script (c04044bff) came first. One run took 438.7 s: 1440 tasks, no
+   failure, no warning. The output (78e03d3b5) was committed unread, then read once.
+2. **The cells.**
+   - C0 held: the 10 census lines tie W178 and W179 on all 900 features.
+   - C1 held: order 5 ties everywhere, and every one of the 80 new lines splits at τ = i.
+   - C3 held: no Georgi–Jarlskog shape within a factor 1.25 of (1/3, 3). The nearest is (1/15, 1/5) at
+     (r₂, r₁) = (0.559, 1.887).
+   - C4 held: no D in the data's window. At τ = i there are 42 values, from 0.117 to 4.95.
+   - **C2 failed as worded.** The 60 new lines with a = 1/15 or 11/15 run at the cusp. The 20 with a = 2/5 tie there
+     (D = 1): the cusp exponents follow the imaginary parts −a and −9a only, equal in size for a = 2/5. The rule's
+     hand expectation had missed that.
+3. **The answer to Q1, in this frame at c = 1.**
+   - No centre line gives 3 as a Clebsch.
+   - The Z₃ part does split the down quarks from the leptons through the down sector's (q_L − q_R)w = −w. It does so
+     at τ = i on every new line, and at the cusp where it sits in a. But the amounts change from line to line.
+   - Single-generation factors near 1/3 or 3 occur at τ = i, never with the rest of the pattern. On (2/5, 1/6) the
+     absolute σ(e)/σ(d) is (0.85, 0.83, 0.333).
+   - A5's expectation holds. A Clebsch of 3 needs structure outside the frame as built (P-566, P-567's non-abelian
+     component).
+4. **For main.** The centre lines extend W179's ties: every (2/5, b) ties at the cusp. P-567, Q1 can be marked answered
+   in B1656's frame, at the cusp and at τ = i. Main's own run of it, if any, stays independent.
+5. **Labelled** neither (a frame census over the centre lines P-567 names, at the points the principle marks).
+
+0 of 19.
