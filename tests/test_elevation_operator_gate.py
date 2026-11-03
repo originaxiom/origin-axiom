@@ -468,6 +468,32 @@ def test_five_phase_master_toe_closure():
     assert float(p5["max_so13_lorentz_norm_invariance_error"]) < 1e-13
     assert p5["eisenstein_ring_generator_omega_shared_with_M3_cover"] is True
 
+    # Phase 6: Complete PMNS unitary overlap and leptonic CP phase
+    p6 = sc["phase6_complete_pmns_unitary_and_cp"]
+    assert float(p6["rel_error_theta13_lr_deg"]) < 0.03       # 8.79 deg vs 8.54 deg (+2.95%)
+    assert float(p6["rel_error_theta23_lr_deg"]) < 0.04       # 50.98 deg vs 49.1 deg (+3.82%)
+    assert float(p6["rel_error_delta_CP_PMNS"]) < 0.045       # 205.15 deg vs 197 deg (+4.14%)
+
+    # Phase 7: Parameter-free 1-loop top-Yukawa RGE integral I_t and light-generation closure
+    p7 = sc["phase7_exact_it_rge_light_generations"]
+    assert abs(float(p7["I_t_exact_1loop_integral"]) - 0.09845) < 1e-4
+    assert float(p7["chi2_six_dressed"]) < 0.20               # 0.1730 (down from 7.6937)
+    assert float(p7["chi2_ten_dressed"]) < 0.25               # 0.2399 (down from 7.7606)
+    assert float(p7["max_rel_error_across_all_10"]) < 0.032   # max error 3.16% across all 10 observables
+
+    # Phase 8: Dynamical modulus stabilization of tau_Golden
+    p8 = sc["phase8_dynamical_modulus_stabilization"]
+    assert float(p8["grad_norm_at_stationary_point"]) < 1e-9
+    assert p8["is_positive_definite_minimum"] is True
+    assert p8["avoids_cosmological_moduli_problem"] is True
+    assert float(p8["m_tau_PeV_pred"]) > 40.0                 # 48.83 PeV >> 10 TeV
+
+    # Phase 9: Cosmological baryogenesis (eta_B) and dark matter (Omega_DM / Omega_b)
+    p9 = sc["phase9_cosmological_baryogenesis_and_dark_matter"]
+    assert float(p9["rel_error_eta_B"]) < 0.02                # +1.57% (6.216e-10 vs 6.12e-10)
+    assert float(p9["rel_error_Omega_DM_over_Omega_b"]) < 0.004  # +0.33% (5.3820 vs 5.3643)
+
+
 
 
 
