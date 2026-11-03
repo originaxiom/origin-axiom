@@ -158,6 +158,14 @@ SEATS = [
     # every value claim as unverified until main's verification (P-390).
     dict(key="agy", label="the agy lane (frontier-2026-10-26)", branch="frontier-2026-10-26",
          remotes=("origin",), cell=("agy lane",)),
+    # ADDED 2026-11-03 (S287), on the owner's word to fetch every seat: the agy lane's second branch `agy/audit-2026-11-02`
+    # (forked from main at 64a2a3d4e, B1825's output committed unread; 16 commits to 951998a73) and an independent audit lane
+    # `audit/independent-2026-11-03` (forked at the same commit; its recomputed audit of the first). Registered so they are
+    # watched, pinned at their heads (rows 1510-1512, B1826).
+    dict(key="agyaudit", label="the agy lane (audit-2026-11-02)", branch="audit-2026-11-02",
+         remotes=("origin",), cell=("agy lane",)),
+    dict(key="independent", label="the independent audit lane (2026-11-03)", branch="independent-2026-11-03",
+         remotes=("origin",), cell=("independent audit lane",)),
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;

@@ -14229,7 +14229,9 @@
     "z3_generation",
     "torsion"
    ],
-   "refs": [],
+   "refs": [
+    "S287"
+   ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 8,
    "status": "banked",
@@ -15042,11 +15044,26 @@
     "wrt_quantum",
     "markov_cubic"
    ],
-   "refs": [],
+   "refs": [
+    "S287"
+   ],
    "obstacle": "particle_dict",
    "obstacle_conf": 32,
    "status": "dead",
    "domain": "topology"
+  },
+  "B1826": {
+   "slug": "the agy lanes november audit verified on main",
+   "motifs": [
+    "closing",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B182": {
    "slug": "multiplicity selection",

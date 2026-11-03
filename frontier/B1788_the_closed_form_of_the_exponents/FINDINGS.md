@@ -169,3 +169,6 @@ No B1786 output was read while B1788 was made.
   `compare_closed.py` → `compare_closed.json`, `compare_closed_run.txt`.
 
 The lock: `tests/test_b1788_the_closed_form_of_the_exponents.py`.
+
+> *2026-11-03 (S287, B1826): hypothesis (b) fails identically on the slopes 1/12, 1/4 and 5/12 -- c_j + c_k - c_1 - c_i vanishes within 5e-12 on every line and tau tested, at finite tau, in all three sectors (the agy lane derived the cusp limit; B1785 had seen 1/4). The lane's replacement of hypothesis (a) by fermion-independent exponents is not verified on main (P-559).*
+

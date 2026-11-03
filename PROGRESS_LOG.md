@@ -18271,3 +18271,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - Least χ²_ten 291.4 (threshold 23.21); the six alone 1.36, the four alone 0.35, never together; K's bits_CKM −194. Verification: the fresh evaluation at the address, the referee's independent node scan, the gates. 0 of 19.
 
+## 2026-11-03 — S287 the seats fetched; the agy lane's November work verified (B1826)
+
+- Two new lanes registered; three of the agy lane's results kept after main's own recomputation; its late claims declined. Verification: main_checks.py and cusp_b_check.py (B1826/verification), the lane's git history, the gates. 0 of 19.
+

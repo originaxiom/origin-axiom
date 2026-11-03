@@ -104,3 +104,6 @@
   Markov bound holds.
 - The pass side on B1741's box: all three legs on 7 of 10 worlds planted at an address, 1 of 10 with noise at σ;
   unrelated and anarchy CKMs 0 of 10 each. A world at an address would have been seen; ours is 291 in χ² from any.
+
+> *2026-11-03 (S287, B1826): the mechanism of the miss is a CKM corner inversion. At the least-chi2_ten address the frame's full |V| has |V_ub|/(|V_us||V_cb|) = 1.063 and |V_td|/(|V_us||V_cb|) = 0.094 (|V_ub|/|V_td| = 11.3; sin delta about 0.08): the Cabibbo rotation enters the (1,3) corner, not the (3,1) (the agy lane's diagnosis, verified by main's code; a strong tendency of the frame, not a no-go, by the independent audit lane's scan). The agy lane's four 'Step B defects' change nothing here (B1826 § 2; 4B, a gap in the card's word 'physical', is P-557).*
+

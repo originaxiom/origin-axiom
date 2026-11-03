@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1529** |
-| words of findings prose | **1,270,774** |
+| research arcs with findings | **1530** |
+| words of findings prose | **1,272,319** |
 | test lock files referenced | **931** |
-| arcs carrying an authored verdict | **1529** (100.0 %) |
+| arcs carrying an authored verdict | **1530** (100.0 %) |
 | recorded closures | **858** (691 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1042 |
+| PROVED | 1043 |
 | NEGATIVE | 382 |
 | OPEN | 93 |
 | RETRACTED | 12 |
@@ -65,11 +65,11 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1824`** (1416 words, 1 locks)  
-TWO OF B1810'S THIRTEEN DECLARED HIGGS DIRECTIONS ARE ONE (data-free; proved by hand, exact in B1691's q-series to q^25, re-derived by main in sympy and to 2e-40 numerically): a0 = D^2 R - E4 R/48 = (1/48)(th2 th3^3 th4^3, th2^3 th3^3 th4, i th2^3 th3 th4^3) = (eta^9/6)(th2^-2, th4^-2, i th3^-2) = eta^4 F_-2/6 identically, so N(a0) = i eta^21/864 (zero-free) and B1691's 'unidentified zero at t = -1/48' is eta^4 times B1730's zero-free F_-2; B1810's thirteen declared directions are twelve distinct (B1811's NEGATIVE unchanged: the null shared the duplicate); Step B's declared menu is twelve (0.115 bits less), the census's a0 and F_-2 rows to be confirmed equal before the seal. None of the 19.  
-`B1824_two_declared_directions_are_one/FINDINGS.md`
+**PROVED — `B1826`** (1387 words, 0 locks)  
+THE AGY LANE'S NOVEMBER WORK, VERIFIED ON MAIN (agy/audit-2026-11-02, 16 commits from main's 64a2a3d4e; with the physical-bridge lane's source review and the independent audit lane's recomputation): three results kept, each recomputed by main's code -- (1) the twisted channel norms c_s are identical in the up, down and lepton sectors (spread 1.3e-12; the closed form is sm:W177); (2) B1788's hypothesis (b) fails identically on the slopes 1/12, 1/4 and 5/12 (c_j + c_k - c_1 - c_i within 5e-12 on every line and tau tested, finite tau, all sectors); (3) B1825's miss is a CKM corner inversion (at its address |V_ub|/(|V_us||V_cb|) 1.06, |V_td|/(|V_us||V_cb|) 0.094, |V_ub|/|V_td| 11.3, sin delta 0.08), a strong tendency of the frame, not a no-go. DECLINED: FR-COV's 'pass' of B1825's gates and every 'parameter-free', 'zero-bit' or 'ToE' claim (tau fitted then named, checked on main from the lane's history; characters selected 3rd of 2048; m_H from a factor-2 RGE error; the rest coincidences at chance), conceded by the lane itself (0 of 19). The four 'Step B defects' change nothing in B1825 (4B, a gap in 'physical', P-557). 0 of 19.  
+`B1826_the_agy_lanes_november_audit_verified_on_main/FINDINGS.md`
 
-**NEGATIVE — `B1825`** (1571 words, 0 locks)  
+**NEGATIVE — `B1825`** (1664 words, 0 locks)  
 THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings, continuous tau with Im tau in [1, 4], c = 3) no rigid address of FR-FIB carries our world's ten (the six mass ratios, |V_us|, |V_cb|, |V_ub|, |J|): the least chi2_ten is 291.4 against 23.21 (a fresh evaluation 291.5; refereed by an independent scan of every stored node). The six alone are reached (least chi2_six 1.36) and the four alone are reached (0.35 at a node), never together: no address whose six lie near the best reaches the four (rigorous enclosures), and K's bits_CKM is -194 (knowing our six makes the frame's prediction of our mixing 2^194 times worse). The wall was seen on narrower menus (B1713: masses and mixing together a factor 3.59; B1720: they do not meet); this seals it on the whole menu at sigma resolution. NOT FOUND within the reach; nothing excluded beyond it. 0 of 19.  
 `B1825_step_b_the_nine_from_one_address/FINDINGS.md`
 

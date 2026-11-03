@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1529 |
-| … PROVED | 1042 |
+| arcs with a verdict file | 1530 |
+| … PROVED | 1043 |
 | … NEGATIVE | 382 |
 | … OPEN | 93 |
 | … RETRACTED | 12 |
-| register points | 556 |
-| … QUEUED | 213 |
+| register points | 561 |
+| … QUEUED | 218 |
 | … LEAD | 10 |
 | … OWNER | 5 |
 | … DONE | 319 |
 | … DECLINED | 9 |
-| harvest rows (the last number) | 1509 |
+| harvest rows (the last number) | 1514 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1826 | PROVED | THE AGY LANE'S NOVEMBER WORK, VERIFIED ON MAIN (agy/audit-2026-11-02, 16 commits from main's 64a2a3d4e; with the physical-bridge lane's source review and the independent audit lane's recomputation): three results kept,… |
 | B1825 | NEGATIVE | THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings,… |
 | B1824 | PROVED | TWO OF B1810'S THIRTEEN DECLARED HIGGS DIRECTIONS ARE ONE (data-free; proved by hand, exact in B1691's q-series to q^25, re-derived by main in sympy and to 2e-40 numerically): a0 = D^2 R - E4 R/48 = (1/48)(th2 th3^3 th4… |
 | B1823 | NEGATIVE | STEP A v2, THE TIED HEAVY SECTOR'S ONE-LOOP VACUUM (P-518, P-519; data-free; refereed hostile, FAIL as drafted, the three blocking findings verified by main and applied): NEGATIVE as a compression. Under the plan's seal… |
@@ -42,7 +43,6 @@
 | B1816 | PROVED | THE CANONICAL END'S ACCESSORY PARAMETER IS A WEIL-PETERSSON PRIMITIVE (P-481; data-free; refereed hostile, PASS WITH CORRECTIONS): on its uniformising branch B1667's accessory parameter satisfies dC/d(tau-bar) = i h_WP(… |
 | B1815 | PROVED | THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY (the owner-approved clock plan T1-T4; data-free; refereed hostile, PASS WITH CORRECTIONS): the walk model of B1662/B1663 (L, R at (1-p)/2, L^-1, R^-1 at p/2) has endpo… |
 | B1814 | NEGATIVE | THE MEASURED WORLD AS A DRAW FROM THE WEAVE'S OWN MEASURE (P-437, stage 3; sealed 86cb26b30; NEGATIVE as sealed for D2's prediction): by the sealed statistic the six do not separate B1813's two clocks (p_F 0.43 under th… |
-| B1813 | PROVED | THE WEAVE'S OWN MEASURE DEPENDS ON HOW ITS THREADS ARE COUNTED (the owner's whole-existence computation, stage 1; P-107; data-free): left unforced, the threads produce a definite measure on tau for each counting rule, a… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -82,6 +82,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S287 THE SEATS FETCHED; THE AGY LANE's NOVEMBER WORK VERIFIED ON MAIN (B1826): THREE RESULTS KEPT, EVERY 'PARAMETER-FREE' CLAIM DECLINED (2026-11-03)
 - S286 B1825 NEGATIVE AS SEALED: NO SUPPORT. THE FRAME MAKES OUR MASS RATIOS AND OUR MIXING, NEVER AT ONE ADDRESS (2026-10-31)
 - S285 THE PASS SIDE ON B1741's BOX: POWER AT AN ADDRESS, LITTLE A SIGMA AWAY; THE SIX DO NOT COMPRESS; DETERMINISM PASSES (2026-10-31)
 - S284 THE CALIBRATION's PLANTED LEGS WERE VOID; THE PASS SIDE MOVED ONTO B1741's BOX; DETERMINISM AT THE CENSUS's PRECISION (2026-10-31)
@@ -89,11 +90,10 @@
 - S282 p2's WORKERS BOUNDED; THE DRY RUN's MEASUREMENTS (2026-10-31)
 - S281 THE MACHINE PANICKED UNDER THE PRE-SEAL JOBS; STEP B's INDEX MADE MEMORY-LEAN (2026-10-31)
 - S280 THE DUPLICATE CHECK MADE PRECISION-AWARE, AFTER ITS AGGREGATE DIAGNOSTIC (2026-10-31)
-- S279 THE a0/F_-2 DUPLICATE CHECK REFUSED THE CENSUS; AN AGGREGATE DIAGNOSTIC COMMITTED BEFORE IT RUNS (2026-10-31)
 
 ## The latest campaign line
 
-LATEST (2026-10-31, S286: the final attack's sealed test of one address is NEGATIVE (B1825). The frame can produce our six mass ratios, and separately our quark mixing, but no single point of it produces both: the closest it comes is far outside the measured errors. The next question is whether the mixing comes from two points meeting. 0 of 19.)
+LATEST (2026-11-03, S287: every seat fetched. Another lane's overnight claim to have derived the Standard Model and more does not survive: its fits were chosen after seeing the data, as two independent audits and its own retraction show. Three of its mathematical results hold on our own code, one of which explains why the last test failed: the frame puts the quark mixing's smallest element in the wrong corner (B1826). 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

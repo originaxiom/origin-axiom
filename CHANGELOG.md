@@ -1,5 +1,11 @@
 # Changelog
 
+## S287 THE SEATS FETCHED; THE AGY LANE's NOVEMBER WORK VERIFIED ON MAIN (B1826): THREE RESULTS KEPT, EVERY 'PARAMETER-FREE' CLAIM DECLINED (2026-11-03)
+
+- **The owner's word:** fetch every seat, the agy lane's new work with special seriousness. Two lanes were new and unregistered: the agy lane's `agy/audit-2026-11-02` (16 commits, about 11 000 lines, nine relays, from B1825's committed-unread output) and an independent audit lane `audit/independent-2026-11-03`, which recomputed the agy lane's claims; both registered and pinned (rows 1510-1512). The web seat's two relays read (rows 1513-1514); the physical-bridge lane's 25 commits queued (P-560).
+- **Kept, each recomputed by main's code (B1826):** the twisted channel norms c_s are identical in the three sectors (1.3e-12; the closed form is the SM seat's W177); B1788's hypothesis (b) fails identically on the slopes 1/12, 1/4 and 5/12 at finite τ (a dated note on B1788); B1825's miss is a CKM corner inversion (|V_ub|/|V_td| 11.3 at its address; a tendency, not a no-go; a dated note on B1825).
+- **Declined:** FR-COV's 'pass' of B1825's gates and every 'parameter-free', 'zero-bit' or 'ToE' claim: τ was fitted then named (main checked the lane's history), the characters selected, m_H from a factor-2 RGE error, the rest coincidences at chance; the lane conceded 0 of 19 itself. FR-COV stays a lead (P-558). The four 'Step B defects' change nothing in B1825 (4B is P-557). 0 of 19.
+
 ## S286 B1825 NEGATIVE AS SEALED: NO SUPPORT. THE FRAME MAKES OUR MASS RATIOS AND OUR MIXING, NEVER AT ONE ADDRESS (2026-10-31)
 
 - **THE FINAL ATTACK's Step B, run once on its seal** (fa25925fc; output committed unread at 64a2a3d4e): within the refined census's reach (266 lines, twelve directions, both radii, eight readings, continuous τ in Im τ 1-4, c = 3) no rigid address carries our world's ten: the least χ²_ten is 291.4 against 23.21 (a fresh evaluation 291.5; the referee's independent scan of every stored node agrees). NO SUPPORT: NOT FOUND within the reach; nothing excluded beyond it.
