@@ -1,0 +1,260 @@
+(1) the half-period classes: 266 census lines
+    order  1: -: 1
+    order  2: (0,1/2): 1, (1/2,0): 1, (1/2,1/2): 1
+    order  3: -: 4
+    order  4: (0,1/2): 2, (1/2,0): 2, (1/2,1/2): 2
+    order  5: -: 12
+    order  6: (0,1/2): 4, (1/2,0): 4, (1/2,1/2): 4
+    order  7: -: 24
+    order  8: (0,1/2): 8, (1/2,0): 8, (1/2,1/2): 8
+    order  9: -: 36
+    order 10: (0,1/2): 12, (1/2,0): 12, (1/2,1/2): 12
+    order 11: -: 60
+    order 12: (0,1/2): 16, (1/2,0): 16, (1/2,1/2): 16
+    check (1)'s (1/4, 1/8): order 8, class (0,1/2)
+    check (1)'s (2/5, 1/10): order 10, class (0,1/2)
+    B1825's address (3/8, 3/8): order 8, class (1/2,1/2)
+(2) coincidences by direction (radius L_2; a pair counts when it holds at both tau)
+    order  1, class - (1 lines)  [pair: full + ratios only]
+        generic  u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        no QI    u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        no QJ    u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        no QK    u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        QI only  u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        QJ only  u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        QK only  u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+    order  2, class (0,1/2) (1 lines)  [pair: full + ratios only]
+        generic  u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        no QI    u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        no QJ    u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        no QK    u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        QI only  u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        QJ only  u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        QK only  u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+    order  2, class (1/2,0) (1 lines)  [pair: full + ratios only]
+        generic  u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        no QI    u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        no QJ    u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        no QK    u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        QI only  u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        QJ only  u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        QK only  u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+    order  2, class (1/2,1/2) (1 lines)  [pair: full + ratios only]
+        generic  u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        no QI    u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        no QJ    u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        no QK    u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        QI only  u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        QJ only  u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+        QK only  u=d 1 + 0, d=e 1 + 0, u=e 1 + 0
+    order  3, class - (4 lines)  [pair: full + ratios only]
+        generic  u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        no QI    u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        no QJ    u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        no QK    u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        QI only  u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        QJ only  u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        QK only  u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+    order  4, class (0,1/2) (2 lines)  [pair: full + ratios only]
+        generic  u=d 0 + 0, d=e 2 + 0, u=e 0 + 0
+        no QI    u=d 2 + 0, d=e 2 + 0, u=e 2 + 0
+        no QJ    u=d 0 + 0, d=e 2 + 0, u=e 0 + 0
+        no QK    u=d 0 + 0, d=e 2 + 0, u=e 0 + 0
+        QI only  u=d 2 + 0, d=e 2 + 0, u=e 2 + 0
+        QJ only  u=d 2 + 0, d=e 2 + 0, u=e 2 + 0
+        QK only  u=d 2 + 0, d=e 2 + 0, u=e 2 + 0
+    order  4, class (1/2,0) (2 lines)  [pair: full + ratios only]
+        generic  u=d 0 + 0, d=e 2 + 0, u=e 0 + 0
+        no QI    u=d 0 + 0, d=e 2 + 0, u=e 0 + 0
+        no QJ    u=d 2 + 0, d=e 2 + 0, u=e 2 + 0
+        no QK    u=d 0 + 0, d=e 2 + 0, u=e 0 + 0
+        QI only  u=d 2 + 0, d=e 2 + 0, u=e 2 + 0
+        QJ only  u=d 2 + 0, d=e 2 + 0, u=e 2 + 0
+        QK only  u=d 2 + 0, d=e 2 + 0, u=e 2 + 0
+    order  4, class (1/2,1/2) (2 lines)  [pair: full + ratios only]
+        generic  u=d 0 + 0, d=e 2 + 0, u=e 0 + 0
+        no QI    u=d 0 + 0, d=e 2 + 0, u=e 0 + 0
+        no QJ    u=d 0 + 0, d=e 2 + 0, u=e 0 + 0
+        no QK    u=d 2 + 0, d=e 2 + 0, u=e 2 + 0
+        QI only  u=d 2 + 0, d=e 2 + 0, u=e 2 + 0
+        QJ only  u=d 2 + 0, d=e 2 + 0, u=e 2 + 0
+        QK only  u=d 2 + 0, d=e 2 + 0, u=e 2 + 0
+    order  5, class - (12 lines)  [pair: full + ratios only]
+        generic  u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+        no QI    u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+        no QJ    u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+        no QK    u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+        QI only  u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+        QJ only  u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+        QK only  u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+    order  6, class (0,1/2) (4 lines)  [pair: full + ratios only]
+        generic  u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        no QI    u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        no QJ    u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        no QK    u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        QI only  u=d 4 + 0, d=e 0 + 4, u=e 0 + 4
+        QJ only  u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        QK only  u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+    order  6, class (1/2,0) (4 lines)  [pair: full + ratios only]
+        generic  u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        no QI    u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        no QJ    u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        no QK    u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        QI only  u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        QJ only  u=d 4 + 0, d=e 0 + 4, u=e 0 + 4
+        QK only  u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+    order  6, class (1/2,1/2) (4 lines)  [pair: full + ratios only]
+        generic  u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        no QI    u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        no QJ    u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        no QK    u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        QI only  u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        QJ only  u=d 4 + 0, d=e 0 + 0, u=e 0 + 0
+        QK only  u=d 4 + 0, d=e 0 + 4, u=e 0 + 4
+    order  7, class - (24 lines)  [pair: full + ratios only]
+        generic  u=d 0 + 0, d=e 0 + 0, u=e 24 + 0
+        no QI    u=d 0 + 0, d=e 0 + 0, u=e 24 + 0
+        no QJ    u=d 0 + 0, d=e 0 + 0, u=e 24 + 0
+        no QK    u=d 0 + 0, d=e 0 + 0, u=e 24 + 0
+        QI only  u=d 0 + 0, d=e 0 + 0, u=e 24 + 0
+        QJ only  u=d 0 + 0, d=e 0 + 0, u=e 24 + 0
+        QK only  u=d 0 + 0, d=e 0 + 0, u=e 24 + 0
+    order  8, class (0,1/2) (8 lines)  [pair: full + ratios only]
+        generic  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QI    u=d 0 + 0, d=e 8 + 0, u=e 0 + 0
+        no QJ    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QK    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QI only  u=d 0 + 0, d=e 8 + 0, u=e 0 + 0
+        QJ only  u=d 0 + 0, d=e 8 + 0, u=e 0 + 0
+        QK only  u=d 0 + 0, d=e 8 + 0, u=e 0 + 0
+    order  8, class (1/2,0) (8 lines)  [pair: full + ratios only]
+        generic  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QI    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QJ    u=d 0 + 0, d=e 8 + 0, u=e 0 + 0
+        no QK    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QI only  u=d 0 + 0, d=e 8 + 0, u=e 0 + 0
+        QJ only  u=d 0 + 0, d=e 8 + 0, u=e 0 + 0
+        QK only  u=d 0 + 0, d=e 8 + 0, u=e 0 + 0
+    order  8, class (1/2,1/2) (8 lines)  [pair: full + ratios only]
+        generic  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QI    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QJ    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QK    u=d 0 + 0, d=e 8 + 0, u=e 0 + 0
+        QI only  u=d 0 + 0, d=e 8 + 0, u=e 0 + 0
+        QJ only  u=d 0 + 0, d=e 8 + 0, u=e 0 + 0
+        QK only  u=d 0 + 0, d=e 8 + 0, u=e 0 + 0
+    order  9, class - (36 lines)  [pair: full + ratios only]
+        generic  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QI    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QJ    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QK    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QI only  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QJ only  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QK only  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+    order 10, class (0,1/2) (12 lines)  [pair: full + ratios only]
+        generic  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QI    u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+        no QJ    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QK    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QI only  u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+        QJ only  u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+        QK only  u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+    order 10, class (1/2,0) (12 lines)  [pair: full + ratios only]
+        generic  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QI    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QJ    u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+        no QK    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QI only  u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+        QJ only  u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+        QK only  u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+    order 10, class (1/2,1/2) (12 lines)  [pair: full + ratios only]
+        generic  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QI    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QJ    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QK    u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+        QI only  u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+        QJ only  u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+        QK only  u=d 0 + 0, d=e 12 + 0, u=e 0 + 0
+    order 11, class - (60 lines)  [pair: full + ratios only]
+        generic  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QI    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QJ    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QK    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QI only  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QJ only  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QK only  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+    order 12, class (0,1/2) (16 lines)  [pair: full + ratios only]
+        generic  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QI    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QJ    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QK    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QI only  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QJ only  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QK only  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+    order 12, class (1/2,0) (16 lines)  [pair: full + ratios only]
+        generic  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QI    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QJ    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QK    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QI only  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QJ only  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QK only  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+    order 12, class (1/2,1/2) (16 lines)  [pair: full + ratios only]
+        generic  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QI    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QJ    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        no QK    u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QI only  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QJ only  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+        QK only  u=d 0 + 0, d=e 0 + 0, u=e 0 + 0
+    read S~ in all three sectors, the table is the same in every cell: yes
+(3) the menu on the class lines of orders 4, 8 and 10 (radius L_2; the largest departure over the class's lines and both tau, by decade bin)
+    order  4 class (0,1/2)   ( 2 lines) u=d, read S : DR >=1e-2; a0 >=1e-2; R <1e-2; t=-5/288 >=1e-2; F_-10 <1e-2; F_-6 <1e-2; F_-2 >=1e-2; F_6 <1e-2; F_10 <1e-5; F_14 <1e-8; F_18 <1e-8; F_22 <1e-8; F_26 <1e-8
+    order  4 class (0,1/2)   ( 2 lines) u=d, read S~: DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-2; F_-6 <1e-2; F_-2 >=1e-2; F_6 <1e-2; F_10 <1e-5; F_14 <1e-8; F_18 <1e-8; F_22 <1e-8; F_26 <1e-8
+    order  4 class (1/2,0)   ( 2 lines) u=d, read S : DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-5; F_-6 <1e-2; F_-2 >=1e-2; F_6 >=1e-2; F_10 >=1e-2; F_14 >=1e-2; F_18 >=1e-2; F_22 >=1e-2; F_26 >=1e-2
+    order  4 class (1/2,0)   ( 2 lines) u=d, read S~: DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-5; F_-6 <1e-2; F_-2 >=1e-2; F_6 >=1e-2; F_10 >=1e-2; F_14 >=1e-2; F_18 >=1e-2; F_22 >=1e-2; F_26 >=1e-2
+    order  4 class (1/2,1/2) ( 2 lines) u=d, read S : DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-2; F_-6 <1e-2; F_-2 >=1e-2; F_6 >=1e-2; F_10 >=1e-2; F_14 >=1e-2; F_18 >=1e-2; F_22 >=1e-2; F_26 >=1e-2
+    order  4 class (1/2,1/2) ( 2 lines) u=d, read S~: DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-2; F_-6 <1e-2; F_-2 >=1e-2; F_6 >=1e-2; F_10 >=1e-2; F_14 >=1e-2; F_18 >=1e-2; F_22 >=1e-2; F_26 >=1e-2
+    order  8 class (0,1/2)   ( 8 lines) d=e, read S : DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-2; F_-6 <1e-2; F_-2 >=1e-2; F_6 <1e-2; F_10 <1e-2; F_14 <1e-5; F_18 <1e-8; F_22 <1e-8; F_26 <1e-8
+    order  8 class (0,1/2)   ( 8 lines) d=e, read S~: DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-2; F_-6 <1e-2; F_-2 >=1e-2; F_6 <1e-2; F_10 <1e-2; F_14 <1e-5; F_18 <1e-8; F_22 <1e-8; F_26 <1e-8
+    order  8 class (1/2,0)   ( 8 lines) d=e, read S : DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-2; F_-6 <1e-2; F_-2 >=1e-2; F_6 >=1e-2; F_10 >=1e-2; F_14 >=1e-2; F_18 >=1e-2; F_22 >=1e-2; F_26 >=1e-2
+    order  8 class (1/2,0)   ( 8 lines) d=e, read S~: DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-2; F_-6 <1e-2; F_-2 >=1e-2; F_6 >=1e-2; F_10 >=1e-2; F_14 >=1e-2; F_18 >=1e-2; F_22 >=1e-2; F_26 >=1e-2
+    order  8 class (1/2,1/2) ( 8 lines) d=e, read S : DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-2; F_-6 <1e-2; F_-2 >=1e-2; F_6 >=1e-2; F_10 >=1e-2; F_14 >=1e-2; F_18 >=1e-2; F_22 >=1e-2; F_26 >=1e-2
+    order  8 class (1/2,1/2) ( 8 lines) d=e, read S~: DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-2; F_-6 <1e-2; F_-2 >=1e-2; F_6 >=1e-2; F_10 >=1e-2; F_14 >=1e-2; F_18 >=1e-2; F_22 >=1e-2; F_26 >=1e-2
+    order 10 class (0,1/2)   (12 lines) d=e, read S : DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-2; F_-6 <1e-2; F_-2 >=1e-2; F_6 <1e-2; F_10 <1e-2; F_14 <1e-5; F_18 <1e-8; F_22 <1e-8; F_26 <1e-8
+    order 10 class (0,1/2)   (12 lines) d=e, read S~: DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-2; F_-6 <1e-2; F_-2 >=1e-2; F_6 <1e-2; F_10 <1e-2; F_14 <1e-5; F_18 <1e-8; F_22 <1e-8; F_26 <1e-8
+    order 10 class (1/2,0)   (12 lines) d=e, read S : DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-2; F_-6 <1e-2; F_-2 >=1e-2; F_6 >=1e-2; F_10 >=1e-2; F_14 >=1e-2; F_18 >=1e-2; F_22 >=1e-2; F_26 >=1e-2
+    order 10 class (1/2,0)   (12 lines) d=e, read S~: DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-2; F_-6 <1e-2; F_-2 >=1e-2; F_6 >=1e-2; F_10 >=1e-2; F_14 >=1e-2; F_18 >=1e-2; F_22 >=1e-2; F_26 >=1e-2
+    order 10 class (1/2,1/2) (12 lines) d=e, read S : DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-2; F_-6 <1e-2; F_-2 >=1e-2; F_6 >=1e-2; F_10 >=1e-2; F_14 >=1e-2; F_18 >=1e-2; F_22 >=1e-2; F_26 >=1e-2
+    order 10 class (1/2,1/2) (12 lines) d=e, read S~: DR >=1e-2; a0 >=1e-2; R >=1e-2; t=-5/288 >=1e-2; F_-10 <1e-2; F_-6 <1e-2; F_-2 >=1e-2; F_6 >=1e-2; F_10 >=1e-2; F_14 >=1e-2; F_18 >=1e-2; F_22 >=1e-2; F_26 >=1e-2
+    each direction's smallest |component|/|S| over both tau (QI, QJ, QK):
+        DR        9.5e-02, 7.1e-01, 6.8e-01
+        a0        9.8e-01, 6.7e-02, 6.7e-02
+        R         4.8e-02, 7.0e-01, 7.1e-01
+        t=-5/288  2.3e-01, 5.8e-01, 7.0e-01
+        F_-10     1.0e+00, 1.4e-06, 1.4e-06
+        F_-6      1.0e+00, 3.1e-04, 3.0e-04
+        F_-2      9.8e-01, 6.7e-02, 6.7e-02
+        F_6       2.2e-04, 7.0e-01, 7.1e-01
+        F_10      9.8e-07, 6.9e-01, 7.1e-01
+        F_14      4.4e-09, 6.9e-01, 7.1e-01
+        F_18      2.0e-11, 6.8e-01, 7.1e-01
+        F_22      9.2e-14, 6.8e-01, 7.1e-01
+        F_26      4.2e-16, 6.7e-01, 7.1e-01
+(4) the exact zeros: rows with m1/m3 < 1e-12 (thirteen directions, both radii, both readings per sector, both tau)
+    order  1 ( 1 lines): null up 16/16; null down 16/16; null lepton 16/16; other up 0/88; other down 0/88; other lepton 0/88
+    order  2 ( 3 lines): null up 48/48; null down 48/48; null lepton 48/48; other up 0/264; other down 0/264; other lepton 0/264
+    order  3 ( 4 lines): null up 64/64; null down 64/64; null lepton 64/64; other up 0/352; other down 0/352; other lepton 0/352
+    order  4 ( 6 lines): null up 96/96; null down 96/96; null lepton 96/96; other up 528/528; other down 528/528; other lepton 528/528
+    order  5 (12 lines): null up 192/192; null down 192/192; null lepton 192/192; other up 0/1056; other down 0/1056; other lepton 0/1056
+    order  6 (12 lines): null up 192/192; null down 192/192; null lepton 192/192; other up 0/1056; other down 0/1056; other lepton 0/1056
+    order  7 (24 lines): null up 384/384; null down 384/384; null lepton 384/384; other up 0/2112; other down 0/2112; other lepton 0/2112
+    order  8 (24 lines): null up 384/384; null down 384/384; null lepton 384/384; other up 0/2112; other down 0/2112; other lepton 0/2112
+    order  9 (36 lines): null up 576/576; null down 576/576; null lepton 576/576; other up 0/3168; other down 0/3168; other lepton 0/3168
+    order 10 (36 lines): null up 576/576; null down 576/576; null lepton 576/576; other up 0/3168; other down 0/3168; other lepton 0/3168
+    order 11 (60 lines): null up 960/960; null down 960/960; null lepton 960/960; other up 0/5280; other down 0/5280; other lepton 0/5280
+    order 12 (48 lines): null up 768/768; null down 768/768; null lepton 768/768; other up 0/4224; other down 0/4224; other lepton 4224/4224
+(5) the order-4 mixing (six lines, thirteen directions, both radii, four (up, down) readings, both tau)
+    rows with the mixing defined: 1056; largest |V_us| 2.0e-12, |V_ub| 1.7e-12, |J| 9.4e-25; smallest |V_cb| 6.3e-05; rows with the mixing undefined: 192
+(6) the collapsed branches (orders 1 and 2; null directions read alike in all three sectors; both radii)
+    branches: 32; with the three sectors sharing their spectrum, m1/m3 < 1e-12 and V = 1 at both tau: 32
