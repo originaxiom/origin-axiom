@@ -681,6 +681,29 @@ def test_five_phase_master_toe_closure():
     assert pc15["order_of_S4_on_3_generations"] == 24
     assert pc15["forces_isotropic_generation_metric_H_eq_a_I3"] is True
 
+    # Theorem 16: Cross-Branch Verification of origin/main (S289/S290, B1827) & Weave Branch (W181 Cusp Trigonometry)
+    t16 = sc["theorem16_cross_branch_verification_s289_s290_and_w181_cusp_trigonometry"]
+    pa16 = t16["part_A_s289_b1827_order5_su5_and_phase_law"]
+    assert float(pa16["b1744_pole_residue_evenness_err"]) < 1e-14
+    assert float(pa16["max_order5_phased_transpose_err_across_5_lines"]) < 1e-14
+    assert float(pa16["unphased_diff_matches_2sin_pi_5_err"]) < 1e-14
+
+    pb16 = t16["part_B_s290_b1827_adjugate_and_gj45_sign_bug"]
+    assert float(pb16["adj_vs_quaternion_conjugate_err"]) < 1e-15
+    assert float(pb16["adj_times_S_minus_det_S_I2_err"]) < 1e-14
+    assert float(pb16["max_frob_norm_formula_err"]) < 1e-14
+    assert float(pb16["true_5H_control_is_k_minus_1_err"]) < 1e-14
+    assert float(pb16["main_k_plus_1_and_k_minus_3_have_equal_frob_distance_err"]) < 1e-14
+
+    pc16 = t16["part_C_w181_analytic_trigonometric_cusp_limits"]
+    assert float(pc16["g2_line_1_2_1_5_sqrt_Bk_over_Bj_vs_cot_pi_10_err"]) < 1e-14
+    assert float(pc16["g2_line_1_2_1_5_abs_Rj_over_Rk_vs_sqrt5_err"]) < 1e-12
+    assert float(pc16["g2_line_1_2_1_5_D_inf_vs_cot_pi_20_err"]) < 1e-12
+    assert float(pc16["line_0_2_7_sqrt_B1_over_Bi_vs_cot_pi_7_err"]) < 1e-14
+    assert float(pc16["line_0_2_7_r1_inf_vs_cos2pi7_over_cos3pi7_err"]) < 1e-13
+    assert float(pc16["line_0_2_7_r2_inf_vs_cos3pi7_over_cospi7_err"]) < 1e-13
+    assert float(pc16["line_0_2_7_D_inf_vs_exact_cosine_ratio_err"]) < 1e-12
+
 
 
 

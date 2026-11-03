@@ -109,3 +109,45 @@ Every single item flagged in `audit_independent/theorems_10_14_update/REPORT_951
    - Removed `"continuous_parameters": 0` and `"L_tau_bits": 0.0` from `theorem8` (replaced by `"continuous_parameters_fitted_before_naming": 2`, `"L_tau_post_inspection_bits": 9.03`, `"zero_bit_modulus_derivation_established": False`, and `"bare_arg_det_Yu_Yd_rad": -2.92193`).
    - Removed `"post_hoc_z8_selection_bits_remaining": 0.0` and `"bar_theta_QCD_pred": 0.0` from `theorem9` (replaced by `"post_hoc_character_selection_bits": 8.0`, `"zero_bit_character_derivation_established": False`, `"bare_arg_det_Yu_Yd_rad": -2.92193`, `"strong_cp_solved_on_complex_background": False`, and corrected 1-loop Buttazzo rate `mH_GeV_1loop_corr_at_mt165`).
    - Updated `phase1`-`phase9` and `summary_metrics` so that every post-hoc selection, frame-dependent diagnostic, half-rate legacy RGE number, and $|b_{10}|^2$ vs $|\frac{1}{4}\eta^6|$ substitution is explicitly flagged in the returned dictionaries.
+
+---
+
+## 4. Zero-Trust Cross-Branch Audit of `origin/main` (`S289/S290`, `B1827`) and the Weave Branch (`f7c212a4f` / `7f08d4845`, `W181`) — `Theorem 16`
+
+We fetched and audited the latest commits across all branches (`origin/main` at `fdfbb2dfa` / `e1e3c6c2f` and the weave branch at `f7c212a4f` / `7f08d4845`), and locked their exact mathematical verification in **`Theorem 16`** (`theorem16_cross_branch_verification_s289_s290_and_w181_cusp_trigonometry()`):
+
+### 4.1 Audit of `origin/main` `S289` (`fdfbb2dfa`, `B1827` — Order-5 Minimal $SU(5)$ Structure & `P562_NOTE.md`)
+- **What `main` got RIGHT:**
+  1. **`B1744` pole-residue evenness (`P562_NOTE.md` correction):** At the simple pole $z^{-1}$, $R_s(-w, \tau) = R_s(w, \tau)$ is strictly even (`3.65e-16`), because the minus signs from $z \mapsto -z$ and $\theta_1(-z) = -\theta_1(z)$ cancel in $\lim_{z\to 0} z f(z)$.
+     - *Added by our `Theorem 15` Part B:* While the $z^{-1}$ pole residue $R_1(w)$ is even, the **$z^0$ Laurent constant coefficient** $a_{0,1}^{(s)}(w) = P_{1,\text{reg}}^{(s)}(0) / R_1^{(s)}$ picks up one extra power of $z \mapsto -z$ and is **strictly ODD** ($a_{0,1}^{\text{up}} + a_{0,1}^{\text{down}} = 0$ to `1.79e-14`)!
+  2. **Order-5 minimal $SU(5)$ structure (`order5_check.py`):** On all order-5 lines $w = \frac{a}{5}\tau - \frac{b}{5}$, $R_1^{\text{up}}(w, \tau) = 0$ (`< 4e-16`), so at $a_0 = 0$, $Y_u = Y_u^T$ is strictly symmetric and the down and lepton singular values are identical (`sv(e)/sv(d) = [1, 1, 1]`).
+- **What `main`'s `order5_check.py` MISSED on $(1/5, 3/5)$:**
+  - In `order5_check_out.txt`, `main` reported `||Ye - Yd^T|| / ||Yd|| = 1.2e+00` on $(1/5, 3/5)$ (`1.1755705 = 2 sin(pi/5)`), making it appear as though $Y_e = Y_d^T$ only held on $(2/5, 0)$.
+  - `Theorem 16` Part A proves the **exact 5th-root-of-unity phase law** valid on **every** order-5 line $w = \frac{a}{5}\tau - \frac{b}{5}$:
+    $$(u_1^{\text{lepton}},\, \vec{m}^{\text{lepton}}) = e^{i\phi_{a,b}}\,(-u_1^{\text{down}},\, +\vec{m}^{\text{down}}), \qquad Y_e(0, \vec{h}) = e^{i\phi_{a,b}}\,Y_d(0, \vec{h})^T \quad (\text{exact to } 2.09\times 10^{-15}\text{ across all } 5\text{ lines}),$$
+    where $e^{i\phi_{1,3}} = e^{2\pi i/5}$ has $|e^{2\pi i/5} - 1| = 2\sin(\pi/5) = 1.1755705046$ (`err = 2.22e-15`).
+
+### 4.2 Audit of `origin/main` `S290` (`e1e3c6c2f`, `B1827` — Adjugate Reading $\operatorname{adj}(S)$ & Sign Bug in `gj45_probe.py`)
+- **What `main` got RIGHT (`adj(S)` in `S290`):**
+  - For any $2\times 2$ complex quaternion Higgs $S = a_0 I_2 + \vec{h}\cdot\vec{Q}$, the matrix adjugate
+    $$\operatorname{adj}(S) = \varepsilon S^T \varepsilon^T = (\det S) S^{-1} = a_0 I_2 - \vec{h}\cdot\vec{Q} = -\left(-a_0 I_2 + \vec{h}\cdot\vec{Q}\right)$$
+    holds to `0.0` / `9.39e-17`. Unlike the non-holomorphic SM reading $\tilde{S} = \varepsilon S^* \varepsilon^T = \bar{a}_0 I_2 + \bar{\vec{h}}\cdot\vec{Q}$ (which conjugates $\vec{h} \to \bar{\vec{h}}$ and ruins $|V_{ud}| > 0.9$), $-\operatorname{adj}(S)$ is **100% holomorphic**, equals $+S$ when $a_0 = 0$ (so it was invisible on the 3D vector Higgs), and flips the relative sign of $a_0$ vs $\vec{h}$ between up and down!
+- **Sign Bug Caught in `main`'s `gj45_probe.py` (`P-566`):**
+  - In `gj45_probe.py`, `main` set $a_0^{\text{down}} = +a_0$ and $a_0^{\text{lepton}} = k a_0$, calling **$k = +1$** "a 5-like control" and **$k = -3$** "the 45's Clebsch".
+  - However, because the $SU(5)$ $\mathbf{10} \leftrightarrow \mathbf{\bar{5}}$ transposition between $d = (Q, d^c)$ and $e = (L, e^c)$ already flips the identity residue sign ($u_1^{\text{lepton}} = -u_1^{\text{down}}$ on $(2/5, 0)$), `Theorem 16` Part B proves the **exact Frobenius difference identity**:
+    $$Y_e(k a_0) - Y_d(a_0)^T = (k + 1)\,a_0\,\left(-u_1^{\text{down}} I_3 + [\vec{m}^{\text{down}}]_\times\right),$$
+    $$\|Y_e(k a_0) - Y_d(a_0)^T\|_F = |k + 1|\cdot |a_0|\cdot \sqrt{3|u_1^{\text{down}}|^2 + 2\|\vec{m}^{\text{down}}\|^2} \quad (\text{verified to } 4.62\times 10^{-15})!$$
+  - Consequently:
+    1. The **true $\mathbf{5}_H$ control** (where $Y_e = Y_d^T$ and $m_e : m_\mu : m_\tau = m_d : m_s : m_b$ holds identically for all $a_0$) is **$k = -1$** (`||Ye(-a0) - Yd(a0)^T||_F = 4.62e-15`), **NOT $k = +1$**!
+    2. Because $|k + 1| = 2$ at **both** $k = +1$ and $k = -3$, `main`'s "5-like control" $k = +1$ and `main`'s "45 Clebsch" $k = -3$ sit at the **exact same Frobenius distance** from $Y_d^T$ (`1.6608234` at $\tau_{\text{Golden}}$, `diff = 4.44e-16`), which is why $k = +1$ broke the $\mathbf{5}_H$ degeneracy in `gj45_probe_out.txt` line 120 (`(m_e/m_tau)/(m_d/m_b) = 131.564`)!
+    3. Relative to the true $\mathbf{5}_H$ coupling $k_5 = -1$, the true $\mathbf{45}_H$ Georgi-Jarlskog Clebsch $(-3)\times k_5$ is **$k_{45} = +3$** (where $|k + 1| = 4$).
+
+### 4.3 Audit of the Weave Branch `W181` (`f7c212a4f` / `7f08d4845`)
+- **What `W181` found numerically vs Our Analytic Proof (`Theorem 16` Part C):**
+  - `W181` ran a 2126.8-second numerical Neville extrapolation and noted post hoc (`"a pattern read on the recorded numbers, not derived"`) that the cusp double ratios $D_\infty$ are exact cosine ratios of the line's order:
+    - On the G2 lines $(1/2, 1/5)$ and $(1/2, 3/10)$, $D_\infty = \cot(\pi/20) = 6.3137515147$, and
+    - On $(0, 2/7)$, $r_{1\infty} = \frac{\cos(2\pi/7)}{\cos(3\pi/7)}$, $r_{2\infty} = \frac{\cos(3\pi/7)}{\cos(\pi/7)}$, and $D_\infty = \frac{\cos(\pi/7)\cos(2\pi/7)}{\cos^2(3\pi/7)} = 11.3448142828$.
+  - `Theorem 16` Part C proves **analytically** from `Theorem 1` (`closed_form_cA` linear slopes $B_s = \frac{\pi^2}{\sin^2(\pi\phi_s/2)}$) and the $q \to 0$ theta-residue asymptotics why these exact trigonometric values arise (`err < 1.1e-13`):
+    - On $(1/2, 1/5)$: $\sqrt{B_k / B_j} = \cot(\pi/10)$ (`err = 4.44e-16`), $|R_j / R_k| = \sqrt{5}$ (`err = 1.05e-13`), and $\cot(\pi/10) + (|R_j / R_k| + 1) = \cot(\pi/10) + \csc(\pi/10) = \cot(\pi/20) = 6.313751514675$ (`err = 1.05e-13`).
+    - On $(0, 2/7)$: $\sqrt{B_1 / B_i} = \cot(\pi/7)$ (`err = 4.44e-16`), $|R_i^d / R_i^e| = \frac{\cos(2\pi/7)}{\cos(3\pi/7)}$ (`err = 7.55e-15`), $|R_1^e / R_1^d| - 1 = \frac{\cos(3\pi/7)}{\cos(\pi/7)}$ (`err = 5.83e-16`), giving $D_\infty = \frac{\cos(\pi/7)\cos(2\pi/7)}{\cos^2(3\pi/7)} = 11.344814282762$ (`err = 5.68e-14`).
+
