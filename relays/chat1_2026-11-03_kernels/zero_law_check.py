@@ -14,7 +14,9 @@ It prints:
      expected); and the lepton sector's |D| / sum |R_s|^2 on those lines at both Re tau;
  (3) on every LL-condition line, the LL pair's |D| / sum |R_s|^2, |c_j - c_k| and |c_j + c_k - 2 c_i|, at Re tau = 0 and
      at Re tau = 0.13;
- (4) two controls at Re tau = 0: (1/12, 0) (the slope, 4M even) and (1/7, 1/12) (4M odd, not the slope).
+ (4) two controls at Re tau = 0: (1/12, 0) (the slope, 4M even) and (1/7, 1/12) (4M odd, not the slope);
+ (5) at Re tau = 0.13 (Im tau 2.2 and 3.1), the least |D| / sum |R_s|^2 in the up and down sectors over the
+     quark-condition lines of order 12, and separately over those of order 4. (Version 2 adds (5) to version 1.)
 
 Usage: python3 zero_law_check.py <main checkout>   (main at 354a4ea4d)
 """
@@ -107,3 +109,14 @@ for l, why in (((Fr(1, 12), Fr(0)), "the slope, 4M even"), ((Fr(1, 7), Fr(1, 12)
         out.append("%s |D|/sum|R|^2 %.2e, c_1 - c_i %.1e, c_j - c_k %.1e, sigma_b %.2e"
                    % (sn, rel_D(R, c), c["1"] - c["i"], c["j"] - c["k"], c["j"] + c["k"] - c["1"] - c["i"]))
     print("    (%s, %s) (%s): %s" % (l[0], l[1], why, "; ".join(out)))
+
+print("(5) Re tau = 0.13, up and down: the least |D|/sum|R|^2 by the line's order")
+for N in (12, 4):
+    least = np.inf
+    for l in Q:
+        if order(l) != N:
+            continue
+        for im in (2.2, 3.1):
+            for sn, (ql, qr) in QUARKS.items():
+                R, c = data(l, complex(0.13, im), ql, qr); least = min(least, rel_D(R, c))
+    print("    order %2d (%d lines): least %.1e" % (N, sum(order(l) == N for l in Q), least))
