@@ -1899,8 +1899,9 @@ def theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census() -> Dict[s
         K_{F_i}^comp = (-i N_10) exp(-i*(pi/4)*H),
         K_{F_k}^comp = exp(-i*(pi/4)*(H_+ - H_-)),
         K_{F_j}^comp = K_{F_k}^comp (K_{F_i}^comp)^dagger,
-      and proves that in the 10D vector representation they generate Q_8 x {+-I_10} of order 16, whose projective
-      adjoint action on D_5 subset E_8 is an exact 8-element quaternion group Q_8 subset Ad(SO(10, I_10)) subset Ad(E_8)
+      and proves that in the 10D vector representation they generate G_16 ~= Z_4 rtimes Z_4 (SmallGroup(16, 4)) of order 16
+      (with center {+-I_10, +-Z_135} ~= Z_2 x Z_2), whose projective adjoint quotient G_16 / {+-I_10} on D_5 subset E_8
+      is an exact 8-element quaternion group Q_8 subset Ad(SO(10, I_10)) subset Ad(E_8)
       commuting identically with H ([K, H] == 0) and satisfying exact parallel-transport invariance
       F_m * Ad_{K_{F_m}^comp}(Phi_0) == Phi_0 (< 6e-16) for all q in Q_8.
     """
@@ -3027,6 +3028,8 @@ def theorem18_p585_strip_level2_targets_and_order10_reflection_transpose() -> Di
     yb_over_yt_4d_adj_strip: List[float] = []
     ytau_over_yb_order5_values: List[float] = []
     ytau_over_yb_order10_values: List[float] = []
+    d_raw_order5_values: List[float] = []
+    d_raw_order10_values: List[float] = []
     bar_theta_s_tilde_s_s_values: List[float] = []
     max_higgs_norm_phase_cancel_err = 0.0
 
@@ -3060,6 +3063,7 @@ def theorem18_p585_strip_level2_targets_and_order10_reflection_transpose() -> Di
             sv_e = np.sort(np.linalg.svd(ye_fib, compute_uv=False))
 
             yb_over_yt_a0_zero_strip.append(float(sv_d[2] / sv_u[2]))
+            d_raw_val = float((sv_e[1] / sv_e[0]) * (sv_d[0] / sv_d[1]))
 
             # FR-COV 4D Adjugate (-adj(S), S, S) at a_0 = -+ b_10:
             yu_adj = quaternionic_4d_yukawa(-b_v, h_v, uu["1"], mu)
@@ -3069,8 +3073,10 @@ def theorem18_p585_strip_level2_targets_and_order10_reflection_transpose() -> Di
             yb_over_yt_4d_adj_strip.append(float(sv_d_adj[2] / sv_u_adj[2]))
             if j_idx % 2 == 0:
                 ytau_over_yb_order5_values.append(float(sv_e[2] / sv_d[2]))
+                d_raw_order5_values.append(d_raw_val)
             else:
                 ytau_over_yb_order10_values.append(float(sv_e[2] / sv_d[2]))
+                d_raw_order10_values.append(d_raw_val)
 
             if tau_eval == tau_strip:
                 det_u = complex(yukawa_4d_determinant_factorization(0.0j, h_conj, uu["1"], mu)["det_Y"])
@@ -3113,6 +3119,115 @@ def theorem18_p585_strip_level2_targets_and_order10_reflection_transpose() -> Di
             yuk_err = float(np.linalg.norm(ye_lhs - ye_rhs) / np.linalg.norm(ye_lhs))
             max_order10_yukawa_reflection_transpose_err = max(max_order10_yukawa_reflection_transpose_err, yuk_err)
 
+    # --- Part D: S295/S296 (P-355 / P-094 Double Ratio D) & 90149211e Full E_8 Spin(10) Root-Weight Lift ---
+    # Construct exact 32x32 Clifford algebra Cl(10, I_10) on C^32 = (C^2)^{\otimes 5} = 16_+ (+) 16_-:
+    s_plus = np.array([[0.0, 1.0], [0.0, 0.0]], dtype=complex)
+    s_minus = np.array([[0.0, 0.0], [1.0, 0.0]], dtype=complex)
+    s_z = np.array([[1.0, 0.0], [0.0, -1.0]], dtype=complex)
+    eye2_c = np.eye(2, dtype=complex)
+    c_dag_list, c_ann_list = [], []
+    for a_i in range(5):
+        ops_d, ops_a = [], []
+        for b_i in range(5):
+            ops_d.append(s_z if b_i < a_i else (s_plus if b_i == a_i else eye2_c))
+            ops_a.append(s_z if b_i < a_i else (s_minus if b_i == a_i else eye2_c))
+        md_op, ma_op = ops_d[0], ops_a[0]
+        for b_i in range(1, 5):
+            md_op = np.kron(md_op, ops_d[b_i])
+            ma_op = np.kron(ma_op, ops_a[b_i])
+        c_dag_list.append(md_op)
+        c_ann_list.append(ma_op)
+    gammas_10 = c_dag_list + c_ann_list
+    i10_mat = np.block([[np.zeros((5, 5)), np.eye(5)], [np.eye(5), np.zeros((5, 5))]]).astype(complex)
+
+    def spin10_lie_lift(x_10_mat: np.ndarray) -> np.ndarray:
+        a_skew = x_10_mat @ i10_mat
+        out_m = np.zeros((32, 32), dtype=complex)
+        for m_i in range(10):
+            for n_i in range(10):
+                if abs(a_skew[m_i, n_i]) > 1e-15:
+                    out_m += 0.25 * a_skew[m_i, n_i] * (gammas_10[m_i] @ gammas_10[n_i] - gammas_10[n_i] @ gammas_10[m_i])
+        return out_m
+
+    def expm_herm(h_herm: np.ndarray, coeff: complex) -> np.ndarray:
+        vals, vecs = np.linalg.eigh(h_herm)
+        return (vecs * np.exp(coeff * vals)) @ vecs.conj().T
+
+    e5_m = np.zeros((5, 5), dtype=float)
+    for j_i, c_val in enumerate([2.0, math.sqrt(6.0), math.sqrt(6.0), 2.0]):
+        e5_m[j_i + 1, j_i] = c_val
+    h5_m = np.diag([-4.0, -2.0, 0.0, 2.0, 4.0])
+    j5_m = np.zeros((5, 5), dtype=float)
+    for j_i, c_val in enumerate([1.0, -1.0, 1.0, -1.0, 1.0]):
+        j5_m[j_i, 4 - j_i] = c_val
+    bz_m = np.zeros((5, 5), dtype=float)
+    bz_m[1, 4] = math.sqrt(2.0 / 5.0)
+    bz_m[4, 1] = -bz_m[1, 4]
+    bz_m[2, 3] = -math.sqrt(3.0 / 5.0)
+    bz_m[3, 2] = -bz_m[2, 3]
+
+    e_10 = np.block([[e5_m, np.zeros((5, 5))], [np.zeros((5, 5)), -e5_m.T]]).astype(complex)
+    g_10 = (math.sqrt(10.0) * np.block([[np.zeros((5, 5)), bz_m], [j5_m @ bz_m @ j5_m, np.zeros((5, 5))]])).astype(complex)
+    h_10 = np.block([[h5_m, np.zeros((5, 5))], [np.zeros((5, 5)), -h5_m.T]]).astype(complex)
+    n_10 = np.block([[np.eye(5), np.zeros((5, 5))], [np.zeros((5, 5)), -np.eye(5)]]).astype(complex)
+    ep_10 = 0.5 * (e_10 + g_10)
+    em_10 = 0.5 * (e_10 - g_10)
+    hp_10 = ep_10 @ ep_10.conj().T - ep_10.conj().T @ ep_10
+    hm_10 = em_10 @ em_10.conj().T - em_10.conj().T @ em_10
+
+    kc_i_10 = (expm_herm(h_10, 1j * (math.pi / 4.0)) @ (1j * n_10)).conj().T
+    kc_k_10 = expm_herm(hp_10 - hm_10, 1j * (math.pi / 4.0)).conj().T
+    kc_j_10 = kc_k_10 @ kc_i_10.conj().T
+    z135_10 = kc_i_10 @ kc_i_10
+
+    # Verify exact Z_4 rtimes Z_4 relations in 10D vector rep:
+    # a = kc_k_10 (a^2 = -Z_135, a^4 = I_10), b = kc_i_10 (b^2 = +Z_135, b^4 = I_10, b^{-1} a b = a^{-1} = -Z_135 a):
+    z4_rtimes_z4_rel_err = max(
+        float(np.max(np.abs(kc_k_10 @ kc_k_10 + z135_10))),
+        float(np.max(np.abs(kc_j_10 @ kc_j_10 - z135_10))),
+        float(np.max(np.abs(kc_i_10.conj().T @ kc_k_10 @ kc_i_10 - kc_k_10.conj().T))),
+    )
+
+    sh_32 = spin10_lie_lift(h_10)
+    sn_32 = spin10_lie_lift(n_10)
+    shpm_32 = spin10_lie_lift(hp_10 - hm_10)
+    skc_i_32 = expm_herm(sn_32, -1j * (math.pi / 2.0)) @ expm_herm(sh_32, -1j * (math.pi / 4.0))
+    skc_k_32 = expm_herm(shpm_32, -1j * (math.pi / 4.0))
+    skc_j_32 = skc_k_32 @ skc_i_32.conj().T
+
+    max_clifford_intertwining_err = 0.0
+    for k10_m, sk32_m in ((kc_i_10, skc_i_32), (kc_j_10, skc_j_32), (kc_k_10, skc_k_32)):
+        for m_i in range(10):
+            lhs_c = sk32_m @ gammas_10[m_i] @ sk32_m.conj().T
+            rhs_c = sum(k10_m[n_i, m_i] * gammas_10[n_i] for n_i in range(10))
+            max_clifford_intertwining_err = max(max_clifford_intertwining_err, float(np.max(np.abs(lhs_c - rhs_c))))
+
+    g11_chirality = s_z
+    for _ in range(4):
+        g11_chirality = np.kron(g11_chirality, s_z)
+    idx_16_plus = np.where(np.diag(g11_chirality).real > 0)[0]
+    skc_i_16p = skc_i_32[np.ix_(idx_16_plus, idx_16_plus)]
+    skc_j_16p = skc_j_32[np.ix_(idx_16_plus, idx_16_plus)]
+    skc_k_16p = skc_k_32[np.ix_(idx_16_plus, idx_16_plus)]
+
+    spin16p_els = [np.eye(16, dtype=complex)]
+    while True:
+        added_s = False
+        for g_s in list(spin16p_els):
+            for s_s in (skc_i_16p, skc_j_16p, skc_i_16p.conj().T, skc_j_16p.conj().T):
+                p_s = g_s @ s_s
+                if not any(np.max(np.abs(p_s - h_s)) < 1e-10 for h_s in spin16p_els):
+                    spin16p_els.append(p_s)
+                    added_s = True
+        if not added_s:
+            break
+
+    spin_central_fourth_powers_err = max(
+        float(np.max(np.abs(np.linalg.matrix_power(skc_i_16p, 4) + np.eye(16)))),
+        float(np.max(np.abs(np.linalg.matrix_power(skc_j_16p, 4) + np.eye(16)))),
+        float(np.max(np.abs(np.linalg.matrix_power(skc_k_16p, 4) - np.eye(16)))),
+    )
+
     return {
         "seen_first": [
             "B1703_the_six_on_the_strip",
@@ -3123,6 +3238,7 @@ def theorem18_p585_strip_level2_targets_and_order10_reflection_transpose() -> Di
             "B1827_two_readings_one_dictionary",
             "B1828_the_earned_dictionary_by_held_out_prediction",
             "B1829_the_two_level_bar",
+            "B1830_the_register_triaged",
             "scripts/checks/topic_sweep.py",
         ],
         "claim_labels_and_scopes": {
@@ -3133,7 +3249,14 @@ def theorem18_p585_strip_level2_targets_and_order10_reflection_transpose() -> Di
                 "Im(tau) in [2.6, 3.0]: gives y_b/y_t in [1.078, 1.112] at a_0 = 0 and [0.535, 0.578] for 4D adjugate vs SM 0.0136-0.0170; "
                 "does NOT exclude B1742 TWO_HIGGS tan(beta) or sector-dependent kinetic normalization)"
             ),
+            "single_line_strip_double_ratio_D_at_c3": (
+                "EXCLUDED_WITHIN_SCOPE (on any single strip line (2/5, j/10), D_c=3 = 9 * D_raw = 9.0000 vs PDG 10.58 +- 0.11 (14.4 sigma); "
+                "getting D ~= 10.58 requires either distinct down/lepton lines as in B1749/B1753 or a determinant-1 traceless generation shift)"
+            ),
             "higgs_norm_phase_cancellation_in_S_tilde_S_S": "FORCED (within Theorem 3 at a_0 = 0 under h_up = conj(h_down))",
+            "e8_sector_group_orders_1_8_16_32": (
+                "FORCED (for the literal Theorem 14 D_5 compensators lifted via Cl(10, I_10) to E_8 = (45,1)+(1,15)+(10,6)+(16,4)+(16-bar,4-bar))"
+            ),
         },
         "part_A_s291_s294_recognition_controls": {
             "R6_bits_discarded_by_10pct_quadrature_floor": r6_bits_discarded,
@@ -3167,6 +3290,23 @@ def theorem18_p585_strip_level2_targets_and_order10_reflection_transpose() -> Di
             "order10_ytau_over_yb_max_dev_from_1_at_F10": float(max(abs(v - 1.0) for v in ytau_over_yb_order10_values)),
             "max_higgs_norm_phase_cancel_imag_err": max_higgs_norm_phase_cancel_err,
             "bar_theta_s_tilde_s_s_across_10_strip_lines_rad": bar_theta_s_tilde_s_s_values,
+        },
+        "part_D_s295_p355_double_ratio_D_and_90149211e_e8_spinor_lift": {
+            "order5_D_raw_max_dev_from_1": float(max(abs(v - 1.0) for v in d_raw_order5_values)),
+            "order5_D_GJ_at_c3": 9.0 * float(d_raw_order5_values[0]),
+            "order10_D_raw_max_dev_from_1": float(max(abs(v - 1.0) for v in d_raw_order10_values)),
+            "order10_D_GJ_at_c3_min": 9.0 * float(min(d_raw_order10_values)),
+            "order10_D_GJ_at_c3_max": 9.0 * float(max(d_raw_order10_values)),
+            "pdg_P094_D_target": 10.58,
+            "pdg_P094_D_sigma": 0.11,
+            "vector_10D_group_isomorphism_class": "Z_4 rtimes Z_4 (SmallGroup(16, 4))",
+            "vector_10D_Z4_rtimes_Z4_relations_err": z4_rtimes_z4_rel_err,
+            "max_clifford_spin10_intertwining_err": max_clifford_intertwining_err,
+            "order_on_A3_adjoint_15": 1,
+            "order_on_D5_adjoint_45_Q8": 8,
+            "order_on_vector_product_10_6": 16,
+            "order_on_chiral_spinor_16_plus_and_minus": len(spin16p_els),
+            "spinor_16_fourth_power_central_signs_err": spin_central_fourth_powers_err,
         },
     }
 

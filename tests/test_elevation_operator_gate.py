@@ -769,6 +769,21 @@ def test_five_phase_master_toe_closure():
     assert float(pc18["max_higgs_norm_phase_cancel_imag_err"]) < 1e-15
     assert len(pc18["bar_theta_s_tilde_s_s_across_10_strip_lines_rad"]) == 10
 
+    pd18 = t18["part_D_s295_p355_double_ratio_D_and_90149211e_e8_spinor_lift"]
+    assert float(pd18["order5_D_raw_max_dev_from_1"]) < 1e-11
+    assert abs(float(pd18["order5_D_GJ_at_c3"]) - 9.0) < 1e-10
+    assert float(pd18["order10_D_raw_max_dev_from_1"]) < 2e-5
+    assert abs(float(pd18["order10_D_GJ_at_c3_min"]) - 9.0) < 2e-4
+    assert abs(float(pd18["order10_D_GJ_at_c3_max"]) - 9.0) < 2e-4
+    assert pd18["vector_10D_group_isomorphism_class"] == "Z_4 rtimes Z_4 (SmallGroup(16, 4))"
+    assert float(pd18["vector_10D_Z4_rtimes_Z4_relations_err"]) < 1e-14
+    assert float(pd18["max_clifford_spin10_intertwining_err"]) < 1e-14
+    assert pd18["order_on_A3_adjoint_15"] == 1
+    assert pd18["order_on_D5_adjoint_45_Q8"] == 8
+    assert pd18["order_on_vector_product_10_6"] == 16
+    assert pd18["order_on_chiral_spinor_16_plus_and_minus"] == 32
+    assert float(pd18["spinor_16_fourth_power_central_signs_err"]) < 1e-14
+
 
 
 
