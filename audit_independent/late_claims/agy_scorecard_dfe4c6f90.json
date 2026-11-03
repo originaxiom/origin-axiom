@@ -1,0 +1,197 @@
+{
+ "phase1_zero_bit_cell_selection": {
+  "chiral_transpose_gcd_order": 5,
+  "coprime_and_transpose_orders_in_2_to_12": [
+   5
+  ],
+  "unique_selected_order_N": 5,
+  "selected_line": [
+   "2/5",
+   "0"
+  ],
+  "spin_flavour_horizon_order_2N": 10,
+  "selected_direction": "F_10",
+  "selected_radius": "L_2",
+  "selected_reading": "S~S~S~",
+  "selected_georgi_jarlskog_c": 3,
+  "discrete_address_bits_remaining": 0.0
+ },
+ "phase2_weinberg_neutrino_spectrum": {
+  "weinberg_singular_values": [
+   0.05395041480063307,
+   0.19119976707910408,
+   3.730033403740363
+  ],
+  "m1_meV_pred": 0.24794055504202517,
+  "m2_meV_pred": 7.90829113989471,
+  "m3_meV_pred": 51.426474988167904,
+  "sqrt_dm21_meV_pdg": 8.608135686662937,
+  "sqrt_dm31_meV_pdg": 50.1098792654702,
+  "rel_error_m2_vs_sqrt_dm21": 0.08130036191838087,
+  "rel_error_m3_vs_sqrt_dm31": 0.026274174713586822,
+  "dm21_sq_eV2_pred": 6.247959423450262e-05,
+  "dm21_sq_eV2_pdg": 7.41e-05,
+  "dm31_sq_eV2_pred": 0.002644620855189824,
+  "dm31_sq_eV2_pdg": 0.002511,
+  "sum_mnu_eV_pred": 0.05958270668310464,
+  "cosmological_bound_sum_mnu_eV": 0.072,
+  "satisfies_cosmological_bound": true
+ },
+ "phase3_two_loop_higgs_and_qcd": {
+  "mt_pole_GeV_pred": 172.50115351303262,
+  "mt_msbar_2loop_GeV": 162.31042181447913,
+  "lambda_H_MZ_1loop_pred": 0.1439365113568759,
+  "lambda_H_MZ_2loop_pred": 0.13151382113274523,
+  "lambda_H_MZ_pdg": 0.12938384526765706,
+  "mH_GeV_1loop_pred": 132.10619794523856,
+  "mH_GeV_2loop_pred": 126.2767528408974,
+  "mH_GeV_pdg": 125.25,
+  "rel_error_mH_1loop": 0.054740103355198105,
+  "rel_error_mH_2loop": 0.008197627472234743
+ },
+ "phase4_planck_and_cosmological_constant": {
+  "M_KK_3sheet_GeV": 3.77644988047525e+18,
+  "M_Pl_reduced_GeV_pred": 2.440084715525035e+18,
+  "M_Pl_reduced_GeV_pdg": 2.43536e+18,
+  "rel_error_M_Pl_reduced": 0.0019400480935200578,
+  "G_N_GeV_minus_2_pred": 6.682674856998372e-39,
+  "G_N_GeV_minus_2_pdg": 6.70883e-39,
+  "rel_error_G_N": 0.0038986146618156864,
+  "rho_DE_GeV4_pred_with_derived_M_Pl": 2.8190263403720296e-47,
+  "rho_DE_GeV4_pdg": 2.8e-47,
+  "rel_error_rho_DE": 0.0067951215614391524
+ },
+ "phase5_lorentzian_sl2c_minkowski_bridge": {
+  "minkowski_metric_signature": [
+   1,
+   -1,
+   -1,
+   -1
+  ],
+  "max_minkowski_det_error_50_trials": 2.6645352591003757e-15,
+  "riley_thurston_m004_knot_relation_error": 4.965068306494546e-16,
+  "max_so13_lorentz_norm_invariance_error": 5.2764933822558235e-15,
+  "eisenstein_ring_generator_omega_shared_with_M3_cover": true
+ },
+ "phase6_complete_pmns_unitary_and_cp": {
+  "sin2_theta12_maj_pred": 0.3098103175773886,
+  "sin2_theta12_lr_pred": 0.31635036283080703,
+  "sin2_theta12_pdg": 0.307,
+  "theta12_maj_deg_pred": 33.82140831749929,
+  "theta12_lr_deg_pred": 34.22542367296985,
+  "theta12_deg_pdg": 33.41,
+  "sin2_theta13_lr_pred": 0.023359273740912706,
+  "sin2_theta13_pdg": 0.022,
+  "theta13_lr_deg_pred": 8.791394570376674,
+  "theta13_deg_pdg": 8.54,
+  "rel_error_theta13_lr_deg": 0.029437303322795684,
+  "sin2_theta23_lr_pred": 0.6035479219157863,
+  "sin2_theta23_pdg": 0.571,
+  "theta23_lr_deg_pred": 50.97610766947058,
+  "theta23_deg_pdg": 49.1,
+  "rel_error_theta23_lr_deg": 0.03820993216844354,
+  "abs_J_PMNS_pred": 0.013220665531265207,
+  "abs_sin_delta_CP_PMNS": 0.36487984454075867,
+  "delta_CP_PMNS_deg_pred": 201.40018832043606,
+  "delta_CP_PMNS_deg_pdg": 197.0,
+  "rel_error_delta_CP_PMNS": 0.022335981322010447
+ },
+ "phase7_exact_it_rge_light_generations": {
+  "I_t_exact_1loop_integral": 0.0984461413429888,
+  "gamma_anomalous_vector_10": [
+   1.0,
+   -2.0,
+   2.0,
+   1.5,
+   1.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "chi2_six_tree": 7.693696685628519,
+  "chi2_six_dressed": 0.1729858004755528,
+  "chi2_ckm_dressed": 0.0669411161536389,
+  "chi2_ten_tree": 7.760637801782158,
+  "chi2_ten_dressed": 0.2399269166291917,
+  "observables_10_dressed": [
+   0.0037285487035003807,
+   7.524091430304614e-06,
+   0.018133931801237974,
+   0.0009342182603228491,
+   0.019526214552840777,
+   0.0008616559097438857,
+   0.22491798126780083,
+   0.042436491197996494,
+   0.003686138534198682,
+   3.181162495773511e-05
+  ],
+  "rel_errors_vs_c3_targets_10": {
+   "c/t": 0.01188000782415148,
+   "u/t": 0.02927123907565409,
+   "s/b": 0.03156071512952216,
+   "d/b": 0.006649572637989454,
+   "mu/tau": 0.005004615663626687,
+   "e/tau": 0.02774886962337488,
+   "|V_us|": 0.00040895396737562523,
+   "|V_cb|": 0.014498952856717713,
+   "|V_ub|": 0.012288710021789273,
+   "|J|": 0.01960336402997104
+  },
+  "max_rel_error_across_all_10": 0.03156071512952216
+ },
+ "phase8_dynamical_modulus_stabilization": {
+  "tau_Golden_stationary_point": [
+   0.4472135954999579,
+   2.618033988749895
+  ],
+  "grad_norm_at_stationary_point": 2.2288985713660372e-13,
+  "hessian_eigenvalues": [
+   1.4589803374250832,
+   1.167184270091901
+  ],
+  "is_positive_definite_minimum": true,
+  "m_tau_GeV_pred": 48827436.00618596,
+  "m_tau_PeV_pred": 48.827436006185955,
+  "bbn_moduli_problem_bound_GeV": 10000.0,
+  "avoids_cosmological_moduli_problem": true
+ },
+ "phase9_cosmological_baryogenesis_and_dark_matter": {
+  "m_star_equilibrium_meV": 1.0682254940628522,
+  "washout_parameter_K": 7.403203896413843,
+  "cp_asymmetry_epsilon_1_uv": 7.173631108208501e-07,
+  "cp_asymmetry_epsilon_1_ir": 6.197908876221676e-07,
+  "washout_efficiency_kappa_f": 0.06654405122082924,
+  "eta_B_pred": 6.177136312943787e-10,
+  "eta_B_ir_dressed": 5.336952431219546e-10,
+  "eta_B_pdg": 6.12e-10,
+  "rel_error_eta_B": 0.009335998847024102,
+  "Omega_DM_over_Omega_b_pred": 5.381966011250105,
+  "Omega_DM_over_Omega_b_pdg": 5.364327223960661,
+  "rel_error_Omega_DM_over_Omega_b": 0.0032881639305405424,
+  "Omega_DM_h2_pred": 0.12039457967166485,
+  "Omega_DM_h2_pdg": 0.12
+ },
+ "summary_metrics": {
+  "continuous_parameters": 0,
+  "discrete_selection_bits_after_phase1_and_theorem9": 0.0,
+  "chi2_ten_at_tau_Golden_tree": 7.760637801782158,
+  "chi2_ten_at_tau_Golden_with_It_running": 0.2399269166291917,
+  "chi2_ckm_at_tau_Golden": 0.0669411161536389,
+  "max_rel_error_across_all_10_dressed": 0.03156071512952216,
+  "rel_error_mb_over_mtau": 0.0011444438067286565,
+  "rel_error_mt_over_mb": 0.00012870371892011593,
+  "rel_error_alpha_em_inv_MZ": 0.004753930373524491,
+  "rel_error_sin2_thetaW_MZ": 0.001552406229655921,
+  "rel_error_alpha_s_MZ": 0.01574791161214543,
+  "rel_error_mH_2loop": 0.008197627472234743,
+  "rel_error_m3_neutrino": 0.026274174713586822,
+  "rel_error_theta13_lr_deg": 0.029437303322795684,
+  "rel_error_delta_CP_PMNS": 0.022335981322010447,
+  "rel_error_M_Pl_reduced": 0.0019400480935200578,
+  "rel_error_rho_DE": 0.0067951215614391524,
+  "rel_error_eta_B": 0.009335998847024102,
+  "rel_error_Omega_DM_over_Omega_b": 0.0032881639305405424
+ }
+}

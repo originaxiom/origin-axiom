@@ -1,0 +1,78 @@
+{
+ "eta_check": {
+  "abs_b_st_sq (agy 'eta6_quarter')": 0.021433820949561852,
+  "true_abs_eta^6/4": 0.004092119913954259,
+  "ratio": 5.237828167369154
+ },
+ "inter_sector": {
+  "mb/mtau_agy(I=0.1462)": 1.6399044153993378,
+  "pdg": 60.24561403508771,
+  "mb/mtau_if_I=phase7_I_t(0.0984)": 1.720116146364277,
+  "mb/mtau_if_I=0": 1.8980707144517899,
+  "mt/mb_agy(with exp(-0.0170))": 60.23786020051277,
+  "mt/mb_without_exp(-0.0170)": 61.27065772983335,
+  "note": "alpha_EM and sin2thetaW inside mb/mtau are PDG inputs (lines 742-743)"
+ },
+ "neutrino": {
+  "m3_agy": 51.426474988167904,
+  "m2_agy": 7.90829113989471,
+  "m1_agy": 0.24794055504202517,
+  "m2_without_inserted_factor_3": 2.6360970466315705,
+  "m1_without_inserted_factor_1/3": 0.7438216651260756,
+  "sqrt_dm21_pdg": 8.608,
+  "m3_if_I_top=phase7_I_t": 53.9418695059768,
+  "m3_true_eta_instead_of_b10": "9.8182821858393085836"
+ },
+ "pmns": {
+  "agy_values": {
+   "sin2_theta12_maj_pred": 0.3098103175773886,
+   "sin2_theta13_lr_pred": 0.023359273740912706,
+   "sin2_theta23_lr_pred": 0.6035479219157863,
+   "delta_CP_PMNS_deg_pred": 201.40018832043606
+  },
+  "agy_readout": "theta12 from V^T U row 1; theta13 from U^dag V [2,2]; theta23 from U^dag V column 0; delta quadrant set to 180+arcsin by hand",
+  "n_consistent_PDG_readouts_(2 matrices x 36 row/col perms)": 72,
+  "n_readouts_within_2sigma_per_angle": {
+   "s12": 8,
+   "s13": 4,
+   "s23": 4
+  },
+  "matrices": {
+   "V^T U": [
+    [
+     0.7504,
+     0.2222,
+     0.0274
+    ],
+    [
+     0.0271,
+     0.3014,
+     0.6715
+    ],
+    [
+     0.2225,
+     0.4764,
+     0.3011
+    ]
+   ],
+   "U^dag V": [
+    [
+     0.2207,
+     0.0329,
+     0.7464
+    ],
+    [
+     0.4704,
+     0.2994,
+     0.2302
+    ],
+    [
+     0.309,
+     0.6677,
+     0.0234
+    ]
+   ]
+  },
+  "physics_note": "PMNS = U_e^dag U_nu (two LEFT-handed rotations). V_e is the right-handed rotation of the charged lepton; U_nu is never computed."
+ }
+}

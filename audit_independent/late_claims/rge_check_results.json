@@ -1,0 +1,37 @@
+{
+ "inputs": {
+  "alpha12_inv": 42.62754746920546,
+  "t12": 4.059766425638615,
+  "M12_GeV": 10915268219195.125,
+  "mt_pole": 172.50115351303262,
+  "alpha_s_MZ": 0.11975667877907195
+ },
+ "theorem9C_1loop": {
+  "agy_as_written": {
+   "lambda_MZ": 0.14393651135390928,
+   "mH": 132.10619794387713
+  },
+  "factor2_fixed": {
+   "lambda_MZ": 0.13299158776136577,
+   "mH": 126.98423090764557
+  }
+ },
+ "phase3_2loop": {
+  "agy_as_written": {
+   "lambda_MZ": 0.13151382113227422,
+   "mH": 126.27675284067128
+  },
+  "factor2_fixed": {
+   "lambda_MZ": 0.11650903535465854,
+   "mH": 118.85501486906313
+  }
+ },
+ "PDG_inputs_lambda0_at_M12_1.09e13": {
+  "agy_as_written_2loop": 127.44624759262186,
+  "factor2_fixed_2loop": 120.43151465712137
+ },
+ "PDG_inputs_lambda0_at_Mpl_2.4e18": {
+  "agy_as_written_2loop": 137.72578118658612,
+  "factor2_fixed_2loop": 120.581079539456
+ }
+}

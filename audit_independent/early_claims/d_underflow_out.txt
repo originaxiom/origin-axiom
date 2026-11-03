@@ -1,0 +1,16 @@
+{'Im tau': 2.5, 'a': 6, '|th2/th3|^a': 0.00048735506620143797, 'as float64 complex': 0.0004895183369709536, 'underflows_to_zero': False, 'lost_if_added_to_1': False}
+{'Im tau': 2.5, 'a': 18, '|th2/th3|^a': 1.1575411932375325e-10, 'as float64 complex': 1.1730239904736456e-10, 'underflows_to_zero': False, 'lost_if_added_to_1': False}
+{'Im tau': 2.5, 'a': 22, '|th2/th3|^a': 7.168585099065103e-13, 'as float64 complex': 7.285950295376085e-13, 'underflows_to_zero': False, 'lost_if_added_to_1': False}
+{'Im tau': 2.5, 'a': 26, '|th2/th3|^a': 4.439462942896155e-15, 'as float64 complex': 4.525489004300422e-15, 'underflows_to_zero': False, 'lost_if_added_to_1': False}
+{'Im tau': 3.0, 'a': 6, '|th2/th3|^a': 4.635391698913359e-05, 'as float64 complex': 4.6396625569008854e-05, 'underflows_to_zero': False, 'lost_if_added_to_1': False}
+{'Im tau': 3.0, 'a': 18, '|th2/th3|^a': 9.959999487614079e-14, 'as float64 complex': 9.987555054016186e-14, 'underflows_to_zero': False, 'lost_if_added_to_1': False}
+{'Im tau': 3.0, 'a': 22, '|th2/th3|^a': 1.2852381506425153e-16, 'as float64 complex': 1.2895854264830496e-16, 'underflows_to_zero': False, 'lost_if_added_to_1': True}
+{'Im tau': 3.0, 'a': 26, '|th2/th3|^a': 1.658471073137265e-19, 'as float64 complex': 1.6651027836174303e-19, 'underflows_to_zero': False, 'lost_if_added_to_1': True}
+{'Im tau': 3.5, 'a': 6, '|th2/th3|^a': 4.39664063592076e-06, 'as float64 complex': 4.397482470342385e-06, 'underflows_to_zero': False, 'lost_if_added_to_1': False}
+{'Im tau': 3.5, 'a': 18, '|th2/th3|^a': 8.498903706268286e-17, 'as float64 complex': 8.503786552254337e-17, 'underflows_to_zero': False, 'lost_if_added_to_1': True}
+{'Im tau': 3.5, 'a': 22, '|th2/th3|^a': 2.2809208844351586e-20, 'as float64 complex': 2.282522647347019e-20, 'underflows_to_zero': False, 'lost_if_added_to_1': True}
+{'Im tau': 3.5, 'a': 26, '|th2/th3|^a': 6.121495502079096e-24, 'as float64 complex': 6.1265762065381426e-24, 'underflows_to_zero': False, 'lost_if_added_to_1': True}
+{'Im tau': 4.0, 'a': 6, '|th2/th3|^a': 4.167777887318176e-07, 'as float64 complex': 4.167943767337185e-07, 'underflows_to_zero': False, 'lost_if_added_to_1': False}
+{'Im tau': 4.0, 'a': 18, '|th2/th3|^a': 7.239585447507625e-20, 'as float64 complex': 7.240449901229524e-20, 'underflows_to_zero': False, 'lost_if_added_to_1': True}
+{'Im tau': 4.0, 'a': 22, '|th2/th3|^a': 4.039398896161677e-24, 'as float64 complex': 4.039988419129709e-24, 'underflows_to_zero': False, 'lost_if_added_to_1': True}
+{'Im tau': 4.0, 'a': 26, '|th2/th3|^a': 2.25382289643802e-28, 'as float64 complex': 2.2542116373086926e-28, 'underflows_to_zero': False, 'lost_if_added_to_1': True}

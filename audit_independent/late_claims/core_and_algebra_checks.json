@@ -1,0 +1,154 @@
+{
+ "m004": {
+  "volume": 2.029883212819307,
+  "4_1_volume": 2.029883212819307,
+  "is_isometric_to_4_1": true,
+  "H1": "Z",
+  "cusps": 1,
+  "CS": 8.999128876959774e-17,
+  "fibered_monodromy_check": "see LR below",
+  "6*Lobachevsky(pi/3)": 2.0298832128193074
+ },
+ "LR": {
+  "A": [
+   [
+    "2",
+    "1"
+   ],
+   [
+    "1",
+    "1"
+   ]
+  ],
+  "trace": 3,
+  "det": 1,
+  "charpoly": "lambda**2 - 3*lambda + 1",
+  "det(A-I)": -1
+ },
+ "alexander": {
+  "Delta(t)": "t - 3 + 1/t",
+  "|Delta(omega)|": 4.0
+ },
+ "agy_RS_torsion_claim": {
+  "|Delta(w)|/|1-w|": 2.309401076758503,
+  "4/sqrt3": 2.309401076758503,
+  "note": "this is |Delta(w)|/|1-w|, the (Milnor/Reidemeister) abelian torsion of the twisted chain complex up to conventions; it is a number about m004, but nothing derives its log as an SU(3) threshold"
+ },
+ "T_ROOT_words_len<=8_with_|det(phi-I)|=1": [
+  "LR",
+  "RL"
+ ],
+ "cover_monodromy": {
+  "A^3": [
+   [
+    "13",
+    "8"
+   ],
+   [
+    "8",
+    "5"
+   ]
+  ],
+  "(A^3-I)/4": [
+   [
+    "3",
+    "2"
+   ],
+   [
+    "2",
+    "1"
+   ]
+  ],
+  "det": -1,
+  "trace": 4,
+  "agy_relay_U_[[1,2],[2,3]]_equals_(A^3-I)/4": false,
+  "det(A^3-I)": -16
+ },
+ "phase1_U=(A^3-I)/4": {
+  "U^2 mod 5": [
+   [
+    "3",
+    "3"
+   ],
+   [
+    "3",
+    "0"
+   ]
+  ],
+  "U^2==I mod 5 (relay claim)": false,
+  "U*(2,0) mod 5": [
+   [
+    "1",
+    "4"
+   ]
+  ],
+  "is (2,0) an eigenvector mod 5": false,
+  "eigenvectors mod 5": {
+   "2": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     4,
+     3
+    ]
+   ]
+  }
+ },
+ "phase1_U_relay=[[1,2],[2,3]]": {
+  "U^2 mod 5": [
+   [
+    "0",
+    "3"
+   ],
+   [
+    "3",
+    "3"
+   ]
+  ],
+  "U^2==I mod 5 (relay claim)": false,
+  "U*(2,0) mod 5": [
+   [
+    "2",
+    "4"
+   ]
+  ],
+  "is (2,0) an eigenvector mod 5": false,
+  "eigenvectors mod 5": {
+   "2": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     2
+    ]
+   ]
+  }
+ },
+ "A^3_fixed_nonzero_5torsion_points": [],
+ "riley_relation_exact": true,
+ "theorem9A": {
+  "|1+c_e^2| with c_e=-1": 2,
+  "norm_preserving_requires": "|1+c^2|=1",
+  "uniform_quark_rule_applied_to_lepton(k_R=3 -> k^2 mod 8 = 1)": "1+c_e^2 = e^{i pi/4}, c_e=-sqrt(e^{i pi/4}-1) (same as down)"
+ }
+}

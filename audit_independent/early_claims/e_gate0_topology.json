@@ -1,0 +1,24 @@
+{
+ "det(LR-I)": -1,
+ "det(LR^3-I)": -16,
+ "nonzero LR^3-fixed points mod 2": 3,
+ "nonzero LR^3-fixed points mod 3": 0,
+ "nonzero LR^3-fixed points mod 4": 15,
+ "nonzero LR^3-fixed points mod 5": 0,
+ "nonzero LR^3-fixed points mod 8": 15,
+ "H1(m004)": "Z",
+ "n_connected_3fold_covers(all)": 1,
+ "3fold cover types": [
+  "cyclic"
+ ],
+ "3fold cover homology": [
+  "Z/4 + Z/4 + Z"
+ ],
+ "n_cyclic_3fold": 1,
+ "commutant dim <C3>": 2,
+ "commutant dim <C3,P_perm>": 2,
+ "commutant dim <C3,P_refl=diag(1,-1,-1)P_perm>": 1,
+ "commutant dim <C3, diag(1,-1,-1)>": 1,
+ "|Delta(omega)|": 3.9999999999999996,
+ "|Delta(omega)|/|1-omega|": 2.309401076758503
+}

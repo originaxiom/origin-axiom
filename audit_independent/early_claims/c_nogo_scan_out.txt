@@ -1,0 +1,17 @@
+lines 266
+0 1 {'rows': 104, 'defined': 104, 'hier': 25, 'hier_vub_lt_vtd': np.int64(25), 'hier_flip': np.int64(8), 'any_vub_lt_vtd': np.int64(67), 'any_flip': np.int64(25), 'hier_sin_gt_0.5': np.int64(8)}
+10 12 {'rows': 1144, 'defined': 1144, 'hier': 80, 'hier_vub_lt_vtd': np.int64(68), 'hier_flip': np.int64(30), 'any_vub_lt_vtd': np.int64(567), 'any_flip': np.int64(261), 'hier_sin_gt_0.5': np.int64(34)}
+20 23 {'rows': 2184, 'defined': 2152, 'hier': 151, 'hier_vub_lt_vtd': np.int64(112), 'hier_flip': np.int64(53), 'any_vub_lt_vtd': np.int64(1068), 'any_flip': np.int64(514), 'hier_sin_gt_0.5': np.int64(58)}
+30 33 {'rows': 3224, 'defined': 3192, 'hier': 221, 'hier_vub_lt_vtd': np.int64(156), 'hier_flip': np.int64(75), 'any_vub_lt_vtd': np.int64(1625), 'any_flip': np.int64(746), 'hier_sin_gt_0.5': np.int64(87)}
+40 44 {'rows': 4264, 'defined': 4232, 'hier': 297, 'hier_vub_lt_vtd': np.int64(210), 'hier_flip': np.int64(91), 'any_vub_lt_vtd': np.int64(2128), 'any_flip': np.int64(946), 'hier_sin_gt_0.5': np.int64(103)}
+50 54 {'rows': 5304, 'defined': 5272, 'hier': 396, 'hier_vub_lt_vtd': np.int64(281), 'hier_flip': np.int64(116), 'any_vub_lt_vtd': np.int64(2617), 'any_flip': np.int64(1128), 'hier_sin_gt_0.5': np.int64(133)}
+60 65 {'rows': 6344, 'defined': 6312, 'hier': 464, 'hier_vub_lt_vtd': np.int64(313), 'hier_flip': np.int64(124), 'any_vub_lt_vtd': np.int64(3093), 'any_flip': np.int64(1342), 'hier_sin_gt_0.5': np.int64(155)}
+70 75 {'rows': 7384, 'defined': 7336, 'hier': 539, 'hier_vub_lt_vtd': np.int64(361), 'hier_flip': np.int64(147), 'any_vub_lt_vtd': np.int64(3569), 'any_flip': np.int64(1518), 'hier_sin_gt_0.5': np.int64(180)}
+80 85 {'rows': 8424, 'defined': 8376, 'hier': 624, 'hier_vub_lt_vtd': np.int64(412), 'hier_flip': np.int64(160), 'any_vub_lt_vtd': np.int64(4056), 'any_flip': np.int64(1723), 'hier_sin_gt_0.5': np.int64(204)}
+90 95 {'rows': 9464, 'defined': 9412, 'hier': 714, 'hier_vub_lt_vtd': np.int64(480), 'hier_flip': np.int64(192), 'any_vub_lt_vtd': np.int64(4632), 'any_flip': np.int64(2031), 'hier_sin_gt_0.5': np.int64(244)}
+100 104 {'rows': 10504, 'defined': 10436, 'hier': 744, 'hier_vub_lt_vtd': np.int64(496), 'hier_flip': np.int64(194), 'any_vub_lt_vtd': np.int64(5140), 'any_flip': np.int64(2265), 'hier_sin_gt_0.5': np.int64(253)}
+110 114 {'rows': 11544, 'defined': 11476, 'hier': 896, 'hier_vub_lt_vtd': np.int64(581), 'hier_flip': np.int64(216), 'any_vub_lt_vtd': np.int64(5724), 'any_flip': np.int64(2537), 'hier_sin_gt_0.5': np.int64(278)}
+120 124 {'rows': 12584, 'defined': 12516, 'hier': 954, 'hier_vub_lt_vtd': np.int64(618), 'hier_flip': np.int64(235), 'any_vub_lt_vtd': np.int64(6264), 'any_flip': np.int64(2786), 'hier_sin_gt_0.5': np.int64(301)}
+130 134 {'rows': 13624, 'defined': 13556, 'hier': 1056, 'hier_vub_lt_vtd': np.int64(673), 'hier_flip': np.int64(253), 'any_vub_lt_vtd': np.int64(6730), 'any_flip': np.int64(3007), 'hier_sin_gt_0.5': np.int64(327)}
+140 144 {'rows': 14664, 'defined': 14596, 'hier': 1111, 'hier_vub_lt_vtd': np.int64(716), 'hier_flip': np.int64(276), 'any_vub_lt_vtd': np.int64(7297), 'any_flip': np.int64(3366), 'hier_sin_gt_0.5': np.int64(350)}
+FINAL {'rows': 15600, 'defined': 15532, 'hier': 1127, 'hier_vub_lt_vtd': np.int64(719), 'hier_flip': np.int64(276), 'any_vub_lt_vtd': np.int64(7739), 'any_flip': np.int64(3610), 'hier_sin_gt_0.5': np.int64(357)}
