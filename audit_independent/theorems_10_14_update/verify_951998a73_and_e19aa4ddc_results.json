@@ -1,0 +1,138 @@
+{
+  "physical_bridge_e19aa4ddc": {
+    "tests_run": 5,
+    "failures": 0,
+    "errors": 0,
+    "all_5_prospective_sympy_controls_passed": true
+  },
+  "theorem14_e810ba3ee": {
+    "agy_t14_output": {
+      "part_A_84632be08_e19aa4ddc_independent_review": {
+        "so10_I10_membership_max_err": 0.0,
+        "two_commuting_triples_max_err": 4.440892098500626e-16,
+        "mass_operator_12x12_intertwiner_max_err": 1.897149936107019e-15,
+        "unconjugated_spin_target_failure_norm_at_gL": 3.7947331922020555,
+        "antisymmetric_W_surface_pairing_invariance_err": 4.163336342344337e-17,
+        "ibp_primitive_kappa_QR_noninvariance_at_gR": 0.6096925454686157,
+        "quartic_3x3_readout_table_err_from_J3_plus_I3": 2.220446049250313e-15,
+        "contragredient_reference_covariance_err": 2.220446049250313e-16,
+        "all_5_controls_and_7_review_items_verified": true
+      },
+      "part_B_complete_2O_orbit_stabilizer_and_SO10_gauge_census": {
+        "order_of_register_image_2O_in_SU2": 48,
+        "order_of_quartic_stabilizer_2D4_in_2O": 16,
+        "exact_compact_E8_and_SO10_gauge_class_count_in_2O_orbit": 3,
+        "order_of_normal_core_Q8_fixing_all_3_gauge_classes": 8,
+        "order_of_faithful_S3_quotient_on_3_gauge_classes": 6,
+        "max_SO10_gauge_realization_err_across_all_16_elements_of_2D4": 9.00753741019675e-16
+      },
+      "part_C_explicit_Ad_SO10_quaternion_compensator_group_Q8": {
+        "order_of_Ad_Kc_group_in_Ad_SO10": 8,
+        "max_joint_parallel_invariance_err_on_Phi0": 1.842662526375881e-15,
+        "max_commutator_err_with_order3_Wilson_H": 0.0,
+        "max_SO10_I10_unitarity_and_orthogonality_err": 3.552713678800501e-15
+      }
+    },
+    "independent_checks": {
+      "dim_V5_plus": 5,
+      "dim_V5_minus": 5,
+      "order_2O": 48,
+      "order_stabilizer_2D4": 16,
+      "quartic_readout_classes_and_counts": {
+        "(2.0, 1.0, 1.0)": 16,
+        "(1.0, 2.0, 1.0)": 16,
+        "(1.0, 1.0, 2.0)": 16
+      },
+      "gL_in_2D4_stabilizer": false,
+      "gR_in_2D4_stabilizer": false,
+      "kc_i_sq_eq_minus_Z_err": 0.0,
+      "kc_j_sq_eq_minus_Z_err": 4.440892098500626e-16,
+      "kc_k_sq_eq_plus_Z_err": 5.071544317185123e-16,
+      "kc_k_code_eq_minus_kc_k_docstring_err": 2.449293598294706e-16,
+      "group_order_in_SO10_vector_rep": 16,
+      "group_order_in_PSO10_adjoint_rep": 8,
+      "pso10_element_orders": [
+        1,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "pso10_isomorphic_to_Q8": true
+    }
+  },
+  "theorems_10_to_13_repairs_951998a73": {
+    "t10_repairs": {
+      "U_times_B_exact_eq_minus_I2": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "rank2_unitary_local_system_on_M3_max_err": 6.179465850164931e-15,
+      "t8_quark_det_phase_shift_rad": -0.5026548245743676,
+      "inversion_quark_det_phase_shift_rad": -1.2566370614359172,
+      "t8_is_coordinate_relabelling_not_selector": true,
+      "lines_2_5_j_5_with_A3_x_eq_pm_x_mod5": [
+        1
+      ]
+    },
+    "t11_repairs": {
+      "mpmath_50dps_F_eq_minus80_eta12_E4_err": 1.0565030167013707e-51,
+      "unbranched_principal_cut_jump_norm_at_2i": 2.504124332132903,
+      "branched_double_cover_conj_err_at_2i": 6.661338147750939e-16,
+      "M_minus_I2_smith_invariants": [
+        4,
+        4
+      ],
+      "strong_cp_solved_on_single_sheet": false,
+      "tautological_random_matrix_doubled_arg_det_rad": 0.0
+    },
+    "t12_repairs": {
+      "log10_mu_crit_from_173p1": 9.677431430174984,
+      "log10_mu_crit_from_173p34": 9.678033154527432,
+      "newton_bvp_converged_to_1e13": true,
+      "uv_boundary_is_post_hoc_hypothesis": true,
+      "dmH_dyt2_M12_sensitivity_GeV_computed": 424.1500918190866,
+      "dmH_dyt2_M12_docstring_stale_value": 370.1,
+      "buttazzo_matched_at_mu_173p34_GeV": {
+        "yt_at_173p34": 0.9138238784925474,
+        "lambda_at_173p34": 0.11596072621086086,
+        "Mt_pole_matched_GeV": 169.33602261870337,
+        "Mh_pole_matched_GeV": 120.17940151243155,
+        "rel_error_Mt_pole_matched": -0.01942195483986699,
+        "rel_error_Mh_pole_matched": -0.04048382026002752
+      }
+    },
+    "t13_repairs": {
+      "exact_ll_twist6_weinberg_spectrum": {
+        "sin2_theta12": 0.2694572237008713,
+        "sin2_theta23": 0.03372042362353516,
+        "sin2_theta13": 0.0011801183068906752,
+        "abs_J_pmns": 0.0026976273090660724,
+        "m2_over_m3": 0.0943328072491761
+      },
+      "m2_over_m3_computed_vs_docstring": {
+        "computed_twist6": 0.0943328072491761,
+        "docstring_stale_twist3_value": 0.1
+      },
+      "minimal_single_channel_pmns_verdict": "NEGATIVE (theta_23 and theta_13 strongly suppressed without seesaw M_R)",
+      "modular_seesaw_scale_comparison": {
+        "abs_b10_sq_at_tau_Golden": 0.021433820949561852,
+        "abs_quarter_eta6_at_tau_Golden": 0.004092119913954256,
+        "ratio_quarter_eta6_over_abs_b10_sq": 0.1909188251401301
+      }
+    },
+    "source_hygiene_e810ba3ee": {
+      "operator_gate_distinguishes_dc_from_L": true,
+      "operator_gate_extends_to_m004": true
+    }
+  }
+}

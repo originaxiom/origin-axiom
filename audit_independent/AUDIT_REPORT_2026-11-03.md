@@ -178,7 +178,32 @@ Scripts and full report: `audit_independent/early_claims/` (`REPORT.md`). For th
 
 ---
 
-## 7. Reproduce
+## 7. Addendum (11:20): Theorems 10–13, agy commit `dcae538ab`
+
+Full report: `audit_independent/theorems_10_13/REPORT_THEOREMS_10_13.md`. It is published on GitHub branch `audit/independent-2026-11-03` at commit `2dbfe96dc`.
+
+| Thm | Verdict |
+|---|---|
+| 10 | The algebra holds. The T⁸ "equivalence" maps **all five** (2/5, j/5) lines onto (2/5, 0) to 1e-13, including the four non-eigenlines, so it selects nothing. |
+| 11 | The identity holds. The parity-doubled det is \|det Y\|², real for any matrix. The Wilson-line step is a rephasing (observables change by only 3e-13), so θ̄ stays undetermined. |
+| 12 | My independent 2-loop RGE reproduces the benchmark (9.678 vs agy's 9.676). But y_t²(M₁₂) = 1/5 is post hoc: a menu of simple values spans m_H 84–166 GeV. With proper matching it gives **M_t = 169.3 (−11σ) and M_h = 120.2 GeV (−30σ)**. |
+| 13 | The basis-invariant method is correct, and the result is **negative**: sin²θ₂₃ −29σ, sin²θ₁₃ −14σ. This retracts Phase 6. |
+
+---
+
+## 8. Addendum (12:35): `physical-bridge` (`84632be08` / `e19aa4ddc`) & `agy` Theorem 14 / Repairs (`e810ba3ee` / `951998a73`)
+
+Full report & script: `audit_independent/theorems_10_14_update/REPORT_951998A73_AND_E19AA4DDC.md` and `audit_independent/theorems_10_14_update/verify_951998a73_and_e19aa4ddc.py`.
+
+| Item | Verdict |
+|---|---|
+| `physical-bridge` (`84632be08`, `e19aa4ddc`) | **5/5 SymPy controls pass.** Separates global $SU(2)$ flavour pullback on the trivial bundle $F_0$ from making $Q_8$ a physical flavour local system (which requires $D = N I_2 \implies |a|=|b|=1/\sqrt{2}$). Proves via the $E_8$ quartic invariant $C_\Phi(z) = \kappa([X_z, X_z^\dagger]^2)$ that $\Phi_0, g_L\Phi_0, g_R\Phi_0$ lie in 3 distinct compact-$E_8$ gauge classes despite identical quadratic Grams. **0 of 19.** |
+| `agy` Theorem 14 (`e810ba3ee`) | **Parts A, B, C verified (`< 2.3e-15`).** Complete 48-element $2O$ census shows $\operatorname{Stab}_{2O}(C_{\Phi_0}) = 2D_4$ (order 16), all 16 realized by compact Cartan rotations in $SO(10, \mathcal{I}_{10}) \cap U(10)$ commuting with $H$, partitioning $2O \cdot \Phi_0$ into **3 classes of 16** with normal core $Q_8$ (order 8) and quotient $S_3$ (order 6). **Crucial corollary:** Because $g_L, g_R \notin 2D_4$, the punctured-torus generators $g_L, g_R$ permute the 3 gauge classes and **cannot** be compensated on $\Phi_0$ by any element of compact $E_8$. In Part C, $\langle K_{F_i}^{\text{comp}}, K_{F_j}^{\text{comp}} \rangle$ has order **8** ($\cong Q_8$) in $\operatorname{Ad}(SO(10)) = PSO(10)$, and order **16** ($\cong Q_8 \times \{\pm I_{10}\}$) in the 10D vector representation $SO(10, \mathcal{I}_{10})$ because $(K_{F_i}^{\text{comp}})^2 = (K_{F_j}^{\text{comp}})^2 = -Z$ while $(K_{F_k}^{\text{comp}})^2 = +Z$. |
+| `agy` Theorems 10–13 Repairs (`951998a73`) | **All `2dbfe96dc` findings accepted & repaired in code.** Theorem 10 verifies $U B = -I_2$, builds the rank-2 local system on $M_3$, and sets `t8_is_coordinate_relabelling_not_selector = True`. Theorem 11 sets `strong_cp_solved_on_single_sheet = False`, proves $F(\tau) = -80\eta^{12}E_4$ (`1.06e-51` at 50 dps), and lifts to the branched double cover $\widetilde{\mathcal{H}}$. Theorem 12 fixes all 6 terms of Buttazzo eq. (99) `bl_2` ($\log_{10}\mu_{\text{crit}} = 9.678033$), adds $\mu_t = 173.34\text{ GeV}$ pole matching ($M_t = 169.34\text{ GeV}$, $M_h = 120.18\text{ GeV}$), and sets `uv_boundary_is_post_hoc_hypothesis = True` (computed sensitivity is $424.15\text{ GeV}$ vs stale docstring `370.1 GeV`). Theorem 13 evaluates the true $|q_1+q_2|=6$ Weinberg $LL$ spectrum ($\sin^2\theta_{23} = 0.03372$, $\sin^2\theta_{13} = 0.00118$, $m_2/m_3 = 0.09433$ vs stale docstring `0.10000`) with verdict `NEGATIVE`. |
+
+---
+
+## 9. Reproduce
 
 All on the branch `audit/independent-2026-11-03`, directory `audit_independent/`. Python 3.12.1, numpy 2.4.0, SnapPy 3.3.2 (the repo's pinned stack).
 
