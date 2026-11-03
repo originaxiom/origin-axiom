@@ -1,0 +1,12 @@
+(1) census lines (order <= 12, up to w -> -w): 266
+    12 p1 odd and 12 p2 odd: 18 lines, by order {4: 2, 12: 16}
+    24 p1 odd and 24 p2 odd: 8 lines, by order {8: 8}: (1/8, 1/8), (1/8, 3/8), (1/8, 5/8), (1/8, 7/8), (3/8, 1/8), (3/8, 3/8), (3/8, 5/8), (3/8, 7/8)
+(2) the quark sectors on the 18 lines
+    Re tau 0.00 (Im tau 2.2, 3.1), up and down: max |D|/sum|R|^2 1.8e-13 (least 2.9e-16), max |c_1 - c_i| 8.5e-14, |c_j - c_k| 1.6e-12, |sigma_b| 6.1e-12; leptons: max |D|/sum|R|^2 1.8e-13
+    Re tau 0.13 (Im tau 2.2, 3.1), up and down: max |D|/sum|R|^2 1.6e-01 (least 9.2e-17), max |c_1 - c_i| 3.2e-01, |c_j - c_k| 3.2e-01, |sigma_b| 5.7e-12; leptons: max |D|/sum|R|^2 3.1e-13
+(3) the LL pair (q_L = q_R = -3) on the 8 lines
+    Re tau 0.00: max |D|/sum|R|^2 1.8e-13 (least 1.6e-16), max |c_j - c_k| 2.8e-14, max |c_j + c_k - 2 c_i| 5.9e-12
+    Re tau 0.13: max |D|/sum|R|^2 1.5e-01 (least 3.8e-02), max |c_j - c_k| 3.2e-01, max |c_j + c_k - 2 c_i| 3.2e-01
+(4) controls at Re tau = 0, Im tau 2.2 (up and down)
+    (1/12, 0) (the slope, 4M even): up |D|/sum|R|^2 6.32e-01, c_1 - c_i 1.6e+00, c_j - c_k 1.6e+00, sigma_b -8.10e-13; down |D|/sum|R|^2 6.32e-01, c_1 - c_i 1.6e+00, c_j - c_k 1.6e+00, sigma_b -1.42e-14
+    (1/7, 1/12) (4M odd, not the slope): up |D|/sum|R|^2 8.38e-01, c_1 - c_i -1.4e-14, c_j - c_k -1.6e-13, sigma_b 4.86e+01; down |D|/sum|R|^2 4.71e+00, c_1 - c_i 2.8e-14, c_j - c_k -8.5e-14, sigma_b 4.86e+01
