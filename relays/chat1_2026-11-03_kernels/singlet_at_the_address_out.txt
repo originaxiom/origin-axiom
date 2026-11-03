@@ -1,0 +1,13 @@
+B1825's address: L_2 = 2.358388, |h.h| / |h|^2 = 1.297e-02
+no singlet: |V_ub|/|V_td| = 11.280, |V_ud| = 0.9791
+odd (up -a0, down +a0)           non-null phases 10: |V_ub|/|V_td| 0.152-1.214, below 1 at  9; |V_ud| 0.921-0.985; null at k = [3, 9]
+even (both +a0)                  non-null phases 10: |V_ub|/|V_td| 5.037-19.394, below 1 at  0; |V_ud| 0.930-0.986; null at k = [3, 9]
+up only                          non-null phases 10: |V_ub|/|V_td| 0.472-1.409, below 1 at  5; |V_ud| 0.962-0.980; null at k = [3, 9]
+down only                        non-null phases 10: |V_ub|/|V_td| 0.735-1.118, below 1 at  7; |V_ud| 0.947-0.995; null at k = [3, 9]
+quarter turn (up i a0, down a0)  non-null phases  8: |V_ub|/|V_td| 0.449-1.095, below 1 at  7; |V_ud| 0.939-0.994; null at k = [0, 3, 6, 9]
+per phase k (c = exp(2 pi i k/12)), |V_ub|/|V_td|:
+  odd (up -a0, down +a0)            0.444  0.469  0.459   null  0.508  0.561  0.605  0.765  1.214   null  0.152  0.356
+  even (both +a0)                   5.798  7.507 16.384   null  9.211  5.472  5.037  7.481 19.394   null 12.097  6.730
+  up only                           1.086  1.160  1.409   null  0.472  0.721  0.854  0.953  1.012   null  0.978  1.047
+  down only                         0.768  0.759  0.735   null  0.897  0.989  1.053  1.118  1.060   null  0.754  0.746
+  quarter turn (up i a0, down a0)    null  0.449  0.568   null  0.753  0.758   null  0.833  0.870   null  0.914  1.095
