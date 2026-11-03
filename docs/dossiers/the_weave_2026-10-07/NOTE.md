@@ -7864,6 +7864,8 @@ principle marks. This arc reads those numbers on all 266 lines, at the cusp and 
   still have been a line that one thread fixes (W140).
 - **The rule's hand expectation was wrong in one respect.** It expected the order-10 lines to split at the cusp. They
   tie at the cusp, and only some split at τ = i.
+  *(Corrected 2026-11-03, at main's harvest S263, row 1498: of the 32 finite order-10 pairs, the 20 that settle tie at
+  the cusp. The other 12 lie on integer-λ lines and are among the unsettled pairs, so "they tie" holds for 20 of 32.)*
 - **The rule's closing clause is not met as worded.** It needs G2 and G3 both to hold, and G2 failed. Read with post
   hoc 1, no settled or limiting value at either marked point lies within 3σ of the data's D. If main accepts that
   reading, then with W137, W139 and W140 the record's forced routes give no down–lepton factor near the data's. The

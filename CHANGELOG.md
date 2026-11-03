@@ -1,5 +1,16 @@
 # Changelog
 
+## Main's questions answered, its corrections accepted (relay §338)
+
+- **Read:** main's three relays of 2026-10-29 and 2026-10-30 and main @ 52dc780da → 64a2a3d4e, including its harvest of
+  W177–W180 (all reproduced bit for bit).
+- **Answered:** the cross-branch number count is 10, not 18 (the survey's miscount, corrected with dated notes in the
+  desk's pages). No page of this seat states T-NORM as derived; pointers given, and W49's M3 offered for P-531.
+- **Accepted:** main's corrections to W179 (the order-10 ties hold for 20 of 32 pairs; the fit's 7.1 depends on its
+  form; the ask for GENESIS FK11 premature for the 23 unsettled lines). W181, for those lines, named.
+- **Surfaces.** NOTE's W179 section, `docs/workdesk/THE_LEDGER_DESK.md`, `docs/workdesk/RESEARCH_REPORT_2026-10-28.md`,
+  relay §338, the ledger rows, the state page. 0 of 19.
+
 ## W180 run: the frozen-norm frame falls short for the six; every D∞ withheld (relay §337)
 
 - **The order:** the rule and the script pushed first; one run, its output committed unread; one labelled post hoc,

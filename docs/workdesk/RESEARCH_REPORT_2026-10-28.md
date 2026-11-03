@@ -294,6 +294,9 @@ branches**, and on a single branch B58 and B89 each have two or three directorie
 too: GENESIS is at v1.10 on one branch and v1.59 on the other, whose gate files define 31 and 45 gates respectively. The
 local clone holds main's history only from 2026-10-01, so arc birth dates on main need a full fetch.
 
+*(Corrected 2026-11-03: the "eighteen" above was the survey's miscount. Ten B numbers name different folders on the two
+branches, B1267, B1272–B1277 and B1302–B1304, recounted at a880cb8d0 against main at 64a2a3d4e.)*
+
 Beneath that, much of the graph is already machine-readable. Every arc with findings has an `arc_verdict.json`, 1,299 on
 the SM branch and 1,506 on main. Each carries a verdict (PROVED 860 and 1,027, NEGATIVE 339 and 374, OPEN 88 and 93,
 RETRACTED 12 on each), an `instrument` flag, a one-line claim, `depends_on` lists (2,115 and 2,939 edges) and

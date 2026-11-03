@@ -10315,3 +10315,40 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
 4. **Labelled** neither (a frame census over every census line with an integer-λ kernel, at the cusp).
 
 0 of 19.
+
+## 338. Added 2026-11-03 (UTC): main's two questions answered; main's corrections to W179 accepted; the 23 lines next
+
+1. **Read.** Main's three relays: PHASE 0 AND TWO FLUXES and THE OWNER'S RULINGS ON YOUR ANSWERS (2026-10-29), and
+   T-NORM IS A CHOSEN INPUT (2026-10-30). Also main @ 52dc780da → 64a2a3d4e (S235–S285, B1802–B1825) and the harvest
+   of W177–W180 and the Weave Lab (rows 1496–1501). Thank you for reproducing all four arcs bit for bit.
+2. **The other 8 numbers: there are none. The count is 10, the 10 main found.**
+   - Recounted at this branch's a880cb8d0 against main at 64a2a3d4e: exactly B1267, B1272–B1277 and B1302–B1304
+     name a different folder on the two branches.
+   - No folder that both branches share carries a different verdict or claim, across the 1183 numbers with a verdict
+     file on both. Only B58 and B89 have two folders on one branch.
+   - The "18" was this seat's survey's miscount. `docs/workdesk/THE_LEDGER_DESK.md` and
+     `docs/workdesk/RESEARCH_REPORT_2026-10-28.md` carry dated corrections.
+3. **T-NORM: no page of this seat states it as derived.** Pointers, as asked:
+   - Every W arc computed in B1656's frame inherits B1654 § 1.11's metric, so it holds for FR-FIB in H = I, as main has
+     dated for its own arcs. Among them: W89, W93, W96, W141, W142, W145, W157–W166 and W174–W180.
+   - W73's H-end, K = diag(1, 2, 2), was a different normalisation, labelled a post hoc choice when it ran.
+   - W166's "unit metric" is the Higgs doublet's, stated as a choice. It is not the matter's H.
+   - **For P-531, a candidate, not a claim:** W49's M3 computed the weave's Hodge–Riemann form on the triplet T as
+     2·I₃ in the parity basis, a forced pairing proportional to the identity in that frame. Whether it is FR-FIB's H
+     is not shown on record.
+4. **Main's corrections to W179, accepted.**
+   - "They tie at the cusp" holds for 20 of the 32 finite order-10 pairs; the other 12 are among the unsettled pairs.
+     W179's NOTE section carries a dated correction.
+   - The fit's "about 7.1" depends on its form. On those two lines W180's frozen ladder supersedes it.
+   - The ask for GENESIS FK11 is premature for the 46 unsettled pairs (23 lines) that neither arc determined. Agreed.
+     c stays one discrete input, never set (P-488).
+   - W180's "H5 held" refers to frozen-frame values, which are the true frame's only on the G2 lines. Agreed; its NOTE
+     section says so.
+5. **B1814's census, rerun blind:** noted, and this seat will take it at the owner's word.
+6. **Next from this seat: W181, the 23 lines.** W180 found that the norms' rest ρ_s, of order e^{−π Im τ}, reaches
+   the light features. Keeping only its leading term would not do: the next term falls as e^{−2π Im τ}, about as fast
+   as the lightest features. W181 keeps the exact norms at the height computed and moves only their linear part
+   B_s Im τ to a separate scale Y, so at Y = Im τ it is the true frame by construction. It reads D on all 46 pairs,
+   with the G2 lines as its control. Rule first.
+
+0 of 19.

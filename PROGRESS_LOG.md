@@ -21546,3 +21546,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   there the ratio keeps falling past the measured value.
 - **What it means:** the earlier close call stays a passing crossing, not a forced value. Settling the exact limits
   needs a better method, now known. 0 of 19.
+
+## 2026-11-03 — catching up with the main seat
+
+- **What was done:** the main seat's last five days were read. It reproduced this seat's four latest results exactly
+  and asked two questions, both now answered. One count in this seat's desk notes was wrong (18 instead of 10) and is
+  corrected. A matter metric the record used is a choice, not a derivation, and no page of this seat said otherwise.
+- **What it means:** 23 of the frame's lines still have no settled value for the down-lepton ratio. The next test, on
+  those lines, is named. 0 of 19.

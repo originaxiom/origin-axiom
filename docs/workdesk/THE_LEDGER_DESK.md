@@ -91,6 +91,9 @@ record. Pictures of the mathematics are computed, labelled weave or thread, and 
   - The record already guarantees what most projects lack: citations that resolve, sealed rules and lifecycles ordered
     by commits.
   - It lacks one identity per arc across seats: 18 B numbers name different arcs on different branches.
+    *(Corrected 2026-11-03, at main's question of 2026-10-29: the count is 10, B1267, B1272–B1277 and B1302–B1304,
+    the alias table's. Recounted at a880cb8d0 against main at 64a2a3d4e: no other number names a different folder, no
+    shared folder's verdict differs on the two branches, and only B58 and B89 have two folders on one branch.)*
   - It lacks a verdict file for the W arcs.
   - It lacks a scope field: weave or thread is recorded on 2 arc verdicts on this branch and 186 on main.
 
