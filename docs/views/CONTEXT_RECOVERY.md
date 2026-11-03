@@ -18,8 +18,8 @@
 | … NEGATIVE | 382 |
 | … OPEN | 93 |
 | … RETRACTED | 12 |
-| register points | 561 |
-| … QUEUED | 218 |
+| register points | 564 |
+| … QUEUED | 221 |
 | … LEAD | 10 |
 | … OWNER | 5 |
 | … DONE | 319 |
@@ -54,6 +54,7 @@
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
+- ** P-562** (2026-11-03) — THE HIGGS's OWN HYPERCHARGE TWIST (the agy lane's framing, its full-audit and elevation relays read in full, S288): FR-FIB's Higgs directions are modular forms of tau alone, with no identity channel,…
 - ** P-555** (2026-10-31) — THE MASSES AND THE MIXING AT DIFFERENT ADDRESSES (B1825): the frame reaches our six alone (least chi2_six 1.36) and our four alone (0.35 at a node), never at one rigid address (least chi2_ten 291.4;…
 - ** P-554** (2026-10-31) — THE SIX DO NOT COMPRESS, EVEN AT A FRAME ADDRESS (S285's pass side on B1741's box): C_six's 90th percentile is negative in every section (-0.85 bits at chi2 = 0, -2.5 with noise at sigma): the addres…
 - ** P-549** (2026-10-31) — EIGHT RELAYS OF 2026-10-09 TO THE SM SEAT AND CODEX WENT STALE AT MIDNIGHT (the relay-debt gate's 21 days; found by S277's suite): B1625, B1626, B1628, B1629, B1630-B1631, B1632, B1634 and B1635-B163…
@@ -78,10 +79,10 @@
 - ** P-487** (2026-10-29) — THE SUPPORT TEST (main's design from P-485, at the owner's 'lets attack… the final act'): defined on the whole interaction — the fibre frame × the weave's sums × the towers — with c supplied by the i…
 - ** P-485** (2026-10-29) — THE PLENITUDE REFRAMING (the owner, 2026-10-29: 'if all worlds in our framework are allowed to happen… they will happen, so our own'): if every world the framework allows is realised, deriving the SM…
 - ** P-479** (2026-10-29) — THE LIKELIHOOD DESIGN: B1814's D2 used a pair of p-value thresholds; for a two-clock question the likelihood ratio is the most powerful statistic, and p_F(A0) = 0.069 allows at most a Bayes factor of…
-- ** P-478** (2026-10-29) — THE LITERATURE TRANSFERS (reader B): the cosmological measure problem has the same one-parameter shape (Garriga et al.) and never derived its measure; the counting-equals-following test (Bousso–Yang)…
 
 ## The last landings (CHANGELOG)
 
+- S288 THE AGY LANE's REPORTS READ IN FULL; ITS FRAMING RULED; THE MIRROR RULE CLOSED FOR THE CKM (2026-11-03)
 - S287 THE SEATS FETCHED; THE AGY LANE's NOVEMBER WORK VERIFIED ON MAIN (B1826): THREE RESULTS KEPT, EVERY 'PARAMETER-FREE' CLAIM DECLINED (2026-11-03)
 - S286 B1825 NEGATIVE AS SEALED: NO SUPPORT. THE FRAME MAKES OUR MASS RATIOS AND OUR MIXING, NEVER AT ONE ADDRESS (2026-10-31)
 - S285 THE PASS SIDE ON B1741's BOX: POWER AT AN ADDRESS, LITTLE A SIGMA AWAY; THE SIX DO NOT COMPRESS; DETERMINISM PASSES (2026-10-31)
@@ -89,11 +90,10 @@
 - S283 NO FORK FOR THE BIG INDEX (2026-10-31)
 - S282 p2's WORKERS BOUNDED; THE DRY RUN's MEASUREMENTS (2026-10-31)
 - S281 THE MACHINE PANICKED UNDER THE PRE-SEAL JOBS; STEP B's INDEX MADE MEMORY-LEAN (2026-10-31)
-- S280 THE DUPLICATE CHECK MADE PRECISION-AWARE, AFTER ITS AGGREGATE DIAGNOSTIC (2026-10-31)
 
 ## The latest campaign line
 
-LATEST (2026-11-03, S287: every seat fetched. Another lane's overnight claim to have derived the Standard Model and more does not survive: its fits were chosen after seeing the data, as two independent audits and its own retraction show. Three of its mathematical results hold on our own code, one of which explains why the last test failed: the frame puts the quark mixing's smallest element in the wrong corner (B1826). 0 of 19.)
+LATEST (2026-11-03, S288: the other lane's reasoning about why our framework fails on the quark mixing holds: one Higgs, pushed by the mass hierarchy toward a special direction, drags both quark types' lightest states with it (B1826, building on B1739). The obvious symmetry fix does not help; a second ingredient of the Higgs is the next thing to test. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

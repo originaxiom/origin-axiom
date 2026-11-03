@@ -15059,7 +15059,9 @@
     "eisenstein",
     "golden"
    ],
-   "refs": [],
+   "refs": [
+    "S288"
+   ],
    "obstacle": "particle_dict",
    "obstacle_conf": 9,
    "status": "banked",

@@ -82,3 +82,9 @@ independent audits, main's provenance check confirming the decisive one). 0 of 1
 - **Literature (pointers, not read on the bench; no search was run):** the Gatto–Sartori–Tonin relation of
   Fritzsch-type textures, sin θ_C ≈ √(m_d/m_s), where the Cabibbo angle comes from the down sector; here the frame's up
   sector carries it, which is the inversion.
+
+> *2026-11-03 (S288): precedence for § 1.3. The locking of each sector's lightest state to conj(h) under S and to h
+> under S̃ is B1739's (main, P-344: "each sector's lightest state overlaps conj(h) under S and h under S~", with r =
+> |h·h|/|h|² falling like e^(−π Im τ)). The agy lane's addition is the 1–2 angle's dependence, θ₁₂ ∝ r/(m₂/m₃) per
+> sector, and the corner inversion that follows from one shared r. The arc's credit line is read with this.*
+

@@ -1,5 +1,10 @@
 # Changelog
 
+## S288 THE AGY LANE's REPORTS READ IN FULL; ITS FRAMING RULED; THE MIRROR RULE CLOSED FOR THE CKM (2026-11-03)
+
+- **At the owner's word, every relay of the agy lane's November branch read in full** (the full audit, the elevation plan, the seven pillars, the four steps, its own referee's report, the Master ToE plan, its concession and repairs, Theorems 10-14, the package's README). Its framing, ruled: the diagnosis holds and matters most -- a single adjoint Higgs pushed to the null cone by the hierarchy locks both quark sectors' light states (B1739, main's) and inverts the CKM's corners (B1826); a singlet Higgs channel would unlock them (verified algebra); its 4D determinant law is B1659's; 'H = I forced on the cover' is wrong (the commutant is 2-dimensional, the lane's own referee); no forced singlet is established (the natural-magnitude scalar with no phase chosen leaves the corner inverted). New leads: the Higgs's own hypercharge twist (P-562), a method point -- derive a frame's obstructions before a census (P-563) -- and the cover framing (P-564). B1826 credits B1739 for the lock (a dated note).
+- **P-555's mirror rule closed for the CKM:** it keeps the six and the Higgs's distance from the null cone exactly, and where the up hierarchy is steeper than the down (as measured), nature's corner order with an unmixed light generation occurs at 1.7% of the frame's points and at none under the rule. 0 of 19.
+
 ## S287 THE SEATS FETCHED; THE AGY LANE's NOVEMBER WORK VERIFIED ON MAIN (B1826): THREE RESULTS KEPT, EVERY 'PARAMETER-FREE' CLAIM DECLINED (2026-11-03)
 
 - **The owner's word:** fetch every seat, the agy lane's new work with special seriousness. Two lanes were new and unregistered: the agy lane's `agy/audit-2026-11-02` (16 commits, about 11 000 lines, nine relays, from B1825's committed-unread output) and an independent audit lane `audit/independent-2026-11-03`, which recomputed the agy lane's claims; both registered and pinned (rows 1510-1512). The web seat's two relays read (rows 1513-1514); the physical-bridge lane's 25 commits queued (P-560).

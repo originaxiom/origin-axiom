@@ -18275,3 +18275,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - Two new lanes registered; three of the agy lane's results kept after main's own recomputation; its late claims declined. Verification: main_checks.py and cusp_b_check.py (B1826/verification), the lane's git history, the gates. 0 of 19.
 
+## 2026-11-03 — S288 the agy lane's framing ruled; the mirror rule closed for the CKM
+
+- Every agy relay read in full; the framing ruled point by point (P-562-P-564); the mirror rule cannot lift the corner inversion (0 of 303 nature-like points). Verification: the exploration scripts in audit/drafts/p555/, the gates. 0 of 19.
+
