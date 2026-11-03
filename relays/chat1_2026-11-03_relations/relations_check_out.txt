@@ -1,0 +1,47 @@
+(1) the rank of the ten in (Re tau, Im tau), per branch
+    line (1/7, 2/7), tau 0.13+2.20i: 208 branches; max |sin| between two output gradients: median 0.996, minimum 0.515, below 0.1: 0
+    line (1/7, 2/7), tau 0.31+3.10i: 208 branches; max |sin| between two output gradients: median 0.993, minimum 0.480, below 0.1: 0
+    line (3/8, 3/8), tau 0.13+2.20i: 208 branches; max |sin| between two output gradients: median 1.000, minimum 0.684, below 0.1: 0
+    line (3/8, 3/8), tau 0.31+3.10i: 208 branches; max |sin| between two output gradients: median 0.998, minimum 0.464, below 0.1: 0
+    line (4/9, 1/3), tau 0.13+2.20i: 208 branches; max |sin| between two output gradients: median 0.997, minimum 0.328, below 0.1: 0
+    line (4/9, 1/3), tau 0.31+3.10i: 208 branches; max |sin| between two output gradients: median 0.989, minimum 0.447, below 0.1: 0
+    line (2/5, 1/10), tau 0.13+2.20i: 208 branches; max |sin| between two output gradients: median 1.000, minimum 0.974, below 0.1: 0
+    line (2/5, 1/10), tau 0.31+3.10i: 208 branches; max |sin| between two output gradients: median 0.998, minimum 0.490, below 0.1: 0
+    line (3/11, 5/11), tau 0.13+2.20i: 208 branches; max |sin| between two output gradients: median 1.000, minimum 0.759, below 0.1: 0
+    line (3/11, 5/11), tau 0.31+3.10i: 208 branches; max |sin| between two output gradients: median 0.997, minimum 0.484, below 0.1: 0
+    line (1/12, 0), tau 0.13+2.20i: 208 branches; max |sin| between two output gradients: median 0.998, minimum 0.423, below 0.1: 0
+    line (1/12, 0), tau 0.31+3.10i: 208 branches; max |sin| between two output gradients: median 0.996, minimum 0.549, below 0.1: 0
+    line (5/12, 1/4), tau 0.13+2.20i: 208 branches; max |sin| between two output gradients: median 0.999, minimum 0.986, below 0.1: 0
+    line (5/12, 1/4), tau 0.31+3.10i: 208 branches; max |sin| between two output gradients: median 0.997, minimum 0.814, below 0.1: 0
+    line (1/4, 1/8), tau 0.13+2.20i: 208 branches; max |sin| between two output gradients: median 0.996, minimum 0.142, below 0.1: 0
+    line (1/4, 1/8), tau 0.31+3.10i: 208 branches; max |sin| between two output gradients: median 0.974, minimum 0.134, below 0.1: 0
+    all: 3328 branches; minimum 0.134; below 0.1: 0
+(2) the exact relations by line class, tau = 0.13 + 2.2i, DR, L_2, one reading in all sectors
+    order  2 line (1/2, 0) reading S : up=down ratios equal, largest equal; down=lepton ratios equal, largest equal; up=lepton ratios equal, largest equal; V = 1
+    order  2 line (1/2, 0) reading S~: up=down ratios equal, largest equal; down=lepton ratios equal, largest equal; up=lepton ratios equal, largest equal; V = 1
+    order  3 line (1/3, 0) reading S : up=down ratios equal, largest equal; down=lepton ratios apart, largest apart; up=lepton ratios apart, largest apart; V = 1
+    order  3 line (1/3, 0) reading S~: up=down ratios equal, largest equal; down=lepton ratios apart, largest apart; up=lepton ratios apart, largest apart; V = 1
+    order  4 line (1/4, 0) reading S : up=down ratios apart, largest apart; down=lepton ratios equal (m1 = 0 in both), largest equal; up=lepton ratios apart, largest apart; V not 1
+    order  4 line (1/4, 0) reading S~: up=down ratios apart, largest apart; down=lepton ratios equal (m1 = 0 in both), largest equal; up=lepton ratios apart, largest apart; V not 1
+    order  4 line (1/2, 1/4) reading S : up=down ratios apart, largest apart; down=lepton ratios equal (m1 = 0 in both), largest equal; up=lepton ratios apart, largest apart; V not 1
+    order  4 line (1/2, 1/4) reading S~: up=down ratios apart, largest apart; down=lepton ratios equal (m1 = 0 in both), largest equal; up=lepton ratios apart, largest apart; V not 1
+    order  5 line (2/5, 0) reading S : up=down ratios apart, largest apart; down=lepton ratios equal, largest equal; up=lepton ratios apart, largest apart; V not 1
+    order  5 line (2/5, 0) reading S~: up=down ratios apart, largest apart; down=lepton ratios equal, largest equal; up=lepton ratios apart, largest apart; V not 1
+    order  5 line (1/5, 3/5) reading S : up=down ratios apart, largest apart; down=lepton ratios equal, largest equal; up=lepton ratios apart, largest apart; V not 1
+    order  5 line (1/5, 3/5) reading S~: up=down ratios apart, largest apart; down=lepton ratios equal, largest equal; up=lepton ratios apart, largest apart; V not 1
+    order  6 line (1/6, 1/3) reading S : up=down ratios equal, largest equal; down=lepton ratios apart, largest apart; up=lepton ratios apart, largest apart; V = 1
+    order  6 line (1/6, 1/3) reading S~: up=down ratios equal, largest equal; down=lepton ratios apart, largest apart; up=lepton ratios apart, largest apart; V = 1
+    order  7 line (1/7, 0) reading S : up=down ratios apart, largest apart; down=lepton ratios apart, largest apart; up=lepton ratios equal, largest equal; V not 1
+    order  7 line (1/7, 0) reading S~: up=down ratios apart, largest apart; down=lepton ratios apart, largest apart; up=lepton ratios equal, largest equal; V not 1
+    order  7 line (2/7, 3/7) reading S : up=down ratios apart, largest apart; down=lepton ratios apart, largest apart; up=lepton ratios equal, largest equal; V not 1
+    order  7 line (2/7, 3/7) reading S~: up=down ratios apart, largest apart; down=lepton ratios apart, largest apart; up=lepton ratios equal, largest equal; V not 1
+    order  8 line (3/8, 1/8) reading S : up=down ratios apart, largest apart; down=lepton ratios apart, largest apart; up=lepton ratios apart, largest apart; V not 1
+    order  8 line (3/8, 1/8) reading S~: up=down ratios apart, largest apart; down=lepton ratios apart, largest apart; up=lepton ratios apart, largest apart; V not 1
+    order  9 line (2/9, 1/3) reading S : up=down ratios apart, largest apart; down=lepton ratios apart, largest apart; up=lepton ratios apart, largest apart; V not 1
+    order  9 line (2/9, 1/3) reading S~: up=down ratios apart, largest apart; down=lepton ratios apart, largest apart; up=lepton ratios apart, largest apart; V not 1
+    order 10 line (3/10, 1/5) reading S : up=down ratios apart, largest apart; down=lepton ratios apart, largest apart; up=lepton ratios apart, largest apart; V not 1
+    order 10 line (3/10, 1/5) reading S~: up=down ratios apart, largest apart; down=lepton ratios apart, largest apart; up=lepton ratios apart, largest apart; V not 1
+    order 11 line (2/11, 5/11) reading S : up=down ratios apart, largest apart; down=lepton ratios apart, largest apart; up=lepton ratios apart, largest apart; V not 1
+    order 11 line (2/11, 5/11) reading S~: up=down ratios apart, largest apart; down=lepton ratios apart, largest apart; up=lepton ratios apart, largest apart; V not 1
+    order 12 line (5/12, 1/6) reading S : up=down ratios apart, largest apart; down=lepton ratios apart, largest apart; up=lepton ratios apart, largest apart; V not 1
+    order 12 line (5/12, 1/6) reading S~: up=down ratios apart, largest apart; down=lepton ratios apart, largest apart; up=lepton ratios apart, largest apart; V not 1
