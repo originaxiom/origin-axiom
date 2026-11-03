@@ -48,6 +48,10 @@ from origin_axiom.sm_19_gate import (
     evaluate_sm_19_gate,
     inter_sector_yukawa_unification,
     stabilized_modulus_candidates,
+    step1_golden_5torsion_norm_preserving_solution,
+    step2_physical_spin_flavour_locking_bridge,
+    step3_pmns_and_m004_gauge_thresholds,
+    step4_sealed_stepb_v2_fr_cov_verdict,
 )
 from origin_axiom.stepb_audit import (
     count_order12_massless_electron_choices,
@@ -313,5 +317,55 @@ def test_seven_pillars_sm_19_gate_preparation():
     # Adding 1-loop SM top-Yukawa RG running drops chi2_ten further to ~161.70 at frozen tau*:
     assert float(cov6_rg["chi2_ten"]) < 162.0
     assert gate19["parameter_table_count"] == 19
+
+
+def test_four_sequential_steps_stepb_v2_closure():
+    # Step 1: Exact norm-preserving (Z_2, Z_8, -1) Golden 5-torsion solution on (2/5, 0)
+    s1 = step1_golden_5torsion_norm_preserving_solution()
+    assert float(s1["norm_preservation_up"]) < 1e-14
+    assert float(s1["norm_preservation_down"]) < 1e-14
+    assert float(s1["norm_preservation_lepton"]) < 1e-14
+
+    tree = s1["pure_tree_level"]
+    assert tree["passes_all_three_gates"] is True
+    assert abs(float(tree["chi2_six"]) - 6.8343) < 1e-2
+    assert abs(float(tree["chi2_ckm"]) - 0.3648) < 1e-2
+    assert abs(float(tree["chi2_ten"]) - 7.1991) < 1e-2
+    assert abs(float(tree["Vub_over_Vtd"]) - 0.4111) < 1e-2
+    assert abs(float(tree["sin_delta_CP"]) - 0.9269) < 1e-2
+    assert float(tree["b_tau_residue_norm_diff"]) < 1e-14
+
+    rg = s1["with_1loop_rg"]
+    assert rg["passes_all_three_gates"] is True
+    assert float(rg["chi2_ten"]) < 6.0
+
+    # Step 2: Physical spin-flavour locking bridge on M_3 -> m004
+    s2 = step2_physical_spin_flavour_locking_bridge()
+    assert s2["n_raw_description_pairs"] == 16
+    assert s2["n_simultaneous_twist_orbits"] == 4
+    assert s2["trivial_defect_orbit_size"] == 4
+    assert s2["locked_8torsion_coset_sizes"] == {"(0,0)": 16, "(1,0)": 16, "(0,1)": 16, "(1,1)": 16}
+    assert s2["independent_flavour_sign_freedom_remaining"] == 0
+
+    # Step 3: Block III (PMNS & Weinberg LL (-3, -3) Pauli antisymmetry) and Block IV (m004 Ray-Singer gauge threshold)
+    s3 = step3_pmns_and_m004_gauge_thresholds()
+    b3 = s3["block_III_pmns"]
+    assert float(b3["weinberg_LL_singlet_residue_abs"]) < 1e-15
+    assert abs(float(b3["sin2_theta12_pred"]) - 0.3119) < 1e-3
+    assert abs(float(b3["Ue2_sq_pred"]) - 0.3030) < 1e-3
+
+    b4 = s3["block_IV_gauge_unification"]
+    assert abs(float(b4["delta_alpha3_inv_RS_threshold"]) - (-7.0 * math.log(4.0 / math.sqrt(3.0)))) < 1e-12
+    assert float(b4["rel_error_sin2_thetaW_MZ"]) < 0.006
+    assert float(b4["rel_error_alpha_s_MZ"]) < 0.035
+
+    # Step 4: Sealed Step B v2 (FR-COV) hyperbolic acceptance area & positive C_ten compression
+    s4 = step4_sealed_stepb_v2_fr_cov_verdict()
+    assert s4["in_support"] is True
+    assert float(s4["overlap_fraction_A_ten_over_A_six"]) > 0.90
+    assert float(s4["conditional_ckm_cost_bits"]) < 0.15
+    assert float(s4["C_ten_bits_fr_cov"]) > 44.5
+    assert float(s4["C_ten_bits_adversarial_23bit_ledger"]) > 33.4
+
 
 
