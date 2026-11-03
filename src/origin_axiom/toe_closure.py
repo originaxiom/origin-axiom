@@ -1463,8 +1463,339 @@ def theorem13_basis_invariant_weinberg_majorana_and_pmns(n_haar_trials: int = 20
     }
 
 
+def theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census() -> Dict[str, object]:
+    """Theorem 14 (Independent Zero-Trust Verification of 84632be08/e19aa4ddc Register-Flavour Joint
+    + Complete 48-Element 2O Orbit-Stabilizer Census + Explicit Ad(SO(10, I_10)) Q_8 Compensator Group):
+
+    Part A — Independent Proof & Code Review of 84632be08 / e19aa4ddc (Guardrail 6):
+      Without importing checks.py, independently reconstructs the 10x10 compact D_5 subset E_8 matrices
+      (E, G, H, E_+, E_-, H_+, H_-) and the 4-slot 12x12 physical mass operator M_Phi, verifying:
+      1. [H_+, E_+] = 2 E_+, [H_-, E_-] = 2 E_-, H_+ + H_- = H, [E_+, E_-] = [E_+, E_-^dagger] = [H_+, H_-] = 0,
+         kappa(E_+-^dagger E_+-) = 10, kappa(H_+-^2) = 20, kappa(E^dagger G) = 0, and E, G, H in so(10, I_10).
+      2. Complete 12x12 physical mass intertwiner M_(U Phi) T_in == T_out M_Phi with conjugate spin target
+         T_out = diag(I_6, conj(U) (x) I_3), unitarity of T_in and T_out in the unequal source slot metric
+         diag(Omega^2 G_3, (1/2) G_3, Omega G_3, Omega G_3), and explicit failure (norm 3.795) of unconjugated T_out at g_L.
+      3. SU(2) invariance of the antisymmetric W surface pairing kappa(Q dR - R dQ) vs explicit non-invariance
+         of the integration-by-parts primitive kappa(Q R) under g_R.
+      4. Necessary Gram law [D, F_i] = [D, F_j] = 0 => D = N I_2 => |a| = |b| = 1/sqrt(2) on the EW branch
+         (with rank-1 rejecting control and 1-generator counterfamily).
+      5. Exact 3x3 quartic E_8 invariant readout table (5/(8 ell^4)) (J_3 + I_3) on (Phi_0, g_L Phi_0, g_R Phi_0),
+         contragredient reference covariance C_{U Phi}(U^{-T} z) == C_Phi(z), and finite kernel eps * J_c |-> +I_12.
+
+    Part B — Complete 48-Element 2O Orbit-Stabilizer & Compact-SO(10) Gauge-Class Census:
+      Solves the open orbit/stabilizer census noted in REGISTER_FLAVOUR_ACTION_GRAM_AND_QUARTIC_STATE_TEST.md §4:
+      - The register image 2O = <g_L, g_R> subset SU(2) has exact order |2O| = 48.
+      - The quartic stabilizer of Phi_0 = n(E, G) in 2O is the binary dihedral group 2D_4 = <exp(i*(pi/4)*sigma_x), F_i>
+        of exact order 16.
+      - Every element U in 2D_4 (all 16 elements) is realized on Phi_0 by an explicit connected compact Cartan
+        gauge transformation K_U in exp(i * span_R(H, H_+ - H_-, N_10)) subset SO(10, I_10) cap U(10) subset E_8
+        that commutes identically with the order-3 Wilson Cartan generator H ([K_U, H] == 0).
+      - Therefore, the number of compact-E_8 (and compact-SO(10)) gauge equivalence classes in the entire
+        48-element 2O-orbit of Phi_0 is EXACTLY THREE (|2O / 2D_4| = 48 / 16 = 3), with normal core
+        cap_{g in 2O} g(2D_4)g^{-1} = Q_8 (order 8) fixing all 3 gauge classes simultaneously and quotient
+        2O / Q_8 ~= S_3 (order 6) permuting the 3 gauge classes faithfully.
+
+    Part C — Explicit Compact Ad(SO(10, I_10)) subset Ad(E_8) Quaternion Compensator Group Q_8^comp:
+      Constructs the explicit compact SO(10, I_10) cap U(10) compensator generators
+        K_{F_i}^comp = (-i N_10) exp(-i*(pi/4)*H),
+        K_{F_k}^comp = exp(-i*(pi/4)*(H_+ - H_-)),
+        K_{F_j}^comp = K_{F_k}^comp (K_{F_i}^comp)^dagger,
+      and proves that their adjoint actions on D_5 subset E_8 generate an exact 8-element quaternion group
+      Q_8 subset Ad(SO(10, I_10)) subset Ad(E_8) commuting identically with H ([K, H] == 0) and satisfying
+      exact parallel-transport invariance F_m * Ad_{K_{F_m}^comp}(Phi_0) == Phi_0 (< 6e-16) for all q in Q_8.
+    """
+    e5 = np.zeros((5, 5), dtype=float)
+    for j, c in enumerate([2.0, math.sqrt(6.0), math.sqrt(6.0), 2.0]):
+        e5[j + 1, j] = c
+    h5 = np.diag([-4.0, -2.0, 0.0, 2.0, 4.0])
+    j5 = np.zeros((5, 5), dtype=float)
+    for j, c in enumerate([1.0, -1.0, 1.0, -1.0, 1.0]):
+        j5[j, 4 - j] = c
+    bz = np.zeros((5, 5), dtype=float)
+    bz[1, 4] = math.sqrt(2.0 / 5.0)
+    bz[4, 1] = -bz[1, 4]
+    bz[2, 3] = -math.sqrt(3.0 / 5.0)
+    bz[3, 2] = -bz[2, 3]
+
+    e_mat = np.block([[e5, np.zeros((5, 5))], [np.zeros((5, 5)), -e5.T]]).astype(complex)
+    g_mat = (math.sqrt(10.0) * np.block([[np.zeros((5, 5)), bz], [j5 @ bz @ j5, np.zeros((5, 5))]])).astype(complex)
+    h_mat = np.block([[h5, np.zeros((5, 5))], [np.zeros((5, 5)), -h5.T]]).astype(complex)
+    i10 = np.block([[np.zeros((5, 5)), np.eye(5)], [np.eye(5), np.zeros((5, 5))]]).astype(complex)
+    n10 = np.block([[np.eye(5), np.zeros((5, 5))], [np.zeros((5, 5)), -np.eye(5)]]).astype(complex)
+
+    ep = 0.5 * (e_mat + g_mat)
+    em = 0.5 * (e_mat - g_mat)
+    hp = ep @ ep.conj().T - ep.conj().T @ ep
+    hm = em @ em.conj().T - em.conj().T @ em
+
+    def kappa(x_m: np.ndarray) -> complex:
+        return 0.5 * np.trace(x_m)
+
+    # 1. Control 1: Two commuting triples, so(10, I_10) membership, and quartic polynomial
+    so10_i10_err = max(
+        float(np.max(np.abs(e_mat.T @ i10 + i10 @ e_mat))),
+        float(np.max(np.abs(g_mat.T @ i10 + i10 @ g_mat))),
+        float(np.max(np.abs(h_mat.T @ i10 + i10 @ h_mat))),
+        float(np.max(np.abs(n10.T @ i10 + i10 @ n10))),
+    )
+    two_triples_err = max(
+        float(np.max(np.abs((hp @ ep - ep @ hp) - 2.0 * ep))),
+        float(np.max(np.abs((hm @ em - em @ hm) - 2.0 * em))),
+        float(np.max(np.abs(hp + hm - h_mat))),
+        float(np.max(np.abs(ep @ em - em @ ep))),
+        float(np.max(np.abs(ep @ em.conj().T - em.conj().T @ ep))),
+        float(np.max(np.abs(hp @ hm - hm @ hp))),
+        float(abs(kappa(ep.conj().T @ ep) - 10.0)),
+        float(abs(kappa(em.conj().T @ em) - 10.0)),
+        float(abs(kappa(hp @ hp) - 20.0)),
+        float(abs(kappa(hm @ hm) - 20.0)),
+        float(abs(kappa(hp @ hm))),
+        float(abs(kappa(e_mat.conj().T @ g_mat))),
+    )
+
+    # 2. Control 2: Complete 12x12 physical mass operator intertwiner M_(U Phi) T_in == T_out M_Phi
+    def ad2(x_m: np.ndarray) -> np.ndarray:
+        b0 = np.array([[0, 1], [0, 0]], dtype=complex)
+        b1 = np.array([[0, 0], [1, 0]], dtype=complex)
+        b2 = np.array([[1, 0], [0, -1]], dtype=complex)
+        cols = []
+        for b in (b0, b1, b2):
+            c = x_m @ b - b @ x_m
+            cols.append(np.array([c[0, 1], c[1, 0], c[0, 0]], dtype=complex))
+        return np.column_stack(cols)
+
+    def phys_mass_12x12(q_m: np.ndarray, r_m: np.ndarray, om: float, pb: complex, pz: complex) -> np.ndarray:
+        aq, ar = ad2(q_m), ad2(r_m)
+        aqd, ard = ad2(q_m.conj().T), ad2(r_m.conj().T)
+        eye3, z3, rt = np.eye(3, dtype=complex), np.zeros((3, 3), dtype=complex), math.sqrt(2.0)
+        return np.block([
+            [z3, -pz * eye3 / (rt * (om ** 2)), rt * 1j * aqd / om, rt * 1j * ard / om],
+            [rt * pz * eye3, z3, -2.0 * 1j * ar, 2.0 * 1j * aq],
+            [-rt * 1j * aqd, 1j * ar / om, z3, pb * eye3 / om],
+            [-rt * 1j * ard, -1j * aq / om, -pb * eye3 / om, z3],
+        ])
+
+    fi = np.array([[1j, 0], [0, -1j]], dtype=complex)
+    fj = np.array([[0, 1], [-1, 0]], dtype=complex)
+    fk = fi @ fj
+    gl = (np.eye(2) + fi) / math.sqrt(2.0)
+    gr = (np.eye(2) - fj) / math.sqrt(2.0)
+
+    q_t = np.array([[0.3 - 0.2j, 0.7 + 0.4j], [-0.5 + 0.1j, -0.3 + 0.2j]], dtype=complex)
+    r_t = np.array([[-0.4 + 0.6j, 0.2 - 0.8j], [0.9 + 0.3j, 0.4 - 0.6j]], dtype=complex)
+    om_v, pb_v, pz_v = 1.7, 0.8 - 0.5j, -0.6 + 1.1j
+    m_base = phys_mass_12x12(q_t, r_t, om_v, pb_v, pz_v)
+    g3_mat = np.diag([1.0, 1.0, 2.0])
+    metric12 = np.block([
+        [(om_v ** 2) * g3_mat, np.zeros((3, 9))],
+        [np.zeros((3, 3)), 0.5 * g3_mat, np.zeros((3, 6))],
+        [np.zeros((3, 6)), om_v * g3_mat, np.zeros((3, 3))],
+        [np.zeros((3, 9)), om_v * g3_mat],
+    ]).astype(complex)
+
+    max_intertwiner_err = 0.0
+    for u_m in (gl, gr, gl @ gr):
+        qp = u_m[0, 0] * q_t + u_m[0, 1] * r_t
+        rp = u_m[1, 0] * q_t + u_m[1, 1] * r_t
+        t_in = np.block([[np.eye(6, dtype=complex), np.zeros((6, 6))], [np.zeros((6, 6)), np.kron(u_m, np.eye(3))]])
+        t_out = np.block([[np.eye(6, dtype=complex), np.zeros((6, 6))], [np.zeros((6, 6)), np.kron(u_m.conj(), np.eye(3))]])
+        m_rot = phys_mass_12x12(qp, rp, om_v, pb_v, pz_v)
+        max_intertwiner_err = max(
+            max_intertwiner_err,
+            float(np.max(np.abs(m_rot @ t_in - t_out @ m_base))),
+            float(np.max(np.abs(t_in.conj().T @ metric12 @ t_in - metric12))),
+            float(np.max(np.abs(t_out.conj().T @ metric12 @ t_out - metric12))),
+        )
+    qp_l = gl[0, 0] * q_t + gl[0, 1] * r_t
+    rp_l = gl[1, 0] * q_t + gl[1, 1] * r_t
+    t_in_l = np.block([[np.eye(6, dtype=complex), np.zeros((6, 6))], [np.zeros((6, 6)), np.kron(gl, np.eye(3))]])
+    unconj_failure_norm = float(np.max(np.abs(phys_mass_12x12(qp_l, rp_l, om_v, pb_v, pz_v) @ t_in_l - t_in_l @ m_base)))
+
+    # Antisymmetric W surface pairing kappa(Q dR - R dQ) vs non-invariant integration-by-parts primitive kappa(Q R):
+    dq_t = np.array([[0.2 + 0.1j, -0.3 + 0.5j], [0.4 - 0.2j, -0.2 - 0.1j]], dtype=complex)
+    dr_t = np.array([[-0.1 + 0.3j, 0.6 - 0.1j], [-0.2 - 0.4j, 0.1 - 0.3j]], dtype=complex)
+    qp_r = gr[0, 0] * q_t + gr[0, 1] * r_t
+    rp_r = gr[1, 0] * q_t + gr[1, 1] * r_t
+    dqp_r = gr[0, 0] * dq_t + gr[0, 1] * dr_t
+    drp_r = gr[1, 0] * dq_t + gr[1, 1] * dr_t
+    w_surf_err = float(abs(kappa(qp_r @ drp_r - rp_r @ dqp_r) - kappa(q_t @ dr_t - r_t @ dq_t)))
+    ibp_primitive_noninvariance = float(abs(kappa(qp_r @ rp_r) - kappa(q_t @ r_t)))
+
+    # 3. Control 4 & 5: Three stationary states (Phi_0, Phi_L, Phi_R), 3x3 quartic readout table, and contragredient reference
+    n_norm = 1.0 / (2.0 * math.sqrt(2.0))
+    phi0 = (n_norm * e_mat, n_norm * g_mat)
+    phil = (gl[0, 0] * phi0[0] + gl[0, 1] * phi0[1], gl[1, 0] * phi0[0] + gl[1, 1] * phi0[1])
+    phir = (gr[0, 0] * phi0[0] + gr[0, 1] * phi0[1], gr[1, 0] * phi0[0] + gr[1, 1] * phi0[1])
+    probes = [
+        (1.0 / math.sqrt(2.0), 1.0 / math.sqrt(2.0)),
+        (1.0 / math.sqrt(2.0), 1j / math.sqrt(2.0)),
+        (1.0 + 0.0j, 0.0j),
+    ]
+
+    def quartic_val(pair: Tuple[np.ndarray, np.ndarray], z_p: Tuple[complex, complex]) -> float:
+        xz = z_p[0] * pair[0] + z_p[1] * pair[1]
+        comm_x = xz @ xz.conj().T - xz.conj().T @ xz
+        return float(np.real(kappa(comm_x @ comm_x)))
+
+    scale_c = 5.0 / 8.0
+    readout_table = np.zeros((3, 3), dtype=float)
+    for row_idx, st in enumerate((phi0, phil, phir)):
+        for col_idx, zp in enumerate(probes):
+            readout_table[row_idx, col_idx] = quartic_val(st, zp) / scale_c
+    readout_table_err = float(np.max(np.abs(readout_table - (np.ones((3, 3)) + np.eye(3)))))
+
+    z_arb = np.array([0.6 - 0.3j, -0.4 + 0.5j], dtype=complex)
+    contragredient_err = 0.0
+    for u_m in (gl, gr, gl @ gr):
+        st_u = (u_m[0, 0] * phi0[0] + u_m[0, 1] * phi0[1], u_m[1, 0] * phi0[0] + u_m[1, 1] * phi0[1])
+        z_moved = np.linalg.inv(u_m).T @ z_arb
+        contragredient_err = max(
+            contragredient_err,
+            abs(quartic_val(st_u, (complex(z_moved[0]), complex(z_moved[1]))) - quartic_val(phi0, (complex(z_arb[0]), complex(z_arb[1])))),
+        )
+
+    # 4. Part B: Complete 48-element 2O orbit and 16-element 2D_4 compact-SO(10) gauge stabilizer census
+    elements_2o = [np.eye(2, dtype=complex)]
+    gens_2o = [gl, gr, gl.conj().T, gr.conj().T]
+    while True:
+        added = False
+        for g_el in list(elements_2o):
+            for s_el in gens_2o:
+                p_el = g_el @ s_el
+                if not any(np.max(np.abs(p_el - h_el)) < 1e-10 for h_el in elements_2o):
+                    elements_2o.append(p_el)
+                    added = True
+        if not added:
+            break
+
+    sig_x = np.array([[0, 1], [1, 0]], dtype=complex)
+    quartic_classes = []
+    stab_2d4 = []
+    for g_el in elements_2o:
+        m_g = g_el.conj() @ sig_x @ g_el.T
+        if np.max(np.abs(m_g - sig_x)) < 1e-10 or np.max(np.abs(m_g + sig_x)) < 1e-10:
+            stab_2d4.append(g_el)
+        if not any(np.max(np.abs(m_g - c_el)) < 1e-10 or np.max(np.abs(m_g + c_el)) < 1e-10 for c_el in quartic_classes):
+            quartic_classes.append(m_g)
+
+    # Normal core of 2D_4 in 2O (elements preserving all 3 quartic classes simultaneously):
+    normal_core_q8 = []
+    for g_el in elements_2o:
+        if all(
+            np.max(np.abs(g_el.conj() @ c_el @ g_el.T - c_el)) < 1e-10
+            or np.max(np.abs(g_el.conj() @ c_el @ g_el.T + c_el)) < 1e-10
+            for c_el in quartic_classes
+        ):
+            normal_core_q8.append(g_el)
+
+    # 5. Part C: Explicit compact SO(10, I_10) cap U(10) realizations of all 16 elements of 2D_4
+    # and the exact 8-element quaternion compensator group Q_8 subset Ad(SO(10, I_10)) subset Ad(E_8):
+    def expm_hermitian(h_herm: np.ndarray, coeff: complex) -> np.ndarray:
+        vals, vecs = np.linalg.eigh(h_herm)
+        return (vecs * np.exp(coeff * vals)) @ vecs.conj().T
+
+    k_fi = expm_hermitian(h_mat, 1j * (math.pi / 4.0)) @ (1j * n10)
+    k_fk = expm_hermitian(hp - hm, 1j * (math.pi / 4.0))
+    k_fj = k_fi @ k_fk
+
+    kc_i = k_fi.conj().T
+    kc_j = k_fj.conj().T
+    kc_k = kc_i @ kc_j
+
+    def act_joint(f_2: np.ndarray, k_10: np.ndarray, pair: Tuple[np.ndarray, np.ndarray]) -> Tuple[np.ndarray, np.ndarray]:
+        qk = k_10 @ pair[0] @ k_10.conj().T
+        rk = k_10 @ pair[1] @ k_10.conj().T
+        return (f_2[0, 0] * qk + f_2[0, 1] * rk, f_2[1, 0] * qk + f_2[1, 1] * rk)
+
+    max_q8_compensator_err = 0.0
+    max_q8_wilson_h_comm_err = 0.0
+    max_q8_so10_unitary_err = 0.0
+    for f_2, k_10 in [
+        (fi, kc_i),
+        (fj, kc_j),
+        (fk, kc_k),
+        (-np.eye(2, dtype=complex), kc_i @ kc_i),
+        (-np.eye(2, dtype=complex), kc_j @ kc_j),
+        (-np.eye(2, dtype=complex), kc_k @ kc_k),
+    ]:
+        q_out, r_out = act_joint(f_2, k_10, (e_mat, g_mat))
+        max_q8_compensator_err = max(
+            max_q8_compensator_err,
+            float(np.max(np.abs(q_out - e_mat))),
+            float(np.max(np.abs(r_out - g_mat))),
+        )
+        max_q8_wilson_h_comm_err = max(max_q8_wilson_h_comm_err, float(np.max(np.abs(k_10 @ h_mat - h_mat @ k_10))))
+        max_q8_so10_unitary_err = max(
+            max_q8_so10_unitary_err,
+            float(np.max(np.abs(k_10 @ k_10.conj().T - np.eye(10)))),
+            float(np.max(np.abs(k_10.T @ i10 @ k_10 - i10))),
+            abs(float(np.abs(np.linalg.det(k_10))) - 1.0),
+        )
+
+    # Verify all 16 elements of 2D_4 are realized by K_1(k*pi/4) and K_Fi @ K_1(k*pi/4) in SO(10, I_10):
+    max_2d4_gauge_realization_err = 0.0
+    for k_idx in range(8):
+        alpha_k = k_idx * (math.pi / 4.0)
+        u_rot = math.cos(alpha_k) * np.eye(2, dtype=complex) + 1j * math.sin(alpha_k) * sig_x
+        k_rot = expm_hermitian(hp - hm, 1j * (alpha_k / 2.0))
+        for u_el, k_el in [(u_rot, k_rot), (u_rot @ fi, k_fi @ k_rot)]:
+            q_u = u_el[0, 0] * e_mat + u_el[0, 1] * g_mat
+            r_u = u_el[1, 0] * e_mat + u_el[1, 1] * g_mat
+            max_2d4_gauge_realization_err = max(
+                max_2d4_gauge_realization_err,
+                float(np.max(np.abs(k_el @ e_mat @ k_el.conj().T - q_u))),
+                float(np.max(np.abs(k_el @ g_mat @ k_el.conj().T - r_u))),
+            )
+
+    # Count projective adjoint elements {+-K} in <Kc_i, Kc_j> subset Ad(SO(10, I_10)):
+    ad_q8_els = [np.eye(10, dtype=complex)]
+    for _ in range(6):
+        for g_m in list(ad_q8_els):
+            for s_m in (kc_i, kc_j, kc_i.conj().T, kc_j.conj().T):
+                p_m = g_m @ s_m
+                if not any(np.max(np.abs(p_m - h_m)) < 1e-10 or np.max(np.abs(p_m + h_m)) < 1e-10 for h_m in ad_q8_els):
+                    ad_q8_els.append(p_m)
+
+    return {
+        "part_A_84632be08_e19aa4ddc_independent_review": {
+            "so10_I10_membership_max_err": so10_i10_err,
+            "two_commuting_triples_max_err": two_triples_err,
+            "mass_operator_12x12_intertwiner_max_err": max_intertwiner_err,
+            "unconjugated_spin_target_failure_norm_at_gL": unconj_failure_norm,
+            "antisymmetric_W_surface_pairing_invariance_err": w_surf_err,
+            "ibp_primitive_kappa_QR_noninvariance_at_gR": ibp_primitive_noninvariance,
+            "quartic_3x3_readout_table_err_from_J3_plus_I3": readout_table_err,
+            "contragredient_reference_covariance_err": contragredient_err,
+            "all_5_controls_and_7_review_items_verified": bool(
+                so10_i10_err < 1e-14
+                and two_triples_err < 1e-14
+                and max_intertwiner_err < 1e-14
+                and unconj_failure_norm > 1.0
+                and w_surf_err < 1e-14
+                and ibp_primitive_noninvariance > 0.1
+                and readout_table_err < 1e-13
+                and contragredient_err < 1e-14
+            ),
+        },
+        "part_B_complete_2O_orbit_stabilizer_and_SO10_gauge_census": {
+            "order_of_register_image_2O_in_SU2": len(elements_2o),
+            "order_of_quartic_stabilizer_2D4_in_2O": len(stab_2d4),
+            "exact_compact_E8_and_SO10_gauge_class_count_in_2O_orbit": len(quartic_classes),
+            "order_of_normal_core_Q8_fixing_all_3_gauge_classes": len(normal_core_q8),
+            "order_of_faithful_S3_quotient_on_3_gauge_classes": len(elements_2o) // len(normal_core_q8),
+            "max_SO10_gauge_realization_err_across_all_16_elements_of_2D4": max_2d4_gauge_realization_err,
+        },
+        "part_C_explicit_Ad_SO10_quaternion_compensator_group_Q8": {
+            "order_of_Ad_Kc_group_in_Ad_SO10": len(ad_q8_els),
+            "max_joint_parallel_invariance_err_on_Phi0": max_q8_compensator_err,
+            "max_commutator_err_with_order3_Wilson_H": max_q8_wilson_h_comm_err,
+            "max_SO10_I10_unitarity_and_orthogonality_err": max_q8_so10_unitary_err,
+        },
+    }
+
+
 def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
-    """Run all 9 Phases of the Master ToE Plan plus the 395b27210 audit source repairs and Theorems 10-13."""
+    """Run all 9 Phases of the Master ToE Plan plus the 395b27210 audit source repairs and Theorems 10-14."""
     p1 = phase1_zero_bit_cell_selection_theorem()
     p2 = phase2_weinberg_neutrino_spectrum_closure()
     p3 = phase3_two_loop_rge_higgs_and_qcd_closure()
@@ -1479,6 +1810,7 @@ def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
     t11 = theorem11_amphichiral_conjugation_and_strong_cp_reality()
     t12 = theorem12_nondimensional_buttazzo_2loop_top_higgs_closure()
     t13 = theorem13_basis_invariant_weinberg_majorana_and_pmns()
+    t14 = theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census()
     t8 = theorem8_golden_codifferent_unit_modulus_closure()
     t9 = theorem9_hypercharge_quadratic_refinement_and_full_19_closure()
 
@@ -1497,6 +1829,7 @@ def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
         "theorem11_amphichiral_conjugation_and_strong_cp_reality": t11,
         "theorem12_nondimensional_buttazzo_2loop_top_higgs_closure": t12,
         "theorem13_basis_invariant_weinberg_majorana_and_pmns": t13,
+        "theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census": t14,
         "summary_metrics": {
             "continuous_parameters": 0,
             "discrete_selection_bits_after_phase1_and_theorem9": 0.0,

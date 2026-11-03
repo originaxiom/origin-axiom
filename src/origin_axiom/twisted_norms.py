@@ -7,7 +7,9 @@ Proves and implements:
    torsion point w = alpha * tau - b, the sum |q_L + q_R| = 3 is identical across up, down,
    and lepton, and the (q_L - q_R)w dependence cancels identically in K_s(z) = P_s(z) / R_s
    by Riemann's bilinear theta addition identity (B1663).
-2. Exact 1D strip Kronecker-Parseval + Euler digamma + Hurwitz-Lerch closed form:
+2. Exact 1D strip Kronecker-Parseval + Euler digamma + Hurwitz-Lerch closed form
+   (independently derived in W177 on the SM seat branch `claude/standard-model-derivation-0qt6ao`;
+   new relative to `main` B1788):
    - Generic twist nu_s = (3 * alpha + alpha_s) mod 1 in (0, 1):
        c_s(tau, w) = -2*pi*(ln(2*pi) + gamma) - pi*(psi(nu_s) + psi(1 - nu_s))
                      + 2*pi * Re sum_{n=0}^inf [ w_n^+ / ((n + nu_s)(1 - w_n^+))
@@ -20,8 +22,9 @@ Proves and implements:
      D^inf(alpha) := c_j^inf + c_k^inf - c_1^inf - c_i^inf
                    = 2*pi * [psi({3*alpha}) + psi(1 - {3*alpha})
                              - psi({3*alpha + 1/2}) - psi(1 - {3*alpha + 1/2})].
-   By strict convexity and symmetry of f(nu) = psi(nu) + psi(1 - nu) on (0, 1),
-     D^inf(alpha) = 0  <=>  {3*alpha} in {1/4, 3/4}  <=>  alpha in {1/12, 1/4, 5/12} on (0, 1/2).
+   By strict concavity (f''(nu) < 0) and symmetry of f(nu) = psi(nu) + psi(1 - nu) on (0, 1),
+     D^inf(alpha) = 0  <=>  {3*alpha} in {1/4, 3/4}  <=>  alpha in {1/12, 1/4, 5/12} on (0, 1/2)
+   (and D(tau) == 0 identically at finite Im(tau) as well on alpha in {1/12, 5/12}).
 4. Refutation and exact replacement of B1788 Hypothesis (a):
    Writing |c_1 - c_i| ~ exp(-4*pi * E(c_1 - c_i) * Im(tau)) and
    |c_j - c_k| ~ exp(-4*pi * E(c_j - c_k) * Im(tau)), the decay rates are 100% independent

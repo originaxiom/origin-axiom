@@ -253,17 +253,19 @@ def m004_three_fold_cover_invariants() -> Dict[str, object]:
     omega = np.exp(2j * np.pi / 3.0)
     alex_abs = float(abs(omega - 3.0 + np.conj(omega)))
     tau_rs_abs = alex_abs / float(abs(1.0 - omega))
+    det_lr3_minus_i = int(round(np.linalg.det(np.linalg.matrix_power(monodromy, 3) - np.eye(2))))
 
     return {
         "monodromy_LR": monodromy.tolist(),
         "det_LR_minus_I": det_lr_minus_i,
+        "det_LR3_minus_I": det_lr3_minus_i,
         "torsion_lines_invariant_under_LR": 1,  # only (0, 0)
         "deck_only_S3_commutant_dim_R": deck_only_s3_dim,
         "deck_commutant_dim_R": commutant_dim,
         "forces_H_proportional_to_I": bool(commutant_dim == 1),
         "alexander_at_omega_abs": alex_abs,
         "reidemeister_torsion_at_omega_abs": tau_rs_abs,
-        "distinguishes_colour_triplet_dc_from_singlet_L": True,
+        "distinguishes_colour_triplet_dc_from_singlet_L": bool(abs(tau_rs_abs - 1.0) > 1.0),
     }
 
 
@@ -363,7 +365,7 @@ def evaluate_operator_gate(frame_name: str) -> OperatorGateReport:
         diag = ckm_full_diagnostics(y_u, y_d, h_vec_up=h_vec)
         return OperatorGateReport(
             frame_name="FR-COV",
-            extends_to_3manifold_m004=True,
+            extends_to_3manifold_m004=bool(abs(int(inv["det_LR3_minus_I"])) == 16),
             forces_kinetic_metric_H_eq_I=bool(inv["forces_H_proportional_to_I"]),
             null_cone_ckm_corner_free=(
                 float(diag["ratio_Vub_over_Vtd"]) < 1.0 and float(diag["sin_delta_CP"]) > 0.5

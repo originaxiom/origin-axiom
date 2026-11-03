@@ -580,6 +580,33 @@ def test_five_phase_master_toe_closure():
     assert float(t13["max_haar_unitary_scramble_error_on_pmns"]) < 1e-13
     assert abs(float(t13["modular_seesaw_scale_comparison"]["ratio_quarter_eta6_over_abs_b10_sq"]) - 0.19092) < 1e-3
 
+    # Theorem 14: Independent Review of 84632be08/e19aa4ddc & Exact 2O Orbit / Ad(SO(10)) Compensator Census
+    t14 = sc["theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census"]
+    pa14 = t14["part_A_84632be08_e19aa4ddc_independent_review"]
+    assert pa14["all_5_controls_and_7_review_items_verified"] is True
+    assert float(pa14["so10_I10_membership_max_err"]) < 1e-14
+    assert float(pa14["two_commuting_triples_max_err"]) < 1e-14
+    assert float(pa14["mass_operator_12x12_intertwiner_max_err"]) < 1e-14
+    assert float(pa14["unconjugated_spin_target_failure_norm_at_gL"]) > 3.7
+    assert float(pa14["antisymmetric_W_surface_pairing_invariance_err"]) < 1e-14
+    assert float(pa14["ibp_primitive_kappa_QR_noninvariance_at_gR"]) > 0.1
+    assert float(pa14["quartic_3x3_readout_table_err_from_J3_plus_I3"]) < 1e-13
+    assert float(pa14["contragredient_reference_covariance_err"]) < 1e-14
+
+    pb14 = t14["part_B_complete_2O_orbit_stabilizer_and_SO10_gauge_census"]
+    assert pb14["order_of_register_image_2O_in_SU2"] == 48
+    assert pb14["order_of_quartic_stabilizer_2D4_in_2O"] == 16
+    assert pb14["exact_compact_E8_and_SO10_gauge_class_count_in_2O_orbit"] == 3
+    assert pb14["order_of_normal_core_Q8_fixing_all_3_gauge_classes"] == 8
+    assert pb14["order_of_faithful_S3_quotient_on_3_gauge_classes"] == 6
+    assert float(pb14["max_SO10_gauge_realization_err_across_all_16_elements_of_2D4"]) < 1e-14
+
+    pc14 = t14["part_C_explicit_Ad_SO10_quaternion_compensator_group_Q8"]
+    assert pc14["order_of_Ad_Kc_group_in_Ad_SO10"] == 8
+    assert float(pc14["max_joint_parallel_invariance_err_on_Phi0"]) < 1e-14
+    assert float(pc14["max_commutator_err_with_order3_Wilson_H"]) < 1e-15
+    assert float(pc14["max_SO10_I10_unitarity_and_orthogonality_err"]) < 1e-14
+
 
 
 

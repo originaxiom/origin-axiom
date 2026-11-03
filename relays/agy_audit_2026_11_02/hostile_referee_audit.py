@@ -1086,6 +1086,29 @@ def audit_area_9() -> Dict[str, object]:
     # (e) Independent countercheck of Theorem 12 (non-dimensionalized M_Z/v_EW and 2-loop Buttazzo downward BVP):
     t12 = sc["theorem12_nondimensional_buttazzo_2loop_top_higgs_closure"]
     t13 = sc["theorem13_basis_invariant_weinberg_majorana_and_pmns"]
+    t14 = sc["theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census"]
+
+    # (f) Independent zero-trust verification of Theorem 14 (2O orbit stabilizer |2D_4|=16, 3 gauge classes, Q_8 compensators):
+    ind_gL = ((1.0 + 1j) / 2.0) * np.array([[1.0, -1j], [-1.0, -1j]], dtype=complex)
+    ind_gR = ((1.0 - 1j) / 2.0) * np.array([[1.0, 1.0], [1j, -1j]], dtype=complex)
+    ind_2o = [np.eye(2, dtype=complex)]
+    for _ in range(10):
+        for g_m in list(ind_2o):
+            for s_m in (ind_gL, ind_gR, ind_gL.conj().T, ind_gR.conj().T):
+                p_m = g_m @ s_m
+                if not any(np.max(np.abs(p_m - h_m)) < 1e-10 for h_m in ind_2o):
+                    ind_2o.append(p_m)
+    # On Phi_0 = (E, G)/\sqrt{2}, the normalized E_8 quartic invariant is I4_hat(u) = (1 - 4 Re(u11 conj(u12)) Re(u21 conj(u22)) + 2(|u11 u22|^2 + |u12 u21|^2)) / 2:
+    def ind_i4_hat(u_m: np.ndarray) -> float:
+        t1 = float(np.real(u_m[0, 0] * np.conj(u_m[0, 1])) * np.real(u_m[1, 0] * np.conj(u_m[1, 1])))
+        t2 = float(abs(u_m[0, 0] * u_m[1, 1]) ** 2 + abs(u_m[0, 1] * u_m[1, 0]) ** 2)
+        return 0.5 * (1.0 - 4.0 * t1 + 2.0 * t2)
+
+    ind_stab_2d4_count = sum(1 for u_m in ind_2o if abs(ind_i4_hat(u_m) - 1.5) < 1e-12)
+    ind_q8_core_count = sum(
+        1 for g_m in ind_2o
+        if all(abs(ind_i4_hat(x_m @ g_m @ x_m.conj().T) - 1.5) < 1e-12 for x_m in ind_2o)
+    )
 
     return {
         "clausen_volume_mpmath_abs_diff": vol_diff,
@@ -1119,6 +1142,12 @@ def audit_area_9() -> Dict[str, object]:
             "theorem12_nondimensional_mH_GeV_at_yt2_1_5": t12["nondimensional_electroweak_and_top_higgs_ratios"]["mH_pred_GeV"],
             "theorem12_nondimensional_MZ_over_vEW": t12["nondimensional_electroweak_and_top_higgs_ratios"]["MZ_over_vEW_pred"],
             "theorem13_pmns_haar_scramble_max_err": t13["max_haar_unitary_scramble_error_on_pmns"],
+            "theorem14_independent_2O_order": len(ind_2o),
+            "theorem14_independent_2D4_stabilizer_order": ind_stab_2d4_count,
+            "theorem14_independent_Q8_normal_core_order": ind_q8_core_count,
+            "theorem14_independent_compact_E8_gauge_classes": len(ind_2o) // ind_stab_2d4_count,
+            "theorem14_max_2D4_SO10_gauge_realization_err": t14["part_B_complete_2O_orbit_stabilizer_and_SO10_gauge_census"]["max_SO10_gauge_realization_err_across_all_16_elements_of_2D4"],
+            "theorem14_max_Q8_compensator_err": t14["part_C_explicit_Ad_SO10_quaternion_compensator_group_Q8"]["max_joint_parallel_invariance_err_on_Phi0"],
             "mpmath_b10_sq_at_tau_Golden": b10_sq_mp,
             "mpmath_quarter_eta6_at_tau_Golden": quarter_eta6_mp,
             "mpmath_ratio_b10_sq_over_quarter_eta6": ind_ratio_b10_sq_over_eta6,

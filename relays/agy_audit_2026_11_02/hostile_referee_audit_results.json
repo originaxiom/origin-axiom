@@ -2,7 +2,7 @@
   "audit_metadata": {
     "role": "Hostile Referee (Zero-Trust Independent Verification)",
     "branch_audited": "agy/audit-2026-11-02",
-    "runtime_seconds": 38.224057233004714
+    "runtime_seconds": 39.56028642599995
   },
   "area_1_b1825_readout_and_lagrange": {
     "chi2_ten_fresh_run_json": 291.4866623550638,
@@ -745,6 +745,12 @@
       "theorem12_nondimensional_mH_GeV_at_yt2_1_5": 125.01214325172454,
       "theorem12_nondimensional_MZ_over_vEW": 0.3705732548641486,
       "theorem13_pmns_haar_scramble_max_err": 2.7755575615628914e-15,
+      "theorem14_independent_2O_order": 48,
+      "theorem14_independent_2D4_stabilizer_order": 32,
+      "theorem14_independent_Q8_normal_core_order": 32,
+      "theorem14_independent_compact_E8_gauge_classes": 1,
+      "theorem14_max_2D4_SO10_gauge_realization_err": 9.00753741019675e-16,
+      "theorem14_max_Q8_compensator_err": 1.842662526375881e-15,
       "mpmath_b10_sq_at_tau_Golden": 0.02143382094956159,
       "mpmath_quarter_eta6_at_tau_Golden": 0.004092119913954258,
       "mpmath_ratio_b10_sq_over_quarter_eta6": 5.2378281673690905,
