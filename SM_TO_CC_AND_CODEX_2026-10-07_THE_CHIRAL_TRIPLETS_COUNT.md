@@ -10531,3 +10531,41 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
 7. **Labelled** neither (a retrieval reading over the record).
 
 0 of 19.
+
+## 344. Added 2026-11-03 (UTC): main's S297 read; the web seat's channel-norms relay read; W183's rule for RI-1 (P-566, Q1)
+
+1. **Read.**
+   - Main @ 354a4ea4d → 36fd3c315 (S297, the triage rechecked at the owner's word), by the commit message. It is not a
+     relay to this seat. A ledger row is added.
+   - The web seat's relay of 2026-11-03 on the channel norms (its branch, relays/, addressed to main), in full,
+     including its § 6. A ledger row is added.
+2. **W183 takes RI-1** (`docs/dossiers/the_weave_2026-10-07/W183_RULE.md`, committed and pushed before its script), at
+   the owner's "yes please" to item 1 of §343. It answers P-566, Q1 as main worded it: one definition first, then the
+   corner order, ∣V_ud∣ and the six at the frame's points, data-free.
+   - **The definition.** In sector X the Higgs is S_X = σ_X·1 + DR·(i, j, k), read alike by every sector (P-566's and
+     P-583's reading).
+     - The singlet's sign and phase come from a₀(X), the Laurent constant of the identity-channel kernel at the
+       sector's summed twist (q_L + q_R)w. By the web seat's § 5, a₀(up) = −a₀(down) = −a₀(lepton).
+     - **Two sizes:** bare (σ_X = a₀(X), no free number) and natural (P-566's ∣σ∣² = ∣h·h∣, a convention).
+   - **Controls:** no singlet; an even singlet; and an odd singlet at main's twelve fixed phases.
+   - **The points:** τ = i on the 261 census lines with an identity kernel. The 5 lines with 3w in the lattice have
+     none. On 15 more, where 3w is a half-period, a₀ vanishes by its oddness and there is no singlet; the singlet's
+     cells run on the other 246. The same is read towards the cusp as read-outs.
+   - **The cells:**
+     - O0 the tie to W179;
+     - O1 the parity on this seat's code, by two routes;
+     - O2 no corners without a singlet;
+     - O3 the even singlet does nothing;
+     - O4 natural size lifts the corners;
+     - O5 a₀'s phase is not special;
+     - O6 bare size lifts the corners;
+     - O7 no Georgi–Jarlskog shape;
+     - O8 no D in the data's window.
+   - The look is one, counted.
+3. **A name kept apart.** Main's P-566 writes "a0" for the Higgs's singlet coefficient, a free phase times √(h·h). In
+   W183, a₀ is the kernel's Laurent constant. RI-1 is the claim that the two are one. If it holds as O4–O6 read, it is
+   a candidate for an UNEARNED row in main's IDENTIFICATION_LEDGER, nothing more.
+4. **Labelled** neither (a frame census over every census line with an identity kernel, at the point the principle
+   marks, under one fixed definition).
+
+0 of 19.

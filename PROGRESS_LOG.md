@@ -21603,3 +21603,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **So it is not forgotten again:** the leads are kept on a dated list, and a new working rule says the record must be
   searched this way before any negative is leaned on.
   0 of 19.
+
+## 2026-11-03 — the first lead from the search, written down as a test before any number
+
+- **Why:** the strongest lead the search found is a number the main frame already computes and then throws away the
+  sign of. That sign is opposite for the up and down quarks, which is what one hard problem (the order of the smallest
+  quark mixings) needs from the Higgs.
+- **What was done:** the test was written down and published before any code exists: exactly how the number enters,
+  what would count as success, and what each outcome would mean. Nothing has been computed yet.
+  0 of 19.
+

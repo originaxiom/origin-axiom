@@ -1,5 +1,19 @@
 # Changelog
 
+## W183's rule, committed before its script: the kernel's Laurent constant as the Higgs's singlet (RI-1; main's P-566, Q1; relay §344)
+
+- **The occasion:** the owner's "yes please" to item 1 of §343. RI-1 is the retrieval sweep's strongest
+  identification: the kernel's Laurent constant is odd between up and down (the web seat's § 5), the sign the CKM's
+  corners need from a Higgs singlet (main's FL-06).
+- **The definition, fixed now:** the singlet's sign and phase from the identity kernel's Laurent constant at each
+  sector's summed twist, every sector reading the Higgs alike; at bare size (no free number) and at P-566's natural
+  size (a convention).
+- **The test:** τ = i on the 261 census lines with an identity kernel (246 where a₀ does not vanish); the corner
+  order, ∣V_ud∣ and the six, against no singlet, an even singlet and main's twelve fixed phases; cells O0–O8; one
+  look, counted.
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/W183_RULE.md`, relay §344, the ledger rows (main's S297; the web
+  seat's channel-norms relay), the state page. Nothing here is a result. 0 of 19.
+
 ## The retrieval sweep: are the load-bearing negatives buried in the record? (READING; relay §343)
 
 - **The occasion:** the owner's question whether the things we lack are buried in the record, waiting for retrieval
