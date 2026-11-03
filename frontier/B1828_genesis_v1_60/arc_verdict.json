@@ -1,0 +1,24 @@
+{
+ "id": "B1828",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1797",
+  "B1827"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the foundation document",
+  "object": "GENESIS v1.59 -> v1.60: GAP1 gains the earned-by-prediction rule; FK11 a pointer",
+  "reach": "general",
+  "hypotheses": "the owner's ruling of 2026-11-03 on P-580; the six conditions are main's drafting"
+ },
+ "claim_one_line": "GENESIS v1.60 (the owner's ruling on P-580, 2026-11-03: YES): a frame may EARN its dictionary BY PREDICTION -- an identification is EARNED BY PREDICTION within a frame F when F is fixed on a sealed card before, at least two held-out quantities (THE_FINAL_ACTS_BAR's V list, untouched by F's building) are each PASSED by V (inside the stated 68% band, p_V < 0.01/m_V against F's pipeline over its whole menu), main recomputes and a hostile referee and a third opinion find no fault; scoped to F and revocable on a later NEGATIVE. A value so matched is PREDICTED, not a READING; build values stay FITTED/CHOSEN inputs; DERIVED stays separate; GAP1's sentence and FK11's unearnability by derivation stand. No frame meets it yet. 0 of 19.",
+ "weave_or_thread": "weave (the foundation's dictionary)"
+}

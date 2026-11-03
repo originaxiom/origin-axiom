@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1531 |
-| … PROVED | 1043 |
+| arcs with a verdict file | 1532 |
+| … PROVED | 1044 |
 | … NEGATIVE | 382 |
 | … OPEN | 94 |
 | … RETRACTED | 12 |
 | register points | 583 |
 | … QUEUED | 238 |
 | … LEAD | 10 |
-| … OWNER | 7 |
-| … DONE | 319 |
+| … OWNER | 6 |
+| … DONE | 320 |
 | … DECLINED | 9 |
 | harvest rows (the last number) | 1514 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1828 | PROVED | GENESIS v1.60 (the owner's ruling on P-580, 2026-11-03: YES): a frame may EARN its dictionary BY PREDICTION -- an identification is EARNED BY PREDICTION within a frame F when F is fixed on a sealed card before, at least… |
 | B1827 | OPEN | THE FRAMING LEDGER (the owner's exercise, 2026-11-03; OPEN, an audit): eighteen framing commitments inventoried from five readers (docs/FRAMING_LEDGER.md), then the question itself and its recognition audited (S291, § G… |
 | B1826 | PROVED | THE AGY LANE'S NOVEMBER WORK, VERIFIED ON MAIN (agy/audit-2026-11-02, 16 commits from main's 64a2a3d4e; with the physical-bridge lane's source review and the independent audit lane's recomputation): three results kept,… |
 | B1825 | NEGATIVE | THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings,… |
@@ -42,7 +43,6 @@
 | B1819 | PROVED | THE RIGID CENSUS'S SMOOTHNESS IN TAU (Step B's revision, P-521; aggregates only; data-free): on B1726's grid the frame's outputs are smooth in Im tau almost everywhere -- median second difference 0.0008 decades, 99% bel… |
 | B1817 | NEGATIVE | THE FRAME'S OWN LEPTON/DOWN FACTOR AT THE CUSP (strand A's A1; P-397; data-free; refereed hostile, PASS WITH CORRECTIONS): on the slopes of order <= 30 with equal down/lepton second-generation exponents, every converged… |
 | B1816 | PROVED | THE CANONICAL END'S ACCESSORY PARAMETER IS A WEIL-PETERSSON PRIMITIVE (P-481; data-free; refereed hostile, PASS WITH CORRECTIONS): on its uniformising branch B1667's accessory parameter satisfies dC/d(tau-bar) = i h_WP(… |
-| B1815 | PROVED | THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY (the owner-approved clock plan T1-T4; data-free; refereed hostile, PASS WITH CORRECTIONS): the walk model of B1662/B1663 (L, R at (1-p)/2, L^-1, R^-1 at p/2) has endpo… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -51,8 +51,7 @@
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
 - ** P-303** — PF1-W read on each Higgs field or on each sector's mass determinant? (the web seat's W133 check §5–§6, row 1316). On a parity-diagonal coupling the two are the same condition; but no combination of two or more zero-free… → *asked of the owner: which reading of PF1-W (each Higgs field, or each sector's determinant) the record adopts; main's recommendation to follow with P-300's ver…*
 - ** P-335** — the owner's calls the sweep surfaced: L178 (the tone crossing) — retire by the math?; L248 §8 (retire, or the L240 reader's probe later); COMPUTE_THE_PROGRAM — rewrite for the weave or freeze; L161's realisation — commi… → *asked of the owner with the next report*
-- ** P-577** — THE LOOK HORIZON (FL-24, A6 R4): one joint look ledger; the gate log₂(m/0.01) meets an exact hit's median C_ten (13.4 bits) at m ≈ 108 (now 53) — past it a correct frame fails K more often than not → *asked: keep one ledger, split it per question, or price looks by the information they spend (THE_BAR's choice)*
-- ** P-580** — NO ROUTE TO AN EARNED DICTIONARY (FL-20, A6 R1): every positive is a READING while FK11 is UNEARNED, UNEARNABLE within F-HE and F-CI (GENESIS l. 424); PASSED is never sufficient for DERIVED — no outcome of any current t… → *asked: may a frame earn its dictionary by held-out prediction (the bar's V cell), amending GAP1's stance through adoption/amend.py?*
+- ** P-577** — THE LOOK HORIZON (FL-24, A6 R4): one joint look ledger; the gate log₂(m/0.01) meets an exact hit's median C_ten (13.4 bits) at m ≈ 108 (now 53) — past it a correct frame fails K more often than not → *asked: keep one ledger, split it per question, or price looks by the information they spend (THE_BAR's choice) **Elaborated for the owner, 2026-11-03:** the le…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
@@ -84,6 +83,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S292 THE EARNED DICTIONARY: GENESIS v1.60 — A FRAME MAY EARN ITS DICTIONARY BY HELD-OUT PREDICTION (THE OWNER'S RULING ON P-580) (2026-11-03)
 - S291 THE RECHECK AND THE RECOGNITION AUDIT: ONE S290 CLAIM RETRACTED; WOULD WE KNOW THE ANSWER? NOT AS THE TESTS ARE BUILT (2026-11-03)
 - S290 THE RELATION THAT LIFTS THE CORNERS: THE ADJUGATE READING; THE 45-LIKE SINGLET SPLITS THE SECOND GENERATION (2026-11-03)
 - S289 THE FRAMING LEDGER (B1827): WHAT THE PROGRAMME EXCLUDES BY THE WAY IT IS FRAMED (2026-11-03)
@@ -91,11 +91,10 @@
 - S287 THE SEATS FETCHED; THE AGY LANE's NOVEMBER WORK VERIFIED ON MAIN (B1826): THREE RESULTS KEPT, EVERY 'PARAMETER-FREE' CLAIM DECLINED (2026-11-03)
 - S286 B1825 NEGATIVE AS SEALED: NO SUPPORT. THE FRAME MAKES OUR MASS RATIOS AND OUR MIXING, NEVER AT ONE ADDRESS (2026-10-31)
 - S285 THE PASS SIDE ON B1741's BOX: POWER AT AN ADDRESS, LITTLE A SIGMA AWAY; THE SIX DO NOT COMPRESS; DETERMINISM PASSES (2026-10-31)
-- S284 THE CALIBRATION's PLANTED LEGS WERE VOID; THE PASS SIDE MOVED ONTO B1741's BOX; DETERMINISM AT THE CENSUS's PRECISION (2026-10-31)
 
 ## The latest campaign line
 
-LATEST (2026-11-03, S291: every claim of the last two landings re-derived from the code. One is withdrawn: the SU(5)-style "45" ingredient does not produce the needed lepton/quark mass pattern — its probe had mislabelled factors, and with the right ones the lightest generation goes the wrong way. The rest holds exactly, and one new exact fact appeared: the framework's leptons already see the down quarks through the same mirror (the adjugate) that fixes the quark-mixing corners. Then the owner's deeper question — are we asking the right question, and would we recognise the answer? A blind reader and a calculation say: not as the tests are built. The headline counts a goal the record itself r…
+LATEST (2026-11-03, S292: the owner ruled that a framework may earn its link to physics by predicting numbers it never used — the foundation document now says so (version 1.60, B1828). Until now even a correct framework could only ever be recorded as a reading; from now on, two independent held-out predictions that pass, verified, turn its matches into predictions that count. The rule is strict and revocable. Nothing meets it yet. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

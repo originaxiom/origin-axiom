@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1531 of 1531 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1532 of 1532 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1043)
+## PROVED (1044)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1055,6 +1055,7 @@
 | `B1822` | T-NORM ON THE FRAME'S MATTER (P-525; data-free; refereed hostile, PASS WITH CORRECTIONS): FR-FIB's matter zero modes (one quaternion-type doublet per field times the blocks QJ, QI, QK) give the generation Gram matrix G = H ||F_x||^2, so T-NORM holds exactly in the chosen metric H = I, the one the census uses (306 twist classes, off-diagonals <= 2e-12, refined to 1e-15; reproduced by independent code); but the flat structure leaves H free -- 8 real parameters per field (2 under the diagonal SU(2) of the frame's holonomy) -- and the outputs move with it (a democratic 0.1 mixing shifts the mass ratios by 0.045 decades and |V| by 0.08): 'no new freedom' is false for the flat structure and H = I is a CHOSEN input; B1654's section 1.11 argument proves at best a diagonal H (P-146's dismissal refuted). None of the 19. |  | 0 |
 | `B1824` | TWO OF B1810'S THIRTEEN DECLARED HIGGS DIRECTIONS ARE ONE (data-free; proved by hand, exact in B1691's q-series to q^25, re-derived by main in sympy and to 2e-40 numerically): a0 = D^2 R - E4 R/48 = (1/48)(th2 th3^3 th4^3, th2^3 th3^3 th4, i th2^3 th3 th4^3) = (eta^9/6)(th2^-2, th4^-2, i th3^-2) = eta^4 F_-2/6 identically, so N(a0) = i eta^21/864 (zero-free) and B1691's 'unidentified zero at t = -1/48' is eta^4 times B1730's zero-free F_-2; B1810's thirteen declared directions are twelve distinct (B1811's NEGATIVE unchanged: the null shared the duplicate); Step B's declared menu is twelve (0.115 bits less), the census's a0 and F_-2 rows to be confirmed equal before the seal. None of the 19. |  | 1 |
 | `B1826` | THE AGY LANE'S NOVEMBER WORK, VERIFIED ON MAIN (agy/audit-2026-11-02, 16 commits from main's 64a2a3d4e; with the physical-bridge lane's source review and the independent audit lane's recomputation): three results kept, each recomputed by main's code -- (1) the twisted channel norms c_s are identical in the up, down and lepton sectors (spread 1.3e-12; the closed form is sm:W177); (2) B1788's hypothesis (b) fails identically on the slopes 1/12, 1/4 and 5/12 (c_j + c_k - c_1 - c_i within 5e-12 on every line and tau tested, finite tau, all sectors); (3) B1825's miss is a CKM corner inversion (at its address |V_ub|/(|V_us||V_cb|) 1.06, |V_td|/(|V_us||V_cb|) 0.094, |V_ub|/|V_td| 11.3, sin delta 0.08), a strong tendency of the frame, not a no-go. DECLINED: FR-COV's 'pass' of B1825's gates and every 'parameter-free', 'zero-bit' or 'ToE' claim (tau fitted then named, checked on main from the lane's history; characters selected 3rd of 2048; m_H from a factor-2 RGE error; the rest coincidences at chance), conceded by the lane itself (0 of 19). The four 'Step B defects' change nothing in B1825 (4B, a gap in 'physical', P-557). 0 of 19. |  | 0 |
+| `B1828` | GENESIS v1.60 (the owner's ruling on P-580, 2026-11-03: YES): a frame may EARN its dictionary BY PREDICTION -- an identification is EARNED BY PREDICTION within a frame F when F is fixed on a sealed card before, at least two held-out quantities (THE_FINAL_ACTS_BAR's V list, untouched by F's building) are each PASSED by V (inside the stated 68% band, p_V < 0.01/m_V against F's pipeline over its whole menu), main recomputes and a hostile referee and a third opinion find no fault; scoped to F and revocable on a later NEGATIVE. A value so matched is PREDICTED, not a READING; build values stay FITTED/CHOSEN inputs; DERIVED stays separate; GAP1's sentence and FK11's unearnability by derivation stand. No frame meets it yet. 0 of 19. |  | 0 |
 
 ## NEGATIVE (382)
 

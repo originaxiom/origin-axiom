@@ -1,5 +1,9 @@
 # Changelog
 
+## S292 THE EARNED DICTIONARY: GENESIS v1.60 — A FRAME MAY EARN ITS DICTIONARY BY HELD-OUT PREDICTION (THE OWNER'S RULING ON P-580) (2026-11-03)
+
+- **The owner's ruling (P-580: "first decision is YES"), B1828, GENESIS v1.60 through adoption/amend.py:** an identification is EARNED BY PREDICTION within a frame when the frame is fixed on a sealed card before, at least two held-out quantities (THE_FINAL_ACTS_BAR's V list, untouched by the frame's building) are each PASSED by V, main recomputes and a hostile referee and a third opinion find no fault; scoped to the frame and revocable. A value so matched is PREDICTED, not a READING; build values stay inputs; DERIVED stays separate; GAP1's sentence and FK11's unearnability by derivation stand. Companions: IDENTIFICATION_LEDGER's status values, KIND_TABLE's note, FRAMING_LEDGER FL-20. P-580 DONE; P-577 (the look ledger) elaborated for the owner. No frame meets the rule yet. 0 of 19.
+
 ## S291 THE RECHECK AND THE RECOGNITION AUDIT: ONE S290 CLAIM RETRACTED; WOULD WE KNOW THE ANSWER? NOT AS THE TESTS ARE BUILT (2026-11-03)
 
 - **The recheck (the owner: "make sure all your claims and conclusions are right"; B1827 verification/recheck/):** the adjugate identities hold exactly and the adjugate reading is the opposite-sign singlet family exactly; every scan number matches its output; on all 24 order-5 lines R₁(up) = 0, Y_u symmetric and the down and lepton spectra equal, but Y_e = λY_dᵀ (λ⁵ = 1), not Y_dᵀ, except on 8 lines; exactly, Y_e(S) = −λY_d(adj S)ᵀ: the leptons read the down sector through the adjugate. Disclosed: two of twelve phases make the Higgs null (no points); the SM reading's failure is its own, not the singlet's. **Retracted:** S290's 45-like split (the probe's κ was +3, not the 45's −3; with the true 45 the first generation goes the wrong way; Georgi–Jarlskog's pattern at 1%). Sharpened: six of the 19 have no frame, three are unexamined outputs.

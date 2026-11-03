@@ -18290,3 +18290,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 ## 2026-11-03 — S291 the recheck and the recognition audit
 
 - Every S289/S290 claim re-derived (B1827 verification/recheck/): the identities hold; Y_e = λY_dᵀ with λ⁵ = 1 on the order-5 lines and Y_e(S) = −λY_d(adj S)ᵀ exactly; the 45-like split RETRACTED (mislabelled). The question and its recognition (docs/FRAMING_LEDGER.md § G): a blind reader verified by main, and R1 (a theory exact at the unification scale pays 8.5 bits on K at M_Z). P-574–P-583. 0 of 19.
+
+## 2026-11-03 — S292 the earned dictionary (GENESIS v1.60)
+
+- The owner ruled YES on P-580: a frame may earn its dictionary by held-out prediction (B1828; six conditions under GAP1; a value so matched is PREDICTED). P-577 elaborated (the look ledger's options; its 0.01/m rule spends up to 4.6% in all at m = 53). 0 of 19.

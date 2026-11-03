@@ -11,7 +11,7 @@ outside. An **UNEARNED** row is therefore an *unpriced observer input*, and the 
 parameter count is a **lower bound** until every row here is EARNED or priced.
 
 Status values: **EARNED** (map exhibited *and* acts) · **REFUTED** (tested, failed, banked) ·
-**UNEARNED** (asserted, no map — an open debt, not a defect).
+**UNEARNED** (asserted, no map — an open debt, not a defect) · **EARNED BY PREDICTION** (GENESIS v1.60, the owner's ruling of 2026-11-03, B1828: a frame fixed on a sealed card before the data predicts at least two held-out quantities, each PASSED under THE_FINAL_ACTS_BAR's V; scoped to that frame and revocable — weaker than EARNED, which exhibits the map).
 
 | # | the identification | side A | side B | map? | acts? | status | source | what would earn it |
 |---|---|---|---|---|---|---|---|---|

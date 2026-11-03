@@ -109,7 +109,7 @@ measured inputs to high scales (verification/recognition/). No frame output ente
 | id | commitment | status | excludes | evidence it costs us | source |
 |---|---|---|---|---|---|
 | FL-19 | The headline counts a question the record retired: "0 of 19" counts Tier 4 (WHAT_WOULD_COUNT l. 376–382: "not a live criterion"); the owner's restated goal (2026-10-08: the structure, and how many free numbers) is answered on record — "all 19 are free" (THE_DERIVED_STRUCTURE_FOR_REVIEW l. 47); the owner's total-inputs scoreboard (P-418, 2026-10-29) is unbuilt | CHOSEN (the board); stale | progress that is a falling input count; every structural result | every landing since prints "0 of 19"; P-418 QUEUED | A6 I-1, I-2, I-4, I-5 |
-| FL-20 | No route by which a frame earns its dictionary: every positive is a READING while FK11 is UNEARNED (KIND_TABLE l. 125), FK11 is UNEARNABLE within F-HE and F-CI (GENESIS l. 424), PASSED never suffices for DERIVED (THE_BAR l. 72) | FORCED by the foundations' stance (GAP1) | the registration of a correct frame | no outcome of any current test can make the board read 1 of 19 | A6 R1 |
+| FL-20 | No route by which a frame earns its dictionary: every positive is a READING while FK11 is UNEARNED (KIND_TABLE l. 125), FK11 is UNEARNABLE within F-HE and F-CI (GENESIS l. 424), PASSED never suffices for DERIVED (THE_BAR l. 72) | FORCED by the foundations' stance (GAP1); **ruled 2026-11-03: a dictionary may be EARNED BY PREDICTION (GENESIS v1.60, B1828)** | the registration of a correct frame | no outcome of any current test can make the board read 1 of 19 | A6 R1 |
 | FL-21 | No declared scale and no running (FL-13, quantified) | UNSTATED | a frame whose outputs hold at its own scale | **R1:** a theory exact at 2 × 10¹⁶ GeV scores χ²_ten 11.8 against nature at M_Z (one loop; −11.6% on c/t and u/t, +13.1% on s/b, d/b, ∣V_cb∣, ∣V_ub∣, +28% on ∣J∣): S passes, K pays 8.5 bits, more than the 3.6 bits B1825's address leaves; at 10⁹ GeV already 5.3 (3.9 bits) | R1; A6 CE-1 |
 | FL-22 | A uniform 10% allowance in place of a theory error the frame declares and pays for | CHOSEN | rewarding a frame accurate beyond 10%; telling a 10%-crude frame from an exact one | 29.7 bits of measured information discarded (Σ log₂ σ/σ_meas over the ten) against a 12.37-bit gate; K's power for a correct frame a σ away is 1 in 10 (B1825's calibration, PREREGISTRATION l. 172–175) | A6 R3, R6, CE-5 |
 | FL-23 | The frame's own description length is not charged in K ("cancels against the null") | CHOSEN | telling, by the statistic, a frame derived before the data from one built around it | a frame planted to contain our world passes S, K and the CKM leg 7 in 10 (the calibration); FR-FIB's H-cov branch about 20 bits, 15 of them searched on the data (THE_FINAL_ACTS_BAR l. 193) | A6 CE-4 |
@@ -175,7 +175,7 @@ marked main's.
   - These are P-574–P-576, P-578, P-579 and P-582.
 - **The owner's.**
   - The look ledger's form (P-577).
-  - An earned-dictionary route through GENESIS (P-580).
+  - An earned-dictionary route through GENESIS (P-580) — **ruled YES on 2026-11-03: GENESIS v1.60 (B1828).**
   - The structural regrade and the headline at the decadal review (P-581).
 
 **0 of 19** — now known to be the count of a retired tier. Beside it the vector is owed.

@@ -15089,6 +15089,17 @@
    "status": "open",
    "domain": "topology"
   },
+  "B1828": {
+   "slug": "genesis v1 60",
+   "motifs": [],
+   "refs": [
+    "S291"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B182": {
    "slug": "multiplicity selection",
    "motifs": [
