@@ -33,6 +33,16 @@ then for each direction, radius rule and reading:
     (S S S or S~ S~ S~), both radii: on how many of the 32 branches, at both tau, the three sectors share their spectrum,
     m1/m3 < 1e-12 and the off-diagonal |V| lie below 1e-8.
 
+Version 2 (version 1 at 41451dbee, its output at cef31ebfe), at the second referee's findings:
+- (3) prints each departure by its decade (10^k with k = floor(log10)), in two measures: all three singular values
+  relative to the larger largest one, as version 1, and the two mass ratios each relative to itself (the ratios the
+  relation equates).
+- (4) also counts the rows with m2/m3 below 1e-12 (B1659's adjugate law: a null direction on a null matter gives a
+  Yukawa of rank one).
+- (7) new: robustness. Three random complex directions of each of (2)'s seven kinds (seed 20261103), read S and S~
+  alike, radius L_2: on how many (line, direction, reading, pair) the coincidence class (full, ratios only, none) at
+  both tau differs from (2)'s for its kind.
+
 Usage: python3 halfperiod_check.py <main checkout>   (main at 354a4ea4d)
 """
 import contextlib
@@ -60,6 +70,14 @@ SECT = [(sn, ql, qr) for sn, ql, qr in Z.SECTORS]
 SYN = {"generic": (1.0, 0.7 + 0.2j, -0.4 + 0.9j), "no QI": (0.0, 0.7 + 0.2j, -0.4 + 0.9j),
        "no QJ": (1.0, 0.0, -0.4 + 0.9j), "no QK": (1.0, 0.7 + 0.2j, 0.0),
        "QI only": (1.0, 0.0, 0.0), "QJ only": (0.0, 1.0, 0.0), "QK only": (0.0, 0.0, 1.0)}
+MASK = {"generic": (1, 1, 1), "no QI": (0, 1, 1), "no QJ": (1, 0, 1), "no QK": (1, 1, 0),
+        "QI only": (1, 0, 0), "QJ only": (0, 1, 0), "QK only": (0, 0, 1)}
+_rng = np.random.default_rng(20261103)
+RND = {}
+for _kind, _m in MASK.items():
+    for _d in range(3):
+        _z = _rng.normal(size=3) + 1j * _rng.normal(size=3)
+        RND["%s #%d" % (_kind, _d)] = tuple(complex(v * m) for v, m in zip(_z, _m))
 MENU = Z.DIRS
 NULL = ("R", "t=-5/288")
 PAIRS = (("up", "down"), ("down", "lepton"), ("up", "lepton"))
@@ -107,13 +125,13 @@ def work(task):
                      for k in B.UNITS}
                 Mw[(sn, ri)] = B.weighted_M(u)
         res = {}
-        alld = dict(SYN); alld.update(dirs[ti])
+        alld = dict(SYN); alld.update(RND); alld.update(dirs[ti])
         for dn, a in alld.items():
             S0 = a[0] * B.QI + a[1] * B.QJ + a[2] * B.QK
             for rd in (0, 1):
                 Sm = B.EPS @ S0.conj() @ B.EPS.T if rd else S0
                 for ri in (0, 1):
-                    if dn in SYN and ri == 0:
+                    if (dn in SYN or dn in RND) and ri == 0:
                         continue
                     for sn, _, _ in SECT:
                         u_, s, _ = np.linalg.svd(B.coupling(Sm, Mw[(sn, ri)])); o = np.argsort(s)
@@ -135,8 +153,17 @@ def dep(sa, sb):
     return float(np.max(np.abs(sa - sb)) / max(sa[2], sb[2]))
 
 
-def binof(v):
-    return "<1e-8" if v < 1e-8 else "<1e-5" if v < 1e-5 else "<1e-2" if v < 1e-2 else ">=1e-2"
+def rdep(sa, sb):
+    ra, rb = sa[:2] / sa[2], sb[:2] / sb[2]
+    return float(max(0.0 if max(x, y) < 1e-12 else abs(x - y) / max(x, y) for x, y in zip(ra, rb)))
+
+
+def decade(v):
+    return "0" if v <= 0 else "1e%d" % math.floor(math.log10(v))
+
+
+def cls(sa, sb):
+    return "full" if full_eq(sa, sb) else "ratios" if ratio_eq(sa, sb) else "none"
 
 
 if __name__ == "__main__":
@@ -187,7 +214,8 @@ if __name__ == "__main__":
                 print("        differs: order %d class %s %s: S %s, S~ %s" % (k[0], CLS(k[1]), k[2], tables[0][k], tables[1][k]))
 
     print("(3) the menu on the class lines of orders 4, 8 and 10 (radius L_2; the largest departure over the class's lines "
-          "and both tau, by decade bin)")
+          "and both tau, by decade: the three singular values relative to the larger largest one / the two mass ratios each "
+          "relative to itself)")
     for N, p in ((4, ("up", "down")), (8, ("down", "lepton")), (10, ("down", "lepton"))):
         for (n, c) in sorted((k for k in byoc if k[0] == N), key=lambda k: CLS(k[1])):
             for rd in (0, 1):
@@ -195,7 +223,9 @@ if __name__ == "__main__":
                 for dn in MENU:
                     v = max(dep(data[l][ti][(dn, 1, rd, p[0])][0], data[l][ti][(dn, 1, rd, p[1])][0])
                             for l in byoc[(n, c)] for ti in (0, 1))
-                    cells.append("%s %s" % (dn, binof(v)))
+                    w_ = max(rdep(data[l][ti][(dn, 1, rd, p[0])][0], data[l][ti][(dn, 1, rd, p[1])][0])
+                             for l in byoc[(n, c)] for ti in (0, 1))
+                    cells.append("%s %s/%s" % (dn, decade(v), decade(w_)))
                 print("    order %2d class %-9s (%2d lines) %s, read %s: %s" % (N, CLS(c), len(byoc[(n, c)]), TAG[p],
                                                                              "S~" if rd else "S ", "; ".join(cells)))
     print("    each direction's smallest |component|/|S| over both tau (QI, QJ, QK):")
@@ -203,24 +233,26 @@ if __name__ == "__main__":
         fr = [min(abs(dirs[ti][dn][k]) / math.sqrt(sum(abs(v) ** 2 for v in dirs[ti][dn])) for ti in (0, 1)) for k in range(3)]
         print("        %-9s %.1e, %.1e, %.1e" % (dn, *fr))
 
-    print("(4) the exact zeros: rows with m1/m3 < 1e-12 (thirteen directions, both radii, both readings per sector, both tau)")
+    print("(4) the exact zeros: rows with m1/m3 < 1e-12, and (after the slash) with m2/m3 < 1e-12 (thirteen directions, both "
+          "radii, both readings per sector, both tau)")
     for N in range(1, 13):
         ls = [l for l in lines if order(l) == N]
         cells = []
         for grp, ds in (("null", NULL), ("other", [d for d in MENU if d not in NULL])):
             for sn, _, _ in SECT:
-                z = tot = 0
+                z = z2 = tot = 0
                 for l in ls:
                     for ti in (0, 1):
                         for dn in ds:
                             for ri in (0, 1):
                                 for rd in (0, 1):
-                                    s = data[l][ti][(dn, ri, rd, sn)][0]; tot += 1; z += (s[0] / s[2] < 1e-12)
-                cells.append("%s %s %d/%d" % (grp, sn, z, tot))
+                                    s = data[l][ti][(dn, ri, rd, sn)][0]; tot += 1
+                                    z += (s[0] / s[2] < 1e-12); z2 += (s[1] / s[2] < 1e-12)
+                cells.append("%s %s %d/%d of %d" % (grp, sn, z, z2, tot))
         print("    order %2d (%2d lines): %s" % (N, len(ls), "; ".join(cells)))
 
     print("(5) the order-4 mixing (six lines, thirteen directions, both radii, four (up, down) readings, both tau)")
-    mx = {"us": 0.0, "ub": 0.0, "J": 0.0}; mn_cb = np.inf; nd = und = 0
+    mx = {"us": 0.0, "ub": 0.0, "J": 0.0}; mn_cb = np.inf; nd = und = und_null = 0
     for l in [l for l in lines if order(l) == 4]:
         for ti in (0, 1):
             for dn in MENU:
@@ -230,13 +262,13 @@ if __name__ == "__main__":
                             su, Uu = data[l][ti][(dn, ri, ru, "up")]; sd, Ud = data[l][ti][(dn, ri, rdd, "down")]
                             gap = lambda s: min(s[1] - s[0], s[2] - s[1]) / s[2]
                             if gap(su) < 1e-8 or gap(sd) < 1e-8:
-                                und += 1; continue
+                                und += 1; und_null += dn in NULL; continue
                             V = Uu.conj().T @ Ud; nd += 1
                             mx["us"] = max(mx["us"], abs(V[0, 1])); mx["ub"] = max(mx["ub"], abs(V[0, 2]))
                             mx["J"] = max(mx["J"], abs(np.imag(V[0, 1] * V[1, 2] * np.conj(V[0, 2]) * np.conj(V[1, 1]))))
                             mn_cb = min(mn_cb, abs(V[1, 2]))
     print("    rows with the mixing defined: %d; largest |V_us| %.1e, |V_ub| %.1e, |J| %.1e; smallest |V_cb| %.1e; rows with "
-          "the mixing undefined: %d" % (nd, mx["us"], mx["ub"], mx["J"], mn_cb, und))
+          "the mixing undefined: %d, of them with a null direction: %d" % (nd, mx["us"], mx["ub"], mx["J"], mn_cb, und, und_null))
 
     print("(6) the collapsed branches (orders 1 and 2; null directions read alike in all three sectors; both radii)")
     ok = tot = 0
@@ -253,3 +285,16 @@ if __name__ == "__main__":
                         good &= max(V[0, 1], V[1, 2], V[0, 2]) < 1e-8
                     ok += good
     print("    branches: %d; with the three sectors sharing their spectrum, m1/m3 < 1e-12 and V = 1 at both tau: %d" % (tot, ok))
+
+    print("(7) robustness: three random directions of each kind (seed 20261103), read S and S~ alike, radius L_2")
+    cmp_ = mis = 0
+    for l in lines:
+        for kind in MASK:
+            for d_ in range(3):
+                dn = "%s #%d" % (kind, d_)
+                for rd in (0, 1):
+                    for p in PAIRS:
+                        ref = tuple(cls(data[l][ti][(kind, 1, rd, p[0])][0], data[l][ti][(kind, 1, rd, p[1])][0]) for ti in (0, 1))
+                        got = tuple(cls(data[l][ti][(dn, 1, rd, p[0])][0], data[l][ti][(dn, 1, rd, p[1])][0]) for ti in (0, 1))
+                        cmp_ += 1; mis += ref != got
+    print("    (line, direction, reading, pair) compared with (2)'s class for the kind: %d; differing: %d" % (cmp_, mis))
