@@ -524,56 +524,76 @@ def test_five_phase_master_toe_closure():
     assert abs(float(f10["arg_det_Yu_Yd_rad"]) - (-2.9219)) < 0.01
     assert sc["summary_metrics"]["first_principles_certified_sm_parameters_after_395b27210_audit"] == 0
 
-    # Theorem 10: Exact Amphichiral A^3 + I_2 Involution & T^8 Cusp Gauge Equivalence on (2/5, 1/5)
+    # Theorem 10: Amphichiral A^3 + I_2 Involution, Rank-2 Local System on M_3 & T^8 Cusp Gauge Equivalence
     t10 = sc["theorem10_amphichiral_a3_involution_and_t8_cusp_equivalence"]
     assert t10["det_A_sig3_plus_I2"] == 20
     assert t10["true_eigenline_w_eig"] == ("2/5", "1/5")
     assert t10["involution_partner_minus_w_eig"] == ("3/5", "4/5")
     assert t10["U_on_2_1_mod5"] == [4, 2]
     assert t10["A_sig3_plus_I2_on_w_eig"] == [4, -2]
+    assert t10["B_half_shift_matrix"] == [[3, -2], [-2, 1]]
+    assert t10["U_times_B_exact_eq_minus_I2"] == [[-1, 0], [0, -1]]
     assert t10["is_even_integer_lattice_shift"] is True
+    assert float(t10["rank2_unitary_local_system_on_M3_max_err"]) < 1e-14
     assert float(t10["max_c_s_involution_error"]) < 1e-13
     assert float(t10["max_Yu_minus_exp_m4pi5_Yu_error"]) < 1e-12
     assert float(t10["max_Yd_involution_error"]) < 1e-12
     assert float(t10["max_Ye_involution_error"]) < 1e-11
     assert float(t10["max_Hermitian_Hs_involution_error"]) < 1e-11
     assert float(t10["max_T8_cusp_equivalence_yukawa_error"]) < 1e-11
+    assert float(t10["max_T8_cusp_error_across_all_5_lines_2_5_j_5"]) < 1e-11
+    assert t10["lines_2_5_j_5_satisfying_A_sig3_pm_eigenvector_mod5"] == [1]
     assert float(t10["max_haar_basis_scramble_10_obs_error"]) < 1e-12
 
-    # Theorem 11: Exact Amphichiral Orientation-Reversing Conjugation Identity & Parity-Doubled Strong CP Reality
+    # Theorem 11: Exact Amphichiral Orientation-Reversing Conjugation Identity & Branched Double Cover
     t11 = sc["theorem11_amphichiral_conjugation_and_strong_cp_reality"]
     assert t11["P_diag"] == [1.0, 1.0, -1.0]
     for sec in ("up", "down", "lepton"):
         assert float(t11["golden_conj_err_by_sector"][sec]) < 1e-14
         assert float(t11["golden_det_conj_err_by_sector"][sec]) < 1e-15
+    assert float(t11["f10_norm_factorization_err_vs_minus80_eta12_E4"]) < 1e-13
+    assert float(t11["f10_norm_abs_at_elliptic_zero_rho"]) < 1e-13
+    assert float(t11["unbranched_principal_cut_jump_norm_at_2i"]) > 2.0
+    assert float(t11["branched_double_cover_conj_err_at_2i"]) < 1e-14
+    assert t11["M_minus_I2_matrix"] == [[12, -8], [-8, 4]]
+    assert t11["M_minus_I2_smith_invariants"] == [4, 4]
+    assert t11["H1_M3_Z_structure"] == "Z + Z_4 + Z_4"
     assert abs(float(t11["bare_single_sheet_arg_det_Yu_Yd_rad"]) - (-2.92043)) < 1e-3
-    assert abs(float(t11["parity_doubled_6x6_arg_det_Du_Dd_rad_at_Golden"])) < 1e-12
-    assert abs(float(t11["wilson_line_relaxed_3x3_arg_det_Yu_Yd_rad_at_Golden"])) < 1e-11
+    assert abs(float(t11["random_3x3_matrix_doubled_block_arg_det_rad"])) < 1e-14
+    assert t11["strong_cp_solved_on_single_sheet"] is False
     assert float(t11["max_random_tau_conj_err"]) < 1e-13
     assert float(t11["max_random_tau_det_conj_err"]) < 1e-14
-    assert float(t11["max_random_tau_parity_doubled_arg_det_rad"]) < 1e-11
 
-    # Theorem 12: Strict Non-Dimensionalization of Electroweak & Top-Higgs Sector via 2-Loop Buttazzo et al. RGEs
+    # Theorem 12: Exact Buttazzo et al. (eq. 99) 2-Loop Top-Higgs RGEs & Non-Dimensional EW Ratio Audit
     t12 = sc["theorem12_nondimensional_buttazzo_2loop_top_higgs_closure"]
     b_bench = t12["buttazzo_table1_benchmark"]
     assert b_bench["passes_3_sig_fig_benchmark_gate"] is True
-    assert abs(float(b_bench["log10_mu_crit_GeV_computed"]) - 9.68) < 0.01
+    assert abs(float(b_bench["log10_mu_crit_GeV_computed"]) - 9.6774) < 0.01
+    assert abs(float(b_bench["log10_mu_crit_GeV_from_mu0_173p34"]) - 9.6780) < 0.01
 
     nd = t12["nondimensional_electroweak_and_top_higgs_ratios"]
-    assert nd["imported_MZ_count"] == 0
-    assert nd["imported_mtau_count"] == 0
-    assert float(nd["uv_boundary_residual_yt2"]) < 1e-14
-    assert float(nd["uv_boundary_residual_lambda"]) < 1e-14
+    assert float(nd["uv_boundary_residual_yt2"]) < 1e-13
+    assert float(nd["uv_boundary_residual_lambda"]) < 1e-13
     assert float(nd["downward_rk4_roundtrip_error"]) < 1e-13
     assert abs(float(nd["rel_error_MZ_over_vEW"])) < 0.001     # +0.060%
-    assert abs(float(nd["rel_error_mH"])) < 0.002              # -0.190% (125.01 GeV vs 125.25 GeV)
-    assert abs(float(nd["rel_error_mt_pole"])) < 0.008         # +0.784% (174.04 GeV vs 172.69 GeV)
+    assert abs(float(nd["rel_error_mH_raw_at_MZ"])) < 0.002    # -0.188% (125.015 GeV vs 125.25 GeV)
+    assert abs(float(nd["rel_error_mt_pole_from_MZ"])) < 0.008 # +0.785% (174.05 GeV vs 172.69 GeV)
+    b_match = nd["buttazzo_matched_at_mu_173p34_GeV"]
+    assert abs(float(b_match["Mh_pole_matched_GeV"]) - 120.18) < 0.2
+    assert abs(float(b_match["Mt_pole_matched_GeV"]) - 169.34) < 0.2
+    assert float(nd["dMh_d_yt2_UV_GeV"]) > 300.0
+    assert nd["scope_and_parameter_accounting"]["yt2_M12_eq_1_5_derived_from_action"] is False
 
     # Theorem 13: Basis-Invariant Symmetric Weinberg Operator M_W(h, m_W) on (-3, -3) & Guardrail 3 Verification
     t13 = sc["theorem13_basis_invariant_weinberg_majorana_and_pmns"]
     assert float(t13["pauli_1_residue_abs_at_m3_m3"]) < 1e-15
     assert float(t13["mw_a0_independence_error"]) < 1e-14
     assert float(t13["mw_formula_match_error"]) < 1e-15
+    assert float(t13["max_c_ll_closed_form_vs_b1656_cA_err"]) < 1e-11
+    s_ll6 = t13["exact_ll_twist6_weinberg_spectrum"]
+    assert abs(float(s_ll6["sin2_theta12"]) - 0.26946) < 1e-4
+    assert abs(float(s_ll6["sin2_theta23"]) - 0.03372) < 1e-4
+    assert abs(float(s_ll6["sin2_theta13"]) - 0.00118) < 1e-4
     assert abs(float(t13["sin2_theta12_weinberg_minimal"]) - 0.27697) < 1e-4
     assert abs(float(t13["sin2_theta13_weinberg_minimal"]) - 0.01393) < 1e-4
     assert t13["passes_guardrail3_basis_invariance"] is True

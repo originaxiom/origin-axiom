@@ -1083,9 +1083,94 @@ def audit_area_9() -> Dict[str, object]:
         y_n = ind_b1656_yukawa_4d(tau_test_amph, ql, qr, -np.conj(c_sec))
         ind_max_t11_conj_err = max(ind_max_t11_conj_err, float(np.max(np.abs(y_n - p_diag @ np.conj(y_p) @ p_diag))))
 
-    # (e) Independent countercheck of Theorem 12 (non-dimensionalized M_Z/v_EW and 2-loop Buttazzo downward BVP):
-    t12 = sc["theorem12_nondimensional_buttazzo_2loop_top_higgs_closure"]
+    # Independent 40-digit mpmath verification of F(tau) = theta_2^20 + theta_4^20 - theta_3^20 = -80 eta^12 E_4:
+    f_tau_mp = (th2_mp ** 20) + (th4_mp ** 20) - (th3_mp ** 20)
+    e4_mp = ((th2_mp ** 8) + (th3_mp ** 8) + (th4_mp ** 8)) / 2
+    rhs_e4_mp = -80 * (eta_mp ** 12) * e4_mp
+    ind_f10_norm_e4_diff_mp = float(abs(f_tau_mp - rhs_e4_mp))
+
+    # (e) Independent midpoint-rule ODE countercheck of Theorem 12 (Buttazzo et al. arXiv:1307.3536v4 eq. 99):
+    def ind_buttazzo_eq99_rhs(y_state: np.ndarray) -> np.ndarray:
+        yt2_v, l_v, g3_v, g2_v, g1_v = float(y_state[0]), float(y_state[1]), float(y_state[2]), float(y_state[3]), float(y_state[4])
+        f1_c = 1.0 / (4.0 * math.pi)
+        f2_c = 1.0 / (64.0 * (math.pi ** 3))
+        dg3 = -7.0 * f1_c * (g3_v ** 2) - 26.0 * f2_c * (g3_v ** 3)
+        dg2 = (-19.0 / 6.0) * f1_c * (g2_v ** 2) + (35.0 / 6.0) * f2_c * (g2_v ** 3)
+        dg1 = (41.0 / 10.0) * f1_c * (g1_v ** 2) + (199.0 / 50.0) * f2_c * (g1_v ** 3)
+        byt_1 = yt2_v * (4.5 * yt2_v - 8.0 * g3_v - 2.25 * g2_v - 0.85 * g1_v)
+        byt_2 = yt2_v * (
+            -12.0 * (yt2_v ** 2)
+            + (36.0 * g3_v + (225.0 / 16.0) * g2_v + (393.0 / 80.0) * g1_v) * yt2_v
+            - 108.0 * (g3_v ** 2)
+            - (23.0 / 4.0) * (g2_v ** 2)
+            + (1187.0 / 600.0) * (g1_v ** 2)
+            + 9.0 * g3_v * g2_v
+            + (19.0 / 15.0) * g3_v * g1_v
+            - (9.0 / 20.0) * g2_v * g1_v
+            + 6.0 * (l_v ** 2)
+            - 12.0 * l_v * yt2_v
+        )
+        dyt2 = f1_c * byt_1 + f2_c * byt_2
+        bl_1 = (
+            12.0 * (l_v ** 2)
+            + 6.0 * l_v * yt2_v
+            - 3.0 * (yt2_v ** 2)
+            - l_v * (4.5 * g2_v + 0.9 * g1_v)
+            + (9.0 / 16.0) * (g2_v ** 2)
+            + (9.0 / 40.0) * g2_v * g1_v
+            + (27.0 / 400.0) * (g1_v ** 2)
+        )
+        bl_2 = (
+            -78.0 * (l_v ** 3)
+            - 72.0 * (l_v ** 2) * yt2_v
+            + 54.0 * (l_v ** 2) * (g2_v + 0.2 * g1_v)
+            - 3.0 * l_v * (yt2_v ** 2)
+            + 80.0 * g3_v * l_v * yt2_v
+            + (45.0 / 2.0) * g2_v * l_v * yt2_v
+            + (17.0 / 2.0) * g1_v * l_v * yt2_v
+            - (73.0 / 8.0) * l_v * (g2_v ** 2)
+            + (117.0 / 20.0) * l_v * g2_v * g1_v
+            + (1887.0 / 400.0) * l_v * (g1_v ** 2)
+            + 30.0 * (yt2_v ** 3)
+            - 32.0 * g3_v * (yt2_v ** 2)
+            - (8.0 / 5.0) * g1_v * (yt2_v ** 2)
+            - (9.0 / 4.0) * (yt2_v ** 2) * g2_v
+            - (9.0 / 8.0) * yt2_v * (g2_v ** 2)
+            - (171.0 / 200.0) * yt2_v * (g1_v ** 2)
+            + (63.0 / 20.0) * yt2_v * g1_v * g2_v
+            + (305.0 / 16.0) * (g2_v ** 3)
+            - (289.0 / 80.0) * (g2_v ** 2) * g1_v
+            - (1677.0 / 800.0) * g2_v * (g1_v ** 2)
+            - (3411.0 / 4000.0) * (g1_v ** 3)
+        )
+        dl = f1_c * bl_1 + f2_c * bl_2
+        return np.array([dyt2, dl, dg3, dg2, dg1], dtype=float)
+
+    # Integrate Buttazzo Table 1 benchmark from mu_0 = 173.34 GeV using independent explicit midpoint RK2:
+    y_mid = np.array([0.9369 ** 2, 0.12604, 1.1666 ** 2, 0.64779 ** 2, (5.0 / 3.0) * (0.35830 ** 2)], dtype=float)
+    dt_mid = 0.0005
+    t_mid = 0.0
+    ind_log10_mu_crit = 0.0
+    for _ in range(8000):
+        l_prev = float(y_mid[1])
+        k1_m = ind_buttazzo_eq99_rhs(y_mid)
+        k2_m = ind_buttazzo_eq99_rhs(y_mid + 0.5 * dt_mid * k1_m)
+        y_next = y_mid + dt_mid * k2_m
+        if y_next[1] <= 0.0:
+            frac_m = l_prev / (l_prev - float(y_next[1]))
+            t_zero = t_mid + frac_m * dt_mid
+            ind_log10_mu_crit = float(math.log10(173.34 * math.exp(2.0 * math.pi * t_zero)))
+            break
+        y_mid = y_next
+        t_mid += dt_mid
+
+    # Independent b1656_funcs check of Theorem 13 (-3, -3) Weinberg LL channel norms:
+    w_eig_b = B.line_w(Fraction(2, 5), Fraction(1, 5), tau_g)
+    xx_ll, yy_ll = B.sector_twists(w_eig_b, tau_g, -3, -3)
+    rd_ll = B.residues(xx_ll, yy_ll, tau_g)
+    ca_ll_b1656 = B.cA(xx_ll, yy_ll, tau_g, rd_ll)
     t13 = sc["theorem13_basis_invariant_weinberg_majorana_and_pmns"]
+    ind_c_ll_err = max(abs(float(ca_ll_b1656[k]) - float(t13["c_ll_twist6_closed_form"][k])) for k in B.UNITS)
     t14 = sc["theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census"]
 
     # (f) Independent zero-trust verification of Theorem 14 (2O orbit stabilizer |2D_4|=16, 3 gauge classes, Q_8 compensators):
@@ -1138,9 +1223,9 @@ def audit_area_9() -> Dict[str, object]:
             "det_A_sig3_plus_I2_theorem10": ind_det_a_sig3_plus_i2,
             "A_sig3_plus_I2_on_2_5_1_5_theorem10": ind_a_sig3_plus_i2_on_2_1,
             "independent_b1656_theorem11_amphichiral_conj_err": ind_max_t11_conj_err,
-            "theorem12_buttazzo_benchmark_log10_mu_crit": t12["buttazzo_table1_benchmark"]["log10_mu_crit_GeV_computed"],
-            "theorem12_nondimensional_mH_GeV_at_yt2_1_5": t12["nondimensional_electroweak_and_top_higgs_ratios"]["mH_pred_GeV"],
-            "theorem12_nondimensional_MZ_over_vEW": t12["nondimensional_electroweak_and_top_higgs_ratios"]["MZ_over_vEW_pred"],
+            "independent_mpmath_f10_norm_vs_minus80_eta12_E4_err": ind_f10_norm_e4_diff_mp,
+            "independent_midpoint_rk2_buttazzo_eq99_log10_mu_crit": ind_log10_mu_crit,
+            "independent_b1656_theorem13_c_ll_twist6_err": ind_c_ll_err,
             "theorem13_pmns_haar_scramble_max_err": t13["max_haar_unitary_scramble_error_on_pmns"],
             "theorem14_independent_2O_order": len(ind_2o),
             "theorem14_independent_2D4_stabilizer_order": ind_stab_2d4_count,
