@@ -52,6 +52,7 @@ from origin_axiom.sm_19_gate import (
     step2_physical_spin_flavour_locking_bridge,
     step3_pmns_and_m004_gauge_thresholds,
     step4_sealed_stepb_v2_fr_cov_verdict,
+    theorem8_golden_codifferent_unit_modulus_closure,
 )
 from origin_axiom.stepb_audit import (
     count_order12_massless_electron_choices,
@@ -366,6 +367,35 @@ def test_four_sequential_steps_stepb_v2_closure():
     assert float(s4["conditional_ckm_cost_bits"]) < 0.15
     assert float(s4["C_ten_bits_fr_cov"]) > 44.5
     assert float(s4["C_ten_bits_adversarial_23bit_ledger"]) > 33.4
+
+
+def test_theorem8_zero_parameter_golden_codifferent_unit_modulus_closure():
+    t8 = theorem8_golden_codifferent_unit_modulus_closure()
+    phi = (1.0 + math.sqrt(5.0)) / 2.0
+    assert abs(float(t8["tau_Golden"][0]) - (1.0 / math.sqrt(5.0))) < 1e-15
+    assert abs(float(t8["tau_Golden"][1]) - (phi * phi)) < 1e-15
+    assert t8["continuous_parameters"] == 0
+    assert float(t8["L_tau_bits"]) == 0.0
+    assert t8["passes_all_three_gates"] is True
+    assert abs(float(t8["chi2_six"]) - 7.6937) < 1e-2
+    assert abs(float(t8["chi2_ckm"]) - 0.0669) < 1e-3
+    assert abs(float(t8["chi2_ten"]) - 7.7606) < 1e-2
+    assert abs(float(t8["Vub_over_Vtd"]) - 0.4158) < 1e-2
+    assert abs(float(t8["sin_delta_CP"]) - 0.9288) < 1e-2
+
+    inter = t8["inter_sector_scales"]
+    assert float(inter["rel_error_mb_over_mtau"]) < 0.002
+    assert float(inter["rel_error_mt_over_mb"]) < 0.001
+
+    pmns = t8["block_III_pmns"]
+    assert float(pmns["weinberg_LL_singlet_residue_abs"]) < 1e-15
+    assert abs(float(pmns["sin2_theta12_pred"]) - 0.3098) < 1e-3
+
+    comp = t8["compression_verdict_at_tau_Golden"]
+    assert float(comp["C_ten_bits_fr_cov_zero_L_tau"]) > 53.5
+    assert float(comp["C_ten_bits_adversarial_23bit_ledger"]) > 42.5
+    assert float(comp["C_ten_bits_adversarial_plus_full_10bit_Z8_price"]) > 32.5
+
 
 
 

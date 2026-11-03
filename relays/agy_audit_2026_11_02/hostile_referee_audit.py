@@ -73,8 +73,17 @@ from origin_axiom.operator_gate import (
     lagrange_ckm_compromise,
     m004_three_fold_cover_invariants,
     quaternionic_4d_yukawa,
+    schur_quaternionic_bimodule_decomposition,
     serre_dr_dot_dr_eta6_identity,
     yukawa_4d_determinant_factorization,
+    z3_norm_preserving_scalar_higgs,
+)
+from origin_axiom.sm_19_gate import (
+    step1_golden_5torsion_norm_preserving_solution,
+    step2_physical_spin_flavour_locking_bridge,
+    step3_pmns_and_m004_gauge_thresholds,
+    step4_sealed_stepb_v2_fr_cov_verdict,
+    theorem8_golden_codifferent_unit_modulus_closure,
 )
 from origin_axiom.stepb_audit import (
     KEPT_DIRECTIONS as AGY_KEPT_DIRECTIONS,
@@ -892,6 +901,121 @@ def audit_area_7(b1825_cache: Dict[str, object]) -> Dict[str, object]:
     }
 
 
+def audit_area_8(dr_ser, a0_ser, area1) -> Dict[str, object]:
+    """Area 8: Zero-trust audit of Theorems 5, 6, 7, and 8 and Relays 4 & 5 against b1656_funcs.py quadrature."""
+    tt_c3 = area1["_cached_tt_c3"]
+    sig = area1["_cached_sig"]
+
+    rng = np.random.default_rng(20261105)
+    max_t5_diff = 0.0
+    for _ in range(25):
+        a0_r = complex(rng.normal() + 1j * rng.normal())
+        hv_r = rng.normal(size=3) + 1j * rng.normal(size=3)
+        m1_r = complex(rng.normal() + 1j * rng.normal())
+        mp_r = rng.normal(size=3) + 1j * rng.normal(size=3)
+        bim = schur_quaternionic_bimodule_decomposition(a0_r, hv_r, m1_r, mp_r)
+        max_t5_diff = max(max_t5_diff, float(bim["max_matrix_diff"]))
+    t6 = z3_norm_preserving_scalar_higgs()
+    s1 = step1_golden_5torsion_norm_preserving_solution()
+    t8 = theorem8_golden_codifferent_unit_modulus_closure()
+
+    cu = -np.sqrt(np.exp(1j * math.pi) - 1.0)
+    cd = -np.sqrt(np.exp(1j * math.pi / 4.0) - 1.0)
+    ce = -1.0 + 0.0j
+
+    def independent_b1656_eval(tau_pt: complex) -> Dict[str, float]:
+        _, l2_val = get_radii(tau_pt)
+        q_mp = mp.exp(1j * mp.pi * mp.mpc(tau_pt.real, tau_pt.imag))
+        eps_10 = 1j ** ((10 + 2) // 2)  # -1
+        th2_m, th3_m, th4_m = mp.jtheta(2, 0, q_mp), mp.jtheta(3, 0, q_mp), mp.jtheta(4, 0, q_mp)
+        f10_vec = [complex(eps_10 * (th2_m ** 10)), complex(eps_10 * (th4_m ** 10)), complex(1j * (th3_m ** 10))]
+        sm_base = f10_vec[0] * B.QI + f10_vec[1] * B.QJ + f10_vec[2] * B.QK
+        sm_st = B.EPS @ sm_base.conj() @ B.EPS.T
+        v_blocks = np.array([f10_vec[1], f10_vec[0], f10_vec[2]], dtype=complex)
+        b_st = np.conj(np.sqrt(np.dot(-v_blocks, -v_blocks)))
+
+        u_mats = {}
+        s_ratios = {}
+        line_5 = (Fraction(2, 5), Fraction(0, 1))
+        for sn, ql, qr, c_sec in [("up", 1, -4, cu), ("down", 1, 2, cd), ("lepton", -3, 6, ce)]:
+            w = B.line_w(line_5[0], line_5[1], tau_pt)
+            x, yy = B.sector_twists(w, tau_pt, ql, qr)
+            r_dict = B.residues(x, yy, tau_pt)
+            c_dict = B.cA(x, yy, tau_pt, r_dict)
+            u_q = {
+                k: (
+                    math.sqrt(2.0 * math.pi * l2_val + c_dict[k]) * r_dict[k]
+                    if c_dict[k] is not None and 2.0 * math.pi * l2_val + c_dict[k] > 0
+                    else 0.0
+                )
+                for k in B.UNITS
+            }
+            sm_4d = sm_st + (c_sec * b_st) * np.eye(2, dtype=complex)
+            y_4d = B.coupling(sm_4d, B.weighted_M(u_q))
+            u_left, sv, _ = np.linalg.svd(y_4d)
+            order = np.argsort(sv)
+            sv = sv[order]
+            u_mats[sn] = u_left[:, order]
+            s_ratios[sn] = sv / sv[2]
+
+        vm = u_mats["up"].conj().T @ u_mats["down"]
+        j_val = float(abs(np.imag(vm[0, 1] * vm[1, 2] * np.conj(vm[0, 2]) * np.conj(vm[1, 1]))))
+        raw = np.array(
+            [
+                float(s_ratios["up"][1]),
+                float(s_ratios["up"][0]),
+                float(s_ratios["down"][1]),
+                float(s_ratios["down"][0]),
+                float(s_ratios["lepton"][1]),
+                float(s_ratios["lepton"][0]),
+                float(abs(vm[0, 1])),
+                float(abs(vm[1, 2])),
+                float(abs(vm[0, 2])),
+                j_val,
+            ],
+            dtype=float,
+        )
+        z_vec = (np.log(raw) - tt_c3) / sig
+        chi2_i = z_vec ** 2
+        return {
+            "chi2_six": float(np.sum(chi2_i[:6])),
+            "chi2_ckm": float(np.sum(chi2_i[6:])),
+            "chi2_ten": float(np.sum(chi2_i)),
+        }
+
+    tau_step1 = complex(0.44643117, 2.60792242)
+    phi = (1.0 + math.sqrt(5.0)) / 2.0
+    tau_golden = complex(1.0 / math.sqrt(5.0), phi * phi)
+
+    ind_step1 = independent_b1656_eval(tau_step1)
+    ind_golden = independent_b1656_eval(tau_golden)
+
+    return {
+        "theorem5_and_6_verified": {
+            "theorem5_25_random_trials_max_matrix_diff": max_t5_diff,
+            "theorem6_max_norm_deviation": t6["max_norm_deviation"],
+        },
+        "theorem7_step1_b1656_quadrature_crosscheck": {
+            "agy_sm_19_gate_chi2_ten": s1["pure_tree_level"]["chi2_ten"],
+            "independent_b1656_quadrature_chi2_six": ind_step1["chi2_six"],
+            "independent_b1656_quadrature_chi2_ckm": ind_step1["chi2_ckm"],
+            "independent_b1656_quadrature_chi2_ten": ind_step1["chi2_ten"],
+            "abs_diff_chi2_ten": abs(float(s1["pure_tree_level"]["chi2_ten"]) - ind_step1["chi2_ten"]),
+        },
+        "theorem8_tau_Golden_b1656_quadrature_crosscheck": {
+            "tau_Golden": [tau_golden.real, tau_golden.imag],
+            "agy_sm_19_gate_chi2_ten": t8["chi2_ten"],
+            "independent_b1656_quadrature_chi2_six": ind_golden["chi2_six"],
+            "independent_b1656_quadrature_chi2_ckm": ind_golden["chi2_ckm"],
+            "independent_b1656_quadrature_chi2_ten": ind_golden["chi2_ten"],
+            "abs_diff_chi2_ten": abs(float(t8["chi2_ten"]) - ind_golden["chi2_ten"]),
+            "C_ten_bits_after_full_adversarial_and_10bit_Z8_price": t8["compression_verdict_at_tau_Golden"][
+                "C_ten_bits_adversarial_plus_full_10bit_Z8_price"
+            ],
+        },
+    }
+
+
 def main() -> int:
     t0 = time.perf_counter()
     th2, th3, th4, r_ser, dr_ser, d2r_ser, a0_ser, t_m5_288_ser = build_serre_sections()
@@ -902,6 +1026,7 @@ def main() -> int:
     area4_5 = audit_area_4_and_5(area1)
     area6 = audit_area_6()
     area7 = audit_area_7(area1)
+    area8 = audit_area_8(dr_ser, a0_ser, area1)
 
     # Remove internal cache keys before serializing
     for k in list(area1.keys()):
@@ -921,6 +1046,7 @@ def main() -> int:
         "area_4_and_5_theorems_2_3_4": area4_5,
         "area_6_m004_cover_commutant": area6,
         "area_7_fr_cov_chi2_and_parameter_ledger": area7,
+        "area_8_theorems_5_6_7_8_and_stepb_v2_closure": area8,
     }
 
     out_path = pathlib.Path(__file__).resolve().parent / "hostile_referee_audit_results.json"
@@ -934,8 +1060,12 @@ def main() -> int:
     print(f"Area 3: Theorem 1 closed_form_cA max diff on 10 fresh adversarial/boundary cases = {area3['max_abs_err_vs_cA_on_10_adversarial_cases']:.2e}")
     print(f"Area 4 & 5: Theorems 2, 3, 4 max errors = {area4_5['theorem2_and_3_200_random_trials']['max_4d_yukawa_abs_err']:.2e}, {area4_5['theorem2_and_3_200_random_trials']['max_det_factorization_rel_err']:.2e}, {area4_5['theorem4_exact_qseries_and_random_tau']['max_numerical_rel_err_20_random_tau']:.2e}")
     print(f"Area 6: Pure S_3 sheet permutation commutant dim = {area6['pure_S3_sheet_permutation_C3_and_P_perm']['dim_R_symmetric_commutant']} (order {area6['pure_S3_sheet_permutation_C3_and_P_perm']['group_order']}), vs agy's signed P_refl commutant dim = {area6['agy_operator_gate_C3_and_P_refl_with_minus_signs']['dim_R_symmetric_commutant']} (order {area6['agy_operator_gate_C3_and_P_refl_with_minus_signs']['group_order']} = S_4)")
-    w_res = area7["b1825_address_full_chi2_ten_comparison"]["FR_COV_witness_a0_0p20_exp_7pi8_on_S_tilde_S_tilde_S"]
+    w_res = area7["b1825_address_full_chi2_ten_comparison"]["FR_COV_witness_a0_0p20_exp_7jpi8_on_S_tilde_S_tilde_S"] if "FR_COV_witness_a0_0p20_exp_7jpi8_on_S_tilde_S_tilde_S" in area7["b1825_address_full_chi2_ten_comparison"] else area7["b1825_address_full_chi2_ten_comparison"]["FR_COV_witness_a0_0p20_exp_7pi8_on_S_tilde_S_tilde_S"]
     print(f"Area 7: At B1825 address, witness a_0 = 0.20*exp(7j*pi/8) gives |V_ub|/|V_td| = {w_res['Vub_over_Vtd']:.4f}, sin(delta_CP) = {w_res['sin_delta_CP']:.4f}, BUT full chi2_ten = {w_res['chi2_ten']:.2f} (vs FR-FIB 291.49)!")
+    t7_chk = area8["theorem7_step1_b1656_quadrature_crosscheck"]
+    t8_chk = area8["theorem8_tau_Golden_b1656_quadrature_crosscheck"]
+    print(f"Area 8: Theorem 7 b1656_funcs quadrature chi2_ten = {t7_chk['independent_b1656_quadrature_chi2_ten']:.6f} vs sm_19_gate = {t7_chk['agy_sm_19_gate_chi2_ten']:.6f} (|diff| = {t7_chk['abs_diff_chi2_ten']:.2e})")
+    print(f"Area 8: Theorem 8 (tau_Golden = 1/sqrt(5) + i*phi^2, 0 continuous params) b1656_funcs quadrature chi2_ten = {t8_chk['independent_b1656_quadrature_chi2_ten']:.6f} vs sm_19_gate = {t8_chk['agy_sm_19_gate_chi2_ten']:.6f} (|diff| = {t8_chk['abs_diff_chi2_ten']:.2e})")
     return 0
 
 

@@ -2,7 +2,7 @@
   "audit_metadata": {
     "role": "Hostile Referee (Zero-Trust Independent Verification)",
     "branch_audited": "agy/audit-2026-11-02",
-    "runtime_seconds": 21.553344587002357
+    "runtime_seconds": 25.286461750001763
   },
   "area_1_b1825_readout_and_lagrange": {
     "chi2_ten_fresh_run_json": 291.4866623550638,
@@ -677,6 +677,31 @@
       "b1726_best_line_2_5_1_10_in_Fix_LR3": false,
       "golden_eigen_line_2_5_1_5_in_Fix_LR3_projective": true,
       "referee_finding_on_torsion_lines": "CAVEAT EXPOSED: ker((LR)^3 - I) = (Z/4Z)^2 contains only lines of orders 1, 2, 4 (plus the projective order-5 eigen-orbit (2/5, 1/5) where (LR)^3 = -I mod 5). Neither B1825's best line (3/8, 3/8) (order 8) nor B1726's best line (2/5, 1/10) (order 10) lies in Fix((LR)^3). Moving to FR-COV's cover-compatible torsion locus therefore requires a fresh scan over the 6 cover-compatible orbits."
+    }
+  },
+  "area_8_theorems_5_6_7_8_and_stepb_v2_closure": {
+    "theorem5_and_6_verified": {
+      "theorem5_25_random_trials_max_matrix_diff": 1.831026719408895e-15,
+      "theorem6_max_norm_deviation": 2.886579864025407e-15
+    },
+    "theorem7_step1_b1656_quadrature_crosscheck": {
+      "agy_sm_19_gate_chi2_ten": 7.199102937730907,
+      "independent_b1656_quadrature_chi2_six": 6.834261349453446,
+      "independent_b1656_quadrature_chi2_ckm": 0.3648415881961499,
+      "independent_b1656_quadrature_chi2_ten": 7.199102937649597,
+      "abs_diff_chi2_ten": 8.131006978828736e-11
+    },
+    "theorem8_tau_Golden_b1656_quadrature_crosscheck": {
+      "tau_Golden": [
+        0.4472135954999579,
+        2.618033988749895
+      ],
+      "agy_sm_19_gate_chi2_ten": 7.760637801782158,
+      "independent_b1656_quadrature_chi2_six": 7.693696685575353,
+      "independent_b1656_quadrature_chi2_ckm": 0.06694111615340743,
+      "independent_b1656_quadrature_chi2_ten": 7.760637801728759,
+      "abs_diff_chi2_ten": 5.339906294921093e-11,
+      "C_ten_bits_after_full_adversarial_and_10bit_Z8_price": 32.51755222014933
     }
   }
 }
