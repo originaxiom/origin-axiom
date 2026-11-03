@@ -1,0 +1,1 @@
+20 random (x, y, tau, u): largest relative deviation of the eight multiplier claims: 1.1e-14
