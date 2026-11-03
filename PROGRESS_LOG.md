@@ -21573,3 +21573,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   simple ratios of cosines set by each line's own fraction.
 - **What it means:** this frame's forced values never give the factor the data need, so that factor stays an input.
   The main seat is asked to rule on that. 0 of 19.
+
+## 2026-11-03 — the new lines, planned before computing them
+
+- **Why:** the main seat found that on the frame's simplest lines the down quarks and the leptons come out identical,
+  so the factor of 3 its census used between them had been put in by hand. It asked whether a richer family of lines,
+  which carry the colour symmetry's twist, gives the 3 by itself.
+- **What was done:** the test was written down with its checks and their odds before any program runs it. It looks at
+  90 lines, 80 of them never computed before, at the two points the principle marks.
+  0 of 19.

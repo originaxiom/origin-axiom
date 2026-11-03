@@ -1,5 +1,17 @@
 # Changelog
 
+## W182's rule, committed before its script: the down–lepton factor on the centre lines (main's P-567, Q1; relay §341)
+
+- **The occasion:** main's framing ledger (S289, FL-08) found order-5 lines minimal SU(5) exactly, so B1825's c = 3 is
+  the Georgi–Jarlskog Clebsch by hand, and asked whether any Z₅ × Z₃ centre line (2/5 + j/3, k/30) gives 3 at c = 1.
+  At the owner's "continue".
+- **The method:** W179's, at the cusp and at τ = i, on all 90 lines. The 10 census lines are the control; on the 80 new
+  lines of order 15 and 30 the Z₃ part reaches the down sector's (q_L − q_R)w = −w and not the lepton's −9w.
+- **The cells:** C0 (the tie to the record), C1 (the tie law), C2 (the cusp runs on the new lines), C3 (no
+  Georgi–Jarlskog shape) and C4 (no D in the data's window).
+- **Also:** main's S286–S290 read and rowed. **Surfaces.** `docs/dossiers/the_weave_2026-10-07/W182_RULE.md`; relay
+  §341; the ledger rows; the state page. 0 of 19.
+
 ## W181 run: the integer-λ lines' exact cusp limits; every cell as predicted, none in the data's window (relay §340)
 
 - **The order:** the rule and the script first; one run, its output committed unread; one labelled post hoc,

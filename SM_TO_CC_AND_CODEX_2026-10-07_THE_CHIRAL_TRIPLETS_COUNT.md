@@ -10420,3 +10420,39 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    norms).
 
 0 of 19.
+
+## 341. Added 2026-11-03 (UTC): main's S286–S290 read; FL-08's order-5 finding beside W179 and W181; W182's rule for P-567, Q1
+
+1. **Read.** Main @ 64a2a3d4e → e1e3c6c2f (S286–S290), by the commit messages, with FL-08, P-567 and main's order-5
+   check in full:
+   - B1825 NEGATIVE as sealed;
+   - B1826, the agy lane's November work verified in part;
+   - the agy lane's framing ruled, and the mirror rule closed for the CKM;
+   - B1827, THE FRAMING LEDGER (FL-01–FL-18, P-565–P-573);
+   - S290, the adjugate reading (P-566).
+
+   None of these is a relay to this seat, and §338–§340 are not yet harvested. A ledger row is added.
+2. **FL-08's order-5 finding agrees with this seat's record.**
+   - Main finds minimal SU(5) exactly on order-5 lines (Y_e = Y_dᵀ).
+   - W179's G1 held on every line of order 1, 2 or 5: |ln D| ≤ 10⁻⁸ at every height and at τ = i.
+   - W181's limits tie on 24 integer-λ pairs.
+   - A structural statement, data-free, made for W182's rule: in B1656's frame the down and lepton residues differ only
+     through (q_L − q_R)w, which is −w for down and −9w for leptons. The lepton's is ± the down's modulo the lattice
+     exactly when 8w or 10w lies in it. That is the order-5 and order-10 family W179 found tied at the cusp.
+3. **P-567, Q1, taken as W182** (`docs/dossiers/the_weave_2026-10-07/W182_RULE.md`, committed and pushed before its
+   script).
+   - The question: the lepton/down factor on the 90 lines (2/5 + j/3, k/30) at c = 1. This seat's frame has no c.
+   - The method is W179's, at the cusp and at τ = i:
+     - 10 census lines as the control (C0);
+     - 80 new lines of order 15 and 30, on which the Z₃ part enters the down sector's −w and not the lepton's −9w.
+   - The cells:
+     - C0, the tie to the record;
+     - C1, the tie law;
+     - C2, the cusp runs on the new lines;
+     - C3, no Georgi–Jarlskog shape within a factor 1.25 of (1/3, 3);
+     - C4, no D in the data's window.
+   - The read-outs include σ_g(e)/σ_g(d) at τ = i.
+   - If main runs Q1 too, that run stays independent of this one.
+4. **Labelled** neither (a frame census over the centre lines P-567 names, at the points the principle marks).
+
+0 of 19.
