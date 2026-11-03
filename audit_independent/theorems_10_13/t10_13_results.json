@@ -1,0 +1,257 @@
+{
+ "T10_algebra": {
+  "A_sig^3": [
+   [
+    13,
+    -8
+   ],
+   [
+    -8,
+    5
+   ]
+  ],
+  "det(A^3+I)": 20,
+  "(A^3+I)w/5": [
+   4.0,
+   -2.0
+  ],
+  "A^3 w mod 5 (should be -w = (3,4))": [
+   3,
+   4
+  ],
+  "lines (2/5,j/5) with A^3 x = +-x mod 5": [
+   1
+  ]
+ },
+ "T10_T8_orbit": {
+  "(2/5,0/5) at tau+0": {
+   "max|obs - obs[(2/5,0) at tau]|": 0.0,
+   "is_eigenline_of_[[1,2],[2,3]]_mod5": false
+  },
+  "(2/5,1/5) at tau+8": {
+   "max|obs - obs[(2/5,0) at tau]|": 4.76432374959197e-13,
+   "is_eigenline_of_[[1,2],[2,3]]_mod5": true
+  },
+  "(2/5,2/5) at tau+16": {
+   "max|obs - obs[(2/5,0) at tau]|": 5.014946380753443e-13,
+   "is_eigenline_of_[[1,2],[2,3]]_mod5": false
+  },
+  "(2/5,3/5) at tau+24": {
+   "max|obs - obs[(2/5,0) at tau]|": 6.129655993979096e-13,
+   "is_eigenline_of_[[1,2],[2,3]]_mod5": false
+  },
+  "(2/5,4/5) at tau+32": {
+   "max|obs - obs[(2/5,0) at tau]|": 2.2730599831212148e-13,
+   "is_eigenline_of_[[1,2],[2,3]]_mod5": false
+  }
+ },
+ "T10_distinct_at_fixed_tau": {
+  "(2/5,0/5)": 0.0,
+  "(2/5,1/5)": 0.9339382937188494,
+  "(2/5,2/5)": 1.7223217462802558,
+  "(2/5,3/5)": 1.2216743277214412,
+  "(2/5,4/5)": 8.346403760258156
+ },
+ "T10_agy_rerun": {
+  "det_A_sig3_plus_I2": 20,
+  "true_eigenline_w_eig": [
+   "2/5",
+   "1/5"
+  ],
+  "involution_partner_minus_w_eig": [
+   "3/5",
+   "4/5"
+  ],
+  "U_on_2_1_mod5": [
+   4,
+   2
+  ],
+  "A_sig3_plus_I2_on_w_eig": [
+   4,
+   -2
+  ],
+  "is_even_integer_lattice_shift": true,
+  "n_random_tau_trials": 3,
+  "max_c_s_involution_error": 0.0,
+  "max_Yu_minus_exp_m4pi5_Yu_error": 2.736919314327565e-14,
+  "max_Yd_involution_error": 9.709850880706406e-15,
+  "max_Ye_involution_error": 1.2719008273696523e-13,
+  "max_Hermitian_Hs_involution_error": 1.4921397480167408e-13,
+  "max_T8_cusp_equivalence_yukawa_error": 4.4542501955294574e-14,
+  "max_haar_basis_scramble_10_obs_error": 6.060256463324976e-14
+ },
+ "T11": {
+  "agy_rerun": {
+   "P_diag": [
+    1.0,
+    1.0,
+    -1.0
+   ],
+   "golden_conj_err_by_sector": {
+    "up": 2.220446049250313e-15,
+    "down": 1.9860273225978185e-15,
+    "lepton": 1.2560739669470201e-15
+   },
+   "golden_det_conj_err_by_sector": {
+    "up": 5.150001377950075e-17,
+    "down": 2.260825414758845e-16,
+    "lepton": 2.576779762911821e-16
+   },
+   "bare_single_sheet_arg_det_Yu_Yd_rad": -2.9204298176571424,
+   "parity_doubled_6x6_arg_det_Du_Dd_rad_at_Golden": -4.5452530628153894e-13,
+   "wilson_line_relaxed_3x3_arg_det_Yu_Yd_rad_at_Golden": 2.8882989749901e-12,
+   "n_random_tau_trials": 3,
+   "max_random_tau_conj_err": 2.5121479338940403e-15,
+   "max_random_tau_det_conj_err": 1.735753595866742e-15,
+   "max_random_tau_parity_doubled_arg_det_rad": 3.1727120930469243e-12
+  },
+  "parity_doubled_det = det(Y)*det(P conj(Y) P) = |det Y|^2 -> arg = 0 for ANY matrix": true,
+  "random_matrix_demo_arg_det_doubled": 5.5511151231257815e-17,
+  "single_sheet_arg_det(YuYd)": -2.9204298176533223,
+  "rephasing_Yu_by_exp(-i arg/3): max rel change of all 10 flavour observables": 3.093125672648145e-13,
+  "arg_det_after_rephasing": -3.5291630211724948e-12,
+  "note": "theta_bar = theta_QCD - arg det(Yu Yd) is invariant under quark rephasing; removing arg det by a phase just moves it into theta_QCD, which the model never computes."
+ },
+ "T12_benchmark_lambda0_from_Table1_at_mu=173.1": {
+  "log10_mu_lambda0": 9.677786340995784,
+  "lambda_min": -0.01545371076195012,
+  "log10_mu_at_min": 17.43876243718763
+ },
+ "T12_benchmark_lambda0_from_Table1_at_mu=173.34": {
+  "log10_mu_lambda0": 9.67813603310321,
+  "lambda_min": -0.015453710758023804,
+  "log10_mu_at_min": 17.439293233369447
+ },
+ "T12_agy_BC_crosscheck": {
+  "agy": {
+   "yt_MZ": 0.9513086443449649,
+   "lambda_MZ": 0.12889289757643616,
+   "mH_tree": 125.01214325172454,
+   "mt_pole": 174.04441599869367
+  },
+  "mine": {
+   "yt_MZ": 0.9513086857242169,
+   "lambda_MZ": 0.12889813036365017,
+   "mH_tree_sqrt(2lam)v": 125.01468084424448
+  },
+  "properly_matched_via_Buttazzo_eqs": {
+   "y_t(173.34)": 0.9138238784922504,
+   "lambda(173.34)": 0.11596072621059174,
+   "implied_Mt_pole": 169.33602261864993,
+   "implied_Mh_pole": 120.17940151229988,
+   "PDG": {
+    "Mt": "172.69 +- 0.30",
+    "Mh": "125.25 +- 0.17"
+   }
+  }
+ },
+ "T12_lookelsewhere_menu": {
+  "1/3": {
+   "yt2_M12": 0.3333333333333333,
+   "mH_tree_agy_style": 166.24,
+   "Mh_matched": 166.96,
+   "Mt_matched": 192.1
+  },
+  "1/4": {
+   "yt2_M12": 0.25,
+   "mH_tree_agy_style": 143.64,
+   "Mh_matched": 139.51,
+   "Mt_matched": 179.6
+  },
+  "1/phi^3": {
+   "yt2_M12": 0.23606797749978967,
+   "mH_tree_agy_style": 138.93,
+   "Mh_matched": 134.35,
+   "Mt_matched": 177.0
+  },
+  "1/5": {
+   "yt2_M12": 0.2,
+   "mH_tree_agy_style": 125.01,
+   "Mh_matched": 120.18,
+   "Mt_matched": 169.34
+  },
+  "1/(2 phi)": {
+   "yt2_M12": 0.3090169943749474,
+   "mH_tree_agy_style": 160.48,
+   "Mh_matched": 159.54,
+   "Mt_matched": 188.91
+  },
+  "1/6": {
+   "yt2_M12": 0.16666666666666666,
+   "mH_tree_agy_style": 109.31,
+   "Mh_matched": 106.11,
+   "Mt_matched": 160.71
+  },
+  "1/7": {
+   "yt2_M12": 0.14285714285714285,
+   "mH_tree_agy_style": 95.76,
+   "Mh_matched": 95.58,
+   "Mt_matched": 153.31
+  },
+  "1/8": {
+   "yt2_M12": 0.125,
+   "mH_tree_agy_style": 83.82,
+   "Mh_matched": 87.49,
+   "Mt_matched": 146.89
+  },
+  "1/phi^4": {
+   "yt2_M12": 0.14589803375031543,
+   "mH_tree_agy_style": 97.63,
+   "Mh_matched": 96.94,
+   "Mt_matched": 154.33
+  },
+  "1/(4 Vol)": {
+   "yt2_M12": 0.12315979482030136,
+   "mH_tree_agy_style": 82.47,
+   "Mh_matched": 86.65,
+   "Mt_matched": 146.17
+  },
+  "1/(2pi)": {
+   "yt2_M12": 0.15915494309189535,
+   "mH_tree_agy_style": 105.28,
+   "Mh_matched": 102.82,
+   "Mt_matched": 158.5
+  },
+  "1/pi^2*2": {
+   "yt2_M12": 0.20264236728467555,
+   "mH_tree_agy_style": 126.13,
+   "Mh_matched": 121.26,
+   "Mt_matched": 169.95
+  }
+ },
+ "T12_if_Mt_fixed_to_PDG": {
+  "required_yt2_M12": 0.21492679216922717,
+  "Mh_matched_with_lambda(M12)=0": 126.18144975840201
+ },
+ "T12_MZ_over_v": {
+  "agy": 0.3705732548641486,
+  "tree_with_PDG_MSbar_couplings": 0.3716544673175328,
+  "measured": 0.3703506198631994,
+  "note": "the tree relation itself misses by ~0.35% with exact PDG inputs; agy's 0.06% comes from compensating errors in its fitted alpha_em (+0.48%) and sin2thetaW"
+ },
+ "T13": {
+  "agy_rerun": {
+   "pauli_1_residue_abs_at_m3_m3": 1.6916566845156595e-17,
+   "mw_a0_independence_error": 1.047382306668854e-15,
+   "mw_formula_match_error": 3.469446951953614e-18,
+   "sin2_theta12_weinberg_minimal": 0.27696626411079633,
+   "sin2_theta23_weinberg_minimal": 0.00029284141101361286,
+   "sin2_theta13_weinberg_minimal": 0.013927595961508141,
+   "abs_J_pmns_weinberg_minimal": 0.00032852345171270614,
+   "n_haar_unitary_trials": 10,
+   "max_haar_unitary_scramble_error_on_pmns": 1.6653345369377348e-15,
+   "passes_guardrail3_basis_invariance": true,
+   "modular_seesaw_scale_comparison": {
+    "abs_b10_sq_at_tau_Golden": 0.021433820949561852,
+    "abs_quarter_eta6_at_tau_Golden": 0.004092119913954256,
+    "ratio_quarter_eta6_over_abs_b10_sq": 0.1909188251401301
+   }
+  },
+  "pulls_vs_NuFIT5.2_NO": {
+   "s12": -2.502811324100305,
+   "s13": -14.468578640164036,
+   "s23": -28.585357929449316
+  },
+  "docstring_vs_output": "docstring says |b10|^2 = 1.32049e-5 and |eta^6/4| = 4.55943e-3; output gives the values in agy_rerun"
+ }
+}
