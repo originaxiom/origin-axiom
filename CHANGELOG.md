@@ -1,5 +1,9 @@
 # Changelog
 
+## S293 THE OWNER'S WORD ON B1814's BLIND RERUN, RELAYED TO THE SM SEAT (2026-11-03)
+
+- The SM seat had answered main's invitation (2026-10-29) to rerun B1814's census blind 'at the owner's word'; the owner, 2026-11-03: "do it when u can". Relayed (docs/handoffs/CC_TO_SM_2026-11-03_B1814_BLIND_RERUN_THE_OWNERS_WORD.md): the verdicts to recover with their power; the web seat's rerun for comparison after the run. P-584; RELAY_LEDGER row. 0 of 19.
+
 ## S292 THE EARNED DICTIONARY: GENESIS v1.60 — A FRAME MAY EARN ITS DICTIONARY BY HELD-OUT PREDICTION (THE OWNER'S RULING ON P-580) (2026-11-03)
 
 - **The owner's ruling (P-580: "first decision is YES"), B1828, GENESIS v1.60 through adoption/amend.py:** an identification is EARNED BY PREDICTION within a frame when the frame is fixed on a sealed card before, at least two held-out quantities (THE_FINAL_ACTS_BAR's V list, untouched by the frame's building) are each PASSED by V, main recomputes and a hostile referee and a third opinion find no fault; scoped to the frame and revocable. A value so matched is PREDICTED, not a READING; build values stay inputs; DERIVED stays separate; GAP1's sentence and FK11's unearnability by derivation stand. Companions: IDENTIFICATION_LEDGER's status values, KIND_TABLE's note, FRAMING_LEDGER FL-20. P-580 DONE; P-577 (the look ledger) elaborated for the owner. No frame meets the rule yet. 0 of 19.

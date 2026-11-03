@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.60) of 2026-11-03 |
 | arcs with a verdict | 1532: 1044 PROVED, 382 NEGATIVE, 94 OPEN, 12 RETRACTED |
-| points in the register | 583: 254 open (queued, leads, waiting for the owner), 329 closed |
+| points in the register | 584: 255 open (queued, leads, waiting for the owner), 329 closed |
 | the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S292 THE EARNED DICTIONARY: GENESIS v1.60 — A FRAME MAY EARN ITS DICTIONARY BY HELD-OUT PREDICTION (THE OWNER'S RULING ON P-580) (2026-11-03) |
+| the last landing | S293 THE OWNER'S WORD ON B1814's BLIND RERUN, RELAYED TO THE SM SEAT (2026-11-03) |
 <!-- STATE:END -->
 
 ## Start here

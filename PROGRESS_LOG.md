@@ -18294,3 +18294,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 ## 2026-11-03 — S292 the earned dictionary (GENESIS v1.60)
 
 - The owner ruled YES on P-580: a frame may earn its dictionary by held-out prediction (B1828; six conditions under GAP1; a value so matched is PREDICTED). P-577 elaborated (the look ledger's options; its 0.01/m rule spends up to 4.6% in all at m = 53). 0 of 19.
+
+## 2026-11-03 — S293 B1814's blind rerun: the owner's word relayed
+
+- The SM seat may rerun B1814's census blind (the owner: "do it when u can"); relayed; P-584. 0 of 19.
