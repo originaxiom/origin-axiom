@@ -15,7 +15,7 @@ which the lab page embeds as `const LAB=...;`:
   census    W178's 266 lines: (a, b), order, zero channel, slowest kernel rate, the cusp pattern at both Re tau, the
             local exponents at Im tau 6-8, and the six per ladder height at Re tau 1/8
   w179      the down-lepton D ladder on (1/2, 1/5) with post hoc 1's heights, the data's 3-sigma window, the tau = i
-            values, and W180's frozen ladder and limits where its output is committed
+            values, W180's frozen ladder, and W181's exact cusp limits where their outputs are committed
   seats     this branch's relay ledger rows grouped by sending seat: rows, open, banked, escalated, latest day
 
     python3 -B docs/workdesk/build_lab.py --out /path/outside/the/record/lab_data.json
@@ -111,6 +111,11 @@ def w179():
         if g2:
             out["w180 frozen ladder"] = sorted([float(k), math.exp(v[2])]
                                                for k, v in g2["ln (r2, r1, D) at Im tau 64 per Y"].items() if v)
+    f = D / "the_exact_norm_limits.json"
+    if f.exists() and BI.git("ls-files", "--error-unmatch", str(f.relative_to(REPO))).strip():
+        w = json.loads(f.read_text(encoding="utf-8"))
+        out["w181 cells"] = w.get("cells")
+        out["w181 limits"] = [[r["line"], r["x"], r["D_inf"]] for r in w.get("per pair", []) if "D_inf" in r]
     return out
 
 
