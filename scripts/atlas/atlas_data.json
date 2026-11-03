@@ -15100,6 +15100,15 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1829": {
+   "slug": "genesis v1 61",
+   "motifs": [],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B182": {
    "slug": "multiplicity selection",
    "motifs": [

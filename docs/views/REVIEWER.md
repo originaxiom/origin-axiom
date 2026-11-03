@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1532** |
-| words of findings prose | **1,275,171** |
+| research arcs with findings | **1533** |
+| words of findings prose | **1,276,186** |
 | test lock files referenced | **931** |
-| arcs carrying an authored verdict | **1532** (100.0 %) |
+| arcs carrying an authored verdict | **1533** (100.0 %) |
 | recorded closures | **858** (691 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1044 |
+| PROVED | 1045 |
 | NEGATIVE | 382 |
 | OPEN | 94 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1828`** (662 words, 0 locks)  
-GENESIS v1.60 (the owner's ruling on P-580, 2026-11-03: YES): a frame may EARN its dictionary BY PREDICTION -- an identification is EARNED BY PREDICTION within a frame F when F is fixed on a sealed card before, at least two held-out quantities (THE_FINAL_ACTS_BAR's V list, untouched by F's building) are each PASSED by V (inside the stated 68% band, p_V < 0.01/m_V against F's pipeline over its whole menu), main recomputes and a hostile referee and a third opinion find no fault; scoped to F and revocable on a later NEGATIVE. A value so matched is PREDICTED, not a READING; build values stay FITTED/CHOSEN inputs; DERIVED stays separate; GAP1's sentence and FK11's unearnability by derivation stand. No frame meets it yet. 0 of 19.  
-`B1828_genesis_v1_60/FINDINGS.md`
+**PROVED — `B1829`** (787 words, 0 locks)  
+GENESIS v1.61 (the owner's ruling on P-577, 2026-11-03, 'agreed' to the owner's own tiered-bar proposal as main assessed it): where the joint look count applies, level 1 is a fixed screen (THE_BAR at p < 0.01 with every within-arc choice priced, no joint factor) that makes a CANDIDATE -- frozen, never cited as support, not a result -- and level 2, a confirmation by held-out prediction under GAP1's v1.60 rule, makes a result (PREDICTED); the ledger stays as the count of screens. Re-graded from the record: B1749 and B1753 are candidates (r 0.1-0.25% under B1798's null re-choosing c and the class); B1726, B1734, B1755, B1786 and three web-seat looks UNSETTLED (no fully matched null); all one family, THE SIX ON THE STRIP, about 0.5 false candidates expected by chance over 53 looks; the family already fails the mixing; its level 2 (P-585): y_b/y_t, theta-bar; y_tau/y_b not clean (scale-set). Nothing computed or compared. 0 of 19.  
+`B1829_genesis_v1_61/FINDINGS.md`
 
 **NEGATIVE — `B1825`** (1664 words, 0 locks)  
 THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings, continuous tau with Im tau in [1, 4], c = 3) no rigid address of FR-FIB carries our world's ten (the six mass ratios, |V_us|, |V_cb|, |V_ub|, |J|): the least chi2_ten is 291.4 against 23.21 (a fresh evaluation 291.5; refereed by an independent scan of every stored node). The six alone are reached (least chi2_six 1.36) and the four alone are reached (0.35 at a node), never together: no address whose six lie near the best reaches the four (rigorous enclosures), and K's bits_CKM is -194 (knowing our six makes the frame's prediction of our mixing 2^194 times worse). The wall was seen on narrower menus (B1713: masses and mixing together a factor 3.59; B1720: they do not meet); this seals it on the whole menu at sigma resolution. NOT FOUND within the reach; nothing excluded beyond it. 0 of 19.  

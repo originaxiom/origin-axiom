@@ -39,6 +39,26 @@ escalation are the proof).
   (the Maass material lives elsewhere) — repoint or rehome at next touch.
 - Rule: this list grows only from audited extraction (per the frozen body's split), never from memory.
 
+## The final attack's and the framing audit's instruments (2026-10-30 to 2026-11-03, B1825–B1829)
+
+- **Step B's generator** (the ten's targets and σ, the lepton factor as a log shift, χ² on continuous τ through rigorous cell
+  enclosures, K over the ten, p₂) — `scripts/stepb/` (`stepb_core.py`, `cells.py`, `kten.py`, `compression.py`); the σ-only file
+  `scripts/stepb/sigma/SIGMA_ONLY.json` (B1825).
+- **The frame's 4D-Higgs identities** (adj(S) = εSᵀεᵀ; Y(S, M) = −Y(adj S, Mᵀ)ᵀ; the order-5 relation Y_e(S) = −λY_d(adj S)ᵀ) and
+  importable helpers `M_of`, `S_of`, `adj` — `frontier/B1827_the_framing_ledger/verification/recheck/identities_and_order5.py`.
+- **The running control** (the test's own measured inputs run with the Standard Model's one-loop RGEs, full 3 × 3 Yukawas;
+  χ²_ten and K's price against M_Z at any scale; reproduces HZ2021's a and b at 10¹² GeV) —
+  `frontier/B1827_the_framing_ledger/verification/recognition/running_control.py`.
+
+**Three traps of the window.**
+- **Name a code coefficient by the frame's own relation, not by the group theory it resembles** (S291): on order-5 lines the
+  singlet's Clebsch relative to the triplet is κ = −k, so a lepton coefficient k = −3 is κ = +3, not SU(5)'s 45; a "control"
+  that does not reproduce exactly is mislabelled.
+- **Sweep the record for a law before calling it new** (S294): `topic_sweep.py "Y_e = Y_d"` finds B1728 and B1742, which had the
+  order-5 SU(5) relations and c = 3's Georgi–Jarlskog reading.
+- **An empty bin may be a degenerate point, not a null result** (S291): at a₀ = ±i√(h·h) the Higgs is null (det S = 0) and every
+  lightest state is massless (B1659's J4), so a hierarchy filter drops the whole phase.
+
 ## Instruments audited at landing (each run on the bench the day it is listed)
 
 - **B1238 (2026-09-02)** — `frontier/B1238_seat_harvest_40a3_bronze_octic/verification/`:

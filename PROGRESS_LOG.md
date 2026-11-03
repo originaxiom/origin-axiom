@@ -18298,3 +18298,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 ## 2026-11-03 — S293 B1814's blind rerun: the owner's word relayed
 
 - The SM seat may rerun B1814's census blind (the owner: "do it when u can"); relayed; P-584. 0 of 19.
+
+## 2026-11-03 — S294 the two-level bar (GENESIS v1.61)
+
+- The owner's tiered-bar proposal, assessed and ruled 'agreed' (B1829): a fixed screen makes a CANDIDATE, a held-out confirmation a result. Re-grade: one candidate family, THE SIX ON THE STRIP (B1749, B1753; seven UNSETTLED). P-585, P-586. 0 of 19.

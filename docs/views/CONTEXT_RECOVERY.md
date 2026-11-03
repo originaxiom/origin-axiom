@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1532 |
-| … PROVED | 1044 |
+| arcs with a verdict file | 1533 |
+| … PROVED | 1045 |
 | … NEGATIVE | 382 |
 | … OPEN | 94 |
 | … RETRACTED | 12 |
-| register points | 584 |
-| … QUEUED | 239 |
+| register points | 586 |
+| … QUEUED | 240 |
 | … LEAD | 10 |
-| … OWNER | 6 |
-| … DONE | 320 |
+| … OWNER | 5 |
+| … DONE | 322 |
 | … DECLINED | 9 |
 | harvest rows (the last number) | 1514 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1829 | PROVED | GENESIS v1.61 (the owner's ruling on P-577, 2026-11-03, 'agreed' to the owner's own tiered-bar proposal as main assessed it): where the joint look count applies, level 1 is a fixed screen (THE_BAR at p < 0.01 with every… |
 | B1828 | PROVED | GENESIS v1.60 (the owner's ruling on P-580, 2026-11-03: YES): a frame may EARN its dictionary BY PREDICTION -- an identification is EARNED BY PREDICTION within a frame F when F is fixed on a sealed card before, at least… |
 | B1827 | OPEN | THE FRAMING LEDGER (the owner's exercise, 2026-11-03; OPEN, an audit): eighteen framing commitments inventoried from five readers (docs/FRAMING_LEDGER.md), then the question itself and its recognition audited (S291, § G… |
 | B1826 | PROVED | THE AGY LANE'S NOVEMBER WORK, VERIFIED ON MAIN (agy/audit-2026-11-02, 16 commits from main's 64a2a3d4e; with the physical-bridge lane's source review and the independent audit lane's recomputation): three results kept,… |
@@ -42,7 +43,6 @@
 | B1820 | PROVED | THE RIGID CENSUS'S CURVATURE ALONG Re TAU AND ITS REFINEMENT LIST (Step B's revision, P-521; aggregates and indices only; data-free): along Re tau the grid is the coarse one -- 7.75% of curvatures exceed 0.08 decades (I… |
 | B1819 | PROVED | THE RIGID CENSUS'S SMOOTHNESS IN TAU (Step B's revision, P-521; aggregates only; data-free): on B1726's grid the frame's outputs are smooth in Im tau almost everywhere -- median second difference 0.0008 decades, 99% bel… |
 | B1817 | NEGATIVE | THE FRAME'S OWN LEPTON/DOWN FACTOR AT THE CUSP (strand A's A1; P-397; data-free; refereed hostile, PASS WITH CORRECTIONS): on the slopes of order <= 30 with equal down/lepton second-generation exponents, every converged… |
-| B1816 | PROVED | THE CANONICAL END'S ACCESSORY PARAMETER IS A WEIL-PETERSSON PRIMITIVE (P-481; data-free; refereed hostile, PASS WITH CORRECTIONS): on its uniformising branch B1667's accessory parameter satisfies dC/d(tau-bar) = i h_WP(… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -51,11 +51,11 @@
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
 - ** P-303** — PF1-W read on each Higgs field or on each sector's mass determinant? (the web seat's W133 check §5–§6, row 1316). On a parity-diagonal coupling the two are the same condition; but no combination of two or more zero-free… → *asked of the owner: which reading of PF1-W (each Higgs field, or each sector's determinant) the record adopts; main's recommendation to follow with P-300's ver…*
 - ** P-335** — the owner's calls the sweep surfaced: L178 (the tone crossing) — retire by the math?; L248 §8 (retire, or the L240 reader's probe later); COMPUTE_THE_PROGRAM — rewrite for the weave or freeze; L161's realisation — commi… → *asked of the owner with the next report*
-- ** P-577** — THE LOOK HORIZON (FL-24, A6 R4): one joint look ledger; the gate log₂(m/0.01) meets an exact hit's median C_ten (13.4 bits) at m ≈ 108 (now 53) — past it a correct frame fails K more often than not → *asked: keep one ledger, split it per question, or price looks by the information they spend (THE_BAR's choice) **Elaborated for the owner, 2026-11-03:** the le…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
-- ** P-583** (2026-11-03) — THE LEPTONS READ THE ADJUGATE (S291, exact on all 24 order-5 lines): M_e = λM_dᵀ (λ⁵ = 1) and Y_e(S) = −λY_d(adj S)ᵀ — the reading that balances the CKM's corners (down reads adj S, P-566) is, on the…
+- ** P-585** (2026-11-03) — THE CANDIDATE FAMILY'S CONFIRMATION (B1829's re-grade): THE SIX ON THE STRIP (FR-FIB on the order-10 lines (2/5, b), Im τ ≈ 3.0, (S̃, S, S), c = 3; candidates B1749, B1753) — about 0.5 false candidat…
+- ** P-583** (2026-11-03) — THE LEPTONS READ THE ADJUGATE (S291, exact on all 24 order-5 lines; M_e = λM_dᵀ is B1728's law, credited at S294): M_e = λM_dᵀ (λ⁵ = 1) and Y_e(S) = −λY_d(adj S)ᵀ — the reading that balances the CKM'…
 - ** P-582** (2026-11-03) — EXISTENCE BEFORE SEALED LOOKS (A6 Q-EXIST; with P-563): B1713 (factor 3.59) and B1720 (6.5) had shown masses and mixing apart before B1825 spent look 53 on the same obstruction (291 against 23.21)
 - ** P-579** (2026-11-03) — THE EXISTENTIAL QUESTION (the owner, 2026-11-03: 'are we making the proper existential question, could we identify the answer'; FL-19): the headline '0 of 19' counts Tier 4, which WHAT_WOULD_COUNT ma…
 - ** P-576** (2026-11-03) — THE FRAME'S OWN LENGTH (FL-23, A6 CE-4): K never charges the frame's description; FR-FIB's H-cov branch carries about 15 bits searched on the data (THE_FINAL_ACTS_BAR l. 193); a frame planted to cont…
@@ -79,10 +79,10 @@
 - ** P-523** (2026-10-30) — THE VACUITY CALIBRATION AND THE CONTROLS (the pre-seal review, B2 and its controls): on the real census with the record's allowances, every criterion must be shown able to fail given support; the dec…
 - ** P-522** (2026-10-30) — THE CKM LEG DEFINED (the pre-seal review, B5): 'the CKM predicted from the six's address' has no tie rule (8-digit and full-precision rows mixed; ties to 1e-15 on record, B1811), no rule for undefine…
 - ** P-521** (2026-10-30) — THE τ GRID FAILS THE RESOLUTION CHECK (the pre-seal review, B4; INPUT_COMPLETENESS row 13): B1726's 90-point grid is at least 4.5 times too coarse in Im τ for the record's illustrative resolution; on…
-- ** P-520** (2026-10-30) — THE GENERATOR'S PRE-SEAL REVIEW: NO GO (main's hostile pre-seal reviewer of STEP_B_GENERATOR_DESIGN, synthetic targets only, no census value and no measured value opened; checked by main): the declar…
 
 ## The last landings (CHANGELOG)
 
+- S294 THE TWO-LEVEL BAR: GENESIS v1.61 — A FIXED SCREEN MAKES A CANDIDATE, ONLY A HELD-OUT CONFIRMATION MAKES A RESULT (THE OWNER'S RULING ON P-577) (2026-11-03)
 - S293 THE OWNER'S WORD ON B1814's BLIND RERUN, RELAYED TO THE SM SEAT (2026-11-03)
 - S292 THE EARNED DICTIONARY: GENESIS v1.60 — A FRAME MAY EARN ITS DICTIONARY BY HELD-OUT PREDICTION (THE OWNER'S RULING ON P-580) (2026-11-03)
 - S291 THE RECHECK AND THE RECOGNITION AUDIT: ONE S290 CLAIM RETRACTED; WOULD WE KNOW THE ANSWER? NOT AS THE TESTS ARE BUILT (2026-11-03)
@@ -90,11 +90,10 @@
 - S289 THE FRAMING LEDGER (B1827): WHAT THE PROGRAMME EXCLUDES BY THE WAY IT IS FRAMED (2026-11-03)
 - S288 THE AGY LANE's REPORTS READ IN FULL; ITS FRAMING RULED; THE MIRROR RULE CLOSED FOR THE CKM (2026-11-03)
 - S287 THE SEATS FETCHED; THE AGY LANE's NOVEMBER WORK VERIFIED ON MAIN (B1826): THREE RESULTS KEPT, EVERY 'PARAMETER-FREE' CLAIM DECLINED (2026-11-03)
-- S286 B1825 NEGATIVE AS SEALED: NO SUPPORT. THE FRAME MAKES OUR MASS RATIOS AND OUR MIXING, NEVER AT ONE ADDRESS (2026-10-31)
 
 ## The latest campaign line
 
-LATEST (2026-11-03, S292: the owner ruled that a framework may earn its link to physics by predicting numbers it never used — the foundation document now says so (version 1.60, B1828). Until now even a correct framework could only ever be recorded as a reading; from now on, two independent held-out predictions that pass, verified, turn its matches into predictions that count. The rule is strict and revocable. Nothing meets it yet. 0 of 19.)
+LATEST (2026-11-03, S294: on the owner's own proposal, the bar no longer rises with every attempt. A first, fixed level flags a candidate; only a second level — predicting numbers never used — makes a result (foundation document version 1.61, B1829). Re-grading all 53 past attempts finds one candidate: the framework's fit of the six mass ratios on one strip of its parameter space. Chance alone would give about half a candidate, and the same framework already fails the quark mixing, so it is a lead to test on untouched numbers, not a result. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

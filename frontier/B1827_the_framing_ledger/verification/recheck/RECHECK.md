@@ -33,3 +33,5 @@ S290 (B1827 § 2 and its dated note; docs/FRAMING_LEDGER.md § D; P-566) re-deri
   (the 4D check at k = −1 in down_lepton_relation_out.txt agrees to 1.6 × 10⁻¹²).
 The first seven lines of down_lepton_relation_out.txt repeat V3's summary: the module was imported before its checks were
 guarded by `__main__` (they now are; importing no longer re-runs them).
+
+**Seen first, paid late (S294).** M_e = λM_dᵀ and the order-5 SU(5) relations are B1728's derived law (and B1698, B1703); c = 3 as Georgi–Jarlskog's factor is B1742's P-355. New here: the singlet's sign under the swap (the adjugate form) and the retraction of the 45-like split.

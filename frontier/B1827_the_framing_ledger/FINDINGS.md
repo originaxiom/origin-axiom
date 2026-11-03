@@ -119,3 +119,15 @@ singlet odd between the sectors is the first open test (P-566).
 >   against the GUT class). Sharpened by main: B1786's m·r was already 0.0099–0.0112 at m = 41.
 > - Main's reading of the question, the triggers that would reshape the foundations, and what is the owner's: the ledger's
 >   § G. P-566 updated; P-572 sharpened; P-574–P-583. Nothing here is compared with a frame output. **0 of 19.**
+
+> *2026-11-03, latest (S294; SEEN FIRST, owed and paid late).* Three statements of this arc were on record before it and
+> were presented here without their sources: **(1)** "on order-5 lines the frame is minimal SU(5) — Y_u symmetric, Y_e =
+> Y_dᵀ" is **B1728's** derived law (PROVED, 2026-10-23: a charge shift by the line's order is one phase, the left–right swap
+> transposes, so d = e on order 5 with Y_e = Y_dᵀ) with B1698 and B1703's census (docs/LAW_MAP.md, "WHICH LINES SPLIT THE
+> CHARGED SECTORS"); **(2)** "c = 3 is the Georgi–Jarlskog Clebsch by hand" is **B1742's** P-355 ("with c = 3 a fit there is
+> Georgi–Jarlskog's by construction and D = 9"); **(3)** S291's M_e = λM_dᵀ, λ⁵ = 1, is B1728's phase law, which S292's
+> law-map row wrongly called unproved (corrected). What is new here is narrower: the singlet's sign under the swap,
+> Y(y, x; S) = −Y(x, y; adj S)ᵀ — B1728 stated the span(i, j, k) case and noted that its control S = 1 "breaks it"; the adjugate
+> is the law that joins the two — and everything S289–S291 computed about the CKM's corners and the 45. The miss: the
+> claims were checked against the code but the record was not swept for them first (`topic_sweep.py "Y_e = Y_d"` finds
+> B1728 and B1742).*
