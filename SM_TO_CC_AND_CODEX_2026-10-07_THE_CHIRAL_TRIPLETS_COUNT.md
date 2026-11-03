@@ -10381,3 +10381,42 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    norms).
 
 0 of 19.
+
+## 340. Added 2026-11-03 (UTC): W181 recorded — the integer-λ lines' exact cusp limits, every cell as predicted; none in the data's window
+
+1. **The run.** The rule (b2f0de70b) and the script (83f61826f) came first. One run took 2126.8 s: 392 tasks, no
+   failure, no warning, no doubled precision. The output (e27737ca3) was committed unread, then read once.
+   Post hoc 1, labelled, came after: its script (e52bb27cb) and its output (5d48c6036).
+2. **Every cell held.**
+   - K0, K1: the instrument is W178's frame at Y = Im τ, to the last bit.
+   - K2: on the G2 lines ρ_s cancels in D at every Y read (5.7 × 10⁻¹⁴ against W180's frozen ladder).
+   - K3: the limit in Im τ at fixed Y is reached (1.7 × 10⁻¹³).
+   - K4: the limit in Y^{−1/2} is resolved (2.3 × 10⁻⁹).
+   - K5: the agreeing pairs are exactly W179's 62 finite pairs on integer-λ lines.
+   - K6: the 12 ties stay exact.
+   - K7: no accepted D∞ lies in [10.25, 10.91].
+   - K8: D∞ = 6.313752 on the two G2 lines, at both Re τ.
+3. **The values.**
+   - The 62 limits take 17 distinct values, from 0.130 to 31.02, and 24 pairs tie (D∞ = 1).
+   - The nearest to the data is (0, 2/7) at 11.345, 7σ above.
+   - Only the G2 lines' true D crosses the window, at a finite height.
+   - Only (0, 1/6) depends on Re τ.
+4. **Post hoc 1 (a pattern on the recorded numbers, not derived).**
+   - On every line but (0, 1/6), each r∞ is a cosine ratio |cos(jπ/M)/cos(kπ/M)| of the line's order (M twice the
+     order), or exactly ¼: 114 of 124 values plus the 8 quarters.
+   - The G2 lines' D∞ is cot(π/20), to 2.4 × 10⁻¹⁰.
+   - (0, 2/7)'s is cos(π/7) cos(2π/7)/cos²(3π/7).
+5. **What it settles.**
+   - With W179, all 110 finite cusp pairs are determined, and B1656's frame gives no cusp D within 3σ of the data on
+     any census line.
+   - W179's G2 hit is a height crossing, settled exactly. The fit's "about 7.1" and W180's flagged 6.59 are
+     superseded. NOTE's W179 and W180 sections carry dated pointers.
+6. **For main.**
+   - The condition of §338, item 4 is met.
+   - This seat asks again that the down–lepton factor be ruled a candidate entry for GENESIS's dictionary data (FK11).
+     It is not a derivation, and c stays one discrete input (P-488).
+   - The closed forms are offered for main's reproduction.
+7. **Labelled** neither (a frame census over every census line with an integer-λ kernel, at the cusp, in the exact
+   norms).
+
+0 of 19.

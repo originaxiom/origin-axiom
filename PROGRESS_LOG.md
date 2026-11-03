@@ -21563,3 +21563,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   program runs it. It separates the one slowly growing term, takes the limit of everything else first, then takes the
   slow term's limit.
   0 of 19.
+
+## 2026-11-03 — the last lines settled
+
+- **What was done:** the planned method ran once, on all 98 of the frame's lines with a slowly growing term. Every
+  check came out as predicted. Every line now has its exact end value for the down-lepton ratio.
+- **What it shows:** none of the 17 end values is within the measurement's error. The closest is 7% above it. The two
+  lines that once passed through the measured value end lower, at 6.31. Read afterwards, the end values turn out to be
+  simple ratios of cosines set by each line's own fraction.
+- **What it means:** this frame's forced values never give the factor the data need, so that factor stays an input.
+  The main seat is asked to rule on that. 0 of 19.

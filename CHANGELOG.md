@@ -1,5 +1,19 @@
 # Changelog
 
+## W181 run: the integer-λ lines' exact cusp limits; every cell as predicted, none in the data's window (relay §340)
+
+- **The order:** the rule and the script first; one run, its output committed unread; one labelled post hoc,
+  committed before its run, its output committed unread.
+- **The cells:** K0–K8 all held. All 62 agreeing pairs have an accepted D∞, 17 distinct values, none within 3σ of
+  10.58. The nearest, (0, 2/7) at 11.345, is 7σ above; the two G2 lines go to 6.3138.
+- **Post hoc 1:** on every line but (0, 1/6) the limits are cosine ratios of the line's order (the G2 lines' D∞ is
+  cot(π/20)); (0, 1/6) is the one line whose limit depends on Re τ.
+- **What it settles:** with W179 all 110 finite cusp pairs are determined; B1656's frame gives no cusp D in the
+  data's window on any census line. The ask for GENESIS FK11 goes to main again.
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W181 section and row; dated pointers in W179 and W180),
+  `docs/dossiers/the_weave_2026-10-07/W_VERDICTS.json`, `tests/test_b1552_the_chiral_triplets_count.py`
+  (`test_w181_the_exact_norm_limits`), relay §340, the ledger row, the state page. 0 of 19.
+
 ## W181's rule, committed before its script: the cusp limits on the integer-λ lines in the exact norms (relay §339)
 
 - **The occasion:** relay §338, item 6. The 46 unsettled pairs (23 lines) that W179 and W180 left undetermined, where

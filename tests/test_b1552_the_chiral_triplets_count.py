@@ -5720,3 +5720,47 @@ def test_w180_the_integer_lambda_limits():
                 assert abs(abs(lam) - 0.5) < 1e-12 and 1e-67 < diff < 1e-63
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W180. The cusp limits on the integer-λ lines" in note
+
+
+def test_w181_the_exact_norm_limits():
+    """W181: every cell as predicted; in process, Neville's extrapolation of the G2 lines' stored ladder at Im tau 128
+    to u = 0, the tie of the y-limit, no limit in the data's window, and post hoc 1's closed forms (cot(pi/20) on the
+    G2 lines, cos(pi/7) cos(2 pi/7) / cos^2(3 pi/7) on (0, 2/7)), with (0, 1/6) the one line that depends on Re tau"""
+    import math
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_exact_norm_limits.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {c: True for c in ("K0", "K1", "K2", "K3", "K4", "K5", "K6", "K7", "K8")}
+    assert d["tasks"] == 392 and d["failed tasks"] == [] and d["warnings"] == [] and "run_failed" not in d
+    assert d["pairs"] == {"lines": 49, "pairs": 98} and d["K0"]["features compared"] == 588
+    assert d["subsets (W179)"] == {"unsettled (G0)": 50, "settled": 12, "finite on integer-lambda lines": 62,
+                                   "running": 36}
+    assert d["K7"]["accepted D_inf"] == 62 and not d["K7"]["hits"]
+    assert len(d["R: distinct accepted D_inf (to 1e-6)"]) == 17
+    lo, hi = d["K7"]["window"]
+    acc = [r for r in d["per pair"] if "D_inf" in r]
+    assert len(acc) == 62 and not any(lo <= r["D_inf"] <= hi for r in acc)
+    ext = ("256.0", "1024.0", "4096.0", "16384.0", "65536.0", "262144.0")
+    for r in acc:
+        top = r["ln (r2, r1, D) per height and Y"]
+        assert max(abs(top["128.0"][y][2] - top["96.0"][y][2]) for y in top["128.0"]) < 1e-12
+        if r["line"] in (["1/2", "1/5"], ["1/2", "3/10"]):
+            us, vs = [float(y) ** -0.5 for y in ext], [top["128.0"][y][2] for y in ext]
+            P = list(vs)
+            for m in range(1, len(us)):
+                for i in range(len(us) - m):
+                    P[i] = (-us[i + m] * P[i] + us[i] * P[i + 1]) / (us[i] - us[i + m])
+            assert abs(P[0] - r["N6 (ln r2, ln r1, ln D)"][2]) < 1e-12
+            assert abs(math.exp(P[0]) - 1 / math.tan(math.pi / 20)) < 1e-8
+        if r["line"] == ["0", "2/7"]:
+            c = [math.cos(k * math.pi / 7) for k in (1, 2, 3)]
+            assert abs(r["D_inf"] - c[0] * c[1] / c[2] ** 2) < 1e-7
+    nearest = d["R: ten nearest to the data's D"][0]
+    assert nearest[0] == ["0", "2/7"] and abs(nearest[2] - 11.344814) < 1e-5
+    p = json.loads((here / "the_exact_norm_limits_posthoc.json").read_text(encoding="utf-8"))
+    assert (p["r2_inf: matched"], p["r1_inf: matched"], p["D_inf: matched"]) == (54, 60, 44)
+    assert all(abs(v - 0.25) < 1e-10 for _l, _x, v in p["r2_inf: not matched (line, x, value)"])
+    assert {tuple(w[0]) for w in p["r1_inf: not matched (line, x, value)"]} == {("0", "1/6")}
+    assert p["lines whose D_inf differs between the two Re tau (> 1e-6)"][0][0] == ["0", "1/6"]
+    assert len(p["lines whose D_inf differs between the two Re tau (> 1e-6)"]) == 1
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W181. The cusp limits on the integer-λ lines in the exact norms" in note
