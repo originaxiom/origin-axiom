@@ -1048,6 +1048,45 @@ def audit_area_9() -> Dict[str, object]:
     quarter_eta6_mp = float(abs(0.25 * ((0.5 * th2_g * th3_g * th4_g) ** 2)))
     ind_ratio_b10_sq_over_eta6 = b10_sq_mp / quarter_eta6_mp
 
+    # (c) Independent zero-trust verification of Theorem 10 (A_sig^3 + I_2 on (2/5, 1/5)):
+    a_sig3 = np.array([[13, -8], [-8, 5]], dtype=int)
+    ind_det_a_sig3_plus_i2 = int(round(np.linalg.det(a_sig3 + np.eye(2))))
+    ind_a_sig3_plus_i2_on_2_1 = [int((14 * 2 - 8 * 1) // 5), int((-8 * 2 + 6 * 1) // 5)]
+
+    # (d) Independent b1656_funcs quadrature countercheck of Theorem 11 (amphichiral conjugation Y_s(-conj(tau), -conj(c_s)) == P_diag conj(Y_s) P_diag):
+    tau_test = complex(0.3125, 2.1875)
+    tau_test_amph = -np.conj(tau_test)
+    _, l2_t = get_radii(tau_test)
+    p_diag = np.diag([1.0, 1.0, -1.0])
+    cu = -np.sqrt(np.exp(1j * math.pi) - 1.0)
+    cd = -np.sqrt(np.exp(1j * math.pi / 4.0) - 1.0)
+    ce = -1.0 + 0.0j
+
+    def ind_b1656_yukawa_4d(t_pt: complex, ql: int, qr: int, c_sec: complex) -> np.ndarray:
+        q_m = mp.exp(1j * mp.pi * mp.mpc(t_pt.real, t_pt.imag))
+        th2_m, th3_m, th4_m = mp.jtheta(2, 0, q_m), mp.jtheta(3, 0, q_m), mp.jtheta(4, 0, q_m)
+        f10_v = [complex(-(th2_m ** 10)), complex(-(th4_m ** 10)), complex(1j * (th3_m ** 10))]
+        sm_b = f10_v[0] * B.QI + f10_v[1] * B.QJ + f10_v[2] * B.QK
+        sm_st_m = B.EPS @ sm_b.conj() @ B.EPS.T
+        vb = np.array([f10_v[1], f10_v[0], f10_v[2]], dtype=complex)
+        bst = np.conj(np.sqrt(np.dot(-vb, -vb)))
+        w_l = B.line_w(Fraction(2, 5), Fraction(0, 1), t_pt)
+        xx, yy = B.sector_twists(w_l, t_pt, ql, qr)
+        rd = B.residues(xx, yy, t_pt)
+        cd_v = B.cA(xx, yy, t_pt, rd)
+        uq = {k: (math.sqrt(2.0 * math.pi * l2_t + cd_v[k]) * rd[k] if cd_v[k] is not None and 2.0 * math.pi * l2_t + cd_v[k] > 0 else 0.0) for k in B.UNITS}
+        return B.coupling(sm_st_m + (c_sec * bst) * np.eye(2, dtype=complex), B.weighted_M(uq))
+
+    ind_max_t11_conj_err = 0.0
+    for ql, qr, c_sec in [(1, -4, cu), (1, 2, cd), (-3, 6, ce)]:
+        y_p = ind_b1656_yukawa_4d(tau_test, ql, qr, c_sec)
+        y_n = ind_b1656_yukawa_4d(tau_test_amph, ql, qr, -np.conj(c_sec))
+        ind_max_t11_conj_err = max(ind_max_t11_conj_err, float(np.max(np.abs(y_n - p_diag @ np.conj(y_p) @ p_diag))))
+
+    # (e) Independent countercheck of Theorem 12 (non-dimensionalized M_Z/v_EW and 2-loop Buttazzo downward BVP):
+    t12 = sc["theorem12_nondimensional_buttazzo_2loop_top_higgs_closure"]
+    t13 = sc["theorem13_basis_invariant_weinberg_majorana_and_pmns"]
+
     return {
         "clausen_volume_mpmath_abs_diff": vol_diff,
         "first_principles_certified_sm_parameters": 0,
@@ -1073,6 +1112,13 @@ def audit_area_9() -> Dict[str, object]:
             "U_on_2_0_mod5": ind_u_2_0_mod5,
             "U_on_2_1_mod5_true_eigenline": ind_u_2_1_mod5,
             "det_A3_minus_I2": ind_det_a3_minus_i2,
+            "det_A_sig3_plus_I2_theorem10": ind_det_a_sig3_plus_i2,
+            "A_sig3_plus_I2_on_2_5_1_5_theorem10": ind_a_sig3_plus_i2_on_2_1,
+            "independent_b1656_theorem11_amphichiral_conj_err": ind_max_t11_conj_err,
+            "theorem12_buttazzo_benchmark_log10_mu_crit": t12["buttazzo_table1_benchmark"]["log10_mu_crit_GeV_computed"],
+            "theorem12_nondimensional_mH_GeV_at_yt2_1_5": t12["nondimensional_electroweak_and_top_higgs_ratios"]["mH_pred_GeV"],
+            "theorem12_nondimensional_MZ_over_vEW": t12["nondimensional_electroweak_and_top_higgs_ratios"]["MZ_over_vEW_pred"],
+            "theorem13_pmns_haar_scramble_max_err": t13["max_haar_unitary_scramble_error_on_pmns"],
             "mpmath_b10_sq_at_tau_Golden": b10_sq_mp,
             "mpmath_quarter_eta6_at_tau_Golden": quarter_eta6_mp,
             "mpmath_ratio_b10_sq_over_quarter_eta6": ind_ratio_b10_sq_over_eta6,

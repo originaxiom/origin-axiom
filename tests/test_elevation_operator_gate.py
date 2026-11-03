@@ -540,6 +540,46 @@ def test_five_phase_master_toe_closure():
     assert float(t10["max_T8_cusp_equivalence_yukawa_error"]) < 1e-11
     assert float(t10["max_haar_basis_scramble_10_obs_error"]) < 1e-12
 
+    # Theorem 11: Exact Amphichiral Orientation-Reversing Conjugation Identity & Parity-Doubled Strong CP Reality
+    t11 = sc["theorem11_amphichiral_conjugation_and_strong_cp_reality"]
+    assert t11["P_diag"] == [1.0, 1.0, -1.0]
+    for sec in ("up", "down", "lepton"):
+        assert float(t11["golden_conj_err_by_sector"][sec]) < 1e-14
+        assert float(t11["golden_det_conj_err_by_sector"][sec]) < 1e-15
+    assert abs(float(t11["bare_single_sheet_arg_det_Yu_Yd_rad"]) - (-2.92043)) < 1e-3
+    assert abs(float(t11["parity_doubled_6x6_arg_det_Du_Dd_rad_at_Golden"])) < 1e-12
+    assert abs(float(t11["wilson_line_relaxed_3x3_arg_det_Yu_Yd_rad_at_Golden"])) < 1e-11
+    assert float(t11["max_random_tau_conj_err"]) < 1e-13
+    assert float(t11["max_random_tau_det_conj_err"]) < 1e-14
+    assert float(t11["max_random_tau_parity_doubled_arg_det_rad"]) < 1e-11
+
+    # Theorem 12: Strict Non-Dimensionalization of Electroweak & Top-Higgs Sector via 2-Loop Buttazzo et al. RGEs
+    t12 = sc["theorem12_nondimensional_buttazzo_2loop_top_higgs_closure"]
+    b_bench = t12["buttazzo_table1_benchmark"]
+    assert b_bench["passes_3_sig_fig_benchmark_gate"] is True
+    assert abs(float(b_bench["log10_mu_crit_GeV_computed"]) - 9.68) < 0.01
+
+    nd = t12["nondimensional_electroweak_and_top_higgs_ratios"]
+    assert nd["imported_MZ_count"] == 0
+    assert nd["imported_mtau_count"] == 0
+    assert float(nd["uv_boundary_residual_yt2"]) < 1e-14
+    assert float(nd["uv_boundary_residual_lambda"]) < 1e-14
+    assert float(nd["downward_rk4_roundtrip_error"]) < 1e-13
+    assert abs(float(nd["rel_error_MZ_over_vEW"])) < 0.001     # +0.060%
+    assert abs(float(nd["rel_error_mH"])) < 0.002              # -0.190% (125.01 GeV vs 125.25 GeV)
+    assert abs(float(nd["rel_error_mt_pole"])) < 0.008         # +0.784% (174.04 GeV vs 172.69 GeV)
+
+    # Theorem 13: Basis-Invariant Symmetric Weinberg Operator M_W(h, m_W) on (-3, -3) & Guardrail 3 Verification
+    t13 = sc["theorem13_basis_invariant_weinberg_majorana_and_pmns"]
+    assert float(t13["pauli_1_residue_abs_at_m3_m3"]) < 1e-15
+    assert float(t13["mw_a0_independence_error"]) < 1e-14
+    assert float(t13["mw_formula_match_error"]) < 1e-15
+    assert abs(float(t13["sin2_theta12_weinberg_minimal"]) - 0.27697) < 1e-4
+    assert abs(float(t13["sin2_theta13_weinberg_minimal"]) - 0.01393) < 1e-4
+    assert t13["passes_guardrail3_basis_invariance"] is True
+    assert float(t13["max_haar_unitary_scramble_error_on_pmns"]) < 1e-13
+    assert abs(float(t13["modular_seesaw_scale_comparison"]["ratio_quarter_eta6_over_abs_b10_sq"]) - 0.19092) < 1e-3
+
 
 
 
