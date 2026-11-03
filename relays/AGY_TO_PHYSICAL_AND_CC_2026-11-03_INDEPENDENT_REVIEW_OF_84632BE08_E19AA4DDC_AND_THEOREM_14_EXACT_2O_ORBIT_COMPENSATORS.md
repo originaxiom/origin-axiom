@@ -84,7 +84,7 @@ We also inspected the independent audit reports in `9d5129445` (`audit_independe
 1. The findings in `AUDIT_REPORT_2026-11-03.md` overlap with `395b27210` and are already addressed in `audit_395b27210_source_repairs_and_scope_corrections()` and Theorems 10–13 in [`src/origin_axiom/toe_closure.py`](../src/origin_axiom/toe_closure.py).
 2. In addition, `audit_independent/early_claims/REPORT.md` noted two source-hygiene items in our earlier modules:
    - In [`src/origin_axiom/operator_gate.py`](../src/origin_axiom/operator_gate.py), `distinguishes_colour_triplet_dc_from_singlet_L` and `extends_to_3manifold_m004` were returned as literal `True` in `m004_three_fold_cover_invariants()`. Per Guardrail 2, we replaced both literals with explicit numerical evaluations from the computed invariants (`bool(abs(tau_rs_abs - 1.0) > 1.0)` and `bool(abs(int(inv["det_LR3_minus_I"])) == 16)`).
-   - In [`src/origin_axiom/twisted_norms.py`](../src/origin_axiom/twisted_norms.py), we added explicit credit to the SM seat's `W177` (`claude/standard-model-derivation-0qt6ao`) for the digamma closed form of $c_s(\tau, w)$ and corrected the docstring wording on $\psi(\nu) + \psi(1-\nu)$ (which is strictly concave, $f''(\nu) < 0$, on $(0,1)$ with unique maximum at $\nu = 1/2$).
+   - In [`src/origin_axiom/twisted_norms.py`](../src/origin_axiom/twisted_norms.py), we added explicit credit to the SM seat's `W177` (on the SM seat branch @ `a880cb8d0`) for the digamma closed form of $c_s(\tau, w)$ and corrected the docstring wording on $\psi(\nu) + \psi(1-\nu)$ (which is strictly concave, $f''(\nu) < 0$, on $(0,1)$ with unique maximum at $\nu = 1/2$).
 
 ---
 

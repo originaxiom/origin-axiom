@@ -1084,9 +1084,10 @@ def audit_area_9() -> Dict[str, object]:
         ind_max_t11_conj_err = max(ind_max_t11_conj_err, float(np.max(np.abs(y_n - p_diag @ np.conj(y_p) @ p_diag))))
 
     # Independent 40-digit mpmath verification of F(tau) = theta_2^20 + theta_4^20 - theta_3^20 = -80 eta^12 E_4:
-    f_tau_mp = (th2_mp ** 20) + (th4_mp ** 20) - (th3_mp ** 20)
-    e4_mp = ((th2_mp ** 8) + (th3_mp ** 8) + (th4_mp ** 8)) / 2
-    rhs_e4_mp = -80 * (eta_mp ** 12) * e4_mp
+    f_tau_mp = (th2_g ** 20) + (th4_g ** 20) - (th3_g ** 20)
+    e4_mp = ((th2_g ** 8) + (th3_g ** 8) + (th4_g ** 8)) / 2
+    eta3_g = (th2_g * th3_g * th4_g) / 2
+    rhs_e4_mp = -80 * (eta3_g ** 4) * e4_mp
     ind_f10_norm_e4_diff_mp = float(abs(f_tau_mp - rhs_e4_mp))
 
     # (e) Independent midpoint-rule ODE countercheck of Theorem 12 (Buttazzo et al. arXiv:1307.3536v4 eq. 99):
@@ -1165,12 +1166,13 @@ def audit_area_9() -> Dict[str, object]:
         t_mid += dt_mid
 
     # Independent b1656_funcs check of Theorem 13 (-3, -3) Weinberg LL channel norms:
-    w_eig_b = B.line_w(Fraction(2, 5), Fraction(1, 5), tau_g)
-    xx_ll, yy_ll = B.sector_twists(w_eig_b, tau_g, -3, -3)
-    rd_ll = B.residues(xx_ll, yy_ll, tau_g)
-    ca_ll_b1656 = B.cA(xx_ll, yy_ll, tau_g, rd_ll)
+    tau_g_c = complex(float(tau_g.real), float(tau_g.imag))
+    w_eig_b = B.line_w(Fraction(2, 5), Fraction(0, 1), tau_g_c)
+    xx_ll, yy_ll = B.sector_twists(w_eig_b, tau_g_c, -3, -3)
+    rd_ll = B.residues(xx_ll, yy_ll, tau_g_c)
+    ca_ll_b1656 = B.cA(xx_ll, yy_ll, tau_g_c, rd_ll)
     t13 = sc["theorem13_basis_invariant_weinberg_majorana_and_pmns"]
-    ind_c_ll_err = max(abs(float(ca_ll_b1656[k]) - float(t13["c_ll_twist6_closed_form"][k])) for k in B.UNITS)
+    ind_c_ll_err = max(abs(float(ca_ll_b1656[k]) - float(t13["ll_total_twist_6_c_channels"][k])) for k in ("i", "j", "k"))
     t14 = sc["theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census"]
 
     # (f) Independent zero-trust verification of Theorem 14 (2O orbit stabilizer |2D_4|=16, 3 gauge classes, Q_8 compensators):

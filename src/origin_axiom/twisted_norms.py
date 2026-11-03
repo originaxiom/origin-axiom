@@ -8,7 +8,7 @@ Proves and implements:
    and lepton, and the (q_L - q_R)w dependence cancels identically in K_s(z) = P_s(z) / R_s
    by Riemann's bilinear theta addition identity (B1663).
 2. Exact 1D strip Kronecker-Parseval + Euler digamma + Hurwitz-Lerch closed form
-   (independently derived in W177 on the SM seat branch `claude/standard-model-derivation-0qt6ao`;
+   (independently derived in W177 on the SM seat branch @ `a880cb8d0`;
    new relative to `main` B1788):
    - Generic twist nu_s = (3 * alpha + alpha_s) mod 1 in (0, 1):
        c_s(tau, w) = -2*pi*(ln(2*pi) + gamma) - pi*(psi(nu_s) + psi(1 - nu_s))

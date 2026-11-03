@@ -2,7 +2,7 @@
   "audit_metadata": {
     "role": "Hostile Referee (Zero-Trust Independent Verification)",
     "branch_audited": "agy/audit-2026-11-02",
-    "runtime_seconds": 39.56028642599995
+    "runtime_seconds": 71.95991220600263
   },
   "area_1_b1825_readout_and_lagrange": {
     "chi2_ten_fresh_run_json": 291.4866623550638,
@@ -741,9 +741,9 @@
         -2
       ],
       "independent_b1656_theorem11_amphichiral_conj_err": 2.094764613337708e-15,
-      "theorem12_buttazzo_benchmark_log10_mu_crit": 9.675974164982001,
-      "theorem12_nondimensional_mH_GeV_at_yt2_1_5": 125.01214325172454,
-      "theorem12_nondimensional_MZ_over_vEW": 0.3705732548641486,
+      "independent_mpmath_f10_norm_vs_minus80_eta12_E4_err": 7.978413219831376e-22,
+      "independent_midpoint_rk2_buttazzo_eq99_log10_mu_crit": 9.606669158650181,
+      "independent_b1656_theorem13_c_ll_twist6_err": 1.2665424264923786e-12,
       "theorem13_pmns_haar_scramble_max_err": 2.7755575615628914e-15,
       "theorem14_independent_2O_order": 48,
       "theorem14_independent_2D4_stabilizer_order": 32,
@@ -755,7 +755,7 @@
       "mpmath_quarter_eta6_at_tau_Golden": 0.004092119913954258,
       "mpmath_ratio_b10_sq_over_quarter_eta6": 5.2378281673690905,
       "corrected_Buttazzo_mH_1loop_GeV_at_mt162": 124.28653203358998,
-      "corrected_Buttazzo_mH_2loop_GeV_at_mt162": 118.8331148284251,
+      "corrected_Buttazzo_mH_2loop_GeV_at_mt162": 118.83798835486351,
       "true_downward_Xing_Zhou_chi2_ten": 25.644110090460348,
       "arg_det_Yu_Yd_rad_at_tau_Golden": -2.9219104157510416,
       "pmns_Ve_prime_T_Ue_minus_I3_under_rhs_rotation": 8.881827939631607e-16
