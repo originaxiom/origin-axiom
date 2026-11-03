@@ -18,11 +18,11 @@
 | … NEGATIVE | 382 |
 | … OPEN | 94 |
 | … RETRACTED | 12 |
-| register points | 587 |
-| … QUEUED | 231 |
+| register points | 590 |
+| … QUEUED | 233 |
 | … LEAD | 10 |
 | … OWNER | 5 |
-| … DONE | 331 |
+| … DONE | 332 |
 | … DECLINED | 10 |
 | harvest rows (the last number) | 1514 |
 | the Standard Model's 19 derived | 0 |
@@ -57,6 +57,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S297 THE TRIAGE RECHECKED AT THE OWNER'S WORD: 20 STALE LAW-MAP ROWS, THE CANDIDATE'S END, THE NEGATIVES' SCALE, P-355's FIRST ITEM (2026-11-03)
 - S296 THE REGISTER TRIAGED: EVERY OPEN ROW TYPED, ONLY DEBTS AGE, THE 59 DEBTS RANKED BY LOAD (THE OWNER'S RULING ON P-587) (2026-11-03)
 - S295 THE CANDIDATE FAMILY's OWN RELATION D, CREDITED; THE REGISTER's LOAD MEASURED (2026-11-03)
 - S294 THE TWO-LEVEL BAR: GENESIS v1.61 — A FIXED SCREEN MAKES A CANDIDATE, ONLY A HELD-OUT CONFIRMATION MAKES A RESULT (THE OWNER'S RULING ON P-577) (2026-11-03)
@@ -64,11 +65,10 @@
 - S292 THE EARNED DICTIONARY: GENESIS v1.60 — A FRAME MAY EARN ITS DICTIONARY BY HELD-OUT PREDICTION (THE OWNER'S RULING ON P-580) (2026-11-03)
 - S291 THE RECHECK AND THE RECOGNITION AUDIT: ONE S290 CLAIM RETRACTED; WOULD WE KNOW THE ANSWER? NOT AS THE TESTS ARE BUILT (2026-11-03)
 - S290 THE RELATION THAT LIFTS THE CORNERS: THE ADJUGATE READING; THE 45-LIKE SINGLET SPLITS THE SECOND GENERATION (2026-11-03)
-- S289 THE FRAMING LEDGER (B1827): WHAT THE PROGRAMME EXCLUDES BY THE WAY IT IS FRAMED (2026-11-03)
 
 ## The latest campaign line
 
-LATEST (2026-11-03, S296: the register of open points, triaged at the owner's word (B1830). Each of its 241 open points is now marked as a debt (something the record uses is owed a check), an idea, or housekeeping; only debts carry deadlines, and the 59 debts are worked in order of what rests on them — first the one that bears on today's candidate. Nine points were found already paid and closed, each checked. 0 of 19.)
+LATEST (2026-11-03, S297: the triage re-checked at the owner's word. Every typing and every closure stood, except two points marked as ideas or housekeeping that are in fact owed checks; both are debts now. The re-check also found what a register cannot show: twenty rows of the law map still stated results that later work had corrected. The most important is that the candidate found at S294 holds only with an approximate formula for the boundary; with the exact one, the six masses fail. All twenty are corrected in place, the candidate is recorded as weaker, and the habit that let the corrections stall is written down (P-589). 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

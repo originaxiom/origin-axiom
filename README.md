@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.61) of 2026-11-03 |
 | arcs with a verdict | 1534: 1046 PROVED, 382 NEGATIVE, 94 OPEN, 12 RETRACTED |
-| points in the register | 587: 246 open (queued, leads, waiting for the owner), 341 closed |
+| points in the register | 590: 248 open (queued, leads, waiting for the owner), 342 closed |
 | the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S296 THE REGISTER TRIAGED: EVERY OPEN ROW TYPED, ONLY DEBTS AGE, THE 59 DEBTS RANKED BY LOAD (THE OWNER'S RULING ON P-587) (2026-11-03) |
+| the last landing | S297 THE TRIAGE RECHECKED AT THE OWNER'S WORD: 20 STALE LAW-MAP ROWS, THE CANDIDATE'S END, THE NEGATIVES' SCALE, P-355's FIRST ITEM (2026-11-03) |
 <!-- STATE:END -->
 
 ## Start here

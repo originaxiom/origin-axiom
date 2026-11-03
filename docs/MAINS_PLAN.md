@@ -15,7 +15,7 @@ against it.
 
 | the SM's free parameters | what the frame does |
 |---|---|
-| six charged-fermion mass ratios | reached on one strip (B1741, B1749, B1753, B1755) with inputs set by hand: the lepton factor c = 3, the reading rule, the slope α = 2/5, the offset b, Im τ — and two that do fitting work without a plan holding them (the web seat's relay of 2026-10-27, P-328, P-365): the horocycle (L_max or L₂; the six's best rows are on L_max, the nine's one-Higgs optimum on L₂) and the comparison scale (M_Z, a choice; P-363) — a READING, ungraded |
+| six charged-fermion mass ratios | reached on one strip (B1741, B1749, B1753, B1755) with inputs set by hand: the lepton factor c = 3, the reading rule, the slope α = 2/5, the offset b, Im τ — and two that do fitting work without a plan holding them (the web seat's relay of 2026-10-27, P-328, P-365): the horocycle (L_max or L₂; the six's best rows are on L_max, the nine's one-Higgs optimum on L₂) and the comparison scale (M_Z, a choice; P-363) — a READING, ungraded [and the end formula: at L_max the small-cut norm, not the horoball's exact norm; with the exact norms the six fail (S238; P-421; carried here 2026-11-03, S297)] |
 | three mass scales (y_t, y_b, y_τ) | not touched |
 | four CKM numbers | not reached: one Higgs fails (B1747), the free two-doublet fit is not specific (P-377), the named pairs fail (W158) |
 | three gauge couplings | not in the frame; the one-loop threshold needed at the two-Higgs crossing is 27.66, no integer (B1784) |

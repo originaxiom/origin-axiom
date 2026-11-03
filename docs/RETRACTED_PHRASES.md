@@ -284,3 +284,5 @@ its own arc (and, where its claim line repeated it, a bracket there):
 
 No living surface repeats them. No row added.
 
+**Currency correction, 2026-11-03 (S297, the triage's recheck; P-588, P-589).** The S250 read above wrote "No living surface repeats them". LAW_MAP did: B1739's row stated "∣V_ud∣ ∝ r^½" as PROVED (the web seat's audit had made it the median's slope only), and the rows for B1726, B1734, B1735 and B1741 carried no trace of THE EXACT END. The read had swept phrases, not the corrected arcs' rows on the synthesis surfaces. All are now scoped in place, with 15 more rows the recheck's screens found and one scope note on 'the canonical end' (B1667's row) (P-589). No phrase row added: each correction is a scope, carried by dated notes and the rows' brackets.
+

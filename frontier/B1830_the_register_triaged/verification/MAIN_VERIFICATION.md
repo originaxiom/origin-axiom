@@ -23,3 +23,5 @@ Every proposed closure read against its evidence on main; the typing reviewed ag
 **Retyped:** P-321 LEAD -> DEBT (it owes GENESIS's GM4 and B1680's wording, a foundation statement). P-337 kept LEAD: its one correction ('16 zero lines, not 32') is to a register row's wording, not to a used result.
 
 **Caveat:** the readers' KEEP means 'not confirmed paid', not 'confirmed unpaid'; batches 1, 2 and 5 sampled the record rather than reading every arc. Leads and process rows do not age, so a missed payment costs nothing until the decadal review reads them; a missed debt ages and returns.
+
+**S297, the recheck (the owner's 'make sure … didn't miss anything load bearing'):** the typing re-read (`recheck/screen.py`; 46 flagged rows read in full) — P-154 and P-421 retyped DEBT; the nine closures re-read against their asks — all stand, P-386 narrowed to its ask; the readers' law-row verdicts (`recheck/evidence_*.txt`, `recheck/dated_notes_hits.txt`) each verified by main at the source before the edits (`recheck/law_apply.py`, `law_apply2.py`; rows 334 and 258 by hand). See FINDINGS, The recheck.

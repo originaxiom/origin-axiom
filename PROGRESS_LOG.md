@@ -18310,3 +18310,9 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 ## 2026-11-03 — S296 the register triaged
 
 - Every open row typed; only debts age; 59 debts ranked by load, P-355 first (B1830). 0 of 19.
+
+## 2026-11-03 — S297 the triage rechecked
+
+- The owner's 'make sure … didn't miss anything load bearing': typings and closures stand (P-154, P-421 retyped debts);
+  20 stale law-map rows corrected in place (P-588, P-589); the strip candidate is the small-cut end's, which fails the six
+  at the exact norms (B1829 corrected); P-590 the negatives' scale scope; P-355's first item paid. 0 of 19.
