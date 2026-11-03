@@ -10352,3 +10352,32 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    with the G2 lines as its control. Rule first.
 
 0 of 19.
+
+## 339. Added 2026-11-03 (UTC): W181's rule — the cusp limits on the integer-λ lines in the exact norms
+
+1. **The occasion.** Relay §338, item 6: W179 and W180 left the 46 unsettled pairs (23 lines) undetermined, and W180's
+   frozen norms miss ρ_s, which reaches the light features. W181 keeps W177's exact norms
+   (`docs/dossiers/the_weave_2026-10-07/W181_RULE.md`, committed and pushed before its script).
+2. **The method.**
+   - The shifted frame F(y, Y) is W178's frame at Im τ = y with each norm c_s(y) + B_s (Y − y). F(y, y) is the true
+     frame.
+   - At fixed Y every piece is a q-series in y, so ln D(y, Y) has a limit H(Y) where the down and lepton exponents
+     agree. It is read at Im τ 96 and 128.
+   - H is analytic in u = Y^{−1/2}. The limit D∞ is Neville's extrapolation to u = 0 over Y = 256 … 262144, accepted
+     when two orders agree within 10⁻⁶.
+   - It covers all 98 pairs on the 49 integer-λ lines. W179's 50 unsettled pairs are among them: the 46 and the G2
+     lines' four.
+3. **The cells.**
+   - K0, the tie to W178 at Im τ 48.
+   - K1, the truth on the G2 lines against W179 post hoc 1.
+   - K2, the G2 control against W180's frozen ladder.
+   - K3, the y-limit at every Y.
+   - K4, the Y-limit.
+   - K5, W179's classification.
+   - K6, the twelve ties stay exact.
+   - K7, no accepted D∞ within 3σ of 10.58.
+   - K8, D∞ on the two G2 lines in [6.0, 6.6].
+4. **Labelled** neither (a frame census over every census line with an integer-λ kernel, at the cusp, in the exact
+   norms).
+
+0 of 19.

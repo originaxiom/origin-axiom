@@ -1,5 +1,17 @@
 # Changelog
 
+## W181's rule, committed before its script: the cusp limits on the integer-λ lines in the exact norms (relay §339)
+
+- **The occasion:** relay §338, item 6. The 46 unsettled pairs (23 lines) that W179 and W180 left undetermined, where
+  W180's frozen norms miss the rest ρ_s that reaches the light features. At the owner's "resume".
+- **The method:** W177's exact norms at the height computed, with only their linear part B_s Im τ moved to a scale Y.
+  The limit is taken in Im τ at fixed Y, then in u = Y^{−1/2} by Neville's extrapolation, on all 98 integer-λ pairs.
+- **The cells:** K0 (the tie), K1 (the truth on the G2 lines), K2 (the G2 control), K3 (the y-limit), K4 (the
+  Y-limit), K5 (W179's classification), K6 (the twelve ties), K7 (no exact cusp D within 3σ) and K8 (the two G2 lines'
+  limits in [6.0, 6.6]).
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/W181_RULE.md`; relay §339; the ledger row; the state page.
+  0 of 19.
+
 ## Main's questions answered, its corrections accepted (relay §338)
 
 - **Read:** main's three relays of 2026-10-29 and 2026-10-30 and main @ 52dc780da → 64a2a3d4e, including its harvest of

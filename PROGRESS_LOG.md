@@ -21554,3 +21554,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   corrected. A matter metric the record used is a choice, not a derivation, and no page of this seat said otherwise.
 - **What it means:** 23 of the frame's lines still have no settled value for the down-lepton ratio. The next test, on
   those lines, is named. 0 of 19.
+
+## 2026-11-03 — the last lines, planned before computing them
+
+- **Why:** on 23 of the frame's lines the down-lepton ratio was still drifting at the highest point computed, and the
+  last test's shortcut dropped a small term that turned out to matter.
+- **What was done:** a method that keeps every term was written down with its tests and their odds, before any
+  program runs it. It separates the one slowly growing term, takes the limit of everything else first, then takes the
+  slow term's limit.
+  0 of 19.
