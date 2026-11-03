@@ -704,6 +704,32 @@ def test_five_phase_master_toe_closure():
     assert float(pc16["line_0_2_7_r2_inf_vs_cos3pi7_over_cospi7_err"]) < 1e-13
     assert float(pc16["line_0_2_7_D_inf_vs_exact_cosine_ratio_err"]) < 1e-12
 
+    # Theorem 17: Stage 3 (P-566/S291) Determinant No-Go, Stage 4 Casimir Monotonicity & 9ccf7c4d3 Cross-Check
+    t17 = sc["theorem17_stage3_p566_determinant_nogo_and_stage4_casimir_monotonicity"]
+    pa17 = t17["part_A_stage3_p566_s291_adjugate_and_determinant_nogo"]
+    assert abs(float(pa17["vub_over_vtd_zero_phase_adjugate_at_tau_Golden"]) - 0.430255) < 1e-4
+    assert float(pa17["vub_over_vtd_zero_phase_adjugate_at_tau_B1825"]) < 0.36
+    assert float(pa17["max_p583_lepton_reads_adjugate_err_across_5_lines"]) < 1e-13
+    assert float(pa17["max_thm3_determinant_factorization_rel_err"]) < 1e-13
+    assert float(pa17["order5_det_M_lepton_minus_down_abs_err"]) < 1e-14
+    assert abs(float(pa17["det_Se_over_det_Sd_at_k_pm3"]) - 5.0) < 1e-12
+    assert abs(float(pa17["det_nogo_table_at_tau_Golden"]["k_-3"]["abs_det_Ye_over_det_Yd"]) - 12.518489) < 1e-4
+    assert abs(float(pa17["det_nogo_table_at_tau_Golden"]["k_+3"]["abs_det_Ye_over_det_Yd"]) - 16.216965) < 1e-4
+
+    pb17 = t17["part_B_stage4_casimir_potential_monotonicity"]
+    assert float(pb17["sm_fermion_B2_sum_2_5_plus_7_10_err"]) < 1e-14
+    assert float(pb17["sm_fermion_B2_sum_1_5_plus_3_10_err"]) < 1e-14
+    assert float(pb17["min_step_diff_V0_untwisted_Im_tau_1_to_3p5"]) > 0.01
+    assert float(pb17["min_step_diff_Vferm_twisted_Im_tau_1_to_3p5"]) > 0.45
+    assert pb17["V0_and_Vferm_strictly_increasing_on_1_to_3p5"] is True
+
+    pc17 = t17["part_C_9ccf7c4d3_rank2_mapping_torus_and_f10_e4_branch"]
+    assert float(pc17["max_rank2_mapping_torus_conjugation_err"]) < 2e-14
+    assert float(pc17["max_f10_minus80_eta12_E4_identity_err"]) < 1e-14
+    assert float(pc17["f10_abs_at_E4_orbifold_zero_exp_2pi_i_3"]) < 2e-14
+    assert float(pc17["imag_axis_principal_sqrt_cut_b_plus_bconj_err"]) < 1e-15
+
+
 
 
 

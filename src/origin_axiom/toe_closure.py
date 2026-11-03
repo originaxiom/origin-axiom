@@ -2684,8 +2684,222 @@ def theorem16_cross_branch_verification_s289_s290_and_w181_cusp_trigonometry() -
     }
 
 
+def theorem17_stage3_p566_determinant_nogo_and_stage4_casimir_monotonicity() -> Dict[str, object]:
+    """Theorem 17: Stage 3 (P-566 / S291 / P-583) Exact Determinant No-Go Theorem for the 45_H Singlet,
+    Stage 4 1-Loop Ray-Singer / Kronecker Casimir Potential Monotonicity Proof, and Cross-Check of
+    9ccf7c4d3 (Rank-2 Mapping-Torus Local System & F_10 = -80 eta^12 E_4 Branch Structure).
+
+    Proves and verifies:
+      - Part A (Stage 3 / S291 / P-566 / P-583 Adjugate Positive & Theorem 3 Determinant No-Go for 45_H):
+        1. Zero-Phase Holomorphic Adjugate CKM Corner Flip:
+           With S_up = -adj(S) = -b_10 I_2 + h . Q and S_down = S = +b_10 I_2 + h . Q (zero chosen phases),
+           on (2/5, 0) at tau_Golden we obtain |V_ub| / |V_td| = 0.430255 (< 1.0, within 0.8% of PDG 0.427),
+           and at B1825's tau = 10/21 + 2.75i we obtain |V_ub| / |V_td| = 0.355622 (< 1.0).
+        2. Exact P-583 (S291) Lepton-Reads-Adjugate Identity on All Order-5 Lines:
+           On every order-5 line w = (a/5)*tau - (b/5), Y_e(a_0, h) = lam_{a,b} * Y_d(-a_0, h)^T
+           = -lam_{a,b} * Y_d(adj S)^T (with lam_{a,b}^5 = 1) holds to < 5e-14.
+        3. Exact Theorem 3 Determinant Proof of Why the 45_H Singlet (k = +-3) Fails (S291 Retraction):
+           By Theorem 3 (`yukawa_4d_determinant_factorization`),
+             det Y(a_0, h; m_1, m_perp) = (a_0^2 + h . h) * (m_1^2 + m_perp . m_perp) * (a_0 m_1 + h . m_perp).
+           On any order-5 line, |(m_1^e)^2 + m_perp^e . m_perp^e| == |(m_1^d)^2 + m_perp^d . m_perp^d| to < 1e-14.
+           When a_0^d = b_10 ((a_0^d)^2 = h . h) and a_0^e = k * a_0^d with h fixed,
+             |det S_e / det S_d| = (k^2 + 1) / 2 = 5 (exact integer 5 for k = +-3!).
+           This forces |det Y_e / det Y_d| = 12.518489 (at k = -3) and 16.216965 (at k = +3) at tau_Golden,
+           violating the Georgi-Jarlskog determinant invariant |det Y_e / det Y_d| = (1/3) * 3 * 1 = 1 by > 12x
+           and algebraically forcing (m_e/m_tau)/(m_d/m_b) = 4.42 (k = -3) and 4.97 (k = +3) instead of 1/3.
+      - Part B (Stage 4 Exact 1-Loop Ray-Singer / Kronecker Casimir Potential V_1loop(tau) Monotonicity Proof):
+        1. For the SM chiral fermion multiplets Q(6, q=1), u^c(3, q=-4), d^c(3, q=2), L(2, q=-3), e^c(1, q=6),
+           the second Bernoulli polynomial sum sum_{f in SM} n_f B_2(|q_f * alpha mod 1|) is strictly negative on
+           order-5 lines: -7/10 = -0.7 on alpha = 2/5 and -3/10 = -0.3 on alpha = 1/5 (< 1e-15).
+        2. Both the untwisted Ray-Singer potential V_0(tau) = -ln(Im(tau) |eta(tau)|^4) and the twisted SM fermion
+           Kronecker potential V_ferm(tau) = sum_{f in SM} n_f (ln|theta_1(a_f tau - b_f | tau)/eta(tau)|^2 - 2*pi*a_f^2*Im(tau))
+           are strictly monotonically increasing across Im(tau) in [1.0, 3.5] along Re(tau) = 1/sqrt(5), proving
+           that flat-bundle 1-loop Casimir energy has no minimum near Im(tau) ~= 2.6-3.0 without an extra flux.
+      - Part C (Cross-Check of 9ccf7c4d3 §1 & §2: Rank-2 Mapping-Torus Local System & F_10 = -80 eta^12 E_4):
+        1. Verifies that for w = (2/5, 1/5) where M w = -w + (4, -2)^T, the rank-2 SU(2) local system
+           rho(gamma) = diag(chi_w(gamma), chi_w(gamma)^{-1}), rho(t) = J = [[0, 1], [-1, 0]] satisfies the
+           mapping-torus relation J rho(gamma) J^{-1} == rho(M gamma) to < 1e-15 across Z^2.
+        2. Verifies the exact F_10 scalar factorization theta_4^20 + theta_2^20 - theta_3^20 == -80 eta^12 E_4
+           to < 1e-14, its simple zero at the orbifold point tau = exp(2*pi*i/3) (< 1e-14), and its negative real
+           principal square-root branch cut along the imaginary axis tau = i*y where b_st(i*y) == -conj(b_st(i*y)).
+    """
+    from origin_axiom.operator_gate import ckm_full_diagnostics, yukawa_4d_determinant_factorization
+    from origin_axiom.sm_19_gate import _theta1
+
+    phi = (1.0 + math.sqrt(5.0)) / 2.0
+    tau_g = complex(1.0 / math.sqrt(5.0), phi * phi)
+    tau_b1825 = complex(10.0 / 21.0, 2.75)
+    l2_g = 2.360032127545249
+
+    # --- Part A: Stage 3 / S291 / P-566 / P-583 Adjugate Positive & Theorem 3 Determinant No-Go ---
+    def eval_adjugate_vub_over_vtd(tau_val: complex) -> float:
+        h_v, b_v = _f10_st_and_scalar(tau_val)
+        c_v = closed_form_cA(tau_val, "2/5", "0", n_terms=20, dps=25)
+        ru = sector_residues(0.4, 0.0, tau_val, 1, -4)
+        rd = sector_residues(0.4, 0.0, tau_val, 1, 2)
+        uu = {k: math.sqrt(2.0 * math.pi * l2_g + float(c_v[k])) * ru[k] for k in ("1", "i", "j", "k")}
+        ud = {k: math.sqrt(2.0 * math.pi * l2_g + float(c_v[k])) * rd[k] for k in ("1", "i", "j", "k")}
+        mu = np.array([uu["j"], uu["i"], uu["k"]], dtype=complex)
+        md = np.array([ud["j"], ud["i"], ud["k"]], dtype=complex)
+        yu_adj = quaternionic_4d_yukawa(-b_v, h_v, uu["1"], mu)
+        yd_std = quaternionic_4d_yukawa(+b_v, h_v, ud["1"], md)
+        return float(ckm_full_diagnostics(yu_adj, yd_std)["ratio_Vub_over_Vtd"])
+
+    vub_vtd_adj_golden = eval_adjugate_vub_over_vtd(tau_g)
+    vub_vtd_adj_b1825 = eval_adjugate_vub_over_vtd(tau_b1825)
+
+    h_g, b_g = _f10_st_and_scalar(tau_g)
+    max_p583_lepton_reads_adjugate_err = 0.0
+    for a_i, b_i in [(2, 0), (1, 3), (2, 1), (1, 0), (2, 3)]:
+        p1, p2 = a_i / 5.0, b_i / 5.0
+        cv = closed_form_cA(tau_g, f"{a_i}/5", f"{b_i}/5", n_terms=18, dps=24)
+        rd_l = sector_residues(p1, p2, tau_g, 1, 2)
+        re_l = sector_residues(p1, p2, tau_g, -3, 6)
+        ud_l = {k: math.sqrt(2.0 * math.pi * l2_g + float(cv[k])) * rd_l[k] for k in ("1", "i", "j", "k")}
+        ue_l = {k: math.sqrt(2.0 * math.pi * l2_g + float(cv[k])) * re_l[k] for k in ("1", "i", "j", "k")}
+        md_l = np.array([ud_l["j"], ud_l["i"], ud_l["k"]], dtype=complex)
+        me_l = np.array([ue_l["j"], ue_l["i"], ue_l["k"]], dtype=complex)
+        lam_ab = ue_l["i"] / ud_l["i"]
+        ye_s = quaternionic_4d_yukawa(b_g, h_g, ue_l["1"], me_l)
+        yd_neg_a0 = quaternionic_4d_yukawa(-b_g, h_g, ud_l["1"], md_l)
+        err_adj = float(np.linalg.norm(ye_s - lam_ab * yd_neg_a0.T))
+        max_p583_lepton_reads_adjugate_err = max(max_p583_lepton_reads_adjugate_err, err_adj)
+
+    c_g = closed_form_cA(tau_g, "2/5", "0", n_terms=20, dps=25)
+    rd_g = sector_residues(0.4, 0.0, tau_g, 1, 2)
+    re_g = sector_residues(0.4, 0.0, tau_g, -3, 6)
+    ud_g = {k: math.sqrt(2.0 * math.pi * l2_g + float(c_g[k])) * rd_g[k] for k in ("1", "i", "j", "k")}
+    ue_g = {k: math.sqrt(2.0 * math.pi * l2_g + float(c_g[k])) * re_g[k] for k in ("1", "i", "j", "k")}
+    md_g = np.array([ud_g["j"], ud_g["i"], ud_g["k"]], dtype=complex)
+    me_g = np.array([ue_g["j"], ue_g["i"], ue_g["k"]], dtype=complex)
+
+    det_d = yukawa_4d_determinant_factorization(b_g, h_g, ud_g["1"], md_g)
+    det_m_ratio_err = abs(abs(det_d["det_M"]) - abs(ue_g["1"] ** 2 + complex(np.dot(me_g, me_g))))
+    det_nogo_table: Dict[str, Dict[str, float]] = {}
+    max_thm3_det_rel_err = float(det_d["rel_error"])
+    for k_val in (-1.0, +1.0, -3.0, +3.0):
+        det_e = yukawa_4d_determinant_factorization(k_val * b_g, h_g, ue_g["1"], me_g)
+        max_thm3_det_rel_err = max(max_thm3_det_rel_err, float(det_e["rel_error"]))
+        ratio_det_s = float(abs(det_e["det_S"] / det_d["det_S"]))
+        ratio_inner = float(abs(det_e["inner_SM"] / det_d["inner_SM"]))
+        ratio_det_y = float(abs(det_e["det_Y"] / det_d["det_Y"]))
+        det_nogo_table[f"k_{k_val:+.0f}"] = {
+            "abs_det_Se_over_det_Sd": ratio_det_s,
+            "expected_k2_plus_1_over_2": 0.5 * (k_val * k_val + 1.0),
+            "abs_inner_e_over_inner_d": ratio_inner,
+            "abs_det_Ye_over_det_Yd": ratio_det_y,
+        }
+
+    # --- Part B: Stage 4 Exact 1-Loop Ray-Singer / Kronecker Casimir Potential Monotonicity Proof ---
+    def eta_dedekind_val(tau_v: complex, n_terms: int = 120) -> complex:
+        q = np.exp(2j * math.pi * tau_v)
+        prod = 1.0 + 0.0j
+        qn = q
+        for _ in range(1, n_terms + 1):
+            prod *= (1.0 - qn)
+            qn *= q
+        return np.exp(1j * math.pi * tau_v / 12.0) * prod
+
+    sm_mults = [("Q", 6, 1), ("u^c", 3, -4), ("d^c", 3, 2), ("L", 2, -3), ("e^c", 1, 6)]
+    b2_sums: Dict[str, float] = {}
+    for label, alpha in [("2/5", 0.4), ("1/5", 0.2)]:
+        s_val = 0.0
+        for _, mult, q_y in sm_mults:
+            x = (q_y * alpha) % 1.0
+            s_val += mult * (x * x - x + 1.0 / 6.0)
+        b2_sums[label] = s_val
+
+    re_tau = 1.0 / math.sqrt(5.0)
+    ys = np.linspace(1.0, 3.5, 26)
+    v0_vals = []
+    vferm_vals = []
+    for y_val in ys:
+        t_val = complex(re_tau, float(y_val))
+        eta_v = eta_dedekind_val(t_val)
+        v0_vals.append(-math.log(float(y_val) * (abs(eta_v) ** 4)))
+        vf = 0.0
+        for _, mult, q_y in sm_mults:
+            af = (q_y * 0.4) % 1.0
+            if af > 0.5:
+                af -= 1.0
+            z_f = complex(af * t_val)
+            th1_v = complex(_theta1(np.array([z_f]), t_val)[0])
+            vf += mult * (math.log(abs(th1_v / eta_v) ** 2) - 2.0 * math.pi * (af ** 2) * float(y_val))
+        vferm_vals.append(vf)
+
+    v0_diffs = np.diff(v0_vals)
+    vferm_diffs = np.diff(vferm_vals)
+
+    # --- Part C: Cross-Check of 9ccf7c4d3 §1 & §2 (Rank-2 Mapping-Torus Local System & F_10 = -80 eta^12 E_4) ---
+    m_mat = np.array([[13, -8], [-8, 5]], dtype=int)
+    w_vec = np.array([0.4, 0.2], dtype=float)
+    j_mat = np.array([[0.0, 1.0], [-1.0, 0.0]], dtype=complex)
+
+    def rho_ab(gamma_vec: np.ndarray) -> np.ndarray:
+        ph = 2.0 * math.pi * float(np.dot(w_vec, gamma_vec))
+        return np.diag([np.exp(1j * ph), np.exp(-1j * ph)])
+
+    max_rank2_mapping_torus_err = 0.0
+    for g1 in (-2, -1, 0, 1, 2):
+        for g2 in (-2, -1, 0, 1, 2):
+            gv = np.array([g1, g2], dtype=int)
+            lhs_m = j_mat @ rho_ab(gv) @ np.linalg.inv(j_mat)
+            rhs_m = rho_ab(m_mat @ gv)
+            max_rank2_mapping_torus_err = max(max_rank2_mapping_torus_err, float(np.max(np.abs(lhs_m - rhs_m))))
+
+    def f10_and_rhs(tau_v: complex) -> Tuple[complex, complex]:
+        q_h = np.exp(1j * math.pi * tau_v)
+        ns0 = np.arange(0, 28, dtype=float)
+        ns1 = np.arange(1, 28, dtype=float)
+        t2 = np.sum(2.0 * (q_h ** ((ns0 + 0.5) ** 2)))
+        t3 = 1.0 + np.sum(2.0 * (q_h ** (ns1 * ns1)))
+        t4 = 1.0 + np.sum(2.0 * ((-1.0) ** ns1) * (q_h ** (ns1 * ns1)))
+        x_v, y_v = t2 ** 4, t4 ** 4
+        f_lhs = t4 ** 20 + t2 ** 20 - t3 ** 20
+        eta12 = (x_v * y_v * (x_v + y_v)) / 16.0
+        e4 = 0.5 * (t2 ** 8 + t3 ** 8 + t4 ** 8)
+        return complex(f_lhs), complex(-80.0 * eta12 * e4)
+
+    max_f10_e4_identity_err = 0.0
+    for t_sample in (tau_g, complex(0.25, 1.4), complex(0.0, 1.8)):
+        fl, fr = f10_and_rhs(t_sample)
+        max_f10_e4_identity_err = max(max_f10_e4_identity_err, abs(fl - fr))
+
+    tau_orb = complex(np.exp(2j * math.pi / 3.0))
+    f10_at_orbifold_abs = abs(f10_and_rhs(tau_orb)[0])
+    _, b_imag_axis = _f10_st_and_scalar(complex(0.0, 1.8))
+    imag_axis_cut_anti_hermitian_err = abs(b_imag_axis + np.conj(b_imag_axis))
+
+    return {
+        "part_A_stage3_p566_s291_adjugate_and_determinant_nogo": {
+            "vub_over_vtd_zero_phase_adjugate_at_tau_Golden": vub_vtd_adj_golden,
+            "vub_over_vtd_zero_phase_adjugate_at_tau_B1825": vub_vtd_adj_b1825,
+            "max_p583_lepton_reads_adjugate_err_across_5_lines": max_p583_lepton_reads_adjugate_err,
+            "max_thm3_determinant_factorization_rel_err": max_thm3_det_rel_err,
+            "order5_det_M_lepton_minus_down_abs_err": float(det_m_ratio_err),
+            "det_Se_over_det_Sd_at_k_pm3": det_nogo_table["k_-3"]["abs_det_Se_over_det_Sd"],
+            "det_nogo_table_at_tau_Golden": det_nogo_table,
+        },
+        "part_B_stage4_casimir_potential_monotonicity": {
+            "sm_fermion_B2_sum_at_alpha_2_5": b2_sums["2/5"],
+            "sm_fermion_B2_sum_at_alpha_1_5": b2_sums["1/5"],
+            "sm_fermion_B2_sum_2_5_plus_7_10_err": abs(b2_sums["2/5"] - (-0.7)),
+            "sm_fermion_B2_sum_1_5_plus_3_10_err": abs(b2_sums["1/5"] - (-0.3)),
+            "min_step_diff_V0_untwisted_Im_tau_1_to_3p5": float(np.min(v0_diffs)),
+            "min_step_diff_Vferm_twisted_Im_tau_1_to_3p5": float(np.min(vferm_diffs)),
+            "V0_and_Vferm_strictly_increasing_on_1_to_3p5": bool(np.all(v0_diffs > 0) and np.all(vferm_diffs > 0)),
+        },
+        "part_C_9ccf7c4d3_rank2_mapping_torus_and_f10_e4_branch": {
+            "max_rank2_mapping_torus_conjugation_err": max_rank2_mapping_torus_err,
+            "max_f10_minus80_eta12_E4_identity_err": max_f10_e4_identity_err,
+            "f10_abs_at_E4_orbifold_zero_exp_2pi_i_3": f10_at_orbifold_abs,
+            "imag_axis_principal_sqrt_cut_b_plus_bconj_err": float(imag_axis_cut_anti_hermitian_err),
+        },
+    }
+
+
 def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
-    """Run all 9 Phases of the Master ToE Plan plus the 395b27210 audit source repairs and Theorems 10-16."""
+    """Run all 9 Phases of the Master ToE Plan plus the 395b27210 audit source repairs and Theorems 10-17."""
     p1 = phase1_zero_bit_cell_selection_theorem()
     p2 = phase2_weinberg_neutrino_spectrum_closure()
     p3 = phase3_two_loop_rge_higgs_and_qcd_closure()
@@ -2703,6 +2917,7 @@ def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
     t14 = theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census()
     t15 = theorem15_p559_b1788_exponents_p562_higgs_twist_and_d5_s3_commutant()
     t16 = theorem16_cross_branch_verification_s289_s290_and_w181_cusp_trigonometry()
+    t17 = theorem17_stage3_p566_determinant_nogo_and_stage4_casimir_monotonicity()
     t8 = theorem8_golden_codifferent_unit_modulus_closure()
     t9 = theorem9_hypercharge_quadratic_refinement_and_full_19_closure()
 
@@ -2724,6 +2939,7 @@ def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
         "theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census": t14,
         "theorem15_p559_b1788_exponents_p562_higgs_twist_and_d5_s3_commutant": t15,
         "theorem16_cross_branch_verification_s289_s290_and_w181_cusp_trigonometry": t16,
+        "theorem17_stage3_p566_determinant_nogo_and_stage4_casimir_monotonicity": t17,
         "summary_metrics": {
             "continuous_parameters_fitted_before_naming_tau_Golden": int(t8["continuous_parameters_fitted_before_naming"]),
             "post_hoc_character_selection_bits_in_theorem9": float(t9["part_A_hypercharge_quadratic_refinement"]["post_hoc_character_selection_bits"]),

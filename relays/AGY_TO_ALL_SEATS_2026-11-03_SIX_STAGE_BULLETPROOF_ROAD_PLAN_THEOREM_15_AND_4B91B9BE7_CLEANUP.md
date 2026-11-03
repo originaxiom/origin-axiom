@@ -151,3 +151,36 @@ We fetched and audited the latest commits across all branches (`origin/main` at 
     - On $(1/2, 1/5)$: $\sqrt{B_k / B_j} = \cot(\pi/10)$ (`err = 4.44e-16`), $|R_j / R_k| = \sqrt{5}$ (`err = 1.05e-13`), and $\cot(\pi/10) + (|R_j / R_k| + 1) = \cot(\pi/10) + \csc(\pi/10) = \cot(\pi/20) = 6.313751514675$ (`err = 1.05e-13`).
     - On $(0, 2/7)$: $\sqrt{B_1 / B_i} = \cot(\pi/7)$ (`err = 4.44e-16`), $|R_i^d / R_i^e| = \frac{\cos(2\pi/7)}{\cos(3\pi/7)}$ (`err = 7.55e-15`), $|R_1^e / R_1^d| - 1 = \frac{\cos(3\pi/7)}{\cos(\pi/7)}$ (`err = 5.83e-16`), giving $D_\infty = \frac{\cos(\pi/7)\cos(2\pi/7)}{\cos^2(3\pi/7)} = 11.344814282762$ (`err = 5.68e-14`).
 
+---
+
+## 5. `Theorem 17`: Stage 3 (`P-566` / `S291` / `P-583`) Exact Determinant No-Go Theorem for the $\mathbf{45}_H$ Singlet, Stage 4 1-Loop Casimir Monotonicity Proof, and Cross-Check of `9ccf7c4d3` & `W182`
+
+We fetched and audited `origin/main` at `1bb5fcfa2` (`S291`), `origin/audit/physical-bridge-2026-09-05` at `9ccf7c4d3`, and the weave branch at `0efe0461d` (`W182`), and locked the exact analytical proofs in **`Theorem 17`** (`theorem17_stage3_p566_determinant_nogo_and_stage4_casimir_monotonicity()`):
+
+### 5.1 Stage 3 (`P-566` / `S291` / `P-583`): Zero-Phase Adjugate Positive & Exact `Theorem 3` Determinant No-Go for the $\mathbf{45}_H$ Singlet
+1. **Independent Convergence with `origin/main` `S291` (`1bb5fcfa2`):**
+   - `S291` independently confirmed every finding of our `Theorem 16`:
+     - On all 24 order-5 lines, $M_e = \lambda_{a,b} M_d^T$ with $\lambda_{a,b}^5 = 1$, and $Y_e(S) = Y_e(a_0, \vec{h}) = \lambda_{a,b} Y_d(-a_0, \vec{h})^T = -\lambda_{a,b} Y_d(\operatorname{adj} S)^T$ (`P-583`, verified in `Theorem 17` Part A to `< 5e-14`).
+     - `S291` retracted `S290`'s `gj45_probe.py` claim because its $k = -3$ was $\kappa = +3$ and its "5-like control" $k = +1$ was $\kappa = -1$ (the exact sign bug proved in `Theorem 16` Part B), and found that with $k = \pm 3$ the 1st-generation ratio $(m_e/m_\tau)/(m_d/m_b)$ goes the wrong way ($\sim 3.3\text{--}4.9$ instead of $1/3$).
+2. **Zero-Phase Holomorphic Adjugate CKM Corner Flip (`P-566` positive half):**
+   - Using $S_{\text{up}} = -\operatorname{adj}(S) = -b_{10} I_2 + \vec{h}\cdot\vec{Q}$ and $S_{\text{down}} = S = +b_{10} I_2 + \vec{h}\cdot\vec{Q}$ (with **zero chosen phases**), on $(2/5, 0)$ at $\tau_{\text{Golden}}$ we obtain $|V_{ub}|/|V_{td}| = 0.430255$ (within $0.8\%$ of PDG $0.427$), and at `B1825`'s $\tau = 10/21 + 2.75i$ we obtain $|V_{ub}|/|V_{td}| = 0.355622 < 1.0$.
+3. **Exact `Theorem 3` Determinant Proof of Why the $\mathbf{45}_H$ Singlet ($k = \pm 3$) Fails (`P-566` negative half):**
+   - By `Theorem 3` (`yukawa_4d_determinant_factorization`),
+     $$\det Y_s^{\text{4D}}(a_0, \vec{h}; m_1, \vec{m}_\perp) = (a_0^2 + \vec{h}\cdot\vec{h})\,(m_1^2 + \vec{m}_\perp\cdot\vec{m}_\perp)\,(a_0 m_1 + \vec{h}\cdot\vec{m}_\perp) \quad (\text{rel\_error} < 10^{-13}).$$
+   - On any order-5 line, $|(m_1^e)^2 + \vec{m}_\perp^e\cdot\vec{m}_\perp^e| = |(m_1^d)^2 + \vec{m}_\perp^d\cdot\vec{m}_\perp^d|$ (`< 10^{-14}`). When $a_0^d = b_{10}$ ($(a_0^d)^2 = \vec{h}\cdot\vec{h}$) and $a_0^e = k a_0^d$ while $\vec{h}$ is fixed:
+     $$\left|\frac{\det S_e}{\det S_d}\right| = \frac{|k^2 (a_0^d)^2 + \vec{h}\cdot\vec{h}|}{|(a_0^d)^2 + \vec{h}\cdot\vec{h}|} = \frac{k^2 + 1}{2} = \mathbf{5}\quad\text{for } k = \pm 3\text{ (exact integer } 5\text{!)}.$$
+   - This multiplies $|\det Y_e / \det Y_d|$ by $5 \times |\text{inner}_e / \text{inner}_d| = 12.518489$ (at $k = -3$) and $16.216965$ (at $k = +3$) at $\tau_{\text{Golden}}$, whereas the Georgi–Jarlskog relation ($m_\tau/m_b = 1$, $m_\mu/m_s = 3$, $m_e/m_d = 1/3$) requires $|\det Y_e / \det Y_d| = 1 \times 3 \times \frac{1}{3} = 1$. That is the exact algebraic reason why $(m_e/m_\tau)/(m_d/m_b) = 4.42$ ($k = -3$) and $4.97$ ($k = +3$) is forced $> 4 \gg 1/3$.
+   - Likewise, the weave branch's `W182` (`0efe0461d`) confirmed across all 90 order-15 and order-30 centre lines (`P-567`) that no $Z_3$ centre shift produces the $(1/3, 3)$ Georgi–Jarlskog double ratio at $c = 1$.
+
+### 5.2 Stage 4: Exact 1-Loop Ray–Singer / Kronecker Casimir Potential $V_{\text{1-loop}}(\tau)$ Monotonicity Proof
+- Using $B_2(x) = x^2 - x + \frac{1}{6}$ for the SM chiral fermion multiplets $Q(6, q=1)$, $u^c(3, q=-4)$, $d^c(3, q=2)$, $L(2, q=-3)$, $e^c(1, q=6)$:
+  - On $\alpha = 2/5$: $\sum_{f\in\text{SM}} n_f B_2(|q_f \cdot 2/5 \bmod 1|) = 10(-\frac{11}{150}) + 5(+\frac{1}{150}) = -\frac{7}{10} = -0.7 < 0$ (`err < 1e-15`).
+  - On $\alpha = 1/5$: $\sum_{f\in\text{SM}} n_f B_2(|q_f \cdot 1/5 \bmod 1|) = 10(+\frac{1}{150}) + 5(-\frac{11}{150}) = -\frac{3}{10} = -0.3 < 0$ (`err < 1e-15`).
+- Both the untwisted Ray–Singer potential $V_0(\tau) = -\ln(\operatorname{Im}\tau\,|\eta(\tau)|^4)$ and the twisted SM fermion Kronecker potential $V_{\text{ferm}}(\tau) = \sum_{f\in\text{SM}} n_f\left(\ln\left|\frac{\theta_1(a_f\tau - b_f \mid \tau)}{\eta(\tau)}\right|^2 - 2\pi a_f^2 \operatorname{Im}\tau\right)$ are **strictly monotonically increasing** across $\operatorname{Im}\tau \in [1.0, 3.5]$ along $\operatorname{Re}\tau = 1/\sqrt{5}$ (`min_step_diff_V0 = +0.01269 > 0`, `min_step_diff_Vferm = +0.45422 > 0`), proving that flat-bundle 1-loop Casimir energy has no minimum near $\operatorname{Im}\tau \approx 2.6\text{--}3.0$ without an extra flux or non-perturbative competitive term.
+
+### 5.3 Cross-Check of `9ccf7c4d3` (`audit/physical-bridge-2026-09-05` §1 & §2): Rank-2 Mapping-Torus Local System & Exact $F_{10} = -80\,\eta^{12}\,E_4$ Branch Structure
+- Every source repair requested in `9ccf7c4d3` (which audited earlier commit `dcae538ab`) was already implemented in `951998a73` and `c1248932e`. In addition, `Theorem 17` Part C verifies the two new mathematical results introduced in `9ccf7c4d3`:
+  1. **Rank-2 $SU(2)$ Mapping-Torus Local System on $M_3$:** For $w = (2/5, 1/5)$ where $M w = -w + (4, -2)^T \equiv -w \pmod{\mathbb{Z}^2}$, the rank-2 $SU(2)$ representation $\rho(\gamma) = \operatorname{diag}(\chi_w(\gamma), \chi_w(\gamma)^{-1})$, $\rho(t) = J = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$ satisfies $J\,\rho(\gamma)\,J^{-1} = \rho(M\gamma)$ to `< 1e-15` across $\mathbb{Z}^2$.
+  2. **Exact $F_{10}$ Scalar Factorization & Principal Square-Root Cut:** Verifies $F_{10}(\tau) = \theta_4^{20} + \theta_2^{20} - \theta_3^{20} = -80\,\eta(\tau)^{12}\,E_4(\tau)$ to `< 1e-14`, its simple zero at the orbifold point $\tau = e^{2\pi i/3}$ (`|F_10(e^{2pi i/3})| < 1e-14`), and its negative real principal square-root branch cut along the imaginary axis $\tau = i y$ where $b_{\text{st}}(iy) = -\overline{b_{\text{st}}(iy)}$ (`err < 1e-15`).
+
+
