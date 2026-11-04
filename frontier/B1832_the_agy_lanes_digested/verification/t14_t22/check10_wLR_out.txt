@@ -1,0 +1,1 @@
+{'w_in_St': True, 'T15_convention_w^dag_sx_w_eq_sx': True, 'T15_convention_w^dag_ML_w_minus_MR': 1.1102230246251565e-16, 'T15_convention_w^dag_ML_w_plus_MR': 1.9999999999999996, 'left_coset_action_of_w': [0, 2, 1]}

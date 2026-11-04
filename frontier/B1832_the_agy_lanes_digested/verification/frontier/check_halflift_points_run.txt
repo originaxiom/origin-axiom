@@ -1,0 +1,29 @@
+         (0   , 1/10 ) N=10  sv 4.1e-16  G2 5.6e-17  R-relation 4.9e-17
+         (0   , 1/8  ) N= 8  sv 2.3e-16  G2 2.1e-17  R-relation 1.4e-01
+         (0   , 3/10 ) N=10  sv 2.3e-15  G2 3.9e-16  R-relation 1.8e-16
+         (0   , 3/8  ) N= 8  sv 3.9e-16  G2 3.9e-17  R-relation 1.4e-01
+         (0   , 1/2  ) N= 2  sv 5.2e-16  G2 5.3e-18  R-relation 1.7e-16
+         (1/5 , 1/10 ) N=10  sv 3.2e-15  G2 7.0e-16  R-relation 1.5e-15
+         (1/5 , 3/10 ) N=10  sv 3.1e-15  G2 1.1e-15  R-relation 1.8e-15
+         (1/5 , 1/2  ) N=10  sv 3.3e-15  G2 8.1e-16  R-relation 1.7e-15
+         (1/5 , 7/10 ) N=10  sv 2.4e-15  G2 5.4e-16  R-relation 2.9e-15
+         (1/5 , 9/10 ) N=10  sv 2.8e-15  G2 7.8e-16  R-relation 3.8e-15
+         (1/4 , 1/8  ) N= 8  sv 2.0e-15  G2 3.3e-16  R-relation 1.5e+00
+         (1/4 , 3/8  ) N= 8  sv 1.4e-15  G2 4.0e-16  R-relation 1.5e+00
+         (1/4 , 5/8  ) N= 8  sv 1.4e-15  G2 3.1e-16  R-relation 1.5e+00
+         (1/4 , 7/8  ) N= 8  sv 1.4e-15  G2 5.1e-16  R-relation 1.5e+00
+         (2/5 , 1/10 ) N=10  sv 2.4e-15  G2 3.7e-16  R-relation 1.6e-15
+         (2/5 , 3/10 ) N=10  sv 1.2e-15  G2 3.6e-16  R-relation 1.8e-15
+         (2/5 , 1/2  ) N=10  sv 2.1e-15  G2 3.5e-16  R-relation 1.6e-15
+         (2/5 , 7/10 ) N=10  sv 3.7e-15  G2 2.4e-16  R-relation 2.6e-15
+         (2/5 , 9/10 ) N=10  sv 2.1e-15  G2 4.3e-16  R-relation 3.1e-15
+         (1/2 , 1/8  ) N= 8  sv 4.6e-15  G2 8.5e-16  R-relation 1.0e+00
+         (1/2 , 3/8  ) N= 8  sv 3.5e-15  G2 7.7e-16  R-relation 1.0e+00
+control  (2/5 , 1/5  ) N= 5  sv 1.9e-01  G2 1.2e-01  R-relation 8.3e-01
+control  (1/4 , 1/4  ) N= 4  sv 2.5e-01  G2 2.2e-01  R-relation 1.5e+00
+control  (1/7 , 3/7  ) N= 7  sv 6.0e-01  G2 2.4e-01  R-relation 6.6e-01
+control  (3/8 , 1/8  ) N= 8  sv 2.0e-01  G2 1.3e-01  R-relation 1.3e+00
+control  (1/3 , 1/6  ) N= 6  sv 4.8e-01  G2 2.9e-01  R-relation 1.1e+00
+half-lift points: 21; max sv dev 4.6e-15; max G2 dev 1.1e-15; max R-relation dev 1.5e+00
+controls: min sv dev 1.9e-01
+exit 0

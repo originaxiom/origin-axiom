@@ -38,7 +38,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 REGISTER = ROOT / "docs" / "POINT_REGISTER.md"
 LEADS = ROOT / "docs" / "OPEN_LEADS.md"
-FLOOR = 620
+FLOOR = 623
 STALE_DAYS = 21
 DISPOSITIONS = {"DONE", "QUEUED", "LEAD", "OWNER", "DECLINED"}
 ROW_RE = re.compile(r"^\|\s*(P-\d{3})\s*\|(.*)\|\s*$")

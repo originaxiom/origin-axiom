@@ -1,0 +1,1 @@
+{'identity_T_max_err_16_basis_pairs': 0.0, 'identity_P_max_err_16_basis_pairs': 0.0, 'control_T_without_transpose': 2.0, 'control_P_with_transpose': 2.0}

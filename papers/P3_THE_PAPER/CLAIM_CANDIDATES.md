@@ -585,6 +585,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1682` | PROVED | L | | THE WORD SIDE OF THE RECORD COUNT: for n ≥ 3 no non-trivial conjugacy class of F_n keeps its length under every move; at n = 2 the kept classes are the powers of [a, b]; a kept object, class or character, exists exactly at two records, so the common point characterises GM1 rather than deriving it from a weaker input; no data |
 | `B1815` | PROVED | L | | THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY: for i.i.d. letters L, R at (1−p)/2 and L⁻¹, R⁻¹ at p/2 the endpoint law is (1−p)·M + p·F₊M at every p, singular to area, P(ξ > 0) = 1 − p; with the arclength placement its averages are the move clock's; the clock stays CHOSEN |
 | `B1816` | PROVED | L | | THE CANONICAL END'S ACCESSORY PARAMETER IS A WEIL–PETERSSON PRIMITIVE: on its uniformising branch ∂C/∂τ̄ = i·h_WP(τ), C = 2c; the volume π²/12; WP volume stands beside hyperbolic area as a frame-native clock; nothing ranks them |
+| `B1832` | PROVED | L | | THE AGY LANES DIGESTED: every channel kernel of B1656's frame is a Kronecker kernel of the summed twist (the sectors' norms coincide; the kernel's constant is odd between up and down); on the 40 β-half-lifts the lepton Yukawa is the down Yukawa flipped, for every Higgs; F₁₀'s v·v = −80η¹²E₄; θ_Y steps by 264πa and 66a² + ¼ is never an integer. Not values: 0 of 19 |
 
 ## The exhibit that forced the rebuild
 

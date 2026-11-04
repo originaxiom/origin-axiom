@@ -1,0 +1,18 @@
+B1825 address (3/8,3/8), DR, L_2 = 2.358388, tau = (0.093359375+2.742578125j); |eta^3|/2 = 0.058009
+convention A:
+  a0 = 0 (FR-FIB), S~S~                            |V_ud| 0.9791 |V_us| 0.2028 |V_cb| 0.0633 |V_ub| 0.01364 |V_td| 0.00121  |V_ub|/|V_td| 11.2797  |J| 1.4414e-05  |J|/Jmax 0.0842
+  a0 = 0.20 e^{7pi i/8} shared, S~S~               |V_ud| 0.9937 |V_us| 0.1116 |V_cb| 0.0610 |V_ub| 0.01148 |V_td| 0.01694  |V_ub|/|V_td| 0.6778  |J| 5.4275e-05  |J|/Jmax 0.6996
+  a0 = (1/2) eta^3 shared, S~S~                    |V_ud| 0.9621 |V_us| 0.2721 |V_cb| 0.0605 |V_ub| 0.01982 |V_td| 0.00341  |V_ub|/|V_td| 5.8205  |J| 3.9310e-05  |J|/Jmax 0.1255
+  Arm 1: +w^2 (eta^3)*/2, -w^2 (eta^3)*/2, S~S~    |V_ud| 0.9721 |V_us| 0.2343 |V_cb| 0.1485 |V_ub| 0.00466 |V_td| 0.03058  |V_ub|/|V_td| 0.1523  |J| 4.8100e-05  |J|/Jmax 0.3085
+  a0 = 0.20 e^{7pi i/8}, the ledger's S~S          |V_ud| 0.8969 |V_us| 0.4267 |V_cb| 0.9513 |V_ub| 0.11628 |V_td| 0.38568  |V_ub|/|V_td| 0.3015  |J| 6.1877e-03  |J|/Jmax 0.5049
+convention B:
+  a0 = 0 (FR-FIB), S~S~                            |V_ud| 0.9791 |V_us| 0.2028 |V_cb| 0.0633 |V_ub| 0.01364 |V_td| 0.00121  |V_ub|/|V_td| 11.2797  |J| 1.4414e-05  |J|/Jmax 0.0842
+  a0 = 0.20 e^{7pi i/8} shared, S~S~               |V_ud| 0.9913 |V_us| 0.1288 |V_cb| 0.0586 |V_ub| 0.02713 |V_td| 0.02305  |V_ub|/|V_td| 1.1769  |J| 1.6075e-04  |J|/Jmax 0.7932
+  a0 = (1/2) eta^3 shared, S~S~                    |V_ud| 0.9584 |V_us| 0.2847 |V_cb| 0.0605 |V_ub| 0.02067 |V_td| 0.00356  |V_ub|/|V_td| 5.7984  |J| 4.5948e-05  |J|/Jmax 0.1349
+  Arm 1: +w^2 (eta^3)*/2, -w^2 (eta^3)*/2, S~S~    |V_ud| 0.9253 |V_us| 0.3786 |V_cb| 0.1659 |V_ub| 0.02071 |V_td| 0.04460  |V_ub|/|V_td| 0.4644  |J| 2.6442e-04  |J|/Jmax 0.2227
+  a0 = 0.20 e^{7pi i/8}, the ledger's S~S          |V_ud| 0.8956 |V_us| 0.4276 |V_cb| 0.9801 |V_ub| 0.12262 |V_td| 0.41181  |V_ub|/|V_td| 0.2978  |J| 4.4074e-03  |J|/Jmax 0.6043
+a0 = 0, the four quark readings (up, down):
+  S~S~  |V_ud| 0.9791 |V_us| 0.2028 |V_cb| 0.0633 |V_td| 0.0012 |V_ub|/|V_td| 11.2797
+  SS    |V_ud| 0.0824 |V_us| 0.9888 |V_cb| 0.0087 |V_td| 0.0168 |V_ub|/|V_td| 7.4033
+  S~S   |V_ud| 0.0992 |V_us| 0.9944 |V_cb| 0.9890 |V_td| 0.9845 |V_ub|/|V_td| 0.0362
+  SS~   |V_ud| 0.9590 |V_us| 0.2822 |V_cb| 0.9951 |V_td| 0.2789 |V_ub|/|V_td| 0.1003

@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1535 |
-| … PROVED | 1047 |
+| arcs with a verdict file | 1536 |
+| … PROVED | 1048 |
 | … NEGATIVE | 382 |
 | … OPEN | 94 |
 | … RETRACTED | 12 |
-| register points | 620 |
-| … QUEUED | 252 |
+| register points | 623 |
+| … QUEUED | 251 |
 | … LEAD | 9 |
 | … OWNER | 5 |
-| … DONE | 344 |
+| … DONE | 348 |
 | … DECLINED | 10 |
-| harvest rows (the last number) | 1547 |
+| harvest rows (the last number) | 1550 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1832 | PROVED | THE AGY LANES DIGESTED (P-621; the owner's 'verify and digest bank all the work from agy'): every claim of both agy branches and the independent lane typed and dispositioned, every data-free one checked on main's code (… |
 | B1831 | PROVED | REVIEW 74 (the owner's 'do the decadal'; 38 merges, two short of the block): at the owner's mid-review ask the backlog was read in full for leads -- 84 open relays (72 BANKED, 7 DECLINED, 5 open with next actions), 276… |
 | B1830 | PROVED | THE REGISTER TRIAGED (the owner's ruling on P-587, 2026-11-03: 'yes'): every open row typed DEBT, LEAD or PROCESS, only debts age, every open debt on a ranked list by load (point_debt.py rule 6, with a planted test). Fi… |
 | B1829 | PROVED | GENESIS v1.61 (the owner's ruling on P-577, 2026-11-03, 'agreed' to the owner's own tiered-bar proposal as main assessed it): where the joint look count applies, level 1 is a fixed screen (THE_BAR at p < 0.01 with every… |
@@ -42,7 +43,6 @@
 | B1823 | NEGATIVE | STEP A v2, THE TIED HEAVY SECTOR'S ONE-LOOP VACUUM (P-518, P-519; data-free; refereed hostile, FAIL as drafted, the three blocking findings verified by main and applied): NEGATIVE as a compression. Under the plan's seal… |
 | B1822 | PROVED | T-NORM ON THE FRAME'S MATTER (P-525; data-free; refereed hostile, PASS WITH CORRECTIONS): FR-FIB's matter zero modes (one quaternion-type doublet per field times the blocks QJ, QI, QK) give the generation Gram matrix G… |
 | B1821 | PROVED | THE FRAME'S MIRROR SYMMETRY ON THE CENSUS (B1790's mirror map, confirmed on every direction and line; Step B's census, P-521; data-free): FR-FIB's outputs at (-x+iy, line (a, -b)) equal those at (x+iy, (a, b)) row by ro… |
-| B1820 | PROVED | THE RIGID CENSUS'S CURVATURE ALONG Re TAU AND ITS REFINEMENT LIST (Step B's revision, P-521; aggregates and indices only; data-free): along Re tau the grid is the coarse one -- 7.75% of curvatures exceed 0.08 decades (I… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -57,6 +57,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S299b B1832 THE AGY LANES DIGESTED (P-621): FOUR THEOREMS AND THREE EXACT IDENTITIES BANKED; B1784 AND B1826 CORRECTED; THE SCORECARD STILL 0 OF 19 (2026-11-04)
 - S299 REVIEW 74, THE DECADAL REVIEW: THE BACKLOG READ IN FULL FOR LEADS; THE CANDIDATE'S CONFIRMATION ONE HELD-OUT TARGET SHORT (θ̄ RULED AN INPUT); THE CARRY RULE MADE TO FIRE (2026-11-04)
 - S298 THE HARVEST: EVERY SEAT'S BRANCH READ TO ITS HEAD; THE WEB SEAT'S REVIEW VERIFIED AND APPLIED — B1825's BAR GRADE IS NOT FOUND, THE MIRROR RULE'S 'CLOSED' UNEARNED, B1788's (b) SCOPED (2026-11-0…
 - S297 THE TRIAGE RECHECKED AT THE OWNER'S WORD: 20 STALE LAW-MAP ROWS, THE CANDIDATE'S END, THE NEGATIVES' SCALE, P-355's FIRST ITEM (2026-11-03)
@@ -64,11 +65,10 @@
 - S295 THE CANDIDATE FAMILY's OWN RELATION D, CREDITED; THE REGISTER's LOAD MEASURED (2026-11-03)
 - S294 THE TWO-LEVEL BAR: GENESIS v1.61 — A FIXED SCREEN MAKES A CANDIDATE, ONLY A HELD-OUT CONFIRMATION MAKES A RESULT (THE OWNER'S RULING ON P-577) (2026-11-03)
 - S293 THE OWNER'S WORD ON B1814's BLIND RERUN, RELAYED TO THE SM SEAT (2026-11-03)
-- S292 THE EARNED DICTIONARY: GENESIS v1.60 — A FRAME MAY EARN ITS DICTIONARY BY HELD-OUT PREDICTION (THE OWNER'S RULING ON P-580) (2026-11-03)
 
 ## The latest campaign line
 
-LATEST (2026-11-04, S299: Review 74, the decadal review. At the owner's word everything handed to the review was read in full — every open relay, every old harvest row, every open lead — for load on main and for ideas nobody followed. Nothing hidden derives a Standard Model number; the leads that could change the direction are ranked for the owner. The strong angle θ̄ turns out not to be a prediction of the frame without a chosen rule, so it comes off the candidate's held-out list, and the candidate's confirmation is now one held-out target short of the two the rule requires (P-597). Main's own two unbacked claims of 3 November were corrected with committed instruments, and the review loop'…
+LATEST (2026-11-04, S299b: the agy lanes' work verified and banked at the owner's word (B1832). Every claim was checked on main's own code. What holds is mathematics about the frame, not Standard Model numbers: the kernel lemma the record owed now has a derivation, the lepton–down relation on the 40 half-lift lines is proved for every Higgs, and three more identities are exact. Two of main's own statements were corrected (B1784, B1826). The lane's 'full ToE' scorecard is 0 of 19 by its own code. The parts that compute the candidate's last blind target were not read. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

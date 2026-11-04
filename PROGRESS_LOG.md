@@ -18325,3 +18325,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 ## 2026-11-04 — S299 Review 74, the decadal review
 
 - The backlog read in full for leads at the owner's word (84 relays, 276 SCHEDULED rows, 219 leads): no hidden derivation; the leads ranked for the owner; θ̄ ruled an input, so the candidate's confirmation is one held-out target short (P-597); the carry rule made to fire (E84); the sample's and main's own S298 errors corrected with instruments. 0 of 19.
+
+## 2026-11-04 — S299b the agy lanes digested (B1832)
+
+- Every agy claim typed and checked on main's code; four theorems banked (P-524's kernel lemma derived, RI-1 a theorem, the lepton–down law on the 40 half-lifts proved, F₁₀'s norm, the θ_Y b-step); B1784 and B1826 corrected; the scorecard 0 of 19; the y_b/y_t parts unread. 0 of 19.

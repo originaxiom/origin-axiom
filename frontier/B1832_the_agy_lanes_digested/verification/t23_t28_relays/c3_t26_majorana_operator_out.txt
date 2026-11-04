@@ -1,0 +1,4 @@
+docstring identities (P^2 = P, inverse, M_R = bI + hh^T/b): max err 2.86e-14
+code identities (P^2 = alpha P, inverse): max err 4.58e-16
+relative difference |M_R(doc) - M_R(code)| / |M_R(doc)| over 20 random complex h: min 0.013, median 0.541
+control, h real: difference 0.00e+00

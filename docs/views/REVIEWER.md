@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1535** |
-| words of findings prose | **1,282,481** |
+| research arcs with findings | **1536** |
+| words of findings prose | **1,285,777** |
 | test lock files referenced | **932** |
-| arcs carrying an authored verdict | **1535** (100.0 %) |
+| arcs carrying an authored verdict | **1536** (100.0 %) |
 | recorded closures | **858** (691 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1047 |
+| PROVED | 1048 |
 | NEGATIVE | 382 |
 | OPEN | 94 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1831`** (764 words, 0 locks)  
-REVIEW 74 (the owner's 'do the decadal'; 38 merges, two short of the block): at the owner's mid-review ask the backlog was read in full for leads -- 84 open relays (72 BANKED, 7 DECLINED, 5 open with next actions), 276 SCHEDULED rows (none derives a parameter or hides a positive; about 146 handled elsewhere), 142 register leads and 77 open leads (39 stale; the tops ranked for the owner); the carry rule could not fire (E84, fixed); the seats harvested past S298 and theta-bar ruled off P-585's held-out list, the candidate's confirmation one target short (P-597); the sample's and main's own S298 errors corrected with instruments; P-592 declined, P-535 adjudicated, P-563/P-565 adopted; E95 new. 0 of 19.  
-`B1831_review_74_the_decadal_review/FINDINGS.md`
+**PROVED — `B1832`** (2872 words, 0 locks)  
+THE AGY LANES DIGESTED (P-621; the owner's 'verify and digest bank all the work from agy'): every claim of both agy branches and the independent lane typed and dispositioned, every data-free one checked on main's code (about sixty checks re-run by main, identical). Banked: T-KERNEL-SUM-TWIST (every channel kernel is a Kronecker kernel of the summed twist -- P-524's lemma with a written derivation; RI-1 a theorem: a0 odd between up and down/lepton in every channel), T-HALF-LIFT-LEPTON-DOWN (Y_e(S) = lambda D Y_d(Sigma S)^T D on the order-10 half-lifts, lambda D Y_d(Sigma S) D on the order-8, for any Higgs -- S297's coincidence proved; a0 != 0 splits order 8), T-FA-NORM (F_10's v.v = -80 eta^12 E4), T-THETA-Y-BSTEP (264 pi a; 66a^2 + 1/4 not an integer); exact identities: the residues as theta products (the i-residue zeros 5w or 3w = 1/2), the LL pair = the charged sectors at the doubled line, the mirror as P conj(Y) P. Corrected on main: B1784's i-residue wording and its 'saddle' (tau* not a critical point), B1826 1.3's population (719 of 1127 hierarchical rows have the measured corner order). Refuted: a dozen agy claims incl. fabricated seen-first names. The scorecard: 0 of 19. y_b/y_t and y_tau/y_b parts unread by main.  
+`B1832_the_agy_lanes_digested/FINDINGS.md`
 
 **NEGATIVE — `B1825`** (1949 words, 0 locks)  
 THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings, continuous tau with Im tau in [1, 4], c = 3) no rigid address of FR-FIB carries our world's ten (the six mass ratios, |V_us|, |V_cb|, |V_ub|, |J|): the least chi2_ten is 291.4 against 23.21 (a fresh evaluation 291.5; refereed by an independent scan of every stored node). The six alone are reached (least chi2_six 1.36) and the four alone are reached (0.35 at a node), never together: no address whose six lie near the best reaches the four (rigorous enclosures), and K's bits_CKM is -194 (knowing our six makes the frame's prediction of our mixing 2^194 times worse). The wall was seen on narrower menus (B1713: masses and mixing together a factor 3.59; B1720: they do not meet); this seals it on the whole menu at sigma resolution. NOT FOUND within the reach; nothing excluded beyond it. 0 of 19. [S298: the bar's grade is NOT FOUND (S not found, T consistent, no V cell); NEGATIVE is the kill graph's category; scope at H = I (B1822)]  

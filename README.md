@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.61) of 2026-11-03 |
-| arcs with a verdict | 1535: 1047 PROVED, 382 NEGATIVE, 94 OPEN, 12 RETRACTED |
-| points in the register | 620: 266 open (queued, leads, waiting for the owner), 354 closed |
+| arcs with a verdict | 1536: 1048 PROVED, 382 NEGATIVE, 94 OPEN, 12 RETRACTED |
+| points in the register | 623: 265 open (queued, leads, waiting for the owner), 358 closed |
 | the last review | Review 74 (2026-11-04), anchor `41420ae14` |
-| the last landing | S299 REVIEW 74, THE DECADAL REVIEW: THE BACKLOG READ IN FULL FOR LEADS; THE CANDIDATE'S CONFIRMATION ONE HELD-OUT TARGET SHORT (θ̄ RULED AN INPUT); T… |
+| the last landing | S299b B1832 THE AGY LANES DIGESTED (P-621): FOUR THEOREMS AND THREE EXACT IDENTITIES BANKED; B1784 AND B1826 CORRECTED; THE SCORECARD STILL 0 OF 19 (… |
 <!-- STATE:END -->
 
 ## Start here

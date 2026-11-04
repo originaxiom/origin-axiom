@@ -14187,7 +14187,8 @@
    "slug": "the agy lane audited",
    "motifs": [
     "choice",
-    "coupling"
+    "coupling",
+    "torsion"
    ],
    "refs": [
     "B854"
@@ -15226,6 +15227,27 @@
    "obstacle_conf": 0,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1832": {
+   "slug": "the agy lanes digested",
+   "motifs": [
+    "closing",
+    "choice",
+    "coupling",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "S297",
+    "S299"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B183": {
    "slug": "open collective arrow",

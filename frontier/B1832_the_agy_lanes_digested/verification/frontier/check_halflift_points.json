@@ -1,0 +1,288 @@
+[
+ {
+  "line": [
+   "0",
+   "1/10"
+  ],
+  "order": 10,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 4.145548354504562e-16,
+  "gram_G2": 5.551470839065445e-17,
+  "R_lep_vs_zeta_flipped_R_down": 4.9048031931040297e-17
+ },
+ {
+  "line": [
+   "0",
+   "1/8"
+  ],
+  "order": 8,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 2.29219820059038e-16,
+  "gram_G2": 2.1103821920200808e-17,
+  "R_lep_vs_zeta_flipped_R_down": 0.14265313653531456
+ },
+ {
+  "line": [
+   "0",
+   "3/10"
+  ],
+  "order": 10,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 2.2521509569988283e-15,
+  "gram_G2": 3.8857822288273093e-16,
+  "R_lep_vs_zeta_flipped_R_down": 1.7614630731307313e-16
+ },
+ {
+  "line": [
+   "0",
+   "3/8"
+  ],
+  "order": 8,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 3.864430813309427e-16,
+  "gram_G2": 3.8517111915170804e-17,
+  "R_lep_vs_zeta_flipped_R_down": 0.14265313653531456
+ },
+ {
+  "line": [
+   "0",
+   "1/2"
+  ],
+  "order": 2,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 5.156937480896736e-16,
+  "gram_G2": 5.29235625526961e-18,
+  "R_lep_vs_zeta_flipped_R_down": 1.7153174702085573e-16
+ },
+ {
+  "line": [
+   "1/5",
+   "1/10"
+  ],
+  "order": 10,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 3.214983282718746e-15,
+  "gram_G2": 7.038446774289102e-16,
+  "R_lep_vs_zeta_flipped_R_down": 1.466084521757788e-15
+ },
+ {
+  "line": [
+   "1/5",
+   "3/10"
+  ],
+  "order": 10,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 3.1309708465898402e-15,
+  "gram_G2": 1.0825355570033537e-15,
+  "R_lep_vs_zeta_flipped_R_down": 1.7825576132553544e-15
+ },
+ {
+  "line": [
+   "1/5",
+   "1/2"
+  ],
+  "order": 10,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 3.2896555292521085e-15,
+  "gram_G2": 8.0594336040771795e-16,
+  "R_lep_vs_zeta_flipped_R_down": 1.6975262298842637e-15
+ },
+ {
+  "line": [
+   "1/5",
+   "7/10"
+  ],
+  "order": 10,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 2.3931513429270688e-15,
+  "gram_G2": 5.368233461680785e-16,
+  "R_lep_vs_zeta_flipped_R_down": 2.8834878854785804e-15
+ },
+ {
+  "line": [
+   "1/5",
+   "9/10"
+  ],
+  "order": 10,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 2.790781599481938e-15,
+  "gram_G2": 7.800953297150899e-16,
+  "R_lep_vs_zeta_flipped_R_down": 3.756527217950151e-15
+ },
+ {
+  "line": [
+   "1/4",
+   "1/8"
+  ],
+  "order": 8,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 2.037697747889233e-15,
+  "gram_G2": 3.3333818569009576e-16,
+  "R_lep_vs_zeta_flipped_R_down": 1.4997706075729815
+ },
+ {
+  "line": [
+   "1/4",
+   "3/8"
+  ],
+  "order": 8,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 1.3876860011134028e-15,
+  "gram_G2": 4.025467003681241e-16,
+  "R_lep_vs_zeta_flipped_R_down": 1.4995412677185795
+ },
+ {
+  "line": [
+   "1/4",
+   "5/8"
+  ],
+  "order": 8,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 1.4154959346441592e-15,
+  "gram_G2": 3.0614914619850095e-16,
+  "R_lep_vs_zeta_flipped_R_down": 1.4997706075729815
+ },
+ {
+  "line": [
+   "1/4",
+   "7/8"
+  ],
+  "order": 8,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 1.3733409460674737e-15,
+  "gram_G2": 5.12551345209991e-16,
+  "R_lep_vs_zeta_flipped_R_down": 1.4995412677185793
+ },
+ {
+  "line": [
+   "2/5",
+   "1/10"
+  ],
+  "order": 10,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 2.3770607579020547e-15,
+  "gram_G2": 3.749413780275684e-16,
+  "R_lep_vs_zeta_flipped_R_down": 1.5957739466478797e-15
+ },
+ {
+  "line": [
+   "2/5",
+   "3/10"
+  ],
+  "order": 10,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 1.2352777954775423e-15,
+  "gram_G2": 3.645561729348053e-16,
+  "R_lep_vs_zeta_flipped_R_down": 1.7857453431419785e-15
+ },
+ {
+  "line": [
+   "2/5",
+   "1/2"
+  ],
+  "order": 10,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 2.13586294913073e-15,
+  "gram_G2": 3.473514560815706e-16,
+  "R_lep_vs_zeta_flipped_R_down": 1.5513234220640332e-15
+ },
+ {
+  "line": [
+   "2/5",
+   "7/10"
+  ],
+  "order": 10,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 3.740907349168804e-15,
+  "gram_G2": 2.3757479755373554e-16,
+  "R_lep_vs_zeta_flipped_R_down": 2.5751359158798227e-15
+ },
+ {
+  "line": [
+   "2/5",
+   "9/10"
+  ],
+  "order": 10,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 2.0976764882284176e-15,
+  "gram_G2": 4.2585606447942157e-16,
+  "R_lep_vs_zeta_flipped_R_down": 3.127243160338178e-15
+ },
+ {
+  "line": [
+   "1/2",
+   "1/8"
+  ],
+  "order": 8,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 4.6005050250406e-15,
+  "gram_G2": 8.542892294573169e-16,
+  "R_lep_vs_zeta_flipped_R_down": 1.005087446254053
+ },
+ {
+  "line": [
+   "1/2",
+   "3/8"
+  ],
+  "order": 8,
+  "control": false,
+  "sv_lep(h)_vs_down(Ph)": 3.4785760712243896e-15,
+  "gram_G2": 7.6774400647593045e-16,
+  "R_lep_vs_zeta_flipped_R_down": 1.0050874462540536
+ },
+ {
+  "line": [
+   "2/5",
+   "1/5"
+  ],
+  "order": 5,
+  "control": true,
+  "sv_lep(h)_vs_down(Ph)": 0.18641875083659634,
+  "gram_G2": 0.11960677528247948,
+  "R_lep_vs_zeta_flipped_R_down": 0.8341432859529153
+ },
+ {
+  "line": [
+   "1/4",
+   "1/4"
+  ],
+  "order": 4,
+  "control": true,
+  "sv_lep(h)_vs_down(Ph)": 0.24701846067220484,
+  "gram_G2": 0.2230262843951421,
+  "R_lep_vs_zeta_flipped_R_down": 1.4735863942743634
+ },
+ {
+  "line": [
+   "1/7",
+   "3/7"
+  ],
+  "order": 7,
+  "control": true,
+  "sv_lep(h)_vs_down(Ph)": 0.5982086659692571,
+  "gram_G2": 0.24192835223279965,
+  "R_lep_vs_zeta_flipped_R_down": 0.6623822580182703
+ },
+ {
+  "line": [
+   "3/8",
+   "1/8"
+  ],
+  "order": 8,
+  "control": true,
+  "sv_lep(h)_vs_down(Ph)": 0.19706350817691987,
+  "gram_G2": 0.1325189389922749,
+  "R_lep_vs_zeta_flipped_R_down": 1.2899818086530694
+ },
+ {
+  "line": [
+   "1/3",
+   "1/6"
+  ],
+  "order": 6,
+  "control": true,
+  "sv_lep(h)_vs_down(Ph)": 0.47696130405834913,
+  "gram_G2": 0.288871966494754,
+  "R_lep_vs_zeta_flipped_R_down": 1.0500020007884223
+ }
+]

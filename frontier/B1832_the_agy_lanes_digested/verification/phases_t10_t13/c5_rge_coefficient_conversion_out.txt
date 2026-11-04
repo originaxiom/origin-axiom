@@ -1,0 +1,5 @@
+R1 d ln(mu^2)/dt : 4*pi
+R1 f1 = 4 pi/(4 pi)^2, f2 = 4 pi/(4 pi)^4 : ['1/(4*pi)', '1/(64*pi**3)']
+R1 legacy gauge 41/5 * 1/(8 pi) == 41/10 * 1/(4 pi) : True
+R2 converted standard - lane (18c607040) two-loop lambda polynomial : 0
+R2 the 'factor-of-3' terms of the earlier version: 1887/400 = 3 x 629/400, 1677/800 = 3 x 559/800, 3411/4000 = 9 x 379/4000 : [3, 3, 9]

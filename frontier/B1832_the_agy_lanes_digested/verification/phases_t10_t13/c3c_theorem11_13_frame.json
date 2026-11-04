@@ -1,0 +1,140 @@
+{
+ "T11d tau (0.447214+2.618034j)": {
+  "up": {
+   "|Y(-conj tau) - P conj(Y) P| (lifted b)": 4.119909457029632e-15,
+   "|det Y(-conj tau) - conj det Y|": 8.578697290340176e-17,
+   "principal b(-conj tau) == conj b(tau)?": true,
+   "|Y - P conj Y P| with principal b": 4.119909457029632e-15
+  },
+  "down": {
+   "|Y(-conj tau) - P conj(Y) P| (lifted b)": 9.012017851447574e-16,
+   "|det Y(-conj tau) - conj det Y|": 1.571439502010377e-16,
+   "principal b(-conj tau) == conj b(tau)?": true,
+   "|Y - P conj Y P| with principal b": 9.012017851447574e-16
+  },
+  "lepton": {
+   "|Y(-conj tau) - P conj(Y) P| (lifted b)": 3.923660740106592e-15,
+   "|det Y(-conj tau) - conj det Y|": 7.934819356545115e-17,
+   "principal b(-conj tau) == conj b(tau)?": true,
+   "|Y - P conj Y P| with principal b": 3.923660740106592e-15
+  }
+ },
+ "T11d tau (0.39438+2.643921j)": {
+  "up": {
+   "|Y(-conj tau) - P conj(Y) P| (lifted b)": 1.5543122344752192e-15,
+   "|det Y(-conj tau) - conj det Y|": 9.917945636731266e-18,
+   "principal b(-conj tau) == conj b(tau)?": true,
+   "|Y - P conj Y P| with principal b": 1.5543122344752192e-15
+  },
+  "down": {
+   "|Y(-conj tau) - P conj(Y) P| (lifted b)": 1.5788995281571398e-15,
+   "|det Y(-conj tau) - conj det Y|": 3.1572443831564574e-17,
+   "principal b(-conj tau) == conj b(tau)?": true,
+   "|Y - P conj Y P| with principal b": 1.5788995281571398e-15
+  },
+  "lepton": {
+   "|Y(-conj tau) - P conj(Y) P| (lifted b)": 6.684427777288335e-16,
+   "|det Y(-conj tau) - conj det Y|": 1.457193533929306e-17,
+   "principal b(-conj tau) == conj b(tau)?": true,
+   "|Y - P conj Y P| with principal b": 6.684427777288335e-16
+  }
+ },
+ "T11d tau (0.495105+2.299687j)": {
+  "up": {
+   "|Y(-conj tau) - P conj(Y) P| (lifted b)": 2.8197533903531824e-15,
+   "|det Y(-conj tau) - conj det Y|": 4.3501635953370134e-16,
+   "principal b(-conj tau) == conj b(tau)?": true,
+   "|Y - P conj Y P| with principal b": 2.8197533903531824e-15
+  },
+  "down": {
+   "|Y(-conj tau) - P conj(Y) P| (lifted b)": 1.8244937149463952e-15,
+   "|det Y(-conj tau) - conj det Y|": 3.1517479295818915e-17,
+   "principal b(-conj tau) == conj b(tau)?": true,
+   "|Y - P conj Y P| with principal b": 1.8244937149463952e-15
+  },
+  "lepton": {
+   "|Y(-conj tau) - P conj(Y) P| (lifted b)": 2.0516726431624885e-15,
+   "|det Y(-conj tau) - conj det Y|": 4.935798923866035e-16,
+   "principal b(-conj tau) == conj b(tau)?": true,
+   "|Y - P conj Y P| with principal b": 2.0516726431624885e-15
+  }
+ },
+ "T11e FR-FIB, F_10 reading S~, line (2/5, 1/10), tau 0.3+2.1i": {
+  "up": {
+   "|Y((a,-b), -conj tau) - P conj Y((a,b), tau) P|/|Y|": 7.782202569525859e-16,
+   "control: same line (a, b) at -conj tau": 0.7367635662144805
+  },
+  "down": {
+   "|Y((a,-b), -conj tau) - P conj Y((a,b), tau) P|/|Y|": 5.090993489440514e-16,
+   "control: same line (a, b) at -conj tau": 1.1745181991146723
+  },
+  "lepton": {
+   "|Y((a,-b), -conj tau) - P conj Y((a,b), tau) P|/|Y|": 9.089513259886195e-16,
+   "control: same line (a, b) at -conj tau": 0.8538090099600973
+  }
+ },
+ "T11e FR-FIB, F_10 reading S, line (2/5, 1/10), tau 0.3+2.1i": {
+  "up": {
+   "|Y((a,-b), -conj tau) - P conj Y((a,b), tau) P|/|Y|": 7.785608916437882e-16,
+   "control: same line (a, b) at -conj tau": 0.7360933359967841
+  },
+  "down": {
+   "|Y((a,-b), -conj tau) - P conj Y((a,b), tau) P|/|Y|": 5.090078384870758e-16,
+   "control: same line (a, b) at -conj tau": 1.1735844334246317
+  },
+  "lepton": {
+   "|Y((a,-b), -conj tau) - P conj Y((a,b), tau) P|/|Y|": 9.087751201408515e-16,
+   "control: same line (a, b) at -conj tau": 0.8526208755787835
+  }
+ },
+ "T11f main's L_2 at Im tau = phi^2 (B1667 column Re tau = 1/4, as cm_zero_line.radii)": 2.369301986988535,
+ "T11f L = 2.360032: arg det Y_u, arg det Y_d, arg det(Y_u Y_d) (rad)": [
+  -1.707032,
+  -1.213398,
+  -2.92043
+ ],
+ "T11f   control, FR-FIB (a0 = 0) same point: arg det(Y_u Y_d)": -0.491371,
+ "T11f L = 2.369206: arg det Y_u, arg det Y_d, arg det(Y_u Y_d) (rad)": [
+  -1.708527,
+  -1.213383,
+  -2.92191
+ ],
+ "T11f L = 2.369302: arg det Y_u, arg det Y_d, arg det(Y_u Y_d) (rad)": [
+  -1.708543,
+  -1.213383,
+  -2.921926
+ ],
+ "T11g tau = 2i: principal b, |F| = |b|^2": [
+  "-0.38667067j",
+  0.14951420372391847
+ ],
+ "T11g |Y_u - P conj(Y_u) P| (principal, same scalar)": 2.5041243321327746,
+ "T11g |Y_u(lifted, -conj c) - P conj(Y_u) P|": 2.3914935841127266e-15,
+ "T13d twist-6 (LL norms): |Y - Y^T| (B1799: symmetric)": 1.3877787807814457e-17,
+ "T13d twist-6 (LL norms): (s12^2, s23^2, s13^2, |J|), m2/m3 of M_W": [
+  [
+   0.269457,
+   0.03372,
+   0.00118,
+   0.002698
+  ],
+  0.094333
+ ],
+ "T13d twist-6 (LL norms): Haar invariance, max deviation over 10 trials": 2.3869795029440866e-15,
+ "T13d twist-3 proxy (the 'minimal'): |Y - Y^T| (B1799: symmetric)": 2.2215299868541707e-16,
+ "T13d twist-3 proxy (the 'minimal'): (s12^2, s23^2, s13^2, |J|), m2/m3 of M_W": [
+  [
+   0.276966,
+   0.000293,
+   0.013928,
+   0.000329
+  ],
+  0.051616
+ ],
+ "T13d twist-3 proxy (the 'minimal'): Haar invariance, max deviation over 10 trials": 6.161737786669619e-15,
+ "P2b Phase 2's LL singular values (twist-3 norms, a0 = -b, L = 2.369206)": [
+  0.05395,
+  0.1912,
+  3.72996
+ ]
+}
