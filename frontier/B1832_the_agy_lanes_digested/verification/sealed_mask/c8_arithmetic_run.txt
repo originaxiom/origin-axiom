@@ -1,0 +1,6 @@
+(a) Q2: {'up': 17, 'down': 5, 'lepton': 45} ; lepton/down = 9.0 ; up/down = 3.4
+(b) max |-exp(-i pi(2j+1)/5) - exp(2 pi i(2-j)/5)| over j: 1.5700924586837752e-16
+(c) T on the order-10 lines (line_w(p1, p2, tau+1) = line_w(p1, p2 - p1, tau)): {0: 3, 1: 4, 2: 0, 3: 1, 4: 2}
+    max | |R(tau+1; j)| - |R(tau; T j)| | / max|R| : 0.35847252654417855
+(d) (LR)^3 = [[13, 8], [8, 5]] ; U = [[3, 2], [2, 1]] ; det U = -1 ; U mod 2 = [[1, 0], [0, 1]] ; locked points per spin character: [16, 16, 16, 16]
+(e) D(eta)/D_raw = 2.0959355144943648  e^{2 eta} = 2.0959355144943643 (illustrative numbers, not frame values)

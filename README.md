@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.61) of 2026-11-03 |
-| arcs with a verdict | 1536: 1048 PROVED, 382 NEGATIVE, 94 OPEN, 12 RETRACTED |
-| points in the register | 623: 265 open (queued, leads, waiting for the owner), 358 closed |
+| arcs with a verdict | 1537: 1049 PROVED, 382 NEGATIVE, 94 OPEN, 12 RETRACTED |
+| points in the register | 660: 296 open (queued, leads, waiting for the owner), 364 closed |
 | the last review | Review 74 (2026-11-04), anchor `41420ae14` |
-| the last landing | S299b B1832 THE AGY LANES DIGESTED (P-621): FOUR THEOREMS AND THREE EXACT IDENTITIES BANKED; B1784 AND B1826 CORRECTED; THE SCORECARD STILL 0 OF 19 (… |
+| the last landing | S300 B1833 THE BRAINSTORMS RE-READ (P-628): THE LEADS ARE LOST AFTER THEY ARE WRITTEN DOWN; 65 WITH NO CARRIER RE-ROWED; THE CENTRAL DIRECTION GIVEN… |
 <!-- STATE:END -->
 
 ## Start here

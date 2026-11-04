@@ -167,3 +167,56 @@ physical-bridge lane: the § 2 identities. The derivations of § 1.1 and § 1.3 
   unopened and outside the repository.
 - The two-loop β_λ comparison (phase 3's tool) was checked against the standard form written from memory, not against the
   source paper; nothing on main rests on it.
+
+> *Dated note 2026-11-04 (the owner: "do as u recomend, just take them seriously"; P-624):* the sealed parts are kept blind and preserved: 42 exhibits hash-pinned in `verification/SEALED_EXHIBITS.json` (paths, line ranges, sha256 and sizes only) and archive-tagged in main's repository; their value-free mathematics is extracted through a mask; they are opened only after P-585's level-2 card has run on main's own code, as an independent cross-check.*
+
+> *Dated note 2026-11-04 (the web seat's THE SINGLETS LAW, 46291f9f3, checked on main — `verification/a0_N_law_main.py`, 28 channel values to 1.8 × 10⁻¹⁴):* § 1.1's corollary "RI-1 as a theorem" is true as mathematics and is scoped here. The kernel constant's oddness between up and down/lepton IS its oddness under w → −w: a₀^up(w) = −a₀^down(w) = a₀^down(−w). By main's ruling (2026-11-04): w → −w (N) is a relabelling of the same point — it is the torus symmetry z → −z, it lies in B1724's group, and every census since B1712 keys a line by min((a, b), (−a, −b)). So RI-1's sign is not a function of the point, and a sector-odd singlet built from a₀ needs a CHOSEN sign rule (FL-06 stands): the identity removes no input. The web seat's theorem: a singlet that reads only its own sector's summed twist and obeys N's law is the same in all three sectors.*
+
+## S300 — the sealed exhibits' value-free mathematics, read through the mask (P-624 step 1; 2026-11-04)
+
+A firewalled reader read every sealed region through a mask (`verification/sealed_mask/README.txt`) and wrote nine
+value-free checks on main's code; main re-ran each (`verification/sealed_mask/*_run.txt`). No value, sign or bound of
+y_b/y_t, y_τ/y_b or tan β reached main; the reader lists six qualitative phrases that reached *its* context, written nowhere.
+
+- **The channel-exponent law (new; LAW_MAP).** Each channel residue decays as e^{−2π Im τ E} with E fixed by the bilinear's
+  four entries e_ab = ‖q_L α + a/2‖² + ‖q_R α + b/2‖² − 1/8 (a, b ∈ {0, 1}): channels j, k take min(e₀₀, e₁₁), channels 1, i
+  take min(e₀₁, e₁₀), independent of Re τ and of the offset. Within a sector the gap is 3/20 (up) and 1/20 (down = lepton)
+  on α = 2/5, and 1/20 in every sector on α = 1/5; the up sector's R₁ and R_i vanish exactly at the strip's special offsets
+  (B1703; § 1.2). Verified on main's residues at Im τ = 14 and 20, five offsets, two Re τ: 60 rows, worst deviation 0
+  (`c2_exponent_law.py`). Not proved here (it follows from the residues' theta-product form, § 1.2). The cross-sector
+  exponent was deliberately not computed (P-585's firewall).
+- **The a₀ table (new; P-355; RETRACTIONS).** S297's "lepton and down spectra coincide for EVERY Higgs exactly on B1703's
+  d = e points" was scanned at a₀ = 0. With a₀ ≠ 0 read with one sign in both sectors (FR-COV's (−adj S, S, S)) the
+  coincidence holds on the plain d = e points (orders 2, 4: 18 + 72 of 18 + 72 draws) and on the order-10 half-lifts (144 of
+  144), and fails on the transposed points (order 5) and the order-8 half-lifts, where opposite signs restore it (144 of 144,
+  96 of 96). On the transposed points, exactly: Y_e(a₀, h) = λ·Y_d(−a₀, h)ᵀ (10⁻¹⁴), a corollary of B1827's V2
+  (`c3_a0_on_the_identity_points.py`).
+- **The QI admixture acts at first order (new; refutes the lane's Theorem 21 and relay line 294).** On the order-10 strip
+  lines D departs linearly in h_I (doubling ratio 2.000 in 18 of 18 cases; B1742), and so does the third-generation
+  lepton/down relation: the down sector's first-order coupling z₃ = u₃†Y_I v₃ is 0.17–0.20 of ‖Y_I‖, and no census direction
+  cancels it (0 of 312, both readings) — the lane's "unchanged to O(∣h_i∣²)" is false (`c3b_first_order_hI.py`).
+- **§ 2's compensators, corrected (RETRACTIONS).** § 2 said the stabiliser 2D4 is "realised by unitary SO(10, I₁₀)
+  elements". Only projectively: the lane's compensators K_i, K_j, K_k lie in SO(10, I₁₀) and generate Z₄ ⋊ Z₄
+  (SmallGroup(16,4); three central involutions, twelve elements of order 4) — not Q₈ × Z₂ (Theorem 14's label is wrong) and
+  not 2D4 (no element of order 8); its image in PSO(10) is Q₈, and the quaternion relations hold only modulo ±I. The
+  chiral-spinor lifts (solved independently from the Clifford intertwining equation; equal to the lane's up to sign)
+  generate order 32, with K̂_i⁴ = K̂_j⁴ = −1 and K̂_k⁴ = +1 (`c4_spin10_compensators.py`).
+- **The intertwiner is SU(2) covariance.** All 84 F₂ words of length ≤ 3 intertwine the 12 × 12 mass operator; the identity
+  holds for every U ∈ SU(2) with arbitrary coefficients (5 × 10⁻¹⁶) and fails for det U ≠ 1 — the word list adds nothing
+  (`c5_f2_intertwiner.py`).
+- **T², not T, at the residue level.** τ → τ + 1 permutes the five order-10 lines as a 5-cycle but changes the residue
+  moduli by 36%, so T is not a frame symmetry; τ → τ + 2m preserves them (≤ 8 × 10⁻¹⁵) and is still a 5-cycle; with the
+  census Higgs the full outputs need τ + 8m, as § 1 found (`c8b_tshift.py`).
+- **Verified, already on main or trivial:** the residue patterns on the strip with λ = e^{2πi(2−j)/5} (T-HALF-LIFT; 10⁻¹⁴);
+  det Y = (h·h)(u₁² + m·m)(h·m) at a₀ = 0 and arg det(Y_u Y_d)'s independence of the Higgs's phase under (S̃, S, S) (B1659's
+  joint law at a₀ = 0; `c1_det_factorisation.py`); Q₂ = (17, 5, 45), the lepton/down 9 being (q_L, q_R)_lepton = 3·(−1, 2)
+  (reading it as Georgi–Jarlskog's c = 3 is framing); D(η) = e^{2η}·D_raw (a one-parameter fit, so "FORCED" declined);
+  U = ((LR)³ − I)/4 locks 16 of 64 8-torsion points per spin character (`c8_arithmetic.py`).
+
+**Bearing on P-597 and P-625.** No sealed region forces a scale. In any two-Higgs reading tan β absorbs y_b/y_t, so y_b/y_t
+is a held-out test only in a declared one-Higgs reading with shared normalisation; the card must fix the singular values
+(σ_max of each sector's Y), the reading, L, the relative kinetic normalisation and the scale. y_τ/y_b on an order-10 line
+moves at first order with the same h_I as D, so its independence from D must be argued (z₃ against z₁, z₂). **P-625:** the
+lane's slope selection is not value-free — the within-sector hierarchy holds on α = 1/5 as on 2/5, so what singles out 2/5
+is the bottom/top ordering, i.e. the cross-sector exponent that sets y_b/y_t; adopting it spends P-585's last clean held-out
+target. Put to the owner (P-625).

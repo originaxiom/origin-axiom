@@ -1,0 +1,4 @@
+convention U   : worst over 200 Haar SU(2), generic coefficients: 5.0e-16 ; best over 200 U(2) with det != 1: 1.97e-01
+convention U^T : worst over 200 Haar SU(2), generic coefficients: 2.1e+00 ; best over 200 U(2) with det != 1: 2.76e-01
+the lane's word list: 84 words, worst 7.5e-16 ; T_in multiplicative on words: trivially (block Kronecker)
+orders: g_L 8, g_R 8 (in SU(2))

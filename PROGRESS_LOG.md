@@ -18329,3 +18329,16 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 ## 2026-11-04 — S299b the agy lanes digested (B1832)
 
 - Every agy claim typed and checked on main's code; four theorems banked (P-524's kernel lemma derived, RI-1 a theorem, the lepton–down law on the 40 half-lifts proved, F₁₀'s norm, the θ_Y b-step); B1784 and B1826 corrected; the scorecard 0 of 19; the y_b/y_t parts unread. 0 of 19.
+
+## 2026-11-04 — S300: the brainstorms re-read (B1833) and the sealed exhibits' mathematics banked
+
+The owner asked whether the most important leads from brainstorms keep getting forgotten, then to check the chat history.
+Eight readers covered five sources; main verified every "forgotten" grade against the whole tracked record. Answer: they
+are lost after being written down, not before — leads never come due, reviews carry none, merged items die with their
+host, whole places are never read, renamed ideas are never joined. 65 items had no carrier; all are rowed (P-629–P-660),
+the central direction (what holds τ and selects the point) as one row with four never-computed handles. U_e and the PMNS
+come back as a candidate second held-out quantity for P-597; a loop lift of the rank-≤2 Yukawa as a sector-dependent route
+where D fails. The mechanism (P-659) and the direction (P-660) are the owner's calls. In the same landing the agy lanes'
+sealed exhibits were read through a mask (P-624 step 1): six value-free results banked in B1832, S297's scope and B1832 § 2
+corrected (RETRACTIONS +2), P-625 answered — the slope selection spends the held-out target. The S299c harvest is logged
+here. 0 of 19.

@@ -1,0 +1,7 @@
+c1.1 det Y / [(h.h)(u1^2+m.m)(h.m)] at a0=0: constant = (1-0j)  max rel spread = 6.722554724370084e-15
+c1.2 control: det Y on h.h = 0 and on h.m = 0 (relative): 2.519802523065622e-16
+c1.3 control (u1^2 - m.m wording): rel spread = 41.103879239422824
+c1.4 at a0 != 0 the a0 = 0 formula fails: min rel dev = 0.0369662624643151
+c1.5 S~ = S(conj a0, conj h): 0.0
+c1.6 arg det(Y_u Y_d) under (S~,S,S), a0=0: invariant under h -> e^{i phi} h, worst shift (rad): 7.105427357601002e-15
+c1.7 Im[(h_up.h_up)(h_down.h_down)] / |h.h|^2: 0.0

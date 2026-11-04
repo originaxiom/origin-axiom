@@ -1,0 +1,30 @@
+sealed region 2902-3313 sha256 (with/without final newline): 1f749c123a659612 126bf26afb69e8b1 (manifest 126bf26afb69e8b1)
+executed construction lines 3123 - 3196 (firewall words: none)
+  K_i: |K^T g K - g| = 0.0e+00  |K^+ K - I| = 0.0e+00  det = (1+0j)
+  K_j: |K^T g K - g| = 4.4e-16  |K^+ K - I| = 4.4e-16  det = (1-0j)
+  K_k: |K^T g K - g| = 4.4e-16  |K^+ K - I| = 4.4e-16  det = (1+0j)
+
+(1) |<K_i, K_j>| = 16 ; K_k in it: True
+  K_i^2 = Z135 = diag(-1,1,-1,1,-1)^(+)2: True ; K_k^2 = -Z135: True ; K_i^-1 K_k K_i = K_k^-1: True
+  element orders: {1: 1, 4: 12, 2: 3}
+  squares of the order-4 elements: {'+Z135': 8, '-Z135': 4}
+  |center| = 4 ; abelian: False ; every cyclic subgroup normal (Hamiltonian test): False
+  => isomorphism class by invariants (nonabelian, exponent 4, 3 involutions, distinct squares): Z4 x| Z4 (SmallGroup(16,4))
+  -I in G: True
+  Q8 test: K_i^2 vs K_j^2: = ; K_i^2 vs K_k^2: =- ; K_i K_j vs K_k: no ; K_j K_i vs K_k: = ; K_k K_i vs K_j: no
+
+(2) adjoint image order: 8 ; orders mod +-I: {1: 1, 4: 6, 2: 1} (Q8 = 1 x1, 1 x2, 6 x4; D4 = 1, 5, 2; Z2^3 = 1, 7, 0; Z4 x Z2 = 1, 3, 4)
+
+(3) own Clifford algebra: max |{G_M, G_N} - g_MN| = 0.0 ; chirality^2 = 1: True
+  charge-conjugation C (C G^T C^-1 = G): nullity gap 7.236675569095004e-16 1.9999999999999958 ; check 3.1562078335718597e-15
+  lift i: nullspace eigs 4.7e-15, 2.0e+00 ; intertwining err 1.8e-15 ; [X, chirality] 2.6e-16 ; X^4 = -1 ; |X -+ lane's lift| = 1.7e-15
+  lift j: nullspace eigs -6.4e-15, 2.0e+00 ; intertwining err 1.6e-15 ; [X, chirality] 1.9e-15 ; X^4 = -1 ; |X -+ lane's lift| = 1.6e-15
+  lift k: nullspace eigs -4.6e-15, 2.0e+00 ; intertwining err 1.8e-15 ; [X, chirality] 3.6e-15 ; X^4 = +1 ; |X -+ lane's lift| = 1.8e-15
+  group generated on 16+: order 32
+  group generated on 16-: order 32
+
+(4) word x_i^2 x_k^-2: SU(2) (quaternions) +I ; vector 10 -I ; adjoint 45 trivial ; spinor 32 +-i*chirality (the lift of -I10)
+
+(4) word x_i^4 x_k^-4: SU(2) (quaternions) +I ; vector 10 +I ; adjoint 45 trivial ; spinor 32 -I
+
+(5) e8 = (45,1)+(1,15)+(10,6)+(16,4)+(16b,4b): dimension 248

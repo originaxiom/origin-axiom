@@ -104,3 +104,5 @@ value NEGATIVE is scale-robust when (√χ²_best − ∣δ∣)² still exceeds 
   elsewhere, is not found by them; the old-era reader found two such rows (B716, B726) by reading past its hits.
 - LAW_MAP, IDENTIFICATION_LEDGER and KIND_TABLE were screened systematically; the latter two had no stale row. GENESIS and
   THE_WEAVE were checked only for the claims corrected here (neither repeats one); their systematic screen is owed (P-589).
+
+> *Dated note 2026-11-04 (S300; the firewalled reader's check re-run on main, B1832's S300 section):* the recheck's "the lepton and down spectra coincide for EVERY Higgs exactly on B1703's d = e points" was scanned at a₀ = 0 only. With a₀ ≠ 0 read with one sign in both sectors it holds on the plain points (orders 2, 4) and the order-10 half-lifts and fails on the transposed points (order 5) and the order-8 half-lifts, where opposite signs restore it — on the transposed points exactly Y_e(a₀, h) = λ·Y_d(−a₀, h)ᵀ. RETRACTIONS.*

@@ -1,0 +1,37 @@
+(a) residue relations on the strip lines (2/5, j/10), channels (1, i, j, k) relative to lam := R^e_j / R^d_j
+  tau=(0.3+2.6j) line (2/5, 0/10) order 5: pattern -+++  |lam|-1 = -2.3e-15
+  tau=(0.3+2.6j) line (2/5, 1/10) order 10: pattern +-++  |lam|-1 = -2.1e-15 |lam - exp(2 pi i (2-j')/5)| = 2.3e-15 (j'=0)
+  tau=(0.3+2.6j) line (2/5, 2/10) order 5: pattern -+++  |lam|-1 = -1.9e-15
+  tau=(0.3+2.6j) line (2/5, 3/10) order 10: pattern +-++  |lam|-1 = -1.2e-15 |lam - exp(2 pi i (2-j')/5)| = 1.8e-15 (j'=1)
+  tau=(0.3+2.6j) line (2/5, 4/10) order 5: pattern -+++  |lam|-1 = -1.0e-15
+  tau=(0.3+2.6j) line (2/5, 5/10) order 10: pattern +-++  |lam|-1 = -1.0e-15 |lam - exp(2 pi i (2-j')/5)| = 3.8e-15 (j'=2)
+  tau=(0.3+2.6j) line (2/5, 6/10) order 5: pattern -+++  |lam|-1 = -1.3e-15
+  tau=(0.3+2.6j) line (2/5, 7/10) order 10: pattern +-++  |lam|-1 = -3.0e-15 |lam - exp(2 pi i (2-j')/5)| = 3.6e-15 (j'=3)
+  tau=(0.3+2.6j) line (2/5, 8/10) order 5: pattern -+++  |lam|-1 = -2.2e-15
+  tau=(0.3+2.6j) line (2/5, 9/10) order 10: pattern +-++  |lam|-1 = -3.1e-15 |lam - exp(2 pi i (2-j')/5)| = 3.4e-15 (j'=4)
+  tau=(0.7+3.1j) line (2/5, 0/10) order 5: pattern -+++  |lam|-1 = 7.5e-15
+  tau=(0.7+3.1j) line (2/5, 1/10) order 10: pattern +-++  |lam|-1 = 6.2e-15 |lam - exp(2 pi i (2-j')/5)| = 6.4e-15 (j'=0)
+  tau=(0.7+3.1j) line (2/5, 2/10) order 5: pattern -+++  |lam|-1 = 5.1e-15
+  tau=(0.7+3.1j) line (2/5, 3/10) order 10: pattern +-++  |lam|-1 = 4.7e-15 |lam - exp(2 pi i (2-j')/5)| = 9.4e-15 (j'=1)
+  tau=(0.7+3.1j) line (2/5, 4/10) order 5: pattern -+++  |lam|-1 = 4.0e-15
+  tau=(0.7+3.1j) line (2/5, 5/10) order 10: pattern +-++  |lam|-1 = 4.4e-15 |lam - exp(2 pi i (2-j')/5)| = 1.6e-14 (j'=2)
+  tau=(0.7+3.1j) line (2/5, 6/10) order 5: pattern -+++  |lam|-1 = 4.4e-15
+  tau=(0.7+3.1j) line (2/5, 7/10) order 10: pattern +-++  |lam|-1 = 5.1e-15 |lam - exp(2 pi i (2-j')/5)| = 2.4e-14 (j'=3)
+  tau=(0.7+3.1j) line (2/5, 8/10) order 5: pattern -+++  |lam|-1 = 7.8e-15
+  tau=(0.7+3.1j) line (2/5, 9/10) order 10: pattern +-++  |lam|-1 = 7.8e-15 |lam - exp(2 pi i (2-j')/5)| = 2.6e-14 (j'=4)
+
+(b) classes from main's table: transposed d=e 25, plain d=e 16, beta-half-lifts 40 (orders [8, 10])
+  class, order: draws | spectra coincide at a0=0 | a0!=0 same sign | a0!=0 opposite signs | worst residual of Y_e(a0,h) = lam Y_d(-a0,h)^T (T class)
+  HL order  8:  96 |  96 |   0 |  96 | -
+  HL order 10: 144 | 144 | 144 |   0 | -
+  P  order  2:  18 |  18 |  18 |   0 | -
+  P  order  4:  72 |  72 |  72 |   0 | -
+  T  order  1:   6 |   6 |   6 |   6 | 1.2e-16
+  T  order  5: 144 | 144 |   0 | 144 | 1.1e-14
+  (80 s)
+
+(c) order-10 strip lines, a0 = 0: D_raw = (s2/s1)_e (s1/s2)_d ; doubling ratios (D(2e)-1)/(D(e)-1) ; first-order |u_k^+ Y_I v_k| / ||Y_I|| in the down sector at h_I = 0 (k = 1, 2, 3 light to heavy)
+  tau=(0.3+2.6j) line (2/5, 0.1): D_raw(h_I=0) - 1 = 1.1e-14 ; doubling ratios 2.0007 2.0013 ; first-order (k=1,2,3) = 1.80e-02 3.84e-02 1.96e-01
+  tau=(0.3+2.6j) line (2/5, 0.3): D_raw(h_I=0) - 1 = -8.8e-14 ; doubling ratios 1.9980 1.9959 ; first-order (k=1,2,3) = 2.54e-02 2.44e-02 2.04e-01
+  tau=(0.7+3.1j) line (2/5, 0.1): D_raw(h_I=0) - 1 = -7.3e-15 ; doubling ratios 2.0012 2.0024 ; first-order (k=1,2,3) = 1.49e-02 3.22e-02 1.74e-01
+  tau=(0.7+3.1j) line (2/5, 0.3): D_raw(h_I=0) - 1 = 3.8e-14 ; doubling ratios 1.9966 1.9933 ; first-order (k=1,2,3) = 1.02e-02 2.74e-02 1.77e-01

@@ -1,0 +1,1 @@
+apply_s300.py applied S300 once (2026-11-04). One follow-up edit by hand after it: P-650 names the sourced non-split configuration (B1466) explicitly, and three web-era quotes in the new rows and FINDINGS were replaced by topic wording (the leak-nothing rule).

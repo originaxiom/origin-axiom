@@ -2163,7 +2163,7 @@ charged-lepton diagonalization (blocks any PMNS comparison; zero repo hits); (2)
 channel** (tower→measurable; zero repo hits); (3) the Verlinde k=5..7 continuation (with 78=dim E₆ at k=5);
 (4) L(1,χ₅) on the ℤ-ladder; (5) the ζ₅ irrational-basepoint extension of B728; (6) the two-input
 (scale+chirality) boundary framing (now largely subsumed by B1164/B1168 — verify-then-close); (7) the
-s=1/48 parity-twisted pair vs the PC22 identity; (8) *(one further item on the private list, structural)*.
+s=1/48 parity-twisted pair vs the PC22 identity; (8) *(one further item on the private list, structural)*. **[Dated note 2026-11-04 (B1833): item (1), U_e, was merged into P-283 and died when B1799 closed P-283 on its own ask — re-rowed as P-638; the eight dispositions drafted in the audit room on 2026-10-23 were re-checked by the web-era reader and are proposed closures for main to confirm under P-617.]**
 Owner: the banking seat. The cell shape: per item, a bounded verify-or-register pass (bank, register as its
 own lead, or close-as-subsumed with the citation). ★★★ (U_e and the quasinormal channel are the two genuine
 physics-adjacent gaps in the record). Private source stays untracked; this row is the public owner.
@@ -3306,9 +3306,11 @@ GENESIS v1.1 is on main, verified and gated. What the lock still owes (`docs/THE
 
 **REVIEW 70 (2026-10-24), R69-7:** (c) THE_CLAIM's restatement and (f) R58, which GENESIS cites and main has not read, are dated next actions by Review 71 (R70-5); (a) the scope tags stay a standing campaign; (g) and (h) are carried as one item with them.
 
+**Dated note 2026-11-04 (B1833, P-653):** (g) and (h) fell out of the carry — R71-5 and P-428 carried only (c) and (f), and no register row held (g) or (h). Re-rowed as P-653 [DEBT].
+
 ## L241 — THE MEASURER QUESTION (registered 2026-10-02, B1455; standing, at the owner's word)
 
-**ESCALATED(2026-10-24: standing at the owner's word and never closed by a negative; reported at every landing touching selection, handedness, orientation, marking or the observer rows; its item (b), the Higgs's own twist, answered by B1744 (P-324 DONE)).**
+**ESCALATED(2026-10-24: standing at the owner's word and never closed by a negative; reported at every landing touching selection, handedness, orientation, marking or the observer rows; its item (b), the Higgs's own twist, answered by B1744 (P-324 DONE)).** **[Dated note 2026-11-04 (B1833, P-654): this note mislabels item (b). This lead's own item (b) is "an instrument that keeps the marking: the index of a based or framed module" (Owed, in order) — never built and still owed; B1744 answered a different question (the Higgs's own twist).]**
 
 The owner, 2026-10-02: the existence the programme derives is self-aware and makes choices; the derivation keeps
 dropping the measurer that tracks the rule a → ab, b → a through everything that emerges; are the choices binary, are

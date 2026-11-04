@@ -1,0 +1,338 @@
+[
+ {
+  "what": "toe_closure.py theorem18",
+  "rev": "18c607040",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "2902-3313",
+  "sha256": "126bf26afb69e8b1fcdec1e9f5d02ab98bb9ee9e350aea09d7ed2f0c460994ff",
+  "bytes": 25009
+ },
+ {
+  "what": "toe_closure.py theorem20",
+  "rev": "18c607040",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "3589-3816",
+  "sha256": "41dcaeffad1bcad46e94677fe092c42b8df20b4f6dd0c1182eeb293a07b5044a",
+  "bytes": 13627
+ },
+ {
+  "what": "six-stage relay from \u00a7 6.2",
+  "rev": "18c607040",
+  "path": "relays/AGY_TO_ALL_SEATS_2026-11-03_SIX_STAGE_BULLETPROOF_ROAD_PLAN_THEOREM_15_AND_4B91B9BE7_CLEANUP.md",
+  "lines": "200-360",
+  "sha256": "b0cb250015e429ec4793b204c72cbe10b8758d7c9d2d98ebd148e89d48c01659",
+  "bytes": 34441
+ },
+ {
+  "what": "sm_19_gate.py (whole file)",
+  "rev": "18c607040",
+  "path": "src/origin_axiom/sm_19_gate.py",
+  "lines": "all",
+  "sha256": "b04723370e5b1960d9a5ad8421a409c0a12df96600feeeac868c6276e96ce0ff",
+  "bytes": 45431
+ },
+ {
+  "what": "frontier branch agy:B1769",
+  "rev": "05e6caab",
+  "path": "frontier/B1769_dynamic_rewsb_and_forward_higgs_mass/FINDINGS.md",
+  "lines": "all",
+  "sha256": "74d7e30962ff5548219ab1c4a3e9923e2725f238600c0837ea5096be47845160",
+  "bytes": 5487
+ },
+ {
+  "what": "frontier branch agy:B1769",
+  "rev": "05e6caab",
+  "path": "frontier/B1769_dynamic_rewsb_and_forward_higgs_mass/arc_verdict.json",
+  "lines": "all",
+  "sha256": "b34144b2027129c6e579ec59b95869517ee9d96d3a3ea846b2d3f23fd5fe934e",
+  "bytes": 2331
+ },
+ {
+  "what": "frontier branch agy:B1769",
+  "rev": "05e6caab",
+  "path": "frontier/B1769_dynamic_rewsb_and_forward_higgs_mass/verification/dynamic_rewsb.json",
+  "lines": "all",
+  "sha256": "220f9cf289b9e949a518b06782fa649a715006167195ebc15d8b8b9e4c0bc103",
+  "bytes": 697
+ },
+ {
+  "what": "frontier branch agy:B1769",
+  "rev": "05e6caab",
+  "path": "frontier/B1769_dynamic_rewsb_and_forward_higgs_mass/verification/dynamic_rewsb.py",
+  "lines": "all",
+  "sha256": "84e9724bc5c76bca51b2851c3aa86a1a8a727225034f02a20940133dc4e4f42c",
+  "bytes": 6713
+ },
+ {
+  "what": "frontier branch agy:B1769",
+  "rev": "05e6caab",
+  "path": "frontier/B1769_dynamic_rewsb_and_forward_higgs_mass/verification/dynamic_rewsb_run.txt",
+  "lines": "all",
+  "sha256": "efb37ea5969e53afe906a0527136447307a5b5c6870fa408240179e134c4590d",
+  "bytes": 1234
+ },
+ {
+  "what": "frontier branch agy:B1772",
+  "rev": "05e6caab",
+  "path": "frontier/B1772_the_nineteen_sm_parameters_synthesis/FINDINGS.md",
+  "lines": "all",
+  "sha256": "47f0794fba50544d06ec0c88737be1f405654857f9e860e65d1546599acca5af",
+  "bytes": 8971
+ },
+ {
+  "what": "frontier branch agy:B1772",
+  "rev": "05e6caab",
+  "path": "frontier/B1772_the_nineteen_sm_parameters_synthesis/arc_verdict.json",
+  "lines": "all",
+  "sha256": "e77a492b923b83d90fad40b506c5676c7811344b7c780e9b8947d947ece4dc60",
+  "bytes": 2065
+ },
+ {
+  "what": "frontier branch agy:B1772",
+  "rev": "05e6caab",
+  "path": "frontier/B1772_the_nineteen_sm_parameters_synthesis/verification/sm_nineteen_parameters_ledger.json",
+  "lines": "all",
+  "sha256": "420a0afed870237aedbe62b8f0162686395420348625a13c478e7404db7d4a8b",
+  "bytes": 6856
+ },
+ {
+  "what": "frontier branch agy:B1772",
+  "rev": "05e6caab",
+  "path": "frontier/B1772_the_nineteen_sm_parameters_synthesis/verification/sm_nineteen_parameters_ledger.py",
+  "lines": "all",
+  "sha256": "29c5058467a3ec08820524c7b5b637bca6839735277ef82b35c69474985c0f5f",
+  "bytes": 9670
+ },
+ {
+  "what": "frontier branch agy:B1772",
+  "rev": "05e6caab",
+  "path": "frontier/B1772_the_nineteen_sm_parameters_synthesis/verification/sm_nineteen_parameters_ledger_run.txt",
+  "lines": "all",
+  "sha256": "3d5b68d2c813c0d3aa9e7779a8779f7bbb94ccb85f0170dcecd67b3126100479",
+  "bytes": 2333
+ },
+ {
+  "what": "frontier branch agy:B1776",
+  "rev": "05e6caab",
+  "path": "frontier/B1776_non_perturbative_instanton_calculus_and_flavour_completion/FINDINGS.md",
+  "lines": "all",
+  "sha256": "8acd5083a4f7c5b8b7ba9f6a9483859624683c750a1541c455f312a8cce5cc49",
+  "bytes": 5468
+ },
+ {
+  "what": "frontier branch agy:B1776",
+  "rev": "05e6caab",
+  "path": "frontier/B1776_non_perturbative_instanton_calculus_and_flavour_completion/arc_verdict.json",
+  "lines": "all",
+  "sha256": "8dc334349c2c374da8566d8dfee5cfa488e261986923910d5b76ed816813ff10",
+  "bytes": 2075
+ },
+ {
+  "what": "frontier branch agy:B1776",
+  "rev": "05e6caab",
+  "path": "frontier/B1776_non_perturbative_instanton_calculus_and_flavour_completion/verification/instanton_flavour_completion.json",
+  "lines": "all",
+  "sha256": "526ec381638fa04e15f7ed44964901b023c20227386a37a2771fcb7ef61c36cc",
+  "bytes": 1132
+ },
+ {
+  "what": "frontier branch agy:B1776",
+  "rev": "05e6caab",
+  "path": "frontier/B1776_non_perturbative_instanton_calculus_and_flavour_completion/verification/instanton_flavour_completion.py",
+  "lines": "all",
+  "sha256": "bb4555e3cb3d148e4d975381e3e961eb8ae4fcce335bafcbc24bb881491fe5af",
+  "bytes": 5034
+ },
+ {
+  "what": "frontier branch agy:B1776",
+  "rev": "05e6caab",
+  "path": "frontier/B1776_non_perturbative_instanton_calculus_and_flavour_completion/verification/instanton_flavour_completion_run.txt",
+  "lines": "all",
+  "sha256": "aa2b69c217047e7f8dbebc9fe5921c75c7a4ff55343a53ba736ae0960934fb37",
+  "bytes": 1760
+ },
+ {
+  "what": "frontier branch agy:B1777",
+  "rev": "05e6caab",
+  "path": "frontier/B1777_complete_nineteen_standard_model_derivation_and_certification/FINDINGS.md",
+  "lines": "all",
+  "sha256": "42fadeb18815d5b58e0fcbe75fca8251962d0969a4748654d56e09c98036f4b0",
+  "bytes": 7449
+ },
+ {
+  "what": "frontier branch agy:B1777",
+  "rev": "05e6caab",
+  "path": "frontier/B1777_complete_nineteen_standard_model_derivation_and_certification/arc_verdict.json",
+  "lines": "all",
+  "sha256": "556fb577d140b92e74697332937cdac222f1f3430f6f0ac82bc02ec31c57eb9d",
+  "bytes": 2150
+ },
+ {
+  "what": "frontier branch agy:B1777",
+  "rev": "05e6caab",
+  "path": "frontier/B1777_complete_nineteen_standard_model_derivation_and_certification/verification/certified_nineteen_ledger.json",
+  "lines": "all",
+  "sha256": "474cf58254e9b7f5abe5c8c0d8c3bafae896f2dbed8514cebbfab746252f3ad4",
+  "bytes": 5762
+ },
+ {
+  "what": "frontier branch agy:B1777",
+  "rev": "05e6caab",
+  "path": "frontier/B1777_complete_nineteen_standard_model_derivation_and_certification/verification/certified_nineteen_ledger.py",
+  "lines": "all",
+  "sha256": "0666f0a11b9d27d09998d3d3a201ab129c0975b5d050fa2663e0d386f5579f71",
+  "bytes": 7194
+ },
+ {
+  "what": "frontier branch agy:B1777",
+  "rev": "05e6caab",
+  "path": "frontier/B1777_complete_nineteen_standard_model_derivation_and_certification/verification/certified_nineteen_ledger_run.txt",
+  "lines": "all",
+  "sha256": "10478601fe423c83add91b32e664afdaaa013f80caaebdf363301cb810d6987c",
+  "bytes": 2589
+ },
+ {
+  "what": "frontier branch agy:B1778",
+  "rev": "05e6caab",
+  "path": "frontier/B1778_supergravity_soft_unification_and_dynamic_higgs_minimization/FINDINGS.md",
+  "lines": "all",
+  "sha256": "d4a85d3a3d9fb2a17c0ece3b163308a94fcc99c06b6dffccd0c9f081e5e492cb",
+  "bytes": 7097
+ },
+ {
+  "what": "frontier branch agy:B1778",
+  "rev": "05e6caab",
+  "path": "frontier/B1778_supergravity_soft_unification_and_dynamic_higgs_minimization/arc_verdict.json",
+  "lines": "all",
+  "sha256": "90e69aa1e603e9fa0f44e16006ef6a24a0b20fb39f49712ba2320edf18dcb8a1",
+  "bytes": 2238
+ },
+ {
+  "what": "frontier branch agy:B1778",
+  "rev": "05e6caab",
+  "path": "frontier/B1778_supergravity_soft_unification_and_dynamic_higgs_minimization/verification/sugra_soft_and_higgs_minimization.json",
+  "lines": "all",
+  "sha256": "4e41465e294b55c532a88016a8c1b69501197587dd1c5d5e174e96ddca6efa58",
+  "bytes": 1846
+ },
+ {
+  "what": "frontier branch agy:B1778",
+  "rev": "05e6caab",
+  "path": "frontier/B1778_supergravity_soft_unification_and_dynamic_higgs_minimization/verification/sugra_soft_and_higgs_minimization.py",
+  "lines": "all",
+  "sha256": "4a684da45a63fa5f11ad0153e591e84834795cec7c91e44873b209d0c8173048",
+  "bytes": 10321
+ },
+ {
+  "what": "frontier branch agy:B1778",
+  "rev": "05e6caab",
+  "path": "frontier/B1778_supergravity_soft_unification_and_dynamic_higgs_minimization/verification/sugra_soft_and_higgs_minimization_run.txt",
+  "lines": "all",
+  "sha256": "a3ad96f7305334f6009e285347a7330b6ba46beca3c7303ffeaf54c92a48c63f",
+  "bytes": 1587
+ },
+ {
+  "what": "frontier branch agy:B1779",
+  "rev": "05e6caab",
+  "path": "frontier/B1779_ray_singer_torsion_and_down_quark_instanton_completion/FINDINGS.md",
+  "lines": "all",
+  "sha256": "6e32717d1474304a6fcca54baf7ae20c31cdb0f3657b6db0e0d46d0259d91168",
+  "bytes": 4560
+ },
+ {
+  "what": "frontier branch agy:B1779",
+  "rev": "05e6caab",
+  "path": "frontier/B1779_ray_singer_torsion_and_down_quark_instanton_completion/arc_verdict.json",
+  "lines": "all",
+  "sha256": "5913d4468aae146b71501ae2943b60170dfd6f817524340fe4c427f49d1887ee",
+  "bytes": 2096
+ },
+ {
+  "what": "frontier branch agy:B1779",
+  "rev": "05e6caab",
+  "path": "frontier/B1779_ray_singer_torsion_and_down_quark_instanton_completion/verification/ray_singer_down_instanton.json",
+  "lines": "all",
+  "sha256": "ad6d4bb866e068392ae7b16013fc46d91ef821515fd405dcd305e1edcfdd71f0",
+  "bytes": 968
+ },
+ {
+  "what": "frontier branch agy:B1779",
+  "rev": "05e6caab",
+  "path": "frontier/B1779_ray_singer_torsion_and_down_quark_instanton_completion/verification/ray_singer_down_instanton.py",
+  "lines": "all",
+  "sha256": "e87065bc4ca1c8d6fb09d0b81fe72f2431b4dfb801bdae6f6cd2439e06adb6ee",
+  "bytes": 5926
+ },
+ {
+  "what": "frontier branch agy:B1779",
+  "rev": "05e6caab",
+  "path": "frontier/B1779_ray_singer_torsion_and_down_quark_instanton_completion/verification/ray_singer_down_instanton_run.txt",
+  "lines": "all",
+  "sha256": "7e67129217d0ab20c7348f68cfb5c3d70e2ae441e180ca97a617af3893ffd7fe",
+  "bytes": 1153
+ },
+ {
+  "what": "frontier branch agy:B1781",
+  "rev": "05e6caab",
+  "path": "frontier/B1781_unconditional_caveat_free_nineteen_certification/FINDINGS.md",
+  "lines": "all",
+  "sha256": "63473fafc9ba38372dcc7afeb9ea0f6a7b0c9a3c85a0b15d5a65c7e4dc5257e0",
+  "bytes": 7535
+ },
+ {
+  "what": "frontier branch agy:B1781",
+  "rev": "05e6caab",
+  "path": "frontier/B1781_unconditional_caveat_free_nineteen_certification/arc_verdict.json",
+  "lines": "all",
+  "sha256": "482c845e2dafec06e4d6164ef7a09e660bcbbedeca98665c71c7f52791a4b0fd",
+  "bytes": 2344
+ },
+ {
+  "what": "frontier branch agy:B1781",
+  "rev": "05e6caab",
+  "path": "frontier/B1781_unconditional_caveat_free_nineteen_certification/verification/caveat_free_master_ledger.json",
+  "lines": "all",
+  "sha256": "a241e6703af98709897307ab35c29fbf5e4f2e69d4829f3c4eedf308c7ac64fd",
+  "bytes": 6470
+ },
+ {
+  "what": "frontier branch agy:B1781",
+  "rev": "05e6caab",
+  "path": "frontier/B1781_unconditional_caveat_free_nineteen_certification/verification/caveat_free_master_ledger.py",
+  "lines": "all",
+  "sha256": "a1f9b120e8fcbac8f99ac1bc5088ad3d3cd90b6bd1fed8a9de9b0b55c485d28a",
+  "bytes": 11437
+ },
+ {
+  "what": "frontier branch agy:B1781",
+  "rev": "05e6caab",
+  "path": "frontier/B1781_unconditional_caveat_free_nineteen_certification/verification/caveat_free_master_ledger_run.txt",
+  "lines": "all",
+  "sha256": "df97e0c5664549e03fc126b6585e3736211b90b4e038cb4f718c2233111bd7b7",
+  "bytes": 2914
+ },
+ {
+  "what": "independent lane (inter-sector lines inside)",
+  "rev": "4b91b9be",
+  "path": "audit_independent/AUDIT_REPORT_2026-11-03.md",
+  "lines": "all",
+  "sha256": "7fcf67ff8e2287bb2a6f4f9bfddc158b3563983d599a9813db072b1f684f2949",
+  "bytes": 25100
+ },
+ {
+  "what": "independent lane (inter-sector lines inside)",
+  "rev": "4b91b9be",
+  "path": "audit_independent/late_claims/sensitivity_results.json",
+  "lines": "all",
+  "sha256": "f245189d25c0fd97d3276311215cb43ccc74ce4743b205176e90bc93443f10b0",
+  "bytes": 1929
+ },
+ {
+  "what": "independent lane (inter-sector lines inside)",
+  "rev": "4b91b9be",
+  "path": "audit_independent/late_claims/agy_scorecard_dfe4c6f90.json",
+  "lines": "all",
+  "sha256": "c2b1653f4fcb529185db83ee5eb1580f22703fe448895dd42fb518ba200141a1",
+  "bytes": 6676
+ }
+]
