@@ -376,10 +376,101 @@ Main's B1836 (S301) covers agy's Theorems 29–64. These four are later.
 - **Out:** no measured value; no candidate address; no D, no θ̄, no inter-sector value. One coarse fact is in the
   hierarchical fractions only (Kind, above).
 
+## Dated note (2026-11-05): how much the result leans on the cut, computed (POST HOC 2)
+
+**Check:** `relays/chat1_2026-11-04_density/cut_sensitivity_posthoc.py` (9556ddd8f). It was committed before its run, after
+the second referee's probe, and run once against main at 88c577896. Output 2a6383a63 (exit 0, empty stderr). A reduced
+smoke copy, outside the tree, preceded the commit. A third read-only referee re-ran it, byte for byte. The check
+replaces the second referee's probe in § 4's "The result leans hard on A07", and runs on to Im τ 8.
+
+**What it computes.** M3 and P3, with the principal value in closed form:
+PV(ε) = π − Im τ S_s − C_s πε², where C_s = G₂ − S_s = −℘(v_s). The ε² term is exact for a round disc inside the cell.
+Four versions:
+- ε → 0: A07's small-cut form, constant π at large Im τ;
+- ε = e^(−L_max)/2: a disc inside the cell, constant about 2.43 from Im τ 5 up;
+- ε = e^(−L_max): the frame's own radius, constant about 0.29 from Im τ 5 up. This disc crosses the cell's sides, as
+  in A07's own form, so this version continues the closed form past the cell. Cut from the cell itself, the constant
+  is about 0.39 (the third referee's probe);
+- the constant removed (c = 0): the r-inner sum.
+
+The norms stay in the small-cut form throughout. So the check varies only the principal value's own dropped term; the
+norms' own terms (17–42% at L_max, § 4) are not tested. The grid is the 236 census lines with χ(6w) ≠ 1, at Re τ 0.2
+and Im τ 2–8.
+
+**Two controls.**
+- The A07 version reproduces f271abe66's M3 and P3 at Im τ 2–6 to every printed digit: medians, effective exponents
+  and within-pair differences.
+- The frame-radius version reproduces the second referee's medians at Im τ 2–6 to every printed digit.
+
+**The result.** Effective exponent of the median m₂/m₃, over Im τ 6–7 and then 7–8:
+
+| version | M3 down | M3 leptons | P3 up |
+|---|---|---|---|
+| A07 (π) | 0.204, 0.205 | 0.186, 0.193 | 0.225, 0.229 |
+| half the frame's radius (≈ 2.43) | 0.203, 0.205 | 0.185, 0.193 | 0.225, 0.228 |
+| the frame's radius (≈ 0.29) | 0.173, 0.203 | 0.040, 0.190 | 0.222, 0.226 |
+| no constant (c = 0) | 0.106, 0.098 | 0.130, 0.136 | 0.125, 0.125 |
+| point frame (for reference) | down 0.205, 0.208 | leptons 0.221, 0.219 | up 0.252, 0.251 |
+
+- **Each of the three constants computed gives A07's exponent; the constant sets the height at which it appears.**
+  - At Im τ 8 the medians scale about as 1/c. Against A07, half the radius gives 1.26 and the frame's radius about 9.9
+    in all three sectors; π/c is 1.29 and 11.0.
+  - That any non-zero constant does the same is the by-hand reading of § 4's prefactor 4|A|/|c|. A third referee's
+    probe adds −0.285 and 0.0285, out to Im τ 11.
+- **At the frame's radius the principal-value side reaches A07's exponent by Im τ 7–8.**
+  - Interpolating A07's medians, its Im τ 8 medians sit 1.8 (down), 1.9 (leptons) and 1.6 (P3's up) units of Im τ
+    later.
+  - Before that its exponents lag. Over the intervals 2–3 to 5–6, M3's down gives 0.004, 0.058, 0.006, 0.078, and its
+    leptons 0.171, 0.009, −0.090, −0.094.
+  - At Im τ 8 its within-pair differences are about ten times A07's (0.00439 against 0.000447). Between Im τ 7 and 8
+    they fall by 4.81, against A07's 4.85.
+  - Cut from the cell itself, with constant about 0.39, the third referee's probe finds the same exponents from Im τ
+    7–8 and a lag of 1.4–1.65 units.
+- **A07's exponent is the point frame's for down, not for the other two.** At Im τ 7–8 the leptons' and P3's up are
+  0.02–0.03 below the point frame's.
+- **With no constant, the exponent itself changes.**
+  - The within-pair agreement is then close to the point frame's: within 5% at Im τ 3–6, and 9.3 × 10⁻⁶ against
+    5.9 × 10⁻⁶ at Im τ 8.
+  - But the exponent drops: about 0.10 for M3's down at every height (0.094–0.113), and 0.10–0.125 for P3's up.
+  - A likely reason, not checked: without the constant the weights are graded exponentially between the two pairs.
+- **The frame's radius sits close to the cancelling radius.**
+  - By hand from the closed form: at large Im τ the constant is π(1 − G₂ε²), with G₂ ≈ π²/3 = 3.29. It vanishes at
+    ε = G₂^(−1/2) = 0.551.
+  - At that radius the principal value is −Im τ S_s times a factor common to every channel, so the spectra are exactly
+    the c = 0 row's.
+  - The frame's radius (0.519–0.526) is 0.94–0.95 of 0.551 and removes 89–91% of π. A radius 5–6% larger would cancel
+    it.
+  - So the margin sits in the radius, and it is A06's question as much as A07's.
+- **So § 4's "the hierarchy moves past Im τ 6" holds, but the hierarchy is not lost.**
+  - With the norms held small-cut, the principal value's cut decides the height at which the principal-value side
+    becomes hierarchical, not whether it does, as long as the constant is not cancelled.
+  - At low heights both versions are far from the point frame. At Im τ 2–3 the point frame's down medians are 0.094
+    and 0.018. M3's down is 0.209 and 0.163 under A07, and 0.144 and 0.14 at the frame's radius.
+
+**On agy's Stage 11 (55431c8c7).** Its Theorem 82 argues that modular covariance forces the constant π.
+- By hand: the closed form −Im τ(℘(v) + G₂*) is exactly covariant under S, with weight (τ/|τ|)², because ℘ and G₂*
+  have weight 2 and Im τ → Im τ/|τ|².
+- The disc term ℘(v)πε² is covariant too if the radius scales with the coordinate (ε → ε/|τ|). It is not covariant if
+  the radius is held fixed. Whether the frame's radius e^(−L_max) scales that way is A06's and A07's question.
+- The third referee's probe confirms both statements numerically.
+- Theorem 82's numerical "violation > 1.0" does not test the disc term. Its code replaces π by the constant 0.32 in
+  −Im τ(℘ + G₂) + c, instead of subtracting C_s πε².
+- Its Theorem 81, a spectral reading of the small-cut norm, is not checked here. Its samples include the family's line
+  (2/5, 1/10), as § 6 notes for Theorem 73.
+
+**What this changes.**
+- § 4's "The result leans hard on A07" now rests on this check, not on the second referee's probe.
+- With the norms held small-cut, keeping the principal value's term at the frame's radius delays the hierarchy by about
+  1.6–1.9 units of Im τ, with A07's exponent. It does not remove it. § 5's and § 7's A07 lines should be read that way.
+- Main's B1837 says the tame profile keeps the hierarchy "only through the small-cut norm". This check does not leave
+  the small-cut norm, so it cannot test that line. It does support B1837's next clause, "A07, the end, becomes more
+  load-bearing, not less": the frame's radius is within 6% of the radius that would cancel the constant.
+
 ## Harvestable rows (the 8-cell format; # and disposition are main's)
 
 | # | seat | item | the seat's own headline (verbatim) | path @ pin | disposition | main arc | date |
 |---|---|---|---|---|---|---|---|
 | — | web seat (chat1) | THE DENSITY HIGGS (density_higgs_check.py 5c9a4b7ae → 792b21646; POST HOC kernel_profile_posthoc.py 227f45f26 → f271abe66) | "in the density typing one charged Higgs and its conjugate both couple, and the coupling's periodicity makes W147's label difference a forced pairing, the record's rule, off W147's 20 lines: the twisted section I-35 asks for; one plane wave per channel loses the exponential m₂/m₃ hierarchy (excluded at leading order), but P-151's tame profile for one field keeps it in both charge assignments under the small-cut convention (post hoc; exponent 0.18–0.22 by Im τ 5–6 against the point frame's 0.20–0.25), with up exactly the point frame in A05's assignment; the typing becomes a chosen input, the absolute bit stays, the result leans hard on A07, and its six are untested: no input is removed" | `relays/CHAT1_TO_CC_2026-11-04_THE_DENSITY_HIGGS.md` @ the commit adding it | — | B1651, B1654, B1656, B1701, B1744, B1788, B1790, B1832 (T-KERNEL-SUM-TWIST), P-151, P-295, P-394, P-421, I-35; the SM seat's W147, W177, W61, W63; THE DOUBLET INDEX | 2026-11-04 |
+| — | web seat (chat1) | THE DENSITY HIGGS, dated note 2026-11-05 (POST HOC 2: cut_sensitivity_posthoc.py 9556ddd8f → 2a6383a63) | "how much the result leans on the cut, computed: with the norms held small-cut, each of three non-zero constants in the principal value gives A07's exponent, at the frame's own radius 1.6–1.9 units of Im τ later; with no constant the exponent drops to about 0.10; the frame's radius is within 6% of the radius that cancels the constant" | `relays/CHAT1_TO_CC_2026-11-04_THE_DENSITY_HIGGS.md` @ the commit adding the dated note | — | A06, A07, P-421, B1837; agy's Stage 11 (Theorems 81, 82) | 2026-11-05 |
 
 0 of 19.
